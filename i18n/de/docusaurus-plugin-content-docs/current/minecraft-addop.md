@@ -58,3 +58,5 @@ Jetzt muss bei dem gewünschten Spieler der Wert von "level" auf das gewünschte
 ![](https://screensaver01.zap-hosting.com/index.php/s/2AozMYsSprjQ7WD/preview)
 
 Damit die Änderungen übernommen werden, ist ein Neustart des Servers nötig, was mit dem Halten des roten Stop-Buttons im Interface des Servers möglich ist.
+
+<InlineVoucher />

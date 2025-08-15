@@ -164,3 +164,5 @@ Bei weiteren Fragen oder Problemen steht dir unser Support jederzeit gerne zur V
 
 ## Abschluss
 Glückwunsch, du hast das Windows Server 2022 Betriebssystem erfolgreich auf deinem Dedicated Server installiert. Für weitere Fragen oder Hilfe zögere bitte nicht, unser Support-Team zu kontaktieren, das dir täglich zur Verfügung steht! 🙂
+
+<InlineVoucher />

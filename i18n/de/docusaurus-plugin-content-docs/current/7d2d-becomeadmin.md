@@ -70,3 +70,5 @@ Eine Berechtigungsstufe besteht aus einem Wert zwischen 0 und 1000 und legt fest
 ## Abschluss
 
 Glückwunsch, du hast erfolgreich die Administratorberechtigungen konfiguriert. Für weitere Fragen oder Hilfe zögere bitte nicht, unser Support-Team zu kontaktieren, das dir täglich zur Verfügung steht! 🙂
+
+<InlineVoucher />

@@ -98,3 +98,5 @@ Ziehe die `.zip`-Datei der Addon Map einfach per Drag-and-drop an diesen Speiche
 ## Abschluss
 
 Nachdem du alle Schritte ausgeführt hast, starte deinen BeamMP-Server neu. Du hast erfolgreich eine Addon Map auf deinem BeamMP Gameserver installiert. Für weitere Fragen oder Hilfe zögere bitte nicht, unser Support-Team zu kontaktieren, das dir täglich zur Verfügung steht! 🙂
+
+<InlineVoucher />

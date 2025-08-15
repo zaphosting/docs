@@ -104,3 +104,5 @@ Suggested solutions:
 
 - In that case, you can simply remove the plugin entry by clicking the uninstall button.
 - Alternatively, you can try clicking the Synchronize button.
+
+<InlineVoucher />

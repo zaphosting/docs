@@ -76,3 +76,5 @@ Once the operating system has been set up, it is necessary to activate RDP acces
 
 ## Conclusion
 Congratulations, you have successfully installed the Windows Server 2025 operating system on your dedicated server. For further questions or assistance, please don't hesitate to contact our support team, which is available daily to assist you! 🙂
+
+<InlineVoucher />

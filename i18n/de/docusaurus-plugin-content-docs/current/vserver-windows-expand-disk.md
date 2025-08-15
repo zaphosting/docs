@@ -89,3 +89,5 @@ Wenn alles geklappt hat, solltest du sehen, dass die Volumengröße größer ist
 ## Abschluss
 
 Du hast die Hauptpartition auf deiner Festplatte erfolgreich vergrößert, um den gesamten Speicherplatz zu nutzen. Für weitere Fragen oder Hilfe zögere bitte nicht, unser Support-Team zu kontaktieren, das dir täglich zur Verfügung steht! 🙂
+
+<InlineVoucher />

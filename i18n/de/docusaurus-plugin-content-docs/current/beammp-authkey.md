@@ -56,3 +56,5 @@ Nun öffnen wir die Einstellungen unseres Gameservers und scrollen nach unten, h
 Nun speichern wir die Einstellungen und starten den Server neu.
 
 Fertig! Der Key ist nun angewandt und der Server sollte sich in Kürze listen.
+
+<InlineVoucher />

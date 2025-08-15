@@ -38,3 +38,5 @@ Deine Plugins sollten immer auf dem neuesten Stand gehalten werden. WordPress er
 ## Abschluss
 
 Glückwünsch, du hast dein erstes WordPress Plugins installiert. olltest du noch weitere Fragen oder Probleme haben, dann wende dich gerne an unser Support-Team, welches dir jeden Tag zur Verfügung steht! 
+
+<InlineVoucher />

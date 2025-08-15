@@ -29,3 +29,5 @@ Our voiceservers based on Teamspeak 3/5 are ideal for exchanging voice chats wit
 ## Frequently Asked Questions
 Got more questions about our Voiceserver product? Get answers to everything you want to know about features, benefits, setup and how to use it effectively. This way you get the info you need to make the most of our Voiceserver product. And if something is still unclear, just reach out and we are here to help you right away.
 <SearchableAccordion items={items} />
+
+<InlineVoucher />

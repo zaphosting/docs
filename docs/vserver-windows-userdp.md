@@ -62,3 +62,5 @@ The following programs are great alternatives that are suitable for connecting t
 In modern times, Microsoft provides an official Remote Desktop (RDP) app for both major mobile operating systems. We recommend using these on mobile as they have alot of useful features.
 
 The app can be found here respectively to the platform: [Android](https://play.google.com/store/apps/details?id=com.microsoft.rdc.androidx&hl=en) and [iOS](https://apps.apple.com/us/app/remote-desktop-mobile/id714464092)
+
+<InlineVoucher />

@@ -62,3 +62,5 @@ After you have edited all the textures and adjusted their size, replace the old 
 | **Physical Memory**         | 166.00 MiB                      | 10.69 MiB                      | 15.5x              |
 
 Don't forget to test the textures in the game. If problems occur, you can always reset individual textures to their original size or use the original .dds files.
+
+<InlineVoucher />

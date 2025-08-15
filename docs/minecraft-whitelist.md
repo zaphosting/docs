@@ -111,3 +111,5 @@ If you don't want to open the whitelist file via FTP every time, you can also di
 /whitelist list
 ```
 
+
+<InlineVoucher />

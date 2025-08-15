@@ -68,3 +68,5 @@ Wenn du alles richtig gemacht hast, leuchtet die Anzeige **Connected** nun grün
 ![](https://screensaver01.zap-hosting.com/index.php/s/prPpMy8L38KqKzc/preview)
 
 Nun kannst du RCON für deinen Server nutzen. :) 
+
+<InlineVoucher />

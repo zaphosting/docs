@@ -62,3 +62,5 @@ In this step, you need to name your savegame and pick one of the 4 worlds, which
 After that you can join your server in the "Status" tab:
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/PDF4ED5FkwCXK6d/preview)
+
+<InlineVoucher />

@@ -89,3 +89,5 @@ Bitte vergewissere dich, dass die Domain in deinem ZAP-Hosting-Konto aktiv ist, 
 
 Wenn du immer noch Probleme mit der Subdomain-Funktion hast, wende dich bitte an unser Support-Team, [indem du ein Ticket auf unserer Website erstellst](https://zap-hosting.com/de/customer/support/). Wir helfen dir dann gerne weiter.
 
+
+<InlineVoucher />

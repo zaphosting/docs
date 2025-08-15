@@ -147,3 +147,5 @@ Wenn du Probleme hast, dich mit dem Server zu verbinden, öffne die Datei "Start
 :::
 
 Du hast Myth of Empires erfolgreich auf deinem Windows VPS installiert.
+
+<InlineVoucher />

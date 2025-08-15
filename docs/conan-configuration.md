@@ -231,3 +231,5 @@ In the Pets and Hunger settings you will find all the relevant commands about th
 | Animal Pen Crafting Time Multiplier | Multiplies the speed of crafting in animal pens.             | AnimalPenCraftingTimeMultiplier= |
 | Food Container Range multiplier     | Multiplies the distance that Food Containers can feed your companions. | FeedBoxRangeMultiplier=          |
 | Exclusive Diet                      | Determines whether companions exclusively eat items listed on their diet. Disabled means they will eat any food item, in addition to their diet. | ExclusiveDiet=                   |
+
+<InlineVoucher />

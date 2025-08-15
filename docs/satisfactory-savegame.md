@@ -81,3 +81,5 @@ Using your Savegame is very easy. You can either manage this through the in-game
 
 You have successfully added a Savegame to your game server. For further questions or assistance, please don’t hesitate to contact our support team, which is available daily to assist you! 🙂
 
+
+<InlineVoucher />

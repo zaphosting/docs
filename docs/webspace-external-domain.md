@@ -68,3 +68,5 @@ Changes to your DNS settings can take up to 24 hours to fully propagate worldwid
 ## Conclusion
 Following these steps will configure and link your domain to your web space.  For further questions or assistance, please don't hesitate to contact our support team, which is available daily to assist you! 🙂
 
+
+<InlineVoucher />

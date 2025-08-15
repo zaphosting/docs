@@ -81,3 +81,5 @@ shutdown -r -t 0
 ## Abschluss
 
 Nachdem du den Vorgang vollständig durchgeführt hast, solltest du erfolgreich ein neues Passwort für den Administrator Benutzer gesetzt haben. Mit diesem kannst du dich nun wieder per Remotedesktopverbindung einloggen. 
+
+<InlineVoucher />

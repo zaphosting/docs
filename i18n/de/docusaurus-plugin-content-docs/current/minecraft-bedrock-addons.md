@@ -219,3 +219,5 @@ Starte deinen Server, verbinde dich mit ihm und überprüfe, ob die Addons korre
 ## Fazit
 
 Das Installieren von Addons auf deinem Minecraft Bedrock Server ist eine großartige Möglichkeit, das Spielerlebnis zu erweitern und neue Inhalte hinzuzufügen. Mit dieser Anleitung kannst du ganz einfach Addons installieren und deinen Server anpassen. Für weitere Fragen oder Hilfe zögere bitte nicht, unser Support-Team zu kontaktieren, das dir täglich zur Verfügung steht! 🙂
+
+<InlineVoucher />

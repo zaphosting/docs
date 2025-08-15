@@ -44,3 +44,5 @@ The Console in Valheim can be accessed by pressing "F5" While Ingame, there you 
 |   ban      |        Name/PlayerID/IP      |     Bans the specified Player         |
 |   unban    |        PlayerID/IP           |     Unbans the specified Player       |
 |   banned   |           None               |    Shows all banned Players           |
+
+<InlineVoucher />

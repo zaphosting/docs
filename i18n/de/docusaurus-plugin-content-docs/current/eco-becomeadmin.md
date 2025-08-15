@@ -104,3 +104,5 @@ Noch weitere verfügbare Befehle findest du in der offiziellen [ECO Wiki](https:
 ## Abschluss
 
 Glückwunsch, du hast erfolgreich die Administratorberechtigungen konfiguriert. Für weitere Fragen oder Hilfe zögere bitte nicht, unser Support-Team zu kontaktieren, das dir täglich zur Verfügung steht! 🙂
+
+<InlineVoucher />

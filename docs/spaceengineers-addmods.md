@@ -80,3 +80,5 @@ Here 12345 must be exchanged with the mod ID of your selected mod!
 :::
 
 As can be seen in the GIF, the same steps just have to be repeated again to add a mod. After all desired mods have been added, the config can be saved with **CTRL+S** and the config can be closed. Then the server can be started normally and the mods are then installed automatically.
+
+<InlineVoucher />

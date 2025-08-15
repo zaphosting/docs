@@ -88,3 +88,5 @@ Durch diesen Schritt kann ausgeschlossen werden, ob die Probleme durch die zusä
 ## Abschluss
 
 Diese Schritte sollten dir dabei helfen, die Problematik zu beheben. Falls nicht, für weitere Fragen oder Hilfe zögere bitte nicht, unser Support-Team zu kontaktieren, das dir täglich zur Verfügung steht! 🙂
+
+<InlineVoucher />

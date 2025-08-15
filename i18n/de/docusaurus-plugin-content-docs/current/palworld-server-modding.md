@@ -142,3 +142,5 @@ Benötigst du zusätzliche Hilfe? Kein Problem, melde dich einfach bei unserer [
 
 Benötigst du offiziellen Support? Bitte [erstelle ein Ticket](https://zap-hosting.com/en/customer/support/) auf unserer Website mit so vielen Details wie möglich und wir werden uns so schnell wie möglich bei dir melden! :)
 :::
+
+<InlineVoucher />

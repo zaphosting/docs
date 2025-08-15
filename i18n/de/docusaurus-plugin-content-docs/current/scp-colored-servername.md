@@ -37,3 +37,5 @@ Es ist wichtig, daran zu denken, dass Quotes "" um die tatsächliche Farbe inner
 :::
 
 Wenn du alle Änderungen deinen Wünschen nach verändert hast, müssen diese noch gespeichert werden. Starte nun deinen Server, dann wird dein Servername farbig sein.
+
+<InlineVoucher />

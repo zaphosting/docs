@@ -43,3 +43,5 @@ Hier können wir jetzt das $ mit unserem eigenen Icon ersetzen.
 
 
 Nach einem Serverneustart wird das Geldicon im Spiel sichtbar sein.
+
+<InlineVoucher />

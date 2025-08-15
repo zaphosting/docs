@@ -86,3 +86,5 @@ Zum Abschluss der Einrichtung kannst du jetzt den Server starten, indem du die z
 ## Abschluss
 
 Glückwunsch, du hast den Valheim Server erfolgreich installiert und konfiguriert! Solltest du noch weitere Fragen oder Probleme haben, dann wende dich gerne an unser Support-Team, welches dir jeden Tag zur Verfügung steht!
+
+<InlineVoucher />

@@ -101,3 +101,5 @@ The Savegame should be active again once you have saved the file and restarted y
 :::info
 We highly recommend activating Automatic Backups as mentioned in the previous [Automatic Backup](#automatic-backup) section, as Palworld is still in Early Access so it is possible for Savegames to be lost or corrupted during updates.
 :::
+
+<InlineVoucher />

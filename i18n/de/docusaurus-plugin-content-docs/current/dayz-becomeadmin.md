@@ -68,3 +68,5 @@ Im folgenden findest du eine Auflistung von einigen verfügbaren Befehlen, die d
 ## Abschluss
 
 Glückwunsch, du hast erfolgreich die Administratorberechtigungen konfiguriert. Für weitere Fragen oder Hilfe zögere bitte nicht, unser Support-Team zu kontaktieren, das dir täglich zur Verfügung steht! 🙂
+
+<InlineVoucher />

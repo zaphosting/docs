@@ -52,3 +52,5 @@ perspective both
 
 
 Beim nächsten Startvorgang deines Servers sollte die gewünschte Option dann aktiviert sein!
+
+<InlineVoucher />

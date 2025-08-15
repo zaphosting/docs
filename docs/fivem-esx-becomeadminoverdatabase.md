@@ -46,3 +46,5 @@ Enter "admin" in there.
 ![](https://screensaver01.zap-hosting.com/index.php/s/GjdTo5GxkgX26BA/preview)
 
 That's about it. Now you are admin on your own server
+
+<InlineVoucher />

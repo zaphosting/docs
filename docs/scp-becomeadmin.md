@@ -74,3 +74,5 @@ To open the remote admin console ingame, once you are logged into the server, yo
 ## Conclusion
 
 Congratulations, you have successfully configured the administrator permissions. For further questions or assistance, please don't hesitate to contact our support team, which is available daily to assist you! 🙂
+
+<InlineVoucher />

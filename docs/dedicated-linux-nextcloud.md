@@ -530,3 +530,5 @@ Moreover, there is also the possibility to install additional apps apart from th
 ![](https://screensaver01.zap-hosting.com/index.php/s/AG8PCQwDfsKGQXS/preview)
 
 With such **Apps** it is possible to further individualize Nextcloud according to your wishes.
+
+<InlineVoucher />

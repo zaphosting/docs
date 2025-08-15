@@ -161,3 +161,5 @@ Regular backups can avoid a lot of stress and worries. Create regular backups to
 These steps should help you solve the issue. If you find your problem listed here, the matching solution should already point you in the right direction and help you get things running again. 
 
 If not, please don't hesitate to contact our support team for further questions or assistance, which is available daily to assist you! 🙂
+
+<InlineVoucher />

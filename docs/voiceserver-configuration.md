@@ -152,3 +152,5 @@ For server group permissions, there are several categories that can be customize
 
 You can change these permissions to your liking. If you want to make more extensive changes to the permissions, you can do that by going to the options of your Teamspeak client, then go to Application and activate the **Advanced permissions system**.
 
+
+<InlineVoucher />

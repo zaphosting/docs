@@ -27,3 +27,5 @@ Falls der Server noch wichtige Daten enthält, solltest du diese zuerst sichern,
 ## Abschluss
 
 Glückwunsch, du hast den Server erfolgreich zurückgesetzt, indem du ihn neu installiert hast. Für weitere Fragen oder Hilfe zögere bitte nicht, unser Support-Team zu kontaktieren, das dir täglich zur Verfügung steht! 🙂
+
+<InlineVoucher />

@@ -54,3 +54,5 @@ Nachdem du den Lizenzschlüssel vorbereitet hast, musst du nun den bestehenden L
 ## Abschluss
 
 Nachdem du den benutzerdefinierten Lizenzschlüssel eingerichtet hast, starte deinen Server neu, um ihn zu nutzen. Du hast erfolgreich einen benutzerdefinierten Lizenzschlüssel zu deinem FiveM Gameserver hinzugefügt. Für weitere Fragen oder Hilfe zögere bitte nicht, unser Support-Team zu kontaktieren, das dir täglich zur Verfügung steht! 🙂
+
+<InlineVoucher />

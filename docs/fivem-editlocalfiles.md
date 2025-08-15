@@ -48,3 +48,5 @@ The language used can be defined via the configuration file `config.lua` in the 
 ## Conclusion
 
 Congratulations, assuming you have followed all the steps, you have successfully edited the locale file of your resource.  For further questions or assistance, please don't hesitate to contact our support team, which is available daily to assist you! 🙂
+
+<InlineVoucher />

@@ -68,3 +68,5 @@ Es kann bis zu 24 Stunden dauern, bis sich die Änderungen an deinen DNS-Einstel
 ## Abschluss
 Mit diesen Schritten wird deine Domain konfiguriert und mit deinem Webspace verknüpft. Für weitere Fragen oder Hilfe zögere bitte nicht, unser Support-Team zu kontaktieren, das dir täglich zur Verfügung steht! 🙂
 
+
+<InlineVoucher />

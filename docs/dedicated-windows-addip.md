@@ -60,3 +60,5 @@ Now, the additional IP address is added via the **Advanced TCP/IP Settings**. To
 ## Conclusion
 
 The IP address has now been successfully configured and added. For further questions or assistance, please don't hesitate to contact our support team, which is available daily to assist you! 🙂
+
+<InlineVoucher />

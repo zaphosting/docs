@@ -55,3 +55,5 @@ Stimmen die beiden Eingaben nicht überein, so wird die Konsole den Vorgang been
 :::info
 Wichtig: Ändert man das Password via Konsole, kann es nicht für 3 Stunden in unserem Webinterface unter Zugang und Sicherheit angezeigt werden. 
 :::
+
+<InlineVoucher />

@@ -59,3 +59,5 @@ Still looking for the perfect plugins for your server?
 ## Conclusion
 
 Provided you have followed all the steps, you should have successfully installed your plugin.  For further questions or assistance, please don't hesitate to contact our support team, which is available daily to assist you! 🙂
+
+<InlineVoucher />

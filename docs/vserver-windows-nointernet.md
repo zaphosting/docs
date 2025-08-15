@@ -123,3 +123,5 @@ You can reset the network configuration in the web interface administration of y
 
 ## Conclusion
 If you have followed all the steps, the connection should be possible again as usual. For further questions or assistance, please don't hesitate to contact our support team, which is available daily to assist you! 🙂
+
+<InlineVoucher />

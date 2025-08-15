@@ -146,3 +146,5 @@ Bei den Berechtigungen der Server-Gruppen gibt es verschiedene Kategorien, die a
 
 Diese können nach deinen Wünschen beliebig angepasst werden. Falls du noch mehr umfassende Änderungen an den Berechtigungen vornehmen möchtest, dann kannst du das machen, in dem du die Optionen deines Teamspeak Clients aufrufst, dort dann auf Anwendung gehst und dann das **Fortgeschrittene Rechtesystem** aktivierst.
 
+
+<InlineVoucher />

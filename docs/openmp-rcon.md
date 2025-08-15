@@ -86,3 +86,5 @@ Check out our [Server Commands](openmp-server-commands.md) to view all the curre
 :::
 
 You have successfully enabled RCON on your Palworld server.
+
+<InlineVoucher />

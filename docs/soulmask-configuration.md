@@ -73,3 +73,5 @@ Head over to the following path and open the **GameXishu.json** file:
 This file consists a significant amount of gameplay configuration options that you can adjust to your liking.
 
 After you complete your changes, make sure to save the file where appropriate and restart your server. The next time your server starts up, it will use the settings that you have provided.
+
+<InlineVoucher />

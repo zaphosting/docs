@@ -203,3 +203,5 @@ Bitte lies dir unsere Anleitung [Install Certbot](dedicated-linux-certbot.md) du
 ## Abschluss
 
 Glückwunsch, du hast erfolgreich einen Reverse-Proxy für eine Website oder deinen Gameserver (oder beides :) eingerichtet, der dir verschiedene Verbesserungen in Bezug auf Sicherheit, Zuverlässigkeit und Leistung bietet. Für weitere Fragen oder Hilfe zögere bitte nicht, unser Support-Team zu kontaktieren, das dir täglich zur Verfügung steht! 🙂
+
+<InlineVoucher />

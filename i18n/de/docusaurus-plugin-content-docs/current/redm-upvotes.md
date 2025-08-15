@@ -68,3 +68,5 @@ Cfx.re setzt eine Upvote **Cooldown-Periode** voraus. Die Zuweisung von Upvotes 
 ## Abschluss
 
 Du hast deine Upvotes erfolgreich erhalten und weißt wie du diese verwaltest. Für weitere Fragen oder Hilfe zögere bitte nicht, unser Support-Team zu kontaktieren, das dir täglich zur Verfügung steht! 🙂
+
+<InlineVoucher />

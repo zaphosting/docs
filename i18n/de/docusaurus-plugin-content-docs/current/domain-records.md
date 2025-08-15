@@ -112,3 +112,5 @@ Dieser TXT Record wird genutzt um SPF, DMARC und DKIM Einträge zu erstellen.
 ## Abschluss
 
 Glückwunsch, du hast deine DNS-Einträge erfolgreich erstellt und konfiguriert. Für weitere Fragen oder Hilfe zögere bitte nicht, unser Support-Team zu kontaktieren, das dir täglich zur Verfügung steht! 🙂
+
+<InlineVoucher />

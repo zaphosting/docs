@@ -71,3 +71,5 @@ setzen. Dies stellt sicher das Spieler, die auf deinen Server joinen auch die er
 Wenn das getan ist, musst du nur noch den Server starten, joinen und dann solltest du dein Addon benutzen können.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/R8FtE4MSB9RognC/preview)
+
+<InlineVoucher />

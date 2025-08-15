@@ -38,3 +38,5 @@ Bitte beachten Sie, dass es bis zu **24 Stunden** dauern kann, bis Änderungen a
 ## Abschluss
 
 Glückwunsch, du hast deine Domain erfolgreich mit einem deiner Dienste verknüpft. Für weitere Fragen oder Hilfe zögere bitte nicht, unser Support-Team zu kontaktieren, das dir täglich zur Verfügung steht! 🙂
+
+<InlineVoucher />

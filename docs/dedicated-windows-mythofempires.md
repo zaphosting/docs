@@ -146,3 +146,5 @@ If you are having issues connecting to the server, open your `StartPrivateServer
 :::
 
 You have successfully installed Myth of Empires on your Windows Dedicated Server.
+
+<InlineVoucher />

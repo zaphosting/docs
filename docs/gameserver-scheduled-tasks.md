@@ -71,3 +71,5 @@ Do you want to remove existing tasks? Delete existing tasks in the list by click
 ## Conclusion
 
 Now you know how to create, manage and remove scheduled tasks. For further questions or assistance, please don't hesitate to contact our support team, which is available daily to assist you! 🙂
+
+<InlineVoucher />

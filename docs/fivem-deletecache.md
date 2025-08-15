@@ -53,3 +53,5 @@ Now proceed to restart your FiveM server for this to take effect. When the serve
 ## Conclusion
 
 Provided that you have followed all the steps, you have successfully cleared your server cache. For further questions or assistance, please don't hesitate to contact our support team, which is available daily to assist you! 🙂
+
+<InlineVoucher />

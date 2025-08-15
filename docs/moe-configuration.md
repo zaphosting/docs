@@ -88,3 +88,5 @@ We do not recommending changing the Port, IP or Directory settings, as these are
 | difficulty     | 1                                       | Difficulty of your world                                    |
 
 After you complete your changes, make sure to save the file where appropriate and restart your server. The next time your server starts up, it will use the settings that you have provided.
+
+<InlineVoucher />

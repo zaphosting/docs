@@ -106,3 +106,5 @@ Du kannst dich nun über den open.mp-Launcher direkt mit deinem Server im Spiel 
 ## Abschluss
 
 Herzlichen Glückwunsch, du hast den open.mp-Server erfolgreich auf deinem VPS installiert und konfiguriert! Bei weiteren Fragen oder Problemen wende dich bitte an unser Support-Team, das dir täglich zur Verfügung steht! 
+
+<InlineVoucher />

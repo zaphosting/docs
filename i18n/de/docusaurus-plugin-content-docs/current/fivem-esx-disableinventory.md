@@ -50,3 +50,5 @@ Config.EnableDefaultInventory   = false
 
 
 Nun können wir die Datei abspeichern und den Server neu starten, nachdem wir den Server gejoint sind, kann das Inventar nun nicht mehr geöffnet werden.
+
+<InlineVoucher />

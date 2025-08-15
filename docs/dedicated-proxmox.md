@@ -150,3 +150,5 @@ And just like that you have created your first VM on your Proxmox panel! You sho
 ## Conclusion
 
 Congratulations, you have successfully installed Proxmox on your dedicated server. For further questions or assistance, please don't hesitate to contact our support team, which is available daily to assist you! 🙂
+
+<InlineVoucher />

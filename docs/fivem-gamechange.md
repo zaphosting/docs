@@ -47,3 +47,5 @@ A change between Linux and Windows, changes the ip address of your server, if yo
 
 If you switch between ESX RP, Linux or txAdmin you need to enable the version after the installation with the blue button in Games
 :::
+
+<InlineVoucher />

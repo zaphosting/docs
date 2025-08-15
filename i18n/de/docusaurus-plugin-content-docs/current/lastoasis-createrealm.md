@@ -82,3 +82,5 @@ Wenn du mehrere Oasen in deinem Realm miteinander verbinden möchtest und sie gl
 :::
 
 Du hast erfolgreich einen neuen Realm und eine Oase für deinen Last Oasis Gameserver eingerichtet.
+
+<InlineVoucher />

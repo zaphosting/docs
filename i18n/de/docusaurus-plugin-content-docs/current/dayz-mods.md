@@ -44,3 +44,5 @@ Noch auf der Suche nach den perfekten Mods für deinen Server? Durchstöbere uns
 ## Abschluss
 
 Vorausgesetzt, dass du alle Schritte befolgt hast, hast du die Mods erfolgreich auf deinem Server installiert. Für weitere Fragen oder Hilfe zögere bitte nicht, unser Support-Team zu kontaktieren, das dir täglich zur Verfügung steht! 🙂
+
+<InlineVoucher />

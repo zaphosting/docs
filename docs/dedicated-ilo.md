@@ -173,3 +173,5 @@ You can of course disable the iLO again and enable it again. (Wait at least 5 mi
 ## Conclusion
 
 This should make your administration a lot easier once you have read through everything in detail. For further questions or assistance, please don't hesitate to contact our support team, which is available daily to assist you! 🙂
+
+<InlineVoucher />

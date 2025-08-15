@@ -357,3 +357,5 @@ Du hast alles richtig gemacht und eine Test-To-Do-Website eingerichtet, die alle
 Glückwunsch, du hast den LEMP-Stack erfolgreich installiert und eingerichtet! Als nächsten Schritt empfehlen wir dir dringend, eine Domain und ein **SSL-Zertifikat** einzurichten, um sicherzustellen, dass Daten sicher auf deine Websites übertragen werden. Schau dir unsere [Certbot-Anleitung](vserver-linux-certbot.md#webroot-plugin) an, insbesondere den Abschnitt zum **Nginx-Plugin**, und folge den interaktiven Einrichtungsanweisungen, um schnell und einfach ein Zertifikat für deine Domain einzurichten.
 
 Für weitere Fragen oder Hilfe zögere bitte nicht, unser Support-Team zu kontaktieren, das dir täglich zur Verfügung steht! 🙂
+
+<InlineVoucher />

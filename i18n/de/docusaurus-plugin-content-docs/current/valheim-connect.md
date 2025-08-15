@@ -88,3 +88,5 @@ Wenn du deinen Server noch nicht siehst, warte ein bisschen, je nach Anzahl der 
 Jetzt sollte unser Server bereits in der Liste zu sehen sein, wir können ihn nun anklicken und dann auf `Connect` klicken, sobald wir uns verbunden haben, müssen wir nur noch das Server-Passwort eingeben, das wir in den Einstellungen festgelegt haben und Enter drücken!
 
 Fertig! Du kannst jetzt auf deinem eigenen Valheim-Server spielen!
+
+<InlineVoucher />

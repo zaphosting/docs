@@ -87,3 +87,5 @@ Noch auf der Suche nach den perfekten Plugins für deinen Server? Durchstöbere 
 ## Abschluss
 
 Vorausgesetzt, dass du alle Schritte befolgt hast, solltest du erfolgreich AMXmodX / Metamod und deine gewünschten Plugins installiert haben. Für weitere Fragen oder Hilfe zögere bitte nicht, unser Support-Team zu kontaktieren, das dir täglich zur Verfügung steht! 🙂
+
+<InlineVoucher />

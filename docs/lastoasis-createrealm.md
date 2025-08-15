@@ -82,3 +82,5 @@ If you wish to connect multiple Oases together in your Realm and have them activ
 :::
 
 You have successfully setup a new Realm and an Oasis for your Last Oasis game server.
+
+<InlineVoucher />

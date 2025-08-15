@@ -105,3 +105,5 @@ In the table below, we will summarise a few key gameplay settings that are found
 | AllowRecipeSharing           | true/false | Toggle whether players can share item recipes                           |
 
 After you complete your changes, make sure to save the file where appropriate and restart your server. The next time your server starts up, it will use the settings that you have provided.
+
+<InlineVoucher />

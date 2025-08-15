@@ -116,3 +116,5 @@ The selected folders are now dragged and dropped into the previously opened mod 
 ## Server starten
 
 After the mods have been uploaded, the server can simply be started via the web interface. The server should now be joinable which you can learn more via the [Connect to Server](satisfactory-connect.md) guide.
+
+<InlineVoucher />

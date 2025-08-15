@@ -50,3 +50,5 @@ Die Konsole in Valheim kann durch Drücken von "F5" während des Spiels aufgeruf
 |   ban      |        Name/PlayerID/IP      |     Bannt den angegebenen Spieler     |
 |   unban    |        PlayerID/IP           |     Entbannt den angegebenen Spieler  |
 |   banned   |           None               |  Zeigt alle gebannten Spieler an      |
+
+<InlineVoucher />

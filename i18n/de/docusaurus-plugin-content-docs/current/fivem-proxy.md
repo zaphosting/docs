@@ -215,3 +215,5 @@ Bitte lies dir unsere Anleitung [Certbot installieren](vserver-linux-certbot.md)
 ## Abschluss
 
 Glückwunsch, du hast erfolgreich einen Reverse Proxy für deinen FiveM-Server eingerichtet, der dir verschiedene Verbesserungen in Bezug auf Sicherheit, Zuverlässigkeit und Leistung bietet. Für weitere Fragen oder Hilfe zögere bitte nicht, unser Support-Team zu kontaktieren, das dir täglich zur Verfügung steht! 🙂
+
+<InlineVoucher />

@@ -45,3 +45,5 @@ Es gibt bedauerlicherweise keine offizielle Liste an Ressourcen, die zu dieser M
 ## Abschluss
 
 Um eine sichere und stabile Serverumgebung aufrechtzuerhalten, ist es wichtig, nur vertrauenswürdige Ressourcen zu verwenden und solche, die als problematisch eingestuft werden, sofort zu entfernen. Indem du diese Richtlinien befolgst und das FiveM Asset Escrow System verwendest, kannst du dazu beitragen, sowohl die Sicherheit als auch die Einhaltung der Richtlinien innerhalb des FiveM Ecosystems zu gewährleisten. Für weitere Fragen oder Hilfe zögere bitte nicht, unser Support-Team zu kontaktieren, das dir täglich zur Verfügung steht! 🙂
+
+<InlineVoucher />

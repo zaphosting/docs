@@ -43,3 +43,5 @@ When you're done with your customization, save them.
 :::info
 Start your server, then your server name will be colored now.
 :::
+
+<InlineVoucher />

@@ -45,3 +45,5 @@ Achte darauf, dass du das untere Suchfeld benutzt und nicht das obere. Das obere
 ![](https://github.com/zaphosting/docs/assets/42719082/ae31ddee-8992-486a-aef3-e6e4d115f018)
 
 Wenn du dem Server nicht erfolgreich beitreten kannst und eine Timeout-Fehlermeldung erhältst, vergewissere dich bitte, dass die eingegebene IP und der Port korrekt sind und dass dein Server online ist. Du kannst den Konsolenbereich deines Webinterfaces für deinen Palworld Server nutzen, um die Fehlersuche zu erleichtern.
+
+<InlineVoucher />

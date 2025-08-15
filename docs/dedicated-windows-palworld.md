@@ -153,3 +153,5 @@ Now it is time to start your server. You may be required to install [DirectX run
 Head over to the base directory of your Palworld server and run **PalServer.exe** to begin the start up process. This will open the server's console in a command prompt and begin the startup process. If everthing occurs as expected, your server will be visible in the server list. Alternatively, you will be able to connect directly by using the bottom search bar on the server list and searching for: `[your_ip_address]:8211`.
 
 You have successfully installed Palworld on your Windows Dedicated Server.
+
+<InlineVoucher />

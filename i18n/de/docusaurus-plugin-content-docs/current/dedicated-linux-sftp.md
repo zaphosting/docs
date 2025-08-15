@@ -31,3 +31,5 @@ Das anschließende Fenster muss noch bestätigt werden:
 Nun bist du via SFTP mit deinem Server verbunden: 
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/xA44qPQB6zcFc75/preview)
+
+<InlineVoucher />

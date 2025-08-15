@@ -38,3 +38,5 @@ Please be aware that changes to the DNS can take up to **24 hours** to be applie
 ## Conclusion
 
 Congratulations, you have successfully linked your domain to one of your services.  For further questions or assistance, please don't hesitate to contact our support team, which is available daily to assist you! 🙂
+
+<InlineVoucher />

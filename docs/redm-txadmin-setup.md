@@ -98,3 +98,5 @@ Finally, click on **Save & Run Server**. This completes the txAdmin setup, and y
 ## Additional support
 
 For txAdmin-specific support, please contact the txAdmin team through their [official website](https://txadm.in/) or join the community on [Discord](https://discord.gg/txAdmin/). The community and support team are ready to assist with any questions or issues you might encounter while using txAdmin, ensuring you have the best possible experience managing your server.
+
+<InlineVoucher />

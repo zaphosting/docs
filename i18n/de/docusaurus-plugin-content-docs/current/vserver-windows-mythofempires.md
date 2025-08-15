@@ -151,3 +151,5 @@ Wenn du Probleme hast, dich mit dem Server zu verbinden, öffne die Datei "Start
 Glückwunsch, du hast den Myth of Empires Server erfolgreich installiert und konfiguriert! Solltest du noch weitere Fragen oder Probleme haben, dann wende dich gerne an unser Support-Team, welches dir jeden Tag zur Verfügung steht!
 
 
+
+<InlineVoucher />

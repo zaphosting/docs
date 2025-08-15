@@ -51,3 +51,5 @@ Passe nun den Parameter "WhitelistedUsers" an und füge die Benutzernamen der Pe
 Über die Datei **DifficultyValues.json** kannst du eine Vielzahl von Schwierigkeitsparametern für deine RimWorld Together-Server einstellen.
 
 Auch die Savegame-Einstellungen können über die Datei **WorldConfig.json** angepasst werden. Es wird empfohlen, dass du diese Datei nicht bearbeitest, wenn du schon mitten im Spiel bist, da dies das Spielerlebnis ruinieren könnte.
+
+<InlineVoucher />

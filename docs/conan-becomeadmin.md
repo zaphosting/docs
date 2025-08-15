@@ -62,3 +62,5 @@ More admin commands related to the game can be found on [Gamepedia](https://cona
 ## Conclusion
 
 Congratulations, you have successfully configured the administrator permissions. For further questions or assistance, please don't hesitate to contact our support team, which is available daily to assist you! 🙂
+
+<InlineVoucher />

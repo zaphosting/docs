@@ -71,3 +71,5 @@ Klicke abschließend auf den Button **Importieren** am unteren Ende der Seite, u
 ## Abschluss
 
 Das Importieren von SQL Dateien für deinen FiveM Server ist nötig, um viele ressourcen problemlos nutzen zu könnnen. Für weitere Fragen oder Hilfe zögere bitte nicht, unser Support-Team zu kontaktieren, das dir täglich zur Verfügung steht! 🙂
+
+<InlineVoucher />

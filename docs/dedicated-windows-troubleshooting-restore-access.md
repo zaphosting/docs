@@ -81,3 +81,5 @@ shutdown -r -t 0
 ## Conclusion
 
 Once you have completed the process, you should have successfully set a new password for the administrator user. You can now use this to log in again via the remote desktop connection. 
+
+<InlineVoucher />

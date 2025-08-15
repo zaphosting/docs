@@ -213,3 +213,5 @@ Speichere die Datei und beende nano mit `STRG + X`, gefolgt von `Y` zur Bestäti
 ## Abschluss
 
 Du hast Certbot erfolgreich für deine Domain(s) eingerichtet, und zwar über verschiedene Methoden, darunter Standalone, Web-Root oder über eines der Plugins, und so für eine sichere Datenübertragung über HTTPS auf deiner Website gesorgt. Bei weiteren Fragen oder für Unterstützung wende dich bitte an unser Support-Team, das dir täglich zur Verfügung steht! 🙂
+
+<InlineVoucher />

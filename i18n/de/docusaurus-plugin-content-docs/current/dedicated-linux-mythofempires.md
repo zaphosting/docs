@@ -73,3 +73,5 @@ In der Eingabeaufforderung sollten nun Protokolle erscheinen, die anzeigen, dass
 Herzlichen Glückwunsch, du hast den Myth of Empires-Server erfolgreich auf deinem Dedicated Server installiert und konfiguriert! Als nächsten Schritt empfehlen wir dir einen Blick in unsere Anleitung [Linux Dienst einrichten](dedicated-linux-create-gameservice.md), in der du deinen neuen dedizierten Gameserver als Dienst einrichtest. Dies bietet verschiedene Vorteile, wie z. B. den automatischen Start des Servers beim Hochfahren, automatische Server-Updates, einfache Verwaltung und Zugriff auf Logs und vieles mehr!
 
 Wenn du weitere Fragen oder Probleme hast, wende dich bitte an unser Support-Team, das dir jeden Tag zur Verfügung steht!
+
+<InlineVoucher />

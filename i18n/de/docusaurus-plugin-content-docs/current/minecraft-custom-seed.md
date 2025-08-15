@@ -40,3 +40,5 @@ Wenn du mehr darüber wissen möchtest, wie du eine bestehende Welt neu erstells
 ## Abschluss
 
 Mit diesen Schritten hast du erfolgreich einen neuen Seed für deine neue Welt gesetzt. Starte deinen Server neu, erkunde deine frisch generierte Welt und genieße dein eigenes einzigartiges Minecraft-Abenteuer. Für weitere Fragen oder Hilfe zögere bitte nicht, unser Support-Team zu kontaktieren, das dir täglich zur Verfügung steht! 🙂
+
+<InlineVoucher />

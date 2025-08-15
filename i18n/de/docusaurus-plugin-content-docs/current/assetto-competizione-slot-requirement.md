@@ -54,3 +54,5 @@ Slots | safetyRatingRequirement | trackMedalRequirement
 28 | 70 | 1
 30 | 90 | 0
 30 | 80 | 1
+
+<InlineVoucher />

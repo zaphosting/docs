@@ -73,3 +73,5 @@ Gehe zu dem folgenden Pfad und öffne die Datei **GameXishu.json**:
 Diese Datei enthält eine große Anzahl von Spielkonfigurationsoptionen, die du nach deinen Wünschen anpassen kannst.
 
 Nachdem du deine Änderungen vorgenommen hast, speichere die Datei an der richtigen Stelle und starte deinen Server neu. Wenn dein Server das nächste Mal startet, verwendet er die Einstellungen, die du vorgenommen hast.
+
+<InlineVoucher />

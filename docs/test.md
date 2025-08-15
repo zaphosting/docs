@@ -173,3 +173,5 @@ Afterwards the files of the mod have to be uploaded to the mods directory:
 
 
 This already completes the installation of the mod. The next time you start the server, the mods should then be loaded automatically. 
+
+<InlineVoucher />

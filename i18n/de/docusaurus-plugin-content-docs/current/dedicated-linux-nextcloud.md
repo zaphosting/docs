@@ -536,3 +536,5 @@ Zusätzlich gibt es auch die Möglichkeit neben den Standard Apps noch weitere A
 ![](https://screensaver01.zap-hosting.com/index.php/s/6oKA2zbYAJ3YRDw/preview)
 
 Mit solchen **Apps** ist es möglich die Nextcloud zusätzlich noch weiter nach seinen Wünschen zu individualisieren.
+
+<InlineVoucher />

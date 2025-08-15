@@ -83,3 +83,5 @@ login USERNAME PASSWORD
 
 Congratulations, you have successfully configured the administrator permissions. For further questions or assistance, please don't hesitate to contact our support team, which is available daily to assist you! 🙂
 
+
+<InlineVoucher />

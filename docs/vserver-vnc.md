@@ -32,3 +32,5 @@ The following example shows a Windows VPS / Root server. This server has been su
 
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/XTFS35AJBJaS86r/preview)
+
+<InlineVoucher />

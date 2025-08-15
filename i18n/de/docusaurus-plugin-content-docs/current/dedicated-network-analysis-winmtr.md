@@ -583,3 +583,5 @@ Anhand der Auswertung ist zu erkennen, dass der Paketverlust nur auf der Rückro
 ## Probleme melden
 
 Obwohl ZAP-Hosting das Netzwerk kontinuierlich überwacht, ist es bei Netzwerkproblemen wichtig, unseren Support umgehend zu kontaktieren. Um eine präzise Diagnose und schnelle Lösung sicherzustellen, bitten wir dich, uns die Ergebnisse deines WinMTR/MTR Berichts für die Hin- und Rückroute zur Verfügung zu stellen. Diese Informationen helfen uns, potenzielle Problemquellen gezielt zu identifizieren und das Problem schnell zu beheben.
+
+<InlineVoucher />

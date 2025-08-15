@@ -62,3 +62,5 @@ In diesem Schritt muss der Name des Savegames festgelegt werden und welche der 4
 Danach kann in "Status" dem Server gejoint werden:
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/3xB4rgp8bAPZSr8/preview)
+
+<InlineVoucher />

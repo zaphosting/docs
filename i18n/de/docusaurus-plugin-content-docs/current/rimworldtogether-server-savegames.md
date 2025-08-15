@@ -72,3 +72,5 @@ Ziehe einfach alle deine Savegames mit deinem FTP-Client in diesen Ordner und si
 :::info
 Wie bereits zu Beginn des Anleitung erwähnt, kann das Verschieben von Welten zwischen Servern mit verschiedenen Mods zu Problemen beim Gameplay führen.
 :::
+
+<InlineVoucher />

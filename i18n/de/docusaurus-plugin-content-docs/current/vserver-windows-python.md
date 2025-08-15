@@ -79,3 +79,5 @@ Wenn du mit der Arbeit in der venv fertig bist, kannst du mit dem Befehl `deacti
 ## Abschluss
 
 Glückwunsch, du hast Python erfolgreich installiert und konfiguriert! Solltest du noch weitere Fragen oder Probleme haben, dann wende dich gerne an unser Support-Team, welches dir jeden Tag zur Verfügung steht!
+
+<InlineVoucher />

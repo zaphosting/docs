@@ -136,3 +136,5 @@ Wenn du die Verbindung wieder trennen möchtest, wähle nicht "Verbinden" aus, s
 ## Abschluss
 
 Glückwunsch, du hast OpenVPN erfolgreich installiert und konfiguriert! Solltest du noch weitere Fragen oder Probleme haben, dann wende dich gerne an unser Support-Team, welches dir jeden Tag zur Verfügung steht! 
+
+<InlineVoucher />

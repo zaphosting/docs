@@ -99,3 +99,5 @@ At the end of the setup, you can now start the server by executing the **start-a
 ## Conclusion
 
 Congratulations, you have successfully installed and configured the ARK Survival server on your VPS! If you have any further questions or problems, please contact our support team, who are available to help you every day! 
+
+<InlineVoucher />

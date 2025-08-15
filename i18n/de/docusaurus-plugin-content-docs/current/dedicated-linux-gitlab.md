@@ -323,3 +323,5 @@ sudo ufw enable
 Glückwunsch, du hast GitLab erfolgreich installiert und konfiguriert! Solltest du noch weitere Fragen oder Probleme haben, dann wende dich gerne an unser Support-Team, welches dir jeden Tag zur Verfügung steht! 
 
 Wenn du weitere Einstellungen vornehmen möchtest, empfehlen wir dir, die [offizielle GitLab-Dokumentation](https://docs.gitlab.com/ee/install/next_steps.html) für die nächsten Schritte zu lesen.
+
+<InlineVoucher />

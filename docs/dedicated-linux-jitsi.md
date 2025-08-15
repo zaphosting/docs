@@ -127,3 +127,5 @@ https://meet.zap-testdomain.de
 ```
 
 If the page loads with Jitsi Meet you can directly start your 1st video conference.
+
+<InlineVoucher />

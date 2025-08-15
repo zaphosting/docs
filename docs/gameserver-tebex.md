@@ -72,3 +72,5 @@ In some cases you may be required to enter your Tebex webstore plugin api key to
 ## Conclusion
 
 You have successfully connected Tebex with your game server service. For further questions or assistance, please don't hesitate to contact our support team, which is available daily to assist you! 🙂
+
+<InlineVoucher />

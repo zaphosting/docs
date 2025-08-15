@@ -74,3 +74,5 @@ Simply drag and drop any of your Savegames into this folder through your FTP Cli
 Using your Savegame is very easy. Simply connect to your server, and during the game setup screen, you will be able to choose a specific Savegame that you wish to use. The save's name, level and last played date will be displayed below each save to help you identify which you wish to select.
 
 You have successfully added a Savegame to your game server.
+
+<InlineVoucher />

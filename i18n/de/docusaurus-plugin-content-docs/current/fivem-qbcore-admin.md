@@ -48,3 +48,5 @@ add_principal identifier.fivem:16219250 qbcore.admin # Player Name
 ## Abschluss
 
 Vorausgesetzt, dass du alle Schritte erfolgreich befolgt hast, bist du nun Admin auf deinem eigenen Server. Für weitere Fragen oder Hilfe zögere bitte nicht, unser Support-Team zu kontaktieren, das dir täglich zur Verfügung steht! 🙂
+
+<InlineVoucher />

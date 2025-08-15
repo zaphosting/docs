@@ -59,3 +59,5 @@ Steht der Server auf "Public" können andere Spieler auf dieselbe Art und Weise 
 Hier ist es wichtig, dass der Chat auf "others" steht und dass die Filter genau den Einstellungen vom Server entsprechen. Ansonsten wird der Server nicht angezeigt.
 
 Handelt es sich um einen privaten Server, so muss man im Hauptmenü auf "Enter Code" klicken. Hier gibt man den Code an, welchen der Ersteller vom Server in der Lobby einsehen kann.
+
+<InlineVoucher />

@@ -74,3 +74,5 @@ Nach der Einrichtung des Betriebssystems ist es erforderlich, den RDP-Zugang zu 
 
 ## Abschluss
 Glückwunsch, du hast das Windows Server 2025 Betriebssystem erfolgreich  auf deinem Dedicated Server installiert. Für weitere Fragen oder Hilfe zögere bitte nicht, unser Support-Team zu kontaktieren, das dir täglich zur Verfügung steht! 🙂
+
+<InlineVoucher />

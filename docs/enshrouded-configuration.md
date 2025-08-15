@@ -86,3 +86,5 @@ We do not recommending changing the Port, IP or Directory settings, as these are
 | slotCount      | 4                                       | The max amount of players that can join the server (max 16) |
 
 After you complete your changes, make sure to save the file where appropriate and restart your server. The next time your server starts up, it will use the settings that you have provided.
+
+<InlineVoucher />

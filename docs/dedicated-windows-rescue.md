@@ -130,3 +130,5 @@ You have now successfully rescued and backed up your important files.
  This means your data is safe and ready to be restored whenever needed. At this point, you can proceed with further actions, such as reinstalling your server, repairing the system, or migrating your data to a new environment. 
 
 For further questions or assistance, please don't hesitate to contact our support team, which is available daily to assist you! 🙂
+
+<InlineVoucher />

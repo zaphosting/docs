@@ -52,3 +52,5 @@ Es kann bis zu 24 Stunden dauern, bis deine Nameserver-Änderungen erkannt werde
 Sobald Cloudflare deine Nameserver-Änderungen erkannt hat, erhältst du eine E-Mail, in der du darüber informiert wirst, dass deine Einrichtung abgeschlossen ist. Du kannst auch dein Cloudflare Dashboard überprüfen. Bei einer erfolgreichen Einrichtung wird **Aktiv** unter der Domain angezeigt, die du eingerichtet hast.
 
 Du hast deine Domain erfolgreich bei Cloudflare integriert und damit die Leistung, Sicherheit und Verwaltbarkeit deiner Website verbessert.
+
+<InlineVoucher />

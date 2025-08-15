@@ -139,3 +139,5 @@ The **Name** field contains the name of the service, which in this case is our T
 The field **Type** indicates what type of entry it is, in this case it is a **SRV** entry.
 The field **value** contains the port and the domain with subdomain, in this case **0 1234 ts.teamspeak-server.de**, where **1234** is the **port of the TeamSpeak 3 server** and **ts.teamspeak-server.de** is the domain with subdomain to which the forwarding is done. 
 The value **0** is no longer relevant and always remains the same. The fields **TTL** and **Prio** are also not affected.
+
+<InlineVoucher />

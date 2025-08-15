@@ -33,3 +33,5 @@ Jetzt muss die neu hochgeladene Welt nur noch in der **server.properties** Confi
 Nach erneuten Starten des Servers sollte jetzt die neue Welt verwendet werden. Viel Spaß auf deiner neuen Welt! 🙂
 
 <InlineVoucher />
+
+<InlineVoucher />

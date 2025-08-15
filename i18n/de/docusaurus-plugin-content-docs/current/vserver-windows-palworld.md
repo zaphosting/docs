@@ -158,3 +158,5 @@ Du hast Palworld erfolgreich auf deinem Windows VPS installiert.
 ## Abschluss
 
 Glückwunsch, du hast den Palworld Server erfolgreich installiert und konfiguriert! Solltest du noch weitere Fragen oder Probleme haben, dann wende dich gerne an unser Support-Team, welches dir jeden Tag zur Verfügung steht!
+
+<InlineVoucher />

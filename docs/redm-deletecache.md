@@ -51,3 +51,5 @@ Now proceed to restart your RedM server for this to take effect. When the server
 ## Conclusion
 
 Provided that you have followed all the steps, you have successfully cleared your server cache. For further questions or assistance, please don't hesitate to contact our support team, which is available daily to assist you! 🙂
+
+<InlineVoucher />

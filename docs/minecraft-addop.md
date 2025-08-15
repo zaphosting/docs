@@ -58,3 +58,5 @@ Now the value of "level" must be set to the desired level for the desired player
 ![](https://screensaver01.zap-hosting.com/index.php/s/WKQkAR3oALsSNAc/preview)
 
 In order for the changes to take effect, the server must be restarted, which is possible by holding the red Stop button in the server interface.
+
+<InlineVoucher />

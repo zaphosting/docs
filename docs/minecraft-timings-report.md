@@ -89,3 +89,5 @@ In some cases issues are also caused by plugins. To determine that a plugin is p
 If an issue with plugins exists, this can also be investigated in the "Plugins" section. The values are also listed in three columns, which have exactly the same structure as the normal server values above. The difference is that there is no longer a main process shown. Instead, the plugin itself is shown. However, we can still check all processes by clicking on them and investigate the values more closely.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/CzitKykWC2dzExD)
+
+<InlineVoucher />

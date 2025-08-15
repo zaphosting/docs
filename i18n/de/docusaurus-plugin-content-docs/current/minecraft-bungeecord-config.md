@@ -123,3 +123,5 @@ Hier wird von BungeeCord ein zufällig generierter Code eingefügt. Es wird empf
 ### connection_throttle_limit
 
 Dieser Wert bestimmt die Anzahl, ab wie vielen Verbindungsversuchen der Spieler den angegebenen Wert von *connection_throttle* abwarten muss, bis er wieder versuchen darf, sich zum Server zu verbinden.
+
+<InlineVoucher />

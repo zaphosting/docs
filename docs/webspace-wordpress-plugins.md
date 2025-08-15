@@ -40,3 +40,5 @@ Your plugins should always be kept up to date. WordPress makes this task much ea
 ## Conclusion
 
 Congratulations, you have successfully installed your first WordPress plugin. If you have any further questions or problems, please contact our support team, who are available to help you every day!
+
+<InlineVoucher />

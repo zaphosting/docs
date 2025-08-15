@@ -139,3 +139,5 @@ Dies sind weniger wichtige Serverkonfigurationsoptionen, mit denen du vor allem 
 | PalEggDefaultHatchingTime          | Zeit(h) zum Ausbrüten von massiven Eiern               |
 
 Nachdem du deine Änderungen vorgenommen hast, speichere die Datei an den entsprechenden Stellen und starte deinen Server neu. Wenn dein Server das nächste Mal startet, werden die von dir vorgenommenen Einstellungen verwendet.
+
+<InlineVoucher />

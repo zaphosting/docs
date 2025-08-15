@@ -176,3 +176,5 @@ Wenn du alle Variablen angepasst hast, musst du deine Änderungen nur noch speic
 ![](https://screensaver01.zap-hosting.com/index.php/s/Zxy8gSLLaybioy8/preview)
 
 Danach kannst du deinen Server starten! 
+
+<InlineVoucher />

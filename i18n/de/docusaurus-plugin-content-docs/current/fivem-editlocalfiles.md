@@ -49,3 +49,5 @@ Die verwendete Sprache kann über die Konfigurationsdatei config.lua im Ressourc
 ## Abschluss
 
 Glückwunsch, vorausgesetzt, dass du alle Schritte befolgt hast, hast du die Locale-Datei deiner Ressource erfolgreich bearbeitet. Für weitere Fragen oder Hilfe zögere bitte nicht, unser Support-Team zu kontaktieren, das dir täglich zur Verfügung steht! 🙂
+
+<InlineVoucher />

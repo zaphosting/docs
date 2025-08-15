@@ -40,3 +40,5 @@ If you want to know more about how to recreate an existing world, you can check 
 ## Conclusion
 
 With these steps you have successfully set a new seed for your new world. Restart your server, explore your freshly generated world and enjoy your own unique Minecraft adventure. For further questions or assistance, please don’t hesitate to contact our support team, which is available daily to assist you! 🙂
+
+<InlineVoucher />

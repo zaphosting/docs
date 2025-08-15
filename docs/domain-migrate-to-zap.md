@@ -77,3 +77,5 @@ If the domain has now been successfully transferred to us, you can begin configu
 ## Support
 
 If you have any questions or problems, our support team is available daily from morning until late at night. If you need help with the transfer, please let us know via the [**Live Chat**](https://zap-hosting.com/), the **[Ticket System](https://zap-hosting.com/en/customer/support/)**, or by email at [**support@zap-hosting.com**](mailto:support@zap-hosting.com). We are happy to help! :)
+
+<InlineVoucher />

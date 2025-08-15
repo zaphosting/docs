@@ -68,3 +68,5 @@ Die oben genannten Befehle sind zwingend notwendig, damit der GOTV Masterserver 
 |           tv_stop           |                 Stoppt die GOTV-Übertragung                  |
 |        tv_stoprecord        |             Stoppt die Aufnahme einer GOTV Demo              |
 |          tv_title           |           Definiert den Namen der GOTV Übertragung           |
+
+<InlineVoucher />

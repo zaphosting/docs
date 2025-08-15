@@ -101,3 +101,5 @@ iptables -A OUTPUT -p udp --dport 30120 -j ACCEPT
 
 Du hast auf deinem vServer nun erfolgreich einen FiveM Dedicated Server Dienst installiert und konfiguriert. Für weitere Fragen oder Hilfe zögere bitte nicht, unser Support-Team zu kontaktieren, das dir täglich zur Verfügung steht! 🙂
 
+
+<InlineVoucher />

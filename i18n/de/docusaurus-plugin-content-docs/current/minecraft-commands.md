@@ -186,3 +186,5 @@ Hierdurch wird der Spieler *SpielerA* vom Server geworfen, mit der Nachricht "Ki
 ``/kick SpielerA Kickgrund``
 
 Hierdurch wird der Spieler *SpielerA* vom Server geworfen, mit der Nachricht "Kickgrund"
+
+<InlineVoucher />

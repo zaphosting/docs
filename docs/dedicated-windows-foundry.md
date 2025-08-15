@@ -126,3 +126,5 @@ You will now be able to direct connect to your server via your IP by heading to 
 If you wish your server to be available in the server list, please check out our [Server Configuration](foundry-configuration.md) guide and add the appropriate `server_name` and `server_is_public` parameters into your configuration file. Save the file once done and run the server executable again.
 
 You have successfully installed Foundry on your Windows Dedicated Server.
+
+<InlineVoucher />

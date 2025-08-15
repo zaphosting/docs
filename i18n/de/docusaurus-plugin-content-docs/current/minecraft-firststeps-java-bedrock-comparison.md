@@ -63,3 +63,5 @@ Beim ersten Start des Spiels ist es üblich, dass die Spieler ihre Skins bearbei
 ## Abschluss
 
 Wir hoffen, diese Anleitung hat dir geholfen, mehr über dieses wunderbare Spiel zu erfahren und zu entscheiden, mit welcher Version du die riesige offene Welt erkunden wirst. Falls du noch unschlüssig bist, für welche Version du dich entscheiden sollst, kannst du mit unserem [Spielwechsel](gameserver-gameswitch.md) schnell und einfach zwischen den beiden Versionen auf deinem Gameserver wechseln und beide ausprobieren!
+
+<InlineVoucher />

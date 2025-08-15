@@ -164,3 +164,5 @@ Dadurch wird die Konsole des Servers in einer Eingabeaufforderung geöffnet und 
 ## Abschluss
 
 Glückwunsch, du hast den ARK-Survival-Ascended Server erfolgreich installiert und konfiguriert! Solltest du noch weitere Fragen oder Probleme haben, dann wende dich gerne an unser Support-Team, welches dir jeden Tag zur Verfügung steht!
+
+<InlineVoucher />

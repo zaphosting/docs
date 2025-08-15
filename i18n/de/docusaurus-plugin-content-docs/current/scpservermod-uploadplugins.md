@@ -84,3 +84,5 @@ Beachte: Je nach Plugin wird sich die Konfiguration von der in diesem Beispiel v
 :::
 
 Nachdem du die Konfiguration vorgenommen hast kannst du deinen Server starten und findest dein Plugin ab sofort im Spiel.  
+
+<InlineVoucher />

@@ -48,3 +48,5 @@ Trage nun in der Config deine Ressource hinzu. Das kannst du mit dem Befehl `sta
 ## Abschluss
 
 Vorausgesetzt, dass du alle Schritte befolgt hast, solltest du nach dem nächsten Neustart deines Servers deinen neuen Loading Screen sehen. Für weitere Fragen oder Hilfe zögere bitte nicht, unser Support-Team zu kontaktieren, das dir täglich zur Verfügung steht! 🙂
+
+<InlineVoucher />

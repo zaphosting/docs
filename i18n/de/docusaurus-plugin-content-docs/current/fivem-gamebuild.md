@@ -48,3 +48,5 @@ Füge nun einfach deinen gewünschten Gamebuild im Abschnitt **Zusätzliche Argu
 ## Abschluss
 
 Wenn du deine Wahl getroffen hast, starte deinen FiveM Server neu. Dein Server startet nun mit dem angegebenen DLC-Build. Du hast erfolgreich ein Game Build für deinen FiveM Gameserver eingestellt. Für weitere Fragen oder Hilfe zögere bitte nicht, unser Support-Team zu kontaktieren, das dir täglich zur Verfügung steht! 🙂
+
+<InlineVoucher />

@@ -46,3 +46,5 @@ Wenn nun Name und Größe gepasst haben, wird es im Multiplayer vor dem Server a
 ![](https://screensaver01.zap-hosting.com/index.php/s/TkoEwZBZz4w7cp2/preview)
 
 Das Icon kann auf diesem Wege auch jederzeit getauscht oder gelöscht werden.
+
+<InlineVoucher />

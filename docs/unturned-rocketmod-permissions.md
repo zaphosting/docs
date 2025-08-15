@@ -91,3 +91,5 @@ This would look like this in an example as follows:
 So it is always necessary to create a new line for new users who should be assigned to the group.
 If you have entered all desired users, you can save the config by clicking the "Save" button.
 Then start the server and you are assigned to the group in the game!
+
+<InlineVoucher />

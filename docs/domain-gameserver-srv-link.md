@@ -134,3 +134,5 @@ At the end of the entry a dot must be written, without this dot the system tries
 :::
 
 If this hint is not followed, the system will redirect `fivem.testserver-domain.de` to `fivem.testserver-domain.de.testserver-domain.de` and the redirection will fail.
+
+<InlineVoucher />

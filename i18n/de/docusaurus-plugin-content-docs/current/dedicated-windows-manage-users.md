@@ -96,3 +96,5 @@ Um Benutzer verwalten zu können, musst du das Hauptkonto **Administrator** verw
 Auf der Seite kannst du nun eine Vielzahl von Funktionen zur Verwaltung des Benutzers nutzen, darunter die Anpassung von Benutzername, Passwort und Kontotyp sowie das Löschen des Benutzers.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/csCHYTH7RLkaPeT/preview)
+
+<InlineVoucher />

@@ -59,3 +59,5 @@ Diese Funktion würde den Befehl so wie er dort eingetragen wird, an die Konsole
 ### Verzögerung
 
 Die Verzögerung bei dem Befehl ist die Zeit, in welcher der Befehl vor dem Server Neustart an die Konsole weitergegeben wird. Diese Verzögerung wird in **Sekunden** gesetzt. Sollte daher eine Verzögerung von **5** Minuten vor dem Neustart gewünscht sein, muss eine Verzögerung von **300** Sekunden eingetragen werden.
+
+<InlineVoucher />

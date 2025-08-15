@@ -33,3 +33,5 @@ sets activitypubFeed username
 
 Now we save the file and restart our server, after ~20 minutes the "Feed" tab will be available after your server is opened.
 
+
+<InlineVoucher />

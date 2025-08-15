@@ -880,3 +880,5 @@ Die Anzahl der Befehlszeilen hängt generell von der vorher definierten Levelgre
 :::info
 Ark ist ein schnelllebiges Spiel und bringt daher auch in regelmäßigen Abständen viele Änderungen mit sich. Das betrifft ebenfalls die Konfiguration eines Servers. Wir empfehlen daher einen Blick in die offizielle Dokumentation für weitere und ausführlichere Informationen zu werfen: https://ark.fandom.com/wiki/Server_configuration
 :::
+
+<InlineVoucher />

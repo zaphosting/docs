@@ -175,3 +175,5 @@ Du kannst den CFG-Editor verwenden, um die Konfigurationsdatei `server.cfg` dein
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/jqDBDqp55HoKmNB/preview)
 
+
+<InlineVoucher />

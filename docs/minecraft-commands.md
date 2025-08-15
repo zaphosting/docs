@@ -180,3 +180,5 @@ This throws the player *PlayerA* off the server with the message "Kicked by an o
 ``/kick PlayerA Reason``
 
 This throws the player *PlayerA* off the server with the message "Reason".
+
+<InlineVoucher />

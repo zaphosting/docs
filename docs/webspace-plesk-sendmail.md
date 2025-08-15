@@ -93,3 +93,5 @@ As soon as the "**New E-mail**" function is selected.
 There you now enter the recipient as well as the subject and text.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/2Fi2BW7E2xajftF/preview)
+
+<InlineVoucher />

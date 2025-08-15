@@ -45,3 +45,5 @@ We recommend taking a look at the following guides for further important informa
 ## Conclusion
 
 Congratulations, you have successfully configured the DNS settings of your domain. For further questions or assistance, please don't hesitate to contact our support team, which is available daily to assist you! 🙂
+
+<InlineVoucher />

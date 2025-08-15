@@ -48,3 +48,5 @@ Bei einem Wechsel zwischen Linux und Windows ändert sich die IP deines Servers,
 Sofern du zwischen ESX RP, Linux oder txAdmin wechselst, musst du nach erfolgreicher Installation diese noch aktivieren in Spiele (blauer Button)
 :::
 
+
+<InlineVoucher />

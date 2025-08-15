@@ -82,3 +82,5 @@ mitteilen musst, damit wir aus ZAP 2.5 eine Verbindung zu deinem Tebex Shop aufb
 ## Abschluss
 
 Du hast Tebex erfolgreich mit deinem Gameserver Dienst verbunden. Für weitere Fragen oder Hilfe zögere bitte nicht, unser Support-Team zu kontaktieren, das dir täglich zur Verfügung steht! 🙂
+
+<InlineVoucher />

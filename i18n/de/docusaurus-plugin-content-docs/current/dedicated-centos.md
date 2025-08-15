@@ -109,3 +109,5 @@ Dein Dedicated Server hat nun eine Internetverbindung
 ## Abschluss
 
 Glückwunsch, du hast das CentOS Betriebssystem erfolgreich installiert. Für weitere Fragen oder Hilfe zögere bitte nicht, unser Support-Team zu kontaktieren, das dir täglich zur Verfügung steht! 🙂
+
+<InlineVoucher />

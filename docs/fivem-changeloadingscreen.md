@@ -54,3 +54,5 @@ Then add your resource to the config. You can do this with the `start resourcena
 ## Conclusion
 
 Provided you have followed all the steps, you should see your new loading screen after the next restart of your server. For further questions or assistance, please don't hesitate to contact our support team, which is available daily to assist you! 🙂
+
+<InlineVoucher />

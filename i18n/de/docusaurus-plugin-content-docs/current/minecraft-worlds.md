@@ -204,3 +204,5 @@ Such in der Datei den Parameter `level-name` und ändere ihn so, dass er mit dem
 Du weißt jetzt, wie du deine Minecraft-Welten sicher verwalten kannst. Von der Konvertierung von Spielständen zwischen Vanilla- und Server-Plattformen bis hin zur Erstellung neuer Welten, der Regeneration alter Welten mithilfe von Seeds, der Erstellung zuverlässiger Backups, dem Hochladen benutzerdefinierter Welten und deren Aktivierung auf deinem Server. Mit diesem Wissen bist du bereit, deine Welten reibungslos zu verwalten und deine Abenteuer sicher und organisiert zu halten.
 
 Für weitere Fragen oder Hilfe zögere bitte nicht, unser Support-Team zu kontaktieren, das dir täglich zur Verfügung steht! 🙂
+
+<InlineVoucher />

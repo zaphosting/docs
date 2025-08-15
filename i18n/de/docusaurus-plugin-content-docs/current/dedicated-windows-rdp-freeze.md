@@ -33,3 +33,5 @@ Durch Ausführen dieses Befehls wird dein Computer für die RDP-Sitzung nun von 
 :::info
 **Bestätige die Eingabe** mit der Enter-Taste und **starte im Anschluss deinen Computer neu**, damit die Änderung übernommen und wirksam wird wird. 
 :::
+
+<InlineVoucher />

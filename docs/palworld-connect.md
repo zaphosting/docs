@@ -45,3 +45,5 @@ Ensure that you use the bottom search box, not the top. The top is used to searc
 ![](https://github.com/zaphosting/docs/assets/42719082/ae31ddee-8992-486a-aef3-e6e4d115f018)
 
 If you cannot join the server successfully and receive a timeout error, please ensure that the inputted IP and Port is correct and that your server is online. You can use the console section of your webinterface for your Palworld server to help with debugging.
+
+<InlineVoucher />

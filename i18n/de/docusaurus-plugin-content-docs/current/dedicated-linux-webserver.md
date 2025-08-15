@@ -125,3 +125,5 @@ nginx version: nginx/1.2.3
 ```
 
 Wenn eines der beiden Fälle eintrifft, dann wurde erfolgreich der Webserver installiert. 
+
+<InlineVoucher />

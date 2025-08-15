@@ -89,3 +89,5 @@ The server should of course be publicly accessible to play with friends. For thi
 How to enable ports on Windows:[Port Forwarding (Firewall)](vserver-windows-port.md). 
 
 After the port release the server is publicly accessible, if it was started. 
+
+<InlineVoucher />

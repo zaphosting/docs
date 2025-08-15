@@ -78,3 +78,5 @@ Beim Modding müssen die Mods zwischen dem Client und dem Server synchronisiert 
 :::
 
 Zum Schluss musst du deinen Server neu starten, damit die Mods automatisch aktiviert und installiert werden. Du hast erfolgreich Mods auf deinem ATS-Server installiert.
+
+<InlineVoucher />

@@ -56,3 +56,5 @@ sudo apt install cabextract winbind screen xvfb
 You have now successfully setup the Wine comaptibility layer, which will allow you to run Windows programs on your Linux server. With this important prerequisite installed, you can now proceed to install dedicated game servers even if they are built for Windows.
 
 We recommend checking out the other guides in this section which cover installing specific games through the use of SteamCMD and potentially Wine for Windows-based dedicated server files.
+
+<InlineVoucher />

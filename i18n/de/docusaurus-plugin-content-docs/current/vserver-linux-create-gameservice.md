@@ -149,3 +149,5 @@ sudo systemctl disable [dein_service]
 Du hast nun erfolgreich einen Dienst für deinen dedizierten Gameserver eingerichtet. Der Server wird nun automatisch beim Hochfahren des Servers gestartet.
 
 Außerdem hast du den Inhalt der Servicedatei kennengelernt und erfahren, wie du den Dienst mit verschiedenen Befehlen verwalten kannst.
+
+<InlineVoucher />

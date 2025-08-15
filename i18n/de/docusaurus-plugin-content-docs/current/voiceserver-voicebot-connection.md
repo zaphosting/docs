@@ -96,3 +96,5 @@ Danach kannst du den Bot starten. Er sollte sich dann innerhalb von ca. 10 Sekun
 ## Abschluss
 
 Der Voicebot ist ein sehr nützliches und spaßiges Produkt für viele Leute. Du kannst ihn entweder auf einem TeamSpeak-Server oder auf Discord verwenden. Für weitere Fragen oder Hilfe zögere bitte nicht, unser Support-Team zu kontaktieren, das dir täglich zur Verfügung steht! 🙂
+
+<InlineVoucher />

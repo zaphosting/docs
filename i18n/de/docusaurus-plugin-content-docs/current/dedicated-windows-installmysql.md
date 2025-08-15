@@ -52,3 +52,5 @@ Damit ist dein MySQL Server nun auch von außen erreichbar.
 ## Abschluss
 
 Glückwunsch, du hast den MySQL Server erfolgreich installiert. Für weitere Fragen oder Hilfe zögere bitte nicht, unser Support-Team zu kontaktieren, das dir täglich zur Verfügung steht! 🙂
+
+<InlineVoucher />

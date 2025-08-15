@@ -43,3 +43,5 @@ Replace the example URLs with the direct link to your uploaded image. Save the f
 ## Conclusion
 
 Your custom banner will now appear in the server list and during the connecting screen, making your server look more unique and professional. For further questions or assistance, please don't hesitate to contact our support team, which is available daily to assist you! 🙂
+
+<InlineVoucher />

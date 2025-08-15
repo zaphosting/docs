@@ -70,3 +70,5 @@ Then if connected sucessfully, you will be the **Connected** in green letters at
 
 You can now use RCON to manage your server! :) 
 
+
+<InlineVoucher />

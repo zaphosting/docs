@@ -54,3 +54,5 @@ Once this has been completed, make sure to save the file and restart your server
 ## Conclusion
 
 The next time the server launches, your database should be accessible again by your server and thus should fully function. You have successfully resolved your database connection issues. For further questions or assistance, please don't hesitate to contact our support team, which is available daily to assist you! 🙂
+
+<InlineVoucher />

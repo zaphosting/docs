@@ -43,3 +43,5 @@ We then search for es_ui and delete this line kpmplett out.
 Now we save again.
 
 When you have done that you only have to restart the server and that's it.
+
+<InlineVoucher />

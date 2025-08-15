@@ -54,3 +54,5 @@ Um die aktuellen Koordinaten zu erhalten, wird eine passende Ressource benötigt
 ## Abschluss
 
 Mit dieser Methode hast du erfolgreich bestehende Spawnpoints geändert oder neue hinzugefügt. Für weitere Fragen oder Hilfe zögere bitte nicht, unser Support-Team zu kontaktieren, das dir täglich zur Verfügung steht! 🙂
+
+<InlineVoucher />

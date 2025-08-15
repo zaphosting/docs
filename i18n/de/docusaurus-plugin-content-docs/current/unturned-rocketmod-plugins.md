@@ -56,3 +56,5 @@ Der Server ist nun online mit dem gewünschten Plugin:
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/2W79bYmbnjsSexJ/preview)
 
+
+<InlineVoucher />

@@ -221,3 +221,5 @@ Dein SSH-Login ist nun aktiv und du kannst beispielsweise per PuTTY verbinden. G
 
 Glückwunsch, du hast das Debian Betriebssystem erfolgreich installiert. Für weitere Fragen oder Hilfe zögere bitte nicht, unser Support-Team zu kontaktieren, das dir täglich zur Verfügung steht! 🙂
 
+
+<InlineVoucher />

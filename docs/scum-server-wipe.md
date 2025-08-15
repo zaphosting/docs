@@ -42,3 +42,5 @@ In order to have access to the server settings in the game, [admin permissions](
 ## Conclusion
 
 Congratulations, provided you have followed all steps, you have successfully wiped your server. For further questions or assistance, please don't hesitate to contact our support team, which is available daily to assist you! 🙂
+
+<InlineVoucher />

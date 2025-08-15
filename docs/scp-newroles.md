@@ -54,3 +54,5 @@ Like it is shown in this example:
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/kRSiKjYyWsK2RD3/preview)
 
+
+<InlineVoucher />

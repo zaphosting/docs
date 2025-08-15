@@ -71,3 +71,5 @@ In deiner Eingabeaufforderung sollten nun viele Protokolle erscheinen. Wenn du d
 Glückwunsch, du hast den Enshrouded-Server erfolgreich auf deinem Dedicated Server installiert und konfiguriert! Als nächsten Schritt empfehlen wir dir einen Blick in unserer [Linux Dienst einrichten](dedicated-linux-create-gameservice.md) Anleitung, in der du deinen neuen dedizierten Gameserver als Dienst einrichtest. Dies bietet verschiedene Vorteile, wie z. B. den automatischen Start des Servers beim Hochfahren, automatische Server-Updates, einfache Verwaltung und Zugriff auf Logs und vieles mehr!
 
 Wenn du weitere Fragen oder Probleme hast, wende dich bitte an unser Support-Team, das dir jeden Tag zur Verfügung steht!
+
+<InlineVoucher />

@@ -129,3 +129,5 @@ WICHTIG! Am Ende von dem Eintrag muss ein Punkt geschrieben werden, ohne diesen 
 :::
 
 Wird dieser Hinweis nicht beachtet, dann macht das System aus fivem.testserver-domain.de die Weiterleitung zu fivem.testserver-domain.de.testserver-domain.de wodurch die Weiterleitung fehlschlägt.
+
+<InlineVoucher />

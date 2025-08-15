@@ -39,3 +39,5 @@ Noch auf der Suche nach den perfekten Mods für deinen Server? Durchstöbere uns
 ## Abschluss
 
 Mit dem nächsten Serverstart werden die Mods automatisch heruntergeladen, installiert und können von dir umgehend verwendet werden! 
+
+<InlineVoucher />

@@ -42,3 +42,5 @@ Der Login findet mit den normalen Logindaten des Servers/Users statt.
 ## Abschluss
 
 Glückwunsch, du hast Cockpit erfolgreich installiert und konfiguriert! Solltest du noch weitere Fragen oder Probleme haben, dann wende dich gerne an unser Support-Team, welches dir jeden Tag zur Verfügung steht! 
+
+<InlineVoucher />

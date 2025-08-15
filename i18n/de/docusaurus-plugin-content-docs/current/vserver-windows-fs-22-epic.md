@@ -170,3 +170,5 @@ Du hast erfolgreich Farming Simulator 22 (Epic Games-Version) auf deinem Windows
 ## Abschluss
 
 Glückwunsch, du hast den Farming Simulator 2022 Server erfolgreich installiert und konfiguriert! Solltest du noch weitere Fragen oder Probleme haben, dann wende dich gerne an unser Support-Team, welches dir jeden Tag zur Verfügung steht!
+
+<InlineVoucher />

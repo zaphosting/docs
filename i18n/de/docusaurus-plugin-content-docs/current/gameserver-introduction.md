@@ -47,3 +47,5 @@ Neben beliebten Spielen wie **FiveM**, **Minecraft**, **SCP: Secret Laboratory**
 ## Häufig gestellte Fragen
 Du hast noch offene Fragen zu unserem Gameserver Produkt? Hier findest du Antworten auf alles, was dich rund um Funktionen, Vorteile, Einrichtung und Nutzung interessiert. So bekommst du schnell die Infos, die du brauchst, um unser Gameserver Produkt bestmöglich zu nutzen. Und wenn doch noch etwas unklar ist, melde dich einfach bei uns und wir helfen dir sofort weiter.
 <SearchableAccordion items={items} />
+
+<InlineVoucher />

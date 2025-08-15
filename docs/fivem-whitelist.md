@@ -43,3 +43,5 @@ The player licence Identifier must be whitelisted by a txAdmin administrator. Th
 ## Conclusion
 
 Provided that you have followed all the steps, your have successfully enabled and configured the whitelist for your server. For further questions or assistance, please don't hesitate to contact our support team, which is available daily to assist you! 🙂
+
+<InlineVoucher />

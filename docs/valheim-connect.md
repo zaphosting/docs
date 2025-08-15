@@ -90,3 +90,5 @@ If you do not see your Server yet, make sure to wait a bit, depending on the amo
 Now we should already see our Server in the List, we can now click on it and then click on `Connect`, once we have connected we now just need to enter the Server Password we gave it in the Settings and press Enter!
 
 Done! You can now play the game on your very own Valheim Server!
+
+<InlineVoucher />

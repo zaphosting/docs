@@ -103,3 +103,5 @@ Je nachdem, welche Rechte vergeben werden sollen, kann man die jeweiligen Flags 
 Mit dem Befehl `!admin` im Chat oder `sm_admin` in der Konsole kann das Menü aufgerufen werden.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/o6WyMxb4NiEfNim/preview)
+
+<InlineVoucher />

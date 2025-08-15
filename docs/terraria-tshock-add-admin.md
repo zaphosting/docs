@@ -59,3 +59,5 @@ Of course you replace **USERNAME** with your name and **PASSWORD** with the pass
 ![](https://screensaver01.zap-hosting.com/index.php/s/ewTra2Fi2yia9jS/preview)
 
 Now you are logged in as admin on your server and can manage it with different commands.
+
+<InlineVoucher />

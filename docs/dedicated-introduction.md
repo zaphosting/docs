@@ -59,3 +59,5 @@ Due to the performance, the comprehensive permissions and the resulting possibil
 ## Frequently Asked Questions
 Got more questions about our Dedicated Server product? Get answers to everything you want to know about features, benefits, setup and how to use it effectively. This way you get the info you need to make the most of our Dedicated Server product. And if something is still unclear, just reach out and we are here to help you right away.
 <SearchableAccordion items={items} />
+
+<InlineVoucher />

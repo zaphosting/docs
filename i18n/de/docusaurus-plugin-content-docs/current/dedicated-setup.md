@@ -68,3 +68,5 @@ In der HTML-Konsole wird nun die Einrichtung des Betriebssystems fortgeführt. A
 - [FreeBSD installieren](dedicated-freebsd.md)
 - [CentOS installieren](dedicated-centos.md)
 - [Proxmox installieren](dedicated-proxmox.md)
+
+<InlineVoucher />

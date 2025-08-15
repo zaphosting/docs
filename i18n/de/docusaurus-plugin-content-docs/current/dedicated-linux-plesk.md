@@ -197,3 +197,5 @@ Wird nun die Domain im Browser geöffnet, so zeigt diese ihre Verschlüsslung an
 :::info
 Die Installation sowie der Einrichtung der ersten Domain mit Verschlüsslung ist nun vollständig abgeschlossen. 
 :::
+
+<InlineVoucher />

@@ -44,3 +44,5 @@ As a result, the selected chunks have been deleted and you can now upload the wo
 
 ## Conclusion
 Congratulations, you have successfully removed the faulty chunks and should be able to play this world properly again. For further questions or assistance, please don’t hesitate to contact our support team, which is available daily to assist you! 🙂
+
+<InlineVoucher />

@@ -58,3 +58,5 @@ Once on the txAdmin interface, navigate to the **CFG Editor** on the left-hand s
 ## Conclusion
 
 After you have setup the custom license key, restart your server to start utilising it. You have successfully added a custom license key to your FiveM game server. For further questions or assistance, please don't hesitate to contact our support team, which is available daily to assist you! 🙂
+
+<InlineVoucher />

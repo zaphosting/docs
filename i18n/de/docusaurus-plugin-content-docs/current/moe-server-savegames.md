@@ -73,3 +73,5 @@ Um dein Savegame zu benutzen, musst du es in deiner Serverkonfiguration auswähl
 In diesem Abschnitt findest du den Parameter **Map Name** im Abschnitt Grundeinstellungen, und deine hochgeladene Welt sollte nun hier zu finden sein. Wenn du ihn nicht siehst, stelle sicher, dass du deinen Server nach dem Hochladen neu startest.
 
 Du hast erfolgreich ein Savegame zu deinem Gameserver hinzugefügt.
+
+<InlineVoucher />

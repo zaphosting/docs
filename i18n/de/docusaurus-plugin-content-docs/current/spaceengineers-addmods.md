@@ -95,3 +95,5 @@ Hierbei muss 12345 mit der Mod-ID deiner ausgeäwhlten Mod getauscht werden!
 Wie auch im Screenshot zu sehen, muss derselbe Schritt einfach nur erneut wiederholt werden, um einen Mod hinzuzufügen.
 Nachdem alle gewünschten Mods hinzugefügt wurden, kann die Config mit **STRG+S** gespeichert werden und die Config geschlossen werden.
 Danach kann der Server normal gestartet werden und die Mods werden dann automatisch installiert.
+
+<InlineVoucher />

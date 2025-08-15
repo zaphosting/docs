@@ -70,3 +70,5 @@ Still looking for the perfect mods for your server? Browse through our carefully
 
 <SearchableItemList items={items} />
 
+
+<InlineVoucher />

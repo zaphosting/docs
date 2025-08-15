@@ -108,3 +108,5 @@ You can get a list of all locale tags by viewing [this resource](https://github.
 ## Conclusion
 
 Provided that you have followed all the steps, you have successfully customised your RedM game server. For further questions or assistance, please don't hesitate to contact our support team, which is available daily to assist you! 🙂
+
+<InlineVoucher />

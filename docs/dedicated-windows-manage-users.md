@@ -96,3 +96,5 @@ In order to manage users, you must be using the main **Administrator** account o
 Now on the page, you will be able to use a variety of functions to manage the user which includes adjusting the username, password, account type as well as deleting the user.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/tkPtbrmfsnK3TcG/preview)
+
+<InlineVoucher />

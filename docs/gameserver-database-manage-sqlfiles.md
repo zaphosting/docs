@@ -62,3 +62,5 @@ By default, the **Quick** export method is selected, which will automatically ex
 ## Conclusion 
 
 You have successfully exported your database into an SQL file allowing you to easily import it in the future. For further questions or assistance, please don’t hesitate to contact our support team, which is available daily to assist you! 🙂
+
+<InlineVoucher />

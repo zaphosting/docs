@@ -62,3 +62,5 @@ Below you will find a list of a few available commands that you can use with you
 ## Conclusion
 
 Congratulations, you have successfully configured the administrator permissions. For further questions or assistance, please don't hesitate to contact our support team, which is available daily to assist you! 🙂
+
+<InlineVoucher />

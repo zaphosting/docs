@@ -120,3 +120,5 @@ Das Angebot an Möglichkeiten, sei es durch Einstellungen, Themes oder Widgets, 
 ## Abschluss
 
 Glückwunsch, vorausgesetzt, dass du alle Schritte befolgt hast, solltest du Elementor erfolgreich installiert und konfiguriert haben. Für weitere Fragen oder Hilfe zögere bitte nicht, unser Support-Team zu kontaktieren, das dir täglich zur Verfügung steht! 🙂
+
+<InlineVoucher />

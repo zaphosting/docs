@@ -67,3 +67,5 @@ Option 1 and 2 didn't help you or are not quite comprehensible? Don't worry! Fee
 ## Conclusion
 
 By following one or more of the solution approaches, you should have successfully resolved the issue and restored the functionality of your server. For further questions or assistance, please don't hesitate to contact our support team, which is available daily to assist you! 🙂
+
+<InlineVoucher />

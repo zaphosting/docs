@@ -127,3 +127,5 @@ Jetzt kannst du dich über deine IP direkt mit deinem Server verbinden, indem du
 Wenn du möchtest, dass dein Server in der Serverliste verfügbar ist, sieh dir bitte unsere [Server-Konfiguration](foundry-configuration.md) an und füge die entsprechenden Parameter `server_name` und `server_is_public` in deine Konfigurationsdatei ein. Speichere die Datei anschließend und führe den Server erneut aus.
 
 Du hast Foundry erfolgreich auf deinem Windows VPS installiert.
+
+<InlineVoucher />

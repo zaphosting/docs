@@ -101,3 +101,5 @@ Anders hierbei ist es, dass nun kein Hauptprozess mehr dargestellt wird, sondern
 Dennoch können wir die Prozesse durch Anklicken alle einsehen und die Werte besser untersuchen.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/CzitKykWC2dzExD/preview)
+
+<InlineVoucher />

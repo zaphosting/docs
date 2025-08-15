@@ -66,3 +66,5 @@ If you have changed everything as desired, you just need to save your changes.
 ![](https://screensaver01.zap-hosting.com/index.php/s/zpaddQA5EXfSRM3/preview)
 
 After a server reboot all changes are live.
+
+<InlineVoucher />

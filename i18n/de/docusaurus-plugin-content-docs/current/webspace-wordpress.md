@@ -100,3 +100,5 @@ Wenn alle Felder ausgefüllt wurden, dann muss im Anschluss auf **WordPress inst
 ## Abschluss
 
 Glückwünsch, du hast dein WordPress bei deinem Webspace installiert. olltest du noch weitere Fragen oder Probleme haben, dann wende dich gerne an unser Support-Team, welches dir jeden Tag zur Verfügung steht!
+
+<InlineVoucher />

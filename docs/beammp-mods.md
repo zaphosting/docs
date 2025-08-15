@@ -31,3 +31,5 @@ Upload there the .zip file of your mod.
 :::info
 After a Server restart, the mod is available and will be downloaded automatically to your client.
 :::
+
+<InlineVoucher />

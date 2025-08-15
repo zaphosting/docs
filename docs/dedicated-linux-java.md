@@ -81,3 +81,5 @@ OpenJDK 64-Bit Server VM (build 11.0.9.1+1-Ubuntu-0ubuntu1.20.04, mixed mode)
 ```
 
 In this case Java 11 was successfully installed on your system. Now you can easily run your Java applications on your system. 
+
+<InlineVoucher />

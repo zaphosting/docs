@@ -36,3 +36,5 @@ The most important commands:
 | help | Shows all available commands |
 
 [more commands](https://commands.gg/7dtd)
+
+<InlineVoucher />

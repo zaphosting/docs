@@ -48,3 +48,5 @@ set steam_webApiKey "YOUR_KEY_HERE"
 ## Abschluss
 
 Abschließend kannst du deinen Server neu starten. Dein Steam Web API Key wird geladen, wenn dein Server das nächste Mal vollständig gestartet ist. Du hast erfolgreich einen Steam Web API Key zu deinem RedM Gameserver hinzugefügt. Für weitere Fragen oder Hilfe zögere bitte nicht, unser Support-Team zu kontaktieren, das dir täglich zur Verfügung steht! 🙂
+
+<InlineVoucher />

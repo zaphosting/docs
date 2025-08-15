@@ -152,3 +152,5 @@ Wir empfehlen außerdem, den Abschnitt Netzwerkeinstellungen standardmäßig zu 
 ## Abschluss
 
 Glückwunsch, du hast Proxmox erfolgreich installiert. Für weitere Fragen oder Hilfe zögere bitte nicht, unser Support-Team zu kontaktieren, das dir täglich zur Verfügung steht! 🙂
+
+<InlineVoucher />

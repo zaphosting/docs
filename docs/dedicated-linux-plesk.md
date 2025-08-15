@@ -202,3 +202,5 @@ If the domain is now opened in the browser, it shows its encryption.
 :::info
 The installation as well as the setup of the first domain with encryption is now completely finished. 
 :::
+
+<InlineVoucher />

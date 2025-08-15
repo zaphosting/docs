@@ -49,3 +49,5 @@ Please ensure that the name of the image file set in the command exactly matches
 ## Conclusion
 
 Provided that you have followed all the steps, your new server icon should be displayed the next time you restart the server. For further questions or assistance, please don't hesitate to contact our support team, which is available daily to assist you! 🙂
+
+<InlineVoucher />

@@ -272,3 +272,5 @@ Your MongoDB installation should be working now!
 
 </TabItem>
 </Tabs>
+
+<InlineVoucher />

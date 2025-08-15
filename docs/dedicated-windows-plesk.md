@@ -59,3 +59,5 @@ The installation process can take 30 to 60 minutes, after which Plesk would be i
 ## Conclusion
 
 Congratulations, you have successfully installed Plesk. For further questions or assistance, please don't hesitate to contact our support team, which is available daily to assist you! 🙂
+
+<InlineVoucher />

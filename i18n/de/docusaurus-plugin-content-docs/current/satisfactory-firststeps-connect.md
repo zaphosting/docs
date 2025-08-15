@@ -79,3 +79,5 @@ Eine fehlende Sichtbarkeit des Servers kann auftreten, wenn die Initialisierung 
 
 Hast du nach der Fehlersuche weiterhin Probleme? In diesem Fall steht unser Support-Team täglich zur Verfügung, um dir zu helfen. Erstelle einfach ein **[Ticket](https://zap-hosting.com/en/customer/support/)** auf unserer Website und erkläre uns dein Problem mit so vielen Einzelheiten wie möglich. Wir werden uns so schnell wie möglich darum kümmern und dir bei der Lösung des Problems helfen!
  🙂
+
+<InlineVoucher />

@@ -104,3 +104,5 @@ Speichere die Datei und beende nano mit `CTRL + X`, gefolgt von `Y` zur Bestäti
 Du hast nun erfolgreich die wichtigsten SteamCMD-Funktionen für deinen Linux-Server eingerichtet. Du kannst nun mit der Installation von Steam-Inhalten über den Benutzer `steam` fortfahren.
 
 Wir empfehlen dir, die anderen Anleitungen in diesem Abschnitt zu lesen, in denen es um die Installation bestimmter Spiele mit Hilfe von SteamCMD geht.
+
+<InlineVoucher />

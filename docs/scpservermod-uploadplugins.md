@@ -83,3 +83,5 @@ NOTE: Depending on the plugin, your configurations will be different. Always mak
 :::
 
 After the configurations are defined, you will restart your server (or start the server) and then check it directly ingame!  
+
+<InlineVoucher />

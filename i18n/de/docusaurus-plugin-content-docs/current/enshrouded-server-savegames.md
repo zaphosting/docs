@@ -74,3 +74,5 @@ Ziehe einfach eines deiner Savegames mit deinem FTP-Client in diesen Ordner und 
 Die Verwendung deines Savegames ist sehr einfach. Verbinde dich einfach mit deinem Server und wähle während der Spieleinstellungen ein bestimmtes Savegame aus, das du verwenden möchtest. Der Name des Spielstands, das Level und das Datum des letzten Spiels werden unter jedem Spielstand angezeigt, damit du erkennen kannst, welchen du auswählen möchtest.
 
 Du hast erfolgreich ein Savegame zu deinem Gameserver hinzugefügt.
+
+<InlineVoucher />

@@ -10,3 +10,5 @@ services:
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Erfahre mehr über die Installation eines DNS Servers (ISPConfig).
+
+<InlineVoucher />

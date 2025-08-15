@@ -114,3 +114,5 @@ Your dedicated server should now have a working internet connection.
 ## Conclusion
 
 Congratulations, you have successfully installed the CentOS operating system on your dedicated server. For further questions or assistance, please don't hesitate to contact our support team, which is available daily to assist you! 🙂
+
+<InlineVoucher />

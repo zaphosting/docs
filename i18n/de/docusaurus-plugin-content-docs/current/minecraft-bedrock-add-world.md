@@ -60,3 +60,5 @@ Verbinde dich mit deinem Server und überprüfe, ob die importierte Welt korrekt
 ## Abschluss
 
 Das Importieren einer Welt in deinen Minecraft: Bedrock Server ist ein einfacher Prozess, der dir ermöglicht, deine eigenen Kreationen mit anderen zu teilen. Für weitere Fragen oder Hilfe zögere bitte nicht, unser Support-Team zu kontaktieren, das dir täglich zur Verfügung steht! 🙂
+
+<InlineVoucher />

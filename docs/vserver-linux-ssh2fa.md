@@ -102,3 +102,5 @@ Now you are logged in!
 ## Conclusion
 
 Congratulations, you have successfully enabled and configured 2FA for SSH! If you have any further questions or problems, please contact our support team, who are available to help you every day! 
+
+<InlineVoucher />

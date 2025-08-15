@@ -32,3 +32,5 @@ Dort bearbeitest du nun die Datei **server.cfg** und trägst dort wie auf dem Bi
 ![](https://screensaver01.zap-hosting.com/index.php/s/wyppiEcFX9nbyt8/preview)
 
 Danach klickst du auf **Speichern** und kannst deinen Server im Anschluss starten. Die neue Missionsdatei wird dann geladen.
+
+<InlineVoucher />

@@ -116,3 +116,5 @@ overrides = {},
 Im Anschluss muss nun im Spiel bei dem Server die "**TAB**" Taste gehalten werden, um den Serverstatus abzurufen, dort kann man oben links dann auf 3 Punkte klicken und mit "**Regenerate World**" die Welt einmal mit dem überschriebenen Parameter neu generieren.
 
 Sobald diese neu geladen wurde, ist alles beendet und du kannst auf deinem Server mit Höhlen spielen.
+
+<InlineVoucher />

@@ -55,3 +55,5 @@ Um einen Schlüssel zu bearbeiten, drückst du einfach auf das blaue Augensymbol
 Um eine Taste zu löschen, drückst du auf das rote Mülleimer-Symbol, das die betreffende Taste löscht.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/YN9YoWcykQE65Nc/preview)
+
+<InlineVoucher />

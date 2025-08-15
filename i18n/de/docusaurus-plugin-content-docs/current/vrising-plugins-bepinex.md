@@ -56,3 +56,5 @@ Einige Plugins müssen eventuell auch auf dem PC installiert werden. Informiere 
 :::
 
 Du hast erfolgreich neue BepInEx-Plugins auf deinem V Rising Gameserver installiert!
+
+<InlineVoucher />

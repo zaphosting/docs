@@ -52,3 +52,5 @@ Once the pastebin has been created, the pastebin ID must now be entered in the s
 ## Conclusion
 
 Congratulations, once you have successfully created the pastebin and stored it in the server settings, the server description should be displayed with the next restart. For further questions or assistance, please don’t hesitate to contact our support team, which is available daily to assist you! 🙂
+
+<InlineVoucher />

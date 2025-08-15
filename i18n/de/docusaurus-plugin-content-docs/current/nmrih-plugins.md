@@ -99,3 +99,5 @@ Noch auf der Suche nach den perfekten Plugins für deinen Server? Durchstöbere 
 ## Abschluss
 
 Wenn du alle Schritte befolgt hast, solltest du Sourcemod/Metamod und deine gewünschten Plugins erfolgreich installiert haben. Für weitere Fragen oder Hilfe zögere bitte nicht, unser Support-Team zu kontaktieren, das dir täglich zur Verfügung steht! 🙂
+
+<InlineVoucher />

@@ -48,3 +48,5 @@ Bitte schau dir unsere [Server-Konfiguration](vrising-configuration.md) an, um d
 Sobald dies erledigt ist, wähle im Hauptmenü **Spielen**, gefolgt von der Option **Online spielen** und drücke noch einmal unten rechts auf **Alle Server anzeigen**. Jetzt kannst du den Server-Browser benutzen, um deinen Server mit Hilfe der bereitgestellten Filter wie Namenssuche, Spielmodus, Schwierigkeitsgrad und vielem mehr zu finden.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/CGoZBkRsGTwkTQg/preview)
+
+<InlineVoucher />

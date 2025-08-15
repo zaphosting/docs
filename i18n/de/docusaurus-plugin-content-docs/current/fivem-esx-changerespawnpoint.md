@@ -50,3 +50,5 @@ Diese bearbeiten wir nun und ersetzen die Koordinaten. Danach nur noch auf Speic
 :::info
 Nach einem Serverneustart, werden die Änderungen übernommen.
 :::
+
+<InlineVoucher />

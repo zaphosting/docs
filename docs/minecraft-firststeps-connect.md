@@ -107,3 +107,5 @@ Still facing issues after troubleshooting? In this case, our support team is ava
 ## Conclusion
 
 Congratulations, provided you have successfully followed everything, you should have successfully established a connection to the server. For further questions or assistance, please don't hesitate to contact our support team, which is available daily to assist you! 🙂
+
+<InlineVoucher />

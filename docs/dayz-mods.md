@@ -39,3 +39,5 @@ Still looking for the perfect mods for your server? Browse through our carefully
 ## Conclusion
 
 Provided that you have followed all the steps, you have successfully installed the mods on your server. For further questions or assistance, please don't hesitate to contact our support team, which is available daily to assist you! 🙂
+
+<InlineVoucher />

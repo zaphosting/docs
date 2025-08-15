@@ -30,3 +30,5 @@ Der Voicebot für Teamspeak 3 und Discord ist ein vielseitiges Tool, das für di
 ## Häufig gestellte Fragen
 Du hast noch offene Fragen zu unserem Voicebot Produkt? Hier findest du Antworten auf alles, was dich rund um Funktionen, Vorteile, Einrichtung und Nutzung interessiert. So bekommst du schnell die Infos, die du brauchst, um unser Voicebot Produkt bestmöglich zu nutzen. Und wenn doch noch etwas unklar ist, melde dich einfach bei uns und wir helfen dir sofort weiter.
 <SearchableAccordion items={items} />
+
+<InlineVoucher />

@@ -451,3 +451,5 @@ This command defines how many flash grenades a player can carry.
 **ammo_grenade_limit_total**
 
 This command defines how many grenades a player can carry in total.
+
+<InlineVoucher />

@@ -73,3 +73,5 @@ Using your Savegame will require you to select it in your server configuration. 
 In this section, find the **Map Name** parameter in the Basic settings section, and your uploaded world should now be found here. If you do not see it, ensure that you restart your server after uploading.
 
 You have successfully added a Savegame to your game server.
+
+<InlineVoucher />

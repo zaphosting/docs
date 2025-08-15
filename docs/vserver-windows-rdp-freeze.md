@@ -34,3 +34,5 @@ By executing this command, your computer will now use the TCP protocol instead o
 :::info 
 **Confirm the input** by pressing the Enter key and **restart your computer afterward** so that the change is applied and takes effect.
 :::
+
+<InlineVoucher />

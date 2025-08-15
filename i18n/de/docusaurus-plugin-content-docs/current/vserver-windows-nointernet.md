@@ -120,3 +120,5 @@ Du kannst die Netzwerkkonfiguration in der Verwaltung des Webinterfaces deines V
 ## Abschluss
 
 Wenn du alle Schritte befolgt hast, sollte eine Verbindung wieder wie üblich möglich sein.  Für weitere Fragen oder Hilfe zögere bitte nicht, unser Support-Team zu kontaktieren, das dir täglich zur Verfügung steht! 🙂
+
+<InlineVoucher />

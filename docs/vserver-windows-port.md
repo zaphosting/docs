@@ -106,3 +106,5 @@ Once ready, finally press the **Finish** button to create the rule.
 ![](https://screensaver01.zap-hosting.com/index.php/s/Ro5k6JgTF73exoH/preview)
 
 You have successfully created your very own Port Rule for your Windows server. You should now repeat this to create an **Outbound Rule** following the same steps, but creating it under the Outbound Rules section.
+
+<InlineVoucher />

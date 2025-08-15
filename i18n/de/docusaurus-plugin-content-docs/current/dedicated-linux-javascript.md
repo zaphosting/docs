@@ -250,3 +250,5 @@ Jetzt kannst du den bereitgestellten Code mit dem Befehl `bun index.ts` ausführ
 </Tabs>
 
 Wenn du dieser Anleitung folgst, hast du erfolgreich eine der beliebten JavaScript-Laufzeitumgebungen auf deinem Linux-Server installiert.
+
+<InlineVoucher />

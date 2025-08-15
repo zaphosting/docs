@@ -252,3 +252,5 @@ Jetzt kannst du den bereitgestellten Code mit dem Befehl `bun index.ts` ausführ
 ## Abschluss
 
 Glückwunsch, du hast JavaScript erfolgreich installiert und konfiguriert! Solltest du noch weitere Fragen oder Probleme haben, dann wende dich gerne an unser Support-Team, welches dir jeden Tag zur Verfügung steht! 
+
+<InlineVoucher />

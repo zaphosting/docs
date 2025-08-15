@@ -89,3 +89,5 @@ Dies kann z. B. mit einem Ping Check via Windows CMD oder Linux Terminal, je na
 ping DieNeueIP
 ```
 Die gleichen Schritte sind bei noch mehr zusätzliche IPv4 Adressen zu erledigen, das Interface erhöht sich dann immer um eine Zahl z.b "eth2", "eht3" usw. Die zusätzliche IPv4 Adresse ist nun erfolgreich eingerichtet.
+
+<InlineVoucher />
