@@ -77,3 +77,5 @@ Es dauert nun einen kleinen Augenblick bis dein Upgrade verbucht wird, dies steh
 ⚠ Ein Neustart deines Produktes ist in der Regel notwendig, damit die neuen Spezifikationen angewendet werden.
 :::
 
+
+<InlineVoucher />

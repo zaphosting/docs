@@ -47,3 +47,5 @@ Beim ersten Verbindungsaufbau per SFTP erscheint dieser Hinweis, weil dein Compu
 ## Abschluss
 
 Vorausgesetzt, dass du alle Schritte befolgt hast, hast du erfolgreich eine SFTP Verbindung zu deinem Server hergestellt. Für weitere Fragen oder Hilfe zögere bitte nicht, unser Support-Team zu kontaktieren, das dir täglich zur Verfügung steht! 🙂
+
+<InlineVoucher />

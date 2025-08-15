@@ -57,3 +57,5 @@ Aufgrund der Performance, den umfangreichen Zugriffsberechtigungen und damit her
 ## Häufig gestellte Fragen
 Du hast noch offene Fragen zu unserem Dedicated Server Produkt? Hier findest du Antworten auf alles, was dich rund um Funktionen, Vorteile, Einrichtung und Nutzung interessiert. So bekommst du schnell die Infos, die du brauchst, um unser Dedicated Server Produkt bestmöglich zu nutzen. Und wenn doch noch etwas unklar ist, melde dich einfach bei uns und wir helfen dir sofort weiter.
 <SearchableAccordion items={items} />
+
+<InlineVoucher />

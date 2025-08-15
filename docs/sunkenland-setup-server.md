@@ -62,3 +62,5 @@ In this section, search for the **World GUID** option. Into this field, place th
 Make sure to press the green **Save** button at the base of the page. Now attempt to start your server, and it should launch correctly.
 
 You have successfully setup your Sunkenland game server.
+
+<InlineVoucher />

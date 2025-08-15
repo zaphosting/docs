@@ -69,3 +69,5 @@ Vergewissere dich, dass RCON aktiviert ist, sonst funktionieren diese Befehle ni
 | /rcon banip [ip] | String | Verbannt eine IP-Adresse vom Server | 
 | /rcon unbanip [ip] | String | Aufhebung der Sperre einer IP-Adresse vom Server | 
 | /rcon reloadbans | - | Lädt die Ban-Datei neu |
+
+<InlineVoucher />

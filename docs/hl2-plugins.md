@@ -100,3 +100,5 @@ Still looking for the perfect plugins for your server? Browse through our carefu
 ## Conclusion
 
 Provided you have followed all the steps, you should have successfully installed Sourcemod/Metamod and your desired plugins. For further questions or assistance, please don't hesitate to contact our support team, which is available daily to assist you! 🙂
+
+<InlineVoucher />

@@ -204,3 +204,5 @@ Eine Liste der möglichen Tasten wäre [hier](https://docs.unity3d.com/ScriptRef
 |   staminaRegen      |      5 (float)     |   setzt die Anzahl an Ausdauer welche regeneriert wird  |
 |   swimStaminaDrain      |     5 (float)      |   setzt die Anzahl an Ausdauer für den Ausdauerentzug beim Schwimmen   |
 |   jumpStaminaUsage      |      10 (float)     |   setzt die Anzahl an Ausdauer für den Ausdauerentzug beim Springen   |
+
+<InlineVoucher />

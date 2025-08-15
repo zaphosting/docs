@@ -69,3 +69,5 @@ Option 1 und 2 haben dir nicht weitergeholfen oder sind nicht ganz nachvollziehb
 
 ## Abschluss
 Durch das Befolgen einer oder mehrerer der Lösungsansätze sollte das Problem erfolgreich behoben und die Funktionalität deines Servers wiederhergestellt sein. Für weitere Fragen oder Hilfe zögere bitte nicht, unser Support-Team zu kontaktieren, das dir täglich zur Verfügung steht! 🙂
+
+<InlineVoucher />

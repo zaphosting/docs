@@ -102,3 +102,5 @@ iptables -A OUTPUT -p udp --dport 30120 -j ACCEPT
 
 You have successfully installed and configured a FiveM Dedicated Server service on your dedicated server. For further questions or assistance, please don't hesitate to contact our support team, which is available daily to assist you! 🙂
 
+
+<InlineVoucher />

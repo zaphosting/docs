@@ -143,3 +143,5 @@ Your server should have an active internet connection now
 ## Conclusion
 
 Congratulations, you have successfully installed the FreeBSD operating system on your dedicated server. For further questions or assistance, please don't hesitate to contact our support team, which is available daily to assist you! 🙂
+
+<InlineVoucher />

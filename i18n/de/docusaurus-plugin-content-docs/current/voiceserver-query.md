@@ -84,3 +84,5 @@ Standardmäßig sollte nach einer Erstinstallation ein Fehler auftreten, wenn du
 
 ## Abschluss
 Du hast mit Hilfe von YatQA erfolgreich eine Verbindung zur Query hergestellt. Für weitere Fragen oder Hilfe zögere bitte nicht, unser Support-Team zu kontaktieren, das dir täglich zur Verfügung steht! 🙂
+
+<InlineVoucher />

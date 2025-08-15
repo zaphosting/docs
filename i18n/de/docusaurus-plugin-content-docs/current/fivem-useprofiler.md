@@ -36,3 +36,5 @@ So kannst du zum Beispiel auch erkennen, welche Ressourcen viel Zeit in Anspruch
 ## Abschluss
 
 Glückwunsch, du hast erfolgreich ein FiveM-Profil erstellt, mit dem du potenzielle Probleme erkennen kannst. Für weitere Fragen oder Hilfe zögere bitte nicht, unser Support-Team zu kontaktieren, das dir täglich zur Verfügung steht! 🙂
+
+<InlineVoucher />

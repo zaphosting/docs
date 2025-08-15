@@ -94,3 +94,5 @@ Debian:
 ## Abschluss
 
 Glückwunsch, du hast XRDP erfolgreich installiert! Solltest du noch weitere Fragen oder Probleme haben, dann wende dich gerne an unser Support-Team, welches dir jeden Tag zur Verfügung steht! 
+
+<InlineVoucher />

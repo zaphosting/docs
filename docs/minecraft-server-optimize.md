@@ -400,3 +400,5 @@ To do this, the following setting must be made in "paper.yml":
 :::info
 **Danger! In some situations this can change the way Redstone works very much!**
 :::
+
+<InlineVoucher />

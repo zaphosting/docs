@@ -74,3 +74,5 @@ Sollte die Domain mittlerweile erfolgreich zu uns übertragen worden sein, so ka
 
 ## Support
 Bei Fragen oder Problemen steht dir unser Support täglich von morgens bis spät in die Nacht zur Verfügung. Solltest du beim Umzug Hilfe benötigen, dann lass es uns gerne über den [**Live Chat**](https://zap-hosting.com/), das **[Ticket System](https://zap-hosting.com/en/customer/support/)** oder per E-Mail an [**support@zap-hosting.com**](mailto:support@zap-hosting.com) wissen. Wir helfen dir gerne weiter! :)
+
+<InlineVoucher />

@@ -46,3 +46,5 @@ Head over to the **Dashboard** area on your Domain's web interface panel. On thi
 ![](https://screensaver01.zap-hosting.com/index.php/s/TTHm6qFA9rfgFBn/preview)
 
 You should provide this authorization code to your new provider during setup to move your domain.
+
+<InlineVoucher />

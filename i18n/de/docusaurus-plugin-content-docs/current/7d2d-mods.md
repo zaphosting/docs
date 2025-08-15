@@ -51,3 +51,5 @@ Im Anschluss werden dann die Dateien des Mods in das Mods-Verzeichnis hochgelade
 
 
 Damit ist die Installation des Mods bereits erledigt. Beim nächsten Serverstart sollten die Mods dann automatisch geladen werden. 
+
+<InlineVoucher />

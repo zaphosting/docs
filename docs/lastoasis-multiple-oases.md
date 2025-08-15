@@ -46,3 +46,5 @@ Once confired, you can finally press **Add Oasis** to create the Oassis and acti
 ![](https://screensaver01.zap-hosting.com/index.php/s/yoeHTdeAeXneC2q/preview)
 
 You should now be able to see multiple active Oasis at the same time under the **Oases** section. You have successfully setup multiple Oases for your Realm.
+
+<InlineVoucher />

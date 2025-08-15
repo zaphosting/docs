@@ -78,3 +78,5 @@ If the main Savegame `world` folder is missing, attempt to shut down and start t
 Unlike usually having to edit a configuration file to activate your Savegame, you don't have to here since Abiotic Factor dedicated servers don't support Savegame switching yet.
 
 Instead, simply restart your server and on next launch the server will load the Savegame contents that you have uploaded into the main `world` folder.
+
+<InlineVoucher />

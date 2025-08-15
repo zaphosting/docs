@@ -133,3 +133,5 @@ Jetzt ist es an der Zeit, deinen Server zu starten. Gehe zum Basisverzeichnis de
 ## Abschluss
 
 Glückwunsch, du hast den Conan Exiles Server erfolgreich installiert und konfiguriert! Solltest du noch weitere Fragen oder Probleme haben, dann wende dich gerne an unser Support-Team, welches dir jeden Tag zur Verfügung steht!
+
+<InlineVoucher />

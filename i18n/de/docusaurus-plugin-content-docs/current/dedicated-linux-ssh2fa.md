@@ -121,3 +121,5 @@ Und schon bist du eingeloggt! Du hast nun 2FA für SSH aktiviert.
 ## Abschluss
 
 Glückwunsch, du hast erfolgreich 2FA für deine SSH-Zugang konfiguriert. Für weitere Fragen oder Hilfe zögere bitte nicht, unser Support-Team zu kontaktieren, das dir täglich zur Verfügung steht! 🙂
+
+<InlineVoucher />

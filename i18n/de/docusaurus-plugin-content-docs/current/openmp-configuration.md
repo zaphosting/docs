@@ -135,3 +135,5 @@ Wir raten davon ab, die Port- oder IP-Einstellungen zu ändern, da diese automat
 | network.player_timeout | Zeit in Millisekunden, nach der ein Spieler einen Timeout erleidet, wenn keine Daten an den Server gesendet werden |
 
 Nachdem du deine Änderungen vorgenommen hast, speichere die Datei an den entsprechenden Stellen und starte deinen Server neu. Wenn dein Server das nächste Mal startet, verwendet er die von dir angegebenen Einstellungen.
+
+<InlineVoucher />

@@ -35,3 +35,5 @@ Eine kleine Auswahl der wichtigsten Befehle haben wir hier für dich zusammenges
 | help | Zeigt dir alle verfügbaren Befehle |
 
 [Mehr Befehle](https://commands.gg/7dtd)
+
+<InlineVoucher />

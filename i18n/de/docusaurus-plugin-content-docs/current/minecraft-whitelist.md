@@ -91,3 +91,5 @@ Um nicht jedes Mal die Whitelist Datei per FTP öffnen zu müssen, ist es auch m
 ```
 /whitelist list
 ```
+
+<InlineVoucher />

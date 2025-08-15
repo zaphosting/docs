@@ -51,3 +51,5 @@ You should now be able to call the redirect with your domain and the defined dis
 ## Conclusion
 
 Provided you have followed all the steps, you should have successfully configured the domain forwarding to your Discord server.  For further questions or assistance, please don't hesitate to contact our support team, which is available daily to assist you! 🙂
+
+<InlineVoucher />

@@ -66,3 +66,5 @@ Sobald du alle Einstellungen vorgenommen hast, welche du anpassen wolltest, muss
 ![](https://screensaver01.zap-hosting.com/index.php/s/Hcd4seAQEjBfYtG/preview)
 
 Nach einem Serverneustart werden deine Änderungen automatisch übernommen.
+
+<InlineVoucher />

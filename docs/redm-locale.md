@@ -71,3 +71,5 @@ The value of the **sets-locale** command has the **root-AQ** value by default. T
 ## Conclusion
 
 The last step is to restart the server to make sure that the change is applied. After that you can reload the server list in your RedM client and should be able to see the change you just made. For further questions or assistance, please don't hesitate to contact our support team, which is available daily to assist you! 🙂
+
+<InlineVoucher />

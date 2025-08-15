@@ -56,3 +56,5 @@ Wenn mehrere **Team Fortress 2** Server betrieben werden, wird für jeden Server
 ## Abschluss
 
 Der GSLT wurde erstellt und für deine Serverkonfiguration angewendet. Für weitere Fragen oder Hilfe zögere bitte nicht, unser Support-Team zu kontaktieren, das dir täglich zur Verfügung steht! 🙂
+
+<InlineVoucher />

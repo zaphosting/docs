@@ -34,3 +34,5 @@ Now the newly uploaded world only needs to be configured in the **server.propert
 After restarting the server, the new world should now be applied. Enjoy your new world! 🙂
 
 <InlineVoucher />
+
+<InlineVoucher />

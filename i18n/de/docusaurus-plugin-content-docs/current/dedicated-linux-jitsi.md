@@ -122,3 +122,5 @@ https://meet.zap-testdomain.de
 ```
 
 Lädt die Seite mit Jitsi Meet, kannst du direkt deine 1. Videokonferenz starten.
+
+<InlineVoucher />

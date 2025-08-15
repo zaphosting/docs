@@ -100,3 +100,5 @@ Klicke abschließend auf **Save & Run Server**. Damit ist das txAdmin-Setup abge
 ## Zusätzliche Unterstützung
 
 Für txAdmin-spezifischen Support kontaktiere bitte das txAdmin-Team über deren [offizielle Webseite](https://txadm.in/) oder trete der Community auf [Discord](https://discord.gg/txAdmin/) bei.
+
+<InlineVoucher />

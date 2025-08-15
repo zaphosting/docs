@@ -99,3 +99,5 @@ When you are done collecting, you will need to go back to the collection, right 
 At the end this has to be added at Steam Workshop in your game server administration:
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/6gCM5rWoeBeg57M/preview)
+
+<InlineVoucher />

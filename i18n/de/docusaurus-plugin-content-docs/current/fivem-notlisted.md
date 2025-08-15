@@ -45,3 +45,5 @@ Falls nichts davon Abhilfe bringt, ist eine Neuinstallation empfehlenswert, dami
 :::info
 Gehe sicher, dass vor der Neuinstallation ein Backup erstellt wird, ansonsten werden die Daten auf dem Server verloren gehen.
 :::
+
+<InlineVoucher />

@@ -52,3 +52,5 @@ Um Backups herunterladen oder zu löschen, muss man sich per FTP mit dem Storage
 ![](https://screensaver01.zap-hosting.com/index.php/s/Bi8YbGNejsw97an/preview)
 
 Dort angelangt, findet man die Zugangsdaten zum Storage Server und den aktuell belegten Speicherplatz. Wenn du per FTP verbunden bist, dann findest du dort die Backups und kannst sie darüber herunterladen oder löschen.
+
+<InlineVoucher />

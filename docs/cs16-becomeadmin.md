@@ -103,3 +103,5 @@ In that case, no password is needed since it is an authentication via Steam. The
 ## Conclusion
 
 Congratulations, you have successfully configured the administrator permissions. For further questions or assistance, please don't hesitate to contact our support team, which is available daily to assist you! 🙂
+
+<InlineVoucher />

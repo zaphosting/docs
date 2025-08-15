@@ -59,3 +59,5 @@ Erstellte Backups (Snapshots) können per FTP von deinem Storage Server herunter
 ## Abschluss
 
 Du hast erfolgreich ein Backup erstellt, wenn du alle genannten Schritte befolgt hast. Für weitere Fragen oder Hilfe zögere bitte nicht, unser Support-Team zu kontaktieren, das dir täglich zur Verfügung steht! 🙂
+
+<InlineVoucher />

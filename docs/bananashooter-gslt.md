@@ -58,3 +58,5 @@ When operating multiple **Banana Shooter** servers, you will need a GSLT for eac
 ## Conclusion
 
 The GSLT has been created and applied to your server configuration. For further questions or assistance, please don't hesitate to contact our support team, which is available daily to assist you! 🙂
+
+<InlineVoucher />

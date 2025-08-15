@@ -51,3 +51,5 @@ Wenn wir unserer Rolle also einer Berechtigung zuweisen wollen, können wir den 
 So wie es in diesem Beispiel zu sehen ist:
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/Yz764keXiisoBbw/preview)
+
+<InlineVoucher />

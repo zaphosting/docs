@@ -76,3 +76,5 @@ Es kann nützlich sein, den Namen des hochgeladenen Savegame-Ordners zu kopieren
 Die Verwendung deines Savegames ist sehr einfach. Du kannst dies entweder über den Satisfactory Server Manager im Spiel verwalten oder indem du zum Dashboard deines Servers gehst und den Abschnitt "Savegame Manager" verwendest.
 
 Du hast deinem Spielserver erfolgreich ein Savegame hinzugefügt.
+
+<InlineVoucher />

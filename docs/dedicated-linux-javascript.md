@@ -228,3 +228,5 @@ Now you can run the provided code with the `bun index.ts` command and check the 
 </Tabs>
 
 By following this guide, you will have successfully installed one of the popular JavaScript runtimes on your Linux server.
+
+<InlineVoucher />

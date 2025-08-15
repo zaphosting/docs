@@ -53,3 +53,5 @@ You must set up an Admin Password and grant yourself permission using the `/Admi
 :::note
 You cannot currently unban a person in-game as there is no command available. You would have to manually edit the `banlist.txt` file in your server directory if you wish to unban a player.
 :::
+
+<InlineVoucher />

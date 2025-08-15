@@ -117,3 +117,5 @@ Die ausgewählten Ordner werden jetzt mittels Drag & Drop in den zuvor geöffnet
 
 Nachdem die Mods hochgeladen worden sind, kann der Server einfach via Webinterface gestartet werden.
 Danach kann dem Server wie in dieser [Zum Server binden](satisfactory-connect.md) beschrieben beigetreten werden 
+
+<InlineVoucher />

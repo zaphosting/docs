@@ -56,3 +56,5 @@ If both passwords are not equal, then the console will stop the operation. in th
 :::info
 Important: If you change the password via Console, it cannot be displayed for 3 hours in our web interface under Access and Security.
 :::
+
+<InlineVoucher />

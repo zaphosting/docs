@@ -78,3 +78,5 @@ Um ein bestimmtes Savegame verwenden zu können, musst du eine Konfigurationsdat
 Gehe einfach zum Abschnitt **Einstellungen** im Webinterface deines Gameservers und suche die Einstellung **Savename**.
 
 Ändere diese Einstellung auf den Namen des Spielstandsordners, den du im vorherigen Schritt hochgeladen hast. Wenn du fertig bist, speichere unten mit dem grünen Button **Speichern** und starte dann deinen Server neu.
+
+<InlineVoucher />

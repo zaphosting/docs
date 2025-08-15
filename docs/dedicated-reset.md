@@ -75,3 +75,5 @@ We strongly advise against performing this process unless you are absolutely cer
 ## Conclusion
 
 Congratulations, you have successfully deleted the data on your dedicated server. For further questions or assistance, please don't hesitate to contact our support team, which is available daily to assist you! 🙂
+
+<InlineVoucher />

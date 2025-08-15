@@ -111,3 +111,5 @@ overrides = {},
 Afterwards you have to hold the "**TAB**" button on the server to get the server status. Here you can click on 3 dots at the top left and regenerate the world once with the overwritten parameter with "**Regenerate World**".
 
 As soon as it has been reloaded, everything is finished and you can play with caves on your server.
+
+<InlineVoucher />

@@ -508,3 +508,5 @@ Hierzu muss folgender Wert in der "paper.yml" geändert werden:
 
 Hier empfehlen wir den doppelten Wert deiner "richtigen" Sichtweite zu nehmen, du kannst aber frei entscheiden um den perfekten Wert zu finden.
 
+
+<InlineVoucher />

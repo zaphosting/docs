@@ -66,3 +66,5 @@ With your FTP client open, head over to the following subdirectory within your g
 Delete all files of the current save file (or back them up beforehand if you wish to play on this save file in the future). Next, drag and upload all of the extracted files into this directory (including .ark, .arktribe and .arkprofile files). Please be patient as it may take some time to finish uploading everything, which is dependant on the size of all of your save file content.
 
 Once your upload is finished, restart your server and the newly uploaded files should be loaded. You have successfully uploaded an official backup save file to your Ark: Survival Evolved game server.
+
+<InlineVoucher />

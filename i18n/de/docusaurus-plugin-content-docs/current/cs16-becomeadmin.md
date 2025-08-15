@@ -98,3 +98,5 @@ In dem Fall wird kein Passwort benötigt, da es sich um eine Authentifizierung �
 ## Abschluss
 
 Glückwunsch, du hast erfolgreich die Administratorberechtigungen konfiguriert. Für weitere Fragen oder Hilfe zögere bitte nicht, unser Support-Team zu kontaktieren, das dir täglich zur Verfügung steht! 🙂
+
+<InlineVoucher />

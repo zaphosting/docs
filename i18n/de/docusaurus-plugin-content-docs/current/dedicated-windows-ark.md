@@ -89,3 +89,5 @@ Die eigentliche Einrichtung ist damit bereits abgeschlossen. Weitere Änderungen
 Zum Abschluss der Einrichtung kannst du nun den Server starten, indem du die zuvor erstellte **start-ark.bat** Datei ausführst. Hierdurch sollte sich die Konsole des Servers öffnen und der Startprozess beginnen. Wenn alles wie erwartet verläuft, sollte der Server nach dem erfolgreichen Start in der Liste der Server sichtbar sein.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/MWpRedqsnq3KC5L/preview)
+
+<InlineVoucher />

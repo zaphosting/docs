@@ -122,3 +122,5 @@ Dort findest du die Konfigurationsdatei **enshrouded_server.json**. In dieser Da
 Jetzt ist es an der Zeit, deinen Server zu starten. Gehe in das Basisverzeichnis deines Enshrouded-Servers und starte **enshrouded_server.exe**, um den Startvorgang zu beginnen. Dadurch wird die Konsole des Servers in einer Eingabeaufforderung geöffnet und der Startvorgang beginnt. Jetzt kannst du dich direkt mit deinem Server verbinden, indem du auf die Registerkarte **Spiele finden** gehst, auf **Server hinzufügen** drückst und deine Server-IP und deinen Port eingibst (Standard ist 15636).
 
 Du hast Enshrouded erfolgreich auf deinem Windows VPS installiert.
+
+<InlineVoucher />

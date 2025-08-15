@@ -46,3 +46,5 @@ Werden nicht alle Tool-Optionen wie im Screenshot gezeigt angezeigt? In diesem F
 ## Abschluss
 
 You have successfully enabled the FiveM Dev Tools. For further questions or assistance, please don't hesitate to contact our support team, which is available daily to assist you! 🙂
+
+<InlineVoucher />

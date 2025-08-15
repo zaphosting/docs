@@ -45,3 +45,5 @@ If none of this helps, a fresh install is recommended, this will reset all serve
 :::info
 Be sure to make a backup before reinstalling, otherwise the data on the server will be lost.
 :::
+
+<InlineVoucher />

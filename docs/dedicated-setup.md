@@ -63,3 +63,5 @@ The setup of the operating system is now carried out in the HTML console. We als
 - [Install FreeBSD](dedicated-freebsd.md)
 - [Install CentOS](dedicated-centos.md)
 - [Install Proxmox](dedicated-proxmox.md)
+
+<InlineVoucher />

@@ -26,3 +26,5 @@ If the server still contains any important data, you should back it up first bef
 ## Conclusion
 
 Congratulations, you have successfully reset the server by reinstalling it.  For further questions or assistance, please don’t hesitate to contact our support team, which is available daily to assist you! 🙂
+
+<InlineVoucher />

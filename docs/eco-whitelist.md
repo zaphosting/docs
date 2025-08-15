@@ -75,3 +75,5 @@ Alternatively, it is also possible to add more players to the whitelist with in-
 ## Manage Whitelist
 
 The management of the whitelist can only be done in the **Users.eco** config file, because there is no server command to remove a player from the whitelist. If you would like to remove a player, then all you have to do is to remove him from the config file. Also a restart of the server is necessary for the change to take effect. 
+
+<InlineVoucher />

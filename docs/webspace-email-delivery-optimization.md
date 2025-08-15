@@ -56,3 +56,5 @@ To perform the test, you send an email to the address provided by these services
 ## Conclusion
 
 If you have followed and successfully implemented all the recommendations, you should now be in a much better position regarding the security and reliability of your email delivery. Your emails will not only have a higher likelihood of being delivered, but they will also be protected from unauthorized access and misuse.
+
+<InlineVoucher />

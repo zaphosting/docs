@@ -127,3 +127,5 @@ If you wish your server to be available in the server list, please check out our
 ## Conclusion
 
 Congratulations, you have successfully installed and configured the Foundry server on your VPS! If you have any further questions or problems, please contact our support team, who are available to help you every day! 
+
+<InlineVoucher />

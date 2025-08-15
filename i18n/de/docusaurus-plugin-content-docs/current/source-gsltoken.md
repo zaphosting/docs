@@ -83,3 +83,5 @@ Gerade bei CS:GO Gameserver gibt es einige Plugins, welche seitens Valve nicht b
 **Was passiert, wenn mein GSL-Token gebannt wird?**
 
 Wenn ein Token gesperrt wird, dann wird infolgedessen auch der Account und alle dazugehörigen Tokens gesperrt. Dadurch ist der Gameserver nicht mehr öffentlich zugänglich. Für die Zukunft kann der Account dann auch für keine weiteren Gameserver mehr verwendet werden. Der Steam Account kann zum Spielen dennoch weiterbenutzt werden. Diesbezüglich sind keine weiteren Bestrafungen zu erwarten.
+
+<InlineVoucher />

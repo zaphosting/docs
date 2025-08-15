@@ -35,3 +35,5 @@ Once the information has been correctly added and the server has been restarted,
 
 
 
+
+<InlineVoucher />

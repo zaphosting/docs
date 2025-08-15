@@ -165,3 +165,5 @@ Starte das Spiel und navigiere zum Multiplayer-Menü. Suche nach dem Servernamen
 Sobald du den Server gefunden hast, klicke darauf, um dich zu verbinden. Wenn du dazu aufgefordert wirst, gib das Passwort ein, das ebenfalls auf dem Web-Interface sichtbar sein wird. 
 
 Du hast erfolgreich Farming Simulator 22 (Epic Games-Version) auf deinem Windows Dedicated Server installiert.
+
+<InlineVoucher />

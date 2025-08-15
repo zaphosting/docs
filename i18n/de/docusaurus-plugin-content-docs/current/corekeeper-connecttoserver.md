@@ -30,3 +30,5 @@ Dort trägst du die IP und Port ein, welche auf deinem   - gameserver-corekeeper
 ![](https://screensaver01.zap-hosting.com/index.php/s/swkJR7YY5L9xYJt/preview)
 
 Nach dem Klick auf "Connect" verbindet sich der Client zu deinem Server.
+
+<InlineVoucher />

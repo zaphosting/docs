@@ -51,3 +51,5 @@ Der Port ist standardmäßig "**21**"
 Diese Meldung entsteht, wenn der FTP-Kontoname von einer anderen Person auf dem System genutzt wird. Der bestellte Webspace wurde auf einem System mit mehreren Kunden angelegt, wenn einer dieser Kunden jetzt den Namen benutzt, kann kein anderer Kunde diesen benutzen.
 In einem solchen Fall müsste ein anderer Kontoname gewählt werden.
 
+
+<InlineVoucher />

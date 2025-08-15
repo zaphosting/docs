@@ -68,3 +68,5 @@ On this page, you will be able to select between **Windows (EN)** and **Windows 
 ![](https://screensaver01.zap-hosting.com/index.php/s/gxw8pKDr8sBBTHQ/preview)
 
 Once you have started the reinstall, please be patient as it can take some time (up to 30mins) for the server to complete the entire process.
+
+<InlineVoucher />

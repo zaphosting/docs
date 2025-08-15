@@ -40,3 +40,5 @@ Um zusätzliche DLC-Inhalte wie Blood Money DLC zu verwenden, musst du dies in d
 ## Abschluss
 
 Wenn du deine Wahl getroffen hast, starte deinen RedM Server neu. Dein Server startet nun mit dem angegebenen DLC-Build. Du hast erfolgreich ein Game Build für deinen RedM Gameserver eingestellt. Für weitere Fragen oder Hilfe zögere bitte nicht, unser Support-Team zu kontaktieren, das dir täglich zur Verfügung steht! 🙂
+
+<InlineVoucher />

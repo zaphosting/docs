@@ -34,3 +34,5 @@ The Voicebot for Teamspeak 3 and Discord is a versatile tool used for playing mu
 Got more questions about our Voicebot product? Get answers to everything you want to know about features, benefits, setup and how to use it effectively. This way you get the info you need to make the most of our Voicebot product. And if something is still unclear, just reach out and we are here to help you right away.
 <SearchableAccordion items={items} />
 
+
+<InlineVoucher />

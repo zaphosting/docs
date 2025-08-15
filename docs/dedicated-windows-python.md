@@ -81,3 +81,5 @@ When you have finished working inside the venv you can go back by running the `d
 ## Conclusion
 
 Congratulations, you have successfully installed Python. For further questions or assistance, please don't hesitate to contact our support team, which is available daily to assist you! 🙂
+
+<InlineVoucher />

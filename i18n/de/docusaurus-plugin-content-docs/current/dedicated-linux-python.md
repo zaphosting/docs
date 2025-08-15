@@ -136,3 +136,5 @@ Zuerst navigiere zu dem Ordner, in dem du deine venv einrichten möchtest, verwe
 Um Befehle wie `pip install` in deiner venv auszuführen, musst du sie aktivieren, indem du `source /bin/activate` ausführst. Jetzt wird deine Konsole nur noch innerhalb der venv ausgeführt, und Skripte haben nur Zugriff auf lokal installierte Pakete.
 
 Wenn du mit der Arbeit in der venv fertig bist, kannst du zurückkehren, indem du den Befehl `deactivate` ausführst.
+
+<InlineVoucher />

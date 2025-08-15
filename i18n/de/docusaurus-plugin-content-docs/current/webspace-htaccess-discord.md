@@ -52,3 +52,5 @@ Du solltest nun in der Lage sein, die Weiterleitung mit deiner Domain und dem de
 
 Wenn du alle Schritte befolgt hast, solltest du die Weiterleitung zu deinem Discord Server erfolgreich konfiguriert haben. Für weitere Fragen oder Hilfe zögere bitte nicht, unser Support-Team zu kontaktieren, das dir täglich zur Verfügung steht! 🙂
 
+
+<InlineVoucher />

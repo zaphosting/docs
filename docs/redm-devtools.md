@@ -46,3 +46,5 @@ Are you not seeing all the tool options as shown in the screenshot? In this case
 ## Conclusion
 
 You have successfully enabled the RedM Dev Tools. For further questions or assistance, please don't hesitate to contact our support team, which is available daily to assist you! 🙂
+
+<InlineVoucher />

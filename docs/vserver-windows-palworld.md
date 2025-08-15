@@ -154,3 +154,5 @@ Head over to the base directory of your Palworld server and run **PalServer.exe*
 ## Conclusion
 
 Congratulations, you have successfully installed and configured the Palworld server on your VPS! If you have any further questions or problems, please contact our support team, who are available to help you every day! 
+
+<InlineVoucher />

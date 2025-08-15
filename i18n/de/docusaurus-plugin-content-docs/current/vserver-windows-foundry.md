@@ -130,3 +130,5 @@ Wenn du möchtest, dass dein Server in der Serverliste verfügbar ist, sieh dir 
 
 Glückwunsch, du hast den Foundry Server erfolgreich installiert und konfiguriert! Solltest du noch weitere Fragen oder Probleme haben, dann wende dich gerne an unser Support-Team, welches dir jeden Tag zur Verfügung steht!
 
+
+<InlineVoucher />

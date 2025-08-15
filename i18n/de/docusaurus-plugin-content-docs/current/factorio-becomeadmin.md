@@ -61,3 +61,5 @@ Noch weitere verfügbare Befehle findest du in der offiziellen [Factorio Wiki](h
 ## Abschluss
 
 Glückwunsch, du hast erfolgreich die Administratorberechtigungen konfiguriert. Für weitere Fragen oder Hilfe zögere bitte nicht, unser Support-Team zu kontaktieren, das dir täglich zur Verfügung steht! 🙂
+
+<InlineVoucher />

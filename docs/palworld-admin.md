@@ -89,3 +89,5 @@ In-game, open the chat using `Enter`. Next, input the following command, replaci
 ![](https://github.com/zaphosting/docs/assets/42719082/2f6e3ee7-e83f-4b71-87dc-d36f9b8c7340)
 
 You should recieve a success message in chat if this was correct. If you received an error, please ensure that the admin password you have inputted is correct and the one that you set in the previous step.
+
+<InlineVoucher />

@@ -72,3 +72,5 @@ Any command which is mentioned on this page is for vanilla Satisfactory.
 | Gamma "value"      | Integer (default 50)          | Sets your game's brightness level         | 
 
 For an extensive list of commands, please visit [the Satisfactory wiki](https://satisfactory.fandom.com/wiki/Console) which covers a range of more technical commands in-depth.
+
+<InlineVoucher />

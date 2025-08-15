@@ -162,3 +162,5 @@ systemctl enable --now mastodon-web mastodon-sidekiq mastodon-streaming
 ```
 
 After a reboot you should be finished with your setup. Have fun with your instance!
+
+<InlineVoucher />

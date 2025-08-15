@@ -78,3 +78,5 @@ Once we have saved the restart, we can also add more than one daily or weekly re
 ![](https://screensaver01.zap-hosting.com/index.php/s/BddatyGLAZZWnCA/preview)
 
 Done! Your Server will now restart at those specific times, the Savegame will be saved during those Restarts.
+
+<InlineVoucher />

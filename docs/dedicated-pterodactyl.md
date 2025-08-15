@@ -462,3 +462,5 @@ sudo systemctl restart nginx # Restart Nginx
 With everything being done successfully, you should now be able to easily access your Pterodactyl panel by using the domain that you have setup in this section.
 
 You have successfully configured your webserver to enable the use of your domain and add an SSL certificate to your website.
+
+<InlineVoucher />

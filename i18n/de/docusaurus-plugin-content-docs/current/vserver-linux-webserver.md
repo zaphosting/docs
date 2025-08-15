@@ -128,3 +128,5 @@ nginx version: nginx/1.2.3
 ## Abschluss
 
 Glückwunsch, du hast deinen gewünschten Webserver erfolgreich installiert und konfiguriert! Solltest du noch weitere Fragen oder Probleme haben, dann wende dich gerne an unser Support-Team, welches dir jeden Tag zur Verfügung steht! 
+
+<InlineVoucher />

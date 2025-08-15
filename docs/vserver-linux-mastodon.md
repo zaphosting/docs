@@ -167,3 +167,5 @@ systemctl enable --now mastodon-web mastodon-sidekiq mastodon-streaming
 Congratulations, you have successfully installed and configured Mastodon! If you have any further questions or problems, please contact our support team, who are available to help you every day! 
 
 
+
+<InlineVoucher />

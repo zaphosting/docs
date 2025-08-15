@@ -70,3 +70,5 @@ Noch auf der Suche nach den perfekten Mods für deinen Server? Durchstöbere uns
 ## Abschluss
 
 Glückwunsch, du hast erfolgreich Mods auf deinem Factorio-Server installiert. Für weitere Fragen oder Hilfe zögere bitte nicht, unser Support-Team zu kontaktieren, das dir täglich zur Verfügung steht! 🙂
+
+<InlineVoucher />

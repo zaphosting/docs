@@ -111,3 +111,5 @@ Du kannst eine Liste aller Locale-Tags abrufen, indem du [diese Ressource](https
 ## Abschluss
 
 Vorausgesetzt, dass du alle Schritte befolgt hast, hast du deinen RedM Gameserver erfolgreich angepasst. Für weitere Fragen oder Hilfe zögere bitte nicht, unser Support-Team zu kontaktieren, das dir täglich zur Verfügung steht! 🙂
+
+<InlineVoucher />

@@ -75,3 +75,5 @@ Successfully downloaded workshop item: 1567256534
 ```
 
 Der Inhalt wurde nun erfolgreich heruntergeladen, eingerichtet und sollte im Anschluss bereits aktiv sein. 
+
+<InlineVoucher />

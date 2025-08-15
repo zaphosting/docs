@@ -67,3 +67,5 @@ Ensure that the FastDL URL exactly matches the structure used on your webspace. 
 FastDL can be set up quickly and reliably using your own ZAP webspace. This allows for fast and efficient delivery of custom content and improves the experience for all players using your Garry's Mod server.
 
 For further questions or assistance, please don't hesitate to contact our support team, which is available daily to assist you! 🙂
+
+<InlineVoucher />

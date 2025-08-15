@@ -133,3 +133,5 @@ Firstly, navigate to the folder where you wish to setup your venv using `cd` and
 To run commands like `pip install` inside your venv you need to activate it by running `source /bin/activate`. Now your console is only going to run inside the venv and scripts will only have access to locally installed packages.
 
 When you have finished working inside the venv you can go back by running the `deactivate` command.
+
+<InlineVoucher />

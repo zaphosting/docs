@@ -99,3 +99,5 @@ Management is done by right-clicking on the respective file or folder. Depending
 
 #### "530 Login incorrect" Error
 If this error occurs during the connection setup, it means that incorrect credentials have been provided. Check all the fields for completeness and correctness.
+
+<InlineVoucher />

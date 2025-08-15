@@ -55,3 +55,5 @@ The default port is "**21**".
 This message occurs when the FTP account name is used by someone else on the system.
 The ordered web space was created on a system with several customers, if one of these customers now uses the name, no other customer can use it.
 In such a case another account name would have to be chosen.
+
+<InlineVoucher />

@@ -64,3 +64,5 @@ Otherwise the server will not be displayed.
 If it is a "Private" server you have to click on "Enter Code" in the main menu.
 Here you enter the code that the creator of the server can see in the lobby.
 
+
+<InlineVoucher />

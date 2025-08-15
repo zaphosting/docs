@@ -199,3 +199,5 @@ Wird nun die Domain im Browser geöffnet, so zeigt diese ihre Verschlüsslung an
 ## Abschluss
 
 Glückwunsch, du hast Plesk erfolgreich installiert! Solltest du noch weitere Fragen oder Probleme haben, dann wende dich gerne an unser Support-Team, welches dir jeden Tag zur Verfügung steht! 
+
+<InlineVoucher />

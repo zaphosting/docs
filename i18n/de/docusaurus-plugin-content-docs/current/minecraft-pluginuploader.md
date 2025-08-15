@@ -103,3 +103,5 @@ Lösungsvorschläge:
 
 - In dem Fall kannst du den Plugin Eintrag einfach per Klick auf den Deinstallieren-Button entfernen.
 - Du kannst auch alternativ versuchen, den Button Synchronisieren zu klicken.
+
+<InlineVoucher />

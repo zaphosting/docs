@@ -69,3 +69,5 @@ Möchtest du bestehende Aufgaben entfernen? Lösche bestehende Aufgaben in der L
 ## Abschluss
 
 Nun weißt du, wie du geplante Aufgaben erstellen, verwalten und entfernen kannst. Für weitere Fragen oder Hilfe zögere bitte nicht, unser Support-Team zu kontaktieren, das dir täglich zur Verfügung steht! 🙂
+
+<InlineVoucher />

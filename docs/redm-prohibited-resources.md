@@ -45,3 +45,5 @@ There is unfortunately no official list of resources that can lead to this messa
 
 ## Conclusion
 To maintain a secure and stable server environment, it is essential to use only trusted resources and remove any flagged ones immediately. By following these guidelines and utilizing the RedM Asset Escrow system, you can help ensure both security and compliance within the RedM ecosystem. For further questions or assistance, please don't hesitate to contact our support team, which is available daily to assist you! 🙂
+
+<InlineVoucher />

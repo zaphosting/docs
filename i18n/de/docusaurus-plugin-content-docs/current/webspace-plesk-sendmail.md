@@ -92,3 +92,5 @@ Sobald fertiggestellt, wird die "**Neue E-Mail**" Funktion ausgewählt.
 Dort trägt man jetzt den Empfänger als auch den Betreff und Text ein.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/2Fi2BW7E2xajftF/preview)
+
+<InlineVoucher />

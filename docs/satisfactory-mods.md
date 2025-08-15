@@ -86,3 +86,5 @@ Still looking for the perfect mods for your server? Browse through our carefully
 ## Conclusion
 
 You have successfully setup mods onto your Satisfactory server using the Satisfactory Mod Manager tool. For further questions or assistance, please don't hesitate to contact our support team, which is available daily to assist you! 🙂
+
+<InlineVoucher />

@@ -108,3 +108,5 @@ sudo apt install [php_extension] [...]
 ## Abschluss
 
 Du hast PHP erfolgreich auf deinem Linux-Server installiert. Bei weiteren Fragen oder für Unterstützung wende dich bitte an unser Support-Team, das dir täglich zur Verfügung steht! 🙂
+
+<InlineVoucher />

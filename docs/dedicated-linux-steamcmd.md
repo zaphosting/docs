@@ -109,3 +109,5 @@ Save the file and quit nano by using `CTRL + X`, followed by `Y` to confirm and 
 You have now successfully setup the core SteamCMD functionality for your Linux server. You can now proceed with installing Steam content through the `steam` user.
 
 We recommend checking out the other guides in this section, which cover installing specific games through the use of SteamCMD, that you have now setup.
+
+<InlineVoucher />

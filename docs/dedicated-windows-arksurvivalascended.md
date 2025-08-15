@@ -167,3 +167,5 @@ Once you have this installed on your VPS, you can proceed towards starting the s
 This will open the server's console in a command prompt and begin the startup process. If everthing occurs as expected, your server will be visible in the server list. Alternatively, you will be able to connect directly by opening the console in-game and running `open [your_ip_address]:7777`.
 
 You have successfully installed Ark: Survival Ascended on your Windows Dedicated Server.
+
+<InlineVoucher />

@@ -43,3 +43,5 @@ There you edit the file **server.cfg** and enter the name of your mission file a
 ![](https://screensaver01.zap-hosting.com/index.php/s/7jtRK3YRD7wWiij/preview)
 
 After that, click **Save** and you can start your server. The new mission file will be loaded.
+
+<InlineVoucher />

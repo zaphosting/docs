@@ -47,3 +47,5 @@ Die Spielerlizenzkennung muss von einem txAdmin-Administrator auf die Whitelist 
 ## Abschluss
 
 Vorausgesetzt, dass du alle Schritte befolgt hast, hast du die Whitelist für deinen Server erfolgreich aktiviert und konfiguriert. Für weitere Fragen oder Hilfe zögere bitte nicht, unser Support-Team zu kontaktieren, das dir täglich zur Verfügung steht! 🙂
+
+<InlineVoucher />

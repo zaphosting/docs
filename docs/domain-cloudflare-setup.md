@@ -52,3 +52,5 @@ It can take up to 24 hours for your nameserver changes to be recognised however,
 Once Cloudflare recognises your nameserver changes, you will receive an email you letting you know that your setup is ready. You can also check your Cloudflare dashboard. A successful setup will display **Active** under the domain that you have set up.
 
 You have successfully integrated your domain with Cloudflare, unlocking enhanced performance, security, and manageability for your website.
+
+<InlineVoucher />

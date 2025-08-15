@@ -128,3 +128,5 @@ Nach der Port Freigabe ist der Server öffentlich erreichbar, sofern er gestarte
 ## Abschluss
 
 Glückwunsch, du hast den V-Rising Server erfolgreich installiert und konfiguriert! Solltest du noch weitere Fragen oder Probleme haben, dann wende dich gerne an unser Support-Team, welches dir jeden Tag zur Verfügung steht!
+
+<InlineVoucher />

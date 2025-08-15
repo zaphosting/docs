@@ -68,3 +68,5 @@ Auf dieser Seite kannst du zwischen **Windows (EN)** und **Windows (DE)** für d
 ![](https://screensaver01.zap-hosting.com/index.php/s/9b6njXx3PMdCG6s/preview)
 
 Sobald du die Neuinstallation gestartet hast, sei bitte geduldig, da es einige Zeit (bis zu 30 Minuten) dauern kann, bis der Server den gesamten Prozess abgeschlossen hat.
+
+<InlineVoucher />

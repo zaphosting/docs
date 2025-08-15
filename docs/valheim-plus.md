@@ -204,3 +204,5 @@ A list of possible controls would be [here](https://docs.unity3d.com/ScriptRefer
 | swimStaminaDrain | 5 (float) | set the amount of stamina drained when swimming |
 | jumpStaminaUsage | 10 (float) | sets the number of stamina drains for jumping |
 
+
+<InlineVoucher />

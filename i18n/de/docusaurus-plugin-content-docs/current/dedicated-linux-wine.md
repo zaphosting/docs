@@ -56,3 +56,5 @@ sudo apt install cabextract winbind screen xvfb
 Du hast nun erfolgreich die Wine-Anpassungsschicht eingerichtet, mit der du Windows-Programme auf deinem Linux-Server ausführen kannst. Mit dieser wichtigen Voraussetzung kannst du nun dedizierte Gameserver installieren, auch wenn sie für Windows entwickelt wurden.
 
 Wir empfehlen dir, die anderen Anleitungen in diesem Abschnitt zu lesen, in denen es um die Installation bestimmter Spiele mit Hilfe von SteamCMD und möglicherweise Wine für Windows-basierte dedizierte Server geht.
+
+<InlineVoucher />

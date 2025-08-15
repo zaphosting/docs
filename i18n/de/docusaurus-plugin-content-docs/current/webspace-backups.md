@@ -60,3 +60,5 @@ Du möchtest dein erstelltes Backups ebenfalls noch lokal sichern? Das ist kein 
 ## Abschluss
 
 Glückwunsch, du hast erfolgreich ein Backup von deinem Webspace Paket angelegt, welches du bei Bedarf jederzeit wieder importieren kannst. Für weitere Fragen oder Hilfe zögere bitte nicht, unser Support-Team zu kontaktieren, das dir täglich zur Verfügung steht! 🙂
+
+<InlineVoucher />

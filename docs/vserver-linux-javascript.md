@@ -231,3 +231,5 @@ Now you can run the provided code with the `bun index.ts` command and check the 
 ## Conclusion
 
 Congratulations, you have successfully installed and configured JavaScript! If you have any further questions or problems, please contact our support team, who are available to help you every day! 
+
+<InlineVoucher />

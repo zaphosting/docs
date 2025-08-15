@@ -30,3 +30,5 @@ Once there, enter the IP and port that is shown on your game server dashboard:
 ![](https://screensaver01.zap-hosting.com/index.php/s/R9nRFWFrS9Fbwox/preview)
 
 The client will connect to your server after clicking "Connect".
+
+<InlineVoucher />

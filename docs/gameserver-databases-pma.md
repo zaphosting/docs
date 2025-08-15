@@ -57,3 +57,5 @@ With phpMyAdmin it is also possible to execute normal SQL commands. To do this, 
 Once you have reached the command prompt, you can enter all desired SQL commands, which are then executed by clicking on "OK".
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/jJcmLGcXAfxQgkH/preview)
+
+<InlineVoucher />

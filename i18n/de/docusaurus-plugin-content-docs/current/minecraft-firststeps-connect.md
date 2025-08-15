@@ -108,3 +108,5 @@ Hast du nach der Fehlersuche weiterhin Probleme? In diesem Fall steht unser Supp
 ## Abschluss
 
 Glückwunsch, vorausgesetzt, dass du alle Schritte befolgt hast, solltest du erfolgreich eine Verbindung zum Server hergestellt haben. Für weitere Fragen oder Hilfe zögere bitte nicht, unser Support-Team zu kontaktieren, das dir täglich zur Verfügung steht! 🙂
+
+<InlineVoucher />

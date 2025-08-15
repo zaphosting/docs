@@ -240,3 +240,5 @@ Die **News** bieten dir eine umfassende Übersicht über sämtliche Ankündigung
 - Sonstige relevante Informationen, die für die Nutzung deines Dienstes von Bedeutung sein könnten
 
 Durch regelmäßiges Überprüfen der **News** bleibst du stets informiert und kannst dein Dienst entsprechend anpassen, um das Beste aus deinem Server herauszuholen.
+
+<InlineVoucher />

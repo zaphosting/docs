@@ -71,3 +71,5 @@ By default, an error should occur after an initial installation if you specify a
 ## Conclusion
 
 You have successfully established a connection to the query by using YatQA. For further questions or assistance, please don't hesitate to contact our support team, which is available daily to assist you! 🙂
+
+<InlineVoucher />

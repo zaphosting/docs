@@ -83,3 +83,5 @@ It will now take a small moment for your upgrade to be posted, this is usually a
 :::info
 A restart of your product is usually necessary to apply the new specifications.
 :::
+
+<InlineVoucher />

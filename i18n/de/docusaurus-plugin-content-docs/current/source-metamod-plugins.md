@@ -50,3 +50,5 @@ Lösungsvorschläge:
 - Überprüfe, ob bei der Plugin Installation alle Voraussetzungen erfüllt wurden. Manche Plugins benötigen eine Zusammenarbeit mit einer Datenbank, damit sie funktional sind. In dem Fall müssen im Configsverzeichnis in der **database.cfg** weitere Einstellungen vorgenommen werden
 - Es gibt regelmäßig Änderungen in der Source-Engine. Daher kann es sein, dass ein Plugin, welches bereits vor einer längeren Zeit veröffentlicht, aber nicht gewartet wurde, nicht mehr kompatibel ist. In dem Fall gibt es nur noch die Möglichkeit im Alliedmodders Forum eine inoffizielle behobene Version zu finden oder generell ein alternatives Plugin zu benutzen.
 - Treffen bei der oben genannten Optionen nicht zu, dann empfiehlt es sich einen Blick in die Live Konsole oder in den Log-Dateien zu schauen. Dort steht in der Regel die Ursache für die Problematik.
+
+<InlineVoucher />

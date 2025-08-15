@@ -138,3 +138,5 @@ Noch auf der Suche nach den perfekten Mods für deinen Server? Durchstöbere uns
 Noch auf der Suche nach den perfekten Mods für deinen Server? Durchstöbere unsere sorgfältig zusammengestellte Liste mit den beliebtesten und am häufigsten empfohlenen Mods, um dein Spielerlebnis zu erweitern und deinem Server den letzten Feinschliff zu geben. Lass dich inspirieren und finde genau die Erweiterungen, die zu deinem Projekt passen.
 
 <SearchableItemList items={modpacks} />
+
+<InlineVoucher />

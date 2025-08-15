@@ -61,3 +61,5 @@ After you have injected your desired ISO File, a server reboot is required.
 
 ## Conclusion
 Congratulations, you have successfully selected and mounted your ISO file. For further questions or assistance, please don't hesitate to contact our support team, which is available daily to assist you! 🙂
+
+<InlineVoucher />

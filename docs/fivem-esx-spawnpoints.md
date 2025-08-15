@@ -54,3 +54,5 @@ A suitable resource is required to obtain the current coordinates. You will find
 ## Conclusion
 
 You have successfully changed existing spawnpoints or added new ones by following this method. For further questions or assistance, please don't hesitate to contact our support team, which is available daily to assist you! 🙂
+
+<InlineVoucher />

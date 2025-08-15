@@ -83,3 +83,5 @@ You'll find the HUB easily by following the mark.
 ## Autosave
 The Server saves your progress all 5 minutes, you can see them in the savegame manager in your servers dashboard.
 It will always keep the last 6 saves (30 minutes) of progress.
+
+<InlineVoucher />

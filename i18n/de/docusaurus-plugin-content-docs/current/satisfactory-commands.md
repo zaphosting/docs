@@ -72,3 +72,5 @@ Jeder Befehl, der auf dieser Seite erwähnt wird, ist für Vanille Satisfactory.
 | Gamma "value"      | Zahl (default 50)          | Legt den Helligkeitsgrad des Spiels fest          | 
 
 Du findest eine umfassende Liste der Befehle im [Satisfactory wiki](https://satisfactory.fandom.com/wiki/Console). Dort werden verschiedene Befehle ausführlich beschrieben.
+
+<InlineVoucher />

@@ -61,3 +61,5 @@ Nach erfolgtem Laden der ISO-Datei muss der Server neu gestartet werden.
 ## Abschluss
 
 Glückwunsch, du hast erfolgreich erfolgreich eine ISO Datei ausgewählt und gemountet. Für weitere Fragen oder Hilfe zögere bitte nicht, unser Support-Team zu kontaktieren, das dir täglich zur Verfügung steht! 🙂
+
+<InlineVoucher />

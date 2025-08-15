@@ -57,3 +57,5 @@ Diese analysieren alle relevanten Informationen, und im Anschluss kannst du dir 
 ## Abschluss
 
 Wenn du alle Empfehlungen befolgt und erfolgreich umgesetzt hast, solltest du nun in Bezug auf die Sicherheit und Zuverlässigkeit deines Mailversands deutlich besser aufgestellt sein. Deine E-Mails werden nicht nur mit einer höheren Wahrscheinlichkeit zugestellt, sondern auch vor unbefugtem Zugriff und Missbrauch geschützt sein. 
+
+<InlineVoucher />

@@ -52,3 +52,5 @@ Sobald dies abgeschlossen wurde, speichere die Datei und starte deinen Server ne
 ## Abschluss
 
 Wenn der Server das nächste Mal startet, sollte dein Server wieder auf deine Datenbank zugreifen können und somit voll funktionsfähig sein. Du hast die Probleme mit der Datenbankverbindung erfolgreich behoben. Für weitere Fragen oder Hilfe zögere bitte nicht, unser Support-Team zu kontaktieren, das dir täglich zur Verfügung steht! 🙂
+
+<InlineVoucher />

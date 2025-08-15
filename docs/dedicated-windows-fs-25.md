@@ -163,3 +163,5 @@ Upon success, the server should start booting and you can confirm this through t
 ## Conclusion
 
 Congratulations, you have successfully installed and configured the Farming Simulator 2025 dedicated server on your Dedicated Server! If you have any further questions or problems, please contact our support team, who are available to help you every day!
+
+<InlineVoucher />

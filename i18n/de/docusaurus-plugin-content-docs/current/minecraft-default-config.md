@@ -262,3 +262,5 @@ Wir raten dennoch in jedem Fall ein AntiCheat in Form eines Plugin zu installier
 ### function-permission-level
 
 Legt fest, mit welchem OP-Level Befehle ausführen können. Bei Level 4 können diese  den Server als Beispiel stoppen oder Spieler kicken bzw. bannen.
+
+<InlineVoucher />

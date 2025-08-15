@@ -66,3 +66,5 @@ Wenn du deinen FTP-Client geöffnet hast, gehe in das folgende Unterverzeichnis 
 Lösche alle Dateien der aktuellen Speicherdatei (oder sichere sie vorher, wenn du in Zukunft mit dieser Speicherdatei spielen willst). Als Nächstes ziehst du alle extrahierten Dateien in dieses Verzeichnis (einschließlich der Dateien .ark, .arktribe und .arkprofile) und lädst sie hoch. Bitte habe etwas Geduld, denn es kann einige Zeit dauern, bis alles hochgeladen ist, was von der Größe deiner Speicherdatei abhängt.
 
 Sobald der Upload abgeschlossen ist, starte deinen Server neu und die neu hochgeladenen Dateien sollten geladen werden. Du hast erfolgreich eine offizielle Backup-Speicherdatei auf deinen Ark: Survival Evolved Gameserver hochgeladen.
+
+<InlineVoucher />

@@ -48,3 +48,5 @@ Bitte stelle sicher, dass der Name der Bilddatei, den du im Befehl angibst, gena
 ## Abschluss
 
 Vorausgesetzt, dass du alle Schritte befolgt hast, sollte beim nächsten Server Neustart dein neues Server Icon dargestellt werden. Für weitere Fragen oder Hilfe zögere bitte nicht, unser Support-Team zu kontaktieren, das dir täglich zur Verfügung steht! 🙂
+
+<InlineVoucher />

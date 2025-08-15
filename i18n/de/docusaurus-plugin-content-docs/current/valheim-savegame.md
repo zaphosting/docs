@@ -77,3 +77,5 @@ Nachdem wir den Neustart gespeichert haben, können wir auch mehr als einen täg
 ![](https://screensaver01.zap-hosting.com/index.php/s/iQmQ4K4EcL6bQsw/preview)
 
 Fertig! Dein Server wird nun zu diesen bestimmten Zeiten neu gestartet, das Savegame wird während dieser Neustarts gespeichert.
+
+<InlineVoucher />

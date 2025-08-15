@@ -69,3 +69,5 @@ Still looking for the perfect resources for your server? Browse through our care
 
 ## Conclusion
 Finally, you can restart your server. The installed resource should now be loaded next time your server has fully started. You have successfully installed a resource into your FiveM game server. For further questions or assistance, please don't hesitate to contact our support team, which is available daily to assist you! 🙂
+
+<InlineVoucher />

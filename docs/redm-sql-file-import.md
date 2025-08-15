@@ -76,3 +76,5 @@ You have successfully imported an SQL file to your game server's database!
 ## Conclusion
 
 Importing an SQL File for your RedM server is necessary to use a lot of resources without any problems. For further questions or assistance, please don't hesitate to contact our support team, which is available daily to assist you! 🙂
+
+<InlineVoucher />

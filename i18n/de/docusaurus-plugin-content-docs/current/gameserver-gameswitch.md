@@ -111,3 +111,5 @@ Wenn du fertig bist, klicke auf den Button Weiter, um die Seite zu aktualisieren
 Nach erfolgreicher Änderung sollte der gebuchte Slot-Preis für deinen Spielserver die Anpassung widerspiegeln. Du wirst aufgefordert, deinen Server neu zu starten, um sicherzustellen, dass alles abgeschlossen ist.
 
 Du solltest nun in der Lage sein, zum Abschnitt **Verfügbare Spiele** zurückzukehren und das Spiel wie gewohnt zu installieren. Du hast den gebuchten Slot-Preis für deinen Spielserver erfolgreich geändert.
+
+<InlineVoucher />

@@ -68,3 +68,5 @@ Once connected via RCON, various administrative and diagnostic commands can be e
 RCON is a core tool for remote administration of Conan Exiles game servers. It enables fast and direct access to administrative functionality while offering access control through password authentication. Proper and secure configuration is critical to ensure server stability and to protect against unauthorized access.
 
 For further questions or assistance, please don't hesitate to contact our support team, which is available daily to assist you! 🙂
+
+<InlineVoucher />

@@ -125,3 +125,5 @@ nginx version: nginx/1.2.3
 ```
 
 If either one of the two cases occurs, then the web server has been successfully installed. 
+
+<InlineVoucher />

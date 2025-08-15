@@ -45,3 +45,5 @@ Here we can now replace the $ with our own icon.
 
 
 After Saving the File and Restarting the server, the Money Icon will be changed ingame.
+
+<InlineVoucher />

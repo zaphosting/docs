@@ -105,3 +105,5 @@ In der folgenden Tabelle fassen wir einige wichtige Spieleinstellungen zusammen,
 | AllowRecipeSharing | true/false | Schaltet um, ob Spieler Rezepte für Gegenstände teilen können |
 
 Nachdem du deine Änderungen vorgenommen hast, speichere die Datei an den entsprechenden Stellen und starte deinen Server neu. Wenn dein Server das nächste Mal startet, werden die von dir vorgenommenen Einstellungen verwendet.
+
+<InlineVoucher />

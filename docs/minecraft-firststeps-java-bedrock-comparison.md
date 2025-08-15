@@ -53,3 +53,5 @@ When booting up the game for the first time, a common trend is for players to ed
 ## Conclusion
 
 We hope this guide helped you gain more knowledge about this wonderful game and decide which version you'll begin exploring the vast open world on. Luckily, if you are still debating which to pick, our [Game Change](gameserver-gameswitch.md) guide allows you to quickly and easily switch the game on your game server, which means you can easily try out both!
+
+<InlineVoucher />

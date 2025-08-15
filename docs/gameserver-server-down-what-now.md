@@ -61,3 +61,5 @@ The reinstallation can be started under "Settings" on the left side. Afterwards 
 ## Reinstallation without success
 
 Unfortunately, this is the worst case that can happen. Then it is unfortunately only possible to have the server checked via chat or a ticket, because then it is a more serious problem. In this case we will do our best to solve the problem as soon as possible so that you can use your service as usual.
+
+<InlineVoucher />

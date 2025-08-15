@@ -70,3 +70,5 @@ Damit die installierten Ressourcen geladen werden können, müssen diese in der 
 ## Abschluss
 
 Du hast EUP erfolgreich auf deinem FiveM Server installiert. Für weitere Fragen oder Hilfe zögere bitte nicht, unser Support-Team zu kontaktieren, das dir täglich zur Verfügung steht! 🙂
+
+<InlineVoucher />

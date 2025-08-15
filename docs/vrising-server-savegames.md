@@ -80,3 +80,5 @@ In order to use a specific Savegame, you will have to edit a configuration file.
 Simply head over to the **Settings** section on your game server's webinterface and find the **Savename** setting.
 
 Change this setting to the name of the savegame folder that you uploaded in the previous step. Once ready, ensure that you save at the bottom using the green **Save** button and then restart your server.
+
+<InlineVoucher />

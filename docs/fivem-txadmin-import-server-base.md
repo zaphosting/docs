@@ -156,3 +156,5 @@ sv_licenseKey "yourLicenseKeyGoesHere"
 ## Conclusion
 
 Congratulations! Once you have successfully uploaded the files, completed the txAdmin setup and finally made the necessary changes to the server configuration, you can now start  and play on your server with your server base.
+
+<InlineVoucher />

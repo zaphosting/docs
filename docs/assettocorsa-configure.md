@@ -87,3 +87,5 @@ These Configs can now be copied via Drag&Drop into the "cfg" folder of your game
 ![](https://screensaver01.zap-hosting.com/index.php/s/YKHtnDMSqBgssDc/preview)
 
 The server can now be started with the new Config.
+
+<InlineVoucher />

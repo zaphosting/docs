@@ -75,3 +75,5 @@ To save the changes, simply click on the **GO** button at the bottom right:
 
 The ranks have now been saved, so that they become active for the player who has to reconnect to the server once, a restart
 of the server is not necessary.
+
+<InlineVoucher />

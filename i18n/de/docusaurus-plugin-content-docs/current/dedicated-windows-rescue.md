@@ -125,3 +125,5 @@ Nachdem du nun verbunden bist, navigiere zu dem **Rescue-Verzeichnis**, das du z
 Du hast nun erfolgreich deine wichtigen Dateien gerettet und gesichert. Das heißt, deine Daten sind sicher und bereit, bei Bedarf wiederhergestellt zu werden. Nun kannst du mit weiteren Aktionen fortfahren, z. B. deinen Server neu installieren, das System reparieren oder deine Daten in eine neue Umgebung migrieren.
 
 Für weitere Fragen oder Hilfe zögere bitte nicht, unser Support-Team zu kontaktieren, das dir täglich zur Verfügung steht! 🙂
+
+<InlineVoucher />

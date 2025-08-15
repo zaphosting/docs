@@ -101,3 +101,5 @@ This section contains all the commands that can be used by Chunky to generate an
 ## Conclusion
 
 By following the steps, you have successfully installed Chunky and can now generate your world (chunks) in advance. Congratulations, provided you have successfully followed everything, you should have successfully established a connection to the server. For further questions or assistance, please don't hesitate to contact our support team, which is available daily to assist you! 🙂
+
+<InlineVoucher />

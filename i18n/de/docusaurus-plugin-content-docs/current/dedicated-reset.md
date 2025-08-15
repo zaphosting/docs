@@ -73,3 +73,5 @@ Wichtig: Dieser Vorgang kann nicht rückgängig gemacht werden und ist dementspr
 ## Abschluss
 
 Glückwunsch, du hast die Daten deines Dedicated Server erfolgreich zurückgesetzt. Für weitere Fragen oder Hilfe zögere bitte nicht, unser Support-Team zu kontaktieren, das dir täglich zur Verfügung steht! 🙂
+
+<InlineVoucher />

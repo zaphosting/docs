@@ -75,3 +75,5 @@ Um die Änderungen zu speichern, genügt ein Klick auf den **OK** Button unten r
 
 Die Ränge wurden nun gespeichert, damit diese für den Spieler aktiv werden muss dieser sich einmal neu zum Server verbinden, ein Neustart
 des Servers ist nicht notwendig.
+
+<InlineVoucher />

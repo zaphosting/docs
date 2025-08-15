@@ -101,3 +101,5 @@ In diesem Abschnitt können alle Befehle entnommen werden, die von Chunky für d
 ## Abschluss
 
 Durch das Befolgen der Schritte hast du **Chunky** erfolgreich installiert und kannst nun deine Welt (Chunks) vorab generieren. Für weitere Fragen oder Hilfe zögere bitte nicht, unser Support-Team zu kontaktieren, das dir täglich zur Verfügung steht! 🙂
+
+<InlineVoucher />

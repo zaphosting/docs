@@ -43,3 +43,5 @@ We're currently working on and exploring solutions so please bear with us.
 Source: https://rust.facepunch.com/blog/
 
 We will continue to keep an eye on the problem and inform here when there is a solution.
+
+<InlineVoucher />

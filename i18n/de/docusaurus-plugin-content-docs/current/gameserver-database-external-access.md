@@ -50,3 +50,5 @@ werden. Klicke dafür einmal einen Doppelklick auf deine Datenbank oder Rechtskl
 
 Im Anschluss öffnet sich die Datenbank mit allen vorhandenen Datenbanktabellen. Dort kann nun deine Datenbank ähnlich wie in PhpMyAdmin sowohl per Klick als auch per SQL-Befehle verändert oder verwaltet werden. 
 ![](https://screensaver01.zap-hosting.com/index.php/s/8FaoQai8AriXZDz/preview)
+
+<InlineVoucher />

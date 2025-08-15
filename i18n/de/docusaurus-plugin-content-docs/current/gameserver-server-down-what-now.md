@@ -63,3 +63,5 @@ Die Neuinstallation kann unter "Einstellungen" auf der linken Seite gestartet we
 ## Neuinstallation ohne Erfolg
 
 Das ist leider der schlimmste Fall, der eintreten kann. Dann ist es bedauerlicherweise nur noch möglich den Server über den Chat oder ein Ticket prüfen zu lassen, da es dann ein schwerwiegenderes Problem ist. In dem Fall werden wir unser Bestes geben das Problem so schnell es geht für dich zu lösen, damit du deinen Dienst wieder wie gewohnt nutzen kannst.
+
+<InlineVoucher />

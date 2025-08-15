@@ -46,3 +46,5 @@ Sobald du bestätigt hast, kannst du auf **Oase hinzufügen** drücken, um die O
 ![](https://screensaver01.zap-hosting.com/index.php/s/HTsoExwPjcZtAR4/preview)
 
 Du solltest jetzt in der Lage sein, mehrere aktive Oasen gleichzeitig unter dem Abschnitt **Oasen** zu sehen. Du hast erfolgreich mehrere Oasen für dein Realm eingerichtet.
+
+<InlineVoucher />

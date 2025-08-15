@@ -53,3 +53,5 @@ Bevor du diese Befehle verwenden kannst, musst du ein Admin-Passwort einrichten 
 :::note
 Du kannst eine Person derzeit nicht im Spiel sperren, da es keinen entsprechenden Befehl gibt. Du musst die Datei `banlist.txt` in deinem Server-Verzeichnis manuell bearbeiten, wenn du einen Spieler wieder sperren willst.
 :::
+
+<InlineVoucher />

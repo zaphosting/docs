@@ -85,3 +85,5 @@ Sobald dein Admin-Passwort festgelegt ist, musst du dich selbst als Admin hinzuf
 ![](https://github.com/zaphosting/docs/assets/42719082/2f6e3ee7-e83f-4b71-87dc-d36f9b8c7340)
 
 Du solltest eine Erfolgsmeldung im Chat erhalten, wenn dies korrekt war. Wenn du eine Fehlermeldung erhältst, vergewissere dich bitte, dass das eingegebene Admin-Passwort korrekt ist und das, das du im vorherigen Schritt festgelegt hast.
+
+<InlineVoucher />

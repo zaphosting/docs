@@ -119,3 +119,5 @@ Du kannst alle Regeln mit folgendem Befehl anzeigen: `sudo iptables -L --line-nu
 ## Abschluss
 
 Du hast erfolgreich eine Firewall auf deinem Linux-Server installiert und deine eigenen Port-Regeln erstellt. Du kannst diese Anleitung auch nutzen, um weitere Ports weiterzuleiten. Für weitere Fragen oder Unterstützung steht dir unser Support-Team jederzeit zur Verfügung! 🙂
+
+<InlineVoucher />

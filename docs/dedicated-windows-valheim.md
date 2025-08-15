@@ -85,3 +85,5 @@ The actual setup is already complete. Further configuration changes can be made 
 ## Play
 
 At the end of the setup, you can now start the server by executing the **start_headless_server.bat** file you created earlier. This should open the server's console and start the server startup process. If everything goes as expected, the server should be visible in the server list after a successful start.
+
+<InlineVoucher />

@@ -123,3 +123,5 @@ Here BungeeCord inserts a randomly generated code. It is recommended not to chan
 ### connection_throttle_limit
 
 This value determines the number of connection attempts the player has until he has to wait for the specified value of *connection_throttle* before he can try to connect to the server again.
+
+<InlineVoucher />

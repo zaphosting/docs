@@ -77,3 +77,5 @@ Please note that a comma must be placed after each mod name, except for the name
 Now you can close the FTP connection, start your server and connect to your server with the tModLoader you downloaded from Steam.
 
 By pressing **ESC**, then clicking on **Settings** and then clicking on **Mod Configuration** you can see your mods loaded on the server:
+
+<InlineVoucher />

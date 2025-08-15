@@ -38,3 +38,5 @@ Different nameservers can only be specified and used if the domain is already st
 ## Conclusion
 
 Congratulations, you have successfully adjusted the used nameservers of your domain. For further questions or assistance, please don't hesitate to contact our support team, which is available daily to assist you! 🙂
+
+<InlineVoucher />

@@ -57,3 +57,5 @@ Some plugins may require being installed client-side on your PC too. Please refe
 :::
 
 You have successfully installed new BepInEx plugins to your V Rising gameserver!
+
+<InlineVoucher />

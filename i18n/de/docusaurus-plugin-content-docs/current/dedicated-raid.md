@@ -153,3 +153,5 @@ Bedenke, dass das Boot Volume **immer** nach Veränderungen deines RAIDs angepas
 ## Abschluss
 
 Glückwunsch, du hast das RAID erfolgreich konfiguriert. Für weitere Fragen oder Hilfe zögere bitte nicht, unser Support-Team zu kontaktieren, das dir täglich zur Verfügung steht! 🙂
+
+<InlineVoucher />

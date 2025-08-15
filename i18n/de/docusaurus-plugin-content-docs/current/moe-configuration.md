@@ -89,3 +89,5 @@ Wir raten davon ab, die Einstellungen für Port, IP oder Verzeichnis zu ändern,
 | difficulty    | 1                           | Schwierigkeit deiner Welt                        |
 
 Nachdem du deine Änderungen vorgenommen hast, speichere die Datei an der richtigen Stelle und starte deinen Server neu. Wenn dein Server das nächste Mal startet, verwendet er die Einstellungen, die du vorgenommen hast.
+
+<InlineVoucher />

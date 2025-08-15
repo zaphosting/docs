@@ -59,3 +59,5 @@ Dabei ersetzt du natürlich wieder **USERNAME** durch deinen Namen und **PASSWOR
 ![](https://screensaver01.zap-hosting.com/index.php/s/b5EbWNzcaA5PkAL/preview)
 
 Nun bist du als Admin auf deinem Server angemeldet und kannst diesen mit verschiedenen Befehlen verwalten.
+
+<InlineVoucher />

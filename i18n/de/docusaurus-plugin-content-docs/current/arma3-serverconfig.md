@@ -88,3 +88,5 @@ Nun öffnet sich ein Standart-Editor in welchem du deine Server.cfg wie weiter o
 Nachdem du deine Server.cfg bearbeitet hast kannst du diese durch das drücken von **STRG+S** speichern und dann wieder schließen,
 dein Server ist nun wieder startbereit.
 
+
+<InlineVoucher />

@@ -111,3 +111,5 @@ Mit diesem Überblick lassen sich die gegenwärtigen Entwicklungen besser einord
 | Kompatibilität     | ★★★★☆     | ★★★★★     | ★★★☆☆       | ★★☆☆☆     |
 | Performance        | ★★★★★     | ★★★★☆     | ★★☆☆☆       | ★★☆☆☆     |
 | **Ergebnis**       | 4.8/5 (★) | 4.6/5 (★) | 2.2/5 (★)   | 1.6/5 (★) |
+
+<InlineVoucher />

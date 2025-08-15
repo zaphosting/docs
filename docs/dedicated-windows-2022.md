@@ -161,3 +161,5 @@ If you have further questions or issues, our support will help you out!
 
 ## Conclusion
 Congratulations, you have successfully installed the Windows Server 2022 operating system on your dedicated server. For further questions or assistance, please don't hesitate to contact our support team, which is available daily to assist you! 🙂
+
+<InlineVoucher />

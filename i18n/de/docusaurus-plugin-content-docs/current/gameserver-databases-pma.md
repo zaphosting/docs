@@ -64,3 +64,5 @@ Hierzu muss die Datenbank **zuvor** in der linken Liste einmal angeklickt werden
 In der Befehlseingabe angekommen, können dort nun alle gewünschten SQL-Befehle eingetragen werden, welche dann im Anschluss mit einem Klick auf "OK" ausgeführt werden.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/9jrZfEer2rRjdgX/preview)
+
+<InlineVoucher />

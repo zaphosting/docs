@@ -134,3 +134,5 @@ Das Feld **Name** beinhaltet den Namen des Services, was in diesem Fall unser Te
 Das Feld **Typ** gibt an, um welche Art von Eintrag es sich handelt, in diesem Fall ist es ein **SRV** Eintrag.
 Das Feld **Wert** enthält den Port und die Domain mit Subdomain, also in diesem Fall **0 1234 ts.teamspeak-server.de**, wobei **1234** der **Port des TeamSpeak 3 Servers** ist und **ts.teamspeak-server.de** die Domain mit Subdomain zu welcher die Weiterleitung erfolgt. 
 Der Wert **0** ist nicht weiter relevant und bleibt immer gleich. Das Feld **TTL** und **Prio** lässt du ebenfalls unberührt.
+
+<InlineVoucher />

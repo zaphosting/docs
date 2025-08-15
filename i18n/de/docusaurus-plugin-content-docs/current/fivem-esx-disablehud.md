@@ -44,3 +44,5 @@ Nun speichern wir diese wieder.
 
 
 Wenn ihr das geschafft habt, müsst ihr nur noch den Server neu starten, danach wird das HUD deaktiviert sein.
+
+<InlineVoucher />

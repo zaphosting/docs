@@ -106,3 +106,5 @@ Wenn du fertig bist, klicke auf den Button **Finish**, um die Regel zu erstellen
 ![](https://screensaver01.zap-hosting.com/index.php/s/Ro5k6JgTF73exoH/preview)
 
 Du hast erfolgreich deine eigene Portregel für deinen Windows-Server erstellt. Wiederhole nun den Vorgang, um eine **Ausgangsregel** zu erstellen, indem du dieselben Schritte ausführst, sie aber im Abschnitt für ausgehende Regeln erstellst.
+
+<InlineVoucher />

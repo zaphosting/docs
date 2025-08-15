@@ -55,3 +55,5 @@ Now we open the settings of our game server and scroll down, here we can now spe
 Now we save the settings and restart the server.
 
 Done! The key is now applied and the server should list itself shortly.
+
+<InlineVoucher />

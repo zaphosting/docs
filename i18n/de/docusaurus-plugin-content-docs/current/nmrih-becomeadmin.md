@@ -104,3 +104,5 @@ Im Folgenden findest du eine Liste gängiger Admin Befehle, die du als Admin auf
 ## Abschluss
 
 Glückwunsch, wenn du alles befolgt hast, solltest du die Admin Rechte für deinen Server erfolgreich konfiguriert haben. Für weitere Fragen oder Hilfe zögere bitte nicht, unser Support-Team zu kontaktieren, das dir täglich zur Verfügung steht! 🙂
+
+<InlineVoucher />

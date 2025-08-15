@@ -78,3 +78,5 @@ When modding, the mods must be synced between the client and the server. This me
 :::
 
 Finally, restart your server in order to automatically activate and install the mods. You have successfully installed mods to your ATS server.
+
+<InlineVoucher />

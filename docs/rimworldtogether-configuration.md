@@ -51,3 +51,5 @@ Now adjust the `WhitelistedUsers` parameter, adding the in-game usernames of peo
 You can adjust a wide range of difficulty parameters for your RimWorld Together servers via the **DifficultyValues.json** file.
 
 Adjusting the Savegame settings is also possible through the **WorldConfig.json** file. It is recommended that you don't edit this whilst being deep into your playthrough as it may ruin the experience.
+
+<InlineVoucher />

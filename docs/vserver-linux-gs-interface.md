@@ -159,3 +159,5 @@ There is no licence installed on the Teamspeak 3 server by default. This means t
 ## Conclusion
 
 Congratulations, you have successfully installed and configured our GS/TS3 interface! If you have any further questions or problems, please contact our support team, who are available to help you every day! 
+
+<InlineVoucher />

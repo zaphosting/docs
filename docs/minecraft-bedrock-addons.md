@@ -221,3 +221,5 @@ Start your server, connect to it, and verify that the addons have been installed
 ## Conclusion
 
 Installing addons on your Minecraft Bedrock Server is a great way to expand the gameplay experience and add new content. With this guide, you can easily install addons and customize your server. For further questions or assistance, please don't hesitate to contact our support team, which is available daily to assist you! 🙂
+
+<InlineVoucher />

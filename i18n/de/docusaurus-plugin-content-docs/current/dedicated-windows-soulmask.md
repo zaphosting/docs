@@ -121,3 +121,5 @@ Jetzt kannst du dich über deine IP direkt mit deinem Server verbinden, indem du
 Wenn du möchtest, dass dein Server in der Serverliste verfügbar ist, sieh dir bitte unsere [Server-Konfiguration](soulmask-configuration.md) an und füge den entsprechenden Parameter "SteamServerName" in deine **StartServer.bat**-Datei ein. Speichere die Datei danach und führe die Batch-Datei erneut aus.
 
 Du hast Soulmask erfolgreich auf deinem Windows Dedicated Server installiert.
+
+<InlineVoucher />

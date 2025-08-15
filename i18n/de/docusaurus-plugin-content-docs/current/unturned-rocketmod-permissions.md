@@ -75,3 +75,5 @@ Aussehen würde dies in einem Beispiel wie folgt:
 ![](https://screensaver01.zap-hosting.com/index.php/s/szfnPfqmtFBo7BA/preview)
 
 Es ist also immer notwendig eine neue Zeile für neue User anzulegen, welche der Gruppe zugewiesen werden sollen. Soweit du alle gewünschten User eingetragen hast, kannst du die Config speichern, indem du auf den "Speichern" Button klickst. Danach den Server starten und schon bist du im Spiel der besagten Gruppe zugewiesen!
+
+<InlineVoucher />

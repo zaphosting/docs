@@ -92,3 +92,5 @@ Now we open the "Server" folder, where the AcServerManager is located, there is 
 ![](https://screensaver01.zap-hosting.com/index.php/s/dfDYjZjADkpfdDc/preview)
 
 After the content is uploaded, the carmods are installed and active after a server restart.
+
+<InlineVoucher />

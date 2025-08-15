@@ -51,3 +51,5 @@ After that we just click on Save and that's it.
 :::info
 After a server restart, the changes will take effect.
 :::
+
+<InlineVoucher />

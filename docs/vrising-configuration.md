@@ -111,3 +111,5 @@ V Rising has a significant amount of parameters and configuration options presen
 | AllowGlobalChat          | true/false                    | Toggle the global chat                                                                                 |
 
 After you complete your changes, make sure to save the file where appropriate and restart your server. The next time your server starts up, it will use the settings that you have provided.
+
+<InlineVoucher />

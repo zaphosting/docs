@@ -37,3 +37,5 @@ Once the installation is complete, the cockpit panel can be reached via IP:9090.
 The login takes place with the normal login data of the server/user. 
 
 ![cockpit](https://screensaver01.zap-hosting.com/index.php/s/iobBy6s7gDJ4Zxm/preview)
+
+<InlineVoucher />

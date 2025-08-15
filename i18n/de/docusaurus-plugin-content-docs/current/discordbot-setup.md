@@ -74,3 +74,5 @@ Nachdem du die Einstellungen gespeichert hast, kannst du deinen Bot einfach übe
 ## Abschluss
 
 Glückwunsch, du hast deinen Discord Bot erfolgreich installiert und konfiguriert. Für weitere Fragen oder Hilfe zögere bitte nicht, unser Support-Team zu kontaktieren, das dir täglich zur Verfügung steht! 🙂
+
+<InlineVoucher />

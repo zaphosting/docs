@@ -123,3 +123,5 @@ Der Server soll natürlich öffentlich erreichbar sein, um mit Freunden spielen 
 Wie Ports bei Windows freigeschaltet werden können, eklären wir hier:[Portweiterleitung (Firewall)](vserver-windows-port.md). 
 
 Nach der Port Freigabe ist der Server öffentlich erreichbar, sofern er gestartet wurde. 
+
+<InlineVoucher />

@@ -63,3 +63,5 @@ Would you like to save your backup locally as well? That's no problem. You can a
 
 Congratulations, you have successfully created a backup of your webspace package, which you can import again at any time if necessary. For further questions or assistance, please don’t hesitate to contact our support team, which is available daily to assist you! 🙂
 
+
+<InlineVoucher />

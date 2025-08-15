@@ -71,3 +71,5 @@ In order for the installed resources to be loaded, they must be specified in the
 
 You have successfully installed EUP on your FiveM server. For further questions or assistance, please don't hesitate to contact our support team, which is available daily to assist you! 🙂
 
+
+<InlineVoucher />

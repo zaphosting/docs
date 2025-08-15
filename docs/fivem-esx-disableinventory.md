@@ -50,3 +50,5 @@ Config.EnableDefaultInventory   = false
 
 
 Now we can save the file and restart the server, after we have joined the server, the inventory can no longer be opened.
+
+<InlineVoucher />

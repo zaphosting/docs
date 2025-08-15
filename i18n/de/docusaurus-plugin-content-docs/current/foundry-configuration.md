@@ -90,3 +90,5 @@ Wir raten davon ab, die Port-Einstellungen zu ändern, da diese automatisch vom 
 | autosave_interval | 300 | Legt fest, wie oft der Server in Sekunden speichert |
 
 Nachdem du deine Änderungen vorgenommen hast, speichere die Datei an den entsprechenden Stellen und starte deinen Server neu. Wenn dein Server das nächste Mal startet, verwendet er die Einstellungen, die du vorgenommen hast.
+
+<InlineVoucher />

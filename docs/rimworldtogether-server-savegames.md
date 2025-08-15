@@ -72,3 +72,5 @@ Simply drag and drop any of your Savegames into this folder through your FTP Cli
 :::info
 As mentioned at the beginning of the guide, moving worlds between servers with different mods will likely cause gameplay issues.
 :::
+
+<InlineVoucher />

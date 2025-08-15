@@ -44,3 +44,5 @@ Damit sind die ausgewählten Chunks gelöscht und du kannst die Welt nun wieder 
 
 ## Abschluss
 Glückwunsch, du hast die fehlerhaften Chunks erfolgreich entfernt und solltest in der Lage sein, auf dieser Welt wieder richtig spielen zu können. Für weitere Fragen oder Hilfe zögere bitte nicht, unser Support-Team zu kontaktieren, das dir täglich zur Verfügung steht! 🙂
+
+<InlineVoucher />

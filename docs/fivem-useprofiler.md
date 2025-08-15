@@ -37,3 +37,5 @@ This way, you can for example also recognize which resources take up a lot of ti
 ## Conclusion
 
 Congratulations, you have successfully created a FiveM profile that allows you to identify potential issues. For further questions or assistance, please don’t hesitate to contact our support team, which is available daily to assist you! 🙂
+
+<InlineVoucher />

@@ -121,3 +121,5 @@ You will be able to find the **enshrouded_server.json** configuration file. Thro
 Now it is time to start your server. Head over to the base directory of your Enshrouded server and run **enshrouded_server.exe** to begin the start up process. This will open the server's console in a command prompt and begin the startup process. You will now be able to connect directly to your server by heading over to the **Find Games** tab, pressing **Add Server** and inputting your Server IP and Port (default is 15636).
 
 You have successfully installed Enshrouded on your Windows Dedicated Server.
+
+<InlineVoucher />

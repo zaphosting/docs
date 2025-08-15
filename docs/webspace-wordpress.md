@@ -108,3 +108,5 @@ Once all fields have been fulfilled, click on **Install WordPress**. The install
 ## Conclusion
 
 Congratulations, you have installed WordPress on your webspace. If you have any further questions or problems, please contact our support team, who are available to help you every day!
+
+<InlineVoucher />

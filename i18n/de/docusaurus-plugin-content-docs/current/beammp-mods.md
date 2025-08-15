@@ -31,3 +31,5 @@ Dort musst du die .zip Datei der Mod hochladen.
 :::info
 Nach einem Serverneustart steht dein Mod nun zur Verfügung und wird automatisch heruntergeladen
 :::
+
+<InlineVoucher />

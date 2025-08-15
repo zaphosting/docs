@@ -43,3 +43,5 @@ Ersetze die Beispiel-URLs mit dem Direktlink zu deinem hochgeladenen Bild. Speic
 ## Abschluss
 
 Dein individueller Banner wird nun in der Serverliste und beim Verbinden angezeigt und verleiht deinem Server einen einzigartigen und professionellen Auftritt. Für weitere Fragen oder Hilfe zögere bitte nicht, unser Support-Team zu kontaktieren, das dir täglich zur Verfügung steht! 🙂
+
+<InlineVoucher />

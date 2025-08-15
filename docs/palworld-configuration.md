@@ -137,3 +137,5 @@ These are less important server configuration options, mostly for altering the g
 | PalEggDefaultHatchingTime          | Time(h) to incubate massive egg                  |
 
 After you complete your changes, make sure to save the file where appropriate and restart your server. The next time your server starts up, it will use the settings that you have provided.
+
+<InlineVoucher />

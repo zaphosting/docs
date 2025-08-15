@@ -49,3 +49,5 @@ If you want to download or delete backups you have to connect to the storage ser
 ![](https://screensaver01.zap-hosting.com/index.php/s/q3E8XTX8gRQoasY/preview)
 
 There, you can view the user credentials of your storage server and the currently used storage space. If you are connected via FTP, you can download or delete the backups there.
+
+<InlineVoucher />

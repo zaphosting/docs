@@ -68,3 +68,5 @@ A permission level is a value between 0 and 1000 and determines what permissions
 ## Conclusion
 
 Congratulations, you have successfully configured the administrator permissions. For further questions or assistance, please don't hesitate to contact our support team, which is available daily to assist you! 🙂
+
+<InlineVoucher />

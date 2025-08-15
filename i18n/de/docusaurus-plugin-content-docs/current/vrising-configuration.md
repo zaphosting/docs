@@ -111,3 +111,5 @@ V Rising verfügt über eine Vielzahl von Parametern und Konfigurationsoptionen,
 | AllowGlobalChat | true/false | Schalte den globalen Chat ein |
 
 Nachdem du deine Änderungen vorgenommen hast, speichere die Datei an den entsprechenden Stellen und starte deinen Server neu. Wenn dein Server das nächste Mal startet, verwendet er die Einstellungen, die du vorgenommen hast.
+
+<InlineVoucher />

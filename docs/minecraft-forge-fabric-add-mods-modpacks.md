@@ -144,3 +144,5 @@ Still looking for the perfect mods for your server? Browse through our carefully
 Still looking for the perfect mods for your server? Browse through our carefully curated list of the most popular and highly recommended mods to enhance your gameplay and give your server the finishing touch it deserves. Get inspired and find exactly the additions that fit your project.
 
 <SearchableItemList items={modpacks} />
+
+<InlineVoucher />

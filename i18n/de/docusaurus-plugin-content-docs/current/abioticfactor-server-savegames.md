@@ -78,3 +78,5 @@ Wenn der Hauptordner `world` des Savegames fehlt, versuche, den Server herunterz
 Anders als sonst musst du hier keine Konfigurationsdatei bearbeiten, um dein Savegame zu aktivieren, da die dedizierten Server von Abiotic Factor noch keine Savegame-Umschaltung unterstützen.
 
 Stattdessen startest du deinen Server einfach neu und beim nächsten Start lädt der Server die Inhalte des Savegames, die du in den Hauptordner `world` hochgeladen hast.
+
+<InlineVoucher />

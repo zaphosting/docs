@@ -64,3 +64,5 @@ Still looking for the perfect plugins for your server?
  Browse through our carefully curated list of the most popular and highly recommended plugins to enhance your gameplay and give your server the finishing touch it deserves. Get inspired and find exactly the additions that fit your project.
 
 <SearchableItemList items={items} />
+
+<InlineVoucher />

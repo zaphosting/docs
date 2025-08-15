@@ -52,3 +52,5 @@ Congratulations, you have successfully selected and installed the beta version o
 
 
 
+
+<InlineVoucher />

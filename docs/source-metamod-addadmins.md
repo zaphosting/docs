@@ -103,3 +103,5 @@ Depending on which rights are to be assigned, the respective flags can be writte
 With the command 'admin' in the chat or 'sm_admin' in the console the menu can be called.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/jwLWXJ99XeJJGSK/preview)
+
+<InlineVoucher />

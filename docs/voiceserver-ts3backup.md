@@ -56,3 +56,5 @@ Created backups (snapshots) can be downloaded from your storage server via FTP. 
 ## Conclusion
 
 You have successfully created a backup if you have followed all the steps mentioned. For further questions or assistance, please don't hesitate to contact our support team, which is available daily to assist you! 🙂
+
+<InlineVoucher />

@@ -47,3 +47,5 @@ If the name and size have now been matched, it is displayed in multiplayer in fr
 ![](https://screensaver01.zap-hosting.com/index.php/s/qzoySiJAPReZDfc/preview)
 
 The icon can also be exchanged or deleted at any time in this way.
+
+<InlineVoucher />

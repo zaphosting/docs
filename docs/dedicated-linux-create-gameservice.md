@@ -148,3 +148,5 @@ sudo systemctl disable [your_service]
 You have now successfully setup a service for your dedicated game server. The server will now automatically start upon server boot.
 
 You have also learnt about the contents of the service file as well as how to manage the service using a variety of commands.
+
+<InlineVoucher />

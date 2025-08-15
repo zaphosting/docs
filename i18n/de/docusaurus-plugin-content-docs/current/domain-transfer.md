@@ -46,3 +46,5 @@ Gehe in den Bereich **Dashboard** im Webinterface deiner Domain. Auf dieser Seit
 ![](https://screensaver01.zap-hosting.com/index.php/s/LHjd6i5xwX3rFM2/preview)
 
 Diesen Autorisierungscode solltest du deinem neuen Anbieter bei der Einrichtung mitteilen, um deine Domain umzuziehen.
+
+<InlineVoucher />

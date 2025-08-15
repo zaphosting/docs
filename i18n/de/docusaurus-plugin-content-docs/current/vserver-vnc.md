@@ -27,3 +27,5 @@ Anschließend öffnet sich der Webclient der VNC Konsole. Hier hast du nun die M
 Im folgenden Beispiel ist jetzt ein Windows vServer / Rootserver zu sehen. Dieser ist erfolgreich hochgefahren, wodurch die VNC-Konsole zum aktuellen Zeitpunkt den Login-Screen anzeigt. Hier kannst du dich jetzt ebenfalls anmelden, auch wenn der Server keine aktive Internetverbindung hat. Klicke dazu auf den "Send CtrlAltDel" Button und melde dich mit dem Benutzernamen und Passwort an.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/kiseMCWbpPxTWLM/preview)
+
+<InlineVoucher />

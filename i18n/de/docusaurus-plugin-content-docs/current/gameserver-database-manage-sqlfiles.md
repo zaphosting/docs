@@ -58,3 +58,5 @@ Standardmäßig ist die **Quick**-Exportmethode ausgewählt, die automatisch all
 ![](https://screensaver01.zap-hosting.com/index.php/s/Qa2HakWpYGpfzfA/preview)
 
 Du hast deine Datenbank erfolgreich in eine SQL-Datei exportiert, sodass du sie in Zukunft einfach importieren kannst.
+
+<InlineVoucher />

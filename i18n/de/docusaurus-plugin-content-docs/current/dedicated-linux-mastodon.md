@@ -162,3 +162,5 @@ systemctl enable --now mastodon-web mastodon-sidekiq mastodon-streaming
 ```
 
 Nach einem Neustart ist deine Installation fertig und ready-to-go für den Livebtrieb! 
+
+<InlineVoucher />

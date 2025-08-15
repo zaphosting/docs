@@ -56,3 +56,5 @@ perspective both
 
 
 The next time you start your server, the desired option should be enabled!
+
+<InlineVoucher />

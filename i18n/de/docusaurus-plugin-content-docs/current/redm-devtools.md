@@ -46,3 +46,5 @@ Werden nicht alle Tool-Optionen wie im Screenshot gezeigt angezeigt? In diesem F
 ## Abschluss
 
 Du hast deine die RedM Dev Tools erfolgreich aktiviert. Für weitere Fragen oder Hilfe zögere bitte nicht, unser Support-Team zu kontaktieren, das dir täglich zur Verfügung steht! 🙂
+
+<InlineVoucher />

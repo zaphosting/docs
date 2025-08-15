@@ -167,3 +167,5 @@ This will open the server's console in a command prompt and begin the startup pr
 ## Conclusion
 
 Congratulations, you have successfully installed and configured the ARK-Survival-Ascended server on your VPS! If you have any further questions or problems, please contact our support team, who are available to help you every day! 
+
+<InlineVoucher />

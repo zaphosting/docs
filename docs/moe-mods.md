@@ -38,3 +38,5 @@ Still looking for the perfect mods for your server? Browse through our carefully
 ## Conclusion
 
 With the next server restart, the mods will be automatically downloaded, installed, and immediately available for use!
+
+<InlineVoucher />

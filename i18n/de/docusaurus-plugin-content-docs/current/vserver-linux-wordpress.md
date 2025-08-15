@@ -234,3 +234,5 @@ Herzlichen Glückwunsch, du hast WordPress erfolgreich installiert und eingerich
 Für späteres Nachlesen und weitere Einstellungen empfehlen wir dir, einen Blick in unsere Anleitungen zu [WordPress-Plugins](webspace-wordpress-plugins.md) und [WordPress Elementor](webspace-wordpress-elementor.md) zu werfen, in denen die Installation von Plugins und die Verwendung eines beliebten, benutzerfreund
 
 Wenn du noch Fragen oder Probleme hast, wende dich einfach an unser Support-Team, das dir jeden Tag gerne weiterhilft!
+
+<InlineVoucher />

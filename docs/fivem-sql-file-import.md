@@ -72,3 +72,5 @@ Finally, press the **Import** button at the bottom of the page to start the impo
 ## Conclusion
 
 Importing an SQL File for your FiveM server is necessary to use a lot of resources without any problems. For further questions or assistance, please don't hesitate to contact our support team, which is available daily to assist you! 🙂
+
+<InlineVoucher />

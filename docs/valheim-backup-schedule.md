@@ -35,3 +35,5 @@ You could setup a planned restart all 6 hours, what means that all 6 hours a aut
 :::
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/rFPWnSH7EkHxoN9/preview)
+
+<InlineVoucher />

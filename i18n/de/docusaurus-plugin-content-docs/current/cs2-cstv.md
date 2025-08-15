@@ -62,3 +62,5 @@ Manuelle und automatische aufgenommene Demos werden im Hauptverzeichnis (/gxxxxx
 ![](https://screensaver01.zap-hosting.com/index.php/s/M6226mceDG5b2As/preview)
 
 Mit dem Demo-Playback aus dem Spiel kann die heruntergeladene Demo über **Load** ausgewählt und über den **Play** Button gestartet werden. 
+
+<InlineVoucher />

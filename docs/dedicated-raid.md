@@ -154,3 +154,5 @@ Mention that the boot volume must be set **anytime** when you have touched your 
 
 Congratulations, you have successfully configured the RAID on your dedicated server. For further questions or assistance, please don't hesitate to contact our support team, which is available daily to assist you! 🙂
 
+
+<InlineVoucher />

@@ -209,3 +209,5 @@ With your chosen reverse proxy now setup, we highly recommend adding an SSL Cert
 ## Conclusion
 
 Congratulations, you have successfully setup a reverse proxy for either a website or your game server (or both :), providing you with various security, reliability and performance improvements. For further questions or assistance, please don’t hesitate to contact our support team, which is available daily to assist you! 🙂
+
+<InlineVoucher />

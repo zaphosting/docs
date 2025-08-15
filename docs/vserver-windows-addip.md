@@ -62,3 +62,5 @@ Now, the additional IP address is added via the **Advanced TCP/IP Settings**. To
 The IP address has now been successfully configured and added. You can check the current status of the IP addresses by navigating to the **IP Addresses** section in the server management. There, the newly added IP address should be displayed as reachable.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/xBZGM72WX4nqXS6/preview)
+
+<InlineVoucher />

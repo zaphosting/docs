@@ -104,3 +104,5 @@ After that you can close the process with a click on **OK**, a connection to you
 ## Conclusion
 
 Congratulations, you have successfully installed the FTP server. For further questions or assistance, please don't hesitate to contact our support team, which is available daily to assist you! 🙂
+
+<InlineVoucher />

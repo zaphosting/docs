@@ -89,3 +89,5 @@ Upon success, you should see the volume size increase when listing disks again a
 ## Conclusion
 
 You have successfully extended your main partition on your disk to utilise all disk space. For further questions or assistance, please don't hesitate to contact our support team, which is available daily to assist you! 🙂
+
+<InlineVoucher />

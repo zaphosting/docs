@@ -36,3 +36,5 @@ Andere Nameserver können nur dann angegeben und verwendet werden, wenn die Doma
 ## Abschluss
 
 Glückwunsch, du hast die verwendeten Nameserver deiner Domain erfolgreich angepasst. Für weitere Fragen oder Hilfe zögere bitte nicht, unser Support-Team zu kontaktieren, das dir täglich zur Verfügung steht! 🙂
+
+<InlineVoucher />

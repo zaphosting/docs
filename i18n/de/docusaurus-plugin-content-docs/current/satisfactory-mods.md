@@ -82,3 +82,5 @@ Noch auf der Suche nach den perfekten Mods für deinen Server? Durchstöbere uns
 ## Abschluss
 
 Du hast Mods erfolgreich auf deinem Satisfactory-Server mit dem Satisfactory Mod Manager-Tool eingerichtet. Bei weiteren Fragen oder wenn du Hilfe benötigst, wende dich bitte an unser Support-Team, das dir täglich zur Verfügung steht! 🙂
+
+<InlineVoucher />

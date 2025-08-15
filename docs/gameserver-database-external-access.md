@@ -59,3 +59,5 @@ Afterwards the database opens with all existing database tables. There your can 
 ## Conclusion
 
 You have successfully established a connection to your database and can now manage it. For further questions or assistance, please don’t hesitate to contact our support team, which is available daily to assist you! 🙂
+
+<InlineVoucher />

@@ -111,3 +111,5 @@ Once ready, select the next button which will update the page to select a paymen
 Upon success, the booked slot price for your game server should have the adjustment reflected. You will be prompted to restart your server to ensure that everything is finalized.
 
 You should now be able to go back to the **Available Games** section and install the game as normal. Not only that, but you have successfully changed the booked slot price for your game server.
+
+<InlineVoucher />

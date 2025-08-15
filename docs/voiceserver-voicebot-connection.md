@@ -96,3 +96,5 @@ Then, you can start the bot. It should then connect to your Discord server withi
 ## Conclusion
 
 The Voicebot is a very useful and fun product for a lot of people. You can use it either on a Teamspeak server or on Discord. For further questions or assistance, please don't hesitate to contact our support team, which is available daily to assist you! 🙂
+
+<InlineVoucher />

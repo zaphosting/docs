@@ -62,3 +62,5 @@ Du hast erfolgreich neue BepInEx-Plugins auf deinem Valheim Gameserver installie
 Noch auf der Suche nach den perfekten Plugins für deinen Server? Durchstöbere unsere sorgfältig zusammengestellte Liste mit den beliebtesten und am häufigsten empfohlenen Plugins, um dein Spielerlebnis zu erweitern und deinem Server den letzten Feinschliff zu geben. Lass dich inspirieren und finde genau die Erweiterungen, die zu deinem Projekt passen.
 
 <SearchableItemList items={items} />
+
+<InlineVoucher />

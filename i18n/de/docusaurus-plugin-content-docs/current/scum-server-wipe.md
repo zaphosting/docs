@@ -42,3 +42,5 @@ Um im Spiel auf die Server Settings zugreifen zu können, werden [[Admin Berecht
 ## Abschluss
 
 Glückwunsch, vorausgesetzt, dass du alle Schritte befolgt hast, dann hast du deinen Server erfolgreich gewiped. Für weitere Fragen oder Hilfe zögere bitte nicht, unser Support-Team zu kontaktieren, das dir täglich zur Verfügung steht! 🙂
+
+<InlineVoucher />

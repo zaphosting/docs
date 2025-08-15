@@ -114,3 +114,5 @@ A TXT record is used to add text of your choice. On some systems, the content is
 ## Conclusion
 
 Congratulations, you have successfully created and configured your DNS records. For further questions or assistance, please don’t hesitate to contact our support team, which is available daily to assist you! 🙂
+
+<InlineVoucher />

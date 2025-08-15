@@ -86,3 +86,5 @@ Wir raten davon ab, die Einstellungen für Port, IP oder Verzeichnis zu ändern,
 | slotCount      | 4                                       | Die maximale Anzahl der Spieler, die dem Server beitreten können (max. 16)   |
 
 Nachdem du deine Änderungen vorgenommen hast, speichere die Datei an den entsprechenden Stellen und starte deinen Server neu. Wenn dein Server das nächste Mal startet, verwendet er die Einstellungen, die du angegeben hast.
+
+<InlineVoucher />
