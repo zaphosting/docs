@@ -514,7 +514,7 @@
     "message": "Mehr anzeigen"
   },
   "service.gameserver-7d2d.title": {
-    "message": "Cloud-Gameserver (7 Days to Die)",
+    "message": "7 Days to Die Gameserver",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-7d2d.path": {
@@ -522,7 +522,7 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-abioticfactor.title": {
-    "message": "Cloud-Gameserver (Abiotic Factor)",
+    "message": "Abiotic Factor Gameserver",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-abioticfactor.path": {
@@ -530,7 +530,7 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-afterinfection.title": {
-    "message": "Cloud-Gameserver (Afterinfection)",
+    "message": "Afterinfection Gameserver",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-afterinfection.path": {
@@ -538,7 +538,7 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-amongus.title": {
-    "message": "Cloud-Gameserver (Among Us)",
+    "message": "Among Us Gameserver",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-amongus.path": {
@@ -546,7 +546,7 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-animalia-survival.title": {
-    "message": "Cloud-Gameserver (Animalia Survival)",
+    "message": "Animalia Survival Gameserver",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-animalia-survival.path": {
@@ -554,7 +554,7 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-argo.title": {
-    "message": "Cloud-Gameserver (Argo)",
+    "message": "Argo Gameserver",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-argo.path": {
@@ -562,7 +562,7 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-ark.title": {
-    "message": "Cloud-Gameserver (ARK: Survival Evolved)",
+    "message": "ARK: Survival Evolved Gameserver",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-ark.path": {
@@ -570,7 +570,7 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-arma3.title": {
-    "message": "Cloud-Gameserver (Arma 3)",
+    "message": "Arma 3 Gameserver",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-arma3.path": {
@@ -578,7 +578,7 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-arma-reforger.title": {
-    "message": "Cloud-Gameserver (Arma Reforger)",
+    "message": "Arma Reforger Gameserver",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-arma-reforger.path": {
@@ -586,7 +586,7 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-assettocorsa.title": {
-    "message": "Cloud-Gameserver (Assetto Corsa)",
+    "message": "Assetto Corsa Gameserver",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-assettocorsa.path": {
@@ -594,7 +594,7 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-assetto-competizione.title": {
-    "message": "Cloud-Gameserver (Assetto Corsa Competizione)",
+    "message": "Assetto Corsa Competizione Gameserver",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-assetto-competizione.path": {
@@ -602,7 +602,7 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-astrocolony.title": {
-    "message": "Cloud-Gameserver (Astro Colony)",
+    "message": "Astro Colony Gameserver",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-astrocolony.path": {
@@ -610,7 +610,7 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-astroneer.title": {
-    "message": "Cloud-Gameserver (ASTRONEER)",
+    "message": "ASTRONEER Gameserver",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-astroneer.path": {
@@ -618,7 +618,7 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-avorion.title": {
-    "message": "Cloud-Gameserver (Avorion)",
+    "message": "Avorion Gameserver",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-avorion.path": {
@@ -626,7 +626,7 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-ats.title": {
-    "message": "Cloud-Gameserver (American Truck Simulator)",
+    "message": "American Truck Simulator Gameserver",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-ats.path": {
@@ -634,7 +634,7 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-bananashooter.title": {
-    "message": "Cloud-Gameserver (Banana Shooter)",
+    "message": "Banana Shooter Gameserver",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-bananashooter.path": {
@@ -642,7 +642,7 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-barotrauma.title": {
-    "message": "Cloud-Gameserver (Barotrauma)",
+    "message": "Barotrauma Gameserver",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-barotrauma.path": {
@@ -650,7 +650,7 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-battalion1944.title": {
-    "message": "Cloud-Gameserver (Battalion 1944)",
+    "message": "Battalion 1944 Gameserver",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-battalion1944.path": {
@@ -658,7 +658,7 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-battlegrounds3.title": {
-    "message": "Cloud-Gameserver (Battle Grounds III)",
+    "message": "Battle Grounds III Gameserver",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-battlegrounds3.path": {
@@ -666,7 +666,7 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-beammp.title": {
-    "message": "Cloud-Gameserver (BeamMP)",
+    "message": "BeamMP Gameserver",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-beammp.path": {
@@ -674,7 +674,7 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-bob.title": {
-    "message": "Cloud-Gameserver (Beasts of Bermuda)",
+    "message": "Beasts of Bermuda Gameserver",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-bob.path": {
@@ -682,7 +682,7 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-beyondthewire.title": {
-    "message": "Cloud-Gameserver (Beyond the Wire)",
+    "message": "Beyond the Wire Gameserver",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-beyondthewire.path": {
@@ -690,7 +690,7 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-brokeprotocol.title": {
-    "message": "Cloud-Gameserver (Broke Protocol)",
+    "message": "Broke Protocol Gameserver",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-brokeprotocol.path": {
@@ -698,7 +698,7 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-citadel-forgedwithfire.title": {
-    "message": "Cloud-Gameserver (Citadel: Forged With Fire)",
+    "message": "Citadel: Forged With Fire Gameserver",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-citadel-forgedwithfire.path": {
@@ -706,7 +706,7 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-colonysurvival.title": {
-    "message": "Cloud-Gameserver (Colony Survival)",
+    "message": "Colony Survival Gameserver",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-colonysurvival.path": {
@@ -714,7 +714,7 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-conan.title": {
-    "message": "Cloud-Gameserver (Conan Exiles)",
+    "message": "Conan Exiles Gameserver",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-conan.path": {
@@ -722,7 +722,7 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-contagion.title": {
-    "message": "Cloud-Gameserver (Contagion)",
+    "message": "Contagion Gameserver",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-contagion.path": {
@@ -730,7 +730,7 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-corekeeper.title": {
-    "message": "Cloud-Gameserver (Core Keeper)",
+    "message": "Core Keeper Gameserver",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-corekeeper.path": {
@@ -738,7 +738,7 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-craftopia.title": {
-    "message": "Cloud-Gameserver (Craftopia)",
+    "message": "Craftopia Gameserver",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-craftopia.path": {
@@ -746,7 +746,7 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-cryofall.title": {
-    "message": "Cloud-Gameserver (Cryofall)",
+    "message": "Cryofall Gameserver",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-cryofall.path": {
@@ -754,7 +754,7 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-cs16.title": {
-    "message": "Cloud-Gameserver (Counter-Strike 1.6)",
+    "message": "Counter-Strike 1.6 Gameserver",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-cs16.path": {
@@ -762,7 +762,7 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-cs2.title": {
-    "message": "Cloud-Gameserver (Counter-Strike 2)",
+    "message": "Counter-Strike 2 Gameserver",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-cs2.path": {
@@ -770,7 +770,7 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-css.title": {
-    "message": "Cloud-Gameserver (Counter-Strike: Source)",
+    "message": "Counter-Strike: Source Gameserver",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-css.path": {
@@ -778,7 +778,7 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-dayofinfamy.title": {
-    "message": "Cloud-Gameserver (Day of Infamy)",
+    "message": "Day of Infamy Gameserver",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-dayofinfamy.path": {
@@ -786,7 +786,7 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-dayz.title": {
-    "message": "Cloud-Gameserver (DayZ)",
+    "message": "DayZ Gameserver",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-dayz.path": {
@@ -794,7 +794,7 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-ddracenetwork.title": {
-    "message": "Cloud-Gameserver (DDraceNetwork)",
+    "message": "DDraceNetwork Gameserver",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-ddracenetwork.path": {
@@ -802,7 +802,7 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-deadlock.title": {
-    "message": "Cloud-Gameserver (Deadlock)",
+    "message": "Deadlock Gameserver",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-deadlock.path": {
@@ -810,7 +810,7 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-deadpoly.title": {
-    "message": "Cloud-Gameserver (DeadPoly)",
+    "message": "DeadPoly Gameserver",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-deadpoly.path": {
@@ -818,7 +818,7 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-dods.title": {
-    "message": "Cloud-Gameserver (Day of Defeat: Source)",
+    "message": "Day of Defeat: Source Gameserver",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-dods.path": {
@@ -826,7 +826,7 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-dst.title": {
-    "message": "Cloud-Gameserver (Don't Starve Together)",
+    "message": "Don't Starve Together Gameserver",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-dst.path": {
@@ -834,7 +834,7 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-eco.title": {
-    "message": "Cloud-Gameserver (ECO)",
+    "message": "ECO Gameserver",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-eco.path": {
@@ -842,7 +842,7 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-empyrion.title": {
-    "message": "Cloud-Gameserver (Empyrion)",
+    "message": "Empyrion Gameserver",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-empyrion.path": {
@@ -850,7 +850,7 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-enshrouded.title": {
-    "message": "Cloud-Gameserver (Enshrouded)",
+    "message": "Enshrouded Gameserver",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-enshrouded.path": {
@@ -858,7 +858,7 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-ets2.title": {
-    "message": "Cloud-Gameserver (Euro Truck Simulator 2)",
+    "message": "Euro Truck Simulator 2 Gameserver",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-ets2.path": {
@@ -866,7 +866,7 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-factorio.title": {
-    "message": "Cloud-Gameserver (Factorio)",
+    "message": "Factorio Gameserver",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-factorio.path": {
@@ -874,7 +874,7 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-fivem.title": {
-    "message": "Cloud-Gameserver (FiveM)",
+    "message": "FiveM Gameserver",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-fivem.path": {
@@ -882,7 +882,7 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-foundry.title": {
-    "message": "Cloud-Gameserver (Foundry)",
+    "message": "Foundry Gameserver",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-foundry.path": {
@@ -890,7 +890,7 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-gmod.title": {
-    "message": "Cloud-Gameserver (Garry's Mod)",
+    "message": "Garry's Mod Gameserver",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-gmod.path": {
@@ -898,7 +898,7 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-groundbranch.title": {
-    "message": "Cloud-Gameserver (Ground Branch)",
+    "message": "Ground Branch Gameserver",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-groundbranch.path": {
@@ -906,7 +906,7 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-hl1.title": {
-    "message": "Cloud-Gameserver (Half-Life 1)",
+    "message": "Half-Life 1 Gameserver",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-hl1.path": {
@@ -914,7 +914,7 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-hl2.title": {
-    "message": "Cloud-Gameserver (Half-Life 2)",
+    "message": "Half-Life 2 Gameserver",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-hl2.path": {
@@ -922,7 +922,7 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-holdfast.title": {
-    "message": "Cloud-Gameserver (Holdfast: Nations At War)",
+    "message": "Holdfast: Nations At War Gameserver",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-holdfast.path": {
@@ -930,7 +930,7 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-humanitz.title": {
-    "message": "Cloud-Gameserver (HumanitZ)",
+    "message": "HumanitZ Gameserver",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-humanitz.path": {
@@ -938,7 +938,7 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-hurtworld.title": {
-    "message": "Cloud-Gameserver (Hurtworld)",
+    "message": "Hurtworld Gameserver",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-hurtworld.path": {
@@ -946,7 +946,7 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-icarus.title": {
-    "message": "Cloud-Gameserver (Icarus)",
+    "message": "Icarus Gameserver",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-icarus.path": {
@@ -954,7 +954,7 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-insurgency.title": {
-    "message": "Cloud-Gameserver (Insurgency: Sandstorm)",
+    "message": "Insurgency: Sandstorm Gameserver",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-insurgency.path": {
@@ -962,7 +962,7 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-ironarmada.title": {
-    "message": "Cloud-Gameserver (Iron Armada)",
+    "message": "Iron Armada Gameserver",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-ironarmada.path": {
@@ -970,7 +970,7 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-jol.title": {
-    "message": "Cloud-Gameserver (Journey of Life)",
+    "message": "Journey of Life Gameserver",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-jol.path": {
@@ -978,7 +978,7 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-killingfloor2.title": {
-    "message": "Cloud-Gameserver (Killing Floor 2)",
+    "message": "Killing Floor 2 Gameserver",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-killingfloor2.path": {
@@ -986,7 +986,7 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-lastoasis.title": {
-    "message": "Cloud-Gameserver (Last Oasis)",
+    "message": "Last Oasis Gameserver",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-lastoasis.path": {
@@ -994,7 +994,7 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-leap.title": {
-    "message": "Cloud-Gameserver (Leap)",
+    "message": "Leap Gameserver",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-leap.path": {
@@ -1002,7 +1002,7 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-l4d2.title": {
-    "message": "Cloud-Gameserver (Left 4 Dead 2)",
+    "message": "Left 4 Dead 2 Gameserver",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-l4d2.path": {
@@ -1010,7 +1010,7 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-longvinter.title": {
-    "message": "Cloud-Gameserver (Longvinter)",
+    "message": "Longvinter Gameserver",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-longvinter.path": {
@@ -1018,7 +1018,7 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-minecraft.title": {
-    "message": "Cloud-Gameserver (Minecraft)",
+    "message": "Minecraft Gameserver",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-minecraft.path": {
@@ -1026,7 +1026,7 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-minetest.title": {
-    "message": "Cloud-Gameserver (Minetest)",
+    "message": "Minetest Gameserver",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-minetest.path": {
@@ -1034,7 +1034,7 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-miscreated.title": {
-    "message": "Cloud-Gameserver (Miscreated)",
+    "message": "Miscreated Gameserver",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-miscreated.path": {
@@ -1042,7 +1042,7 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-motortown.title": {
-    "message": "Cloud-Gameserver (Motor Town: Behind The Wheel)",
+    "message": "Motor Town: Behind The Wheel Gameserver",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-motortown.path": {
@@ -1050,7 +1050,7 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-mountandblade.title": {
-    "message": "Cloud-Gameserver (Mount & Blade)",
+    "message": "Mount & Blade Gameserver",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-mountandblade.path": {
@@ -1058,7 +1058,7 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-mta.title": {
-    "message": "Cloud-Gameserver (Multi Theft Auto)",
+    "message": "Multi Theft Auto Gameserver",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-mta.path": {
@@ -1066,7 +1066,7 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-moe.title": {
-    "message": "Cloud-Gameserver (Myth of Empires)",
+    "message": "Myth of Empires Gameserver",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-moe.path": {
@@ -1074,7 +1074,7 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-necesse.title": {
-    "message": "Cloud-Gameserver (Necesse)",
+    "message": "Necesse Gameserver",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-necesse.path": {
@@ -1082,7 +1082,7 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-nstp.title": {
-    "message": "Cloud-Gameserver (Never Split the Party)",
+    "message": "Never Split the Party Gameserver",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-nstp.path": {
@@ -1090,7 +1090,7 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-nienix.title": {
-    "message": "Cloud-Gameserver (Nienix)",
+    "message": "Nienix Gameserver",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-nienix.path": {
@@ -1098,7 +1098,7 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-nmrih.title": {
-    "message": "Cloud-Gameserver (No More Room In Hell)",
+    "message": "No More Room In Hell Gameserver",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-nmrih.path": {
@@ -1106,7 +1106,7 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-noonesurvived.title": {
-    "message": "Cloud-Gameserver (No One Survived)",
+    "message": "No One Survived Gameserver",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-noonesurvived.path": {
@@ -1114,7 +1114,7 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-ohol.title": {
-    "message": "Cloud-Gameserver (One Hour One Life)",
+    "message": "One Hour One Life Gameserver",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-ohol.path": {
@@ -1122,7 +1122,7 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-openmp.title": {
-    "message": "Cloud-Gameserver (Open.mp)",
+    "message": "Open.mp Gameserver",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-openmp.path": {
@@ -1130,7 +1130,7 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-openttd.title": {
-    "message": "Cloud-Gameserver (OpenTTD)",
+    "message": "OpenTTD Gameserver",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-openttd.path": {
@@ -1138,7 +1138,7 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-ohd.title": {
-    "message": "Cloud-Gameserver (Operation: Harsh Doorstop)",
+    "message": "Operation: Harsh Doorstop Gameserver",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-ohd.path": {
@@ -1146,7 +1146,7 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-ootow.title": {
-    "message": "Cloud-Gameserver (Outlaws of the Old West)",
+    "message": "Outlaws of the Old West Gameserver",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-ootow.path": {
@@ -1154,7 +1154,7 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-palworld.title": {
-    "message": "Cloud-Gameserver (Palworld)",
+    "message": "Palworld Gameserver",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-palworld.path": {
@@ -1162,7 +1162,7 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-pathoftitans.title": {
-    "message": "Cloud-Gameserver (Path of Titans)",
+    "message": "Path of Titans Gameserver",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-pathoftitans.path": {
@@ -1170,7 +1170,7 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-pixark.title": {
-    "message": "Cloud-Gameserver (PixARK)",
+    "message": "PixARK Gameserver",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-pixark.path": {
@@ -1178,7 +1178,7 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-portalknights.title": {
-    "message": "Cloud-Gameserver (Portal Knights)",
+    "message": "Portal Knights Gameserver",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-portalknights.path": {
@@ -1186,7 +1186,7 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-projectzomboid.title": {
-    "message": "Cloud-Gameserver (Project Zomboid)",
+    "message": "Project Zomboid Gameserver",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-projectzomboid.path": {
@@ -1194,7 +1194,7 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-redm.title": {
-    "message": "Cloud-Gameserver (RedM)",
+    "message": "RedM Gameserver",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-redm.path": {
@@ -1202,7 +1202,7 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-reignofkings.title": {
-    "message": "Cloud-Gameserver (Reign of Kings)",
+    "message": "Reign of Kings Gameserver",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-reignofkings.path": {
@@ -1210,7 +1210,7 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-rimworldtogether.title": {
-    "message": "Cloud-Gameserver (RimWorld Together)",
+    "message": "RimWorld Together Gameserver",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-rimworldtogether.path": {
@@ -1218,7 +1218,7 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-risingstorm2.title": {
-    "message": "Cloud-Gameserver (Rising Storm 2)",
+    "message": "Rising Storm 2 Gameserver",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-risingstorm2.path": {
@@ -1226,7 +1226,7 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-risingworld.title": {
-    "message": "Cloud-Gameserver (Rising World)",
+    "message": "Rising World Gameserver",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-risingworld.path": {
@@ -1234,7 +1234,7 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-riskofrain2.title": {
-    "message": "Cloud-Gameserver (Risk of Rain 2)",
+    "message": "Risk of Rain 2 Gameserver",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-riskofrain2.path": {
@@ -1242,7 +1242,7 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-rust.title": {
-    "message": "Cloud-Gameserver (Rust)",
+    "message": "Rust Gameserver",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-rust.path": {
@@ -1250,7 +1250,7 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-sanctuaryisland.title": {
-    "message": "Cloud-Gameserver (Sanctuary Island)",
+    "message": "Sanctuary Island Gameserver",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-sanctuaryisland.path": {
@@ -1258,7 +1258,7 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-satisfactory.title": {
-    "message": "Cloud-Gameserver (Satisfactory)",
+    "message": "Satisfactory Gameserver",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-satisfactory.path": {
@@ -1266,7 +1266,7 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-scp5k.title": {
-    "message": "Cloud-Gameserver (SCP: 5K)",
+    "message": "SCP: 5K Gameserver",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-scp5k.path": {
@@ -1274,7 +1274,7 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-scp-containmentbreach.title": {
-    "message": "Cloud-Gameserver (SCP: Containment Breach)",
+    "message": "SCP: Containment Breach Gameserver",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-scp-containmentbreach.path": {
@@ -1282,7 +1282,7 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-scp-escapetogether.title": {
-    "message": "Cloud-Gameserver (SCP: Escape Together)",
+    "message": "SCP: Escape Together Gameserver",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-scp-escapetogether.path": {
@@ -1290,7 +1290,7 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-scp.title": {
-    "message": "Cloud-Gameserver (SCP: Secret Laboratory)",
+    "message": "SCP: Secret Laboratory Gameserver",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-scp.path": {
@@ -1298,7 +1298,7 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-scum.title": {
-    "message": "Cloud-Gameserver (SCUM)",
+    "message": "SCUM Gameserver",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-scum.path": {
@@ -1306,7 +1306,7 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-soldat.title": {
-    "message": "Cloud-Gameserver (Soldat)",
+    "message": "Soldat Gameserver",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-soldat.path": {
@@ -1314,7 +1314,7 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-sonsoftheforest.title": {
-    "message": "Cloud-Gameserver (Sons of the Forest)",
+    "message": "Sons of the Forest Gameserver",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-sonsoftheforest.path": {
@@ -1322,7 +1322,7 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-soulmask.title": {
-    "message": "Cloud-Gameserver (Soulmask)",
+    "message": "Soulmask Gameserver",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-soulmask.path": {
@@ -1330,7 +1330,7 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-spaceengineers.title": {
-    "message": "Cloud-Gameserver (Space Engineers)",
+    "message": "Space Engineers Gameserver",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-spaceengineers.path": {
@@ -1338,7 +1338,7 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-squad.title": {
-    "message": "Cloud-Gameserver (Squad)",
+    "message": "Squad Gameserver",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-squad.path": {
@@ -1346,7 +1346,7 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-starbound.title": {
-    "message": "Cloud-Gameserver (Starbound)",
+    "message": "Starbound Gameserver",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-starbound.path": {
@@ -1354,7 +1354,7 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-starmade.title": {
-    "message": "Cloud-Gameserver (Starmade)",
+    "message": "Starmade Gameserver",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-starmade.path": {
@@ -1362,7 +1362,7 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-staxel.title": {
-    "message": "Cloud-Gameserver (Staxel)",
+    "message": "Staxel Gameserver",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-staxel.path": {
@@ -1370,7 +1370,7 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-stormworks.title": {
-    "message": "Cloud-Gameserver (Stormworks)",
+    "message": "Stormworks Gameserver",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-stormworks.path": {
@@ -1378,7 +1378,7 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-subsistence.title": {
-    "message": "Cloud-Gameserver (Subsistence)",
+    "message": "Subsistence Gameserver",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-subsistence.path": {
@@ -1386,7 +1386,7 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-sunkenland.title": {
-    "message": "Cloud-Gameserver (Sunkenland)",
+    "message": "Sunkenland Gameserver",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-sunkenland.path": {
@@ -1394,7 +1394,7 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-tf2.title": {
-    "message": "Cloud-Gameserver (Team Fortress 2)",
+    "message": "Team Fortress 2 Gameserver",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-tf2.path": {
@@ -1402,7 +1402,7 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-teeworlds.title": {
-    "message": "Cloud-Gameserver (Teeworlds)",
+    "message": "Teeworlds Gameserver",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-teeworlds.path": {
@@ -1410,7 +1410,7 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-terraria.title": {
-    "message": "Cloud-Gameserver (Terraria)",
+    "message": "Terraria Gameserver",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-terraria.path": {
@@ -1418,7 +1418,7 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-terratech-worlds.title": {
-    "message": "Cloud-Gameserver (Terratech Worlds)",
+    "message": "Terratech Worlds Gameserver",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-terratech-worlds.path": {
@@ -1426,7 +1426,7 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-thebus.title": {
-    "message": "Cloud-Gameserver (The Bus)",
+    "message": "The Bus Gameserver",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-thebus.path": {
@@ -1434,7 +1434,7 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-thefront.title": {
-    "message": "Cloud-Gameserver (The Front)",
+    "message": "The Front Gameserver",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-thefront.path": {
@@ -1442,7 +1442,7 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-theisle.title": {
-    "message": "Cloud-Gameserver (The Isle)",
+    "message": "The Isle Gameserver",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-theisle.path": {
@@ -1450,7 +1450,7 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-lotr-rtm.title": {
-    "message": "Cloud-Gameserver (The Lord of the Rings: RTM)",
+    "message": "The Lord of the Rings: RTM Gameserver",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-lotr-rtm.path": {
@@ -1458,7 +1458,7 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-unturned.title": {
-    "message": "Cloud-Gameserver (Unturned)",
+    "message": "Unturned Gameserver",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-unturned.path": {
@@ -1466,7 +1466,7 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-vrising.title": {
-    "message": "Cloud-Gameserver (V Rising)",
+    "message": "V Rising Gameserver",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-vrising.path": {
@@ -1474,7 +1474,7 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-valheim.title": {
-    "message": "Cloud-Gameserver (Valheim)",
+    "message": "Valheim Gameserver",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-valheim.path": {
@@ -1482,7 +1482,7 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-vein.title": {
-    "message": "Cloud-Gameserver (Vein)",
+    "message": "Vein Gameserver",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-vein.path": {
@@ -1490,7 +1490,7 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-veloren.title": {
-    "message": "Cloud-Gameserver (Veloren)",
+    "message": "Veloren Gameserver",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-veloren.path": {
@@ -1498,7 +1498,7 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-vintagestory.title": {
-    "message": "Cloud-Gameserver (Vintage Story)",
+    "message": "Vintage Story Gameserver",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-vintagestory.path": {
@@ -1506,7 +1506,7 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-wreckfest.title": {
-    "message": "Cloud-Gameserver (Wreckfest)",
+    "message": "Wreckfest Gameserver",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-wreckfest.path": {
@@ -1514,7 +1514,7 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-wreckfest2.title": {
-    "message": "Cloud-Gameserver (Wreckfest 2)",
+    "message": "Wreckfest 2 Gameserver",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-wreckfest2.path": {
@@ -1522,7 +1522,7 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-wurmunlimited.title": {
-    "message": "Cloud-Gameserver (Wurm Unlimited)",
+    "message": "Wurm Unlimited Gameserver",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-wurmunlimited.path": {
