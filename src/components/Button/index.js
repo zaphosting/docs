@@ -32,7 +32,11 @@ const Button = ({
     // If the button is disabled, set the destination to null.
     const destination = disabled ? null : link;
     return (
-        <Link to={destination} style={{ textDecoration: 'none' }}>
+        <Link 
+            to={destination} 
+            style={{ textDecoration: 'none' }} 
+            rel="nofollow noopener noreferrer"
+        >
             <button
                 className={clsx('button', sizeClass, outlineClass, variantClass, blockClass, disabledClass, className)}
                 style={style}
