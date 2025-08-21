@@ -1,0 +1,171 @@
+[
+  {
+    "title": "Ubuntu Desktop",
+    "description": "Ubuntu Desktop ist eine benutzerfreundliche Linux-Distribution, die weit verbreitet auf Desktops und Laptops eingesetzt wird. Sie bietet eine moderne Oberfläche und umfangreiche Softwareunterstützung.",
+    "category": "Linux",
+    "tags": [
+      "22.04",
+      "24.04",
+      "25.04"
+    ],
+    "link": ""
+  },
+  {
+    "title": "Ubuntu Server",
+    "description": "Ubuntu Server ist eine Linux-Distribution, die für Server optimiert ist. Sie wird aufgrund ihrer Stabilität und Skalierbarkeit häufig in Cloud-Umgebungen und Rechenzentren eingesetzt.",
+    "category": "Linux",
+    "tags": [
+      "22.04",
+      "24.04",
+      "25.04"
+    ],
+    "link": ""
+  },
+  {
+    "title": "Debian",
+    "description": "Debian ist eine stabile und vielseitige Linux-Distribution, die für ihre Zuverlässigkeit und ihr großes Software-Repository bekannt ist. Sie bildet die Grundlage vieler anderer Distributionen, darunter Ubuntu.",
+    "category": "Linux",
+    "tags": [
+      "11.6",
+      "12.11",
+      "13.0"
+    ],
+    "link": ""
+  },
+  {
+    "title": "AlmaLinux",
+    "description": "AlmaLinux ist eine freie, quelloffene Linux-Distribution, die als gemeinschaftsgetriebener Ersatz für CentOS entwickelt wurde und Stabilität auf Unternehmensniveau bietet.",
+    "category": "Linux",
+    "tags": [
+      "8.10",
+      "9.6",
+      "10.0"
+    ],
+    "link": ""
+  },
+  {
+    "title": "CentOS Stream",
+    "description": "CentOS Stream ist eine Linux-Distribution, die einen kontinuierlichen Ausblick auf die nächste Version von Red Hat Enterprise Linux bietet und zwischen Fedora und RHEL angesiedelt ist.",
+    "category": "Linux",
+    "tags": [
+      "9",
+      "10"
+    ],
+    "link": ""
+  },
+  {
+    "title": "Rocky Linux Stream",
+    "description": "Rocky Linux ist eine gemeinschaftsgetriebene Enterprise-Linux-Distribution, die als binärkompatible Alternative zu RHEL entwickelt wurde, nachdem CentOS seine Ausrichtung geändert hat.",
+    "category": "Linux",
+    "tags": [
+      "8.10",
+      "9.6",
+      "10.0"
+    ],
+    "link": ""
+  },
+  {
+    "title": "Windows Server",
+    "description": "Windows Server ist ein von Microsoft entwickeltes Betriebssystem für den Unternehmenseinsatz mit Funktionen für Serververwaltung, Virtualisierung und Netzwerke.",
+    "category": "Windows",
+    "tags": [
+      "WS 2019",
+      "WS 2022",
+      "WS 2025"
+    ],
+    "link": ""
+  },
+  {
+    "title": "Fedora",
+    "description": "Fedora ist eine fortschrittliche Linux-Distribution, die von Red Hat unterstützt wird und für die Integration neuester Technologien und Innovationen im Linux-Ökosystem bekannt ist.",
+    "category": "Linux",
+    "tags": [
+      "42.1-1"
+    ],
+    "link": ""
+  },
+  {
+    "title": "OpenSUSE",
+    "description": "openSUSE ist eine gemeinschaftsgetriebene Linux-Distribution, die für ihre Stabilität und ihre leistungsstarken Administrationswerkzeuge wie YaST bekannt ist. Sie eignet sich sowohl für Server als auch für Desktops.",
+    "category": "Linux",
+    "tags": [
+      "Tumbleweed",
+      "15.6"
+    ],
+    "link": ""
+  },
+  {
+    "title": "Arch Linux",
+    "description": "Arch Linux ist eine schlanke und flexible Linux-Distribution mit einem Rolling-Release-Modell, die sich an fortgeschrittene Nutzer richtet, die vollständige Kontrolle über ihr System wünschen.",
+    "category": "Linux",
+    "tags": [
+      "2025.08.01"
+    ],
+    "link": ""
+  },
+  {
+    "title": "Windows Desktop",
+    "description": "Windows Desktop bezeichnet die Desktop-Betriebssysteme von Microsoft, darunter Windows 10 und Windows 11, die weltweit für private und berufliche Nutzung verbreitet sind.",
+    "category": "Windows",
+    "tags": [
+      "W10 24H2",
+      "W11 24H2"
+    ],
+    "link": ""
+  },
+  {
+    "title": "Proxmox Backup Server",
+    "description": "Proxmox Backup Server ist eine Enterprise-Backup-Lösung für virtuelle Maschinen, Container und physische Hosts mit Deduplizierung und effizientem Datenmanagement.",
+    "category": "Virtualization",
+    "tags": [
+      "3.4-1",
+      "4.0-1"
+    ],
+    "link": ""
+  },
+  {
+    "title": "SystemRescue",
+    "description": "SystemRescue ist ein auf Linux basierendes Rettungssystem, das zur Reparatur nicht startfähiger Computer und für administrative Aufgaben entwickelt wurde.",
+    "category": "Rescue",
+    "tags": [
+      "12.01"
+    ],
+    "link": ""
+  },
+  {
+    "title": "Gparted",
+    "description": "GParted ist ein kostenloser Partitionseditor zur Verwaltung von Festplattenpartitionen, mit dem sich Partitionen ohne Datenverlust vergrößern, verkleinern, kopieren und verschieben lassen.",
+    "category": "Utilities",
+    "tags": [
+      "1.7.0-8"
+    ],
+    "link": ""
+  },
+  {
+    "title": "Windows VirtIO Drivers",
+    "description": "Windows VirtIO-Treiber sind optimierte Treiber für den Betrieb von Windows-VMs auf KVM-basierten Hypervisoren, die Leistung und Kompatibilität verbessern.",
+    "category": "Utilities",
+    "tags": [
+      "0.1.271-1"
+    ],
+    "link": ""
+  },
+  {
+    "title": "TrueNAS SCALE Fangtooth",
+    "description": "TrueNAS SCALE Fangtooth ist eine Version des TrueNAS SCALE NAS-Betriebssystems mit erweiterten Funktionen für Storage, Virtualisierung und Containerisierung.",
+    "category": "NAS",
+    "tags": [
+      "25.04.2.1"
+    ],
+    "link": ""
+  },
+  {
+    "title": "TrueNAS SCALE ElectricEel",
+    "description": "TrueNAS SCALE ElectricEel ist eine weitere Version des TrueNAS SCALE NAS-Betriebssystems, das sich auf modernes Storage und Cloud-Integration konzentriert.",
+    "category": "NAS",
+    "tags": [
+      "24.10.2.4"
+    ],
+    "link": ""
+  }
+]
