@@ -1,0 +1,171 @@
+[
+  {
+    "title": "Ubuntu Desktop",
+    "description": "Ubuntu Desktop is a user-friendly Linux distribution, widely used for desktops and laptops. It provides a modern interface and extensive software support.",
+    "category": "Linux",
+    "tags": [
+      "22.04",
+      "24.04",
+      "25.04"
+    ],
+    "link": ""
+  },
+  {
+    "title": "Ubuntu Server",
+    "description": "Ubuntu Server is a Linux distribution optimized for servers. It is widely used in cloud environments and data centers due to its stability and scalability.",
+    "category": "Linux",
+    "tags": [
+      "22.04",
+      "24.04",
+      "25.04"
+    ],
+    "link": ""
+  },
+  {
+    "title": "Debian",
+    "description": "Debian is a stable and versatile Linux distribution known for its reliability and large software repository. It forms the basis of many other distributions, including Ubuntu.",
+    "category": "Linux",
+    "tags": [
+      "11.6",
+      "12.11",
+      "13.0"
+    ],
+    "link": ""
+  },
+  {
+    "title": "AlmaLinux",
+    "description": "AlmaLinux is a free, open-source Linux distribution designed as a community-driven replacement for CentOS, providing enterprise-grade stability.",
+    "category": "Linux",
+    "tags": [
+      "8.10",
+      "9.6",
+      "10.0"
+    ],
+    "link": ""
+  },
+  {
+    "title": "CentOS Stream",
+    "description": "CentOS Stream is a Linux distribution that provides a rolling preview of the next version of Red Hat Enterprise Linux, positioned between Fedora and RHEL.",
+    "category": "Linux",
+    "tags": [
+      "9",
+      "10"
+    ],
+    "link": ""
+  },
+  {
+    "title": "Rocky Linux Stream",
+    "description": "Rocky Linux is a community-driven enterprise Linux distribution, designed to be a downstream, binary-compatible alternative to RHEL after CentOS changed direction.",
+    "category": "Linux",
+    "tags": [
+      "8.10",
+      "9.6",
+      "10.0"
+    ],
+    "link": ""
+  },
+  {
+    "title": "Windows Server",
+    "description": "Windows Server is a Microsoft operating system designed for enterprise use, offering features for server management, virtualization, and networking.",
+    "category": "Windows",
+    "tags": [
+      "WS 2019",
+      "WS 2022",
+      "WS 2025"
+    ],
+    "link": ""
+  },
+  {
+    "title": "Fedora",
+    "description": "Fedora is a cutting-edge Linux distribution sponsored by Red Hat, known for integrating the latest technologies and innovations in the Linux ecosystem.",
+    "category": "Linux",
+    "tags": [
+      "42.1-1"
+    ],
+    "link": ""
+  },
+  {
+    "title": "OpenSUSE",
+    "description": "openSUSE is a community-driven Linux distribution known for its stability and strong administrative tools such as YaST. It is suitable for both servers and desktops.",
+    "category": "Linux",
+    "tags": [
+      "Tumbleweed",
+      "15.6"
+    ],
+    "link": ""
+  },
+  {
+    "title": "Arch Linux",
+    "description": "Arch Linux is a lightweight and flexible Linux distribution that follows a rolling release model, targeting advanced users who want full control of their system.",
+    "category": "Linux",
+    "tags": [
+      "2025.08.01"
+    ],
+    "link": ""
+  },
+  {
+    "title": "Windows Desktop",
+    "description": "Windows Desktop refers to Microsoft’s desktop operating systems, including Windows 10 and Windows 11, widely used for personal and professional computing.",
+    "category": "Windows",
+    "tags": [
+      "W10 24H2",
+      "W11 24H2"
+    ],
+    "link": ""
+  },
+  {
+    "title": "Proxmox Backup Server",
+    "description": "Proxmox Backup Server is an enterprise backup solution for virtual machines, containers, and physical hosts, offering deduplication and efficient data management.",
+    "category": "Virtualization",
+    "tags": [
+      "3.4-1",
+      "4.0-1"
+    ],
+    "link": ""
+  },
+  {
+    "title": "SystemRescue",
+    "description": "SystemRescue is a Linux-based rescue system designed for repairing unbootable computers and performing administrative tasks.",
+    "category": "Rescue",
+    "tags": [
+      "12.01"
+    ],
+    "link": ""
+  },
+  {
+    "title": "Gparted",
+    "description": "GParted is a free partition editor for managing disk partitions, allowing resizing, copying, and moving partitions without data loss.",
+    "category": "Utilities",
+    "tags": [
+      "1.7.0-8"
+    ],
+    "link": ""
+  },
+  {
+    "title": "Windows VirtIO Drivers",
+    "description": "Windows VirtIO Drivers are optimized drivers for running Windows virtual machines on KVM-based hypervisors, improving performance and compatibility.",
+    "category": "Utilities",
+    "tags": [
+      "0.1.271-1"
+    ],
+    "link": ""
+  },
+  {
+    "title": "TrueNAS SCALE Fangtooth",
+    "description": "TrueNAS SCALE Fangtooth is a version of the TrueNAS SCALE NAS operating system, offering advanced storage, virtualization, and containerization features.",
+    "category": "NAS",
+    "tags": [
+      "25.04.2.1"
+    ],
+    "link": ""
+  },
+  {
+    "title": "TrueNAS SCALE ElectricEel",
+    "description": "TrueNAS SCALE ElectricEel is another release of the TrueNAS SCALE NAS operating system, focused on modern storage and cloud integration.",
+    "category": "NAS",
+    "tags": [
+      "24.10.2.4"
+    ],
+    "link": ""
+  }
+]

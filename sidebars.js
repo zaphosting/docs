@@ -3851,6 +3851,7 @@ const sidebars = {
     },
     'vserver-introduction',
     'vserver-dashboard',
+    'vserver-iso',
     'vserver-reset',
     'vserver-vnc',
     'vserver-dedicated-comparison',
