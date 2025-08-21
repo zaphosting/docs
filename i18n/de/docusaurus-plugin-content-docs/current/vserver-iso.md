@@ -4,7 +4,7 @@ title: "VPS: Eine ISO-Datei mounten"
 description: Informationen zum Mounten einer ISO-Datei auf deinem vServer von ZAP-Hosting - ZAP-Hosting.com Dokumentation
 sidebar_label: Eigene ISO
 services:
-  - dedicated
+  - vserver
 ---
 
 
@@ -22,7 +22,7 @@ Lust auf noch mehr Freiheit bei der Wahl deines Systems? Neben unseren OS-Templa
 
 ## Verfügbare ISO-Dateien
 
-Neben unseren vorinstallierten Standard-OS-Templates besteht zusätzlich die Möglichkeit, eigene ISO-Dateien zu mounten. Dadurch stehen Ihnen noch mehr Optionen für die Einrichtung und Nutzung Ihrer Serverumgebung zur Verfügung. Unsere VPS-Produkte unterstützen derzeit folgende ISO-Dateien:
+Neben unseren vorinstallierten Standard-OS-Templates besteht zusätzlich die Möglichkeit, eigene ISO-Dateien zu mounten. Dadurch stehen dir noch mehr Optionen für die Einrichtung und Nutzung deiner Serverumgebung zur Verfügung. Unsere VPS-Produkte unterstützen derzeit folgende ISO-Dateien:
 
 <SearchableItemList items={items} />
 
