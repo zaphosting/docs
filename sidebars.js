@@ -4131,6 +4131,7 @@ const sidebars = {
         'dedicated-linux-python',
         'dedicated-linux-screen',
         'dedicated-linux-ssh-server',
+        'dedicated-linux-ts6',
         'dedicated-linux-webserver',
         'dedicated-linux-wordpress',
         'dedicated-linux-xrdp',
