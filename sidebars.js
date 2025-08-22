@@ -3917,6 +3917,7 @@ const sidebars = {
         'vserver-linux-python',
         'vserver-linux-screen',
         'vserver-linux-ssh-server',
+        'vserver-linux-ts6',
         'vserver-linux-webserver',
         'vserver-linux-wordpress',
         'vserver-linux-xrdp',
@@ -3985,6 +3986,7 @@ const sidebars = {
         'vserver-windows-javascript',
         'vserver-windows-plesk',
         'vserver-windows-python',
+        'vserver-windows-ts6',
       ]
     },
     {
@@ -4130,6 +4132,7 @@ const sidebars = {
         'dedicated-linux-python',
         'dedicated-linux-screen',
         'dedicated-linux-ssh-server',
+        'dedicated-linux-ts6',
         'dedicated-linux-webserver',
         'dedicated-linux-wordpress',
         'dedicated-linux-xrdp',
@@ -4198,6 +4201,7 @@ const sidebars = {
         'dedicated-windows-javascript',
         'dedicated-windows-plesk',
         'dedicated-windows-python',
+        'dedicated-windows-ts6',
       ]
     },
     {
