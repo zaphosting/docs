@@ -3917,6 +3917,7 @@ const sidebars = {
         'vserver-linux-python',
         'vserver-linux-screen',
         'vserver-linux-ssh-server',
+        'vserver-linux-ts6',
         'vserver-linux-webserver',
         'vserver-linux-wordpress',
         'vserver-linux-xrdp',
