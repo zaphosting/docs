@@ -4201,6 +4201,7 @@ const sidebars = {
         'dedicated-windows-javascript',
         'dedicated-windows-plesk',
         'dedicated-windows-python',
+        'dedicated-windows-ts6',
       ]
     },
     {
