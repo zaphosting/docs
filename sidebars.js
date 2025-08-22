@@ -3986,6 +3986,7 @@ const sidebars = {
         'vserver-windows-javascript',
         'vserver-windows-plesk',
         'vserver-windows-python',
+        'vserver-windows-ts6',
       ]
     },
     {
