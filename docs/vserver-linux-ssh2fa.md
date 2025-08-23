@@ -17,7 +17,7 @@ Google's SSH two-factor authentication (2FA) service, known as **Google Authenti
 
 ## Installation
 
-First you need to install the Google Authenticator on your Linux VPS/Root server. Execute the following command:
+First you need to install the Google Authenticator on your Linux VPS. Execute the following command:
 
 ```
 sudo apt install libpam-google-authenticator

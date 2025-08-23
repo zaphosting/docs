@@ -1,7 +1,7 @@
 ---
 id: vserver-windows-enshrouded
 title: "vServer: Enshrouded Dedicated Server Einrichtung"
-description: Informationen zur Einrichtung eines Enshrouded Dedizierten Servers auf einem vServer/Rootserver - ZAP-Hosting.com Dokumentation
+description: Informationen zur Einrichtung eines Enshrouded Dedizierten Servers auf einem vServer - ZAP-Hosting.com Dokumentation
 sidebar_label: Enshrouded
 services:
   - vserver
@@ -12,7 +12,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
 
-Hast du einen Windows VPS oder Rootserver und möchtest darauf einen Enshrouded Dedicated Server installieren? Dann bist du hier genau richtig. In dieser Anleitung erklären wir dir Schritt für Schritt, wie du diesen Dienst auf deinem Server installierst.
+Hast du einen Windows VPS und möchtest darauf einen Enshrouded Dedicated Server installieren? Dann bist du hier genau richtig. In dieser Anleitung erklären wir dir Schritt für Schritt, wie du diesen Dienst auf deinem Server installierst.
 
 <YouTube videoId="cxhqHt2DYjQ" imageSrc="https://screensaver01.zap-hosting.com/index.php/s/ij7SkeBCPrZGt9J/preview" title="How To Setup Enshrouded Dedicated Server on Windows VPS!" description="Hast du das Gefühl, dass du etwas besser verstehst, wenn du es in Aktion siehst? Wir haben etwas für dich! Tauche ab in unser Video, welches alles für dich zusammenfasst. Egal, ob du es eilig hast oder einfach nur Informationen auf möglichst verständliche Art und Weise aufnehmen möchtest!"/>
 
@@ -20,7 +20,7 @@ Hast du einen Windows VPS oder Rootserver und möchtest darauf einen Enshrouded 
 
 ## Vorbereitung
 
-Verbinde dich zunächst über Remote Desktop (RDP) mit deinem VPS oder Rootserver. Verwende unsere Anleitung [Erstzugang (RDP)](vserver-windows-userdp.md), wenn du Hilfe benötigst.
+Verbinde dich zunächst über Remote Desktop (RDP) mit deinem VPS. Verwende unsere Anleitung [Erstzugang (RDP)](vserver-windows-userdp.md), wenn du Hilfe benötigst.
 
 Sobald du auf deinen Server zugegriffen hast, musst du **SteamCMD** einrichten, damit du die notwendigen Dateien für den dedizierten Server herunterladen kannst. SteamCMD ist die **Befehlszeilenversion (CLI)** des Steam-Clients und das Tool, mit dem du ganz einfach eine Reihe von Steam-Workshop- und Dedicated Server-Dateien herunterladen kannst. Lade [SteamCMD von der offiziellen Valve-Website](https://developer.valvesoftware.com/wiki/SteamCMD) oder direkt [hier](https://steamcdn-a.akamaihd.net/client/installer/steamcmd.zip) herunter.
 

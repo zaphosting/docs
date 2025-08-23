@@ -17,7 +17,7 @@ Der SSH-Zweifaktorauthentifizierung (2FA) Service von Google, bekannt als **Goog
 
 ## Installation
 
-Als Erstes musst du den Google Authenticator auf deinem Linux vServer/Rootserver installieren.
+Als Erstes musst du den Google Authenticator auf deinem Linux vServer installieren.
 Kopiere dir dafür einfach diese Zeile:
 
 ```

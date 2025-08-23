@@ -11,15 +11,15 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introduction
 
-If game server products don't meet your taste or expectations, or if you need your service in other ways, using a VPS, root server, or dedicated server is often a better option. However, you often face the challenge that not all services are automated or pre-installed. Setting up services such as game servers, Teamspeak 3 servers, and music bots must be done independently.
+If game server products don't meet your taste or expectations, or if you need your service in other ways, using a VPS or dedicated server is often a better option. However, you often face the challenge that not all services are automated or pre-installed. Setting up services such as game servers, Teamspeak 3 servers, and music bots must be done independently.
 
-To solve this problem, we have developed a practical solution for our Linux-based VPS, root server, or dedicated server. The so-called Gameserver/Teamspeak 3 Server interface (GS/TS3 Interface)!
+To solve this problem, we have developed a practical solution for our Linux-based VPS or dedicated server. The so-called Gameserver/Teamspeak 3 Server interface (GS/TS3 Interface)!
 
 <InlineVoucher />
 
 ## Use case
 
-With the user-friendly GS/TS3 interface, you can install Teamspeak 3 or other selected game server services on your Linux-based VPS, root server, or dedicated server with just a few clicks. No prior knowledge is required for this installation. The setup of all required packages, server files, and the actual installation are fully automated, saving you time and effort.
+With the user-friendly GS/TS3 interface, you can install Teamspeak 3 or other selected game server services on your Linux-based VPS or dedicated server with just a few clicks. No prior knowledge is required for this installation. The setup of all required packages, server files, and the actual installation are fully automated, saving you time and effort.
 
 :::warning
 The GS/TS3 interface feature can be used with the following operating systems:
@@ -41,8 +41,6 @@ The GS/TS3 interface supports the setup of game servers, voice servers, and musi
 | Gameserver  | ✔️                |
 | Voiceserver | ✔️                |
 | Musicbot (Sinusbot)  | ✔️                |
-
-<p style={{textAlign: 'center'}}>List updated last on 07.11.2024</p>
 
 
 

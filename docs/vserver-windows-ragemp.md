@@ -11,13 +11,13 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introduction
 
-Do you have a Windows VPS or root server and you want to install the RageMP Dedicated server service on it? You are in the right place. In this guide, we will explain the step by step process of installing this service on your server.
+Do you have a Windows VPS and you want to install the RageMP Dedicated server service on it? You are in the right place. In this guide, we will explain the step by step process of installing this service on your server.
 
 <InlineVoucher />
 
 ## Preparation
 
-To begin with, connect to your VPS or root server through Remote Desktop (RDP). Use our [Initial Access (RDP)](vserver-windows-userdp.md) guide if you need help doing this.
+To begin with, connect to your VPS through Remote Desktop (RDP). Use our [Initial Access (RDP)](vserver-windows-userdp.md) guide if you need help doing this.
 
 Once you have accessed your server, begin by installing [Microsoft Visual C++ Redistributable 2017](https://aka.ms/vs/15/release/VC_redist.x64.exe) as this is a prerequisite that RageMP requires. Ensure this is installed before proceeding. If you are unsure if you already have it installed, run the installer and it will tell you during the setup.
 

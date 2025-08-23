@@ -30,5 +30,9 @@
   "item.label.vRootserver": {
     "message": "vRootserver",
     "description": "Navbar item with label vRootserver"
+  },
+  "item.label.VPS": {
+    "message": "VPS",
+    "description": "Navbar item with label VPS"
   }
 }

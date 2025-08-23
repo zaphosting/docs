@@ -1,7 +1,7 @@
 ---
 id: vserver-windows-conan
 title: "vServer: Conan Exiles Dedicated Server Einrichtung"
-description: Informationen zur Einrichtung eines Conan Exiles Dedizierten Servers auf einem vServer/Rootserver - ZAP-Hosting.com Dokumentation
+description: Informationen zur Einrichtung eines Conan Exiles Dedizierten Servers auf einem vServer - ZAP-Hosting.com Dokumentation
 sidebar_label: Conan Exiles
 services:
   - vserver
@@ -12,13 +12,13 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
  
 ## Einführung
 
-Hast du einen Windows VPS oder Rootserver und möchtest darauf einen Conan Exiles Dedicated Server installieren? Dann bist du hier genau richtig. In dieser Anleitung erklären wir dir Schritt für Schritt, wie du diesen Dienst auf deinem Server installierst.
+Hast du einen Windows VPS und möchtest darauf einen Conan Exiles Dedicated Server installieren? Dann bist du hier genau richtig. In dieser Anleitung erklären wir dir Schritt für Schritt, wie du diesen Dienst auf deinem Server installierst.
 
 <InlineVoucher />
 
 ## Vorbereitung
 
-Verbinde dich zunächst über Remote Desktop (RDP) mit deinem VPS oder Rootserver. Verwende unsere Anleitung [Erstzugang (RDP)](vserver-windows-userdp.md), wenn du Hilfe benötigst.
+Verbinde dich zunächst über Remote Desktop (RDP) mit deinem VPS. Verwende unsere Anleitung [Erstzugang (RDP)](vserver-windows-userdp.md), wenn du Hilfe benötigst.
 
 :::note Server Launcher Tool
 Als Alternative zu SteamCMD bieten die Entwickler von Conan Exiles ein nützliches Server-Startprogramm an, das unter Windows verwendet werden kann, um das Starten eines Servers zu erleichtern.

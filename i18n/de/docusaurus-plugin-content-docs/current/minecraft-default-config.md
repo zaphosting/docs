@@ -71,7 +71,7 @@ Sofern du die IDs der jeweiligen Spielmodi nicht kannst, findest du hier eine Au
 ### server-port
 
 Du kannst hier  deinem Server einen festen Port zuweisen, über welchen dieser in Verbindung mit der IP erreichbar sein wird.
-Sofern du als Beispiel mehrere Server auf deinem Rootserver betreiben möchtest, muss je Server ein unterschiedlicher Port festgelegt werden. Diese Option kann in der Regel unberührt bleiben und wird meist nur bei einem BungeeCord-Netzwerk benötigt.
+Sofern du als Beispiel mehrere Server auf deinem VPS betreiben möchtest, muss je Server ein unterschiedlicher Port festgelegt werden. Diese Option kann in der Regel unberührt bleiben und wird meist nur bei einem BungeeCord-Netzwerk benötigt.
 
 ### enable-command-block
 

@@ -10,17 +10,17 @@ services:
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introduction
-Do you have a Linux VPS or root server and you want to install the Foundry Dedicated server service on it? You are in the right place. In this guide, we will explain the step by step process of installing this service on your Linux server through the use of SteamCMD. We will be using Ubuntu in the examples, but the process should be very similar for other distributions.
+Do you have a Linux VPS and you want to install the Foundry Dedicated server service on it? You are in the right place. In this guide, we will explain the step by step process of installing this service on your Linux server through the use of SteamCMD. We will be using Ubuntu in the examples, but the process should be very similar for other distributions.
 
 :::tip
-Did you know that you can install our **ZAP GS/TS3 Interface** directly onto your VPS or root server, allowing you to setup game server services, with direct integration to your ZAP-Hosting dashboard, in just a few clicks! Learn more about the [GS/TS3 Interface](vserver-linux-gs-interface.md).
+Did you know that you can install our **ZAP GS/TS3 Interface** directly onto your VPS, allowing you to setup game server services, with direct integration to your ZAP-Hosting dashboard, in just a few clicks! Learn more about the [GS/TS3 Interface](vserver-linux-gs-interface.md).
 :::
 
 <InlineVoucher />
 
 ## Preparation
 
-To begin with, connect to your VPS or root server via SSH. Use our [SSH Initial Access](vserver-linux-ssh.md) guide if you need help doing this.
+To begin with, connect to your VPS via SSH. Use our [SSH Initial Access](vserver-linux-ssh.md) guide if you need help doing this.
 
 You will also have to complete a first-time setup for SteamCMD if this is your first time using this on your Linux server. Please use our [SteamCMD Linux Setup](vserver-linux-steamcmd.md) guide and ensure SteamCMD is fully setup before proceeding.
 
@@ -49,7 +49,7 @@ Please be patient as the download completes, it can take some time for games wit
 
 By this stage, you have finished the setup for your Foundry server. You can perform further server configuration through a configuration file found within the directory of your server.
 
-You will be able to adjust all configuration parameters by accessing and editing the **app.cfg** configuration file found in the root server directory.
+You will be able to adjust all configuration parameters by accessing and editing the **app.cfg** configuration file found in the root directory.
 ```
 nano /home/steam/Foundry-Server/app.cfg
 ```

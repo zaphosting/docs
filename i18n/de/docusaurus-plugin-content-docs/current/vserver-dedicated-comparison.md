@@ -24,24 +24,24 @@ Ein Dedicated Server hingegen bietet dir exklusiven Zugriff auf die vollständig
 
 Die folgende Tabelle zeigt einen technischen Vergleich der drei Produktkategorien:
 
-| Feature                    | vServer        | Rootserver     | Dedicated Server       |
-| -------------------------- | -------------- | -------------- | ---------------------- |
-| Leistungsindex             | ███░░░░░░░     | ██████░░░░     | ██████████             |
-| Eigene Hardware            | ✗              | ✗              | ✓                      |
-| Dedizierte Leistung        | ✗              | ✓              | ✓                      |
-| Nested Virtualization      | ✓              | ✓              | ✓                      |
-| Installation von Custom ISOs | ✗            | ✗              | ✓                      |
-| Max. Kerne                 | 16             | 12             | 20 (40)                |
-| Max. Arbeitsspeicher       | 64 GB          | 64 GB          | 256 GB                 |
-| Max. Speicherplatz         | 200 GB         | 480 GB         | 2 TB                   |
-| GS/TS3 Interface           | ✓              | ✓              | ✓                      |
-| DDoS-Schutz                | ✓              | ✓              | ✓                      |
-| Trafficflatrate (Fair Use) | ✓              | ✓              | ✓                      |
-| rDNS- & IP-Verwaltung      | ✓              | ✓              | ✓                      |
-| Up/Downgrade-Option        | ✓              | ✓              | ✗                      |
-| Mehrere Standorte          | ✓              | ✓              | ✗                      |
-| Ressourcen-Sharing         | ✓              | ✓              | ✗                      |
-| Betriebssysteme            | Linux, Windows | Linux, Windows | Linux, Windows, Custom |
+| Feature                    | vServer        | Dedicated Server       |
+| -------------------------- | -------------- | ---------------------- |
+| Leistungsindex             | ███░░░░░░░     | ██████████             |
+| Eigene Hardware            | ✗              | ✓                      |
+| Dedizierte Leistung        | ✗              | ✓                      |
+| Nested Virtualization      | ✓              | ✓                      |
+| Installation von Custom ISOs | ✗            | ✓                      |
+| Max. Kerne                 | 16             | 20 (40)                |
+| Max. Arbeitsspeicher       | 64 GB          | 256 GB                 |
+| Max. Speicherplatz         | 200 GB         | 2 TB                   |
+| GS/TS3 Interface           | ✓              | ✓                      |
+| DDoS-Schutz                | ✓              | ✓                      |
+| Trafficflatrate (Fair Use) | ✓              | ✓                      |
+| rDNS- & IP-Verwaltung      | ✓              | ✓                      |
+| Up/Downgrade-Option        | ✓              | ✗                      |
+| Mehrere Standorte          | ✓              | ✗                      |
+| Ressourcen-Sharing         | ✓              | ✗                      |
+| Betriebssysteme            | Linux, Windows | Linux, Windows, Custom |
 
 ## Fazit
 

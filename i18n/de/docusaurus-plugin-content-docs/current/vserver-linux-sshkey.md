@@ -23,7 +23,6 @@ Damit der Key zu dem Server hinzugefügt wird, muss der "**Key hinzufügen**" Bu
 :::info
 Bei Linux vServern wird der Key direkt hinzugefügt
 
-Bei Linux Rootserver ist ein Neustart von dem Server erforderlich, damit diese Änderungen übernommen werden
 :::
 
 <InlineVoucher />
@@ -106,28 +105,6 @@ Bei Linux vServer befindet sich direkt neben dem "**SSH Key generieren**" Button
 
 Die Anzeige bei "**SSH-Login via Passwort**" würde sich dann auch auf "**inaktiv**" stellen.
 
-### Linux Rootserver
-
-Bei Linux Rootserver, gibt es diese Funktion leider nicht, dort müsste dies händisch über SSH gemacht werden.
-Dafür über PuTTY zu dem Server verbinden und mit einem Texteditor deiner Wahl folgende Datei ändern.
-In unserem Beispiel nutzen wir "**nano**".
-
-```
-nano /etc/ssh/sshd_config
-```
-
-In dieser Datei muss nun "**PasswordAuthentification**" von "**yes**" auf "**no**" umgestellt werden.
-Zudem muss die Raute (#) welche sich vor "**PasswordAuthentification**" befindet, entfernt werden.
-
-Sofern "**#PasswordAuthentification yes**" auf "**PasswordAuthentification no**" gewechselt wurde, kann man die Datei bei Nano mit "**STRG**" + "**X**" schließen und die Änderungen mit "**Y**" speichern.
-
-
-Im Anschluss muss der SSH Dienst neu gestartet werden, damit die Änderungen direkt aktiv sind.
-Alternativ wären diese erst nach einem Serverneustart aktiv.
-
-```
-service sshd restart
-```
 
 ## Abschluss
 

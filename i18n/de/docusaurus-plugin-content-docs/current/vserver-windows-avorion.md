@@ -1,7 +1,7 @@
 ---
 id: vserver-windows-avorion
 title: "vServer: Avorion Dedicated Server Einrichtung"
-description: Informationen zur Einrichtung eines Avorion Dedizierten Servers auf einem vServer/Rootserver - ZAP-Hosting.com Dokumentation
+description: Informationen zur Einrichtung eines Avorion Dedizierten Servers auf einem vServer - ZAP-Hosting.com Dokumentation
 sidebar_label: Avorion
 services:
   - vserver

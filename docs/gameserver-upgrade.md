@@ -13,7 +13,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Preface
 
-Thanks to our cloud system, you can always modify your ZAP-Hosting game server and V-Root server according to your wishes and needs.
+Thanks to our cloud system, you can always modify your ZAP-Hosting game server according to your wishes and needs.
 For example, if you need more slots or more RAM, this is not a problem and can be adjusted at any time.
 Please keep in mind, if you have used a voucher, a downgrade is no longer possible, in the voucher period.
 

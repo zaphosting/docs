@@ -16,7 +16,7 @@ import items from '@site/data/faqs/dedicated-introduction-en.json';
 
 Are you looking for your own server with powerful configuration at a fair price? Then ZAP-Hosting is the right place for you! At ZAP-Hosting you can rent or buy your suitable dedicated server and get hardware for a maximum performance experience! 
 
-Unlike a virtual server (vRootserver), you will have your own physical hardware with a dedicated server. This means that when you rent/buy a Dedicated Server, the full power of all components is available only to you and your applications. Virtual servers, on the other hand, run on a host system whose resources are shared with other virtual servers.
+Unlike a virtual server, you will have your own physical hardware with a dedicated server. This means that when you rent/buy a Dedicated Server, the full power of all components is available only to you and your applications. Virtual servers, on the other hand, run on a host system whose resources are shared with other virtual servers.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/9YMG6QfsNzzjCSQ/preview)
 

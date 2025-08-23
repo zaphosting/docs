@@ -49,7 +49,7 @@ Please be patient as the download completes, it can take some time for games wit
 
 By this stage, you have finished the setup for your Enshrouded server. You can perform further server configuration through a configuration file found within the directory of your server.
 
-You will be able to adjust all configuration parameters by accessing and editing the **enshrouded_server.json** configuration file found in the root server directory.
+You will be able to adjust all configuration parameters by accessing and editing the **enshrouded_server.json** configuration file found in the root directory.
 ```
 nano /home/steam/Enshrouded-Server/enshrouded_server.json
 ```

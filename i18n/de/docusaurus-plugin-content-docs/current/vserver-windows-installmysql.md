@@ -12,13 +12,13 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 ## Einführung
 
 Ein MySQL Server wird für verschiedenste Anwendungsgebiete benötigt und kann zum Beispiel wichtige Daten für einen Gameserver oder eine Website enthalten.
-Im Folgenden richtest du deinen eigenen MySQL Datenbankserver auf deinem Windows vServer oder Rootserver ein.
+Im Folgenden richtest du deinen eigenen MySQL Datenbankserver auf deinem Windows vServer ein.
 
 <InlineVoucher />
 
 ## Installation
 
-Zu Beginn verbindest du dich via Remotedesktopverbindung auf deinen vServer oder Rootserver und lädst dir dort die
+Zu Beginn verbindest du dich via Remotedesktopverbindung auf deinen vServer und lädst dir dort die
 aktuellste Version von MariaDB herunter, diese verwenden wir als unseren Datenbankserver: [MariaDB Download](https://mariadb.org/download/?t=mariadb).
 
 Das heruntergeladene Archiv entpackst du mit WinRAR oder 7Zip und startest die darin befindliche Installationsdatei mit einem Doppelklick: 

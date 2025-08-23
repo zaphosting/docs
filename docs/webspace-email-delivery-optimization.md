@@ -24,7 +24,7 @@ To minimize the risk of being blacklisted, we implement security measures, inclu
 Should our webspace instances still be blacklisted by certain providers, we immediately contact them to resolve the situation as quickly as possible.
 
 :::warning
-If smooth and reliable email delivery is crucial for you, choosing a service with a dedicated IP address is the better decision. Depending on the size and complexity of your project, we recommend using a **[VPS](https://zap-hosting.com/en/vps-hosting)**, **[Root Server](https://zap-hosting.com/en/root-server-hosting)**, or **[Dedicated Server](https://zap-hosting.com/en/dedicated-server-hosting)** for this purpose.
+If smooth and reliable email delivery is crucial for you, choosing a service with a dedicated IP address is the better decision. Depending on the size and complexity of your project, we recommend using a **[VPS](https://zap-hosting.com/en/vps-hosting)** or **[Dedicated Server](https://zap-hosting.com/en/dedicated-server-hosting)** for this purpose.
 :::
 
 ## Compliance with Content & Safety Standards

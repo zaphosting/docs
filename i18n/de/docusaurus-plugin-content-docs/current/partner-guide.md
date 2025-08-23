@@ -30,10 +30,10 @@ Hier ein paar Beispiele, wie ihr Bot-Timer, Videobeschreibungen und Shoutouts ge
 Dein eigener Server wartet! Jetzt bei ZAP-Hosting.com deinen Traumserver erstellen: (DEIN LINK) #Werbung
 
 
-Leistungsstarke Gameserver, Rootserver und Domains! Sofort online! Jetzt bei meinem Partner ZAP-Hosting.com (DEIN LINK) #Werbung
+Leistungsstarke Gameserver, VPS und Domains! Sofort online! Jetzt bei meinem Partner ZAP-Hosting.com (DEIN LINK) #Werbung
 
 
-Server zur Verfügung gestellt von meinem Partner in Sachen Gameserver, Rootserver und Domains: (DEIN LINK) #Werbung
+Server zur Verfügung gestellt von meinem Partner in Sachen Gameserver, VPS und Domains: (DEIN LINK) #Werbung
 :::
 
 ## Die Partner-Ränge

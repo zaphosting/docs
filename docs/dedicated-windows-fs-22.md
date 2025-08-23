@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introduction
 
-Do you have a Windows VPS, root server or dedicated server and you want to install the Farming Simulator Dedicated Server 2022 service on it? You are in the right place. In this guide, we will explain the step by step process of installing this service on your server.
+Do you have a Windows VPS or dedicated server and you want to install the Farming Simulator Dedicated Server 2022 service on it? You are in the right place. In this guide, we will explain the step by step process of installing this service on your server.
 
 <InlineVoucher />
 

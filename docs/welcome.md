@@ -138,14 +138,11 @@ Perfect and utilize the full extent of your game server. With our expertise, we 
     <Card title="Wurm Unlimited" description="Placeholder" link="https://zap-hosting.com/guides/docs/wurmunlimited-firststeps-dashboard" image="https://screensaver01.zap-hosting.com/index.php/s/BzbDjJWySW4LjtX/preview"/>
 </Cards>
 
-## vRootserver
-Utilize the full extent of your vRoot server (VPS/Root server) with our comprehensive guides. Whether you prefer Linux or Windows, our guides help you efficiently set up and manage your server.
+## VPS
+Utilize the full extent of your VPS with our comprehensive guides. Whether you prefer Linux or Windows, our guides help you efficiently set up and manage your server.
 
 <Cards>
-    <Card title="VPS (Linux)" description="Placeholder" link="https://zap-hosting.com/guides/docs/vserver-introduction" image="https://screensaver01.zap-hosting.com/index.php/s/XmJGtYkc7d9rBai/preview" type="product-categories"/>
-    <Card title="VPS (Windows)" description="Placeholder" link="https://zap-hosting.com/guides/docs/vserver-introduction" image="https://screensaver01.zap-hosting.com/index.php/s/XmJGtYkc7d9rBai/preview" type="product-categories"/>
-    <Card title="Root server (Linux)" description="Placeholder" link="https://zap-hosting.com/guides/docs/vserver-introduction" image="https://screensaver01.zap-hosting.com/index.php/s/fqn5SZYRJjoikXa/preview" type="product-categories"/>
-    <Card title="Root server (Windows)" description="Placeholder" link="https://zap-hosting.com/guides/docs/vserver-introduction" image="https://screensaver01.zap-hosting.com/index.php/s/fqn5SZYRJjoikXa/preview" type="product-categories"/>
+    <Card title="VPS (Linux/Windows)" description="Placeholder" link="https://zap-hosting.com/guides/docs/vserver-introduction" image="https://screensaver01.zap-hosting.com/index.php/s/XmJGtYkc7d9rBai/preview" type="product-categories"/>
 </Cards>
 
 ## Dedicated Server
