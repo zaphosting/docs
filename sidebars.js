@@ -125,6 +125,18 @@ const sidebars = {
         },
       ]
     },
+        {
+      type: 'html',
+      className: 'sidebar-title',
+      value: (() => {
+        switch (process.env.DOCUSAURUS_CURRENT_LOCALE) {
+          case "de": return "Sonstiges";
+          default: return "Other";
+        }
+      })(),
+      defaultStyle: true,
+    },
+    "abuse-report"
   ],
   
   
