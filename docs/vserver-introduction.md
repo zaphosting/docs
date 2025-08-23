@@ -32,12 +32,12 @@ We offer various configuration options for our VPS product, which should suit ev
 | Components | Configuration Options |
 | -------------------------------- | ------------------------- |
 | **CPU** | AMD EPYC 7000 series |
-| **CPU Cores**              | up to 16           |
-| **Memory**              | up to 32 GB RAM         |
-| **Disk space**               | 50-200 GB                                       |
-| **Operating system** | Debian, Ubuntu, Windows Server, OpenSuse, Fedora |
+| **CPU Cores**              | up to 64         |
+| **Memory**              | up to 128 GB RAM      |
+| **Disk space**               | 25-600 GB                                      |
+| **Operating system** | Debian, Ubuntu, Windows Server and custom ISO |
 | **IP-Addresses** | up to 10 IP-Addresses   |
-| **Bandwidth**     | up to 2.000 Mbit/s up/down |
+| **Bandwidth**     | up to 5.000 Mbit/s up/down |
 | **Traffic**                      | 5000 GB/month       |
 
 
