@@ -58,6 +58,14 @@ The settings provide options for making key configuration changes to the server.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/esY87qKYozR4mj9/preview)
 
+
+
+### ISOs
+
+Want to try out a new operating system or check your server when it becomes unreachable? A wide range of ISO files is available for you. With just a few clicks, you can mount them as a virtual disk and use them right away for installation or diagnostics.
+
+![img](https://screensaver01.zap-hosting.com/index.php/s/Ti4CNm3qp8ka6Tw/preview)
+
 ### Gameserver / TS3
 
 With this feature, you can easily set up and manage gameserver and voiceserver services in just a few clicks. The web interface handles the entire installation process for you, so you don’t need any deep technical knowledge.
