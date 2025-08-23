@@ -219,7 +219,7 @@ const config = {
           type: 'docSidebar',
           sidebarId: 'vpsrootSidebar',
           position: 'left',
-          label: 'vRootserver',
+          label: 'VPS',
         },
         {
           type: 'docSidebar',
