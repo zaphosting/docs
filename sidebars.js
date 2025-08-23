@@ -3854,6 +3854,7 @@ const sidebars = {
     'vserver-iso',
     'vserver-reset',
     'vserver-vnc',
+    'vserver-rescue',
     'vserver-dedicated-comparison',
     'vserver-ballooning', 
     {
