@@ -125,6 +125,18 @@ const sidebars = {
         },
       ]
     },
+        {
+      type: 'html',
+      className: 'sidebar-title',
+      value: (() => {
+        switch (process.env.DOCUSAURUS_CURRENT_LOCALE) {
+          case "de": return "Sonstiges";
+          default: return "Other";
+        }
+      })(),
+      defaultStyle: true,
+    },
+    "abuse-report"
   ],
   
   
@@ -3854,6 +3866,7 @@ const sidebars = {
     'vserver-iso',
     'vserver-reset',
     'vserver-vnc',
+    'vserver-rescue',
     'vserver-dedicated-comparison',
     'vserver-ballooning', 
     {
