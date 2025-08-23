@@ -32,12 +32,12 @@ Wir bieten verschiedene Konfigurationsoptionen für unsere vServer Produkte an, 
 | Komponenten | Konfigurationsoptionen |
 | -------------------------------- | ------------------------- |
 | **CPU** | AMD EPYC 7000 Serie |
-| **CPU-Kerne**              | bis zu 16           |
-| **Speicher**              | bis zu 32 GB RAM         |
-| **Speicherplatz**               | 50-200 GB                                       |
-| **Betriebssystem** | Debian, Ubuntu, Windows Server, OpenSuse, Fedora |
+| **CPU-Kerne**              | bis zu 64         |
+| **Speicher**              | bis zu 128 GB RAM      |
+| **Speicherplatz**               | 25-600 GB                                     |
+| **Betriebssystem** | Debian, Ubuntu, Windows Server und indviduelle ISO |
 | **IP-Adressen** | bis zu 10 IP-Adressen   |
-| **Bandbreite**     | bis zu 2.000 Mbit/s up/down |
+| **Bandbreite**     | bis zu 5.000 Mbit/s up/down |
 | **Traffic**                      | 5000 GB/Monat       |
 
 
