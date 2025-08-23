@@ -138,14 +138,10 @@ Perfektioniere und Nutze den vollen Umfang deines Gameservers. Mit unserer Exper
 </Cards>
 
 ## vRootserver
-Nutze den vollen Umfang deines vRootservers (VPS/Rootserver) mit unseren umfassenden Anleitungen. Egal, ob du Linux oder Windows bevorzugst, Anleitungen helfen dir, deinen Server effizient einzurichten und zu verwalten.
+Nutze den vollen Umfang deines VPS mit unseren umfassenden Anleitungen. Egal, ob du Linux oder Windows bevorzugst, Anleitungen helfen dir, deinen Server effizient einzurichten und zu verwalten.
 
 <Cards>
-    <Card title="vServer (Linux)" description="Placeholder" link="https://zap-hosting.com/guides/de/docs/vserver-introduction" image="https://screensaver01.zap-hosting.com/index.php/s/XmJGtYkc7d9rBai/preview" type="product-categories"/>
-    <Card title="vServer (Windows)" description="Placeholder" link="https://zap-hosting.com/guides/de/docs/vserver-introduction" image="https://screensaver01.zap-hosting.com/index.php/s/XmJGtYkc7d9rBai/preview" type="product-categories"/>
-    <Card title="Rootserver (Linux)" description="Placeholder" link="https://zap-hosting.com/guides/de/docs/vserver-introduction" image="https://screensaver01.zap-hosting.com/index.php/s/fqn5SZYRJjoikXa/preview" type="product-categories"/>
-    <Card title="Rootserver (Windows)" description="Placeholder" link="https://zap-hosting.com/guides/de/docs/vserver-introduction" image="https://screensaver01.zap-hosting.com/index.php/s/fqn5SZYRJjoikXa/preview" type="product-categories"/>
-</Cards>
+    <Card title="vServer (Linux/Windows)" description="Placeholder" link="https://zap-hosting.com/guides/de/docs/vserver-introduction" image="https://screensaver01.zap-hosting.com/index.php/s/XmJGtYkc7d9rBai/preview" type="product-categories"/></Cards>
 
 ## Dedicated Server
 Unsere Dedicated Server bieten Leistung für anspruchsvolle Projekte. Entdecke in unseren Anleitungen, wie du die Hardware und Betriebssysteme nach deinen Bedürfnissen konfigurierst und sicherstellst, dass deine Anwendungen optimal laufen.

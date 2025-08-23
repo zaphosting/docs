@@ -14,7 +14,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 Die Server.cfg von Arma 3 wird für den Betrieb eines jeden Arma 3 Servers benötigt und bietet eine Vielzahl von 
 Möglichkeit einen Arma 3 Server individuell zu konfigurieren.
 
-Editiert wird die Server.cfg entweder direkt über FTP auf einem vorinstallierten Gameserver, Rootserver oder vServer. 
+Editiert wird die Server.cfg entweder direkt über FTP auf einem vorinstallierten Gameserver oder vServer. 
 Bei einem Gameserver steht zudem der Menüpunkt Configs auf der linken Seite im Gameserverinterface zur Verfügung, von dort kann die
 Server.cfg mit wenigen Klicks bearbeitet werden.
 

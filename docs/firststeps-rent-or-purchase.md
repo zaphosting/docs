@@ -52,7 +52,7 @@ Both rental and lifetime options are available for the majority of our products.
 | Product           | Rent | Lifetime |
 | ----------------- | ---- | -------- |
 | Gameserver        | ✓    | ✓        |
-| vRootserver       | ✓    | ✓        |
+| VPS       | ✓    | ✓        |
 | Dedicated Server  | ✓    | ✓        |
 | Domain            | ✓    | X        |
 | Webspace          | ✓    | ✓        |

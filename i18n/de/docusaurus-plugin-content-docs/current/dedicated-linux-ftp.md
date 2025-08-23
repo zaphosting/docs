@@ -41,7 +41,7 @@ Nun wird man vermutlich folgendes Bild sehen:
 Hat man bereits ein FTP-Tool probiert, so wird dieses sehr wahrscheinlich auch bereits einen ähnlichen Fehler wie folgenden Fehler angezeigt haben: 
 
 
-Da nun klar ist, dass weder eine Verbindung via WebFTP oder FTP-Tool möglich ist, muss man sich nun den FTP Dienst auf dem vServer oder Rootserver genauer ansehen. 
+Da nun klar ist, dass weder eine Verbindung via WebFTP oder FTP-Tool möglich ist, muss man sich nun den FTP Dienst auf dem vServer genauer ansehen. 
 
 
 ### ProFTPD Status Prüfen

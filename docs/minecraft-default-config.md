@@ -61,7 +61,7 @@ If you cannot identify the IDs of the respective game modes, you will find a lis
 
 ### server-port
 
-You can assign a fixed port to your server via which it will be accessible in connection with the IP. If you want to run several servers on your root server as an example, a different port must be defined for each server. This option can usually remain untouched and is usually only required for a BungeeCord network.
+You can assign a fixed port to your server via which it will be accessible in connection with the IP. If you want to run several servers on your server as an example, a different port must be defined for each server. This option can usually remain untouched and is usually only required for a BungeeCord network.
 
 ### enable-command-block
 

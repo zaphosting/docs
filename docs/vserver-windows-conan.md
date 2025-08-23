@@ -11,13 +11,13 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introduction
 
-Do you have a Windows VPS or root server and you want to install the Conan Exiles Dedicated server service on it? You are in the right place. In this guide, we will explain the step by step process of installing this service on your server.
+Do you have a Windows VPS and you want to install the Conan Exiles Dedicated server service on it? You are in the right place. In this guide, we will explain the step by step process of installing this service on your server.
 
 <InlineVoucher />
 
 ## Preparation
 
-To begin with, connect to your VPS or rootserver through Remote Desktop (RDP). Use our [Initial Access (RDP)](vserver-windows-userdp.md) guide if you need help doing this.
+To begin with, connect to your VPS through Remote Desktop (RDP). Use our [Initial Access (RDP)](vserver-windows-userdp.md) guide if you need help doing this.
 
 :::note Server Launcher Tool
 As an alternative to using SteamCMD, the developers of Conan Exiles maintain a useful server launcher utility tool that can be utilised on Windows to make it easier to launch a server.

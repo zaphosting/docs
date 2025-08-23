@@ -12,7 +12,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 ## What can you do if the game server or teamspeak server is not accessible via FTP?
 
 :::info
-Attention: The following steps only work on your own VPS/Root Server if the ZAP web interface has been installed!
+Attention: The following steps only work on your own VPS if the ZAP web interface has been installed!
 :::
 
 If the created server cannot be reached via FTP, the FTP service (ProFTPD) is not active in most cases. In rare cases this can also be due to an incorrect config or an occupied port, i.e. FTP port 21 is used / occupied by another program.
@@ -34,7 +34,7 @@ Now you will probably see the following picture:
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/FFJo8XeEJcX7RTM/preview)
 
-Since it is now clear that a connection via WebFTP or FTP tool is not possible, you have to take a closer look at the FTP service on the VPS or root server.
+Since it is now clear that a connection via WebFTP or FTP tool is not possible, you have to take a closer look at the FTP service on the VPS.
 
 ### Check ProFTPD Status
 

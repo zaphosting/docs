@@ -17,7 +17,7 @@ Wine is an open-source compatibility layer for Linux which allows software that 
 
 ## Preparation
 
-To begin with, connect to your VPS or root server via SSH. Use our [SSH Initial Access](vserver-linux-ssh.md) guide if you need help doing this.
+To begin with, connect to your VPS via SSH. Use our [SSH Initial Access](vserver-linux-ssh.md) guide if you need help doing this.
 
 ## Installing Wine
 

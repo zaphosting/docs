@@ -21,7 +21,7 @@ We have and will continue to take feedback from our customers into consideration
 
 As briefly mentioned in advance, we are continuously developing and expanding the scope of our products. However, this is not necessarily always easy and uncomplicated to implement. For that reason, it can happen that we are not able to offer every product at every location from the beginning. You will find an overview of the availability of the server products at the respective locations below. 
 
-| Locations               | Gameserver | Teamspeak | vRootServer | Dedicated Server |
+| Locations               | Gameserver | Teamspeak | VPS | Dedicated Server |
 | ----------------------- | ---------- | --------- | ----------- | ---------------- |
 | FFM / Eygelshoven, DE   | ✓          | ✓         | ✓           | ✓                |
 | London, UK              | ✓          | ✓         | X           | X                |

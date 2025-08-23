@@ -32,7 +32,7 @@ The import of external backups (snapshots) is not possible for security reasons.
 :::
 
 </TabItem>
-<TabItem value="self_hosted" label="Self hosted (vRootserver/Dedicated Server)">
+<TabItem value="self_hosted" label="Self hosted (VPS/Dedicated Server)">
 
 As with the TeamSpeak Server product, if you use the GS/TS3 interface, you can create a backup (snapshot) with a click via the TeamSpeak Server service administration. However, you can also create a backup manually using the login details of the TeamSpeak instance (Query) and the external application YatQA. 
 

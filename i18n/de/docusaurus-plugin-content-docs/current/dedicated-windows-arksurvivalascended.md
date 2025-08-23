@@ -19,7 +19,7 @@ Hast du einen Windows Dedicated Server und möchtest darauf einen ARK: Survival 
 
 ## Vorbereitung
 
-Um zu beginnen, verbinde dich über Remote Desktop (RDP) mit deinem vServer oder Rootserver. Wenn du dabei Hilfe benötigst, nutze unsere Anleitung [Erstzugang (RDP)](vserver-windows-userdp.md)
+Um zu beginnen, verbinde dich über Remote Desktop (RDP) mit deinem vServer. Wenn du dabei Hilfe benötigst, nutze unsere Anleitung [Erstzugang (RDP)](vserver-windows-userdp.md)
 
 Sobald du Zugriff auf deinen Server hast, musst du **SteamCMD** einrichten, um die erforderlichen Dateien für den Dedicated Server herunterladen zu können. SteamCMD ist die **command-line (CLI)-Version** des Steam-Clients und das Tool, das es dir ermöglicht, eine Vielzahl von Steam Workshop- und Dateien für dedicated Server einfach herunterzuladen. Lade [SteamCMD von der offiziellen Valve-Website](https://developer.valvesoftware.com/wiki/SteamCMD) herunter oder direkt [hier](https://steamcdn-a.akamaihd.net/client/installer/steamcmd.zip.
 

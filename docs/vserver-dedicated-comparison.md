@@ -24,24 +24,24 @@ A Dedicated Server, on the other hand, gives you access to the full physical har
 
 The table below provides a technical comparison of the three product categories:
 
-| Feature                    | VPS            | Rootserver     | Dedicated Server       |
-| -------------------------- | -------------- | -------------- | ---------------------- |
-| Performance Index          | ███░░░░░░░     | ██████░░░░     | ██████████             |
-| Own Hardware               | ✗              | ✗              | ✓                      |
-| Dedicated Performance      | ✗              | ✓              | ✓                      |
-| Nested Virtualization      | ✓              | ✓              | ✓                      |
-| Custom ISO Installation    | ✗              | ✗              | ✓                      |
-| Max Cores                  | 16             | 12             | 20 (40)                |
-| Max Memory                 | 64 GB          | 64 GB          | 256 GB                 |
-| Max Storage                | 200 GB         | 480 GB         | 2 TB                   |
-| GS/TS3 Interface           | ✓              | ✓              | ✓                      |
-| DDoS Protection            | ✓              | ✓              | ✓                      |
-| Fair Use Traffic Flat Rate | ✓              | ✓              | ✓                      |
-| rDNS & IP Management       | ✓              | ✓              | ✓                      |
-| Up/Downgrade Option        | ✓              | ✓              | ✗                      |
-| Multiple Locations         | ✓              | ✓              | ✗                      |
-| Resource Sharing           | ✓              | ✓              | ✗                      |
-| Operating Systems          | Linux, Windows | Linux, Windows | Linux, Windows, Custom |
+| Feature                    | VPS            | Dedicated Server       |
+| -------------------------- | -------------- | ---------------------- |
+| Performance Index          | ███░░░░░░░     | ██████████             |
+| Own Hardware               | ✗              | ✓                      |
+| Dedicated Performance      | ✗              | ✓                      |
+| Nested Virtualization      | ✓              | ✓                      |
+| Custom ISO Installation    | ✗              | ✓                      |
+| Max Cores                  | 16             | 20 (40)                |
+| Max Memory                 | 64 GB          | 256 GB                 |
+| Max Storage                | 200 GB         | 2 TB                   |
+| GS/TS3 Interface           | ✓              | ✓                      |
+| DDoS Protection            | ✓              | ✓                      |
+| Fair Use Traffic Flat Rate | ✓              | ✓                      |
+| rDNS & IP Management       | ✓              | ✓                      |
+| Up/Downgrade Option        | ✓              | ✗                      |
+| Multiple Locations         | ✓              | ✗                      |
+| Resource Sharing           | ✓              | ✗                      |
+| Operating Systems          | Linux, Windows | Linux, Windows, Custom |
 
 ## Conclusion
 

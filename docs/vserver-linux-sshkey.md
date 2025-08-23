@@ -95,27 +95,6 @@ Once its deceactivated, its no longer possible to reach the server via password 
 The display for "**SSH login via password**" would then also be set to "**Inactive**".
 
 
-### Linux Root server
-
-Unfortunately, this function does not exist with Linux root servers; there it would have to be done manually via SSH. To do this, connect to the server via PuTTY and change the following file with a text editor of your choice. In our example we use "**nano**".
-
-```
-nano /etc/ssh/sshd_config
-```
-
-In this file, "**PasswordAuthentification**" must now be changed from "**yes**" to "**no**".
-In addition, the hash (#) in front of "**PasswordAuthentification**" must be removed.
-
-If "**#PasswordAuthentification yes**" has been changed to "**PasswordAuthentification no**" you can close the file on Nano with "**CTRL**" + "**X**" and save the changes with "**Y**".
-
-
-The SSH service must then be restarted so that the changes are immediately active. Alternatively, these would only be active after a server restart.
-
-```
-service sshd restart
-```
-
-
 ## Conclusion
 
 Congratulations, you have successfully installed and configured your SSH key! If you have any further questions or problems, please contact our support team, who are available to help you every day! 

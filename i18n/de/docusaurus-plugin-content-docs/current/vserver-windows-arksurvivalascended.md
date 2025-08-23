@@ -1,7 +1,7 @@
 ---
 id: vserver-windows-arksurvivalascended
 title: "vServer: ARK Survival Ascended Dedicated Server Einrichtung"
-description: Informationen zur Einrichtung eines ARK Survival Ascended Dedizierten Servers auf einem vServer/Rootserver - ZAP-Hosting.com Dokumentation
+description: Informationen zur Einrichtung eines ARK Survival Ascended Dedizierten Servers auf einem vServer - ZAP-Hosting.com Dokumentation
 sidebar_label: ARK Survival Ascended
 services:
   - vserver
@@ -11,7 +11,7 @@ import YouTube from '@site/src/components/YouTube/YouTube';
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
-Hast du einen Windows vServer oder Rootserver und möchtest darauf einen ARK: Survival Ascended Dedizierten Server installieren? Du bist hier genau richtig. In dieser Anleitung erklären wir dir Schritt für Schritt den Prozess der Installation dieses Dienstes auf deinem Server.
+Hast du einen Windows vServer und möchtest darauf einen ARK: Survival Ascended Dedizierten Server installieren? Du bist hier genau richtig. In dieser Anleitung erklären wir dir Schritt für Schritt den Prozess der Installation dieses Dienstes auf deinem Server.
 
 <YouTube videoId="NvaXYjLSCn8" imageSrc="https://screensaver01.zap-hosting.com/index.php/s/StbdM4WiSSoBGij/preview" title="ARK: Survival Ascended Dedicated Server Setup on Windows VPS" description="Feel like you understand better when you see things in action? We’ve got you! Dive into our video that breaks it all down for you. Whether you're in a rush or just prefer to soak up information in the most engaging way possible!"/>
 
@@ -19,7 +19,7 @@ Hast du einen Windows vServer oder Rootserver und möchtest darauf einen ARK: Su
 
 ## Vorbereitung
 
-Um zu beginnen, verbinde dich über Remote Desktop (RDP) mit deinem vServer oder Rootserver. Wenn du dabei Hilfe benötigst, nutze unsere Anleitung [Erstzugang (RDP)](vserver-windows-userdp.md)
+Um zu beginnen, verbinde dich über Remote Desktop (RDP) mit deinem vServer. Wenn du dabei Hilfe benötigst, nutze unsere Anleitung [Erstzugang (RDP)](vserver-windows-userdp.md)
 
 Sobald du Zugriff auf deinen Server hast, musst du **SteamCMD** einrichten, um die erforderlichen Dateien für den Dedicated Server herunterladen zu können. SteamCMD ist die **command-line (CLI)-Version** des Steam-Clients und das Tool, das es dir ermöglicht, eine Vielzahl von Steam Workshop- und Dateien für dedicated Server einfach herunterzuladen. Lade [SteamCMD von der offiziellen Valve-Website](https://developer.valvesoftware.com/wiki/SteamCMD) herunter oder direkt [hier](https://steamcdn-a.akamaihd.net/client/installer/steamcmd.zip.
 

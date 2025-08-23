@@ -78,7 +78,7 @@ The three individual worlds are now ready to be used on server platforms.
 
 To convert a world from a server platform to vanilla format, the process is practically identical but in reverse. You will have to extract data from the individual worlds for the nether and the end dimensions, to merge it into a single world format. Of course, it is expected that you would move the combined world onto a new server that is running vanilla server.
 
-Access your server through FTP and enter the root server path. Locate the three individual world folders which should be `[your_world]`, `[your_world]_nether` and `[your_world]_the_end` with `[your_world]` replacing the name of the world.
+Access your server through FTP and enter the root path. Locate the three individual world folders which should be `[your_world]`, `[your_world]_nether` and `[your_world]_the_end` with `[your_world]` replacing the name of the world.
 
 Open `[your_world]_nether` individual world folder and move the `DIM-1` folder into the main `[your_world]` folder. In this example, just like before the world is called `world` by default.
 
