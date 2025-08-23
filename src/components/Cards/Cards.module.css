@@ -5,7 +5,8 @@
 }
 
 .Cards {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
   flex-wrap: wrap;
   gap: 20px;
   justify-content: center;
@@ -14,7 +15,8 @@
 }
 
 .CardsUnhidden {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
   flex-wrap: wrap;
   gap: 20px;
   justify-content: center;
