@@ -3912,6 +3912,7 @@ const sidebars = {
       type: "category",
       label: "Services",
       items: [
+        'vserver-linux-bitwarden',
         'vserver-linux-certbot',
         'vserver-linux-cockpit',	
         'vserver-linux-databases',
@@ -3994,6 +3995,7 @@ const sidebars = {
       type: "category",
       label: "Services",
       items: [
+        'vserver-windows-bitwarden',
         'vserver-windows-ftpserver',
         'vserver-windows-installmysql',
         'vserver-windows-javascript',
@@ -4125,6 +4127,7 @@ const sidebars = {
       type: "category",
       label: "Services",
       items: [
+        'dedicated-linux-bitwarden',
         'dedicated-linux-certbot',
         'dedicated-linux-ssl',
         'dedicated-linux-cockpit',	
@@ -4209,6 +4212,7 @@ const sidebars = {
       type: "category",
       label: "Services",
       items: [
+        'dedicated-windows-bitwarden',
         'dedicated-windows-ftpserver',
         'dedicated-windows-installmysql',
         'dedicated-windows-javascript',
