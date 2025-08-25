@@ -3997,6 +3997,7 @@ const sidebars = {
       label: "Services",
       items: [
         'vserver-windows-bitwarden',
+        'vserver-windows-docker',
         'vserver-windows-ftpserver',
         'vserver-windows-installmysql',
         'vserver-windows-javascript',
@@ -4216,6 +4217,7 @@ const sidebars = {
       label: "Services",
       items: [
         'dedicated-windows-bitwarden',
+        'dedicated-windows-docker',
         'dedicated-windows-ftpserver',
         'dedicated-windows-installmysql',
         'dedicated-windows-javascript',
