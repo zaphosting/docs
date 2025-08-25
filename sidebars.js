@@ -3912,6 +3912,7 @@ const sidebars = {
       type: "category",
       label: "Services",
       items: [
+        'vserver-linux-bitwarden',
         'vserver-linux-certbot',
         'vserver-linux-cockpit',	
         'vserver-linux-databases',
@@ -3930,6 +3931,7 @@ const sidebars = {
         'vserver-linux-python',
         'vserver-linux-screen',
         'vserver-linux-ssh-server',
+        'vserver-linux-supabase',
         'vserver-linux-ts6',
         'vserver-linux-webserver',
         'vserver-linux-wordpress',
@@ -3994,11 +3996,14 @@ const sidebars = {
       type: "category",
       label: "Services",
       items: [
+        'vserver-windows-bitwarden',
+        'vserver-windows-docker',
         'vserver-windows-ftpserver',
         'vserver-windows-installmysql',
         'vserver-windows-javascript',
         'vserver-windows-plesk',
         'vserver-windows-python',
+        'vserver-windows-supabase',
         'vserver-windows-ts6',
       ]
     },
@@ -4125,6 +4130,7 @@ const sidebars = {
       type: "category",
       label: "Services",
       items: [
+        'dedicated-linux-bitwarden',
         'dedicated-linux-certbot',
         'dedicated-linux-ssl',
         'dedicated-linux-cockpit',	
@@ -4145,6 +4151,7 @@ const sidebars = {
         'dedicated-linux-python',
         'dedicated-linux-screen',
         'dedicated-linux-ssh-server',
+        'dedicated-linux-supabase',
         'dedicated-linux-ts6',
         'dedicated-linux-webserver',
         'dedicated-linux-wordpress',
@@ -4209,11 +4216,14 @@ const sidebars = {
       type: "category",
       label: "Services",
       items: [
+        'dedicated-windows-bitwarden',
+        'dedicated-windows-docker',
         'dedicated-windows-ftpserver',
         'dedicated-windows-installmysql',
         'dedicated-windows-javascript',
         'dedicated-windows-plesk',
         'dedicated-windows-python',
+        'dedicated-windows-supabase',
         'dedicated-windows-ts6',
       ]
     },
