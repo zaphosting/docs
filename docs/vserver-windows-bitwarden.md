@@ -54,7 +54,7 @@ To make sure your system is running with the most recent software and security i
 ### Install dependencies
 Once the update process is complete, the installation of dependencies can now be proceeded with. Bitwarden will be deployed and run on your machine using an array of Docker containers. This requires Docker to be installed first. To do this install [Docker Desktop](https://docs.docker.com/desktop/setup/install/windows-install/) on your server. 
 
-A complete walkthrough of the installation process and how to use Docker is available in our [Docker](vserver-linux-docker.md) guide.
+A complete walkthrough of the installation process and how to use Docker is available in our [Docker](vserver-windows-docker.md) guide.
 
 
 

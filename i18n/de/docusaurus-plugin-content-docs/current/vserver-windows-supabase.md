@@ -1,7 +1,7 @@
 ---
 id: vserver-windows-supabase
 title: "VPS: Supabase unter Linux einrichten"
-description: Informationen zur Einrichtung von Supabase auf deinem Linux VPS von ZAP-Hosting - ZAP-Hosting.com Dokumentation
+description: Informationen zur Einrichtung von Supabase auf deinem Linux vServer von ZAP-Hosting - ZAP-Hosting.com Dokumentation
 sidebar_label: Supabase installieren
 services:
   - vserver
@@ -61,7 +61,7 @@ Die Supabase-Daten werden über GitHub bezogen. Dafür muss Git zunächst instal
 
 Supabase wird auf deinem System mithilfe eines Docker-Containers bereitgestellt und ausgeführt. Dafür muss Docker zunächst installiert werden. Installiere dazu [Docker Desktop](https://docs.docker.com/desktop/setup/install/windows-install/) auf deinem Server.
 
-Eine vollständige Anleitung zum Installationsprozess und zur Nutzung von Docker findest du in unserem [Docker](vserver-linux-docker.md) Leitfaden.
+Eine vollständige Anleitung zum Installationsprozess und zur Nutzung von Docker findest du in unserer [Docker](vserver-windows-docker.md) Anleitung.
 
 
 ## Installation

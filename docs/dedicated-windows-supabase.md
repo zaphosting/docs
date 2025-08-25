@@ -60,7 +60,7 @@ The Supabase data will be downloaded through GitHub. This requires Git  to be in
 
 Supabase will be deployed and run on your machine using a Docker container. This requires Docker to be installed first. To do this install [Docker Desktop](https://docs.docker.com/desktop/setup/install/windows-install/) on your server.
 
-A complete walkthrough of the installation process and how to use Docker is available in our [Docker](vserver-Windows-docker.md) guide.
+A complete walkthrough of the installation process and how to use Docker is available in our [Docker](dedicated-windows-docker.md) guide.
 
 
 ## Installation

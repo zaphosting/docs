@@ -55,7 +55,7 @@ Damit dein System mit den neuesten Softwareständen und Sicherheitsverbesserunge
 Wenn die Aktualisierung abgeschlossen ist, kannst du die Installation der Abhängigkeiten vornehmen. Bitwarden wird auf deinem System mithilfe mehrerer Docker-Container bereitgestellt und ausgeführt. Dafür muss Docker zuerst installiert werden. Dazu muss zunächst Docker installiert werden. Installiere dazu [Docker Desktop](https://docs.docker.com/desktop/setup/install/windows-install/) auf deinem Server.
 
 
-Eine vollständige Anleitung zur Installation und Nutzung von Docker findest du in unserer [Docker](vserver-Windows-docker.md) Anleitung.
+Eine vollständige Anleitung zur Installation und Nutzung von Docker findest du in unserer [Docker](vserver-windows-docker.md) Anleitung.
 
 
 

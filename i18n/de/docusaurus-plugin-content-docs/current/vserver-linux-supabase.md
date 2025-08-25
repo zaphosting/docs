@@ -1,7 +1,7 @@
 ---
 id: vserver-linux-supabase
 title: "vServer: Supabase unter Linux einrichten"
-description: Informationen zur Einrichtung von Supabase auf deinem Linux-vServer von ZAP-Hosting - ZAP-Hosting.com Dokumentation
+description: Informationen zur Einrichtung von Supabase auf deinem Linux vServer von ZAP-Hosting - ZAP-Hosting.com Dokumentation
 sidebar_label: Supabase installieren
 services:
   - vserver
@@ -74,7 +74,7 @@ curl -fsSL https://get.docker.com -o get-docker.sh
 sh get-docker.sh
 ```
 
-Eine vollständige Anleitung zum Installationsprozess und zur Nutzung von Docker findest du in unserem [Docker](vserver-linux-docker.md) Leitfaden.
+Eine vollständige Anleitung zum Installationsprozess und zur Nutzung von Docker findest du in unserer [Docker](vserver-linux-docker.md) Anleitung.
 
 
 ## Installation

@@ -1,7 +1,7 @@
 ---
 id: vserver-linux-bitwarden
 title: "vServer: Bitwarden unter Linux einrichten"
-description: Informationen zur Einrichtung von Bitwarden auf deinem Linux-Produkt von ZAP-Hosting - ZAP-Hosting.com Dokumentation
+description: Informationen zur Einrichtung von Bitwarden auf deinem Linux VPS von ZAP-Hosting - ZAP-Hosting.com Dokumentation
 sidebar_label: Bitwarden installieren
 services:
   - vserver
