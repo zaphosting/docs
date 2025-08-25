@@ -37,7 +37,7 @@ The software requires that all necessary dependencies are installed and that it 
 
 **Dependencies:** None
 
-**Operating System:** Linux 10/11, Linux Server 20XX
+**Operating System:** Ubuntu (16.04+) / Debian (8+) - Intel/AMD 64-bit
 
 Ensure all dependencies are installed and the correct operating system version is in use to avoid compatibility issues during the installation of Plex.
 

@@ -37,7 +37,7 @@ Die Software erfordert, dass alle notwendigen Abhängigkeiten installiert sind u
 
 **Abhängigkeiten:** Keine
 
-**Betriebssystem:** Linux 10/11, Linux Server 20XX
+**Betriebssystem:** Ubuntu (16.04+) / Debian (8+) - Intel/AMD 64-bit
 
 Stelle sicher, dass alle Abhängigkeiten installiert sind und die korrekte Betriebssystemversion verwendet wird, um Kompatibilitätsprobleme während der Installation von Plex zu vermeiden.
 
