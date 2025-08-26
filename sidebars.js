@@ -3925,6 +3925,7 @@ const sidebars = {
         'vserver-linux-jitsi',
         'vserver-linux-mastodon',
         'vserver-linux-nextcloud',
+        'vserver-linux-odoo',
         'vserver-linux-openvpn',
         'vserver-linux-php',
         'vserver-linux-phpmyadmin',
