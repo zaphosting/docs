@@ -146,7 +146,7 @@ Wenn du bereits ein Google-Cloud-Konto mit einem OAuth-Client hast, kannst du ei
 
 ## Abschluss und weitere Ressourcen
 
-Glückwunsch! Du hast Plausible jetzt erfolgreich auf deinem VPS installiert und konfiguriert. Wir empfehlen außerdem, einen Blick auf die folgenden Ressourcen zu werfen, die dir zusätzliche Hilfe und Orientierung während deiner Serverkonfiguration bieten können
+Glückwunsch! Du hast Plausible jetzt erfolgreich auf deinem vServer installiert und konfiguriert. Wir empfehlen außerdem, einen Blick auf die folgenden Ressourcen zu werfen, die dir zusätzliche Hilfe und Orientierung während deiner Serverkonfiguration bieten können
 
 - [plausible.io](https://plausible.io/) - Offizielle Website
 - [github.com/plausible/analytics](https://github.com/plausible/analytics) - Ankündigungen, Diskussionen, Issue-Meldung

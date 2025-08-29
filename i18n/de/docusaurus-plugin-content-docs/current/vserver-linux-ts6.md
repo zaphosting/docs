@@ -1,7 +1,7 @@
 ---
 id: vserver-linux-ts6
-title: "VPS: Teamspeak 6 Server auf deinem Linux-VPS einrichten"
-description: Informationen zur Einrichtung von Teamspeak 6 Server auf einem Linux VPS von ZAP-Hosting – ZAP-Hosting.com Dokumentation
+title: "vServer: Teamspeak 6 Server auf deinem Linux-vServer einrichten"
+description: Informationen zur Einrichtung von Teamspeak 6 Server auf einem Linux vServer von ZAP-Hosting – ZAP-Hosting.com Dokumentation
 sidebar_label: Teamspeak 6 Server installieren
 services:
   - vserver
@@ -139,7 +139,7 @@ Nachdem der TeamSpeak 6 Server gestartet und eingerichtet ist, kannst du die Ver
 
 ## Abschluss und weitere Informationen
 
-Glückwunsch! Du hast Teamspeak 6 Server jetzt erfolgreich auf deinem VPS installiert und konfiguriert. Wir empfehlen dir auch, dir die folgenden Informationen anzusehen, die dir bei der Konfiguration deines Servers zusätzliche Hilfe und Anleitung bieten können:
+Glückwunsch! Du hast Teamspeak 6 Server jetzt erfolgreich auf deinem vServer installiert und konfiguriert. Wir empfehlen dir auch, dir die folgenden Informationen anzusehen, die dir bei der Konfiguration deines Servers zusätzliche Hilfe und Anleitung bieten können:
 
 - [Offizielle Website](https://teamspeak.com/en/) – Infos und Downloads für TeamSpeak 6
 - [Community-Forum](https://community.teamspeak.com/) – Benutzerunterstützung und Diskussionen

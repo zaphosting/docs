@@ -1,7 +1,7 @@
 ---
 id: vserver-linux-steamcmd
 title: "vServer: SteamCMD Linux Einrichtung"
-description: Informationen zur Einrichtung von SteamCMD auf einem Linux VPS von ZAP-Hosting - ZAP-Hosting.com Dokumentation
+description: Informationen zur Einrichtung von SteamCMD auf einem Linux vServer von ZAP-Hosting - ZAP-Hosting.com Dokumentation
 sidebar_label: SteamCMD einrichten
 services:
   - vserver
@@ -17,7 +17,7 @@ SteamCMD ist ein unverzichtbares Tool, das für die Installation von dedizierten
 
 ## Vorbereitung
 
-Verbinde dich zunächst über SSH mit deinem VPS oder Root-Server. Verwende unsere Anleitung [Erstzugriff (SSH)](vserver-linux-ssh.md), wenn du dabei Hilfe brauchst.
+Verbinde dich zunächst über SSH mit deinem vServer oder Root-Server. Verwende unsere Anleitung [Erstzugriff (SSH)](vserver-linux-ssh.md), wenn du dabei Hilfe brauchst.
 
 ## SteamCMD installieren
 

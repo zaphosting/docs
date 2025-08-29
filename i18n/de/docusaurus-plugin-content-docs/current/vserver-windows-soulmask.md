@@ -12,13 +12,13 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einleitung
 
-Hast du einen Windows VPS und möchtest den Soulmask Dedicated Server Service darauf installieren? Dann bist du hier genau richtig. In dieser Anleitung erklären wir dir Schritt für Schritt, wie du diesen Dienst auf deinem Server installierst.
+Hast du einen Windows vServer und möchtest den Soulmask Dedicated Server Service darauf installieren? Dann bist du hier genau richtig. In dieser Anleitung erklären wir dir Schritt für Schritt, wie du diesen Dienst auf deinem Server installierst.
 
 <InlineVoucher />
 
 ## Vorbereitung
 
-Verbinde dich zunächst über Remote Desktop (RDP) mit deinem VPS oder Root-Server. Benutze unsere Anleitung [Erstzugang (RDP)](vserver-windows-userdp.md), wenn du dabei Hilfe brauchst.
+Verbinde dich zunächst über Remote Desktop (RDP) mit deinem vServer oder Root-Server. Benutze unsere Anleitung [Erstzugang (RDP)](vserver-windows-userdp.md), wenn du dabei Hilfe brauchst.
 
 Sobald du auf deinen Server zugegriffen hast, musst du **SteamCMD** einrichten, damit du die notwendigen Dateien für den dedizierten Server herunterladen kannst. SteamCMD ist die **Befehlszeilenversion (CLI)** des Steam-Clients und das Tool, mit dem du ganz einfach eine Reihe von Steam-Workshop- und Dedicated Server-Dateien herunterladen kannst. Lade [SteamCMD von der offiziellen Valve-Website](https://developer.valvesoftware.com/wiki/SteamCMD) oder direkt [hier](https://steamcdn-a.akamaihd.net/client/installer/steamcmd.zip) herunter.
 

@@ -1,6 +1,6 @@
 ---
 id: vserver-linux-php
-title: 'VPS: Installation von PHP'
+title: 'vServer: Installation von PHP'
 description: Informationen darüber, wie man PHP auf deinem Linux-Server von ZAP-Hosting.com installiert - ZAP-Hosting.com Dokumentation
 sidebar_label: PHP installieren
 services:
