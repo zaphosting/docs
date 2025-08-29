@@ -44,7 +44,7 @@ curl -fsSL https://get.docker.com -o get-docker.sh
 sh get-docker.sh
 ```
 
-Eine vollständige Anleitung zum Installationsprozess und zur Nutzung von Docker findest du in unserem [Docker](vserver-Windows-docker.md) Leitfaden.
+Eine vollständige Erklärung zum Installationsprozess und zur Nutzung von Docker findest du in unserer [Docker](dedicated-windows-docker.md) Anleitung.
 
 
 

@@ -1,5 +1,5 @@
 ---
-id: vserver-Windows-nodejs
+id: vserver-windows-nodejs
 title: "VPS: Setup Node.js on Windows"
 description: "Informationen zur Einrichtung von Node.js auf deinem Windows-VPS von ZAP-Hosting – ZAP-Hosting.com Dokumentation"
 sidebar_label: Installiere Node.js
@@ -44,7 +44,7 @@ curl -fsSL https://get.docker.com -o get-docker.sh
 sh get-docker.sh
 ```
 
-Eine vollständige Anleitung zum Installationsprozess und zur Nutzung von Docker findest du in unserem [Docker](vserver-Windows-docker.md) Leitfaden.
+Eine vollständige Anleitung zum Installationsprozess und zur Nutzung von Docker findest du in unserer [Docker](vserver-windows-docker.md) Anleitung.
 
 
 
