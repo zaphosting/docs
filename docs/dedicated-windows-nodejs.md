@@ -1,5 +1,5 @@
 ---
-id: dedicated-Windows-nodejs
+id: dedicated-windows-nodejs
 title: "Dedicated Server: Setup Node.js on Windows"
 description: "Information on how to setup Node.js on your Windows Dedicated Server from ZAP-Hosting - ZAP-Hosting.com documentation"
 sidebar_label: Install Node.js
