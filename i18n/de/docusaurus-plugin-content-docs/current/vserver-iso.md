@@ -1,6 +1,6 @@
 ---
 id: vserver-iso
-title: "VPS: Eine ISO-Datei mounten"
+title: "vServer: Eine ISO-Datei mounten"
 description: Informationen zum Mounten einer ISO-Datei auf deinem vServer von ZAP-Hosting - ZAP-Hosting.com Dokumentation
 sidebar_label: Eigene ISO
 services:
@@ -14,7 +14,7 @@ import SearchableItemList from '@site/src/components/SearchableItemList/Searchab
 import items from '@site/data/lists/vserver-iso-files-de.json';
 
 ## Einführung
-Lust auf noch mehr Freiheit bei der Wahl deines Systems? Neben unseren OS-Templates kannst du natürlich auch eigene ISOs mounten. Das ist ganz easy mit unseren VPS-Produkten. So holst du dir genau das Betriebssystem auf den Server, das du wirklich haben willst!
+Lust auf noch mehr Freiheit bei der Wahl deines Systems? Neben unseren OS-Templates kannst du natürlich auch eigene ISOs mounten. Das ist ganz easy mit unseren vServer-Produkten. So holst du dir genau das Betriebssystem auf den Server, das du wirklich haben willst!
 
 <InlineVoucher />
 
@@ -22,7 +22,7 @@ Lust auf noch mehr Freiheit bei der Wahl deines Systems? Neben unseren OS-Templa
 
 ## Verfügbare ISO-Dateien
 
-Neben unseren vorinstallierten Standard-OS-Templates besteht zusätzlich die Möglichkeit, eigene ISO-Dateien zu mounten. Dadurch stehen dir noch mehr Optionen für die Einrichtung und Nutzung deiner Serverumgebung zur Verfügung. Unsere VPS-Produkte unterstützen derzeit folgende ISO-Dateien:
+Neben unseren vorinstallierten Standard-OS-Templates besteht zusätzlich die Möglichkeit, eigene ISO-Dateien zu mounten. Dadurch stehen dir noch mehr Optionen für die Einrichtung und Nutzung deiner Serverumgebung zur Verfügung. Unsere vServer-Produkte unterstützen derzeit folgende ISO-Dateien:
 
 <SearchableItemList items={items} />
 
@@ -37,7 +37,7 @@ Du vermisst eine bestimmte ISO, die du gerne nutzen würdest? Dann melde dich ei
 
 
 ## ISO-Datei mounten
-Um eine ISO zu mounten, gehst du in deiner VPS-Verwaltung einfach auf **Einstellungen → ISOs**. Dort wählst du die gewünschte ISO-Datei aus, passt anschließend die Boot-Reihenfolge an und startest den Server neu.
+Um eine ISO zu mounten, gehst du in deiner vServer-Verwaltung einfach auf **Einstellungen → ISOs**. Dort wählst du die gewünschte ISO-Datei aus, passt anschließend die Boot-Reihenfolge an und startest den Server neu.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/tszMKbqDSa3AaLy/download)
 

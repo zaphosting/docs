@@ -1,6 +1,6 @@
 ---
 id: vserver-windows-supabase
-title: "VPS: Supabase unter Linux einrichten"
+title: "vServer: Supabase unter Linux einrichten"
 description: Informationen zur Einrichtung von Supabase auf deinem Linux vServer von ZAP-Hosting - ZAP-Hosting.com Dokumentation
 sidebar_label: Supabase installieren
 services:
@@ -144,7 +144,7 @@ docker compose up -d
 
 ## Abschluss und weitere Ressourcen
 
-Glückwunsch! Du hast Supabase jetzt erfolgreich auf deinem VPS installiert und konfiguriert. Wir empfehlen außerdem, einen Blick auf die folgenden Ressourcen zu werfen, die dir zusätzliche Hilfe und Orientierung während deiner Serverkonfiguration bieten können
+Glückwunsch! Du hast Supabase jetzt erfolgreich auf deinem vServer installiert und konfiguriert. Wir empfehlen außerdem, einen Blick auf die folgenden Ressourcen zu werfen, die dir zusätzliche Hilfe und Orientierung während deiner Serverkonfiguration bieten können
 
 - [Supabase.com](https://Supabase.com/) - Offizielle Website
 - [Supabase.com/docs/guides/self-hosting](https://supabase.com/docs/guides/self-hosting) - Supabase-Dokumentation

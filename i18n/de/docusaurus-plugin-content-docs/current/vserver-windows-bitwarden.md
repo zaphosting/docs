@@ -1,7 +1,7 @@
 ---
 id: vserver-windows-bitwarden
 title: "vServer: Bitwarden unter Windows einrichten"
-description: Informationen zur Einrichtung von Bitwarden auf deinem Windows VPS von ZAP-Hosting - ZAP-Hosting.com Dokumentation
+description: Informationen zur Einrichtung von Bitwarden auf deinem Windows vServer von ZAP-Hosting - ZAP-Hosting.com Dokumentation
 sidebar_label: Bitwarden installieren
 services:
   - vserver
@@ -132,7 +132,7 @@ Starte zum Schluss die Instanz mit `.\bitwarden.ps1 -start`. Der erste Start kan
 
 ## Abschluss und weitere Ressourcen
 
-Glückwunsch! Du hast Bitwarden jetzt erfolgreich auf deinem VPS installiert und konfiguriert. Wir empfehlen außerdem, einen Blick auf die folgenden Ressourcen zu werfen. Sie können dir zusätzliche Hilfe und Orientierung bei der Serverkonfiguration geben.
+Glückwunsch! Du hast Bitwarden jetzt erfolgreich auf deinem vServer installiert und konfiguriert. Wir empfehlen außerdem, einen Blick auf die folgenden Ressourcen zu werfen. Sie können dir zusätzliche Hilfe und Orientierung bei der Serverkonfiguration geben.
 
 - [bitwarden.com](https://bitwarden.com/) - Offizielle Website
 - https://bitwarden.com/help/ - Bitwarden Hilfe-Center (Dokumentation)

@@ -1,7 +1,7 @@
 ---
 id: vserver-windows-mythofempires
 title: "vServer: Myth of Empires Dedicated Server Einrichtung"
-description: Informationen zum Einrichten eines Myth of Empires Dedicated Servers auf einem VPS - ZAP-Hosting.com Dokumentation
+description: Informationen zum Einrichten eines Myth of Empires Dedicated Servers auf einem vServer - ZAP-Hosting.com Dokumentation
 sidebar_label: Myth of Empires
 services:
   - vserver
@@ -11,15 +11,15 @@ import YouTube from '@site/src/components/YouTube/YouTube';
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
-Hast du einen Windows VPS und möchtest darauf einen Myth of Empires Dedicated Server installieren? Dann bist du hier genau richtig. In dieser Anleitung erklären wir dir Schritt für Schritt, wie du diesen Dienst auf deinem Server installierst.
+Hast du einen Windows vServer und möchtest darauf einen Myth of Empires Dedicated Server installieren? Dann bist du hier genau richtig. In dieser Anleitung erklären wir dir Schritt für Schritt, wie du diesen Dienst auf deinem Server installierst.
 
-<YouTube videoId="ir3QNvwu7WY" imageSrc="https://screensaver01.zap-hosting.com/index.php/s/8ZC3n4f2tjzmZ56/preview" title="Wie man Myth of Empires Server auf Windows VPS einrichtet!" description="Hast du das Gefühl, dass du etwas besser verstehst, wenn du es in Aktion siehst? Wir haben etwas für dich! Tauche ab in unser Video, welches alles für dich zusammenfasst. Egal, ob du es eilig hast oder einfach nur Informationen auf möglichst verständliche Art und Weise aufnehmen möchtest!"/>
+<YouTube videoId="ir3QNvwu7WY" imageSrc="https://screensaver01.zap-hosting.com/index.php/s/8ZC3n4f2tjzmZ56/preview" title="Wie man Myth of Empires Server auf Windows vServer einrichtet!" description="Hast du das Gefühl, dass du etwas besser verstehst, wenn du es in Aktion siehst? Wir haben etwas für dich! Tauche ab in unser Video, welches alles für dich zusammenfasst. Egal, ob du es eilig hast oder einfach nur Informationen auf möglichst verständliche Art und Weise aufnehmen möchtest!"/>
 
 <InlineVoucher />
 
 ## Vorbereitung
 
-Verbinde dich zunächst mit deinem VPS über Remote Desktop (RDP). Verwende unsere Anleitung [Erstzugang (RDP)](vserver-windows-userdp.md), wenn du Hilfe benötigst.
+Verbinde dich zunächst mit deinem vServer über Remote Desktop (RDP). Verwende unsere Anleitung [Erstzugang (RDP)](vserver-windows-userdp.md), wenn du Hilfe benötigst.
 
 Sobald du auf deinen Server zugegriffen hast, musst du **SteamCMD** einrichten, damit du die notwendigen Dateien für den dedizierten Server herunterladen kannst. SteamCMD ist die **Befehlszeilenversion (CLI)** des Steam-Clients und das Tool, mit dem du ganz einfach eine Reihe von Steam-Workshop- und Dedicated Server-Dateien herunterladen kannst. Lade [SteamCMD von der offiziellen Valve-Website](https://developer.valvesoftware.com/wiki/SteamCMD) oder direkt [hier](https://steamcdn-a.akamaihd.net/client/installer/steamcmd.zip) herunter.
 

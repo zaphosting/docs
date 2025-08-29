@@ -1,7 +1,7 @@
 ---
 id: vserver-linux-bitwarden
 title: "vServer: Bitwarden unter Linux einrichten"
-description: Informationen zur Einrichtung von Bitwarden auf deinem Linux VPS von ZAP-Hosting - ZAP-Hosting.com Dokumentation
+description: Informationen zur Einrichtung von Bitwarden auf deinem Linux vServer von ZAP-Hosting - ZAP-Hosting.com Dokumentation
 sidebar_label: Bitwarden installieren
 services:
   - vserver
@@ -146,7 +146,7 @@ Starte zum Schluss die Instanz mit `./bitwarden.sh start`. Der erste Start kann 
 
 ## Abschluss und weitere Ressourcen
 
-Glückwunsch! Du hast Bitwarden jetzt erfolgreich auf deinem VPS installiert und konfiguriert. Wir empfehlen außerdem, einen Blick auf die folgenden Ressourcen zu werfen. Sie können dir zusätzliche Hilfe und Orientierung bei der Serverkonfiguration geben.
+Glückwunsch! Du hast Bitwarden jetzt erfolgreich auf deinem vServer installiert und konfiguriert. Wir empfehlen außerdem, einen Blick auf die folgenden Ressourcen zu werfen. Sie können dir zusätzliche Hilfe und Orientierung bei der Serverkonfiguration geben.
 
 - [bitwarden.com](https://bitwarden.com/) - Offizielle Website
 - https://bitwarden.com/help/ - Bitwarden Hilfe-Center (Dokumentation)

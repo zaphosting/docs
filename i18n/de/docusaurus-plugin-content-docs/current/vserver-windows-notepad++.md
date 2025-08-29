@@ -1,7 +1,7 @@
 ---
 id: vserver-windows-notepad++
-title: "VPS: Setup Notepad++ on Windows"
-description: "Informationen zur Einrichtung von Notepad++ auf deinem Windows-VPS von ZAP-Hosting - ZAP-Hosting.com Dokumentation"
+title: "vServer: Setup Notepad++ on Windows"
+description: "Informationen zur Einrichtung von Notepad++ auf deinem Windows-vServer von ZAP-Hosting - ZAP-Hosting.com Dokumentation"
 sidebar_label: Installiere Notepad++
 services:
 - vserver
@@ -67,7 +67,7 @@ Diese Einstellungen machen Notepad++ hochgradig anpassbar, egal ob für einfache
 
 ## Abschluss und weitere Ressourcen
 
-Glückwunsch! Du hast Notepad++ jetzt erfolgreich auf deinem VPS installiert und konfiguriert. Wir empfehlen außerdem, einen Blick auf die folgenden Ressourcen zu werfen, die dir zusätzliche Hilfe und Orientierung während deiner Serverkonfiguration bieten können
+Glückwunsch! Du hast Notepad++ jetzt erfolgreich auf deinem vServer installiert und konfiguriert. Wir empfehlen außerdem, einen Blick auf die folgenden Ressourcen zu werfen, die dir zusätzliche Hilfe und Orientierung während deiner Serverkonfiguration bieten können
 
 - [notepad-plus-plus.org/](https://notepad-plus-plus.org/) – Offizielle Website
 

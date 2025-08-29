@@ -13,7 +13,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 ## Einführung
 Hast du einen Windows vServer und möchtest darauf einen ARK: Survival Ascended Dedizierten Server installieren? Du bist hier genau richtig. In dieser Anleitung erklären wir dir Schritt für Schritt den Prozess der Installation dieses Dienstes auf deinem Server.
 
-<YouTube videoId="NvaXYjLSCn8" imageSrc="https://screensaver01.zap-hosting.com/index.php/s/StbdM4WiSSoBGij/preview" title="ARK: Survival Ascended Dedicated Server Setup on Windows VPS" description="Feel like you understand better when you see things in action? We’ve got you! Dive into our video that breaks it all down for you. Whether you're in a rush or just prefer to soak up information in the most engaging way possible!"/>
+<YouTube videoId="NvaXYjLSCn8" imageSrc="https://screensaver01.zap-hosting.com/index.php/s/StbdM4WiSSoBGij/preview" title="ARK: Survival Ascended Dedicated Server Setup on Windows vServer" description="Feel like you understand better when you see things in action? We’ve got you! Dive into our video that breaks it all down for you. Whether you're in a rush or just prefer to soak up information in the most engaging way possible!"/>
 
 <InlineVoucher />
 
@@ -151,13 +151,13 @@ Wenn Serverbesitzer vor dem 18. November 2023 die Zertifikatsdatei r2m02.cer ins
 
 ## Starten und Verbinden mit deinem Server
 
-Jetzt ist es an der Zeit, deinen Server zu starten. Damit der Server erfolgreich starten kann, musst du [Microsoft Visual C++ 2015 Redistributable](https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170#visual-studio-2015-2017-2019-and-2022) auf deinem Windows VPS installieren.
+Jetzt ist es an der Zeit, deinen Server zu starten. Damit der Server erfolgreich starten kann, musst du [Microsoft Visual C++ 2015 Redistributable](https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170#visual-studio-2015-2017-2019-and-2022) auf deinem Windows vServer installieren.
 
 :::info
-Du musst [Microsoft Visual C++ 2015 Redistributable](https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170#visual-studio-2015-2017-2019-and-2022) auf deinem Windows VPS installieren, bevor du versuchst, den Server zu starten, wenn du es noch nicht hast, da es eine Abhängigkeit ist. Dein Server startet möglicherweise nicht, wenn du es nicht installiert hast.
+Du musst [Microsoft Visual C++ 2015 Redistributable](https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170#visual-studio-2015-2017-2019-and-2022) auf deinem Windows vServer installieren, bevor du versuchst, den Server zu starten, wenn du es noch nicht hast, da es eine Abhängigkeit ist. Dein Server startet möglicherweise nicht, wenn du es nicht installiert hast.
 :::
 
-Sobald du sie auf deinem VPS installiert hast, kannst du den Server starten, indem du die Datei **start-ark.bat** ausführst, die du zuvor erstellt hast.
+Sobald du sie auf deinem vServer installiert hast, kannst du den Server starten, indem du die Datei **start-ark.bat** ausführst, die du zuvor erstellt hast.
 
 Dadurch wird die Konsole des Servers in einer Eingabeaufforderung geöffnet und der Startvorgang beginnt. Wenn alles wie erwartet abläuft, wird dein Server in der Serverliste angezeigt. Alternativ kannst du dich auch direkt mit dem Server verbinden, indem du die Konsole im Spiel öffnest und "open [deine_ip_address]:7777" eingibst.
 

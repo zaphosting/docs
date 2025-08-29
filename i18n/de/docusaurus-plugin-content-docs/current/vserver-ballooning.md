@@ -1,7 +1,7 @@
 ---
 id: vserver-ballooning
 title: "vServer: Ballooning - Dynamische Speicherverwaltung in virtuellen Serverumgebungen"
-description: Informationen zum Ballooning und zur dynamischen Speicherverwaltung für VPS bei ZAP-Hosting - ZAP-Hosting.com Dokumentation
+description: Informationen zum Ballooning und zur dynamischen Speicherverwaltung für vServer bei ZAP-Hosting - ZAP-Hosting.com Dokumentation
 sidebar_label: Ballooning
 services:
   - vserver

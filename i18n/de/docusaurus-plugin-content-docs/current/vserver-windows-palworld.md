@@ -12,15 +12,15 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
 
-Du hast einen Windows VPS und möchtest darauf einen Palworld Dedicated Server installieren? Dann bist du hier genau richtig. In dieser Anleitung erklären wir dir Schritt für Schritt, wie du diesen Dienst auf deinem Server installierst.
+Du hast einen Windows vServer und möchtest darauf einen Palworld Dedicated Server installieren? Dann bist du hier genau richtig. In dieser Anleitung erklären wir dir Schritt für Schritt, wie du diesen Dienst auf deinem Server installierst.
 
-<YouTube videoId="thn0wDE5LDg" imageSrc="https://screensaver01.zap-hosting.com/index.php/s/RsaL8W4jdoqHcft/preview" title="How To Setup Palworld Dedicated Server on Windows VPS!" description="Feel like you understand better when you see things in action? We’ve got you! Dive into our video that breaks it all down for you. Whether you're in a rush or just prefer to soak up information in the most engaging way possible!"/>
+<YouTube videoId="thn0wDE5LDg" imageSrc="https://screensaver01.zap-hosting.com/index.php/s/RsaL8W4jdoqHcft/preview" title="How To Setup Palworld Dedicated Server on Windows vServer!" description="Feel like you understand better when you see things in action? We’ve got you! Dive into our video that breaks it all down for you. Whether you're in a rush or just prefer to soak up information in the most engaging way possible!"/>
 
 <InlineVoucher />
 
 ## Vorbereitung
 
-Verbinde dich zunächst über Remote Desktop (RDP) mit deinem VPS. Verwende unsere Anleitung [Erstzugang (RDP)](vserver-windows-userdp.md), wenn du Hilfe benötigst.
+Verbinde dich zunächst über Remote Desktop (RDP) mit deinem vServer. Verwende unsere Anleitung [Erstzugang (RDP)](vserver-windows-userdp.md), wenn du Hilfe benötigst.
 
 Sobald du auf deinen Server zugegriffen hast, musst du **SteamCMD** einrichten, damit du die notwendigen Dateien für den dedizierten Server herunterladen kannst. SteamCMD ist die **Befehlszeilenversion (CLI)** des Steam-Clients und das Tool, mit dem du ganz einfach eine Reihe von Steam-Workshop- und Dedicated Server-Dateien herunterladen kannst. Lade [SteamCMD von der offiziellen Valve-Website](https://developer.valvesoftware.com/wiki/SteamCMD) oder direkt [hier](https://steamcdn-a.akamaihd.net/client/installer/steamcmd.zip) herunter.
 
@@ -148,11 +148,11 @@ Du solltest auch einen Servernamen festlegen, der leicht gefunden werden kann. W
 
 ## Starten und Verbinden mit deinem Server
 
-Jetzt ist es an der Zeit, deinen Server zu starten. Möglicherweise musst du [DirectX Runtime](https://www.microsoft.com/en-gb/download/details.aspx?id=35) installieren, wenn du es nicht bereits auf deinem Windows VPS hast.
+Jetzt ist es an der Zeit, deinen Server zu starten. Möglicherweise musst du [DirectX Runtime](https://www.microsoft.com/en-gb/download/details.aspx?id=35) installieren, wenn du es nicht bereits auf deinem Windows vServer hast.
 
 Gehe in das Basisverzeichnis deines Palworld-Servers und starte **PalServer.exe**, um den Startvorgang zu beginnen. Dadurch wird die Konsole des Servers in einer Eingabeaufforderung geöffnet und der Startvorgang beginnt. Wenn alles wie erwartet abläuft, wird dein Server in der Serverliste sichtbar sein. Alternativ kannst du dich auch direkt verbinden, indem du in der unteren Suchleiste der Serverliste nach `[deine_ip_address]:8211`.
 
-Du hast Palworld erfolgreich auf deinem Windows VPS installiert.
+Du hast Palworld erfolgreich auf deinem Windows vServer installiert.
 
 
 ## Abschluss

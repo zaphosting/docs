@@ -71,7 +71,7 @@ Sobald die Adresse erreicht ist, wirst du auf die Plex Login-Seite weitergeleite
 
 ## Abschluss und weitere Ressourcen
 
-Glückwunsch. Du hast Plex jetzt erfolgreich auf deinem VPS installiert und konfiguriert. Wir empfehlen außerdem, einen Blick auf die folgenden Ressourcen zu werfen, die dir zusätzliche Hilfe und Orientierung während deiner Serverkonfiguration bieten können
+Glückwunsch. Du hast Plex jetzt erfolgreich auf deinem vServer installiert und konfiguriert. Wir empfehlen außerdem, einen Blick auf die folgenden Ressourcen zu werfen, die dir zusätzliche Hilfe und Orientierung während deiner Serverkonfiguration bieten können
 
 - [Plex.com](https://Plex.com/) - Offizielle Website
 - [support.plex.tv/articles/](https://support.plex.tv/articles/) - Plex Help Center (Dokumentation)

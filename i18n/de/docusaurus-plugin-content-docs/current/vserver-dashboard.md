@@ -1,7 +1,7 @@
 ---
 id: vserver-dashboard
 title: "vServer: Dashboard Übersicht"
-description: Informationen über das Dashboard eines VPS-Produkts von ZAP-Hosting - ZAP-Hosting.com Dokumentation
+description: Informationen über das Dashboard eines vServer-Produkts von ZAP-Hosting - ZAP-Hosting.com Dokumentation
 sidebar_label: Dashboard
 services:
   - vserver
@@ -20,13 +20,13 @@ Nachdem du diese Anleitung durchgegangen bist, wirst du problemlos in der Lage s
 
 ## Produktverwaltung
 
-Im Bereich **Produktverwaltung** findest du alle notwendigen Seiten für die Verwaltung deines VPS. Die Optionen für die Verwaltung deines VPS sind unten im Detail aufgeführt.
+Im Bereich **Produktverwaltung** findest du alle notwendigen Seiten für die Verwaltung deines vServer. Die Optionen für die Verwaltung deines vServer sind unten im Detail aufgeführt.
 
 
 
 ### Dashboard
 
-Das Dashboard bietet eine zentrale Übersicht über alle wichtigen Informationen zur VPS. Angezeigt werden unter anderem der aktuelle Status, die Serveradresse, der Hostname, das installierte Betriebssystem, die Systemauslastung inklusive CPU- und RAM-Nutzung sowie der Netzwerktraffic. Diese Übersicht unterstützt eine effektive Überwachung und Verwaltung der virtuellen Serverumgebung.
+Das Dashboard bietet eine zentrale Übersicht über alle wichtigen Informationen zur vServer. Angezeigt werden unter anderem der aktuelle Status, die Serveradresse, der Hostname, das installierte Betriebssystem, die Systemauslastung inklusive CPU- und RAM-Nutzung sowie der Netzwerktraffic. Diese Übersicht unterstützt eine effektive Überwachung und Verwaltung der virtuellen Serverumgebung.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/JfJKCwtG9opJZ2H/preview)
 
@@ -50,7 +50,7 @@ Behalte alle Verwaltungsaufgaben und Systemereignisse an einem Ort im Auge. Das 
 
 ## Einstellungen
 
-Im Bereich **Einstellungen** findest du alle notwendigen Seiten für die Konfiguration deines VPS. Die verfügbaren Optionen für die Konfiguration deines VPS sind unten im Detail aufgeführt.
+Im Bereich **Einstellungen** findest du alle notwendigen Seiten für die Konfiguration deines vServer. Die verfügbaren Optionen für die Konfiguration deines vServer sind unten im Detail aufgeführt.
 
 ### Einstellungen
 
@@ -78,7 +78,7 @@ Du kannst neue Gameserver oder Voiceserver erstellen, wann immer du sie brauchst
 
 ### rDNS bearbeiten
 
-Passen den Reverse-DNS-Eintrag (PTR-Record) für die IP-Adresse deines Servers so an, dass er auf den richtigen Hostnamen zeigt. Ein richtig konfiguriertes rDNS hilft sicherzustellen, dass der VPS-Name deines Servers korrekt aufgelöst wird und ist besonders wichtig für den Betrieb eines Mailservers. Ohne einen gültigen rDNS können ausgehende E-Mails als Spam markiert werden oder nicht zuverlässig zugestellt werden.
+Passen den Reverse-DNS-Eintrag (PTR-Record) für die IP-Adresse deines Servers so an, dass er auf den richtigen Hostnamen zeigt. Ein richtig konfiguriertes rDNS hilft sicherzustellen, dass der vServer-Name deines Servers korrekt aufgelöst wird und ist besonders wichtig für den Betrieb eines Mailservers. Ohne einen gültigen rDNS können ausgehende E-Mails als Spam markiert werden oder nicht zuverlässig zugestellt werden.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/jmG7RJHoA22dtpx/preview)
 
@@ -94,7 +94,7 @@ Zeige dir alle deinem Server zugewiesenen IP-Adressen auf einen Blick an. Diese 
 
 ## Werkzeuge
 
-Der Bereich **Werkzeuge** enthält alle wesentlichen Werkzeuge zur Verwaltung des VPS. Die verfügbaren Optionen zur Konfiguration des Servers werden im Folgenden detailliert beschrieben und ermöglichen eine genaue Anpassung an die jeweiligen Anforderungen.
+Der Bereich **Werkzeuge** enthält alle wesentlichen Werkzeuge zur Verwaltung des vServer. Die verfügbaren Optionen zur Konfiguration des Servers werden im Folgenden detailliert beschrieben und ermöglichen eine genaue Anpassung an die jeweiligen Anforderungen.
 
 ### VNC-Konsole
 

@@ -1,7 +1,7 @@
 ---
 id: vserver-linux-valheim
 title: "vServer: Valheim Dedicated Server Linux Setup"
-description: Informationen zum Einrichten eines Valheim Dedicated Servers auf einem Linux VPS von ZAP-Hosting - ZAP-Hosting.com Dokumentation
+description: Informationen zum Einrichten eines Valheim Dedicated Servers auf einem Linux vServer von ZAP-Hosting - ZAP-Hosting.com Dokumentation
 sidebar_label: Valheim
 services:
   - vserver
@@ -11,17 +11,17 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
 
-Hast du einen Linux VPS und möchtest den Valheim Dedicated Server Dienst darauf installieren? Dann bist du hier genau richtig. In dieser Anleitung erklären wir dir Schritt für Schritt, wie du diesen Dienst mit SteamCMD auf deinem Linux-Server installierst. Wir verwenden in den Beispielen Ubuntu, aber der Prozess sollte für andere Distributionen sehr ähnlich sein.
+Hast du einen Linux vServer und möchtest den Valheim Dedicated Server Dienst darauf installieren? Dann bist du hier genau richtig. In dieser Anleitung erklären wir dir Schritt für Schritt, wie du diesen Dienst mit SteamCMD auf deinem Linux-Server installierst. Wir verwenden in den Beispielen Ubuntu, aber der Prozess sollte für andere Distributionen sehr ähnlich sein.
 
 :::tip
-Wusstest du, dass du unser **ZAP GS/TS3 Interface** direkt auf deinem VPS oder Root-Server installieren kannst? Damit kannst du mit nur wenigen Klicks Gameserver-Dienste einrichten, die direkt in dein ZAP-Hosting-Dashboard integriert sind! Erfahre mehr über das [GS/TS3 Interface](vserver-linux-gs-interface.md).
+Wusstest du, dass du unser **ZAP GS/TS3 Interface** direkt auf deinem vServer installieren kannst? Damit kannst du mit nur wenigen Klicks Gameserver-Dienste einrichten, die direkt in dein ZAP-Hosting-Dashboard integriert sind! Erfahre mehr über das [GS/TS3 Interface](vserver-linux-gs-interface.md).
 :::
 
 <InlineVoucher />
 
 ## Vorbereitung
 
-Verbinde dich zunächst über SSH mit deinem VPS oder Root-Server. Benutze unsere Anleitung [Erstzugriff (SSH)](vserver-linux-ssh.md), wenn du dabei Hilfe benötigst.
+Verbinde dich zunächst über SSH mit deinem vServer. Benutze unsere Anleitung [Erstzugriff (SSH)](vserver-linux-ssh.md), wenn du dabei Hilfe benötigst.
 
 Du musst auch eine Ersteinrichtung für SteamCMD vornehmen, wenn du es zum ersten Mal auf deinem Linux-Server verwendest. Bitte benutze unsere [SteamCMD einrichten](vserver-linux-steamcmd.md) Anleitung und stelle sicher, dass SteamCMD vollständig eingerichtet ist, bevor du fortfährst.
 
@@ -71,7 +71,7 @@ Nach der Installation kannst du die Windows-Version stattdessen mit folgendem Be
 
 ## Abschluss
 
-Herzlichen Glückwunsch, du hast den Valheim-Server erfolgreich auf deinem VPS installiert und konfiguriert! Als nächsten Schritt empfehlen wir dir einen Blick in unsere Anleitung [Linux Dienst einrichten](vserver-linux-create-gameservice.md), in der du deinen neuen dedizierten Gameserver als Dienst einrichtest. Dies bietet verschiedene Vorteile, wie z. B. den automatischen Start des Servers beim Hochfahren, automatische Server-Updates, einfache Verwaltung und Zugriff auf Logs und vieles mehr!
+Herzlichen Glückwunsch, du hast den Valheim-Server erfolgreich auf deinem vServer installiert und konfiguriert! Als nächsten Schritt empfehlen wir dir einen Blick in unsere Anleitung [Linux Dienst einrichten](vserver-linux-create-gameservice.md), in der du deinen neuen dedizierten Gameserver als Dienst einrichtest. Dies bietet verschiedene Vorteile, wie z. B. den automatischen Start des Servers beim Hochfahren, automatische Server-Updates, einfache Verwaltung und Zugriff auf Logs und vieles mehr!
 
 Wenn du weitere Fragen oder Probleme hast, wende dich bitte an unser Support-Team, das dir jeden Tag zur Verfügung steht!
 

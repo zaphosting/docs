@@ -1,7 +1,7 @@
 ---
 id: vserver-windows-port
 title: "vServer: Verwaltung von Windows Defender Firewall-Regeln"
-description: Informationen zur Verwaltung von Windows Defender Firewall-Regeln, einschließlich Portweiterleitung, auf deinem Windows VPS von ZAP-Hosting - ZAP-Hosting.com Dokumentation
+description: Informationen zur Verwaltung von Windows Defender Firewall-Regeln, einschließlich Portweiterleitung, auf deinem Windows vServer von ZAP-Hosting - ZAP-Hosting.com Dokumentation
 sidebar_label: Portweiterleitung (Firewall)
 services:
   - vserver
