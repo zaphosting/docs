@@ -11,13 +11,13 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
 
-Hast du einen Windows vServer oder Root-Server und möchtest den open.mp Dedicated Server Service darauf installieren? Dann bist du hier richtig. In dieser Anleitung erklären wir dir Schritt für Schritt, wie du diesen Service auf deinem Server installierst.
+Hast du einen Windows vServer und möchtest den open.mp Dedicated Server Service darauf installieren? Dann bist du hier richtig. In dieser Anleitung erklären wir dir Schritt für Schritt, wie du diesen Service auf deinem Server installierst.
 
 <InlineVoucher />
 
 ## Vorbereitung
 
-Stelle zunächst über Remote Desktop (RDP) eine Verbindung zu deinem vServer oder Root-Server her. Verwende unseren Anleitung [Erstzugang (RDP)](vserver-windows-userdp.md), wenn du dabei Hilfe benötigst.
+Stelle zunächst über Remote Desktop (RDP) eine Verbindung zu deinem vServer her. Verwende unseren Anleitung [Erstzugang (RDP)](vserver-windows-userdp.md), wenn du dabei Hilfe benötigst.
 
 Sobald du auf deinen Server zugegriffen hast, lade die neueste Version aus dem [open.mp GitHub Repository](https://github.com/openmultiplayer/open.mp/releases) herunter. Achte darauf, dass du die **win-x86**-Version auswählst.
 

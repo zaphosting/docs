@@ -11,13 +11,13 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
 
-Hast du einen Windows vServer oder Root-Server und möchtest den RageMP Dedicated Server Service darauf installieren? Dann bist du hier richtig. In diesem Anleitung erklären wir dir Schritt für Schritt, wie du diesen Service auf deinem Server installierst.
+Hast du einen Windows vServer und möchtest den RageMP Dedicated Server Service darauf installieren? Dann bist du hier richtig. In diesem Anleitung erklären wir dir Schritt für Schritt, wie du diesen Service auf deinem Server installierst.
 
 <InlineVoucher />
 
 ## Vorbereitung
 
-Stelle zunächst über Remote Desktop (RDP) eine Verbindung zu deinem vServer oder Root-Server her. Verwende unseren Anleitung [Erstzugang (RDP)](vserver-windows-userdp.md), wenn du dabei Hilfe benötigst.
+Stelle zunächst über Remote Desktop (RDP) eine Verbindung zu deinem vServer her. Verwende unseren Anleitung [Erstzugang (RDP)](vserver-windows-userdp.md), wenn du dabei Hilfe benötigst.
 
 Sobald du auf deinen Server zugegriffen hast, beginne mit der Installation von [Microsoft Visual C++ Redistributable 2017](https://aka.ms/vs/15/release/VC_redist.x64.exe), da dies eine Voraussetzung für RageMP ist. Stelle sicher, dass dies installiert ist, bevor du fortfährst. Wenn du dir nicht sicher bist, ob du es bereits installiert hast, führe das Installationsprogramm aus und es wird dir während des Setups mitgeteilt.
 

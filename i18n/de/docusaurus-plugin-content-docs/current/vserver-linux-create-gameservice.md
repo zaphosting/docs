@@ -17,7 +17,7 @@ Dienste sind ein fester Bestandteil von Linux und bezeichnen einen Prozess oder 
 
 ## Vorbereitung
 
-Verbinde dich zunächst über SSH mit deinem vServer oder Root-Server. Nutze unsere Anleitung [Erstzugriff (SSH)](vserver-linux-ssh.md), wenn du dabei Hilfe brauchst.
+Verbinde dich zunächst über SSH mit deinem vServer. Nutze unsere Anleitung [Erstzugriff (SSH)](vserver-linux-ssh.md), wenn du dabei Hilfe brauchst.
 
 Du solltest auch eine unserer speziellen Anleitungen für Gameserver in diesem Abschnitt befolgen, um einen Gameserver auf deinem Linux-System zu installieren und einzurichten. In dieser Anleitung verwenden wir den [Palworld Dedicated Server](vserver-linux-palworld.md) als Beispiel, aber die Anweisungen können für alle unsere Anleitungen angepasst werden.
 

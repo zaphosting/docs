@@ -17,7 +17,7 @@ SteamCMD ist ein unverzichtbares Tool, das für die Installation von dedizierten
 
 ## Vorbereitung
 
-Verbinde dich zunächst über SSH mit deinem vServer oder Root-Server. Verwende unsere Anleitung [Erstzugriff (SSH)](vserver-linux-ssh.md), wenn du dabei Hilfe brauchst.
+Verbinde dich zunächst über SSH mit deinem vServer. Verwende unsere Anleitung [Erstzugriff (SSH)](vserver-linux-ssh.md), wenn du dabei Hilfe brauchst.
 
 ## SteamCMD installieren
 
