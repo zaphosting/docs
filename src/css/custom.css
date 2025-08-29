@@ -75,8 +75,9 @@ table {
   display: table;
 }
 
-pre code {
-  border: 1px solid lightgrey;
+pre {
+    border: 1px solid lightgrey;
+      max-height: 500px;
 }
 
 /* smaller edit button */
