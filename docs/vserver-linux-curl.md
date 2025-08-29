@@ -4,7 +4,7 @@ title: "VPS: Setup cURL on Linux"
 description: Information on how to setup cURL on your Linux VPS from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Install cURL
 services:
-  - VPS
+  - vserver
 ---
 
 import Tabs from '@theme/Tabs';

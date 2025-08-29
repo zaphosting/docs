@@ -216,7 +216,7 @@ Es ist wichtig, dass die Werte durch ein Komma `,` getrennt sind, aber du darfst
 
 Starte deinen Server, verbinde dich mit ihm und überprüfe, ob die Addons korrekt installiert wurden. Teste die neuen Funktionen oder Ressourcen, um sicherzustellen, dass alles wie erwartet funktioniert. Falls etwas nicht wie geplant funktioniert, überprüfe die Schritte erneut und stelle sicher, dass die Dateien korrekt hochgeladen wurden, und suche nach Fehlern in der Serverkonsole.
 
-## Fazit
+## Abschluss
 
 Das Installieren von Addons auf deinem Minecraft Bedrock Server ist eine großartige Möglichkeit, das Spielerlebnis zu erweitern und neue Inhalte hinzuzufügen. Mit dieser Anleitung kannst du ganz einfach Addons installieren und deinen Server anpassen. Für weitere Fragen oder Hilfe zögere bitte nicht, unser Support-Team zu kontaktieren, das dir täglich zur Verfügung steht! 🙂
 

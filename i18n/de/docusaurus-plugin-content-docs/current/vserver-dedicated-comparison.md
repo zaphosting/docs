@@ -43,7 +43,7 @@ Die folgende Tabelle zeigt einen technischen Vergleich der drei Produktkategorie
 | Ressourcen-Sharing         | ✓              | ✗                      |
 | Betriebssysteme            | Linux, Windows | Linux, Windows, Custom |
 
-## Fazit
+## Abschluss
 
 Ein vServer ist eine hervorragende Wahl, wenn du nach einem kostengünstigen und flexiblen Server mit planbarer Leistung suchst – ideal für Webseiten, kleinere Gameserver, Bots oder Anwendungen mit moderatem Bedarf. Die zugewiesene Leistung ist zuverlässig und klar definiert.
 
