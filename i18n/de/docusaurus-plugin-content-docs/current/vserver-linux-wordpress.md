@@ -54,7 +54,7 @@ Nachdem du die Abhängigkeiten installiert hast, solltest du ein paar kleine Sch
 
 Zuerst musst du die Firewall so einrichten, dass der Apache-Webserver mit dem Internet kommunizieren kann und alles funktioniert. Es ist wichtig, dass die richtigen Firewall-Regeln erstellt werden, damit der Webserver über das Internet erreichbar ist.
 
-In diesem Beispiel verwenden wir die **UFW-Firewall**, da Apache dafür eine registrierte Anwendung hat. Wenn du eine andere Firewall verwendest, musst du sicherstellen, dass Port 80 (HTTP) durch die Firewall zugelassen ist. Mehr über Firewalls in Linux erfährst du in unserem Leitfaden [Firewall verwalten](vserver-linux-firewall.md).
+In diesem Beispiel verwenden wir die **UFW-Firewall**, da Apache dafür eine registrierte Anwendung hat. Wenn du eine andere Firewall verwendest, musst du sicherstellen, dass Port 80 (HTTP) durch die Firewall zugelassen ist. Mehr über Firewalls in Linux erfährst du in unserer [Firewall verwalten](vserver-linux-firewall.md) Anleitung.
 
 Stelle sicher, dass die UFW-Firewall aktiviert ist und dass eine Regel für SSH erstellt wurde.
 ```
