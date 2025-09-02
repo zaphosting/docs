@@ -1,7 +1,7 @@
 ---
 id: dedicated-linux-dods
 title: "Dedicated Server: Day of Defeat: Source Dedicated Server Linux Setup"
-description: Informationen zur Einrichtung eines Day of Defeat: Source Dedicated Servers auf einem Linux VPS von ZAP Hosting – ZAP Hosting.com Dokumentation
+description: "Informationen zur Einrichtung eines Day of Defeat: Source Dedicated Servers auf einem Linux VPS von ZAP Hosting – ZAP Hosting.com Dokumentation"
 sidebar_label: "Day of Defeat: Source"
 services:
   - vserver

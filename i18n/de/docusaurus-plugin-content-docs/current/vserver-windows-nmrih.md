@@ -1,8 +1,8 @@
 ---
 id: vserver-windows-nmrih
 title: "VPS: No More Room In Hell Dedicated Server Windows Setup"
-description: Informationen zur Einrichtung eines Counter Strike 2 Dedicated Servers auf einem Windows VPS von ZAP Hosting – ZAP Hosting.com Dokumentation
-sidebar_label: No More Room In Hell
+description: "Informationen zur Einrichtung eines Counter Strike 2 Dedicated Servers auf einem Windows VPS von ZAP Hosting – ZAP Hosting.com Dokumentation"
+sidebar_label: "No More Room In Hell"
 services:
   - vserver
 ---

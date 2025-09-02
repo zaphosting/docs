@@ -1,8 +1,8 @@
 ---
 id: vserver-linux-nmrih
 title: "VPS: No More Room In Hell Dedicated Server Linux Setup"
-description: Informationen zur Einrichtung eines Counter-Strike 2 Dedicated Servers auf einem Linux VPS von ZAP Hosting – ZAP Hosting.com Dokumentation
-sidebar_label: No More Room In Hell
+description: "Informationen zur Einrichtung eines Counter-Strike 2 Dedicated Servers auf einem Linux VPS von ZAP Hosting – ZAP Hosting.com Dokumentation"
+sidebar_label: "No More Room In Hell"
 services:
   - vserver
 ---

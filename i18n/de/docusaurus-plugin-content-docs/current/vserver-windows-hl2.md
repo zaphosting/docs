@@ -1,8 +1,8 @@
 ---
 id: vserver-windows-hl2
 title: "VPS: Half-Life 2 Dedicated Server Windows Setup"
-description: Informationen zur Einrichtung eines Counter Strike 2 Dedicated Servers auf einem Windows VPS von ZAP Hosting – ZAP Hosting.com Dokumentation
-sidebar_label: Half-Life 2
+description: "Informationen zur Einrichtung eines Counter Strike 2 Dedicated Servers auf einem Windows VPS von ZAP Hosting – ZAP Hosting.com Dokumentation"
+sidebar_label: "Half-Life 2"
 services:
   - vserver
 ---

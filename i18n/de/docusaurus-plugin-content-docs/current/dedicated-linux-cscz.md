@@ -1,8 +1,8 @@
 ---
 id: dedicated-linux-cscz
 title: "Dedicated Server: Counter-Strike: Condition Zero Dedicated Server Linux Setup"
-description: Informationen zur Einrichtung eines Counter-Strike 2 Dedicated Servers auf einem Linux VPS von ZAP Hosting – ZAP Hosting.com Dokumentation
-sidebar_label: Counter-Strike: Condition Zero
+description: "Informationen zur Einrichtung eines Counter-Strike: Condition Zero Dedicated Servers auf einem Linux VPS von ZAP Hosting – ZAP Hosting.com Dokumentation"
+sidebar_label: "Counter-Strike: Condition Zero"
 services:
   - vserver
 ---
@@ -10,7 +10,7 @@ services:
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
-Du hast einen Linux VPS und möchtest darauf den Counter Strike 2 Dedicated Server installieren? Dann bist du hier richtig. In dieser Anleitung erläutern wir Schritt für Schritt die Installation dieses Dienstes auf deinem Linux Server mit SteamCMD. In den Beispielen verwenden wir Ubuntu, der Ablauf ist jedoch bei anderen Distributionen sehr ähnlich.
+Du hast einen Linux VPS und möchtest darauf den Counter-Strike: Condition Zero Dedicated Server installieren? Dann bist du hier richtig. In dieser Anleitung erläutern wir Schritt für Schritt die Installation dieses Dienstes auf deinem Linux Server mit SteamCMD. In den Beispielen verwenden wir Ubuntu, der Ablauf ist jedoch bei anderen Distributionen sehr ähnlich.
 
 :::tip
 Wusstest du, dass du unser **ZAP GS/TS3 Interface** direkt auf deinem VPS installieren kannst? So richtest du Gameserver Dienste mit direkter Integration in dein ZAP Hosting Dashboard mit nur wenigen Klicks ein! Mehr dazu im [GS/TS3 Interface](dedicated-linux-gs-interface.md).
@@ -39,7 +39,7 @@ Bitte warte, bis der Download abgeschlossen ist. Bei größeren Spielen kann das
 
 ## Konfiguration
 
-An diesem Punkt ist die Grundinstallation deines Counter Strike 2 Servers abgeschlossen. Weitere Servereinstellungen kannst du durch direktes Bearbeiten der Start /Konfigurationsdateien vornehmen.
+An diesem Punkt ist die Grundinstallation deines Counter-Strike: Condition Zero Servers abgeschlossen. Weitere Servereinstellungen kannst du durch direktes Bearbeiten der Start /Konfigurationsdateien vornehmen.
 
 Wechsle in dein Hauptverzeichnis. Navigiere darin in das Verzeichnis `cfg` und öffne die Datei `server.cfg`. Dort kannst du Serveroptionen anpassen.
 ```
@@ -58,7 +58,7 @@ In der Konsole sollten nun Protokolle erscheinen, die einen erfolgreichen Start 
 
 ## Abschluss
 
-Glückwunsch, du hast den Counter Strike 2 Server auf deinem VPS erfolgreich installiert und konfiguriert! Als nächsten Schritt empfehlen wir unsere Anleitung [Linux Dienst einrichten](dedicated-linux-create-gameservice.md). Diese erklärt, wie du deinen neuen Dedicated Gameserver als Dienst betreibst. Vorteile: automatischer Start beim Booten, automatische Server Updates, einfache Verwaltung und Zugriff auf Logs und vieles mehr!
+Glückwunsch, du hast den Counter-Strike: Condition Zero Server auf deinem VPS erfolgreich installiert und konfiguriert! Als nächsten Schritt empfehlen wir unsere Anleitung [Linux Dienst einrichten](dedicated-linux-create-gameservice.md). Diese erklärt, wie du deinen neuen Dedicated Gameserver als Dienst betreibst. Vorteile: automatischer Start beim Booten, automatische Server Updates, einfache Verwaltung und Zugriff auf Logs und vieles mehr!
 
 Für weitere Fragen oder Unterstützung wende dich bitte an unser Support Team, das täglich für dich da ist! 🙂
 

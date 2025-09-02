@@ -1,8 +1,8 @@
 ---
 id: dedicated-windows-cs16
 title: "Dedicated Server: Counter-Strike 1.6 Dedicated Server Windows Setup"
-description: Informationen zur Einrichtung eines Counter Strike 1.6 Dedicated Servers auf einem Windows VPS von ZAP Hosting – ZAP Hosting.com Dokumentation
-sidebar_label: Counter-Strike 1.6
+description: "Informationen zur Einrichtung eines Counter Strike 1.6 Dedicated Servers auf einem Windows VPS von ZAP Hosting – ZAP Hosting.com Dokumentation"
+sidebar_label: "Counter-Strike 1.6"
 services:
   - vserver
 ---

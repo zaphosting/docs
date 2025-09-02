@@ -1,8 +1,8 @@
 ---
 id: vserver-linux-cs2
 title: "VPS: Counter-Strike 2 Dedicated Server Linux Setup"
-description: Informationen zur Einrichtung eines Counter-Strike 2 Dedicated Servers auf einem Linux VPS von ZAP Hosting – ZAP Hosting.com Dokumentation
-sidebar_label: Counter-Strike 2
+description: "Informationen zur Einrichtung eines Counter-Strike 2 Dedicated Servers auf einem Linux VPS von ZAP Hosting – ZAP Hosting.com Dokumentation"
+sidebar_label: "Counter-Strike 2"
 services:
   - vserver
 ---
