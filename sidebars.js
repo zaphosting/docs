@@ -3863,7 +3863,7 @@ const sidebars = {
     },
     'vserver-introduction',
     'vserver-dashboard',
-    'vserver-iso',
+
     'vserver-reset',
     'vserver-vnc',
     'vserver-rescue',
@@ -3876,6 +3876,19 @@ const sidebars = {
         'vserver-network-analysis-winmtr',
       ]
     },
+    {
+      type: 'html',
+      className: 'sidebar-title',
+      value: (() => {
+        switch (process.env.DOCUSAURUS_CURRENT_LOCALE) {
+          case "de": return "Custom ISOs";
+          default: return "Custom ISOs";
+        }
+      })(),
+      defaultStyle: true,
+    },
+    "vserver-iso",
+    "vserver-iso-windows",
     {
       type: 'html',
       className: 'sidebar-title',
