@@ -2,7 +2,7 @@
 id: vserver-iso
 title: "vServer: Eine ISO-Datei mounten"
 description: Informationen zum Mounten einer ISO-Datei auf deinem vServer von ZAP-Hosting - ZAP-Hosting.com Dokumentation
-sidebar_label: Eigene ISO
+sidebar_label: ISO mounten
 services:
   - vserver
 ---
