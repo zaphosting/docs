@@ -59,7 +59,7 @@ Ein Beispiel für einen guten Titel einer Anleitung, die sich auf das Produkt VP
 
 Die Einleitung deiner Anleitung sollte relativ kurz und prägnant sein und in der Regel 1-2 Sätze umfassen. Im Inhalt solltest du darauf abzielen, das jeweilige Themengebiet kurz zu beschreiben und vor allem zu erklären, was die Anleitung dem Leser präsentiert und ihn über das Endziel informiert.
 
-Ein Beispiel für eine ideale Einleitung für einen Leitfaden zum Thema SteamCMD wäre:
+Ein Beispiel für eine ideale Einleitung für eine Anleitung zum Thema SteamCMD wäre:
 
 - **1. Satz**: SteamCMD ist ein unentbehrliches Tool, das für die Installation von dedizierten Servern für eine Vielzahl von Spielen wie Palworld, Enshrouded und anderen benötigt wird.
 - **2. Satz**: In dieser Anleitung werden wir uns mit der erstmaligen Installation von SteamCMD auf einem Linux-Server beschäftigen. Wir werden in den Beispielen Ubuntu verwenden, aber der Prozess sollte für andere Distributionen sehr ähnlich sein.

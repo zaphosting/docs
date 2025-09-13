@@ -1,7 +1,7 @@
 ---
 id: vserver-linux-lamp-stack
 title: "vServer: LAMP-Stack einrichten – Linux, Apache, MySQL, PHP"
-description: Infos zum Einrichten eines LAMP-Stacks (Linux, Apache, MySQL, PHP) auf deinem Linux-VPS von ZAP-Hosting – ZAP-Hosting.com Dokumentation
+description: Infos zum Einrichten eines LAMP-Stacks (Linux, Apache, MySQL, PHP) auf deinem Linux-vServer von ZAP-Hosting – ZAP-Hosting.com Dokumentation
 sidebar_label: Web LAMP stack
 services:
   - vserver
@@ -13,7 +13,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
 
-Der **LAMP**-Stack ist eine beliebte Auswahl an Open-Source-Software, die zusammen eingerichtet wird, um einfaches dynamisches Website-Hosting zu ermöglichen, mit einem besonderen Fokus auf PHP-Websites und -Apps. Das Akronym steht für: **L**inux als Betriebssystem, **A**pache als Webserver, **M**ySQL als Datenbank und schließlich **P**HP für die Verarbeitung. In dieser Anleitung zeigen wir dir, wie du einen LAMP-Stack auf einem Linux-VPS einrichtest, mit einer detaillierten Beschreibung und einem Beispiel für die Einrichtung einer To-Do-Liste-Website.
+Der **LAMP**-Stack ist eine beliebte Auswahl an Open-Source-Software, die zusammen eingerichtet wird, um einfaches dynamisches Website-Hosting zu ermöglichen, mit einem besonderen Fokus auf PHP-Websites und -Apps. Das Akronym steht für: **L**inux als Betriebssystem, **A**pache als Webserver, **M**ySQL als Datenbank und schließlich **P**HP für die Verarbeitung. In dieser Anleitung zeigen wir dir, wie du einen LAMP-Stack auf einem Linux-vServer einrichtest, mit einer detaillierten Beschreibung und einem Beispiel für die Einrichtung einer To-Do-Liste-Website.
 
 <InlineVoucher />
 
@@ -152,7 +152,7 @@ Nachdem wir jetzt alle LAMP-Abhängigkeiten installiert haben, erstellen wir ein
 
 In diesem Beispiel erstellen wir mit PHP eine kleine Website für eine To-do-Liste, die To-do-Einträge abruft und anzeigt. Diese werden in einer MySQL-Datenbanktabelle gespeichert und über Apache bereitgestellt.
 
-Wir werden auch durchgehend die Testdomain `zapdocs.example.com` verwenden, da du in der Praxis wahrscheinlich eine Domain nutzen würdest. Du **musst** unbedingt einen DNS-Eintrag vom Typ `A` für die Domain einrichten, der auf die IP-Adresse deines Servers verweist. Wenn du dabei Hilfe brauchst, schau mal in unserem Leitfaden [Domain Records](domain-records.md#a-records) rein.
+Wir werden auch durchgehend die Testdomain `zapdocs.example.com` verwenden, da du in der Praxis wahrscheinlich eine Domain nutzen würdest. Du **musst** unbedingt einen DNS-Eintrag vom Typ `A` für die Domain einrichten, der auf die IP-Adresse deines Servers verweist. Wenn du dabei Hilfe brauchst, schau mal in unsere [Domain Records](domain-records.md#a-records) Anleitung rein.
 
 :::note
 Du kannst auch keine Domain verwenden und alle Erwähnungen von `[deine_domain]` durch einen normalen Namen ersetzen. Dann erreichst du die Website über die IP-Adresse. Denk aber daran, dass du später beim Erstellen der virtuellen Hostdatei den Parameter `ServerName` entfernen musst.

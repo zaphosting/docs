@@ -1,7 +1,7 @@
 ---
 id: vserver-windows-openmp
 title: "vServer: Open.mp Dedicated Server Windows Einrichtung"
-description: Informationen zur Einrichtung eines dedizierten open.mp-Servers auf einem Windows VPS von ZAP-Hosting – ZAP-Hosting.com-Dokumentation
+description: Informationen zur Einrichtung eines dedizierten open.mp-Servers auf einem Windows vServer von ZAP-Hosting – ZAP-Hosting.com-Dokumentation
 sidebar_label: Open.mp
 services:
   - vserver
@@ -11,13 +11,13 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
 
-Hast du einen Windows VPS oder Root-Server und möchtest den open.mp Dedicated Server Service darauf installieren? Dann bist du hier richtig. In dieser Anleitung erklären wir dir Schritt für Schritt, wie du diesen Service auf deinem Server installierst.
+Hast du einen Windows vServer und möchtest den open.mp Dedicated Server Service darauf installieren? Dann bist du hier richtig. In dieser Anleitung erklären wir dir Schritt für Schritt, wie du diesen Service auf deinem Server installierst.
 
 <InlineVoucher />
 
 ## Vorbereitung
 
-Stelle zunächst über Remote Desktop (RDP) eine Verbindung zu deinem VPS oder Root-Server her. Verwende unseren Anleitung [Erstzugang (RDP)](vserver-windows-userdp.md), wenn du dabei Hilfe benötigst.
+Stelle zunächst über Remote Desktop (RDP) eine Verbindung zu deinem vServer her. Verwende unseren Anleitung [Erstzugang (RDP)](vserver-windows-userdp.md), wenn du dabei Hilfe benötigst.
 
 Sobald du auf deinen Server zugegriffen hast, lade die neueste Version aus dem [open.mp GitHub Repository](https://github.com/openmultiplayer/open.mp/releases) herunter. Achte darauf, dass du die **win-x86**-Version auswählst.
 
@@ -105,6 +105,6 @@ Du kannst dich nun über den open.mp-Launcher direkt mit deinem Server im Spiel 
 
 ## Abschluss
 
-Herzlichen Glückwunsch, du hast den open.mp-Server erfolgreich auf deinem VPS installiert und konfiguriert! Bei weiteren Fragen oder Problemen wende dich bitte an unser Support-Team, das dir täglich zur Verfügung steht! 
+Herzlichen Glückwunsch, du hast den open.mp-Server erfolgreich auf deinem vServer installiert und konfiguriert! Bei weiteren Fragen oder Problemen wende dich bitte an unser Support-Team, das dir täglich zur Verfügung steht! 
 
 <InlineVoucher />

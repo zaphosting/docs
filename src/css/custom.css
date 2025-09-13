@@ -22,7 +22,7 @@
   --ifm-h3-font-size: 1.25rem;
   --ifm-footer-background-color: #535353;
   --doc-sidebar-width: 300px !important;
-  --ifm-container-width-xl: var(--ifm-container-width);
+  /*--ifm-container-width-xl: var(--ifm-container-width);*/
   --ifm-menu-link-sublist-icon: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20' fill='rgb(161 161 170)' %3E%3Cpath fill-rule='evenodd' d='M9.47 6.47a.75.75 0 0 1 1.06 0l4.25 4.25a.75.75 0 1 1-1.06 1.06L10 8.06l-3.72 3.72a.75.75 0 0 1-1.06-1.06l4.25-4.25Z' clip-rule='evenodd' /%3E%3C/svg%3E%0A");
   --menu-link-dropdown-icon: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20' fill='rgb(113 113 122)' %3E%3Cpath fill-rule='evenodd' d='M4.22 6.22a.75.75 0 0 1 1.06 0L8 8.94l2.72-2.72a.75.75 0 1 1 1.06 1.06l-3.25 3.25a.75.75 0 0 1-1.06 0L4.22 7.28a.75.75 0 0 1 0-1.06Z' clip-rule='evenodd' /%3E%3C/svg%3E%0A");
 }
@@ -75,8 +75,9 @@ table {
   display: table;
 }
 
-pre code {
-  border: 1px solid lightgrey;
+pre {
+    border: 1px solid lightgrey;
+      max-height: 500px;
 }
 
 /* smaller edit button */

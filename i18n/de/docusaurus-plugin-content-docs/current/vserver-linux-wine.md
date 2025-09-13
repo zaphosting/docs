@@ -1,7 +1,7 @@
 ---
 id: vserver-linux-wine
 title: "vServer: Wine Kompatibilitätsschicht Linux Setup"
-description: Informationen zur Einrichtung der Wine (WineHQ) Windows-Kompatibilitätsschicht auf einem Linux VPS von ZAP-Hosting - ZAP-Hosting.com Dokumentation
+description: Informationen zur Einrichtung der Wine (WineHQ) Windows-Kompatibilitätsschicht auf einem Linux vServer von ZAP-Hosting - ZAP-Hosting.com Dokumentation
 sidebar_label: Wine-Kompatibilitätsschicht einrichten
 services:
   - vserver
@@ -17,7 +17,7 @@ Wine ist eine Open-Source-Kompatibilitätsschicht für Linux, mit der Software, 
 
 ## Vorbereitung
 
-Verbinde dich zunächst über SSH mit deinem VPS oder Root-Server. Benutze unsere Anleitung [Erstzugriff (SSH)](vserver-linux-ssh.md), wenn du Hilfe brauchst.
+Verbinde dich zunächst über SSH mit deinem vServer. Benutze unsere Anleitung [Erstzugriff (SSH)](vserver-linux-ssh.md), wenn du Hilfe brauchst.
 
 ## Wine installieren
 

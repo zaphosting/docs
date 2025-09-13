@@ -1,7 +1,7 @@
 ---
 id: vserver-linux-firewall
-title: "VPS: Firewall unter Linux verwalten"
-description: Informationen zur Verwaltung von UFW- oder IPTable-Regeln, inklusive Portweiterleitungen, auf deinem Linux-VPS von ZAP-Hosting – ZAP-Hosting.com Dokumentation
+title: "vServer: Firewall unter Linux verwalten"
+description: Informationen zur Verwaltung von UFW- oder IPTable-Regeln, inklusive Portweiterleitungen, auf deinem Linux-vServer von ZAP-Hosting – ZAP-Hosting.com Dokumentation
 sidebar_label: Portweiterleitung (Firewall)
 services:
   - vserver

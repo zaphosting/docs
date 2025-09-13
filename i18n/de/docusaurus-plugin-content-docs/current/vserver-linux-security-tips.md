@@ -206,7 +206,7 @@ Als Beispiel betrachten wir einen Eintrag in `/var/log/auth.log`. Diese Datei en
 
 Hier siehst du nun u.A. den Eintrag:
 ```
-Dec 2 12:59:19 vps-zap515723-2 sshd[364126]: Failed password for root from 92.117.xxx.xxx port 52504 ssh2
+Dec 2 12:59:19 vServer-zap515723-2 sshd[364126]: Failed password for root from 92.117.xxx.xxx port 52504 ssh2
 ```
 Fail2Ban nutzt nun genau dieses Logfile und überwacht es auf fehlgeschlagene Authentifizierungen. Da das Logfile direkt die IP-Adresse des Angreifers beinhaltet, kann Fail2Ban nach einigen fehlgeschlagenen Versuchen diese IP-Adresse blockieren.
 
@@ -232,9 +232,9 @@ systemctl status fail2ban.service
      CGroup: /system.slice/fail2ban.service
              `-23989 /usr/bin/python3 /usr/bin/fail2ban-server -xf start
 
-Dec 02 13:10:33 vps-zap515723-1 systemd[1]: Starting Fail2Ban Service...
-Dec 02 13:10:33 vps-zap515723-1 systemd[1]: Started Fail2Ban Service.
-Dec 02 13:10:34 vps-zap515723-1 fail2ban-server[23989]: Server ready
+Dec 02 13:10:33 vServer-zap515723-1 systemd[1]: Starting Fail2Ban Service...
+Dec 02 13:10:33 vServer-zap515723-1 systemd[1]: Started Fail2Ban Service.
+Dec 02 13:10:34 vServer-zap515723-1 fail2ban-server[23989]: Server ready
 ```
 
 ### Konfiguration von Fail2Ban
@@ -320,14 +320,14 @@ root@185.223.29.xxx's password:
 Permission denied, please try again.
 root@185.223.29.xxx's password:
 root@185.223.29.xxx: Permission denied (publickey,password).
-root@vps-zap515723-2:/var/log# ssh root@185.223.29.179
+root@vServer-zap515723-2:/var/log# ssh root@185.223.29.179
 root@185.223.29.xxx's password:
 Permission denied, please try again.
 root@185.223.29.xxx's password:
 Permission denied, please try again.
 root@185.223.29.xxx's password:
 ^C
-root@vps-zap515723-2:/var/log# ssh root@185.223.29.xxx
+root@vServer-zap515723-2:/var/log# ssh root@185.223.29.xxx
 ssh: connect to host 185.223.29.xxx port 22: Connection refused
 ```
 

@@ -3,13 +3,22 @@ id: domain-handle-management
 title: "Domain: Handle Management"
 description: Erfahre, wie du bei ZAP-Hosting einen Domain Handle erstellst oder bearbeitest - ZAP-Hosting Dokumentation
 sidebar_label: Handle Management
+services:
+  - domain
 ---
+
+import InlineVoucher from '@site/src/components/InlineVoucher';
+
 
 ## Einführung
 
 Ein **Domain Handle** ist ein Datensatz, der Kontaktinformationen enthält, die einer Domain zugeordnet sind und in öffentlichen WHOIS-Datenbanken verwendet werden. Der Handle identifiziert den Domaininhaber sowie administrative oder technische Ansprechpartner. Damit diese Informationen korrekt und aktuell bleiben, kannst du in der Domainverwaltung unter Handle Management vorhandene Handles bearbeiten oder neue Einträge erstellen.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/qNEeWEnbtHyxKEe/preview)
+
+
+<InlineVoucher />
+
 
 
 ## Anlegen oder Bearbeiten
@@ -38,3 +47,6 @@ Alle Änderungen kannst du direkt im Bereich Handle Management eintragen und spe
 ## Abschluss
 
 Durch das Erstellen oder Aktualisieren eines Domain Handles stellst du sicher, dass deine Kontaktdaten korrekt bei deinen Domains hinterlegt sind. Das ist wichtig für rechtliche Anforderungen, Erreichbarkeit und die Einhaltung der WHOIS-Vorgaben.
+
+
+<InlineVoucher />

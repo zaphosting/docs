@@ -21,23 +21,23 @@ In dieser Anleitung werden wir den Prozess der Einrichtung eines universellen Re
 
 ## Vorbereitung
 
-Für die Einrichtung eines Reverse-Proxys benötigst du einen **Linux-Server** (z. B. einen VPS), der als Host für deinen Proxy-Server dient. In diesem Beispiel verwenden wir Ubuntu als Linux-Distribution, aber die Installationsschritte sollten bei den meisten Linux-Distributionen sehr ähnlich sein.
+Für die Einrichtung eines Reverse-Proxys benötigst du einen **Linux-Server** (z. B. einen vServer), der als Host für deinen Proxy-Server dient. In diesem Beispiel verwenden wir Ubuntu als Linux-Distribution, aber die Installationsschritte sollten bei den meisten Linux-Distributionen sehr ähnlich sein.
 
-:::tip Empfohlene VPS-Spezifikationen
-Für einen Reverse-Proxy, der auf Gameserver zugeschnitten ist, empfehlen wir dringend, eine höhere Netzwerkgeschwindigkeit zu erwerben, insbesondere wenn dein Server viele Spieler hat. Das liegt daran, dass dein VPS rohes TCP/UDP direkt zwischen dem Client (Spieler) und dem Gameserver streamen wird. Ansonsten sollte ein Server mit Basisspezifikationen und minimalen Upgrades für einen webbezogenen Proxy ausreichen. :)
+:::tip Empfohlene vServer-Spezifikationen
+Für einen Reverse-Proxy, der auf Gameserver zugeschnitten ist, empfehlen wir dringend, eine höhere Netzwerkgeschwindigkeit zu erwerben, insbesondere wenn dein Server viele Spieler hat. Das liegt daran, dass dein vServer rohes TCP/UDP direkt zwischen dem Client (Spieler) und dem Gameserver streamen wird. Ansonsten sollte ein Server mit Basisspezifikationen und minimalen Upgrades für einen webbezogenen Proxy ausreichen. :)
 :::
 
 Wir empfehlen, den Proxy mit einer **Domain** einzurichten, die dir gehört. Für jede Subdomain, die du verwenden möchtest, solltest du einen `A`-DNS-Eintrag erstellen (z. B. `zapdocs.example.com`), der auf die IP-Adresse deines __Linux VPS__ verweist. Dies ist der Zugriff, den Benutzer verwenden, um auf deine Website oder deinen Gameserver zuzugreifen.
 
-### Zugriff auf VPS
+### Zugriff auf vServer
 
-Wenn dein Linux VPS bereit ist, musst du dich mit ihm verbinden. In unserer Anleitung [Erstzugriff (SSH)](vserver-linux-ssh.md) erfährst du mehr darüber, wie du das machst.
+Wenn dein Linux vServer bereit ist, musst du dich mit ihm verbinden. In unserer Anleitung [Erstzugriff (SSH)](vserver-linux-ssh.md) erfährst du mehr darüber, wie du das machst.
 
 ### Nginx installieren
 
 Du wirst Nginx verwenden, um einen Reverse-Proxy-Server zu hosten, da es ein sehr leistungsfähiger und beliebter Open-Source-Webserver ist.
 
-Nachdem du auf deinen VPS zugegriffen hast, verwende den folgenden Befehl, um Nginx zu installieren.
+Nachdem du auf deinen vServer zugegriffen hast, verwende den folgenden Befehl, um Nginx zu installieren.
 ```
 sudo apt install nginx
 ```
