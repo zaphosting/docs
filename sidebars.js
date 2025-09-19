@@ -3753,6 +3753,26 @@ const sidebars = {
     },
     {
       type: "category",
+      label: "Vintage Story",
+      items: [
+        {
+          type: "category",
+          label: "First Steps",
+          items: [
+            "voyagers-of-nera-firststeps-dashboard",
+          ]
+        },
+        {
+          type: "category",
+          label: "Troubleshooting",
+          items: [
+            "voyagers-of-nera--troubleshooting-common-issues",
+          ]
+        },
+      ],
+    },
+    {
+      type: "category",
       label: "V Rising",
       items: [
         {
