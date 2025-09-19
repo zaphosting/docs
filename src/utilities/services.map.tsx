@@ -1632,7 +1632,7 @@ const servicesMap: serviceMap = {
     },
     'gameserver-voyagers-of-nera': {
         title: translate({
-            message: 'Vintage Story Gameserver',
+            message: 'Voyagers of Nera Gameserver',
             id: 'service.gameserver-voyagers-of-nera.title',
             description: 'Product name for the gameserver product',
         }),
