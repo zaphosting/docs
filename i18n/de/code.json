@@ -1529,6 +1529,14 @@
     "message": "{marketingSite}/{language}/wurm-unlimited-server-mieten/",
     "description": "URL path for the gameserver product"
   },
+  "service.gameserver-voyagers-of-nera.title": {
+    "message": "Voyagers of Nera Gameserver",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-voyagers-of-nera.path": {
+    "message": "{marketingSite}/{language}/voyagers-of-nera-server-hosting/",
+    "description": "URL path for the gameserver product"
+   },
   "footer.cookieSettings": {
     "message": "Cookie Einstellungen"
   }

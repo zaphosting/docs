@@ -1630,6 +1630,18 @@ const servicesMap: serviceMap = {
             description: 'URL path for the gameserver product',
         }),
     },
+    'gameserver-voyagers-of-nera': {
+        title: translate({
+            message: 'Voyagers of Nera Gameserver',
+            id: 'service.gameserver-voyagers-of-nera.title',
+            description: 'Product name for the gameserver product',
+        }),
+        url: translate({
+            message: '{marketingSite}/{language}/voyagers-of-nera-server-hosting/',
+            id: 'service.gameserver-voyagers-of-nera.path',
+            description: 'URL path for the gameserver product',
+        }),
+    },
     'gameserver-wreckfest': {
         title: translate({
             message: 'Wreckfest Gameserver',
