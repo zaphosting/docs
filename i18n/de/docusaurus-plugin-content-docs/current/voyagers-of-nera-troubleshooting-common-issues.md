@@ -4,7 +4,7 @@ title: "Voyagers of Nera: Häufige Probleme"
 description: "Informationen zur Behebung häufiger Probleme bei Voyagers of Nera Server von ZAP-Hosting - ZAP-Hosting.com Dokumentation"
 sidebar_label: Häufige Probleme
 services:
-  - gameserver-Voyagers of Nera
+  - gameserver-voyagers-of-nera
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

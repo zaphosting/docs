@@ -3753,7 +3753,7 @@ const sidebars = {
     },
     {
       type: "category",
-      label: "Vintage Story",
+      label: "Voyagers of Nera",
       items: [
         {
           type: "category",
@@ -3766,7 +3766,7 @@ const sidebars = {
           type: "category",
           label: "Troubleshooting",
           items: [
-            "voyagers-of-nera--troubleshooting-common-issues",
+            "voyagers-of-nera-troubleshooting-common-issues",
           ]
         },
       ],

@@ -4,7 +4,7 @@ title: "Voyagers of Nera: Dashboard Overview"
 description: Information about the dashboard of an Voyagers of Nera Vanilla server from ZAP-Hosting - ZAP-Hosting.com Documentation
 sidebar_label: Dashboard
 services:
-  - gameserver-Voyagers of Nera
+  - gameserver-voyagers-of-nera
 ---
 
 import YouTube from '@site/src/components/YouTube/YouTube';
