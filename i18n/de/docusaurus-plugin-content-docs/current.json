@@ -766,5 +766,9 @@
   "sidebar.gameserverSidebar.category.Mordhau": {
     "message": "Mordhau",
     "description": "The label for category Mordhau in sidebar gameserverSidebar"
+  },
+  "sidebar.gameserverSidebar.category.Voyagers of Nera": {
+    "message": "Voyagers of Nera",
+    "description": "The label for category Voyagers of Nera in sidebar gameserverSidebar"
   }
 }
