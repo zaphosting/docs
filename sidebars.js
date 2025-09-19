@@ -3760,6 +3760,7 @@ const sidebars = {
           label: "First Steps",
           items: [
             "voyagers-of-nera-firststeps-dashboard",
+            "voyagers-of-nera-firststeps-connect",
           ]
         },
         {
