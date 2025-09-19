@@ -304,3 +304,50 @@ details .collapsibleContent_i85q {
     transition: width 0.2s ease-out;
   }
 }
+
+
+button#c-p-bn {
+    background-color: var(--ifm-color-primary)  !important;
+}
+
+
+div#c-inr a {
+    color: var(--ifm-color-primary) !important;
+    text-decoration: none !important;
+    font-size: 12px;
+    border-bottom: none;
+
+}
+
+button#s-all-bn {
+    background-color: var(--ifm-color-primary)  !important;
+}
+
+div#c-txt {
+    max-height: 100px;
+    overflow: auto;
+}
+
+div#c-inr .size-3[data-v-12749972] {
+    height: 1rem;
+    width: 1rem;
+    vertical-align: middle;
+    fill: var(--ifm-color-primary) !important;
+}
+
+.zap-cookie-footer {
+  text-align: center;
+  padding-bottom: 1rem;
+  background-color: #303846;
+  color: white;
+}
+
+.zap-cookie-link {
+  cursor: pointer;
+  color: white
+}
+
+.zap-cookie-link a:hover {
+  cursor: pointer;
+  color: var(--ifm-link-color);
+}
