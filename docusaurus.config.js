@@ -152,6 +152,12 @@ const config = {
         ],
       },
     ],
+    [
+    '@docusaurus/plugin-google-tag-manager',
+    {
+      containerId: 'GTM-5R9FLS69',
+    },
+    ],
     [ 
       require.resolve('docusaurus-lunr-search'),
       {
@@ -366,14 +372,6 @@ const config = {
       ],
       copyright: `Copyright © ${new Date().getFullYear()} ZAP-Hosting GmbH`,
     },
-    // announcementBar: {
-    //   id: 'support_us',
-    //   content:
-    //     'Placeholder',
-    //   backgroundColor: 'green',
-    //   textColor: 'white',
-    //   isCloseable: false,
-    // },
     prism: {
       theme: lightCodeTheme,
       darkTheme: darkCodeTheme,
@@ -385,6 +383,7 @@ const config = {
     },
     experimental_faster: true
   }
+  
 };
 
 export default config;
