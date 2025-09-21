@@ -1536,7 +1536,7 @@
   "service.gameserver-voyagers-of-nera.path": {
     "message": "{marketingSite}/{language}/voyagers-of-nera-server-hosting/",
     "description": "URL path for the gameserver product"
-   },
+  },
   "footer.cookieSettings": {
     "message": "Cookie Einstellungen"
   }
