@@ -34,7 +34,6 @@ const sidebars = {
     'ddos-protection',
     'preorders',
     'firststeps-rent-or-purchase',
-    'firststeps-rent-contractorprepaid',
     'community-info',
     'suggestions',
     {

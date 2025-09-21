@@ -148,6 +148,9 @@ const config = {
           },
           {
             to: '/docs/vserver-dedicated-comparison', from: '/docs/vserver-root-difference',
+          },
+          {
+            to: '/docs/welcome', from: '/docs/firststeps-rent-contractorprepaid',
           }
         ],
       },
