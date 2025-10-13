@@ -76,7 +76,7 @@ shard_enabled = true
 is_master = false
 bind_ip = SLAVEIP
 master_ip = MASTERIP
-name = Cave
+name = Caves
 id=200
 ```
 
@@ -88,7 +88,7 @@ shard_enabled = true
 is_master = false
 master_ip = MASTERIP
 master_port = 27002
-shard_name = Cave
+shard_name = Caves
 cluster_key = deinclusterkey
 ```
 
@@ -97,7 +97,7 @@ cluster_key = deinclusterkey
 If all configs have been set correctly, a new world must be generated for the slave server. A new file is required so that the caves are created correctly.
 
 Use the [Access via FTP](gameserver-ftpaccess.md) guide to navigate to the slave server in the directory: */starve/Save/Cluster_1/Master/*
-A new file with the name  "*worldgenoverwrite.lua*" is now created in this directory.
+A new file with the name  "*worldgenoverride.lua*" is now created in this directory.
 This file is filled with the following content.
 
 ```
