@@ -23,7 +23,7 @@ Unsolicited or bulk messages sent through our systems or hosted content that tri
 </details>
 
 <details>
-  <summary>Atacks and DDoS</summary>
+  <summary>Attacks and DDoS</summary>
 
 Hostile traffic intended to disrupt services or probe systems. Common forms are volumetric L3 L4 floods, HTTP layer-7 floods, amplification, brute-force logins, and aggressive port scans. Indicators include spikes in PPS or Mbps, elevated 4xx 5xx rates, and repeated auth failures from rotating sources.
 
