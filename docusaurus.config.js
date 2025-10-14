@@ -24,9 +24,14 @@ const config = {
   projectName: 'docs', // Usually your repo name.
   
   onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'throw',
   onDuplicateRoutes: 'throw',
   onBrokenAnchors: 'throw',
+
+  markdown: {
+    hooks: {
+      onBrokenMarkdownLinks: 'throw',
+    },
+  },
 
   customFields: {
     marketingSite: 'https://zap-hosting.com',

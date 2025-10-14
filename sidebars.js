@@ -65,6 +65,7 @@ const sidebars = {
         {
           type: "category",
           label: "Security",
+          key: "general-security",
           items: [
             "account-security",
             "account-2factor"
@@ -109,6 +110,7 @@ const sidebars = {
         {
           type: "category",
           label: "Guides",
+          key: "general-contribution-program-guides",
           items: [
             "contribution-guides",
             "contribution-guides-guidelines"
@@ -117,6 +119,7 @@ const sidebars = {
         {
           type: "category",
           label: "Blogs",
+          key: "general-contribution-program-blogs",
           items: [
             "contribution-blogs",
             "contribution-blogs-guidelines"
@@ -167,6 +170,7 @@ const sidebars = {
     {
       type: "category",
       label: "Databases",
+      key: "gameserver-databases",
       items: [
         "gameserver-databases-pma",
         "gameserver-database-external-access",
@@ -187,10 +191,12 @@ const sidebars = {
     {
       type: "category",
       label: "FiveM",
+      key: "gameserver-fivem-popular",
       items: [
         {
           type: "category",
           label: "First Steps",
+          key: "gameserver-first-steps-fivem-popular",
           items: [
             "fivem-dashboard",
             "fivem-upvotes",
@@ -204,6 +210,7 @@ const sidebars = {
         {
           type: "category",
           label: "Configuration",
+          key: "gameserver-configuration-fivem-popular",
           items: [
             "fivem-change-servericon",
             "fivem-server-customisation",
@@ -226,6 +233,7 @@ const sidebars = {
         {
           type: "category",
           label: "Resources",
+          key: "gameserver-resources-fivem-popular",
           items: [
             "fivem-installresources",
             "fivem-sql-file-import",
@@ -239,10 +247,12 @@ const sidebars = {
         {
           type: "category",
           label: "Frameworks",
+          key: "gameserver-frameworks-fivem-popular",
           items: [
             {
               type: "category",
               label: "ESX",
+              key: "gameserver-esx-frameworks-popular",
               items: [
                 "fivem-esx-becomeadminoverdatabase",
                 "fivem-esx-addcarstoshop",
@@ -254,6 +264,7 @@ const sidebars = {
             {
               type: "category",
               label: "QBCore",
+              key: "gameserver-qbcore-frameworks-popular",
               items: [
                 "fivem-qbcore-admin",
                 "fivem-qbcore-spawnpoints"
@@ -264,6 +275,7 @@ const sidebars = {
         {
           type: "category",
           label: "Troubleshooting",
+          key: "gameserver-troubleshooting-fivem-popular",
           items: [
             "fivem-troubleshooting-common-issues",
             "fivem-resolve-dbconnection",
@@ -275,10 +287,12 @@ const sidebars = {
     {
       type: "category",
       label: "Minecraft",
+      key: "gameserver-minecraft-popular",
       items: [
         {
           type: "category",
           label: "First Steps",
+          key: "gameserver-first-steps-minecraft-popular",
           items: [
             "minecraft-firststeps-dashboard",
             "minecraft-firststeps-connect",
@@ -288,6 +302,7 @@ const sidebars = {
         {
           type: "category",
           label: "Configuration",
+          key: "gameserver-configuration-minecraft-popular",
           items: [
             "minecraft-commands",
             "minecraft-addop",
@@ -306,6 +321,7 @@ const sidebars = {
         {
           type: "category",
           label: "Bedrock",
+          key: "gameserver-bedrock-minecraft-popular",
           items: [
             "minecraft-bedrock-addons",
             "minecraft-bedrock-add-world"
@@ -314,6 +330,7 @@ const sidebars = {
         {
           type: "category",
           label: "Bungeecord",
+          key: "gameserver-bungeecord-minecraft-popular",
           items: [
             "minecraft-bungeecord-config"
           ]
@@ -321,6 +338,7 @@ const sidebars = {
         {
           type: "category",
           label: "Forge & Fabric (Mods)",
+          key: "gameserver-forge-fabric-mods-minecraft-popular",
           items: [
             "minecraft-forge-fabric-add-mods-modpacks"
           ]
@@ -328,6 +346,7 @@ const sidebars = {
         {
           type: "category",
           label: "Spigot & Bukkit (Plugins)",
+          key: "gameserver-spigot-bukkit-plugins-minecraft-popular",
           items: [
             "minecraft-pluginuploader"
           ]
@@ -335,6 +354,7 @@ const sidebars = {
         {
           type: "category",
           label: "Troubleshooting",
+          key: "gameserver-troubleshooting-minecraft-popular",
           items: [
             "minecraft-troubleshooting-common-issues",
             "minecraft-faultyworld"
@@ -345,10 +365,12 @@ const sidebars = {
     {
       type: "category",
       label: "SCP: Secret Laboratory",
+      key: "gameserver-scp-secret-laboratory-popular",
       items: [
         {
           type: "category",
           label: "First Steps",
+          key: "gameserver-first-steps-scp-secret-laboratory-popular",
           items: [
             'scp-firststeps-dashboard',
             "scp-firststeps-connect",
@@ -357,6 +379,7 @@ const sidebars = {
         {
           type: "category",
           label: "Configuration",
+          key: "gameserver-configuration-scp-secret-laboratory-popular",
           items: [
             "scp-beta-version",		
             "scp-becomeadmin",
@@ -368,6 +391,7 @@ const sidebars = {
         {
           type: "category",
           label: "Exiled",
+          key: "gameserver-exiled-scp-secret-laboratory-popular",
           items: [
             "exiled-plugins"
           ]
@@ -375,6 +399,7 @@ const sidebars = {
         {
           type: "category",
           label: "Troubleshooting",
+          key: "gameserver-troubleshooting-scp-secret-laboratory-popular",
           items: [
             "scp-troubleshooting-common-issues",
           ]
@@ -384,10 +409,12 @@ const sidebars = {
     {
       type: "category",
       label: "Valheim",
+      key: "gameserver-valheim-popular",
       items: [
         {
           type: "category",
           label: "First Steps",
+          key: "gameserver-first-steps-valheim-popular",
           items: [
             "valheim-firststeps-dashboard",
             "valheim-firststeps-connect",
@@ -396,6 +423,7 @@ const sidebars = {
         {
           type: "category",
           label: "Configuration",
+          key: "gameserver-configuration-valheim-popular",
           items: [
             "valheim-savegame",
             "valheim-backup-schedule",
@@ -407,6 +435,7 @@ const sidebars = {
         {
           type: "category",
           label: "Troubleshooting",
+          key: "gameserver-troubleshooting-valheim-popular",
           items: [
             "valheim-troubleshooting-common-issues",
             "valheim-serverlisting",
@@ -417,10 +446,12 @@ const sidebars = {
     {
       type: "category",
       label: "Ark: Survival Evolved",
+      key: "gameserver-ark-survival-evolved-popular",
       items: [
         {
           type: "category",
           label: "First Steps",
+          key: "gameserver-first-steps-ark-survival-evolved-popular",
           items: [
             "ark-firststeps-dashboard",
             "ark-firststeps-connect"
@@ -429,6 +460,7 @@ const sidebars = {
         {
           type: "category",
           label: "Configuration",
+          key: "gameserver-configuration-ark-survival-evolved-popular",
           items: [
             "ark-becomeadmin",
             "ark-mods",
@@ -440,6 +472,7 @@ const sidebars = {
         {
           type: "category",
           label: "Troubleshooting",
+          key: "gameserver-troubleshooting-ark-survival-evolved-popular",
           items: [
             "ark-troubleshooting-common-issues",
             "ark-serverlisting",
@@ -450,10 +483,12 @@ const sidebars = {
     {
       type: "category",
       label: "Palworld",
+      key: "gameserver-palworld-popular",
       items: [
         {
           type: "category",
           label: "First Steps",
+          key: "gameserver-first-steps-palworld-popular",
           items: [
             "palworld-firststeps-dashboard",
             "palworld-connect"
@@ -462,6 +497,7 @@ const sidebars = {
         {
           type: "category",
           label: "Configuration",
+          key: "gameserver-configuration-palworld-popular",
           items: [
             "palworld-configuration",
             "palworld-server-commands",
@@ -474,6 +510,7 @@ const sidebars = {
         {
           type: "category",
           label: "Troubleshooting",
+          key: "gameserver-troubleshooting-palworld-popular",
           items: [
             "palworld-troubleshooting-common-issues",
           ]
@@ -483,10 +520,12 @@ const sidebars = {
     {
       type: "category",
       label: "Enshrouded",
+      key: "gameserver-enshrouded-popular",
       items: [
         {
           type: "category",
           label: "First Steps",
+          key: "gameserver-first-steps-enshrouded-popular",
           items: [
             "enshrouded-firststeps-dashboard",
             "enshrouded-firststeps-connect"
@@ -495,6 +534,7 @@ const sidebars = {
         {
           type: "category",
           label: "Configuration",
+          key: "gameserver-configuration-enshrouded-popular",
           items: [
           "enshrouded-configuration",
           "enshrouded-server-savegames"
@@ -503,6 +543,7 @@ const sidebars = {
         {
           type: "category",
           label: "Troubleshooting",
+          key: "gameserver-troubleshooting-enshrouded-popular",
           items: [
             "enshrouded-troubleshooting-common-issues",
           ]
@@ -512,10 +553,12 @@ const sidebars = {
     {
       type: "category",
       label: "SCUM",
+      key: "gameserver-scum-popular",
       items: [
         {
           type: "category",
           label: "First Steps",
+          key: "gameserver-first-steps-scum-popular",
           items: [
             'scum-firststeps-dashboard',
             'scum-firststeps-connect',
@@ -524,6 +567,7 @@ const sidebars = {
         {
           type: "category",
           label: "Configuration",
+          key: "gameserver-configuration-scum-popular",
           items: [
             'scum-becomeadmin',
             'scum-server-wipe'
@@ -532,6 +576,7 @@ const sidebars = {
         {
           type: "category",
           label: "Troubleshooting",
+          key: "gameserver-troubleshooting-scum-popular",
           items: [
             "scum-troubleshooting-common-issues",
           ]
@@ -552,10 +597,12 @@ const sidebars = {
     {
       type: "category",
       label: "7 Days to Die",
+      key: "gameserver-7-days-to-die",
       items: [
         {
           type: "category",
           label: "First Steps",
+          key: "gameserver-first-steps-7-days-to-die",
           items: [
             "7d2d-firststeps-dashboard",
             "7d2d-firststeps-connect"
@@ -564,6 +611,7 @@ const sidebars = {
         {
           type: "category",
           label: "Configuration",
+          key: "gameserver-configuration-7-days-to-die",
           items: [
             "7d2d-becomeadmin",
             "7d2d-mods",
@@ -574,6 +622,7 @@ const sidebars = {
         {
           type: "category",
           label: "Troubleshooting",
+          key: "gameserver-troubleshooting-7-days-to-die",
           items: [
             "7d2d-troubleshooting-common-issues",
           ]
@@ -583,10 +632,12 @@ const sidebars = {
     {
       type: "category",
       label: "Abiotic Factor",
+      key: "gameserver-abiotic-factor",
       items: [
         {
           type: "category",
           label: "First Steps",
+          key: "gameserver-first-steps-abiotic-factor",
           items: [
             "abioticfactor-firststeps-dashboard",
             "abioticfactor-firststeps-connect",
@@ -595,6 +646,7 @@ const sidebars = {
         {
           type: "category",
           label: "Configuration",
+          key: "gameserver-configuration-abiotic-factor",
           items: [
             "abioticfactor-crossplay",
             "abioticfactor-becomeadmin",
@@ -605,6 +657,7 @@ const sidebars = {
         {
           type: "category",
           label: "Troubleshooting",
+          key: "gameserver-troubleshooting-abiotic-factor",
           items: [
             "abioticfactor-troubleshooting-common-issues",
           ]
@@ -614,10 +667,12 @@ const sidebars = {
     {
       type: "category",
       label: "Afterinfection",
+      key: "gameserver-afterinfection",
       items: [
         {
           type: "category",
           label: "First Steps",
+          key: "gameserver-first-steps-afterinfection",
           items: [
             "afterinfection-firststeps-dashboard",
             "afterinfection-firststeps-connect"
@@ -626,6 +681,7 @@ const sidebars = {
         {
           type: "category",
           label: "Troubleshooting",
+          key: "gameserver-troubleshooting-afterinfection",
           items: [
             "afterinfection-troubleshooting-common-issues",
           ]
@@ -635,10 +691,12 @@ const sidebars = {
     {
       type: "category",
       label: "American Truck Simulator",
+      key: "gameserver-american-truck-simulator",
       items: [
         {
           type: "category",
           label: "First Steps",
+          key: "gameserver-first-steps-american-truck-simulator",
           items: [
             "ats-firststeps-dashboard",
             "ats-firststeps-connect",
@@ -648,6 +706,7 @@ const sidebars = {
         {
           type: "category",
           label: "Configuration",
+          key: "gameserver-configuration-american-truck-simulator",
           items: [
             "ats-server-modding"
           ]
@@ -655,6 +714,7 @@ const sidebars = {
         {
           type: "category",
           label: "Troubleshooting",
+          key: "gameserver-troubleshooting-american-truck-simulator",
           items: [
             "ats-troubleshooting-common-issues",
           ]
@@ -664,10 +724,12 @@ const sidebars = {
     {
       type: "category",
       label: "Among Us",
+      key: "gameserver-among-us",
       items: [
         {
           type: "category",
           label: "First Steps",
+          key: "gameserver-first-steps-among-us",
           items: [
             "amongus-firststeps-dashboard",
             "amongus-connection"
@@ -676,6 +738,7 @@ const sidebars = {
         {
           type: "category",
           label: "Troubleshooting",
+          key: "gameserver-troubleshooting-among-us",
           items: [
             "amongus-troubleshooting-common-issues",
           ]
@@ -685,10 +748,12 @@ const sidebars = {
     {
       type: "category",
       label: "Animalia Survival",
+      key: "gameserver-animalia-survival",
       items: [
         {
           type: "category",
           label: "First Steps",
+          key: "gameserver-first-steps-animalia-survival",
           items: [
             "animalia-survival-firststeps-dashboard",
             "animalia-survival-firststeps-connect",
@@ -697,6 +762,7 @@ const sidebars = {
         {
           type: "category",
           label: "Troubleshooting",
+          key: "gameserver-troubleshooting-animalia-survival",
           items: [
             "animalia-survival-troubleshooting-common-issues",
           ]
@@ -706,10 +772,12 @@ const sidebars = {
     {
       type: "category",
       label: "Argo",
+      key: "gameserver-argo",
       items: [
         {
           type: "category",
           label: "First Steps",
+          key: "gameserver-first-steps-argo",
           items: [
             "argo-firststeps-dashboard",
           ]
@@ -717,6 +785,7 @@ const sidebars = {
         {
           type: "category",
           label: "Troubleshooting",
+          key: "gameserver-troubleshooting-argo",
           items: [
             "argo-troubleshooting-common-issues",
           ]
@@ -726,10 +795,12 @@ const sidebars = {
     {
       type: "category",
       label: "Ark: Survival Evolved",
+      key: "gameserver-ark-survival-evolved",
       items: [
         {
           type: "category",
           label: "First Steps",
+          key: "gameserver-first-steps-ark-survival-evolved",
           items: [
             "ark-firststeps-dashboard",
             "ark-firststeps-connect"
@@ -738,6 +809,7 @@ const sidebars = {
         {
           type: "category",
           label: "Configuration",
+          key: "gameserver-configuration-ark-survival-evolved",
           items: [
             "ark-becomeadmin",
             "ark-mods",
@@ -749,6 +821,7 @@ const sidebars = {
         {
           type: "category",
           label: "Troubleshooting",
+          key: "gameserver-troubleshooting-ark-survival-evolved",
           items: [
             "ark-troubleshooting-common-issues",
             "ark-serverlisting"
@@ -759,10 +832,12 @@ const sidebars = {
     {
       type: "category",
       label: "Arma 3",
+      key: "gameserver-arma-3",
       items: [
         {
           type: "category",
           label: "First Steps",
+          key: "gameserver-first-steps-arma-3",
           items: [
             "arma3-firststeps-dashboard",
             "arma3-firststeps-connect"
@@ -771,6 +846,7 @@ const sidebars = {
         {
           type: "category",
           label: "Configuration",
+          key: "gameserver-configuration-arma-3",
           items: [
             "arma3-rcon",
             "arma3-serverconfig",
@@ -783,6 +859,7 @@ const sidebars = {
         {
           type: "category",
           label: "Troubleshooting",
+          key: "gameserver-troubleshooting-arma-3",
           items: [
             "arma3-troubleshooting-common-issues",
           ]
@@ -792,10 +869,12 @@ const sidebars = {
     {
       type: "category",
       label: "Arma Reforger",
+      key: "gameserver-arma-reforger",
       items: [
         {
           type: "category",
           label: "First Steps",
+          key: "gameserver-first-steps-arma-reforger",
           items: [
             "arma-reforger-firststeps-dashboard",
             "arma-reforger-firststeps-connect"
@@ -804,6 +883,7 @@ const sidebars = {
         {
           type: "category",
           label: "Configuration",
+          key: "gameserver-configuration-arma-reforger",
           items: [
             "arma-reforger-rcon",
           ]
@@ -811,6 +891,7 @@ const sidebars = {
         {
           type: "category",
           label: "Troubleshooting",
+          key: "gameserver-troubleshooting-arma-reforger",
           items: [
             "arma-reforger-troubleshooting-common-issues",
           ]
@@ -820,10 +901,12 @@ const sidebars = {
     {
       type: "category",
       label: "Assetto Corsa",
+      key: "gameserver-assetto-corsa",
       items: [
         {
           type: "category",
           label: "First Steps",
+          key: "gameserver-first-steps-assetto-corsa",
           items: [
             "assettocorsa-firststeps-dashboard",
             "assettocorsa-firststeps-connect"
@@ -832,6 +915,7 @@ const sidebars = {
         {
           type: "category",
           label: "Configuration",
+          key: "gameserver-configuration-assetto-corsa",
           items: [
             "assettocorsa-configure",
             "assettocorsa-contentmanager",
@@ -841,6 +925,7 @@ const sidebars = {
         {
           type: "category",
           label: "Troubleshooting",
+          key: "gameserver-troubleshooting-assetto-corsa",
           items: [
             "assettocorsa-troubleshooting-common-issues",
           ]
@@ -850,10 +935,12 @@ const sidebars = {
     {
       type: "category",
       label: "Assetto Corsa Competizione",
+      key: "gameserver-assetto-corsa-competizione",
       items: [
         {
           type: "category",
           label: "First Steps",
+          key: "gameserver-first-steps-assetto-corsa-competizione",
           items: [
             "assetto-competizione-firststeps-dashboard",
             "assetto-competizione-firststeps-connect",
@@ -862,6 +949,7 @@ const sidebars = {
         {
           type: "category",
           label: "Configuration",
+          key: "gameserver-configuration-assetto-corsa-competizione",
           items: [
             "assetto-competizione-becomeadmin",
             "assetto-competizione-slot-requirement",
@@ -870,6 +958,7 @@ const sidebars = {
         {
           type: "category",
           label: "Troubleshooting",
+          key: "gameserver-troubleshooting-assetto-corsa-competizione",
           items: [
             "assetto-competizione-troubleshooting-common-issues",
           ]
@@ -879,10 +968,12 @@ const sidebars = {
     {
       type: "category",
       label: "Astro Colony",
+      key: "gameserver-astro-colony",
       items: [
         {
           type: "category",
           label: "First Steps",
+          key: "gameserver-first-steps-astro-colony",
           items: [
             "astrocolony-firststeps-dashboard",
             "astrocolony-firststeps-connect",
@@ -891,6 +982,7 @@ const sidebars = {
         {
           type: "category",
           label: "Troubleshooting",
+          key: "gameserver-troubleshooting-astro-colony",
           items: [
             "astrocolony-troubleshooting-common-issues",
           ]
@@ -900,10 +992,12 @@ const sidebars = {
     {
       type: "category",
       label: "ASTRONEER",
+      key: "gameserver-astroneer",
       items: [
         {
           type: "category",
           label: "First Steps",
+          key: "gameserver-first-steps-astroneer",
           items: [
             "astroneer-firststeps-dashboard",
             "astroneer-firststeps-connect",
@@ -912,6 +1006,7 @@ const sidebars = {
         {
           type: "category",
           label: "Troubleshooting",
+          key: "gameserver-troubleshooting-astroneer",
           items: [
             "astroneer-troubleshooting-common-issues",
           ]
@@ -921,10 +1016,12 @@ const sidebars = {
     {
       type: "category",
       label: "Avorion",
+      key: "gameserver-avorion",
       items: [
         {
           type: "category",
           label: "First Steps",
+          key: "gameserver-first-steps-avorion",
           items: [
             "avorion-firststeps-dashboard",
             "avorion-firststeps-connect",
@@ -933,6 +1030,7 @@ const sidebars = {
         {
           type: "category",
           label: "Configuration",
+          key: "gameserver-configuration-avorion",
           items: [
             "avorion-becomeadmin",
             "avorion-rcon",
@@ -941,6 +1039,7 @@ const sidebars = {
         {
           type: "category",
           label: "Troubleshooting",
+          key: "gameserver-troubleshooting-avorion",
           items: [
             "avorion-troubleshooting-common-issues",
           ]
@@ -950,10 +1049,12 @@ const sidebars = {
     {
       type: "category",
       label: "Banana Shooter",
+      key: "gameserver-banana-shooter",
       items: [
         {
           type: "category",
           label: "First Steps",
+          key: "gameserver-first-steps-banana-shooter",
           items: [
             "bananashooter-firststeps-dashboard",
             "bananashooter-firststeps-connect",
@@ -963,6 +1064,7 @@ const sidebars = {
         {
           type: "category",
           label: "Troubleshooting",
+          key: "gameserver-troubleshooting-banana-shooter",
           items: [
             "bananashooter-troubleshooting-common-issues",
           ]
@@ -972,10 +1074,12 @@ const sidebars = {
     {
       type: "category",
       label: "Barotrauma",
+      key: "gameserver-barotrauma",
       items: [
         {
           type: "category",
           label: "First Steps",
+          key: "gameserver-first-steps-barotrauma",
           items: [
             "barotrauma-firststeps-dashboard",
             "barotrauma-firststeps-connect",
@@ -984,6 +1088,7 @@ const sidebars = {
         {
           type: "category",
           label: "Configuration",
+          key: "gameserver-configuration-barotrauma",
           items: [
             "barotrauma-becomeadmin"
           ]
@@ -991,6 +1096,7 @@ const sidebars = {
         {
           type: "category",
           label: "Troubleshooting",
+          key: "gameserver-troubleshooting-barotrauma",
           items: [
             "barotrauma-troubleshooting-common-issues",
           ]
@@ -1000,10 +1106,12 @@ const sidebars = {
     {
       type: "category",
       label: "Battalion 1944",
+      key: "gameserver-battalion-1944",
       items: [
         {
           type: "category",
           label: "First Steps",
+          key: "gameserver-first-steps-battalion-1944",
           items: [
             "battalion1944-firststeps-dashboard",
             "battalion1944-firststeps-connect"
@@ -1012,6 +1120,7 @@ const sidebars = {
         {
           type: "category",
           label: "Troubleshooting",
+          key: "gameserver-troubleshooting-battalion-1944",
           items: [
             "battalion1944-troubleshooting-common-issues",
           ]
@@ -1021,10 +1130,12 @@ const sidebars = {
     {
       type: "category",
       label: "Battle Grounds III",
+      key: "gameserver-battle-grounds-iii",
       items: [
         {
           type: "category",
           label: "First Steps",
+          key: "gameserver-first-steps-battle-grounds-iii",
           items: [
             "battlegrounds3-firststeps-dashboard",
             "battlegrounds3-firststeps-connect",
@@ -1033,6 +1144,7 @@ const sidebars = {
         {
           type: "category",
           label: "Troubleshooting",
+          key: "gameserver-troubleshooting-battle-grounds-iii",
           items: [
             "battlegrounds3-troubleshooting-common-issues",
           ]
@@ -1042,10 +1154,12 @@ const sidebars = {
     {
       type: "category",
       label: "BeamMP",
+      key: "gameserver-beammp",
       items: [
         {
           type: "category",
           label: "First Steps",
+          key: "gameserver-first-steps-beammp",
           items: [
             "beammp-firststeps-dashboard"
           ]
@@ -1053,6 +1167,7 @@ const sidebars = {
         {
           type: "category",
           label: "Configuration",
+          key: "gameserver-configuration-beammp",
           items: [
             "beammp-authkey",
             "beammp-mods",
@@ -1062,6 +1177,7 @@ const sidebars = {
         {
           type: "category",
           label: "Troubleshooting",
+          key: "gameserver-troubleshooting-beammp",
           items: [
             "beammp-troubleshooting-common-issues",
           ]
@@ -1071,10 +1187,12 @@ const sidebars = {
     {
       type: "category",
       label: "Beasts of Bermuda",
+      key: "gameserver-beasts-of-bermuda",
       items: [
         {
           type: "category",
           label: "First Steps",
+          key: "gameserver-first-steps-beasts-of-bermuda",
           items: [
             "bob-firststeps-dashboard",
             "bob-firststeps-connect",
@@ -1083,6 +1201,7 @@ const sidebars = {
         {
           type: "category",
           label: "Troubleshooting",
+          key: "gameserver-troubleshooting-beasts-of-bermuda",
           items: [
             "bob-troubleshooting-common-issues",
           ]
@@ -1092,10 +1211,12 @@ const sidebars = {
     {
       type: "category",
       label: "Beyond the Wire",
+      key: "gameserver-beyond-the-wire",
       items: [
         {
           type: "category",
           label: "First Steps",
+          key: "gameserver-first-steps-beyond-the-wire",
           items: [
             "beyondthewire-firststeps-dashboard",
             "beyondthewire-firststeps-connect",
@@ -1104,6 +1225,7 @@ const sidebars = {
         {
           type: "category",
           label: "Troubleshooting",
+          key: "gameserver-troubleshooting-beyond-the-wire",
           items: [
             "beyondthewire-troubleshooting-common-issues",
           ]
@@ -1113,10 +1235,12 @@ const sidebars = {
     {
       type: "category",
       label: "Broke Protocol",
+      key: "gameserver-broke-protocol",
       items: [
         {
           type: "category",
           label: "First Steps",
+          key: "gameserver-first-steps-broke-protocol",
           items: [
             "brokeprotocol-firststeps-dashboard",
             "brokeprotocol-firststeps-connect",
@@ -1125,6 +1249,7 @@ const sidebars = {
         {
           type: "category",
           label: "Troubleshooting",
+          key: "gameserver-troubleshooting-broke-protocol",
           items: [
             "brokeprotocol-troubleshooting-common-issues",
           ]
@@ -1134,10 +1259,12 @@ const sidebars = {
     {
       type: "category",
       label: "Citadel: Forged With Fire",
+      key: "gameserver-citadel-forged-with-fire",
       items: [
         {
           type: "category",
           label: "First Steps",
+          key: "gameserver-first-steps-citadel-forged-with-fire",
           items: [
             "citadel-forgedwithfire-firststeps-dashboard",
             "citadel-forgedwithfire-firststeps-connect",
@@ -1146,6 +1273,7 @@ const sidebars = {
         {
           type: "category",
           label: "Troubleshooting",
+          key: "gameserver-troubleshooting-citadel-forged-with-fire",
           items: [
             "citadel-forgedwithfire-troubleshooting-common-issues",
           ]
@@ -1155,10 +1283,12 @@ const sidebars = {
     {
       type: "category",
       label: "Colony Survival",
+      key: "gameserver-colony-survival",
       items: [
         {
           type: "category",
           label: "First Steps",
+          key: "gameserver-first-steps-colony-survival",
           items: [
             "colonysurvival-firststeps-dashboard",
             "colonysurvival-firststeps-connect",
@@ -1167,6 +1297,7 @@ const sidebars = {
         {
           type: "category",
           label: "Troubleshooting",
+          key: "gameserver-troubleshooting-colony-survival",
           items: [
             "colonysurvival-troubleshooting-common-issues",
           ]
@@ -1176,10 +1307,12 @@ const sidebars = {
     {
       type: "category",
       label: "Conan Exiles",
+      key: "gameserver-conan-exiles",
       items: [
         {
           type: "category",
           label: "First Steps",
+          key: "gameserver-first-steps-conan-exiles",
           items: [
             "conan-firststeps-dashboard",
             "conan-firststeps-connect",
@@ -1188,6 +1321,7 @@ const sidebars = {
         {
           type: "category",
           label: "Configuration",
+          key: "gameserver-configuration-conan-exiles",
           items: [
             "conan-becomeadmin",
             "conan-configuration",
@@ -1197,6 +1331,7 @@ const sidebars = {
         {
           type: "category",
           label: "Troubleshooting",
+          key: "gameserver-troubleshooting-conan-exiles",
           items: [
             "conan-troubleshooting-common-issues",
           ]
@@ -1206,10 +1341,12 @@ const sidebars = {
     {
       type: "category",
       label: "Contagion",
+      key: "gameserver-contagion",
       items: [
         {
           type: "category",
           label: "First Steps",
+          key: "gameserver-first-steps-contagion",
           items: [
             "contagion-firststeps-dashboard",
           ]
@@ -1217,6 +1354,7 @@ const sidebars = {
         {
           type: "category",
           label: "Troubleshooting",
+          key: "gameserver-troubleshooting-contagion",
           items: [
             "contagion-troubleshooting-common-issues",
           ]
@@ -1226,10 +1364,12 @@ const sidebars = {
     {
       type: "category",
       label: "Core Keeper",
+      key: "gameserver-core-keeper",
       items: [
         {
           type: "category",
           label: "First Steps",
+          key: "gameserver-first-steps-core-keeper",
           items: [
             "corekeeper-firststeps-dashboard",
             "corekeeper-firststeps-connect"
@@ -1238,6 +1378,7 @@ const sidebars = {
         {
           type: "category",
           label: "Troubleshooting",
+          key: "gameserver-troubleshooting-core-keeper",
           items: [
             "corekeeper-troubleshooting-common-issues",
           ]
@@ -1247,10 +1388,12 @@ const sidebars = {
     {
       type: "category",
       label: "Craftopia",
+      key: "gameserver-craftopia",
       items: [
         {
           type: "category",
           label: "First Steps",
+          key: "gameserver-first-steps-craftopia",
           items: [
             "craftopia-firststeps-dashboard",
             "craftopia-firststeps-connect",
@@ -1259,6 +1402,7 @@ const sidebars = {
         {
           type: "category",
           label: "Troubleshooting",
+          key: "gameserver-troubleshooting-craftopia",
           items: [
             "craftopia-troubleshooting-common-issues",
           ]
@@ -1268,10 +1412,12 @@ const sidebars = {
     {
       type: "category",
       label: "Cryofall",
+      key: "gameserver-cryofall",
       items: [
         {
           type: "category",
           label: "First Steps",
+          key: "gameserver-first-steps-cryofall",
           items: [
             "cryofall-firststeps-dashboard",
             "cryofall-firststeps-connect",
@@ -1280,6 +1426,7 @@ const sidebars = {
         {
           type: "category",
           label: "Troubleshooting",
+          key: "gameserver-troubleshooting-cryofall",
           items: [
             "cryofall-troubleshooting-common-issues",
           ]
@@ -1289,10 +1436,12 @@ const sidebars = {
     {
       type: "category",
       label: "Counter-Strike 1.6",
+      key: "gameserver-counter-strike-1-6",
       items: [
         {
           type: "category",
           label: "First Steps",
+          key: "gameserver-first-steps-counter-strike-1-6",
           items: [
             "cs16-firststeps-dashboard",
             "cs16-firststeps-connect"
@@ -1301,6 +1450,7 @@ const sidebars = {
         {
           type: "category",
           label: "Configuration",
+          key: "gameserver-configuration-counter-strike-1-6",
           items: [
             "cs16-becomeadmin",
             "cs16-plugins",
@@ -1310,6 +1460,7 @@ const sidebars = {
                 {
           type: "category",
           label: "Troubleshooting",
+          key: "gameserver-troubleshooting-counter-strike-1-6",
           items: [
             "cs16-troubleshooting-common-issues",
             "cs16-troubleshooting-segmentation-fault"
@@ -1320,10 +1471,12 @@ const sidebars = {
     {
       type: "category",
       label: "Counter-Strike: Condition Zero",
+      key: "gameserver-counter-strike-condition-zero",
       items: [
         {
           type: "category",
           label: "First Steps",
+          key: "gameserver-first-steps-counter-strike-condition-zero",
           items: [
             "cscz-firststeps-dashboard",
             "cscz-firststeps-connect",
@@ -1332,6 +1485,7 @@ const sidebars = {
         {
           type: "category",
           label: "Troubleshooting",
+          key: "gameserver-troubleshooting-counter-strike-condition-zero",
           items: [
             "cscz-troubleshooting-common-issues",
             "cscz-troubleshooting-segmentation-fault"
@@ -1342,10 +1496,12 @@ const sidebars = {
     {
       type: "category",
       label: "Counter-Strike: Source",
+      key: "gameserver-counter-strike-source",
       items: [
         {
           type: "category",
           label: "First Steps",
+          key: "gameserver-first-steps-counter-strike-source",
           items: [
             "css-firststeps-dashboard",
             "css-firststeps-connect",
@@ -1355,6 +1511,7 @@ const sidebars = {
         {
           type: "category",
           label: "Configuration",
+          key: "gameserver-configuration-counter-strike-source",
           items: [
             "css-fastdl",
             "css-rcon",
@@ -1365,6 +1522,7 @@ const sidebars = {
         {
           type: "category",
           label: "Troubleshooting",
+          key: "gameserver-troubleshooting-counter-strike-source",
           items: [
             "css-troubleshooting-common-issues",
             "css-troubleshooting-segmentation-fault"
@@ -1375,10 +1533,12 @@ const sidebars = {
     {
       type: "category",
       label: "Counter-Strike 2",
+      key: "gameserver-counter-strike-2",
       items: [
         {
           type: "category",
           label: "First Steps",
+          key: "gameserver-first-steps-counter-strike-2",
           items: [
             "cs2-firststeps-dashboard",
             "cs2-firststeps-connect",
@@ -1388,6 +1548,7 @@ const sidebars = {
         {
           type: "category",
           label: "Configuration",
+          key: "gameserver-configuration-counter-strike-2",
           items: [
             "cs2-configuration",
             "cs2-cstv",
@@ -1398,6 +1559,7 @@ const sidebars = {
         {
           type: "category",
           label: "Plugins / Mods",
+          key: "gameserver-plugins-mods-counter-strike-2",
           items: [
             "cs2-plugins"
           ]
@@ -1405,6 +1567,7 @@ const sidebars = {
         {
           type: "category",
           label: "Troubleshooting",
+          key: "gameserver-troubleshooting-counter-strike-2",
           items: [
             "cs2-troubleshooting-common-issues",
             "cs2-troubleshooting-segmentation-fault"
@@ -1415,10 +1578,12 @@ const sidebars = {
     {
       type: "category",
       label: "Day of Defeat: Source",
+      key: "gameserver-day-of-defeat-source",
       items: [
         {
           type: "category",
           label: "First Steps",
+          key: "gameserver-first-steps-day-of-defeat-source",
           items: [
             "dods-firststeps-dashboard",
             "dods-firststeps-connect",
@@ -1428,6 +1593,7 @@ const sidebars = {
         {
           type: "category",
           label: "Configuration",
+          key: "gameserver-configuration-day-of-defeat-source",
           items: [
             "dods-fastdl",
             "dods-rcon",
@@ -1438,6 +1604,7 @@ const sidebars = {
         {
           type: "category",
           label: "Troubleshooting",
+          key: "gameserver-troubleshooting-day-of-defeat-source",
           items: [
             "dods-troubleshooting-common-issues",
             "dods-troubleshooting-segmentation-fault"
@@ -1448,10 +1615,12 @@ const sidebars = {
     {
       type: "category",
       label: "Day of Infamy",
+      key: "gameserver-day-of-infamy",
       items: [
         {
           type: "category",
           label: "First Steps",
+          key: "gameserver-first-steps-day-of-infamy",
           items: [
             "dayofinfamy-firststeps-dashboard",
           ]
@@ -1459,6 +1628,7 @@ const sidebars = {
         {
           type: "category",
           label: "Troubleshooting",
+          key: "gameserver-troubleshooting-day-of-infamy",
           items: [
             "dayofinfamy-troubleshooting-common-issues",
           ]
@@ -1468,10 +1638,12 @@ const sidebars = {
     {
       type: "category",
       label: "DayZ",
+      key: "gameserver-dayz",
       items: [
         {
           type: "category",
           label: "First Steps",
+          key: "gameserver-first-steps-dayz",
           items: [
             "dayz-firststeps-dashboard",
             "dayz-firststeps-connect"
@@ -1480,6 +1652,7 @@ const sidebars = {
         {
           type: "category",
           label: "Configuration",
+          key: "gameserver-configuration-dayz",
           items: [
             "dayz-becomeadmin",
             "dayz-mods",
@@ -1489,6 +1662,7 @@ const sidebars = {
         {
           type: "category",
           label: "Troubleshooting",
+          key: "gameserver-troubleshooting-dayz",
           items: [
             "dayz-troubleshooting-common-issues",
           ]
@@ -1498,10 +1672,12 @@ const sidebars = {
     {
       type: "category",
       label: "DDraceNetwork",
+      key: "gameserver-ddracenetwork",
       items: [
         {
           type: "category",
           label: "First Steps",
+          key: "gameserver-first-steps-ddracenetwork",
           items: [
             "ddracenetwork-firststeps-dashboard",
             "ddracenetwork-firststeps-connect",
@@ -1510,6 +1686,7 @@ const sidebars = {
         {
           type: "category",
           label: "Troubleshooting",
+          key: "gameserver-troubleshooting-ddracenetwork",
           items: [
             "ddracenetwork-troubleshooting-common-issues",
           ]
@@ -1519,10 +1696,12 @@ const sidebars = {
     {
       type: "category",
       label: "Deadlock",
+      key: "gameserver-deadlock",
       items: [
         {
           type: "category",
           label: "First Steps",
+          key: "gameserver-first-steps-deadlock",
           items: [
             "deadlock-firststeps-dashboard",
             "deadlock-firststeps-connect",
@@ -1531,6 +1710,7 @@ const sidebars = {
         {
           type: "category",
           label: "Troubleshooting",
+          key: "gameserver-troubleshooting-deadlock",
           items: [
             "deadlock-troubleshooting-common-issues",
           ]
@@ -1540,10 +1720,12 @@ const sidebars = {
     {
       type: "category",
       label: "DeadPoly",
+      key: "gameserver-deadpoly",
       items: [
         {
           type: "category",
           label: "First Steps",
+          key: "gameserver-first-steps-deadpoly",
           items: [
             "deadpoly-firststeps-dashboard",
             "deadpoly-firststeps-connect",
@@ -1552,6 +1734,7 @@ const sidebars = {
         {
           type: "category",
           label: "Troubleshooting",
+          key: "gameserver-troubleshooting-deadpoly",
           items: [
             "deadpoly-troubleshooting-common-issues",
           ]
@@ -1561,10 +1744,12 @@ const sidebars = {
     {
       type: "category",
       label: "Don't Starve Together",
+      key: "gameserver-don-t-starve-together",
       items: [
         {
           type: "category",
           label: "First Steps",
+          key: "gameserver-first-steps-don-t-starve-together",
           items: [
             "dst-firststeps-dashboard",
             "dst-firststeps-connect"
@@ -1573,6 +1758,7 @@ const sidebars = {
         {
           type: "category",
           label: "Configuration",
+          key: "gameserver-configuration-don-t-starve-together",
           items: [
             "dst-create-cave"
           ]
@@ -1580,6 +1766,7 @@ const sidebars = {
         {
           type: "category",
           label: "Troubleshooting",
+          key: "gameserver-troubleshooting-don-t-starve-together",
           items: [
             "dst-troubleshooting-common-issues",
           ]
@@ -1589,10 +1776,12 @@ const sidebars = {
     {
       type: "category",
       label: "ECO",
+      key: "gameserver-eco",
       items: [
         {
           type: "category",
           label: "First Steps",
+          key: "gameserver-first-steps-eco",
           items: [
             "eco-firststeps-dashboard",
             "eco-firststeps-connect"
@@ -1601,6 +1790,7 @@ const sidebars = {
         {
           type: "category",
           label: "Configuration",
+          key: "gameserver-configuration-eco",
           items: [
             "eco-becomeadmin",
             "eco-whitelist"
@@ -1609,6 +1799,7 @@ const sidebars = {
         {
           type: "category",
           label: "Troubleshooting",
+          key: "gameserver-troubleshooting-eco",
           items: [
             "eco-troubleshooting-common-issues",
           ]
@@ -1618,10 +1809,12 @@ const sidebars = {
     {
       type: "category",
       label: "Empyrion",
+      key: "gameserver-empyrion",
       items: [
         {
           type: "category",
           label: "First Steps",
+          key: "gameserver-first-steps-empyrion",
           items: [
             "empyrion-firststeps-dashboard",
             "empyrion-firststeps-connect"
@@ -1630,6 +1823,7 @@ const sidebars = {
         {
           type: "category",
           label: "Configuration",
+          key: "gameserver-configuration-empyrion",
           items: [
             "empyrion-becomeadmin"
           ]
@@ -1637,6 +1831,7 @@ const sidebars = {
         {
           type: "category",
           label: "Troubleshooting",
+          key: "gameserver-troubleshooting-empyrion",
           items: [
             "empyrion-troubleshooting-common-issues",
           ]
@@ -1646,10 +1841,12 @@ const sidebars = {
 {
       type: "category",
       label: "Enshrouded",
+      key: "gameserver-enshrouded",
       items: [
         {
           type: "category",
           label: "First Steps",
+          key: "gameserver-first-steps-enshrouded",
           items: [
             "enshrouded-firststeps-dashboard",
             "enshrouded-firststeps-connect"
@@ -1658,6 +1855,7 @@ const sidebars = {
         {
           type: "category",
           label: "Configuration",
+          key: "gameserver-configuration-enshrouded",
           items: [
           "enshrouded-configuration",
           "enshrouded-server-savegames"
@@ -1666,6 +1864,7 @@ const sidebars = {
         {
           type: "category",
           label: "Troubleshooting",
+          key: "gameserver-troubleshooting-enshrouded",
           items: [
             "enshrouded-troubleshooting-common-issues",
           ]
@@ -1675,10 +1874,12 @@ const sidebars = {
     {
       type: "category",
       label: "Euro Truck Simulator 2",
+      key: "gameserver-euro-truck-simulator-2",
       items: [
         {
           type: "category",
           label: "First Steps",
+          key: "gameserver-first-steps-euro-truck-simulator-2",
           items: [
             "ets2-firststeps-dashboard",
             "ets2-firststeps-connect",
@@ -1688,6 +1889,7 @@ const sidebars = {
         {
           type: "category",
           label: "Configuration",
+          key: "gameserver-configuration-euro-truck-simulator-2",
           items: [
             "ets2-server-modding"
           ]
@@ -1695,6 +1897,7 @@ const sidebars = {
         {
           type: "category",
           label: "Troubleshooting",
+          key: "gameserver-troubleshooting-euro-truck-simulator-2",
           items: [
             "ets2-troubleshooting-common-issues",
           ]
@@ -1704,10 +1907,12 @@ const sidebars = {
     {
       type: "category",
       label: "Factorio",
+      key: "gameserver-factorio",
       items: [
         {
           type: "category",
           label: "First Steps",
+          key: "gameserver-first-steps-factorio",
           items: [
             "factorio-firststeps-dashboard",
             "factorio-firststeps-connect"
@@ -1716,6 +1921,7 @@ const sidebars = {
         {
           type: "category",
           label: "Configuration",
+          key: "gameserver-configuration-factorio",
           items: [
             "factorio-becomeadmin",
             "factorio-mods",
@@ -1725,6 +1931,7 @@ const sidebars = {
         {
           type: "category",
           label: "Troubleshooting",
+          key: "gameserver-troubleshooting-factorio",
           items: [
             "factorio-troubleshooting-common-issues",
           ]
@@ -1734,10 +1941,12 @@ const sidebars = {
     {
       type: "category",
       label: "FiveM",
+      key: "gameserver-fivem",
       items: [
         {
           type: "category",
           label: "First Steps",
+          key: "gameserver-first-steps-fivem",
           items: [
             "fivem-dashboard",
             "fivem-upvotes",
@@ -1751,6 +1960,7 @@ const sidebars = {
         {
           type: "category",
           label: "Configuration",
+          key: "gameserver-configuration-fivem",
           items: [
             "fivem-change-servericon",
             "fivem-server-customisation",
@@ -1773,6 +1983,7 @@ const sidebars = {
         {
           type: "category",
           label: "Resources",
+          key: "gameserver-resources-fivem",
           items: [
             "fivem-installresources",
             "fivem-sql-file-import",
@@ -1786,10 +1997,12 @@ const sidebars = {
         {
           type: "category",
           label: "Frameworks",
+          key: "gameserver-frameworks-fivem",
           items: [
             {
               type: "category",
               label: "ESX",
+              key: "gameserver-esx-frameworks",
               items: [
                 "fivem-esx-becomeadminoverdatabase",
                 "fivem-esx-addcarstoshop",
@@ -1801,6 +2014,7 @@ const sidebars = {
             {
               type: "category",
               label: "QBCore",
+              key: "gameserver-qbcore-frameworks",
               items: [
                 "fivem-qbcore-admin",
                 "fivem-qbcore-spawnpoints"
@@ -1811,6 +2025,7 @@ const sidebars = {
         {
           type: "category",
           label: "Troubleshooting",
+          key: "gameserver-troubleshooting-fivem",
           items: [
             "fivem-troubleshooting-common-issues",
             "fivem-resolve-dbconnection",
@@ -1823,10 +2038,12 @@ const sidebars = {
     {
       type: "category",
       label: "Foundry",
+      key: "gameserver-foundry",
       items: [
         {
           type: "category",
           label: "First Steps",
+          key: "gameserver-first-steps-foundry",
           items: [
             "foundry-firststeps-dashboard",
             "foundry-firststeps-connect"
@@ -1835,6 +2052,7 @@ const sidebars = {
         {
           type: "category",
           label: "Configuration",
+          key: "gameserver-configuration-foundry",
           items: [
             "foundry-configuration",
             "foundry-server-savegames",
@@ -1843,6 +2061,7 @@ const sidebars = {
         {
           type: "category",
           label: "Troubleshooting",
+          key: "gameserver-troubleshooting-foundry",
           items: [
             "foundry-troubleshooting-common-issues",
           ]
@@ -1852,10 +2071,12 @@ const sidebars = {
     {
       type: "category",
       label: "Garry's Mod",
+      key: "gameserver-garry-s-mod",
       items: [
         {
           type: "category",
           label: "First Steps",
+          key: "gameserver-first-steps-garry-s-mod",
           items: [
             "gmod-firststeps-dashboard",
             "gmod-firststeps-connect",
@@ -1865,6 +2086,7 @@ const sidebars = {
         {
           type: "category",
           label: "Configuration",
+          key: "gameserver-configuration-garry-s-mod",
           items: [
             "gmod-servercfg",
             "gmod-ttt",
@@ -1875,6 +2097,7 @@ const sidebars = {
         {
           type: "category",
           label: "Troubleshooting",
+          key: "gameserver-troubleshooting-garry-s-mod",
           items: [
             "gmod-troubleshooting-common-issues",
           ]
@@ -1884,10 +2107,12 @@ const sidebars = {
     {
       type: "category",
       label: "Ground Branch",
+      key: "gameserver-ground-branch",
       items: [
         {
           type: "category",
           label: "First Steps",
+          key: "gameserver-first-steps-ground-branch",
           items: [
             "groundbranch-firststeps-dashboard",
             "groundbranch-firststeps-connect",
@@ -1896,6 +2121,7 @@ const sidebars = {
         {
           type: "category",
           label: "Troubleshooting",
+          key: "gameserver-troubleshooting-ground-branch",
           items: [
             "groundbranch-troubleshooting-common-issues",
           ]
@@ -1905,10 +2131,12 @@ const sidebars = {
     {
       type: "category",
       label: "Half-Life 1",
+      key: "gameserver-half-life-1",
       items: [
         {
           type: "category",
           label: "First Steps",
+          key: "gameserver-first-steps-half-life-1",
           items: [
             "hl1-firststeps-dashboard",
             "hl1-firststeps-connect",
@@ -1917,6 +2145,7 @@ const sidebars = {
         {
           type: "category",
           label: "Configuration",
+          key: "gameserver-configuration-half-life-1",
           items: [
             "hl1-fastdl"
           ]
@@ -1924,6 +2153,7 @@ const sidebars = {
         {
           type: "category",
           label: "Troubleshooting",
+          key: "gameserver-troubleshooting-half-life-1",
           items: [
             "hl1-troubleshooting-common-issues",
           ]
@@ -1933,10 +2163,12 @@ const sidebars = {
     {
       type: "category",
       label: "Half-Life 2",
+      key: "gameserver-half-life-2",
       items: [
         {
           type: "category",
           label: "First Steps",
+          key: "gameserver-first-steps-half-life-2",
           items: [
             "hl2-firststeps-dashboard",
             "hl2-firststeps-connect",
@@ -1946,6 +2178,7 @@ const sidebars = {
         {
           type: "category",
           label: "Configuration",
+          key: "gameserver-configuration-half-life-2",
           items: [
             "hl2-fastdl",
             "hl2-rcon",
@@ -1956,6 +2189,7 @@ const sidebars = {
         {
           type: "category",
           label: "Troubleshooting",
+          key: "gameserver-troubleshooting-half-life-2",
           items: [
             "hl2-troubleshooting-common-issues",
           ]
@@ -1965,10 +2199,12 @@ const sidebars = {
     {
       type: "category",
       label: "Holdfast: Nations At War",
+      key: "gameserver-holdfast-nations-at-war",
       items: [
         {
           type: "category",
           label: "First Steps",
+          key: "gameserver-first-steps-holdfast-nations-at-war",
           items: [
             "holdfast-firststeps-dashboard",
             "holdfast-firststeps-connect",
@@ -1977,6 +2213,7 @@ const sidebars = {
         {
           type: "category",
           label: "Troubleshooting",
+          key: "gameserver-troubleshooting-holdfast-nations-at-war",
           items: [
             "holdfast-troubleshooting-common-issues",
           ]
@@ -1986,10 +2223,12 @@ const sidebars = {
     {
       type: "category",
       label: "HumanitZ",
+      key: "gameserver-humanitz",
       items: [
         {
           type: "category",
           label: "First Steps",
+          key: "gameserver-first-steps-humanitz",
           items: [
             "humanitz-firststeps-dashboard",
             "humanitz-firststeps-connect",
@@ -1998,6 +2237,7 @@ const sidebars = {
         {
           type: "category",
           label: "Troubleshooting",
+          key: "gameserver-troubleshooting-humanitz",
           items: [
             "humanitz-troubleshooting-common-issues",
           ]
@@ -2007,10 +2247,12 @@ const sidebars = {
     {
       type: "category",
       label: "Hurtworld",
+      key: "gameserver-hurtworld",
       items: [
         {
           type: "category",
           label: "First Steps",
+          key: "gameserver-first-steps-hurtworld",
           items: [
             "hurtworld-firststeps-dashboard",
           ]
@@ -2018,6 +2260,7 @@ const sidebars = {
         {
           type: "category",
           label: "Troubleshooting",
+          key: "gameserver-troubleshooting-hurtworld",
           items: [
             "hurtworld-troubleshooting-common-issues",
           ]
@@ -2027,10 +2270,12 @@ const sidebars = {
     {
       type: "category",
       label: "Icarus",
+      key: "gameserver-icarus",
       items: [
         {
           type: "category",
           label: "First Steps",
+          key: "gameserver-first-steps-icarus",
           items: [
             "icarus-firststeps-dashboard",
             "icarus-firststeps-connect"
@@ -2039,6 +2284,7 @@ const sidebars = {
         {
           type: "category",
           label: "Troubleshooting",
+          key: "gameserver-troubleshooting-icarus",
           items: [
             "icarus-troubleshooting-common-issues",
           ]
@@ -2048,10 +2294,12 @@ const sidebars = {
     {
       type: "category",
       label: "Insurgency: Sandstorm",
+      key: "gameserver-insurgency-sandstorm",
       items: [
         {
           type: "category",
           label: "First Steps",
+          key: "gameserver-first-steps-insurgency-sandstorm",
           items: [
             "insurgency-firststeps-dashboard",
             "insurgency-gslt",
@@ -2060,6 +2308,7 @@ const sidebars = {
         {
           type: "category",
           label: "Troubleshooting",
+          key: "gameserver-troubleshooting-insurgency-sandstorm",
           items: [
             "insurgency-troubleshooting-common-issues",
           ]
@@ -2069,10 +2318,12 @@ const sidebars = {
     {
       type: "category",
       label: "Iron Armada",
+      key: "gameserver-iron-armada",
       items: [
         {
           type: "category",
           label: "First Steps",
+          key: "gameserver-first-steps-iron-armada",
           items: [
             "ironarmada-firststeps-dashboard",
             "ironarmada-firststeps-connect",
@@ -2081,6 +2332,7 @@ const sidebars = {
         {
           type: "category",
           label: "Troubleshooting",
+          key: "gameserver-troubleshooting-iron-armada",
           items: [
             "ironarmada-troubleshooting-common-issues",
           ]
@@ -2090,10 +2342,12 @@ const sidebars = {
     {
       type: "category",
       label: "Journey of Life",
+      key: "gameserver-journey-of-life",
       items: [
         {
           type: "category",
           label: "First Steps",
+          key: "gameserver-first-steps-journey-of-life",
           items: [
             "jol-firststeps-dashboard",
           ]
@@ -2101,6 +2355,7 @@ const sidebars = {
         {
           type: "category",
           label: "Troubleshooting",
+          key: "gameserver-troubleshooting-journey-of-life",
           items: [
             "jol-troubleshooting-common-issues",
           ]
@@ -2110,10 +2365,12 @@ const sidebars = {
     {
       type: "category",
       label: "Killing Floor 2",
+      key: "gameserver-killing-floor-2",
       items: [
         {
           type: "category",
           label: "First Steps",
+          key: "gameserver-first-steps-killing-floor-2",
           items: [
             "killingfloor2-firststeps-dashboard",
             "killingfloor2-firststeps-connect"
@@ -2122,6 +2379,7 @@ const sidebars = {
         {
           type: "category",
           label: "Troubleshooting",
+          key: "gameserver-troubleshooting-killing-floor-2",
           items: [
             "killingfloor2-troubleshooting-common-issues",
           ]
@@ -2131,10 +2389,12 @@ const sidebars = {
     {
       type: "category",
       label: "Last Oasis",
+      key: "gameserver-last-oasis",
       items: [
         {
           type: "category",
           label: "First Steps",
+          key: "gameserver-first-steps-last-oasis",
           items: [
             "lastoasis-firststeps-dashboard"
           ]
@@ -2142,6 +2402,7 @@ const sidebars = {
         {
           type: "category",
           label: "Configuration",
+          key: "gameserver-configuration-last-oasis",
           items: [
             "lastoasis-createrealm",
             "lastoasis-multiple-oases"
@@ -2150,6 +2411,7 @@ const sidebars = {
         {
           type: "category",
           label: "Troubleshooting",
+          key: "gameserver-troubleshooting-last-oasis",
           items: [
             "lastoasis-troubleshooting-common-issues",
           ]
@@ -2159,10 +2421,12 @@ const sidebars = {
     {
       type: "category",
       label: "Leap",
+      key: "gameserver-leap",
       items: [
         {
           type: "category",
           label: "First Steps",
+          key: "gameserver-first-steps-leap",
           items: [
             "leap-firststeps-dashboard",
           ]
@@ -2170,6 +2434,7 @@ const sidebars = {
         {
           type: "category",
           label: "Troubleshooting",
+          key: "gameserver-troubleshooting-leap",
           items: [
             "leap-troubleshooting-common-issues",
           ]
@@ -2179,10 +2444,12 @@ const sidebars = {
     {
       type: "category",
       label: "Left 4 Dead 2",
+      key: "gameserver-left-4-dead-2",
       items: [
         {
           type: "category",
           label: "First Steps",
+          key: "gameserver-first-steps-left-4-dead-2",
           items: [
             "l4d2-firststeps-dashboard",
             "l4d2-firststeps-connect",
@@ -2192,6 +2459,7 @@ const sidebars = {
                 {
           type: "category",
           label: "Configuration",
+          key: "gameserver-configuration-left-4-dead-2",
           items: [
             "l4d2-fastdl",
             "l4d2-rcon",
@@ -2202,6 +2470,7 @@ const sidebars = {
         {
           type: "category",
           label: "Troubleshooting",
+          key: "gameserver-troubleshooting-left-4-dead-2",
           items: [
             "l4d2-troubleshooting-common-issues",
             "l4d2-troubleshooting-segmentation-fault"
@@ -2212,10 +2481,12 @@ const sidebars = {
     {
       type: "category",
       label: "Longvinter",
+      key: "gameserver-longvinter",
       items: [
         {
           type: "category",
           label: "First Steps",
+          key: "gameserver-first-steps-longvinter",
           items: [
             "longvinter-firststeps-dashboard",
             "longvinter-firststeps-connect",
@@ -2224,6 +2495,7 @@ const sidebars = {
         {
           type: "category",
           label: "Troubleshooting",
+          key: "gameserver-troubleshooting-longvinter",
           items: [
             "longvinter-troubleshooting-common-issues",
           ]
@@ -2233,10 +2505,12 @@ const sidebars = {
     {
       type: "category",
       label: "Minecraft",
+      key: "gameserver-minecraft",
       items: [
         {
           type: "category",
           label: "First Steps",
+          key: "gameserver-first-steps-minecraft",
           items: [
             "minecraft-firststeps-dashboard",
             "minecraft-firststeps-connect",
@@ -2246,6 +2520,7 @@ const sidebars = {
         {
           type: "category",
           label: "Configuration",
+          key: "gameserver-configuration-minecraft",
           items: [
             "minecraft-commands",
             "minecraft-addop",
@@ -2264,6 +2539,7 @@ const sidebars = {
         {
           type: "category",
           label: "Bedrock",
+          key: "gameserver-bedrock-minecraft",
           items: [
             "minecraft-bedrock-addons",
             "minecraft-bedrock-add-world"
@@ -2272,6 +2548,7 @@ const sidebars = {
         {
           type: "category",
           label: "Bungeecord",
+          key: "gameserver-bungeecord-minecraft",
           items: [
             "minecraft-bungeecord-config"
           ]
@@ -2279,6 +2556,7 @@ const sidebars = {
         {
           type: "category",
           label: "Forge & Fabric (Mods)",
+          key: "gameserver-forge-fabric-mods-minecraft",
           items: [
             "minecraft-forge-fabric-add-mods-modpacks"
           ]
@@ -2286,6 +2564,7 @@ const sidebars = {
         {
           type: "category",
           label: "Spigot & Bukkit (Plugins)",
+          key: "gameserver-spigot-bukkit-plugins-minecraft",
           items: [
             "minecraft-pluginuploader"
           ]
@@ -2293,6 +2572,7 @@ const sidebars = {
         {
           type: "category",
           label: "Troubleshooting",
+          key: "gameserver-troubleshooting-minecraft",
           items: [
             "minecraft-troubleshooting-common-issues",
             "minecraft-faultyworld"
@@ -2303,10 +2583,12 @@ const sidebars = {
     {
       type: "category",
       label: "Minetest",
+      key: "gameserver-minetest",
       items: [
         {
           type: "category",
           label: "First Steps",
+          key: "gameserver-first-steps-minetest",
           items: [
             "minetest-firststeps-dashboard",
           ]
@@ -2314,6 +2596,7 @@ const sidebars = {
         {
           type: "category",
           label: "Troubleshooting",
+          key: "gameserver-troubleshooting-minetest",
           items: [
             "minetest-troubleshooting-common-issues",
           ]
@@ -2323,10 +2606,12 @@ const sidebars = {
     {
       type: "category",
       label: "Miscreated",
+      key: "gameserver-miscreated",
       items: [
         {
           type: "category",
           label: "First Steps",
+          key: "gameserver-first-steps-miscreated",
           items: [
             "miscreated-firststeps-dashboard",
             "miscreated-firststeps-connect",
@@ -2337,10 +2622,12 @@ const sidebars = {
         {
       type: "category",
       label: "Mordhau",
+      key: "gameserver-mordhau",
       items: [
         {
           type: "category",
           label: "First Steps",
+          key: "gameserver-first-steps-mordhau",
           items: [
             "mordhau-firststeps-dashboard",
             "mordhau-firststeps-connect",
@@ -2351,10 +2638,12 @@ const sidebars = {
     {
       type: "category",
       label: "Motor Town: Behind The Wheel",
+      key: "gameserver-motor-town-behind-the-wheel",
       items: [
         {
           type: "category",
           label: "First Steps",
+          key: "gameserver-first-steps-motor-town-behind-the-wheel",
           items: [
             "motortown-firststeps-dashboard",
             "motortown-firststeps-connect",
@@ -2363,6 +2652,7 @@ const sidebars = {
         {
           type: "category",
           label: "Troubleshooting",
+          key: "gameserver-troubleshooting-motor-town-behind-the-wheel",
           items: [
             "motortown-troubleshooting-common-issues",
           ]
@@ -2372,10 +2662,12 @@ const sidebars = {
     {
       type: "category",
       label: "Mount & Blade",
+      key: "gameserver-mount-blade",
       items: [
         {
           type: "category",
           label: "First Steps",
+          key: "gameserver-first-steps-mount-blade",
           items: [
             "mountandblade-firststeps-dashboard",
           ]
@@ -2383,6 +2675,7 @@ const sidebars = {
         {
           type: "category",
           label: "Troubleshooting",
+          key: "gameserver-troubleshooting-mount-blade",
           items: [
             "mountandblade-troubleshooting-common-issues",
           ]
@@ -2392,10 +2685,12 @@ const sidebars = {
     {
       type: "category",
       label: "Multi Theft Auto",
+      key: "gameserver-multi-theft-auto",
       items: [
         {
           type: "category",
           label: "First Steps",
+          key: "gameserver-first-steps-multi-theft-auto",
           items: [
             "mta-firststeps-dashboard",
           ]
@@ -2403,6 +2698,7 @@ const sidebars = {
         {
           type: "category",
           label: "Configuration",
+          key: "gameserver-configuration-multi-theft-auto",
           items: [
             "mta-becomeadmin"
           ]
@@ -2410,6 +2706,7 @@ const sidebars = {
         {
           type: "category",
           label: "Troubleshooting",
+          key: "gameserver-troubleshooting-multi-theft-auto",
           items: [
             "mta-troubleshooting-common-issues",
           ]
@@ -2419,10 +2716,12 @@ const sidebars = {
     {
       type: "category",
       label: "Myth of Empires",
+      key: "gameserver-myth-of-empires",
       items: [
         {
           type: "category",
           label: "First Steps",
+          key: "gameserver-first-steps-myth-of-empires",
           items: [
             "moe-firststeps-dashboard",
             "moe-firststeps-connect"
@@ -2431,6 +2730,7 @@ const sidebars = {
         {
           type: "category",
           label: "Configuration",
+          key: "gameserver-configuration-myth-of-empires",
           items: [
             "moe-configuration",
             "moe-server-savegames",
@@ -2440,6 +2740,7 @@ const sidebars = {
         {
           type: "category",
           label: "Troubleshooting",
+          key: "gameserver-troubleshooting-myth-of-empires",
           items: [
             "moe-troubleshooting-common-issues",
           ]
@@ -2449,10 +2750,12 @@ const sidebars = {
     {
       type: "category",
       label: "Necesse",
+      key: "gameserver-necesse",
       items: [
         {
           type: "category",
           label: "First Steps",
+          key: "gameserver-first-steps-necesse",
           items: [
             "necesse-firststeps-dashboard",
             "necesse-firststeps-connect",
@@ -2461,6 +2764,7 @@ const sidebars = {
         {
           type: "category",
           label: "Troubleshooting",
+          key: "gameserver-troubleshooting-necesse",
           items: [
             "necesse-troubleshooting-common-issues",
           ]
@@ -2470,10 +2774,12 @@ const sidebars = {
     {
       type: "category",
       label: "Never Split the Party",
+      key: "gameserver-never-split-the-party",
       items: [
         {
           type: "category",
           label: "First Steps",
+          key: "gameserver-first-steps-never-split-the-party",
           items: [
             "nstp-firststeps-dashboard",
           ]
@@ -2481,6 +2787,7 @@ const sidebars = {
         {
           type: "category",
           label: "Troubleshooting",
+          key: "gameserver-troubleshooting-never-split-the-party",
           items: [
             "nstp-troubleshooting-common-issues",
           ]
@@ -2490,10 +2797,12 @@ const sidebars = {
     {
       type: "category",
       label: "Nienix",
+      key: "gameserver-nienix",
       items: [
         {
           type: "category",
           label: "First Steps",
+          key: "gameserver-first-steps-nienix",
           items: [
             "nienix-firststeps-dashboard",
           ]
@@ -2501,6 +2810,7 @@ const sidebars = {
         {
           type: "category",
           label: "Troubleshooting",
+          key: "gameserver-troubleshooting-nienix",
           items: [
             "nienix-troubleshooting-common-issues",
           ]
@@ -2510,10 +2820,12 @@ const sidebars = {
     {
       type: "category",
       label: "No More Room In Hell",
+      key: "gameserver-no-more-room-in-hell",
       items: [
         {
           type: "category",
           label: "First Steps",
+          key: "gameserver-first-steps-no-more-room-in-hell",
           items: [
             "nmrih-firststeps-dashboard",
             "nmrih-firststeps-connect"
@@ -2522,6 +2834,7 @@ const sidebars = {
         {
           type: "category",
           label: "Configuration",
+          key: "gameserver-configuration-no-more-room-in-hell",
           items: [
             "nmrih-fastdl",
             "nmrih-rcon",
@@ -2532,6 +2845,7 @@ const sidebars = {
         {
           type: "category",
           label: "Troubleshooting",
+          key: "gameserver-troubleshooting-no-more-room-in-hell",
           items: [
             "nmrih-troubleshooting-common-issues",
             "nmrih-troubleshooting-segmentation-fault"
@@ -2542,10 +2856,12 @@ const sidebars = {
     {
       type: "category",
       label: "No One Survived",
+      key: "gameserver-no-one-survived",
       items: [
         {
           type: "category",
           label: "First Steps",
+          key: "gameserver-first-steps-no-one-survived",
           items: [
             "noonesurvived-firststeps-dashboard",
           ]
@@ -2553,6 +2869,7 @@ const sidebars = {
         {
           type: "category",
           label: "Troubleshooting",
+          key: "gameserver-troubleshooting-no-one-survived",
           items: [
             "noonesurvived-troubleshooting-common-issues",
           ]
@@ -2562,10 +2879,12 @@ const sidebars = {
     {
       type: "category",
       label: "One Hour One Life",
+      key: "gameserver-one-hour-one-life",
       items: [
         {
           type: "category",
           label: "First Steps",
+          key: "gameserver-first-steps-one-hour-one-life",
           items: [
             "ohol-firststeps-dashboard",
           ]
@@ -2573,6 +2892,7 @@ const sidebars = {
         {
           type: "category",
           label: "Troubleshooting",
+          key: "gameserver-troubleshooting-one-hour-one-life",
           items: [
             "ohol-troubleshooting-common-issues",
           ]
@@ -2582,10 +2902,12 @@ const sidebars = {
     {
       type: "category",
       label: "Open.mp",
+      key: "gameserver-open-mp",
       items: [
         {
           type: "category",
           label: "First Steps",
+          key: "gameserver-first-steps-open-mp",
           items: [
             "openmp-firststeps-dashboard",
           ]
@@ -2593,6 +2915,7 @@ const sidebars = {
         {
           type: "category",
           label: "Configuration",
+          key: "gameserver-configuration-open-mp",
           items: [
             "openmp-configuration",
             "openmp-server-commands",
@@ -2602,6 +2925,7 @@ const sidebars = {
         {
           type: "category",
           label: "Troubleshooting",
+          key: "gameserver-troubleshooting-open-mp",
           items: [
             "openmp-troubleshooting-common-issues",
           ]
@@ -2611,10 +2935,12 @@ const sidebars = {
     {
       type: "category",
       label: "OpenTTD",
+      key: "gameserver-openttd",
       items: [
         {
           type: "category",
           label: "First Steps",
+          key: "gameserver-first-steps-openttd",
           items: [
             "openttd-firststeps-dashboard",
           ]
@@ -2622,6 +2948,7 @@ const sidebars = {
         {
           type: "category",
           label: "Troubleshooting",
+          key: "gameserver-troubleshooting-openttd",
           items: [
             "openttd-troubleshooting-common-issues",
           ]
@@ -2631,10 +2958,12 @@ const sidebars = {
     {
       type: "category",
       label: "Operation: Harsh Doorstop",
+      key: "gameserver-operation-harsh-doorstop",
       items: [
         {
           type: "category",
           label: "First Steps",
+          key: "gameserver-first-steps-operation-harsh-doorstop",
           items: [
             "ohd-firststeps-dashboard",
           ]
@@ -2642,6 +2971,7 @@ const sidebars = {
         {
           type: "category",
           label: "Troubleshooting",
+          key: "gameserver-troubleshooting-operation-harsh-doorstop",
           items: [
             "ohd-troubleshooting-common-issues",
           ]
@@ -2651,10 +2981,12 @@ const sidebars = {
     {
       type: "category",
       label: "Outlaws of the Old West",
+      key: "gameserver-outlaws-of-the-old-west",
       items: [
         {
           type: "category",
           label: "First Steps",
+          key: "gameserver-first-steps-outlaws-of-the-old-west",
           items: [
             "ootow-firststeps-dashboard",
           ]
@@ -2662,6 +2994,7 @@ const sidebars = {
         {
           type: "category",
           label: "Troubleshooting",
+          key: "gameserver-troubleshooting-outlaws-of-the-old-west",
           items: [
             "ootow-troubleshooting-common-issues",
           ]
@@ -2671,10 +3004,12 @@ const sidebars = {
 {
       type: "category",
       label: "Palworld",
+      key: "gameserver-palworld",
       items: [
         {
           type: "category",
           label: "First Steps",
+          key: "gameserver-first-steps-palworld",
           items: [
             "palworld-firststeps-dashboard",
             "palworld-connect"
@@ -2683,6 +3018,7 @@ const sidebars = {
         {
           type: "category",
           label: "Configuration",
+          key: "gameserver-configuration-palworld",
           items: [
             "palworld-configuration",
             "palworld-server-commands",
@@ -2695,6 +3031,7 @@ const sidebars = {
         {
           type: "category",
           label: "Troubleshooting",
+          key: "gameserver-troubleshooting-palworld",
           items: [
             "palworld-troubleshooting-common-issues",
           ]
@@ -2704,10 +3041,12 @@ const sidebars = {
     {
       type: "category",
       label: "Path of Titans",
+      key: "gameserver-path-of-titans",
       items: [
         {
           type: "category",
           label: "First Steps",
+          key: "gameserver-first-steps-path-of-titans",
           items: [
             "pathoftitans-firststeps-dashboard"
           ]
@@ -2715,6 +3054,7 @@ const sidebars = {
         {
           type: "category",
           label: "Configuration",
+          key: "gameserver-configuration-path-of-titans",
           items: [
             "pathoftitans-becomeadmin",
           ]
@@ -2722,6 +3062,7 @@ const sidebars = {
         {
           type: "category",
           label: "Troubleshooting",
+          key: "gameserver-troubleshooting-path-of-titans",
           items: [
             "pathoftitans-troubleshooting-common-issues",
           ]
@@ -2731,10 +3072,12 @@ const sidebars = {
     {
       type: "category",
       label: "PixARK",
+      key: "gameserver-pixark",
       items: [
         {
           type: "category",
           label: "First Steps",
+          key: "gameserver-first-steps-pixark",
           items: [
             "pixark-firststeps-dashboard",
           ]
@@ -2742,6 +3085,7 @@ const sidebars = {
         {
           type: "category",
           label: "Troubleshooting",
+          key: "gameserver-troubleshooting-pixark",
           items: [
             "pixark-troubleshooting-common-issues",
           ]
@@ -2751,10 +3095,12 @@ const sidebars = {
     {
       type: "category",
       label: "Portal Knights",
+      key: "gameserver-portal-knights",
       items: [
         {
           type: "category",
           label: "First Steps",
+          key: "gameserver-first-steps-portal-knights",
           items: [
             "portalknights-firststeps-dashboard",
           ]
@@ -2762,6 +3108,7 @@ const sidebars = {
         {
           type: "category",
           label: "Troubleshooting",
+          key: "gameserver-troubleshooting-portal-knights",
           items: [
             "portalknights-troubleshooting-common-issues",
           ]
@@ -2771,10 +3118,12 @@ const sidebars = {
     {
       type: "category",
       label: "Project Zomboid",
+      key: "gameserver-project-zomboid",
       items: [
         {
           type: "category",
           label: "First Steps",
+          key: "gameserver-first-steps-project-zomboid",
           items: [
             "projectzomboid-firststeps-dashboard",
             "projectzomboid-firststeps-connect"
@@ -2783,6 +3132,7 @@ const sidebars = {
                 {
           type: "category",
           label: "Configuration",
+          key: "gameserver-configuration-project-zomboid",
           items: [
             "projectzomboid-rcon",
           ]
@@ -2790,6 +3140,7 @@ const sidebars = {
         {
           type: "category",
           label: "Troubleshooting",
+          key: "gameserver-troubleshooting-project-zomboid",
           items: [
             "projectzomboid-troubleshooting-common-issues",
           ]
@@ -2799,10 +3150,12 @@ const sidebars = {
     {
       type: "category",
       label: "RedM",
+      key: "gameserver-redm",
       items: [
         {
           type: "category",
           label: "First Steps",
+          key: "gameserver-first-steps-redm",
           items: [
             "redm-firststeps-dashboard",
             'redm-upvotes',
@@ -2814,6 +3167,7 @@ const sidebars = {
         {
           type: "category",
           label: "Configuration",
+          key: "gameserver-configuration-redm",
           items: [
             
             "redm-change-servericon",
@@ -2831,6 +3185,7 @@ const sidebars = {
         {
           type: "category",
           label: "Resources",
+          key: "gameserver-resources-redm",
           items: [
             "redm-installresources",
             "redm-sql-file-import"
@@ -2839,6 +3194,7 @@ const sidebars = {
         {
           type: "category",
           label: "Troubleshooting",
+          key: "gameserver-troubleshooting-redm",
           items: [
             "redm-troubleshooting-common-issues",
             "redm-prohibited-resources"
@@ -2849,10 +3205,12 @@ const sidebars = {
     {
       type: "category",
       label: "Reign of Kings",
+      key: "gameserver-reign-of-kings",
       items: [
         {
           type: "category",
           label: "First Steps",
+          key: "gameserver-first-steps-reign-of-kings",
           items: [
             "reignofkings-firststeps-dashboard",
           ]
@@ -2860,6 +3218,7 @@ const sidebars = {
         {
           type: "category",
           label: "Troubleshooting",
+          key: "gameserver-troubleshooting-reign-of-kings",
           items: [
             "reignofkings-troubleshooting-common-issues",
           ]
@@ -2869,10 +3228,12 @@ const sidebars = {
     {
       type: "category",
       label: "RimWorld Together",
+      key: "gameserver-rimworld-together",
       items: [
         {
           type: "category",
           label: "First Steps",
+          key: "gameserver-first-steps-rimworld-together",
           items: [
             "rimworldtogether-firststeps-dashboard"
           ]
@@ -2880,6 +3241,7 @@ const sidebars = {
         {
           type: "category",
           label: "Configuration",
+          key: "gameserver-configuration-rimworld-together",
           items: [
             "rimworldtogether-configuration",
             "rimworldtogether-server-savegames",
@@ -2889,6 +3251,7 @@ const sidebars = {
         {
           type: "category",
           label: "Troubleshooting",
+          key: "gameserver-troubleshooting-rimworld-together",
           items: [
             "rimworldtogether-troubleshooting-common-issues",
           ]
@@ -2898,10 +3261,12 @@ const sidebars = {
     {
       type: "category",
       label: "Rising Storm 2",
+      key: "gameserver-rising-storm-2",
       items: [
         {
           type: "category",
           label: "First Steps",
+          key: "gameserver-first-steps-rising-storm-2",
           items: [
             "risingstorm2-firststeps-dashboard",
           ]
@@ -2909,6 +3274,7 @@ const sidebars = {
         {
           type: "category",
           label: "Troubleshooting",
+          key: "gameserver-troubleshooting-rising-storm-2",
           items: [
             "risingstorm2-troubleshooting-common-issues",
           ]
@@ -2918,10 +3284,12 @@ const sidebars = {
     {
       type: "category",
       label: "Risk of Rain 2",
+      key: "gameserver-risk-of-rain-2",
       items: [
         {
           type: "category",
           label: "First Steps",
+          key: "gameserver-first-steps-risk-of-rain-2",
           items: [
             "riskofrain2-firststeps-dashboard",
           ]
@@ -2929,6 +3297,7 @@ const sidebars = {
         {
           type: "category",
           label: "Troubleshooting",
+          key: "gameserver-troubleshooting-risk-of-rain-2",
           items: [
             "riskofrain2-troubleshooting-common-issues",
           ]
@@ -2938,10 +3307,12 @@ const sidebars = {
     {
       type: "category",
       label: "Rising World",
+      key: "gameserver-rising-world",
       items: [
         {
           type: "category",
           label: "First Steps",
+          key: "gameserver-first-steps-rising-world",
           items: [
             "risingworld-firststeps-dashboard",
           ]
@@ -2949,6 +3320,7 @@ const sidebars = {
         {
           type: "category",
           label: "Troubleshooting",
+          key: "gameserver-troubleshooting-rising-world",
           items: [
             "risingworld-troubleshooting-common-issues",
           ]
@@ -2958,10 +3330,12 @@ const sidebars = {
     {
       type: "category",
       label: "Rust",
+      key: "gameserver-rust",
       items: [
         {
           type: "category",
           label: "First Steps",
+          key: "gameserver-first-steps-rust",
           items: [
             "rust-firststeps-dashboard",
             "rust-firststeps-connect"          
@@ -2970,6 +3344,7 @@ const sidebars = {
         {
           type: "category",
           label: "Configuration",
+          key: "gameserver-configuration-rust",
           items: [
             "rust-becomeadmin",
             "rust-connectrcon",
@@ -2981,6 +3356,7 @@ const sidebars = {
         {
           type: "category",
           label: "Troubleshooting",
+          key: "gameserver-troubleshooting-rust",
           items: [
             "rust-troubleshooting-common-issues",
           ]
@@ -2990,10 +3366,12 @@ const sidebars = {
     {
       type: "category",
       label: "Sanctuary Island",
+      key: "gameserver-sanctuary-island",
       items: [
         {
           type: "category",
           label: "First Steps",
+          key: "gameserver-first-steps-sanctuary-island",
           items: [
             "sanctuaryisland-firststeps-dashboard",
           ]
@@ -3001,6 +3379,7 @@ const sidebars = {
         {
           type: "category",
           label: "Troubleshooting",
+          key: "gameserver-troubleshooting-sanctuary-island",
           items: [
             "sanctuaryisland-troubleshooting-common-issues",
           ]
@@ -3010,10 +3389,12 @@ const sidebars = {
     {
       type: "category",
       label: "Satisfactory",
+      key: "gameserver-satisfactory",
       items: [
         {
           type: "category",
           label: "First Steps",
+          key: "gameserver-first-steps-satisfactory",
           items: [
             "satisfactory-firststeps-dashboard",
           ]
@@ -3021,6 +3402,7 @@ const sidebars = {
         {
           type: "category",
           label: "Configuration",
+          key: "gameserver-configuration-satisfactory",
           items: [
             "satisfactory-connect-experimental",
             "satisfactory-savegame",
@@ -3033,6 +3415,7 @@ const sidebars = {
         {
           type: "category",
           label: "Troubleshooting",
+          key: "gameserver-troubleshooting-satisfactory",
           items: [
             "satisfactory-troubleshooting-common-issues",
           ]
@@ -3042,10 +3425,12 @@ const sidebars = {
         {
       type: "category",
       label: "SCP: 5K",
+      key: "gameserver-scp-5k",
       items: [
         {
           type: "category",
           label: "First Steps",
+          key: "gameserver-first-steps-scp-5k",
           items: [
             "scp5k-firststeps-dashboard"
           ]
@@ -3053,6 +3438,7 @@ const sidebars = {
         {
           type: "category",
           label: "Troubleshooting",
+          key: "gameserver-troubleshooting-scp-5k",
           items: [
             "scp5k-troubleshooting-common-issues",
           ]
@@ -3062,10 +3448,12 @@ const sidebars = {
     {
       type: "category",
       label: "SCP: Containment Breach",
+      key: "gameserver-scp-containment-breach",
       items: [
         {
           type: "category",
           label: "First Steps",
+          key: "gameserver-first-steps-scp-containment-breach",
           items: [
             "scp-containmentbreach-firststeps-dashboard",
             "scp-containmentbreach-firststeps-connect",            
@@ -3074,6 +3462,7 @@ const sidebars = {
         {
           type: "category",
           label: "Troubleshooting",
+          key: "gameserver-troubleshooting-scp-containment-breach",
           items: [
             "scp-containmentbreach-troubleshooting-common-issues",
           ]
@@ -3083,10 +3472,12 @@ const sidebars = {
         {
       type: "category",
       label: "SCP: Escape Together",
+      key: "gameserver-scp-escape-together",
       items: [
         {
           type: "category",
           label: "First Steps",
+          key: "gameserver-first-steps-scp-escape-together",
           items: [
             "scp-escapetogether-firststeps-dashboard",       
             "scp-escapetogether-firststeps-connect",      
@@ -3095,6 +3486,7 @@ const sidebars = {
         {
           type: "category",
           label: "Troubleshooting",
+          key: "gameserver-troubleshooting-scp-escape-together",
           items: [
             "scp-escapetogether-troubleshooting-common-issues",
           ]
@@ -3104,10 +3496,12 @@ const sidebars = {
     {
       type: "category",
       label: "SCP: Secret Laboratory",
+      key: "gameserver-scp-secret-laboratory",
       items: [
         {
           type: "category",
           label: "First Steps",
+          key: "gameserver-first-steps-scp-secret-laboratory",
           items: [
             'scp-firststeps-dashboard',
             "scp-firststeps-connect",
@@ -3116,6 +3510,7 @@ const sidebars = {
         {
           type: "category",
           label: "Configuration",
+          key: "gameserver-configuration-scp-secret-laboratory",
           items: [
             "scp-beta-version",		
             "scp-becomeadmin",
@@ -3127,6 +3522,7 @@ const sidebars = {
         {
           type: "category",
           label: "Exiled",
+          key: "gameserver-exiled-scp-secret-laboratory",
           items: [
             "exiled-plugins"
           ]
@@ -3134,6 +3530,7 @@ const sidebars = {
         {
           type: "category",
           label: "Troubleshooting",
+          key: "gameserver-troubleshooting-scp-secret-laboratory",
           items: [
             "scp-troubleshooting-common-issues",
           ]
@@ -3144,10 +3541,12 @@ const sidebars = {
     {
       type: "category",
       label: "SCUM",
+      key: "gameserver-scum",
       items: [
         {
           type: "category",
           label: "First Steps",
+          key: "gameserver-first-steps-scum",
           items: [
             'scum-firststeps-dashboard',
             'scum-firststeps-connect',
@@ -3156,6 +3555,7 @@ const sidebars = {
         {
           type: "category",
           label: "Configuration",
+          key: "gameserver-configuration-scum",
           items: [
             'scum-becomeadmin',
           ]
@@ -3163,6 +3563,7 @@ const sidebars = {
         {
           type: "category",
           label: "Troubleshooting",
+          key: "gameserver-troubleshooting-scum",
           items: [
             "scum-troubleshooting-common-issues",
           ]
@@ -3172,10 +3573,12 @@ const sidebars = {
     {
       type: "category",
       label: "Soldat",
+      key: "gameserver-soldat",
       items: [
         {
           type: "category",
           label: "First Steps",
+          key: "gameserver-first-steps-soldat",
           items: [
             "soldat-firststeps-dashboard",
           ]
@@ -3183,6 +3586,7 @@ const sidebars = {
         {
           type: "category",
           label: "Troubleshooting",
+          key: "gameserver-troubleshooting-soldat",
           items: [
             "soldat-troubleshooting-common-issues",
           ]
@@ -3192,10 +3596,12 @@ const sidebars = {
     {
       type: "category",
       label: "Sons of the Forest",
+      key: "gameserver-sons-of-the-forest",
       items: [
         {
           type: "category",
           label: "First Steps",
+          key: "gameserver-first-steps-sons-of-the-forest",
           items: [
             "sonsoftheforest-firststeps-dashboard",
             "sonsoftheforest-firststeps-connect",
@@ -3204,6 +3610,7 @@ const sidebars = {
         {
           type: "category",
           label: "Troubleshooting",
+          key: "gameserver-troubleshooting-sons-of-the-forest",
           items: [
             "sonsoftheforest-troubleshooting-common-issues",
           ]
@@ -3213,10 +3620,12 @@ const sidebars = {
     {
       type: "category",
       label: "Soulmask",
+      key: "gameserver-soulmask",
       items: [
         {
           type: "category",
           label: "First Steps",
+          key: "gameserver-first-steps-soulmask",
           items: [
             "soulmask-firststeps-dashboard"
           ]
@@ -3224,6 +3633,7 @@ const sidebars = {
         {
           type: "category",
           label: "Configuration",
+          key: "gameserver-configuration-soulmask",
           items: [
             "soulmask-configuration",
             "soulmask-server-savegames",
@@ -3232,6 +3642,7 @@ const sidebars = {
         {
           type: "category",
           label: "Troubleshooting",
+          key: "gameserver-troubleshooting-soulmask",
           items: [
             "soulmask-troubleshooting-common-issues",
           ]
@@ -3241,10 +3652,12 @@ const sidebars = {
     {
       type: "category",
       label: "Space Engineers",
+      key: "gameserver-space-engineers",
       items: [
         {
           type: "category",
           label: "First Steps",
+          key: "gameserver-first-steps-space-engineers",
           items: [
             "spaceengineers-firststeps-dashboard"
           ]
@@ -3252,6 +3665,7 @@ const sidebars = {
         {
           type: "category",
           label: "Configuration",
+          key: "gameserver-configuration-space-engineers",
           items: [
             "spaceengineers-becomeadmin",
             "spaceengineers-addmods"
@@ -3260,6 +3674,7 @@ const sidebars = {
         {
           type: "category",
           label: "Troubleshooting",
+          key: "gameserver-troubleshooting-space-engineers",
           items: [
             "spaceengineers-troubleshooting-common-issues",
           ]
@@ -3269,10 +3684,12 @@ const sidebars = {
     {
       type: "category",
       label: "Squad",
+      key: "gameserver-squad",
       items: [
         {
           type: "category",
           label: "First Steps",
+          key: "gameserver-first-steps-squad",
           items: [
             "squad-firststeps-dashboard",
             "squad-firststeps-connect",
@@ -3281,6 +3698,7 @@ const sidebars = {
         {
           type: "category",
           label: "Troubleshooting",
+          key: "gameserver-troubleshooting-squad",
           items: [
             "squad-troubleshooting-common-issues",
           ]
@@ -3290,10 +3708,12 @@ const sidebars = {
     {
       type: "category",
       label: "Starbound",
+      key: "gameserver-starbound",
       items: [
         {
           type: "category",
           label: "First Steps",
+          key: "gameserver-first-steps-starbound",
           items: [
             "starbound-firststeps-dashboard",
           ]
@@ -3301,6 +3721,7 @@ const sidebars = {
         {
           type: "category",
           label: "Troubleshooting",
+          key: "gameserver-troubleshooting-starbound",
           items: [
             "starbound-troubleshooting-common-issues",
           ]
@@ -3310,10 +3731,12 @@ const sidebars = {
     {
       type: "category",
       label: "Starmade",
+      key: "gameserver-starmade",
       items: [
         {
           type: "category",
           label: "First Steps",
+          key: "gameserver-first-steps-starmade",
           items: [
             "starmade-firststeps-dashboard",
           ]
@@ -3321,6 +3744,7 @@ const sidebars = {
         {
           type: "category",
           label: "Troubleshooting",
+          key: "gameserver-troubleshooting-starmade",
           items: [
             "starmade-troubleshooting-common-issues",
           ]
@@ -3330,10 +3754,12 @@ const sidebars = {
     {
       type: "category",
       label: "Staxel",
+      key: "gameserver-staxel",
       items: [
         {
           type: "category",
           label: "First Steps",
+          key: "gameserver-first-steps-staxel",
           items: [
             "staxel-firststeps-dashboard",
           ]
@@ -3341,6 +3767,7 @@ const sidebars = {
         {
           type: "category",
           label: "Troubleshooting",
+          key: "gameserver-troubleshooting-staxel",
           items: [
             "staxel-troubleshooting-common-issues",
           ]
@@ -3350,10 +3777,12 @@ const sidebars = {
     {
       type: "category",
       label: "Stormworks",
+      key: "gameserver-stormworks",
       items: [
         {
           type: "category",
           label: "First Steps",
+          key: "gameserver-first-steps-stormworks",
           items: [
             "stormworks-firststeps-dashboard",
           ]
@@ -3361,6 +3790,7 @@ const sidebars = {
         {
           type: "category",
           label: "Configuration",
+          key: "gameserver-configuration-stormworks",
           items: [
             "stormworks-becomeadmin"
           ]
@@ -3368,6 +3798,7 @@ const sidebars = {
         {
           type: "category",
           label: "Troubleshooting",
+          key: "gameserver-troubleshooting-stormworks",
           items: [
             "stormworks-troubleshooting-common-issues",
           ]
@@ -3377,10 +3808,12 @@ const sidebars = {
     {
       type: "category",
       label: "Subsistence",
+      key: "gameserver-subsistence",
       items: [
         {
           type: "category",
           label: "First Steps",
+          key: "gameserver-first-steps-subsistence",
           items: [
             "subsistence-firststeps-dashboard",
           ]
@@ -3388,6 +3821,7 @@ const sidebars = {
         {
           type: "category",
           label: "Troubleshooting",
+          key: "gameserver-troubleshooting-subsistence",
           items: [
             "subsistence-troubleshooting-common-issues",
           ]
@@ -3397,10 +3831,12 @@ const sidebars = {
     {
       type: "category",
       label: "Sunkenland",
+      key: "gameserver-sunkenland",
       items: [
         {
           type: "category",
           label: "First Steps",
+          key: "gameserver-first-steps-sunkenland",
           items: [
             "sunkenland-firststeps-dashboard",
             "sunkenland-setup-server",
@@ -3409,6 +3845,7 @@ const sidebars = {
         {
           type: "category",
           label: "Troubleshooting",
+          key: "gameserver-troubleshooting-sunkenland",
           items: [
             "sunkenland-troubleshooting-common-issues",
           ]
@@ -3418,10 +3855,12 @@ const sidebars = {
     {
       type: "category",
       label: "Team Fortress 2",
+      key: "gameserver-team-fortress-2",
       items: [
         {
           type: "category",
           label: "First Steps",
+          key: "gameserver-first-steps-team-fortress-2",
           items: [
             "tf2-firststeps-dashboard",
             "tf2-firststeps-connect",
@@ -3431,6 +3870,7 @@ const sidebars = {
         {
           type: "category",
           label: "Configuration",
+          key: "gameserver-configuration-team-fortress-2",
           items: [
             "tf2-fastdl",
             "tf2-rcon",
@@ -3441,6 +3881,7 @@ const sidebars = {
         {
           type: "category",
           label: "Troubleshooting",
+          key: "gameserver-troubleshooting-team-fortress-2",
           items: [
             "tf2-troubleshooting-common-issues",
             "tf2-troubleshooting-segmentation-fault"
@@ -3451,10 +3892,12 @@ const sidebars = {
     {
       type: "category",
       label: "Teeworlds",
+      key: "gameserver-teeworlds",
       items: [
         {
           type: "category",
           label: "First Steps",
+          key: "gameserver-first-steps-teeworlds",
           items: [
             "teeworlds-firststeps-dashboard",
           ]
@@ -3462,6 +3905,7 @@ const sidebars = {
         {
           type: "category",
           label: "Troubleshooting",
+          key: "gameserver-troubleshooting-teeworlds",
           items: [
             "teeworlds-troubleshooting-common-issues",
           ]
@@ -3471,10 +3915,12 @@ const sidebars = {
     {
       type: "category",
       label: "Terraria",
+      key: "gameserver-terraria",
       items: [
         {
           type: "category",
           label: "First Steps",
+          key: "gameserver-first-steps-terraria",
           items: [
             "terraria-firststeps-dashboard"
           ]
@@ -3482,6 +3928,7 @@ const sidebars = {
         {
           type: "category",
           label: "Configuration",
+          key: "gameserver-configuration-terraria",
           items: [
             "terraria-tshock-add-admin",
             "terraria-tmodloader-installmod"
@@ -3490,6 +3937,7 @@ const sidebars = {
         {
           type: "category",
           label: "Troubleshooting",
+          key: "gameserver-troubleshooting-terraria",
           items: [
             "terraria-troubleshooting-common-issues",
           ]
@@ -3499,10 +3947,12 @@ const sidebars = {
     {
       type: "category",
       label: "Terratech Worlds",
+      key: "gameserver-terratech-worlds",
       items: [
         {
           type: "category",
           label: "First Steps",
+          key: "gameserver-first-steps-terratech-worlds",
           items: [
             "terratech-worlds-firststeps-dashboard"
           ]
@@ -3510,6 +3960,7 @@ const sidebars = {
         {
           type: "category",
           label: "Troubleshooting",
+          key: "gameserver-troubleshooting-terratech-worlds",
           items: [
             "terratech-worlds-troubleshooting-common-issues",
           ]
@@ -3519,10 +3970,12 @@ const sidebars = {
         {
       type: "category",
       label: "The Bus",
+      key: "gameserver-the-bus",
       items: [
         {
           type: "category",
           label: "First Steps",
+          key: "gameserver-first-steps-the-bus",
           items: [
             "thebus-firststeps-dashboard",
             "thebus-firststeps-connect"
@@ -3531,6 +3984,7 @@ const sidebars = {
         {
           type: "category",
           label: "Troubleshooting",
+          key: "gameserver-troubleshooting-the-bus",
           items: [
             "thebus-troubleshooting-common-issues",
           ]
@@ -3540,10 +3994,12 @@ const sidebars = {
     {
       type: "category",
       label: "The Front",
+      key: "gameserver-the-front",
       items: [
         {
           type: "category",
           label: "First Steps",
+          key: "gameserver-first-steps-the-front",
           items: [
             "thefront-firststeps-dashboard",
           ]
@@ -3551,6 +4007,7 @@ const sidebars = {
         {
           type: "category",
           label: "Troubleshooting",
+          key: "gameserver-troubleshooting-the-front",
           items: [
             "thefront-troubleshooting-common-issues",
           ]
@@ -3560,10 +4017,12 @@ const sidebars = {
     {
       type: "category",
       label: "The Isle",
+      key: "gameserver-the-isle",
       items: [
         {
           type: "category",
           label: "First Steps",
+          key: "gameserver-first-steps-the-isle",
           items: [
             "theisle-firststeps-dashboard",
           ]
@@ -3571,6 +4030,7 @@ const sidebars = {
         {
           type: "category",
           label: "Troubleshooting",
+          key: "gameserver-troubleshooting-the-isle",
           items: [
             "theisle-troubleshooting-common-issues",
           ]
@@ -3580,10 +4040,12 @@ const sidebars = {
     {
       type: "category",
       label: "The Lord of the Rings: RTM",
+      key: "gameserver-the-lord-of-the-rings-rtm",
       items: [
         {
           type: "category",
           label: "First Steps",
+          key: "gameserver-first-steps-the-lord-of-the-rings-rtm",
           items: [
             "lotr-rtm-firststeps-dashboard",
             "lotr-rtm-firststeps-connect"
@@ -3592,6 +4054,7 @@ const sidebars = {
         {
           type: "category",
           label: "Troubleshooting",
+          key: "gameserver-troubleshooting-the-lord-of-the-rings-rtm",
           items: [
             "lotr-rtm-troubleshooting-common-issues",
           ]
@@ -3601,10 +4064,12 @@ const sidebars = {
     {
       type: "category",
       label: "Unfortunate Spacemen",
+      key: "gameserver-unfortunate-spacemen",
       items: [
         {
           type: "category",
           label: "First Steps",
+          key: "gameserver-first-steps-unfortunate-spacemen",
           items: [
             "unfortunate-spacemen-firststeps-dashboard",
           ]
@@ -3612,6 +4077,7 @@ const sidebars = {
         {
           type: "category",
           label: "Troubleshooting",
+          key: "gameserver-troubleshooting-unfortunate-spacemen",
           items: [
             "unfortunate-spacemen-troubleshooting-common-issues",
           ]
@@ -3621,10 +4087,12 @@ const sidebars = {
     {
       type: "category",
       label: "Unturned",
+      key: "gameserver-unturned",
       items: [
         {
           type: "category",
           label: "First Steps",
+          key: "gameserver-first-steps-unturned",
           items: [
             "unturned-firststeps-dashboard",
             "unturned-firststeps-connect"
@@ -3633,6 +4101,7 @@ const sidebars = {
         {
           type: "category",
           label: "Configuration",
+          key: "gameserver-configuration-unturned",
           items: [
             "unturned-becomeadmin",
             "unturned-workshop",
@@ -3643,6 +4112,7 @@ const sidebars = {
         {
           type: "category",
           label: "RocketMod",
+          key: "gameserver-rocketmod-unturned",
           items: [
             "unturned-rocketmod-plugins",
             "unturned-rocketmod-permissions"
@@ -3651,6 +4121,7 @@ const sidebars = {
         {
           type: "category",
           label: "Troubleshooting",
+          key: "gameserver-troubleshooting-unturned",
           items: [
             "unturned-troubleshooting-common-issues",
           ]
@@ -3660,10 +4131,12 @@ const sidebars = {
         {
       type: "category",
       label: "Valheim",
+      key: "gameserver-valheim",
       items: [
         {
           type: "category",
           label: "First Steps",
+          key: "gameserver-first-steps-valheim",
           items: [
             "valheim-firststeps-dashboard",
             "valheim-firststeps-connect",
@@ -3672,6 +4145,7 @@ const sidebars = {
         {
           type: "category",
           label: "Configuration",
+          key: "gameserver-configuration-valheim",
           items: [
             "valheim-savegame",
             "valheim-backup-schedule",
@@ -3683,6 +4157,7 @@ const sidebars = {
         {
           type: "category",
           label: "Troubleshooting",
+          key: "gameserver-troubleshooting-valheim",
           items: [
             "valheim-troubleshooting-common-issues",
             "valheim-serverlisting",
@@ -3693,10 +4168,12 @@ const sidebars = {
     {
       type: "category",
       label: "Vein",
+      key: "gameserver-vein",
       items: [
         {
           type: "category",
           label: "First Steps",
+          key: "gameserver-first-steps-vein",
           items: [
             "vein-firststeps-dashboard",
           ]
@@ -3704,6 +4181,7 @@ const sidebars = {
         {
           type: "category",
           label: "Troubleshooting",
+          key: "gameserver-troubleshooting-vein",
           items: [
             "vein-troubleshooting-common-issues",
           ]
@@ -3713,10 +4191,12 @@ const sidebars = {
     {
       type: "category",
       label: "Veloren",
+      key: "gameserver-veloren",
       items: [
         {
           type: "category",
           label: "First Steps",
+          key: "gameserver-first-steps-veloren",
           items: [
             "veloren-firststeps-dashboard",
           ]
@@ -3724,6 +4204,7 @@ const sidebars = {
         {
           type: "category",
           label: "Troubleshooting",
+          key: "gameserver-troubleshooting-veloren",
           items: [
             "veloren-troubleshooting-common-issues",
           ]
@@ -3733,10 +4214,12 @@ const sidebars = {
     {
       type: "category",
       label: "Vintage Story",
+      key: "gameserver-vintage-story",
       items: [
         {
           type: "category",
           label: "First Steps",
+          key: "gameserver-first-steps-vintage-story",
           items: [
             "vintagestory-firststeps-dashboard",
           ]
@@ -3744,6 +4227,7 @@ const sidebars = {
         {
           type: "category",
           label: "Troubleshooting",
+          key: "gameserver-troubleshooting-vintage-story",
           items: [
             "vintagestory-troubleshooting-common-issues",
           ]
@@ -3753,10 +4237,12 @@ const sidebars = {
     {
       type: "category",
       label: "Voyagers of Nera",
+      key: "gameserver-voyagers-of-nera",
       items: [
         {
           type: "category",
           label: "First Steps",
+          key: "gameserver-first-steps-voyagers-of-nera",
           items: [
             "voyagers-of-nera-firststeps-dashboard",
             "voyagers-of-nera-firststeps-connect",
@@ -3765,6 +4251,7 @@ const sidebars = {
         {
           type: "category",
           label: "Troubleshooting",
+          key: "gameserver-troubleshooting-voyagers-of-nera",
           items: [
             "voyagers-of-nera-troubleshooting-common-issues",
           ]
@@ -3774,10 +4261,12 @@ const sidebars = {
     {
       type: "category",
       label: "V Rising",
+      key: "gameserver-v-rising",
       items: [
         {
           type: "category",
           label: "First Steps",
+          key: "gameserver-first-steps-v-rising",
           items: [
             "vrising-firststeps-dashboard",
             "vrising-firststeps-connect",
@@ -3786,6 +4275,7 @@ const sidebars = {
         {
           type: "category",
           label: "Configuration",
+          key: "gameserver-configuration-v-rising",
           items: [
             "vrising-configuration",
             "vrising-server-savegames",
@@ -3796,6 +4286,7 @@ const sidebars = {
         {
           type: "category",
           label: "Troubleshooting",
+          key: "gameserver-troubleshooting-v-rising",
           items: [
             "vrising-troubleshooting-common-issues",
           ]
@@ -3805,10 +4296,12 @@ const sidebars = {
         {
       type: "category",
       label: "Wreckfest",
+      key: "gameserver-wreckfest",
       items: [
         {
           type: "category",
           label: "First Steps",
+          key: "gameserver-first-steps-wreckfest",
           items: [
             "wreckfest-firststeps-dashboard",
             "wreckfest-firststeps-connect",
@@ -3817,6 +4310,7 @@ const sidebars = {
         {
           type: "category",
           label: "Troubleshooting",
+          key: "gameserver-troubleshooting-wreckfest",
           items: [
             "wreckfest-troubleshooting-common-issues",
           ]
@@ -3826,10 +4320,12 @@ const sidebars = {
     {
       type: "category",
       label: "Wreckfest 2",
+      key: "gameserver-wreckfest-2",
       items: [
         {
           type: "category",
           label: "First Steps",
+          key: "gameserver-first-steps-wreckfest-2",
           items: [
             "wreckfest2-firststeps-dashboard",
             "wreckfest2-firststeps-connect",
@@ -3838,6 +4334,7 @@ const sidebars = {
                 {
           type: "category",
           label: "Troubleshooting",
+          key: "gameserver-troubleshooting-wreckfest-2",
           items: [
             "wreckfest2-troubleshooting-common-issues",
           ]
@@ -3847,10 +4344,12 @@ const sidebars = {
     {
       type: "category",
       label: "Wurm Unlimited",
+      key: "gameserver-wurm-unlimited",
       items: [
         {
           type: "category",
           label: "First Steps",
+          key: "gameserver-first-steps-wurm-unlimited",
           items: [
             "wurmunlimited-firststeps-dashboard",
           ]
@@ -3858,6 +4357,7 @@ const sidebars = {
                 {
           type: "category",
           label: "Troubleshooting",
+          key: "gameserver-troubleshooting-wurm-unlimited",
           items: [
             "wurmunlimited-troubleshooting-common-issues",
           ]
@@ -3883,7 +4383,6 @@ const sidebars = {
     },
     'vserver-introduction',
     'vserver-dashboard',
-
     'vserver-reset',
     'vserver-vnc',
     'vserver-rescue',
@@ -3892,6 +4391,7 @@ const sidebars = {
     {
       type: "category",
       label: "Troubleshooting",
+      key: "vserver-troubleshooting",
       items: [
         'vserver-network-analysis-winmtr',
       ]
@@ -3923,6 +4423,7 @@ const sidebars = {
     {
       type: "category",
       label: "General",
+      key: "vserver-general",
       items: [
         'vserver-linux-ssh',
         'vserver-linux-sftp',
@@ -3944,6 +4445,7 @@ const sidebars = {
     {
       type: "category",
       label: "Services",
+      key: "vserver-linux-services",
       items: [
         'vserver-linux-bitwarden',
         'vserver-linux-certbot',
@@ -3984,6 +4486,7 @@ const sidebars = {
     {
       type: "category",
       label: "Dedicated Game Servers",
+      key: "vserver-linux-dedicated-game-servers",
       items: [
         'vserver-linux-steamcmd',
         'vserver-linux-wine',
@@ -4017,6 +4520,7 @@ const sidebars = {
     {
       type: "category",
       label: "Troubleshooting",
+      key: "vserver-linux-troubleshooting",
       items: [
         'vserver-linux-ftp',
       ]
@@ -4035,6 +4539,7 @@ const sidebars = {
     {
       type: "category",
       label: "General",
+      key: "vserver-windows-general",
       items: [
         'vserver-windows-userdp',
         'vserver-windows-port',
@@ -4047,6 +4552,7 @@ const sidebars = {
     {
       type: "category",
       label: "Services",
+      key: "vserver-windows-services",
       items: [
         'vserver-windows-bitwarden',
         'vserver-windows-docker',
@@ -4068,6 +4574,7 @@ const sidebars = {
     {
       type: "category",
       label: "Dedicated Game Servers",
+      key: "vserver-windows-dedicated-game-servers",
       items: [
         'vserver-windows-arksurvivalascended',
         'vserver-windows-avorion',
@@ -4101,6 +4608,7 @@ const sidebars = {
     {
       type: "category",
       label: "Troubleshooting",
+      key: "vserver-windows-troubleshooting",
       items: [
         'vserver-windows-rdp-freeze',
         'vserver-windows-nointernet',
@@ -4131,6 +4639,7 @@ const sidebars = {
     {
       type: "category",
       label: "Troubleshooting",
+      key: "dedicated-server-troubleshooting",
       items: [
         'dedicated-network-analysis-winmtr',
       ]
@@ -4149,6 +4658,7 @@ const sidebars = {
      {
       type: "category",
       label: "Install Windows",
+      key: "dedicated-server-install-windows",
       items: [
       'dedicated-windows',
       'dedicated-windows-2022',
@@ -4160,6 +4670,7 @@ const sidebars = {
          {
       type: "category",
       label: "Install Ubuntu",
+      key: "dedicated-server-install-ubuntu",
       items: [
       'dedicated-linux-ubuntu',
       'dedicated-linux-ubuntu-2204',
@@ -4185,6 +4696,7 @@ const sidebars = {
     {
       type: "category",
       label: "General",
+      key: "dedicated-server-linux-general",
       items: [
       'dedicated-linux-gs-interface',
       'dedicated-linux-proxy',
@@ -4196,6 +4708,7 @@ const sidebars = {
     {
       type: "category",
       label: "Services",
+      key: "dedicated-server-linux-services",
       items: [
         'dedicated-linux-bitwarden',
         'dedicated-linux-certbot',
@@ -4237,6 +4750,7 @@ const sidebars = {
     {
       type: "category",
       label: "Dedicated Game Servers",
+      key: "dedicated-server-linux-dedicated-game-servers",
       items: [
         'dedicated-linux-steamcmd',
         'dedicated-linux-wine',
@@ -4270,6 +4784,7 @@ const sidebars = {
     {
       type: "category",
       label: "Security",
+      key: "dedicated-server-linux-security",
       items: [
         'dedicated-linux-ssh2fa',
         'dedicated-linux-security-tips',
@@ -4289,6 +4804,7 @@ const sidebars = {
     {
       type: "category",
       label: "General",
+      key: "dedicated-server-windows-general",
       items: [
       'dedicated-windows-userdp',
       'dedicated-windows-port',
@@ -4300,6 +4816,7 @@ const sidebars = {
     {
       type: "category",
       label: "Services",
+      key: "dedicated-server-windows-services",
       items: [
         'dedicated-windows-bitwarden',
         'dedicated-windows-docker',
@@ -4321,6 +4838,7 @@ const sidebars = {
     {
       type: "category",
       label: "Dedicated Game Servers",
+      key: "dedicated-server-windows-dedicated-game-servers",
       items: [
         'dedicated-windows-arksurvivalascended',
         'dedicated-windows-avorion',
@@ -4354,22 +4872,12 @@ const sidebars = {
     {
       type: "category",
       label: "Troubleshooting",
+      key: "dedicated-server-windows-troubleshooting",
       items: [
         'dedicated-windows-troubleshooting-restore-access',
         'dedicated-windows-rdp-freeze',
       ]
     },	
-    {
-      type: 'html',
-      className: 'sidebar-title',
-      value: (() => {
-        switch (process.env.DOCUSAURUS_CURRENT_LOCALE) {
-          case "de": return "Sonstiges";
-          default: return "Other";
-        }
-      })(),
-      defaultStyle: true,
-    },
   ],
   
   //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -4397,6 +4905,7 @@ const sidebars = {
     {
       type: "category",
       label: "Domain forwarding",
+      key: "domain-domain-forwarding",
       items: [
         'domain-gameserver-srv-link',
         'domain-teamspeak-redirect',
@@ -4405,6 +4914,7 @@ const sidebars = {
     {
       type: "category",
       label: "Cloudflare",
+      key: "domain-cloudflare",
       items: [
         'domain-cloudflare-setup',
       ],
@@ -4430,6 +4940,7 @@ const sidebars = {
     {
       type: "category",
       label: "E-Mails",
+      key: "domain-e-mails",
       items: [
         'webspace-plesk-sendmail',
         'webspace-email-delivery-optimization',
@@ -4440,6 +4951,7 @@ const sidebars = {
     {
       type: "category",
       label: "MyBB",
+      key: "domain-mybb",
       items: [
         'webspace-mybb',
       ],
@@ -4447,6 +4959,7 @@ const sidebars = {
     {
       type: "category",
       label: "WordPress",
+      key: "domain-wordpress",
       items: [
         'webspace-wordpress',
         'webspace-wordpress-plugins',
@@ -4474,6 +4987,7 @@ const sidebars = {
     {
       type: "category",
       label: "Discord Bot",
+      key: "domain-discord-bot",
       items: [
         "discordbot-setup"
       ],
@@ -4481,6 +4995,7 @@ const sidebars = {
     {
       type: "category",
       label: "TS3MusicBot",
+      key: "domain-ts3musicbot",
       items: [
         'voiceserver-voicebot-connection',
       ]
