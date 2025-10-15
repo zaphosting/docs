@@ -1,7 +1,7 @@
 ---
 id: craftopia-troubleshooting-common-issues
 title: "Craftopia: Common issues"
-description: "Information on how to resolve common issues on a Craftopia server from ZAP-Hosting"
+description: "Discover how to troubleshoot common Craftopia server issues and maintain a smooth gaming experience → Learn more now"
 sidebar_label: Common issues
 services:
   - gameserver-craftopia

@@ -1,7 +1,7 @@
 ---
 id: vrising-rcon
 title: "V Rising: RCON"
-description: "Learn how to use RCON for V Rising"
+description: "Discover how to remotely manage and control V Rising servers efficiently without in-game connection → Learn more now"
 sidebar_label: RCON
 services:
   - gameserver-vrising

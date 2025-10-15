@@ -1,7 +1,7 @@
 ---
 id: fivem-mods-installreplace
 title: "FiveM: Install Replacement Carmods on server"
-description: "Information on how to install Replacement Carmods on your FiveM server from ZAP-Hosting"
+description: "Discover how to set up and upload mods to your FiveM server for custom gameplay experiences → Learn more now"
 sidebar_label: Install Replace Carmods
 services:
   - gameserver-fivem

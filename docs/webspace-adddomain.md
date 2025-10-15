@@ -1,7 +1,7 @@
 ---
 id: webspace-adddomain
 title: "Webspace: Add a domain"
-description: "Information on how to add a domain to your webspace from ZAP-Hosting"
+description: "Discover how to create and manage websites and email with Zap-Hosting web space for seamless online presence → Learn more now"
 sidebar_label: Add Domain
 services:
   - webspace

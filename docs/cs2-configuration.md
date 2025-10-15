@@ -1,7 +1,7 @@
 ---
 id: cs2-configuration
 title: "CS2: Server configuration"
-description: "Information on the settings and configuration options of your CS2 server from ZAP-Hosting"
+description: "Explore how to configure Counter-Strike servers with gamemodes, mapgroups, and GSL tokens for optimized gameplay → Learn more now"
 sidebar_label: Server Configration
 services:
   - gameserver-dods-cs2

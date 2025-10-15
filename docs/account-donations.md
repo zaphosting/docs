@@ -1,7 +1,7 @@
 ---
 id: account-donations
 title: "Donate: Finance servers together with your friends"
-description: "Instructions on how to use the donation function to finance a server at ZAP-Hosting together with friends"
+description: "Discover how to enable friends to support your projects by receiving donations directly to your ZAP account → Learn more now"
 sidebar_label: Donations
 ---
 

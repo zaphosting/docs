@@ -1,7 +1,7 @@
 ---
 id: dedicated-linux-ssh-server
 title: "Dedicated Server: Installation of SSH"
-description: "Information on how to install SSH Server on on your Linux Dedicated Server from ZAP-Hosting"
+description: "Discover how to securely install and manage SSH servers on Linux VPS to ensure safe remote access and enhanced server protection → Learn more now"
 sidebar_label: Install SSH
 services:
   - dedicated

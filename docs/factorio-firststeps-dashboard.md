@@ -1,7 +1,7 @@
 ---
 id: factorio-firststeps-dashboard
 title: "Factorio: Dashboard Overview"
-description: "Information about the dashboard of a Factorio server from ZAP-Hosting"
+description: "Discover how to efficiently manage your Factorio and Stormworks servers with a clear overview of key features and options → Learn more now"
 sidebar_label: Dashboard
 services:
   - gameserver-factorio

@@ -1,7 +1,7 @@
 ---
 id: thebus-firststeps-connect
 title: "The Bus: Connect to the server"
-description: "Information about various ways on how to connect to your The Bus server from ZAP-Hosting"
+description: "Discover how to connect to your The Bus server smoothly and troubleshoot common issues for a seamless gaming experience → Learn more now"
 sidebar_label: Connect to the server
 services:
   - gameserver-thebus

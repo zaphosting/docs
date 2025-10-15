@@ -1,7 +1,7 @@
 ---
 id: cs16-firststeps-connect
 title: "Counter Strike 1.6: Connect to the server"
-description: "Information about various ways to connect to your Counter-Strike 1.6 from ZAP-Hosting"
+description: "Discover how to connect to your Counter-Strike 1.6 server smoothly and enjoy uninterrupted gameplay → Learn more now"
 sidebar_label: Connect to the server
 services:
   - gameserver-cs16

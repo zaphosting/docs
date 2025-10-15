@@ -1,7 +1,7 @@
 ---
 id: dedicated-iso
 title: "Dedicated Server: Own ISO"
-description: "Information on how to install your own ISO file on your dedicated server from ZAP-Hosting"
+description: "Discover how to mount ISO files easily using iLO or remote console to boot your server efficiently → Learn more now"
 sidebar_label: Own ISO
 services:
   - dedicated

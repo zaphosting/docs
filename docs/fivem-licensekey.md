@@ -1,7 +1,7 @@
 ---
 id: fivem-licensekey
 title: "FiveM: Add Custom License Key"
-description: "Information on creating a custom license key and adding it to your FiveM server from ZAP-Hosting"
+description: "Discover how to create and manage your own FiveM license key to unlock subscription benefits and personalize your server setup → Learn more now"
 sidebar_label: Own License Key
 services:
   - gameserver-fivem

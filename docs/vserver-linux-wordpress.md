@@ -1,7 +1,7 @@
 ---
 id: vserver-linux-wordpress
 title: "VPS: Installation of WordPress"
-description: "Information on how to install WordPress on your Linux VPS from ZAP-Hosting"
+description: "Discover how to set up WordPress on a Linux server using the LAMP stack for a powerful, flexible website solution → Learn more now"
 sidebar_label: Install WordPress
 services:
   - vserver

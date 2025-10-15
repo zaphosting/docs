@@ -1,7 +1,7 @@
 ---
 id: fivem-devtools
 title: "FiveM: Enable Dev Tools for extended debugging information"
-description: "Informations on how to activate the FiveM Developer Tools"
+description: "Discover how to optimize and debug your FiveM servers efficiently using powerful dev tools for monitoring, profiling, and diagnostics → Learn more now"
 sidebar_label: Enable Dev Tools
 services:
   - gameserver-fivem

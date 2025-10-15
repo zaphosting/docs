@@ -1,7 +1,7 @@
 ---
 id: hl2-rcon
 title: "Half-Life 2: RCON"
-description: "Learn how to use RCON for Half-Life 2"
+description: "Discover how to remotely manage Half-Life 2 servers with RCON for flexible control and monitoring → Learn more now"
 sidebar_label: RCON
 services:
   - gameserver-hl2

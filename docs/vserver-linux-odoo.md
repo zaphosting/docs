@@ -1,7 +1,7 @@
 ---
 id: vserver-linux-odoo
 title: "VPS: Setup Odoo (Open Source ERP and CRM) on Linux"
-description: "Information on how to setup Odoo on your Linux VPS from ZAP-Hosting"
+description: "Discover how to manage and automate your business processes with Odoo’s integrated ERP and CRM platform → Learn more now"
 sidebar_label: Install Odoo
 services:
   - vserver

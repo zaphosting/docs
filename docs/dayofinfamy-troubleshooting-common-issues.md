@@ -1,7 +1,7 @@
 ---
 id: dayofinfamy-troubleshooting-common-issues
 title: "Day of Infamy: Common issues"
-description: "Information on how to resolve common issues on a Day of Infamy server from ZAP-Hosting"
+description: "Discover how to troubleshoot and resolve common Day of Infamy server issues for a smooth gaming experience → Learn more now"
 sidebar_label: Common issues
 services:
   - gameserver-dayofinfamy

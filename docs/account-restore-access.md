@@ -1,7 +1,7 @@
 ---
 id: account-restore-access
 title: Restore Access to your ZAP-Hosting account
-description: "Get to know how you can restore access to your ZAP hosting account"
+description: "Discover how to troubleshoot login issues, reset passwords, and secure your account effectively → Learn more now"
 sidebar_label: Restore access
 ---
 

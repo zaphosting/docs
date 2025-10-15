@@ -1,7 +1,7 @@
 ---
 id: abioticfactor-becomeadmin
 title: "Abiotic Factor: Become admin"
-description: "Information about how to become an admin on an Abiotic Factor game server from ZAP-Hosting"
+description: "Discover how to grant admin rights to players for full server control and enhanced gameplay management → Learn more now"
 sidebar_label: Become admin
 services:
   - gameserver-abioticfactor

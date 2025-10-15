@@ -1,7 +1,7 @@
 ---
 id: dedicated-linux-openmp
 title: "Dedicated Server: Open.mp Dedicated Server Linux Setup"
-description: "Information about setting up an open.mp Dedicated Server on a Linux Dedicated Server from ZAP-Hosting"
+description: "Discover how to set up the open.mp Dedicated Server on your Linux server for seamless game hosting and management → Learn more now"
 sidebar_label: Open.mp
 services:
   - dedicated

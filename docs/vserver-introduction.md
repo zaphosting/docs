@@ -1,7 +1,7 @@
 ---
 id: vserver-introduction
 title: "VPS: Introduction"
-description: "Introduction and information about the VPS product from ZAP-Hosting"
+description: "Discover powerful, affordable VPS hosting with flexible configurations for websites, databases, gaming, and more → Learn more now"
 sidebar_label: Introduction
 services:
   - vserver

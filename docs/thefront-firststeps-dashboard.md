@@ -1,7 +1,7 @@
 ---
 id: thefront-firststeps-dashboard
 title: "The Front: Dashboard overview"
-description: "Information about the dashboard of an The Front server from ZAP-Hosting"
+description: "Discover how to efficiently manage and optimize your The Front server with a clear overview of all features and options → Learn more now"
 sidebar_label: Dashboard
 services:
   - gameserver-thefront

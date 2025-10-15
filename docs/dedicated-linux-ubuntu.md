@@ -1,7 +1,7 @@
 ---
 id: dedicated-linux-ubuntu
 title: "Dedicated Server: Installation of Ubuntu 24.04"
-description: "Information about installing the Ubuntu 24.04 operating system on your dedicated server from ZAP-Hosting"
+description: "Learn how to install and configure Ubuntu on your dedicated server for optimal performance and reliability → Learn more now"
 sidebar_label: Ubuntu 24.04
 services:
   - dedicated

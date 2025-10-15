@@ -1,7 +1,7 @@
 ---
 id: dedicated-linux-phpmyadmin
 title: "Dedicated Server: Installation of phpMyAdmin"
-description: "Information on how to install and set up phpMyAdmin on your Linux dedicated server from ZAP-Hosting"
+description: "Discover how to manage MySQL and MariaDB databases easily with phpMyAdmin’s web interface for efficient database administration → Learn more now"
 sidebar_label: Install phpMyAdmin
 services:
   - dedicated

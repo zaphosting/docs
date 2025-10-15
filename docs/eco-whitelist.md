@@ -1,7 +1,7 @@
 ---
 id: eco-whitelist
 title: "ECO: Activate Whitelist"
-description: "Information on how to create and manage a whitelist for your ECO server at ZAP-Hosting"
+description: "Discover how to secure your server by managing player access with ECO's whitelist feature → Learn more now"
 sidebar_label: Whitelist
 services:
   - gameserver

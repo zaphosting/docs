@@ -1,7 +1,7 @@
 ---
 id: battlegrounds3-firststeps-connect
 title: "Battle Grounds III: Connect to the server"
-description: "Information about various ways on how to connect to your Battle Grounds III server from ZAP-Hosting"
+description: "Discover how to connect to your Battle Grounds III server smoothly and enjoy uninterrupted gameplay → Learn more now"
 sidebar_label: Connect to the server
 services:
   - gameserver

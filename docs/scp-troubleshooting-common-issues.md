@@ -1,7 +1,7 @@
 ---
 id: scp-troubleshooting-common-issues
 title: "SCP: Secret Laboratory: Common issues"
-description: "Information on how to resolve common issues on a SCP: Secret Laboratory server from ZAP-Hosting"
+description: "Discover how to troubleshoot and resolve common SCP: Secret Laboratory server issues for a smooth gaming experience → Learn more now"
 sidebar_label: Common issues
 services:
   - gameserver-scp

@@ -1,6 +1,7 @@
 ---
 id: satisfactory-connect
 title: "Satisfactory: Connect to the Server"
+description: "Discover how to connect and manage your Satisfactory Server effectively for a seamless gaming experience → Learn more now"
 sidebar_label: Connect to the Server
 services:
   - gameserver-satisfactory

@@ -1,7 +1,7 @@
 ---
 id: dedicated-linux-cscz
 title: "Dedicated Server: Counter-Strike: Condition Zero Dedicated Server Linux Setup"
-description: "Information about setting up an Counter-Strike: Condition Zero Dedicated Server on a Linux VPS from ZAP-Hosting"
+description: "Discover how to set up a Counter-Strike: Condition Zero dedicated server on Linux VPS for seamless gameplay management → Learn more now"
 sidebar_label: "Counter-Strike: Condition Zero"
 services:
   - vserver

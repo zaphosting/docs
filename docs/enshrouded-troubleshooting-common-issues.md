@@ -1,7 +1,7 @@
 ---
 id: enshrouded-troubleshooting-common-issues
 title: "Enshrouded: Common issues"
-description: "Information on how to resolve common issues on a Enshrouded server from ZAP-Hosting"
+description: "Discover how to troubleshoot and resolve common Enshrouded server issues for a smooth gaming experience → Learn more now"
 sidebar_label: Common issues
 services:
   - gameserver-enshrouded

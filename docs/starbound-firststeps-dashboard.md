@@ -1,7 +1,7 @@
 ---
 id: starbound-firststeps-dashboard
 title: "Starbound: Dashboard overview"
-description: "Information about the dashboard of an Starbound server from ZAP-Hosting"
+description: "Discover how to efficiently manage and optimize your Starbound server with a clear overview of all essential features and options → Learn more now"
 sidebar_label: Dashboard
 services:
   - gameserver-starbound

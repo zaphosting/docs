@@ -1,7 +1,7 @@
 ---
 id: pixark-firststeps-dashboard
 title: "PixARK: Dashboard overview"
-description: "Information about the dashboard of an PixARK server from ZAP-Hosting"
+description: "Discover how to efficiently manage and optimize your PixARK server with a clear overview of all key features → Learn more now"
 sidebar_label: Dashboard
 services:
   - gameserver-pixark

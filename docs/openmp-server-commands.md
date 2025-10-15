@@ -1,7 +1,7 @@
 ---
 id: openmp-server-commands
 title: "Open.mp: Open.mp Server Commands"
-description: "Information on useful commands for Open.mp game from ZAP-Hosting"
+description: "Discover how to manage Open.mp server commands securely with RCON access and improve your server control → Learn more now"
 sidebar_label: Server Commands
 services:
   - gameserver-openmp

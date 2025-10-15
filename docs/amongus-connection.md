@@ -1,7 +1,7 @@
 ---
 id: amongus-connection
 title: "Among Us: Connecting to the server"
-description: "Information on how to connect to your Impostor - Among Us server"
+description: "Discover how to set up and connect to your Among Us server for seamless multiplayer gameplay → Learn more now"
 sidebar_label: Connection to the Server
 services:
   - gameserver-amongus

@@ -1,7 +1,7 @@
 ---
 id: dedicated-windows-supabase
 title: "Dedicated Server: Setup Supabase on Windows"
-description: "Information on how to setup Supabase on your Windows Dedicated Server from ZAP-Hosting"
+description: "Discover how to set up and configure Supabase for a reliable open-source Postgres platform with authentication and realtime features → Learn more now"
 sidebar_label: Install Supabase
 services:
   - dedicated

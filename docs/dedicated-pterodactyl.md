@@ -1,7 +1,7 @@
 ---
 id: dedicated-pterodactyl
 title: "Dedicated Server: Installation of Pterodactyl"
-description: "Information about installing the Pterodactyl panel using Debian on your ZAP-Hosting dedicated server"
+description: "Discover how to set up and manage your own Pterodactyl game server panel efficiently → Learn more now"
 sidebar_label: Install Pterodactyl
 services:
   - dedicated

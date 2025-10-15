@@ -1,7 +1,7 @@
 ---
 id: astrocolony-firststeps-connect
 title: "Astro Colony: Connect to the server"
-description: "Information about various ways on how to connect to your Astro Colony server from ZAP-Hosting"
+description: "Discover how to connect to your Astro Colony server smoothly and get started playing without hassle → Learn more now"
 sidebar_label: Connect to the server
 services:
   - gameserver-astrocolony

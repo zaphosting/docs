@@ -1,7 +1,7 @@
 ---
 id: dedicated-raid
 title: "Dedicated Server: RAID Configuration"
-description: "Information about RAID configuration options for your Dedicated Server from ZAP-Hosting"
+description: "Discover how RAID configurations enhance data performance and redundancy for dedicated servers with SSDs → Learn more now"
 sidebar_label: Configure RAID
 services:
   - dedicated

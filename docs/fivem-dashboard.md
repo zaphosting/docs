@@ -1,7 +1,7 @@
 ---
 id: fivem-dashboard
 title: "FiveM: Dashboard Overview"
-description: "Information about the settings options of FiveM servers from ZAP-Hosting in the Web Interface Dashboard"
+description: "Discover how to efficiently manage and optimize your FIVE: FiveM server with a clear, step-by-step administration overview → Learn more now"
 sidebar_label: Dashboard
 services:
   - gameserver-fivem

@@ -1,7 +1,7 @@
 ---
 id: domain-transfer
 title: "Domain: Transfer a Domain"
-description: "Information about the process of transfering an existing domain at ZAP-Hosting"
+description: "Discover how to transfer your domain smoothly to or from ZAP-Hosting and ensure uninterrupted management of your domain → Learn more now"
 sidebar_label: Transfer Domain
 services:
   - domain

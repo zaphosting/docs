@@ -1,7 +1,7 @@
 ---
 id: cryofall-firststeps-connect
 title: "Cryofall: Connect to the server"
-description: "Information about various ways on how to connect to your Cryofall server from ZAP-Hosting"
+description: "Discover how to connect to your Cryofall server smoothly and troubleshoot common issues for a seamless gaming experience → Learn more now"
 sidebar_label: Connect to the server
 services:
   - gameserver-cryofall

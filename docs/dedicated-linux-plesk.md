@@ -1,7 +1,7 @@
 ---
 id: dedicated-linux-plesk
 title: "Dedicated Server: Installation of Plesk"
-description: "Information on how to install Plesk on on your Linux Dedicated Server from ZAP-Hosting"
+description: "Discover how to manage websites and servers efficiently with Plesk’s versatile platform for all skill levels → Learn more now"
 sidebar_label: Install Plesk
 services:
   - dedicated

@@ -1,7 +1,7 @@
 ---
 id: tf2-gslt
 title: "Team Fortress 2: Create a GSLT (Steam Game Server Login Token)"
-description: "Information about the creation and use of GSLT for Team Fortress 2 server from ZAP-Hosting"
+description: "Discover how to authenticate your dedicated game server with a valid Steam Game Server Login Token for proper listing and VAC protection → Learn more now"
 sidebar_label: Create GSLT
 services:
   - gameserver-tf2

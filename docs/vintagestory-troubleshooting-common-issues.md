@@ -1,7 +1,7 @@
 ---
 id: vintagestory-troubleshooting-common-issues
 title: "Vintage Story: Common issues"
-description: "Information on how to resolve common issues on a Vintage Story server from ZAP-Hosting"
+description: "Discover how to troubleshoot common Vintage Story server issues and maintain smooth gameplay for your community → Learn more now"
 sidebar_label: Common issues
 services:
   - gameserver-vintagestory

@@ -1,7 +1,7 @@
 ---
 id: dedicated-windows-conan
 title: "Dedicated Server: Conan Exiles Dedicated Server Windows Setup"
-description: "Information about setting up an Conan Exiles Dedicated Server on a Windows Dedicated Server from ZAP-Hosting"
+description: "Discover how to set up a Conan Exiles Dedicated Server on Windows Dedicated Server for smooth gameplay and server management → Learn more now"
 sidebar_label: Conan Exiles
 services:
   - dedicated

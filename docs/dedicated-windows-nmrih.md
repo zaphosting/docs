@@ -1,7 +1,7 @@
 ---
 id: dedicated-windows-nmrih
 title: "Dedicated Server: No More Room In Hell Dedicated Server Windows Setup"
-description: "Information about setting up a No More Room In Hell Dedicated Server on a Windows VPS from ZAP-Hosting"
+description: "Learn how to set up a No More Room In Hell dedicated game server on your VPS or dedicated server quickly and easily → Learn more now"
 sidebar_label: "No More Room In Hell"
 services:
   - vserver

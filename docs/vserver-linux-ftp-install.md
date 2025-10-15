@@ -1,7 +1,7 @@
 ---
 id: vserver-linux-ftp-install
 title: "VPS: Installation of a FTP server"
-description: "Information on how to install and set up an FTP server on your VPS from ZAP-Hosting"
+description: "Discover how to set up and manage a secure FTP server on Linux with FileZilla Server to efficiently transfer files → Learn more now"
 sidebar_label: Install FTP server
 services:
   - vserver

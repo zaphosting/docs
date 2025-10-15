@@ -1,7 +1,7 @@
 ---
 id: empyrion-firststeps-dashboard
 title: "Empyrion: Dashboard Overview"
-description: "Information about the dashboard of an Empyrion from ZAP-Hosting"
+description: "Discover how to efficiently manage your Empyrion server and optimize its settings for the best performance → Learn more now"
 sidebar_label: Dashboard
 services:
   - gameserver-empyrion

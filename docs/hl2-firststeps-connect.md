@@ -1,7 +1,7 @@
 ---
 id: hl2-firststeps-connect
 title: "Half-Life 2: Connect to the server"
-description: "Information about various ways on how to connect to your Half-Life 2 server from ZAP-Hosting"
+description: "Discover how to connect to your Half-Life 2 server smoothly and ensure a seamless gaming experience → Learn more now"
 sidebar_label: Connect to the server
 services:
   - gameserver-hl2

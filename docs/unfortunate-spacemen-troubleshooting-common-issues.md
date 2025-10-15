@@ -1,7 +1,7 @@
 ---
 id: unfortunate-spacemen-troubleshooting-common-issues
 title: "Unfortunate Spacemen: Common issues"
-description: "Information on how to resolve common issues on a Unfortunate Spacemen server from ZAP-Hosting"
+description: "Discover how to troubleshoot and resolve common Unfortunate Spacemen server issues for smooth gameplay and reliable performance → Learn more now"
 sidebar_label: Common issues
 services:
   - gameserver-unfortunate-spacemen

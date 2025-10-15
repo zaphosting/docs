@@ -1,7 +1,7 @@
 ---
 id: dedicated-linux-rescue
 title: "Dedicated Server: Rescue your files using the System Rescue"
-description: "Information on how to rescue your files using SystemRescue on your Dedicated Server from ZAP-Hosting."
+description: "Discover how to recover data and create backups from a non-booting server using SystemRescue ISO and secure file transfer → Learn more now"
 sidebar_label: System Rescue (Backup)
 services:
   - dedicated

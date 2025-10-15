@@ -1,7 +1,7 @@
 ---
 id: dedicated-windows-enshrouded
 title: "Dedicated Server: Enshrouded Dedicated Server Windows Setup"
-description: "Information about setting up an Enshrouded Dedicated Server on a Windows Dedicated Server from ZAP-Hosting"
+description: "Discover how to set up an Enshrouded Dedicated Server on your Windows VPS or dedicated server quickly and efficiently → Learn more now"
 sidebar_label: Enshrouded
 services:
   - dedicated

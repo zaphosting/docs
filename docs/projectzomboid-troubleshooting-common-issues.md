@@ -1,7 +1,7 @@
 ---
 id: projectzomboid-troubleshooting-common-issues
 title: "Project Zomboid: Common issues"
-description: "Information on how to resolve common issues on a Project Zomboid server from ZAP-Hosting"
+description: "Discover how to troubleshoot and resolve common Project Zomboid server issues for smooth gameplay and reliable performance → Learn more now"
 sidebar_label: Common issues
 services:
   - gameserver-projectzomboid

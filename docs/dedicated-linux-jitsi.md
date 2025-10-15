@@ -1,7 +1,7 @@
 ---
 id: dedicated-linux-jitsi
 title: "Dedicated Server: Installation of Jitsi Meet"
-description: "Information on how to install the video conferencing software Jitsi Meet on your server from ZAP-Hosting"
+description: "Discover how to set up and run your own secure Jitsi Meet videoconferencing server for easy, private online meetings → Learn more now"
 sidebar_label: Install Jitsi Meet
 services:
   - dedicated

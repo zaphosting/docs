@@ -1,7 +1,7 @@
 ---
 id: conan-becomeadmin
 title: "Conan Exiles: Become an admin on your own server"
-description: "Information on how to become an admin on your Conan Exiles server from ZAP-Hosting"
+description: "Discover how to assign administrator permissions for full server control and manage game functions effectively → Learn more now"
 sidebar_label: Become admin
 services:
   - gameserver-conan

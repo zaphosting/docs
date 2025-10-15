@@ -1,7 +1,7 @@
 ---
 id: legal-use-brand-assets
 title: Brand Use
-description: "Information under which conditions you can use the ZAP-Hosting logo and name"
+description: "Discover how to properly use ZAP-Hosting brand assets to protect brand identity and reputation while promoting your partnership → Learn more now"
 sidebar_label: Use of our Brand
 ---
 

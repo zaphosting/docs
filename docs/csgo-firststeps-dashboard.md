@@ -1,7 +1,7 @@
 ---
 id: csgo-firststeps-dashboard
 title: "Counter-Strike Global Offensive: Dashboard Overview"
-description: "Information about the dashboard of an Counter-Strike Global Offensive server from ZAP-Hosting"
+description: "Discover how to efficiently manage and optimize your Counter-Strike: Global Offensive server for the best performance and control → Learn more now"
 sidebar_label: Dashboard
 services:
   - gameserver

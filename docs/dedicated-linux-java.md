@@ -1,7 +1,7 @@
 ---
 id: dedicated-linux-java
 title: "Dedicated Server: Installation of Java"
-description: "Information on how to install Java on your server from ZAP-Hosting"
+description: "Learn how to install Java on various Linux systems to run Java applications smoothly and ensure your environment is properly set up → Learn more now"
 sidebar_label: Install Java
 services:
   - dedicated

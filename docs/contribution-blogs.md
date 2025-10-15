@@ -1,7 +1,7 @@
 ---
 id: contribution-blogs
 title: Blogs Process
-description: "Information on the blogs contribution process for the ZAP-Hosting Community Contributions program"
+description: "Discover how to contribute original, engaging blog content to ZAP-Hosting and share your expertise with a wide audience → Learn more now"
 sidebar_label: Blogs Process
 ---
 

@@ -1,7 +1,7 @@
 ---
 id: dedicated-linux-palworld
 title: "Dedicated Server: Palworld Dedicated Server Linux Setup"
-description: "Information about setting up an Palworld Dedicated Server on a Linux Dedicated Server from ZAP-Hosting"
+description: "Discover how to set up and configure a Palworld Dedicated Server on Linux for seamless gameplay management → Learn more now"
 sidebar_label: Palworld
 services:
   - dedicated

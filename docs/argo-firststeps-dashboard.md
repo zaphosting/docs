@@ -1,7 +1,7 @@
 ---
 id: argo-firststeps-dashboard
 title: "Argo: Dashboard overview"
-description: "Information about the dashboard of an Argo server from ZAP-Hosting"
+description: "Discover how to efficiently manage and optimize your Argo server with a clear overview of key features and administration tips → Learn more now"
 sidebar_label: Dashboard
 services:
   - gameserver-argo

@@ -1,7 +1,7 @@
 ---
 id: vserver-windows-manage-users
 title: "VPS: Manage Users on Windows Server"
-description: "Information on how to add and manage additional users on your Windows VPS from ZAP-Hosting"
+description: "Discover how to manage multiple user accounts on Windows Server for secure, simultaneous remote access and personalized desktops → Learn more now"
 sidebar_label: Add & Manage Users
 services:
   - vserver

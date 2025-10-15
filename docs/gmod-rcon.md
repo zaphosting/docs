@@ -1,7 +1,7 @@
 ---
 id: gmod-rcon
 title: "Garry's Mod: RCON"
-description: "Learn how to use RCON for Garry's Mod"
+description: "Discover how to remotely manage Garry's Mod servers securely and efficiently without joining the game → Learn more now"
 sidebar_label: RCON
 services:
   - gameserver-gmod

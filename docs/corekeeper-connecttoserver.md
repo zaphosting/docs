@@ -1,7 +1,7 @@
 ---
 id: corekeeper-connecttoserver
 title: "Core Keeper: Core Keeper connect to server"
-description: "Instructions on how to connect to the Core Keeper server"
+description: "Discover how to connect to your Core Keeper game server for seamless multiplayer gameplay and enjoy your gaming experience → Learn more now"
 sidebar_label: Connect to the server
 services:
   -   - gameserver-corekeeper

@@ -1,7 +1,7 @@
 ---
 id: bananashooter-troubleshooting-common-issues
 title: "Banana Shooter: Common issues"
-description: "Information on how to resolve common issues on a Banana Shooter server from ZAP-Hosting"
+description: "Discover how to troubleshoot and resolve common Banana Shooter server issues for smooth gameplay and reliable performance → Learn more now"
 sidebar_label: Common issues
 services:
   - gameserver-bananashooter

@@ -1,7 +1,7 @@
 ---
 id: dedicated-windows-tf2
 title: "Dedicated Server: Team Fortress 2 Dedicated Server Windows Setup"
-description: "Information about setting up a Team Fortress 2 Dedicated Server on a Windows VPS from ZAP-Hosting"
+description: "Discover how to set up a Team Fortress 2 dedicated server on your VPS or dedicated server quickly and easily → Learn more now"
 sidebar_label: "Team Fortress 2"
 services:
   - vserver

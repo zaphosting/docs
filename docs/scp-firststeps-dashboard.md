@@ -1,7 +1,7 @@
 ---
 id: scp-firststeps-dashboard
 title: "SCP Secret Laboratory: Dashboard Overview"
-description: "Information about the dashboard of an SCP Secret Laboratory Vanilla server from ZAP-Hosting"
+description: "Discover how to efficiently manage your SCP: Secret Laboratory Vanilla server with a clear overview of key features and options → Learn more now"
 sidebar_label: Dashboard
 services:
   - gameserver-scp

@@ -1,7 +1,7 @@
 ---
 id: rimworldtogether-troubleshooting-common-issues
 title: "RimWorld Together: Common issues"
-description: "Information on how to resolve common issues on a RimWorld Together server from ZAP-Hosting"
+description: "Discover how to troubleshoot and resolve common RimWorld Together server issues for a smooth gaming experience → Learn more now"
 sidebar_label: Common issues
 services:
   - gameserver

@@ -1,7 +1,7 @@
 ---
 id: test
 title: "Test Document"
-description: ""
+description: "Discover how to enhance your 7 Days to Die server with mods for a customized gameplay experience → Learn more now"
 sidebar_label: Test Document
 services:
   - gameserver

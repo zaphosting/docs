@@ -1,7 +1,7 @@
 ---
 id: dedicated-linux-plex
 title: "Dedicated Server: Setup Plex on Linux"
-description: "Information on how to setup Plex on your Linux Dedicated Server from ZAP-Hosting"
+description: "Discover how to manage and stream your personal media library seamlessly with Plex for easy access across devices → Learn more now"
 sidebar_label: Install Plex
 services:
   - dedicated

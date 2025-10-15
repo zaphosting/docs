@@ -1,7 +1,7 @@
 ---
 id: openmp-firststeps-dashboard
 title: "Open.mp: Dashboard Overview"
-description: "Information about the dashboard of a Open.mp server from ZAP-Hosting"
+description: "Discover how to efficiently manage and optimize your Open.mp server with a clear overview of key features and controls → Learn more now"
 sidebar_label: Dashboard
 services:
   - gameserver-openmp

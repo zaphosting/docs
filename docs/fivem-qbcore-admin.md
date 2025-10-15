@@ -1,7 +1,7 @@
 ---
 id: fivem-qbcore-admin
 title: "FiveM: Become admin using QBCore"
-description: "Information on how to become admin using QBCore on your FiveM server"
+description: "Discover how to assign administrator permissions for full server control and enhanced in-game management → Learn more now"
 sidebar_label: Become admin
 services:
   - gameserver-fivem

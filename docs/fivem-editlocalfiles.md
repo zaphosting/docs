@@ -1,7 +1,7 @@
 ---
 id: fivem-editlocalfiles
 title: "FiveM: Locales files (Language variables)"
-description: "Information on how to edit the locales files of your FiveM server from ZAP-Hosting"
+description: "Learn how to customize and add languages to your resource for a personalized experience → Learn more now"
 sidebar_label: Locales Files (Language)
 services:
   - gameserver-fivem

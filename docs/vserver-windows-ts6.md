@@ -1,7 +1,7 @@
 ---
 id: vserver-windows-ts6
 title: "VPS: Setup Teamspeak 6 Server on your Windows VPS"
-description: "Information on how to setup Teamspeak 6 Serveron your Windows VPS from ZAP-Hosting"
+description: "Discover how to set up and optimize the TeamSpeak 6 Server beta for seamless hosting and performance → Learn more now"
 sidebar_label: Install Teamspeak 6 Server
 services:
   - vserver

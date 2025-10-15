@@ -1,7 +1,7 @@
 ---
 id: openttd-firststeps-dashboard
 title: "OpenTTD: Dashboard overview"
-description: "Information about the dashboard of an OpenTTD server from ZAP-Hosting"
+description: "Discover how to efficiently manage your OpenTTD server and optimize its settings for the best performance → Learn more now"
 sidebar_label: Dashboard
 services:
   - gameserver-openttd

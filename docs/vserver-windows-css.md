@@ -1,7 +1,7 @@
 ---
 id: vserver-windows-css
 title: "VPS: Counter-Strike: Source Dedicated Server Windows Setup"
-description: "Information about setting up a Counter-Strike: Source Dedicated Server on a Windows VPS from ZAP-Hosting"
+description: "Discover how to set up a Counter-Strike: Source dedicated server on your VPS or server quickly and easily → Learn more now"
 sidebar_label: "Counter-Strike: Source"
 services:
   - vserver

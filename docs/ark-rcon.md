@@ -1,7 +1,7 @@
 ---
 id: ark-rcon
 title: "ARK: Survival Evolved: RCON"
-description: "Learn how to use RCON for ARK: Survival Evolved"
+description: "Discover how to remotely manage and control ARK: Survival Evolved servers securely without joining the game → Learn more now"
 sidebar_label: RCON
 services:
   - gameserver-ark

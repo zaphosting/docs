@@ -1,7 +1,7 @@
 ---
 id: deadpoly-firststeps-connect
 title: "DeadPoly: Connect to the server"
-description: "Information about various ways on how to connect to your DeadPoly server from ZAP-Hosting"
+description: "Discover how to connect to your DeadPoly server smoothly and ensure a hassle-free gaming experience → Learn more now"
 sidebar_label: Connect to the server
 services:
   - gameserver-deadpoly

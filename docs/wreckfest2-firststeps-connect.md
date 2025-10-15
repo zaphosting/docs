@@ -1,7 +1,7 @@
 ---
 id: wreckfest2-firststeps-connect
 title: "Wreckfest 2: Connect to the server"
-description: "Information about various ways on how to connect to your Wreckfest 2 server from ZAP-Hosting"
+description: "Discover how to connect to your Wreckfest 2 server smoothly and troubleshoot common issues for a seamless gaming experience → Learn more now"
 sidebar_label: Connect to the server
 services:
   - gameserver-wreckfest2

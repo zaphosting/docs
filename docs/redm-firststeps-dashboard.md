@@ -1,7 +1,7 @@
 ---
 id: redm-firststeps-dashboard
 title: "RedM: Dashboard Overview"
-description: "Information about the dashboard of a RedM server from ZAP-Hosting"
+description: "Discover how to efficiently manage and optimize your RedM server with a clear overview of essential administration features → Learn more now"
 sidebar_label: Dashboard
 services:
   - gameserver-redm

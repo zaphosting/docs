@@ -1,7 +1,7 @@
 ---
 id: contribution-introduction
 title: ZAP-Hosting Contribution Program
-description: "Information on the ZAP-Hosting Contribution Program"
+description: "Discover how to earn rewards by creating helpful guides and blog content for the ZAP-Hosting community → Learn more now"
 sidebar_label: Introduction
 ---
 

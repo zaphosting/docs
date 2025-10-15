@@ -1,7 +1,7 @@
 ---
 id: fivem-firststeps-connect
 title: "FiveM: Connect to the server"
-description: "Information about various ways to connect to your FiveM server from ZAP-Hosting"
+description: "Discover how to connect to your FiveM server smoothly and ensure a seamless gaming experience with essential tips and guidance → Learn more now"
 sidebar_label: Connect to the server
 services:
   - gameserver-fivem

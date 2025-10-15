@@ -1,7 +1,7 @@
 ---
 id: portalknights-troubleshooting-common-issues
 title: "Portal Knights: Common issues"
-description: "Information on how to resolve common issues on a Portal Knights server from ZAP-Hosting"
+description: "Discover how to troubleshoot and resolve common Portal Knights server issues for a smooth gaming experience → Learn more now"
 sidebar_label: Common issues
 services:
   - gameserver-portalknights

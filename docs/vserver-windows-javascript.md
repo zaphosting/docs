@@ -1,7 +1,7 @@
 ---
 id: vserver-windows-javascript
 title: 'VPS: Installation of JavaScript'
-description: "Information on how to install and run JavaScript on your Windows server from ZAP-Hosting.com"
+description: "Discover how to install Node.js, Deno, and Bun on Windows to set up your JavaScript runtime environment efficiently → Learn more now"
 sidebar_label: Install JavaScript
 services:
   - vserver

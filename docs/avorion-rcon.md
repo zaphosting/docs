@@ -1,7 +1,7 @@
 ---
 id: avorion-rcon
 title: "Avorion: RCON"
-description: "Learn how to use RCON for Avorion"
+description: "Discover how to remotely manage Avorion servers using RCON for flexible, secure control without joining the game → Learn more now"
 sidebar_label: RCON
 services:
   - gameserver-avorion

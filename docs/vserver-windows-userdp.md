@@ -1,7 +1,7 @@
 ---
 id: vserver-windows-userdp
 title: "VPS: Accessing Windows Server via Remote Desktop (RDP)"
-description: "Information on accessing your Windows VPS from ZAP-Hosting using Remote Desktop (RDP)"
+description: "Discover how to securely connect to your Windows server remotely using RDP and manage access with ease → Learn more now"
 sidebar_label: Initial Access (RDP)
 services:
   - vserver

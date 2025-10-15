@@ -1,7 +1,7 @@
 ---
 id: gameserver-server-down-what-now
 title: 'Game server: Server down - What now?'
-description: "Information on what to do if your game server from ZAP-Hosting has crashed or is down"
+description: "Learn how to diagnose game server crashes by analyzing log files to identify errors and find effective solutions → Learn more now"
 sidebar_label: Server crash - What to do?
 services:
   - gameserver

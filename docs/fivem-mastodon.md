@@ -1,7 +1,7 @@
 ---
 id: fivem-mastodon
 title: "FiveM: Setting up an activity feed for your server"
-description: "Information on how to set up an activity feed for your FiveM server from ZAP-Hosting"
+description: "Discover how to integrate a Mastodon activity feed into your server for real-time updates and enhanced community engagement → Learn more now"
 sidebar_label: Configure Activity Feed
 services:
   - gameserver-fivem

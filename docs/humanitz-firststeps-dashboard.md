@@ -1,7 +1,7 @@
 ---
 id: humanitz-firststeps-dashboard
 title: "HumanitZ: Dashboard overview"
-description: "Information about the dashboard of an HumanitZ server from ZAP-Hosting"
+description: "Discover how to efficiently manage your HumanitZ server with a clear overview of features and options → Learn more now"
 sidebar_label: Dashboard
 services:
   - gameserver-humanitz

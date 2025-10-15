@@ -1,7 +1,7 @@
 ---
 id: beammp-authkey
 title: "BeamMP: Create an Auth Key"
-description: "Information on how to create an Auth Key for your BeamMP server from ZAP-Hosting"
+description: "Discover how to generate and apply an Auth Key to list your server publicly and manage access effectively → Learn more now"
 sidebar_label: Create an Auth Key
 services:
   - gameserver-beammp

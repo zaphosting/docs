@@ -1,7 +1,7 @@
 ---
 id: dedicated-linux-supabase
 title: "Dedicated Server: Setup Supabase on Linux"
-description: "Information on how to setup Supabase on your Linux Dedicated Server from ZAP-Hosting"
+description: "Discover how to set up and configure Supabase for self-hosting to build a powerful open-source Postgres platform → Learn more now"
 sidebar_label: Install Supabase
 services:
   - dedicated

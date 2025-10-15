@@ -1,7 +1,7 @@
 ---
 id: dedicated-setup
 title: "Dedicated Server: Initial setup"
-description: "Information about the initial setup of your dedicated server from ZAP-Hosting"
+description: "Discover how to set up your ZAP Dedicated Server with ease and access a variety of operating systems → Learn more now"
 sidebar_label: Initial setup
 services:
   - dedicated

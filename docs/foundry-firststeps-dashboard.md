@@ -1,7 +1,7 @@
 ---
 id: foundry-firststeps-dashboard
 title: "Foundry: Dashboard Overview"
-description: "Information about the dashboard of a Foundry server from ZAP-Hosting"
+description: "Discover how to efficiently manage and optimize your Foundry server with a comprehensive admin overview → Learn more now"
 sidebar_label: Dashboard
 services:
   - gameserver-foundry

@@ -1,7 +1,7 @@
 ---
 id: dedicated-linux-gs-interface
 title: "Dedicated Server: Gameserver/TS3 Interface"
-description: "Information on how to install TS and game server via the game server/TS3 interface with just a few clicks"
+description: "Discover how to easily set up game servers, voice servers, and music bots on Linux VPS or dedicated servers → Learn more now"
 sidebar_label: GS/TS3 Interface
 services:
   - dedicated

@@ -1,7 +1,7 @@
 ---
 id: partner-guide
 title: Partner Guide
-description: "Information on ZAP-Hosting's partner programme"
+description: "Discover how to become a motivated ZAP partner, promote products effectively, and engage your audience for successful collaboration → Learn more now"
 sidebar_label: Partner Guide
 ---
 

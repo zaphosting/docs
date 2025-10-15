@@ -1,7 +1,7 @@
 ---
 id: scp-escapetogether-firststeps-connect
 title: "SCP: Escape Together: Connect to the server"
-description: "Information about various ways on how to connect to your SCP: Escape Together server from ZAP-Hosting"
+description: "Discover how to connect smoothly to your SCP: Escape Together server and troubleshoot common issues for uninterrupted gameplay → Learn more now"
 sidebar_label: Connect to the server
 services:
   - gameserver-scp-escapetogether

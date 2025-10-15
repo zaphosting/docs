@@ -1,7 +1,7 @@
 ---
 id: webspace-introduction
 title: "Webspace: Introduction"
-description: "Introduction and information about the Webspace product from ZAP-Hosting"
+description: "Discover affordable web hosting solutions with flexible configurations and instant setup to launch your online presence quickly → Learn more now"
 sidebar_label: Introduction
 services:
   - webspace

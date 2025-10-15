@@ -1,7 +1,7 @@
 ---
 id: risingstorm2-troubleshooting-common-issues
 title: "Rising Storm 2: Common issues"
-description: "Information on how to resolve common issues on a Rising Storm 2 server from ZAP-Hosting"
+description: "Discover how to troubleshoot and resolve common Rising Storm 2 server issues for a smooth gaming experience → Learn more now"
 sidebar_label: Common issues
 services:
   - gameserver-risingstorm2

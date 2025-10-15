@@ -1,7 +1,7 @@
 ---
 id: ats-firststeps-connect
 title: "American Truck Simulator: Connect to the server"
-description: "Information about various ways on how to connect to your American Truck Simulator server from ZAP-Hosting"
+description: "Discover how to connect seamlessly to your American Truck Simulator server and enjoy uninterrupted gameplay → Learn more now"
 sidebar_label: Connect to the server
 services:
   - gameserver-ats

@@ -1,7 +1,7 @@
 ---
 id: hl2-troubleshooting-common-issues
 title: "Half-Life 2: Common issues"
-description: "Information on how to resolve common issues on a Half-Life 2 server from ZAP-Hosting"
+description: "Discover how to troubleshoot and resolve common Half-Life 2 server issues to keep your game running smoothly → Learn more now"
 sidebar_label: Common issues
 services:
   - gameserver-hl2

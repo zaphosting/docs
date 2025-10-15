@@ -1,7 +1,7 @@
 ---
 id: vserver-windows-cscz
 title: "VPS: Counter-Strike: Condition Zero Dedicated Server Windows Setup"
-description: "Information about setting up a Counter-Strike: Condition Zero Dedicated Server on a Windows VPS from ZAP-Hosting"
+description: "Learn how to set up a Counter-Strike: Condition Zero dedicated server on your VPS or dedicated server quickly and easily → Learn more now"
 sidebar_label: "Counter-Strike: Condition Zero"
 services:
   - vserver

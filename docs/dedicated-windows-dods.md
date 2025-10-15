@@ -1,7 +1,7 @@
 ---
 id: dedicated-windows-dods
 title: "Dedicated Server: Day of Defeat: Source Dedicated Server Windows Setup"
-description: "Information about setting up a Day of Defeat: Source Dedicated Server on a Windows VPS from ZAP-Hosting"
+description: "Discover how to set up a Day of Defeat: Source dedicated server on your VPS or server quickly and efficiently → Learn more now"
 sidebar_label: "Day of Defeat: Source"
 services:
   - vserver

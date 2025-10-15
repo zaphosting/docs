@@ -1,7 +1,7 @@
 ---
 id: risingworld-firststeps-dashboard
 title: "Rising World: Dashboard Overview"
-description: "Information about the dashboard of an Rising World server from ZAP-Hosting"
+description: "Discover how to efficiently manage your Rising World server and optimize its settings for the best performance → Learn more now"
 sidebar_label: Dashboard
 services:
   - gameserver

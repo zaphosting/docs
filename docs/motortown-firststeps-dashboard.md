@@ -1,7 +1,7 @@
 ---
 id: motortown-firststeps-dashboard
 title: "Motor Town: Behind The Wheel: Dashboard Overview"
-description: "Information about the dashboard of an Motor Town: Behind The Wheel Vanilla server from ZAP-Hosting"
+description: "Discover how to efficiently manage and optimize your Motor Town server for peak performance and control → Learn more now"
 sidebar_label: Dashboard
 services:
   - gameserver-motortown

@@ -1,7 +1,7 @@
 ---
 id: corekeeper-firststeps-dashboard
 title: "Core Keeper: Dashboard Overview"
-description: "Information about the dashboard of an Core Keeper server from ZAP-Hosting"
+description: "Discover how to efficiently manage your Core Keeper server and optimize its settings for the best gaming experience → Learn more now"
 sidebar_label: Dashboard
 services:
   -   - gameserver-corekeeper

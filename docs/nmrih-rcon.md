@@ -1,7 +1,7 @@
 ---
 id: nmrih-rcon
 title: "No More Room In Hell: RCON"
-description: "Learn how to use RCON for No More Room In Hell"
+description: "Discover how to remotely manage No More Room In Hell servers for flexible control and monitoring → Learn more now"
 sidebar_label: RCON
 services:
   - gameserver-nmrih

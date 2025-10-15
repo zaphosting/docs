@@ -1,7 +1,7 @@
 ---
 id: dedicated-linux-nodejs
 title: "Dedicated Server: Setup Node.js on Linux"
-description: "Information on how to setup Node.js on your Linux Dedicated Server from ZAP-Hosting"
+description: "Discover how to set up a stable Node.js environment for scalable, real-time applications with best practices and preparation steps → Learn more now"
 sidebar_label: Install Node.js
 services:
   - dedicated

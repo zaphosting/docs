@@ -1,7 +1,7 @@
 ---
 id: contribution-guides-guidelines
 title: Guide Guidelines
-description: "Guidelines for the Guides section of the ZAP-Hosting Contribution Program"
+description: "Discover how to create consistent, high-quality documentation that enhances reader experience and clarity → Learn more now"
 sidebar_label: Guidelines
 ---
 

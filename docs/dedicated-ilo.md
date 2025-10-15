@@ -1,7 +1,7 @@
 ---
 id: dedicated-ilo
 title: "Dedicated Server: iLO"
-description: "Information, about ILO administration for your Dedicated Server from ZAP-Hosting"
+description: "Discover how to fully manage your Enterprise Dedicated Server with iLO for seamless control and monitoring → Learn more now"
 sidebar_label: iLO
 services:
   - dedicated

@@ -1,7 +1,7 @@
 ---
 id: dedicated-reset
 title: "Dedicated Server: Server Reset (Factory state)"
-description: "Information on how to reset your dedicated server from ZAP-Hosting"
+description: "Discover how to reset your server effectively to restore performance or start fresh with secure data removal → Learn more now"
 sidebar_label: Server reset
 services:
   - dedicated

@@ -1,7 +1,7 @@
 ---
 id: vrising-plugins-bepinex
 title: "V Rising: Installing plugins on server (BepInEx)"
-description: "Information on how to install plugins on your V Rising server using BepInEx (V Rising BepInEx Server) from ZAP-Hosting"
+description: "Discover how to enhance your V Rising gameplay with BepInEx mods and improve server customization → Learn more now"
 sidebar_label: Install plugins (BepInEx)
 services:
   - gameserver-vrising

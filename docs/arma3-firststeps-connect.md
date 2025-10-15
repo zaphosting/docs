@@ -1,7 +1,7 @@
 ---
 id: arma3-firststeps-connect
 title: "Arma 3: Connect to the server"
-description: "Information about various ways on how to connect to your Arma 3 server from ZAP-Hosting"
+description: "Discover how to connect to your Arma 3 server smoothly and get all essential tips for a seamless gaming experience → Learn more now"
 sidebar_label: Connect to the server
 services:
   - gameserver-arma3

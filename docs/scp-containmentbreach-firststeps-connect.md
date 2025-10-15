@@ -1,7 +1,7 @@
 ---
 id: scp-containmentbreach-firststeps-connect
 title: "SCP: Containment Breach: Connect to the server"
-description: "Information about various ways on how to connect to your SCP: Containment Breach server from ZAP-Hosting"
+description: "Discover how to connect seamlessly to your SCP: Containment Breach server and ensure a smooth gaming experience → Learn more now"
 sidebar_label: Connect to the server
 services:
   - gameserver-scp-containmentbreach

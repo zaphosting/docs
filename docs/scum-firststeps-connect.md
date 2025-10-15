@@ -1,7 +1,7 @@
 ---
 id: scum-firststeps-connect
 title: "SCUM: Connect to the server"
-description: "Information about various ways on how to connect to your SCUM server from ZAP-Hosting"
+description: "Discover how to connect to your SCUM server smoothly with essential tips and troubleshooting advice → Learn more now"
 sidebar_label: Connect to the server
 services:
   - gameserver-scum

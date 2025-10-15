@@ -1,7 +1,7 @@
 ---
 id: tf2-rcon
 title: "Team Fortress 2: RCON"
-description: "Learn how to use RCON for Team Fortress 2"
+description: "Discover how to remotely manage and control your Team Fortress 2 server for flexible administration and monitoring → Learn more now"
 sidebar_label: RCON
 services:
   - gameserver-tf2

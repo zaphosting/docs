@@ -1,7 +1,7 @@
 ---
 id: cryofall-firststeps-dashboard
 title: "Cryofall: Dashboard overview"
-description: "Information about the dashboard of an Cryofall server from ZAP-Hosting"
+description: "Discover how to efficiently manage and optimize your Cryofall server with a clear overview of all essential administration features → Learn more now"
 sidebar_label: Dashboard
 services:
   - gameserver-cs16

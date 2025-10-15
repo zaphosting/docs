@@ -1,7 +1,7 @@
 ---
 id: fivem-txadmin-setup
 title: "FiveM: txAdmin Setup"
-description: "Information on how to set up the TxAdmin interface for FiveM game servers from ZAP-Hosting"
+description: "Discover how to easily manage and monitor your FiveM server with txAdmin’s free, full-featured web panel → Learn more now"
 sidebar_label: txAdmin Setup
 services:
   - gameserver-fivem

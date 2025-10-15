@@ -1,7 +1,7 @@
 ---
 id: redm-locale
 title: "RedM: Change language / location (flag)"
-description: "Information on how to customize the language and location (flag) on a RedM server"
+description: "Discover how to customize RedM server languages and flags to enhance player experience and localization → Learn more now"
 sidebar_label: Language / location (flag)
 services:
   - gameserver-redm

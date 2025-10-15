@@ -1,7 +1,7 @@
 ---
 id: arma-reforger-rcon
 title: "Arma Reforger: RCON"
-description: "Learn how to use RCON for Arma Reforger"
+description: "Discover how to remotely manage and control Arma Reforger servers securely for flexible administration and monitoring → Learn more now"
 sidebar_label: RCON
 services:
   - gameserver-arma-reforger

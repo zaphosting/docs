@@ -1,7 +1,7 @@
 ---
 id: vserver-windows-foundry
 title: "VPS: Foundry Dedicated Server Windows Setup"
-description: "Information about setting up a Foundry Dedicated Server on a Windows VPS from ZAP-Hosting"
+description: "Discover how to set up a Foundry Dedicated Server on your Windows VPS for seamless gameplay hosting → Learn more now"
 sidebar_label: Foundry
 services:
   - vserver

@@ -1,7 +1,7 @@
 ---
 id: gameserver-scheduled-tasks
 title: "Game server: Scheduled Tasks (Cron)"
-description: "Create and manage scheduled tasks (cron) for your game server product from ZAP-Hosting"
+description: "Discover how to automate server processes with scheduled tasks for backups, service management, and commands → Learn more now"
 sidebar_label: Scheduled tasks
 services:
   - webspace

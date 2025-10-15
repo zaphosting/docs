@@ -1,7 +1,7 @@
 ---
 id: insurgency-firststeps-dashboard
 title: "Insurgency: Dashboard overview"
-description: "Information about the dashboard of an Insurgency server from ZAP-Hosting"
+description: "Discover how to efficiently manage and optimize your Insurgency server with a clear overview of key features and administration tools → Learn more now"
 sidebar_label: Dashboard
 services:
   - gameserver-insurgency

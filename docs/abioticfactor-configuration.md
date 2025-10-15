@@ -1,7 +1,7 @@
 ---
 id: abioticfactor-configuration
 title: "Abiotic Factor: Server Configuration"
-description: "Information about configuring a Abiotic Factor game server from ZAP-Hosting"
+description: "Explore how to customize Abiotic Factor server settings to optimize your gameplay experience and server performance → Learn more now"
 sidebar_label: Server Configuration
 services:
   - gameserver-abioticfactor

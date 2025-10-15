@@ -1,7 +1,7 @@
 ---
 id: dods-firststeps-dashboard
 title: "Day of Defeat Source: Dashboard Overview"
-description: "Information about the dashboard of an Day of Defeat: Source server from ZAP-Hosting"
+description: "Discover how to efficiently manage your Day of Defeat: Source server and optimize its settings for the best performance → Learn more now"
 sidebar_label: Dashboard
 services:
   - gameserver-dods

@@ -1,7 +1,7 @@
 ---
 id: dedicated-linux-webserver
 title: "Dedicated Server: Installation of Nginx and Apache webserver"
-description: "Information on how to install Nginx and Apache web servers on your Linx VPS from ZAP-Hosting"
+description: "Discover how to set up and configure Nginx or Apache web servers to host your website efficiently → Learn more now"
 sidebar_label: Install webserver
 services:
   - dedicated

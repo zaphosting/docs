@@ -1,7 +1,7 @@
 ---
 id: valheim-firststeps-connect
 title: "Valheim: Connect to the server"
-description: "Information about various ways on how to connect to your Valheim server from ZAP-Hosting"
+description: "Discover how to connect to your Valheim server smoothly and get all the essential info for a hassle-free gaming experience → Learn more now"
 sidebar_label: Connect to the server
 services:
   - gameserver-valheim

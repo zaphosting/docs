@@ -1,7 +1,7 @@
 ---
 id: themeangreens-firststeps-dashboard
 title: "The Mean Greens: Dashboard overview"
-description: "Information about the dashboard of an The Mean Greens server from ZAP-Hosting"
+description: "Discover how to efficiently manage and optimize your The Mean Greens server for peak performance and control → Learn more now"
 sidebar_label: Dashboard
 services:
   - gameserver

@@ -1,7 +1,7 @@
 ---
 id: dedicated-windows-manage-users
 title: "Dedicated Server: Manage Users on Windows Server"
-description: "Information on how to add and manage additional users on your Windows Dedicated Server from ZAP-Hosting"
+description: "Discover how to manage multiple Windows server users for secure, simultaneous remote access and personalized environments → Learn more now"
 sidebar_label: Add & Manage Users
 services:
   - dedicated

@@ -1,7 +1,7 @@
 ---
 id: contribution-guides
 title: Guides Process
-description: "Information on the guides (ZAP-Docs) contribution process for the ZAP-Hosting Community Contributions program"
+description: "Discover how to contribute valuable, original guides to ZAP-Docs and help educate users with clear, practical content → Learn more now"
 sidebar_label: Guides Process
 ---
 

@@ -1,7 +1,7 @@
 ---
 id: rust-becomeadmin
 title: "Rust: Become an admin on your own server"
-description: "Information on how to become an admin on your Rust server from ZAP-Hosting"
+description: "Discover how to assign administrator permissions for full server control and manage your game effectively → Learn more now"
 sidebar_label: Become admin 
 services:
   - gameserver-rust

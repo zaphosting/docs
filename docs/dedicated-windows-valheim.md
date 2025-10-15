@@ -1,7 +1,7 @@
 ---
 id: dedicated-windows-valheim
 title: "Dedicated Server: Valheim Dedicated Server Windows Setup"
-description: "Information about setting up a Valheim Dedicated Server on a Windows Dedicated Server from ZAP-Hosting"
+description: "Discover how to set up a Valheim dedicated server on your own server for seamless multiplayer gaming → Learn more now"
 sidebar_label: Valheim
 services:
   - dedicated

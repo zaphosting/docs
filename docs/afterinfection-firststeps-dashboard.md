@@ -1,7 +1,7 @@
 ---
 id: afterinfection-firststeps-dashboard
 title: "Afterinfection: Dashboard overview"
-description: "Information about the dashboard of an Afterinfection server from ZAP-Hosting"
+description: "Discover how to efficiently manage and optimize your Afterinfection server with a clear overview of all features and options → Learn more now"
 sidebar_label: Dashboard
 services:
   - gameserver-afterinfection

@@ -1,7 +1,7 @@
 ---
 id: dedicated-linux-sshkey
 title: "Dedicated Server: Generating and using SSH keys for Linux servers"
-description: "Information on how to generate an SSH key for on your Linux Dedicated Server from ZAP-Hosting and how to use the key"
+description: "Discover how to securely generate and manage SSH keys for your Linux server to enhance connection safety → Learn more now"
 sidebar_label: SSH Key
 services:
   - dedicated

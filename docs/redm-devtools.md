@@ -1,7 +1,7 @@
 ---
 id: redm-devtools
 title: "RedM: Enable Dev Tools for extended debugging information"
-description: "Informations on how to activate the RedM Developer Tools"
+description: "Discover how to optimize and debug RedM servers efficiently with powerful dev tools for resource monitoring and network diagnostics → Learn more now"
 sidebar_label: Enable Dev Tools
 services:
   - gameserver-redm

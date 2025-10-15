@@ -1,7 +1,7 @@
 ---
 id: domain-gameserver-srv-link
 title: "Domain: Set up game server forwarding"
-description: "Information on how to set up a forwarding from your domain to a game server"
+description: "Discover how to forward your domain or subdomain to a game server for easy access and improved connectivity → Learn more now"
 sidebar_label: Gameserver forwarding
 services:
   - domain

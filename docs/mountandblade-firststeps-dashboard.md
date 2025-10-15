@@ -1,7 +1,7 @@
 ---
 id: mountandblade-firststeps-dashboard
 title: "Mount & Blade: Dashboard overview"
-description: "Information about the dashboard of an Mount & Blade server from ZAP-Hosting"
+description: "Explore how to efficiently manage your Mount & Blade server and optimize its features for the best performance → Learn more now"
 sidebar_label: Dashboard
 services:
   - gameserver-mountandblade

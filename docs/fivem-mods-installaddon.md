@@ -1,7 +1,7 @@
 ---
 id: fivem-mods-installaddon
 title: "FiveM: Install Addon Carmods on Server"
-description: "Information on how to install Addon Carmods on your FiveM server from ZAP-Hosting"
+description: "Discover how to easily download and convert car mods for FiveM to enhance your game experience with step-by-step guidance → Learn more now"
 sidebar_label: Install Addon Carmods
 services:
   - gameserver-fivem

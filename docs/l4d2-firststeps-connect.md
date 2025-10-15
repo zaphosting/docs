@@ -1,7 +1,7 @@
 ---
 id: l4d2-firststeps-connect
 title: "Left 4 Dead 2: Connect to the server"
-description: "Information about various ways on how to connect to your Left 4 Dead 2 server from ZAP-Hosting"
+description: "Discover how to connect to your Left 4 Dead 2 server smoothly and troubleshoot common issues for a seamless gaming experience → Learn more now"
 sidebar_label: Connect to the server
 services:
   - gameserver-l4d2

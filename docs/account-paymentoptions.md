@@ -1,7 +1,7 @@
 ---
 id: account-paymentoptions
 title: "Payment options: What payment options are available"
-description: "Information about the different payment options at ZAP-Hosting PayPal, credit card, ZAP Coins and more"
+description: "Discover fast server rental with multiple payment options including ZAP Coins, credit card, PayPal, Bitcoin, and more → Learn more now"
 sidebar_label: Payment options
 ---
 

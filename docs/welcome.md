@@ -1,6 +1,7 @@
 ---
 id: welcome
 title: Welcome to the ZAP-Hosting Documentation!
+description: "Discover how to maximize your ZAP-Hosting products for gaming, servers, and domains with clear, expert guides → Learn more now"
 sidebar_label: Welcome!
 ---
 

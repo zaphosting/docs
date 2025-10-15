@@ -1,7 +1,7 @@
 ---
 id: vserver-vnc
 title: "VPS: VNC (Virtual Network Computing) console"
-description: "Information about the VNC console for VPSs at ZAP-Hosting"
+description: "Discover how to remotely access and control your server even during startup or network issues for seamless management → Learn more now"
 sidebar_label: VNC console
 services:
   - vserver

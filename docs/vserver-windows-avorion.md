@@ -1,7 +1,7 @@
 ---
 id: vserver-windows-avorion
 title: "VPS: Avorion Dedicated Server Windows Setup"
-description: "Information about setting up an Avorion Dedicated Server on a Windows VPS from ZAP-Hosting"
+description: "Discover how to set up an Avorion Dedicated Server on your Windows VPS quickly and efficiently → Learn more now"
 sidebar_label: Avorion
 services:
   - vserver

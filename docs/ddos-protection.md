@@ -1,7 +1,7 @@
 ---
 id: ddos-protection
 title: ZAP-Hosting DDoS Protection
-description: "Information about the DDoS Protection at ZAP-Hosting"
+description: "Discover how ZAP-Hosting ensures uninterrupted service with tailored, real-time DDoS protection solutions for global data centers → Learn more now"
 sidebar_label: DDoS Protection
 ---
 

@@ -1,7 +1,7 @@
 ---
 id: vserver-linux-lamp-stack
 title: "VPS: Setup LAMP stack - Linux, Apache, MySQL, PHP"
-description: "Information on how to setup a LAMP (Linux, Apache, MySQL, PHP) stack on your Linux VPS from ZAP-Hosting"
+description: "Discover how to set up a LAMP stack for hosting dynamic PHP websites on Linux VPS efficiently → Learn more now"
 sidebar_label: Web LAMP stack
 services:
   - vserver

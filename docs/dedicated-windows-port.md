@@ -1,7 +1,7 @@
 ---
 id: dedicated-windows-port
 title: "Dedicated Server: Managing Windows Defender Firewall Rules"
-description: "Information on managing Windows Defender Firewall rules, including Port Forwarding, on your Windows Dedicated Server from ZAP-Hosting"
+description: "Discover how to effectively manage Windows Defender Firewall rules and optimize port forwarding for secure server communication → Learn more now"
 sidebar_label: Port Forwarding (Firewall)
 services:
   - dedicated

@@ -1,7 +1,7 @@
 ---
 id: dedicated-windows-cs2
 title: "Dedicated Server: Counter-Strike 2 Dedicated Server Windows Setup"
-description: "Information about setting up a Counter-Strike 2 Dedicated Server on a Windows VPS from ZAP-Hosting"
+description: "Learn how to set up a Counter-Strike 2 dedicated server on your VPS or dedicated server quickly and efficiently → Learn more now"
 sidebar_label: "Counter-Strike 2"
 services:
   - vserver

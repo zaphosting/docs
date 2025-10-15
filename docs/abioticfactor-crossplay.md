@@ -1,7 +1,7 @@
 ---
 id: abioticfactor-crossplay
 title: "Abiotic Factor: Configure Crossplay Support and Learn How to Connect via Console"
-description: "Information about how to configurate crossplay support for an Abiotic Factor game server from ZAP-Hosting"
+description: "Discover how to enable and manage crossplay in Abiotic Factor for seamless multiplayer across PC and consoles → Learn more now"
 sidebar_label: Crossplay
 services:
   - gameserver-abioticfactor

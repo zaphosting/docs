@@ -1,7 +1,7 @@
 ---
 id: contribution-blogs-guidelines
 title: Blog Guidelines
-description: "Guidelines for the Blogs section of the ZAP-Hosting Contribution Program"
+description: "Discover how to create high-quality, consistent blog posts that engage readers and enhance your writing skills → Learn more now"
 sidebar_label: Guidelines
 ---
 

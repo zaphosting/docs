@@ -1,7 +1,7 @@
 ---
 id: satisfactory-firststeps-dashboard
 title: "Satisfactory: Dashboard Overview"
-description: "Information about the dashboard of a Satisfactory server from ZAP-Hosting"
+description: "Discover how to efficiently manage your XY server and optimize its features for your needs → Learn more now"
 sidebar_label: Dashboard
 services:
   - gameserver-satisfactory
