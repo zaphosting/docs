@@ -1,7 +1,7 @@
 ---
 id: dayz-rcon
 title: "DayZ: RCON"
-description: "Learn how to use RCON for DayZ"
+description: "Discover how to remotely manage and control DayZ game servers efficiently without in-game connection → Learn more now"
 sidebar_label: RCON
 services:
   - gameserver-dayz

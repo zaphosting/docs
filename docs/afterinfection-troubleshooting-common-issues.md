@@ -1,7 +1,7 @@
 ---
 id: afterinfection-troubleshooting-common-issues
 title: "Afterinfection: Common issues"
-description: "Information on how to resolve common issues on a Afterinfection server from ZAP-Hosting"
+description: "Discover how to troubleshoot and resolve common Afterinfection server issues for a smooth gaming experience → Learn more now"
 sidebar_label: Common issues
 services:
   - gameserver-afterinfection

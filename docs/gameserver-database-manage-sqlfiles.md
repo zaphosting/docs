@@ -1,7 +1,7 @@
 ---
 id: gameserver-database-manage-sqlfiles
 title: "Game server: Import or Export an SQL file"
-description: "Information on how to import and export an SQL file into/from the database for your game server from ZAP-Hosting"
+description: "Discover how to manage your game server database by importing and exporting SQL files efficiently using phpMyAdmin → Learn more now"
 sidebar_label: Import/Export SQL Files
 services:
   - gameserver

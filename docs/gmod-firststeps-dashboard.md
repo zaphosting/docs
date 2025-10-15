@@ -1,7 +1,7 @@
 ---
 id: gmod-firststeps-dashboard
 title: "Garry's Mod: Dashboard Overview"
-description: "Information about the dashboard of an Garry's Mod server from ZAP-Hosting"
+description: "Discover how to efficiently manage and optimize your Garry's Mod server with a clear, structured overview → Learn more now"
 sidebar_label: Dashboard
 services:
   - gameserver-gmod

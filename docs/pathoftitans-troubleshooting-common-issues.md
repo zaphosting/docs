@@ -1,7 +1,7 @@
 ---
 id: pathoftitans-troubleshooting-common-issues
 title: "Path of Titans: Common issues"
-description: "Information on how to resolve common issues on a Path of Titans server from ZAP-Hosting"
+description: "Discover how to troubleshoot and resolve common Path of Titans server issues for a smooth gaming experience → Learn more now"
 sidebar_label: Common issues
 services:
   - gameserver-pathoftitans

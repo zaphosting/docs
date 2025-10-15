@@ -1,7 +1,7 @@
 ---
 id: beammp-addon-map
 title: "BeamMP: Install Addon Map"
-description: "Information on how to install an addon map for your BeamMP server from ZAP-Hosting"
+description: "Discover how to enhance your BeamMP server with custom map addons for improved multiplayer gameplay → Learn more now"
 sidebar_label: Install Addon Map
 services:
   - gameserver-beammp

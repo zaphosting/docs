@@ -1,7 +1,7 @@
 ---
 id: bananashooter-firststeps-dashboard
 title: "Banana Shooter: Dashboard overview"
-description: "Information about the dashboard of an Banana Shooter server from ZAP-Hosting"
+description: "Discover how to efficiently manage your Banana Shooter server and optimize its features for your needs → Learn more now"
 sidebar_label: Dashboard
 services:
   - gameserver-barotrauma-bananashooter

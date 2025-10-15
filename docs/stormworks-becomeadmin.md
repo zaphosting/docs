@@ -1,7 +1,7 @@
 ---
 id: stormworks-becomeadmin
 title: "Stormworks: Become a Stormworks Admin"
-description: "How to become an admin for Stormworks game servers"
+description: "Discover how to manage your game server with full admin control and streamline server administration → Learn more now"
 sidebar_label: Become admin
 services:
   - gameserver-stormworks

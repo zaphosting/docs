@@ -1,7 +1,7 @@
 ---
 id: arma3-altislife-ranks
 title: "Arma 3: Adding ranks to an Altis Life server"
-description: "Information on how to add ranks to your Altis Life server from ZAP-Hosting"
+description: "Learn how to assign and manage player ranks like Cop, Medic, and Admin in Arma 3 to enhance gameplay and server roles → Learn more now"
 sidebar_label: Altis Life Ranks
 services:
   - gameserver-arma3

@@ -1,7 +1,7 @@
 ---
 id: voicebot-introduction
 title: "Voicebot: Introduction"
-description: "Introduction and information about the Voicebot products from ZAP-Hosting"
+description: "Discover how to enhance your Teamspeak or Discord server with a versatile Voicebot for music and moderation → Learn more now"
 sidebar_label: Introduction
 services:
   - voicebot

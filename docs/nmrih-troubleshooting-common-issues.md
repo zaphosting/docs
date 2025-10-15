@@ -1,7 +1,7 @@
 ---
 id: nmrih-troubleshooting-common-issues
 title: "No More Room In Hell: Common issues"
-description: "Information on how to resolve common issues on a No More Room In Hell server from ZAP-Hosting"
+description: "Discover how to troubleshoot and resolve common No More Room In Hell server issues for a smooth gaming experience → Learn more now"
 sidebar_label: Common issues
 services:
   - gameserver-nmrih

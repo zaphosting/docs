@@ -1,7 +1,7 @@
 ---
 id: dedicated-windows-speedtest-cli
 title: "Dedicated Server: Setup Speedtest CLI on Windows"
-description: "Information on how to setup Speedtest CLI on your Windows vServer from ZAP-Hosting"
+description: "Discover how to efficiently manage source code and collaborate seamlessly with Speedtest CLI for modern development → Learn more now"
 sidebar_label: Install Speedtest CLI
 services:
   - dedicated

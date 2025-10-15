@@ -1,7 +1,7 @@
 ---
 id: minecraft-worlds
 title: "Minecraft: Manage world saves"
-description: "Information on how to manage, convert and generate world saves on your Minecraft server from ZAP-Hosting"
+description: "Discover how to manage, convert, and back up Minecraft worlds across platforms to keep your game progress safe and seamless → Learn more now"
 sidebar_label: Manage Worlds
 services:
   - gameserver-minecraft

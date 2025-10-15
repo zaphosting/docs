@@ -1,7 +1,7 @@
 ---
 id: nmrih-firststeps-connect
 title: "No More Room in Hell: Connect to the server"
-description: "Information about various ways on how to connect to your No More Room in Hell server from ZAP-Hosting"
+description: "Discover how to connect seamlessly to your No More Room in Hell server and enjoy smooth gameplay without hassle → Learn more now"
 sidebar_label: Connect to the server
 services:
   - gameserver-nmrih

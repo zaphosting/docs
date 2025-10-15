@@ -1,7 +1,7 @@
 ---
 id: ark-troubleshooting-common-issues
 title: "ARK: Survival Evolved: Common issues"
-description: "Information on how to resolve common issues on a ARK: Survival Evolved server from ZAP-Hosting"
+description: "Discover how to troubleshoot and resolve common ARK: Survival Evolved server issues for a smooth gaming experience → Learn more now"
 sidebar_label: Common issues
 services:
   - gameserver-ark

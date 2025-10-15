@@ -1,7 +1,7 @@
 ---
 id: bob-firststeps-dashboard
 title: "Beasts of Bermuda: Dashboard overview"
-description: "Information about the dashboard of an Beasts of Bermuda server from ZAP-Hosting"
+description: "Discover how to efficiently manage your Beasts of Bermuda server with a clear overview of features and options → Learn more now"
 sidebar_label: Dashboard
 services:
   - gameserver-bob

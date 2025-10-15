@@ -1,7 +1,7 @@
 ---
 id: longvinter-firststeps-dashboard
 title: "Longvinter: Dashboard overview"
-description: "Information about the dashboard of an Longvinter server from ZAP-Hosting"
+description: "Discover how to efficiently manage your Longvinter server and optimize its settings for your needs → Learn more now"
 sidebar_label: Dashboard
 services:
   - gameserver-longvinter

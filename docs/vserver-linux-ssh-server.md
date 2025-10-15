@@ -1,7 +1,7 @@
 ---
 id: vserver-linux-ssh-server
 title: "VPS: Installation of SSH"
-description: "Information on how to install SSH Server on your Linux VPS from ZAP-Hosting"
+description: "Learn how to securely access and manage remote Linux servers with SSH to enhance data protection and server control → Learn more now"
 sidebar_label: Install SSH
 services:
   - vserver

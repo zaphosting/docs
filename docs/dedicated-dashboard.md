@@ -1,7 +1,7 @@
 ---
 id: dedicated-dashboard
 title: "Dedicated Server: Dashboard Overview"
-description: "Information about the dashboard of a Dedicated Server product from ZAP-Hosting"
+description: "Discover how to efficiently manage and optimize your Dedicated Server with a clear overview of key features and administration tools → Learn more now"
 sidebar_label: Dashboard
 services:
   - dedicated

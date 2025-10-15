@@ -1,7 +1,7 @@
 ---
 id: avorion-troubleshooting-common-issues
 title: "Avorion: Common issues"
-description: "Information on how to resolve common issues on a Avorion server from ZAP-Hosting"
+description: "Discover how to troubleshoot and resolve common Avorion server issues to ensure smooth gameplay and a stable gaming environment → Learn more now"
 sidebar_label: Common issues
 services:
   - gameserver-avorion

@@ -1,7 +1,7 @@
 ---
 id: redm-installresources
 title: "RedM: Installation of resources"
-description: "Information on how to install resources on your RedM server from ZAP-Hosting"
+description: "Discover how to enhance your RedM server with popular resources for larger projects like roleplay servers → Learn more now"
 sidebar_label: Install resources
 services:
   - gameserver-redm

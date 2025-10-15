@@ -1,7 +1,7 @@
 ---
 id: scp-pastebin
 title: "SCP Secret Laboratory: Pastebin ID"
-description: "Information on how to add a Pastebin entry to create a server description on your SCP server from ZAP-Hosting"
+description: "Discover how to create and display a server description for your SCP server using Pastebin for better game info management → Learn more now"
 sidebar_label: Pastebin ID
 services:
   - gameserver-scp

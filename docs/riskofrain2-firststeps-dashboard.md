@@ -1,7 +1,7 @@
 ---
 id: riskofrain2-firststeps-dashboard
 title: "Risk of Rain 2: Dashboard overview"
-description: "Information about the dashboard of an Risk of Rain 2 server from ZAP-Hosting"
+description: "Discover how to efficiently manage and optimize your Risk of Rain 2 server with a clear overview of key features and controls → Learn more now"
 sidebar_label: Dashboard
 services:
   - gameserver-riskofrain2

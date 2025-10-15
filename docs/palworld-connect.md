@@ -1,7 +1,7 @@
 ---
 id: palworld-connect
 title: "Palworld: Connect to Palworld Server"
-description: "Information about connecting to a Palworld server from ZAP-Hosting"
+description: "Discover how to connect to your Palworld server and join multiplayer games seamlessly → Learn more now"
 sidebar_label: Connect to Server
 services:
   - gameserver-palworld

@@ -1,7 +1,7 @@
 ---
 id: assettocorsa-firststeps-dashboard
 title: "Assetto Corsa: Dashboard Overview"
-description: "Information about the dashboard of an Assetto Corsa server from ZAP-Hosting"
+description: "Discover how to efficiently manage and optimize your Assetto Corsa server for the best performance and user experience → Learn more now"
 sidebar_label: Dashboard
 services:
   - gameserver-assettocorsa

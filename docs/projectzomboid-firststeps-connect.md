@@ -1,7 +1,7 @@
 ---
 id: projectzomboid-firststeps-connect
 title: "Project Zomboid: Connect to the server"
-description: "Information about various ways on how to connect to your Project Zomboid server from ZAP-Hosting"
+description: "Discover how to connect to your Project Zomboid server smoothly and securely with essential tips and steps → Learn more now"
 sidebar_label: Connect to the server
 services:
   - gameserver-projectzomboid

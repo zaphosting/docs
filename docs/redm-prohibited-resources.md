@@ -1,7 +1,7 @@
 ---
 id: redm-prohibited-resources
 title: "RedM: 'Resource contains prohibited logic?'"
-description: "Information about the error 'Resource contains prohibited logic' on a RedM server from ZAP-Hosting"
+description: "Understand how to protect your server from malicious RedM resources and ensure secure, high-performance gameplay → Learn more now"
 sidebar_label: Resource contains prohibited logic
 services:
   - gameserver-redm

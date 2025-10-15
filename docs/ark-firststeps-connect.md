@@ -1,7 +1,7 @@
 ---
 id: ark-firststeps-connect
 title: "Ark Survival Evolved: Connect to the server"
-description: "Information about various ways on how to connect to your Ark: Survival Evolved server from ZAP-Hosting"
+description: "Discover how to connect to your Ark: Survival Evolved server smoothly and enjoy uninterrupted gameplay → Learn more now"
 sidebar_label: Connect to the server
 services:
   - gameserver-ark

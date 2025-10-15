@@ -1,7 +1,7 @@
 ---
 id: cs2-plugins
 title: "CS2: Installation of plugins"
-description: "Information about installing plugins for CS2 Server from ZAP Hosting"
+description: "Explore the evolving landscape of CS2 plugins and community projects to enhance your Counter-Strike experience → Learn more now"
 sidebar_label: Install plugins
 services:
   - gameserver-cs2

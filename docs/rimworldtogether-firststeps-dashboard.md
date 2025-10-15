@@ -1,7 +1,7 @@
 ---
 id: rimworldtogether-firststeps-dashboard
 title: "RimWorld Together: Dashboard Overview"
-description: "Information about the dashboard of a RimWorld Together server from ZAP-Hosting"
+description: "Discover how to efficiently manage and optimize your RimWorld Together server for the best performance and user experience → Learn more now"
 sidebar_label: Dashboard
 services:
   - gameserver

@@ -1,7 +1,7 @@
 ---
 id: conan-firststeps-connect
 title: "Conan Exiles: Connect to the server"
-description: "Information about various ways on how to connect to your Conan Exiles server from ZAP-Hosting"
+description: "Discover how to connect to your Conan Exiles server smoothly and enjoy uninterrupted gameplay → Learn more now"
 sidebar_label: Connect to the server
 services:
   - gameserver-conan

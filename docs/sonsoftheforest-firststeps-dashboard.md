@@ -1,7 +1,7 @@
 ---
 id: sonsoftheforest-firststeps-dashboard
 title: "Sons of the Forest: Dashboard overview"
-description: "Information about the dashboard of an Sons of the Forest server from ZAP-Hosting"
+description: "Discover how to efficiently manage your Sons of the Forest server with a clear overview of features and options → Learn more now"
 sidebar_label: Dashboard
 services:
   - gameserver-sonsoftheforest

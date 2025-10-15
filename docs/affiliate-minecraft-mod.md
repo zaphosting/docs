@@ -1,7 +1,7 @@
 ---
 id: affiliate-minecraft-mod
 title: Official ZAP-Hosting Affiliate Mod for Minecraft
-description: "How to earn money and utilise the ZAP-Hosting Affiliate Mod for Minecraft via the Affiliate program"
+description: "Discover how to boost your Minecraft modpack earnings with the official ZAP-Hosting Affiliate Mod and support your community → Learn more now"
 sidebar_label: Minecraft Affiliate Mod
 ---
 

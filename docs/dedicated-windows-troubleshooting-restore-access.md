@@ -1,7 +1,7 @@
 ---
 id: dedicated-windows-troubleshooting-restore-access
 title: "Dedicated Server: Restore access"
-description: "Learn how to restore access to your lost Windows Administrator account on a dedicated server from ZAP-Hosting"
+description: "Discover how to regain access to your Windows Dedicated Server after a password lockout and minimize downtime → Learn more now"
 sidebar_label: Restore access
 services:
   - dedicated

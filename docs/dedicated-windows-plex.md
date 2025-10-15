@@ -1,7 +1,7 @@
 ---
 id: dedicated-windows-plex
 title: "Dedicated Server: Setup Plex on Windows"
-description: "Information on how to setup Plex on your Windows Dedicated Server from ZAP-Hosting"
+description: "Discover how to manage and stream your personal media effortlessly with Plex for seamless access across devices → Learn more now"
 sidebar_label: Install Plex
 services:
   - dedicated

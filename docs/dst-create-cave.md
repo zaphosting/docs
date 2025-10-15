@@ -1,7 +1,7 @@
 ---
 id: dst-create-cave
 title: "Don't Starve Together: Creating caves on servers"
-description: "Information on how to create and use caves on servers for Don't Starve Together"
+description: "Discover how to set up master and slave servers for caves in Don't Starve Together to enhance gameplay experience → Learn more now"
 sidebar_label: Create Caves
 services:
   - gameserver-dst

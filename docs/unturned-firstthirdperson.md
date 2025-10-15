@@ -1,7 +1,7 @@
 ---
 id: unturned-firstthirdperson
 title: "Unturned: Set 1st/3rd person for server"
-description: "Information on how to set the 1st or 3rd person perspective on your Unturned server from ZAP-Hosting"
+description: "Discover how to customize your Unturned server's player perspective between first, third, or both views for enhanced gameplay → Learn more now"
 sidebar_label: 1st/3rd Person
 services:
   - gameserver-unturned

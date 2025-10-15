@@ -1,7 +1,7 @@
 ---
 id: unfortunate-spacemen-firststeps-dashboard
 title: "Unfortunate Spacemen: Dashboard overview"
-description: "Information about the dashboard of an Unfortunate Spacemen server from ZAP-Hosting"
+description: "Discover how to efficiently manage your Unfortunate Spacemen server with a clear overview of features and options → Learn more now"
 sidebar_label: Dashboard
 services:
   - gameserver-unfortunate-spacemen

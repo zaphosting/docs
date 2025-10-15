@@ -1,7 +1,7 @@
 ---
 id: killingfloor2-firststeps-connect
 title: "Killing Floor 2: Connect to the server"
-description: "Information about various ways on how to connect to your Killing Floor 2 server from ZAP-Hosting"
+description: "Discover how to connect seamlessly to your Killing Floor 2 server and ensure a smooth gaming experience → Learn more now"
 sidebar_label: Connect to the server
 services:
   - gameserver-killingfloor2

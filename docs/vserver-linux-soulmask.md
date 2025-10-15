@@ -1,7 +1,7 @@
 ---
 id: vserver-linux-soulmask
 title: "VPS: Soulmask Dedicated Server Linux Setup"
-description: "Information about setting up an Soulmask Dedicated Server on a Linux VPS from ZAP-Hosting"
+description: "Discover how to install and configure the Soulmask Dedicated server on your Linux VPS quickly and efficiently → Learn more now"
 sidebar_label: Soulmask
 services:
   - vserver

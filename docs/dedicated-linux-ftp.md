@@ -1,7 +1,7 @@
 ---
 id: dedicated-linux-ftp
 title: "Dedicated Server: FTP service does not work - Troubleshooting"
-description: "Information on how to fix FTP problems on your Dedicated Server from ZAP-Hosting"
+description: "Understand how to troubleshoot FTP access issues on your VPS to restore server connectivity and manage your game or Teamspeak server effectively → Learn more no"
 sidebar_label: FTP Service isn't working
 services:
   - dedicated

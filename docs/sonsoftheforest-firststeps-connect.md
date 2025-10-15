@@ -1,7 +1,7 @@
 ---
 id: sonsoftheforest-firststeps-connect
 title: "Sons of the Forest: Connect to the server"
-description: "Information about various ways on how to connect to your Sons of the Forest server from ZAP-Hosting"
+description: "Discover how to connect to your Sons of the Forest server smoothly and troubleshoot common issues for uninterrupted gameplay → Learn more now"
 sidebar_label: Connect to the server
 services:
   - gameserver-sonsoftheforest

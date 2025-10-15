@@ -1,7 +1,7 @@
 ---
 id: l4d2-troubleshooting-common-issues
 title: "Left 4 Dead 2: Common issues"
-description: "Information on how to resolve common issues on a Left 4 Dead 2 server from ZAP-Hosting"
+description: "Discover how to troubleshoot common Left 4 Dead 2 server issues and maintain smooth gameplay for your community → Learn more now"
 sidebar_label: Common issues
 services:
   - gameserver-l4d2

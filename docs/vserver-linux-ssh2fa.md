@@ -1,7 +1,7 @@
 ---
 id: vserver-linux-ssh2fa
 title: "VPS: SSH two-factor authentication "
-description: "Information on how to set up two-factor authentication for your Linux server from ZAP-Hosting"
+description: "Discover how to enhance SSH security with Google Authenticator 2FA for safer server access and protect your Linux environment → Learn more now"
 sidebar_label: 2FA (SSH)
 services:
   - vserver

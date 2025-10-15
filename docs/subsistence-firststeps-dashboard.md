@@ -1,7 +1,7 @@
 ---
 id: subsistence-firststeps-dashboard
 title: "Subsistence: Dashboard overview"
-description: "Information about the dashboard of an Subsistence server from ZAP-Hosting"
+description: "Discover how to efficiently manage and optimize your Subsistence server with a clear overview of all features and options → Learn more now"
 sidebar_label: Dashboard
 services:
   - gameserver-subsistence

@@ -1,7 +1,7 @@
 ---
 id: palworld-server-modding
 title: "Palworld: Installing Mods for Palworld"
-description: "Information on how to install mods to your Palworld server or game client from ZAP-Hosting"
+description: "Discover how to enhance your Palworld gameplay with mods for servers and clients safely and effectively → Learn more now"
 sidebar_label: Install Mods
 services:
   - gameserver-palworld

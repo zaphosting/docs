@@ -1,7 +1,7 @@
 ---
 id: hl2-becomeadmin
 title: "Half-Life 2: Become an admin"
-description: "Information on how to become an admin on your Half-Life 2 server from ZAP-Hosting"
+description: "Discover how to assign administrator permissions for full server control and enhanced in-game management → Learn more now"
 sidebar_label: Become admin
 services:
   - gameserver-hl2

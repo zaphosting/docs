@@ -1,7 +1,7 @@
 ---
 id: dedicated-linux-cockpit
 title: "Dedicated Server: Installation of Cockpit "
-description: "Guide to install Cockpit on Linux"
+description: "Discover how to manage Linux servers efficiently with Cockpit’s web interface for monitoring and administration → Learn more now"
 sidebar_label: Install Cockpit
 services:
   - dedicated

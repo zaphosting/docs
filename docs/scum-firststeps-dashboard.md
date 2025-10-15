@@ -1,7 +1,7 @@
 ---
 id: scum-firststeps-dashboard
 title: "SCUM: Dashboard Overview"
-description: "Information about the dashboard of an SCUM Vanilla server from ZAP-Hosting"
+description: "Discover how to efficiently manage and optimize your SCUM server with a clear overview of key features and controls → Learn more now"
 sidebar_label: Dashboard
 services:
   - gameserver-scum

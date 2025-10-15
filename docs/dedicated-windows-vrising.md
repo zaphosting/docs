@@ -1,7 +1,7 @@
 ---
 id: dedicated-windows-vrising
 title: "Dedicated Server: V-Rising Dedicated Server Windows Setup"
-description: "Information about setting up a V-Rising Dedicated Server on a Windows Dedicated Server from ZAP-Hosting"
+description: "Discover how to set up a V Rising dedicated Windows server for optimal gaming performance and server management → Learn more now"
 sidebar_label: V-Rising
 services:
   - dedicated

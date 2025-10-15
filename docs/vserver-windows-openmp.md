@@ -1,7 +1,7 @@
 ---
 id: vserver-windows-openmp
 title: "VPS: Open.mp Dedicated Server Windows Setup"
-description: "Information about setting up an open.mp Dedicated Server on a Windows VPS from ZAP-Hosting"
+description: "Learn how to set up and configure an open.mp Dedicated server on your Windows VPS for seamless multiplayer gaming → Learn more now"
 sidebar_label: Open.mp
 services:
   - vserver

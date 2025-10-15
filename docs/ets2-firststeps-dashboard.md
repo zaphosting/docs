@@ -1,7 +1,7 @@
 ---
 id: ets2-firststeps-dashboard
 title: "Euro Truck Simulator 2: Dashboard Overview"
-description: "Information about the dashboard of an Euro Truck Simulator 2 server from ZAP-Hosting"
+description: "Discover how to efficiently manage and optimize your Euro Truck Simulator 2 server for the best performance and control → Learn more now"
 sidebar_label: Dashboard
 services:
   - gameserver-ets2

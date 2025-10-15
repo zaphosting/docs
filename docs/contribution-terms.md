@@ -1,7 +1,7 @@
 ---
 id: contribution-terms
 title: Contribution Program Terms & Conditions
-description: "Legal Terms for the ZAP-Hosting docs contribution program"
+description: "Understand the terms and conditions for article submission and payment with ZAP-Hosting to ensure professional content contribution → Learn more now"
 sidebar_label: Contribution Terms
 ---
 

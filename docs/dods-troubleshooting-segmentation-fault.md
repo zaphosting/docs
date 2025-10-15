@@ -1,7 +1,7 @@
 ---
 id: dods-troubleshooting-segmentation-fault
 title: "Day of Defeat: Source: Segmentation Fault"
-description: "Information on how to resolve the segmentation fault error on a Counter-Strike: Source server from ZAP-Hosting"
+description: "Understand common causes of segmentation faults to quickly restore your server's stability and performance → Learn more now"
 sidebar_label: Segmentation Fault
 services:
   - gameserver-dods

@@ -1,7 +1,7 @@
 ---
 id: nmrih-fastdl
 title: "No More Room In Hell: Setting up FastDL"
-description: "How to set up FastDL with webspace for No More Room In Hell servers at ZAP-Hosting"
+description: "Discover how to optimize game content delivery with FastDL using ZAP-Hosting webspace for faster downloads and reduced server load → Learn more now"
 sidebar_label: FastDL
 services:
   - gameserver-nmrih

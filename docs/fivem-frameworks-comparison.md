@@ -1,7 +1,7 @@
 ---
 id: fivem-frameworks-comparison
 title: "FiveM: Comprehensive Frameworks comparison"
-description: "Discover the significant differences, advantages and disadvantages of the available FiveM frameworks - ZAP-Hosting.com - Documentation"
+description: "Discover the top FiveM roleplay frameworks and their unique features to enhance your GTA 5 multiplayer experience → Learn more now"
 sidebar_label: Frameworks comparison
 services:
   - gameserver-fivem

@@ -1,7 +1,7 @@
 ---
 id: astroneer-firststeps-dashboard
 title: "ASTRONEER: Dashboard overview"
-description: "Information about the dashboard of an ASTRONEER server from ZAP-Hosting"
+description: "Discover how to efficiently manage and optimize your ASTRONEER server with a clear overview of all key features and options → Learn more now"
 sidebar_label: Dashboard
 services:
   - gameserver-avorion-astroneer

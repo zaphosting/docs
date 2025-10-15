@@ -1,7 +1,7 @@
 ---
 id: icarus-firststeps-dashboard
 title: "Icarus: Dashboard overview"
-description: "Information about the dashboard of an Icarus server from ZAP-Hosting"
+description: "Discover how to efficiently manage your Icarus server with a clear overview of features and options → Learn more now"
 sidebar_label: Dashboard
 services:
   - gameserver-icarus

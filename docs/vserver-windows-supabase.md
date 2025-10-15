@@ -1,7 +1,7 @@
 ---
 id: vserver-windows-supabase
 title: "VPS: Setup Supabase on Windows"
-description: "Information on how to setup Supabase on your Windows VPS from ZAP-Hosting"
+description: "Discover how to set up and configure Supabase for a reliable open-source Postgres platform with authentication and realtime features → Learn more now"
 sidebar_label: Install Supabase
 services:
   - vserver

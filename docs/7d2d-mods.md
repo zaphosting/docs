@@ -1,7 +1,7 @@
 ---
 id: 7d2d-mods
 title: "7 Days to Die: Installation of mods"
-description: "How to install mods on a 7 Days to Die game server"
+description: "Discover how to customize your server with popular mods and enhance gameplay for a unique experience → Learn more now"
 sidebar_label: Install mods
 services:
   - gameserver-7d2d

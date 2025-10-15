@@ -1,7 +1,7 @@
 ---
 id: vserver-windows-palworld
 title: "VPS: Palworld Dedicated Server Windows Setup"
-description: "Information about setting up a Palworld Dedicated Server on a Windows VPS from ZAP-Hosting"
+description: "Discover how to set up a Palworld Dedicated Server on your Windows VPS for seamless gameplay hosting → Learn more now"
 sidebar_label: Palworld
 services:
   - vserver

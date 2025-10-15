@@ -1,7 +1,7 @@
 ---
 id: assetto-competizione-firststeps-connect
 title: "Assetto Corsa Competizione: Connect to the server"
-description: "Information about various ways on how to connect to your Assetto Corsa Competizione server from ZAP-Hosting"
+description: "Discover how to connect to your Assetto Corsa Competizione server smoothly and troubleshoot common issues → Learn more now"
 sidebar_label: Connect to the server
 services:
   - gameserver-assetto-competizione

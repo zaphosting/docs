@@ -1,7 +1,7 @@
 ---
 id: dedicated-windows-git
 title: "Dedicated Server: Setup Git on Windows"
-description: "Information on how to setup Git on your Windows vServer from ZAP-Hosting"
+description: "Discover how to set up and configure Git for efficient version control and seamless collaboration in your projects → Learn more now"
 sidebar_label: Install Git
 services:
   - dedicated

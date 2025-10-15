@@ -1,7 +1,7 @@
 ---
 id: jol-firststeps-dashboard
 title: "Journey of Life: Dashboard overview"
-description: "Information about the dashboard of an Journey of Life server from ZAP-Hosting"
+description: "Discover how to efficiently manage and optimize your Journey of Life server with a clear overview of all key features and options → Learn more now"
 sidebar_label: Dashboard
 services:
   - gameserver-jol

@@ -1,7 +1,7 @@
 ---
 id: ddracenetwork-firststeps-connect
 title: "DDraceNetwork: Connect to the server"
-description: "Information about various ways on how to connect to your DDraceNetwork server from ZAP-Hosting"
+description: "Discover how to connect seamlessly to your DDraceNetwork server and troubleshoot common issues for a smooth gaming experience → Learn more now"
 sidebar_label: Connect to the server
 services:
   - gameserver-ddracenetwork

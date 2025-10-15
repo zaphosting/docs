@@ -1,7 +1,7 @@
 ---
 id: factorio-troubleshooting-common-issues
 title: "Factorio: Common issues"
-description: "Information on how to resolve common issues on a Factorio server from ZAP-Hosting"
+description: "Discover how to troubleshoot and resolve common Factorio server issues to ensure smooth gameplay and a stable gaming environment → Learn more now"
 sidebar_label: Common issues
 services:
   - gameserver-factorio

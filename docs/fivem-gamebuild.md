@@ -1,7 +1,7 @@
 ---
 id: fivem-gamebuild
 title: "FiveM: Enable DLC Content"
-description: "Information on how to enable a DLC game build for FiveM servers - ZAP-Hosting.com - Documentation"
+description: "Discover how to enforce specific DLC versions on your FiveM server to access the latest maps, vehicles, and content → Learn more now"
 sidebar_label: Enable DLC game build
 services:
   - gameserver-fivem

@@ -1,7 +1,7 @@
 ---
 id: cs2-gslt
 title: "Counter-Strike 2: Create a GSLT (Steam Game Server Login Token)"
-description: "Information about the creation and use of GSLT for Counter-Strike 2 server from ZAP-Hosting"
+description: "Discover how to authenticate and secure your dedicated game server with a Steam Game Server Login Token for optimal server visibility and protection → Learn mor"
 sidebar_label: Create GSLT
 services:
   - gameserver-cs2

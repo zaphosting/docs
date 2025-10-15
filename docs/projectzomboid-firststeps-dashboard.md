@@ -1,7 +1,7 @@
 ---
 id: projectzomboid-firststeps-dashboard
 title: "Project Zomboid: Dashboard Overview"
-description: "Information about the dashboard of an Project Zomboid server from ZAP-Hosting"
+description: "Discover how to efficiently manage your Project Zomboid server with a clear overview of features and options → Learn more now"
 sidebar_label: Dashboard
 services:
   - gameserver-projectzomboid

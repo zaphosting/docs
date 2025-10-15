@@ -1,7 +1,7 @@
 ---
 id: dedicated-linux-mythofempires
 title: "Dedicated Server: Myth of Empires Dedicated Server Linux Setup"
-description: "Information about setting up an Myth of Empires Dedicated Server on a Linux Dedicated Server from ZAP-Hosting"
+description: "Discover how to install the Myth of Empires Dedicated Server on Linux and optimize your game hosting setup → Learn more now"
 sidebar_label: Myth of Empires
 services:
   - dedicated

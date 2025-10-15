@@ -1,7 +1,7 @@
 ---
 id: fivem-upvotes
 title: "FiveM: Upvotes and Server Boosts"
-description: "Information about upvotes for FiveM servers and how to boost your server in the server list"
+description: "Discover how to boost your FiveM server’s ranking and visibility with upvotes for long-term or rapid popularity growth → Learn more now"
 sidebar_label: Upvotes
 services:
   - fivem-upvotes

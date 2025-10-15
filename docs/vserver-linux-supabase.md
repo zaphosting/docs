@@ -1,7 +1,7 @@
 ---
 id: vserver-linux-supabase
 title: "VPS: Setup Supabase on Linux"
-description: "Information on how to setup Supabase on your Linux VPS from ZAP-Hosting"
+description: "Discover how to host and configure Supabase for a reliable open-source Postgres platform with authentication and realtime features → Learn more now"
 sidebar_label: Install Supabase
 services:
   - vserver

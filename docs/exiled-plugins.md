@@ -1,7 +1,7 @@
 ---
 id: exiled-plugins
 title: "SCP EXILED: Installing plugins"
-description: "Information on how to install plugins on your SCP: EXILED  server from ZAP-Hosting"
+description: "Discover how to expand and personalize your server with trusted plugins for enhanced functionality and customization → Learn more now"
 sidebar_label: Install Plugins
 services:
   - gameserver

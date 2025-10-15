@@ -1,7 +1,7 @@
 ---
 id: amongus-troubleshooting-common-issues
 title: "Among Us: Common issues"
-description: "Information on how to resolve common issues on a Among Us server from ZAP-Hosting"
+description: "Discover how to troubleshoot and resolve common Among Us server issues for a smooth gaming experience → Learn more now"
 sidebar_label: Common issues
 services:
   - gameserver-amongus

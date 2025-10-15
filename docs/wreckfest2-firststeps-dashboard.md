@@ -1,7 +1,7 @@
 ---
 id: wreckfest2-firststeps-dashboard
 title: "Wreckfest 2: Dashboard Overview"
-description: "Information about the dashboard of an Wreckfest 2 Server from ZAP-Hosting"
+description: "Discover how to efficiently manage and optimize your Wreckfest 2 Server with a clear overview of all features and options → Learn more now"
 sidebar_label: Dashboard
 services:
   - gameserver-wreckfest2

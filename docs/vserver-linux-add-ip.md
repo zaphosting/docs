@@ -1,7 +1,7 @@
 ---
 id: vserver-linux-add-ip
 title: "VPS: Configurate IP address(es)"
-description: "Information on how to add an IPv4 address to your VPS from ZAP-Hosting"
+description: "Learn how to configure and manage primary and additional IP addresses on Debian and Ubuntu systems for optimized network setup → Learn more now"
 sidebar_label: Configure IP address(es)
 services:
   - vserver

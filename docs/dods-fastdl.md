@@ -1,7 +1,7 @@
 ---
 id: dods-fastdl
 title: "Day of Defeat: Source: Setting up FastDL"
-description: "How to set up FastDL with webspace for Day of Defeat: Source servers at ZAP-Hosting"
+description: "Discover how to speed up game content downloads and reduce server load with FastDL using ZAP-Hosting webspace → Learn more now"
 sidebar_label: FastDL
 services:
   - gameserver-dods

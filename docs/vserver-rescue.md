@@ -1,7 +1,7 @@
 ---
 id: vserver-rescue
 title: "VPS: Rescue your files using the System Rescue"
-description: "Information on how to rescue your files using SystemRescue on your VPS from ZAP-Hosting"
+description: "Discover how to recover data and create backups from an unbootable server using SystemRescue ISO securely → Learn more now"
 sidebar_label: System Rescue (Backup)
 services:
   - vserver

@@ -1,7 +1,7 @@
 ---
 id: hl2-gslt
 title: "Half-Life 2: Create a GSLT (Steam Game Server Login Token)"
-description: "Information about the creation and use of GSLT for Half-Life 2 server from ZAP-Hosting"
+description: "Understand how to authenticate your game server with a Steam Game Server Login Token for proper listing and VAC protection → Learn more now"
 sidebar_label: Create GSLT
 services:
   - gameserver-holdfast-hl2

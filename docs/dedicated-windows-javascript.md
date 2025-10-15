@@ -1,7 +1,7 @@
 ---
 id: dedicated-windows-javascript
 title: 'Dedicated Server: Installation of JavaScript'
-description: "Information on how to install and run JavaScript on your Windows server from ZAP-Hosting.com"
+description: "Discover how to install and set up Node.js, Deno, and Bun on Windows to run JavaScript efficiently → Learn more now"
 sidebar_label: Install JavaScript
 services:
   - dedicated

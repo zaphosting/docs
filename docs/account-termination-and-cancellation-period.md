@@ -1,7 +1,7 @@
 ---
 id: account-termination-and-cancellation-period
 title: Termination & Cancellation terms and processes for ZAP-Hosting products
-description: "Information about the ZAP-Hosting termination and cancellation terms and processes at ZAP-Hosting"
+description: "Understand ZAP-Hosting's termination and cancellation policies to manage your product effectively and receive account credit → Learn more now"
 sidebar_label: Termination & Cancellation
 ---
 

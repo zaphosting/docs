@@ -1,7 +1,7 @@
 ---
 id: vrising-firststeps-dashboard
 title: "V Rising: Dashboard Overview"
-description: "Information about the dashboard of an V Rising server from ZAP-Hosting"
+description: "Discover how to efficiently manage your V Rising server with a clear overview of all features and options → Learn more now"
 sidebar_label: Dashboard
 services:
   - gameserver-vrising

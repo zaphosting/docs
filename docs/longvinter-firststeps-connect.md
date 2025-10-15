@@ -1,7 +1,7 @@
 ---
 id: longvinter-firststeps-connect
 title: "Longvinter: Connect to the server"
-description: "Information about various ways on how to connect to your Longvinter server from ZAP-Hosting"
+description: "Discover how to connect seamlessly to your Longvinter server and troubleshoot common issues for a smooth gaming experience → Learn more now"
 sidebar_label: Connect to the server
 services:
   - gameserver-longvinter

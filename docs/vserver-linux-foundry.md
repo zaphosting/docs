@@ -1,7 +1,7 @@
 ---
 id: vserver-linux-foundry
 title: "VPS: Foundry Dedicated Server Linux Setup"
-description: "Information about setting up an Foundry Dedicated Server on a Linux VPS from ZAP-Hosting"
+description: "Discover how to install the Foundry Dedicated server on your Linux VPS for seamless game hosting and management → Learn more now"
 sidebar_label: Foundry
 services:
   - vserver

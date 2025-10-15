@@ -1,7 +1,7 @@
 ---
 id: deadlock-firststeps-dashboard
 title: "Deadlock: Dashboard overview"
-description: "Information about the dashboard of an Deadlock server from ZAP-Hosting"
+description: "Discover how to efficiently manage your Deadlock server with a clear overview of features and options tailored to your needs → Learn more now"
 sidebar_label: Dashboard
 services:
   - gameserver-deadlock

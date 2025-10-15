@@ -1,7 +1,7 @@
 ---
 id: dedicated-linux-ragemp
 title: "Dedicated Server: RageMP Dedicated Server Linux Setup"
-description: "Information about setting up an RageMP Dedicated Server on a Linux Dedicated Server from ZAP-Hosting"
+description: "Discover how to set up a RageMP Dedicated Server on your Linux server for seamless game hosting and management → Learn more now"
 sidebar_label: RageMP
 services:
   - dedicated

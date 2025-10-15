@@ -1,7 +1,7 @@
 ---
 id: ironarmada-firststeps-dashboard
 title: "Iron Armada: Dashboard overview"
-description: "Information about the dashboard of an Iron Armada server from ZAP-Hosting"
+description: "Discover how to efficiently manage your Iron Armada server and optimize its features for your needs → Learn more now"
 sidebar_label: Dashboard
 services:
   - gameserver-ironarmada

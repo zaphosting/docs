@@ -1,7 +1,7 @@
 ---
 id: scum-server-wipe
 title: "SCUM: Server wipe (Partial, Gold, Full)"
-description: "Information about how to wipe your SCUM server from ZAP-Hosting"
+description: "Discover how to reset your server progress with partial, gold, or full wipes to start fresh and improve gameplay → Learn more now"
 sidebar_label: Server wipe
 services:
   - gameserver-scum

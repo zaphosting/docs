@@ -1,7 +1,7 @@
 ---
 id: account-change-language
 title: Changing the Language on ZAP-Hosting Website
-description: "Information on how to change the language on ZAP-Hosting"
+description: "Discover how to use ZAP-Hosting in your preferred language for a clearer, more comfortable experience with all services → Learn more now"
 sidebar_label: Change Language
 ---
 

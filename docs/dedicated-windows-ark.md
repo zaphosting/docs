@@ -1,7 +1,7 @@
 ---
 id: dedicated-windows-ark
 title: "Dedicated Server: ARK Survival Evolved Dedicated Server Windows Setup"
-description: "Information about setting up an ARK Survival Evolved Dedicated Server on a Dedicated Server"
+description: "Discover how to set up an ARK: Survival Evolved Dedicated Server on a Windows VPS for seamless multiplayer gaming → Learn more now"
 sidebar_label: ARK Survival Evolved Dedicated Server Setup
 services:
   - dedicated

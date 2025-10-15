@@ -1,7 +1,7 @@
 ---
 id: domain-expertdns
 title: "Domain: ExpertDNS"
-description: "Information about the ExpertDNS domain settings at ZAP-Hosting"
+description: "Discover how to customize your domain's nameservers with ExpertDNS for greater control and flexibility → Learn more now"
 sidebar_label: ExpertDNS
 services:
   - domain

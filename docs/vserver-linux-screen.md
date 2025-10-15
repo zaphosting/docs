@@ -1,7 +1,7 @@
 ---
 id: vserver-linux-screen
 title: "VPS: Installation of Screen"
-description: "Information on how to install screen on your Linux VPS from ZAP-Hosting"
+description: "Discover how to manage multiple terminal sessions efficiently on Unix-like systems with Screen utility → Learn more now"
 sidebar_label: Install Screen
 services:
   - vserver

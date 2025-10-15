@@ -1,7 +1,7 @@
 ---
 id: eco-firststeps-connect
 title: "Eco - Global Survival: Connect to the server"
-description: "Information about various ways on how to connect to your Eco - Global Survival server from ZAP-Hosting"
+description: "Discover how to connect smoothly to your Eco - Global Survival server and troubleshoot common issues for a seamless gaming experience → Learn more now"
 sidebar_label: Connect to the server
 services:
   - gameserver-eco

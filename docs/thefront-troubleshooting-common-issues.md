@@ -1,7 +1,7 @@
 ---
 id: thefront-troubleshooting-common-issues
 title: "The Front: Common issues"
-description: "Information on how to resolve common issues on a The Front server from ZAP-Hosting"
+description: "Discover how to troubleshoot and resolve common The Front game server issues to keep your custom server running smoothly → Learn more now"
 sidebar_label: Common issues
 services:
   - gameserver-thefront

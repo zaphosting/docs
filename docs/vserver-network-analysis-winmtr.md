@@ -1,7 +1,7 @@
 ---
 id: vserver-network-analysis-winmtr
 title: "VPS: Identifying network issues with WinMTR/MTR"
-description: "Information on how to perform a network analysis to identify network problems"
+description: "Discover how to diagnose network issues by analyzing outbound and return routes to improve connection stability and performance → Learn more now"
 sidebar_label: Network issues
 services:
   - vserver

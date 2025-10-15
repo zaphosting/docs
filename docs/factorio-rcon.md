@@ -1,7 +1,7 @@
 ---
 id: factorio-rcon
 title: "Factorio: RCON"
-description: "Learn how to use RCON for Factorio"
+description: "Discover how to remotely manage and control your Factorio server for efficient administration and gameplay adjustments → Learn more now"
 sidebar_label: RCON
 services:
   - gameserver-factorio

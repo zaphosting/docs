@@ -1,7 +1,7 @@
 ---
 id: dedicated-windows
 title: "Dedicated Server: Installation of Windows Server 2025"
-description: "Information on how to install the Windows Server 2025 operating system on your dedicated server from ZAP-Hosting"
+description: "Discover how to successfully install and configure Windows Server 2025 on your dedicated server for optimal performance → Learn more now"
 sidebar_label: Windows Server 2025
 services:
   - dedicated

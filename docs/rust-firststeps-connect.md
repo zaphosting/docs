@@ -1,7 +1,7 @@
 ---
 id: rust-firststeps-connect
 title: "Rust: Connect to the server"
-description: "Information about various ways on how to connect to your Rust server from ZAP-Hosting"
+description: "Discover how to connect to your Rust server smoothly and get started playing without hassle → Learn more now"
 sidebar_label: Connect to the server
 services:
   - gameserver-rust

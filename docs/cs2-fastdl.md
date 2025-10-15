@@ -1,7 +1,7 @@
 ---
 id: cs2-fastdl
 title: "Counter-Strike 2: Setting up FastDL"
-description: "How to set up FastDL with webspace for Counter-Strike 2 servers at ZAP-Hosting"
+description: "Discover how to optimize game content delivery with FastDL to speed up downloads and reduce server load for Counter-Strike 2 players → Learn more now"
 sidebar_label: FastDL
 services:
   - gameserver-cs2

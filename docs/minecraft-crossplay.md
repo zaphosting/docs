@@ -1,7 +1,7 @@
 ---
 id: minecraft-crossplay
 title: "Minecraft: Setting up crossplay between Minecraft Java & Bedrock Editions"
-description: "Information about setting up crosssplay between Minecraft Java & Bedrock editions on your Minecraft server from ZAP-Hosting"
+description: "Discover how to enable seamless Minecraft Java and Bedrock crossplay with GeyserMC and Floodgate plugins for an enhanced multiplayer experience → Learn more now"
 sidebar_label: Java & Bedrock Crossplay
 services:
   - gameserver-minecraft

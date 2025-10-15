@@ -1,7 +1,7 @@
 ---
 id: dayz-troubleshooting-common-issues
 title: "DayZ: Common issues"
-description: "Information on how to resolve common issues on a DayZ server from ZAP-Hosting"
+description: "Discover how to troubleshoot and resolve common DayZ server issues to ensure smooth gameplay and a stable community experience → Learn more now"
 sidebar_label: Common issues
 services:
   - gameserver-dayz

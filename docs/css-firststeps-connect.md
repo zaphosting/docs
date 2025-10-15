@@ -1,7 +1,7 @@
 ---
 id: css-firststeps-connect
 title: "Counter Strike Source: Connect to the server"
-description: "Information about various ways on how to connect to your Counter-Strike: Source server from ZAP-Hosting"
+description: "Discover how to connect to your Counter-Strike: Source server smoothly and enjoy uninterrupted gameplay → Learn more now"
 sidebar_label: Connect to the server
 services:
   - gameserver-css

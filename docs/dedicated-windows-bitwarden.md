@@ -1,7 +1,7 @@
 ---
 id: dedicated-windows-bitwarden
 title: "Dedicated Server: Setup Bitwarden on Windows"
-description: "Information on how to setup Bitwarden on your Windows Dedicated Server from ZAP-Hosting"
+description: "Discover how to securely manage passwords with Bitwarden using end-to-end encryption and self-hosting options → Learn more now"
 sidebar_label: Install Bitwarden
 services:
   - dedicated

@@ -1,7 +1,7 @@
 ---
 id: dedicated-linux-vrising
 title: "Dedicated Server: V-Rising Dedicated Server Linux Setup"
-description: "Information about setting up an V-Rising Dedicated Server on a Linux Dedicated Server from ZAP-Hosting"
+description: "Discover how to set up the V-Rising Dedicated Server on Linux for seamless game hosting and management → Learn more now"
 sidebar_label: V-Rising
 services:
   - dedicated

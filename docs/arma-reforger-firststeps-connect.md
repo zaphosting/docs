@@ -1,7 +1,7 @@
 ---
 id: arma-reforger-firststeps-connect
 title: "Arma Reforger: Connect to the server"
-description: "Information about various ways on how to connect to your Arma Reforger server from ZAP-Hosting"
+description: "Discover how to connect to your Arma Reforger server smoothly and get ready to play without hassle → Learn more now"
 sidebar_label: Connect to the server
 services:
   - gameserver-arma-reforger

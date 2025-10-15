@@ -1,7 +1,7 @@
 ---
 id: vserver-reset
 title: "VPS: Server Reset (Factory state)"
-description: "Information on how to reset (reinstall) your game server from ZAP-Hosting"
+description: "Discover how to reset your server to restore optimal performance and avoid data loss → Learn more now"
 sidebar_label: Server reset
 services:
   - vserver

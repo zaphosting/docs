@@ -1,7 +1,7 @@
 ---
 id: account-affiliate
 title: ZAP-Hosting Affiliate Program
-description: "How to earn money with ZAP-Hosting via the Affiliate program"
+description: "Discover how to earn commissions by referring customers to ZAP-Hosting and boost your income with exclusive discounts → Learn more now"
 sidebar_label: Introduction
 ---
 

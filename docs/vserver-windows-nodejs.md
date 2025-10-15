@@ -1,7 +1,7 @@
 ---
 id: vserver-windows-nodejs
 title: "VPS: Setup Node.js on Windows"
-description: "Information on how to setup Node.js on your Windows VPS from ZAP-Hosting"
+description: "Discover how to set up a stable Node.js environment for scalable, real-time applications using Docker and system preparation → Learn more now"
 sidebar_label: Install Node.js
 services:
   - vserver

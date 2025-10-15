@@ -1,7 +1,7 @@
 ---
 id: cs16-troubleshooting-common-issues
 title: "Counter-Strike 1.6: Common issues"
-description: "Information on how to resolve common issues on a Counter-Strike 1.6 server from ZAP-Hosting"
+description: "Discover how to troubleshoot and resolve common Counter-Strike 1.6 server issues to keep your game running smoothly → Learn more now"
 sidebar_label: Common issues
 services:
   - gameserver-cs16

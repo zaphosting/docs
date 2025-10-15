@@ -1,7 +1,7 @@
 ---
 id: arma3-rcon
 title: "Arma 3: RCON"
-description: "Learn how to use RCON for Arma 3"
+description: "Discover how to remotely manage and control Arma 3 servers securely without joining the game → Learn more now"
 sidebar_label: RCON
 services:
   - gameserver-arma3

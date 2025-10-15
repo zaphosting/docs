@@ -1,7 +1,7 @@
 ---
 id: dedicated-linux-ubuntu-2204
 title: "Dedicated Server: Installation of Ubuntu 22.04"
-description: "Information about installing the Ubuntu 22.04 operating system on your dedicated server from ZAP-Hosting"
+description: "Discover how to successfully install and configure Ubuntu on your dedicated server for optimal performance and long-term support → Learn more now"
 sidebar_label: Ubuntu 22.04
 services:
   - dedicated

@@ -1,7 +1,7 @@
 ---
 id: dedicated-linux-speedtest-cli
 title: "Dedicated Server: Setup Speedtest-Cli on Linux"
-description: "Information on how to setup Speedtest-Cli on your Linux Dedicated Server from ZAP-Hosting"
+description: "Discover how to set up and use Speedtest-Cli for reliable network testing and automation with multiple protocols → Learn more now"
 sidebar_label: Install Speedtest-Cli
 services:
   - dedicated

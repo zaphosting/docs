@@ -1,7 +1,7 @@
 ---
 id: dedicated-linux-ssh
 title: "Dedicated Server: Initial access with SSH"
-description: "Information on how to access your server from ZAP-Hosting with SSH for the first time"
+description: "Explore popular SSH clients for managing Linux servers without a GUI and understand how to connect securely via SSH → Learn more now"
 sidebar_label: Initial access (SSH)
 services:
   - dedicated

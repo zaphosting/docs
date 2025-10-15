@@ -1,7 +1,7 @@
 ---
 id: vserver-windows-expand-disk
 title: "VPS: Extending the disk (partition) on Windows Server"
-description: "Information on how to extend the hard disk of your Windows VPS from ZAP-Hosting"
+description: "Discover how to safely extend your Windows server partition to utilize new disk space effectively → Learn more now"
 sidebar_label: Extend Disk (Partition)
 services:
   - vserver

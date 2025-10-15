@@ -1,7 +1,7 @@
 ---
 id: insurgency-gslt
 title: "Insurgency: Create a GSLT (Steam Game Server Login Token)"
-description: "Information about the creation and use of GSLT for Insurgency server from ZAP-Hosting"
+description: "Discover how to secure and authenticate your dedicated game server with a Steam Game Server Login Token for better visibility and protection → Learn more now"
 sidebar_label: Create GSLT
 services:
   - gameserver-insurgency

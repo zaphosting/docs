@@ -1,7 +1,7 @@
 ---
 id: dedicated-proxmox
 title: "Dedicated Server: Installation of Proxmox VE"
-description: "Information on how to install Proxmox Virtual Environment on your dedicated server from ZAP-Hosting"
+description: "Discover how to set up and manage Proxmox VE for enterprise virtualization with integrated tools and high availability → Learn more now"
 sidebar_label: Install Proxmox
 services:
   - dedicated

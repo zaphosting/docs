@@ -1,7 +1,7 @@
 ---
 id: palworld-server-savegames
 title: "Palworld: Managing Palworld Savegames"
-description: "Information on how to manage savegames on your Palworld server from ZAP-Hosting"
+description: "Discover how to securely manage and back up your Palworld Gamesaves for seamless gameplay continuity → Learn more now"
 sidebar_label: Manage Savegames
 services:
   - gameserver-palworld

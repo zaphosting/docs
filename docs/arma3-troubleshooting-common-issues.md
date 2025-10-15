@@ -1,7 +1,7 @@
 ---
 id: arma3-troubleshooting-common-issues
 title: "Arma 3: Common issues"
-description: "Information on how to resolve common issues on a Arma 3 server from ZAP-Hosting"
+description: "Discover how to troubleshoot common Arma 3 server issues and keep your game running smoothly for an optimal multiplayer experience → Learn more now"
 sidebar_label: Common issues
 services:
   - gameserver-arma3

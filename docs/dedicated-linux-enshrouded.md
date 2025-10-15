@@ -1,7 +1,7 @@
 ---
 id: dedicated-linux-enshrouded
 title: "Dedicated Server: Enshrouded Dedicated Server Linux Setup"
-description: "Information about setting up an Enshrouded Dedicated Server on a Linux Dedicated Server from ZAP-Hosting"
+description: "Discover how to install and run the Enshrouded Dedicated Server on Linux for seamless game hosting and management → Learn more now"
 sidebar_label: Enshrouded
 services:
   - dedicated

@@ -1,7 +1,7 @@
 ---
 id: satisfactory-connect-experimental
 title: "Satisfactory: Connect to the Server (Experimental)"
-description: "Information on how to connect to your Satisfactory server from ZAP-Hosting"
+description: "Discover how to set up and manage your Satisfactory game server for seamless gameplay and control → Learn more now"
 sidebar_label: Connect to the Server (Experimental)
 services:
   - gameserver-satisfactory

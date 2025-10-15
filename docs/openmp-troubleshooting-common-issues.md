@@ -1,7 +1,7 @@
 ---
 id: openmp-troubleshooting-common-issues
 title: "Open.mp: Common issues"
-description: "Information on how to resolve common issues on a Open.mp server from ZAP-Hosting"
+description: "Discover how to troubleshoot and resolve common Open.mp server issues to ensure smooth gameplay and a stable gaming community → Learn more now"
 sidebar_label: Common issues
 services:
   - gameserver-openmp

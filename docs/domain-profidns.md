@@ -1,6 +1,7 @@
 ---
 id: domain-profidns
 title: "Domain: ProfiDNS"
+description: "Explore advanced DNS configuration options with ProfiDNS to link services and optimize your domain settings → Learn more now"
 sidebar_label: ProfiDNS
 services:
   - domain

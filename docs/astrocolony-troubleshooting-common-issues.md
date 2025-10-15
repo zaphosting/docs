@@ -1,7 +1,7 @@
 ---
 id: astrocolony-troubleshooting-common-issues
 title: "Astro Colony: Common issues"
-description: "Information on how to resolve common issues on a Astro Colony server from ZAP-Hosting"
+description: "Discover how to troubleshoot and resolve common Astro Colony server issues to ensure smooth gameplay and a stable gaming environment → Learn more now"
 sidebar_label: Common issues
 services:
   - gameserver-astrocolony

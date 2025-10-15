@@ -1,7 +1,7 @@
 ---
 id: account-change-email
 title: Change Your E-Mail Address
-description: "Instructions on how to change e-mail address linked to your ZAP-Hosting account"
+description: "Learn how to update your ZAP-Hosting account email securely and keep your contact info current → Learn more now"
 sidebar_label: Change E-Mail
 ---
 

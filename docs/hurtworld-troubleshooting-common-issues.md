@@ -1,7 +1,7 @@
 ---
 id: hurtworld-troubleshooting-common-issues
 title: "Hurtworld: Common issues"
-description: "Information on how to resolve common issues on a Hurtworld server from ZAP-Hosting"
+description: "Discover how to troubleshoot and resolve common Hurtworld server issues to ensure smooth gameplay and a stable gaming environment → Learn more now"
 sidebar_label: Common issues
 services:
   - gameserver-hurtworld

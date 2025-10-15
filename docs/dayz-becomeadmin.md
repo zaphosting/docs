@@ -1,7 +1,7 @@
 ---
 id: dayz-becomeadmin
 title: "DayZ: Become an Admin"
-description: "Information on becoming an admin for your DayZ game server from ZAP-Hosting"
+description: "Discover how to gain full server control by assigning admin rights and managing game options effectively → Learn more now"
 sidebar_label: Become an Admin
 services:
   - gameserver-dayz

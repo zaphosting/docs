@@ -1,7 +1,7 @@
 ---
 id: redm-firststeps-connect
 title: "RedM: Connect to the server"
-description: "Information about various ways to connect to your RedM server from ZAP-Hosting"
+description: "Discover how to connect seamlessly to your RedM server and ensure a smooth gaming experience → Learn more now"
 sidebar_label: Connect to the server
 services:
   - gameserver-redm

@@ -1,7 +1,7 @@
 ---
 id: dedicated-linux-nextcloud
 title: "Dedicated Server: Installation of Nextcloud"
-description: "Information on how to set up a Nextcloud server on your server from ZAP-Hosting"
+description: "Discover how to optimize your Nextcloud server setup for best performance and stability on Linux systems → Learn more now"
 sidebar_label: Install Nextcloud
 services:
   - dedicated

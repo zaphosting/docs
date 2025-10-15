@@ -1,7 +1,7 @@
 ---
 id: webspace-wordpress-elementor
 title: "Webspace: WordPress Elementor"
-description: "Information on how to install and configure Elementor on your Webspace product from ZAP-Hosting"
+description: "Discover how to create professional WordPress websites easily with Elementor’s powerful page builder features → Learn more now"
 sidebar_label: Elementor
 services:
   - webspace

@@ -1,7 +1,7 @@
 ---
 id: teeworlds-firststeps-dashboard
 title: "Teeworlds: Dashboard overview"
-description: "Information about the dashboard of an Teeworlds server from ZAP-Hosting"
+description: "Discover how to efficiently manage and optimize your Teeworlds server with a clear, step-by-step administration guide → Learn more now"
 sidebar_label: Dashboard
 services:
   - gameserver-teeworlds

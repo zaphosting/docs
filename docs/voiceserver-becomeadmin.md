@@ -1,7 +1,7 @@
 ---
 id: voiceserver-becomeadmin
 title: "Voiceserver: Become an admin"
-description: "Information on how to create and assign admins for your Teamspeak server from ZAP-Hosting"
+description: "Learn how to assign and manage administrator permissions on your Teamspeak server for effective user control and security → Learn more now"
 sidebar_label: Become admin
 services:
   - voiceserver

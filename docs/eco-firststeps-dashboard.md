@@ -1,7 +1,7 @@
 ---
 id: eco-firststeps-dashboard
 title: "ECO Global Survival: Dashboard Overview"
-description: "Information about the dashboard of an Eco - Global Survival from ZAP-Hosting"
+description: "Discover how to efficiently manage your Eco - Global Survival server and optimize its settings for the best gaming experience → Learn more now"
 sidebar_label: Dashboard
 services:
   - gameserver-eco

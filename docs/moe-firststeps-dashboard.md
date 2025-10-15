@@ -1,7 +1,7 @@
 ---
 id: moe-firststeps-dashboard
 title: "Myth of Empires: Dashboard Overview"
-description: "Information about the dashboard of an Myth of Empires from ZAP-Hosting"
+description: "Discover how to efficiently manage your Myth of Empires server and optimize its settings for the best gaming experience → Learn more now"
 sidebar_label: Dashboard
 services:
   - gameserver-moe

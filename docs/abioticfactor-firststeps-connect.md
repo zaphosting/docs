@@ -1,7 +1,7 @@
 ---
 id: abioticfactor-firststeps-connect
 title: "Abiotic Factor: Connect to the server"
-description: "Information about various ways on how to connect to your Abiotic Factor server from ZAP-Hosting"
+description: "Discover how to connect seamlessly to your Abiotic Factor server and enjoy uninterrupted gameplay → Learn more now"
 sidebar_label: Connect to the server
 services:
   - gameserver-abioticfactor

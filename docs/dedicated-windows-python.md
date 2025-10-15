@@ -1,7 +1,7 @@
 ---
 id: dedicated-windows-python
 title: 'Dedicated Server: Installation of Python'
-description: "Information on how to install and run Python on your Windows server from ZAP-Hosting.com"
+description: "Learn how to install and set up Python runtime on Windows servers to run your Python programs efficiently → Learn more now"
 sidebar_label: Install Python
 services:
   - dedicated

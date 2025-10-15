@@ -1,7 +1,7 @@
 ---
 id: redm-troubleshooting-common-issues
 title: "RedM: Common issues"
-description: "Information on how to resolve common issues on a RedM server from ZAP-Hosting"
+description: "Discover how to troubleshoot and resolve common RedM server issues to keep your game running smoothly and enjoy uninterrupted gameplay → Learn more now"
 sidebar_label: Common issues
 services:
   - gameserver-redm

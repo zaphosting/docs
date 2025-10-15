@@ -1,7 +1,7 @@
 ---
 id: vserver-linux-nmrih
 title: "VPS: No More Room In Hell Dedicated Server Linux Setup"
-description: "Information about setting up an No More Room In Hell Dedicated Server on a Linux VPS from ZAP-Hosting"
+description: "Discover how to set up a No More Room In Hell dedicated server on your Linux VPS for seamless gameplay hosting → Learn more now"
 sidebar_label: "No More Room In Hell"
 services:
   - vserver

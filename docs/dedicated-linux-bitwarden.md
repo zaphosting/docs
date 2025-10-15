@@ -1,7 +1,7 @@
 ---
 id: dedicated-linux-bitwarden
 title: "Dedicated Server: Setup Bitwarden on Linux"
-description: "Information on how to setup Bitwarden on your Linux Product from ZAP-Hosting"
+description: "Discover how to securely manage passwords with Bitwarden using end-to-end encryption for cloud or self-hosted setups → Learn more now"
 sidebar_label: Install Bitwarden
 services:
   - dedicated

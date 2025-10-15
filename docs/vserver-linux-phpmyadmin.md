@@ -1,7 +1,7 @@
 ---
 id: vserver-linux-phpmyadmin
 title: "VPS: Installation of phpMyAdmin"
-description: "Information on how to install and set up phpMyAdmin on your Linux VPS from ZAP-Hosting"
+description: "Discover how to manage MySQL and MariaDB databases easily with phpMyAdmin’s user-friendly web interface → Learn more now"
 sidebar_label: Install phpMyAdmin
 services:
   - vserver

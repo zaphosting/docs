@@ -1,7 +1,7 @@
 ---
 id: foundry-server-savegames
 title: "Foundry: Managing Foundry Savegames"
-description: "Information on how to manage savegames on your Foundry server from ZAP-Hosting"
+description: "Discover how to securely back up and manage your Foundry Gamesaves locally and on your server for seamless gameplay continuity → Learn more now"
 sidebar_label: Manage Savegames
 services:
   - gameserver-foundry

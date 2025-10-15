@@ -1,7 +1,7 @@
 ---
 id: dedicated-windows-rdp-freeze
 title: "Dedicated Server: Remote Desktop Connection Drops"
-description: "Information on Troubleshooting and resolving Remote Desktop Connection Drops"
+description: "Discover how to fix RDP freezing by improving connection stability and preventing session interruptions → Learn more now"
 sidebar_label: RDP Connection Drops
 services:
   - dedicated

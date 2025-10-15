@@ -1,7 +1,7 @@
 ---
 id: pixark-troubleshooting-common-issues
 title: "PixARK: Common issues"
-description: "Information on how to resolve common issues on a PixARK server from ZAP-Hosting"
+description: "Discover how to troubleshoot and resolve common PixARK server issues for a smooth gaming experience → Learn more now"
 sidebar_label: Common issues
 services:
   - gameserver-pixark

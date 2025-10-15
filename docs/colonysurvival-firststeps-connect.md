@@ -1,7 +1,7 @@
 ---
 id: colonysurvival-firststeps-connect
 title: "Colony Survival: Connect to the server"
-description: "Information about various ways on how to connect to your Colony Survival server from ZAP-Hosting"
+description: "Discover how to connect to your Colony Survival server smoothly and troubleshoot common issues for a seamless gaming experience → Learn more now"
 sidebar_label: Connect to the server
 services:
   - gameserver-colonysurvival

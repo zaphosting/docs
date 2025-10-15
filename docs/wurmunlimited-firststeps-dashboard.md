@@ -1,7 +1,7 @@
 ---
 id: wurmunlimited-firststeps-dashboard
 title: "Wurm Unlimited: Dashboard Overview"
-description: "Information about the dashboard of an Wurm Unlimited server from ZAP-Hosting"
+description: "Discover how to efficiently manage your Wurm Unlimited server with a clear overview of features and options → Learn more now"
 sidebar_label: Dashboard
 services:
   - gameserver-wurmunlimited

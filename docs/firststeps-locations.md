@@ -1,7 +1,7 @@
 ---
 id: firststeps-locations
 title: Locations
-description: "ZAP-Hosting Locations Information"
+description: "Discover global server solutions optimized for performance and reliability to enhance your hosting experience worldwide → Learn more now"
 sidebar_label: Locations
 ---
 

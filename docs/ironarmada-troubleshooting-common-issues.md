@@ -1,7 +1,7 @@
 ---
 id: ironarmada-troubleshooting-common-issues
 title: "Iron Armada: Common issues"
-description: "Information on how to resolve common issues on a Iron Armada server from ZAP-Hosting"
+description: "Discover how to troubleshoot and resolve common Iron Armada server issues for a smooth gaming experience → Learn more now"
 sidebar_label: Common issues
 services:
   - gameserver-ironarmada

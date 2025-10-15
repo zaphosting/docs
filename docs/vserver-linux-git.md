@@ -1,7 +1,7 @@
 ---
 id: vserver-linux-git
 title: "vServer: Setup Git on Linux"
-description: "Information on how to setup Git on your Linux vServer from ZAP-Hosting"
+description: "Discover how to set up and configure Git for efficient version control and seamless collaboration in your development projects → Learn more now"
 sidebar_label: Install Git
 services:
   - vserver

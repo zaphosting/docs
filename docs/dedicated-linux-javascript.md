@@ -1,7 +1,7 @@
 ---
 id: dedicated-linux-javascript
 title: 'Dedicated Server: Installation of JavaScript'
-description: "Information on how to install and run JavaScript on your Linux server from ZAP-Hosting.com"
+description: "Discover how to install and set up Node.js, Deno, and Bun on your server for efficient JavaScript runtime management → Learn more now"
 sidebar_label: Install JavaScript
 services:
   - dedicated

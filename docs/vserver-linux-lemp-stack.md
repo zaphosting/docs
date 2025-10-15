@@ -1,7 +1,7 @@
 ---
 id: vserver-linux-lemp-stack
 title: "VPS: Setup LEMP stack - Linux, Nginx, MySQL, PHP"
-description: "Information on how to setup a LEMP (Linux, Nginx, MySQL, PHP) stack on your Linux VPS from ZAP-Hosting"
+description: "Discover how to set up a LEMP stack for hosting dynamic PHP websites on Linux VPS servers → Learn more now"
 sidebar_label: Web LEMP stack
 services:
   - vserver

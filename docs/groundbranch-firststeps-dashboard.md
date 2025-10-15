@@ -1,7 +1,7 @@
 ---
 id: groundbranch-firststeps-dashboard
 title: "Ground Branch: Dashboard overview"
-description: "Information about the dashboard of an Ground Branch server from ZAP-Hosting"
+description: "Discover how to efficiently manage your Ground Branch server with a clear overview of features and options → Learn more now"
 sidebar_label: Dashboard
 services:
   - gameserver-groundbranch

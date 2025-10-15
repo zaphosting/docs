@@ -1,7 +1,7 @@
 ---
 id: dayz-firststeps-connect
 title: "DayZ: Connect to the server"
-description: "Information about various ways on how to connect to your DayZ server from ZAP-Hosting"
+description: "Discover how to connect to your DayZ server smoothly and get all essential tips for a hassle-free gaming experience → Learn more now"
 sidebar_label: Connect to the server
 services:
   - gameserver-dayz

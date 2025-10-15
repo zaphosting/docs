@@ -1,7 +1,7 @@
 ---
 id: domain-easydns
 title: "Domain: EasyDNS"
-description: "Information about EasyDNS domain settings at ZAP-Hosting"
+description: "Discover how to easily link your domain to hosting services for seamless web or server connections → Learn more now"
 sidebar_label: EasyDNS
 services:
   - domain

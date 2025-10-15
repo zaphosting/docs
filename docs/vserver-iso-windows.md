@@ -1,7 +1,7 @@
 ---
 id: vserver-iso-windows
 title: "VPS: Installation of Windows X/Windows Server 20XX"
-description: "Information on installing Windows X/Windows Server 20XX with a VPS from ZAP Hosting – ZAP-Hosting.com Documentation"
+description: "Discover how to customize Windows installations with tailored ISOs for full control over setup and drivers → Learn more now"
 sidebar_label: "Install Windows X/WS 20XX"
 services:
   - vserver

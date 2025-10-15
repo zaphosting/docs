@@ -1,7 +1,7 @@
 ---
 id: deadlock-troubleshooting-common-issues
 title: "Deadlock: Common issues"
-description: "Information on how to resolve common issues on a Deadlock server from ZAP-Hosting"
+description: "Discover how to troubleshoot and resolve common Deadlock server issues for a smooth gaming experience → Learn more now"
 sidebar_label: Common issues
 services:
   - gameserver-deadlock

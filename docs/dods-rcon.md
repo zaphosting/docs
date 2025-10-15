@@ -1,7 +1,7 @@
 ---
 id: dods-rcon
 title: "Day of Defeat: Source: RCON"
-description: "Learn how to use RCON for Day of Defeat: Source"
+description: "Discover how to remotely manage Day of Defeat: Source servers for flexible control and monitoring → Learn more now"
 sidebar_label: RCON
 services:
   - gameserver-dods

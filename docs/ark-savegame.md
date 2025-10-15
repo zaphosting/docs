@@ -1,7 +1,7 @@
 ---
 id: ark-savegame
 title: ARK Survival Evolved Import own save file
-description: "Information about importing a save file to your ARK Survival Evolved game server"
+description: "Discover how to restore your Ark: Survival Evolved server using official or personal backup saves for seamless gameplay continuity → Learn more now"
 sidebar_label: Importing save file
 services:
   - gameserver-ark

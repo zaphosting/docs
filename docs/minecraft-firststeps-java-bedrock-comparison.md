@@ -1,7 +1,7 @@
 ---
 id: minecraft-firststeps-java-bedrock-comparison
 title: "Minecraft: Java / Bedrock Comparison"
-description: "Information on the similarities and differences between Minecraft Java and Bedrock edition game versions"
+description: "Discover the key differences between Minecraft Java and Bedrock editions to choose the best version for your gaming experience → Learn more now"
 sidebar_label: Java vs Bedrock
 services:
   - gameserver-minecraft

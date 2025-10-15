@@ -1,7 +1,7 @@
 ---
 id: domain-introduction
 title: "Domain: Introduction"
-description: "Introduction and information about the Domain product from ZAP-Hosting"
+description: "Discover how to secure a personalized domain at competitive prices for your website or server needs → Learn more now"
 sidebar_label: Introduction
 services:
   - domain
