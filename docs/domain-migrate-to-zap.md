@@ -1,7 +1,7 @@
 ---
 id: domain-migrate-to-zap
 title: "Migrate to ZAP: Domain"
-description: Information on how to transfer your domain from another provider to ZAP-Hosting 
+description: "Information on how to transfer your domain from another provider to ZAP-Hosting"
 sidebar_label: Domain
 services:
   - domain

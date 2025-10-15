@@ -1,7 +1,7 @@
 ---
 id: squad-firststeps-dashboard
 title: "Squad: Dashboard overview"
-description: Information about the dashboard of an Squad server from ZAP-Hosting 
+description: "Information about the dashboard of an Squad server from ZAP-Hosting"
 sidebar_label: Dashboard
 services:
   - gameserver-squad

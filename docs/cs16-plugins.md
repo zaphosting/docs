@@ -1,7 +1,7 @@
 ---
 id: cs16-plugins
 title: "CS 1.6: Install plugins on your own server"
-description: Information on how to install plugins on your CS 1.6 server from ZAP-Hosting 
+description: "Information on how to install plugins on your CS 1.6 server from ZAP-Hosting"
 sidebar_label: Install Plugins
 services:
   - gameserver-cs16

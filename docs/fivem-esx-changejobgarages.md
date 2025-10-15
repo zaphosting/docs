@@ -1,7 +1,7 @@
 ---
 id: fivem-esx-changejobgarages
 title: "FiveM: Job Garages - Adding Cars"
-description: Information on how to add cars to job garages on your FiveM server with ESX from ZAP-Hosting 
+description: "Information on how to add cars to job garages on your FiveM server with ESX from ZAP-Hosting"
 sidebar_label: Add Job-Garage Cars
 services:
   - gameserver-fivem

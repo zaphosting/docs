@@ -1,7 +1,7 @@
 ---
 id: dedicated-linux-rust
 title: "Dedicated Server: Rust Dedicated Server Linux Setup"
-description: Information about setting up a Rust Dedicated Server on a Linux Dedicated Server from ZAP-Hosting 
+description: "Information about setting up a Rust Dedicated Server on a Linux Dedicated Server from ZAP-Hosting"
 sidebar_label: Rust
 services:
   - dedicated

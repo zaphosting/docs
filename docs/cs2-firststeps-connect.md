@@ -1,7 +1,7 @@
 ---
 id: cs2-firststeps-connect
 title: "Counter-Strike 2: Connect to the server"
-description: Information about various ways on how to connect to your Counter-Strike 2 server from ZAP-Hosting 
+description: "Information about various ways on how to connect to your Counter-Strike 2 server from ZAP-Hosting"
 sidebar_label: Connect to the server
 services:
   - gameserver-cs2

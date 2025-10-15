@@ -1,7 +1,7 @@
 ---
 id: dedicated-linux-certbot
 title: "Dedicated Server: Setup Certbot on Linux"
-description: Information on how to setup Certbot on your Linux Dedicated Server from ZAP-Hosting 
+description: "Information on how to setup Certbot on your Linux Dedicated Server from ZAP-Hosting"
 sidebar_label: Install Certbot
 services:
   - dedicated

@@ -1,7 +1,7 @@
 ---
 id: enshrouded-firststeps-connect
 title: "Enshrouded: Connect to the server"
-description: Information about various ways on how to connect to your Enshrouded server from ZAP-Hosting 
+description: "Information about various ways on how to connect to your Enshrouded server from ZAP-Hosting"
 sidebar_label: Connect to the server
 services:
   - gameserver-enshrouded

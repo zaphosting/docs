@@ -1,7 +1,7 @@
 ---
 id: contribution-blogs-guidelines
 title: Blog Guidelines
-description: Guidelines for the Blogs section of the ZAP-Hosting Contribution Program 
+description: "Guidelines for the Blogs section of the ZAP-Hosting Contribution Program"
 sidebar_label: Guidelines
 ---
 

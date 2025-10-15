@@ -1,7 +1,7 @@
 ---
 id: dedicated-linux-conan
 title: "Dedicated Server: Conan Exiles Dedicated Server Linux Setup"
-description: Information about setting up an Conan Exiles Dedicated Server on a Linux Dedicated Server from ZAP-Hosting 
+description: "Information about setting up an Conan Exiles Dedicated Server on a Linux Dedicated Server from ZAP-Hosting"
 sidebar_label: Conan Exiles
 services:
   - dedicated

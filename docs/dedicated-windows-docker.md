@@ -1,7 +1,7 @@
 ---
 id: dedicated-windows-docker
 title: "Dedicated Server: Setup Docker on Windows"
-description: Information on how to setup Docker on your Windows Dedicated Server from ZAP-Hosting 
+description: "Information on how to setup Docker on your Windows Dedicated Server from ZAP-Hosting"
 sidebar_label: Install Docker
 services:
   - Dedicated Server

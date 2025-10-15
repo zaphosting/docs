@@ -1,7 +1,7 @@
 ---
 id: dedicated-linux-nmrih
 title: "Dedicated Server: No More Room In Hell Dedicated Server Linux Setup"
-description: "Information about setting up an No More Room In Hell Dedicated Server on a Linux VPS from ZAP-Hosting "
+description: "Information about setting up an No More Room In Hell Dedicated Server on a Linux VPS from ZAP-Hosting"
 sidebar_label: "No More Room In Hell"
 services:
   - vserver

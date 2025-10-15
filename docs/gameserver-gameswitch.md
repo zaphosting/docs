@@ -1,7 +1,7 @@
 ---
 id: gameserver-gameswitch
 title: 'Game server: Game Switch Feature via the Web Interface'
-description: Information regarding the ZAP-Hosting Game Switch feature for Game Servers & how to manage and switch between various games 
+description: "Information regarding the ZAP-Hosting Game Switch feature for Game Servers & how to manage and switch between various games"
 sidebar_label: Switch Game
 services:
   - gameserver

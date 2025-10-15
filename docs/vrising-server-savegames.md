@@ -1,7 +1,7 @@
 ---
 id: vrising-server-savegames
 title: "V Rising: Managing V Rising Savegames"
-description: Information on how to manage savegames on your V Rising server from ZAP-Hosting 
+description: "Information on how to manage savegames on your V Rising server from ZAP-Hosting"
 sidebar_label: Manage Savegames
 services:
   - gameserver-vrising

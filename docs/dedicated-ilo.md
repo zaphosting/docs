@@ -1,7 +1,7 @@
 ---
 id: dedicated-ilo
 title: "Dedicated Server: iLO"
-description: Information, about ILO administration for your Dedicated Server from ZAP-Hosting 
+description: "Information, about ILO administration for your Dedicated Server from ZAP-Hosting"
 sidebar_label: iLO
 services:
   - dedicated

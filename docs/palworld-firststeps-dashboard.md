@@ -1,7 +1,7 @@
 ---
 id: palworld-firststeps-dashboard
 title: "Palworld: Dashboard Overview"
-description: Information about the dashboard of a Palworld server from ZAP-Hosting 
+description: "Information about the dashboard of a Palworld server from ZAP-Hosting"
 sidebar_label: Dashboard
 services:
   - gameserver-palworld

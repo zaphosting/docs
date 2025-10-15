@@ -1,7 +1,7 @@
 ---
 id: rust-plugins
 title: "Rust: Installation of plugins"
-description: Information on how to install plugins on your Rust server from ZAP-Hosting 
+description: "Information on how to install plugins on your Rust server from ZAP-Hosting"
 sidebar_label: Install Plugins 
 services:
   - gameserver-rust

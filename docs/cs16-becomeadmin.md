@@ -1,7 +1,7 @@
 ---
 id: cs16-becomeadmin
 title: "CS 1.6: Become an admin on your own server"
-description: Information on how to become an admin on your CS 1.6 server from ZAP-Hosting 
+description: "Information on how to become an admin on your CS 1.6 server from ZAP-Hosting"
 sidebar_label: Become admin
 services:
   - gameserver-cs16

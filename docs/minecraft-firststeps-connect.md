@@ -1,7 +1,7 @@
 ---
 id: minecraft-firststeps-connect
 title: "Minecraft: Connect to the server"
-description: Information on how to connect to a Minecraft server from ZAP-Hosting 
+description: "Information on how to connect to a Minecraft server from ZAP-Hosting"
 sidebar_label: Connect to the server
 services:
   - gameserver-minecraft

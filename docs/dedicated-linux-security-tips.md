@@ -1,7 +1,7 @@
 ---
 id: dedicated-linux-security-tips
 title: "Dedicated Server: Linux Security Tips"
-description: Tips and advice on how to secure your Linux server 
+description: "Tips and advice on how to secure your Linux server"
 sidebar_label: Security Tips
 services:
   - dedicated

@@ -1,7 +1,7 @@
 ---
 id: sanctuaryisland-troubleshooting-common-issues
 title: "Sanctuary Island: Common issues"
-description: "Information on how to resolve common issues on a Sanctuary Island server from ZAP-Hosting "
+description: "Information on how to resolve common issues on a Sanctuary Island server from ZAP-Hosting"
 sidebar_label: Common issues
 services:
   - gameserver-sanctuaryisland

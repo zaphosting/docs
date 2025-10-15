@@ -1,7 +1,7 @@
 ---
 id: ets2-gslt
 title: "Euro Truck Simulator 2: Create a GSLT (Steam Game Server Login Token)"
-description: "Information about the creation and use of GSLT for Euro Truck Simulator 2 server from ZAP-Hosting "
+description: "Information about the creation and use of GSLT for Euro Truck Simulator 2 server from ZAP-Hosting"
 sidebar_label: Create GSLT
 services:
   - gameserver-ets2

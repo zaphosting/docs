@@ -1,7 +1,7 @@
 ---
 id: moe-firststeps-connect
 title: "Myth of Empires: Connect to the server"
-description: Information about various ways on how to connect to your Myth of Empires server from ZAP-Hosting 
+description: "Information about various ways on how to connect to your Myth of Empires server from ZAP-Hosting"
 sidebar_label: Connect to the server
 services:
   - gameserver-moe

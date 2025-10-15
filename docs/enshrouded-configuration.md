@@ -1,7 +1,7 @@
 ---
 id: enshrouded-configuration
 title: "Enshrouded: Enshrouded Server Configuration"
-description: Information about configuring a Enshrouded game server from ZAP-Hosting 
+description: "Information about configuring a Enshrouded game server from ZAP-Hosting"
 sidebar_label: Server Configuration
 services:
   - gameserver-enshrouded

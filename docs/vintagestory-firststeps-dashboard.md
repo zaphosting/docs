@@ -1,7 +1,7 @@
 ---
 id: vintagestory-firststeps-dashboard
 title: "Vintage Story: Dashboard overview"
-description: Information about the dashboard of an Vintage Story server from ZAP-Hosting 
+description: "Information about the dashboard of an Vintage Story server from ZAP-Hosting"
 sidebar_label: Dashboard
 services:
   - gameserver-vintagestory

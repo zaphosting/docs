@@ -1,7 +1,7 @@
 ---
 id: fivem-locale
 title: "FiveM: Change language / location (flag)"
-description: Information on how to customize the language and location (flag) on a FiveM server 
+description: "Information on how to customize the language and location (flag) on a FiveM server"
 sidebar_label: Language / location (flag)
 services:
   - gameserver-fivem

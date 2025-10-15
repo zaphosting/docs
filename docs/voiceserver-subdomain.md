@@ -1,7 +1,7 @@
 ---
 id: voiceserver-subdomain
 title: 'Voiceserver: ZAP Subdomain'
-description: Information on settings up a ZAP Cloud (.zap.cloud) subdomain or your own domain for your voiceserver from ZAP-Hosting - ZAP-Hosting.com 
+description: "Information on settings up a ZAP Cloud (.zap.cloud) subdomain or your own domain for your voiceserver from ZAP-Hosting - ZAP-Hosting.com"
 sidebar_label: Voiceserver Subdomain
 services:
   - voiceserver

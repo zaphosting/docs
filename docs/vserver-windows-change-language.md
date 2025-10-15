@@ -1,7 +1,7 @@
 ---
 id: vserver-windows-change-language
 title: "VPS: Manage Languages on Windows Server"
-description: Information on how to add and manage languages on your Windows VPS from ZAP-Hosting 
+description: "Information on how to add and manage languages on your Windows VPS from ZAP-Hosting"
 sidebar_label: Add & Manage Languages
 services:
   - vserver

@@ -1,7 +1,7 @@
 ---
 id: dedicated-linux-ssh2fa
 title: "Dedicated Server: SSH two-factor authentication "
-description: Information on how to set up two-factor authentication for your Linux server from ZAP-Hosting 
+description: "Information on how to set up two-factor authentication for your Linux server from ZAP-Hosting"
 sidebar_label: 2FA (SSH)
 services:
   - dedicated

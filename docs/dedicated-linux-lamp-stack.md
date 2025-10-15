@@ -1,7 +1,7 @@
 ---
 id: dedicated-linux-lamp-stack
 title: "Dedicated Server: Setup LAMP stack - Linux, Apache, MySQL, PHP"
-description: Information on how to setup a LAMP (Linux, Apache, MySQL, PHP) stack on your Linux Dedicated Server from ZAP-Hosting 
+description: "Information on how to setup a LAMP (Linux, Apache, MySQL, PHP) stack on your Linux Dedicated Server from ZAP-Hosting"
 sidebar_label: Web LAMP stack
 services:
   - dedicated

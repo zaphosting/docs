@@ -1,7 +1,7 @@
 ---
 id: unturned-rocketmod-plugins
 title: "Unturned: Install plugins on server"
-description: Information on how to install plugins on your Unturned Rocketmod server from ZAP-Hosting 
+description: "Information on how to install plugins on your Unturned Rocketmod server from ZAP-Hosting"
 sidebar_label: Install Plugins
 services:
   - gameserver-unturned

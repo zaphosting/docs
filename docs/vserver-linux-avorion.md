@@ -1,7 +1,7 @@
 ---
 id: vserver-linux-avorion
 title: "VPS: Avorion Dedicated Server Linux Setup"
-description: Information about setting up an Avorion Dedicated Server on a Linux VPS from ZAP-Hosting 
+description: "Information about setting up an Avorion Dedicated Server on a Linux VPS from ZAP-Hosting"
 sidebar_label: Avorion
 services:
   - vserver

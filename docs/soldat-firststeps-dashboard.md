@@ -1,7 +1,7 @@
 ---
 id: soldat-firststeps-dashboard
 title: "Soldat: Dashboard overview"
-description: Information about the dashboard of an Soldat server from ZAP-Hosting 
+description: "Information about the dashboard of an Soldat server from ZAP-Hosting"
 sidebar_label: Dashboard
 services:
   - gameserver-soldat

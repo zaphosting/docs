@@ -1,7 +1,7 @@
 ---
 id: dedicated-network-analysis-winmtr
 title: "Dedicated Server: Identifying network issues with WinMTR/MTR"
-description: Information on how to perform a network analysis to identify network problems 
+description: "Information on how to perform a network analysis to identify network problems"
 sidebar_label: Network issues
 services:
   - dedicated

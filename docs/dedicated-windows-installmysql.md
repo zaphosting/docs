@@ -1,7 +1,7 @@
 ---
 id: dedicated-windows-installmysql
 title: "Dedicated Server: Installation of MySQL"
-description: Information on how to install and set up a MySQL server on your Windows Dedicated Server from ZAP-Hosting 
+description: "Information on how to install and set up a MySQL server on your Windows Dedicated Server from ZAP-Hosting"
 sidebar_label: Install MySQL
 services:
   - dedicated

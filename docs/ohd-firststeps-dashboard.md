@@ -1,7 +1,7 @@
 ---
 id: ohd-firststeps-dashboard
 title: "Operation: Harsh Doorstop: Dashboard overview"
-description: "Information about the dashboard of an Operation: Harsh Doorstop server from ZAP-Hosting "
+description: "Information about the dashboard of an Operation: Harsh Doorstop server from ZAP-Hosting"
 sidebar_label: Dashboard
 services:
   - gameserver-ohd

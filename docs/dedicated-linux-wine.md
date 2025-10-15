@@ -1,7 +1,7 @@
 ---
 id: dedicated-linux-wine
 title: "Dedicated Server: Wine Compatibility Layer Linux Setup"
-description: Information about setting up the Wine (WineHQ) Windows compatibility layer on a Linux Dedicated Server from ZAP-Hosting 
+description: "Information about setting up the Wine (WineHQ) Windows compatibility layer on a Linux Dedicated Server from ZAP-Hosting"
 sidebar_label: Setup Wine Compatibility Layer
 services:
   - dedicated

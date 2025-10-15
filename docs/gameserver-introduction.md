@@ -1,7 +1,7 @@
 ---
 id: gameserver-introduction
 title: "Game server: Introduction"
-description: Introduction and information about the game server product from ZAP-Hosting 
+description: "Introduction and information about the game server product from ZAP-Hosting"
 sidebar_label: Introduction
 services:
   - gameserver

@@ -1,7 +1,7 @@
 ---
 id: contribution-rewards
 title: Contribution Rewards
-description: Information on rewards for the ZAP-Hosting docs contribution program 
+description: "Information on rewards for the ZAP-Hosting docs contribution program"
 sidebar_label: Rewards
 ---
 

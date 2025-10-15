@@ -1,7 +1,7 @@
 ---
 id: conan-rcon
 title: "Conan Exiles: RCON"
-description: "Learn how to use RCON for Conan Exiles - ZAP-Hosting Documentation"
+description: "Learn how to use RCON for Conan Exiles"
 sidebar_label: RCON
 services:
   - gameserver-conan

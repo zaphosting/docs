@@ -1,7 +1,7 @@
 ---
 id: dedicated-windows-fs-22
 title: "Dedicated Server: Farming Simulator 2022 Dedicated Server Windows Setup"
-description: Information about setting up a Farming Simulator 2022 Dedicated Server on a Windows Dedicated Server from ZAP-Hosting 
+description: "Information about setting up a Farming Simulator 2022 Dedicated Server on a Windows Dedicated Server from ZAP-Hosting"
 sidebar_label: Farming Simulator 2022
 services:
   - dedicated

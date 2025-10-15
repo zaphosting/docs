@@ -1,7 +1,7 @@
 ---
 id: fivem-txadmin-discord-bot
 title: "FiveM: txAdmin Discord Bot"
-description: Information on how to set up the Discord bot for a FiveM txAdmin Server from ZAP-Hosting 
+description: "Information on how to set up the Discord bot for a FiveM txAdmin Server from ZAP-Hosting"
 sidebar_label: txAdmin Discord Bot
 services:
   - gameserver-fivem

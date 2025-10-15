@@ -1,7 +1,7 @@
 ---
 id: jol-troubleshooting-common-issues
 title: "Journey of Life: Common issues"
-description: "Information on how to resolve common issues on a Journey of Life server from ZAP-Hosting "
+description: "Information on how to resolve common issues on a Journey of Life server from ZAP-Hosting"
 sidebar_label: Common issues
 services:
   - gameserver-jol

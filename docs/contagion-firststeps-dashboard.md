@@ -1,7 +1,7 @@
 ---
 id: contagion-firststeps-dashboard
 title: "Contagion: Dashboard overview"
-description: Information about the dashboard of an Contagion server from ZAP-Hosting 
+description: "Information about the dashboard of an Contagion server from ZAP-Hosting"
 sidebar_label: Dashboard
 services:
   -   - gameserver-corekeeper-contagion

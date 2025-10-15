@@ -1,7 +1,7 @@
 ---
 id: eco-firststeps-dashboard
 title: "ECO Global Survival: Dashboard Overview"
-description: Information about the dashboard of an Eco - Global Survival from ZAP-Hosting 
+description: "Information about the dashboard of an Eco - Global Survival from ZAP-Hosting"
 sidebar_label: Dashboard
 services:
   - gameserver-eco

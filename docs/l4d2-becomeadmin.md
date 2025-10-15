@@ -1,7 +1,7 @@
 ---
 id: l4d2-becomeadmin
 title: "Left 4 Dead 2: Become an admin"
-description: "Information on how to become an admin on your Left 4 Dead 2 server from ZAP-Hosting "
+description: "Information on how to become an admin on your Left 4 Dead 2 server from ZAP-Hosting"
 sidebar_label: Become admin
 services:
   - gameserver-l4d2

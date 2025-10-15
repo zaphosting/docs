@@ -1,7 +1,7 @@
 ---
 id: fivem-rcon
 title: "FiveM: RCON"
-description: "Learn how to use RCON for FiveM - ZAP-Hosting Documentation"
+description: "Learn how to use RCON for FiveM"
 sidebar_label: RCON
 services:
   - gameserver-fivem

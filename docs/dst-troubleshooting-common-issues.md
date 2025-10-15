@@ -1,7 +1,7 @@
 ---
 id: dst-troubleshooting-common-issues
 title: "Don't Starve Together: Common issues"
-description: "Information on how to resolve common issues on a Don't Starve Together server from ZAP-Hosting "
+description: "Information on how to resolve common issues on a Don't Starve Together server from ZAP-Hosting"
 sidebar_label: Common issues
 services:
   - gameserver-dst

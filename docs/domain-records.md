@@ -1,7 +1,7 @@
 ---
 id: domain-records
 title: "Domain: Domain records settings"
-description: Information about the domain record settings for domains at ZAP-Hosting 
+description: "Information about the domain record settings for domains at ZAP-Hosting"
 sidebar_label: Domain Records
 services:
   - domain

@@ -1,7 +1,7 @@
 ---
 id: eco-becomeadmin
 title: "ECO: Become an Admin"
-description: Information on how to become an admin on your ECO server at ZAP-Hosting 
+description: "Information on how to become an admin on your ECO server at ZAP-Hosting"
 sidebar_label: Become admin
 services:
   - gameserver-eco

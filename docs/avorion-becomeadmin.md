@@ -1,7 +1,7 @@
 ---
 id: avorion-becomeadmin
 title: "Avorion: Become an admin on your own server"
-description: Information on how to become admin on your Avorion server from ZAP-Hosting 
+description: "Information on how to become admin on your Avorion server from ZAP-Hosting"
 sidebar_label: Become admin
 services:
   - gameserver-avorion

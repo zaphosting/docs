@@ -1,7 +1,7 @@
 ---
 id: starmade-firststeps-dashboard
 title: "Starmade: Dashboard overview"
-description: Information about the dashboard of an Starmade server from ZAP-Hosting 
+description: "Information about the dashboard of an Starmade server from ZAP-Hosting"
 sidebar_label: Dashboard
 services:
   - gameserver-starmade

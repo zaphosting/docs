@@ -1,7 +1,7 @@
 ---
 id: fivem-installels
 title: "FiveM: Installing ELS on your server"
-description: Information on how to install ELS on your FiveM server from ZAP-Hosting 
+description: "Information on how to install ELS on your FiveM server from ZAP-Hosting"
 sidebar_label: Install ELS
 services:
   - gameserver-fivem

@@ -1,7 +1,7 @@
 ---
 id: vserver-linux-steamcmd
 title: "VPS: SteamCMD Linux Setup"
-description: Information about setting up SteamCMD on a Linux VPS from ZAP-Hosting 
+description: "Information about setting up SteamCMD on a Linux VPS from ZAP-Hosting"
 sidebar_label: Setup SteamCMD
 services:
   - vserver

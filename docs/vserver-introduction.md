@@ -1,7 +1,7 @@
 ---
 id: vserver-introduction
 title: "VPS: Introduction"
-description: Introduction and information about the VPS product from ZAP-Hosting 
+description: "Introduction and information about the VPS product from ZAP-Hosting"
 sidebar_label: Introduction
 services:
   - vserver

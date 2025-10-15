@@ -1,7 +1,7 @@
 ---
 id: dedicated-windows-soulmask
 title: "Dedicated Server: Soulmask Dedicated Server Windows Setup"
-description: Information about setting up a Soulmask Dedicated Server on a Windows Dedicated Server from ZAP-Hosting 
+description: "Information about setting up a Soulmask Dedicated Server on a Windows Dedicated Server from ZAP-Hosting"
 sidebar_label: Soulmask
 services:
   - dedicated

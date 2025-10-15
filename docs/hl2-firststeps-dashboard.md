@@ -1,7 +1,7 @@
 ---
 id: hl2-firststeps-dashboard
 title: "Half-Life 2: Dashboard Overview"
-description: Information about the dashboard of an Half-Life 2 server from ZAP-Hosting 
+description: "Information about the dashboard of an Half-Life 2 server from ZAP-Hosting"
 sidebar_label: Dashboard
 services:
   - gameserver-hl2

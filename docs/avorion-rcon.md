@@ -1,7 +1,7 @@
 ---
 id: avorion-rcon
 title: "Avorion: RCON"
-description: "Learn how to use RCON for Avorion - ZAP-Hosting Documentation"
+description: "Learn how to use RCON for Avorion"
 sidebar_label: RCON
 services:
   - gameserver-avorion

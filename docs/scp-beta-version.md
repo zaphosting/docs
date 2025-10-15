@@ -1,7 +1,7 @@
 ---
 id: scp-beta-version
 title: "SCP Secret Laboratory: Using the Beta Version"
-description: Information on how to select and install the beta version of SCP Secret Laboratory from ZAP-Hostingg 
+description: "Information on how to select and install the beta version of SCP Secret Laboratory from ZAP-Hostingg"
 sidebar_label: Beta Version
 services:
   - gameserver-scp

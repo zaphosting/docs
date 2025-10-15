@@ -1,7 +1,7 @@
 ---
 id: moe-server-savegames
 title: "Myth of Empires: Managing Savegames"
-description: Information on how to manage savegames on your Myth of Empires server from ZAP-Hosting 
+description: "Information on how to manage savegames on your Myth of Empires server from ZAP-Hosting"
 sidebar_label: Manage Savegames
 services:
   - gameserver-moe

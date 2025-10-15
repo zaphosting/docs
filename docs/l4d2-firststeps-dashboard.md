@@ -1,7 +1,7 @@
 ---
 id: l4d2-firststeps-dashboard
 title: "Left 4 Dead 2: Dashboard overview"
-description: Information about the dashboard of an Left 4 Dead 2 server from ZAP-Hosting 
+description: "Information about the dashboard of an Left 4 Dead 2 server from ZAP-Hosting"
 sidebar_label: Dashboard
 services:
   - gameserver-l4d2

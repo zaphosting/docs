@@ -1,7 +1,7 @@
 ---
 id: bananashooter-gslt
 title: "Banana Shooter: Create a GSLT (Steam Game Server Login Token)"
-description: "Information about the creation and use of GSLT for Banana Shooter server from ZAP-Hosting "
+description: "Information about the creation and use of GSLT for Banana Shooter server from ZAP-Hosting"
 sidebar_label: Create GSLT
 services:
   - gameserver-bananashooter

@@ -1,7 +1,7 @@
 ---
 id: gmod-gslt
 title: "Garry’s Mod: Create a GSLT (Steam Game Server Login Token)"
-description: "Information about the creation and use of GSLT for Garry’s Mod server from ZAP-Hosting "
+description: "Information about the creation and use of GSLT for Garry’s Mod server from ZAP-Hosting"
 sidebar_label: Create GSLT
 services:
   - gameserver-gmod

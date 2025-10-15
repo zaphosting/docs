@@ -1,7 +1,7 @@
 ---
 id: mta-becomeadmin
 title: "Multi Theft Auto: Become an admin on MTA servers"
-description: Information on how to become an admin on your MTA server from ZAP-Hosting 
+description: "Information on how to become an admin on your MTA server from ZAP-Hosting"
 sidebar_label: Become admin
 services:
   - gameserver-mta

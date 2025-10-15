@@ -1,7 +1,7 @@
 ---
 id: dedicated-linux-soulmask
 title: "Dedicated Server: Soulmask Dedicated Server Linux Setup"
-description: Information about setting up an Soulmask Dedicated Server on a Linux Dedicated Server from ZAP-Hosting 
+description: "Information about setting up an Soulmask Dedicated Server on a Linux Dedicated Server from ZAP-Hosting"
 sidebar_label: Soulmask
 services:
   - dedicated

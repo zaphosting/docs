@@ -1,7 +1,7 @@
 ---
 id: fivem-esx-changerespawnpoint
 title: "FiveM: Set respawn point"
-description: Information on how to set/change the respawnpoint on your FiveM server with ESX from ZAP-Hosting 
+description: "Information on how to set/change the respawnpoint on your FiveM server with ESX from ZAP-Hosting"
 sidebar_label: Change Respawnpoint 
 services:
   - gameserver-fivem

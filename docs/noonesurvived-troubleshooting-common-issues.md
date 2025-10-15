@@ -1,7 +1,7 @@
 ---
 id: noonesurvived-troubleshooting-common-issues
 title: "No One Survived: Common issues"
-description: "Information on how to resolve common issues on a No One Survived server from ZAP-Hosting "
+description: "Information on how to resolve common issues on a No One Survived server from ZAP-Hosting"
 sidebar_label: Common issues
 services:
   - gameserver-noonesurvived

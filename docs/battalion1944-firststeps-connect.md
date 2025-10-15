@@ -1,7 +1,7 @@
 ---
 id: battalion1944-firststeps-connect
 title: "Battalion 1944: Connect to the server"
-description: Information about various ways on how to connect to your Battalion 1944 server from ZAP-Hosting 
+description: "Information about various ways on how to connect to your Battalion 1944 server from ZAP-Hosting"
 sidebar_label: Connect to the server
 services:
   - gameserver-beammp-battalion1944

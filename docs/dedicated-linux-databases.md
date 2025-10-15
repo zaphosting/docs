@@ -1,7 +1,7 @@
 ---
 id: dedicated-linux-databases
 title: "Dedicated Server: Installation of Databases"
-description: Information on how to install databases on your Dedicated Server from ZAP-Hosting 
+description: "Information on how to install databases on your Dedicated Server from ZAP-Hosting"
 sidebar_label: Install Databases
 services:
   - dedicated

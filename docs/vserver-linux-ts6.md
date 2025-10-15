@@ -1,7 +1,7 @@
 ---
 id: vserver-linux-ts6
 title: "VPS: Setup Teamspeak 6 Server on your Linux VPS"
-description: Information on how to setup Teamspeak 6 Serveron your Linux VPS from ZAP-Hosting 
+description: "Information on how to setup Teamspeak 6 Serveron your Linux VPS from ZAP-Hosting"
 sidebar_label: Install Teamspeak 6 Server
 services:
   - vserver

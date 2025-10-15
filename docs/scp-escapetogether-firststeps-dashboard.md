@@ -1,7 +1,7 @@
 ---
 id: scp-escapetogether-firststeps-dashboard
 title: "SCP: Escape Together: Dashboard Overview"
-description: "Information about the dashboard of a SCP: Escape Together server from ZAP-Hosting "
+description: "Information about the dashboard of a SCP: Escape Together server from ZAP-Hosting"
 sidebar_label: Dashboard
 services:
   - gameserver-scp-escapetogether

@@ -1,7 +1,7 @@
 ---
 id: domain-dashboard
 title: "Domain: Dashboard Overview"
-description: Information about the dashboard of a Domain product from ZAP-Hosting 
+description: "Information about the dashboard of a Domain product from ZAP-Hosting"
 sidebar_label: Dashboard
 services:
   - domain

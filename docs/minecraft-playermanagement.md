@@ -1,7 +1,7 @@
 ---
 id: minecraft-playermanagement
 title: "Minecraft: Manage your players with a few clicks"
-description: Information on how to easily manage your players for your Minecraft server from ZAP-Hosting 
+description: "Information on how to easily manage your players for your Minecraft server from ZAP-Hosting"
 sidebar_label: Player management
 services:
   - gameserver-minecraft

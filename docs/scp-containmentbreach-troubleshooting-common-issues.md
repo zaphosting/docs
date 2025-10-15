@@ -1,7 +1,7 @@
 ---
 id: scp-containmentbreach-troubleshooting-common-issues
 title: "SCP: Containment Breach: Common issues"
-description: "Information on how to resolve common issues on a SCP: Containment Breach server from ZAP-Hosting "
+description: "Information on how to resolve common issues on a SCP: Containment Breach server from ZAP-Hosting"
 sidebar_label: Common issues
 services:
   - gameserver-scp-containmentbreach

@@ -1,7 +1,7 @@
 ---
 id: vserver-windows-speedtest-cli
 title: "VPS: Setup Speedtest CLI on Windows"
-description: Information on how to setup Speedtest CLI on your Windows vServer from ZAP-Hosting 
+description: "Information on how to setup Speedtest CLI on your Windows vServer from ZAP-Hosting"
 sidebar_label: Install Speedtest CLI
 services:
   - vserver

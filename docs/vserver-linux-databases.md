@@ -1,7 +1,7 @@
 ---
 id: vserver-linux-databases
 title: "VPS: Installation of Databases"
-description: Information on how to install databases on your VPS from ZAP-Hosting 
+description: "Information on how to install databases on your VPS from ZAP-Hosting"
 sidebar_label: Install Databases
 services:
   - vserver

@@ -1,7 +1,7 @@
 ---
 id: dedicated-linux-l4d2
 title: "Dedicated Server: Left 4 Dead 2 Dedicated Server Linux Setup"
-description: "Information about setting up an Left 4 Dead 2 Dedicated Server on a Linux VPS from ZAP-Hosting "
+description: "Information about setting up an Left 4 Dead 2 Dedicated Server on a Linux VPS from ZAP-Hosting"
 sidebar_label: "Left 4 Dead 2"
 services:
   - vserver

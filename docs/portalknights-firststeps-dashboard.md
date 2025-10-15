@@ -1,7 +1,7 @@
 ---
 id: portalknights-firststeps-dashboard
 title: "Portal Knights: Dashboard overview"
-description: Information about the dashboard of an Portal Knights server from ZAP-Hosting 
+description: "Information about the dashboard of an Portal Knights server from ZAP-Hosting"
 sidebar_label: Dashboard
 services:
   - gameserver-portalknights

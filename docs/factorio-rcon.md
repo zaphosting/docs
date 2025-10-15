@@ -1,7 +1,7 @@
 ---
 id: factorio-rcon
 title: "Factorio: RCON"
-description: "Learn how to use RCON for Factorio - ZAP-Hosting Documentation"
+description: "Learn how to use RCON for Factorio"
 sidebar_label: RCON
 services:
   - gameserver-factorio

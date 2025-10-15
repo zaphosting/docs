@@ -1,7 +1,7 @@
 ---
 id: fivem-installresources
 title: "FiveM: Installation of resources"
-description: Information on how to install resources on your FiveM server from ZAP-Hosting 
+description: "Information on how to install resources on your FiveM server from ZAP-Hosting"
 sidebar_label: Install resources
 services:
   - gameserver-fivem

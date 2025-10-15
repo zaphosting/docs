@@ -1,7 +1,7 @@
 ---
 id: dedicated-linux-wordpress
 title: "Dedicated Server: Installation of WordPress"
-description: Information on how to install WordPress on your Linux Dedicated Server from ZAP-Hosting 
+description: "Information on how to install WordPress on your Linux Dedicated Server from ZAP-Hosting"
 sidebar_label: Install WordPress
 services:
   - dedicated

@@ -1,7 +1,7 @@
 ---
 id: corekeeper-connecttoserver
 title: "Core Keeper: Core Keeper connect to server"
-description: Instructions on how to connect to the Core Keeper server - ZAP-Hosting.com documentation 
+description: "Instructions on how to connect to the Core Keeper server"
 sidebar_label: Connect to the server
 services:
   -   - gameserver-corekeeper

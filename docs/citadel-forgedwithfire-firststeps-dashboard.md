@@ -1,7 +1,7 @@
 ---
 id: citadel-forgedwithfire-firststeps-dashboard
 title: "Citadel Forged With Fire: Dashboard overview"
-description: "Information about the dashboard of an Citadel: Forged With Fire server from ZAP-Hosting "
+description: "Information about the dashboard of an Citadel: Forged With Fire server from ZAP-Hosting"
 sidebar_label: Dashboard
 services:
   -   - gameserver-citadel-citadel

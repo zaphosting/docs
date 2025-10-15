@@ -1,7 +1,7 @@
 ---
 id: afterinfection-firststeps-dashboard
 title: "Afterinfection: Dashboard overview"
-description: Information about the dashboard of an Afterinfection server from ZAP-Hosting 
+description: "Information about the dashboard of an Afterinfection server from ZAP-Hosting"
 sidebar_label: Dashboard
 services:
   - gameserver-afterinfection

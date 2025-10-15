@@ -1,7 +1,7 @@
 ---
 id: vserver-linux-gitlab
 title: "VPS: Install GitLab on Linux"
-description: Information on how to set up GitLab on your Linux VPS from ZAP-Hosting 
+description: "Information on how to set up GitLab on your Linux VPS from ZAP-Hosting"
 sidebar_label: Install GitLab
 services:
   - vserver

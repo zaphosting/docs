@@ -1,7 +1,7 @@
 ---
 id: sunkenland-troubleshooting-common-issues
 title: "Sunkenland: Common issues"
-description: "Information on how to resolve common issues on a Sunkenland server from ZAP-Hosting "
+description: "Information on how to resolve common issues on a Sunkenland server from ZAP-Hosting"
 sidebar_label: Common issues
 services:
   - gameserver-sunkenland

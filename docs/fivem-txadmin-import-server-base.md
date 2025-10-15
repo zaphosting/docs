@@ -1,7 +1,7 @@
 ---
 id: fivem-txadmin-import-server-base
 title: "FiveM: txAdmin Import server base"
-description: Information on how to import your own server base into a FiveM txAdmin Server from ZAP-Hosting 
+description: "Information on how to import your own server base into a FiveM txAdmin Server from ZAP-Hosting"
 sidebar_label: Import server base
 services:
   - gameserver-fivem

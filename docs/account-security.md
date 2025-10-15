@@ -1,7 +1,7 @@
 ---
 id: account-security
 title: Information on securing a ZAP account
-description: How to secure your account at ZAP-Hosting with strong passwords and 2-factor authentication 
+description: "How to secure your account at ZAP-Hosting with strong passwords and 2-factor authentication"
 sidebar_label: Secure ZAP account
 ---
 

@@ -1,7 +1,7 @@
 ---
 id: dedicated-linux-plausible
 title: "Dedicated Server: Setup Plausible on OS"
-description: Information on how to setup Plausible on your Linux Dedicated Server from ZAP-Hosting 
+description: "Information on how to setup Plausible on your Linux Dedicated Server from ZAP-Hosting"
 sidebar_label: Install Plausible
 services:
   - dedicated

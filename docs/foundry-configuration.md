@@ -1,7 +1,7 @@
 ---
 id: foundry-configuration
 title: "Foundry: Server Configuration"
-description: Information about configuring a Foundry game server from ZAP-Hosting 
+description: "Information about configuring a Foundry game server from ZAP-Hosting"
 sidebar_label: Server Configuration
 services:
   - gameserver-foundry

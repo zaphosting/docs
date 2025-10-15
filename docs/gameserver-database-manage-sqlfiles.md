@@ -1,7 +1,7 @@
 ---
 id: gameserver-database-manage-sqlfiles
 title: "Game server: Import or Export an SQL file"
-description: Information on how to import and export an SQL file into/from the database for your game server from ZAP-Hosting 
+description: "Information on how to import and export an SQL file into/from the database for your game server from ZAP-Hosting"
 sidebar_label: Import/Export SQL Files
 services:
   - gameserver

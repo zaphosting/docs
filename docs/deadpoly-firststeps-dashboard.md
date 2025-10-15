@@ -1,7 +1,7 @@
 ---
 id: deadpoly-firststeps-dashboard
 title: "DeadPoly: Dashboard Overview"
-description: Information about the dashboard of an DeadPoly Server from ZAP-Hosting 
+description: "Information about the dashboard of an DeadPoly Server from ZAP-Hosting"
 sidebar_label: Dashboard
 services:
   - gameserver-deadpoly

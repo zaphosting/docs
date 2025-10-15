@@ -1,7 +1,7 @@
 ---
 id: ddos-protection
 title: ZAP-Hosting DDoS Protection
-description: Information about the DDoS Protection at ZAP-Hosting 
+description: "Information about the DDoS Protection at ZAP-Hosting"
 sidebar_label: DDoS Protection
 ---
 

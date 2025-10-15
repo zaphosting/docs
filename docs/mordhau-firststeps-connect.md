@@ -1,7 +1,7 @@
 ---
 id: mordhau-firststeps-connect
 title: "Mordhau: Connect to the server"
-description: Information about various ways on how to connect to your Mordhau server from ZAP-Hosting 
+description: "Information about various ways on how to connect to your Mordhau server from ZAP-Hosting"
 sidebar_label: Connect to the server
 services:
   - gameserver-mordhau

@@ -1,7 +1,7 @@
 ---
 id: l4d2-gslt
 title: "Left 4 Dead 2: Create a GSLT (Steam Game Server Login Token)"
-description: "Information about the creation and use of GSLT for Left 4 Dead 2 server from ZAP-Hosting "
+description: "Information about the creation and use of GSLT for Left 4 Dead 2 server from ZAP-Hosting"
 sidebar_label: Create GSLT
 services:
   - gameserver-l4d2

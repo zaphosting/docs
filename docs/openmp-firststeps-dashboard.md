@@ -1,7 +1,7 @@
 ---
 id: openmp-firststeps-dashboard
 title: "Open.mp: Dashboard Overview"
-description: Information about the dashboard of a Open.mp server from ZAP-Hosting 
+description: "Information about the dashboard of a Open.mp server from ZAP-Hosting"
 sidebar_label: Dashboard
 services:
   - gameserver-openmp

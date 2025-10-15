@@ -1,7 +1,7 @@
 ---
 id: hl1-firststeps-connect
 title: "Half-Life 1: Connect to the server"
-description: Information about various ways on how to connect to your Half-Life 1 server from ZAP-Hosting 
+description: "Information about various ways on how to connect to your Half-Life 1 server from ZAP-Hosting"
 sidebar_label: Connect to the server
 services:
   - gameserver-hl1

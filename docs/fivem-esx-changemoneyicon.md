@@ -1,7 +1,7 @@
 ---
 id: fivem-esx-changemoneyicon
 title: "FiveM: Change money icon"
-description: Information on how to change the money icon on your FiveM server with ESX from ZAP-Hosting 
+description: "Information on how to change the money icon on your FiveM server with ESX from ZAP-Hosting"
 sidebar_label: Change Money Icon
 services:
   - gameserver-fivem

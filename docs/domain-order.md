@@ -1,7 +1,7 @@
 ---
 id: domain-order
 title: "Domain: Order a domain"
-description: Information about the process of ordering a new domain at ZAP-Hosting 
+description: "Information about the process of ordering a new domain at ZAP-Hosting"
 sidebar_label: Order Domain
 services:
   - domain

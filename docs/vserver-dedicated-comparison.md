@@ -1,7 +1,7 @@
 ---
 id: vserver-dedicated-comparison
 title: "Comparing VPS and Dedicated Servers - Which Hosting Option Suits You Best?"
-description: Comparison between VPS and Dedicated Server at ZAP-Hosting – ZAP-Hosting.com documentation
+description: "Comparison between VPS and Dedicated Server at ZAP-Hosting – ZAP-Hosting.com documentation"
 sidebar_label: VPS/Dedicated Comparison
 services:
   - vserver	

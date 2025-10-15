@@ -1,7 +1,7 @@
 ---
 id: ark-configuration
 title: "ARK: Server configuration"
-description: Information about the configuration options in the web interface of your ARK server at ZAP-Hosting 
+description: "Information about the configuration options in the web interface of your ARK server at ZAP-Hosting"
 sidebar_label: Server Configuration
 services:
   - gameserver-ark

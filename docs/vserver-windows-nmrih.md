@@ -1,7 +1,7 @@
 ---
 id: vserver-windows-nmrih
 title: "VPS: No More Room In Hell Dedicated Server Windows Setup"
-description: "Information about setting up a No More Room In Hell Dedicated Server on a Windows VPS from ZAP-Hosting "
+description: "Information about setting up a No More Room In Hell Dedicated Server on a Windows VPS from ZAP-Hosting"
 sidebar_label: "No More Room In Hell"
 services:
   - vserver

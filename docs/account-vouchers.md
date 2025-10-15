@@ -1,7 +1,7 @@
 ---
 id: account-vouchers
 title: "Vouchers & Coupon Codes: Save money with vouchers"
-description: Information on how to redeem vouchers for money or a price reduction for servers 
+description: "Information on how to redeem vouchers for money or a price reduction for servers"
 sidebar_label: Coupons & Codes
 ---
 

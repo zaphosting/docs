@@ -1,7 +1,7 @@
 ---
 id: dedicated-windows-joplin
 title: "Dedicated Server: Setup Joplin on Windows"
-description: Information on how to setup Joplin on your Windows Dedicated Server from ZAP-Hosting 
+description: "Information on how to setup Joplin on your Windows Dedicated Server from ZAP-Hosting"
 sidebar_label: Install Joplin
 services:
 - dedicated

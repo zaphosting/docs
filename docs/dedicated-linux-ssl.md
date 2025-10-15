@@ -1,7 +1,7 @@
 ---
 id: dedicated-linux-ssl
 title: "Dedicated Server: Create SSL certificate (Let's Encrypt) for Linux server"
-description: Information on how to create an SSL certificate with Let's Encrypt for your Linux Dedicated Server from ZAP-Hosting 
+description: "Information on how to create an SSL certificate with Let's Encrypt for your Linux Dedicated Server from ZAP-Hosting"
 sidebar_label: Install SSL Certificate (Let's Encrypt)
 services:
   - dedicated

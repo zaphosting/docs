@@ -1,7 +1,7 @@
 ---
 id: minecraft-timings-report
 title: "Minecraft: Identify server problems with timings report"
-description: Information on how to identify lag problems on your Minecraft server with a timings report 
+description: "Information on how to identify lag problems on your Minecraft server with a timings report"
 sidebar_label: Timings-Report
 services:
   - gameserver-minecraft

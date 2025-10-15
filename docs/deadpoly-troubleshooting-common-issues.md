@@ -1,7 +1,7 @@
 ---
 id: deadpoly-troubleshooting-common-issues
 title: "DeadPoly: Common issues"
-description: "Information on how to resolve common issues on a DeadPoly server from ZAP-Hosting "
+description: "Information on how to resolve common issues on a DeadPoly server from ZAP-Hosting"
 sidebar_label: Common issues
 services:
   - gameserver-deadpoly

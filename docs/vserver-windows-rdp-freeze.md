@@ -1,7 +1,7 @@
 ---
 id: vserver-windows-rdp-freeze
 title: "VPS: Remote Desktop Connection Drops"
-description: Information on Troubleshooting and resolving Remote Desktop Connection Drops
+description: "Information on Troubleshooting and resolving Remote Desktop Connection Drops"
 sidebar_label: RDP Connection Drops
 services:
   - vserver

@@ -1,7 +1,7 @@
 ---
 id: craftopia-firststeps-dashboard
 title: "Craftopia: Dashboard overview"
-description: Information about the dashboard of an Craftopia server from ZAP-Hosting 
+description: "Information about the dashboard of an Craftopia server from ZAP-Hosting"
 sidebar_label: Dashboard
 services:
   - gameserver-craftopia

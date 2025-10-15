@@ -1,7 +1,7 @@
 ---
 id: csgo-gotv
 title: "CSGO: Information about GOTV"
-description: Information about GOTV on Counter-Strike Go servers from ZAP-Hosting 
+description: "Information about GOTV on Counter-Strike Go servers from ZAP-Hosting"
 sidebar_label: GOTV
 services:
   - gameserver

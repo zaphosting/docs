@@ -1,7 +1,7 @@
 ---
 id: dedicated-linux-foundry
 title: "Dedicated Server: Foundry Dedicated Server Linux Setup"
-description: Information about setting up an Foundry Dedicated Server on a Linux Dedicated Server from ZAP-Hosting 
+description: "Information about setting up an Foundry Dedicated Server on a Linux Dedicated Server from ZAP-Hosting"
 sidebar_label: Foundry
 services:
   - dedicated

@@ -1,7 +1,7 @@
 ---
 id: riskofrain2-troubleshooting-common-issues
 title: "Risk of Rain 2: Common issues"
-description: "Information on how to resolve common issues on a Risk of Rain 2 server from ZAP-Hosting "
+description: "Information on how to resolve common issues on a Risk of Rain 2 server from ZAP-Hosting"
 sidebar_label: Common issues
 services:
   - gameserver-riskofrain2

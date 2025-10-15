@@ -1,7 +1,7 @@
 ---
 id: stormworks-firststeps-dashboard
 title: "Stormworks: Dashboard Overview"
-description: Information about the dashboard of an Stormworks server from ZAP-Hosting 
+description: "Information about the dashboard of an Stormworks server from ZAP-Hosting"
 sidebar_label: Dashboard
 services:
   - gameserver-stormworks

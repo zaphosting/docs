@@ -1,7 +1,7 @@
 ---
 id: minecraft-rcon
 title: "Minecraft: RCON"
-description: "Learn how to use RCON for Minecraft - ZAP-Hosting Documentation"
+description: "Learn how to use RCON for Minecraft"
 sidebar_label: RCON
 services:
   - gameserver-minecraft

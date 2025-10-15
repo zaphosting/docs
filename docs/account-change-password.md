@@ -1,7 +1,7 @@
 ---
 id: account-change-password
 title: Change Your Password
-description: Instructions on how to change your ZAP-Hosting account password 
+description: "Instructions on how to change your ZAP-Hosting account password"
 sidebar_label: Change Password
 ---
 

@@ -1,7 +1,7 @@
 ---
 id: abioticfactor-firststeps-dashboard
 title: "Abiotic Factor: Dashboard Overview"
-description: Information about the dashboard of a Abiotic Factor server from ZAP-Hosting 
+description: "Information about the dashboard of a Abiotic Factor server from ZAP-Hosting"
 sidebar_label: Dashboard
 services:
   - gameserver-abioticfactor

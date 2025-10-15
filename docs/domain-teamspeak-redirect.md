@@ -1,7 +1,7 @@
 ---
 id: domain-teamspeak-redirect
 title: "Domain: Set up TeamSpeak 3 forwarding"
-description: Information on how to set up a forwarding from a domain to a TS server at ZAP-Hosting 
+description: "Information on how to set up a forwarding from a domain to a TS server at ZAP-Hosting"
 sidebar_label: TeamSpeak 3 forwarding
 services:
   - domain

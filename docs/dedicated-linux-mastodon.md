@@ -1,7 +1,7 @@
 ---
 id: dedicated-linux-mastodon
 title: "Dedicated Server: Installation of Mastodon"
-description: Information on how to set up Mastodon server on your server from ZAP-Hosting 
+description: "Information on how to set up Mastodon server on your server from ZAP-Hosting"
 sidebar_label: Install Mastodon
 services:
   - dedicated

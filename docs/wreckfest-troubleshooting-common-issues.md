@@ -1,7 +1,7 @@
 ---
 id: wreckfest-troubleshooting-common-issues
 title: "Wreckfest: Common issues"
-description: "Information on how to resolve common issues on a Wreckfest server from ZAP-Hosting "
+description: "Information on how to resolve common issues on a Wreckfest server from ZAP-Hosting"
 sidebar_label: Common issues
 services:
   - gameserver-wreckfest

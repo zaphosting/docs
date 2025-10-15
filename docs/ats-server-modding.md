@@ -1,7 +1,7 @@
 ---
 id: ats-server-modding
 title: "ATS: Installing Mods/DLCs to your ATS server"
-description: Information on how to install mods and DLCs to your American Truck Simulator (ATS) server or game client from ZAP-Hosting 
+description: "Information on how to install mods and DLCs to your American Truck Simulator (ATS) server or game client from ZAP-Hosting"
 sidebar_label: Install Mods/DLCs
 services:
   - gameserver-ats

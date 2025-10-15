@@ -1,7 +1,7 @@
 ---
 id: cs2-troubleshooting-segmentation-fault
 title: "CS2: Segmentation Fault"
-description: Information on how to resolve the segmentation fault error on a CS2 server from ZAP-Hosting 
+description: "Information on how to resolve the segmentation fault error on a CS2 server from ZAP-Hosting"
 sidebar_label: Segmentation Fault
 services:
   - gameserver-cs2

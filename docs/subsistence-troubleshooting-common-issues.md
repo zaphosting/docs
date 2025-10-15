@@ -1,7 +1,7 @@
 ---
 id: subsistence-troubleshooting-common-issues
 title: "Subsistence: Common issues"
-description: "Information on how to resolve common issues on a Subsistence server from ZAP-Hosting "
+description: "Information on how to resolve common issues on a Subsistence server from ZAP-Hosting"
 sidebar_label: Common issues
 services:
   - gameserver-subsistence

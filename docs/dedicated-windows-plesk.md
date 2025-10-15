@@ -1,7 +1,7 @@
 ---
 id: dedicated-windows-plesk
 title: "Dedicated Server: Installation of Plesk "
-description: Information on how to install Plesk on your Windows Dedicated Server from ZAP-Hosting 
+description: "Information on how to install Plesk on your Windows Dedicated Server from ZAP-Hosting"
 sidebar_label: Install Plesk
 services:
   - dedicated

@@ -1,7 +1,7 @@
 ---
 id: humanitz-troubleshooting-common-issues
 title: "HumanitZ: Common issues"
-description: "Information on how to resolve common issues on a HumanitZ server from ZAP-Hosting "
+description: "Information on how to resolve common issues on a HumanitZ server from ZAP-Hosting"
 sidebar_label: Common issues
 services:
   - gameserver-humanitz

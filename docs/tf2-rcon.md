@@ -1,7 +1,7 @@
 ---
 id: tf2-rcon
 title: "Team Fortress 2: RCON"
-description: "Learn how to use RCON for Team Fortress 2 - ZAP-Hosting Documentation"
+description: "Learn how to use RCON for Team Fortress 2"
 sidebar_label: RCON
 services:
   - gameserver-tf2

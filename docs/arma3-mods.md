@@ -1,7 +1,7 @@
 ---
 id: arma3-mods
 title: "Arma 3: Installation of Mods"
-description: Information on installing mods on your Arma 3 game server from ZAP-Hosting 
+description: "Information on installing mods on your Arma 3 game server from ZAP-Hosting"
 sidebar_label: Install Mods
 services:
   - gameserver-arma3

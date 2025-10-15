@@ -1,7 +1,7 @@
 ---
 id: noonesurvived-firststeps-dashboard
 title: "No One Survived: Dashboard overview"
-description: Information about the dashboard of an No One Survived server from ZAP-Hosting 
+description: "Information about the dashboard of an No One Survived server from ZAP-Hosting"
 sidebar_label: Dashboard
 services:
   - gameserver-noonesurvived

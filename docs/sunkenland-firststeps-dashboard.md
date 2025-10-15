@@ -1,7 +1,7 @@
 ---
 id: sunkenland-firststeps-dashboard
 title: "Sunkenland: Dashboard Overview"
-description: Information about the dashboard of an Sunkenland server from ZAP-Hosting 
+description: "Information about the dashboard of an Sunkenland server from ZAP-Hosting"
 sidebar_label: Dashboard
 services:
   - gameserver-sunkenland

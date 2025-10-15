@@ -1,7 +1,7 @@
 ---
 id: vserver-windows-l4d2
 title: "VPS: Left 4 Dead 2 Dedicated Server Windows Setup"
-description: "Information about setting up a Left 4 Dead 2 Dedicated Server on a Windows VPS from ZAP-Hosting "
+description: "Information about setting up a Left 4 Dead 2 Dedicated Server on a Windows VPS from ZAP-Hosting"
 sidebar_label: "Left 4 Dead 2"
 services:
   - vserver

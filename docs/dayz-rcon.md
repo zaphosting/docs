@@ -1,7 +1,7 @@
 ---
 id: dayz-rcon
 title: "DayZ: RCON"
-description: "Learn how to use RCON for DayZ - ZAP-Hosting Documentation"
+description: "Learn how to use RCON for DayZ"
 sidebar_label: RCON
 services:
   - gameserver-dayz

@@ -1,7 +1,7 @@
 ---
 id: vserver-ballooning
 title: "VPS: Ballooning - Dynamic Memory Management in Virtual Server Environments"
-description: Information about Ballooning and how it manages memory dynamically for VPS at ZAP-Hosting 
+description: "Information about Ballooning and how it manages memory dynamically for VPS at ZAP-Hosting"
 sidebar_label: Ballooning
 services:
   - vserver

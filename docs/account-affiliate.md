@@ -1,7 +1,7 @@
 ---
 id: account-affiliate
 title: ZAP-Hosting Affiliate Program
-description: How to earn money with ZAP-Hosting via the Affiliate program 
+description: "How to earn money with ZAP-Hosting via the Affiliate program"
 sidebar_label: Introduction
 ---
 

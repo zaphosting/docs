@@ -1,7 +1,7 @@
 ---
 id: dedicated-linux-docker
 title: "Dedicated Server: Installation of Docker"
-description: Information on how to install Docker on your Dedicated Server from ZAP-Hosting 
+description: "Information on how to install Docker on your Dedicated Server from ZAP-Hosting"
 sidebar_label: Install Docker
 services:
   - dedicated

@@ -1,7 +1,7 @@
 ---
 id: voiceserver-introduction
 title: "Voiceserver: Introduction"
-description: Introduction and information about the Voiceserver (Teamspeak 3/5) product from ZAP-Hosting 
+description: "Introduction and information about the Voiceserver (Teamspeak 3/5) product from ZAP-Hosting"
 sidebar_label: Introduction
 services:
   - voiceserver

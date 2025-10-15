@@ -1,7 +1,7 @@
 ---
 id: scp-escapetogether-troubleshooting-common-issues
 title: "SCP: Escape Together: Common issues"
-description: "Information on how to resolve common issues on a SCP: Escape Together server from ZAP-Hosting "
+description: "Information on how to resolve common issues on a SCP: Escape Together server from ZAP-Hosting"
 sidebar_label: Common issues
 services:
   - gameserver-scp-escapetogether

@@ -1,7 +1,7 @@
 ---
 id: scum-server-wipe
 title: "SCUM: Server wipe (Partial, Gold, Full)"
-description: Information about how to wipe your SCUM server from ZAP-Hosting 
+description: "Information about how to wipe your SCUM server from ZAP-Hosting"
 sidebar_label: Server wipe
 services:
   - gameserver-scum

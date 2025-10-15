@@ -1,7 +1,7 @@
 ---
 id: voiceserver-query
 title: "Voiceserver: Access TeamSpeak Query"
-description: Information on how to set up a TS query login for your Teamspeak server from ZAP-Hosting 
+description: "Information on how to set up a TS query login for your Teamspeak server from ZAP-Hosting"
 sidebar_label: Query Login
 services:
   - voiceserver

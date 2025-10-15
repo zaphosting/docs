@@ -1,7 +1,7 @@
 ---
 id: dedicated-pterodactyl
 title: "Dedicated Server: Installation of Pterodactyl"
-description: Information about installing the Pterodactyl panel using Debian on your ZAP-Hosting dedicated server 
+description: "Information about installing the Pterodactyl panel using Debian on your ZAP-Hosting dedicated server"
 sidebar_label: Install Pterodactyl
 services:
   - dedicated

@@ -1,7 +1,7 @@
 ---
 id: vserver-windows-port
 title: "VPS: Managing Windows Defender Firewall Rules"
-description: Information on managing Windows Defender Firewall rules, including Port Forwarding, on your Windows VPS from ZAP-Hosting 
+description: "Information on managing Windows Defender Firewall rules, including Port Forwarding, on your Windows VPS from ZAP-Hosting"
 sidebar_label: Port Forwarding (Firewall)
 services:
   - vserver

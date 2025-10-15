@@ -1,7 +1,7 @@
 ---
 id: dedicated-linux-ftp-install
 title: "Dedicated Server: Installation of a FTP server"
-description: Information on how to install and set up an FTP server on your Dedicated Server from ZAP-Hosting 
+description: "Information on how to install and set up an FTP server on your Dedicated Server from ZAP-Hosting"
 sidebar_label: Install FTP server
 services:
   - dedicated

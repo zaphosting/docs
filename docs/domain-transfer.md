@@ -1,7 +1,7 @@
 ---
 id: domain-transfer
 title: "Domain: Transfer a Domain"
-description: Information about the process of transfering an existing domain at ZAP-Hosting 
+description: "Information about the process of transfering an existing domain at ZAP-Hosting"
 sidebar_label: Transfer Domain
 services:
   - domain

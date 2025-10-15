@@ -1,7 +1,7 @@
 ---
 id: soldat-troubleshooting-common-issues
 title: "Soldat: Common issues"
-description: "Information on how to resolve common issues on a Soldat server from ZAP-Hosting "
+description: "Information on how to resolve common issues on a Soldat server from ZAP-Hosting"
 sidebar_label: Common issues
 services:
   - gameserver-soldat

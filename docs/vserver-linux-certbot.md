@@ -1,7 +1,7 @@
 ---
 id: vserver-linux-certbot
 title: "VPS: Setup Certbot on Linux"
-description: Information on how to setup Certbot on your Linux VPS from ZAP-Hosting 
+description: "Information on how to setup Certbot on your Linux VPS from ZAP-Hosting"
 sidebar_label: Install Certbot
 services:
   - vserver

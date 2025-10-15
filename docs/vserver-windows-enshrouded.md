@@ -1,7 +1,7 @@
 ---
 id: vserver-windows-enshrouded
 title: "VPS: Enshrouded Dedicated Server Windows Setup"
-description: Information about setting up an Enshrouded Dedicated Server on a Windows VPS from ZAP-Hosting 
+description: "Information about setting up an Enshrouded Dedicated Server on a Windows VPS from ZAP-Hosting"
 sidebar_label: Enshrouded
 services:
   - vserver

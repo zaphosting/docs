@@ -1,7 +1,7 @@
 ---
 id: partner-guide
 title: Partner Guide
-description: Information on ZAP-Hosting's partner programme 
+description: "Information on ZAP-Hosting's partner programme"
 sidebar_label: Partner Guide
 ---
 

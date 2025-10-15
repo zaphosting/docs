@@ -1,7 +1,7 @@
 ---
 id: beyondthewire-firststeps-connect
 title: "Beyond the Wire: Connect to the server"
-description: Information about various ways on how to connect to your Beyond the Wire server from ZAP-Hosting 
+description: "Information about various ways on how to connect to your Beyond the Wire server from ZAP-Hosting"
 sidebar_label: Connect to the server
 services:
   - gameserver-beyondthewire

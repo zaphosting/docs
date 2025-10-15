@@ -1,7 +1,7 @@
 ---
 id: fivem-esx-spawnpoints
 title: "FiveM: Manage and customize spawnpoints with ESX"
-description: Manage and customize spawnpoints with QbCore on your FiveM server from ZAP-Hosting 
+description: "Manage and customize spawnpoints with QbCore on your FiveM server from ZAP-Hosting"
 sidebar_label: Spawnpoints
 services:
   - gameserver-fivem

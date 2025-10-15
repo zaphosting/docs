@@ -1,7 +1,7 @@
 ---
 id: dedicated-linux-xrdp
 title: "Dedicated Server: Installation of xRDP (Remote Desktop) "
-description: Guide to install xRDP (Remote Desktop) on Linux 
+description: "Guide to install xRDP (Remote Desktop) on Linux"
 sidebar_label: Install xRDP
 services:
   - dedicated

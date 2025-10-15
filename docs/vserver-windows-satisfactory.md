@@ -1,7 +1,7 @@
 ---
 id: vserver-windows-satisfactory
 title: "VPS: Satisfactory Dedicated Server Windows Setup"
-description: Information about setting up a Satisfactory Dedicated Server on a Windows VPS from ZAP-Hosting 
+description: "Information about setting up a Satisfactory Dedicated Server on a Windows VPS from ZAP-Hosting"
 sidebar_label: Satisfactory
 services:
   - vserver
