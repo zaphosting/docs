@@ -1,7 +1,7 @@
 ---
 id: holdfast-firststeps-dashboard
 title: "Holdfast: Nations At War: Dashboard overview"
-description: "Information about the dashboard of an Holdfast: Nations At War server from ZAP-Hosting - ZAP-Hosting.com Documentation"
+description: "Information about the dashboard of an Holdfast: Nations At War server from ZAP-Hosting"
 sidebar_label: Dashboard
 services:
   - gameserver-holdfast

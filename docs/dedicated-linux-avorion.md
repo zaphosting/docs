@@ -1,7 +1,7 @@
 ---
 id: dedicated-linux-avorion
 title: "Dedicated Server: Avorion Dedicated Server Linux Setup"
-description: Information about setting up an Avorion Dedicated Server on a Linux Dedicated Server from ZAP-Hosting - ZAP-Hosting.com documentation
+description: "Information about setting up an Avorion Dedicated Server on a Linux Dedicated Server from ZAP-Hosting"
 sidebar_label: Avorion
 services:
   - dedicated

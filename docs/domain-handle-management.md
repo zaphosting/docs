@@ -1,7 +1,7 @@
 ---
 id: domain-handle-management
 title: "Domain: Handle Management"
-description: Learn how to create or edit a domain handle at ZAP-Hosting.
+description: "Learn how to create or edit a domain handle at ZAP-Hosting."
 sidebar_label: Handle Management
 services:
   - domain

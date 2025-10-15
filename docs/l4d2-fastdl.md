@@ -1,7 +1,7 @@
 ---
 id: l4d2-fastdl
 title: "Left 4 Dead 2: Setting up FastDL"
-description: "How to set up FastDL with webspace for Left 4 Dead 2 servers at ZAP-Hosting - ZAP-Hosting Documentation"
+description: "How to set up FastDL with webspace for Left 4 Dead 2 servers at ZAP-Hosting"
 sidebar_label: FastDL
 services:
   - gameserver-l4d2

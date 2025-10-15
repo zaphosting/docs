@@ -1,7 +1,7 @@
 ---
 id: voicebot-introduction
 title: "Voicebot: Introduction"
-description: Introduction and information about the Voicebot products from ZAP-Hosting - ZAP-Hosting.com Documentation
+description: "Introduction and information about the Voicebot products from ZAP-Hosting"
 sidebar_label: Introduction
 services:
   - voicebot

@@ -1,7 +1,7 @@
 ---
 id: risingworld-troubleshooting-common-issues
 title: "Rising World: Common issues"
-description: "Information on how to resolve common issues on a Rising World server from ZAP-Hosting - ZAP-Hosting.com documentation"
+description: "Information on how to resolve common issues on a Rising World server from ZAP-Hosting"
 sidebar_label: Common issues
 services:
   - gameserver

@@ -1,7 +1,7 @@
 ---
 id: dedicated-linux-python
 title: "Dedicated Server: Installation of Python"
-description: Information on how to install and run python on your Linux server from ZAP-Hosting - ZAP-Hosting.com documentation
+description: "Information on how to install and run python on your Linux server from ZAP-Hosting"
 sidebar_label: Install Python
 services:
   - dedicated

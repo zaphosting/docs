@@ -1,7 +1,7 @@
 ---
 id: sunkenland-setup-server
 title: "Sunkenland: Sunkenland Server Setup"
-description: Information about setting up your Sunkenland game server from ZAP-Hosting - ZAP-Hosting.com documentation
+description: "Information about setting up your Sunkenland game server from ZAP-Hosting"
 sidebar_label: Server Setup
 services:
   - gameserver-sunkenland

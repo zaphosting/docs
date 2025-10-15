@@ -1,7 +1,7 @@
 ---
 id: vserver-linux-tf2
 title: "VPS: Team Fortress 2 Dedicated Server Linux Setup"
-description: "Information about setting up an Team Fortress 2 Dedicated Server on a Linux VPS from ZAP-Hosting - ZAP-Hosting.com documentation"
+description: "Information about setting up an Team Fortress 2 Dedicated Server on a Linux VPS from ZAP-Hosting"
 sidebar_label: "Team Fortress 2"
 services:
   - vserver

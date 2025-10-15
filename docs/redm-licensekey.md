@@ -1,7 +1,7 @@
 ---
 id: redm-licensekey
 title: "RedM: Add Custom License Key"
-description: Information on creating a custom license key and adding it to your RedM server from ZAP-Hosting - ZAP-Hosting.com documentation
+description: "Information on creating a custom license key and adding it to your RedM server from ZAP-Hosting"
 sidebar_label: Own License Key
 services:
   - gameserver-redm

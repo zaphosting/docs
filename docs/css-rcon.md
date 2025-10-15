@@ -1,7 +1,7 @@
 ---
 id: css-rcon
 title: "Counter-Strike: Source: RCON"
-description: "Learn how to use RCON for Counter-Strike: Source - ZAP-Hosting Documentation"
+description: "Learn how to use RCON for Counter-Strike: Source"
 sidebar_label: RCON
 services:
   - gameserver-css

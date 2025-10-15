@@ -1,7 +1,7 @@
 ---
 id: dedicated-linux-valheim
 title: "Dedicated Server: Valheim Dedicated Server Linux Setup"
-description: Information about setting up an Valheim Dedicated Server on a Linux Dedicated Server from ZAP-Hosting - ZAP-Hosting.com documentation
+description: "Information about setting up an Valheim Dedicated Server on a Linux Dedicated Server from ZAP-Hosting"
 sidebar_label: Valheim
 services:
   - dedicated

@@ -1,7 +1,7 @@
 ---
 id: tf2-plugins
 title: "Team Fortress 2: Install plugins on your own server"
-description: "Information on how to install plugins on your Team Fortress 2 server from ZAP-Hosting - ZAP-Hosting.com documentation"
+description: "Information on how to install plugins on your Team Fortress 2 server from ZAP-Hosting"
 sidebar_label: Install Plugins
 services:
   - gameserver-tf2

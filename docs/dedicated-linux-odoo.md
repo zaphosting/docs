@@ -1,7 +1,7 @@
 ---
 id: dedicated-linux-odoo
 title: "Dedicated Server: Setup Odoo (Open Source ERP and CRM) on Linux"
-description: Information on how to setup Odoo on your Linux Dedicated Server from ZAP-Hosting - ZAP-Hosting.com documentation
+description: "Information on how to setup Odoo on your Linux Dedicated Server from ZAP-Hosting"
 sidebar_label: Install Odoo
 services:
   - dedicated

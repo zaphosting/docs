@@ -1,7 +1,7 @@
 ---
 id: fivem-serverbanner
 title: "FiveM: Configure your own server banner"
-description: Information on how to configure your own server banner for your FiveM server from ZAP-Hosting - ZAP-Hosting.com documentation
+description: "Information on how to configure your own server banner for your FiveM server from ZAP-Hosting"
 sidebar_label: Configure server banner
 services:
   - gameserver-fivem

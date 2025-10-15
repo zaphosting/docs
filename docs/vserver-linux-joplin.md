@@ -1,7 +1,7 @@
 ---
 id: vserver-linux-joplin
 title: "VPS: Setup Joplin on Linux"
-description: Information on how to setup Joplin on your Linux VPS from ZAP-Hosting - ZAP-Hosting.com documentation
+description: "Information on how to setup Joplin on your Linux VPS from ZAP-Hosting"
 sidebar_label: Install Joplin
 services:
 - vserver

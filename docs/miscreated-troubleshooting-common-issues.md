@@ -1,7 +1,7 @@
 ---
 id: miscreated-troubleshooting-common-issues
 title: "Miscreated: Common issues"
-description: "Information on how to resolve common issues on a Miscreated server from ZAP-Hosting - ZAP-Hosting.com documentation"
+description: "Information on how to resolve common issues on a Miscreated server from ZAP-Hosting"
 sidebar_label: Common issues
 services:
   - gameserver-miscreated

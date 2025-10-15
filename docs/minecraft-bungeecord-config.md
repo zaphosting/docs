@@ -1,7 +1,7 @@
 ---
 id: minecraft-bungeecord-config
 title: "Minecraft: Bungeecord Server Server Config Settings"
-description: Information about the server config settings for your bungeecord server from ZAP-Hosting - ZAP-Hosting.com documentation
+description: "Information about the server config settings for your bungeecord server from ZAP-Hosting"
 sidebar_label: Server Properties
 services:
   - gameserver-minecraft

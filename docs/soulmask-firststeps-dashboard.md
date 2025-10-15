@@ -1,7 +1,7 @@
 ---
 id: soulmask-firststeps-dashboard
 title: "Soulmask: Dashboard Overview"
-description: Information about the dashboard of a Soulmask server from ZAP-Hosting - ZAP-Hosting.com documentation
+description: "Information about the dashboard of a Soulmask server from ZAP-Hosting"
 sidebar_label: Dashboard
 services:
   - gameserver-spaceengineers-soulmask

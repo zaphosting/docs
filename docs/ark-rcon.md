@@ -1,7 +1,7 @@
 ---
 id: ark-rcon
 title: "ARK: Survival Evolved: RCON"
-description: "Learn how to use RCON for ARK: Survival Evolved - ZAP-Hosting Documentation"
+description: "Learn how to use RCON for ARK: Survival Evolved"
 sidebar_label: RCON
 services:
   - gameserver-ark

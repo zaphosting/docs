@@ -1,7 +1,7 @@
 ---
 id: contactsupport
 title: Contacting Support to report problems
-description: Information on how to contact support if you have problems with your ZAP-Hosting server - ZAP-Hosting.com documentation
+description: "Information on how to contact support if you have problems with your ZAP-Hosting server"
 sidebar_label: Report problems
 ---
 

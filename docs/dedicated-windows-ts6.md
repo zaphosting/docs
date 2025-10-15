@@ -1,7 +1,7 @@
 ---
 id: dedicated-windows-ts6
 title: "Dedicated Server: Setup Teamspeak 6 Server on your Windows Dedicated Server"
-description: Information on how to setup Teamspeak 6 Serveron your Windows Dedicated Server from ZAP-Hosting - ZAP-Hosting.com documentation
+description: "Information on how to setup Teamspeak 6 Serveron your Windows Dedicated Server from ZAP-Hosting"
 sidebar_label: Install Teamspeak 6 Server
 services:
   - dedicated

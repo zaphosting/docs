@@ -1,7 +1,7 @@
 ---
 id: terraria-firststeps-dashboard
 title: "Terraria: Dashboard Overview"
-description: Information about the dashboard of an Terraria server from ZAP-Hosting - ZAP-Hosting.com documentation
+description: "Information about the dashboard of an Terraria server from ZAP-Hosting"
 sidebar_label: Dashboard
 services:
   - gameserver-terraria

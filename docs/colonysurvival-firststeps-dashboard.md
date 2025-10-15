@@ -1,7 +1,7 @@
 ---
 id: colonysurvival-firststeps-dashboard
 title: "Colony Survival: Dashboard overview"
-description: Information about the dashboard of an Colony Survival server from ZAP-Hosting - ZAP-Hosting.com Documentation
+description: "Information about the dashboard of an Colony Survival server from ZAP-Hosting"
 sidebar_label: Dashboard
 services:
   - gameserver-conan-colonysurvival

@@ -1,7 +1,7 @@
 ---
 id: dedicated-windows-ftpserver
 title: "Dedicated Server: Installation of FTP"
-description: Information on how to install and set up an FTP server on your Windows Dedicated Server from ZAP-Hosting - ZAP-Hosting.com documentation
+description: "Information on how to install and set up an FTP server on your Windows Dedicated Server from ZAP-Hosting"
 sidebar_label: Install FTP
 services:
   - dedicated

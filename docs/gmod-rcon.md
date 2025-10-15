@@ -1,7 +1,7 @@
 ---
 id: gmod-rcon
 title: "Garry's Mod: RCON"
-description: "Learn how to use RCON for Garry's Mod - ZAP-Hosting Documentation"
+description: "Learn how to use RCON for Garry's Mod"
 sidebar_label: RCON
 services:
   - gameserver-gmod

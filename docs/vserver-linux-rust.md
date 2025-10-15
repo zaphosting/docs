@@ -1,7 +1,7 @@
 ---
 id: vserver-linux-rust
 title: "VPS: Rust Dedicated Server Linux Setup"
-description: Information about setting up a Rust Dedicated Server on a Linux VPS from ZAP-Hosting - ZAP-Hosting.com documentation
+description: "Information about setting up a Rust Dedicated Server on a Linux VPS from ZAP-Hosting"
 sidebar_label: Rust
 services:
   - vserver

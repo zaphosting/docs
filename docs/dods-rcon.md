@@ -1,7 +1,7 @@
 ---
 id: dods-rcon
 title: "Day of Defeat: Source: RCON"
-description: "Learn how to use RCON for Day of Defeat: Source - ZAP-Hosting Documentation"
+description: "Learn how to use RCON for Day of Defeat: Source"
 sidebar_label: RCON
 services:
   - gameserver-dods

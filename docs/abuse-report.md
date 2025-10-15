@@ -1,7 +1,7 @@
 ---
 id: abuse-report
 title: "Report abuse and illegal content - Everything you need to know!"
-description: "How to report abuse and illegal content to ZAP-Hosting - ZAP-Hosting.com documentation"
+description: "How to report abuse and illegal content to ZAP-Hosting"
 sidebar_label: Report Abuse
 ---
 
@@ -111,7 +111,7 @@ Timestamps (UTC):
 - Last seen: 2025-08-23T10:03:31Z
 
 Description:
-Repeated SSH login attempts with rotating usernames and source IPs. Detected via anomalies in auth.log and elevated connection rate. Password authentication disabled after detection. No successful login observed.
+"Repeated SSH login attempts with rotating usernames and source IPs. Detected via anomalies in auth.log and elevated connection rate. Password authentication disabled after detection. No successful login observed."
 
 Evidence:
 - auth.log excerpt with multiple "Failed password" and "Invalid user" entries

@@ -1,7 +1,7 @@
 ---
 id: dedicated-linux-arksurvivalascended
 title: "Dedicated Server: ARK Survival Ascended Dedicated Server Linux Setup"
-description: Information about setting up an ARK Survival Ascended Dedicated Server on a Linux Dedicated Server from ZAP-Hosting - ZAP-Hosting.com documentation
+description: "Information about setting up an ARK Survival Ascended Dedicated Server on a Linux Dedicated Server from ZAP-Hosting"
 sidebar_label: ARK Survival Ascended
 services:
   - dedicated

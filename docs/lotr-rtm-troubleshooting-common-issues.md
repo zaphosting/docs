@@ -1,7 +1,7 @@
 ---
 id: lotr-rtm-troubleshooting-common-issues
 title: "The Lord of the Rings: RTM: Common issues"
-description: "Information on how to resolve common issues on a The Lord of the Rings: RTM server from ZAP-Hosting - ZAP-Hosting.com documentation"
+description: "Information on how to resolve common issues on a The Lord of the Rings: RTM server from ZAP-Hosting"
 sidebar_label: Common issues
 services:
   - gameserver-lotr-rtm

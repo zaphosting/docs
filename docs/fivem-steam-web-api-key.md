@@ -1,7 +1,7 @@
 ---
 id: fivem-steam-web-api-key
 title: "FiveM: Steam Web API Key setup"
-description: Information on setting up a Steam Web API key from ZAP-Hosting - ZAP-Hosting.com documentation
+description: "Information on setting up a Steam Web API key from ZAP-Hosting"
 sidebar_label: Steam Web API Key
 services:
   - gameserver-fivem

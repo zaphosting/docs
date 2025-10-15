@@ -1,7 +1,7 @@
 ---
 id: rimworldtogether-server-savegames
 title: "Rimworld Together: Managing Rimworld Together Savegames"
-description: Information on how to manage savegames on your Rimworld Together server from ZAP-Hosting - ZAP-Hosting.com Documentation
+description: "Information on how to manage savegames on your Rimworld Together server from ZAP-Hosting"
 sidebar_label: Manage Savegames
 services:
   - gameserver

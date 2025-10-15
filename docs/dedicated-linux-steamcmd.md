@@ -1,7 +1,7 @@
 ---
 id: dedicated-linux-steamcmd
 title: "Dedicated Server: SteamCMD Linux Setup"
-description: Information about setting up SteamCMD on a Linux Dedicated Server from ZAP-Hosting - ZAP-Hosting.com documentation
+description: "Information about setting up SteamCMD on a Linux Dedicated Server from ZAP-Hosting"
 sidebar_label: Setup SteamCMD
 services:
   - dedicated

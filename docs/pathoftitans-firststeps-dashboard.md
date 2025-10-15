@@ -1,7 +1,7 @@
 ---
 id: pathoftitans-firststeps-dashboard
 title: "Path of Titans: Dashboard Overview"
-description: Information about the dashboard of a Path of Titans server from ZAP-Hosting - ZAP-Hosting.com documentation
+description: "Information about the dashboard of a Path of Titans server from ZAP-Hosting"
 sidebar_label: Dashboard
 services:
   - gameserver-pathoftitans

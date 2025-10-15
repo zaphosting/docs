@@ -1,7 +1,7 @@
 ---
 id: firststeps-locations
 title: Locations
-description: ZAP-Hosting Locations Information - ZAP-Hosting.com documentation
+description: "ZAP-Hosting Locations Information"
 sidebar_label: Locations
 ---
 

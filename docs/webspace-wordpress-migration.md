@@ -1,7 +1,7 @@
 ---
 id: webspace-wordpress-migration
 title: "Webspace: Migrating your WordPress website to ZAP-Hosting"
-description: Information on how to migrate your WordPress website to your webspace from ZAP-Hosting - ZAP-Hosting.com documentation
+description: "Information on how to migrate your WordPress website to your webspace from ZAP-Hosting"
 sidebar_label: Migration
 services:
   - webspace

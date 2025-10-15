@@ -1,7 +1,7 @@
 ---
 id: community-info
 title: Welcome to the ZAP-Hosting Community!
-description: Information about the ZAP-Hosting Community and social media channels of ZAP-Hosting - ZAP-Hosting.com documentation
+description: "Information about the ZAP-Hosting Community and social media channels of ZAP-Hosting"
 sidebar_label: ZAP-Hosting Community
 ---
 

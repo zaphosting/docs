@@ -1,7 +1,7 @@
 ---
 id: minecraft-commands
 title: "Minecraft: General Server Commands"
-description: Information about general commands you can use on your Minecraft server from ZAP-Hosting - ZAP-Hosting.com documentation
+description: "Information about general commands you can use on your Minecraft server from ZAP-Hosting"
 sidebar_label: General commands
 services:
   - gameserver-minecraft

@@ -1,7 +1,7 @@
 ---
 id: vserver-linux-vrising
 title: "VPS: V-Rising Dedicated Server Linux Setup"
-description: Information about setting up an V-Rising Dedicated Server on a Linux VPS from ZAP-Hosting - ZAP-Hosting.com documentation
+description: "Information about setting up an V-Rising Dedicated Server on a Linux VPS from ZAP-Hosting"
 sidebar_label: V-Rising
 services:
   - vserver

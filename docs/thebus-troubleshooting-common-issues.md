@@ -1,7 +1,7 @@
 ---
 id: thebus-troubleshooting-common-issues
 title: "The Bus: Common issues"
-description: "Information on how to resolve common issues on a The Bus server from ZAP-Hosting - ZAP-Hosting.com documentation"
+description: "Information on how to resolve common issues on a The Bus server from ZAP-Hosting"
 sidebar_label: Common issues
 services:
   - gameserver-thebus

@@ -1,7 +1,7 @@
 ---
 id: vserver-linux-speedtest-cli
 title: "VPS: Setup Speedtest-Cli on Linux"
-description: Information on how to setup Speedtest-Cli on your Linux VPS from ZAP-Hosting - ZAP-Hosting.com documentation
+description: "Information on how to setup Speedtest-Cli on your Linux VPS from ZAP-Hosting"
 sidebar_label: Install Speedtest-Cli
 services:
   - vserver

@@ -1,7 +1,7 @@
 ---
 id: dedicated-windows-ragemp
 title: "Dedicated Server: RageMP Dedicated Server Windows Setup"
-description: Information about setting up an RageMP Dedicated Server on a Windows Dedicated Server from ZAP-Hosting - ZAP-Hosting.com documentation
+description: "Information about setting up an RageMP Dedicated Server on a Windows Dedicated Server from ZAP-Hosting"
 sidebar_label: RageMP
 services:
   - dedicated

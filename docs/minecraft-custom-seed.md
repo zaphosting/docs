@@ -1,7 +1,7 @@
 ---
 id: minecraft-custom-seed
 title: "Minecraft: Custom world seed"
-description: Information on how to setup a custom world seed for your Minecraft server from ZAP-Hosting - ZAP-Hosting.com documentation
+description: "Information on how to setup a custom world seed for your Minecraft server from ZAP-Hosting"
 sidebar_label: Custom world seed
 services:
   - gameserver-minecraft

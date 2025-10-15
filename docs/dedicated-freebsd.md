@@ -1,7 +1,7 @@
 ---
 id: dedicated-freebsd
 title: "Dedicated Server: Installation of FreeBSD"
-description: Information about installing the FreeBSD operating system on your dedicated server from ZAP-Hosting - ZAP-Hosting.com documentation
+description: "Information about installing the FreeBSD operating system on your dedicated server from ZAP-Hosting"
 sidebar_label: Install FreeBSD
 services:
   - dedicated

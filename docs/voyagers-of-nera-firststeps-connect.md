@@ -1,7 +1,7 @@
 ---
 id: voyagers-of-nera-firststeps-connect
 title: "Voyagers of Nera: Connect to the server"
-description: Information about various ways on how to connect to your Voyagers of Nera server from ZAP-Hosting - ZAP-Hosting.com Documentation
+description: "Information about various ways on how to connect to your Voyagers of Nera server from ZAP-Hosting"
 sidebar_label: Connect to the server
 services:
   - gameserver-voyagers-of-nera

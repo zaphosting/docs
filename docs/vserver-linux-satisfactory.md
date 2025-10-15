@@ -1,7 +1,7 @@
 ---
 id: vserver-linux-satisfactory
 title: "VPS: Satisfactory Dedicated Server Linux Setup"
-description: Information about setting up an Satisfactory Dedicated Server on a Linux VPS from ZAP-Hosting - ZAP-Hosting.com documentation
+description: "Information about setting up an Satisfactory Dedicated Server on a Linux VPS from ZAP-Hosting"
 sidebar_label: Satisfactory
 services:
   - vserver

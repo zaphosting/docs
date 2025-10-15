@@ -1,7 +1,7 @@
 ---
 id: battlegrounds3-troubleshooting-common-issues
 title: "Battle Grounds III: Common issues"
-description: "Information on how to resolve common issues on a Battle Grounds III server from ZAP-Hosting - ZAP-Hosting.com documentation"
+description: "Information on how to resolve common issues on a Battle Grounds III server from ZAP-Hosting"
 sidebar_label: Common issues
 services:
   - gameserver

@@ -1,7 +1,7 @@
 ---
 id: dedicated-iso
 title: "Dedicated Server: Own ISO"
-description: Information on how to install your own ISO file on your dedicated server from ZAP-Hosting - ZAP-Hosting.com documentation
+description: "Information on how to install your own ISO file on your dedicated server from ZAP-Hosting"
 sidebar_label: Own ISO
 services:
   - dedicated

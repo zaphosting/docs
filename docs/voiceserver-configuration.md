@@ -1,7 +1,7 @@
 ---
 id: voiceserver-configuration
 title: "Voiceserver: Configuration"
-description: Information on how to configure your Teamspeak server from ZAP-Hosting - ZAP-Hosting.com documentation
+description: "Information on how to configure your Teamspeak server from ZAP-Hosting"
 sidebar_label: Server configuration
 services:
   - voiceserver

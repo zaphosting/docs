@@ -1,7 +1,7 @@
 ---
 id: vserver-windows-docker
 title: "VPS: Setup Docker on Windows"
-description: Information on how to setup Docker on your Windows VPS from ZAP-Hosting - ZAP-Hosting.com documentation
+description: "Information on how to setup Docker on your Windows VPS from ZAP-Hosting"
 sidebar_label: Install Docker
 services:
   - vserver

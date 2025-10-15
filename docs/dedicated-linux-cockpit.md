@@ -1,7 +1,7 @@
 ---
 id: dedicated-linux-cockpit
 title: "Dedicated Server: Installation of Cockpit "
-description: Guide to install Cockpit on Linux - ZAP-Hosting.com documentation
+description: "Guide to install Cockpit on Linux"
 sidebar_label: Install Cockpit
 services:
   - dedicated

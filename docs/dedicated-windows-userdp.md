@@ -1,7 +1,7 @@
 ---
 id: dedicated-windows-userdp
 title: "Dedicated Server: Accessing Windows Server via Remote Desktop (RDP)"
-description: Information on accessing your Windows Dedicated Server from ZAP-Hosting using Remote Desktop (RDP) - ZAP-Hosting.com documentation
+description: "Information on accessing your Windows Dedicated Server from ZAP-Hosting using Remote Desktop (RDP)"
 sidebar_label: Initial Access (RDP)
 services:
   - dedicated

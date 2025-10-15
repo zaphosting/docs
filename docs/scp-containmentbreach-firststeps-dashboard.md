@@ -1,7 +1,7 @@
 ---
 id: scp-containmentbreach-firststeps-dashboard
 title: "SCP: Containment Breach: Dashboard Overview"
-description: "Information about the dashboard of a SCP: Containment Breach server from ZAP-Hosting - ZAP-Hosting.com Documentation"
+description: "Information about the dashboard of a SCP: Containment Breach server from ZAP-Hosting"
 sidebar_label: Dashboard
 services:
   - gameserver-scp-containmentbreach

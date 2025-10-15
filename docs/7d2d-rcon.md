@@ -1,7 +1,7 @@
 ---
 id: 7d2d-rcon
 title: "7 Days to Die: RCON"
-description: "Learn how to use RCON for 7 Days to Die - ZAP-Hosting Documentation"
+description: "Learn how to use RCON for 7 Days to Die"
 sidebar_label: RCON
 services:
   - gameserver-7d2d

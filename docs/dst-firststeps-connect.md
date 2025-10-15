@@ -1,7 +1,7 @@
 ---
 id: dst-firststeps-connect
 title: "Don't Starve Together: Connect to the server"
-description: Information about various ways on how to connect to your Don't Starve Together server from ZAP-Hosting - ZAP-Hosting.com Documentation
+description: "Information about various ways on how to connect to your Don't Starve Together server from ZAP-Hosting"
 sidebar_label: Connect to the server
 services:
   - gameserver-dst

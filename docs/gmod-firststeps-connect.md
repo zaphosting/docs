@@ -1,7 +1,7 @@
 ---
 id: gmod-firststeps-connect
 title: "Garry's Mod: Connect to the server"
-description: Information about various ways on how to connect to your Garry's Mod server from ZAP-Hosting - ZAP-Hosting.com Documentation
+description: "Information about various ways on how to connect to your Garry's Mod server from ZAP-Hosting"
 sidebar_label: Connect to the server
 services:
   - gameserver-gmod

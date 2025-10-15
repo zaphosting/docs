@@ -1,7 +1,7 @@
 ---
 id: redm-devtools
 title: "RedM: Enable Dev Tools for extended debugging information"
-description: Informations on how to activate the RedM Developer Tools - ZAP-Hosting.com documentation
+description: "Informations on how to activate the RedM Developer Tools"
 sidebar_label: Enable Dev Tools
 services:
   - gameserver-redm

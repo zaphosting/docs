@@ -1,7 +1,7 @@
 ---
 id: arma-reforger-troubleshooting-common-issues
 title: "Arma Reforger: Common issues"
-description: "Information on how to resolve common issues on a Arma Reforger server from ZAP-Hosting - ZAP-Hosting.com documentation"
+description: "Information on how to resolve common issues on a Arma Reforger server from ZAP-Hosting"
 sidebar_label: Common issues
 services:
   - gameserver-arma-reforger

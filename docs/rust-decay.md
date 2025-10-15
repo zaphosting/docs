@@ -1,7 +1,7 @@
 ---
 id: rust-decay
 title: "Rust: Modify Decay"
-description: Information, how to adjust the decay on your Rust server from ZAP-Hosting - ZAP-Hosting.com documentation
+description: "Information, how to adjust the decay on your Rust server from ZAP-Hosting"
 sidebar_label: Decay
 services:
   - gameserver-rust

@@ -1,7 +1,7 @@
 ---
 id: dedicated-windows-addip
 title: "Dedicated Server: Configure additional IP addresses on Windows"
-description: Information on how to add additional IPs to your Windows Dedicated Server from ZAP-Hosting - ZAP-Hosting.com documentation
+description: "Information on how to add additional IPs to your Windows Dedicated Server from ZAP-Hosting"
 sidebar_label: Additional IP addresses
 services:
   - dedicated

@@ -1,7 +1,7 @@
 ---
 id: ets2-server-modding
 title: "ETS2: Installing Mods/DLCs to your ETS2 server"
-description: Information on how to install mods and DLCs to your Euro Truck Simulator 2 (ETS2) server or game client from ZAP-Hosting - ZAP-Hosting.com Documentation
+description: "Information on how to install mods and DLCs to your Euro Truck Simulator 2 (ETS2) server or game client from ZAP-Hosting"
 sidebar_label: Install Mods/DLCs
 services:
   - gameserver-factorio-ets2

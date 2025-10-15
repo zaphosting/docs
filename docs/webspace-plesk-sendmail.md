@@ -1,7 +1,7 @@
 ---
 id: webspace-plesk-sendmail
 title: "Webspace: Setting up email addresses and sending emails"
-description: Information on how to set up email addresses for your webspace from ZAP-Hosting to send and receive emails - ZAP-hosting.com documentation
+description: "Information on how to set up email addresses for your webspace from ZAP-Hosting to send and receive emails"
 sidebar_label: Sending Emails
 services:
   - webspace

@@ -1,7 +1,7 @@
 ---
 id: stormworks-becomeadmin
 title: "Stormworks: Become a Stormworks Admin"
-description: How to become an admin for Stormworks game servers - ZAP-Hosting.com documentation 
+description: "How to become an admin for Stormworks game servers"
 sidebar_label: Become admin
 services:
   - gameserver-stormworks

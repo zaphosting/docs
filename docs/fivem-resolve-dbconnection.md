@@ -1,7 +1,7 @@
 ---
 id: fivem-resolve-dbconnection
 title: "FiveM: Resolve Database Connection issues"
-description: Information on how to resolve any issues with database connection on a FiveM from ZAP-Hosting - ZAP-Hosting.com documentation
+description: "Information on how to resolve any issues with database connection on a FiveM from ZAP-Hosting"
 sidebar_label: Resolve DB Connection
 services:
   - gameserver-fivem

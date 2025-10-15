@@ -1,7 +1,7 @@
 ---
 id: vrising-firststeps-connect
 title: "V Rising: Connect to V Rising Server"
-description: Information about connecting to a V Rising server from ZAP-Hosting - ZAP-Hosting.com documentation
+description: "Information about connecting to a V Rising server from ZAP-Hosting"
 sidebar_label: Connect to Server
 services:
   - gameserver-vrising

@@ -1,7 +1,7 @@
 ---
 id: nmrih-rcon
 title: "No More Room In Hell: RCON"
-description: "Learn how to use RCON for No More Room In Hell - ZAP-Hosting Documentation"
+description: "Learn how to use RCON for No More Room In Hell"
 sidebar_label: RCON
 services:
   - gameserver-nmrih

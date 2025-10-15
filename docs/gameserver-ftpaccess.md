@@ -1,7 +1,7 @@
 ---
 id: gameserver-ftpaccess
-title: 'Game server: Access via FTP to manage server files'
-description: Information on how to connect via FTP and manage your game server files from ZAP-Hosting - ZAP-Hosting.com Documentation
+title: "Game server: Access via FTP to manage server files"
+description: "Information on how to connect via FTP and manage your game server files from ZAP-Hosting"
 sidebar_label: FTP access
 services:
   - gameserver

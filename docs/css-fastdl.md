@@ -1,7 +1,7 @@
 ---
 id: css-fastdl
 title: "Counter-Strike: Source: Setting up FastDL"
-description: "How to set up FastDL with webspace for Counter-Strike: Source servers at ZAP-Hosting - ZAP-Hosting Documentation"
+description: "How to set up FastDL with webspace for Counter-Strike: Source servers at ZAP-Hosting"
 sidebar_label: FastDL
 services:
   - gameserver-css

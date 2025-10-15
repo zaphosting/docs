@@ -1,7 +1,7 @@
 ---
 id: motortown-troubleshooting-common-issues
 title: "Motor Town: Behind The Wheel: Common issues"
-description: "Information on how to resolve common issues on a Motor Town: Behind The Wheel server from ZAP-Hosting - ZAP-Hosting.com documentation"
+description: "Information on how to resolve common issues on a Motor Town: Behind The Wheel server from ZAP-Hosting"
 sidebar_label: Common issues
 services:
   - gameserver-motortown

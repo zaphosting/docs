@@ -1,7 +1,7 @@
 ---
 id: gameserver-subdomain
 title: 'Game server: ZAP Subdomain'
-description: Information on settings up a ZAP Cloud (.zap.cloud) subdomain or your own domain for your game server from ZAP-Hosting - ZAP-Hosting.com 
+description: "Information on settings up a ZAP Cloud (.zap.cloud) subdomain or your own domain for your game server from ZAP-Hosting - ZAP-Hosting.com"
 sidebar_label: Gameserver Subdomain
 services:
   - gameserver

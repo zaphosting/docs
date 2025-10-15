@@ -1,7 +1,7 @@
 ---
 id: webspace-wordpress-plugins
 title: "Webspace: WordPress Plugins"
-description: Information on how to install WordPress Plugins on a Webspace product from ZAP-Hosting - ZAP-Hosting.com Documentation
+description: "Information on how to install WordPress Plugins on a Webspace product from ZAP-Hosting"
 sidebar_label: Plugins
 services:
   - webspace

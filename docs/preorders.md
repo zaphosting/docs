@@ -1,7 +1,7 @@
 ---
 id: preorders
 title: Pre-orders
-description: Information about pre-orders at ZAP-Hosting. What are pre-orders? When are servers set up? Can pre-orders be cancelled? - ZAP-Hosting.com documentation
+description: "Information about pre-orders at ZAP-Hosting. What are pre-orders? When are servers set up? Can pre-orders be cancelled?"
 sidebar_label: Preorders
 ---
 

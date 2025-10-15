@@ -1,7 +1,7 @@
 ---
 id: voiceserver-dashboard
 title: "Voiceserver: Dashboard Overview"
-description: Information about the dashboard of a Voiceserver product from ZAP-Hosting - ZAP-Hosting.com Documentation
+description: "Information about the dashboard of a Voiceserver product from ZAP-Hosting"
 sidebar_label: Dashboard
 services:
   - voiceserver

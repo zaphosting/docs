@@ -1,7 +1,7 @@
 ---
 id: nmrih-troubleshooting-segmentation-fault
 title: "No More Room In Hell: Segmentation Fault"
-description: Information on how to resolve the segmentation fault error on a No More Room In Hell server from ZAP-Hosting - ZAP-Hosting.com documentation
+description: "Information on how to resolve the segmentation fault error on a No More Room In Hell server from ZAP-Hosting"
 sidebar_label: Segmentation Fault
 services:
   - gameserver-nmrih

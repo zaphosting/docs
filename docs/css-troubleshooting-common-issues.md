@@ -1,7 +1,7 @@
 ---
 id: css-troubleshooting-common-issues
 title: "Counter-Strike: Source: Common issues"
-description: "Information on how to resolve common issues on a Counter-Strike: Source server from ZAP-Hosting - ZAP-Hosting.com documentation"
+description: "Information on how to resolve common issues on a Counter-Strike: Source server from ZAP-Hosting"
 sidebar_label: Common issues
 services:
   - gameserver-css

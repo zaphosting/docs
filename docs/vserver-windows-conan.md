@@ -1,7 +1,7 @@
 ---
 id: vserver-windows-conan
 title: "VPS: Conan Exiles Dedicated Server Windows Setup"
-description: Information about setting up an Conan Exiles Dedicated Server on a Windows VPS from ZAP-Hosting - ZAP-Hosting.com documentation
+description: "Information about setting up an Conan Exiles Dedicated Server on a Windows VPS from ZAP-Hosting"
 sidebar_label: Conan Exiles
 services:
   - vserver

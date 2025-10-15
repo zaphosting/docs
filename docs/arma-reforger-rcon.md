@@ -1,7 +1,7 @@
 ---
 id: arma-reforger-rcon
 title: "Arma Reforger: RCON"
-description: "Learn how to use RCON for Arma Reforger - ZAP-Hosting Documentation"
+description: "Learn how to use RCON for Arma Reforger"
 sidebar_label: RCON
 services:
   - gameserver-arma-reforger

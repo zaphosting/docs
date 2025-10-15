@@ -1,7 +1,7 @@
 ---
 id: dedicated-windows-fs-25
 title: "Dedicated Server: Farming Simulator 2025 Dedicated Server Windows Setup"
-description: Information about setting up a Farming Simulator 2025 Dedicated Server on a Windows Dedicated Server from ZAP-Hosting - ZAP-Hosting.com documentation
+description: "Information about setting up a Farming Simulator 2025 Dedicated Server on a Windows Dedicated Server from ZAP-Hosting"
 sidebar_label: Farming Simulator 2025
 services:
   - dedicated

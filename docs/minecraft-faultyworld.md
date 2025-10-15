@@ -1,7 +1,7 @@
 ---
 id: minecraft-faultyworld
 title: "Minecraft: Remove faulty chunks from world"
-description: Information on how to remove Faulty Chunks from your Minecraft world from ZAP-Hosting - ZAP-Hosting.com Documentation
+description: "Information on how to remove Faulty Chunks from your Minecraft world from ZAP-Hosting"
 sidebar_label: Faulty World (Chunks)
 services:
   - gameserver-minecraft

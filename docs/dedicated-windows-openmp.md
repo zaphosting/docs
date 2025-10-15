@@ -1,7 +1,7 @@
 ---
 id: dedicated-windows-openmp
 title: "Dedicated Server: Open.mp Dedicated Server Windows Setup"
-description: Information about setting up an open.mp Dedicated Server on a Windows Dedicated Server from ZAP-Hosting - ZAP-Hosting.com documentation
+description: "Information about setting up an open.mp Dedicated Server on a Windows Dedicated Server from ZAP-Hosting"
 sidebar_label: Open.mp
 services:
   - dedicated

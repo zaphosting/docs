@@ -1,7 +1,7 @@
 ---
 id: soulmask-configuration
 title: "Soulmask: Server Configuration"
-description: Information about configuring a Soulmask game server from ZAP-Hosting - ZAP-Hosting.com documentation
+description: "Information about configuring a Soulmask game server from ZAP-Hosting"
 sidebar_label: Server Configuration
 services:
   - gameserver-soulmask

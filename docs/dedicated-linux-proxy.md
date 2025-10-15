@@ -1,7 +1,7 @@
 ---
 id: dedicated-linux-proxy
 title: "Dedicated Server: Setup a Reverse Proxy with nginx on Linux"
-description: Information on how to setup a Reverse Proxy on your Linux Dedicated Server from ZAP-Hosting - ZAP-Hosting.com documentation
+description: "Information on how to setup a Reverse Proxy on your Linux Dedicated Server from ZAP-Hosting"
 sidebar_label: Reverse Proxy
 services:
   - dedicated

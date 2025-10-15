@@ -1,7 +1,7 @@
 ---
 id: dedicated-windows-2016
 title: "Dedicated Server: Installation of Windows Server 2016"
-description: Information on how to install the Windows Server 2016 operating system on your dedicated server from ZAP-Hosting - ZAP-Hosting.com documentation
+description: "Information on how to install the Windows Server 2016 operating system on your dedicated server from ZAP-Hosting"
 sidebar_label: Windows Server 2016
 services:
   - dedicated

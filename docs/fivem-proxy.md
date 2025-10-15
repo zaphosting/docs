@@ -1,7 +1,7 @@
 ---
 id: fivem-proxy
 title: "FiveM: Setup a Reverse Proxy"
-description: Information on how to setup a Reverse Proxy for your FiveM server from ZAP-Hosting - ZAP-Hosting.com documentation
+description: "Information on how to setup a Reverse Proxy for your FiveM server from ZAP-Hosting"
 sidebar_label: Reverse Proxy
 services:
   - gameserver-fivem

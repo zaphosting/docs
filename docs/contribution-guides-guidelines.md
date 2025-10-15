@@ -1,7 +1,7 @@
 ---
 id: contribution-guides-guidelines
 title: Guide Guidelines
-description: Guidelines for the Guides section of the ZAP-Hosting Contribution Program - ZAP-Hosting.com documentation
+description: "Guidelines for the Guides section of the ZAP-Hosting Contribution Program"
 sidebar_label: Guidelines
 ---
 

@@ -1,7 +1,7 @@
 ---
 id: 7d2d-becomeadmin
 title: "7 Days to Die: How to become an admin for 7 Days to Die"
-description: How to become an admin for 7 Days to Die game servers - ZAP-Hosting.com documentation 
+description: "How to become an admin for 7 Days to Die game servers"
 sidebar_label: Become admin
 services:
   - gameserver-7d2d

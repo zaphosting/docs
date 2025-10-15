@@ -1,7 +1,7 @@
 ---
 id: palworld-rcon
 title: "Palworld: RCON"
-description: "Learn how to use RCON for Palworld - ZAP-Hosting Documentation"
+description: "Learn how to use RCON for Palworld"
 sidebar_label: RCON
 services:
   - gameserver-palworld

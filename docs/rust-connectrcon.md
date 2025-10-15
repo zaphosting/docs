@@ -1,7 +1,7 @@
 ---
 id: rust-connectrcon
 title: "Rust: Connecting to the server via RCON"
-description: Information on how to connect to your Rust server from ZAP-Hosting via RCON to administer your server - ZAP-Hosting.com documentation
+description: "Information on how to connect to your Rust server from ZAP-Hosting via RCON to administer your server"
 sidebar_label: Connect via RCON
 services:
   - gameserver-rust

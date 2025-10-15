@@ -1,7 +1,7 @@
 ---
 id: hl1-troubleshooting-common-issues
 title: "Half-Life 1: Common issues"
-description: "Information on how to resolve common issues on a Half-Life 1 server from ZAP-Hosting - ZAP-Hosting.com documentation"
+description: "Information on how to resolve common issues on a Half-Life 1 server from ZAP-Hosting"
 sidebar_label: Common issues
 services:
   - gameserver-hl1

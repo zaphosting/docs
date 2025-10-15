@@ -1,7 +1,7 @@
 ---
 id: ats-firststeps-dashboard
 title: "American Truck Simulator: Dashboard Overview"
-description: Information about the dashboard of an American Truck Simulator server from ZAP-Hosting - ZAP-Hosting.com Documentation
+description: "Information about the dashboard of an American Truck Simulator server from ZAP-Hosting"
 sidebar_label: Dashboard
 services:
   - gameserver-ats

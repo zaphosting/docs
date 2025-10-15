@@ -1,7 +1,7 @@
 ---
 id: vserver-iso
 title: "VPS: Mount an ISO File"
-description: Information on how to mount an ISO file on your VPS from ZAP-Hosting - ZAP-Hosting.com documentation
+description: "Information on how to mount an ISO file on your VPS from ZAP-Hosting"
 sidebar_label: Mount ISO file
 services:
   - vserver

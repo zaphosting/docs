@@ -1,7 +1,7 @@
 ---
 id: satisfactory-commands
 title: "Satisfactory: Console Commands"
-description: Information about possible console commands for your Satisfactory server from ZAP-Hosting - ZAP-Hosting.com documentation
+description: "Information about possible console commands for your Satisfactory server from ZAP-Hosting"
 sidebar_label: Console Commands
 services:
   - gameserver-satisfactory

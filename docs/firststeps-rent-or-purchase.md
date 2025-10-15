@@ -1,7 +1,7 @@
 ---
 id: firststeps-rent-or-purchase
 title: Rental or Lifetime
-description: Information about the differences of rental and lifetime servers from ZAP-Hosting - ZAP-Hosting.com documentation
+description: "Information about the differences of rental and lifetime servers from ZAP-Hosting"
 sidebar_label: Rental or Lifetime
 ---
 

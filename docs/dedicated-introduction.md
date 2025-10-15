@@ -1,7 +1,7 @@
 ---
 id: dedicated-introduction
 title: "Dedicated Server: Introduction"
-description: Introduction and information about the dedicated server product from ZAP-Hosting - ZAP-Hosting.com documentation
+description: "Introduction and information about the dedicated server product from ZAP-Hosting"
 sidebar_label: Introduction
 services:
   - dedicated

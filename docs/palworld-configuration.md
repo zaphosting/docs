@@ -1,7 +1,7 @@
 ---
 id: palworld-configuration
 title: "Palworld: Palworld Server Configuration"
-description: Information about configuring a Palworld game server from ZAP-Hosting - ZAP-Hosting.com documentation
+description: "Information about configuring a Palworld game server from ZAP-Hosting"
 sidebar_label: Server Configuration
 services:
   - gameserver-palworld

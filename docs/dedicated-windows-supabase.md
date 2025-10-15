@@ -1,7 +1,7 @@
 ---
 id: dedicated-windows-supabase
 title: "Dedicated Server: Setup Supabase on Windows"
-description: Information on how to setup Supabase on your Windows Dedicated Server from ZAP-Hosting - ZAP-Hosting.com documentation
+description: "Information on how to setup Supabase on your Windows Dedicated Server from ZAP-Hosting"
 sidebar_label: Install Supabase
 services:
   - dedicated

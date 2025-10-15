@@ -1,7 +1,7 @@
 ---
 id: necesse-troubleshooting-common-issues
 title: "Necesse: Common issues"
-description: "Information on how to resolve common issues on a Necesse server from ZAP-Hosting - ZAP-Hosting.com documentation"
+description: "Information on how to resolve common issues on a Necesse server from ZAP-Hosting"
 sidebar_label: Common issues
 services:
   - gameserver-necesse

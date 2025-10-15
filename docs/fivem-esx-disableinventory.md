@@ -1,7 +1,7 @@
 ---
 id: fivem-esx-disableinventory
 title: "FiveM: Disable inventory (F2)"
-description: Information on how to disable inventory on your FiveM server running ESX from ZAP-Hosting - ZAP-Hosting.com documentation
+description: "Information on how to disable inventory on your FiveM server running ESX from ZAP-Hosting"
 sidebar_label: Deactivate the Inventory (F2)
 services:
   - gameserver-fivem

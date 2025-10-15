@@ -1,7 +1,7 @@
 ---
 id: vserver-linux-openvpn
 title: "VPS: Installation of OpenVPN"
-description: Information on how to install and set up OpenVPN on your server from ZAP-Hosting - ZAP-Hosting.com documentation
+description: "Information on how to install and set up OpenVPN on your server from ZAP-Hosting"
 sidebar_label: Install OpenVPN
 services:
   - vserver

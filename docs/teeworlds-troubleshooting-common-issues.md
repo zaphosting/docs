@@ -1,7 +1,7 @@
 ---
 id: teeworlds-troubleshooting-common-issues
 title: "Teeworlds: Common issues"
-description: "Information on how to resolve common issues on a Teeworlds server from ZAP-Hosting - ZAP-Hosting.com documentation"
+description: "Information on how to resolve common issues on a Teeworlds server from ZAP-Hosting"
 sidebar_label: Common issues
 services:
   - gameserver-teeworlds

@@ -1,7 +1,7 @@
 ---
 id: redm-txadmin-setup
 title: "RedM: txAdmin Setup"
-description: Information on how to set up the TxAdmin interface for RedM game servers from ZAP-Hosting - ZAP-Hosting.com documentation
+description: "Information on how to set up the TxAdmin interface for RedM game servers from ZAP-Hosting"
 sidebar_label: txAdmin Setup
 services:
   - gameserver-redm

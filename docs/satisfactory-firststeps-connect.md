@@ -1,7 +1,7 @@
 ---
 id: satisfactory-firststeps-connect
 title: "Satisfactory: Connect to the Server"
-description: Information about connecting to a Satisfactory Server from ZAP-Hosting - ZAP-Hosting.com documentation
+description: "Information about connecting to a Satisfactory Server from ZAP-Hosting"
 sidebar_label: Connect to server
 services:
   - gameserver-satisfactory

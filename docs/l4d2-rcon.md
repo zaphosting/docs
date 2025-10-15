@@ -1,7 +1,7 @@
 ---
 id: l4d2-rcon
 title: "Left 4 Dead 2: RCON"
-description: "Learn how to use RCON for Left 4 Dead 2 - ZAP-Hosting Documentation"
+description: "Learn how to use RCON for Left 4 Dead 2"
 sidebar_label: RCON
 services:
   - gameserver-l4d2

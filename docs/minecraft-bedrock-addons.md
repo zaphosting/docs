@@ -1,7 +1,7 @@
 ---
 id: minecraft-bedrock-addons
 title: "Minecraft Bedrock: Install Addons"
-description: Information on how to install Addons on your Minecraft Bedrock server from ZAP-Hosting - ZAP-Hosting.com documentation
+description: "Information on how to install Addons on your Minecraft Bedrock server from ZAP-Hosting"
 sidebar_label: Install Addons
 services:
   - gameserver-minecraft

@@ -1,7 +1,7 @@
 ---
 id: satisfactory-troubleshooting-common-issues
 title: "Satisfactory: Common issues"
-description: "Information on how to resolve common issues on a Satisfactory server from ZAP-Hosting - ZAP-Hosting.com documentation"
+description: "Information on how to resolve common issues on a Satisfactory server from ZAP-Hosting"
 sidebar_label: Common issues
 services:
   - gameserver-satisfactory

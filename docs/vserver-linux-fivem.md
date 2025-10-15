@@ -1,7 +1,7 @@
 ---
 id: vserver-linux-fivem
 title: "VPS: FiveM Dedicated Server Linux Setup (GS/TS3 Interface)"
-description: Information on how to set up a FiveM Dedicated Server on a Linux Dedicated Server from ZAP-Hosting - ZAP-Hosting.com Documentation
+description: "Information on how to set up a FiveM Dedicated Server on a Linux Dedicated Server from ZAP-Hosting"
 sidebar_label: FiveM
 services:
   - vserver

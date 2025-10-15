@@ -1,7 +1,7 @@
 ---
 id: satisfactory-switchexperimental
 title: "Satisfactory: Experimental Build"
-description: Information on Experimental Build for Satisfactory from ZAP-Hosting - ZAP-Hosting.com documentation
+description: "Information on Experimental Build for Satisfactory from ZAP-Hosting"
 sidebar_label: Experimental Build
 services:
   - gameserver-satisfactory

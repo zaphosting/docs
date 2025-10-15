@@ -1,7 +1,7 @@
 ---
 id: ohol-firststeps-dashboard
 title: "One Hour One Life: Dashboard overview"
-description: Information about the dashboard of an One Hour One Life server from ZAP-Hosting - ZAP-Hosting.com Documentation
+description: "Information about the dashboard of an One Hour One Life server from ZAP-Hosting"
 sidebar_label: Dashboard
 services:
   - gameserver-ohol

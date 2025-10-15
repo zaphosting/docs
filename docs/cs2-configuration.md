@@ -1,7 +1,7 @@
 ---
 id: cs2-configuration
 title: "CS2: Server configuration"
-description: Information on the settings and configuration options of your CS2 server from ZAP-Hosting - ZAP-Hosting.com documentation
+description: "Information on the settings and configuration options of your CS2 server from ZAP-Hosting"
 sidebar_label: Server Configration
 services:
   - gameserver-dods-cs2

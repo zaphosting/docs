@@ -1,7 +1,7 @@
 ---
 id: hl2-rcon
 title: "Half-Life 2: RCON"
-description: "Learn how to use RCON for Half-Life 2 - ZAP-Hosting Documentation"
+description: "Learn how to use RCON for Half-Life 2"
 sidebar_label: RCON
 services:
   - gameserver-hl2

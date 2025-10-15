@@ -1,7 +1,7 @@
 ---
 id: factorio-becomeadmin
 title: "Factorio: Become an Admin"
-description: Information on how to become an admin on your Factorio server at ZAP-Hosting - ZAP-Hosting.com documentation
+description: "Information on how to become an admin on your Factorio server at ZAP-Hosting"
 sidebar_label: Become admin
 services:
   - gameserver-factorio

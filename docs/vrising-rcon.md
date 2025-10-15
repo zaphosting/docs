@@ -1,7 +1,7 @@
 ---
 id: vrising-rcon
 title: "V Rising: RCON"
-description: "Learn how to use RCON for V Rising - ZAP-Hosting Documentation"
+description: "Learn how to use RCON for V Rising"
 sidebar_label: RCON
 services:
   - gameserver-vrising

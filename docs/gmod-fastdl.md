@@ -1,7 +1,7 @@
 ---
 id: gmod-fastdl
 title: "Garry's Mod: Setting up FastDL"
-description: "How to set up FastDL with webspace for Garry's Mod servers at ZAP-Hosting - ZAP-Hosting Documentation"
+description: "How to set up FastDL with webspace for Garry's Mod servers at ZAP-Hosting"
 sidebar_label: FastDL
 services:
   - gameserver-gmod

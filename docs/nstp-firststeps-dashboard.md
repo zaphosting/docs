@@ -1,7 +1,7 @@
 ---
 id: nstp-firststeps-dashboard
 title: "Never Split the Party: Dashboard overview"
-description: Information about the dashboard of an Never Split the Party server from ZAP-Hosting - ZAP-Hosting.com Documentation
+description: "Information about the dashboard of an Never Split the Party server from ZAP-Hosting"
 sidebar_label: Dashboard
 services:
   - gameserver-nstp-nstp

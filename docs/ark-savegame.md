@@ -1,7 +1,7 @@
 ---
 id: ark-savegame
 title: ARK Survival Evolved Import own save file
-description: Information about importing a save file to your ARK Survival Evolved game server - ZAP-Hosting.com documentation
+description: "Information about importing a save file to your ARK Survival Evolved game server"
 sidebar_label: Importing save file
 services:
   - gameserver-ark

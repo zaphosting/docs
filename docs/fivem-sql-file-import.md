@@ -1,7 +1,7 @@
 ---
 id: fivem-sql-file-import
 title: "FiveM: SQL file import"
-description: Information on how to import SQL files into the database of your FiveM server from ZAP-Hosting - ZAP-Hosting.com documentation
+description: "Information on how to import SQL files into the database of your FiveM server from ZAP-Hosting"
 sidebar_label: SQL File Import
 services:
   - gameserver-fivem

@@ -1,7 +1,7 @@
 ---
 id: minecraft-pregenerate-world
 title: "Minecraft: Pregenerate World (Chunks)"
-description: Information on how to pregenerate your world (chunks) on your Minecraft server from ZAP-Hosting - ZAP-Hosting.com documentation
+description: "Information on how to pregenerate your world (chunks) on your Minecraft server from ZAP-Hosting"
 sidebar_label: Pregenerate World (Chunks)
 services:
   - gameserver-minecraft

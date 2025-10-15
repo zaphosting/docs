@@ -1,7 +1,7 @@
 ---
 id: fivem-devtools
 title: "FiveM: Enable Dev Tools for extended debugging information"
-description: Informations on how to activate the FiveM Developer Tools - ZAP-Hosting.com documentation
+description: "Informations on how to activate the FiveM Developer Tools"
 sidebar_label: Enable Dev Tools
 services:
   - gameserver-fivem

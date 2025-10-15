@@ -1,7 +1,7 @@
 ---
 id: colonysurvival-troubleshooting-common-issues
 title: "Colony Survival: Common issues"
-description: "Information on how to resolve common issues on a Colony Survival server from ZAP-Hosting - ZAP-Hosting.com documentation"
+description: "Information on how to resolve common issues on a Colony Survival server from ZAP-Hosting"
 sidebar_label: Common issues
 services:
   - gameserver-colonysurvival

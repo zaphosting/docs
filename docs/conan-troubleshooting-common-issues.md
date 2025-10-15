@@ -1,7 +1,7 @@
 ---
 id: conan-troubleshooting-common-issues
 title: "Conan Exiles: Common issues"
-description: "Information on how to resolve common issues on a Conan Exiles server from ZAP-Hosting - ZAP-Hosting.com documentation"
+description: "Information on how to resolve common issues on a Conan Exiles server from ZAP-Hosting"
 sidebar_label: Common issues
 services:
   - gameserver-conan
