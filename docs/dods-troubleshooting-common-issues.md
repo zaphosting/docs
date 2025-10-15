@@ -1,7 +1,7 @@
 ---
 id: dods-troubleshooting-common-issues
 title: "Day of Defeat: Source: Common issues"
-description: "Information on how to resolve common issues on a Day of Defeat: Source server from ZAP-Hosting - ZAP-Hosting.com documentation"
+description: "Information on how to resolve common issues on a Day of Defeat: Source server from ZAP-Hosting "
 sidebar_label: Common issues
 services:
   - gameserver-dods

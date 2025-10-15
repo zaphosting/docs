@@ -1,7 +1,7 @@
 ---
 id: domain-gameserver-srv-link
 title: "Domain: Set up game server forwarding"
-description: Information on how to set up a forwarding from your domain to a game server - ZAP-Hosting.com documentation
+description: Information on how to set up a forwarding from your domain to a game server 
 sidebar_label: Gameserver forwarding
 services:
   - domain

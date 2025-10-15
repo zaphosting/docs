@@ -1,7 +1,7 @@
 ---
 id: dedicated-windows-rdp-freeze
 title: "Dedicated Server: Remote Desktop Connection Drops"
-description: Information on Troubleshooting and resolving Remote Desktop Connection Drops - ZAP-Hosting.com Documentation
+description: Information on Troubleshooting and resolving Remote Desktop Connection Drops 
 sidebar_label: RDP Connection Drops
 services:
   - dedicated

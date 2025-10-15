@@ -1,7 +1,7 @@
 ---
 id: webspace-mybb
 title: "Webspace: Install MyBB forum software"
-description: Information on how to install the MyBulletinBoard forum software on your webspace from ZAP-Hosting - ZAP-Hosting.com documentation
+description: Information on how to install the MyBulletinBoard forum software on your webspace from ZAP-Hosting 
 sidebar_label: Install MyBB
 services:
   - webspace

@@ -1,7 +1,7 @@
 ---
 id: vserver-linux-css
 title: "VPS: Counter-Strike: Source Dedicated Server Linux Setup"
-description: "Information about setting up an Counter-Strike: Source Dedicated Server on a Linux VPS from ZAP-Hosting - ZAP-Hosting.com documentation"
+description: "Information about setting up an Counter-Strike: Source Dedicated Server on a Linux VPS from ZAP-Hosting "
 sidebar_label: "Counter-Strike: Source"
 services:
   - vserver

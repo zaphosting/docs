@@ -1,7 +1,7 @@
 ---
 id: contribution-guides
 title: Guides Process
-description: Information on the guides (ZAP-Docs) contribution process for the ZAP-Hosting Community Contributions program - ZAP-Hosting.com documentation
+description: Information on the guides (ZAP-Docs) contribution process for the ZAP-Hosting Community Contributions program 
 sidebar_label: Guides Process
 ---
 
@@ -115,7 +115,7 @@ Using our example, the file should now contain the following:
 ---
 id: rust-commands
 title: "Rust: Admin Commands"
-description: Information on Admin commands for Rust from ZAP-Hosting - ZAP-Hosting.com documentation
+description: Information on Admin commands for Rust from ZAP-Hosting 
 sidebar_label: Admin Commands
 services:
   - gameserver
@@ -207,7 +207,7 @@ Using our example, the file should now contain the following:
 ---
 id: rust-commands
 title: "Rust: Admin Commands"
-description: Information on Admin commands for Rust from ZAP-Hosting - ZAP-Hosting.com documentation
+description: Information on Admin commands for Rust from ZAP-Hosting 
 sidebar_label: Admin Commands
 services:
   - gameserver

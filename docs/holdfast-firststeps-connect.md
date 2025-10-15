@@ -1,7 +1,7 @@
 ---
 id: holdfast-firststeps-connect
 title: "Holdfast: Nations At War: Connect to the server"
-description: "Information about various ways on how to connect to your Holdfast: Nations At War server from ZAP-Hosting - ZAP-Hosting.com Documentation"
+description: "Information about various ways on how to connect to your Holdfast: Nations At War server from ZAP-Hosting "
 sidebar_label: Connect to the server
 services:
   - gameserver-holdfast

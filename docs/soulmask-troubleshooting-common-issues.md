@@ -1,7 +1,7 @@
 ---
 id: soulmask-troubleshooting-common-issues
 title: "Soulmask: Common issues"
-description: "Information on how to resolve common issues on a Soulmask server from ZAP-Hosting - ZAP-Hosting.com documentation"
+description: "Information on how to resolve common issues on a Soulmask server from ZAP-Hosting "
 sidebar_label: Common issues
 services:
   - gameserver-soulmask

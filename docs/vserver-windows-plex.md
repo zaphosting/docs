@@ -1,7 +1,7 @@
 ---
 id: vserver-windows-plex
 title: "VPS: Setup Plex on Windows"
-description: Information on how to setup Plex on your Windows VPS from ZAP-Hosting - ZAP-Hosting.com documentation
+description: Information on how to setup Plex on your Windows VPS from ZAP-Hosting 
 sidebar_label: Install Plex
 services:
   - vserver

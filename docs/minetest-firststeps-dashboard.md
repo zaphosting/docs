@@ -1,7 +1,7 @@
 ---
 id: minetest-firststeps-dashboard
 title: "Minetest: Dashboard overview"
-description: Information about the dashboard of an Minetest server from ZAP-Hosting - ZAP-Hosting.com Documentation
+description: Information about the dashboard of an Minetest server from ZAP-Hosting 
 sidebar_label: Dashboard
 services:
   - gameserver-minetest

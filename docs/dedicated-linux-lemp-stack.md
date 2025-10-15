@@ -1,7 +1,7 @@
 ---
 id: dedicated-linux-lemp-stack
 title: "Dedicated Server: Setup LEMP stack - Linux, Nginx, MySQL, PHP"
-description: Information on how to setup a LEMP (Linux, Nginx, MySQL, PHP) stack on your Linux Dedicated Server from ZAP-Hosting - ZAP-Hosting.com documentation
+description: Information on how to setup a LEMP (Linux, Nginx, MySQL, PHP) stack on your Linux Dedicated Server from ZAP-Hosting 
 sidebar_label: Web LEMP stack
 services:
   - dedicated

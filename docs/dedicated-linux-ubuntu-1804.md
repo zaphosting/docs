@@ -1,7 +1,7 @@
 ---
 id: dedicated-linux-ubuntu-1804
 title: "Dedicated Server: Installation of Ubuntu 18.04"
-description: Information about installing the Ubuntu 18.04 operating system on your dedicated server from ZAP-Hosting - ZAP-Hosting.com documentation
+description: Information about installing the Ubuntu 18.04 operating system on your dedicated server from ZAP-Hosting 
 sidebar_label: Ubuntu 18.04
 services:
   - dedicated

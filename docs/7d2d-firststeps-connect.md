@@ -1,7 +1,7 @@
 ---
 id: 7d2d-firststeps-connect
 title: "7 Days To Die: Connect to the server"
-description: Information about various ways on how to connect to your 7 Days To Die server from ZAP-Hosting - ZAP-Hosting.com Documentation
+description: Information about various ways on how to connect to your 7 Days To Die server from ZAP-Hosting 
 sidebar_label: Connect to the server
 services:
   - gameserver-7d2d

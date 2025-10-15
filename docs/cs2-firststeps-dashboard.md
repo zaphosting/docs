@@ -1,7 +1,7 @@
 ---
 id: cs2-firststeps-dashboard
 title: "Counter-Strike 2: Dashboard Overview"
-description: Information about the dashboard of an CS2 server from ZAP-Hosting - ZAP-Hosting.com documentation
+description: Information about the dashboard of an CS2 server from ZAP-Hosting 
 sidebar_label: Dashboard
 services:
   - gameserver-cs2

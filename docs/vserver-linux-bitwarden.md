@@ -1,7 +1,7 @@
 ---
 id: vserver-linux-bitwarden
 title: "VPS: Setup Bitwarden on Linux"
-description: Information on how to setup Bitwarden on your Linux VPS from ZAP-Hosting - ZAP-Hosting.com documentation
+description: Information on how to setup Bitwarden on your Linux VPS from ZAP-Hosting 
 sidebar_label: Install Bitwarden
 services:
   - vserver

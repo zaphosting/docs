@@ -1,7 +1,7 @@
 ---
 id: redm-txadmin-discord-bot
 title: "RedM: txAdmin Discord Bot"
-description: Information on how to set up the Discord bot for a RedM txAdmin Server from ZAP-Hosting - ZAP-Hosting.com documentation
+description: Information on how to set up the Discord bot for a RedM txAdmin Server from ZAP-Hosting 
 sidebar_label: txAdmin Discord Bot
 services:
   - gameserver-redm

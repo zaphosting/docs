@@ -1,7 +1,7 @@
 ---
 id: arma3-missionfile
 title: "Arma 3: Upload your own mission file"
-description: Information on how to add your own mission file to your Arma 3 server from ZAP-Hosting - ZAP-Hosting.com documentation
+description: Information on how to add your own mission file to your Arma 3 server from ZAP-Hosting 
 sidebar_label: Upload your own mission file
 services:
   - gameserver-arma3

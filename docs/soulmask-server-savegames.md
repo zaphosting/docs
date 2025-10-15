@@ -1,7 +1,7 @@
 ---
 id: soulmask-server-savegames
 title: "Soulmask: Managing Soulmask Savegames"
-description: Information on how to manage savegames on your Soulmask server from ZAP-Hosting - ZAP-Hosting.com Documentation
+description: Information on how to manage savegames on your Soulmask server from ZAP-Hosting 
 sidebar_label: Manage Savegames
 services:
   - gameserver-soulmask

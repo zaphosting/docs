@@ -1,7 +1,7 @@
 ---
 id: vserver-linux-proxy
 title: "VPS: Setup a Reverse Proxy with nginx on Linux"
-description: Information on how to setup a Reverse Proxy on your Linux VPS from ZAP-Hosting - ZAP-Hosting.com documentation
+description: Information on how to setup a Reverse Proxy on your Linux VPS from ZAP-Hosting 
 sidebar_label: Reverse Proxy
 services:
   - vserver

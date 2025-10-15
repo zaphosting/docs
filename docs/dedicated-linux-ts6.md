@@ -1,7 +1,7 @@
 ---
 id: dedicated-linux-ts6
 title: "Dedicated Server: Setup Teamspeak 6 Server on your Linux Dedicated Server"
-description: Information on how to setup Teamspeak 6 Serveron your Linux Dedicated Server from ZAP-Hosting - ZAP-Hosting.com documentation
+description: Information on how to setup Teamspeak 6 Serveron your Linux Dedicated Server from ZAP-Hosting 
 sidebar_label: Install Teamspeak 6 Server
 services:
   - dedicated

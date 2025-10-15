@@ -1,7 +1,7 @@
 ---
 id: ironarmada-firststeps-connect
 title: "Iron Armada: Connect to the server"
-description: Information about various ways on how to connect to your Iron Armada server from ZAP-Hosting - ZAP-Hosting.com Documentation
+description: Information about various ways on how to connect to your Iron Armada server from ZAP-Hosting 
 sidebar_label: Connect to the server
 services:
   - gameserver-ironarmada

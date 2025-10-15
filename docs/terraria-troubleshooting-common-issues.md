@@ -1,7 +1,7 @@
 ---
 id: terraria-troubleshooting-common-issues
 title: "Terraria: Common issues"
-description: "Information on how to resolve common issues on a Terraria server from ZAP-Hosting - ZAP-Hosting.com documentation"
+description: "Information on how to resolve common issues on a Terraria server from ZAP-Hosting "
 sidebar_label: Common issues
 services:
   - gameserver-terraria

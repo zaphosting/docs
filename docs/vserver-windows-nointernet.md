@@ -1,7 +1,7 @@
 ---
 id: vserver-windows-nointernet
 title: "VPS: Troubleshoot No Internet"
-description: Information on how to troubleshoot and resolve network and internet issues on Windows VPS from ZAP-Hosting - ZAP-Hosting.com documentation
+description: Information on how to troubleshoot and resolve network and internet issues on Windows VPS from ZAP-Hosting 
 sidebar_label: Troubleshoot No Internet
 services:
   - vserver

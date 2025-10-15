@@ -1,7 +1,7 @@
 ---
 id: killingfloor2-firststeps-dashboard
 title: "Killing Floor 2: Dashboard overview"
-description: Information about the dashboard of an Killing Floor 2server from ZAP-Hosting - ZAP-Hosting.com Documentation
+description: Information about the dashboard of an Killing Floor 2server from ZAP-Hosting 
 sidebar_label: Dashboard
 services:
   - gameserver-lastoasis-killingfloor2

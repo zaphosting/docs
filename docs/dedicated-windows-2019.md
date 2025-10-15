@@ -1,7 +1,7 @@
 ---
 id: dedicated-windows-2019
 title: "Dedicated Server: Installation of Windows Server 2019"
-description: Information on how to install the Windows Server 2019 operating system on your dedicated server from ZAP-Hosting - ZAP-Hosting.com documentation
+description: Information on how to install the Windows Server 2019 operating system on your dedicated server from ZAP-Hosting 
 sidebar_label: Windows Server 2019
 services:
   - dedicated

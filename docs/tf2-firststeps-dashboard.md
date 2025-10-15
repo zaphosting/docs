@@ -1,7 +1,7 @@
 ---
 id: tf2-firststeps-dashboard
 title: "Team Fortress 2: Dashboard overview"
-description: Information about the dashboard of an Team Fortress 2 server from ZAP-Hosting - ZAP-Hosting.com Documentation
+description: Information about the dashboard of an Team Fortress 2 server from ZAP-Hosting 
 sidebar_label: Dashboard
 services:
   - gameserver-tf2

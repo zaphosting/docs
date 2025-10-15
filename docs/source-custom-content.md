@@ -1,7 +1,7 @@
 ---
 id: source-custom-content
 title: Installing custom content and mods on game servers
-description: Information on how to install custom content and mods on your Source game server (e.g. CSS or Garry's Mod) from ZAP-Hosting - ZAP-Hosting.com documentation
+description: Information on how to install custom content and mods on your Source game server (e.g. CSS or Garry's Mod) from ZAP-Hosting 
 sidebar_label: Custom Content
 services:
   - gameserver

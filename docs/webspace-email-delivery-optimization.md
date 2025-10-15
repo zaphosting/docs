@@ -1,7 +1,7 @@
 ---
 id: webspace-email-delivery-optimization
 title: "Webspace: Optimizing the delivery of e-mails"
-description: Information on improving the delivery of e-mails with a web space from ZAP-Hosting - ZAP-hosting.com Documentation
+description: Information on improving the delivery of e-mails with a web space from ZAP-Hosting 
 sidebar_label: Delivery optimization
 services:
   - webspace

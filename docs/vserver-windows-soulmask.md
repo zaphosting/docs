@@ -1,7 +1,7 @@
 ---
 id: vserver-windows-soulmask
 title: "VPS: Soulmask Dedicated Server Windows Setup"
-description: Information about setting up a Soulmask Dedicated Server on a Windows VPS from ZAP-Hosting - ZAP-Hosting.com documentation
+description: Information about setting up a Soulmask Dedicated Server on a Windows VPS from ZAP-Hosting 
 sidebar_label: Soulmask
 services:
   - vserver

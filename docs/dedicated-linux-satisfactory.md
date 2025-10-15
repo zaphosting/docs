@@ -1,7 +1,7 @@
 ---
 id: dedicated-linux-satisfactory
 title: "Dedicated Server: Satisfactory Dedicated Server Linux Setup"
-description: Information about setting up an Satisfactory Dedicated Server on a Linux Dedicated Server from ZAP-Hosting - ZAP-Hosting.com documentation
+description: Information about setting up an Satisfactory Dedicated Server on a Linux Dedicated Server from ZAP-Hosting 
 sidebar_label: Satisfactory
 services:
   - dedicated

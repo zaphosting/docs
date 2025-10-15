@@ -1,7 +1,7 @@
 ---
 id: csgo-configuration
 title: "CSGO: Server configuration"
-description: Information on the settings and configuration options of your CS GO server from ZAP-Hosting - ZAP-Hosting.com documentation
+description: Information on the settings and configuration options of your CS GO server from ZAP-Hosting 
 sidebar_label: Server Configration
 services:
   - gameserver

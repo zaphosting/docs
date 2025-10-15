@@ -1,7 +1,7 @@
 ---
 id: vserver-windows-fivem
 title: "VPS: FiveM Dedicated Server Setup"
-description: Information on how to set up a FiveM Dedicated Server on a Windows VPS from ZAP-Hosting - ZAP-Hosting.com Documentation
+description: Information on how to set up a FiveM Dedicated Server on a Windows VPS from ZAP-Hosting 
 sidebar_label: FiveM
 services:
   - vserver

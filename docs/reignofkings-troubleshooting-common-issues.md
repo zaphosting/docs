@@ -1,7 +1,7 @@
 ---
 id: reignofkings-troubleshooting-common-issues
 title: "Reign of Kings: Common issues"
-description: "Information on how to resolve common issues on a Reign of Kings server from ZAP-Hosting - ZAP-Hosting.com documentation"
+description: "Information on how to resolve common issues on a Reign of Kings server from ZAP-Hosting "
 sidebar_label: Common issues
 services:
   - gameserver-reignofkings

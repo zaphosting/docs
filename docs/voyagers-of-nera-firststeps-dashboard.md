@@ -1,7 +1,7 @@
 ---
 id: voyagers-of-nera-firststeps-dashboard
 title: "Voyagers of Nera: Dashboard Overview"
-description: Information about the dashboard of an Voyagers of Nera Vanilla server from ZAP-Hosting - ZAP-Hosting.com Documentation
+description: Information about the dashboard of an Voyagers of Nera Vanilla server from ZAP-Hosting 
 sidebar_label: Dashboard
 services:
   - gameserver-voyagers-of-nera

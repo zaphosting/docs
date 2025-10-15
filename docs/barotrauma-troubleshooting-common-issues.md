@@ -1,7 +1,7 @@
 ---
 id: barotrauma-troubleshooting-common-issues
 title: "Barotrauma: Common issues"
-description: "Information on how to resolve common issues on a Barotrauma server from ZAP-Hosting - ZAP-Hosting.com documentation"
+description: "Information on how to resolve common issues on a Barotrauma server from ZAP-Hosting "
 sidebar_label: Common issues
 services:
   - gameserver-barotrauma

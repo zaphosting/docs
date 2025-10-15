@@ -1,7 +1,7 @@
 ---
 id: dedicated-linux-cs16
 title: "Dedicated Server: Counter-Strike 1.6 Dedicated Server Linux Setup"
-description: "Information about setting up an Counter-Strike 1.6 Dedicated Server on a Linux VPS from ZAP-Hosting - ZAP-Hosting.com documentation"
+description: "Information about setting up an Counter-Strike 1.6 Dedicated Server on a Linux VPS from ZAP-Hosting "
 sidebar_label: "Counter-Strike 1.6"
 services:
   - vserver

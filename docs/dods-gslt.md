@@ -1,7 +1,7 @@
 ---
 id: dods-gslt
 title: "Day of Defeat: Source: Create a GSLT (Steam Game Server Login Token)"
-description: "Information about the creation and use of GSLT for Day of Defeat: Source server from ZAP-Hosting - ZAP-Hosting.com documentation"
+description: "Information about the creation and use of GSLT for Day of Defeat: Source server from ZAP-Hosting "
 sidebar_label: Create GSLT
 services:
   - gameserver-dods

@@ -1,7 +1,7 @@
 ---
 id: vserver-network-analysis-winmtr
 title: "VPS: Identifying network issues with WinMTR/MTR"
-description: Information on how to perform a network analysis to identify network problems - ZAP-Hosting.com documentation
+description: Information on how to perform a network analysis to identify network problems 
 sidebar_label: Network issues
 services:
   - vserver

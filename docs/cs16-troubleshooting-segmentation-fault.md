@@ -1,7 +1,7 @@
 ---
 id: cs16-troubleshooting-segmentation-fault
 title: "Counter-Strike: 1.6: Segmentation Fault"
-description: "Information on how to resolve the segmentation fault error on a Counter-Strike: 1.6 server from ZAP-Hosting - ZAP-Hosting.com documentation"
+description: "Information on how to resolve the segmentation fault error on a Counter-Strike: 1.6 server from ZAP-Hosting "
 sidebar_label: Segmentation Fault
 services:
   - gameserver-cs16

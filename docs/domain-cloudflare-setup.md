@@ -1,7 +1,7 @@
 ---
 id: domain-cloudflare-setup
 title: "Domain: Setting up domain with Cloudflare"
-description: Information about setting up your domain from ZAP-Hosting to use it with Cloudflare - ZAP-Hosting.com documentation
+description: Information about setting up your domain from ZAP-Hosting to use it with Cloudflare 
 sidebar_label: Cloudflare setup
 services:
   - domain

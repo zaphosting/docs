@@ -1,7 +1,7 @@
 ---
 id: dedicated-linux-ubuntu-2004
 title: "Dedicated Server: Installation of Ubuntu 20.04"
-description: Information about installing the Ubuntu 20.04 operating system on your dedicated server from ZAP-Hosting - ZAP-Hosting.com documentation
+description: Information about installing the Ubuntu 20.04 operating system on your dedicated server from ZAP-Hosting 
 sidebar_label: Ubuntu 20.04
 services:
   - dedicated

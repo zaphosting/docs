@@ -1,7 +1,7 @@
 ---
 id: longvinter-troubleshooting-common-issues
 title: "Longvinter: Common issues"
-description: "Information on how to resolve common issues on a Longvinter server from ZAP-Hosting - ZAP-Hosting.com documentation"
+description: "Information on how to resolve common issues on a Longvinter server from ZAP-Hosting "
 sidebar_label: Common issues
 services:
   - gameserver-longvinter

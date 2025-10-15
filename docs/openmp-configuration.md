@@ -1,7 +1,7 @@
 ---
 id: openmp-configuration
 title: "Open.mp: Open.mp Server Configuration"
-description: Information about configuring an Open.mp game server from ZAP-Hosting - ZAP-Hosting.com documentation
+description: Information about configuring an Open.mp game server from ZAP-Hosting 
 sidebar_label: Server Configuration
 services:
   - gameserver-openmp

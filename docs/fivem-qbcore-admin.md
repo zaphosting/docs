@@ -1,7 +1,7 @@
 ---
 id: fivem-qbcore-admin
 title: "FiveM: Become admin using QBCore"
-description: Information on how to become admin using QBCore on your FiveM server - ZAP-Hosting.com documentation
+description: Information on how to become admin using QBCore on your FiveM server 
 sidebar_label: Become admin
 services:
   - gameserver-fivem

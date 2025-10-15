@@ -1,7 +1,7 @@
 ---
 id: webspace-backups
 title: "Webspace: Create and manage Backups"
-description: Information on how to create a backup of your webspace from ZAP-Hosting - ZAP-Hosting.com Documentation
+description: Information on how to create a backup of your webspace from ZAP-Hosting 
 sidebar_label: Backups
 services:
   - webspace

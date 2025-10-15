@@ -1,7 +1,7 @@
 ---
 id: abuse-report
 title: "Report abuse and illegal content - Everything you need to know!"
-description: "How to report abuse and illegal content to ZAP-Hosting - ZAP-Hosting.com documentation"
+description: "How to report abuse and illegal content to ZAP-Hosting "
 sidebar_label: Report Abuse
 ---
 

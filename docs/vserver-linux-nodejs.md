@@ -1,7 +1,7 @@
 ---
 id: vserver-linux-nodejs
 title: "VPS: Setup Node.js on Linux"
-description: "Information on how to setup Node.js on your Linux VPS from ZAP-Hosting - ZAP-Hosting.com documentation"
+description: "Information on how to setup Node.js on your Linux VPS from ZAP-Hosting "
 sidebar_label: Install Node.js
 services:
   - vserver

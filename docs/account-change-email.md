@@ -1,7 +1,7 @@
 ---
 id: account-change-email
 title: Change Your E-Mail Address
-description: Instructions on how to change e-mail address linked to your ZAP-Hosting account - ZAP-Hosting documentation
+description: Instructions on how to change e-mail address linked to your ZAP-Hosting account 
 sidebar_label: Change E-Mail
 ---
 

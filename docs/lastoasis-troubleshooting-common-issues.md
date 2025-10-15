@@ -1,7 +1,7 @@
 ---
 id: lastoasis-troubleshooting-common-issues
 title: "Last Oasis: Common issues"
-description: "Information on how to resolve common issues on a Last Oasis server from ZAP-Hosting - ZAP-Hosting.com documentation"
+description: "Information on how to resolve common issues on a Last Oasis server from ZAP-Hosting "
 sidebar_label: Common issues
 services:
   - gameserver-lastoasis

@@ -1,7 +1,7 @@
 ---
 id: lastoasis-createrealm
 title: "Last Oasis: Create a new Realm"
-description: Information about creating a new realm for your Last Oasis server from ZAP-Hosting - ZAP-Hosting.com documentation
+description: Information about creating a new realm for your Last Oasis server from ZAP-Hosting 
 sidebar_label: Create Realm
 services:
   - gameserver-lastoasis

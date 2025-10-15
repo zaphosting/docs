@@ -1,7 +1,7 @@
 ---
 id: holdfast-troubleshooting-common-issues
 title: "Holdfast: Nations At War: Common issues"
-description: "Information on how to resolve common issues on a Holdfast: Nations At War server from ZAP-Hosting - ZAP-Hosting.com documentation"
+description: "Information on how to resolve common issues on a Holdfast: Nations At War server from ZAP-Hosting "
 sidebar_label: Common issues
 services:
   - gameserver-holdfast

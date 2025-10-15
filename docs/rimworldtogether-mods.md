@@ -1,7 +1,7 @@
 ---
 id: rimworldtogether-mods
 title: "RimWorld Together: Installing mods"
-description: Information on how to install mods on your RimWorld Together server from ZAP-Hosting - ZAP-Hosting.com documentation
+description: Information on how to install mods on your RimWorld Together server from ZAP-Hosting 
 sidebar_label: Install Mods
 services:
   - gameserver

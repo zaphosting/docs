@@ -1,7 +1,7 @@
 ---
 id: barotrauma-firststeps-dashboard
 title: "Barotrauma: Dashboard Overview"
-description: Information about the dashboard of an Barotrauma server from ZAP-Hosting - ZAP-Hosting.com Documentation
+description: Information about the dashboard of an Barotrauma server from ZAP-Hosting 
 sidebar_label: Dashboard
 services:
   - gameserver-barotrauma

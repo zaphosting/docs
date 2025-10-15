@@ -1,7 +1,7 @@
 ---
 id: webspace-introduction
 title: "Webspace: Introduction"
-description: Introduction and information about the Webspace product from ZAP-Hosting - ZAP-Hosting.com Documentation
+description: Introduction and information about the Webspace product from ZAP-Hosting 
 sidebar_label: Introduction
 services:
   - webspace

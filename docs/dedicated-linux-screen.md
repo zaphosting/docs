@@ -1,7 +1,7 @@
 ---
 id: dedicated-linux-screen
 title: "Dedicated Server: Installation of Screen"
-description: Information on how to install screen on your Linux Dedicated Server from ZAP-Hosting - ZAP-Hosting.com documentation
+description: Information on how to install screen on your Linux Dedicated Server from ZAP-Hosting 
 sidebar_label: Install Screen
 services:
   - dedicated

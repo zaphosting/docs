@@ -1,7 +1,7 @@
 ---
 id: enshrouded-firststeps-dashboard
 title: "Enshrouded: Dashboard Overview"
-description: Information about the dashboard of a Enshrouded server from ZAP-Hosting - ZAP-Hosting.com documentation
+description: Information about the dashboard of a Enshrouded server from ZAP-Hosting 
 sidebar_label: Dashboard
 services:
   - gameserver-enshrouded

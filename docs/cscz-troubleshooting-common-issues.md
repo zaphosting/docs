@@ -1,7 +1,7 @@
 ---
 id: cscz-troubleshooting-common-issues
 title: "Counter-Strike: Condition Zero: Common issues"
-description: "Information on how to resolve common issues on a Counter-Strike: Condition Zero server from ZAP-Hosting - ZAP-Hosting.com documentation"
+description: "Information on how to resolve common issues on a Counter-Strike: Condition Zero server from ZAP-Hosting "
 sidebar_label: Common issues
 services:
   - gameserver-cscz

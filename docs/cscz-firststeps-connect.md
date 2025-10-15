@@ -1,7 +1,7 @@
 ---
 id: cscz-firststeps-connect
 title: "Counter-Strike: Condition Zero: Connect to the server"
-description: "Information about various ways to connect to your Counter-Strike 1.6 from ZAP-Hosting - ZAP-Hosting.com Documentation"
+description: "Information about various ways to connect to your Counter-Strike 1.6 from ZAP-Hosting "
 sidebar_label: Connect to the server
 services:
   - gameserver-cscz

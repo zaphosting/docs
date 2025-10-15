@@ -1,7 +1,7 @@
 ---
 id: vserver-windows-ragemp
 title: "VPS: RageMP Dedicated Server Windows Setup"
-description: Information about setting up an RageMP Dedicated Server on a Windows VPS from ZAP-Hosting - ZAP-Hosting.com documentation
+description: Information about setting up an RageMP Dedicated Server on a Windows VPS from ZAP-Hosting 
 sidebar_label: RageMP
 services:
   - vserver

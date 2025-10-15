@@ -1,7 +1,7 @@
 ---
 id: vserver-linux-notepad++
 title: "VPS: Setup Notepad++ on Linux"
-description: "Information on how to setup Notepad++ on your Linux VPS from ZAP-Hosting - ZAP-Hosting.com documentation"
+description: "Information on how to setup Notepad++ on your Linux VPS from ZAP-Hosting "
 sidebar_label: Install Notepad++
 services:
 - vserver

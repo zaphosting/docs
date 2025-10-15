@@ -1,7 +1,7 @@
 ---
 id: craftopia-firststeps-connect
 title: "Craftopia: Connect to the server"
-description: Information about various ways on how to connect to your Craftopia server from ZAP-Hosting - ZAP-Hosting.com Documentation
+description: Information about various ways on how to connect to your Craftopia server from ZAP-Hosting 
 sidebar_label: Connect to the server
 services:
   - gameserver-craftopia

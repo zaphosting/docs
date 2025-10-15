@@ -1,7 +1,7 @@
 ---
 id: abioticfactor-server-savegames
 title: "Abiotic Factor: Managing Abiotic Factor Savegames"
-description: Information on how to manage savegames on your Abiotic Factor server from ZAP-Hosting - ZAP-Hosting.com Documentation
+description: Information on how to manage savegames on your Abiotic Factor server from ZAP-Hosting 
 sidebar_label: Manage Savegames
 services:
   - gameserver-abioticfactor

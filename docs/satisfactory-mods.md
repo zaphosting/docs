@@ -1,7 +1,7 @@
 ---
 id: satisfactory-mods
 title: "Satisfactory: Installing Mods to your Satisfactory server"
-description: Information on how to install mods to your Satisfactory server and game client from ZAP-Hosting - ZAP-Hosting.com Documentation
+description: Information on how to install mods to your Satisfactory server and game client from ZAP-Hosting 
 sidebar_label: Install Mods
 services:
   - gameserver-satisfactory

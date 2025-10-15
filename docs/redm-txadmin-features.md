@@ -1,7 +1,7 @@
 ---
 id: redm-txadmin-features
 title: "RedM: txAdmin Interface"
-description: Overview of TxAdmin interface configuration options for RedM game servers from ZAP-Hosting - ZAP-Hosting.com documentation
+description: Overview of TxAdmin interface configuration options for RedM game servers from ZAP-Hosting 
 sidebar_label: txAdmin Interface
 services:
   - gameserver-redm

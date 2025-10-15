@@ -1,7 +1,7 @@
 ---
 id: vserver-linux-sshkey
 title: "VPS: Generating and using SSH keys for Linux servers"
-description: Information on how to generate an SSH key for your Linux VPS from ZAP-Hosting and how to use the key - ZAP-Hosting.com documentation
+description: Information on how to generate an SSH key for your Linux VPS from ZAP-Hosting and how to use the key 
 sidebar_label: SSH Key
 services:
   - vserver

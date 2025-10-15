@@ -1,7 +1,7 @@
 ---
 id: vserver-linux-plausible
 title: "VPS: Setup Plausible on OS"
-description: Information on how to setup Plausible on your Linux VPS from ZAP-Hosting - ZAP-Hosting.com documentation
+description: Information on how to setup Plausible on your Linux VPS from ZAP-Hosting 
 sidebar_label: Install Plausible
 services:
   - vserver

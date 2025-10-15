@@ -1,7 +1,7 @@
 ---
 id: vserver-windows-hl2
 title: "VPS: Half-Life 2 Dedicated Server Windows Setup"
-description: "Information about setting up a Half-Life 2 Dedicated Server on a Windows VPS from ZAP-Hosting - ZAP-Hosting.com documentation"
+description: "Information about setting up a Half-Life 2 Dedicated Server on a Windows VPS from ZAP-Hosting "
 sidebar_label: "Half-Life 2"
 services:
   - vserver

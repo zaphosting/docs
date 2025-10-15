@@ -1,7 +1,7 @@
 ---
 id: vserver-linux-ssl
 title: "VPS: Create SSL certificate (Let's Encrypt) for Linux server"
-description: Information on how to create an SSL certificate with Let's Encrypt for your Linux VPS from ZAP-Hosting - ZAP-Hosting.com documentation
+description: Information on how to create an SSL certificate with Let's Encrypt for your Linux VPS from ZAP-Hosting 
 sidebar_label: Install SSL Certificate (Let's Encrypt)
 services:
   - vserver

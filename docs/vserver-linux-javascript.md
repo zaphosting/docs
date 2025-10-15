@@ -1,7 +1,7 @@
 ---
 id: vserver-linux-javascript
 title: 'VPS: Installation of JavaScript'
-description: Information on how to install and run JavaScript on your Linux server from ZAP-Hosting.com - ZAP-Hosting.com documentation
+description: Information on how to install and run JavaScript on your Linux server from ZAP-Hosting.com 
 sidebar_label: Install JavaScript
 services:
   - vserver

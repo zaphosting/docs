@@ -1,7 +1,7 @@
 ---
 id: source-gsltoken
 title: Using game server login tokens
-description: Information on how to create and use a login token for your Source game server from ZAP-Hosting.com - ZAP-Hosting.com documentation
+description: Information on how to create and use a login token for your Source game server from ZAP-Hosting.com 
 sidebar_label: GSL-Token
 services:
   - gameserver

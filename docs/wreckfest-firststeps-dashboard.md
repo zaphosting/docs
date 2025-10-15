@@ -1,7 +1,7 @@
 ---
 id: wreckfest-firststeps-dashboard
 title: "Wreckfest: Dashboard Overview"
-description: Information about the dashboard of a Wreckfest Server from ZAP-Hosting - ZAP-Hosting.com Documentation
+description: Information about the dashboard of a Wreckfest Server from ZAP-Hosting 
 sidebar_label: Dashboard
 services:
   - gameserver-wreckfest

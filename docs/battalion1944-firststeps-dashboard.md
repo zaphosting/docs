@@ -1,7 +1,7 @@
 ---
 id: battalion1944-firststeps-dashboard
 title: "Battalion 1944: Dashboard overview"
-description: Information about the dashboard of an Battalion 1944 server from ZAP-Hosting - ZAP-Hosting.com Documentation
+description: Information about the dashboard of an Battalion 1944 server from ZAP-Hosting 
 sidebar_label: Dashboard
 services:
   - gameserver-beammp-battalion1944

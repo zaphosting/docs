@@ -1,7 +1,7 @@
 ---
 id: css-plugins
 title: "Counter-Strike: Source: Install plugins on your own server"
-description: "Information on how to install plugins on your Counter-Strike: Source server from ZAP-Hosting - ZAP-Hosting.com documentation"
+description: "Information on how to install plugins on your Counter-Strike: Source server from ZAP-Hosting "
 sidebar_label: Install Plugins
 services:
   - gameserver-css

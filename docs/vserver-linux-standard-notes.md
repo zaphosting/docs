@@ -1,7 +1,7 @@
 ---
 id: vserver-linux-standard-notes
 title: "VPS: Setup Standard Notes on Linux"
-description: Information on how to setup Standard Notes on your Linux VPS from ZAP-Hosting - ZAP-Hosting.com documentation
+description: Information on how to setup Standard Notes on your Linux VPS from ZAP-Hosting 
 sidebar_label: Install Standard Notes
 services:
   - vserver

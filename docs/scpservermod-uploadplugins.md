@@ -1,7 +1,7 @@
 ---
 id: scpservermod-uploadplugins
 title: "SCP Secret Laboratory: Installing plugins on server"
-description: Information on how to install plugins on your SCP ServerMod server from ZAP-Hosting.com - ZAP-Hosting.com documentation
+description: Information on how to install plugins on your SCP ServerMod server from ZAP-Hosting.com 
 sidebar_label: Install Plugins
 services:
   - gameserver-scp

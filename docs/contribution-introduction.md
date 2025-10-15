@@ -1,7 +1,7 @@
 ---
 id: contribution-introduction
 title: ZAP-Hosting Contribution Program
-description: Information on the ZAP-Hosting Contribution Program - ZAP-Hosting.com documentation
+description: Information on the ZAP-Hosting Contribution Program 
 sidebar_label: Introduction
 ---
 

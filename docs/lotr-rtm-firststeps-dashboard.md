@@ -1,7 +1,7 @@
 ---
 id: lotr-rtm-firststeps-dashboard
 title: "The Lord of the Rings: Return to Moria: Dashboard Overview"
-description: "Information about the dashboard of an The Lord of the Rings: Return to Moria Server from ZAP-Hosting - ZAP-Hosting.com Documentation"
+description: "Information about the dashboard of an The Lord of the Rings: Return to Moria Server from ZAP-Hosting "
 sidebar_label: Dashboard
 services:
   - gameserver-lotr-rtm

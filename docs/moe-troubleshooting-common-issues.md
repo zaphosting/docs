@@ -1,7 +1,7 @@
 ---
 id: moe-troubleshooting-common-issues
 title: "Myth of Empires: Common issues"
-description: "Information on how to resolve common issues on a Myth of Empires server from ZAP-Hosting - ZAP-Hosting.com documentation"
+description: "Information on how to resolve common issues on a Myth of Empires server from ZAP-Hosting "
 sidebar_label: Common issues
 services:
   - gameserver-moe

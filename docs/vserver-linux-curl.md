@@ -1,7 +1,7 @@
 ---
 id: vserver-linux-curl
 title: "VPS: Setup cURL on Linux"
-description: Information on how to setup cURL on your Linux VPS from ZAP-Hosting - ZAP-Hosting.com documentation
+description: Information on how to setup cURL on your Linux VPS from ZAP-Hosting 
 sidebar_label: Install cURL
 services:
   - vserver

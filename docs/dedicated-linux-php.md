@@ -1,7 +1,7 @@
 ---
 id: dedicated-linux-php
 title: 'Dedicated Server: Installation of PHP'
-description: Information on how to install and run PHP on your Linux Dedicated Server from ZAP-Hosting.com - ZAP-Hosting.com documentation
+description: Information on how to install and run PHP on your Linux Dedicated Server from ZAP-Hosting.com 
 sidebar_label: Install PHP
 services:
   - dedicated

@@ -1,7 +1,7 @@
 ---
 id: vserver-linux-screen
 title: "VPS: Installation of Screen"
-description: Information on how to install screen on your Linux VPS from ZAP-Hosting - ZAP-Hosting.com documentation
+description: Information on how to install screen on your Linux VPS from ZAP-Hosting 
 sidebar_label: Install Screen
 services:
   - vserver

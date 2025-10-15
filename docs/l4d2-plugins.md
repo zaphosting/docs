@@ -1,7 +1,7 @@
 ---
 id: l4d2-plugins
 title: "Left 4 Dead 2: Install plugins on your own server"
-description: "Information on how to install plugins on your Left 4 Dead 2 server from ZAP-Hosting - ZAP-Hosting.com documentation"
+description: "Information on how to install plugins on your Left 4 Dead 2 server from ZAP-Hosting "
 sidebar_label: Install Plugins
 services:
   - gameserver-l4d2

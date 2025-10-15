@@ -1,7 +1,7 @@
 ---
 id: dedicated-linux-create-gameservice
 title: "Dedicated Server: Setup your Dedicated Game Server as a Linux Service"
-description: Information about setting up your dedicated game server as a Linux Service on a Linux Dedicated Server from ZAP-Hosting - ZAP-Hosting.com documentation
+description: Information about setting up your dedicated game server as a Linux Service on a Linux Dedicated Server from ZAP-Hosting 
 sidebar_label: Setup Linux Service
 services:
   - dedicated

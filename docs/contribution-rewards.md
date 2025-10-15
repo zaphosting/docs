@@ -1,7 +1,7 @@
 ---
 id: contribution-rewards
 title: Contribution Rewards
-description: Information on rewards for the ZAP-Hosting docs contribution program - ZAP-Hosting.com documentation
+description: Information on rewards for the ZAP-Hosting docs contribution program 
 sidebar_label: Rewards
 ---
 

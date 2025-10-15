@@ -1,7 +1,7 @@
 ---
 id: gameserver-tebex
 title: 'Game server: Tebex monetization setup'
-description: Information on how to earn money with Tebex on your game server from ZAP-Hosting and how to set up Tebex on your server - ZAP-Hosting.com documentation
+description: Information on how to earn money with Tebex on your game server from ZAP-Hosting and how to set up Tebex on your server 
 sidebar_label: Tebex Monetization
 services:
   - gameserver

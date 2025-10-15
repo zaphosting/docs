@@ -1,7 +1,7 @@
 ---
 id: vserver-linux-security-tips
 title: "VPS: Linux Security Tips"
-description: Tips and advice on how to secure your Linux server - ZAP-Hosting.com documentation
+description: Tips and advice on how to secure your Linux server 
 sidebar_label: Security Tips
 services:
   - vserver

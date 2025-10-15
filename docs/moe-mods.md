@@ -1,7 +1,7 @@
 ---
 id: moe-mods
 title: "Myth of Empires: Installation of Mods"
-description: Information on installing mods on your Myth of Empires game server from ZAP-Hosting - ZAP-Hosting.com Documentation
+description: Information on installing mods on your Myth of Empires game server from ZAP-Hosting 
 sidebar_label: Install Mods
 services:
   - gameserver-moe

@@ -1,7 +1,7 @@
 ---
 id: assetto-competizione-troubleshooting-common-issues
 title: "Assetto Corsa Competizione: Common issues"
-description: "Information on how to resolve common issues on a Assetto Corsa Competizione server from ZAP-Hosting - ZAP-Hosting.com documentation"
+description: "Information on how to resolve common issues on a Assetto Corsa Competizione server from ZAP-Hosting "
 sidebar_label: Common issues
 services:
   - gameserver-assetto-competizione
