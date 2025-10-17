@@ -1,6 +1,6 @@
 {
   "service.vserver.title": {
-    "message": "vServer",
+    "message": "VPS / servidor virtual privado",
     "description": "Product name for the gameserver product"
   },
   "service.vserver.path": {
@@ -8,7 +8,7 @@
     "description": "URL path for the VPS product"
   },
   "service.dedicated.title": {
-    "message": "Dedicated Server",
+    "message": "servidor dedicado",
     "description": "Product name for the dedicated server product"
   },
   "service.dedicated.path": {
@@ -16,7 +16,7 @@
     "description": "URL path for the dedicated server product"
   },
   "service.domain.title": {
-    "message": "Domain",
+    "message": "domínio",
     "description": "Product name for the domain product"
   },
   "service.domain.path": {
@@ -24,7 +24,7 @@
     "description": "URL path for the domain product"
   },
   "service.webspace.title": {
-    "message": "Webspace",
+    "message": "espaço web",
     "description": "Product name for the webspace product"
   },
   "service.webspace.path": {
@@ -32,7 +32,7 @@
     "description": "URL path for the webspace product"
   },
   "service.voiceserver.title": {
-    "message": "Voiceserver",
+    "message": "servidor de voz",
     "description": "Product name for the voiceserver product"
   },
   "service.voiceserver.path": {
@@ -40,7 +40,7 @@
     "description": "URL path for the voiceserver product"
   },
   "service.voicebot.title": {
-    "message": "Voicebot",
+    "message": "bot de voz",
     "description": "Product name for the voicebot product"
   },
   "service.voicebot.path": {
@@ -68,7 +68,7 @@
     "description": "Product name for the storage product"
   },
   "service.gameserver.title": {
-    "message": "Gameserver",
+    "message": "servidor de jogos",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver.path": {

@@ -1,6 +1,6 @@
 {
   "service.vserver.title": {
-    "message": "vServer",
+    "message": "VPS",
     "description": "Product name for the gameserver product"
   },
   "service.vserver.path": {
@@ -68,7 +68,7 @@
     "description": "Product name for the storage product"
   },
   "service.gameserver.title": {
-    "message": "Gameserver",
+    "message": "Cloud-Gameserver",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver.path": {

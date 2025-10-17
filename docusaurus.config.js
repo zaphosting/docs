@@ -42,17 +42,46 @@ const config = {
   // to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: 'en',
-    locales: ['en', 'de'],
+    locales: ['en', 'de', 'es', 'fr', 'ar', 'pt', 'th', 'pl', 'ja'],
     localeConfigs: {
-      en: {
-        label: 'EN',
-        htmlLang: 'en-US',
-      },
-      de: {
-        label: 'DE',
-        htmlLang: 'de-DE',
-      },
+    ar: {
+      direction: 'rtl',
+      label: 'العربية',
+      htmlLang: 'ar',
     },
+    de: {
+      label: 'Deutsch',
+      htmlLang: 'de-DE',
+    },
+    en: {
+      label: 'English',
+      htmlLang: 'en-US',
+    },
+    es: {
+      label: 'Español',
+      htmlLang: 'es-ES',
+    },
+    fr: {
+      label: 'Français',
+      htmlLang: 'fr-FR',
+    },
+    ja: {
+      label: '日本語',
+      htmlLang: 'ja-JP',
+    },
+    pl: {
+      label: 'Polski',
+      htmlLang: 'pl-PL',
+    },
+    pt: {
+      label: 'Português',
+      htmlLang: 'pt-PT',
+    },
+    th: {
+      label: 'ไทย',
+      htmlLang: 'th-TH',
+    },
+  },    
   },
   plugins: [
     [
