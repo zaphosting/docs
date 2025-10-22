@@ -28,7 +28,7 @@
     "description": "Product name for the webspace product"
   },
   "service.webspace.path": {
-    "message": "{marketingSite}/{language}/webhosting-rent-a-webspace/",
+    "message": "{marketingSite}/{language}/webhosting-webspace-mieten/",
     "description": "URL path for the webspace product"
   },
   "service.voiceserver.title": {
@@ -44,11 +44,11 @@
     "description": "Product name for the voicebot product"
   },
   "service.voicebot.path": {
-    "message": "{marketingSite}/{language}/teamspeak-3-server-hosting/",
+    "message": "{marketingSite}/{language}/teamspeak-3-server-mieten/",
     "description": "URL path for the voicebot product"
   },
   "service.storage.title": {
-    "message": "Premium Storage",
+    "message": "Premium-Speicher",
     "description": "Product name for the storage product"
   },
   "service.storage.path": {
@@ -56,7 +56,7 @@
     "description": "URL path for the storage product"
   },
   "service.fivemupvotes.title": {
-    "message": "Discord Bot",
+    "message": "Discord-Bot",
     "description": "Product name for the storage product"
   },
   "service.fivemupvotes.path": {
@@ -112,7 +112,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-animalia-survival.path": {
-    "message": "{marketingSite}/{language}/animalia-survival-server-hosting/",
+    "message": "{marketingSite}/{language}/animalia-survival-server-mieten/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-argo.title": {
@@ -128,7 +128,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-ark.path": {
-    "message": "{marketingSite}/{language}/ark-survival-evolved-server-hosting/",
+    "message": "{marketingSite}/{language}/ark-survival-evolved-server-mieten/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-arma3.title": {
@@ -144,7 +144,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-arma-reforger.path": {
-    "message": "{marketingSite}/{language}/arma-reforger-server-hosting/",
+    "message": "{marketingSite}/{language}/arma-reforger-gameserver-server-mieten/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-assettocorsa.title": {
@@ -152,7 +152,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-assettocorsa.path": {
-    "message": "{marketingSite}/{language}/assetto-corsa-server-hosting/",
+    "message": "{marketingSite}/{language}/assetto-corsa-server-mieten/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-assetto-competizione.title": {
@@ -160,7 +160,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-assetto-competizione.path": {
-    "message": "{marketingSite}/{language}/assetto-corsa-competizione-server-hosting/",
+    "message": "{marketingSite}/{language}/assetto-corsa-competizione-gameserver-server-mieten/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-astrocolony.title": {
@@ -216,7 +216,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-battalion1944.path": {
-    "message": "{marketingSite}/{language}/battalion-1944-server-hosting/",
+    "message": "{marketingSite}/{language}/battalion-1944-server-mieten/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-battlegrounds3.title": {
@@ -240,7 +240,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-bob.path": {
-    "message": "{marketingSite}/{language}/beasts-of-bermuda-server-hosting/",
+    "message": "{marketingSite}/{language}/beasts-of-bermuda-server-mieten/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-beyondthewire.title": {
@@ -248,7 +248,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-beyondthewire.path": {
-    "message": "{marketingSite}/{language}/beyond-the-wire-server-hosting/",
+    "message": "{marketingSite}/{language}/beyond-the-wire-server-mieten/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-brokeprotocol.title": {
@@ -256,7 +256,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-brokeprotocol.path": {
-    "message": "{marketingSite}/{language}/broke-protocol-server-hosting/",
+    "message": "{marketingSite}/{language}/broke-protocol-gameserver-server-mieten/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-citadel-forgedwithfire.title": {
@@ -320,7 +320,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-cs16.path": {
-    "message": "{marketingSite}/{language}/counter-strike-1-6-server-hosting/",
+    "message": "{marketingSite}/{language}/counter-strike-1-6-server-mieten/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-cs2.title": {
@@ -328,7 +328,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-cs2.path": {
-    "message": "{marketingSite}/{language}/counter-strike-2-server-hosting/",
+    "message": "{marketingSite}/{language}/counter-strike-2-server-mieten/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-css.title": {
@@ -344,7 +344,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-dayofinfamy.path": {
-    "message": "{marketingSite}/{language}/day-of-infamy-server-hosting/",
+    "message": "{marketingSite}/{language}/day-of-infamy-server-mieten/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-dayz.title": {
@@ -424,7 +424,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-ets2.path": {
-    "message": "{marketingSite}/{language}/euro-truck-simulator-2-server-hosting/",
+    "message": "{marketingSite}/{language}/euro-truck-simulator-2-server-mieten/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-factorio.title": {
@@ -464,7 +464,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-groundbranch.path": {
-    "message": "{marketingSite}/{language}/ground-branch-server-hosting/",
+    "message": "{marketingSite}/{language}/ground-branch-server-mieten/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-hl1.title": {
@@ -472,7 +472,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-hl1.path": {
-    "message": "{marketingSite}/{language}/half-life-1-server-hosting/",
+    "message": "{marketingSite}/{language}/half-life-1-server-mieten/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-hl2.title": {
@@ -488,7 +488,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-holdfast.path": {
-    "message": "{marketingSite}/{language}/holdfast-nations-at-war-server-hosting/",
+    "message": "{marketingSite}/{language}/holdfast-nations-at-war-server-mieten/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-humanitz.title": {
@@ -520,7 +520,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-insurgency.path": {
-    "message": "{marketingSite}/{language}/insurgency-sandstorm-server-hosting/",
+    "message": "{marketingSite}/{language}/insurgency-sandstorm-server-mieten/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-ironarmada.title": {
@@ -536,7 +536,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-jol.path": {
-    "message": "{marketingSite}/{language}/journey-of-life-server-hosting/",
+    "message": "{marketingSite}/{language}/journey-of-life-server-mieten/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-killingfloor2.title": {
@@ -544,7 +544,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-killingfloor2.path": {
-    "message": "{marketingSite}/{language}/killing-floor-2-server-hosting/",
+    "message": "{marketingSite}/{language}/killing-floor-2-server-mieten/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-lastoasis.title": {
@@ -608,7 +608,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-motortown.path": {
-    "message": "{marketingSite}/{language}/motor-town-behind-the-wheel-server-hosting/",
+    "message": "{marketingSite}/{language}/motor-town-behind-the-wheel-server-mieten/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-mountandblade.title": {
@@ -616,7 +616,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-mountandblade.path": {
-    "message": "{marketingSite}/{language}/mount-and-blade-server-hosting/",
+    "message": "{marketingSite}/{language}/mount-and-blade-server-mieten/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-mta.title": {
@@ -648,7 +648,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-nstp.path": {
-    "message": "{marketingSite}/{language}/never-split-the-party-server-hosting/",
+    "message": "{marketingSite}/{language}/never-split-the-party-server-mieten/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-nienix.title": {
@@ -664,7 +664,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-nmrih.path": {
-    "message": "{marketingSite}/{language}/no-more-room-in-hell-server-hosting/",
+    "message": "{marketingSite}/{language}/no-more-room-in-hell-server-mieten/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-noonesurvived.title": {
@@ -672,7 +672,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-noonesurvived.path": {
-    "message": "{marketingSite}/{language}/no-one-survived-server-hosting/",
+    "message": "{marketingSite}/{language}/niemand-hat-ueberlebt-server-mieten/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-ohol.title": {
@@ -680,7 +680,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-ohol.path": {
-    "message": "{marketingSite}/{language}/one-hour-one-life-server-hosting/",
+    "message": "{marketingSite}/{language}/one-hour-one-life-server-mieten/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-openmp.title": {
@@ -712,7 +712,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-ootow.path": {
-    "message": "{marketingSite}/{language}/outlaws-of-the-old-west-server-hosting/",
+    "message": "{marketingSite}/{language}/outlaws-of-the-old-west-server-mieten/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-palworld.title": {
@@ -728,7 +728,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-pathoftitans.path": {
-    "message": "{marketingSite}/{language}/path-of-titans-server-hosting/",
+    "message": "{marketingSite}/{language}/path-of-titans-server-mieten/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-pixark.title": {
@@ -768,7 +768,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-reignofkings.path": {
-    "message": "{marketingSite}/{language}/reign-of-kings-server-hosting/",
+    "message": "{marketingSite}/{language}/reign-of-kings-server-mieten/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-rimworldtogether.title": {
@@ -784,7 +784,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-risingstorm2.path": {
-    "message": "{marketingSite}/{language}/rising-storm-2-server-hosting/",
+    "message": "{marketingSite}/{language}/rising-storm-2-server-mieten/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-risingworld.title": {
@@ -792,7 +792,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-risingworld.path": {
-    "message": "{marketingSite}/{language}/rising-world-server-hosting/",
+    "message": "{marketingSite}/{language}/rising-world-server-mieten/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-riskofrain2.title": {
@@ -800,7 +800,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-riskofrain2.path": {
-    "message": "{marketingSite}/{language}/risk-of-rain-2-server-hosting/",
+    "message": "{marketingSite}/{language}/risk-of-rain-2-server-mieten/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-rust.title": {
@@ -816,7 +816,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-sanctuaryisland.path": {
-    "message": "{marketingSite}/{language}/sanctuary-island-server-hosting/",
+    "message": "{marketingSite}/{language}/sanctuary-island-server-mieten/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-satisfactory.title": {
@@ -848,7 +848,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-scp-escapetogether.path": {
-    "message": "{marketingSite}/{language}/scp-escape-together-server-hosting/",
+    "message": "{marketingSite}/{language}/scp-escape-together-server-mieten/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-scp.title": {
@@ -856,7 +856,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-scp.path": {
-    "message": "{marketingSite}/{language}/scp-secret-laboratory-server-hosting/",
+    "message": "{marketingSite}/{language}/scp-secret-laboratory-server-mieten/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-scum.title": {
@@ -880,7 +880,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-sonsoftheforest.path": {
-    "message": "{marketingSite}/{language}/sons-of-the-forest-server-hosting/",
+    "message": "{marketingSite}/{language}/sons-of-the-forest-server-mieten/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-soulmask.title": {
@@ -960,7 +960,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-tf2.path": {
-    "message": "{marketingSite}/{language}/team-fortress-2-server-hosting/",
+    "message": "{marketingSite}/{language}/team-fortress-2-server-mieten/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-teeworlds.title": {
@@ -988,7 +988,7 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-thebus.title": {
-    "message": "The Bus Gameserver",
+    "message": "Der Bus Gameserver",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-thebus.path": {
@@ -996,7 +996,7 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-thefront.title": {
-    "message": "The Front Gameserver",
+    "message": "Der Front Gameserver",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-thefront.path": {
@@ -1004,7 +1004,7 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-theisle.title": {
-    "message": "The Isle Gameserver",
+    "message": "Der Isle Gameserver",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-theisle.path": {
@@ -1016,7 +1016,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-lotr-rtm.path": {
-    "message": "{marketingSite}/{language}/lotr-return-to-moria-server-hosting/",
+    "message": "{marketingSite}/{language}/lotr-return-to-moria-server-mieten/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-unturned.title": {
@@ -1064,7 +1064,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-vintagestory.path": {
-    "message": "{marketingSite}/{language}/vintage-story-server-hosting/",
+    "message": "{marketingSite}/{language}/vintage-story-server-mieten/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-voyagers-of-nera.title": {
@@ -1072,7 +1072,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-voyagers-of-nera.path": {
-    "message": "{marketingSite}/{language}/voyagers-of-nera-server-hosting/",
+    "message": "{marketingSite}/{language}/voyagers-of-nera-server-mieten/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-wreckfest.title": {
@@ -1088,7 +1088,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-wreckfest2.path": {
-    "message": "{marketingSite}/{language}/wreckfest-2-server-hosting/",
+    "message": "{marketingSite}/{language}/wreckfest-2-server-mieten/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-wurmunlimited.title": {
@@ -1096,157 +1096,157 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-wurmunlimited.path": {
-    "message": "{marketingSite}/{language}/wurm-unlimited-server-hosting/",
+    "message": "{marketingSite}/{language}/wurm-unlimited-server-mieten/",
     "description": "URL path for the gameserver product"
   },
   "inlinevoucher.title": {
-    "message": "{voucherValue} {voucherType} HOSTING DISCOUNT 🏷️"
+    "message": "{voucherValue} {voucherType} HOSTING-RABATT 🏷️"
   },
   "inlinevoucher.description.with-products": {
-    "message": "Take the opportunity and start your own project today! Use the discount code for the products listed in this guide and get a 50% discount. 😉"
+    "message": "Nutzen Sie die Gelegenheit und starten Sie noch heute Ihr eigenes Projekt! Verwenden Sie den Rabattcode für die in dieser Anleitung aufgeführten Produkte und erhalten Sie 50 % Rabatt. 😉"
   },
   "inlinevoucher.list-title.with-products": {
-    "message": "This discount code can be used for the following products on a rental basis:"
+    "message": "Dieser Rabattcode kann für die folgenden Produkte auf Mietbasis verwendet werden:"
   },
   "inlinevoucher.description.without-products": {
-    "message": "Ready for your next awesome project 😉"
+    "message": "Bereit für dein nächstes großartiges Projekt 😉"
   },
   "inlinevoucher.list-title.without-products": {
-    "message": "Why you should give us a try?"
+    "message": "Warum sollten Sie uns eine Chance geben?"
   },
   "inlinevoucher.list-reasons.first": {
-    "message": "DDoS-Protection"
+    "message": "DDoS-Schutz"
   },
   "inlinevoucher.list-reasons.second": {
-    "message": "Online within minutes"
+    "message": "Online innerhalb von Minuten"
   },
   "inlinevoucher.list-reasons.third": {
-    "message": "Custom webinterface"
+    "message": "Benutzerdefiniertes Webinterface"
   },
   "inlinevoucher.your-voucher": {
-    "message": "YOUR CODE"
+    "message": "IHR CODE"
   },
   "voucherbox.cta": {
-    "message": "Rent a server"
+    "message": "Einen Server mieten"
   },
   "voucher.redeem": {
-    "message": "Redeem"
+    "message": "Einlösen"
   },
   "accordion.search.placeholder": {
-    "message": "Search...",
+    "message": "Suchen...",
     "description": "Placeholder text in the accordion search field"
   },
   "accordion.counter": {
-    "message": "{shown} out of {total} contents are displayed",
+    "message": "{shown} von {total} Inhalten werden angezeigt",
     "description": "Amount of displayed vs. filtered accordion items"
   },
   "accordion.showMore": {
-    "message": "Show more",
+    "message": "Mehr anzeigen",
     "description": "Button to display additional accordion items"
   },
   "searchableItemList.all": {
-    "message": "All"
+    "message": "Alle"
   },
   "searchableItemList.uncategorized": {
-    "message": "Uncategorized"
+    "message": "Unkategorisiert"
   },
   "searchableItemList.searchPlaceholder": {
-    "message": "Search..."
+    "message": "Suchen..."
   },
   "searchableItemList.showLess": {
-    "message": "Show less"
+    "message": "Weniger anzeigen"
   },
   "searchableItemList.showMore": {
-    "message": "Show more"
+    "message": "Mehr anzeigen"
   },
   "searchableItemList.openWebsite": {
-    "message": "Open Website"
+    "message": "Website öffnen"
   },
   "searchableItemList.counter": {
-    "message": "{shown} out of {total} entries are displayed"
+    "message": "{shown} von {total} Einträgen werden angezeigt"
   },
   "searchableItemList.showMoreBtn": {
-    "message": "Show more"
+    "message": "Mehr anzeigen"
   },
   "voucherbutton.success": {
     "message": "YEEEAH!"
   },
   "servicelist.introduction": {
-    "message": "This guide was created with the following products:"
+    "message": "Diese Anleitung wurde mit den folgenden Produkten erstellt:"
   },
   "servicelist.note": {
-    "message": "(Details may vary with products from different providers but the main concepts remain the same)"
+    "message": "(Details können je nach Produkten verschiedener Anbieter variieren, aber die Hauptkonzepte bleiben gleich)"
   },
   "footer.cookieSettings": {
-    "message": "Cookie settings"
+    "message": "Cookie-Einstellungen"
   },
   "voucherbox.title": {
-    "message": "HOSTING DISCOUNT"
+    "message": "HOSTING-RABATT"
   },
   "contributors.title": {
-    "message": "Guide Contributor(s)"
+    "message": "Anleitungsbeitragende(r)"
   },
   "contributors.description": {
-    "message": "Become a part of the ZAP-Hosting Community today! Join our {contributionLink} to share your knowledge and expertise by producing high-quality guides & creative content whilst earning valuable rewards up to 130€. Begin today and make a difference! 🙂"
+    "message": "Werde noch heute Teil der ZAP-Hosting Community! Trete unserem {contributionLink} bei, um dein Wissen und deine Expertise zu teilen, indem du hochwertige Anleitungen und kreative Inhalte erstellst und dabei wertvolle Belohnungen von bis zu 130€ verdienst. Starte noch heute und bewirke etwas! 🙂"
   },
   "theme.ErrorPageContent.title": {
-    "message": "This page crashed.",
+    "message": "Diese Seite ist abgestürzt.",
     "description": "The title of the fallback page when the page crashed"
   },
   "theme.BackToTopButton.buttonAriaLabel": {
-    "message": "Scroll back to top",
+    "message": "Nach oben scrollen",
     "description": "The ARIA label for the back to top button"
   },
   "theme.blog.archive.title": {
-    "message": "Archive",
+    "message": "Archiv",
     "description": "The page & hero title of the blog archive page"
   },
   "theme.blog.archive.description": {
-    "message": "Archive",
+    "message": "Archiv",
     "description": "The page & hero description of the blog archive page"
   },
   "theme.blog.paginator.navAriaLabel": {
-    "message": "Blog list page navigation",
+    "message": "Blog-Listen-Seiten-Navigation",
     "description": "The ARIA label for the blog pagination"
   },
   "theme.blog.paginator.newerEntries": {
-    "message": "Newer entries",
+    "message": "Neuere Einträge",
     "description": "The label used to navigate to the newer blog posts page (previous page)"
   },
   "theme.blog.paginator.olderEntries": {
-    "message": "Older entries",
+    "message": "Ältere Einträge",
     "description": "The label used to navigate to the older blog posts page (next page)"
   },
   "theme.blog.post.paginator.navAriaLabel": {
-    "message": "Blog post page navigation",
+    "message": "Blog-Beitragsseiten-Navigation",
     "description": "The ARIA label for the blog posts pagination"
   },
   "theme.blog.post.paginator.newerPost": {
-    "message": "Newer post",
+    "message": "Neuere Beiträge",
     "description": "The blog post button label to navigate to the newer/previous post"
   },
   "theme.blog.post.paginator.olderPost": {
-    "message": "Older post",
+    "message": "Älterer Beitrag",
     "description": "The blog post button label to navigate to the older/next post"
   },
   "theme.tags.tagsPageLink": {
-    "message": "View all tags",
+    "message": "Alle Tags anzeigen",
     "description": "The label of the link targeting the tag list page"
   },
   "theme.colorToggle.ariaLabel.mode.system": {
-    "message": "system mode",
+    "message": "Systemmodus",
     "description": "The name for the system color mode"
   },
   "theme.colorToggle.ariaLabel.mode.light": {
-    "message": "light mode",
+    "message": "Hellmodus",
     "description": "The name for the light color mode"
   },
   "theme.colorToggle.ariaLabel.mode.dark": {
-    "message": "dark mode",
+    "message": "dunkler Modus",
     "description": "The name for the dark color mode"
   },
   "theme.colorToggle.ariaLabel": {
-    "message": "Switch between dark and light mode (currently {mode})",
+    "message": "Wechseln Sie zwischen Dunkel- und Hellmodus (aktuell {mode})",
     "description": "The ARIA label for the color mode toggle"
   },
   "theme.docs.breadcrumbs.navAriaLabel": {
@@ -1254,74 +1254,74 @@
     "description": "The ARIA label for the breadcrumbs"
   },
   "theme.docs.DocCard.categoryDescription.plurals": {
-    "message": "1 item|{count} items",
+    "message": "1 Element|{count} Elemente",
     "description": "The default description for a category card in the generated index about how many items this category includes"
   },
   "theme.docs.paginator.navAriaLabel": {
-    "message": "Docs pages",
+    "message": "Dokumentationsseiten",
     "description": "The ARIA label for the docs pagination"
   },
   "theme.docs.paginator.previous": {
-    "message": "Previous",
+    "message": "Vorherige",
     "description": "The label used to navigate to the previous doc"
   },
   "theme.docs.paginator.next": {
-    "message": "Next",
+    "message": "Weiter",
     "description": "The label used to navigate to the next doc"
   },
   "theme.docs.tagDocListPageTitle.nDocsTagged": {
-    "message": "One doc tagged|{count} docs tagged",
+    "message": "Ein Dokument mit Tag|{count} Dokumente mit Tag",
     "description": "Pluralized label for \"{count} docs tagged\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
   },
   "theme.docs.tagDocListPageTitle": {
-    "message": "{nDocsTagged} with \"{tagName}\"",
+    "message": "{nDocsTagged} mit \"{tagName}\"",
     "description": "The title of the page for a docs tag"
   },
   "theme.docs.versionBadge.label": {
     "message": "Version: {versionLabel}"
   },
   "theme.docs.versions.unreleasedVersionLabel": {
-    "message": "This is unreleased documentation for {siteTitle} {versionLabel} version.",
+    "message": "Dies ist unveröffentlichte Dokumentation für die {siteTitle} {versionLabel} Version.",
     "description": "The label used to tell the user that he's browsing an unreleased doc version"
   },
   "theme.docs.versions.unmaintainedVersionLabel": {
-    "message": "This is documentation for {siteTitle} {versionLabel}, which is no longer actively maintained.",
+    "message": "Dies ist die Dokumentation für {siteTitle} {versionLabel}, die nicht mehr aktiv gepflegt wird.",
     "description": "The label used to tell the user that he's browsing an unmaintained doc version"
   },
   "theme.docs.versions.latestVersionSuggestionLabel": {
-    "message": "For up-to-date documentation, see the {latestVersionLink} ({versionLabel}).",
+    "message": "Für die aktuelle Dokumentation siehe die {latestVersionLink} ({versionLabel}).",
     "description": "The label used to tell the user to check the latest version"
   },
   "theme.docs.versions.latestVersionLinkLabel": {
-    "message": "latest version",
+    "message": "neueste Version",
     "description": "The label used for the latest version suggestion link label"
   },
   "theme.common.editThisPage": {
-    "message": "Edit this page",
+    "message": "Diese Seite bearbeiten",
     "description": "The link label to edit the current page"
   },
   "theme.common.headingLinkTitle": {
-    "message": "Direct link to {heading}",
+    "message": "Direktlink zu {heading}",
     "description": "Title for link to heading"
   },
   "theme.lastUpdated.atDate": {
-    "message": " on {date}",
+    "message": "am {date}",
     "description": "The words used to describe on which date a page has been last updated"
   },
   "theme.lastUpdated.byUser": {
-    "message": " by {user}",
+    "message": "von {user}",
     "description": "The words used to describe by who the page has been last updated"
   },
   "theme.lastUpdated.lastUpdatedAtBy": {
-    "message": "Last updated{atDate}{byUser}",
+    "message": "Zuletzt aktualisiert am {atDate} von {byUser}",
     "description": "The sentence used to display when a page has been last updated, and by who"
   },
   "theme.NotFound.title": {
-    "message": "Page Not Found",
+    "message": "Seite nicht gefunden",
     "description": "The title of the 404 page"
   },
   "theme.navbar.mobileVersionsDropdown.label": {
-    "message": "Versions",
+    "message": "Versionen",
     "description": "The label for the navbar versions dropdown on mobile view"
   },
   "theme.tags.tagsListLabel": {
@@ -1329,147 +1329,147 @@
     "description": "The label alongside a tag list"
   },
   "theme.AnnouncementBar.closeButtonAriaLabel": {
-    "message": "Close",
+    "message": "Schließen",
     "description": "The ARIA label for close button of announcement bar"
   },
   "theme.admonition.caution": {
-    "message": "caution",
+    "message": "Vorsicht",
     "description": "The default label used for the Caution admonition (:::caution)"
   },
   "theme.admonition.danger": {
-    "message": "danger",
+    "message": "Gefahr",
     "description": "The default label used for the Danger admonition (:::danger)"
   },
   "theme.admonition.info": {
-    "message": "info",
+    "message": "Info",
     "description": "The default label used for the Info admonition (:::info)"
   },
   "theme.admonition.note": {
-    "message": "note",
+    "message": "Hinweis",
     "description": "The default label used for the Note admonition (:::note)"
   },
   "theme.admonition.tip": {
-    "message": "tip",
+    "message": "Tipp",
     "description": "The default label used for the Tip admonition (:::tip)"
   },
   "theme.admonition.warning": {
-    "message": "warning",
+    "message": "Warnung",
     "description": "The default label used for the Warning admonition (:::warning)"
   },
   "theme.blog.sidebar.navAriaLabel": {
-    "message": "Blog recent posts navigation",
+    "message": "Blog Navigation der neuesten Beiträge",
     "description": "The ARIA label for recent posts in the blog sidebar"
   },
   "theme.DocSidebarItem.expandCategoryAriaLabel": {
-    "message": "Expand sidebar category '{label}'",
+    "message": "Seitenleisten-Kategorie '{label}' erweitern",
     "description": "The ARIA label to expand the sidebar category"
   },
   "theme.DocSidebarItem.collapseCategoryAriaLabel": {
-    "message": "Collapse sidebar category '{label}'",
+    "message": "Sidebar-Kategorie '{label}' einklappen",
     "description": "The ARIA label to collapse the sidebar category"
   },
   "theme.IconExternalLink.ariaLabel": {
-    "message": "(opens in new tab)",
+    "message": "(öffnet in neuem Tab)",
     "description": "The ARIA label for the external link icon"
   },
   "theme.NavBar.navAriaLabel": {
-    "message": "Main",
+    "message": "Haupt",
     "description": "The ARIA label for the main navigation"
   },
   "theme.NotFound.p1": {
-    "message": "We could not find what you were looking for.",
+    "message": "Wir konnten nicht finden, wonach Sie gesucht haben.",
     "description": "The first paragraph of the 404 page"
   },
   "theme.NotFound.p2": {
-    "message": "Please contact the owner of the site that linked you to the original URL and let them know their link is broken.",
+    "message": "Bitte kontaktieren Sie den Besitzer der Seite, die Sie mit der ursprünglichen URL verlinkt hat, und informieren Sie ihn darüber, dass sein Link defekt ist.",
     "description": "The 2nd paragraph of the 404 page"
   },
   "theme.navbar.mobileLanguageDropdown.label": {
-    "message": "Languages",
+    "message": "Sprachen",
     "description": "The label for the mobile language switcher dropdown"
   },
   "theme.TOCCollapsible.toggleButtonLabel": {
-    "message": "On this page",
+    "message": "Auf dieser Seite",
     "description": "The label used by the button on the collapsible TOC component"
   },
   "theme.blog.post.readingTime.plurals": {
-    "message": "One min read|{readingTime} min read",
+    "message": "Eine Minute Lesezeit|{readingTime} Minuten Lesezeit",
     "description": "Pluralized label for \"{readingTime} min read\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
   },
   "theme.CodeBlock.copy": {
-    "message": "Copy",
+    "message": "Kopieren",
     "description": "The copy button label on code blocks"
   },
   "theme.CodeBlock.copied": {
-    "message": "Copied",
+    "message": "Kopiert",
     "description": "The copied button label on code blocks"
   },
   "theme.CodeBlock.copyButtonAriaLabel": {
-    "message": "Copy code to clipboard",
+    "message": "Code in die Zwischenablage kopieren",
     "description": "The ARIA label for copy code blocks button"
   },
   "theme.CodeBlock.wordWrapToggle": {
-    "message": "Toggle word wrap",
+    "message": "Zeilenumbruch umschalten",
     "description": "The title attribute for toggle word wrapping button of code block lines"
   },
   "theme.blog.post.readMore": {
-    "message": "Read more",
+    "message": "Mehr erfahren",
     "description": "The label used in blog post item excerpts to link to full blog posts"
   },
   "theme.blog.post.readMoreLabel": {
-    "message": "Read more about {title}",
+    "message": "Lesen Sie mehr über {title}",
     "description": "The ARIA label for the link to full blog posts from excerpts"
   },
   "theme.docs.breadcrumbs.home": {
-    "message": "Home page",
+    "message": "Startseite",
     "description": "The ARIA label for the home page in the breadcrumbs"
   },
   "theme.docs.sidebar.collapseButtonTitle": {
-    "message": "Collapse sidebar",
+    "message": "Seitenleiste einklappen",
     "description": "The title attribute for collapse button of doc sidebar"
   },
   "theme.docs.sidebar.collapseButtonAriaLabel": {
-    "message": "Collapse sidebar",
+    "message": "Seitenleiste einklappen",
     "description": "The title attribute for collapse button of doc sidebar"
   },
   "theme.docs.sidebar.navAriaLabel": {
-    "message": "Docs sidebar",
+    "message": "Dokumentation Seitenleiste",
     "description": "The ARIA label for the sidebar navigation"
   },
   "theme.docs.sidebar.closeSidebarButtonAriaLabel": {
-    "message": "Close navigation bar",
+    "message": "Navigationsleiste schließen",
     "description": "The ARIA label for close button of mobile sidebar"
   },
   "theme.navbar.mobileSidebarSecondaryMenu.backButtonLabel": {
-    "message": "← Back to main menu",
+    "message": "← Zurück zum Hauptmenü",
     "description": "The label of the back button to return to main menu, inside the mobile navbar sidebar secondary menu (notably used to display the docs sidebar)"
   },
   "theme.docs.sidebar.toggleSidebarButtonAriaLabel": {
-    "message": "Toggle navigation bar",
+    "message": "Navigationsleiste umschalten",
     "description": "The ARIA label for hamburger menu button of mobile navigation"
   },
   "theme.navbar.mobileDropdown.collapseButton.expandAriaLabel": {
-    "message": "Expand the dropdown",
+    "message": "Dropdown erweitern",
     "description": "The ARIA label of the button to expand the mobile dropdown navbar item"
   },
   "theme.navbar.mobileDropdown.collapseButton.collapseAriaLabel": {
-    "message": "Collapse the dropdown",
+    "message": "Dropdown einklappen",
     "description": "The ARIA label of the button to collapse the mobile dropdown navbar item"
   },
   "theme.docs.sidebar.expandButtonTitle": {
-    "message": "Expand sidebar",
+    "message": "Seitenleiste erweitern",
     "description": "The ARIA label and title attribute for expand button of doc sidebar"
   },
   "theme.docs.sidebar.expandButtonAriaLabel": {
-    "message": "Expand sidebar",
+    "message": "Seitenleiste erweitern",
     "description": "The ARIA label and title attribute for expand button of doc sidebar"
   },
   "theme.blog.post.plurals": {
-    "message": "One post|{count} posts",
+    "message": "Ein Beitrag|{count} Beiträge",
     "description": "Pluralized label for \"{count} posts\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
   },
   "theme.blog.tagTitle": {
-    "message": "{nPosts} tagged with \"{tagName}\"",
+    "message": "{nPosts} markiert mit „{tagName}“",
     "description": "The title of the page for a blog tag"
   },
   "theme.blog.author.pageTitle": {
@@ -1477,39 +1477,39 @@
     "description": "The title of the page for a blog author"
   },
   "theme.blog.authorsList.pageTitle": {
-    "message": "Authors",
+    "message": "Autoren",
     "description": "The title of the authors page"
   },
   "theme.blog.authorsList.viewAll": {
-    "message": "View all authors",
+    "message": "Alle Autoren anzeigen",
     "description": "The label of the link targeting the blog authors page"
   },
   "theme.blog.author.noPosts": {
-    "message": "This author has not written any posts yet.",
+    "message": "Dieser Autor hat noch keine Beiträge geschrieben.",
     "description": "The text for authors with 0 blog post"
   },
   "theme.contentVisibility.unlistedBanner.title": {
-    "message": "Unlisted page",
+    "message": "Nicht gelistete Seite",
     "description": "The unlisted content banner title"
   },
   "theme.contentVisibility.unlistedBanner.message": {
-    "message": "This page is unlisted. Search engines will not index it, and only users having a direct link can access it.",
+    "message": "Diese Seite ist nicht gelistet. Suchmaschinen werden sie nicht indexieren, und nur Benutzer mit einem direkten Link können darauf zugreifen.",
     "description": "The unlisted content banner message"
   },
   "theme.contentVisibility.draftBanner.title": {
-    "message": "Draft page",
+    "message": "Entwurfsseite",
     "description": "The draft content banner title"
   },
   "theme.contentVisibility.draftBanner.message": {
-    "message": "This page is a draft. It will only be visible in dev and be excluded from the production build.",
+    "message": "Diese Seite ist ein Entwurf. Sie wird nur in der Entwicklungsumgebung sichtbar sein und vom Produktions-Build ausgeschlossen.",
     "description": "The draft content banner message"
   },
   "theme.ErrorPageContent.tryAgain": {
-    "message": "Try again",
+    "message": "Erneut versuchen",
     "description": "The label of the button to try again rendering when the React error boundary captures an error"
   },
   "theme.common.skipToMainContent": {
-    "message": "Skip to main content",
+    "message": "Zum Hauptinhalt springen",
     "description": "The skip to content label used for accessibility, allowing to rapidly navigate to main content with keyboard tab/enter navigation"
   },
   "theme.tags.tagsPageTitle": {

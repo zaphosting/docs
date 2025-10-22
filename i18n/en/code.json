@@ -68,7 +68,7 @@
     "description": "Product name for the storage product"
   },
   "service.gameserver.title": {
-    "message": "Cloud-Gameserver",
+    "message": "Cloud game server",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver.path": {
@@ -1104,16 +1104,16 @@
     "message": "Ready for your next awesome project 😉"
   },
   "inlinevoucher.list-title.without-products": {
-    "message": "Why you should give us a try?"
+    "message": "Why should you give us a try?"
   },
   "inlinevoucher.list-reasons.first": {
-    "message": "DDoS-Protection"
+    "message": "DDoS Protection"
   },
   "inlinevoucher.list-reasons.second": {
     "message": "Online within minutes"
   },
   "inlinevoucher.list-reasons.third": {
-    "message": "Custom webinterface"
+    "message": "Custom web interface"
   },
   "inlinevoucher.your-voucher": {
     "message": "YOUR CODE"
@@ -1247,7 +1247,7 @@
     "description": "The default description for a category card in the generated index about how many items this category includes"
   },
   "theme.docs.paginator.navAriaLabel": {
-    "message": "Docs pages",
+    "message": "Documentation pages",
     "description": "The ARIA label for the docs pagination"
   },
   "theme.docs.paginator.previous": {
@@ -1294,11 +1294,11 @@
     "description": "Title for link to heading"
   },
   "theme.lastUpdated.atDate": {
-    "message": " on {date}",
+    "message": "on {date}",
     "description": "The words used to describe on which date a page has been last updated"
   },
   "theme.lastUpdated.byUser": {
-    "message": " by {user}",
+    "message": "by {user}",
     "description": "The words used to describe by who the page has been last updated"
   },
   "theme.lastUpdated.lastUpdatedAtBy": {
@@ -1478,7 +1478,7 @@
     "description": "The unlisted content banner title"
   },
   "theme.contentVisibility.unlistedBanner.message": {
-    "message": "This page is unlisted. Search engines will not index it, and only users having a direct link can access it.",
+    "message": "This page is unlisted. Search engines will not index it, and only users with a direct link can access it.",
     "description": "The unlisted content banner message"
   },
   "theme.contentVisibility.draftBanner.title": {

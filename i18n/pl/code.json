@@ -8,15 +8,15 @@
     "description": "URL path for the VPS product"
   },
   "service.dedicated.title": {
-    "message": "Dedicated Server",
+    "message": "Serwer dedykowany",
     "description": "Product name for the dedicated server product"
   },
   "service.dedicated.path": {
-    "message": "{marketingSite}/{language}/dedicated-server-hosting/",
+    "message": "{marketingSite}/{language}/wynajem-serwerów-dedykowanych/",
     "description": "URL path for the dedicated server product"
   },
   "service.domain.title": {
-    "message": "Domain",
+    "message": "Domena",
     "description": "Product name for the domain product"
   },
   "service.domain.path": {
@@ -24,31 +24,31 @@
     "description": "URL path for the domain product"
   },
   "service.webspace.title": {
-    "message": "Webspace",
+    "message": "Hosting",
     "description": "Product name for the webspace product"
   },
   "service.webspace.path": {
-    "message": "{marketingSite}/{language}/webhosting-rent-a-webspace/",
+    "message": "{marketingSite}/{language}/webhosting-wynajem-hostingu/",
     "description": "URL path for the webspace product"
   },
   "service.voiceserver.title": {
-    "message": "Voiceserver",
+    "message": "Serwer głosowy",
     "description": "Product name for the voiceserver product"
   },
   "service.voiceserver.path": {
-    "message": "{marketingSite}/{language}/teamspeak-3-server-hosting/",
+    "message": "{marketingSite}/{language}/teamspeak-3-serwer-gier-wynajem/",
     "description": "URL path for the voiceserver product"
   },
   "service.voicebot.title": {
-    "message": "Voicebot",
+    "message": "Bot głosowy",
     "description": "Product name for the voicebot product"
   },
   "service.voicebot.path": {
-    "message": "{marketingSite}/{language}/teamspeak-3-server-hosting/",
+    "message": "{marketingSite}/{language}/teamspeak-3-serwer-glosowy-wynajem/",
     "description": "URL path for the voicebot product"
   },
   "service.storage.title": {
-    "message": "Premium Storage",
+    "message": "Pamięć Premium",
     "description": "Product name for the storage product"
   },
   "service.storage.path": {
@@ -56,7 +56,7 @@
     "description": "URL path for the storage product"
   },
   "service.fivemupvotes.title": {
-    "message": "Discord Bot",
+    "message": "Bot Discord",
     "description": "Product name for the storage product"
   },
   "service.fivemupvotes.path": {
@@ -68,7 +68,7 @@
     "description": "Product name for the storage product"
   },
   "service.gameserver.title": {
-    "message": "Cloud-Gameserver",
+    "message": "Serwer gier w chmurze",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver.path": {
@@ -76,215 +76,215 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-7d2d.title": {
-    "message": "7 Days to Die Gameserver",
+    "message": "Serwer gier 7 Days to Die",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-7d2d.path": {
-    "message": "{marketingSite}/{language}/7-days-to-die-server-hosting/",
+    "message": "{marketingSite}/{language}/7-days-to-die-serwer-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-abioticfactor.title": {
-    "message": "Abiotic Factor Gameserver",
+    "message": "Abiotic Factor serwer gier",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-abioticfactor.path": {
-    "message": "{marketingSite}/{language}/abiotic-factor-server-hosting/",
+    "message": "{marketingSite}/{language}/abiotic-factor-serwer-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-afterinfection.title": {
-    "message": "Afterinfection Gameserver",
+    "message": "Afterinfection Serwer Gier",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-afterinfection.path": {
-    "message": "{marketingSite}/{language}/afterinfection-server-hosting/",
+    "message": "{marketingSite}/{language}/afterinfection-serwer-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-amongus.title": {
-    "message": "Among Us Gameserver",
+    "message": "Serwer gier Among Us",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-amongus.path": {
-    "message": "{marketingSite}/{language}/among-us-server-hosting/",
+    "message": "{marketingSite}/{language}/wynajem-serwerów-among-us/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-animalia-survival.title": {
-    "message": "Animalia Survival Gameserver",
+    "message": "Animalia Survival serwer gier",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-animalia-survival.path": {
-    "message": "{marketingSite}/{language}/animalia-survival-server-hosting/",
+    "message": "{marketingSite}/{language}/animalia-survival-serwer-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-argo.title": {
-    "message": "Argo Gameserver",
+    "message": "Argo Serwer Gier",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-argo.path": {
-    "message": "{marketingSite}/{language}/argo-server-hosting/",
+    "message": "{marketingSite}/{language}/wynajem-serwerów-argo/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-ark.title": {
-    "message": "ARK: Survival Evolved Gameserver",
+    "message": "Serwer gier ARK: Survival Evolved",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-ark.path": {
-    "message": "{marketingSite}/{language}/ark-survival-evolved-server-hosting/",
+    "message": "{marketingSite}/{language}/wynajem-serwerów-ark-survival-evolved/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-arma3.title": {
-    "message": "Arma 3 Gameserver",
+    "message": "Serwer gier Arma 3",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-arma3.path": {
-    "message": "{marketingSite}/{language}/arma-3-server-hosting/",
+    "message": "{marketingSite}/{language}/arma-3-serwer-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-arma-reforger.title": {
-    "message": "Arma Reforger Gameserver",
+    "message": "Serwer gier Arma Reforger",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-arma-reforger.path": {
-    "message": "{marketingSite}/{language}/arma-reforger-server-hosting/",
+    "message": "{marketingSite}/{language}/arma-reforger-serwer-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-assettocorsa.title": {
-    "message": "Assetto Corsa Gameserver",
+    "message": "Serwer gier Assetto Corsa",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-assettocorsa.path": {
-    "message": "{marketingSite}/{language}/assetto-corsa-server-hosting/",
+    "message": "{marketingSite}/{language}/assetto-corsa-serwer-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-assetto-competizione.title": {
-    "message": "Assetto Corsa Competizione Gameserver",
+    "message": "Serwer gier Assetto Corsa Competizione",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-assetto-competizione.path": {
-    "message": "{marketingSite}/{language}/assetto-corsa-competizione-server-hosting/",
+    "message": "{marketingSite}/{language}/assetto-corsa-competizione-serwer-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-astrocolony.title": {
-    "message": "Astro Colony Gameserver",
+    "message": "Astro Colony serwer gier",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-astrocolony.path": {
-    "message": "{marketingSite}/{language}/astro-colony-server-hosting/",
+    "message": "{marketingSite}/{language}/astro-colony-serwer-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-astroneer.title": {
-    "message": "ASTRONEER Gameserver",
+    "message": "Serwer gier ASTRONEER",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-astroneer.path": {
-    "message": "{marketingSite}/{language}/astroneer-server-hosting/",
+    "message": "{marketingSite}/{language}/astroneer-serwer-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-avorion.title": {
-    "message": "Avorion Gameserver",
+    "message": "Serwer gier Avorion",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-avorion.path": {
-    "message": "{marketingSite}/{language}/avorion-server-hosting/",
+    "message": "{marketingSite}/{language}/wynajem-serwerów-avorion/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-ats.title": {
-    "message": "American Truck Simulator Gameserver",
+    "message": "Serwer gier American Truck Simulator",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-ats.path": {
-    "message": "{marketingSite}/{language}/american-truck-simulator-server-hosting/",
+    "message": "{marketingSite}/{language}/american-truck-simulator-serwer-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-bananashooter.title": {
-    "message": "Banana Shooter Gameserver",
+    "message": "Banana Shooter serwer gier",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-bananashooter.path": {
-    "message": "{marketingSite}/{language}/banana-shooter-server-hosting/",
+    "message": "{marketingSite}/{language}/banana-shooter-serwer-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-barotrauma.title": {
-    "message": "Barotrauma Gameserver",
+    "message": "Serwer gier Barotrauma",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-barotrauma.path": {
-    "message": "{marketingSite}/{language}/barotrauma-server-hosting/",
+    "message": "{marketingSite}/{language}/barotrauma-serwer-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-battalion1944.title": {
-    "message": "Battalion 1944 Gameserver",
+    "message": "Serwer gier Battalion 1944",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-battalion1944.path": {
-    "message": "{marketingSite}/{language}/battalion-1944-server-hosting/",
+    "message": "{marketingSite}/{language}/wynajem-serwerów-battalion-1944/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-battlegrounds3.title": {
-    "message": "Battle Grounds III Gameserver",
+    "message": "Battle Grounds III serwer gier",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-battlegrounds3.path": {
-    "message": "{marketingSite}/{language}/battle-grounds-iii-server-hosting/",
+    "message": "{marketingSite}/{language}/battle-grounds-iii-wynajem-serwerow/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-beammp.title": {
-    "message": "BeamMP Gameserver",
+    "message": "Serwer gier BeamMP",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-beammp.path": {
-    "message": "{marketingSite}/{language}/beammp-server-hosting/",
+    "message": "{marketingSite}/{language}/beammp-serwer-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-bob.title": {
-    "message": "Beasts of Bermuda Gameserver",
+    "message": "Serwer gier Beasts of Bermuda",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-bob.path": {
-    "message": "{marketingSite}/{language}/beasts-of-bermuda-server-hosting/",
+    "message": "{marketingSite}/{language}/beasts-of-bermuda-wynajem-serwerow/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-beyondthewire.title": {
-    "message": "Beyond the Wire Gameserver",
+    "message": "Beyond the Wire serwer gier",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-beyondthewire.path": {
-    "message": "{marketingSite}/{language}/beyond-the-wire-server-hosting/",
+    "message": "{marketingSite}/{language}/beyond-the-wire-serwer-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-brokeprotocol.title": {
-    "message": "Broke Protocol Gameserver",
+    "message": "Serwer gier Broke Protocol",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-brokeprotocol.path": {
-    "message": "{marketingSite}/{language}/broke-protocol-server-hosting/",
+    "message": "{marketingSite}/{language}/wynajem-serwerow-do-broke-protocol/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-citadel-forgedwithfire.title": {
-    "message": "Citadel: Forged With Fire Gameserver",
+    "message": "Citadel: Forged With Fire serwer gier",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-citadel-forgedwithfire.path": {
-    "message": "{marketingSite}/{language}/citadel-forged-with-fire-server-hosting/",
+    "message": "{marketingSite}/{language}/citadel-forged-with-fire-wynajem-serwerów/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-colonysurvival.title": {
-    "message": "Colony Survival Gameserver",
+    "message": "Colony Survival serwer gier",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-colonysurvival.path": {
-    "message": "{marketingSite}/{language}/colony-survival-server-hosting/",
+    "message": "{marketingSite}/{language}/colony-survival-wynajem-serwerów/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-conan.title": {
-    "message": "Conan Exiles Gameserver",
+    "message": "Serwer gier Conan Exiles",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-conan.path": {
-    "message": "{marketingSite}/{language}/conan-exiles-server-hosting/",
+    "message": "{marketingSite}/{language}/conan-exiles-serwer-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-contagion.title": {
-    "message": "Contagion Gameserver",
+    "message": "Contagion Serwer Gier",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-contagion.path": {
@@ -292,79 +292,79 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-corekeeper.title": {
-    "message": "Core Keeper Gameserver",
+    "message": "Core Keeper serwer gier",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-corekeeper.path": {
-    "message": "{marketingSite}/{language}/core-keeper-server-hosting/",
+    "message": "{marketingSite}/{language}/core-keeper-serwer-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-craftopia.title": {
-    "message": "Craftopia Gameserver",
+    "message": "Serwer gier Craftopia",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-craftopia.path": {
-    "message": "{marketingSite}/{language}/craftopia-server-hosting/",
+    "message": "{marketingSite}/{language}/craftopia-serwer-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-cryofall.title": {
-    "message": "Cryofall Gameserver",
+    "message": "Serwer gier Cryofall",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-cryofall.path": {
-    "message": "{marketingSite}/{language}/cryofall-server-hosting/",
+    "message": "{marketingSite}/{language}/cryofall-serwer-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-cs16.title": {
-    "message": "Counter-Strike 1.6 Gameserver",
+    "message": "Serwer gier Counter-Strike 1.6",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-cs16.path": {
-    "message": "{marketingSite}/{language}/counter-strike-1-6-server-hosting/",
+    "message": "{marketingSite}/{language}/wynajem-serwerów-counter-strike-1-6/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-cs2.title": {
-    "message": "Counter-Strike 2 Gameserver",
+    "message": "Serwer gier Counter-Strike 2",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-cs2.path": {
-    "message": "{marketingSite}/{language}/counter-strike-2-server-hosting/",
+    "message": "{marketingSite}/{language}/wynajem-serwerów-counter-strike-2/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-css.title": {
-    "message": "Counter-Strike: Source Gameserver",
+    "message": "Serwer gier Counter-Strike: Source",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-css.path": {
-    "message": "{marketingSite}/{language}/css-server-hosting/",
+    "message": "{marketingSite}/{language}/css-serwer-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-dayofinfamy.title": {
-    "message": "Day of Infamy Gameserver",
+    "message": "Serwer gier Day of Infamy",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-dayofinfamy.path": {
-    "message": "{marketingSite}/{language}/day-of-infamy-server-hosting/",
+    "message": "{marketingSite}/{language}/day-of-infamy-serwer-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-dayz.title": {
-    "message": "DayZ Gameserver",
+    "message": "Serwer gier DayZ",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-dayz.path": {
-    "message": "{marketingSite}/{language}/dayz-standalone-server-hosting/",
+    "message": "{marketingSite}/{language}/dayz-standalone-serwer-gier-wynajem-serwerów/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-ddracenetwork.title": {
-    "message": "DDraceNetwork Gameserver",
+    "message": "Serwer gier DDraceNetwork",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-ddracenetwork.path": {
-    "message": "{marketingSite}/{language}/ddracenetwork-server-hosting/",
+    "message": "{marketingSite}/{language}/ddracenetwork-wynajem-serwerów/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-deadlock.title": {
-    "message": "Deadlock Gameserver",
+    "message": "Deadlock serwer gier",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-deadlock.path": {
@@ -372,23 +372,23 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-deadpoly.title": {
-    "message": "DeadPoly Gameserver",
+    "message": "DeadPoly serwer gier",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-deadpoly.path": {
-    "message": "{marketingSite}/{language}/deadpoly-server-hosting/",
+    "message": "{marketingSite}/{language}/deadpoly-serwer-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-dods.title": {
-    "message": "Day of Defeat: Source Gameserver",
+    "message": "Day of Defeat: Source serwer gier",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-dods.path": {
-    "message": "{marketingSite}/{language}/day-of-defeat-source-server-hosting/",
+    "message": "{marketingSite}/{language}/day-of-defeat-source-serwer-gier-wynajem-serwerów/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-dst.title": {
-    "message": "Don't Starve Together Gameserver",
+    "message": "Serwer gier Don't Starve Together",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-dst.path": {
@@ -396,47 +396,47 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-eco.title": {
-    "message": "ECO Gameserver",
+    "message": "ECO Serwer gier",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-eco.path": {
-    "message": "{marketingSite}/{language}/eco-global-survival-server-hosting/",
+    "message": "{marketingSite}/{language}/eco-global-survival-serwer-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-empyrion.title": {
-    "message": "Empyrion Gameserver",
+    "message": "Empyrion serwer gier",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-empyrion.path": {
-    "message": "{marketingSite}/{language}/empyrion-server-hosting/",
+    "message": "{marketingSite}/{language}/empyrion-serwer-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-enshrouded.title": {
-    "message": "Enshrouded Gameserver",
+    "message": "Serwer gier Enshrouded",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-enshrouded.path": {
-    "message": "{marketingSite}/{language}/enshrouded-server-hosting/",
+    "message": "{marketingSite}/{language}/wynajem-serwerów-enshrouded/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-ets2.title": {
-    "message": "Euro Truck Simulator 2 Gameserver",
+    "message": "Serwer gier Euro Truck Simulator 2",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-ets2.path": {
-    "message": "{marketingSite}/{language}/euro-truck-simulator-2-server-hosting/",
+    "message": "{marketingSite}/{language}/wynajem-serwerów-euro-truck-simulator-2/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-factorio.title": {
-    "message": "Factorio Gameserver",
+    "message": "Serwer gier Factorio",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-factorio.path": {
-    "message": "{marketingSite}/{language}/factorio-server-hosting/",
+    "message": "{marketingSite}/{language}/wynajem-serwerów-factorio/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-fivem.title": {
-    "message": "FiveM Gameserver",
+    "message": "Serwer gier FiveM",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-fivem.path": {
@@ -444,31 +444,31 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-foundry.title": {
-    "message": "Foundry Gameserver",
+    "message": "Foundry serwer gier",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-foundry.path": {
-    "message": "{marketingSite}/{language}/foundry-server-hosting/",
+    "message": "{marketingSite}/{language}/foundry-serwer-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-gmod.title": {
-    "message": "Garry's Mod Gameserver",
+    "message": "Serwer gier Garry's Mod",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-gmod.path": {
-    "message": "{marketingSite}/{language}/garrys-mod-server-hosting/",
+    "message": "{marketingSite}/{language}/garrys-mod-serwer-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-groundbranch.title": {
-    "message": "Ground Branch Gameserver",
+    "message": "Serwer gier Ground Branch",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-groundbranch.path": {
-    "message": "{marketingSite}/{language}/ground-branch-server-hosting/",
+    "message": "{marketingSite}/{language}/ground-branch-serwer-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-hl1.title": {
-    "message": "Half-Life 1 Gameserver",
+    "message": "Serwer gier Half-Life 1",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-hl1.path": {
@@ -476,63 +476,63 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-hl2.title": {
-    "message": "Half-Life 2 Gameserver",
+    "message": "Serwer gier Half-Life 2",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-hl2.path": {
-    "message": "{marketingSite}/{language}/half-life-2-server-hosting/",
+    "message": "{marketingSite}/{language}/wynajem-serwerów-half-life-2/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-holdfast.title": {
-    "message": "Holdfast: Nations At War Gameserver",
+    "message": "Holdfast: Nations At War serwer gier",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-holdfast.path": {
-    "message": "{marketingSite}/{language}/holdfast-nations-at-war-server-hosting/",
+    "message": "{marketingSite}/{language}/holdfast-nations-at-war-serwer-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-humanitz.title": {
-    "message": "HumanitZ Gameserver",
+    "message": "HumanitZ Serwer Gier",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-humanitz.path": {
-    "message": "{marketingSite}/{language}/humanitz-server-hosting/",
+    "message": "{marketingSite}/{language}/humanitz-serwer-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-hurtworld.title": {
-    "message": "Hurtworld Gameserver",
+    "message": "Hurtworld serwer gier",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-hurtworld.path": {
-    "message": "{marketingSite}/{language}/hurtworld-server-hosting/",
+    "message": "{marketingSite}/{language}/hurtworld-serwer-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-icarus.title": {
-    "message": "Icarus Gameserver",
+    "message": "Icarus serwer gier",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-icarus.path": {
-    "message": "{marketingSite}/{language}/icarus-server-hosting/",
+    "message": "{marketingSite}/{language}/icarus-serwer-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-insurgency.title": {
-    "message": "Insurgency: Sandstorm Gameserver",
+    "message": "Insurgency: Sandstorm serwer gier",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-insurgency.path": {
-    "message": "{marketingSite}/{language}/insurgency-sandstorm-server-hosting/",
+    "message": "{marketingSite}/{language}/insurgency-sandstorm-serwer-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-ironarmada.title": {
-    "message": "Iron Armada Gameserver",
+    "message": "Iron Armada serwer gier",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-ironarmada.path": {
-    "message": "{marketingSite}/{language}/iron-armada-server-hosting/",
+    "message": "{marketingSite}/{language}/iron-armada-serwer-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-jol.title": {
-    "message": "Journey of Life Gameserver",
+    "message": "Journey of Life Serwer Gier",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-jol.path": {
@@ -540,15 +540,15 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-killingfloor2.title": {
-    "message": "Killing Floor 2 Gameserver",
+    "message": "Serwer gier Killing Floor 2",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-killingfloor2.path": {
-    "message": "{marketingSite}/{language}/killing-floor-2-server-hosting/",
+    "message": "{marketingSite}/{language}/wynajem-serwerów-killing-floor-2/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-lastoasis.title": {
-    "message": "Last Oasis Gameserver",
+    "message": "Last Oasis serwer gier",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-lastoasis.path": {
@@ -556,239 +556,239 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-leap.title": {
-    "message": "Leap Gameserver",
+    "message": "Leap Serwer Gier",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-leap.path": {
-    "message": "{marketingSite}/{language}/leap-server-hosting/",
+    "message": "{marketingSite}/{language}/wynajem-serwerów/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-l4d2.title": {
-    "message": "Left 4 Dead 2 Gameserver",
+    "message": "Serwer gier Left 4 Dead 2",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-l4d2.path": {
-    "message": "{marketingSite}/{language}/left-4-dead-2-server-hosting/",
+    "message": "{marketingSite}/{language}/left-4-dead-2-serwer-gier-wynajem-serwerów/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-longvinter.title": {
-    "message": "Longvinter Gameserver",
+    "message": "Longvinter serwer gier",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-longvinter.path": {
-    "message": "{marketingSite}/{language}/longvinter-server-hosting/",
+    "message": "{marketingSite}/{language}/longvinter-serwer-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-minecraft.title": {
-    "message": "Minecraft Gameserver",
+    "message": "Serwer gier Minecraft",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-minecraft.path": {
-    "message": "{marketingSite}/{language}/minecraft-server-hosting/",
+    "message": "{marketingSite}/{language}/wynajem-serwerów-minecraft/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-minetest.title": {
-    "message": "Minetest Gameserver",
+    "message": "Minetest serwer gier",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-minetest.path": {
-    "message": "{marketingSite}/{language}/minetest-server-hosting/",
+    "message": "{marketingSite}/{language}/minetest-serwer-gier-wynajem-serwerów/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-miscreated.title": {
-    "message": "Miscreated Gameserver",
+    "message": "Miscreated serwer gier",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-miscreated.path": {
-    "message": "{marketingSite}/{language}/miscreated-server-hosting/",
+    "message": "{marketingSite}/{language}/miscreated-serwer-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-motortown.title": {
-    "message": "Motor Town: Behind The Wheel Gameserver",
+    "message": "Motor Town: serwer gier Behind The Wheel",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-motortown.path": {
-    "message": "{marketingSite}/{language}/motor-town-behind-the-wheel-server-hosting/",
+    "message": "{marketingSite}/{language}/motor-town-behind-the-wheel-wynajem-serwerów/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-mountandblade.title": {
-    "message": "Mount & Blade Gameserver",
+    "message": "Serwer gier Mount & Blade",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-mountandblade.path": {
-    "message": "{marketingSite}/{language}/mount-and-blade-server-hosting/",
+    "message": "{marketingSite}/{language}/wynajem-serwerów-mount-and-blade/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-mta.title": {
-    "message": "Multi Theft Auto Gameserver",
+    "message": "Serwer gier Multi Theft Auto",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-mta.path": {
-    "message": "{marketingSite}/{language}/mta-server-hosting/",
+    "message": "{marketingSite}/{language}/mta-serwer-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-moe.title": {
-    "message": "Myth of Empires Gameserver",
+    "message": "Myth of Empires serwer gier",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-moe.path": {
-    "message": "{marketingSite}/{language}/myth-of-empires-server-hosting/",
+    "message": "{marketingSite}/{language}/wynajem-serwerów-myth-of-empires/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-necesse.title": {
-    "message": "Necesse Gameserver",
+    "message": "Necesse Serwer Gier",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-necesse.path": {
-    "message": "{marketingSite}/{language}/necesse-server-hosting/",
+    "message": "{marketingSite}/{language}/necesse-serwer-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-nstp.title": {
-    "message": "Never Split the Party Gameserver",
+    "message": "Nigdy nie dziel drużyny serwer gier",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-nstp.path": {
-    "message": "{marketingSite}/{language}/never-split-the-party-server-hosting/",
+    "message": "{marketingSite}/{language}/never-split-the-party-wynajem-serwerów/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-nienix.title": {
-    "message": "Nienix Gameserver",
+    "message": "Nienix Serwer Gier",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-nienix.path": {
-    "message": "{marketingSite}/{language}/nienix-server-hosting/",
+    "message": "{marketingSite}/{language}/nienix-wynajem-serwerow/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-nmrih.title": {
-    "message": "No More Room In Hell Gameserver",
+    "message": "No More Room In Hell serwer gier",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-nmrih.path": {
-    "message": "{marketingSite}/{language}/no-more-room-in-hell-server-hosting/",
+    "message": "{marketingSite}/{language}/no-more-room-in-hell-serwer-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-noonesurvived.title": {
-    "message": "No One Survived Gameserver",
+    "message": "No One Survived serwer gier",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-noonesurvived.path": {
-    "message": "{marketingSite}/{language}/no-one-survived-server-hosting/",
+    "message": "{marketingSite}/{language}/nikt-nie-przetrwal-wynajem-serwerow/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-ohol.title": {
-    "message": "One Hour One Life Gameserver",
+    "message": "Serwer gier One Hour One Life",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-ohol.path": {
-    "message": "{marketingSite}/{language}/one-hour-one-life-server-hosting/",
+    "message": "{marketingSite}/{language}/wynajem-serwerów-one-hour-one-life/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-openmp.title": {
-    "message": "Open.mp Gameserver",
+    "message": "Open.mp serwer gier",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-openmp.path": {
-    "message": "{marketingSite}/{language}/open-mp-server-hosting/",
+    "message": "{marketingSite}/{language}/open-mp-serwer-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-openttd.title": {
-    "message": "OpenTTD Gameserver",
+    "message": "Serwer gier OpenTTD",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-openttd.path": {
-    "message": "{marketingSite}/{language}/openttd-server-hosting/",
+    "message": "{marketingSite}/{language}/openttd-serwer-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-ohd.title": {
-    "message": "Operation: Harsh Doorstop Gameserver",
+    "message": "Operacja: Serwer gier Harsh Doorstop",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-ohd.path": {
-    "message": "{marketingSite}/{language}/operation-harsh-doorstop-server-hosting/",
+    "message": "{marketingSite}/{language}/operation-harsh-doorstop-wynajem-serwerów/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-ootow.title": {
-    "message": "Outlaws of the Old West Gameserver",
+    "message": "Outlaws of the Old West serwer gier",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-ootow.path": {
-    "message": "{marketingSite}/{language}/outlaws-of-the-old-west-server-hosting/",
+    "message": "{marketingSite}/{language}/wynajem-serwerow-outlaws-of-the-old-west/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-palworld.title": {
-    "message": "Palworld Gameserver",
+    "message": "Palworld serwer gier",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-palworld.path": {
-    "message": "{marketingSite}/{language}/palworld-server-hosting/",
+    "message": "{marketingSite}/{language}/palworld-serwer-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-pathoftitans.title": {
-    "message": "Path of Titans Gameserver",
+    "message": "Serwer gier Path of Titans",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-pathoftitans.path": {
-    "message": "{marketingSite}/{language}/path-of-titans-server-hosting/",
+    "message": "{marketingSite}/{language}/wynajem-serwerów-path-of-titans/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-pixark.title": {
-    "message": "PixARK Gameserver",
+    "message": "PixARK serwer gier",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-pixark.path": {
-    "message": "{marketingSite}/{language}/pixark-server-hosting/",
+    "message": "{marketingSite}/{language}/pixark-serwer-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-portalknights.title": {
-    "message": "Portal Knights Gameserver",
+    "message": "Portal Knights serwer gier",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-portalknights.path": {
-    "message": "{marketingSite}/{language}/portal-knights-server-hosting/",
+    "message": "{marketingSite}/{language}/portal-knights-serwer-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-projectzomboid.title": {
-    "message": "Project Zomboid Gameserver",
+    "message": "Serwer gier Project Zomboid",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-projectzomboid.path": {
-    "message": "{marketingSite}/{language}/project-zomboid-server-hosting/",
+    "message": "{marketingSite}/{language}/wynajem-serwerow-do-project-zomboid/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-redm.title": {
-    "message": "RedM Gameserver",
+    "message": "Serwer gier RedM",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-redm.path": {
-    "message": "{marketingSite}/{language}/redm-server-hosting/",
+    "message": "{marketingSite}/{language}/redm-serwer-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-reignofkings.title": {
-    "message": "Reign of Kings Gameserver",
+    "message": "Serwer gier Reign of Kings",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-reignofkings.path": {
-    "message": "{marketingSite}/{language}/reign-of-kings-server-hosting/",
+    "message": "{marketingSite}/{language}/wynajem-serwerów-reign-of-kings/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-rimworldtogether.title": {
-    "message": "RimWorld Together Gameserver",
+    "message": "RimWorld Together serwer gier",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-rimworldtogether.path": {
-    "message": "{marketingSite}/{language}/rimworld-together-server-hosting/",
+    "message": "{marketingSite}/{language}/rimworld-together-serwer-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-risingstorm2.title": {
-    "message": "Rising Storm 2 Gameserver",
+    "message": "Rising Storm 2 serwer gier",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-risingstorm2.path": {
-    "message": "{marketingSite}/{language}/rising-storm-2-server-hosting/",
+    "message": "{marketingSite}/{language}/rising-storm-2-serwer-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-risingworld.title": {
-    "message": "Rising World Gameserver",
+    "message": "Rising World serwer gier",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-risingworld.path": {
@@ -796,87 +796,87 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-riskofrain2.title": {
-    "message": "Risk of Rain 2 Gameserver",
+    "message": "Risk of Rain 2 serwer gier",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-riskofrain2.path": {
-    "message": "{marketingSite}/{language}/risk-of-rain-2-server-hosting/",
+    "message": "{marketingSite}/{language}/wynajem-serwerów-risk-of-rain-2/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-rust.title": {
-    "message": "Rust Gameserver",
+    "message": "Serwer gier Rust",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-rust.path": {
-    "message": "{marketingSite}/{language}/rust-server-hosting/",
+    "message": "{marketingSite}/{language}/rust-serwer-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-sanctuaryisland.title": {
-    "message": "Sanctuary Island Gameserver",
+    "message": "Sanctuary Island serwer gier",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-sanctuaryisland.path": {
-    "message": "{marketingSite}/{language}/sanctuary-island-server-hosting/",
+    "message": "{marketingSite}/{language}/wynajem-serwerów-sanctuary-island/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-satisfactory.title": {
-    "message": "Satisfactory Gameserver",
+    "message": "Serwer gier Satisfactory",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-satisfactory.path": {
-    "message": "{marketingSite}/{language}/satisfactory-server-hosting/",
+    "message": "{marketingSite}/{language}/wynajem-serwerów-satisfactory/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-scp5k.title": {
-    "message": "SCP: 5K Gameserver",
+    "message": "SCP: 5K Serwer Gier",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-scp5k.path": {
-    "message": "{marketingSite}/{language}/scp-5k-server-hosting/",
+    "message": "{marketingSite}/{language}/scp-5k-wynajem-serwerow/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-scp-containmentbreach.title": {
-    "message": "SCP: Containment Breach Gameserver",
+    "message": "SCP: Containment Breach serwer gier",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-scp-containmentbreach.path": {
-    "message": "{marketingSite}/{language}/scp-containment-breach-server-hosting/",
+    "message": "{marketingSite}/{language}/scp-containment-breach-wynajem-serwerow/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-scp-escapetogether.title": {
-    "message": "SCP: Escape Together Gameserver",
+    "message": "SCP: Escape Together serwer gier",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-scp-escapetogether.path": {
-    "message": "{marketingSite}/{language}/scp-escape-together-server-hosting/",
+    "message": "{marketingSite}/{language}/scp-escape-together-wynajem-serwerow/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-scp.title": {
-    "message": "SCP: Secret Laboratory Gameserver",
+    "message": "SCP: Secret Laboratory serwer gier",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-scp.path": {
-    "message": "{marketingSite}/{language}/scp-secret-laboratory-server-hosting/",
+    "message": "{marketingSite}/{language}/scp-secret-laboratory-wynajem-serwerów/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-scum.title": {
-    "message": "SCUM Gameserver",
+    "message": "Serwer gier SCUM",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-scum.path": {
-    "message": "{marketingSite}/{language}/scum-server-hosting/",
+    "message": "{marketingSite}/{language}/scum-serwer-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-soldat.title": {
-    "message": "Soldat Gameserver",
+    "message": "Serwer gier Soldat",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-soldat.path": {
-    "message": "{marketingSite}/{language}/soldat-server-hosting/",
+    "message": "{marketingSite}/{language}/wynajem-serwerów-soldat/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-sonsoftheforest.title": {
-    "message": "Sons of the Forest Gameserver",
+    "message": "Sons of the Forest serwer gier",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-sonsoftheforest.path": {
@@ -884,95 +884,95 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-soulmask.title": {
-    "message": "Soulmask Gameserver",
+    "message": "Soulmask serwer gier",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-soulmask.path": {
-    "message": "{marketingSite}/{language}/soulmask-server-hosting/",
+    "message": "{marketingSite}/{language}/soulmask-serwer-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-spaceengineers.title": {
-    "message": "Space Engineers Gameserver",
+    "message": "Serwer gier Space Engineers",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-spaceengineers.path": {
-    "message": "{marketingSite}/{language}/space-engineers-server-hosting/",
+    "message": "{marketingSite}/{language}/wynajem-serwerów-space-engineers/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-squad.title": {
-    "message": "Squad Gameserver",
+    "message": "Serwer gier Squad",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-squad.path": {
-    "message": "{marketingSite}/{language}/squad-server-hosting/",
+    "message": "{marketingSite}/{language}/wynajem-serwerów-squad/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-starbound.title": {
-    "message": "Starbound Gameserver",
+    "message": "Serwer gier Starbound",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-starbound.path": {
-    "message": "{marketingSite}/{language}/starbound-server-hosting/",
+    "message": "{marketingSite}/{language}/starbound-serwer-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-starmade.title": {
-    "message": "Starmade Gameserver",
+    "message": "Starmade serwer gier",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-starmade.path": {
-    "message": "{marketingSite}/{language}/starmade-server-hosting/",
+    "message": "{marketingSite}/{language}/starmade-serwer-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-staxel.title": {
-    "message": "Staxel Gameserver",
+    "message": "Serwer gier Staxel",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-staxel.path": {
-    "message": "{marketingSite}/{language}/staxel-server-hosting/",
+    "message": "{marketingSite}/{language}/staxel-serwer-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-stormworks.title": {
-    "message": "Stormworks Gameserver",
+    "message": "Serwer gier Stormworks",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-stormworks.path": {
-    "message": "{marketingSite}/{language}/stormworks-server-hosting/",
+    "message": "{marketingSite}/{language}/stormworks-serwer-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-subsistence.title": {
-    "message": "Subsistence Gameserver",
+    "message": "Serwer gier Subsistence",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-subsistence.path": {
-    "message": "{marketingSite}/{language}/subsistence-server-hosting/",
+    "message": "{marketingSite}/{language}/wynajem-serwerow-dedykowanych/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-sunkenland.title": {
-    "message": "Sunkenland Gameserver",
+    "message": "Sunkenland serwer gier",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-sunkenland.path": {
-    "message": "{marketingSite}/{language}/sunkenland-server-hosting/",
+    "message": "{marketingSite}/{language}/sunkenland-serwer-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-tf2.title": {
-    "message": "Team Fortress 2 Gameserver",
+    "message": "Serwer gier Team Fortress 2",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-tf2.path": {
-    "message": "{marketingSite}/{language}/team-fortress-2-server-hosting/",
+    "message": "{marketingSite}/{language}/wynajem-serwerów-team-fortress-2/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-teeworlds.title": {
-    "message": "Teeworlds Gameserver",
+    "message": "Serwer gier Teeworlds",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-teeworlds.path": {
-    "message": "{marketingSite}/{language}/teeworlds-server-hosting/",
+    "message": "{marketingSite}/{language}/teeworlds-serwer-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-terraria.title": {
-    "message": "Terraria Gameserver",
+    "message": "Serwer gier Terraria",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-terraria.path": {
@@ -980,23 +980,23 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-terratech-worlds.title": {
-    "message": "Terratech Worlds Gameserver",
+    "message": "Terratech Worlds serwer gier",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-terratech-worlds.path": {
-    "message": "{marketingSite}/{language}/terratech-worlds-server-hosting/",
+    "message": "{marketingSite}/{language}/terratech-worlds-serwer-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-thebus.title": {
-    "message": "The Bus Gameserver",
+    "message": "Serwer gier The Bus",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-thebus.path": {
-    "message": "{marketingSite}/{language}/the-bus-server-hosting/",
+    "message": "{marketingSite}/{language}/the-bus-serwer-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-thefront.title": {
-    "message": "The Front Gameserver",
+    "message": "Serwer gier Front",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-thefront.path": {
@@ -1004,186 +1004,186 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-theisle.title": {
-    "message": "The Isle Gameserver",
+    "message": "The Isle serwer gier",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-theisle.path": {
-    "message": "{marketingSite}/{language}/the-isle-server-hosting/",
+    "message": "{marketingSite}/{language}/the-isle-wynajem-serwerów/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-lotr-rtm.title": {
-    "message": "The Lord of the Rings: RTM Gameserver",
+    "message": "Władca Pierścieni: RTM Serwer Gier",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-lotr-rtm.path": {
-    "message": "{marketingSite}/{language}/lotr-return-to-moria-server-hosting/",
+    "message": "{marketingSite}/{language}/lotr-return-to-moria-wynajem-serwerow/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-unturned.title": {
-    "message": "Unturned Gameserver",
+    "message": "Serwer gier Unturned",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-unturned.path": {
-    "message": "{marketingSite}/{language}/unturned-3-server-hosting/",
+    "message": "{marketingSite}/{language}/unturned-3-wynajem-serwerow/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-vrising.title": {
-    "message": "V Rising Gameserver",
+    "message": "Serwer gier V Rising",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-vrising.path": {
-    "message": "{marketingSite}/{language}/v-rising-server-hosting/",
+    "message": "{marketingSite}/{language}/v-rising-serwer-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-valheim.title": {
-    "message": "Valheim Gameserver",
+    "message": "Serwer gier Valheim",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-valheim.path": {
-    "message": "{marketingSite}/{language}/valheim-server-hosting/",
+    "message": "{marketingSite}/{language}/valheim-serwer-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-vein.title": {
-    "message": "Vein Gameserver",
+    "message": "Vein Serwer Gier",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-vein.path": {
-    "message": "{marketingSite}/{language}/vein-server-hosting/",
+    "message": "{marketingSite}/{language}/wynajem-serwerow-vein/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-veloren.title": {
-    "message": "Veloren Gameserver",
+    "message": "Serwer gier Veloren",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-veloren.path": {
-    "message": "{marketingSite}/{language}/veloren-server-hosting/",
+    "message": "{marketingSite}/{language}/veloren-serwer-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-vintagestory.title": {
-    "message": "Vintage Story Gameserver",
+    "message": "Vintage Story serwer gier",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-vintagestory.path": {
-    "message": "{marketingSite}/{language}/vintage-story-server-hosting/",
+    "message": "{marketingSite}/{language}/vintage-story-serwer-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-wreckfest.title": {
-    "message": "Wreckfest Gameserver",
+    "message": "Wreckfest serwer gier",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-wreckfest.path": {
-    "message": "{marketingSite}/{language}/wreckfest-server-hosting/",
+    "message": "{marketingSite}/{language}/wynajem-serwerow-wreckfest/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-wreckfest2.title": {
-    "message": "Wreckfest 2 Gameserver",
+    "message": "Wreckfest 2 serwer gier",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-wreckfest2.path": {
-    "message": "{marketingSite}/{language}/wreckfest-2-server-hosting/",
+    "message": "{marketingSite}/{language}/wynajem-serwerow-wreckfest-2/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-wurmunlimited.title": {
-    "message": "Wurm Unlimited Gameserver",
+    "message": "Wurm Unlimited serwer gier",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-wurmunlimited.path": {
-    "message": "{marketingSite}/{language}/wurm-unlimited-server-hosting/",
+    "message": "{marketingSite}/{language}/wurm-unlimited-serwer-hosting/",
     "description": "URL path for the gameserver product"
   },
   "inlinevoucher.title": {
-    "message": "{voucherValue} {voucherType} HOSTING DISCOUNT 🏷️"
+    "message": "{voucherValue} {voucherType} RABAT NA HOSTING 🏷️"
   },
   "inlinevoucher.description.with-products": {
-    "message": "Take the opportunity and start your own project today! Use the discount code for the products listed in this guide and get a 50% discount. 😉"
+    "message": "Wykorzystaj okazję i rozpocznij swój własny projekt już dziś! Użyj kodu rabatowego na produkty wymienione w tym poradniku i otrzymaj 50% zniżki. 😉"
   },
   "inlinevoucher.list-title.with-products": {
-    "message": "This discount code can be used for the following products on a rental basis:"
+    "message": "Ten kod rabatowy można wykorzystać na następujące produkty w ramach wynajmu:"
   },
   "inlinevoucher.description.without-products": {
-    "message": "Ready for your next awesome project 😉"
+    "message": "Gotowy na Twój kolejny niesamowity projekt 😉"
   },
   "inlinevoucher.list-title.without-products": {
-    "message": "Why you should give us a try?"
+    "message": "Dlaczego warto dać nam szansę?"
   },
   "inlinevoucher.list-reasons.first": {
-    "message": "DDoS-Protection"
+    "message": "Ochrona DDoS"
   },
   "inlinevoucher.list-reasons.second": {
-    "message": "Online within minutes"
+    "message": "Online w ciągu kilku minut"
   },
   "inlinevoucher.list-reasons.third": {
-    "message": "Custom webinterface"
+    "message": "Niestandardowy interfejs webowy"
   },
   "inlinevoucher.your-voucher": {
-    "message": "YOUR CODE"
+    "message": "TWÓJ KOD"
   },
   "voucherbox.cta": {
-    "message": "Rent a server"
+    "message": "Wynajmij serwer"
   },
   "voucher.redeem": {
-    "message": "Redeem"
+    "message": "Zrealizuj"
   },
   "accordion.search.placeholder": {
-    "message": "Search...",
+    "message": "Szukaj...",
     "description": "Placeholder text in the accordion search field"
   },
   "accordion.counter": {
-    "message": "{shown} out of {total} contents are displayed",
+    "message": "{shown} z {total} treści jest wyświetlanych",
     "description": "Amount of displayed vs. filtered accordion items"
   },
   "accordion.showMore": {
-    "message": "Show more",
+    "message": "Pokaż więcej",
     "description": "Button to display additional accordion items"
   },
   "searchableItemList.all": {
-    "message": "All"
+    "message": "Wszystko"
   },
   "searchableItemList.uncategorized": {
-    "message": "Uncategorized"
+    "message": "Niekategoryzowane"
   },
   "searchableItemList.searchPlaceholder": {
-    "message": "Search..."
+    "message": "Szukaj..."
   },
   "searchableItemList.showLess": {
-    "message": "Show less"
+    "message": "Pokaż mniej"
   },
   "searchableItemList.showMore": {
-    "message": "Show more"
+    "message": "Pokaż więcej"
   },
   "searchableItemList.openWebsite": {
-    "message": "Open Website"
+    "message": "Otwórz stronę internetową"
   },
   "searchableItemList.counter": {
-    "message": "{shown} out of {total} entries are displayed"
+    "message": "Wyświetlono {shown} z {total} wpisów"
   },
   "searchableItemList.showMoreBtn": {
-    "message": "Show more"
+    "message": "Pokaż więcej"
   },
   "voucherbutton.success": {
     "message": "YEEEAH!"
   },
   "servicelist.introduction": {
-    "message": "This guide was created with the following products:"
+    "message": "Ten poradnik został stworzony z wykorzystaniem następujących produktów:"
   },
   "servicelist.note": {
-    "message": "(Details may vary with products from different providers but the main concepts remain the same)"
+    "message": "(Szczegóły mogą się różnić w zależności od produktów różnych dostawców, ale główne koncepcje pozostają takie same)"
   },
   "voucherbox.title": {
-    "message": "HOSTING DISCOUNT"
+    "message": "RABAT NA HOSTING"
   },
   "contributors.title": {
-    "message": "Guide Contributor(s)"
+    "message": "Autor(zy) poradnika"
   },
   "contributors.description": {
-    "message": "Become a part of the ZAP-Hosting Community today! Join our {contributionLink} to share your knowledge and expertise by producing high-quality guides & creative content whilst earning valuable rewards up to 130€. Begin today and make a difference! 🙂"
+    "message": "Zostań częścią społeczności ZAP-Hosting już dziś! Dołącz do naszego {contributionLink}, aby dzielić się swoją wiedzą i doświadczeniem, tworząc wysokiej jakości poradniki i kreatywne treści, jednocześnie zdobywając cenne nagrody do 130€. Zacznij już dziś i wprowadź zmiany! 🙂"
   },
   "theme.ErrorPageContent.title": {
-    "message": "Ta strona uległa awarii.",
+    "message": "This page has crashed.",
     "description": "The title of the fallback page when the page crashed"
   },
   "theme.BackToTopButton.buttonAriaLabel": {
-    "message": "Przewiń do góry",
+    "message": "Scroll to top",
     "description": "The ARIA label for the back to top button"
   },
   "theme.blog.archive.title": {
@@ -1195,7 +1195,7 @@
     "description": "The page & hero description of the blog archive page"
   },
   "theme.blog.paginator.navAriaLabel": {
-    "message": "Nawigacja na stronie listy wpisów na blogu",
+    "message": "Navigation on the blog post list page",
     "description": "The ARIA label for the blog pagination"
   },
   "theme.blog.paginator.newerEntries": {
@@ -1203,11 +1203,11 @@
     "description": "The label used to navigate to the newer blog posts page (previous page)"
   },
   "theme.blog.paginator.olderEntries": {
-    "message": "Starsze wpisy",
+    "message": "Older entries",
     "description": "The label used to navigate to the older blog posts page (next page)"
   },
   "theme.blog.post.paginator.navAriaLabel": {
-    "message": "Nawigacja na stronie postu na blogu",
+    "message": "Navigation on the blog post page",
     "description": "The ARIA label for the blog posts pagination"
   },
   "theme.blog.post.paginator.newerPost": {
@@ -1223,11 +1223,11 @@
     "description": "The label of the link targeting the tag list page"
   },
   "theme.colorToggle.ariaLabel.mode.system": {
-    "message": "system mode",
+    "message": "tryb systemu",
     "description": "The name for the system color mode"
   },
   "theme.colorToggle.ariaLabel.mode.light": {
-    "message": "jasny motyw",
+    "message": "light theme",
     "description": "The name for the light color mode"
   },
   "theme.colorToggle.ariaLabel.mode.dark": {
@@ -1251,11 +1251,11 @@
     "description": "The ARIA label for the docs pagination"
   },
   "theme.docs.paginator.previous": {
-    "message": "Poprzednia strona",
+    "message": "Previous page",
     "description": "The label used to navigate to the previous doc"
   },
   "theme.docs.paginator.next": {
-    "message": "Następna strona",
+    "message": "Next page",
     "description": "The label used to navigate to the next doc"
   },
   "theme.docs.tagDocListPageTitle.nDocsTagged": {
@@ -1270,11 +1270,11 @@
     "message": "Wersja: {versionLabel}"
   },
   "theme.docs.versions.unreleasedVersionLabel": {
-    "message": "Ta dokumentacja dotyczy najnowszej i nieopublikowanej jeszce wersji {siteTitle} ({versionLabel}).",
+    "message": "Ta dokumentacja dotyczy najnowszej i jeszcze nieopublikowanej wersji {siteTitle} ({versionLabel}).",
     "description": "The label used to tell the user that he's browsing an unreleased doc version"
   },
   "theme.docs.versions.unmaintainedVersionLabel": {
-    "message": "Ta dokumentacja dotyczy {siteTitle} w wersji {versionLabel} i nie jest już aktywnie aktualizowana.",
+    "message": "This documentation concerns {siteTitle} version {versionLabel} and is no longer actively updated.",
     "description": "The label used to tell the user that he's browsing an unmaintained doc version"
   },
   "theme.docs.versions.latestVersionSuggestionLabel": {
@@ -1294,11 +1294,11 @@
     "description": "Title for link to heading"
   },
   "theme.lastUpdated.atDate": {
-    "message": " dnia {date}",
+    "message": "dnia {date}",
     "description": "The words used to describe on which date a page has been last updated"
   },
   "theme.lastUpdated.byUser": {
-    "message": " przez {user}",
+    "message": "przez {user}",
     "description": "The words used to describe by who the page has been last updated"
   },
   "theme.lastUpdated.lastUpdatedAtBy": {
@@ -1306,7 +1306,7 @@
     "description": "The sentence used to display when a page has been last updated, and by who"
   },
   "theme.navbar.mobileVersionsDropdown.label": {
-    "message": "Wersje",
+    "message": "Versions",
     "description": "The label for the navbar versions dropdown on mobile view"
   },
   "theme.NotFound.title": {
@@ -1314,7 +1314,7 @@
     "description": "The title of the 404 page"
   },
   "theme.tags.tagsListLabel": {
-    "message": "Tagi:",
+    "message": "Tags:",
     "description": "The label alongside a tag list"
   },
   "theme.admonition.caution": {
@@ -1334,43 +1334,43 @@
     "description": "The default label used for the Note admonition (:::note)"
   },
   "theme.admonition.tip": {
-    "message": "wskazówka",
+    "message": "tip",
     "description": "The default label used for the Tip admonition (:::tip)"
   },
   "theme.admonition.warning": {
-    "message": "warning",
+    "message": "ostrzeżenie",
     "description": "The default label used for the Warning admonition (:::warning)"
   },
   "theme.AnnouncementBar.closeButtonAriaLabel": {
-    "message": "Zamknij",
+    "message": "Close",
     "description": "The ARIA label for close button of announcement bar"
   },
   "theme.blog.sidebar.navAriaLabel": {
-    "message": "Nawigacja po najnowszych postach na blogu",
+    "message": "Navigation through the latest blog posts",
     "description": "The ARIA label for recent posts in the blog sidebar"
   },
   "theme.DocSidebarItem.expandCategoryAriaLabel": {
-    "message": "Expand sidebar category '{label}'",
+    "message": "Rozwiń kategorię paska bocznego '{label}'",
     "description": "The ARIA label to expand the sidebar category"
   },
   "theme.DocSidebarItem.collapseCategoryAriaLabel": {
-    "message": "Collapse sidebar category '{label}'",
+    "message": "Zwiń kategorię paska bocznego '{label}'",
     "description": "The ARIA label to collapse the sidebar category"
   },
   "theme.NavBar.navAriaLabel": {
-    "message": "Main",
+    "message": "Główna",
     "description": "The ARIA label for the main navigation"
   },
   "theme.NotFound.p1": {
-    "message": "Nie mogliśmy znaleźć strony której szukasz.",
+    "message": "Nie mogliśmy znaleźć strony, której szukasz.",
     "description": "The first paragraph of the 404 page"
   },
   "theme.NotFound.p2": {
-    "message": "Proszę skontaktuj się z właścielem strony, z której link doprowadził Cię tutaj i poinformuj go, że link jest nieprawidłowy.",
+    "message": "Please contact the owner of the site from which the link brought you here and inform them that the link is incorrect.",
     "description": "The 2nd paragraph of the 404 page"
   },
   "theme.navbar.mobileLanguageDropdown.label": {
-    "message": "Języki",
+    "message": "Languages",
     "description": "The label for the mobile language switcher dropdown"
   },
   "theme.TOCCollapsible.toggleButtonLabel": {
@@ -1378,7 +1378,7 @@
     "description": "The label used by the button on the collapsible TOC component"
   },
   "theme.blog.post.readMore": {
-    "message": "Czytaj więcej",
+    "message": "Read more",
     "description": "The label used in blog post item excerpts to link to full blog posts"
   },
   "theme.blog.post.readMoreLabel": {
@@ -1390,11 +1390,11 @@
     "description": "Pluralized label for \"{readingTime} min read\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
   },
   "theme.CodeBlock.copy": {
-    "message": "Kopiuj",
+    "message": "Copy",
     "description": "The copy button label on code blocks"
   },
   "theme.CodeBlock.copied": {
-    "message": "Skopiowano!",
+    "message": "Copied!",
     "description": "The copied button label on code blocks"
   },
   "theme.CodeBlock.copyButtonAriaLabel": {
@@ -1402,7 +1402,7 @@
     "description": "The ARIA label for copy code blocks button"
   },
   "theme.CodeBlock.wordWrapToggle": {
-    "message": "Przełącz zawijanie słów",
+    "message": "Toggle word wrap",
     "description": "The title attribute for toggle word wrapping button of code block lines"
   },
   "theme.docs.breadcrumbs.home": {
@@ -1410,11 +1410,11 @@
     "description": "The ARIA label for the home page in the breadcrumbs"
   },
   "theme.docs.sidebar.collapseButtonTitle": {
-    "message": "Zwiń boczny panel",
+    "message": "Collapse the side panel",
     "description": "The title attribute for collapse button of doc sidebar"
   },
   "theme.docs.sidebar.collapseButtonAriaLabel": {
-    "message": "Zwiń boczny panel",
+    "message": "Collapse the side panel",
     "description": "The title attribute for collapse button of doc sidebar"
   },
   "theme.docs.sidebar.navAriaLabel": {
@@ -1422,7 +1422,7 @@
     "description": "The ARIA label for the sidebar navigation"
   },
   "theme.docs.sidebar.closeSidebarButtonAriaLabel": {
-    "message": "Zamknij panel nawigacji",
+    "message": "Close navigation panel",
     "description": "The ARIA label for close button of mobile sidebar"
   },
   "theme.navbar.mobileSidebarSecondaryMenu.backButtonLabel": {
@@ -1430,23 +1430,23 @@
     "description": "The label of the back button to return to main menu, inside the mobile navbar sidebar secondary menu (notably used to display the docs sidebar)"
   },
   "theme.docs.sidebar.toggleSidebarButtonAriaLabel": {
-    "message": "Przełączanie panelu nawigacyjnego",
+    "message": "Switching the navigation panel",
     "description": "The ARIA label for hamburger menu button of mobile navigation"
   },
   "theme.navbar.mobileDropdown.collapseButton.expandAriaLabel": {
-    "message": "Expand the dropdown",
+    "message": "Rozwiń listę rozwijaną",
     "description": "The ARIA label of the button to expand the mobile dropdown navbar item"
   },
   "theme.navbar.mobileDropdown.collapseButton.collapseAriaLabel": {
-    "message": "Collapse the dropdown",
+    "message": "Zwiń rozwijane menu",
     "description": "The ARIA label of the button to collapse the mobile dropdown navbar item"
   },
   "theme.docs.sidebar.expandButtonTitle": {
-    "message": "Rozszerz boczny panel",
+    "message": "Expand the side panel",
     "description": "The ARIA label and title attribute for expand button of doc sidebar"
   },
   "theme.docs.sidebar.expandButtonAriaLabel": {
-    "message": "Rozszerz boczny panel",
+    "message": "Expand the side panel",
     "description": "The ARIA label and title attribute for expand button of doc sidebar"
   },
   "theme.blog.post.plurals": {
@@ -1462,11 +1462,11 @@
     "description": "The title of the page for a blog author"
   },
   "theme.blog.authorsList.pageTitle": {
-    "message": "Autorzy",
+    "message": "Authors",
     "description": "The title of the authors page"
   },
   "theme.blog.authorsList.viewAll": {
-    "message": "Zobacz wszystkich autorów",
+    "message": "See all authors",
     "description": "The label of the link targeting the blog authors page"
   },
   "theme.blog.author.noPosts": {
@@ -1474,31 +1474,31 @@
     "description": "The text for authors with 0 blog post"
   },
   "theme.contentVisibility.unlistedBanner.title": {
-    "message": "Niepubliczna strona",
+    "message": "Private page",
     "description": "The unlisted content banner title"
   },
   "theme.contentVisibility.unlistedBanner.message": {
-    "message": "Ta strona jest niepubliczna. Wyszukiwarki nie będą jej indeksować, a dostęp do niej będą mieli tylko użytkownicy posiadający bezpośredni link.",
+    "message": "This page is private. Search engines will not index it, and only users with a direct link will have access to it.",
     "description": "The unlisted content banner message"
   },
   "theme.contentVisibility.draftBanner.title": {
-    "message": "Draft page",
+    "message": "Strona robocza",
     "description": "The draft content banner title"
   },
   "theme.contentVisibility.draftBanner.message": {
-    "message": "This page is a draft. It will only be visible in dev and be excluded from the production build.",
+    "message": "Ta strona jest wersją roboczą. Będzie widoczna tylko w środowisku deweloperskim i zostanie wyłączona z wersji produkcyjnej.",
     "description": "The draft content banner message"
   },
   "theme.ErrorPageContent.tryAgain": {
-    "message": "Spróbuj ponownie",
+    "message": "Try again",
     "description": "The label of the button to try again rendering when the React error boundary captures an error"
   },
   "theme.common.skipToMainContent": {
-    "message": "Przejdź do głównej zawartości",
+    "message": "Go to main content",
     "description": "The skip to content label used for accessibility, allowing to rapidly navigate to main content with keyboard tab/enter navigation"
   },
   "theme.tags.tagsPageTitle": {
-    "message": "Tagi",
+    "message": "Tags",
     "description": "The title of the tag list page"
   }
 }

@@ -1,10 +1,10 @@
 {
   "link.title.Rent a Server": {
-    "message": "Rent a Server",
+    "message": "Server mieten",
     "description": "The title of the footer links column with title=Rent a Server in the footer"
   },
   "link.title.Social": {
-    "message": "Social",
+    "message": "Sozial",
     "description": "The title of the footer links column with title=Social in the footer"
   },
   "link.title.Support": {
@@ -12,11 +12,11 @@
     "description": "The title of the footer links column with title=Support in the footer"
   },
   "link.title.Legal": {
-    "message": "Legal",
+    "message": "Rechtliches",
     "description": "The title of the footer links column with title=Legal in the footer"
   },
   "link.item.label.Rent a VPS": {
-    "message": "Miete einen vServer",
+    "message": "Miete einen VPS",
     "description": "The label of footer link with label=Rent a VPS linking to https://zap-hosting.com/en/rent-a-virtual-server/"
   },
   "link.item.label.Rent a Discord Musicbot": {
@@ -36,7 +36,7 @@
     "description": "The label of footer link with label=Discord linking to https://discord.gg/zaphosting"
   },
   "link.item.label.Changelog": {
-    "message": "Changelog",
+    "message": "Änderungsprotokoll",
     "description": "The label of footer link with label=Changelog linking to https://zap-hosting.com/en/changelog/"
   },
   "link.item.label.Ticketsupport": {
@@ -44,7 +44,7 @@
     "description": "The label of footer link with label=Ticketsupport linking to https://zap-hosting.com/en/customer/support/"
   },
   "link.item.label.Server Status": {
-    "message": "Server Status",
+    "message": "Serverstatus",
     "description": "The label of footer link with label=Server Status linking to https://status.zap-hosting.com/"
   },
   "link.item.label.Smokeping": {
@@ -60,7 +60,7 @@
     "description": "The label of footer link with label=Imprint linking to https://zap-hosting.com/en/imprint/"
   },
   "link.item.label.Privacy Policy": {
-    "message": "Datenschutzrichtlinien",
+    "message": "Privacy Policy",
     "description": "The label of footer link with label=Privacy Policy linking to https://zap-hosting.com/en/privacy-policy/"
   },
   "link.item.label.Security": {
@@ -80,7 +80,7 @@
     "description": "The label of footer link with label=Rent a Gameserver linking to https://zap-hosting.com/en/rent-a-gameserver/"
   },
   "link.item.label.Rent a TeamSpeak server": {
-    "message": "Miete einen TeamSpeak Server",
+    "message": "Miete einen TeamSpeak Gameserver",
     "description": "The label of footer link with label=Rent a TeamSpeak server linking to https://zap-hosting.com/en/rent-a-teamspeak-3-server/"
   },
   "link.item.label.Rent a Domain": {
@@ -88,7 +88,7 @@
     "description": "The label of footer link with label=Rent a Domain linking to https://zap-hosting.com/en/domain-check/"
   },
   "link.item.label.Rent a Webspace": {
-    "message": "Miete ein Webspace",
+    "message": "Miete einen Webspace",
     "description": "The label of footer link with label=Rent a Webspace linking to https://zap-hosting.com/en/webhosting-rent-a-webspace/"
   },
   "link.item.label.X": {

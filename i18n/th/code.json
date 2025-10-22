@@ -8,7 +8,7 @@
     "description": "URL path for the VPS product"
   },
   "service.dedicated.title": {
-    "message": "Dedicated Server",
+    "message": "เซิร์ฟเวอร์เฉพาะ",
     "description": "Product name for the dedicated server product"
   },
   "service.dedicated.path": {
@@ -16,7 +16,7 @@
     "description": "URL path for the dedicated server product"
   },
   "service.domain.title": {
-    "message": "Domain",
+    "message": "โดเมน",
     "description": "Product name for the domain product"
   },
   "service.domain.path": {
@@ -24,7 +24,7 @@
     "description": "URL path for the domain product"
   },
   "service.webspace.title": {
-    "message": "Webspace",
+    "message": "เว็บโฮสติ้ง",
     "description": "Product name for the webspace product"
   },
   "service.webspace.path": {
@@ -32,7 +32,7 @@
     "description": "URL path for the webspace product"
   },
   "service.voiceserver.title": {
-    "message": "Voiceserver",
+    "message": "เซิร์ฟเวอร์เสียง",
     "description": "Product name for the voiceserver product"
   },
   "service.voiceserver.path": {
@@ -40,7 +40,7 @@
     "description": "URL path for the voiceserver product"
   },
   "service.voicebot.title": {
-    "message": "Voicebot",
+    "message": "Voice Bot",
     "description": "Product name for the voicebot product"
   },
   "service.voicebot.path": {
@@ -48,7 +48,7 @@
     "description": "URL path for the voicebot product"
   },
   "service.storage.title": {
-    "message": "Premium Storage",
+    "message": "พื้นที่จัดเก็บพรีเมียม",
     "description": "Product name for the storage product"
   },
   "service.storage.path": {
@@ -68,7 +68,7 @@
     "description": "Product name for the storage product"
   },
   "service.gameserver.title": {
-    "message": "Cloud-Gameserver",
+    "message": "เซิร์ฟเวอร์เกมคลาวด์",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver.path": {
@@ -76,15 +76,15 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-7d2d.title": {
-    "message": "7 Days to Die Gameserver",
+    "message": "7 Days to Die เซิร์ฟเวอร์เกม",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-7d2d.path": {
-    "message": "{marketingSite}/{language}/7-days-to-die-server-hosting/",
+    "message": "{marketingSite}/{language}/7-days-to-die-เช่าเซิร์ฟเวอร์/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-abioticfactor.title": {
-    "message": "Abiotic Factor Gameserver",
+    "message": "ปัจจัยที่ไม่ใช่สิ่งมีชีวิต เซิร์ฟเวอร์เกม",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-abioticfactor.path": {
@@ -92,7 +92,7 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-afterinfection.title": {
-    "message": "Afterinfection Gameserver",
+    "message": "Afterinfection เซิร์ฟเวอร์เกม",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-afterinfection.path": {
@@ -100,7 +100,7 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-amongus.title": {
-    "message": "Among Us Gameserver",
+    "message": "เซิร์ฟเวอร์เกม Among Us",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-amongus.path": {
@@ -108,7 +108,7 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-animalia-survival.title": {
-    "message": "Animalia Survival Gameserver",
+    "message": "Animalia Survival เซิร์ฟเวอร์เกม",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-animalia-survival.path": {
@@ -116,7 +116,7 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-argo.title": {
-    "message": "Argo Gameserver",
+    "message": "Argo เซิร์ฟเวอร์เกม",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-argo.path": {
@@ -124,15 +124,15 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-ark.title": {
-    "message": "ARK: Survival Evolved Gameserver",
+    "message": "เซิร์ฟเวอร์เกม ARK: Survival Evolved",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-ark.path": {
-    "message": "{marketingSite}/{language}/ark-survival-evolved-server-hosting/",
+    "message": "{marketingSite}/{language}/ark-survival-evolved-เช่าเซิร์ฟเวอร์/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-arma3.title": {
-    "message": "Arma 3 Gameserver",
+    "message": "Arma 3 เซิร์ฟเวอร์เกม",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-arma3.path": {
@@ -140,7 +140,7 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-arma-reforger.title": {
-    "message": "Arma Reforger Gameserver",
+    "message": "Arma Reforger เซิร์ฟเวอร์เกม",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-arma-reforger.path": {
@@ -148,7 +148,7 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-assettocorsa.title": {
-    "message": "Assetto Corsa Gameserver",
+    "message": "เซิร์ฟเวอร์เกม Assetto Corsa",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-assettocorsa.path": {
@@ -156,7 +156,7 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-assetto-competizione.title": {
-    "message": "Assetto Corsa Competizione Gameserver",
+    "message": "เซิร์ฟเวอร์เกม Assetto Corsa Competizione",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-assetto-competizione.path": {
@@ -164,7 +164,7 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-astrocolony.title": {
-    "message": "Astro Colony Gameserver",
+    "message": "Astro Colony เซิร์ฟเวอร์เกม",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-astrocolony.path": {
@@ -172,7 +172,7 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-astroneer.title": {
-    "message": "ASTRONEER Gameserver",
+    "message": "เซิร์ฟเวอร์เกม ASTRONEER",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-astroneer.path": {
@@ -180,15 +180,15 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-avorion.title": {
-    "message": "Avorion Gameserver",
+    "message": "Avorion เซิร์ฟเวอร์เกม",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-avorion.path": {
-    "message": "{marketingSite}/{language}/avorion-server-hosting/",
+    "message": "{marketingSite}/{language}/avorion-เช่าเซิร์ฟเวอร์/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-ats.title": {
-    "message": "American Truck Simulator Gameserver",
+    "message": "เซิร์ฟเวอร์เกม American Truck Simulator",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-ats.path": {
@@ -196,7 +196,7 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-bananashooter.title": {
-    "message": "Banana Shooter Gameserver",
+    "message": "เซิร์ฟเวอร์เกม Banana Shooter",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-bananashooter.path": {
@@ -204,7 +204,7 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-barotrauma.title": {
-    "message": "Barotrauma Gameserver",
+    "message": "เซิร์ฟเวอร์เกม Barotrauma",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-barotrauma.path": {
@@ -212,15 +212,15 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-battalion1944.title": {
-    "message": "Battalion 1944 Gameserver",
+    "message": "เซิร์ฟเวอร์เกม Battalion 1944",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-battalion1944.path": {
-    "message": "{marketingSite}/{language}/battalion-1944-server-hosting/",
+    "message": "{marketingSite}/{language}/battalion-1944-เช่าเซิร์ฟเวอร์/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-battlegrounds3.title": {
-    "message": "Battle Grounds III Gameserver",
+    "message": "Battle Grounds III เซิร์ฟเวอร์เกม",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-battlegrounds3.path": {
@@ -228,7 +228,7 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-beammp.title": {
-    "message": "BeamMP Gameserver",
+    "message": "เซิร์ฟเวอร์เกม BeamMP",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-beammp.path": {
@@ -236,7 +236,7 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-bob.title": {
-    "message": "Beasts of Bermuda Gameserver",
+    "message": "เซิร์ฟเวอร์เกม Beasts of Bermuda",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-bob.path": {
@@ -244,15 +244,15 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-beyondthewire.title": {
-    "message": "Beyond the Wire Gameserver",
+    "message": "เซิร์ฟเวอร์เกม Beyond the Wire",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-beyondthewire.path": {
-    "message": "{marketingSite}/{language}/beyond-the-wire-server-hosting/",
+    "message": "{marketingSite}/{language}/beyond-the-wire-เช่าเซิร์ฟเวอร์/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-brokeprotocol.title": {
-    "message": "Broke Protocol Gameserver",
+    "message": "เซิร์ฟเวอร์เกม Broke Protocol",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-brokeprotocol.path": {
@@ -260,7 +260,7 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-citadel-forgedwithfire.title": {
-    "message": "Citadel: Forged With Fire Gameserver",
+    "message": "Citadel: Forged With Fire เซิร์ฟเวอร์เกม",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-citadel-forgedwithfire.path": {
@@ -268,7 +268,7 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-colonysurvival.title": {
-    "message": "Colony Survival Gameserver",
+    "message": "เซิร์ฟเวอร์เกม Colony Survival",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-colonysurvival.path": {
@@ -276,7 +276,7 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-conan.title": {
-    "message": "Conan Exiles Gameserver",
+    "message": "เซิร์ฟเวอร์เกม Conan Exiles",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-conan.path": {
@@ -284,7 +284,7 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-contagion.title": {
-    "message": "Contagion Gameserver",
+    "message": "Contagion เซิร์ฟเวอร์เกม",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-contagion.path": {
@@ -292,7 +292,7 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-corekeeper.title": {
-    "message": "Core Keeper Gameserver",
+    "message": "Core Keeper เซิร์ฟเวอร์เกม",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-corekeeper.path": {
@@ -300,7 +300,7 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-craftopia.title": {
-    "message": "Craftopia Gameserver",
+    "message": "เซิร์ฟเวอร์เกม Craftopia",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-craftopia.path": {
@@ -308,7 +308,7 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-cryofall.title": {
-    "message": "Cryofall Gameserver",
+    "message": "Cryofall เซิร์ฟเวอร์เกม",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-cryofall.path": {
@@ -316,23 +316,23 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-cs16.title": {
-    "message": "Counter-Strike 1.6 Gameserver",
+    "message": "เซิร์ฟเวอร์เกม Counter-Strike 1.6",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-cs16.path": {
-    "message": "{marketingSite}/{language}/counter-strike-1-6-server-hosting/",
+    "message": "{marketingSite}/{language}/counter-strike-1-6-เช่าเซิร์ฟเวอร์/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-cs2.title": {
-    "message": "Counter-Strike 2 Gameserver",
+    "message": "เซิร์ฟเวอร์เกม Counter-Strike 2",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-cs2.path": {
-    "message": "{marketingSite}/{language}/counter-strike-2-server-hosting/",
+    "message": "{marketingSite}/{language}/counter-strike-2-เช่าเซิร์ฟเวอร์/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-css.title": {
-    "message": "Counter-Strike: Source Gameserver",
+    "message": "เซิร์ฟเวอร์เกม Counter-Strike: Source",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-css.path": {
@@ -340,15 +340,15 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-dayofinfamy.title": {
-    "message": "Day of Infamy Gameserver",
+    "message": "เซิร์ฟเวอร์เกม Day of Infamy",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-dayofinfamy.path": {
-    "message": "{marketingSite}/{language}/day-of-infamy-server-hosting/",
+    "message": "{marketingSite}/{language}/day-of-infamy-เช่าเซิร์ฟเวอร์/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-dayz.title": {
-    "message": "DayZ Gameserver",
+    "message": "DayZ เซิร์ฟเวอร์เกม",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-dayz.path": {
@@ -356,15 +356,15 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-ddracenetwork.title": {
-    "message": "DDraceNetwork Gameserver",
+    "message": "DDraceNetwork เซิร์ฟเวอร์เกม",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-ddracenetwork.path": {
-    "message": "{marketingSite}/{language}/ddracenetwork-server-hosting/",
+    "message": "{marketingSite}/{language}/ddracenetwork-เช่าเซิร์ฟเวอร์/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-deadlock.title": {
-    "message": "Deadlock Gameserver",
+    "message": "Deadlock เซิร์ฟเวอร์เกม",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-deadlock.path": {
@@ -372,7 +372,7 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-deadpoly.title": {
-    "message": "DeadPoly Gameserver",
+    "message": "เซิร์ฟเวอร์เกม DeadPoly",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-deadpoly.path": {
@@ -380,7 +380,7 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-dods.title": {
-    "message": "Day of Defeat: Source Gameserver",
+    "message": "Day of Defeat: Source เซิร์ฟเวอร์เกม",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-dods.path": {
@@ -388,7 +388,7 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-dst.title": {
-    "message": "Don't Starve Together Gameserver",
+    "message": "เซิร์ฟเวอร์เกม Don't Starve Together",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-dst.path": {
@@ -396,7 +396,7 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-eco.title": {
-    "message": "ECO Gameserver",
+    "message": "ECO เซิร์ฟเวอร์เกม",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-eco.path": {
@@ -404,7 +404,7 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-empyrion.title": {
-    "message": "Empyrion Gameserver",
+    "message": "เซิร์ฟเวอร์เกม Empyrion",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-empyrion.path": {
@@ -412,7 +412,7 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-enshrouded.title": {
-    "message": "Enshrouded Gameserver",
+    "message": "Enshrouded เซิร์ฟเวอร์เกม",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-enshrouded.path": {
@@ -420,15 +420,15 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-ets2.title": {
-    "message": "Euro Truck Simulator 2 Gameserver",
+    "message": "เซิร์ฟเวอร์เกม Euro Truck Simulator 2",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-ets2.path": {
-    "message": "{marketingSite}/{language}/euro-truck-simulator-2-server-hosting/",
+    "message": "{marketingSite}/{language}/euro-truck-simulator-2-เช่าเซิร์ฟเวอร์/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-factorio.title": {
-    "message": "Factorio Gameserver",
+    "message": "เซิร์ฟเวอร์เกม Factorio",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-factorio.path": {
@@ -436,7 +436,7 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-fivem.title": {
-    "message": "FiveM Gameserver",
+    "message": "FiveM เซิร์ฟเวอร์เกม",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-fivem.path": {
@@ -444,7 +444,7 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-foundry.title": {
-    "message": "Foundry Gameserver",
+    "message": "Foundry เซิร์ฟเวอร์เกม",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-foundry.path": {
@@ -452,7 +452,7 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-gmod.title": {
-    "message": "Garry's Mod Gameserver",
+    "message": "เซิร์ฟเวอร์เกม Garry's Mod",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-gmod.path": {
@@ -460,7 +460,7 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-groundbranch.title": {
-    "message": "Ground Branch Gameserver",
+    "message": "Ground Branch เซิร์ฟเวอร์เกม",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-groundbranch.path": {
@@ -468,7 +468,7 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-hl1.title": {
-    "message": "Half-Life 1 Gameserver",
+    "message": "เซิร์ฟเวอร์เกม Half-Life 1",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-hl1.path": {
@@ -476,7 +476,7 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-hl2.title": {
-    "message": "Half-Life 2 Gameserver",
+    "message": "เซิร์ฟเวอร์เกม Half-Life 2",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-hl2.path": {
@@ -484,7 +484,7 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-holdfast.title": {
-    "message": "Holdfast: Nations At War Gameserver",
+    "message": "Holdfast: Nations At War เซิร์ฟเวอร์เกม",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-holdfast.path": {
@@ -492,7 +492,7 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-humanitz.title": {
-    "message": "HumanitZ Gameserver",
+    "message": "HumanitZ เซิร์ฟเวอร์เกม",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-humanitz.path": {
@@ -500,7 +500,7 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-hurtworld.title": {
-    "message": "Hurtworld Gameserver",
+    "message": "Hurtworld เซิร์ฟเวอร์เกม",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-hurtworld.path": {
@@ -508,7 +508,7 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-icarus.title": {
-    "message": "Icarus Gameserver",
+    "message": "Icarus เซิร์ฟเวอร์เกม",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-icarus.path": {
@@ -516,15 +516,15 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-insurgency.title": {
-    "message": "Insurgency: Sandstorm Gameserver",
+    "message": "Insurgency: Sandstorm เซิร์ฟเวอร์เกม",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-insurgency.path": {
-    "message": "{marketingSite}/{language}/insurgency-sandstorm-server-hosting/",
+    "message": "{marketingSite}/{language}/insurgency-sandstorm-เช่าเซิร์ฟเวอร์/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-ironarmada.title": {
-    "message": "Iron Armada Gameserver",
+    "message": "Iron Armada เซิร์ฟเวอร์เกม",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-ironarmada.path": {
@@ -532,7 +532,7 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-jol.title": {
-    "message": "Journey of Life Gameserver",
+    "message": "การเดินทางของเซิร์ฟเวอร์เกม Journey of Life",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-jol.path": {
@@ -540,15 +540,15 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-killingfloor2.title": {
-    "message": "Killing Floor 2 Gameserver",
+    "message": "เซิร์ฟเวอร์เกม Killing Floor 2",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-killingfloor2.path": {
-    "message": "{marketingSite}/{language}/killing-floor-2-server-hosting/",
+    "message": "{marketingSite}/{language}/killing-floor-2-เช่าเซิร์ฟเวอร์/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-lastoasis.title": {
-    "message": "Last Oasis Gameserver",
+    "message": "Last Oasis เซิร์ฟเวอร์เกม",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-lastoasis.path": {
@@ -556,7 +556,7 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-leap.title": {
-    "message": "Leap Gameserver",
+    "message": "Leap เซิร์ฟเวอร์เกม",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-leap.path": {
@@ -564,15 +564,15 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-l4d2.title": {
-    "message": "Left 4 Dead 2 Gameserver",
+    "message": "เซิร์ฟเวอร์เกม Left 4 Dead 2",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-l4d2.path": {
-    "message": "{marketingSite}/{language}/left-4-dead-2-server-hosting/",
+    "message": "{marketingSite}/{language}/left-4-dead-2-เช่าเซิร์ฟเวอร์/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-longvinter.title": {
-    "message": "Longvinter Gameserver",
+    "message": "Longvinter เซิร์ฟเวอร์เกม",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-longvinter.path": {
@@ -580,7 +580,7 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-minecraft.title": {
-    "message": "Minecraft Gameserver",
+    "message": "เซิร์ฟเวอร์เกม Minecraft",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-minecraft.path": {
@@ -588,7 +588,7 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-minetest.title": {
-    "message": "Minetest Gameserver",
+    "message": "เซิร์ฟเวอร์เกม Minetest",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-minetest.path": {
@@ -596,7 +596,7 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-miscreated.title": {
-    "message": "Miscreated Gameserver",
+    "message": "เซิร์ฟเวอร์เกม Miscreated",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-miscreated.path": {
@@ -604,15 +604,15 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-motortown.title": {
-    "message": "Motor Town: Behind The Wheel Gameserver",
+    "message": "Motor Town: เซิร์ฟเวอร์เกม Behind The Wheel",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-motortown.path": {
-    "message": "{marketingSite}/{language}/motor-town-behind-the-wheel-server-hosting/",
+    "message": "{marketingSite}/{language}/motor-town-behind-the-wheel-เช่าเซิร์ฟเวอร์/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-mountandblade.title": {
-    "message": "Mount & Blade Gameserver",
+    "message": "เซิร์ฟเวอร์เกม Mount & Blade",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-mountandblade.path": {
@@ -620,7 +620,7 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-mta.title": {
-    "message": "Multi Theft Auto Gameserver",
+    "message": "เซิร์ฟเวอร์เกม Multi Theft Auto",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-mta.path": {
@@ -628,15 +628,15 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-moe.title": {
-    "message": "Myth of Empires Gameserver",
+    "message": "Myth of Empires เซิร์ฟเวอร์เกม",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-moe.path": {
-    "message": "{marketingSite}/{language}/myth-of-empires-server-hosting/",
+    "message": "{marketingSite}/{language}/myth-of-empires-เช่าเซิร์ฟเวอร์/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-necesse.title": {
-    "message": "Necesse Gameserver",
+    "message": "Necesse เซิร์ฟเวอร์เกม",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-necesse.path": {
@@ -644,7 +644,7 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-nstp.title": {
-    "message": "Never Split the Party Gameserver",
+    "message": "Never Split the Party เซิร์ฟเวอร์เกม",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-nstp.path": {
@@ -652,7 +652,7 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-nienix.title": {
-    "message": "Nienix Gameserver",
+    "message": "Nienix เซิร์ฟเวอร์เกม",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-nienix.path": {
@@ -660,7 +660,7 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-nmrih.title": {
-    "message": "No More Room In Hell Gameserver",
+    "message": "No More Room In Hell เซิร์ฟเวอร์เกม",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-nmrih.path": {
@@ -668,7 +668,7 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-noonesurvived.title": {
-    "message": "No One Survived Gameserver",
+    "message": "ไม่มีใครรอดชีวิตบนเซิร์ฟเวอร์เกม",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-noonesurvived.path": {
@@ -676,15 +676,15 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-ohol.title": {
-    "message": "One Hour One Life Gameserver",
+    "message": "เซิร์ฟเวอร์เกม One Hour One Life",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-ohol.path": {
-    "message": "{marketingSite}/{language}/one-hour-one-life-server-hosting/",
+    "message": "{marketingSite}/{language}/เช่าเซิร์ฟเวอร์-one-hour-one-life/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-openmp.title": {
-    "message": "Open.mp Gameserver",
+    "message": "Open.mp เซิร์ฟเวอร์เกม",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-openmp.path": {
@@ -692,7 +692,7 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-openttd.title": {
-    "message": "OpenTTD Gameserver",
+    "message": "เซิร์ฟเวอร์เกม OpenTTD",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-openttd.path": {
@@ -700,7 +700,7 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-ohd.title": {
-    "message": "Operation: Harsh Doorstop Gameserver",
+    "message": "การดำเนินการ: เซิร์ฟเวอร์เกม Harsh Doorstop",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-ohd.path": {
@@ -708,7 +708,7 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-ootow.title": {
-    "message": "Outlaws of the Old West Gameserver",
+    "message": "Outlaws of the Old West เซิร์ฟเวอร์เกม",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-ootow.path": {
@@ -716,7 +716,7 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-palworld.title": {
-    "message": "Palworld Gameserver",
+    "message": "Palworld เซิร์ฟเวอร์เกม",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-palworld.path": {
@@ -724,15 +724,15 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-pathoftitans.title": {
-    "message": "Path of Titans Gameserver",
+    "message": "เซิร์ฟเวอร์เกม Path of Titans",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-pathoftitans.path": {
-    "message": "{marketingSite}/{language}/path-of-titans-server-hosting/",
+    "message": "{marketingSite}/{language}/path-of-titans-เช่าเซิร์ฟเวอร์/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-pixark.title": {
-    "message": "PixARK Gameserver",
+    "message": "PixARK เซิร์ฟเวอร์เกม",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-pixark.path": {
@@ -740,7 +740,7 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-portalknights.title": {
-    "message": "Portal Knights Gameserver",
+    "message": "เซิร์ฟเวอร์เกม Portal Knights",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-portalknights.path": {
@@ -748,7 +748,7 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-projectzomboid.title": {
-    "message": "Project Zomboid Gameserver",
+    "message": "เซิร์ฟเวอร์เกม Project Zomboid",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-projectzomboid.path": {
@@ -756,7 +756,7 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-redm.title": {
-    "message": "RedM Gameserver",
+    "message": "เซิร์ฟเวอร์เกม RedM",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-redm.path": {
@@ -764,7 +764,7 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-reignofkings.title": {
-    "message": "Reign of Kings Gameserver",
+    "message": "Reign of Kings เซิร์ฟเวอร์เกม",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-reignofkings.path": {
@@ -772,7 +772,7 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-rimworldtogether.title": {
-    "message": "RimWorld Together Gameserver",
+    "message": "RimWorld Together เซิร์ฟเวอร์เกม",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-rimworldtogether.path": {
@@ -780,7 +780,7 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-risingstorm2.title": {
-    "message": "Rising Storm 2 Gameserver",
+    "message": "Rising Storm 2 เซิร์ฟเวอร์เกม",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-risingstorm2.path": {
@@ -788,7 +788,7 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-risingworld.title": {
-    "message": "Rising World Gameserver",
+    "message": "Rising World เซิร์ฟเวอร์เกม",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-risingworld.path": {
@@ -796,15 +796,15 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-riskofrain2.title": {
-    "message": "Risk of Rain 2 Gameserver",
+    "message": "Risk of Rain 2 เซิร์ฟเวอร์เกม",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-riskofrain2.path": {
-    "message": "{marketingSite}/{language}/risk-of-rain-2-server-hosting/",
+    "message": "{marketingSite}/{language}/risk-of-rain-2-เช่าเซิร์ฟเวอร์/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-rust.title": {
-    "message": "Rust Gameserver",
+    "message": "เซิร์ฟเวอร์เกม Rust",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-rust.path": {
@@ -812,7 +812,7 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-sanctuaryisland.title": {
-    "message": "Sanctuary Island Gameserver",
+    "message": "Sanctuary Island เซิร์ฟเวอร์เกม",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-sanctuaryisland.path": {
@@ -820,7 +820,7 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-satisfactory.title": {
-    "message": "Satisfactory Gameserver",
+    "message": "เซิร์ฟเวอร์เกม Satisfactory",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-satisfactory.path": {
@@ -828,7 +828,7 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-scp5k.title": {
-    "message": "SCP: 5K Gameserver",
+    "message": "SCP: 5K เซิร์ฟเวอร์เกม",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-scp5k.path": {
@@ -836,7 +836,7 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-scp-containmentbreach.title": {
-    "message": "SCP: Containment Breach Gameserver",
+    "message": "SCP: Containment Breach เซิร์ฟเวอร์เกม",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-scp-containmentbreach.path": {
@@ -844,7 +844,7 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-scp-escapetogether.title": {
-    "message": "SCP: Escape Together Gameserver",
+    "message": "SCP: Escape Together เซิร์ฟเวอร์เกม",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-scp-escapetogether.path": {
@@ -852,7 +852,7 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-scp.title": {
-    "message": "SCP: Secret Laboratory Gameserver",
+    "message": "SCP: Secret Laboratory เซิร์ฟเวอร์เกม",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-scp.path": {
@@ -860,7 +860,7 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-scum.title": {
-    "message": "SCUM Gameserver",
+    "message": "เซิร์ฟเวอร์เกม SCUM",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-scum.path": {
@@ -868,7 +868,7 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-soldat.title": {
-    "message": "Soldat Gameserver",
+    "message": "เซิร์ฟเวอร์เกม Soldat",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-soldat.path": {
@@ -876,7 +876,7 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-sonsoftheforest.title": {
-    "message": "Sons of the Forest Gameserver",
+    "message": "Sons of the Forest เซิร์ฟเวอร์เกม",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-sonsoftheforest.path": {
@@ -884,7 +884,7 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-soulmask.title": {
-    "message": "Soulmask Gameserver",
+    "message": "Soulmask เซิร์ฟเวอร์เกม",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-soulmask.path": {
@@ -892,7 +892,7 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-spaceengineers.title": {
-    "message": "Space Engineers Gameserver",
+    "message": "เซิร์ฟเวอร์เกม Space Engineers",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-spaceengineers.path": {
@@ -900,7 +900,7 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-squad.title": {
-    "message": "Squad Gameserver",
+    "message": "เซิร์ฟเวอร์เกม Squad",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-squad.path": {
@@ -908,7 +908,7 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-starbound.title": {
-    "message": "Starbound Gameserver",
+    "message": "เซิร์ฟเวอร์เกม Starbound",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-starbound.path": {
@@ -916,7 +916,7 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-starmade.title": {
-    "message": "Starmade Gameserver",
+    "message": "เซิร์ฟเวอร์เกม Starmade",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-starmade.path": {
@@ -924,7 +924,7 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-staxel.title": {
-    "message": "Staxel Gameserver",
+    "message": "เซิร์ฟเวอร์เกม Staxel",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-staxel.path": {
@@ -932,7 +932,7 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-stormworks.title": {
-    "message": "Stormworks Gameserver",
+    "message": "เซิร์ฟเวอร์เกม Stormworks",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-stormworks.path": {
@@ -940,7 +940,7 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-subsistence.title": {
-    "message": "Subsistence Gameserver",
+    "message": "เซิร์ฟเวอร์เกม Subsistence",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-subsistence.path": {
@@ -948,7 +948,7 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-sunkenland.title": {
-    "message": "Sunkenland Gameserver",
+    "message": "เซิร์ฟเวอร์เกม Sunkenland",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-sunkenland.path": {
@@ -956,7 +956,7 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-tf2.title": {
-    "message": "Team Fortress 2 Gameserver",
+    "message": "เซิร์ฟเวอร์เกม Team Fortress 2",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-tf2.path": {
@@ -964,7 +964,7 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-teeworlds.title": {
-    "message": "Teeworlds Gameserver",
+    "message": "เซิร์ฟเวอร์เกม Teeworlds",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-teeworlds.path": {
@@ -972,7 +972,7 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-terraria.title": {
-    "message": "Terraria Gameserver",
+    "message": "เซิร์ฟเวอร์เกม Terraria",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-terraria.path": {
@@ -980,7 +980,7 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-terratech-worlds.title": {
-    "message": "Terratech Worlds Gameserver",
+    "message": "Terratech Worlds เซิร์ฟเวอร์เกม",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-terratech-worlds.path": {
@@ -988,7 +988,7 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-thebus.title": {
-    "message": "The Bus Gameserver",
+    "message": "เซิร์ฟเวอร์เกม The Bus",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-thebus.path": {
@@ -996,7 +996,7 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-thefront.title": {
-    "message": "The Front Gameserver",
+    "message": "เซิร์ฟเวอร์เกม Front",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-thefront.path": {
@@ -1004,7 +1004,7 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-theisle.title": {
-    "message": "The Isle Gameserver",
+    "message": "The Isle เซิร์ฟเวอร์เกม",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-theisle.path": {
@@ -1012,23 +1012,23 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-lotr-rtm.title": {
-    "message": "The Lord of the Rings: RTM Gameserver",
+    "message": "The Lord of the Rings: RTM เซิร์ฟเวอร์เกม",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-lotr-rtm.path": {
-    "message": "{marketingSite}/{language}/lotr-return-to-moria-server-hosting/",
+    "message": "{marketingSite}/{language}/lotr-return-to-moria-เช่าเซิร์ฟเวอร์/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-unturned.title": {
-    "message": "Unturned Gameserver",
+    "message": "เซิร์ฟเวอร์เกม Unturned",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-unturned.path": {
-    "message": "{marketingSite}/{language}/unturned-3-server-hosting/",
+    "message": "{marketingSite}/{language}/unturned-3-เช่าเซิร์ฟเวอร์/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-vrising.title": {
-    "message": "V Rising Gameserver",
+    "message": "V Rising เซิร์ฟเวอร์เกม",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-vrising.path": {
@@ -1036,7 +1036,7 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-valheim.title": {
-    "message": "Valheim Gameserver",
+    "message": "Valheim เซิร์ฟเวอร์เกม",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-valheim.path": {
@@ -1044,7 +1044,7 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-vein.title": {
-    "message": "Vein Gameserver",
+    "message": "Vein เซิร์ฟเวอร์เกม",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-vein.path": {
@@ -1052,7 +1052,7 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-veloren.title": {
-    "message": "Veloren Gameserver",
+    "message": "Veloren เซิร์ฟเวอร์เกม",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-veloren.path": {
@@ -1060,7 +1060,7 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-vintagestory.title": {
-    "message": "Vintage Story Gameserver",
+    "message": "เซิร์ฟเวอร์เกม Vintage Story",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-vintagestory.path": {
@@ -1068,7 +1068,7 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-wreckfest.title": {
-    "message": "Wreckfest Gameserver",
+    "message": "เซิร์ฟเวอร์เกม Wreckfest",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-wreckfest.path": {
@@ -1076,7 +1076,7 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-wreckfest2.title": {
-    "message": "Wreckfest 2 Gameserver",
+    "message": "Wreckfest 2 เซิร์ฟเวอร์เกม",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-wreckfest2.path": {
@@ -1084,7 +1084,7 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-wurmunlimited.title": {
-    "message": "Wurm Unlimited Gameserver",
+    "message": "Wurm Unlimited เซิร์ฟเวอร์เกม",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-wurmunlimited.path": {
@@ -1092,369 +1092,369 @@
     "description": "URL path for the gameserver product"
   },
   "inlinevoucher.title": {
-    "message": "{voucherValue} {voucherType} HOSTING DISCOUNT 🏷️"
+    "message": "{voucherValue} {voucherType} ส่วนลดเช่าเซิร์ฟเวอร์ 🏷️"
   },
   "inlinevoucher.description.with-products": {
-    "message": "Take the opportunity and start your own project today! Use the discount code for the products listed in this guide and get a 50% discount. 😉"
+    "message": "คว้าโอกาสและเริ่มต้นโปรเจกต์ของคุณวันนี้เลย! ใช้รหัสส่วนลดสำหรับผลิตภัณฑ์ที่ระบุในคู่มือนี้และรับส่วนลด 50% 😉"
   },
   "inlinevoucher.list-title.with-products": {
-    "message": "This discount code can be used for the following products on a rental basis:"
+    "message": "รหัสส่วนลดนี้สามารถใช้กับผลิตภัณฑ์ต่อไปนี้ในรูปแบบการเช่าได้:"
   },
   "inlinevoucher.description.without-products": {
-    "message": "Ready for your next awesome project 😉"
+    "message": "พร้อมสำหรับโปรเจกต์สุดเจ๋งของคุณครั้งต่อไป 😉"
   },
   "inlinevoucher.list-title.without-products": {
-    "message": "Why you should give us a try?"
+    "message": "ทำไมคุณควรลองใช้บริการของเรา?"
   },
   "inlinevoucher.list-reasons.first": {
-    "message": "DDoS-Protection"
+    "message": "ป้องกัน DDoS"
   },
   "inlinevoucher.list-reasons.second": {
-    "message": "Online within minutes"
+    "message": "ออนไลน์ภายในไม่กี่นาที"
   },
   "inlinevoucher.list-reasons.third": {
-    "message": "Custom webinterface"
+    "message": "เว็บอินเทอร์เฟซที่กำหนดเอง"
   },
   "inlinevoucher.your-voucher": {
-    "message": "YOUR CODE"
+    "message": "รหัสของคุณ"
   },
   "voucherbox.cta": {
-    "message": "Rent a server"
+    "message": "เช่าเซิร์ฟเวอร์"
   },
   "voucher.redeem": {
-    "message": "Redeem"
+    "message": "แลกใช้"
   },
   "accordion.search.placeholder": {
-    "message": "Search...",
+    "message": "ค้นหา...",
     "description": "Placeholder text in the accordion search field"
   },
   "accordion.counter": {
-    "message": "{shown} out of {total} contents are displayed",
+    "message": "{shown} จาก {total} เนื้อหาถูกแสดงผล",
     "description": "Amount of displayed vs. filtered accordion items"
   },
   "accordion.showMore": {
-    "message": "Show more",
+    "message": "แสดงเพิ่มเติม",
     "description": "Button to display additional accordion items"
   },
   "searchableItemList.all": {
-    "message": "All"
+    "message": "ทั้งหมด"
   },
   "searchableItemList.uncategorized": {
-    "message": "Uncategorized"
+    "message": "ไม่จัดหมวดหมู่"
   },
   "searchableItemList.searchPlaceholder": {
-    "message": "Search..."
+    "message": "ค้นหา..."
   },
   "searchableItemList.showLess": {
-    "message": "Show less"
+    "message": "แสดงน้อยลง"
   },
   "searchableItemList.showMore": {
-    "message": "Show more"
+    "message": "แสดงเพิ่มเติม"
   },
   "searchableItemList.openWebsite": {
-    "message": "Open Website"
+    "message": "เปิดเว็บไซต์"
   },
   "searchableItemList.counter": {
-    "message": "{shown} out of {total} entries are displayed"
+    "message": "{shown} จาก {total} รายการที่แสดงอยู่"
   },
   "searchableItemList.showMoreBtn": {
-    "message": "Show more"
+    "message": "แสดงเพิ่มเติม"
   },
   "voucherbutton.success": {
-    "message": "YEEEAH!"
+    "message": "เย้!"
   },
   "servicelist.introduction": {
-    "message": "This guide was created with the following products:"
+    "message": "คู่มือนี้ถูกสร้างขึ้นด้วยผลิตภัณฑ์ดังต่อไปนี้:"
   },
   "servicelist.note": {
-    "message": "(Details may vary with products from different providers but the main concepts remain the same)"
+    "message": "(รายละเอียดอาจแตกต่างกันไปตามผลิตภัณฑ์จากผู้ให้บริการต่างๆ แต่แนวคิดหลักยังคงเหมือนเดิม)"
   },
   "voucherbox.title": {
-    "message": "HOSTING DISCOUNT"
+    "message": "ส่วนลดเช่าเซิร์ฟเวอร์"
   },
   "contributors.title": {
-    "message": "Guide Contributor(s)"
+    "message": "ผู้ร่วมเขียนคู่มือ"
   },
   "contributors.description": {
-    "message": "Become a part of the ZAP-Hosting Community today! Join our {contributionLink} to share your knowledge and expertise by producing high-quality guides & creative content whilst earning valuable rewards up to 130€. Begin today and make a difference! 🙂"
+    "message": "เข้าร่วมเป็นส่วนหนึ่งของชุมชน ZAP-Hosting วันนี้! เข้าร่วม {contributionLink} ของเราเพื่อแบ่งปันความรู้และความเชี่ยวชาญของคุณโดยการสร้างคู่มือคุณภาพสูงและเนื้อหาสร้างสรรค์ พร้อมรับรางวัลสุดคุ้มสูงสุดถึง 130€ เริ่มต้นวันนี้และสร้างความเปลี่ยนแปลง! 🙂"
   },
   "theme.ErrorPageContent.title": {
-    "message": "This page crashed.",
+    "message": "หน้านี้เกิดข้อผิดพลาด",
     "description": "The title of the fallback page when the page crashed"
   },
   "theme.BackToTopButton.buttonAriaLabel": {
-    "message": "Scroll back to top",
+    "message": "เลื่อนกลับไปด้านบน",
     "description": "The ARIA label for the back to top button"
   },
   "theme.blog.archive.title": {
-    "message": "Archive",
+    "message": "เก็บถาวร",
     "description": "The page & hero title of the blog archive page"
   },
   "theme.blog.archive.description": {
-    "message": "Archive",
+    "message": "เก็บถาวร",
     "description": "The page & hero description of the blog archive page"
   },
   "theme.blog.paginator.navAriaLabel": {
-    "message": "Blog list page navigation",
+    "message": "การนำทางหน้ารายการบล็อก",
     "description": "The ARIA label for the blog pagination"
   },
   "theme.blog.paginator.newerEntries": {
-    "message": "Newer entries",
+    "message": "รายการใหม่กว่า",
     "description": "The label used to navigate to the newer blog posts page (previous page)"
   },
   "theme.blog.paginator.olderEntries": {
-    "message": "Older entries",
+    "message": "รายการเก่า",
     "description": "The label used to navigate to the older blog posts page (next page)"
   },
   "theme.blog.post.paginator.navAriaLabel": {
-    "message": "Blog post page navigation",
+    "message": "การนำทางหน้าบทความบล็อก",
     "description": "The ARIA label for the blog posts pagination"
   },
   "theme.blog.post.paginator.newerPost": {
-    "message": "Newer post",
+    "message": "โพสต์ใหม่กว่า",
     "description": "The blog post button label to navigate to the newer/previous post"
   },
   "theme.blog.post.paginator.olderPost": {
-    "message": "Older post",
+    "message": "โพสต์เก่า",
     "description": "The blog post button label to navigate to the older/next post"
   },
   "theme.tags.tagsPageLink": {
-    "message": "View all tags",
+    "message": "ดูแท็กทั้งหมด",
     "description": "The label of the link targeting the tag list page"
   },
   "theme.colorToggle.ariaLabel.mode.system": {
-    "message": "system mode",
+    "message": "โหมดระบบ",
     "description": "The name for the system color mode"
   },
   "theme.colorToggle.ariaLabel.mode.light": {
-    "message": "light mode",
+    "message": "โหมดแสง",
     "description": "The name for the light color mode"
   },
   "theme.colorToggle.ariaLabel.mode.dark": {
-    "message": "dark mode",
+    "message": "โหมดมืด",
     "description": "The name for the dark color mode"
   },
   "theme.colorToggle.ariaLabel": {
-    "message": "Switch between dark and light mode (currently {mode})",
+    "message": "สลับระหว่างโหมดมืดและโหมดสว่าง (ปัจจุบัน {mode})",
     "description": "The ARIA label for the color mode toggle"
   },
   "theme.docs.breadcrumbs.navAriaLabel": {
-    "message": "Breadcrumbs",
+    "message": "เส้นทางนำทาง",
     "description": "The ARIA label for the breadcrumbs"
   },
   "theme.docs.DocCard.categoryDescription.plurals": {
-    "message": "1 item|{count} items",
+    "message": "1 รายการ|{count} รายการ",
     "description": "The default description for a category card in the generated index about how many items this category includes"
   },
   "theme.docs.paginator.navAriaLabel": {
-    "message": "Docs pages",
+    "message": "หน้าเอกสาร",
     "description": "The ARIA label for the docs pagination"
   },
   "theme.docs.paginator.previous": {
-    "message": "Previous",
+    "message": "ก่อนหน้า",
     "description": "The label used to navigate to the previous doc"
   },
   "theme.docs.paginator.next": {
-    "message": "Next",
+    "message": "ถัดไป",
     "description": "The label used to navigate to the next doc"
   },
   "theme.docs.tagDocListPageTitle.nDocsTagged": {
-    "message": "One doc tagged|{count} docs tagged",
+    "message": "เอกสารหนึ่งฉบับที่ติดแท็ก|{count} เอกสารที่ติดแท็ก",
     "description": "Pluralized label for \"{count} docs tagged\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
   },
   "theme.docs.tagDocListPageTitle": {
-    "message": "{nDocsTagged} with \"{tagName}\"",
+    "message": "{nDocsTagged} ที่มี \"{tagName}\"",
     "description": "The title of the page for a docs tag"
   },
   "theme.docs.versionBadge.label": {
-    "message": "Version: {versionLabel}"
+    "message": "เวอร์ชัน: {versionLabel}"
   },
   "theme.docs.versions.unreleasedVersionLabel": {
-    "message": "This is unreleased documentation for {siteTitle} {versionLabel} version.",
+    "message": "นี่คือเอกสารที่ยังไม่เผยแพร่สำหรับเวอร์ชัน {siteTitle} {versionLabel}",
     "description": "The label used to tell the user that he's browsing an unreleased doc version"
   },
   "theme.docs.versions.unmaintainedVersionLabel": {
-    "message": "This is documentation for {siteTitle} {versionLabel}, which is no longer actively maintained.",
+    "message": "นี่คือคู่มือสำหรับ {siteTitle} {versionLabel} ซึ่งไม่ได้รับการดูแลอย่างต่อเนื่องแล้ว",
     "description": "The label used to tell the user that he's browsing an unmaintained doc version"
   },
   "theme.docs.versions.latestVersionSuggestionLabel": {
-    "message": "For up-to-date documentation, see the {latestVersionLink} ({versionLabel}).",
+    "message": "สำหรับคู่มือที่เป็นปัจจุบัน โปรดดูที่ {latestVersionLink} ({versionLabel})",
     "description": "The label used to tell the user to check the latest version"
   },
   "theme.docs.versions.latestVersionLinkLabel": {
-    "message": "latest version",
+    "message": "เวอร์ชันล่าสุด",
     "description": "The label used for the latest version suggestion link label"
   },
   "theme.common.editThisPage": {
-    "message": "Edit this page",
+    "message": "แก้ไขหน้านี้",
     "description": "The link label to edit the current page"
   },
   "theme.common.headingLinkTitle": {
-    "message": "Direct link to {heading}",
+    "message": "ลิงก์ตรงไปยัง {heading}",
     "description": "Title for link to heading"
   },
   "theme.lastUpdated.atDate": {
-    "message": " on {date}",
+    "message": "เมื่อวันที่ {date}",
     "description": "The words used to describe on which date a page has been last updated"
   },
   "theme.lastUpdated.byUser": {
-    "message": " by {user}",
+    "message": "โดย {user}",
     "description": "The words used to describe by who the page has been last updated"
   },
   "theme.lastUpdated.lastUpdatedAtBy": {
-    "message": "Last updated{atDate}{byUser}",
+    "message": "อัปเดตล่าสุด{atDate}{byUser}",
     "description": "The sentence used to display when a page has been last updated, and by who"
   },
   "theme.NotFound.title": {
-    "message": "Page Not Found",
+    "message": "ไม่พบหน้าเว็บ",
     "description": "The title of the 404 page"
   },
   "theme.navbar.mobileVersionsDropdown.label": {
-    "message": "Versions",
+    "message": "เวอร์ชัน",
     "description": "The label for the navbar versions dropdown on mobile view"
   },
   "theme.tags.tagsListLabel": {
-    "message": "Tags:",
+    "message": "แท็ก:",
     "description": "The label alongside a tag list"
   },
   "theme.admonition.caution": {
-    "message": "caution",
+    "message": "คำเตือน",
     "description": "The default label used for the Caution admonition (:::caution)"
   },
   "theme.admonition.danger": {
-    "message": "danger",
+    "message": "อันตราย",
     "description": "The default label used for the Danger admonition (:::danger)"
   },
   "theme.admonition.info": {
-    "message": "info",
+    "message": "ข้อมูล",
     "description": "The default label used for the Info admonition (:::info)"
   },
   "theme.admonition.note": {
-    "message": "note",
+    "message": "บันทึก",
     "description": "The default label used for the Note admonition (:::note)"
   },
   "theme.admonition.tip": {
-    "message": "tip",
+    "message": "เคล็ดลับ",
     "description": "The default label used for the Tip admonition (:::tip)"
   },
   "theme.admonition.warning": {
-    "message": "warning",
+    "message": "คำเตือน",
     "description": "The default label used for the Warning admonition (:::warning)"
   },
   "theme.AnnouncementBar.closeButtonAriaLabel": {
-    "message": "Close",
+    "message": "ปิด",
     "description": "The ARIA label for close button of announcement bar"
   },
   "theme.blog.sidebar.navAriaLabel": {
-    "message": "Blog recent posts navigation",
+    "message": "การนำทางโพสต์ล่าสุดในบล็อก",
     "description": "The ARIA label for recent posts in the blog sidebar"
   },
   "theme.DocSidebarItem.expandCategoryAriaLabel": {
-    "message": "Expand sidebar category '{label}'",
+    "message": "ขยายหมวดหมู่แถบด้านข้าง '{label}'",
     "description": "The ARIA label to expand the sidebar category"
   },
   "theme.DocSidebarItem.collapseCategoryAriaLabel": {
-    "message": "Collapse sidebar category '{label}'",
+    "message": "ยุบหมวดหมู่แถบด้านข้าง '{label}'",
     "description": "The ARIA label to collapse the sidebar category"
   },
   "theme.NavBar.navAriaLabel": {
-    "message": "Main",
+    "message": "หลัก",
     "description": "The ARIA label for the main navigation"
   },
   "theme.NotFound.p1": {
-    "message": "We could not find what you were looking for.",
+    "message": "เราไม่พบสิ่งที่คุณกำลังค้นหา",
     "description": "The first paragraph of the 404 page"
   },
   "theme.NotFound.p2": {
-    "message": "Please contact the owner of the site that linked you to the original URL and let them know their link is broken.",
+    "message": "โปรดติดต่อเจ้าของไซต์ที่ลิงก์คุณไปยัง URL ต้นฉบับและแจ้งให้พวกเขาทราบว่าลิงก์ของพวกเขาเสียหาย",
     "description": "The 2nd paragraph of the 404 page"
   },
   "theme.navbar.mobileLanguageDropdown.label": {
-    "message": "Languages",
+    "message": "ภาษา",
     "description": "The label for the mobile language switcher dropdown"
   },
   "theme.TOCCollapsible.toggleButtonLabel": {
-    "message": "On this page",
+    "message": "ในหน้านี้",
     "description": "The label used by the button on the collapsible TOC component"
   },
   "theme.blog.post.readMore": {
-    "message": "Read more",
+    "message": "อ่านเพิ่มเติม",
     "description": "The label used in blog post item excerpts to link to full blog posts"
   },
   "theme.blog.post.readMoreLabel": {
-    "message": "Read more about {title}",
+    "message": "อ่านเพิ่มเติมเกี่ยวกับ {title}",
     "description": "The ARIA label for the link to full blog posts from excerpts"
   },
   "theme.blog.post.readingTime.plurals": {
-    "message": "One min read|{readingTime} min read",
+    "message": "อ่าน 1 นาที|อ่าน {readingTime} นาที",
     "description": "Pluralized label for \"{readingTime} min read\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
   },
   "theme.CodeBlock.copy": {
-    "message": "Copy",
+    "message": "คัดลอก",
     "description": "The copy button label on code blocks"
   },
   "theme.CodeBlock.copied": {
-    "message": "Copied",
+    "message": "คัดลอกแล้ว",
     "description": "The copied button label on code blocks"
   },
   "theme.CodeBlock.copyButtonAriaLabel": {
-    "message": "Copy code to clipboard",
+    "message": "คัดลอกโค้ดไปยังคลิปบอร์ด",
     "description": "The ARIA label for copy code blocks button"
   },
   "theme.CodeBlock.wordWrapToggle": {
-    "message": "Toggle word wrap",
+    "message": "สลับการตัดคำอัตโนมัติ",
     "description": "The title attribute for toggle word wrapping button of code block lines"
   },
   "theme.docs.breadcrumbs.home": {
-    "message": "Home page",
+    "message": "หน้าแรก",
     "description": "The ARIA label for the home page in the breadcrumbs"
   },
   "theme.docs.sidebar.collapseButtonTitle": {
-    "message": "Collapse sidebar",
+    "message": "ยุบแถบด้านข้าง",
     "description": "The title attribute for collapse button of doc sidebar"
   },
   "theme.docs.sidebar.collapseButtonAriaLabel": {
-    "message": "Collapse sidebar",
+    "message": "ยุบแถบด้านข้าง",
     "description": "The title attribute for collapse button of doc sidebar"
   },
   "theme.docs.sidebar.navAriaLabel": {
-    "message": "Docs sidebar",
+    "message": "แถบด้านข้างของเอกสาร",
     "description": "The ARIA label for the sidebar navigation"
   },
   "theme.docs.sidebar.closeSidebarButtonAriaLabel": {
-    "message": "Close navigation bar",
+    "message": "ปิดแถบนำทาง",
     "description": "The ARIA label for close button of mobile sidebar"
   },
   "theme.navbar.mobileSidebarSecondaryMenu.backButtonLabel": {
-    "message": "← Back to main menu",
+    "message": "← กลับไปที่เมนูหลัก",
     "description": "The label of the back button to return to main menu, inside the mobile navbar sidebar secondary menu (notably used to display the docs sidebar)"
   },
   "theme.docs.sidebar.toggleSidebarButtonAriaLabel": {
-    "message": "Toggle navigation bar",
+    "message": "สลับแถบนำทาง",
     "description": "The ARIA label for hamburger menu button of mobile navigation"
   },
   "theme.navbar.mobileDropdown.collapseButton.expandAriaLabel": {
-    "message": "Expand the dropdown",
+    "message": "ขยายเมนูแบบเลื่อนลง",
     "description": "The ARIA label of the button to expand the mobile dropdown navbar item"
   },
   "theme.navbar.mobileDropdown.collapseButton.collapseAriaLabel": {
-    "message": "Collapse the dropdown",
+    "message": "ยุบเมนูแบบเลื่อนลง",
     "description": "The ARIA label of the button to collapse the mobile dropdown navbar item"
   },
   "theme.docs.sidebar.expandButtonTitle": {
-    "message": "Expand sidebar",
+    "message": "ขยายแถบด้านข้าง",
     "description": "The ARIA label and title attribute for expand button of doc sidebar"
   },
   "theme.docs.sidebar.expandButtonAriaLabel": {
-    "message": "Expand sidebar",
+    "message": "ขยายแถบด้านข้าง",
     "description": "The ARIA label and title attribute for expand button of doc sidebar"
   },
   "theme.blog.post.plurals": {
-    "message": "One post|{count} posts",
+    "message": "หนึ่งโพสต์|{count} โพสต์",
     "description": "Pluralized label for \"{count} posts\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
   },
   "theme.blog.tagTitle": {
-    "message": "{nPosts} tagged with \"{tagName}\"",
+    "message": "{nPosts} ที่ติดแท็กด้วย \"{tagName}\"",
     "description": "The title of the page for a blog tag"
   },
   "theme.blog.author.pageTitle": {
@@ -1462,43 +1462,43 @@
     "description": "The title of the page for a blog author"
   },
   "theme.blog.authorsList.pageTitle": {
-    "message": "Authors",
+    "message": "ผู้เขียน",
     "description": "The title of the authors page"
   },
   "theme.blog.authorsList.viewAll": {
-    "message": "View all authors",
+    "message": "ดูผู้เขียนทั้งหมด",
     "description": "The label of the link targeting the blog authors page"
   },
   "theme.blog.author.noPosts": {
-    "message": "This author has not written any posts yet.",
+    "message": "ผู้เขียนนี้ยังไม่ได้เขียนโพสต์ใดๆ เลย",
     "description": "The text for authors with 0 blog post"
   },
   "theme.contentVisibility.unlistedBanner.title": {
-    "message": "Unlisted page",
+    "message": "หน้าไม่แสดงในรายการ",
     "description": "The unlisted content banner title"
   },
   "theme.contentVisibility.unlistedBanner.message": {
-    "message": "This page is unlisted. Search engines will not index it, and only users having a direct link can access it.",
+    "message": "หน้านี้ไม่ได้แสดงในรายการ เครื่องมือค้นหาจะไม่ทำการจัดทำดัชนี และมีเพียงผู้ใช้ที่มีลิงก์โดยตรงเท่านั้นที่สามารถเข้าถึงได้",
     "description": "The unlisted content banner message"
   },
   "theme.contentVisibility.draftBanner.title": {
-    "message": "Draft page",
+    "message": "ร่างหน้า",
     "description": "The draft content banner title"
   },
   "theme.contentVisibility.draftBanner.message": {
-    "message": "This page is a draft. It will only be visible in dev and be excluded from the production build.",
+    "message": "หน้านี้เป็นร่าง จะเห็นได้เฉพาะในโหมด dev และจะไม่ถูกรวมในเวอร์ชันโปรดักชัน",
     "description": "The draft content banner message"
   },
   "theme.ErrorPageContent.tryAgain": {
-    "message": "Try again",
+    "message": "ลองอีกครั้ง",
     "description": "The label of the button to try again rendering when the React error boundary captures an error"
   },
   "theme.common.skipToMainContent": {
-    "message": "Skip to main content",
+    "message": "ข้ามไปยังเนื้อหาหลัก",
     "description": "The skip to content label used for accessibility, allowing to rapidly navigate to main content with keyboard tab/enter navigation"
   },
   "theme.tags.tagsPageTitle": {
-    "message": "Tags",
+    "message": "แท็กส์",
     "description": "The title of the tag list page"
   }
 }
