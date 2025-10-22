@@ -1,8 +1,8 @@
 ---
 id: dedicated-windows-notepad++
-title: "Dedicated Server: Setup Notepad++ on Windows"
-description: "Informationen zur Einrichtung von Notepad++ auf deinem Windows-Dedicated Server von ZAP-Hosting - ZAP-Hosting.com Dokumentation"
-sidebar_label: Installiere Notepad++
+title: "Dedicated Server: Notepad++ auf Windows einrichten"
+description: "Entdecke, wie du deinen Coding-Workflow mit Notepad++ für schnelles, anpassbares und leichtgewichtiges Text-Editing optimierst → Jetzt mehr erfahren"
+sidebar_label: Notepad++ installieren
 services:
 - dedicated
 ---
@@ -13,11 +13,11 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
 
-Notepad++ ist ein freier und quelloffener Text‑ und Quellcode‑Editor für Windows. Er unterstützt Syntaxhervorhebung, Codefaltung und tabbasierte Bearbeitung für viele Programmier‑ und Skriptsprachen und ist über Plugins stark anpassbar. Bekannt für hohe Geschwindigkeit und geringen Ressourcenverbrauch bleibt Notepad++ eine beliebte Wahl für Entwickler und Nutzer, die ein leistungsfähiges und dennoch schlankes Werkzeug suchen. 
+Notepad++ ist ein kostenloser und Open-Source Text- und Quellcode-Editor für Windows. Er unterstützt Syntax-Highlighting, Code-Faltung und tab-basiertes Editieren für viele Programmier- und Skriptsprachen und ist durch Plugins stark anpassbar. Bekannt für seine schnelle Performance und geringen Ressourcenverbrauch, ist Notepad++ eine beliebte Wahl für Entwickler und Nutzer, die ein mächtiges, aber leichtgewichtiges Tool suchen.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/jMMDejqDfWDCfrr/preview)
 
-Du erwägst, diesen Dienst selbst zu nutzen? Wir führen dich Schritt für Schritt durch Einrichtung und Konfiguration und nennen alles, was du beachten musst.
+Du überlegst, diesen Service selbst zu hosten? Wir führen dich Schritt für Schritt durch die Einrichtung und Konfiguration und zeigen dir alles, was du beachten musst.
 
 
 
@@ -27,21 +27,21 @@ Du erwägst, diesen Dienst selbst zu nutzen? Wir führen dich Schritt für Schri
 
 ## Voraussetzungen
 
-Bevor du **Notepad++** installierst, stelle sicher, dass deine Hosting‑Umgebung die folgenden Anforderungen erfüllt, um eine reibungslose Installation und optimale Leistung zu gewährleisten.
+Bevor du **Notepad++** installierst, stelle sicher, dass deine Hosting-Umgebung die folgenden Anforderungen erfüllt, um eine reibungslose Installation und optimale Performance zu gewährleisten.
 
 | Hardware | Minimum | ZAP-Hosting Empfehlung |
 | ---------- | ------------ | -------------------------- |
-| CPU | 1 vCPU‑Kerne | 4 vCPU‑Kerne |
+| CPU | 1 vCPU Kern | 4 vCPU Kerne |
 | RAM | 2 GB | 4 GB |
-| Speicherplatz | 25 MB | 25 GB |
+| Festplattenspeicher | 25 MB | 25 GB |
 
 
 
 
 ## Installation
-Nun, da alle Anforderungen erfüllt sind und die notwendigen Vorbereitungen abgeschlossen wurden, kannst du mit der Installation der Notepad++‑Anwendung fortfahren. Lade die Anwendung dazu von der offiziellen Website herunter: https://notepad-plus-plus.org/downloads/
+Nachdem alle Anforderungen erfüllt und die nötigen Vorbereitungen getroffen wurden, kannst du mit der Installation der Notepad++ Anwendung starten. Lade die Anwendung dazu von der offiziellen Webseite herunter: https://notepad-plus-plus.org/downloads/
 
-Führe das Notepad++‑Setup aus und folge den angezeigten Schritten: 
+Starte das Notepad++ Setup und folge den Schritten wie gezeigt: 
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/5ksLwSePniTPZFQ/preview)
 
@@ -49,29 +49,29 @@ Führe das Notepad++‑Setup aus und folge den angezeigten Schritten:
 
 ## Konfiguration
 
-Notepad++ bietet viele Anpassungsoptionen unter *Settings > Preferences*, mit denen du den Editor an deinen Workflow anpassen kannst:
+Notepad++ bietet eine Vielzahl an Anpassungsmöglichkeiten, die du unter *Einstellungen > Einstellungen* findest. Damit kannst du den Editor perfekt auf deinen Workflow zuschneiden:
 
-- **Allgemein**: Steuere das Startverhalten, z. B. das erneute Laden zuvor geöffneter Dateien, setze eine Standardsprache oder definiere das Tab‑Verhalten.  
-- **Editor‑Einstellungen**: Passe Schriftart und ‑größe, Tab‑Breite, Zeilennummern, Auto‑Einrückung oder die Anzeige von Leerzeichen‑ und Tab‑Marken an.  
-- **Farbschemata & Syntax**: Nutze den „Style Configurator“, um Themes zu wechseln und die Syntaxhervorhebung für jede unterstützte Sprache zu individualisieren.  
-- **Dateihandling**: Konfiguriere Optionen wie automatisches Neuladen bei Änderungen, Verhalten bei großen Dateien oder Kodierungsvorgaben wie UTF‑8.  
+- **Allgemein**: Steuer das Startverhalten, z.B. ob zuletzt geöffnete Dateien wieder geladen werden, lege eine Standardsprache fest oder definiere das Verhalten der Tabs.  
+- **Editor-Einstellungen**: Passe Schriftart und -größe, Tab-Breite, Zeilennummerierung, automatische Einrückung oder die Anzeige von Leerzeichen und Tabulatoren an.  
+- **Farbschemata & Syntax**: Nutze den „Style Configurator“, um zwischen Themes zu wechseln und das Syntax-Highlighting für jede unterstützte Sprache zu individualisieren.  
+- **Dateiverwaltung**: Konfiguriere Optionen wie automatisches Neuladen bei Dateiänderungen, Verhalten bei großen Dateien oder bevorzugte Kodierungen wie UTF-8.  
 - **Sicherheit & Backup**: Aktiviere automatische Backups oder Sitzungswiederherstellung, um Datenverlust zu vermeiden.  
-- **Plugins**: Installiere und verwalte Erweiterungen über den Plugin‑Manager, um Funktionen wie FTP‑Support oder erweitertes Formatieren hinzuzufügen.  
+- **Plugins**: Installiere und verwalte Erweiterungen über den Plugin Manager, um Funktionen wie FTP-Support oder erweitertes Formatieren hinzuzufügen.  
 
-Diese Einstellungen machen Notepad++ hochgradig anpassbar, egal ob für einfache Textbearbeitung oder vollständige Softwareentwicklung.
+Diese Einstellungen machen Notepad++ extrem flexibel – egal ob für simples Text-Editing oder umfangreiche Softwareentwicklung.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/X8og5qnFkBTRcmA/preview)
 
 
 
 
-## Abschluss und weitere Ressourcen
+## Fazit und weitere Ressourcen
 
-Glückwunsch! Du hast Notepad++ jetzt erfolgreich auf deinem Dedicated Server installiert und konfiguriert. Wir empfehlen außerdem, einen Blick auf die folgenden Ressourcen zu werfen, die dir zusätzliche Hilfe und Orientierung während deiner Serverkonfiguration bieten können
+Glückwunsch! Du hast Notepad++ erfolgreich auf deinem Dedicated Server installiert und konfiguriert. Wir empfehlen dir außerdem, einen Blick auf die folgenden Ressourcen zu werfen, die dir bei der weiteren Server-Konfiguration helfen können:
 
-- [notepad-plus-plus.org/](https://notepad-plus-plus.org/) – Offizielle Website
+- [notepad-plus-plus.org/](https://notepad-plus-plus.org/) – Offizielle Webseite
 
-Hast du spezielle Fragen, die hier nicht abgedeckt sind? Für weitere Fragen oder Unterstützung wende dich bitte an unser Support‑Team, das täglich für dich da ist! 🙂
+Du hast spezielle Fragen, die hier nicht beantwortet wurden? Für weitere Fragen oder Support steht dir unser Team täglich zur Verfügung – melde dich einfach bei uns! 🙂
 
 
 

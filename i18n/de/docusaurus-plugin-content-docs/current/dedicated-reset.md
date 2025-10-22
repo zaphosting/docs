@@ -1,8 +1,8 @@
 ---
 id: dedicated-reset
-title: "Dedicated Server: Server zurücksetzen"
-description: Informationen, wie du deinen Dedicated Server von ZAP-Hosting zurücksetzen kannst - ZAP-Hosting.com Dokumentation
-sidebar_label: Server zurücksetzen
+title: "Dedicated Server: Server Reset (Werkseinstellung)"
+description: "Entdecke, wie du deinen Server effektiv zurücksetzt, um die Performance wiederherzustellen oder frisch zu starten – inklusive sicherer Datenlöschung → Jetzt mehr erfahren"
+sidebar_label: Server Reset
 services:
   - dedicated
 ---
@@ -11,67 +11,69 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
 
-Dein Server funktioniert nicht mehr so, wie er sollte oder du würdest gerne noch einmal von vorne anfangen, weißt aber nicht wie? Keine Sorge, du kannst deinen Server zurücksetzen, indem du ihn neu installierst. In dieser Anleitung wird erklärt, wie das funktioniert und was du dabei beachten musst.
+Dein Server läuft nicht mehr rund oder du möchtest komplett neu starten, weißt aber nicht wie? Kein Stress, du kannst deinen Server ganz einfach durch eine Neuinstallation zurücksetzen. In dieser Anleitung zeigen wir dir, wie das geht und was du dabei beachten solltest.
 
 <InlineVoucher />
 
-## Vorbereitungen
-
-Bevor du die Daten von deinem Server zurücksetzt, solltest du dir bewusst sein, dass die vorhandenen Daten verloren gehen. Wenn du wichtige Daten besitzt, wäre dies der richtige Zeitpunkt, um deine Daten zu sichern, bevor du mit der Neuinstallation beginnst. Danach musst du entscheiden, wie du dein System genau zurücksetzen möchtest.
 
 
+## Vorbereitung
 
-## Zurücksetzen der Daten
-
-Es gibt zwei verschiedene Möglichkeiten, die Daten zurückzusetzen, je nach Bedarf und Situation. Im Folgenden erläutern wir beide Möglichkeiten im Detail:
-
-- Zurücksetzen der Daten mithilfe der RAID-Konfiguration (Schnelle Methode)
-- Zurücksetzen der Daten mithilfe von Wipe ISO (Umfangreiche Methode)
-
-Beim Zurücksetzen der Daten mit der RAID-Konfiguration werden die vorhandenen Daten logisch gelöscht und durch neue Daten ersetzt, was eine schnelle und effiziente Lösung für eine Neuinstallation des Systems ist.
-
-Im Vergleich dazu umfasst das Zurücksetzen mit Wipe ISO mehrere Löschzyklen, die sicherstellen, dass alle Daten dauerhaft und unwiderruflich entfernt werden. Diese Methode eignet sich am besten für eine vollständige Systemlöschung, wenn eine gründliche Datenlöschung erforderlich ist.
+Bevor du die Daten auf deinem Server zurücksetzt, solltest du wissen, dass alle bestehenden Daten verloren gehen. Falls du wichtige Daten hast, ist jetzt der perfekte Zeitpunkt, um ein Backup zu machen, bevor du mit der Neuinstallation startest. Danach musst du entscheiden, wie genau du dein System zurücksetzen möchtest.
 
 
 
-### Schnelle Methode
+## Daten zurücksetzen
 
-Wie bei der Konfiguration des RAID muss die Raid-Konfiguration während des Bootvorgangs mit der Taste `F8` geöffnet werden. Öffne in der Raid-Konfiguration den Menüpunkt **Delete Logical Drive**. Dadurch sollte die aktuelle RAID-Konfiguration und die Festplatten dargestellt werden. Drücke die Taste F8, um das bestehende RAID zu löschen. Dies muss durch Drücken der `F3` Taste bestätigt werden.
+Je nach Bedarf und Situation gibt es zwei verschiedene Wege, die Daten zurückzusetzen. Im Folgenden erklären wir dir beide Optionen im Detail:
 
-Navigieren dann wieder zur Raid-Konfiguration und öffne den Menüpunkt **Create Logical Drive**. Wähle nun die Festplatten und die gewünschte RAID-Konfiguration (Raid 0/1) aus und erstelle das RAID, indem du es mit der Enter Taste bestätigst.
+- Daten zurücksetzen über RAID-Konfiguration (Schnellmethode)
+- Daten zurücksetzen über Wipe ISO (Umfassende Methode)
 
-Falls du noch nicht damit vertraut bist, wie du das RAID auf deinem System konfigurierst, empfehlen wir dir auch einen Blick in unsere allgemeine Anleitung [RAID konfigurieren](dedicated-raid.md) zu werfen.
+Beim Zurücksetzen der Daten über die RAID-Konfiguration werden die bestehenden Daten logisch gelöscht und durch neue ersetzt – das ist eine schnelle und effiziente Lösung für die Systemneuinstallation.
+
+Im Vergleich dazu sorgt das Zurücksetzen mit der Wipe ISO durch mehrere Löschzyklen dafür, dass alle Daten dauerhaft und unwiderruflich entfernt werden. Diese Methode eignet sich am besten für einen kompletten System-Wipe, wenn eine gründliche Datenlöschung notwendig ist.
 
 
 
-### Umfangreiche Methode
+### Schnellmethode
 
-Zunächst einmal muss die notwendige Wipe ISO eingelegt und ausgeführt werden, damit der eigentliche Prozess zum Zurücksetzen der Daten durchgeführt werden kann. ISO Dateien können entweder über die ILO oder über die Remote Konsole eingebunden werden. Solltest du bis jetzt noch nicht genau wissen, wie das funktioniert, dann schaue dir dazu am besten die [Eigene ISO](dedicated-iso.md) Anleitung an. 
+Wie bei der RAID-Konfiguration musst du während des Bootvorgangs mit der `F8`-Taste die RAID-Konfiguration öffnen. Wähle dort den Menüpunkt **Delete Logical Drive** aus. Dort solltest du die aktuelle RAID-Konfiguration und die Festplatten sehen. Drücke die `F8`-Taste, um das bestehende RAID zu löschen. Das musst du mit der `F3`-Taste bestätigen.
 
-Binde nun die folgende ISO bei deinem Server ein und starte diesen im Anschluss neu:
+Anschließend gehst du zurück zur RAID-Konfiguration und öffnest den Menüpunkt **Create Logical Drive**. Jetzt wählst du die Festplatten und die gewünschte RAID-Konfiguration (Raid 0/1) aus und erstellst das RAID mit der Bestätigung per `Enter`.
+
+Falls du noch nicht genau weißt, wie du das RAID auf deinem System konfigurierst, empfehlen wir dir einen Blick in unsere allgemeine [RAID konfigurieren](dedicated-raid.md) Anleitung.
+
+
+
+### Umfassende Methode
+
+Für den eigentlichen Reset-Prozess muss die benötigte Wipe ISO gemountet und ausgeführt werden. ISO-Dateien kannst du entweder über das iLO oder die Remote-Konsole mounten. Falls du noch nicht genau weißt, wie das geht, schau dir bitte unsere [Eigene ISO](http://localhost:3000/guides/docs/dedicated-iso) Anleitung an.
+
+Mount die folgende Wipe ISO-Datei auf deinem Server und starte ihn neu:
+
 
 ```
 http://185.223.30.65/wipe.iso
 ```
 
-Nach dem Neustart des Servers sollte die Wipe ISO automatisch erkannt und geladen werden. Verbinde dich nun mit einer Remote Konsole (HTML5, .NET, Java Web Start) deiner Wahl auf deinen Dedicated Server.
+Nach dem Neustart sollte die Wipe ISO automatisch erkannt und geladen werden. Verbinde dich mit deinem Dedicated Server über eine Remote-Konsole (HTML5, .NET, Java Web Start) deiner Wahl.
 
-Dort kannst du nun erkennen, wie der Server automatisch den Prozess durchführt und wie weit der Fortschritt der Formatierung dabei ist. Dein Server überschreibt einmalig alle vorhandenen Datenträger, somit sind keine Daten mehr vorhanden. Je nach Größe der SSD kann dieser Prozess circa 45 Minuten - 2 Stunden dauern.
+Dort siehst du, wie der Server den Prozess automatisch ausführt und wie weit der Formatierungsfortschritt ist. Dein Server überschreibt alle vorhandenen Volumes und löscht damit effektiv alle Daten. Je nach Größe des SSD-Speichers kann das zwischen 45 Minuten und 2 Stunden dauern.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/oymERF7xB8wGDes/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/4nfaexaqiK78t6e/preview)
 
 
 
-:::danger 
-Wichtig: Dieser Vorgang kann nicht rückgängig gemacht werden und ist dementsprechend endgültig. Es bestehen keine zusätzlichen Backups, welche zur Not eingespielt werden können. Solltest du dir daher nicht zwingend sicher sein, ob du deine Daten löschen möchtest, dann raten wir dir von diesem Prozess ab. 
+:::danger
+Dieser Vorgang ist unwiderruflich und endgültig. Es gibt keine zusätzlichen Backups, die im Notfall eingespielt werden können.
+Wir raten dringend davon ab, diesen Prozess durchzuführen, wenn du dir nicht absolut sicher bist, dass du alle deine Daten löschen möchtest.
 :::
 
 
 
+## Fazit
 
-
-## Abschluss
-
-Glückwunsch, du hast die Daten deines Dedicated Server erfolgreich zurückgesetzt. Für weitere Fragen oder Hilfe zögere bitte nicht, unser Support-Team zu kontaktieren, das dir täglich zur Verfügung steht! 🙂
+Glückwunsch, du hast die Daten auf deinem Dedicated Server erfolgreich gelöscht. Bei weiteren Fragen oder wenn du Hilfe brauchst, steht dir unser Support-Team täglich zur Verfügung – melde dich einfach! 🙂
 
 <InlineVoucher />

@@ -1,52 +1,44 @@
 ---
 id: cs16-plugins
-title: "CS 1.6: Plugins auf dem eigenen Server installieren"
-description: Informationen, wie du Plugins auf deinem CS 1.6-Server von ZAP-Hosting installieren kannst - ZAP-Hosting.com Dokumentation
+title: "CS 1.6: Plugins auf deinem eigenen Server installieren"
+description: "Entdecke, wie du deinen Counter-Strike 1.6 Gameserver mit AMXmodX und Metamod für erweiterte Anpassungen und Administration aufpeppen kannst → Jetzt mehr erfahren"
 sidebar_label: Plugins installieren
 services:
   - gameserver-cs16
+
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';
 import SearchableItemList from '@site/src/components/SearchableItemList/SearchableItemList';
 import items from '@site/data/lists/cs16-plugins.json';
 
-
 ## Einführung
 
-Um Plugins auf einem Counter-Strike 1.6 Server zu installieren wird **AMXmodX** und **Metamod** benötigt. Dies sind zwei Half Life Erweiterungen, welche es ermöglichen den Server noch mehr als üblich zu individualisieren. Dazu gehört zum Beispiel die Nutzung von Plugins und eine erweitere Administration deines Servers.
+**AMXmodX** und **Metamod** sind notwendig, um Plugins auf einem Counter-Strike 1.6 Gameserver zu nutzen. Dabei handelt es sich um zwei Half-Life-Erweiterungen, die dir erlauben, deinen Server noch individueller zu gestalten als sonst. Dazu gehört zum Beispiel die Verwendung von Plugins und eine erweiterte Administration deines Servers.
 
 <InlineVoucher />
 
-
+## AMXmodX / Metamod Installation
 
 ### Vorbereitung
 
-Zunächst einmal werden die eigentlichen Erweiterungen benötigt. Die Erweiterungen können auf [amxmodx.org](https://amxmodx.org/downloads-new.php) heruntergeladen werden. Hierbei ist es wichtig immer die neusten Versionen (**stable**) zu benutzen, damit diese auch noch voll funktionsfähig bzw. kompatibel sind.
+Zuerst brauchst du die eigentlichen Erweiterungen. Die kannst du dir von [amxmodx.org](https://amxmodx.org/downloads-new.php) herunterladen. Bitte nutze immer die neuesten Versionen (**stable**), damit alles voll funktionsfähig und kompatibel bleibt.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/SxJaFb7Cz79c7ER/preview)
 
-Es werden die Linux Pakete **AMX Mod X Base, Counter-Strike Addon und Metamod** benötigt. Diese laden wir dort herunter. Im Anschluss solltest du drei gepackte Dateien heruntergeladen haben. Diese entpackst du auf deinem Computer. Dadurch solltest du einen Addons Ordner erhalten, indem sich ein **amxmodx** und **metamod** Ordner befindet: 
+Du benötigst die Linux-Pakete **AMX Mod X Base, Counter-Strike Addon und Metamod**. Diese kannst du dort downloaden. Danach solltest du drei gepackte Dateien auf deinem Rechner haben. Entpacke sie. So erhältst du einen **addons**-Ordner, der die Ordner **amxmodx** und **metamod** enthält:
 
-
-![](https://screensaver01.zap-hosting.com/index.php/s/4qWCsW9J2nDKWQG/preview)
-
-
-
+![](https://screensaver01.zap-hosting.com/index.php/s/LQdb93T39YApA6B/preview)
 
 ### Installation
 
-Wenn die oben genannten Schritte abgeschlossen sind, dann geht es an die eigentliche Installation. Die Dateien müssen per FTP auf deinen Server hochgeladen werden. Um Dateien auf deinen Server hochladen zu können benötigst du einen FTP-Client. Falls du noch nicht weißt, was FTP ist und wie es funktioniert, dann schaue dir am besten die folgende Anleitung an: [FTP-Zugriff](gameserver-ftpaccess.md)
+Wenn du die obigen Schritte erledigt hast, geht’s an die eigentliche Installation. Die Dateien müssen per FTP auf deinen Server hochgeladen werden. Du brauchst dafür einen FTP-Client, um Dateien auf deinen Server zu übertragen. Falls du nicht weißt, was FTP ist und wie das funktioniert, schau dir am besten unsere Anleitung an: [Zugriff via FTP](gameserver-ftpaccess.md)
 
+Jetzt muss der **addons**-Ordner in das Hauptverzeichnis deines Servers hochgeladen werden. Die Ordnerstruktur sollte danach so aussehen:
 
+![](https://screensaver01.zap-hosting.com/index.php/s/A5zqJ9GxL47tCrW/preview)
 
-Dort angelangt. wird nun der **addons** Ordner in das Hauptverzeichnis des Servers hochgeladen. Die Dateistruktur des Ordners sollte im Anschluss dann wie folgt aussehen:
-
-![](https://screensaver01.zap-hosting.com/index.php/s/X8xtXJSYPDEp5KN/preview)
-
-
-
-Damit ist die Einrichtung von **AMXmodX** und **Metamod** abgeschlossen. Du kannst dich mit deinem Server im Spiel verbinden und in der Konsole mit dem ``amxx version`` Befehl prüfen, ob AMX erfolgreich installiert wurde. Die Ausgabe sollte wie folgt aussehen:
+Die Einrichtung von **AMXmodX** und **Metamod** ist jetzt abgeschlossen. Du kannst dich im Spiel mit deinem Server verbinden und in der Konsole den Befehl ``amxx version`` eingeben, um zu prüfen, ob AMX erfolgreich installiert wurde. Die Ausgabe sollte so aussehen:
 
 ```
 AMX Mod X 1.8.2
@@ -56,36 +48,31 @@ URL:http://www.amxmodx.org/
 Core mode: JIT
 ```
 
-Wenn dort lediglich **Befehl wurde nicht erkannt steht**, dann ist bei der Installation etwas schief gelaufen. 
+Wenn die Meldung **Unknown command** erscheint, ist bei der Installation etwas schiefgelaufen.
 
-
-
-## Plugins installieren
+## Plugins Installation
 
 ### Vorbereitung
 
-Nachdem die Einrichtung von **AMXmodX** und **Metamod** abgeschlossen ist und diese auch funktioniert kann mit der Installation von Plugins begonnen werden.  Zunächst einmal müssen die Plugins heruntergeladen werden, die auf dem Server installiert werden sollen. Eine große Auswahl an Plugins findest du unter [amxmodx.org](https://www.amxmodx.org/compiler.php). Dort wurden über die Jahre zahlreiche Plugins veröffentlicht und es kommen immer noch regelmäßig weitere dazu. Bei den jeweiligen Plugins wird die **.amxx** Datei benötigt. 
-
-
+Sobald die Einrichtung von **AMXmodX** und **Metamod** abgeschlossen und funktionsfähig ist, kannst du mit der Installation der Plugins starten. Lade dir zuerst die Plugins herunter, die du auf deinem Server installieren möchtest. Eine große Auswahl findest du auf [amxmodx.org](https://www.amxmodx.org/compiler.php). Dort wurden über die Jahre viele Plugins veröffentlicht, und es kommen regelmäßig neue hinzu. Du brauchst die jeweilige **.amxx**-Datei der Plugins.
 
 ### Installation
 
-Nun wenn die gewünschten Plugins heruntergeladen wurden, dann kann mit der eigentlichen Installation der Plugins begonnen werden. Die Einrichtung der Plugins erfolgt ebenfalls per FTP. Die Plugin-Dateien werde nun in das Plugins Verzeichnis unter ``../addons/amx`` hochgeladen. 
+Wenn du die gewünschten Plugins heruntergeladen hast, kannst du mit der eigentlichen Installation starten. Die Plugins werden ebenfalls per FTP hochgeladen. Die Plugin-Dateien müssen in das Verzeichnis ``../addons/amx/plugins`` hochgeladen werden.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/9knJkP4KakESNi4/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/FG2ocNpWCRManSd/preview)
 
-Beim nächsten Serverstart sollten die hochgeladenen Plugins dann automatisch geladen werden. 
+Beim nächsten Serverstart sollten die hochgeladenen Plugins automatisch geladen werden.
 
 ## Beliebte Plugins
 
-Noch auf der Suche nach den perfekten Plugins für deinen Server? Durchstöbere unsere sorgfältig zusammengestellte Liste mit den beliebtesten und am häufigsten empfohlenen Plugins, um dein Spielerlebnis zu erweitern und deinem Server den letzten Feinschliff zu geben. Lass dich inspirieren und finde genau die Erweiterungen, die zu deinem Projekt passen.
+Du suchst noch die perfekten Plugins für deinen Server?  
+Stöbere durch unsere sorgfältig zusammengestellte Liste der beliebtesten und meistempfohlenen Plugins, um dein Gameplay zu verbessern und deinem Server den letzten Schliff zu geben. Lass dich inspirieren und finde genau die Addons, die zu deinem Projekt passen.
 
 <SearchableItemList items={items} />
 
+## Fazit
 
-
-## Abschluss
-
-Vorausgesetzt, dass du alle Schritte befolgt hast, solltest du erfolgreich AMXmodX / Metamod und deine gewünschten Plugins installiert haben. Für weitere Fragen oder Hilfe zögere bitte nicht, unser Support-Team zu kontaktieren, das dir täglich zur Verfügung steht! 🙂
+Wenn du alle Schritte befolgt hast, solltest du AMXmodX / Metamod und deine gewünschten Plugins erfolgreich installiert haben. Bei weiteren Fragen oder wenn du Hilfe brauchst, steht dir unser Support-Team täglich zur Seite! 🙂
 
 <InlineVoucher />

@@ -1,7 +1,7 @@
 ---
 id: vserver-windows-vrising
-title: "vServer: V-Rising Dedicated Server Einrichtung"
-description: Informationen, wie du einen V-Rising Server auf deinen Windows vServer von ZAP-Hosting installieren und einrichten kannst - ZAP-Hosting.com Dokumentation
+title: "VPS: V-Rising Dedicated Server Windows Setup"
+description: "Entdecke, wie du einen V Rising Dedicated Windows Server für optimale Gaming-Performance und reibungsloses Server mieten einrichtest → Jetzt mehr erfahren"
 sidebar_label: V-Rising
 services:
   - vserver
@@ -10,123 +10,117 @@ services:
 import YouTube from '@site/src/components/YouTube/YouTube';
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
-## Einführung
-
-Du hast einen Windows vServer und möchtest darauf einen Palworld Dedicated Server installieren? Dann bist du hier genau richtig. In dieser Anleitung erklären wir dir Schritt für Schritt, wie du diesen Dienst auf deinem Server installierst.
-
-<YouTube videoId="to2ghqNpGLA" imageSrc="https://screensaver01.zap-hosting.com/index.php/s/rpPmcoqSpGpKFyN/preview" title="How to setup a V RISING Dedicated Windows Server!" description="Feel like you understand better when you see things in action? We’ve got you! Dive into our video that breaks it all down for you. Whether you're in a rush or just prefer to soak up information in the most engaging way possible!"/>
-
+<YouTube videoId="to2ghqNpGLA" imageSrc="https://screensaver01.zap-hosting.com/index.php/s/qnEwRNpMmo3JzQq/preview" title="How to setup a V RISING Dedicated Windows Server!" description="Du verstehst besser, wenn du Dinge in Aktion siehst? Kein Problem! Tauche ein in unser Video, das alles für dich erklärt. Egal ob du es eilig hast oder Infos am liebsten auf die spannendste Art aufsaugst!"/>
 <InlineVoucher />
 
-## Vorbereitung
-Es wird ein Server, basierend auf Windowsserver 2016/2019, mit mindestens 4x 2,4 GHz CPU (AMD/Intel) sowie mindestens 4 GB RAM (DDR3/4) und 6 GB freien Speicher (SSD oder besser, bevorzugt) benötigt. Der Server muss auf der 64 Bit Architektur laufen.  
+## Grundlegende Infos:  
+Ein Server basierend auf Windows Server 2016/2019 mit mindestens 4x 2,4 GHz CPU (AMD/Intel) und mindestens 4GB RAM (DDR3/4) sowie 6GB freiem Speicher (SSD oder besser, bevorzugt) wird benötigt. Der Server muss auf 64-Bit-Architektur laufen.
 
-## Step 1 Ordner erstellen für V-Rising
+## Schritt 1: Erstelle einen Ordner für V-Rising
 
-Als Erstes musst du dich mit dem Server verbinden via [Erstzugang (RDP)](vserver-windows-userdp.md). 
-Nachdem du verbunden bist, musst du einen neuen Ordner erstellen, in welchem die V-Rising Files im Anschluss installiert werden.
-In diesem Beispiel erstellen wir einen neuen Ordner auf dem Desktop.
-Dafür einen Rechtsklick auf dem Desktop machen und "Neu -> Ordner" auswählen.
+Zuerst musst du dich per [Initial Access (RDP)](vserver-windows-userdp.md) mit deinem Server verbinden. Sobald du verbunden bist, erstellst du einen neuen Ordner auf deinem Server, in dem die Dateien für V-Rising installiert werden.
+In diesem Beispiel erstellen wir den Ordner auf dem Desktop.
+Das geht mit einem Rechtsklick.
+Dann wählst du "Neu -> Ordner".
 
-![](https://screensaver01.zap-hosting.com/index.php/s/MK5WxBya7Jbk4DJ/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/wgf8ckdTgiQ9wAq/preview)
 
-Du kannst den Ordner nennen, wie du möchtest. In unserem Beispiel nennen wir den Ordner "VRising"
+Du kannst den Ordner beliebig benennen. Wir nennen ihn hier "VRising".
 
-## Step 2 SteamCMD auf deinen Windows Server herunterladen
-Öffne den Browser und öffne den folgenden [link](https://steamcdn-a.akamaihd.net/client/installer/steamcmd.zip)
-Dadurch wird SteamCMD für Windows auf deinem Server heruntergeladen. 
+## Schritt 2: Lade SteamCMD auf deinen Windows Server herunter
 
-![](https://screensaver01.zap-hosting.com/index.php/s/QCrqRzaJJw6S3pw/preview)
+Öffne den Browser und gehe zum [Link](https://steamcdn-a.akamaihd.net/client/installer/steamcmd.zip). Damit lädst du SteamCMD für Windows auf deinen Server.
 
-Die Datei wird heruntergeladen und sollte sich dann im Download Ordner befinden.
+![](https://screensaver01.zap-hosting.com/index.php/s/7HE5smMXq6mEetw/preview)
 
-![](https://screensaver01.zap-hosting.com/index.php/s/ETqr7znjCo7YZys/preview)
+Die Datei wird dann heruntergeladen und sollte im Download-Ordner liegen. (Der Download-Ordner kann variieren)
 
-Aus Gründen der Übersicht kopieren wir die steamcmd.zip Datei nun in den vorhin erstellten VRising Ordner auf unserem Desktop.
-Dafür muss die Datei angeklickt werden. Danach muss die Tastenkombination "STRG+C" gedrückt werden, damit die Datei kopiert wird.
-Öffne jetzt den VRising Ordner auf deinem Desktop und drücke "STRG+V".
-Die Datei befindet sich nun im VRising Ordner.
+![](https://screensaver01.zap-hosting.com/index.php/s/eEsyPe9J8KWGRMs/preview)
 
-![](https://screensaver01.zap-hosting.com/index.php/s/tcpFKPjH4yTq2Pm/preview)
+Zur besseren Übersicht kopieren wir die steamcmd.zip Datei in den VRising-Ordner, den wir zuvor auf dem Desktop erstellt haben.
+Dafür klickst du die Datei an und drückst "STRG+C".
+Dann öffnest du den VRising-Ordner auf dem Desktop und drückst "STRG+V".
+Jetzt siehst du die Datei im VRising-Ordner.
 
-Mache einen Rechtskick auf die steamcmd.zip Datei und wähle "Entpacken" aus.
-Bestätige den Vorgang in der kommenden Meldung, indem du auf den Entpacken / Extract Button klickst.
+![](https://screensaver01.zap-hosting.com/index.php/s/rNCZB7NDYkqDxrm/preview)
 
-![](https://screensaver01.zap-hosting.com/index.php/s/dt4ZA7zRTzRk8NL/preview)
+Mach jetzt einen Rechtsklick auf die steamcmd.zip Datei und wähle "Alle extrahieren". Bestätige die Meldung mit Klick auf "Extrahieren".
 
-![](https://screensaver01.zap-hosting.com/index.php/s/mg4tEFE86TGbbqN/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/RSQReHkc3SYbzNS/preview)
 
-Soweit das erledigt ist, mache einen Doppelklick auf die SteamCMD Datei.
-Ein neues Fenster öffnet sich dann, in welchem die SteamCMD Dateien installiert werden.
+![](https://screensaver01.zap-hosting.com/index.php/s/yaw87p2bcmFe9z6/preview)
 
-![](https://screensaver01.zap-hosting.com/index.php/s/sSjMRn8B4BygAmm/preview)
+Wenn das erledigt ist, mach einen Doppelklick auf die steamcmd Datei.
+Ein neues Fenster öffnet sich und installiert die SteamCMD-Dateien.
 
-## Step 3 Download der V-Rising Dateien
+![](https://screensaver01.zap-hosting.com/index.php/s/R7Xm4tSLfEBqboD/preview)
 
-Soweit die SteamCMD Dateien installiert sind, siehst du folgendes in dem SteamCMD Fenster.
+## Schritt 3: Lade die V Rising Dateien herunter
 
-![](https://screensaver01.zap-hosting.com/index.php/s/9sr5m5k66cSN665/preview)
+Sobald die SteamCMD-Dateien installiert sind, siehst du dieses Fenster.
 
-Wir geben jetzt den Pfad an, in welchem die Dateien heruntergeladen werden sollen. Das wird mit dem Befehl "force_install_dir" gemacht.Der komplette Befehl in unserem Beispiel lautet: 
-`` force_install_dir "C:\Users\Administrator\Desktop\VRising"``
+![](https://screensaver01.zap-hosting.com/index.php/s/DjaZjaqM8tFZzCj/preview)
 
-Damit werden die Dateien dann in den vorhin erstellten VRising Ordner heruntergeladen.
+Jetzt gibst du den Pfad an, wo die Dateien heruntergeladen werden sollen.
+Das machst du mit dem Befehl "force_install_dir".
+Der komplette Befehl in unserem Beispiel lautet:
+force_install_dir "C:\Users\Administrator\Desktop\VRising"
 
-![](https://screensaver01.zap-hosting.com/index.php/s/2PHr9Drakoxepoc/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/EFdLWdJ5Ypym3Ym/preview)
 
-Im Anschluss loggen wir uns als anonymous User an.
-Dafür muss "login anonymous" eingegeben werden.
+Danach musst du dich als anonymer User einloggen.
+Dafür gibst du "login anonymous" ein.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/ind5wfocPRN63R8/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/SN8qqRPezLDEF3Q/preview)
 
-Soweit das abgeschlossen ist, können wir jetzt endlich die Spieldateien herunterladen.
-Das geht mit dem folgenden Befehl:
-``app_update 1829350 validate``
+Jetzt kannst du endlich die Dateien herunterladen.
+Dafür nutzt du diesen Befehl:
+app_update 1829350 validate
 
-Die Dateien werden im Anschluss heruntergeladen, der Vorgang kann einige Minuten in Anspruch nehmen.
+Die Dateien werden jetzt geladen.
+Das kann ein paar Minuten dauern.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/qADmtArA22EXEc5/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/S5cwykrPq6bYyrG/preview)
 
-Soweit der Vorgang abgeschlossen ist, siehst du die ganzen Dateien im VRising Ordner.
+Wenn der Prozess abgeschlossen ist, findest du alle Dateien im VRising-Ordner auf deinem Server.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/xnTPmajAnGamYcA/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/8PwswWgB8BxwECL/preview)
 
-## Step 4 Starten und Konfigurieren vom V-Rising Server
+## Schritt 4: Starte und konfiguriere den V Rising Server
 
-Du kannst die start_Server_example.bat Datei editieren und einige Änderungen daran vornehmen.
-Dafür einen Rechtsklick auf die Datei machen und "bearbeiten" auswählen.
-Darin kann zum Beispiel der Name vom Server sowie der Pfad für Savegame festgelegt werden.
+Du kannst die start_server_example.bat Datei bearbeiten, um ein paar Einstellungen zu ändern.
+Dafür machst du einen Rechtsklick auf die Datei und wählst "Bearbeiten".
+Du kannst den Servernamen und den Pfad, wo der Prozess gespeichert werden soll, anpassen.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/Q6ptsyTWF7Q9WMo/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/PFDkyayBtSBoEFa/preview)
 
-Weitere Änderungen können in den Config Files vorgenommen werden.
-Diese findest du im folgenden Verzeichnis:
-``RisingServer_Data\StreamingAssets\Settings``
+Weitere Änderungen kannst du in den Konfigurationsdateien vornehmen.
+Die findest du im Verzeichnis VRisingServer_Data\StreamingAssets\Settings.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/6SjJMJLP6oecT2q/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/jQWy34tbPTEtcc9/preview)
 
-In der ServerHostSettings.json Datei kannst du allgemeine Änderungen vornehmen.
-Zum Beispiel das Festlegen der Ports, das Definieren einer Beschreibung oder auch das Speicherverhalten.
+In der ServerHostSettings.json Datei kannst du allgemeine Einstellungen machen.
+Zum Beispiel Ports definieren, eine Serverbeschreibung, das SaveInterval und das Gameserver-Passwort.
+Ich habe den Servernamen dort auf "ZAP-Hosting Test Server" geändert.
 
-Um den Server zu starten, kannst du einen Doppelklick auf die start_server_example.bat Datei machen.
+Um den Server zu starten, machst du einen Doppelklick auf die start_server_example.bat Datei.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/ExoMBS3dxfzS5BQ/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/nSqbQQb3pHXnWmZ/preview)
 
-Der Startvorgang wird einige Minuten in Anspruch nehmen.
-Soweit die Ports im folgenden Schritt korrekt freigegeben worden sind, kann der Server in der Server Liste aufgefunden werden.
+Der Startvorgang dauert eine Weile.
+Wenn die Ports richtig weitergeleitet wurden, findest du den Server in der Serverliste.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/swTC3jmJcQEPxYx/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/TajWHXtRCLEeRKf/preview)
 
-## Step 5 Ports freigeben
+## Schritt 5: Ports in der Firewall freischalten
 
-Der Server soll natürlich öffentlich erreichbar sein, um mit Freunden spielen zu können. Dazu müssen die Ports des Servers in der Windows Firewall freigeschaltet werden. Die Ports 9876 und 9877 müssen für das Protokoll TCP UND UDP freigegeben werden.
-Wie Ports bei Windows freigeschaltet werden können, eklären wir hier:[Portweiterleitung (Firewall)](vserver-windows-port.md). 
+Der Server sollte natürlich öffentlich erreichbar sein, um mit Freunden zu zocken. Dafür müssen die Ports des Servers in der Windows-Firewall freigegeben werden. Die Ports 9876 und 9877 müssen für das Protokoll TCP UND UDP freigegeben werden. 9876 ist der Gameserver-Port und 9877 der Query-Port.
+Wie du Ports unter Windows freigibst, erfährst du in unserer Anleitung [Port Forwarding (Firewall)](vserver-windows-port.md).
 
-Nach der Port Freigabe ist der Server öffentlich erreichbar, sofern er gestartet wurde. 
+Nach der Portfreigabe ist der Server öffentlich erreichbar, sofern er gestartet wurde.
 
+## Fazit
 
-## Abschluss
-
-Glückwunsch, du hast den V-Rising Server erfolgreich installiert und konfiguriert! Solltest du noch weitere Fragen oder Probleme haben, dann wende dich gerne an unser Support-Team, welches dir jeden Tag zur Verfügung steht!
+Glückwunsch, du hast V-Rising erfolgreich auf deinem VPS installiert und konfiguriert! Falls du noch Fragen oder Probleme hast, steht dir unser Support-Team täglich zur Seite und hilft dir gerne weiter!
 
 <InlineVoucher />

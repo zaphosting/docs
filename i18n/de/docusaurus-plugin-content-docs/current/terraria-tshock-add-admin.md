@@ -1,7 +1,7 @@
 ---
 id: terraria-tshock-add-admin
-title: "Terraria: Server-Admin werden (tShock)"
-description: Informationen, wie du dich zum Admin auf deinem Terraria-Server mit tShock von ZAP-Hosting machen kannst - ZAP-Hosting.com Dokumentation
+title: "Terraria: Werde Server-Admin (tShock)"
+description: "Entdecke, wie du Administratorrechte auf deinem Terraria-Gameserver vergibst für volle Kontrolle und Verwaltung → Jetzt mehr erfahren"
 sidebar_label: Admin werden (tShock)
 services:
   - gameserver-terraria
@@ -10,54 +10,54 @@ services:
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
-Die Zuweisung von Administratorberechtigungen ermöglicht dir eine einfache und umfangreiche Verwaltung mit voller Kontrolle deines Servers. Als Administrator hast du die Möglichkeit alle verfügbaren Optionen und Funktionen, die das Spiel bereitstellt, direkt im Spiel anzuwenden. 
+Die Vergabe von Administratorrechten ermöglicht dir eine einfache und umfassende Verwaltung mit voller Kontrolle über deinen Server. Als Admin kannst du alle verfügbaren Optionen und Funktionen, die das Spiel bietet, direkt im Spiel nutzen. Alle Schritte, die du durchführen musst, um Administratorrechte für deinen Server zu vergeben, werden im Folgenden beschrieben.  
 <InlineVoucher />
 
-## Abrufen des Tokens
+## Token erhalten
 
-Um dich als Admin auf deinem Terraria Server eintragen zu können, benötigst du deinen einzigartigen Token.
-Dieser wird generiert, wenn du den Server das erste Mal startest, im Anschluss öffnest du die Live Konsole, in welcher du den Token findest:
+Um dich als Admin auf deinem Terraria-Gameserver registrieren zu können, brauchst du deinen einzigartigen Token.  
+Dieser Token wird generiert, wenn du den Server zum ersten Mal startest. Danach öffnest du die Live-Konsole, wo du den Token findest:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/Kp9ffgYrCBjSWok/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/5cEQYgBgxAYQRcx/preview)
 
-![](https://screensaver01.zap-hosting.com/index.php/s/CRnkSk5oAboXK6D/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/HEYwEWe5c3DPZ6E/preview)
 
-In diesem Fall lautet der Token **4914096**.
+In diesem Beispiel ist der Token **4914096**.
 
-## Eingabe des Tokens im Spiel
+## Token im Spiel eingeben
 
-Um dich nun als Admin eintragen zu können, trittst du deinem Server in Terraria bei und gibst im Spiel den Befehl **/setup 4914096** ein.
-Dabei ersetzt du natürlich den Token **4914096** mit deinem eigenen.
+Um dich als Admin registrieren zu können, verbinde dich mit deinem Terraria-Gameserver und gib den Befehl **/setup 4914096** im Spiel ein.  
+Natürlich ersetzt du den Token **4914096** durch deinen eigenen.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/qckj4cGApTRBBL6/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/tadkJkQf5cE3dTB/preview)
 
-### Im Anschluss erscheint folgende Meldung im Chat:
+### Folgende Nachricht erscheint dann im Chat:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/9wB3rzNwMAJLnKg/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/JDfKNpaeB63pCeB/preview)
 
 
-## Hinzufügen eines Admins
+## Admin hinzufügen
 
-Jetzt kannst du mit dem Befehl **/user add USERNAME PASSWORT owner** einen neuen Admin zu deinem Server hinzufügen. 
-Dabei ersetzt du **USERNAME** durch deinen Namen und als **PASSWORT** kannst du ein beliebiges Passwort frei wählen
-welches du künftig für den Login als Admin auf deinem Server verwenden kannst. 
+Jetzt kannst du mit dem Befehl **/user add BENUTZERNAME PASSWORT owner** einen neuen Admin auf deinem Server hinzufügen.  
+Ersetze **BENUTZERNAME** durch deinen Namen und wähle als **PASSWORT** ein beliebiges Passwort,  
+das du zukünftig für den Admin-Login auf deinem Server nutzen kannst.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/KryfWQi4Xebcfa5/preview)
-![](https://screensaver01.zap-hosting.com/index.php/s/zWzWKeEApcbZSCd/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/iX62CLtn577NfFQ/preview)  
+![](https://screensaver01.zap-hosting.com/index.php/s/xeP8Y8sx66LkSJQ/preview)
 
 :::info
-Beachte, dass dein Passwort mindestens 4 Zeichen lang sein muss!
+Dein Passwort muss mindestens 4 Zeichen lang sein!
 :::
 
-## Login als Admin
+## Als Admin einloggen
 
-Nachdem du dich im Spiel als Admin eingetragen hast, kannst du dich mit folgendem Befehl einloggen:
-**/login USERNAME PASSWORD**
+Nachdem du dich im Spiel als Admin registriert hast, kannst du dich mit folgendem Befehl einloggen:  
+**/login BENUTZERNAME PASSWORT**
 
-Dabei ersetzt du natürlich wieder **USERNAME** durch deinen Namen und **PASSWORT** durch das von dir zuvor gesetzte Passwort.
+Natürlich ersetzt du **BENUTZERNAME** durch deinen Namen und **PASSWORT** durch das zuvor festgelegte Passwort.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/b5EbWNzcaA5PkAL/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/ewTra2Fi2yia9jS/preview)
 
-Nun bist du als Admin auf deinem Server angemeldet und kannst diesen mit verschiedenen Befehlen verwalten.
+Jetzt bist du als Admin auf deinem Server eingeloggt und kannst ihn mit verschiedenen Befehlen verwalten.
 
 <InlineVoucher />

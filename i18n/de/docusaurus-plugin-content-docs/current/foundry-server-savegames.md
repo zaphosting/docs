@@ -1,7 +1,7 @@
 ---
 id: foundry-server-savegames
 title: "Foundry: Foundry Savegames verwalten"
-description: Informationen über die Verwaltung von Savegames auf deinem Foundry-Server von ZAP-Hosting - ZAP-Hosting.com Dokumentation
+description: "Entdecke, wie du deine Foundry Gamesaves lokal und auf deinem Server sicher sicherst und verwaltest, um nahtloses Gameplay zu gewährleisten → Jetzt mehr erfahren"
 sidebar_label: Savegames verwalten
 services:
   - gameserver-foundry
@@ -11,72 +11,71 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
 
-In dieser Anleitung erfährst du, wie du deine Foundry Gamesaves auf deinem Gameserver verwaltest, einschließlich der Sicherung deiner lokalen und Server-Savegames sowie des Uploads auf deinen Server.
+In dieser Anleitung zeigen wir dir, wie du deine Foundry Gamesaves auf deinem Gameserver verwaltest, inklusive dem Backup deiner lokalen und Server-Savegames sowie dem Hochladen auf deinen Server.
 
 <InlineVoucher />
 
-## Voraussetzungen
+## Vorbereitung
 
-Um auf die Dateien deines Servers zuzugreifen, benötigst du einen FTP-Client wie [WinSCP](https://winscp.net/eng/index.php) oder [FileZilla](https://filezilla-project.org/), die beide Open-Source sind und kostenlos heruntergeladen werden können.
+Um auf deine Serverdateien zugreifen zu können, benötigst du einen FTP-Client wie [WinSCP](https://winscp.net/eng/index.php) oder [FileZilla](https://filezilla-project.org/), die beide Open-Source und kostenlos sind.
 
-Du musst dich über einen FTP-Client mit deinem Server verbinden, indem du die Zugangsdaten verwendest, die du unter **Tools->FTP-Broswer** im Webinterface deines Gameservers findest. Bitte benutze unsere [Zugriff per FTP](gameserver-ftpaccess.md) Anleitung als weitere Hilfe, um dich mit deinem Server zu verbinden.
+Du musst dich mit einem FTP-Client über die Zugangsdaten verbinden, die du im **Tools->FTP-Browser** Bereich im Webinterface deines Gameservers findest. Nutze gerne unsere [Zugriff via FTP](gameserver-ftpaccess.md) Anleitung als Unterstützung, um dich mit deinem Server zu verbinden.
 
-
-## Backup Savegame
+## Savegame sichern
 
 ### Lokales Savegame
 
-Lokale Savegames sind Savegames, die du erstellt hast, während du ein Multiplayer-Spiel lokal auf deinem Gerät veranstaltet hast. Diese findest du in deinen Windows LocalLow AppData, und zwar in folgendem Pfad:
+Lokale Savegames sind solche, die du erstellt hast, während du ein Multiplayer-Spiel lokal auf deinem Gerät gehostet hast. Diese findest du im Windows LocalLow AppData Ordner, genauer unter folgendem Pfad:
 ```
 ../AppData/LocalLow/Channel 3 Entertainment/Foundry/save
 ```
 
 :::tip
-Du kannst ganz einfach direkt auf diesen Pfad zugreifen, indem du `CTRL` + `R` gleichzeitig drückst und im Ausführen-Dialog nach dem folgenden Pfad suchst: `%userprofile%/appdata/locallow/Channel 3 Entertainment/foundry/save`. Drücke einfach **OK** und du wirst zu dem Ordner geführt.
+Du kannst diesen Pfad ganz einfach direkt öffnen, indem du gleichzeitig `STRG` + `R` drückst und im Ausführen-Dialog folgenden Pfad eingibst: `%userprofile%/appdata/locallow/Channel 3 Entertainment/foundry/save`. Einfach auf **OK** klicken und du landest direkt im Ordner.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/E6rniERFyc5AdS9/preview)
 :::
 
-An dieser Stelle kannst du alle deine lokalen Savegames sehen.
+An diesem Ort kannst du alle deine lokalen Savegames sehen.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/LGPj2xZNGeCJpjt/preview)
 
-### Zugriff auf das Savegame über FTP
+### Savegame per FTP zugreifen
 
-Es ist ganz einfach, dein Savegame auf dem Server zu sichern. Sobald du dich über einen FTP-Client mit deinem Gameserver verbunden hast, gehst du zu folgendem Pfad:
+Das Backup deines Savegames vom Server ist easy. Sobald du dich mit deinem Gameserver per FTP-Client verbunden hast, navigiere zu folgendem Pfad:
 ```
 ../foundry/saves/save
 ```
 
-An diesem Ort solltest du Ordner sehen, die jeweils ein Savegame sind. Klicke einfach mit der rechten Maustaste auf den Ordner und benutze den Button **Download**, um ihn lokal auf deinem Gerät zu speichern.
+Dort solltest du Ordner sehen, die jeweils ein Savegame repräsentieren. Rechtsklicke einfach auf den Ordner und wähle **Download**, um ihn lokal auf deinem Gerät zu speichern.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/X2f3Fo27GCyFe3m/preview)
 
-### Automatische Sicherung
+### Automatisches Backup
 
-Wir bieten auch die Möglichkeit, dein Savegame (und deine Konfigurationsdatei) direkt über unser Webinterface automatisch zu sichern. Rufe einfach das Webinterface deines Gameservers auf und gehe in den Bereich **Tools->Backups**. Hier kannst du eine Reihe von Optionen konfigurieren, um automatische Backups für deinen Server zu planen. Wir stellen dir 10gb kostenlosen Backup-Speicher zur Verfügung, in dem deine Backups gespeichert werden. Weitere Informationen zu Backups findest du in unserer [Backups](gameserver-backups.md) Anleitung zu diesem Thema.
+Wir bieten dir auch die Möglichkeit, dein Savegame (und die Konfigurationsdatei) direkt über unser Webinterface automatisch sichern zu lassen. Gehe dazu einfach im Webinterface deines Gameservers auf **Tools->Backups**. Dort kannst du verschiedene Optionen einstellen, um automatische Backups zu planen. Wir stellen dir 10 GB kostenlosen Backup-Speicher zur Verfügung, in dem deine Backups abgelegt werden. Für mehr Infos zu Backups schau dir gerne unsere ausführliche [Backups](gameserver-backups.md) Anleitung an.
 
 ## Savegame hochladen
 
-Ähnlich wie das Sichern ist auch das Hochladen deines Savegames ganz einfach. Stelle zunächst sicher, dass du dich über einen FTP-Client mit deinem Gameserver verbindest. Sobald du bereit bist, gehst du zu folgendem Pfad:
+Ähnlich wie beim Backup ist das Hochladen deines Savegames simpel. Verbinde dich zuerst per FTP-Client mit deinem Gameserver. Navigiere dann zu folgendem Pfad:
 ```
 ../foundry/saves/save
 ```
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/CobaowD4JLPWte7/preview)
 
-Ziehe einfach alle deine Savegames mit deinem FTP-Client in diesen Ordner und sie werden auf deinen Server hochgeladen.
+Zieh einfach dein Savegame per Drag & Drop in diesen Ordner im FTP-Client und es wird auf deinen Server hochgeladen.
 
 :::tip
-Es kann nützlich sein, den Namen des hochgeladenen Gamesave-Ordners zu kopieren, da du ihn brauchst, wenn du ihn im nächsten Abschnitt aktivieren willst.
+Es kann hilfreich sein, den Namen des hochgeladenen Savegame-Ordners zu kopieren, da du diesen brauchst, um es im nächsten Schritt zu aktivieren.
 :::
 
 ## Savegame aktivieren
 
-Um ein bestimmtes Savegame verwenden zu können, musst du eine Konfigurationsdatei bearbeiten. Es gibt mehrere Möglichkeiten, dies zu tun. Wir werden uns mit dem Webinterface beschäftigen, da dies die benutzerfreundlichste ist. Wenn du andere Methoden zur Bearbeitung der Datei suchst, schaue dir bitte unsere [Server-Konfiguration](foundry-configuration.md) an, in der dies beschrieben wird.
+Um ein bestimmtes Savegame zu nutzen, musst du eine Konfigurationsdatei anpassen. Es gibt verschiedene Wege, das zu machen – wir zeigen dir hier den Weg über das Webinterface, da das am einfachsten ist. Wenn du andere Methoden kennenlernen möchtest, schau dir unsere [Server-Konfiguration](foundry-configuration.md) Anleitung an.
 
-Gehe einfach zum Abschnitt **Einstellungen** im Webinterface deines Gameservers und suche die Einstellung **Savename**.
+Gehe im Webinterface deines Gameservers in den Bereich **Settings** und suche die Einstellung **Savename**.
 
-Ändere diese Einstellung auf den Namen des Spielstandsordners, den du im vorherigen Schritt hochgeladen hast. Wenn du fertig bist, speichere unten mit dem grünen Button **Speichern** und starte dann deinen Server neu.
+Ändere diese Einstellung auf den Namen des Savegame-Ordners, den du im vorherigen Schritt hochgeladen hast. Speichere die Änderung unten mit dem grünen **Speichern**-Button und starte dann deinen Server neu.
 
 <InlineVoucher />

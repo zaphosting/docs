@@ -1,7 +1,7 @@
 ---
 id: ark-rcon
 title: "ARK: Survival Evolved: RCON"
-description: "Erfahre, wie du RCON für ARK: Survival Evolved verwendest – ZAP-Hosting Dokumentation"
+description: "Entdecke, wie du ARK: Survival Evolved Gameserver sicher aus der Ferne verwaltest und steuerst, ohne dich ins Spiel einzuloggen → Jetzt mehr erfahren"
 sidebar_label: RCON
 services:
   - gameserver-ark
@@ -12,71 +12,68 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
 
-RCON (Remote Console) ist ein Netzwerkprotokoll zur Fernsteuerung von Gameservern. Es ermöglicht den Zugriff auf die Serverkonsole, ohne dass du direkt auf die Serverumgebung zugreifen musst. Dadurch kannst du administrative Befehle ausführen, Konfigurationsparameter anpassen oder den Serverstatus abfragen.
+RCON (Remote Console) ist ein Netzwerkprotokoll, mit dem du Gameserver aus der Ferne steuern kannst. Es erlaubt den Zugriff auf die Serverkonsole, ohne direkt mit der Serverumgebung interagieren zu müssen. So kannst du administrative Befehle ausführen, Konfigurationsparameter anpassen oder Serverstatusinformationen abrufen.
 
-In ARK: Survival Evolved wird RCON verwendet, um serverseitige Befehle auszuführen, zum Beispiel zur Verwaltung von Spielern, zur Änderung von Spieleinstellungen oder zum Abrufen von Diagnosedaten. Die Verbindung ist durch ein Passwort geschützt und erfolgt über einen definierten Port, der über kompatible RCON-Clients erreichbar ist.
+Bei ARK: Survival Evolved wird RCON genutzt, um serverseitige Befehle auszuführen, wie z.B. Spieler verwalten, Gameplay-Einstellungen ändern oder Diagnoseausgaben abrufen. Die Verbindung ist durch ein Passwort geschützt und läuft über einen festgelegten Port, der über kompatible RCON-Clients erreichbar ist.
 
-Ein wesentlicher Vorteil von RCON ist, dass du den Server verwalten kannst, **ohne selbst im Spiel verbunden zu sein**. Administratoren können ARK: Survival Evolved über externe Tools, Kommandozeilen-Interfaces oder Web-Dashboards überwachen und steuern, flexibel und ortsunabhängig.
+Ein großer Vorteil von RCON ist, dass du den Server **verwalten kannst, ohne als Spieler im Spiel verbunden zu sein**. Server-Admins können ARK: Survival Evolved bequem über externe Tools, Kommandozeilen oder Web-Dashboards überwachen und steuern – super flexibel und praktisch für die Fernverwaltung.
 
 <InlineVoucher />
 
-
-
 ## Konfiguration
 
-Bevor RCON verwendet werden kann, muss es aktiviert und konfiguriert werden. Dies erfolgt über die Konfigurationsdatei, die du in der Gameserververwaltung unter **Configs** findest. In der Datei `GameUserSettings.ini` müssen folgende Einträge ergänzt oder angepasst werden:
+Bevor du RCON nutzen kannst, muss es aktiviert und konfiguriert werden. Das machst du, indem du die Konfigurationsdatei im Bereich **Configs** im Gameserver-Management-Panel bearbeitest. In der Datei `GameUserSettings.ini` müssen folgende Einträge hinzugefügt oder angepasst werden:
 
 ```cfg
 [ServerSettings]
 RCONEnabled=True
-ServerAdminPassword=define-your-password
+ServerAdminPassword=dein-passwort-definieren
 ```
-
-Der zugewiesene RCON-Port ist ebenfalls in der **Portübersicht** unten auf der Einstellungsseite zu finden und muss dort eingetragen sein.
-
+Den zugewiesenen RCON-Port findest du unten auf der Einstellungsseite in der Port-Übersicht, dieser muss dort angegeben werden.
 
 
-## Verbindung per RCON
 
-Um dich per RCON mit dem ARK: Survival Evolved Server zu verbinden, wird das Tool **ARKon** verwendet. Es ist über diesen [Steam-Thread](https://steamcommunity.com/app/346110/discussions/2/3417684283223117680/) erhältlich. Nach der Installation auf deinem Computer muss ein neuer Servereintrag mit folgenden Informationen erstellt werden:
+## Verbindung via RCON
 
-- IP-Adresse des Servers
-- RCON-Port
-- RCON-Passwort
+Um dich per RCON mit deinem ARK: Survival Evolved Gameserver zu verbinden, nutzt du das Tool **ARKon**. Du kannst es hier im [Steam Thread](https://steamcommunity.com/app/346110/discussions/2/3417684283223117680/) herunterladen. Nach dem Download und der Installation auf deinem PC legst du einen neuen Servereintrag mit diesen Infos an:
 
-Nach dem Speichern des Profils kann der Server aus der Liste ausgewählt und verbunden werden. Sobald die Verbindung steht, lassen sich RCON-Befehle über die grafische Oberfläche ausführen. ARKon bietet zudem spezielle Zusatzfunktionen für ARK: Survival Evolved, wie:
+- Server-IP-Adresse  
+- RCON-Port  
+- RCON-Passwort  
 
-- Echtzeit-Spielerliste und Online-Status
-- Überwachung und Interaktion mit dem Ingame-Chat
-- Schnellzugriff auf häufige Admin-Befehle
-- Protokollierung der RCON-Ausgabe und Befehlshistorie
+Nach dem Speichern des Verbindungsprofils kannst du den Server aus der Liste auswählen und die Verbindung herstellen. Sobald verbunden, kannst du RCON-Befehle über die grafische Oberfläche ausführen. ARKon bietet außerdem coole Features speziell für ARK: Survival Evolved, wie:
+
+- Echtzeit-Spielerliste und Online-Status  
+- Ingame-Chat-Überwachung und Interaktion  
+- Schnellzugriff-Buttons für gängige Admin-Befehle  
+- Protokollierung der RCON-Ausgaben und Befehls-Historie
 
 
 
 ## RCON-Befehle
 
-Sobald die Verbindung über RCON besteht, können verschiedene administrative und diagnostische Befehle auf dem ARK: Survival Evolved Server ausgeführt werden. Die verfügbaren Befehle hängen von der Game-Engine ab, beinhalten aber typischerweise Aktionen zur Spielersteuerung, Statusabfragen und Serverkontrolle.
+Sobald du per RCON verbunden bist, kannst du verschiedene administrative und diagnostische Befehle auf deinem ARK: Survival Evolved Gameserver ausführen. Die verfügbaren Befehle hängen von der Game-Engine ab, beinhalten aber typischerweise Aktionen zur Spielerverwaltung, Statusabfragen und Serversteuerung.
 
-| Befehl                           | Beschreibung                                         |
-|----------------------------------|-----------------------------------------------------|
-| `EnableCheats <Passwort>`        | Aktiviert Admin-Rechte auf dem Server (Adminmodus) |
-| `AdminCheat KickPlayer <Steam64ID>` | Kickt einen Spieler                          |
-| `AdminCheat BanPlayer <Steam64ID>`  | Bannt einen Spieler                            |
-| `AdminCheat UnbanPlayer <SpielerName>` | Hebt Bann auf                             |
-| `AdminCheat Broadcast <Nachricht>` | Sendet Nachricht an alle Spieler                  |
-| `AdminCheat SaveWorld`           | Speichert die Spielwelt                            |
-| `AdminCheat SetTimeOfDay <hh:mm>`| Setzt die Ingame‑Zeit                              |
-| `AdminCheat TeleportPlayerIDToMe <SpielerID>` | Teleportiert Spieler zu dir           |
-| `cheat Slomo <Faktor>`           | Ändert Spielgeschwindigkeit                        |
-| `AdminCheat GiveItemNum <ItemID> <Menge> <Qual> 0` | Spawnt Items für dich                |
-
-
+| Befehl                            | Beschreibung                                           |
+|----------------------------------|--------------------------------------------------------|
+| `EnableCheats <password>`         | Aktiviert den Admin-Modus auf dem Server (Admin-Befehle) |
+| `AdminCheat KickPlayer <Steam64ID>` | Kickt einen Spieler                                  |
+| `AdminCheat BanPlayer <Steam64ID>`  | Bannt einen Spieler                                   |
+| `AdminCheat UnbanPlayer <playerName>` | Entbannt einen Spieler                               |
+| `AdminCheat Broadcast <message>`   | Sendet eine Broadcast-Nachricht an alle Spieler       |
+| `AdminCheat SaveWorld`            | Speichert den aktuellen Weltstatus                     |
+| `AdminCheat SetTimeOfDay <hh:mm>` | Setzt die Ingame-Zeit                                  |
+| `AdminCheat TeleportPlayerIDToMe <playerID>` | Teleportiert einen Spieler zu dir                  |
+| `cheat Slomo <factor>`            | Passt die Spielgeschwindigkeit an                      |
+| `AdminCheat GiveItemNum <ItemID> <quantity> <quality> 0` | Spawnt Items in dein Inventar               |
 
 
-## Abschluss
 
-RCON ist ein zentrales Werkzeug für die Fernadministration von ARK: Survival Evolved Gameservern. Es ermöglicht schnellen und direkten Zugriff auf administrative Funktionen und bietet gleichzeitig Zugriffsschutz durch Passwortauthentifizierung. Eine korrekte und sichere Konfiguration ist entscheidend, um die Stabilität des Servers zu gewährleisten und unbefugten Zugriff zu verhindern.
 
-Für weitere Fragen oder Hilfe zögere bitte nicht, unser Support-Team zu kontaktieren, das dir täglich zur Verfügung steht! 🙂
+## Fazit
+
+RCON ist ein essentielles Tool für die Fernverwaltung von ARK: Survival Evolved Gameservern. Es ermöglicht schnellen und direkten Zugriff auf administrative Funktionen und schützt den Zugang durch Passwort-Authentifizierung. Eine korrekte und sichere Konfiguration ist entscheidend, um die Serverstabilität zu gewährleisten und unbefugten Zugriff zu verhindern.
+
+Bei Fragen oder wenn du Hilfe brauchst, steht dir unser Support-Team täglich zur Seite! 🙂
 
 <InlineVoucher />

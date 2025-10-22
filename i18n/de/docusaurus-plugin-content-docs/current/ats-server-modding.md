@@ -1,7 +1,7 @@
 ---
 id: ats-server-modding
-title: "ATS: Installiere Mods/DLCs auf deinem ATS-Server"
-description: Informationen darüber, wie du Mods und DLCs auf deinem American Truck Simulator (ATS) Server oder Spielclient von ZAP-Hosting installierst - ZAP-Hosting.com Dokumentation
+title: "ATS: Mods/DLCs auf deinem ATS Gameserver installieren"
+description: "Entdecke, wie du dein American Truck Simulator Erlebnis mit Mods und DLCs für Client und Server verbesserst → Jetzt mehr erfahren"
 sidebar_label: Mods/DLCs installieren
 services:
   - gameserver-ats
@@ -11,72 +11,72 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
 
-Der American Truck Simulator verfügt über eine native Modding-Unterstützung über den Steam Workshop, die es dir ermöglicht, neben gekauften DLCs eine Vielzahl von Mods zu deinem Spiel und deinem Server hinzuzufügen. In dieser Anleitung erklären wir dir, wie du Mods auf deinem Client und anschließend auf deinem ATS-Server installierst.
+American Truck Simulator unterstützt Modding nativ über den Steam Workshop, der direkt im Spiel integriert ist. So kannst du eine Vielzahl von Mods zu deinem Spiel und deinem Gameserver hinzufügen, neben den gekauften DLCs. In dieser Anleitung zeigen wir dir, wie du Mods zuerst auf deinem Client und anschließend auf deinem ATS Gameserver installierst.
 
 <InlineVoucher />
 
-## Hinzufügen von Mods & DLCs
+## Mods & DLCs hinzufügen
 
-Zunächst musst du die Mods und DLCs, die du verwenden möchtest, finden und auswählen. Das kannst du im Spiel tun, indem du die Optionen **Mod Manager** und **DLC Browser** im Hauptmenü aufrufst.
+Zuerst musst du die Mods und DLCs finden und auswählen, die du nutzen möchtest. Das kannst du im Spiel über die Optionen **Mod Manager** und **DLC Browser** im Hauptmenü machen.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/osjX59MRjrPBfe6/preview)
 
 ### Mods
 
-Auf Mods kannst du über die Option **Mod Manager** im Hauptmenü zugreifen, mit der du ganz einfach Mods über den Steam Workshop finden kannst.
+Mods findest du über die Option **Mod Manager** im Hauptmenü, die dir den einfachen Zugriff auf den Steam Workshop ermöglicht.
 
-Wenn du einige Mods installiert hast, stelle sicher, dass du sie mit den Pfeilen neben jeder Mod in die Liste **Aktive Mods** verschiebst.
+Nachdem du Mods installiert hast, stelle sicher, dass du sie mit den Pfeilen neben jedem Mod in die Liste der **Aktiven Mods** verschiebst.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/TG7XK6ZodWZM2pz/preview)
 
-Bestätige abschließend die Änderungen und starte das Spiel im Einzelspielermodus.
+Bestätige abschließend die Änderungen und starte das Spiel im Einzelspieler-Modus.
 
 ### DLCs
 
-Du kannst auf die DLCs, die du auf deinem Konto gekauft hast, über die Option **DLC Browser** im Hauptmenü zugreifen.
+Deine gekauften DLCs findest du über die Option **DLC Browser** im Hauptmenü.
 
-Auf dieser Seite kannst du alle DLCs durchsuchen, die du derzeit besitzt und auf deinem Client installiert hast.
+Hier kannst du alle DLCs sehen, die du aktuell besitzt und auf deinem Client installiert hast.
 
 ## Server-Pakete exportieren
 
-Jetzt, wo du die Mods aktiviert hast und im Spiel bereit bist, musst du deine Mods als Serverpakete exportieren. Dazu musst du die Konsole im Spiel öffnen, die standardmäßig deaktiviert ist.
+Nachdem du die Mods aktiviert hast und im Spiel bereit bist, musst du deine Mods als Server-Pakete exportieren. Dafür musst du die Konsole im Spiel öffnen, die standardmäßig deaktiviert ist.
 
-Um sie zu aktivieren, gehst du in das folgende Verzeichnis und öffnest die Datei `config.cfg`:
+Um sie zu aktivieren, öffne die folgende Verzeichnis und bearbeite die Datei `config.cfg`:
 ```
-C:/Users/[dein_benutzer]/Dokumente/American Truck Simulator
+C:/Users/[dein_benutzer]/Documents/American Truck Simulator
 ```
 
-Suche in dieser Datei die Zeile `uset g_developer "0"` und ersetze sie durch `uset g_developer "1"`, um sie zu aktivieren. Finde auch die Zeile `uset g_console "0"` und ersetze sie durch `uset g_console "1"`.
+Suche in der Datei die Zeile `uset g_developer "0"` und ersetze sie durch `uset g_developer "1"`, um den Entwickler-Modus zu aktivieren. Ebenso suche die Zeile `uset g_console "0"` und ersetze sie durch `uset g_console "1"`.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/Wz52e4o2KtTndZM/preview)
 ![](https://screensaver01.zap-hosting.com/index.php/s/raR8jxq7imKzjDD/preview)
 
-Starte dein Spiel neu. Jetzt kannst du die Konsole je nach Tastaturlayout mit einer der folgenden Tasten öffnen:
+Starte dein Spiel neu, nun kannst du die Konsole mit einer der folgenden Tasten öffnen, je nach Tastaturlayout:
 ```
-` ODER ~ ODER
+` ODER ~ ODER \
 ```
 
-Jetzt bist du bereit und gibst in der Konsole den folgenden Befehl ein, um die Serverpakete zu exportieren:
+Wenn du bereit bist, gib in der Konsole folgenden Befehl ein, um die Server-Pakete zu exportieren:
 ```
 export_server_packages
 ```
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/zbzbdKfyr5xyNrK/preview)
 
-Es werden zwei Dateien in deinen `Dokumente/American Truck Simulator` Ordner exportiert, die `server_packages.dat` und die `server_packages.sii` Dateien, die Informationen über DLCs/Mods enthalten und im nächsten Abschnitt verwendet werden.
+Es werden zwei Dateien in deinem `Documents/American Truck Simulator` Ordner erstellt: `server_packages.dat` und `server_packages.sii`. Diese enthalten Infos zu DLCs/Mods und werden im nächsten Schritt gebraucht.
 
 ## Server-Pakete hochladen
 
-Nachdem du die Serverpakete für deine Mods exportiert hast, musst du sie per FTP auf deinen ATS-Server hochladen. BWenn du nicht weißt, wie man FTP verwendet, dann kann dir ein Blick in die folgende [Anleitung](gameserver-ftpaccess.md) weiterhelfen.
+Nachdem du die Server-Pakete für deine Mods exportiert hast, musst du sie per FTP auf deinen ATS Gameserver hochladen. Nutze dazu unsere [FTP-Zugang](gameserver-ftpaccess.md) Anleitung, falls du Hilfe beim Verbinden brauchst.
 
-Sobald du fertig bist, gehe in das Hauptverzeichnis  von **American Truck Simulator**. Lade die beiden Dateien der Serverpakete in diesen Ordner hoch. Wenn diese Dateien bereits existieren, ersetze sie einfach.
+Wechsle dann in das Hauptverzeichnis **American Truck Simulator** auf deinem Server. Lade beide Server-Paket-Dateien in diesen Ordner hoch. Falls die Dateien schon existieren, einfach überschreiben.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/c5cYWL8eQKTzDg9/preview)
 
 :::tip
-Beim Modding müssen die Mods zwischen dem Client und dem Server synchronisiert werden. Das heißt, wenn du dich mit einem Server verbindest, auf dem du keine Mods hast, wirst du aufgefordert, die fehlenden Mods herunterzuladen.
+Beim Modding müssen Mods zwischen Client und Server synchron sein. Wenn du dich mit einem Server verbindest, der Mods hat, die du nicht besitzt, wirst du aufgefordert, die fehlenden Mods herunterzuladen.
 :::
 
-Zum Schluss musst du deinen Server neu starten, damit die Mods automatisch aktiviert und installiert werden. Du hast erfolgreich Mods auf deinem ATS-Server installiert.
+Starte abschließend deinen Gameserver neu, damit die Mods automatisch aktiviert und installiert werden. Du hast erfolgreich Mods auf deinem ATS Gameserver installiert.
 
 <InlineVoucher />

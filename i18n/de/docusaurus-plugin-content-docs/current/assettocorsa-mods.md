@@ -1,10 +1,10 @@
 ---
 id: assettocorsa-mods
-title: Mods auf einen Server installieren
-description: Informationen, wie du Mods auf deinen Assetto Corsa-Server von ZAP-Hosting installieren kannst - ZAP-Hosting.com Dokumentation
-sidebar_label: Mods Installieren
+title: "Assetto Corsa: Mods auf einem Server installieren"
+description: "Entdecke, wie du deinen Assetto Corsa Server für das beste Spielerlebnis einrichtest und anpasst → Jetzt mehr erfahren"
+sidebar_label: Mods installieren
 services:
-  - gameserver-assetto-competizione-assettocorsa
+  - gameserver-assettocorsa
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';
@@ -13,87 +13,83 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Mit FTP verbinden
 
-Bevor mods installiert werden können, muss der [Zugriff per FTP](gameserver-ftpaccess.md) eingerichtet werden:
+Bevor wir den Server konfigurieren können, muss der [Zugang via FTP](gameserver-ftpaccess.md) eingerichtet sein:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/sg6i7AYFZ89znzk/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/gcojCfR2L8Mt5gg/preview)
 
-Nachdem dieser eingerichtet wurde, kann sich nun verbunden werden und der Server Ordner geöffnet werden:
+Nachdem das eingerichtet ist, kannst du dich verbinden und den Server-Ordner öffnen:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/pZJmx2iaFinMLMf/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/eSDXfR8HS6eDC6g/preview)
 
 
 ## Vorbereitung
 
-Zunächst öffnen wir den Assetto Corsa Ordner, diesen können wir öffnen, indem wir Steam öffnen und "Assetto Corsa" in der Spieleliste Rechtsklicken,
+Als Erstes öffnen wir den Assetto Corsa Ordner. Das geht, indem du Steam öffnest und in der Spieleliste mit Rechtsklick auf "Assetto Corsa" klickst.
 
-Nun öffnen wir "Lokale Dateien" und öffnen die Lokalen Spieldateien:
+Jetzt öffnen wir "Lokale Dateien" und öffnen die lokalen Spieldateien:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/6fLJiSBbQc5WJkD/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/A8PqgJEGHnc72Xe/preview)
 
-Dort öffnen wir den "Server" Ordner und öffnen den ACServerManager.exe.
+Dann öffnen wir den Ordner "server", dort findest du die Datei "acServerManager", die öffnen wir.
+
+
 
 ## Autos einstellen
 
-Nun wechseln wir in das Tab "Cars / Entry List", hier können wir nun neue Autos hinzufügen:
-
-Um Autos zu aktivieren, muss links das Häkchen gesetzt werden
-
-![](https://screensaver01.zap-hosting.com/index.php/s/ECctRkRDa7swSp6/preview)
+Jetzt wechseln wir zum Tab "Cars / Entry List", hier können wir neue Autos hinzufügen:
 
 
-In der Mitte erscheinen nun Autos, welche auf dem Grid platziert werden können, hier können wir nun Autos in den Farben wählen, welche im Grid sein sollten:
+Um Autos zu aktivieren, muss links der Haken gesetzt sein.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/bxejDwg2bfzkwXb/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/3M7QKxcEEBEEKfw/preview)
 
+In der Mitte siehst du die Autos, die auf dem Grid platziert werden können. Hier kannst du die Autos in den Farben auswählen, die im Grid erscheinen sollen:
+
+![](https://screensaver01.zap-hosting.com/index.php/s/7WbYdxJk8TJEDc3/preview)
 
 :::info
-Um mehrere Autos zu wählen, können mehrere Haken gesetzt werden, um die verschiedenen Autos in der Mitte hinzugefügt werden.
+Um mehrere Autos auszuwählen, kannst du mehrere Haken setzen, um verschiedene Autos in der Mitte hinzuzufügen.
 
+Achte darauf, dass alle Auto-Slots gefüllt sind und nicht mehr Autos als verfügbare Slots eingestellt werden.
 
-Beachte, dass alle Autoslots befüllt werden und nicht mehr, als die Menge der verfügbaren Slots gesetzt wird
-
-![](https://screensaver01.zap-hosting.com/index.php/s/Hoz9NNHL4664ftt/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/ogiaNKsGJZjWK2p/preview)
 :::
-
 
 
 ## Config hochladen
 
-Nun können wir die Config über den "Save" Button abspeichern und über den "Export" Button exportieren:
+Jetzt können wir die Config mit dem Button "Save" speichern und mit "Export" exportieren:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/n5gFsN8wqYYARz8/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/DcJLfNGYtpmRjSz/preview)
 
-Hier wählen wir nun einen freien Ordner, dort werden die Config-Daten gespeichert.
+Hier wählen wir einen freien Ordner aus, in dem die Config-Daten gespeichert werden.
 
-Jetzt kann der AC Server Manager geschlossen werden, wir öffnen nun den Ordner, in welche die Configs exportiert wurden.
+Jetzt kann der AC Server Manager geschlossen werden. Öffne den Ordner, in den die Configs exportiert wurden.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/oTWWgxfNwnk9BTk/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/cRYG4yspGbzpnHH/preview)
 
+Diese Configs kannst du jetzt per Drag&Drop in den "cfg"-Ordner deines Gameservers kopieren.
 
-Diese Configs können über Drag&Drop in den "cfg" Ordner des Servers hochgeladen werden.
-
-![](https://screensaver01.zap-hosting.com/index.php/s/5FDBnAXqXGCjELg/preview)
-
+![](https://screensaver01.zap-hosting.com/index.php/s/56pgFoDj9KQyBX2/preview)
 
 
-## Server Content hochladen
 
-Wir müssen nun den Content für den Server generieren, damit Car&Map Mods auf dem Server geladen werden, dazu klicken wir zunächst unten auf "Update Server Content"
+## Server-Content hochladen
 
-![](https://screensaver01.zap-hosting.com/index.php/s/xxxGnbP2w2oySM5/preview)
+Jetzt müssen wir den Content für den Server generieren, damit Car- & Map-Mods auf dem Server geladen werden. Dazu klicken wir unten auf "Update Server Content".
 
+![](https://screensaver01.zap-hosting.com/index.php/s/dRg5xoxcrNcCK9r/preview)
 
-Dieser Prozess kann einige Minuten in Anspruch nehmen, es werden nun alle Maps & Cars zu Serverdateien umgewandelt.
+Dieser Vorgang kann ein paar Minuten dauern. Alle Maps & Autos werden jetzt in Server-Dateien umgewandelt.
 
 :::info
-Nachdem dieser Prozess vollendet ist, kann es ggf. zu einer "Could not update" Meldung kommen, diese ist unproblematisch.
+Nach Abschluss kann die Meldung "Could not update" erscheinen, das ist kein Problem.
 :::
 
-Nun öffnen wir den "Server" Ordner, indem auch der AcServerManager ist, dort befindet sich ein "Content" Ordner, welchen wir nun über Drag&Drop auf unseren Assetto Corsa Server hochladen, und damit unseren alten "Content" Ordner überschreiben:
+Jetzt öffnen wir den "Server"-Ordner, in dem sich der AcServerManager befindet. Dort gibt es einen "Content"-Ordner, den laden wir per Drag&Drop auf unseren Assetto Corsa Server hoch und überschreiben den alten "Content"-Ordner:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/cFbaDgjZotKN2bL/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/dfDYjZjADkpfdDc/preview)
 
-
-Nachdem der Content hochgeladen wurde, sind die Carmods nach einem Serverneustart installiert und aktiv.
+Nachdem der Content hochgeladen ist, sind die Carmods installiert und nach einem Server-Neustart aktiv.
 
 <InlineVoucher />

@@ -1,7 +1,7 @@
 ---
 id: vserver-windows-valheim
-title: "vServer: Valheim Dedicated Server Einrichtung"
-description: Informationen zum Einrichten eines Valheim Dedicated Server auf einem vServer - ZAP-Hosting.com Dokumentation
+title: "VPS: Valheim Dedicated Server Windows Setup"
+description: "Entdecke, wie du schnell und einfach einen Valheim Dedicated Server auf deinem VPS oder Dedicated Server einrichtest → Jetzt mehr erfahren"
 sidebar_label: Valheim
 services:
   - vserver
@@ -11,43 +11,43 @@ import YouTube from '@site/src/components/YouTube/YouTube';
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
-Du hast einen Windows vServer und möchtest darauf unter anderem Gameserver installieren? Beispielsweise einen Valheim Dedicated Server? Dann bist du hier genau richtig! Im Folgenden werden wir dir Schritt für Schritt erklären, wie du solch einen Dienst auf deinem Server installieren kannst.
+Du hast einen VPS oder Dedicated Server und willst darauf Gameserver installieren? Zum Beispiel einen Valheim Dedicated Server? Dann bist du hier genau richtig! Im Folgenden erklären wir dir Schritt für Schritt, wie du so einen Service auf deinem Server einrichtest.
 
-<YouTube videoId="Trs9Ysxa1gc" imageSrc="https://screensaver01.zap-hosting.com/index.php/s/fwqKqYgsbXNq3Rp/preview" title="Valehim Dedicated Server Setup on Windows vServer" description="Feel like you understand better when you see things in action? We’ve got you! Dive into our video that breaks it all down for you. Whether you're in a rush or just prefer to soak up information in the most engaging way possible!"/>
-
+<YouTube videoId="Trs9Ysxa1gc" imageSrc="https://screensaver01.zap-hosting.com/index.php/s/8yWGtXMPFr8Jyza/preview" title="Valheim Dedicated Server Setup auf Windows VPS" description="Du verstehst besser, wenn du Dinge in Aktion siehst? Kein Problem! Schau dir unser Video an, das alles für dich erklärt. Egal ob du es eilig hast oder lieber auf die spannendste Art lernst!"/>
 <InlineVoucher />
 
 ## Vorbereitung
-Verbinde dich für die Einrichtung deines Valheim Dedicated Server mit deinem vServer per RDP. Solltest du noch nicht wissen, wie du dich per RDP mit deinem Server verbinden kannst, dann empfehlen wir einen Blick in die [Erstzugang (RDP)](vserver-windows-userdp.md) Anleitung zu werfen. Für die Einrichtung eines Valheim Server wird die SteamCMD benötigt. Die SteamCMD ist die **Kommandozeilen-Edition des Steam-Clients**. Über dieses Tool können schnell und einfach die Dedicated-Server-Anwendungen beliebter Steam-Games heruntergeladen werden. Die SteamCMD findest du auf der offiziellen Valve Entwickler Webseite: https://developer.valvesoftware.com/wiki/SteamCMD 
+Für die Einrichtung eines Valheim Servers wird SteamCMD benötigt. SteamCMD ist die **Kommandozeilen-Version des Steam-Clients**. Mit diesem Tool kannst du schnell und einfach die Dedicated Server-Anwendungen beliebter Steam-Games herunterladen. SteamCMD findest du auf der offiziellen Valve Entwicklerseite: https://developer.valvesoftware.com/wiki/SteamCMD.
 
-Im Anschluss erfolgt der Download. Dieser beinhaltet die **steamcmd.zip** Datei, welche zunächst entpackt werden muss. Erstelle dafür am besten einen separaten Ordner, wo die Datei dann entpackt wird. Als Resultat solltest du nun die **steamcmd.exe** sehen. Führe diese aus und warte, bis der Installationsprozess abgeschlossen ist. 
+Danach erfolgt der Download. Dieser enthält die **steamcmd.zip** Datei, die zuerst entpackt werden muss. Es empfiehlt sich, einen eigenen Ordner anzulegen, in dem die Datei entpackt wird. Am Ende solltest du die **steamcmd.exe** sehen. Starte diese und warte, bis der Installationsprozess abgeschlossen ist.
+![](https://screensaver01.zap-hosting.com/index.php/s/7Hib2ZgaYWTsRNE/preview)
 
-![](https://screensaver01.zap-hosting.com/index.php/s/6kbybTbbCjJocLd/preview)
-
-Sobald die Meldung **Loading Steam API... OK** angezeigt wird, wurde der Vorgang erfolgreich abgeschlossen und es kann mit der Installation des Valheim Servers begonnen werden. 
+Sobald die Meldung **Loading Steam API.... OK** erscheint, ist der Prozess erfolgreich abgeschlossen und du kannst mit der Installation des Valheim Servers starten.
 
 
 
 ## Installation
 
-Nach der Installation solltest du die Möglichkeit haben, Befehle in der **Steam Kommandozeile (steamcmd.exe)** auszuführen. Dort ist jetzt der Login notwendig. Diesen führen wir über den **anonymous** Benutzer durch. Führe dafür folgenden Befehl durch: `login anonymous`
+Nach der Installation solltest du Befehle in der **Steam-Kommandozeile (steamcmd.exe)** ausführen können. Dort musst du dich einloggen. Das geht mit dem Benutzer **anonymous**. Führe folgenden Befehl aus: `login anonymous`
 
-Als nächstes erfolgt die Installation. Diese wird mit dem `app_update 896660` Befehl durchgeführt. Die App ID **896660** steht in dem Fall für die **Valheim Dedicated Server** Applikation. 
+Der nächste Schritt ist die Installation. Diese erfolgt mit dem Befehl `app_update 896660`. Die App ID **896660** steht für die **Valheim Dedicated Server** Anwendung.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/oPctExQrT3ZZM6w/preview)
-
->Bitte unterbreche den Vorgang nicht, bevor er abgeschlossen ist, um Fehler zu vermeiden. Es kann einen Moment dauern, aber es lohnt sich, geduldig zu sein! :)
-
-
-Navigiere nun in das Verzeichnis, wo du die Installation durchgeführt hast, und gehe dort in das folgende Unterverzeichnis: **../steamapps/common/Valheim dedicated Server**/
-
-Dort muss als Nächstes die Startdatei angelegt werden, welche zum Ausführen der Server Software benötigt wird. Erstelle dafür eine Datei mit dem folgenden Namen. start_headless.bat
+![](https://screensaver01.zap-hosting.com/index.php/s/cgMfJdL5DNNxjrf/preview)
 
 :::info
-Bitte stelle sicher, dass du die Dateiendungen anzeigen Option aktiv hast, damit auch die richtige Dateiendung verwendet wird. 
+Bitte unterbrich den Prozess nicht vorzeitig, um Fehler zu vermeiden. Es kann einen Moment dauern, aber Geduld zahlt sich aus! :)
 :::
 
-Öffne diese Datei im Anschluss, füge den folgenden Inhalt hinzu und speichere die neu hinzugefügten Veränderung:
+
+Wechsle in das Verzeichnis, in dem du die Installation durchgeführt hast, und gehe in den folgenden Unterordner:  **../steamapps/common/Valheim dedicated Server/**
+
+Dort musst du die Startdatei erstellen, die zum Ausführen der Serversoftware benötigt wird. Erstelle eine Datei mit folgendem Namen: start_headless.bat
+
+:::info
+Achte darauf, dass die Option „Dateinamenerweiterungen anzeigen“ aktiviert ist, damit die richtige Dateiendung verwendet wird.
+:::
+
+Öffne die Datei, füge folgenden Inhalt ein und speichere die Änderungen:
 
 ```
 @echo off
@@ -55,36 +55,39 @@ set SteamAppId-892970
 
 echo "Starting server PRESS CIRL-C to exit"
 
-REM Tip: Make a local copy of this script to avoid it being overwritten by steam.
-REM NOTE: Minimum password length is 5 characters & Password cant be in the server name.
-REM NOTE: You need to make sure che ports 2456-2458 is being forwarded to your server through your local router & firewall.
+REM Tipp: Erstelle eine lokale Kopie dieses Skripts, damit es nicht von Steam überschrieben wird.
+REM HINWEIS: Mindestpasswortlänge ist 5 Zeichen & Passwort darf nicht im Servernamen vorkommen.
+REM HINWEIS: Du musst sicherstellen, dass die Ports 2456-2458 über deinen lokalen Router & Firewall an deinen Server weitergeleitet werden.
 
 valheim server -nographics -batchmode -name "My Server" -port 2456 -world "Dedicated" -password "secret" -crossplay
 ```
 
-Damit der Server auch extern sichtbar und erreichbar ist, müssen die verwendeten Server Ports in der Firewall freigeschaltet/weitergeleitet werden. Öffne dazu die Windows Firewall Einstellungen. 
+Damit der Server von außen sichtbar und erreichbar ist, müssen die verwendeten Server-Ports in der Firewall freigegeben/weitergeleitet werden. Öffne dazu die Windows-Firewall-Einstellungen.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/c7XGcH7dgGRD9zP/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/EM32i73TLcn32Mc/preview)
 
-In den Einstellungen müssen nun weitere Regeln angelegt werden. Klicke dazu jeweils, wie im Folgenden beschrieben, auf die eingehenden und ausgehenden Regeln und füge die Ports 2456-2458 für die Protokolle TCP/UDP hinzu. 
+In den Einstellungen müssen zusätzliche Regeln hinzugefügt werden. Klicke dazu auf die eingehenden und ausgehenden Regeln wie unten beschrieben und füge sie für die Ports 2456-2458 für die Protokolle TCP/UDP hinzu.
+
+
 
 
 ## Konfiguration
 
-Die eigentliche Einrichtung ist damit bereits abgeschlossen. Weitere Änderungen bezüglich der Konfiguration kannst du über die **start_headless_server.bat** Datei vornehmen. Dort hast du die Möglichkeit den Server Name und Server Passwort vorzunehmen. Navigiere dazu in das folgende Verzeichnis: 
+Die eigentliche Einrichtung ist damit schon abgeschlossen. Weitere Konfigurationsänderungen kannst du in der **start_headless_server.bat** Datei vornehmen. Dort kannst du den Servernamen, das Serverpasswort, das Admin-Passwort und viele weitere Optionen anpassen. Navigiere dazu in folgendes Verzeichnis:
 
 ```
 ../steamapps/common/Valheim dedicated Server/
 ```
 
+
+
 ## Spielen
 
-Zum Abschluss der Einrichtung kannst du jetzt den Server starten, indem du die zuvor erstellte **start_headless_server.bat** Datei ausführst. Hierdurch sollte sich die Konsole des Servers öffnen und der Startprozess beginnen. Wenn alles wie erwartet verläuft, sollte der Server nach dem erfolgreichen Start in der Liste der Server sichtbar sein.
+Am Ende der Einrichtung kannst du den Server jetzt starten, indem du die zuvor erstellte **start_headless_server.bat** Datei ausführst. Dadurch öffnet sich die Server-Konsole und der Server-Startvorgang beginnt. Wenn alles wie erwartet läuft, sollte der Server nach erfolgreichem Start in der Serverliste sichtbar sein.
 
 
+## Fazit
 
-## Abschluss
-
-Glückwunsch, du hast den Valheim Server erfolgreich installiert und konfiguriert! Solltest du noch weitere Fragen oder Probleme haben, dann wende dich gerne an unser Support-Team, welches dir jeden Tag zur Verfügung steht!
+Glückwunsch, du hast Valheim erfolgreich auf deinem VPS installiert und konfiguriert! Falls du noch Fragen oder Probleme hast, steht dir unser Support-Team täglich zur Verfügung und hilft dir gerne weiter!
 
 <InlineVoucher />

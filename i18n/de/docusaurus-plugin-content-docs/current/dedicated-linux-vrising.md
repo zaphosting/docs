@@ -1,7 +1,7 @@
 ---
 id: dedicated-linux-vrising
 title: "Dedicated Server: V-Rising Dedicated Server Linux Setup"
-description: Informationen zur Einrichtung eines V-Rising Dedicated Servers auf einem Linux Dedicated Server von ZAP-Hosting - ZAP-Hosting.com Dokumentation
+description: "Entdecke, wie du den V-Rising Dedicated Server auf Linux für nahtloses Server mieten und Management einrichtest → Jetzt mehr erfahren"
 sidebar_label: V-Rising
 services:
   - dedicated
@@ -10,72 +10,71 @@ services:
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
-
-Hast du einen Linux Dedicated Server und möchtest den V-Rising Dedicated Server Service darauf installieren? Dann bist du hier genau richtig. In dieser Anleitung erklären wir dir Schritt für Schritt, wie du diesen Dienst mit SteamCMD auf deinem Linux-Server installierst. In den Beispielen verwenden wir Ubuntu, aber der Prozess sollte für andere Distributionen sehr ähnlich sein.
+Du hast einen Linux Dedicated Server und möchtest den V-Rising Dedicated Server Service darauf installieren? Dann bist du hier genau richtig. In dieser Anleitung erklären wir dir Schritt für Schritt, wie du diesen Service auf deinem Linux Server mit SteamCMD installierst. Wir verwenden Ubuntu als Beispiel, aber der Prozess ist bei anderen Distributionen sehr ähnlich.
 
 :::tip
-Wusstest du, dass du unser **ZAP GS/TS3 Interface** direkt auf deinem Dedicated Server installieren kannst? Damit kannst du mit nur wenigen Klicks Gameserver-Dienste einrichten, die direkt in dein ZAP-Hosting-Dashboard integriert sind! Erfahre mehr über das [GS/TS3 Interface](dedicated-linux-gs-interface.md).
+Wusstest du, dass du unser **ZAP GS/TS3 Interface** direkt auf deinem Dedicated Server installieren kannst? So richtest du Gameserver-Services mit direkter Integration in dein ZAP-Hosting Dashboard in nur wenigen Klicks ein! Erfahre mehr über das [GS/TS3 Interface](dedicated-linux-gs-interface.md).
 :::
 
 <InlineVoucher />
 
 ## Vorbereitung
 
-Verbinde dich zunächst über SSH mit deinem Dedicated Server. Benutze unsere Anleitung [Erstzugriff (SSH)](vserver-linux-ssh.md), wenn du dabei Hilfe benötigst.
+Verbinde dich zunächst per SSH mit deinem Dedicated Server. Falls du dabei Hilfe brauchst, nutze unsere [SSH Initial Access](dedicated-linux-ssh.md) Anleitung.
 
-Du musst auch eine Ersteinrichtung für SteamCMD vornehmen, wenn du es zum ersten Mal auf deinem Linux-Server verwendest. Bitte benutze unsere [SteamCMD einrichten](dedicated-linux-steamcmd.md) Anleitung und stelle sicher, dass SteamCMD vollständig eingerichtet ist, bevor du fortfährst.
+Falls du SteamCMD zum ersten Mal auf deinem Linux Server nutzt, musst du es erstmal einrichten. Nutze dafür unsere [SteamCMD Linux Setup](dedicated-linux-steamcmd.md) Anleitung und stelle sicher, dass SteamCMD vollständig eingerichtet ist, bevor du weitermachst.
 
 :::info Wine-Kompatibilitätsschicht
-V-Rising bietet derzeit keinen nativen Linux-basierten Server-Build an. Das bedeutet, dass ein zusätzlicher Vorbereitungsschritt notwendig ist, um den Windows-Server-Build unter Linux auszuführen.
+V-Rising bietet aktuell keinen nativen Linux-Server-Build an, daher ist ein zusätzlicher Schritt nötig, um die Windows-Server-Version auf Linux laufen zu lassen.
 
-Du musst eine einmalige Installation der **Wine**-Kompatibilitätsschicht durchführen, wenn du diese zum ersten Mal auf deinem Linux-Server verwendest. Bitte benutze unsere Kurzanleitung [Wine-Kompatibilitätsschicht einrichten](dedicated-linux-wine.md), um dies einzurichten, bevor du fortfährst.
+Du musst einmalig die **Wine** Kompatibilitätsschicht installieren, falls du sie noch nicht auf deinem Linux Server hast. Nutze unsere schnelle [Wine Compatibility Layer Setup](dedicated-linux-wine.md) Anleitung, um das einzurichten, bevor du weitermachst.
 :::
 
 ## Installation
 
-Beginne damit, dich als Benutzer `steam` anzumelden und gehe in das Root-Verzeichnis `home/steam`, um für Ordnung zu sorgen.
+Melde dich als `steam` Nutzer an und wechsle in das Home-Verzeichnis von `steam`, um alles ordentlich zu halten.
 ```
 sudo -u steam -s
 cd ~
 ```
 
-Wenn du eingeloggt bist, kannst du den Installationsprozess mit folgendem Befehl starten, um die Installation mit Hilfe von SteamCMD direkt in deinem `steam`-Benutzer zu starten. Mit dem Parameter `+@sSteamCmdForcePlatformType windows` stellst du zwangsweise sicher, dass die Windows-Binärdateien installiert werden.
+Sobald du eingeloggt bist, kannst du die Installation mit folgendem Befehl starten. Damit wird SteamCMD genutzt, um die Windows-Binaries direkt im Verzeichnis `/home/steam/V-Rising-Server` zu installieren. Der Parameter `+@sSteamCmdForcePlatformType windows` sorgt dafür, dass die Windows-Version installiert wird.
 ```
 steamcmd +@sSteamCmdForcePlatformType windows +force_install_dir '/home/steam/V-Rising-Server' +login anonymous +app_update 1829350 validate +quit
 ```
 
-Bitte habe etwas Geduld, während der Download abgeschlossen wird, denn bei Spielen mit größerem Umfang kann es einige Zeit dauern. Sobald der Download erfolgreich war, erscheint eine Erfolgsmeldung, die dies bestätigt.
+Bitte hab Geduld, bis der Download abgeschlossen ist – bei größeren Spielen kann das eine Weile dauern. Wenn alles erfolgreich war, erscheint eine Bestätigungsmeldung.
 
 ## Konfiguration
 
-In diesem Stadium hast du die Einrichtung deines V-Rising Servers abgeschlossen. Du kannst weitere Serverkonfigurationen vornehmen, indem du die Startdatei direkt bearbeitest.
+Jetzt hast du die Grundinstallation deines V-Rising Servers abgeschlossen. Weitere Server-Einstellungen kannst du direkt in den Startdateien vornehmen.
 
-Du kannst alle Konfigurationsparameter anpassen, indem du die Konfigurationsdateien **ServerGameSettings.json** und **ServerHostSettings.json** im Ordner Settings aufrufst und bearbeitest.
+Alle Konfigurationsparameter findest du in den Dateien **ServerGameSettings.json** und **ServerHostSettings.json** im Settings-Ordner. Diese kannst du mit einem Editor wie nano bearbeiten:
 ```
 nano /home/steam/V-Rising-Server/VRisingServer_Data/StreamingAssets/Settings/ServerGameSettings.json
 nano /home/steam/V-Rising-Server/VRisingServer_Data/StreamingAssets/Settings/ServerHostSettings.json
 ```
 
-In unserem [Server-Konfiguration](vrising-configuration.md) findest du alle verfügbaren Serveroptionen und ihre Funktionen.
+Schau dir auch unsere V-Rising [Server Konfiguration](vrising-configuration.md) Anleitung an, um alle verfügbaren Optionen und ihre Funktionen kennenzulernen.
 
-## Starten und Verbinden mit deinem Server
+## Server starten & verbinden
 
-Jetzt ist es an der Zeit, deinen Server zu starten. Gehe in das Hauptverzeichnis des Spiels und erstelle dort eine Kopie der Beispiel-Batchdatei.
+Jetzt geht’s ans Eingemachte: Starte deinen Server. Wechsle ins Hauptverzeichnis des Spiels und erstelle am besten eine Kopie der Beispiel-Startdatei.
 ```
 cp /home/steam/V-Rising-Server/start_server_example.bat /home/steam/V-Rising-Server/start_server.bat
 ```
 
-Du kannst die Datei auch bearbeiten. Wenn du fertig bist, führe die neue Datei **start_server.bat** mit dem unten stehenden Befehl aus. Vergewissere dich, dass du die Befehle **xvfb-run** und **wine** hinzufügst, um die Datei über die Wine-Kompatibilitätsschicht auszuführen.
+Du kannst die Datei nach Wunsch anpassen. Wenn du bereit bist, starte die neue **start_server.bat** Datei mit folgendem Befehl. Wichtig: Nutze **xvfb-run** und **wine**, um die Windows-Version über die Wine-Kompatibilitätsschicht auszuführen.
 ```
 xvfb-run wine /home/steam/V-Rising-Server/start_server.bat
 ```
 
-In der Eingabeaufforderung sollten nun Protokolle erscheinen, die zeigen, dass der Start erfolgreich war. Bitte beachte, dass der erste Start einige Zeit dauern kann, da alles eingerichtet wird. Alternativ kannst du dich auch direkt verbinden, indem du in der unteren Suchleiste der Serverliste nach `[deine_ip_address]:8211`.
+Im Terminal solltest du jetzt Logs sehen, die bestätigen, dass der Server erfolgreich gestartet wurde. Beachte, dass der erste Start etwas länger dauern kann, da alles eingerichtet wird. Alternativ kannst du dich direkt verbinden, indem du in der Serverliste unten in der Suchleiste `[deine_ip_adresse]:8211` eingibst.
 
-## Abschluss
+## Fazit
 
-Herzlichen Glückwunsch, du hast den V-Rising Server erfolgreich auf deinem Dedicated Server installiert und konfiguriert! Als nächsten Schritt empfehlen wir dir einen Blick in unsere [Linux Dienst einrichten](dedicated-linux-create-gameservice.md) Anleitung, in der du deinen neuen dedizierten Gameserver als Dienst einrichtest. Dies bietet verschiedene Vorteile, wie z. B. den automatischen Start des Servers beim Hochfahren, automatische Server-Updates, einfache Verwaltung und Zugriff auf Logs und vieles mehr!
+Glückwunsch, du hast den V-Rising Server erfolgreich auf deinem Dedicated Server installiert und konfiguriert! Als nächsten Schritt empfehlen wir dir unsere [Setup Linux Service](dedicated-linux-create-gameservice.md) Anleitung. Dort erfährst du, wie du deinen neuen Dedicated Gameserver als Service einrichtest. Das bringt viele Vorteile wie automatischen Serverstart beim Booten, automatische Updates, einfache Verwaltung und Zugriff auf Logs – und noch viel mehr!
 
-Wenn du weitere Fragen oder Probleme hast, wende dich bitte an unser Support-Team, das dir jeden Tag zur Verfügung steht!
+Falls du weitere Fragen oder Probleme hast, steht dir unser Support-Team täglich zur Verfügung und hilft dir gerne weiter!
 
 <InlineVoucher />

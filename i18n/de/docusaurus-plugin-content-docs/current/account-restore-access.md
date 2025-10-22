@@ -1,7 +1,7 @@
 ---
 id: account-restore-access
 title: Wiederherstellung des Zugangs zu deinem ZAP-Hosting Account
-description: Erfahre wie du den Zugang zu deinem ZAP-Hosting Account wiederherstellen kannst - ZAP-Hosting.com Dokumentation
+description: "Entdecke, wie du Login-Probleme behebst, Passwörter zurücksetzt und deinen Account effektiv absicherst → Jetzt mehr erfahren"
 sidebar_label: Zugang wiederherstellen
 ---
 
@@ -9,64 +9,59 @@ sidebar_label: Zugang wiederherstellen
 
 ## Einführung
 
-Du versuchst dich in deinen Account einzuloggen, aber plötzlich funktioniert es nicht mehr? Vielleicht hast du das Passwort vergessen, die Zugangsdaten falsch eingegeben oder es gibt technische Probleme. Die möglichen Ursachen für so etwas können vielseitig sein. 
+Du versuchst, dich in deinen Account einzuloggen, aber plötzlich klappt es nicht mehr? Vielleicht hast du dein Passwort vergessen, deine Login-Daten falsch eingegeben oder es gibt technische Probleme. Es gibt viele mögliche Ursachen, die wir in dieser Anleitung für dich abdecken.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/34JtWAXmzcDjtBt/preview)
-
-## Ursachen und Lösungen
+![](https://screensaver01.zap-hosting.com/index.php/s/HSxdStAXyMK95ps/preview)
 
 
 
-### Zugangsdaten fehlerhaft
+## Ursachen & Lösungen
 
-Diese Meldung erscheint, wenn die Zugangsdaten nicht stimmen, zum Beispiel bei einem falschen oder fehlerhaft eingegebenen Passwort. Häufige Fehler sind hierbei oftmals, dass beispielsweise falsche Zeichen, wie ein Leerzeichen oder andere Symbole mit übergeben werden.
 
-Vergewissere dich, dass du dein Passwort genau richtig eingibst. Sollte der Login trotzdem nicht funktionieren, dann kannst du dein Passwort zurücksetzen. Wähle dafür die **Passwort vergessen?** Option unter dem Login-Button. Du erhältst dann eine E-Mail mit einem Link, über den du dein Passwort neu festlegen kannst.
+
+### Falsche Login-Daten
+
+Diese Meldung erscheint, wenn die Login-Daten nicht korrekt sind, zum Beispiel wenn ein falsches Passwort eingegeben wurde. Häufige Fehler sind oft falsche Zeichen, wie ein Leerzeichen oder andere Symbole.
+
+Stelle sicher, dass du dein Passwort richtig eingibst. Wenn der Login trotzdem nicht funktioniert, kannst du dein Passwort zurücksetzen. Wähle dazu die Option **Passwort vergessen?** unter dem Login-Button. Du erhältst eine E-Mail mit einem Link, über den du dein Passwort zurücksetzen kannst.
 
 :::warning Keine E-Mail erhalten?
-Überprüfe dein E-Mail-Postfach und stelle sicher, dass die E-Mail nicht im Spam Ordner gelandet ist. Falls du auch nach einiger Zeit weiterhin keine E-Mail von uns dazu findest, dann wende dich bitte an unseren Support. Wir prüfen dann für dich, ob die Ursache dafür bei uns oder bei deinem E-Mail-Anbieter liegt.
+Check deinen E-Mail-Posteingang und schau, ob die Mail nicht im Spam-Ordner gelandet ist. Falls du nach einiger Zeit immer noch keine Mail von uns bekommen hast, kontaktiere bitte unser Support-Team. Wir prüfen für dich, ob die Ursache bei uns oder deinem E-Mail-Anbieter liegt.
 :::
 
 :::tip
-Wenn du dabei bist, deine Zugangsdaten zu ändern, empfehlen wir dir, einen Blick in unsere **[ZAP-Account absichern](account-security.md)** Anleitung zu werfen. Dort erfährst du, wie du deinen Account optimal schützt und worauf du besonders achten solltest.
+Wenn du deine Login-Daten ändern möchtest, empfehlen wir dir einen Blick in unsere **[Sicheren ZAP Account](account-security.md)** Anleitung. Dort erfährst du, wie du deinen Account optimal absicherst und worauf du besonders achten solltest.
 :::
 
 
 
 ### Bestätigungscode fehlt
 
-Sollte beim Login ein Bestätigungscode nötig sein, erhältst du automatisch eine E-Mail an deine hinterlegte E-Mail-Adresse. Kopiere den Code aus der E-Mail und füge diesen in das entsprechende Feld auf unserer Webseite ein, um den Login abzuschließen.
+Wenn beim Login ein Bestätigungscode erforderlich ist, erhältst du automatisch eine E-Mail an die von dir angegebene Adresse. Kopiere den Code aus der E-Mail und füge ihn im entsprechenden Feld auf unserer Website ein, um den Login abzuschließen.
 
 :::warning Keine E-Mail erhalten?
-Überprüfe dein E-Mail-Postfach und stelle sicher, dass die E-Mail nicht im Spam Ordner gelandet ist. Falls du auch nach einiger Zeit weiterhin keine E-Mail von uns dazu findest, dann wende dich bitte an unseren Support. Wir prüfen dann für dich, ob die Ursache dafür bei uns oder bei deinem E-Mail-Anbieter liegt.
+Check deinen E-Mail-Posteingang und schau, ob die Mail nicht im Spam-Ordner gelandet ist. Falls du nach einiger Zeit immer noch keine Mail von uns bekommen hast, kontaktiere bitte unser Support-Team. Wir prüfen für dich, ob die Ursache bei uns oder deinem E-Mail-Anbieter liegt.
 :::
 
 
 ### Account gesperrt
-Solltest du beim Einloggen eine Meldung über die Sperrung deines Accounts erhalten und keinen Zugriff mehr haben, kann dies verschiedene Gründe haben. Häufig liegt eine Sperrung dann vor, wenn wiederholt gegen unsere Nutzungsbedingungen verstoßen wurde. Um den genauen Grund herauszufinden und mögliche Lösungen zu prüfen und zu besprechen, kontaktiere uns bitte per E-Mail unter [support@zap-hosting.com](mailto:support@zap-hosting.com)
+Wenn du beim Login die Meldung erhältst, dass dein Account gesperrt wurde und du keinen Zugriff mehr hast, kann das verschiedene Gründe haben. Eine Sperrung erfolgt oft wegen wiederholter Verstöße gegen unsere Nutzungsbedingungen. Um den genauen Grund zu erfahren und mögliche Lösungen zu prüfen und zu besprechen, kontaktiere uns bitte per E-Mail unter [support@zap-hosting.com](mailto:support@zap-hosting.com).
+
+
 
 ### Account gelöscht
 
-Wenn dein Account in der Vergangenheit auf deinen Wunsch durch einen DSGVO-Antrag gelöscht wurde, kann dieser nicht wiederhergestellt werden, da bereits alle Daten vollständig und endgültig entfernt wurden. In diesem Fall muss ein neuer Account erstellt werden.
-
-
+Wenn dein Account in der Vergangenheit auf deinen Wunsch hin per DSGVO-Anfrage gelöscht wurde, kann dieser nicht wiederhergestellt werden, da alle Daten bereits vollständig und dauerhaft gelöscht sind. In diesem Fall muss ein neuer Account erstellt werden.
 
 ### Zugang zur Zwei-Faktor-Authentifizierung verloren
-
-Für die manuelle Deaktivierung der Zwei-Faktor-Authentifizierung ist eine Identitätsbestätigung notwendig. Wende dich dafür bitte per E-Mail an [support@zap-hosting.com](mailto:support@zap-hosting.com). Alle weiteren notwendigen Schritte werden dir dort dann im Detail erläutert. 
+Zur manuellen Deaktivierung der Zwei-Faktor-Authentifizierung ist eine Identitätsbestätigung erforderlich. Bitte sende eine E-Mail an [support@zap-hosting.com](mailto:support@zap-hosting.com). Dort werden dir alle weiteren notwendigen Schritte detailliert erklärt.
 
 
 ### Technische Probleme
-Wenn die oben genannten Ursachen bereits ausgeschlossen wurden oder nicht zutreffen, da du keine Rückmeldung oder eine andere Fehlermeldung erhältst, dann muss dies im Einzelfall geprüft werden. Melde dich dafür bitte ebenfalls bei uns im Support. 
+Wenn die oben genannten Ursachen bereits ausgeschlossen wurden oder nicht zutreffen, du aber keine Rückmeldung oder eine andere Fehlermeldung erhältst, muss dies im Einzelfall geprüft werden. Bitte wende dich ebenfalls an unser Support-Team.
 
 
 
+## Fazit
 
-## Abschluss
-
-Jetzt weißt du, dass es verschiedene Gründe geben kann, warum der Login nicht funktioniert und welche Schritte du in den jeweiligen Fällen unternehmen solltest. Solltest du dabei Unterstützung benötigen, dann stehen wir dir bei Fragen oder Problemen gerne zur Verfügung!
-
-
-
-
-
+Jetzt weißt du, dass es verschiedene Gründe geben kann, warum der Login nicht funktioniert und welche Schritte du in jedem Fall unternehmen solltest. Wenn du Unterstützung brauchst, helfen wir dir gerne bei allen Fragen oder Problemen weiter!

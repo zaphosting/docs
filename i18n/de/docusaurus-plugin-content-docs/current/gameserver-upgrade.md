@@ -1,7 +1,7 @@
 ---
 id: gameserver-upgrade
 title: 'Gameserver: Up-/Downgrade'
-description: Informationen, wie du deinen Gameserver von ZAP-Hosting.com Up-/Downgraden kannst. - ZAP-Hosting.com Dokumentation
+description: "Entdecke, wie du deinen ZAP-Hosting Gameserver für bessere Performance und mehr Flexibilität anpassen kannst → Jetzt mehr erfahren"
 sidebar_label: Up-/Downgrade
 services:
   - gameserver
@@ -13,69 +13,75 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Vorwort
 
-Dank unseres Cloud-Systems, kannst du jederzeit deinen ZAP-Hosting Gameserver und vRootserver nach deinen Wünschen und Bedürfnissen modifizieren. Solltest du beispielsweise mehr Slots benötigen oder mehr RAM ist dies kein Problem und kann jederzeit angepasst werden. Bitte bedenke, sofern du einen Gutschein genutzt hast, ist ein Downgrade nicht mehr möglich, im Gutscheinzeitraum.
+Dank unseres Cloud-Systems kannst du deinen ZAP-Hosting Gameserver jederzeit nach deinen Wünschen und Bedürfnissen anpassen.  
+Wenn du zum Beispiel mehr Slots oder mehr RAM brauchst, ist das kein Problem und kann jederzeit geändert werden.  
+Bitte beachte, dass ein Downgrade während der Laufzeit eines eingelösten Gutscheins leider nicht möglich ist.
 
-## Funktionsprinzip
+## So funktioniert's
 
-Bei einer Änderung deines Paketes, wird immer die Restlaufzeit nachberechnet, angenommen du möchtest deinen Server upgraden, musst du also den Mehrpreis für die Restlaufzeit bezahlen. Dein Produktpreis ändert sich ebenso automatisch zur nächsten Verlängerung, hinsichtlich deiner neuen Konditionen. Bitte bedenke, dass Gutscheine leider nicht auf Upgrades angewendet werden können, diese gelten lediglich für neue Bestellungen.
+Wenn du dein Paket änderst, wird die Restlaufzeit immer neu berechnet. Wenn du also ein Upgrade machst, zahlst du den Aufpreis für die verbleibende Laufzeit.  
+Dein Produktpreis ändert sich dann automatisch bei der nächsten Verlängerung entsprechend deiner neuen Konditionen.  
+Bitte beachte, dass Gutscheine leider nicht auf Upgrades anwendbar sind, sondern nur auf Neu-Bestellungen.
 
 ## Upgrades
 
-Den Up-/Downgrade Manager findest du immer auf dem Dashboard deines Produktes, hierbei ist es unerheblich, um welche Art von Produkten es sich handelt. Upgrades sind zum aktuellen Zeitpunkt bei allen Produkten außer Dedicated Servern möglich. Der Up-/Downgrade Manager wird im linken Menü in dem Dashboard deines Produkts angezeigt:
+Den Up-/Downgrade-Manager findest du immer im Dashboard deines Produkts, egal um welchen Produkttyp es sich handelt.  
+Upgrades sind aktuell für alle Produkte möglich, außer für Dedicated Server.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/t8yxxCnHPqHgw9T/preview)
+Der Upgrade/Downgrade-Manager wird im linken Menü deines Produkt-Dashboards angezeigt:
 
-### Möglichkeiten
+![](https://screensaver01.zap-hosting.com/index.php/s/f9z7xyEpB55ZZ52/preview)
 
-In unserem Manager angekommen, findest du die Parameter deines Produktes, welche angepasst werden können.
+### Upgrade-Optionen
 
-Bei Gameservern ist es möglich, diese zwischen verschiedenen Standorten umzuziehen.
+Im Manager findest du die Parameter deines Produkts, die du anpassen kannst.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/qCzc8CC74n2XzCf/preview)
+Bei Gameservern ist es zum Beispiel möglich, sie zwischen verschiedenen Serverstandorten zu verschieben.
+
+![](https://screensaver01.zap-hosting.com/index.php/s/tW3sbKxSszQpb8a/preview)
 
 :::info
-**WICHTIG** bei diesem Prozess kann Datenverlust entstehen, stelle zu jederzeit sicher ein Backup deiner Daten zu haben!
+**Wichtig** Dieser Vorgang kann zu Datenverlust führen, stelle also sicher, dass du jederzeit ein Backup deiner Daten hast!
 :::
 
-Klicke, sofern ein Umzug gewünscht ist, einfach auf den entsprechenden Standort, um diesen auszuwählen.
+Wenn du einen Umzug möchtest, klicke einfach auf den gewünschten Serverstandort, um ihn auszuwählen.
 
-Darunter befinden sich noch weitere Parameter, in unserem Beispiel eines FiveM Servers die Slot-Anzahl und der RAM Boost sowie die Systemart und eigene IP-Adresse:
+Darunter findest du weitere Parameter, in unserem Beispiel eines FiveM Servers sind das Slot-Anzahl, RAM-Boost, Systemtyp und eigene IP-Adresse:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/GdMCHMmJNPobFWs/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/eb5FsMSdwJszjWK/preview)
 
 ***
 
-* Gameserver Slot: Solltest du mehr Kapazität auf deinem Gameserver benötigen, schiebe den Regler einfach nach Links, um mehr Platz zu haben für gleichzeitige Spieler.
+* Gameserver Slots: Wenn du mehr Kapazität auf deinem Gameserver brauchst, schiebe den Regler nach rechts, um mehr gleichzeitige Spieler zu ermöglichen.
 
-* RAM Boost: Sinnvoll bei vielen Dingen wie Ressourcen, Mods, Addons o.ä. erweitert die Kapazität des zur Verfügung stehenden Arbeitsspeichers deines Produktes.
+* RAM Boost: Praktisch für Ressourcen, Mods, Add-ons oder Ähnliches. Erweitert den verfügbaren RAM deines Produkts.
 
-* CPU & Hostserver: Solltest du mehr Performance benötigen, kannst du auf ein Premium-System wechseln, welches dir den entsprechenden Leistungsboost bringt.
+* CPU & Hostserver: Wenn du mehr Leistung brauchst, kannst du auf ein Premium-System wechseln, das dir den entsprechenden Performance-Boost bringt.
 
-* Eigene IP-Adresse: Solltest du eine gleichbleibende IP benötigen, welche sich nicht wieder ändern wird, solange das Produkt besteht, benötigst du diese Option.
+* IP-Adresse: Wenn du eine feste IP brauchst, die sich während der Laufzeit deines Produkts nicht ändert, brauchst du diese Option.
 
 :::info
-⚠ Die eigene IP-Adresse ist nicht zu verwechseln, mit einer Domain, eine eigene IP wird ebenso zugewiesen und kann nicht modifizert werden.
+⚠ Die eigene IP-Adresse ist nicht mit einer Domain zu verwechseln. Eine eigene IP wird ebenfalls zufällig zugewiesen und kann nicht geändert werden.
 :::
 
 ### Bezahlung
 
-Die Bezahlung des Upgrades erfolgt ganz unkompliziert, scrolle hierzu einfach nach unten, bis du bei den Zahlungsmethoden ankommst:
+Die Bezahlung des Upgrades ist super easy, scroll einfach runter bis zu den Zahlungsmethoden:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/aeJe33Ase3Dxwmm/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/PFsBtsMr7iyRadf/preview)
 
-* 1: Dein neuer monatlicher Paketpreis, in diesem Beispiel kostet dein Paket 16.54€ monatlich, dies beinhaltet bereits die gewählten Upgrades.
+* 1: Dein neuer monatlicher Paketpreis, in diesem Beispiel kostet dein Paket 16,84€ monatlich, inklusive der ausgewählten Upgrades.
 
-* 2: Der Aufpreis ist die Summe, welche für die Restlaufzeit deines Produktes noch beglichen werden muss, dies muss sofort bezahlt werden.
+* 2: Der Aufpreis ist der Betrag, der für die verbleibende Laufzeit deines Produkts sofort bezahlt werden muss.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/kHkfc7FewDSDQS3/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/XtyJ6X4jjfz3AEY/preview)
 
-Wähle die Zahlungsmethode deiner Wahl und beende den Upgrade-Prozess mit "Upgrade durchführen"
+Wähle deine bevorzugte Zahlungsmethode und schließe den Upgrade-Prozess mit einem Klick auf „Upgrade“ ab.
 
-Es dauert nun einen kleinen Augenblick bis dein Upgrade verbucht wird, dies steht dir in der Regel innerhalb weniger Sekunden zur Verfügung.
+Es dauert nur einen kurzen Moment, bis dein Upgrade umgesetzt ist – normalerweise steht es dir innerhalb weniger Sekunden zur Verfügung.
 
 :::info
-⚠ Ein Neustart deines Produktes ist in der Regel notwendig, damit die neuen Spezifikationen angewendet werden.
+Ein Neustart deines Produkts ist in der Regel notwendig, damit die neuen Spezifikationen wirksam werden.
 :::
-
 
 <InlineVoucher />

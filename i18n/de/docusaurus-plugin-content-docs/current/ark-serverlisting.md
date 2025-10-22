@@ -1,7 +1,7 @@
 ---
 id: ark-serverlisting
-title: "ARK: Serverlisting Probleme bei Steam Spielen, die Steamworks nutzen"
-description: Informationen zu Problemen mit dem Serverlisting deines Server, die bei Steam-Spielen auftreten können - ZAP-Hosting.com Dokumentation
+title: "ARK: Probleme bei der Serverauflistung mit Steam-Spielen, die Steamworks nutzen"
+description: "Entdecke, warum beliebte Spiele Probleme bei der Serverauflistung wegen Steamworks-Limits haben und wie das dein Multiplayer-Erlebnis beeinflusst → Jetzt mehr erfahren"
 sidebar_label: Serverlisting Probleme
 services:
   - gameserver-ark
@@ -11,37 +11,36 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 <InlineVoucher />
 
-Leider haben viele populäre Spiele wie ARK oder Valheim massive Probleme mit dem Listing aller Server in der im Spiel Serverliste. 
+Leider haben viele beliebte Spiele wie ARK oder Valheim massive Probleme damit, alle Server in der Ingame-Serverliste anzuzeigen.
 
-Das liegt daran, dass diese Spiele die Software "Steamworks" für ihr Listing verwenden. 
+Das liegt daran, dass diese Spiele die Software „Steamworks“ für ihre Serverauflistung nutzen.
 
-Steamworks kann maximal 4880 Server listen. Wenn ein Spiel mehr als diese Anzahl aktiver Server hat, wird nur ein kleiner Teil der aktiven Server für den Spieler gelistet. 
+Steamworks kann maximal 4880 Server listen. Wenn ein Spiel mehr aktive Server als diese Zahl hat, wird nur ein kleiner Teil der aktiven Server für den Spieler angezeigt.
 
-Dabei ist es sehr zufällig, ob Spieler 1 den Server Y sieht oder nicht. 
-Es kommt daher auch vor, dass Spieler 1 den Server Y sieht, aber Spieler 2 nicht. Spieler 3 hingegen sieht ihn wieder, dafür aber einen anderen Server nicht, den Spieler 1 sieht.
+Es ist also total zufällig, ob Spieler 1 Server Y sieht oder nicht.  
+Es kann sogar passieren, dass Spieler 1 Server Y sieht, Spieler 2 aber nicht. Spieler 3 sieht ihn dann wieder, aber dafür einen anderen Server nicht, den Spieler 1 sieht.
 
+Um auszuschließen, dass das Problem beim Serveranbieter liegt, kannst du den Server unter „Steam“ → „Anzeigen“ → „Server“ mit IP und Port suchen. Wenn er dort gefunden wird, ist die Verbindung zwischen Spieler und Server einwandfrei. Denn hier erfolgt eine direkte Abfrage durch den Spieler.
 
-Um auszuschließen, dass es ein Problem bei dem Serveranbieter gibt, kann man den Server unter "Steam" - "Ansicht" - "Server" mit IP und Port suchen. Wird er dort gefunden, ist die Verbindung zwischen Spieler und Server einwandfrei. Hier findet nämlich eine direkte Abfrage seitens des Spielers statt.
+Ein gutes Beispiel, um das Problem zu bestätigen: ARK-Spieler, die das Spiel über Steam starten, finden oft keine Server. Öffnen sie ARK hingegen über Epic Games, werden die Server problemlos gefunden. Dort wird kein Steamworks verwendet.
 
-Ein gutes Beispiel um das Problem zu validieren ist auch, dass insbesondere ARK Spieler, die das Spiel über Steam geöffnet haben, Server nicht finden. Öffne ARK in Epic Games, werden die Server einwandfrei gefunden. Hier wird kein Steamworks genutzt.
+Auch verschiedene Entwickler haben sich zu dem Problem geäußert. Zum Beispiel dachte Garry Newman von Garrysmod zunächst, das Problem läge bei seinem Serveranbieter OVH. Das war aber nicht der Fall. Das Problem betrifft auch ZAP-Hosting und jeden anderen Serveranbieter, da es direkt an Steamworks liegt:
 
-Es gibt zu diesem Problem auch verschiedene Spieleentwickler, die sich dazu äußerten. Beispielsweise dachte Garry Newman von Garrysmod, dass das Problem mit seinem Serveranbieter OVH zusammenhängt. Das war jedoch nicht der Fall. Das Problem hat auch ZAP-Hosting und jeder andere Serveranbieter, da es direkt bei Steamworks liegt:
-
-![](https://screensaver01.zap-hosting.com/index.php/s/cNLyKNqxPzrzFds/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/M6DkmBYCjLsPBeW/preview)
 
 Quelle: https://x.com/garrynewman/status/1334446218437681152?s=20
 
-Oder auch Rust, wie sie in Ihrem Blog schreiben:
+Oder Rust, wie sie in ihrem Blog schreiben:
 
 ```
-It's not all roses and rainbows when you have such a sudden boost in popularity. 
-You start seeing cracks forming in the foundations, most noticeable for us the server browser was never intended to handle such a large amount of servers.
-Without going into the technicality this has resulted in many servers not displaying for users and causing a lot of frustration for server owners. 
-We're currently working on and exploring solutions so please bear with us.
+Es ist nicht alles eitel Sonnenschein, wenn man plötzlich so einen Popularitätsschub erlebt.  
+Man sieht erste Risse im Fundament, am deutlichsten für uns war, dass der Serverbrowser nie dafür ausgelegt war, so viele Server zu handhaben.  
+Ohne zu technisch zu werden, führt das dazu, dass viele Server für Nutzer nicht angezeigt werden und das sorgt für viel Frust bei Serverbetreibern.  
+Wir arbeiten aktuell an Lösungen und erforschen Möglichkeiten, also habt bitte Geduld mit uns.
 ```
 
 Quelle: https://rust.facepunch.com/blog/
 
-Wir behalten weiterhin ein Auge auf das Problem und informieren hier, wenn es eine Lösung gibt.
+Wir behalten das Problem weiter im Blick und informieren hier, sobald es eine Lösung gibt.
 
 <InlineVoucher />

@@ -1,8 +1,8 @@
 ---
 id: vserver-vnc
-title: "vServer: VNC (Virtual Network Computing) Konsole"
-description: Informationen zur VNC Konsole für vServer von ZAP-Hosting - ZAP-Hosting.com Dokumentation
-sidebar_label: VNC-Konsole
+title: "VPS: VNC (Virtual Network Computing) Konsole"
+description: "Entdecke, wie du deinen Server auch während des Starts oder bei Netzwerkproblemen remote erreichst und steuerst – für ein nahtloses Management → Jetzt mehr erfahren"
+sidebar_label: VNC Konsole
 services:
   - vserver
 ---
@@ -11,21 +11,26 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
 
-VNC (Virtual Network Computing) ist eine Software, die den Bildschirminhalt eines entfernten Rechners auf einem lokalen Rechner anzeigt und im Gegenzug Tastatur- und Mausbewegungen des lokalen Rechners an den entfernten Rechner sendet. Dies ermöglicht dir auch extern Zugriff zu deinem Server, falls dieser mal nicht ordnungsgemäß zu erreichen ist. 
+VNC (Virtual Network Computing) ist eine Software, die den Bildschirminhalt eines entfernten Computers auf einem lokalen Computer anzeigt und im Gegenzug Tastatur- und Mausbewegungen des lokalen Computers an den entfernten Computer sendet. So kannst du deinen Server auch dann remote erreichen, wenn er nicht richtig hochgefahren ist.
 
-Im Falle von Start- oder Netzwerkwerkproblemen hast du so weiterhin die Möglichkeit auf das System zuzugreifen und dem entgegenzuwirken. 
+Bei Start- oder Netzwerkproblemen hast du so weiterhin die Möglichkeit, auf das System zuzugreifen und Gegenmaßnahmen zu ergreifen.
 
 <InlineVoucher />
 
+
 ## Nutzung von VNC
-Den VNC Webclient findest du im vServer Dashboard. Klicke dazu in der Verwaltung bei Werkzeuge auf die VNC-Konsole Option und öffne im Anschluss die VNC Verbindung über den **Starte VNC-Tunnel** Button. 
+Den VNC Webclient findest du im VPS Dashboard. Klicke dazu im Bereich Tools der Verwaltung auf die Option serielle Konsole und öffne dann die VNC-Verbindung über den **VNC-Tunnel starten** Button.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/s2gYLt8iC5pzE7L/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/AgSL8QcynHSfXFA/preview)
 
-Anschließend öffnet sich der Webclient der VNC Konsole. Hier hast du nun die Möglichkeit, die Informationen einzusehen, die der Server zum aktuellen Zeitpunkt liefert. Das kann beispielsweise der Startvorgang, Login-Screen oder die Oberfläche des Betriebssystems sein.
 
-Im folgenden Beispiel ist jetzt ein Windows vServer zu sehen. Dieser ist erfolgreich hochgefahren, wodurch die VNC-Konsole zum aktuellen Zeitpunkt den Login-Screen anzeigt. Hier kannst du dich jetzt ebenfalls anmelden, auch wenn der Server keine aktive Internetverbindung hat. Klicke dazu auf den "Send CtrlAltDel" Button und melde dich mit dem Benutzernamen und Passwort an.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/kiseMCWbpPxTWLM/preview)
+Anschließend öffnet sich der Webclient der VNC Konsole. Hier kannst du die Informationen sehen, die der Server aktuell bereitstellt. Das kann zum Beispiel der Startvorgang, der Login-Bildschirm oder die GUI des Betriebssystems sein.
+
+Das folgende Beispiel zeigt einen Windows VPS. Dieser Server wurde erfolgreich gebootet, daher zeigt die VNC Konsole in diesem Zustand den Login-Bildschirm. Du kannst dich hier auch einloggen, selbst wenn der Server keine aktive Internetverbindung hat. Klicke auf den Button „StrgAltEntf senden“ und melde dich mit deinem Benutzernamen und Passwort an.
+
+
+
+![](https://screensaver01.zap-hosting.com/index.php/s/XTFS35AJBJaS86r/preview)
 
 <InlineVoucher />

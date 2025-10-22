@@ -1,8 +1,8 @@
 ---
 id: ark-savegame
-title: "ARK: Eigenes Savegame (Welt) importieren"
-description: Informationen, wie du ein eigenes Savegame bei deinem ARK-Server von ZAP-Hosting importieren kannst - ZAP-Hosting.com Dokumentation
-sidebar_label: Savegame (Welt) importieren
+title: ARK Survival Evolved Eigene Save-Datei importieren
+description: "Entdecke, wie du deinen Ark: Survival Evolved Gameserver mit offiziellen oder eigenen Backup-Saves wiederherstellst für nahtloses Gameplay → Jetzt mehr erfahren"
+sidebar_label: Save-Datei importieren
 services:
   - gameserver-ark
 ---
@@ -12,59 +12,59 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
 
-Willst du deine eigene oder eine offizielle Backup-Speicherdatei auf deinen Ark: Survival Evolved-Server importieren? In dieser Anleitung erfährst du, wie du deine eigene oder eine offizielle Backup-Speicherdatei auf deinen neuen Server importierst.
+Willst du deine eigene oder eine offizielle Backup-Save-Datei auf deinem Ark: Survival Evolved Gameserver importieren? Kein Problem, diese Anleitung erklärt dir Schritt für Schritt, wie du deine reguläre eigene oder offizielle Backup-Save-Datei auf deinem neuen Server importierst.
 
-<YouTube videoId="lvIIVOhAUjo" imageSrc="https://screensaver01.zap-hosting.com/index.php/s/RcyrLiddANLADXz/preview" title="How to get an ARK:SE Server with Official Server Backups" description="Hast du das Gefühl, dass du etwas besser verstehst, wenn du es in Aktion siehst? Wir haben etwas für dich! Tauche ab in unser Video, welches alles für dich zusammenfasst. Egal, ob du es eilig hast oder einfach nur Informationen auf möglichst verständliche Art und Weise aufnehmen möchtest!"/>
+<YouTube videoId="lvIIVOhAUjo" imageSrc="https://screensaver01.zap-hosting.com/index.php/s/riyYaWCc4562mTS/preview" title="Wie du einen ARK:SE Server mit offiziellen Server-Backups bekommst" description="Du verstehst besser, wenn du Dinge in Aktion siehst? Kein Ding! Schau dir unser Video an, das alles für dich erklärt. Egal ob du es eilig hast oder einfach lieber auf die spannendste Art lernst!"/>
 
 <InlineVoucher />
 
-## Bereite deine Speicherdatei vor
+## Bereite deine Save-Datei vor
 
 ### Offizielle Backup-Save-Datei
 
-Du musst zuerst deine offizielle Server-Sicherungsdatei herunterladen. Du kannst dies direkt von der [ARK-Website](https://survivetheark.com/index.php?/server-backups/) tun oder [ein von der Community erstelltes Tool](https://arkutils.netlify.app/tools/officialdownload) verwenden, um deinen Server leichter zu finden, da es eine Suche ermöglicht.
+Du musst zuerst deine offizielle Server-Save-Datei herunterladen. Das kannst du direkt über die [ARK-Webseite](https://survivetheark.com/index.php?/server-backups/) machen oder ein [Community-Tool](https://arkutils.netlify.app/tools/officialdownload) nutzen, das dir die Suche nach deinem Server erleichtert.
 
 :::note
-Wenn du ein Xbox- oder Playstation-Spieler bist, kannst du leider keine offiziellen Serverdateien herunterladen. Die Entwickler haben nur erlaubt, dass Weltspeicherstände von Steam und Epic-Plattformen frei heruntergeladen werden können.
+Wenn du Xbox- oder Playstation-Spieler bist, kannst du leider keine offiziellen Server-Dateien herunterladen. Die Entwickler erlauben nur das freie Herunterladen von Welt-Saves von Steam- und Epic-Plattformen.
 :::
 
-Es wurden zwei Schnappschüsse gemacht, der erste ist vom 25. August 2023 und der zweite vom 30. September 2023. Für beide musst du deinen Server finden und deine Spieldatei herunterladen.
+Es gibt zwei Snapshots, die erstellt wurden: der erste vom 25. August 2023 und der zweite vom 30. September 2023. Für beide musst du deinen Server finden und die Save-Datei herunterladen.
 
 :::note
-Die Verwendung deines eigenen offiziellen Backup-Saves ist nur mit der **ARK - SE (Official backupsave compatible)** Gameserver-Variante möglich. Wenn du eine andere Version für deinen Server verwendest, kannst du die Version unter **games** im Webinterface deines Gameservers entsprechend ändern oder unsere [Spielwechsel](gameserver-gameswitch.md) Anleitung verwenden.
+Die Nutzung deiner eigenen offiziellen Backup-Save-Datei ist nur mit der **ARK - SE (Official backupsave kompatibel)** Gameserver-Variante möglich. Wenn du eine andere Version für deinen Server nutzt, kannst du die Version im **Games**-Bereich deines Gameserver-Webinterfaces entsprechend ändern oder unsere [Game Change](gameserver-gameswitch.md) Anleitung nutzen.
 
 ![](https://github.com/zaphosting/docs/assets/42719082/8f2ac8fa-2b23-4738-8d95-87c289e9d98a)
 :::
 
 
 
-### Eigene reguläre Speicherdatei
+### Eigene reguläre Save-Datei
 
-Um deine eigene (nicht-offizielle) Spieldatei zu importieren, werden alle Dateien der Spieldatei benötigt. Diese sind normalerweise im Verzeichnis **SavedArks** gespeichert, das sich im Verzeichnis **Shootergame/Saved** befindet. Suche nach diesen Dateien und speichere sie für den nächsten Importvorgang.
+Um deine eigene Save-Datei (nicht offiziell) zu importieren, benötigst du alle Dateien aus dem Save-Ordner. Diese liegen normalerweise im Verzeichnis **SavedArks**, das sich im Ordner **Shootergame/Saved** befindet. Suche diese Dateien und sichere sie für den Import.
 
 :::note
-Hierfür solltest du die reguläre **Ark: SE** Gameserver-Variante (ohne die offizielle Backupsave-Unterstützung) verwenden, da du eine reguläre Speicherdatei importierst, die nicht offiziell ist.
+Dafür solltest du die reguläre **Ark: SE** Gameserver-Variante (ohne offiziellen Backupsave-Support) verwenden, da du eine reguläre Save-Datei importierst, die nicht offiziell ist.
 
 ![](https://github.com/zaphosting/docs/assets/42719082/43a6f039-778b-471f-82c8-91f1b8644a33)
 :::
 
 
 
-## Spielstand auf den Server hochladen
+## Save auf den Server hochladen
 
-Sobald du deine `.zip`-Speicherdatei heruntergeladen hast, musst du sie mit einem Programm wie 7zip oder Winrar entpacken. Der Upload ist für beide Arten von Gameservern und Spieldateien derselbe.
+Nachdem du deine `.zip` Save-Datei heruntergeladen hast, musst du sie mit einem Programm wie 7zip oder Winrar entpacken. Für beide Gameserver- und Save-Datei-Typen ist der Upload-Prozess gleich.
 
-Jetzt musst du über FTP auf deinen Server zugreifen, um deine Spieldateien hochzuladen. Bitte benutze unsere Anleitung [Zugriff per FTP](gameserver-ftpaccess.md), wenn du Hilfe beim Einloggen über deinen bevorzugten FTP-Client und beim Übertragen von Dateien benötigst.
+Jetzt musst du per FTP auf deinen Server zugreifen, um die Save-Dateien hochzuladen. Nutze unsere [Zugriff via FTP](gameserver-ftpaccess.md) Anleitung, falls du Hilfe beim Einloggen mit deinem bevorzugten FTP-Client und beim Übertragen der Dateien brauchst.
 
-Wenn du deinen FTP-Client geöffnet hast, gehe in das folgende Unterverzeichnis deines Gameservers:
+Öffne deinen FTP-Client und navigiere zu folgendem Unterverzeichnis in deinem Gameserver:
 ```
 /gxxxxx/ark/ShooterGame/Saved/SavedArks
 ```
 
 ![](https://github.com/zaphosting/docs/assets/42719082/92ca6e48-346e-4f3c-80e2-972421d1f73f)
 
-Lösche alle Dateien der aktuellen Speicherdatei (oder sichere sie vorher, wenn du in Zukunft mit dieser Speicherdatei spielen willst). Als Nächstes ziehst du alle extrahierten Dateien in dieses Verzeichnis (einschließlich der Dateien .ark, .arktribe und .arkprofile) und lädst sie hoch. Bitte habe etwas Geduld, denn es kann einige Zeit dauern, bis alles hochgeladen ist, was von der Größe deiner Speicherdatei abhängt.
+Lösche alle Dateien des aktuellen Save-Files (oder sichere sie vorher, falls du später noch auf diesem Save spielen möchtest). Ziehe dann alle entpackten Dateien in dieses Verzeichnis (inklusive .ark, .arktribe und .arkprofile Dateien). Bitte hab Geduld, das Hochladen kann je nach Größe deiner Save-Datei eine Weile dauern.
 
-Sobald der Upload abgeschlossen ist, starte deinen Server neu und die neu hochgeladenen Dateien sollten geladen werden. Du hast erfolgreich eine offizielle Backup-Speicherdatei auf deinen Ark: Survival Evolved Gameserver hochgeladen.
+Sobald der Upload abgeschlossen ist, starte deinen Server neu und die neu hochgeladenen Dateien sollten geladen werden. Du hast erfolgreich eine offizielle Backup-Save-Datei auf deinem Ark: Survival Evolved Gameserver hochgeladen.
 
 <InlineVoucher />

@@ -1,7 +1,7 @@
 ---
 id: dedicated-windows-palworld
-title: "Dedicated Server: Palworld Dedicated Server Einrichtung"
-description: Informationen zur Einrichtung eines Palworld Dedizierten Servers auf einem Dedicated Server - ZAP-Hosting.com Dokumentation
+title: "Dedicated Server: Palworld Dedicated Server Windows Setup"
+description: "Entdecke, wie du deinen Palworld Dedicated Server schnell und einfach auf deinem Windows VPS oder Dedicated Server einrichtest → Jetzt mehr erfahren"
 sidebar_label: Palworld
 services:
   - dedicated
@@ -12,66 +12,66 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
 
-Du hast einen Windows Dedicated Server und möchtest darauf einen Palworld Dedicated Server installieren? Dann bist du hier genau richtig. In dieser Anleitung erklären wir dir Schritt für Schritt, wie du diesen Dienst auf deinem Server installierst.
+Du hast einen Windows VPS oder Dedicated Server und möchtest den Palworld Dedicated Server darauf installieren? Dann bist du hier genau richtig. In dieser Anleitung erklären wir dir Schritt für Schritt, wie du den Server auf deinem System einrichtest.
 
-<YouTube videoId="thn0wDE5LDg" imageSrc="https://screensaver01.zap-hosting.com/index.php/s/bmzErSdYMFEJ864/preview" title="How To Setup Palworld Dedicated Server on Windows VPS!" description="Feel like you understand better when you see things in action? We’ve got you! Dive into our video that breaks it all down for you. Whether you're in a rush or just prefer to soak up information in the most engaging way possible!"/>
+<YouTube videoId="thn0wDE5LDg" imageSrc="https://screensaver01.zap-hosting.com/index.php/s/pt4oNY8tPJdKf44/preview" title="How To Setup Palworld Dedicated Server on Windows VPS!" description="Du verstehst besser, wenn du Dinge in Aktion siehst? Kein Problem! Unser Video erklärt dir alles ganz easy. Egal ob du es eilig hast oder lieber entspannt lernst – hier bist du richtig!"/>
 
 <InlineVoucher />
 
 ## Vorbereitung
 
-Verbinde dich zunächst über Remote Desktop (RDP) mit deinem VPS. Verwende unsere Anleitung [Erstzugang (RDP)](vserver-windows-userdp.md), wenn du Hilfe benötigst.
+Verbinde dich zuerst per Remote Desktop (RDP) mit deinem VPS. Falls du Hilfe brauchst, schau dir unsere [Erstanmeldung (RDP)](vserver-windows-userdp.md) Anleitung an.
 
-Sobald du auf deinen Server zugegriffen hast, musst du **SteamCMD** einrichten, damit du die notwendigen Dateien für den dedizierten Server herunterladen kannst. SteamCMD ist die **Befehlszeilenversion (CLI)** des Steam-Clients und das Tool, mit dem du ganz einfach eine Reihe von Steam-Workshop- und Dedicated Server-Dateien herunterladen kannst. Lade [SteamCMD von der offiziellen Valve-Website](https://developer.valvesoftware.com/wiki/SteamCMD) oder direkt [hier](https://steamcdn-a.akamaihd.net/client/installer/steamcmd.zip) herunter.
+Sobald du auf deinem Server bist, musst du **SteamCMD** einrichten, um die nötigen Dedicated Server Dateien runterzuladen. SteamCMD ist die **Kommandozeilen-Version (CLI)** vom Steam-Client und das Tool, mit dem du ganz easy Steam Workshop und Dedicated Server Dateien herunterladen kannst. Lade [SteamCMD von der offiziellen Valve-Seite](https://developer.valvesoftware.com/wiki/SteamCMD) oder direkt [hier](https://steamcdn-a.akamaihd.net/client/installer/steamcmd.zip) runter.
 
-Erstelle irgendwo auf deinem Server einen neuen Ordner, in diesem Szenario nennen wir ihn `steamcmd`. Gehe zu deinem Download-Ordner, suche die Datei **steamcmd.zip**, die du gerade heruntergeladen hast, und lege sie in deinem Ordner `steamcmd` ab. Nun musst du die Datei entpacken, indem du mit der rechten Maustaste klickst und die Entpackungsfunktion von Windows oder ein anderes Programm wie .7zip oder Winrar verwendest. Das Ergebnis sollte eine **steamcmd.exe** Datei sein, die entpackt wurde.
+Erstelle irgendwo auf deinem Server einen neuen Ordner, wir nennen ihn hier `steamcmd`. Gehe in deinen Downloads-Ordner, finde die **steamcmd.zip** Datei und verschiebe sie in den `steamcmd` Ordner. Entpacke die Datei jetzt per Rechtsklick mit Windows-eigener Entpackfunktion oder Tools wie 7zip oder WinRAR. Am Ende solltest du eine **steamcmd.exe** Datei haben.
 
-Führe einfach **steamcmd.exe** aus und warte, bis der Installationsprozess vollständig abgeschlossen ist.
+Starte einfach **steamcmd.exe** und warte, bis die Installation komplett durchgelaufen ist.
 
 ![](https://github.com/zaphosting/docs/assets/42719082/ffb8e8a1-26e3-4d16-9baf-938e17ec1613)
 
-Sobald die Meldung **Loading Steam API.... OK** angezeigt wird, ist der Vorgang erfolgreich abgeschlossen und du kannst mit der Installation des Palworld Dedicated Servers im folgenden Abschnitt fortfahren.
+Sobald die Meldung **Loading Steam API.... OK** erscheint, ist alles fertig und du kannst mit der Installation des Palworld Dedicated Servers im nächsten Abschnitt starten.
 
 ## Installation
 
-Nach der Installation solltest du in der Lage sein, Befehle in der **steamcmd.exe** Eingabeaufforderung auszuführen, die du zuvor ausgeführt hast. Bevor du etwas tun kannst, musst du dich mit dem Benutzer **anonymous** anmelden, indem du den Befehl `login anonymous`
+Nach dem Start von **steamcmd.exe** kannst du Befehle in der Kommandozeile ausführen. Melde dich zuerst mit dem anonymen Nutzer an, indem du folgenden Befehl eingibst: `login anonymous`
 
-Sobald du eingeloggt bist, kannst du mit dem Herunterladen der Dateien beginnen. 
+Wenn du eingeloggt bist, kannst du mit dem Download der Dateien starten.
 
 :::tip
-Optional: Du kannst dein bevorzugtes Installationsverzeichnis mit dem Befehl `force_install_dir [path]` festlegen, indem du `[path]` durch den Pfad ersetzst, den du für deinen Server verwenden möchtest. Zum Beispiel:
+Optional: Du kannst dein bevorzugtes Installationsverzeichnis mit dem Befehl `force_install_dir [Pfad]` festlegen. Ersetze `[Pfad]` durch den gewünschten Pfad für deinen Server, z.B.: 
 ```
 force_install_dir C:\Palworld-Server
 ```
 :::
 
-Führe nun den Befehl `app_update 2394010` aus, um den Download zu starten. Die App ID **2394010** ist die **Palworld** Anwendung.
+Starte jetzt den Download mit dem Befehl `app_update 2394010`. Die App-ID **2394010** steht für die **Palworld** Anwendung.
 
 ![](https://github.com/zaphosting/docs/assets/42719082/b265a784-cf9a-43dc-b100-376f080e18f3)
 
 :::info
-Bitte unterbrich den Vorgang nicht, bevor er abgeschlossen ist, um Fehler zu vermeiden. Es kann einen Moment dauern, aber es lohnt sich, geduldig zu sein! :)
+Bitte unterbrich den Vorgang nicht, bevor er abgeschlossen ist, um Fehler zu vermeiden. Es kann einen Moment dauern, aber Geduld zahlt sich aus! :)
 :::
 
-Sobald der Vorgang erfolgreich abgeschlossen ist, gehst du in das Download-Verzeichnis, in dem alle Serverdateien heruntergeladen wurden. Hier kannst du die **PalServer.exe** verwenden, um den Server zu starten. Wir empfehlen dir jedoch, deinen Server zuerst zu konfigurieren und eine Portweiterleitung einzurichten.
+Nach erfolgreichem Download findest du alle Serverdateien im Installationsordner. Dort kannst du die **PalServer.exe** starten, um den Server zu starten. Wir empfehlen aber, vorher noch das Port Forwarding einzurichten und deinen Server zu konfigurieren.
 
-### Portweiterleitung deines Servers
+### Portfreigabe für deinen Server
 
-Um sicherzustellen, dass dein Server für die Öffentlichkeit zugänglich ist, musst du die Portweiterleitungsregeln für die Ports ändern, die der dedizierte Serverprozess verwendet. Du kannst dies entweder direkt über Powershell-Befehle tun, was einfacher ist, oder regelmäßig über die Windows Defender Firewall-Seite.
+Damit dein Server öffentlich erreichbar ist, musst du die Portfreigabe für die Ports einrichten, die der Dedicated Server nutzt. Das geht entweder direkt per Powershell-Befehle (einfacher) oder über die Windows Defender Firewall.
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
 <Tabs>
-<TabItem value="powershell" label="Über Powershell" default>
+<TabItem value="powershell" label="Per Powershell" default>
 
-Öffne dein Windows-Suchfeld und suche nach **Powershell**. Achte darauf, dass du mit der rechten Maustaste klickst und **Als Administrator ausführen** wählst, damit die Berechtigungen zugänglich sind und alles richtig funktioniert.
+Öffne die Windows-Suche und suche nach **Powershell**. Rechtsklick und **Als Administrator ausführen** wählen, damit du die nötigen Rechte hast.
 
 :::info
-Vergewissere dich, dass du die Powershell im Administratormodus ausführst, sonst werden die Einstellungen möglicherweise nicht korrekt übernommen.
+Starte Powershell unbedingt als Administrator, sonst werden die Einstellungen nicht korrekt übernommen.
 :::
 
-Als nächstes kopierst du die folgenden Befehle und fügst sie in deine Powershell-Eingabeaufforderung ein:
+Füge dann folgende Befehle in die Powershell ein:
 ```
 New-NetFirewallRule -DisplayName "Palworld Server" -Direction Inbound -LocalPort 8211 -Protocol TCP -Action Allow
 New-NetFirewallRule -DisplayName "Palworld Server" -Direction Inbound -LocalPort 8211 -Protocol UDP -Action Allow
@@ -79,79 +79,79 @@ New-NetFirewallRule -DisplayName "Palworld Server" -Direction Outbound -LocalPor
 New-NetFirewallRule -DisplayName "Palworld Server" -Direction Outbound -LocalPort 8211 -Protocol UDP -Action Allow
 ```
 
-Mit diesen Befehlen werden automatisch Firewall-Regeln erstellt, die notwendig sind, damit dein Palworld-Server für die Öffentlichkeit zugänglich ist.
+Diese Befehle erstellen automatisch die Firewall-Regeln, die dein Palworld Server braucht, um öffentlich erreichbar zu sein.
 
 </TabItem>
 
-<TabItem value="windefender" label="Über Windows Defender">
+<TabItem value="windefender" label="Per Windows Defender">
 
-Verwende die Suchfunktion von Windows, um die **Windows Firewall-Einstellungen mit erweiterter Sicherheit** zu öffnen. Es kann sein, dass du auf **Erweiterte Einstellungen** drücken musst, um das entsprechende Fenster zu öffnen, wenn du die Basisseite der Windows Firewall öffnest.
+Öffne über die Windows-Suche die **Windows-Firewall mit erweiterter Sicherheit**. Falls du nur die Basis-Firewall siehst, klicke auf **Erweiterte Einstellungen**, um das richtige Fenster zu öffnen.
 
 ![](https://github.com/zaphosting/docs/assets/42719082/5fb9f943-7e51-4d8f-9df4-2f5ff60857d3)
 
-Du musst neue Regeln für deinen Palworld Server erstellen. Klicke dazu auf die ein- und ausgehenden Regeln wie unten beschrieben und füge sie für die folgenden Protokolle und Ports hinzu:
+Erstelle neue Regeln für deinen Palworld Server. Klicke dazu auf eingehende und ausgehende Regeln und füge folgende Ports und Protokolle hinzu:
 - TCP eingehend und ausgehend: 8211
 - UDP eingehend und ausgehend: 8211
 
-Bitte benutze unseren [Portweiterleitung (Firewall)](vserver-windows-port.md) Anleitung, wenn du weitere Hilfe dabei brauchst.
+Falls du Hilfe brauchst, schau in unsere [Portfreigabe (Firewall)](vserver-windows-port.md) Anleitung.
 
 </TabItem>
 </Tabs>
 
-Wenn du diese Regeln hinzugefügt hast, ist dein Server jetzt erreichbar, d.h. du kannst dich über die IP-Adresse deines Servers mit ihm verbinden. Das kannst du tun, indem du den Browser der Serverliste aufrufst und deine IP-Adresse und den Port in die Suche am unteren Rand eingibst. Du solltest suchen nach: `[deine_ip_address]:8211`
+Wenn du die Regeln hinzugefügt hast, ist dein Server öffentlich erreichbar. Du kannst dich dann über die IP-Adresse deines Servers verbinden. Gib dazu im Serverbrowser unten die Adresse ein: `[deine_ip_adresse]:8211`
 
-Wir empfehlen, dass du deine Servereinstellungen zuerst im folgenden Abschnitt konfigurierst, bevor du auf deinen Server zugreifst.
+Wir empfehlen, deinen Server vorher noch zu konfigurieren, bevor du dich verbindest.
 
 ## Konfiguration
 
-An dieser Stelle hast du die Einrichtung deines Palworld-Servers abgeschlossen. Du kannst die weitere Serverkonfiguration über eine Konfigurationsdatei vornehmen, die sich im Verzeichnis deines Servers befindet.
+Jetzt hast du die Grundinstallation deines Palworld Servers abgeschlossen. Weitere Einstellungen kannst du über eine Konfigurationsdatei im Serververzeichnis vornehmen.
 
-Wechsle zunächst in das folgende Verzeichnis:
+Navigiere dazu in folgendes Verzeichnis:
 ```
 ../steamapps/common/PalServer/Pal/Saved/Config/WindowsServer
 ```
 
-Dort findest du die Konfigurationsdatei **PalWorldSettings.ini**. Über diese Datei kannst du eine große Auswahl an Parametern für deinen Server konfigurieren. In der [Server Konfiguration](palworld-configuration.md) kannst du dir alle verfügbaren Optionen ansehen und erfahren, was sie jeweils bewirken.
+Hier findest du die Datei **PalWorldSettings.ini**. In dieser Datei kannst du viele Parameter für deinen Server anpassen. Schau dir unsere [Server-Konfiguration](palworld-configuration.md) an, um alle Optionen und ihre Funktionen kennenzulernen.
 
 :::note
-Wenn du diese Datei nicht siehst, starte deinen Server bitte mindestens **einmal**, damit sie automatisch erstellt wird. Alternativ kannst du auch die Standardeinstellungen aus dem Pfad `steamapps/common/PalServer/DefaultPalWorldSettings.ini` kopieren und verwenden.
+Falls die Datei noch nicht da ist, starte deinen Server mindestens **einmal**, damit sie automatisch erstellt wird. Alternativ kannst du die Standardwerte aus `steamapps/common/PalServer/DefaultPalWorldSettings.ini` kopieren.
 :::
 
 ### Xbox-Modus aktivieren
 
-Die Palworld Dedicated Server können jetzt als Microsoft Store/Xbox Dedicated Server umgestellt werden, damit Xbox-Spieler und Microsoft Store PC-Spieler gemeinsam auf ihrem eigenen Server spielen können.
+Palworld Dedicated Server können jetzt auch als Microsoft Store/Xbox Server laufen, damit Xbox- und Microsoft Store PC-Spieler zusammen auf deinem Server zocken können.
 
 :::note
-Cross-Play zwischen Steam & Microsoft Store/Xbox Spielversionen ist immer noch nicht möglich. Dein Server kann entweder für Steam oder für Microsoft Store/Xbox eingestellt werden.
+Crossplay zwischen Steam und Microsoft Store/Xbox Versionen ist aktuell noch nicht möglich. Dein Server kann entweder für Steam oder für Microsoft Store/Xbox laufen.
 :::
 
-Navigiere in das folgende Verzeichnis und öffne die Datei **PalWorldSettings.ini**:
+Öffne die **PalWorldSettings.ini** im Verzeichnis:
 ```
 ../steamapps/common/PalServer/Pal/Saved/Config/WindowsServer/PalWorldSettings.ini
 ```
 
-Füge in diese Datei den folgenden Abschnitt ein, um den Xbox-Modus zu aktivieren:
+Füge dort folgenden Abschnitt hinzu, um den Xbox-Modus zu aktivieren:
 ```
 [/Script/Pal.PalGameWorldSettings]
 OptionSettings=(AllowConnectPlatform=Xbox)
 ```
 
-Speichere die Datei und das nächste Mal, wenn du den Server startest, wird er im Xbox-Modus sein.
+Speichere die Datei ab. Beim nächsten Start läuft dein Server im Xbox-Modus.
 
 :::info
-Auf Xbox-Konsolen kannst du dich nicht direkt über die IP-Adresse verbinden. Wenn du also auf Xbox-Konsolen spielen willst, musst du deinen dedizierten Server öffentlich machen.
+Auf Xbox-Konsolen kannst du dich nicht direkt per IP verbinden. Wenn du also auf Xbox spielen willst, musst du deinen Dedicated Server öffentlich machen.
 
-Dazu erstellst du eine neue Datei `StartServer.bat` im Hauptverzeichnis und füllst sie mit: `PalServer.exe -publiclobby`. Das spezielle Startflag `-publiclobby` aktiviert den Community Server Modus und macht ihn in der Serverliste zugänglich.
+Erstelle dazu im Hauptverzeichnis eine neue Datei `StartServer.bat` mit folgendem Inhalt: `PalServer.exe -publiclobby`. Der Start-Parameter `-publiclobby` aktiviert den Community Server Modus, sodass dein Server in der Serverliste erscheint.
 
-Du solltest auch einen Servernamen festlegen, der leicht gefunden werden kann. Wie das geht, kannst du in unserer [Server Konfiguration](palworld-configuration.md) nachlesen.
+Vergib außerdem einen gut auffindbaren Servernamen. Wie das geht, erfährst du in unserer [Server-Konfiguration](palworld-configuration.md).
 :::
 
-## Starten und Verbinden mit deinem Server
+## Server starten & verbinden
 
-Jetzt ist es an der Zeit, deinen Server zu starten. Möglicherweise musst du [DirectX Runtime](https://www.microsoft.com/en-gb/download/details.aspx?id=35) installieren, wenn du es nicht bereits auf deinem Windows VPS hast.
+Jetzt kannst du deinen Server starten. Falls noch nicht installiert, brauchst du eventuell das [DirectX Runtime](https://www.microsoft.com/en-gb/download/details.aspx?id=35) auf deinem Windows Dedicated Server.
 
-Gehe in das Basisverzeichnis deines Palworld-Servers und starte **PalServer.exe**, um den Startvorgang zu beginnen. Dadurch wird die Konsole des Servers in einer Eingabeaufforderung geöffnet und der Startvorgang beginnt. Wenn alles wie erwartet abläuft, wird dein Server in der Serverliste sichtbar sein. Alternativ kannst du dich auch direkt verbinden, indem du in der unteren Suchleiste der Serverliste nach `[deine_ip_address]:8211`.
+Wechsle in das Hauptverzeichnis deines Palworld Servers und starte **PalServer.exe**, um den Server zu starten. Es öffnet sich die Server-Konsole im Kommandozeilenfenster und der Startvorgang beginnt. Wenn alles klappt, erscheint dein Server in der Serverliste. Alternativ kannst du dich direkt verbinden, indem du im Serverbrowser unten nach `[deine_ip_adresse]:8211` suchst.
 
-Du hast Palworld erfolgreich auf deinem Windows VPS installiert.
+Du hast Palworld erfolgreich auf deinem Windows Dedicated Server installiert.
 
 <InlineVoucher />

@@ -1,7 +1,7 @@
 ---
 id: fivem-txadmin-import-server-base
 title: "FiveM: txAdmin Server Base importieren"
-description: Informationen, wie du deine eigene Server Base in einen FiveM txAdmin Server von ZAP-Hosting importieren kannst - ZAP-Hosting.com Dokumentation
+description: "Entdecke, wie du eine fertige Server Base mit txAdmin auf deinem eigenen Server importierst für eine schnelle Einrichtung und nahtlose Integration → Jetzt mehr erfahren"
 sidebar_label: Server Base importieren
 services:
   - gameserver-fivem
@@ -12,32 +12,34 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
 
-Du hast einen vorgefertigten Server im Internet gefunden und möchtest ihn bei deinem eigenen Server hochladen? Kein Problem! Mit txAdmin kannst du schnell und unkompliziert einen vorgefertigten Server importieren – vorausgesetzt, du beachtest einige wichtige Anforderungen und Details. Wir zeigen dir, worauf du achten musst und wie der Import Vorgang genau umgesetzt wird.
+Du hast eine fertige Server Base im Internet gefunden und möchtest sie auf deinem eigenen Server hochladen? Kein Problem! Mit txAdmin kannst du eine fertige Server Base schnell und einfach importieren – vorausgesetzt, du beachtest ein paar wichtige Voraussetzungen und Details. In dieser Anleitung zeigen wir dir, wie du eine Server Base importieren kannst.
+
+
 
 <InlineVoucher />
 
 ## Vorbereitung
 
-Damit der Einrichtungsprozess begonnen werden kann, wird vorausgesetzt, dass du bereits eine fertige Server Base aus dem Internet auf deinen Computer heruntergeladen hast und die voraussichtlich gepackte Datei bereits entpackt wurde. 
+Damit du mit dem Setup starten kannst, musst du eine fertige Server Base bereits aus dem Internet auf deinen PC heruntergeladen und die Datei entpackt haben.
 
-Der Inhalt einer Server Base kann sich je nach Art und Inhalt des Servers von den Dateien her unterscheiden und dementsprechend unterschiedlich aussehen. Allerdings sollte deine Server Base in der Regel folgende Daten beinhalten: 
+Der Inhalt einer Server Base kann je nach Servertyp und Inhalt variieren und die Dateien sehen dementsprechend unterschiedlich aus. Deine Server Base sollte aber grundsätzlich folgende Daten enthalten:
 
-- **Server Konfiguration - `server.cfg` (Notwendig):** Die Server Konfigurationsdatei beinhaltet alle relevanten Konfigurationsbefehle/Einstellungen für deinen Server.
-- **Ordner mit allen Ressourcen - `resource` (Notwendig)** Der Resource Ordner beinhaltet alle fertigen Ressourcen, die in der bereitgestellten Server Base verwendet werden.
-- **SQL-Datei - `filenameXY.sql` (Optional):** Diese Datei beinhaltet die fertige Datenbankstruktur, die für die Nutzung und Kommunikation zwischen den Resourcen und der Datenbank (falls verwendet) benötigt wird. 
+- **Serverkonfiguration - `server.cfg` (erforderlich):** Die Serverkonfigurationsdatei enthält alle relevanten Befehle/Einstellungen für deinen Server.
+- **Resource-Ordner - `resource` (erforderlich):** Der Resource-Ordner enthält alle fertigen Ressourcen, die in der Server Base verwendet werden.
+- **SQL-Datei - `filenameXY.sql` (optional):** Diese Datei enthält die fertige Datenbankstruktur, die für die Nutzung und Kommunikation zwischen den Ressourcen und der Datenbank (falls verwendet) benötigt wird.
 
-Die **Daten (`server.cfg`, `resources`)**  deiner heruntergeladenen Server Base müssen bei deinem Gameserver hochgeladen werden. Die **SQL-Datei** muss wiederum in die von uns bereitgestellten ZAP-Datenbank importiert werden. 
+Die **Daten (`server.cfg`, `resources`)** deiner heruntergeladenen Server Base müssen auf deinen Gameserver hochgeladen werden. Die **SQL-Datei** muss in die von uns bereitgestellte ZAP-Datenbank importiert werden.
 
-### Server Dateien
-Das Hochladen der Daten deiner Server Base wird per FTP realisiert. Solltest du noch nicht wissen, wie das genau funktioniert, dann schaue dir dazu am besten die folgende Anleitung an: [FTP-Zugriff](gameserver-ftpaccess.md)
+### Serverdateien
+Der Upload deiner Server Base Daten erfolgt via FTP. Falls du noch nicht genau weißt, wie das funktioniert, schau dir unsere Anleitung an: [FTP-Zugang](gameserver-ftpaccess.md)
 
-Verbinde dich per FTP mit deinem Gameserver und navigiere zum `fivem` Ordner. Erstelle dort einen Ordner für deine Server Base, sofern noch nicht vorhanden. In diesem Beispiel wird für die fertige Server Base der Name **ExampleServer** verwendet.
+Verbinde dich per FTP mit deinem Gameserver und navigiere in den Ordner `fivem`. Erstelle dort einen Ordner für deine Server Base, falls dieser noch nicht existiert. In diesem Beispiel heißt die fertige Server Base **ExampleServer**.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/HzDrADKgK3rqfKm/download)
 
 
 
-Nach Erstellung des Ordners müssen nun die Daten der Server Base hochgeladen. Navigiere dazu in deinen neu angelegten Ordner und lade den Resource Ordner und deine Server Konfigurationsdatei hoch. Das Ergebnis sollte im Anschluss wie folgt aussehen:
+Nachdem der Ordner erstellt wurde, müssen jetzt die Server Base Daten hochgeladen werden. Navigiere dazu in deinen neu erstellten Ordner und lade den Resource-Ordner sowie deine Serverkonfiguration hoch. Das Ergebnis sollte so aussehen:
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/xyAZyt8W5XcxGaF/preview)
 
@@ -45,67 +47,68 @@ Nach Erstellung des Ordners müssen nun die Daten der Server Base hochgeladen. N
 
 ### Datenbank
 
-Wenn deine Server Base ebenfalls die Nutzung einer Datenbank voraussetzt, dann muss in dem Fall ebenfalls die bereitgestellte SQL-Datei in deiner ZAP-Datenbank importiert werden. Solltest du noch nicht wissen, wie das genau funktioniert, dann schaue dir dazu am besten die folgende Anleitung an: [SQL-Datei importieren](fivem-sql-file-import.md) 
+Falls deine Server Base auch eine Datenbank benötigt, muss die bereitgestellte SQL-Datei in deine ZAP-Datenbank importiert werden. Falls du noch nicht genau weißt, wie das funktioniert, schau dir unsere Anleitung an: [SQL-Datei importieren](fivem-sql-file-import.md)
 
-Importie wie in der Anleitung beschrieben, deine SQL-Datei in deine Datenbank. Stelle dabei vorher allerdings sicher, dass du den Inhalt der SQL-Datei angepasst hast und den richtigen Namen deiner ZAP-Datenbank angibst. Ersetze hierfür den ursprünglichen Wert beim Use '...' Befehl mit dem Namen deiner ZAP-Datenbank.
+Importiere deine SQL-Datei wie in der Anleitung beschrieben in deine Datenbank. Achte aber vorher darauf, dass du den Inhalt der SQL-Datei angepasst hast und den korrekten Namen deiner ZAP-Datenbank angegeben hast. Ersetze dazu den Originalwert im Use '...' Befehl mit dem Namen deiner ZAP-Datenbank.
 
-:::warning Kontrolliere den Inhalt der SQL-Datei vor dem Import
-Bitte vergewissere dich, dass der Inhalt der SQL-Datei angepasst wurde und vollständig korrekt ist, bevor du sie importierst. Andernfalls wird die folgende Fehlermeldung erscheinen: 
+:::warning Inhalt der SQL-Datei vor dem Import doppelt prüfen
+Bitte stelle sicher, dass der Inhalt der SQL-Datei angepasst und vollständig korrekt ist, bevor du sie importierst. Andernfalls erscheint folgende Fehlermeldung:
 
-`Access denied for user ‘zapXXXXX-X’@’%’ to database ’originalDatenbankName’` 
+`Access denied for user ‘zapXXXXX-X’@’%’ to database ’originalDatabaseName’`
 :::
 
 
 
 ## txAdmin Setup
 
-Die Vorbereitung der Einrichtung des Servers ist nun bereits erledigt. Die weitere Einrichtung, Installation und Konfiguration des Servers erfolgt nun über den Setup Vorgang vom txAdmin Interface. Wie du das txAdmin aufrufst und das Setup genau vorgenommen wird erläutern wir in der folgenden Anleitung im Detail: [txAdmin Setup](fivem-txadmin-setup.md)
+Die Vorbereitung für das Setup des Servers ist jetzt abgeschlossen. Die weitere Einrichtung, Installation und Konfiguration des Servers erfolgt nun über den Setup-Prozess der txAdmin-Oberfläche. Die folgende Anleitung erklärt dir detailliert, wie du auf txAdmin zugreifst und wie genau das Setup abläuft: [txAdmin Setup](fivem-txadmin-setup.md)
 
 
 
 ### Willkommen
 
-Definiere  einen Namen, welchen du für dein Projekt verwenden möchtest. Dieser Name ist nicht für die Serverliste gedacht sondern dient lediglich für das txAdmin Interface und Chat/Discord Nachrichten. Fahre mit dem Schritt Art der Bereitstellung fort. 
+Definiere einen Namen, den du für dein Projekt verwenden möchtest. Dieser Name ist nicht für die Serverliste gedacht, sondern dient ausschließlich der Nutzung innerhalb der txAdmin-Oberfläche und für Chat-/Discord-Nachrichten. Fahre mit dem Schritt Deployment Type fort.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/FCmd5xQ89wSPHfe/preview)
+![img](https://screensaver01.zap-hosting.com/index.php/s/FCmd5xQ89wSPHfe/preview)
 
-### Art der Bereitstellung
+### Deployment Type
 
-Beim Deployment Type musst du nun auswählen, wie du deinen Server einrichten möchtest. Dir stehen die folgenden Auswahloptionen zur Verfügung: **Popular Recipes**, **Existing Server Data**, Remote URL Template und **Custom Template**. Für deinen Anwendungsfall musst du **Existing Server Data** auswählen.
+Unter Deployment Type musst du jetzt auswählen, wie du deinen Server einrichten möchtest. Du hast folgende Optionen: **Popular Recipes**, **Existing Server Data**, **Remote URL Template** und **Custom Template**. Für deinen Anwendungsfall wählst du **Existing Server Data**.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/oMSBwf6jmHMwtYn/preview)
+![img](https://screensaver01.zap-hosting.com/index.php/s/oMSBwf6jmHMwtYn/preview)
 
-### Auswahl des Verzeichnis
+### Pfade auswählen
 
-Als Nächstes muss der Pfad angegeben, wo sich deine Server Base befindet. Die Verzeichnisstruktur beginnt wie folgt und muss mit deinem definierten Server Base Namen zusätzlich ergänzt werden: `/home/zapXXXXX/gXXXXXX/fivem/ExampleServer`
+Als nächstes muss der Pfad angegeben werden, wo sich deine Server Base befindet. Die Ordnerstruktur beginnt wie folgt und muss um den Namen deiner definierten Server Base erweitert werden: `/home/zapXXXXX/gXXXXXXXX/fivem/ExampleServer`.
 
-Die vorgegebene Verzeichnisstruktur kannst du wie im Screenshot dargestellt einfach kopieren, einfügen und dann mit dem Namen deines zuvor angelegten Server Base Ordners im Anschluss ergänzen. Das Ergebnis sollte wie folgt aussehen:
+Du kannst die angegebene Ordnerstruktur einfach kopieren und einfügen, wie im Screenshot gezeigt, und dann den Namen deines zuvor erstellten Server Base Ordners hinzufügen. Das Ergebnis sollte so aussehen:
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/eDPeDzSqfMbk7Tg/download)
 
 
 
-Klicke anschließend auf **Next**. Die Server Konfigurationsdatei `server.cfg` sollte nun erkannt werden. Bestätige dies und schließe die reguläre Einrichtung über den **Save & Start Button** ab. 
+Klicke auf **Next**. Die Serverkonfigurationsdatei `server.cfg` sollte nun erkannt werden. Bestätige dies und schließe das reguläre Setup über den **Save & Start Button** ab.
 
 
 
 ## Konfiguration
 
-Mit hoher Wahrscheinlichkeit wird der Server aktuell noch nicht starten können, weil noch nicht alle notwendigen Informationen korrekt sind. Das liegt unter anderen an falschen Informationen bezüglich der IP-Adresse und Port des Servers, fehlende Datenbankinformationen für eine erfolgreiche Verbindung zur Datenbank, als auch einem fehlenden Lizenzschlüssel. Aus diesem Grund sind für den Abschluss noch finale Anpassungen in der Server Konfigurationen notwendig. 
+Es ist sehr wahrscheinlich, dass der Server nicht starten kann, weil nicht alle notwendigen Informationen korrekt sind. Das liegt unter anderem an falschen Angaben zur IP-Adresse und zum Port des Servers, fehlenden Datenbankinformationen für eine erfolgreiche Verbindung zur Datenbank sowie einem fehlenden Lizenzschlüssel. Deshalb sind noch finale Anpassungen an der Serverkonfiguration nötig, um das Setup abzuschließen.
 
-### Server Details
+### Serverdetails
 
-Standardmäßig sind die bereitgestellten Informationen zur IP-Adresse und Port entweder nicht vorhanden oder nicht korrekt. Stelle sicher, dass in deiner Server Konfigurationsdatei die Einträge für die Endpoints vorhanden und korrekt sind. Die Syntax sieht dafür wie folgt:
+Standardmäßig sind die Angaben zur IP-Adresse und zum Port entweder nicht vorhanden oder falsch. Stelle sicher, dass die Einträge für die Endpunkte in deiner Serverkonfigurationsdatei vorhanden und korrekt sind. Die Syntax sieht so aus:
 
 ```
 endpoint_add_tcp "0.0.0.0:30120"
 endpoint_add_udp "0.0.0.0:30120"
 ```
 
-Ersetze die IP-Adresse (0.0.0.0) und den Port mit den Server Informationen von deinem Server. Diese kannst du in der Gameserver Verwaltung deines Servers einsehen. 
+Ersetze die IP-Adresse (0.0.0.0) und den Port (30120) mit den Serverdaten deines Servers. Diese findest du in der Gameserver-Verwaltung deines Servers.
 
 :::warning Falsche IP-Adresse/Port
-Sollten die Informationen, die du konfiguriert hast, nicht korrekt sein, so kannst du dies anhand der folgenden Fehlermeldung erkennen: 
+Wenn die von dir konfigurierten Angaben nicht korrekt sind, erkennst du das an folgender Fehlermeldung:
+
 ```
 Line XX: [ZAP-Hosting] the 'endpoint_add_tcp' interface MUST be 'XXX.XXX.XXX.XXX'
 Line XX: [ZAP-Hosting] the 'endpoint_add_udp' interface MUST be 'XXX.XXX.XXX.XXX'
@@ -115,43 +118,43 @@ Line XX: [ZAP-Hosting] the 'endpoint_add_udp' interface MUST be 'XXX.XXX.XXX.XXX
 
 ### Datenbank
 
-Damit dein Server eine Verbindung zur Datenbank herstellen kann, muss in der Server Konfigurationsdatei `server.cfg` ein MySQL Connection String mit den Datenbankinformationen hinterlegt sein. Dieser kann standardmäßig wie folgt aussehen: 
+Damit dein Server eine Verbindung zur Datenbank herstellen kann, muss in der Serverkonfigurationsdatei `server.cfg` eine MySQL-Verbindungszeichenfolge mit den Datenbankinformationen angegeben sein. Diese sieht standardmäßig so aus:
 
 ```sql
-set mysql_connection_string "mysql://benutzername:passwort@datenbankHostname/datenbankName?charset=utf8mb4"
+set mysql_connection_string "mysql://username:password@dataBaseHostname/databaseName?charset=utf8mb4"
 ```
 
-Ob solch ein MySQL Connection String bei deiner Server Konfiguration bereits vorhanden ist oder nicht hängt von der von dir verwendeten Server Base ab. Sollte dieser noch nicht vorhanden sein oder noch nicht die notwendigen Datenbankinformationen beinhalten, so musst du diesen noch hinzufügen und anpassen. Die Datenbankinformationen kannst du in der Gameserver Verwaltung unter Datenbanken einsehen. Das Ergebnis könnte im Anschluss beispielsweise wie folgt aussehen: 
+Ob eine solche MySQL-Verbindungszeichenfolge bereits in deiner Serverkonfiguration existiert, hängt von der verwendeten Server Base ab. Falls sie noch nicht existiert oder nicht die notwendigen Datenbankinformationen enthält, musst du sie hinzufügen und anpassen. Die Datenbankinformationen findest du in der Gameserver-Verwaltung unter Datenbanken. Das Ergebnis könnte zum Beispiel so aussehen:
 
 ```sql
-set mysql_connection_string "mysql://zapXXXXXXX-X:deinDatenbankPasswort@mysql-mariadb-XX-XXX.zap-hosting.com/zapXXXXXX-X?charset=utf8mb4"
+set mysql_connection_string "mysql://zapXXXXXXX-X:yourDatabasePassword@mysql-mariadb-XX-XXX.zap-hosting.com/zapXXXXXX-X?charset=utf8mb4"
 ```
 
-:::tip Mach es dir einfach
-Wenn du dir diesen Schritt sparen möchtest, dann kannst du auch in der Gameserver Verwaltung unter den Einstellungen am Ende der Seite auf den **[Reconfigure MySQL Connection String](https://screensaver01.zap-hosting.com/index.php/s/zZSmQex6ropFK3X/preview)** Button klicken. 
+:::tip Keep it simple
+Wenn du dir diesen Schritt sparen möchtest, kannst du auch in der Gameserver-Verwaltung unter Einstellungen ganz unten auf den **[MySQL-Verbindungszeichenfolge neu konfigurieren](https://screensaver01.zap-hosting.com/index.php/s/zZSmQex6ropFK3X/preview)** Button klicken.
 :::
 
 
 ### Onesync
 
-Sollte die `server.cfg` Konfigurationsdatei deiner Server Base irgendwelche Informationen bezüglich **Onesync** beinhalten, so müssen diese entfernt werden. Die Verwaltung erfolgt stattdessen über die Einstellungen des txAdmin Interfaces. Solltest du das aktivieren wollen dann findest du die Option unter **Settings ⟶ FXServer**. 
+Falls die `server.cfg` deiner Server Base Informationen zu **Onesync** enthält, müssen diese entfernt werden. Onesync wird stattdessen über die Einstellungen der txAdmin-Oberfläche verwaltet. Wenn du es aktivieren möchtest, findest du die Option unter **Settings ⟶ FXServer**.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/Y4LKM8ZRn4ZSFzp/download)
+![img](https://screensaver01.zap-hosting.com/index.php/s/Y4LKM8ZRn4ZSFzp/download)
 
 ### Lizenzschlüssel
 
-Für das Betreiben deines Servers benötigst du einen eigenen Lizenzschlüssel von CFX. Wie du einen eigenen Lizenzschlüssel erstellst, kannst du in der folgenden Anleitung nachlesen: [Eigener Lizenzschlüssel](fivem-licensekey.md)
+Um deinen Server zu betreiben, benötigst du einen eigenen Lizenzschlüssel von CFX. Wie du deinen eigenen Lizenzschlüssel erstellst, erfährst du in der folgenden Anleitung: [Eigener Lizenzschlüssel](fivem-licensekey.md)
 
-Füge den Lizensschlüssel im Anschluss in die Server-Konfigurationsdatei hinzu: 
+Füge den Lizenzschlüssel in die Serverkonfigurationsdatei ein:
 
 ```
-sv_licenseKey "DeinLizenzSchlüsselKommtHierHin"
+sv_licenseKey "deinLizenzschluesselHier"
 ```
 
 
 
-## Abschluss
+## Fazit
 
-Glückwunsch! Nachdem du die Dateien erfolgreich hochgeladen, das txAdmin Setup abgeschlossen und abschließend die noch notwendigen Änderungen in der Server Konfiguration vorgenommen hast, kannst du nun deinen Server mit deiner Server Base starten und spielen.
+Glückwunsch! Sobald du die Dateien erfolgreich hochgeladen, das txAdmin Setup abgeschlossen und die notwendigen Änderungen an der Serverkonfiguration vorgenommen hast, kannst du deinen Server jetzt starten und mit deiner Server Base loslegen.
 
 <InlineVoucher />

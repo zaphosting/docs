@@ -1,7 +1,7 @@
 ---
 id: vrising-server-savegames
-Titel: "V Rising: V Rising Savegames verwalten"
-description: Informationen über die Verwaltung von Savegames auf deinem V Rising Server von ZAP-Hosting - ZAP-Hosting.com Dokumentation
+title: "V Rising: V Rising Savegames verwalten"
+description: "Entdecke, wie du deine V Rising Spielstände sicher verwaltest und sicherst für ein entspanntes Multiplayer-Erlebnis → Jetzt mehr erfahren"
 sidebar_label: Savegames verwalten
 services:
   - gameserver-vrising
@@ -11,74 +11,73 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
 
-In dieser Anleitung erfahren wir, wie du deine V Rising Gamesaves auf deinem Spielserver verwaltest, einschließlich der Sicherung deiner lokalen und Server-Savegames sowie des Uploads auf deinen Server.
+In dieser Anleitung zeigen wir dir, wie du deine V Rising Savegames auf deinem Gameserver verwaltest, inklusive Backup deiner lokalen und Server-Savegames sowie dem Hochladen auf deinen Server.
 
 <InlineVoucher />
 
-## Voraussetzungen
+## Vorbereitung
 
-Um auf die Dateien deines Servers zugreifen zu können, benötigst du einen FTP-Client wie [WinSCP](https://winscp.net/eng/index.php) oder [FileZilla](https://filezilla-project.org/), die beide Open-Source sind und kostenlos heruntergeladen werden können.
+Um auf deine Server-Dateien zuzugreifen, brauchst du einen FTP-Client wie [WinSCP](https://winscp.net/eng/index.php) oder [FileZilla](https://filezilla-project.org/), die beide Open-Source und kostenlos sind.
 
-Du musst dich über einen FTP-Client mit deinem Server verbinden, indem du die Zugangsdaten verwendest, die du im Webinterface deines Spieleservers unter **Tools->FTP-Broswer** findest. Bitte benutze unsere [Zugriff per FTP](gameserver-ftpaccess.md) Anleitung als weitere Hilfe, um dich mit deinem Server zu verbinden.
+Verbinde dich mit deinem Server über den FTP-Client mit den Zugangsdaten, die du im **Tools->FTP-Browser** Bereich im Webinterface deines Gameservers findest. Für weitere Hilfe beim Verbinden schau dir unsere [Zugriff via FTP](gameserver-ftpaccess.md) Anleitung an.
 
-
-## Backup Savegame
+## Savegame sichern
 
 ### Lokales Savegame
 
-Lokale Savegames sind Savegames, die du erstellt hast, während du ein Multiplayer-Spiel lokal auf deinem Gerät veranstaltet hast. Diese findest du in deinen Windows LocalLow AppData, und zwar in folgendem Pfad:
+Lokale Savegames sind die, die du erstellt hast, während du ein Multiplayer-Spiel lokal auf deinem Gerät gehostet hast. Diese findest du im Windows LocalLow AppData Ordner, genauer unter folgendem Pfad:
 ```
 ../AppData/LocalLow/Stunlock Studios/VRising
 ```
 
 :::tip
-Du kannst ganz einfach direkt auf diesen Pfad zugreifen, indem du gleichzeitig `CTRL` + `R` drückst und im Ausführen-Dialog nach dem folgenden Pfad suchst: `%Benutzerprofil%/appdata/locallow/Stunlock Studios/VRising`. Drücke einfach **OK** und du wirst zu dem Ordner weitergeleitet.
+Du kannst diesen Pfad ganz easy direkt öffnen, indem du gleichzeitig `STRG` + `R` drückst und im Ausführen-Dialog folgenden Pfad eingibst: `%userprofile%/appdata/locallow/Stunlock Studios/VRising`. Einfach auf **OK** klicken und du bist im Ordner.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/dz4ytiTai5jD2ep/preview)
 :::
 
-An diesem Ort siehst du entweder einen `Saves`- und/oder einen `CloudSaves`-Ordner, je nachdem, ob du die Steam Cloud Saving-Funktion genutzt hast und welchen Server du benutzt. Wenn du in die Ordner gehst, findest du deine lokalen Savegames.
+An diesem Ort findest du je nach Nutzung der Steam Cloud Save-Funktion und Server-Typ einen `Saves` und/oder `CloudSaves` Ordner. In diesen Ordnern sind deine lokalen Savegames gespeichert.
 
 :::note
-Je nach Spielversion befinden sich deine Spielstände entweder in einem v1- oder v3-Ordner.
+Je nach Spielversion liegen deine Saves entweder im v1 oder v3 Ordner.
 :::
 
-### Zugriff auf Savegame über FTP
+### Savegame per FTP zugreifen
 
-Es ist ganz einfach, dein Savegame auf dem Server zu sichern. Sobald du dich über einen FTP-Client mit deinem Spielserver verbunden hast, gehst du zu folgendem Pfad:
+Das Backup deines Savegames vom Server ist easy. Sobald du dich per FTP-Client mit deinem Gameserver verbunden hast, navigiere zu folgendem Pfad:
 ```
 ../vrising/save-data/Saves
 ```
 
-Dort solltest du je nach Spielversion einen v1- und einen v3-Ordner sehen können. In jedem dieser Ordner findest du deine Savegames. Klicke einfach mit der rechten Maustaste auf den Ordner und benutze den Button **Download**, um ihn lokal auf deinem Gerät zu speichern.
+Hier solltest du einen v1 und v3 Ordner sehen, je nach Spielversion. In jedem Ordner findest du deine Savegames. Einfach mit Rechtsklick auf den Ordner klicken und **Download** wählen, um die Daten lokal auf deinem Gerät zu speichern.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/tZ4HngqLeHTkizz/preview)
 
-### Automatische Sicherung
+### Automatisches Backup
 
-Wir bieten auch die Möglichkeit, dein Savegame (und deine Konfigurationsdatei) direkt über unser Webinterface automatisch zu sichern. Rufe einfach das Webinterface deines Spieleservers auf und gehe in den Bereich **Tools->Backups**. Hier kannst du eine Reihe von Optionen konfigurieren, um automatische Backups für deinen Server zu planen. Wir stellen dir 10gb kostenlosen Backup-Speicher zur Verfügung, in dem deine Backups gespeichert werden. Weitere Informationen zu Backups findest du in unserer [Backups](gameserver-backups.md) Anleitung zu diesem Thema.
+Wir bieten dir auch die Möglichkeit, dein Savegame (und die Konfigurationsdatei) automatisch über unser Webinterface zu sichern. Gehe dazu im Webinterface deines Gameservers auf **Tools->Backups**. Dort kannst du verschiedene Optionen einstellen, um automatische Backups zu planen. Du bekommst 10 GB kostenlosen Backup-Speicher, in dem deine Backups abgelegt werden. Für mehr Infos zu Backups schau dir unsere spezielle [Backups](gameserver-backups.md) Anleitung an.
 
 ## Savegame hochladen
 
-Ähnlich wie das Sichern ist auch das Hochladen deines Savegames ganz einfach. Stelle zunächst sicher, dass du dich über einen FTP-Client mit deinem Spielserver verbindest. Sobald du bereit bist, gehst du zu folgendem Pfad:
+Das Hochladen deines Savegames funktioniert ähnlich wie das Backup. Verbinde dich zuerst per FTP-Client mit deinem Gameserver. Navigiere dann zu folgendem Pfad:
 ```
-.../vrising/save-data/Saves
+../vrising/save-data/Saves
 ```
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/RXd4aoxrA6QnP46/preview)
 
-Je nach Version deines Spielstandes musst du jetzt nur noch deine Savegames mit deinem FTP-Client in den entsprechenden Ordner ziehen und schon werden sie auf deinen Server hochgeladen.
+Je nach Savegame-Version ziehst du jetzt einfach deine Savegames per Drag & Drop in den passenden Ordner im FTP-Client und lädst sie so auf deinen Server hoch.
 
 :::tip
-Es kann sinnvoll sein, den Namen des hochgeladenen Gamesave-Ordners zu kopieren, da du ihn brauchst, wenn du ihn im nächsten Abschnitt aktivieren möchtest.
+Es kann hilfreich sein, den Namen des hochgeladenen Savegame-Ordners zu kopieren, da du diesen im nächsten Schritt zum Aktivieren brauchst.
 :::
 
 ## Savegame aktivieren
 
-Um ein bestimmtes Savegame verwenden zu können, musst du eine Konfigurationsdatei bearbeiten. Es gibt mehrere Möglichkeiten, dies zu tun. Wir werden uns mit dem Webinterface befassen, da dies am benutzerfreundlichsten ist. Wenn du andere Methoden zur Bearbeitung der Datei suchst, schaue dir bitte unsere [Server-Konfiguration](vrising-configuration.md) an, in der dies beschrieben wird.
+Um ein bestimmtes Savegame zu nutzen, musst du eine Konfigurationsdatei anpassen. Es gibt verschiedene Wege, das zu machen – wir zeigen dir hier den einfachsten über das Webinterface. Wenn du andere Methoden sehen möchtest, schau in unsere [Server-Konfiguration](vrising-configuration.md) Anleitung.
 
-Gehe einfach im Webinterface deines Spieleservers in den Bereich **Einstellungen** und suche die Einstellung **Savenname**.
+Gehe im Webinterface deines Gameservers in den Bereich **Einstellungen** und suche die Einstellung **Savename**.
 
-Ändere diese Einstellung auf den Namen des Spielstandsordners, den du im vorherigen Schritt hochgeladen hast. Wenn du fertig bist, stelle sicher, dass du unten mit dem grünen Button **Speichern** speicherst und dann deinen Server neu startest.
+Ändere diesen Wert auf den Namen des Savegame-Ordners, den du im vorherigen Schritt hochgeladen hast. Speichere die Änderung unten mit dem grünen **Speichern** Button und starte dann deinen Server neu.
 
 <InlineVoucher />

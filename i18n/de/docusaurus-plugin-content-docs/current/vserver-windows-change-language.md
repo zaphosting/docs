@@ -1,8 +1,8 @@
 ---
 id: vserver-windows-change-language
-title: "vServer: Sprache auf Windows Server hinzufügen/ändern"
-description: Informationen darüber, wie du die Sprache deines Windows vServer von ZAP-Hosting ändern kannst und wie du Sprachen hinzufügst - ZAP-Hosting.com Dokumentation
-sidebar_label: Sprache hinzufügen/ändern
+title: "VPS: Sprachen auf Windows Server verwalten"
+description: "Entdecke, wie du die Spracheinstellungen deines Windows Servers anpasst für ein lokales Erlebnis und bessere Bedienbarkeit → Jetzt mehr erfahren"
+sidebar_label: Sprachen hinzufügen & verwalten
 services:
   - vserver
 ---
@@ -11,62 +11,62 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
 
-Das Windows-Betriebssystem ist in einer Vielzahl von Sprachen lokalisiert, so dass du problemlos deine Muttersprache verwenden kannst. In diesem Anleitung stellen wir dir die Methoden vor, mit denen du die Sprache deines Windows-Servers ändern kannst.
+Windows OS ist in vielen verschiedenen Sprachen lokalisiert, sodass du ganz einfach deine Muttersprache nutzen kannst. In dieser Anleitung zeigen wir dir, wie du die Sprache deines Windows Servers ändern kannst.
 
 :::info
-Bei der anfänglichen Serverkonfiguration kannst du zwischen der englischen und der deutschen Serverversion wählen, die bei der Auswahl der Betriebssystemversion durch die Tags **(EN)** und **(DE)** hervorgehoben werden.
+Während der ersten Serverkonfiguration kannst du zwischen einer englischen oder deutschen Serverversion wählen, die bei der OS-Auswahl mit den Tags **(EN)** und **(DE)** gekennzeichnet sind.
 :::
 
 <InlineVoucher />
 
-## Hinzufügen von Sprachpaketen
+## Sprachpakete hinzufügen
 
-Sprachpakete sind eine nützliche Funktion, die in Windows eingebaut ist und mit der du ganz einfach lokalisierte Sprachpakete auf deinem Server verwalten kannst.
+Sprachpakete sind eine praktische Funktion von Windows, mit der du lokalisierten Sprachpakete auf deinem Server einfach verwalten kannst.
 
-Verbinde dich zunächst über RDP mit deinem Windows-Server. Wenn du dabei Hilfe brauchst, sieh dir bitte unsere [Erstzugang (RDP)](vserver-windows-userdp.md) an.
+Verbinde dich zunächst per RDP mit deinem Windows Server. Falls du dabei Hilfe brauchst, schau dir unsere [Erstzugriff (RDP)](vserver-windows-userdp.md) Anleitung an.
 
-Sobald du verbunden bist, suche über die Windows-Suchleiste oder durch Drücken der Windows-Taste/des Windows-Symbols und die Suchleiste im Startmenü nach **Sprachen**.
+Sobald du verbunden bist, suche über die Windows-Suchleiste oder durch Drücken der Windows-Taste und Eingabe im Startmenü nach **Sprache**.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/Rf4inxAES3tBH8E/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/iwnxdwsYHPy9AMP/preview)
 
-Finde auf dieser Seite den Abschnitt Sprache und drücke auf den Button **Sprache hinzufügen**. 
+Auf dieser Seite findest du den Sprachbereich und klickst auf den Button **Sprache hinzufügen**.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/mbKyb4FiNZnYtDj/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/EJxNz66LPBDiE9J/preview)
 
-Suche im Menü nach der Sprache, die du installieren möchtest, und wähle sie aus, indem du auf **Next** drückst. Vergewissere dich auf der folgenden Seite, dass alle Optionen angekreuzt sind, einschließlich der Option **Als Windows-Anzeigesprache festlegen**, wenn du sie sofort aktivieren möchtest.
+Suche im Menü nach der Sprache, die du installieren möchtest, und wähle sie mit **Weiter** aus. Auf der nächsten Seite stelle sicher, dass alle Optionen angehakt sind, inklusive der Option **Als Windows-Anzeigesprache festlegen**, falls du die Sprache direkt aktivieren möchtest.
 
 :::important
-Um die Sprache im Windows-Betriebssystem selbst zu ändern, musst du sicherstellen, dass die ausgewählte Sprache die Funktion **Anzeigesprache** unterstützt.
+Um die Sprache systemweit in Windows zu ändern, stelle sicher, dass die ausgewählte Sprache die Funktion **Anzeigesprache** unterstützt.
 :::
 
 :::tip
-Wenn du im Feld **Anzeigesprache** keine Sprachen siehst, installiere bitte alle ausstehenden Windows-Updates über **Update & Sicherheit** in den Einstellungen, um diesen Fehler zu [beheben](https://learn.microsoft.com/en-us/troubleshoot/windows-server/shell-experience/cannot-configure-language-pack-windows-server-desktop-experience).
+Falls du keine Sprachen mit dem Feld **Anzeigesprache** siehst, installiere alle ausstehenden Windows-Updates über **Update & Sicherheit** in den Einstellungen. Das behebt diesen [Bug](https://learn.microsoft.com/en-us/troubleshoot/windows-server/shell-experience/cannot-configure-language-pack-windows-server-desktop-experience).
 :::
 
-![](https://screensaver01.zap-hosting.com/index.php/s/gdAjwb3Q4ofmsAr/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/ZENz49zaSmkLNER/preview)
 
-Windows beginnt nun mit dem Herunterladen des ausgewählten Sprachpakets. Bitte habe etwas Geduld, da dieser Vorgang einige Zeit in Anspruch nehmen kann.
+Windows beginnt nun mit dem Download des ausgewählten Sprachpakets. Bitte hab Geduld, das kann eine Weile dauern.
 
-Wenn du nach Abschluss des Downloads die Option **Als Windows-Anzeigesprache festlegen** nicht ausgewählt hast, gehe noch einmal auf die Seite mit den Sprachen und wähle sie im Dropdown-Menü aus.
+Nach dem Download, falls du die Option **Als Windows-Anzeigesprache festlegen** nicht ausgewählt hast, gehe zurück zur Sprachseite und wähle sie im Dropdown-Menü aus.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/5ggZyjBmENEzCgS/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/Ee3rMKzXTidr9Jk/preview)
 
-Starte schließlich deinen Server neu und die neue Sprache wird verwendet. Du hast erfolgreich Sprachpakete auf deinem Windows-Server verwaltet.
+Starte abschließend deinen Server neu und die neue Sprache wird verwendet. Du hast erfolgreich Sprachpakete auf deinem Windows Server verwaltet.
 
-## Server OS neu installieren
+## Neuinstallation des Server-Betriebssystems
 
-Wenn du Probleme mit dem Ändern der Sprachpakete hast oder dein Server noch ganz neu ist, kannst du deinen Windows-Server einfach über die verfügbaren Betriebssystemversionen auf Englisch oder Deutsch neu installieren.
+Wenn du Probleme hast, die Sprachpakete zu ändern oder dein Server noch ganz frisch ist, kannst du deinen Windows Server auch einfach in Englisch oder Deutsch über die verfügbaren OS-Versionen neu installieren.
 
 :::warning
-Die Neuinstallation des Betriebssystems ist ein zerstörerischer Prozess und **wird** alle Daten auf dem Server löschen. Stelle sicher, dass du alle wichtigen Daten sicherst, bevor du mit diesem Schritt fortfährst.
+Die Neuinstallation des OS ist ein destruktiver Prozess und **löscht** alle Daten auf dem Server. Sichere unbedingt wichtige Daten, bevor du diesen Schritt durchführst.
 :::
 
-Dazu gehst du in das Webinterface deines Servers und rufst den Bereich **Einstellungen** auf.
+Das machst du über das Webinterface deines Servers im Bereich **Einstellungen**.
 
-Auf dieser Seite kannst du zwischen **Windows (EN)** und **Windows (DE)** für die jeweilige Sprache wählen und dich für die Neuinstallation des Servers entscheiden.
+Hier kannst du zwischen **Windows (EN)** und **Windows (DE)** für die jeweilige Sprache wählen und die Neuinstallation starten.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/9b6njXx3PMdCG6s/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/gxw8pKDr8sBBTHQ/preview)
 
-Sobald du die Neuinstallation gestartet hast, sei bitte geduldig, da es einige Zeit (bis zu 30 Minuten) dauern kann, bis der Server den gesamten Prozess abgeschlossen hat.
+Nachdem du die Neuinstallation gestartet hast, hab bitte Geduld, da der Vorgang bis zu 30 Minuten dauern kann.
 
 <InlineVoucher />

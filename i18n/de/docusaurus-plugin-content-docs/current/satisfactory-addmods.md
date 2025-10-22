@@ -1,6 +1,7 @@
 ---
 id: satisfactory-addmods
 title: "Satisfactory: Mods installieren"
+description: "Entdecke, wie du Mods für Satisfactory-Server sicher verwaltest und installierst, während du dein Savegame schützt → Jetzt mehr erfahren"
 sidebar_label: Mods installieren
 services:
   - gameserver-satisfactory
@@ -9,113 +10,112 @@ services:
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
 :::danger
-**ACHTUNG**
+**WICHTIG**
 
-Mods sind zum aktuellen Zeitpunkt NICHT nutzbar!
+Mods funktionieren aktuell nicht!
 :::
 
 :::info
 **ACHTUNG**
 
-Mods sind von den Entwicklern bisher **nicht offiziell** unterstützt, sie werden jedoch geduldet!
+Mods werden **nicht offiziell** von den Entwicklern unterstützt, aber sie werden toleriert!
 
-Die Installation von Mods kann im schlimmsten Fall den Spielstand zerstören, durch ein Update temporär nicht mehr spielbar sein oder ebenfalls zerstört werden!
+Im schlimmsten Fall kann die Installation von Mods das Savegame zerstören, es durch ein Update temporär unspielbar machen oder ebenfalls zerstören!
 
-Es sollte **in jedem Fall vor** der Installation von Mods ein Backup angelegt werden und auch sonst regelmäßig Backups angelegt werden für den Fall der Fälle!
+Ein Backup sollte **auf jeden Fall vor** der Mod-Installation erstellt werden und Backups sollten auch regelmäßig zur Sicherheit angelegt werden!
 :::
 
 <InlineVoucher />
 
 ## Modded Satisfactory auf dem Server installieren
 
-Um Mods auf deinem Server überhaupt installieren zu können, muss zunächst ein Modded Satisfactory Server bestellt werden: https://zap-hosting.com/de/modded-satisfactory-server-mieten/
-Solltest du bereits einen Satisfactory Server gemietet haben, kann das Spiel jederzeit dank des Cloud-Systems, wie in [Spielwechsel](gameserver-gameswitch.md) beschrieben wird, geändert werden.
+Um überhaupt Mods auf deinem Server installieren zu können, musst du zuerst einen Modded Satisfactory Server bestellen: https://zap-hosting.com/en/satisfactory-server-hosting/
+Wenn du bereits einen Satisfactory-Server gemietet hast, kann das Spiel dank des Cloud-Systems jederzeit wie in der [Spielwechsel](gameserver-gameswitch.md) Anleitung beschrieben geändert werden.
 
 ## Mod-Manager installieren
 
-Das Tool "SatisfactoryModManager" gestaltet die Verwaltung und Installation von Mods sehr einfach und kann mit wenigen Klicks abgewickelt werden.
-Das Tool ist verfügbar für Windows und Linux und kann hier heruntergeladen werden: https://github.com/satisfactorymodding/SatisfactoryModManager/releases
+Das Tool „SatisfactoryModManager“ macht die Verwaltung und Installation von Mods super easy und geht mit nur wenigen Klicks.
+Das Tool ist für Windows und Linux verfügbar und kann hier heruntergeladen werden: https://github.com/satisfactorymodding/SatisfactoryModManager/releases
 
-Auf der verlinkten Seite werden alle Versionen aufgelistet, in der Regel sollte immer die neuste Version verwendet werden, also der erste Eintrag von oben.
-Unter "Assets" kann das Tool nun heruntergeladen werden. Je nachdem welches Betriebssystem (Windows oder Linux) du verwendest, klickst du die passende Datei an, wodurch der Download automatisch startet bzw. abhängig von deinem Browser oder gewählten Einstellungen bestätigt werden muss.
+Alle Versionen sind auf der verlinkten Seite gelistet; in der Regel sollte immer die neueste Version verwendet werden, also der erste Eintrag von oben.
+Das Tool kann jetzt unter „Assets“ heruntergeladen werden. Je nachdem, welches Betriebssystem (Windows oder Linux) du nutzt, klickst du auf die passende Datei, die den Download automatisch startet oder, je nach Browser oder Einstellungen, musst du ihn bestätigen.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/e7q5qCBP7D4ZL5g/preview)
 
-Wenn der Download abgeschlossen ist, führe die Datei aus und installiere den Mod-Manager auf deinem PC und wähle bei der Installation die für dich passenden Optionen aus.
+Wenn der Download abgeschlossen ist, starte die Datei und installiere den Mod-Manager auf deinem PC, wobei du während der Installation die Optionen auswählst, die dir passen.
 
 ## Mods installieren
 
-Es müssen 1:1 die gleichen Mods auf dem Client (von allen Spielern!) und dem Server installiert werden, damit die Verbindung möglich ist bzw. es zu keinem Crasht kommt.
-Im ersten Schritt werden die Mods auf dem Client zusammengestellt und installiert, sodass diese im Anschluss auf den Server übertragen werden können.
+Die gleichen Mods müssen 1:1 auf dem Client (von allen Spielern!) und auf dem Server installiert sein, damit die Verbindung klappt und keine Crashes auftreten.
+Im ersten Schritt werden die Mods auf dem Client kompiliert und installiert, damit sie anschließend auf den Server übertragen werden können.
 
 :::info
-**ACHTUNG**
+**WARNUNG**
 
 Nicht alle Mods sind mit dem Multiplayer kompatibel!
 
-Sofern die Mods mit dem Multiplayer kompatibel ist, wird dies in der Regel immer in der Beschreibung der Mod erwähnt.
+Wenn der Mod mit dem Multiplayer kompatibel ist, steht das normalerweise immer in der Mod-Beschreibung.
 
-Auch wenn die Mods als kompatibel für den Multiplayer ausgewiesen wird, ist dies keine Gewährleistung dessen!
+Hinweis: Auch wenn der Mod als multiplayer-kompatibel angegeben ist, ist das keine Garantie dafür!
 :::
 
 ### Client
 
-Die Mods werden in Profilen gespeichert, sodass als Beispiel in einer Test-Welt andere Mods getestet werden können und mit einem Klick zu den regulären Mods zurückgewechselt werden kann.
-Wähle also zuerst ein Profil aus bzw. erstelle wie im Screenshot dargestellt ein neues.
+Die Mods werden in Profilen gespeichert, damit z.B. andere Mods in einer Testwelt ausprobiert werden können und du mit einem Klick wieder zu den regulären Mods wechseln kannst.
+Wähle also zuerst ein Profil aus oder erstelle ein neues, wie im Screenshot gezeigt.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/EMFsKnrsowZAxJE/preview)
 
-Stelle den Filter zunächst auf "Compatible", damit nur Mods angezeigt werden, welche derzeit mit der Version kompatibel sind.
+Stelle zuerst den Filter auf „Compatible“, damit nur Mods angezeigt werden, die aktuell mit der Version kompatibel sind.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/jg82aG3ketFxesD/preview)
 
-Mods können nun einfach mit einem Klick auf das Download-Symbol installiert werden, wenn sichergestellt ist, dass die Mods mit dem Multiplayer kompatibel ist, wie oben beschrieben.
+Mods können jetzt einfach durch Klick auf das Download-Symbol installiert werden, wenn sichergestellt ist, dass der Mod mit dem Multiplayer kompatibel ist, wie oben beschrieben.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/CH2pBzS8iXxEpRz/preview)
 
 ### Server
 
-Nachdem alle gewünschten Mods auf dem Client installiert und sichergestellt worden ist, dass die Mods mit dem Multiplayer kompatibel ist, können die Mods nun auf dem Server installiert werden. 
-Damit es hierbei keine Probleme bei der Übernähe der Änderungen gibt, stelle bitte sicher, dass dein Server hierbei zuvor gestoppt wird!
+Nachdem alle gewünschten Mods auf dem Client installiert wurden und sichergestellt wurde, dass der Mod mit dem Multiplayer kompatibel ist, können die Mods jetzt auf dem Server installiert werden.
+Damit es keine Probleme beim Übertragen der Änderungen gibt, stelle bitte sicher, dass dein Server vorher gestoppt ist!
 
-Verbinde dich nun via FTP zu deinem Server, um die Mods im nächsten Schritt hochladen zu können.
-Wir haben in [Zugriff per FTP](gameserver-ftpaccess.md) alles zur FTP-Verbindung beschrieben.
-Nachdem die Verbindung hergestellt wurde, öffne den folgenden Ordner-Pfad: `/gXXXXXX/modded-satisfactory/FactoryGame/Mods`
+Verbinde dich jetzt per FTP mit deinem Server, um die Mods im nächsten Schritt hochladen zu können.
+Alles zur FTP-Verbindung haben wir in [Zugriff via FTP](gameserver-ftpaccess.md) beschrieben.
+Nachdem die Verbindung steht, öffne folgenden Ordnerpfad: `/gXXXX/modded-satisfactory/FactoryGame/Mods`
 
-Nun muss der lokale Ordner von Satisfactory bei dir auf dem PC geöffnet werden.
-Die Schritte unterscheiden sich zwischen Steam und Epic Games etwas:
+Jetzt musst du den lokalen Satisfactory-Ordner auf deinem PC öffnen.
+Die Schritte unterscheiden sich leicht zwischen Steam und Epic Games:
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
 <Tabs>
 
-<TabItem value="Steam" label="Steam">
-Sofern du Satisfactory via Steam installiert hast, dann kannst du den Ordner direkt über den Steam-Client öffnen lassen:
+<TabItem value="Steam" label="Steam" default>
+Wenn du Satisfactory über Steam installiert hast, kannst du den Ordner direkt über den Steam-Client öffnen:
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/ryEKHqEQFDBkkME/preview)
 
 </TabItem>
 <TabItem value="Epic Games" label="Epic Games">
-Bei Epic Games gibt es leider keinen Button, um den Installations-Ordner zu öffnen, der Ordner muss also manuell geöffnet werden.
-Öffne dazu den Windows Explorer und navigiere in den Ordner, wo Epic Games installiert wurde von dir.
-In der Regel ist dies der korrekte Pfad: `C:\Program Files\Epic Games\SatisfactoryEarlyAccess`
+Epic Games hat keinen Button, um den Installationsordner zu öffnen, daher muss der Ordner manuell geöffnet werden.
+Öffne dazu den Windows Explorer und navigiere zu dem Ordner, in dem du Epic Games installiert hast.
+Das ist normalerweise folgender Pfad: `C:\Program Files\Epic Games\SatisfactoryEarlyAccess`
 
 </TabItem>
 </Tabs>
 
-Die Mods, welche durch den Mod-Manager im Client installiert worden sind, müssen nun via FTP hochgeladen werden.
-Um an die Mods selbst zu können, müssen die folgenden Ordner nach einander geöffnet werden: `FactoryGame -> Mods`
+Die Mods, die auf dem Client vom Mod-Manager installiert wurden, müssen jetzt per FTP hochgeladen werden.
+Um an die Mods selbst zu kommen, müssen nacheinander folgende Ordner geöffnet werden: `FactoryGame -> Mods`.
 
-Nun markieren wir alle Ordner **außer den SML Ordner** mit gedrückter STRG-Taste und einem Mausklick auf den Ordner.
+Jetzt wählst du alle Ordner **außer dem SML-Ordner** aus, indem du die STRG-Taste gedrückt hältst und auf die Ordner klickst.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/jCNjLHiF3JRgB24/preview)
 
-Die ausgewählten Ordner werden jetzt mittels Drag & Drop in den zuvor geöffnet Mod-Ordner in FTP hineingezogen.
+Die ausgewählten Ordner werden jetzt per Drag & Drop in den zuvor geöffneten Mods-Ordner im FTP gezogen.
 
 ## Server starten
 
-Nachdem die Mods hochgeladen worden sind, kann der Server einfach via Webinterface gestartet werden.
-Danach kann dem Server wie in dieser [Zum Server binden](satisfactory-connect.md) beschrieben beigetreten werden 
+Nachdem die Mods hochgeladen wurden, kann der Server einfach über das Webinterface gestartet werden. Der Server sollte jetzt joinbar sein, wie du im [Mit Server verbinden](satisfactory-connect.md) Guide noch mehr erfahren kannst.
 
 <InlineVoucher />

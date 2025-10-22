@@ -1,8 +1,8 @@
 ---
 id: sunkenland-setup-server
-title: "Sunkenland: Sunkenland Server Einrichtung"
-description: Informationen zur Einrichtung deines Sunkenland Gameservers von ZAP-Hosting - ZAP-Hosting.com dokumentation
-sidebar_label: Server Einrichtung
+title: "Sunkenland: Sunkenland Server Setup"
+description: "Entdecke, wie du deinen Sunkenland Gameserver für flüssiges Gameplay und optimale Funktion einrichtest → Jetzt mehr erfahren"
+sidebar_label: Server Setup
 services:
   - gameserver-sunkenland
 ---
@@ -11,63 +11,55 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
 
-Sunkenland-Server erfordern eine Ersteinrichtung, damit der Server korrekt funktioniert. In dieser Anleitung werden wir die notwendigen Schritte zur Einrichtung deines Sunkenland Gameservers beschreiben.
+Sunkenland Server benötigen eine schnelle Erstkonfiguration, damit der Server korrekt funktioniert. In dieser Anleitung zeigen wir dir die notwendigen Schritte, um deinen Sunkenland Gameserver einzurichten.
 
 <InlineVoucher />
 
-## Voraussetzungen
+## Vorbereitung
+Bevor du loslegst, musst du Sunkenland starten und eine Welt speichern. Achte darauf, die Welt zu speichern, bevor du weitermachst.
 
-Bevor du fortfährst, musst du zuerst Sunkenland starten und eine Welt erstellen. Stellen sicher, dass du die Welt speicherst, bevor du fortfährst.
-
-Um später in der Anleitung auf deine Serverdateien zugreifen zu können, benötigst du außerdem einen FTP-Client wie [WinSCP](https://winscp.net/eng/index.php) oder [FileZilla](https://filezilla-project.org/), die beide Open-Source sind und kostenlos heruntergeladen werden können.
+Um später auf deine Serverdateien zugreifen zu können, benötigst du außerdem einen FTP-Client wie [WinSCP](https://winscp.net/eng/index.php) oder [FileZilla](https://filezilla-project.org/), die beide Open-Source und kostenlos sind.
 
 ## Zugriff auf deine lokalen Daten
+Der erste Schritt ist der Zugriff auf deine Sunkenland Savegame-Daten.
 
-Der erste Schritt besteht darin, auf deine Sunkenland-Savegame-Daten zuzugreifen.
-
-Drücke dazu die Tastenkombination `CTRL+R` auf deiner Tastatur und gib in der Windows-Ausführungsaufforderung folgendes ein:
+Drücke einfach `STRG+R` auf deiner Tastatur und gib folgendes in den Windows-Ausführen-Dialog ein:
 ```
 %localappdata%low\Vector3 Studio\Sunkenland\
 ```
 
-An diesem Ort wirst du einen Ordner `Worlds` sehen können, der alle deine lokalen Spielstände enthält. 
-
-Wähle den Ordner aus, den du auf dem Server hosten möchtest.
+An diesem Ort findest du einen Ordner namens `Worlds`, der alle deine lokalen Savegame-Dateien enthält. Wähle die Welt aus, die du auf dem Server hosten möchtest, oder falls neu, die Welt, die du vor dem Start dieser Anleitung erstellt hast.
 
 :::tip
-Siehst du hier nichts? Bitte stelle sicher, dass du Sunkenland startest und einen Spielstand erstellst, wodurch ein neuer Ordner erstellt werden sollte.
+Siehst du hier nichts? Starte bitte Sunkenland und erstelle eine Welt, damit der Ordner angelegt wird.
 :::
 
 ## Savegame hochladen
 Im nächsten Schritt verbindest du dich per FTP mit deinem Gameserver und lädst das Savegame hoch, das du im vorherigen Schritt ausgewählt hast.
 
-Verbinde dich zunächst über einen FTP-Client mit deinem Server, indem du die Zugangsdaten verwendest, die du unter **Tools->FTP-Broswer** im Webinterface deines Gameservers findest. 
+Verbinde dich mit deinem Server über einen FTP-Client mit den Zugangsdaten, die du im Webinterface deines Gameservers unter **Tools->FTP-Browser** findest. Nutze gerne unsere [Anleitung zum FTP-Zugang](gameserver-ftpaccess.md) für weitere Hilfe.
 
-Bitte benutze unsere [Zugriff per FTP](gameserver-ftpaccess.md) Anleitung als weitere Hilfe, um dich mit deinem Server zu verbinden.
+Sobald du verbunden bist, navigiere zum Sunkenland-Ordner, öffne den "AppData"-Ordner und dann den "Worlds"-Ordner. Lade hier das Savegame aus dem vorherigen Schritt hoch.
 
-Nach der Verbindung kannst du im Ordner "Sunkenland" den Ordner "AppData" und anschließend den Ordner "Worlds" öffnen, das Savegame aus dem vorherigen Schritt auswählen und es in diesen Ordner hochladen.
-
-Die Ordnerstruktur sollte nun wie folgt aussehen, wobei `Marvin's World~cef76ff5-447a-48df-b3a8-74b9ea5b7a86` dein eigenes Savegame ist.
+Die Ordnerstruktur sollte nun so aussehen, wobei `Marvin's World~cef76ff5-447a-48df-b3a8-74b9ea5b7a86` dein Savegame ist.
 ![](https://github.com/zaphosting/docs/assets/13604413/40aecc3b-4a8a-4477-8c09-d56ec412883e)
 
 :::important
-An dieser Stelle sollte die GUID kopiert werden, die am Ende des Namens der Spielwelt steht. 
+Kopiere dir jetzt die GUID, die am Ende des Welt-Namens steht. Diese brauchst du im nächsten Schritt, damit dein Server funktioniert.
 
-Diese wird im folgenden Schritt benötigt, um deinen Server funktionsfähig zu machen.
-
-Die GUID sieht wie folgt aus:
+Die GUID sieht so aus:
 ```
 ZAP-Hosting's World~cef76ff5-447a-48df-b3a8-74b9ea5b7a86 # Vollständiger Weltname
-cef76ff5-447a-48df-b3a8-74b9ea5b7a86 # Die benötigte GUID
+cef76ff5-447a-48df-b3a8-74b9ea5b7a86 # Die GUID, die du brauchst
 ```
 :::
 
 ## Server aktivieren
-Gehe schließlich zum Abschnitt **Einstellungen** im Webinterface deines Gameservers. 
+Zum Schluss gehst du im Webinterface deines Gameservers in den Bereich **Einstellungen**.
 
-Suche in diesem Abschnitt nach der Option **World GUID**. Trage in diesem Feld die GUID ein, die du am Ende des vorherigen Schrittes kopiert hast.
+Suche dort die Option **World GUID**. Füge in dieses Feld die GUID ein, die du im vorherigen Schritt kopiert hast.
 
-Vergesse nicht auf den grünen **Speichern** Button am unteren Rand der Seite zu drücken. Versuche nun, deinen Server zu starten, er sollte dann korrekt starten.
+Drücke unbedingt den grünen **Speichern**-Button unten auf der Seite. Versuche jetzt, deinen Server zu starten – er sollte nun korrekt hochfahren.
 
 Du hast deinen Sunkenland Gameserver erfolgreich eingerichtet.
 

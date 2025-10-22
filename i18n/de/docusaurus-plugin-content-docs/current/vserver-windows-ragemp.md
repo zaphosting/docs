@@ -1,7 +1,7 @@
 ---
 id: vserver-windows-ragemp
-title: "vServer: RageMP Dedicated Server Windows Einrichtung"
-description: Informationen zur Einrichtung eines dedizierten RageMP-Servers auf einem Windows vServer von ZAP-Hosting – ZAP-Hosting.com-Dokumentation
+title: "VPS: RageMP Dedicated Server Windows Setup"
+description: "Lerne, wie du den RageMP Dedicated Server auf deinem Windows VPS installierst und einrichtest für nahtloses Multiplayer-Gaming → Jetzt mehr erfahren"
 sidebar_label: RageMP
 services:
   - vserver
@@ -11,73 +11,73 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
 
-Hast du einen Windows vServer und möchtest den RageMP Dedicated Server Service darauf installieren? Dann bist du hier richtig. In diesem Anleitung erklären wir dir Schritt für Schritt, wie du diesen Service auf deinem Server installierst.
+Du hast einen Windows VPS und möchtest den RageMP Dedicated Server darauf installieren? Dann bist du hier genau richtig. In dieser Anleitung erklären wir dir Schritt für Schritt, wie du diesen Service auf deinem Server einrichtest.
 
 <InlineVoucher />
 
 ## Vorbereitung
 
-Stelle zunächst über Remote Desktop (RDP) eine Verbindung zu deinem vServer her. Verwende unseren Anleitung [Erstzugang (RDP)](vserver-windows-userdp.md), wenn du dabei Hilfe benötigst.
+Verbinde dich zunächst per Remote Desktop (RDP) mit deinem VPS. Falls du dabei Hilfe brauchst, nutze unsere [Erstzugang (RDP)](vserver-windows-userdp.md) Anleitung.
 
-Sobald du auf deinen Server zugegriffen hast, beginne mit der Installation von [Microsoft Visual C++ Redistributable 2017](https://aka.ms/vs/15/release/VC_redist.x64.exe), da dies eine Voraussetzung für RageMP ist. Stelle sicher, dass dies installiert ist, bevor du fortfährst. Wenn du dir nicht sicher bist, ob du es bereits installiert hast, führe das Installationsprogramm aus und es wird dir während des Setups mitgeteilt.
+Sobald du Zugriff auf deinen Server hast, installiere zuerst das [Microsoft Visual C++ Redistributable 2017](https://aka.ms/vs/15/release/VC_redist.x64.exe), da dies eine Voraussetzung für RageMP ist. Stelle sicher, dass es installiert ist, bevor du weitermachst. Falls du unsicher bist, ob es schon installiert ist, starte einfach den Installer – er sagt dir während der Installation Bescheid.
 
-Sobald du die Abhängigkeit installiert hast, lade die neueste Serverversion von der [RageMP-Website](https://cdn.rage.mp/public/files/RAGEMultiplayer_Setup.exe) herunter.
+Nachdem die Abhängigkeit installiert ist, lade die neueste Server-Version von der [RageMP Webseite](https://cdn.rage.mp/public/files/RAGEMultiplayer_Setup.exe) herunter.
 
 :::tip
-Wenn du RageMP bereits installiert hast, kannst du mit dem Unterabschnitt **Wechsel zum Serverzweig** fortfahren. Du musst RageMP nicht erneut installieren.
+Falls du RageMP schon installiert hast, kannst du direkt zum Abschnitt **Wechsel zum Server-Branch** springen. Eine Neuinstallation ist nicht nötig.
 :::
 
 ## Installation
 
-Sobald die Version heruntergeladen wurde, führe die ausführbare Datei **RAGEMultiplayer_Setup.exe** aus und fahre mit den Installationsschritten fort. Du kannst den Installationspfad während des Setups anpassen, was wir empfehlen.
+Nachdem du die Version heruntergeladen hast, starte die **RAGEMultiplayer_Setup.exe** und folge den Installationsschritten. Du kannst während der Installation den Installationspfad anpassen, was wir dir empfehlen.
 
-Nachdem RageMP installiert wurde, starte die **RAGE Multiplayer**-App, die nun in deinen Windows-Apps verfügbar sein sollte.
+Mit installiertem RageMP öffne die **RAGE Multiplayer** App, die jetzt in deinen Windows-Apps verfügbar sein sollte.
 
-Beim ersten Start musst du den Pfad zu deinem GTA:V-Spielinstallationsordner festlegen. Das Installationsverzeichnis hängt von dem Launcher ab, über den du das Spiel installiert hast, und befindet sich standardmäßig unter `C:/Program Files` oder `C:/Program Files (x86)`.
+Beim ersten Start wirst du aufgefordert, den Pfad zu deinem GTA:V Installationsordner anzugeben. Der Installationsordner hängt vom Launcher ab, mit dem du das Spiel installiert hast, und befindet sich standardmäßig unter `C:/Program Files` oder `C:/Program Files (x86)`.
 
-Du musst nun den Zweig anpassen, um die Serverdateien herunterzuladen.
+Jetzt musst du den Branch anpassen, um die Server-Dateien herunterzuladen.
 
-### Wechsel zum Serverzweig
+### Wechsel zum Server-Branch
 
-Navigiere zu dem Verzeichnis, in dem RageMP installiert wurde. Suche die **config.xml**-Datei in diesem Ordner. Passe den `channel`-Parameter von `prerelease` zu `prerelease_server` an und speichere die Datei.
+Wechsle in das Verzeichnis, in das RageMP installiert wurde. Suche die Datei **config.xml** in diesem Ordner. Ändere den `channel`-Parameter von `prerelease` auf `prerelease_server` und speichere die Datei.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/zbZfQCdnjjqmdbs/preview)
 
-Führe nun die ausführbare Datei `updater.exe` aus, die die erforderlichen Serverdateien basierend auf der Änderung des Zweigs herunterlädt. Du wirst einen neuen Ordner `server-files` in deinem RageMP-Verzeichnis bemerken, den du benötigst.
+Starte nun die **updater.exe**, die die nötigen Server-Dateien basierend auf dem Branch-Wechsel herunterlädt. Du wirst einen neuen Ordner **server-files** in deinem RageMP-Verzeichnis sehen – genau den brauchst du.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/FpK5GdwnHMRRkfD/preview)
 
-Du kannst jetzt den Parameter `channel` wieder auf `prerelease` zurücksetzen und die Datei **update.exe** erneut ausführen, um wieder auf die Client-Version umzuschalten, damit du wieder spielen kannst.
+Du kannst den `channel`-Parameter wieder auf `prerelease` zurücksetzen und die **update.exe** erneut starten, um wieder zur Client-Version zu wechseln und normal spielen zu können.
 
 :::tip
-Du kannst die Serverdateien verschieben und den Ordner beliebig umbenennen, z. B. auf deinen Desktop. Du musst dies nicht innerhalb des Ordners `RAGEMP` ausführen.
+Du kannst die Server-Dateien verschieben und den Ordner beliebig umbenennen, z.B. auf deinen Desktop. Es ist nicht nötig, dass sie im `RAGEMP`-Ordner bleiben.
 :::
 
-Um den Server zu starten, führe einfach **ragemp-server.exe** aus, das sich im Verzeichnis `server-files` oder in deinem Serverordner befindet, und der Server wird gestartet. Wir empfehlen jedoch, zuerst die Portweiterleitung und die Konfiguration deines Servers vorzunehmen.
+Um den Server zu starten, führe einfach **ragemp-server.exe** im `server-files`-Verzeichnis oder deinem Server-Ordner aus – der Server bootet dann. Wir empfehlen aber, vorher noch das Port-Forwarding einzurichten und den Server zu konfigurieren.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/AiJWmSjsjw7bMYX/preview)
 
-### Portweiterleitung deines Servers
+### Port-Forwarding für deinen Server
 
-Um sicherzustellen, dass dein Server für die Öffentlichkeit zugänglich ist, musst du die Portweiterleitungsregeln für die Ports ändern, die der dedizierte Serverprozess verwendet. Dies kann entweder direkt über PowerShell-Befehle erfolgen, was einfacher ist, oder regelmäßig über die Windows Defender Firewall-Seite.
+Damit dein Server öffentlich erreichbar ist, musst du Port-Forwarding für die Ports einrichten, die der Dedicated Server nutzt. Das kannst du entweder direkt über PowerShell-Befehle machen, was einfacher ist, oder klassisch über die Windows Defender Firewall.
 
 :::tip
-Beim ersten Start des Servers sollte eine UAC-Eingabeaufforderung angezeigt werden. Wenn du diese akzeptierst, werden deine Firewall-Regeln automatisch eingerichtet, sodass du mit dem nächsten Abschnitt fortfahren kannst. Andernfalls folge einer der folgenden Methoden.
+Beim ersten Start des Servers erscheint eine UAC-Abfrage. Wenn du diese bestätigst, werden die Firewall-Regeln automatisch gesetzt und du kannst direkt zum nächsten Abschnitt springen. Falls nicht, folge einer der Methoden unten.
 :::
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
 <Tabs>
-<TabItem value="powershell" label="Via Powershell" default>
+<TabItem value="powershell" label="Via PowerShell" default>
 
-Öffne das Windows-Suchfeld und suche nach **PowerShell**. Klicke mit der rechten Maustaste und **Führe als Administrator aus**, damit die Berechtigungen zugänglich sind und alles korrekt funktioniert.
+Öffne die Windows-Suche und suche nach **PowerShell**. Klicke mit Rechts und wähle **Als Administrator ausführen**, damit du die nötigen Rechte hast und alles reibungslos funktioniert.
 
 :::info
-Stelle sicher, dass du PowerShell im Administratormodus ausführst, da die Einstellungen sonst möglicherweise nicht korrekt angewendet werden.
+Achte darauf, PowerShell im Administrator-Modus zu starten, sonst werden die Einstellungen nicht korrekt übernommen.
 :::
 
-Kopiere als Nächstes die folgenden Befehle und füge sie in deine PowerShell-Eingabeaufforderung ein:
+Füge dann folgende Befehle in die PowerShell ein und führe sie aus:
 
 ```
 New-NetFirewallRule -DisplayName "RageMP Server" -Direction Inbound -LocalPort 22005  -Protocol TCP -Action Allow
@@ -86,37 +86,37 @@ New-NetFirewallRule -DisplayName "RageMP Server" -Direction Outbound -LocalPort 
 New-NetFirewallRule -DisplayName "RageMP Server" -Direction Outbound -LocalPort 22005 -Protocol UDP -Action Allow
 ```
 
-Diese Befehle erstellen automatisch Firewallregeln, die erforderlich sind, damit dein RageMP-Server für die Öffentlichkeit zugänglich ist.
+Diese Befehle erstellen automatisch die Firewall-Regeln, die dein RageMP Server braucht, um öffentlich erreichbar zu sein.
 
 </TabItem>
 
 <TabItem value="windefender" label="Via Windows Defender">
 
-Verwende die Suchfunktion von Windows, um die **Windows-Firewall-Einstellungen mit erweiterter Sicherheit** zu öffnen. Möglicherweise musst du auf **Erweiterte Einstellungen** klicken, um das erforderliche Fenster zu öffnen, wenn du die Basis-Seite der Windows-Firewall öffnest.
+Öffne über die Windows-Suche die **Windows-Firewall mit erweiterter Sicherheit**. Falls du nur die Basis-Firewall-Seite siehst, klicke auf **Erweiterte Einstellungen**, um das richtige Fenster zu öffnen.
 
 ![image](https://github.com/zaphosting/docs/assets/42719082/5fb9f943-7e51-4d8f-9df4-2f5ff60857d3)
 
-Du musst neue Regeln für deinen RageMP-Server erstellen. Klicke dazu auf die eingehenden und ausgehenden Regeln, wie unten beschrieben, und füge sie für die folgenden Protokolle und Ports hinzu:
+Erstelle neue Regeln für deinen RageMP Server. Klicke dazu auf eingehende und ausgehende Regeln und füge folgende Protokolle und Ports hinzu:
 
 - TCP eingehend und ausgehend: 22005
 - UDP eingehend und ausgehend: 22005
 
-Bitte verwende unsere [Portweiterleitung (Firewall)](vserver-windows-port.md), wenn du weitere Hilfe dabei benötigst.
+Falls du weitere Hilfe brauchst, schau dir unsere [Port-Forwarding (Firewall)](vserver-windows-port.md) Anleitung an.
 
 </TabItem>
 </Tabs>
 
-Sobald du diese Regeln hinzugefügt hast, ist dein Server nun zugänglich, was bedeutet, dass du dich über die IP-Adresse deines Servers mit ihm verbinden kannst.
+Nachdem du die Regeln hinzugefügt hast, ist dein Server öffentlich erreichbar und du kannst dich über die IP-Adresse deines Servers verbinden.
 
-Wir empfehlen, dass du deine Servereinstellungen zuerst über den folgenden Abschnitt konfigurierst, bevor du auf deinen Server zugreifst.
+Wir empfehlen dir, zuerst die Server-Einstellungen zu konfigurieren, bevor du dich verbindest.
 
 ## Konfiguration
 
-Zu diesem Zeitpunkt hast du die Einrichtung deines RageMP-Servers abgeschlossen. Du kannst weitere Serverkonfigurationen über eine Konfigurationsdatei vornehmen.
+Bis hierhin hast du die Grundinstallation deines RageMP Servers abgeschlossen. Weitere Einstellungen kannst du über eine Konfigurationsdatei vornehmen.
 
-Navigiere zurück zum Stammordner. Suche und öffne die **conf.json**-Konfigurationsdatei. In dieser Datei kannst du einige Serverparameter anpassen, die vom Port bis zum Servernamen reichen.
+Wechsle zurück in den Root-Ordner. Öffne die Datei **conf.json**. Hier kannst du verschiedene Server-Parameter anpassen, z.B. Port, Servername und mehr.
 
-Als Beispiel sind hier einige Konfigurationsoptionen aufgeführt, die festgelegt sind:
+Ein Beispiel für ein paar Einstellungen:
 
 ```
 "maxplayers" : 100,
@@ -124,14 +124,14 @@ Als Beispiel sind hier einige Konfigurationsoptionen aufgeführt, die festgelegt
 "gamemode" : "freeroam",
 ```
 
-## Starten und Verbinden mit deinem Server
+## Server starten & verbinden
 
-Jetzt ist es an der Zeit, deinen Server zu starten. Gehe zum Verzeichnis `server-files` oder zu deinem Serverordner und führe **ragemp-server.exe** aus, um den Startvorgang zu starten. Dadurch wird die Serverkonsole in einer Eingabeaufforderung geöffnet und der Startvorgang beginnt.
+Jetzt kannst du deinen Server starten. Gehe in den `server-files` Ordner oder deinen Server-Ordner und starte **ragemp-server.exe**. Das öffnet die Server-Konsole im Command Prompt und startet den Server.
 
-Du kannst dich jetzt über den RageMP-Launcher direkt mit deinem Server im Spiel verbinden.
+Im RageMP Launcher kannst du dich jetzt direkt mit deinem Server verbinden.
 
-## Abschluss
+## Fazit
 
-Herzlichen Glückwunsch, du hast den RageMP-Server erfolgreich auf deinem vServer installiert und konfiguriert! Bei weiteren Fragen oder Problemen wende dich bitte an unser Support-Team, das dir täglich zur Verfügung steht!
+Glückwunsch, du hast den RageMP Server erfolgreich auf deinem VPS installiert und konfiguriert! Falls du noch Fragen oder Probleme hast, steht dir unser Support-Team täglich zur Verfügung und hilft dir gerne weiter!
 
 <InlineVoucher />

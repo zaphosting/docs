@@ -1,7 +1,7 @@
 ---
 id: account-usermanagement
-title: "Benutzerverwaltung: Server von mehreren Nutzern verwalten lassen"
-description: Informationen zur Benutzerverwaltung - Gebe anderen Nutzern ausgewählten Zugriff auf die Verwaltung deines Server - ZAP-Hosting.com Dokumentation
+title: "Benutzerverwaltung: Mehrere Nutzer können deine Server bei ZAP-Hosting verwalten"
+description: "Entdecke, wie du Sub-User mit kontrolliertem Zugriff auf deine Services sicher verwaltest – für bessere Zusammenarbeit und mehr Sicherheit → Jetzt mehr erfahren"
 sidebar_label: Benutzerverwaltung
 ---
 
@@ -9,74 +9,67 @@ sidebar_label: Benutzerverwaltung
 
 ## Einführung
 
-Die Benutzerverwaltung ermöglicht die Erstellung von Unterbenutzern. Somit hast du die Möglichkeit zum Beispiel Freunden Zugriff auf deine Dienste zu geben. Der Vorteil an diesem System ist es, dass du deinen Freunden über diesen Weg nicht Zugang zu deinem Haupt-Account geben musst. Zudem ist es möglich, den Zugriff einzuschränken. 
+Die Benutzerverwaltung ermöglicht das Anlegen von Sub-Usern. So kannst du deinen Freunden Zugriff auf deine Services geben. Der Vorteil dieser Funktion ist, dass du deinen Freunden keinen Zugriff auf deinen Hauptaccount geben musst. Außerdem kannst du den Zugriff genau steuern.
 
 
 
-## Konfiguration der Benutzerverwaltung
+## Benutzerverwaltung konfigurieren
 
-Die Benutzerverwaltung findest du, indem du auf den Pfeil rechts neben deinem Avatar klickst und dort im Anschluss auf den Unterpunkt **Benutzerverwaltung** gehst.
+Die Benutzerverwaltung findest du, indem du auf den Pfeil rechts neben deinem Avatar klickst und zum Unterpunkt **Benutzerverwaltung** navigierst.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/Dxz2RcD2C6epcmm/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/FDznDDKTQFydDTZ/preview)
 
+### Schritt 1 – Benutzergruppe erstellen
 
-
-### Schritt 1 - Benutzergruppe anlegen
-
-Zunächst muss eine Benutzergruppe angelegt werden, damit im Anschluss die Unterbenutzer der Gruppe zugewiesen und angelegt werden können. Beim Erstellen der Gruppe können dann die Berechtigungen vorgenommen werden. Die Optionen beinhalten folgende Berechtigungen:
+Zuerst musst du eine Benutzergruppe erstellen, um Sub-User anlegen und der Gruppe zuweisen zu können. Die Berechtigungen kannst du direkt bei der Erstellung der Gruppe festlegen. Folgende Berechtigungsoptionen stehen zur Verfügung:
 
 - Allgemein
 
-  - Profil, Support, Bestellungen tätigen, Angebote, Rechnungen, Gutschriften, Affiliate, Konto, Bestellungen einsehen, Paketverwaltung, Briefe, Mahnungen, Userverwaltung,
+  - Profil, Support, Bestellung, Angebote, Rechnungen, Rückerstattungen, Affiliate, Account, Bestellungen anzeigen, Paketverwaltung, Briefe, Mahnungen, Benutzerverwaltung
 
 - Gameserver
 
-  - Übersicht, Starteinstellungen, Plugins, Backups, Update, Spiel wechseln, Configs, Datenbanken, FTP-Browser / Account, Konsole
+  - Übersicht, Starteinstellungen, Plugins, Backups, Updates, Spiel wechseln, Konfigurationen, Datenbanken, FTP-Browser / Account, Konsole
 
-- vServer
+- VPS
 
-  - Übersicht, Einstellungen, VNC-Konsole, Zugangsdaten
+  - Übersicht, Einstellungen, Serielle Konsole, Benutzerzugangsdaten
 
 - Domain
 
-  - Übersicht, DNS Verwaltung, Handle Verwaltung
+  - Übersicht, DNS-Verwaltung, Handle-Verwaltung
 
   
 
-![](https://screensaver01.zap-hosting.com/index.php/s/LxtGMfmpqBrdWjC/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/ftmqBwzJRxN7mGy/preview)
 
-![](https://screensaver01.zap-hosting.com/index.php/s/xTyyCMF7zYcao5P/preview)
-
-  
-
-Über den **Gruppe anlegen** Button kann die Gruppe mit den gewünschten Berechtigungen angelegt werden. Sobald der Name der Gruppe und die Berechtigungen eingestellt wurden, kann der Unterbenutzer hinzugefügt werden.
-
-
-
-### Schritt 2 -  Benutzer anlegen
-
-Mit der erfolgreichen Erstellung und Konfiguration der Benutzergruppe kann nun mit dem Anlegen des Benutzers fortgefahren werden. Klicke dazu auf den grünen Plus Button. 
+![](https://screensaver01.zap-hosting.com/index.php/s/NecYPr3ZqrdpPp5/preview)
 
   
 
-![](https://screensaver01.zap-hosting.com/index.php/s/eiibGfGz5wCNE9T/preview)
+Mit dem Button **Gruppe erstellen** kannst du die Gruppe mit den gewünschten Berechtigungen anlegen. Sobald der Gruppenname und die Berechtigungen festgelegt sind, kannst du den Sub-User hinzufügen.
+
+
+
+### Schritt 2 – Benutzer erstellen
+
+Nachdem die Benutzergruppe erfolgreich erstellt und konfiguriert wurde, kannst du mit der Erstellung des Users weitermachen. Klicke dafür auf den grünen Plus-Button.
+
+
+![](https://screensaver01.zap-hosting.com/index.php/s/LzG9rRjYb28y5cM/preview)
+
+
+
+
+
+Es öffnet sich ein Popup-Fenster, in dem der User konfiguriert und erstellt wird. Hier wird die gewünschte Gruppe zugewiesen, der Benutzername, die E-Mail-Adresse und das Passwort definiert.
+
+![](https://screensaver01.zap-hosting.com/index.php/s/XGK2BL6L3WQjWRF/preview)
 
   
 
-
-
-
-
-Es öffnet sich jetzt ein Popup-Fenster, wo der Benutzer konfiguriert und angelegt wird. Hierbei wird die gewünschte Gruppe zugewiesen, der Benutzername, E-Mail-Adresse und Passwort definiert.
-
-![](https://screensaver01.zap-hosting.com/index.php/s/D7SZz76dTpTdGYX/preview)
-
-
-
-:::caution
- Es muss eine E-Mail-Adresse angegeben werden, welche noch nicht für die Registrierung eines ZAP-Hosting Accounts benutzt wurde. 
+:::caution Eine E-Mail-Adresse wird benötigt, die noch nicht für die Registrierung eines ZAP-Hosting Accounts verwendet wurde.
 :::
 
 
-
-Daraufhin wird vom System ein Benutzeraccount angelegt und die Zugangsdaten per E-Mail verschickt. Mit diesen Zugangsdaten kann der Unterbenutzer sich dann einloggen und mit den entsprechenden Berechtigungen die Dienste verwalten. 
+Das System erstellt dann einen Benutzeraccount und sendet die Zugangsdaten per E-Mail. Mit diesen Account-Daten kann sich der Sub-User dann einloggen und die Services mit den entsprechenden Berechtigungen verwalten. 

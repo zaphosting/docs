@@ -1,10 +1,10 @@
 ---
 id: beammp-mods
 title: "BeamMP: Mods installieren"
-description: Information, wie du Mods auf deinem BeamMP Server von ZAP-Hosting installieren kannst - ZAP-Hosting.com Dokumentation
+description: "Entdecke, wie du BeamMP Mods nutzen kannst, um dein Gameplay mit automatischen Downloads zu verbessern → Jetzt mehr erfahren"
 sidebar_label: Mods installieren
 services:
-  - gameserver-beammp
+  - gameserver-bob-beammp
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';
@@ -12,24 +12,24 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 <InlineVoucher />
 
 ## Wo bekomme ich Mods her?
-Da BeamMP auf BeamNG basiert, funktionieren also die Mods davon auch auf deinem BeamMP-Server
-Es gibt verschiedene Orte wo Mods gefunden werden können, die offizielle Ressourcenseite findest du bei beamng.com/resources
+Da BeamMP auf BeamNG basiert, kannst du natürlich auch die BeamNG Mods verwenden.  
+Es gibt verschiedene Seiten, von denen du Mods herunterladen kannst. Die offizielle findest du auf beamng.com/resources
 
-## Hochladen der Daten
-Wir müssen uns zuerst per FTP auf den BeamMP-Server verbinden. Die Zugangsdaten zu deiner FTP-Verbindung findest du im FTP-Browser in deinem ZAP Interface.
+## Daten hochladen
+Zuerst musst du dich per FTP mit deinem BeamMP-Gameserver verbinden. Die Zugangsdaten findest du im "FTP-Browser" in deinem ZAP Interface.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/PxGfR37aRyPGQ4c/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/98Yz5M7K6YDP9Fd/preview)
 
-Verbinde dich mit einem FTP Programm deiner Wahl und öffne das Verzeichnis
+Verbinde dich mit einem FTP-Programm deiner Wahl und öffne das Verzeichnis
 
 ```
 /g*****/beammp/Resources/Client/
 ```
 
-Dort musst du die .zip Datei der Mod hochladen.
+Lade dort die .zip-Datei deines Mods hoch.
 
 :::info
-Nach einem Serverneustart steht dein Mod nun zur Verfügung und wird automatisch heruntergeladen
+Nach einem Server-Neustart ist der Mod verfügbar und wird automatisch auf deinen Client heruntergeladen.
 :::
 
 <InlineVoucher />

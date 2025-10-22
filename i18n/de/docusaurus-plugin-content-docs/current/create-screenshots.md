@@ -1,65 +1,63 @@
 ---
 id: create-screenshots
-title: Wie und mit welchem Tool Screenshots erstellen
-description: Informationen, wie du Screenshots aufnehmen kannst und welche Tools empfehlenswert sind - ZAP-Hosting.com Dokumentation
+title: Wie und mit welchem Tool man Screenshots erstellt
+description: "Lerne, wie du Screenshots sicher erstellst und teilst – mit beliebten Tools für besseren Support → Jetzt mehr erfahren"
 sidebar_label: Screenshots erstellen
 ---
 
 ## Screenshots erstellen
 
-Es ist in manchen Fällen notwendig Screenshots an den Support zu übermitteln.
-Damit dies möglich ist, muss der/die Screenshot/Screenshots über einen Link geteilt werden. 
-Dieser Link kann ein Link zu einer eigenen Cloud oder zu einem "Web-Uploader" sein, auch Webscreenshot Tools genannt. 
+Manchmal ist es nötig, Screenshots an den Support zu schicken.  
+Damit das klappt, müssen die Screenshots per Link geteilt werden.  
+Dieser Link kann zu einer eigenen Cloud oder zu einem „Web Uploader“ führen, auch Web-Screenshot-Tools genannt.
 
-Sofern die eigene Cloud oder das Webscreenshot Tool keine Funktion bietet, um direkt einen Screenshot zu erstellen, kann dieser in der Regel mit einfachen Mitteil auf dem PC erstellt werden. 
-Unter Windows reicht es aus, das Tool "Snipping-Tool" zu nutzen. Mit diesem Tool kann ein Screenshot lokal gespeichert werden, dieser kann anschließen hochgeladen werden. 
-Unter Linux kann das meist bereits installierte Tool "Screenshots" oder andere Tools wie "FlameShot" genutzt werden, um lokale Screenshots zu erstellen, die dann anschließend hochgeladen werden können.
+Wenn deine eigene Cloud oder das Web-Screenshot-Tool keine direkte Screenshot-Funktion bietet, kannst du den Screenshot meist mit einfachen Tools auf dem PC erstellen.  
+Unter Windows reicht das Tool „Snipping Tool“. Damit kannst du den Screenshot lokal speichern und dann hochladen.  
+Unter Linux kannst du das meist vorinstallierte Tool „Screenshots“ oder andere Tools wie „FlameShot“ nutzen, um lokale Screenshots zu erstellen, die du dann hochladen kannst.
 
-
-Nachfolgend werden die 2 bekanntesten Screenshot Tools kurz erläutert, die frei auf dem Markt verfügbar sind:
+Hier eine kurze Beschreibung der 2 beliebtesten, frei verfügbaren Screenshot-Tools:
 
 :::info
-Es wird davon abgeraten, private oder sensible Daten öffentlich preiszugeben. Sollten Daten auf dem Screenshot zu sehen sein, so sollten diese auf jeden Fall unkenntlich gemacht oder durch Beispieldaten ersetzt werden.
+Es wird nicht empfohlen, private oder sensible Daten öffentlich zu teilen. Wenn Daten auf dem Screenshot sichtbar sind, sollten sie unkenntlich gemacht oder durch Beispiel-Daten ersetzt werden.
 :::
 
 
 ### Imgur
 
-Imgur bieten einen Uploader für eigene Dateien wie Bilder/Videos an. 
-Nachdem der Upload erfolgt ist, wird ein Link erstellt. 
-Dieser kann dann mit anderen geteilt werden. 
+Imgur bietet einen Uploader für eigene Dateien wie Bilder/Videos.  
+Nach dem Upload wird ein Link erstellt, den du dann teilen kannst.
 
-Wichtig: Da es keine Screenshot-Funktion dort gibt, muss der Screenshot bereits vorher angefertigt werden, damit er anschließend hochgeladen werden kann (siehe weiter oben unter "Screenshots erstellen").
+Wichtig: Da Imgur keine Screenshot-Funktion hat, musst du den Screenshot vorher erstellen, um ihn danach hochladen zu können (siehe oben unter „Screenshots erstellen“).
 
-[Imgur-Webseite](https://imgur.com/upload)
+[Imgur-Website](https://imgur.com/upload)
 
-Upload Option:
+Upload-Option:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/PKjf8zoDBn6WezQ/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/4sCEeKkyGEm3EXd/preview)
 
-Nachdem der Screenshot hochgeladen wurde, können noch kleine Bearbeitungen vorgenommen werden
+Nach dem Upload kannst du noch kleine Bearbeitungen vornehmen.
 
-Anschließend kann der Screenshot als Post zur Community (wird öffentlich gelistet) oder als versteckt (wird nicht öffentlich gelistet) gepostet werden. 
+Danach kannst du den Screenshot als Post in der Community veröffentlichen (wird öffentlich gelistet) oder als „Hidden“ speichern (wird nicht öffentlich gelistet).
 
-Ist dies erfolgt, wird der Link angezeigt, der zum Teilen genutzt werden kann:
+Sobald das erledigt ist, wird dir der Link angezeigt, den du zum Teilen nutzen kannst:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/b35tzZWrk3nCqok/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/dJCpsKtka9rHX6T/preview)
 
 ### Lightshot
 
-Lightshot bieten keinen direkten Upload für Bilder/Screenshots an. Der Upload kann nur über den eigenen Client erfolgen. 
-Der Client kann direkt auf der Webseite bezogen werden und bietet zu dem noch ein paar Tools an um auf dem Screenshot etwas zu markieren/zeigen oder unkenntlich zu machen. 
+Lightshot bietet keinen direkten Upload für Bilder/Screenshots an. Der Upload funktioniert nur über den eigenen Client.  
+Den Client kannst du direkt von der Website herunterladen. Er bietet auch ein paar Tools, um auf dem Screenshot etwas zu markieren, hervorzuheben oder unkenntlich zu machen.
 
-Download des Clients [Download](https://app.prntscr.com/en/)
-Wichtig: Eine Version für Linux wird nicht angeboten. 
+Client herunterladen: [Download](https://app.prntscr.com/en/)  
+Wichtig: Eine Version für Linux gibt es nicht.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/K4645EBtz8meeyE/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/iGEccwZZDXqLGKp/preview)
 
-Nach dem Download kann der Client installiert werden. 
-Anschließend kann standardmäßig mit der Taste "Druck" ein Screenshot erstellt werden bzw. ein Bereich ausgewählt werden. 
+Nach dem Download kannst du den Client installieren.  
+Standardmäßig kannst du dann mit der „Print“-Taste einen Screenshot erstellen oder einen Bereich auswählen.
 
-Nachdem der Bereich ausgewählt wurde, kann der Screenshot noch bearbeitet werden. 
+Nach der Auswahl kannst du den Screenshot noch bearbeiten.
 
-Ist die Bearbeitung, sofern nötig abgeschlossen, wird der Screenshot mit Klick auf die "Wolke" hochgeladen. 
+Wenn du fertig bist, kannst du den Screenshot per Klick auf die „Cloud“ hochladen.
 
-Nach dem Upload kann der Link kopiert und mit anderen geteilt werden.
+Nach dem Upload kannst du den Link kopieren und mit anderen teilen.

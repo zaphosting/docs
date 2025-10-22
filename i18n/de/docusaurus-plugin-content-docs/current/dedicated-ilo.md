@@ -1,7 +1,7 @@
 ---
 id: dedicated-ilo
 title: "Dedicated Server: iLO"
-description: Informationen, über die ILO Verwaltung für deinen Dedicated Server von ZAP-Hosting - ZAP-Hosting.com Dokumentation
+description: "Entdecke, wie du deinen Enterprise Dedicated Server mit iLO komplett verwaltest für nahtlose Kontrolle und Überwachung → Jetzt mehr erfahren"
 sidebar_label: iLO
 services:
   - dedicated
@@ -10,164 +10,166 @@ services:
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
-Auf unseren Enterprise Dedicated Servern wird die Verwaltungsoberfläche iLO eingesetzt, sie ermöglicht eine uneingeschränkte volle Verwaltbarkeit deines Servers. Zu ihren Funktionsumfängen zählen z.B. Server Start/Stop/Reboot, Management-Consolen über Java oder HTML5 und das Einbinden von Bootmedien (ISOs). Du solltest mit einer grundsätzlichen Vorsicht dort Einstellungen verändern, bei falschen Änderungen könnte dies Probleme hervorrufen.
+Auf unseren Enterprise Dedicated Servern nutzen wir die Management-Schnittstelle iLO, die dir uneingeschränkte volle Verwaltung deines Servers ermöglicht.  
+Zu den Funktionen gehören Server starten/stoppen/neustarten, Management-Konsole via Java oder HTML5, Einbinden von Boot-Medien (ISOs).  
+Ändere die Einstellungen mit Vorsicht, falsche Änderungen können große Probleme verursachen.
 
 <InlineVoucher />
 
 ## iLO Zugriff
-Öffne mit einem Browser deiner Wahl das Server Dashboard deines ZAP Dedicated Servers. Dort findest du bereits die wichtigsten Informationen zu deiner iLO. Um die iLO zu aktivieren, klicke ganz einfach auf "iLO aktivieren".
+Öffne das Server Dashboard deines ZAP Dedicated Servers mit einem Browser deiner Wahl. Dort findest du bereits die wichtigsten Infos zu deinem iLO.  
+Um iLO zu aktivieren, klicke einfach auf „iLO aktivieren“.  
+![](https://screensaver01.zap-hosting.com/index.php/s/grj9PxttLKiZg6m/preview)
 
-![](https://screensaver01.zap-hosting.com/index.php/s/qYPEPiwCKKrzLDL/preview)
+Bitte beachte, dass es ein paar Sekunden dauern kann, bis dein iLO vollständig verfügbar ist.  
+Wenn das System die Management-Schnittstelle gestartet hat und sie erreichbar ist, siehst du die Login-Daten.  
+Um iLO zu öffnen, klicke auf die angezeigte IP-Adresse und melde dich mit den Zugangsdaten an.
 
-Bitte beachte dass es einige Augenblicke dauern kann bis deine iLO vollständig zur Verfügung steht. Wenn das System die Verwaltungsoberfläche gestartet hat und sie für dich zugänglich ist, werden dir die Logininformationen angezeigt. Um die iLO zu öffnen, klicke auf die angezeigte IP-Adresse und verwende die Logindaten, um dich anzumelden.
+![](https://screensaver01.zap-hosting.com/index.php/s/MJeEW2LLrjxsAGN/preview)
 
-![](https://screensaver01.zap-hosting.com/index.php/s/qktwjwRcPmcRzAA/preview)
-
-Nach einem kurzen Augenblick bist du nun in der Verwaltungsoberfläche deines Dedicated Servers eingeloggt. Hierbei findest du viele wichtige Informationen auf den ersten Blick:
+Nach einem kurzen Moment bist du nun in der Admin-Oberfläche deines Dedicated Servers eingeloggt.  
+Hier findest du viele wichtige Infos:
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/BGWGXDRgS9A74dB/preview)
 
-### Overview
-* **System Health**
-Sollte im Regelfall grün sein, hierbei wird bei jedem Serverstart die Hardware deines Servers überprüft, sofern irgendwelche Unstimmigkeiten vorliegen, meldet das System diese sofort automatisiert an einen Techniker.
-Mögliche Varianten wären: Grün (OK), Gelb (Degraded) und Rot (Critical) es kann durchaus vorkommen, dass der Server deine SSD als Degraded anzeigt, dies ist in der Regel jedoch kein Grund zur Sorge.
-Natürlich kannst du den Support darauf hinweisen, dann werden wir gerne für dich prüfen, ob Handlungsbedarf besteht. Sollte der System-Status auf Rot, also "Critical" stehen, ist der Support umgehend zusätzlich in Kenntnis zu setzen.
-Als erster Problemlösungsschritt sollte immer ein kompletter Neustart des Systems durchgeführt werden.
+### Übersicht
+* **System Health**  
+Sollte normalerweise grün sein. Bei jedem Serverstart prüft die Hardware sich selbst. Gibt es Probleme, meldet das System sie sofort.  
+Mögliche Zustände: grün (OK), gelb (Degraded) und rot (Critical). Es kann vorkommen, dass der Server deine SSD als „degraded“ anzeigt – meist kein Problem.  
+Natürlich kannst du den Support informieren, wir prüfen dann, ob Handlungsbedarf besteht. Ist der Systemstatus rot („Critical“), sollte der Support sofort informiert werden.  
+Der erste Schritt zur Problemlösung ist immer ein kompletter Neustart des Servers.
 
-* **iLO Health**
-Zeigt weitere Informationen zu den iLO-Parametern, hierbei sollte es keine nennenswerten Veränderungen geben.
-Ein Eingreifen in diesem Tab ist in der Regel nicht erforderlich.
+* **iLO Health**  
+Zeigt weitere Infos zu den iLO-Parametern, hier sollten keine signifikanten Änderungen sein.  
+Eine Änderung in diesem Tab ist normalerweise nicht nötig.
 
-* **Server Power**
-Zeigt dir den Status deines Servers, z.B. "ON" bedeutet, dass dein Server läuft.
+* **Server Power**  
+Zeigt den Status deines Servers an, z.B. „ON“ bedeutet, dass dein Server läuft.
 
-* **Integrated Remote Console**
-Diese Funktion bietet dir die Möglichkeit, visuell auf deinen Server zu schauen und dort auch Befehle auszuführen.
-Die Remote Consoles unterscheiden sich in zwei Aspekten. 
-HTML5 wird direkt in deinem Browser gestartet und benötigt keine weitere Drittanbietersoftware.
-Java Web Start nutzt, wie der Name schon sagt, Java, um die Verwaltungskonsole zu öffnen.
-Alle auftretenden Sicherheitswarnungen kannst du bedenkenlos ignorieren.
-Wie die Schritt für Schritt Verbindung zu deinem Server mit einer Remote Console erfolgt, kannst du in den nächsten Schritten nachlesen.
+* **Integrierte Remote-Konsole**  
+Hier kannst du deinen Server visuell sehen und Befehle ausführen.  
+Die Remote-Konsolen unterscheiden sich in zwei Punkten:  
+HTML5 startet direkt im Browser und benötigt keine Drittsoftware.  
+Java Web Start nutzt Java, um die Management-Konsole zu öffnen.  
+Sicherheitswarnungen kannst du bedenkenlos wegklicken.  
+Wie du Schritt für Schritt per Remote-Konsole verbindest, findest du in der ausführlichen Anleitung.
 
-* **Active Sessions**
-Du kannst hier alle Nutzer sehen, welche derzeit mit deiner iLO verbunden sind. 
+* **Aktive Sitzungen**  
+Hier siehst du alle Nutzer, die gerade mit iLO verbunden sind.
 
-### iLO Event Log
-Speichert alle Veränderungen, welche über die iLO getätigt werden, z.B. Logins oder Serverstarts/Stops sowie Veränderungen der Settings.
+### iLO Ereignisprotokoll
+Speichert alle Änderungen, die über iLO gemacht wurden, z.B. Logins, Serverstarts/-stopps und Einstellungen.
 
-### Integrated Management Log
-Der Integrated Management Log speichert alle Hardware relevanten Informationen ab, beispielweise die Ergebnisse des POST (Power on Self Test) welcher bei jedem Serverstart ausgeführt wird.
-Sollte es Probleme mit der Technik deines Dedicated Servers geben, werden diese hier abgespeichert und in die bekannten Dringlichkeitsstufen kategorisiert.
+### Integriertes Management-Protokoll
+Speichert alle hardwarerelevanten Infos, z.B. die Ergebnisse des POST (Power on Self Test), der bei jedem Serverstart ausgeführt wird.  
+Hardwareprobleme deines Dedicated Servers werden hier angezeigt.
 
-### Virtual Media
-Das Einbinden von eigenen Bootmedien (ISOs) erfolgt durch das Untermenü "Connect CD/DVD-ROM"
-Die Bootreihenfolge des Servers ist so konfiguriert, dass sie standardmäßig immer eine eingetragene ISO zuerst booten würde.
-Die Reihenfolge kann auch im Menüpunkt "Boot Order" verändert werden.
+### Virtuelle Medien
+Das Einbinden eigener Boot-Medien (ISOs) erfolgt über das Untermenü „Connect CD/DVD-ROM“.  
+Die Boot-Reihenfolge ist so konfiguriert, dass standardmäßig immer zuerst ein registriertes ISO gebootet wird.  
+Die Reihenfolge kannst du auch im Menü „Boot Order“ ändern.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/6ezDgt2dsCMwEam/preview)
 
-Bei "Scripted Media URL" ist der volle Link der einzubindenden ISO einzutragen, z.B. http://meinedomain.de/bootimage.iso
-Deine Angabe muss direkt auf die ISO zeigen, also auch mit .iso enden.
-Klicke danach auf "Insert Media" und starte deinen Server in "Power Management" neu. (alternativ ist ein Klick auf System Reset auch möglich)
-Der Server wird nach dem Neustart deines eingelegte ISO laden.
+Bei „Scripted Media URL“ musst du den kompletten Link zur ISO eingeben, z.B.: http://mydomain.com/bootimage.iso  
+Dein Eintrag muss direkt auf die ISO zeigen, also mit .iso enden.  
+Dann klicke auf „Insert Media“ und starte deinen Server im „Power Management“ neu.  
+Der Server lädt nun dein eingebundenes ISO.
 
 ### Power Management
-In diesem Menüpunkt kann alles gemacht werden, was das Starten & Stoppen deines ZAP Dedicated Servers betrifft. 
+In diesem Menü kannst du alles rund ums Starten & Stoppen deines ZAP Dedicated Servers erledigen.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/NHW8iafC3zjcsJG/preview)
 
-* **Gracefull Power Off**
-Stoppt deinen Server schonend, dasselbe Ergebnis wie wenn die Power Taste deines Notebooks/Computers einmal kurz gedrückt wird.
-Alle Anwendungen werden korrekt beendet und der Server fährt dann geplant herunter.
-Dies kann natürlich je nach Anwendungen einige Zeit in Anspruch nehmen.
+* **Graceful Power Off**  
+Fährt deinen Server sauber herunter, wie wenn du einmal den Power-Knopf deines Notebooks/PCs drückst.  
+Alle Anwendungen werden korrekt beendet und der Server fährt geordnet runter.  
+Das kann je nach Anwendungen etwas dauern.
 
-* **Force Power Off**
-Wenn dein Server sofort ohne Wartezeit ausgeschaltet werden muss, ist dies die richtige Option. Sie kommt dem Ziehen des Stromkabels gleich.
-Das System geht ohne Verzögerung sofort aus.
+* **Force Power Off**  
+Schaltet deinen Server sofort aus, ohne zu warten – wie das Ziehen des Netzsteckers.  
+Das System geht sofort aus, ohne Verzögerung.
 
-* **Force System Reset**
-Verursacht einen sofortigen Neustart deines Systems.
+* **Force System Reset**  
+Löst einen sofortigen Neustart deines Systems aus.
 
 ### Power Meter
-Zeigt dir den durchschnittlichen Stromverbrauch deines Systems an, grundsätzlich gilt je höher die Stromabnahme, desto höher die Last auf deinem System.
+Zeigt dir den durchschnittlichen Stromverbrauch deines Systems an – je höher der Verbrauch, desto höher die Auslastung.
 
-### Network
-Zeigt dir die Netzwerkkonfiguration deiner iLO, bitte beachte, dass diese Einstellungen **nichts** mit der IP deines Servers zu tun haben.
-
-## Remote Consoles (Bildschirm)
+### Netzwerk
+Zeigt die Netzwerkkonfiguration deines iLO an. Bitte beachte, dass diese Einstellungen nicht mit der Netzwerkkonfiguration deines Servers selbst zusammenhängen.
 
 :::info
-Um deinen Server einzurichten oder falls der Zugriff über das Netzwerk nicht funktioniert. Hast du jederzeit die Möglichkeit, direkt auf deinen Server zu schauen, als würdest du einen Bildschirm anschließen.
+Um deinen Server einzurichten oder falls der Netzwerkzugriff nicht funktioniert, kannst du jederzeit direkt auf deinen Server schauen.
 :::
 
-Die iLO bietet dir standardmäßig zwei verschiedene Arten einer Remote Console:
+## Remote-Konsolen (Anzeige)
+iLO bietet dir standardmäßig zwei verschiedene Remote-Konsolen:
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/cozRqRt9KLTMCkd/preview)
 
-### Die HTML5 Console
-Mit einem einfachen Klick bist du schon auf deinem Server, du benötigst keine weitere Drittanbietersoftware und es wird direkt in deinem Browser gestartet.
-Die Console steht den Funktionen in nichts nach, sie bietet dir viele weitere nützliche Tools:
+### Die HTML5-Konsole
+Mit einem Klick bist du direkt auf deinem Server, du brauchst keine Drittsoftware und sie startet direkt im Browser.  
+Sie bietet viele nützliche Tools:
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/G8DjtHYnJosiQBy/preview)
 
-* 1 - Einstellungen der Power-Verwaltung (Starten, Stoppen, Rebooten) des Servers
-* 2 - Das Senden von Tastenkombinationen (z.B. STRG + ALT + DEL)
-* 3 - Einbinden von ISOs > CD/DVD > Scripted Media URL
-* 4 - System Health
-* 5 - Server Power Status (ON / OFF)
+* 1 - Power Management Einstellungen (Start, Stop, Neustart) des Servers  
+* 2 - Senden von Tastenkombinationen (z.B. STRG + ALT + ENTF)  
+* 3 - Einbinden von ISOs > CD/DVD > Scripted Media URL  
+* 4 - System Health  
+* 5 - Server Power Status (AN / AUS)
 
-Sofern dein Server über eine grafische Oberfläche verfügt, kannst du deinen Mauszeiger ganz normal verwenden, Eingaben deiner Tastatur werden ebenfalls übertragen.
+Hat dein Server eine grafische Oberfläche (GUI), kannst du die Maus wie gewohnt nutzen, auch Tastatureingaben werden übertragen.
 
-### Die Java Console
-Um die diese Console zu verwenden ist es erforderlich, dass Java installiert ist. (Kann auf java.com heruntergeladen werden)
+### Die Java-Konsole
+Für die Java-Konsole brauchst du Java installiert. (Download unter java.com)  
 :::info
-Alle auftretenden Meldungen zu Sicherheitsbedenken können ignoriert werden.
+Sicherheitswarnungen kannst du ignorieren.
 :::
 
-Nach dem Öffnen der Datei wird uns folgende Meldung angezeigt, diese wird mit "Weiter" bestätigt.
+Nach dem Öffnen der Datei erscheint folgende Meldung, bestätige mit „Fortfahren“.  
 ![](https://screensaver01.zap-hosting.com/index.php/s/nByYm3X8DXNHXmP/preview)
 
-Wir bestätigen das Risiko und bestätigen mit "Ausführen"
+Wir bestätigen das Risiko und klicken auf „Ausführen“.  
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/eWzpyXgQPWWz4J4/preview)
 
-Es öffnet sich nun die Java-Console.
+Jetzt öffnet sich die Java-Konsole.  
 :::info
-Die Anwendung stellt häufig das Tastaturlayout auf "EN" um.
+Die Anwendung stellt oft das Tastaturlayout auf „EN“ um.
 :::
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/kAp5rddEDjdLNwi/preview)
 
-* 1 - Einstellungen der Power-Verwaltung (Starten, Stoppen, Rebooten) des Servers
-* 2 - Einbinden von ISOs > URL CD/DVD-ROM
-* 3 - Das Senden von Tastenkombinationen (z.B. STRG + ALT + DEL)
-* 4 - System Health
-* 5 - Server Power Status (ON / OFF)
+* 1 - Power Management Einstellungen (Start, Stop, Neustart) des Servers  
+* 2 - Einbinden von ISOs > URL CD/DVD-ROM  
+* 3 - Senden von Tastenkombinationen (z.B. STRG + ALT + ENTF)  
+* 4 - System Health  
+* 5 - Server Power Status (AN / AUS)
 
-Sofern dein Server über eine grafische Oberfläche verfügt, kannst du deinen Mauszeiger ganz normal verwenden, Eingaben deiner Tastatur werden ebenfalls übertragen.
+Hat dein Server eine grafische Oberfläche (GUI), kannst du die Maus wie gewohnt nutzen, auch Tastatureingaben werden übertragen.
 
 ## Häufige Probleme, Tipps & Tricks
 
-* Der Server hängt im POST (Power on Self Test) und bootet nicht mehr.
-Verbinde dich mittels einer Remote Console und prüfe, wo genau dein Server hängt. Zeigt er dort Fehler?
-Schalte den Server unter Power Management für einige Sekunden aus (Force Power Off) und starte ihn dann wieder.
-Sofern dein Server weiterhin nicht bootet, kontaktiere bitte den Support.
+* Server bleibt im POST (Power on Self Test) hängen oder bootet nicht mehr.  
+Verbinde dich mit einer Remote-Konsole und prüfe, wo genau der Server hängen bleibt. Werden Fehler angezeigt?  
+Schalte den Server im Power Management für ein paar Sekunden aus (Force Power Off) und starte ihn dann neu (Momentary Press).  
+Bootet der Server immer noch nicht, kontaktiere den Support.
 
-* ISO wird nicht geladen.
-Prüfe, ob der Link zu deiner ISO wirklich korrekt ist, der einfachste Test ist, füge den Link in deinem Browser ein, wenn ein Download startet ist alles korrekt.
-Stelle sicher, dass der Link korrekt in Virtual Media eingetragen ist und der Server auch neu gestartet wurde. Werfe außerdem einen Blick in die Boot-Order, ob CD/DVD Drive ganz oben steht.
+* ISO wird nicht geladen.  
+Prüfe, ob der Link zu deiner ISO wirklich korrekt ist. Der einfachste Test: Link im Browser öffnen, startet der Download, ist alles richtig.  
+Stelle sicher, dass der Link in Virtual Media korrekt eingetragen ist und der Server neu gestartet wurde. Schau auch in die Boot-Reihenfolge, ob das CD/DVD-Laufwerk ganz oben steht.
 
-* Mein Server braucht sehr lange zum Booten.
-Bei der eingesetzten Enterprise Hardware ist eine lange Bootzeit völlig normal, jede Systemkonfiguration hat ihre individuelle Bootzeit. Das Booten von circa 10-15 Minuten ist völlig normal.
+* Mein Server braucht lange zum Booten.  
+Die eingesetzte Enterprise-Hardware braucht etwas Zeit zum Booten, das ist völlig normal. Es kann 10-15 Minuten dauern.
 
-* Ich kann die iLO nicht mehr öffnen
-Stelle sicher, dass die iLO in deinem Server Dashboard aktiviert ist, aus Sicherheitsgründen schaltet sich die Verwaltungsoberfläche nach einiger Zeit automatisiert ab.
-Du kannst selbstverständlich auch die iLO nochmals deaktivieren und wieder aktivieren. (Warte mindestens 5 Minuten nach dem Aktivieren)
+* Ich kann iLO nicht mehr öffnen.  
+Stelle sicher, dass iLO im Server Dashboard aktiviert ist. Aus Sicherheitsgründen schaltet sich die Management-Schnittstelle nach einiger Zeit automatisch ab.  
+Du kannst iLO natürlich deaktivieren und wieder aktivieren. (Warte mindestens 5 Minuten nach Aktivierung)
 
+## Fazit
 
-
-## Abschluss
-
-Die Verwaltung sollte dir damit nun um ein ganzes Stück einfacher fallen, wenn du dir alles ausführlich durchgelesen hast. Für weitere Fragen oder Hilfe zögere bitte nicht, unser Support-Team zu kontaktieren, das dir täglich zur Verfügung steht! 🙂
+Das sollte dir die Administration deutlich erleichtern, wenn du alles genau durchgelesen hast. Für weitere Fragen oder Hilfe steht dir unser Support-Team täglich zur Verfügung! 🙂
 
 <InlineVoucher />

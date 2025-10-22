@@ -1,8 +1,8 @@
 ---
 id: dedicated-linux-lemp-stack
 title: "Dedicated Server: LEMP-Stack einrichten – Linux, Nginx, MySQL, PHP"
-description: Infos zum Einrichten eines LEMP-Stacks (Linux, Nginx, MySQL, PHP) auf deinem Linux-VPS von ZAP-Hosting – ZAP-Hosting.com Dokumentation
-sidebar_label: Web LEMP stack
+description: "Entdecke, wie du einen LEMP-Stack für das Hosting dynamischer PHP-Websites auf Linux-Servern mit praktischen Beispielen einrichtest → Jetzt mehr erfahren"
+sidebar_label: Web LEMP-Stack
 services:
   - dedicated
 ---
@@ -13,17 +13,17 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
 
-Der **LEMP**-Stack ist eine beliebte Auswahl an Open-Source-Software, die zusammen eingerichtet wird, um einfaches dynamisches Website-Hosting zu ermöglichen, mit einem besonderen Fokus auf PHP-Websites und -Apps. Das Akronym steht für: **L**inux als Betriebssystem, **E**ngine x (nginx) als Webserver, **M**ySQL als Datenbank und schließlich **P**HP für die Verarbeitung. In dieser Anleitung zeigen wir dir, wie du einen LEMP-Stack auf einem Linux Dedicated Server einrichtest, mit einer detaillierten Beschreibung und einem Beispiel für die Einrichtung einer To-Do-Liste-Website.
+Der **LEMP**-Stack ist eine beliebte Auswahl an Open-Source-Software, die zusammen eingerichtet wird, um einfaches Hosting dynamischer Websites zu ermöglichen – mit besonderem Fokus auf PHP-Websites und -Apps. Das Akronym steht für: **L**inux als Betriebssystem, "**E**ngine x" (nginx) als Webserver, **M**ySQL als Datenbank und zuletzt **P**HP für die Verarbeitung. In dieser Anleitung zeigen wir dir, wie du einen LEMP-Stack auf einem Linux Dedicated Server einrichtest, inklusive einer detaillierten Schritt-für-Schritt-Erklärung und einem Beispiel für eine To-Do-Listen-Website.
 
 <InlineVoucher />
 
 ## Vorbereitung
 
-Verbinde dich erst mal über SSH mit deinem Server. Wenn du nicht weißt, wie das geht, schau dir unsere Anleitung [Erstzugriff (SSH)](Dedicated Server-linux-ssh.md) an.
+Verbinde dich zunächst per SSH mit deinem Server. Falls du nicht weißt, wie das geht, schau dir bitte unsere [Erstzugang (SSH)](vserver-linux-ssh.md) Anleitung an.
 
-In dieser Anleitung verwenden wir Ubuntu als Linux-Distribution. Die Anweisungen sind für Debian identisch und sollten für andere Distributionen ähnlich sein, allerdings kann die Syntax der Befehle leicht abweichen. Vergewissere dich, dass du ein Betriebssystem installiert hast und über SSH mit dem Server verbunden bist.
+In dieser Anleitung verwenden wir Ubuntu als Linux-Distribution. Die Befehle sind identisch für Debian und sollten bei anderen Distributionen ähnlich sein, wobei sich die Syntax der Befehle leicht unterscheiden kann. Stelle sicher, dass ein Betriebssystem installiert ist und du per SSH verbunden bist.
 
-Wie immer solltest du vor der Installation sicherstellen, dass alle Pakete auf dem neuesten Stand sind. Dazu gibst du folgenden Befehl ein:
+Wie immer solltest du vor der Installation alle Pakete mit folgendem Befehl auf den neuesten Stand bringen:
 ```
 // Ubuntu & Debian
 sudo apt update
@@ -40,134 +40,141 @@ sudo dnf upgrade --refresh
 
 ## Installation
 
-Die Installation kann ganz einfach in die einzelnen LEMP-Abhängigkeiten aufgeteilt werden, angefangen beim Nginx-Webserver, dann die MySQL-Datenbank und zum Schluss PHP. Während der Installation richten wir eine Testwebsite ein, die in PHP geschrieben ist und auf die MySQL-Datenbank zugreift. Zum Schluss wird jede Webanfrage über den Nginx-Webserver verarbeitet und bereitgestellt.
+Die Installation lässt sich gut in die einzelnen Kernkomponenten des LEMP-Stacks aufteilen, beginnend mit dem Nginx-Webserver, gefolgt von der MySQL-Datenbank und zuletzt PHP. Während der Installation richten wir eine Test-Website ein, die in PHP geschrieben ist und auf die MySQL-Datenbank zugreift. Jede Webanfrage wird anschließend über den Nginx-Webserver verarbeitet und ausgeliefert.
 
 ### Nginx einrichten
 
-Nginx ist der Webserver, der eingehende Webanfragen verarbeitet und Antworten sendet. Installiere ihn mit dem folgenden Befehl.
+Nginx ist der Webserver, der eingehende Webanfragen verarbeitet und Antworten ausliefert. Installiere ihn mit folgendem Befehl:
 ```
 sudo apt install nginx
 ```
 
-Nach der Installation solltest du sicherstellen, dass die richtigen Firewall-Regeln eingerichtet sind, damit der Webserver über das Internet erreichbar ist. In diesem Beispiel verwenden wir die **UFW-Firewall**, da Nginx dafür eine registrierte Anwendung hat.
+Nach der Installation solltest du sicherstellen, dass die passenden Firewall-Regeln erstellt werden, damit der Webserver aus dem Internet erreichbar ist. In diesem Beispiel verwenden wir die **UFW Firewall**, da Nginx dafür eine registrierte Anwendung hat.
 
-Wenn du eine andere Firewall benutzt, stell sicher, dass Port 80 (HTTP) durch die Firewall geht. Mehr über Firewalls in Linux erfährst du in unserer Anleitung [Firewall verwalten](Dedicated Server-linux-firewall.md).
+Wenn du eine andere Firewall nutzt, stelle sicher, dass Port 80 (HTTP) freigegeben ist. Mehr Infos zu Firewalls unter Linux findest du in unserer [Firewall verwalten](vserver-linux-firewall.md) Anleitung.
 
-Stell sicher, dass die UFW-Firewall aktiviert ist und dass eine Regel für SSH erstellt wurde.
+Stelle sicher, dass die UFW-Firewall aktiviert ist und eine Regel für SSH existiert:
 ```
-# Erstell eine Regel, um SSH zuzulassen
+# Regel für SSH erstellen
 sudo ufw allow OpenSSH
 
-# UFW-Firewall aktivieren
+# UFW Firewall aktivieren
 sudo ufw enable
 ```
 
 :::caution
-Stell sicher, dass du eine Regel für SSH eingerichtet hast, wenn du die UFW-Firewall benutzt! Wenn du das nicht machst, kannst du dich **nicht** mehr per SSH mit dem Server verbinden, wenn die Verbindung zu deiner aktuellen Sitzung unterbrochen wird!
+Achte darauf, dass du eine Regel für SSH eingerichtet hast, wenn du UFW nutzt! Ohne diese kannst du dich nach Verbindungsverlust **nicht mehr per SSH** mit deinem Server verbinden!
 :::
 
-Jetzt machst du die Regel, damit Nginx durchkommt, und checkst danach, ob die Regeln da sind.
+Erstelle nun die Regel für Nginx und überprüfe anschließend, ob die Regeln vorhanden sind:
 ```
-# Erstell eine Regel, um Nginx zuzulassen
+# Regel für Nginx erstellen
 sudo ufw allow in "Nginx Full"
 
-# Schau mal die UFW-Firewall-Regeln an
+# UFW Firewall-Regeln anzeigen
 sudo ufw status
 ```
 
 :::tip
-Mit dem Befehl `ufw app list` kannst du sehen, welche Profile verfügbar sind. Im Beispiel oben bedeutet `Nginx Full`, dass sowohl HTTP- (Port 80) als auch HTTPS-Regeln (Port 443) erstellt werden.
+Du kannst verfügbare Profile mit dem Befehl `ufw app list` anzeigen lassen. Im Beispiel oben sorgt `Nginx Full` dafür, dass sowohl HTTP (Port 80) als auch HTTPS (Port 443) freigegeben werden.
 :::
 
-Du solltest die Regeln `Nginx` und `Nginx (v6)` mit der Aktion `ALLOW` sehen, was bedeutet, dass die Firewall bereit ist. Du solltest auch andere Regeln sehen, die du vielleicht schon eingerichtet hast, einschließlich der SSH-Regel.
+Du solltest `Nginx` und `Nginx (v6)` mit der Aktion `ALLOW` sehen, was bestätigt, dass die Firewall bereit ist. Außerdem siehst du weitere Regeln, die du eventuell vorher eingerichtet hast, inklusive der SSH-Regel.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/A36rfRzL3gFGq9x/preview)
 
-Nachdem du die Firewall für Nginx geöffnet hast, solltest du jetzt checken, ob Nginx funktioniert. Dazu versuchst du, deine IP-Adresse in einem Browser aufzurufen, und zwar so: `http://[deine_ipaddress]`
+Nachdem die Firewall für Nginx geöffnet ist, solltest du prüfen, ob Nginx funktioniert. Öffne dazu im Browser die IP-Adresse deines Servers, z.B.: `http://[deine_ipadresse]`
 
-Wenn alles funktioniert, solltest du eine Standard-Begrüßungsseite sehen. Wenn nicht, überprüfe den Status des Dienstes mit dem folgenden Befehl: `systemctl status nginx`
+Wenn alles funktioniert, siehst du eine Standard-Willkommensseite. Falls nicht, überprüfe den Dienststatus mit: `systemctl status nginx`
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/EqFoyXMJMaHc3dc/preview)
 
 ### MySQL einrichten
 
-Jetzt installierst und richtest du einen MySQL-Server ein, der als Datenbank dient, um Daten dauerhaft in einer relationalen Struktur zu speichern. Installiere ihn mit dem folgenden Befehl.
+Jetzt installierst und richtest du einen MySQL-Server ein, der als Datenbank dient, um Daten relational und dauerhaft zu speichern. Installiere ihn mit:
 ```
 sudo apt install mysql-server
 ```
 
-Wenn das erledigt ist, solltest du ein Skript für eine sichere Installation laufen lassen, damit dein MySQL-Server sicher bleibt. Das ist optional, aber echt empfehlenswert. Du kannst das mit dem Befehl `sudo mysql_secure_installation` machen.
+Nach der Installation empfehlen wir, das Sicherheits-Setup-Skript auszuführen, um deinen MySQL-Server abzusichern. Das ist optional, aber sehr empfehlenswert. Starte es mit:
+```
+sudo mysql_secure_installation
+```
 
-Du wirst durch eine interaktive Einrichtung geführt. Zuerst wirst du nach der Passwortüberprüfung gefragt. Wir empfehlen, `Y`zu wählen, damit in Zukunft nur sichere Passwörter erlaubt sind, und dann entweder `MEDIUM` über `1` oder `STRONG` über `2` auszuwählen.
+Das Skript führt dich interaktiv durch die Einrichtung. Zuerst wirst du nach der Passwortvalidierung gefragt. Wir empfehlen `Y` zu wählen, damit zukünftig nur sichere Passwörter erlaubt sind, und dann `MEDIUM` (1) oder `STRONG` (2) auszuwählen.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/YF6N3iPaDWD4sgX/preview)
 
-Als Nächstes wirst du gefragt, ob du den Benutzer `anonymous` löschen und die Remote-Anmeldung als Root verbieten willst. Aus Sicherheitsgründen empfehlen wir, beides mit `Y` zu bestätigen. So wird der Testbenutzer gelöscht und der Master-Benutzer `root` kann nur lokal über SSH und nirgendwo anders verwendet werden, was das Risiko verringert.
+Anschließend wirst du gefragt, ob der `anonymous`-Benutzer entfernt und der Root-Login von außen deaktiviert werden soll. Wir empfehlen beides mit `Y` zu bestätigen, um die Sicherheit zu erhöhen. So wird der Testbenutzer entfernt und der Root-Zugang ist nur lokal per SSH möglich.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/ka6GKkojRPRycZB/preview)
 
-Zum Schluss wirst du gefragt, ob du die Datenbank `test` löschen und die Berechtigungstabellen neu laden willst. Wir empfehlen, hier wieder mit `Y` zu bestätigen, da die Testtabelle nicht gebraucht wird und du die Berechtigungstabelle neu laden musst, damit die Änderungen übernommen werden.
+Zum Schluss wirst du gefragt, ob die `test`-Datenbank gelöscht und die Berechtigungstabellen neu geladen werden sollen. Auch hier empfehlen wir `Y`, da die Testdatenbank nicht benötigt wird und die Privilegientabellen für Änderungen neu geladen werden müssen.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/42cYTkPaEfo3Jbq/preview)
 
-Jetzt check mal, ob die MySQL-Datenbank läuft, indem du dich mit dem folgenden Befehl anmeldest: `sudo mysql -u root`. Wenn alles geklappt hat, solltest du eine Willkommensmeldung sehen. Wenn du fertig bist, kannst du das Programm mit dem Befehl `quit` beenden.
+Prüfe nun, ob MySQL läuft, indem du dich anmeldest:
+```
+sudo mysql -u root
+```
+Wenn du eine Willkommensmeldung siehst, hat alles geklappt. Verlasse die MySQL-Konsole mit `quit`.
 
 ### PHP einrichten
 
-Die letzte LEMP-Abhängigkeit ist PHP. Für nginx brauchst du ein externes Programm namens `php-fpm` (PHP fastCGI Process Manager). Nginx wird dann so eingerichtet, dass es Anfragen an `php-fpm` weiterleitet, bevor es später bei der Verwendung von Serverblöcken auf Anfragen antwortet.
+Die letzte LEMP-Komponente ist PHP. Für Nginx wird dafür `php-fpm` (PHP FastCGI Process Manager) benötigt. Nginx wird so konfiguriert, dass Anfragen an `php-fpm` weitergeleitet werden, bevor sie verarbeitet werden.
 
-Mit dem folgenden Befehl installierst du die neueste Version von php-fpm zusammen mit einem PHP-Plugin für MySQL, damit Nginx mit PHP funktioniert und PHP MySQL nutzen kann.
+Installiere die neueste Version von `php-fpm` zusammen mit dem PHP-MySQL-Plugin, damit Nginx mit PHP arbeiten kann und PHP MySQL nutzen kann:
 ```
 sudo apt install php-fpm php-mysql
 ```
 
-Überprüfe, ob die Installation geklappt hat, indem du die Version checkst. Wenn du eine Version siehst, funktioniert PHP richtig.
+Prüfe, ob die Installation erfolgreich war, indem du die PHP-Version abfragst. Wenn eine Version angezeigt wird, funktioniert PHP korrekt:
 ```
 php -v
 ```
 
 :::tip PHP-Erweiterungen
-Für fortgeschrittene Anwendungen brauchst du vielleicht zusätzliche PHP-Erweiterungen, um mehr Funktionen zu nutzen. Eine Liste davon findest du mit dem Befehl `apt search php- | less`.
+Für spezielle Anwendungsfälle brauchst du vielleicht zusätzliche PHP-Erweiterungen. Eine Liste kannst du mit `apt search php- | less` anzeigen. Mit den Pfeiltasten scrollen und mit `Q` beenden.
 
-Mit den Pfeiltasten kannst du scrollen und mit `Q` beenden, wenn du fertig bist. Um ein Erweiterungspaket zu installieren, benutze einfach den Befehl „apt install“ wie unten gezeigt. Du kannst mehrere Erweiterungen auf einmal eingeben, indem du sie durch ein Leerzeichen trennst, um die Installation zu beschleunigen.
-
+Zum Installieren einer Erweiterung nutze:
 ```
 sudo apt install [php_extension] [...]
 ```
+Du kannst mehrere Erweiterungen gleichzeitig installieren, indem du sie mit Leerzeichen trennst.
 :::
 
 ### Test-Website erstellen
 
-Nachdem wir jetzt alle LEMP-Abhängigkeiten installiert haben, erstellen wir eine Test-Website, um zu zeigen, wie der LEMP-Stack zusammenarbeitet und eine tolle dynamische Website-Lösung bildet. Das ist komplett optional, aber es ist nützlich, um zu verstehen, wie du diese Tools nutzen kannst, um deine eigenen Websites einzurichten.
+Nachdem alle LEMP-Komponenten installiert sind, erstellen wir eine Test-Website, um zu zeigen, wie der Stack zusammenarbeitet und eine dynamische Website ermöglicht. Das ist optional, aber hilfreich, um zu verstehen, wie du deine eigenen Websites einrichten kannst.
 
-In diesem Beispiel erstellen wir mit PHP eine kleine Website für eine To-do-Liste, die To-do-Einträge abruft und anzeigt. Diese werden in einer MySQL-Datenbanktabelle gespeichert und über Nginx bereitgestellt.
+In diesem Beispiel bauen wir eine kleine To-Do-Liste in PHP, die Einträge aus einer MySQL-Datenbank abruft und anzeigt. Die Website wird über Nginx ausgeliefert.
 
-Wir werden auch durchgehend die Testdomain `zapdocs.example.com` verwenden, da du in der Praxis wahrscheinlich eine Domain nutzen würdest. Du **musst** unbedingt einen DNS-Eintrag vom Typ `A` für die Domain einrichten, der auf die IP-Adresse deines Servers verweist. Wenn du dabei Hilfe brauchst, schau mal in unserer  [Domain Records](domain-records.md#a-records) Anleitung rein.
+Wir verwenden als Testdomain `zapdocs.example.com`. In der Praxis solltest du eine Domain nutzen und einen `A`-DNS-Eintrag anlegen, der auf die IP-Adresse deines Servers zeigt. Hilfe dazu findest du in unserer [Domain-Einträge](domain-records.md) Anleitung.
 
 :::note
-Du kannst auch keine Domain verwenden und alle Erwähnungen von `[deine_domain]` durch einen normalen Namen ersetzen. Dann erreichst du die Website über die IP-Adresse. Denk aber daran, dass du später beim Erstellen der virtuellen Hostdatei den Parameter `server_name` entfernen musst.
+Du kannst auch ohne Domain arbeiten und `[your_domain]` durch einen beliebigen Namen ersetzen. Dann erreichst du die Website über die IP-Adresse. In diesem Fall solltest du aber später in der Serverblock-Datei die `server_name`-Zeile entfernen.
 :::
 
-#### Nginx einrichten
+#### Nginx konfigurieren
 
-Normalerweise werden auf Webservern alle Website-Dateien und Daten im Verzeichnis `/var/www` gespeichert. Standardmäßig kommt Nginx mit einem Verzeichnis `html`, das eine Standardseite enthält. Damit alles gut organisiert ist, besonders wenn du viele Websites auf einer einzigen Nginx-Instanz hostest, empfehlen wir, jede Website in einem eigenen Verzeichnis oder Ordner einzurichten.
+Webserver speichern alle Website-Dateien normalerweise im Verzeichnis `/var/www`. Standardmäßig gibt es dort oft einen `html`-Ordner mit einer Standardseite. Um Ordnung zu halten, besonders wenn du mehrere Websites hostest, empfehlen wir, für jede Website einen eigenen Ordner anzulegen.
 
-Dazu kannst du einfach für jede Website-Domain einen neuen Ordner im Verzeichnis `/var/www/[deine_domain]` anlegen. In diesem Beispiel wäre das `/var/www/zapdocs.example.com`.
+Erstelle also für deine Domain einen neuen Ordner, z.B. `/var/www/zapdocs.example.com`:
 ```
-sudo mkdir /var/www/[deine_domain]
-```
-
-Jetzt erstellst du eine neue Nginx-Serverblock-Konfigurationsdatei im Verzeichnis `sites-available` für diese Domain und diesen Ordner.
-```
-sudo nano /etc/nginx/sites-available/[deine_domain].conf
+sudo mkdir /var/www/[your_domain]
 ```
 
-Kopiere die Vorlage unten in den Nano-Editor und ersetze `[deine_domain]` durch deine Domain.
+Erstelle nun eine neue Nginx-Serverblock-Konfigurationsdatei im Verzeichnis `sites-available` für diese Domain:
+```
+sudo nano /etc/nginx/sites-available/[your_domain].conf
+```
+
+Kopiere die folgende Vorlage in den Editor und ersetze `[your_domain]` durch deine Domain:
 ```
 server {
     listen 80;
-    server_name [deine_domain] www.[deine_domain];
-    root /var/www/[deine_domain];
+    server_name [your_domain] www.[your_domain];
+    root /var/www/[your_domain];
 
     index index.php index.html index.htm;
 
@@ -187,48 +194,58 @@ server {
 ```
 
 :::important PHP-Version
-Es ist wichtig, dass du `[your_phpversion]` durch die aktuell installierte PHP-Version ersetzt. Um das zu überprüfen, gib `php -v` ein. Das sollte eine Version anzeigen, zum Beispiel: `PHP 8.3.6 (cli) (built: Mar 19 2025 10:08:38) (NTS)`.
-
-In diesem Beispiel würdest du `8.3` als Haupt-Subversion eingeben, sodass die Zeile wie folgt aussieht: `fastcgi_pass unix:/var/run/php/php8.3-fpm.sock;`
+Wichtig: Ersetze `[your_phpversion]` durch deine aktuell installierte PHP-Version. Prüfe sie mit `php -v`, z.B. `PHP 8.3.6 (cli) ...`. In dem Fall wäre der Wert `8.3`, also:
+```
+fastcgi_pass unix:/var/run/php/php8.3-fpm.sock;
+```
 :::
 
-Diese neue Serverblockdatei kümmert sich um Anfragen an Port 80 (HTTP) und checkt, ob die Anfrage mit dem angegebenen `server_name` übereinstimmt, in diesem Fall mit deiner Domain. Außerdem gibt sie an, dass der Ordner `/var/www/[deine_domain]`, den du vorher erstellt hast, zum Bereitstellen von Dateien verwendet werden soll.
+Diese Serverblock-Datei behandelt Anfragen auf Port 80 (HTTP) und prüft, ob die Anfrage zum `server_name` passt, also deiner Domain. Außerdem zeigt sie auf den Ordner `/var/www/[your_domain]`, den du vorher erstellt hast.
 
-Speicher die Datei und beende nano mit `STRG + X`, dann `Y` zum Bestätigen und zum Schluss `ENTER`.
+Speichere die Datei und verlasse nano mit `CTRL + X`, dann `Y` und `ENTER`.
 
-Der letzte Schritt für die Nginx-Konfiguration ist, die Konfiguration zu aktivieren, indem du die Datei aus dem Verzeichnis `sites-enabled` kopierst.
+Aktiviere die Konfiguration, indem du einen symbolischen Link im Verzeichnis `sites-enabled` erstellst:
 ```
-sudo ln -s /etc/nginx/sites-available/[deine_domain].conf /etc/nginx/sites-enabled/
+sudo ln -s /etc/nginx/sites-available/[your_domain].conf /etc/nginx/sites-enabled/
 ```
 
-:::note Keine Domain verwendet
-Wenn du keine Domain benutzt, lösch einfach die Zeile `server_name` oder setz ein `#` davor, um den Kommentar zu aktivieren. Außerdem musst du den Standard-Serverblock deaktivieren, indem du den Befehl `sudo unlink /etc/nginx/sites-enabled/default` eingibst.
+:::note Keine Domain genutzt
+Wenn du **keine** Domain nutzt, entferne oder kommentiere die `server_name`-Zeile (mit `#`) und deaktiviere den Standardserverblock mit:
+```
+sudo unlink /etc/nginx/sites-enabled/default
+```
 :::
 
-Wir empfehlen, den Befehl `sudo nginx -t` zu verwenden, um sicherzustellen, dass die Datei keine Syntaxfehler enthält.
+Prüfe die Nginx-Konfiguration auf Syntaxfehler mit:
+```
+sudo nginx -t
+```
 
-Starte zum Schluss Nginx neu, damit der neue virtuelle Host mit dem folgenden Befehl wirksam wird: `sudo systemctl reload nginx`.
+Starte Nginx neu, damit die Änderungen wirksam werden:
+```
+sudo systemctl reload nginx
+```
 
 #### Website erstellen
 
-Nachdem du Nginx über den neuen virtuellen Host und den Dokumentordner eingerichtet hast, ist es Zeit, die eigentliche Website zu erstellen, die bereitgestellt werden soll. Im Moment ist der Ordner leer, daher wird noch nichts angezeigt. Wir erstellen eine kleine To-Do-Website, wie zuvor für diese Domain erwähnt.
+Jetzt, wo Nginx konfiguriert ist, erstellen wir die eigentliche Website. Der Ordner ist aktuell leer, also wird noch nichts angezeigt. Wir bauen eine kleine To-Do-Liste, wie oben beschrieben.
 
 ##### Datenbank vorbereiten
 
-Lass uns erst mal eine neue Datenbank und Tabelle anlegen, um die einzelnen Listenelemente zu speichern. Melde dich bei deinem MySQL-Server an.
+Logge dich in MySQL ein:
 ```
 sudo mysql -u root
 ```
 
-Jetzt erstellen wir eine neue Datenbank namens `todowebsite` und darin eine Tabelle namens `todoitems`.
+Erstelle eine neue Datenbank `todowebsite` und eine Tabelle `todoitems`:
 ```
 # Datenbank erstellen
 CREATE DATABASE todowebsite;
 
-# Nutze die neue Datenbank
+# Datenbank auswählen
 USE todowebsite;
 
-# Erstell eine neue Tabelle für die Artikel in der Datenbank.
+# Tabelle erstellen
 CREATE TABLE todoitems (
     id INT AUTO_INCREMENT PRIMARY KEY,
     name VARCHAR(255) NOT NULL,
@@ -237,7 +254,7 @@ CREATE TABLE todoitems (
 );
 ```
 
-Jetzt, wo die Tabelle fertig ist, legen wir erstmal ein paar Beispiel-Einträge an.
+Füge ein paar Beispiel-Einträge hinzu:
 ```
 INSERT INTO todoitems (name, is_completed) VALUES ('Create ZAP-Docs Guide', 0);
 INSERT INTO todoitems (name, is_completed) VALUES ('Buy a ZAP-Hosting Server', 1);
@@ -245,13 +262,13 @@ INSERT INTO todoitems (name, is_completed) VALUES ('Join ZAP-Hosting Discord', 0
 INSERT INTO todoitems (name, is_completed) VALUES ('Have a great day!', 0);
 ```
 
-Zum Schluss legen wir noch einen eigenen Benutzer namens `todo` an, den wir speziell für diese Website verwenden werden.
+Erstelle einen dedizierten Benutzer `todo` für die Website:
 ```
-# Erstell einen eigenen Benutzer
-# Ersetz [deine_passwort] durch dein eigenes Passwort.
-CREATE USER todo@localhost IDENTIFIED BY '[deine_passwort]';
+# Benutzer erstellen
+# Ersetze [your_password] durch dein Passwort
+CREATE USER todo@localhost IDENTIFIED BY '[your_password]';
 
-# Privilegien für den Benutzer festlegen (als einer kopieren)
+# Rechte vergeben (alles in einer Zeile kopieren)
 GRANT SELECT,INSERT,UPDATE,DELETE,CREATE,DROP,ALTER
 ON todowebsite.*
 TO todo@localhost;
@@ -260,78 +277,72 @@ TO todo@localhost;
 FLUSH PRIVILEGES;
 ```
 
-Nachdem die Datenbank vorbereitet und der Benutzer bereit ist, kannst du das MySQL-Terminal mit dem Befehl `quit` verlassen, sobald du fertig bist.
+Verlasse die MySQL-Konsole mit `quit`.
 
 ##### PHP-Website-Dateien
 
-Der letzte Schritt in diesem Beispiel ist das Einrichten der eigentlichen PHP-Website-Datei für die To-Do-Seite. Dazu erstellst du eine neue Datei namens `index.php` im Verzeichnis `/var/www/[deine_domain]`, das du vorhin angelegt hast. Öffne den Nano-Editor, um dort eine Datei zu erstellen.
+Erstelle die PHP-Datei `index.php` im Verzeichnis `/var/www/[your_domain]`:
 ```
-sudo nano /var/www/[deine_domain]/index.php
+sudo nano /var/www/[your_domain]/index.php
 ```
 
-Unten haben wir einen einfachen Code-Schnipsel vorbereitet, den du in den Nano-Editor einfügen kannst, um eine einfache To-Do-Seite zu erstellen, die die in der Datenbank gespeicherten Elemente anzeigt. Der erste PHP-Abschnitt stellt eine MySQL-Verbindung zu deiner Datenbank her.
-
-:::important
-Du musst das Feld `[deine_passwort]` durch das Passwort ersetzen, das du vorher für den Benutzer `todo` festgelegt hast.
-:::
-
-Der nächste HTML-Abschnitt zeigt die Hauptwebseite, die eine ungeordnete Liste erstellt und alle Ergebnisse durchläuft.
+Füge folgenden Code ein, der eine Verbindung zur MySQL-Datenbank herstellt und die To-Do-Einträge anzeigt. Ersetze unbedingt `[your_password]` durch das Passwort des `todo`-Benutzers.
 
 ```
 <?php
-// Prepare MySQL Connection
+// MySQL-Verbindung vorbereiten
 $servername = "localhost";
 $username = "todo";
-$password = "[deine_passwort]";
+$password = "[your_password]";
 $dbname = "todowebsite";
 
-// Create Connection
+// Verbindung erstellen
 $conn = new mysqli($servername, $username, $password, $dbname);
 
-// Check whether the connection was successful, if not return an error
+// Verbindung prüfen, bei Fehler abbrechen
 if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }
 
-// Run an SQL query to return entries from the table and set it as the result variable
+// SQL-Abfrage, um Einträge abzurufen
 $sql = "SELECT id, name, is_completed, creation_date FROM todoitems ORDER BY creation_date DESC";
 $result = $conn->query($sql);
 ?>
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
   <head>
-      <meta charset="UTF--8">
+      <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>To-Do List</title>
+      <title>To-Do Liste</title>
   </head>
   <body>
-      <h1>Awesome To-Do List :D</h1>
-      <p>For our awesome ZAP-Hosting guide: <a href="https://zap-hosting.com/guides/docs/Dedicated Server-linux-lemp-stack">https://zap-hosting.com/guides/docs/Dedicated Server-linux-lemp-stack</a></p>
+      <h1>Coole To-Do Liste :D</h1>
+      <p>Für unseren coolen ZAP-Hosting Guide: <a href="https://zap-hosting.com/guides/docs/vserver-linux-lemp-stack">https://zap-hosting.com/guides/docs/vserver-linux-lemp-stack</a></p>
       <ul>
           <?php
-          // Check whether there are any results
+          // Prüfen, ob Ergebnisse vorhanden sind
           if ($result->num_rows > 0) {
-              // Loop through each item of the returned array from the query
+              // Durch alle Einträge iterieren
               foreach ($result as $entry) {
                   echo "<li>";
-                  // Display the name and use htmlspecialchars to prevent XSS (cross-site scripting)
+                  // Name anzeigen, htmlspecialchars schützt vor XSS
                   echo htmlspecialchars($entry["name"]);
 
-                  // Display the completion status
+                  // Status anzeigen
                   if ($entry["is_completed"]) {
-                      echo " <strong>(Completed)</strong>";
+                      echo " <strong>(Abgeschlossen)</strong>";
                   } else {
-                      echo " <strong>(Incomplete)</strong>";
+                      echo " <strong>(Offen)</strong>";
                   }
 
-                  // Display creation date
-                  echo " - Creation Date: " . htmlspecialchars($entry['creation_date']);
+                  // Erstellungsdatum anzeigen
+                  echo " - Erstellungsdatum: " . htmlspecialchars($entry['creation_date']);
                   echo "</li>";
               }
           } else {
-              // If none are found, return a default message
-              echo "<li>No to-do items found.</li>";
+              // Falls keine Einträge vorhanden sind
+              echo "<li>Keine To-Do-Einträge gefunden.</li>";
           }
           ?>
       </ul>
@@ -339,23 +350,25 @@ $result = $conn->query($sql);
 </html>
 
 <?php
-// Close database connection
+// Verbindung schließen
 $conn->close();
 ?>
 ```
 
-Wenn du das in den Nano-Editor kopiert hast, speicher die Datei und beende Nano mit `STRG + X`, dann `Y` zum Bestätigen und zum Schluss `ENTER`.
+Speichere die Datei und verlasse nano mit `CTRL + X`, dann `Y` und `ENTER`.
 
-#### Die Website testen
+#### Website testen
 
-Du hast alles richtig gemacht und eine Test-To-Do-Website eingerichtet, die alle Teile des LEMP-Stacks nutzt! Jetzt solltest du über die Domain (mit `http`/Port 80), die du vorher in der virtuellen Hostdatei festgelegt hast, auf die Website zugreifen können. In diesem Beispiel ist das `zapdocs.example.com`. Das Endergebnis sollte so aussehen:
+Du hast erfolgreich eine Test-To-Do-Website eingerichtet, die alle Komponenten des LEMP-Stacks nutzt!
+
+Du solltest die Website jetzt über die Domain (Port 80 / http) erreichen können, die du im Serverblock definiert hast, z.B. `zapdocs.example.com`. Das Ergebnis sollte so aussehen:
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/NgK2n8xN3wZPLeP/preview)
 
-## Abschluss
+## Fazit
 
-Glückwunsch, du hast den LEMP-Stack erfolgreich installiert und eingerichtet! Als nächsten Schritt empfehlen wir dir dringend, eine Domain und ein **SSL-Zertifikat** einzurichten, um sicherzustellen, dass Daten sicher auf deine Websites übertragen werden. Schau dir unsere [Certbot-Anleitung](Dedicated Server-linux-certbot.md#webroot-plugin) an, insbesondere den Abschnitt zum **Nginx-Plugin**, und folge den interaktiven Einrichtungsanweisungen, um schnell und einfach ein Zertifikat für deine Domain einzurichten.
+Glückwunsch, du hast den LEMP-Stack erfolgreich installiert und eingerichtet! Als nächsten Schritt empfehlen wir **dringend**, eine Domain und ein **SSL-Zertifikat** einzurichten, damit deine Daten sicher übertragen werden. Schau dir dazu unsere [Certbot-Anleitung](vserver-linux-certbot.md) mit Fokus auf das **Nginx-Plugin** an und folge der interaktiven Einrichtung, um schnell und einfach ein Zertifikat für deine Domain zu bekommen.
 
-Für weitere Fragen oder Hilfe zögere bitte nicht, unser Support-Team zu kontaktieren, das dir täglich zur Verfügung steht! 🙂
+Bei Fragen oder Problemen steht dir unser Support-Team täglich zur Verfügung – zögere nicht, uns zu kontaktieren! 🙂
 
 <InlineVoucher />

@@ -1,7 +1,7 @@
 ---
 id: stormworks-becomeadmin
-title: "Stormworks: Stormworks Admin werden - Gameserver von ZAP-Hosting"
-description: Anleitung, wie du dich zum Admin für Stormworks Gameserver machst - ZAP-Hosting.com Dokumentation 
+title: "Stormworks: Werde Stormworks Admin"
+description: "Entdecke, wie du deinen Gameserver mit voller Admin-Kontrolle verwaltest und die Serververwaltung erleichterst → Jetzt mehr erfahren"
 sidebar_label: Admin werden
 services:
   - gameserver-stormworks
@@ -10,36 +10,36 @@ services:
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
-Die Zuweisung von Administratorberechtigungen ermöglicht dir eine einfache und umfangreiche Verwaltung mit voller Kontrolle deines Servers. Als Administrator hast du die Möglichkeit alle verfügbaren Optionen und Funktionen, die das Spiel bereitstellt, direkt im Spiel anzuwenden. Im folgenden werden dir alle notwendigen Schritte erläutert, die du benötigst, um dir die Administratorberechtigungen für deinen Server zuzuweisen. 
+Die Vergabe von Administratorrechten ermöglicht dir eine einfache und umfassende Verwaltung mit voller Kontrolle über deinen Server. Als Admin kannst du alle verfügbaren Optionen und Funktionen, die das Spiel direkt bietet, nutzen. Alle Schritte, die du zur Vergabe von Administratorrechten für deinen Server durchführen musst, werden im Folgenden beschrieben.  
 <InlineVoucher />
 
 ### Konfiguration
 
-Klicke im Webinterface deines Gameservers links unter Einstellungen auf "Configs":
+Klicke im Webinterface deines Gameservers unter Einstellungen auf „Configs“:
 
-![404-325-max](https://screensaver01.zap-hosting.com/index.php/s/CGPMLcRTjKAmtdF/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/JgnbqrjwwZB7gsT/preview)
 
-Jetzt siehst du die "Stormworks server_config.xml". Klicke zum Bearbeiten auf den blauen Stift:
+Du siehst jetzt die „Stormworks server_config.xml“. Klicke auf den blauen Stift, um sie zu bearbeiten:
 
-![752-69-max](https://screensaver01.zap-hosting.com/index.php/s/gHcMfxHbEPN5rfN/preview)
+![752-69-max](https://screensaver01.zap-hosting.com/index.php/s/n7MdydSkB2CaBmW/preview)
 
-Anschließend kannst du in der Sektion "admin" eine Steam64ID hinzufügen, welche Admin Rechte erhalten soll:
+Danach kannst du im Abschnitt „admin“ eine Steam64ID hinzufügen, die Adminrechte erhalten soll:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/68LsAWRmDoYzmTY/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/jTbdLBEpTT7rasF/preview)
 
-Wenn du weitere Admins hinzufügen möchtest, trage sie untereinander ein:
+Wenn du mehrere Admins hinzufügen möchtest, füge sie einzeln hinzu:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/2Fait3TFez7DXD8/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/EJts4nQ4JtfHQEQ/preview)
 
-Nachdem du die Admins eingetragen hast, kannst du die Config mit dem "Speichern" Button speichern:
+Nachdem du die Admins eingetragen hast, kannst du die Konfiguration mit dem „Speichern“-Button sichern:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/5Wjtz9q3D84xbda/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/zYDPRazLsAAA3xr/preview)
 
-Starte nun deinen Server neu, damit alle eingetragenen Steam64IDs ihre Admin-Berechtigungen erhalten. 
+Starte deinen Server jetzt neu, damit alle eingetragenen Steam64IDs ihre Adminrechte erhalten. 
 
 
-## Abschluss
+## Fazit
 
-Glückwunsch, du hast erfolgreich die Administratorberechtigungen konfiguriert. Für weitere Fragen oder Hilfe zögere bitte nicht, unser Support-Team zu kontaktieren, das dir täglich zur Verfügung steht! 🙂
+Glückwunsch, du hast die Administratorrechte erfolgreich konfiguriert. Bei weiteren Fragen oder wenn du Hilfe brauchst, steht dir unser Support-Team täglich zur Verfügung! 🙂
 
 <InlineVoucher />

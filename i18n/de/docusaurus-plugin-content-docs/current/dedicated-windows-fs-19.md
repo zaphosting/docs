@@ -1,8 +1,8 @@
 ---
 id: dedicated-windows-fs-19
-title: "Dedicated Server: Landwirtschafts-Simulator 2019 Dedicated Server Einrichtung"
-description: Informationen wie du einen Landwirtschafts-Simulator Dedizierter Server 2019 auf deinem Dedizierter Server von ZAP-Hosting installieren und einrichten kannst - ZAP-Hosting.com Dokumentation
-sidebar_label: Landwirtschafts-Simulator 2019
+title: "Dedicated Server: Farming Simulator 2019 Dedicated Server Windows Setup"
+description: "Entdecke, wie du einen Farming Simulator Dedicated Server 2019 auf deinem Windows VPS oder Dedicated Server schnell und effizient einrichtest → Jetzt mehr erfahren"
+sidebar_label: Farming Simulator 2019
 services:
   - dedicated
 ---
@@ -11,88 +11,88 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
 
-Hast du einen Windows Dedicated Server und möchtest darauf einen Landwirtschafts-Simulator 2019 Dedicated Server installieren? Dann bist du hier genau richtig. In dieser Anleitung erklären wir dir Schritt für Schritt, wie du diesen Dienst auf deinem Server installierst.
+Du hast einen Windows VPS oder Dedicated Server und möchtest darauf den Farming Simulator Dedicated Server 2019 installieren? Dann bist du hier genau richtig. In dieser Anleitung erklären wir dir Schritt für Schritt, wie du diesen Service auf deinem Server einrichtest.
 
 <InlineVoucher />
 
 ## Vorbereitung
-Es wird ein Server, basierend auf Windowsserver 2016/2019, mit mindestens 4x 2,4 GHz CPU (AMD/Intel) sowie mindestens 2 GB RAM (DDR3/4) und 6 GB freien Speicher (SSD oder besser, bevorzugt) benötigt. Der Server muss auf der 64 Bit Architektur laufen. 
-Des Weiteren wird eine eigene Spiellizenz benötigt (keine Steam Version), sowie eine öffentliche IPv4 Adresse. Eine GPU oder eine Soundkarte sind für den Dedizierter Server nicht notwendig. 
-Je nachdem, wie stark der dedizierter Server modifiziert wird, mit Mods oder mit DLCs erweitert wird, sind ggf. mehr Ressourcen nötig. 
 
+Benötigt wird ein Server mit Windows Server 2016/2019, mindestens 4x 2,4 GHz CPU (AMD/Intel), mindestens 2GB RAM (DDR3/4) und 6GB freiem Speicherplatz (SSD oder besser, bevorzugt). Der Server muss auf 64-Bit-Architektur laufen.  
+Außerdem wird eine eigene GameLicense benötigt (keine Steam-Version) sowie eine öffentliche IPv4-Adresse. Eine GPU oder Soundkarte sind für den Dedicated Server nicht erforderlich.  
+Je nachdem, wie stark der Dedicated Server mit Mods oder DLCs erweitert wird, können mehr Ressourcen nötig sein.
 
-## Schritt 1 Digitale Lizenz erwerben
+## Schritt 1 Digitale Lizenz kaufen
 
-Es wird eine digitale Version des Landwirtschafts-Simulator 2019 benötigt, es darf keine Steam Version sein. 
-Die digitale Version kann auf der [Landwirtschafts-Simulator Webseite](https://www.farming-simulator.com/buy-now.php?lang=de&country=de&platform=pcdigital) erworben werden.
-Nachdem die digitale Version erworben wurde, kann der Landwirtschafts-Simulator online heruntergeladen werden, folge dazu dem [Link](https://eshop.giants-software.com/downloads.php) aus der Mail, die du von Giants erhalten hast.
+Du brauchst eine digitale Version von Farming Simulator 2019, die Steam-Version ist nicht erlaubt.  
+Die digitale Version kannst du auf der [Farming Simulator Webseite](https://www.farming-simulator.com/buy-now.php?lang=de&country=de&platform=pcdigital) kaufen.  
+Nach dem Kauf kannst du Farming Simulator online über den Link in der Mail von Giants herunterladen: [Link](https://eshop.giants-software.com/downloads.php).  
 :::info
-Wichtig: In der Mail befindet sich der Spiellizenz, der zum Download als auch zur späteren Aktivierung der Installation benötigt wird. 
+Wichtig: In der Mail findest du den GameKey, der für den Download und die spätere Aktivierung der Installation benötigt wird.  
 :::
 
-![](https://screensaver01.zap-hosting.com/index.php/s/KbccgYdHFLp3gWp/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/bR9YqJ5xXFwaWky/preview)
 
-## Schritt 2 Download des Landwirtschafts-Simulators direkt auf deinen Windows Server
+## Schritt 2 Farming Simulator direkt auf deinem Windows Server herunterladen
 
-Verbinde dich via RDP [Erstzugang (RDP)](vserver-windows-userdp.md) zu deinem Windowsserver. Nachdem du verbunden bist, öffne den Browser und rufe erneut den [Link](https://eshop.giants-software.com/downloads.php) aus der Mail auf. Gebe dort dann deine Spiellizenz ein und wähle dann den Download für Windows8/10. 
+Verbinde dich via [Initial Access (RDP)](vserver-windows-userdp.md) mit deinem Windows Server. Öffne danach den Browser und gehe erneut auf den Link aus der Mail: [Link](https://eshop.giants-software.com/downloads.php). Gib deinen GameKey ein und wähle den Download für Windows 8/10 aus.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/YaSo85pefHf5r5n/preview)
 
-Anschließend wird die Datei heruntergeladen und sollte sich dann im Download Verzeichnis befinden. (Das Downloadverzeichnis kann abweichend sein)
+Die Datei wird heruntergeladen und sollte im Download-Ordner liegen (der Download-Ordner kann variieren).
 
+![](https://screensaver01.zap-hosting.com/index.php/s/2nPDeWB97FXoFer/preview)
 
-![](https://screensaver01.zap-hosting.com/index.php/s/YZaRsXW99TMEFAw/preview)
+Mit einem Doppelklick öffnest du die Datei und kannst die Setup.exe starten.  
+Danach liest du die AGB und bestätigst sie. Die Installation kann als Standard oder Custom durchgeführt werden, normalerweise reicht Standard aus.  
+Klicke abschließend auf Installieren – die Installation von Farming Simulator 2019 startet und kann ein paar Minuten dauern.
 
-Mit einem Doppelklick wird die Datei geöffnet und es kann die Setup.exe ausgeführt werden.
-Anschließend liest man die AGB und bestätigt sie. Danach kann die Installation als Standard oder Benutzerdefiniert erfolgen, in der Regel reicht Standard aus. 
-Zum Abschluss klickt man auf installieren und der Landwirtschafts-Simulator 2019 wird nun installiert, dies kann einige Minuten dauern. 
+![](https://screensaver01.zap-hosting.com/index.php/s/agaffABodEkxrse/preview)
 
-![](https://screensaver01.zap-hosting.com/index.php/s/5A2efQGi4yk3fjw/preview)
+Sobald die Installation abgeschlossen ist, erscheint folgende Meldung, die du mit „Fertigstellen“ bestätigst.
 
-Sobald der Installationsvorgang beendet ist, erscheint folgende Meldung, welche mit "Fertigstellen" bestätigt werden kann. 
+![](https://screensaver01.zap-hosting.com/index.php/s/48n27oNSxe2srRN/preview)
 
-![](https://screensaver01.zap-hosting.com/index.php/s/BbET9BNdjQMdCLN/preview)
+Die Grundinstallation ist jetzt abgeschlossen.
 
-Die Basis-Installation ist jetzt abgeschlossen. 
+## Schritt 3 Spiel aktivieren und Dedicated Server konfigurieren
 
-## Schritt 3 Aktivierung des Games und Konfiguration des Dedizierter Servers
-
-Jetzt muss der Landwirtschafts-Simulator gestartet werden. Auf dem Desktop sollte eine Verknüpfung liegen, falls nicht, kann er auch über das Windows Menü gestartet werden. 
-Fehler bezüglich einer fehlenden GPU oder ähnliches können ignoriert bzw. mit Nein/Abbrechen geschlossen werden. Der Landwirtschafts-Simulator muss nur gestartet werden, um den Key eingeben zu können. 
+Starte jetzt den Farming Simulator. Es sollte eine Verknüpfung auf dem Desktop geben, falls nicht, kannst du das Spiel auch über das Windows-Menü starten.  
+Fehlermeldungen wegen fehlender GPU oder ähnlichem kannst du ignorieren oder mit Nein/Abbrechen schließen. Farming Simulator muss nur gestartet werden, um den Key eingeben zu können.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/CK6izaPpk7JLi67/preview)
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SqrNNYyHZ9Cwqps/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/9Jc4oE3t43em4nf/preview)
 
-Sobald der Key anerkannt wurde, erscheint eine Bestätigung. 
+Sobald der Key erkannt wurde, erscheint eine Bestätigung.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/RS9QGLspjeA4Pf2/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/jPqAggmfjQjxgei/preview)
 
-Jetzt muss in der Config des Dedizierter Servers ein Login Name und Passwort gesetzt bzw. geändert/ausgelesen werden, damit ein Login in das Webinterface des Dedizierter Servers möglich ist. 
-Die Config ist in der Standardinstallation unter 
-`C:\Program Files (x86)\Landwirtschafts-Simulator 2019` zu finden unter dem Namen `"dedicatedServer.xml"`. 
-Die Logindaten können frei angepasst werden. 
+Jetzt musst du einen Login-Namen und ein Passwort festlegen oder in der Config des Dedicated Servers auslesen/ändern, damit du dich später im Webinterface des Dedicated Servers anmelden kannst.  
+Die Config findest du in der Standardinstallation unter  
+`C:\Program Files (x86)\Farming Simulator 2019` unter dem Namen `"dedicatedServer.xml"`.  
+Die Login-Daten kannst du frei anpassen.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/wDcfAgymENcJ3Aa/preview)
 
-## Schritt 4 Landwirtschafts-Simulator 2019 Dedizierter Server starten
+## Schritt 4 Farming Simulator 2019 Dedicated Server starten
 
-Um den Dedizierter Server zu starten, muss im gleichen Verzeichnis, wo auch die `"dedicatedServer.xml"` liegt, die `"dedicatedServer.exe"` ausgeführt werden.
+Um den Dedicated Server zu starten, muss `"dedicatedServer.exe"` im gleichen Verzeichnis wie `"dedicatedServer.xml"` ausgeführt werden.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/5YGepFzoR9bHAcF/preview)
 
-Anschließend kann das Webinterface unter `https://SERVER-IP:8080` geöffnet werden.
+Danach kannst du das Webinterface über `https://SERVER-IP:8080` öffnen.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/ybm8aEYLN2ECJJr/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/Dfz7c35dpzPS9NK/preview)
 
-Der Login ist mit den zuvor gesetzten/ausgelesenen Login Daten aus der `"dedicatedServer.xml"` möglich. 
-Die weitere Konfiguration ist im Webinterface selbsterklärend und kann mit wenigen Klicks vorgenommen werden, ganz nach den persönlichen Wünschen. 
+Die Anmeldung erfolgt mit den zuvor gesetzten/ausgelesenen Login-Daten aus der `"dedicatedServer.xml"`.  
+Die weitere Konfiguration im Webinterface ist selbsterklärend und kann mit wenigen Klicks nach deinen Wünschen angepasst werden.
 
-## Schritt 5 Ports freischalten in der Firewall
+## Schritt 5 Ports in der Firewall freischalten
 
-Der Server soll natürlich öffentlich erreichbar sein, um mit Freunden spielen zu können. Dazu müssen die Ports des Servers in der Windows Firewall freigeschaltet werden. Es müssen die Ports 10823 und 8080 freigegeben werden für das Protokoll TCP. 10823 ist dabei der Spielserver-Port und 8080 ist der Webport für das Webinterface, der Webport muss nur bei Bedarf freigegeben werden, eine Verwaltung kann auch weiterhin nur lokal auf dem Windows Server erfolgen via RDP. 
-Wie Ports bei Windows freigeschaltet werden können, eklären wir hier:[Portweiterleitung (Firewall)](vserver-windows-port.md). 
+Der Server sollte natürlich öffentlich erreichbar sein, um mit Freunden zu spielen. Dafür müssen die Ports des Servers in der Windows-Firewall freigegeben werden.  
+Die Ports 10823 und 8080 müssen für das TCP-Protokoll freigegeben werden. 10823 ist der Gameserver-Port, 8080 ist der Webport für das Webinterface. Der Webport muss nur freigegeben werden, wenn du das Webinterface von außen erreichen möchtest – die Administration ist auch lokal über RDP auf dem Windows Server möglich.  
+Wie du Ports unter Windows freigibst: [Portfreigabe (Firewall)](vserver-windows-port.md).
 
-Nach der Port Freigabe ist der Server öffentlich erreichbar, sofern er gestartet wurde. 
+Nach der Portfreigabe ist der Server öffentlich erreichbar, sofern er gestartet wurde.
 
 <InlineVoucher />

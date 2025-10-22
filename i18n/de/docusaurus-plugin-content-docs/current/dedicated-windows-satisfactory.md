@@ -1,7 +1,7 @@
 ---
 id: dedicated-windows-satisfactory
-title: "Dedicated Server: Satisfactory Dedicated Server Einrichtung"
-description: Informationen zum Einrichten eines Satisfactory Dedicated Server auf einem Dedicated Server - ZAP-Hosting.com Dokumentation
+title: "Dedicated Server: Satisfactory Dedicated Server Windows Setup"
+description: "Lerne, wie du einen Satisfactory Dedicated Server auf deinem Server einrichtest für nahtloses Gameplay und einfache Verwaltung → Jetzt mehr erfahren"
 sidebar_label: Satisfactory
 services:
   - dedicated
@@ -11,78 +11,80 @@ import YouTube from '@site/src/components/YouTube/YouTube';
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
-Du hast einen Windows Dedicated Server und möchtest darauf unter anderem Gameserver installieren? Beispielsweise einen Satisfactory Dedicated Server? Dann bist du hier genau richtig! Im Folgenden werden wir dir Schritt für Schritt erklären, wie du solch einen Dienst auf deinem Server installieren kannst.
+Du hast einen Dedicated Server und willst darauf Gameserver installieren? Zum Beispiel einen Satisfactory Dedicated Server? Dann bist du hier genau richtig! Im Folgenden erklären wir dir Schritt für Schritt, wie du so einen Service auf deinem Server installierst.
 
-<YouTube videoId="rqtQJa_awGw" imageSrc="https://screensaver01.zap-hosting.com/index.php/s/sjCCn9w79LTXC3C/preview" title="Satisfactory Dedicated Server Setup on Windows VPS" description="Hast du das Gefühl, dass du etwas besser verstehst, wenn du es in Aktion siehst? Wir haben etwas für dich! Tauche ab in unser Video, welches alles für dich zusammenfasst. Egal, ob du es eilig hast oder einfach nur Informationen auf möglichst verständliche Art und Weise aufnehmen möchtest!"/>
+<YouTube videoId="rqtQJa_awGw" imageSrc="https://screensaver01.zap-hosting.com/index.php/s/gp82J4xr9T5Y969/preview" title="Satisfactory Dedicated Server Setup auf Windows VPS" description="Du verstehst besser, wenn du Dinge in Aktion siehst? Kein Problem! Schau dir unser Video an, das alles für dich erklärt. Egal ob du es eilig hast oder einfach lieber auf die spannendste Art lernst!"/>
 
 <InlineVoucher />
 
 ## Vorbereitung
-Verbinde dich für die Einrichtung deines Satisfactory Dedicated Server mit deinem vServer per RDP. Solltest du noch nicht wissen, wie du dich per RDP mit deinem Server verbinden kannst, dann empfehlen wir einen Blick in die [Erstzugang (RDP)](vserver-windows-userdp.md) Anleitung zu werfen. Für die Einrichtung eines Satisfactory Servers wird die SteamCMD benötigt. Die SteamCMD ist die **Kommandozeilen-Edition des Steam-Clients**. Über dieses Tool können schnell und einfach die Dedicated-Server-Anwendungen beliebter Steam-Games heruntergeladen werden. Die SteamCMD findest du auf der offiziellen Valve Entwickler Webseite: https://developer.valvesoftware.com/wiki/SteamCMD 
 
-Im Anschluss erfolgt der Download. Dieser beinhaltet die **steamcmd.zip** Datei, welche zunächst entpackt werden muss. Erstelle dafür am besten einen separaten Ordner, wo die Datei dann entpackt wird. Als Resultat solltest du nun die **steamcmd.exe** sehen. Führe diese aus und warte, bis der Installationsprozess abgeschlossen ist. 
+Für die Einrichtung eines Satisfactory Servers wird SteamCMD benötigt. SteamCMD ist die **Kommandozeilen-Version des Steam Clients**. Mit diesem Tool kannst du schnell und einfach die Dedicated Server Anwendungen beliebter Steam-Games herunterladen. SteamCMD findest du auf der offiziellen Valve Entwicklerseite: https://developer.valvesoftware.com/wiki/SteamCMD. 
 
-![](https://screensaver01.zap-hosting.com/index.php/s/N3N6YDBZm2nQYbL/preview)
+Danach erfolgt der Download. Dieser enthält die **steamcmd.zip** Datei, die zuerst entpackt werden muss. Es empfiehlt sich, einen eigenen Ordner anzulegen, in den die Datei entpackt wird. Am Ende solltest du die **steamcmd.exe** sehen. Starte diese und warte, bis der Installationsprozess abgeschlossen ist.
 
-Sobald die Meldung **Loading Steam API... OK** angezeigt wird, wurde der Vorgang erfolgreich abgeschlossen und es kann mit der Installation des Satisfactory Servers begonnen werden. 
+![](https://screensaver01.zap-hosting.com/index.php/s/9EaPpm3NWadXTx5/preview)
+
+Sobald die Meldung **Loading Steam API.... OK** erscheint, ist der Prozess erfolgreich abgeschlossen und du kannst mit der Installation des Satisfactory Servers starten.
 
 
 
 ## Installation
 
-Nach der Installation solltest du die Möglichkeit haben, Befehle in der **Steam Kommandozeile (steamcmd.exe)** auszuführen. Dort ist nun der Login notwendig. Diesen führen wir über den **anonymous** Benutzer durch. Führe dafür folgenden Befehl durch: `login anonymous`
+Nach der Installation solltest du Befehle in der **Steam Kommandozeile (steamcmd.exe)** ausführen können. Dort musst du dich einloggen. Das geht mit dem Benutzer **anonymous**. Führe folgenden Befehl aus: `login anonymous`
 
-Als nächstes erfolgt die Installation. Diese wird mit dem `app_update 1690800` Befehl durchgeführt. Die App ID **1690800** steht in dem Fall für die **Satisfactory Dedicated Server** Applikation. 
+Der nächste Schritt ist die Installation. Diese erfolgt mit dem Befehl `app_update 1690800`. Die App ID **1690800** steht für die **Satisfactory Dedicated Server** Anwendung.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/KTropz3j4a5cXfb/preview)
-
-
-
->Bitte unterbreche den Vorgang nicht, bevor er abgeschlossen ist, um Fehler zu vermeiden. Es kann einen Moment dauern, aber es lohnt sich, geduldig zu sein! :)
+![](https://screensaver01.zap-hosting.com/index.php/s/KtzJ3AaYJk7BJEt/preview)
 
 
-
-Navigiere nun in das Verzeichnis, wo du die Installation durchgeführt hast, und gehe dort in das folgende Unterverzeichnis: **../steamapps/common/SatisfactoryDedicatedServer**
-
-Dort muss als Nächstes die Startdatei angelegt werden, welche zum Ausführen der Server Software benötigt wird. Erstelle dafür eine Datei mit dem folgenden Namen: server-start.bat
 
 :::info
-Bitte stelle sicher, dass du die Dateiendungen anzeigen Option aktiv hast, damit auch die richtige Dateiendung verwendet wird. 
+Bitte unterbrich den Prozess nicht, bevor er abgeschlossen ist, um Fehler zu vermeiden. Es kann einen Moment dauern, aber Geduld zahlt sich aus! :)
 :::
 
 
 
-Öffne diese Datei im Anschluss, füge den folgenden Inhalt hinzu und speichere die neu hinzugefügten Veränderung:
+Wechsle in das Verzeichnis, in dem du die Installation durchgeführt hast, und navigiere in den Unterordner: **../steamapps/common/SatisfactoryDedicatedServer**
+
+Dort musst du die Startdatei erstellen, die zum Ausführen der Serversoftware benötigt wird. Erstelle eine Datei mit folgendem Namen: server-start.bat
+
+:::info
+Achte darauf, dass die Option „Dateinamenerweiterungen anzeigen“ aktiviert ist, damit die richtige Dateiendung verwendet wird.
+:::
+
+Öffne die Datei, füge folgenden Inhalt ein und speichere die Änderungen:
 
 ```
 Factoryserver.exe -log -unattended
 ```
 
-Im Anschluss wird die Datei ausgeführt. Bei dem ersten Startvorgang sollte ein Popup Fenster scheinen, in dem mitgeteilt wird, dass gewisse Komponenten notwendig sind, um das Programm auszuführen. Das Spiel benötigt die Visual C++ Runtime. Klicke auf Ja und führe die Installation durch. 
-
-Damit der Server auch extern sichtbar und erreichbar ist, müssen die verwendeten Server Ports in der Firewall freigeschaltet/weitergeleitet werden. Öffne dazu die Windows Firewall Einstellungen. 
-
-![](https://screensaver01.zap-hosting.com/index.php/s/jJfLN4cZTyEE3bM/preview)
 
 
+Führe die Datei anschließend aus. Beim ersten Start sollte ein Popup erscheinen, das dich darauf hinweist, dass bestimmte Komponenten zum Ausführen des Programms benötigt werden. Das Spiel benötigt die Visual C++ Runtime. Klicke auf Ja und schließe die Installation ab. 
 
-In den Einstellungen müssen nun weitere Regeln angelegt werden. Klicke dazu jeweils, wie im Folgenden beschrieben, auf die eingehenden und ausgehenden Regeln und füge diese für das UDP Protokoll und den Port 15000 hinzu.
+Damit der Server sichtbar und von außen erreichbar ist, müssen die verwendeten Server-Ports in der Firewall freigegeben/weitergeleitet werden. Öffne dazu die Windows Firewall Einstellungen.
+
+![](https://screensaver01.zap-hosting.com/index.php/s/dy6AwJsT8XBpdXr/preview)
+
+
+In den Einstellungen müssen zusätzliche Regeln hinzugefügt werden. Klicke dazu auf die eingehenden und ausgehenden Regeln wie unten beschrieben und füge sie für das UDP-Protokoll und Port 15000 hinzu.
 
 
 
 ## Konfiguration
 
-Die eigentliche Einrichtung ist damit bereits abgeschlossen. Weitere Änderungen bezüglich der Konfiguration kannst du über die **ServerSettings.ini** Konfigurationsdatei vornehmen. Dort hast du die Möglichkeit den Server Name, Server Passwort und weitere Optionen vorzunehmen. Navigiere dazu in das folgende Verzeichnis: 
+Die eigentliche Einrichtung ist damit schon abgeschlossen. Weitere Konfigurationsänderungen kannst du in der **ServerSettings.ini** Datei vornehmen. Dort kannst du z.B. den Servernamen, das Serverpasswort und andere Optionen anpassen. Navigiere dazu in folgendes Verzeichnis: 
 
 ```
 ../steamapps/common/SatisfactoryDedicatedServer/FactoryGame/Saved/Config/WindowsServer/
-
 ```
 
 
 
 ## Spielen
 
-Zum Abschluss der Einrichtung kannst du nun den Server starten, indem du die zuvor erstellte **server-start.bat** Datei ausführst. Hierdurch sollte sich die Konsole des Servers öffnen und der Startprozess beginnen. Wenn alles wie erwartet verläuft, sollte der Server nach dem erfolgreichen Start in der Liste der Server sichtbar sein.
+Am Ende der Einrichtung kannst du den Server jetzt starten, indem du die zuvor erstellte **server-start.bat** Datei ausführst. Dadurch öffnet sich die Server-Konsole und der Server-Startprozess beginnt. Wenn alles wie erwartet läuft, sollte der Server nach erfolgreichem Start in der Serverliste sichtbar sein.
+
 
 <InlineVoucher />

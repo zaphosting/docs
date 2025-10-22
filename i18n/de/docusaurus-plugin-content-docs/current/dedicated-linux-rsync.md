@@ -1,7 +1,7 @@
 ---
 id: dedicated-linux-rsync
-title: "Dedicated Server: Backups von Linux Server mit Rsync anfertigen"
-description: Informationen, wie du mit Rsync Backups von deinem Linux Dedicated Server von ZAP-Hosting anfertigen kannst - ZAP-Hosting.com Dokumentation
+title: "Dedicated Server: Linux-Server mit Rsync sichern"
+description: "Entdecke, wie du effiziente lokale und Remote-Backups mit Rsync erstellst für zuverlässige Datensynchronisation und Schutz → Jetzt mehr erfahren"
 sidebar_label: Backups mit Rsync erstellen
 services:
   - dedicated
@@ -11,26 +11,26 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
 
-Mithilfe von Rsync können Backups angefertigt werden. Sie können auf dem lokalen System selber z. B. in ein anderes Verzeichnis/Laufwerk kopiert werden oder auf ein Remote System.
+Backups kannst du mit dem Tool Rsync machen. Sie können lokal auf dem System selbst in ein anderes Verzeichnis/Laufwerk oder auf ein Remote-System kopiert werden.  
 
 <InlineVoucher />
 
-## Kopieren von Daten in ein anderes lokales Verzeichnis oder Laufwerk:
+## Daten in ein anderes lokales Verzeichnis oder Laufwerk kopieren:
 
 :::info
-Achtung: Der erste Durchgang kann je nach Datenmenge deutlich länger dauern als weitere. Dies liegt daran, dass Rsync beim ersten Mal alle Daten synchronisiert, ab dem zweiten Mal werden nur noch veränderte Daten synchronisiert. 
+Achtung: Der erste Durchlauf kann je nach Datenmenge deutlich länger dauern als die folgenden. Das liegt daran, dass Rsync beim ersten Mal alle Daten synchronisiert, ab dem zweiten Mal nur noch geänderte Daten übertragen werden. 
 :::
->Es wird also dann ein inkrementelles Backup erstellt. 
+>So entsteht dann ein inkrementelles Backup.  
 
 ## Schritt 1
 
-Rsync kann mit folgendem Befehl installiert werden: 
+Rsync kannst du mit folgendem Befehl installieren:
 
 ```
 apt install rsync
 ```
 
-Nachdem es installiert wurde, kann es direkt genutzt werden. 
+Nach der Installation kannst du es direkt nutzen. 
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
@@ -39,138 +39,146 @@ import TabItem from '@theme/TabItem';
 <TabItem value="Tägliches Backup in ein lokales Verzeichnis/Laufwerk" label="Tägliches Backup in ein lokales Verzeichnis/Laufwerk">
 ## Schritt 2
 
-In diesem Beispiel soll der Ordner "Client" unter /home in den Ordner "Backups" unter /home synchronisiert werden. 
+In diesem Beispiel soll der Ordner Client unter /home mit dem Ordner Backup unter /home synchronisiert werden. 
 
-Das kann mit folgendem Befehl gemacht werden: 
+Das geht mit folgendem Befehl: 
 
 ```
 rsync -arz /home/Client /home/Backup
 ```
--a=Archivierung, die Attribute werden z. B. übernommen
+-a=Archivmodus, die Attribute werden mitkopiert
 <br/>
--r=Rekursiv, Unterordner werden mit synchronisiert
+-r=Rekursiv, Unterordner werden ebenfalls synchronisiert
 <br/>
--z=Komprimierung, je nach Datenmengen/Datengrößen wird komprimiert 
+-z=Kompression, je nach Datenmenge/-größe wird komprimiert
+
 
 Der Ordner wurde erfolgreich synchronisiert. 
 
+Wenn jetzt eine Datei etc. im Client-Ordner gelöscht wird, bleibt sie im Backup-Ordner erhalten.  
+Da die Dateien aber immer 1:1 synchron sein sollen, kann der rsync-Befehl einfach angepasst werden, damit auch Daten, die im Client-Ordner nicht mehr vorhanden sind, aus dem Backup-Ordner entfernt werden. 
 
-Wenn jetzt eine Datei etc. im Client Ordner gelöscht wird, so verbleibt sie weiterhin im Backup Ordner. Da das Datum aber immer 1:1 synchron sein sollen, kann der rsync Befehl leicht abgeändert werden, diese Änderung sorgt dann dafür, dass Daten etc. die im Client Ordner nicht mehr vorhanden sind auch im Backup Ordner entfernt werden. 
-
-Der leicht veränderte Befehl lautet: 
+Der angepasste Befehl lautet: 
 
 ```
 rsync -arz --delete /home/Client /home/Backup
 ```
--a=Archivierung, die Attribute werden z. B. übernommen
+-a=Archivmodus, die Attribute werden mitkopiert
 <br/>
--r=Rekursiv, Unterordner werden mit synchronisiert
+-r=Rekursiv, Unterordner werden ebenfalls synchronisiert
 <br/>
--z=Komprimierung, je nach Datenmengen/Datengrößen wird komprimiert
+-z=Kompression, je nach Datenmenge/-größe wird komprimiert
 <br/>
---delete= Löscht Daten, die in der Quelle nicht mehr vorhanden sind, aber im Ziel noch bestehen
+--delete= Löscht Daten, die in der Quelle nicht mehr existieren, aber noch im Ziel vorhanden sind
 
 ## Schritt 3
 
-Damit der Befehl nicht immer manuell ausgeführt werden muss, kann dieser einfach in ein Cronjob gesetzt werden. 
-Es soll z. B. täglich um 3 Uhr Morgens ein Backup erstellt werden: 
+Damit du den Befehl nicht immer manuell ausführen musst, kannst du ihn einfach in einen Cronjob packen.  
+Zum Beispiel soll täglich um 3 Uhr morgens ein Backup erstellt werden: 
 
-Crontab -e öffnen: 
+Öffne crontab -e:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/ZLnnrXc9WteZ6cK/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/KNewp9zMdWce3Zz/preview)
 
-Mit der Ziffer 1 kann "nano" als Editor genutzt werden.
-Mit der Ziffer 2 kann "vim" als Editor genutzt werden. 
+Mit der Nummer 1 kannst du "nano" als Editor nutzen.
+Mit der Nummer 2 kannst du "vim" als Editor nutzen.  
 
-Nachem die Datei z. B. mit Nano geöffnet wurde, kann ein Crontab generiert und eingetragen werden. 
-Ein Crontab kann z. B. mit diesem [Generator](https://crontab-generator.org/) erstellt werden. 
+Nachdem die Datei z.B. mit Nano geöffnet wurde, kannst du einen Cronjob erstellen und eintragen.  
+Einen Cronjob kannst du mit diesem [Generator](https://crontab-generator.org/) erstellen. 
 
-Der eingetragene Crontab sieht dann wie folgt aus: 
+Der eingetragene Cronjob sieht dann so aus: 
 
  ```
 0 3 * * * rsync --progress -arz --delete -e  "ssh -i /home/sshkey/keybackup" /home/Client/ root@123.123.123.123:/home/Backup/Home-Server1/ >/dev/null 2>&1
- ```
+```
 
-Jeden Tag um 3 Uhr morgens wird der Befehl ausgeführt und es wird ein Backup erstellt. 
+Jeden Tag um 3 Uhr morgens wird der Befehl ausgeführt und ein Backup erstellt. 
 
 </TabItem>
-<TabItem value="Tägliches Backup auf ein Remote System" label="Tägliches Backup auf ein Remote System">
+<TabItem value="Tägliches Backup auf ein Remote-System" label="Tägliches Backup auf ein Remote-System">
+
 ## Schritt 4
 
-In diesem Beispiel soll der Ordner "Client" unter /home in den Ordner "Backups" unter auf einem Remote System synchronisiert werden. Die Verbindung soll via SSH Key erfolgen, damit eine Sicherung ebenfalls automatisiert erfolgen kann.  
-
-:::info
-Wichtig: Auf dem Remote Server muss ebenfalls Rsync installiert sein. 
-:::
+In diesem Beispiel soll der Ordner Client unter /home mit dem Ordner Backup auf einem Remote-System synchronisiert werden. Die Verbindung erfolgt per SSH-Key, damit das Backup auch automatisiert werden kann.  
+>Wichtig: Rsync muss auch auf dem Remote-Server installiert sein.  
 >```
 >apt install rsync
->````
+>```
 
-Mit folgendem Befehl können z.b die Daten gesichert werden auf den Remote Host (Eigene Anpassung notwendig): 
+Zum Beispiel kannst du folgenden Befehl nutzen, um die Daten auf den Remote-Host zu sichern (Anpassung erforderlich): 
 
 ```
 rsync --progress -arz -e  "ssh -i /home/sshkey/keybackup" /home/Client/ root@123.123.123.123:/home/Backup/Home-Server1/
 ```
 
--a=Archivierung, die Attribute werden z.b übernommen
+-a=Archivmodus, die Attribute werden mitkopiert
 <br/>
--r=Rekursiv, Unterordner werden mit syncronisert
+-r=Rekursiv, Unterordner werden ebenfalls synchronisiert
 <br/>
--z=Komprimierung, je nach Datenmengen/Datengrößen wird komprimiert 
+-z=Kompression, je nach Datenmenge/-größe wird komprimiert
 <br/>
--e=Gibt denn SSH Port 22 an
-SSH Key angeben (Pfad)("ssh -i /home/sshkey/keybackup")= ssh -i /[Pfad zum Key]
-Zu sicherendes Verzeichnis angeben (/home/Client/)= /[Verzeichnis]
-RemoteHost(root@123.123.123.123:)= Login Name des Benutzers auf dem RemoteHost sowie Adresse angeben: name@IP/Domain
-Ziel Verzeichnis für die Daten auf dem RemoteHost(:/home/Backup/Home-Server1/)= :/[Pfad-zum-Ziel-Verzeichnis]
+-e=Legt den SSH-Port fest (Standard 22)
+<br/>
+SSH-Key angeben (Pfad)("ssh -i /home/sshkey/keybackup")= ssh -i /[Pfad zum Key]
+<br/>
+Zu sicherndes Verzeichnis angeben (/home/client/)= /[Verzeichnis]
+<br/>
+RemoteHost(root@123.123.123.123:)= Login-Name des Users auf dem RemoteHost und Adresse: name@IP/Domain
+<br/>
+Zielverzeichnis für die Daten auf dem RemoteHost(:/home/Backup/Home-Server1/)= :/[Pfad zum Zielverzeichnis]
 
-Wenn jetzt eine Datei etc. im Client Ordner gelöscht wird, so verbleibt sie weiterhin im Backup Ordner auf dem Remote Host. 
-Da die Date aber immer 1:1 syncron sein sollen, kann der rsync Befehl leicht abgeändert werden, diese Änderung sorgt dann dafür das Daten etc. die im Client Ordner nicht mehr vorhanden sind auch im Backup Ordner auf dem Remote Host entfernt werden. 
+Der Ordner/die Dateien wurden nach Ausführung des Befehls erfolgreich mit dem Remote-Verzeichnis synchronisiert/gespeichert.
+  
 
-Der leicht veränderte Befehl lautet: 
+Wenn eine Datei etc. im Client-Ordner gelöscht wird, bleibt sie im Backup-Ordner auf dem Remote-Host erhalten.  
+Da die Dateien aber immer 1:1 synchron sein sollen, kann der rsync-Befehl einfach angepasst werden, damit auch Daten, die im Client-Ordner nicht mehr vorhanden sind, aus dem Backup-Ordner auf dem Remote-Host entfernt werden. 
+
+Der angepasste Befehl lautet:
 
 ```
 rsync --progress -arz --delete -e  "ssh -i /home/sshkey/keybackup" /home/Client/ root@123.123.123.123:/home/Backup/Home-Server1/
 ```
--a=Archivierung, die Attribute werden z.b übernommen
+-a=Archivmodus, die Attribute werden mitkopiert
 <br/>
--r=Rekursiv, Unterordner werden mit syncronisert
+-r=Rekursiv, Unterordner werden ebenfalls synchronisiert
 <br/>
--z=Komprimierung, je nach Datenmengen/Datengrößen wird komprimiert 
+-z=Kompression, je nach Datenmenge/-größe wird komprimiert
 <br/>
---delete= Löscht Daten die in der Quelle nicht mehr vorhanden sind aber im Ziel noch bestehen
+--delete= Löscht Daten, die in der Quelle nicht mehr existieren, aber noch im Ziel vorhanden sind
 <br/>
--e=Gibt denn SSH Port 22 an
+-e=Legt den SSH-Port fest (Standard 22)
 <br/>
-SSH Key angeben (Pfad)("ssh -i /home/sshkey/keybackup")= ssh -i /[Pfad zum Key]
+SSH-Key angeben (Pfad)("ssh -i /home/sshkey/keybackup")= ssh -i /[Pfad zum Key]
 <br/>
-Zu sicherendes Verzeichnis angeben (/home/Client/)= /[Verzeichnis]
+Zu sicherndes Verzeichnis angeben (/home/client/)= /[Verzeichnis]
 <br/>
-RemoteHost(root@123.123.123.123:)= Login Name des Benutzers auf dem RemoteHost sowie Adresse angeben: name@IP/Domain
+RemoteHost(root@123.123.123.123:)= Login-Name des Users auf dem RemoteHost und Adresse: name@IP/Domain
 <br/>
-Ziel Verzeichnis für die Daten auf dem RemoteHost(:/home/Backup/Home-Server1/)= :/[Pfad-zum-Ziel-Verzeichnis]
+Zielverzeichnis für die Daten auf dem RemoteHost(:/home/Backup/Home-Server1/)= :/[Pfad zum Zielverzeichnis]
 
 ## Schritt 5
 
-Damit der Befehl nicht immer manuell ausgeführt werden muss, kann dieser einfach in ein Cronjob gesetzt werden. 
-Es soll z.b täglich um 3 Uhr Morgens ein Backup erstellt werden: 
+Damit du den Befehl nicht immer manuell ausführen musst, kannst du ihn einfach in einen Cronjob packen.  
+Zum Beispiel soll täglich um 3 Uhr morgens ein Backup erstellt werden: 
 
-Crontab -e öffnen: 
+Öffne crontab -e:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/ZLnnrXc9WteZ6cK/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/KNewp9zMdWce3Zz/preview)
 
-Mit der Ziffer 1 kann "nano" als Editor genutzt werden.
-Mit der Ziffer 2 kann "vim" als Editor genutzt werden. 
+Mit der Nummer 1 kannst du "nano" als Editor nutzen.
+Mit der Nummer 2 kannst du "vim" als Editor nutzen.  
 
-Nachem die Datei z.b mit Nano geöffnet wurde, kann ein Crontab generiert und eingetragen werden. 
-Ein Crontab kann z.b mit diesem [Generator](https://crontab-generator.org/) erstellt werden. 
+Nachdem die Datei z.B. mit Nano geöffnet wurde, kannst du einen Cronjob erstellen und eintragen.  
+Einen Cronjob kannst du mit diesem [Generator](https://crontab-generator.org/) erstellen. 
 
-Der eingetragene Crontab sieht dann wie folgt aus: 
+Der eingetragene Cronjob sieht dann so aus: 
+  
+  
  ```
 0 3 * * * rsync --progress -arz --delete -e  "ssh -i /home/sshkey/keybackup" /home/Client/ root@123.123.123.123:/home/Backup/Home-Server1/ >/dev/null 2>&1
- ```
+```
 
-Jeden Tag um 3 Uhr morgens wird der Befehl ausgeführt und es wird ein Backup erstellt. 
+Jeden Tag um 3 Uhr morgens wird der Befehl ausgeführt und ein Backup erstellt. 
 
 </TabItem>
 </Tabs>

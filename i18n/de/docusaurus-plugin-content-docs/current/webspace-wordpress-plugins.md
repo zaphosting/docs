@@ -1,7 +1,7 @@
 ---
 id: webspace-wordpress-plugins
 title: "Webspace: WordPress Plugins"
-description: Information dazu, wie du WordPress Plugins bei einem Webspace Produkt von ZAP-Hosting installierst  - ZAP-Hosting.com Dokumentation
+description: "Entdecke, wie du deine WordPress-Seite mit Plugins aufpeppen kannst, um Features hinzuzufügen und die Performance zu boosten → Jetzt mehr erfahren"
 sidebar_label: Plugins
 services:
   - webspace
@@ -11,32 +11,34 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
 
-WordPress ist von seinen Features und Funktionen her standardmäßig schon ziemlich umfangreich. Allerdings kann WordPress mit zusätzlichen Plugins noch weiter erweitert und spezifischer individualisiert werden, was dir noch mehr Möglichkeiten bietet. Diese Plugins eröffnen dir eine Fülle an neuen Funktionen, verbessern die Performance und ermöglichen es dir, eine einzigartige Website zu erstellen, die perfekt auf deine Ziele abgestimmt ist. In dieser Anleitung erfährst du, wie du WordPress-Plugins auf deinem Webspace-Produkt installiers
+WordPress bringt schon von Haus aus eine Menge Features und Funktionen mit. Aber mit zusätzlichen Plugins kannst du die Plattform noch viel individueller an deine Bedürfnisse anpassen. Diese Plugins eröffnen dir eine riesige Bandbreite an Möglichkeiten, um neue Features einzubauen, die Performance zu verbessern und eine einzigartige Website zu bauen, die perfekt zu deinen Zielen passt. In dieser Anleitung lernst du, wie du WordPress Plugins auf deinem Webspace-Produkt installierst.
+
+<InlineVoucher/>
 
 ## Installation
 
-Logge dich in Verwaltungsoberfläche von WordPress ein und navigiere in der Sidebar zu dem Menüpunkt Plugins. Dort angelangt siehst du nun oben den **Neues Plugin hinzufügen** Button. Klicke diesen.
+Logge dich zuerst ins WordPress Dashboard ein und geh im Sidebar-Menü auf den Punkt **Plugins**. Dort findest du oben den Button **Installieren** – klick den an.
 
-Es öffnet sich eine neue Seite, wo du zur Plugin Übersicht kommst. Dort findest du aufgelistetet Plugins, die du anhand Featured, Popular, Recommended und Favorites sortieren kannst. Daneben findest du rechts ein Suchfeld, wo du ebenfalls nach einem spezifischen Plugin suchen kannst. 
+Es öffnet sich eine neue Seite mit der Plugin-Übersicht. Hier kannst du durch die gelisteten Plugins stöbern, sortiert nach Vorgestellt, Beliebt, Empfohlen und Favoriten. Rechts findest du außerdem eine Suchleiste, mit der du gezielt nach einem bestimmten Plugin suchen kannst.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/KwndcojKwB8DeSp/download)
+![](https://screensaver01.zap-hosting.com/index.php/s/8yqT94dqFQZGCzp/download)
 
-Verschaffe dir einen Überblick über die verfügbaren Plugins und entscheide dich für das Plugin, welches du installieren möchtest. In diesem Beispiel wird nach dem bekannten **Contact Form 7** Plugin gesucht und installiert.
+Schau dir die verfügbaren Plugins an und wähle das aus, das du installieren möchtest. In diesem Beispiel suchen wir nach und installieren das beliebte Plugin **Contact Form 7**.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/ygm2P4yMpiiZDFY/download)
+![](https://screensaver01.zap-hosting.com/index.php/s/s45ag8yptMro4AD/download)
 
 ## Aktivierung
 
-Installierte Plugins sind standardmäßig nicht aktiviert. Das erkennst du an dem **Aktivieren** Button, der nach der Installation angezeigt wird. Klicke auf **Aktivieren**, um das Plugin zu aktivieren.
+Installierte Plugins sind nicht automatisch aktiviert. Das erkennst du am Button **Aktivieren**, der nach der Installation erscheint. Klick auf **Aktivieren**, um das Plugin zu starten.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/ng8XrowDxgrCeSK/download)
+![](https://screensaver01.zap-hosting.com/index.php/s/fqAdDb5YGWXZ7sB/download)
 
-## Aktualisierung
+## Updates
 
-Deine Plugins sollten immer auf dem neuesten Stand gehalten werden. WordPress erleichtert dir diese Aufgabe enorm. Wenn ein Update bereitsteht, zeigt dir WordPress dieses direkt in deiner Plugin Liste an und du kannst es mit einem Klick installieren. Um kleinere Updates kümmert sich WordPress automatisch. Bei größeren und manuellen Aktualisierungen ist es jedoch ratsam, vorab ein Backup der Webseite und der Datenbank zu erstellen. 
+Deine Plugins solltest du immer aktuell halten. WordPress macht dir das super easy: Sobald ein Update verfügbar ist, zeigt es dir das direkt in deiner Plugin-Liste an und du kannst es mit einem Klick installieren. Kleinere Updates laufen sogar automatisch. Bei größeren, manuellen Updates empfiehlt es sich aber, vorher ein Backup von deiner Website und Datenbank zu machen.
 
-## Abschluss
+## Fazit
 
-Glückwünsch, du hast dein erstes WordPress Plugins installiert. olltest du noch weitere Fragen oder Probleme haben, dann wende dich gerne an unser Support-Team, welches dir jeden Tag zur Verfügung steht! 
+Glückwunsch, du hast dein erstes WordPress Plugin erfolgreich installiert! Falls du noch Fragen hast oder Probleme auftauchen, steht dir unser Support-Team täglich zur Seite und hilft dir gern weiter!
 
 <InlineVoucher />

@@ -1,7 +1,7 @@
 ---
 id: vserver-linux-curl
-title: "VPS: Setup cURL on Linux"
-description: Informationen zur Einrichtung von cURL auf deinem Linux‑VPS von ZAP‑Hosting – ZAP‑Hosting.com Dokumentation
+title: "VPS: cURL auf Linux einrichten"
+description: "Entdecke, wie du cURL für effiziente Datenübertragungen und API-Tests einrichtest und optimierst → Jetzt mehr erfahren"
 sidebar_label: cURL installieren
 services:
   - vserver
@@ -13,61 +13,50 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
 
-cURL ist sowohl ein kostenloses Kommandozeilentool als auch eine Softwarebibliothek (libcURL) zum Übertragen von Daten über URLs. Es unterstützt eine große Bandbreite an Protokollen – darunter HTTP(S), FTP, SMTP, LDAP, MQTT und mehr – und wird häufig für Aufgaben wie das Herunterladen von Dateien, das Testen von APIs und die Automatisierung von Netzwerkprozessen verwendet.  
+cURL ist sowohl ein kostenloses Kommandozeilen-Tool als auch eine Software-Bibliothek (libcURL) zum Übertragen von Daten über URLs. Es unterstützt eine breite Palette von Protokollen – darunter HTTP(S), FTP, SMTP, LDAP, MQTT und mehr – und wird häufig für Aufgaben wie das Herunterladen von Dateien, das Testen von APIs und die Automatisierung von Netzwerkoperationen verwendet.
 
-Überlegst du, diesen Dienst selbst zu hosten? Wir führen dich Schritt für Schritt durch Einrichtung und Konfiguration und nennen alles, was du beachten musst.
+Du willst diesen Service selbst hosten? Wir führen dich Schritt für Schritt durch die Einrichtung und Konfiguration und zeigen dir alles, was du beachten musst.
 
 <InlineVoucher />
 
-
-
 ## Vorbereitung
 
-Bevor du **cURL** einrichtest, musst du dein System vorbereiten. Dazu gehört, dein Betriebssystem auf die neueste Version zu aktualisieren. Diese Vorbereitungen sorgen für eine stabile Umgebung und helfen, Probleme während oder nach der Installation zu vermeiden.
-
+Bevor du **cURL** einrichtest, solltest du dein System vorbereiten. Dazu gehört, dein Betriebssystem auf den neuesten Stand zu bringen. Diese Vorbereitung sorgt für eine stabile Umgebung und hilft, Probleme während oder nach der Installation zu vermeiden.
 
 ### System aktualisieren
-Damit dein System mit aktueller Software und den neuesten Sicherheitsverbesserungen läuft, solltest du zuerst Systemupdates durchführen. Führe dazu den folgenden Befehl aus:
+Um sicherzustellen, dass dein System mit der aktuellsten Software und den neuesten Sicherheitsupdates läuft, solltest du zuerst ein System-Update durchführen. Führe dazu folgenden Befehl aus:
 
 ```
 sudo apt update && sudo apt upgrade -y
 ```
-So stellst du sicher, dass dein System vor dem Fortfahren die neuesten Sicherheitspatches und Softwareversionen hat.
-
-
+So stellst du sicher, dass dein System vor der Installation die neuesten Sicherheitspatches und Softwareversionen hat.
 
 ## Installation
 
-Nachdem die notwendigen Vorbereitungen abgeschlossen sind, kannst du mit der Installation der cURL‑Anwendung fortfahren. Führe dazu den folgenden Befehl aus: 
+Nachdem die notwendigen Vorbereitungen abgeschlossen sind, kannst du mit der Installation von cURL starten. Führe dazu folgenden Befehl aus:
 
 ```console
-sudo apt install curl  -y
+sudo apt install curl -y
 ```
-
-
 
 ## Konfiguration
 
-cURL benötigt keine klassische Konfiguration, kann aber über eine Konfigurationsdatei angepasst werden. Diese Datei erlaubt es, Standardoptionen festzulegen, die bei jeder Ausführung automatisch angewendet werden. Häufige Beispiele sind:
+cURL benötigt keine klassische Konfiguration, kann aber über eine Konfigurationsdatei angepasst werden. In dieser Datei kannst du Standardoptionen definieren, die bei jedem Aufruf automatisch angewendet werden. Häufige Beispiele sind:
 
-- `--user-agent "MyAgent/1.0"` zum Festlegen eines eigenen User‑Agents  
-- `--silent` zum Unterdrücken von Fortschrittsbalken oder zusätzlicher Ausgabe  
-- `--insecure` zum Deaktivieren der SSL‑Zertifikatsprüfung (nur zu Testzwecken empfohlen)  
-- `--header "Authorization: Bearer <TOKEN>"` für API‑Authentifizierung  
+- `--user-agent "MyAgent/1.0"` um einen eigenen User-Agent festzulegen  
+- `--silent` um Fortschrittsanzeigen oder zusätzliche Ausgaben zu unterdrücken  
+- `--insecure` um SSL-Zertifikatsprüfungen zu deaktivieren (nur für Tests empfohlen)  
+- `--header "Authorization: Bearer <TOKEN>"` für API-Authentifizierung  
 
-Zusätzlich können Umgebungsvariablen wie `HTTP_PROXY` oder `HTTPS_PROXY` gesetzt werden, um cURL‑Anfragen über einen Proxyserver zu leiten. Diese Einrichtung macht cURL bei wiederkehrenden Aufgaben effizienter, da lange Befehlsoptionen nicht jedes Mal erneut eingegeben werden müssen.
+Außerdem können Umgebungsvariablen wie `HTTP_PROXY` oder `HTTPS_PROXY` gesetzt werden, um cURL-Anfragen über einen Proxy-Server zu leiten. Das macht cURL bei wiederkehrenden Aufgaben effizienter, da du lange Befehlsoptionen nicht jedes Mal neu eingeben musst.
 
+## Fazit und weitere Ressourcen
 
+Glückwunsch! Du hast cURL jetzt erfolgreich auf deinem VPS installiert und konfiguriert. Wir empfehlen dir außerdem, einen Blick auf die folgenden Ressourcen zu werfen, die dir bei der Serverkonfiguration weiterhelfen können:
 
-## Abschluss und weitere Ressourcen
+- [curl.se](https://curl.se/) – Offizielle Webseite  
+- [curl.se/docs/](https://curl.se/docs/) – cURL-Dokumentation  
 
-Glückwunsch! Du hast cURL jetzt erfolgreich auf deinem VPS installiert und konfiguriert. Wir empfehlen außerdem, einen Blick auf die folgenden Ressourcen zu werfen, die dir zusätzliche Hilfe und Orientierung während deiner Serverkonfiguration bieten können
-
-- [curl.se](https://curl.se/) – Offizielle Website
-- [curl.se/docs/](https://curl.se/docs/) cURL‑Dokumentation
-
-Hast du spezielle Fragen, die hier nicht abgedeckt sind? Für weitere Fragen oder Unterstützung wende dich bitte an unser Support‑Team, das täglich für dich da ist! 🙂
-
-
+Du hast spezielle Fragen, die hier nicht beantwortet wurden? Für weitere Fragen oder Support steht dir unser Team täglich zur Verfügung – melde dich einfach bei uns! 🙂
 
 <InlineVoucher />

@@ -1,7 +1,7 @@
 ---
 id: webspace-adddomain
 title: "Webspace: Domain hinzufügen"
-description: Informationen, wie du eine Domain zu deinem Webspace von ZAP-Hosting hinzufügen kannst - ZAP-Hosting.com Dokumentation
+description: "Entdecke, wie du mit dem Zap-Hosting Webspace Websites und E-Mails erstellst und verwaltest für einen nahtlosen Online-Auftritt → Jetzt mehr erfahren"
 sidebar_label: Domain hinzufügen
 services:
   - webspace
@@ -11,53 +11,52 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
 
-Das Webspace Paket bietet die Möglichkeit, über das externe Plesk Interface, sowohl Webseiten als auch E-Mail-Adressen zu erstellen und verwalten. Das Webspace fungiert als Webspeicher. Dateien und Ordner können über eine FTP Verbindung hochgeladen werden.
+Das Webspace-Paket bietet dir die Möglichkeit, sowohl Websites als auch E-Mail-Adressen über die externe Plesk-Oberfläche zu erstellen und zu verwalten. Der Webspace fungiert als Webspeicher. Dateien und Ordner können per FTP-Verbindung hochgeladen werden.
 
-Jedes über Zap-Hosting gebuchte Webspace kriegt eine automatisch generierte Subdomain zugewiesen. 
-Diese Subdomain besteht aus der Kundennummer, dem Hostserver und der Domain "zap-webspace.com". In der Anleitung "Domain verknüpfen" wird gezeigt, wie eine eigene Domain zu dem Webspace verbunden werden kann.
+Jeder über Zap-Hosting gebuchte Webspace erhält automatisch eine generierte Subdomain. Diese Subdomain besteht aus der Kundennummer, dem Hostserver und der Domain "zap-webspace.com". In der Anleitung "Domain verknüpfen" erfährst du, wie du deine eigene Domain mit dem Webspace verbinden kannst.
 
 <InlineVoucher />
 
 ## Erste Schritte
 
-Im Anschluss an die abgeschlossene Bestellung wird das Webspace im Zap-Hosting Dashboard angezeigt.
+Nach Abschluss der Bestellung wird der Webspace im Zap-Hosting Dashboard angezeigt.
 
 ### Plesk öffnen
 
-Auf der nun geöffneten Seite sind die Logindaten einzusehen. Das Passwort wird nicht im Klartext gespeichert. Um sich dieses anzeigen zu lassen, muss man auf das "Augen" Symbol drücken.
+Die Login-Daten kannst du auf der nun geöffneten Seite einsehen. Das Passwort wird nicht im Klartext gespeichert. Um es anzuzeigen, musst du auf das „Augen“-Symbol klicken.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/HAysMM5bE7fAQoH/preview)
+![Bildschirmfoto vom 2022-05-13 05-16-48](https://screensaver01.zap-hosting.com/index.php/s/B3stJeKMAsYRRer/preview)
+
 :::info
-Wenn dir das dort automatisch generierte Passwort nicht zusagt, kann dieses auf derselben Seite mit der Funktion "Passwort ändern" innerhalb von wenigen Sekunden geändert werden.
+Wenn dir das automatisch generierte Passwort nicht gefällt, kannst du es auf derselben Seite direkt über den Button „Passwort ändern“ anpassen.
 :::
 
-Sobald Benutzername und Passwort eingesehen werden, kann das Plesk Interface durch Betätigen des Buttons "**Verwaltung öffnen**" geöffnet werden. Nach der Weiterleitung auf das Plesk Interface müssen jetzt die vorher ersichtlichen Login Daten eingegeben werden.
+Sobald Benutzername und Passwort eingesehen wurden, kannst du die Plesk-Oberfläche über den Button "**Administration öffnen**" starten. Nach der Weiterleitung zur Plesk-Oberfläche musst du die zuvor angezeigten Login-Daten eingeben.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/YEriMrkQrL7Fq9z/preview)
+![Bildschirmfoto vom 2022-05-13 05-17-21](https://screensaver01.zap-hosting.com/index.php/s/tZLEJZTzo7kqn4J/preview)
 
 :::info
-Bei "Sprache der Oberfläche" kann die Sprache von Deutsch auf Englisch umgestellt werden, als "Standard" definierter Wert ist Deutsch gesetzt.
+Die Sprache der Benutzeroberfläche kann von Deutsch auf Englisch umgestellt werden, standardmäßig ist Deutsch eingestellt.
 :::
 
 ### Domain verknüpfen
 
-Eine eigene Domain kann in dem Plesk Interface bei dem Menüpunkt "**Hosting-Einstellungen**" eingetragen werden.
+Deine eigene Domain kannst du in der Plesk-Oberfläche unter dem Menüpunkt "**Domain hinzufügen**" eintragen.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/75oBaTGs4x9GNit/preview)
+![Bildschirmfoto vom 2022-05-13 05-18-15](https://screensaver01.zap-hosting.com/index.php/s/LHJkPqAsC7zGysW/preview)
 
-Bei "**Hosting Einstellungen**" kann nun bei "**Domainname**" die von ZAP-Hosting generierte Subdomain gelöscht werden, damit die eigene Domain in dieses eingetragen werden kann. 
+Unter "**Domain hinzufügen**" kannst du deine Domain-URL direkt eingeben und deine gewünschten Einstellungen bezüglich Speicherort der Dateien, SSL usw. auswählen.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/sHKHMm4Gs4K8aLD/preview)
+![Bildschirmfoto vom 2022-05-13 05-19-06](https://screensaver01.zap-hosting.com/index.php/s/JXYg4ycDpwqYxCN/preview)
 
-Die Änderungen werden durch das Drücken des Buttons "**OK**" bestätigt. 
+Die Änderungen bestätigst du mit dem Button "**OK**".
 
 :::info
-Die Bestätigung kann etwas Zeit in Anspruch nehmen. Solltest du bei diesem Wechsel Fehler erhalten, wäre eine mögliche Fehlerquelle, dass deine Domain bereits als Alias in der Domain angelegt ist. 
+Die Bestätigung kann etwas Zeit in Anspruch nehmen. Sollten während der Änderung Fehler auftreten, könnte eine mögliche Ursache sein, dass deine Domain bereits als Alias in der Domain angelegt ist.
 :::
 
-Sofern es keine Probleme bei der Änderung gegeben hat, wird dies in dem Plesk Interface bestätigt. Um diese Domain für das Webspace nutzen zu können, müssen bei der Domainverwaltung die DNS Einstellungen konfiguriert werden. 
-Wie dies bei über uns bestellten Domains geht, kann hier eingesehen werden. 
+Wenn die Änderung ohne Probleme durchgeführt wurde, wird dies in der Plesk-Oberfläche bestätigt. Damit du die Domain für den Webspace nutzen kannst, müssen die DNS-Einstellungen im Domain-Management konfiguriert werden. Wie das bei über uns bestellten Domains funktioniert, erfährst du hier.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/AoMBdgmwMm7x2P2/preview)
+![Bildschirmfoto vom 2022-05-13 05-19-40](https://screensaver01.zap-hosting.com/index.php/s/TecSRSimmCrRmYj/preview)
 
 <InlineVoucher />

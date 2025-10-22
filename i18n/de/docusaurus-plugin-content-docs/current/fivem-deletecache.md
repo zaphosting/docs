@@ -1,8 +1,8 @@
 ---
 id: fivem-deletecache
 title: "FiveM: Cache leeren"
-description: Informationen, wie du den Cache deines FiveM Server von ZAP-Hosting leeren kannst - ZAP-Hosting.com Dokumentation
-sidebar_label: Cache leeren
+description: "Entdecke, wie das Leeren des Caches deines FiveM Gameservers die Performance verbessert und Fehler behebt – für ein smootheres Spielerlebnis → Jetzt mehr erfahren"
+sidebar_label: Cache löschen
 services:
   - gameserver-fivem
 ---
@@ -13,44 +13,45 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
 
-Das Leeren des Server-Caches bei einem FiveM-Server sorgt dafür, dass temporär gespeicherte Dateien gelöscht werden. Dadurch zwingt man den Server, beim nächsten Start alle benötigten Dateien erneut herunterzuladen oder zu erstellen. Dies hilft dabei, veraltete oder beschädigte Daten zu entfernen, wodurch Performance-Probleme, Script-Fehler, Abstürze oder Probleme beim Laden der Spielwelt behoben werden können.
+Das Leeren des Server-Caches auf deinem FiveM Gameserver sorgt dafür, dass temporär gespeicherte Dateien gelöscht werden. Dadurch wird der Server beim nächsten Start gezwungen, alle benötigten Dateien neu herunterzuladen oder zu erstellen. Das hilft, veraltete oder beschädigte Daten zu entfernen, was Performance-Probleme, Script-Fehler, Abstürze oder Ladeprobleme der Spielwelt lösen kann.
 
 <InlineVoucher />
 
-
-
 ## Einfache Methode
 
-Das Löschen des Caches auf deinem FiveM Gameserver ist ganz einfach. Rufe zunächst das Webinterface deines Gameservers auf. Öffne den Bereich **Einstellungen** im Webinterface deines Gameservers.
+Den Cache auf deinem FiveM Gameserver zu löschen ist super easy. Geh zuerst in das Webinterface deines Gameservers. Such dort den Bereich **Einstellungen** und öffne ihn.
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/JDat2JBPe2ddQ4w/download)
 
-Scrollen dann zum unteren Ende der Seite, um mehrere Buttons unter dem Unterabschnitt **Aktionen** zu finden. Drücke hier den Button **Cache-Dateien löschen**, um den Cache deines Gameservers zu löschen.
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/CAqC9sseFFPyNGp/download)
+![img](https://screensaver01.zap-hosting.com/index.php/s/nizHMSk7oXCsJS4/download)
 
-:::note
-Dies führt zu einem sofortigen Neustart deines Servers, um die Cache-Dateien zu leeren, also stelle sicher, dass du darauf vorbereitet bist.
+
+
+Scroll dann ganz nach unten, bis du unter dem Abschnitt **Aktionen** mehrere Buttons findest. Drück hier auf den Button **Cache-Dateien löschen**, um den Cache deines Gameservers zu leeren.
+
+![img](https://screensaver01.zap-hosting.com/index.php/s/A2RiTo8gJiTibGR/download)
+
+:::warning 
+Dadurch wird dein Server sofort neu gestartet, um den Cache zu leeren. Sei also sicher, dass du dafür bereit bist.
 :::
 
-Dein Server wird nun neu gestartet und der Cache gelöscht. Wenn der Server neu gestartet wird, schreibt der Server den Cache neu. Du hast den Cache für deinen FiveM Gameserver erfolgreich geleert!
 
 ## Alternative Methode
 
-Zunächst musst du dich per FTP mit deinem Server verbinden. Wenn du mit der Verwendung von FTP nicht vertraut bist, empfehlen wir dir, einen Blick in die [FTP-Zugriff](gameserver-ftpaccess.md) Anleitung zu werfen. Im nächsten Schritt musst du den Cache-Ordner finden und ihn löschen. Folge diesem Pfad `/gXXXXXX/fivem/server-data/cache`, um auf den Cache-Ordner zuzugreifen.
+Zuerst musst du dich per FTP mit deinem Server verbinden. Falls du FTP noch nicht kennst, empfehlen wir dir unsere [FTP-Zugang](gameserver-ftpaccess.md) Anleitung. Im nächsten Schritt suchst du den Cache-Ordner und löschst ihn. Folge dazu dem Pfad `/gXXXXXX/fivem/server-data/cache`, um zum Cache-Ordner zu gelangen.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/dfpssTy8KL7B3cK/download)
 
-Jetzt musst du einfach den Cache leeren. Klicken dazu auf den Ordner **Cache** und dann auf **Files**. Nun solltest du alle Ordner markieren, die sich im Ordner **Cache** befinden und sie löschen.
+Jetzt musst du einfach den Cache leeren. Klick dazu auf den **Cache**-Ordner und dann auf **Dateien**. Markiere alle Ordner, die im **Cache**-Ordner vorhanden sind, und lösche sie.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/MnHpWiDmBgHa63B/download)
 
-Starten jetzt deinen FiveM Server neu, damit die Änderungen wirksam werden. Beim Neustart des Servers wird der Cache neu beschrieben. 
+Starte jetzt deinen FiveM Gameserver neu, damit die Änderungen wirksam werden. Beim Neustart schreibt der Server den Cache neu.
 
 
 
-## Abschluss
+## Fazit
 
-Wenn du alle Schritte befolgt hast, hast du deinen Server-Cache erfolgreich geleert. Für weitere Fragen oder Hilfe zögere bitte nicht, unser Support-Team zu kontaktieren, das dir täglich zur Verfügung steht! 🙂
+Wenn du alle Schritte befolgt hast, hast du erfolgreich den Cache deines Servers geleert. Bei weiteren Fragen oder wenn du Hilfe brauchst, steht dir unser Support-Team täglich zur Verfügung! 🙂
 
 <InlineVoucher />

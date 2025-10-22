@@ -1,8 +1,8 @@
 ---
 id: vserver-linux-ftp
-title: "vServer: FTP Dienst funktioniert nicht - Problemlösungen"
-description: Informationen, wie du FTP-Probleme bei deinem vServer von ZAP-Hosting beheben kannst - ZAP-Hosting.com Dokumentation
-sidebar_label: FTP Dienst funktioniert nicht
+title: "VPS: FTP-Service funktioniert nicht – Fehlerbehebung"
+description: "Check, wie du den FTP-Zugang auf deinem VPS wiederherstellst, wenn dein Gameserver oder Teamspeak-Server nicht erreichbar ist → Jetzt mehr erfahren"
+sidebar_label: FTP-Service funktioniert nicht
 services:
   - vserver
 ---
@@ -11,71 +11,58 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 <InlineVoucher />
 
-## Was kann man tun, wenn der Gameserver oder Teamspeak Server nicht via FTP erreichbar ist? 
+## Was kannst du tun, wenn der Gameserver oder Teamspeak-Server nicht per FTP erreichbar ist?
 
 :::info
-Achtung: Die nachfolgenden Schritte funktionieren nur auf einem eigenen vServer, wenn das ZAP-Webinterface installiert wurde!
+Achtung: Die folgenden Schritte funktionieren nur auf deinem eigenen VPS, wenn die ZAP-Weboberfläche installiert ist!
 :::
 
-Sollten die angelegten Server nicht via FTP erreichbar sein, so ist in den meisten Fällen der FTP Dienst (ProFTPD) nicht aktiv. 
-In seltenen Fällen kann dies auch an einer nicht korrekten Config oder einem belegten Port liegen, sprich der FTP Port 21 wird von einem anderen Programm genutzt/belegt. 
+Wenn dein erstellter Server nicht per FTP erreichbar ist, ist der FTP-Service (ProFTPD) meistens nicht aktiv. In seltenen Fällen kann das auch an einer falschen Konfiguration oder einem belegten Port liegen, also wenn der FTP-Port 21 von einem anderen Programm genutzt wird.
 
-## Das FTP Problem genauer prüfen:
+## FTP-Problem genauer checken:
 
-### Erreichbarkeit Prüfen
-Das kann man ganz einfach über den FTP Browser im Webinterface machen. 
-Man klickt links im Menü unter Werkzeuge des jeweiligen Servers auf "FTP-Browser"
+### Verfügbarkeit prüfen
+Das kannst du ganz easy mit dem FTP-Browser im Webinterface machen. Klick im Menü unter „Tools“ beim jeweiligen Server auf „FTP-Browser“.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/pDgmRQFAwXFQeTA/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/GiqyC6G5cLsbSqp/preview)
 
+Drück dann einmal auf den Button „Direktverbindung“.
 
-Anschließen klingt man auf den grünen Button "Direktverbindung"
+![](https://screensaver01.zap-hosting.com/index.php/s/ZSbrF5raYzdMgzZ/preview)
 
+Wahrscheinlich siehst du jetzt folgendes Bild:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/jek8EkPTYeF3bEr/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/GtcCWfqadKGJoY7/preview)
 
-Nun wird man vermutlich folgendes Bild sehen: 
+Da jetzt klar ist, dass eine Verbindung über WebFTP oder ein FTP-Tool nicht möglich ist, musst du den FTP-Service auf dem VPS genauer unter die Lupe nehmen.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/eJ23PJjSGMbDNGM/preview)
+### ProFTPD-Status prüfen
 
-Hat man bereits ein FTP-Tool probiert, so wird dieses sehr wahrscheinlich auch bereits einen ähnlichen Fehler wie folgenden Fehler angezeigt haben: 
+Verbinde dich dazu per SSH/Console mit deinem Server und gib den Befehl „service proftpd status“ ein. Der Status wird jetzt ausgelesen und entsprechend angezeigt:
 
+![](https://screensaver01.zap-hosting.com/index.php/s/TWqySPM3D5RmgYL/preview)
 
-Da nun klar ist, dass weder eine Verbindung via WebFTP oder FTP-Tool möglich ist, muss man sich nun den FTP Dienst auf dem vServer genauer ansehen. 
+Hier siehst du, dass der Status „dead“ meldet – der Service ist also offline und somit nicht erreichbar.
 
-
-### ProFTPD Status Prüfen
-Dazu verbindet man sich via SSH/Console mit seinem Server und gibt anschließend den Befehl "service proftpd status" ein. 
-Es wird nun der Status ausgelesen und entsprechend angezeigt:
-
-![](https://screensaver01.zap-hosting.com/index.php/s/KNKsPF875oDnm5F/preview)
-
-
-Dort ist zu erkennen, dass der Status "dead" meldet, kurz gesagt ist der Dienst offline und somit nicht erreichbar. 
-
-
-### FTP Dienst Neustarten
-Folgendem Befehl kann der FTP Dienst neu gestartet werden:
-
+### FTP-Service neu starten
+Den FTP-Service kannst du mit folgendem Befehl neu starten:
 
 ```
 service proftpd start
 ```
 
-Kommt keine Rückmeldung nach der Ausführung des Befehls, ist der Dienst in der Regel wieder online/verfügbar. 
+Wenn nach Ausführung des Befehls keine Meldung kommt, ist der Service meistens wieder online/verfügbar.
 
-Das ganze kann dann mit dem Befehl "service proftpd status" noch einmal verifiziert werden. 
-Es sollte dann wie folgt aussehen: 
+Das kannst du dann nochmal mit dem Befehl „service proftpd status“ überprüfen. Es sollte so aussehen:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/jXs8H5dMcyjY7jW/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/iYxKMLJ2QfgzBKD/preview)
 
+Da der Status jetzt wieder „active“ und nicht mehr „dead“ ist, kannst du die FTP-Verbindung nochmal mit dem FTP-Tool oder WebFTP testen.
 
-Da der Status jetzt wieder "active" lautet und nicht mehr "dead" kann die FTP Verbindung via FTP-Tool und WebFTP erneut probiert werden. 
-
-### Verbindung erneut prüfen
-Man sollte nun eine Verbindung aufbauen und seine Daten einsehen können: 
+### Verbindung nochmal prüfen
+Jetzt solltest du dich verbinden und deine Daten sehen können.
 
 ### Problem gelöst
-Der FTP Dienst (ProFTPD) ist nun wieder gestartet/aktiv und dem Datenaustausch steht nichts mehr im Wege!
+✅ Der FTP-Service (ProFTPD) läuft jetzt wieder und dem Datenaustausch steht nichts mehr im Weg!
 
 <InlineVoucher />

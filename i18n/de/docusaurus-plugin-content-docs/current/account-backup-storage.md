@@ -1,59 +1,58 @@
 ---
 id: account-backup-storage
-title: Backup Storage
-description: Anleitung zum Backup Storage von ZAP-Hosting Serven - ZAP-Hosting.com Dokumentation 
-sidebar_label: Backup Storage
+title: Backup-Speicher
+description: "Entdecke, wie du deine Backups sicher speicherst und verwaltest – mit skalierbaren Speicheroptionen für einfache Wiederherstellung und Zugriff → Jetzt mehr erfahren"
+sidebar_label: Backup-Speicher
 ---
 
-## Was ist ein Backup Storage?
-Der Backup Storage bietet unseren Kunden eine Möglichkeit, über ihre Dienste Backups zu erstellen. Jeder Kunde hat grundsätzlich einen kostenlosen Speicherplatz von 10 GB auf seinem Backup Storage, den er voll nutzen kann. Für einen geringen Aufpreis kann jedoch eine Erweiterung des Storage auf bis zu 200 GB gebucht werden.
+## Was ist Backup-Speicher?
+Backup-Speicher bietet unseren Kunden die Möglichkeit, Backups über ihre Services zu erstellen. Jeder Kunde hat einen kostenlosen Speicherplatz von 10GB auf seinem Backup-Speicher, den er vollständig nutzen kann. Für einen kleinen Aufpreis kann der Speicherplatz auf bis zu 200GB erweitert werden.
 
-## Wie komme ich an meine Backupdateien ran?
-Die Backupdateien werden auf den Backup Storage gelegt, sobald ein Backup über das Webinterface angelegt wird. Die Dateien können dann entweder über die Backupfunktion des jeweiligen Dienstes auf diesen wieder aufgespielt werden oder per FTP-Verbindung vom Backup Storage heruntergeladen werden.
+## Wie greife ich auf meine Backup-Dateien zu?
+Backup-Dateien werden auf dem Backup-Speicher abgelegt, sobald ein Backup über die Weboberfläche erstellt wird. Die Dateien können dann entweder über die Backup-Funktion des jeweiligen Services wiederhergestellt oder per FTP-Verbindung vom Backup-Speicher heruntergeladen werden.
 
-### Per FTP auf den Backup Storage verbinden
-Um über FTP eine Verbindung zum Backup Storage herzustellen, lade dir das Programm [FileZilla](http://www.filezilla.de/download.htm) für dein Betriebssystem herunter und installiere es. Ist die Installation abgeschlossen, öffne bitte das Programm.
-Die Oberfläche von FileZilla sollte nun zu sehen sein:
+### Verbindung zum Backup-Speicher via FTP herstellen
+Um dich per FTP mit dem Backup-Speicher zu verbinden, lade dir das Programm [FileZilla](http://www.filezilla.de/download.htm) für dein Betriebssystem herunter und installiere es. Nach der Installation öffnest du das Programm.
+Du solltest jetzt die FileZilla-Oberfläche sehen:
 
-![wd](https://screensaver01.zap-hosting.com/index.php/s/LZTDgxZpb7DWHyw/preview)
+![2022-04-08_04-41](https://screensaver01.zap-hosting.com/index.php/s/XHa7gfPBKcGgYj4/preview)
 
-Um nun eine Verbindung auf deinen Backup Storage herzustellen, gib nun die Verbindungsdaten oben in die Textfelder ein.
-Die Daten dafür findest du, wenn du im Webinterface auf die Seite deines Backup Storage gehst. 
-Klicke dafür auf dieses Symbol, oben in der Menüleiste:
+Um dich mit deinem Backup-Speicher zu verbinden, gib die Verbindungsdaten in die Textfelder oben ein.
+Diese Daten findest du, wenn du in der Weboberfläche auf die Seite deines Backup-Speichers gehst.
+Klicke dazu auf dieses Icon oben in der Menüleiste:
 
-![2022-04-08_05-27](https://screensaver01.zap-hosting.com/index.php/s/gZT2CLdkK25Y9Cd/preview)
+![2022-04-08_05-27](https://screensaver01.zap-hosting.com/index.php/s/dFRCTXK48qxbcJb/preview)
 
-Auf der Backup Storage Seite findest du dann in der im Bild markierten Box deine Zugangsdaten für die FTP-Verbindung:
+Auf der Backup-Speicher-Seite findest du dann deine Zugangsdaten für die FTP-Verbindung in dem im Bild markierten Kasten:
 
-![2022-04-08_04-38](https://screensaver01.zap-hosting.com/index.php/s/BQ33jySLP226mb9/preview)
+![2022-04-08_04-39](https://screensaver01.zap-hosting.com/index.php/s/pziwNeT9jmFC5Ax/preview)
 
-Trage die IP-Adresse in FileZilla in das Feld **Server** ein, den Benutzer in das Feld **Benutzername** und das Passwort in das Feld **Passwort**. Der Port brauch nicht mit angegeben werden, sollte er der Zahl *21* entsprechen. Klicke jetzt auf **Verbinden**. 
-Ist die Verbindung erfolgreich hergestellt, findest du in den jeweiligen Ordnern die Backups, die jeweils von deinen Diensten erstellt worden sind.
+Trage die IP-Adresse in FileZilla ins Feld **Server**, den Benutzer ins Feld **Benutzername** und das Passwort ins Feld **Passwort** ein. Den Port musst du nicht angeben, wenn er *21* ist. Klicke jetzt auf **Verbinden**.
+Wenn die Verbindung erfolgreich ist, findest du die von deinen Services erstellten Backups in den jeweiligen Ordnern.
 
-![2022-04-08_04-39_1](https://screensaver01.zap-hosting.com/index.php/s/wDFxn8WygwLfBdi/preview)
+![2022-04-08_04-41_1](https://screensaver01.zap-hosting.com/index.php/s/K9MZHf8napDMCjT/preview)
 
-![2022-04-08_04-40](https://screensaver01.zap-hosting.com/index.php/s/JnRZoWb4ee6DnY7/preview)
+![2022-04-08_04-41_2](https://screensaver01.zap-hosting.com/index.php/s/ca7DkJ2T6DpxTFH/preview)
 
+Die Backups liegen gepackt als **\*.tar.gz** Dateien in den jeweiligen Ordnern und können mit Programmen wie WinRAR oder 7-Zip entpackt werden.
 
-Die Backups befinden sich in gepackter Form als **\*.tar.gz** Datei in den jeweiligen Ordnern und können mit Programmen, wie WinRAR oder 7-Zip entpackt werden.
+## Fehlermeldung "Transfer connection interrupted"
 
-## "Transfer connection interrupted" Fehlermeldung
+Wenn während der Verbindung oder Übertragung die Fehlermeldung "Transfer connection interrupted: ECCONABORTED - Connection aborted" erscheint, kann der Übertragungsmodus von "**Passiv**" auf "**Aktiv**" geändert werden.
+Die folgenden Schritte zeigen, wie du das in den FileZilla-Einstellungen ändern kannst.
 
-Sollte bei der Verbindung oder auch Übertragung die Fehlermeldung "Transfer connection interrupted: ECCONABORTED - Connection aborted" bestehen, so kann testweise der Übertragungsmodus von *Passive* auf *Active* umgestellt werden.
-In den folgenden Schritten wird gezeigt, wie das bei Filezilla in den Einstellungen umgestellt werden kann.
+Drücke in deinem FileZilla-Client auf "**Bearbeiten**" und öffne dann direkt die "**Einstellungen...**":
 
-Drücke in deinem Filezilla Client auf "**Bearbeiten**", dort dann direkt die "**Einstellungen...**" öffnen:
+![2022-04-08_05-16](https://screensaver01.zap-hosting.com/index.php/s/AgrmP6i5aAEr2kr/preview)
 
-![2022-04-08_05-23](https://screensaver01.zap-hosting.com/index.php/s/FJ3bcHRNRXmDGGw/preview)
+Danach öffnet sich das Fenster "**Einstellungen**". Dort klickst du auf "**FTP**", um die Einstellungen für die FTP-Verbindung zu sehen.
+Standardmäßig ist der Übertragungsmodus auf "**Passiv**" eingestellt. Dort kannst du den Radiobutton auf "**Aktiv**" setzen und die Änderung mit "**OK**" bestätigen.
 
-Im Anschluss daran öffnet sich das "Einstellungen" Fenster. Dort kannst du nun auf "**FTP**" um die Einstellungen für die FTP Verbindung einzusehen.
-Bei "**FTP**" angekommen, wird der Standard Übertragungsmodus auf  "Passiv" stehen, dort kannst du den Radio-Button bei "**Aktiv**" auswählen und die Änderung mit "**OK**" bestätigen.
+![2022-04-08_05-17](https://screensaver01.zap-hosting.com/index.php/s/REPQieY3Zbm8arM/preview)
 
-![2022-04-08_05-23_1](https://screensaver01.zap-hosting.com/index.php/s/kiTm6BaKi8X2XLk/preview)
+Sobald das erledigt ist, kannst du die FTP-Verbindung erneut testen.
 
-Sobald auch dies getan ist, kann jetzt die FTP Verbindung erneut getestet werden.
+## Nachrichten
+Im Sidebar-Menü unter dem Unterpunkt *Nachrichten* wird das Log angezeigt, das zeigt, bei welchem Auslöser/Grund welche Aktion während der Backups für welches Paket und wann ausgeführt wurde.
 
-## Meldungen
-In der Sidebar im Unterpunkt *Meldungen* wird der Log wiedergegeben, welcher anzeigt, unter welchem Auslöser/Grund welche Aktion bei den Backups bei welchem Paket wann ausgeführt wurde.
-
-![2022-04-08_04-43](https://screensaver01.zap-hosting.com/index.php/s/pDYPpYeFd4Fwq96/preview)
+![2022-04-08_04-42](https://screensaver01.zap-hosting.com/index.php/s/GwtGHoDL7d9r3Ds/preview)

@@ -167,7 +167,7 @@ Once you have performed your changes, use the **Commit changes...** button which
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/2iQCZzzAHsHS2rt/preview)
 
-Enter a useful commit message that explains what you have done and an extended description where appropriate. Finally, commit the changes. This will commit it to your fork of the docs. You may now head over to the **[Submitting Content](#step-3-submitting-content)** section to create a Pull Request to submit the content to our main ZAP-Docs Repository.
+Enter a useful commit message that explains what you have done and an extended description where appropriate. Finally, commit the changes. This will commit it to your fork of the docs. You may now head over to the **Submitting Content** section to create a Pull Request to submit the content to our main ZAP-Docs Repository.
 
 </TabItem>
 
@@ -259,10 +259,10 @@ Once you are finished with the changes to your guide, the last step of the entir
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/tFdrLknnXn62sZc/preview)
 
-You may now head over to the **[Submitting Content](#step-3-submitting-content)** section to create a Pull Request to submit the content to our ZAP-Docs Repository.
+You may now head over to the **Submitting Content** section to create a Pull Request to submit the content to our ZAP-Docs Repository.
 
 :::tip
-We recommend that you also read the optional **[Testing build locally](#optional-testing-build-locally)** section, as you can pair this section with testing locally to create an optimal workflow where changes are updated on your local build on-the-go which is proven to be very useful. However, this is not necessary.
+We recommend that you also read the optional **Testing build locally** section, as you can pair this section with testing locally to create an optimal workflow where changes are updated on your local build on-the-go which is proven to be very useful. However, this is not necessary.
 :::
 
 </TabItem>

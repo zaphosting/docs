@@ -1,7 +1,7 @@
 ---
 id: fivem-txadmin-features
 title: "FiveM: txAdmin Interface"
-description: Übersicht zu den Einstellungsmöglichkeiten des TxAdmin Interfaces für FiveM Gameserver von ZAP-Hosting - ZAP-Hosting.com Dokumentation
+description: "Entdecke, wie du deinen FiveM Gameserver effizient mit dem voll ausgestatteten txAdmin Webpanel verwaltest und überwachst → Jetzt mehr erfahren"
 sidebar_label: txAdmin Interface
 services:
   - gameserver-fivem
@@ -13,7 +13,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
 
-txAdmin ist ein vollständig kostenloses, funktionsreiches Webpanel zur Verwaltung und Überwachung deines FiveM-Servers. Es bietet eine breite Palette von Funktionen, die darauf ausgelegt sind, die Verwaltung eines FiveM-Servers so einfach wie möglich zu gestalten. Im Folgenden stellen wir dir die txAdmin-Oberfläche vor, heben ihre Funktionen hervor und erklären genau, was du damit machen kannst.
+txAdmin ist ein komplett kostenlos nutzbares, voll ausgestattetes Webpanel zur Verwaltung & Überwachung deines FiveM Gameservers. Es bietet eine Vielzahl an Features, die das Management eines FiveM Servers super einfach machen. In dieser Anleitung stellen wir dir die txAdmin Oberfläche vor, heben die Funktionen hervor und erklären dir genau, was du damit alles machen kannst.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/YrRXBNBX2xTnRyJ/preview)
 
@@ -23,13 +23,13 @@ txAdmin ist ein vollständig kostenloses, funktionsreiches Webpanel zur Verwaltu
 
 ## Navigation
 
-Die Navigation umfasst die folgenden Elemente: **Spieler**, **Historie**, **Whitelist**, **Admins**, **Einstellungen** und **System**. Jeder dieser Punkte wird im Folgenden näher erläutert.
+Das Navigationsmenü beinhaltet folgende Punkte: **Players**, **History**, **Whitelist**, **Admins**, **Settings** und **System**. Jeder dieser Punkte wird im Folgenden genauer erklärt.
 
 ### Players
 
-Der Bereich Players bietet dir einen allgemeinen Überblick über die Spielerstatistiken, einschließlich der Gesamtzahl der verbundenen Spieler, der Spieler, die in den letzten 24 Stunden verbunden waren, und der neuen Spieler, die in den letzten 24 Stunden und 7 Tagen verbunden waren. Darunter findest du eine Liste der aktuell verbundenen Spieler mit ihrer gesamten Spielzeit, der ersten Verbindungszeit und der letzten Verbindungszeit.
+Der Bereich Players gibt dir einen allgemeinen Überblick über die Spielerstatistiken, inklusive der Gesamtanzahl aller verbundenen Spieler, der Spieler, die in den letzten 24 Stunden online waren, sowie der neuen Spieler in den letzten 24 Stunden und 7 Tagen. Darunter findest du eine Liste der aktuell verbundenen Spieler mit ihrer gesamten Spielzeit, dem Zeitpunkt der ersten Verbindung und der letzten Verbindung.
 
-Klicke auf einen Spieler, um weitere Verwaltungsoptionen zu öffnen. Hier kannst du weitere Informationen, Notizen, Verlauf (Bans/Warnungen), IDs (Player Identifiers, Player Hardware IDs) und die Bannoptionen einsehen.
+Klicke auf einen Spieler, um weitere Verwaltungsoptionen zu öffnen. Hier kannst du zusätzliche Infos, Notizen, die Historie (Banns/Warnings), IDs (Player Identifiers, Player Hardware IDs) und Bann-Optionen einsehen.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/wpRc2sW6gZZaN3S/download)
 
@@ -39,53 +39,51 @@ Klicke auf einen Spieler, um weitere Verwaltungsoptionen zu öffnen. Hier kannst
 
 ### History
 
-Im Bereich History sind alle Warnungen und Bans von Spielern aufgelistet, einschließlich detaillierter Informationen über den Spieler, den Grund sowie denjenigen, der die Warnung oder den Ban ausgesprochen oder ausgeführt hat, einschließlich Datum und Uhrzeit. Dort kannst du auch Warnungen und Bans widerrufen.
+Im Bereich History findest du alle erteilten Warnungen und Banns der Spieler, inklusive detaillierter Infos zum Spieler, dem Grund sowie wer die Warnung oder den Bann ausgesprochen oder ausgeführt hat, inklusive Datum und Uhrzeit. Von hier aus kannst du auch Warnungen und Banns wieder aufheben.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/qbLwEx39pmpY4sa/preview)
 
 ### Whitelist
 
-Im Bereich Whitelist hast du die Möglichkeit, die Whitelist-Funktion zu verwalten. Die Whitelist ermöglicht es dir, den Zugang zum Server zu beschränken. Wenn diese Option in den txAdmin-Einstellungen aktiviert ist, wird eine Whitelist-Anfrage automatisch erstellt, sobald ein neuer Spieler sich zum ersten Mal verbindet. Diese Anfragen kannst du dann entsprechend in diesem Bereich verwalten.
+Im Whitelist-Bereich kannst du die Whitelist-Funktion verwalten. Die Whitelist erlaubt es dir, den Zugang zum Server einzuschränken. Wenn diese Option in den txAdmin Einstellungen aktiviert ist, wird automatisch eine Whitelist-Anfrage erstellt, sobald sich ein neuer Spieler zum ersten Mal verbindet. Diese Anfragen kannst du dann hier verwalten.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/o4K5zgGrz8G7Rqp/preview)
 
 ### Admins
 
-Im Bereich Admins können Administratoren festgelegt und verwaltet werden. Neue Administratoren können durch Klicken auf den Button **Add** hinzugefügt werden. Daraufhin öffnet sich ein Pop-up-Fenster, in dem du das Konto erstellen und die entsprechenden Berechtigungen festlegen kannst.
+Im Bereich Admins kannst du Administratoren festlegen und verwalten. Neue Admins fügst du über den **Add**-Button hinzu. Es öffnet sich ein Pop-up, in dem du das Konto anlegst und die passenden Berechtigungen vergibst.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/H7BYP2QqyZD6nSJ/download)
 
 ### Settings
 
-Im Bereich Settings können zahlreiche Einstellungen für txAdmin und den Server selbst vorgenommen werden. Aufgrund der großen Menge an Einstellungsmöglichkeiten wurden diese in die Bereiche **General**, **FXServer**, **Bans**, **Whitelist**, **Discord** und **Game** unterteilt, auf die im Folgenden genauer eingegangen wird.
+Im Bereich Settings kannst du eine Vielzahl an Optionen sowohl für txAdmin als auch für den Server selbst konfigurieren. Aufgrund der vielen verfügbaren Einstellungen sind diese in folgende Kategorien unterteilt: **Global**, **FXServer**, **Bans**, **Whitelist**, **Discord** und **Game**. Diese werden im Folgenden genauer erklärt.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/9r44PictxZLad6c/download)
 
-#### General
+#### Allgemein
 
-Einstellungen für den Servernamen, die Sprache für Chat-/Discord-Nachrichten und Bannvorlagen können im Bereich General festgelegt werden.
+Unter Global kannst du Einstellungen zum Servernamen, zur Chat-/Discord-Nachrichtensprache und zu Bann-Vorlagen vornehmen.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/7mr4D28GGqfPQQw/preview)
 
 #### FXServer
 
-Im Bereich FXServer können Einstellungen für den Serverdaten-Ordner und den CFG-Dateipfad vorgenommen werden, sowie zusätzliche Argumente wie Gamemodes/DLC, das Aktivieren/Deaktivieren von OneSync, Autostart und Quietmode.
+Im FXServer-Bereich kannst du den Server-Datenordner und den Pfad zur CFG-Datei einstellen sowie zusätzliche Argumente wie das Aktivieren von Gamemodes/DLCs, das Ein- oder Ausschalten von OneSync, Autostart und Quietmode konfigurieren.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/8s5rBzAN7nsRtqe/preview)
 
 
 
+#### Banns
 
-
-#### Bans
-
-Im Bereich Bans kannst du die Ban Funktion verwalten. Stelle ein, ob Accounts aktiv nach ihrem Ban Status geprüft werden und welche Meldung dargestellt werden soll, wenn die Verbindung aufgrund eines Bans abgelehnt wird. 
+Im Bereich Bans kannst du die Bann-Funktion verwalten. Definiere, ob Accounts aktiv auf ihren Bannstatus geprüft werden sollen und welche Nachricht angezeigt wird, wenn die Verbindung aufgrund eines Banns abgelehnt wird.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/fTjM4EFbtB7cw4q/preview)
 
 #### Whitelist
 
-Im Bereich Whitelist kannst du die Whitelist Funktion verwalten. Stelle ein, ob du die Whitelist aktivieren oder deaktivieren möchtes  und welche Meldung dargestellt werden soll, wenn die Verbindung aufgrund eines fehlenden Whitelistseintrags abgelehnt wird. 
+Im Whitelist-Bereich kannst du die Whitelist-Funktion verwalten. Lege fest, ob die Whitelist aktiviert oder deaktiviert sein soll und welche Nachricht angezeigt wird, wenn die Verbindung wegen fehlendem Whitelist-Eintrag abgelehnt wird.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/6MyaBwRnroTSHbK/preview)
 
@@ -93,25 +91,25 @@ Im Bereich Whitelist kannst du die Whitelist Funktion verwalten. Stelle ein, ob 
 
 #### Discord
 
-Die Discord-Integration kann im Bereich Discord aktiviert werden, sodass Informationen automatisch an den verknüpften Discord-Server übertragen werden. Dazu müssen die erforderlichen Informationen für den Discord-Bot hinterlegt werden.
+Die Discord-Integration kannst du im Discord-Bereich aktivieren, damit Informationen automatisch an den verknüpften Discord-Server gesendet werden. Dafür müssen die nötigen Daten für den Discord Voicebot konfiguriert werden.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/jSbXE9c23wjiKRf/preview)
 
 #### Game
 
-Im Bereich Game kannst du das txAdmin-Menü für das Spiel aktivieren, wodurch Admins das Menü über den Befehl **/tx** aufrufen und verwalten können. Weitere Anpassungen für das Layout, die Tastenbelegung zum Umschalten und die Benachrichtigungen/Warnungen können ebenfalls festgelegt werden.
+Unter Game kannst du das txAdmin Menü für die Ingame-Nutzung aktivieren, sodass Admins das Menü per /tx Befehl öffnen und verwalten können. Außerdem kannst du weitere Anpassungen für Layout, Button-Konfiguration zum Umschalten von Schaltern sowie Benachrichtigungen/Warnungen festlegen.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/fLo976YMdbYkHts/preview)
 
 ### System
 
-Im Bereich Einstellungen kannst du einige wichtige allgemeine Optionen und Informationen einsehen. Diese sind in folgenden Abschnitte unterteilt: **Master Actions**, **Diagnostics**, **Console Log** and **Action Log**. Jeder dieser Bereiche wird im Folgenden näher erläutert.
+Im Bereich Settings findest du einige wichtige allgemeine Optionen und Infos. Diese sind in folgende Kategorien unterteilt: **Master Actions**, **Diagnostics**, **Console Log** und **Action Log**. Diese werden im Folgenden genauer erklärt.
 
 
 
 #### Master Actions
 
-In den Master Actions findest du die Option, deinen FXServer zurückzusetzen, ein Datenbank-Backup zu erstellen, die Datenbank zu bereinigen und festzulegen, wann Spieler von einer Whitelist entfernt werden sollen, wenn diese zu lange inaktiv gewesen sind.  
+Unter Master Actions findest du die Möglichkeit, deinen FXServer zurückzusetzen, ein Datenbank-Backup zu erstellen, die Datenbank zu bereinigen und festzulegen, wann Spieler von einer Whitelist entfernt werden sollen, wenn sie zu lange inaktiv waren.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/3A38EoqELeWMYJ6/download)
 
@@ -119,19 +117,19 @@ In den Master Actions findest du die Option, deinen FXServer zurückzusetzen, ei
 
 #### Diagnostics
 
-Der Bereich Diagnostics zeigt alle relevanten Informationen zur Umgebung, zur txAdmin Runtime, zum Diagnosereport, zur FXServer /info.json und zu den Prozessen an.
+Der Bereich Diagnostics zeigt alle relevanten Infos zur Umgebung, zur txAdmin Laufzeit, zum Diagnostics Report, FXServer /info.json und zu Prozessen an.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/4Qg9MKwwnqFXwBd/preview)
 
 #### Console Log
 
-Das Console Log zeigt die Ausgaben von txAdmin im übergeordneten Terminal an, einschließlich der normalerweise ausgeblendeten Debug-Nachrichten.
+Das Console Log zeigt die Ausgaben von txAdmin im übergeordneten Terminal, inklusive der normalerweise versteckten Debug-Meldungen.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/jsCerbambRn5DMy/preview)
 
 #### Action Log
 
-Das Action Log zeichnet alle Aktionen auf, die von txAdmin oder einem Administrator durchgeführt wurden.
+Das Action Log protokolliert alle Aktionen, die von txAdmin oder einem Admin durchgeführt wurden.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/P65fwKRSfjDZgdo/preview)
 
@@ -139,13 +137,13 @@ Das Action Log zeichnet alle Aktionen auf, die von txAdmin oder einem Administra
 
 ## Sidebar 
 
-Die Seitenleiste enthält die folgenden Elemente: **Dashboard**, **Live Console**, **Resources**, **Server Log** and **CFG Editor**. Jeder dieser Punkte wird im Folgenden näher erläutert.
+Das Sidebar-Menü enthält folgende Punkte: **Dashboard**, **Live Console**, **Resources**, **Server Log** und **CFG Editor**. Diese werden im Folgenden genauer erklärt.
 
 
 
 ### Dashboard
 
-Das Dashboard zeigt alle wichtigen allgemeinen Informationen über den Server an. Live-Daten zur Auslastung und Leistung können über die Statistiken eingesehen werden. Der Serverstatus, ob gestartet, online oder gestoppt, ist in der Seitenleiste sichtbar. Dort kannst du den Server auch starten, stoppen oder neu starten, alle Spieler mit einem Klick kicken und Ankündigungen senden. Außerdem können dort geplante Neustarts erstellt werden. Auf der rechten Seite der Seitenleiste kannst du Informationen über die derzeit verbundenen Spieler einsehen.
+Das Dashboard zeigt alle wichtigen allgemeinen Infos zum Server. Live-Daten zur Auslastung und Performance kannst du über die Statistiken überwachen. Der Serverstatus, ob gestartet, online oder gestoppt, ist in der Sidebar sichtbar. Von dort aus kannst du den Server starten, stoppen oder neu starten, alle Spieler mit einem Klick kicken und Ankündigungen senden. Außerdem lassen sich geplante Neustarts einrichten. Rechts in der Sidebar siehst du Infos zu den aktuell verbundenen Spielern.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/YrRXBNBX2xTnRyJ/preview)
 
@@ -153,18 +151,18 @@ Das Dashboard zeigt alle wichtigen allgemeinen Informationen über den Server an
 
 ### Live Console
 
-Die Live-Konsole bietet dir Echtzeitinformationen über die Serveraktivitäten. Hier kannst du Details zu Aktivitäten, Warnungen und Fehlermeldungen einsehen. Sie dient als wertvolle Referenzstelle zur Fehlerbehebung, indem du mögliche Fehlermeldungen analysieren kannst.
+Die Live Console liefert dir Echtzeit-Infos zu Serveraktivitäten. Hier kannst du Details zu Aktivitäten, Warnungen und Fehlermeldungen sehen. Sie ist ein wertvolles Tool, um Fehler zu debuggen, indem du potenzielle Fehlermeldungen analysierst.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/PDyPa7TfsHgTbAD/preview)
 
 ### Resources
-Im Bereich Ressourcen findest du eine Übersicht über alle Ressourcen, egal ob sie über eine Template (Rezept) vorinstalliert sind oder später von dir hinzugefügt wurden. Darüber hinaus kannst du sie bei Bedarf neu starten oder stoppen.
+Im Bereich Resources findest du eine Übersicht aller Ressourcen, egal ob vorinstalliert via Template (Recipe) oder von dir später hinzugefügt. Du kannst sie bei Bedarf neu starten oder stoppen.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/QJZnMTCqQpx92EL/preview)
 
 ### Server Log
 
-Die Server Log ermöglicht es dir, alle Aktivitäten auf dem Server zu überwachen. Du kannst z. B. Details einsehen, wenn Spieler sich verbinden oder die Verbindung trennen, Chat-Nachrichten, Spielabbrüche, Menüaktionen, ausgeführte Befehle und Systemereignisse.
+Das Server Log erlaubt dir, alle Aktivitäten auf dem Server zu überwachen. Zum Beispiel kannst du sehen, wann Spieler sich verbinden oder trennen, Chatnachrichten, Spielertode, Menüaktionen, ausgeführte Befehle und Systemereignisse.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/zgBGMQq3stNkstq/preview)
 
@@ -172,7 +170,7 @@ Die Server Log ermöglicht es dir, alle Aktivitäten auf dem Server zu überwach
 
 ### CFG Editor
 
-Du kannst den CFG-Editor verwenden, um die Konfigurationsdatei `server.cfg` deines Servers zu verwalten und zu aktualisieren. Hier finden Sie alle wichtigen Konfigurationsbefehle, die die Einstellungen Ihres Servers steuern.
+Mit dem CFG Editor kannst du die `server.cfg` Konfigurationsdatei deines Servers verwalten und aktualisieren. Hier findest du alle wichtigen Konfigurationsbefehle, die die Einstellungen deines Servers steuern.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/jqDBDqp55HoKmNB/preview)
 

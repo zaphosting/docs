@@ -1,8 +1,8 @@
 ---
 id: gameserver-ftpaccess
-title: 'Gameserver: Zugriff per FTP zum Verwalten der Serverdateien'
-description: Informationen, wie du per FTP verbindest und die Dateien deines Gameservers von ZAP-Hosting verwaltest - ZAP-Hosting.com Dokumentation
-sidebar_label: FTP Zugriff
+title: "Gameserver: Zugriff via FTP zur Verwaltung der Server-Dateien"
+description: "Entdecke, wie du sicher per FTP auf deine Server-Dateien zugreifst und sie verwaltest – für reibungslose Dateiübertragungen und volle Serverkontrolle → Jetzt mehr erfahren"
+sidebar_label: FTP-Zugang
 services:
   - gameserver
 ---
@@ -11,14 +11,13 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
 
-Das FTP (File Transfer Protocol) ist ein Netzwerkprotokoll, das dazu dient, Dateien über ein TCP/IP-Netzwerk zu übertragen.
-Das Protokoll wurde entwickelt, um den einfachen Austausch von Dateien zwischen Systemen zu ermöglichen. Über das FTP-Protokoll hast du die Möglichkeit, auf deine Server-Dateien zuzugreifen und zu verwalten. Sei es, dass du Dateien hoch- und runterlädst oder diese aktiv bearbeitest. 
+FTP (File Transfer Protocol) ist ein Netzwerkprotokoll, das für den Dateitransfer über ein TCP/IP-Netzwerk entwickelt wurde. Das Protokoll ermöglicht einen einfachen Dateiaustausch zwischen Systemen. Mit FTP kannst du auf deine Server-Dateien zugreifen und sie verwalten – egal ob du Dateien hoch- und runterladen oder aktiv bearbeiten möchtest.
 
 <InlineVoucher />
 
 ## Vorbereitung
 
-Damit du deine Dateien mittels des FTP-Protokolls verwalten kannst, benötigst du einen passenden FTP-Client. Es gibt hierbei eine recht große Auswahl an verfügbaren FTP-Client. Zu den bekanntesten und etabliertesten FTP-Clients gehören allerdings **FileZilla** und **WinSCP**. 
+Um deine Dateien per FTP zu verwalten, brauchst du einen passenden FTP-Client. Es gibt eine große Auswahl an FTP-Clients, aber zwei der bekanntesten und etabliertesten sind **FileZilla** und **WinSCP**.
 
 | FTP-Client | Download                                                     |
 | ---------- | ------------------------------------------------------------ |
@@ -27,88 +26,78 @@ Damit du deine Dateien mittels des FTP-Protokolls verwalten kannst, benötigst d
 
 
 
-## FTP-Daten abrufen
+## FTP-Zugangsdaten erhalten
 
-Um über FTP auf deinen Gameserver zuzugreifen, benötigst du die entsprechenden Zugangsdaten. Diese findest du im Bereich **FTP-Browser** deiner Gameserver-Verwaltung.
+Um per FTP auf deinen Gameserver zuzugreifen, brauchst du die passenden Login-Daten. Diese findest du im Bereich **FTP Browser** deiner Gameserver-Verwaltung.
 
-Gebe dazu einfach die **IP-Adresse (FTP-Server)**, den **Benutzernamen** und das **Passwort** ein, um die Verbindung herzustellen. Diese Zugangsdaten sind auf der Seite **FTP-Browser** aufgeführt. Der Port ist immer **21** und wird normalerweise automatisch eingestellt.
+Gib einfach die **IP-Adresse (FTP-Server)**, den **Benutzernamen** und das **Passwort** ein, um die Verbindung herzustellen. Diese Daten findest du auf der **FTP Browser**-Seite. Der Port ist immer **21** und wird normalerweise automatisch gesetzt.
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/QYWX8sSoszCXno4/download)
+![img](https://screensaver01.zap-hosting.com/index.php/s/6FTFDwyBQZ792Fd/download)
 
 
 
 ## FileZilla
 
-### Verbinden
+### Verbindung herstellen
 
-Die Verbindung kannst du entweder über die Direktverbindung oder unter **Datei -> Server Manager** herstellen. Trage dort die **FTP-Zugangsdaten** von deinem Server ein und klicke im Anschluss auf **Verbinden**. 
+Du kannst die Verbindung entweder über die Quickconnect-Funktion oder über **Datei -> Servermanager** herstellen. Trage dort die **FTP-Zugangsdaten** für deinen Server ein und klicke dann auf **Verbinden**.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/KH9HRWK3geypbf4/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/wxSSFoW3GTXJdLK/preview)
 
 :::info
-Stelle sicher, dass du den Server stoppst und die FTP-Berechtigungen aktualisierst, bevor du auf die Serverdateien zugreifst. Andernfalls könnten Fehlermeldungen wie „Permission Denied“ oder „Access Denied“ auftreten.
+Stelle sicher, dass du den Server stoppst und die FTP-Berechtigungen aktualisierst, bevor du auf die Server-Dateien zugreifst. Sonst können Fehlermeldungen wie „Permission Denied“ oder „Access Denied“ auftreten.
 :::
-
-
 
 ### Dateien verwalten
 
-Wie bereits ursprünglich erwähnt kannst du mit dem FTP-Client bei deinem Server Dateien hochladen, herunterladen und bearbeiten. Der FTP-Client ist in zwei Teile aufgeteilt. Die Linke Hälfte stellt deinen Client (Computer) und die rechte Hälfte deinen Server Bereich dar. Du kannst dementsprechend in beiden Verzeichnissen sowohl auf Lokaler als auch Server Ebene navigieren. 
+Wie schon erwähnt, kannst du mit dem FTP-Client Dateien auf deinen Server hoch- und herunterladen sowie bearbeiten. Der FTP-Client ist in zwei Bereiche aufgeteilt: Links siehst du deinen Client (deinen PC), rechts deinen Server. Du kannst in beiden Verzeichnissen navigieren – lokal und auf dem Server.
 
-Die Verwaltung erfolgt mit einem Rechtsklick auf die jeweilige Datei oder Ordner. Je nachdem was du machen möchtest, kannst du darüber Dateien oder Ordner hoch- und herunterladen, bearbeiten, umbenennen oder verschieben. 
+Die Verwaltung erfolgt per Rechtsklick auf die jeweilige Datei oder den Ordner. Je nachdem, was du machen willst, kannst du Dateien oder Ordner hochladen, herunterladen, bearbeiten, umbenennen oder verschieben.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/65LiiStT7SrFndT/preview)
-
-
+![](https://screensaver01.zap-hosting.com/index.php/s/qizoBD5JnHBRkJc/preview)
 
 :::info
-Solltest du mehrere Gameserver besitzen, so musst du zunächst in das richtige Gameserververzeichnis navigieren. 
+Wenn du mehrere Gameserver hast, musst du zuerst in das richtige Gameserver-Verzeichnis navigieren.
 :::
 
 
 
-### Mögliche Probleme und Lösungsansätze
+### Mögliche Probleme und Lösungen
 
-#### "530 Login incorrect" Fehlermeldung
+#### Fehler „530 Login incorrect“
+Wenn dieser Fehler beim Verbindungsaufbau auftritt, wurden falsche Zugangsdaten eingegeben. Prüfe alle Felder auf Vollständigkeit und Richtigkeit.
 
-Sollte beim Verbindungaufbau diese Fehlermeldung auftreten, so bedeutet dies, dass falsche Zugangsdaten angegeben wurden. Überprüfe alle ausgefüllten Felder auf Vollständigkeit und Korrektheit. 
-
-#### "Transfer connection interrupted" Fehlermeldung
-
-Sollte bei der Verbindung oder auch Übertragung diese Fehlermeldung auftreten, so kann testweise der Übertragungsmodus von *Passive* auf *Active* umgestellt werden.
+#### Fehler „Transfer connection interrupted“
+Wenn dieser Fehler während der Verbindung oder beim Transfer auftritt, kannst du versuchen, den Übertragungsmodus von *Passiv* auf *Aktiv* zu wechseln. Die folgenden Schritte zeigen, wie du diese Einstellung in FileZilla änderst.
 
 
 
 
 ## WinSCP
 
-### Verbinden
+### Verbindung herstellen
+Du kannst die Verbindung über Quickconnect oder oben über **Neue Sitzung** herstellen. Gib dort die FTP-Zugangsdaten für deinen Server ein und klicke dann auf **Verbinden**.
 
-Die Verbindung kannst du entweder über die Direktverbindung oder oben über **Neue Sitzung** herstellen. Trage dort die FTP-Zugangsdaten von deinem Server ein und klicke im Anschluss auf **Verbinden**. 
+![](https://screensaver01.zap-hosting.com/index.php/s/KNnkJsnETTFqZpD/preview)
 
-![](https://screensaver01.zap-hosting.com/index.php/s/QZj8SMLS574rK2F/preview)
 
 :::info
-Stelle sicher, dass du den Server stoppst und die FTP-Berechtigungen aktualisierst, bevor du auf die Serverdateien zugreifst. Andernfalls könnten Fehlermeldungen wie „Permission Denied“ oder „Access Denied“ auftreten.
+Stelle sicher, dass du den Server stoppst und die FTP-Berechtigungen aktualisierst, bevor du auf die Server-Dateien zugreifst. Sonst können Fehlermeldungen wie „Permission Denied“ oder „Access Denied“ auftreten.
 :::
+
 
 ### Dateien verwalten
 
-Wie bereits ursprünglich erwähnt kannst du mit dem FTP-Client bei deinem Server Dateien hochladen, herunterladen und bearbeiten. Der FTP-Client ist in zwei Teile aufgeteilt. Die Linke Hälfte stellt deinen Client (Computer) und die rechte Hälfte deinen Server Bereich dar. Du kannst dementsprechend in beiden Verzeichnissen sowohl auf Lokaler als auch Server Ebene navigieren. 
+Wie schon erwähnt, kannst du mit dem FTP-Client Dateien auf deinen Server hoch- und herunterladen sowie bearbeiten. Der FTP-Client ist in zwei Bereiche aufgeteilt: Links siehst du deinen Client (deinen PC), rechts deinen Server. Du kannst in beiden Verzeichnissen navigieren – lokal und auf dem Server.
 
-Die Verwaltung erfolgt mit einem rechtsklick auf die jeweilige Datei oder Ordner. Je nachdem was du machen möchtest, kannst du darüber Dateien oder Ordner hoch- und herunterladen, bearbeiten, umbenennen oder verschieben. 
+Die Verwaltung erfolgt per Rechtsklick auf die jeweilige Datei oder den Ordner. Je nachdem, was du machen willst, kannst du Dateien oder Ordner hochladen, herunterladen, bearbeiten, umbenennen oder verschieben.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/rFMnnsdi2dbEt6r/preview)
-
-
-
-### Mögliche Probleme und Lösungsansätze
-
-#### "530 Login incorrect" Fehlermeldung
-
-Sollte beim Verbindungsaufbau diese Fehlermeldung auftreten, so bedeutet dies, dass falsche Zugangsdaten angegeben wurden. Überprüfe alle ausgefüllten Felder auf Vollständigkeit und Korrektheit. 
+![](https://screensaver01.zap-hosting.com/index.php/s/dAYiFwWQAipgTqW/preview)
 
 
+### Mögliche Probleme und Lösungen
 
+#### Fehler „530 Login incorrect“
+Wenn dieser Fehler beim Verbindungsaufbau auftritt, wurden falsche Zugangsdaten eingegeben. Prüfe alle Felder auf Vollständigkeit und Richtigkeit.
 
 <InlineVoucher />

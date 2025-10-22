@@ -1,8 +1,8 @@
 ---
 id: assetto-competizione-slot-requirement
-title: "Assetto Corsa Competizione: Car Slot Voraussetzungen"
-description: Informationen, wie du deine Car Slots erhöhst und korrekt nutzen kannst - ZAP-Hosting.com Dokumentation
-sidebar_label: Car Slot Voraussetzungen
+title: "Assetto Corsa Competizione: Voraussetzungen für Car Slots"
+description: "Entdecke, wie du in Assetto Corsa mehr als 10 Slots freischaltest, indem du wichtige Voraussetzungen erfüllst für ein besseres Gameplay → Jetzt mehr erfahren"
+sidebar_label: Voraussetzungen für Car Slots
 services:
   - gameserver-assetto-competizione
 ---
@@ -11,17 +11,17 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
 
-Bei Assetto Corsa lassen sich 10 Slots ohne weitere Änderung korrekt nutzen. Allerdings müssen für die Nutzung von mehr als 10 Slots bestimmte Voraussetzungen erfüllt sein. Diese Voraussetzungen werden unter "**Configs**" eingestellt. Dort wird die "**settings.json**" bearbeitet.
+In Assetto Corsa können standardmäßig 10 Slots ohne weitere Anpassungen genutzt werden. Um jedoch mehr als 10 Slots zu verwenden, müssen bestimmte Voraussetzungen erfüllt sein. Diese Voraussetzungen werden unter "**Configs**" festgelegt, wo die Datei "**settings.json**" bearbeitet werden muss.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/Rj5YmXCJiLs8Xf8/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/QbA5ZaeFywt974J/preview)
 
 <InlineVoucher />
 
-## Voraussetzungen und Slot Limits
+## Vorbereitung und Slot-Limits
 
-Um mehr als 10 Slots nutzen zu können, müssen die Werte **"trackMedalsRequirement": X,** und **"safetyRatingRequirement": X,** angepasst werden.
-Wie hoch diese eingestellt werden müssen, lässt sich durch folgende Formel berechnen. 
-Die gleiche Formel kann dann auf die gewünschten Werte trackMedalRequirement und safetyRatingRequirement umgestellt werden.
+Um mehr als 10 Slots zu nutzen, müssen die Werte **"trackMedalsRequirement": X,** und **"safetyRatingRequirement": X,** angepasst werden.
+Wie hoch diese Werte gesetzt werden müssen, lässt sich mit folgender Formel berechnen. 
+Mit derselben Formel kannst du dann die gewünschten Werte für trackMedalRequirement und safetyRatingRequirement ermitteln.
 
 ```
 Slots = safetyRating / 4 + trackMedals + 10 
@@ -29,12 +29,12 @@ Slots = safetyRating / 4 + trackMedals + 10
 
 ### Liste möglicher Kombinationen
 
-Im Nachfolgenden wird eine Liste mit möglichen Kombinationen angezeigt, um die gewünschte Slotanzahl nutzen zu können.
-Hierbei gibt es auch mehr als eine mögliche Lösung, um die nötige Slot-Voraussetzung zu erreichen.
-Aus diesem Grund wurden in der Liste auch die verschiedenen Möglichkeiten dargestellt.
+Im Folgenden findest du eine Liste möglicher Kombinationen, mit denen du die gewünschte Anzahl an Slots freischalten kannst.
+Es gibt dabei nicht nur eine Lösung, sondern mehrere Wege, um die nötigen Voraussetzungen für die Slots zu erfüllen.
+Deshalb sind in der Liste auch verschiedene Optionen aufgeführt.
 
 :::info
-Beachte, dass hierbei für safetyRatingRequirement und trackMedalRequirement die **Mindestanforderungen** eingetragen wurden. Es ist natürlich auch möglich, mit größeren Werten bei safetyRatingRequirement und trackMedalRequirement weniger Slots zu hosten.
+Beachte, dass bei safetyRatingRequirement und trackMedalRequirement die **minimalen** Voraussetzungen angegeben sind. Es ist natürlich auch möglich, weniger Slots mit höheren Werten für safetyRatingRequirement und trackMedalRequirement zu hosten.
 :::
 
 Slots | safetyRatingRequirement | trackMedalRequirement

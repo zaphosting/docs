@@ -1,7 +1,7 @@
 ---
 id: spaceengineers-becomeadmin
-title: "Space Engineers: Server-Admin werden"
-description: Informationen, wie du dich um Admin auf deinem Space Engineers-Server von ZAP-Hosting machen kannst - ZAP-Hosting.com Dokumentation
+title: "Space Engineers: Werde Server-Admin"
+description: "Entdecke, wie du Administratorrechte vergibst für volle Serverkontrolle und nahtloses Ingame-Management → Jetzt mehr erfahren"
 sidebar_label: Admin werden
 services:
   - gameserver-spaceengineers
@@ -10,57 +10,55 @@ services:
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
-Die Zuweisung von Administratorberechtigungen ermöglicht dir eine einfache und umfangreiche Verwaltung mit voller Kontrolle deines Servers. Als Administrator hast du die Möglichkeit alle verfügbaren Optionen und Funktionen, die das Spiel bereitstellt, direkt im Spiel anzuwenden. Im folgenden werden dir alle notwendigen Schritte erläutert, die du benötigst, um dir die Administratorberechtigungen für deinen Server zuzuweisen. 
+Die Vergabe von Administratorrechten ermöglicht dir eine einfache und umfassende Verwaltung mit voller Kontrolle über deinen Server. Als Admin kannst du alle verfügbaren Optionen und Funktionen, die das Spiel bietet, direkt ingame nutzen. Alle Schritte, die du zur Vergabe der Administratorrechte für deinen Server brauchst, werden dir hier erklärt.  
 <InlineVoucher />
 
-## Konfiguration
+Um deinen eigenen Gameserver ingame gut verwalten zu können, ist es wichtig, den Admin-Rang zu haben.
 
-Um den eigenen Spielserver gut im Spiel verwalten zu können ist es wichtig den Admin Rang zu haben.
+### SteamID64 über Website
 
-### SteamID64 via Webseite
+Zuerst musst du das Profil in Steam aufrufen und dann irgendwo mit der rechten Maustaste klicken.  
+Dort kannst du dann die Steam-URL des Profils kopieren.
 
-Zunächst einmal muss in Steam das Profil aufgerufen und dort dann an einer beliebigen Stelle Rechtsklick klicken werden.
-Dort kann man dann die Steam URL des Profils kopieren.
+![](https://screensaver01.zap-hosting.com/index.php/s/pNMMAqQDRPSoo38/preview)
 
-![](https://screensaver01.zap-hosting.com/index.php/s/rG6gLqZrrSBKFoA/preview)
-
-Sobald das erledigt ist, kann man dann die URL auf folgenden Webseiten eingeben:
+Anschließend kannst du die URL auf folgenden Seiten eingeben:
 
 - https://steamidfinder.com/
 - https://steamid.io/
 - https://steamrep.com/
 
-![](https://screensaver01.zap-hosting.com/index.php/s/fR4ZzAGSwLTcnHr/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/dBezeZQEoP3KYq5/preview)
 
 ### SteamID in die Config eintragen
 
-Als Nächstes rufst du dein Interface und den Server auf. 
-Dort gehst du dann auf den Reiter **Configs**
+Als Nächstes öffnest du dein Interface und den Server.  
+Dort gehst du auf den Reiter **Configs**
 
-![](https://screensaver01.zap-hosting.com/index.php/s/EzMp8LEjWMSkqjr/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/NQffqKfjszY23HK/preview)
 
-Anschließend öffnest du die **SpaceEngineers-Dedicated.cfg**
+Dann öffnest du die **SpaceEngineers-Dedicated.cfg**
 
-![](https://screensaver01.zap-hosting.com/index.php/s/iJH2TSXjTTKxqGY/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/yx2efZLYmW32BZH/preview)
 
-Wenn du das gemacht hast, drückst du **STR + F** und suchst nach *admin*
+Danach drückst du **STR + F** und suchst nach *admin*
 
-![](https://screensaver01.zap-hosting.com/index.php/s/wFEQBnF9DGbgwrD/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/eBgLRwe5Y3itnyt/preview)
 
-Nun schreibst du Folgendes:
+Jetzt schreibst du das hier rein:
 ```
 <Administrators>
 <unsignedLong>STEAM64ID</unsignedLong>
 </Administrators>
 ````
-Das ganze sollte danach dann so aussehen:
+Das Ganze sollte danach so aussehen:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/FqDX9KXdcGkaRqi/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/r7tj3EF6trSiz5x/preview)
 
-Jetzt nur noch die Config Datei **Speichern** und fertig.
+Jetzt nur noch die Config speichern und fertig!
 
-## Abschluss
+## Fazit
 
-Glückwunsch, du hast erfolgreich die Administratorberechtigungen konfiguriert. Für weitere Fragen oder Hilfe zögere bitte nicht, unser Support-Team zu kontaktieren, das dir täglich zur Verfügung steht! 🙂
+Glückwunsch, du hast die Administratorrechte erfolgreich eingerichtet. Bei weiteren Fragen oder Problemen steht dir unser Support-Team täglich zur Seite! 🙂
 
 <InlineVoucher />

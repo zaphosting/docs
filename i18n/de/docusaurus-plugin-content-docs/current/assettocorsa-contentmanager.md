@@ -1,8 +1,8 @@
 ---
 id: assettocorsa-contentmanager
-title: Server konfigurieren mit Content Manager
-description: Information, wie du deinen Assetto Corsa Server von ZAP-Hosting mittels des Content-Managers konfigurieren kannst - ZAP-Hosting.com Dokumentation
-sidebar_label: Server konfigurieren mit Content Manager
+title: "Assetto Corsa: Server mit Content Manager konfigurieren"
+description: "Entdecke, wie du deine Gameserver-Einstellungen effizient konfigurierst und verwaltest für optimale Performance und individuelle Anpassung → Jetzt mehr erfahren"
+sidebar_label: Server mit Content Manager konfigurieren
 services:
   - gameserver-assettocorsa
 ---
@@ -10,85 +10,82 @@ services:
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
 :::info
-**Wichtig** 
-
-Um den Server mit dem Content Manager verwalten zu können, ist die Full-Version nötig, die Lite-Version kann server *nicht* verwalten.
+**Wichtig** Um den Server mit Content Manager zu verwalten, wird die Vollversion benötigt, die Lite-Version kann *keine* Server verwalten.
 :::
 
 <InlineVoucher />
 
+
 ## Vorbereitung
 
-Zunächst öffnen wir unseren Content Manager, und klicken rechts oben auf das Sandwich Menü, dort wählen wir "Server":
+Zuerst öffnen wir unseren Content Manager und klicken oben rechts auf das Sandwich-Menü, wo wir "Server" auswählen:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/Np78jeeJeSBs3Mi/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/LGKdDPSCMCEMEZj/preview)
 
-Hier erstellen wir nun ein neues Preset und wählen dieses aus:
+Hier erstellen wir jetzt ein neues Preset und wählen es aus:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/2HyyRjQDt78Dtf4/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/XLTcJkwrAAwB65o/preview)
 
+## Server Slots einstellen
 
-## Server Slots Einstellen
+Zuerst müssen wir festlegen, wie viel Kapazität unser Server hat. In unserem Fall hat unser Server nur 10 Slots, also wählen wir bei Kapazität '10' aus:
 
-Wir müssen zuerst einstellen, wie viel Kapazität unser Server hat, in unserem Fall ist unser Server nur 10 Slots, daher wählen wir bei Capacity '10' aus:
+![](https://screensaver01.zap-hosting.com/index.php/s/XreNRjbpSJJqEsQ/preview)
 
-![](https://screensaver01.zap-hosting.com/index.php/s/ENnjE8ZFiMTbqCD/preview)
+## Map einstellen
 
-## Map Einstellen
+Standardmäßig ist hier Imola als Map ausgewählt. Durch Klicken auf die Map können wir unsere eigene Map auswählen:
 
-Hier wird standardmäßig Imola als Map ausgewählt, indem wir auf die Map klicken, können wir unsere eigene Map auswählen:
-
-![](https://screensaver01.zap-hosting.com/index.php/s/DTon4gDnCN9r48b/preview)
-
-
-
-## Autos Einstellen
-
-Nun wechseln wir in das Tab "Entry List", hier können wir nun neue Autos hinzufügen:
-
-![](https://screensaver01.zap-hosting.com/index.php/s/xLrDPWgZYWfa5B6/preview)
-
-
-![](https://screensaver01.zap-hosting.com/index.php/s/tcD4aPc4qMQTwca/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/B87ywSwXHL6qzFD/preview)
 
 
 
-:::info
-Beachte, dass alle Autoslots befüllt werden und nicht mehr, als die Menge der verfügbaren Slots gesetzt wird
+## Autos einstellen
 
-![](https://screensaver01.zap-hosting.com/index.php/s/QHfXaPGNTp9xLGf/preview)
-:::
-
-## FTP Upload Konfigurieren
-
-Über das "Advanced" Menü können wir einen FTP-Uploader konfigurieren, damit du deine Serverconfig mit einem Click hochladen kannst.
-
-![](https://screensaver01.zap-hosting.com/index.php/s/rAcPfq3ZNkietz3/preview)
+Jetzt wechseln wir zum Tab "Entry List", hier können wir neue Autos hinzufügen:
 
 
-Hier gibst du nun deine FTP-Daten ein:
+![](https://screensaver01.zap-hosting.com/index.php/s/bY5Q5WB7nDq7f8q/preview)
 
-![](https://screensaver01.zap-hosting.com/index.php/s/GX945J67eWZMGRg/preview)
+
+![](https://screensaver01.zap-hosting.com/index.php/s/w6oxDfGJifFZbd7/preview)
 
 
 :::info
-**Achtung!** Im "Folder" muss die ID deines Gameservers angegeben werden, wie du sie in der URL deines Gameservers siehst, z.b. 
+Achte darauf, dass alle Auto-Slots gefüllt sind und nicht mehr als die verfügbare Slot-Anzahl eingestellt wird.
 
-https://zap-hosting.com/en/customer/gameserver/show/**427814**/ftpBrowser/
+![](https://screensaver01.zap-hosting.com/index.php/s/tSZn2QJLzfDx4r9/preview)
 :::
 
-In unserem Fall wäre das Ganze dann:
+## FTP Upload konfigurieren
+
+Über das Menü "Advanced" können wir einen FTP-Uploader konfigurieren, damit du deine Server-Konfiguration mit einem Klick hochladen kannst.
+
+![](https://screensaver01.zap-hosting.com/index.php/s/7TmdJPGKAbAJnDP/preview)
+
+
+Jetzt gib hier deine FTP-Daten ein:
+
+![](https://screensaver01.zap-hosting.com/index.php/s/7R9xNeEbDQpF4BD/preview)
+
+:::info
+Im Feld "Folder" musst du die ID deines Gameservers eintragen, wie du sie in der URL deines Gameservers siehst, zum Beispiel:
+
+> https://zap-hosting.com/en/customer/gameserver/show/**427814**/ftpBrowser/
+:::
+
+In unserem Fall wäre das:
 
 ```
 /g427814/assetto-corsa/
 ```
 
-Für AssettoServer: 
+Für AssettoServer:
 
 ```
 /g427814/assettoserver/
 ```
 
-Danach kann auf "Upload Content" geklickt werden, die Config, Strecke und Autos, welche konfiguriert wurden, werden automatisch hochgeladen, danach brauchst du nur noch deinen Server zu starten!
+Danach kannst du auf "Upload Content" klicken, die konfigurierte Config, Strecke und Autos werden automatisch hochgeladen, danach musst du nur noch deinen Server starten!
 
 <InlineVoucher />
