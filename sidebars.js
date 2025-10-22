@@ -22,7 +22,14 @@ const sidebars = {
       className: 'sidebar-title',
       value: (() => {
         switch (process.env.DOCUSAURUS_CURRENT_LOCALE) {
-          case "de": return "Erste Schritte";
+          case "de": return "Placeholder";
+          case "es": return "Placeholder";
+          case "fr": return "Placeholder";
+          case "ar": return "Placeholder";
+          case "pt": return "Placeholder";
+          case "th": return "Placeholder";
+          case "pl": return "Placeholder";
+          case "ja": return "Placeholder";    
           default: return "First steps";
         }
       })(),
@@ -78,7 +85,14 @@ const sidebars = {
       className: 'sidebar-title',
       value: (() => {
         switch (process.env.DOCUSAURUS_CURRENT_LOCALE) {
-          case "de": return "Programme";
+          case "de": return "Placeholder";
+          case "es": return "Placeholder";
+          case "fr": return "Placeholder";
+          case "ar": return "Placeholder";
+          case "pt": return "Placeholder";
+          case "th": return "Placeholder";
+          case "pl": return "Placeholder";
+          case "ja": return "Placeholder";    
           default: return "Programs";
         }
       })(),
@@ -132,7 +146,14 @@ const sidebars = {
       className: 'sidebar-title',
       value: (() => {
         switch (process.env.DOCUSAURUS_CURRENT_LOCALE) {
-          case "de": return "Sonstiges";
+          case "de": return "Placeholder";
+          case "es": return "Placeholder";
+          case "fr": return "Placeholder";
+          case "ar": return "Placeholder";
+          case "pt": return "Placeholder";
+          case "th": return "Placeholder";
+          case "pl": return "Placeholder";
+          case "ja": return "Placeholder";    
           default: return "Other";
         }
       })(),
@@ -149,7 +170,14 @@ const sidebars = {
       className: 'sidebar-title',
       value: (() => {
         switch (process.env.DOCUSAURUS_CURRENT_LOCALE) {
-          case "de": return "Erste Schritte";
+          case "de": return "Placeholder";
+          case "es": return "Placeholder";
+          case "fr": return "Placeholder";
+          case "ar": return "Placeholder";
+          case "pt": return "Placeholder";
+          case "th": return "Placeholder";
+          case "pl": return "Placeholder";
+          case "ja": return "Placeholder";    
           default: return "First steps";
         }
       })(),
@@ -182,7 +210,14 @@ const sidebars = {
       className: 'sidebar-title',
       value: (() => {
         switch (process.env.DOCUSAURUS_CURRENT_LOCALE) {
-          case "de": return "Bekannte Spiele";
+          case "de": return "Placeholder";
+          case "es": return "Placeholder";
+          case "fr": return "Placeholder";
+          case "ar": return "Placeholder";
+          case "pt": return "Placeholder";
+          case "th": return "Placeholder";
+          case "pl": return "Placeholder";
+          case "ja": return "Placeholder";    
           default: return "Popular Games";
         }
       })(),
@@ -588,7 +623,14 @@ const sidebars = {
       className: 'sidebar-title',
       value: (() => {
         switch (process.env.DOCUSAURUS_CURRENT_LOCALE) {
-          case "de": return "Alle Spiele (A-Z)";
+          case "de": return "Placeholder";
+          case "es": return "Placeholder";
+          case "fr": return "Placeholder";
+          case "ar": return "Placeholder";
+          case "pt": return "Placeholder";
+          case "th": return "Placeholder";
+          case "pl": return "Placeholder";
+          case "ja": return "Placeholder";    
           default: return "All Games (A-Z)";
         }
       })(),
@@ -4375,7 +4417,14 @@ const sidebars = {
       className: 'sidebar-title',
       value: (() => {
         switch (process.env.DOCUSAURUS_CURRENT_LOCALE) {
-          case "de": return "Erste Schritte";
+          case "de": return "Placeholder";
+          case "es": return "Placeholder";
+          case "fr": return "Placeholder";
+          case "ar": return "Placeholder";
+          case "pt": return "Placeholder";
+          case "th": return "Placeholder";
+          case "pl": return "Placeholder";
+          case "ja": return "Placeholder";    
           default: return "First steps";
         }
       })(),
@@ -4401,7 +4450,14 @@ const sidebars = {
       className: 'sidebar-title',
       value: (() => {
         switch (process.env.DOCUSAURUS_CURRENT_LOCALE) {
-          case "de": return "Custom ISOs";
+          case "de": return "Placeholder";
+          case "es": return "Placeholder";
+          case "fr": return "Placeholder";
+          case "ar": return "Placeholder";
+          case "pt": return "Placeholder";
+          case "th": return "Placeholder";
+          case "pl": return "Placeholder";
+          case "ja": return "Placeholder";    
           default: return "Custom ISOs";
         }
       })(),
@@ -4414,7 +4470,14 @@ const sidebars = {
       className: 'sidebar-title',
       value: (() => {
         switch (process.env.DOCUSAURUS_CURRENT_LOCALE) {
-          case "de": return "Linux";
+          case "de": return "Placeholder";
+          case "es": return "Placeholder";
+          case "fr": return "Placeholder";
+          case "ar": return "Placeholder";
+          case "pt": return "Placeholder";
+          case "th": return "Placeholder";
+          case "pl": return "Placeholder";
+          case "ja": return "Placeholder";    
           default: return "Linux";
         }
       })(),
@@ -4530,7 +4593,14 @@ const sidebars = {
       className: 'sidebar-title',
       value: (() => {
         switch (process.env.DOCUSAURUS_CURRENT_LOCALE) {
-          case "de": return "Windows";
+          case "de": return "Placeholder";
+          case "es": return "Placeholder";
+          case "fr": return "Placeholder";
+          case "ar": return "Placeholder";
+          case "pt": return "Placeholder";
+          case "th": return "Placeholder";
+          case "pl": return "Placeholder";
+          case "ja": return "Placeholder";    
           default: return "Windows";
         }
       })(),
@@ -4623,7 +4693,14 @@ const sidebars = {
       className: 'sidebar-title',
       value: (() => {
         switch (process.env.DOCUSAURUS_CURRENT_LOCALE) {
-          case "de": return "Erste Schritte";
+          case "de": return "Placeholder";
+          case "es": return "Placeholder";
+          case "fr": return "Placeholder";
+          case "ar": return "Placeholder";
+          case "pt": return "Placeholder";
+          case "th": return "Placeholder";
+          case "pl": return "Placeholder";
+          case "ja": return "Placeholder";    
           default: return "First steps";
         }
       })(),
@@ -4649,7 +4726,14 @@ const sidebars = {
       className: 'sidebar-title',
       value: (() => {
         switch (process.env.DOCUSAURUS_CURRENT_LOCALE) {
-          case "de": return "Betriebssysteme";
+          case "de": return "Placeholder";
+          case "es": return "Placeholder";
+          case "fr": return "Placeholder";
+          case "ar": return "Placeholder";
+          case "pt": return "Placeholder";
+          case "th": return "Placeholder";
+          case "pl": return "Placeholder";
+          case "ja": return "Placeholder";    
           default: return "Operating systems";
         }
       })(),
@@ -4687,7 +4771,14 @@ const sidebars = {
       className: 'sidebar-title',
       value: (() => {
         switch (process.env.DOCUSAURUS_CURRENT_LOCALE) {
-          case "de": return "Linux";
+          case "de": return "Placeholder";
+          case "es": return "Placeholder";
+          case "fr": return "Placeholder";
+          case "ar": return "Placeholder";
+          case "pt": return "Placeholder";
+          case "th": return "Placeholder";
+          case "pl": return "Placeholder";
+          case "ja": return "Placeholder";    
           default: return "Linux";
         }
       })(),
@@ -4795,7 +4886,14 @@ const sidebars = {
       className: 'sidebar-title',
       value: (() => {
         switch (process.env.DOCUSAURUS_CURRENT_LOCALE) {
-          case "de": return "Windows";
+          case "de": return "Placeholder";
+          case "es": return "Placeholder";
+          case "fr": return "Placeholder";
+          case "ar": return "Placeholder";
+          case "pt": return "Placeholder";
+          case "th": return "Placeholder";
+          case "pl": return "Placeholder";
+          case "ja": return "Placeholder";    
           default: return "Windows";
         }
       })(),
@@ -4887,7 +4985,14 @@ const sidebars = {
       className: 'sidebar-title',
       value: (() => {
         switch (process.env.DOCUSAURUS_CURRENT_LOCALE) {
-          case "de": return "Domain";
+          case "de": return "Placeholder";
+          case "es": return "Placeholder";
+          case "fr": return "Placeholder";
+          case "ar": return "Placeholder";
+          case "pt": return "Placeholder";
+          case "th": return "Placeholder";
+          case "pl": return "Placeholder";
+          case "ja": return "Placeholder";    
           default: return "Domain";
         }
       })(),
@@ -4924,7 +5029,14 @@ const sidebars = {
       className: 'sidebar-title',
       value: (() => {
         switch (process.env.DOCUSAURUS_CURRENT_LOCALE) {
-          case "de": return "Webspace";
+          case "de": return "Placeholder";
+          case "es": return "Placeholder";
+          case "fr": return "Placeholder";
+          case "ar": return "Placeholder";
+          case "pt": return "Placeholder";
+          case "th": return "Placeholder";
+          case "pl": return "Placeholder";
+          case "ja": return "Placeholder";    
           default: return "Webspace";
         }
       })(),
@@ -4976,7 +5088,14 @@ const sidebars = {
       className: 'sidebar-title',
       value: (() => {
         switch (process.env.DOCUSAURUS_CURRENT_LOCALE) {
-          case "de": return "Voicebot";
+          case "de": return "Placeholder";
+          case "es": return "Placeholder";
+          case "fr": return "Placeholder";
+          case "ar": return "Placeholder";
+          case "pt": return "Placeholder";
+          case "th": return "Placeholder";
+          case "pl": return "Placeholder";
+          case "ja": return "Placeholder";    
           default: return "Voicebot";
         }
       })(),
@@ -5005,7 +5124,14 @@ const sidebars = {
       className: 'sidebar-title',
       value: (() => {
         switch (process.env.DOCUSAURUS_CURRENT_LOCALE) {
-          case "de": return "Voiceserver";
+          case "de": return "Placeholder";
+          case "es": return "Placeholder";
+          case "fr": return "Placeholder";
+          case "ar": return "Placeholder";
+          case "pt": return "Placeholder";
+          case "th": return "Placeholder";
+          case "pl": return "Placeholder";
+          case "ja": return "Placeholder";    
           default: return "Voiceserver";
         }
       })(),
