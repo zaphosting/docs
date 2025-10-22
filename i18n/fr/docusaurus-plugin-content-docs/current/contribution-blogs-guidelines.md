@@ -11,10 +11,10 @@ Pour garantir que tous les articles du Blog ZAP-Hosting soient cohérents en ter
 
 Nos directives de contribution au blog se divisent en plusieurs sections principales, à savoir :
 
-- [Structure](#structure)
-- [Style](#style)
-- [Mise en forme](#formatting)
-- [Terminologie](#terminology)
+- Structure
+- Style
+- Mise en forme
+- Terminologie
 
 ## Structure
 

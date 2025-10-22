@@ -142,7 +142,7 @@ Con la instalación de cada dependencia LEMP completa, ahora crearemos un sitio 
 
 En este ejemplo, crearemos un pequeño sitio web de lista de tareas en PHP que obtendrá y mostrará las tareas. Esto se almacenará en una tabla MySQL y será servido a través de Nginx.
 
-También usaremos un dominio de prueba `zapdocs.example.com` durante todo el proceso, ya que en un escenario real probablemente usarías un dominio. **Debes** configurar un registro DNS tipo `A` para el dominio que apunte a la dirección IP de tu servidor. Si necesitas ayuda, consulta nuestra guía [Registros de Dominio](domain-records.md#a-records).
+También usaremos un dominio de prueba `zapdocs.example.com` durante todo el proceso, ya que en un escenario real probablemente usarías un dominio. **Debes** configurar un registro DNS tipo `A` para el dominio que apunte a la dirección IP de tu servidor. Si necesitas ayuda, consulta nuestra guía [Registros de Dominio](domain-records.md).
 
 :::note
 Puedes optar por no usar un dominio y reemplazar las menciones de `[your_domain]` con un nombre normal. Entonces accederías al sitio vía IP. Pero ten en cuenta que al crear el archivo del bloque de servidor más adelante, deberás eliminar el parámetro `server_name`.
@@ -356,7 +356,7 @@ Ahora deberías poder acceder al sitio vía el dominio (usando `http`/puerto 80)
 
 ## Conclusión
 
-¡Felicidades, has instalado y configurado exitosamente el stack LEMP! Como siguiente paso, **recomendamos mucho** configurar un dominio y un **certificado SSL** para asegurar que los datos se transmitan de forma segura a tus sitios. Consulta nuestra [guía Certbot](vserver-linux-certbot.md#webroot-plugin) enfocada en el **plugin Nginx** y sigue la configuración interactiva para montar un certificado rápido y fácil para tu dominio.
+¡Felicidades, has instalado y configurado exitosamente el stack LEMP! Como siguiente paso, **recomendamos mucho** configurar un dominio y un **certificado SSL** para asegurar que los datos se transmitan de forma segura a tus sitios. Consulta nuestra [guía Certbot](vserver-linux-certbot.md) enfocada en el **plugin Nginx** y sigue la configuración interactiva para montar un certificado rápido y fácil para tu dominio.
 
 Si tienes más preguntas o necesitas ayuda, no dudes en contactar a nuestro equipo de soporte, disponible todos los días para asistirte! 🙂
 

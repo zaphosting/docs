@@ -30,7 +30,7 @@ Dieses Zeichen dient nur dazu, im Spiel zwischen einer normalen Chatnachricht un
 
 ### Rechte / Berechtigungen
 
-Um Befehle nutzen zu können, sind die nötigen Rechte erforderlich. In Minecraft-Vanilla oder Forge gibt es kein echtes Berechtigungssystem, das von Plugins wie bei Spigot genutzt werden kann. Hier wird nur das Level-System der OP-Rechte verwendet. Eine Anleitung zum OP-Rechte-System findest du hier: [OP Permissions](minecraft-addop.md#rights-level)
+Um Befehle nutzen zu können, sind die nötigen Rechte erforderlich. In Minecraft-Vanilla oder Forge gibt es kein echtes Berechtigungssystem, das von Plugins wie bei Spigot genutzt werden kann. Hier wird nur das Level-System der OP-Rechte verwendet. Eine Anleitung zum OP-Rechte-System findest du hier: [OP Permissions](minecraft-addop.md)
 
 Wenn ein Berechtigungssystem installiert ist und Rechte für bestimmte Minecraft-Befehle vergeben werden sollen, können die jeweiligen Berechtigungen wie unten beschrieben zugewiesen werden.
 

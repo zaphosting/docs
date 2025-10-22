@@ -93,12 +93,12 @@ In seltenen Fällen kann es passieren, dass der Server beim Start ein neues Save
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/wYQ42Aein5y6Z6j/preview)
 
-Dort solltest du dein altes Savegame und ein neu generiertes sehen. Um das zu beheben, bearbeite die Konfigurationsdatei wie im Abschnitt [Savegame aktivieren](#savegame-aktivieren) beschrieben und trage den korrekten Savegame-Ordnernamen ein.
+Dort solltest du dein altes Savegame und ein neu generiertes sehen. Um das zu beheben, bearbeite die Konfigurationsdatei wie im Abschnitt Savegame aktivieren beschrieben und trage den korrekten Savegame-Ordnernamen ein.
 
 Das Savegame sollte wieder aktiv sein, sobald du die Datei gespeichert und den Server neu gestartet hast.
 
 :::info
-Wir empfehlen dir dringend, die automatischen Backups wie im vorherigen Abschnitt [Automatisches Backup](#automatisches-backup) beschrieben zu aktivieren, da Palworld sich noch im Early Access befindet und Savegames bei Updates verloren gehen oder beschädigt werden können.
+Wir empfehlen dir dringend, die automatischen Backups wie im vorherigen Abschnitt Automatisches Backup beschrieben zu aktivieren, da Palworld sich noch im Early Access befindet und Savegames bei Updates verloren gehen oder beschädigt werden können.
 :::
 
 <InlineVoucher />

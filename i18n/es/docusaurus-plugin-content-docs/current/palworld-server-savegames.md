@@ -93,7 +93,7 @@ Primero, revisa tus archivos guardados a través de tu cliente FTP yendo a la si
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/wYQ42Aein5y6Z6j/preview)
 
-En esta ubicación deberías ver aún la partida guardada antigua y una nueva que se generó. Para solucionarlo, simplemente edita el archivo de configuración como se describe en la sección [Activar partida guardada](#activar-partida-guardada) arriba, con el nombre correcto de la carpeta de la partida guardada.
+En esta ubicación deberías ver aún la partida guardada antigua y una nueva que se generó. Para solucionarlo, simplemente edita el archivo de configuración como se describe en la sección Activar partida guardada arriba, con el nombre correcto de la carpeta de la partida guardada.
 
 La partida guardada debería estar activa nuevamente una vez que guardes el archivo y reinicies tu servidor.
 

@@ -46,7 +46,7 @@ Um ein neues Spiel auf deinem Gameserver zu installieren, wähle das Dropdown-Me
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/iN7rNje3zaBPMgf/preview)
 
-Unter diesem Bereich findest du auch das Dropdown-Menü **Mehr Spiele**. In unserem breiten Game-Angebot haben manche Spiele unterschiedliche Slot-Preise, was bedeuten kann, dass du das ausgewählte Spiel nicht ohne Aufpreis installieren kannst. Um das zu lösen, musst du einen Aufpreis zahlen, um deinen Slot-Preis zu erhöhen. Mehr Infos dazu findest du im Abschnitt [Slot-Preis ändern](#change-slot-price).
+Unter diesem Bereich findest du auch das Dropdown-Menü **Mehr Spiele**. In unserem breiten Game-Angebot haben manche Spiele unterschiedliche Slot-Preise, was bedeuten kann, dass du das ausgewählte Spiel nicht ohne Aufpreis installieren kannst. Um das zu lösen, musst du einen Aufpreis zahlen, um deinen Slot-Preis zu erhöhen. Mehr Infos dazu findest du im Abschnitt Slot-Preis ändern.
 
 :::info Mindest-Slot-Anzahl
 Einige Spiele in unserer Sammlung benötigen eine bestimmte Mindestanzahl an Slots, bevor du sie auf deinem Gameserver installieren kannst. In solchen Fällen fahre mit der Maus über das Warnsymbol, um mehr zu erfahren. Nutze die Upgrade-/Downgrade-Funktion, um deinen Server entsprechend anzupassen.

@@ -158,7 +158,7 @@ Nachdem alle LAMP-Komponenten installiert sind, erstellen wir eine Test-Website,
 
 In diesem Beispiel erstellen wir eine kleine To-Do-Listen-Website in PHP, die To-Do-Einträge aus einer MySQL-Datenbank abruft und anzeigt. Die Website wird über Apache ausgeliefert.
 
-Wir verwenden als Testdomain `zapdocs.example.com`, da du in der Praxis wahrscheinlich eine Domain nutzen wirst. Du **musst** einen DNS-`A`-Eintrag für die Domain anlegen, der auf die IP-Adresse deines Servers zeigt. Hilfe dazu findest du in unserer [Domain-Einträge](domain-records.md#a-records) Anleitung.
+Wir verwenden als Testdomain `zapdocs.example.com`, da du in der Praxis wahrscheinlich eine Domain nutzen wirst. Du **musst** einen DNS-`A`-Eintrag für die Domain anlegen, der auf die IP-Adresse deines Servers zeigt. Hilfe dazu findest du in unserer [Domain-Einträge](domain-records.md) Anleitung.
 
 :::note
 Du kannst auch ohne Domain arbeiten und `[your_domain]` durch einen beliebigen Namen ersetzen. Dann greifst du über die IP-Adresse auf die Website zu. Beachte aber, dass du in der virtuellen Host-Datei später die `ServerName`-Zeile entfernen solltest.
@@ -361,7 +361,7 @@ Du solltest die Website jetzt über die Domain (Port 80 / HTTP) erreichen könne
 
 ## Fazit
 
-Glückwunsch, du hast den LAMP-Stack erfolgreich installiert und eingerichtet! Als nächsten Schritt empfehlen wir dir **dringend**, eine Domain und ein **SSL-Zertifikat** einzurichten, damit deine Website-Daten sicher übertragen werden. Schau dir dazu unsere [Certbot-Anleitung](vserver-linux-certbot.md#webroot-plugin) mit Fokus auf das **Apache Plugin** an und folge der interaktiven Einrichtung, um schnell und einfach ein Zertifikat für deine Domain zu bekommen.
+Glückwunsch, du hast den LAMP-Stack erfolgreich installiert und eingerichtet! Als nächsten Schritt empfehlen wir dir **dringend**, eine Domain und ein **SSL-Zertifikat** einzurichten, damit deine Website-Daten sicher übertragen werden. Schau dir dazu unsere [Certbot-Anleitung](vserver-linux-certbot.md) mit Fokus auf das **Apache Plugin** an und folge der interaktiven Einrichtung, um schnell und einfach ein Zertifikat für deine Domain zu bekommen.
 
 Bei weiteren Fragen oder Problemen steht dir unser Support-Team täglich zur Verfügung – zögere nicht, uns zu kontaktieren! 🙂
 

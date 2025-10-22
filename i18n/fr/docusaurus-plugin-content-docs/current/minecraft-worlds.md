@@ -181,7 +181,7 @@ Comme pour la sauvegarde, uploader votre monde est simple. Connectez-vous d’ab
 :::info Mondes Vanilla & Plateformes Serveur
 Rappelez-vous que les serveurs vanilla et les plateformes serveur stockent les mondes dans des formats légèrement différents.
 
-Si vous déplacez une sauvegarde de vanilla vers une plateforme serveur comme PaperMC, ou inversement, consultez la section [conversion des mondes](#converting-worlds) du guide.
+Si vous déplacez une sauvegarde de vanilla vers une plateforme serveur comme PaperMC, ou inversement, consultez la section conversion des mondes du guide.
 :::
 
 Glissez-déposez simplement vos sauvegardes de mondes dans le dossier racine via votre client FTP, elles seront uploadées sur votre serveur.

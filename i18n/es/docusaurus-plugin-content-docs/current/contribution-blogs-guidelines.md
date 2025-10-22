@@ -11,9 +11,9 @@ Para asegurar que todos los posts del Blog de ZAP-Hosting mantengan una calidad 
 
 Nuestras pautas para contribuciones de blogs se dividen en algunas secciones principales, que son:
 
-- [Estructura](#estructura)
-- [Estilo](#estilo)
-- [Formato](#formato)
+- Estructura
+- Estilo
+- Formato
 - [Terminología](#terminología)
 
 ## Estructura

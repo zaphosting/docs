@@ -152,7 +152,7 @@ Avec l’installation de chaque dépendance LAMP terminée, créons un site test
 
 Dans cet exemple, on va créer un petit site de liste de tâches en PHP qui récupère et affiche les entrées. Ces données seront stockées dans une table MySQL et servies via Apache.
 
-On utilisera aussi un domaine test `zapdocs.example.com` tout au long du guide, car dans la vraie vie vous utiliserez probablement un domaine. Vous **devez** configurer un enregistrement DNS de type `A` pour ce domaine pointant vers l’adresse IP de votre serveur. Si vous avez besoin d’aide, consultez notre guide [Enregistrements de domaine](domain-records.md#a-records).
+On utilisera aussi un domaine test `zapdocs.example.com` tout au long du guide, car dans la vraie vie vous utiliserez probablement un domaine. Vous **devez** configurer un enregistrement DNS de type `A` pour ce domaine pointant vers l’adresse IP de votre serveur. Si vous avez besoin d’aide, consultez notre guide [Enregistrements de domaine](domain-records.md).
 
 :::note
 Vous pouvez choisir de ne pas utiliser de domaine et remplacer les mentions de `[your_domain]` par un nom simple. Vous accéderez alors au site via l’adresse IP. Notez cependant que lors de la création du fichier de virtual host, vous devrez retirer la ligne `ServerName`.
@@ -346,7 +346,7 @@ Vous devriez maintenant pouvoir accéder au site via le domaine (en HTTP/port 80
 
 ## Conclusion
 
-Bravo, vous avez installé et configuré la stack LAMP avec succès ! La prochaine étape, on vous **recommande vivement** de configurer un domaine et un **certificat SSL** pour sécuriser la transmission des données vers vos sites. Consultez notre [guide Certbot](vserver-linux-certbot.md#webroot-plugin) en vous concentrant sur le **plugin Apache** et suivez la configuration interactive pour installer rapidement un certificat pour votre domaine.
+Bravo, vous avez installé et configuré la stack LAMP avec succès ! La prochaine étape, on vous **recommande vivement** de configurer un domaine et un **certificat SSL** pour sécuriser la transmission des données vers vos sites. Consultez notre [guide Certbot](vserver-linux-certbot.md) en vous concentrant sur le **plugin Apache** et suivez la configuration interactive pour installer rapidement un certificat pour votre domaine.
 
 Pour toute question ou aide, n’hésitez pas à contacter notre support, disponible tous les jours pour vous aider ! 🙂
 

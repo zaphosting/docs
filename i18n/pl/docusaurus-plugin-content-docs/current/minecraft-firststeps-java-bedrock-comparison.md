@@ -28,7 +28,7 @@ Oto tabela, która wyjaśnia podstawowe informacje o obu wersjach Minecrafta.
 
 ## Platformy
 
-Najważniejsze pytanie, które zadają sobie gracze zaczynający przygodę z Minecraftem, to: „Na jakim urządzeniu mogę grać?”. Edycja Minecraft *Java*, czyli oryginalna gra, działa tylko na Windows, macOS i Linux i wymaga mocniejszego sprzętu (zwłaszcza jeśli zaczniesz dodawać [shadery i inne mody](#customization-and-modding)), natomiast edycja Minecraft *Bedrock* działa na praktycznie wszystkich urządzeniach — od telefonów, przez komputery, aż po konsole — z pełnym wsparciem cross-platform.
+Najważniejsze pytanie, które zadają sobie gracze zaczynający przygodę z Minecraftem, to: „Na jakim urządzeniu mogę grać?”. Edycja Minecraft *Java*, czyli oryginalna gra, działa tylko na Windows, macOS i Linux i wymaga mocniejszego sprzętu (zwłaszcza jeśli zaczniesz dodawać shadery i inne mody), natomiast edycja Minecraft *Bedrock* działa na praktycznie wszystkich urządzeniach — od telefonów, przez komputery, aż po konsole — z pełnym wsparciem cross-platform.
 
 ## Aktualizacje
 

@@ -61,7 +61,7 @@ In diesem Schritt schreibst du deinen Blog-Post basierend auf den vereinbarten I
 Aktuell akzeptieren wir Inhalte im **Markdown**- oder **HTML5**-Format.
 
 :::tip
-Wir empfehlen dir **sehr**, das Markdown-Tool **[StackEdit](https://stackedit.io/app#)** zu nutzen, um deinen Content zu schreiben und dabei alle coolen Markdown-Funktionen zu behalten. Alternativ kannst du auch den **[HTML5 Editor](https://html5-editor.net/)** verwenden, wenn du lieber mit HTML5 stylst. Du kannst dann direkt in Google Drive oder einem anderen Cloud-Dienst speichern und uns den Link schicken. Mehr zu Markdown findest du in unserer Blog-[Anleitung](contribution-blogs-guidelines.md#formatting).
+Wir empfehlen dir **sehr**, das Markdown-Tool **[StackEdit](https://stackedit.io/app#)** zu nutzen, um deinen Content zu schreiben und dabei alle coolen Markdown-Funktionen zu behalten. Alternativ kannst du auch den **[HTML5 Editor](https://html5-editor.net/)** verwenden, wenn du lieber mit HTML5 stylst. Du kannst dann direkt in Google Drive oder einem anderen Cloud-Dienst speichern und uns den Link schicken. Mehr zu Markdown findest du in unserer Blog-[Anleitung](contribution-blogs-guidelines.md).
 :::
 
 :::note

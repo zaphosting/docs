@@ -152,7 +152,7 @@ Maintenant que tout est installé, on va créer un site test pour montrer commen
 
 Ici, on crée un petit site de liste de tâches en PHP qui récupère et affiche les tâches stockées dans une base MySQL. Le site sera servi via Apache.
 
-On utilisera un domaine test `zapdocs.example.com`. En vrai, tu utiliseras un domaine. Tu **dois** créer un enregistrement DNS de type `A` pointant vers l’adresse IP de ton serveur. Besoin d’aide ? Consulte notre guide [Enregistrements de domaine](domain-records.md#a-records).
+On utilisera un domaine test `zapdocs.example.com`. En vrai, tu utiliseras un domaine. Tu **dois** créer un enregistrement DNS de type `A` pointant vers l’adresse IP de ton serveur. Besoin d’aide ? Consulte notre guide [Enregistrements de domaine](domain-records.md).
 
 :::note
 Tu peux ne pas utiliser de domaine et remplacer `[your_domain]` par un nom simple. Tu accéderas alors au site via l’adresse IP. Dans ce cas, supprime la ligne `ServerName` dans le fichier de configuration du virtual host.
@@ -352,7 +352,7 @@ Tu peux maintenant accéder au site via le domaine (en HTTP/port 80) que tu as c
 
 ## Conclusion
 
-Bravo, tu as installé et configuré la stack LAMP avec succès ! La prochaine étape, on te **recommande vivement** de configurer un domaine et un **certificat SSL** pour sécuriser les échanges avec tes sites. Consulte notre [guide Certbot](vserver-linux-certbot.md#webroot-plugin) en te concentrant sur le **plugin Apache** et suis la configuration interactive pour installer rapidement un certificat pour ton domaine.
+Bravo, tu as installé et configuré la stack LAMP avec succès ! La prochaine étape, on te **recommande vivement** de configurer un domaine et un **certificat SSL** pour sécuriser les échanges avec tes sites. Consulte notre [guide Certbot](vserver-linux-certbot.md) en te concentrant sur le **plugin Apache** et suis la configuration interactive pour installer rapidement un certificat pour ton domaine.
 
 Pour toute question ou aide, n’hésite pas à contacter notre support, dispo tous les jours pour t’aider ! 🙂
 

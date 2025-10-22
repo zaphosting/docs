@@ -30,7 +30,7 @@ Este carácter solo se usa para distinguir entre un mensaje normal de chat o un 
 
 ### Derechos / Permisos
 
-Para poder usar comandos, se requieren los derechos necesarios. En Minecraft-Vanilla o Forge no existe un sistema real de permisos que pueda ser usado por plugins como en Spigot. Aquí solo se puede usar el sistema de niveles de derechos OP. Aquí puedes encontrar un tutorial sobre el sistema de derechos OP:  [Permisos OP](minecraft-addop.md#rights-level)
+Para poder usar comandos, se requieren los derechos necesarios. En Minecraft-Vanilla o Forge no existe un sistema real de permisos que pueda ser usado por plugins como en Spigot. Aquí solo se puede usar el sistema de niveles de derechos OP. Aquí puedes encontrar un tutorial sobre el sistema de derechos OP:  [Permisos OP](minecraft-addop.md)
 
 Si se ha instalado un sistema de permisos y se desea asignar derechos a ciertos comandos de Minecraft, los permisos respectivos se pueden asignar como se describe a continuación.
 

@@ -69,7 +69,7 @@ Nach Abschluss klickst du einfach auf `Fertigstellen` und kannst Node.js auf dei
 
 ### Node.js auf die neueste Version aktualisieren
 
-Mit `node -v` kannst du die installierte Node.js-Version anzeigen lassen. Von Zeit zu Zeit solltest du prüfen, ob du die neueste LTS-Version nutzt. Um Node.js zu aktualisieren, folge einfach nochmal der [Installationsanleitung](vserver-windows-javascript.md#installing-nodejs-runtime).
+Mit `node -v` kannst du die installierte Node.js-Version anzeigen lassen. Von Zeit zu Zeit solltest du prüfen, ob du die neueste LTS-Version nutzt. Um Node.js zu aktualisieren, folge einfach nochmal der [Installationsanleitung](vserver-windows-javascript.md).
 
 ### Node.js & npm nutzen
 

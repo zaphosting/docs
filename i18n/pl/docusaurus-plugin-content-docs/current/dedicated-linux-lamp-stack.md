@@ -157,7 +157,7 @@ Po zainstalowaniu wszystkich komponentów LAMP, stworzymy testową stronę, któ
 
 W tym przykładzie stworzymy prostą stronę listy zadań w PHP, która pobiera i wyświetla wpisy z bazy MySQL. Strona będzie serwowana przez Apache.
 
-Użyjemy testowej domeny `zapdocs.example.com`, bo w realnym świecie prawdopodobnie będziesz korzystać z domeny. **Musisz** ustawić rekord DNS typu `A` dla domeny wskazujący na adres IP Twojego serwera. Jeśli potrzebujesz pomocy, sprawdź nasz poradnik [Rekordy domeny](domain-records.md#a-records).
+Użyjemy testowej domeny `zapdocs.example.com`, bo w realnym świecie prawdopodobnie będziesz korzystać z domeny. **Musisz** ustawić rekord DNS typu `A` dla domeny wskazujący na adres IP Twojego serwera. Jeśli potrzebujesz pomocy, sprawdź nasz poradnik [Rekordy domeny](domain-records.md).
 
 :::note
 Możesz też nie używać domeny i zastąpić `[your_domain]` zwykłą nazwą. Wtedy stronę otworzysz przez adres IP. Pamiętaj jednak, że przy tworzeniu pliku wirtualnego hosta później powinieneś usunąć parametr `ServerName`.
@@ -360,7 +360,7 @@ Teraz powinieneś móc otworzyć stronę przez domenę (HTTP/port 80), którą u
 
 ## Podsumowanie
 
-Gratulacje, pomyślnie zainstalowałeś i skonfigurowałeś stos LAMP! Kolejnym krokiem **gorąco polecamy** ustawienie domeny i **certyfikatu SSL**, aby zapewnić bezpieczne przesyłanie danych do Twoich stron. Sprawdź nasz [Poradnik Certbot](vserver-linux-certbot.md#webroot-plugin) ze szczególnym uwzględnieniem **wtyczki Apache** i wykonaj interaktywną konfigurację, aby szybko i łatwo dodać certyfikat dla swojej domeny.
+Gratulacje, pomyślnie zainstalowałeś i skonfigurowałeś stos LAMP! Kolejnym krokiem **gorąco polecamy** ustawienie domeny i **certyfikatu SSL**, aby zapewnić bezpieczne przesyłanie danych do Twoich stron. Sprawdź nasz [Poradnik Certbot](vserver-linux-certbot.md) ze szczególnym uwzględnieniem **wtyczki Apache** i wykonaj interaktywną konfigurację, aby szybko i łatwo dodać certyfikat dla swojej domeny.
 
 W razie pytań lub potrzeby pomocy, śmiało kontaktuj się z naszym zespołem wsparcia, który jest dostępny codziennie, by Ci pomóc! 🙂
 

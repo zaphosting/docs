@@ -32,7 +32,7 @@ No puedes usar la misma clave de licencia con la que juegas, por lo que necesita
 :::info Licencia de Juego Steam
 Es posible usar una licencia de juego de Steam para alojar tu servidor dedicado, pero esto puede ser muy incómodo ya que te obligaría a tener el cliente de Steam ejecutándose en segundo plano todo el tiempo. Además, no podrías jugar a ningún otro juego en otro sistema usando la misma cuenta de Steam debido a las limitaciones de Steam. Por eso, te recomendamos encarecidamente comprar una clave independiente directamente en la web para evitar estos problemas.
 
-Sin embargo, si planeas usar una licencia **Steam**, deberías instalar los archivos a través de Steam como de costumbre y saltar a la sección de [**Configuración del Servidor Dedicado**](#dedicated-server-setup) de esta guía.
+Sin embargo, si planeas usar una licencia **Steam**, deberías instalar los archivos a través de Steam como de costumbre y saltar a la sección de **Configuración del Servidor Dedicado** de esta guía.
 :::
 
 Una vez que hayas comprado la versión digital en la web, recibirás un código de producto por correo electrónico en la dirección que proporcionaste al hacer la compra. Necesitarás esta clave de licencia en la siguiente sección para acceder a la descarga del juego y también para validar tu servidor dedicado durante la configuración.

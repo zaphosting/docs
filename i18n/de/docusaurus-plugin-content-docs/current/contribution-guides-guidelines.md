@@ -11,10 +11,10 @@ Um sicherzustellen, dass die Inhalte in unseren ZAP-Docs stets eine gleichbleibe
 
 Unsere Richtlinien für Beitrags-Leitfäden sind in folgende Abschnitte unterteilt:
 
-- [Struktur](#struktur)
-- [Stil](#stil)
-- [Formatierung](#formatierung)
-- [Terminologie](#terminologie)
+- Struktur
+- Stil
+- Formatierung
+- Terminologie
 
 Wir empfehlen, diese Abschnitte mindestens einmal durchzulesen, bevor du mit dem Schreiben von Inhalten beginnst. Sie sind auch eine nützliche Referenz, falls du während des Erstellungsprozesses unsicher bist, wie du etwas angehen sollst.
 
@@ -22,7 +22,7 @@ Wir empfehlen, diese Abschnitte mindestens einmal durchzulesen, bevor du mit dem
 
 Alle unsere Guides in den ZAP-Docs folgen einer relativ einheitlichen Struktur, die mit einer kurzen Einführung inklusive eventueller Voraussetzungen oder Vorbereitungsschritte beginnt, gefolgt vom Hauptinhalt und einem kurzen Fazit.
 
-Die Struktur kann je nach Art des Guides gelegentlich angepasst werden. Das kann im ersten Vorschlag mit dem ZAP-Docs Team besprochen werden. Wie du Überschriften nutzt, erfährst du im Abschnitt [Headers](#headers); das erfolgt ganz klassisch mit Markdown.
+Die Struktur kann je nach Art des Guides gelegentlich angepasst werden. Das kann im ersten Vorschlag mit dem ZAP-Docs Team besprochen werden. Wie du Überschriften nutzt, erfährst du im Abschnitt Headers; das erfolgt ganz klassisch mit Markdown.
 
 Typischerweise erwarten wir folgende Überschriftenstruktur:
 

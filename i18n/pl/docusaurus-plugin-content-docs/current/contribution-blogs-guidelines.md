@@ -11,10 +11,10 @@ Aby zapewnić, że wszystkie wpisy na blogu ZAP-Hosting są spójne pod względe
 
 Nasze wytyczne dotyczące współtworzenia bloga można podzielić na kilka głównych sekcji, które to:
 
-- [Struktura](#structure)
-- [Styl](#style)
-- [Formatowanie](#formatting)
-- [Terminologia](#terminology)
+- Struktura
+- Styl
+- Formatowanie
+- Terminologia
 
 ## Struktura
 

@@ -69,7 +69,7 @@ Node.jsのライセンス契約を読み、チェックボックスにチェッ�
 
 ### Node.jsのバージョン確認とアップデート
 
-`node -v`コマンドで現在のNode.jsのバージョンを確認できます。定期的に最新のLTSバージョンかチェックし、アップデートしたい場合はこの[インストール手順](vserver-windows-javascript.md#installing-nodejs-runtime)をもう一度実行してください。
+`node -v`コマンドで現在のNode.jsのバージョンを確認できます。定期的に最新のLTSバージョンかチェックし、アップデートしたい場合はこの[インストール手順](vserver-windows-javascript.md)をもう一度実行してください。
 
 ### Node.jsとnpmの使い方
 

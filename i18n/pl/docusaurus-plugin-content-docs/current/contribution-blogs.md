@@ -61,7 +61,7 @@ W tym kroku piszesz wpis na bloga na podstawie ustaleń z zespołem ZAP Contribu
 Obecnie akceptujemy treści w formacie **Markdown** oraz **HTML5**.
 
 :::tip
-Gorąco polecamy korzystanie z narzędzia Markdown **[StackEdit](https://stackedit.io/app#)**, które pozwala pisać z pełną funkcjonalnością Markdown. Alternatywnie możesz użyć **[HTML5 Editor](https://html5-editor.net/)**, jeśli wolisz stylizować w HTML5. Gotowy plik możesz wyeksportować do Google Drive lub innej chmury i udostępnić nam link. Więcej o formatowaniu Markdown znajdziesz w naszym [poradniku](contribution-blogs-guidelines.md#formatting).
+Gorąco polecamy korzystanie z narzędzia Markdown **[StackEdit](https://stackedit.io/app#)**, które pozwala pisać z pełną funkcjonalnością Markdown. Alternatywnie możesz użyć **[HTML5 Editor](https://html5-editor.net/)**, jeśli wolisz stylizować w HTML5. Gotowy plik możesz wyeksportować do Google Drive lub innej chmury i udostępnić nam link. Więcej o formatowaniu Markdown znajdziesz w naszym [poradniku](contribution-blogs-guidelines.md).
 :::
 
 :::note

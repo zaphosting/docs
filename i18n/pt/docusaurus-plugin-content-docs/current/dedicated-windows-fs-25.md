@@ -32,7 +32,7 @@ Você não pode usar a mesma chave de licença que usa para jogar o jogo, portan
 :::info Licença Steam
 É possível usar uma licença Steam para hospedar seu servidor dedicado, mas isso pode ser bem chato, pois você terá que manter o cliente Steam rodando em segundo plano o tempo todo. Além disso, isso impede que você jogue outros jogos em outro sistema usando a mesma conta Steam por causa das limitações da Steam. Por isso, recomendamos fortemente que compre uma chave independente direto no site para evitar esse transtorno.
 
-Se você pretende usar uma licença **Steam**, instale os arquivos pelo Steam normalmente e pule para a seção [**Configuração do Servidor Dedicado**](#dedicated-server-setup) deste guia.
+Se você pretende usar uma licença **Steam**, instale os arquivos pelo Steam normalmente e pule para a seção **Configuração do Servidor Dedicado** deste guia.
 :::
 
 Depois de comprar a versão digital no site, você receberá um código do produto no e-mail que forneceu na compra. Você vai precisar dessa chave na próxima etapa para baixar o jogo e validar seu servidor dedicado durante a configuração.

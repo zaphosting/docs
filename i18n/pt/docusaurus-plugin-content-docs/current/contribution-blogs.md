@@ -61,7 +61,7 @@ Nesta etapa, você escreverá o post do blog baseado nas informações acordadas
 Atualmente, aceitamos conteúdo em **Markdown** e **HTML5**.
 
 :::tip
-Recomendamos **fortemente** usar a ferramenta Markdown **[StackEdit](https://stackedit.io/app#)** para escrever seu conteúdo mantendo toda a funcionalidade incrível do Markdown. Alternativamente, recomendamos o **[Editor HTML5](https://html5-editor.net/)** se preferir estilizar usando HTML5. Você pode exportar direto para seu Google Drive ou qualquer app de compartilhamento de arquivos e nos enviar o link. Saiba mais sobre formatação Markdown no nosso guia de [Diretrizes](contribution-blogs-guidelines.md#formatting).
+Recomendamos **fortemente** usar a ferramenta Markdown **[StackEdit](https://stackedit.io/app#)** para escrever seu conteúdo mantendo toda a funcionalidade incrível do Markdown. Alternativamente, recomendamos o **[Editor HTML5](https://html5-editor.net/)** se preferir estilizar usando HTML5. Você pode exportar direto para seu Google Drive ou qualquer app de compartilhamento de arquivos e nos enviar o link. Saiba mais sobre formatação Markdown no nosso guia de [Diretrizes](contribution-blogs-guidelines.md).
 :::
 
 :::note

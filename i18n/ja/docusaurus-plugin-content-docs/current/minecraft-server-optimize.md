@@ -26,13 +26,13 @@ Minecraftゲームサーバーの最適化は、スムーズに動作させる�
 よくやられるのが視界範囲の縮小。標準は10チャンクだけど、6〜8チャンクで遊ぶ人も多い。逆に32チャンクとかに設定しちゃうと、サーバーが大量のチャンクを読み込んで処理しなきゃいけなくなり、パフォーマンスがガクッと落ちるよ。
 
 バニラサーバーの視界範囲は「server.properties」内の「view-distance」設定で変更可能。ゲーム体験をあまり損なわないように、5〜6チャンクに設定するのがおすすめ。これだけでサーバー負荷を最大50%軽減できるよ。
-詳しくは[こちら](minecraft-default-config.md#view-distance)のドキュメントもチェックしてね。
+詳しくは[こちら](minecraft-default-config.md)のドキュメントもチェックしてね。
 
 ### データ圧縮
 
 サーバーと接続プレイヤー間では常にデータのやり取りがあるよね。プレイヤーの動きや、爆発などのイベント情報も含めて何度も送受信されてる。
 
-この通信を効率化するために、パックされたデータのサイズを倍にできる設定があるよ。これでサーバーの通信負荷が半分になるイメージ。設定は「server.properties」の「network-compression-threshold」を512にするだけ。こちらも[ドキュメント](minecraft-default-config.md#network-compression-threshold)で詳しく解説してるよ。
+この通信を効率化するために、パックされたデータのサイズを倍にできる設定があるよ。これでサーバーの通信負荷が半分になるイメージ。設定は「server.properties」の「network-compression-threshold」を512にするだけ。こちらも[ドキュメント](minecraft-default-config.md)で詳しく解説してるよ。
 
 ## Forge
 
@@ -72,22 +72,22 @@ MODを入れてサーバー起動したらコンソールを開いて、まず�
 ### 視界範囲の調整
 
 Forgeサーバーもバニラ同様、「server.properties」の「view-distance」で調整可能。5〜6チャンクに設定すると最大50%の負荷軽減が期待できるよ。
-詳しくは[こちら](minecraft-default-config.md#view-distance)を参照してね。
+詳しくは[こちら](minecraft-default-config.md)を参照してね。
 
 ### データ圧縮
 
-バニラと同じく「network-compression-threshold」を512に設定して通信負荷を減らそう。設定は「server.properties」で行うよ。詳細は[こちら](minecraft-default-config.md#network-compression-threshold)。
+バニラと同じく「network-compression-threshold」を512に設定して通信負荷を減らそう。設定は「server.properties」で行うよ。詳細は[こちら](minecraft-default-config.md)。
 
 ## Bukkit
 
 ### 視界範囲の調整
 
 Bukkitサーバーも「server.properties」の「view-distance」で視界範囲を調整可能。5〜6チャンクに設定するとサーバー負荷が最大50%軽減されるよ。
-詳しくは[こちら](minecraft-default-config.md#view-distance)をチェック。
+詳しくは[こちら](minecraft-default-config.md)をチェック。
 
 ### データ圧縮
 
-「network-compression-threshold」を512に設定して通信負荷を減らそう。設定は「server.properties」で行うよ。詳細は[こちら](minecraft-default-config.md#network-compression-threshold)。
+「network-compression-threshold」を512に設定して通信負荷を減らそう。設定は「server.properties」で行うよ。詳細は[こちら](minecraft-default-config.md)。
 
 ### スポーン制限
 
@@ -130,7 +130,7 @@ Spigotサーバーは「spigot.yml」の「view-distance」で視界範囲を調
 
 ### データ圧縮
 
-「server.properties」の「network-compression-threshold」を512に設定して通信負荷を減らそう。詳細は[こちら](minecraft-default-config.md#network-compression-threshold)。
+「server.properties」の「network-compression-threshold」を512に設定して通信負荷を減らそう。詳細は[こちら](minecraft-default-config.md)。
 
 ### スポーン制限
 
@@ -197,7 +197,7 @@ Spigotサーバーは「spigot.yml」の「view-distance」で視界範囲を調
 
 ### データ圧縮
 
-「server.properties」の「network-compression-threshold」を512に設定。詳細は[こちら](minecraft-default-config.md#network-compression-threshold)。
+「server.properties」の「network-compression-threshold」を512に設定。詳細は[こちら](minecraft-default-config.md)。
 
 ### スポーン制限
 

@@ -46,7 +46,7 @@ Aby zainstalować nową grę na swoim serwerze gier, wybierz z menu rozwijanego 
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/iN7rNje3zaBPMgf/preview)
 
-W tej sekcji znajdziesz też menu rozwijane **Więcej gier**. W naszej szerokiej ofercie gier niektóre tytuły mogą mieć różne ceny slotów, co oznacza, że nie będziesz mógł zainstalować wybranej gry bez dodatkowych opłat. Aby to rozwiązać, musisz zapłacić dopłatę, aby podnieść cenę slotów. Więcej informacji znajdziesz w sekcji [Zmiana ceny slotów](#change-slot-price).
+W tej sekcji znajdziesz też menu rozwijane **Więcej gier**. W naszej szerokiej ofercie gier niektóre tytuły mogą mieć różne ceny slotów, co oznacza, że nie będziesz mógł zainstalować wybranej gry bez dodatkowych opłat. Aby to rozwiązać, musisz zapłacić dopłatę, aby podnieść cenę slotów. Więcej informacji znajdziesz w sekcji Zmiana ceny slotów.
 
 :::info Minimalna liczba slotów
 Niektóre gry w naszej kolekcji wymagają minimalnej liczby slotów, aby można je było zainstalować na serwerze gier. W takich przypadkach najedź kursorem na ikonę ostrzeżenia, aby dowiedzieć się więcej. Powinieneś skorzystać z funkcji upgrade/downgrade, aby dostosować swój serwer zgodnie z tymi wymaganiami.

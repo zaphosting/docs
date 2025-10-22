@@ -61,7 +61,7 @@ ZAP IDは正確に入力してください！これが連絡手段になりま�
 現在は**Markdown**と**HTML5**の両方のスタイルでの提出を受け付けています。
 
 :::tip
-Markdownで書くなら、機能満載の無料ツール**[StackEdit](https://stackedit.io/app#)**が超おすすめ！HTML5でスタイリングしたいなら**[HTML5 Editor](https://html5-editor.net/)**も便利です。書いたファイルはGoogleドライブなどのクラウドにアップしてリンクを共有してください。Markdownの書き方は当社のブログ[ガイド](contribution-blogs-guidelines.md#formatting)も参考にどうぞ。
+Markdownで書くなら、機能満載の無料ツール**[StackEdit](https://stackedit.io/app#)**が超おすすめ！HTML5でスタイリングしたいなら**[HTML5 Editor](https://html5-editor.net/)**も便利です。書いたファイルはGoogleドライブなどのクラウドにアップしてリンクを共有してください。Markdownの書き方は当社のブログ[ガイド](contribution-blogs-guidelines.md)も参考にどうぞ。
 :::
 
 :::note

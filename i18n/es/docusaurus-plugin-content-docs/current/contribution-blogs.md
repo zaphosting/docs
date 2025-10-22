@@ -61,7 +61,7 @@ En este paso, escribirás un nuevo post para el blog basado en la información a
 Actualmente aceptamos contenido en formato **Markdown** y **HTML5**.
 
 :::tip
-Te **recomendamos mucho** usar la herramienta Markdown **[StackEdit](https://stackedit.io/app#)** para escribir tu contenido manteniendo toda la funcionalidad genial de Markdown. Alternativamente, también recomendamos **[HTML5 Editor](https://html5-editor.net/)** si prefieres usar HTML5 para el estilo. Luego puedes exportar directamente a Google Drive o cualquier app de almacenamiento y compartirnos el link. Puedes aprender más sobre el formato Markdown en nuestra [Guía de Blogs](contribution-blogs-guidelines.md#formatting).
+Te **recomendamos mucho** usar la herramienta Markdown **[StackEdit](https://stackedit.io/app#)** para escribir tu contenido manteniendo toda la funcionalidad genial de Markdown. Alternativamente, también recomendamos **[HTML5 Editor](https://html5-editor.net/)** si prefieres usar HTML5 para el estilo. Luego puedes exportar directamente a Google Drive o cualquier app de almacenamiento y compartirnos el link. Puedes aprender más sobre el formato Markdown en nuestra [Guía de Blogs](contribution-blogs-guidelines.md).
 :::
 
 :::note

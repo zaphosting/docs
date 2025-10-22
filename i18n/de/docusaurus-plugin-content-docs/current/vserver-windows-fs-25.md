@@ -32,7 +32,7 @@ Du kannst nicht denselben Lizenzschlüssel verwenden, mit dem du das Spiel spiel
 :::info Steam Spiel-Lizenz
 Es ist möglich, eine Steam-Spiel-Lizenz für den Dedicated Server zu nutzen, allerdings ist das ziemlich unpraktisch, da der Steam-Client dann ständig im Hintergrund laufen muss. Außerdem kannst du mit demselben Steam-Account kein anderes Spiel auf einem anderen System spielen, wegen den Steam-Beschränkungen. Deshalb empfehlen wir dir, lieber einen eigenständigen Key direkt auf der Webseite zu kaufen, um diesen Aufwand zu vermeiden.
 
-Falls du trotzdem eine **Steam**-Lizenz nutzen möchtest, solltest du die Dateien wie gewohnt über Steam installieren und direkt zum Abschnitt [**Dedicated Server Setup**](#dedicated-server-setup) springen.
+Falls du trotzdem eine **Steam**-Lizenz nutzen möchtest, solltest du die Dateien wie gewohnt über Steam installieren und direkt zum Abschnitt **Dedicated Server Setup** springen.
 :::
 
 Nachdem du die digitale Version auf der Webseite gekauft hast, erhältst du per E-Mail einen Produktcode. Diesen Lizenzschlüssel brauchst du im nächsten Schritt, um das Spiel herunterzuladen und deinen Dedicated Server während der Einrichtung zu validieren.

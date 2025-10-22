@@ -142,7 +142,7 @@ Po zainstalowaniu wszystkich komponentów stosu LEMP, stworzymy testową stronę
 
 W przykładzie stworzymy prostą stronę z listą zadań do wykonania w PHP, która pobierze i wyświetli wpisy z bazy MySQL. Strona będzie serwowana przez Nginx.
 
-Użyjemy testowej domeny `zapdocs.example.com`, bo w realnym świecie prawdopodobnie będziesz korzystać z domeny. **Musisz** ustawić rekord DNS typu `A` dla domeny wskazujący na adres IP Twojego serwera. Jeśli potrzebujesz pomocy, sprawdź nasz poradnik [Rekordy domeny](domain-records.md#a-records).
+Użyjemy testowej domeny `zapdocs.example.com`, bo w realnym świecie prawdopodobnie będziesz korzystać z domeny. **Musisz** ustawić rekord DNS typu `A` dla domeny wskazujący na adres IP Twojego serwera. Jeśli potrzebujesz pomocy, sprawdź nasz poradnik [Rekordy domeny](domain-records.md).
 
 :::note
 Możesz nie używać domeny i zastąpić `[your_domain]` zwykłą nazwą. Wtedy stronę otworzysz przez adres IP. Pamiętaj jednak, że przy tworzeniu pliku serwera Nginx powinieneś usunąć parametr `server_name`.
@@ -359,7 +359,7 @@ Teraz powinieneś móc otworzyć stronę przez domenę (na porcie 80, HTTP), kt�
 
 ## Podsumowanie
 
-Gratulacje, pomyślnie zainstalowałeś i skonfigurowałeś stos LEMP! Następnym krokiem **gorąco polecamy** ustawienie domeny i **certyfikatu SSL**, aby dane były przesyłane bezpiecznie do Twoich stron. Sprawdź nasz [Poradnik Certbot](vserver-linux-certbot.md#webroot-plugin) z naciskiem na **wtyczkę Nginx** i przejdź przez interaktywną konfigurację, aby szybko i łatwo dodać certyfikat do wybranej domeny.
+Gratulacje, pomyślnie zainstalowałeś i skonfigurowałeś stos LEMP! Następnym krokiem **gorąco polecamy** ustawienie domeny i **certyfikatu SSL**, aby dane były przesyłane bezpiecznie do Twoich stron. Sprawdź nasz [Poradnik Certbot](vserver-linux-certbot.md) z naciskiem na **wtyczkę Nginx** i przejdź przez interaktywną konfigurację, aby szybko i łatwo dodać certyfikat do wybranej domeny.
 
 W razie pytań lub potrzeby pomocy, śmiało kontaktuj się z naszym supportem, który jest dostępny codziennie, by Ci pomóc! 🙂
 

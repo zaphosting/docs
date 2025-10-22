@@ -229,7 +229,7 @@ Et voilà, une fois connecté avec succès, vous êtes sur votre panneau WordPre
 
 ## Conclusion
 
-Félicitations, vous avez installé et configuré WordPress avec succès ! Comme prochaine étape, nous vous **recommandons vivement** de configurer un domaine et un **certificat SSL** pour garantir que les données soient transmises de manière sécurisée et faciliter l’accès au panneau WordPress. Consultez notre [guide Certbot](dedicated-linux-certbot.md#webroot-plugin) en vous concentrant sur le **plugin Apache** et suivez la configuration interactive pour mettre en place rapidement et facilement un certificat pour votre domaine choisi.
+Félicitations, vous avez installé et configuré WordPress avec succès ! Comme prochaine étape, nous vous **recommandons vivement** de configurer un domaine et un **certificat SSL** pour garantir que les données soient transmises de manière sécurisée et faciliter l’accès au panneau WordPress. Consultez notre [guide Certbot](dedicated-linux-certbot.md) en vous concentrant sur le **plugin Apache** et suivez la configuration interactive pour mettre en place rapidement et facilement un certificat pour votre domaine choisi.
 
 Pour aller plus loin, nous vous conseillons de parcourir nos guides [Plugins WordPress](webspace-wordpress-plugins.md) et [WordPress Elementor](webspace-wordpress-elementor.md) qui expliquent comment installer des plugins et utiliser un constructeur de pages populaire et facile à prendre en main nommé Elementor.
 

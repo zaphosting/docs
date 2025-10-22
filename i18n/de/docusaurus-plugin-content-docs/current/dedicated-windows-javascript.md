@@ -70,7 +70,7 @@ Nach Abschluss klickst du einfach auf `Fertigstellen` und kannst Node.js auf dei
 
 ### Node.js auf die neueste Version aktualisieren
 
-Mit `node -v` kannst du die installierte Node.js-Version anzeigen lassen. Von Zeit zu Zeit solltest du prüfen, ob du die neueste LTS-Version nutzt. Um Node.js zu aktualisieren, folge einfach nochmal dem Abschnitt [Node.js Runtime installieren](dedicated-windows-javascript.md#installing-nodejs-runtime) dieser Anleitung.
+Mit `node -v` kannst du die installierte Node.js-Version anzeigen lassen. Von Zeit zu Zeit solltest du prüfen, ob du die neueste LTS-Version nutzt. Um Node.js zu aktualisieren, folge einfach nochmal dem Abschnitt [Node.js Runtime installieren](dedicated-windows-javascript.md) dieser Anleitung.
 
 ### Node.js & npm starten
 

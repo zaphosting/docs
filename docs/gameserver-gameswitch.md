@@ -46,7 +46,7 @@ In order to install a new game to your game server, select the **Available Games
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/iN7rNje3zaBPMgf/preview)
 
-Under this section, you can also find the **More Games** drop down menu. Across our wide game selection, certain games may have differing slot prices, which can mean that you are unable to install the selected game without additional cost. To resolve this, you will have to pay a surcharge to increase your slot price. See the [Change Slot Price](#change-slot-price) section of the guide for more information.
+Under this section, you can also find the **More Games** drop down menu. Across our wide game selection, certain games may have differing slot prices, which can mean that you are unable to install the selected game without additional cost. To resolve this, you will have to pay a surcharge to increase your slot price. See the Change Slot Price section of the guide for more information.
 
 :::info Minimum Slot Count
 Certain games in our game collection require a specific minimum amount of slots before you can install them to your game server. In such cases, hover over the warning icon to learn more. You should utilise the upgrade/downgrade functionality to upgrade your server based on the information.

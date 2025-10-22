@@ -167,7 +167,7 @@ Una vez que hayas realizado tus cambios, usa el botón **Commit changes...** que
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/2iQCZzzAHsHS2rt/preview)
 
-Introduce un mensaje de commit útil que explique lo que hiciste y una descripción extendida si es necesario. Finalmente, haz commit. Esto lo hará en tu fork de los docs. Ahora puedes ir a la sección **[Enviando Contenido](#step-3-submitting-content)** para crear un Pull Request y enviar el contenido a nuestro repositorio principal ZAP-Docs.
+Introduce un mensaje de commit útil que explique lo que hiciste y una descripción extendida si es necesario. Finalmente, haz commit. Esto lo hará en tu fork de los docs. Ahora puedes ir a la sección **Enviando Contenido** para crear un Pull Request y enviar el contenido a nuestro repositorio principal ZAP-Docs.
 
 </TabItem>
 
@@ -259,10 +259,10 @@ Una vez que termines con los cambios en tu guía, el último paso de todo el pro
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/tFdrLknnXn62sZc/preview)
 
-Ahora puedes ir a la sección **[Enviando Contenido](#step-3-submitting-content)** para crear un Pull Request y enviar el contenido a nuestro repositorio ZAP-Docs.
+Ahora puedes ir a la sección **Enviando Contenido** para crear un Pull Request y enviar el contenido a nuestro repositorio ZAP-Docs.
 
 :::tip
-Recomendamos también leer la sección opcional **[Probar build localmente](#optional-testing-build-locally)**, ya que puedes combinar esta sección con pruebas locales para crear un flujo de trabajo óptimo donde los cambios se actualizan en tu build local sobre la marcha, lo cual es muy útil. Sin embargo, no es obligatorio.
+Recomendamos también leer la sección opcional **Probar build localmente**, ya que puedes combinar esta sección con pruebas locales para crear un flujo de trabajo óptimo donde los cambios se actualizan en tu build local sobre la marcha, lo cual es muy útil. Sin embargo, no es obligatorio.
 :::
 
 </TabItem>

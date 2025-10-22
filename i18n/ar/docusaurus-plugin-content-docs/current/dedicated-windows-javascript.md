@@ -70,7 +70,7 @@ import TabItem from '@theme/TabItem';
 
 ### تحديث Node.js لأحدث إصدار
 
-تشغيل الأمر `node -v` يعرض لك إصدار Node.js المثبت. من وقت لآخر، تحقق أنك تستخدم أحدث إصدار LTS. لتحديث Node.js، اتبع قسم [تثبيت Node.js](dedicated-windows-javascript.md#installing-nodejs-runtime) في هذا الدليل مرة أخرى.
+تشغيل الأمر `node -v` يعرض لك إصدار Node.js المثبت. من وقت لآخر، تحقق أنك تستخدم أحدث إصدار LTS. لتحديث Node.js، اتبع قسم [تثبيت Node.js](dedicated-windows-javascript.md) في هذا الدليل مرة أخرى.
 
 ### تشغيل Node.js و npm
 

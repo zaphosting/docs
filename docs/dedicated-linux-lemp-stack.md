@@ -142,7 +142,7 @@ With the installation of each LEMP dependency now complete, we will now create a
 
 In this example, we will create a small to-do list website via PHP which will fetch and return to-do entries. This will be stored on a MySQL database table and will be served through Nginx.
 
-We will also be using a test domain of `zapdocs.example.com` throughout, since in a real-world scenario you would likely utilise a domain. You **must** setup an `A` type DNS record for the domain which points at the IP Address of your server. If you require help with this, please browse our [Domain Records](domain-records.md#a-records) guide.
+We will also be using a test domain of `zapdocs.example.com` throughout, since in a real-world scenario you would likely utilise a domain. You **must** setup an `A` type DNS record for the domain which points at the IP Address of your server. If you require help with this, please browse our [Domain Records](domain-records.md) guide.
 
 :::note
 You can choose not to use a domain and replace mentions of `[your_domain]` with a regular name. You would then access the website via the IP address. However, do note that when creating the server block file later on, you should remove the `server_name` parameter.
@@ -356,7 +356,7 @@ You should now be able to access the website via the domain (using `http`/port 8
 
 ## Conclusion
 
-Congratulations, you have successfully installed and setup the LEMP stack! As the next step, we **highly recommend** setting up a domain and **SSL certificate** to ensure that data is transmitted securely to your websites. Please view our [Certbot guide](vserver-linux-certbot.md#webroot-plugin) with a focus on the **Nginx Plugin** and follow the interactive setup to quickly and easily setup a certificate for your chosen domain.
+Congratulations, you have successfully installed and setup the LEMP stack! As the next step, we **highly recommend** setting up a domain and **SSL certificate** to ensure that data is transmitted securely to your websites. Please view our [Certbot guide](vserver-linux-certbot.md) with a focus on the **Nginx Plugin** and follow the interactive setup to quickly and easily setup a certificate for your chosen domain.
 
 For further questions or assistance, please don't hesitate to contact our support team, which is available daily to assist you! 🙂
 

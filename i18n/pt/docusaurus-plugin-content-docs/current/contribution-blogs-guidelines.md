@@ -11,10 +11,10 @@ Para garantir que todos os posts do Blog da ZAP-Hosting tenham qualidade e estil
 
 Nossas diretrizes para contribuição de blogs podem ser divididas em algumas seções principais, que são:
 
-- [Estrutura](#structure)
-- [Estilo](#style)
-- [Formatação](#formatting)
-- [Terminologia](#terminology)
+- Estrutura
+- Estilo
+- Formatação
+- Terminologia
 
 ## Estrutura
 

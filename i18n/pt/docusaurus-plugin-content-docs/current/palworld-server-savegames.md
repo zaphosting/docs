@@ -93,7 +93,7 @@ Primeiro, verifique seus arquivos de savegame pelo cliente FTP no caminho:
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/wYQ42Aein5y6Z6j/preview)
 
-Lá você deve ver o savegame antigo e um novo que foi gerado. Para resolver, basta editar o arquivo de configuração conforme explicado na seção [Ativando Savegame](#ativando-savegame), usando o nome correto da pasta do savegame.
+Lá você deve ver o savegame antigo e um novo que foi gerado. Para resolver, basta editar o arquivo de configuração conforme explicado na seção Ativando Savegame, usando o nome correto da pasta do savegame.
 
 O savegame deve voltar a funcionar depois de salvar o arquivo e reiniciar o servidor.
 

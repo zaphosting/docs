@@ -229,7 +229,7 @@ Und schon bist du drin – dein WordPress-Dashboard mit kompletter Installation.
 
 ## Fazit
 
-Glückwunsch, du hast WordPress erfolgreich installiert und konfiguriert! Als nächsten Schritt empfehlen wir dir **dringend**, eine Domain und ein **SSL-Zertifikat** einzurichten, damit deine Daten sicher übertragen werden und der Zugriff auf das WordPress-Dashboard einfacher wird. Schau dir dazu unsere [Certbot Anleitung](vserver-linux-certbot.md#webroot-plugin) mit Fokus auf das **Apache Plugin** an und folge dem interaktiven Setup, um schnell und einfach ein Zertifikat für deine Domain zu erstellen.
+Glückwunsch, du hast WordPress erfolgreich installiert und konfiguriert! Als nächsten Schritt empfehlen wir dir **dringend**, eine Domain und ein **SSL-Zertifikat** einzurichten, damit deine Daten sicher übertragen werden und der Zugriff auf das WordPress-Dashboard einfacher wird. Schau dir dazu unsere [Certbot Anleitung](vserver-linux-certbot.md) mit Fokus auf das **Apache Plugin** an und folge dem interaktiven Setup, um schnell und einfach ein Zertifikat für deine Domain zu erstellen.
 
 Für weiterführende Infos und Setup-Tipps empfehlen wir dir, unsere [WordPress Plugins](webspace-wordpress-plugins.md) und [WordPress Elementor](webspace-wordpress-elementor.md) Anleitungen durchzulesen. Dort erfährst du, wie du Plugins installierst und den beliebten, benutzerfreundlichen Page Builder Elementor nutzt.
 

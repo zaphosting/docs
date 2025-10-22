@@ -142,7 +142,7 @@ Con todas las dependencias LEMP instaladas, ahora crearemos un sitio web de prue
 
 En este ejemplo, crearemos un pequeño sitio de lista de tareas en PHP que recupera y muestra entradas. Los datos se almacenan en una tabla MySQL y se sirven a través de Nginx.
 
-Usaremos un dominio de prueba `zapdocs.example.com` durante todo el ejemplo, ya que en un caso real usarías un dominio. **Debes** configurar un registro DNS tipo `A` para el dominio apuntando a la dirección IP de tu servidor. Si necesitas ayuda, consulta nuestra guía [Registros de Dominio](domain-records.md#a-records).
+Usaremos un dominio de prueba `zapdocs.example.com` durante todo el ejemplo, ya que en un caso real usarías un dominio. **Debes** configurar un registro DNS tipo `A` para el dominio apuntando a la dirección IP de tu servidor. Si necesitas ayuda, consulta nuestra guía [Registros de Dominio](domain-records.md).
 
 :::note
 Puedes no usar un dominio y reemplazar `[your_domain]` por un nombre cualquiera. Accederías al sitio vía IP. Pero al crear el archivo del bloque de servidor, elimina el parámetro `server_name`.
@@ -356,7 +356,7 @@ Ahora deberías poder acceder al sitio vía el dominio (usando `http`/puerto 80)
 
 ## Conclusión
 
-¡Felicidades, has instalado y configurado el stack LEMP con éxito! Como siguiente paso, **recomendamos mucho** configurar un dominio y un **certificado SSL** para asegurar que los datos se transmitan de forma segura a tus sitios. Consulta nuestra [guía Certbot](vserver-linux-certbot.md#webroot-plugin) enfocada en el **plugin Nginx** y sigue la configuración interactiva para instalar un certificado rápido y fácil para tu dominio.
+¡Felicidades, has instalado y configurado el stack LEMP con éxito! Como siguiente paso, **recomendamos mucho** configurar un dominio y un **certificado SSL** para asegurar que los datos se transmitan de forma segura a tus sitios. Consulta nuestra [guía Certbot](vserver-linux-certbot.md) enfocada en el **plugin Nginx** y sigue la configuración interactiva para instalar un certificado rápido y fácil para tu dominio.
 
 Si tienes más preguntas o necesitas ayuda, no dudes en contactar a nuestro equipo de soporte, disponible todos los días para asistirte 🙂.
 

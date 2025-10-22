@@ -70,7 +70,7 @@ Une fois terminé, cliquez sur `Finish` et commencez à utiliser Node.js sur vot
 
 ### Mettre à jour Node.js vers la dernière version
 
-La commande `node -v` affiche la version installée de Node.js. De temps en temps, vérifiez que vous utilisez la dernière version LTS. Pour mettre à jour Node.js, suivez à nouveau la section [Installation de Node.js](dedicated-windows-javascript.md#installing-nodejs-runtime) de ce guide.
+La commande `node -v` affiche la version installée de Node.js. De temps en temps, vérifiez que vous utilisez la dernière version LTS. Pour mettre à jour Node.js, suivez à nouveau la section [Installation de Node.js](dedicated-windows-javascript.md) de ce guide.
 
 ### Utiliser Node.js & npm
 

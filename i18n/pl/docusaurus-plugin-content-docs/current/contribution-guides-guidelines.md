@@ -11,10 +11,10 @@ Aby zapewnić, że treści w naszych ZAP-Docs zawsze pozostają spójne pod wzgl
 
 Nasze wytyczne dotyczące tworzenia poradników są podzielone na następujące sekcje:
 
-- [Struktura](#structure)
-- [Styl](#style)
-- [Formatowanie](#formatting)
-- [Terminologia](#terminology)
+- Struktura
+- Styl
+- Formatowanie
+- Terminologia
 
 Zalecamy zapoznanie się z tymi sekcjami przynajmniej raz przed rozpoczęciem pisania jakiejkolwiek treści. To także przydatne miejsce do odwołania się, jeśli masz wątpliwości, jak podejść do czegoś podczas tworzenia.
 
@@ -22,7 +22,7 @@ Zalecamy zapoznanie się z tymi sekcjami przynajmniej raz przed rozpoczęciem pi
 
 Wszystkie nasze poradniki w ZAP-Docs mają stosunkowo spójną strukturę, która zaczyna się od krótkiego wprowadzenia wraz z wszelkimi wymaganiami wstępnymi lub krokami przygotowawczymi, następnie główna treść i krótkie podsumowanie.
 
-Struktura może być czasem zmieniana w zależności od rodzaju poradnika. Można to omówić z zespołem ZAP-Docs podczas składania pierwszej sugestii. Możesz zobaczyć, jak korzystać z nagłówków w sekcji [nagłówki](#headers), odbywa się to za pomocą tradycyjnego Markdown.
+Struktura może być czasem zmieniana w zależności od rodzaju poradnika. Można to omówić z zespołem ZAP-Docs podczas składania pierwszej sugestii. Możesz zobaczyć, jak korzystać z nagłówków w sekcji nagłówki, odbywa się to za pomocą tradycyjnego Markdown.
 
 Typowa struktura, której oczekujemy, zawiera następujące nagłówki:
 

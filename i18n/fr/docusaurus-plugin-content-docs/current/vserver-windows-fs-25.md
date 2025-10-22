@@ -32,7 +32,7 @@ Vous ne pouvez pas utiliser la même clé de licence que celle avec laquelle vou
 :::info Licence Steam
 Il est possible d’utiliser une licence Steam pour héberger votre serveur dédié, mais c’est souvent galère car il faut garder le client Steam lancé en arrière-plan en permanence. De plus, vous ne pourrez pas jouer à d’autres jeux sur un autre système avec le même compte Steam à cause des limitations de Steam. On vous conseille donc vivement d’acheter une clé indépendante directement sur le site pour éviter ces soucis.
 
-Si vous comptez quand même utiliser une licence **Steam**, installez les fichiers via Steam comme d’habitude et passez directement à la section [**Configuration du serveur dédié**](#dedicated-server-setup) du guide.
+Si vous comptez quand même utiliser une licence **Steam**, installez les fichiers via Steam comme d’habitude et passez directement à la section **Configuration du serveur dédié** du guide.
 :::
 
 Une fois la version digitale achetée sur le site, vous recevrez un code produit par email à l’adresse fournie lors de l’achat. Vous aurez besoin de cette clé de licence dans la section suivante pour accéder au téléchargement du jeu et valider votre serveur dédié lors de la configuration.

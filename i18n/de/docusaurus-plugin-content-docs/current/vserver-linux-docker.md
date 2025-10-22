@@ -92,7 +92,7 @@ Um zu überprüfen, ob die Installation erfolgreich war, versuche das **hello-wo
 sudo docker run hello-world
 ```
 
-Wenn alles klappt, solltest du eine nette Hello-Nachricht im Chat sehen mit ein paar Basisinfos. Falls du `Permission Denied` Fehler bekommst, stelle sicher, dass du die **Docker-Kompatibilität** in deinem Webinterface aktiviert und den Server wie im Abschnitt [Vorbereitung](#vorbereitung) beschrieben neu gestartet hast.
+Wenn alles klappt, solltest du eine nette Hello-Nachricht im Chat sehen mit ein paar Basisinfos. Falls du `Permission Denied` Fehler bekommst, stelle sicher, dass du die **Docker-Kompatibilität** in deinem Webinterface aktiviert und den Server wie im Abschnitt Vorbereitung beschrieben neu gestartet hast.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/tzJwpYRYb9Mmryo/preview)
 

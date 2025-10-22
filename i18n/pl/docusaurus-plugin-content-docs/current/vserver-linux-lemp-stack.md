@@ -142,7 +142,7 @@ Po zainstalowaniu wszystkich elementów stosu LEMP, stworzymy testową stronę, 
 
 W przykładzie stworzymy prostą stronę listy zadań w PHP, która pobiera i wyświetla wpisy z bazy MySQL. Strona będzie serwowana przez Nginx.
 
-Użyjemy testowej domeny `zapdocs.example.com`, bo w realnym świecie prawdopodobnie będziesz korzystać z domeny. **Musisz** ustawić rekord DNS typu `A` dla domeny wskazujący na adres IP twojego serwera. Jeśli potrzebujesz pomocy, sprawdź nasz poradnik [Rekordy domeny](domain-records.md#a-records).
+Użyjemy testowej domeny `zapdocs.example.com`, bo w realnym świecie prawdopodobnie będziesz korzystać z domeny. **Musisz** ustawić rekord DNS typu `A` dla domeny wskazujący na adres IP twojego serwera. Jeśli potrzebujesz pomocy, sprawdź nasz poradnik [Rekordy domeny](domain-records.md).
 
 :::note
 Możesz nie używać domeny i zastąpić `[your_domain]` zwykłą nazwą. Wtedy stronę otworzysz przez adres IP. Pamiętaj jednak, że przy tworzeniu pliku serwera Nginx powinieneś usunąć parametr `server_name`.
@@ -362,7 +362,7 @@ Teraz możesz otworzyć stronę w przeglądarce pod domeną (HTTP/port 80), któ
 
 ## Podsumowanie
 
-Gratulacje, pomyślnie zainstalowałeś i skonfigurowałeś stos LEMP! Następnym krokiem **gorąco polecamy** skonfigurowanie domeny i **certyfikatu SSL**, aby zapewnić bezpieczne przesyłanie danych do Twoich stron. Sprawdź nasz [Poradnik Certbot](vserver-linux-certbot.md#webroot-plugin) ze szczególnym uwzględnieniem **wtyczki Nginx** i wykonaj interaktywną konfigurację, aby szybko i łatwo dodać certyfikat do swojej domeny.
+Gratulacje, pomyślnie zainstalowałeś i skonfigurowałeś stos LEMP! Następnym krokiem **gorąco polecamy** skonfigurowanie domeny i **certyfikatu SSL**, aby zapewnić bezpieczne przesyłanie danych do Twoich stron. Sprawdź nasz [Poradnik Certbot](vserver-linux-certbot.md) ze szczególnym uwzględnieniem **wtyczki Nginx** i wykonaj interaktywną konfigurację, aby szybko i łatwo dodać certyfikat do swojej domeny.
 
 W razie pytań lub potrzeby pomocy, śmiało kontaktuj się z naszym zespołem wsparcia, który jest dostępny codziennie, by Ci pomóc! 🙂
 

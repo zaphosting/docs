@@ -11,10 +11,10 @@ In order to ensure that all ZAP-Hosting Blog Posts are consistent in quality and
 
 Our blog contribution guidelines can be split into a few major sections, which are:
 
-- [Structure](#structure)
-- [Style](#style)
-- [Formatting](#formatting)
-- [Terminology](#terminology)
+- Structure
+- Style
+- Formatting
+- Terminology
 
 ## Structure
 

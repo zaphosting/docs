@@ -55,7 +55,7 @@ Na początek upewnij się, że instalujesz najnowszą wersję MariaDB. Niektóre
 curl -sS https://downloads.mariadb.com/MariaDB/mariadb_repo_setup | sudo bash
 ```
 
-Po dodaniu repozytorium zaktualizuj cache menedżera pakietów, wykonując kroki z sekcji [przygotowanie](#przygotowanie).
+Po dodaniu repozytorium zaktualizuj cache menedżera pakietów, wykonując kroki z sekcji przygotowanie.
 
 :::info
 Instalację repozytorium MariaDB (powyższy krok) można pominąć na nowoczesnych systemach, takich jak Ubuntu 22.04 czy Debian 11.
@@ -142,7 +142,7 @@ sudo yum install epel-release
 sudo dnf install https://dl.fedoraproject.org/pub/epel/epel-release-latest-8.noarch.rpm
 ```
 
-Po dodaniu repozytorium zaktualizuj cache menedżera pakietów, wykonując kroki z sekcji [przygotowanie](#przygotowanie).
+Po dodaniu repozytorium zaktualizuj cache menedżera pakietów, wykonując kroki z sekcji przygotowanie.
 
 :::info
 Jeśli Twój system operacyjny nie jest wymieniony powyżej, możesz pominąć ten krok.

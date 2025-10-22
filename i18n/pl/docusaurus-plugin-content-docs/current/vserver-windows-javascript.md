@@ -69,7 +69,7 @@ Po zakończeniu kliknij `Finish` i zacznij korzystać z Node.js na swoim serwerz
 
 ### Aktualizacja Node.js do najnowszej wersji
 
-Polecenie `node -v` pokaże zainstalowaną wersję Node.js. Od czasu do czasu sprawdzaj, czy masz najnowszą wersję LTS. Aby zaktualizować Node.js, powtórz kroki z sekcji [instalacji](vserver-windows-javascript.md#installing-nodejs-runtime).
+Polecenie `node -v` pokaże zainstalowaną wersję Node.js. Od czasu do czasu sprawdzaj, czy masz najnowszą wersję LTS. Aby zaktualizować Node.js, powtórz kroki z sekcji [instalacji](vserver-windows-javascript.md).
 
 ### Uruchamianie Node.js i npm
 

@@ -28,7 +28,7 @@ Minecraftの2つのバージョンについての基本情報をまとめた表�
 
 ## 対応プラットフォーム
 
-Minecraftを始めるときに一番よくある質問は「どのデバイスで遊べるの？」だよね。Minecraft *Java*版はオリジナルで、Windows、macOS、Linuxでしか遊べなくて、特に[シェーダーや他のMOD](#customization-and-modding)を入れるとシステム要件が高くなる。一方、Minecraft *Bedrock*版はスマホからPC、ゲーム機までほぼ全てのデバイスで遊べて、クロスプラットフォーム対応もバッチリ。
+Minecraftを始めるときに一番よくある質問は「どのデバイスで遊べるの？」だよね。Minecraft *Java*版はオリジナルで、Windows、macOS、Linuxでしか遊べなくて、特にシェーダーや他のMODを入れるとシステム要件が高くなる。一方、Minecraft *Bedrock*版はスマホからPC、ゲーム機までほぼ全てのデバイスで遊べて、クロスプラットフォーム対応もバッチリ。
 
 ## アップデート
 

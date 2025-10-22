@@ -28,7 +28,7 @@ Hier findest du eine Tabelle mit den wichtigsten Infos zu beiden Minecraft-Versi
 
 ## Plattformen
 
-Die wichtigste Frage, wenn man mit Minecraft anfängt: „Auf welchem Gerät kann ich spielen?“ Die Minecraft *Java* Edition, das Original, läuft nur auf Windows, macOS und Linux und hat höhere Systemanforderungen (vor allem wenn du [Shaders und andere Mods](#customization-and-modding) hinzufügst). Die Minecraft *Bedrock* Edition kannst du dagegen auf fast allen Geräten zocken – vom Handy über PC bis zur Konsole – und das mit voller Crossplay-Unterstützung.
+Die wichtigste Frage, wenn man mit Minecraft anfängt: „Auf welchem Gerät kann ich spielen?“ Die Minecraft *Java* Edition, das Original, läuft nur auf Windows, macOS und Linux und hat höhere Systemanforderungen (vor allem wenn du Shaders und andere Mods hinzufügst). Die Minecraft *Bedrock* Edition kannst du dagegen auf fast allen Geräten zocken – vom Handy über PC bis zur Konsole – und das mit voller Crossplay-Unterstützung.
 
 ## Updates
 

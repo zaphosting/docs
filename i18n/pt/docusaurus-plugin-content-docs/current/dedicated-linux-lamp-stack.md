@@ -152,7 +152,7 @@ Com as dependências LAMP instaladas, vamos criar um site de teste para mostrar 
 
 Neste exemplo, criaremos um site simples de lista de tarefas em PHP que busca e retorna as tarefas armazenadas em uma tabela MySQL. O site será servido pelo Apache.
 
-Usaremos o domínio de teste `zapdocs.example.com`. No mundo real, você provavelmente usaria um domínio. Você **deve** configurar um registro DNS do tipo `A` para o domínio apontando para o endereço IP do seu servidor. Se precisar de ajuda, veja nosso guia [Registros de Domínio](domain-records.md#a-records).
+Usaremos o domínio de teste `zapdocs.example.com`. No mundo real, você provavelmente usaria um domínio. Você **deve** configurar um registro DNS do tipo `A` para o domínio apontando para o endereço IP do seu servidor. Se precisar de ajuda, veja nosso guia [Registros de Domínio](domain-records.md).
 
 :::note
 Você pode optar por não usar domínio e substituir `[your_domain]` por um nome qualquer. Acessaria o site pelo IP. Mas ao criar o arquivo de host virtual, remova o parâmetro `ServerName`.
@@ -344,7 +344,7 @@ Agora acesse o site pelo domínio (usando `http`/porta 80) que você configurou 
 
 ## Conclusão
 
-Parabéns, você instalou e configurou o stack LAMP com sucesso! Como próximo passo, **recomendamos muito** configurar um domínio e um **certificado SSL** para garantir que os dados sejam transmitidos com segurança para seus sites. Veja nosso [guia Certbot](vserver-linux-certbot.md#webroot-plugin) focando no **Plugin Apache** e siga a configuração interativa para criar um certificado para seu domínio.
+Parabéns, você instalou e configurou o stack LAMP com sucesso! Como próximo passo, **recomendamos muito** configurar um domínio e um **certificado SSL** para garantir que os dados sejam transmitidos com segurança para seus sites. Veja nosso [guia Certbot](vserver-linux-certbot.md) focando no **Plugin Apache** e siga a configuração interativa para criar um certificado para seu domínio.
 
 Se tiver dúvidas ou precisar de ajuda, não hesite em contatar nosso time de suporte, disponível diariamente para te ajudar! 🙂
 

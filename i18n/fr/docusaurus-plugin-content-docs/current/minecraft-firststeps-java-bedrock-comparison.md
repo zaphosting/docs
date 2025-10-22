@@ -28,7 +28,7 @@ Voici un tableau qui explique quelques infos de base sur les deux versions de Mi
 
 ## Plateformes
 
-La question la plus importante quand on commence à jouer à Minecraft, c’est : « Sur quel appareil puis-je jouer ? ». L’édition *Java* de Minecraft, le jeu original, ne tourne que sur Windows, macOS et Linux et demande plus de ressources (surtout si tu ajoutes des [shaders et autres mods](#customization-and-modding)), tandis que l’édition *Bedrock* peut tourner sur presque tous les appareils, du téléphone à l’ordi en passant par les consoles, avec un vrai cross-plateforme.
+La question la plus importante quand on commence à jouer à Minecraft, c’est : « Sur quel appareil puis-je jouer ? ». L’édition *Java* de Minecraft, le jeu original, ne tourne que sur Windows, macOS et Linux et demande plus de ressources (surtout si tu ajoutes des shaders et autres mods), tandis que l’édition *Bedrock* peut tourner sur presque tous les appareils, du téléphone à l’ordi en passant par les consoles, avec un vrai cross-plateforme.
 
 ## Mises à jour
 

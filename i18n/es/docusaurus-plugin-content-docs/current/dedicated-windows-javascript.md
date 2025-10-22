@@ -70,7 +70,7 @@ Una vez terminado, simplemente presiona `Finish` en la página final y comienza 
 
 ### Actualizar Node.js a la última versión
 
-Ejecutar `node -v` mostrará la versión instalada de Node.js. De vez en cuando, deberías comprobar que estás usando la última versión LTS. Para actualizar Node.js, debes seguir nuevamente la sección de esta guía [Instalar JavaScript](dedicated-windows-javascript.md#installing-nodejs-runtime).
+Ejecutar `node -v` mostrará la versión instalada de Node.js. De vez en cuando, deberías comprobar que estás usando la última versión LTS. Para actualizar Node.js, debes seguir nuevamente la sección de esta guía [Instalar JavaScript](dedicated-windows-javascript.md).
 
 ### Ejecutando Node.js & npm
 

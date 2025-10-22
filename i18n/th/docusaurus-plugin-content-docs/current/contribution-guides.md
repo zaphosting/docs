@@ -167,7 +167,7 @@ services:
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/2iQCZzzAHsHS2rt/preview)
 
-กรอกข้อความ commit ที่อธิบายสิ่งที่คุณทำ และคำอธิบายเพิ่มเติมถ้าจำเป็น จากนั้น commit การเปลี่ยนแปลง ซึ่งจะ commit ไปยัง fork ของคุณ คุณสามารถไปที่ส่วน **[Submitting Content](#step-3-submitting-content)** เพื่อสร้าง Pull Request ส่งเนื้อหาไปยัง ZAP-Docs Repository หลักได้เลย
+กรอกข้อความ commit ที่อธิบายสิ่งที่คุณทำ และคำอธิบายเพิ่มเติมถ้าจำเป็น จากนั้น commit การเปลี่ยนแปลง ซึ่งจะ commit ไปยัง fork ของคุณ คุณสามารถไปที่ส่วน **Submitting Content** เพื่อสร้าง Pull Request ส่งเนื้อหาไปยัง ZAP-Docs Repository หลักได้เลย
 
 </TabItem>
 
@@ -259,10 +259,10 @@ services:
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/tFdrLknnXn62sZc/preview)
 
-จากนั้นไปที่ส่วน **[Submitting Content](#step-3-submitting-content)** เพื่อสร้าง Pull Request ส่งเนื้อหาไปยัง ZAP-Docs Repository หลักได้เลย
+จากนั้นไปที่ส่วน **Submitting Content** เพื่อสร้าง Pull Request ส่งเนื้อหาไปยัง ZAP-Docs Repository หลักได้เลย
 
 :::tip
-เราแนะนำให้อ่านส่วนเสริม **[ทดสอบ build ในเครื่อง](#optional-testing-build-locally)** ด้วย เพราะคุณสามารถจับคู่กับการทดสอบในเครื่องเพื่อสร้าง workflow ที่ดีที่สุด ที่จะอัปเดตการเปลี่ยนแปลงแบบสด ๆ ในเครื่องของคุณ ซึ่งมีประโยชน์มาก แต่ไม่จำเป็นต้องทำก็ได้
+เราแนะนำให้อ่านส่วนเสริม **ทดสอบ build ในเครื่อง** ด้วย เพราะคุณสามารถจับคู่กับการทดสอบในเครื่องเพื่อสร้าง workflow ที่ดีที่สุด ที่จะอัปเดตการเปลี่ยนแปลงแบบสด ๆ ในเครื่องของคุณ ซึ่งมีประโยชน์มาก แต่ไม่จำเป็นต้องทำก็ได้
 :::
 
 </TabItem>

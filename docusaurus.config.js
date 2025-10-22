@@ -25,6 +25,7 @@ const config = {
   
   onBrokenLinks: 'throw',
   onDuplicateRoutes: 'throw',
+  onBrokenAnchors: 'warn',
  
 
   markdown: {

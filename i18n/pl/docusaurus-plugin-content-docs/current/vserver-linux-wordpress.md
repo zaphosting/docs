@@ -231,7 +231,7 @@ I tak, po udanym logowaniu, znajdziesz się w panelu WordPress z kompletną inst
 
 ## Podsumowanie
 
-Gratulacje, pomyślnie zainstalowałeś i skonfigurowałeś WordPress! Kolejnym krokiem **gorąco polecamy** ustawienie domeny oraz **certyfikatu SSL**, aby zapewnić bezpieczne przesyłanie danych i ułatwić dostęp do panelu WordPress. Sprawdź nasz [poradnik Certbot](vserver-linux-certbot.md#webroot-plugin) ze szczególnym uwzględnieniem **wtyczki Apache** i przejdź przez interaktywną konfigurację, aby szybko i łatwo ustawić certyfikat dla wybranej domeny.
+Gratulacje, pomyślnie zainstalowałeś i skonfigurowałeś WordPress! Kolejnym krokiem **gorąco polecamy** ustawienie domeny oraz **certyfikatu SSL**, aby zapewnić bezpieczne przesyłanie danych i ułatwić dostęp do panelu WordPress. Sprawdź nasz [poradnik Certbot](vserver-linux-certbot.md) ze szczególnym uwzględnieniem **wtyczki Apache** i przejdź przez interaktywną konfigurację, aby szybko i łatwo ustawić certyfikat dla wybranej domeny.
 
 Na przyszłość i dalszą konfigurację polecamy też zapoznać się z naszymi poradnikami o [wtyczkach WordPress](webspace-wordpress-plugins.md) oraz [WordPress Elementor](webspace-wordpress-elementor.md), które pokazują, jak instalować wtyczki i korzystać z popularnego, przyjaznego kreatora stron Elementor.
 

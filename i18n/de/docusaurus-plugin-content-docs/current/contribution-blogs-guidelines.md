@@ -11,10 +11,10 @@ Um sicherzustellen, dass alle ZAP-Hosting Blog-Beiträge in Qualität und Stil e
 
 Unsere Blog Contribution Richtlinien lassen sich in einige Hauptbereiche unterteilen:
 
-- [Struktur](#struktur)
-- [Stil](#stil)
-- [Formatierung](#formatierung)
-- [Terminologie](#terminologie)
+- Struktur
+- Stil
+- Formatierung
+- Terminologie
 
 ## Struktur
 

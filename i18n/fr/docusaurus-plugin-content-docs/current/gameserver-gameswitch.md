@@ -46,7 +46,7 @@ Pour installer un nouveau jeu sur votre serveur de jeux, sélectionnez le menu d
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/iN7rNje3zaBPMgf/preview)
 
-Dans cette section, vous trouverez aussi le menu déroulant **Plus de jeux**. Parmi notre large sélection, certains jeux peuvent avoir des prix de slots différents, ce qui peut vous empêcher d’installer le jeu sélectionné sans coût additionnel. Pour régler cela, vous devrez payer un supplément pour augmenter votre prix de slot. Consultez la section [Changer le prix des slots](#change-slot-price) du guide pour plus d’infos.
+Dans cette section, vous trouverez aussi le menu déroulant **Plus de jeux**. Parmi notre large sélection, certains jeux peuvent avoir des prix de slots différents, ce qui peut vous empêcher d’installer le jeu sélectionné sans coût additionnel. Pour régler cela, vous devrez payer un supplément pour augmenter votre prix de slot. Consultez la section Changer le prix des slots du guide pour plus d’infos.
 
 :::info Nombre minimum de slots
 Certains jeux de notre collection nécessitent un nombre minimum de slots avant de pouvoir être installés sur votre serveur de jeux. Dans ce cas, survolez l’icône d’avertissement pour en savoir plus. Vous devriez utiliser la fonction de montée/descente en gamme pour ajuster votre serveur selon ces infos.

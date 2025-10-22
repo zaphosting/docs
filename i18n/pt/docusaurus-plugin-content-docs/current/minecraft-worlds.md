@@ -181,7 +181,7 @@ Assim como fazer backup, enviar seu save de mundo é fácil. Primeiro, conecte a
 :::info Mundos Vanilla & Plataformas de Servidor
 Lembre-se que servidores vanilla e plataformas de servidor armazenam mundos em formatos ligeiramente diferentes.
 
-Se estiver movendo um save de vanilla para uma plataforma como PaperMC, ou vice-versa, confira a seção de [conversão de mundos](#converting-worlds) deste guia.
+Se estiver movendo um save de vanilla para uma plataforma como PaperMC, ou vice-versa, confira a seção de conversão de mundos deste guia.
 :::
 
 Basta arrastar e soltar qualquer save de mundo na pasta raiz pelo seu cliente FTP e ele será enviado para o servidor.

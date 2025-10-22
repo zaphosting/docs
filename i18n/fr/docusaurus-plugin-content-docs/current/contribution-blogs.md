@@ -61,7 +61,7 @@ Dans notre réponse au ticket, on vous donnera des retours ou détails à ajuste
 On accepte actuellement du contenu en **Markdown** et en **HTML5**.
 
 :::tip
-On vous recommande **fortement** d’utiliser l’outil Markdown **[StackEdit](https://stackedit.io/app#)** pour écrire votre contenu tout en profitant de toutes les fonctionnalités Markdown. Sinon, vous pouvez aussi utiliser **[HTML5 Editor](https://html5-editor.net/)** si vous préférez le style HTML5. Vous pourrez ensuite exporter directement vers Google Drive ou une appli de partage de fichiers et nous envoyer un lien. Pour en savoir plus sur le Markdown, consultez notre [guide de style](contribution-blogs-guidelines.md#formatting).
+On vous recommande **fortement** d’utiliser l’outil Markdown **[StackEdit](https://stackedit.io/app#)** pour écrire votre contenu tout en profitant de toutes les fonctionnalités Markdown. Sinon, vous pouvez aussi utiliser **[HTML5 Editor](https://html5-editor.net/)** si vous préférez le style HTML5. Vous pourrez ensuite exporter directement vers Google Drive ou une appli de partage de fichiers et nous envoyer un lien. Pour en savoir plus sur le Markdown, consultez notre [guide de style](contribution-blogs-guidelines.md).
 :::
 
 :::note

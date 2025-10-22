@@ -26,13 +26,13 @@ Die Möglichkeiten zur Optimierung eines Vanilla-Servers sind leider sehr begren
 Eine sehr häufig genutzte Maßnahme ist es, die Sichtweite zu reduzieren. Die Standard-Sichtweite liegt bei 10 Chunks, viele Spieler spielen aber mit deutlich weniger, z.B. 6-8. Manche Spieler übertreiben es mit der Chunk-Anzahl und stellen diese z.B. auf 32, was bedeutet, dass der Server all diese Chunks laden und verarbeiten muss, was viel Performance kostet.
 
 Bei einem Vanilla-Server kann die Sichtweite in der "server.properties"-Config angepasst werden, dafür muss der Wert "view-distance" geändert werden. Um das Spielerlebnis nicht zu stark einzuschränken, empfehlen wir, den Wert auf 5-6 zu setzen, was den Server um bis zu 50% entlastet.
-Wir haben dazu bereits einen Eintrag in unserer Anleitung, den du [hier](minecraft-default-config.md#view-distance) findest.
+Wir haben dazu bereits einen Eintrag in unserer Anleitung, den du [hier](minecraft-default-config.md) findest.
 
 ### Daten-Kompression
 
 Auf einem Server findet ein permanenter Austausch zwischen Server und verbundenen Spielern statt. Die Bewegungen der Spieler werden an den Server gesendet, der diese wiederum an alle anderen Spieler weiterleitet. Auch Spieleraktionen oder Events in der Welt, wie z.B. Explosionen, gehören zu den Daten, die immer wieder übertragen werden.
 
-Um diesen Austausch effizienter zu gestalten, kann die Größe der gepackten Daten verdoppelt werden, sodass der Server nur noch 50% des Aufwands hat, um dieselben Daten mit den Spielern auszutauschen. Dafür muss der Wert "network-compression-threshold" in der "server.properties"-Config angepasst werden. Der Wert sollte hier auf 512 gesetzt werden. Auch hierzu haben wir einen Eintrag in unserer Anleitung, den du [hier](minecraft-default-config.md#network-compression-threshold) findest.
+Um diesen Austausch effizienter zu gestalten, kann die Größe der gepackten Daten verdoppelt werden, sodass der Server nur noch 50% des Aufwands hat, um dieselben Daten mit den Spielern auszutauschen. Dafür muss der Wert "network-compression-threshold" in der "server.properties"-Config angepasst werden. Der Wert sollte hier auf 512 gesetzt werden. Auch hierzu haben wir einen Eintrag in unserer Anleitung, den du [hier](minecraft-default-config.md) findest.
 
 ## Forge
 
@@ -75,13 +75,13 @@ Der Mod kann auch nach Abschluss des Prozesses weiterhin auf dem Server installi
 Eine sehr häufig genutzte Maßnahme ist es, die Sichtweite zu reduzieren. Die Standard-Sichtweite liegt bei 10 Chunks, viele Spieler spielen aber mit deutlich weniger, z.B. 6-8. Manche Spieler übertreiben es mit der Chunk-Anzahl und stellen diese z.B. auf 32, was bedeutet, dass der Server all diese Chunks laden und verarbeiten muss, was viel Performance kostet.
 
 Die Sichtweite eines Forge-Servers kann in der "server.properties"-Config angepasst werden, dafür muss der Wert "view-distance" geändert werden. Um das Spielerlebnis nicht zu stark einzuschränken, empfehlen wir, den Wert auf 5-6 zu setzen, was den Server um bis zu 50% entlastet.
-Wir haben dazu bereits einen Eintrag in unserer Anleitung, den du [hier](minecraft-default-config.md#view-distance) findest.
+Wir haben dazu bereits einen Eintrag in unserer Anleitung, den du [hier](minecraft-default-config.md) findest.
 
 ### Daten-Kompression
 
 Auf einem Server findet ein permanenter Austausch zwischen Server und verbundenen Spielern statt. Die Bewegungen der Spieler werden an den Server gesendet, der diese wiederum an alle anderen Spieler weiterleitet. Auch Spieleraktionen oder Events in der Welt, wie z.B. Explosionen, gehören zu den Daten, die immer wieder übertragen werden.
 
-Um diesen Austausch effizienter zu gestalten, kann die Größe der gepackten Daten verdoppelt werden, sodass der Server nur noch 50% des Aufwands hat, um dieselben Daten mit den Spielern auszutauschen. Dafür muss der Wert "network-compression-threshold" in der "server.properties"-Config angepasst werden. Der Wert sollte hier auf 512 gesetzt werden. Auch hierzu haben wir einen Eintrag in unserer Anleitung, den du [hier](minecraft-default-config.md#network-compression-threshold) findest.
+Um diesen Austausch effizienter zu gestalten, kann die Größe der gepackten Daten verdoppelt werden, sodass der Server nur noch 50% des Aufwands hat, um dieselben Daten mit den Spielern auszutauschen. Dafür muss der Wert "network-compression-threshold" in der "server.properties"-Config angepasst werden. Der Wert sollte hier auf 512 gesetzt werden. Auch hierzu haben wir einen Eintrag in unserer Anleitung, den du [hier](minecraft-default-config.md) findest.
 
 ## Bukkit
 
@@ -90,13 +90,13 @@ Um diesen Austausch effizienter zu gestalten, kann die Größe der gepackten Dat
 Eine sehr häufig genutzte Maßnahme ist es, die Sichtweite zu reduzieren. Die Standard-Sichtweite liegt bei 10 Chunks, viele Spieler spielen aber mit deutlich weniger, z.B. 6-8. Manche Spieler übertreiben es mit der Chunk-Anzahl und stellen diese z.B. auf 32, was bedeutet, dass der Server all diese Chunks laden und verarbeiten muss, was viel Performance kostet.
 
 Die Sichtweite eines Bukkit-Servers kann in der "server.properties"-Config angepasst werden, dafür muss der Wert "view-distance" geändert werden. Um das Spielerlebnis nicht zu stark einzuschränken, empfehlen wir, den Wert auf 5-6 zu setzen, was den Server um bis zu 50% entlastet.
-Wir haben dazu bereits einen Eintrag in unserer Anleitung, den du [hier](minecraft-default-config.md#view-distance) findest.
+Wir haben dazu bereits einen Eintrag in unserer Anleitung, den du [hier](minecraft-default-config.md) findest.
 
 ### Daten-Kompression
 
 Auf einem Server findet ein permanenter Austausch zwischen Server und verbundenen Spielern statt. Die Bewegungen der Spieler werden an den Server gesendet, der diese wiederum an alle anderen Spieler weiterleitet. Auch Spieleraktionen oder Events in der Welt, wie z.B. Explosionen, gehören zu den Daten, die immer wieder übertragen werden.
 
-Um diesen Austausch effizienter zu gestalten, kann die Größe der gepackten Daten verdoppelt werden, sodass der Server nur noch 50% des Aufwands hat, um dieselben Daten mit den Spielern auszutauschen. Dafür muss der Wert "network-compression-threshold" in der "server.properties"-Config angepasst werden. Der Wert sollte hier auf 512 gesetzt werden. Auch hierzu haben wir einen Eintrag in unserer Anleitung, den du [hier](minecraft-default-config.md#network-compression-threshold) findest.
+Um diesen Austausch effizienter zu gestalten, kann die Größe der gepackten Daten verdoppelt werden, sodass der Server nur noch 50% des Aufwands hat, um dieselben Daten mit den Spielern auszutauschen. Dafür muss der Wert "network-compression-threshold" in der "server.properties"-Config angepasst werden. Der Wert sollte hier auf 512 gesetzt werden. Auch hierzu haben wir einen Eintrag in unserer Anleitung, den du [hier](minecraft-default-config.md) findest.
 
 ### Spawn-Limits
 
@@ -147,7 +147,7 @@ Je nach Vorliebe kann der Wert auch auf 4 gesetzt werden, was z.B. sehr gut gege
 
 Auf einem Server findet ein permanenter Austausch zwischen Server und verbundenen Spielern statt. Die Bewegungen der Spieler werden an den Server gesendet, der diese wiederum an alle anderen Spieler weiterleitet. Auch Spieleraktionen oder Events in der Welt, wie z.B. Explosionen, gehören zu den Daten, die immer wieder übertragen werden.
 
-Um diesen Austausch effizienter zu gestalten, kann die Größe der gepackten Daten verdoppelt werden, sodass der Server nur noch 50% des Aufwands hat, um dieselben Daten mit den Spielern auszutauschen. Dafür muss der Wert "network-compression-threshold" in der "server.properties"-Config angepasst werden. Der Wert sollte hier auf 512 gesetzt werden. Auch hierzu haben wir einen Eintrag in unserer Anleitung, den du [hier](minecraft-default-config.md#network-compression-threshold) findest.
+Um diesen Austausch effizienter zu gestalten, kann die Größe der gepackten Daten verdoppelt werden, sodass der Server nur noch 50% des Aufwands hat, um dieselben Daten mit den Spielern auszutauschen. Dafür muss der Wert "network-compression-threshold" in der "server.properties"-Config angepasst werden. Der Wert sollte hier auf 512 gesetzt werden. Auch hierzu haben wir einen Eintrag in unserer Anleitung, den du [hier](minecraft-default-config.md) findest.
 
 ### Spawn-Limits
 
@@ -248,7 +248,7 @@ Je nach Vorliebe kann der Wert auch auf 4 gesetzt werden, was z.B. sehr gut gege
 
 Auf einem Server findet ein permanenter Austausch zwischen Server und verbundenen Spielern statt. Die Bewegungen der Spieler werden an den Server gesendet, der diese wiederum an alle anderen Spieler weiterleitet. Auch Spieleraktionen oder Events in der Welt, wie z.B. Explosionen, gehören zu den Daten, die immer wieder übertragen werden.
 
-Um diesen Austausch effizienter zu gestalten, kann die Größe der gepackten Daten verdoppelt werden, sodass der Server nur noch 50% des Aufwands hat, um dieselben Daten mit den Spielern auszutauschen. Dafür muss der Wert "network-compression-threshold" in der "server.properties"-Config angepasst werden. Der Wert sollte hier auf 512 gesetzt werden. Auch hierzu haben wir einen Eintrag in unserer Anleitung, den du [hier](minecraft-default-config.md#network-compression-threshold) findest.
+Um diesen Austausch effizienter zu gestalten, kann die Größe der gepackten Daten verdoppelt werden, sodass der Server nur noch 50% des Aufwands hat, um dieselben Daten mit den Spielern auszutauschen. Dafür muss der Wert "network-compression-threshold" in der "server.properties"-Config angepasst werden. Der Wert sollte hier auf 512 gesetzt werden. Auch hierzu haben wir einen Eintrag in unserer Anleitung, den du [hier](minecraft-default-config.md) findest.
 
 ### Spawn-Limits
 

@@ -30,7 +30,7 @@ Ce caractère sert juste à distinguer un message normal dans le chat d’une co
 
 ### Droits / Permissions
 
-Pour pouvoir utiliser les commandes, il faut avoir les droits nécessaires. Dans Minecraft Vanilla ou Forge, il n’y a pas de vrai système de permissions utilisable par des plugins comme dans Spigot. Ici, seul le système de niveaux des droits OP peut être utilisé. Tu trouveras un tutoriel sur le système des droits OP ici : [Permissions OP](minecraft-addop.md#rights-level)
+Pour pouvoir utiliser les commandes, il faut avoir les droits nécessaires. Dans Minecraft Vanilla ou Forge, il n’y a pas de vrai système de permissions utilisable par des plugins comme dans Spigot. Ici, seul le système de niveaux des droits OP peut être utilisé. Tu trouveras un tutoriel sur le système des droits OP ici : [Permissions OP](minecraft-addop.md)
 
 Si un système de permissions a été installé et que tu veux attribuer des droits à certaines commandes Minecraft, les permissions correspondantes peuvent être assignées comme expliqué ci-dessous.
 

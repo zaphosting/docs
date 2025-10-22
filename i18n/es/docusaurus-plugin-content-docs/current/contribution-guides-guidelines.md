@@ -11,10 +11,10 @@ Para asegurar que el contenido en nuestros ZAP-Docs siempre mantenga una calidad
 
 Nuestras directrices para contribuir con guías están divididas en las siguientes secciones:
 
-- [Estructura](#structure)
-- [Estilo](#style)
-- [Formato](#formatting)
-- [Terminología](#terminology)
+- Estructura
+- Estilo
+- Formato
+- Terminología
 
 Recomendamos revisar estas secciones al menos una vez antes de proceder a escribir cualquier contenido. También es un buen lugar para consultar si tienes dudas sobre cómo abordar algo durante el proceso de creación.
 
@@ -22,7 +22,7 @@ Recomendamos revisar estas secciones al menos una vez antes de proceder a escrib
 
 Todas nuestras guías en ZAP-Docs siguen una estructura relativamente consistente que comienza con una breve introducción junto con cualquier requisito previo o pasos de preparación, seguido del contenido principal y una breve conclusión.
 
-La estructura puede alterarse ocasionalmente dependiendo del tipo de guía producida. Esto puede discutirse con el equipo de ZAP-Docs en tu sugerencia inicial. Puedes ver cómo utilizar los encabezados en la sección de [encabezados](#headers), que se hace mediante Markdown tradicional.
+La estructura puede alterarse ocasionalmente dependiendo del tipo de guía producida. Esto puede discutirse con el equipo de ZAP-Docs en tu sugerencia inicial. Puedes ver cómo utilizar los encabezados en la sección de encabezados, que se hace mediante Markdown tradicional.
 
 La estructura que normalmente esperamos ver tendría los siguientes encabezados:
 

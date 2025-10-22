@@ -181,7 +181,7 @@ Podobnie jak przy tworzeniu kopii zapasowej, przesyłanie zapisu świata jest pr
 :::info Światy Vanilla & Platform Serwerowych
 Pamiętaj, że vanilla serwer i platformy serwerowe przechowują światy w nieco innym formacie.
 
-Jeśli przenosisz zapis z vanilla na platformę serwerową taką jak PaperMC lub odwrotnie, sprawdź sekcję [konwersja światów](#converting-worlds) w tym poradniku.
+Jeśli przenosisz zapis z vanilla na platformę serwerową taką jak PaperMC lub odwrotnie, sprawdź sekcję konwersja światów w tym poradniku.
 :::
 
 Po prostu przeciągnij i upuść dowolny zapis świata do katalogu głównego przez klienta FTP, a zostanie on przesłany na Twój serwer.

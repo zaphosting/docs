@@ -167,7 +167,7 @@ Quand tu as fini, clique sur **Commit changes...** qui ouvrira une fenêtre.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/2iQCZzzAHsHS2rt/preview)
 
-Mets un message de commit clair expliquant ce que tu as fait, ajoute une description si besoin, puis commit. Ça enregistrera dans ton fork. Tu peux ensuite passer à la section **[Soumettre le contenu](#step-3-submitting-content)** pour créer une Pull Request vers le dépôt principal ZAP-Docs.
+Mets un message de commit clair expliquant ce que tu as fait, ajoute une description si besoin, puis commit. Ça enregistrera dans ton fork. Tu peux ensuite passer à la section **Soumettre le contenu** pour créer une Pull Request vers le dépôt principal ZAP-Docs.
 
 </TabItem>
 
@@ -259,10 +259,10 @@ Quand tu as fini, pousse un commit sur ton fork et crée une Pull Request. Avec 
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/tFdrLknnXn62sZc/preview)
 
-Tu peux ensuite passer à la section **[Soumettre le contenu](#step-3-submitting-content)** pour créer ta Pull Request vers le dépôt principal ZAP-Docs.
+Tu peux ensuite passer à la section **Soumettre le contenu** pour créer ta Pull Request vers le dépôt principal ZAP-Docs.
 
 :::tip
-On te conseille aussi de lire la section optionnelle **[Tester la build en local](#optional-testing-build-locally)**, tu peux combiner ça avec le travail local pour un workflow optimal avec mise à jour en direct. Mais ce n’est pas obligatoire.
+On te conseille aussi de lire la section optionnelle **Tester la build en local**, tu peux combiner ça avec le travail local pour un workflow optimal avec mise à jour en direct. Mais ce n’est pas obligatoire.
 :::
 
 </TabItem>

@@ -93,12 +93,12 @@ Najpierw sprawdź swoje save'y przez klienta FTP, przechodząc do:
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/wYQ42Aein5y6Z6j/preview)
 
-Powinieneś zobaczyć stary save oraz nowy, który został wygenerowany. Aby to naprawić, po prostu edytuj plik konfiguracyjny zgodnie z opisem w sekcji [Aktywacja Savegame](#aktywacja-savegame), wpisując poprawną nazwę folderu save'a.
+Powinieneś zobaczyć stary save oraz nowy, który został wygenerowany. Aby to naprawić, po prostu edytuj plik konfiguracyjny zgodnie z opisem w sekcji Aktywacja Savegame, wpisując poprawną nazwę folderu save'a.
 
 Save powinien być ponownie aktywny po zapisaniu pliku i restarcie serwera.
 
 :::info
-Zdecydowanie polecamy włączenie automatycznych kopii zapasowych, jak opisano w sekcji [Automatyczna kopia zapasowa](#automatyczna-kopia-zapasowa), ponieważ Palworld jest nadal w Early Access i istnieje ryzyko utraty lub uszkodzenia save'ów podczas aktualizacji.
+Zdecydowanie polecamy włączenie automatycznych kopii zapasowych, jak opisano w sekcji Automatyczna kopia zapasowa, ponieważ Palworld jest nadal w Early Access i istnieje ryzyko utraty lub uszkodzenia save'ów podczas aktualizacji.
 :::
 
 <InlineVoucher />

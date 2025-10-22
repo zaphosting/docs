@@ -32,7 +32,7 @@ Nie możesz użyć tej samej licencji, na której grasz, dlatego musisz kupić *
 :::info Licencja Steam
 Możesz użyć licencji Steam do hostowania serwera dedykowanego, ale jest to dość niewygodne, ponieważ wymaga ciągłego uruchomienia klienta Steam w tle. Oznacza to też, że nie możesz grać na innym systemie na tym samym koncie Steam z powodu ograniczeń Steam. Dlatego zdecydowanie polecamy zakup osobnego klucza bezpośrednio na stronie, aby uniknąć tych problemów.
 
-Jeśli jednak planujesz użyć licencji **Steam**, zainstaluj pliki przez Steam jak zwykle i przejdź do sekcji [**Konfiguracja Serwera Dedykowanego**](#dedicated-server-setup).
+Jeśli jednak planujesz użyć licencji **Steam**, zainstaluj pliki przez Steam jak zwykle i przejdź do sekcji **Konfiguracja Serwera Dedykowanego**.
 :::
 
 Po zakupie cyfrowej wersji otrzymasz kod produktu na adres e-mail podany podczas zakupu. Będziesz potrzebować tego klucza w kolejnej części, aby pobrać grę i aktywować serwer dedykowany podczas konfiguracji.

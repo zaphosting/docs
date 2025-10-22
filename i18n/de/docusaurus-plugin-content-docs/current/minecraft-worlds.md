@@ -181,7 +181,7 @@ Wir bieten dir auch die Möglichkeit, deine Welt-Saves (und Konfigurationsdateie
 :::info Vanilla- & Server-Plattform-Welten
 Denk daran, dass Vanilla-Server und Server-Plattformen Welten etwas unterschiedlich speichern.
 
-Wenn du einen Save von Vanilla zu einer Server-Plattform wie PaperMC oder umgekehrt verschiebst, schau dir bitte den Abschnitt [Welten konvertieren](#converting-worlds) in dieser Anleitung an.
+Wenn du einen Save von Vanilla zu einer Server-Plattform wie PaperMC oder umgekehrt verschiebst, schau dir bitte den Abschnitt Welten konvertieren in dieser Anleitung an.
 :::
 
 Zieh einfach deinen Welt-Save per Drag & Drop in das Root-Verzeichnis via FTP, dann wird er auf deinen Server hochgeladen.

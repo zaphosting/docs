@@ -45,7 +45,7 @@ Para instalar un juego nuevo en tu servidor de juegos, selecciona el menú despl
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/iN7rNje3zaBPMgf/preview)
 
-En esta sección, también encontrarás el menú desplegable **Más Juegos**. En nuestra amplia selección de juegos, algunos pueden tener precios por slot diferentes, lo que puede significar que no puedas instalar el juego seleccionado sin un coste adicional. Para solucionarlo, tendrás que pagar un recargo para aumentar tu precio por slot. Consulta la sección [Cambiar Precio por Slot](#change-slot-price) de esta guía para más información.
+En esta sección, también encontrarás el menú desplegable **Más Juegos**. En nuestra amplia selección de juegos, algunos pueden tener precios por slot diferentes, lo que puede significar que no puedas instalar el juego seleccionado sin un coste adicional. Para solucionarlo, tendrás que pagar un recargo para aumentar tu precio por slot. Consulta la sección Cambiar Precio por Slot de esta guía para más información.
 
 :::info Cantidad Mínima de Slots
 Algunos juegos en nuestra colección requieren una cantidad mínima específica de slots antes de que puedas instalarlos en tu servidor de juegos. En esos casos, pasa el cursor sobre el icono de advertencia para saber más. Deberías usar la función de subir/bajar de categoría para actualizar tu servidor según la información.

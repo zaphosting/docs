@@ -181,7 +181,7 @@ Similarly to backing up, uploading your world save is simple. First, ensure that
 :::info Vanilla & Server Platform Worlds
 Remember that the vanilla server and server platforms store worlds in a slightly different format.
 
-If you are moving a save from vanilla to a server platform such as PaperMC, or the other way round, please view the [converting worlds](#converting-worlds) section of the guide.
+If you are moving a save from vanilla to a server platform such as PaperMC, or the other way round, please view the converting worlds section of the guide.
 :::
 
 Simply drag and drop any of your world saves into the root folder through your FTP Client and it will be uploaded to your server.

@@ -25,13 +25,13 @@ Las opciones para optimizar un servidor vanilla son lamentablemente muy limitada
 
 Una medida muy común es reducir el rango de visión. El rango estándar es de 10 chunks, pero muchos jugadores juegan con mucho menos, como 6-8. Algunos jugadores se pasan con los chunks y a veces lo ponen a 32 chunks, por ejemplo, lo que significa que el servidor tiene que cargar y procesar todos esos chunks, lo que consume mucha potencia.
 
-En un servidor vanilla, el rango de visión se puede ajustar en la configuración "server.properties", modificando el valor "view-distance". Para no limitar demasiado la experiencia de juego, se recomienda poner este valor entre 5 y 6, lo que alivia al servidor hasta en un 50%. Ya tenemos una entrada en nuestra documentación sobre esto, que puedes encontrar [aquí](minecraft-default-config.md#view-distance).
+En un servidor vanilla, el rango de visión se puede ajustar en la configuración "server.properties", modificando el valor "view-distance". Para no limitar demasiado la experiencia de juego, se recomienda poner este valor entre 5 y 6, lo que alivia al servidor hasta en un 50%. Ya tenemos una entrada en nuestra documentación sobre esto, que puedes encontrar [aquí](minecraft-default-config.md).
 
 ### Compresión de datos
 
 En un servidor hay un intercambio constante entre el servidor y los jugadores conectados. Los movimientos de los jugadores se transmiten al servidor y este los envía a todos los demás jugadores. También las acciones de los jugadores o eventos en el mundo, como explosiones, forman parte de los datos que se transmiten repetidamente.
 
-Para hacer este intercambio más eficiente, se puede duplicar el tamaño de los datos comprimidos, lo que significa que el servidor solo tiene que hacer el 50% del esfuerzo para intercambiar la misma cantidad de datos con los jugadores. Para ello, hay que ajustar el valor "network-compression-threshold" en la configuración "server.properties". El valor recomendado es 512. También tenemos una entrada en nuestra documentación sobre esto, que puedes ver [aquí](minecraft-default-config.md#network-compression-threshold).
+Para hacer este intercambio más eficiente, se puede duplicar el tamaño de los datos comprimidos, lo que significa que el servidor solo tiene que hacer el 50% del esfuerzo para intercambiar la misma cantidad de datos con los jugadores. Para ello, hay que ajustar el valor "network-compression-threshold" en la configuración "server.properties". El valor recomendado es 512. También tenemos una entrada en nuestra documentación sobre esto, que puedes ver [aquí](minecraft-default-config.md).
 
 ## Forge
 
@@ -72,13 +72,13 @@ El mod puede quedarse instalado en el servidor después de este proceso. Seguir�
 
 Una medida muy común es reducir el rango de visión. El rango estándar es de 10 chunks, pero muchos jugadores juegan con mucho menos, como 6-8. Algunos jugadores se pasan con los chunks y a veces lo ponen a 32 chunks, por ejemplo, lo que significa que el servidor tiene que cargar y procesar todos esos chunks, lo que consume mucha potencia.
 
-La visibilidad en un servidor Forge se ajusta en "server.properties" modificando el valor "view-distance". Para no limitar demasiado la experiencia de juego, se recomienda poner este valor entre 5 y 6, lo que alivia al servidor hasta en un 50%. Ya tenemos una entrada en nuestra documentación sobre esto, que puedes encontrar [aquí](minecraft-default-config.md#view-distance).
+La visibilidad en un servidor Forge se ajusta en "server.properties" modificando el valor "view-distance". Para no limitar demasiado la experiencia de juego, se recomienda poner este valor entre 5 y 6, lo que alivia al servidor hasta en un 50%. Ya tenemos una entrada en nuestra documentación sobre esto, que puedes encontrar [aquí](minecraft-default-config.md).
 
 ### Compresión de datos
 
 En un servidor hay un intercambio constante entre el servidor y los jugadores conectados. Los movimientos de los jugadores se transmiten al servidor y este los envía a todos los demás jugadores. También las acciones de los jugadores o eventos en el mundo, como explosiones, forman parte de los datos que se transmiten repetidamente.
 
-Para hacer este intercambio más eficiente, se puede duplicar el tamaño de los datos comprimidos, lo que significa que el servidor solo tiene que hacer el 50% del esfuerzo para intercambiar la misma cantidad de datos con los jugadores. Para ello, hay que ajustar el valor "network-compression-threshold" en la configuración "server.properties". El valor recomendado es 512. También tenemos una entrada en nuestra documentación sobre esto, que puedes ver [aquí](minecraft-default-config.md#network-compression-threshold).
+Para hacer este intercambio más eficiente, se puede duplicar el tamaño de los datos comprimidos, lo que significa que el servidor solo tiene que hacer el 50% del esfuerzo para intercambiar la misma cantidad de datos con los jugadores. Para ello, hay que ajustar el valor "network-compression-threshold" en la configuración "server.properties". El valor recomendado es 512. También tenemos una entrada en nuestra documentación sobre esto, que puedes ver [aquí](minecraft-default-config.md).
 
 ## Bukkit
 
@@ -86,13 +86,13 @@ Para hacer este intercambio más eficiente, se puede duplicar el tamaño de los 
 
 Una medida muy común es reducir el rango de visión. El rango estándar es de 10 chunks, pero muchos jugadores juegan con mucho menos, como 6-8. Algunos jugadores se pasan con los chunks y a veces lo ponen a 32 chunks, por ejemplo, lo que significa que el servidor tiene que cargar y procesar todos esos chunks, lo que consume mucha potencia.
 
-La visibilidad en un servidor Forge se ajusta en "server.properties" modificando el valor "view-distance". Para no limitar demasiado la experiencia de juego, se recomienda poner este valor entre 5 y 6, lo que alivia al servidor hasta en un 50%. Ya tenemos una entrada en nuestra documentación sobre esto, que puedes encontrar [aquí](minecraft-default-config.md#view-distance).
+La visibilidad en un servidor Forge se ajusta en "server.properties" modificando el valor "view-distance". Para no limitar demasiado la experiencia de juego, se recomienda poner este valor entre 5 y 6, lo que alivia al servidor hasta en un 50%. Ya tenemos una entrada en nuestra documentación sobre esto, que puedes encontrar [aquí](minecraft-default-config.md).
 
 ### Compresión de datos
 
 En un servidor hay un intercambio constante entre el servidor y los jugadores conectados. Los movimientos de los jugadores se transmiten al servidor y este los envía a todos los demás jugadores. También las acciones de los jugadores o eventos en el mundo, como explosiones, forman parte de los datos que se transmiten repetidamente.
 
-Para hacer este intercambio más eficiente, se puede duplicar el tamaño de los datos comprimidos, lo que significa que el servidor solo tiene que hacer el 50% del esfuerzo para intercambiar la misma cantidad de datos con los jugadores. Para ello, hay que ajustar el valor "network-compression-threshold" en la configuración "server.properties". El valor recomendado es 512. También tenemos una entrada en nuestra documentación sobre esto, que puedes ver [aquí](minecraft-default-config.md#network-compression-threshold).
+Para hacer este intercambio más eficiente, se puede duplicar el tamaño de los datos comprimidos, lo que significa que el servidor solo tiene que hacer el 50% del esfuerzo para intercambiar la misma cantidad de datos con los jugadores. Para ello, hay que ajustar el valor "network-compression-threshold" en la configuración "server.properties". El valor recomendado es 512. También tenemos una entrada en nuestra documentación sobre esto, que puedes ver [aquí](minecraft-default-config.md).
 
 ### Límites de spawn
 
@@ -143,7 +143,7 @@ Según tu preferencia, también puedes ponerlo a 4, lo que ayuda mucho contra el
 
 En un servidor hay un intercambio constante entre el servidor y los jugadores conectados. Los movimientos de los jugadores se transmiten al servidor y este los envía a todos los demás jugadores. También las acciones de los jugadores o eventos en el mundo, como explosiones, forman parte de los datos que se transmiten repetidamente.
 
-Para hacer este intercambio más eficiente, se puede duplicar el tamaño de los datos comprimidos, lo que significa que el servidor solo tiene que hacer el 50% del esfuerzo para intercambiar la misma cantidad de datos con los jugadores. Para ello, hay que ajustar el valor "network-compression-threshold" en la configuración "server.properties". El valor recomendado es 512. También tenemos una entrada en nuestra documentación sobre esto, que puedes ver [aquí](minecraft-default-config.md#network-compression-threshold).
+Para hacer este intercambio más eficiente, se puede duplicar el tamaño de los datos comprimidos, lo que significa que el servidor solo tiene que hacer el 50% del esfuerzo para intercambiar la misma cantidad de datos con los jugadores. Para ello, hay que ajustar el valor "network-compression-threshold" en la configuración "server.properties". El valor recomendado es 512. También tenemos una entrada en nuestra documentación sobre esto, que puedes ver [aquí](minecraft-default-config.md).
 
 ### Límites de spawn
 
@@ -244,7 +244,7 @@ Según tu preferencia, también puedes ponerlo a 4, lo que ayuda mucho contra el
 
 En un servidor hay un intercambio constante entre el servidor y los jugadores conectados. Los movimientos de los jugadores se transmiten al servidor y este los envía a todos los demás jugadores. También las acciones de los jugadores o eventos en el mundo, como explosiones, forman parte de los datos que se transmiten repetidamente.
 
-Para hacer este intercambio más eficiente, se puede duplicar el tamaño de los datos comprimidos, lo que significa que el servidor solo tiene que hacer el 50% del esfuerzo para intercambiar la misma cantidad de datos con los jugadores. Para ello, hay que ajustar el valor "network-compression-threshold" en la configuración "server.properties". El valor recomendado es 512. También tenemos una entrada en nuestra documentación sobre esto, que puedes ver [aquí](minecraft-default-config.md#network-compression-threshold).
+Para hacer este intercambio más eficiente, se puede duplicar el tamaño de los datos comprimidos, lo que significa que el servidor solo tiene que hacer el 50% del esfuerzo para intercambiar la misma cantidad de datos con los jugadores. Para ello, hay que ajustar el valor "network-compression-threshold" en la configuración "server.properties". El valor recomendado es 512. También tenemos una entrada en nuestra documentación sobre esto, que puedes ver [aquí](minecraft-default-config.md).
 
 ### Límites de spawn
 

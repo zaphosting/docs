@@ -181,7 +181,7 @@ Al igual que hacer backup, subir tu mundo guardado es sencillo. Primero, asegúr
 :::info Mundos Vanilla & Plataformas de Servidor
 Recuerda que los servidores vanilla y las plataformas de servidor guardan los mundos en formatos ligeramente diferentes.
 
-Si estás moviendo un guardado de vanilla a una plataforma como PaperMC, o viceversa, revisa la sección de [conversión de mundos](#converting-worlds) de esta guía.
+Si estás moviendo un guardado de vanilla a una plataforma como PaperMC, o viceversa, revisa la sección de conversión de mundos de esta guía.
 :::
 
 Simplemente arrastra y suelta cualquiera de tus mundos guardados en la carpeta raíz a través de tu cliente FTP y se subirá al servidor.

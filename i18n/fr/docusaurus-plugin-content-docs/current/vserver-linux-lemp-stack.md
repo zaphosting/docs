@@ -142,7 +142,7 @@ Avec toutes les dépendances LEMP installées, créons un site test pour montrer
 
 Dans cet exemple, on crée un petit site de liste de tâches en PHP qui récupère et affiche les tâches stockées dans une base MySQL. Le site sera servi via Nginx.
 
-On utilisera un domaine test `zapdocs.example.com` tout au long du guide, car dans la vraie vie vous utiliserez sûrement un domaine. Vous **devez** configurer un enregistrement DNS de type `A` pour ce domaine pointant vers l’adresse IP de votre serveur. Si besoin, consultez notre guide [Enregistrements de domaine](domain-records.md#a-records).
+On utilisera un domaine test `zapdocs.example.com` tout au long du guide, car dans la vraie vie vous utiliserez sûrement un domaine. Vous **devez** configurer un enregistrement DNS de type `A` pour ce domaine pointant vers l’adresse IP de votre serveur. Si besoin, consultez notre guide [Enregistrements de domaine](domain-records.md).
 
 :::note
 Vous pouvez choisir de ne pas utiliser de domaine et remplacer `[your_domain]` par un nom simple. Vous accèderez alors au site via l’adresse IP. Mais dans ce cas, pensez à retirer la ligne `server_name` dans le fichier de configuration du serveur.
@@ -356,7 +356,7 @@ Vous devriez pouvoir accéder au site via le domaine (en HTTP/port 80) que vous 
 
 ## Conclusion
 
-Félicitations, vous avez installé et configuré la stack LEMP avec succès ! La prochaine étape, on vous **recommande vivement** de configurer un domaine et un **certificat SSL** pour sécuriser les échanges avec vos sites. Consultez notre [guide Certbot](vserver-linux-certbot.md#webroot-plugin) en vous concentrant sur le **plugin Nginx** et suivez l’installation interactive pour configurer rapidement un certificat pour votre domaine.
+Félicitations, vous avez installé et configuré la stack LEMP avec succès ! La prochaine étape, on vous **recommande vivement** de configurer un domaine et un **certificat SSL** pour sécuriser les échanges avec vos sites. Consultez notre [guide Certbot](vserver-linux-certbot.md) en vous concentrant sur le **plugin Nginx** et suivez l’installation interactive pour configurer rapidement un certificat pour votre domaine.
 
 Pour toute question ou aide, n’hésitez pas à contacter notre support, disponible tous les jours pour vous aider ! 🙂
 

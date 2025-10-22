@@ -70,7 +70,7 @@ Quando terminar, basta clicar em `Finish` na última página e começar a usar o
 
 ### Atualizando o Node.js para a versão mais recente
 
-Rodar `node -v` mostrará a versão instalada do Node.js. De vez em quando, você deve conferir se está usando a versão LTS mais atual. Para atualizar o Node.js, siga novamente a seção [Instalando Node.js Runtime](dedicated-windows-javascript.md#installing-nodejs-runtime) deste guia.
+Rodar `node -v` mostrará a versão instalada do Node.js. De vez em quando, você deve conferir se está usando a versão LTS mais atual. Para atualizar o Node.js, siga novamente a seção [Instalando Node.js Runtime](dedicated-windows-javascript.md) deste guia.
 
 ### Rodando Node.js & npm
 

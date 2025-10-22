@@ -70,7 +70,7 @@ import TabItem from '@theme/TabItem';
 
 ### อัปเดต Node.js เป็นเวอร์ชันล่าสุด
 
-พิมพ์คำสั่ง `node -v` เพื่อดูเวอร์ชัน Node.js ที่ติดตั้งไว้ ควรตรวจสอบเป็นระยะว่าคุณใช้เวอร์ชัน LTS ล่าสุดหรือไม่ หากต้องการอัปเดต ให้ทำตามขั้นตอนในส่วน [Install JavaScript](dedicated-windows-javascript.md#installing-nodejs-runtime) อีกครั้ง
+พิมพ์คำสั่ง `node -v` เพื่อดูเวอร์ชัน Node.js ที่ติดตั้งไว้ ควรตรวจสอบเป็นระยะว่าคุณใช้เวอร์ชัน LTS ล่าสุดหรือไม่ หากต้องการอัปเดต ให้ทำตามขั้นตอนในส่วน [Install JavaScript](dedicated-windows-javascript.md) อีกครั้ง
 
 ### การใช้งาน Node.js & npm
 

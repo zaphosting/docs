@@ -233,7 +233,7 @@ chown -R www-data:www-data /var/www/html/wordpress/wp-content/uploads/
 
 ## まとめ
 
-おめでとうございます！WordPressのインストールと設定が無事完了しました。次のステップとして、**ドメイン**と**SSL証明書**の設定を強くおすすめします。これによりデータ通信が安全になり、WordPressパネルへのアクセスも簡単になります。ぜひ[Certbotガイド](vserver-linux-certbot.md#webroot-plugin)の**Apacheプラグイン**を参考に、対話形式で証明書をサクッと設定しましょう。
+おめでとうございます！WordPressのインストールと設定が無事完了しました。次のステップとして、**ドメイン**と**SSL証明書**の設定を強くおすすめします。これによりデータ通信が安全になり、WordPressパネルへのアクセスも簡単になります。ぜひ[Certbotガイド](vserver-linux-certbot.md)の**Apacheプラグイン**を参考に、対話形式で証明書をサクッと設定しましょう。
 
 さらにWordPressの拡張やカスタマイズには、[WordPressプラグイン](webspace-wordpress-plugins.md)や人気のページビルダーElementorを紹介する[WordPress Elementor](webspace-wordpress-elementor.md)ガイドもおすすめです。
 

@@ -46,7 +46,7 @@ Para instalar um novo jogo no seu servidor de jogos, selecione o menu suspenso *
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/iN7rNje3zaBPMgf/preview)
 
-Nesta seção, você também encontra o menu suspenso **Mais Jogos**. Na nossa ampla seleção, alguns jogos podem ter preços de slot diferentes, o que pode significar que você não consegue instalar o jogo selecionado sem custo extra. Para resolver isso, você terá que pagar uma taxa adicional para aumentar o preço do slot. Veja a seção [Alterar Preço do Slot](#change-slot-price) do guia para mais detalhes.
+Nesta seção, você também encontra o menu suspenso **Mais Jogos**. Na nossa ampla seleção, alguns jogos podem ter preços de slot diferentes, o que pode significar que você não consegue instalar o jogo selecionado sem custo extra. Para resolver isso, você terá que pagar uma taxa adicional para aumentar o preço do slot. Veja a seção Alterar Preço do Slot do guia para mais detalhes.
 
 :::info Contagem Mínima de Slots
 Alguns jogos da nossa coleção exigem uma quantidade mínima específica de slots para serem instalados no seu servidor de jogos. Nesses casos, passe o mouse sobre o ícone de aviso para saber mais. Use a função de upgrade/downgrade para ajustar seu servidor conforme a informação.

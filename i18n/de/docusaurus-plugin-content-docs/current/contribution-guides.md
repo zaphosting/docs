@@ -167,7 +167,7 @@ Nach deinen Änderungen klicke auf **Commit changes...**. Es öffnet sich ein Fe
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/2iQCZzzAHsHS2rt/preview)
 
-Gib eine aussagekräftige Commit-Nachricht ein und optional eine ausführliche Beschreibung. Dann committe die Änderungen. Sie landen in deinem Fork. Anschließend kannst du zum Abschnitt **[Inhalte einreichen](#step-3-submitting-content)** gehen, um einen Pull Request zu erstellen und deine Änderungen ins Haupt-Repository einzureichen.
+Gib eine aussagekräftige Commit-Nachricht ein und optional eine ausführliche Beschreibung. Dann committe die Änderungen. Sie landen in deinem Fork. Anschließend kannst du zum Abschnitt **Inhalte einreichen** gehen, um einen Pull Request zu erstellen und deine Änderungen ins Haupt-Repository einzureichen.
 
 </TabItem>
 
@@ -259,10 +259,10 @@ Wenn du fertig bist, pushe deinen Commit zu deinem Fork und erstelle einen Pull 
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/tFdrLknnXn62sZc/preview)
 
-Danach kannst du zum Abschnitt **[Inhalte einreichen](#step-3-submitting-content)** gehen, um den Pull Request zu erstellen.
+Danach kannst du zum Abschnitt **Inhalte einreichen** gehen, um den Pull Request zu erstellen.
 
 :::tip
-Wir empfehlen auch den optionalen Abschnitt **[Build lokal testen](#optional-testing-build-locally)** zu lesen. So kannst du Änderungen live testen und deinen Workflow optimieren. Ist aber kein Muss.
+Wir empfehlen auch den optionalen Abschnitt **Build lokal testen** zu lesen. So kannst du Änderungen live testen und deinen Workflow optimieren. Ist aber kein Muss.
 :::
 
 </TabItem>

@@ -93,12 +93,12 @@ D’abord, vérifiez vos fichiers de sauvegarde via votre client FTP en allant i
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/wYQ42Aein5y6Z6j/preview)
 
-Vous devriez voir l’ancienne sauvegarde et une nouvelle qui a été générée. Pour régler ça, modifiez le fichier de config comme expliqué dans la section [Activer une sauvegarde](#activer-une-sauvegarde) en mettant le bon nom de dossier.
+Vous devriez voir l’ancienne sauvegarde et une nouvelle qui a été générée. Pour régler ça, modifiez le fichier de config comme expliqué dans la section Activer une sauvegarde en mettant le bon nom de dossier.
 
 La sauvegarde devrait être de nouveau active après avoir sauvegardé et redémarré le serveur.
 
 :::info
-On recommande vivement d’activer les sauvegardes automatiques comme expliqué dans la section [Sauvegarde automatique](#sauvegarde-automatique), car Palworld est encore en Early Access et il est possible que des sauvegardes soient perdues ou corrompues lors des mises à jour.
+On recommande vivement d’activer les sauvegardes automatiques comme expliqué dans la section Sauvegarde automatique, car Palworld est encore en Early Access et il est possible que des sauvegardes soient perdues ou corrompues lors des mises à jour.
 :::
 
 <InlineVoucher />

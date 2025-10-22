@@ -61,7 +61,7 @@ sidebar_label: عملية التدوين
 حاليًا، نقبل المحتوى باستخدام خيارات التنسيق **Markdown** و **HTML5**.
 
 :::tip
-ننصح بشدة باستخدام أداة Markdown مثل **[StackEdit](https://stackedit.io/app#)** لكتابة المحتوى مع الحفاظ على كل ميزات Markdown الرائعة. بدلاً من ذلك، يمكننا أيضًا التوصية بـ **[HTML5 Editor](https://html5-editor.net/)** إذا كنت تفضل التنسيق باستخدام HTML5. يمكنك تصدير الملف مباشرة إلى Google Drive أو أي تطبيق مشاركة ملفات والحصول على رابط لمشاركته معنا. يمكنك معرفة المزيد عن تنسيق Markdown عبر دليل المدونة [الإرشادات](contribution-blogs-guidelines.md#formatting).
+ننصح بشدة باستخدام أداة Markdown مثل **[StackEdit](https://stackedit.io/app#)** لكتابة المحتوى مع الحفاظ على كل ميزات Markdown الرائعة. بدلاً من ذلك، يمكننا أيضًا التوصية بـ **[HTML5 Editor](https://html5-editor.net/)** إذا كنت تفضل التنسيق باستخدام HTML5. يمكنك تصدير الملف مباشرة إلى Google Drive أو أي تطبيق مشاركة ملفات والحصول على رابط لمشاركته معنا. يمكنك معرفة المزيد عن تنسيق Markdown عبر دليل المدونة [الإرشادات](contribution-blogs-guidelines.md).
 :::
 
 :::note

@@ -25,13 +25,13 @@ Opcje optymalizacji vanilla serwera są niestety bardzo ograniczone, ponieważ d
 
 Często stosowanym rozwiązaniem jest zmniejszenie zasięgu widzenia. Standardowy zasięg widzenia to 10 chunków, ale wielu graczy gra z dużo mniejszym, np. 6-8. Niektórzy przesadzają z ilością chunków i czasem ustawiają to na 32, co oznacza, że serwer musi ładować i przetwarzać wszystkie te chunki, co kosztuje dużo wydajności.
 
-W vanilla serwerze zasięg widzenia można zmienić w pliku konfiguracyjnym "server.properties", modyfikując wartość "view-distance". Aby nie ograniczać zbytnio rozgrywki, zaleca się ustawienie wartości na 5-6, co odciąża serwer nawet o 50%. Mamy już wpis w naszej dokumentacji na ten temat, który znajdziesz [tutaj](minecraft-default-config.md#view-distance).
+W vanilla serwerze zasięg widzenia można zmienić w pliku konfiguracyjnym "server.properties", modyfikując wartość "view-distance". Aby nie ograniczać zbytnio rozgrywki, zaleca się ustawienie wartości na 5-6, co odciąża serwer nawet o 50%. Mamy już wpis w naszej dokumentacji na ten temat, który znajdziesz [tutaj](minecraft-default-config.md).
 
 ### Kompresja danych
 
 Na serwerze odbywa się stała wymiana danych między serwerem a podłączonymi graczami. Ruchy graczy są przesyłane do serwera, który następnie rozsyła je do pozostałych graczy. Również akcje graczy czy zdarzenia w świecie, np. eksplozje, są częścią danych przesyłanych wielokrotnie.
 
-Aby usprawnić tę wymianę, można podwoić rozmiar pakowanych danych, co oznacza, że serwer musi wykonać tylko 50% wysiłku, aby wymienić te same dane z graczami w porównaniu do stanu poprzedniego. W tym celu należy zmienić wartość "network-compression-threshold" w pliku "server.properties" na 512. Mamy też wpis w dokumentacji, który znajdziesz [tutaj](minecraft-default-config.md#network-compression-threshold).
+Aby usprawnić tę wymianę, można podwoić rozmiar pakowanych danych, co oznacza, że serwer musi wykonać tylko 50% wysiłku, aby wymienić te same dane z graczami w porównaniu do stanu poprzedniego. W tym celu należy zmienić wartość "network-compression-threshold" w pliku "server.properties" na 512. Mamy też wpis w dokumentacji, który znajdziesz [tutaj](minecraft-default-config.md).
 
 ## Forge
 
@@ -72,13 +72,13 @@ Mod można zostawić na serwerze po zakończeniu procesu. Będzie dalej optymali
 
 Często stosowaną metodą jest zmniejszenie zasięgu widzenia. Standardowy zasięg to 10 chunków, ale wielu graczy gra z mniejszym, np. 6-8. Niektórzy przesadzają i ustawiają nawet 32 chunki, co mocno obciąża serwer.
 
-Widoczność na serwerze Forge można zmienić w pliku "server.properties", modyfikując wartość "view-distance". Zalecamy ustawienie na 5-6, co odciąża serwer nawet o 50%. Mamy wpis w dokumentacji [tutaj](minecraft-default-config.md#view-distance).
+Widoczność na serwerze Forge można zmienić w pliku "server.properties", modyfikując wartość "view-distance". Zalecamy ustawienie na 5-6, co odciąża serwer nawet o 50%. Mamy wpis w dokumentacji [tutaj](minecraft-default-config.md).
 
 ### Kompresja danych
 
 Na serwerze odbywa się ciągła wymiana danych między serwerem a graczami. Ruchy graczy i zdarzenia w świecie są przesyłane wielokrotnie.
 
-Aby usprawnić wymianę, można podwoić rozmiar pakowanych danych, zmieniając "network-compression-threshold" w "server.properties" na 512. Mamy wpis w dokumentacji [tutaj](minecraft-default-config.md#network-compression-threshold).
+Aby usprawnić wymianę, można podwoić rozmiar pakowanych danych, zmieniając "network-compression-threshold" w "server.properties" na 512. Mamy wpis w dokumentacji [tutaj](minecraft-default-config.md).
 
 ## Bukkit
 
@@ -86,13 +86,13 @@ Aby usprawnić wymianę, można podwoić rozmiar pakowanych danych, zmieniając 
 
 Często zmniejsza się zasięg widzenia z domyślnych 10 chunków do 6-8, aby odciążyć serwer. Niektórzy przesadzają i ustawiają nawet 32 chunki, co mocno obciąża serwer.
 
-Widoczność na serwerze Bukkit zmienia się w "server.properties", modyfikując "view-distance". Zalecamy 5-6 dla odciążenia serwera do 50%. Mamy wpis w dokumentacji [tutaj](minecraft-default-config.md#view-distance).
+Widoczność na serwerze Bukkit zmienia się w "server.properties", modyfikując "view-distance". Zalecamy 5-6 dla odciążenia serwera do 50%. Mamy wpis w dokumentacji [tutaj](minecraft-default-config.md).
 
 ### Kompresja danych
 
 Stała wymiana danych między serwerem a graczami, ruchy i zdarzenia są przesyłane wielokrotnie.
 
-Podwajając rozmiar pakowanych danych (ustawiając "network-compression-threshold" na 512 w "server.properties") zmniejszamy obciążenie serwera o połowę. Mamy wpis w dokumentacji [tutaj](minecraft-default-config.md#network-compression-threshold).
+Podwajając rozmiar pakowanych danych (ustawiając "network-compression-threshold" na 512 w "server.properties") zmniejszamy obciążenie serwera o połowę. Mamy wpis w dokumentacji [tutaj](minecraft-default-config.md).
 
 ### Limity spawnów
 
@@ -137,7 +137,7 @@ Możesz też ustawić 4, co pomaga na serwerach farm na wersji 1.13+.
 
 ### Kompresja danych
 
-Podwój rozmiar pakowanych danych w "server.properties" ("network-compression-threshold" na 512), co zmniejsza obciążenie serwera o połowę. Mamy wpis w dokumentacji [tutaj](minecraft-default-config.md#network-compression-threshold).
+Podwój rozmiar pakowanych danych w "server.properties" ("network-compression-threshold" na 512), co zmniejsza obciążenie serwera o połowę. Mamy wpis w dokumentacji [tutaj](minecraft-default-config.md).
 
 ### Limity spawnów
 
@@ -210,7 +210,7 @@ Możesz też ustawić 4, co pomaga na serwerach farm na wersji 1.13+.
 
 ### Kompresja danych
 
-W "server.properties" ustaw "network-compression-threshold" na 512. Mamy wpis w dokumentacji [tutaj](minecraft-default-config.md#network-compression-threshold).
+W "server.properties" ustaw "network-compression-threshold" na 512. Mamy wpis w dokumentacji [tutaj](minecraft-default-config.md).
 
 ### Limity spawnów
 

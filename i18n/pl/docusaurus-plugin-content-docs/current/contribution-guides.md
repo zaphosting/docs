@@ -167,7 +167,7 @@ Po wprowadzeniu zmian kliknij **Commit changes...**, co wywoła okno dialogowe.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/2iQCZzzAHsHS2rt/preview)
 
-Wpisz sensowny komunikat commit opisujący zmiany i, jeśli trzeba, rozszerzony opis. Potwierdź commit. Zmiany zostaną zapisane w Twoim forku. Teraz możesz przejść do sekcji **[Submitting Content](#step-3-submitting-content)**, aby utworzyć Pull Request i przesłać treść do głównego repozytorium ZAP-Docs.
+Wpisz sensowny komunikat commit opisujący zmiany i, jeśli trzeba, rozszerzony opis. Potwierdź commit. Zmiany zostaną zapisane w Twoim forku. Teraz możesz przejść do sekcji **Submitting Content**, aby utworzyć Pull Request i przesłać treść do głównego repozytorium ZAP-Docs.
 
 </TabItem>
 
@@ -259,10 +259,10 @@ Po zakończeniu zmian wypchnij commit do swojego forka i utwórz Pull Request. M
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/tFdrLknnXn62sZc/preview)
 
-Teraz możesz przejść do sekcji **[Submitting Content](#step-3-submitting-content)**, aby utworzyć Pull Request i przesłać treść do głównego repozytorium ZAP-Docs.
+Teraz możesz przejść do sekcji **Submitting Content**, aby utworzyć Pull Request i przesłać treść do głównego repozytorium ZAP-Docs.
 
 :::tip
-Polecamy też przeczytać opcjonalną sekcję **[Testowanie lokalnej wersji](#optional-testing-build-locally)**, którą możesz połączyć z lokalnym testowaniem, tworząc optymalny workflow z podglądem zmian na żywo. Nie jest to jednak konieczne.
+Polecamy też przeczytać opcjonalną sekcję **Testowanie lokalnej wersji**, którą możesz połączyć z lokalnym testowaniem, tworząc optymalny workflow z podglądem zmian na żywo. Nie jest to jednak konieczne.
 :::
 
 </TabItem>

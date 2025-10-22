@@ -30,7 +30,7 @@ Ten znak służy tylko do rozróżnienia zwykłej wiadomości na czacie od komen
 
 ### Uprawnienia / Prawa
 
-Aby móc korzystać z komend, potrzebne są odpowiednie uprawnienia. W Minecraft-Vanilla lub Forge nie ma prawdziwego systemu uprawnień, który mógłby być używany przez pluginy jak w Spigot. Tutaj można używać tylko systemu poziomów OP. Tutorial o systemie uprawnień OP znajdziesz tutaj: [OP Permissions](minecraft-addop.md#rights-level)
+Aby móc korzystać z komend, potrzebne są odpowiednie uprawnienia. W Minecraft-Vanilla lub Forge nie ma prawdziwego systemu uprawnień, który mógłby być używany przez pluginy jak w Spigot. Tutaj można używać tylko systemu poziomów OP. Tutorial o systemie uprawnień OP znajdziesz tutaj: [OP Permissions](minecraft-addop.md)
 
 Jeśli zainstalowano system uprawnień i chcesz przypisać prawa do konkretnych komend Minecraft, odpowiednie uprawnienia można przypisać zgodnie z opisem poniżej.
 
