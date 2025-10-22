@@ -1,7 +1,7 @@
 ---
 id: source-gsltoken
-title: Source Spiele Gameserver Login Token verwenden
-description: Informationen, wie du ein Login Token für deinen Source Gameserver von ZAP-Hosting.com erstellen und verwenden kannst - ZAP-Hosting.com Dokumentation
+title: Verwendung von Gameserver-Login-Tokens
+description: "Entdecke, wie GSL-Tokens Steam-Gameserver absichern, indem Banns an Accounts gekoppelt werden – für sichereres und regelkonformes Server mieten → Jetzt mehr erfahren"
 sidebar_label: GSL-Token
 services:
   - gameserver
@@ -9,35 +9,27 @@ services:
 
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
-## Was ist ein GSL Token?
+## ❓ Was ist ein GSL-Token?
 
-Gameserver Login Tokens (GSLTs) ist ein Verfahren, welches Steam als Schutzmaßnahme implementiert hat. Um Gameserver von gewissen Steam Games (hauptsächlich Source-Games) zu betreiben ist es zwingend notwendig einen Token zu generieren. 
+Gameserver Login Tokens (GSLTs) sind ein Verfahren, das Steam als Sicherheitsmaßnahme eingeführt hat. Um Gameserver bestimmter Steam-Games (hauptsächlich Source-Games) zu betreiben, muss ein Token generiert werden.
 
 <InlineVoucher />
 
-## Was ist der Sinn eines GSL Token?
+## ❓ Wozu dient ein GSL-Token?
 
-In der Vergangenheit gab es seitens Valve einige Regeländerungen für das Betreiben eines Gameservers. An diese haben sich nicht alle Betreiber eines Gameserver gehalten. Als Folge wurden dann die IP-Adressen der Gameserver gesperrt, welche sich nicht an die Richtlinien gehalten haben. 
+Früher hat Valve einige Regeländerungen für das Server mieten von Gameservern eingeführt. Nicht alle Betreiber haben sich daran gehalten. Als Folge wurden die IP-Adressen der Gameserver gebannt.
 
+Diese Methode war aber nicht effektiv, da sie leicht mit einer neuen IP-Adresse umgangen werden konnte und zudem ein großes Problem für Gameserver-Anbieter darstellte. Denn durch das Sperren der IP-Adresse waren oft auch andere Kunden betroffen.
 
+Deshalb wurde dieses System eingeführt, das stattdessen das Token bannt und den verknüpften Steam-Account für den weiteren Betrieb von Gameservern blockiert.
 
-Allerdings war diese Methode nicht effektiv, da diese erstens mit einer neuen IP-Adresse leicht umgangen werden konnte und auch für Gameserver Anbieter auch ein großes Problem war. Denn durch die Sperrung der IP-Adresse sind oftmals dann auch andere Kunden betroffen gewesen. 
+## ➕ Token erstellen
 
-Deshalb wurde das Verfahren eingebunden, welches stattdessen nun die Tokens und den dazu verlinkten Steam Account für das weitere Betreiben von Gameserver sperrt. 
+Um ein Gameserver-Login-Token zu erstellen, musst du auf der Steam-Webseite eingeloggt sein. Das Token kannst du hier erstellen: [Steam Game Server Account Management](https://steamcommunity.com/dev/managegameservers)
 
+![](https://screensaver01.zap-hosting.com/index.php/s/an5ySHwzSZmEwep/preview)
 
-
-## Token erstellen
-
-Um einen Gameserver Login Token zu erstellen, muss man auf der Steam Webseite eingeloggt sein. Der Token kann unter hier erstellt werden: [Steam Game Server Account Management](https://steamcommunity.com/dev/managegameservers)
-
-
-
-![](https://screensaver01.zap-hosting.com/index.php/s/AaZTGE87EyX82jF/preview)
-
-
-
-Dort angelangt, wird nach der App ID und einer Memo (beliebiger Name zur Übersicht) verlangt. Die App ID ist vom Spiel abhängig. Im Folgenden findest du wichtigsten App IDs:
+Dort wirst du nach der App ID und einem Memo (beliebiger Name als Notiz) gefragt. Die App ID hängt vom Spiel ab. Hier findest du die wichtigsten App IDs:
 
 |              Spiel               | App ID |
 | :------------------------------: | :----: |
@@ -46,42 +38,28 @@ Dort angelangt, wird nach der App ID und einer Memo (beliebiger Name zur Übersi
 |         Team Fortress 2          |  440   |
 |            Garrys Mod            |  4000  |
 
+Das GSL-Token kannst du dann im Control Panel unter den Einstellungen definieren.
 
+![](https://screensaver01.zap-hosting.com/index.php/s/jqkbkXG2YQLatw2/preview)
 
-Unter den Einstellungen deines Gameservers kann in den Basiseinstellungen der GSL-Token eingetragen werden.
+Sobald das erledigt ist und der Server neu gestartet wurde, erscheint der Server auch in der öffentlichen Serverliste.
 
+## ⁉ Häufig gestellte Fragen
 
+**Was sind die Voraussetzungen für ein GSL-Token?**
 
-![](https://screensaver01.zap-hosting.com/index.php/s/yptTNfEWEEqry2T/preview)
+Der Steam-Account darf keine Einschränkungen wie einen Community-Bann haben. Außerdem muss eine gültige Telefonnummer im Steam-Account hinterlegt sein.
 
+**Kann ich ein GSL-Token für mehrere Server nutzen?**
 
+Für jeden Gameserver wird ein individuelles Token benötigt.
 
-Wenn dieser Schritt abgeschlossen ist und im Anschluss der Server neu gestartet wurde, dann wird der Server daraufhin auch in der öffentlichen Server-Liste angezeigt. 
+**Gibt es etwas, das dazu führen kann, dass mein GSL-Token gebannt wird?**
 
-
-
-## Häufig gestellte Fragen
-
-**Was sind die Voraussetzungen für einen GSL-Token?**
-
-Der Steam Account darf keine Einschränkung wie einen Community Ban vorweisen. Zudem muss beim Steam Account eine gültige Telefonnummer hinterlegt sein.
-
-
-
-**Kann ich einen GSL-Token für mehrere Server verwenden? **
-
-Für jeden einzelnen Gameserver wird ein individueller Token benötigt.
-
-
-
-**Wegen was kann mein GSL-Token gebannt werden?**
-
-Gerade bei CS:GO Gameserver gibt es einige Plugins, welche seitens Valve nicht benutzt werden dürfen. Eine offizielle Liste wurde nicht veröffentlicht. Allerdings gehören dazu Plugins, welche Spieler Inventare (Waffenskins), Ranks oder ähnliches verändern. 
-
-
+Vor allem bei CS:GO-Gameservern gibt es Plugins, die nicht erlaubt sind. Eine offizielle Liste wurde nicht veröffentlicht. Dazu gehören aber Plugins, die Spielerinventare (Waffenskins), Ränge oder Ähnliches verändern.
 
 **Was passiert, wenn mein GSL-Token gebannt wird?**
 
-Wenn ein Token gesperrt wird, dann wird infolgedessen auch der Account und alle dazugehörigen Tokens gesperrt. Dadurch ist der Gameserver nicht mehr öffentlich zugänglich. Für die Zukunft kann der Account dann auch für keine weiteren Gameserver mehr verwendet werden. Der Steam Account kann zum Spielen dennoch weiterbenutzt werden. Diesbezüglich sind keine weiteren Bestrafungen zu erwarten.
+Wenn ein Token gebannt wird, sind auch der Account und alle zugehörigen Tokens gebannt. Das bedeutet, der Gameserver ist nicht mehr öffentlich erreichbar. Außerdem kann der Account nicht mehr für den Betrieb weiterer Gameserver genutzt werden. Der Steam-Account kann aber weiterhin zum Spielen verwendet werden. Weitere Strafen sind in diesem Zusammenhang nicht zu erwarten.
 
 <InlineVoucher />

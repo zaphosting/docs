@@ -1,8 +1,8 @@
 ---
 id: vserver-linux-databases
-title: "vServer: Installation von Datenbanken"
-description: Information, wie du Datenbanken auf deinem vServer von ZAP-Hosting installierst - ZAP-Hosting.com Dokumentation
-sidebar_label: Datenbank installieren
+title: "VPS: Installation von Datenbanken"
+description: "Entdecke, wie du verschiedene Datenbanken auf Linux installierst und einrichtest für bessere Performance und Sicherheit → Jetzt mehr erfahren"
+sidebar_label: Datenbanken installieren
 services:
   - vserver
 ---
@@ -11,13 +11,13 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
 
-Diese Anleitung beinhaltet Schritte für die Installation verschiedener Arten von Datenbanken. In diesem Beispiel wird Ubuntu 20.04 als Betriebssystem verwendet, es werden jedoch auch entsprechende Befehle für andere Linux-Distributionen angegeben, die wir auf unserer Website bereitstellen. Diese Befehle müssen über SSH ausgeführt werden. Wenn du nicht weißt, wie du dich über SSH mit deinem Server verbinden kannst, schaue bitte hier nach: [Erstzugriff (SSH)](vserver-linux-ssh.md).
+Diese Anleitung zeigt dir, wie du verschiedene Arten von Datenbanken installierst. Als Beispiel wird Ubuntu 20.04 als Betriebssystem verwendet, aber die entsprechenden Befehle für andere Linux-Distributionen, die wir auf unserer Website anbieten, sind ebenfalls angegeben. Diese Befehle müssen per SSH ausgeführt werden. Falls du nicht weißt, wie du dich per SSH mit deinem Server verbindest, schau dir hier unsere Anleitung an: [Erstzugang (SSH)](vserver-linux-ssh.md).
 
 <InlineVoucher />
 
 ## Vorbereitung
 
-Bevor du mit der Installation einer Datenbank beginnst, musst du zunächst sicherstellen, dass das System auf dem neuesten Stand ist. Dazu musst du, je nach Betriebssystem, die Pakete aus der Paketverwaltung deines Systems mit dem folgenden Befehl aktualisieren:
+Bevor du mit der Installation einer Datenbank startest, solltest du sicherstellen, dass dein System auf dem neuesten Stand ist. Dafür musst du die Pakete deines Paketmanagers mit folgendem Befehl aktualisieren, je nach Betriebssystem:
 
 ```
 // Ubuntu & Debian
@@ -33,9 +33,9 @@ sudo zypper up
 sudo dnf upgrade --refresh
 ```
 
-## Datenbankarten
-  
-Je nachdem, welchen Datenbankdienst du installieren möchtest, folge der entsprechenden Anleitung:
+## Datenbanktypen
+
+Je nachdem, welchen Datenbankdienst du installieren möchtest, folge der passenden Anleitung:
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
@@ -45,23 +45,23 @@ import TabItem from '@theme/TabItem';
 
 ## Was ist MariaDB?
 
-MariaDB ist ein quelloffenes relationales Datenbankmanagementsystem, das ursprünglich von MySQL abgeleitet wurde. Es gewährleistet verbesserte Leistung, Sicherheit und kontinuierliche Weiterentwicklung. MariaDB bietet verbesserte Speicher-Engines und seine Architektur ist vollständig kompatibel mit MySQL. Wir empfehlen MariaDB gegenüber MySQL.
+MariaDB ist ein Open-Source relationales Datenbankmanagementsystem, ursprünglich ein Fork von MySQL. Es bietet verbesserte Performance, Sicherheit und eine kontinuierliche Weiterentwicklung. Besonders hervorzuheben sind die verbesserten Storage Engines und die volle Kompatibilität zu MySQL. Wir empfehlen MariaDB gegenüber MySQL.
 
 ## MariaDB Installation
 
-Zuallererst musst du sicherstellen, dass die neueste MariaDB-Version installiert ist. Einige alte Betriebssysteme wie Debian 9 oder Ubuntu 18.04 enthalten standardmäßig nicht die neueste MariaDB-Version im Paketmanager. Durch die Ausführung des folgenden Befehls stellst du sicher, dass die neueste Version abgerufen wird.
+Zuerst solltest du sicherstellen, dass die neueste MariaDB-Version installiert wird. Einige ältere Betriebssysteme wie Debian 9 oder Ubuntu 18.04 haben standardmäßig nicht die aktuellste MariaDB-Version im Paketmanager. Mit folgendem Befehl stellst du sicher, dass die neueste Version verwendet wird:
 
 ```
 curl -sS https://downloads.mariadb.com/MariaDB/mariadb_repo_setup | sudo bash
 ```
 
-Nach der Installation des Repos aktualisierst du den Cache deines Paketmanagers, indem du die im Abschnitt [Vorbereitungsschritt](#vorbereitung) beschriebenen Schritte ausführst.
+Nach der Installation des Repos aktualisiere den Paketmanager-Cache, indem du die Schritte aus dem Abschnitt [Vorbereitung](#vorbereitung) ausführst.
 
 :::info
-Die Installation der MariaDB-Repos (Schritt oben) kann bei modernen Betriebssystemen wie Ubuntu 22.04 oder Debian 11 getrost ignoriert werden.
+Die Installation des MariaDB-Repos (oben) kannst du bei modernen Betriebssystemen wie Ubuntu 22.04 oder Debian 11 getrost überspringen.
 :::
 
-Nachdem das Repo-Setup abgeschlossen ist, kann nun die Installation von MariaDB durch die Installation des Pakets `mariadb-server` beginnen. Je nach Betriebssystem müssen dazu die folgenden Befehle ausgeführt werden:
+Sobald das Repo eingerichtet ist, kannst du MariaDB installieren, indem du das Paket `mariadb-server` installierst. Je nach Betriebssystem führe einen der folgenden Befehle aus:
 
 ```
 // Ubuntu & Debian
@@ -79,79 +79,79 @@ sudo dnf install mariadb-server
 
 ## MariaDB Konfiguration
 
-Sobald die Installation abgeschlossen ist, gibst du den folgenden Befehl ein, um die Konfiguration des Servers zu starten: 
+Nach der Installation startest du die Konfiguration des Servers mit folgendem Befehl:
 
 ```
 mysql_secure_installation
 ```
 
-Nun kannst du deinen MariaDB (MySQL)-Server konfigurieren, indem du den Eingabeaufforderungen folgst und ein Passwort für deinen Server festlegen. Bei der folgenden Aufforderung können Sie die Eingabe vorerst überspringen, indem Sie **Enter** drücken.
+Jetzt kannst du deinen MariaDB (MySQL) Server konfigurieren, indem du den Anweisungen folgst und ein Passwort für deinen Server festlegst. Bei der nächsten Eingabe kannst du vorerst mit **Enter** überspringen.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/oEjbWX9nK3d7F6q/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/S8mibcHmaAcetqJ/preview)
 
 :::info
-Der Benutzer root ist der Hauptbenutzer deines MariaDB (MySQL) Servers!
+Der Benutzer root ist der Hauptnutzer deines MariaDB (MySQL) Servers!
 :::
 
-Als Nächstes wirst du gefragt, ob du ein Passwort für den Root-Benutzer festlegen willst, bestätige dies mit **y** für ja. Anschließend musst du das neue Passwort für den Benutzer root eintippen.
+Als Nächstes wirst du gefragt, ob du ein Passwort für den root-Benutzer setzen möchtest. Bestätige das mit **y** für ja. Danach gibst du das neue Passwort für den root-Benutzer ein.
 
 :::note
-Während du das Passwort eingibst, kannst du es nicht sehen. Dieses Verhalten ist jedoch normal und dein Passwort wird trotzdem gespeichert. Stellen sicher, dass du ein sicheres Passwort für deinen Root-Benutzer verwendest und es an einem sicheren Ort aufbewahrst. 
+Während der Passworteingabe wird nichts angezeigt. Das ist normal und dein Passwort wird trotzdem gespeichert. Verwende ein sicheres Passwort für den root-Benutzer und bewahre es gut auf.
 :::
 
-Nun wirst du gefragt, ob du anonyme Benutzer von deinem Server entfernen willst, was du aus Sicherheitsgründen auf jeden Fall tun solltest. Bestätige dies mit einem **y** für ja:
+Jetzt wirst du gefragt, ob anonyme Benutzer vom Server entfernt werden sollen. Aus Sicherheitsgründen solltest du das auf jeden Fall mit **y** bestätigen:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/7QYmtxN2PSAfaqc/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/7q2kGxDXTfWg36m/preview)
 
-In der folgenden Eingabeaufforderung legst du fest, ob sich der Benutzer root von außen mit dem Server verbinden darf. Aus Sicherheitsgründen solltest du auch diese Option deaktivieren und dies daher mit **y** bestätigen:
+Im nächsten Schritt legst du fest, ob sich der root-Benutzer auch von extern mit dem Server verbinden darf. Aus Sicherheitsgründen solltest du diese Option deaktivieren und mit **y** bestätigen:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/7494fd7A6GenqDw/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/PcpJ6boNspf2fPo/preview)
 
-Im nächsten Schritt kannst du auch bestätigen, dass du die von MariaDB (MySQL) bereitgestellte Testdatenbank mit **y** entfernst, da sie nicht benötigt wird und einfach gelöscht werden kann:
+Anschließend kannst du die Testdatenbank von MariaDB (MySQL) mit **y** entfernen, da sie nicht benötigt wird:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/EYcyFCCoJFsYSqc/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/9HfkcaLjGXjEwK7/preview)
 
-Am Ende des Konfigurationsprozesses wirst du gefragt, ob du die Berechtigungen der Datenbank aktualisieren möchtest. Bestätige dies mit **y**, um das zuvor festgelegte Passwort für den Root-Benutzer zu aktivieren:
+Am Ende wirst du gefragt, ob die Berechtigungen der Datenbank aktualisiert werden sollen. Bestätige mit **y**, um das zuvor gesetzte Passwort für den root-Benutzer zu aktivieren:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/MySkcNJWERnew2E/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/QiBNQYFiwJM4CcA/preview)
 
-Dein MariaDB (MySQL) Server ist nun einsatzbereit!
+Dein MariaDB (MySQL) Server ist jetzt einsatzbereit!
 
-![](https://screensaver01.zap-hosting.com/index.php/s/FgC4K9aqxqrTPAw/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/zkKoTX7GbbKgj2M/preview)
 </TabItem>
 
 <TabItem value="redis" label="Redis">
 
 ## Was ist Redis?
 
-Redis is an in-memory data structure store, mainly used to store data with key-value structure, although it supports other formats such as lists, JSON and more. It is characterized by its speed, providing answers to queries in milliseconds.
+Redis ist ein In-Memory-Datenspeicher, der hauptsächlich für die Speicherung von Daten im Key-Value-Format genutzt wird, aber auch andere Formate wie Listen, JSON und mehr unterstützt. Es zeichnet sich durch seine Geschwindigkeit aus und liefert Antworten auf Anfragen in Millisekunden.
 
 ## Redis Installation
 
-Zunächst musst du ein Repo hinzufügen, mit dem du Redis installieren kannst. Dieser Schritt ist nicht für alle Linux-Distributionen erforderlich, sondern nur für die unten aufgeführten Linux-Distributionen. Führe den folgenden Befehl aus, der deinem Betriebssystem und deiner Version entspricht:
+Zuerst musst du ein Repo hinzufügen, das die Installation von Redis ermöglicht. Dieser Schritt ist nicht für alle Linux-Distributionen nötig, sondern nur für die unten aufgeführten. Führe den Befehl aus, der zu deinem Betriebssystem und deiner Version passt:
 
 ```
-// Ubuntu (any version) and Debian (only Debian 10)
+// Ubuntu (alle Versionen) und Debian (nur Debian 10)
 curl -fsSL https://packages.redis.io/gpg | sudo gpg --dearmor -o /usr/share/keyrings/redis-archive-keyring.gpg
 echo "deb [signed-by=/usr/share/keyrings/redis-archive-keyring.gpg] https://packages.redis.io/deb $(lsb_release -cs) main" | sudo tee /etc/apt/sources.list.d/redis.list
 
-// CentOS (only CentOS 7)
+// CentOS (nur CentOS 7)
 sudo yum install epel-release
 
-// CentOS (only CentOS 8)
+// CentOS (nur CentOS 8)
 sudo dnf install https://dl.fedoraproject.org/pub/epel/epel-release-latest-8.noarch.rpm
 ```
 
-Nach der Installation des Repos aktualisierst du den Cache deines Paketmanagers, indem du die im Abschnitt [Vorbereitungsschritt](#vorbereitung) beschriebenen Schritte ausführst.
+Nach der Installation des Repos aktualisiere den Paketmanager-Cache, indem du die Schritte aus dem Abschnitt [Vorbereitung](#vorbereitung) ausführst.
 
 :::info
-Wenn dein Betriebssystem oben nicht aufgeführt ist, kannst du diesen Schritt überspringen.
+Wenn dein Betriebssystem nicht oben aufgeführt ist, kannst du diesen Schritt überspringen.
 :::
 
-Nachdem du das entsprechende Repo installiert hast, fährst du mit der Installation des Redis Server-Pakets fort. Führe den Befehl aus, der dem von deinem  verwendeten Betriebssystem entspricht.
+Nachdem das passende Repo installiert ist, kannst du das Redis-Server-Paket installieren. Führe den Befehl aus, der zu deinem Betriebssystem passt:
 
 ```
-// Ubuntu and Debian
+// Ubuntu und Debian
 sudo apt install redis-server
 
 // CentOS
@@ -164,11 +164,11 @@ sudo zypper install redis
 sudo dnf install redis
 ```
 
-Nach der Installation ist dein Redis-Server einsatzbereit! Standardmäßig läuft er unter 127.0.0.1:6379 ohne Passwort.
+Nach der Installation ist dein Redis-Server einsatzbereit! Standardmäßig läuft er auf 127.0.0.1:6379 ohne Passwort.
 
 :::caution 
-Für Debian/Ubuntu-Benutzer:
-Denke daran, den Dienst "redis-server" nach der Installation zu aktivieren, damit er automatisch beim Booten des Servers startet. Du kannst dies mit dem folgenden Befehl tun:
+Für Debian/Ubuntu Nutzer:
+Denke daran, den `redis-server` Dienst nach der Installation zu aktivieren, damit er beim Serverstart automatisch startet. Das machst du mit folgendem Befehl:
 ```
 sudo systemctl enable --now redis-server
 ```
@@ -179,31 +179,32 @@ sudo systemctl enable --now redis-server
 <TabItem value="mongodb" label="MongoDB">
 
 ## Was ist MongoDB?
-MongoDB ist eine dokumentenorientierte NoSQL-Datenbank, die auf Skalierbarkeit und Flexibilität bei der Entwicklung ausgelegt ist. Sie speichert Daten im JSON-ähnlichen BSON-Format, was die Speicherung verschiedener Datentypen ermöglicht. Sie bietet die Möglichkeit, Indizes zu verwenden, um die Antwortzeit zu verkürzen, und zeichnet sich dadurch aus, dass sie kein vordefiniertes Schema wie MySQL oder SQLite hat, was Agilität und Flexibilität ermöglicht.
+MongoDB ist eine dokumentenorientierte NoSQL-Datenbank, die für Skalierbarkeit und Entwickler-Agilität konzipiert ist. Sie speichert Daten im JSON-ähnlichen BSON-Format, was die Speicherung verschiedener Datentypen ermöglicht. MongoDB unterstützt Indizes zur Reduzierung der Antwortzeiten und zeichnet sich dadurch aus, dass es kein vordefiniertes Schema wie MySQL oder SQLite benötigt, was Flexibilität und Schnelligkeit bietet.
 
 ## MongoDB Installation
 
-Wähle auf den folgenden Registerkarten dein Betriebssystem aus, um die entsprechende Anleitung anzuzeigen.
+Wähle dein Betriebssystem aus den Tabs unten, um die passende Anleitung zu sehen.
 
 <Tabs>
 <TabItem value="mongodb-ubuntu-debian" label="Ubuntu & Debian">
 
-### Installation bei Ubuntu & Debian
+### Installation auf Ubuntu & Debian
 
-Zunächst solltest du den folgenden Befehl ausführen, um den öffentlichen GPG-Schlüssel von MongoDB zu importieren:
+Zuerst solltest du den öffentlichen GPG-Schlüssel von MongoDB importieren:
+
 ```
 curl -fsSL https://pgp.mongodb.com/server-6.0.asc | \
    sudo gpg -o /usr/share/keyrings/mongodb-server-6.0.gpg \
    --dearmor
 ```
 
-Anschließend musst du die MongoDB-Quelle in die Quellenliste deines Betriebssystems aufnehmen. Dazu kannst du den folgenden Befehl ausführen:
+Danach musst du die MongoDB-Quelle zur Quellenliste deines Betriebssystems hinzufügen. Führe dazu folgenden Befehl aus:
 
 ```
 echo "deb [ arch=amd64,arm64 signed-by=/usr/share/keyrings/mongodb-server-6.0.gpg ] https://repo.mongodb.org/apt/$(lsb_release -si | awk '{print tolower($0)}') $(lsb_release -sc)/mongodb-org/6.0 main" | sudo tee /etc/apt/sources.list.d/mongodb-org-6.0.list
 ```
 
-Nun kann der Paketmanager MongoDB Community Edition installieren, aber vorher musst du die Repositories mit dem Befehl aktualisieren: `sudo apt update`. Schließlich kannst du MongoDB mit installieren:
+Jetzt kann der Paketmanager MongoDB Community Edition installieren, aber vorher musst du die Repositories mit `sudo apt update` aktualisieren. Schließlich installierst du MongoDB mit:
 
 ```
 sudo apt install mongodb-org
@@ -214,11 +215,11 @@ Deine MongoDB-Installation sollte jetzt funktionieren!
 </TabItem>
 <TabItem value="mongodb-centos-fedora" label="CentOS & Fedora">
 
-### Installation bei CentOS & Fedora
+### Installation auf CentOS & Fedora
 
-Zunächst musst du das MongoDB-Repositorium für das Red Hat-System einrichten.
+Zuerst musst du das MongoDB-Repo für Red Hat Systeme einrichten.
 
-Erstelle eine Datei mit dem Namen `/etc/yum.repos.d/mongodb-org-6.0.repo`, und füge den folgenden Inhalt ein:
+Erstelle eine Datei namens `/etc/yum.repos.d/mongodb-org-6.0.repo` und füge folgenden Inhalt ein:
 
 ```
 [mongodb-org-6.0]
@@ -229,7 +230,7 @@ enabled=1
 gpgkey=https://www.mongodb.org/static/pgp/server-6.0.asc
 ```
 
-Jetzt kannst du MongoDB installieren. Es gibt einen kleinen Unterschied im Installationsbefehl zwischen CentOS und Fedora, daher solltest du den entsprechenden Befehl unten verwenden:
+Jetzt kannst du MongoDB installieren. Der Installationsbefehl unterscheidet sich leicht zwischen CentOS und Fedora, nutze den passenden:
 
 ```
 // CentOS
@@ -239,26 +240,26 @@ sudo yum install -y mongodb-org
 sudo dnf install -y mongodb-org
 ```
 
-Deine MongoDB-Installation sollte jetzt funktionieren, es ist viel einfacher als bei anderen Linux-Distributionen!
+Deine MongoDB-Installation sollte jetzt laufen, das ist viel einfacher als bei anderen Linux-Distributionen!
 
 </TabItem>
 <TabItem value="mongodb-suse" label="OpenSUSE">
 
-### Installation bei OpenSUSE
+### Installation auf OpenSUSE
 
-Zunächst musst du den öffentlichen MongoDB-Schlüssel für das MongoDB-Repository mit diesem Befehl importieren:
+Zuerst musst du den öffentlichen MongoDB-Schlüssel für das Repo importieren:
 
 ```
 sudo rpm --import https://www.mongodb.org/static/pgp/server-6.0.asc
 ```
 
-Um das MongoDB-Repository hinzuzufügen, musst du anschließend den folgenden Befehl ausführen:
+Danach fügst du das MongoDB-Repo mit folgendem Befehl hinzu:
 
 ```
 sudo zypper addrepo --gpgcheck "https://repo.mongodb.org/zypper/suse/15/mongodb-org/6.0/x86_64/" mongodb
 ```
 
-Und schließlich kannst du die neueste MongoDB-Version installieren:
+Zum Schluss installierst du die neueste MongoDB-Version mit:
 
 ```
 sudo zypper -n install mongodb-org
@@ -273,8 +274,8 @@ Deine MongoDB-Installation sollte jetzt funktionieren!
 </Tabs>
 
 
-## Abschluss
+## Fazit
 
-Glückwunsch, du hast die Datenbankinstanz erfolgreich installiert und konfiguriert! Solltest du noch weitere Fragen oder Probleme haben, dann wende dich gerne an unser Support-Team, welches dir jeden Tag zur Verfügung steht! 
+Glückwunsch, du hast deine Datenbank erfolgreich installiert und konfiguriert! Falls du noch Fragen oder Probleme hast, steht dir unser Support-Team täglich zur Verfügung und hilft dir gerne weiter!
 
 <InlineVoucher />

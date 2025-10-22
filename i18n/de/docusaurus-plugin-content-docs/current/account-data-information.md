@@ -1,24 +1,24 @@
 ---
 id: account-data-information
-title: Datenauskunft - Zugriff und Download deiner Accountdaten
-description: Erfahre, wie du deine personenbezogenen Daten bei ZAP-Hosting einsehen und herunterladen kannst - ZAP-Hosting Dokumentation
-sidebar_label: Datenauskunft
+title: Dateninformation – Greif auf deine Account-Daten zu und lade sie herunter
+description: "Entdecke, wie du deine bei ZAP-Hosting gespeicherten persönlichen Daten einsehen und herunterladen kannst – für volle Transparenz und Kontrolle → Jetzt mehr erfahren"
+sidebar_label: Dateninformation
 ---
 
 
 
 ## Einführung
 
-Du hast das Recht, jederzeit eine Übersicht über die personenbezogenen Daten zu erhalten, die bei ZAP-Hosting über dich gespeichert sind. Diese Auskunft kann direkt über die Kontoeinstellungen eingesehen und heruntergeladen werden.
+Du hast jederzeit das Recht, auf die bei ZAP-Hosting über dich gespeicherten persönlichen Daten zuzugreifen. Diese Infos kannst du direkt über die Account-Einstellungen einsehen und herunterladen.
 
-## Einsicht und Download
+## Einsehen und Herunterladen
 
-Die Datenauskunft steht im persönlichen Bereich deines Kundenkontos zur Verfügung. Nach dem Login in das ZAP-Hosting-Webinterface findest du den entsprechenden Bereich in den [Account-Einstellungen](https://zap-hosting.com/en/customer/home/profile/). 
+Der Bereich Dateninformation ist im persönlichen Bereich deines Kundenaccounts verfügbar. Nach dem Login im ZAP-Hosting Webinterface findest du ihn über deine [Account-Einstellungen](https://zap-hosting.com/en/customer/home/profile/).
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/An9RLWyBjg4LWka/preview)
 
-Dort wird ein systematisch aufbereiteter Bericht aller gespeicherten Daten bereitgestellt, darunter zum Beispiel Name, Adresse, IP-Adressen, Zahlungsdaten, gebuchte Produkte und Kommunikationsverläufe. Der Bericht kann direkt im Browser angezeigt oder als Datei im JSON- oder PDF-Format heruntergeladen werden.
+Dort wird dir ein systematisch aufbereiteter Bericht aller gespeicherten Informationen angezeigt, inklusive deinem Namen, Adresse, IP-Adressen, Zahlungsdetails, gekauften Services und Kommunikationsverlauf. Den Bericht kannst du direkt im Browser ansehen oder als PDF-Datei herunterladen.
 
-## Abschluss
+## Fazit
 
-Mit der Datenauskunft erhältst du volle Transparenz über die bei ZAP-Hosting gespeicherten Informationen und kannst deine Datenschutzrechte nach DSGVO wahrnehmen. Für weitere Fragen oder Hilfe zögere bitte nicht, unser Support-Team zu kontaktieren, das dir täglich zur Verfügung steht! 🙂
+Bei weiteren Fragen oder wenn du Hilfe brauchst, steht dir unser Support-Team täglich zur Seite! 🙂 Der Dateninformationsbericht sorgt für volle Transparenz über deine bei ZAP-Hosting gespeicherten Daten und unterstützt dich dabei, deine DSGVO-Rechte wahrzunehmen.

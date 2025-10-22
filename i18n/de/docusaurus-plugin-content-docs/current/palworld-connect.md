@@ -1,8 +1,8 @@
 ---
 id: palworld-connect
-title: "Palworld: Mit Palworld Server verbinden"
-description: Informationen zur Verbindung mit einem Palworld-Server von ZAP-Hosting - ZAP-Hosting.com Dokumentation
-sidebar_label: Mit dem Server verbinden
+title: "Palworld: Mit deinem Palworld Server verbinden"
+description: "Entdecke, wie du dich mit deinem Palworld Server verbindest und nahtlos Multiplayer-Spiele startest → Jetzt mehr erfahren"
+sidebar_label: Mit Server verbinden
 services:
   - gameserver-palworld
 ---
@@ -12,38 +12,38 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
 
-In dieser Anleitung erfährst du, wie du dich mit deinem Palworld-Server verbinden kannst. Wir empfehlen, den Server vorher nach deinen Wünschen zu konfigurieren. Mehr darüber erfährst du in unserer [Server Konfiguration](palworld-configuration.md) Anleitung.
+In dieser Anleitung zeigen wir dir, wie du dich mit deinem Palworld Server verbindest. Wir empfehlen, den Server vorher nach deinen Wünschen zu konfigurieren. Mehr dazu findest du in unserer [Server Konfiguration](palworld-configuration.md) Anleitung.
 
 :::tip
-Wir haben jetzt eine separate **Palword (Xbox)** Spielversion auf unseren Gameservern, mit der du auf Xbox/Microsoft Store Spielversionen spielen kannst. In unserer [Spielwechsel](gameserver-gameswitch.md) erfährst du, wie du dein Spiel ganz einfach wechseln kannst. Achte darauf, dass du deine Spielstände wie immer sicherst.
+Wir haben jetzt eine separate **Palworld (Xbox)** Spielversion auf unseren Gameservern, mit der du die Xbox/Microsoft Store Version spielen kannst. Schau dir unsere [Spielwechsel](gameserver-gameswitch.md) Anleitung an, um zu erfahren, wie du dein Spiel ganz easy wechseln kannst. Denk daran, wie immer deine Saves zu sichern.
 :::
 
-<YouTube videoId="SDZC4-FEdNM" imageSrc="https://screensaver01.zap-hosting.com/index.php/s/ecdBptZkaZMNSGX/preview" title="Setup Palworld server in just a MINUTE!" description="Hast du das Gefühl, dass du etwas besser verstehst, wenn du es in Aktion siehst? Wir haben etwas für dich! Tauche ab in unser Video, welches alles für dich zusammenfasst. Egal, ob du es eilig hast oder einfach nur Informationen auf möglichst verständliche Art und Weise aufnehmen möchtest!"/>
+<YouTube videoId="SDZC4-FEdNM" imageSrc="https://screensaver01.zap-hosting.com/index.php/s/eA3xonLFkB4x3G6/preview" title="Palworld Server in nur EINER MINUTE einrichten!" description="Lernst du besser, wenn du Dinge in Aktion siehst? Kein Problem! Unser Video erklärt dir alles Schritt für Schritt. Egal ob du es eilig hast oder einfach am liebsten auf die spannendste Art lernst!"/>
 
 <InlineVoucher />
 
-## Ermitteln der Server-IP
+## Server-IP erhalten
 
-Zunächst musst du die IP und den Port deines Palworld-Servers kennen, um eine direkte Verbindung herstellen zu können. Gehe einfach zu deinem [ZAP-Hosting Webinterface](https://zap-hosting.com/en/customer/) auf der Website und halte die vollständige IP und den Port bereit.
+Zuerst brauchst du die IP-Adresse und den Port deines Palworld Servers, um dich direkt verbinden zu können. Geh einfach auf dein [ZAP-Hosting Webinterface](https://zap-hosting.com/en/customer/) und halte die vollständige IP und den Port bereit.
 
-![](https://github.com/zaphosting/docs/assets/42719082/a27d76e0-acf6-4736-b5c9-c110901a5f14)
+![](https://github.com/zaphosting/docs/assets/42719082/62bcad5b-064c-45cd-a7f0-406a1148b15c)
 
-Wenn du deinen Palworld-Server als externen dedizierten Server betreibst, ist die IP die des Host-Rechners und der Port derjenige, den du in deiner Konfigurationsdatei eingestellt hast (standardmäßig ist dies 8211). In unserer [Server Konfiguration](palworld-configuration.md) findest du weitere Informationen zum Port.
+Falls du deinen Palworld Server auf einem externen Dedicated Server betreibst, ist die IP die des Hostsystems und der Port der, den du in deiner Konfigurationsdatei eingestellt hast (standardmäßig 8211). Mehr Infos zum Port findest du in unserer [Server Konfiguration](palworld-configuration.md) Anleitung.
 
-## Direktverbindung
+## Direkte Verbindung
 
-Beginne damit, Palworld über deinen Game Launcher zu starten. Wähle im Hauptmenü **Multiplayer-Spiel beitreten**.
+Starte Palworld über deinen Game Launcher. Im Hauptmenü wählst du **Multiplayer-Spiel beitreten**.
 
 ![](https://github.com/zaphosting/docs/assets/42719082/fefc7ead-5098-4bdb-aa56-c9d78673d7e8)
 
-Gehe im dedizierten Server-Browser zum unteren Ende der Seite. Gib in das untere Suchfeld deine IP- und Portdaten ein. Sobald du fertig bist, drückst du auf den Button **Verbinden** und trittst deinem Server bei.
+Im Dedicated Server Browser scrollst du ganz nach unten. Gib dort deine IP und den Port in das untere Suchfeld ein. Drücke dann auf den **Verbinden** Button und du bist auf deinem Server.
 
 :::note
-Achte darauf, dass du das untere Suchfeld benutzt und nicht das obere. Das obere Feld wird verwendet, um in der Serverliste nach Servern mit Namen zu suchen.
+Achte darauf, das untere Suchfeld zu benutzen, nicht das obere. Das obere sucht nach Servernamen in der Serverliste.
 :::
 
 ![](https://github.com/zaphosting/docs/assets/42719082/ae31ddee-8992-486a-aef3-e6e4d115f018)
 
-Wenn du dem Server nicht erfolgreich beitreten kannst und eine Timeout-Fehlermeldung erhältst, vergewissere dich bitte, dass die eingegebene IP und der Port korrekt sind und dass dein Server online ist. Du kannst den Konsolenbereich deines Webinterfaces für deinen Palworld Server nutzen, um die Fehlersuche zu erleichtern.
+Falls du nicht verbinden kannst und eine Timeout-Fehlermeldung bekommst, überprüfe bitte, ob IP und Port korrekt sind und dein Server online ist. Für die Fehlersuche kannst du die Konsole im Webinterface deines Palworld Servers nutzen.
 
 <InlineVoucher />

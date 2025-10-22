@@ -1,8 +1,8 @@
 ---
 id: corekeeper-connecttoserver
-title: "Core Keeper: Core Keeper zum Server verbinden -   - gameserver-corekeeper von ZAP-Hosting"
-description: Anleitung, wie du dich zum Server für Core Keeper verbindest - ZAP-Hosting.com Dokumentation 
-sidebar_label: Zum Server verbinden
+title: "Core Keeper: Core Keeper mit Server verbinden"
+description: "Entdecke, wie du dich mit deinem Core Keeper Gameserver verbindest für nahtloses Multiplayer-Gameplay und genieße dein Spielerlebnis → Jetzt mehr erfahren"
+sidebar_label: Mit dem Server verbinden
 services:
   -   - gameserver-corekeeper
 ---
@@ -11,24 +11,24 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 <InlineVoucher />
 
-### Zum   - gameserver-corekeeper Core Keeper kannst du wie folgt verbinden:
+### So kannst du dich mit dem Core Keeper Gameserver verbinden:
 
-Öffne dein ZAP-Hosting   - gameserver-corekeeper Dashboard und stelle sicher, dass dein Server gestartet ist:
+Öffne dein ZAP-Hosting Gameserver Dashboard und stelle sicher, dass dein Server läuft:
 
-![1184-113-max](https://screensaver01.zap-hosting.com/index.php/s/6s4sg2zEYjmeerP/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/2NbQaA6E2CJ4ZE8/preview)
 
-Starte das Spiel und wähle den Menüpunkt "Multiplayer" aus: 
+Starte das Spiel und wähle den Menüpunkt „Multiplayer“:
 
-![385-351-max](https://screensaver01.zap-hosting.com/index.php/s/jofr7wR4b6END9A/preview)
+![385-351-max](https://screensaver01.zap-hosting.com/index.php/s/t36H8NxmLa4gx5S/preview)
 
-Anschließend wählst du den Menüpunkt "Direct join" aus: 
+Dann wähle den Menüpunkt „Direkt beitreten“:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/ayRGk2pePDPXTE7/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/3MdnG7Xb2222EPQ/preview)
 
-Dort trägst du die IP und Port ein, welche auf deinem   - gameserver-corekeeper Dashboard angezeigt wird:
+Gib dort die IP-Adresse und den Port ein, die dir im Gameserver Dashboard angezeigt werden:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/swkJR7YY5L9xYJt/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/R9nRFWFrS9Fbwox/preview)
 
-Nach dem Klick auf "Connect" verbindet sich der Client zu deinem Server.
+Der Client verbindet sich nach Klick auf „Verbinden“ mit deinem Server.
 
 <InlineVoucher />

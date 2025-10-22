@@ -1,43 +1,42 @@
 ---
 id: account-paymentoptions
-title: "Zahlungsoptionen: Welche Zahlungsoptionen gibt es"
-description: Informationen zu den verschiedenen Zahlungsoptionen bei ZAP-Hosting PayPal, Kreditkarte, ZAP Coins und mehr - ZAP-Hosting.com Dokumentation
+title: "Zahlungsoptionen: Welche Zahlungsmöglichkeiten gibt es"
+description: "Entdecke schnelles Server mieten mit vielen Zahlungsoptionen wie ZAP Coins, Kreditkarte, PayPal, Bitcoin und mehr → Jetzt mehr erfahren"
 sidebar_label: Zahlungsoptionen
 ---
 
-## Übersicht
-Wir bieten eine große Anzahl verschiedener Zahlungsoptionen an, mit denen Server sofort gemietet werden und bereitgestellt werden können. Der Zahlungsprozess ist einfach und schnell. Folgende Zahlungsoptionen werden von uns angeboten:
-*  **ZAP Coins:** ZAP Coins wird über die Cashbox (Geld einzahlen) hinzugefügt und kann für fast alle Produkte verwendet werden.
-* **Kreditkarte:** Bezahlung per Kreditkarte
-* **PayPal:** Bezahlung per PayPal.
-* **Paysafecard:** PaySafeCards sind Prepaidkarten, die an über 25.000 Verkaufsstellen in Deutschand erworben werden können. Zur Zahlung wird der Kartencode benötigt.
-* **Bitcoin:** Bezahlung mit Bitcoin bezahlen. Die Abwicklung wird über den Anbieter Coinify durchgeführt.
-* **Überweisung:** Nur erhältlich, um ZAP Coins einzuzahlen. Nach Zahlungseingang wird das Guthaben freigeschaltet.
+## Überblick
+ZAP-Hosting bietet eine Vielzahl an verschiedenen Zahlungsoptionen, mit denen du deinen Gameserver sofort mieten und starten kannst. Der Zahlungsprozess ist einfach und schnell. Folgende Zahlungsoptionen bieten wir an:
+*  **ZAP Coins:** ZAP Coins werden über die Cashbox (Geld einzahlen) aufgeladen und können für fast alle Produkte genutzt werden.
+* **Kreditkarte:** Zahlung per Kreditkarte.
+* **PayPal:** Zahlung per PayPal.
+* **PaySafeCard:** PaySafeCards sind Prepaid-Karten, die du an über 25.000 Verkaufsstellen in Deutschland kaufen kannst. Für die Zahlung wird der Karten-Code benötigt.
+* **Bitcoin:** Bezahle mit Bitcoin. Die Transaktion wird vom Anbieter Coinify abgewickelt.
+* **Banküberweisung:** Nur für das Aufladen von ZAP Coins verfügbar. Nach Zahlungseingang werden die ZAP Coins freigeschaltet.
+
+![](https://screensaver01.zap-hosting.com/index.php/s/Wksp562L6HABL5J/preview)
+
+
+## Zahlungsprozess
+Der Zahlungsprozess ist simpel: Auf der Konfigurationsseite stellst du deinen Gameserver zusammen, unten auf der Seite wählst du die gewünschte Zahlungsoption aus. Nach einem Klick auf „Jetzt kaufen“ erfolgt bei Bedarf eine Weiterleitung zum ausgewählten Zahlungsdienstleister, über den die Zahlung abgewickelt wird. Nach Zahlungseingang wird dein Gameserver innerhalb weniger Sekunden eingerichtet.
+
+## ZAP Coins: Aufladen
+Du kannst über deine Cashbox mit jeder angebotenen Zahlungsoption Geld in ZAP Coins einzahlen. Auch Vertragserver können mit ZAP Coins bezahlt werden. Im Webinterface kannst du ZAP Coins unter dem Punkt **Einzahlen** in deiner Cashbox aufladen.
 
 :::info
-![](https://screensaver01.zap-hosting.com/index.php/s/nETJWSKJnaEiqxP/preview)
+Teilzahlungen mit ZAP Coins sind nicht erlaubt. Wenn du bereits ZAP Coins hast, zum Beispiel durch einen ZAP Coins Code, kannst du dein Guthaben beliebig aufstocken. Tipp: Wenn du mit ZAP Coins bezahlst, achte auf unsere Cash In Deals: Ist ein Cash In Deal aktiviert, bekommst du zusätzliches Guthaben, wenn du deine Einzahlung erhöhst.
+
+Überweisungen können zum Aufladen von ZAP Coins genutzt werden. Sobald wir die Überweisung erhalten haben, wird das Guthaben freigeschaltet und kann verwendet werden.
 :::
 
-
-## Bezahlvorgang
-Der Bezahlvorgang ist simpel: Die Serverkonfiguration wird auf der Konfigurationsseite zusammengestellt, am Ende der Seite wird die gewünschte Zahlungsoption ausgewählt. Nach einem Klick auf "Kostenpflichtig bestellen" findet ggf. eine Weiterleitung auf den gewählten Zahlungsdienstleister statt über den die Zahlung getätigt werden kann. Nach Erhalt der Zahlung wird der Server innerhalb weniger Sekunden eingerichtet.
-
-## ZAP Coins: Einzahlung
-Guthaben kann über sämtliche anderen von uns angebotenen Zahlungsoptionen eingezahlt werden und auch Vertragsserver können über ZAP Coins bezahlten werden. Im Web Interface lässt sich Guthaben unter dem Punkt **Geld einzahlen** einzahlen.
-:::info
-Eine anteilige Finanzierung über Guthaben ist nicht möglich. Wenn du bereits Guthaben hast, beispielsweise weil du einen ZAP Coin Code verwendest hast, kannst du Guthaben beliebig hinzufügen. Tipp: Wenn du mit ZAP Coins bezahlst, achte auf unsere Cash In Deals: Ist der Cash In Deal aktiviert, erhältst du zusätzliches Guthaben, wenn du deine Einzahlung erhöhst.
-
-Überweisungen können verwendet werden, um ZAP Coins einzuzahlen. Sobald die Überweisung bei uns eingegangen ist, wird das Guthaben freigeschaltet und kann verwendet werden.
-:::
-
-![](https://screensaver01.zap-hosting.com/index.php/s/a6JZgCEBsqa6iwt/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/wwbxA7PCe45ofzf/preview)
 
 ## Cashbox
-Die Cashbox ist über das Web Interface unter dem Punkt **Cashbox** erreichbar. Neben der Möglichkeit, Guthaben einzuzahlen, bietet die Cashbox folgende Zusatzfunktionen:
-* **Kreditkarte hinzufügen:** Es können Kreditkarten hinterlegt werden. Durch Hinterlegung einer Kreditkarte ist es beim Bezahlen per Kreditkarte nicht mehr notwendig, sämtliche Daten bei jedem Bezahlvorgang einzutragen.
-* **Geld einzahlen:** Die Einzahlungsfunktion kann auch über die Cashbox verwendet werden.
-* **Gutschein einlösen:** Gutscheine, die ZAP-Guthaben vergeben, können hier eingelöst werden. Nach Einlösung des Gutscheincodes wird das Guthaben sofort dem Account gutgeschrieben.
-* **ZAP Coins automatisch aufladen:** ZAP Coins kann automatisch aufgeladen werden. Dies ist sinnvoll, wenn ein Vertragsserver bestellt wurde. Um ZAP Coins automatisch aufladen zu können, muss PayPal verwendet werden.
+Auf die Cashbox kannst du im Webinterface unter dem Menüpunkt **Cashbox** zugreifen. Neben der Möglichkeit, Geld einzuzahlen, bietet die Cashbox folgende weitere Funktionen:
+* **Kreditkarte hinzufügen:** Kreditkarten können hinterlegt werden. Durch das Hinterlegen einer Kreditkarte musst du bei der Zahlung per Kreditkarte nicht mehr alle Daten bei jeder Transaktion eingeben.
+* **Geld einzahlen:** Die Einzahlung kannst du auch direkt über die Cashbox vornehmen.
+* **Gutschein einlösen:** Gutscheine, die ZAP Coins geben, kannst du hier einlösen. Nach Eingabe des Gutscheincodes werden die ZAP Coins sofort deinem Konto gutgeschrieben.
+* **ZAP Coins automatisch aufladen:** ZAP Coins können automatisch aufgeladen werden. Das ist praktisch, wenn du einen Vertragserver bestellt hast. Um das automatische Aufladen zu aktivieren, muss PayPal genutzt werden.
 * **Transaktionsübersicht:** Eine Übersicht aller bisher getätigten Transaktionen.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/EPJpyam5WHJF2eR/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/JS9BW7p39tMiatL/preview) 

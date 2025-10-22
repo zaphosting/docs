@@ -1,7 +1,7 @@
 ---
 id: assettocorsa-configure
-title: Server konfigurieren
-description: Informationen zu den Konfigurationsoptionen deines Assetto Corsa-Server von ZAP-Hosting - ZAP-Hosting.com Dokumentation
+title: "Assetto Corsa: Deinen Server konfigurieren"
+description: "Entdecke, wie du deinen Assetto Corsa Gameserver mit Custom Maps und Autos für das beste Gameplay-Erlebnis einrichtest → Jetzt mehr erfahren"
 sidebar_label: Server konfigurieren
 services:
   - gameserver-assettocorsa
@@ -13,87 +13,77 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Mit FTP verbinden
 
-Bevor wir den Server konfigurieren können, muss der [Zugriff per FTP](gameserver-ftpaccess.md) eingerichtet werden:
+Bevor wir den Server konfigurieren können, muss der [Zugang via FTP](gameserver-ftpaccess.md) eingerichtet sein:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/LoP5aCdQKHw7eca/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/GdzeM4wyAGtGk8e/preview)
 
-Nachdem dieser eingerichtet wurde, kann sich nun verbunden werden und der Server Ordner geöffnet werden:
+Nachdem das eingerichtet ist, kannst du dich verbinden und den Server-Ordner öffnen:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/qHyziSwMrwCYf6W/preview)
-
+![](https://screensaver01.zap-hosting.com/index.php/s/dkSSLWF5QGGf4yR/preview)
 
 
 ## Vorbereitung
 
-Zunächst öffnen wir den Assetto Corsa Ordner, diesen können wir öffnen, indem wir Steam öffnen und "Assetto Corsa" in der Spieleliste Rechtsklicken,
+Als Erstes öffnen wir den Assetto Corsa Ordner. Das geht, indem du Steam öffnest und in der Spieleliste mit Rechtsklick auf "Assetto Corsa" klickst.
 
-Nun öffnen wir "Lokale Dateien" und öffnen die Lokalen Spieldateien:
+Jetzt öffnen wir "Lokale Dateien" und greifen auf die lokalen Spieldateien zu:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/fFmMaJTBG7EJw2F/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/XKBgdiNbZ5AXtia/preview)
 
-Dort öffnen wir den "server" Ordner und öffnen den ACServerManager.exe.
+Dann öffnen wir den Ordner "server", dort findest du die Datei "acServerManager", die öffnen wir.
 
+## Map einstellen
 
-## Map Einstellen
+Wir sind jetzt in der "AC Server Manager" Oberfläche. Damit kannst du Serverconfigs erstellen und verwalten. Zuerst erstellen wir eine neue Config.
 
-Wir sind nun im "AC Server Manager" Interface, damit können wir Serverconfigs erstellen und verwalten, zunächst erstellen wir eine neue Config
+![](https://screensaver01.zap-hosting.com/index.php/s/Z37toTgBHDmf54n/preview)
 
-![](https://screensaver01.zap-hosting.com/index.php/s/2ra757X4qizDrQS/preview)
+Jetzt können wir unseren Server konfigurieren. In unserem Fall wollen wir nur die Strecken & Autos anpassen, dafür öffnen wir den Tab "Tracks".
 
+Hier kannst du deine bevorzugte Map auswählen, oben kannst du die Anzahl der Autos auf der Strecke einstellen.
 
-Nun können wir unseren Server konfigurieren, in unseren Fall wollen wir nur die Strecken&Autos editieren, dazu öffnen wir das "Tracks" Tab
-
-Hier können wir nun auf unsere bevorzugte Map klicken, oben können dann noch die Menge der Autos auf der Strecke eingestellt werden.
-
-![](https://screensaver01.zap-hosting.com/index.php/s/wHYoPimY3RLgsdf/preview)
-
+![](https://screensaver01.zap-hosting.com/index.php/s/Hr9AMt9SHyas4CN/preview)
 
 :::info
-Gehe sicher, dass du nicht mehr Autos, als Slots auf deinem Server angibst, ansonsten wird der Server nicht starten
+Achte darauf, nicht mehr Autos einzustellen als Slots auf deinem Server verfügbar sind, sonst startet der Server nicht.
 :::
 
-## Autos Einstellen
+## Autos einstellen
 
-Nun wechseln wir in das Tab "Cars / Entry List", hier können wir nun neue Autos hinzufügen:
+Jetzt wechseln wir zum Tab "Cars / Entry List". Hier kannst du neue Autos hinzufügen:
 
-Um Autos zu aktivieren, muss links das Häkchen gesetzt werden
+Um Autos zu aktivieren, muss links der Haken gesetzt sein.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/BzkNiHMFH3FRi8A/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/4w643p56GLXK9cP/preview)
 
+In der Mitte siehst du die Autos, die auf dem Grid platziert werden können. Hier kannst du die Autos in den Farben auswählen, die im Grid erscheinen sollen:
 
-In der Mitte erscheinen nun Autos, welche auf dem Grid platziert werden können, hier können wir nun Autos in den Farben wählen, welche im Grid sein sollten:
-
-![](https://screensaver01.zap-hosting.com/index.php/s/KoZ8cDxJgocEtKN/preview)
-
+![](https://screensaver01.zap-hosting.com/index.php/s/T5SfpsdAPxfMwnY/preview)
 
 :::info
-Um mehrere Autos zu wählen, können mehrere Haken gesetzt werden, um die verschiedenen Autos in der Mitte hinzugefügt werden.
+Um mehrere Autos auszuwählen, kannst du mehrere Haken setzen, um verschiedene Autos in der Mitte hinzuzufügen.
 
+Achte darauf, dass alle Auto-Slots gefüllt sind und nicht mehr als die verfügbaren Slots eingestellt werden.
 
-Beachte, dass alle Autoslots befüllt werden und nicht mehr, als die Menge der verfügbaren Slots gesetzt wird
-
-![](https://screensaver01.zap-hosting.com/index.php/s/RjTdy6tfeNqJLLe/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/FTeJX3BJipBRFQP/preview)
 :::
 
+## Config hochladen
 
-## Config Hochladen
+Jetzt kannst du die Config mit dem "Save"-Button speichern und mit "Export" exportieren:
 
-Nun können wir die Config über den "Save" Button abspeichern und über den "Export" Button exportieren:
+![](https://screensaver01.zap-hosting.com/index.php/s/b7co7wfcegmwPYd/preview)
 
-![](https://screensaver01.zap-hosting.com/index.php/s/iSS2dDGf4bewRAn/preview)
+Wähle hier einen freien Ordner aus, in dem die Config-Daten gespeichert werden.
 
-Hier wählen wir jetzt einen freien Ordner, dort werden die Config-Daten gespeichert.
+Jetzt kannst du den AC Server Manager schließen und den Ordner öffnen, in den die Configs exportiert wurden.
 
-Nun kann der AC Server Manager geschlossen werden, wir öffnen nun den Ordner, in welche die Configs exportiert wurden.
+![](https://screensaver01.zap-hosting.com/index.php/s/4Nysjo24BAAGbqe/preview)
 
-![](https://screensaver01.zap-hosting.com/index.php/s/e9gmt95C6n4jmpp/preview)
+Diese Configs kannst du jetzt per Drag&Drop in den "cfg"-Ordner deines Gameservers kopieren.
 
+![](https://screensaver01.zap-hosting.com/index.php/s/YKHtnDMSqBgssDc/preview)
 
-Diese Configs können nun über Drag&Drop in den "cfg" Ordner des Servers hochgeladen werden.
-
-![](https://screensaver01.zap-hosting.com/index.php/s/a4WprPjxkFM29LK/preview)
-
-
-Der Server kann nun mit der neuen Config gestartet werden.
+Der Server kann jetzt mit der neuen Config gestartet werden.
 
 <InlineVoucher />

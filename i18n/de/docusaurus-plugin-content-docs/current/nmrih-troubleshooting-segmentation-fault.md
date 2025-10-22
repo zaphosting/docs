@@ -1,7 +1,7 @@
 ---
 id: nmrih-troubleshooting-segmentation-fault
 title: "No More Room In Hell: Segmentation Fault"
-description: Informationen zur Behebung des Segmentation Fault Fehlers bei einem No More Room In Hell Server von ZAP-Hosting - ZAP-Hosting.com Dokumentation
+description: "Entdecke, wie du Segmentation Fault-Fehler erkennst und behebst, damit dein Server wieder rund läuft → Jetzt mehr erfahren"
 sidebar_label: Segmentation Fault
 services:
   - gameserver-nmrih
@@ -11,13 +11,13 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
 
-Dein Server startet nicht und in der Live-Konsole oder in den Log-Dateien wird dir die folgende Fehlermeldung  angezeigt?
+Dein Server startet nicht und du bekommst folgende Fehlermeldung in der Live-Konsole oder in den Logdateien?
 
 ```
 Segmentation Fault
 ```
 
-Keine Sorge! Wir lassen dich mit diesem Problem nicht allein und helfen dir dabei dies zu beheben. Im Folgenden erklären wir dir, wie es zu diesem Fehler kommen kann und was du tun kannst, um diesen zu beheben. So bringst du deinen Server schnellstmöglich wieder zum Laufen!
+Kein Stress! Wir lassen dich mit dem Problem nicht allein und helfen dir, es zu fixen. Im Folgenden erklären wir, wie dieser Fehler entstehen kann und was du tun kannst, um ihn zu beheben. So läuft dein Server schnell wieder rund!
 
 
 
@@ -27,35 +27,35 @@ Keine Sorge! Wir lassen dich mit diesem Problem nicht allein und helfen dir dabe
 
 ## Ursache
 
-Die Ursache für diese Fehlermeldung kann vielseitig sein. Zu den häufigsten Ursachen gehören folgende:
+Die Ursache für diese Fehlermeldung kann vielfältig sein. Die häufigsten Ursachen sind folgende:
 
 <details>
   <summary>Fehlerhafte Konfiguration</summary>
 
-Eine unsachgemäß oder unvollständig konfigurierte Konfigurationsdatei kann dazu führen, dass der Server beim Start oder während des Betriebs auf ungültige Parameter oder unzulässige Speicherbereiche zugreift.
+Eine falsch oder unvollständig konfigurierte Konfigurationsdatei kann dazu führen, dass der Server beim Start oder während des Betriebs auf ungültige Parameter oder ungültige Speicherbereiche zugreift.
 
-Dies kann insbesondere vorkommen, wenn zum Beispiel Einrückungen oder Wertezuweisungen nicht korrekt eingehalten werden. In der Folge kann dies zu einem Absturz oder undefiniertem Verhalten (z. B. Segmentation Fault) führen.
+Das passiert besonders, wenn zum Beispiel Einrückungen oder Wertzuweisungen nicht korrekt gesetzt sind. Das kann dann zu einem Absturz oder undefiniertem Verhalten führen (z.B. Segmentation Fault).
 
 </details>
 
 <details>
-  <summary>Ungültige oder beschädigte Server-Dateien</summary>
+  <summary>Ungültige oder beschädigte Serverdateien</summary>
 
-  Durch fehlerhafte Übertragungen, manuelle Änderungen oder beschädigte Installationen können zentrale Serverdateien (wie ausführbare Dateien, Bibliotheken oder Konfigurationsdaten) beschädigt werden. Dies kann beim Laden oder Ausführen zu unerwartetem Verhalten oder kritischen Abstürzen wie einem Segmentation Fault führen.
+  Durch fehlerhafte Übertragungen, manuelle Änderungen oder beschädigte Installationen können zentrale Serverdateien korrupt werden. Das kann zu unerwartetem Verhalten oder kritischen Abstürzen wie einem Segmentation Fault beim Laden oder Ausführen führen.
 
 </details>
 
 <details>
   <summary>Unvollständige Updates oder fehlende Abhängigkeiten</summary>
 
-  Wird ein Server Update nicht vollständig abgeschlossen oder fehlen bestimmte Abhängigkeiten oder Module, kann es beim Start oder während der Laufzeit zu fehlern kommen. 
+  Wenn ein Server-Update nicht vollständig abgeschlossen wurde oder bestimmte Abhängigkeiten bzw. Module fehlen, können beim Start oder während der Laufzeit Fehler auftreten.
 
 </details>
 
 <details>
-  <summary>Inkompatible oder fehlerhafte Server Plugins</summary>
+  <summary>Inkompatible oder fehlerhafte Server-Plugins</summary>
 
-  Zusätzliche Erweiterungen wie zum Beispiel SourceMod/Metamod oder Plugins, die nicht zur eingesetzten Serverversion passen oder fehlerhaft programmiert sind, können direkten Einfluss auf den Speicherzugriff des Servers nehmen und dementsprechend Probleme verursachen. 
+  Zusätzliche Erweiterungen wie SourceMod/Metamod oder Plugins, die nicht mit der verwendeten Server-Version kompatibel sind oder fehlerhaft programmiert wurden, können direkt den Speicherzugriff des Servers beeinflussen und entsprechend Probleme verursachen.
 
 </details>
 
@@ -63,30 +63,30 @@ Dies kann insbesondere vorkommen, wenn zum Beispiel Einrückungen oder Wertezuwe
 
 ## Lösung
 
-Um die Problematik zu beheben, die durch eine der zuvor erwähnten Ursachen entstehen kann, kannst du folgenden Lösungsätzen nachgehen: 
+Um das Problem zu beheben, das durch eine der oben genannten Ursachen entstehen kann, kannst du folgende Lösungen ausprobieren:
 
 <details>
-  <summary>Validierung der Server-Dateien</summary>
+  <summary>Validierung der Serverdateien</summary>
 
-Um mögliche Fehler durch beschädigte oder unvollständige Spieldateien auszuschließen, empfiehlt es sich, die Funktion **Validate Steam Files** im Gameserver **Dashboard** auszuführen.
+Um mögliche Fehler durch beschädigte oder unvollständige Spieldateien auszuschließen, empfehlen wir die Funktion **Steam-Dateien validieren** im Gameserver **Dashboard** zu nutzen.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/gwcG7CWm7bc5PxL/preview)
 
-  Dabei wird der Gameserver  automatisch über die SteamCMD überprüft und fehlende oder fehlerhafte Dateien werden durch die Originalversion ersetzt. Der Vorgang läuft vollständig automatisiert ab und stellt sicher, dass die Serverdateien dem aktuellen Stand der Steam-Version entsprechen.
+  Der Gameserver wird automatisch über SteamCMD überprüft und fehlende oder fehlerhafte Dateien werden durch die Originalversion ersetzt. Der Prozess ist vollautomatisch und stellt sicher, dass die Serverdateien mit der aktuellen Steam-Version übereinstimmen.
 
 </details>
 
 <details>
-  <summary>Deaktivierung/Entfernung von zusächlichen Inhalte</summary>
+  <summary>Deaktivierung/Entfernung von zusätzlichem Content</summary>
 
-Solltest du bei deinem Gameserver zusätzliche Inhalte wie Sourcemod/Metamod und Plugins hinzugefügt haben, so macht es Sinn diese zumindest einmal temporär zu deaktivieren und zu entfernen. 
+Wenn du zusätzlichen Content wie Sourcemod/Metamod und Plugins auf deinem Gameserver installiert hast, macht es Sinn, diese zumindest temporär zu deaktivieren oder zu entfernen.
 
-Durch diesen Schritt kann ausgeschlossen werden, ob die Probleme durch die zusätzlich hinzugefügten Inhalte entstehen. Oftmals kann es beispiel nach Updates Probleme mit solchen zusätzlichen Inhalten geben, da diese nicht mehr oder noch nicht mit der neuen Server Version kompatibel sind. 
+Dieser Schritt kann ausschließen, ob die Probleme durch den zusätzlichen Content verursacht werden. Nach Updates gibt es häufig Probleme mit solchen Erweiterungen, weil sie nicht mehr oder noch nicht mit der neuen Server-Version kompatibel sind.
 
 </details>
 
-## Abschluss
+## Fazit
 
-Diese Schritte sollten dir dabei helfen, die Problematik zu beheben. Falls nicht, für weitere Fragen oder Hilfe zögere bitte nicht, unser Support-Team zu kontaktieren, das dir täglich zur Verfügung steht! 🙂
+Diese Schritte sollten dir helfen, das Problem zu lösen. Falls nicht, zögere nicht, unseren Support zu kontaktieren – der steht dir täglich mit Rat und Tat zur Seite! 🙂
 
 <InlineVoucher />

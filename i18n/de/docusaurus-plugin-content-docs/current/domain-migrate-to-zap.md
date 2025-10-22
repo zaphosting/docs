@@ -1,7 +1,7 @@
 ---
 id: domain-migrate-to-zap
-title: "Migrate to ZAP: Domain"
-description: Informationen wie du deinen Gameserver Dienst von einem anderen Anbieter zu ZAP-Hosting umziehst - ZAP-Hosting.com Dokumentation
+title: "Zu ZAP wechseln: Domain"
+description: "Entdecke, wie du deine Domain ganz easy zu ZAP-Hosting transferierst und von einfacher Verwaltung sowie zuverlässigem Hosting profitierst → Jetzt mehr erfahren"
 sidebar_label: Domain
 services:
   - domain
@@ -11,68 +11,70 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
 
-Du bist neu und interessierst dich für die Produkte von ZAP-Hosting? Dann bist du hier genau richtig. Zunächst einmal herzlich willkommen bei ZAP-Hosting! Es freut uns, dass du dich für unsere Dienstleistungen interessierst und dich darüber informieren möchtest, wie du deine bestehende Domain von einem anderen Anbieter zu uns umziehen möchtest. Dieses Dokument wird dir die allgemein notwendigen Schritte mitteilen, die du erledigen musst, um deine Domain erfolgreich zu uns umzuziehen. 
+Bist du neu hier und interessierst dich für die Produkte von ZAP-Hosting? Dann bist du hier genau richtig. Erstmal: Willkommen bei ZAP-Hosting! Wir freuen uns, dass du unsere Services spannend findest und wissen möchtest, wie du deine bestehende Domain von einem anderen Anbieter zu uns umziehen kannst. Diese Anleitung zeigt dir die allgemeinen Schritte, die du gehen musst, um deine Domain erfolgreich zu uns zu transferieren.
 
 ## Vorteile
 
-Mit Sicherheit stehst du vor der Entscheidung, welcher Anbieter der richtige für dich ist. Solch eine Entscheidung kann unter Umständen viel Zeit beanspruchen. Aus diesem Grund möchten wir dir bei der Entscheidung weiterhelfen und die Vorteile von ZAP-Hosting mit dir teilen. Mit Sicherheit stehst du vor der Entscheidung, welcher Anbieter der richtige für dich ist. Solch eine Entscheidung kann unter Umständen viel Zeit beanspruchen. Aus diesem Grund möchten wir dir bei der Entscheidung weiterhelfen und die Vorteile von ZAP-Hosting mit dir teilen. ZAP-Hosting bietet bereits seit über einem Jahrzehnt seine Dienstleistungen an und ist somit ein etablierter und erfahrener Anbieter im Server Hosting Bereich.
+Du stehst bestimmt vor der Entscheidung, welcher Anbieter am besten zu dir passt. So eine Entscheidung kann manchmal echt Zeit kosten. Deshalb wollen wir dir helfen und dir die Vorteile von ZAP-Hosting zeigen. ZAP-Hosting gibt’s schon seit über einem Jahrzehnt und ist damit ein erfahrener und etablierter Anbieter im Bereich Server mieten.
 
-Unsere Verwaltungsoberfläche ermöglicht eine einfache und unkomplizierte Verwaltung von Domains. Des Weiteren bieten wir die Möglichkeit Subdomains für weitere ZAP-Produkte einfach per Klick anzulegen. 
+Unser Management-Interface macht die Domain-Verwaltung super easy und unkompliziert. Außerdem kannst du mit nur einem Klick Subdomains für andere ZAP-Produkte anlegen.
 
-Solltest du dich für uns entschieden haben, so kann im folgenden mit dem Umzug deiner bestehenden Domain zu ZAP-Hosting begonnen werden. Dieser Prozess setzt sich aus drei Schritten zusammen. Die Vorbereitung, wo der Auth-Code beantragt wird, die Übertragung, wo die Domain bei uns registriert und übertragen wird und notwendigen Konfigurationsanpassungen, damit alles ordnungsgemäß funktioniert im Anschluss. 
+Wenn du dich für uns entschieden hast, kannst du direkt starten und deine bestehende Domain zu ZAP-Hosting transferieren. Der Prozess besteht aus drei Schritten: Vorbereitung, bei der du den Auth Code anforderst; Transfer, bei dem die Domain registriert und zu uns übertragen wird; und den notwendigen Konfigurationsanpassungen, damit danach alles reibungslos läuft.
 
 ## Vorbereitung
 
-Für den Umzug einer bereits bestehende registrierte Domain ist ein **Auth-Code** (kurz für Authorization Code) notwendig. Dies ist eine Art Passwort für Domains. Der Auth-Code wird benötigt, wenn eine Domain von einem Anbieter zu einem anderen transferiert werden soll. Dieser Code gewährleistet, dass der Domainumzug tatsächlich vom rechtmäßigen Domain-Inhaber beantragt wurde.
+Für den Transfer einer bereits registrierten Domain brauchst du einen **Auth Code** (kurz für Autorisierungscode). Das ist sozusagen das Passwort für Domains. Der Auth Code wird benötigt, wenn eine Domain von einem Anbieter zum anderen umziehen soll. Er stellt sicher, dass der Domain-Transfer wirklich vom rechtmäßigen Domain-Besitzer angefragt wird.
 
-Einige Anbieter stellen den Auth-Code bereits direkt in der Verwaltungsoberfläche bereit. Sollte dies nicht der Fall sein, so müsstest du deinen bisherigen Anbieter über deinen gewünschten Domainumzug informieren und den Auth-Code anfragen. 
+Manche Anbieter stellen den Auth Code direkt im Management-Interface bereit. Falls nicht, musst du deinen aktuellen Anbieter über den geplanten Domain-Transfer informieren und den Auth Code anfordern.
 
 :::warning Gültigkeitsdauer
-Der Auth-Code ist nur für eine bestimmte Zeit gültig. Nach Ablauf dieser Zeit musst du einen neuen Auth-Code anfordern.  Die Gültigkeitsdauer hängt von der jeweiligen Domainendung ab.
+
+Der Auth Code ist nur für eine bestimmte Zeit gültig. Nach Ablauf musst du einen neuen Auth Code anfordern. Die Gültigkeitsdauer hängt von der jeweiligen Domain-Endung ab.
 :::
 
-## Übertragung
+## Transfer
 
-Vorausgesetzt, dass du deinen Auth-Code besitzt, kannst du jetzt mit der Bestellung und Registrierung deiner Domain bei ZAP-Hosting fortfahren. Rufe dafür die Bestellseite für unsere [**Domains**](https://zap-hosting.com/de/shop/product/domain/) auf. Fülle zunächst deine persönlichen Daten aus und suche dann nach der Domain, die du übertragen möchtest.
+Wenn du deinen Auth Code hast, kannst du deine Domain bei ZAP-Hosting bestellen und registrieren. Geh dazu auf die Bestellseite für unsere [**Domains**](https://zap-hosting.com/en/shop/product/domain/). Füll zuerst deine persönlichen Daten aus und such dann nach der Domain, die du transferieren möchtest.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/FaFECx24GLSfkPy/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/3dmY76dZscz9DPM/preview)
 
 :::info
-Um eine Domain zu übertragen, musst du sie während des Bestellvorgangs um 1 Jahr verlängern. Das ist bei allen Anbietern üblich.
+Um eine Domain zu transferieren, musst du sie während des Bestellvorgangs um 1 Jahr verlängern. Das ist bei allen Anbietern Standard.
 :::
 
-Daraufhin öffnet sich eine Liste deiner Wunschdomain mit allen verfügbaren Domainendungen. Domains, die bereits woanders registriert sind, erkennst du an dem grauen Button mit dem Pfeil. 
+Eine Liste mit deiner Wunschdomain und allen verfügbaren Domain-Endungen öffnet sich. Domains, die schon woanders registriert sind, erkennst du am grauen Button mit dem Pfeil.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/omnaMqXJgarxsqW/preview)
 
-Suche die Domain, die du übertragen möchtest, und klicke auf den Pfeil. Daraufhin öffnet sich eine neue Eingabeaufforderung, mit der du den Transfer zu deinem ZAP-Hosting-Konto autorisierst.
+Such dir die Domain aus, die du transferieren willst, und klick auf den Pfeil. Es öffnet sich ein neues Fenster, in dem du den Transfer zu deinem ZAP-Hosting-Account autorisieren kannst.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/y9mca4c3XeTaaHS/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/fXjwGCX7kFtPnTB/preview)
 
-In dieses Feld musst du den **Auth Code** eingeben, den du von deinem vorherigen Anbieter während der Vorbereitung erhalten hast. Sobald du fertig bist, übermittle ihn mit dem grünen Button **Hinzufügen**.
+In dieses Feld gibst du den **Auth Code** ein, den du im Vorbereitungsschritt von deinem bisherigen Anbieter bekommen hast. Wenn alles passt, bestätige mit dem grünen **Hinzufügen**-Button.
 
-:::danger Eingabe auf Richtigkeit prüfen
+:::danger Eingabe genau prüfen
 
-Stelle sicher, dass die Eingabe des **Auth Code** korrekt und gültig ist. Andernfalls wird der Bestellvorgang und Umzug der Domain fehlschlagen. 
+Bitte überprüfe, dass der **Auth Code** korrekt und gültig ist. Sonst verzögert sich der Bestellprozess und der Domain-Transfer kann fehlschlagen.
 :::
 
-Der Domaintransfer wurde nun eingeleitet. Die Dauer des Domaintransfers kann je nach Domainendung und bisherigem Provider variieren. Normalerweise wird ein Domaintransfer innerhalb von 72 Stunden erfolgreich abgeschlossen. In besonderen Fällen kann ein Transfer jedoch mehr Zeit in Anspruch nehmen, da es viele Faktoren gibt, die dies beeinflussen.
+Der Domain-Transfer wurde jetzt gestartet. Wie lange der Transfer dauert, hängt von der Domain-Endung und dem vorherigen Anbieter ab. In der Regel ist der Transfer innerhalb von 72 Stunden abgeschlossen. In Einzelfällen kann es aber auch länger dauern, da viele Faktoren eine Rolle spielen.
 
 ## Konfiguration
 
-Sollte die Domain mittlerweile erfolgreich zu uns übertragen worden sein, so kannst du mit der Konfiguration der Domain beginnen. In der Verwaltungsoberfläche deiner Domain kannst du beispielsweise Änderungen an den DNS-Einstellungen oder Nameserver vornehmen. Zu unseren Domainprodukt bieten wir noch weitere Anleitungen an, die dir eventuell weiterhelfen:
+Wenn die Domain erfolgreich zu uns transferiert wurde, kannst du mit der Konfiguration starten. Im Management-Interface deiner Domain kannst du z.B. DNS-Einstellungen oder Nameserver ändern. Wir haben weitere Anleitungen für unsere Domain-Produkte, die dir helfen können:
 
 - [Einführung](domain-introduction.md)
 - [Domain bestellen](domain-order.md)
 - [EasyDNS](domain-easydns.md)
 - [ProfiDNS](domain-profidns.md)
 - [ExpertDNS](domain-expertdns.md)
-- [Domain Records](domain-records.md)
-- [Gameserver Weiterleitung](domain-gameserver-srv-link.md)
-- [TeamSpeak 3 Weiterleitung](domain-teamspeak-redirect.md)
-- [Cloudflare einrichten](domain-cloudflare-setup.md)
+- [Domain-Einträge](domain-records.md)
+- [Gameserver-Weiterleitung](domain-gameserver-srv-link.md)
+- [TeamSpeak 3-Weiterleitung](domain-teamspeak-redirect.md)
+- [Cloudflare Einrichtung](domain-cloudflare-setup.md)
 
 ## Support
-Bei Fragen oder Problemen steht dir unser Support täglich von morgens bis spät in die Nacht zur Verfügung. Solltest du beim Umzug Hilfe benötigen, dann lass es uns gerne über den [**Live Chat**](https://zap-hosting.com/), das **[Ticket System](https://zap-hosting.com/en/customer/support/)** oder per E-Mail an [**support@zap-hosting.com**](mailto:support@zap-hosting.com) wissen. Wir helfen dir gerne weiter! :)
+
+Wenn du Fragen oder Probleme hast, ist unser Support-Team täglich von morgens bis spät abends für dich da. Brauchst du Hilfe beim Transfer, melde dich gerne über den [**Live Chat**](https://zap-hosting.com/), das **[Ticketsystem](https://zap-hosting.com/en/customer/support/)** oder per Mail an [**support@zap-hosting.com**](mailto:support@zap-hosting.com). Wir helfen dir gern! :)
 
 <InlineVoucher />

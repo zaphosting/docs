@@ -1,7 +1,7 @@
 ---
 id: vserver-linux-gs-interface
-title: "vServer: Gameserver/TS3 Interface"
-description: Informationen, wie du über das Gameserver/TS3 Interface mit wenigen Klicks TS und Gameserver auf deinen vServer von ZAP-Hosting.com installieren kannst - ZAP-Hosting.com Dokumentation
+title: "VPS: Gameserver/TS3 Interface"
+description: "Entdecke, wie du ganz easy Gameserver und Voiceserver auf Linux VPS ohne Vorkenntnisse mit einer automatisierten Oberfläche einrichtest → Jetzt mehr erfahren"
 sidebar_label: GS/TS3 Interface
 services:
   - vserver
@@ -12,168 +12,150 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
 
-Wenn Gameserver-Produkte nicht deinem Geschmack oder Erwartungen entsprechen oder du deinen Dienst noch anderweitig benötigst, ist die Nutzung eines vServer oder Rootservers häufig die bessere Option. Allerdings steht man dort oft vor der Herausforderung, dass nicht alle Dienste automatisiert vorgegeben oder installiert sind. Die Einrichtung der Dienste, wie zum Beispiel der Installation von Gameserver, Teamspeak 3 Server und Musikbots, muss eigenständig durchgeführt werden.
+Wenn dir unsere Gameserver-Produkte nicht so zusagen oder du deinen Service auf andere Weise brauchst, ist ein VPS oft die bessere Wahl. Allerdings stehst du dann oft vor der Herausforderung, dass nicht alle Services automatisiert oder vorinstalliert sind. Das Einrichten von Services wie Gameservern, Teamspeak 3 Servern und Musikbots musst du dann selbst übernehmen.
 
-Um dieses Problem zu lösen, haben wir für unsere Linux-basierten vServer oder Dedicated Server eine praktische Lösung entwickelt. Das sogenannte Gameserver / Teamspeak 3 Server Interface (GS/TS3 Interface)!
+Um dir das Leben leichter zu machen, haben wir eine praktische Lösung für unsere Linux-basierten VPS oder Dedicated Server entwickelt: Die sogenannte Gameserver/Teamspeak 3 Server Schnittstelle (GS/TS3 Interface)!
 
-
-
-<YouTube videoId="V6qyQFPp_Ls" imageSrc="https://screensaver01.zap-hosting.com/index.php/s/frWNEMQqcMxzRcM/preview" title="Setup a Game Server using Linux vServer with NO EXPERIENCE!" description="Hast du das Gefühl, dass du etwas besser verstehst, wenn du es in Aktion siehst? Wir haben etwas für dich! Tauche ab in unser Video, welches alles für dich zusammenfasst. Egal, ob du es eilig hast oder einfach nur Informationen auf möglichst verständliche Art und Weise aufnehmen möchtest!"/>
+<YouTube videoId="V6qyQFPp_Ls" imageSrc="https://screensaver01.zap-hosting.com/index.php/s/frWNEMQqcMxzRcM/preview" title="Gameserver auf Linux VPS ohne Vorkenntnisse einrichten!" description="Lernst du besser, wenn du Dinge in Aktion siehst? Kein Problem! Unser Video erklärt dir alles Schritt für Schritt. Egal ob du es eilig hast oder lieber entspannt alles aufnimmst!"/>
 
 <InlineVoucher />
 
-## Anwendung
+## Anwendungsfall
 
-Mit dem benutzerfreundlichen GS/TS3 Interface kannst du mit nur wenigen Klicks einen Teamspeak 3 oder andere verschiedene ausgewählte Gameserver-Dienste auf deinem Linux-basierten vServer oder Dedicated Server installieren. Für diese Installation sind keinerlei Vorkenntnisse erforderlich. Die Einrichtung sämtlicher benötigter Pakete, der Server-Dateien sowie die eigentliche Installation werden vollständig automatisch durchgeführt, wodurch du Zeit und Mühe sparst.
+Mit der benutzerfreundlichen GS/TS3 Oberfläche kannst du Teamspeak 3 oder andere ausgewählte Gameserver-Services auf deinem Linux-basierten VPS oder Dedicated Server mit nur wenigen Klicks installieren. Für die Installation brauchst du keine Vorkenntnisse. Die Einrichtung aller nötigen Pakete, Serverdateien und die eigentliche Installation laufen vollautomatisch ab – das spart dir Zeit und Aufwand.
 
-:::info
-Das GS/TS3- Interface Feature kann mit den folgenden Betriebssystemen verwendet werden:
+:::warning
+Das GS/TS3 Interface Feature funktioniert mit folgenden Betriebssystemen:
 
 - Debian: 10, 11, 12
 - Ubuntu: 20.04, 22.04
 
-(*) Wir arbeiten bereits daran, andere und neuere Betriebssysteme und (Versionen) in naher Zukunft bereitzustellen.
+(*) Wir arbeiten bereits daran, bald weitere und neuere Betriebssysteme und Versionen verfügbar zu machen.
 :::
 
 
 
-## Verfügbare Dienste & Spiele
+## Verfügbare Services / Spiele
 
-Das GS/TS3 Interface unterstützt die Einrichtung von Gameserver, Voiceserver und Musikbots. Ein Großteil der Spiele, die wir für unsere Gameserver Produkte anbieten, sind bei uns ebenfalls in der GS/TS3 Interface Option vorhanden. Das betrifft alle Spiele, die wir aktiv unter Linux betreiben. Alle Spiele die bei uns über Windows Betriebssysteme laufen können leider nicht installiert werden. Dort ist lediglich eine manuelle Installation möglich, sofern das Spiel eine Linux Server Version unterstützt. 
+Das GS/TS3 Interface unterstützt die Einrichtung von Gameservern, Voiceservern und Musikbots. Die meisten Games, die wir für unsere Gameserver-Produkte anbieten, sind auch über das GS/TS3 Interface verfügbar. Das gilt für alle Games, die wir aktiv unter Linux betreiben. Alle Games, die nur unter Windows laufen, können leider nicht installiert werden. Dort ist nur eine manuelle Installation möglich, sofern das Game eine Linux-Server-Version unterstützt.
 
-| Dienste     | vServer  | Dedicated Server |
-| ----------- | ---- | ---------------- |
-| Gameserver  | ✔️    | ✔️                |
-| Voiceserver | ✔️    | ✔️                |
-| Musikbot (Sinusbot) | ✔️    | ✔️                |
+| Services    | Unterstützt |
+| ----------- | ---- |
+| Gameserver  | ✔️    |
+| Voiceserver | ✔️    |
+| Musicbot (Sinuxbot)   | ✔️    |
 
 
 
 ## Installation und Konfiguration
 
-Um das GS/TS3 Interface zu installieren, musst du in deiner Server Verwaltung deines Produktes zu dem Navigations Panel **Einstellungen** navigieren und dort auf den Unterpunkt **Gameserver / TS3** klicken. 
+Um das GS/TS3 Interface zu installieren, navigiere im Server-Adminbereich deines Produkts zum Menüpunkt **Einstellungen** und klicke auf den Unterpunkt **Gameserver / TS3**. 
 
-Beim ersten Aufruf des GS/TS3 Interface gelangst du zum benutzerfreundlichen Einrichtungsassistenten. Um das Interface einzurichten und mit deinem Server zu verknüpfen, ist es zunächst erforderlich, einen SSH-Schlüssel zu erstellen. Dieser Schlüssel ist notwendig, damit die Webseite eine sichere Verbindung zum Server herstellen kann. Dadurch wird die Einrichtung, Verwaltung und Kontrolle der Dienste, wie beispielsweise Gameserver und Teamspeak 3 Server, direkt über das Interface ermöglicht.
+Beim ersten Aufruf des GS/TS3 Interfaces wirst du zum benutzerfreundlichen Setup-Assistenten weitergeleitet. Um die Schnittstelle einzurichten und mit deinem Server zu verbinden, musst du zuerst einen SSH-Schlüssel erstellen. Dieser Schlüssel ist notwendig, damit die Webseite eine sichere Verbindung zum Server aufbauen kann. So kannst du Services wie Gameserver und Teamspeak 3 Server direkt über die Oberfläche einrichten, verwalten und steuern.
 
-
-
-Dort angelangt muss nun der SSH-Schlüssel angelegt werden. Klicke dazu auf den **SSH-Key generieren** Button und füge den Schlüssel im Anschluss hinzu, in dem du auf den **Key hinzufügen** Button klickst. 
+Dort erstellst du den SSH-Schlüssel. Klicke dazu auf den Button **SSH-Schlüssel generieren** und füge den Schlüssel anschließend mit dem Button **Schlüssel hinzufügen** hinzu. 
 
 
-![](https://screensaver01.zap-hosting.com/index.php/s/7LXsQ9CNkX9b7dD/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/teZ87eGKRm6iJRa/preview)
 
 
 
-Nachdem du auf **Key hinzufügen** geklickt hast, wurde der SSH-Schlüssel bei deinem Server hinterlegt. Im Anschluss kann bereits das GS/TS3 Interface bei deinem Server angelegt werden. 
+Nach Klick auf **Schlüssel hinzufügen** wird der SSH-Schlüssel auf deinem Server gespeichert. Das GS/TS3 Interface kann dann mit deinem Server verbunden werden.
 
 
 
-![](https://screensaver01.zap-hosting.com/index.php/s/X2QDRrmmbgbE4TT/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/QqtCFmC3oxPErD9/preview)
 
 
 
 :::info
-Wenn der SSH-Schlüssel nicht direkt erkannt wird, ist ein Neustart des Servers und eine Aktualisierung der Seite eine mögliche Lösung.
+**Tipp:** Falls der SSH-Schlüssel nicht sofort erkannt wird, hilft oft ein Neustart des Servers und ein Neuladen der Seite.
 :::
 
+Während der Installation kannst du den aktuellen Fortschritt verfolgen. Beachte, dass die Installation und Konfiguration der Schnittstelle und ihrer Pakete etwas Zeit in Anspruch nehmen kann. In der Regel dauert das zwischen 5 und 15 Minuten.
 
-
-Während der Installation kannst du den aktuellen Fortschritt einsehen. Bitte beachte, dass die Installation und Konfiguration des Interface und dessen Pakete eine gewisse Zeit in Anspruch nehmen kann. Das kann in der Regel zwischen 5 bis 15 Minuten dauern. 
-
-
-
-![](https://screensaver01.zap-hosting.com/index.php/s/nEQQ79eneoFmXek/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/xkWQBEp74BqQdM6/preview)
 
 :::info
-**Achtung**: Bitte setze den Prozess erst fort, wenn das Interface vollständig installiert ist. Du erkennst die erfolgreiche Installation daran, dass der Fortschrittsbalken verschwunden ist und bei jedem erforderlichen Paket "Installiert" anstelle von "fehlt" angezeigt wird.
+**Achtung**: Bitte unterbrich den Prozess nicht, bis die Schnittstelle komplett installiert ist. Du erkennst die erfolgreiche Installation daran, dass die Fortschrittsanzeige verschwindet und bei jedem benötigten Paket statt "Fehlt" nun "Installiert" steht.
 :::
 
 
 
-### Gameservers erstellen
+### Gameserver erstellen
 
-Sofern das Anlegen und die Installation des GS/TS3 Interfaces erfolgreich abgeschlossen wurde, kann nun mit der Einrichtung der Dienste begonnen werden. Die Installation eines Gameservers erfolgt über den **Gameserver installieren** Button in der **Gameserver** Kategorie. 
+Wenn die Erstellung und Installation des GS/TS3 Interfaces erfolgreich abgeschlossen ist, kannst du mit der Einrichtung der Services starten. Die Installation eines Gameservers erfolgt über den Button **Gameserver installieren** in der Kategorie **Gameserver**.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/aYMkYLrSpcQT52Y/preview)
-
-
-
-Im nächsten Schritt hast du die Möglichkeit, die IP-Adresse des gewünschten Gameservers auszuwählen (vorausgesetzt, dein Server verfügt über mehr als eine IP). Zudem kannst du den gewünschten Port, die Anzahl der Slots und den RAM-Boost individuell festlegen.
-
-![](https://screensaver01.zap-hosting.com/index.php/s/xF7z5idmFsp4CQH/preview)
-
-Stelle sicher, dass alle Angaben korrekt sind und deinen Anforderungen entsprechen. Sobald du alle Einstellungen vorgenommen hast, klicke auf "Gameserver jetzt installieren", um den Installationsprozess zu starten. Der Gameserver wird dann entsprechend deiner Vorgaben eingerichtet und du kannst in Kürze loslegen. Im Anschluss kannst du nun deinen neu angelegten Gameserver in der Liste einsehen und aufrufen.
+![](https://screensaver01.zap-hosting.com/index.php/s/4TD3w3dpXrFYNcb/preview)
 
 
 
-![](https://screensaver01.zap-hosting.com/index.php/s/BHxr9wy6n3jKTY7/preview)
+Im nächsten Schritt kannst du die IP-Adresse des gewünschten Gameservers auswählen (sofern dein Server mehrere IPs hat). Außerdem kannst du den gewünschten Port, die Slot-Anzahl und den RAM-Boost individuell einstellen.
+
+![](https://screensaver01.zap-hosting.com/index.php/s/icfwifbTrmwZQ6q/preview)
+
+Check, ob alle Angaben korrekt sind und deinen Anforderungen entsprechen. Sobald du alle Einstellungen vorgenommen hast, klick auf "Gameserver jetzt installieren", um den Installationsprozess zu starten. Der Gameserver wird dann nach deinen Vorgaben eingerichtet und du kannst bald loslegen. Deinen neu erstellten Gameserver findest du jetzt in der Liste.
 
 
 
-Du befindest dich nun in der Verwaltung von deinem Gameserver. Dort hast du die Möglichkeit im **Einstellungen** Navigations Panel unter **Spiele** das gewünschte Spiel für deinen Gameserver auszuwählen und zu installieren. 
+![](https://screensaver01.zap-hosting.com/index.php/s/MTRmMwc9GyMFW5A/preview)
 
 
 
-![](https://screensaver01.zap-hosting.com/index.php/s/Cdm9zoD4B787BSs/preview)
+Du bist jetzt in der Verwaltung deines Gameservers. Dort kannst du im Menü **Einstellungen** unter **Spiele** das gewünschte Game für deinen Gameserver auswählen und installieren.
 
+![](https://screensaver01.zap-hosting.com/index.php/s/xqxLAAR6jbdmM3Z/preview)
 
+Hier findest du eine Liste aller Games, die du auf deinem Server installieren kannst. In diesem Beispiel wird ein Server mit dem Game (Paket) Minecraft: Paperspigot installiert. Wähle dein Wunschspiel aus und klicke auf den grünen Button, um die Installation zu starten.
 
-Hier findest du eine Liste aller Spiele welche du auf deinem Server installieren könntest. In diesem Beispiel wird ein Server mit dem Spiel(-paket) Minecraft: Paperspigot installiert. Wähle hierzu dein gewünschtes Spiel aus und klicke auf den grünen Button, um die Installation zu starten. 
+![](https://screensaver01.zap-hosting.com/index.php/s/MtrsxLoYxssJLBt/preview)
 
-![](https://screensaver01.zap-hosting.com/index.php/s/4t8s4AReqx3LKC5/preview)
+Es erscheint eine Übersicht mit allen notwendigen Voraussetzungen. Wenn alle Bedingungen erfüllt sind, kannst du den Vorgang mit dem Button **Akzeptieren und installieren** bestätigen.
 
-Es erfolgt eine Übersicht mit allen notwendigen Bedingungen. Sollten alle Bedingungen erfüllt sein, so kannst du im Anschluss den Vorgang mit dem **Akzeptieren und Installieren** Button bestätigen. 
+![](https://screensaver01.zap-hosting.com/index.php/s/GjijXaM3z9EgnYG/preview)
 
-![](https://screensaver01.zap-hosting.com/index.php/s/KjNAskJLLcaP9PD/preview)
-
-Die Einrichtung des Spiels kann je nach Spiel eine gewisse Zeit beanspruchen. Der Fortschritt wird in der Statusanzeige angezeigt. Im Anschluss kannst du deinen Gameserver starten und dich im Spiel damit verbinden!
+Die Einrichtung des Spiels kann je nach Game etwas dauern. Der Fortschritt wird im Status angezeigt. Danach kannst du deinen Gameserver starten und dich im Spiel verbinden!
 
 
 
 ### Voiceserver erstellen
 
-Die Installation eines **Voiceserver (Teamspeak 3 Server)** verläuft ähnlich wie die eines Gameservers. Zunächst musst du erneut auf "Gameserver / TS3" klicken. In diesem Bereich findest du die Option **Voiceserver installieren**, die du anklicken kannst, um den Installationsprozess für den Teamspeak 3 Server zu starten.
+Die Installation eines **Voiceservers (Teamspeak 3 Server)** läuft ähnlich ab wie die eines Gameservers. Du musst wieder auf "Gameserver / TS3" klicken. Dort findest du die Option **Voiceserver installieren**, mit der du die Installation des Teamspeak 3 Servers starten kannst.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/QYL6AktJxcd8qCy/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/xct5DPC57wWeABG/preview)
 
+Im nächsten Schritt kannst du die gewünschten Einstellungen für deinen Teamspeak 3 Server festlegen, z.B. IP-Adresse, Port und Slot-Anzahl. Wenn du alle Infos eingegeben hast, kannst du die Installation mit **Voiceserver jetzt installieren** abschließen.
 
+![](https://screensaver01.zap-hosting.com/index.php/s/2XnJrDEDyLwBsHk/preview)
 
-Im nächsten Schritt hast du wieder die Möglichkeit, die gewünschten Einstellungen für deinen Teamspeak 3 Server festzulegen, wie zum Beispiel die IP-Adresse, den Port und die Anzahl der verfügbaren Slots. Nachdem du alle erforderlichen Angaben gemacht hast, kannst du die Installation abschließen, indem du auf **Voiceserver jetzt installieren** klickst.
+Check, ob alle Angaben korrekt sind und deinen Anforderungen entsprechen. Sobald du alle Einstellungen vorgenommen hast, klick auf **Teamspeak 3/5 Server jetzt installieren**, um den Installationsprozess zu starten. Den installierten Teamspeak 3 Server findest du dann in der **Voiceserver Übersicht**.
 
-
-
-![](https://screensaver01.zap-hosting.com/index.php/s/QpKmZnPjtxqPtJR/preview)
-
-Stelle sicher, dass alle Angaben korrekt sind und deinen Anforderungen entsprechen. Sobald du alle Einstellungen vorgenommen hast, klicke auf **Teamspeak 3/5 Server jetzt installieren**, um den Installationsprozess zu starten. Im Anschluss kannst du den installierten Teamspeak 3 Server nun in der **Voiceserver Übersich**t einsehen und anklicken.
-
-![](https://screensaver01.zap-hosting.com/index.php/s/9aCHNC8kfbJXJR7/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/bgpZJgPjz7Ybpke/preview)
 
 :::info
-**Achtung**: Es handelt sich hierbei um die Instanz, auf welchem der Teamspeak 3 Server im Anschluss angelegt wird.
+**Achtung**: Das ist die Instanz, auf der der Teamspeak 3 Server später installiert wird.
 :::
 
-Du befindest dich nun im Interface der Instanz von deinem installierten Teamspeak 3 Server. Die Instanz kannst du nun mit einem Klick auf den **Start** Button starten.
+Du bist jetzt in der Oberfläche der Instanz deines installierten Teamspeak 3 Servers. Du kannst die Instanz jetzt mit dem Button **Start** starten.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/pCryZXQzqsnZ8zR/preview)
-
-
-Nun kannst du auf den Menüpunkt **Virtuelle Server** klicken. In diesem Bereich werden alle installierten Teamspeak 3 Server auf deiner Instanz übersichtlich aufgelistet. Um das Interface des jeweiligen Teamspeak 3 Servers aufzurufen, klicke einfach auf das "Auge"-Symbol.
-
-![](https://screensaver01.zap-hosting.com/index.php/s/8R7HFaHx6SfsdsC/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/G96RPrjEdm96CCj/preview)
 
 
+Klicke nun auf den Menüpunkt **Virtuelle Server**. Dort werden alle installierten Teamspeak 3 Server auf deiner Instanz übersichtlich aufgelistet. Um die Oberfläche des jeweiligen Teamspeak 3 Servers aufzurufen, klick einfach auf das "Augen"-Symbol.
 
-Im Interface des Teamspeak 3 Servers findest du alle notwendigen Informationen und Einstellungsmöglichkeiten, um deinen Server individuell zu gestalten und zu verwalten. Beispielsweise kannst du unter dem Reiter "Berechtigungsschlüssel" einen Token erstellen, der dir Admin-Rechte auf deinem Server gewährt. Dies ermöglicht dir die vollständige Kontrolle über die Benutzerverwaltung und den Zugriff auf den Server.
+![](https://screensaver01.zap-hosting.com/index.php/s/awJdyTgJPSia5B2/preview)
 
-Unter dem Menüpunkt "Einstellungen" stehen dir weitere Optionen zur Verfügung, um deinen Server anzupassen. Hier kannst du zum Beispiel den Namen deines Servers ändern, ein Passwort festlegen, um den Zugang zu beschränken, oder eine persönliche Begrüßungsnachricht hinterlegen, die Nutzer beim Betreten des Servers empfangen.
+In der Teamspeak 3 Server Oberfläche findest du alle wichtigen Infos und Einstellungsmöglichkeiten, um deinen Server individuell zu gestalten und zu verwalten. Unter dem Reiter "Autorisierungsschlüssel" kannst du z.B. einen Token erstellen, der dir Admin-Rechte auf deinem Server gibt. So hast du volle Kontrolle über Benutzerverwaltung und Serverzugang.
 
-:::caution Information about Teamspeak licenses
-Standardmäßig ist keine Lizenz auf dem Teamspeak 3 Server installiert. Dies hat zur Folge, dass du zunächst lediglich einen Teamspeak 3 Server mit einer Kapazität von 32 Slots nutzen kannst. Möchtest du jedoch mehr Kapazitäten oder zusätzliche Funktionen für deinen Teamspeak 3 Server freischalten, kannst du eine entsprechende Lizenz von Teamspeak erwerben.
+Unter dem Menüpunkt "Einstellungen" hast du weitere Optionen, deinen Server anzupassen. Hier kannst du z.B. den Namen deines Servers ändern, ein Passwort setzen, um den Zugang zu beschränken, oder eine persönliche Willkommensnachricht hinterlegen, die Nutzer beim Betreten des Servers sehen.
+
+:::caution Infos zu Teamspeak-Lizenzen
+Standardmäßig ist keine Lizenz auf dem Teamspeak 3 Server installiert. Das bedeutet, du kannst den Teamspeak 3 Server nur mit bis zu 32 Slots nutzen. Wenn du mehr Slots oder zusätzliche Features möchtest, kannst du eine passende Lizenz direkt bei Teamspeak kaufen.
 :::
 
 
-## Abschluss
+## Fazit
 
-Glückwunsch, du hast GS/TS3 Interface erfolgreich installiert und konfiguriert! Solltest du noch weitere Fragen oder Probleme haben, dann wende dich gerne an unser Support-Team, welches dir jeden Tag zur Verfügung steht! 
+Glückwunsch, du hast unser GS/TS3 Interface erfolgreich installiert und konfiguriert! Falls du noch Fragen oder Probleme hast, steht dir unser Support-Team täglich zur Seite und hilft dir gerne weiter! 
 
 <InlineVoucher />

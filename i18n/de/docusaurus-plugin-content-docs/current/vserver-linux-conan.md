@@ -1,7 +1,7 @@
 ---
 id: vserver-linux-conan
-title: "vServer: Conan Exiles Dedicated Server Linux Setup"
-description: Informationen zur Einrichtung eines Conan Exiles Dedicated Servers auf einem Linux vServer von ZAP-Hosting - ZAP-Hosting.com Dokumentation
+title: "VPS: Conan Exiles Dedicated Server Linux Setup"
+description: "Entdecke, wie du einen Conan Exiles Dedicated Server auf deinem Linux VPS mit SteamCMD und Wine zum Laufen bringst → Jetzt mehr erfahren"
 sidebar_label: Conan Exiles
 services:
   - vserver
@@ -11,75 +11,75 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
 
-Hast du einen Linux vServer und möchtest den Conan Exiles Dedicated Server Dienst darauf installieren? Dann bist du hier genau richtig. In diesem Anleitung erklären wir dir Schritt für Schritt, wie du diesen Dienst mithilfe von SteamCMD auf deinem Linux-Server installierst. In den Beispielen verwenden wir Ubuntu, aber der Prozess sollte für andere Distributionen sehr ähnlich sein.
+Du hast einen Linux VPS und willst darauf den Conan Exiles Dedicated Server installieren? Dann bist du hier genau richtig. In dieser Anleitung erklären wir dir Schritt für Schritt, wie du diesen Service auf deinem Linux-Server mit SteamCMD installierst. Wir nutzen Ubuntu als Beispiel, aber der Ablauf ist bei anderen Distributionen ähnlich.
 
 :::tip
-Wusstest du, dass du unser **ZAP GS/TS3 Interface** direkt auf deinem vServer installieren kannst? Damit kannst du mit nur wenigen Klicks Gameserver-Dienste einrichten, die direkt in dein ZAP-Hosting-Dashboard integriert sind! Erfahre mehr über das [GS/TS3 Interface](vserver-linux-gs-interface.md).
+Wusstest du, dass du unser **ZAP GS/TS3 Interface** direkt auf deinem VPS installieren kannst? Damit richtest du Gameserver-Services mit direkter Integration in dein ZAP-Hosting Dashboard in nur wenigen Klicks ein! Mehr Infos zum [GS/TS3 Interface](vserver-linux-gs-interface.md).
 :::
 
 <InlineVoucher />
 
 ## Vorbereitung
 
-Verbinde dich zunächst über SSH mit deinem vServer. Benutze unsere Anleitung [Erstzugriff (SSH)](vserver-linux-ssh.md), wenn du dabei Hilfe benötigst.
+Verbinde dich zuerst per SSH mit deinem VPS. Falls du Hilfe brauchst, schau dir unsere [SSH Erste Schritte](vserver-linux-ssh.md) Anleitung an.
 
-Du musst auch eine Ersteinrichtung für SteamCMD vornehmen, wenn du es zum ersten Mal auf deinem Linux-Server verwendest. Bitte benutze unsere [SteamCMD einrichten](vserver-linux-steamcmd.md) Anleitung und stelle sicher, dass SteamCMD vollständig eingerichtet ist, bevor du fortfährst.
+Wenn du SteamCMD zum ersten Mal auf deinem Linux-Server nutzt, musst du es einmalig einrichten. Nutze dafür unsere [SteamCMD Linux Setup](vserver-linux-steamcmd.md) Anleitung und stelle sicher, dass SteamCMD komplett eingerichtet ist, bevor du weitermachst.
 
 :::info Wine-Kompatibilitätsschicht
-Conan Exiles bietet derzeit kein natives Linux-basiertes Server-Build an. Das bedeutet, dass ein zusätzlicher Vorbereitungsschritt notwendig ist, um das Windows-Server-Build unter Linux auszuführen.
+Conan Exiles bietet aktuell keinen nativen Linux-Server, deshalb ist ein zusätzlicher Schritt nötig, um die Windows-Server-Version unter Linux laufen zu lassen.
 
-Du musst eine einmalige Installation der **Wine**-Kompatibilitätsschicht durchführen, wenn du diese zum ersten Mal auf deinem Linux-Server verwendest. Bitte benutze unsere Kurzanleitung [Wine-Kompatibilitätsschicht einrichten](vserver-linux-wine.md), um dies einzurichten, bevor du fortfährst.
+Du musst einmalig die **Wine** Kompatibilitätsschicht installieren, falls du das noch nicht auf deinem Linux-Server gemacht hast. Unsere schnelle [Wine Kompatibilitätsschicht Setup](vserver-linux-wine.md) Anleitung hilft dir dabei.
 :::
 
 ## Installation
 
-Beginne damit, dich als Benutzer `steam` anzumelden und gehe in das Root-Verzeichnis `home/steam`, um für Ordnung zu sorgen.
+Melde dich als `steam` User an und wechsle in das Home-Verzeichnis von `steam`, um alles ordentlich zu halten.
 ```
 sudo -u steam -s
 cd ~
 ```
 
-Wenn du eingeloggt bist, kannst du den Installationsprozess mit folgendem Befehl starten, um die Installation mit Hilfe von SteamCMD direkt in deinem `steam`-Benutzer zu starten. Mit dem Parameter `+@sSteamCmdForcePlatformType windows` stellst du zwangsweise sicher, dass die Windows-Binärdateien installiert werden.
+Starte dann die Installation mit folgendem Befehl, der SteamCMD nutzt, um die Windows-Version des Servers direkt im Verzeichnis `/home/steam/Conan-Server` zu installieren. Der Parameter `+@sSteamCmdForcePlatformType windows` sorgt dafür, dass die Windows-Binaries installiert werden.
 ```
 steamcmd +@sSteamCmdForcePlatformType windows +force_install_dir '/home/steam/Conan-Server' +login anonymous +app_update 443030 validate +quit
 ```
 
-Bitte habe etwas Geduld, während der Download abgeschlossen wird, denn bei größeren Spielen kann es einige Zeit dauern. Sobald der Download erfolgreich war, wird eine Erfolgsmeldung angezeigt, die dies bestätigt.
+Sei geduldig, der Download kann bei größeren Spielen etwas dauern. Wenn alles erfolgreich war, bekommst du eine Bestätigung angezeigt.
 
 ## Konfiguration
 
-In diesem Stadium hast du die Einrichtung deines Conan Exiles-Servers abgeschlossen. Du kannst weitere Serverkonfigurationen über eine Konfigurationsdatei im Verzeichnis deines Servers vornehmen.
+Jetzt ist die Grundinstallation deines Conan Exiles Servers abgeschlossen. Weitere Einstellungen kannst du über eine Konfigurationsdatei im Server-Verzeichnis vornehmen.
 
-Du kannst alle Konfigurationsparameter anpassen, indem Sie auf die Konfigurationsdatei **WindowsServerEngine.ini** zugreifen und diese im folgenden Verzeichnis bearbeiten.
+Alle Konfigurationsparameter findest und änderst du in der Datei **WindowsServerEngine.ini** im folgenden Pfad:
 ```
 nano /home/steam/Conan-Server/Engine/Config/Windows/WindowsServerEngine.ini
 ```
 
-Du kannst Konfigurationsoptionen hinzufügen, indem du bestimmte Parameter hinzufügen. Um beispielsweise einen Servernamen, ein Passwort und ein Admin-Passwort hinzuzufügen, würdest du Folgendes zur Datei hinzufügen.
+Du kannst z.B. Servername, Passwort und Admin-Passwort so hinzufügen:
 ```
 [OnlineSubsystem]
-ServerName=[your_servername]
-ServerPassword=[your_password]
+ServerName=[dein_servername]
+ServerPassword=[dein_passwort]
 
 [ServerSettings]
-AdminPassword=[your_adminpassword]
+AdminPassword=[dein_adminpasswort]
 ```
 
-Wir empfehlen, im [Conan Exiles Wiki](https://conanexiles.fandom.com/wiki/Server_Configuration) nach einer umfassenden Liste der verfügbaren Optionen zu suchen.
+Für eine ausführliche Liste aller Optionen empfehlen wir dir die [Conan Exiles Wiki](https://conanexiles.fandom.com/wiki/Server_Configuration).
 
-## Starten und Verbinden mit deinem Server
+## Server starten & verbinden
 
-Jetzt ist es an der Zeit, deinen Server zu starten. Gehe  zum Hauptverzeichnis des Spiels und führe die ausführbare Datei **ConanSandboxServer.exe** mit dem folgenden Befehl aus. Achte darauf, die Befehle **xvfb-run** und **wine64** hinzuzufügen, um sie über die Wine-Kompatibilitätsschicht auszuführen.
+Jetzt geht’s ans Eingemachte: Starte deinen Server, indem du ins Hauptverzeichnis des Spiels wechselst und die Datei **ConanSandboxServer.exe** mit folgendem Befehl ausführst. Nutze dabei **xvfb-run** und **wine64**, um den Server über die Wine-Kompatibilitätsschicht zu starten.
 ```
 xvfb-run wine64 /home/steam/Conan-Server/ConanSandboxServer.exe
 ```
 
-In deiner Eingabeaufforderung sollten nun viele Protokolle angezeigt werden, die darauf hinweisen, dass der Server gestartet wird. Du kannst eine direkte Verbindung herstellen, indem du in der Serverliste nach dem Server suchen oder eine direkte Verbindung über: `[your_ip_address]:7777` herstellen.
+Im Terminal solltest du viele Logs sehen, die anzeigen, dass der Server hochfährt. Verbinde dich dann direkt, indem du den Server in der Serverliste suchst oder direkt mit `[deine_ip_adresse]:7777` connectest.
 
-## Abschluss
+## Fazit
 
-Glückwunsch, du hast den Conan Exiles-Server erfolgreich auf deinem vServer installiert und konfiguriert! Als nächsten Schritt empfehlen wir dir einen Blick in unsere [Linux Dienst einrichten](vserver-linux-create-gameservice.md) Anleitung, in der du deinen neuen dedizierten Gameserver als Dienst einrichtest. Dies bietet verschiedene Vorteile, wie z. B. den automatischen Start des Servers beim Hochfahren, automatische Server-Updates, einfache Verwaltung und Zugriff auf Logs und vieles mehr!
+Glückwunsch, du hast deinen Conan Exiles Server erfolgreich auf deinem VPS installiert und konfiguriert! Als nächsten Schritt empfehlen wir dir unsere [Linux Service Setup](vserver-linux-create-gameservice.md) Anleitung. Damit richtest du deinen Dedicated Gameserver als Service ein – mit Vorteilen wie automatischem Start beim Booten, automatischen Updates, einfacher Verwaltung und Zugriff auf Logs und mehr!
 
-Wenn du weitere Fragen oder Probleme hast, wende dich bitte an unser Support-Team, das dir jeden Tag zur Verfügung steht!
+Falls du noch Fragen hast oder Probleme auftreten, steht dir unser Support-Team täglich zur Seite!
 
 <InlineVoucher />

@@ -1,42 +1,37 @@
 ---
 id: cs2-plugins
 title: "CS2: Installation von Plugins"
-description: Informationen über die Installation von PLugins für CS2 Server von ZAP-Hosting - ZAP-Hosting.com Dokumentation
+description: "Entdecke die sich entwickelnde Welt der CS2-Plugins und Community-Projekte, um dein Counter-Strike-Erlebnis zu verbessern → Jetzt mehr erfahren"
 sidebar_label: Plugins installieren
 services:
   - gameserver-cs2
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';
+import SearchableItemList from '@site/src/components/SearchableItemList/SearchableItemList';
+import items from '@site/data/lists/cs2-plugins.json';
 
-## Einführung 
+## Einführung
 
-Seit der Entwicklung von Counter-Strike hat sich das Spiel von einem simplen Half-Life Mod zu einer der bekanntesten und langlebigsten Ego-Shooter der Welt entwickelt. Doch was Counter-Strike besonders einzigartig und vielseitig macht, sind nicht nur die offiziellen Spielmodi, sondern auch die unzähligen benutzerdefinierten Modi, die von der weltweiten Community durch Plugins erstellt und ermöglicht wurden.
+Seit der Entwicklung von Counter-Strike hat sich das Spiel von einem einfachen Half-Life-Mod zu einem der bekanntesten und langlebigsten First-Person-Shooter weltweit entwickelt. Was Counter-Strike aber besonders einzigartig und vielseitig macht, sind nicht nur die offiziellen Spielmodi, sondern auch die unzähligen Custom-Modi, die von der weltweiten Community durch Plugins erstellt und ermöglicht werden.
 
 <InlineVoucher />
 
-## Aktuelle Situation
+## Aktuelle Lage
 
-Mit CS2 und dem dazugehörigen Umstieg auf die Source2 Engine hat sich einiges getan und verändert. Neue Änderungen können sowohl viel Positives als auch Negatives mitbringen. Ein Nachteil des Umstiegs ist derzeit die Situation mit Plugins bei CS2. Zum aktuellen Zeitpunkt gibt es noch kaum bis keine öffentlichen Projekte für die Entwicklung von Plugins. 
+Mit CS2 und dem damit verbundenen Wechsel zur Source2-Engine hat sich viel getan und verändert. Neue Änderungen können sowohl viel Positives als auch Negatives mit sich bringen. Ein Nachteil des Wechsels ist aktuell die Situation mit Plugins in CS2. Momentan gibt es kaum öffentliche Projekte zur Plugin-Entwicklung.
 
-Das vorherige Entwicklungsprojekt für das Spiel CS:GO, welches auf [Metamod](https://www.sourcemm.net/) und [Sourcemod](https://www.sourcemod.net/) basiert, ist nicht wirklich für die Verwendung von CS2 ausgelegt. Metamod funktioniert zumindest bis zu einem gewissen Grad. Zum aktuellen Zeitpunkt ist noch ungewiss, ob und zu wann eine Weiterentwicklung für das Spiel CS2 erfolgen wird. 
+Das bisherige Entwicklungsprojekt für das CS:GO-Spiel, das auf [Metamod](https://www.sourcemm.net/) und [Sourcemod](https://www.sourcemod.net/) basiert, ist nicht wirklich für die Nutzung mit CS2 ausgelegt. Metamod funktioniert zumindest teilweise. Zum jetzigen Zeitpunkt ist noch unklar, ob und wann es eine weitere Entwicklung für das CS2-Spiel geben wird.
 
-Die Informationen dazu sind derzeit sehr gering und unübersichtlich. Die aktuelle Situation kann hier verfolgt werden: 
+Die Infos dazu sind aktuell sehr begrenzt und unklar. Die aktuelle Lage kann hier verfolgt werden:
 
 - https://forums.alliedmods.net/showthread.php?t=342020
 - https://wiki.alliedmods.net/Introduction_to_SourceMod_Plugins#Will_SourceMod_support_Source_2.3F_Will_plugins_for_existing_games_continue_to_work_if_they_are_ported.3F
 
+Abgesehen von Sourcemod/Metamod werden momentan auch andere Projekte entwickelt. Eines davon ist zum Beispiel [ResourceMod](https://resourcemod.net/), das kürzlich auf Reddit vorgestellt wurde. Das Projekt befindet sich aber noch in der Entwicklung und kann aktuell nicht genutzt werden.
 
+## Beliebte Plugins
 
-Allerdings entstehen neben Sourcemod/Metamod momentan auch andere Projekte. Eines dieser Projekte ist beispielsweise [Resourcemod](https://resourcemod.net/about), welches vor kurzem auf Reddit vorgestellt wurde. Das Projekt befindet sich allerdings noch in der Entwicklung und kann bis zum aktuellen Zeitpunkt noch nicht verwendet werden. 
-
-
-
-## Wie geht es weiter?
-
-Wir werden die aktuelle Situation diesbezüglich im Auge behalten. Sollte sich hier etwas neues entwickeln, so werden wir dies bei unseren Diensten übernehmen und die Anleitung zur Installation von Plugins für CS2 entsprechend erweitern. 
-
-
-
+<SearchableItemList items={items} />
 
 <InlineVoucher />

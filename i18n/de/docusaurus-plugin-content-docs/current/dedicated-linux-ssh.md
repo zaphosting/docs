@@ -1,8 +1,8 @@
 ---
 id: dedicated-linux-ssh
-title: "vServer: Erstzugriff mit SSH"
-description: Informationen, wie der Erstzugriff mit SSH auf deinen Server von ZAP-Hosting funktioniert - ZAP-Hosting.com Dokumentation
-sidebar_label: Erstzugriff (SSH)
+title: "Dedicated Server: Erster Zugriff per SSH"
+description: "Entdecke beliebte SSH-Clients zur Verwaltung von Linux-Servern ohne GUI und lerne, wie du dich sicher per SSH verbindest → Jetzt mehr erfahren"
+sidebar_label: Erster Zugriff (SSH)
 services:
   - dedicated
 ---
@@ -11,110 +11,103 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
 
-Die Linux Server Produkte beinhalten standardmäßig keine grafische Verwaltungsoberfläche, weshalb die Verbindung und Verwaltung über einen SSH-Client (Konsole) erfolgt. Hierbei gibt es eine große Auswahl an SSH-Clients. Im Folgenden gibt es eine Übersicht der bekannten/oft genutzten SSH-Clients. 
+![](https://screensaver01.zap-hosting.com/index.php/s/TYEHE38gNQoFjBx/download/ssh_connect.gif)
+
+Linux-Server-Produkte beinhalten standardmäßig keine grafische Verwaltungsoberfläche, weshalb die Verbindung und Verwaltung über einen SSH-Client (Konsole) erfolgt. Es gibt eine große Auswahl an SSH-Clients. Unten findest du eine Übersicht der bekannten / häufig genutzten SSH-Clients.
 
 | SSH-Client | Unterstützte Betriebssysteme | Open-Source |                           Download                           |
 | :--------: | :--------------------------: | :---------: | :----------------------------------------------------------: |
 |   Putty    |        Windows, Linux        |     Ja      |               [Klick](https://www.putty.org/)                |
 |   Kitty    |        Windows, Linux        |     Ja      |        [Klick](http://www.9bis.net/kitty/)                   |
 | MobaXterm  |        Windows, Linux        |     Ja      |           [Klick](https://mobaxterm.mobatek.net/)            |
-| SecureCRT  |     Windows, Linux, Mac      |    Nein     | [Klick](https://www.vandyke.com/cgi-bin/releases.php?product=securecrt) |
+| SecureCRT  |     Windows, Linux, Mac      |     Nein    | [Klick](https://www.vandyke.com/cgi-bin/releases.php?product=securecrt) |
 | mRemoteNG  |           Windows            |     Ja      |           [Klick](https://mremoteng.org/download)            |
+
 
 <InlineVoucher />
 
-## IP-Adresse & Zugang
+## IP-Adresse & Zugriff
 
-Im Folgenden wird die Verbindung mittels des Putty SSH-Client erläutert. Im Konfigurationsfenster wird hierbei beim **Hostname** die IP-Adresse des Servers und der SSH Port 22 eingetragen. Im Anschluss kann der Verbindungsaufbau über den **Open** Button gestartet werden.
+Im Folgenden wird die Verbindung mit dem Putty SSH-Client erklärt. Im Konfigurationsfenster werden die IP-Adresse des Servers und der SSH-Port 22 als **Hostname** eingetragen. Danach kann die Verbindung über den **Open**-Button gestartet werden.
 
-
-
-![](https://screensaver01.zap-hosting.com/index.php/s/FWLPqTBHXJzXFLs/preview)
-
-
+![](https://screensaver01.zap-hosting.com/index.php/s/Jp2Wn3s9kQG5t55/preview)
 
 :::info
-Standardmäßig ist der SSH-Login via Passwort deaktiviert. Solltest du dich mit dem Passwort einloggen wollen, dann muss unter **Zugang & Sicherheit** die Option dafür erst aktiviert werden.
+Der SSH-Login per Passwort ist standardmäßig deaktiviert. Wenn du dich mit Passwort anmelden möchtest, musst du die Option zuerst unter **Zugriff & Sicherheit** aktivieren.
 :::
 
-
-
-![](https://screensaver01.zap-hosting.com/index.php/s/QRCZn29FfG792Zp/preview)
-
-
+![](https://screensaver01.zap-hosting.com/index.php/s/4fSRwzaq8QQLZ3o/preview)
 
 :::info
-Wenn die Verbindung zum Server ersten Mal erfolgt, dann erscheint eine Sicherheitsmeldung von Putty, in der mitgeteilt wird, dass noch kein Host-Schlüssel in der Registrierung zwischengespeichert wurde. Dies kann mit **Ja** bestätigt werden, wenn der Hinweis nicht weiterhin jedes Mal erfolgen soll. 
+Beim ersten Verbindungsaufbau zum Server erscheint eine Sicherheitsmeldung von Putty, die dich darüber informiert, dass noch kein Host-Key im Registry-Cache gespeichert ist. Diese kannst du mit **Yes** bestätigen, wenn du die Meldung künftig nicht mehr sehen möchtest.
 :::
 
  
 
-Daraufhin öffnet sich die SSH-Konsole, in der nach einem **Benutzernamen** und **Kennwort** gefragt wird. Der Benutzername lautet "**root**". Das Passwort ist im Webinterface unter "**Zugang & Sicherheit**" zu finden beziehungsweise kann dort gesetzt werden.
+Das öffnet die SSH-Konsole und fordert dich zur Eingabe von **Benutzername** und **Passwort** auf. Der Benutzername lautet "**root**". Das Passwort findest du im Webinterface unter "**Zugriff & Sicherheit**" oder kannst es dort setzen.
 
-
-
-![](https://screensaver01.zap-hosting.com/index.php/s/qg2acmbg36z7GCq/preview)
-
+![](https://screensaver01.zap-hosting.com/index.php/s/pG4dTmCGFyzK3dY/preview)
 
 
 
 
-## Verwaltung des Servers per SSH
 
-Für eine optimale Nutzung des SSH-Clients ist es unerlässlich, die Grundbefehle zu kennen. Im Folgenden findest du eine grobe Übersicht mit allen relevanten Befehlen und deren Bedeutung:
+## Administration per SSH
 
-
-
-### Account Verwaltung
-
-| Befehl  |                Beschreibung                |            Syntax            |
-| :-----: | :----------------------------------------: | :--------------------------: |
-| useradd |          Neuen Benutzer erstellen          | useradd [options] [username] |
-| usermod |      Vorhandenen Benutzer bearbeiten       | usermod [options] [username] |
-| userdel |        Vorhandenen Benutzer löschen        | userdel [options] [username] |
-| passwd  | Passwort eines bestehenden Benutzers ändern |      passwd [username]       |
+Für die optimale Nutzung des SSH-Clients ist es wichtig, die Grundbefehle zu kennen. Im Folgenden findest du eine grobe Übersicht mit allen relevanten Befehlen und deren Bedeutung:
 
 
+### Benutzerverwaltung
 
-### System Verwaltung
+| Befehl   |                Beschreibung                |            Syntax            |
+| :------: | :----------------------------------------: | :--------------------------: |
+| useradd  |          Neuen Benutzer anlegen          | useradd [Optionen] [Optionen] |
+| usermod  |      Bestehenden Benutzer bearbeiten      | usermod [Optionen] [Optionen] |
+| userdel  |        Bestehenden Benutzer löschen        | userdel [Optionen] [Optionen] |
+| passwd   | Passwort eines bestehenden Benutzers ändern |      passwd [Optionen]       |
+
+
+
+### Systemverwaltung
 
 | Befehl  |                         Beschreibung                         | Syntax                                       |
 | :-----: | :----------------------------------------------------------: | -------------------------------------------- |
-|   top   | Übersicht von Auslastung, Prozessen und weiteren Informationen (ähnlich wie der Task-Manager von Windows) | top                                          |
-|   df    |            Spreicherverbrauch anzeigen (Patition)            | df -h                                        |
-|   du    |          Spreicherverbrauch anzeigen (Verzeichnis)           | du -sh *                                     |
-|  free   | Speicherauslastung des Systems. Geteilt in RAM und SWAP-Space. | free                                         |
-|  kill   |  Beendet den Prozess mit der uebergebenen Prozess-ID (PID)   | kill [ID]                                    |
-| killall |       Beendet alle Prozesse mit dem uebergebenen Namen       | killall [name]                               |
-|   mv    |         Verschiebt Dateien in ein anderes Verzeichnis        | mv sourcepath newPath                        |
-|  mkdir  |               Erstellt einen neuen Ordner                    | mkdir directoryname                          |
-| service |    Dienst starten, stoppen, neu starten und Status prüfen     | service DienstName start/stop/restart/status |
-| reboot  |                      System neu starten                       | reboot                                       |
+|   top   | Übersicht über Auslastung, Prozesse und weitere Infos (ähnlich dem Windows Task-Manager)  | top                                          |
+|   df    |            Anzeige der Speicherplatznutzung (Partitionen)            | df -h                                        |
+|   du    |          Anzeige des Speicherplatzverbrauchs (Verzeichnis)           | du -sh *                                     |
+|  free   | Speicherbelegung des Systems, aufgeteilt in RAM und SWAP-Speicher | free                                         |
+|  kill   |  Beendet den Prozess mit der übergebenen Prozess-ID (PID)   | kill [ID]                                    |
+| killall |        Beendet alle Prozesse mit dem angegebenen Namen        | killall [Name]                               |
+|   mv    |       Verschiebt Dateien oder Verzeichnisse an einen anderen Ort        | mv Quellpfad Zielpfad                        |
+|  mkdir  |                    Neues Verzeichnis anlegen                    | mkdir Verzeichnisname                          |
+| service |    Dienst starten, stoppen, neu starten und Status abfragen     | service Dienstname start/stop/restart/status |
+| reboot  |                      System neu starten                        | reboot                                       |
 
 
 
-### Datei Verwaltung
+### Dateiverwaltung
 
-| Befehl | Beschreibung                               | Syntax                                   |
-| :------: | :------------------------------------------: | :----------------------------------------: |
-| ls     | Dateien und Ordner im Verzeichnis anzeigen | ls                                       |
-| cd     | Verzeichnis wechseln                       | cd [OPTION] VERZEICHNIS                  |
-| cp     | Dateien oder Verzeichnisse kopieren        | cp [OPTIONEN] QUELLE ZIEL                |
-| mv     | Datei oder Verzeichnis verschieben         | mv [OPTION] QUELLE ZIEL                  |
-| mkdir  | Neues Verzeichnis erstellen                | mkdir [OPTION] VERZEICHNISNAME           |
-| rmdir  | Existierendes Verzeichnis entfernen        | rmdir [OPTION] VERZEICHNIS               |
-| find   | Dateisystem durchsuchen                    | find [OPTIONEN] [VERZEICHNIS] [AKTIONEN] |
-| grep   | Textdateien durchsuchen                    | grep [OPTIONEN] SUCHMUSTER [DATEI(EN)]   |
+| Befehl | Beschreibung | Syntax
+| ------ | ------------------------------------------ | ---------------------------------------- |
+| ls | Zeigt Dateien und Ordner im Verzeichnis an | ls |
+| cd | Verzeichnis wechseln | cd [OPTION] VERZEICHNIS |
+| cp | Dateien oder Verzeichnisse kopieren | cp [OPTIONEN] QUELLE ZIEL |
+| mv | Datei oder Verzeichnis verschieben | mv [OPTION] QUELLE ZIEL |
+| mkdir | Neues Verzeichnis erstellen | mkdir [OPTION] VERZEICHNISNAME |
+| rmdir | Bestehendes Verzeichnis löschen | rmdir [OPTION] VERZEICHNIS |
+| find | Dateisystem durchsuchen | find [OPTIONEN] [VERZEICHNIS] [AKTIONEN] |
+| grep | Textdateien durchsuchen | grep [OPTIONEN] SUCHMUSTER [DATEI(EN)] |
 
 
 
-### Netzwerk Verwaltung
+### Netzwerkverwaltung
 
-| Befehl   | Beschreibung                                      | Syntax                                    |
-| :--------: | :-------------------------------------------------: | :-----------------------------------------: |
-| ip       | Netzwerkschnittstellen abfragen und konfigurieren | ip [OPTIONEN] OBJEKT [BEFEHL [ARGUMENTE]] |
-| netstat  | Status der Netzwerkschnittstellen abfragen        | netstat [OPTIONEN]                        |
-| nslookup | DNS-Informationen abfragen                        | nslookup                                  |
-| ping     | Netzverbindung prüfen                             | ping [OPTIONEN] ZIEL                      |
+| Befehl | Beschreibung | Syntax
+| -------- | ------------------------------------------------- | ----------------------------------------- |
+| ip | Netzwerkinterfaces abfragen und konfigurieren | ip [OPTIONEN] OBJEKT [BEFEHL [ARGUMENTE]] |
+| netstat | Status der Netzwerkinterfaces abfragen | netstat [OPTIONEN] |
+| nslookup | DNS-Informationen abfragen | nslookup |
+| ping | Netzwerkverbindung prüfen | ping [OPTIONEN] ZIEL
+
 
 <InlineVoucher />

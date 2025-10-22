@@ -1,7 +1,7 @@
 ---
 id: barotrauma-becomeadmin
-title: "Barotrauma: Admin auf dem eigenen Server werden"
-description: Informationen, wie du Admin auf deinem Barotrauma-Server von ZAP-Hosting wirst - ZAP-Hosting.com Dokumentation
+title: "Barotrauma: Werde Admin auf deinem eigenen Server"
+description: "Entdecke, wie du Administratorrechte vergibst für volle Serverkontrolle und nahtloses Ingame-Management → Jetzt mehr erfahren"
 sidebar_label: Admin werden
 services:
   - gameserver-barotrauma
@@ -10,66 +10,68 @@ services:
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
-Die Zuweisung von Administratorberechtigungen ermöglicht dir eine einfache und umfangreiche Verwaltung mit voller Kontrolle deines Servers. Als Administrator hast du die Möglichkeit alle verfügbaren Optionen und Funktionen, die das Spiel bereitstellt, direkt im Spiel anzuwenden. Im folgenden werden dir alle notwendigen Schritte erläutert, die du benötigst, um dir die Administratorberechtigungen für deinen Server zuzuweisen. 
+Die Vergabe von Administratorrechten ermöglicht dir eine einfache und umfassende Verwaltung mit voller Kontrolle über deinen Server. Als Administrator kannst du alle verfügbaren Optionen und Funktionen, die das Spiel bietet, direkt im Spiel nutzen. Alle Schritte, die du zur Vergabe von Administratorrechten für deinen Server durchführen musst, werden im Folgenden beschrieben.  
 <InlineVoucher />
 
-## Konfiguration 
-Das Hinzufügen eines Admins erfolgt über die **Clientpermissions.xml** Config, welche du im Interface unter Configs findest.
+## Konfiguration
+Das Hinzufügen eines Admins erfolgt über die **Clientpermissions.xml**-Config, die du im Interface unter Configs findest.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/aY7mydaioewqAm9/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/oJNTozXz9YW8sjG/preview)
 
 
-Um einen neuen Spieler hinzuzufügen, muss ein neuer Client Eintrag zu der Config hinzugefügt werden. Die Syntax dazu sieht wie folgt aus:
+Ein neuer Client-Eintrag muss in der Config hinzugefügt werden, um einen neuen Spieler hinzuzufügen. Die Syntax sieht so aus:
 
 ```xml
 <Client
-    name="<player name>"
+    name="<Spielername>"
     steamid="<steamid>"
-    permissions="<permission(s)>">
+    permissions="<Berechtigung(en)>">
     <command
-      name="<commandname>" />
+      name="<Befehlsname>" />
   </Client>
 ```
 
 
 
-In dem Client Eintrag sind die Variablen **Name, SteamID, Permissions, und Befehl** zu finden. Diese müssen nun noch angepasst werden. Der Name kann beliebig gesetzt werden. Er dient nur als Platzhalter zur Übersicht. Im Anschluss muss die SteamID64 von deinem Steam Account hinterlegt werden.
+Der Client-Eintrag enthält die Variablen **Name, SteamID, Permissions und Command**. Diese müssen angepasst werden. Der Name kann frei gewählt werden und dient nur als Platzhalter zur Übersicht. Danach muss die SteamID64 deines Steam-Accounts definiert werden.
 
-Diese findest du, indem du zunächst einmal Steam Profil aufrufst und dort dann an einer beliebigen Stelle Rechtsklick drückst. Dort kann dann die Steam URL des Profils kopieren.
-
-![](https://screensaver01.zap-hosting.com/index.php/s/PZtkHWMB8NkCABF/preview)
+Du findest sie, indem du dein Steam-Profil aufrufst und dann irgendwo im Profil mit der rechten Maustaste klickst. Dort kannst du die Steam-URL des Profils kopieren.
 
 
 
-Im Anschluss kann die URL auf einer der folgenden Webseiten angeben werden:
+![](https://screensaver01.zap-hosting.com/index.php/s/C3nfdjemxkjZH5n/preview)
+
+
+
+Anschließend gibst du die URL auf einer der folgenden Webseiten ein:
 
 - https://steamrep.com/
 - https://steamidfinder.com/
 - https://steamid.io/
 
-![](https://screensaver01.zap-hosting.com/index.php/s/Q39EjBqmBez5J2Y/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/asnbFc4JDifdSHn/preview)
 
 
 
-Dadurch erhältst du dort die sowohl die allgemeinen Accountinformationen als auch die Steam ID. Dort wird die **Steam ID 64** benötigt. Diese wird dann im Client Eintrag unter **SteamID** eingetragen. Das sieht dann folgendermaßen aus: 
+So erhältst du allgemeine Account-Infos sowie die Steam ID. In diesem Fall wird die **Steam ID 64** benötigt. Die Steam ID muss dann im Client-Eintrag unter **SteamID** eingetragen werden. Das Ergebnis sieht dann so aus: 
 
 ```xml
 <Client
     name="Name"
     steamid="123456789"
-    permissions="<permission(s)>">
+    permissions="<Berechtigung(en)>">
     <command
-      name="<commandname>" />
+      name="<Befehlsname>" />
   </Client>
 ```
 
 
 
-Nun bist du zwar schon Admin, allerdings wurden deinem Account noch keine spezifischen Rechte hinzugefügt. Diese kannst du hinzufügen, indem du die Permissions und Befehls hinzufügst, die genutzt werden dürfen. Das kann dann zum Beispiel so aussehen:
+Ab jetzt bist du zwar Admin, aber es wurden noch keine spezifischen Rechte deinem Account zugewiesen. Diese kannst du hinzufügen, indem du die Berechtigungen und Befehle einträgst, die genutzt werden dürfen. Das kann zum Beispiel so aussehen:
 
 ```xml
 ...
-    permissions="<permission(s)>"> ---> permissions="ServerLog, ConsoleBefehls">
+    permissions="<Berechtigung(en)>"> ---> permissions="ServerLog, ConsoleCommands">
 ...
 ```
 
@@ -79,7 +81,7 @@ Nun bist du zwar schon Admin, allerdings wurden deinem Account noch keine spezif
 <Client
     name="Name"
     steamid="123456789"
-    permissions="ServerLog, ConsoleBefehls">
+    permissions="ServerLog, ConsoleCommands">
     <command
       name="heal" />
     <command
@@ -90,31 +92,32 @@ Nun bist du zwar schon Admin, allerdings wurden deinem Account noch keine spezif
 
 
 
-In dem Beispiel wurde dem Admin Zugriff auf die Server-Logs, Konsole, Heilen und Spawnen Befehl erlaubt. Im Folgenden findest du eine Übersicht an Berechtigungen, welche du setzen kannst.
+In diesem Beispiel hat der Admin Zugriff auf Serverlogs, Konsole, den Heal- und Spawn-Befehl bekommen. Im Folgenden findest du eine Übersicht der Berechtigungen, die du setzen kannst.
 
 
 
 ## Berechtigungen
 
-| Berechtigungen    | Beschreibung                                                 |
-| ----------------- | ------------------------------------------------------------ |
-| ManageRound       | Kann Runden beginnen/beenden                                 |
-| Kick              | Kann andere Spieler kicken                                   |
-| Ban               | Kann andere Spieler bannen                                   |
-| Unban             | Kann andere Spieler entbannen                                |
-| SelectSub         | Kann das U-Boot wählen                                       |
-| SelectMode        | Kann den Spielmodus wählen                                   |
-| ManageCampaign    | Kann den Bestimmungsort, die Mission und den Einkauf von Hilfsgütern aus dem Lager der Kampagne auswählen |
-| ConsoleBefehls   | Kann Konsolenbefehle verwenden - bitte beachte dabei, dass du auch Berechtigungen für einzelne Konsolenbefehle erteilen musst |
-| ServerLog         | Kann Server-Logs lesen                                       |
-| ManageSettings    | Kann die Servereinstellungen ändern                          |
-| ManagePermissions | Kann die Berechtigungen anderer Clients ändern.              |
-| KarmaImmunity     | Wird gegen die negativen Auswirkungen des Karmasystems immun gemacht und verliert kein Karma. |
-| All               | Erteilt alle Berechtigungen.                                 |
+| Berechtigungen    | Beschreibung                                                  |
+| ----------------- | -------------------------------------------------------------|
+| ManageRound       | Kann Runden starten/beenden.                                 |
+| Kick              | Kann andere Spieler kicken.                                  |
+| Ban               | Kann andere Spieler bannen.                                  |
+| Unban             | Kann Banns von anderen Spielern aufheben.                    |
+| SelectSub         | Kann das U-Boot auswählen.                                   |
+| SelectMode        | Kann den Spielmodus auswählen.                               |
+| ManageCampaign    | Kann das Ziel, die Mission auswählen und Vorräte im Campaign-Store kaufen. |
+| ConsoleCommands   | Kann Konsolenbefehle nutzen – beachte, dass du auch Berechtigungen für einzelne Konsolenbefehle vergeben musst. |
+| ServerLog         | Kann Serverlogs lesen.                                       |
+| ManageSettings    | Kann Servereinstellungen ändern.                            |
+| ManagePermissions | Kann die Berechtigungen anderer Clients ändern.             |
+| KarmaImmunity     | Ist immun gegen negative Effekte des Karma-Systems, verliert kein Karma. |
+| All               | Vergibt alle Berechtigungen.                                |
 
 
-## Abschluss
 
-Glückwunsch, du hast erfolgreich die Administratorberechtigungen konfiguriert. Für weitere Fragen oder Hilfe zögere bitte nicht, unser Support-Team zu kontaktieren, das dir täglich zur Verfügung steht! 🙂
+## Fazit
+
+Glückwunsch, du hast die Administratorrechte erfolgreich konfiguriert. Bei weiteren Fragen oder wenn du Hilfe brauchst, steht dir unser Support-Team täglich zur Verfügung! 🙂
 
 <InlineVoucher />

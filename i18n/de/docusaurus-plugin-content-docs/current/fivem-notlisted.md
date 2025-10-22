@@ -1,7 +1,7 @@
 ---
 id: fivem-notlisted
 title: "FiveM: Server erscheint nicht in der Serverliste"
-description: Informationen, was du tun kannst, wenn dein FiveM-Server von ZAP-Hosting nicht auf der Serverliste erscheint - ZAP-Hosting.com Dokumentation
+description: "Finde heraus, wie du Probleme mit der Serverauflistung behebst und sicherstellst, dass dein Server korrekt in der Liste erscheint → Jetzt mehr erfahren"
 sidebar_label: Server nicht in Serverliste
 services:
   - gameserver-fivem
@@ -11,39 +11,36 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
 
-Wenn der Server nicht in der Serverliste angezeigt wird, kann dies mehrere Gründe haben, falls diese Anleitung das Problem nicht behebt, würden wir dich bitten, unseren [Support](https://zap-hosting.com/en/customer/support/) zu kontaktieren.
+Wenn dein Server nicht in der Serverliste erscheint, kann das mehrere Gründe haben. Falls diese Anleitung das Problem nicht löst, kontaktiere bitte unseren [Support](https://zap-hosting.com/en/customer/support/).
 
 <InlineVoucher />
 
 ## Konfigurationsfehler
 
-Oftmals sind es simple Konfigurationsfehler, welches dieses Problem verursacht, zuerst sollten wir prüfen, ob unser Server das Listing deaktiviert hat, hierzu prüfen wir die `sv_master1` Zeile:
+Oft sind es einfache Konfigurationsfehler, die dieses Problem verursachen. Zuerst sollten wir prüfen, ob die Auflistung für unseren Server deaktiviert ist. Dafür checken wir die `sv_master1` Zeile:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/mMb94ffHqgZwr29/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/KBH8deTbXxfrWtB/preview)
 
 :::info
-Diese Zeile sollte **immer** mit einem # auskommentiert werden, wenn dies nicht der Fall ist, wird der Server nicht gelistet.
+Diese Zeile sollte **immer** mit einem # auskommentiert sein. Wenn das nicht der Fall ist, wird der Server nicht gelistet.
 :::
 
+Auch der Servername (`sv_hostname`) sollte überprüft werden:
 
-Ebenfalls sollte der Servername (`sv_hostname`) geprüft werden:
+![](https://screensaver01.zap-hosting.com/index.php/s/9KyEj4tNQWRYxdB/preview)
 
-![](https://screensaver01.zap-hosting.com/index.php/s/kXZCDckKdnaid4a/preview)
-
-In diesem Fall fehlt das Anführungszeichen am Ende der Zeile, bei manchen Servernamen kann es auch durch Formatierung Probleme geben, wir würden in diesem Fall empfehlen, z. B. [DE], Sonderzeichen wie ä, ü, ö zu entfernen.
-
+In diesem Fall fehlt das Anführungszeichen am Ende der Zeile. Bei manchen Servernamen kann es auch wegen der Formatierung Probleme geben. Wir empfehlen, solche Zeichen zu entfernen, z.B. [DE] oder Sonderzeichen wie ä, ü, ö.
 
 ## Problematische Ressourcen
 
-Es können auch Ressourcen verhindern, dass der Server gelistet wurde, in diesem Fall empfehlen wir zuletzt installierte Ressourcen wieder zu entfernen und danach den Server für ~1h online zu lassen, in den meisten Fällen sollte er dann wieder angezeigt werden.
-
+Es kann auch sein, dass bestimmte Ressourcen verhindern, dass der Server gelistet wird. In dem Fall empfehlen wir, die zuletzt installierten Ressourcen zu entfernen und den Server dann für ca. 1 Stunde online zu lassen. In den meisten Fällen sollte er danach wieder angezeigt werden.
 
 ## Neuinstallation
 
-Falls nichts davon Abhilfe bringt, ist eine Neuinstallation empfehlenswert, damit werden alle Serverdateien auf Standard zurückgesetzt.
+Wenn nichts davon hilft, empfehlen wir eine Neuinstallation. Dabei werden alle Serverdateien auf den Standard zurückgesetzt.
 
 :::info
-Gehe sicher, dass vor der Neuinstallation ein Backup erstellt wird, ansonsten werden die Daten auf dem Server verloren gehen.
+Mach unbedingt vorher ein Backup, sonst gehen alle Daten auf dem Server verloren.
 :::
 
 <InlineVoucher />

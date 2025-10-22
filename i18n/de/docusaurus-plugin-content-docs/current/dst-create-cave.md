@@ -1,7 +1,7 @@
 ---
 id: dst-create-cave
-title: "Don't Starve Together: Höhlen auf Server erstellen"
-description: Informationen wie du für Don't Starve Together Höhlen auf Servern erstellst und verwendest - ZAP-Hosting.com Dokumentation
+title: "Don't Starve Together: Höhlen auf Gameservern erstellen"
+description: "Entdecke, wie du Master- und Slave-Server für Höhlen in Don't Starve Together einrichtest, um dein Spielerlebnis zu verbessern → Jetzt mehr erfahren"
 sidebar_label: Höhlen erstellen
 services:
   - gameserver-dst
@@ -11,31 +11,29 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 <InlineVoucher />
 
-## Voraussetzungen für Höhlen
+## Vorbereitung für Höhlen
 
-Um Höhlen bei Don't Starve Together nutzen zu können, werden zwei über uns bestellte Server benötigt.
-Der eine Server wäre der "Master" welcher für die Oberwelt genutzt wird und der zweite Server wäre der "Slave" welcher einzig und allein für die Höhlen genutzt wird.
-Welchen Server du zum "Master" machst und welcher davon der "Slave" wird, entscheidet sich durch die Konfigurationen der server.ini und cluster.ini.
+Um Höhlen in Don't Starve Together nutzen zu können, benötigst du zwei bei uns bestellte Gameserver. Ein Server ist der „Master“, der für die Oberwelt zuständig ist, und der zweite Server ist der „Slave“, der ausschließlich für die Höhlen genutzt wird. Welcher Server der „Master“ und welcher der „Slave“ wird, wird über die Konfigurationen in der server.ini und cluster.ini festgelegt.
 
-Beide Configs sind im Interface unter "**Configs**" zu sehen und können dort bearbeitet werden.
+Beide Konfig-Dateien findest du im Interface unter "**Configs**" und kannst sie dort bearbeiten.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/WmAswQDJtHCBDbM/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/mgjpecSGBsyasmc/preview)
 
-Bearbeitet wird in beiden .ini Dateien nur der "**[SHARD]**" Teil.
+Bearbeitet wird nur der "**[SHARD]**"-Abschnitt in beiden .ini-Dateien.
 
 ## Master
 
-Bei dem Master handelt es sich um den Oberwelt-Server, bei diesem Server muss in den Configs der Server als Master gesetzt werden.
+Der Master ist der Oberwelt-Server, dieser Server muss in den Konfigurationen als Master gesetzt werden.
 
 ### server.ini
 
 :::info
-**WICHTIG** mit "**MASTERIP**" wäre die IP vom Master Server gemeint, ist diese IP 123.123.123.123 dann muss dort "bind_ip = 123.123.123.123" eingetragen werden.
+**WICHTIG:** Die "**MASTERIP**" steht für die IP-Adresse des Master-Servers. Wenn diese IP z.B. 123.123.123.123 ist, muss dort „bind_ip = 123.123.123.123“ eingetragen werden.
 
-"**MASTERIP**" ist kein statischer Wert, der in der server.ini bei "bind_ip =" eingetragen werden darf.
+„**MASTERIP**“ ist kein statischer Wert, der einfach so in der server.ini bei „bind_ip =“ eingetragen werden kann.
 :::
 
-Standardmäßig steht in der server.ini bei "**[SHARD]**" nur "is_master = true", dort werden nun folgende Befehle nachgetragen.
+Standardmäßig steht im Abschnitt "**[SHARD]**" der server.ini nur „is_master = true“. Folgende Befehle werden dort ergänzt:
 
 ```
 shard_enabled = true
@@ -47,7 +45,7 @@ id=100
 
 ### cluster.ini
 
-Standardmäßig steht in der cluster.ini bei "**[SHARD]**" nur "is_master = true", dort werden jetzt folgende Befehle nachgetragen.
+Standardmäßig enthält der Abschnitt "**[SHARD]**" in der cluster.ini nur „is_master = true“. Dort werden folgende Befehle ergänzt:
 
 ```
 shard_enabled = true
@@ -60,50 +58,49 @@ cluster_key = deinclusterkey
 
 ## Slave
 
-Bei dem Slave handelt es sich um den Höhlen Server, bei welchem die Daten vom Master in die Configs eingetragen werden müssen.
+Der Slave ist der Höhlen-Server, hier müssen die Daten vom Master in den Konfigurationen eingetragen werden.
 
 ### server.ini
 
 :::info
-**WICHTIG** mit "**SLAVEIP**" wäre die IP vom Slave Server gemeint, ist diese IP 123.123.123.123 dann muss dort "bind_ip = 123.123.123.123" eingetragen werden.
+**WICHTIG:** Die "**SLAVEIP**" steht für die IP-Adresse des Slave-Servers. Wenn diese IP z.B. 123.123.123.123 ist, muss dort „bind_ip = 123.123.123.123“ eingetragen werden.
 
-"**SLAVEIP**" ist kein statischer Wert, der in der server.ini bei "bind_ip =" eingetragen werden darf.
+„**SLAVEIP**“ ist kein statischer Wert, der einfach so in der server.ini bei „bind_ip =“ eingetragen werden kann.
 
-"**MASTERIP**" ist kein statischer Wert, der in der server.ini bei "master_ip =" eingetragen werden darf.
+„**MASTERIP**“ ist kein statischer Wert, der einfach so in der server.ini bei „master_ip =“ eingetragen werden kann.
 :::
 
-Standardmäßig steht in der server.ini bei "**[SHARD]**" nur "is_master = true", dort werden nun folgende Befehle nachgetragen.
+Standardmäßig enthält der Abschnitt "**[SHARD]**" in der server.ini nur „is_master = true“. Folgende Befehle werden dort ergänzt:
 
 ```
 shard_enabled = true
 is_master = false
 bind_ip = SLAVEIP
 master_ip = MASTERIP
-name = Cave
+name = Caves
 id=200
 ```
 
 ### cluster.ini
 
-Standardmäßig steht in der cluster.ini bei "**[SHARD]**" nur "is_master = true", dort werden nun folgende Befehle nachgetragen.
+Standardmäßig enthält der Abschnitt "**[SHARD]**" in der cluster.ini nur „is_master = true“. Dort werden folgende Befehle ergänzt:
 
 ```
 shard_enabled = true
 is_master = false
 master_ip = MASTERIP
 master_port = 27002
-shard_name = Cave
+shard_name = Caves
 cluster_key = deinclusterkey
 ```
 
-### neue Welt generieren
+### Neue Welt generieren
 
-Insofern alle Configs korrekt eingestellt wurden, muss für den Slave Server eine neue Welt generiert werden.
-Damit die Höhlen auch korrekt erstellt werden, wird eine neue Datei benötigt.
+Wenn alle Konfigurationen korrekt gesetzt sind, muss für den Slave-Server eine neue Welt generiert werden. Es wird eine neue Datei benötigt, damit die Höhlen korrekt erstellt werden.
 
-Navigiere mithilfe dieser [Zugriff per FTP](gameserver-ftpaccess.md) Anleitung bei dem Slave Server in das Verzeichnis: */starve/Save/Cluster_1/Master/*
-In diesem Verzeichnis wird nun eine neue Datei mit dem Namen "*worldgenoverwrite.lua*" angelegt.
-Diese Datei wird mit folgendem Inhalt gefüllt.
+Nutze die [Anleitung zum FTP-Zugang](gameserver-ftpaccess.md), um dich auf dem Slave-Server im Verzeichnis */starve/Save/Cluster_1/Master/* einzuloggen.  
+Erstelle dort eine neue Datei mit dem Namen "*worldgenoverride.lua*".  
+Diese Datei wird mit folgendem Inhalt gefüllt:
 
 ```
 return {
@@ -113,8 +110,8 @@ overrides = {},
 }
 ```
 
-Im Anschluss muss nun im Spiel bei dem Server die "**TAB**" Taste gehalten werden, um den Serverstatus abzurufen, dort kann man oben links dann auf 3 Punkte klicken und mit "**Regenerate World**" die Welt einmal mit dem überschriebenen Parameter neu generieren.
+Anschließend musst du auf dem Server die "**TAB**"-Taste gedrückt halten, um den Serverstatus zu öffnen. Dort kannst du oben links auf die drei Punkte klicken und mit "**Regenerate World**" die Welt einmal mit den überschriebenen Parametern neu generieren.
 
-Sobald diese neu geladen wurde, ist alles beendet und du kannst auf deinem Server mit Höhlen spielen.
+Sobald die Welt neu geladen wurde, ist alles fertig und du kannst mit Höhlen auf deinem Gameserver spielen.
 
 <InlineVoucher />

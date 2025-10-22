@@ -1,7 +1,7 @@
 ---
 id: gameserver-backups
-title: 'Gameserver: Backups erstellen, herunterladen und einspielen'
-description: Informationen, wie du Backups für deinen Gameserver von ZAP-Hosting erstellen, herunterladen und wieder einspielen kannst -ZAP-Hosting.com Dokumentation
+title: 'Gameserver: Backups erstellen, herunterladen und importieren'
+description: "Entdecke, wie du ganz easy manuelle oder automatische Backups für deinen Gameserver erstellst und wiederherstellst, um deine Daten zu schützen → Jetzt mehr erfahren"
 sidebar_label: Backups
 services:
   - gameserver
@@ -12,45 +12,40 @@ import YouTube from '@site/src/components/YouTube/YouTube';
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
-Wir bieten die Möglichkeit, Backups individuell per Klick zu erstellen. Dadurch können Backups kinderleicht und ohne großen Aufwand erstellt und zu einem späteren Zeitpunkt jederzeit wieder importiert werden. Dieses Feature bieten wir sowohl für die Server-Dateien deines Gameserver als auch für die dazugehörigen Datenbanken. Das Backup wird dann auf deinem Storage Server gespeichert, welcher standardmäßig 10 GB kostenlosen Speicherplatz bietet. Solltest du mehr benötigen, dann kannst du auch auf ein Premium Storage upgraden.
+Wir bieten dir die Möglichkeit, individuelle Backups per Klick zu erstellen. So kannst du Backups ganz einfach und ohne großen Aufwand anlegen und jederzeit später wieder importieren. Dieses Feature gibt’s sowohl für die Serverdateien deines Gameservers als auch für die dazugehörigen Datenbanken. Alle Backups werden auf deinem Storage-Server gespeichert, der standardmäßig 10 GB kostenlosen Speicherplatz beinhaltet. Wenn du mehr brauchst, kannst du auf Premium Storage upgraden.
 
-Neben dem manuellen Erstellen von Backups können auch Backups voll automatisiert erstellt werden. Es können entweder täglich oder wöchentlich Backups zu einer angegebenen Uhrzeit angelegt werden. Nach einer Wiederherstellung eines Backups befindet sich der Server auf dem Stand zum Zeitpunkt der Backuperstellung.
+Neben der manuellen Backup-Erstellung kannst du Backups auch vollautomatisch anlegen lassen. Die Backups können entweder täglich oder wöchentlich zu einer festgelegten Uhrzeit erstellt werden. Nach dem Wiederherstellen eines Backups befindet sich dein Server genau im Zustand zum Zeitpunkt der Backup-Erstellung.
 
-<YouTube videoId="yUDAcfyDELc" imageSrc="https://screensaver01.zap-hosting.com/index.php/s/LjaeTNtckNYP5RP/preview" title="Wie du BACKUPS für deinen Server erstellst!" description="Hast du das Gefühl, dass du etwas besser verstehst, wenn du es in Aktion siehst? Wir haben etwas für dich! Tauche ab in unser Video, welches alles für dich zusammenfasst. Egal, ob du es eilig hast oder einfach nur Informationen auf möglichst verständliche Art und Weise aufnehmen möchtest!"/>
+<YouTube videoId="yUDAcfyDELc" imageSrc="https://screensaver01.zap-hosting.com/index.php/s/CTWHD2Lq4QqFWQw/preview" title="So erstellst du BACKUPS für deinen Server!" description="Du verstehst besser, wenn du Dinge in Aktion siehst? Kein Problem! Unser Video erklärt dir alles Schritt für Schritt. Egal ob du es eilig hast oder lieber entspannt alles aufnimmst – hier bist du richtig!"/>
 
 <InlineVoucher />
 
-## Backup manuell erstellen
+## Backups manuell erstellen
 
-Um ein Backup manuell zu erstellen, muss der grüne **+** Button neben der Backup-Liste gedrückt werden. Im Anschluss startet der Backupvorgang. 
-
-:::info
-Je nach Speichergröße des Servers kann das Anlegen des Backups durchaus ein paar Minuten dauern!
-:::
-
-## Backup automatisiert erstellen
-
-Unten am Ende der Seite befinden sich weitere Optionen, wo unter anderem auch die Einstellungen für automatisierte Backups zu finden. Die Option **Backups automatisch erstellen** muss aktiviert sein, damit die Funktion aktiv ist. Zudem muss das Intervall gesetzt werden. 
-
-![](https://screensaver01.zap-hosting.com/index.php/s/rMW42qd2joy4yZ6/preview)
-
-Je nach Spiel ist es oftmals auch zu empfehlen die Datenbank mitzusichern, da dort oftmals wichtige Daten wie Spielstände, Rechte und vieles mehr gespeichert werden. 
+Drücke den grünen **+** Button neben der Backup-Liste, um ein Backup manuell zu erstellen. Der Backup-Prozess startet danach automatisch.
 
 :::info
-Ausreichend Speicherplatz ist essenziell, damit regelmäßige Backups erstellt werden können. Stelle daher sicher, dass du immer ausreichend Speicherplatz hast. 
+Je nach Dateigröße deines Servers kann die Backup-Erstellung ein paar Minuten dauern!
 :::
 
+## Backups automatisch erstellen
 
+Unten auf der Seite findest du weitere Optionen, darunter die Einstellungen für automatische Backups. Die Option **Backups automatisch erstellen** muss aktiviert sein, damit das Feature funktioniert. Außerdem musst du das Intervall einstellen.
 
+![](https://screensaver01.zap-hosting.com/index.php/s/gB9n6JspdNW73bj/preview)
+
+Je nach Spiel ist es außerdem sinnvoll, auch die Datenbank zu sichern, da dort oft wichtige Daten wie Scores, Berechtigungen und vieles mehr gespeichert sind.
+
+>⚠️ Ausreichend Speicherplatz ist essenziell, um regelmäßige Backups zu erstellen. Achte darauf, immer genug Speicher verfügbar zu haben.
 
 ## Backups herunterladen/löschen
 
-Um Backups herunterladen oder zu löschen, muss man sich per FTP mit dem Storage Server verbinden. Eine Anleitung zum Benutzen von FTP findest du hier: [Zugriff per FTP](gameserver-ftpaccess.md)
+Wenn du Backups herunterladen oder löschen möchtest, musst du dich per FTP mit dem Storage-Server verbinden. Hier findest du eine Anleitung zur Nutzung von FTP: [Zugriff via FTP](gameserver-ftpaccess.md)
 
-![](https://screensaver01.zap-hosting.com/index.php/s/Px9jEtoxQoPkeFs/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/tfJoBpaELEPKMij/preview)
 
-![](https://screensaver01.zap-hosting.com/index.php/s/Bi8YbGNejsw97an/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/q3E8XTX8gRQoasY/preview)
 
-Dort angelangt, findet man die Zugangsdaten zum Storage Server und den aktuell belegten Speicherplatz. Wenn du per FTP verbunden bist, dann findest du dort die Backups und kannst sie darüber herunterladen oder löschen.
+Dort kannst du die Zugangsdaten deines Storage-Servers und den aktuell genutzten Speicherplatz einsehen. Sobald du per FTP verbunden bist, kannst du die Backups herunterladen oder löschen.
 
 <InlineVoucher />

@@ -1,7 +1,7 @@
 ---
 id: minecraft-whitelist
-title: "Minecraft: Server Whitelist aktivieren und bearbeiten"
-description: Informationen, wie du eine Whitelist für deinen Minecraft-Server von ZAP-Hosting aktivieren und bearbeiten kannst - ZAP-Hosting.com Dokumentation
+title: "Minecraft: Whitelist aktivieren und bearbeiten"
+description: "Entdecke, wie du deinen Minecraft Gameserver absicherst, indem du den Spielerzugang mit Whitelist-Funktionen verwaltest und dein Gameplay schützt → Jetzt mehr erfahren"
 sidebar_label: Whitelist
 services:
   - gameserver-minecraft
@@ -11,53 +11,68 @@ import YouTube from '@site/src/components/YouTube/YouTube';
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
-Die **Minecraft Whitelist** ist eine Möglichkeit, um seinen Server zu schützen, indem nur ausgewählte Spieler, die auf der Liste stehen, die Erlaubnis haben, sich mit dem Server zu verbinden. Denn Minecraft bietet standardmäßig keine Server Passwort Option, wie manch andere Spiele.
+Die **Minecraft Whitelist** ist eine Option, um deinen Gameserver zu schützen, indem nur ausgewählte Spieler auf der Liste sich verbinden dürfen. Standardmäßig bietet Minecraft keine Server-Passwort-Option wie andere Spiele.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/7PdkCFcZk3o8Wr8/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/zbbRQdonbZPTeib/preview)
 
-<YouTube videoId="nyor26XxwLY" imageSrc="https://screensaver01.zap-hosting.com/index.php/s/gAKarSFY2m3LD8R/preview" title="How to enable WHITELIST on your Minecraft Server" description="Hast du das Gefühl, dass du etwas besser verstehst, wenn du es in Aktion siehst? Wir haben etwas für dich! Tauche ab in unser Video, welches alles für dich zusammenfasst. Egal, ob du es eilig hast oder einfach nur Informationen auf möglichst verständliche Art und Weise aufnehmen möchtest!"/>
+<YouTube videoId="nyor26XxwLY" imageSrc="https://screensaver01.zap-hosting.com/index.php/s/oSWCcxscEcDzrq7/preview" title="Wie du die WHITELIST auf deinem Minecraft Gameserver aktivierst" description="Du verstehst besser, wenn du Dinge in Aktion siehst? Kein Problem! Unser Video erklärt dir alles Schritt für Schritt. Egal ob du es eilig hast oder lieber auf die spannendste Art lernst!"/>
 
 <InlineVoucher />
 
 ## Whitelist aktivieren
 
+
+
 ### Aktivierung (Config)
 
-Um die Whitelist zu aktivieren, muss der Wert des Befehle in der **server.properties** Config auf **true** gesetzt werden. Ein Neustart des Servers ist im Anschluss zwingend notwendig, damit die Änderung wirksam wird. 
+Um die Whitelist zu aktivieren, muss der Wert des Befehls in der **server.properties** Config auf **true** gesetzt werden. Ein Neustart des Servers ist notwendig, damit die Änderung wirksam wird.
 
 ```
 white-list=true
 ```
 
+
+
 ### Aktivierung (Chat)
 
-Alternativ kann die Whitelist Funktion auch im Spiel oder per Live Konsole aktiviert werden:
+Alternativ kann die Whitelist-Option auch im Spiel oder über die Live-Konsole aktiviert werden:
 
 ```
-/whitelist on			(Aktiviert die Whitelist Funktion)
-/whitelist off			(Deaktiviert die Whitelist Funktion)
+/whitelist on			(Whitelist aktivieren)
+/whitelist off			(Whitelist deaktivieren)
 ```
 
-Um die Whitelist Funktion über das Spiel zu aktivieren, sind Operator Rechte zwingend notwendig! Alternativ kann dies ansonsten auch über die Live Konsole (Webinterface) gemacht werden. Allerdings ist dort zu beachten, dass die Befehle dort ohne das **/** Symbole ausgeführt werden müssen.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/KJ2pmgKs6ABrAem/preview)
+
+Um die Whitelist im Spiel zu aktivieren, sind Operator-Rechte erforderlich! Ansonsten kannst du das auch über die Live-Konsole (Interface) machen. Beachte, dass die Befehle dort ohne das **/**-Symbol eingegeben werden müssen.
+
+
+![](https://screensaver01.zap-hosting.com/index.php/s/rxsCnTeEarycfR7/preview)
+
+
 
 ## Whitelist verwalten
 
+
+
 ### Spieler hinzufügen / entfernen
+
+
 
 **Chat**
 
-Mit den folgenden Befehlen können Spieler zur Whitelist hinzugefügt oder entfernt werden:
+Du kannst Spieler mit folgenden Befehlen zur Whitelist hinzufügen oder entfernen:
 
 ```
 /whitelist add SpielerName
 /whitelist remove SpielerName
 ```
 
+
+
 **white-list.json**
 
-Wenn die UUID des Spielers bekannt ist, dann kann der Spieler auch manuell über die **white-list.json** hinzugefügt werden. Diese kannst du per FTP-Verbindung aufrufen und bearbeiten. Eine Anleitung zum Verbinden per FTP findest du hier: [Zugriff per FTP](gameserver-ftpaccess.md)
+Falls die UUID des Spielers bekannt ist, kann der Spieler auch manuell über die **white-list.json** Datei hinzugefügt werden. Diese kannst du per FTP erreichen und bearbeiten. Eine Anleitung zum FTP-Zugang findest du hier: [Zugriff via FTP](gameserver-ftpaccess.md)
 
 ```
 [
@@ -76,20 +91,25 @@ Wenn die UUID des Spielers bekannt ist, dann kann der Spieler auch manuell über
 ]
 ```
 
+
+
 ### Liste aktualisieren
 
-Wenn die Spieler manuell hinzugefügt werden, dann muss die Whitelist im Spiel neu geladen werden. Um den Server deshalb nicht zwingend neu starten zu müssen, ist dies auch per Befehl möglich:
+Wenn du Spieler manuell hinzufügst, musst du die Whitelist im Spiel neu laden. Das geht auch per Befehl, um einen Server-Neustart zu vermeiden:
 
 ```
  /whitelist reload
 ```
 
-### Ansicht der Liste
 
-Um nicht jedes Mal die Whitelist Datei per FTP öffnen zu müssen, ist es auch möglich alle Spieler, die auf der Whitelist stehen über folgenden Befehl anzuzeigen: 
+
+### Liste anzeigen
+
+Wenn du nicht jedes Mal die Whitelist-Datei per FTP öffnen willst, kannst du dir alle Spieler auf der Whitelist mit folgendem Befehl anzeigen lassen:
 
 ```
 /whitelist list
 ```
+
 
 <InlineVoucher />

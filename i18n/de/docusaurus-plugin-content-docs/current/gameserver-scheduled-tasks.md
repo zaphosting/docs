@@ -1,10 +1,10 @@
 ---
 id: gameserver-scheduled-tasks
 title: "Gameserver: Geplante Aufgaben (Cron)"
-description: Erstelle und verwalte geplante Aufgaben (cron) für dein Gameserver Produkt von ZAP-Hosting - ZAP-Hosting.com Dokumentation
+description: "Entdecke, wie du Serverprozesse mit geplanten Aufgaben für Backups, Service-Management und Befehle automatisierst → Jetzt mehr erfahren"
 sidebar_label: Geplante Aufgaben
 services:
-  - gameserver
+  - webspace
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';
@@ -13,32 +13,32 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
 
-Erstellen geplante Aufgaben, die automatisch zu bestimmten Zeiten ausgeführt werden. Damit kannst du verschiedene Prozesse auf deinem Server automatisieren. Du kannst festlegen, ob die Aufgabe nur einmal oder wiederholt ausgeführt werden soll. 
+Erstelle geplante Aufgaben, die automatisch zu definierten Zeiten ausgeführt werden. So kannst du verschiedene Prozesse auf deinem Server automatisieren. Du kannst festlegen, ob die Aufgabe nur einmal oder wiederholt ausgeführt werden soll.
 
 
 
 ## Aufgabentypen
 
-Mit den geplanten Aufgaben kannst du verschiedene Arten von Aufgaben ausführen. Die folgenden Aufgabentypen werden derzeit unterstützt: 
+Die geplanten Aufgaben ermöglichen dir, verschiedene Arten von Tasks auszuführen. Folgende Aufgabentypen werden aktuell unterstützt:
 
-- Dienst starten
-- Dienst stopppen
-- Dienst neustarten
-- Dienst neustarten (nur wenn er online ist)
+- Service starten
+- Service stoppen
+- Service neu starten
+- Server neu starten (nur wenn er online ist)
 - Backup erstellen
 - Befehl ausführen
 
-Die vordefinierten Typen ermöglichen es dir, deinen Server weitgehend zu automatisieren. Insbesondere mit dem Typ **Befehl ausführen** kannst du zahlreiche spezifische und individuelle Aufgaben erstellen. 
+Die vordefinierten Typen erlauben dir, deinen Server umfangreich automatisiert zu verwalten. Besonders der Typ **Befehl ausführen** ermöglicht es dir, viele weitere spezifische und individuelle Aufgaben zu erstellen.
 
-:::warning Rate limits
-Bestimmte geplante Aufgaben haben ein Ratelimit, d. h. sie können nicht unendlich oft ausgeführt werden und haben stattdessen eine Abklingzeit/Limit.
+:::warning Rate Limits
+Bestimmte geplante Aufgaben haben Rate Limits, das heißt, sie können nicht unendlich oft ausgeführt werden und haben stattdessen eine Abklingzeit/Limitierung.
  :::
 
 ## Aufgaben erstellen
 
-Navigiere in deiner Gameserver Verwaltung unter Einstellungen zu Geplante Aufgaben. Um eine neue geplante Aufgabe zu erstellen, klicke auf den grünen Button mit dem Plus-Symbol auf der rechten Seite der Liste der geplanten Aufgaben.  Es öffnet sich ein neues Pop-up-Fenster, in dem du deine Aufgabe konfigurieren kannst. 
+Navigiere in der Verwaltung deines Gameservers unter Einstellungen zu Geplante Aufgaben. Um eine neue geplante Aufgabe zu erstellen, klicke auf den grünen Button mit dem Plus-Symbol rechts neben der Liste der geplanten Aufgaben. Ein neues Pop-up-Fenster öffnet sich, in dem du deine Aufgabe konfigurieren kannst.
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/EADnRxe6RArnF4Z/download)
+![img](https://screensaver01.zap-hosting.com/index.php/s/TBxP22trRKML3wk/download)
 
 
 
@@ -46,28 +46,30 @@ Navigiere in deiner Gameserver Verwaltung unter Einstellungen zu Geplante Aufgab
 
 ## Aufgaben verwalten
 
-In der Konfiguration einer Aufgabe kannst du festlegen, welche Art von Aufgabe du erstellen möchtest. Lege einen Namen fest (optional) und wählen einen der angebotenen Aufgabentypen aus. Dieses Beispiel zeigt, wie eine geplante Aufgabe erstellt werden kann, um den Dienst regelmäßig neu zu starten. 
+In der Konfiguration einer Aufgabe kannst du festlegen, welchen Aufgabentyp du erstellen möchtest. Vergib einen Namen (optional) und wähle einen der angebotenen Aufgabentypen aus. Dieses Beispiel zeigt, wie du eine geplante Aufgabe erstellst, um den Service regelmäßig neu zu starten.
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/KtrY8KoaGfjQjpJ/preview)
+![img](https://screensaver01.zap-hosting.com/index.php/s/P6DeWiRC3tDqG2z/preview)
 
-Wähle für den Wiederholungstyp die Option `Wiederholend`. Im Feld Cron-Ausdruck musst du nun die Intervalle angeben, in denen die Aufgabe ausgeführt werden soll. In diesem Fall wird der Dienst alle drei Stunden neu gestartet. 
+Wähle bei Wiederholungstyp die Option `wiederkehrend`. Im Feld Cron-Ausdruck musst du nun die Intervalle angeben, in denen die Aufgabe ausgeführt werden soll. In diesem Fall wird der Service alle drei Stunden neu gestartet.
 
-:::tip Cron generator
-Du bist mit der Struktur oder Syntax von Cron nicht vertraut? Verwenden einfach den [**Crontab Guru**](https://crontab.guru/). Es handelt sich um eine einfache Anwendung, mit der du Cron-Ausdrücke mit ein paar Klicks erstellen und kopieren kannst. 
+:::tip Cron-Generator
+
+Kennst du dich mit der Struktur oder Syntax von Cron nicht aus? Nutze einfach den [**Crontab Guru**](https://crontab.guru/). Das ist eine simple Anwendung, mit der du Cron-Ausdrücke mit wenigen Klicks erstellen und kopieren kannst.
+
 :::
 
 Um die Erstellung abzuschließen, wähle aus, von wann bis wann die geplante Aufgabe ausgeführt werden soll, und klicke dann auf Speichern.
 
 ## Aufgaben entfernen
 
-Möchtest du bestehende Aufgaben entfernen? Lösche bestehende Aufgaben in der Liste, indem du auf den roten Papierkorb Button auf der rechten Seite klickst. 
+Möchtest du bestehende Aufgaben löschen? Entferne Aufgaben in der Liste, indem du auf den roten Papierkorb-Button rechts klickst.
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/sa4y3LFzHswGDjC/preview)
+![img](https://screensaver01.zap-hosting.com/index.php/s/6XWMJn2BoAdL6t9/download)
 
 
 
-## Abschluss
+## Fazit
 
-Nun weißt du, wie du geplante Aufgaben erstellen, verwalten und entfernen kannst. Für weitere Fragen oder Hilfe zögere bitte nicht, unser Support-Team zu kontaktieren, das dir täglich zur Verfügung steht! 🙂
+Jetzt weißt du, wie du geplante Aufgaben erstellst, verwaltest und entfernst. Bei weiteren Fragen oder wenn du Hilfe brauchst, steht dir unser Support-Team täglich zur Seite! 🙂
 
 <InlineVoucher />

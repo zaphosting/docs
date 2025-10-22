@@ -1,7 +1,7 @@
 ---
 id: fivem-whitelist
 title: "FiveM: Whitelist"
-description: Informationen zur Nutzung einer Whitelist bei FiveM Server von ZAP-Hosting - ZAP-Hosting.com Dokumentation
+description: "Entdecke, wie du den Serverzugang mit Whitelists einschränken kannst, um Sicherheit und Kontrolle über die Spieler zu verbessern → Jetzt mehr erfahren"
 sidebar_label: Whitelist
 services:
   - gameserver-fivem
@@ -11,41 +11,35 @@ import YouTube from '@site/src/components/YouTube/YouTube';
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
-Du möchtest deinen Server nicht jedem zugänglich machen? Es gibt mehrere Möglichkeiten, die Sichtbarkeit und Zugänglichkeit von einem Server einzuschränken. Eine dieser Möglichkeiten ist beispielsweise die Nutzung einer Whitelist, welche im Folgenden erläutert wird.
+Du willst nicht, dass dein Server für jeden zugänglich ist? Es gibt verschiedene Möglichkeiten, die Sichtbarkeit und Zugänglichkeit eines Servers einzuschränken. Eine davon ist zum Beispiel die Nutzung einer Whitelist, die im Folgenden erklärt wird.
 
-Die Whitelist ist eine Liste, welches ermöglicht eine bestimmte Auswahl an Personen zuzulassen. Das bedeutet, dass sich nur die Personen verbinden, können, die in der Whitelist eingetragen wurden. Personen, die nicht auf der Liste stehen, werden nicht zugelassen und erhalten beim Verbindungsaufbau die Meldung, dass sie nicht auf der Whitelist stehen. 
+Die Whitelist ist eine Liste, die es ermöglicht, nur eine bestimmte Auswahl an Personen zuzulassen. Das bedeutet, dass nur die Personen, die in der Whitelist eingetragen sind, sich verbinden können. Personen, die nicht auf der Whitelist stehen, werden nicht akzeptiert und erhalten beim Verbindungsaufbau eine Nachricht, dass sie nicht auf der Whitelist sind.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/DN6cyD6JSjQwtNe/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/TCYYodZW2XN6FYk/preview)
 
 <InlineVoucher />
 
-
-
 ## Konfiguration
 
-Um die Whitelist Funktion für FiveM zu verwalten musst du das txAdmin Interface aufrufen. Navigiere dort anschließen zu dem Menüpunkt **Settings** und rufe im Anschluss den **Whitelist** Tab auf. 
+Um die Whitelist-Funktion für FiveM zu verwalten, musst du die txAdmin-Oberfläche öffnen. Navigiere dann zum Menüpunkt **Settings** und öffne den Reiter **Whitelist**.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/WJBH63dWtyWWYQ6/download)
 
+Wähle den Whitelist-Modus aus, den du aktiv nutzen möchtest. Folgende Optionen stehen in der Verwaltung zur Verfügung:
 
+- Nur Admin (Wartungsmodus)
+- Discord Server Mitglied
+- Discord Server Rollen
+- Genehmigte Lizenz
 
-Wähle anschließend die Art des Whitelist Modus aus, den du aktiv verwenden möchtest. In der Verwaltung stehen dir folgende Optionen zur Auwahl:
-
-- Admin-only (maintenance mode)
-- Discord Server Member
-- Discord Server Roles
-- Approved License
-
-In diesem Beispiel wird die **Approved License** Option ausgewählt und aktiviert, womit im Anschluss dann die Spieler über ihre Lizenz zugelassen werden können. 
+In diesem Beispiel wird die Option **Genehmigte Lizenz** ausgewählt und aktiviert, mit der Spieler über ihre Lizenz freigeschaltet werden können.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/dzTZLTczjWjorkf/download)
 
-Die Spielerlizenzkennung muss von einem txAdmin-Administrator auf die Whitelist gesetzt werden. Dies kann über die **Whitelist-Seite** oder mithilfe des Discord-Bot-Slash-Befehls `/whitelist` erfolgen. 
+Der Spieler-Lizenz-Identifier muss von einem txAdmin-Administrator auf die Whitelist gesetzt werden. Das kann über die **Whitelist-Seite** oder den Befehl `/whitelist` erfolgen.
 
+## Fazit
 
-
-## Abschluss
-
-Vorausgesetzt, dass du alle Schritte befolgt hast, hast du die Whitelist für deinen Server erfolgreich aktiviert und konfiguriert. Für weitere Fragen oder Hilfe zögere bitte nicht, unser Support-Team zu kontaktieren, das dir täglich zur Verfügung steht! 🙂
+Wenn du alle Schritte befolgt hast, hast du die Whitelist für deinen Server erfolgreich aktiviert und konfiguriert. Bei weiteren Fragen oder wenn du Hilfe brauchst, steht dir unser Support-Team täglich zur Verfügung! 🙂
 
 <InlineVoucher />

@@ -1,7 +1,7 @@
 ---
 id: enshrouded-configuration
-title: "Enshrouded: Enshrouded Server-Konfiguration"
-description: Informationen zur Konfiguration eines Enshrouded Gameservers von ZAP-Hosting - ZAP-Hosting.com Dokumentation
+title: "Enshrouded: Enshrouded Server Konfiguration"
+description: "Entdecke, wie du die Enshrouded Server-Einstellungen für optimales Gameplay und Serververwaltung anpasst → Jetzt mehr erfahren"
 sidebar_label: Server Konfiguration
 services:
   - gameserver-enshrouded
@@ -12,15 +12,15 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
 
-Zum Start von Enshrouded gibt es ein paar Konfigurationsparameter, die du nach deinen Wünschen anpassen kannst. In dieser Anleitung gehen wir auf alle derzeit verfügbaren Konfigurationsparameter ein und erklären sie im Detail.
+Enshrouded bietet zum Launch einige Konfigurationsparameter, die du ganz nach deinem Geschmack anpassen kannst. In dieser Anleitung schauen wir uns alle aktuell verfügbaren Konfigurationsparameter an und erklären sie dir im Detail.
 
-<YouTube videoId="wgvfvQdtwN4" imageSrc="https://screensaver01.zap-hosting.com/index.php/s/38mm9EFYzXSaKjA/preview" title="Setup Enshrouded Server in just 60 seconds!" description="Hast du das Gefühl, dass du etwas besser verstehst, wenn du es in Aktion siehst? Wir haben etwas für dich! Tauche ab in unser Video, welches alles für dich zusammenfasst. Egal, ob du es eilig hast oder einfach nur Informationen auf möglichst verständliche Art und Weise aufnehmen möchtest!"/>
+<YouTube videoId="wgvfvQdtwN4" imageSrc="https://screensaver01.zap-hosting.com/index.php/s/tc7mcyZqk8Wyafa/preview" title="Enshrouded Server in nur 60 Sekunden einrichten!" description="Du verstehst besser, wenn du Dinge in Aktion siehst? Kein Problem! Schau dir unser Video an, das alles für dich aufschlüsselt. Egal ob du es eilig hast oder einfach lieber auf die spannendste Art lernst!"/>
 
 <InlineVoucher />
 
 ## Zugriff auf deine Konfigurationsdatei
 
-Zunächst musst du auf deine Konfigurationsdatei zugreifen, um die Parameter zu bearbeiten. Es gibt mehrere Möglichkeiten, diese Datei zu bearbeiten.
+Zuerst musst du auf deine Konfigurationsdatei zugreifen, um irgendwelche Parameter zu bearbeiten. Es gibt mehrere Wege, diese Datei zu editieren.
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
@@ -30,61 +30,61 @@ import TabItem from '@theme/TabItem';
 
 #### Über Webinterface
 
-Die benutzerfreundlichste Methode ist es, im Webinterface deines Gameservers in den Bereich **Einstellungen** zu gehen und dort nach den entsprechenden Einstellungen zu suchen, wie unten zu sehen:
+Die benutzerfreundlichste Methode ist, im **Einstellungen**-Bereich deines Gameservers im Webinterface nach den passenden Einstellungen zu suchen, wie hier gezeigt:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/cGbSnRp5gfbWnnb/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/QDPzFgWRrfB49HB/preview)
 
 </TabItem>
 
-<TabItem value="configs" label="Über die WI-Konfigurationsdatei">
+<TabItem value="configs" label="Über WI Konfigurationsdatei">
 
-#### Über die WI-Konfigurationsdatei
+#### Über WI Konfigurationsdatei
 
 :::note
-Der Server muss gestoppt werden, bevor die Konfigurationsdatei bearbeitet werden kann. Wenn die Konfigurationsdatei erst bearbeitet und der Server neu gestartet wird, werden sämtliche Änderungen rückgängig gemacht.
+Der Server muss gestoppt sein, bevor die Konfig bearbeitet werden kann. Änderungen an der Konfig und ein Neustart des Servers ohne Speichern führen dazu, dass Änderungen verloren gehen.
 :::
 
-Wenn du die Rohdatei direkt bearbeiten möchtest, kannst du dies auch tun, indem du im Webinterface deines Gameservers in den Bereich **Configs** gehst und auf den blauen Button "Datei bearbeiten" klickst, wie unten zu sehen:
+Alternativ, wenn du die rohe Datei direkt bearbeiten möchtest, kannst du das über den **Configs**-Bereich im Webinterface deines Gameservers machen und dort den blauen „Datei bearbeiten“-Button drücken, wie hier zu sehen:
 
-![](https://github.com/zaphosting/docs/assets/42719082/6a440e57-01a5-4ec3-838c-7c83cebbb8b9)
+![](https://github.com/zaphosting/docs/assets/42719082/dc4699bc-33fa-447d-ac59-2960b3b080f9)
 
-Dadurch wird ein Texteditor direkt auf der Seite geöffnet, mit dem du die Datei bearbeiten kannst.
+Das öffnet einen Texteditor direkt auf der Seite, mit dem du die Datei bearbeiten kannst.
 
 </TabItem>
 
-<TabItem value="ftp" label="Via FTP">
+<TabItem value="ftp" label="Über FTP">
 
 
 #### Über FTP
 
 :::note
-Der Server muss gestoppt werden, bevor die Konfigurationsdatei bearbeitet werden kann. Wenn die Konfigurationsdatei erst bearbeitet und der Server neu gestartet wird, werden sämtliche Änderungen rückgängig gemacht.
+Der Server muss gestoppt sein, bevor die Konfig bearbeitet werden kann. Änderungen an der Konfig und ein Neustart des Servers ohne Speichern führen dazu, dass Änderungen verloren gehen.
 :::
 
-Die letzte Methode, um auf die Rohdatei zuzugreifen, ist über FTP. Wenn du dich mit der Verwendung von FTP nicht auskennst, empfehlen wir dir, einen Blick in die Anleitung [Zugriff per FTP](gameserver-ftpaccess.md) zu werfen. Diese Methode dauert jedoch länger und wenn du den Inhalt der Datei direkt bearbeiten möchtest, empfehlen wir dir, wie bereits erwähnt, den Bereich **Configs** im Webinterface deines Gameservers zu verwenden.
+Die letzte Möglichkeit, auf die rohe Datei zuzugreifen, ist über FTP. Falls du mit FTP nicht vertraut bist, empfehlen wir dir, einen Blick in die [Zugriff via FTP](gameserver-ftpaccess.md) Anleitung zu werfen. Diese Methode dauert allerdings länger und wenn du die Datei direkt bearbeiten willst, empfehlen wir dir einfach den **Configs**-Bereich im Webinterface deines Gameservers zu nutzen, wie oben beschrieben.
 
 </TabItem>
 </Tabs>
 
-## Server-Konfigurationsoptionen
+## Server Konfigurationsoptionen
 
-Dies sind die derzeit verfügbaren Serverkonfigurationsoptionen, die das Spiel zur Anpassung deines Servers bereitstellt, insbesondere der Servername, das Passwort sowie einige interne Einstellungen.
+Das sind die aktuell verfügbaren Server-Konfigurationsoptionen, die das Spiel bereitstellt, um deinen Server anzupassen – vor allem Servername, Passwort und einige interne Einstellungen.
 
 :::tip
-Wir raten davon ab, die Einstellungen für Port, IP oder Verzeichnis zu ändern, da diese automatisch vom Gameserver konfiguriert werden. Wenn du diese Werte änderst, kann es passieren, dass dein Gameserver kaputt geht!
+Wir empfehlen nicht, den Port, die IP oder Verzeichnis-Einstellungen zu ändern, da diese automatisch vom Gameserver konfiguriert werden. Änderungen hier können deinen Gameserver kaputt machen!
 :::
 
-| Parametername  | Beispiel                                | Beschreibung                                                                 |
-| -------------- | --------------------------------------- | ---------------------------------------------------------------------------- | 
-| name           | ZAP-Hosting Docs Test                   | Name deines Servers                                                          |
-| password       | iLoveZAP!2024                           | Sperre den Server hinter einem Passwort (privat)                             |
-| saveDirectory  | ./savegame (default)                    | Lege ein Verzeichnis fest, in dem deine Spielstände gespeichert werden solle |
-| logDirectory   | ./logs (default)                        | Lege ein Verzeichnis fest, in dem deine Logs gespeichert werden sollen       |
-| ip             | 123.123.123.123                         | The public port the server runs on                                           |
-| gamePort       | 15636 (default)                         | Der öffentliche Port, über den der Server läuft                              |
-| queryPort      | 15637 (default)                         | Der öffentliche Port, über den auf den Server zugegriffen werden kann        |
-| slotCount      | 4                                       | Die maximale Anzahl der Spieler, die dem Server beitreten können (max. 16)   |
+| Parameter Name | Beispiel                              | Beschreibung                                               |
+| -------------- | ----------------------------------- | --------------------------------------------------------- | 
+| name           | ZAP-Hosting Docs Test                | Der Name deines Servers                                   |
+| password       | iLoveZAP!2024                       | Sperre den Server mit einem Passwort (privat)             |
+| saveDirectory  | ./savegame (Standard)                | Verzeichnis, in dem deine Speicherstände abgelegt werden  |
+| logDirectory   | ./logs (Standard)                    | Verzeichnis, in dem deine Logs gespeichert werden         |
+| ip             | 123.123.123.123                     | Öffentliche IP, auf der der Server läuft                   |
+| gamePort       | 15636 (Standard)                    | Öffentlicher Port, auf dem der Server läuft                |
+| queryPort      | 15637 (Standard)                    | Öffentlicher Port, über den der Server erreichbar ist      |
+| slotCount      | 4                                   | Max. Anzahl an Spielern, die auf den Server joinen können (max. 16) |
 
-Nachdem du deine Änderungen vorgenommen hast, speichere die Datei an den entsprechenden Stellen und starte deinen Server neu. Wenn dein Server das nächste Mal startet, verwendet er die Einstellungen, die du angegeben hast.
+Nachdem du deine Änderungen gemacht hast, speichere die Datei an der richtigen Stelle und starte deinen Server neu. Beim nächsten Start verwendet dein Server dann die von dir angegebenen Einstellungen.
 
 <InlineVoucher />

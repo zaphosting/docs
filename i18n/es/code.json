@@ -1,6 +1,6 @@
 {
   "service.vserver.title": {
-    "message": "Servidor virtual privado",
+    "message": "VPS",
     "description": "Product name for the gameserver product"
   },
   "service.vserver.path": {
@@ -8,7 +8,7 @@
     "description": "URL path for the VPS product"
   },
   "service.dedicated.title": {
-    "message": "Servidor dedicado",
+    "message": "Dedicated Server",
     "description": "Product name for the dedicated server product"
   },
   "service.dedicated.path": {
@@ -16,7 +16,7 @@
     "description": "URL path for the dedicated server product"
   },
   "service.domain.title": {
-    "message": "Dominio",
+    "message": "Domain",
     "description": "Product name for the domain product"
   },
   "service.domain.path": {
@@ -24,7 +24,7 @@
     "description": "URL path for the domain product"
   },
   "service.webspace.title": {
-    "message": "Espacio web",
+    "message": "Webspace",
     "description": "Product name for the webspace product"
   },
   "service.webspace.path": {
@@ -32,7 +32,7 @@
     "description": "URL path for the webspace product"
   },
   "service.voiceserver.title": {
-    "message": "Servidor de voz",
+    "message": "Voiceserver",
     "description": "Product name for the voiceserver product"
   },
   "service.voiceserver.path": {
@@ -68,7 +68,7 @@
     "description": "Product name for the storage product"
   },
   "service.gameserver.title": {
-    "message": "Servidor de juegos",
+    "message": "Cloud-Gameserver",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver.path": {
@@ -1067,14 +1067,6 @@
     "message": "{marketingSite}/{language}/vintage-story-server-hosting/",
     "description": "URL path for the gameserver product"
   },
-  "service.gameserver-voyagers-of-nera.title": {
-    "message": "Voyagers of Nera Gameserver",
-    "description": "Product name for the gameserver product"
-  },
-  "service.gameserver-voyagers-of-nera.path": {
-    "message": "{marketingSite}/{language}/voyagers-of-nera-server-hosting/",
-    "description": "URL path for the gameserver product"
-  },
   "service.gameserver-wreckfest.title": {
     "message": "Wreckfest Gameserver",
     "description": "Product name for the gameserver product"
@@ -1177,9 +1169,6 @@
   "servicelist.note": {
     "message": "(Details may vary with products from different providers but the main concepts remain the same)"
   },
-  "footer.cookieSettings": {
-    "message": "Cookie settings"
-  },
   "voucherbox.title": {
     "message": "HOSTING DISCOUNT"
   },
@@ -1249,13 +1238,13 @@
     "message": "Cambiar entre modo oscuro y claro (actualmente {mode})",
     "description": "The ARIA label for the color mode toggle"
   },
-  "theme.docs.DocCard.categoryDescription.plurals": {
-    "message": "1 artículo|{count} artículos",
-    "description": "The default description for a category card in the generated index about how many items this category includes"
-  },
   "theme.docs.breadcrumbs.navAriaLabel": {
     "message": "Rastro de navegación",
     "description": "The ARIA label for the breadcrumbs"
+  },
+  "theme.docs.DocCard.categoryDescription.plurals": {
+    "message": "1 artículo|{count} artículos",
+    "description": "The default description for a category card in the generated index about how many items this category includes"
   },
   "theme.docs.paginator.navAriaLabel": {
     "message": "Página del documento",
@@ -1296,13 +1285,13 @@
     "message": "última versión",
     "description": "The label used for the latest version suggestion link label"
   },
-  "theme.common.editThisPage": {
-    "message": "Editar esta página",
-    "description": "The link label to edit the current page"
-  },
   "theme.common.headingLinkTitle": {
     "message": "Enlace directo al {heading}",
     "description": "Title for link to heading"
+  },
+  "theme.common.editThisPage": {
+    "message": "Editar esta página",
+    "description": "The link label to edit the current page"
   },
   "theme.lastUpdated.atDate": {
     "message": " en {date}",
@@ -1328,6 +1317,10 @@
     "message": "Etiquetas:",
     "description": "The label alongside a tag list"
   },
+  "theme.AnnouncementBar.closeButtonAriaLabel": {
+    "message": "Cerrar",
+    "description": "The ARIA label for close button of announcement bar"
+  },
   "theme.admonition.caution": {
     "message": "precaución",
     "description": "The default label used for the Caution admonition (:::caution)"
@@ -1352,10 +1345,6 @@
     "message": "aviso",
     "description": "The default label used for the Warning admonition (:::warning)"
   },
-  "theme.AnnouncementBar.closeButtonAriaLabel": {
-    "message": "Cerrar",
-    "description": "The ARIA label for close button of announcement bar"
-  },
   "theme.blog.sidebar.navAriaLabel": {
     "message": "Navegación de publicaciones recientes",
     "description": "The ARIA label for recent posts in the blog sidebar"
@@ -1368,17 +1357,9 @@
     "message": "Colapsar categoría '{label}' de la barra lateral",
     "description": "The ARIA label to collapse the sidebar category"
   },
-  "theme.IconExternalLink.ariaLabel": {
-    "message": "(opens in new tab)",
-    "description": "The ARIA label for the external link icon"
-  },
   "theme.NavBar.navAriaLabel": {
     "message": "Principal",
     "description": "The ARIA label for the main navigation"
-  },
-  "theme.navbar.mobileLanguageDropdown.label": {
-    "message": "Idiomas",
-    "description": "The label for the mobile language switcher dropdown"
   },
   "theme.NotFound.p1": {
     "message": "No pudimos encontrar lo que buscaba.",
@@ -1392,6 +1373,10 @@
     "message": "En esta página",
     "description": "The label used by the button on the collapsible TOC component"
   },
+  "theme.navbar.mobileLanguageDropdown.label": {
+    "message": "Idiomas",
+    "description": "The label for the mobile language switcher dropdown"
+  },
   "theme.blog.post.readMore": {
     "message": "Leer Más",
     "description": "The label used in blog post item excerpts to link to full blog posts"
@@ -1404,6 +1389,10 @@
     "message": "Lectura de un minuto|{readingTime} min de lectura",
     "description": "Pluralized label for \"{readingTime} min read\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
   },
+  "theme.CodeBlock.wordWrapToggle": {
+    "message": "Alternar ajuste de palabras",
+    "description": "The title attribute for toggle word wrapping button of code block lines"
+  },
   "theme.CodeBlock.copy": {
     "message": "Copiar",
     "description": "The copy button label on code blocks"
@@ -1415,10 +1404,6 @@
   "theme.CodeBlock.copyButtonAriaLabel": {
     "message": "Copiar código",
     "description": "The ARIA label for copy code blocks button"
-  },
-  "theme.CodeBlock.wordWrapToggle": {
-    "message": "Alternar ajuste de palabras",
-    "description": "The title attribute for toggle word wrapping button of code block lines"
   },
   "theme.docs.breadcrumbs.home": {
     "message": "Página de Inicio",

@@ -1,7 +1,7 @@
 ---
 id: valheim-plugins-bepinex
-title: "Valheim: Installation von Plugins auf dem Server (BepInEx)"
-description: Informationen über die Installation von Plugins auf deinem Valheim-Server mit BepInEx (Valheim Plus Server) von ZAP-Hosting - ZAP-Hosting.com Dokumentation
+title: "Valheim: Plugins auf dem Server installieren (BepInEx)"
+description: "Entdecke, wie du dein Valheim-Erlebnis mit BepInEx-Plugins aufpeppen und neue Modding-Möglichkeiten freischalten kannst → Jetzt mehr erfahren"
 sidebar_label: Plugins installieren (BepInEx)
 services:
   - gameserver-valheim
@@ -11,55 +11,57 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 import SearchableItemList from '@site/src/components/SearchableItemList/SearchableItemList';
 import items from '@site/data/lists/valheim-plugins.json';
 
-## Einleitung
-BepInEx ist ein sehr beliebtes Open-Source-Plugin und Modding-Framework, mit dem Spieler/innen Mods zu einer Reihe von Spielen hinzufügen können, die traditionell kein offizielles Modding unterstützen. In dieser Anleitung zeigen wir dir, wie du Plugins über BepInEx auf Valheim installieren kannst.
+## Einführung
+BepInEx ist ein mega beliebtes Open-Source Plugin- und Modding-Framework, mit dem du Mods zu vielen Games hinzufügen kannst, die eigentlich kein offizielles Modding unterstützen. In dieser Anleitung zeigen wir dir, wie du Plugins über BepInEx auf deinem Valheim-Gameserver installierst.
 
 <InlineVoucher />
 
 ## BepInEx Spielversion
 
-Um **BepInEx**-kompatible Plugins in Valheim zu verwenden, musst du zuerst die **Valheim Plus**-Spielversion auf deinem Server installieren. Wir haben auch eine eigenständige **Valheim BepInEx** Spielversion, aber wir empfehlen, Valheim Plus zu installieren, da es mit allem mitgeliefert wird. Das geht ganz einfach mit unserem Gameserver Game Switcher. Mehr darüber erfährst du in unserer [Spielwechsel](gameserver-gameswitch.md) Anleitung.
+Um **BepInEx** kompatible Plugins in Valheim zu nutzen, musst du zuerst die **Valheim Plus** Spielversion auf deinem Server installieren. Wir bieten auch eine eigenständige **Valheim BepInEx** Spielversion an, empfehlen aber Valheim Plus, weil da schon alles Wichtige drin ist. Das kannst du easy über unseren Gameserver-Spielwechsel machen, mehr dazu findest du in unserer [Spiel wechseln](gameserver-gameswitch.md) Anleitung.
 
 :::info
-Valheim Plus muss auch lokal auf deinem PC installiert werden. Hier findest du den Download für Valheim Plus: [Valheim Plus Download](https://www.nexusmods.com/valheim/mods/4).
+Valheim Plus muss auch lokal auf deinem PC installiert sein. Hier findest du den Download für Valheim Plus: [Valheim Plus Download](https://www.nexusmods.com/valheim/mods/4).
 :::
 
 ## Plugins hochladen
 
-Du solltest damit beginnen, Mods zu finden, die mit BepInEx kompatibel sind und die du zu deinem Server hinzufügen möchtest. Informationen über die Kompatibilität des Plugins findest du normalerweise auf der jeweiligen Download-Seite.
+Such dir zuerst Mods raus, die mit BepInEx kompatibel sind und die du auf deinem Server haben willst. Meistens findest du auf der jeweiligen Download-Seite Infos zur Kompatibilität.
 
 :::important
-Verwendete Plugins müssen **BepInEx**-kompatibel sein, sonst werden sie nicht funktionieren!
+Die Plugins müssen **BepInEx** kompatibel sein, sonst funktionieren sie nicht!
 :::
 
-Wenn du einen Mod fertig hast, verbinde dich zunächst per FTP mit deinem Gameserver. Lies unseren [Zugriff per FTP](gameserver-ftpaccess.md), um zu erfahren, wie das geht.
+Wenn du eine Mod hast, verbinde dich per FTP mit deinem Gameserver. Wie das geht, steht in unserer [Zugriff via FTP](gameserver-ftpaccess.md) Anleitung.
 
-Wenn dein FTP-Client nun bereit ist, navigiere in das folgende Verzeichnis:
+Im FTP-Client navigierst du dann zu folgendem Ordner:
 ```
 ../valheim-linux-plus/BepInEx/plugins
 ```
 
-In diesen Ordner musst du die Mods, die du heruntergeladen hast, ablegen. In der Regel handelt es sich dabei um Dateien mit der Erweiterung `.dll`.
+Dort lädst du die Mods hoch, die du runtergeladen hast. Normalerweise sind das Dateien mit der Endung `.dll`.
 
 :::note
-Der Server muss angehalten werden, bevor du Mods hinzufügst oder bearbeitest, da sonst alle Änderungen rückgängig gemacht werden können.
+Der Server muss gestoppt sein, bevor du Mods hinzufügst oder änderst, sonst gehen die Änderungen verloren.
 :::
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/d8gTeFiGXTsxHwz/preview)
 
 ## Server starten
 
-Wenn du die gewünschten Plugins hochgeladen hast, starte deinen Server einfach wieder.
+Nachdem du die gewünschten Plugins hochgeladen hast, kannst du deinen Server einfach wieder starten.
 
 :::info
-Einige Plugins müssen eventuell auch auf dem PC installiert werden. Informiere dich auf der Website des Plugins, ob dies notwendig ist oder nicht.
+Manche Plugins müssen auch clientseitig auf deinem PC installiert werden. Schau auf der Plugin-Webseite nach, ob das nötig ist.
 :::
 
-Du hast erfolgreich neue BepInEx-Plugins auf deinem Valheim Gameserver installiert!
+Du hast erfolgreich neue BepInEx-Plugins auf deinem Valheim-Gameserver installiert!
 
 ## Beliebte Plugins
 
-Noch auf der Suche nach den perfekten Plugins für deinen Server? Durchstöbere unsere sorgfältig zusammengestellte Liste mit den beliebtesten und am häufigsten empfohlenen Plugins, um dein Spielerlebnis zu erweitern und deinem Server den letzten Feinschliff zu geben. Lass dich inspirieren und finde genau die Erweiterungen, die zu deinem Projekt passen.
+Du suchst noch nach den perfekten Plugins für deinen Server?
+
+Stöbere durch unsere sorgfältig zusammengestellte Liste der beliebtesten und am meisten empfohlenen Plugins, um dein Gameplay zu verbessern und deinem Server den letzten Schliff zu geben. Lass dich inspirieren und finde genau die Addons, die zu deinem Projekt passen.
 
 <SearchableItemList items={items} />
 

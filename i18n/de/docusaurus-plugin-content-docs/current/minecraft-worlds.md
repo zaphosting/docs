@@ -1,7 +1,7 @@
 ---
 id: minecraft-worlds
-title: "Minecraft: Server Welten verwalten"
-description: Hier erfährst du, wie du mit ZAP-Hosting Welt-Saves auf deinem Minecraft-Server verwalten, konvertieren und erstellen kannst - ZAP-Hosting.com Dokumentation
+title: "Minecraft: Welten verwalten"
+description: "Entdecke, wie du Minecraft-Welten plattformübergreifend verwaltest, konvertierst und sicherst, um deinen Spielfortschritt sicher und nahtlos zu halten → Jetzt mehr erfahren"
 sidebar_label: Welten verwalten
 services:
   - gameserver-minecraft
@@ -13,196 +13,197 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
 
-Im Grunde speichert Minecraft Spielstände als **Welten**, wobei jede Welt ein eigenständiger Spielstand ist. In dieser Anleitung zeigen wir dir, wie du Welten auf deinem Minecraft-Spielserver verwaltest, einschließlich der Konvertierung von Welten zwischen Plattformen, der Regenerierung von Welten, der Sicherung deiner lokalen und Server-Welten und dem Hochladen von Welten auf deinen Server.
+Im Kern speichert Minecraft Spielstände als **Welten**, wobei jede Welt ihr eigener, eigenständiger Save ist. In dieser Anleitung zeigen wir dir, wie du Welten auf deinem Minecraft Gameserver verwaltest, inklusive der Konvertierung von Welten zwischen Plattformen, dem Regenerieren von Welten, dem Backup deiner lokalen und Server-Welten sowie dem Hochladen von Welten auf deinen Server.
 
 <InlineVoucher />
 
 ## Vorbereitung
 
-Um deine Welten zu verwalten, musst du erst mal über FTP auf deinen Minecraft-Spielserver zugreifen. Wenn du nicht weißt, wie FTP funktioniert, schau dir unsere Anleitung [Zugriff per FTP](gameserver-ftpaccess.md) an.
+Um deine Welten zu verwalten, musst du zunächst per FTP auf deinen Minecraft Gameserver zugreifen. Falls du noch nicht weißt, wie FTP funktioniert, schau dir bitte unsere [Zugriff via FTP](gameserver-ftpaccess.md) Anleitung an.
 
-## Vergleich der Plattformunterschiede
+## Unterschiede zwischen Plattformen vergleichen
 
-Ein wichtiger Unterschied zwischen Vanilla-Servern und Serverplattformen ist, dass Vanilla-Server die normale Welt, die Nether- und die End-Dimensionen in einem einzigen Speicher kombinieren.
+Ein wesentlicher Unterschied zwischen Vanilla-Servern und Server-Plattformen ist, dass Vanilla-Server die normale Welt, den Nether und das Ende als einen einzigen Save zusammenfassen.
 
-Andere Serverplattformen wie Spigot, PaperMC und Bukkit teilen jede Dimension in separate Speicher auf. In der Tabelle unten siehst du, wie eine Beispielwelt namens **zapdocs** von beiden Serverplattformen behandelt wird.
+Im Gegensatz dazu trennen alternative Server-Plattformen wie Spigot, PaperMC und Bukkit jede Dimension als eigene Welt-Saves. In der folgenden Tabelle siehst du, wie eine Beispielwelt namens **zapdocs** von beiden Server-Typen behandelt wird.
 
-| Weltweite Dimension | Vanilla-Server (kombiniert) | Serverplattformen (einzeln) |
-| ------------------- | --------------------------- | --------------------------- |
-| Normal/Overworld    | zapdocs                     | zapdocs                     |
-| Nether              | zapdocs                     | zapdocs_nether              |
-| The End             | zapdocs                     | zapdocs_the_end             |
+| Welt-Dimension  | Vanilla Server (Kombiniert) | Server-Plattformen (Einzeln)  |
+| --------------- | --------------------------- | ----------------------------- |
+| Normal/Overworld | zapdocs                     | zapdocs                       |
+| Nether           | zapdocs                     | zapdocs_nether                |
+| The End          | zapdocs                     | zapdocs_the_end               |
 
-## Welten umwandeln
+## Welten konvertieren
 
-Wenn du zwischen einem Vanilla-Server und einer Serverplattform wechselst, möchtest du vielleicht deine Welt speichern. Wegen der oben genannten Unterschiede musst du die Dateistruktur anpassen, um einzelne Welten für die Nether- und Enddimensionen je nach Aktion zu extrahieren oder zusammenzuführen.
+Wenn du zwischen einem Vanilla-Server und einer Server-Plattform wechselst, möchtest du vielleicht deinen Welt-Save behalten. Aufgrund der oben genannten Unterschiede musst du die Ordnerstruktur anpassen, um die einzelnen Welten für Nether und Ende entweder zu extrahieren oder zusammenzuführen.
 
 :::info
-Das ist nur nötig, wenn du zwischen Vanilla- und Server-Plattformen wechselst und dabei eine bestehende Welt behalten und verschieben möchtest. Wenn du einfach nur zwischen Vanilla- oder Server-Plattformen wechselst, musst du nichts konvertieren.
+Das ist nur nötig, wenn du zwischen Vanilla und Server-Plattformen wechselst und eine bestehende Welt behalten und verschieben möchtest. Wenn du nur zwischen Vanilla oder verschiedenen Server-Plattformen wechselst, musst du nichts konvertieren.
 :::
 
 :::note
-Stell sicher, dass du den Server ausschaltest, bevor du weitermachst, damit es keine Probleme oder Rückgängigmachungen gibt.
+Stelle sicher, dass du den Server vor dem Vorgang ausschaltest, um Konflikte oder Rollbacks zu vermeiden.
 :::
 
 <Tabs>
 <TabItem value="converting-from-vanilla" label="Von Vanilla konvertieren" default>
 
-Um eine Welt vom Vanilla-Format in das Server-Plattform-Format zu konvertieren, musst du bestimmte Ordner extrahieren, um für jede Dimension neue individuelle Welten zu erstellen. Natürlich solltest du alle Welten auf einen neuen Server verschieben, auf dem eine Server-Plattform wie Spigot, PaperMC oder Bukkit läuft.
+Um eine Welt vom Vanilla-Format in das Server-Plattform-Format zu konvertieren, musst du bestimmte Ordner extrahieren, um neue einzelne Welten für jede Dimension zu erstellen. Üblicherweise verschiebst du alle Welten auf einen neuen Server, der eine Server-Plattform wie Spigot, PaperMC oder Bukkit nutzt.
 
-Geh per FTP auf deinen Server und folge dem Pfad `../vanilla/[deine_welt]`, um zu der Welt zu gelangen, die du umwandeln möchtest. Such die Ordner **DIM1** und **DIM-1**.
+Greife per FTP auf deinen Server zu und navigiere zum Pfad `../vanilla/[deine_welt]`, um den Welt-Save zu finden, den du konvertieren möchtest. Suche die Ordner **DIM1** und **DIM-1**.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/FKiFmjYQembZ7qQ/preview)
 
-Der Ordner **DIM1** ist für die Enddaten und der Ordner **DIM-1** für die Netherdaten.
+Der Ordner **DIM1** enthält die End-Daten, während **DIM-1** die Nether-Daten enthält.
 
-Du musst jeden Ordner in einen eigenen neuen Weltordner verschieben, und zwar so:
-- Für Nether erstellst du einen neuen Ordner `[deine_welt]_nether` im Stammordner. Verschieb den Ordner **DIM-1** in diesen neuen separaten Weltordner.
-- Mach dasselbe für „The End“ und leg einen neuen Ordner `[deine_welt]_the_end` im Stammordner an. Verschieb den Ordner **DIM1** in diesen neuen separaten Weltordner.
+Du musst jeden Ordner in einen eigenen neuen Welt-Ordner verschieben, wie folgt:
+- Für den Nether erstelle einen neuen Ordner `[deine_welt]_nether` im Root-Verzeichnis. Verschiebe den **DIM-1** Ordner in diesen neuen separaten Welt-Ordner.
+- Für das Ende erstelle einen neuen Ordner `[deine_welt]_the_end` im Root-Verzeichnis. Verschiebe den **DIM1** Ordner in diesen neuen separaten Welt-Ordner.
 
 :::info
-Möglicherweise musst du die `DIM`-Ordner überschreiben, aber das ist normal, da Serverplattformen standardmäßig alle Dimensionen sofort generieren.
+Es kann sein, dass du die `DIM`-Ordner überschreiben musst, das ist normal, da Server-Plattformen standardmäßig alle Dimensionen sofort generieren.
 :::
 
-In this example, the world is called `world` therefore new `world_nether` and `world_the_end` folders were created in the root folder, with the appropriate `DIM` folder moved into them.
-
-In diesem Beispiel heißt die Welt `world`, also wurden im Hauptordner neue Ordner `world_nether` und `world_the_end` angelegt und die passenden `DIM`-Ordner dorthin verschoben.
+In diesem Beispiel heißt die Welt `world`, daher wurden die neuen Ordner `world_nether` und `world_the_end` im Root-Verzeichnis erstellt und die entsprechenden `DIM`-Ordner hineingeschoben.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/CSgKsHj6fnxZCgy/preview)
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/iYKHiQNzwmgQaz7/preview)
 
-Die drei einzelnen Welten können jetzt auf Serverplattformen genutzt werden.
+Die drei einzelnen Welten sind jetzt bereit für die Nutzung auf Server-Plattformen.
 
 </TabItem>
 
-<TabItem value="converting-to-vanilla" label="In Vanilla umwandeln">
+<TabItem value="converting-to-vanilla" label="Zu Vanilla konvertieren">
 
-Um eine Welt von einer Serverplattform ins Vanilla-Format zu bringen, machst du es quasi genau umgekehrt. Du musst die Daten aus den einzelnen Welten für die Nether- und End-Dimensionen extrahieren und sie dann zu einem einzigen Weltformat zusammenfügen. Natürlich solltest du die kombinierte Welt auf einen neuen Server mit Vanilla-Server verschieben.
+Um eine Welt von einer Server-Plattform ins Vanilla-Format zu konvertieren, ist der Prozess praktisch identisch, aber umgekehrt. Du musst die Daten aus den einzelnen Welten für Nether und Ende extrahieren und in ein einziges Welt-Format zusammenführen. Üblicherweise verschiebst du die kombinierte Welt auf einen neuen Server, der einen Vanilla-Server nutzt.
 
-Melde dich über FTP bei deinem Server an und gib den Pfad zum Root-Server ein. Such die drei einzelnen Weltordner, die `[deine_welt]`, `[deine_welt]_nether` und `[deine_welt]_the_end` heißen sollten, wobei `[deine_welt]` den Namen der Welt ersetzt.
+Greife per FTP auf deinen Server zu und öffne das Root-Verzeichnis. Suche die drei einzelnen Welt-Ordner, die `[deine_welt]`, `[deine_welt]_nether` und `[deine_welt]_the_end` heißen sollten, wobei `[deine_welt]` durch den Namen deiner Welt ersetzt wird.
 
-Öffne den Ordner `[deine_welt]_nether` und verschiebe den Ordner `DIM-1` in den Hauptordner `[deine_welt]`. In diesem Beispiel heißt die Welt wie zuvor standardmäßig `world`.
+Öffne den Ordner `[deine_welt]_nether` und verschiebe den Ordner `DIM-1` in den Hauptordner `[deine_welt]`. In diesem Beispiel heißt die Welt wie zuvor `world`.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/3tAijYDAbymJcrC/preview)
 
-Mach jetzt dasselbe für den Ordner `[deine_welt]_the_end` und verschieb `DIM1` in den Hauptordner `[deine_welt]`.
+Wiederhole das Gleiche für den Ordner `[deine_welt]_the_end` und verschiebe `DIM1` in den Hauptordner `[deine_welt]`.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/ao663qGk9Sz3WNt/preview)
 
-Die kombinierte Welt kann jetzt auf einem Vanilla-Server genutzt werden.
+Die kombinierte Welt ist jetzt bereit für die Nutzung auf einem Vanilla-Server.
 
 </TabItem>
 </Tabs>
 
 ## Welten generieren
 
-Das Erstellen von Welten ist ganz einfach. Du kannst entweder eine komplett neue Welt erstellen oder die aktuelle Welt neu generieren. Minecraft nutzt ein **Seed**-System, bei dem jede Welt einen einzigartigen Seed hat. Das heißt, dass du mit dem Seed allein eine exakte Kopie einer Welt erstellen kannst.
+Welten zu generieren ist easy: Du kannst entweder eine komplett neue Welt erstellen oder die aktuelle Welt frisch regenerieren. Minecraft nutzt ein **Seed**-System, bei dem jede Welt einen einzigartigen Seed hat. Mit dem Seed kannst du eine exakte Kopie der Startwelt regenerieren.
 
 <Tabs>
-<TabItem value="generating-new" label="Neue Welt erstellen" default>
+<TabItem value="generating-new" label="Neue Welt generieren" default>
 
-Um eine neue Welt zu erstellen, schalte einfach den Server aus und verbinde dich über FTP mit dem Server. Öffne auch die Konfigurationsdatei `server.properties`, entweder über den Abschnitt **Configs** im Webinterface-Panel deines Servers oder über FTP.
+Um eine neue Welt zu generieren, fahre den Server herunter und verbinde dich per FTP. Öffne außerdem die `server.properties` Konfigurationsdatei, entweder über den **Configs**-Bereich im Webinterface deines Servers oder per FTP.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/ziTZ3Jax8CD3jg6/preview)
 
-Um jetzt eine neue Welt zu erstellen, hast du zwei Möglichkeiten:
-- Such über FTP die Welt, die genauso heißt wie der Parameter `level-name` in der Konfigurationsdatei, und lösche sie.
-- Ändere den Parameter `level-name` in der Konfigurationsdatei und speichere die Datei.
+Um eine neue Welt zu generieren, kannst du entweder:
+- Per FTP die Welt löschen, die denselben Namen wie der `level-name` Parameter in der Konfig hat.
+- Den `level-name` Parameter in der Konfig auf einen anderen Namen ändern und speichern.
 
-Wenn du die alte Speicherdatei behalten willst, empfehlen wir Option 2, da die Welt auf dem Server bleibt, aber "inaktiv" ist. Starte jetzt den Server neu. Der Server merkt, dass die Welt mit dem Namen `level-name` fehlt, und erstellt eine neue Welt mit einem neuen Seed.
+Wenn du den alten Save behalten möchtest, empfehlen wir Option 2, so bleibt die alte Welt auf dem Server, ist aber "inaktiv".
+
+Starte den Server neu. Der Server erkennt, dass die Welt mit dem `level-name` fehlt und generiert eine neue Welt mit einem neuen Seed.
 
 </TabItem>
 
-<TabItem value="regenerating-current" label="Aktuelle Welt neu aufbauen">
+<TabItem value="regenerating-current" label="Aktuelle Welt regenerieren">
 
-Um die aktuelle Welt neu zu starten, musst du dir den Seed merken. Das kannst du über den **Konsolenbereich** auf der Weboberfläche deines Servers oder direkt im Spiel machen, aber denk dran, dass du dafür OP-Rechte (Operator) brauchst, wenn du es im Spiel machen willst.
+Um die aktuelle Welt zu regenerieren, musst du den Seed notieren. Das geht über die **Konsole** im Webinterface oder direkt im Spiel (du brauchst dafür OP-Rechte).
 
-Führ den Befehl `/seed` entweder in der Konsole oder im Spiel aus, um den **seed**-Wert der aktuellen Welt zu sehen. Schreib dir diesen Seed auf.
+Führe den Befehl `/seed` in der Konsole oder im Spiel aus, um den **Seed** der aktuellen Welt zu erhalten. Notiere dir diesen Seed.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/6s3fWaPMrDGSLrz/preview)
 
-Jetzt, wo du den Seed kennst, musst du den Parameter `level-seed` in der Konfigurationsdatei `server.properties` anpassen. Das kannst du entweder über den Abschnitt **Configs** im Webinterface-Panel deines Servers oder per FTP machen.
+Mit dem Seed musst du den `level-seed` Parameter in der `server.properties` Datei anpassen. Das kannst du über den **Configs**-Bereich im Webinterface oder per FTP machen.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/ziTZ3Jax8CD3jg6/preview)
 
 :::note
-Stell sicher, dass du den Server vorher ausschaltest, damit die Datei richtig gespeichert wird.
+Schalte den Server vorher aus, damit die Datei korrekt gespeichert wird.
 :::
 
-Ändere den Parameter `level-seed` in den Startwert und speichere die Datei. Jetzt verbinde dich per FTP mit deinem Server.
+Ändere den `level-seed` Parameter auf den notierten Seed und speichere die Datei. Verbinde dich dann per FTP mit deinem Server.
 
-Um die Welt neu zu starten, kannst du entweder:
-- Über FTP die Welt suchen, die genauso heißt wie der Parameter `level-name` in der Konfigurationsdatei, und sie löschen.
-- Den Parameter `level-name` in der Konfigurationsdatei ändern und speichern.
+Um die Welt zu regenerieren, kannst du entweder:
+- Per FTP die Welt löschen, die denselben Namen wie der `level-name` Parameter hat.
+- Den `level-name` Parameter in der Konfig auf einen anderen Namen ändern und speichern.
 
-Wenn du den alten Spielstand behalten willst, empfehlen wir Option 2, da die Welt auf dem Server bleibt, aber "inaktiv" ist.
+Wenn du den alten Save behalten möchtest, empfehlen wir Option 2, so bleibt die alte Welt auf dem Server, ist aber "inaktiv".
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/Z7GwpKo8tQjk3cb/preview)
 
-Jetzt startest du den Server nochmal und er merkt, dass die Welt mit dem Namen `level-name` fehlt. Deshalb erstellt er die aktuelle Welt neu mit dem Startwert, der über den Parameter `level-seed` angegeben wurde.
+Starte den Server neu. Der Server erkennt, dass die Welt mit dem `level-name` fehlt und regeneriert die aktuelle Welt mit dem Seed aus dem `level-seed` Parameter.
 
 </TabItem>
 </Tabs>
 
-## Backup World Sicherungen
+## Welt-Saves sichern
 
-### Lokale Speicher
-Lokale Spielstände sind die, die du im Einzelspielermodus erstellt hast. Du findest sie in deinen Windows-AppData, genauer gesagt unter folgendem Pfad:
+### Lokale Saves
+
+Lokale Welt-Saves sind die, die du im Singleplayer erstellt hast. Diese findest du in deinem Windows AppData-Ordner, genauer unter folgendem Pfad:
 ```
 ../AppData/Roaming/.minecraft/saves
 ```
 
 :::tip
-Du kannst ganz einfach auf diesen Pfad zugreifen, indem du gleichzeitig `CTRL` + `R` drückst und im Ausführen-Dialog nach dem folgenden Pfad suchst: `%appdata%/.minecraft/saves/`. Drücke einfach **OK** und du wirst zu dem Ordner weitergeleitet.
+Du kannst diesen Pfad ganz einfach öffnen, indem du gleichzeitig `STRG` + `R` drückst und im Ausführen-Dialog folgenden Pfad eingibst: `%appdata%/.minecraft/saves/`. Einfach auf **OK** klicken und du landest direkt im Ordner.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/jfrnkXX6XtwniEL/preview)
 :::
 
-In diesem Ordner kannst du alle lokalen Spielstände an einem Ort sehen.
+In diesem Ordner findest du alle lokalen Welt-Saves an einem Ort.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/Li7Qn23Ej6Yiomc/preview)
 
-### Zugriff auf gespeicherte Daten perFTP
+### Zugriff auf Saves via FTP
 
-Das Sichern deiner Weltspeicherstände vom Server ist ganz einfach. Sobald du über einen FTP-Client mit deinem Spielserver verbunden bist, geh einfach in den Stammordner der Serverplattform, die du benutzt. Die Weltspeicherstände findest du direkt dort, wobei der Standardname für die Welt `world` lautet.
+Das Backup deiner Welt vom Server ist easy. Sobald du per FTP mit deinem Gameserver verbunden bist, öffne einfach das Root-Verzeichnis der Server-Plattform, die du nutzt. Die Welt-Saves liegen direkt dort, der Standardwelt-Name ist `world`.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/X2FQLSrC5QgrexQ/preview)
 
-### Automatische Backups
+### Automatisches Backup
 
-Wir bieten auch die Möglichkeit, ein automatisches Backup deines Savegames (und deiner Konfigurationsdatei) direkt über unser Webinterface zu erstellen. Rufe einfach das Webinterface deines Gameservers auf und gehe in den Bereich **Tools->Backups**. Hier kannst du eine Reihe von Optionen konfigurieren, um automatische Backups für deinen Server zu planen. Wir stellen dir 10gb kostenlosen Backup-Speicher zur Verfügung, in dem deine Backups gespeichert werden. Weitere Informationen zu Backups findest du in unserer [Backups](gameserver-backups.md) zu diesem Thema.
+Wir bieten dir auch die Möglichkeit, deine Welt-Saves (und Konfigurationsdateien) automatisch über unser Webinterface zu sichern. Gehe dazu im Webinterface deines Gameservers auf **Tools->Backups**. Dort kannst du verschiedene Optionen einstellen, um automatische Backups zu planen. Du bekommst 10 GB kostenlosen Backup-Speicher, in dem deine Backups abgelegt werden. Für mehr Infos zu Backups schau dir unsere spezielle [Backups](gameserver-backups.md) Anleitung an.
 
-## Welt-Spielstand hochladen
+## Welt-Save hochladen
 
-Genau wie beim Backup ist auch das Hochladen deiner gespeicherten Welt ganz einfach. Stell zuerst sicher, dass du über einen FTP-Client mit deinem Spielserver verbunden bist. Wenn du bereit bist, geh zum Stammverzeichnis der Serverplattform, die du benutzt.
+Ähnlich wie beim Backup ist das Hochladen deines Welt-Saves simpel. Verbinde dich per FTP mit deinem Gameserver und öffne das Root-Verzeichnis der Server-Plattform, die du nutzt.
 
-:::info Vanilla- und Server-Plattform-Welten
-Denk dran, dass der Vanilla-Server und die Server-Plattformen Welten in einem etwas anderen Format speichern.
+:::info Vanilla- & Server-Plattform-Welten
+Denk daran, dass Vanilla-Server und Server-Plattformen Welten etwas unterschiedlich speichern.
 
-Wenn du einen Spielstand von Vanilla auf eine Server-Plattform wie PaperMC verschieben willst oder umgekehrt, schau dir bitte den Abschnitt in der [Welten konvertieren](#welten-umwandeln) Anleitung an.
+Wenn du einen Save von Vanilla zu einer Server-Plattform wie PaperMC oder umgekehrt verschiebst, schau dir bitte den Abschnitt [Welten konvertieren](#converting-worlds) in dieser Anleitung an.
 :::
 
-Zieh einfach deine gespeicherten Welten über deinen FTP-Client in den Stammordner und sie werden auf deinen Server hochgeladen.
+Zieh einfach deinen Welt-Save per Drag & Drop in das Root-Verzeichnis via FTP, dann wird er auf deinen Server hochgeladen.
 
 :::tip
-Es kann hilfreich sein, den Namen des Gamesave-Ordners zu kopieren, den du hochgeladen hast, da du ihn brauchst, wenn du ihn im nächsten Abschnitt aktivieren möchtest.
+Es kann hilfreich sein, den Namen des hochgeladenen Gamesave-Ordners zu kopieren, da du ihn brauchst, um die Welt im nächsten Schritt zu aktivieren.
 :::
 
-## Welt-Spielstand aktivieren
+## Welt-Save aktivieren
 
-Um einen bestimmten Spielstand zu speichern, musst du die Konfigurationsdatei `server.properties` bearbeiten, genauer gesagt den Parameter `level-name`. Das kannst du entweder über den Abschnitt **Configs** im Webinterface deines Servers oder per FTP machen.
+Um eine bestimmte Welt zu nutzen, musst du die `server.properties` Konfigurationsdatei bearbeiten, genauer den `level-name` Parameter.
+
+Das kannst du entweder über den **Configs**-Bereich im Webinterface deines Servers oder per FTP machen.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/ziTZ3Jax8CD3jg6/preview)
 
-Such in der Datei den Parameter `level-name` und ändere ihn so, dass er mit dem Namen des Ordners übereinstimmt, in dem deine Welt gespeichert ist. Wenn du eine Serverplattform verwendest, nimm den Namen des Hauptordners und nicht den der Ordner `_nether` oder `_the_end`.
+Suche in der Datei den `level-name` Parameter und ändere ihn so, dass er mit dem Ordnernamen deines Welt-Saves übereinstimmt. Wenn du eine Server-Plattform nutzt, verwende den Hauptordnernamen und nicht die `_nether` oder `_the_end` Ordner.
 
+## Fazit
 
+Jetzt weißt du, wie du deine Minecraft-Welten souverän managst. Vom Konvertieren zwischen Vanilla und Server-Plattformen, über das Generieren neuer Welten, das Regenerieren alter Welten mit Seeds, zuverlässige Backups, das Hochladen eigener Welten bis hin zum Aktivieren auf deinem Server. Mit diesem Wissen kannst du deine Welten problemlos verwalten und deine Abenteuer sicher und organisiert halten.
 
-## Abschluss
-
-Du weißt jetzt, wie du deine Minecraft-Welten sicher verwalten kannst. Von der Konvertierung von Spielständen zwischen Vanilla- und Server-Plattformen bis hin zur Erstellung neuer Welten, der Regeneration alter Welten mithilfe von Seeds, der Erstellung zuverlässiger Backups, dem Hochladen benutzerdefinierter Welten und deren Aktivierung auf deinem Server. Mit diesem Wissen bist du bereit, deine Welten reibungslos zu verwalten und deine Abenteuer sicher und organisiert zu halten.
-
-Für weitere Fragen oder Hilfe zögere bitte nicht, unser Support-Team zu kontaktieren, das dir täglich zur Verfügung steht! 🙂
+Bei Fragen oder Problemen steht dir unser Support-Team täglich zur Seite! 🙂
 
 <InlineVoucher />

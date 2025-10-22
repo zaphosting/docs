@@ -1,7 +1,7 @@
 ---
 id: satisfactory-blueprints
-title: "Satisfactory: Verwalten von Blueprints (Import/Export)"
-description: Informationen über die Verwaltung von Blueprints für deinen Satisfactory Server von ZAP-Hosting - ZAP-Hosting.com Dokumentation
+title: "Satisfactory: Blueprints verwalten (Import/Export)"
+description: "Entdecke, wie du individuelle Blueprints erstellst, teilst und verwaltest für effiziente Satisfactory-Bauten und Layouts → Jetzt mehr erfahren"
 sidebar_label:  Blueprints verwalten
 services:
   - gameserver-satisfactory
@@ -11,52 +11,47 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
 
-Satisfactory verfügt über ein benutzerdefiniertes Blueprint-System, mit dem die Nutzer Baupläne erstellen und mit anderen Community-Mitgliedern teilen können. Diese Baupläne reichen von effizienten Fabrikplänen bis hin zu aufwendig gestalteten Lounges und komplexen Eisenbahnsystemen.
+Satisfactory bietet ein eigenes Blueprint-System, mit dem du Baupläne erstellen und mit anderen Community-Mitgliedern teilen kannst. Diese Blueprints reichen von effizienten Fabriklayouts über aufwendig gestaltete Lounges bis hin zu komplexen Eisenbahnsystemen.
 
-Eine große Auswahl an Bauplänen ist auf der Website von Satisfactory Calculator verfügbar. Baupläne können problemlos importiert und exportiert werden.
+Eine große Auswahl an Blueprints findest du auf der Satisfactory Calculator Webseite. Blueprints lassen sich ganz easy importieren und exportieren.
 
 <InlineVoucher />
 
-
-
 ## Blueprints verwalten
 
-Die Verwaltung von Blueprints auf einem Satisfactory Server erfolgt ausschließlich über FTP. Wenn du noch nicht damit vertraut bist, wie du dich per FTP mit deinem Server verbinden kannst, schau dir bitte unsere separate [FTP-Zugriff](gameserver-ftpaccess.md) Anleitung an, um den Einstieg zu finden.
+Das Verwalten von Blueprints auf deinem Satisfactory-Gameserver läuft komplett über FTP. Falls du noch nicht weißt, wie du dich per FTP mit deinem Server verbindest, schau dir am besten unsere separate [FTP-Zugang](gameserver-ftpaccess.md) Anleitung an, um loszulegen.
 
 ### Blueprints importieren
-Zunächst musst du dir die Blueprint-Dateien besorgen, die du hochladen möchtest. Diese bestehen aus einer „sbp“-Datei und optional aus einer zugehörigen „sbpcfg“-Konfigurationsdatei. Diese Dateien können aus vertrauenswürdigen Community-Quellen stammen oder von anderen Spielinstanzen erstellt werden.
 
-Bevor du mit dem Upload fortfährst, ist es empfehlenswert, den Server über die Serververwaltung komplett herunterzufahren. Dadurch wird sichergestellt, dass während des Uploads keine Dateikonflikte oder Speicherprobleme auftreten.
+Zuerst brauchst du die Blueprint-Dateien, die du hochladen möchtest. Diese bestehen aus einer `.sbp` Datei und optional einer zugehörigen `.sbpcfg` Konfigurationsdatei. Die Dateien stammen entweder aus vertrauenswürdigen Community-Quellen oder wurden aus anderen Spiel-Instanzen exportiert.
 
-Verbinde dich dann mit einem FTP-Client mit dem Server. Sobald du angemeldet bist, navigiere zum Blueprints-Verzeichnis:
+Bevor du die Dateien hochlädst, solltest du den Server komplett über dein Server-Management-Interface herunterfahren. So vermeidest du Datei-Konflikte oder Speicherprobleme während des Uploads.
 
- ```
- /gXXXXXX/.config/Epic/FactoryGame/Saved/SaveGames
- ```
+Verbinde dich anschließend mit einem FTP-Client zum Server. Navigiere dann in das Blueprint-Verzeichnis:
 
-Innerhalb dieses Verzeichnisses muss es einen Unterordner geben, der genau nach der verwendeten Welt (oder Sitzung) benannt ist. Dieser Name entspricht dem Namen der auf dem Server gespeicherten `.sav`-Datei. Wenn der Ordner noch nicht existiert, muss er manuell unter Verwendung des exakten Namens der Save-Datei erstellt werden.
+```
+/gXXXXXX/.config/Epic/FactoryGame/Saved/SaveGames
+```
 
-Sobald der richtige Unterordner vorbereitet ist, lädst du die Blueprint-Dateien in diesen Ordner hoch. Es ist wichtig, dass sowohl die `.sbp` als auch, falls vorhanden, die `.sbpcfg`-Datei enthalten sind. Nachdem der Upload abgeschlossen ist, startest du den Server neu. Sobald er wieder läuft, sind die hochgeladenen Blueprints im Spiel über die Blueprint-Designer-Schnittstelle verfügbar, so dass du auf sie zugreifen und sie normal verwenden kannst.
+In diesem Verzeichnis muss ein Unterordner existieren, der exakt den Namen der Welt (oder Session) trägt, die du nutzt. Dieser Name entspricht dem Namen der `.sav` Datei auf dem Server. Falls der Ordner noch nicht existiert, musst du ihn manuell mit genau diesem Namen anlegen.
+
+Ist der richtige Unterordner bereit, lade die Blueprint-Dateien in diesen Ordner hoch. Wichtig: Sowohl die `.sbp` als auch, falls vorhanden, die `.sbpcfg` Datei müssen dabei sein. Nach dem Upload startest du den Server neu. Sobald er wieder läuft, sind die hochgeladenen Blueprints im Spiel über den Blueprint Designer verfügbar und können ganz normal genutzt werden.
 
 ### Blueprints exportieren
 
-Um Blueprints von einem Satisfactory Server zu exportieren, musst du die Blueprint-Dateien vom Server herunterladen und sie lokal auf deinem PC speichern. Beginne damit, den Server herunterzufahren, um sicherzustellen, dass die Blueprint-Dateien in einem konsistenten und zugänglichen Zustand bleiben. Öffne deinen FTP-Client und verbinde dich mit dem Server und navigieren zu dem Verzeichnis:
+Blueprints vom Satisfactory-Gameserver zu exportieren bedeutet, die Blueprint-Dateien vom Server herunterzuladen und lokal auf deinem PC zu speichern. Fahre dafür zuerst den Server herunter, damit die Dateien in einem konsistenten und zugänglichen Zustand sind. Öffne deinen FTP-Client und verbinde dich mit dem Server. Navigiere zum Verzeichnis:
 
-````
+```
 /gXXXXXX/.config/Epic/FactoryGame/Saved/SaveGames
-````
+```
 
-Suchen den Unterordner, der der Welt/Sitzung entspricht, aus der du die Blueprints exportieren möchtest. In diesem Ordner findest du die Datei „sbp“ und die optionale Datei „sbpcfg“, die zu jedem gespeicherten Entwurf gehören.
+Finde den Unterordner, der zur Welt/Session gehört, aus der du Blueprints exportieren möchtest. In diesem Ordner findest du die `.sbp` Datei sowie optional die `.sbpcfg` Datei zu jedem gespeicherten Blueprint.
 
-Lade die gewünschten Blueprint-Dateien mit dem FTP-Client direkt auf deinen lokalen Computer herunter.  Sobald die Übertragung abgeschlossen ist, kannst du die Dateien archivieren, sie lokal öffnen oder in eine andere Installation oder Serverumgebung importieren. Wenn du vorhast, die Blueprints auf einem anderen Server wiederzuverwenden, befolge das gleiche, oben beschriebene Importverfahren.
+Lade die gewünschten Blueprint-Dateien direkt mit dem FTP-Client auf deinen lokalen Rechner herunter. Nach dem Transfer kannst du die Dateien archivieren, lokal öffnen oder in eine andere Installation bzw. Serverumgebung importieren. Wenn du die Blueprints auf einem anderen Server wiederverwenden willst, folge einfach der oben beschriebenen Import-Anleitung.
 
+## Fazit
 
-
-## Abschluss
-
-Die Verwaltung von Blueprints auf einem Satisfactory Server ist ein unkomplizierter Prozess, wenn du die dokumentierten Schritte befolgst. Für weitere Fragen oder Hilfe zögere bitte nicht, unser Support-Team zu kontaktieren, das dir täglich zur Verfügung steht! 🙂
-
-
+Das Verwalten von Blueprints auf deinem Satisfactory-Gameserver ist super easy, wenn du die beschriebenen Schritte befolgst. Falls du noch Fragen hast oder Hilfe brauchst, steht dir unser Support-Team täglich zur Seite! 🙂
 
 
 <InlineVoucher />

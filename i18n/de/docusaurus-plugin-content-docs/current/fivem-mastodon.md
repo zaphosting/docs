@@ -1,8 +1,8 @@
 ---
 id: fivem-mastodon
-title: "FiveM: Activity Feed für Server einrichten"
-description: Informationen, wie du einen Activity Feed für deinen FiveM-Server von ZAP-Hosting einrichten kannst - ZAP-Hosting.com Dokumentation
-sidebar_label: Activity Feed einrichten
+title: "FiveM: Activity Feed für deinen Server einrichten"
+description: "Entdecke, wie du einen Mastodon Activity Feed in deinen Server integrierst für Echtzeit-Updates und mehr Community-Interaktion → Jetzt mehr erfahren"
+sidebar_label: Activity Feed konfigurieren
 services:
   - gameserver-fivem
 ---
@@ -13,14 +13,13 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Vorbereitung
 
-Um auf unserem Server einen Activity Feed einzurichten, müssen wir zunächst einen Account auf einer Mastodon Instanz registrieren.
+Um einen Activity Feed auf unserem Server einzurichten, müssen wir zuerst einen Account bei Mastodon registrieren.
 
 ## Einrichtung
 
-Nun öffnen wir unser Mastodon Profil und kopieren unseren Username, in unserem Fall ist das `zaphosting@mastodon.instance`
+Jetzt öffnen wir unser Mastodon-Profil und kopieren unseren Benutzernamen, in unserem Fall ist das `zaphosting@mstdn.instance`
 
-Jetzt können wir unsere "Configs", bei unserem FiveM Server öffnen, und die server.cfg editieren.
-
+Anschließend öffnen wir die "Configs" auf unserem FiveM Gameserver und bearbeiten die server.cfg.
 
 Wir fügen nun ganz unten folgende Zeile ein:
 
@@ -28,10 +27,11 @@ Wir fügen nun ganz unten folgende Zeile ein:
 sets activitypubFeed username
 ```
 
-"Username" sollte mit deinem Mastodon Usernamen ersetzt werden.
+"username" ersetzt du durch deinen Mastodon-Benutzernamen.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/5NMr4rSd3T9P9fp/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/oQWC9pxrweM8FsY/preview)
 
-Nun speichern wir die Datei und starten unseren Server neu, nach ~20 Minuten wird das "Feed" Tab verfügbar sein, nachdem dein Server geöffnet wurde.
+Jetzt speichern wir die Datei und starten unseren Server neu. Nach ca. 20 Minuten ist der Reiter "Feed" verfügbar, sobald dein Server online ist.
+
 
 <InlineVoucher />

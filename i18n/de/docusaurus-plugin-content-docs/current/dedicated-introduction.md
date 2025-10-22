@@ -1,7 +1,7 @@
 ---
 id: dedicated-introduction
 title: "Dedicated Server: Einführung"
-description: Einführung und Informationen rund um das Dedicated Server Produkt von ZAP-Hosting - ZAP-Hosting.com Dokumentation
+description: "Entdecke leistungsstarke Dedicated Server mit voller Hardware-Kontrolle und maximaler Performance für deine Anwendungen zu fairen Preisen → Jetzt mehr erfahren"
 sidebar_label: Einführung
 services:
   - dedicated
@@ -9,53 +9,55 @@ services:
 
 import InlineVoucher from '@site/src/components/InlineVoucher';
 import SearchableAccordion from '@site/src/components/SearchableAccordion/SearchableAccordion';
-import items from '@site/data/faqs/dedicated-introduction-de.json';
+import items from '@site/data/faqs/dedicated-introduction-en.json';
+
 
 ## Einführung
 
-Du suchst nach einem eigenen Server mit leistungsstarker Ausstattung zu einem fairen Preis? Dann bist du bei ZAP-Hosting genau richtig! Bei ZAP-Hosting kannst du deinen passenden Dedicated Server mieten oder kaufen und erhältst damit Hardware für ein maximales Performance-Erlebnis! 
+Du suchst deinen eigenen Server mit starker Ausstattung zu einem fairen Preis? Dann bist du bei ZAP-Hosting genau richtig! Bei ZAP-Hosting kannst du deinen passenden Dedicated Server mieten oder kaufen und bekommst Hardware für ein maximales Performance-Erlebnis!
 
-Im Gegensatz zu einem virtuellen Server (vRootserver) hast du mit einem dedizierten Server eigene physische Hardware. Das bedeutet, wenn du einen Dedicated Server mieten/kaufen möchtest, steht die volle Power aller Komponenten nur dir und deinen Anwendungen zur Verfügung. Virtuelle Server hingegen laufen auf einem Hostsystem, dessen Ressourcen mit anderen virtuellen Servern geteilt werden. 
+Im Gegensatz zu einem virtuellen Server hast du bei einem Dedicated Server deine eigene physische Hardware. Das bedeutet, wenn du einen Dedicated Server mietest/kaufst, steht dir die volle Power aller Komponenten exklusiv für dich und deine Anwendungen zur Verfügung. Virtuelle Server laufen dagegen auf einem Host-System, dessen Ressourcen mit anderen virtuellen Servern geteilt werden.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/eN4iGF3JKjtZWW5/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/9YMG6QfsNzzjCSQ/preview)
 
 <InlineVoucher />
 
-## Bestellen
+## Bestellung
 
-Der Bestellvorgang ist ganz einfach. Wähle deine Wunschkonfiguration für deinen [Dedicated Server](https://zap-hosting.com/de/dedicated-server-mieten/) aus. Die Einrichtungsdauer des Dedicated Server hängt von der Verfügbarkeit ab. Das kannst du anhand des Status Symbol neben der Flagge bei den einzelnen Konfigurationen nachvollziehen. Der Status **Grün** bedeutet, dass die Konfiguration verfügbar ist und innerhalb weniger Minuten zur Verfügung steht. Sollte bei der Konfiguration der Status **Orange** angezeigt werden, so ist die Konfiguration nicht direkt verfügbar und muss zusammengestellt werden. Die Zeit für die Bereitstellung beträgt hierbei circa 5 Werktage (Montag-Freitag). 
+Der Bestellprozess ist super einfach. Wähle deine Wunschkonfiguration für deinen [Dedicated Server](https://zap-hosting.com/en/dedicated-server-hosting/). Die Einrichtungszeit des Dedicated Servers hängt von der Verfügbarkeit ab. Du kannst das am Statussymbol neben der Flagge bei jeder Konfiguration sehen. Der Status **Grün** bedeutet, dass die Konfiguration verfügbar ist und innerhalb weniger Minuten bereitsteht. Wenn der Status **Orange** angezeigt wird, ist die Konfiguration nicht sofort verfügbar und muss erst zusammengebaut werden. Die Einrichtungszeit beträgt dann ca. 5 Werktage (Montag-Freitag).
 
-![](https://screensaver01.zap-hosting.com/index.php/s/nbP2BWbD9tDRMxF/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/NDLcyjdj6BmSwLq/preview)
+
+
 
 ## Konfigurationen
 
-Für unsere Dedicated Server bieten wir zahlreiche Konfigurationsvarianten an, womit für jeden Anwendungsfall das passende System zu finden sein sollte. Unsere Konfigurationen stellen sich generell aus den folgenden möglichen Optionen zusammen:
+Für unsere Dedicated Server bieten wir zahlreiche Konfigurationsvarianten an, sodass du für jeden Einsatzzweck das passende System findest. Unsere Konfigurationen bestehen grundsätzlich aus folgenden möglichen Optionen:
 
-| Hardware Komponenten | Verfügbare Optionen                                          |
-| -------------------- | ------------------------------------------------------------ |
-| CPU                  | Intel Xeon E5-2609v2, Intel Xeon E5-2640v2, Intel Xeon E5-2609v2, Intel Xeon E5-2637v2, Intel Xeon E5-2630v2, Intel Xeon E5-2650v2, Intel Xeon E5-2651v2, Intel Xeon E5-2667v2, Intel Xeon E5-2637v2, Intel Xeon E5-2680v2, Intel Xeon E5-2640v4, Intel Xeon E5-2650v4, Intel Xeon E5-2667v4, Intel Xeon E5-2680v4 |
-| RAM                  | Bis zu 256 GB Arbeitsspeicher                                |
-| DISK                 | Von 500 GB bis zu 2x 1 TB SSD Festplattenspeicherplatz       |
+| Hardware-Komponenten | Verfügbare Optionen                                            |
+| ------------------- | -------------------------------------------------------------- |
+| CPU                 | Intel Xeon E5-2609v2, Intel Xeon E5-2640v2, Intel Xeon E5-2609v2, Intel Xeon E5-2637v2, Intel Xeon E5-2630v2, Intel Xeon E5-2650v2, Intel Xeon E5-2651v2, Intel Xeon E5-2667v2, Intel Xeon E5-2637v2, Intel Xeon E5-2680v2, Intel Xeon E5-2640v4, Intel Xeon E5-2650v4, Intel Xeon E5-2667v4, Intel Xeon E5-2680v4 |
+| RAM                 | Bis zu 256 GB RAM                                              |
+| FESTPLATTE          | Von 500 GB bis zu 2x 1 TB SSD-Speicher                         |
 
-:::info 
-Zum derzeitigen Zeitpunkt kommen wir auf ein Angebot von 49 verschiedenen Dedicated Server Konfiguration zwischen denen du auswählen kannst! 
+:::info
+Aktuell haben wir 49 verschiedene Dedicated Server Konfigurationen für dich zur Auswahl!
 :::
 
 
 
 ## Anwendungsbereiche
 
-Aufgrund der Performance, den umfangreichen Zugriffsberechtigungen und damit hergehenden Möglichkeiten kann ein Dedicated Server in vielen Anwendungsbereichen zum Einsatz kommen. Dazu gehören beispielsweise folgende: 
+Dank der Performance, den umfassenden Rechten und den daraus resultierenden Möglichkeiten können Dedicated Server in vielen Bereichen eingesetzt werden. Dazu gehören zum Beispiel:
 
-- Webseiten 
+- Webseiten
 - Datenbanken
-- Cloud Lösungen
+- Cloud-Lösungen
 - Game- und Voiceserver
 - Virtualisierungen
 
-
 ## Häufig gestellte Fragen
-Du hast noch offene Fragen zu unserem Dedicated Server Produkt? Hier findest du Antworten auf alles, was dich rund um Funktionen, Vorteile, Einrichtung und Nutzung interessiert. So bekommst du schnell die Infos, die du brauchst, um unser Dedicated Server Produkt bestmöglich zu nutzen. Und wenn doch noch etwas unklar ist, melde dich einfach bei uns und wir helfen dir sofort weiter.
+Du hast noch mehr Fragen zu unserem Dedicated Server Produkt? Hier findest du Antworten auf alles, was du über Features, Vorteile, Einrichtung und effektive Nutzung wissen willst. So bekommst du alle Infos, um das Beste aus deinem Dedicated Server rauszuholen. Und falls doch noch was unklar ist, melde dich einfach – wir helfen dir sofort weiter.
 <SearchableAccordion items={items} />
 
 <InlineVoucher />

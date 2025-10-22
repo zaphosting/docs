@@ -1,7 +1,7 @@
 ---
 id: dedicated-linux-dnsserver
 title: "Dedicated Server: DNS Server Installation und Einrichtung (ISPConfig)"
-description: Informationen, wie du einen DNS Server auf deinen Dedicated Server von ZAP-Hosting installieren kannst - ZAP-Hosting.com Dokumentation
+description: "Entdecke, wie du mit ISPConfig einen DNS Server für effizientes Domain-Management und Netzwerksteuerung einrichtest → Jetzt mehr erfahren"
 sidebar_label: DNS Server (ISPConfig)
 services:
   - dedicated

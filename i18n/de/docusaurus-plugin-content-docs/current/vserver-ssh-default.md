@@ -1,8 +1,8 @@
 ---
 id: vserver-ssh-default
-title: "vServer: Standard SSH-Schlüssel im Profil verwalten"
-description: Informationen zur Verwaltung von SSH-Schlüsseln, die im Profil deines ZAP-Hosting-Kontos festgelegt sind - ZAP-Hosting.com Dokumentation
-sidebar_label: Standard SSH-Schlüssel
+title: "VPS: Standard-SSH-Keys im Profil verwalten"
+description: "Entdecke, wie du mit ZAP-Hosting die SSH-Key-Einrichtung automatisierst für schnelleren Serverzugang und einfachere Produktinstallationen → Jetzt mehr erfahren"
+sidebar_label: Standard-SSH-Keys
 services:
   - vserver
 ---
@@ -10,50 +10,50 @@ services:
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
-Eine unserer neuesten Erweiterungen des ZAP-Hosting-Webinterfaces ist die Möglichkeit, deinem ZAP-Hosting-Konto über unsere Website Standard-SSH-Schlüssel hinzuzufügen. Der große Vorteil dabei ist, dass die SSH-Schlüssel, die du auf deiner Profilseite einrichtest, automatisch eingerichtet und bei der Ersteinrichtung des Produkts oder der Neuinstallation des Betriebssystems verwendet werden. Dadurch sparst du Zeit, da du deine SSH-Schlüssel nicht mehr manuell einrichten musst.
+Eine unserer neuesten Features im ZAP-Hosting Webinterface ist die Möglichkeit, Standard-SSH-Keys direkt in deinem ZAP-Hosting Account über die Webseite hinzuzufügen. Der mega Vorteil: Die SSH-Keys, die du auf deiner Profilseite hinterlegst, werden automatisch als Standard eingerichtet und bei der ersten Produktinstallation oder Neuinstallation des Betriebssystems verwendet. Das spart dir Zeit, weil du deine SSH-Keys nicht mehr manuell einrichten musst.
 
 <InlineVoucher />
 
 ## Voraussetzungen
-Um diese Funktion nutzen zu können, musst du einen SSH-Schlüssel erstellen lassen. Wenn du bereits einen SSH-Schlüssel hast, kannst du mit dem nächsten Abschnitt fortfahren.
+Um dieses Feature zu nutzen, musst du einen SSH-Key generiert haben. Falls du schon einen SSH-Key hast, kannst du direkt zum nächsten Abschnitt springen.
 
-Um einen SSH-Schlüssel zu generieren, empfehlen wir dir, den Bereich **Informationen->Zugang & Sicherheit** im Webinterface deines vServers aufzurufen. 
+Um einen SSH-Key zu erstellen, empfehlen wir dir, im Webinterface deines vServers zum Bereich **Informationen->Zugriff & Sicherheit** zu gehen.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/RepcLDoHdxM4o8H/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/N9FxTpdfibwCWSD/preview)
 
-Hier siehst du einen grünen Button **SSH-Key generieren**. Sobald du diesen Button drückst, wird dein privater SSH-Schlüssel automatisch auf deinen PC heruntergeladen. Mit diesem Schlüssel kannst du dich mit deinem Server verbinden, sobald SSH eingerichtet ist.
+Dort findest du einen grünen Button **SSH-Key generieren**. Wenn du diesen klickst, wird dein SSH Private Key automatisch auf deinen PC heruntergeladen. Diesen Key nutzt du später, um dich per SSH mit deinem Server zu verbinden.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/pdTTNDzQKr4ib3x/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/tdYfxJYNBFC2R9k/preview)
 
-Den öffentlichen Schlüssel, den du in der Eingabeaufforderung findest, solltest du jetzt speichern, da du ihn bei der Erstellung des SSH-Schlüssels in deinem Profil angeben musst.
+Speichere jetzt den Public Key, der dir im Prompt angezeigt wird, denn diesen brauchst du, um den SSH-Key in deinem Profil anzulegen.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/Tc9MEGamAC9dDF3/preview)
 
-Sobald du bereit bist, gehst du zum nächsten Abschnitt über.
+Wenn du bereit bist, geht’s weiter zum nächsten Abschnitt.
 
-## SSH-Schlüssel im Profil verwalten
-Die Verwaltung deiner Standard-SSH-Schlüssel in deinem Account ist ganz einfach. Gehe zu deiner **[ZAP-Hosting-Profilseite](https://zap-hosting.com/en/customer/home/profile/)** und scrolle nach unten, bis du den Abschnitt **Standardmäßige SSH-Keys** erreichst.
+## Standard-SSH-Key im Profil verwalten
+Das Verwalten deiner Standard-SSH-Keys in deinem Account ist easy. Geh dazu auf deine **[ZAP-Hosting Profilseite](https://zap-hosting.com/en/customer/home/profile/)** und scroll runter bis zum Bereich **Standard SSH Keys**.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/pqENQmKeHAecEEf/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/QzefcYZWPGz3rJr/preview)
 
-### Hinzufügen eines neuen Schlüssels
-Um einen Schlüssel hinzuzufügen, drücke zuerst auf das grüne Plus-Symbol, um die Eingabeaufforderung zu öffnen. In dieser Eingabeaufforderung wählst du zunächst einen passenden Namen aus, den du deinem SSH-Schlüssel hinzufügen möchtest.
+### Neuen Key hinzufügen
+Um einen neuen Key hinzuzufügen, klick zuerst auf das grüne Plus-Symbol, um das Erstellungsfenster zu öffnen. Wähle dort zuerst einen passenden Namen für deinen SSH-Key.
 
-Anschließend fügst du deinen öffentlichen SSH-Schlüssel in das zweite Feld ein. Dein SSH-Schlüssel sollte im OpenSSH-Format sein, das mit `ssh-rsa` beginnt und mit einem Suffix endet. Wenn du fertig bist, drückst du auf den grünen Button **Speichern**, um den Schlüssel hinzuzufügen.
+Füge dann deinen SSH Public Key in das zweite Feld ein. Dein SSH-Key sollte im OpenSSH-Format sein, also mit `ssh-rsa` beginnen und mit einem Suffix enden. Wenn alles passt, klick auf den grünen **Speichern**-Button, um den Key hinzuzufügen.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/EwfJmWHM7ewXH6M/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/CBTcDSiBLfNYi2R/preview)
 
 :::tip
-Achte darauf, dass du deinen **SSH Public Key** angibst und nicht den SSH Private Key. Der private SSH-Schlüssel wird bei der Anmeldung zur Authentifizierung mit deinem öffentlichen Schlüssel verwendet.
+Achte darauf, dass du deinen **SSH Public Key** einfügst und nicht den SSH Private Key. Der Private Key wird nur beim Login genutzt, um dich mit deinem Public Key zu authentifizieren.
 :::
 
-Du hast erfolgreich einen Standard-SSH-Schlüssel zu deinem ZAP-Hosting-Konto hinzugefügt.
+Du hast jetzt erfolgreich einen Standard-SSH-Key in deinem ZAP-Hosting Account hinterlegt.
 
-### Bearbeiten oder Entfernen eines Schlüssels
-Um einen Schlüssel zu bearbeiten, drückst du einfach auf das blaue Augensymbol, woraufhin sich eine Eingabeaufforderung öffnet. In dieser Eingabeaufforderung siehst du die aktuell eingestellten Details und kannst sie nach Belieben direkt bearbeiten und speichern.
+### Key bearbeiten oder löschen
+Um einen Key zu bearbeiten, klick einfach auf das blaue Augen-Symbol. Es öffnet sich ein Fenster, in dem du die aktuellen Daten sehen und direkt bearbeiten sowie speichern kannst.
 
-Um eine Taste zu löschen, drückst du auf das rote Mülleimer-Symbol, das die betreffende Taste löscht.
+Um einen Key zu löschen, klick auf das rote Mülleimer-Symbol, um den jeweiligen Key zu entfernen.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/YN9YoWcykQE65Nc/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/56mPcDswpZBaHms/preview)
 
 <InlineVoucher />

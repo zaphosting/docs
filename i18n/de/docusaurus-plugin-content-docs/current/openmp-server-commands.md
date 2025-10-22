@@ -1,8 +1,8 @@
 ---
 id: openmp-server-commands
-title: "Open.mp: Open.mp Server-Befehle"
-description: Informationen über nützliche Befehle für das Open.mp-Spiel von ZAP-Hosting - ZAP-Hosting.com Dokumentation
-sidebar_label: Server-Befehle
+title: "Open.mp: Open.mp Serverbefehle"
+description: "Entdecke, wie du Open.mp Serverbefehle sicher mit RCON-Zugang verwaltest und die Kontrolle über deinen Server verbesserst → Jetzt mehr erfahren"
+sidebar_label: Serverbefehle
 services:
   - gameserver-openmp
 ---
@@ -11,63 +11,63 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
 
-Open.mp-Server verfügen über eine Reihe nützlicher integrierter Serverbefehle, die du im Spiel und über deine Serverkonsole verwenden kannst. In dieser Anleitung werden wir uns mit vielen dieser Befehle befassen und Beschreibungen und Anwendungsbeispiele für jeden einzelnen geben.
+Open.mp Server kommen alle mit einer Reihe nützlicher eingebauter Serverbefehle, die sowohl im Spiel als auch über deine Serverkonsole genutzt werden können. In dieser Anleitung schauen wir uns viele dieser Befehle an, geben Beschreibungen und Beispiele zur Anwendung.
 
 <InlineVoucher />
 
 ## Zugriff einrichten (RCON)
 
-Um Serverbefehle im Spiel ausführen zu können, musst du die RCON-Funktion aktivieren. Du musst auf deine Konfiguration `config.json` zugreifen und die notwendigen Parameter anpassen, um die Funktion einzuschalten und ein Passwort hinzuzufügen. Bitte benutze unsere [Server-Konfiguration](openmp-configuration.md) Anleitung, um auf deine Serverkonfigurationsdatei zuzugreifen.
+Um Serverbefehle im Spiel ausführen zu können, musst du die RCON-Funktion aktivieren. Dazu greifst du auf deine Konfigurationsdatei `config.json` zu und passt die nötigen Parameter an, um die Funktion zu aktivieren und ein Passwort zu setzen. Nutze dafür unsere [Serverkonfiguration](openmp-configuration.md) Anleitung, um deine Serverkonfigurationsdatei zu öffnen.
 
-Sobald du die Datei fertig hast, findest du die folgenden Parameter, um die Funktion einzuschalten und ein RCON-Passwort festzulegen.
+Wenn du die Datei geöffnet hast, suche die folgenden Parameter; aktiviere die Funktion und setze ein RCON-Passwort.
 
-| Parameter Name | Beispiel | Beschreibung |
-| ------------------------------ | --------------------------------------- | ----------------------------------------------------------------------------------------------- | 
-| rcon.enable | true | Schaltet um, ob die RCON-Funktion aktiviert oder deaktiviert werden soll |
-| rcon.password | ZAP-IS-AWESOME | Setzt ein Passwort, das verwendet werden muss, um von Clients auf RCON zugreifen zu können |
+| Parametername                 | Beispiel                               | Beschreibung                                                                                   |
+| ----------------------------- | ------------------------------------- | --------------------------------------------------------------------------------------------- | 
+| rcon.enable                   | true                                  | Schaltet die RCON-Funktion ein oder aus                                                      |
+| rcon.password                 | ZAP-IS-AWESOME                        | Setzt ein Passwort, das für den Zugriff auf RCON von Clients verwendet werden muss           |
 
 :::info
-Vergewissere dich, dass du bei der Konfigration ein RCON-Passwort eingerichtet hast. Andernfalls kann es zu Problemen kommen und RCON ist für jeden zugänglich, was sehr unsicher ist.
+Stelle sicher, dass du ein RCON-Passwort in deiner Konfiguration gesetzt hast. Ansonsten kann jeder auf RCON zugreifen, was extrem unsicher ist.
 :::
 
-Nachdem du deine Änderungen vorgenommen hast, speichere die Datei an der richtigen Stelle und starte deinen Server neu. Wenn dein Server das nächste Mal hochfährt, sollte RCON jetzt zugänglich und bereit sein.
+Nachdem du die Änderungen gemacht hast, speichere die Datei an der richtigen Stelle und starte deinen Server neu. Beim nächsten Start sollte RCON jetzt zugänglich und einsatzbereit sein.
 
 :::tip
-Wenn du mehr über RCON erfahren möchtest, kannst du unsere [RCON](openmp-rcon.md) benutzen, der weitere Details enthält.
+Wenn du mehr über RCON erfahren willst, schau dir gerne unsere [RCON](openmp-rcon.md) Anleitung an, die noch tiefer ins Thema geht.
 :::
 
 ## Verfügbare Befehle
 
-In der folgenden Tabelle findest du eine Reihe wichtiger Serverbefehle für Open.mp sowie Beispiele und Beschreibungen, die du entweder im Spiel, über die Serverkonsole oder über ein RCON-Programm verwenden kannst. Wenn du alle aktuellen Befehle sehen möchtest, empfehlen wir dir die [open.mp's controlling a server Anleitung](https://www.open.mp/docs/server/ControllingServer), in dem alle derzeit verfügbaren Serverbefehle vorgestellt werden.
+Die folgende Tabelle zeigt eine Auswahl wichtiger Serverbefehle für Open.mp, inklusive Anwendungsbeispielen und Beschreibungen. Diese Befehle kannst du im Spiel, über die Serverkonsole oder via RCON-Programm nutzen. Wenn du alle aktuellen Befehle sehen möchtest, empfehlen wir dir die [open.mp Anleitung zum Server steuern](https://www.open.mp/docs/server/ControllingServer), die alle verfügbaren Serverbefehle auflistet.
 
 :::tip
-Wenn du Befehle direkt über die Konsole oder über ein RCON-Programm ausführst, musst du das Präfix `/rcon` nicht verwenden. Du musst dies nur tun, wenn du die Befehle **im Spiel** ausführst.
+Wenn du Befehle direkt über die Konsole oder ein RCON-Programm ausführst, brauchst du das `/rcon`-Präfix nicht. Das ist nur nötig, wenn du die Befehle **im Spiel** eingibst.
 :::
 
 :::note
-Vergewissere dich, dass RCON aktiviert ist, sonst funktionieren diese Befehle nicht im Spiel oder über ein RCON-Programm.
+Stelle sicher, dass RCON aktiviert ist, sonst funktionieren diese Befehle weder im Spiel noch über ein RCON-Programm.
 :::
 
 ### Allgemeine Befehle
 
-| Befehlssyntax | Akzeptierte Werte | Beschreibung | 
-| ------------------------------ | ---------------- | -------------------------------------------------------------------- | 
-| /rcon cmdlist | - | Liefert eine Liste mit allen Serverbefehlen | 
-| /rcon varlist | - | Liefert eine Liste mit allen aktuellen Servervariablen | 
-| /rcon exit | - | Schaltet den Server ab | 
-| /rcon echo [text] | String | Sendet eine Nachricht an die Serverkonsole (wird nicht im Spiel angezeigt) | 
-| /rcon say [text] | String | Sendet eine Nachricht an alle Spieler im Spiel (wird als "Admin: [text]" angezeigt) | 
-| /rcon players | - | Liefert Informationen über alle derzeit verbundenen Spieler |
-| /rcon reloadlog | - | Lädt die Server-Logdatei neu |
+| Befehlssyntax                | Akzeptierte Werte | Beschreibung                                                        | 
+| ---------------------------- | ----------------- | ------------------------------------------------------------------ | 
+| /rcon cmdlist                | -                 | Gibt eine Liste aller Serverbefehle zurück                         | 
+| /rcon varlist                | -                 | Gibt eine Liste aller aktuellen Servervariablen zurück             | 
+| /rcon exit                   | -                 | Fährt den Server herunter                                          | 
+| /rcon echo [text]            | String            | Sendet eine Nachricht an die Serverkonsole (wird im Spiel nicht angezeigt) | 
+| /rcon say [text]             | String            | Sendet eine Nachricht an alle Spieler im Spiel (erscheint als "Admin: [text]") | 
+| /rcon players                | -                 | Zeigt Informationen über alle aktuell verbundenen Spieler an      |
+| /rcon reloadlog              | -                 | Lädt die Server-Logdatei neu                                       |
 
 ### Moderative Befehle
 
-| Befehlssyntax | Akzeptierte Werte | Beschreibung | 
-| ------------------------------ | ---------------- | -------------------------------------------------------------------- | 
-| /rcon kick [id] | Integer | Schmeißt den Zielspieler vom Server | 
-| /rcon ban [id] | Integer | Verbannt den Zielspieler vom Server | 
-| /rcon banip [ip] | String | Verbannt eine IP-Adresse vom Server | 
-| /rcon unbanip [ip] | String | Aufhebung der Sperre einer IP-Adresse vom Server | 
-| /rcon reloadbans | - | Lädt die Ban-Datei neu |
+| Befehlssyntax                | Akzeptierte Werte | Beschreibung                                                        | 
+| ---------------------------- | ----------------- | ------------------------------------------------------------------ | 
+| /rcon kick [id]              | Integer           | Kickt den angegebenen Spieler vom Server                           | 
+| /rcon ban [id]               | Integer           | Bannt den angegebenen Spieler vom Server                           | 
+| /rcon banip [ip]             | String            | Bannt eine IP-Adresse vom Server                                   | 
+| /rcon unbanip [ip]           | String            | Hebt den Bann einer IP-Adresse auf                                | 
+| /rcon reloadbans             | -                 | Lädt die Bannliste neu                                             |
 
 <InlineVoucher />

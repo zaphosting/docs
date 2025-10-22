@@ -1,7 +1,7 @@
 ---
 id: satisfactory-mods
-title: "Satisfactory: Installieren von Mods auf deinem Satisfactory-Server"
-description: Informationen darüber, wie du Mods auf deinem Satisfactory-Server und im Spielclient von ZAP-Hosting installierst – ZAP-Hosting.com Dokumentation
+title: "Satisfactory: Mods auf deinem Satisfactory Gameserver installieren"
+description: "Entdecke, wie du dein Satisfactory-Erlebnis mit inoffiziellen Mods aufpeppen und deinen Server verbessern kannst → Jetzt mehr erfahren"
 sidebar_label: Mods installieren
 services:
   - gameserver-satisfactory
@@ -13,74 +13,74 @@ import items from '@site/data/lists/satisfactory-mods.json';
 
 ## Einführung
 
-Satisfactory bietet kein offizielles Modding an, allerdings wurde das Spiel mit Blick auf Modding entwickelt, was seit dem Early Access zum Wachstum einer starken Modding-Community geführt hat. Mit diesen Mods kannst du eine Vielzahl von Verbesserungen und Ergänzungen zum Spiel hinzufügen, wodurch es spannender und unterhaltsamer wird. In dieser Anleitung behandeln wir den Prozess der Installation inoffizieller Mods auf deinem Client und Satisfactory-Server.
+Satisfactory bietet keine offiziellen Modding-Optionen, aber das Spiel wurde mit Modding im Hinterkopf entwickelt, was seit dem Early Access zu einer starken Modding-Community geführt hat. Diese Mods ermöglichen dir, eine Vielzahl von Verbesserungen und Erweiterungen hinzuzufügen, die das Gameplay spannender und unterhaltsamer machen. In dieser Anleitung zeigen wir dir, wie du inoffizielle Mods auf deinem Client und deinem Satisfactory Gameserver installierst.
 
 <InlineVoucher />
 
 ## Vorbereitung
 
-Zunächst musst du Mods finden, die du verwenden möchtest. In dieser Anleitung verwenden wir das Tool [Satisfactory Mod Manager](https://ficsit.app/), einen beliebten Open-Source-Mod-Manager, mit dem du Mods sowohl für dein lokales Spiel als auch für deinen Spielserver einfach verwalten kannst.
+Zuerst musst du Mods finden, die du nutzen möchtest. In dieser Anleitung verwenden wir das Tool [Satisfactory Mod Manager](https://ficsit.app/), einen beliebten Open-Source-Mod-Manager, mit dem du Mods sowohl für dein lokales Spiel als auch für deinen Gameserver einfach verwalten kannst.
 
-Zu den wichtigsten Vorteilen dieses Tools gehören die automatische Mod-Verwaltung, die einfache Mod-Installation mit nur einem Klick, die Filterung nach Multiplayer-Kompatibilität und die Tatsache, dass die Plattform das beliebteste Repository für Mods ist.
+Einige der wichtigsten Vorteile dieses Tools sind automatische Mod-Verwaltung, einfache „One-Click“-Mod-Installation, Filter für Multiplayer-Kompatibilität und die Plattform als das beliebteste Mod-Repository.
 
-Sobald du die Anwendung von der [Satisfactory Mod Manager](https://ficsit.app/)-Website installiert hast, öffne die Anwendung und führe die schnelle Ersteinrichtung durch. Wir empfehlen, die Einstellungen auf den Standardwerten zu belassen, um sicherzustellen, dass du Mods durchsuchen und auswählen kannst, bevor du sie installierst.
+Nachdem du die Anwendung von der [Satisfactory Mod Manager](https://ficsit.app/) Website installiert hast, öffne sie und durchlaufe die schnelle Ersteinrichtung. Wir empfehlen, die Standardeinstellungen beizubehalten, damit du Mods gemeinsam durchsuchen und auswählen kannst, bevor du sie installierst.
 
 ## Server hinzufügen
 
-Satisfactory Mod Manager verfügt über eine sehr nützliche Funktion, mit der du Mods ganz einfach automatisch auf deinen Spielserver hochladen kannst, indem du einfach FTP-Zugangsdaten angibst.
+Der Satisfactory Mod Manager hat eine super praktische Funktion, mit der du Mods automatisch auf deinen Gameserver hochladen kannst – einfach durch Eingabe deiner FTP-Zugangsdaten.
 
-Gehe zum Abschnitt **Tools->FTP-Browser** auf der Weboberfläche deines Servers, um die Anmeldedaten für deinen Server zu finden.
+Gehe dazu im Webinterface deines Servers zum Bereich **Tools->FTP-Browser**, um die Zugangsdaten zu deinem Server zu finden.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/YrLzDQxbBJR9CWD/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/bmEiCgJ56N6KeJ6/preview)
 
-Öffne nun die Registerkarte **Manage Servers** in der Satsifactory Mod Manager-Anwendung und gib die FTP-Zugangsdaten ein. Möglicherweise musst du den Pfad durchsuchen, um den Satsifactory-Spielserver-Ordner zu finden, der mit einem Server-Symbol angezeigt wird.
+Öffne jetzt den Tab **Manage Servers** in der Satisfactory Mod Manager App und gib die FTP-Zugangsdaten ein. Du musst eventuell den Pfad suchen, um den Satisfactory Gameserver-Ordner zu finden, der mit einem Server-Icon angezeigt wird.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/9RqoD845JWfFCYT/preview)
 
-Wenn du fertig bist, klicke auf den grünen Button **Add**, um den Server hinzuzufügen. Wenn du eine Fehlermeldung erhältst, dass zu viele Clients vorhanden sind, warte bitte ein paar Minuten und versuche es dann erneut. Wenn der Vorgang erfolgreich war, sollte der Server im selben Abschnitt angezeigt werden.
+Wenn alles passt, klicke auf den grünen **Add**-Button, um den Server hinzuzufügen. Falls du eine Fehlermeldung wegen zu vieler Clients bekommst, warte ein paar Minuten und versuche es erneut. Bei Erfolg solltest du den Server in derselben Ansicht sehen.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/iS4j2RyxJNYZc85/preview)
 
 ## Mods installieren
 
-Da dein „Befriedigend“-Server jetzt verbunden ist, kannst du über das Menü oben links zu diesem Server als Spielinstallation wechseln. Stelle sicher, dass der Schalter **Mods on** markiert ist.
+Mit deinem verbundenen Satisfactory Gameserver wechselst du oben links im Menü auf den Server als deine Spielinstallation. Achte darauf, dass der **Mods an**-Schalter aktiviert ist.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/dn9qpR24pm37727/preview)
 
-Verwende nun den mittleren Bereich, um nach Mods zu suchen, die du installieren möchtest. Du kannst die Filter- und Sortierschaltflächen verwenden, um bestimmte coole neue Mods zu finden.
+Jetzt kannst du im mittleren Bereich nach Mods stöbern, die du installieren möchtest. Nutze Filter und Sortierfunktionen, um coole neue Mods leichter zu finden.
 
-Du kannst den Download Button neben jedem Mod verwenden, um ihn entweder direkt zu installieren oder als Änderung vorzubereiten, wenn du bei der Ersteinrichtung die Standardeinstellungen verwendet hast. Wir empfehlen außerdem, deine Lieblingsmods mit einem Stern zu markieren, damit du sie in Zukunft leichter finden kannst.
+Mit dem Download-Button neben jeder Mod kannst du sie direkt installieren oder, wenn du die Standardeinstellungen bei der Ersteinrichtung genutzt hast, als Änderung vorbereiten. Wir empfehlen außerdem, deine Lieblingsmods mit einem Stern zu markieren, damit du sie später schneller findest.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/9984GJDTkpZjLXW/preview)
 
-Sobald du die Mods fertig hast, musst du die Änderungen mit dem roten Button unten links anwenden, wenn du bei der Ersteinrichtung die Standardeinstellungen verwendet hast.
+Wenn du deine Mods ausgewählt hast, musst du die Änderungen mit dem roten Button unten links anwenden, falls du die Standardeinstellungen bei der Ersteinrichtung genutzt hast.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/Tjnkoo5bYgAB86M/preview)
 
-Dadurch werden die erforderlichen Dateien direkt auf deinen Satisfactory-Server heruntergeladen. Du kannst den Fortschritt neben jedem der Mods sehen, während sie installiert werden. Nach erfolgreichem Abschluss solltest du eine Benachrichtigung und grüne Symbole neben jedem der Mods sehen, die du heruntergeladen hast.
+Das startet den Download der nötigen Dateien direkt auf deinen Satisfactory Gameserver. Den Fortschritt siehst du neben jeder Mod während der Installation. Bei Erfolg bekommst du eine Benachrichtigung und grüne Icons neben den heruntergeladenen Mods.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/gE5qrazYq9wm2Sa/preview)
 
 ## Verbindung zum Server
 
-In diesem Stadium empfehlen wir, deinen Satisfactory-Server neu zu starten, um sicherzustellen, dass alle Mods aktiv sind und erfolgreich gestartet wurden.
+Jetzt empfehlen wir, deinen Satisfactory Gameserver neu zu starten, damit alle Mods aktiv sind und korrekt geladen wurden.
 
-Sobald dies erledigt ist, stelle das Spielinstallationsprofil in der Satisfactory Mod Manager-Anwendung wieder auf deine Satisfactory-Spielinstallation auf deinem lokalen System um. Verwende nun den Button **Play Satisfactory** unten links, um dein Spiel automatisch mit denselben aktivierten Mods wie auf deinem Server zu starten. Du kannst überprüfen, ob die Mods im Spiel funktionieren, indem du den unteren linken Bereich des Hauptmenüs überprüfst.
+Wechsle danach in der Satisfactory Mod Manager App das Spielinstallationsprofil zurück auf deine lokale Satisfactory-Installation. Nutze den Button **Play Satisfactory** unten links, um dein Spiel automatisch mit den gleichen Mods wie auf deinem Server zu starten. Du kannst im Hauptmenü unten links prüfen, ob die Mods aktiv sind.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/NaRPTMRydm74Eor/preview)
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/AfwKqcTetZgTQim/preview)
 
-Du solltest dich jetzt wie gewohnt über den Bereich **Server Manager** im Hauptmenü mit deinem Server verbinden können.
+Jetzt kannst du dich wie gewohnt über den **Server Manager** im Hauptmenü mit deinem Server verbinden.
 
 ## Beliebte Mods
 
-Noch auf der Suche nach den perfekten Mods für deinen Server? Durchstöbere unsere sorgfältig zusammengestellte Liste mit den beliebtesten und am häufigsten empfohlenen Mods, um dein Spielerlebnis zu erweitern und deinem Server den letzten Feinschliff zu geben. Lass dich inspirieren und finde genau die Erweiterungen, die zu deinem Projekt passen.
+Du suchst noch die perfekten Mods für deinen Server? Stöbere durch unsere sorgfältig kuratierte Liste der beliebtesten und am meisten empfohlenen Mods, um dein Gameplay zu verbessern und deinem Server den letzten Schliff zu geben. Lass dich inspirieren und finde genau die Erweiterungen, die zu deinem Projekt passen.
 
 <SearchableItemList items={items} />
 
-## Abschluss
+## Fazit
 
-Du hast Mods erfolgreich auf deinem Satisfactory-Server mit dem Satisfactory Mod Manager-Tool eingerichtet. Bei weiteren Fragen oder wenn du Hilfe benötigst, wende dich bitte an unser Support-Team, das dir täglich zur Verfügung steht! 🙂
+Du hast erfolgreich Mods auf deinem Satisfactory Gameserver mit dem Satisfactory Mod Manager installiert. Bei weiteren Fragen oder wenn du Hilfe brauchst, steht dir unser Support-Team täglich zur Verfügung – zögere nicht, uns zu kontaktieren! 🙂
 
 <InlineVoucher />

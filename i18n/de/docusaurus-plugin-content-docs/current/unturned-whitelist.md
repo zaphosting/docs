@@ -1,7 +1,7 @@
 ---
 id: unturned-whitelist
-title: "Unturned: Whitelist auf Server aktivieren und bearbeiten"
-description: Informationen, wie du eine Whitelist auf deinen Unturned-Server von ZAP-Hosting aktivieren und bearbeiten kannst - ZAP-Hosting.com Dokumentation
+title: "Unturned: Whitelist auf dem Server aktivieren und bearbeiten"
+description: "Entdecke, wie du deinen Unturned Gameserver absicherst, indem du die Whitelist aktivierst und verwaltest für kontrollierten Spielerzugang → Jetzt mehr erfahren"
 sidebar_label: Whitelist
 services:
   - gameserver-unturned
@@ -13,21 +13,15 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Whitelist aktivieren
 
-Die Whitelist in Unturned ermöglicht es dir deinen Server zu schützen, indem nur ausgewählte Spieler, die auf der Liste stehen, Erlaubnis haben, sich mit dem Server zu verbinden. Die Aktivierung der Whitelist erfolgt im Spiel per Befehl. Hierzu werden **Owner Berechtigungen** benötigt. Falls du nicht weißt, was das ist und wie du dir diese zuweist, dann schaue dir folgende Anleitung dazu an: [Admin werden](unturned-becomeadmin.md)
+Die Whitelist in Unturned ermöglicht es dir, deinen Gameserver zu schützen, indem nur ausgewählte Spieler, die auf der Liste stehen, sich verbinden dürfen. Die Aktivierung der Whitelist erfolgt im Spiel per Befehl. Dafür benötigst du **Owner-Rechte**. Falls du nicht weißt, was das ist und wie du sie vergibst, schau dir unsere Anleitung an: [Admin werden](unturned-becomeadmin.md)
 
-
-
-Wenn du der Anleitung befolgt bist und dich erfolgreich zum Admin gemacht hast, dann kannst du nun die Whitelist bei deinem Server aktivieren. Öffne dazu im Spiel auf deinem Server den Chat/Konsole. Dort musst du nun den folgenden Befehl ausführen:
+Wenn du der Anleitung gefolgt bist und erfolgreich Admin geworden bist, kannst du jetzt die Whitelist auf deinem Server aktivieren. Öffne dazu den Chat/ die Konsole im Spiel auf deinem Server und führe folgenden Befehl aus:
 
 ```
 /Whitelisted
 ```
 
-
-
-Die Whitelist sollte jetzt aktiv sein und dementsprechend nur noch Spieler auf den Server zulassen, die in der Liste eingetragen sind. Das Hinzufügen und Entfernen von Spielern ist mittels folgender Befehle möglich:
-
-
+Die Whitelist sollte jetzt aktiv sein und nur noch Spielern erlauben, dem Server beizutreten, die auf der Liste stehen. Das Hinzufügen und Entfernen von Spielern funktioniert mit den folgenden Befehlen.
 
 ## Whitelist verwalten
 
@@ -43,11 +37,10 @@ Permit [SteamID]/[Tag]
 Unpermit [SteamID]
 ```
 
-**Anzeigen aller zugelassener Spieler:**
+**Alle erlaubten Spieler anzeigen:**
 
 ```
 Permits
 ```
-
 
 <InlineVoucher />

@@ -1,8 +1,8 @@
 ---
 id: satisfactory-connect-experimental
-title: "Satisfactory: Zum Server verbinden (Experimental)"
-description: Information, wie du dich mit deinem Satisfactory Server von ZAP-Hosting verbinden kannst - ZAP-Hosting.com Dokumentation
-sidebar_label: Zum Server binden (Experimental)
+title: "Satisfactory: Mit dem Server verbinden (Experimentell)"
+description: "Entdecke, wie du deinen Satisfactory Gameserver einrichtest und verwaltest für ein reibungsloses Gameplay und volle Kontrolle → Jetzt mehr erfahren"
+sidebar_label: Mit dem Server verbinden (Experimentell)
 services:
   - gameserver-satisfactory
 ---
@@ -11,56 +11,56 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 <InlineVoucher />
 
-Öffne dein ZAP-Hosting Gameserver Dashboard und stelle sicher das dein Server gestartet ist:
+Öffne dein ZAP-Hosting Gameserver Dashboard und check, ob der Server online ist:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/FA5Qs5PLpaQT9qA/preview)
-
-***
-
-Starte Satisfactory und öffne den Menüpunkt "Server-Manager"
-
-![](https://screensaver01.zap-hosting.com/index.php/s/DxYaJ77XzBgF4gX/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/yLLz4ZKMiwd4iXg/preview)
 
 ***
 
-Klicke auf "Add Server" um einen Server hinzuzufügen:
+Starte Satisfactory und geh zum Tab „Server-Manager“
 
-![](https://screensaver01.zap-hosting.com/index.php/s/T8eoC9KyfbFjP8Z/preview)
-
-***
-
-Trage dort nun die IP-Informationen aus deinem Interface ein:
-
-![](https://screensaver01.zap-hosting.com/index.php/s/BebWw9P5eez8L2j/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/9DPkZDBtznm8ES8/preview)
 
 ***
 
-Vergebe einen Server-Namen, wie dieser heißen soll:
+Klick auf „Server hinzufügen“, um deinen Gameserver einzutragen.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/gDWnkxMKeKG4AC5/preview)
-
-***
-
-Vergib ein Admin-Passwort um später Einstellungen verändern zu können:
-
-![](https://screensaver01.zap-hosting.com/index.php/s/FGjizmATwAcdqj8/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/BDerKFJBsYtQszs/preview)
 
 ***
 
-Nun muss noch ein Savegame erstellt werden, klicke auf "Create Game":
+Gib jetzt die IP-Infos aus dem Interface ein:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/jaX4WrFRGjz974Z/preview)
-
-***
-
-In diesem Schritt muss der Name des Savegames festgelegt werden und welche der 4 Welten genutzt werden soll:
-
-![](https://screensaver01.zap-hosting.com/index.php/s/J6eANwKyRKLZmrs/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/abmtPRWggY8HHre/preview)
 
 ***
 
-Danach kann in "Status" dem Server gejoint werden:
+Vergib einen Namen für deinen Server:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/3xB4rgp8bAPZSr8/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/H24oEeeK2jsaHqw/preview)
+
+***
+
+Setze ein Admin-Passwort, um später Einstellungen bearbeiten zu können:
+
+![](https://screensaver01.zap-hosting.com/index.php/s/mK2JQBMmPHiP8Bq/preview)
+
+***
+
+Du musst ein Savegame erstellen, klick auf „Spiel erstellen“:
+
+![](https://screensaver01.zap-hosting.com/index.php/s/LXCDZj5pQLEfZZM/preview)
+
+***
+
+Jetzt benennst du dein Savegame und wählst eine der 4 Welten aus, die genutzt werden soll:
+
+![](https://screensaver01.zap-hosting.com/index.php/s/t9tHbePJBmxNp3k/preview)
+
+***
+
+Danach kannst du im Tab „Status“ deinem Server beitreten:
+
+![](https://screensaver01.zap-hosting.com/index.php/s/PDF4ED5FkwCXK6d/preview)
 
 <InlineVoucher />

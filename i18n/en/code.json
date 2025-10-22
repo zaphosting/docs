@@ -1067,14 +1067,6 @@
     "message": "{marketingSite}/{language}/vintage-story-server-hosting/",
     "description": "URL path for the gameserver product"
   },
-  "service.gameserver-voyagers-of-nera.title": {
-    "message": "Voyagers of Nera Gameserver",
-    "description": "Product name for the gameserver product"
-  },
-  "service.gameserver-voyagers-of-nera.path": {
-    "message": "{marketingSite}/{language}/voyagers-of-nera-server-hosting/",
-    "description": "URL path for the gameserver product"
-  },
   "service.gameserver-wreckfest.title": {
     "message": "Wreckfest Gameserver",
     "description": "Product name for the gameserver product"
@@ -1144,6 +1136,9 @@
     "message": "Show more",
     "description": "Button to display additional accordion items"
   },
+  "voucherbutton.success": {
+    "message": "YEEEAH!"
+  },
   "searchableItemList.all": {
     "message": "All"
   },
@@ -1168,17 +1163,11 @@
   "searchableItemList.showMoreBtn": {
     "message": "Show more"
   },
-  "voucherbutton.success": {
-    "message": "YEEEAH!"
-  },
   "servicelist.introduction": {
     "message": "This guide was created with the following products:"
   },
   "servicelist.note": {
     "message": "(Details may vary with products from different providers but the main concepts remain the same)"
-  },
-  "footer.cookieSettings": {
-    "message": "Cookie settings"
   },
   "voucherbox.title": {
     "message": "HOSTING DISCOUNT"
@@ -1316,21 +1305,17 @@
     "message": "Last updated{atDate}{byUser}",
     "description": "The sentence used to display when a page has been last updated, and by who"
   },
-  "theme.NotFound.title": {
-    "message": "Page Not Found",
-    "description": "The title of the 404 page"
-  },
   "theme.navbar.mobileVersionsDropdown.label": {
     "message": "Versions",
     "description": "The label for the navbar versions dropdown on mobile view"
   },
+  "theme.NotFound.title": {
+    "message": "Page Not Found",
+    "description": "The title of the 404 page"
+  },
   "theme.tags.tagsListLabel": {
     "message": "Tags:",
     "description": "The label alongside a tag list"
-  },
-  "theme.AnnouncementBar.closeButtonAriaLabel": {
-    "message": "Close",
-    "description": "The ARIA label for close button of announcement bar"
   },
   "theme.admonition.caution": {
     "message": "caution",
@@ -1356,6 +1341,10 @@
     "message": "warning",
     "description": "The default label used for the Warning admonition (:::warning)"
   },
+  "theme.AnnouncementBar.closeButtonAriaLabel": {
+    "message": "Close",
+    "description": "The ARIA label for close button of announcement bar"
+  },
   "theme.blog.sidebar.navAriaLabel": {
     "message": "Blog recent posts navigation",
     "description": "The ARIA label for recent posts in the blog sidebar"
@@ -1368,13 +1357,13 @@
     "message": "Collapse sidebar category '{label}'",
     "description": "The ARIA label to collapse the sidebar category"
   },
-  "theme.IconExternalLink.ariaLabel": {
-    "message": "(opens in new tab)",
-    "description": "The ARIA label for the external link icon"
-  },
   "theme.NavBar.navAriaLabel": {
     "message": "Main",
     "description": "The ARIA label for the main navigation"
+  },
+  "theme.navbar.mobileLanguageDropdown.label": {
+    "message": "Languages",
+    "description": "The label for the mobile language switcher dropdown"
   },
   "theme.NotFound.p1": {
     "message": "We could not find what you were looking for.",
@@ -1384,13 +1373,17 @@
     "message": "Please contact the owner of the site that linked you to the original URL and let them know their link is broken.",
     "description": "The 2nd paragraph of the 404 page"
   },
-  "theme.navbar.mobileLanguageDropdown.label": {
-    "message": "Languages",
-    "description": "The label for the mobile language switcher dropdown"
-  },
   "theme.TOCCollapsible.toggleButtonLabel": {
     "message": "On this page",
     "description": "The label used by the button on the collapsible TOC component"
+  },
+  "theme.blog.post.readMore": {
+    "message": "Read more",
+    "description": "The label used in blog post item excerpts to link to full blog posts"
+  },
+  "theme.blog.post.readMoreLabel": {
+    "message": "Read more about {title}",
+    "description": "The ARIA label for the link to full blog posts from excerpts"
   },
   "theme.blog.post.readingTime.plurals": {
     "message": "One min read|{readingTime} min read",
@@ -1411,14 +1404,6 @@
   "theme.CodeBlock.wordWrapToggle": {
     "message": "Toggle word wrap",
     "description": "The title attribute for toggle word wrapping button of code block lines"
-  },
-  "theme.blog.post.readMore": {
-    "message": "Read more",
-    "description": "The label used in blog post item excerpts to link to full blog posts"
-  },
-  "theme.blog.post.readMoreLabel": {
-    "message": "Read more about {title}",
-    "description": "The ARIA label for the link to full blog posts from excerpts"
   },
   "theme.docs.breadcrumbs.home": {
     "message": "Home page",

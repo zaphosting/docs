@@ -1,89 +1,95 @@
 ---
 id: account-termination-and-cancellation-period
-title: Kündigungsbedingungen und -prozesse für ZAP-Hosting Produkte
-description: Informationen über die ZAP-Hosting Kündigungs- und Stornierungsbedingungen und -prozesse bei ZAP-Hosting - ZAP-Hosting.com Dokumentation
+title: Kündigungs- & Stornierungsbedingungen für ZAP-Hosting Produkte
+description: "Verstehe ZAP-Hostings Kündigungs- und Stornierungsrichtlinien, um dein Produkt effektiv zu verwalten und Guthaben auf deinem Account zu erhalten → Jetzt mehr erfahren"
 sidebar_label: Kündigung & Stornierung
 ---
 
 ## Einführung
 
-In dieser Anleitung erfährst du mehr über unsere aktuellen Richtlinien zur Kündigung und Stornierung unserer Produkte. Außerdem zeigen wir dir, wie du dein Produkt kündigen oder stornieren kannst.
+In dieser Anleitung erfährst du mehr über unsere aktuellen Richtlinien zur Kündigung und Stornierung unserer Produkte. Wir zeigen dir außerdem die Abläufe für das Kündigen oder Stornieren deines Produkts.
 
 ## Unsere Richtlinien
 
-Um die für dein Produkt geltenden Bedingungen zu verstehen, musst du die **Abrechnungsart** deines Produkts kennen. Du kannst herausfinden, welche Abrechnungsart du zum Zeitpunkt des Kaufs gewählt hast, indem du dein [Webinterface-Dashboard](https://zap-hosting.com/de/customer/) auf unserer Website aufrufst, während du eingeloggt bist, und den blauen Button **Paket anzeigen** auswählst.
+Um die für dein Produkt geltenden Bedingungen zu verstehen, musst du den **Abrechnungsmodus** deines Produkts kennen. Du kannst herausfinden, welchen Abrechnungsmodus du beim Kauf gewählt hast, indem du dich auf unserer Website in dein [Webinterface Dashboard](https://zap-hosting.com/en/customer/) einloggst und den blauen Button **Paket anzeigen** auswählst.
 
-- Widerrufsfrist: Dies bezieht sich auf den Zeitraum, den du ab dem Kaufdatum hast, um deine Meinung zu ändern und dein Produkt zu widerrufen. Wenn du dich für die Kündigung entscheidest, bekommst du ZAP Coins (Kontoguthaben) gutgeschrieben, die du für ein anderes Produkt ausgeben kannst.
-- Kündigungsfrist: Dies bezieht sich auf den Zeitraum, vor dem du uns über deine Entscheidung, deinen Vertrag zu kündigen, informieren musst. Dies gilt nur für **Vertrag** Abrechnungsprodukte.
+- Kündigungsfrist: Das ist der Zeitraum ab Kaufdatum, in dem du deine Meinung ändern und dein Produkt kündigen kannst. Du erhältst ZAP Coins (Account-Guthaben), wenn du kündigst, die du für ein anderes Produkt ausgeben kannst.
+- Stornierungsfrist: Das ist der Zeitraum, den du vor Ablauf einhalten musst, um uns deine Entscheidung zur Vertragskündigung mitzuteilen. Das gilt nur für Produkte mit **Vertrags**-Abrechnung.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/wgNF7jSP6CaSeqd/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/DwktektyCP4jfLM/preview)
 
-## Dein Produkt widerrufen
+## Produkt kündigen
 
-Unabhängig von der Abrechnungsart für dein Produkt hast du eine **14-tägige** Frist, in der du dich entscheiden kannst, deine Bestellung aus irgendeinem Grund zu kündigen und zu widerrufen. Wir bieten keine vollständige Rückerstattung an, wie in unseren allgemeinen Geschäftsbedingungen und den Bedingungen, die du während des Bestellvorgangs akzeptiert hast, angegeben.
+Unabhängig vom Abrechnungsmodus hast du eine **14-tägige** Frist, in der du deine Bestellung aus beliebigem Grund widerrufen kannst. Eine vollständige Rückerstattung bieten wir nicht an, wie in unseren AGB und den Bedingungen, denen du beim Bestellvorgang zugestimmt hast, beschrieben.
 
-Aus Gründen der Höflichkeit gegenüber unseren Kunden bieten wir dir jedoch die Möglichkeit, deine Bestellung zu widerrufen und ZAP Coins (Kontoguthaben) auf dein ZAP-Hosting-Konto zu erhalten, die du für ein anderes Produkt ausgeben kannst. Es fällt eine kleine Gebühr von 3 € an, die von der Summe, die deinem Konto gutgeschrieben wird, abgezogen wird.
-
-#### Widerrufsprozess
-
-Logge dich zunächst in dein ZAP-Hosting-Konto ein und gehe zu deinem [Webinterface-Dashboard](https://zap-hosting.com/de/customer/). Gehe von hier aus zum Abschnitt **Bestellungen** auf der linken Seite.
-
-![](https://screensaver01.zap-hosting.com/index.php/s/JoepQjDWReSAsjE/preview)
-
-Auf dieser Seite suchst du das Produkt, das du kündigen möchtest. Wenn du es gefunden hast, wähle den roten Button **Bestellung widerrufen**.
-
-![](https://screensaver01.zap-hosting.com/index.php/s/9sc3Cnq6X9b8dnk/preview)
-
-Es erscheint eine Eingabeaufforderung, in der du die wichtigsten Informationen und deine Berechtigung zur Kündigung erfährst. Wähle **Weiter fortsetzen**, wenn du mit dem Prozess fortfahren möchtest.
-
-![](https://screensaver01.zap-hosting.com/index.php/s/TNe33bnDZ9er9s9/preview)
-
-Schließlich wird die Aufforderung erweitert, um dir Informationen über die Rückerstattung in ZAP-Münzen zu geben, die du erhalten wirst. Wir bedauern, dass du deine Bestellung widerrufen hast und hoffen, dass du uns ein Feedback zur Verbesserung geben kannst. Wenn du dir sicher bist, wähle **Bestellung widerrufen**, um den Vorgang abzuschließen.
-
-![](https://screensaver01.zap-hosting.com/index.php/s/scMDMBJAdr6FMR2/preview)
-
-Du hast nun den Kündigungsprozess abgeschlossen. Es kann ein paar Minuten dauern, bis der Vorgang abgeschlossen ist, bitte habe etwas Geduld.
-
-## Dein Produkt kündigen
-
-:::info
-Kündigungen gelten nur für die Abrechnungsart **Vertrag**. Prepaid-Server werden im Voraus und ohne Verpflichtung bezahlt, daher ist keine Kündigungsfrist erforderlich.
-:::
-
-Durch die Wahl der Abrechnungsart Vertrag hast du dich mit einem wiederkehrenden Abonnement für das Produkt auf der Grundlage des gewählten Abrechnungsintervalls einverstanden erklärt.
-
-Die aktuelle **Kündigungsfrist** beträgt **7 Tage** für alle unsere Produkte, mit Ausnahme von Root-Servern und Dedicated Servern, die eine Kündigungsfrist von **28 Tagen** haben.
-
-Das bedeutet für dich, dass du deine Kündigung rechtzeitig vor der Vertragsverlängerung in dem von dir gewählten Abrechnungsintervall einreichen musst, sonst verlängert sich der Vertrag um einen weiteren Abrechnungszeitraum.
-
-Hier ist ein nützliches Beispiel, um das Verständnis zu erleichtern:
-
-- Du mietest einen Gameserver-Vertrag mit einem regulären Abrechnungszeitraum von 1 Monat (30 Tagen).
-- Szenario 1: Du hast jetzt noch <u>12 Tage</u> bis zu deinem nächsten Abrechnungszeitraum. Das bedeutet, dass du problemlos eine Kündigung einreichen kannst und dein Vertrag nach Ablauf der 12 Tage endet.
-- Szenario 2: Du hast noch <u>3 Tage</u> bis zu deinem nächsten Abrechnungszeitraum übrig. Leider hast du nicht die für eine Kündigung erforderliche Frist von 7 Tagen eingehalten. Daher wird dein Vertrag <u>um ein weiteres Abrechnungsintervall und eine weitere Zahlung verlängert</u>, bevor er nach Ablauf der folgenden Zeit beendet wird.
+Als Kundenservice bieten wir dir jedoch die Möglichkeit, deine Bestellung zu widerrufen und ZAP Coins (Account-Guthaben) auf dein ZAP-Hosting Konto gutgeschrieben zu bekommen, die du für ein anderes Produkt nutzen kannst. Es fällt eine kleine Gebühr von 3 € an, die vom gutgeschriebenen Betrag abgezogen wird.
 
 #### Kündigungsprozess
 
-Logge dich zunächst in dein ZAP-Hosting-Konto ein und gehe zu deinem [Webinterface-Dashboard](https://zap-hosting.com/de/customer/). Auf dem Dashboard suchst du dein **Vertragsprodukt** und wählst den blauen Button **Paket anzeigen**.
+Logge dich zunächst in dein ZAP-Hosting Konto ein und öffne dein [Webinterface Dashboard](https://zap-hosting.com/en/customer/).
 
-![](https://screensaver01.zap-hosting.com/index.php/s/8yLTwtxeppd3zSz/preview)
+Gehe dann zum Bereich **Bestellungen** im linken Seitenmenü.
 
-Auf dieser Seite wählst du nun die rote Option **Vertrag kündigen** in der oberen rechten Ecke.
+![](https://screensaver01.zap-hosting.com/index.php/s/TYJ5oGkDMyb6XQD/preview)
 
-![](https://screensaver01.zap-hosting.com/index.php/s/BZrRBFsHrwAipEe/preview)
+Finde auf dieser Seite das Produkt, das du kündigen möchtest. Klicke dann auf den roten Button **Bestellung widerrufen**.
 
-Daraufhin öffnet sich eine Eingabeaufforderung, in der du die Möglichkeit hast, unser Support-Team zu kontaktieren oder mit der Kündigung fortzufahren. Wenn du fortfahren möchtest, wähle die Option **Vertrag kündigen**.
+![](https://screensaver01.zap-hosting.com/index.php/s/2QEABQLPMWxy28q/preview)
 
-![](https://screensaver01.zap-hosting.com/index.php/s/CACoFz86ws9SF7C/preview)
+Es erscheint ein Hinweisfenster mit wichtigen Infos und deiner Kündigungsberechtigung. Wähle **Widerruf fortsetzen**, wenn du den Vorgang starten möchtest.
 
-Zum Schluss kannst du die Informationen zur Kündigung einsehen. Gemäß unseren Richtlinien kannst du dir das nächstmögliche Kündigungsdatum anzeigen lassen. Wir bedauern, dass du dein Produkt storniert hast, und hoffen, dass du uns ein Feedback zur Verbesserung geben kannst. Wenn du dir sicher bist, wähle **Kündigungsvertrag**, um den Vorgang abzuschließen.
+![](https://screensaver01.zap-hosting.com/index.php/s/8nB5LWn6xibnFf6/preview)
 
-![](https://screensaver01.zap-hosting.com/index.php/s/5D3itm6f9nNoRAo/preview)
+Im letzten Schritt bekommst du Infos zur Rückerstattung in ZAP Coins angezeigt. Wir finden es schade, dass du kündigst, und freuen uns über dein Feedback zur Verbesserung. Wenn du sicher bist, klicke auf **Bestellung widerrufen**, um den Vorgang abzuschließen.
 
-Du hast nun den Kündigungsprozess abgeschlossen, der zum nächstmöglichen Termin, der angezeigt wurde, stattfinden wird.
+![](https://screensaver01.zap-hosting.com/index.php/s/SYmz97Pc65qSbW8/preview)
 
-## Zusätzliche Anfragen
+Der Kündigungsprozess ist nun abgeschlossen. Es kann ein paar Minuten dauern, bis alles verarbeitet ist – bitte hab etwas Geduld.
 
-Hier bei ZAP-Hosting schätzen wir alle unsere Kunden sehr. Wenn du mit etwas Bestimmten in Bezug auf unsere Richtlinien unzufrieden bist oder eine allgemeine Frage hast, kannst du uns jederzeit kontaktieren.
+## Produkt stornieren
 
-Du kannst dies tun, indem du [ein Ticket auf unserer Website erstellst](https://zap-hosting.com/de/customer/support/) und unser freundliches Support-Team wird sich so schnell wie möglich bei dir melden. Bitte beachte, dass dies keine Garantie dafür ist, dass wir dir helfen können, aber wir werden immer versuchen, dein Problem so gut wie möglich zu lösen.
+:::info
+Stornierungen gelten nur für Produkte mit **Vertrags**-Abrechnung. Prepaid-Server werden im Voraus bezahlt und haben keine Vertragsbindung, daher entfällt die Stornierungsfrist.
+:::
+
+Mit der Wahl des Vertrags-Abrechnungsmodus hast du einem wiederkehrenden Abo für das Produkt entsprechend des gewählten Abrechnungsintervalls zugestimmt.
+
+Die aktuelle **Stornierungsfrist** beträgt **7 Tage** für alle Produkte, außer Root Server und Dedicated Server, die eine Stornierungsfrist von **28 Tagen** haben.
+
+Das bedeutet für dich, dass du deine Stornierungsanfrage rechtzeitig vor der Verlängerung basierend auf deinem Abrechnungsintervall einreichen musst, sonst verlängert sich der Vertrag automatisch um eine weitere Abrechnungsperiode.
+
+Hier ein Beispiel zur Verdeutlichung:
+
+- Du mietest einen Gameserver-Vertrag mit einem monatlichen (30 Tage) Abrechnungsintervall.
+- Szenario 1: Du hast noch <u>12 Tage</u> bis zum nächsten Abrechnungszeitraum. Du kannst also problemlos eine Stornierungsanfrage stellen, und dein Vertrag endet nach diesen 12 Tagen.
+- Szenario 2: Du hast noch <u>3 Tage</u> bis zum nächsten Abrechnungszeitraum. Leider hast du die erforderlichen 7 Tage Kündigungsfrist nicht eingehalten, daher wird dein Vertrag <u>verlängert</u> und die Zahlung für den nächsten Zeitraum fällig, bevor der Vertrag danach beendet wird.
+
+#### Stornierungsprozess
+
+Logge dich zuerst in dein ZAP-Hosting Konto ein und öffne dein [Webinterface Dashboard](https://zap-hosting.com/en/customer/).
+
+Finde dort dein **Vertrags**-Produkt und klicke auf den blauen Button **Paket anzeigen**.
+
+![](https://screensaver01.zap-hosting.com/index.php/s/Ep7QPaLiwJSS82N/preview)
+
+Auf dieser Seite wählst du oben rechts die rote Option **Vertrag kündigen**.
+
+![](https://screensaver01.zap-hosting.com/index.php/s/cTwq7FD6pZzRyBb/preview)
+
+Es öffnet sich ein Fenster, das dir die Möglichkeit gibt, unseren Support zu kontaktieren oder mit der Stornierung fortzufahren. Wenn du weitermachen möchtest, wähle **Vertrag kündigen**.
+
+![](https://screensaver01.zap-hosting.com/index.php/s/WqWsCLw9x9jP6Xe/preview)
+
+Zum Schluss siehst du Infos zur Stornierung und das nächste mögliche Kündigungsdatum. Wir finden es schade, dass du dein Produkt kündigst, und freuen uns über dein Feedback. Wenn du sicher bist, klicke auf **Vertrag kündigen**, um den Vorgang abzuschließen.
+
+![](https://screensaver01.zap-hosting.com/index.php/s/DE9tFcJNZTHdR96/preview)
+
+Die Stornierung ist nun abgeschlossen und wird zum nächstmöglichen Datum wirksam.
+
+## Weitere Fragen
+
+Bei ZAP-Hosting schätzen wir jeden einzelnen Kunden sehr. Wenn du mit unseren Richtlinien unzufrieden bist oder eine allgemeine Frage hast, kannst du dich jederzeit an uns wenden.
+
+Erstelle dazu einfach ein [Support-Ticket auf unserer Website](https://zap-hosting.com/en/customer/support/). Unser freundliches Support-Team meldet sich so schnell wie möglich bei dir.
+
+Bitte beachte, dass wir aufgrund unserer AGB und Richtlinien nicht garantieren können, jede Anfrage zu erfüllen, aber wir geben immer unser Bestes, um dir weiterzuhelfen.

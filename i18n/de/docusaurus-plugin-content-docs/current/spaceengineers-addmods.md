@@ -1,7 +1,7 @@
 ---
 id: spaceengineers-addmods
-title: "Space Engineers: Installation von Mods"
-description: Informationen, wie du Mod auf deinen Space Engeineers Server von ZAP-Hosting installieren kannst - ZAP-Hosting.com Dokumentation
+title: "Space Engineers: Mods installieren"
+description: "Entdecke, wie du sicher Mods auf deinem Space Engineers Gameserver konfigurierst und hinzufügst für ein individuelles Spielerlebnis → Jetzt mehr erfahren"
 sidebar_label: Mods installieren
 services:
   - gameserver-spaceengineers
@@ -13,70 +13,57 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ### Vorbereitung
 
-Um Mods auf einem Server hinzufügen zu können, muss hierbei eine Konfigurationsdatei bearbeitet werden. Damit es hierbei keine Probleme bei der Übernähe der Änderungen gibt, stelle bitte sicher, dass dein Server hierbei zuvor gestoppt wird!
+Um Mods auf einem Server hinzufügen zu können, muss eine Konfigurationsdatei bearbeitet werden. Damit es keine Probleme bei der Übernahme der Änderungen gibt, stelle bitte sicher, dass dein Server vorher gestoppt ist!
 
-Damit im weiteren Verlauf die richtige Config bearbeitet wird, muss zuvor der Name des Savegames in Erfahrung gebracht werden.
-Sofern die Einstellungen hierzu nicht angepasst wurden, lautet dieser standardmäßig "zap001". Prüfe dies jedochzur Sicherheit einmal, wie nun beschrieben:
+Damit die richtige Konfig im weiteren Verlauf verarbeitet wird, muss vorher der Name des Savegames herausgefunden werden. Wenn die Einstellungen dafür nicht angepasst wurden, ist der Standard "zap001". Zur Sicherheit solltest du das aber wie folgt überprüfen:
 
-Um zu den Einstellungen von deinem Server zu gelangen, öffne in der linken Listen unter dem Reiter "Einstellungen" den Punkt "Einstellungen"
+Um zu den Einstellungen deines Servers zu gelangen, öffne den Punkt „Einstellungen“ in der linken Liste unter dem Reiter „Settings“
 
-![](https://screensaver01.zap-hosting.com/index.php/s/HW3DZrMaijDfrnw/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/Begs32xtfWitRDA/preview)
 
-Auf dieser Seite kann im ersten Feld der Name des Savegames eingesehen werden oder auch angepasst werden.
-Dieser Name muss sich nun gemerkt werden, damit später die richtige Konfigurationsdatei bearbeitet wird.
+Der Name des Savegames kann im ersten Feld auf dieser Seite eingesehen oder angepasst werden. Diesen Namen musst du dir jetzt merken, damit später die richtige Konfigdatei bearbeitet werden kann.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/3Hx4pNLkAr3saaC/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/DHs7JGyxRMSfDKN/preview)
 
-Die Installation von **Notepad++** ist zudem Vorrausetzung dieser Anleitung, damit die Schritte auch genau gleich durchgeführt werden können!
+Die Installation von **Notepad++** ist ebenfalls Voraussetzung für diese Anleitung, damit die Schritte genau so durchgeführt werden können!
 
-## Mods heraussuchen
+## Mods raussuchen
 
-Sehr viele Mods kann man im Workshop von Space Engineers finden.
-Der Workshop kann [hier](https://steamcommunity.com/workshop/about/?appid=244850) gefunden werden.
+Viele Mods findest du im Space Engineers Workshop. Den Workshop findest du [hier](https://steamcommunity.com/workshop/about/?appid=244850).
 
-Nachdem ein interessanter Mod gefunden wurde, klicken wir diese einmal an, um alle weiteren Details einsehen zu können.
-Wenn der Mod einem gefällt, dann muss sich nun die Mod-ID nortiert werden. Die Mod-ID ist meist fett markiert auf der Seite oder oben in der URL-Leiste zu finden:
+Nachdem du einen interessanten Mod gefunden hast, klickst du einmal darauf, um alle weiteren Details zu sehen. Gefällt dir der Mod, muss jetzt die Mod-ID gespeichert werden. Die Mod-ID ist meistens fett markiert an der Seite oder oben in der URL-Leiste:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/XSLW5Ysq5gFRoKg/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/k6WKbbZEizX7TpR/preview)
 
-## Konfigurationsdateien öffnen
+## Konfigdateien öffnen
 
-Es gibt zwei Möglichkeiten die Dateien eines Servers bearbeiten zu können.
-Zum einen wäre dies via [Zugriff per FTP](gameserver-ftpaccess.md) möglich und einmal durch den Config-Editor im Webinterface selbst.
+Es gibt zwei Wege, die Dateien eines Servers zu bearbeiten. Zum einen wäre das über den [Zugang via FTP](gameserver-ftpaccess.md) möglich und zum anderen über den Config Editor im Webinterface selbst.
 
-In diesem Fall wird die Config manuell via FTP bearbeitet, um Syntax-Fehler in der Config zu vermeiden.
-Wie genau die Verbindung via FTP hergestellt wird, wird in der oben verlinkten Anleitung genau beschrieben.
+In diesem Fall wird die Konfig manuell via FTP bearbeitet, um Syntaxfehler in der Konfig zu vermeiden. Wie genau die Verbindung via FTP hergestellt wird, ist in der oben verlinkten Anleitung ausführlich beschrieben.
 
-Sobald die Verbindung via FTP hergestellt wurde, muss in das folgende Verzeichnis navigiert werden:
+Sobald die Verbindung via FTP steht, musst du in folgendes Verzeichnis navigieren:
 
 ``/gXXXXXX/space-engineers/DedicatedServer64/config/Saves``
 
-In diesem Ordner sind alle Savegames aufgelistet, welche jemals auf dem Server erstellt wurden.
-Um die Configs des jeweiligen Savegames anpassen zu können, muss jetzt der entsprechende Ordner geöffnet werden.
-In unserem Beispiel wäre das der Ordner "zap001":
+Dieser Ordner listet alle Savegames auf, die jemals auf dem Server erstellt wurden. Um die Konfigs des jeweiligen Savegames anzupassen, muss jetzt der entsprechende Ordner geöffnet werden. In unserem Beispiel wäre das der Ordner "zap001":
 
-![](https://screensaver01.zap-hosting.com/index.php/s/Fox34KdXg9Ywm3M/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/cLT8FLSnQE42ZwN/preview)
 
-In diesem Ordner muss jetzt die Sandbox-Datei bearbeitet werden.
-Es muss genau diese Config geöffnet werden, wie im Screenshot dargestellt!
+Die Sandbox-Datei muss jetzt in diesem Ordner bearbeitet werden. Genau diese Konfig muss geöffnet werden, wie im Screenshot gezeigt!
 
-![grafik](https://screensaver01.zap-hosting.com/index.php/s/ramYJxx9opKZKeY/preview)
-
+![](https://screensaver01.zap-hosting.com/index.php/s/bKrCK6LcCMbkwbb/preview)
 
 ## Mods hinzufügen
 
-Es gibt bereits einen Mod-Bereich in der Config, welcher sich am Ende der Config befindet. Diesen Teil markieren wir jedoch einmal mit der Maus und entfernen diesen dann.
-Im Anschluss fügen wir folgenden Inhalt ein:
+In der Konfig gibt es bereits einen Mod-Bereich, der sich am Ende der Konfig befindet. Diesen Bereich markieren wir mit der Maus und löschen ihn dann. Danach fügen wir folgenden Inhalt ein:
 
 `<Mods></Mods>`
 
-Sobald der Inhalt eingefügt ist, gehen wir mit dem Cursor zwischen "&gt;" & "&lt;" und drücken dann einmal ENTER.
-Damit wird automatisch die korrekte Sytnax genutzt und wir können fortfahren.
+Sobald der Inhalt eingefügt ist, setzen wir den Cursor zwischen „&gt;“ & „&lt;“ und drücken einmal ENTER. Dadurch wird automatisch die korrekte Syntax verwendet und wir können weitermachen.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/JfBax75wn4kCbqE/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/JbTqfX455XbffRs/preview)
 
-Im nächsten Schritt fügen wir den ersten Mod hinzu. Hierzu arbeiten wir mit einem "ModItem", welches ein Mod bildet.
-Hierzu kopieren wir den folgenden Inhalt und fügen ihn dann wie im Screenshot gezeigt in die Config ein:
+Im nächsten Schritt fügen wir den ersten Mod hinzu. Dafür arbeiten wir mit einem „ModItem“, das einen Mod bildet. Kopiere dazu folgenden Inhalt und füge ihn dann wie im GIF gezeigt in die Konfig ein:
 
 ```xml
 	<ModItem>
@@ -86,14 +73,12 @@ Hierzu kopieren wir den folgenden Inhalt und fügen ihn dann wie im Screenshot g
 	</ModItem>
 ```
 
-![](https://screensaver01.zap-hosting.com/index.php/s/stHa6DSEnP4gr45/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/FkgJmMTBAp8SLzp/preview)
 
 :::info
-Hierbei muss 12345 mit der Mod-ID deiner ausgeäwhlten Mod getauscht werden!
+Hier muss 12345 mit der Mod-ID deines ausgewählten Mods ersetzt werden!
 :::
 
-Wie auch im Screenshot zu sehen, muss derselbe Schritt einfach nur erneut wiederholt werden, um einen Mod hinzuzufügen.
-Nachdem alle gewünschten Mods hinzugefügt wurden, kann die Config mit **STRG+S** gespeichert werden und die Config geschlossen werden.
-Danach kann der Server normal gestartet werden und die Mods werden dann automatisch installiert.
+Wie im GIF zu sehen ist, müssen die gleichen Schritte einfach wiederholt werden, um weitere Mods hinzuzufügen. Nachdem alle gewünschten Mods eingetragen sind, kann die Konfig mit **STRG+S** gespeichert und geschlossen werden. Danach kann der Server normal gestartet werden und die Mods werden automatisch installiert.
 
 <InlineVoucher />

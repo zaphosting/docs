@@ -1,7 +1,7 @@
 ---
 id: rust-decay
-title: "Rust: Decay verändern"
-description: Information, zur Anpassung des Decay bei deinem Rust Server von ZAP-Hosting - ZAP-Hosting.com Dokumentation
+title: "Rust: Decay anpassen"
+description: "Entdecke, wie du die Decay-Rate deines Rust-Gameservers anpasst und Konfigurationen speicherst, um das Gameplay besser zu kontrollieren → Jetzt mehr erfahren"
 sidebar_label: Decay
 services:
   - gameserver-rust
@@ -11,37 +11,35 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 <InlineVoucher />
 
-Mithilfe eines RCON Tools kannst du auf deinem Server beliebige Befehle ausführen, auch Adminrechte können so vergeben werden.
-Zuerst musst du [Verbindung via RCON](rust-connectrcon.md).
+Mit RCON kannst du direkt einen Befehl ausführen, um dich selbst zum Admin zu machen. Zuerst musst du dich [per RCON verbinden](rust-connectrcon.md).
 
 :::info
-Dein Server muss vollständig gestartet sein, um via RCON erreichbar zu sein. 
+Der Server muss vollständig gestartet sein, damit eine Verbindung über RCON möglich ist.
 :::
 
-Sobald du verbunden bist, navigiere in das Feld, in welchem du Konsolenbefehle ausführen kannst. In unserem Beispiel nutzen wir **RustAdmin**.
+Wenn du verbunden bist, geh bitte zum Konsolen-Bereich, wo du Befehle eingeben kannst. In unserem Beispiel nutzen wir **RustAdmin**.
 
-Du kannst mit der Zahl die Decay-Rate anpassen, zum Beispiel:
+Du kannst die Decay-Rate wie folgt anpassen:
 
-`decay.scale 1.0` unveränderte Decay Rate<br/>
-`decay.scale 0.5` Decay Rate auf 50% reduziert<br/>
-`decay.scale 0` Decay ist komplett deaktiviert<br/>
+`decay.scale 1.0` ist die normale Decay-Rate<br/>
+`decay.scale 0.5` reduziert die Decay-Rate um 50%<br/>
+`decay.scale 0` deaktiviert die Decay komplett<br/>
 
-Angenommen, du möchtest den Decay komplett deaktivieren, dann muss der Befehl
+Wenn du zum Beispiel die Decay komplett deaktivieren möchtest, musst du den Befehl
 
-```decay.scale 0``` Ausgeführt werden. Die Eingabe muss mit Enter bestätigt werden.
+```decay.scale 0``` eingeben und mit Enter bestätigen.
 
-Du kannst nun im Konsolen-Tab sehen, ob der Befehl erfolgreich übermittelt wurde.
+Du kannst jetzt im Konsolen-Tab prüfen, ob der Befehl erfolgreich gesendet wurde.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/59Z2Y7x7t6Dcm5q/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/J4HPW5Dee93BDJP/preview)
 
+Um die Änderungen zu speichern, musst du einmal
 
-Um unsere Änderungen nun zu speichern, muss noch einmalig
+```server.writecfg``` eingeben und mit Enter abschicken.
 
-```server.writecfg``` Eingegeben und ebenfalls mit Enter bestätigt werden.
+![](https://screensaver01.zap-hosting.com/index.php/s/kEbCodqYTf8tqKp/preview)
 
-![](https://screensaver01.zap-hosting.com/index.php/s/kMbnt6M2XTEcLMB/preview)
-
-Sofern nun in deiner Konsole `Config Saved` steht, wurde die Änderung erfolgreich übernommen.
+Wenn in deiner Konsole jetzt `Config Saved` angezeigt wird, hat der Server deine Änderungen übernommen.
 
 
 <InlineVoucher />

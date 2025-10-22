@@ -1,7 +1,7 @@
 ---
 id: vserver-linux-dnsserver
-title: "vServer: DNS Server Installation und Einrichtung (ISPConfig)"
-description: Informationen, wie du einen DNS Server auf deinen vServer von ZAP-Hosting installieren kannst - ZAP-Hosting.com Dokumentation
+title: "VPS: DNS Server Installation und Einrichtung (ISPConfig)"
+description: "Entdecke, wie du mit ISPConfig einen DNS Server für effizientes Domain-Management und Netzwerksteuerung einrichtest → Jetzt mehr erfahren"
 sidebar_label: DNS Server (ISPConfig)
 services:
   - vserver

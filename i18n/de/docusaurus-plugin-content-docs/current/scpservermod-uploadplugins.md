@@ -1,7 +1,7 @@
 ---
 id: scpservermod-uploadplugins
-title: "SCP Secret Laboratory: Plugins auf Server installieren installieren"
-description: Informationen, wie du Plugins auf deinen SCP ServerMod Server von ZAP-Hosting.com installieren kannst - ZAP-Hosting.com Dokumentation
+title: "SCP Secret Laboratory: Plugins auf dem Server installieren"
+description: "Entdecke, wie du SMOD-Plugins für deinen SCP-Gameserver installierst und konfigurierst, um Gameplay und Serverfunktionen zu verbessern → Jetzt mehr erfahren"
 sidebar_label: Plugins installieren
 services:
   - gameserver-scp
@@ -10,79 +10,78 @@ services:
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
 :::warning Archivierte Anleitung
-Dieses Dokument wurde archiviert. Dokumente werden archiviert, wenn sie nicht mehr relevant, nicht mehr korrekt oder nicht mehr auf dem neuesten Stand sind. Es wurde aus den folgenden Gründen archiviert:
+Dieses Dokument wurde archiviert. Dokumente werden archiviert, wenn sie nicht mehr relevant, fehlerhaft oder veraltet sind. Es wurde aus folgenden Gründen archiviert:
 
-Grund: Die Servermod Erweiterung für SCP wurde aufgegeben und wird dementsprechend nicht mehr weiterentwickelt. Wir empfehlen stattdessen auf **[SCP:EXILED](exiled-plugins.md)** umzusteigen. 
+Grund: Die Servermod-Erweiterung für SCP wurde eingestellt und wird daher nicht mehr gepflegt. Wir empfehlen stattdessen auf **[SCP:EXILED](exiled-plugins.md)** umzusteigen. 
 ::::
-
-
 
 <InlineVoucher />
 
-## Verbinden via FTP
-Bevor Plugins installiert werden können, muss dein [Zugriff per FTP](gameserver-ftpaccess.md) hergestellt werden.
+## Mit FTP verbinden
 
-Nachdem dies erledigt ist, kannst du dich via FTP auf deinen Server verbinden und öffnest dort folgendes Verzeichnis.
+Bevor Plugins installiert werden können, muss der [Zugang via FTP](gameserver-ftpaccess.md) eingerichtet sein.
+
+Nachdem das eingerichtet ist, kannst du dich verbinden und den folgenden Serverordner öffnen:
 `/g#####/scp/sm_plugins`
 
-![](https://screensaver01.zap-hosting.com/index.php/s/WXqiLKMLpLKDNpg/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/2Fid5MKq57YDCNj/preview)
 
-## Plugins Installieren
+## Plugins installieren
 
-### Plugins Finden
+### Plugins finden
 
-Zunächst müssen Sie nach verfügbaren SMOD-kompatiblen Plugins suchen.
+Zuerst musst du kompatible SMOD-Plugins finden.
 
-Am einfachsten findest du Plugins auf deren [Discord](https://discord.gg/T9aurNf)
+Der beste Ort dafür ist direkt deren [Discord](https://discord.gg/T9aurNf).
 
 :::info
-Dies ist nur eine Möglichkeit, um Plugins zu bekommen. Prüfe auf jeden Fall im Vorfeld ob das gewählte Plugin mit deiner SMOD-Version kompatibel ist.
+Das ist nur eine Möglichkeit, Plugins zu bekommen. Sie können auch woanders verfügbar sein. Wichtig ist, dass du prüfst, ob sie mit deiner SMOD-Version kompatibel sind. 
 :::
 
-Im folgenden Beispiel verwenden wir folgendes Plugin:
+In diesem Beispiel holen wir uns folgendes Plugin:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/LNe4GNBqrWLwL9w/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/bEEQP3cm33fgMFi/preview)
 
 ### Plugins hochladen
 
-Nachdem du ein Plugin heruntergeladen hast, kannst du dies via FTP auf deinen Server hochladen. Das geht am einfachsten via **drag&drop** in den Ordner **sm_plugins folder.**
+Sobald du deine gewünschten Plugins hast, lädst du sie per FTP auf deinen Gameserver hoch. Am einfachsten per **Drag & Drop** in den **sm_plugins-Ordner.**
 
-![](https://screensaver01.zap-hosting.com/index.php/s/Tx4mFcMyBbPKpjF/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/HzRKJXFyENqK4N8/preview)
 
-![](https://screensaver01.zap-hosting.com/index.php/s/k4j3K975SLob3ga/preview)
-
-:::info
-Beachte: Nach der Installation des Plugins wirst du deinen Server **neu starten** müssen damit das plugin **aktiv wird.**
-:::
-
-### Plugins knfigurieren
-
-Je nach Plugin gibt es verschiedene Konfigurationsmöglichkeiten welche du deiner config_gameplay.txt hinzufügen kannst.
-
-Für unser Beispiel-Plugin sind folgende Konfigurationsmöglichkeiten definiert:
-
-![](https://screensaver01.zap-hosting.com/index.php/s/TYWSnWTL9bP87HB/preview)
-
-Um diese hinzufügen zu können musst du nun deine **config_gameplay.txt** bearbeiten.
-
-Diese findest du links im Menü deines Servers über den **Configs** Tab.
-
-![](https://screensaver01.zap-hosting.com/index.php/s/G2xH5p2wb59A92W/preview)
-
-Die **config_gameplay.txt** findest du im Anschluss dort:
-
-![](https://screensaver01.zap-hosting.com/index.php/s/YknHyXCRzxJro6t/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/kSSMs23E6g4PfwN/preview)
 
 :::info
-Die Konfiguration kannst du an beliebiger Stelle in dder Datei einfügen. Für eine bessere Übersicht fügen wir das ganze im Beispiel direkt unter '#Misc gameplay settings' in die **config.gameplay.txt** ein.
+Tipp: Nach jeder Plugin-Installation musst du deinen Server **neu starten**, damit die Plugins **aktiv werden.**
 :::
 
-![](https://screensaver01.zap-hosting.com/index.php/s/ac52g3GJ7aEg4Ft/preview)
+### Plugins konfigurieren
+
+Je nach Plugin musst du verschiedene Einstellungen in deiner config_gameplay.txt vornehmen.
+
+In unserem Beispiel-Plugin sind folgende Konfigurationen definiert:
+
+![](https://screensaver01.zap-hosting.com/index.php/s/5PrLzeCQaFamGRn/preview)
+
+Um diese hinzuzufügen, bearbeiten wir die config_gameplay.txt.
+
+Diese findest du über den **Configs**-Tab links im Dashboard.
+
+![](https://screensaver01.zap-hosting.com/index.php/s/mMck39x2mEnLtLY/preview)
+
+Dann suchst du die **config_gameplay.txt** heraus.
+
+![](https://screensaver01.zap-hosting.com/index.php/s/SGLpBYM5DAWRRzN/preview)
 
 :::info
-Beachte: Je nach Plugin wird sich die Konfiguration von der in diesem Beispiel verwendeten unterscheiden. Stelle sicher immer die Anleitung des jeweiligen Plugins zu lesen damit du die Konfiguration korrekt hinzufügen kannst.
+Die Konfigurationen können grundsätzlich überall stehen. Best Practice ist, sie unter '#Misc gameplay settings' in der config_gameplay.txt zu platzieren.
 :::
 
-Nachdem du die Konfiguration vorgenommen hast kannst du deinen Server starten und findest dein Plugin ab sofort im Spiel.  
+![](https://screensaver01.zap-hosting.com/index.php/s/JMK542jpCj472ag/preview)
+
+:::info
+WICHTIG: Je nach Plugin unterscheiden sich die Einstellungen. Lies immer die Anleitung zum Plugin, damit du die Konfiguration korrekt übernimmst.
+:::
+
+Nachdem du die Einstellungen vorgenommen hast, startest du deinen Server neu (oder startest ihn) und prüfst die Änderungen direkt ingame!
 
 <InlineVoucher />

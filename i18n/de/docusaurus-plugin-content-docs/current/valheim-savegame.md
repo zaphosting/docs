@@ -1,7 +1,7 @@
 ---
 id: valheim-savegame
-title: "Valheim: Savegames auf Server verwalten"
-description: Informationen, wie du Savegames und Welten auf deinem Valheim-Server von ZAP-Hosting verwalten und bestehende Welten zu deinem Server hinzufügen kannst - ZAP-Hosting.com Dokumentation
+title: "Valheim: Savegames auf deinem Server verwalten"
+description: "Entdecke, wie du deine Valheim-Savegames effizient verwaltest, herunterlädst und wiederherstellst – mit dem Savegame-Manager → Jetzt mehr erfahren"
 sidebar_label: Savegames verwalten
 services:
   - gameserver-valheim
@@ -14,68 +14,67 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 ## Savegames herunterladen
 
 :::info
-Beachte: Vor dem Herunterladen des Savegames muss der Server gestoppt werden, damit das aktive Savegame gespeichert wird, nachdem der Server gestoppt wurde, wird das Savegame nach dem neu Laden der Seite auftauchen.
+Hinweis: Bevor du das Savegame herunterlädst, musst du den Server stoppen, damit das aktive Savegame gespeichert wird. Nach dem Stoppen des Servers erscheint das Savegame nach einmaligem Neuladen der Seite.
 :::
 
-Um dein Savegame herunterladen zu können, kannst du den `Savegame-Manager` im Webinterface nutzen:
+Um dein Savegame herunterzuladen, kannst du den `Savegame-Manager` im Webinterface nutzen:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/HSNNJKCmb2bPrmg/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/FryL7EXmEYBFBXD/preview)
 
-Hier kannst du dein Savegame ganz einfach über den grünen "Download" Button herunterladen:
+Hier kannst du dein Savegame ganz easy per Klick auf den grünen "Download"-Button herunterladen:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/aN2SkGBE4FFTpD5/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/2o2gnQ3GKpwc22w/preview)
 
 :::info
-Beachte, dass du die `.db` **und** `.fwl` Dateien herunterladen musst.
+Wichtig: Du musst sowohl die `.db` **als auch** die `.fwl` Dateien herunterladen.
 :::
 
-Fertig! Du kannst das Backup nun anderweitig nutzen, oder später wieder hochladen.
-
+Fertig! Du kannst das Backup jetzt für andere Zwecke nutzen oder später wieder hochladen.
 
 ## Savegame hochladen & aktivieren
 
-Um deine eigenen Savegames hochzuladen, öffnen wir zunächst unseren Savegame-Manager.
+Um eigene Savegames hochzuladen, öffnen wir zuerst unseren Savegame-Manager.
 
-Hier können wir nun unser eigenes Savegame per Drag&Drop hochladen, dies sollte danach wie folgt aussehen:
+Hier kannst du dein Savegame per Drag & Drop hochladen, das sollte dann so aussehen:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/DWYGxX8Hoxg9Bnb/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/H2RJSyMGeiojfxD/preview)
 
 :::info
-Beachte, dass dein Savegame genauso heißen sollte, wie es vom Spiel erstellt wurde.
+Achte darauf, dass dein Savegame den gleichen Namen hat, wie es vom Spiel erstellt wurde.
 :::
 
-In unseren Fall heißen die Backup-Dateien `380622.fwl` und `380622.db`.
+In unserem Beispiel heißen die Backup-Dateien `380622.fwl` und `380622.db`.
 
-Nun tragen wir den Namen des Backups oben unter `Savegame (worlds)` ein:
+Jetzt geben wir den Namen des Backups oben unter `Savegame (worlds)` ein:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/5iCtc2e6qCZpAQc/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/Ggrys4xKjDm7inz/preview)
 
-Unter `ZAP Backups` hier suchen wir nun unser Savegame raus:
+Unter `ZAP Backups` suchen wir jetzt unser Savegame:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/MfLMPtAykSb6DYX/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/beRMYmE4CicDNsz/preview)
 
-Jetzt müssen wir nur noch bei beiden Dateien den gelben "Wiederherstellen" Button drücken und das Ganze bestätigen, dann wird unser Savegame geladen.
+Jetzt müssen wir nur noch bei beiden Dateien den gelben "Restore"-Button drücken und das Ganze bestätigen, dann wird unser Savegame geladen.
 
-Nachdem dies geladen wurde, erscheint unten rechts eine Meldung:
+Nachdem das Laden abgeschlossen ist, erscheint unten rechts eine Meldung:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/54N5wBMCHa3SkyQ/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/Zs9F4rNRen4QMcs/preview)
 
-Jetzt kann der Server gestartet werden, das hochgeladene Savegame wird dann auf dem Server aktiv sein.
+Jetzt kannst du den Server starten, das hochgeladene Savegame ist dann aktiv auf dem Server.
 
 ## Autosaves
 
-Leider unterstützt Valheim derzeit keine Autosaves, um den Spielverlauf zu speichern, muss der Server gestoppt werden. Mit dem Restart Planer im Webinterface kann der Server zu bestimmten Zeiten automatisch neu gestartet werden:
+Leider unterstützt Valheim aktuell keine Autosaves. Um deinen Spielstand zu speichern, muss der Server gestoppt werden. Den Restart-Planer im Webinterface kannst du nutzen, um deinen Server automatisch zu bestimmten Zeiten neu zu starten:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/YKjbgfsJyqDYp78/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/gTp5yJDQyHKX7eF/preview)
 
-Hier können wir einfach eine Zeit für einen täglichen oder wöchentlichen Neustart hinzufügen:
+Hier kannst du einfach eine Zeit für einen täglichen oder wöchentlichen Neustart hinzufügen:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/FfymF9KfiDidCYB/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/nyqbMzjNL78qz9K/preview)
 
-Nachdem wir den Neustart gespeichert haben, können wir auch mehr als einen täglichen oder wöchentlichen Neustart hinzufügen.
+Nachdem du den Neustart gespeichert hast, kannst du auch mehrere tägliche oder wöchentliche Neustarts hinzufügen.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/iQmQ4K4EcL6bQsw/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/BddatyGLAZZWnCA/preview)
 
-Fertig! Dein Server wird nun zu diesen bestimmten Zeiten neu gestartet, das Savegame wird während dieser Neustarts gespeichert.
+Fertig! Dein Server startet jetzt zu den angegebenen Zeiten neu, dabei wird das Savegame automatisch gespeichert.
 
 <InlineVoucher />

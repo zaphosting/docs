@@ -1,8 +1,8 @@
 ---
 id: redm-txadmin-setup
-title: "RedM: txAdmin Einrichtung"
-description: Informationen zur Einrichtung des TxAdmin Interfaces für RedM Gameserver von ZAP-Hosting - ZAP-Hosting.com Dokumentation
-sidebar_label: txAdmin Einrichtung
+title: "RedM: txAdmin Setup"
+description: "Entdecke, wie du deinen RedM Gameserver mit dem voll ausgestatteten Webpanel von txAdmin effizient verwaltest und überwachst → Jetzt mehr erfahren"
+sidebar_label: txAdmin Setup
 services:
   - gameserver-redm
 ---
@@ -11,19 +11,18 @@ import YouTube from '@site/src/components/YouTube/YouTube';
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
-txAdmin ist ein komplett kostenloses, voll ausgestattetes Web-Panel, um deinen RedM-Server zu verwalten und zu überwachen. Es bietet eine Vielzahl von Funktionen, die darauf ausgelegt sind, die Verwaltung eines RedM-Servers so einfach wie möglich zu machen. Die Einrichtung von txAdmin ist völlig kostenlos, beginne deine Reise mit dem einfachsten und doch funktionalsten Web-Panel für RedM-Server.
+
+txAdmin ist ein komplett kostenlos nutzbares, voll ausgestattetes Webpanel zur Verwaltung & Überwachung deines RedM Gameservers. Es bietet eine breite Palette an Features, die das Management eines RedM Gameservers super easy machen. Die Einrichtung von txAdmin ist komplett kostenlos – starte jetzt deine Reise mit dem simpelsten, aber funktionalen RedM Gameserver Webpanel.
 
 <InlineVoucher />
 
-
-
 ## Zugriff
 
-Über das Dashboard deines Game-Servers findest du im txAdmin-Bereich einen Link sowie die Zugangsdaten zum Zugriff auf txAdmin. Dies gibt dir die notwendigen Informationen, um einfach auf die txAdmin-Oberfläche zuzugreifen und mit der Einrichtung zu beginnen.
+Den Link und die Zugangsdaten für txAdmin findest du im txAdmin-Bereich im Dashboard deines Gameservers. Dort bekommst du alle Infos, die du brauchst, um einfach auf die txAdmin-Oberfläche zuzugreifen und mit der Einrichtung zu starten.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/6gJa3qsymE2kzCi/download)
 
-Kopiere die Informationen zum Benutzer und Passwort und klicke auf den Link (IP-Adresse:Port), um das txAdmin Interface aufzurufen und dich einzuloggen. Im Anschluss öffnet sich das txAdmin Interface in einem neuen Fenster, wo du dich mit den vorgegebenen Zugangsdaten einloggen musst. 
+Kopiere die Angaben für Benutzername und Passwort und klicke auf den Link (IP-Adresse:Port), um die txAdmin-Oberfläche zu öffnen und dich einzuloggen. Die txAdmin-Oberfläche öffnet sich dann in einem neuen Fenster, wo du dich mit den angegebenen Zugangsdaten anmelden musst.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/pp8GLQBoX4LoqTA/preview)
 
@@ -31,39 +30,39 @@ Kopiere die Informationen zum Benutzer und Passwort und klicke auf den Link (IP-
 
 ## Einrichtung
 
-Nun, da du dich erfolgreich eingeloggt hast, kannst du mit der Einrichtung von txAdmin und deinem Server beginnen. Du solltest nun die Startseite (Dashboard) von txAdmin sehen. Oben links findest du einen Hinweis, dass dein Server noch konfiguriert werden muss. Klicke dort auf **Go to the setup page**, um das Setup zu beginnen.
+Nachdem du dich erfolgreich eingeloggt hast, kannst du mit der Einrichtung von txAdmin und deinem Server starten. Du solltest jetzt die txAdmin-Startseite (Dashboard) sehen. Oben links erscheint eine Meldung, dass dein Server noch konfiguriert werden muss. Klick auf **Zur Setup-Seite gehen**, um den Einrichtungsprozess zu starten.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/oXakf3qoJaim7ex/download)
 
 
 
-### Willkommen und Server Name
+### Willkommen und Servername
 
-Definiere im Anschluss einen Servernamen, welchen du für dein Projekt verwenden möchtest. Dieser Name ist nicht für die Serverliste gedacht sondern dient lediglich für das txAdmin Interface und Chat/Discord Nachrichten. 
+Definiere als Nächstes einen Servernamen, den du für dein Projekt verwenden möchtest. Dieser Name ist nicht für die Serverliste gedacht, sondern nur für die Nutzung innerhalb der txAdmin-Oberfläche und für Chat-/Discord-Nachrichten.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/FCmd5xQ89wSPHfe/preview)
 
 
 
-### Deployment Type
+### Deployment-Typ
 
-Beim Deployment Type musst du nun auswählen, wie du deinen Server einrichten möchtest. Dir stehen die folgenden Auswahloptionen zur Verfügung: **Popular Recipes**, **Existing Server Data**, Remote URL Template und **Custom Template**. Diese Optionen werden im Folgenden genauer erläutert, sodass du selbst entscheiden kannst, welche die beste Wahl für deinen Anwendungsfall ist. 
+Unter Deployment-Typ musst du jetzt auswählen, wie du deinen Server einrichten möchtest. Du hast folgende Optionen: **Beliebte Rezepte**, Bestehende Serverdaten, **Remote URL Template** und **Custom Template**. Jede dieser Optionen wird weiter unten genauer erklärt, damit du entscheiden kannst, was am besten zu dir passt.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/52HfyJSNLscApNE/preview)
 
 
 
-### Popular Template
+### Beliebtes Template
 
-Popular Templates sind vorgefertigte Pakete, die direkt verwendet werden können. Dies ist der einfachste Weg, um deinen RedM-Server schnell einsatzbereit zu machen. Wenn dies dein erster Server ist, wird diese Option besonders empfohlen. Diese Templates enthalten alle notwendigen Konfigurationen und Ressourcen, um einen funktionalen Server schnell einzurichten, sodass du dich auf die Anpassung und das Gameplay konzentrieren kannst, anstatt dich mit der Ersteinrichtung zu beschäftigen. Wähle einfach ein Template aus, das deinen Anforderungen entspricht.
+Beliebte Templates sind vorgefertigte Pakete, die sofort einsatzbereit sind – das ist der einfachste Weg, deinen RedM Gameserver schnell zum Laufen zu bringen. Wenn das dein erster Server ist, empfehlen wir dir diese Option. Diese Templates enthalten alle nötigen Konfigurationen und Ressourcen, um schnell einen funktionierenden Server aufzusetzen, sodass du dich direkt auf Customizing und Gameplay konzentrieren kannst statt auf die Grundinstallation. Wähle einfach ein Template, das zu deinen Bedürfnissen passt.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/rrw962gMMpn86fW/preview)
 
 
 
-### Existing Server Data
+### Bestehende Serverdaten
 
-Diese Einstellung solltest du verwenden, falls du bereits einen Server mit txAdmin betrieben hast und diesen nun bei uns hosten möchtest. In diesem Fall kannst du die Serverdaten einfach per FTP hochladen und den Pfad während des Setups angeben. Solltest du noch nicht wissen, wie du FTP allgemein benutzt, lohnt es sich, einen Blick in unsere Anleitung [FTP-Zugriff](gameserver-ftpaccess.md) zu werfen.
+Diese Option solltest du wählen, wenn du bereits einen Server mit txAdmin betrieben hast und diesen jetzt bei uns hosten möchtest. Du kannst dann einfach die Serverdaten per FTP hochladen und den Pfad während der Einrichtung angeben. Falls du noch nicht mit FTP vertraut bist, lohnt sich ein Blick in unsere [FTP-Zugang](gameserver-ftpaccess.md) Anleitung. Dort zeigen wir dir Schritt für Schritt, wie du deine Serverdateien problemlos übertragen kannst, damit dein Server schnell bei uns läuft.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/jCZ4DffkkAHA6dj/preview)
 
@@ -73,13 +72,13 @@ Diese Einstellung solltest du verwenden, falls du bereits einen Server mit txAdm
 
 ### Remote URL Template
 
-Falls ein Template aufgespielt werden soll, das in txAdmin selbst nicht verlinkt ist, kannst du mit dieser Funktion ein eigenes Recipe über eine Remote-URL angeben. Dieses Recipe wird dann heruntergeladen und auf deinem Server ausgeführt. Diese Option ist besonders nützlich, um benutzerdefinierte Serverkonfigurationen oder spezielle Setups bereitzustellen, die nicht in den Standardoptionen von txAdmin enthalten sind. Durch die Angabe der URL lädt txAdmin das Template automatisch herunter und wendet es an, sodass dein Server genau nach deinen Vorgaben eingerichtet wird.
+Wenn du ein Template nutzen möchtest, das nicht direkt in txAdmin verlinkt ist, kannst du hier eine eigene Rezept-URL angeben. Dieses Rezept wird dann auf deinem Server heruntergeladen und ausgeführt. Diese Option ist super praktisch, wenn du spezielle Serverkonfigurationen oder Setups deployen willst, die nicht in den Standard-Optionen von txAdmin enthalten sind. Einfach die URL angeben, txAdmin lädt das Template automatisch runter und richtet deinen Server genau nach deinen Vorgaben ein.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/jrGzTGp9FwLc82i/preview)
 
 ### Custom Template
 
-Diese Option ist für Benutzer gedacht, die bereits ein eigenes Recipe erstellt haben und dieses erneut laden möchten. Dies ermöglicht es dir, deine benutzerdefinierten Konfigurationen schnell und einfach anzuwenden, ohne alles von Grund auf neu einrichten zu müssen. Wähle einfach dein vorhandenes Recipe aus, und txAdmin kümmert sich um den Rest, damit dein Server genau so konfiguriert ist, wie du es beabsichtigt hast.
+Diese Option ist für Nutzer gedacht, die bereits ein eigenes Rezept erstellt haben und dieses erneut laden möchten. So kannst du deine individuellen Konfigurationen schnell und einfach anwenden, ohne alles von Grund auf neu einzurichten. Wähle einfach dein bestehendes Rezept aus, und txAdmin erledigt den Rest, damit dein Server genau so konfiguriert wird, wie du es willst.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/Z75q5RKakwfpHGy/preview)
 
@@ -87,18 +86,17 @@ Diese Option ist für Benutzer gedacht, die bereits ein eigenes Recipe erstellt 
 
 ### Recipe Deployer
 
-Nachdem du dich für einen Deployment Type entschieden und die dort vorgegebenen Schritte befolgt hast, kannst du zum Abschluss auf **Go to Recipe Deployer** klicken. Dort müssen nun noch die finalen Schritte **Review Recipe**, **Input Parameters**, **Run Recipe** und **Configure server.cfg** abgeschlossen werden.
+Nachdem du dich für einen Deployment-Typ entschieden und die angegebenen Schritte befolgt hast, kannst du mit **Zum Recipe Deployer gehen** abschließen. Dort musst du die letzten Schritte erledigen: **Rezept überprüfen**, **Parameter eingeben**, **Rezept ausführen** und **server.cfg konfigurieren**.
 
-Im ersten Schritt kannst du das ausgewählte oder hinzugefügte Recipe noch weiter anpassen. Sind keine weiteren Anpassungen mehr notwendig, gehe zu Schritt 2. Dort kannst du nun deinen eigenen [Eigener Lizenzschlüssel](redm-licensekey.md) angeben und die Datenbankinformationen prüfen. Wenn alles korrekt ist, klicke auf **Run Recipe**. Dieser Vorgang kann einen Moment dauern. Zum Abschluss kannst du dann noch die Server-Konfigurationsdatei `server.cfg` anpassen. 
+Im ersten Schritt kannst du das ausgewählte oder hinzugefügte Rezept noch weiter anpassen. Wenn keine Änderungen nötig sind, geht’s weiter zu Schritt 2. Dort kannst du deinen eigenen [Lizenzschlüssel](redm-licensekey.md) eingeben und die Datenbankinfos checken. Wenn alles passt, klick auf **Rezept ausführen**. Das kann einen Moment dauern. Zum Schluss kannst du die Server-Konfigurationsdatei (`server.cfg`) nach Bedarf anpassen.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/wFMD576sBQAAdxZ/download)
 
-Klicke abschließend auf **Save & Run Server**. Damit ist das txAdmin-Setup abgeschlossen, und du kannst dich mit deinem Server verbinden.
-
+Zum Schluss klickst du auf **Speichern & Server starten**. Damit ist die txAdmin-Einrichtung abgeschlossen und du kannst dich mit deinem Server verbinden.
 
 
 ## Zusätzliche Unterstützung
 
-Für txAdmin-spezifischen Support kontaktiere bitte das txAdmin-Team über deren [offizielle Webseite](https://txadm.in/) oder trete der Community auf [Discord](https://discord.gg/txAdmin/) bei.
+Für txAdmin-spezifischen Support wende dich bitte direkt an das txAdmin-Team über deren [offizielle Webseite](https://txadm.in/) oder tritt der Community auf [Discord](https://discord.gg/txAdmin/) bei. Die Community und das Support-Team helfen dir bei allen Fragen oder Problemen rund um txAdmin, damit du das Beste aus deinem Server rausholen kannst.
 
 <InlineVoucher />

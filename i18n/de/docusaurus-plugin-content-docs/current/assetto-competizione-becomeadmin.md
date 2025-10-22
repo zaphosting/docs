@@ -1,7 +1,7 @@
 ---
 id: assetto-competizione-becomeadmin
-title: "Assetto Corsa Competizione: Admin auf dem eigenen Server werden"
-description: Informationen, wie du dich zum Admin auf deinem Assetto Corsa Competizione-Server von ZAP-Hosting machst - ZAP-Hosting.com Dokumentation
+title: "Assetto Corsa Competizione: Werde Admin auf deinem eigenen Server"
+description: "Entdecke, wie du volle Kontrolle über deinen Server bekommst, indem du Administratorrechte vergibst und deinen Gameserver effektiv verwaltest → Jetzt mehr erfahren"
 sidebar_label: Admin werden
 services:
   - gameserver-assetto-competizione
@@ -10,33 +10,33 @@ services:
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
-Die Zuweisung von Administratorberechtigungen ermöglicht dir eine einfache und umfangreiche Verwaltung mit voller Kontrolle deines Servers. Als Administrator hast du die Möglichkeit alle verfügbaren Optionen und Funktionen, die das Spiel bereitstellt, direkt im Spiel anzuwenden. Im folgenden werden dir alle notwendigen Schritte erläutert, die du benötigst, um dir die Administratorberechtigungen für deinen Server zuzuweisen. 
+Die Vergabe von Administratorrechten ermöglicht dir eine einfache und umfassende Verwaltung mit voller Kontrolle über deinen Server. Als Administrator kannst du alle verfügbaren Optionen und Funktionen, die das Spiel direkt bietet, nutzen. Alle Schritte, die du durchführen musst, um Administratorrechte für deinen Server zu vergeben, werden im Folgenden beschrieben.  
 <InlineVoucher />
 
-## Admin Passwort setzen 
-Das Admin Passwort kannst du im Interface von deinem Server unter dem Reiter "Einstellungen" einsehen und ändern.
-Zu den Einstellungen gelangst du hier:
+## Admin-Passwort festlegen  
+Du kannst das Admin-Passwort im Interface deines Servers unter dem Reiter „Einstellungen“ einsehen und ändern.  
+Hier gelangst du zu den Einstellungen:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/erM9WFt2kC86xcM/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/3yB6Zym5LKc8FPr/preview)
 
+<InlineVoucher />
 
-## Mit dem Server verbinden
-Verbinde dich nun mit deinem Server.
-Öffne dafür Assetto Corsa Competizione auf deinem PC.
-Gehe dann auf "Mehrspieler".
-Hier kannst du dann unten rechte auf "Serverliste" klicken.
-In der Suchleiste kannst du den Namen von deinem Server eingeben, so dass du diesen nicht extra suchen musst.
+## Mit dem Server verbinden  
+Verbinde dich jetzt mit deinem Server.  
+Starte Assetto Corsa Competizione auf deinem PC.  
+Gehe dann auf „Multiplayer“.  
+Hier kannst du unten rechts auf „Serverliste“ klicken.  
+In der Suchleiste kannst du den Namen deines Servers eingeben, damit du ihn nicht suchen musst.
 
-ACHTUNG: Es kann rund 30 Minuten dauern, bis der Server gelistet wird.
+ACHTUNG: Es kann etwa 30 Minuten dauern, bis der Server in der Liste erscheint.
 
-## Admin werden
-Soweit du mit dem Server verbunden bist, kannst du die ENTER Taste drücken, um somit was in dem Chat einzugeben.
-Hier kannst du nun "/admin ADMINPW" eintragen.
-Nun bist du Admin auf deinem Server! 
+## Admin werden  
+Wenn du mit dem Server verbunden bist, kannst du ENTER drücken, um etwas im Chat einzugeben.  
+Gib hier jetzt „/admin ADMINPW“ ein.  
+Jetzt bist du Admin auf deinem Server!
 
-## Abschluss
+## Fazit
 
-Glückwunsch, du hast erfolgreich die Administratorberechtigungen konfiguriert. Für weitere Fragen oder Hilfe zögere bitte nicht, unser Support-Team zu kontaktieren, das dir täglich zur Verfügung steht! 🙂
-
+Glückwunsch, du hast die Administratorrechte erfolgreich eingerichtet. Bei weiteren Fragen oder wenn du Hilfe brauchst, steht dir unser Support-Team täglich zur Verfügung! 🙂
 
 <InlineVoucher />

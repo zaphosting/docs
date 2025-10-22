@@ -1,7 +1,7 @@
 ---
 id: valheim-plus
-title: "Valheim: Valheim Plus-Server"
-description: Informationen zu Valheim-Serven von ZAP-Hosting, auf denen die Valheim Plus Mod vorinstalliert ist - ZAP-Hosting.com Dokumentation
+title: "Valheim: Valheim Plus Server"
+description: "Entdecke, wie du dein Valheim-Erlebnis mit Valheim Plus durch verbesserte Features und Server-Upgrades auf das nächste Level bringst → Jetzt mehr erfahren"
 sidebar_label: Valheim Plus
 services:
   - gameserver-valheim
@@ -12,197 +12,197 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 ## Einführung
 
 :::info
-Valheim Plus ist eine clientseitige Modifikation. Sie ermöglicht es einige Änderungen am Spiel vorzunehmen.
+Valheim Plus ist eine clientseitige Modifikation. Sie ermöglicht dir Änderungen am Grundspiel.
 :::
 
 <InlineVoucher />
 
-## Valheim Plus Installation auf dem Client
+## Valheim Plus Installation Client
 
-Zuerst muss der Valheim Ordner auf dem PC geöffnet werden. 
-Dafür bei Steam in der Bibliothek 'Rechtsklick' auf Valheim, bei den Optionen dann auf "***Verwalten***" und dort auf "***Lokale Dateien durchsuchen***".
+Zuerst musst du den Valheim-Ordner auf deinem PC öffnen.  
+Dazu klickst du in deiner Steam-Bibliothek mit der rechten Maustaste auf Valheim, wählst "***Verwalten***" und dann "***Lokale Dateien durchsuchen***".
 
-![](https://screensaver01.zap-hosting.com/index.php/s/DeMbrJjpkNGtAtn/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/oXaiLGR55Z9fH92/preview)
 
-Sobald dieser Ordner geöffnet wurde, muss nun die "***WindowsClient.zip***" heruntergeladen werden. 
-Die "***WindowsClient.zip***" kann [hier](https://github.com/valheimPlus/ValheimPlus/releases) (runterscrollen bis "Assets") heruntergeladen werden.
+Nachdem der Ordner geöffnet ist, musst du die Datei "***WindowsClient.zip***" herunterladen.  
+Die "***WindowsClient.zip***" kannst du [hier](https://github.com/valheimPlus/ValheimPlus/releases) herunterladen (unter "Assets").
 
+![](https://screensaver01.zap-hosting.com/index.php/s/ZDsabTk4eMfQcFM/preview)
 
-![](https://screensaver01.zap-hosting.com/index.php/s/NXdJNgTzZbeNnFn/preview)
+Danach entpackst du den Inhalt der "***WindowsClient.zip***" in den zuvor geöffneten Valheim-Server-Ordner.
 
-Im Anschluss muss nur noch der Inhalt der "***WindowsClient.zip***" in den vorher geöffneten Valheim Server entpackt werden
+![](https://screensaver01.zap-hosting.com/index.php/s/wiTfFmLetr9TmJX/preview)
 
-![](https://screensaver01.zap-hosting.com/index.php/s/x6z7XQnNnWiNjAd/preview)
-
-Dann kann Valheim gestartet werden und die Einrichtung bei dem Client ist beendet.
+Jetzt kannst du Valheim starten und die Einrichtung auf dem Client ist abgeschlossen.
 
 ## Valheim Plus Installation Server
 
-Um das Spiel zu wechseln, öffnen wir zuerst das Spiele-Tab auf unserem Server:
+Um das Spiel zu ändern, öffnest du zuerst den Spiele-Tab in deinem Server-Dashboard:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/yDbAw4mtmH2sdeZ/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/YE2xKnqfrZfWE4J/preview)
 
-Hier suchen wir unter "Verfügbare Spiele" nun nach Valheim Plus und klicken auf den Download Button:
+Hier suchst du jetzt unter "Verfügbare Spiele" nach Valheim Plus und klickst auf den Download-Button:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/HnsjY3k8sywNaKD/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/GF6Na4EPGiNQSDZ/preview)
 
-Danach wird der Server neu installiert. Nach der Neuinstallation hat man die Möglichkeit das Passwort bei "**Configs**" zu entfernen und man kann auf mehr Slots upgraden.
+Anschließend wird der Server neu installiert. Nach Abschluss der Neuinstallation kannst du unter "**Configs**" das Passwort entfernen und hast jetzt die Möglichkeit, auf mehr Slots upzugraden.
 
 ## Slots Upgrade
 
-Um ein Slotupgrade durchführen zu können, muss die "**UP- und Downgrade**" Funktion im Gameserver Dashboard geöffnet werden.
+Um ein Slot-Upgrade durchzuführen, musst du die Funktion "**UP and Downgrade**" im Gameserver-Dashboard öffnen.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/KHjymPXF44QRcte/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/SpAxfojkxY5wmsE/preview)
 
-Bei der Upgrade-Seite wählt man nun die gewünschte Anzahl an Slots aus. 
+Wähle nun auf der UP and Downgrade-Seite die gewünschte Slot-Anzahl aus.
 
 :::info
-Hierbei muss nur der "**Aufpreis**" bezahlt werden, dieser berechnet sich für die noch verbliebene Laufzeit
+Hier musst du nur den "**Aufpreis**" zahlen, der für die verbleibende Laufzeit berechnet wird.
 :::
 
-![](https://screensaver01.zap-hosting.com/index.php/s/xddb28k6LnKSTMZ/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/jyZGRaKAZ7n5GkR/preview)
 
-Um das Upgrade abzuschließen, muss auf der Seite ganz unten jetzt die Bezahlmethode ausgewählt werden.
-Sobald ausgewählt drückt man den "***Upgrade durchführen***" Button und das Upgrade wird durchgeführt
+Um das Upgrade abzuschließen, wähle unten auf der Seite die Zahlungsmethode aus.  
+Nach der Auswahl drückst du den "***Upgrade durchführen***"-Button und das Upgrade wird ausgeführt.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/ZpSSNQRfyAa3znT/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/3eB9FtgLzxBpPgB/preview)
 
 ## Valheim Plus Config
 
-Um die Konfigurationsdatei zu öffnen, muss im Gameserver Interface die "**Configs**" Seite geöffnet werden, bei dieser ist dann die "*ValheimPlus: valheim_plus.cfg*" zu sehen.
-Diese kann über das blaue Icon geöffnet werden, welches sich neben der Konfigurationsdatei befindet.
+Um die Konfigurationsdatei zu öffnen, musst du die Seite "**Configs**" im Gameserver-Interface öffnen, wo du die "*ValheimPlus: valheim_plus.cfg*" findest.  
+Diese kannst du über das blaue Icon neben der Konfigurationsdatei öffnen.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/BL6syWfgWiffBt5/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/grjGPr64RSs69xN/preview)
 
-Eine Liste sämtlicher in der Konfigurationsdatei nutzbaren Befehle:
+Eine Liste aller Befehle, die in der Konfigurationsdatei verwendet werden können:
 
 ### [Player]
 
-|  Befehl   |           Werte          |                  Funktion               |
-| :--------: | :--------------------------: |  :---------------------------------:  |
-|   enabled     |        true / false      |     aktiviert bzw. deaktiviert Änderungen am Spieler    |
-|   baseMegingjordBuff      |        150 (float)      |     erhöht Tragegewicht um 150    |
-|   baseMaximumWeight    |        300 (float)           |     setzt das Maximale Gewicht auf 300 |
-|   baseAutoPickUpRange   |           2 (float)              |  setzt die Reichweite zum aufheben von Items auf 2  |
-|   disableCameraShake   |           true / false               |  aktiviert bzw. deaktiviert Kamera schütteln   |
-|   experienceGainedNotifications   |           true / false               |  aktiviert bzw. deaktiviert die Anzeige für die erhaltene Erfahrungspunkte in der oberen linken Ecke    |
+| Befehl | Werte | Funktion |
+| :--------: | :--------------------------: | :---------------------------------:  |
+| enabled | true / false | aktiviert oder deaktiviert Spieleränderungen |
+| baseMegingjordBuff | 150 (float) | erhöht das Traggewicht um 150 |
+| baseMaximumWeight | 300 (float) | setzt das maximale Gewicht auf 300 |
+| baseAutoPickUpRange | 2 (float) | legt die Reichweite zum Aufnehmen von Items auf 2 fest |
+| disableCameraShake | true / false | aktiviert oder deaktiviert Kamerawackeln |
+| experienceGainedNotifications | true / false | aktiviert oder deaktiviert die Anzeige der erhaltenen Erfahrungspunkte oben links |
 
 ### [Food]
 
-|  Befehl   |           Werte          |                  Funktion               |
-| :--------: | :--------------------------: |  :---------------------------------:  |
-|   enabled     |        true / false      |     aktiviert bzw. deaktiviert Änderungen am Essen   |
-|   foodDuration      |        0-100%      |     verändert die Essensdauer um den gesetzten Prozentwert    |
+| Befehl | Werte | Funktion |
+| :--------: | :--------------------------: | :---------------------------------:  |
+| enabled | true / false | aktiviert oder deaktiviert Änderungen am Essen |
+| foodDuration | 0-100% | ändert die Dauer der Nahrung um den angegebenen Prozentwert |
 
 ### [Fermenter]
 
-|  Befehl   |           Werte          |                  Funktion               |
-| :--------: | :--------------------------: |  :---------------------------------:  |
-|   enabled     |        true / false      |     aktiviert bzw. deaktiviert Änderungen am Fermenter    |
-|   fermenterDuration      |        2400 (float) entspricht 48 im Spiel Stunden     |    setzt die Fertigungsdauer im Fermenter, je geringer der Wert desto schneller ist die Fertigung  |
-|   fermenterItemsProduced      |        6 (integer)     |     setzt die Items welche im Fermenter produzierter werden können    |
+| Befehl | Werte | Funktion |
+| :--------: | :--------------------------: | :---------------------------------:  |
+| enabled | true / false | aktiviert oder deaktiviert Änderungen am Fermenter |
+| fermenterDuration | 2400 (float) entspricht 48 Ingame-Stunden | legt die Produktionszeit im Fermenter fest, je niedriger der Wert, desto schneller die Produktion |
+| fermenterItemsProduced | 6 (integer) | legt die Anzahl der im Fermenter produzierten Items fest |
 
 ### [Furnace]
 
-|  Befehl   |           Werte          |                  Funktion               |
-| :--------: | :--------------------------: |  :---------------------------------:  |
-|   enabled     |        true / false      |     aktiviert bzw. deaktiviert Änderungen am Ofen    |
-|   maximumOre      |        10 (integer)     |    setzt die maximale Anzahl an Erzen im Ofen  |
-|   maximumCoal      |        20 (integer)     |     setzt die maximale Anzahl an Kohle im Ofen   |
-|   productionSpeed      |        30 (float)     |     setzt die Fertigungsdauer im Ofen, je geringer der Wert desto schneller ist die Fertigung   |
-|   coalUsedPerProduct      |        2 (integer)     |     setzt die Anzahl an Kohle welche für ein Produkt verwendet wird   |
+| Befehl | Werte | Funktion |
+| :--------: | :--------------------------: | :---------------------------------:  |
+| enabled | true / false | aktiviert oder deaktiviert Änderungen am Ofen |
+| maximumOre | 10 (integer) | legt die maximale Anzahl an Erzen im Ofen fest |
+| maximumCoal | 20 (integer) | legt die maximale Anzahl an Kohle im Ofen fest |
+| productionSpeed | 30 (float) | legt die Produktionszeit im Ofen fest, je niedriger der Wert, desto schneller die Produktion |
+| coalUsedPerProduct | 2 (integer) | legt die Menge Kohle fest, die pro Produkt verbraucht wird |
 
 ### [Kiln]
 
-|  Befehl   |           Werte          |                  Funktion               |
-| :--------: | :--------------------------: |  :---------------------------------:  |
-|   enabled     |        true / false      |     aktiviert bzw. deaktiviert Änderungen am Kiln    |
-|   productionSpeed      |        15 (float)     |    setzt die Fertigungsdauer im Kiln, je geringer der Wert desto schneller ist die Fertigung   |
-|   maximumWood      |        25 (integer)     |     setzt die maximale Anzahl an Holz im Kiln   |
+| Befehl | Werte | Funktion |
+| :--------: | :--------------------------: | :---------------------------------:  |
+| enabled | true / false | aktiviert oder deaktiviert Änderungen am Brennofen |
+| productionSpeed | 15 (float) | legt die Produktionszeit im Brennofen fest, je niedriger der Wert, desto schneller die Produktion |
+| maximumWood | 25 (integer) | legt die maximale Menge Holz im Brennofen fest |
 
 ### [Items]
 
-|  Befehl   |           Werte          |                  Funktion               |
-| :--------: | :--------------------------: |  :---------------------------------:  |
-|   enabled     |        true / false      |     aktiviert bzw. deaktiviert Änderungen am Items    |
-|   noTeleportPrevention      |        true / false     |    verhindert die Nutzung von Teleport  |
-|   baseItemWeight      |        0 (float)     |     setzt das Gewicht von Items, -50% = weniger Item Gewicht, +50% = mehr Item Gewicht   |
-|   itemStackMultiplier      |        0 (float)     |     setzt die maximale Anzahl an Items welche gestackt werden können, nur positive Werte erlaubt. 50 = 50% mehr maximal Stackbare Items. *Warnung* wenn du dies reduzierst wird alles was du mehr hast gelöscht   |
+| Befehl | Werte | Funktion |
+| :--------: | :--------------------------: | :---------------------------------:  |
+| enabled | true / false | aktiviert oder deaktiviert Änderungen an Items |
+| noTeleportPrevention | true / false | verhindert die Nutzung von Teleport |
+| baseItemWeight | 0 (float) | legt das Gewicht von Items fest, -50% = weniger Itemgewicht, +50% = mehr Itemgewicht |
+| itemStackMultiplier | 0 (float) | legt die maximale Stapelgröße von Items fest, nur positive Werte erlaubt. 50 = 50% mehr maximal stapelbare Items. *Achtung* wenn du diesen Wert verringerst, werden alle Items darüber gelöscht |
 
 ### [Building]
 
-|  Befehl   |           Werte          |                  Funktion               |
-| :--------: | :--------------------------: |  :---------------------------------:  |
-|   enabled     |        true / false      |     aktiviert bzw. deaktiviert Änderungen am Gebäuden    |
-|   noInvalidPlacementRestriction      |        true / false     |    entfert die *ungültige Platzierung* Beschränkung  |
-|   noWeatherDamage      |       true / false      |    entfernt Schaden an Gebäuden welcher durch das Wetter entstehen würde (z.B. Regen)    |
-|   maximumPlacementDistance      |        5 (float)     |    setzt die maximale Platzierung Distanz    |
+| Befehl | Werte | Funktion |
+| :--------: | :--------------------------: | :---------------------------------:  |
+| enabled | true / false | aktiviert oder deaktiviert Änderungen am Bauen |
+| noInvalidPlacementRestriction | true / false | entfernt die *ungültige Platzierung*-Beschränkung |
+| noWeatherDamage | true / false | entfernt Wetterschäden an Gebäuden (z.B. durch Regen) |
+| maximumPlacementDistance | 5 (float) | legt die maximale Platzierungsdistanz fest |
 
 ### [Beehive]
 
-|  Befehl   |           Werte          |                  Funktion               |
-| :--------: | :--------------------------: |  :---------------------------------:  |
-|   enabled     |        true / false      |     aktiviert bzw. deaktiviert Änderungen am Beehive    |
-|   maximumHoneyPerBeehive      |        4 (integer)     |    setzt die maximale Anzahl an Honig aus dem Beehive  |
-|   honeyProductionSpeed      |       1200 (float)  entspricht 24 im Spiel Stunden    |   setzt die Fertigungsdauer von Honig, je geringer der Wert desto schneller ist die Fertigung  |
+| Befehl | Werte | Funktion |
+| :--------: | :--------------------------: | :---------------------------------:  |
+| enabled | true / false | aktiviert oder deaktiviert Änderungen am Bienenstock |
+| maximumHoneyPerBeehive | 4 (integer) | legt die maximale Honigmenge pro Bienenstock fest |
+| honeyProductionSpeed | 1200 (float) entspricht 24 Ingame-Stunden | legt die Produktionszeit für Honig fest, je niedriger der Wert, desto schneller die Produktion |
 
 ### [Server]
 
-|  Befehl   |           Werte          |                  Funktion               |
-| :--------: | :--------------------------: |  :---------------------------------:  |
-|   enabled     |      true / false      |     aktiviert bzw. deaktiviert Änderungen am Server    |
-|   maxPlayers      |      10 (int)     |    setzt die Slots, wird durch den bestellten Wert bei UP- und Downgrades gesetzt  |
-|   disableServerPassword      |     true / false      |    entfernt das Serverpasswort vom Server   |
-|   enforceConfiguration      |      true / false     |    wenn aktiviert dürfen nur Spieler mit gleicher Konfiguration auf den Server joinen    |
-|   enforceMod      |      true / false     |    wenn aktiviert dürfen nur Spieler mit gleicher Mod auf den Server joinen    |
+| Befehl | Werte | Funktion |
+| :--------: | :--------------------------: | :---------------------------------:  |
+| enabled | true / false | aktiviert oder deaktiviert Änderungen am Server |
+| maxPlayers | 10 (int) | legt die Slots fest, wird durch den bestellten Wert bei UP- und Downgrades gesetzt |
+| disableServerPassword | true / false | entfernt das Serverpasswort vom Server |
+| enforceConfiguration | true / false | wenn aktiviert, dürfen nur Spieler mit derselben Konfiguration dem Server beitreten |
+| enforceMod | true / false | wenn aktiviert, dürfen nur Spieler mit derselben Mod dem Server beitreten |
 
 ### [Map]
 
-|  Befehl   |           Werte          |                  Funktion               |
-| :--------: | :--------------------------: |  :---------------------------------:  |
-|   enabled     |      true / false      |     aktiviert bzw. deaktiviert Änderungen an der Map    |
-|   exploreRadius      |      100 (float)     |    setzt den Radius um jeden Spieler, bei welchem die Map aufgedeckt wird  |
-|   shareMapProgression      |     true / false      |    wenn aktiviert wird für jeden Spieler das Aufdecken der Map geteilt, nur Spieler die Sichtbar gestellt sind tragen dazu bei  |
+| Befehl | Werte | Funktion |
+| :--------: | :--------------------------: | :---------------------------------:  |
+| enabled | true / false | aktiviert oder deaktiviert Änderungen an der Karte |
+| exploreRadius | 100 (float) | legt den Radius um jeden Spieler fest, in dem die Karte aufgedeckt wird |
+| shareMapProgression | true / false | wenn aktiviert, wird das Aufdecken der Karte für alle Spieler geteilt, nur sichtbare Spieler tragen dazu bei |
 
 ### [Hotkeys]
 
-Eine Liste der möglichen Tasten wäre [hier](https://docs.unity3d.com/ScriptReference/KeyCode.html) zu sehen.
+Eine Liste möglicher Steuerungen findest du [hier](https://docs.unity3d.com/ScriptReference/KeyCode.html).
 
-|  Befehl   |           Werte          |                  Funktion               |
-| :--------: | :--------------------------: |  :---------------------------------:  |
-|   rollForwards     |      F9      |     rolle nach vorne    |
-|   rollBackwards      |      F10     |    rolle nach hinten  |
-|   enterAdvancedBuildingMode      |     F1      |    friert Objekte ein und erlaubt die Nutzung von der erweiterten Steuerung   |
-|   exitAdvancedBuildingMode      |      F3     |    stoppt den Modus der erweiterten Steuerung und entfriert die Objekte    |
-|   enterAdvancedEditingMode      |      Keypad0     |    das angeschaute Objekt wird ausgewählt und mit AEM modifiziert    |
-|   confirmPlacementOfAdvancedEditingMode      |     KeypadEnter      |    bestätigt die Änderung aller ausgewählten und modifizierten Objekte   |
-|   resetAdvancedEditingMode      |      F7     |    setzt die Position und Rotation der ausgewählten Objekte mit AEM zurück    |
-|   abortAndExitAdvancedEditingMode      |      F8     |    setzt die Position und Rotation der ausgewählten Objekte mit AEM zurück und beendet den AEM Modus  |
+| Befehl | Werte | Funktion |
+| :--------: | :--------------------------: | :---------------------------------:  |
+| rollForwards | F9 | vorwärts rollen |
+| rollBackwards | F10 | rückwärts rollen |
+| enterAdvancedBuildingMode | F1 | friert Objekte ein und erlaubt erweiterte Steuerung |
+| exitAdvancedBuildingMode | F3 | beendet den erweiterten Steuerungsmodus und taut Objekte auf |
+| enterAdvancedEditingMode | Keypad0 | das betrachtete Objekt wird ausgewählt und mit AEM bearbeitet |
+| confirmPlacementOfAdvancedEditingMode | KeypadEnter | bestätigt die Änderung aller ausgewählten und bearbeiteten Objekte |
+| resetAdvancedEditingMode | F7 | setzt Position und Rotation der ausgewählten Objekte mit AEM zurück |
+| abortAndExitAdvancedEditingMode | F8 | setzt Position und Rotation der ausgewählten Objekte mit AEM zurück und verlässt den AEM-Modus |
 
 ### [AdvancedBuildingMode]
 
-|  Befehl   |           Werte          |                  Funktion               |
-| :--------: | :--------------------------: |  :---------------------------------:  |
-|   enabled     |      true / false      |     aktiviert bzw. deaktiviert Änderungen an dem erweiterten Baumodus    |
+| Befehl | Werte | Funktion |
+| :--------: | :--------------------------: | :---------------------------------:  |
+| enabled | true / false | aktiviert oder deaktiviert Änderungen am erweiterten Baumodus |
 
 ### [AdvancedEditingMode]
 
-|  Befehl   |           Werte          |                  Funktion               |
-| :--------: | :--------------------------: |  :---------------------------------:  |
-|   enabled     |      true / false      |     aktiviert bzw. deaktiviert Änderungen an dem  erweiterter Bearbeitungsmodus |
+| Befehl | Werte | Funktion |
+| :--------: | :--------------------------: | :---------------------------------:  |
+| enabled | true / false | aktiviert oder deaktiviert Änderungen am erweiterten Bearbeitungsmodus |
 
 ### [Stamina]
 
-|  Befehl   |           Werte          |                  Funktion               |
-| :--------: | :--------------------------: |  :---------------------------------:  |
-|   enabled     |      true / false      |     aktiviert bzw. deaktiviert Änderungen an der Ausdauer    |
-|   dodgeStaminaUsage      |     10 (float)      |   setzt die Anzahl an Ausdauer für das Ausweichen   |
-|   encumberedStaminaDrain      |     10 (float)      |   setzt die Anzahl an Ausdauer für den Ausdauerentzug bei Belastung  |
-|   sneakStaminaDrain      |     5 (float)      |   setzt die Anzahl an Ausdauer für den Ausdauerentzug  beim Schleichen  |
-|   runStaminaDrain      |     10 (float)      |   setzt die Anzahl an Ausdauer für den Ausdauerentzug beim Rennen |
-|   staminaRegenDelay      |      1 (float)     |   setzt die Verzögerung für das Regenerieren von Ausdauer  |
-|   staminaRegen      |      5 (float)     |   setzt die Anzahl an Ausdauer welche regeneriert wird  |
-|   swimStaminaDrain      |     5 (float)      |   setzt die Anzahl an Ausdauer für den Ausdauerentzug beim Schwimmen   |
-|   jumpStaminaUsage      |      10 (float)     |   setzt die Anzahl an Ausdauer für den Ausdauerentzug beim Springen   |
+| Befehl | Werte | Funktion |
+| :--------: | :--------------------------: | :---------------------------------:  |
+| enabled | true / false | aktiviert oder deaktiviert Änderungen an der Ausdauer |
+| dodgeStaminaUsage | 10 (float) | legt die Ausdauer fest, die für Ausweichmanöver verbraucht wird |
+| encumberedStaminaDrain | 10 (float) | legt die Ausdauer fest, die beim Tragen von Last verbraucht wird |
+| sneakStaminaDrain | 5 (float) | legt die Ausdauer fest, die beim Schleichen verbraucht wird |
+| runStaminaDrain | 10 (float) | legt die Ausdauer fest, die beim Laufen verbraucht wird |
+| staminaRainDelay | 1 (float) | legt die Verzögerung für die Ausdauerregeneration fest |
+| staminaRain | 5 (float) | legt die Menge der regenerierten Ausdauer fest |
+| swimStaminaDrain | 5 (float) | legt die Ausdauer fest, die beim Schwimmen verbraucht wird |
+| jumpStaminaUsage | 10 (float) | legt die Ausdauer fest, die beim Springen verbraucht wird |
+
 
 <InlineVoucher />

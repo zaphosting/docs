@@ -1,8 +1,8 @@
 ---
 id: vserver-windows-mythofempires
-title: "vServer: Myth of Empires Dedicated Server Einrichtung"
-description: Informationen zum Einrichten eines Myth of Empires Dedicated Servers auf einem vServer - ZAP-Hosting.com Dokumentation
-sidebar_label: Myth of Empires
+title: "VPS: Myth of Empires Dedicated Server Windows Setup"
+description: "Entdecke, wie du schnell und einfach einen Myth of Empires Dedicated Server auf deinem Windows VPS einrichtest → Jetzt mehr erfahren"
+sidebar_label: MOE Dedicated Server Setup
 services:
   - vserver
 ---
@@ -11,80 +11,77 @@ import YouTube from '@site/src/components/YouTube/YouTube';
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
-Hast du einen Windows vServer und möchtest darauf einen Myth of Empires Dedicated Server installieren? Dann bist du hier genau richtig. In dieser Anleitung erklären wir dir Schritt für Schritt, wie du diesen Dienst auf deinem Server installierst.
-
-<YouTube videoId="ir3QNvwu7WY" imageSrc="https://screensaver01.zap-hosting.com/index.php/s/8ZC3n4f2tjzmZ56/preview" title="Wie man Myth of Empires Server auf Windows vServer einrichtet!" description="Hast du das Gefühl, dass du etwas besser verstehst, wenn du es in Aktion siehst? Wir haben etwas für dich! Tauche ab in unser Video, welches alles für dich zusammenfasst. Egal, ob du es eilig hast oder einfach nur Informationen auf möglichst verständliche Art und Weise aufnehmen möchtest!"/>
-
+Du hast einen Windows VPS und möchtest darauf einen MOE Dedicated Server installieren? Dann bist du hier genau richtig. In dieser Anleitung erklären wir dir Schritt für Schritt, wie du diesen Service auf deinem Server installierst.
+<YouTube videoId="ir3QNvwu7WY" imageSrc="https://screensaver01.zap-hosting.com/index.php/s/4WnZSyGqLyN7pmG/preview" title="How To Setup Myth Of Empires Server on Windows VPS!" description="Du verstehst besser, wenn du Dinge in Aktion siehst? Kein Problem! Unser Video erklärt dir alles ganz genau. Egal ob du es eilig hast oder einfach lieber auf die spannendste Art lernst!"/>
 <InlineVoucher />
 
 ## Vorbereitung
+Verbinde dich zunächst per Remote Desktop (RDP) mit deinem VPS. Falls du dabei Hilfe brauchst, nutze unsere [Erstzugang (RDP)](vserver-windows-userdp.md) Anleitung.
 
-Verbinde dich zunächst mit deinem vServer über Remote Desktop (RDP). Verwende unsere Anleitung [Erstzugang (RDP)](vserver-windows-userdp.md), wenn du Hilfe benötigst.
+Sobald du auf deinem Server bist, musst du **SteamCMD** einrichten, um die nötigen Dedicated Server Dateien herunterladen zu können. SteamCMD ist die **Kommandozeilen-Version (CLI)** des Steam-Clients und das Tool, mit dem du ganz einfach verschiedene Steam Workshop- und Dedicated Server Dateien runterladen kannst. Lade [SteamCMD von der offiziellen Valve-Webseite](https://developer.valvesoftware.com/wiki/SteamCMD) oder direkt [hier](https://steamcdn-a.akamaihd.net/client/installer/steamcmd.zip) herunter.
 
-Sobald du auf deinen Server zugegriffen hast, musst du **SteamCMD** einrichten, damit du die notwendigen Dateien für den dedizierten Server herunterladen kannst. SteamCMD ist die **Befehlszeilenversion (CLI)** des Steam-Clients und das Tool, mit dem du ganz einfach eine Reihe von Steam-Workshop- und Dedicated Server-Dateien herunterladen kannst. Lade [SteamCMD von der offiziellen Valve-Website](https://developer.valvesoftware.com/wiki/SteamCMD) oder direkt [hier](https://steamcdn-a.akamaihd.net/client/installer/steamcmd.zip) herunter.
+Erstelle irgendwo auf deinem Server einen neuen Ordner, in diesem Beispiel nennen wir ihn `steamcmd`. Gehe in deinen Downloads-Ordner, finde die gerade heruntergeladene **steamcmd.zip** Datei und verschiebe sie in deinen `steamcmd` Ordner. Entpacke die Datei jetzt, indem du mit der rechten Maustaste darauf klickst und die Windows-Entpackfunktion nutzt oder ein Programm wie 7zip oder WinRAR. Am Ende solltest du eine **steamcmd.exe** Datei entpackt haben.
 
-Erstelle irgendwo auf deinem Server einen neuen Ordner, in diesem Szenario nennen wir ihn `steamcmd`. Gehe zu deinem Download-Ordner, suche die Datei **steamcmd.zip**, die du gerade heruntergeladen hast, und lege sie in deinem Ordner `steamcmd` ab. Nun musst du die Datei entpacken, indem du mit der rechten Maustaste klickst und die Entpackungsfunktion von Windows oder ein anderes Programm wie .7zip oder Winrar verwendest. Das Ergebnis sollte eine **steamcmd.exe** Datei sein, die entpackt wurde.
-
-Führe einfach **steamcmd.exe** aus und warte, bis der Installationsprozess vollständig abgeschlossen ist.
+Starte einfach **steamcmd.exe** und warte, bis der Installationsprozess komplett abgeschlossen ist.
 
 ![](https://github.com/zaphosting/docs/assets/42719082/ffb8e8a1-26e3-4d16-9baf-938e17ec1613)
 
-Sobald die Meldung **Loading Steam API.... OK** angezeigt wird, ist der Vorgang erfolgreich abgeschlossen und du kannst mit der Installation des MOE Dedicated Servers im folgenden Abschnitt fortfahren.
+Sobald die Meldung **Loading Steam API.... OK** erscheint, ist der Prozess erfolgreich abgeschlossen und du kannst mit der Installation des MOE Dedicated Servers im nächsten Abschnitt starten.
 
 ## Installation
 
-Nach der Installation solltest du in der Lage sein, Befehle in der **steamcmd.exe** Eingabeaufforderung auszuführen, die du zuvor ausgeführt hast. Bevor du etwas tun kannst, musst du dich mit dem Benutzer **anonymous** anmelden, indem du den Befehl `login anonymous`
+Nach der Installation solltest du im **steamcmd.exe** Kommandozeilenfenster Befehle ausführen können. Melde dich zuerst mit dem Benutzer **anonymous** an, indem du folgenden Befehl eingibst: `login anonymous`
 
-Sobald du eingeloggt bist, kannst du mit dem Herunterladen der Dateien beginnen. 
+Sobald du eingeloggt bist, kannst du mit dem Download der Dateien beginnen.
 
 :::tip
-Optional: Du kannst dein bevorzugtes Installationsverzeichnis festlegen, indem du den Befehl `force_install_dir [path]` verwendest und dabei `[path]` durch den Pfad ersetzst, den du für deinen Server verwenden möchtest. Zum Beispiel: 
+Optional: Du kannst dein bevorzugtes Installationsverzeichnis mit dem Befehl `force_install_dir [Pfad]` festlegen, wobei du `[Pfad]` durch den gewünschten Pfad für deinen Server ersetzt. Beispiel: 
 ```
 force_install_dir C:\MOE-Server
 ```
 :::
-
-Führe nun den Befehl `app_update 1794810` aus, der den Download startet. Die App-ID **1794810** ist die **MOE**-Anwendung.
+ 
+Starte nun den Download mit dem Befehl `app_update 1794810`. Die App-ID **1794810** steht für die **MOE** Anwendung.
 
 ![](https://github.com/zaphosting/docs/assets/42719082/29931eec-fd19-4806-88dc-69e585e42370)
 
 :::info
-Bitte unterbrich den Vorgang nicht, bevor er abgeschlossen ist, um Fehler zu vermeiden. Es kann einen Moment dauern, aber es lohnt sich, geduldig zu sein! :)
+Bitte unterbrich den Prozess nicht vorzeitig, um Fehler zu vermeiden. Es kann einen Moment dauern, aber Geduld zahlt sich aus! :)
 :::
 
-Sobald der Vorgang erfolgreich abgeschlossen ist, gehst du in das Download-Verzeichnis, in dem alle Serverdateien heruntergeladen wurden. 
+Nach erfolgreichem Download öffne das Verzeichnis, in das alle Serverdateien geladen wurden.
 
 ### Zugriff auf das PrivateServerTool
 
-Anders als bei typischen SteamCMD-Installationen musst du bei MOE einen Ordner aus deiner lokalen Steam-Spielinstallation holen, um den Server unter Windows ausführen zu können.
+Im Gegensatz zu typischen SteamCMD-Installationen benötigt MOE, dass du einen Ordner aus deiner lokalen Steam-Spielinstallation kopierst, um den Server unter Windows starten zu können.
 
-Öffne Steam auf deinem System, klicke mit der rechten Maustaste auf dein **Myth of Empires** Spiel und wähle **Lokale Dateien durchsuchen**, während du den Mauszeiger über den Abschnitt **Verwalten** bewegst.
+Öffne Steam auf deinem System, klicke mit der rechten Maustaste auf dein **Myth of Empires** Spiel und wähle **Lokale Dateien durchsuchen** im Bereich **Verwalten**.
 
-![Bild](https://screensaver01.zap-hosting.com/index.php/s/Cmj325wLSWgNGif/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/Cmj325wLSWgNGif/preview)
 
-In dem Stammordner, der sich öffnet, findest du den Ordner **PrivateServerTool**. Das ist der Ordner, den du auf deinen Server kopieren musst. Das kannst du ganz einfach tun, indem du `CTRL+C` zum Kopieren auf deinem lokalen PC und `CTRL+V` zum Einfügen auf deinem Windows Server über RDP benutzt. Achte darauf, dass du sie in das Stammverzeichnis deines Servers einfügst.
+Im geöffneten Hauptordner findest du den Ordner **PrivateServerTool**. Diesen Ordner musst du auf deinen Server kopieren. Das geht ganz einfach mit `STRG+C` auf deinem lokalen PC und `STRG+V` auf deinem Windows Server via RDP. Achte darauf, ihn im Hauptverzeichnis deines Dedicated Servers einzufügen.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/sXdqCYW2QnKrReN/preview)
 
-Als Nächstes gehst du zum folgenden Abschnitt, um deinen Server zu portforwarden und zu konfigurieren.
+Weiter geht’s im nächsten Abschnitt mit dem Portforwarding und der Serverkonfiguration.
 
-### Port Weiterleitung deines Servers
+### Portfreigabe für deinen Server
 
-Um sicherzustellen, dass dein Server für die Öffentlichkeit zugänglich ist, musst du die Portweiterleitungsregeln für die Ports ändern, die der dedizierte Serverprozess verwendet. Du kannst dies entweder direkt über Powershell-Befehle tun, was einfacher ist, oder regelmäßig über die Windows Defender Firewall-Seite.
+Damit dein Server öffentlich erreichbar ist, musst du Portfreigabe-Regeln für die Ports einrichten, die der Dedicated Server nutzt. Das kannst du entweder direkt über Powershell-Befehle machen, was einfacher ist, oder klassisch über die Windows Defender Firewall.
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
 <Tabs>
-<TabItem value="powershell" label="Über Powershell" default>
+<TabItem value="powershell" label="Via Powershell" default>
 
-Öffne dein Windows-Suchfeld und suche nach **Powershell**. Achte darauf, dass du mit der rechten Maustaste klickst und **Als Administrator ausführen** wählst, damit die Berechtigungen zugänglich sind und alles richtig funktioniert.
+Öffne die Windows-Suche und suche nach **Powershell**. Klicke mit der rechten Maustaste und wähle **Als Administrator ausführen**, damit die nötigen Berechtigungen vorhanden sind und alles reibungslos funktioniert.
 
 :::info
-Vergewissere dich, dass du die Powershell im Administratormodus ausführst, sonst werden die Einstellungen möglicherweise nicht korrekt übernommen.
+Stelle sicher, dass du Powershell im Administrator-Modus startest, sonst werden die Einstellungen nicht korrekt übernommen.
 :::
 
-Als nächstes kopierst du die folgenden Befehle und fügst sie in deine Powershell-Eingabeaufforderung ein:
+Füge nun folgende Befehle in die Powershell ein:
 ```
 New-NetFirewallRule -DisplayName "Myth of Empires Server" -Direction Inbound -LocalPort 11888,12888 -Protocol TCP -Action Allow
 New-NetFirewallRule -DisplayName "Myth of Empires Server" -Direction Inbound -LocalPort 11888,12888 -Protocol UDP -Action Allow
@@ -92,64 +89,62 @@ New-NetFirewallRule -DisplayName "Myth of Empires Server" -Direction Outbound -L
 New-NetFirewallRule -DisplayName "Myth of Empires Server" -Direction Outbound -LocalPort 11888,12888 -Protocol UDP -Action Allow
 ```
 
-Mit diesen Befehlen werden automatisch Firewall-Regeln erstellt, die notwendig sind, damit dein MOE-Server für die Öffentlichkeit zugänglich ist.
+Diese Befehle erstellen automatisch die Firewall-Regeln, die dein MOE Server braucht, um öffentlich erreichbar zu sein.
 
 </TabItem>
 
-<TabItem value="windefender" label="Über Windows Defender">
+<TabItem value="windefender" label="Via Windows Defender">
 
-Verwende die Suchfunktion von Windows, um die **Windows Firewall-Einstellungen mit erweiterter Sicherheit** zu öffnen. Es kann sein, dass du auf **Erweiterte Einstellungen** drücken musst, um das entsprechende Fenster zu öffnen, wenn du die Basisseite der Windows Firewall öffnest.
+Öffne über die Windows-Suche die **Windows-Firewall mit erweiterter Sicherheit**. Falls du nur die Basis-Firewall öffnest, klicke auf **Erweiterte Einstellungen**, um das richtige Fenster zu öffnen.
 
 ![](https://github.com/zaphosting/docs/assets/42719082/5fb9f943-7e51-4d8f-9df4-2f5ff60857d3)
 
-Du musst neue Regeln für deinen MOE-Server erstellen. Klicke dazu auf die ein- und ausgehenden Regeln wie unten beschrieben und füge sie für die folgenden Protokolle und Ports hinzu:
+Erstelle neue Regeln für deinen MOE Server. Klicke dazu auf eingehende und ausgehende Regeln und füge folgende Protokolle und Ports hinzu:
 - TCP eingehend und ausgehend: 11888, 12888
 - UDP eingehend und ausgehend: 11888, 12888
 
-Bitte benutze unsere [Portweiterleitung (Firewall)](vserver-windows-port.md) Anleitung, wenn du weitere Hilfe benötigst.
+Falls du weitere Hilfe brauchst, schau in unsere [Portfreigabe (Firewall)](vserver-windows-port.md) Anleitung.
 
 </TabItem>
 </Tabs>
 
-Gehe zum folgenden Abschnitt, bevor du auf deinen Server zugreifst, um deine Konfigurationsdatei zu erstellen und die `.bat`-Datei zu starten.
+Bevor du deinen Server startest, geht’s jetzt an die Konfiguration.
 
 ## Konfiguration
 
-Mit dem Server-Tool, das sich in dem Ordner befindet, den du zuvor aus deinen Spieldateien kopiert hast, erstellst du nun deine Konfigurationsdatei und die Start-.bat-Datei, mit der du deinen Server starten wirst.
+Jetzt nutzt du das Server-Tool aus dem Ordner, den du vorhin aus deinen Spieldateien kopiert hast, um deine Konfigurationsdatei und die Start-`.bat` Datei zu erstellen.
 
-Navigiere in das folgende Verzeichnis (den Ordner, den du zuvor kopiert hast):
+Navigiere in diesen Ordner (den du vorher kopiert hast):
 ```
 ../MOE/PrivateServerTool
 ```
 
-Führe in diesem Ordner die Datei **PrivateServerTool.exe** aus. Mit diesem Tool kannst du die Serveroptionen nach deinen Wünschen konfigurieren, einschließlich Mods, Spieleinstellungen und vieles mehr.
+Starte dort die **PrivateServerTool.exe**. Mit diesem Tool kannst du die Serveroptionen nach deinen Wünschen einstellen, inklusive Mods, Spieleinstellungen und mehr.
 
-Wir empfehlen, zumindest die grundlegenden Parameter wie den **Servernamen** einzurichten, bevor du fortfährst.
+Wir empfehlen, zumindest die Grundparameter wie **Servername** zu setzen, bevor du weitermachst.
 
-Wenn du fertig bist, gehst du einfach auf die Registerkarte **Startkonsole** im Tool und drückst den Button **Konfiguration speichern** und anschließend den Button **Server starten**. Dadurch wird die Datei `StartPrivateServer.bat` erstellt, mit der du deinen Server starten kannst.
+Wenn du fertig bist, wechsle zum Tab **Start Console** im Tool, klicke auf **Save Config** und danach auf **Start Server**. Dadurch wird die `StartPrivateServer.bat` Datei erzeugt, mit der du deinen Server startest.
 
-![Bild](https://screensaver01.zap-hosting.com/index.php/s/TtcAbW6ZEWNyjXS/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/TtcAbW6ZEWNyjXS/preview)
 
-Wir empfehlen, eine Verknüpfung zu deiner Datei `StartPrivateServer.bat` zu erstellen, indem du mit der rechten Maustaste klickst und **Verknüpfung erstellen** wählst, um den Start zu erleichtern.
+Wir empfehlen, eine Verknüpfung zur `StartPrivateServer.bat` Datei zu erstellen, indem du mit der rechten Maustaste darauf klickst und **Verknüpfung erstellen** wählst – so kannst du den Server später leichter starten.
 
 :::note
-Möglicherweise musst du den Pfad zu deinem Spielordner in der automatisch erstellten Datei `StartPrivateServer.bat` ändern. Öffne die Datei einfach mit einem Programm wie Notepad und stelle sicher, dass der Pfad am Anfang mit dem Pfad übereinstimmt, in dem sich das Spiel befindet. 
+Möglicherweise musst du den Pfad zu deinem Spielordner in der automatisch generierten `StartPrivateServer.bat` Datei anpassen. Öffne die Datei einfach mit einem Editor wie Notepad und überprüfe, ob der Pfad am Anfang der Datei mit dem Pfad deines Servers übereinstimmt.
 
-Wenn der Pfad nicht stimmt, kannst du im Stammverzeichnis deines dedizierten MOE-Server-Ordners auf die obere Pfadleiste doppelklicken und ihn an der richtigen Stelle einfügen.
+Falls der Pfad nicht stimmt, kannst du im Hauptordner deines MOE Servers oben in der Adressleiste doppelklicken, um den aktuellen Pfad zu kopieren, und diesen dann an der passenden Stelle in der Datei einfügen.
 :::
 
-## Starten und Verbinden mit deinem Server
+## Server starten & verbinden
 
-Jetzt ist es an der Zeit, deinen Server zu starten. Gehe in das Verzeichnis deines Myth of Empires-Servers und führe **StartPrivateServer.bat** (oder die Verknüpfung, wenn du eine erstellt hast) aus, um den Startvorgang zu beginnen. Dadurch wird die Konsole des Servers in einer Eingabeaufforderung geöffnet und der Startvorgang beginnt. Jetzt kannst du dich direkt mit deinem Server verbinden, indem du auf die Registerkarte **Benutzerdefinierter Server** gehst und über das Suchfeld nach deinem Server suchst.
+Jetzt kannst du deinen Server starten. Gehe in das Verzeichnis deines Myth of Empires Servers und starte **StartPrivateServer.bat** (oder die Verknüpfung, falls du eine erstellt hast). Das öffnet die Server-Konsole in einem Kommandozeilenfenster und startet den Server. Du kannst dich jetzt direkt mit deinem Server verbinden, indem du im Spiel auf den Tab **Custom Server** gehst und deinen Server über die Suchfunktion findest.
 
 :::tip
-Wenn du Probleme hast, dich mit dem Server zu verbinden, öffne die Datei "StartPrivateServer.bat" mit einem Programm wie z. B. Notepad und vergewissere dich, dass die beiden IP-Parameter mit der IP deines Windows-Servers übereinstimmen. Das sollte von dem verwendeten Tool automatisch ausgefüllt werden, aber es ist ein guter Schritt zur Fehlerbehebung.
+Falls du Verbindungsprobleme hast, öffne deine `StartPrivateServer.bat` Datei mit einem Editor wie Notepad und überprüfe, ob die beiden IP-Parameter mit der IP deines Windows Servers übereinstimmen. Das sollte eigentlich automatisch vom Tool gesetzt werden, ist aber ein guter Troubleshooting-Schritt.
 :::
 
-## Abschluss
+## Fazit
 
-Glückwunsch, du hast den Myth of Empires Server erfolgreich installiert und konfiguriert! Solltest du noch weitere Fragen oder Probleme haben, dann wende dich gerne an unser Support-Team, welches dir jeden Tag zur Verfügung steht!
-
-
+Glückwunsch, du hast deinen Myth of Empires Server erfolgreich auf deinem VPS installiert und konfiguriert! Falls du noch Fragen oder Probleme hast, steht dir unser Support-Team täglich zur Verfügung und hilft dir gerne weiter!
 
 <InlineVoucher />

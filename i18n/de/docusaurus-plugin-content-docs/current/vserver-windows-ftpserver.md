@@ -1,8 +1,8 @@
 ---
 id: vserver-windows-ftpserver
-title: "vServer: Installation von FTP Server"
-description: Informationen, wie du einen FTP Server auf deinen Windows vServer von ZAP-Hosting installieren und einrichten kannst - ZAP-Hosting.com Dokumenationen
-sidebar_label: FTP Server installieren
+title: "VPS: Installation von FTP"
+description: "Entdecke, wie du einen FileZilla FTP-Server auf Windows einrichtest und verwaltest – für sichere Dateiübertragungen und Benutzerzugriffssteuerung → Jetzt mehr erfahren"
+sidebar_label: FTP installieren
 services:
   - vserver
 ---
@@ -11,90 +11,95 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
 
-Das **FTP (File Transfer Protocol)** ist ein Netzwerkprotokoll, das dazu dient, Dateien über ein TCP/IP-Netzwerk zu übertragen. Das Protokoll wurde entwickelt, um den einfachen Austausch von Dateien zwischen Systemen zu ermöglichen.
+Das **FTP (File Transfer Protocol)** ist ein Netzwerkprotokoll, das zum Übertragen von Dateien über ein TCP/IP-Netzwerk verwendet wird. Das Protokoll wurde entwickelt, um den einfachen Austausch von Dateien zwischen Systemen zu ermöglichen.
 
-Mit dem **FileZilla Server** kann solch ein FTP-Server auf einem Windows-Betriebssystem eingerichtet werden. Der FileZilla Server ist dabei einfach zu installieren und zu konfigurieren und bietet zahlreiche Funktionen wie die Möglichkeit, Benutzerkonten einzurichten, Zugriffsrechte zu verwalten und Dateien zu übertragen.
-
+Mit dem **FileZilla Server** kannst du so einen FTP-Server auf einem Windows-Betriebssystem einrichten. Der FileZilla Server ist einfach zu installieren und zu konfigurieren und bietet zahlreiche Features wie die Möglichkeit, Benutzerkonten anzulegen, Zugriffsrechte zu verwalten und Dateien zu übertragen.
 <InlineVoucher />
+
 
 ## Vorbereitung
 
 ### Download
 
-Das Aufsetzen eines FTP Servers setzt entsprechende Software voraus. Für das Windows Server Betriebssystem kann die FileZilla Server Software als mögliche Lösung eingesetzt werden. Die Option zum Herunterladen findest du hier: [FileZilla Server](https://filezilla-project.org/download.php?type=server)
+Für die Einrichtung eines FTP-Servers benötigst du passende Software. Die FileZilla Server Software ist eine mögliche Lösung für das Windows Server Betriebssystem. Den Download findest du hier: [FileZilla Server](https://filezilla-project.org/download.php?type=server).
 
 
 
 ### Installation
 
-Nachdem die Setup Datei heruntergeladen wurde, musst du diese ausführen. Klicke dafür auf die zuvor heruntergeladene Datei. Es sollte sich folgendes Fenster öffnen: 
+Nachdem du die Setup-Datei heruntergeladen hast, musst du sie ausführen. Klicke dazu auf die zuvor heruntergeladene Datei. Es sollte sich folgendes Fenster öffnen: ![](https://screensaver01.zap-hosting.com/index.php/s/Qi97fYbyoKDdsi3/preview)
 
-![](https://screensaver01.zap-hosting.com/index.php/s/TBDCXZ5PKXC4Df2/preview)
 
-Dort kannst du nun die zu installierenden Pakete auswählen. Es genügt, wenn du dort die bereits ausgewählten Pakete installierst, daher klickst du einfach auf **Next** und wählst im Anschluss den Installationspfad aus: 
 
-![](https://screensaver01.zap-hosting.com/index.php/s/A8XWDrMsNwqsWpW/preview)
+Hier kannst du die zu installierenden Pakete auswählen. Es reicht jedoch, wenn du die vorgewählten Pakete installierst, also klickst du einfach auf **Weiter** und wählst dann den Installationspfad:
 
-In diesem Beispiel wird der Filezilla Server unter **C:\Program Files (x86)\FileZilla Server** installiert. Du kannst jedoch auch einen eigenen Pfad wählen. Nach der Auswahl des Pfads muss indessen noch bestimmt werden, in welcher Form der FTP-Server installiert und gestartet werden soll. Des Weiteren kann der Port bestimmt werden und es muss dann noch ein Administrator Passwort bestimmt werden. 
+![](https://screensaver01.zap-hosting.com/index.php/s/fsMiKt9Zjas4Rme/preview)
 
-![](https://screensaver01.zap-hosting.com/index.php/s/dHnsX8oG6DG5c2s/preview)
+In diesem Beispiel wird der FileZilla Server unter **C:\Program Files (x86)\FileZilla Server** installiert. Du kannst aber auch einen eigenen Pfad wählen. Nach der Pfadauswahl musst du festlegen, in welcher Form der FTP-Server installiert und gestartet werden soll. Außerdem kannst du den Port bestimmen und ein Administrator-Passwort festlegen.
 
-Anschließend klickst du auch dort auf **Next** und im darauf folgenden Schritt ebenfalls. Zum Abschluss klickst du auf **Install** womit du die Installation startest. Jetzt öffnet sich die Verwaltungsoberfläche des FileZilla FTP-Servers. Klicke dort auf den Button **Connect to FileZilla FTP Server**. 
 
-Es sollte sich ein Fenster öffnen, wo du die Felder Host, Port und Password siehst. Die ersten beiden Felder kannst du unverändert lassen und gibst dein definiertes Administratorpasswort vom FTP-Server an. Im Anschluss stellst du die Verbindung her, in dem du auf den **Ok** Button klickst. 
 
-![](https://screensaver01.zap-hosting.com/index.php/s/Mtm3aqNGTG3Ekre/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/gCoGAcGnTtLQ2P6/preview)
+
+Anschließend klickst du ebenfalls auf **Weiter** und im nächsten Schritt am Ende auf **Installieren**, um die Installation zu starten. Die Verwaltungsoberfläche des FileZilla FTP-Servers öffnet sich nun. Klicke auf den Button **Mit FileZilla FTP Server verbinden**.
+
+Es sollte ein Fenster erscheinen, in dem du die Felder Host, Port und Passwort siehst. Die ersten beiden Felder kannst du unverändert lassen und gibst dein definiertes Administrator-Passwort vom FTP-Server ein. Danach stellst du die Verbindung her, indem du auf den **Ok**-Button klickst.
 
 
 
 ## Konfiguration
 
+### Benutzer anlegen
+
+Um dich per FTP mit deinem Server verbinden zu können, musst du einen Benutzer anlegen.  
+Klicke oben im Menü auf **Server** und dann auf **Konfigurieren**.
+
+![](https://screensaver01.zap-hosting.com/index.php/s/D7KHSrkGZEErEcH/preview)
+
+Unter dem Menüpunkt Benutzer kannst du dann einfach auf **Hinzufügen** klicken, um einen neuen Benutzer anzulegen:
+
+![](https://screensaver01.zap-hosting.com/index.php/s/mtdi4oRmR4ZDzyq/preview)
+
+In diesem Beispiel heißt der Benutzer **YourUserName**. Natürlich kannst du hier deinen eigenen Benutzernamen wählen.
 
 
-### Erstellung von Benutzern
-
-Um via FTP auf deinen Server verbinden zu können, muss nun ein entsprechender Benutzer angelegt werden. 
-Klicke dazu oberhalb im Menü auf **Server** und dann auf **Configure**. 
-![](https://screensaver01.zap-hosting.com/index.php/s/crtSdiAaKJgJgGD/preview)
-
-Unter dem Menüpunkt Users kannst du daraufhin mit einem Klick auf **Add** einen neuen Benutzer hinzufügen:
-![](https://screensaver01.zap-hosting.com/index.php/s/Aej62q2GxGzNdtK/preview)
-
-In diesem Beispiel heist der Benutzer **YourUserName**. Hier kannst du natürlich einen eigenen Benutzernamen wählen.
 
 ### Passwort und Berechtigungen
 
-Jetzt, nachdem der Benutzer angelegt wurde, muss nun noch der Zugang und die Zugriffsberechtigungen bestimmt werden. Dafür wird in der Kategorie **General** bei **Credentials** der Benutzer aktiviert und die Passwortoption konfiguriert. Aus Sicherheitsgründen empfehlen wir dringend ein Passwort zu verwenden. Wähle dafür **Require a password to log in** aus und definiere dein gewünschtes Passwort. 
+Nachdem der Benutzer angelegt wurde, müssen der Zugriff und die Zugriffsrechte konfiguriert werden. Dazu wird der Benutzer aktiviert und die Passwortoptionen unter der Kategorie **Allgemein** bei **Anmeldeinformationen** eingestellt. Aus Sicherheitsgründen empfehlen wir dringend, ein Passwort zu verwenden. Wähle **Passwort für Anmeldung erforderlich** und setze dein gewünschtes Passwort.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/qJngCCsxyeMSfYK/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/gwkkexqXgmfXc2q/preview)
 
-Damit der Benutzer auch die entsprechenden Berechtigungen hat, musst du noch festlegen, auf welche Verzeichnisse dieser zugreifen darf, dazu genügt ein Klick auf **Add** bei Mount points. Hierbei muss einmal ein virtualler und ein nativer Pfad angegeben werden. In unserem Beispiel definieren wir, dass die C Fesplatte unter \ aufgelistet wird.  
+Damit der Benutzer die passenden Berechtigungen hat, musst du angeben, auf welche Verzeichnisse der Benutzer zugreifen darf, indem du bei Einhängepunkte auf **Hinzufügen** klickst. Es muss ein virtueller und ein nativer Pfad angegeben werden. In unserem Beispiel definieren wir, dass die C-Festplatte unter \ eingebunden wird.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/pzHzQTHiR6MGsgN/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/LE46PteX7eAftjQ/preview)
 
-Rechts daneben findest du dann die Option **Permissions**, worüber du die Zugriffsrechte auf den angegebenen Pfad bestimmen kannst. Solltest du die Daten sowohl lesen als auch bearbeiten können, dann empfiehlt es sich **Read+Write** zu setzen. 
+Rechts findest du die Option **Berechtigungen**, mit der du die Zugriffsrechte für den angegebenen Pfad einstellen kannst. Wenn du die Daten lesen und bearbeiten möchtest, empfehlen wir, **Lesen+Schreiben** zu setzen.
 
-:::danger Aus Sicherheitsgründen solltest du einem Benutzer immer nur Zugriff auf bestimmte Ordner geben. 
+::: danger
+Aus Sicherheitsgründen solltest du einem Benutzer nur Zugriff auf bestimmte Ordner geben.
 :::
 
-Die vorgenommenen Änderungen kannst du nun über den **Apply** Button übernehmen und bestätigen. 
+Die vorgenommenen Änderungen kannst du jetzt mit einem Klick auf den **Übernehmen**-Button speichern und bestätigen.
 
 
-## Windows Firewall Ausnahmen
 
-Um eine Verbindung zu deinem FTP Server zu ermöglichen, muss jetzt noch die Anwendung des FTP Servers in der Windows-Firewall freigegeben werden. Dazu öffnest du die Firewall-Einstellungen unter **Systemsteuerung\System und Sicherheit\Windows Firewall** und klickst dort links oben auf **Eine App oder ein Feature durch die Windows Firewall zulassen**. Im folgenden Fenster wählst du dann die frei zugebene Anwendung aus:
+## Windows Firewall-Ausnahmen
 
-![](https://screensaver01.zap-hosting.com/index.php/s/xQ7noKCt9t4MRat/preview)
+Damit eine Verbindung zu deinem FTP-Server möglich ist, muss die Nutzung des FTP-Servers in der Windows-Firewall erlaubt werden. Öffne dazu die Firewall-Einstellungen unter **Systemsteuerung\System und Sicherheit\Windows Defender Firewall** und klicke auf **App oder Feature durch Windows Defender Firewall zulassen**.  
+Im folgenden Fenster wählst du dann die Anwendung aus, die erlaubt werden soll:
 
-In diesem Beispiel lautet der Pfad **C:\Program Files (x86)\FileZilla Server\FileZilla Server.exe**:
+![](https://screensaver01.zap-hosting.com/index.php/s/aorQ7Y8gQJPSE8e/preview)
 
-![](https://screensaver01.zap-hosting.com/index.php/s/tpXWbqNaeTfnNQC/preview)
+In diesem Beispiel ist der Pfad **C:\Program Files (x86)\FileZilla Server\FileZilla Server.exe**:
 
-Danach kannst du den Vorgang mit einem Klick auf **OK** schließen, eine Verbindung zu deinem FTP Server ist nun möglich. 
+![](https://screensaver01.zap-hosting.com/index.php/s/wx7p5GykbQfx8B6/preview)
+
+Danach kannst du den Vorgang mit einem Klick auf **OK** abschließen – eine Verbindung zu deinem FTP-Server ist jetzt möglich.
 
 
-## Abschluss
+## Fazit
 
-Glückwunsch, du hast den FTP-Server erfolgreich installiert und konfiguriert! Solltest du noch weitere Fragen oder Probleme haben, dann wende dich gerne an unser Support-Team, welches dir jeden Tag zur Verfügung steht!
+Glückwunsch, du hast den FTP-Server erfolgreich auf deinem VPS installiert und konfiguriert! Falls du noch Fragen oder Probleme hast, steht dir unser Support-Team täglich zur Verfügung und hilft dir gerne weiter!
 
 <InlineVoucher />

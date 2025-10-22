@@ -1,8 +1,8 @@
 ---
 id: dedicated-windows-userdp
-title: "Dedicated Server: Zugriff auf Windows Server über Remote Desktop (RDP)"
-description: Informationen zum Zugriff auf deinen Windows Dedicated Server von ZAP-Hosting über Remote Desktop (RDP) - ZAP-Hosting.com Dokumentation
-sidebar_label: Erstzugang (RDP)
+title: "Dedicated Server: Windows Server per Remote Desktop (RDP) erreichen"
+description: "Entdecke, wie du dich ganz easy per RDP mit deinem Windows Server verbindest und sicher von verschiedenen Geräten darauf zugreifst → Jetzt mehr erfahren"
+sidebar_label: Erster Zugriff (RDP)
 services:
   - dedicated
 ---
@@ -11,35 +11,33 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
 
-Das Windows-Betriebssystem verwendet das Remotedesktop-Protokoll (RDP), um die Verbindung zu anderen Windows-Systemen zu erleichtern. In dieser Anleitung gehen wir den einfachen Verbindungsprozess über RDP zu deinem Windows-Server durch.
+Windows OS nutzt das Remote Desktop (RDP) Protokoll, um das Verbinden mit anderen Windows-Systemen aus der Ferne super einfach zu machen. In dieser Anleitung zeigen wir dir, wie du dich ganz unkompliziert per RDP mit deinem Windows Server verbindest.
 
 <InlineVoucher />
 
-
-
 ## Verbindung über Windows
 
-Seit der Einführung von RDP hat Windows OS die Anwendung **Remotedesktopverbindung** als Kernsystemanwendung installiert. Du kannst darauf zugreifen, indem du in der Windows-Suchleiste danach suchst oder indem du die Windows-Taste/das Windows-Symbol drückst und die Suchleiste im Startmenü verwendest.
+Seit es RDP gibt, ist die **Remote Desktop Verbindung** App standardmäßig als Kernsystem-Anwendung auf Windows installiert. Du findest sie ganz easy, indem du im Windows-Suchfeld danach suchst oder die Windows-Taste drückst und im Startmenü suchst.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/TZNJQsY266fYaqg/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/TRfpNC3rACZ3KGB/preview)
 
-Gib in dem neuen Fenster im Feld **Computer** die IP-Adresse deines Servers ein und drücke **Verbinden**. Du solltest nun eine Windows-eigene Eingabeaufforderung sehen, in der du den **Benutzernamen** als `Administrator` und das **Passwort**, das Passwort für deinen Windows-Server, eingeben musst.
+Im neuen Fenster gibst du im Feld **Computer** die IP-Adresse deines Servers ein und klickst auf **Verbinden**. Jetzt sollte ein Windows-eigenes Anmeldefenster erscheinen, in dem du den **Benutzernamen** `Administrator` und das **Passwort** für deinen Windows Server eingibst.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/WYx7Czi8KtyWGgH/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/GCRs6KbGHz27HBS/preview)
 
-Drücke jetzt auf **OK** und du solltest in der Lage sein, eine Fernverbindung zu deinem Windows-Server herzustellen. Wenn du Probleme hast, überprüfe, ob die eingegebenen Anmeldedaten korrekt sind.
+Drücke jetzt auf **OK** und du solltest dich remote mit deinem Windows Server verbinden können. Falls es Probleme gibt, überprüfe nochmal, ob die eingegebenen Zugangsdaten korrekt sind.
 
 :::info
-Es kann sein, dass du beim ersten Verbindungsaufbau einen Zertifikatsfehler siehst. Das ist normal und kann getrost ignoriert werden.
+Beim ersten Verbinden kann eine Zertifikatswarnung erscheinen. Das ist normal und kann bedenkenlos ignoriert werden.
 :::
 
 Du hast dich erfolgreich mit deinem Windows Server verbunden.
 
-## Andere Remote Connection (RDP) Apps
+## Andere Remote-Verbindungs-Apps (RDP)
 
-### Desktop Apps
+### Desktop-Apps
 
-Die folgenden Programme sind großartige Alternativen, die sich für die Verbindung zu deinem Windows-Server über das Remotedesktop-Protokoll (RDP) eignen. Wir empfehlen dir, die integrierte Anwendung zu verwenden, wenn du von Windows aus auf den Server zugreifst (wie im vorigen Schritt beschrieben), da sie sehr einfach zu bedienen ist und gut funktioniert.
+Die folgenden Programme sind coole Alternativen, um per Remote Desktop Protokoll (RDP) auf deinen Windows Server zuzugreifen. Wir empfehlen dir aber, die eingebaute Windows-App zu nutzen (wie im vorherigen Schritt), da sie am unkompliziertesten ist und super funktioniert.
 
 - Remote Desktop Connection Manager (RDCMan)
 - mRemoteNG
@@ -47,10 +45,10 @@ Die folgenden Programme sind großartige Alternativen, die sich für die Verbind
 - Devolutions Remote Desktop Manager
 - DameWare Mini Remote Control
 
-### Apps für mobile Geräte
+### Mobile Apps
 
-In der heutigen Zeit bietet Microsoft eine offizielle Remote Desktop (RDP) App für die beiden wichtigsten mobilen Betriebssysteme an. Wir empfehlen, diese auf dem Handy zu benutzen, da sie viele nützliche Funktionen hat.
+Heutzutage bietet Microsoft eine offizielle Remote Desktop (RDP) App für die beiden großen mobilen Betriebssysteme an. Für mobile Geräte empfehlen wir diese Apps, da sie viele nützliche Features haben.
 
-Die App findest du hier für die jeweilige Plattform: [Android](https://play.google.com/store/apps/details?id=com.microsoft.rdc.androidx&hl=en) und [iOS](https://apps.apple.com/us/app/remote-desktop-mobile/id714464092)
+Die App findest du hier, je nach Plattform: [Android](https://play.google.com/store/apps/details?id=com.microsoft.rdc.androidx&hl=en) und [iOS](https://apps.apple.com/us/app/remote-desktop-mobile/id714464092)
 
 <InlineVoucher />

@@ -1,7 +1,7 @@
 ---
 id: voiceserver-subdomain
 title: 'Voiceserver: ZAP Subdomain'
-description: Informationen zum Einrichten einer ZAP Cloud (.zap.cloud) Subdomain oder deiner eigenen Domain für deinen Voiceserver von ZAP-Hosting - ZAP-Hosting.com 
+description: "Entdecke, wie du ganz easy individuelle Subdomains für deinen Voiceserver einrichtest und verwaltest, um den Zugang zu vereinfachen und die Verbindung zu verbessern → Jetzt mehr erfahren"
 sidebar_label: Voiceserver Subdomain
 services:
   - voiceserver
@@ -9,85 +9,84 @@ services:
 
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
-## Einleitung
+## Einführung
 
-Unsere Voiceserver bieten jetzt die Möglichkeit, schnell Subdomains einzurichten, damit du ganz einfach auf deinen Server zugreifen kannst. In dieser Anleitung erfährst du, wie du die DNS-Subdomain-Funktion für deinen Voiceserver nutzen kannst, um eine ZAP Cloud-Subdomain zu erstellen oder deine eigene Domain einzurichten.
+Unsere Voiceserver bieten jetzt die Möglichkeit, schnell Subdomains einzurichten, um deinen Server easy zu erreichen. In dieser Anleitung erfährst du, wie du die DNS-Subdomain-Funktion für deinen Voiceserver nutzt, um eine ZAP Cloud Subdomain zu generieren oder deine eigene Domain einzurichten.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/dqmJ8ZAd6Jkpx52/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/5dCaYAztCfESCdN/preview)
 
 <InlineVoucher />
 
 ## Verfügbarkeit
 
-Die Subdomain-Funktion ist sowohl für Neu- als auch für Bestandskunden verfügbar und fügt die Subdomain `xxx`**.zap.cloud** hinzu. Bei neuen Kunden wird die Subdomain automatisch während des Installationsprozesses eingerichtet. Bestehende Kunden haben bereits eine generiert.
+Die Subdomain-Funktion steht sowohl neuen als auch bestehenden Kunden zur Verfügung und bietet dir eine `xxx`**.zap.cloud** Subdomain, die das Verbinden erleichtert. Neue Kunden erhalten während der Installation automatisch eine Subdomain eingerichtet. Bestehende Kunden haben bereits eine generierte Subdomain.
 
 ## Subdomains verwalten (DNS)
 
-Die Verwaltung der Subdomain-Funktion auf deinem Voiceserver ist ganz einfach. Gehe dazu in den Bereich **Einstellungen->TSDNS Einträge**.
+Die Verwaltung der Subdomain-Funktion für deinen Voiceserver ist super simpel. Gehe dazu in den Bereich **Einstellungen->TSDNS**.
 
-Auf dieser Seite kannst du eine Reihe von Verwaltungsaufgaben in Bezug auf die Free ZAP Cloud Subdomain sowie die Nutzung deiner eigenen Domains, die du auf deinem ZAP-Hosting-Konto eingerichtet hast, durchführen.
+Auf dieser Seite kannst du verschiedene Verwaltungsaufgaben rund um die kostenlose ZAP Cloud Subdomain sowie die Nutzung eigener Domains, die du in deinem ZAP-Hosting Account eingerichtet hast, erledigen.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/RM9eQYoz4fNpRJg/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/iyNzw3R6iEesp3Y/preview)
 
 :::info
-Derzeit kannst du maximal 3 Subdomains pro Produkt aktiv haben (ohne die zufällig generierte ZAP Cloud Subdomain).
+Aktuell kannst du maximal 3 Subdomains pro Produkt aktiv haben (ohne die zufällig generierte ZAP Cloud Subdomain).
 :::
 
 ### Zufällige ZAP Cloud Subdomain
 
-Alle Voiceserver haben eine zufällige Subdomain, die sie standardmäßig verwenden können. Sowohl neue als auch bestehende Kunden sehen eine zufällige `xxx`**.zap.cloud** Subdomain auf ihrem Dashboard.
+Jeder Voiceserver hat standardmäßig eine zufällige Subdomain, die genutzt werden kann. Sowohl neue als auch bestehende Kunden sehen im Dashboard eine zufällige `xxx`**.zap.cloud** Subdomain.
 
-Wenn du keine Subdomain siehst oder Probleme hast, kannst du [unser Support-Team](https://zap-hosting.com/de/customer/support/) kontaktieren, um die zufällige ZAP Cloud-Subdomain aktualisieren zu lassen.
+Falls du keine Subdomain siehst oder Probleme hast, kannst du [unser Support-Team kontaktieren](https://zap-hosting.com/en/customer/support/), um die zufällige ZAP Cloud Subdomain neu generieren zu lassen.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/eCXcyNbgjEnQrx4/preview)
 
-### Benutzerdefinierte ZAP Cloud Subdomain
+### Eigene ZAP Cloud Subdomain
 
-Du hast die Möglichkeit, deine eigene ZAP Cloud Subdomain zu erstellen, indem du einfach die gewünschte Subdomain eingibst und **.zap.cloud** aus dem Dropdown-Menü auswählst (Standardoption).
+Du kannst deine eigene ZAP Cloud Subdomain erstellen, die perfekt zu dir passt. Gib einfach die gewünschte Subdomain ein und wähle **.zap.cloud** aus dem Dropdown-Menü (Standardoption).
 
 :::note
-Wenn du eine Fehlermeldung erhältst, ist es möglich, dass die Subdomain bereits in Gebrauch ist und/oder du ein verbotenes Wort oder Zeichen eingegeben hast, das zum Schutz unserer Kunden nicht erlaubt ist.
+Wenn du eine Fehlermeldung bekommst, ist die Subdomain wahrscheinlich schon vergeben oder du hast ein verbotenes Wort oder Zeichen eingegeben, um unsere Kunden zu schützen.
 :::
 
-Klicke nun auf den Button **Eintrag erstellen** und du solltest sehen, dass die Subdomain in der Liste erscheint. Es kann sein, dass du ein paar Minuten warten musst, bis sie voll funktionsfähig ist.
+Klicke jetzt auf den Button **Eintrag erstellen** und die Subdomain sollte in der Liste auftauchen. Es kann ein paar Minuten dauern, bis sie voll funktionsfähig ist.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/2iSAZJpETYw9H3p/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/odqKSyzXRLi5zRx/preview)
 
-![](https://screensaver01.zap-hosting.com/index.php/s/cMwxmPZFcyL7RjT/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/yWmt4j3nWEgbN6K/preview)
 
 ### Eigene Domain
 
 :::info
-Damit du deine Domain zum Erstellen einer Subdomain verwenden kannst, musst du sicherstellen, dass sie mit deinem ZAP-Hosting-Konto verknüpft ist, indem du sie [auf unserer Website](https://zap-hosting.com/en/shop/product/domain/) kaufst oder die Domain von einem anderen Anbieter auf dein Konto überträgst.
+Damit du deine eigene Domain für eine Subdomain nutzen kannst, muss sie mit deinem ZAP-Hosting Account verknüpft sein, entweder durch [Kauf auf unserer Website](https://zap-hosting.com/en/shop/product/domain/) oder durch Transfer von einem anderen Anbieter.
 :::
 
-Das Anlegen einer Subdomain mit deiner eigenen Domain erfolgt in denselben Schritten wie bei der benutzerdefinierten ZAP Cloud-Subdomain. Gib die gewünschte Subdomain ein und wähle deine eigene Domain aus dem Dropdown-Menü.
+Das Erstellen einer Subdomain mit deiner eigenen Domain funktioniert genauso wie bei der Custom ZAP Cloud Subdomain. Gib die gewünschte Subdomain ein und wähle deine eigene Domain aus dem Dropdown-Menü.
 
 :::note
-Wenn du eine Fehlermeldung erhältst, ist es möglich, dass die Subdomain bereits in Gebrauch ist und/oder du ein verbotenes Wort oder Zeichen eingegeben hast, das zum Schutz unserer Kunden nicht erlaubt ist.
+Wenn du eine Fehlermeldung bekommst, ist die Subdomain wahrscheinlich schon vergeben oder du hast ein verbotenes Wort oder Zeichen eingegeben, um unsere Kunden zu schützen.
 :::
 
-Klicke nun auf den Button **Eintrag erstellen** und du solltest sehen, dass die Subdomain in der Liste erscheint. Es kann sein, dass du ein paar Minuten warten musst, bis sie voll funktionsfähig ist.
+Klicke auf **Eintrag erstellen** und die Subdomain sollte in der Liste erscheinen. Warte ein paar Minuten, bis sie komplett aktiv ist.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/23w6gBHoYL75p5m/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/Xoe8c4T9TNpby27/preview)
 
-![](https://screensaver01.zap-hosting.com/index.php/s/WD42o4ytri6WPBf/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/AX9yFSb3nRNoKiF/preview)
 
-## Fehlersuche
+## Fehlerbehebung
 
 ### ZAP Cloud Subdomain
 
-Wenn du eine benutzerdefinierte ZAP Cloud-Subdomain erstellst, kann es sein, dass du eine Fehlermeldung erhältst, wenn die Subdomain bereits in Gebrauch ist und/oder du ein verbotenes Wort oder Zeichen eingegeben hast, das zum Schutz unserer Kunden nicht erlaubt ist.
+Beim Erstellen einer eigenen ZAP Cloud Subdomain kann es zu Fehlern kommen, wenn die Subdomain schon vergeben ist oder du ein verbotenes Wort oder Zeichen eingegeben hast, um unsere Kunden zu schützen.
 
-Wenn du andere Probleme mit den ZAP Cloud-Subdomains hast, wende dich bitte an unser Support-Team, indem du [ein Ticket auf unserer Website erstellst](https://zap-hosting.com/de/customer/support/).
+Wenn du sonstige Probleme mit den ZAP Cloud Subdomains hast, kontaktiere bitte unser Support-Team, indem du [ein Ticket auf unserer Website erstellst](https://zap-hosting.com/en/customer/support/).
 
 ### Eigene Domain
 
-Wenn du deine eigene Domain nicht im Dropdown-Menü siehst, wenn du versuchst, eine Subdomain zu erstellen, liegt das wahrscheinlich daran, dass sie nicht mit deinem ZAP-Hosting-Konto verknüpft ist.
+Wenn deine eigene Domain nicht im Dropdown-Menü erscheint, wenn du eine Subdomain erstellen willst, liegt das wahrscheinlich daran, dass sie nicht mit deinem ZAP-Hosting Account verknüpft ist.
 
-Bitte vergewissere dich, dass die Domain in deinem ZAP-Hosting-Konto aktiv ist, was auch bedeuten kann, dass du sie von einem anderen Anbieter transferieren musst.
+Stelle sicher, dass die Domain in deinem ZAP-Hosting Account aktiv ist, was auch einen Transfer von anderen Anbietern beinhalten kann.
 
-Wenn du immer noch Probleme mit der Subdomain-Funktion hast, wende dich bitte an unser Support-Team, [indem du ein Ticket auf unserer Website erstellst](https://zap-hosting.com/de/customer/support/). Wir helfen dir dann gerne weiter.
-
+Falls du weiterhin Probleme mit der Subdomain-Funktion hast, kontaktiere bitte unser Support-Team, indem du [ein Ticket auf unserer Website erstellst](https://zap-hosting.com/en/customer/support/). Wir helfen dir gerne weiter.
 
 <InlineVoucher />

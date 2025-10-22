@@ -1,8 +1,8 @@
 ---
 id: fivem-gamechange
-title: "FiveM: Spielwechsel"
-description: Wechsel zwischen den FiveM Versionen
-sidebar_label: Spielwechsel
+title: "FiveM: Gamechange"
+description: "Entdecke, wie du mühelos zwischen verschiedenen FiveM-Versionen wechselst und dein Server-Setup für optimales Gameplay verwaltest → Jetzt mehr erfahren"
+sidebar_label: Gamechange
 services:
   - gameserver-fivem
 ---
@@ -12,41 +12,39 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 
 :::warning Archivierte Anleitung
-Dieses Dokument wurde archiviert. Dokumente werden archiviert, wenn sie nicht mehr relevant, nicht mehr korrekt oder nicht mehr auf dem neuesten Stand sind. Es wurde aus den folgenden Gründen archiviert:
+Dieses Dokument wurde archiviert. Dokumente werden archiviert, wenn sie nicht mehr relevant, fehlerhaft oder veraltet sind. Es wurde aus folgenden Gründen archiviert:
 
-**Grund**: Verschiedene FiveM-Varianten existieren nicht mehr. Alle bestehenden Pakete wurden zu einem einzigen zusammengeführt, das unter dem Namen **FiveM** verwaltet wird. 
+**Grund**: Unterschiedliche FiveM-Varianten gibt es nicht mehr. Alle bestehenden Pakete wurden zu einem zusammengeführt, der unter dem Namen **FiveM** verwaltet wird. 
 ::::
 
 
 
 <InlineVoucher />
 
-## Der Wechsel zwischen FiveM-Versionen
-Dank unserer Gamecloud kannst du jederzeit je nach Notwendigkeit deines FiveM Versionen wechseln, der Wechsel ist komplett kostenfrei.
+## Wechsel deiner FiveM-Version
+Dank unserer Gamecloud kannst du ganz easy und kostenlos zwischen allen FiveM-Versionen wechseln.
 
 :::info
-Bei einem Wechsel zwischen Linux basierten Spielen (txAdmin, ESX Roleplay, FiveM Linux) zu Windows gehen alle Daten verloren
+Der Wechsel zwischen den Linux-basierten Games (txAdmin, ESX Roleplay, FiveM Linux) und Windows löscht alle Daten.
 :::
 
-Du solltest zu jederzeit Backups erstellt haben von deinen Daten, dies kannst du ganz einfach in unserem Interface im "Backup"-Tab erledigen.
+Du solltest immer ein Backup deiner Daten haben, das kannst du ganz einfach im "Backup"-Tab im Interface erstellen.
 
 ## Der Wechsel im Detail
-Um das Spiel bzw. die Version deines FiveM-Servers zu ändern, musst du in deinem Server in unserem Interface, den Tab "Spiele" öffnen:
+Um das Game (die Version) deines FiveM-Gameservers zu wechseln, öffne im Interface den Bereich "Games".
 
-![](https://screensaver01.zap-hosting.com/index.php/s/2iQaobTCMP9mJDz/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/n82YtN2DEkAeNpq/preview)
 
-Dort kannst du dann unter verfügbare Spiele nach "FiveM" suchen, um alle verfügbaren Versionen angezeigt zu bekommen:
+Dort siehst du alle FiveM-Versionen unter "Verfügbare Games", such einfach nach "FiveM".
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SJf3aGEKWwzzTLr/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/drTykzYs2527b7D/preview)
 
-Wähle die gewünschte Version und klicke auf den grünen Button. Bestätige das den Wechsel im darauf folgenden Popup-Fenster.
+Wähle die Version, die dir gefällt, und drücke den grünen Button, um die Installation zu starten. Es erscheint ein Popup, das eine Bestätigung zum Start des Prozesses verlangt.
 
 :::info
-Bei einem Wechsel zwischen Linux und Windows ändert sich die IP deines Servers, sofern keine eigene gebucht wurde
+Ein Wechsel zwischen Linux und Windows ändert die IP-Adresse deines Servers, falls du keine eigene gebucht hast.
 
-
-Sofern du zwischen ESX RP, Linux oder txAdmin wechselst, musst du nach erfolgreicher Installation diese noch aktivieren in Spiele (blauer Button)
+Wenn du zwischen ESX RP, Linux oder txAdmin wechselst, musst du die Version nach der Installation mit dem blauen Button unter Games aktivieren.
 :::
-
 
 <InlineVoucher />

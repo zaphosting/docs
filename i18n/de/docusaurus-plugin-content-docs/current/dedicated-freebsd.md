@@ -1,7 +1,7 @@
 ---
 id: dedicated-freebsd
 title: "Dedicated Server: Installation von FreeBSD"
-description: Informationen zu der Installation des FreeBSD Betriebssystem auf deinem Dedicated Server von ZAP-Hosting - ZAP-Hosting.com Dokumentation
+description: "Entdecke, wie du FreeBSD auf deinem Dedicated Server installierst und konfigurierst für optimale Performance und Zuverlässigkeit → Jetzt mehr erfahren"
 sidebar_label: FreeBSD installieren
 services:
   - dedicated
@@ -11,140 +11,137 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
 
-Im Folgenden wird dir Schritt für Schritt erklärt, wie du das FreeBSD Betriebssystem auf deinem Dedicated Server installieren und konfigurieren kannst. Folge diesen Anweisungen sorgfältig, um sicherzustellen, dass du das Betriebssystem erfolgreich einrichtest und optimal nutzt.
+Im Folgenden erklären wir dir Schritt für Schritt, wie du das FreeBSD Betriebssystem auf deinem Dedicated Server installierst und konfigurierst. Folge den Anweisungen genau, damit du das Betriebssystem erfolgreich einrichtest und optimal nutzen kannst.
 
 :::info
-Der Aufbau der Anleitung basiert auf der Verwendung des FreeBSD 13.0 Betriebssystems. Installationen von früheren oder neueren Versionen können hinsichtlich des Prozesses leicht abweichen. 
+
+Die Anleitung basiert auf der Nutzung von FreeBSD 13.0. Installationen mit älteren oder neueren Versionen können im Ablauf leicht abweichen.
+
 :::
 
 <InlineVoucher />
 
 ## Vorbereitung
 
-Für die Installation und Konfiguration eines Betriebssystems ist es zunächst wichtig, dass die entsprechende ISO vom Betriebssystem gemountet wird. Für das Mounten gibt es mehrere mögliche Wege: 
+Für die Installation und Konfiguration eines Betriebssystems ist es zunächst wichtig, das passende ISO-Image des Betriebssystems zu mounten. Es gibt mehrere Möglichkeiten, das zu machen:
 
 1. Mounten über die Ersteinrichtung
-2. Mounten über die iLO (Virtual Media)
-3. Mounten über die iLO (Remote Console)
+2. Mounten über iLO (Virtual Media)
+3. Mounten über iLO (Remote Console)
 
-Solltest du mit dem Mounten einer ISO-Datei noch nicht vertraut sein, dann schaue dir am besten unsere [Ersteinrichtung](dedicated-setup.md) oder [Eigene ISO](dedicated-iso.md) Anleitung an.
+Wenn du noch nicht weißt, wie man ein ISO mountet, schau am besten in unsere [Ersteinrichtung](dedicated-setup.md) oder [Eigenes ISO](dedicated-iso.md) Anleitung rein.
 
 
 
 ## Installation
-
-Wenn die ISO erfolgreich geladen wurde, ist der Server erfolgreich im Setup.
+Wenn das ISO erfolgreich geladen wurde, befindet sich der Server im Setup-Prozess.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/wSa8eGnrtJDLHB5/preview)
 
-Wir starten die Installation mit `Enter`. 
+Starte die Installation mit `Enter`![](https://screensaver01.zap-hosting.com/index.php/s/CK4xnGEqBe5Kd4y/preview)
 
-![](https://screensaver01.zap-hosting.com/index.php/s/CK4xnGEqBe5Kd4y/preview)
-
-Wähle die gewünschte Keymap aus, und bestätigen mit Continue.
+Wähle das Tastaturlayout, das dir am besten passt, und fahre mit „Continue“ fort.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/BSrWrN9TnqEEmmb/preview)
 
-Wähle den gewünschten Hostname
+Gib deinen gewünschten Hostname ein.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/zqXPS6fHdkoMPH2/preview)
 
-Wähle optionale Systempakete, welche installiert werden sollen und bestätige mit OK.
+Optional kannst du Systempakete auswählen, die installiert werden sollen. Wenn du fertig bist, bestätige mit OK.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/zTSBQRGRFLHDxDo/preview)
 
-In diesem Schritt können Partitionen erstellt werden, in diesem Beispiel nutzen wir ein RAID0. Mehr Informationen zur Raid Einstellungen findest du in der spezifischen Anleitung dafür.
+In diesem Schritt kannst du Partitionen anlegen. Im Beispiel nutzen wir ein RAID0. Mehr Infos zu RAIDs findest du in [RAID konfigurieren](dedicated-raid.md).
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/DTk5zgjbpCWwbmp/preview)
 
-Sofern keine weiteren Änderungswünsche bestehen, ebenfalls einfach mit Enter bestätigen.
+Wenn keine Änderungen nötig sind, kannst du mit `Enter` fortfahren.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/MR3eJKMpdExXnsJ/preview)
 
-Wir wählen in unserem Beispiel, keine Redundanz, da es sich um ein RAID0 handelt.
+Da wir ein RAID0 haben, wählen wir keine Redundanz.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/Qf5JZMKs5HzDXnT/preview)
 
-Wähle deinen Datenträger mit der `Leertaste` aus und bestätige dann mit `Enter`.
+Markiere dein Volume mit `Space` und bestätige mit `Enter`.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/4d93FtfDmSEtifY/preview)
 
-Wir bestätigen das alle Daten überschrieben werden dürfen.
+Wir bestätigen, dass alle Daten gelöscht werden.
 
 :::info
-Dein Server führt nun das Setup aus, dies kann einige Zeit in Anspruch nehmen
+Dein Server führt jetzt die Einrichtung durch, das kann einige Minuten dauern.
 :::
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/NmR5PcTPe3Kdc4i/preview)
 
-Gib dein gewünschtes Serverpasswort ein und bestätige deine Eingabe mit `Enter`.
-
-***
+Bitte gib dein Passwort ein und bestätige mit `Enter`.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/f9aJF57b2w3g9qY/preview)
 
-Wir wählen "No" bei der IPv4 und IPv6 Konfiguration, diese muss zum schluss erledigt werden.
+Wähle bei der IPv4/IPv6-Konfiguration „No“, das machen wir am Ende.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/88bxbHsRjwCoYJQ/preview)
 
-Wir wählen "Yes" und wählen danach unsere Zeitzoneneinstellungen sowie Datum und Uhrzeit.
+Wähle „Yes“ und stelle deine Zeitzone sowie Datum/Uhrzeit ein.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/MCtpoQkLdc8Wd7Y/preview)
 
-Hier könnten die Dienste verändert werden, welche beim Serverstart automatisiert gestartet werden.
+Du kannst festlegen, welche Dienste beim Serverstart automatisch gestartet werden.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/wPbL3HJGYBTLdyD/preview)
 
-Falls notwendig, könnten hier noch Sicherheitseinstellungen getroffen werden.
+Falls nötig, kannst du die Sicherheitseinstellungen anpassen.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/BXEs3sFYCbFE4Q4/preview)
 
-Das Setup ist beendet. Wir wählen "Exit" und bestätigen mit Enter.
+Die Einrichtung ist abgeschlossen, wähle „Exit“ und bestätige mit `Enter`.
 
 :::info
-Entferne nun die ISO-Datei aus deiner iLO und wähle Reboot
+Entferne das ISO-Image in deinem iLO und wähle „Reboot“.
 :::
+
+
 
 ## Konfiguration
 
 ### Netzwerk
 
-Um den Netzwerk-Adapter zu aktivieren, logge dich mit dem Passwort in dein System ein
+Um das Netzwerkgerät zu aktivieren, melde dich bitte mit deinem Passwort am System an.
 
-Öffne die loader.conf mit einem Editor, beispielsweise `ee /boot/loader.conf` und füge Folgendes hinzu:
+Öffne die Datei loader.conf mit einem Editor deiner Wahl, z.B. `ee /boot/loader.conf` und füge folgende Zeile hinzu:
 
 ```if_oce_load="YES"```
 
-Mit `STRG+C` kann der Editor wieder verlassen werden, nach dem Tastendruck muss noch "exit" eingegeben werden, starte nun deinen Dedicated Server neu
+Verlasse den Editor mit `CTRL+C` und tippe exit, danach starte deinen Dedicated Server neu.
 
 ***
 
-Nach dem Neustart muss noch die rc.conf bearbeitet werden `ee /etc/rc.conf`, füge Folgendes hinzu:
+Nach dem Neustart müssen wir die rc.conf anpassen, z.B. mit `ee /etc/rc.conf`, und folgende Zeile hinzufügen:
 
 ```
 ifconfig_oce0="DHCP"
 ```
 
-:::info
-Achtung: Der Name des Netzwerkadapters in dem Beispiel **oce0** kann abweichen. Stelle sicher, dass du den richtigen Netzwerk-Adapter angibst. Das kannst du über den ifconfig Befehl nachvollziehen. Die Informationen werden im Anschluss automatisch über den DHCP Server bezogen. 
+:::caution
+Der Name des Netzwerkadapters im Beispiel **oce0** kann abweichen. Achte darauf, den korrekten Netzwerkadapter anzugeben. Das kannst du mit dem Befehl ifconfig prüfen. Die IP-Adresse wird dann automatisch per DHCP bezogen.
 :::
 
-Das sollte dann in etwa so aussehen:
+Das sollte dann ungefähr so aussehen:
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/mBCZpbG37N9Dj5e/preview)
 
-Verlasse den Editor ebenfalls mit `STRG+C` und der Eingabe von "exit" und führe zum Abschluss einmal `/etc/netstart` aus
+Verlasse den Editor mit `CTRL+C` und tippe „exit“. Führe anschließend den Befehl `/etc/netstart` einmal aus.
 
 :::info
-Dein Server sollte nun eine Netzwerkverbindung haben
+Dein Server sollte jetzt eine aktive Internetverbindung haben.
 :::
 
 
 
+## Fazit
 
-
-## Abschluss
-
-Glückwunsch, du hast das FreeBSD Betriebssystem erfolgreich installiert. Für weitere Fragen oder Hilfe zögere bitte nicht, unser Support-Team zu kontaktieren, das dir täglich zur Verfügung steht! 🙂
+Glückwunsch, du hast FreeBSD erfolgreich auf deinem Dedicated Server installiert. Bei weiteren Fragen oder Problemen steht dir unser Support-Team täglich zur Verfügung – wir helfen dir gerne! 🙂
 
 <InlineVoucher />

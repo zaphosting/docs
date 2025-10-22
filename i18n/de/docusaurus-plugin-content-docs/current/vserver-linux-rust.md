@@ -1,7 +1,7 @@
 ---
 id: vserver-linux-rust
-title: "vServer: Rust Dedicated Server Linux Setup"
-description: Informationen zur Einrichtung eines Rust Dedicated Servers auf einem Linux vServer von ZAP-Hosting - ZAP-Hosting.com Dokumentation
+title: "VPS: Rust Dedicated Server Linux Setup"
+description: "Lerne, wie du einen Rust Dedicated Server auf deinem Linux VPS mit SteamCMD für nahtloses Server mieten einrichtest → Jetzt mehr erfahren"
 sidebar_label: Rust
 services:
   - vserver
@@ -11,68 +11,68 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
 
-Hast du einen Linux vServer und möchtest den Rust Dedicated Server Dienst darauf installieren? Dann bist du hier genau richtig. In dieser Anleitung erklären wir dir Schritt für Schritt, wie du diesen Dienst mithilfe von SteamCMD auf deinem Linux Server installierst. Wir verwenden in den Beispielen Ubuntu, aber der Prozess sollte bei anderen Distributionen sehr ähnlich sein.
+Du hast einen Linux VPS und möchtest darauf den Rust Dedicated Server installieren? Dann bist du hier genau richtig. In dieser Anleitung erklären wir dir Schritt für Schritt, wie du diesen Service auf deinem Linux-Server mit SteamCMD installierst. Wir verwenden Ubuntu als Beispiel, aber der Prozess ist bei anderen Distributionen sehr ähnlich.
 
 :::tip
-Wusstest du, dass du unser **ZAP GS/TS3 Interface** direkt auf deinem vServer installieren kannst? Damit kannst du mit nur wenigen Klicks Gameserver-Dienste einrichten, die direkt in dein ZAP-Hosting Dashboard integriert sind! Erfahre mehr über das [GS/TS3 Interface](vserver-linux-gs-interface.md).
+Wusstest du, dass du unsere **ZAP GS/TS3 Interface** direkt auf deinem VPS installieren kannst? Damit richtest du Gameserver-Services mit direkter Integration in dein ZAP-Hosting Dashboard in nur wenigen Klicks ein! Erfahre mehr über die [GS/TS3 Interface hier](vserver-linux-gs-interface.md).
 :::
 
 <InlineVoucher />
 
 ## Vorbereitung
 
-Verbinde dich zunächst per SSH mit deinem vServer. Benutze unsere Anleitung [Erstzugriff (SSH)](vserver-linux-ssh.md), wenn du dabei Hilfe benötigst.
+Verbinde dich zunächst per SSH mit deinem VPS. Falls du dabei Hilfe brauchst, nutze unsere [SSH Initial Access](vserver-linux-ssh.md) Anleitung.
 
-Du musst auch eine Ersteinrichtung für SteamCMD vornehmen, wenn du es zum ersten Mal auf deinem Linux-Server verwendest. Bitte benutze unsere [SteamCMD einrichten](vserver-linux-steamcmd.md) Anleitung und stelle sicher, dass SteamCMD vollständig eingerichtet ist, bevor du fortfährst.
+Außerdem musst du SteamCMD beim ersten Mal auf deinem Linux-Server einrichten. Nutze dafür unsere [SteamCMD Linux Setup](vserver-linux-steamcmd.md) Anleitung und stelle sicher, dass SteamCMD vollständig eingerichtet ist, bevor du weitermachst.
 
 ## Installation
 
-Beginne damit, dich als Benutzer `Steam` anzumelden und gehe in das Stammverzeichnis `home/steam`, um Ordnung zu schaffen.
+Melde dich als `steam` User an und wechsle in das Home-Verzeichnis von `steam`, um alles ordentlich zu halten.
 ```
 sudo -u steam -s
 cd ~
 ```
 
-Wenn du eingeloggt bist, kannst du den Installationsprozess mit dem folgenden Befehl starten, um die Installation mit Hilfe von SteamCMD direkt in deinem `Steam` Benutzer zu starten.
+Sobald du eingeloggt bist, kannst du die Installation mit folgendem Befehl starten. Damit installierst du den Rust Dedicated Server direkt über SteamCMD in das Verzeichnis des `steam` Users.
 ```
 steamcmd +force_install_dir '/home/steam/Rust-Server' +login anonymous +app_update 258550 validate +quit
 ```
 
-Bitte habe etwas Geduld, während der Download abgeschlossen wird, denn bei Spielen mit größeren Dateien kann es einige Zeit dauern. Sobald der Download erfolgreich war, erscheint eine Erfolgsmeldung, die dies bestätigt.
+Bitte hab Geduld, bis der Download abgeschlossen ist – bei größeren Spielen kann das eine Weile dauern. Wenn alles erfolgreich war, erscheint eine Bestätigungsmeldung.
 
 ## Konfiguration
 
-Zu diesem Zeitpunkt hast du die Einrichtung deines Rust Servers abgeschlossen. Du kannst weitere Serverkonfigurationen in den Konfigurationsdateien vornehmen, die sich im Verzeichnis deines Servers befinden.
+Jetzt hast du die Grundinstallation deines Rust Servers abgeschlossen. Weitere Einstellungen kannst du über Konfigurationsdateien im Serververzeichnis vornehmen.
 
-Wechsel in dein Stammverzeichnis und erstelle eine `.sh`-Datei. Dies ist die Bash-Datei, die zum Starten des Servers und zum Anpassen verschiedener Konfigurationsparameter verwendet wird.
+Wechsle in dein Root-Verzeichnis und erstelle eine `.sh` Datei. Diese Bash-Datei wird zum Starten des Servers und zum Anpassen verschiedener Parameter genutzt.
 ```
 nano /home/steam/Rust-Server/start_server.sh
 ```
 
-Füge nun den folgenden Inhalt in die Bash-Datei ein. Im folgenden Befehl wurden einige der grundlegenden und am häufigsten verwendeten Parameter hinzugefügt. Wenn du weitere hinzufügen oder mehr über die einzelnen Parameter erfahren möchtest, empfehlen wir dir, das [offizielle Rust-Wiki](https://wiki.facepunch.com/rust/Creating-a-server#startingtheserver) zu durchsuchen, das alle verfügbaren Konfigurationsoptionen enthält.
+Füge nun folgenden Inhalt in die Bash-Datei ein. Im Befehl sind einige der wichtigsten und meistgenutzten Parameter enthalten. Wenn du mehr hinzufügen oder dich genauer informieren möchtest, empfehlen wir dir die [offizielle Rust Wiki](https://wiki.facepunch.com/rust/Creating-a-server#startingtheserver), die alle verfügbaren Konfigurationsoptionen auflistet.
 ```
 #!/bin/bash
-/home/steam/Rust-Server/RustDedicated -batchmode -nographics +server.hostname "deine_server_name" +server.port 28015 +server.identity "mein_server" +server.maxplayers 50 +server.worldsize 1000 +server.saveinterval 300
+/home/steam/Rust-Server/RustDedicated -batchmode -nographics +server.hostname "dein_servername" +server.port 28015 +server.identity "my_server" +server.maxplayers 50 +server.worldsize 1000 +server.saveinterval 300
 ```
 
-Speichere die Datei mit `STRG+X`, gefolgt von `Y` und `Enter`. Damit die Bash-Datei ohne sudo Berechtigungen ausgeführt werden kann, führe abschließend den folgenden Befehl aus, der der Datei die Ausführungsberechtigung hinzufügt.
+Speichere die Datei mit `CTRL+X`, dann `Y` und `Enter`. Um die Bash-Datei ausführbar zu machen, ohne sudo-Rechte zu benötigen, gib folgenden Befehl ein:
 ```
 chmod +x /home/steam/Rust-Server/start_server.sh
 ```
 
-## Starten und Verbinden mit deinem Server
+## Server starten & verbinden
 
-Jetzt ist es an der Zeit, deinen Server zu starten. Gehe in das Hauptverzeichnis des Spiels und führe die Shell-Datei **start_server.sh** aus.
+Jetzt kannst du deinen Server starten. Wechsle in das Hauptverzeichnis des Spiels und führe die **start_server.sh** Shell-Datei aus.
 ```
 /home/steam/Rust-Server/start_server.sh
 ```
 
-In der Eingabeaufforderung sollten nun Logs erscheinen, die zeigen, dass der Start erfolgreich war. Bitte beachte, dass der erste Start einige Zeit dauern kann, da alles eingerichtet wird. Alternativ kannst du dich auch direkt verbinden, indem du in der unteren Suchleiste der Serverliste nach `[deine_ip_address]:28015`.
+Im Terminal solltest du nun Logs sehen, die anzeigen, dass der Server erfolgreich gestartet wurde. Beachte, dass der erste Start etwas länger dauern kann, da alles eingerichtet wird. Wenn alles wie erwartet läuft, ist dein Server in der Serverliste sichtbar. Alternativ kannst du dich direkt verbinden, indem du nach `[deine_ip_adresse]:28015` suchst.
 
-## Abschluss
+## Fazit
 
-Herzlichen Glückwunsch, du hast den Rust Server erfolgreich auf deinem vServer installiert und konfiguriert! Als nächsten Schritt empfehlen wir dir einen Blick in unsere Anleitung [Linux Dienst einrichten](vserver-linux-create-gameservice.md), in der du deinen neuen dedizierten Gameserver als Dienst einrichten kannst. Dies bietet verschiedene Vorteile, wie z. B. den automatischen Start des Servers beim Hochfahren, automatische Server-Updates, einfache Verwaltung und Zugriff auf Logs und vieles mehr!
+Glückwunsch, du hast deinen Rust Server erfolgreich auf deinem VPS installiert und konfiguriert! Als nächsten Schritt empfehlen wir dir, unsere [Setup Linux Service](vserver-linux-create-gameservice.md) Anleitung anzuschauen. Dort erfährst du, wie du deinen neuen Dedicated Server als Service einrichtest. Das bringt viele Vorteile wie automatischen Serverstart beim Booten, automatische Updates, einfache Verwaltung und Zugriff auf Logs – und noch viel mehr!
 
-Wenn du weitere Fragen oder Probleme hast, wende dich bitte an unser Support-Team, das dir jeden Tag zur Verfügung steht!
+Falls du weitere Fragen oder Probleme hast, steht dir unser Support-Team täglich zur Verfügung und hilft dir gerne weiter!
 
 <InlineVoucher />

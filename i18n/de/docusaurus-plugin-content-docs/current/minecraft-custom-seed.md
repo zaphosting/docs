@@ -1,8 +1,8 @@
 ---
 id: minecraft-custom-seed
-title: "Minecraft: Custom World Seed"
-description: Informationen über die Einrichtung eines Custom World Seed für deinen Minecraft-Server von ZAP-Hosting - ZAP-Hosting.com Dokumentation
-sidebar_label: Custom World Seed
+title: "Minecraft: Eigener Welt-Seed"
+description: "Entdecke, wie du einzigartige Minecraft-Welten erstellst, indem du eigene Seeds für neue Abenteuer und Weltgenerierung festlegst → Jetzt mehr erfahren"
+sidebar_label: Eigener Welt-Seed
 services:
   - gameserver-minecraft
 ---
@@ -11,34 +11,32 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
 
-Ein Seed in Minecraft ist ein bestimmter Code aus Zahlen oder Buchstaben, der bestimmt, wie deine Spielwelt generiert wird. Er formt das Terrain, die Biome, die Strukturen und die Ressourcen, die du in deiner Welt entdecken wirst. Wenn du denselben Seed mit derselben Spielversion und denselben Einstellungen verwendest, entsteht immer dasselbe Weltlayout, was das Teilen einzigartiger Welten mit anderen leicht macht.
+Ein Seed in Minecraft ist ein spezieller Code aus Zahlen oder Buchstaben, der bestimmt, wie deine Spielwelt generiert wird. Er formt das Terrain, Biome, Strukturen und Ressourcen, die du in deiner Welt findest. Mit dem gleichen Seed, der gleichen Spielversion und den gleichen Einstellungen wird immer dieselbe Welt generiert – perfekt, um einzigartige Welten mit anderen zu teilen.
 
-Denken daran, dass du den Seed für eine bestehende Welt nicht ändern kannst. Der Seed wirkt sich nur auf die Generierung einer neuen Welt aus. Um einen anderen Seed zu verwenden, musst du immer eine neue Welt erstellen, nachdem du diesen gesetzt hast.
+Beachte, dass du den Seed für eine bestehende Welt nicht ändern kannst. Der Seed beeinflusst nur die Generierung einer neuen Welt. Um einen anderen Seed zu nutzen, musst du also immer eine neue Welt erstellen, nachdem du ihn eingestellt hast.
 
 <InlineVoucher />
 
-
-
 ## Konfiguration
 
-Um einen benutzerdefinierten Seed zu konfigurieren, stoppe zunächst deinen Server, um Datenkonflikte zu vermeiden. Öffne dann deine `server.properties` Datei. Du findest diese Konfigurationsdatei in der Verwaltung deines Servers unter **Configs**.
+Um einen eigenen Seed einzustellen, stoppe zuerst deinen Server, um Datenkonflikte zu vermeiden. Öffne dann deine `server.properties` Datei. Diese findest du im Admin-Panel deines Servers unter **Configs**.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/XBKN9r3CAweP9RG/download)
 
-Suche nach der Zeile, die mit `level-seed=` beginnt. Hier kannst du den gewünschten Seed-Wert eingeben. Zum Beispiel:
+Suche die Zeile, die mit `level-seed=` beginnt. Hier kannst du deinen gewünschten Seed eingeben. Zum Beispiel:
 
 ```
 level-seed=12345
 ```
 
-Ersetze `12345' durch deinen eigenen Seed-Code. Dies kann eine beliebige Zahl oder eine beliebige Zeichenkette sein. Nachdem du deinen eigenen Seed festgelegt hast, musst du eine neue Welt erzeugen, damit dieser wirksam wird.
+Ersetze `12345` durch deinen eigenen Seed-Code. Das kann jede beliebige Zahl oder Textzeichenfolge sein. Nachdem du deinen eigenen Seed eingestellt hast, musst du eine neue Welt generieren, damit die Änderung wirksam wird.
 
-Der einfachste Weg, dies zu tun, ist, den `Level-Namen` in den **Einstellungen** in einen neuen, unbenutzten Namen zu ändern, zum Beispiel `world1`. Dadurch wird sichergestellt, dass Minecraft einen neuen Weltordner mit deinem neuen Seed erstellt.
+Am einfachsten geht das, indem du den `level-name` in den **Einstellungen** auf einen neuen, noch nicht genutzten Namen änderst, zum Beispiel `world1`. So stellt Minecraft sicher, dass ein frischer Welt-Ordner mit deinem neuen Seed erstellt wird.
 
-Wenn du mehr darüber wissen möchtest, wie du eine bestehende Welt neu erstellst, kannst du in unserer [Welten generieren](minecraft-worlds.md) Anleitung nachlesen, wie das geht. Starte schließlich deinen Server neu. Minecraft wird nun eine neue Welt mit deinem benutzerdefinierten Seed erstellen.
+Wenn du wissen möchtest, wie du eine bestehende Welt neu erstellen kannst, schau dir unsere [Welt neu erstellen](minecraft-worlds.md) Anleitung mit detaillierten Schritten an. Zum Schluss startest du deinen Server wieder. Minecraft generiert jetzt eine neue Welt mit deinem eigenen Seed.
 
-## Abschluss
+## Fazit
 
-Mit diesen Schritten hast du erfolgreich einen neuen Seed für deine neue Welt gesetzt. Starte deinen Server neu, erkunde deine frisch generierte Welt und genieße dein eigenes einzigartiges Minecraft-Abenteuer. Für weitere Fragen oder Hilfe zögere bitte nicht, unser Support-Team zu kontaktieren, das dir täglich zur Verfügung steht! 🙂
+Mit diesen Schritten hast du erfolgreich einen neuen Seed für deine neue Welt eingestellt. Starte deinen Server neu, erkunde deine frisch generierte Welt und genieße dein ganz eigenes Minecraft-Abenteuer. Bei Fragen oder Problemen steht dir unser Support-Team täglich zur Seite! 🙂
 
 <InlineVoucher />

@@ -1,8 +1,8 @@
 ---
 id: minecraft-addop
-title: "Minecraft: Server OP-Rechte vergeben"
-description: Informationen, wie du OP-Rechte für deinen Minecraft-Server von ZAP-Hosting.com vergeben und bearbeiten kannst - ZAP-Hosting.com Dokumentation
-sidebar_label: OP-Rechte
+title: "Minecraft: OP-Rechte auf dem Server vergeben"
+description: "Entdecke, wie du Spielern OP-Rechte zuweist und Server-Berechtigungen effektiv verwaltest für mehr Kontrolle im Spiel → Jetzt mehr erfahren"
+sidebar_label: OP-Permissions
 services:
   - gameserver-minecraft
 ---
@@ -13,50 +13,49 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## OP-Rechte vergeben
 
-Damit man sich selbst oder auch anderen Spielern OP-Recht zuteilen kann, muss man zunächst die Konsole aufrufen, insofern bisher kein anderer Spieler ausreichende OP-Rechte hat, damit die Vergabe im Spiel selbst möglich ist.
+Um dir selbst oder anderen Spielern OP-Rechte zu vergeben, musst du zuerst die Konsole öffnen, falls noch kein anderer Spieler ausreichende OP-Rechte hat, damit die Vergabe nicht direkt im Spiel möglich ist.
 
+Um die Konsole zu öffnen, muss der jeweilige Server zuerst über das **Dashboard** aufgerufen werden. Im Interface des Servers findest du links in der Liste unter dem Reiter „INFORMATION“ den Eintrag „Live-Konsole“.
 
-Um die Konsole zu öffnen, muss zunächst der jeweilige Server über das **Dashboard** aufgerufen werden. Im Interface des Servers angekommen ist links in der Liste unter dem Reiter "INFORMATIONEN" der Eintrag "Live Konsole" zu finden, worüber die Konsole geöffnet werden kann.
+![](https://screensaver01.zap-hosting.com/index.php/s/PAaZQPXF75aW4Bi/preview)
 
-![](https://screensaver01.zap-hosting.com/index.php/s/JkzX6S2dLg3td9b/preview)
+Jetzt solltest du ein dunkles Fenster sehen, das die Konsole des Servers darstellt. Darunter findest du ein Eingabefeld, in das beliebige Befehle an die Konsole übergeben werden können. Um die OP-Rechte zu setzen, muss der Befehl „op player“ (ohne „/“) in das Eingabefeld eingegeben werden und anschließend auf den grünen Button „Befehl senden“ geklickt werden, um den Befehl an die Konsole zu schicken.
 
-Nun sollte ein dunkles Fenster zu sehen sein, was die Konsole des Servers darstellt. Darunter ist ein Eingabefeld zu erkennen, wo jegliche Befehle an die Konsole übergeben werden, sodass diese dort ausgeführt werden. Um nun die OP-Rechte zu setzten, muss in das Eingabefeld der Befehl "op [Spieler]" (ohne "/") eingetragen werden und anschließend auf den grünen Button "Befehl senden" geklickt werden, damit der Befehl an die Konsole gesendet wird.
+![](https://screensaver01.zap-hosting.com/index.php/s/myba237CL5XMfKi/preview)
 
-![](https://screensaver01.zap-hosting.com/index.php/s/aTT9dPyMaQYQgP5/preview)
-
-Nach wenigen Sekunden sollte der gesendete Befehl in der Konsole erscheinen, worauf die Meldung "Made [Spieler] a server operator" kommt, welche den Vorgang als erfolgreich markiert. Nun hat der jeweilige Spieler alle OP-Rechte und kann beispielsweise den Spielmodus wechseln.
+Nach ein paar Sekunden sollte der gesendete Befehl in der Konsole erscheinen, gefolgt von der Meldung „Made player a server operator“, was die erfolgreiche Aktion bestätigt. Nun hat der jeweilige Spieler alle OP-Rechte und kann zum Beispiel den Spielmodus ändern.
 
 :::info
-Das Verteilen von OP-Rechten ist nun auch im Spiel selbst möglich, sodass du das Rechte-Level wie im nächsten Schritt erklärt ggf. anpassen solltest, insofern dies von dir gewünscht ist.
+Die Vergabe von OP-Rechten ist mittlerweile auch direkt im Spiel möglich. Falls du das nutzen möchtest, solltest du das Rechte-Level wie im nächsten Schritt erklärt anpassen.
 :::
 
 ## Rechte-Level
 
-Die OP-Rechte sind in vier Level unterteilt, wobei standardmäßig immer Level 4 gesetzt wird. Die jeweiligen Level beinhalten verschiedene Rechte, sodass die Rechte je nach Spieler grob eingeteilt werden können. Die jeweiligen Rechte eines Levels sehen wie folgt aus:
+Die OP-Rechte sind in vier Level unterteilt, wobei Level 4 standardmäßig gesetzt ist. Die einzelnen Level enthalten unterschiedliche Rechte, sodass die Rechte grob nach Spielern aufgeteilt werden können. Die jeweiligen Rechte der Level sind:
 
-| Level | Bezeichnung | Rechte  |
+| Level | Beschreibung | Berechtigungen |
 | :-----: |:-------------:| :-----:|
-| 1 | Moderator | Veränderungen innerhalb des geschützten Spawnbereichs können vorgenommen werden. |
-| 2 | Gamemaster | Befehlsblöcke setzen und editieren, sowie das Ausführen diverse Cheat-Befehle (z.B.: /gamemode). |
-| 3 | Admin  | Kicken und bannen von Spielern, sowie weitere Befehle, die der allgemeinen Verwaltung des Servers angehören. Zudem können weitere Operatoren ernannt werden. |
-| 4 | Owner | Keine Einschränkungen mehr vorhanden. |
+| 1 | Moderator | Änderungen im geschützten Spawn-Bereich sind erlaubt. |
+| 2 | Gamemaster | Setzen und Bearbeiten von Command-Blöcken sowie Ausführen verschiedener Cheat-Befehle (z.B.: /gamemode). |
+| 3 | Admin | Spieler kicken und bannen sowie weitere Befehle, die zur allgemeinen Serververwaltung gehören. Weitere Operatoren können ernannt werden. |
+| 4 | Owner | Keine Einschränkungen mehr. |
 
 :::info
-Durch die Installation eines Rechte-Plugins wie LuckPerms auf deinem Bukkit/Spigot Server, können die Rechte viel spezieller und detailreicher festgelegt werden. Zudem können auch mehrere Gruppen erstellt werden, was die Verteilung von Rechten vereinfacht.
+Mit einem Permissions-Plugin wie LuckPerms auf deinem Bukkit/Spigot-Server kannst du die Berechtigungen viel spezifischer und detaillierter einstellen. Es ist auch möglich, mehrere Gruppen zu erstellen, was die Rechtevergabe vereinfacht.
 :::
 
-### Rechte-Level zuweisen
+## Rechte-Level vergeben
 
-Um das Level eines Spielers anzupassen, muss dieser zuerst zum Operator ernannt werden, wie unter "OP-Rechte vergeben" erklärt wird. Damit das Level angepasst werden kann, muss die Datei "ops.json" mittels FTP-Verbindung bearbeitet werden.
+Um das Level eines Spielers anzupassen, muss er zuerst als Operator ernannt werden, wie unter „OP-Rechte vergeben“ erklärt. Um das Level anzupassen, muss die Datei „ops.json“ per FTP-Verbindung bearbeitet werden.
 
-Sobald die Verbindung zum Server mittels FTP hergestellt worden ist, muss in das jeweilige Verzeichnis des Servers navigiert werden. Nun muss in unserem Fall bei FileZilla ein Rechtsklick auf die Datei gemacht werden und in dem erschienenen Menü auf "Ansehen/Bearbeiten" geklickt werden.
+Sobald die Verbindung zum Server per FTP hergestellt ist, navigierst du in das entsprechende Verzeichnis des Servers. In unserem Fall klickst du bei FileZilla mit der rechten Maustaste auf die Datei und wählst im erscheinenden Menü „Ansehen/Bearbeiten“ aus.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/NqPzBp5zemo29Si/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/TTeL8WqnQfrdEDq/preview)
 
-Jetzt muss bei dem gewünschten Spieler der Wert von "level" auf das gewünschte Level gesetzt werden, worauf die Datei mit **STRG+S** gespeichert werden muss.
+Jetzt muss der Wert von „level“ für den gewünschten Spieler auf das gewünschte Level gesetzt werden, danach speicherst du die Datei mit **STRG+S**.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/2AozMYsSprjQ7WD/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/WKQkAR3oALsSNAc/preview)
 
-Damit die Änderungen übernommen werden, ist ein Neustart des Servers nötig, was mit dem Halten des roten Stop-Buttons im Interface des Servers möglich ist.
+Damit die Änderungen wirksam werden, muss der Server neu gestartet werden. Das geht, indem du im Server-Interface den roten Stop-Button gedrückt hältst.
 
 <InlineVoucher />

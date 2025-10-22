@@ -1,7 +1,7 @@
 ---
 id: dayz-rcon
 title: "DayZ: RCON"
-description: "Erfahre, wie du RCON für DayZ verwendest – ZAP-Hosting Dokumentation"
+description: "Entdecke, wie du DayZ Gameserver effizient aus der Ferne verwaltest und steuerst – ganz ohne Ingame-Verbindung → Jetzt mehr erfahren"
 sidebar_label: RCON
 services:
   - gameserver-dayz
@@ -12,64 +12,60 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
 
-RCON (Remote Console) ist ein Netzwerkprotokoll zur Fernsteuerung von Gameservern. Es ermöglicht den Zugriff auf die Serverkonsole, ohne dass du direkt auf die Serverumgebung zugreifen musst. Dadurch kannst du administrative Befehle ausführen, Konfigurationsparameter anpassen oder den Serverstatus abfragen.
+RCON (Remote Console) ist ein Netzwerkprotokoll, mit dem du Gameserver aus der Ferne steuern kannst. Es ermöglicht den Zugriff auf die Serverkonsole, ohne direkt mit der Serverumgebung interagieren zu müssen. So kannst du administrative Befehle ausführen, Konfigurationsparameter anpassen oder Serverstatusinformationen abrufen.
 
-In DayZ wird RCON verwendet, um serverseitige Befehle auszuführen, zum Beispiel zur Verwaltung von Spielern, zur Änderung von Spieleinstellungen oder zum Abrufen von Diagnosedaten. Die Verbindung ist durch ein Passwort geschützt und erfolgt über einen definierten Port, der über kompatible RCON-Clients erreichbar ist.
+Bei DayZ wird RCON genutzt, um serverseitige Befehle auszuführen, wie z.B. Spieler verwalten, Gameplay-Einstellungen ändern oder Diagnoseausgaben abrufen. Die Verbindung ist passwortgeschützt und läuft über einen festgelegten Port, der über kompatible RCON-Clients erreichbar ist.
 
-Ein wesentlicher Vorteil von RCON ist, dass du den Server verwalten kannst, **ohne selbst im Spiel verbunden zu sein**. Administratoren können DayZ über externe Tools, Kommandozeilen-Interfaces oder Web-Dashboards überwachen und steuern, flexibel und ortsunabhängig.
+Ein großer Vorteil von RCON ist, dass du den Server **verwaltst, ohne als Spieler im Spiel verbunden sein zu müssen**. Server-Admins können DayZ bequem über externe Tools, Kommandozeilen oder Web-Dashboards überwachen und steuern – das bietet maximale Flexibilität und Komfort für die Fernverwaltung.
 
 <InlineVoucher />
 
-
-
 ## Konfiguration
 
-Bevor RCON verwendet werden kann, muss es aktiviert und konfiguriert werden. Dies kann direkt in der Gameserververwaltung unter dem Reiter **Einstellungen** erfolgen. Dort findest du eine Option namens **RCON**, die aktiviert werden muss. Zusätzlich solltest du ein sicheres Passwort festlegen.
+Bevor du RCON nutzen kannst, muss es aktiviert und konfiguriert werden. Das geht direkt in der Gameserver-Verwaltung. Unter dem Bereich **Einstellungen** findest du die Option **RCON**, die aktiviert werden muss. Setze ein sicheres Passwort.
 
-Der zugewiesene RCON-Port ist unten auf der Einstellungsseite im Bereich **Portübersicht** zu finden.
+Den zugewiesenen RCON-Port findest du ganz unten auf der Einstellungsseite in der **Portübersicht**. 
 
 
 
-## Verbindung per RCON
+## Verbindung via RCON
 
-Um dich per RCON mit dem DayZ Server zu verbinden, wird das Tool **BattleWarden** verwendet. Es kann über die [offizielle Website](https://www.battlewarden.net) heruntergeladen werden. Nach der Installation auf deinem Computer muss ein neues Verbindungsprofil erstellt werden. Folgende Angaben sind erforderlich:
+Um dich per RCON mit dem DayZ-Server zu verbinden, nutzt du das Tool **BattleWarden**. Du kannst es auf der [offiziellen Webseite](https://www.battlewarden.net) herunterladen. Nach dem Download und der Installation auf deinem PC musst du ein neues Verbindungsprofil anlegen. Folgende Werte werden benötigt:
 
-- IP-Adresse des Servers
-- RCON-Port
+- Server-IP-Adresse  
+- RCON-Port 
 - RCON-Passwort
 
-Sobald die Verbindung steht, können RCON-Befehle über die grafische Oberfläche ausgeführt werden. Das Tool bietet je nach Spiel zusätzliche Funktionen wie Spielerlisten, Live-Chat und Befehlshistorie.
+Ist die Verbindung hergestellt, kannst du RCON-Befehle über die grafische Oberfläche ausführen. Das Tool bietet je nach Spielintegration auch Features wie Spielerlisten, Live-Chat und Befehlsverlauf.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/P9S3rx3GFWkAo3G/preview)
 
 
 
-
-
 ## RCON-Befehle
 
-Sobald die Verbindung über RCON besteht, können verschiedene administrative und diagnostische Befehle auf dem DayZ Server ausgeführt werden. Die verfügbaren Befehle hängen von der Game-Engine ab, beinhalten aber typischerweise Aktionen zur Spielersteuerung, Statusabfragen und Serverkontrolle.
+Nach der Verbindung via RCON kannst du verschiedene administrative und diagnostische Befehle auf dem DayZ-Server ausführen. Die verfügbaren Befehle hängen vom Spiel-Engine ab, umfassen aber typischerweise Aktionen zur Spielerverwaltung, Statusabfragen und Serversteuerung.
 
-| Befehl                         | Beschreibung                                         |
+| Befehl                         | Beschreibung                                          |
 |----------------------------------|------------------------------------------------------|
-| `#login <Passwort>`             | Melde dich als RCON-Administrator an                |
-| `#logout`                       | Verlasse die Admin-Sitzung                          |
-| `#kick <Spielername>`           | Kicke einen Spieler vom Server                      |
-| `#ban <Spielername>`            | Bannt einen Spieler (permanent)                     |
-| `#exec ban <SpielerID>`         | Bannt per Steam64ID (BattlEye)                      |
-| `#exec unban <SpielerID>`       | Hebt einen Bann wieder auf                          |
-| `#shutdown`                     | Fährt den Server herunter                           |
-| `#monitor <Sekunden>`           | Zeigt Performanceinfos alle x Sekunden              |
-| `#lock`                         | Sperrt den Server für neue Verbindungen             |
-| `#unlock`                       | Entsperrt den Server                                |
+| `#login <password>`             | Meldet dich als RCON-Admin an                         |
+| `#logout`                       | Beendet die Admin-Sitzung                             |
+| `#kick <playerName>`            | Kickt einen Spieler vom Server                        |
+| `#ban <playerName>`             | Bannt einen Spieler dauerhaft                         |
+| `#exec ban <playerID>`          | Bannt einen Spieler via Steam64ID (BattlEye)         |
+| `#exec unban <playerID>`        | Hebt einen Bann für einen Spieler auf                 |
+| `#shutdown`                     | Fährt den Server herunter                             |
+| `#monitor <seconds>`            | Zeigt Performance-Daten alle x Sekunden               |
+| `#lock`                         | Sperrt den Server für neue Verbindungen               |
+| `#unlock`                       | Entsperrt den Server wieder                           |
 
 
 
 
-## Abschluss
+## Fazit
 
-RCON ist ein zentrales Werkzeug für die Fernadministration von DayZ Gameservern. Es ermöglicht schnellen und direkten Zugriff auf administrative Funktionen und bietet gleichzeitig Zugriffsschutz durch Passwortauthentifizierung. Eine korrekte und sichere Konfiguration ist entscheidend, um die Stabilität des Servers zu gewährleisten und unbefugten Zugriff zu verhindern.
+RCON ist ein essentielles Tool für die Fernverwaltung von DayZ Gameservern. Es ermöglicht schnellen und direkten Zugriff auf administrative Funktionen und schützt den Zugang durch Passwort-Authentifizierung. Eine korrekte und sichere Konfiguration ist entscheidend, um die Serverstabilität zu gewährleisten und unbefugten Zugriff zu verhindern.
 
-Für weitere Fragen oder Hilfe zögere bitte nicht, unser Support-Team zu kontaktieren, das dir täglich zur Verfügung steht! 🙂
+Bei Fragen oder wenn du Hilfe brauchst, steht dir unser Support-Team täglich zur Seite! 🙂
 
 <InlineVoucher />

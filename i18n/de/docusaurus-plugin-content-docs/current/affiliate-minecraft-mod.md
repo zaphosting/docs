@@ -1,7 +1,7 @@
 ---
 id: affiliate-minecraft-mod
-title: Offizieller ZAP-Hosting-Partner-Mod für Minecraft
-description: Wie du mit dem Partnerprogramm Geld verdienen und den ZAP-Hosting-Partnermod für Minecraft nutzen kannst – ZAP-Hosting.com Dokumentation
+title: Offizieller ZAP-Hosting Affiliate Mod für Minecraft
+description: "Entdecke, wie du mit dem offiziellen ZAP-Hosting Affiliate Mod deine Minecraft Modpack-Einnahmen steigerst und deine Community supportest → Jetzt mehr erfahren"
 sidebar_label: Minecraft Affiliate Mod
 ---
 
@@ -12,30 +12,30 @@ import TabItem from '@theme/TabItem';
 
 ## Einführung
 
-Um unsere Partner im Bereich Minecraft-Modpacks besser zu unterstützen, bieten wir einen offiziellen ZAP-Hosting-Partner-Mod für Minecraft an, der mit Forge, Fabric und NeoForge – den drei wichtigsten Mod-Entwicklungsplattformen – funktioniert.
+Im Rahmen unseres Ziels, unsere Affiliates und Partner im Bereich Minecraft Modpacks zu stärken, bieten wir einen **offiziellen ZAP-Hosting Affiliate Mod** für Minecraft an, der mit Forge, Fabric und NeoForge – den drei wichtigsten Mod-Entwicklungsplattformen – kompatibel ist.
 
-Der Mod wird hauptsächlich direkt über **CurseForge** veröffentlicht, auf den du [hier](https://zap-hosting.com/mc-affiliate-mod) zugreifen und den du nutzen kannst.
+Der Mod wird hauptsächlich direkt über **CurseForge** veröffentlicht, welcher [hier erreichbar ist](https://zap-hosting.com/mc-affiliate-mod) und von jedem genutzt werden kann.
 
 ## Hauptzweck
 
-Mit diesem Mod können Modpack-Ersteller ihre Affiliate-Beiträge ganz einfach direkt ins Spiel packen, ohne eigene Mods entwickeln oder Menüs bearbeiten zu müssen. Mit diesem Drag-and-Drop-Mod ist es für unsere Affiliates jetzt einfacher denn je, Provisionen aus ihren Modpacks zu verdienen und damit sich selbst und ihre Community direkt zu unterstützen!
+Der Zweck dieses Mods ist es, Modpack-Erstellern eine einfache Möglichkeit zu bieten, ihre Affiliate-Beiträge direkt im Spiel zu integrieren, ohne den Aufwand, eigene Mods zu entwickeln oder Menüs zu bearbeiten. Mit diesem Drag-and-Drop-Mod wird es für unsere Affiliates einfacher denn je, durch ihre Modpacks Provisionen zu verdienen und so sich selbst und ihre Community direkt zu unterstützen!
 
 ## Was macht der Mod?
 
-Unser Mod bringt Affiliate-Funktionen auf der Client-Seite in die Menüs des Spiels rein, die im Moment aus drei Funktionen bestehen. Wenn du auf eine dieser Funktionen klickst, öffnet sich der Browser des Spielers mit dem Affiliate-Link, den der Ersteller festgelegt hat.
+Unser Mod implementiert clientseitige Affiliate-Funktionen in die Ingame-Menüs, die aktuell aus drei Features bestehen. Jedes dieser Features öffnet beim Anklicken den Browser des Spielers mit dem vom Ersteller konfigurierten Affiliate-Link.
 
 <Tabs>
-<TabItem value="multiplayer-screen-banner" label="Banner für den Mehrspielermodus" default>
+<TabItem value="multiplayer-screen-banner" label="Multiplayer Bildschirm Banner" default>
 
-Diese Funktion fügt oben in der Serverliste auf dem Multiplayer-Bildschirm ein **ZAP-Hosting**-Banner hinzu. Es folgt dem traditionellen Design der Servereinträge und fügt sich somit perfekt in das Menü ein.
+Dieses Feature fügt ein **ZAP-Hosting** Banner oben in der Serverliste auf dem Multiplayer-Bildschirm hinzu. Es folgt dem traditionellen Servereintrags-Design, sodass es perfekt ins Menü passt.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/83k2XqLQHrCeXe7/preview)
 
 </TabItem>
 
-<TabItem value="title-screen-realms-button" label="Titelbildschirm Realms-Schaltfläche">
+<TabItem value="title-screen-realms-button" label="Titelbildschirm Realms Button">
 
-Diese Funktion ersetzt die Standardschaltfläche **Realms** auf dem Titelbildschirm durch eine Schaltfläche **ZAP-Hosting**. Wenn du mit der Maus über die Schaltfläche fährst, wird der vom Ersteller konfigurierte Partnerrabattcode angezeigt.
+Dieses Feature ersetzt den Standard-**Realms**-Button auf dem Titelbildschirm durch einen **ZAP-Hosting** Button. Wenn man mit der Maus darüber fährt, wird der vom Ersteller konfigurierte Affiliate-Rabattcode angezeigt.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/wbrB8MnR6Zpi8bm/preview)
 
@@ -43,36 +43,36 @@ Diese Funktion ersetzt die Standardschaltfläche **Realms** auf dem Titelbildsch
 
 </TabItem>
 
-<TabItem value="title-screen-banner" label="Titelbildschirm-Banner">
+<TabItem value="title-screen-banner" label="Titelbildschirm Banner">
 
-Diese Funktion fügt ein kleines Banner auf dem Titelbildschirm hinzu. Die Position und Größe können vom Ersteller angepasst werden, sodass es genau dort platziert werden kann, wo es gebraucht wird.
+Dieses Feature fügt einen kleinen Banner auf dem Titelbildschirm hinzu. Position und Größe können vom Ersteller angepasst werden, sodass er genau dort platziert werden kann, wo er gebraucht wird.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/z3nGnpBQZ2HXSq9/preview)
 
 </TabItem>
 </Tabs>
 
-Alle diese Funktionen können einzeln aktiviert oder deaktiviert werden, und es gibt verschiedene Konfigurationsoptionen, damit die endgültige Umsetzung immer ganz nach den Vorstellungen des Erstellers erfolgt!
+Alle diese Features können einzeln ein- und ausgeschaltet werden, mit verschiedenen Konfigurationsoptionen, die sicherstellen, dass die finale Umsetzung immer ganz nach dem Geschmack des Erstellers erfolgt!
 
 :::note Hinweis für Spieler
-Bitte denk daran, dass dieser Mod hauptsächlich dafür gedacht ist, dass unsere Partner ihn in ihre Modpacks packen können, um ganz einfach Provisionen zu verdienen und Unterstützung von Spielern zu bekommen. Wenn du also in einem Modpack auf diesen Mod stößt, betrachte dies bitte als Entscheidung des Mod-Erstellers und nicht als Spam. Als Spieler kannst du den Mod natürlich jederzeit manuell aus einem Modpack entfernen, da er keinerlei Einfluss auf die Funktionalität hat und lediglich clientseitige Menüs anpasst.
+Bitte bedenkt, dass der Hauptzweck dieses Mods darin besteht, dass unsere Affiliates ihn mit ihren Modpacks bündeln, um so einfach Provisionen zu verdienen und Unterstützung von Spielern zu erhalten. Wenn ihr also in einem Modpack auf diesen Mod stoßt, seht das bitte als bewusste Entscheidung des Mod-Erstellers und nicht als Spam. Als Spieler könnt ihr den Mod natürlich jederzeit manuell aus einem Modpack entfernen, da dieser Mod keinerlei Funktionalität beeinflusst und nur clientseitige Menüs anpasst.
 :::
 
 ## Installation
 
-Bist du bereit, mit uns zusammenzuarbeiten? Super! Die gute Nachricht ist, dass die Installation und Einrichtung dieses Mods echt einfach ist und als Modpack-Ersteller nur ein paar Minuten deiner Zeit in Anspruch nimmt. Folge den Schritten in der Grafik und der Liste unten, um sicherzustellen, dass du den Mod für die Verwendung in deinem Modpack vorbereitest.
+Bist du bereit, mit uns durchzustarten? Super! Die gute Nachricht: Die Installation und Einrichtung dieses Mods ist super easy und dauert nur ein paar Minuten als Modpack-Ersteller. Folge einfach den Schritten in der Grafik und der Liste unten, um den Mod für dein Modpack vorzubereiten.
 
 ![Affiliate Mod Setup](https://screensaver01.zap-hosting.com/index.php/s/BfdYJpMjGNjBF99/preview)
 
-1) Erstell einen Affiliate-Link über das [ZAP-Hosting Affiliate Dashboard](https://zap-hosting.com/en/customer/affiliate/).
-2) Installier den Mod in deinem Modpack. Zieh die `.jar`-Datei einfach per Drag & Drop und/oder füg sie zu deinem Mod-Manifest hinzu.
-3) Starte dein Modpack einmal, um die Konfigurationsdatei zu erstellen.
+1) Erstelle einen Affiliate-Link über das [ZAP-Hosting Affiliate Dashboard](https://zap-hosting.com/en/customer/affiliate/).
+2) Installiere den Mod in dein Modpack. Entweder per Drag & Drop der `.jar` oder indem du ihn zu deinem Mod-Manifest hinzufügst.
+3) Starte dein Modpack einmal, damit die Konfigurationsdatei generiert wird.
 4) Öffne die Konfigurationsdatei `zapaffiliatemod-common.toml`.
-5) Konfigurier den Mod, passe die Funktionen an und gib vor allem deinen Affiliate-Link und deinen Rabattcode ein. Speichere die Datei und teste den Mod gründlich, bis alles deinen Vorstellungen entspricht.
-6) Jetzt kannst du dein fantastisches Modpack veröffentlichen!
+5) Konfiguriere den Mod, passe die Features an und setze vor allem deinen Affiliate-Link und Rabattcode. Speichere die Datei und teste den Mod ausgiebig nach deinen Wünschen.
+6) Du bist bereit, dein mega Modpack zu veröffentlichen!
 
-## Schreib uns einfach
+## Kontakt
 
-Brauchst du Hilfe? Oder hast du Fragen zum Mod oder zu unseren Partnerprogrammen?
+Brauchst du Hilfe? Oder hast Fragen zum Mod oder unseren Affiliate-/Partnerprogrammen?
 
-Schreib uns einfach ein Ticket auf unserer Website oder schick eine E-Mail mit deinem Anliegen an `marketing@zap-hosting.com`. Vergiss nicht, so viele Details wie möglich anzugeben. Wir melden uns so schnell wie möglich bei dir!
+Zögere nicht, uns zu kontaktieren – entweder über ein Ticket auf unserer Website oder per E-Mail an `marketing@zap-hosting.com` mit deinem Anliegen. Vergiss nicht, so viele Details wie möglich anzugeben. Wir melden uns so schnell wie möglich bei dir!

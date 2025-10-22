@@ -1,8 +1,8 @@
 ---
 id: fivem-installresources
-title: "FiveM: Installation von Ressourcen"
-description: Informationen, wie du Ressourcen auf deinen FiveM-Server von ZAP-Hosting installieren kannst - ZAP-Hosting.com Dokumentation
-sidebar_label: Ressourcen installieren
+title: "FiveM: Installation von Resources"
+description: "Entdecke, wie du deinen FiveM Gameserver mit beliebten Resources für größere Projekte wie Roleplay-Server aufrüstest → Jetzt mehr erfahren"
+sidebar_label: Resources installieren
 services:
   - gameserver-fivem
 ---
@@ -12,61 +12,62 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 import SearchableItemList from '@site/src/components/SearchableItemList/SearchableItemList';
 import items from '@site/data/lists/fivem-resources.json';
 
-
 ## Einführung
 
-Ressourcen können verwendet werden, um deinen FiveM Server um zusätzliche Funktionen zu erweitern. Dies ist gerade dann interessant, wenn du größere Projekte angehen möchtest, wie zum Beispiel einen Roleplay Server oder ähnlichen. Ohne solche zusätzlichen Ressourcen lässt sich das so direkt nicht umsetzen.
+Resources kannst du nutzen, um deinen FiveM Gameserver mit zusätzlichen Features zu erweitern. Das ist besonders spannend, wenn du größere Projekte wie einen Roleplay-Server oder Ähnliches planst. So etwas geht kaum ohne solche zusätzlichen Resources.
 
-FiveM beziehungsweise dessen Community bietet hierbei eine große Auswahl an Ressourcen an. Eine Übersicht mit den beliebtesten Ressourcen findest du im Cfx.re Forum: https://forum.cfx.re/c/development/releases/7
+FiveM und seine Community bieten eine riesige Auswahl an Resources. Eine Übersicht der beliebtesten Resources findest du im Cfx.re Forum: https://forum.cfx.re/c/development/releases/7
+
+
 
 <InlineVoucher />
 
 ## Vorbereitung
 
-Die Installation der Ressourcen erfolgt per FTP. Du benötigst einen FTP-Client, um Dateien auf deinen Server hochzuladen. Falls du nicht mit der Verwendung von FTP vertraut bist, empfehlen wir dir, einen Blick in die [Zugriff per FTP](gameserver-ftpaccess.md) Anleitung zu werfen.
+Die Installation der Resources erfolgt via FTP. Du brauchst also einen FTP-Client, um Dateien auf deinen Gameserver hochzuladen. Falls du noch nicht mit FTP vertraut bist, empfehlen wir dir einen Blick in unsere [FTP-Zugang](gameserver-ftpaccess.md) Anleitung.
 
-Heruntergeladene Ressourcen werden in der Regel in einem komprimierten Format bereitgestellt. Das bedeutet, dass du die komprimierten Dateien mit einem Entpackungsprogramm wie 7Zip, Winrar oder WinZip entpacken musst. Der entpackte Ressourcenordner sollte mindestens die folgenden Dateien enthalten: `__resource.lua` oder `fxmanifest.lua` sowie die zugehörigen Skriptdateien.
+Heruntergeladene Resources werden meist in komprimierter Form angeboten. Das heißt, du musst die gepackten Dateien mit einem Entpack-Programm wie 7Zip, Winrar oder WinZip entpacken. Der entpackte Resource-Ordner sollte mindestens folgende Dateien enthalten: `__resource.lua` oder `fxmanifest.lua` sowie die zugehörigen Script-Dateien.
 
 :::info
-Falls diese Dateien nicht vorhanden sind, kann es sein, dass sie sich in einem Unterverzeichnis innerhalb der Ressource befinden.
+Falls diese Dateien nicht direkt sichtbar sind, könnten sie sich in einem Unterordner innerhalb der Resource befinden.
 :::
-
 
 ## Installation
 
 ### Dateien hochladen
 
-Du musst nun die zuvor unkomprimierten Dateien als einen einzelnen Ordner hochladen (falls noch nicht geschehen). Dein Ordner muss in das `Ressource`-Verzeichnis des Servers hochgeladen werden. Die Verzeichnisstruktur sieht normalerweise wie folgt aus: `/gXXXXXX/fivem/DEIN_FRAMEWORK/resources`
+Jetzt musst du die zuvor entpackten Dateien als einzelnen Ordner (falls noch nicht geschehen) hochladen. Dein Ordner muss in das `resources` Verzeichnis deines Servers hochgeladen werden. Die Verzeichnisstruktur sieht typischerweise so aus: `/gXXXXXX/fivem/YOUR_TEMPLATE/resources`
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/9ZEX32BSrwGDjEc/preview)
 
-Bestimmte Ressourcen kooperieren mit einer Datenbank und enthalten daher oft bereits SQL-Dateien, die in die Datenbank importiert werden müssen. Wenn dies der Fall ist, dann lese unsere Anleitung [SQL-Datei importieren](fivem-sql-file-import.md), um mehr darüber zu erfahren, wie du dies tun kannst.
+
+
+Manche Resources arbeiten mit einer Datenbank zusammen und enthalten daher oft schon SQL-Dateien, die in die Datenbank importiert werden müssen. Falls das bei dir der Fall ist, schau dir unsere [SQL-Datei Import](fivem-sql-file-import.md) Anleitung an, um zu erfahren, wie das geht.
 
 ### Aktivierung
 
-Um sicherzustellen, dass die installierte Ressource beim Start des Servers geladen wird, musst du sie zunächst in der Datei `server.cfg` für deinen Server aktivieren. Die Aktivierung erfolgt über den Befehl `start [Beispielressource]`. 
+Damit die installierte Resource beim Serverstart geladen wird, musst du sie zuerst in der `server.cfg` Datei deines Servers aktivieren. Die Aktivierung erfolgt über den Befehl `start [Beispiel Resource]`.
 
-Wenn du zum Beispiel die Ressource mit dem Ordnernamen `eup-ui` hochgeladen hast, muss der Startbefehl in der Konfiguration wie folgt aussehen: 
+Wenn du zum Beispiel die Resource im Ordner `eup-ui` hochgeladen hast, muss der Start-Befehl in der Config so aussehen:
 ```
 start eup-ui
 ```
 
-Du kannst auf deine `server.cfg` Konfigurationsdatei über den CFG Editor im txAdmin interface zugreifen.
+Auf deine `server.cfg` Datei kannst du über den CFG Editor im txAdmin Interface zugreifen.
 
 :::info
-Bitte vergewissern dich, dass der Name des zuvor erstellten Ordners mit dem Namen übereinstimmt, der im Startbefehl angegeben ist. Dabei ist auch die Groß- und Kleinschreibung zu beachten.
+Achte darauf, dass der Name des zuvor erstellten Ordners exakt mit dem im Start-Befehl übereinstimmt – Groß- und Kleinschreibung sind hier wichtig.
 :::
 
 
-## Beliebte Ressourcen
+## Beliebte Resources
 
-Noch auf der Suche nach den perfekten Ressourcen für deinen Server? Durchstöbere unsere sorgfältig zusammengestellte Liste mit den beliebtesten und am häufigsten empfohlenen Ressourcen, um dein Spielerlebnis zu erweitern und deinem Server den letzten Feinschliff zu geben. Lass dich inspirieren und finde genau die Erweiterungen, die zu deinem Projekt passen.
+Du suchst noch nach den perfekten Resources für deinen Server? Stöbere durch unsere sorgfältig zusammengestellte Liste der beliebtesten und am meisten empfohlenen Resources, um dein Gameplay zu verbessern und deinem Server den letzten Schliff zu geben. Lass dich inspirieren und finde genau die Addons, die zu deinem Projekt passen.
 
 <SearchableItemList items={items} />
 
 
-## Abschluss
-
-Abschließend kannst du deinen Server neu starten. Die installierte Ressource sollte nun geladen werden, wenn dein Server das nächste Mal vollständig gestartet ist. Du hast erfolgreich eine Ressource auf deinem FiveM Gameserver installiert.  Für weitere Fragen oder Hilfe zögere bitte nicht, unser Support-Team zu kontaktieren, das dir täglich zur Verfügung steht! 🙂
+## Fazit
+Zum Schluss kannst du deinen Server neu starten. Die installierte Resource sollte beim nächsten vollständigen Start deines Servers geladen werden. Du hast erfolgreich eine Resource in deinen FiveM Gameserver installiert. Bei weiteren Fragen oder wenn du Hilfe brauchst, steht dir unser Support-Team täglich zur Verfügung! 🙂
 
 <InlineVoucher />

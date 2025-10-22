@@ -1,94 +1,94 @@
 ---
 id: contribution-blogs
-title: Blogs Prozess
-description: Informationen über den Blog-Beitragsprozess für das ZAP-Hosting Community Contributions Programm - ZAP-Hosting.com Dokumentation
-sidebar_label: Blogs Prozess
+title: Blog-Prozess
+description: "Entdecke, wie du originelle und spannende Blog-Inhalte bei ZAP-Hosting beitragen und dein Know-how mit einer großen Community teilen kannst → Jetzt mehr erfahren"
+sidebar_label: Blog-Prozess
 ---
 
 ![Blogs Banner](https://screensaver01.zap-hosting.com/index.php/s/ysxLZ26K3dSRLJQ/preview)
 
-Auf dieser Seite erfährst du mehr über den Prozess für Beiträge zu unseren ZAP-Hosting.com-Blogs. Der Prozess wird auf dieser Seite in chronologischer Reihenfolge beschrieben, daher empfehlen wir, von hier an zu beginnen.
+Hier erfährst du alles zum Prozess, wie du zu unseren ZAP-Hosting.com Blogs beitragen kannst. Der Ablauf ist auf dieser Seite chronologisch dargestellt, deshalb empfehlen wir, hier zu starten.
 
-## Schritt 1: Inhalte vorschlagen
+## Schritt 1: Content vorschlagen
 
-Der erste Teil des Prozesses besteht darin, einen Vorschlag für einen Blogbeitrag, über den du schreiben möchtest, zu erstellen und einzureichen. Dies geschieht über unser [Blog-Vorschlagsformular](https://forms.gle/jft8sb4mmKMkbt5W9). Du musst uns die wichtigsten Informationen zu deiner Idee geben.
+Der erste Schritt besteht darin, einen Vorschlag für einen Blog-Post zu erstellen und einzureichen, über den du schreiben möchtest. Das machst du über unser [Blog-Vorschlagsformular](https://forms.gle/jft8sb4mmKMkbt5W9). Du musst uns wichtige Infos zu deiner Idee geben.
 
-In dem Formular stellen wir dir ein paar Fragen zu den Details deines Vorschlags für einen Blogbeitrag. Dazu gehören das Thema, die grobe Struktur, die du verwenden willst, eine Zusammenfassung des Inhalts, über den du schreiben willst, sowie deine Kontaktdaten.
+Im Formular stellen wir dir ein paar Fragen zu den Details deines Blog-Post-Vorschlags. Dazu gehören das Thema, die grobe Struktur, die du planst, eine Zusammenfassung der Inhalte, über die du schreiben möchtest, sowie deine Kontaktdaten.
 
 :::tip
-Wir empfehlen dir, unsere Richtlinienseite durchzulesen, um zu verstehen, welche Inhalte und welchen Dokumentationsstil wir verfolgen.
+Wir empfehlen, vorher unsere Richtlinien-Seite zu checken, um den Content- und Dokumentationsstil zu verstehen, den wir verfolgen.
 :::
 
-Bitte fülle das Formular so detailliert wie möglich aus, um die Chancen zu erhöhen, dass deine Blog-Idee angenommen wird.
+Füll das Formular so detailliert wie möglich aus, um die Chancen zu erhöhen, dass deine Blog-Idee angenommen wird.
 
-### Nach welchen Themen suchen wir?
+### Welche Themen suchen wir?
 
-Für unseren Blog suchen wir eine breite Palette an informativen und praktischen Beiträgen, die eine große Bandbreite an Themen abdecken, wie z.B. Gaming, Server-Scripting, Tipps, Artikel über Leidenschaften und vieles mehr. Wir bemühen uns, unsere Blog-Beiträge abwechslungsreich zu gestalten und eine große Auswahl an verschiedenen Themen zu bieten, damit unser Blog informativ, interessant und spannend zu lesen ist.
+In unserem Blog suchen wir eine breite Palette an informativen und praktischen Beiträgen zu Themen wie Gaming, Server-Scripting, Tipps, Leidenschaftsartikel und vieles mehr. Wir wollen unsere Blogposts vielfältig gestalten und eine breite Auswahl an Themen und Styles bieten, damit unser Blog informativ, spannend und abwechslungsreich bleibt.
 
-Wie bereits in der Einführung erwähnt, müssen alle Inhalte, die wir erstellen, original sein, um die Urheberrechtsgesetze einzuhalten. Jegliche unerlaubte Nutzung von KI/generativen Tools und/oder anderem geistigen Eigentum ist strengstens untersagt.
+Wie eingangs erwähnt, muss der gesamte Content original sein, um Urheberrechtsverletzungen zu vermeiden. Jegliche unautorisierte Nutzung von KI-/generativen Tools und/oder anderen geistigen Eigentumsrechten ist strikt verboten.
 
-#### Liste gesuchter Blogbeiträge
+#### Gesuchte Blog-Themenliste
 
-Nachfolgend findest du eine nützliche Liste mit tollen Vorschlägen für neue Blogbeiträge, die du vielleicht schreiben möchtest. Für bestimmte Blog-Themen und Vorschläge gibt es sogar einen Extra-Bonus. Du kannst die [Liste manuell hier](https://docs.google.com/document/d/1XviKFThPxVcbunCZ9zh4xghmrNjettfTLRutIUsZkkY/edit?usp=sharing) aufrufen.
+Wir haben eine praktische Liste mit tollen Vorschlägen für neue Blogposts, die dich interessieren könnten. Für bestimmte Themen gibt es sogar extra Bonus-Belohnungen. Du kannst die [Liste hier manuell einsehen](https://docs.google.com/document/d/1XviKFThPxVcbunCZ9zh4xghmrNjettfTLRutIUsZkkY/edit?usp=sharing).
 
 <iframe width="800" height="750" src="https://docs.google.com/document/d/e/2PACX-1vRAqtCddNwDR44ciI9_xfyKEFWiWp0Y_B7S3YVB2yxXCbpylTpBYc8Vvpb-E1lXVPRXm9NdIkP5tiDA/pub?embedded=true"></iframe>
 <br></br>
 
 :::note
-Denk daran, dass dies nur nützliche Ideen sind, du **musst** nicht unbedingt darüber schreiben, deine Blog-Vorschläge können wie bereits erwähnt kreativ sein.
+Beachte, dass das nur Ideen sind – du **musst nicht** strikt nur darüber schreiben, deine Blog-Vorschläge können auch kreativ und anders sein, wie oben erwähnt.
 :::
 
-### Einreichen des Vorschlags
+### Vorschlag einreichen
 
-Nachdem du nun alle Informationen verstanden hast, gehe bitte zu unserem **[Blog-Vorschlagsformular](https://forms.gle/jft8sb4mmKMkbt5W9)**. Fülle das Formular so detailliert wie möglich aus und sende es ab. Außerdem musst du bestätigen, dass du unsere Allgemeinen Geschäftsbedingungen für das Beitragsprogramm akzeptierst, die du unter [Beitragsbedingungen](contribution-terms.md) einsehen kannst.
+Wenn du alle Infos verstanden hast, geh bitte zu unserem **[Blog-Vorschlagsformular](https://forms.gle/jft8sb4mmKMkbt5W9)**. Füll das Formular so detailliert wie möglich aus und schick es ab. Du wirst auch gebeten, unsere Teilnahmebedingungen für das Beitragsprogramm zu akzeptieren, die du unter [Beitragsbedingungen](contribution-terms.md) findest.
 
 :::caution
-Achte bitte darauf, dass du deine ZAP ID korrekt angibst, denn so werden wir dich bezüglich deines Blogvorschlags kontaktieren!
+Achte darauf, deine ZAP ID korrekt anzugeben, denn so kontaktieren wir dich bezüglich deines Blog-Vorschlags!
 :::
 
-Nachdem du deinen Blog-Vorschlag eingereicht hast, bemühen wir uns, innerhalb von 3-5 Tagen auf dich zu antworten. Du erhältst eine Antwort über ein **Ticket auf unserer Website** an die angegebene ZAP ID, wenn dein Vorschlag **genehmigt** wird und wir daran interessiert sind. Bitte beachte, dass wir dich __nicht__ zurückrufen werden, wenn deine Blog-Idee nicht angenommen wird.
+Nachdem du deinen Vorschlag eingereicht hast, melden wir uns innerhalb von 3-5 Tagen bei dir zurück. Du bekommst eine Antwort über ein **Ticket auf unserer Website** an die angegebene ZAP ID, falls dein Vorschlag **angenommen** wurde und wir interessiert sind. Bitte beachte, dass wir uns __nicht__ melden, wenn dein Blog-Idee abgelehnt wird.
 
 :::tip
-Wenn du Probleme hast, kannst du unserem [ZAP-Hosting Discord Server](https://zap-hosting.com/discord) beitreten, wo wir und die ZAP-Community dir gerne bei allen Fragen helfen. Alternativ kannst du uns auch über ein [Ticket auf unserer Website](https://zap-hosting.com/en/customer/support/) kontaktieren und in deiner Nachricht `Beitragsprogramm - Blogs` erwähnen, damit sie an das ZAP-Beitragsteam weitergeleitet wird.
+**Probleme?** Tritt gerne unserem [ZAP-Hosting Discord Server](https://zap-hosting.com/discord) bei, wo wir und die ZAP-Community dir bei Fragen gerne weiterhelfen. Alternativ kannst du uns auch über ein [Ticket auf unserer Website](https://zap-hosting.com/en/customer/support/) kontaktieren und „Contribution Program - Blogs“ im Betreff angeben, damit deine Anfrage an das ZAP Contributions Team weitergeleitet wird.
 :::
 
-In unserer Ticket-Antwort werden wir dir zusätzliches Feedback oder Details mitteilen, die wir in Bezug auf deinen Blog-Vorschlag anpassen möchten. Sobald wir uns auf bestimmte Details geeinigt haben, kannst du mit dem Schreiben deines Blogs auf der Grundlage der vereinbarten Informationen fortfahren und zum nächsten Schritt in dieser Anleitung übergehen.
+Im Ticket geben wir dir Feedback oder Details, die wir an deinem Blogvorschlag anpassen möchten. Sobald wir uns auf die Details geeinigt haben, kannst du mit dem Schreiben deines Blogs starten und zum nächsten Schritt übergehen.
 
-## Schritt 2: Schreiben des Blogbeitrags
+## Schritt 2: Blog-Post schreiben
 
-In diesem Schritt schreibst du einen neuen Blog-Beitrag auf der Grundlage der mit dem ZAP-Beitragsteam vereinbarten Informationen. Du kannst jede beliebige Anwendung oder jedes beliebige System verwenden, um deinen Blogbeitrag zu schreiben, denn wir sind flexibel.
+In diesem Schritt schreibst du deinen Blog-Post basierend auf den vereinbarten Infos mit dem ZAP Contributions Team. Du kannst jede App oder jedes System nutzen, um deinen Content zu schreiben – das ist flexibel.
 
-Zurzeit akzeptieren wir Inhalte, die sowohl mit **Markdown** als auch mit **HTML5** verfasst werden können.
+Aktuell akzeptieren wir Inhalte im **Markdown**- oder **HTML5**-Format.
 
 :::tip
-Wir können dir das Markdown-Tool **[StackEdit](https://stackedit.io/app#)** empfehlen, um deine Inhalte zu verfassen und gleichzeitig die fantastischen Funktionen von Markdown zu nutzen. Alternativ dazu können wir dir auch den **[HTML5 Editor](https://html5-editor.net/)** empfehlen, wenn du lieber mit HTML5 schreibst. Du kannst diese dann direkt in dein Google Drive oder eine andere Anwendung zur Dateifreigabe exportieren und erhältst einen Link, den du mit uns teilen kannst. Mehr über Markdown-Styling erfährst du in unserer Blog-Richtlinien-Anleitung](contribution-blogs-guidelines.md#formatierung).
+Wir empfehlen dir **sehr**, das Markdown-Tool **[StackEdit](https://stackedit.io/app#)** zu nutzen, um deinen Content zu schreiben und dabei alle coolen Markdown-Funktionen zu behalten. Alternativ kannst du auch den **[HTML5 Editor](https://html5-editor.net/)** verwenden, wenn du lieber mit HTML5 stylst. Du kannst dann direkt in Google Drive oder einem anderen Cloud-Dienst speichern und uns den Link schicken. Mehr zu Markdown findest du in unserer Blog-[Anleitung](contribution-blogs-guidelines.md#formatting).
 :::
 
 :::note
-Vergewissere dich, dass du einen Blogbeitragsvorschlag über unser [Blog Suggestion Form](https://forms.gle/jft8sb4mmKMkbt5W9) erstellt hast und dass du eine Antwort von unserem ZAP Contributions Team über ein Ticket auf unserer Website mit weiteren Informationen erhalten hast. Wir können keine Prämienzahlungen garantieren, wenn du unseren Prozess nicht befolgt hast, da er noch nicht genehmigt wurde.
+Stelle sicher, dass du vorher einen Blog-Vorschlag über unser [Blog-Vorschlagsformular](https://forms.gle/jft8sb4mmKMkbt5W9) eingereicht hast und eine Antwort vom ZAP Contributions Team über ein Ticket auf unserer Website erhalten hast. Ohne diesen Prozess können wir keine Belohnungen garantieren, da dein Beitrag nicht genehmigt wurde.
 :::
 
-Achte beim Schreiben deines Bloginhalts darauf, dass du dich genau an die Struktur und den Inhalt hältst, die im Rahmen deines Blogvorschlags und möglicher Diskussionen mit dem ZAP Contributions Team vereinbart wurden. Wir haben keine strikte Frist für die Fertigstellung deines Blogbeitrags, aber wenn es deutlich länger dauert, können wir dich kontaktieren, um sicherzustellen, dass alles richtig ist.
+Während du schreibst, halte dich bitte genau an die vereinbarte Struktur und Inhalte aus deinem Vorschlag und den Absprachen mit dem ZAP Contributions Team. Es gibt keine strikte Deadline, aber wenn es zu lange dauert, melden wir uns bei dir, um sicherzugehen, dass alles passt.
 
-Bitte zögere nicht, uns zu kontaktieren, indem du direkt auf das Ticket auf der Website antwortest, wenn du weitere Fragen hast oder Hilfe benötigst. Wir unterstützen dich in dieser Phase sehr gerne :D
+Bei Fragen oder wenn du Hilfe brauchst, antworte einfach direkt auf das Ticket auf der Website. Wir unterstützen dich gerne! :D
 
 ## Schritt 3: Entwurf einreichen
 
-Bevor du deinen Entwurf einreichst, solltest du anhand dieser kurzen Checkliste überprüfen, ob alles korrekt ist:
+Bevor du deinen Entwurf einreichst, check bitte kurz mit dieser Liste:
 - Du hast eine klare Struktur eingehalten.
-- Dein Inhalt entspricht dem, was in deinem Blog-Vorschlag und in den Gesprächen mit dem ZAP-Beitragsteam vereinbart wurde.
+- Dein Content passt zu den vereinbarten Themen und Absprachen mit dem ZAP Contributions Team.
 - Du hast unsere [Richtlinien](contribution-blogs-guidelines.md) genau befolgt.
 
-Wenn du glaubst, dass du deinen Blog fertig geschrieben hast und einen Entwurf vorliegen hast, schicke uns bitte deinen Entwurf, indem du auf das Ticket antwortest. Bitte beachte, dass du keine Dateien direkt in das Ticket hochladen kannst. Bereite dich daher darauf vor, den Entwurf in einen Cloud-Speicher wie Google Drive hochzuladen und bei Bedarf einen Link zu teilen. Wir empfehlen dir daher, deinen Inhalt mit Google Docs oder Microsoft Word zu verfassen, da das Teilen deiner Datei sehr einfach und schnell geht, indem du sofort einen Link generierst.
+Wenn du denkst, dein Blog ist fertig und du hast einen Entwurf, schick uns den Entwurf per Antwort auf das Ticket. Du kannst keine Dateien direkt im Ticket hochladen, also lade deinen Entwurf am besten auf einen Cloud-Speicher wie Google Drive hoch und teile uns den Link mit. Wir empfehlen Google Docs oder Microsoft Word, da das Teilen per Link super easy ist.
 
-Wir bemühen uns, innerhalb von 2-3 Tagen auf dein Ticket zu antworten. Wenn wir nach der Überprüfung feststellen, dass zusätzliche Anpassungen oder Änderungen erforderlich sind, teilen wir dir das in unserer Antwort mit. Falls nötig, wiederholst du diesen Schritt und schickst einen weiteren Entwurf mit den gewünschten Änderungen ein, bis wir einen akzeptablen Endzustand erreicht haben.
+Wir antworten in der Regel innerhalb von 2-3 Tagen. Nach der Prüfung sagen wir dir, ob noch Änderungen nötig sind. Falls ja, wiederholst du diesen Schritt und schickst einen neuen Entwurf, bis alles passt.
 
-## Schritt 4: Blog veröffentlichen & Bezahlung
+## Schritt 4: Blog veröffentlichen & Belohnung
 
-Sobald dein endgültiger Entwurf akzeptiert wurde, antworten wir auf dein Ticket und teilen dir die wichtigsten Details mit. Dazu gehören Informationen darüber, wann wir deinen Blogbeitrag veröffentlichen wollen, sowie die Auszahlung deiner Belohnung für die erfolgreiche Fertigstellung deines Blogbeitrags.
+Sobald dein finaler Entwurf akzeptiert ist, melden wir uns im Ticket bei dir mit allen wichtigen Infos. Dazu gehört, wann wir deinen Blog veröffentlichen und Details zur Belohnung für deinen erfolgreichen Beitrag.
 
 :::info
-Die Belohnung für diese Art von Beitrag hängt von mehreren Faktoren ab, vor allem von der Qualität und dem Umfang des geschriebenen Inhalts sowie von anderen Kriterien, die vom ZAP-Beitragsteam bewertet werden. Mehr über unsere Kriterien erfährst du in unserem [Belohnungen](contribution-rewards.md).
+Die Belohnung hängt von verschiedenen Faktoren ab, vor allem von der Qualität und dem Umfang des geschriebenen Contents sowie weiteren Kriterien, die das ZAP Contributions Team bewertet. Mehr dazu findest du in unseren [Belohnungen](contribution-rewards.md).
 :::
 
-Herzlichen Glückwunsch zu deinen Beiträgen für unsere ZAP-Hosting Guides! Wir schätzen alle deine Beiträge! 💚
+Glückwunsch, dass du zu unseren ZAP-Hosting Guides beiträgst! Wir schätzen deine Unterstützung sehr! 💚

@@ -1,7 +1,7 @@
 ---
 id: vserver-linux-docker
-title: "vServer: Installation von Docker"
-description: Informationen, wie du Docker auf deinen vServer von ZAP-Hosting installieren kannst - ZAP-Hosting.com Dokumentation
+title: "VPS: Docker Installation"
+description: "Entdecke, wie du Docker auf deinem Linux-Server installierst, um isolierte Anwendungen effizient auszuführen und Systemressourcen zu sparen → Jetzt mehr erfahren"
 sidebar_label: Docker installieren
 services:
   - vserver
@@ -13,26 +13,25 @@ import TabItem from '@theme/TabItem';
 
 ## Einführung
 
-Docker ist eine leichtgewichtige Open-Source-Virtualisierungssoftware, um Dienste oder Anwendungen isoliert auf einem einzelnen System bereitzustellen. Im Gegensatz zu echten virtuellen Maschinen wird hierfür kein zusätzliches Betriebssystem emuliert oder gehostet, sondern nur eine Anwendungsumgebung innerhalb des Hostsystems. Dies spart nicht nur generell Ressourcen, sondern verursacht gleichzeitig einen geringen Overhead im Vergleich zur Vollvirtualisierung. In dieser Anleitung behandeln wir den Prozess der Installation von Docker auf deinem Server.
+Docker ist eine leichte, Open-Source-Virtualisierungssoftware, mit der du Dienste oder Anwendungen isoliert auf einem einzigen System bereitstellen kannst. Im Gegensatz zu echten virtuellen Maschinen wird dabei kein zusätzliches Betriebssystem emuliert oder gehostet, sondern nur eine Anwendungsumgebung innerhalb des Host-Systems. Das spart nicht nur generell Ressourcen, sondern sorgt gleichzeitig für einen geringen Overhead im Vergleich zur Vollvirtualisierung. In dieser Anleitung zeigen wir dir, wie du Docker auf deinem Server installierst.
 
 <InlineVoucher />
 
 ## Vorbereitung
 
-Zu Beginn musst du dich über SSH mit deinem Linux-Server verbinden. Bitte schau dir unsere Anleitung [Erstzugriff (SSH)](vserver-linux-ssh.md) an, wenn du dabei Hilfe benötigst. In dieser Anleitung verwenden wir Ubuntu als Linux-Distribution.
-
-
+Zuerst musst du dich per SSH mit deinem Linux-Server verbinden. Falls du dabei Hilfe brauchst, schau dir unsere [Erstzugang (SSH)](vserver-linux-ssh.md) Anleitung an. In diesem Guide verwenden wir Ubuntu als Linux-Distribution.
 
 ## Installation
 
-Jetzt, da du mit deinem Linux-Server verbunden bist, kannst du mit den Installationsmethoden fortfahren. Wähle eines der folgenden Linux-Repositorys aus, um die entsprechenden Installationsschritte anzuzeigen.
+Jetzt, wo du mit deinem Linux-Server verbunden bist, kannst du mit den Installationsmethoden starten. Wähle eine der Linux-Distributionen unten aus, um die passenden Installationsschritte zu sehen.
 
 <Tabs>
 <TabItem value="ubuntu/debian" label="Ubuntu & Debian" default>
 
-Zu Beginn musst du das Docker-Paket mithilfe von `apt` hinzufügen und einrichten. Dadurch kannst du Docker in Zukunft einfach über das Repository installieren und aktualisieren.
+Zuerst musst du das Docker-Paket über `apt` hinzufügen und einrichten. So kannst du Docker später einfach aus dem Repository installieren und aktualisieren.
 
-Füge mit den folgenden Befehlen den offiziellen GPG-Schlüssel von Docker zu deiner Repository-Liste hinzu.
+Führe die folgenden Befehle aus, um den offiziellen GPG-Schlüssel von Docker zu deiner Repository-Liste hinzuzufügen.
+
 ```
 sudo apt-get update
 sudo apt-get install ca-certificates curl
@@ -41,7 +40,8 @@ sudo curl -fsSL https://download.docker.com/linux/ubuntu/gpg -o /etc/apt/keyring
 sudo chmod a+r /etc/apt/keyrings/docker.asc
 ```
 
-Sobald diese eingerichtet wurden, musst du das Repository mit dem folgenden Befehl zu den `apt`-Quellen hinzufügen.
+Nachdem das erledigt ist, musst du das Repository zu den `apt`-Quellen hinzufügen, mit folgendem Befehl.
+
 ```
 echo \
   "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.asc] https://download.docker.com/linux/ubuntu \
@@ -49,12 +49,14 @@ echo \
   sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
 ```
 
-Nachdem du das Docker-Repository zu deinen Quellen hinzugefügt hast, führe den Befehl `apt-get` update aus, um die Änderungen abzurufen.
+Jetzt, wo du das Docker-Repository hinzugefügt hast, führe ein `apt-get update` aus, um die Änderungen zu übernehmen.
+
 ```
 sudo apt-get update
 ```
 
-Zu diesem Zeitpunkt hast du das Docker-`apt`-Repository erfolgreich eingerichtet. Als letzten Schritt musst du die Docker-Pakete installieren. Du kannst die neueste Version mit dem folgenden Befehl installieren.
+Bis hierhin hast du das Docker `apt`-Repository erfolgreich eingerichtet. Als letzten Schritt installierst du die Docker-Pakete. Die neueste Version installierst du mit folgendem Befehl.
+
 ```
 sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
 ```
@@ -63,17 +65,20 @@ sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin 
 
 <TabItem value="fedora" label="Fedora">
 
-Zu Beginn solltest du das Paket `dnf-plugins-core` installieren, das bei der Verwaltung von Repositorys hilft.
+Zuerst solltest du das Paket `dnf-plugins-core` installieren, das bei der Verwaltung von Repositories hilft.
+
 ```
 sudo dnf -y install dnf-plugins-core
 ```
 
-Nachdem das Paket installiert wurde, solltest du das Docker-Repository hinzufügen und es mit dem folgenden Befehl installieren.
+Nachdem das Paket installiert ist, fügst du das Docker-Repository hinzu und installierst Docker mit folgendem Befehl.
+
 ```
 sudo dnf-3 config-manager --add-repo https://download.docker.com/linux/fedora/docker-ce.repo
 ```
 
-Docker sollte nun installiert sein. Als letzten Schritt musst du es starten und aktivieren, damit es funktioniert.
+Docker sollte jetzt installiert sein. Als letzten Schritt musst du den Dienst starten und aktivieren, damit er funktioniert.
+
 ```
 sudo systemctl enable --now docker
 ```
@@ -81,67 +86,71 @@ sudo systemctl enable --now docker
 </TabItem>
 </Tabs>
 
-Um zu überprüfen, ob die Installation erfolgreich war, versuche, das **hello-world**-Image mit dem folgenden Befehl auszuführen.
+Um zu überprüfen, ob die Installation erfolgreich war, versuche das **hello-world** Image mit folgendem Befehl auszuführen.
+
 ```
 sudo docker run hello-world
 ```
 
-Bei Erfolg sollte im Chat eine nützliche Hallo-Nachricht mit einigen grundlegenden Informationen angezeigt werden. Wenn du Fehlermeldungen wie `Permission Denied` erhältst, stelle bitte sicher, dass du die Option **Docker Compatibility** auf deiner Weboberfläche aktiviert und den Server neu gestartet hast, wie im Abschnitt [Preparation](#vorbereitung) beschrieben.
+Wenn alles klappt, solltest du eine nette Hello-Nachricht im Chat sehen mit ein paar Basisinfos. Falls du `Permission Denied` Fehler bekommst, stelle sicher, dass du die **Docker-Kompatibilität** in deinem Webinterface aktiviert und den Server wie im Abschnitt [Vorbereitung](#vorbereitung) beschrieben neu gestartet hast.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/tzJwpYRYb9Mmryo/preview)
 
 Du hast Docker erfolgreich auf deinem Linux-Server installiert.
 
-## Einrichtung nach der Installation
+## Nach der Installation
 
-Nachdem Docker nun auf deinem Server installiert ist, kannst du einige zusätzliche Einstellungen vornehmen, um sudo bei der Ausführung von Docker-Befehlen zu entfernen und Docker beim Server-Start zu starten.
+Jetzt, wo Docker auf deinem Server läuft, kannst du noch ein paar Einstellungen vornehmen, um z.B. Docker-Befehle ohne `sudo` auszuführen und Docker beim Serverstart automatisch zu starten.
 
-### Docker ohne sudo verwalten
+### Docker ohne Sudo nutzen
 
-Du kannst das Präfix `sudo` vor allen Docker-bezogenen Befehlen entfernen, indem du eine neue Docker-Gruppe erstellst und deine Benutzer dieser Gruppe hinzufügst. Dies erhöht den Komfort, aber sei vorsichtig, dass du dem Benutzer dadurch indirekt Root-Rechte gewährst.
+Du kannst dir das ständige Voranstellen von `sudo` bei Docker-Befehlen sparen, indem du eine neue Docker-Gruppe erstellst und deinen Benutzer hinzufügst. Das macht die Nutzung bequemer, aber sei dir bewusst, dass du damit indirekt Root-Rechte vergibst.
 
-Erstelle die Gruppe `docker` und füge deinen aktuellen Benutzer mit den folgenden Befehlen zur Gruppe hinzu.
+Erstelle die `docker` Gruppe und füge deinen aktuellen Benutzer mit diesen Befehlen hinzu.
+
 ```
 # Docker-Gruppe erstellen
 sudo groupadd docker
 
-# Füge den aktuellen Benutzer zur Docker-Gruppe hinzu
+# Aktuellen Benutzer zur Docker-Gruppe hinzufügen
 sudo usermod -aG docker $USER
 ```
 
-Danach empfehlen wir, den Server neu zu starten, um sicherzustellen, dass die Gruppenmitgliedschaft vom Server neu bewertet wird. Alternativ kannst du dazu auch `newgrp docker` verwenden.
+Danach empfehlen wir, den Server neu zu starten, damit die Gruppenmitgliedschaft neu geladen wird. Alternativ kannst du auch `newgrp docker` ausführen.
 
-Überprüfe nun, ob du Docker-Befehle ohne `sudo`-Berechtigungen ausführen kannst, indem du den Befehl `docker run hello-world` erneut ausführst.
-
-:::tip
-Manchmal kann es zu Fehlermeldungen bezüglich einer Konfigurationsdatei kommen, wenn du den Befehl zuvor mit `sudo`-Berechtigungen ausgeführt hast. Um dieses Problem zu beheben, lösche einfach das Docker-Verzeichnis mit dem Befehl `rmdir ~/.docker/`, das bei der nächsten Verwendung des Befehls automatisch neu erstellt wird.
-:::
-
-Wenn der Befehl wie erwartet ausgeführt wird, bedeutet dies, dass du Docker erfolgreich so eingerichtet hast, dass es ohne `sudo`-Berechtigungen ausgeführt werden kann.
-
-### Docker beim Booten starten
-
-Du kannst Docker so einrichten, dass es beim Server-Boot automatisch startet, indem du `systemd` verwendest, das von den meisten Linux-Distributionen verwendet wird.
+Teste jetzt, ob du Docker-Befehle ohne `sudo` ausführen kannst, indem du nochmal `docker run hello-world` startest.
 
 :::tip
-Sowohl bei Ubuntu als auch bei Debian ist Docker standardmäßig so eingestellt, dass es beim Booten automatisch startet. Wenn du diese beiden Distributionen verwendest, musst du nichts weiter tun.
+Manchmal bekommst du einen Fehler wegen einer Konfigurationsdatei, wenn du den Befehl vorher mit `sudo` ausgeführt hast. Um das zu fixen, lösche einfach das Docker-Verzeichnis mit `rmdir ~/.docker/`. Es wird beim nächsten Befehl automatisch neu erstellt.
 :::
 
-Du kannst den Docker-Dienst so aktivieren, dass er beim Booten ausgeführt wird, indem du einfach die folgenden Befehle ausführst.
+Wenn der Befehl ohne Probleme läuft, hast du Docker erfolgreich so eingerichtet, dass kein `sudo` mehr nötig ist.
+
+### Docker beim Systemstart starten
+
+Du kannst Docker so konfigurieren, dass es automatisch beim Serverstart startet, indem du `systemd` nutzt – das wird von den meisten Linux-Distributionen verwendet.
+
+:::tip
+Bei Ubuntu & Debian ist Docker standardmäßig so eingestellt, dass es beim Booten automatisch startet. Wenn du eine dieser Distributionen nutzt, musst du nichts weiter tun.
+:::
+
+Um den Docker-Dienst beim Booten zu aktivieren, führe einfach diese Befehle aus:
+
 ```
 sudo systemctl enable docker.service
 sudo systemctl enable containerd.service
 ```
 
-Um den Dienst beim Booten zu deaktivieren, ersetze `enable` durch `disable`. Du kannst den Dienst auch mit einer Vielzahl von `systemctl`-Unterbefehlen verwalten, zu denen die folgenden gehören.
+Um den Dienst beim Booten zu deaktivieren, ersetze `enable` durch `disable`. Du kannst den Dienst auch mit verschiedenen `systemctl`-Befehlen steuern, z.B.:
+
 ```
-sudo systemctl start [deine_service]
-sudo systemctl stop [deine_service]
-sudo systemctl restart [deine_service]
+sudo systemctl start [dein_dienst]
+sudo systemctl stop [dein_dienst]
+sudo systemctl restart [dein_dienst]
 ```
 
-## Abschluss
+## Fazit
 
-Herzlichen Glückwunsch, du hast Docker erfolgreich auf deinem Linux-Server installiert und konfiguriert! Bei weiteren Fragen oder Problemen wende dich bitte an unser Support-Team, das dir täglich zur Verfügung steht!
+Glückwunsch, du hast Docker erfolgreich auf deinem Linux-Server installiert und konfiguriert! Falls du noch Fragen oder Probleme hast, steht dir unser Support-Team täglich zur Verfügung und hilft dir gerne weiter!
 
 <InlineVoucher />

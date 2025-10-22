@@ -1,7 +1,7 @@
 ---
 id: rust-connectrcon
-title: "Rust: Verbindung via RCON zum Server herstellen"
-description: Informationen, wie du dich via RCON mit deinem Rust-Server von ZAP-Hosting verbinden kannst, um deinen Server zu verwalten - ZAP-Hosting.com Dokumentation
+title: "Rust: Verbindung zum Server über RCON"
+description: "Entdecke, wie du deinen Server per RCON remote verwaltest für effiziente Befehlsausführung und Kontrolle → Jetzt mehr erfahren"
 sidebar_label: Verbindung via RCON
 services:
   - gameserver-rust
@@ -11,62 +11,64 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Was ist RCON?
 
-Bei RCON handelt es sich um ein Protokoll, mit welchem Befehle auf einem Server ausgeführt werden können, ohne dass ein direkter Zugriff auf die Serverkonsole erforderlich ist.
+RCON ist ein Protokoll, mit dem du Befehle auf dem Server ausführen kannst, ohne direkten Zugriff auf die Konsole zu haben.
 
 <InlineVoucher />
 
 ### WebRCON aktivieren
 
-Bevor du via RCON verbinden kannst, musst du sicherstellen, dass WebRCON auf deinem Server aktiviert ist.
-Du kannst WebRCON einfach links im Menü unter **Einstellungen** aktivieren.
+Bevor du dich verbinden kannst, musst du sicherstellen, dass WebRCON aktiviert ist.
+Um es zu aktivieren, geh auf den **Einstellungen**-Tab.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/aDq2qtYF7BmtiTE/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/RqpZcnBcEHY3gN2/preview)
 
-![](https://screensaver01.zap-hosting.com/index.php/s/PKxM5CRJt5SNBFY/preview)
-
-:::info
-Nachdem du WebRCON aktiviert hast, musst du deinen Server einmal neu starten, damit die Einstellung aktiviert wird. 
-:::
-
-### Ein RCON Tool installieren
-
-Um nun zu deinem Server via RCON verbinden zu können, benötigst du ein sogenanntes **RCON Tool**. Dabei handelt es sich um ein Programm, mit welchem du via RCON zu deinem Server verbinden kannst. 
-
-Als Beispiel und als Empfehlung nutzen wir [RustAdmin](https://www.rustadmin.com/).
-
-Diest kannst du direkt über die Website von **RustAdmin** installieren.
-![](https://screensaver01.zap-hosting.com/index.php/s/k55ktjydqGwnYq8/preview)
-
-## Verbinden via RCON
-
-Nachdem du WebAdmin geöffnet hast, klickst du auf **Server** und im Anschluss auf **Connect**.
+Und aktiviere es direkt auf dieser Seite.
+![](https://screensaver01.zap-hosting.com/index.php/s/wJ5psnbAneZ6rMD/preview)
 
 :::info
-Dein Server muss vollständig gestartet sein, um via RCON erreichbar zu sein. 
+Ein Server-Neustart ist erforderlich, damit die Änderung wirksam wird. 
 :::
 
-![](https://screensaver01.zap-hosting.com/index.php/s/GcTGQ7CDRxqot53/preview)
+### RCON-Programm installieren
 
-Dort wirst du jetzt auf die Konfigurationsseite geleitet, auf welcher du deine Serverinformationen angeben kannst.
+Du brauchst ein RCON-Programm, um dich zu verbinden. Es gibt verschiedene Programme, die du nutzen kannst.
+Für dieses Beispiel und als Empfehlung kannst du [RustAdmin](https://www.rustadmin.com/) herunterladen.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/9tXqYden3jNewiG/preview)
+Du kannst es direkt über den Button auf deren Webseite installieren.
+![](https://screensaver01.zap-hosting.com/index.php/s/zNtESocaQPFwzCg/preview)
+
+## Verbindung via RCON herstellen
+
+Nachdem du WebAdmin geöffnet hast, klick oben auf **Server** und dann auf **Connect**.
 
 :::info
-ACHTUNG: Deinen RCON Port so wie RCON Passwort findest du links im Menü unter **Einstellungen**, dort wo du zuvor WebRCON aktiviert hast. 
+Dein Server muss vollständig ONLINE sein, damit er über RCON erreichbar ist. 
 :::
 
-Nachdem du deine Daten korrekt eingetragen hast, kannst du die Konfiguration speichern.
+![](https://screensaver01.zap-hosting.com/index.php/s/bHLwGDCqH52Bye8/preview)
 
-![](https://screensaver01.zap-hosting.com/index.php/s/E6xTcNTrsnrdwPQ/preview)
+Du wirst dann zu einer Konfigurationsseite weitergeleitet.
+Hier gibst du deine jeweiligen Serverdaten ein.
 
-Nun klickst du auf **Server** und dann auf **Connect**.
+![](https://screensaver01.zap-hosting.com/index.php/s/qmQFd7S79EpYWTE/preview)
 
-![](https://screensaver01.zap-hosting.com/index.php/s/q6xeGatEGKQo2HR/preview)
+:::info
+TIPP: Deinen RCON-Port & dein RCON-Passwort findest du im **Einstellungen**-Tab, wo du WebRCON aktiviert hast. 
+:::
 
-Wenn du alles richtig gemacht hast, leuchtet die Anzeige **Connected** nun grün am unteren Ende der Seite.
+Nachdem du deine Daten eingegeben hast, kannst du die Konfiguration speichern.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/prPpMy8L38KqKzc/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/FDMqdsfAHrbiTpt/preview)
 
-Nun kannst du RCON für deinen Server nutzen. :) 
+Dann klick auf Server -> Connect.
+
+![](https://screensaver01.zap-hosting.com/index.php/s/4DLGZiQ5X6WJrzA/preview)
+
+Wenn die Verbindung erfolgreich ist, steht unten in grüner Schrift **Connected**.
+
+![](https://screensaver01.zap-hosting.com/index.php/s/qzq68ENHzXGK69T/preview)
+
+Jetzt kannst du RCON nutzen, um deinen Server zu managen! :) 
+
 
 <InlineVoucher />

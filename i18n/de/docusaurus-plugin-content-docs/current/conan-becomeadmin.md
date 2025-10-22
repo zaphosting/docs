@@ -1,7 +1,7 @@
 ---
 id: conan-becomeadmin
-title: "Conan Exiles: Admin auf dem eigenen Server werden"
-description: Informationen, wie du Admin auf deinem Conan Exiles-Server von ZAP-Hosting wirst - ZAP-Hosting.com Dokumentation
+title: "Conan Exiles: Werde Admin auf deinem eigenen Server"
+description: "Entdecke, wie du Administratorrechte vergibst, um volle Kontrolle über deinen Server zu haben und Spiel-Funktionen effektiv zu managen → Jetzt mehr erfahren"
 sidebar_label: Admin werden
 services:
   - gameserver-conan
@@ -10,57 +10,44 @@ services:
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
-Die Zuweisung von Administratorberechtigungen ermöglicht dir eine einfache und umfangreiche Verwaltung mit voller Kontrolle deines Servers. Als Administrator hast du die Möglichkeit alle verfügbaren Optionen und Funktionen, die das Spiel bereitstellt, direkt im Spiel anzuwenden. Im folgenden werden dir alle notwendigen Schritte erläutert, die du benötigst, um dir die Administratorberechtigungen für deinen Server zuzuweisen. 
+Die Vergabe von Administratorrechten ermöglicht dir eine einfache und umfassende Verwaltung mit voller Kontrolle über deinen Server. Als Administrator kannst du alle verfügbaren Optionen und Funktionen, die das Spiel bietet, direkt im Spiel nutzen. Alle Schritte, die du durchführen musst, um Administratorrechte für deinen Server zu vergeben, werden im Folgenden beschrieben.  
 <InlineVoucher />
 
 ## Konfiguration
+Um dir selbst oder anderen Spielern Administratorrechte zu vergeben, musst du zunächst ein Server-Admin-Passwort festlegen. Dieses Passwort wird in den **Einstellungen** deines Servers definiert, die du im Interface findest.
 
-Damit man sich selbst oder auch anderen Spielern Administrator-Rechte zuweisen kann, muss als Erstes ein Serveradmin Passwort definiert werden. Das Definieren des Passworts erfolgt in den **Einstellungen** deines Servers.
+![](https://screensaver01.zap-hosting.com/index.php/s/gpHQXB9tk46RpLL/preview)
 
+Auf der **Einstellungen**-Seite suchst du nach „Admin Password“ und kannst es nach Belieben ändern.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/McaZd8nDntxXNTB/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/bKWx4qCj3aj6agA/preview)
 
+Nachdem das Passwort festgelegt wurde, speichere die Änderungen und starte deinen Server einmal neu. Danach kannst du dich mit deinem Server verbinden und im Spiel durch Drücken der ESC-Taste die Server-Einstellungen öffnen. Dort kannst du das Admin-Passwort eingeben und dich zum Admin machen.
 
-In den Einstellungen angekommen, suchen wir nach **Admin Passwort** und setzen dort, sofern gewünscht, ein individuelles Passwort.
+![](https://screensaver01.zap-hosting.com/index.php/s/giLP794irsw8bjK/preview)
 
+Anschließend kannst du alle Serverbefehle als Admin ausführen. Im Folgenden findest du eine Übersicht der am häufigsten genutzten Befehle.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/rWMizDyeYcJxwW8/preview)
-
-
-
-Sofern das gewünschte Passwort angegeben wurde, bitte die Änderungen speichern und den Server einmal neu starten. Im Anschluss kannst du dich mit deinem Server verbinden und über die ESC-Taste auf Server-Einstellungen klicken und dort dann das Admin Passwort setzen und dich zum Admin machen.
-
-![](https://screensaver01.zap-hosting.com/index.php/s/5xqmaB8MFc8ZQyS/preview)
-
-
-
-Im Anschluss kannst du sämtliche Server-Befehle als Admin ausführen. Im Folgenden findest du eine Übersicht von den am häufigsten benutzten Befehle.
-
-
-
-## Häufig verwendete Befehle
+## Häufig genutzte Befehle
 
 | Befehl                                                | Beschreibung                                                  |
-| ------------------------------------------------------ | ------------------------------------------------------------ |
-| MakeMeAdmin [AdminPassword]                            | Aktiviert den Admin-Modus                                    |
-| MakeMeNormal                                           | Beendet den Admin-Modus                                      |
-| LearnEmote [emote]                                     | Gebe in den Chat /emote [emote] ein oder halte R gedrückt, um das Emote-Menü aufzurufen. Admin-Modus erforderlich |
-| God                                                    | Aktiviert/Deaktiviert den Gott-Modus                         |
-| PlayerCanBuildEverywhere [PlayerName]                  | Ermöglicht den Bau von Gebäuden, bei denen das Gebäude für den angegebenen Spieler deaktiviert ist |
-| Teleport                                               | Teleportiere dich an eine Oberfläche oder in die Luft        |
-| TeleportPlayer X[float] Y[float] Z[float]              | Teleportiert dich oder einen anderen Spieler zu den angegebenen Koordinaten |
-| TeleportToPlayer [PlayerName]                          | Teleportiert dich zu dem angegebenen Spieler                 |
-| Fly                                                    | Aktiviert den Flug-Modus                                     |
-| Ghost                                                  | Aktiviert den Geist-Modus (Unsichtbar, Noclip)               |
-| SetServerSetting serverSetting[FString] Value[FString] | Erlaubt das Ändern der Servereinstellungen aus ServerSettings.ini während des Spiels. |
+| ---------------------------------------------------- | ------------------------------------------------------------- |
+| MakeMeAdmin [AdminPassword]                          | Aktiviert den Admin-Modus                                     |
+| MakeMeNormal                                         | Deaktiviert den Admin-Modus                                   |
+| LearnEmote [emote]                                   | Tippe /emote [emote] im Chat oder halte R gedrückt, um das Emote-Menü zu öffnen. Admin-Modus erforderlich |
+| God                                                  | Aktiviert/deaktiviert den God-Modus                           |
+| PlayerCanBuildEverywhere [PlayerName]                | Erlaubt dem angegebenen Spieler überall zu bauen, auch wenn Bauen deaktiviert ist |
+| Teleport                                             | Teleportiere dich auf eine Oberfläche oder in die Luft       |
+| TeleportPlayer X[float] Y[float] Z[float]            | Teleportiert dich oder einen anderen Spieler zu den angegebenen Koordinaten |
+| TeleportToPlayer [PlayerName]                        | Teleportiert dich zum angegebenen Spieler                     |
+| Fly                                                  | Aktiviert den Flugmodus                                       |
+| Ghost                                                | Aktiviert den Geistermodus (unsichtbar, noclip)              |
+| SetServerSetting serverSetting[FString] Value[FString] | Ermöglicht das Ändern der Servereinstellungen aus der ServerSettings.ini während des Spiels |
 
+Weitere Admin-Befehle rund um das Spiel findest du auf der [Gamepedia](https://conanexiles.gamepedia.com/Admin_Panel) von Conan Exiles.
 
+## Fazit
 
-Weitere Admin-Befehle rund ums Spiel findest du auf der [Gamepedia](https://conanexiles.gamepedia.com/Admin_Panel) von Conan Exiles. 
-
-
-## Abschluss
-
-Glückwunsch, du hast erfolgreich die Administratorberechtigungen konfiguriert. Für weitere Fragen oder Hilfe zögere bitte nicht, unser Support-Team zu kontaktieren, das dir täglich zur Verfügung steht! 🙂
+Glückwunsch, du hast die Administratorrechte erfolgreich konfiguriert. Bei weiteren Fragen oder wenn du Hilfe brauchst, steht dir unser Support-Team täglich zur Verfügung! 🙂
 
 <InlineVoucher />

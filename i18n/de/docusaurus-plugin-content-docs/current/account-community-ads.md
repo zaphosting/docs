@@ -1,77 +1,82 @@
 ---
 id: account-community-ads
 title: Community Werbung
-description: Anleitung zur Nutzung von Community Werbung, um Geld über ZAP-Hosting zu verdienen - ZAP-Hosting.com Dokumentation
+description: "Entdecke, wie du kostenlose Server verdienen kannst, indem du effektive Community-Werbung erstellst, die die richtige Zielgruppe anspricht und deine Belohnungen maximiert → Jetzt mehr erfahren"
 sidebar_label: Community Werbung
 ---
 
-
-
 ## Einführung
 
-Community-Werbung ist eine großartige Möglichkeit, durch Werbung für ZAP-Hosting Geld zu verdienen. Durch dieses Programm ist es grundsätzlich möglich, **kostenlose** Server zu erhalten. Erfolgreiche Werbung, die eingereicht und akzeptiert wird, wird mit **0,24€** für jeden Link vergütet.
+Community Werbung ist eine coole Möglichkeit, etwas Geld zu verdienen, indem du ZAP-Hosting bewirbst. Über dieses Programm kannst du im Grunde **kostenlose** Gameserver bekommen. Erfolgreiche Werbung, die eingereicht und akzeptiert wird, wird mit **0,24 €** pro Link belohnt.
 
+## Wichtige Faktoren, die du beachten solltest
 
+Es gibt ein paar Faktoren, die wir berücksichtigen, um zu entscheiden, ob deine Werbung akzeptiert und erfolgreich ist oder nicht. Du solltest jeden Punkt verstehen und befolgen, um deine Chancen auf Annahme deines Community-Werbelinks zu maximieren.
 
-## Wichtige Faktoren, die zu beachten sind
+### Werbung muss eigenständig sein
 
-### Die Werbung muss unabhängig sein
+Wir können nur Werbung bestätigen und akzeptieren, bei der wir klar erkennen können, dass sie vom Kunden selbst verfasst wurde. Die Nutzung des gleichen Benutzernamens wie dein ZAP-Hosting Account reicht aus, wenn du deine Werbung erstellst.
 
-Wir können nur Anzeigen bestätigen und ausschließen, bei denen wir eindeutig überprüfen können, dass sie vom Kunden selbst verfasst wurden. Es reicht aus, wenn du bei der Erstellung deines Inserats den gleichen Benutzernamen wie dein ZAP-Hosting-Konto verwendest.
+### Kommentare gelten nicht als Werbung
 
-### Kommentare werden nicht als Werbung gewertet.
+Zum Beispiel ist eine Frage wie `"Welche Hoster kannst du empfehlen?"` und deine Antwort `"ZAP ist mega!"` nicht ausreichend, um im Rahmen unseres Community-Werbeprogramms gewertet zu werden.
 
-Wenn beispielsweise jemand eine Frage wie "Welche Hoster könnt ihr empfehlen?" stellt und du antwortest "ZAP ist großartig!", reicht das nicht aus, um im Rahmen unseres Programms für Gemeinschaftswerbung berücksichtigt zu werden.
+Eine erfolgreiche Werbung ist informativer und ausführlicher, gibt mehr Details zu unseren Produkten und enthält einen Link.
 
-Eine erfolgreiche Werbung sollte informativer und umfangreicher sein und mehr Details über unsere Produkte und einen Link enthalten. 
+Ein Beispiel für eine akzeptable Werbung: `"Ich kann ZAP-Hosting echt empfehlen... die haben, du kannst... sie bieten... was super funktioniert. Willst du mehr wissen? Schau dir ihre Seite an, um die große Auswahl an Produkten und die top Preise zu checken: https://zap-hosting.com/en"`
 
-Ein Beispiel für eine akzeptable Werbung: `"Ich kann ZAP-Hosting wärmstens empfehlen... sie haben, man kann... sie bieten... was großartig funktioniert. Wenn du mehr erfahren möchtest, schau dir ihre Website an, um ihre umfangreiche Produktvielfalt und die günstigen Preise zu sehen: https://zap-hosting.com/en"`
+### Werbung muss die passende Zielgruppe ansprechen
 
-### Die Werbung muss sich an die richtigen Zielgruppen richten
+Deine Werbung sollte dort platziert werden, wo Leute sind, die sich für ZAP-Hosting interessieren. Das Ziel der Werbung ist es, Aufmerksamkeit auf ZAP-Hosting zu lenken und neue Kunden zu gewinnen – also überlege dir genau, wer deine Zielgruppe ist.
 
-Eine Werbung muss in Bereichen erstellt werden, die für ZAP-Hosting interessant sein könnten.
-Bei der Werbung geht es darum, Personen auf ZAP-Hosting aufmerksam zu machen und diese als Neukunden zu gewinnen.
-Dies ist daher wahrscheinlicher in einem Forum über Server und Serverprovider als in einem Forum über Landwirtschaft.
+Platziere deine Werbung an passenden Orten, idealerweise wo die Zielgruppe Interesse an Gameservern und Server mieten hat. Zum Beispiel ist ein Gaming-Forum perfekt für Werbung, während ein Forum über Landwirtschaft eher ungeeignet ist, da die Zielgruppe nicht passt.
 
 ## Link einreichen
 
-Das Einreichen deines Links ist ganz einfach. Gehen dazu auf die Seite [Community Advertising](https://zap-hosting.com/en/customer/communityads/) auf unserer ZAP-Hosting-Website und scrollen zum Abschnitt **Deine Links**.
+Deinen Link einzureichen ist easy. Geh auf die [Community Werbung](https://zap-hosting.com/en/customer/communityads/) Seite auf unserer ZAP-Hosting Website und scrolle runter zum Bereich **Deine Links**.
 
-Drücken nun auf das grüne **+**, um das Menü zu öffnen, in dem du deinen Link einreichen kannst. Sobald du fertig bist, drücke den grünen Button **Senden**, um fortzufahren.
+Drück jetzt auf das grüne **+**, um ein Menü zu öffnen, in dem du deinen Link einreichen kannst. Wenn alles fertig ist, drück den grünen **Senden** Button, um fortzufahren.
 
 :::info
-Dieser Link muss ein Direktverweis auf die eigens erstellte Werbung sein. Sollte bei dem Link keine Werbung ersichtlich sein, wird diese abgelehnt.
+Der Link muss auf die dafür erstellte Werbung zeigen. Wenn der Link keine Werbung enthält, wird er abgelehnt.
 :::
 
-![](https://github.com/zaphosting/docs/assets/42719082/12839234-efe5-45f5-8d9c-addb69af3e60)
+![](https://github.com/zaphosting/docs/assets/42719082/d94273e7-3c97-4d62-a77a-7901d0293c7f)
+
+
 
 ## Auszahlung & Überweisung
 
-Du kannst dir dein Guthaben aus der Community Werbung entweder deine cashbox (ZAP Coins) oder in Geld über PayPal. Gehen dazu wieder auf die Seite [Community Advertising](https://zap-hosting.com/de/customer/communityads/) und drücke den blauen Button **Auszahlung/Umbuchung**.
+Du kannst dein Community-Werbe-Guthaben entweder in deine Cashbox (ZAP Coins) oder in echtes Geld auszahlen lassen. Geh dazu nochmal auf die [Community Werbung](https://zap-hosting.com/en/customer/communityads/) Seite und klick auf den blauen **Auszahlung/Überweisung** Button.
 
-![](https://github.com/zaphosting/docs/assets/42719082/de11ee5a-97e5-432a-944c-7f0e2dd9d448)
+![](https://github.com/zaphosting/docs/assets/42719082/076c45aa-2851-4a0d-b5ed-27ca57102b15)
+
+
+
+Folge jetzt dem passenden Abschnitt unten, um auf die gewünschte Währung zu überweisen.
 
 ### ZAP Coins
 
-:::warning Sobald du deine Guthaben in ZAP Coins übertragen hast, kannst du sie nicht mehr auszahlen lassen!
+:::warning
+Sobald du dein Guthaben in ZAP Coins umgewandelt hast, kannst du es nicht mehr auszahlen lassen!
 :::
 
-In der Menüleiste musst du **ZAP-Guthaben** als Option auswählen. Entscheide, ob du das gesamte Guthaben oder nur einen bestimmten Teil davon übertragen möchtest. Wenn du damit fertig bist, drücke einfach auf den grünen Button **Überweisung**, um den Vorgang zu bestätigen.
+Im Menü wählst du die Option **ZAP Coin Guthaben** aus. Entscheide, ob du das gesamte Guthaben oder nur einen Teil davon übertragen möchtest. Wenn alles passt, drück einfach den grünen **Überweisen** Button zur Bestätigung.
 
-![](https://github.com/zaphosting/docs/assets/42719082/5e88aeee-cb33-46b4-a3c4-4da92273f7b1)
+![](https://github.com/zaphosting/docs/assets/42719082/27807ca4-4ee7-4e70-92f8-23b887bfef90)
 
 
 
-### Echtgeld (PayPal)
+### Echtes Geld (PayPal)
 
-Wir bieten derzeit nur Auszahlungen in Echtgeld über PayPal an. Um eine Auszahlung über PayPal vorzunehmen, musst du eine Rechnung erstellen und uns diese unter Angabe deiner ZAP Kundenummer zusenden.
+Aktuell bieten wir Auszahlungen in echtes Geld nur via PayPal an. Um per PayPal auszuzahlen, musst du eine Rechnung erstellen und an uns schicken, in der deine Kunden-ZAP-ID angegeben ist.
 
-Rufen dazu den [PayPal Invoice Creator] (https://www.paypal.com/invoice/create?fromWidget=newuser) auf und füllen die Rechnung entsprechend aus:
+Geh zum [PayPal Rechnungsersteller](https://www.paypal.com/invoice/create?fromWidget=newuser) und füll die Rechnung passend aus:
 
-- Trage dazu als Empfänger unsere Unternehmensdaten ein: "ZAP-Hosting GmbH, Hafenweg 8, 48155 Münster, Deutschland`
-- Die Beschreibung muss enthalten: `zap community ads payout <Kunden-ID>`
-- Die Rechnung muss gesendet werden an: `m.kluck@zap-hosting.com`
+- Empfänger: `ZAP-Hosting GmbH, Hafenweg 8, 48155 Münster, Deutschland`
+- Beschreibung muss enthalten: `zap community ads payout <Kunden-ID>`
+- Rechnung muss gesendet werden an: `m.kluck@zap-hosting.com`
 
-:::tip
-Deine ZAP Kundenummer findest du oben rechts auf unserer Webseite, wenn du eingeloggt bist, mit einem Format wie `zap123456`.
+:::note
+Deine ZAP-ID findest du oben rechts auf unserer Website, wenn du eingeloggt bist, im Format `zap123456`.
 :::

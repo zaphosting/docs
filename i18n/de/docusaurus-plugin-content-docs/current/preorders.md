@@ -1,7 +1,7 @@
 ---
 id: preorders
 title: Vorbestellungen
-description: Informationen zu Vorbestellungen bei ZAP-Hosting. Was sind Vorbestellungen? Wann werden Server eingerichtet? Können Vorbestellungen zurückgezogen werden? - ZAP-Hosting.com Dokumentation
+description: "Entdecke, wie du vorbestellte Gameserver sicherst und verwaltest – mit automatischer Einrichtung und flexiblen Stornierungsoptionen → Jetzt mehr erfahren"
 sidebar_label: Vorbestellungen
 ---
 
@@ -9,27 +9,25 @@ sidebar_label: Vorbestellungen
 
 ## Einführung
 
-Einige Produkte können bei ZAP-Hosting.com als Vorbestellungen bestellt werden. Das bedeutet, dass dieses Produkt noch nicht in unsere Systeme integriert wurde, aber in der Zukunft hinzugefügt werden wird. Die Server werden automatisch eingerichtet, sobald das Produkt hinzugefügt wurde.
+Einige Produkte können bei ZAP-Hosting.com als Vorbestellungen geordert werden. Das bedeutet, dass dieses Produkt noch nicht in unser System integriert ist, aber in Zukunft hinzugefügt wird. Der Gameserver wird automatisch eingerichtet, sobald das Produkt verfügbar ist.
 
+## Vorbestellungen erkennen
 
+Vorbestellungen sind auf der Produktseite als solche gekennzeichnet. Sie haben ein Stoppuhr-Symbol, das das anzeigt.
 
-## Vorbestellung erkennen
-
-Vorbestellungen sind auf der Produktseite als Vorbestellung gekennzeichnet. Sie haben ein Stoppuhr-Symbol, um dies darzustellen.
-
-![](https://github.com/zaphosting/docs/assets/42719082/91f85b30-3dd0-4608-8f38-6d170540101a)
+![](https://github.com/zaphosting/docs/assets/42719082/6af93b92-69bc-49ef-adbd-2b858f3b6c01)
 
 ## Bereitstellung von Vorbestellungen
-Vorbestellte Server werden vollautomatisch eingerichtet, sobald das Produkt in unsere Gameserver-Cloud eingerichtet wurde. Du erhältst eine E-mail, sobald der Server eingerichtet wurde. Die Zeit, bis vorzubestellende Server eingebaut werden, kann stark variieren, da es beispielsweise davon abhängen kann, wann Server-Dateien freigegeben werden. Wir versuchen, vorbestellte Produkte so schnell wie möglich zu installieren.
+
+Vorbestellte Gameserver werden vollautomatisch eingerichtet, sobald das Produkt fertig ist und in unserer Gameserver-Cloud bereitsteht. Du bekommst eine E-Mail, sobald dein Server eingerichtet wurde. Die Wartezeit bis zur Installation vorbestellter Server kann stark variieren, da sie davon abhängt, wann die Serverdateien veröffentlicht werden. Wir versuchen, vorbestellte Produkte so schnell wie möglich zu installieren.
 
 
 
 ## Zahlung und Laufzeit
 
-Die 1. Laufzeit eines vorbestellten Produkts muss direkt bei Bestellung bezahlt werden. Die 1. Laufzeit beginnt grundsätzlich erst mit Bereitbestellung des Servers. Die 2. Zahlung (im Falle eines Vertrags oder der Verlängerung eines Prepaid-Servers) wird zum Ende der 1. Laufzeit fällig. Ein vorbestellter Server verursacht keine weitere Kosten solange er noch nicht eingerichtet ist.
+Die 1. Laufzeit eines vorbestellten Produkts muss direkt bei der Bestellung bezahlt werden. Die 1. Laufzeit beginnt mit der Bereitstellung des Servers. Die 2. Zahlung (bei Vertrag oder Verlängerung eines Prepaid-Servers) ist am Ende der 1. Laufzeit fällig. Ein vorbestellter Server verursacht keine weiteren Kosten, solange er noch nicht eingerichtet ist.
 
 
 
-## Vorbestellung stornieren
-
-Für vorbestellte Server, die noch nicht eingerichtet wurden und weiterhin als Vorbestellung bestellt werden können, wird der bereits bezahlte Betrag zurückerstattet. Hierfür reicht es aus, unseren Support zu kontaktieren.
+## Stornierung deines vorbestellten Produkts
+Für vorbestellte Gameserver, die noch nicht eingerichtet wurden und weiterhin als Vorbestellung verfügbar sind, wird der bereits gezahlte Betrag erstattet. Dafür reicht es, unseren Support zu kontaktieren.

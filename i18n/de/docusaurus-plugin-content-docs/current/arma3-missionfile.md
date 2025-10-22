@@ -1,36 +1,36 @@
 ---
 id: arma3-missionfile
-title: "Arma 3: Eigene Missionsdatei hochladen"
-description: Information, wie du eine eigene Missionsdatei bei deinem Arma 3 Server von ZAP-Hosting hinzufügen kannst - ZAP-Hosting.com Dokumentation
-sidebar_label: Eigene Missionsdatei hochladen
+title: "Arma 3: Lade deine eigene Mission hoch"
+description: "Entdecke, wie du eigene Missionsdateien auf deinem Arma 3 Gameserver hochlädst und lädst für ein personalisiertes Spielerlebnis → Jetzt mehr erfahren"
+sidebar_label: Lade deine eigene Mission hoch
 services:
   - gameserver-arma3
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
-## Hochladen der Missionsdatei
+## Missionsdatei hochladen
 
-Für das Hochladen deiner eigenen Missionsdatei musst du zuvor via FTP auf deinen Server verbinden: [Zugriff per FTP](gameserver-ftpaccess.md).
-Dort lädst du nun die entsprechende Missionsdatei in dein **mpmissions** Verzeichnis, welches du unter **/gxxxxxx/arma3/** finden kannst.
-In diesem Beispiel laden wir die Missionsdatei **King_of_the_hill.Altis** auf unseren Server.
+Um deine eigene Missionsdatei hochzuladen, musst du dich vorher per FTP mit deinem Server verbinden: [Zugriff via FTP](gameserver-ftpaccess.md).  
+Dort lädst du die Missionsdatei in dein **mpmissions** Verzeichnis hoch, das du unter **/gxxxxxx/arma3/** findest.  
+In diesem Beispiel laden wir die Missionsdatei **King_of_the_hill.Altis** auf unseren Server hoch.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/K3tqTsTyZiFKZpr/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/jkfK9X48qj2e7Pn/preview)
 
 <InlineVoucher />
 
-## Laden der Missionsdatei auf dem Server
+## Missionsdatei auf dem Server laden
 
-Damit die Missionsdatei nun vom Server geladen wird, begibst du dich in dein Arma 3 Serverinterface und klickst links im Menü auf den Tab **Configs**:
+Um die Missionsdatei vom Server zu laden, geh in dein Arma 3 Serverinterface und klick im Menü links auf den Reiter **Configs**:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/fYYxGQyXFzitC7n/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/PD98ATq8xHdjy8Q/preview)
 
-Dort bearbeitest du nun die Datei **server.cfg** und trägst dort wie auf dem Bild zu sehen den Namen deiner Missionsdatei ein: 
+Dort bearbeitest du die Datei **server.cfg** und trägst den Namen deiner Missionsdatei so ein, wie im Bild gezeigt:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/oBtCmmgXLYTyZoe/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/aG7QESxyTNpATsG/preview)
 
-![](https://screensaver01.zap-hosting.com/index.php/s/wyppiEcFX9nbyt8/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/6TZ7mc578pcHpbF/preview)
 
-Danach klickst du auf **Speichern** und kannst deinen Server im Anschluss starten. Die neue Missionsdatei wird dann geladen.
+Danach klickst du auf **Speichern** und kannst deinen Server starten. Die neue Missionsdatei wird geladen.
 
 <InlineVoucher />

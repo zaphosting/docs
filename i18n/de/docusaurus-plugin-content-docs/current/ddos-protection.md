@@ -1,23 +1,23 @@
 ---
 id: ddos-protection
 title: ZAP-Hosting DDoS-Schutz
-description: Informationen über den DDoS-Schutz bei ZAP-Hosting - ZAP-Hosting.com Dokumentation
+description: "Entdecke, wie ZAP-Hosting mit maßgeschneiderten, Echtzeit-DDoS-Schutzlösungen für globale Rechenzentren unterbrechungsfreien Service garantiert → Jetzt mehr erfahren"
 sidebar_label: DDoS-Schutz
 ---
 
 ## Einführung
 
-DDoS-Angriffe (Distributed Denial of Service) sind böswillige Versuche, den normalen Datenverkehr eines bestimmten Servers, Dienstes oder Netzwerks zu stören, indem sie es mit einer Flut von Internetverkehr überschwemmen. Um einen unterbrechungsfreien Service für unsere Kunden zu gewährleisten, verwendet ZAP-Hosting bewährte DDoS-Schutzlösungen, die auf den Standort des Rechenzentrums zugeschnitten sind.
+DDoS (Distributed Denial of Service) Angriffe sind bösartige Versuche, den normalen Traffic eines gezielten Servers, Dienstes oder Netzwerks zu stören, indem sie ihn mit einer Flut von Internetverkehr überlasten. Um unseren Kunden unterbrechungsfreien Service zu garantieren, setzt ZAP-Hosting bewährte DDoS-Schutzlösungen ein, die auf den jeweiligen Serverstandort im Rechenzentrum abgestimmt sind.
 
-Unsere DDoS-Schutzsysteme arbeiten automatisch und in Echtzeit und filtern den bösartigen Datenverkehr, bevor er die Serverleistung oder -verfügbarkeit beeinträchtigen kann.
+Unsere DDoS-Schutzsysteme arbeiten automatisch und in Echtzeit, filtern bösartigen Traffic heraus, bevor er die Performance oder Verfügbarkeit des Servers beeinträchtigen kann.
 
-## DDoS-Schutz-Lösungen
+## DDoS-Schutzlösungen
 
-Different DDoS protection systems are deployed at ZAP-Hosting depending on the geographical location and network infrastructure of the respective data center. Each site is equipped with a mitigation solution that is specifically chosen to provide the best balance of performance, reliability, and responsiveness against attack patterns commonly performed
+Je nach geografischem Standort und Netzwerkinfrastruktur des jeweiligen Rechenzentrums setzt ZAP-Hosting unterschiedliche DDoS-Schutzsysteme ein. Jeder Standort ist mit einer speziell ausgewählten Mitigationslösung ausgestattet, die das beste Gleichgewicht aus Performance, Zuverlässigkeit und Reaktionsfähigkeit gegen gängige Angriffsmuster bietet.
 <details>
   <summary>PletX</summary>
 
-PletX ist ein deutscher Netzwerkanbieter, der sich auf hochleistungsfähige Hosting-Infrastrukturen spezialisiert hat. Er bietet native Filterung auf Netzwerkebene und kooperiert mit spezialisierten Mitigation Providern.
+PletX ist ein deutscher Netzwerkanbieter, der sich auf hochperformante Hosting-Infrastruktur spezialisiert hat. Es bietet natives Netzwerk-Level-Filtering und arbeitet mit spezialisierten Mitigationsanbietern zusammen.
 
 **Verfügbare Standorte:** FFM / Eygelshoven, GER
 
@@ -26,7 +26,7 @@ PletX ist ein deutscher Netzwerkanbieter, der sich auf hochleistungsfähige Host
 <details>
   <summary>Aurologic</summary>
 
-Aurologic ist ein Netzwerkanbieter, der stabile Konnektivität und automatisierte Mitigation bietet. Mit moderner Infrastruktur und globalen Transitpartnern sorgt er für einen zuverlässigen und geschützten Betrieb.
+Aurologic ist ein Netzwerkanbieter, der stabile Konnektivität und automatisierte Mitigation liefert. Mit moderner Infrastruktur und globalen Transitpartnern sorgt es für zuverlässigen und geschützten Betrieb.
 
 **Verfügbare Standorte:** Los Angeles, US / Ashburn, US / Dallas, US
 
@@ -35,31 +35,25 @@ Aurologic ist ein Netzwerkanbieter, der stabile Konnektivität und automatisiert
 <details>
   <summary>OVH</summary>
 
-OVH ist einer der größten europäischen Infrastrukturanbieter und betreibt ein eigenes globales DDoS-Schutzsystem mit permanenter Überwachung. Der Schutz wird über ein verteiltes Scrubbing-Netzwerk bereitgestellt, das den Datenverkehr frühzeitig filtert.
+OVH ist einer der größten europäischen Infrastruktur-Anbieter und betreibt ein eigenes globales DDoS-Schutzsystem mit permanenter Überwachung. Der Schutz erfolgt über ein verteiltes Scrubbing-Netzwerk, das den Traffic frühzeitig filtert.
 
 **Verfügbare Standorte:** London, UK / Helsinki, FI / Singapur, SG
 
 </details>
 
-## DDoS-Schutz im Vergleich
-Die folgende Tabelle gibt einen vereinfachten Überblick über die wichtigsten Merkmale der verwendeten DDoS-Schutzsysteme. Dieser Vergleich erleichtert es dir zu verstehen, welche Art von Schutz an jedem Serverstandort angewendet wird. 
-Zwar bieten alle Anbieter einen starken Basisschutz, doch gibt es je nach Infrastruktur Unterschiede im Umfang und in den Methoden.
+## DDoS-Schutz Vergleich
+Die folgende Tabelle gibt einen vereinfachten Überblick über die Hauptmerkmale der eingesetzten DDoS-Schutzsysteme. Dieser Vergleich hilft dir zu verstehen, welche Art von Schutz an jedem Serverstandort angewendet wird.  
+Während alle Anbieter starken Basisschutz bieten, gibt es Unterschiede im Umfang und in den Methoden, abhängig von der Infrastruktur.
 
-| Protection Feature                                      | PletX | Aurologic | OVH  |
-| ------------------------------------------------------- | :---: | :-------: | :--: |
-| Ständig aktiver Schutz                                  |   ✓   |     *     |  ✓   |
-| Grundlegender Schutz für alle Dienste                   |   ✓   |     ✓     |  ✓   |
-| Netzwerk- und Anwendungsfilterung                       |   ✓   |     ✓     |  ✓   |
-| Zusätzliche spielspezifische Filterung                  |   ✓   |     ✓     |  ✓   |
-| Keine Ausfallzeiten während der Mitigation              |   ✓   |     ✓     |  ✓   |
-| Visualisierung der Echtzeit-Überwachung im DDoS Manager |   ✓   |     X     |  X   |
+| Schutzmerkmal                                      | PletX | Aurologic | OVH  |
+| ------------------------------------------------- | :---: | :-------: | :--: |
+| Always-on Schutz                                  |   ✓   |     *     |  ✓   |
+| Basisschutz für alle Services                      |   ✓   |     ✓     |  ✓   |
+| Netzwerk- und Applikationsfilterung                |   ✓   |     ✓     |  ✓   |
+| Zusätzliche spielespezifische Filterung            |   ✓   |     ✓     |  ✓   |
+| Keine Ausfallzeiten während der Mitigation         |   ✓   |     ✓     |  ✓   |
+| Echtzeit-Monitoring Visualisierung im DDoS Manager |   ✓   |     X     |  X   |
 
 <div style={{ textAlign: 'center', fontSize: '0.7em', color: '#666' }}>
-  ✓ = Feature is fully supported &nbsp;|&nbsp; X = Feature not available &nbsp;|&nbsp; * = Feature not available or only partially available depending on configuration
+  ✓ = Feature wird voll unterstützt &nbsp;|&nbsp; X = Feature nicht verfügbar &nbsp;|&nbsp; * = Feature je nach Konfiguration nicht oder nur teilweise verfügbar
 </div>
-
-
-
-
-
-

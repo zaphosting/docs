@@ -1,7 +1,7 @@
 ---
 id: unturned-rocketmod-plugins
-title: "Unturned: Plugins auf Server installieren"
-description: Informationen, wie du Plugins auf deinen Unturned Rocketmod Server von ZAP-Hosting installieren kannst - ZAP-Hosting.com Dokumentation
+title: "Unturned: Plugins auf dem Server installieren"
+description: "Lerne, wie du Plugins auf einem Unturned Rocket Mod Gameserver installierst und aktivierst, um das Gameplay und die Serverfunktionalität zu verbessern → Jetzt mehr erfahren"
 sidebar_label: Plugins installieren
 services:
   - gameserver-unturned
@@ -11,50 +11,48 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 <InlineVoucher />
 
-## Plugins auf einem Unturned Rocket Mod Server installieren
+## Plugins auf einem Unturned Rocket Mod Gameserver installieren
 
 ### Schritt 1
-Zuerst muss eine Verbindung zum Server über [Zugriff per FTP](gameserver-ftpaccess.md) hergestellt werden.
+Zuerst muss eine Verbindung zum Server über den [FTP-Zugang](gameserver-ftpaccess.md) hergestellt werden.
 
-Sobald die FTP Verbindung steht, muss das Verzeichnis "Plugins" geöffnet werden.
-
-Dieses sollte unter folgendem Pfad zu finden sein. 
+Sobald die FTP-Verbindung steht, muss das Verzeichnis „Plugins“ geöffnet werden.  
+Dieses findest du unter  
 ```
-/unturned-rocket/Servers/ZAP001/Rocket/Plugins
+/unturned-rocket/Servers/ZAP001/Rocket/Plugins. 
 ```
+Standardmäßig sollte es leer sein: 
 
-Es sollte ebenfalls standardmäßig leer sein: 
-
-![](https://screensaver01.zap-hosting.com/index.php/s/oMDdD9yR8W9MowD/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/wYY7jLji9YaNcBp/preview)
 
 ### Schritt 2
 
-Nun kann ein Plugin hochgeladen werden. 
-Plugins für den Rocketmod sind zum Beispiel auf Github zu finden: https://github.com/RocketModPlugins
-Nachdem das gewünschte Plugin heruntergeladen wurde, muss es entpackt werden. 
-Je nach Betriebssystem kann es direkt entpackt werden, manche können aber Zusatzprogramme wie zum Beispiel 7Zip benötigen, um das Archiv entpacken zu können.
+Jetzt kann ein Plugin hochgeladen werden.  
+Plugins für Rocketmod findest du zum Beispiel auf Github: https://github.com/RocketModPlugins  
+Nachdem du das gewünschte Plugin heruntergeladen hast, muss es entpackt werden.  
+Je nach Betriebssystem kannst du es direkt entpacken, manche benötigen aber zusätzliche Programme wie 7Zip, um das Archiv zu öffnen.
 
-Unter Windows reicht es zum Beispiel aus, das ZIP-Archiv via Doppelklick zu öffnen und dann den Inhalt via "Drag" and Drop" auf den Desktop zu ziehen: 
+Unter Windows reicht es zum Beispiel, das ZIP-Archiv per Doppelklick zu öffnen und den Inhalt dann per Drag & Drop auf den Desktop zu ziehen. 
 
-![](https://screensaver01.zap-hosting.com/index.php/s/kZtYzPp9cqCAsjd/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/qnpy29HySQzJTBL/preview)
 
-Ist dies erfolgt, so kann es hochgeladen werden, ebenfalls via "Drag and Drop":  
+Ist das erledigt, kannst du die Dateien ebenfalls per „Drag & Drop“ hochladen:  
 
-![](https://screensaver01.zap-hosting.com/index.php/s/WXQEDTC3bj9EW8W/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/o4ZNQtyosnw5eHo/preview)
 
-Nun ist das gewünschte Plugin auf dem Server verfügbar:
+Jetzt ist das gewünschte Plugin auf dem Server verfügbar:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/RKCHZcy9wXrAJfd/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/DYXpnZ2n5ibxW5t/preview)
 
 ### Schritt 3
 
-Der Gameserver kann nun gestartet werden im Webinterface: 
+Der Gameserver kann jetzt im Webinterface gestartet werden: 
 
-![](https://screensaver01.zap-hosting.com/index.php/s/H4bbbRmSRgEinjK/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/pgyBsYcoXNP7dnL/preview)
 
-Der Server ist nun online mit dem gewünschten Plugin: 
+Der Server ist nun mit dem gewünschten Plugin online: 
 
-![](https://screensaver01.zap-hosting.com/index.php/s/2W79bYmbnjsSexJ/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/ZZLPBprWoBZfTQ6/preview)
 
 
 <InlineVoucher />

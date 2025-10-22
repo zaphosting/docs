@@ -1,67 +1,66 @@
 ---
 id: contactsupport
-title: Kontaktaufnahme mit dem Support zur Meldung von Problemen
-description: Informationen, wie du den Support bei Problemen mit deinem ZAP-Hosting Server kontaktieren kannst - ZAP-Hosting.com Dokumentation
+title: Support kontaktieren, um Probleme zu melden
+description: "Entdecke, wie du Serverprobleme effektiv beheben und Lösungen finden kannst, bevor du den Support kontaktierst → Jetzt mehr erfahren"
 sidebar_label: Probleme melden
 ---
 
-## Fehlerbehebung deines Problems
+## Fehlerbehebung bei deinem Problem
 
-Dein Server lässt sich nicht starten? Oder du hast Probleme, die du nicht alleine lösen kannst? Kein Problem! Unser Support-Team ist für dich da. 
+Dein Gameserver startet nicht? Oder du hast Probleme, die du alleine nicht lösen kannst? Kein Stress! Unser Support-Team ist für dich da.
 
-Bevor du dich jedoch an unseren Support wendest, empfehlen wir dir, ein paar Schritte zur Fehlerbehebung zu unternehmen, die das Problem lösen oder eingrenzen können.
+Bevor du jedoch unseren Support kontaktierst, empfehlen wir dir, ein paar Schritte zur Fehlerbehebung auszuprobieren, die das Problem vielleicht schon lösen oder zumindest eingrenzen können.
 
 :::note
-Bitte beachte, dass wir keinen direkten kontobezogenen Support auf unseren sozialen Netzwerken anbieten, sondern nur über unser Ticketsystem. Das liegt daran, dass wir Wert auf Privatsphäre legen und daher nur offiziellen Support über unser eigenes Ticketsystem anbieten.
+Bitte beachte, dass wir keinen direkten accountbezogenen Support über unsere Socials anbieten, sondern ausschließlich über unser Ticketsystem. Das liegt uns am Datenschutz und deshalb bieten wir offiziellen Support nur über unser eigenes Ticketsystem an.
 :::
 
-### Überprüfen den Status deines Servers
-Du kannst den aktuellen Status aller unserer Dienste, einschließlich deines Servers, leicht herausfinden, indem du auf unsere [Statusseite](https://status.zap-hosting.com/) gehst und den entsprechenden Dienst ansiehst.
+### Überprüfe den Status deines Servers
+Du kannst den aktuellen Status all unserer Services, inklusive deines Gameservers, ganz easy auf unserer [Status-Seite](https://status.zap-hosting.com/) checken und den passenden Service auswählen.
 
 :::tip
-Auf unserer Statusseite kannst du dich so gar per E-Mail für Benachrichtigungen zu jedem Dienst in unserem Netzwerk anmelden! Drücke dazu auf die Pfeiltaste oben rechts, wähle den Bereich aus und gebe die E-Mail-Adresse ein, an die die Benachrichtigungen gesendet werden sollen.
+Auf unserer Status-Seite kannst du dich sogar per E-Mail für Benachrichtigungen zu jedem Service in unserem Netzwerk anmelden! Klick dazu einfach auf den Pfeil oben rechts, wähle den Bereich aus und gib die E-Mail-Adresse ein, an die du die Benachrichtigungen erhalten möchtest.
 
 ![](https://github.com/zaphosting/docs/assets/42719082/2758b2b4-29e1-433f-9e40-76ca70fc90b0)
 :::
 
-Wenn das Produkt, mit dem du Probleme hast, derzeit betroffen ist, raten wir dir, zu warten, bis das Problem behoben ist. Unsere Techniker werden automatisch über jede Störung informiert und arbeiten daran, das Problem so schnell wie möglich zu beheben.
+Wenn das Produkt, mit dem du Probleme hast, aktuell betroffen ist, empfehlen wir dir, abzuwarten, bis das Problem behoben wurde. Unsere Techniker werden automatisch über Störungen informiert und arbeiten so schnell wie möglich an einer Lösung.
 
-### Logs einsehen
-Eine weitere Methode zur Fehlerbehebung ist die Einsicht in die Logs deines Servers. Unabhängig davon, welches Spiel oder welchen Dienst du ausführst, solltest du den Inhalt deiner Konsole oder das Unterverzeichnis logs einsehen, um festzustellen, ob Fehler vorliegen. Dies kann je nach Spiel und Dienst sehr unterschiedlich sein.
+### Schau dir deine Logs an
+Eine weitere Fehlerbehebung ist, die Logs deines Gameservers anzuschauen. Egal welches Spiel oder welchen Service du nutzt, check die Konsole oder das Logs-Verzeichnis, ob Fehler angezeigt werden. Das kann je nach Spiel oder Service stark variieren.
 
 :::tip
-Wenn du ein Ticket erstellst, kann es sehr nützlich sein, alle Protokolle oder Fehler im Inhalt deines Tickets anzugeben.
+Wenn du ein Ticket erstellst, ist es super hilfreich, wenn du Logs oder Fehlermeldungen direkt im Ticket anhängst.
 :::
 
-Du kannst auch das Ereignisprotokoll für deinen Dienst einsehen, indem du den Abschnitt **Ereignisprotokoll** im Webinterface deines Produkts aufrufst. Dort findest du alle Ereignisse, die in letzter Zeit aufgetreten sind, z. B. Neustarts, Einschaltvorgänge usw.
-
+Du kannst auch das Ereignisprotokoll deines Services im **Event log** Bereich im Webinterface deines Produkts ansehen. Dort findest du Infos zu Ereignissen wie Neustarts, Einschalten und mehr, die kürzlich passiert sind.
 
 ## Zugriff auf das Ticketsystem
 
-Du kannst auf unser Ticketsystem über das Ticket-Symbol in der oberen Navigationsleiste zugreifen oder indem du direkt die [Ticket-Seite](https://zap-hosting.com/en/customer/support/) aufrufst. Wenn du noch nicht eingeloggt bist, wirst du aufgefordert, dich einzuloggen, bevor du auf diese Seite zugreifen kannst.
+Du erreichst unser Ticketsystem über das Ticketsymbol in der oberen Navigationsleiste oder direkt über die [Ticket-Seite](https://zap-hosting.com/en/customer/support/). Wenn du nicht eingeloggt bist, wirst du aufgefordert, dich einzuloggen, bevor du Zugriff bekommst.
 
-Auf dieser Seite hast du die Möglichkeit, deine aktiven und früheren Anfragen einzusehen und eine neue Anfrage zu erstellen.
+Auf der Seite kannst du deine aktiven und vorherigen Tickets einsehen und ein neues Ticket erstellen.
 
-![](https://github.com/zaphosting/docs/assets/42719082/1e9987b9-bc0c-4d8f-8fd7-a039f7958121)
+![](https://github.com/zaphosting/docs/assets/42719082/be474363-21b1-4e7c-8f55-d7fd1e70ceed)
 
-## Erstellung eines neuen Tickets
+## Neues Ticket erstellen
 
-Wenn du immer noch Unterstützung benötigst, wende dich bitte an unseren offiziellen Support, indem du die [Ticket-Seite](https://zap-hosting.com/en/customer/support/) in deinem Webinterface aufrufst, nachdem du dich eingeloggt hast.
+Wenn du weiterhin Support brauchst, kontaktiere bitte unseren offiziellen Support über die [Ticket-Seite](https://zap-hosting.com/en/customer/support/) im Webinterface, nachdem du dich eingeloggt hast.
 
-Beginne mit des Buttons **Ticket erstellen**. Hier kannst du zwischen einem normalen Ticket oder einem **Speed-UP**-Ticket wählen.
+Klick zuerst auf den Button **Ticket erstellen**. Hier kannst du zwischen einem regulären Ticket oder einem **Speed-UP** Ticket wählen.
 
-![](https://github.com/zaphosting/docs/assets/42719082/4053c79d-0f8d-4e91-aee6-8269384a9045)
+![](https://github.com/zaphosting/docs/assets/42719082/22af5076-bcfc-453f-b4e2-510c2133ef09)
 
-Fülle das Formular dann einfach mit allen erforderlichen Angaben zu deinem Problem und der von dir durchgeführten Fehlerbehebung aus.
+Fülle dann einfach das Formular mit allen wichtigen Details zu deinem Problem und den Schritten zur Fehlerbehebung aus, die du schon versucht hast.
 
-Hier findest du eine Auflistung nützlicher Informationen, die du angeben kannst:
-- Gebe das Thema an, das am besten zu deinem Ticket passt, einschließlich des Servers, um den sich das Ticket dreht (falls relevant).
-- Ein Betreff, der den Inhalt der Anfrage zusammenfasst.
-- Eine detaillierte Beschreibung des Problems. Stelle dir Fragen wie: Wann hat das Problem begonnen? Wie oft tritt das Problem auf? Hast du schon vor der Anfrage Schritte zur Fehlerbehebung unternommen?
-- Zusätzliche Informationen, vielleicht Screenshots von Fehlern, Protokolle und alles andere, was sich als nützlich erweisen könnte.
+Hier ein Überblick, welche Infos hilfreich sind:
+- Wähle das Thema, das am besten zu deinem Ticket passt, inklusive des Servers, um den es geht (falls relevant).
+- Einen Betreff, der kurz zusammenfasst, worum es im Ticket geht.
+- Eine ausführliche Beschreibung des Problems. Frag dich: Wann hat das Problem angefangen? Wie oft tritt es auf? Welche Fehlerbehebungen hast du schon probiert?
+- Zusätzliche Infos, z.B. Screenshots von Fehlermeldungen, Logs oder alles, was nützlich sein könnte.
 
-![](https://github.com/zaphosting/docs/assets/42719082/57bee936-fd3f-48ed-ab0e-ca915c78afb9)
+![](https://github.com/zaphosting/docs/assets/42719082/361732b1-2ac9-45db-be6e-81e20951c498)
 
-Wenn du mit dem Ausfüllen des Ticketformulars fertig bist, solltest du auf den Button **Support-Ticket senden** klicken, wodurch das Ticket an unser Support-Team gesendet wird!
+Wenn du das Formular ausgefüllt hast, klick auf den Button **Support-Ticket senden**, um dein Ticket an unser Support-Team zu schicken!
 
-Nun musst du warten, bis einer unserer hervorragenden Support-Mitarbeiter auf dein Ticket antwortet. Wir informieren dich, sobald wir geantwortet haben, indem wir dir eine E-Mail an die mit deinem Konto verknüpfte E-Mail-Adresse schicken.
+Jetzt heißt es warten, bis einer unserer großartigen Support-Mitarbeiter auf dein Ticket antwortet. Wir informieren dich per E-Mail an deine hinterlegte Adresse, sobald wir geantwortet haben.

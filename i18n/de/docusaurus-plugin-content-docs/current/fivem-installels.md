@@ -1,7 +1,7 @@
 ---
 id: fivem-installels
-title: "FiveM: ELS auf Server installieren"
-description: Informationen, wie du ELS auf deinen FiveM-Server von ZAP-Hosting installieren kannst - ZAP-Hosting.com Dokumentation
+title: "FiveM: ELS auf deinem Server installieren"
+description: "Entdecke, wie du ELS-FiveM mit Carmods für ein besseres Gameplay auf deinem Server einrichtest und aktivierst → Jetzt mehr erfahren"
 sidebar_label: ELS installieren
 services:
   - gameserver-fivem
@@ -13,49 +13,48 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Mit FTP verbinden
 
-Bevor die Ressource installiert werden kann, muss der [Zugriff per FTP](gameserver-ftpaccess.md) hergestellt werden.
+Um die Resource installieren zu können, muss der [Zugang via FTP](gameserver-ftpaccess.md) eingerichtet sein.
 
 ## Vorbereitung
 
-Zuerst laden wir die neuste [ELS-FiveM Version](https://github.com/MrDaGree/ELS-FiveM/releases/latest) runter, diese finden wir unter "Assets"
+Lade dir zuerst die neueste [ELS-FiveM Version](https://github.com/MrDaGree/ELS-FiveM/releases/latest) runter, die du unter „Assets“ findest.
 
-Nachdem wir ELS heruntergeladen haben, entpacken wir zunächst die Zip-Datei, nachdem wir dies getan haben, öffnen wir den "ELS-FiveM" Ordner.
+Nachdem du ELS runtergeladen hast, entpacke die Datei und öffne den Ordner „ELS-FiveM“.
 
 ## Konfiguration
 
-Nun konfigurieren wir ELS-FiveM, dazu erstellen wir eine Kopie von der `vcf.default.lua`, und nennen diese `vcf.lua`.
+Jetzt konfigurieren wir ELS-FiveM, indem wir eine Kopie der Datei `vcf.default.lua` machen und sie in `vcf.lua` umbenennen.
 
 :::info
-Beachte: Die alte `vcf.default.lua` darf nicht gelöscht werden.
+Tipp: Die alte `vcf.default.lua` darf nicht gelöscht werden.
 :::
 
-Es können auch weitere Einstellungen in der "config.lua" vorgenommen werden, wir lassen diese aber Standard.
+Weitere Einstellungen kannst du in der „config.lua“ anpassen, wir lassen sie aber erstmal auf Standard.
 
-## Ressource hochladen
+## Resource hochladen
 
-Um ELS-FiveM zu installieren, können diese über Drag&Drop in den "resources" Ordner hochgeladen werden
+Du kannst ELS-FiveM installieren, indem du die Dateien per Drag & Drop in den „resources“-Ordner hochlädst.
 
-Nachdem diese hochgeladen wurde, muss die server.cfg im server-data Ordner geöffnet werden:
+Nachdem der Upload fertig ist, öffne die server.cfg im server-data Ordner:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/JamwapAcaJFH2BC/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/6AfsTS6wyy9REFB/preview)
 
-Unter den restlichen Starteinträgen für Ressourcen kann nun der Eintrag für ELS-FiveM hinzugefügt werden
+Füge den Eintrag für ELS-FiveM zu den anderen Start-Einträgen der Resources hinzu.
 
-Danach kann der Server neu gestartet werden und ELS-FiveM ist im Spiel verfügbar!
+Danach kannst du den Server neu starten und ELS-FiveM ist im Spiel verfügbar!
 
+## Carmods konfigurieren
 
-## Carmods Konfigurieren
+Um neue Carmods zu ELS-FiveM hinzuzufügen, brauchst du zuerst die ELS-Config, die du oft im Ordner des heruntergeladenen Carmods findest. Meist heißt sie `autoname.xml`, bei uns ist es `scpdvic.xml`.
 
-Um neue Carmods in ELS-FiveM einzufügen brauchen wir zunächst dessen ELS-Config, diese findet man oft im Ordner des heruntergeladenen Carmods, meist heißen diese `autoname.xml`, in unserem Fall ist es `scpdvic.xml`.
+Lade diese Dateien per FTP in den „vcf“-Ordner deines ELS-FiveM-Ordners hoch.
 
-Diese laden wir nun in den "vcf" Ordner unseres ELS-FiveM Ordners über FTP hoch.
-
-Nachdem die Datei hochgeladen wurde, öffnen wir nun die `vcf.lua` Datei, im ELS-FiveM Ordner.
+Nachdem die Datei hochgeladen wurde, öffne die Datei `vcf.lua` im ELS-FiveM-Ordner.
 
 :::info
-Gehe sicher, dass die vorherige Zeile immer ein Komma am Ende hast.
+Achte darauf, dass die vorherige Zeile immer mit einem Komma endet.
 :::
 
-Fertig! Unser Carmod sollte nach einem Neustart des Servers ELS aktiviert sein.
+Fertig! Dein Carmod sollte nach einem Server-Neustart ELS-aktiviert und funktionsfähig sein.
 
 <InlineVoucher />

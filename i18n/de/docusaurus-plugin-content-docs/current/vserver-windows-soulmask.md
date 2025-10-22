@@ -1,7 +1,7 @@
 ---
 id: vserver-windows-soulmask
-title: "vServer: Soulmask Dedicated Server Einrichtung"
-description: Informationen zum Einrichten eines Soulmask Dedicated Servers auf einem vServer - ZAP-Hosting.com Dokumentation
+title: "VPS: Soulmask Dedicated Server Windows Setup"
+description: "Entdecke, wie du den Soulmask Dedicated Server auf deinem Windows VPS oder Dedicated Server installierst für ein reibungsloses Gameplay → Jetzt mehr erfahren"
 sidebar_label: Soulmask
 services:
   - vserver
@@ -10,118 +10,120 @@ services:
 import YouTube from '@site/src/components/YouTube/YouTube';
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
-## Einleitung
+## Einführung
 
-Hast du einen Windows vServer und möchtest den Soulmask Dedicated Server Service darauf installieren? Dann bist du hier genau richtig. In dieser Anleitung erklären wir dir Schritt für Schritt, wie du diesen Dienst auf deinem Server installierst.
+Du hast einen Windows VPS oder Dedicated Server und möchtest den Soulmask Dedicated Server darauf installieren? Dann bist du hier genau richtig. In dieser Anleitung erklären wir dir Schritt für Schritt, wie du den Server auf deinem System einrichtest.
 
 <InlineVoucher />
 
 ## Vorbereitung
 
-Verbinde dich zunächst über Remote Desktop (RDP) mit deinem vServer. Benutze unsere Anleitung [Erstzugang (RDP)](vserver-windows-userdp.md), wenn du dabei Hilfe brauchst.
+Als Erstes verbinde dich per Remote Desktop (RDP) mit deinem VPS. Falls du dabei Hilfe brauchst, schau dir unsere [Erstzugang (RDP)](vserver-windows-userdp.md) Anleitung an.
 
-Sobald du auf deinen Server zugegriffen hast, musst du **SteamCMD** einrichten, damit du die notwendigen Dateien für den dedizierten Server herunterladen kannst. SteamCMD ist die **Befehlszeilenversion (CLI)** des Steam-Clients und das Tool, mit dem du ganz einfach eine Reihe von Steam-Workshop- und Dedicated Server-Dateien herunterladen kannst. Lade [SteamCMD von der offiziellen Valve-Website](https://developer.valvesoftware.com/wiki/SteamCMD) oder direkt [hier](https://steamcdn-a.akamaihd.net/client/installer/steamcmd.zip) herunter.
+Sobald du auf deinem Server bist, musst du **SteamCMD** einrichten, um die nötigen Dedicated Server Dateien runterladen zu können. SteamCMD ist die **Kommandozeilen-Version (CLI)** des Steam-Clients und das Tool, mit dem du einfach verschiedene Steam Workshop- und Dedicated Server-Dateien herunterladen kannst. Lade dir [SteamCMD von der offiziellen Valve-Seite](https://developer.valvesoftware.com/wiki/SteamCMD) oder direkt [hier](https://steamcdn-a.akamaihd.net/client/installer/steamcmd.zip) runter.
 
-Erstelle irgendwo auf deinem Server einen neuen Ordner, in diesem Szenario nennen wir ihn `steamcmd`. Gehe zu deinem Download-Ordner, suche die Datei **steamcmd.zip**, die du gerade heruntergeladen hast, und lege sie in deinem Ordner `steamcmd` ab. Nun musst du die Datei entpacken, indem du mit der rechten Maustaste klickst und die Entpackungsfunktion von Windows oder ein anderes Programm wie .7zip oder Winrar verwendest. Das Ergebnis sollte eine **steamcmd.exe** Datei sein, die entpackt wurde.
+Erstelle irgendwo auf deinem Server einen neuen Ordner, wir nennen ihn hier `steamcmd`. Gehe in deinen Downloads-Ordner, finde die gerade heruntergeladene **steamcmd.zip** und verschiebe sie in den `steamcmd` Ordner. Entpacke die Datei jetzt per Rechtsklick und Windows-Entpackfunktion oder mit Programmen wie 7zip oder WinRAR. Danach solltest du die **steamcmd.exe** Datei im Ordner haben.
 
-Führe einfach **steamcmd.exe** aus und warte, bis der Installationsprozess vollständig abgeschlossen ist.
+Starte einfach **steamcmd.exe** und warte, bis die Installation komplett durchgelaufen ist.
 
 ![](https://github.com/zaphosting/docs/assets/42719082/ffb8e8a1-26e3-4d16-9baf-938e17ec1613)
 
-Sobald die Meldung **Loading Steam API.... OK** angezeigt wird, ist der Vorgang erfolgreich abgeschlossen und du kannst mit der Installation des Soulmask Dedicated Servers im folgenden Abschnitt fortfahren.
+Sobald die Meldung **Loading Steam API.... OK** erscheint, ist alles fertig und du kannst mit der Installation des Soulmask Dedicated Servers im nächsten Abschnitt weitermachen.
 
 ## Installation
 
-Nach der Installation solltest du in der Lage sein, Befehle in der **steamcmd.exe** Eingabeaufforderung auszuführen, die du zuvor ausgeführt hast. Bevor du etwas tun kannst, musst du dich mit dem Benutzer **anonymous** anmelden, indem du den Befehl `login anonymous`
+Nach der Installation solltest du im **steamcmd.exe** Kommandozeilenfenster Befehle ausführen können. Melde dich zuerst mit dem anonymen Benutzer an, indem du folgenden Befehl eingibst: `login anonymous`
 
-Sobald du eingeloggt bist, kannst du mit dem Herunterladen der Dateien beginnen. 
+Wenn du eingeloggt bist, kannst du mit dem Download der Dateien starten.
 
 :::tip
-Optional: Du kannst dein bevorzugtes Installationsverzeichnis festlegen, indem du den Befehl `force_install_dir [path]` verwendest und dabei `[path]` durch den Pfad ersetzst, den du für deinen Server verwenden möchtest. Zum Beispiel: 
+Optional: Du kannst dein bevorzugtes Installationsverzeichnis mit dem Befehl `force_install_dir [Pfad]` festlegen, wobei du `[Pfad]` durch den gewünschten Pfad ersetzt. Zum Beispiel:
 ```
 force_install_dir C:\Soulmask-Server
 ```
 :::
 
-Führe nun den Befehl `app_update 3017310` aus, um den Download zu starten. Die App ID **3017310** ist die **Soulmask** Anwendung.
+Starte jetzt den Download mit dem Befehl `app_update 3017310`. Die App-ID **3017310** steht für die **Soulmask** Anwendung.
 
 ![](https://github.com/zaphosting/docs/assets/42719082/b265a784-cf9a-43dc-b100-376f080e18f3)
 
 :::info
-Bitte unterbrich den Vorgang nicht, bevor er abgeschlossen ist, um Fehler zu vermeiden. Es kann einen Moment dauern, aber es lohnt sich, geduldig zu sein! :)
+Bitte unterbrich den Vorgang nicht, bevor er abgeschlossen ist, um Fehler zu vermeiden. Es kann einen Moment dauern, aber Geduld zahlt sich aus! :)
 :::
 
-Sobald der Vorgang erfolgreich abgeschlossen ist, gehst du in das Download-Verzeichnis, in dem alle Serverdateien heruntergeladen worden sind. Hier kannst du die **StartServer.bat** verwenden, um den Server zu starten. Wir empfehlen dir jedoch, deinen Server zunächst per Port Forwarding weiterzuleiten und zu konfigurieren.
+Wenn der Download abgeschlossen ist, geh in das Verzeichnis, in das die Serverdateien geladen wurden. Dort kannst du die **StartServer.bat** nutzen, um den Server zu starten. Wir empfehlen aber, vorher noch das Portforwarding einzurichten und deinen Server zu konfigurieren.
 
-### Portweiterleitung deines Servers
+### Portfreigabe für deinen Server
 
-Um sicherzustellen, dass dein Server für die Öffentlichkeit zugänglich ist, musst du die Portweiterleitungsregeln für die Ports ändern, die der dedizierte Serverprozess verwendet. Du kannst dies entweder direkt über PowerShell-Befehle tun, was einfacher ist, oder regelmäßig über die Windows Defender Firewall-Seite.
+Damit dein Server öffentlich erreichbar ist, musst du die Portfreigabe für die Ports einrichten, die der Dedicated Server nutzt. Das kannst du entweder direkt per PowerShell machen, was einfacher ist, oder klassisch über die Windows Defender Firewall.
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
 <Tabs>
-<TabItem value="powershell" label="Über Powershell" default>
+<TabItem value="powershell" label="Per PowerShell" default>
 
-Öffne dein Windows-Suchfeld und suche nach **PowerShell**. Achte darauf, dass du mit der rechten Maustaste klickst und **Als Administrator ausführen** wählst, damit die Berechtigungen zugänglich sind und alles richtig funktioniert.
+Öffne die Windows-Suche und suche nach **PowerShell**. Rechtsklick und **Als Administrator ausführen** wählen, damit du die nötigen Rechte hast und alles reibungslos funktioniert.
 
 :::info
-Vergewissere dich, dass du die PowerShell im Administratormodus ausführst, sonst werden die Einstellungen möglicherweise nicht korrekt übernommen.
+Stelle sicher, dass du PowerShell im Administrator-Modus startest, sonst werden die Einstellungen nicht korrekt übernommen.
 :::
 
-Als Nächstes kopierst du die folgenden Befehle und fügst sie in deine PowerShell-Eingabeaufforderung ein:
+Füge nun folgende Befehle in die PowerShell ein:
 ```
-New-NetFirewallRule -DisplayName "Soulmask Server" -Direction Inbound -LocalPort 8777,27015 -Protocol TCP -Action Allow
+New-NetFirewallRule -DisplayName "Soulmask Server" -Direction Inbound -LocalPort 8777,27015  -Protocol TCP -Action Allow
 New-NetFirewallRule -DisplayName "Soulmask Server" -Direction Inbound -LocalPort 8777,27015 -Protocol UDP -Action Allow
 New-NetFirewallRule -DisplayName "Soulmask Server" -Direction Outbound -LocalPort 8777,27015 -Protocol TCP -Action Allow
 New-NetFirewallRule -DisplayName "Soulmask Server" -Direction Outbound -LocalPort 8777,27015 -Protocol UDP -Action Allow
 ```
 
-Mit diesen Befehlen werden automatisch Firewall-Regeln erstellt, die notwendig sind, damit dein Soulmask-Server für die Öffentlichkeit zugänglich ist.
+Diese Befehle erstellen automatisch die Firewall-Regeln, die dein Soulmask Server braucht, um öffentlich erreichbar zu sein.
 
 </TabItem>
 
-<TabItem value="windefender" label="Über Windows Defender">
+<TabItem value="windefender" label="Per Windows Defender">
 
-Verwende die Suchfunktion von Windows, um die **Windows Firewall-Einstellungen mit erweiterter Sicherheit** zu öffnen. Es kann sein, dass du auf **Erweiterte Einstellungen** drücken musst, um das entsprechende Fenster zu öffnen, wenn du die Basisseite der Windows Firewall öffnest.
+Öffne über die Windows-Suche die **Windows-Firewall mit erweiterter Sicherheit**. Falls du nur die Basis-Firewall siehst, klicke auf **Erweiterte Einstellungen**, um das richtige Fenster zu öffnen.
 
 ![](https://github.com/zaphosting/docs/assets/42719082/5fb9f943-7e51-4d8f-9df4-2f5ff60857d3)
 
-Du musst neue Regeln für deinen Soulmask-Server erstellen. Klicke dazu auf die ein- und ausgehenden Regeln wie unten beschrieben und füge sie für die folgenden Protokolle und Ports hinzu:
+Erstelle neue Regeln für deinen Soulmask Server. Klicke dazu auf eingehende und ausgehende Regeln und füge folgende Protokolle und Ports hinzu:
 - TCP eingehend und ausgehend: 8777, 27015
 - UDP eingehend und ausgehend: 8777, 27015
 
-Bitte benutze unseren [Portweiterleitung (Firewall)](vserver-windows-port.md), wenn du weitere Hilfe benötigst.
+Wenn du dabei Hilfe brauchst, schau dir unsere [Portfreigabe (Firewall)](vserver-windows-port.md) Anleitung an.
 
 </TabItem>
 </Tabs>
 
-Wenn du diese Regeln hinzugefügt hast, ist dein Server jetzt erreichbar, d.h. du kannst dich über die IP-Adresse deines Servers mit ihm verbinden. Das kannst du tun, indem du im Hauptmenü auf Multiplayer gehst, IP Direct Connect eingibst und deine IP-Adresse und den verwendeten Port eingibst, der standardmäßig 3724 ist und wie du ihn eingerichtet hast.
+Nachdem du die Regeln hinzugefügt hast, ist dein Server erreichbar. Du kannst dich jetzt über die IP-Adresse deines Servers verbinden. Gehe dazu im Spiel ins Multiplayer-Menü, wähle IP Direct Connect und gib deine IP-Adresse sowie den Port ein (standardmäßig 8777 oder wie du ihn eingestellt hast).
 
-Wir empfehlen, dass du deine Servereinstellungen zuerst im folgenden Abschnitt konfigurierst, bevor du auf deinen Server zugreifst.
+Wir empfehlen, deinen Server zuerst zu konfigurieren, bevor du dich verbindest.
 
 ## Konfiguration
 
-An dieser Stelle hast du die Einrichtung deines Soulmask-Servers abgeschlossen. Du kannst weitere Serverkonfigurationen vornehmen, indem du die Parameter in der Datei **StartServer.bat** im Stammverzeichnis und in der Datei **GameUserSettings.ini** im Pfad `../WS/Saved/Config/WindowsServer` anpasst.
+Bis hierhin hast du die Grundinstallation deines Soulmask Servers abgeschlossen. Weitere Einstellungen kannst du in der **StartServer.bat** Datei im Hauptverzeichnis vornehmen sowie in der **GameUserSettings.ini** Datei unter `../WS/Saved/Config/WindowsServer`.
 
-In unserem [Server-Konfiguration](soulmask-configuration.md) findest du alle verfügbaren Parameter und Konfigurationsoptionen für deinen Soulmask Server.
+Sieh dir unsere [Server Konfiguration](soulmask-configuration.md) an, um alle verfügbaren Parameter und Optionen für deinen Soulmask Server kennenzulernen.
 
-## Starten und Verbinden mit deinem Server
+## Server starten & verbinden
 
-Jetzt ist es an der Zeit, deinen Server zu starten. Gehe in das Stammverzeichnis und führe **StartServer.bat** aus, um den Startvorgang zu beginnen. Dadurch wird die Konsole des Servers in einer Eingabeaufforderung geöffnet und der Startvorgang beginnt.
+Jetzt geht’s ans Eingemachte: Starte deinen Server, indem du im Hauptverzeichnis die **StartServer.bat** ausführst. Das öffnet die Server-Konsole in einem Kommandozeilenfenster und startet den Server.
 
 :::tip
-Wenn dein Server nicht startet und die Eingabeaufforderung einfach verschwindet, gehe in das Verzeichnis `../WS/Saved/Logs` und prüfe das letzte Log, um das Problem zu diagnostizieren.
+Falls dein Server nicht startet und das Kommandozeilenfenster sofort wieder schließt, schau im Verzeichnis `../WS/Saved/Logs` in die neuesten Logs, um den Fehler zu finden.
 
-Es gibt ein häufiges Problem, das damit zusammenhängt, dass der Online-Dienst Steam auf den Windows Dedicated Server Binarys aufgrund einer falschen Verpackung nicht startet. Wenn der Fehler mit Steam zusammenhängt, gehe in dein Stammverzeichnis und verschiebe die folgenden Dateien in den Ordner `../WS/Binaries/Win64`: `steamclient64.dll`, `tier0_s64.dll`, `vstdlib_s64.dll`. Versuche nun, den Server erneut zu starten und er sollte in der Eingabeaufforderung erfolgreich starten.
+Ein häufiger Fehler hängt mit dem Steam Online Service zusammen, der bei den Windows Dedicated Server-Binaries wegen falscher Verpackung nicht startet. Falls der Fehler Steam betrifft, verschiebe folgende Dateien aus deinem Hauptverzeichnis in den Ordner `../WS/Binaries/Win64`: `steamclient64.dll`, `tier0_s64.dll`, `vstdlib_s64.dll`. Starte den Server danach erneut – er sollte jetzt im Kommandozeilenfenster starten.
 :::
 
-Jetzt kannst du dich über deine IP direkt mit deinem Server verbinden, indem du die IP-Adresse deines Servers und den Port 8777 im Multiplayer-Menü des Spiels eingibst.
+Du kannst dich jetzt direkt über die IP und den Port 8777 im Multiplayer-Menü mit deinem Server verbinden.
 
-Wenn du möchtest, dass dein Server in der Serverliste verfügbar ist, sieh dir bitte unsere [Server-Konfiguration](soulmask-configuration.md) an und füge den entsprechenden Parameter "SteamServerName" in deine **StartServer.bat**-Datei ein. Speichere die Datei danach und führe die Batch-Datei erneut aus.
+Wenn dein Server in der Serverliste erscheinen soll, check unsere [Server Konfiguration](soulmask-configuration.md) und füge den passenden `-SteamServerName` Parameter in deine **StartServer.bat** ein. Speichere die Datei und starte den Server erneut.
 
-## Abschluss
+Herzlichen Glückwunsch, du hast Soulmask erfolgreich auf deinem Windows Dedicated Server installiert!
 
-Glückwunsch, du hast den Soulmask Server erfolgreich installiert und konfiguriert! Solltest du noch weitere Fragen oder Probleme haben, dann wende dich gerne an unser Support-Team, welches dir jeden Tag zur Verfügung steht!
+## Fazit
+
+Glückwunsch, du hast den Soulmask Server erfolgreich auf deinem VPS installiert und konfiguriert! Falls du noch Fragen oder Probleme hast, steht dir unser Support-Team täglich zur Verfügung und hilft dir gerne weiter!
 
 <InlineVoucher />

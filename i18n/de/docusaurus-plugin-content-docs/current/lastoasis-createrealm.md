@@ -1,7 +1,7 @@
 ---
 id: lastoasis-createrealm
-title: "Last Oasis: Einen neuen Realm erstellen"
-description: Informationen zur Erstellung eines neuen Realms für deinen Last Oasis Server von ZAP-Hosting - ZAP-Hosting.com Dokumentation
+title: "Last Oasis: Erstelle ein neues Realm"
+description: "Entdecke, wie du dein eigenes Last Oasis Realm und Oasis erstellst und authentifizierst für nahtloses Gameplay und einfache Serververwaltung → Jetzt mehr erfahren"
 sidebar_label: Realm erstellen
 services:
   - gameserver-lastoasis
@@ -10,77 +10,77 @@ services:
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
-Last Oasis Server erfordern eine Reihe von Einrichtungsschritten, um sich bei der offiziellen Seite zu authentifizieren. In dieser Anleitung gehen wir auf die Schritte ein, die erforderlich sind, um deinen eigenen Realm auf Last Oasis zu erstellen und eine Oase innerhalb deines neuen Realms einzurichten.
+Last Oasis Gameserver benötigen einige Einrichtungsschritte, um sich mit der offiziellen Seite zu authentifizieren. In dieser Anleitung zeigen wir dir, wie du dein eigenes Realm in Last Oasis erstellst und eine Oasis innerhalb deines neuen Realms einrichtest.
 
 <InlineVoucher />
 
 ## Vorbereitung
-Eine der Voraussetzungen für die Einrichtung eines neuen Realms ist die Generierung eines Schlüssels von der offiziellen Seite, damit du dich bei den offiziellen Online-Diensten verifizieren und authentifizieren kannst.
+Eine Voraussetzung für die Einrichtung eines neuen Realms ist es, einen Schlüssel von der offiziellen Seite zu generieren, um dich mit den offiziellen Online-Diensten verifizieren und authentifizieren zu können.
 
-Gehe einfach auf die [offizielle Last Oasis](https://myrealm.lastoasis.gg/) Website und logge dich mit der von dir bevorzugten Plattform (Steam oder Xbox) ein.
+Gehe einfach auf die [offizielle Last Oasis](https://myrealm.lastoasis.gg/) Webseite und logge dich mit deiner bevorzugten Plattform (Steam oder Xbox) ein.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/d7MNA94TAkmfq4w/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/Z2sPJLFks9LY8cg/preview)
 
-## Serverschlüssel einrichten
-Sobald du eingeloggt bist, erhältst du bereits einen **CustomerKey**, den Schlüssel für deinen Gameserver.
+## Server-Schlüssel einrichten
+Nach dem Login hast du bereits einen **CustomerKey**, das ist der Schlüssel für deinen Gameserver.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/iLZT2WBbeJdsq5F/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/DgdDoCHf7DDjZ2s/preview)
 
-Gehe einfach zum Abschnitt **Einstellungen** im Webinterface deines Gameservers und gib diesen Code in das Feld **Kundenschlüssel** ein. Achte darauf, dass du nach der Änderung speicherst.
+Gehe einfach im Webinterface deines Gameservers in den Bereich **Settings** und trage diesen Code in das Feld **Customer Key** ein. Vergiss nicht, nach der Änderung zu speichern.
 
-## Providerschlüssel einrichten
-Du musst auch einen Anbieterschlüssel erstellen, um deinen Gameserver eindeutig zu identifizieren. Benutze einfach den Button **Schlüssel hinzufügen**, um ein Menü zu öffnen.
+## Provider-Schlüssel einrichten
+Du musst außerdem einen Provider-Schlüssel erstellen, um deinen Gameserver eindeutig zu identifizieren. Klicke dazu auf den Button **Add Key**, um ein Menü zu öffnen.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/oZtZyPqgw9bPTmF/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/JMQPTZrHcCxgEz2/preview)
 
-Gib im Menü einen sinnvollen Namen und eine Beschreibung für den Schlüssel ein und drücke **Hinzufügen**.
+Fülle im Menü einen aussagekräftigen Namen und eine Beschreibung für den Schlüssel aus und klicke auf **Add**.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/qpPTPZHP4EFfsid/preview)
-
-:::tip
-Wenn du mehrere Oasen in deinem Realm miteinander verbinden möchtest und sie gleichzeitig aktiv sein sollen, kannst du in unserer [Mehrere Oasen](lastoasis-multiple-oases.md) Anleitung nachlesen, wie du das machst.
-:::
-
-Gehe wieder zu den **Einstellungen** im Webinterface deines Gameservers und gib diesen Code in das Feld **ProviderKey** ein. Achte darauf, dass du nach der Änderung speicherst.
-
-## Einen Realm erstellen
-Jetzt kannst du einen Realm erstellen. Gehe auf der [offiziellen Last Oasis](https://myrealm.lastoasis.gg/) Website in den Bereich **Realms** und erstelle einen neuen Realm.
-
-![](https://screensaver01.zap-hosting.com/index.php/s/tMsAJBEkmAj9ZAp/preview)
-
-Wähle einen Namen und fülle alle zusätzlichen Details aus, die du möchtest. Wenn du fertig bist, speichere den Realm. Dies ist notwendig, damit du dich mit deinem Server verbinden kannst.
-
-![](https://screensaver01.zap-hosting.com/index.php/s/6SAePfoi3Z29jq5/preview)
-
-Sobald du deinen Realm erstellt hast, siehst du eine Übersicht über den gesamten Realm, in der du alle zusätzlichen Einstellungen vornehmen und nützliche Informationen einsehen kannst.
-
-![](https://screensaver01.zap-hosting.com/index.php/s/xbFLbTEd4TPPimg/preview)
-
-## Eine Oase erstellen
-Der letzte Schritt besteht darin, eine Oase in deinem Realm zu erstellen. Für jeden Gameserver, den du besitzt, musst du eine eigene Oase erstellen. Wenn du zum Beispiel 2 Gameserver besitzt, solltest du für beide eine eigene Oase erstellen.
-
-Klicke einfach auf den Button **Verwalten** in der Realm-Übersicht.
-
-![](https://screensaver01.zap-hosting.com/index.php/s/d7PcKf7H7zpWTm6/preview)
-
-Auf der neuen Seite wählst du den gewünschten Ort für deine neue Oase aus und bestätigst mit **Hinzufügen**.
-
-![](https://screensaver01.zap-hosting.com/index.php/s/PD5KfSABgxqQ93S/preview)
-
-Es wird eine neue Eingabeaufforderung angezeigt, in der du einen Namen festlegen und eine Karte auswählen kannst.
-
-![](https://screensaver01.zap-hosting.com/index.php/s/crcZkzabyCa3zFn/preview)
-
-![](https://screensaver01.zap-hosting.com/index.php/s/KNWnbcTb7QdMJmn/preview)
-
-Sobald du bestätigt hast, kannst du auf **Oase hinzufügen** drücken, um die Oase zu erstellen, und sie mit dem Button **Aktivieren** aktivieren.
-
-![](https://screensaver01.zap-hosting.com/index.php/s/AfFCY2psAw4oLrb/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/bfiaA2gjjjxESpM/preview)
 
 :::tip
-Wenn du mehrere Oasen in deinem Realm miteinander verbinden möchtest und sie gleichzeitig aktiv sein sollen, kannst du in unserem [Mehrere Oasen](lastoasis-multiple-oases.md) nachlesen, wie du das machst.
+Wenn du mehrere Oasen in deinem Realm verbinden und gleichzeitig aktiv haben möchtest, schau dir unsere [Multiple Oases](lastoasis-multiple-oases.md) Anleitung an, um zu lernen, wie du das aktivierst.
 :::
 
-Du hast erfolgreich einen neuen Realm und eine Oase für deinen Last Oasis Gameserver eingerichtet.
+Gehe erneut in den Bereich **Settings** im Webinterface deines Gameservers und trage den neuen Schlüssel in das Feld **ProviderKey** ein. Speichere die Änderung.
+
+## Realm erstellen
+Jetzt kannst du dein Realm erstellen. Auf der gleichen [offiziellen Last Oasis](https://myrealm.lastoasis.gg/) Webseite gehst du in den Bereich **Realms** und legst ein neues Realm an.
+
+![](https://screensaver01.zap-hosting.com/index.php/s/ydzjKZTgG4L7QpQ/preview)
+
+Wähle einen Namen und fülle weitere Details nach Wunsch aus. Speichere das Realm, sobald du fertig bist. Das ist notwendig, damit du dich mit deinem Server verbinden kannst.
+
+![](https://screensaver01.zap-hosting.com/index.php/s/4rJq5r2zfHx66Qs/preview)
+
+Nach der Erstellung siehst du eine Übersicht deines gesamten Realms, wo du weitere Einstellungen vornehmen und nützliche Infos einsehen kannst.
+
+![](https://screensaver01.zap-hosting.com/index.php/s/j5egcHeicf3QPiR/preview)
+
+## Oasis erstellen
+Der letzte Schritt ist, eine Oasis innerhalb deines Realms zu erstellen. Für jeden Gameserver, den du besitzt, musst du eine eigene Oasis anlegen. Wenn du z.B. 2 Gameserver hast, solltest du für beide jeweils eine Oasis erstellen.
+
+Klicke im Realm-Übersichtsbereich auf den Button **Manage**.
+
+![](https://screensaver01.zap-hosting.com/index.php/s/GNDZ7DaeLT2qAoC/preview)
+
+Auf der neuen Seite wählst du einen gewünschten Ort für deine neue Oasis aus und bestätigst mit **Add**.
+
+![](https://screensaver01.zap-hosting.com/index.php/s/dXKXKod6y8NE8SC/preview)
+
+Ein neues Fenster öffnet sich, in dem du einen Namen vergeben und eine Karte auswählen kannst.
+
+![](https://screensaver01.zap-hosting.com/index.php/s/aKJmGmGQmz65Xnz/preview)
+
+![](https://screensaver01.zap-hosting.com/index.php/s/Hrq49c3TArdYXdG/preview)
+
+Nach der Bestätigung kannst du endlich auf **Add Oasis** klicken, um die Oasis zu erstellen und sie mit dem Button **Activate** aktivieren.
+
+![](https://screensaver01.zap-hosting.com/index.php/s/tfEXd4GgAMDd8sE/preview)
+
+:::tip
+Wenn du mehrere Oasen in deinem Realm verbinden und gleichzeitig aktiv haben möchtest, nutze unsere [Multiple Oases](lastoasis-multiple-oases.md) Anleitung, um zu erfahren, wie das geht.
+:::
+
+Du hast erfolgreich ein neues Realm und eine Oasis für deinen Last Oasis Gameserver eingerichtet.
 
 <InlineVoucher />

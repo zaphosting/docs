@@ -1,118 +1,108 @@
 ---
 id: legal-use-brand-assets
-title: Verwendung unserer Marke
-description: Informationen, unter welchen Bedingungen das ZAP-Hosting Logo und der Name verwendet werden können - ZAP-Hosting.com Dokumentation
+title: Markenverwendung
+description: "Entdecke, wie du die ZAP-Hosting Markenassets richtig nutzt, um die Markenidentität und Reputation zu schützen und gleichzeitig deine Partnerschaft zu promoten → Jetzt mehr erfahren"
 sidebar_label: Verwendung unserer Marke
 ---
 
-
-
 ## Einführung
 
-Wir bei ZAP-Hosting glauben an die Kraft von Kreativität und Ideen in Bezug auf unsere Markenwerte. Wir sind eine enthusiastische, spielerische Marke, die Sinn für Humor hat. Allerdings sind wir auch verpflichtet, dafür zu sorgen, dass unsere Marke auf seriöse Weise verwendet wird, um unsere Markenidentität und unseren Ruf zu schützen.
+Bei ZAP-Hosting glauben wir an die Kraft von Kreativität und Ideen, wenn es um unsere Markenassets geht. Wir sind eine enthusiastische, verspielte Marke mit einem Sinn für Humor. Gleichzeitig sind wir aber auch verpflichtet, sicherzustellen, dass unsere Marke seriös verwendet wird, um unsere Markenidentität und unseren Ruf zu schützen.
 
-Aus diesem Grund haben wir eine Reihe von Richtlinien für die Verwendung unserer Marke aufgestellt, um sicherzustellen, dass wir angemessen repräsentiert werden. Diese müssen Sie auf [unserer Branding-Website](https://zap-hosting.com/branding) befolgen.
+Aus diesem Grund haben wir eine Vielzahl von Richtlinien zur Nutzung unserer Markenassets, damit wir angemessen repräsentiert werden – diese musst du über [unsere Branding-Seite](https://zap-hosting.com/branding) einhalten.
 
 :::info
-Wir haben eine eigene [Branding-Seite](https://zap-hosting.com/branding), auf der du Zugang zu unseren Richtlinien, unserer Pressemappe und allgemeinen Informationen über unsere großartige Marke hast!
+Wir haben eine eigene [Branding-Seite](https://zap-hosting.com/branding), auf der du unsere Richtlinien, das Pressekits und allgemeine Infos zu unserer genialen Marke findest!
 :::
 
-Durch die Nutzung der Markenressourcen von ZAP-Hosting erklärst du dich damit einverstanden, diese Richtlinien, die ZAP-Hosting-Nutzungsbedingungen und alle anderen Regeln und Richtlinien von ZAP-Hosting (einschließlich der individuell besprochenen Sonderbedingungen und Ausnahmen) zu respektieren und zu befolgen. 
-
-ZAP-Hosting behält sich das Recht vor, eine erteilte Nutzungserlaubnis innerhalb dieser Richtlinien jederzeit nach eigenem Ermessen zu widerrufen, zu modifizieren oder zu ändern.
+Mit der Nutzung der Markenassets von ZAP-Hosting erklärst du dich damit einverstanden, diese Richtlinien, die ZAP-Hosting Nutzungsbedingungen und alle weiteren Regeln und Policies von ZAP-Hosting (inklusive individuell vereinbarter Sonderbedingungen und Ausnahmen) zu respektieren und einzuhalten. ZAP-Hosting behält sich das Recht vor, jede erteilte Erlaubnis zur Nutzung innerhalb dieser Richtlinien jederzeit und nach eigenem Ermessen zu widerrufen, zu ändern oder anzupassen.
 
 
 
 ## Häufig gestellte Fragen
 
-**Ich möchte ein Banner aus der vorgegebenen Liste im Webinterface für meine Website verwenden. Ist dies ohne Erlaubnis erlaubt?**
+**Ich möchte ein Banner aus der voreingestellten Liste im Webinterface für meine Website nutzen. Ist das ohne Erlaubnis erlaubt?**
 
-*Die Verwendung unserer Markenwerte (Logo, Name und voreingestellte Banner aus dem Bereich "Freunde werben") ist erlaubt, solange sie durch Anklicken auf unsere Website oder unsere Produkte weiterleiten.*
+*Die Nutzung unserer Markenassets (Logo, Name und voreingestellte Banner aus dem Bereich "Freunde werben") ist erlaubt, solange sie per Klick auf unsere Website oder unsere Produkte verlinken.*
 
+<br/>
 
+**Ich bin ZAP-Partner, darf ich das Logo nutzen?**
 
-**Ich bin ein ZAP-Partner, kann ich das Logo verwenden?**
+*Wenn du ZAP-Hosting Partner bist und Fragen zur Nutzung der ZAP-Hosting Markenassets im Rahmen deiner Vereinbarung hast, kontaktiere bitte deinen ZAP-Hosting Partner Manager. Die Kontaktdaten findest du in deinem Partner-Menü.*
 
-*Wenn du ein ZAP-Hosting Partner bist und eine Frage bezüglich der Verwendung von ZAP-Hosting Markenassets im Zusammenhang mit deiner Vereinbarung hast, kontaktiere bitte deinen ZAP-Hosting Partner Manager. Die Kontaktdaten findest du in deinem Partnermenü.*
+<br/>
 
+**Ich habe etwas gefunden, das ich für eine unautorisierte Nutzung des Logos oder Namens halte. Was soll ich tun?**
 
+*Wenn du eine Website, einen Account oder eine Grafik gefunden hast, die das ZAP-Hosting Markenlogo unangemessen nutzt, möchten wir das gerne wissen. Bitte kontaktiere in solchen Fällen sofort abuse@zap-hosting.com.*
 
-**Ich habe etwas gefunden, von dem ich glaube, dass es eine unberechtigte Verwendung des Logos oder des Namens ist. Was sollte ich tun?**
+<br/>
 
-*Wenn du eine Website, ein Konto oder eine Grafik gefunden hast, auf der ein Logo der Marke ZAP-Hosting in unzulässiger Weise verwendet wird, würden wir uns freuen, davon zu hören. In solchen Fällen wende sich bitte umgehend an abuse@zap-hosting.com*.
+**Ich bin ZAP Helper. Darf ich euer Logo und den Namen nutzen?**
 
+*Nein. ZAP-Helper ist ein Rang auf unserem Discord für Community-Mitglieder, die freiwillig helfen und Fragen im Discord beantworten. ZAP-Helper sind keine Mitarbeiter von ZAP-Hosting und dürfen sich nicht als solche ausgeben. Die Nutzung der Markenassets und des Namens ist ohne Vereinbarung ebenfalls nicht erlaubt.*
 
+<br/>
 
-**Ich bin ein ZAP-Helfer. Darf ich euer Logo und euren Namen verwenden?**
+**Ich möchte einen Screenshot von der Seite oder dem Chat posten, darf ich das?**
 
-*Nein. ZAP-Helper ist ein Rang in unserem Discord für Community-Mitglieder, die freiwillig helfen und im Rahmen ihrer Kenntnisse Fragen im Discord beantworten. ZAP-Helper sind keine Mitarbeiter von ZAP-Hosting und dürfen sich nicht als solche ausgeben oder darstellen. Eine Nutzung der Markenwerte und des Namens ist ohne Zustimmung ebenfalls nicht erlaubt.*
+*Nein. Alle Inhalte, die auf unserer Website und in unseren Social Media gezeigt, veröffentlicht oder geteilt werden, dürfen ohne ausdrückliche schriftliche Erlaubnis nicht weiterverbreitet werden. Das umfasst unter anderem Screenshots unserer Website, des Webinterfaces, Chatverläufe, Daten und Informationen von unseren Mitarbeitern sowie Teile oder Auszüge davon.*
 
-
-
-**Ich würde gerne einen Screenshot der Website oder des Chats veröffentlichen, darf ich?**
-
-*Alle Inhalte, die auf unserer Website und in den sozialen Medien gezeigt, veröffentlicht oder geteilt werden, dürfen ohne ausdrückliche schriftliche Genehmigung nicht verbreitet werden. Dies gilt unter anderem für Screenshots unserer Website, der Webschnittstelle, Chatverläufe, Daten und Informationen unserer Mitarbeiter sowie Teile oder Auszüge daraus.*
-
-Wenn du Fragen zu dieser Richtlinie hast, wende dich bitte an marketing@zap-hosting.com.
-
-
-
-## Allgemeine Richtlinien für die Verwendung
+Wenn du Fragen zu dieser Richtlinie hast, kontaktiere marketing@zap-hosting.com.
 
 
+## Allgemeine Richtlinien zur Nutzung
 
 **Erlaubte Nutzung:**
 
-- Du darfst unsere Marken-Assets verwenden, um auf unsere Website, unsere Produkte oder unsere Social-Media-Kanäle zu verweisen (z.B. Hyperlinks, Logos auf Websites etc.). 
-- Du darfst unsere Marken-Assets verwenden, wenn du ein bestätigter Partner im ZAP-Partnerprogramm bist.
-- 
+- Du darfst unsere Markenassets nutzen, um auf unsere Website, unsere Produkte oder unsere Social-Media-Kanäle weiterzuleiten (z.B. Hyperlinks, Logos auf Websites etc.).
+
+- Du darfst unsere Markenassets nutzen, wenn du ein bestätigter Partner im ZAP Partnerprogramm bist.
 
 
-**Nicht erlaubte Verwendung:**
+**Nicht erlaubte Nutzung:**
 
-- Nicht autorisierte Brand Assets sind von dir in Form oder Farbe verändert oder entstellt worden. Dazu gehören Logos, Screenshots der Website, veröffentlichte Artikel und Screenshots von Chats und Gesprächen mit unseren Mitarbeitern sowie persönliche Informationen unserer Mitarbeiter selbst.
-- Verwendung des Markennamens und der Logos (oder eines Teils davon) in Domain-Namen, Social-Media-Konten, Firmennamen, App-Namen oder als Teil von Online- oder persönlichen Veranstaltungen (einschließlich Community-Veranstaltungen oder -Treffen).
-- Verwendung des Markennamens und der Logos (oder von Teilen davon) in Dienstleistungsangeboten, Produkten oder Post.
-- Verwendung des Markennamens und der Logos (oder Teilen davon) in einer Weise, die eine Zugehörigkeit, Partnerschaft, ein Sponsoring oder eine Unterstützung durch oder mit ZAP-Hosting suggeriert, es sei denn, wir haben sie nach Absprache in das ZAP-Hosting-Partnerprogramm aufgenommen.
-- Verwende keine markenrechtlich geschützten Grafiken und Logos der Marke ZAP-Hosting in redaktionellen Inhalten, die den Eindruck erwecken, dass sie von ZAP-Hosting oder einem Mitarbeiter oder Partner von ZAP-Hosting verfasst wurden oder die die Ansichten oder Meinungen von ZAP-Hosting oder einem Mitarbeiter oder Partner von ZAP-Hosting darstellen.
-- Verwende markenrechtlich geschützte Grafiken und Logos von ZAP-Hosting nicht in einer Art und Weise, die irreführend, diffamierend, verleumderisch, beleidigend, obszön oder verletzend ist, oder in einer Art und Weise, die den Geist der Community-Richtlinien von ZAP-Hosting verletzt.
-- Verwende keine von ZAP-Hosting geschützten Grafiken und Logos für Material, das die Marken-, Urheber- oder sonstigen Rechte Dritter verletzt.
-  Die Rechte von ZAP-Hosting an den markenrechtlich geschützten Grafiken und Logos von ZAP-Hosting dürfen nicht verletzt, geschmälert, verwässert oder beeinträchtigt werden.
+- Unautorisierte Markenassets wurden von dir in Form oder Farbe verändert oder verzerrt. Das betrifft Logos, Screenshots der Website, veröffentlichte Artikel sowie Screenshots von Chats und Gesprächen mit unseren Mitarbeitern und persönliche Informationen unserer Mitarbeiter.
 
+- Nutzung des Markennamens und der Logos (oder Teile davon) in Domainnamen, Social-Media-Accounts, Firmennamen, App-Namen oder als Teil von Online- oder persönlichen Events (inklusive Community-Events oder Treffen).
 
+- Nutzung des Markennamens und der Logos (oder Teile davon) in Serviceangeboten, Produkten oder Mailings.
 
-## Verwendung unserer Logos
+- Nutzung des Markennamens und der Logos (oder Teile davon) in einer Weise, die eine Zugehörigkeit, Partnerschaft, Sponsorenschaft oder Unterstützung durch oder mit ZAP-Hosting suggeriert, sofern wir dich nicht ausdrücklich im ZAP-Hosting Partnerprogramm aufgenommen haben.
 
-Im Allgemeinen erlauben wir die Verwendung der ZAP-Hosting-Logos in Marketingmaterialien Dritter nicht. Dazu gehören Online- und Offline-Werbematerialien wie:
+- Keine Verwendung von markenrechtlich geschützten Grafiken und Logos der ZAP-Hosting Marke in redaktionellen Inhalten, die den Eindruck erwecken, sie seien von ZAP-Hosting oder einem Mitarbeiter bzw. Partner von ZAP-Hosting verfasst oder würden die Ansichten oder Meinungen von ZAP-Hosting oder einem Mitarbeiter bzw. Partner von ZAP-Hosting vertreten.
 
+- Keine Nutzung der ZAP-Hosting Marken-Grafiken und Logos in einer Weise, die irreführend, verleumderisch, beleidigend, obszön oder rechtsverletzend ist oder gegen den Geist der ZAP-Hosting Community-Richtlinien verstößt.
+
+- Keine Nutzung der ZAP-Hosting Marken-Grafiken und Logos für Materialien, die Marken-, Urheber- oder sonstige Rechte Dritter verletzen.
+Die Rechte von ZAP-Hosting an den markenrechtlich geschützten Grafiken und Logos dürfen nicht verletzt, geschmälert, verwässert oder beeinträchtigt werden.
+
+## Nutzung unserer Logos
+
+Grundsätzlich erlauben wir keine Nutzung der ZAP-Hosting Logos in Marketingmaterialien Dritter. Das umfasst Online- und Offline-Werbematerialien wie:
 - Kunden- und Empfehlungslisten
-- Verkaufspräsentationen
-- Print-, Rundfunk-, Außen- oder Online-Werbung
-- Produkt-Demos
+- Sales-Präsentationen
+- Print-, Broadcast-, Outdoor- oder Online-Werbung
+- Produktdemos
 - Beschilderungen
 - Messestände
-- Druck oder Klebung 
-- Hochladen unserer Marken-Assets auf Webseiten Dritter, die für die Nutzung der hochgeladenen Medien eine Genehmigung benötigen
+- Drucken oder Aufkleben
+- Hochladen unserer Markenassets auf Drittanbieter-Websites, die eine Erlaubnis zur Nutzung der hochgeladenen Medien erfordern
 
-Wir behalten uns das Recht vor, im Einzelfall zu entscheiden, ob bei hier nicht aufgeführten Punkten ein Missbrauch vorliegt. Grundsätzlich gilt die Notwendigkeit einer schriftlichen Genehmigung zur Nutzung unserer Markenwerte und unseres Namens.
+Wir behalten uns das Recht vor, im Einzelfall zu entscheiden, ob eine missbräuchliche Nutzung vorliegt, auch bei Punkten, die hier nicht explizit genannt sind. Grundsätzlich gilt: Für die Nutzung unserer Markenassets und unseres Namens ist eine schriftliche Erlaubnis erforderlich.
 
-
-
-## Werbespots, TV-Sendungen, YouTube-Videos, Filme oder Artikel
-
-Wenn du unsere Marken-Assets als Teil eines Artikels, in einem Film oder innerhalb einer Radiosendung verwenden möchtest, kontaktiere uns bitte. Wir sind für solche Anfragen offen. Bitte lege deiner Anfrage die folgenden Informationen bei:
-
-- Beschreibung des Projektes/Inhaltes 
-- Art der Verwendung der ZAP-Hosting Brand Assets
+## Werbespots, TV-Programme, YouTube-Videos, Filme oder Artikel
+Wenn du unsere Markenassets in einem Artikel, Film oder Radioprogramm verwenden möchtest, kontaktiere uns bitte. Wir sind offen für solche Anfragen. Bitte gib bei deiner Anfrage folgende Infos an:
+- Beschreibung des Projekts/Inhalts
+- Art der Nutzung der ZAP-Hosting Markenassets
 - Visuelle Mock-ups oder Screenshots
 
-Bei nicht genehmigten veröffentlichten Inhalten dieser Art behalten wir uns das Eigentumsrecht im Rahmen des Markenrechts vor.
-
-
+Bei nicht genehmigten veröffentlichten Inhalten dieser Art behalten wir uns die Eigentumsrechte im Rahmen des Markenrechts vor.
 
 ## Rechtlicher Anhang
 
-ZAP-Hosting behält sich das Recht vor, das Erscheinungsbild der ZAP-Hosting Brand Assets jederzeit und ohne vorherige Ankündigung zu ändern. Jegliche Nutzung der ZAP-Hosting Marken-Assets muss zum Nutzen von ZAP-Hosting erfolgen. Durch die von ZAP-Hosting genehmigte Nutzung der Marken-Assets erkennst du das Eigentum von ZAP-Hosting an allen Marken-Assets an und garantieren, dass du keine Handlungen vornehmen wirst, die mit dem Eigentum von ZAP-Hosting unvereinbar sind. Die strikte Einhaltung dieser Richtlinien ist jederzeit erforderlich, und jede Verwendung der geschützten Grafiken und Logos von ZAP-Hosting, die gegen diese Richtlinien verstößt, führt automatisch zur Beendigung jeglicher Lizenz und Erlaubnis in Bezug auf Ihre Verwendung der Markenwerte von ZAP-Hosting.
+ZAP-Hosting behält sich das Recht vor, das Erscheinungsbild der ZAP-Hosting Markenassets jederzeit und ohne Vorankündigung zu ändern. Jede Nutzung der ZAP-Hosting Markenassets muss zum Vorteil von ZAP-Hosting erfolgen. Mit der autorisierten Nutzung der Markenassets erkennst du das Eigentum von ZAP-Hosting an allen Markenassets an und gewährleistest, keine Handlungen vorzunehmen, die dem Eigentum von ZAP-Hosting widersprechen. Die strikte Einhaltung dieser Richtlinien ist jederzeit erforderlich, und jede Nutzung der geschützten Grafiken und Logos von ZAP-Hosting, die gegen diese Richtlinien verstößt, beendet automatisch jede Lizenz und Erlaubnis zur Nutzung der ZAP-Hosting Markenassets.
 
-"ZAP-Hosting", ZAP-Hosting.com und das ZAP-Hosting-Logo sind Marken der ZAP-Hosting GmbH.
-Rechtsgrundlage gemäß [Impressum](https://zap-hosting.com/en/impressum/).
+"ZAP-Hosting", ZAP-Hosting.com und das ZAP-Hosting Logo sind Marken der ZAP-Hosting GmbH  
+Rechtsgrundlage gemäß [Impressum](https://zap-hosting.com/en/imprint/)

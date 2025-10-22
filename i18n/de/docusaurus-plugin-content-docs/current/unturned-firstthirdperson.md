@@ -1,7 +1,7 @@
 ---
 id: unturned-firstthirdperson
-title: "Unturned: 1st/3rd Person für Server einstellen"
-description: Informationen, wie du auf deinem Unturned-Server von ZAP-Hosting die 1st- oder die 3rd-Person-Perspektive einstellst - ZAP-Hosting.com Dokumentation
+title: "Unturned: 1st/3rd Person für deinen Server einstellen"
+description: "Entdecke, wie du die Spielerperspektive deines Unturned Servers zwischen First- und Third-Person oder beiden Ansichten anpassen kannst für ein besseres Gameplay → Jetzt mehr erfahren"
 sidebar_label: 1st/3rd Person
 services:
   - gameserver-unturned
@@ -11,39 +11,43 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 <InlineVoucher />
 
-## Einführung
+## 1st / 3rd Person Perspektive
 
-Unturned bietet die Möglichkeit, die Sichtweise auf dem Server zu ändern. So kann sowohl die Firstperson (Egoperspektive / Ich-Perspektive) als auch Thirdperson Perspektive aktiviert werden. Standardmäßig findet das Spiel geschehen in der Firstperson Perspektive statt. Seit der 3.9.9.0 Version kann dies allerdings auch umgestellt werden. Im Folgenden erklären wir dir, wie du dies bei deinem Server anpassen kannst. 
+Unturned bietet dir die Möglichkeit, die Perspektive auf deinem Server zu ändern. Du kannst zwischen der First- und Third-Person-Perspektive wählen. Standardmäßig wird das Spiel in der First-Person-Perspektive gespielt. Seit Version 3.9.9.0 kannst du das aber auch ändern. Im Folgenden erklären wir dir, wie du das für deinen Server einstellen kannst.
 
 
 
 ## Konfiguration
 
-Die Änderung dafür wird in der **Commands.dat** Config vorgenommen. Diese findest du im **Webinterface bei der Verwaltungsoberfläche deines Gameservers unter Configs**. Bei der Config angelangt müssen wir dann je nachdem wie die Ansicht eingestellt werden soll, folgenden Befehl hinzufügen:
+Die Änderung erfolgt in der **Commands.dat** Konfigurationsdatei. Diese findest du im **Webinterface unter Configs**. Je nachdem, wie die Ansicht eingestellt werden soll, muss folgender Befehl in die Config eingetragen werden:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/4BFfETwJFDktBcX/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/9mZyJKX6xCTeDeA/preview)
 
 
 
-### 1st-Person-Perspektive (Standard): 
+### First-Person-Perspektive (Standard):
 
-Diese Option ist bereits aktiv, auch wenn der Befehl noch nicht in der Config eingetragen wurde. Nichtsdestotrotz kannst du diesen Befehl der Vollständigkeit wegen trotzdem problemlos hinzufügen. Der Befehl sieht dann wie folgt aus: 
-
-```
-perspective first
-```
-
-### 3rd-Person-Perspektive:
-
-Wenn statt der 1st Person die 3rd Person Ansicht genutzt werden, dann kann dies ebenfalls eingestellt werden. Der Befehl sieht dann wie folgt aus:
+Diese Option ist standardmäßig schon aktiv, auch wenn der Befehl noch nicht in der Config steht. Trotzdem kannst du den Befehl zur Vollständigkeit ohne Probleme hinzufügen. Der Befehl für diese Option sieht so aus:
 
 ```
 perspective first
 ```
+
+
+
+### Third-Person-Perspektive:
+
+Wenn du statt der First-Person die Third-Person-Perspektive nutzen möchtest, kannst du das ebenfalls einstellen. Der Befehl dafür sieht so aus:
+
+```
+perspective third
+```
+
+
 
 ### Beide Perspektiven:
 
-Natürlich gehen auch beide Varianten zusammen. Hierfür muss dann lediglich der Wert des Befehls angepasst werden. Der Befehl sieht dann wie folgt aus:
+Beide Varianten kannst du auch zusammen nutzen. In dem Fall muss nur der Wert im Befehl angepasst werden. Der Befehl für diese Option sieht so aus:
 
 ```
 perspective both
@@ -51,6 +55,6 @@ perspective both
 
 
 
-Beim nächsten Startvorgang deines Servers sollte die gewünschte Option dann aktiviert sein!
+Beim nächsten Start deines Servers ist die gewünschte Option dann aktiv!
 
 <InlineVoucher />

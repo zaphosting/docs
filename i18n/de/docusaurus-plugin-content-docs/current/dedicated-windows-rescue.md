@@ -1,7 +1,7 @@
 ---
 id: dedicated-windows-rescue
-title: "Dedicated Server: Sichere deine Dateien mit der System Rescue"
-description: Informationen, wie du deine Dateien mit SystemRescue auf deinem Dedicated Server von ZAP-Hosting sichern kannst - ZAP-Hosting.com Dokumentation
+title: "Dedicated Server: Rette deine Dateien mit SystemRescue"
+description: "Entdecke, wie du Daten von einem nicht startbaren Server mit der SystemRescue ISO wiederherstellst und Backups erstellst → Jetzt mehr erfahren"
 sidebar_label: System Rescue (Backup)
 services:
   - dedicated
@@ -11,48 +11,45 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
 
-Dein Server bootet nicht mehr? Du hast dich aus deinem System ausgesperrt oder möchtest ein Backup erstellen, bevor du Änderungen vornimmst?
-Durch das Booten deines Servers mit der **SystemRescue ISO**, kannst du weiterhin auf deine Laufwerke zugreifen, wichtige Dateien wiederherstellen und Backups lokal erstellen. Dies funktioniert auch, wenn das ursprüngliche Betriebssystem nicht mehr zugänglich ist.
+Dein Server startet nicht mehr? Du bist ausgesperrt oder möchtest vor Änderungen ein Backup erstellen?  
+Indem du deinen Server mit der **SystemRescue ISO** bootest, kannst du trotzdem auf deine Laufwerke zugreifen, wichtige Dateien wiederherstellen und lokal Backups anlegen. Das funktioniert sogar, wenn das ursprüngliche Betriebssystem nicht mehr erreichbar ist.
 
-Um die wiederhergestellten Daten sicher zu übertragen, kannst du **SFTP (Secure File Transfer Protocol)** verwenden. Mit dieser Methode kannst du die Dateien vom Rescue-System auf deinen lokalen Computer oder auf einen anderen Server über eine sichere und verschlüsselte Verbindung kopieren.
+Um die geretteten Daten sicher zu übertragen, kannst du **SFTP (Secure File Transfer Protocol)** nutzen. Damit kannst du Dateien vom Rescue-System über eine sichere und verschlüsselte Verbindung auf deinen lokalen Rechner oder einen anderen Server kopieren.
 
 <InlineVoucher />
 
-
-
 ## Vorbereitung
-Um die Datensicherung durchzuführen, verwenden die **SystemRescue ISO Version 12.01**. Beginne mit dem Zugriff auf die Oberfläche deines Dedicated Servers und navigiere zum Abschnitt **Erstinstallation**.
 
-Wählen die **SystemRescue 12.01** ISO aus den verfügbaren Optionen. Nachdem du die richtige ISO ausgewählt hast, klicke auf **Boot von ISO**, um den Boot-Prozess zu starten. Sobald der Server von der ISO gestartet ist, kannst du dich über das [iLO interface](dedicated-ilo.md) verbinden, um fortzufahren.
+Für das Backup nutzt du die **SystemRescue ISO Version 12.01**.  
+Starte, indem du im Interface deines Dedicated Servers zum Bereich **Initial installation** gehst.
+
+Wähle dort die **SystemRescue 12.01** ISO aus den verfügbaren Optionen aus. Nach der Auswahl klickst du auf **Boot from ISO**, um den Bootvorgang zu starten. Sobald der Server von der ISO gebootet hat, verbinde dich über die [iLO-Schnittstelle](dedicated-ilo.md), um weiterzumachen.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/L35tCT8zJ4riTko/preview)
 
+Im **iLO Management Interface** öffnest du die **HTML-Konsole**, um die Remote-Anzeige deines Servers zu sehen. Sobald die Konsole aktiv ist, erscheint das Bootmenü der **SystemRescue ISO**. Wähle hier die Option, mit den **Standardparametern** zu booten.
 
-
-Öffnen in dem **iLO Management Interface** die **HTML-Konsole**, um auf die Remote-Anzeige deines Servers zuzugreifen. Sobald die Konsole aktiv ist, erscheint das Boot-Menü für das **SystemRescue-ISO**. Wählen hier die Option, mit den **Standardparametern** zu booten.
-
-Dies stellt sicher, dass SystemRescue mit der empfohlenen Standardkonfiguration startet und eine stabile und einsatzbereite Umgebung für die Systemwartung oder Datensicherung bereitstellt.
+So startet SystemRescue mit der empfohlenen Standardkonfiguration und bietet dir eine stabile, einsatzbereite Umgebung für Systemwartung oder Datenbackup.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/gzLJxw9FWZs4AJ7/download)
 
+## Laufwerk(e) einbinden
 
-## Laufwerk(e) mounten
-
-Bevor du ein Laufwerk mountest, ist es wichtig, dass du dir einen Überblick über die verfügbaren Laufwerke und deren Partitionen verschaffst. Dies kannst du mit dem folgenden Befehl tun:
+Bevor du ein Laufwerk mountest, solltest du dir einen Überblick über die verfügbaren Speichergeräte und deren Partitionen verschaffen. Das geht mit folgendem Befehl:
 
 ```
 fdisk -l
 ```
 
-Dieser Befehl listet alle erkannten Laufwerke zusammen mit ihren Partitionsdetails auf. Die Ausgabe umfasst:
+Dieser Befehl listet alle erkannten Laufwerke mit ihren Partitionen auf. Die Ausgabe zeigt:
 
 - Angeschlossene Speichergeräte (z.B. `/dev/sda`, `/dev/sdb`),
-- Die Größe der einzelnen Laufwerke,
+- Die Größe der Laufwerke,
 - Partitionstypen,
-- Verfügbare Partitionen (z.B. `/dev/sda1`, `/dev/sda2`, ...),
-- Der Dateisystemtyp (falls erkannt).
+- Verfügbare Partitionen (z.B. `/dev/sda1`, `/dev/sda2`, …),
+- Den Dateisystemtyp (falls erkannt).
 
-In diesem Beispiel hat das Laufwerk `/dev/sda` drei Partitionen: `/dev/sda1`, `/dev/sda2` und `/dev/sda3`. Stelle sicher, dass du die richtige Partition auswählst, bevor du sie einhängst. Die Ausgabe von `fdisk -l` hilft dir, Fehler zu vermeiden, indem sie eindeutig anzeigt, welches Laufwerk welche Daten enthält. Beispiel:
+Im Beispiel hat das Laufwerk `/dev/sda` drei Partitionen: `/dev/sda1`, `/dev/sda2` und `/dev/sda3`. Achte darauf, die richtige Partition zum Mounten auszuwählen. Die Ausgabe von `fdisk -l` hilft dir, Fehler zu vermeiden, indem sie klar zeigt, welche Daten auf welchem Laufwerk liegen. Beispiel:
 
 ```
 Disk /dev/sda: 111.76 GiB, 119998201240 bytes, 234373120 sectors
@@ -62,40 +59,38 @@ Device     Boot   Start       End   Sectors  Size Id Type
 /dev/sda3     232935856 234373119   1431264  699M 27 Hidden NTFS WinRE
 ```
 
-Nachdem du die richtige Partition identifiziert hast, besteht der nächste Schritt darin, ein Verzeichnis zu erstellen, das als Mountpoint dienen wird. Dies ist der Ort, an dem die Partition zugänglich gemacht werden soll. Mounte danach die gewünschte Partition in dieses Verzeichnis. Es wird empfohlen, den Mountvorgang im **Nur-Lese-Modus** durchzuführen, um einen sicheren Zugriff auf die Daten zu gewährleisten. 
+Hast du die richtige Partition gefunden, erstellst du als nächstes ein Verzeichnis, das als Mountpunkt dient – also der Ort, an dem die Partition zugänglich gemacht wird. Danach mountest du die gewünschte Partition in dieses Verzeichnis. Es empfiehlt sich, das Laufwerk im **Read-Only-Modus** zu mounten, um die Daten sicher zu lesen.
 
-Um den Mountpoint zu erstellen und die Partition einzuhängen, benutze die folgenden Befehle:
+Nutze dafür diese Befehle:
 
 ```
 mkdir /mnt/rescue
 mount -o ro /dev/sdaX /mnt/rescue
 ```
 
-Ersetze `/dev/sdaX` durch die richtige Partitionskennung, die du mit `fdisk -l` ermittelt hast. In diesem Beispiel wäre `/dev/sda2` die richtige Partition für unsere Festplatte.
+Ersetze `/dev/sdaX` durch die korrekte Partition, die du mit `fdisk -l` gefunden hast. Im Beispiel wäre das `/dev/sda2`.
 
-:::tip  Windows-Partitionen im Ruhezustand
+:::tip Windows-Partitionen im Ruhezustand
 
-Linux kann Windows-Partitionen, die sich im Ruhezustand befinden oder von Fast Boot betroffen sind, nicht sicher öffnen. Um Datenverlust oder -beschädigung zu vermeiden, mounten diese Partitionen immer **im Nur-Lese-Modus**.
+Linux kann Windows-Partitionen, die sich im Ruhezustand (Hibernate) oder im Fast Boot-Modus befinden, nicht sicher öffnen. Um Datenverlust oder Beschädigungen zu vermeiden, solltest du diese Partitionen **immer im Read-Only-Modus** mounten.
 
 :::
 
-## Konfigurieren der Firewall
+## Firewall konfigurieren
 
-Aus Sicherheitsgründen ist die Firewall von SystemRescue standardmäßig aktiviert. Das bedeutet, dass alle eingehenden Verbindungen blockiert werden, um das System vor unberechtigtem Zugriff zu schützen.
+Aus Sicherheitsgründen aktiviert SystemRescue standardmäßig seine Firewall. Das bedeutet, alle eingehenden Verbindungen werden blockiert, um das System vor unbefugtem Zugriff zu schützen.
 
-In diesem Fall musst du jedoch eine Verbindung von deinem lokalen Rechner zum SFTP-Server, der auf SystemRescue läuft, zulassen. Dazu musst du entweder die Firewall so konfigurieren, dass sie SFTP-Datenverkehr zulässt oder sie vorübergehend deaktivieren.
+In diesem Fall musst du aber eine Verbindung von deinem lokalen Rechner zum SFTP-Server auf SystemRescue erlauben. Dafür kannst du entweder die Firewall so konfigurieren, dass SFTP-Verkehr erlaubt wird, oder sie vorübergehend deaktivieren.
 
-Wenn du in einer vertrauenswürdigen Netzwerkumgebung arbeiten, ist die einfachste und schnellste Lösung, den Firewall-Dienst in SystemRescue mit dem folgenden Befehl zu stoppen:
+Wenn du dich in einem vertrauenswürdigen Netzwerk befindest, ist die schnellste Lösung, den Firewall-Dienst in SystemRescue mit folgendem Befehl zu stoppen:
 
 ```
 systemctl stop iptables
 ```
 
+## Root-Passwort setzen
 
-
-## Festlegen des Root-Passworts
-
-Der SFTP-Client muss sich mit einem Benutzernamen und einem Passwort authentifizieren, damit er auf die Daten des SFTP-Servers zugreifen kann. Das System-Root-Konto wird verwendet, damit der Client auf Dateien zugreifen kann, die in SystemRescue sichtbar sind. Standardmäßig ist die Authentifizierung als root-Konto in SystemRescue nicht erlaubt. Ein Passwort muss gesetzt werden, damit sich der Client authentifizieren kann. Definieren ein Passwort mit dem folgenden Befehl:
+Der SFTP-Client muss sich mit Benutzername und Passwort authentifizieren, um auf die Daten des SFTP-Servers zugreifen zu können. Dafür wird das System-Root-Konto verwendet, damit der Client auf alle in SystemRescue sichtbaren Dateien zugreifen kann. Standardmäßig ist die Anmeldung als Root in SystemRescue nicht erlaubt. Du musst also ein Passwort setzen, damit sich der Client authentifizieren kann. Definiere ein Passwort mit diesem Befehl:
 
 ```
 [root@sysrescue ~]# passwd root
@@ -106,24 +101,25 @@ passwd: password updated successfully
 
 ## Datenübertragung
 
-Nun bist du bereit, deine Daten zu sichern. Öffne dazu einfach einen FTP-Client deiner Wahl und stelle eine Verbindung zu deinem Server her. Stelle sicher, dass du `SFTP` als Übertragungsprotokoll auswählst. Gebe als Hostname die `IP-Adresse` deines Servers ein, verwende den Port `21` und melde dich mit dem Benutzernamen ‚root‘ und dem zuvor festgelegten `Passwort` an.
+Jetzt bist du bereit, deine Daten zu sichern. Öffne einfach deinen bevorzugten FTP-Client und stelle eine Verbindung zu deinem Server her. Achte darauf, `SFTP` als Übertragungsprotokoll auszuwählen. Als Hostname gibst du die `IP-Adresse` deines Servers ein, nutzt Port `21` und meldest dich mit dem Benutzernamen `root` und dem zuvor gesetzten `Passwort` an.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/armZ9db3nXsJW2o/download)
 
-Wenn du zum ersten Mal eine Verbindung zu einem Server über **SFTP** herstellst, dann zeigt WinSCP diese Sicherheitsabfrage an. Die Warnung erscheint, weil der **Hostschlüssel** des Servers noch nicht in deinem lokalen Cache gespeichert ist.
+Wenn du dich zum ersten Mal per **SFTP** mit einem Server verbindest, zeigt WinSCP diese Sicherheitsabfrage. Die Warnung erscheint, weil der **Host-Schlüssel** des Servers noch nicht im lokalen Cache gespeichert ist.
 
-In dieser Situation, in der du weißt, dass die IP-Adresse korrekt ist und du diese Verbindung absichtlich gestartet hast, **ist es sicher, dem Server zu vertrauen**. Klicken Sie zur Bestätigung einfach auf **„Ja “**. Dadurch wird der Schlüssel des Servers zu deinem Cache hinzugefügt, so dass du in Zukunft nicht mehr nach diesem Server gefragt wirst.
+Wenn du sicher bist, dass die IP-Adresse korrekt ist und du die Verbindung absichtlich herstellst, **kannst du dem Server vertrauen**. Klicke einfach auf **"Ja"**, um zu bestätigen. Dadurch wird der Schlüssel im Cache gespeichert und du wirst bei zukünftigen Verbindungen zu diesem Server nicht mehr gefragt.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/y5353jyzky67LxB/preview)
 
-Nachdem du nun verbunden bist, navigiere zu dem **Rescue-Verzeichnis**, das du zuvor erstellt hast. Von dort aus hast du Zugriff auf deine Dateien und kannst damit beginnen, diese auf deinen lokalen Rechner herunterzuladen. Navigiere einfach durch die Ordner, wähle die Daten aus, die du sichern möchtest, und übertrage sie sicher per SFTP.
+Sobald du verbunden bist, navigiere in das zuvor erstellte **rescue-Verzeichnis**. Dort hast du Zugriff auf deine Dateien und kannst sie auf deinen lokalen Rechner herunterladen. Durchsuche einfach die Ordner, wähle die Daten aus, die du sichern möchtest, und übertrage sie sicher per SFTP.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/QiS4wiTWXx6g8aT/download)
 
-## Abschluss
+## Fazit
 
-Du hast nun erfolgreich deine wichtigen Dateien gerettet und gesichert. Das heißt, deine Daten sind sicher und bereit, bei Bedarf wiederhergestellt zu werden. Nun kannst du mit weiteren Aktionen fortfahren, z. B. deinen Server neu installieren, das System reparieren oder deine Daten in eine neue Umgebung migrieren.
+Du hast jetzt erfolgreich deine wichtigen Dateien gerettet und gesichert.  
+Deine Daten sind damit sicher und können jederzeit wiederhergestellt werden. Nun kannst du weitere Schritte angehen, wie die Neuinstallation deines Servers, Systemreparaturen oder die Migration deiner Daten in eine neue Umgebung.
 
-Für weitere Fragen oder Hilfe zögere bitte nicht, unser Support-Team zu kontaktieren, das dir täglich zur Verfügung steht! 🙂
+Bei Fragen oder wenn du Hilfe brauchst, steht dir unser Support-Team täglich zur Seite! 🙂
 
 <InlineVoucher />

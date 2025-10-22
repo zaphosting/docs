@@ -1,7 +1,7 @@
 ---
 id: minecraft-rcon
 title: "Minecraft: RCON"
-description: "Erfahre, wie du RCON für Minecraft verwendest – ZAP-Hosting Dokumentation"
+description: "Entdecke, wie du Minecraft-Gameserver mit RCON flexibel und sicher fernsteuern kannst – für effiziente Serververwaltung → Jetzt mehr erfahren"
 sidebar_label: RCON
 services:
   - gameserver-minecraft
@@ -12,68 +12,63 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
 
-RCON (Remote Console) ist ein Netzwerkprotokoll zur Fernsteuerung von Gameservern. Es ermöglicht den Zugriff auf die Serverkonsole, ohne dass du direkt auf die Serverumgebung zugreifen musst. Dadurch kannst du administrative Befehle ausführen, Konfigurationsparameter anpassen oder den Serverstatus abfragen.
+RCON (Remote Console) ist ein Netzwerkprotokoll, mit dem du Gameserver aus der Ferne steuern kannst. Es ermöglicht den Zugriff auf die Serverkonsole, ohne direkt mit der Serverumgebung interagieren zu müssen. So kannst du administrative Befehle ausführen, Konfigurationsparameter anpassen oder Serverstatusinformationen abrufen.
 
-In Minecraft wird RCON verwendet, um serverseitige Befehle auszuführen, zum Beispiel zur Verwaltung von Spielern, zur Änderung von Spieleinstellungen oder zum Abrufen von Diagnosedaten. Die Verbindung ist durch ein Passwort geschützt und erfolgt über einen definierten Port, der über kompatible RCON-Clients erreichbar ist.
+Bei Minecraft wird RCON genutzt, um serverseitige Befehle auszuführen, wie z.B. Spieler verwalten, Gameplay-Einstellungen ändern oder Diagnoseausgaben abrufen. Die Verbindung ist passwortgeschützt und läuft über einen festgelegten Port, der über kompatible RCON-Clients erreichbar ist.
 
-Ein wesentlicher Vorteil von RCON ist, dass du den Server verwalten kannst, **ohne selbst im Spiel verbunden zu sein**. Administratoren können Minecraft über externe Tools, Kommandozeilen-Interfaces oder Web-Dashboards überwachen und steuern, flexibel und ortsunabhängig.
+Ein großer Vorteil von RCON ist, dass du den Server **verwalten kannst, ohne als Spieler im Spiel verbunden zu sein**. Server-Admins können Minecraft so bequem über externe Tools, Kommandozeilen oder Web-Dashboards überwachen und steuern – perfekt für flexibles Remote-Management.
 
 <InlineVoucher />
 
-
-
 ## Konfiguration
 
-Bevor RCON verwendet werden kann, muss es aktiviert und konfiguriert werden. Dies kann direkt in der Gameserververwaltung unter dem Reiter **Einstellungen** erfolgen. Dort findest du eine Option namens **RCON**, die aktiviert werden muss. Zusätzlich solltest du ein sicheres Passwort festlegen und einen gültigen Port definieren. Dies erfolgt über die Konfigurationsdatei, die du in der Gameserververwaltung unter **Configs** findest. In der Datei `server.properties` müssen folgende Einträge ergänzt oder angepasst werden:
+Bevor du RCON nutzen kannst, muss es aktiviert und konfiguriert werden. Das geht direkt in der Gameserver-Verwaltung. Im Bereich **Einstellungen** findest du die Option **RCON**, die aktiviert werden muss. Setze ein sicheres Passwort und definiere einen gültigen Port. Das erfolgt über die Konfigurationsdatei unter **Configs** im Gameserver-Panel. In der Datei `server.properties` müssen folgende Einträge hinzugefügt oder angepasst werden:
 
 ```cfg
 enable-rcon=true
 rcon.port=<XXXXX>
-rcon.password=<define-your-password>
+rcon.password=<dein-passwort>
 ```
-
-Der zugewiesene RCON-Port ist ebenfalls in der **Portübersicht** unten auf der Einstellungsseite zu finden und muss dort eingetragen sein.
-
+Den zugewiesenen RCON-Port findest du unten auf der Einstellungsseite in der Port-Übersicht, dort muss er auch angegeben werden.
 
 
-## Verbindung per RCON
 
-Um dich per RCON mit dem Minecraft Server zu verbinden, wird das Kommandozeilentool **rcon-cli** verwendet. Du kannst es aus dem offiziellen [GitHub-Repository](https://github.com/gorcon/rcon-cli) herunterladen. Nach dem Download und der lokalen Installation kann die Verbindung mit der IP-Adresse des Servers, dem RCON-Port und dem RCON-Passwort hergestellt werden.
+## Verbindung via RCON
 
-Den zugewiesenen Port findest du in der **Portübersicht** unten auf der Einstellungsseite in der Gameserververwaltung. Passwort und Port müssen mit den Werten übereinstimmen, die im Panel oder in der Konfigurationsdatei eingetragen sind. Verwende folgenden Befehl, um dich zu verbinden und direkt einen Befehl auszuführen:
+Um dich per RCON mit dem Minecraft-Server zu verbinden, nutzt du das Kommandozeilen-Tool **rcon-cli**. Du kannst es im offiziellen [GitHub-Repository](https://github.com/gorcon/rcon-cli) herunterladen. Nach Installation auf deinem Rechner stellst du die Verbindung mit der Server-IP, dem RCON-Port und dem RCON-Passwort her.
 
-```
-rcon-cli -a <IP>:<PORT> -p <PASSWORD> command
+Den zugewiesenen Port findest du in der **Port-Übersicht** unten auf der Einstellungsseite im Gameserver-Panel. Passwort und Port müssen mit den Werten aus dem Panel oder der Konfigurationsdatei übereinstimmen. Mit folgendem Befehl verbindest du dich und führst direkt einen Befehl aus:
+
+```bash
+rcon-cli -a <IP>:<PORT> -p <PASSWORT> befehl
 ```
 
 
 
 ## RCON-Befehle
 
-Sobald die Verbindung über RCON besteht, können verschiedene administrative und diagnostische Befehle auf dem Minecraft Server ausgeführt werden. Die verfügbaren Befehle hängen von der Game-Engine ab, beinhalten aber typischerweise Aktionen zur Spielersteuerung, Statusabfragen und Serverkontrolle.
+Sobald du per RCON verbunden bist, kannst du verschiedene administrative und diagnostische Befehle auf dem Minecraft-Server ausführen. Die verfügbaren Befehle hängen von der Spiel-Engine ab, umfassen aber typischerweise Aktionen zur Spielerverwaltung, Statusabfragen und Serversteuerung.
 
-# Deutsch
-| Befehl         | Beschreibung                       |
-|----------------------|-----------------------------------------------|
-| `list`               | Zeigt verbundene Spieler                      |
-| `say <Nachricht>`    | Sendet eine Chatnachricht an alle Spieler     |
-| `kick <Spieler>`     | Spieler kicken                                |
-| `ban <Spieler>`      | Spieler bannen                                |
-| `pardon <Spieler>`   | Spieler vom Bann befreien                     |
-| `op <Spieler>`       | Spieler Operatorrechte vergeben               |
-| `deop <Spieler>`     | Operatorrechte entziehen                      |
-| `time set <Wert>`    | Weltzeit ändern (z. B. day, night, number)    |
-| `gamemode <Modus> <Spieler>` | Spielmodus festlegen               |
-| `weather <clear/rain/thunder>` | Wetter ändern                |
-| `stop`               | Server sauber beenden                         |
-
+| Befehl               | Beschreibung                                 |
+|------------------------|---------------------------------------------|
+| `list`               | Listet verbundene Spieler                    |
+| `say <nachricht>`     | Sendet eine Nachricht an alle Spieler        |
+| `kick <spieler>`      | Kickt einen Spieler vom Server                |
+| `ban <spieler>`       | Bannt einen Spieler                           |
+| `pardon <spieler>`    | Entbannt einen Spieler                        |
+| `op <spieler>`        | Vergibt Operator-Rechte an einen Spieler      |
+| `deop <spieler>`      | Entzieht Operator-Rechte                      |
+| `time set <wert>`     | Setzt die Weltzeit (z.B. Tag, Nacht, Zahl)   |
+| `gamemode <modus> <spieler>` | Setzt den Spielmodus eines Spielers    |
+| `weather <clear/rain/thunder>` | Ändert das Wetter                     |
+| `stop`                | Stoppt den Server sauber                      |
 
 
 
-## Abschluss
+## Fazit
 
-RCON ist ein zentrales Werkzeug für die Fernadministration von Minecraft Gameservern. Es ermöglicht schnellen und direkten Zugriff auf administrative Funktionen und bietet gleichzeitig Zugriffsschutz durch Passwortauthentifizierung. Eine korrekte und sichere Konfiguration ist entscheidend, um die Stabilität des Servers zu gewährleisten und unbefugten Zugriff zu verhindern.
+RCON ist ein essentielles Tool für die Remote-Verwaltung von Minecraft-Gameservern. Es ermöglicht schnellen und direkten Zugriff auf administrative Funktionen und bietet durch Passwortschutz eine sichere Zugangskontrolle. Eine korrekte und sichere Konfiguration ist entscheidend, um die Serverstabilität zu gewährleisten und unbefugten Zugriff zu verhindern.
 
-Für weitere Fragen oder Hilfe zögere bitte nicht, unser Support-Team zu kontaktieren, das dir täglich zur Verfügung steht! 🙂
+Bei Fragen oder wenn du Hilfe brauchst, steht dir unser Support-Team täglich zur Seite! 🙂
 
 <InlineVoucher />

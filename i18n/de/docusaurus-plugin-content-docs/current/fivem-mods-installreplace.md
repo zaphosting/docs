@@ -1,8 +1,8 @@
 ---
 id: fivem-mods-installreplace
-title: "FiveM: Replacement Carmods auf Server installieren"
-description: Informationen, wie du Replacement Carmods auf deinen FiveM-Server von ZAP-Hosting installieren kannst - ZAP-Hosting.com Dokumentation
-sidebar_label: Replacement Carmods installieren
+title: "FiveM: Ersatz-Carmods auf dem Server installieren"
+description: "Entdecke, wie du Mods auf deinem FiveM-Server einrichtest und hochlädst für individuelle Gameplay-Erlebnisse → Jetzt mehr erfahren"
+sidebar_label: Ersatz-Carmods installieren
 services:
   - gameserver-fivem
 ---
@@ -11,52 +11,47 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 <InlineVoucher />
 
-## Mit FTP Verbinden
-Zuerst solltest du dich über FTP auf deinen Server verbinden, dazu kannst du unser [Zugriff per FTP](gameserver-ftpaccess.md) Anleitung nutzen.
+## Mit FTP verbinden
+Zuerst solltest du dich per FTP mit deinem Server verbinden. Dafür kannst du unsere [Anleitung zum FTP-Zugang](gameserver-ftpaccess.md) nutzen.
 
 ## Vorbereitung
 
-Erstelle im "Ressources" Ordner nun einen Ordner für deine Mods.
+Erstelle jetzt einen Ordner für deine Mods im "resources"-Ordner.
 
 :::info
-Du kannst den Ordner alles nennen, solange es keine speziellen Zeichen enthält, bei unserem Beispiel ist es "assets"
+Du kannst den Ordner beliebig benennen, solange keine Sonderzeichen drin sind. In unserem Beispiel heißt er "assets".
 :::
 
+Erstelle nun in deinem frisch erstellten "assets"-Ordner eine fxmanifest.lua Datei.
 
-Nun erstelle in deinem frisch erstelltem "assets" Ordner eine fxmanifest.lua Datei
-
-In dieser Datei wird nun folgender Text eingetragen:
+Folgenden Text fügst du in diese Datei ein:
 
 ```
 fx_version 'cerulean'
 games { 'gta5' }
+
 ```
 
-Danach kann die fxmanifest.lua gespeichert und geschlossen werden, diese brauchen wir nun nicht mehr.
+Speichere die fxmanifest.lua und schließe sie, wir brauchen sie jetzt nicht mehr.
 
-In deinem Assetsordner erstellst du jetzt einen "stream" Ordner.
+In deinem assets-Ordner erstellst du jetzt einen "stream"-Ordner.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/njXzEjaiq5wZx4R/preview)
-
+![](https://screensaver01.zap-hosting.com/index.php/s/yZgpLTTPtpe2sXZ/preview)
 
 ## Mods hochladen
 
-Öffne diesen Stream Ordner nun, hier kannst du nun alle ytd und yft Dateien per Drag & Drop hochladen:
+Öffne jetzt den stream-Ordner, hier kannst du alle ytd- und yft-Dateien per Drag & Drop hochladen:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/wWjRKfGF3AGFCy4/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/mxNAFtBHaAjeQYj/preview)
 
-Nachdem die Mods alle hochgeladen sind, muss jetzt nur noch deine Ressource in der server.cfg eingetragen werden, diese findest du im "server-data" Ordner deines FiveM Servers.
+Nachdem alle Mods hochgeladen sind, musst du nur noch deine Resource in der server.cfg eintragen. Diese findest du im "server-data"-Ordner deines FiveM-Servers.
 
-
-Diese kannst du mit einem beliebigen Texteditor öffnen, unter den "start" Einträgen kannst du nun deine Ressource wie folgt eintragen:
-
+Öffne die Datei mit einem beliebigen Texteditor und füge unter den "start"-Einträgen deine Resource wie folgt hinzu:
 
 ```
 start assets
 ```
 
-
-Fertig! Nach einem Serverneustart sollte der Carmod nun auf dem Server zu finden sein!
-
+Fertig! Nach einem Server-Neustart sollte der Carmod jetzt auf deinem Server verfügbar sein!
 
 <InlineVoucher />
