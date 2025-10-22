@@ -23,6 +23,13 @@ const sidebars = {
       value: (() => {
         switch (process.env.DOCUSAURUS_CURRENT_LOCALE) {
           case "de": return "Erste Schritte";
+          case "es": return "Primeros pasos";
+          case "fr": return "Premiers pas";
+          case "ar": return "الخطوات الأولى";
+          case "pt": return "Primeiros passos";
+          case "th": return "เริ่มต้นใช้งาน";
+          case "pl": return "Pierwsze kroki";
+          case "ja": return "はじめに";    
           default: return "First steps";
         }
       })(),
@@ -79,6 +86,13 @@ const sidebars = {
       value: (() => {
         switch (process.env.DOCUSAURUS_CURRENT_LOCALE) {
           case "de": return "Programme";
+          case "es": return "Programas";
+          case "fr": return "Programmes";
+          case "ar": return "البرامج";
+          case "pt": return "Programas";
+          case "th": return "โปรแกรม";
+          case "pl": return "Programy";
+          case "ja": return "プログラム";    
           default: return "Programs";
         }
       })(),
@@ -133,6 +147,13 @@ const sidebars = {
       value: (() => {
         switch (process.env.DOCUSAURUS_CURRENT_LOCALE) {
           case "de": return "Sonstiges";
+          case "es": return "Otros";
+          case "fr": return "Autres";
+          case "ar": return "أخرى";
+          case "pt": return "Outros";
+          case "th": return "อื่นๆ";
+          case "pl": return "Inne";
+          case "ja": return "その他";    
           default: return "Other";
         }
       })(),
@@ -150,6 +171,13 @@ const sidebars = {
       value: (() => {
         switch (process.env.DOCUSAURUS_CURRENT_LOCALE) {
           case "de": return "Erste Schritte";
+          case "es": return "Primeros pasos";
+          case "fr": return "Premiers pas";
+          case "ar": return "الخطوات الأولى";
+          case "pt": return "Primeiros passos";
+          case "th": return "เริ่มต้นใช้งาน";
+          case "pl": return "Pierwsze kroki";
+          case "ja": return "はじめに";    
           default: return "First steps";
         }
       })(),
@@ -183,6 +211,13 @@ const sidebars = {
       value: (() => {
         switch (process.env.DOCUSAURUS_CURRENT_LOCALE) {
           case "de": return "Bekannte Spiele";
+          case "es": return "Juegos populares";
+          case "fr": return "Jeux populaires";
+          case "ar": return "الألعاب الشائعة";
+          case "pt": return "Jogos populares";
+          case "th": return "เกมยอดนิยม";
+          case "pl": return "Popularne gry";
+          case "ja": return "人気のゲーム";    
           default: return "Popular Games";
         }
       })(),
@@ -589,6 +624,13 @@ const sidebars = {
       value: (() => {
         switch (process.env.DOCUSAURUS_CURRENT_LOCALE) {
           case "de": return "Alle Spiele (A-Z)";
+          case "es": return "Todos los juegos (A-Z)";
+          case "fr": return "Tous les jeux (A-Z)";
+          case "ar": return "كل الألعاب (A-Z)";
+          case "pt": return "Todos os jogos (A-Z)";
+          case "th": return "เกมทั้งหมด (A-Z)";
+          case "pl": return "Wszystkie gry (A-Z)";
+          case "ja": return "すべてのゲーム (A-Z)";    
           default: return "All Games (A-Z)";
         }
       })(),
@@ -4376,6 +4418,13 @@ const sidebars = {
       value: (() => {
         switch (process.env.DOCUSAURUS_CURRENT_LOCALE) {
           case "de": return "Erste Schritte";
+          case "es": return "Primeros pasos";
+          case "fr": return "Premiers pas";
+          case "ar": return "الخطوات الأولى";
+          case "pt": return "Primeiros passos";
+          case "th": return "เริ่มต้นใช้งาน";
+          case "pl": return "Pierwsze kroki";
+          case "ja": return "はじめに";    
           default: return "First steps";
         }
       })(),
@@ -4402,6 +4451,13 @@ const sidebars = {
       value: (() => {
         switch (process.env.DOCUSAURUS_CURRENT_LOCALE) {
           case "de": return "Custom ISOs";
+          case "es": return "ISOs personalizadas";
+          case "fr": return "ISOs personnalisées";
+          case "ar": return "صور ISO مخصصة";
+          case "pt": return "ISOs personalizadas";
+          case "th": return "ISO แบบกำหนดเอง";
+          case "pl": return "Niestandardowe obrazy ISO";
+          case "ja": return "カスタムISO";    
           default: return "Custom ISOs";
         }
       })(),
@@ -4415,6 +4471,13 @@ const sidebars = {
       value: (() => {
         switch (process.env.DOCUSAURUS_CURRENT_LOCALE) {
           case "de": return "Linux";
+          case "es": return "Linux";
+          case "fr": return "Linux";
+          case "ar": return "لينكس";
+          case "pt": return "Linux";
+          case "th": return "ลินุกซ์";
+          case "pl": return "Linux";
+          case "ja": return "Linux";    
           default: return "Linux";
         }
       })(),
@@ -4531,6 +4594,13 @@ const sidebars = {
       value: (() => {
         switch (process.env.DOCUSAURUS_CURRENT_LOCALE) {
           case "de": return "Windows";
+          case "es": return "Windows";
+          case "fr": return "Windows";
+          case "ar": return "ويندوز";
+          case "pt": return "Windows";
+          case "th": return "วินโดวส์";
+          case "pl": return "Windows";
+          case "ja": return "ウィンドウズ";    
           default: return "Windows";
         }
       })(),
@@ -4624,6 +4694,13 @@ const sidebars = {
       value: (() => {
         switch (process.env.DOCUSAURUS_CURRENT_LOCALE) {
           case "de": return "Erste Schritte";
+          case "es": return "Primeros pasos";
+          case "fr": return "Premiers pas";
+          case "ar": return "الخطوات الأولى";
+          case "pt": return "Primeiros passos";
+          case "th": return "เริ่มต้นใช้งาน";
+          case "pl": return "Pierwsze kroki";
+          case "ja": return "はじめに";    
           default: return "First steps";
         }
       })(),
@@ -4650,6 +4727,13 @@ const sidebars = {
       value: (() => {
         switch (process.env.DOCUSAURUS_CURRENT_LOCALE) {
           case "de": return "Betriebssysteme";
+          case "es": return "Sistemas operativos";
+          case "fr": return "Systèmes d’exploitation";
+          case "ar": return "أنظمة التشغيل";
+          case "pt": return "Sistemas operacionais";
+          case "th": return "ระบบปฏิบัติการ";
+          case "pl": return "Systemy operacyjne";
+          case "ja": return "オペレーティングシステム";    
           default: return "Operating systems";
         }
       })(),
@@ -4688,6 +4772,13 @@ const sidebars = {
       value: (() => {
         switch (process.env.DOCUSAURUS_CURRENT_LOCALE) {
           case "de": return "Linux";
+          case "es": return "Linux";
+          case "fr": return "Linux";
+          case "ar": return "لينكس";
+          case "pt": return "Linux";
+          case "th": return "ลินุกซ์";
+          case "pl": return "Linux";
+          case "ja": return "Linux";    
           default: return "Linux";
         }
       })(),
@@ -4796,6 +4887,13 @@ const sidebars = {
       value: (() => {
         switch (process.env.DOCUSAURUS_CURRENT_LOCALE) {
           case "de": return "Windows";
+          case "es": return "Windows";
+          case "fr": return "Windows";
+          case "ar": return "ويندوز";
+          case "pt": return "Windows";
+          case "th": return "วินโดวส์";
+          case "pl": return "Windows";
+          case "ja": return "ウィンドウズ";    
           default: return "Windows";
         }
       })(),
@@ -4888,6 +4986,13 @@ const sidebars = {
       value: (() => {
         switch (process.env.DOCUSAURUS_CURRENT_LOCALE) {
           case "de": return "Domain";
+          case "es": return "Dominio";
+          case "fr": return "Domaine";
+          case "ar": return "النطاق";
+          case "pt": return "Domínio";
+          case "th": return "โดเมน";
+          case "pl": return "Domena";
+          case "ja": return "ドメイン";    
           default: return "Domain";
         }
       })(),
@@ -4925,6 +5030,13 @@ const sidebars = {
       value: (() => {
         switch (process.env.DOCUSAURUS_CURRENT_LOCALE) {
           case "de": return "Webspace";
+          case "es": return "Alojamiento web";
+          case "fr": return "Espace web";
+          case "ar": return "استضافة الويب";
+          case "pt": return "Hospedagem web";
+          case "th": return "เว็บสเปซ";
+          case "pl": return "Przestrzeń WWW";
+          case "ja": return "ウェブスペース";    
           default: return "Webspace";
         }
       })(),
@@ -4977,6 +5089,13 @@ const sidebars = {
       value: (() => {
         switch (process.env.DOCUSAURUS_CURRENT_LOCALE) {
           case "de": return "Voicebot";
+          case "es": return "Voicebot";
+          case "fr": return "Voicebot";
+          case "ar": return "Voicebot";
+          case "pt": return "Voicebot";
+          case "th": return "Voicebot";
+          case "pl": return "Voicebot";
+          case "ja": return "ボイスボット";    
           default: return "Voicebot";
         }
       })(),
@@ -5006,6 +5125,13 @@ const sidebars = {
       value: (() => {
         switch (process.env.DOCUSAURUS_CURRENT_LOCALE) {
           case "de": return "Voiceserver";
+          case "es": return "Servidor de voz";
+          case "fr": return "Serveur vocal";
+          case "ar": return "خادم صوتي";
+          case "pt": return "Servidor de voz";
+          case "th": return "เซิร์ฟเวอร์เสียง";
+          case "pl": return "Serwer głosowy";
+          case "ja": return "ボイスサーバー";    
           default: return "Voiceserver";
         }
       })(),

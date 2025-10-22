@@ -1,6 +1,6 @@
 {
   "title": {
-    "message": "ZAP-Hosting Docs",
+    "message": "مستندات ZAP-Hosting",
     "description": "The title in the navbar"
   },
   "logo.alt": {
@@ -8,11 +8,11 @@
     "description": "The alt text of navbar logo"
   },
   "item.label.General": {
-    "message": "General",
+    "message": "عام",
     "description": "Navbar item with label General"
   },
   "item.label.Gameserver": {
-    "message": "Gameserver",
+    "message": "سيرفر ألعاب",
     "description": "Navbar item with label Gameserver"
   },
   "item.label.VPS": {
@@ -20,15 +20,15 @@
     "description": "Navbar item with label VPS"
   },
   "item.label.Dedicated Server": {
-    "message": "Dedicated Server",
+    "message": "سيرفر مخصص",
     "description": "Navbar item with label Dedicated Server"
   },
   "item.label.Domain & Webspace": {
-    "message": "Domain & Webspace",
+    "message": "النطاق والاستضافة",
     "description": "Navbar item with label Domain & Webspace"
   },
   "item.label.Voicebot & Voiceserver": {
-    "message": "Voicebot & Voiceserver",
+    "message": "بوت صوتي وسيرفر صوتي",
     "description": "Navbar item with label Voicebot & Voiceserver"
   }
 }
