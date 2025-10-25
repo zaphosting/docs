@@ -234,7 +234,7 @@ const config = {
     image: undefined,
     docs: {
       sidebar: {
-        hideable: true,
+        hideable: false,
         autoCollapseCategories: true,
       },
     },
