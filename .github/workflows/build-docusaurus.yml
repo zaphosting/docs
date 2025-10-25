@@ -46,6 +46,14 @@ jobs:
         run: |
           cd docusaurus
           npm run write-translations -- --locale de
+          npm run write-translations -- --locale es
+          npm run write-translations -- --locale fr
+          npm run write-translations -- --locale ar
+          npm run write-translations -- --locale pt
+          npm run write-translations -- --locale th
+          npm run write-translations -- --locale pl
+          npm run write-translations -- --locale ja
+
           git config user.name github-actions
           git config user.email github-actions@github.com
           git add --all .
