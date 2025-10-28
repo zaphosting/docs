@@ -54,7 +54,7 @@ Mount the following Wipe ISO File to your server and restart it:
 
 
 ```
-http://185.223.30.65/wipe.iso
+http://185.223.30.65/dedicatedisos/wipedisk.iso
 ```
 
 Once the server has been restarted, the Wipe ISO should be automatically detected and loaded. Connect to your dedicated server using a remote console (HTML5, .NET, Java Web Start) of your choice.
