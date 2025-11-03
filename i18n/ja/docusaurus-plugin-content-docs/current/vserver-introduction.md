@@ -1,8 +1,8 @@
 ---
 id: vserver-introduction
-title: "VPS：イントロダクション"
-description: "パワフルでお手頃なVPSホスティングを、ウェブサイトやデータベース、ゲームなど多用途に対応した柔軟な構成で → 今すぐ詳しくチェック"
-sidebar_label: イントロダクション
+title: "VPS: はじめに"
+description: "ウェブサイト、データベース、ゲームなどに最適なパワフルで手頃な価格のVPSホスティングを柔軟な構成で → 今すぐ詳しく見る"
+sidebar_label: はじめに
 services:
   - vserver
 ---
@@ -11,9 +11,9 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 import SearchableAccordion from '@site/src/components/SearchableAccordion/SearchableAccordion';
 import items from '@site/data/faqs/vserver-introduction-en.json';
 
-## イントロダクション
+## はじめに
 
-パワフルな構成で自分だけのサーバーをお手頃価格で探してる？それならZAP-Hostingがピッタリ！ZAP-Hostingなら、用途に合わせて最高のパフォーマンスを発揮するVPSをレンタルまたは購入できるよ！
+パワフルな構成でお手頃価格の自分だけのサーバーを探してる？それならZAP-Hostingがピッタリ！ZAP-Hostingなら、用途に合わせて最高のパフォーマンスを発揮するVPSをレンタルまたは購入できるよ！
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/6cCD5TmrwXgtayy/preview)
 
@@ -21,13 +21,13 @@ import items from '@site/data/faqs/vserver-introduction-en.json';
 
 ## 注文方法
 
-注文は超カンタン。欲しい構成の[VPS](https://zap-hosting.com/en/vps-hosting/)を選ぶだけ。セットアップは数秒で完了。その後すぐに設定を始められるよ。
+注文はとっても簡単。欲しい構成の[VPS](https://zap-hosting.com/en/vps-hosting/)を選ぶだけ。セットアップは数秒で完了。その後すぐに設定を始められるよ。
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/Lm9HpPkzZQ8NAS6/preview)
 
-## 構成内容
+## 構成
 
-VPS製品にはいろんな構成オプションがあって、どんな用途にも合うようにしてるよ。基本的には以下のようなオプションがあるよ：
+VPS製品には、あらゆる用途に合うように様々な構成オプションを用意してるよ。基本的には以下のようなオプションがあるよ：
 
 | コンポーネント | 構成オプション |
 | -------------------------------- | ------------------------- |
@@ -38,13 +38,13 @@ VPS製品にはいろんな構成オプションがあって、どんな用途�
 | **OS** | Debian、Ubuntu、Windows Server、カスタムISO |
 | **IPアドレス** | 最大10個のIPアドレス   |
 | **帯域幅**     | 最大5,000 Mbit/s（アップ/ダウン） |
-| **トラフィック**                      | 月間5,000 GB       |
+| **トラフィック**                      | 月間33 TB       |
 
 
 
-## 利用シーン
+## 利用用途
 
-お手頃価格で高性能、幅広いアクセス権限と可能性があるから、VPSは以下のような用途にピッタリ：
+お手頃価格で高性能、広範なアクセス権限と多彩な可能性があるので、VPSは以下のような用途に最適：
 
 - ウェブサイト
 - データベース
@@ -53,7 +53,7 @@ VPS製品にはいろんな構成オプションがあって、どんな用途�
 - その他いろいろ！
 
 ## よくある質問
-VPSについてもっと知りたい？機能やメリット、セットアップ方法、効果的な使い方まで、気になることは全部ここで解決しよう。必要な情報をゲットしてVPSを最大限に活用しよう。もしまだわからないことがあれば、気軽に連絡してね。すぐにサポートするよ！
+VPSについてもっと知りたい？機能やメリット、セットアップ方法、効果的な使い方まで、気になることは全部ここでチェック！わかりにくいことがあればいつでも気軽に連絡してね。すぐにサポートするよ。
 <SearchableAccordion items={items} />
 
 <InlineVoucher />
