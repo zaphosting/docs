@@ -1,7 +1,7 @@
 ---
 id: vserver-introduction
 title: "VPS: Introdução"
-description: "Descubra hospedagem VPS poderosa e acessível com configurações flexíveis para sites, bancos de dados, jogos e muito mais → Saiba mais agora"
+description: "Descubra um VPS poderoso e acessível com configurações flexíveis para sites, bancos de dados, jogos e muito mais → Saiba mais agora"
 sidebar_label: Introdução
 services:
   - vserver
@@ -13,7 +13,7 @@ import items from '@site/data/faqs/vserver-introduction-en.json';
 
 ## Introdução
 
-Está procurando seu próprio servidor com uma configuração poderosa por um preço justo? Então a ZAP-Hosting é o lugar certo pra você! Na ZAP-Hosting você pode alugar ou comprar seu VPS ideal para uma experiência de máximo desempenho em vários usos!
+Está procurando seu próprio servidor com uma configuração poderosa por um preço justo? Então a ZAP-Hosting é o lugar certo pra você! Na ZAP-Hosting você pode alugar ou comprar seu VPS ideal para uma experiência de máxima performance em vários usos!
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/6cCD5TmrwXgtayy/preview)
 
@@ -27,7 +27,7 @@ O processo de pedido é super simples. Escolha a configuração desejada para o 
 
 ## Configurações
 
-Oferecemos várias opções de configuração para o nosso produto VPS, que devem atender a todos os usos. Nossas configurações geralmente consistem nas seguintes opções possíveis:
+Oferecemos várias opções de configuração para o nosso produto VPS, que devem atender a qualquer uso. Nossas configurações geralmente consistem nas seguintes opções possíveis:
 
 | Componentes | Opções de Configuração |
 | -------------------------------- | ------------------------- |
@@ -38,13 +38,13 @@ Oferecemos várias opções de configuração para o nosso produto VPS, que deve
 | **Sistema operacional** | Debian, Ubuntu, Windows Server e ISO personalizada |
 | **Endereços IP** | até 10 endereços IP   |
 | **Largura de banda**     | até 5.000 Mbit/s upload/download |
-| **Tráfego**                      | 5000 GB/mês       |
+| **Tráfego**                      | 33 TB/mês       |
 
 
 
 ## Áreas de aplicação
 
-Devido ao preço acessível, desempenho, permissões de acesso extensas e as possibilidades associadas, um VPS pode ser usado para várias áreas de aplicação, incluindo as seguintes:
+Devido ao preço acessível, performance, permissões de acesso extensas e as possibilidades associadas, um VPS pode ser usado para várias áreas de aplicação, incluindo as seguintes:
 
 - Sites
 - Bancos de dados
@@ -53,7 +53,7 @@ Devido ao preço acessível, desempenho, permissões de acesso extensas e as pos
 - e muito mais!
 
 ## Perguntas Frequentes
-Tem mais dúvidas sobre nosso produto VPS? Encontre respostas para tudo que você quer saber sobre recursos, benefícios, configuração e como usar de forma eficaz. Assim você pega todas as infos que precisa para aproveitar ao máximo nosso produto VPS. E se ainda ficar alguma dúvida, é só chamar que estamos aqui pra ajudar você na hora.
+Quer saber mais sobre nosso produto VPS? Encontre respostas para tudo que você quer saber sobre recursos, benefícios, configuração e como usar de forma eficaz. Assim você tem as infos que precisa para aproveitar ao máximo nosso VPS. E se ainda ficar alguma dúvida, é só chamar que estamos aqui pra ajudar você na hora.
 <SearchableAccordion items={items} />
 
 <InlineVoucher />

@@ -14,9 +14,9 @@ import items from '@site/data/faqs/dedicated-introduction-en.json';
 
 ## イントロダクション
 
-パワフルな構成の自分だけのサーバーをお手頃価格で探してる？それならZAP-Hostingがピッタリ！ZAP-Hostingなら、あなたに合った専用サーバーをレンタルまたは購入できて、最大限のパフォーマンスを体験できるハードウェアを手に入れられるよ！
+パワフルな構成の自分専用サーバーをお手頃価格で探してる？それならZAP-Hostingがピッタリ！ZAP-Hostingなら、あなたに合った専用サーバーをレンタルまたは購入できて、最大限のパフォーマンスを体験できるハードウェアをゲットできるよ！
 
-仮想サーバーとは違って、専用サーバーは自分専用の物理ハードウェアを持てるんだ。つまり、専用サーバーをレンタル/購入すると、すべてのコンポーネントのパワーをあなただけとあなたのアプリケーションが独占できるってこと。仮想サーバーは、ホストシステムのリソースを他の仮想サーバーと共有して動いているんだよ。
+仮想サーバーとは違って、専用サーバーは物理的にあなただけのハードウェアを使えるんだ。つまり、専用サーバーをレンタル/購入すると、すべてのコンポーネントのパワーをあなただけとあなたのアプリケーションが独占できるってこと。仮想サーバーはホストシステムのリソースを他の仮想サーバーと共有して動いてるからね。
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/9YMG6QfsNzzjCSQ/preview)
 
@@ -24,21 +24,22 @@ import items from '@site/data/faqs/dedicated-introduction-en.json';
 
 ## 注文方法
 
-注文はとっても簡単。あなたの希望する構成の[専用サーバー](https://zap-hosting.com/en/dedicated-server-hosting/)を選ぶだけ。専用サーバーのセットアップ時間は在庫状況によって変わるよ。各構成の国旗の横にあるステータスアイコンで確認できる。ステータスが**緑**なら、その構成はすぐに利用可能で数分以内に準備完了。**オレンジ**の場合はすぐには利用できず、組み立てが必要で、セットアップには約5営業日（月〜金）がかかるよ。
+注文はめっちゃ簡単。まずは[専用サーバー](https://zap-hosting.com/en/dedicated-server-hosting/)の欲しい構成を選んでね。専用サーバーのセットアップ時間は在庫状況によって変わるよ。各構成の国旗の横にあるステータスアイコンでチェックできる。**緑色**ならすぐに使えて数分で準備完了。**オレンジ色**ならすぐには使えなくて組み立てが必要。セットアップには営業日で約5日かかるよ（月〜金）。
 
-![](https://screensaver01.zap-hosting.com/index.php/s/NDLcyjdj6BmSwLq/preview)
+![img](https://screensaver01.zap-hosting.com/index.php/s/SD6jF4MENeqaJFZ/preview)
 
 
 
 ## 構成
 
-専用サーバーには多彩な構成バリエーションがあるから、どんな用途にもピッタリのシステムが見つかるはず。基本的に以下のようなオプションで構成されているよ：
+専用サーバーは用途に合わせて選べる豊富な構成バリエーションを用意してるよ。基本的に以下のオプションから構成されてる：
 
-| ハードウェアコンポーネント | 利用可能なオプション                                            |
+| コンポーネント | 選択可能なオプション                                            |
 | ------------------- | ------------------------------------------------------------ |
-| CPU                 | Intel Xeon E5-2609v2, Intel Xeon E5-2640v2, Intel Xeon E5-2609v2, Intel Xeon E5-2637v2, Intel Xeon E5-2630v2, Intel Xeon E5-2650v2, Intel Xeon E5-2651v2, Intel Xeon E5-2667v2, Intel Xeon E5-2637v2, Intel Xeon E5-2680v2, Intel Xeon E5-2640v4, Intel Xeon E5-2650v4, Intel Xeon E5-2667v4, Intel Xeon E5-2680v4 |
+| CPU                 | AMD Ryzen 9 9950X, AMD Ryzen 7 9700X, Intel Xeon E5-2609v2, Intel Xeon E5-2640v2, Intel Xeon E5-2609v2, Intel Xeon E5-2637v2, Intel Xeon E5-2630v2, Intel Xeon E5-2650v2, Intel Xeon E5-2651v2, Intel Xeon E5-2667v2, Intel Xeon E5-2637v2, Intel Xeon E5-2680v2, Intel Xeon E5-2640v4, Intel Xeon E5-2650v4, Intel Xeon E5-2667v4, Intel Xeon E5-2680v4 |
 | RAM                 | 最大256 GBのRAM                                              |
-| ディスク            | 500 GBから最大2x 1 TBのSSDストレージ                          |
+| ディスク            | 500 GB〜最大2x 8 TBのSSDストレージ                           |
+| トラフィック        | 月間33 TB                                                   |
 
 :::info
 現在、49種類の専用サーバー構成から選べるよ！
@@ -46,9 +47,9 @@ import items from '@site/data/faqs/dedicated-introduction-en.json';
 
 
 
-## 利用用途
+## 利用シーン
 
-パフォーマンスの高さ、幅広い権限、そしてそれに伴う可能性から、専用サーバーは多くの用途で使えるんだ。例えばこんな感じ：
+高いパフォーマンス、充実した権限、そして多彩な可能性があるから、専用サーバーは色んな用途に使える。例えばこんな感じ：
 
 - ウェブサイト
 - データベース
@@ -57,7 +58,7 @@ import items from '@site/data/faqs/dedicated-introduction-en.json';
 - 仮想化環境
 
 ## よくある質問
-専用サーバーについてもっと知りたい？機能やメリット、セットアップ方法、効果的な使い方まで、気になることは全部ここで解決しよう。これで専用サーバーを最大限に活用できるよ。もしまだわからないことがあったら、気軽に連絡してね。すぐにサポートするよ！
+専用サーバーについてもっと知りたい？機能やメリット、セットアップ方法、効果的な使い方まで、気になることは全部ここで解決しよう。これで専用サーバーを最大限に活用できるよ。もしまだわからないことがあれば、気軽に連絡してね。すぐにサポートするよ！
 <SearchableAccordion items={items} />
 
 <InlineVoucher />

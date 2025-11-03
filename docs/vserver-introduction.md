@@ -38,7 +38,7 @@ We offer various configuration options for our VPS product, which should suit ev
 | **Operating system** | Debian, Ubuntu, Windows Server and custom ISO |
 | **IP-Addresses** | up to 10 IP-Addresses   |
 | **Bandwidth**     | up to 5.000 Mbit/s up/down |
-| **Traffic**                      | 5000 GB/month       |
+| **Traffic**                      | 33 TB/month       |
 
 
 
