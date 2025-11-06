@@ -24,20 +24,11 @@ PletX é um provedor de rede alemão focado em infraestrutura de hospedagem de a
 </details>
 
 <details>
-  <summary>Aurologic</summary>
-
-Aurologic é um provedor de rede que entrega conectividade estável e mitigação automatizada. Com infraestrutura moderna e parceiros globais de trânsito, garante operações confiáveis e protegidas.
-
-**Localizações Disponíveis:** Los Angeles, EUA / Ashburn, EUA / Dallas, EUA
-
-</details>
-
-<details>
   <summary>OVH</summary>
 
-OVH é um dos maiores provedores de infraestrutura da Europa e opera seu próprio sistema global de proteção DDoS com monitoramento permanente. A proteção é feita através de uma rede distribuída de limpeza que filtra o tráfego logo no início.
+OVH é um dos maiores provedores de infraestrutura da Europa e opera seu próprio sistema global de proteção DDoS com monitoramento permanente. A proteção é entregue através de uma rede distribuída de limpeza que filtra o tráfego logo no início.
 
-**Localizações Disponíveis:** Londres, UK / Helsinque, FI / Singapura, SG
+**Localizações Disponíveis:** Londres, UK / Singapura, SG
 
 </details>
 
@@ -45,14 +36,14 @@ OVH é um dos maiores provedores de infraestrutura da Europa e opera seu própri
 A tabela a seguir oferece uma visão simplificada das principais características dos sistemas de proteção DDoS em uso. Essa comparação ajuda você a entender que tipo de proteção é aplicada em cada localização de servidor.  
 Embora todos os provedores ofereçam uma proteção básica forte, existem diferenças no escopo e nos métodos dependendo da infraestrutura.
 
-| Recurso de Proteção                                | PletX | Aurologic | OVH  |
-| ------------------------------------------------- | :---: | :-------: | :--: |
-| Proteção sempre ativa                              |   ✓   |     *     |  ✓   |
-| Proteção básica para todos os serviços             |   ✓   |     ✓     |  ✓   |
-| Filtragem de Rede e Aplicação                      |   ✓   |     ✓     |  ✓   |
-| Filtragem adicional específica para jogos         |   ✓   |     ✓     |  ✓   |
-| Sem downtime durante a mitigação                   |   ✓   |     ✓     |  ✓   |
-| Visualização de monitoramento em tempo real no DDoS Manager |   ✓   |     X     |  X   |
+| Recurso de Proteção                                | PletX | OVH  |
+| ------------------------------------------------- | :---: | :--: |
+| Proteção sempre ativa                              |   ✓   |  ✓   |
+| Proteção básica para todos os serviços            |   ✓   |  ✓   |
+| Filtragem de rede e aplicação                      |   ✓   |  ✓   |
+| Filtragem adicional específica para jogos         |   ✓   |  ✓   |
+| Sem downtime durante a mitigação                   |   ✓   |  ✓   |
+| Visualização de monitoramento em tempo real no DDoS Manager |   ✓   |  X   |
 
 <div style={{ textAlign: 'center', fontSize: '0.7em', color: '#666' }}>
   ✓ = Recurso totalmente suportado &nbsp;|&nbsp; X = Recurso não disponível &nbsp;|&nbsp; * = Recurso não disponível ou disponível parcialmente dependendo da configuração
