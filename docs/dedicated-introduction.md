@@ -24,7 +24,7 @@ Unlike a virtual server, you will have your own physical hardware with a dedicat
 
 ## Ordering
 
-The ordering process is very simple. Select your desired configuration for your [Dedicated Server](https://zap-hosting.com/en/dedicated-server-hosting/). The setup time of the dedicated server depends on the availability. You can check this by having a look at the status symbol next to the flag for each configuration. The status **Green** means that the configuration is available and will be ready within a few minutes. If the status **Orange** is displayed for the configuration, the configuration is not immediately available and has to be assembled. The time for the setup is approximately 5 business days (monday-friday).
+The ordering process is very simple. Select your desired configuration for your [Dedicated Server](https://zap-hosting.com/en/dedicated-server-hosting/). The setup time of the dedicated server depends on the availability. You can check this by having a look at the status symbol next to the flag for each configuration. The status **Green** means that the configuration is available and will be ready within a few minutes. If the status **Orange** is displayed for the configuration, the configuration is not immediately available and has to be assembled. The setup time is approximately 5 business days (monday-friday).
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/SD6jF4MENeqaJFZ/preview)
 
@@ -40,8 +40,6 @@ For our Dedicated Servers we offer numerous configuration variants, which means 
 | RAM                 | Up to 256 GB of RAM                                          |
 | DISK                | From 500 GB up to 2x 8 TB SSD hard disk space              |
 | Traffic                      | 33 TB/month       |
-
-
 
 ## Areas of application
 
