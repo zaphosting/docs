@@ -41,10 +41,6 @@ For our Dedicated Servers we offer numerous configuration variants, which means 
 | DISK                | From 500 GB up to 2x 8 TB SSD hard disk space              |
 | Traffic                      | 33 TB/month       |
 
-:::info
-At the moment we have 49 different dedicated server configurations for you to choose from!
-:::
-
 
 
 ## Areas of application
