@@ -32,7 +32,7 @@
     "git-url-parse": "^16.1.0",
     "medium-zoom": "^1.1.0",
     "mermaid": "^11.12.1",
-    "openai": "^6.7.0",
+    "openai": "^6.8.1",
     "path-to-regexp": "^8.2.0",
     "prism-react-renderer": "^2.4.1",
     "react": "^19.1.1",
