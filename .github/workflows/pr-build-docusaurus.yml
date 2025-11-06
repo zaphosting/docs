@@ -1,48 +1,68 @@
 name: PR Build Docusaurus
-
-on: 
+on:
   pull_request:
-    branches: ["master", "main"]
+    types: [labeled]
+    paths:
+      - 'docs/**/*.md'
 
 permissions:
   checks: write
-  contents: write
+  contents: write   
 
 jobs:
   build-docusaurus:
+    if: github.event.label.name == 'BUILD PERMISSION'
+    timeout-minutes: 1440
     runs-on: self-hosted
     steps:
-      - name: Check out Git repository
+      - name: Checkout PR branch
         uses: actions/checkout@v4
         with:
-          path: 'docusaurus'
+          ref: ${{ github.head_ref }}
           fetch-depth: 0
-          ref: ${{github.event.pull_request.head.ref}}
-          repository: ${{github.event.pull_request.head.repo.full_name}}
-      - name: Set up Node.js
+
+      - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: 20
-      - name: Install Docusaurus
+          node-version: '20'
+
+      - name: Install dependencies
+        run: npm install
+        working-directory: ${{ github.workspace }}
+
+      - name: Translation process
+        working-directory: ${{ github.workspace }}
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          TRANSLATION_PROMPT: ${{ secrets.TRANSLATION_PROMPT }}
+          TRANSLATION_GLOSSARY: ${{ secrets.TRANSLATION_GLOSSARY }}
+        run: node translate.js
+      - name: Commit translations
         run: |
-          cd docusaurus
-          npm install
+          git config --local user.name "github-actions"
+          git config --local user.email "github-actions@github.com"
+          git add -A i18n/
+          if ! git diff --cached --quiet; then
+            git commit -m "Auto-translate docs"
+            git push origin HEAD:${{ github.head_ref }}
+          else
+            echo "No translation changes to commit"
+          fi
+
       - name: Build Docusaurus
         run: |
-          cd docusaurus
+          npm run write-translations -- --locale de
+          npm run write-translations -- --locale es
+          npm run write-translations -- --locale fr
+          npm run write-translations -- --locale ar
+          npm run write-translations -- --locale pt
+          npm run write-translations -- --locale th
+          npm run write-translations -- --locale pl
+          npm run write-translations -- --locale ja   
+
           rm -rf build
           npm run docusaurus clear
           rm -f build.tar
           npm run build
           tar cf build.tar -C build --transform 's~^\./~~' .
-      - name: Update i18n files
-        if: ${{ !github.event.pull_request.head.repo.fork }}
-        run: |
-          cd docusaurus
-          npm run write-translations -- --locale de
-          git config user.name github-actions
-          git config user.email github-actions@github.com
-          git add --all .
-          git diff --exit-code && git commit -am "update i18n" || true
-          git push
-        
+        working-directory: ${{ github.workspace }}
