@@ -24,20 +24,11 @@ PletX is a German network provider focused on high-performance hosting infrastru
 </details>
 
 <details>
-  <summary>Aurologic</summary>
-
-Aurologic is a network provider that delivers stable connectivity and automated mitigation. With modern infrastructure and global transit partners, it ensures reliable and protected operations.
-
-**Available Locations:** Los Angeles, US / Ashburn, US / Dallas, US
-
-</details>
-
-<details>
   <summary>OVH</summary>
 
 OVH is one of the largest European infrastructure providers and operates its own global DDoS protection system with permanent monitoring. Protection is delivered through a distributed scrubbing network that filters traffic early.
 
-**Available Locations:** London, UK / Helsinki, FI / Singapore, SG
+**Available Locations:** London, UK / Singapore, SG
 
 </details>
 
@@ -45,14 +36,14 @@ OVH is one of the largest European infrastructure providers and operates its own
 The following table provides a simplified overview of the main features of the DDoS protection systems in use. This comparison helps you understand what kind of protection is applied at each server location. 
 While all providers offer strong baseline protection, there are differences in scope and methods depending on the infrastructure.
 
-| Protection Feature                                 | PletX | Aurologic | OVH  |
-| -------------------------------------------------- | :---: | :-------: | :--: |
-| Always-on protection                               |   ✓   |     *     |  ✓   |
-| Baseline protection for all services               |   ✓   |     ✓     |  ✓   |
-| Network and Application filtering                  |   ✓   |     ✓     |  ✓   |
-| Additional Game specific filtering                 |   ✓   |     ✓     |  ✓   |
-| No downtime during mitigation                      |   ✓   |     ✓     |  ✓   |
-| Real-time Monitoring Visualization in DDoS Manager |   ✓   |     X     |  X   |
+| Protection Feature                                 | PletX | OVH  |
+| -------------------------------------------------- | :---: | :--: |
+| Always-on protection                               |   ✓   |  ✓   |
+| Baseline protection for all services               |   ✓   |  ✓   |
+| Network and Application filtering                  |   ✓   |  ✓   |
+| Additional Game specific filtering                 |   ✓   |  ✓   |
+| No downtime during mitigation                      |   ✓   |  ✓   |
+| Real-time Monitoring Visualization in DDoS Manager |   ✓   |  X   |
 
 <div style={{ textAlign: 'center', fontSize: '0.7em', color: '#666' }}>
   ✓ = Feature is fully supported &nbsp;|&nbsp; X = Feature not available &nbsp;|&nbsp; * = Feature not available or only partially available depending on configuration
