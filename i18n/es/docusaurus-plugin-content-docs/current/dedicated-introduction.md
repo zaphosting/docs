@@ -10,13 +10,14 @@ services:
 import InlineVoucher from '@site/src/components/InlineVoucher';
 import SearchableAccordion from '@site/src/components/SearchableAccordion/SearchableAccordion';
 import items from '@site/data/faqs/dedicated-introduction-en.json';
+import Admonition from '@theme/Admonition';
 
 
 ## Introducción
 
 ¿Buscas tu propio servidor con una configuración potente a un precio justo? ¡Entonces ZAP-Hosting es el lugar indicado para ti! En ZAP-Hosting puedes alquilar o comprar tu servidor dedicado ideal y obtener hardware para una experiencia de máximo rendimiento.
 
-A diferencia de un servidor virtual, con un servidor dedicado tendrás tu propio hardware físico. Esto significa que cuando alquilas/compras un Servidor Dedicado, toda la potencia de todos los componentes está disponible solo para ti y tus aplicaciones. Los servidores virtuales, en cambio, funcionan sobre un sistema anfitrión cuyos recursos se comparten con otros servidores virtuales.
+A diferencia de un servidor virtual, con un servidor dedicado tendrás tu propio hardware físico. Esto significa que cuando alquilas/compras un servidor dedicado, toda la potencia de todos los componentes está disponible solo para ti y tus aplicaciones. Los servidores virtuales, en cambio, funcionan sobre un sistema anfitrión cuyos recursos se comparten con otros servidores virtuales.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/9YMG6QfsNzzjCSQ/preview)
 
@@ -24,7 +25,7 @@ A diferencia de un servidor virtual, con un servidor dedicado tendrás tu propio
 
 ## Pedido
 
-El proceso de pedido es muy sencillo. Selecciona la configuración que deseas para tu [Servidor Dedicado](https://zap-hosting.com/en/dedicated-server-hosting/). El tiempo de configuración del servidor dedicado depende de la disponibilidad. Puedes comprobarlo mirando el símbolo de estado junto a la bandera para cada configuración. El estado **Verde** significa que la configuración está disponible y estará lista en pocos minutos. Si se muestra el estado **Naranja** para la configuración, esta no está disponible de inmediato y debe ser ensamblada. El tiempo de configuración es aproximadamente 5 días hábiles (lunes a viernes).
+El proceso de pedido es muy sencillo. Selecciona la configuración que deseas para tu [servidor dedicado](https://zap-hosting.com/en/dedicated-server-hosting/). El tiempo de configuración del servidor dedicado depende de la disponibilidad. Puedes comprobarlo mirando el símbolo de estado junto a la bandera para cada configuración. El estado **Verde** significa que la configuración está disponible y estará lista en pocos minutos. Si aparece el estado **Naranja** para la configuración, esta no está disponible de inmediato y debe ser ensamblada. El tiempo de configuración es aproximadamente 5 días hábiles (lunes a viernes).
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/SD6jF4MENeqaJFZ/preview)
 
@@ -32,7 +33,7 @@ El proceso de pedido es muy sencillo. Selecciona la configuración que deseas pa
 
 ## Configuraciones
 
-Para nuestros Servidores Dedicados ofrecemos numerosas variantes de configuración, lo que significa que deberías poder encontrar el sistema adecuado para cada caso de uso. Nuestras configuraciones generalmente están compuestas por las siguientes opciones posibles:
+Para nuestros servidores dedicados ofrecemos numerosas variantes de configuración, lo que significa que deberías poder encontrar el sistema adecuado para cada caso de uso. Nuestras configuraciones generalmente están compuestas por las siguientes opciones posibles:
 
 | Componentes | Opciones disponibles                                            |
 | ------------------- | ------------------------------------------------------------ |
@@ -41,18 +42,24 @@ Para nuestros Servidores Dedicados ofrecemos numerosas variantes de configuraci�
 | DISCO               | Desde 500 GB hasta 2x 8 TB de almacenamiento SSD              |
 | Tráfico             | 33 TB/mes       |
 
+
+:::danger ¿Buscas una configuración personalizada?
+Ofrecemos configuraciones personalizadas directamente a través de nuestra página de pedido. Simplemente selecciona la opción de configuración personalizada para acceder al formulario y especificar tus requisitos individuales.
+:::
+
+
 ## Áreas de aplicación
 
-Gracias al rendimiento, los permisos completos y las posibilidades resultantes, los servidores dedicados pueden usarse en muchas áreas de aplicación. Esto puede incluir, por ejemplo, lo siguiente:
+Gracias al rendimiento, los permisos completos y las posibilidades que esto ofrece, los servidores dedicados pueden usarse en muchas áreas de aplicación. Esto puede incluir, por ejemplo, lo siguiente:
 
 - Sitios web
 - Bases de datos
 - Soluciones en la nube
-- Servidores de juegos y de voz
+- Servidores de juegos y servidores de voz
 - Virtualizaciones
 
-## Preguntas Frecuentes
-¿Tienes más preguntas sobre nuestro producto Servidor Dedicado? Obtén respuestas a todo lo que quieres saber sobre características, beneficios, configuración y cómo usarlo de forma efectiva. Así tendrás la info que necesitas para aprovechar al máximo nuestro producto Servidor Dedicado. Y si algo sigue sin estar claro, solo contáctanos y estaremos aquí para ayudarte al instante.
+## Preguntas frecuentes
+¿Tienes más preguntas sobre nuestro producto de servidor dedicado? Obtén respuestas a todo lo que quieras saber sobre características, beneficios, configuración y cómo usarlo de forma efectiva. Así tendrás la info que necesitas para sacarle el máximo provecho a nuestro producto de servidor dedicado. Y si algo sigue sin estar claro, solo contáctanos y estaremos aquí para ayudarte al instante.
 <SearchableAccordion items={items} />
 
 <InlineVoucher />
