@@ -15,7 +15,7 @@ Got a dedicated server and want to install game servers on it? For example an Sa
 
 <YouTube videoId="rqtQJa_awGw" imageSrc="https://screensaver01.zap-hosting.com/index.php/s/gp82J4xr9T5Y969/preview" title="Satisfactory Dedicated Server Setup on Windows VPS" description="Feel like you understand better when you see things in action? We’ve got you! Dive into our video that breaks it all down for you. Whether you're in a rush or just prefer to soak up information in the most engaging way possible!"/>
 
-<InlineVoucher />
+
 
 ## Preparation
 
@@ -87,4 +87,4 @@ The actual setup is already complete. Further configuration changes can be made 
 At the end of the setup, you can now start the server by executing the **server-start.bat** file you created earlier. This should open the server's console and start the server startup process. If everything goes as expected, the server should be visible in the server list after a successful start.
 
 
-<InlineVoucher />
+

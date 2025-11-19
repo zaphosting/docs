@@ -13,7 +13,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 This guide provides steps for the installation of the Python runtime and venv. These commands must be executed via SSH, if you don't know how to connect to your server via SSH, please use our [Initial access (SSH)](vserver-linux-ssh.md) guide to learn more.
 
-<InlineVoucher />
+
 
 ## Preparation
 
@@ -134,4 +134,4 @@ To run commands like `pip install` inside your venv you need to activate it by r
 
 When you have finished working inside the venv you can go back by running the `deactivate` command.
 
-<InlineVoucher />
+

@@ -13,7 +13,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Do you have a Windows Dedicated Server and you want to install the Farming Simulator Dedicated Server 2025 service on it? You are in the right place. In this guide, we will explain the step by step process of installing this service on your server.
 
-<InlineVoucher />
+
 
 ## Preparation
 
@@ -164,4 +164,4 @@ Upon success, the server should start booting and you can confirm this through t
 
 Congratulations, you have successfully installed and configured the Farming Simulator 2025 dedicated server on your Dedicated Server! If you have any further questions or problems, please contact our support team, who are available to help you every day!
 
-<InlineVoucher />
+

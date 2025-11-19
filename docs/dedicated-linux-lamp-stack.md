@@ -15,7 +15,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 The **LAMP** stack is a popular selection of open-source software which are setup together to allow for simple dynamic website hosting, with a particular focus on PHP websites and apps. The acronym stands for: **L**inux as the OS (operating system), **A**pache as the web server, **M**ySQL as the database and lastly **P**HP for processing. In this guide, we will cover the process of setting up a LAMP stack on a Linux Dedicated Server, with a detailed breakdown and example of setting up a to-do list website. 
 
-<InlineVoucher />
+
 
 ## Preparation
 
@@ -350,4 +350,4 @@ Congratulations, you have successfully installed and setup the LAMP stack! As th
 
 For further questions or assistance, please don't hesitate to contact our support team, which is available daily to assist you! 🙂
 
-<InlineVoucher />
+

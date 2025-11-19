@@ -17,7 +17,7 @@ In this guide, you will understand how to install or reinstall the SSH Server fo
 
 If you wish to learn more about improving your security on your server, we highly recommend viewing our [Security Tips](vserver-linux-security-tips.md) guide which promotes a range of tools and services that can help secure your server further.
 
-<InlineVoucher />
+
 
 ## Installation
 
@@ -252,4 +252,4 @@ systemctl restart sshd
 You have now successfully installed the SSH Service on your server and can now access your server via SSH.
 
 
-<InlineVoucher />
+

@@ -13,7 +13,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Your server is no longer working as it should or would you like to start again from the beginning but don't know how? No worries, you can reset your server by reinstalling it. This guide will explain how to do this and what you have to consider.
 
-<InlineVoucher />
+
 
 
 
@@ -76,4 +76,4 @@ We strongly advise against performing this process unless you are absolutely cer
 
 Congratulations, you have successfully deleted the data on your dedicated server. For further questions or assistance, please don't hesitate to contact our support team, which is available daily to assist you! 🙂
 
-<InlineVoucher />
+

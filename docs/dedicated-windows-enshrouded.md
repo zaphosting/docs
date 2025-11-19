@@ -15,7 +15,7 @@ Do you have a Windows VPS or dedicated server and you want to install the Enshro
 
 <YouTube videoId="cxhqHt2DYjQ" imageSrc="https://screensaver01.zap-hosting.com/index.php/s/PR2nR7xtNp93BLx/preview" title="How To Setup Enshrouded Dedicated Server on Windows VPS!" description="Feel like you understand better when you see things in action? We’ve got you! Dive into our video that breaks it all down for you. Whether you're in a rush or just prefer to soak up information in the most engaging way possible!"/>
 
-<InlineVoucher />
+
 
 ## Preparation
 
@@ -122,4 +122,4 @@ Now it is time to start your server. Head over to the base directory of your Ens
 
 You have successfully installed Enshrouded on your Windows Dedicated Server.
 
-<InlineVoucher />
+

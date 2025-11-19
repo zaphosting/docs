@@ -13,7 +13,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Backups can be made with the tool Rsync. They can be copied on the local system itself to another directory/drive or to a remote system.  
 
-<InlineVoucher />
+
 
 ## Copy data to another local directory or drive:
 
@@ -183,4 +183,4 @@ Every day at 3 a.m. the command is executed and a backup is created.
 </TabItem>
 </Tabs>
 
-<InlineVoucher />
+

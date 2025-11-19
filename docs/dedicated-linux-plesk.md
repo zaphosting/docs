@@ -13,7 +13,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Plesk is a comprehensive web hosting and server management platform that allows users to manage websites, servers, email accounts and more through a user-friendly interface. It is a versatile solution that is suitable for beginners as well as experienced web developers and system administrators. 
 
-<InlineVoucher />
+
 
 ## Install Plesk
 
@@ -203,4 +203,4 @@ If the domain is now opened in the browser, it shows its encryption.
 The installation as well as the setup of the first domain with encryption is now completely finished. 
 :::
 
-<InlineVoucher />
+

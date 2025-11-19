@@ -13,7 +13,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 This guide provides steps for the installation of Node.js, Deno and Bun. These commands must be executed via SSH, if you don't know how to connect to your server via SSH, please have a look at our [Initial access (SSH)](vserver-linux-ssh.md).
 
-<InlineVoucher />
+
 
 ## Preparation
 
@@ -229,4 +229,4 @@ Now you can run the provided code with the `bun index.ts` command and check the 
 
 By following this guide, you will have successfully installed one of the popular JavaScript runtimes on your Linux server.
 
-<InlineVoucher />
+

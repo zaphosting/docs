@@ -14,7 +14,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 Jitsi Meet is an open source videoconferencing software with which you can set up your own videoconferences on your server. A big advantage of Jitsi Meet is the easy handling: You only need a browser (when using cell phones the Jitsi App) and you can't log in to external services. Each video conference gets its own URL to join the video conference. Jitsi Meet is perfect for video conferencing even with people who are not very experienced.
 Attention: Without any further settings, everyone who accesses the Jitsi Meet server has the possibility to start their own videoconferences on the server.
 
-<InlineVoucher />
+
 
 ## Install Jitsi Meet on a Debian Server
 
@@ -128,4 +128,4 @@ https://meet.zap-testdomain.de
 
 If the page loads with Jitsi Meet you can directly start your 1st video conference.
 
-<InlineVoucher />
+

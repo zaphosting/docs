@@ -18,7 +18,7 @@ Are you looking to mount an ISO? Perhaps one of ours or would you prefer your ow
 When using your own ISO (OS), which we do not actively offer, we cannot guarantee functionality in the event of any possible issues. 
 :::
 
-<InlineVoucher />
+
 
 ## Available mounting options
 There are two ways to mount your own iso file. It's always necessary to restart the server, to load the file. There are in general no restrictions on mounting a file, it's important that the ISO file is bootable.
@@ -62,4 +62,4 @@ After you have injected your desired ISO File, a server reboot is required.
 ## Conclusion
 Congratulations, you have successfully selected and mounted your ISO file. For further questions or assistance, please don't hesitate to contact our support team, which is available daily to assist you! 🙂
 
-<InlineVoucher />
+

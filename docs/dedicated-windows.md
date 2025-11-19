@@ -22,7 +22,7 @@ The setup steps and demonstration in this guide is based on the **Windows Server
 
 
 
-<InlineVoucher />
+
 
 ## Preparation
 For the installation and configuration of an operating system, it is initially important to mount the corresponding ISO of the operating system. There are several possible ways to mount it:
@@ -77,4 +77,4 @@ Once the operating system has been set up, it is necessary to activate RDP acces
 ## Conclusion
 Congratulations, you have successfully installed the Windows Server 2025 operating system on your dedicated server. For further questions or assistance, please don't hesitate to contact our support team, which is available daily to assist you! 🙂
 
-<InlineVoucher />
+

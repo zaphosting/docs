@@ -19,7 +19,7 @@ This approach removes issues caused by differences between development, testing,
 
 Considering about hosting this service yourself? We’ll walk you through every step on how to set it up and configure it, along with everything you need to keep in mind.
 
-<InlineVoucher />
+
 
 
 

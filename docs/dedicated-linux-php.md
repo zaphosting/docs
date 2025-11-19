@@ -13,7 +13,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 PHP is a popular general-purpose programming language with significant usage in web development. In this guide, we cover the process of installing PHP to your server.
 
-<InlineVoucher />
+
 
 ## Preparation
 
@@ -111,4 +111,4 @@ sudo apt install [php_extension] [...]
 
 You have successfully installed PHP to your Linux server. For further questions or assistance, please don't hesitate to contact our support team, which is available daily to assist you! 🙂
 
-<InlineVoucher />
+

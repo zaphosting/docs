@@ -12,7 +12,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 ## Introduction
 Setting up a server for Farming Simulator 22 Epic Games version differs slightly from the process for a standard server. This guide will walk you through the process, focusing on the unique aspects of the Epic Games version.
 
-<InlineVoucher />
+
 
 ## Preparation
 
@@ -160,4 +160,4 @@ Once you locate the server, click on it to connect. If prompted, enter the passw
 
 You have successfully installed Farming Simulator 22 (Epic Games version) on your Windows Dedicated Server.
 
-<InlineVoucher />
+

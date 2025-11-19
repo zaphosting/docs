@@ -19,7 +19,7 @@ Considering about hosting this service yourself? We’ll walk you through every 
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/4J6HJjQdRddjGFK/preview)
 
-<InlineVoucher />
+
 
 
 
@@ -91,4 +91,3 @@ Congratulations! You have now successfully installed and configured Teamspeak 6 
 
 Got specific questions that aren't covered here? For further questions or assistance, please don’t hesitate to contact our support team, which is available daily to assist you! 🙂
 
-<InlineVoucher />

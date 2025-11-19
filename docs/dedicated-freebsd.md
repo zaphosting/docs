@@ -19,7 +19,7 @@ The structure of the guide is based on the use of the FreeBSD 13.0 operating sys
 
 :::
 
-<InlineVoucher />
+
 
 ## Preparation
 
@@ -144,4 +144,4 @@ Your server should have an active internet connection now
 
 Congratulations, you have successfully installed the FreeBSD operating system on your dedicated server. For further questions or assistance, please don't hesitate to contact our support team, which is available daily to assist you! 🙂
 
-<InlineVoucher />
+

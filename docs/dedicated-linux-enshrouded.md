@@ -16,7 +16,7 @@ Do you have a Linux Dedicated Server and you want to install the Enshrouded Dedi
 Did you know that you can install our **ZAP GS/TS3 Interface** directly onto your dedicated server, allowing you to setup game server services, with direct integration to your ZAP-Hosting dashboard, in just a few clicks! Learn more about the [GS/TS3 Interface here](dedicated-linux-gs-interface.md).
 :::
 
-<InlineVoucher />
+
 
 ## Preparation
 
@@ -71,4 +71,4 @@ Congratulations, you have successfully installed and configured the Enshrouded s
 
 If you have any further questions or problems, please contact our support team, who are available to help you every day!
 
-<InlineVoucher />
+

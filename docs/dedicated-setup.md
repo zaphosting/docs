@@ -12,7 +12,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 ## Introduction
 Are you still new to this area and worried that you might not be able to cope with setting up such a service or that you might encounter difficulties when doing so? No worries! This guide and our setup assistant will take you through all the steps for the initial setup of your ZAP Dedicated Server. 
 
-<InlineVoucher />
+
 
 ## Preparation
 
@@ -64,4 +64,4 @@ The setup of the operating system is now carried out in the HTML console. We als
 - [Install CentOS](dedicated-centos.md)
 - [Install Proxmox](dedicated-proxmox.md)
 
-<InlineVoucher />
+

@@ -16,7 +16,7 @@ Do you have a Linux VPS and you want to install the Counter-Strike: Condition Ze
 Did you know that you can install our **ZAP GS/TS3 Interface** directly onto your VPS, allowing you to setup game server services, with direct integration to your ZAP-Hosting dashboard, in just a few clicks! Learn more about the [GS/TS3 Interface](dedicated-linux-gs-interface.md).
 :::
 
-<InlineVoucher />
+
 
 ## Preparation
 
@@ -63,4 +63,4 @@ Congratulations, you have successfully installed and configured the Counter-Stri
 
 For further questions or assistance, please don't hesitate to contact our support team, which is available daily to assist you! 🙂
 
-<InlineVoucher />
+

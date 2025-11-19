@@ -17,7 +17,7 @@ A reverse proxy server is a server that acts as an intermediary between the end 
 
 In this guide, we will explore the process of setting up a general-purpose reverse proxy for websites as well as one tailored towards game servers.
 
-<InlineVoucher />
+
 
 ## Preparation
 
@@ -210,4 +210,4 @@ With your chosen reverse proxy now setup, we highly recommend adding an SSL Cert
 
 Congratulations, you have successfully setup a reverse proxy for either a website or your game server (or both :), providing you with various security, reliability and performance improvements. For further questions or assistance, please don’t hesitate to contact our support team, which is available daily to assist you! 🙂
 
-<InlineVoucher />
+

@@ -17,7 +17,7 @@ Do you have a Linux VPS and you want to install the Avorion Dedicated server ser
 Did you know that you can install our **ZAP GS/TS3 Interface** directly onto your VPS, allowing you to setup game server services, with direct integration to your ZAP-Hosting dashboard, in just a few clicks! Learn more about the [GS/TS3 Interface](dedicated-linux-gs-interface.md).
 :::
 
-<InlineVoucher />
+
 
 ## Preparation
 
@@ -73,4 +73,4 @@ Congratulations, you have successfully installed and configured the Avorion serv
 
 If you have any further questions or problems, please contact our support team, who are available to help you every day!
 
-<InlineVoucher />
+

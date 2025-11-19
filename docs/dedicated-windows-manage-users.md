@@ -13,7 +13,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Windows OS provides built-in user management allowing you to easily manage additional users. Some of the benefits of using individual users include simulataneous (up to 2) remote desktop access through own credentials, individual desktop and file access as well as an easy permission system. In this guide, we will cover the process of managing users on your Windows server.
 
-<InlineVoucher />
+
 
 ## Preparation
 
@@ -97,4 +97,4 @@ Now on the page, you will be able to use a variety of functions to manage the us
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/tkPtbrmfsnK3TcG/preview)
 
-<InlineVoucher />
+

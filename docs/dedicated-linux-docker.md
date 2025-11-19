@@ -15,7 +15,7 @@ import TabItem from '@theme/TabItem';
 
 Docker is a lightweight, open source virtualization software to provide services or applications in isolation on a single system. In contrast to real virtual machines, no extra operating system is emulated or hosted for this, but rather only an application environment within the host system. This not only saves resources in general, but at the same time causes a low overhead compared to full virtualization. In this guide, we will cover the process of installing Docker onto your server.
 
-<InlineVoucher />
+
 
 ## Preparation
 
@@ -152,4 +152,4 @@ sudo systemctl restart [your_service]
 
 Congratulations, you have successfully installed and configured Docker onto your Linux server! If you have any further questions or problems, please contact our support team, who are available to help you every day!
 
-<InlineVoucher />
+

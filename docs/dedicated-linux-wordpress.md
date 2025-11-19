@@ -15,7 +15,7 @@ WordPress is a popular web content management system used for managing and publi
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/r26L7xASWY3d5Z5/preview)
 
-<InlineVoucher />
+
 
 ## Preparation
 
@@ -235,4 +235,4 @@ For future reading and further setup, we highly recommend having a browse throug
 
 For further questions or assistance, please don't hesitate to contact our support team, which is available daily to assist you! 🙂
 
-<InlineVoucher />
+

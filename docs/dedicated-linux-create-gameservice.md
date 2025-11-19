@@ -13,7 +13,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Services are an integral part of Linux and refers to a process or application that runs in the background, either being a pre-defined task or an event-based task. This provides various benefits including automatic server launching on boot, automatic server updates, easy management and access to logs, plus much more! In this guide, we will explore the process of creating a service for your dedicated game server.
 
-<InlineVoucher />
+
 
 ## Preparation
 
@@ -149,4 +149,4 @@ You have now successfully setup a service for your dedicated game server. The se
 
 You have also learnt about the contents of the service file as well as how to manage the service using a variety of commands.
 
-<InlineVoucher />
+

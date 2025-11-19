@@ -17,7 +17,7 @@ Speedtest-Cli  is both a free command-line tool and a software library (libSpeed
 
 Considering about hosting this service yourself? We’ll walk you through every step on how to set it up and configure it, along with everything you need to keep in mind.
 
-<InlineVoucher />
+
 
 
 
@@ -70,4 +70,3 @@ Got specific questions that aren't covered here? For further questions or assist
 
 
 
-<InlineVoucher />

@@ -15,7 +15,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 Do you have a Windows VPS and you want to install the Avorion Dedicated server service on it? You are in the right place. In this guide, we will explain the step by step process of installing this service on your server.
 
 <YouTube videoId="x10ssP09qtg" imageSrc="https://screensaver01.zap-hosting.com/index.php/s/7Nfiz2kgc9Sxbts/preview" title="How To Setup Avorion Dedicated Server on Windows VPS!" description="Feel like you understand better when you see things in action? We’ve got you! Dive into our video that breaks it all down for you. Whether you're in a rush or just prefer to soak up information in the most engaging way possible!"/>
-<InlineVoucher />
+
 
 ## Preparation
 
@@ -124,4 +124,4 @@ Now it is time to start your server. Head over to the base directory of your Avo
 
 Congratulations, you have successfully installed and configured the Avorion server on your VPS! If you have any further questions or problems, please contact our support team, who are available to help you every day! 
 
-<InlineVoucher />
+

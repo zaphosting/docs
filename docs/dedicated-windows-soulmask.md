@@ -14,7 +14,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Do you have a Windows VPS or dedicated server and you want to install the Soulmask Dedicated server service on it? You are in the right place. In this guide, we will explain the step by step process of installing this service on your server.
 
-<InlineVoucher />
+
 
 ## Preparation
 
@@ -122,4 +122,4 @@ If you wish your server to be available in the server list, please check out our
 
 You have successfully installed Soulmask on your Windows Dedicated Server.
 
-<InlineVoucher />
+
