@@ -13,7 +13,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 OpenVPN is a powerful and versatile VPN software that enables a secure connection over the Internet. It is an open source solution that provides robust and configurable VPN technology to establish an encrypted connection between your device and a VPN server. By using OpenVPN, users can secure their internet connection, protect their online privacy and access geo-restricted content no matter where they are in the world. In this guide, we will explore the process of installing and configuring the **OpenVPN** service on a Linux server.
 
-<InlineVoucher />
+
 
 ## Preparation
 
@@ -97,4 +97,4 @@ Connect via SFTP to your server to download the created .ovpn file and then dele
 In case you have imported several files, you have to select the client you want to use and then click on Connect
 :::
 
-<InlineVoucher />
+

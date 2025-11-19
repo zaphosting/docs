@@ -13,7 +13,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 The RDP freeze problem is a common phenomenon where, depending on the operating system and version used, remote desktop sessions unexpectedly freeze. This issue can be frustrating and significantly impair productivity. In this document, you will learn more about the cause of the problem and how to fix it.
 
-<InlineVoucher />
+
 
 ## Primary Cause
 
@@ -35,4 +35,4 @@ By executing this command, your computer will now use the TCP protocol instead o
 **Confirm the input** by pressing the Enter key and **restart your computer afterward** so that the change is applied and takes effect.
 :::
 
-<InlineVoucher />
+

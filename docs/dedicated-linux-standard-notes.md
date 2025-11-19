@@ -19,7 +19,7 @@ Standard Notes is an open-source notes app that safeguards your data using audit
 
 Considering about hosting this service yourself? We’ll walk you through every step on how to set it up and configure it, along with everything you need to keep in mind.
 
-<InlineVoucher />
+
 
 
 

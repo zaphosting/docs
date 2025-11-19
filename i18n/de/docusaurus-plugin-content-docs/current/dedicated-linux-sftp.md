@@ -9,11 +9,11 @@ services:
 
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
-<InlineVoucher />
+
 
 ## Wie verbinde ich mich per SFTP?
 
-Um dich per SFTP zu verbinden, musst du in Winscp auf SFTP umstellen:
+Um dich per SFTP zu verbinden, musst du in Winscp auf SFTP umstellen: 
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/R5QRq5t8spGezE9/download/vps-sftp-3.gif)
 
@@ -28,8 +28,8 @@ Das folgende Fenster musst du bestätigen:
 ![](https://screensaver01.zap-hosting.com/index.php/s/TQ9abPjsCXRqTGG/preview)
 
 
-Jetzt bist du per SFTP mit deinem Server verbunden:
+Jetzt bist du per SFTP mit deinem Server verbunden: 
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/xA44qPQB6zcFc75/preview)
 
-<InlineVoucher />
+

@@ -1,7 +1,7 @@
 ---
 id: dedicated-linux-ssh2fa
-title: "Servidor Dedicado: Autenticação de dois fatores SSH"
-description: "Descubra como aumentar a segurança do SSH com o Google Authenticator 2FA para um acesso mais seguro ao servidor e proteja seu VPS Linux → Saiba mais agora"
+title: "Servidor Dedicado: Autenticação SSH de dois fatores"
+description: "Descubra como aumentar a segurança do SSH com o 2FA do Google Authenticator para um acesso mais seguro ao servidor e proteja seu VPS Linux → Saiba mais agora"
 sidebar_label: 2FA (SSH)
 services:
   - dedicated
@@ -11,9 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introdução
 
-O serviço de autenticação de dois fatores (2FA) do Google para SSH, conhecido como **Google Authenticator SSH**, aumenta a segurança do acesso SSH (Secure Shell) adicionando uma segunda camada de autenticação. Embora o SSH já ofereça um método seguro para estabelecer uma conexão criptografada com um servidor remoto, a integração do 2FA eleva o nível de segurança ao exigir que os usuários insiram não apenas sua senha, mas também um código de verificação único gerado pelo Google Authenticator. Neste guia, vamos explorar o processo de instalação e configuração do serviço **Google Authenticator SSH** em um servidor Linux.
-
-<InlineVoucher />
+O serviço de autenticação SSH de dois fatores (2FA) do Google, conhecido como **Google Authenticator SSH**, aumenta a segurança do acesso SSH (Secure Shell) adicionando uma segunda camada de autenticação. Embora o SSH já ofereça um método seguro para estabelecer uma conexão criptografada com um servidor remoto, a integração do 2FA eleva o nível de segurança ao exigir que os usuários insiram não apenas a senha, mas também um código de verificação único gerado pelo Google Authenticator. Neste guia, vamos explorar o processo de instalação e configuração do serviço **Google Authenticator SSH** em um servidor Linux.
 
 ## Instalação
 
@@ -31,7 +29,7 @@ Inicie o Google Authenticator digitando 'google-authenticator'. Certifique-se de
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/agW9EHjs5Aimc43/preview)
 
-Agora será solicitado novamente se você deseja executar, digite "Y" para aceitar. Você verá um QR Code. Abra seu app Authenticator no smartphone e escaneie o QR Code. Para este exemplo, usamos o Google Authenticator:
+Agora será perguntado se você deseja executar o programa, digite "Y" para aceitar. Você verá um QR Code. Abra seu app Authenticator no smartphone e escaneie o QR Code. Para este exemplo, usamos o Google Authenticator:
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/CmQERELXNotsgZB/preview)
 
@@ -45,12 +43,12 @@ Agora o app já mostra os códigos que você vai precisar para fazer login depoi
 
 As seguintes perguntas serão feitas:
 
-1. Você quer salvar a configuração do Google Authenticator?
+1. Deseja salvar a configuração do Google Authenticator?
 2. Deseja permitir apenas um login a cada 30 segundos?
 3. O tempo em que um código é válido deve ser aumentado?
 4. Devem ser permitidos apenas três logins a cada 30 segundos? (Proteção contra Brute Force)
 
-Por motivos de segurança, recomendamos confirmar todas com Sim.
+Por questões de segurança, recomendamos confirmar todas com Sim.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/A9RmFA6nWgKzSF6/preview)
 
@@ -65,7 +63,7 @@ Ative os módulos necessários no arquivo `/etc/ssh/sshd_config`. Abra o arquivo
 sudo nano /etc/ssh/sshd_config
 ```
 
-Você estará em um editor de texto. Use as setas para navegar, apague texto livremente e para salvar pressione 'CTRL + X', depois 'Y' e por fim 'Enter'.
+Você estará em um editor de texto. Use as setas para navegar, apague e digite livremente. Para salvar, pressione 'CTRL + X', depois 'Y' e por fim 'Enter'.
 
 Certifique-se de que as linhas 'UsePAM' e 'ChallengeResponseAuthentication' estejam definidas como 'yes'. Assim:
 
@@ -73,14 +71,14 @@ Certifique-se de que as linhas 'UsePAM' e 'ChallengeResponseAuthentication' este
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/qdf4JCqLgZ85nia/preview)
 
-Salve o arquivo com 'CTRL + X', depois 'Y' e por último 'Enter'. Reinicie o SSH com o comando:
+Salve o arquivo com 'CTRL + X', depois 'Y' e 'Enter'. Reinicie o SSH com o comando:
 ```
 sudo systemctl restart ssh
 ```
 
 ### /etc/pam.d/sshd
 
-Agora adicionamos o Google Authenticator ao login no arquivo `/etc/pam.d/sshd`. Abra o arquivo digitando:
+Agora vamos adicionar o Google Authenticator no login em `/etc/pam.d/sshd`. Abra o arquivo digitando:
 ```
 sudo nano /etc/pam.d/sshd
 ```
@@ -91,7 +89,7 @@ auth required pam_google_authenticator.so
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/Mgw8tJJtTbkg7T3/preview)
 
-Salve o arquivo com 'CTRL + X', depois 'Y' e por último 'Enter'.
+Salve o arquivo com 'CTRL + X', depois 'Y' e 'Enter'.
 
 ## Testando o acesso
 
@@ -108,5 +106,3 @@ Pronto, você está logado!
 ## Conclusão
 
 Parabéns, você configurou com sucesso o 2FA para seu acesso SSH. Para dúvidas ou ajuda, não hesite em contatar nosso time de suporte, disponível diariamente para te ajudar! 🙂
-
-<InlineVoucher />

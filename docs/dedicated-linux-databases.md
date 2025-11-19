@@ -13,7 +13,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 This guide provides steps for the installation of various types of databases. For this example, Ubuntu 20.04 is used as the operating system, however, equivalent commands for other Linux distros that we provide on our website are also specified. These commands must be executed via SSH, if you don't know how to connect to your server via SSH, please have a look here: [Initial access (SSH)](vserver-linux-ssh.md).
 
-<InlineVoucher />
+
 
 ## Preparation
 
@@ -273,4 +273,4 @@ Your MongoDB installation should be working now!
 </TabItem>
 </Tabs>
 
-<InlineVoucher />
+

@@ -13,11 +13,11 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Nginx und Apache sind beliebte Webservices, die genutzt werden, um Webseiten an den Browser eines Nutzers auszuliefern. Unten zeigen wir dir, wie du einen der Services auf deinem System installierst.
 
-<InlineVoucher />
+
 
 ## Vorbereitung
 
-Bevor die eigentliche Installation eines Webservers starten kann, muss sichergestellt werden, dass das System auf dem neuesten Stand ist. Dazu verbinden wir uns per SSH mit dem Server. Falls du nicht weißt, was SSH ist und wie man es nutzt, schau dir unsere Anleitung an: [Erstzugang (SSH)](vserver-linux-ssh.md).
+Bevor die eigentliche Installation eines Webservers starten kann, muss sichergestellt werden, dass das System auf dem neuesten Stand ist. Dafür verbinden wir uns per SSH mit dem Server. Falls du nicht weißt, was SSH ist und wie man es nutzt, schau dir unsere Anleitung an: [Erstzugang (SSH)](vserver-linux-ssh.md).
 
 Dort kannst du das System je nach Betriebssystem mit folgendem Befehl updaten:
 
@@ -102,7 +102,7 @@ Nach der Installation des Webservers kannst du die Dateien deiner Website hochla
 
 ## Versions-Check
 
-Nachdem die Installation abgeschlossen ist, kannst du mit den Befehlen `apache2 -v` (Apache) und `nginx -v` (Nginx) prüfen, ob die Installation erfolgreich war. Die Ausgabe sollte ungefähr so aussehen:
+Nach der Installation kannst du mit den Befehlen `apache2 -v` (Apache) und `nginx -v` (Nginx) prüfen, ob die Installation erfolgreich war. Die Ausgabe sollte ungefähr so aussehen:
 
 
 
@@ -125,5 +125,3 @@ nginx version: nginx/1.2.3
 ```
 
 Wenn einer der beiden Fälle eintritt, wurde der Webserver erfolgreich installiert.
-
-<InlineVoucher />

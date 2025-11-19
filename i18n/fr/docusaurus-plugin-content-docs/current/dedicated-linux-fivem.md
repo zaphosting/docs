@@ -16,25 +16,25 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 
 ## Introduction
-Tu as un serveur dédié et tu veux installer et gérer ton propre service de serveur dédié FiveM avec txAdmin ? T’es au bon endroit ! On va t’expliquer toutes les étapes nécessaires pour l’installer, le configurer et ce à quoi tu dois faire gaffe.
+Tu as un serveur dédié et tu veux installer et gérer ton propre serveur dédié FiveM avec txAdmin ? T’es au bon endroit ! On va t’expliquer toutes les étapes nécessaires pour l’installer, le configurer et ce à quoi tu dois faire gaffe.
 
 :::warning  Système d’exploitation sélectionné et installé
-On part du principe que tu as déjà choisi et installé un système d’exploitation sur ton serveur dédié. Si ce n’est pas encore fait, tu dois d’abord suivre les étapes du [guide de configuration initiale](dedicated-setup.md) pour serveurs dédiés.
+On part du principe que tu as déjà choisi et installé un système d’exploitation sur ton serveur dédié. Si ce n’est pas encore fait, commence par suivre les étapes du [guide de configuration initiale](dedicated-setup.md) pour serveurs dédiés.
 :::
 
 
 
 ## Préparation
 
-Pour mettre en place un serveur FiveM, certaines étapes de préparation sont indispensables avant de pouvoir commencer la configuration proprement dite du serveur dédié FiveM.
+Pour mettre en place un serveur FiveM, il y a quelques préparatifs à faire avant de pouvoir lancer l’installation proprement dite du serveur dédié FiveM.
 
 
 ### Configurer la base de données
 
-Pour notre option interface GS/TS3, on fournit déjà nos propres bases de données incluses. Mais si tu préfères installer ton propre serveur de base de données et ta base, on te conseille de jeter un œil au [guide d’installation de base de données](dedicated-linux-databases.md). 
+Pour notre option interface GS/TS3, on fournit déjà nos propres bases de données incluses. Mais si tu préfères installer ta propre base de données et serveur de base, on te conseille de jeter un œil au [guide d’installation de base de données](dedicated-linux-databases.md).
 
 :::warning
-Si tu utilises ta propre base de données, il faudra remplacer les infos de base de données prédéfinies par les tiennes lors de la configuration de txAdmin. 
+Si tu utilises ta propre base de données, il faudra remplacer les infos de base de données prédéfinies par les tiennes lors de la configuration de txAdmin.
 :::
 
 
@@ -48,12 +48,12 @@ La fonctionnalité interface GS/TS3 est compatible avec les systèmes d’exploi
 - Debian : 10, 11
 - Ubuntu : 20.04
 
-(*) On bosse déjà pour rendre d’autres systèmes d’exploitation et versions dispo très bientôt.
+(*) On bosse déjà pour rendre d’autres systèmes d’exploitation et versions plus récentes dispo très bientôt.
 :::
 
-Si tu ne connais pas encore l’interface GS/TS3, on te recommande de consulter notre [guide interface GS/TS3](dedicated-linux-gs-interface.md). 
+Si tu ne connais pas encore l’interface GS/TS3, on te recommande de consulter notre [guide interface GS/TS3](dedicated-linux-gs-interface.md).
 
-Une fois l’interface GS/TS3 installée, ouvre le service de serveur de jeux fraîchement créé. Là, il faut maintenant sélectionner le jeu. Pour ça, va sur la page **Jeux**. Clique sur les jeux disponibles, cherche txAdmin et clique sur le bouton d’installation. 
+Une fois l’interface GS/TS3 installée, ouvre le service de serveur de jeux fraîchement créé. Là, il faut maintenant sélectionner le jeu. Pour ça, va sur la page **Jeux**. Clique sur les jeux disponibles, cherche txAdmin et clique sur le bouton d’installation.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/jJaHrkd7LQAHx46/download)
 
@@ -70,15 +70,15 @@ Chaque serveur FiveM a besoin de sa propre clé de licence, gérée via le nouve
 
 ## Configuration
 
-Maintenant tu peux commencer à configurer ton serveur FiveM et txAdmin. Pour ça, ouvre le tableau de bord de ton serveur de jeux. Tu trouveras le lien et les identifiants de connexion pour l’instance txAdmin dans la section txAdmin. Ouvre-le et connecte-toi.
+Maintenant tu peux commencer à configurer ton serveur FiveM et txAdmin. Pour ça, ouvre le tableau de bord de ton serveur de jeux. Tu trouveras le lien et les identifiants de connexion pour l’instance txAdmin dans la section txAdmin. Ouvre-la et connecte-toi.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/W5xoFtgfZkeZFgQ/preview)
 
 ### Configuration de txAdmin
 
-Pendant la configuration de txAdmin, ton propre serveur FiveM est installé et configuré en cinq étapes. Suis les instructions dans l’interface txAdmin et définis d’abord un **nom de serveur**. Ensuite, choisis le **type de serveur** souhaité. Cet exemple montre l’installation d’un serveur FiveM avec QBCore préinstallé.
+Pendant la configuration de txAdmin, ton propre serveur FiveM est installé et configuré en cinq étapes. Suis les instructions dans l’interface txAdmin et commence par définir un **nom de serveur**. Ensuite, choisis le **type de serveur** souhaité. Cet exemple montre l’installation d’un serveur FiveM avec QBCore préinstallé.
 
-Sélectionne l’option **Recettes populaires** dans l’étape **Type de déploiement** puis choisis le **Modèle de framework QBCore**. Confirme le **répertoire de données** désiré et lance le **déploiement de la recette** pour finaliser l’installation.
+Sélectionne l’option **Recettes populaires** dans l’étape **Type de déploiement**, puis choisis le **Modèle de framework QBCore**. Confirme le **répertoire de données** désiré et lance le **déployeur de recette** pour finaliser l’installation.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/i7mSNNs29b6QLjz/download)
 
@@ -87,7 +87,7 @@ Sélectionne l’option **Recettes populaires** dans l’étape **Type de déplo
 
 ### Configuration du pare-feu
 
-Quand tu installes le serveur FiveM via l’interface GS/TS3, tous les redirections de ports nécessaires sont configurées **automatiquement** dans le pare-feu. En cas de souci, tu peux aussi configurer la redirection de ports manuellement via SSH avec la commande suivante : 
+Quand tu installes le serveur FiveM via l’interface GS/TS3, tous les redirections de ports nécessaires sont configurées **automatiquement** dans le pare-feu. En cas de souci, tu peux aussi configurer manuellement la redirection des ports via SSH avec la commande suivante :
 
 ```
 iptables -A INPUT -p tcp --dport 30120 -j ACCEPT
@@ -103,4 +103,4 @@ iptables -A OUTPUT -p udp --dport 30120 -j ACCEPT
 Tu as réussi à installer et configurer un service de serveur dédié FiveM sur ton serveur dédié. Pour toute question ou aide, n’hésite pas à contacter notre support, dispo tous les jours pour t’aider ! 🙂
 
 
-<InlineVoucher />
+

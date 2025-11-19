@@ -19,23 +19,23 @@ La structure de ce guide est basée sur l’utilisation de CentOS 8.3. Les insta
 
 :::
 
-<InlineVoucher />
+
 
 ## Préparation
 
 Pour l’installation et la configuration d’un système d’exploitation, il est important dans un premier temps de monter l’ISO correspondant. Plusieurs méthodes sont possibles :
 
 1. Montage via la configuration initiale
-2. Montage via iLO (Média Virtuel)
+2. Montage via iLO (Média virtuel)
 3. Montage via iLO (Console distante)
 
-Si vous ne connaissez pas encore le montage d’un fichier ISO, nous vous recommandons de consulter notre [guide de configuration initiale](dedicated-setup.md) ou [guide ISO perso](dedicated-iso.md).
+Si vous ne connaissez pas encore le montage d’un fichier ISO, nous vous recommandons de consulter notre [guide Configuration initiale](dedicated-setup.md) ou [ISO personnalisée](dedicated-iso.md).
 
 
 
 ## Installation
 
-Une fois l’ISO chargé avec succès, le serveur démarre le processus d’installation.
+Une fois l’ISO chargée avec succès, le serveur passe en mode installation.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/YFQt6Jmw5wi4QZZ/preview)
 
@@ -48,13 +48,13 @@ Sélectionnez votre fuseau horaire
 * Mot de passe root  
 Définissez un mot de passe pour le compte root. Il peut être libre, mais pensez à choisir un mot de passe fort et à le sauvegarder en lieu sûr.
 
-* Destination d’installation  
+* Destination de l’installation  
 Sélectionnez le SSD sur lequel CentOS sera installé
 
 * Réseau & Nom d’hôte  
-À cause d’un problème d’incompatibilité, le réseau ne peut pas être configuré pour l’instant, nous le ferons à la fin.
+À cause d’un problème d’incompatibilité, le réseau n’a pas pu être configuré pour l’instant, nous le ferons à la fin.
 
-Une fois tous les paramètres configurés à votre goût, cliquez sur « Begin Installation ».
+Une fois tous les paramètres configurés à votre convenance, cliquez sur « Begin Installation ».
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/iqF8KzziQix3jyd/preview)
 
@@ -72,7 +72,7 @@ Ensuite, nous allons configurer le périphérique réseau, ce qui nécessite la 
 
 ```http://185.223.30.65/dedicatedisos/centos-network-554flb.iso```
 
-Une fois l’ISO monté avec succès, il faut le monter dans le système pour y accéder.
+Une fois l’ISO montée avec succès, il faut la monter dans le système pour y accéder.
 
 ```mount /dev/sr0 /mnt```
 
@@ -87,7 +87,7 @@ Ensuite, installez le paquet de mise à jour.
 À cette étape, lancez la mise à jour, cela peut prendre quelques secondes.  
 Vous pouvez vérifier avec `ip a s` si un périphérique réseau nommé `eno1` existe, si oui, redémarrez votre système.
 
-Après le redémarrage, passez à la configuration du périphérique réseau.
+Après le redémarrage, configurez le périphérique réseau.
 
 ```nano /etc/sysconfig/network-scripts/ifcfg-eno1```
 
@@ -99,7 +99,7 @@ BOOTPROTO=dhcp
 ONBOOT=yes
 ```
 
-Pour quitter nano, appuyez sur `CTRL+X` puis `Y`
+Quittez nano en appuyant sur `CTRL+X` puis `Y`
 
 Il faut maintenant démarrer le périphérique réseau avec `ifup eno1` 
 
@@ -113,6 +113,4 @@ Votre serveur dédié devrait maintenant avoir une connexion internet fonctionne
 
 ## Conclusion
 
-Félicitations, vous avez installé avec succès CentOS sur votre serveur dédié. Pour toute question ou aide supplémentaire, n’hésitez pas à contacter notre support, disponible tous les jours pour vous aider ! 🙂
-
-<InlineVoucher />
+Félicitations, vous avez installé avec succès CentOS sur votre serveur dédié. Pour toute question ou aide supplémentaire, n’hésitez pas à contacter notre support, disponible tous les jours pour vous accompagner ! 🙂

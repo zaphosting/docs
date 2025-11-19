@@ -13,7 +13,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Having multiple IP addresses on a server can be beneficial for several reasons, especially in complex network environments or to meet specific prerequisites for network performance, security, and management. Assigning different IP addresses to different services or applications on the same server can achieve better isolation.
 
-<InlineVoucher />
+
 
 
 ## Preparation
@@ -61,4 +61,4 @@ Now, the additional IP address is added via the **Advanced TCP/IP Settings**. To
 
 The IP address has now been successfully configured and added. For further questions or assistance, please don't hesitate to contact our support team, which is available daily to assist you! 🙂
 
-<InlineVoucher />
+

@@ -13,19 +13,19 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ¿Tu servidor ya no funciona como debería o quieres empezar de nuevo desde cero pero no sabes cómo? No te preocupes, puedes reiniciar tu servidor reinstalándolo. Esta guía te explicará cómo hacerlo y qué debes tener en cuenta.
 
-<InlineVoucher />
+
 
 
 
 ## Preparativos
 
-Antes de reiniciar los datos en tu servidor, debes saber que los datos existentes se perderán. Si tienes datos importantes, este es el momento ideal para hacer una copia de seguridad antes de comenzar la reinstalación. Después, tendrás que decidir cómo quieres reiniciar exactamente tu sistema.
+Antes de reiniciar los datos en tu servidor, debes saber que los datos existentes se perderán. Si tienes datos importantes, este es el momento adecuado para hacer una copia de seguridad antes de comenzar la reinstalación. Después, debes decidir cómo exactamente quieres reiniciar tu sistema. 
 
 
 
 ## Reiniciando los datos
 
-Hay dos formas diferentes de reiniciar los datos, dependiendo de tus necesidades y situación. A continuación, te explicamos ambas opciones en detalle:
+Hay dos formas diferentes de reiniciar los datos, dependiendo de tus necesidades y situación. A continuación, explicamos ambas opciones en detalle:
 
 - Reiniciar los datos usando la configuración RAID (Método rápido)
 - Reiniciar los datos usando Wipe ISO (Método completo)
@@ -38,23 +38,23 @@ En comparación, reiniciar con Wipe ISO implica múltiples ciclos de borrado, as
 
 ### Método rápido
 
-Al igual que al configurar el RAID, la configuración RAID debe abrirse con la tecla `F8` durante el proceso de arranque. Abre la opción de menú **Delete Logical Drive** en la configuración RAID. Esto debería mostrar la configuración RAID actual y los discos duros. Pulsa la tecla `F8` para eliminar el RAID existente. Esto debe confirmarse pulsando la tecla `F3`.
+Al igual que con la configuración del RAID, la configuración RAID debe abrirse con la tecla `F8` durante el proceso de arranque. Abre la opción de menú **Delete Logical Drive** en la configuración RAID. Esto debería mostrar la configuración RAID actual y los discos duros. Presiona la tecla `F8` para eliminar el RAID existente. Esto debe confirmarse presionando la tecla `F3`. 
 
 Luego, navega de nuevo a la configuración RAID y abre la opción de menú **Create Logical Drive**. Ahora selecciona los discos duros y la configuración RAID deseada (Raid 0/1) y crea el RAID confirmándolo con la tecla `Enter`.
 
-Si no estás familiarizado con cómo configurar el RAID en tu sistema, te recomendamos que también eches un vistazo a nuestra guía general [Configurar RAID](dedicated-raid.md).
+Si no estás familiarizado con cómo configurar el RAID en tu sistema, te recomendamos que también eches un vistazo a nuestra guía general de [Configurar RAID](dedicated-raid.md). 
 
 
 
 ### Método completo
 
-El Wipe ISO necesario debe montarse y ejecutarse para realizar el proceso real de reinicio de datos. Los archivos ISO pueden montarse ya sea vía iLO o mediante la consola remota. Si no sabes exactamente cómo hacerlo, por favor revisa la guía [ISO propia](http://localhost:3000/guides/docs/dedicated-iso).
+El Wipe ISO necesario debe montarse y ejecutarse para realizar el proceso real de reinicio de datos. Los archivos ISO pueden montarse ya sea vía iLO o mediante la consola remota. Si no sabes exactamente cómo hacerlo, por favor revisa la guía de [ISO propia](http://localhost:3000/guides/docs/dedicated-iso).
 
 Monta el siguiente archivo Wipe ISO en tu servidor y reinícialo:
 
 
 ```
-http://185.223.30.65/wipe.iso
+http://185.223.30.65/dedicatedisos/wipedisk.iso
 ```
 
 Una vez que el servidor se haya reiniciado, el Wipe ISO debería detectarse y cargarse automáticamente. Conéctate a tu servidor dedicado usando una consola remota (HTML5, .NET, Java Web Start) de tu elección.
@@ -66,7 +66,7 @@ Ahí verás cómo el servidor ejecuta automáticamente el proceso y el progreso 
 
 
 :::danger
-Este proceso no se puede deshacer y es por tanto definitivo. No hay copias de seguridad adicionales que puedan importarse en caso de necesidad.
+Este proceso no se puede deshacer y por lo tanto es definitivo. No hay copias de seguridad adicionales que puedan importarse en caso de necesidad.
 Te recomendamos encarecidamente no realizar este proceso a menos que estés absolutamente seguro de que quieres eliminar todos tus datos.
 :::
 
@@ -74,6 +74,6 @@ Te recomendamos encarecidamente no realizar este proceso a menos que estés abso
 
 ## Conclusión
 
-¡Felicidades, has eliminado con éxito los datos en tu servidor dedicado! Para cualquier pregunta o ayuda, no dudes en contactar con nuestro equipo de soporte, que está disponible todos los días para asistirte 🙂.
+¡Felicidades, has eliminado con éxito los datos en tu servidor dedicado! Para cualquier pregunta o asistencia, no dudes en contactar a nuestro equipo de soporte, que está disponible todos los días para ayudarte 🙂
 
-<InlineVoucher />
+

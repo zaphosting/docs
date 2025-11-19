@@ -11,16 +11,14 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
 
-Backups kannst du mit dem Tool Rsync machen. Sie können lokal auf dem System selbst in ein anderes Verzeichnis/Laufwerk oder auf ein Remote-System kopiert werden.  
-
-<InlineVoucher />
+Backups kannst du mit dem Tool Rsync machen. Sie können entweder lokal auf dem System in ein anderes Verzeichnis/Laufwerk kopiert werden oder auf ein Remote-System.  
 
 ## Daten in ein anderes lokales Verzeichnis oder Laufwerk kopieren:
 
 :::info
-Achtung: Der erste Durchlauf kann je nach Datenmenge deutlich länger dauern als die folgenden. Das liegt daran, dass Rsync beim ersten Mal alle Daten synchronisiert, ab dem zweiten Mal nur noch geänderte Daten übertragen werden. 
+Achtung: Der erste Durchlauf kann je nach Datenmenge deutlich länger dauern als die folgenden, da Rsync beim ersten Mal alle Daten synchronisiert. Ab dem zweiten Mal werden nur noch geänderte Daten übertragen. 
 :::
->So entsteht dann ein inkrementelles Backup.  
+>So entsteht ein inkrementelles Backup.  
 
 ## Schritt 1
 
@@ -46,26 +44,26 @@ Das geht mit folgendem Befehl:
 ```
 rsync -arz /home/Client /home/Backup
 ```
--a=Archivmodus, die Attribute werden mitkopiert
+-a=Archivmodus, kopiert alle Attribute
 <br/>
--r=Rekursiv, Unterordner werden ebenfalls synchronisiert
+-r=Rekursiv, Unterordner werden mit synchronisiert
 <br/>
 -z=Kompression, je nach Datenmenge/-größe wird komprimiert
 
 
-Der Ordner wurde erfolgreich synchronisiert. 
+Der Ordner wurde erfolgreich synchronisiert.
 
 Wenn jetzt eine Datei etc. im Client-Ordner gelöscht wird, bleibt sie im Backup-Ordner erhalten.  
-Da die Dateien aber immer 1:1 synchron sein sollen, kann der rsync-Befehl einfach angepasst werden, damit auch Daten, die im Client-Ordner nicht mehr vorhanden sind, aus dem Backup-Ordner entfernt werden. 
+Da die Dateien aber immer 1:1 synchron sein sollen, kann der rsync-Befehl einfach angepasst werden, damit auch Daten, die im Client-Ordner nicht mehr vorhanden sind, aus dem Backup-Ordner entfernt werden.  
 
 Der angepasste Befehl lautet: 
 
 ```
 rsync -arz --delete /home/Client /home/Backup
 ```
--a=Archivmodus, die Attribute werden mitkopiert
+-a=Archivmodus, kopiert alle Attribute
 <br/>
--r=Rekursiv, Unterordner werden ebenfalls synchronisiert
+-r=Rekursiv, Unterordner werden mit synchronisiert
 <br/>
 -z=Kompression, je nach Datenmenge/-größe wird komprimiert
 <br/>
@@ -84,7 +82,7 @@ Mit der Nummer 1 kannst du "nano" als Editor nutzen.
 Mit der Nummer 2 kannst du "vim" als Editor nutzen.  
 
 Nachdem die Datei z.B. mit Nano geöffnet wurde, kannst du einen Cronjob erstellen und eintragen.  
-Einen Cronjob kannst du mit diesem [Generator](https://crontab-generator.org/) erstellen. 
+Einen Cronjob kannst du mit diesem [Generator](https://crontab-generator.org/) erstellen.  
 
 Der eingetragene Cronjob sieht dann so aus: 
 
@@ -111,48 +109,48 @@ Zum Beispiel kannst du folgenden Befehl nutzen, um die Daten auf den Remote-Host
 rsync --progress -arz -e  "ssh -i /home/sshkey/keybackup" /home/Client/ root@123.123.123.123:/home/Backup/Home-Server1/
 ```
 
--a=Archivmodus, die Attribute werden mitkopiert
+-a=Archivmodus, kopiert alle Attribute
 <br/>
--r=Rekursiv, Unterordner werden ebenfalls synchronisiert
+-r=Rekursiv, Unterordner werden mit synchronisiert
 <br/>
 -z=Kompression, je nach Datenmenge/-größe wird komprimiert
 <br/>
--e=Legt den SSH-Port fest (Standard 22)
+-e=Gibt den SSH-Port an (Standard 22)
 <br/>
 SSH-Key angeben (Pfad)("ssh -i /home/sshkey/keybackup")= ssh -i /[Pfad zum Key]
 <br/>
 Zu sicherndes Verzeichnis angeben (/home/client/)= /[Verzeichnis]
 <br/>
-RemoteHost(root@123.123.123.123:)= Login-Name des Users auf dem RemoteHost und Adresse: name@IP/Domain
+RemoteHost(root@123.123.123.123:)= Login-Name des Nutzers auf dem RemoteHost und Adresse: name@IP/Domain
 <br/>
 Zielverzeichnis für die Daten auf dem RemoteHost(:/home/Backup/Home-Server1/)= :/[Pfad zum Zielverzeichnis]
 
-Der Ordner/die Dateien wurden nach Ausführung des Befehls erfolgreich mit dem Remote-Verzeichnis synchronisiert/gespeichert.
+Der Ordner/die Dateien wurden nach Ausführung des Befehls erfolgreich mit dem Remote-Verzeichnis synchronisiert/gesichert.
   
 
 Wenn eine Datei etc. im Client-Ordner gelöscht wird, bleibt sie im Backup-Ordner auf dem Remote-Host erhalten.  
-Da die Dateien aber immer 1:1 synchron sein sollen, kann der rsync-Befehl einfach angepasst werden, damit auch Daten, die im Client-Ordner nicht mehr vorhanden sind, aus dem Backup-Ordner auf dem Remote-Host entfernt werden. 
+Da die Dateien aber immer 1:1 synchron sein sollen, kann der rsync-Befehl einfach angepasst werden, damit auch Daten, die im Client-Ordner nicht mehr vorhanden sind, aus dem Backup-Ordner auf dem Remote-Host entfernt werden.  
 
 Der angepasste Befehl lautet:
 
 ```
 rsync --progress -arz --delete -e  "ssh -i /home/sshkey/keybackup" /home/Client/ root@123.123.123.123:/home/Backup/Home-Server1/
 ```
--a=Archivmodus, die Attribute werden mitkopiert
+-a=Archivmodus, kopiert alle Attribute
 <br/>
--r=Rekursiv, Unterordner werden ebenfalls synchronisiert
+-r=Rekursiv, Unterordner werden mit synchronisiert
 <br/>
 -z=Kompression, je nach Datenmenge/-größe wird komprimiert
 <br/>
 --delete= Löscht Daten, die in der Quelle nicht mehr existieren, aber noch im Ziel vorhanden sind
 <br/>
--e=Legt den SSH-Port fest (Standard 22)
+-e=Gibt den SSH-Port an (Standard 22)
 <br/>
 SSH-Key angeben (Pfad)("ssh -i /home/sshkey/keybackup")= ssh -i /[Pfad zum Key]
 <br/>
 Zu sicherndes Verzeichnis angeben (/home/client/)= /[Verzeichnis]
 <br/>
-RemoteHost(root@123.123.123.123:)= Login-Name des Users auf dem RemoteHost und Adresse: name@IP/Domain
+RemoteHost(root@123.123.123.123:)= Login-Name des Nutzers auf dem RemoteHost und Adresse: name@IP/Domain
 <br/>
 Zielverzeichnis für die Daten auf dem RemoteHost(:/home/Backup/Home-Server1/)= :/[Pfad zum Zielverzeichnis]
 
@@ -169,7 +167,7 @@ Mit der Nummer 1 kannst du "nano" als Editor nutzen.
 Mit der Nummer 2 kannst du "vim" als Editor nutzen.  
 
 Nachdem die Datei z.B. mit Nano geöffnet wurde, kannst du einen Cronjob erstellen und eintragen.  
-Einen Cronjob kannst du mit diesem [Generator](https://crontab-generator.org/) erstellen. 
+Einen Cronjob kannst du mit diesem [Generator](https://crontab-generator.org/) erstellen.  
 
 Der eingetragene Cronjob sieht dann so aus: 
   
@@ -182,5 +180,3 @@ Jeden Tag um 3 Uhr morgens wird der Befehl ausgeführt und ein Backup erstellt.
 
 </TabItem>
 </Tabs>
-
-<InlineVoucher />

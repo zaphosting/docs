@@ -16,7 +16,7 @@ Got a Windows VPS and want to install game servers on it? For example an ARK: Su
 
 <YouTube videoId="YOz_SqsUkg4" imageSrc="https://screensaver01.zap-hosting.com/index.php/s/BF23kJKNsFQyeyX/preview" title="ARK: Survival Evolved Dedicated Server Setup on Windows VPS" description="Feel like you understand better when you see things in action? We’ve got you! Dive into our video that breaks it all down for you. Whether you're in a rush or just prefer to soak up information in the most engaging way possible!"/>
 
-<InlineVoucher />
+
 
 ## Preparation
 
@@ -93,4 +93,4 @@ At the end of the setup, you can now start the server by executing the **start-a
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/cENfRQGxK4NjM3Y/preview)
 
-<InlineVoucher />
+

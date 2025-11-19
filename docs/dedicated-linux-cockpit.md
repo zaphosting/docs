@@ -19,7 +19,7 @@ The project website can be reached at https://cockpit-project.org/.
 This guide explains the installation for Debian (from Buster)/ for Ubuntu (from Bionic Beaver). The installation is also available on the project page for fedora, Red Hat, fedora CoreOS, CentOS, Clear Linux, archlinux and Tumbleweed.   
 :::
 
-<InlineVoucher />
+
 
 ## Installation
 
@@ -38,4 +38,4 @@ The login takes place with the normal login data of the server/user.
 
 ![cockpit](https://screensaver01.zap-hosting.com/index.php/s/iobBy6s7gDJ4Zxm/preview)
 
-<InlineVoucher />
+

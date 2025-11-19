@@ -26,7 +26,7 @@ Linux server products do not include a graphical management interface by default
 | mRemoteNG  |           Windows            |     Yes      |           [Click](https://mremoteng.org/download)            |
 
 
-<InlineVoucher />
+
 
 ## IP address & access
 
@@ -122,4 +122,4 @@ For optimal use of the SSH client, it is essential to know the basic commands. I
 | ping | Check network connection | ping [OPTIONS] DESTINATION
 
 
-<InlineVoucher />
+

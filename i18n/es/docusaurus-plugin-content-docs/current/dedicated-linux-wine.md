@@ -13,11 +13,9 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Wine es una capa de compatibilidad de código abierto para Linux que permite ejecutar software originalmente desarrollado para Windows en sistemas Linux. Esto es especialmente importante para servidores dedicados de juegos que solo ofrecen archivos de servidor para Windows y puede ser un requisito previo para nuestras otras guías de servidores dedicados Linux. En esta guía, exploraremos el proceso de configuración inicial para instalar Wine en tu servidor Linux. Usaremos Ubuntu en los ejemplos, pero el proceso debería ser muy similar para otras distribuciones.
 
-<InlineVoucher />
-
 ## Preparación
 
-Para comenzar, conéctate a tu servidor dedicado vía SSH. Usa nuestra [guía de Acceso Inicial SSH](vserver-linux-ssh.md) si necesitas ayuda para hacerlo.
+Para comenzar, conéctate a tu servidor dedicado vía SSH. Usa nuestra [guía de acceso inicial SSH](vserver-linux-ssh.md) si necesitas ayuda para hacerlo.
 
 ## Instalando Wine
 
@@ -53,8 +51,6 @@ sudo apt install cabextract winbind screen xvfb
 
 ## Conclusión
 
-Ahora has configurado con éxito la capa de compatibilidad Wine, lo que te permitirá ejecutar programas de Windows en tu servidor Linux. Con este importante requisito instalado, ya puedes proceder a instalar servidores dedicados de juegos aunque estén diseñados para Windows.
+Ahora has configurado con éxito la capa de compatibilidad Wine, lo que te permitirá ejecutar programas de Windows en tu servidor Linux. Con este requisito importante instalado, puedes proceder a instalar servidores dedicados de juegos incluso si están diseñados para Windows.
 
-Te recomendamos revisar las otras guías en esta sección que cubren la instalación de juegos específicos usando SteamCMD y potencialmente Wine para archivos de servidores dedicados basados en Windows.
-
-<InlineVoucher />
+Te recomendamos revisar las otras guías en esta sección que cubren la instalación de juegos específicos mediante SteamCMD y potencialmente Wine para archivos de servidores dedicados basados en Windows.

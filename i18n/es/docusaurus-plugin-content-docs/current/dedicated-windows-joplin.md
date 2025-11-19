@@ -13,7 +13,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introducción
 
-Joplin es una aplicación open-source para tomar notas y gestionar tareas que permite organizar notas en Markdown dentro de cuadernos buscables y sincronizarlas entre dispositivos. Ofrece cifrado de extremo a extremo, un web clipper y sincronización multiplataforma. ¡Perfecto para usuarios que priorizan la privacidad, flexibilidad y control total sobre sus datos!
+Joplin es una aplicación de código abierto para tomar notas y gestionar tareas que permite organizar notas en Markdown dentro de cuadernos buscables y sincronizarlas entre dispositivos. Ofrece cifrado de extremo a extremo, un recortador web y sincronización multiplataforma. ¡Perfecto para usuarios que priorizan la privacidad, flexibilidad y control total sobre sus datos!
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/bqFberi2tRqobRn/preview)
 
@@ -21,11 +21,11 @@ Joplin es una aplicación open-source para tomar notas y gestionar tareas que pe
 
 
 
-<InlineVoucher />
 
 
 
-## Requisitos Previos
+
+## Requisitos previos
 
 Antes de instalar **Joplin**, asegúrate de que tu entorno de hosting cumple con los siguientes requisitos para garantizar una instalación fluida y un rendimiento óptimo.
 
@@ -39,9 +39,9 @@ Antes de instalar **Joplin**, asegúrate de que tu entorno de hosting cumple con
 
 
 ## Instalación
-Ahora que has cumplido con todos los requisitos y realizado las preparaciones necesarias, puedes proceder con la instalación de la aplicación Joplin. Para ello, descarga la aplicación desde la web oficial: https://joplinapp.org/download/
+Ahora que se han cumplido todos los requisitos y realizado las preparaciones necesarias, puedes proceder con la instalación de la aplicación Joplin. Para ello, descarga la aplicación desde la web oficial: https://joplinapp.org/download/
 
-Ejecuta el instalador de Joplin y sigue los pasos que se muestran.
+Ejecuta el instalador de Joplin y sigue los pasos indicados.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/sRkz7mJdB6ispSf/download)
 
@@ -49,10 +49,10 @@ Ejecuta el instalador de Joplin y sigue los pasos que se muestran.
 
 ## Configuración
 
-Después de instalar Joplin, deberías configurar los ajustes básicos para adaptar la aplicación a tu flujo de trabajo. La configuración está disponible en el menú *Configuración*.
+Después de instalar Joplin, debes configurar los ajustes básicos para adaptar la aplicación a tu flujo de trabajo. La configuración está disponible en el menú *Ajustes*.
 
 **Sincronización**  
-Joplin soporta múltiples destinos de sincronización como Nextcloud, Dropbox, OneDrive o WebDAV. Selecciona tu proveedor preferido en “Sincronización” e ingresa tus credenciales. Esto te permite mantener tus notas actualizadas en todos tus dispositivos.
+Joplin soporta múltiples destinos de sincronización como Nextcloud, Dropbox, OneDrive o WebDAV. Selecciona tu proveedor preferido en “Sincronización” e ingresa tus credenciales. Esto te permite mantener las notas actualizadas en todos tus dispositivos.
 
 **Cifrado**  
 Para proteger tus notas sincronizadas, activa el cifrado de extremo a extremo en los ajustes de “Cifrado”. Se generará una clave que deberás configurar en todos los dispositivos que accedan a tus notas.
@@ -63,7 +63,7 @@ Joplin usa Markdown para las notas. En los ajustes de “Editor” puedes defini
 **Plugins y Extensiones**  
 El gestor de plugins integrado te permite instalar funciones adicionales, como soporte para diagramas, integración de calendario o gestión avanzada de etiquetas.
 
-**Web Clipper**  
+**Recortador Web**  
 Opcionalmente, activa la extensión de navegador “Joplin Web Clipper” para guardar páginas web completas o selecciones directamente como notas.
 
 Con estos ajustes básicos, Joplin está listo para usarse en múltiples escenarios, como gestión de tareas, documentación de proyectos o bases de conocimiento personales.
@@ -73,15 +73,11 @@ Con estos ajustes básicos, Joplin está listo para usarse en múltiples escenar
 
 
 
-## Conclusión y más Recursos
+## Conclusión y más recursos
 
-¡Felicidades! Ya has instalado y configurado Joplin con éxito en tu Servidor Dedicado. También te recomendamos echar un vistazo a los siguientes recursos, que pueden ofrecerte ayuda y guía adicional durante la configuración de tu servidor.
+¡Felicidades! Ahora has instalado y configurado Joplin con éxito en tu Servidor Dedicado. También te recomendamos echar un vistazo a los siguientes recursos, que pueden ofrecerte ayuda y guía adicional durante la configuración de tu servidor.
 
 - [Joplinapp.org](https://joplin.org/) - Sitio Oficial  
 - [Joplinapp.org/help/](https://joplinapp.org/help/) - Centro de Ayuda de Joplin
 
 ¿Tienes preguntas específicas que no se abordan aquí? Para más dudas o asistencia, no dudes en contactar a nuestro equipo de soporte, ¡disponible todos los días para ayudarte! 🙂
-
-
-
-<InlineVoucher />

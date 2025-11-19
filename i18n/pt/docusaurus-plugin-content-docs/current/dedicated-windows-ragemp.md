@@ -13,13 +13,11 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Você tem um Servidor Dedicado Windows e quer instalar o serviço de servidor dedicado RageMP nele? Você está no lugar certo. Neste guia, vamos explicar o passo a passo para instalar esse serviço no seu servidor.
 
-<InlineVoucher />
-
 ## Preparação
 
-Para começar, conecte-se ao seu Servidor Dedicado via Remote Desktop (RDP). Use nosso [Guia de Acesso Inicial (RDP)](vserver-windows-userdp.md) se precisar de ajuda para fazer isso.
+Para começar, conecte-se ao seu Servidor Dedicado via Remote Desktop (RDP). Use nosso [Acesso Inicial (RDP)](vserver-windows-userdp.md) se precisar de ajuda para fazer isso.
 
-Depois de acessar seu servidor, comece instalando o [Microsoft Visual C++ Redistributable 2017](https://aka.ms/vs/15/release/VC_redist.x64.exe), pois essa é uma dependência que o RageMP exige. Certifique-se de que está instalado antes de continuar. Se não tiver certeza se já está instalado, execute o instalador e ele informará durante a instalação.
+Depois de acessar seu servidor, comece instalando o [Microsoft Visual C++ Redistributable 2017](https://aka.ms/vs/15/release/VC_redist.x64.exe), pois é um pré-requisito que o RageMP exige. Certifique-se de que está instalado antes de continuar. Se não tiver certeza se já está instalado, execute o instalador e ele informará durante a instalação.
 
 Com a dependência instalada, baixe a última versão do servidor no [Site do RageMP](https://cdn.rage.mp/public/files/RAGEMultiplayer_Setup.exe).
 
@@ -29,9 +27,9 @@ Se você já tem o RageMP instalado, pode pular para a subseção **Mudando para
 
 ## Instalação
 
-Depois de baixar a versão, execute o arquivo **RAGEMultiplayer_Setup.exe** e siga os passos da instalação. Você poderá ajustar o caminho de instalação durante o processo, o que recomendamos.
+Depois de baixar o arquivo, execute o executável **RAGEMultiplayer_Setup.exe** e siga os passos da instalação. Você poderá ajustar o caminho de instalação durante o processo, o que recomendamos.
 
-Com o RageMP instalado, execute o app **RAGE Multiplayer**, que agora deve estar disponível nos seus apps do Windows.
+Com o RageMP instalado, execute o app **RAGE Multiplayer**, que agora deve estar acessível nos seus apps do Windows.
 
 Na primeira execução, será necessário definir o caminho da pasta de instalação do GTA:V. O diretório depende do launcher que você usou para instalar o jogo e, por padrão, estará em `C:/Program Files` ou `C:/Program Files (x86)`.
 
@@ -53,13 +51,13 @@ Você pode voltar o parâmetro `channel` para `prerelease` e executar novamente 
 Você pode mover os arquivos do servidor e renomear a pasta para o que quiser, por exemplo, para sua área de trabalho. Não é obrigatório rodar isso dentro da pasta `RAGEMP`.
 :::
 
-Para iniciar o servidor, basta executar o **ragemp-server.exe** que está na pasta `server-files` ou na sua pasta do servidor, e o servidor começará a inicializar. Porém, recomendamos configurar o redirecionamento de portas e ajustar seu servidor antes.
+Para iniciar o servidor, basta executar o **ragemp-server.exe** que está dentro da pasta `server-files` ou na pasta do servidor, e o servidor começará a inicializar. Porém, recomendamos configurar o redirecionamento de portas e ajustar seu servidor antes.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/AiJWmSjsjw7bMYX/preview)
 
 ### Redirecionando portas do seu servidor
 
-Para garantir que seu servidor seja acessível ao público, você precisa configurar as regras de redirecionamento de portas para as portas usadas pelo processo do servidor dedicado. Você pode fazer isso via comandos PowerShell, que é mais fácil, ou pelo painel do Windows Defender Firewall.
+Para garantir que seu servidor seja acessível ao público, você precisa alterar as regras de redirecionamento de portas para as portas usadas pelo processo do servidor dedicado. Você pode fazer isso via comandos PowerShell, que é mais fácil, ou pelo painel do Windows Defender Firewall.
 
 :::tip
 Ao iniciar o servidor pela primeira vez, deve aparecer um prompt do UAC. Se você aceitar, as regras do firewall serão configuradas automaticamente, e poderá seguir para a próxima seção. Caso contrário, siga um dos métodos abaixo.
@@ -92,11 +90,11 @@ Esses comandos vão criar automaticamente as regras de firewall necessárias par
 
 <TabItem value="windefender" label="Via Windows Defender">
 
-Use a busca do Windows para abrir as **Configurações do Firewall do Windows com Segurança Avançada**. Pode ser que você precise clicar em **Configurações Avançadas** para abrir a janela correta, caso abra a página básica do Firewall.
+Use a busca do Windows para abrir as **Configurações do Firewall do Windows com Segurança Avançada**. Talvez precise clicar em **Configurações Avançadas** para abrir a janela correta, caso abra a página básica do Firewall.
 
 ![image](https://github.com/zaphosting/docs/assets/42719082/5fb9f943-7e51-4d8f-9df4-2f5ff60857d3)
 
-Você precisa criar novas regras para seu servidor RageMP. Para isso, clique nas regras de entrada e saída conforme descrito abaixo e adicione para os seguintes protocolos e portas:
+Você deve criar novas regras para o seu servidor RageMP. Para isso, clique nas regras de entrada e saída conforme descrito abaixo e adicione para os seguintes protocolos e portas:
 
 - TCP entrada e saída: 22005
 - UDP entrada e saída: 22005
@@ -106,17 +104,17 @@ Se precisar de ajuda, use nosso [Guia de Redirecionamento de Portas (Firewall)](
 </TabItem>
 </Tabs>
 
-Depois de adicionar essas regras, seu servidor estará acessível, ou seja, você poderá conectar nele pelo endereço IP do seu servidor.
+Depois de adicionar essas regras, seu servidor estará acessível, ou seja, você poderá conectar-se a ele pelo endereço IP do seu servidor.
 
 Recomendamos que você configure as opções do servidor antes de acessá-lo, conforme a próxima seção.
 
 ## Configuração
 
-Neste ponto, você já terminou a configuração básica do seu servidor RageMP. Pode fazer configurações adicionais via arquivo de configuração.
+Neste ponto, você já terminou a configuração inicial do seu servidor RageMP. Pode fazer configurações adicionais via arquivo de configuração.
 
 Volte para a pasta raiz. Encontre e abra o arquivo **conf.json**. Nele, você pode ajustar vários parâmetros do servidor, como porta, nome do servidor e mais.
 
-Como exemplo, aqui estão algumas opções de configuração definidas:
+Por exemplo, aqui estão algumas opções de configuração definidas:
 
 ```
 "maxplayers" : 100,
@@ -126,12 +124,10 @@ Como exemplo, aqui estão algumas opções de configuração definidas:
 
 ## Iniciando e conectando ao seu servidor
 
-Agora é hora de iniciar seu servidor. Vá até a pasta `server-files` ou sua pasta do servidor e execute o **ragemp-server.exe** para começar o processo de inicialização. Isso abrirá o console do servidor em um prompt de comando e iniciará o servidor.
+Agora é hora de iniciar seu servidor. Vá até a pasta `server-files` ou a pasta do servidor e execute **ragemp-server.exe** para começar o processo de inicialização. Isso abrirá o console do servidor em um prompt de comando e iniciará o servidor.
 
 Você poderá se conectar diretamente ao seu servidor no jogo via launcher do RageMP.
 
 ## Conclusão
 
-Parabéns, você instalou e configurou com sucesso o servidor RageMP no seu Servidor Dedicado! Se tiver mais dúvidas ou problemas, entre em contato com nosso time de suporte, que está disponível para ajudar todos os dias!
-
-<InlineVoucher />
+Parabéns, você instalou e configurou com sucesso o servidor RageMP no seu Servidor Dedicado! Se tiver dúvidas ou problemas, entre em contato com nosso time de suporte, que está disponível para ajudar todos os dias!

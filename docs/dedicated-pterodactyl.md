@@ -15,7 +15,7 @@ Pterodactyl Panel is an open source control panel designed to easily manage and 
 
 In this guide, we will explore the steps necessary to setup your own Pterodactyl instance on your server.
 
-<InlineVoucher />
+
 
 ## Preparation
 
@@ -463,4 +463,4 @@ With everything being done successfully, you should now be able to easily access
 
 You have successfully configured your webserver to enable the use of your domain and add an SSL certificate to your website.
 
-<InlineVoucher />
+

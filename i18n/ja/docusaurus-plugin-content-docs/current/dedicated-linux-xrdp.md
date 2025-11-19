@@ -11,14 +11,12 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## はじめに
 
-Linuxでは通常、SSHコンソールでサーバーを管理しますが、場合によってはWindowsのようなリモートデスクトップ接続の方が簡単なこともあります。  
+Linuxでは通常、サーバー管理にSSHコンソールがデフォルトで用意されています。でも、Windowsのようなリモートデスクトップ接続の方が楽な場合もありますよね。  
 ほとんどのLinuxディストリビューションでインストール後の設定が可能です。このガイドではUbuntuとDebianでのやり方を解説します。
 
 :::info
-重要：OSは最低でもUbuntu 18.04.X LTS（Bionic Beaver）またはDebian 10（Buster）を使用してください。より新しいバージョンを推奨します。
+重要：OSは最低でもUbuntu 18.04.X LTS（Bionic Beaver）またはDebian 10（Buster）を使ってください。より新しいバージョンを推奨します。
 :::
-
-<InlineVoucher />
 
 ## xRDPのインストール
 
@@ -59,7 +57,7 @@ sudo systemctl status xrdp
 ```
 ![xrdp](https://screensaver01.zap-hosting.com/index.php/s/wdKep3W6GHWekp3/preview)
 
-ステータスが問題なければ、ユーザーを作成し、xRDPサービスを再起動します： 
+ステータスが問題なければ、ユーザーを作成してxRDPサービスを再起動します： 
 ```
 // Debian
 sudo adduser xrdp ssl-cert; sudo systemctl restart xrdp
@@ -68,13 +66,13 @@ sudo adduser xrdp ssl-cert; sudo systemctl restart xrdp
 sudo adduser xrdp ssl-cert; sudo systemctl restart xrdp
 ```
 
-設定が完了したら、rootまたは各ユーザーのアカウントでリモートデスクトップ接続が可能になります。  
+設定が完了したら、リモートデスクトップでrootまたは各ユーザーのアカウントに接続できます。  
 デフォルトのポートは：3389
 
 ## 接続方法
 
 接続は任意のRDPツールから、IP:PORTで行います。  
-接続時にログイン情報の入力を求められます： 
+接続時にログイン情報を求められます： 
 
 ![xrdp2](https://screensaver01.zap-hosting.com/index.php/s/btRPMG73cT6ysyL/preview)
 
@@ -88,5 +86,3 @@ Ubuntu:
 Debian: 
 
 ![xrdp4](https://screensaver01.zap-hosting.com/index.php/s/riHNCEEyKcoLHDy/preview)
-
-<InlineVoucher />

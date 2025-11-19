@@ -1,7 +1,7 @@
 ---
 id: dedicated-linux-mastodon
 title: "Serwer dedykowany: Instalacja Mastodon"
-description: "Dowiedz się, jak skonfigurować bezpieczną, samodzielnie hostowaną sieć społecznościową Mastodon na serwerach opartych na Debianie, aby prowadzić niezależne mikroblogowanie → Sprawdź teraz"
+description: "Dowiedz się, jak skonfigurować bezpieczną, samodzielnie hostowaną sieć społecznościową Mastodon na serwerach opartych na Debianie, aby mieć niezależny mikroblog → Sprawdź teraz"
 sidebar_label: Instalacja Mastodon
 services:
   - dedicated
@@ -11,17 +11,15 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Wprowadzenie
 
-Mastodon to darmowe i otwarte oprogramowanie do prowadzenia samodzielnie hostowanych serwisów społecznościowych.
+Mastodon to darmowe i otwarte oprogramowanie do prowadzenia samodzielnie hostowanych usług społecznościowych.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/oNCpfBwLNB5f79P/preview)
 
-Oferuje funkcje mikroblogowania podobne do serwisu X (dawniej Twitter), które są dostępne na wielu niezależnie prowadzonych węzłach, zwanych instancjami,  
-każda z własnym regulaminem, warunkami korzystania, polityką prywatności, opcjami prywatności i zasadami moderacji.  
-:::info
-Ten poradnik skupia się na instalacji na dystrybucji opartej na Debianie. Przykładami są Debian i Ubuntu. Poradnik różni się w zależności od używanego systemu operacyjnego.
+Posiada funkcje mikroblogowania podobne do serwisu X (dawniej Twitter), oferowane przez dużą liczbę niezależnie prowadzonych węzłów, zwanych instancjami,  
+z własnym regulaminem, warunkami korzystania, polityką prywatności, opcjami prywatności i zasadami moderacji.  
+:::info  
+Ten poradnik skupia się na instalacji na dystrybucji opartej na Debianie. Przykładami są Debian i Ubuntu. Poradnik różni się w zależności od używanego systemu operacyjnego.  
 :::
-
-<InlineVoucher />
 
 ## Wymagania systemowe
 Jeśli chcesz uruchomić instancję Mastodon na swoim serwerze, musisz spełnić kilka wymagań:
@@ -31,7 +29,7 @@ Jeśli chcesz uruchomić instancję Mastodon na swoim serwerze, musisz spełnić
 
 ## Przygotowanie systemu
 Zalecamy wyłączenie logowania hasłem przez SSH, ponieważ jest to ryzyko bezpieczeństwa na serwerach dostępnych z internetu.  
-Możesz to zrobić w panelu Twojego serwera w zakładce Informacje -> Dostęp i bezpieczeństwo -> Dezaktywuj logowanie hasłem  
+Możesz to zrobić w panelu administracyjnym serwera w zakładce Informacje -> Dostęp i bezpieczeństwo -> Dezaktywuj logowanie hasłem  
 ![](https://screensaver01.zap-hosting.com/index.php/s/k6bBoxt7HJ4jqnL/preview)  
 Następnie zaktualizuj pakiety poleceniem:
 ```
@@ -49,7 +47,7 @@ wget -O /usr/share/keyrings/postgresql.asc https://www.postgresql.org/media/keys
 echo "deb [signed-by=/usr/share/keyrings/postgresql.asc] http://apt.postgresql.org/pub/repos/apt $(lsb_release -cs)-pgdg main" > /etc/apt/sources.list.d/postgresql.list
 ```
 
-Po zainstalowaniu zależności możemy zainstalować niezbędne pakiety systemowe, używając poniższych dwóch poleceń:
+Po zainstalowaniu zależności Mastodona, instalujemy niezbędne pakiety systemowe poleceniami:
 ```bash
 apt update
 apt install -y \
@@ -60,21 +58,21 @@ apt install -y \
   nginx redis-server redis-tools postgresql postgresql-contrib \
   certbot python3-certbot-nginx libidn11-dev libicu-dev libjemalloc-dev
 ```
-Poczekaj na zakończenie instalacji, co może chwilę potrwać. Następnie skonfiguruj yarn, menedżera pakietów dla Node.JS:
+Poczekaj na zakończenie instalacji, może to chwilę potrwać. Następnie konfigurujemy yarn, menedżera pakietów dla Node.JS:
 ```bash
 corepack enable
 yarn set version stable
 ```
 
 ## Instalacja Ruby
-Stworzymy osobnego użytkownika, co ułatwia zarządzanie wersjami Ruby. Najpierw utwórz użytkownika o nazwie mastodon z wyłączonym logowaniem, a potem przełącz się na niego:
+Stworzymy osobnego użytkownika, co ułatwia zarządzanie wersjami Ruby. Najpierw dodaj użytkownika o nazwie mastodon z wyłączonym logowaniem, a potem przełącz się na niego:
 ```bash
 # Możesz pozostawić pola puste
 adduser --disabled-login mastodon
 su - mastodon
 ```
 
-Teraz zainstalujemy menedżera Ruby `rbenv`, który ułatwia zarządzanie wersjami Ruby:
+Teraz instalujemy menedżera Ruby `rbenv`, który ułatwia zarządzanie wersjami Ruby:
 ```bash
 git clone https://github.com/rbenv/rbenv.git ~/.rbenv
 cd ~/.rbenv && src/configure && make -C src
@@ -83,13 +81,13 @@ echo 'eval "$(rbenv init -)"' >> ~/.bashrc
 exec bash
 git clone https://github.com/rbenv/ruby-build.git ~/.rbenv/plugins/ruby-build
 ```
-Po wykonaniu tych poleceń zainstaluj Ruby i bundler:
+Po wykonaniu tych poleceń instalujemy Ruby i bundlera:
 ```bash
 RUBY_CONFIGURE_OPTS=--with-jemalloc rbenv install 3.0.3
 rbenv global 3.0.3
 gem install bundler --no-document
 ```
-To może chwilę potrwać, więc w tym czasie możesz sobie zrobić herbatę lub kawę. Po zakończeniu wróć do użytkownika root poleceniem `exit`.
+To może chwilę potrwać, więc cierpliwości – możesz w tym czasie zrobić sobie herbatę lub kawę. Po zakończeniu wróć do użytkownika root poleceniem `exit`.
 
 ## Konfiguracja PostgreSQL
 Mastodon korzysta z PostgreSQL jako systemu bazodanowego. Skonfiguruj go tak:
@@ -124,17 +122,16 @@ Utwórz plik konfiguracyjny Mastodona:
 ```bash
 RAILS_ENV=production bundle exec rake mastodon:setup
 ```
-:::info
-Jeśli konfiguracja bazy danych się nie powiedzie, zaloguj się do postgres przez `sudo -u postgres psql` i skorzystaj z tej dokumentacji: 
+:::info  
+Jeśli konfiguracja bazy danych się nie powiedzie, zaloguj się do postgres przez `sudo -u postgres psql` i postępuj według tej dokumentacji:  
 
-https://gist.github.com/amolkhanorkar/8706915
+https://gist.github.com/amolkhanorkar/8706915  
 :::
 
 Po wszystkim wróć do użytkownika root poleceniem `exit`.
 
 ## Konfiguracja serwera WWW
-Teraz najtrudniejsza część — konfiguracja serwera WWW.  
-Najpierw utwórz rekord A i/lub AAAA w DNS, który będzie wskazywał bezpośrednio na Twój serwer. Alternatywnie możesz skierować rekord root na serwer.
+Teraz najtrudniejsza część – konfiguracja serwera WWW. Najpierw utwórz rekord A i/lub AAAA w DNS, kierujący bezpośrednio na Twój serwer. Alternatywnie możesz skierować rekord root domeny na serwer.
 
 Następnie skopiuj i aktywuj konfigurację serwera Mastodon:
 ```bash
@@ -142,15 +139,15 @@ cp /home/mastodon/live/dist/nginx.conf /etc/nginx/sites-available/mastodon
 ln -s /etc/nginx/sites-available/mastodon /etc/nginx/sites-enabled/mastodon
 ```
 
-Edytuj plik `/etc/nginx/sites-available/mastodon` w edytorze tekstu (vim lub nano) i zamień example.com na swoją domenę.  
-Teraz zdobądź certyfikat SSL dla swojej domeny poleceniem:
+Edytuj plik `/etc/nginx/sites-available/mastodon` w edytorze (vim lub nano) i zmień example.com na swoją domenę.  
+Teraz zdobądź certyfikat SSL dla domeny poleceniem:
 ```bash
 certbot --nginx -d <twoja domena>
 ```
-Podaj swoją domenę. Zostaniesz poproszony o kilka danych. Na końcu zapyta, czy chcesz automatycznie przekierować ruch HTTP na HTTPS — zalecamy to włączyć.
+Podaj swoją domenę. Zostaniesz poproszony o kilka danych. Na końcu zapyta, czy chcesz automatycznie przekierowywać ruch HTTP na HTTPS – zdecydowanie polecamy to włączyć.
 
 ## Tworzenie usługi Mastodon
-Na koniec utworzymy usługę systemową Mastodon. To proste.  
+Na koniec utwórz usługę systemową Mastodon. To proste:  
 Skopiuj domyślną konfigurację usługi do katalogu usług systemowych:
 ```sh
 cp /home/mastodon/live/dist/mastodon-*.service /etc/systemd/system/
@@ -163,5 +160,3 @@ systemctl enable --now mastodon-web mastodon-sidekiq mastodon-streaming
 ```
 
 Po restarcie serwera instalacja powinna być zakończona. Miłej zabawy z Twoją instancją!
-
-<InlineVoucher />

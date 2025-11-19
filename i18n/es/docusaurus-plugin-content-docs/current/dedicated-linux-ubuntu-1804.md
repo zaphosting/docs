@@ -1,6 +1,6 @@
 ---
 id: dedicated-linux-ubuntu-1804
-title: "Servidor dedicado: Instalación de Ubuntu 18.04"
+title: "Servidor Dedicado: Instalación de Ubuntu 18.04"
 description: "Descubre cómo instalar y configurar Ubuntu en tu servidor dedicado para un rendimiento óptimo y soporte a largo plazo → Aprende más ahora"
 sidebar_label: Ubuntu 18.04
 services:
@@ -15,9 +15,9 @@ A continuación te explicamos paso a paso cómo instalar y configurar el sistema
 
 
 
-:::warning Versión más reciente disponible / Detalles EOL
+:::warning Versión más reciente disponible / detalles de EOL
 
-La versión más reciente de Ubuntu es la [24.04](dedicated-linux-ubuntu.md). Recomendamos usar la última versión para proyectos a largo plazo.
+La última versión de Ubuntu es la [24.04](dedicated-linux-ubuntu.md). Recomendamos usar la versión más reciente para proyectos a largo plazo.
 
 El soporte para versiones antiguas de Ubuntu se descontinuará tarde o temprano. Las fechas límite para la versión 18.04 son:
 
@@ -29,23 +29,23 @@ Más información en la [web oficial](https://ubuntu.com/about/release-cycle).
 :::
 
 
-<InlineVoucher />
+
 
 ## Preparación
 
-Para la instalación y configuración de un sistema operativo, es importante montar inicialmente el ISO correspondiente. Hay varias formas de montarlo:
+Para la instalación y configuración de un sistema operativo, es importante montar inicialmente el ISO correspondiente. Hay varias formas posibles de montarlo:
 
 1. Montaje vía configuración inicial
 2. Montaje vía iLO (Medios Virtuales)
 3. Montaje vía iLO (Consola Remota)
 
-Si aún no estás familiarizado con montar un archivo ISO, lo mejor es consultar nuestra [configuración inicial](dedicated-setup.md) o la [guía de ISO propia](dedicated-iso.md).
+Si aún no estás familiarizado con montar un archivo ISO, lo mejor es consultar nuestra [Configuración inicial](dedicated-setup.md) o la [Guía de ISO propia](dedicated-iso.md).
 
 
 
 ## Instalación
 
-Una vez que el ISO esté montado y cargado correctamente, el servidor debería iniciar el proceso de instalación. Al principio se define el idioma que quieres usar para tu sistema operativo. Selecciona uno de los idiomas disponibles y confirma con la tecla `Enter`. 
+Una vez que el ISO se haya montado y cargado correctamente, el servidor debería iniciar el proceso de instalación. Al principio del setup se define el idioma que quieres usar para tu SO. Selecciona uno de los idiomas disponibles y confirma con la tecla `Enter`. 
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/yrHMNzstM23XZH6/preview)
 
@@ -61,7 +61,7 @@ Opcionalmente, puedes configurar un proxy adicional. Esto no es obligatorio, as�
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/tz97Ee8ZQkxAGGb/preview)
 
-Ahora se define el espejo del archivo de Ubuntu (servidor de descarga de paquetes). Nuestros servidores dedicados están en Alemania, por lo que recomendamos elegir el espejo alemán para obtener la mejor velocidad de descarga.
+Ahora se define el espejo del archivo de Ubuntu (servidor de descarga de paquetes). Nuestros servidores dedicados están en Alemania, por lo que recomendamos elegir el espejo alemán para obtener la mejor velocidad de descarga posible.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/xNknNyWAbd5DnsZ/preview)
 
@@ -69,7 +69,7 @@ En la configuración de almacenamiento puedes definir las particiones. Puedes us
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/2dJ9oeMGjpWn6cZ/preview)
 
-El instalador crea automáticamente los volúmenes y puedes continuar eligiendo la opción `Hecho`.
+El setup crea automáticamente los volúmenes y puedes continuar eligiendo la opción `Hecho`.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/WXfzt57Rtm2SQLD/preview)
 
@@ -77,15 +77,20 @@ Antes de iniciar el proceso, se te informará que se borrarán todos los datos e
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/L3YcGNbYWpMmaDj/preview)
 
-Configura tu cuenta de usuario a tu gusto; también puedes usar la cuenta root al final cambiando la contraseña. Navega por las opciones con tab o las flechas. Cuando termines, marca `Hecho`.
+Configura tu cuenta de usuario a tu gusto; también puedes usar la cuenta root al final cambiando la contraseña.
+Puedes navegar por las opciones con tab o las flechas. Cuando termines, continúa marcando `Hecho`.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/mqrjmF2ZmA2Qj9z/preview)
 
-La instalación del servicio SSH es recomendable. Si quieres gestionar el servidor vía SSH, selecciona la opción para instalarlo y confirma.
+
+
+
+
+Se recomienda instalar la configuración SSH. Si quieres gestionar el servidor vía SSH, selecciona la opción para instalarlo y confirma.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/Xz3zzMdZ6C523ip/preview)
 
-Ubuntu ofrece algunos snaps por defecto; si quieres usar algunos, márcalos.
+Ubuntu ofrece algunos snaps por defecto, si quieres usar algunos, simplemente márcalos.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/wcGiSwX935jXeex/preview)
 
@@ -111,11 +116,7 @@ Puedes cambiar fácilmente la contraseña del usuario root. Ejecuta `sudo su` e 
 
 ## Conclusión
 
-¡Felicidades! Has instalado con éxito Ubuntu 18.04 en tu servidor dedicado. Si tienes más preguntas o necesitas ayuda, no dudes en contactar a nuestro equipo de soporte, disponible todos los días para ayudarte 🙂
+¡Felicidades! Has instalado con éxito Ubuntu 18.04 en tu servidor dedicado. Para cualquier duda o ayuda, no dudes en contactar a nuestro equipo de soporte, disponible todos los días para asistirte 🙂
 
 
 
-
-
-
-<InlineVoucher />

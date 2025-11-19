@@ -1,7 +1,7 @@
 ---
 id: dedicated-linux-avorion
 title: "専用サーバー: Avorion 専用サーバー Linux セットアップ"
-description: "Linux VPS に Avorion 専用サーバーをインストール＆設定して、スムーズにゲームサーバーをホスティングしよう → 今すぐ詳しく見る"
+description: "Linux VPS に Avorion 専用サーバーをインストール＆設定して、スムーズにゲームサーバーを運用しよう → 今すぐチェック"
 sidebar_label: Avorion
 services:
   - dedicated
@@ -11,13 +11,11 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## はじめに
 
-Linux VPS を持っていて、そこに Avorion 専用サーバーをインストールしたい？それならここがピッタリ。この記事では、SteamCMD を使って Linux サーバーにこのサービスをインストールする手順をステップバイステップで解説するよ。例では Ubuntu を使ってるけど、他のディストリビューションでもほぼ同じ流れだよ。
+Linux VPS を持っていて、そこに Avorion 専用サーバーをインストールしたい？それならここがピッタリ！このガイドでは、SteamCMD を使って Linux サーバーにこのサービスをインストールする手順をステップバイステップで解説するよ。例では Ubuntu を使ってるけど、他のディストリビューションでもほぼ同じ流れだよ。
 
 :::tip
-知ってた？**ZAP GS/TS3 インターフェース**を VPS に直接インストールできて、ZAP-Hosting のダッシュボードと直結したゲームサーバーサービスを数クリックでセットアップできるんだ！詳しくは[GS/TS3 インターフェース](dedicated-linux-gs-interface.md)をチェックしてね。
+知ってた？**ZAP GS/TS3 インターフェース**を VPS に直接インストールできて、ZAP-Hosting のダッシュボードと直結したゲームサーバーサービスを数クリックでセットアップできちゃうんだ！詳しくは[GS/TS3 インターフェース](dedicated-linux-gs-interface.md)をチェックしてね。
 :::
-
-<InlineVoucher />
 
 ## 準備
 
@@ -33,29 +31,29 @@ sudo -u steam -s
 cd ~
 ```
 
-ログインできたら、以下のコマンドで SteamCMD を使って簡単にインストールを開始できるよ。`steam` ユーザーに直接インストールされるから安心してね。
+ログインできたら、以下のコマンドで SteamCMD を使って簡単にインストールを始められるよ。`steam` ユーザーのまま実行してね。
 ```
 steamcmd +force_install_dir '/home/steam/Avorion-Server' +login anonymous +app_update 565060 validate +quit
 ```
 
-ダウンロードが完了するまで気長に待とう。ゲームサイズが大きいと時間がかかることもあるよ。成功すると完了メッセージが表示されるから確認してね。
+ダウンロードが完了するまで気長に待とう。ゲームサイズが大きいと時間がかかることもあるよ。成功すると完了メッセージが表示されるから安心してね。
 
 ## 設定
 
 ここまでで Avorion サーバーのセットアップは完了。サーバー設定は、先ほどコピーした **startserver.sh** ファイルを直接編集して行うよ。`nano /home/steam/Avorion-Server/startserver.sh` で開いて、サーバーのパラメータを調整しよう。
 
-また、各銀河のセーブデータにある **server.ini** 設定ファイルを編集すれば、ワールド固有の設定も変更できるよ。これはユーザーのホームフォルダ（通常は `steam`）に保存されているから、以下のコマンドで管理しよう。
+また、各銀河のセーブデータにある **server.ini** 設定ファイルを編集すれば、ワールド固有の設定も変更できるよ。このファイルはユーザーのホームフォルダ（通常は `steam`）内に保存されている。以下のコマンドで管理しよう。
 ```
 # 現在のセーブデータを確認
 ls /home/steam/.avorion/galaxies
 
-# セーブ設定を編集
+# セーブデータの設定を編集
 nano /home/steam/.avorion/galaxies/avorion_galaxy/server.ini
 ```
 
 ## サーバーの起動＆接続
 
-いよいよサーバーを起動しよう。メインのゲームディレクトリに移動して、例としてあるバッチファイルのコピーを作るのがおすすめ。
+いよいよサーバーを起動しよう。メインのゲームディレクトリに移動して、例のバッチファイルをコピーするのがおすすめ。
 ```
 cp /home/steam/Avorion-Server/server.sh /home/steam/Avorion-Server/startserver.sh
 ```
@@ -65,12 +63,10 @@ cp /home/steam/Avorion-Server/server.sh /home/steam/Avorion-Server/startserver.s
 /home/steam/Avorion-Server/startserver.sh
 ```
 
-コマンドプロンプトにログが表示されれば起動成功のサイン。初回起動はセットアップに時間がかかることがあるけど、準備が整うとコンソールに `Server startup complete.` と表示されるよ。あとはゲーム内のサーバーブラウザから、サーバーの IP アドレスとポート（デフォルトは 27000）を入力して接続できるよ。
+コマンドプロンプトにログが表示されれば起動成功のサイン。初回起動はセットアップに時間がかかることがあるけど、準備が整うとコンソールに `Server startup complete.` と表示されるよ。これでゲーム内のサーバーブラウザから、サーバーの IP アドレスとポート（デフォルトは 27000）を入力して直接接続できるようになる。
 
 ## まとめ
 
-おめでとう！VPS に Avorion サーバーを無事インストール＆設定できたね！次のステップとしては、[Linux サービスのセットアップ](dedicated-linux-create-gameservice.md)ガイドを見て、専用ゲームサーバーをサービスとして登録する方法を学ぶのがおすすめ。これで自動起動や自動アップデート、ログ管理などが超ラクになるよ！
+おめでとう！VPS に Avorion サーバーを無事インストール＆設定できたね！次のステップとしては、[Linux サービスのセットアップ](dedicated-linux-create-gameservice.md)ガイドを見て、専用ゲームサーバーをサービス化する方法をチェックしよう。これで自動起動や自動アップデート、ログ管理などが超ラクになるよ！
 
 もし何か質問やトラブルがあれば、いつでもサポートチームに連絡してね。毎日みんなのサポートを待ってるよ！
-
-<InlineVoucher />

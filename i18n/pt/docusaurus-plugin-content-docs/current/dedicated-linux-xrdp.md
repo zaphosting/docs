@@ -1,7 +1,7 @@
 ---
 id: dedicated-linux-xrdp
 title: "Servidor Dedicado: Instalação do xRDP (Área de Trabalho Remota)"
-description: "Descubra como configurar o acesso remoto via área de trabalho em servidores Ubuntu e Debian para facilitar o gerenciamento e controle → Saiba mais agora"
+description: "Descubra como configurar acesso remoto via área de trabalho em servidores Ubuntu e Debian para facilitar o gerenciamento e controle → Saiba mais agora"
 sidebar_label: Instalar xRDP
 services:
   - dedicated
@@ -12,13 +12,11 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 ## Introdução
 
 No Linux, geralmente existe um console SSH padrão para gerenciar o servidor. Em alguns casos, pode ser mais fácil usar uma conexão de área de trabalho remota, parecida com o Windows.  
-É possível fazer uma pós-instalação para a maioria das distribuições Linux. Neste guia, explicamos como fazer isso no Ubuntu e Debian.
+Uma pós-instalação é possível para a maioria das distros Linux. Neste guia, isso é explicado para Ubuntu e Debian.
 
 :::info
-Importante: Deve ser usado pelo menos o Ubuntu 18.04.X LTS (Bionic Beaver) ou Debian 10 (Buster) como sistema operacional. Versões mais recentes são recomendadas.
+Importante: Deve ser usado pelo menos Ubuntu 18.04.X LTS (Bionic Beaver) ou Debian 10 (Buster) como sistema operacional. Versões mais recentes são recomendadas.
 :::
-
-<InlineVoucher />
 
 ## Instalando o xRDP
 
@@ -59,7 +57,7 @@ sudo systemctl status xrdp
 ```
 ![xrdp](https://screensaver01.zap-hosting.com/index.php/s/wdKep3W6GHWekp3/preview)
 
-Se o status estiver ok, ainda é necessário criar um usuário. Depois, o serviço xRDP precisa ser reiniciado: 
+Se o status estiver ok, ainda é preciso criar um usuário. Depois, o serviço xRDP deve ser reiniciado: 
 ```
 // Debian
 sudo adduser xrdp ssl-cert; sudo systemctl restart xrdp
@@ -68,7 +66,7 @@ sudo adduser xrdp ssl-cert; sudo systemctl restart xrdp
 sudo adduser xrdp ssl-cert; sudo systemctl restart xrdp
 ```
 
-Ao finalizar a configuração, você pode se conectar ao root ou aos dados do usuário respectivo do servidor via Área de Trabalho Remota.  
+Ao finalizar a configuração, você pode se conectar ao root ou ao respectivo usuário do servidor via Área de Trabalho Remota.  
 A porta padrão é: 3389
 
 ## Conexão
@@ -78,8 +76,8 @@ Ao conectar, será solicitado o login:
 
 ![xrdp2](https://screensaver01.zap-hosting.com/index.php/s/btRPMG73cT6ysyL/preview)
 
-Após o login bem-sucedido, você verá a área de trabalho.  
-No Ubuntu, a interface é um pouco diferente do Debian:
+Após o login com sucesso, você verá a área de trabalho.  
+No Ubuntu, a aparência é um pouco diferente do Debian:
 
 Ubuntu: 
 
@@ -88,5 +86,3 @@ Ubuntu:
 Debian: 
 
 ![xrdp4](https://screensaver01.zap-hosting.com/index.php/s/riHNCEEyKcoLHDy/preview)
-
-<InlineVoucher />

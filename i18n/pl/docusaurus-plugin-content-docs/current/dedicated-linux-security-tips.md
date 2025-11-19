@@ -1,8 +1,8 @@
 ---
 id: dedicated-linux-security-tips
-title: "Serwer dedykowany: Poradnik bezpieczeństwa Linux"
+title: "Serwer dedykowany: Porady dotyczące bezpieczeństwa Linux"
 description: "Dowiedz się, jak zwiększyć bezpieczeństwo swojego serwera Linux dzięki niezbędnym wskazówkom, które zapobiegną nieautoryzowanemu dostępowi i ochronią Twoje usługi → Sprawdź teraz"
-sidebar_label: Poradnik bezpieczeństwa
+sidebar_label: Porady dotyczące bezpieczeństwa
 services:
   - dedicated
 ---
@@ -11,21 +11,19 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Wprowadzenie
 
-Ten poradnik zawiera kilka wskazówek i porad, jak uczynić Twój serwer Linux bardziej bezpiecznym. Zwłaszcza, że serwery muszą być dostępne z zewnątrz, podstawowa ochrona przed niechcianym dostępem jest zdecydowanie zalecana i nie powinna być pomijana.
+Ten poradnik zawiera kilka wskazówek i porad, jak uczynić Twój serwer Linux bardziej bezpiecznym. Zwłaszcza że serwery muszą być dostępne z zewnątrz, podstawowa ochrona przed niechcianym dostępem jest zdecydowanie zalecana i nie powinna być pomijana.
 
 :::info
 Pamiętaj, że te instrukcje nie są wyczerpujące, a bardziej szczegółowe informacje znajdziesz w innych sekcjach dokumentacji ZAP. (np. [2FA (SSH)](vserver-linux-ssh2fa.md))
 :::
 
 :::tip
-Najprostszy sposób na zabezpieczenie serwera jest zawsze taki sam, niezależnie od serwera: używaj bezpiecznych haseł, regularnie aktualizuj swoje usługi i ogólnie zwracaj uwagę, które usługi instalujesz i jakich poradników przestrzegasz.
+Najprostszy sposób na zabezpieczenie serwera jest zawsze taki sam, niezależnie od serwera: używaj bezpiecznych haseł, regularnie aktualizuj swoje usługi i ogólnie zwracaj uwagę, które usługi instalujesz oraz jakich poradników używasz.
 :::
 
-<InlineVoucher />
+## Zabezpieczanie SSH
 
-## Zabezpieczenie SSH
-
-SSH (Secure Shell) to usługa, która pozwala na zdalny dostęp do konsoli serwera w celu wykonywania poleceń. Tutaj dowiesz się, jak skonfigurować SSH na swoim serwerze: [Pierwszy dostęp (SSH)](vserver-linux-ssh.md)
+SSH (Secure Shell) to usługa, która pozwala na zdalny dostęp do konsoli serwera w celu wykonywania poleceń. Tutaj zobaczysz, jak skonfigurować SSH na swoim serwerze: [Początkowy dostęp (SSH)](vserver-linux-ssh.md)
 
 Domyślnie do SSH używane jest logowanie na hasło. Ma to jednak dużą wadę – uwierzytelnianie można stosunkowo łatwo obejść atakiem brute force, zwłaszcza jeśli używasz zbyt prostego hasła do logowania SSH. Jeśli więc zdecydujesz się na rozwiązanie z hasłem, używaj **bezpiecznego** hasła.
 
@@ -42,7 +40,7 @@ Aby jeszcze lepiej chronić serwer przed niechcianym dostępem SSH, powinieneś 
 | HTTP   | 80   |
 | HTTPS  | 443  |
 
-Usługi takie jak SSH czy FTP domyślnie korzystają z tych samych portów (niektóre z nich wymienione są powyżej). Jeśli złośliwy aktor z zewnątrz chce przeprowadzić atak brute force na usługę SSH Twojego serwera, najpierw musi wiedzieć, na którym porcie jest dostęp do SSH. Jeśli nie zmienisz tych portów, to porty 22 i 21 są zwykle celem do wykonywania poleceń bezpośrednio na serwerze lub dostępu do plików przez FTP.
+Usługi takie jak SSH czy FTP domyślnie korzystają z tych samych portów (niektóre z nich wymienione są w tabeli powyżej). Jeśli zewnętrzny atakujący chce przeprowadzić brute force na usłudze SSH Twojego serwera, najpierw musi znać port, na którym działa SSH. Jeśli nie zmienisz tych portów, to porty 22 i 21 są zwykle celem do wykonywania poleceń bezpośrednio na serwerze lub dostępu do plików przez FTP.
 
 Aby temu zapobiec, zalecamy ustawienie portów standardowych usług na niestandardowe. W kolejnej części poradnika dowiesz się, jak to zrobić:
 
@@ -53,12 +51,12 @@ Możesz użyć `cat /etc/services`, aby wyświetlić standardowe porty i unikną
 
 ### Port SSH
 
-Aby zmienić port SSH, musisz edytować plik konfiguracyjny. Domyślnie znajduje się on w `/etc/ssh/sshd_config`, ale jeśli go tam nie ma, możesz go znaleźć poleceniem:
+Aby zmienić port SSH, musisz zmodyfikować plik konfiguracyjny. Domyślnie znajduje się on w `/etc/ssh/sshd_config`, ale jeśli tam go nie ma, możesz go znaleźć poleceniem:
 ```
 find / -name "sshd_config" 2>/dev/null
 ```
 
-Otwórz plik za pomocą nano (jako root lub z *sudo*).
+Teraz otwórz plik za pomocą nano (jako root lub z *sudo*).
 ```
 sudo nano /etc/ssh/sshd_config
 ```
@@ -83,7 +81,7 @@ find / -name "proftpd.conf" 2>/dev/null
 ```
 
 Plik zwykle znajduje się w `/etc/proftpd.conf` (CentOS) lub `/etc/proftpd/proftpd.conf` (Ubuntu, Debian).
-Otwórz plik nano i usuń "#" przed `port`, wpisując swój port. Pamiętaj o powyższych wskazówkach, by nie wybrać nieprawidłowego portu.
+Otwórz plik w nano, usuń "#" przed `port` i wpisz swój port. Pamiętaj o powyższych wskazówkach, by nie wybrać nieprawidłowego portu.
 
 :::tip
 W nano użyj Ctrl + W, aby wyszukać.
@@ -98,7 +96,7 @@ nano /etc/proftpd/proftpd.conf
 
 Zasada zewnętrznej dostępności serwera jest zawsze taka sama: port musi być otwarty, aby serwer był dostępny z zewnątrz. W przypadku SSH jest to **domyślnie** port 22/TCP. (patrz wyżej, jak zmienić domyślny port)
 
-Problem polega na tym, że ten port jest teraz dostępny dla każdego, bez względu na osobę, lokalizację i intencje. To poważna luka bezpieczeństwa, bo złośliwi aktorzy mogą zalewać serwer próbami logowania, by poznać prawidłowe hasło (przez atak brute force, jeśli logowanie na hasło jest włączone) lub próbować przeciążyć sieć serwera (np. DDoS).
+Problem w tym, że ten port jest teraz dostępny dla każdego, bez względu na osobę, lokalizację i intencje. To poważna luka bezpieczeństwa, bo złośliwi aktorzy mogą zalewać serwer próbami logowania, by odgadnąć hasło (atak brute force, jeśli logowanie na hasło jest włączone) lub próbować przeciążyć sieć serwera (np. atak DDoS).
 
 Aby ograniczyć te zagrożenia, możesz zastosować reguły zapory sieciowej, które ograniczą dostęp do otwartych portów.
 
@@ -110,15 +108,15 @@ Wybór należy do Ciebie. W zależności od potrzeb możesz potrzebować elastyc
 
 ### IPTables
 
-W tej sekcji użyjesz IPTables, by stworzyć reguły ograniczające liczbę prób połączeń. Wyjaśnienia poleceń znajdziesz pod blokiem kodu.
+W tej sekcji użyjesz IPTables, aby stworzyć reguły ograniczające liczbę prób połączeń. Wyjaśnienia do poleceń znajdziesz pod blokiem kodu.
 
-Pamiętaj, że ta reguła działa tylko dla **portu 22** (wartość po `--dport`), a polecenia dla innych usług trzeba dostosować.
+Pamiętaj, że reguła dotyczy tylko **portu 22** (wartość po `--dport`), a dla innych usług trzeba by ją dostosować.
 
 :::note
 Poniższe polecenia mogą nie działać na każdej dystrybucji Linuxa, ale na większości popularnych działają bez problemu.
 :::
 
-Zaloguj się na serwer Linux. Jeśli potrzebujesz pomocy, skorzystaj z naszego poradnika [Pierwszy dostęp (SSH)](vserver-linux-ssh.md). Następnie wykonaj poniższe polecenia w podanej kolejności.
+Zaloguj się na swój serwer Linux. Jeśli potrzebujesz pomocy, skorzystaj z naszego poradnika [Początkowy dostęp (SSH)](vserver-linux-ssh.md). Następnie wykonaj poniższe polecenia w podanej kolejności.
 
 ```
 iptables -A INPUT -p tcp --syn --dport 22 -m connlimit --connlimit-above 2 --connlimit-mask 32 -j DROP
@@ -132,21 +130,21 @@ iptables -A INPUT -p tcp --dport 22 -m state --state NEW -m recent --update --se
 
 ### UFW
 
-Jak wyżej, UFW to "prostszy" interfejs do IPTables. Najpierw trzeba zainstalować UFW, bo nie jest domyślnie dostępny we wszystkich dystrybucjach. Polecenia wykonuj jako root lub z *sudo*.
+Jak wyżej, UFW to prostszy interfejs do IPTables. Najpierw trzeba zainstalować UFW, bo nie jest domyślnie dostępny we wszystkich dystrybucjach. Polecenia wykonuj jako root lub z *sudo*.
 
-Zaloguj się na serwer Linux. Jeśli potrzebujesz pomocy, skorzystaj z poradnika [Pierwszy dostęp (SSH)](vserver-linux-ssh.md). Instrukcje testowaliśmy na Debianie i Ubuntu, ale powinny działać na innych dystrybucjach.
+Zaloguj się na serwer (pomoc w [Początkowy dostęp (SSH)](vserver-linux-ssh.md)). Instrukcje testowaliśmy na Debianie i Ubuntu, ale powinny działać na innych dystrybucjach.
 
-Najpierw zaktualizuj repozytoria i pakiety.
+Najpierw zaktualizuj repozytoria i pakiety:
 ```
 sudo apt update && sudo apt upgrade -y
 ```
 
-Zainstaluj UFW przez apt.
+Zainstaluj UFW:
 ```
 sudo apt install ufw -y
 ```
 
-Sprawdź, czy instalacja się powiodła.
+Sprawdź, czy instalacja się powiodła:
 ```
 sudo ufw status
 > Firewall not loaded
@@ -165,7 +163,7 @@ sudo ufw enable
 sudo ufw status
 ```
 
-Poprawny wynik powinien wyglądać tak:
+Poprawny wynik powinien wyglądać mniej więcej tak:
 ```
 Status: active
   
@@ -175,7 +173,7 @@ To Action From
 22/tcp (v6) ALLOW Anywhere (v6)
 ```
 
-Teraz ogranicz połączenia do 6 na minutę:
+Teraz ogranicz liczbę połączeń do 6 na minutę:
 ```
 ufw limit 22/tcp
 ```
@@ -185,12 +183,12 @@ UFW pozwala ograniczyć liczbę połączeń tylko do 6 na minutę. Limiter UFW j
 :::
 
 :::tip
-Zapora (IPTables lub UFW) może tylko "bezmyślnie" liczyć próby połączeń i je blokować. Z Fail2Ban możesz analizować logi pod kątem anomalii. W następnej sekcji dowiesz się, jak zainstalować i aktywować Fail2Ban.
+Zapora (IPTables lub UFW) może tylko "bezmyślnie" liczyć próby połączeń i je blokować. Fail2Ban pozwala analizować logi pod kątem anomalii. W następnej sekcji dowiesz się, jak zainstalować i uruchomić Fail2Ban.
 :::
 
 ## Dodatkowe zabezpieczenia z Fail2Ban
 
-Fail2Ban to usługa, która blokuje adresy IP, które próbują łączyć się z serwerem z prawdopodobnie złośliwymi intencjami. Monitoruje logi pod kątem anomalii i skutecznie zabezpiecza system w prosty sposób.
+Fail2Ban to usługa, która blokuje adresy IP, które próbują łączyć się z serwerem z prawdopodobnie złośliwymi intencjami. Monitoruje logi pod kątem anomalii i w ten sposób skutecznie zabezpiecza system w prosty sposób.
 
 Po instalacji Fail2Ban ma gotowe konfiguracje dla popularnych usług, m.in.:
 - apache
@@ -208,11 +206,11 @@ Widzisz wpis:
 ```
 Dec 2 12:59:19 vps-zap515723-2 sshd[364126]: Failed password for root from 92.117.xxx.xxx port 52504 ssh2
 ```
-Fail2Ban monitoruje ten plik i wykrywa nieudane próby logowania. Ponieważ log zawiera adres IP atakującego, Fail2Ban może zablokować ten adres po kilku nieudanych próbach.
+Fail2Ban monitoruje ten plik i wykrywa nieudane próby logowania. Ponieważ log zawiera adres IP atakującego, Fail2Ban może po kilku nieudanych próbach zablokować ten adres.
 
 ### Instalacja Fail2Ban
 
-Zaloguj się na serwer Linux. Jeśli potrzebujesz pomocy, skorzystaj z poradnika [Pierwszy dostęp (SSH)](vserver-linux-ssh.md). Polecenia wykonuj jako root lub z *sudo*.
+Zaloguj się na serwer (pomoc w [Początkowy dostęp (SSH)](vserver-linux-ssh.md)). Polecenia wykonuj jako root lub z *sudo*.
 
 ```
 sudo apt update && sudo apt upgrade -y
@@ -239,7 +237,7 @@ Dec 02 13:10:34 vps-zap515723-1 fail2ban-server[23989]: Server ready
 
 ### Konfiguracja Fail2Ban
 
-Fail2Ban jest zainstalowany, ale jeszcze nieaktywny i nie skonfigurowany. W katalogu `/etc/fail2ban` znajdziesz pliki:
+Fail2Ban jest zainstalowany, ale jeszcze nie aktywny ani skonfigurowany. W katalogu `/etc/fail2ban` znajdziesz pliki:
 ```
 action.d fail2ban.d jail.conf paths-arch.conf paths-debian.conf
 fail2ban.conf filter.d jail.d paths-common.conf paths-opensuse.conf
@@ -250,10 +248,10 @@ sudo cp /etc/fail2ban/jail.conf /etc/fail2ban/jail.local
 sudo nano /etc/fail2ban/jail.local
 ```
 
-W pliku `jail.local` możesz ustawić wszystkie opcje, w tym usługi do monitorowania.
-Skup się na sekcji `[Default]`, gdzie definiuje się ustawienia domyślne.
+W pliku `jail.local` możesz teraz ustawić wszystkie opcje, w tym usługi do monitorowania.
+Skup się na sekcji `[Default]` – to ustawienia domyślne.
 
-Znajdź fragment i zmodyfikuj tak:
+Znajdź i zmodyfikuj ten fragment tak, np.:
 
 | Atrybut      | Wyjaśnienie                                                               | Wartość     |
 |--------------|---------------------------------------------------------------------------|-------------|
@@ -264,7 +262,7 @@ Znajdź fragment i zmodyfikuj tak:
 | maxretry     | Liczba nieudanych prób, po której następuje blokada                      | 5           |
 
 ```
-# można definiować z separatorem spacji (lub przecinka)
+# można definiować za pomocą spacji (lub przecinka).
 #ignoreip = 127.0.0.1/8 ::1
 
 # ignorecommand = /path/to/command <ip>
@@ -281,7 +279,7 @@ findtime  = 10m
 maxretry = 5
 ```
 
-Ustawienia domyślne są gotowe. Aby monitorować usługę SSH, przewiń do sekcji `[sshd]`. Jeśli zmieniłeś port, wpisz go pod `port`.
+Ustawienia domyślne masz gotowe. Aby monitorować usługę SSH, przewiń dalej do sekcji `[sshd]`. Jeśli zmieniłeś port, wpisz go pod `port`.
 
 Sekcja `[sshd]` powinna wyglądać tak:
 ```
@@ -297,14 +295,14 @@ maxretry = 4
 Jak widzisz, można ustawić indywidualne opcje dla każdej usługi (tu `maxretry` jest niższe niż domyślne). Jeśli nie zmienisz, użyte zostaną ustawienia domyślne.
 :::
 
-Na koniec zrestartuj Fail2Ban, by zaczął działać.
+Teraz wystarczy zrestartować Fail2Ban, aby zaczął działać.
 ```
 sudo systemctl restart fail2ban.service
 ```
 
 ### Sprawdzenie działania Fail2Ban
 
-Jeśli masz dostęp do VPN lub drugiego serwera, możesz spróbować zablokować się Fail2Ban, by sprawdzić, czy działa. VPN lub hotspot z telefonu dadzą Ci inny adres IP, co pozwoli na test.
+Jeśli masz dostęp do VPN lub drugiego serwera, możesz spróbować zablokować się samemu, by sprawdzić, czy Fail2Ban działa. VPN lub hotspot z telefonu dadzą Ci inny adres IP, co pozwoli na test.
 
 :::danger
 Nie testuj tego na swojej normalnej sieci, bo możesz zablokować własny adres IP i **stracisz dostęp**.
@@ -331,7 +329,7 @@ ssh: connect to host 185.223.29.xxx port 22: Connection refused
 
 Jak widzisz, połączenie jest odrzucane (`Connection refused` zamiast `Permission denied`).
 
-Sprawdź status Fail2Ban. Widać, że adres IP został zablokowany.
+Sprawdź status Fail2Ban. Zobaczysz, że adres IP jest zablokowany.
 ```
 fail2ban-client status sshd
 Status for the jail: sshd
@@ -361,40 +359,38 @@ logpath = /var/log/auth.log
 maxretry = 4
 
 bantime = 1h
-#Czas blokady rośnie z każdą kolejną blokadą tego IP
+# Czas blokady rośnie z każdą kolejną blokadą tego IP
 bantime.increment = true
-#Współczynnik skalowania 24 godziny (1h,24h,48h,3d,4d....)
+# Współczynnik skalowania 24 godziny (1h,24h,48h,3d,4d....)
 bantime.factor = 24
-#Maksymalny czas blokady = 5 tygodni
+# Maksymalny czas blokady = 5 tygodni
 bantime.maxtime = 5w
 ```
 
-## Zabezpieczenie serwerów WWW za pomocą Cloudflare
+## Zabezpieczanie serwerów WWW za pomocą Cloudflare
 
-Wiele osób korzysta z Cloudflare jako menedżera DNS domeny. Cloudflare ma jedną z największych sieci na świecie, co przekłada się na krótszy czas ładowania stron, niższy ping i lepsze doświadczenie użytkownika. Dodatkowo chroni Twoje strony przed atakami DoS/DDoS, w tym zalewaniem i nowymi typami ataków, które pojawiają się codziennie.
+Wiele osób korzysta z Cloudflare jako menedżera DNS domeny. Cloudflare ma jedną z największych sieci na świecie, co przekłada się na krótszy czas ładowania stron, niższy ping i lepsze doświadczenie użytkownika. Dodatkowo chroni Twoje strony przed atakami DoS/DDoS, w tym przed zalewaniem i nowymi typami ataków, które pojawiają się codziennie.
 
-W tym poradniku dowiesz się, jak chronić swój serwer WWW przed atakami.
+W tym poradniku nauczysz się, jak chronić swój serwer WWW przed atakami.
 
-Zakładamy, że Twoja domena jest już zarządzana przez Cloudflare. Jeśli nie, możesz skorzystać z [ich poradnika](https://developers.cloudflare.com/fundamentals/get-started/setup/add-site/), by przenieść domenę. Przejdź do zakładki DNS Records w panelu Cloudflare i upewnij się, że rekord do Twojego serwera WWW ma pomarańczową chmurkę i status "Proxied".
+Zakładamy, że Twoja domena jest już zarządzana przez Cloudflare. Jeśli nie, możesz skorzystać z [ich poradnika](https://developers.cloudflare.com/fundamentals/get-started/setup/add-site/), aby przenieść domenę. Przejdź do zakładki DNS Records w panelu Cloudflare i upewnij się, że rekord do Twojego serwera WWW ma pomarańczową chmurkę i status "Proxied".
 
 ![](https://github.com/zaphosting/docs/assets/42719082/a3572480-75df-4c43-bbba-e60ddedf9316)
 
-Wszystkie żądania przechodzą teraz przez Cloudflare, a następnie do Twojego serwera, będąc ruchem legalnym.
-Twój serwer jest jednak nadal dostępny spoza Cloudflare, dlatego musisz ograniczyć dostęp do portów 80 i 443 TCP na serwerze Linux i zezwolić tylko na ruch pochodzący z legalnych adresów Cloudflare.
+Teraz cały ruch przez Twoją domenę przechodzi przez Cloudflare, a następnie do Twojego serwera, będąc ruchem legalnym.
+Twój serwer jest jednak nadal dostępny spoza Cloudflare, dlatego musisz ograniczyć dostęp do portów 80 i 443 protokołu TCP na serwerze Linux i zezwolić tylko na ruch pochodzący z legalnych adresów Cloudflare.
 
 Możesz to zrobić ręcznie, dodając reguły zapory na podstawie [publicznej listy IPv4 Cloudflare](https://cloudflare.com/ips-v4) i [publicznej listy IPv6 Cloudflare](https://cloudflare.com/ips-v6).
 
-Alternatywnie, zaoszczędzisz czas, korzystając z narzędzi takich jak [Cloudflare-ufw](https://github.com/Paul-Reed/cloudflare-ufw), które szybko zaimportują te reguły masowo.
+Alternatywnie, możesz zaoszczędzić czas i użyć narzędzi takich jak [Cloudflare-ufw](https://github.com/Paul-Reed/cloudflare-ufw), które szybko zaimportują te reguły masowo.
 Upewnij się, że nie masz innych reguł pozwalających na nieograniczony dostęp do serwera WWW poza tymi, które właśnie dodałeś, bo wtedy nie będą działać.
 
-## Podsumowanie – Twój serwer jest teraz znacznie bezpieczniejszy!
+## Podsumowanie – Twój serwer jest teraz dużo bezpieczniejszy!
 
-Ten poradnik pokazał Ci podstawowe i zaawansowane funkcje zabezpieczające serwer Linux. Jeśli wdrożyłeś wszystkie zalecenia pasujące do Twojego systemu, Twój serwer jest już dużo bezpieczniejszy – gratulacje!
+Ten poradnik pokazał Ci podstawowe i zaawansowane funkcje zabezpieczania serwera Linux. Jeśli wdrożyłeś wszystkie zalecenia, które pasują do Twojego systemu, Twój serwer jest już znacznie bezpieczniejszy – gratulacje!
 
 Oczywiście możesz podjąć dalsze kroki:
 - [2FA (SSH)](vserver-linux-ssh2fa.md)
 - Dodanie kolejnych konfiguracji do Fail2Ban
 - Ustawienie powiadomień mailowych w Fail2Ban
 - I wiele innych...
-
-<InlineVoucher />

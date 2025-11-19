@@ -11,24 +11,22 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## はじめに
 
-Windows OSはリモートデスクトップ（RDP）プロトコルを使って、他のWindowsシステムに簡単にリモート接続できるようになっています。このガイドでは、RDPを使ってあなたのWindowsサーバーに接続するシンプルな手順を紹介します。
-
-<InlineVoucher />
+Windows OSはリモートデスクトップ（RDP）プロトコルを使って、他のWindowsシステムへ簡単にリモート接続できるようになっています。このガイドでは、RDPを使ってあなたのWindowsサーバーに簡単に接続する方法を紹介します。
 
 ## Windowsからの接続方法
 
-RDPが登場して以来、Windows OSには**リモートデスクトップ接続**アプリが標準でインストールされています。Windowsの検索バーで「リモートデスクトップ接続」と検索するか、Windowsキー/アイコンを押してスタートメニューの検索バーから簡単にアクセスできます。
+RDPが登場して以来、Windows OSには標準で**リモートデスクトップ接続**アプリが搭載されています。Windowsの検索バーで「リモートデスクトップ接続」と検索するか、Windowsキーを押してスタートメニューの検索バーから簡単にアクセスできます。
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/TRfpNC3rACZ3KGB/preview)
 
-新しいウィンドウで、**コンピューター**欄にサーバーのIPアドレスを入力し、**接続**をクリックします。するとWindowsのネイティブ認証画面が表示されるので、**ユーザー名**に`Administrator`を、**パスワード**にあなたのWindowsサーバーのパスワードを入力してください。
+新しいウィンドウが開いたら、**コンピューター**欄にあなたのサーバーのIPアドレスを入力し、**接続**をクリックしてください。するとWindowsの認証画面が表示されるので、**ユーザー名**に`Administrator`を、**パスワード**にはあなたのWindowsサーバーのパスワードを入力します。
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/GCRs6KbGHz27HBS/preview)
 
-入力後、**OK**を押せばWindowsサーバーにリモート接続できます。もし接続できない場合は、入力した認証情報が正しいか再度確認してください。
+入力が完了したら**OK**を押して、Windowsサーバーにリモート接続できるはずです。もし接続できない場合は、入力した認証情報が正しいか再度確認してください。
 
 :::info
-初回接続時に証明書エラーが表示されることがありますが、これは正常で無視して問題ありません。
+初回接続時に証明書エラーが表示されることがありますが、これは正常な挙動で無視して問題ありません。
 :::
 
 これでWindowsサーバーへの接続が完了です。
@@ -49,6 +47,4 @@ RDPが登場して以来、Windows OSには**リモートデスクトップ接�
 
 最近では、Microsoftが主要なモバイルOS向けに公式のリモートデスクトップ（RDP）アプリを提供しています。モバイルでの利用にはこれらのアプリがおすすめで、多くの便利な機能が搭載されています。
 
-プラットフォーム別のアプリはこちらからダウンロード可能です：[Android](https://play.google.com/store/apps/details?id=com.microsoft.rdc.androidx&hl=en) / [iOS](https://apps.apple.com/us/app/remote-desktop-mobile/id714464092)
-
-<InlineVoucher />
+各プラットフォームのアプリはこちらからダウンロード可能です：[Android](https://play.google.com/store/apps/details?id=com.microsoft.rdc.androidx&hl=en) / [iOS](https://apps.apple.com/us/app/remote-desktop-mobile/id714464092)

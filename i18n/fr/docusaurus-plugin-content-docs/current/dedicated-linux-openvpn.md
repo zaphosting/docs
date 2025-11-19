@@ -1,7 +1,7 @@
 ---
 id: dedicated-linux-openvpn
 title: "Serveur dédié : Installation d’OpenVPN"
-description: "Découvre comment sécuriser ta connexion internet et accéder à du contenu restreint grâce à OpenVPN sur serveurs Linux → En savoir plus maintenant"
+description: "Découvrez comment sécuriser votre connexion internet et accéder à du contenu restreint grâce à OpenVPN sur serveurs Linux → En savoir plus maintenant"
 sidebar_label: Installer OpenVPN
 services:
   - dedicated
@@ -11,20 +11,18 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introduction
 
-OpenVPN est un logiciel VPN puissant et polyvalent qui permet une connexion sécurisée sur Internet. C’est une solution open source qui offre une technologie VPN robuste et configurable pour établir une connexion chiffrée entre ton appareil et un serveur VPN. En utilisant OpenVPN, tu peux sécuriser ta connexion internet, protéger ta vie privée en ligne et accéder à du contenu géo-restreint peu importe où tu te trouves dans le monde. Dans ce guide, on va voir comment installer et configurer le service **OpenVPN** sur un serveur Linux.
-
-<InlineVoucher />
+OpenVPN est un logiciel VPN puissant et polyvalent qui permet une connexion sécurisée sur Internet. C’est une solution open source qui offre une technologie VPN robuste et configurable pour établir une connexion chiffrée entre votre appareil et un serveur VPN. En utilisant OpenVPN, les utilisateurs peuvent sécuriser leur connexion internet, protéger leur vie privée en ligne et accéder à du contenu géo-restreint où qu’ils soient dans le monde. Dans ce guide, nous allons explorer le processus d’installation et de configuration du service **OpenVPN** sur un serveur Linux.
 
 ## Préparation
 
-Tout d’abord, le pilote réseau **TUN** doit être activé. Cette étape n’est pas nécessaire pour les serveurs root.
-Pour cela, tu dois créer un nouveau fichier appelé **tunscript.sh** dans le dossier **/usr/sbin**.
+Tout d’abord, le pilote réseau **TUN** doit être activé. Cette étape n’est pas nécessaire pour les serveurs root.  
+Pour cela, vous devez créer un nouveau fichier appelé **tunscript.sh** dans le dossier **/usr/sbin**.
 
 ```
 nano /usr/sbin/tunscript.sh 
 ```
 
-Insère ensuite les lignes suivantes :
+Insérez ensuite les lignes suivantes :
 ```
 #!/bin/bash
 mkdir /dev/net
@@ -32,71 +30,69 @@ mknod /dev/net/tun c 10 200
 chmod 0666 /dev/net/tun
 ```
 
-Sauvegarde le fichier en appuyant sur `CTRL+O`, puis `Y` et enfin `Entrée`. Pour quitter, appuie sur `CTRL+X`. Ensuite, lance la commande suivante :
+Sauvegardez le fichier en appuyant sur `CTRL+O`, puis `Y` et enfin `Entrée`. Pour quitter le fichier, appuyez sur `CTRL+X`. Ensuite, lancez la commande suivante :
 
 ```
 chmod +x /usr/sbin/tunscript.sh
 ```
 
-Une fois fait, lance ``crontab -e`` et choisis l’**éditeur nano** [1]. Ajoute cette ligne à la fin du fichier :
+Une fois cela fait, lancez ``crontab -e`` et sélectionnez l’**éditeur nano** [1]. Ajoutez cette ligne à la fin du fichier :  
 ``` @reboot /usr/sbin/tunscript.sh || exit 1 ```
 
-Sauvegarde avec `CTRL+O`, puis `Y` et `Entrée`. Quitte avec `CTRL+X`. Tu pourras ainsi continuer après un redémarrage.
+Sauvegardez le fichier en appuyant sur `CTRL+O`, puis `Y` et enfin `Entrée`. Pour quitter, appuyez sur `CTRL+X`. Vous devriez alors pouvoir continuer après un redémarrage.
 
 ## Installation
 
-Pour installer OpenVPN, exécute la commande suivante dans la console :
+Pour installer OpenVPN, exécutez la commande suivante dans la console :  
 ```
 wget https://git.io/vpn -O openvpn-install.sh && bash openvpn-install.sh
 ```
 
-Un dialogue va apparaître pour te demander si tu veux utiliser UDP ou TCP. On recommande UDP, donc tape `1` et appuie sur `Entrée`. Ensuite, on te demandera un port pour OpenVPN, on te conseille de garder le port par défaut.
+Un dialogue apparaît alors pour vous demander si vous souhaitez utiliser UDP ou TCP. Nous recommandons UDP, donc tapez `1` et appuyez sur `Entrée`. Ensuite, il vous sera demandé un port pour OpenVPN, nous recommandons d’utiliser le port par défaut.
 
-Après, tu dois configurer le serveur DNS. On recommande d’utiliser soit Google Public DNS soit Cloudflare DNS :
+Ensuite, vous devez configurer le serveur DNS. Nous recommandons d’utiliser soit Google Public DNS, soit Cloudflare DNS :  
 ```
 8.8.8.8 / 8.8.4.4 - Google Public DNS
 1.1.1.1 / 1.0.0.1 - Cloudflare DNS
 ```
 
-Ensuite, tu dois définir un nom client. Tu peux mettre n’importe quel nom que tu souhaites, par exemple le nom de ton appareil.
+Après cette étape, vous devez définir un nom client. Vous pouvez choisir n’importe quel nom, par exemple le nom de votre appareil.
 
 ## Configuration
 
-### Ajouter plus de clients
+### Ajouter plusieurs clients
 
-Si tu veux créer plusieurs connexions, c’est pratique de créer plusieurs comptes. Pour créer un autre compte, exécute la commande suivante :
+Si vous souhaitez créer plusieurs connexions, il est utile de créer plusieurs comptes. Pour créer un autre compte, exécutez la commande suivante :  
 ```
 wget https://git.io/vpn -O openvpn-install.sh && bash openvpn-install.sh
 ```
 
-Sélectionne `1` puis confirme. Maintenant, définis le nom du client.
+Sélectionnez `1` puis confirmez. Vous devrez ensuite définir le nom du client.
 
 ### Supprimer des clients
 
-Pour supprimer un client, lance la commande suivante :
+Pour supprimer un client, lancez la commande suivante :  
 ```
 wget https://git.io/vpn -O openvpn-install.sh && bash openvpn-install.sh
 ```
 
-Choisis le numéro du client dans ta liste que tu souhaites supprimer. Puis appuie sur `Entrée`. Tu seras invité à confirmer la suppression. Si tu es sûr, appuie sur `Y` puis `Entrée`.
-Le client sera alors supprimé.
+Sélectionnez le numéro du client dans votre liste que vous souhaitez supprimer. Puis appuyez sur `Entrée`. Vous serez invité à confirmer la suppression. Si vous êtes sûr, appuyez sur `Y` puis sur `Entrée`.  
+Le client devrait alors être supprimé.
 
 ## Désinstallation
 
-Si tu n’as plus besoin d’OpenVPN, tu peux le désinstaller comme ça :
+Si vous n’avez plus besoin d’OpenVPN, vous pouvez le désinstaller ainsi :  
 ```
 wget https://git.io/vpn -O openvpn-install.sh && bash openvpn-install.sh
 ```
-Appuie sur `3` et confirme. Confirme encore une fois et OpenVPN sera désinstallé.
+Appuyez sur `3` et confirmez. Confirmez une nouvelle fois et OpenVPN sera désinstallé.
 
 ## Connexion au VPN
 
-Pour te connecter à ton VPN, on recommande d’utiliser le **[client OpenVPN](https://openvpn.net/community-downloads/)**. Télécharge-le simplement sur l’appareil depuis lequel tu veux te connecter.
+Pour vous connecter à votre VPN, nous recommandons d’utiliser le **[client OpenVPN](https://openvpn.net/community-downloads/)**. Téléchargez-le simplement sur l’appareil depuis lequel vous souhaitez vous connecter.
 
-Connecte-toi en SFTP à ton serveur pour télécharger le fichier .ovpn créé, puis supprime-le de ton serveur après. Une fois le client installé, lance le programme. Clique droit sur l’icône OpenVPN dans la barre des tâches. Clique ensuite sur 'Importer un fichier' et sélectionne le fichier que tu as téléchargé, puis clique sur 'Ouvrir'. Pour te connecter, clique à nouveau sur l’icône et choisis "Connecter".
+Connectez-vous en SFTP à votre serveur pour télécharger le fichier .ovpn créé, puis supprimez ce fichier de votre serveur ensuite. Une fois le client installé, lancez le programme. Faites un clic droit sur l’icône OpenVPN dans la barre des tâches. Cliquez ensuite sur « Importer un fichier » et sélectionnez le fichier que vous avez téléchargé, puis cliquez sur « Ouvrir ». Pour vous connecter, cliquez de nouveau sur l’icône et sélectionnez « Connecter ».
 
 :::info
-Si tu as importé plusieurs fichiers, tu dois sélectionner le client que tu veux utiliser puis cliquer sur Connecter.
+Si vous avez importé plusieurs fichiers, vous devez sélectionner le client que vous souhaitez utiliser, puis cliquer sur Connecter.
 :::
-
-<InlineVoucher />

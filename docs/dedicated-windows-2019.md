@@ -28,7 +28,7 @@ Support for older Windows Server versions will be discontinued sooner or later. 
 
 :::
 
-<InlineVoucher />
+
 
 ## Preparation
 For the installation and configuration of an operating system, it is initially important to mount the corresponding ISO of the operating system. There are several possible ways to mount it:
@@ -162,4 +162,4 @@ If you have further questions or issues, our support will help you out!
 ## Conclusion
 Congratulations, you have successfully installed the Windows Server 2019 operating system on your dedicated server. For further questions or assistance, please don't hesitate to contact our support team, which is available daily to assist you! 🙂
 
-<InlineVoucher />
+

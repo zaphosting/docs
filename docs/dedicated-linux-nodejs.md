@@ -19,7 +19,7 @@ The “JavaScript everywhere” paradigm allows developers to use a single langu
 
 
 
-<InlineVoucher />
+
 
 
 

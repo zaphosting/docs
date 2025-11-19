@@ -1,8 +1,8 @@
 ---
 id: dedicated-windows-ark
-title: "เซิร์ฟเวอร์เฉพาะ: การตั้งค่า ARK Survival Evolved Dedicated Server บน Windows"
-description: "ค้นพบวิธีตั้งค่า ARK: Survival Evolved Dedicated Server บน Windows VPS เพื่อเล่นมัลติเพลเยอร์ได้อย่างลื่นไหล → เรียนรู้เพิ่มเติมตอนนี้"
-sidebar_label: การตั้งค่า ARK Survival Evolved Dedicated Server
+title: "เซิร์ฟเวอร์เฉพาะ: ตั้งค่า ARK Survival Evolved Dedicated Server บน Windows"
+description: "ค้นพบวิธีตั้งค่า ARK: Survival Evolved Dedicated Server บน Windows VPS เพื่อเล่นมัลติเพลเยอร์แบบลื่นไหล → เรียนรู้เพิ่มเติมตอนนี้"
+sidebar_label: ตั้งค่า ARK Survival Evolved Dedicated Server
 services:
   - dedicated
 ---
@@ -12,21 +12,21 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## แนะนำ
 
-มี Windows VPS แล้วอยากติดตั้งเซิร์ฟเวอร์เกมบนมันใช่ไหม? เช่น ARK: Survival Evolved Dedicated Server? ถ้าใช่ คุณมาถูกที่แล้ว! ด้านล่างนี้เราจะอธิบายทีละขั้นตอนว่าคุณจะติดตั้งเซิร์ฟเวอร์นี้บนเซิร์ฟเวอร์ของคุณยังไง เชื่อมต่อกับ VPS ของคุณผ่าน RDP เพื่อเริ่มตั้งค่า ARK: Survival Evolved Dedicated Server ของคุณ ถ้าคุณยังไม่รู้วิธีเชื่อมต่อกับเซิร์ฟเวอร์ผ่าน RDP เราแนะนำให้ดูที่ [คู่มือการเข้าถึงเบื้องต้น (RDP)](vserver-windows-userdp.md)
+มี Windows VPS แล้วอยากติดตั้งเซิร์ฟเวอร์เกมบนมันใช่ไหม? เช่น ARK: Survival Evolved Dedicated Server? ถ้าใช่ คุณมาถูกที่แล้ว! ด้านล่างนี้เราจะอธิบายทีละขั้นตอนว่าคุณจะติดตั้งเซิร์ฟเวอร์นี้บนเซิร์ฟเวอร์ของคุณยังไง เชื่อมต่อกับ VPS ของคุณผ่าน RDP เพื่อเริ่มตั้งค่า ARK: Survival Evolved Dedicated Server ของคุณ ถ้าคุณยังไม่รู้วิธีเชื่อมต่อกับเซิร์ฟเวอร์ผ่าน RDP เราแนะนำให้ดูที่ [คู่มือ Initial Access (RDP)](vserver-windows-userdp.md)
 
-<YouTube videoId="YOz_SqsUkg4" imageSrc="https://screensaver01.zap-hosting.com/index.php/s/BF23kJKNsFQyeyX/preview" title="การตั้งค่า ARK: Survival Evolved Dedicated Server บน Windows VPS" description="รู้สึกว่าคุณเข้าใจได้ดีขึ้นเมื่อเห็นของจริง? เราจัดให้! ดำดิ่งสู่คลิปวิดีโอของเราที่อธิบายทุกอย่างให้คุณ ไม่ว่าคุณจะรีบหรือชอบเรียนรู้แบบสนุกๆ!"/>
+<YouTube videoId="YOz_SqsUkg4" imageSrc="https://screensaver01.zap-hosting.com/index.php/s/BF23kJKNsFQyeyX/preview" title="ตั้งค่า ARK: Survival Evolved Dedicated Server บน Windows VPS" description="รู้สึกเข้าใจมากขึ้นเมื่อเห็นของจริง? เราจัดให้! ดำดิ่งสู่คลิปวิดีโอที่อธิบายทุกอย่างให้คุณ ไม่ว่าคุณจะรีบหรือชอบเรียนรู้แบบสนุก ๆ!"/>
 
-<InlineVoucher />
 
-## การเตรียมตัว
 
-สำหรับการตั้งค่าเซิร์ฟเวอร์ ARK คุณจะต้องใช้ SteamCMD ซึ่งเป็น **เวอร์ชันบรรทัดคำสั่งของ Steam client** เครื่องมือนี้ช่วยให้ดาวน์โหลดแอปเซิร์ฟเวอร์เฉพาะของเกม Steam ยอดนิยมได้อย่างรวดเร็วและง่ายดาย คุณสามารถดาวน์โหลด SteamCMD ได้จากเว็บไซต์นักพัฒนาของ Valve อย่างเป็นทางการที่นี่: https://developer.valvesoftware.com/wiki/SteamCMD
+## เตรียมตัว
 
-หลังจากนั้นให้ดาวน์โหลดไฟล์ ซึ่งจะได้ไฟล์ **steamcmd.zip** ที่ต้องแตกไฟล์ก่อน แนะนำให้สร้างโฟลเดอร์แยกต่างหากเพื่อแตกไฟล์นี้ คุณจะเห็นไฟล์ **steamcmd.exe** เมื่อแตกไฟล์เสร็จ เปิดไฟล์นี้และรอจนกระทั่งกระบวนการติดตั้งเสร็จสมบูรณ์
+สำหรับการตั้งค่าเซิร์ฟเวอร์ ARK คุณจะต้องใช้ SteamCMD ซึ่งเป็น **เวอร์ชันบรรทัดคำสั่งของ Steam client** เครื่องมือนี้ช่วยให้คุณดาวน์โหลดแอปเซิร์ฟเวอร์เฉพาะของเกม Steam ยอดนิยมได้อย่างรวดเร็วและง่ายดาย คุณสามารถดาวน์โหลด SteamCMD ได้จากเว็บไซต์นักพัฒนาของ Valve อย่างเป็นทางการที่นี่: https://developer.valvesoftware.com/wiki/SteamCMD
+
+หลังจากนั้นให้ดาวน์โหลดไฟล์ ซึ่งจะได้ไฟล์ **steamcmd.zip** ที่ต้องแตกไฟล์ออกก่อน แนะนำให้สร้างโฟลเดอร์แยกต่างหากสำหรับแตกไฟล์นี้ คุณจะเห็นไฟล์ **steamcmd.exe** เมื่อแตกไฟล์เสร็จแล้ว ให้รันไฟล์นี้และรอจนกระบวนการติดตั้งเสร็จสมบูรณ์
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/QnqpbKQiEAFLL2T/preview)
 
-เมื่อข้อความ **Loading Steam API.... OK** ปรากฏขึ้น แสดงว่ากระบวนการเสร็จสมบูรณ์แล้ว คุณก็พร้อมเริ่มติดตั้งเซิร์ฟเวอร์ ARK ได้เลย
+เมื่อข้อความ **Loading Steam API.... OK** ปรากฏขึ้น แสดงว่ากระบวนการเสร็จสมบูรณ์และคุณพร้อมเริ่มติดตั้งเซิร์ฟเวอร์ ARK ได้เลย
 
 
 
@@ -54,7 +54,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 อย่าลืมเปิดใช้งานตัวเลือกแสดงนามสกุลไฟล์ (Display file extensions) เพื่อให้แน่ใจว่าไฟล์มีนามสกุลถูกต้อง
 :::
 
-เปิดไฟล์นี้ ใส่โค้ดด้านล่างลงไป แล้วบันทึกการเปลี่ยนแปลง:
+เปิดไฟล์นี้ ใส่โค้ดด้านล่างลงไปแล้วบันทึกการเปลี่ยนแปลง:
 
 ```
 start ShooterGameServer.exe TheIsland?listen?SessionName=<server_name>?ServerPassword=<join_password>?ServerAdminPassword=<admin_password>?Port=<port>?QueryPort=<query_port>?MaxPlayers=<max_players>
@@ -63,7 +63,7 @@ exit
 
 
 
-เพื่อให้เซิร์ฟเวอร์มองเห็นและเข้าถึงได้จากภายนอก พอร์ตเซิร์ฟเวอร์ที่ใช้ต้องถูกเปิด/ส่งต่อในไฟร์วอลล์ เปิดการตั้งค่า Windows Firewall
+เพื่อให้เซิร์ฟเวอร์มองเห็นและเข้าถึงได้จากภายนอก ต้องเปิด/ส่งต่อพอร์ตเซิร์ฟเวอร์ที่ใช้ในไฟร์วอลล์ Windows เปิดการตั้งค่า Windows Firewall
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/p7iyYxZwfeGaZaW/preview)
 
@@ -78,7 +78,7 @@ exit
 
 ## การตั้งค่าเพิ่มเติม
 
-การตั้งค่าหลักเสร็จแล้ว คุณสามารถแก้ไขการตั้งค่าเพิ่มเติมได้ในไฟล์ config **DefaultGameUserSettings.ini** และ **Gameusersettings.ini** ที่นี่คุณสามารถเปลี่ยนชื่อเซิร์ฟเวอร์ รหัสผ่านเซิร์ฟเวอร์ รหัสผ่านแอดมิน และตัวเลือกอื่นๆ ได้ โดยไปที่โฟลเดอร์เหล่านี้:
+ตอนนี้การตั้งค่าพื้นฐานเสร็จแล้ว คุณสามารถแก้ไขการตั้งค่าเพิ่มเติมได้ในไฟล์ config **DefaultGameUserSettings.ini** และ **Gameusersettings.ini** ที่นี่คุณสามารถเปลี่ยนชื่อเซิร์ฟเวอร์ รหัสผ่านเซิร์ฟเวอร์ รหัสผ่านแอดมิน และตัวเลือกอื่น ๆ ได้ โดยไปที่โฟลเดอร์เหล่านี้:
 
 ```
 ../steamapps/common/Ark Survival Evolved Dedicated Server/ShooterGame/Config/
@@ -89,8 +89,6 @@ exit
 
 ## เริ่มเล่น
 
-เมื่อเสร็จสิ้นการตั้งค่า คุณสามารถเริ่มเซิร์ฟเวอร์ได้โดยรันไฟล์ **start-ark.bat** ที่สร้างไว้ก่อนหน้านี้ ซึ่งจะเปิดคอนโซลเซิร์ฟเวอร์และเริ่มกระบวนการสตาร์ทเซิร์ฟเวอร์ ถ้าทุกอย่างเป็นไปตามแผน เซิร์ฟเวอร์จะปรากฏในรายชื่อเซิร์ฟเวอร์หลังจากเริ่มต้นสำเร็จ
+เมื่อเสร็จแล้ว คุณสามารถเริ่มเซิร์ฟเวอร์ได้โดยรันไฟล์ **start-ark.bat** ที่สร้างไว้ก่อนหน้านี้ ซึ่งจะเปิดคอนโซลเซิร์ฟเวอร์และเริ่มกระบวนการสตาร์ทเซิร์ฟเวอร์ ถ้าทุกอย่างถูกต้อง เซิร์ฟเวอร์จะปรากฏในรายชื่อเซิร์ฟเวอร์หลังจากเริ่มต้นสำเร็จ
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/cENfRQGxK4NjM3Y/preview)
-
-<InlineVoucher />

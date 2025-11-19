@@ -13,8 +13,6 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 GoogleのSSH二要素認証（2FA）サービス、**Google Authenticator SSH**は、SSH（Secure Shell）アクセスのセキュリティを強化するために、認証の第二層を追加します。SSHはすでにリモートサーバーへの暗号化接続を確立する安全な方法ですが、2FAを導入することで、ユーザーはパスワードに加えてGoogle Authenticatorが生成するワンタイム認証コードの入力も求められ、セキュリティレベルがさらにアップします。このガイドでは、Linuxサーバーに**Google Authenticator SSH**サービスをインストールし設定する手順を解説します。
 
-<InlineVoucher />
-
 ## インストール
 
 まずはLinux VPSにGoogle Authenticatorをインストールしましょう。以下のコマンドを実行してください：
@@ -27,11 +25,11 @@ sudo apt install libpam-google-authenticator
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/mtqePXTr5KdoHkm/preview)
 
-`google-authenticator`と入力してGoogle Authenticatorを起動します。QRコードが表示されるのに十分なウィンドウサイズを確保してください。もし小さい場合は「CTRL+C」で中断し、再度コマンドを実行してください。
+`google-authenticator`と入力してGoogle Authenticatorを起動します。QRコードが表示されるのに十分なウィンドウサイズを確保してください。もし小さい場合は「CTRL+C」で中断し、再度実行してください。
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/agW9EHjs5Aimc43/preview)
 
-実行確認が表示されるので「Y」を入力して進めます。QRコードが表示されるので、スマホの認証アプリでスキャンしてください。ここではGoogle Authenticatorアプリを例にしています：
+実行確認が表示されるので「Y」を入力して進めます。QRコードが表示されるので、スマホの認証アプリでスキャンしてください。ここではGoogle Authenticatorを例に使います：
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/CmQERELXNotsgZB/preview)
 
@@ -43,12 +41,12 @@ sudo apt install libpam-google-authenticator
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/QnBxLbR8Grf2GL4/preview)
 
-以下の質問が順に表示されます：
+次に以下の質問が表示されます：
 
 1. Google Authenticatorの設定を保存しますか？
-2. 30秒ごとに1回のログインのみ許可しますか？
+2. 30秒ごとに1回のログインに制限しますか？
 3. コードの有効時間を延長しますか？
-4. 30秒ごとに3回までのログインを許可しますか？（ブルートフォース攻撃対策）
+4. 30秒ごとに3回までのログインに制限しますか？（ブルートフォース対策）
 
 セキュリティのため、すべて「Yes」で進めることをおすすめします。
 
@@ -66,9 +64,9 @@ sudo apt install libpam-google-authenticator
 sudo nano /etc/ssh/sshd_config
 ```
 
-テキストエディタが開くので、矢印キーで移動し、自由に編集してください。編集後は「CTRL + X」→「Y」→「Enter」で保存します。
+テキストエディタが開くので、矢印キーで移動し、自由に編集できます。編集後は`CTRL + X`、`Y`、`Enter`で保存してください。
 
-`UsePAM`と`ChallengeResponseAuthentication`の2行が`yes`になっていることを確認してください。こんな感じです：
+`UsePAM`と`ChallengeResponseAuthentication`の2行が`yes`になっていることを確認しましょう。こんな感じです：
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/f5a9G5Wif9HcwQq/preview)
 
@@ -88,7 +86,7 @@ sudo systemctl restart ssh
 sudo nano /etc/pam.d/sshd
 ```
 
-ファイルの最後までスクロールし、以下の行を追加してください：
+ファイルの一番下までスクロールし、以下の行を追加してください：
 
 ```
 auth required pam_google_authenticator.so
@@ -96,7 +94,7 @@ auth required pam_google_authenticator.so
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/Mgw8tJJtTbkg7T3/preview)
 
-保存は「CTRL + X」→「Y」→「Enter」で完了です。
+保存は`CTRL + X`、`Y`、`Enter`で完了です。
 
 ## アクセスのテスト
 
@@ -104,7 +102,7 @@ auth required pam_google_authenticator.so
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/RwaymAzjGjMgbYL/preview)
 
-通常通りパスワードを入力した後、認証コードの入力を求められます。スマホの認証アプリに表示されている最新の2FAコードを入力しましょう。
+通常通りパスワードを入力します。続いてコードの入力を求められるので、最新の2FAコードを入力してください。
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/w7BFMMTMdcwXj2x/preview)
 
@@ -113,5 +111,3 @@ auth required pam_google_authenticator.so
 ## まとめ
 
 おめでとうございます！SSHアクセスに2FAを無事設定できました。もし質問やサポートが必要な場合は、いつでもお気軽にサポートチームまでご連絡ください。毎日対応していますよ！🙂
-
-<InlineVoucher />

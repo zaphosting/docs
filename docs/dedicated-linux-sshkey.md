@@ -9,7 +9,7 @@ services:
 
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
-<InlineVoucher />
+
 
 ## Generate SSH Key
 
@@ -95,4 +95,4 @@ Once its deceactivated, its no longer possible to reach the server via password 
 The display for "**SSH login via password**" would then also be set to "**Inactive**".
 
 
-<InlineVoucher />
+

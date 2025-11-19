@@ -1,7 +1,7 @@
 ---
 id: dedicated-linux-python
 title: "専用サーバー：Pythonのインストール"
-description: "さまざまなLinuxディストリビューションでPythonランタイムをインストールおよび更新して、安全で最新の環境を維持する方法を学ぼう → 今すぐチェック"
+description: "さまざまなLinuxディストリビューションでPythonランタイムをインストールおよび更新する方法を学び、安全で最新の環境を確保しよう → 今すぐ詳しく見る"
 sidebar_label: Pythonのインストール
 services:
   - dedicated
@@ -13,7 +13,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 このガイドでは、Pythonランタイムとvenvのインストール手順を紹介します。これらのコマンドはSSH経由で実行する必要があります。サーバーへのSSH接続方法がわからない場合は、[初回アクセス（SSH）](vserver-linux-ssh.md)ガイドを参考にしてください。
 
-<InlineVoucher />
+
 
 ## 準備
 
@@ -106,11 +106,11 @@ import TabItem from '@theme/TabItem';
 
 ## コードの実行
 
-Pythonがサーバーにインストールされたので、Pythonプログラムの実行を始めましょう。
+Pythonがサーバーにインストールされたので、Pythonプログラムを実行できます。
 
 ### インタープリター モード
 
-`python3`コマンドを実行するとPythonインタープリターが起動します。`>>>`の後に有効なPythonコードを書き、Enterを押すと実行されます。終了するには`exit()`を入力してください。
+`python3`コマンドを実行するとPythonインタープリターが起動します。`>>>`の後に有効なPythonコードを入力し、`Enter`を押すと実行されます。終了するにはコンソールで`exit()`を実行してください。
 
 ### .pyファイルの実行
 
@@ -133,5 +133,3 @@ Pythonプログラムを書くとき、pipから外部パッケージをイン�
 venv内で`pip install`などのコマンドを実行するには、`source /bin/activate`でvenvを有効化します。これでコンソールはvenv内で動作し、スクリプトはローカルにインストールされたパッケージのみアクセス可能になります。
 
 作業が終わったら、`deactivate`コマンドでvenvを無効化して元に戻れます。
-
-<InlineVoucher />

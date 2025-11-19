@@ -1,7 +1,7 @@
 ---
 id: dedicated-linux-password-change
 title: "Servidor Dedicado: Alterar senha root para servidor Linux"
-description: "Descubra como alterar e gerenciar sua senha de servidor com segurança via interface web ou console para um controle de acesso melhor → Saiba mais agora"
+description: "Descubra como alterar e gerenciar sua senha do servidor com segurança via interface web ou console para um controle de acesso aprimorado → Saiba mais agora"
 sidebar_label: Alterar Senha
 services:
   - dedicated
@@ -9,7 +9,7 @@ services:
 
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
-<InlineVoucher />
+
 
 ## Interface Web
 
@@ -29,28 +29,32 @@ Após digitar a senha, aparecerá uma mensagem pop-up que pode ser confirmada cl
 
 Se todos os requisitos forem atendidos, o sistema confirmará que a senha foi alterada com sucesso.
 
+
 ✅ A senha foi alterada com sucesso.
 
-A partir de agora, a senha poderá ser visualizada na nossa interface web por 3 horas. Depois disso, ela será apagada por questões de segurança. Para visualizar a senha, basta clicar no ícone de olho em "Senha".
+
+A partir de agora, a senha pode ser visualizada na nossa interface web por 3 horas. Depois disso, ela será apagada por motivos de segurança. Para visualizar a senha, basta clicar no ícone de olho em "Senha".
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/XfpFrGg5LyKEiRL/preview)
 
 Em seguida, aparecerá uma janela pop-up exibindo a senha.
 
+
 ## Console do Servidor
 
-A senha também pode ser alterada via Console do Servidor, não importa se você acessa via Putty ou console serial.
+A senha também pode ser alterada via Console do Servidor, tanto acessando pelo Putty quanto pelo console serial.
 
 :::info
 Importante: Essa opção só pode ser usada se você ainda tiver acesso ao servidor.
 :::
 
-Se estiver logado no console, você pode alterar a senha com o comando "passwd". Depois disso, será necessário digitar a senha novamente para confirmar. Se as senhas coincidirem, o console confirmará a alteração.
+Se estiver logado no console, você pode alterar a senha com o comando "passwd". Depois, será necessário digitar a senha novamente para confirmar. Se as senhas coincidirem, o console confirmará a alteração.
+
 
 Se as senhas não forem iguais, o console interromperá a operação. Nesse caso, você deve executar o comando "passwd" novamente.
 
 :::info
-Importante: Se você alterar a senha via Console, ela não poderá ser exibida por 3 horas na nossa interface web em Acesso e Segurança.
+Importante: Se você alterar a senha via Console, ela não poderá ser visualizada por 3 horas na nossa interface web em Acesso e Segurança.
 :::
 
-<InlineVoucher />
+

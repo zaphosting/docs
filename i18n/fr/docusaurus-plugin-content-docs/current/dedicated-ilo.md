@@ -1,7 +1,7 @@
 ---
 id: dedicated-ilo
 title: "Serveur dédié : iLO"
-description: "Découvrez comment gérer entièrement votre Serveur dédié Enterprise avec iLO pour un contrôle et une surveillance sans accroc → En savoir plus maintenant"
+description: "Découvrez comment gérer entièrement votre serveur dédié Enterprise avec iLO pour un contrôle et une surveillance sans accroc → En savoir plus maintenant"
 sidebar_label: iLO
 services:
   - dedicated
@@ -10,166 +10,162 @@ services:
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introduction
-Sur nos Serveurs dédiés Enterprise, nous utilisons l’interface de gestion iLO, qui permet une gestion complète et sans restriction de votre serveur.  
+Sur nos serveurs dédiés Enterprise, nous utilisons l’interface de gestion iLO, qui permet une gestion complète et sans restriction de votre serveur.  
 Ses fonctionnalités incluent le démarrage/arrêt/redémarrage du serveur, la console de gestion via Java ou HTML5, le montage de médias de démarrage (ISOs).  
-Modifiez les paramètres avec précaution, car une mauvaise manipulation peut causer de gros soucis.
-
-<InlineVoucher />
+Vous devez modifier les paramètres avec précaution, car une mauvaise manipulation peut causer de gros problèmes.
 
 ## Accès iLO
-Ouvre le tableau de bord de ton Serveur dédié ZAP avec le navigateur de ton choix. Tu y trouveras déjà les infos principales sur ton iLO.  
-Pour activer l’iLO, clique simplement sur "Activer iLO".  
+Ouvrez le tableau de bord de votre serveur dédié ZAP avec le navigateur de votre choix. Vous y trouverez déjà les informations les plus importantes concernant votre iLO.  
+Pour activer l’iLO, cliquez simplement sur « Activer iLO ».  
 ![](https://screensaver01.zap-hosting.com/index.php/s/grj9PxttLKiZg6m/preview)
 
-Note que ça peut prendre quelques secondes avant que ton iLO soit complètement dispo.  
-Quand le système a lancé l’interface de gestion et qu’elle est accessible, tu verras les infos de connexion.  
-Pour ouvrir l’iLO, clique sur l’adresse IP affichée et connecte-toi avec les identifiants.
+Notez qu’il peut falloir quelques secondes avant que votre iLO soit pleinement disponible.  
+Une fois que le système a démarré l’interface de gestion et qu’elle est accessible, vous verrez les informations de connexion.  
+Pour ouvrir l’iLO, cliquez sur l’adresse IP affichée et connectez-vous avec les identifiants fournis.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/MJeEW2LLrjxsAGN/preview)
 
-Après un court instant, tu es connecté à l’interface d’administration de ton serveur dédié.  
-Tu y trouveras plein d’infos importantes :
+Après un court instant, vous êtes connecté à l’interface d’administration de votre serveur dédié.  
+Vous y trouverez plein d’infos importantes :
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/BGWGXDRgS9A74dB/preview)
 
 ### Vue d’ensemble
-* **Santé du système**  
-Doit généralement être verte. À chaque démarrage, le hardware de ton serveur s’auto-vérifie, et s’il y a un souci, le système le signale direct.  
-Les états possibles sont : vert (OK), jaune (Dégradé) et rouge (Critique). Il peut arriver que le serveur affiche ton SSD comme dégradé, ce n’est généralement pas un problème.  
-Bien sûr, tu peux contacter le support, on vérifiera si une action est nécessaire. Si le statut est rouge ("Critique"), contacte le support immédiatement.  
-La première étape pour résoudre un souci est toujours un redémarrage complet du serveur.
+* **État du système**  
+Devrait généralement être vert. À chaque démarrage, le matériel de votre serveur s’auto-vérifie, et en cas de problème, le système le signale immédiatement.  
+Les états possibles sont : vert (OK), jaune (Dégradé) et rouge (Critique). Il peut arriver que le serveur affiche votre SSD comme dégradé, ce qui n’est généralement pas un souci.  
+Bien sûr, vous pouvez contacter le support, nous vérifierons si une action est nécessaire. Si le statut est rouge (« Critique »), le support doit être informé immédiatement.  
+La première étape pour résoudre le problème est toujours un redémarrage complet du serveur.
 
-* **Santé iLO**  
+* **État iLO**  
 Affiche plus d’infos sur les paramètres iLO, il ne devrait pas y avoir de changements significatifs.  
-Pas besoin de modifier quoi que ce soit dans cet onglet.
+Il n’est pas nécessaire de modifier quoi que ce soit dans cet onglet.
 
 * **Alimentation du serveur**  
-Montre le statut de ton serveur, par exemple "ON" signifie que ton serveur est allumé.
+Indique le statut de votre serveur, par exemple « ON » signifie que votre serveur est allumé.
 
 * **Console distante intégrée**  
-Ici, tu peux visualiser ton serveur et exécuter des commandes.  
+Ici, vous pouvez visualiser votre serveur et y exécuter des commandes.  
 Les consoles distantes diffèrent sur deux points :  
-HTML5 se lance directement dans ton navigateur, sans besoin de logiciel tiers.  
+HTML5 se lance directement dans votre navigateur web, sans besoin de logiciel tiers.  
 Java Web Start, comme son nom l’indique, utilise Java pour ouvrir la console de gestion.  
-Tu peux ignorer sans souci les avertissements de sécurité qui apparaissent.  
-Pour savoir comment te connecter étape par étape avec une console distante, consulte le guide détaillé.
+Les avertissements de sécurité qui apparaissent peuvent être ignorés sans souci.  
+Pour savoir comment se connecter étape par étape à votre serveur via une console distante, consultez le guide détaillé.
 
 * **Sessions actives**  
-Tu vois ici tous les utilisateurs connectés à l’iLO en ce moment.
+Vous voyez ici tous les utilisateurs actuellement connectés à l’iLO.
 
 ### Journal des événements iLO
 Enregistre toutes les modifications faites via l’iLO, par exemple les connexions, démarrages/arrêts du serveur ainsi que les changements de paramètres.
 
 ### Journal de gestion intégré
-Le journal de gestion intégré stocke toutes les infos hardware importantes, comme les résultats du POST (Power On Self Test) effectué à chaque démarrage.  
-Si ton serveur dédié a un problème matériel, il sera affiché ici.
+Le journal de gestion intégré stocke toutes les infos matérielles importantes, comme les résultats du POST (Power on Self Test) effectué à chaque démarrage du serveur.  
+S’il y a des problèmes matériels sur votre serveur dédié, ils seront affichés ici.
 
-### Média virtuel
-L’intégration de médias de démarrage perso (ISOs) se fait via le sous-menu "Connecter CD/DVD-ROM".  
+### Médias virtuels
+L’intégration de vos propres médias de démarrage (ISOs) se fait via le sous-menu « Connect CD/DVD-ROM ».  
 L’ordre de démarrage du serveur est configuré pour booter par défaut sur un ISO enregistré en premier.  
-Tu peux aussi modifier l’ordre dans le menu "Ordre de démarrage".
+Cet ordre peut aussi être modifié dans le menu « Boot Order ».
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/6ezDgt2dsCMwEam/preview)
 
-Dans "Scriptes Media URL", entre le lien complet de l’ISO que tu veux monter, par exemple : http://mondomaine.com/bootimage.iso  
-Ton lien doit pointer directement vers l’ISO, donc il doit finir par .iso.  
-Clique ensuite sur "Insérer média" et redémarre ton serveur dans "Gestion de l’alimentation".  
-Le serveur chargera alors ton ISO inséré.
+Dans « Scripted Media URL », vous devez entrer le lien complet de l’ISO que vous souhaitez monter, par exemple : http://mon-domaine.com/bootimage.iso  
+Votre lien doit pointer directement vers l’ISO, il doit donc se terminer par .iso.  
+Cliquez ensuite sur « Insert Media » et redémarrez votre serveur dans « Power Management ».  
+Le serveur chargera alors votre ISO insérée.
 
 ### Gestion de l’alimentation
-Dans ce menu, tu peux tout faire concernant le démarrage & l’arrêt de ton Serveur dédié ZAP.
+Dans ce menu, vous pouvez tout faire concernant le démarrage et l’arrêt de votre serveur dédié ZAP.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/NHW8iafC3zjcsJG/preview)
 
 * **Arrêt en douceur**  
-Éteint ton serveur proprement, comme si tu appuyais une fois sur le bouton power de ton PC.  
-Toutes les applis se ferment correctement et le serveur s’arrête de manière planifiée.  
-Ça peut prendre un peu de temps selon les applis.
+Éteint votre serveur proprement, comme si vous appuyiez une fois sur le bouton d’alimentation de votre PC.  
+Toutes les applications sont fermées correctement et le serveur s’arrête de manière planifiée.  
+Cela peut prendre un peu de temps selon les applications.
 
 * **Arrêt forcé**  
-Si tu dois couper ton serveur immédiatement sans attendre, c’est l’option à choisir. C’est comme débrancher la prise.  
-Le système s’éteint direct, sans délai.
+Si votre serveur doit être éteint immédiatement sans attendre, c’est l’option à choisir. C’est l’équivalent de débrancher la prise d’alimentation.  
+Le système s’éteint immédiatement, sans délai.
 
 * **Réinitialisation forcée**  
-Provoque un redémarrage immédiat du système.
+Provoque un redémarrage immédiat de votre système.
 
 ### Compteur de puissance
-Te montre la consommation moyenne d’énergie de ton système, en gros plus la conso est élevée, plus la charge est importante.
+Affiche la consommation électrique moyenne de votre système, en gros plus la consommation est élevée, plus la charge sur votre système est importante.
 
 ### Réseau
-Affiche la config réseau de ton iLO, note que ces réglages ne concernent pas la config réseau de ton serveur lui-même.
+Affiche la configuration réseau de votre iLO, notez que ces paramètres ne concernent pas la configuration réseau de votre serveur lui-même.
 
 :::info
-Pour configurer ton serveur ou si l’accès réseau ne fonctionne pas, tu peux toujours regarder directement sur ton serveur.
+Pour configurer votre serveur ou si l’accès réseau ne fonctionne pas, vous pouvez toujours regarder directement sur votre serveur.
 :::
 
 ## Consoles distantes (Affichage)
-L’iLO te propose par défaut deux types de consoles distantes :
+L’iLO vous propose par défaut deux types de consoles distantes :
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/cozRqRt9KLTMCkd/preview)
 
 ### La console HTML5
-Un simple clic et tu es déjà sur ton serveur, pas besoin de logiciel tiers, elle se lance directement dans ton navigateur.  
+D’un simple clic, vous êtes déjà sur votre serveur, sans besoin d’aucun logiciel tiers, elle se lance directement dans votre navigateur.  
 Elle offre plein d’outils utiles :
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/G8DjtHYnJosiQBy/preview)
 
-* 1 - réglages de gestion d’alimentation (démarrer, arrêter, redémarrer) du serveur  
-* 2 - envoi de raccourcis clavier (exemple CTRL + ALT + DEL)  
-* 3 - inclusion d’ISOs > CD/DVD > URL média scripté  
-* 4 - santé du système  
-* 5 - statut d’alimentation du serveur (ON / OFF)  
+* 1 - Paramètres de gestion d’alimentation (démarrer, arrêter, redémarrer) du serveur  
+* 2 - Envoi de raccourcis clavier (exemple CTRL + ALT + DEL)  
+* 3 - Inclusion d’ISOs > CD/DVD > Scripted Media URL  
+* 4 - État du système  
+* 5 - Statut d’alimentation du serveur (ON / OFF)
 
-Si ton serveur a une interface graphique (GUI), tu peux utiliser ta souris normalement, les entrées clavier sont aussi transmises.
+Si votre serveur a une interface graphique (GUI), vous pouvez utiliser votre souris normalement, les entrées clavier sont aussi transmises.
 
 ### La console Java
-Pour utiliser la console Java, tu dois avoir Java installé. (Téléchargeable sur java.com)  
+Pour utiliser la console Java, vous devez avoir Java installé. (Téléchargeable sur java.com)  
 :::info
-Tu peux ignorer les messages de sécurité qui apparaissent.
+Les messages de sécurité qui apparaissent peuvent être ignorés.
 :::
 
-Après avoir ouvert le fichier, tu obtiens ce message, confirme avec "Continuer".  
+Après avoir ouvert le fichier, vous obtenez ce message, confirmez avec « Continuer ».  
 ![](https://screensaver01.zap-hosting.com/index.php/s/nByYm3X8DXNHXmP/preview)
 
-Tu reconnais le risque et confirmes avec "Exécuter".
+Acceptez le risque et confirmez avec « Exécuter ».
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/eWzpyXgQPWWz4J4/preview)
 
 La console Java s’ouvre alors.  
 :::info
-L’application change souvent la disposition du clavier en "EN".
+L’application change souvent la disposition du clavier en « EN ».
 :::
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/kAp5rddEDjdLNwi/preview)
 
-* 1 - réglages de gestion d’alimentation (démarrer, arrêter, redémarrer) du serveur  
-* 2 - inclusion d’ISOs > URL CD/DVD-ROM  
-* 3 - envoi de combinaisons de touches (ex. CTRL + ALT + DEL)  
-* 4 - santé du système  
-* 5 - statut d’alimentation du serveur (ON / OFF)  
+* 1 - Paramètres de gestion d’alimentation (démarrer, arrêter, redémarrer) du serveur  
+* 2 - Inclusion d’ISOs > URL CD/DVD-ROM  
+* 3 - Envoi de combinaisons de touches (ex. CTRL + ALT + DEL)  
+* 4 - État du système  
+* 5 - Statut d’alimentation du serveur (ON / OFF)
 
-Si ton serveur a une interface graphique (GUI), tu peux utiliser ta souris normalement, les entrées clavier sont aussi transmises.
+Si votre serveur a une interface graphique (GUI), vous pouvez utiliser votre souris normalement, les entrées clavier sont aussi transmises.
 
 ## Problèmes courants, astuces & conseils
 
-* Le serveur reste bloqué au POST (Power On Self Test) et ne démarre plus.  
-Connecte-toi à une console distante et vérifie où il bloque exactement. Y a-t-il des erreurs affichées ?  
-Éteins le serveur dans Gestion de l’alimentation pendant quelques secondes (Arrêt forcé) puis rallume-le (Appui momentané).  
-Si ton serveur ne démarre toujours pas, contacte le support.
+* Le serveur reste bloqué au POST (Power on Self Test) et ne démarre plus.  
+Connectez-vous à une console distante et vérifiez où le serveur bloque exactement. Y a-t-il des erreurs affichées ?  
+Éteignez le serveur dans Gestion de l’alimentation pendant quelques secondes (Arrêt forcé) puis rallumez-le (Appui momentané).  
+Si le serveur ne démarre toujours pas, contactez le support.
 
 * L’ISO ne se charge pas.  
-Vérifie que le lien vers ton ISO est correct, le test le plus simple est de coller le lien dans ton navigateur, si un téléchargement démarre, c’est bon.  
-Assure-toi que le lien est bien entré dans Média virtuel et que le serveur a été redémarré. Regarde aussi l’ordre de démarrage et vérifie que le lecteur CD/DVD est en tête.
+Vérifiez que le lien vers votre ISO est correct, le test le plus simple est de coller le lien dans votre navigateur : si un téléchargement démarre, tout est bon.  
+Assurez-vous que le lien est bien entré dans Médias virtuels et que le serveur a été redémarré. Vérifiez aussi l’ordre de démarrage et que le lecteur CD/DVD est en tête.
 
 * Mon serveur met longtemps à démarrer.  
-Le hardware Enterprise utilisé met du temps à booter, c’est normal. Ça peut prendre jusqu’à 10-15 minutes.
+Le matériel Enterprise utilisé met du temps à démarrer, c’est tout à fait normal. Cela peut prendre jusqu’à 10-15 minutes.
 
 * Je ne peux plus ouvrir l’iLO  
-Vérifie que l’iLO est activé dans ton tableau de bord serveur, pour des raisons de sécurité l’interface de gestion se coupe automatiquement au bout d’un moment.  
-Tu peux bien sûr désactiver puis réactiver l’iLO. (Attends au moins 5 minutes après activation)
+Assurez-vous que l’iLO est activé dans votre tableau de bord serveur, pour des raisons de sécurité l’interface de gestion se ferme automatiquement au bout d’un certain temps.  
+Vous pouvez bien sûr désactiver puis réactiver l’iLO. (Attendez au moins 5 minutes après activation)
 
 ## Conclusion
 
-Ça devrait grandement faciliter ton administration une fois que tu as tout lu en détail. Pour toute question ou aide, n’hésite pas à contacter notre support, dispo tous les jours pour t’aider ! 🙂
-
-<InlineVoucher />
+Ça devrait grandement faciliter votre administration une fois que vous aurez tout lu en détail. Pour toute question ou aide, n’hésitez pas à contacter notre équipe support, disponible tous les jours pour vous aider ! 🙂

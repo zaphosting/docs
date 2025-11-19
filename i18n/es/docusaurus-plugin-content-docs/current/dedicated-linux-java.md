@@ -13,11 +13,11 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Java es un lenguaje de programación muy popular que se usa en todo el mundo para numerosos programas y servicios. Para ejecutar estos programas basados en Java es absolutamente necesario que Java esté instalado en el sistema. A continuación, aprenderás cómo instalar Java en tu sistema para los sistemas operativos Linux que ofrecemos.
 
-<InlineVoucher />
+
 
 ## Preparación
 
-Antes de comenzar con la instalación de Java, es importante asegurarse de que el sistema esté actualizado. Para esto, nos conectamos al servidor vía SSH. Si no sabes qué es SSH ni cómo usarlo, échale un vistazo a la siguiente guía: [Acceso inicial (SSH)](vserver-linux-ssh.md)
+Antes de comenzar con la instalación real de Java, es importante asegurarse de que el sistema esté actualizado. Para ello, nos conectamos al servidor vía SSH. Si no sabes qué es SSH ni cómo usarlo, echa un vistazo a la siguiente guía: [Acceso inicial (SSH)](vserver-linux-ssh.md)
 
 Una vez dentro, el sistema se puede actualizar con el siguiente comando, dependiendo del sistema operativo:
 
@@ -42,7 +42,7 @@ sudo dnf upgrade --refresh
 
 ## Instalación
 
-Después de terminar la preparación, ya puedes comenzar con la instalación de Java. Según el sistema operativo, debes ejecutar los siguientes comandos:
+Después de terminar la preparación, ya puedes comenzar con la instalación de Java. Dependiendo del sistema operativo, debes ejecutar los siguientes comandos:
 
 **Debian**
 
@@ -80,6 +80,6 @@ OpenJDK Runtime Environment (build 11.0.9.1+1-Ubuntu-0ubuntu1.20.04)
 OpenJDK 64-Bit Server VM (build 11.0.9.1+1-Ubuntu-0ubuntu1.20.04, mixed mode)
 ```
 
-En este caso, Java 11 se instaló correctamente en tu sistema. Ahora puedes ejecutar fácilmente tus aplicaciones Java en tu servidor.
+En este caso, Java 11 se instaló correctamente en tu sistema. Ahora puedes ejecutar fácilmente tus aplicaciones Java en tu sistema. 
 
-<InlineVoucher />
+

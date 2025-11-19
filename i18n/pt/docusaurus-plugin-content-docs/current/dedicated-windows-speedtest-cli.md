@@ -15,16 +15,19 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Speedtest CLI é um sistema de controle de versão distribuído, feito para gerenciar código-fonte de forma eficiente. Ele permite que desenvolvedores acompanhem mudanças, trabalhem em diferentes branches ao mesmo tempo e colaborem em projetos sem estresse. Graças à sua flexibilidade e desempenho, o Speedtest CLI virou a ferramenta padrão para controle de versão no desenvolvimento de software moderno.
 
-Pensando em hospedar esse serviço por conta própria? Vamos te guiar em cada passo para configurar e ajustar tudo, além de te mostrar o que é importante ficar de olho.
+Quer hospedar esse serviço por conta própria? Vamos te guiar em cada passo para configurar e ajustar tudo, além de te mostrar o que é importante ficar de olho.
 
-<InlineVoucher />
+
 
 ## Preparação
 
 Antes de configurar o **Speedtest CLI**, você precisa preparar seu sistema. Isso inclui atualizar seu sistema operacional para a versão mais recente. Essas preparações garantem um ambiente estável e ajudam a evitar problemas durante ou depois da instalação.
 
+
 ### Atualizar Sistema
-Para garantir que seu sistema esteja rodando com as melhorias mais recentes de software e segurança, sempre faça as atualizações do sistema primeiro. Isso garante que seu sistema tenha os patches de segurança e versões de software mais atuais antes de continuar.
+Para garantir que seu sistema esteja rodando com as melhorias mais recentes de software e segurança, sempre faça as atualizações do sistema primeiro. Assim, seu sistema terá os patches de segurança e versões de software mais atuais antes de continuar.
+
+
 
 ## Instalação
 
@@ -34,17 +37,21 @@ Depois, execute o instalador do arquivo baixado e siga os passos indicados.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/XXERYCa3eKjYmxS/download)
 
+
+
 ## Configuração
 
-O speedtest-cli não usa um arquivo de configuração tradicional, mas pode ser personalizado via opções de linha de comando e variáveis de ambiente. Isso permite adaptar para uso consistente e automatizado:
+O speedtest-cli não usa um arquivo de configuração tradicional, mas pode ser personalizado via opções de linha de comando e variáveis de ambiente. Isso permite adaptar o uso para ser consistente e automatizado:
 
-- `--server <ID>`: Seleciona um servidor específico pelo ID para resultados de teste mais consistentes e comparáveis.  
+- `--server <ID>`: Escolha um servidor específico pelo ID para resultados de teste mais consistentes e comparáveis.  
 - `--bytes`: Mostra velocidades em bytes por segundo ao invés de bits.  
-- `--simple`: Exibe apenas ping, download e upload em um formato compacto.  
+- `--simple`: Exibe só ping, download e upload em um formato compacto.  
 - `--json` ou `--csv`: Útil para automação e registro, pois os resultados ficam em formato legível por máquina.  
 - Suporte a proxy: Configure variáveis de ambiente como `http_proxy` ou `https_proxy` para rodar o speedtest-cli atrás de um proxy.  
 
-Para uso repetido com as mesmas opções, é prático criar um alias no shell ou um script wrapper pequeno. Assim, você roda o speedtest-cli rapidinho e garante saída uniforme.
+Para usar sempre as mesmas opções, é prático criar um alias no shell ou um script wrapper pequeno. Assim, você roda o speedtest-cli rapidinho e garante saída uniforme.
+
+
 
 ## Conclusão e mais Recursos
 
@@ -53,5 +60,3 @@ Parabéns! Você instalou e configurou o Speedtest CLI no seu servidor dedicado 
 - [Speedtest.net/apps/cli](https://www.speedtest.net/apps/cli) - Site Oficial
 
 Tem dúvidas específicas que não foram respondidas aqui? Para mais perguntas ou suporte, não hesite em contatar nosso time de suporte, disponível todos os dias para te ajudar! 🙂
-
-<InlineVoucher />

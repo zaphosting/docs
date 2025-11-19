@@ -13,13 +13,11 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 RAID (Redundant Array of Independent Disks) é uma tecnologia que combina vários discos rígidos em uma única unidade lógica para alcançar redundância de dados e/ou aumento de desempenho. Existem diferentes níveis de RAID que oferecem combinações variadas de distribuição de dados e tolerância a falhas.
 
-<InlineVoucher />
-
 ## Tipos de RAID disponíveis
-Nossos servidores dedicados atualmente oferecem 2 baias para SSD, o que significa que há duas configurações possíveis para RAID. A primeira é o RAID0, usado para combinar volumes em um volume maior, e o RAID1, usado para espelhar volumes e manter os dados redundantes. Vamos detalhar ambos nas próximas seções.
+Nossos servidores dedicados atualmente oferecem 2 baias para SSD, o que significa que existem duas configurações possíveis para RAID. A primeira é o RAID0, usado para combinar volumes em um volume maior, e o RAID1, usado para espelhar volumes e manter os dados redundantes. Vamos detalhar ambos nas próximas seções.
 
 :::info
-RAID0 oferece velocidades de leitura e escrita um pouco mais rápidas, graças à presença de dois drives.
+RAID0 oferece velocidades de leitura e escrita um pouco mais rápidas, devido à presença de dois drives.
 :::
 
 ### RAID0
@@ -27,10 +25,10 @@ Nesta configuração RAID, todos os volumes existentes são combinados em um ún
 
 Não há redundância de dados, então em caso de falha técnica, a perda de dados é frequentemente inevitável porque os dados são escritos em setores diferentes.
 
-Se você armazena dados sensíveis no seu sistema, o RAID0 não deve ser usado ou, pelo menos, backups regulares do sistema devem ser realizados.
+Se você armazena dados sensíveis no seu sistema, o RAID0 não deve ser usado ou pelo menos backups regulares do sistema devem ser realizados.
 
 :::info
-Se o seu servidor dedicado tem apenas 1 SSD, ele é automaticamente configurado como RAID0.
+Se seu servidor dedicado tem apenas 1 SSD, ele é automaticamente configurado como RAID0.
 :::
 
 ### RAID1
@@ -82,7 +80,7 @@ RAID1
 Você pode excluir a configuração RAID atual para criar uma nova, por exemplo.
 
 * Selecionar Volume de Boot  
-Você pode iniciar a partir de outro meio de armazenamento, o que não é necessário no nosso caso aqui.
+Você pode inicializar a partir de outro meio de armazenamento, o que não é necessário no nosso caso aqui.
 
 * Gerenciar Chaves de Licença  
 Nada precisa ser ajustado ou alterado aqui, a licença já está pré-configurada.
@@ -145,11 +143,8 @@ Isso pode ser feito facilmente em **Selecionar Volume de Boot**, escolha lá a u
 ![](https://screensaver01.zap-hosting.com/index.php/s/tqGFzGZGgeo4JjZ/preview)
 
 No final, você pode pressionar `F8` para reiniciar seu sistema diretamente ou voltar ao menu principal pressionando `Enter`.  
-Lembre-se que o volume de boot deve ser configurado **sempre** que você mexer na configuração RAID.
+Lembre-se que o volume de boot deve ser configurado **sempre** que você alterar sua configuração RAID.
 
 ## Conclusão
 
-Parabéns, você configurou com sucesso o RAID no seu servidor dedicado. Para dúvidas ou ajuda, não hesite em contatar nosso time de suporte, disponível todos os dias para te ajudar! 🙂
-
-
-<InlineVoucher />
+Parabéns, você configurou com sucesso o RAID no seu servidor dedicado. Para dúvidas ou ajuda, não hesite em contatar nosso time de suporte, que está disponível diariamente para te ajudar! 🙂

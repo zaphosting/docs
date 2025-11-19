@@ -15,7 +15,7 @@ Do you have a Windows VPS or dedicated server and you want to install the ARK: S
 
 <YouTube videoId="NvaXYjLSCn8" imageSrc="https://screensaver01.zap-hosting.com/index.php/s/RpJWENYeqgTQaee/preview" title="ARK: Survival Ascended Dedicated Server Setup on Windows VPS" description="Feel like you understand better when you see things in action? We’ve got you! Dive into our video that breaks it all down for you. Whether you're in a rush or just prefer to soak up information in the most engaging way possible!"/>
 
-<InlineVoucher />
+
 
 ## Preparation
 
@@ -168,4 +168,4 @@ This will open the server's console in a command prompt and begin the startup pr
 
 You have successfully installed Ark: Survival Ascended on your Windows Dedicated Server.
 
-<InlineVoucher />
+

@@ -11,9 +11,11 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## แนะนำ
 
-ระบบปฏิบัติการ Windows ใช้โปรโตคอล Remote Desktop (RDP) เพื่ออำนวยความสะดวกในการเชื่อมต่อระยะไกลกับระบบ Windows อื่น ๆ ได้ง่าย ในคู่มือนี้ เราจะพาคุณผ่านขั้นตอนการเชื่อมต่อแบบง่าย ๆ ผ่าน RDP ไปยังเซิร์ฟเวอร์ Windows ของคุณ
+ระบบปฏิบัติการ Windows ใช้โปรโตคอล Remote Desktop (RDP) เพื่ออำนวยความสะดวกในการเชื่อมต่อระยะไกลกับระบบ Windows อื่น ๆ ได้ง่าย ในคู่มือนี้ เราจะพาคุณผ่านขั้นตอนการเชื่อมต่อผ่าน RDP ไปยังเซิร์ฟเวอร์ Windows ของคุณอย่างง่ายดาย
 
-<InlineVoucher />
+
+
+
 
 ## การเชื่อมต่อผ่าน Windows
 
@@ -21,14 +23,14 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/TRfpNC3rACZ3KGB/preview)
 
-ในหน้าต่างใหม่ ให้กรอกช่อง **Computer** ด้วยที่อยู่ IP ของเซิร์ฟเวอร์ของคุณ แล้วกด **Connect** คุณจะเห็นหน้าต่างให้กรอกข้อมูลรับรองของ Windows ให้ใส่ **Username** เป็น `Administrator` และ **Password** คือรหัสผ่านของเซิร์ฟเวอร์ Windows ของคุณ
+ในหน้าต่างใหม่ ให้กรอกช่อง **Computer** ด้วยที่อยู่ IP ของเซิร์ฟเวอร์คุณ แล้วกด **Connect** คุณจะเห็นหน้าต่างแจ้งใส่ข้อมูลรับรองของ Windows ให้กรอก **Username** เป็น `Administrator` และ **Password** คือรหัสผ่านของเซิร์ฟเวอร์ Windows ของคุณ
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/GCRs6KbGHz27HBS/preview)
 
-จากนั้นกด **OK** แล้วคุณจะสามารถเชื่อมต่อระยะไกลกับเซิร์ฟเวอร์ Windows ของคุณได้เลย หากเจอปัญหา ให้ตรวจสอบว่าข้อมูลรับรองที่กรอกถูกต้อง
+จากนั้นกด **OK** คุณก็จะสามารถเชื่อมต่อระยะไกลกับเซิร์ฟเวอร์ Windows ของคุณได้เลย หากเจอปัญหา ให้ตรวจสอบว่าข้อมูลรับรองที่กรอกถูกต้อง
 
 :::info
-คุณอาจเห็นข้อความเตือนเรื่องใบรับรองเมื่อเชื่อมต่อครั้งแรก นี่เป็นเรื่องปกติและสามารถปล่อยผ่านได้อย่างปลอดภัย
+คุณอาจเห็นข้อความแจ้งเตือนเรื่องใบรับรองเมื่อเชื่อมต่อครั้งแรก นี่เป็นเรื่องปกติและสามารถปล่อยผ่านได้อย่างปลอดภัย
 :::
 
 คุณเชื่อมต่อกับ Windows Server ได้สำเร็จแล้ว
@@ -37,7 +39,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ### แอปบนเดสก์ท็อป
 
-โปรแกรมต่อไปนี้เป็นตัวเลือกที่ดีสำหรับการเชื่อมต่อกับเซิร์ฟเวอร์ Windows ผ่านโปรโตคอล Remote Desktop (RDP) เราแนะนำให้ใช้แอปที่ติดตั้งมาในระบบหากคุณเข้าจาก Windows (ตามขั้นตอนก่อนหน้า) เพราะใช้งานง่ายและเสถียร
+โปรแกรมต่อไปนี้เป็นตัวเลือกที่ดีสำหรับการเชื่อมต่อกับเซิร์ฟเวอร์ Windows ผ่านโปรโตคอล Remote Desktop (RDP) เราแนะนำให้ใช้แอปที่ติดตั้งมาใน Windows หากคุณเข้าถึงเซิร์ฟเวอร์จาก Windows (ตามขั้นตอนก่อนหน้า) เพราะใช้งานง่ายและเสถียร
 
 - Remote Desktop Connection Manager (RDCMan)
 - mRemoteNG
@@ -47,8 +49,6 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ### แอปบนมือถือ
 
-ในยุคนี้ Microsoft มีแอป Remote Desktop (RDP) อย่างเป็นทางการสำหรับระบบปฏิบัติการมือถือหลักทั้งสอง เราแนะนำให้ใช้แอปเหล่านี้บนมือถือเพราะมีฟีเจอร์เจ๋ง ๆ มากมาย
+ในยุคนี้ Microsoft มีแอป Remote Desktop (RDP) อย่างเป็นทางการสำหรับระบบปฏิบัติการมือถือหลักทั้งสอง เราแนะนำให้ใช้แอปเหล่านี้บนมือถือเพราะมีฟีเจอร์ที่มีประโยชน์มากมาย
 
-แอปสามารถดาวน์โหลดได้ตามแพลตฟอร์มนี้เลย: [Android](https://play.google.com/store/apps/details?id=com.microsoft.rdc.androidx&hl=en) และ [iOS](https://apps.apple.com/us/app/remote-desktop-mobile/id714464092)
-
-<InlineVoucher />
+แอปสามารถดาวน์โหลดได้ตามแพลตฟอร์มนี้: [Android](https://play.google.com/store/apps/details?id=com.microsoft.rdc.androidx&hl=en) และ [iOS](https://apps.apple.com/us/app/remote-desktop-mobile/id714464092)

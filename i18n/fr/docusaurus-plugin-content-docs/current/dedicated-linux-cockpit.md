@@ -11,15 +11,13 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introduction
 
-Cockpit est une interface web pour gérer un ou plusieurs serveurs Linux (cluster). Du simple affichage des logs à la gestion du RAID, Cockpit propose plein de fonctionnalités.  
-Cockpit est adapté aux débutants mais aussi aux utilisateurs avancés qui veulent voir/gérer rapidement tout ce qui est important. En plus, il est accessible depuis presque n’importe quel appareil.  
+Cockpit est une interface web pour gérer un ou plusieurs serveurs Linux (cluster). Des simples sorties de logs à la gestion du RAID, Cockpit offre plein de fonctionnalités.  
+Cockpit est parfait pour les débutants mais aussi pour les utilisateurs avancés qui veulent voir/gérer tout ce qui est important rapidement. En plus, il est accessible depuis presque n’importe quel appareil.  
 Le site du projet est dispo ici : https://cockpit-project.org/. 
 
 :::info
 Ce guide explique l’installation pour Debian (à partir de Buster) / Ubuntu (à partir de Bionic Beaver). L’installation est aussi dispo sur la page du projet pour Fedora, Red Hat, Fedora CoreOS, CentOS, Clear Linux, Archlinux et Tumbleweed.  
 :::
-
-<InlineVoucher />
 
 ## Installation
 
@@ -37,5 +35,3 @@ Une fois l’installation terminée, le panneau Cockpit est accessible via IP:90
 La connexion se fait avec les identifiants habituels du serveur/utilisateur.  
 
 ![cockpit](https://screensaver01.zap-hosting.com/index.php/s/iobBy6s7gDJ4Zxm/preview)
-
-<InlineVoucher />

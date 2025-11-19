@@ -15,13 +15,11 @@ Nextcloud ist eine Open-Source-Cloud-Lösung und ein Fork von Owncloud, gegründ
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/n2PbXo94RGNdPzt/preview)
 
-Um optimale Performance, Stabilität und Funktionalität zu gewährleisten, empfehlen wir folgendes Setup für das Hosting eines Nextcloud-Servers. Der Nextcloud-Server ist nicht kompatibel mit Windows und MacOS. Zumindest nicht ohne weitere Virtualisierung oder ähnliche Workarounds.<br/>
-
-<InlineVoucher />
+Um optimale Performance, Stabilität und Funktionalität zu gewährleisten, wird folgendes Setup für das Hosting eines Nextcloud-Servers empfohlen. Der Nextcloud-Server ist nicht kompatibel mit Windows und MacOS. Zumindest nicht ohne weitere Virtualisierung oder ähnliche Workarounds.<br/>
 
 ## Vorbereitung
 
-Die folgenden Anforderungen werden von den Entwicklern empfohlen und basieren auf unseren eigenen Erfahrungen. Probleme können auftreten, wenn diese Voraussetzungen nicht erfüllt werden.
+Die folgenden Anforderungen werden von den Entwicklern empfohlen und basieren auf unseren eigenen Erfahrungen. Probleme können auftreten, wenn diese Voraussetzungen nicht erfüllt sind.
 
 #### Hardware
 
@@ -30,7 +28,7 @@ Die folgenden Anforderungen werden von den Entwicklern empfohlen und basieren au
 | CPU            | 2x 1 GHz               | 4x 2+ GHz                  |
 | RAM            | 512 MB                 | 4+ GB                      |
 | Speicher       | 10 GB                  | 50+ GB                     |
-| Bandbreite     | 100 Mbit/s (Up & Down) | 500 Mbit/s (Up & Down) Empfohlen, wenn mehrere Nutzer die Cloud verwenden sollen |
+| Bandbreite     | 100 Mbit/s (up & down) | 500 Mbit/s (up & down) Empfohlen, wenn mehrere Nutzer die Cloud verwenden sollen |
 
 #### Software
 
@@ -43,7 +41,7 @@ Die folgenden Anforderungen werden von den Entwicklern empfohlen und basieren au
 
 ## Vorbereitung
 
-Um die Cloud auf einem Linux-Server zu installieren, muss eine Verbindung über einen SSH-Client hergestellt werden. Falls du nicht sicher bist, wie SSH funktioniert, hier eine Anleitung dazu: [Erstzugang (SSH)](vserver-linux-ssh.md)
+Um die Cloud auf einem Linux-Server zu installieren, muss eine Verbindung über einen SSH-Client hergestellt werden. Falls du nicht sicher bist, wie SSH funktioniert, hier eine Anleitung: [Erstzugang (SSH)](vserver-linux-ssh.md)
 
 Sobald die Verbindung steht, kannst du die notwendigen Pakete installieren, die für die eigentliche Nextcloud-Installation benötigt werden. Dazu gehört die Installation eines Webservers sowie PHP.
 
@@ -104,7 +102,7 @@ sudo apt -y install php php-common
 sudo apt -y install php-cli php-fpm php-json php-pdo php-mysql php-zip php-gd  php-mbstring php-curl php-xml php-pear php-bcmath
 ```
 
-PHP-Version zur Funktionsprüfung anzeigen
+PHP-Version zur Funktionsprüfung prüfen
 ```
 php -v
 ```
@@ -166,11 +164,10 @@ sudo apt-get install -y php7.3
 sudo apt install php7.3-cli php7.3-fpm php7.3-json php7.3-pdo php7.3-mysql php7.3-zip php7.3-gd  php7.3-mbstring php7.3-curl php7.3-xml php7.3-bcmath php7.3-json
 ```
 
-PHP-Version zur Funktionsprüfung anzeigen
+PHP-Version zur Funktionsprüfung prüfen
 ```
 php -v
 ```
-
 
 </TabItem>
 <TabItem value="CentOS" label="CentOS">
@@ -250,7 +247,7 @@ dnf module enable php:remi-7.3
 dnf install php
 ```
 
-PHP-Version zur Funktionsprüfung anzeigen
+PHP-Version zur Funktionsprüfung prüfen
 ```
 php -v
 ```
@@ -258,7 +255,7 @@ php -v
 </TabItem>
 </Tabs>
 
-Der nächste Schritt ist die Auswahl eines Datenbanktyps, um die relevanten Informationen zu speichern. Es gibt mehrere Optionen:
+Der nächste Schritt ist die Definition eines Datenbanktyps, um die relevanten Informationen zu speichern. Es gibt mehrere Optionen:
 
 
 <Tabs>
@@ -292,7 +289,7 @@ CREATE USER 'nc_user'@'localhost' IDENTIFIED BY 'DEIN_PASSWORT_HIER';
 Überspringe diesen Schritt nicht, indem du den Root-User nutzt. Das ist unsicher und gefährdet deine Daten!
 :::
 
-Zum Schluss werden dem neuen Benutzer die Rechte zugewiesen:
+Der letzte Schritt ist, dem neuen Benutzer die Rechte zuzuweisen:
 
 ```SQL
 GRANT ALL PRIVILEGES ON nextcloud.* TO 'nc_user'@'localhost';
@@ -331,8 +328,7 @@ CREATE USER 'nc_user'@'localhost' IDENTIFIED BY 'DEIN_PASSWORT_HIER';
 Überspringe diesen Schritt nicht, indem du den Root-User nutzt. Das ist unsicher und gefährdet deine Daten!
 :::
 
-
-Zum Schluss werden dem neuen Benutzer die Rechte zugewiesen:
+Der letzte Schritt ist, dem neuen Benutzer die Rechte zuzuweisen:
 
 ```SQL
 GRANT ALL PRIVILEGES ON nextcloud.* TO 'nc_user'@'localhost';
@@ -371,7 +367,7 @@ CREATE USER nextcloud with encrypted password 'DEIN_PASSWORT_HIER';
 Überspringe diesen Schritt nicht, indem du den Root-User nutzt. Das ist unsicher und gefährdet deine Daten!
 :::
 
-Zum Schluss werden dem neuen Benutzer die Rechte zugewiesen:
+Der letzte Schritt ist, dem neuen Benutzer die Rechte zuzuweisen:
 
 ```SQL
 grant all privileges on database mydb to myuser;
@@ -448,7 +444,7 @@ Das Installationsskript erscheint, in dem ein Root-User angelegt und die Datenba
 
 ## Sicherheit und Schutz
 
-**Setup-Warnungen**
+**Setup Warnungen**
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/PdzHSP5WaPEcQqH/preview)
 
@@ -456,7 +452,7 @@ Das Installationsskript erscheint, in dem ein Root-User angelegt und die Datenba
 
 **Datenverzeichnis**
 
-Es wird dringend empfohlen, das Datenverzeichnis außerhalb des Webroot-Verzeichnisses (also außerhalb von /var/www) zu platzieren. Am einfachsten geht das bei einer Neuinstallation. Das Verzeichnis kann während der Einrichtung definiert werden. Das Verzeichnis muss aber vorher angelegt und die entsprechenden Rechte gesetzt werden. Die Daten könnten z.B. in einem Verzeichnis namens Cloud im Home-Verzeichnis gespeichert werden.
+Es wird dringend empfohlen, das Datenverzeichnis außerhalb des Webroot-Verzeichnisses (also außerhalb von /var/www) zu platzieren. Am einfachsten geht das bei einer Neuinstallation. Das Verzeichnis kann während der Einrichtung definiert werden. Das Verzeichnis muss aber vorher erstellt und die entsprechenden Rechte gesetzt werden. Die Daten könnten z.B. in einem Verzeichnis namens Cloud im Home-Verzeichnis gespeichert werden.
 
 
 ```
@@ -468,7 +464,7 @@ chown -R www-data:www-data /home/cloud/
 
 **HTTPS via SSL-Zertifikat (Let's Encrypt)** 
 
-Eine gute Cloud-Lösung sollte nur über eine SSL-Verbindung erreichbar sein. Ohne SSL-Verschlüsselung werden Daten und Informationen im Klartext übertragen. Solche Infos können leicht und schnell abgefangen und ohne Verschlüsselung gelesen werden.
+Eine gute Cloud-Lösung sollte nur über eine SSL-Verbindung erreichbar sein. Ohne SSL-Verschlüsselung werden Daten und Informationen im Klartext übertragen. Solche Informationen können leicht und schnell abgefangen und ohne Verschlüsselung gelesen werden.
 
 ```
 <IfModule mod_ssl.c>
@@ -505,7 +501,7 @@ SSLCertificateKeyFile /etc/letsencrypt/live/domain.tld/privkey.pem
 
 
 
-Außerdem sollte sämtlicher HTTP-Traffic per permanenter Weiterleitung mit Statuscode 301 auf HTTPS umgeleitet werden. Das lässt sich mit Apache über eine Konfiguration wie die folgende Apache VirtualHosts-Konfiguration erreichen:
+Außerdem sollte sämtlicher HTTP-Traffic per permanenter Weiterleitung mit Statuscode 301 auf HTTPS umgeleitet werden. Das kann mit Apache durch eine Konfiguration wie die folgende VirtualHosts-Konfiguration erreicht werden:
 
 ```
 <VirtualHost *:80>
@@ -517,7 +513,7 @@ Außerdem sollte sämtlicher HTTP-Traffic per permanenter Weiterleitung mit Stat
 
 ## Nextcloud verwalten
 
-Der Zugriff auf Nextcloud ist sowohl über den Browser als auch über Smartphone und PC mit der App möglich. Die Downloadquellen findest du hier: https://nextcloud.com/install/#install-clients
+Der Zugriff auf Nextcloud ist über den Browser sowie über Smartphone und PC mit der App möglich. Die Downloadquellen findest du hier: https://nextcloud.com/install/#install-clients
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/5ay4YtgM8szkrxM/preview)
 
@@ -530,5 +526,3 @@ Außerdem gibt es die Möglichkeit, neben den Standard-Apps weitere Apps zu inst
 ![](https://screensaver01.zap-hosting.com/index.php/s/AG8PCQwDfsKGQXS/preview)
 
 Mit solchen **Apps** kannst du Nextcloud noch individueller an deine Wünsche anpassen.
-
-<InlineVoucher />

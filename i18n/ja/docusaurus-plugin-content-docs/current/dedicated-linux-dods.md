@@ -1,7 +1,7 @@
 ---
 id: dedicated-linux-dods
-title: "専用サーバー：Day of Defeat: Source 専用サーバー Linux セットアップ"
-description: "Linux VPSにDay of Defeat: Source専用サーバーを素早く効率的にセットアップする方法 → 今すぐチェック"
+title: "専用サーバー: Day of Defeat: Source 専用サーバー Linux セットアップ"
+description: "Linux VPSにDay of Defeat: Source専用サーバーを素早く効率的にセットアップする方法をチェック → 今すぐ詳しく見る"
 sidebar_label: "Day of Defeat: Source"
 services:
   - vserver
@@ -10,17 +10,15 @@ services:
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## はじめに
-Linux VPSを持っていて、そこにDay of Defeat: Source専用サーバーをインストールしたい？それならここがピッタリ。この記事では、SteamCMDを使ってLinuxサーバーにこのサービスをインストールする手順をステップバイステップで解説するよ。例ではUbuntuを使ってるけど、他のディストリビューションでもほぼ同じ流れだよ。
+Linux VPSを持っていて、そこにDay of Defeat: Source専用サーバーサービスをインストールしたい？それならここがピッタリ！このガイドでは、SteamCMDを使ってLinuxサーバーにこのサービスをインストールする手順をステップバイステップで解説するよ。例ではUbuntuを使うけど、他のディストリビューションでもほぼ同じ流れだよ。
 
 :::tip
 知ってた？**ZAP GS/TS3インターフェース**をVPSに直接インストールできて、ZAP-Hostingのダッシュボードと直結したゲームサーバーサービスを数クリックでセットアップできちゃうんだ！詳しくは[GS/TS3インターフェース](dedicated-linux-gs-interface.md)をチェックしてね。
 :::
 
-<InlineVoucher />
-
 ## 準備
 
-まずはSSHでVPSに接続しよう。接続方法がわからなければ、[SSH初期アクセス](dedicated-linux-ssh.md)ガイドを参考にしてね。SteamCMDをLinuxサーバーで初めて使う場合は、最初のセットアップも必要だよ。必ず[SteamCMD Linuxセットアップ](dedicated-linux-steamcmd.md)ガイドを見て、SteamCMDが完全にセットアップされていることを確認してから進もう。
+まずはSSHでVPSに接続しよう。接続方法がわからなければ[SSH初期アクセス](dedicated-linux-ssh.md)ガイドを参考にしてね。SteamCMDをLinuxサーバーで初めて使う場合は、最初のセットアップも必要だよ。必ず[SteamCMD Linuxセットアップ](dedicated-linux-steamcmd.md)ガイドを見て、SteamCMDが完全にセットアップされていることを確認してから進もう。
 
 ## インストール
 
@@ -30,7 +28,7 @@ sudo -u steam -s
 cd ~
 ```
 
-ログインできたら、以下のコマンドでSteamCMDを使って簡単にインストールを開始できるよ。
+ログインしたら、以下のコマンドでSteamCMDを使って簡単にインストールを開始できるよ。`steam`ユーザーのまま実行してね。
 ```
 steamcmd +force_install_dir '/home/steam/dod-ds' +login anonymous +app_update 232290 validate +quit
 ```
@@ -48,23 +46,21 @@ nano /home/steam/dod-ds/dod/cfg/server.cfg
 
 ## GSLトークンの登録
 
-他のプレイヤーがサーバーに参加するには、Game Server Login Token（GSLT）を生成してサーバーに登録する必要があるよ。このトークンはSteamでサーバーを認証するためのもの。GSLTを作るには http://steamcommunity.com/dev/managegameservers にアクセスして、ゲームID 232290（Day of Defeat: Source）を使ってトークンを作成しよう。
+他のプレイヤーがサーバーに参加するには、ゲームサーバーログイントークン（GSLT）を生成してサーバーに設定する必要があるよ。このトークンはSteamでサーバーを認証するためのもの。GSLTは http://steamcommunity.com/dev/managegameservers で生成できる。ゲームIDは232290（Day of Defeat: Source）を使ってね。
 
-トークンを取得したら、サーバー起動パラメータに`+sv_setsteamaccount <TOKEN>`を追加してね。
+トークンを取得したら、サーバー起動パラメータに`+sv_setsteamaccount <TOKEN>`として追加しよう。
 
 ## サーバーの起動＆接続
 
-いよいよサーバーを起動しよう。ゲームのメインディレクトリに移動して、以下のコマンドを実行してね。
+いよいよサーバーを起動しよう。ゲームのメインディレクトリに移動して、以下の起動コマンドを実行してね：
 ```
 ./srcds_run -console -game dod -secure +maxplayers 22 +map de_dust +sv_setsteamaccount XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 ```
 
-コマンドプロンプトにログが表示されれば起動成功のサイン。初回起動はセットアップに時間がかかることがあるから気長に待とう。もしくは、サーバーリストの検索バーに `[your_ip_address]:2456` を入力して直接接続もできるよ。
+コマンドプロンプトにログが表示されれば起動成功のサイン。初回起動はセットアップに時間がかかることがあるから気長に待とう。もしくは、サーバーリストの下部検索バーで `[your_ip_address]:2456` を検索して直接接続もできるよ。
 
 ## まとめ
 
-おめでとう！VPSにDay of Defeat: Sourceサーバーのインストールと設定が無事完了したね！次のステップとしては、[Linuxサービスのセットアップ](dedicated-linux-create-gameservice.md)ガイドをチェックするのがおすすめ。これを使うと、サーバーの自動起動や自動アップデート、ログ管理などが超ラクになるよ！
+おめでとう！VPSにDay of Defeat: Sourceサーバーを無事インストール＆設定できたね！次のステップとしては、[Linuxサービスのセットアップ](dedicated-linux-create-gameservice.md)ガイドを見て、専用ゲームサーバーをサービス化する方法をチェックしよう。これで自動起動や自動アップデート、ログ管理などが超ラクになるよ！
 
-質問やサポートが必要なときは、いつでも気軽にサポートチームに連絡してね。毎日対応してるから安心して！🙂
-
-<InlineVoucher />
+質問やサポートが必要なら、いつでも気軽にサポートチームに連絡してね。毎日対応してるから安心して！🙂

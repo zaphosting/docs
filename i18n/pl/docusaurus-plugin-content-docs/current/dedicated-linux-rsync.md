@@ -13,12 +13,10 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Kopie zapasowe można tworzyć za pomocą narzędzia Rsync. Dane mogą być kopiowane na tym samym systemie lokalnym do innego katalogu/dysku lub na system zdalny.  
 
-<InlineVoucher />
-
 ## Kopiowanie danych do innego lokalnego katalogu lub dysku:
 
 :::info
-Uwaga: Pierwsze uruchomienie może potrwać znacznie dłużej niż kolejne, w zależności od ilości danych. Dzieje się tak, ponieważ Rsync podczas pierwszego uruchomienia synchronizuje wszystkie dane, a od drugiego uruchomienia synchronizowane są tylko zmienione pliki. 
+Uwaga: Pierwsze uruchomienie może potrwać znacznie dłużej niż kolejne, w zależności od ilości danych. Wynika to z faktu, że Rsync przy pierwszym uruchomieniu synchronizuje wszystkie dane, natomiast od drugiego razu synchronizowane są tylko zmienione pliki. 
 :::
 >W ten sposób tworzona jest kopia przyrostowa.  
 
@@ -48,9 +46,9 @@ rsync -arz /home/Client /home/Backup
 ```
 -a=Archiwizacja, atrybuty plików zostaną skopiowane
 <br/>
--r=Rekurencyjnie, synchronizowane są również podfoldery
+-r=Rekurencyjnie, synchronizowane są też podfoldery
 <br/>
--z=Kompresja, w zależności od ilości/rozmiaru danych są one kompresowane
+-z=Kompresja, w zależności od ilości/rozmiaru danych następuje kompresja 
 
 
 Folder został pomyślnie zsynchronizowany. 
@@ -65,11 +63,11 @@ rsync -arz --delete /home/Client /home/Backup
 ```
 -a=Archiwizacja, atrybuty plików zostaną skopiowane
 <br/>
--r=Rekurencyjnie, synchronizowane są również podfoldery
+-r=Rekurencyjnie, synchronizowane są też podfoldery
 <br/>
--z=Kompresja, w zależności od ilości/rozmiaru danych są one kompresowane
+-z=Kompresja, w zależności od ilości/rozmiaru danych następuje kompresja
 <br/>
---delete= Usuwa dane, które nie istnieją już w źródle, ale nadal są w celu
+--delete= Usuwa dane, które nie istnieją już w źródle, ale nadal są w celu kopii zapasowej
 
 ## Krok 3
 
@@ -105,7 +103,7 @@ W tym przykładzie folder Client w katalogu /home ma zostać zsynchronizowany z 
 >apt install rsync
 >````
 
-Na przykład można użyć następującego polecenia, aby wykonać kopię zapasową na zdalnym hoście (wymagana personalizacja): 
+Na przykład do wykonania kopii zapasowej na zdalnym hoście można użyć następującego polecenia (wymagana personalizacja): 
 
 ```
 rsync --progress -arz -e  "ssh -i /home/sshkey/keybackup" /home/Client/ root@123.123.123.123:/home/Backup/Home-Server1/
@@ -113,9 +111,9 @@ rsync --progress -arz -e  "ssh -i /home/sshkey/keybackup" /home/Client/ root@123
 
 -a=Archiwizacja, atrybuty plików zostaną skopiowane
 <br/>
--r=Rekurencyjnie, synchronizowane są również podfoldery
+-r=Rekurencyjnie, synchronizowane są też podfoldery
 <br/>
--z=Kompresja, w zależności od ilości/rozmiaru danych są one kompresowane
+-z=Kompresja, w zależności od ilości/rozmiaru danych następuje kompresja 
 <br/>
 -e=Określa port SSH (domyślnie 22)
 <br/>
@@ -123,9 +121,9 @@ Określenie klucza SSH (ścieżka)("ssh -i /home/sshkey/keybackup")= ssh -i /[ś
 <br/>
 Określenie katalogu do backupu (/home/client/)= /[katalog]
 <br/>
-Zdalny host(root@123.123.123.123:)= Nazwa użytkownika na zdalnym hoście i adres: nazwa@IP/Domena
+Zdalny host(root@123.123.123.123:)= Nazwa użytkownika na zdalnym hoście oraz adres: nazwa@IP/Domena
 <br/>
-Katalog docelowy na zdalnym hoście(:/home/Backup/Home-Server1/)= :/[ścieżka docelowa]
+Katalog docelowy na zdalnym hoście(:/home/Backup/Home-Server1/)= :/[ścieżka do katalogu]
 
 Po wykonaniu polecenia folder/pliki zostały pomyślnie zsynchronizowane/zapisane w katalogu zdalnym.
   
@@ -140,11 +138,11 @@ rsync --progress -arz --delete -e  "ssh -i /home/sshkey/keybackup" /home/Client/
 ```
 -a=Archiwizacja, atrybuty plików zostaną skopiowane
 <br/>
--r=Rekurencyjnie, synchronizowane są również podfoldery
+-r=Rekurencyjnie, synchronizowane są też podfoldery
 <br/>
--z=Kompresja, w zależności od ilości/rozmiaru danych są one kompresowane
+-z=Kompresja, w zależności od ilości/rozmiaru danych następuje kompresja 
 <br/>
---delete= Usuwa dane, które nie istnieją już w źródle, ale nadal są w celu
+--delete= Usuwa dane, które nie istnieją już w źródle, ale nadal są w celu kopii zapasowej
 <br/>
 -e=Określa port SSH (domyślnie 22)
 <br/>
@@ -152,9 +150,9 @@ Określenie klucza SSH (ścieżka)("ssh -i /home/sshkey/keybackup")= ssh -i /[ś
 <br/>
 Określenie katalogu do backupu (/home/client/)= /[katalog]
 <br/>
-Zdalny host(root@123.123.123.123:)= Nazwa użytkownika na zdalnym hoście i adres: nazwa@IP/Domena
+Zdalny host(root@123.123.123.123:)= Nazwa użytkownika na zdalnym hoście oraz adres: nazwa@IP/Domena
 <br/>
-Katalog docelowy na zdalnym hoście(:/home/Backup/Home-Server1/)= :/[ścieżka docelowa]
+Katalog docelowy na zdalnym hoście(:/home/Backup/Home-Server1/)= :/[ścieżka do katalogu docelowego]
 
 ## Krok 5
 
@@ -182,5 +180,3 @@ Codziennie o 3 rano polecenie jest wykonywane i tworzona jest kopia zapasowa.
 
 </TabItem>
 </Tabs>
-
-<InlineVoucher />

@@ -13,13 +13,13 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introducción
 
-Docker es una plataforma abierta para desarrollar, enviar y ejecutar aplicaciones dentro de contenedores. Un contenedor empaqueta una aplicación con todas sus dependencias en una unidad estandarizada que puede funcionar de forma fiable en diferentes entornos.
+Docker es una plataforma abierta para desarrollar, enviar y ejecutar aplicaciones dentro de contenedores. Un contenedor empaqueta una aplicación con todas sus dependencias en una unidad estandarizada que puede ejecutarse de forma fiable en diferentes entornos.
 
-Este enfoque elimina problemas causados por diferencias entre sistemas de desarrollo, pruebas y producción. Con Docker, las aplicaciones se pueden desplegar rápido, escalar eficientemente y actualizar sin tiempos de inactividad.
+Este enfoque elimina problemas causados por diferencias entre sistemas de desarrollo, pruebas y producción. Con Docker, las aplicaciones pueden desplegarse rápidamente, escalarse eficientemente y actualizarse sin tiempo de inactividad.
 
-¿Estás pensando en alojar este servicio tú mismo? Te guiaremos paso a paso sobre cómo configurarlo y ajustarlo, junto con todo lo que debes tener en cuenta.
+¿Estás pensando en alojar este servicio tú mismo? Te guiaremos paso a paso sobre cómo configurarlo y ajustarlo, junto con todo lo que necesitas tener en cuenta.
 
-<InlineVoucher />
+
 
 
 
@@ -44,11 +44,11 @@ Invoke-WebRequest -UseBasicParsing "https://raw.githubusercontent.com/microsoft/
 .\install-docker-ce.ps1
 ```
 
-El script activa las características relacionadas con contenedores en Windows, instala Docker Engine y la CLI de Docker, y registra el servicio Docker para que arranque automáticamente.
+El script habilita las características relacionadas con contenedores en Windows, instala Docker Engine y la CLI de Docker, y registra el servicio Docker para que se inicie automáticamente.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/y26fPWy63FAWJGp/download)
 
-El sistema se reiniciará durante la instalación y debería continuar automáticamente después. Tras el reinicio, inicia sesión y ejecuta el mismo comando de nuevo si el script te lo indica para que el servicio complete su inicialización. Una vez finalizado, la salida se verá así:
+El sistema se reiniciará durante la instalación y debería continuar automáticamente después. Tras el reinicio, inicia sesión y ejecuta el mismo comando de nuevo si el script te indica hacerlo para que el servicio complete su inicialización. Una vez finalizado el script, la salida será similar a esta:
 
 ```
 Installing Docker... C:\Users\Administrator\DockerDownloads\docker-28.3.3\docker\docker.exe
@@ -68,7 +68,7 @@ Script complete!
 
 ### Iniciar y detener Docker
 
-Docker funciona como un servicio en Windows. Después de la instalación, se inicia automáticamente. Para controlarlo manualmente:
+Docker se ejecuta como un servicio en Windows. Después de la instalación, se inicia automáticamente. Para controlarlo manualmente:
 
 ```
 Start-Service docker    # Iniciar el servicio Docker
@@ -90,11 +90,11 @@ docker run -d --name web -p 8080:80 mcr.microsoft.com/windows/servercore/iis:win
 
 ### Comprobar estado del contenedor
 
-Consulta el estado del contenedor con:
+Consulta el estado de los contenedores con:
 
 ```
 docker ps        # Contenedores en ejecución
-docker ps -a     # Todos los contenedores, incluidos los detenidos
+docker ps -a     # Todos los contenedores, incluyendo los detenidos
 docker inspect web   # Información detallada
 docker logs web      # Logs del contenedor
 ```
@@ -112,9 +112,9 @@ docker stats            # Uso en vivo de CPU/RAM/IO
 
 ## Conclusión y más recursos
 
-¡Felicidades! Ya has instalado y configurado Docker con éxito en tu Servidor Dedicado. También te recomendamos echar un vistazo a estos recursos, que pueden ofrecerte ayuda y guía adicional durante la configuración de tu servidor:
+¡Felicidades! Ahora has instalado y configurado Docker con éxito en tu Servidor Dedicado. También te recomendamos echar un vistazo a los siguientes recursos, que pueden ofrecerte ayuda y guía adicional durante la configuración de tu servidor:
 
 - [Docker.com](https://Docker.com/) - Sitio oficial
 - [docs.docker.com](https://docs.docker.com/) - Documentación de Docker
 
-¿Tienes preguntas específicas que no se cubren aquí? Para más dudas o asistencia, no dudes en contactar con nuestro equipo de soporte, ¡disponible todos los días para ayudarte! 🙂
+¿Tienes preguntas específicas que no se abordan aquí? Para más dudas o asistencia, no dudes en contactar con nuestro equipo de soporte, ¡disponible todos los días para ayudarte! 🙂

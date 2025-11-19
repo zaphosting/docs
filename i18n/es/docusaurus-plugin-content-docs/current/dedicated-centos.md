@@ -1,6 +1,6 @@
 ---
 id: dedicated-centos
-title: "Servidor Dedicado: Instalación de CentOS"
+title: "Servidor dedicado: Instalación de CentOS"
 description: "Descubre cómo instalar y configurar CentOS en tu servidor dedicado para un rendimiento y seguridad óptimos → Aprende más ahora"
 sidebar_label: Instalar CentOS
 services:
@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introducción
 
-A continuación te explicamos paso a paso cómo instalar y configurar el sistema operativo CentOS en tu servidor dedicado. Sigue estas instrucciones con cuidado para asegurarte de que configuras el sistema operativo correctamente y lo aprovechas al máximo.
+A continuación te explicamos paso a paso cómo instalar y configurar el sistema operativo CentOS en tu servidor dedicado. Sigue estas instrucciones con cuidado para asegurarte de configurar el sistema operativo correctamente y aprovecharlo al máximo.
 
 :::info
 
@@ -19,39 +19,39 @@ La estructura de esta guía está basada en el uso del sistema operativo CentOS 
 
 :::
 
-<InlineVoucher />
+
 
 ## Preparación
 
 Para la instalación y configuración de un sistema operativo, es importante montar inicialmente el ISO correspondiente del sistema operativo. Hay varias formas posibles de montarlo:
 
-1. Montaje vía la configuración inicial
+1. Montaje vía configuración inicial
 2. Montaje vía iLO (Medios Virtuales)
 3. Montaje vía iLO (Consola Remota)
 
-Si aún no estás familiarizado con cómo montar un archivo ISO, lo mejor es que consultes nuestra [Guía de configuración inicial](dedicated-setup.md) o la [Guía de ISO propio](dedicated-iso.md).
+Si aún no estás familiarizado con montar un archivo ISO, lo mejor es que consultes nuestra [guía de configuración inicial](dedicated-setup.md) o la guía de [ISO propia](dedicated-iso.md).
 
 
 
 ## Instalación
 
-Cuando el ISO esté cargado correctamente, el servidor entrará en el proceso de instalación.
+Cuando el ISO se haya cargado correctamente, el servidor estará en el proceso de configuración.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/YFQt6Jmw5wi4QZZ/preview)
 
 * Teclado  
 Elige la distribución de teclado que prefieras
 
-* Fecha y Hora  
+* Fecha y hora  
 Selecciona tu zona horaria
 
 * Contraseña root  
 Establece una contraseña para tu cuenta root. Puede ser cualquiera, pero recuerda usar una contraseña fuerte y guardarla en un lugar seguro.
 
-* Destino de la instalación  
+* Destino de instalación  
 Selecciona el SSD donde se instalará CentOS
 
-* Red y Nombre de host  
+* Red y nombre de host  
 Debido a un problema de incompatibilidad, la red no pudo configurarse aún, lo haremos al final.
 
 Cuando hayas configurado todo a tu gusto, pulsa 'Begin Installation'.
@@ -72,7 +72,7 @@ A continuación configuraremos el dispositivo de red, lo que requiere actualizar
 
 ```http://185.223.30.65/dedicatedisos/centos-network-554flb.iso```
 
-Una vez montado el archivo ISO correctamente, necesitamos montarlo en nuestro sistema para poder acceder a él.
+Después de montar el archivo ISO correctamente, necesitamos montarlo en nuestro sistema para tener acceso a él.
 
 ```mount /dev/sr0 /mnt```
 
@@ -87,11 +87,11 @@ A continuación, instala el paquete de actualización.
 En este paso ejecutaremos la actualización, esto puede tardar unos segundos.  
 Ahora puedes comprobar con `ip a s` si existe un dispositivo de red llamado `eno1`, si es así, por favor reinicia tu sistema.
 
-Después de reiniciar el sistema, continúa configurando el dispositivo de red.
+Después de que el sistema se reinicie, continúa configurando el dispositivo de red.
 
 ```nano /etc/sysconfig/network-scripts/ifcfg-eno1```
 
-Por favor, rellena el archivo con los siguientes datos:
+Por favor, rellena los siguientes datos en el archivo:
 
 ```
 DEVICE=eno1
@@ -113,6 +113,6 @@ Tu servidor dedicado debería tener ahora una conexión a internet funcionando.
 
 ## Conclusión
 
-¡Felicidades, has instalado con éxito el sistema operativo CentOS en tu servidor dedicado! Para cualquier duda o ayuda, no dudes en contactar con nuestro equipo de soporte, disponible todos los días para asistirte 🙂 
+¡Felicidades, has instalado con éxito el sistema operativo CentOS en tu servidor dedicado! Para cualquier duda o ayuda, no dudes en contactar con nuestro equipo de soporte, que está disponible todos los días para asistirte 🙂
 
-<InlineVoucher />
+

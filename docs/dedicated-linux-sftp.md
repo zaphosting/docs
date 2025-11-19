@@ -9,7 +9,7 @@ services:
 
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
-<InlineVoucher />
+
 
 ## How do I connect via SFTP?
 
@@ -32,4 +32,4 @@ Now you are connected to your server via SFTP:
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/xA44qPQB6zcFc75/preview)
 
-<InlineVoucher />
+

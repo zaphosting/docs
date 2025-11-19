@@ -21,7 +21,7 @@ Considering about hosting this service yourself? We’ll walk you through every 
 
 
 
-<InlineVoucher />
+
 
 
 
@@ -84,4 +84,3 @@ Got specific questions that aren't covered here? For further questions or assist
 
 
 
-<InlineVoucher />

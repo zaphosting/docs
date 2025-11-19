@@ -11,9 +11,9 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Wprowadzenie
 
-Ten poradnik pokazuje kroki instalacji Node.js, Deno i Bun na Windows. Poniższe kroki musisz wykonać przez RDP. Jeśli nie wiesz, jak połączyć się z serwerem przez RDP, zerknij na nasz [Poradnik: Pierwszy dostęp (RDP)](vserver-windows-userdp.md).
+Ten poradnik pokazuje, jak zainstalować Node.js, Deno i Bun na Windows. Poniższe kroki musisz wykonać przez RDP. Jeśli nie wiesz, jak połączyć się z serwerem przez RDP, zerknij na nasz [Poradnik: Pierwszy dostęp (RDP)](vserver-windows-userdp.md).
 
-<InlineVoucher />
+
 
 ## Instalacja
 
@@ -45,7 +45,7 @@ Uruchom pobrany instalator. Na stronie powitalnej kliknij `Next`.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/4kZo7AFbMk58c2E/preview)
 
-Przeczytaj i zaakceptuj (zaznaczając checkbox) Umowę Licencyjną Node.js, a następnie kliknij `Next`.
+Przeczytaj i zaakceptuj (zaznaczając checkbox) Umowę Licencyjną Node.js, następnie kliknij `Next`.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/sDNjGj7fCqHRFGp/preview)
 
@@ -57,12 +57,12 @@ Rekomendujemy pozostawienie domyślnej lokalizacji instalacji.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/L2wNRLFfEo3H6wn/preview)
 
-Na kolejnej stronie możesz zrezygnować z instalacji niektórych pakietów Node.js. Jeśli chcesz standardową instalację (zalecaną), po prostu kliknij `Next`. Możesz też zainstalować Chocolatey, ale nie jest to konieczne.
+Na kolejnej stronie możesz zrezygnować z instalacji niektórych pakietów Node.js. Jeśli chcesz standardową instalację (zalecaną), po prostu kliknij `Next`. Masz też opcję instalacji Chocolatey, ale nie jest to konieczne.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/y6ssQbn2psE5sFt/preview)
 
-### Krok 3: Zakończenie instalacji
-Kliknij `Install` i poczekaj na zakończenie instalacji. Bądź cierpliwy, może to chwilę potrwać. :)
+### Krok 3: Finalizacja instalacji
+Kliknij `Install` i poczekaj na zakończenie instalacji. Może to chwilę potrwać, bądź cierpliwy. :)
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/Bdr4pfwS2HRoaS2/preview)
 
@@ -70,7 +70,7 @@ Po zakończeniu kliknij `Finish` i zacznij korzystać z Node.js na swoim serwerz
 
 ### Aktualizacja Node.js do najnowszej wersji
 
-Polecenie `node -v` pokaże zainstalowaną wersję Node.js. Od czasu do czasu sprawdzaj, czy masz najnowszą wersję LTS. Aby zaktualizować Node.js, powtórz kroki z sekcji [Instalacja Node.js](dedicated-windows-javascript.md).
+Polecenie `node -v` pokaże zainstalowaną wersję Node.js. Od czasu do czasu sprawdzaj, czy masz najnowszą wersję LTS. Aby zaktualizować Node.js, powtórz kroki z tego [poradnika](dedicated-windows-javascript.md).
 
 ### Uruchamianie Node.js i npm
 
@@ -82,13 +82,13 @@ Wszystkie pakiety npm znajdziesz na ich [stronie](https://www.npmjs.com/).
 
 ### Tworzenie nowego projektu
 
-Za każdym razem, gdy chcesz zacząć nowy projekt Node.js, utwórz nowy folder w Eksploratorze plików, otwórz w nim Wiersz poleceń lub PowerShell i wpisz `npm init`, aby rozpocząć konfigurację. Program zapyta o podstawowe informacje do stworzenia pliku `package.json`, który będzie "konfigiem" projektu.
+Za każdym razem, gdy chcesz zacząć nowy projekt Node.js, utwórz nowy folder w Eksploratorze plików, otwórz w nim Wiersz poleceń lub PowerShell i wpisz `npm init`, aby rozpocząć konfigurację. Program zapyta Cię o podstawowe dane do stworzenia pliku `package.json`, który będzie "konfigiem" projektu.
 
 :::tip
-Na Windows kliknięcie raz w ścieżkę folderu w Eksploratorze i wpisanie `cmd`, a potem Enter, otworzy Wiersz poleceń w tym katalogu — mega wygodne.
+Na Windows kliknięcie w pasek ścieżki w Eksploratorze i wpisanie `cmd`, a potem Enter, otworzy Wiersz poleceń w bieżącym folderze — to ułatwia pracę.
 :::
 
-Po inicjalizacji projektu stwórz plik `index.js` i napisz w nim kod. Jako przykład stworzymy prosty serwer http na domyślnym porcie 80, który odpowiada testową wiadomością po wejściu na localhost.
+Po inicjalizacji projektu stwórz plik `index.js` i napisz w nim kod. Jako przykład zrobimy prosty serwer http na domyślnym porcie 80, który odpowiada testową wiadomością przy dostępie przez localhost. Kod poniżej.
 
 ```js
 const http = require('http')
@@ -115,7 +115,7 @@ Instalacja zewnętrznych pakietów npm odbywa się komendą `npm install [nazwa-
 
 ## Instalacja środowiska Deno
 
-Instalacja Deno jest prosta — wpisz `irm https://deno.land/install.ps1 | iex` w PowerShell. Wyszukaj w Windows `Powershell`, otwórz jako administrator i uruchom tę komendę, wykonując ewentualne dalsze instrukcje.
+Instalacja Deno jest prosta — wpisz `irm https://deno.land/install.ps1 | iex` w PowerShell. Wyszukaj w Windows `Powershell`, uruchom jako administrator i wpisz powyższą komendę, wykonując kolejne kroki, jeśli się pojawią.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/jTdDo6c2Kx42o8B/preview)
 
@@ -129,7 +129,7 @@ Aktualizację Deno wykonasz poleceniem `deno upgrade`.
 
 ### Uruchamianie Deno
 
-Aby zacząć z Deno, stwórz plik `index.ts` i napisz w nim kod. Jako przykład prosty serwer http na porcie 80, który odpowiada testową wiadomością po wejściu na localhost.
+Aby uruchomić Deno, stwórz plik `index.ts` i napisz w nim kod. Jako przykład prosty serwer http na porcie 80, który odpowiada testową wiadomością przy dostępie przez localhost:
 
 ```js
 Deno.serve({ port: 80 }, (_req: Request) => {
@@ -137,12 +137,12 @@ Deno.serve({ port: 80 }, (_req: Request) => {
 })
 ```
 
-Uruchom kod poleceniem `deno run --allow-net index.ts` i sprawdź efekt, wchodząc na `localhost:80` w przeglądarce.
+Uruchom kod komendą `deno run --allow-net index.ts` i sprawdź efekt, wchodząc na `localhost:80` w przeglądarce.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/rswYFXWM9D5grpS/preview)
 
 :::info
-Deno jest zaprojektowane z myślą o bezpieczeństwie, dlatego wymaga podania uprawnień, np. `--allow-net` do dostępu do sieci.
+Deno jest zaprojektowane z myślą o bezpieczeństwie, dlatego wymaga podania uprawnień, np. `--allow-net` do korzystania z niektórych modułów.
 :::
 
 </TabItem>
@@ -151,7 +151,7 @@ Deno jest zaprojektowane z myślą o bezpieczeństwie, dlatego wymaga podania up
 
 ## Instalacja środowiska Bun
 
-Bun oferuje prostą instalację jednym poleceniem, ale można też zainstalować go przez npm, jeśli wcześniej korzystałeś z Node.js.
+Bun oferuje prostą instalację jednym poleceniem, ale możesz też zainstalować go przez npm, jeśli korzystałeś wcześniej z Node.js.
 
 <Tabs>
 <TabItem value="command" label="Polecenie" default>
@@ -161,7 +161,7 @@ W PowerShell wpisz `irm bun.sh/install.ps1|iex`, aby zainstalować Bun na serwer
 ![](https://screensaver01.zap-hosting.com/index.php/s/65oooTQRGQPW8DS/preview)
 
 :::info
-Serwer może nie mieć wymaganych plików. Bun poinformuje Cię o tym i poda linki do pobrania podczas próby instalacji.
+Serwer może nie mieć wymaganych plików. Bun poinformuje Cię o tym i poda linki do pobrania podczas instalacji.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/kZsc5DF3BAiQ2fF/preview)
 :::
@@ -184,7 +184,7 @@ Bun jest szybszy niż niektóre inne silniki JavaScript i ma podobną konfigurac
 W zależności od wybranego języka (JS lub TS), Bun stworzy plik konfiguracyjny (jsconfig.json lub tsconfig.json).
 :::
 
-Stwórz plik `index.ts` i napisz w nim kod prostego serwera http na porcie 80, który odpowiada testową wiadomością po wejściu na localhost.
+Stwórz plik `index.ts` i napisz w nim kod prostego serwera http na porcie 80, który odpowiada testową wiadomością przy dostępie przez localhost:
 
 ```js
 const server = Bun.serve({
@@ -205,8 +205,3 @@ Uruchom kod poleceniem `bun index.ts` i sprawdź efekt, wchodząc na `localhost:
 ## Podsumowanie
 
 Gratulacje, udało Ci się zainstalować JavaScript! Jeśli masz pytania lub potrzebujesz pomocy, śmiało kontaktuj się z naszym supportem, który jest dostępny codziennie, by Ci pomóc! 🙂
-
-
-
-
-<InlineVoucher />

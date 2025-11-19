@@ -13,11 +13,11 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 ## Wprowadzenie
 Masz VPS lub serwer dedykowany i chcesz na nim postawić serwery gier? Na przykład serwer dedykowany Left 4 Dead 2? Trafiłeś idealnie! Poniżej krok po kroku wyjaśnimy, jak zainstalować taki serwer na swoim sprzęcie.
 
-<InlineVoucher />
+
 
 ## Przygotowanie
 
-Do konfiguracji serwera Left 4 Dead 2 potrzebny jest SteamCMD. SteamCMD to **wersja Steam w trybie tekstowym (command line)**. To narzędzie pozwala szybko i łatwo pobrać aplikacje serwerów dedykowanych popularnych gier ze Steam. SteamCMD znajdziesz na oficjalnej stronie Valve dla deweloperów: https://developer.valvesoftware.com/wiki/SteamCMD. 
+Do konfiguracji serwera Left 4 Dead 2 potrzebny jest SteamCMD. SteamCMD to **wersja Steam klienta w trybie tekstowym**. To narzędzie pozwala szybko i łatwo pobrać aplikacje serwerów dedykowanych popularnych gier ze Steam. SteamCMD znajdziesz na oficjalnej stronie Valve dla deweloperów: https://developer.valvesoftware.com/wiki/SteamCMD. 
 
 Następnie pobierz plik. Będzie to archiwum **steamcmd.zip**, które musisz rozpakować. Zalecamy utworzyć osobny folder, gdzie wypakujesz plik. Po rozpakowaniu powinieneś zobaczyć plik **steamcmd.exe**. Uruchom go i poczekaj, aż instalacja się zakończy.
 
@@ -29,25 +29,25 @@ Gdy pojawi się komunikat **Loading Steam API.... OK**, oznacza to, że proces z
 
 ## Instalacja
 
-Po instalacji powinieneś móc wykonywać polecenia w **Steam command line (steamcmd.exe)**. Najpierw musisz się zalogować. Zrób to jako użytkownik **anonymous**. Wpisz polecenie: `login anonymous`
+Po instalacji powinieneś móc wykonywać polecenia w **konsoli Steam (steamcmd.exe)**. Najpierw musisz się zalogować. Zrób to jako użytkownik **anonymous**. Wpisz polecenie: `login anonymous`
 
 Kolejnym krokiem jest instalacja. Wykonaj polecenie `app_update 222840`. ID aplikacji **222840** to **Left 4 Dead 2 Dedicated Server**.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/cgMfJdL5DNNxjrf/preview)
 
-Poczekaj cierpliwie na zakończenie pobierania, bo gry o większym rozmiarze mogą chwilę zająć. Po udanym pobraniu pojawi się komunikat potwierdzający sukces.
+Poczekaj cierpliwie na zakończenie pobierania, może to potrwać, zwłaszcza przy większych grach. Po zakończeniu pojawi się komunikat potwierdzający sukces.
 
 Aby serwer był widoczny i dostępny z zewnątrz, musisz odblokować/przekierować porty serwera w zaporze sieciowej. Otwórz ustawienia Zapory systemu Windows.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/EM32i73TLcn32Mc/preview)
 
-W ustawieniach dodaj reguły przychodzące i wychodzące dla portów: 27015-27020 dla protokołów TCP/UDP.
+W ustawieniach dodaj nowe reguły przychodzące i wychodzące dla portów: 27015-27020 dla protokołów TCP/UDP.
 
 
 
 ## Konfiguracja
 
-Na tym etapie masz już gotowy serwer Left 4 Dead 2. Możesz dalej konfigurować serwer, edytując plik startowy. Przejdź do katalogu głównego serwera. Następnie wejdź do folderu cfg i otwórz plik `server.cfg`. Tam możesz zmieniać opcje serwera.
+Na tym etapie masz już skonfigurowany serwer Left 4 Dead 2. Możesz dalej dostosować serwer, edytując plik startowy. Przejdź do katalogu głównego serwera. Następnie wejdź do folderu cfg i otwórz plik `server.cfg`. Tam możesz zmieniać opcje serwera.
 
 ```
 ../steamapps/common/l4d2-ds/l4d2/cfg/server.cfg
@@ -57,7 +57,7 @@ Na tym etapie masz już gotowy serwer Left 4 Dead 2. Możesz dalej konfigurować
 
 Aby inni gracze mogli dołączyć do Twojego serwera, musisz wygenerować i dodać Game Server Login Token (GSLT). Token ten uwierzytelnia Twój serwer w Steam. Aby wygenerować GSLT, odwiedź http://steamcommunity.com/dev/managegameservers i stwórz token, używając ID gry 222840, które odpowiada Left 4 Dead 2.
 
-Po otrzymaniu tokena dodaj go do parametrów uruchomieniowych serwera jako `+sv_setsteamaccount <TOKEN>`.
+Po uzyskaniu tokena dodaj go do parametrów uruchomieniowych serwera jako `+sv_setsteamaccount <TOKEN>`.
 
 
 
@@ -69,11 +69,9 @@ Teraz czas uruchomić serwer. Przejdź do głównego katalogu gry i wpisz nastę
 start srcds.exe -console -game l4d2 -secure +maxplayers 22 +map de_dust +sv_setsteamaccount XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 ```
 
-W konsoli powinny pojawić się logi, które potwierdzą, że serwer wystartował poprawnie. Pamiętaj, że pierwsze uruchomienie może chwilę potrwać, bo wszystko się konfiguruje. Alternatywnie możesz połączyć się bezpośrednio, wpisując w dolnym pasku wyszukiwania listy serwerów: `[twoj_adres_ip]:2456`.
+W konsoli powinny pojawić się logi, które potwierdzą, że serwer wystartował poprawnie. Pamiętaj, że pierwsze uruchomienie może potrwać dłużej, bo wszystko się konfiguruje. Alternatywnie możesz połączyć się bezpośrednio, wpisując w wyszukiwarce serwerów: `[twoj_adres_ip]:2456`.
 
 
 ## Podsumowanie
 
-Gratulacje, udało Ci się zainstalować i skonfigurować serwer Left 4 Dead 2 na swoim VPS! W razie pytań lub problemów śmiało kontaktuj się z naszym supportem, który jest dostępny codziennie, by Ci pomóc! 🙂
-
-<InlineVoucher />
+Gratulacje, udało Ci się zainstalować i skonfigurować serwer Left 4 Dead 2 na swoim VPS! Jeśli masz pytania lub potrzebujesz pomocy, śmiało kontaktuj się z naszym supportem, który jest dostępny codziennie, by Ci pomóc! 🙂

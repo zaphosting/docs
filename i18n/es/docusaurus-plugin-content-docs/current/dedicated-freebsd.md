@@ -19,7 +19,7 @@ La estructura de esta guía está basada en el uso del sistema operativo FreeBSD
 
 :::
 
-<InlineVoucher />
+
 
 ## Preparación
 
@@ -34,7 +34,7 @@ Si aún no estás familiarizado con cómo montar un archivo ISO, lo mejor es que
 
 
 ## Instalación
-Cuando el ISO se haya cargado correctamente, el servidor estará en proceso de configuración.
+Cuando el ISO se haya cargado correctamente, el servidor estará en el proceso de configuración.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/wSa8eGnrtJDLHB5/preview)
 
@@ -60,7 +60,7 @@ Puedes continuar con `Enter` si no hay cambios.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/MR3eJKMpdExXnsJ/preview)
 
-Como tenemos un RAID0 elegimos sin redundancia.
+Como tenemos un RAID0, elegimos sin redundancia.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/Qf5JZMKs5HzDXnT/preview)
 
@@ -108,7 +108,7 @@ Elimina el archivo ISO en tu iLO y elige "Reiniciar"
 
 ### Red
 
-Para activar el dispositivo de red, por favor inicia sesión en tu sistema usando la contraseña.
+Para habilitar el dispositivo de red, por favor inicia sesión en tu sistema usando la contraseña.
 
 Abre loader.conf con un editor de tu elección, por ejemplo `ee /boot/loader.conf` y añade la siguiente línea:
 
@@ -142,6 +142,4 @@ Tu servidor debería tener ahora una conexión a internet activa
 
 ## Conclusión
 
-¡Felicidades, has instalado con éxito el sistema operativo FreeBSD en tu servidor dedicado! Para cualquier duda o ayuda, no dudes en contactar con nuestro equipo de soporte, disponible todos los días para echarte una mano 🙂.
-
-<InlineVoucher />
+¡Felicidades, has instalado con éxito el sistema operativo FreeBSD en tu servidor dedicado! Para cualquier pregunta o ayuda, no dudes en contactar con nuestro equipo de soporte, disponible a diario para asistirte 🙂

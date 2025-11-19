@@ -17,7 +17,7 @@ GitLab is a comprehensive DevOps platform that enables teams to collaborate on c
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/ZWMPsLzrXZjnqEE/preview)
 
-<InlineVoucher />
+
 
 ## Preparation
 
@@ -336,4 +336,4 @@ Congratulations, you have successfully installed GitLab! If you have any further
 
 If you wish to perform additional setup, we recommend reading the [Official GitLab Documentation](https://docs.gitlab.com/ee/install/next_steps.html) for next steps.
 
-<InlineVoucher />
+

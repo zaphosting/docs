@@ -14,7 +14,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 Poniżej znajdziesz krok po kroku instrukcję, jak zainstalować i skonfigurować system operacyjny Windows Server na swoim serwerze dedykowanym. Postępuj zgodnie z tymi wskazówkami, aby poprawnie zainstalować system i wykorzystać go w pełni.
 
 :::info Windows Server 2022
-Kroki instalacji i demonstracja w tym poradniku bazują na systemie Windows Server 2022 (wygląd z 2019 - ten sam design). Starsze wersje systemu mogą różnić się strukturą i wyglądem, ale procedura jest podobna.
+Kroki instalacji i demonstracja w tym poradniku bazują na systemie Windows Server 2022 (wygląd z 2019 - ta sama stylistyka). Starsze wersje systemu mogą różnić się strukturą i wyglądem, ale procedura jest podobna.
 :::
 
 :::warning Dostępna nowsza wersja / Szczegóły EOL
@@ -28,24 +28,22 @@ Wsparcie dla starszych wersji Windows Server zostanie w końcu zakończone. Oto 
 
 :::
 
-<InlineVoucher />
-
 ## Przygotowanie
-Do instalacji i konfiguracji systemu operacyjnego najpierw musisz zamontować odpowiedni plik ISO systemu. Można to zrobić na kilka sposobów:
+Do instalacji i konfiguracji systemu operacyjnego najpierw ważne jest zamontowanie odpowiedniego obrazu ISO systemu. Można to zrobić na kilka sposobów:
 
 1. Montowanie podczas początkowej konfiguracji
 2. Montowanie przez iLO (Virtual Media)
 3. Montowanie przez iLO (Remote Console)
 
-Jeśli nie masz jeszcze doświadczenia z montowaniem plików ISO, najlepiej zajrzyj do naszego [poradnika początkowej konfiguracji](dedicated-setup.md) lub [poradnika własnego ISO](dedicated-iso.md).
+Jeśli nie masz jeszcze doświadczenia z montowaniem pliku ISO, najlepiej zajrzyj do naszego [poradnika początkowej konfiguracji](dedicated-setup.md) lub [poradnika własnego ISO](dedicated-iso.md).
 
 ## Instalacja
-Aby zainstalować Windows Server, potrzebujesz pliku ISO wybranej wersji. W naszym panelu głównym możesz wybrać wersję Windows, którą chcesz zainstalować. Alternatywnie możesz użyć własnego pliku ISO — mamy do tego poradnik [Własne ISO](dedicated-iso.md).
+Aby zainstalować Windows Server, potrzebujesz pliku ISO wybranej wersji. W naszym panelu głównym możesz wybrać wersję Windows, którą chcesz zainstalować. Alternatywnie możesz użyć własnego pliku ISO — mamy do tego [poradnik własnego ISO](dedicated-iso.md).
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/DDNsa9zjbXng9Z6/preview)
 
-Jeśli na konsoli zdalnej pojawi się ten ekran, oznacza to, że ISO zostało poprawnie załadowane i możemy rozpocząć instalację.
-Wybierz preferowany język i kliknij „Dalej”, aby kontynuować.
+Jeśli na konsoli zdalnej pojawi się ten ekran, oznacza to, że ISO zostało poprawnie załadowane i możemy zacząć instalację.
+Wybierz swój język i kliknij „Dalej”, aby kontynuować.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/iyjwCCSmjPqiDMt/preview)
 
@@ -59,15 +57,15 @@ Windows poprosi teraz o klucz produktu. Wpisz go, jeśli go posiadasz.
 Nie sprzedajemy licencji Windows — klucz musisz kupić samodzielnie.
 :::
 
-Klucze produktu Windows możesz kupić w różnych sklepach online. Upewnij się, że kupujesz ważny klucz dla swojej wersji Windows, bo jest ich kilka.
+Klucze produktu Windows można kupić w różnych sklepach online. Upewnij się, że kupujesz ważny klucz dla swojej wersji Windows, bo jest ich kilka.
 Na przykład w Windows Server 2022 są dwie edycje: standardowa i datacenter.
 Jeśli nie jesteś pewien, czego dokładnie potrzebujesz, kliknij „Nie mam klucza produktu” — klucz możesz dodać później.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/jH5dYQBq7FtT2SL/preview)
 
 Teraz wybierz wersję, którą chcesz zainstalować.
-Upewnij się, że wybierasz właściwą wersję, bo później nie da się tego zmienić.
-Pamiętaj też, by wybrać wersję z „(Desktop Experience)”, inaczej Windows będzie działał w trybie konsolowym.
+Upewnij się, że wybierasz właściwą wersję, bo później nie będzie można tego zmienić.
+Pamiętaj też, aby wybrać wersję z „(Desktop Experience)”, inaczej Windows będzie działał w trybie konsolowym.
 Po wyborze zaznacz wersję i kliknij „Dalej”.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/9GRPiS3JpFPyJYk/preview)
@@ -76,13 +74,13 @@ Zaakceptuj warunki i kliknij „Dalej”.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/Bbfj7R2RdkNkMzq/preview)
 
-Wybierz „Niestandardowa”, jeśli chcesz wykonać czystą instalację Windows. Opcja „Aktualizacja” jest dostępna np. przy przejściu z 2016 na 2022.
+Wybierz „Niestandardowa”, jeśli chcesz wykonać czystą instalację Windows. Opcję „Aktualizacja” wybierz, jeśli chcesz np. zaktualizować z 2016 do 2022.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/8zkx8grPTCSgprQ/preview)
 
-W kolejnym kroku musisz utworzyć partycje na serwerze dedykowanym. Zazwyczaj nie powinno być jeszcze żadnych partycji. Jeśli są, zaznacz je i kliknij „Usuń”.
+W następnym kroku musisz utworzyć partycje na serwerze dedykowanym. Zazwyczaj nie powinno być jeszcze żadnych partycji. Jeśli są, zaznacz je i kliknij „Usuń”.
 
-Możesz utworzyć kilka mniejszych partycji lub jedną dużą. Jeśli tworzysz mniejsze, zalecamy, by główna partycja Windows miała co najmniej 50 GB.
+Możesz utworzyć kilka mniejszych partycji lub jedną dużą. Jeśli tworzysz mniejsze, zalecamy, aby główna partycja Windows miała co najmniej 50 GB.
 Kliknij „Nowy”, aby utworzyć partycję.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/GtBxwdETkNeSGcT/preview)
@@ -95,8 +93,8 @@ Windows wymaga małej partycji systemowej — zaakceptuj to klikając „OK”.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/B2JPRH3pYRt323x/preview)
 
-Jeśli wszystko jest OK, wybierz partycję, na której chcesz zainstalować Windows i kliknij „Dalej”.
-Instalator Windows wykona resztę sam — to może potrwać kilka minut.
+Jeśli jesteś zadowolony z partycji, wybierz tę, na której chcesz zainstalować Windows, i kliknij „Dalej”.
+Instalator Windows zrobi teraz wszystko sam — to może potrwać kilka minut.
 Nie musisz nic robić, aż instalacja się zakończy.
 
 ## Konfiguracja
@@ -117,7 +115,7 @@ Po ustawieniu hasła trafisz na ekran blokady Windows.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/ddxASYsjNgwHX5i/preview)
 
-Aby się zalogować, naciśnij kombinację klawiszy `CTRL + ALT + DELETE`. Możesz to zrobić łatwo przez konsolę zdalną.
+Aby się zalogować do Windows, naciśnij kombinację klawiszy `CTRL + ALT + DELETE`. Możesz to łatwo zrobić przez konsolę zdalną.
 (Znajdziesz tę opcję w konsoli Java w „Klawiatura”)
 Zaloguj się teraz swoim hasłem.
 
@@ -141,12 +139,12 @@ Nazwa użytkownika to zawsze Administrator, a hasło to to, które ustawiłeś w
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/w97g9aDrpM8EjpA/preview)
 
-Możesz zignorować ostrzeżenie o certyfikacie, zaznacz „Nie pytaj ponownie przy połączeniach z tym komputerem”.
+Możesz zignorować ostrzeżenie o certyfikacie, zaznacz „Nie pytaj mnie ponownie przy połączeniach z tym komputerem”.
 Potwierdź wszystko klikając „Tak”.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/SqqCdBZRYysz8yj/preview)
 
-Pulpit zdalny połączy się teraz z Twoim serwerem dedykowanym i możesz go używać.
+Pulpit zdalny nawiąże teraz połączenie z Twoim serwerem dedykowanym i możesz go używać.
 Konfiguracja sieci jest automatycznie ustawiana przez DHCP, więc nie musisz nic więcej zmieniać.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/9BEEiFAtJ2jCoCk/preview)
@@ -156,6 +154,4 @@ Masz pytania lub problemy? Nasze wsparcie chętnie Ci pomoże!
 :::
 
 ## Podsumowanie
-Gratulacje, pomyślnie zainstalowałeś system Windows Server 2022 na swoim serwerze dedykowanym. W razie pytań lub potrzeby pomocy, śmiało kontaktuj się z naszym supportem, który jest dostępny codziennie, by Ci pomóc! 🙂
-
-<InlineVoucher />
+Gratulacje, pomyślnie zainstalowałeś system Windows Server 2022 na swoim serwerze dedykowanym. W razie pytań lub potrzeby pomocy, śmiało kontaktuj się z naszym zespołem wsparcia, który jest dostępny codziennie, by Ci pomóc! 🙂

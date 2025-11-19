@@ -1,7 +1,7 @@
 ---
 id: dedicated-linux-valheim
 title: "専用サーバー: Valheim 専用サーバー Linux セットアップ"
-description: "LinuxでValheim専用サーバーをセットアップして、ゲームを効率的にホストし、サーバーのパフォーマンスを最適化する方法をチェック → 今すぐ詳しく見る"
+description: "LinuxでValheim専用サーバーをセットアップして、効率的にゲームサーバーをホストし、サーバーのパフォーマンスを最適化する方法をチェック → 今すぐ詳しく見る"
 sidebar_label: Valheim
 services:
   - dedicated
@@ -10,13 +10,11 @@ services:
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## はじめに
-Linux専用サーバーを持っていて、そこにValheim専用サーバーサービスをインストールしたい？それならここがピッタリ。この記事では、SteamCMDを使ってLinuxサーバーにこのサービスをインストールする手順をステップバイステップで解説するよ。例ではUbuntuを使ってるけど、他のディストリビューションでもほぼ同じ流れだよ。
+Linux専用サーバーを持っていて、そこにValheim専用サーバーサービスをインストールしたい？それならここがピッタリ。この記事では、SteamCMDを使ってLinuxサーバーにこのサービスをインストールする手順をステップバイステップで解説するよ。例ではUbuntuを使うけど、他のディストリビューションでもほぼ同じ流れだから安心してね。
 
 :::tip
-知ってた？**ZAP GS/TS3インターフェース**を専用サーバーに直接インストールできて、ZAP-Hostingのダッシュボードと直結したゲームサーバーサービスを数クリックでセットアップできちゃうんだ！詳しくは[GS/TS3インターフェース](dedicated-linux-gs-interface.md)をチェックしてみてね。
+知ってた？**ZAP GS/TS3インターフェース**を専用サーバーに直接インストールできて、ZAP-Hostingのダッシュボードと直結したゲームサーバーサービスのセットアップが数クリックで完了しちゃうんだ！詳しくは[GS/TS3インターフェース](dedicated-linux-gs-interface.md)をチェックしてみてね。
 :::
-
-<InlineVoucher />
 
 ## 準備
 
@@ -26,13 +24,13 @@ Linux専用サーバーを持っていて、そこにValheim専用サーバー�
 
 ## インストール
 
-まずは`steam`ユーザーでログインして、整理しやすいようにホームディレクトリ`home/steam`に移動しよう。
+まずは`steam`ユーザーでログインして、整理のためにホームディレクトリ`home/steam`に移動しよう。
 ```
 sudo -u steam -s
 cd ~
 ```
 
-ログインできたら、以下のコマンドでSteamCMDを使って簡単にインストールを開始できるよ。`steam`ユーザーのまま実行してね。
+ログインできたら、以下のコマンドでSteamCMDを使って簡単にインストールを開始できるよ。
 ```
 steamcmd +force_install_dir '/home/steam/Valheim-Server' +login anonymous +app_update 896660 validate +quit
 ```
@@ -41,7 +39,7 @@ steamcmd +force_install_dir '/home/steam/Valheim-Server' +login anonymous +app_u
 
 ## 設定
 
-ここまででValheimサーバーのセットアップは完了。さらに細かい設定をしたい場合は、起動用のスクリプトファイルを直接編集しよう。
+ここまででValheimサーバーのセットアップは完了。さらに細かい設定をしたい場合は、起動ファイルを直接編集しよう。
 
 ホームディレクトリに移動して、`.sh`ファイルを開いてパラメータを編集できるよ。
 ```
@@ -55,23 +53,22 @@ nano /home/steam/Valheim-Server/start_server.sh
 /home/steam/Valheim-Server/start_server.sh
 ```
 
-コマンドプロンプトにログが表示されれば起動成功のサイン。初回起動はセットアップに時間がかかることがあるから気長に待とう。もしくは、サーバーリストの下部検索バーに`[あなたのIPアドレス]:2456`を入力して直接接続もできるよ。
+コマンドプロンプトにログが表示されれば起動成功のサイン。初回起動はセットアップのため時間がかかることがあるから気長に待とう。もしくは、サーバーリストの下部検索バーで `[your_ip_address]:2456` を入力して直接接続もできるよ。
 
 :::info
-もし接続できずにコンソールで`PlayFab`エラーが出る場合は、Linux版の現状の問題でクロスプレイサポートを無効にする必要があるかも。`nano /home/steam/Valheim-Server/start_server.sh`を開いて、`-crossplay`フラグを削除してみてね。
+もし接続できずにコンソールに`PlayFab`エラーが出る場合は、Linux版の現状の問題でクロスプレイサポートを無効にする必要があるかも。`nano /home/steam/Valheim-Server/start_server.sh`を開いて、`-crossplay`フラグを削除してみてね。
 
 クロスプレイが必要な場合は、代わりにWindows版をインストールして**Wine**を互換レイヤーとして使う方法もあるよ。簡単な[Wine互換レイヤーセットアップ](dedicated-linux-wine.md)ガイドを参考にしてね。準備ができたら、SteamCMDでWindows版Valheimサーバーをインストールしよう：
 ```
 steamcmd +@sSteamCmdForcePlatformType windows +force_install_dir '/home/steam/Valheim-Server' +login anonymous +app_update 896660 validate +quit
 ```
 
-インストール後は、以下のコマンドでWine経由でWindows版を起動できるよ：`xvfb-run wine /home/steam/Valheim-Server/StartServer.bat`
+インストール後は、以下のコマンドでWine経由でWindows版を起動できるよ：
+`xvfb-run wine /home/steam/Valheim-Server/StartServer.bat`
 :::
 
 ## まとめ
 
-おめでとう！専用サーバーにValheimサーバーを無事インストール＆設定できたね！次のステップとしては、[Linuxサービスのセットアップ](dedicated-linux-create-gameservice.md)ガイドを見て、新しい専用ゲームサーバーをサービスとして登録する方法を学ぼう。これで自動起動や自動アップデート、ログ管理などが超ラクになるよ！
+おめでとう！専用サーバーにValheimサーバーを無事インストール＆設定できたね！次のステップとしては、[Linuxサービスセットアップ](dedicated-linux-create-gameservice.md)ガイドを見て、新しい専用ゲームサーバーをサービスとして登録する方法を学ぶのがおすすめ。これで自動起動や自動アップデート、ログ管理などが超ラクになるよ！
 
 もし質問やトラブルがあれば、いつでもサポートチームに連絡してね。毎日みんなのサポートを待ってるよ！
-
-<InlineVoucher />

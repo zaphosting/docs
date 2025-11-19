@@ -1,7 +1,7 @@
 ---
 id: dedicated-linux-phpmyadmin
 title: "Serwer dedykowany: Instalacja phpMyAdmin"
-description: "Dowiedz się, jak łatwo zarządzać bazami danych MySQL i MariaDB dzięki webowemu interfejsowi phpMyAdmin dla efektywnej administracji bazą danych → Sprawdź teraz"
+description: "Dowiedz się, jak łatwo zarządzać bazami danych MySQL i MariaDB dzięki webowemu interfejsowi phpMyAdmin dla efektywnej administracji bazami → Sprawdź teraz"
 sidebar_label: Instalacja phpMyAdmin
 services:
   - dedicated
@@ -13,18 +13,18 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 phpMyAdmin to darmowe narzędzie webowe do zarządzania bazami danych MySQL i MariaDB. Oferuje przyjazny interfejs, który pozwala tworzyć, edytować, zarządzać i usuwać bazy danych bez konieczności ręcznego wpisywania poleceń SQL.
 
-<InlineVoucher />
+
 
 ## Przygotowanie
 
-Przed rozpoczęciem instalacji upewnij się, że system jest aktualny. Oczekujące aktualizacje i uaktualnienia możesz wykonać za pomocą poniższych poleceń:
+Przed rozpoczęciem instalacji upewnij się, że system jest aktualny. Oczekujące aktualizacje i uaktualnienia możesz wykonać za pomocą poleceń:
 
 ```
 sudo apt update -y
 sudo apt upgrade -y
 ```
 
-Musisz także upewnić się, że masz już zainstalowane PHP na swoim systemie. Jest to niezbędne do korzystania z phpMyAdmin. Aby dowiedzieć się, jak zainstalować PHP, zajrzyj do naszego [poradnika Instalacja PHP](dedicated-linux-php.md).
+Musisz także upewnić się, że masz już zainstalowane PHP na swoim systemie. Jest to niezbędne do korzystania z phpMyAdmin. Jak zainstalować PHP, znajdziesz w naszym [poradniku Instalacja PHP](dedicated-linux-php.md).
 
 :::warning Brakujące pakiety PHP
 Jeśli brakuje niezbędnych pakietów PHP, pliki phpMyAdmin nie będą poprawnie przetwarzane i wyświetlane. 
@@ -44,7 +44,7 @@ wget https://www.phpmyadmin.net/downloads/phpMyAdmin-latest-all-languages.zip -O
 Jeśli polecenie `wget` nie jest dostępne, możesz je zainstalować poleceniem `sudo apt install wget -y`. 
 :::
 
-Po zakończeniu pobierania rozpakuj pobrany plik ZIP za pomocą poniższego polecenia:
+Po zakończeniu pobierania rozpakuj plik ZIP poleceniem:
 
 ```
 unzip phpmyadmin.zip
@@ -64,7 +64,7 @@ rm phpmyadmin.zip; chmod -R 0755 phpmyadmin
 
 ### Plik konfiguracyjny serwera WWW
 
-Teraz phpMyAdmin musi zostać dodany do konfiguracji serwera WWW. W tym celu użyj `nano /etc/apache2/conf-available/phpmyadmin.conf`, aby utworzyć nowy plik konfiguracyjny Virtual Host i wypełnij go następującą zawartością:
+Teraz phpMyAdmin musi zostać dodany do konfiguracji serwera WWW. W tym celu utwórz nowy plik konfiguracyjny Virtual Host poleceniem `nano /etc/apache2/conf-available/phpmyadmin.conf` i wklej do niego następującą zawartość:
 
 ```
 # Konfiguracja Apache dla phpMyAdmin
@@ -88,9 +88,9 @@ Alias /phpmyadmin /usr/share/phpmyadmin
 </Directory>
 ```
 
-Po wprowadzeniu zawartości konfiguracji Apache2 dla phpMyAdmin zapisz plik i zamknij edytor za pomocą `CTRL+X`, następnie potwierdź `Y` i naciśnij `Enter`.
+Po wklejeniu zawartości zapisz i zamknij plik za pomocą `CTRL+X`, następnie potwierdź `Y` i naciśnij `Enter`.
 
-Nowo utworzony plik konfiguracyjny Virtual Host musi zostać aktywowany i załadowany. Wykonaj poniższe polecenia:
+Nowo utworzony plik konfiguracyjny Virtual Host musi zostać aktywowany i załadowany. Wykonaj następujące polecenia:
 
 ```
 a2enconf phpmyadmin
@@ -99,7 +99,7 @@ systemctl reload apache2
 
 ### Utworzenie wymaganego katalogu tymczasowego
 
-Aby phpMyAdmin działał poprawnie, należy utworzyć katalog tymczasowy i ustawić odpowiednie uprawnienia. Zrób to za pomocą poniższych poleceń:
+Aby phpMyAdmin działał poprawnie, musisz utworzyć katalog tymczasowy i ustawić odpowiednie uprawnienia. Zrób to poleceniami:
 
 ```
 mkdir /usr/share/phpmyadmin/tmp/
@@ -108,6 +108,4 @@ chown -R www-data:www-data /usr/share/phpmyadmin/tmp/
 
 ## Podsumowanie
 
-Gratulacje, pomyślnie zainstalowałeś i skonfigurowałeś phpMyAdmin. Do webowego interfejsu możesz uzyskać dostęp, wpisując adres IP i ścieżkę swojego serwera (http://Adres-IP/phpmyadmin). W razie dalszych pytań lub potrzeby pomocy, śmiało kontaktuj się z naszym zespołem wsparcia, który jest dostępny codziennie, by Ci pomóc! 🙂
-
-<InlineVoucher />
+Gratulacje, pomyślnie zainstalowałeś i skonfigurowałeś phpMyAdmin. Do webowego interfejsu możesz uzyskać dostęp, wpisując adres IP i ścieżkę swojego serwera (http://Adres-IP/phpmyadmin). W razie pytań lub potrzeby pomocy, śmiało kontaktuj się z naszym supportem, który jest dostępny codziennie, by Ci pomóc! 🙂

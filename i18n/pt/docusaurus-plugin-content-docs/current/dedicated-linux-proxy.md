@@ -15,19 +15,17 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Um servidor reverse proxy é um servidor que atua como intermediário entre os usuários finais e outro servidor. Sites e servidores de jogos são motivos populares para implementar um reverse proxy, cada um com suas várias vantagens, incluindo segurança, facilidade de acesso e proteção.
 
-Neste guia, vamos explorar o processo de configuração de um reverse proxy de uso geral para sites, assim como um voltado para servidores de jogos.
-
-<InlineVoucher />
+Neste guia, vamos explorar o processo de configuração de um reverse proxy para uso geral em sites, assim como um voltado para servidores de jogos.
 
 ## Preparação
 
-Para configurar um reverse proxy, você vai precisar de um **Servidor Linux** que hospedará seu servidor proxy. Neste exemplo, usaremos o Ubuntu como distro Linux, mas os passos de instalação devem ser bem parecidos para a maioria das distribuições Linux.
+Para configurar um reverse proxy, você vai precisar de um **Servidor Linux** que hospedará seu proxy. Neste exemplo, usaremos o Ubuntu como distro Linux, mas os passos de instalação devem ser bem similares para a maioria das distribuições Linux.
 
 :::tip Especificações recomendadas para VPS
 Para um reverse proxy voltado para servidores de jogos, recomendamos fortemente adquirir velocidades de rede mais altas, especialmente se seu servidor tiver muitos jogadores. Isso porque seu VPS vai transmitir TCP/UDP bruto diretamente entre o cliente (jogador) e o servidor de jogos. Caso contrário, um servidor com especificações básicas e upgrades mínimos deve ser suficiente para um proxy relacionado a sites. :)
 :::
 
-Recomendamos configurar o proxy com um **Domínio** que você possua. Para cada subdomínio que planeja usar, você deve criar um registro DNS `A` (por exemplo, `zapdocs.example.com`), apontando para o Endereço IP do seu __VPS Linux__. É assim que os usuários vão acessar seu site ou servidor de jogos.
+Recomendamos configurar o proxy com um **Domínio** que você possua. Para cada subdomínio que planeja usar, você deve criar um registro DNS `A` (por exemplo, `zapdocs.exemplo.com`), apontando para o Endereço IP do seu __VPS Linux__. É assim que os usuários acessarão seu site ou servidor de jogos.
 
 ### Acessando o VPS
 
@@ -35,7 +33,7 @@ Com seu VPS Linux pronto, você precisará se conectar a ele. Use nosso guia [Ac
 
 ### Instalando o Nginx
 
-Você vai usar o Nginx para hospedar o servidor reverse proxy, pois é um servidor web open-source altamente performático e popular.
+Você usará o Nginx para hospedar o servidor reverse proxy, pois é um servidor web open-source altamente performático e popular.
 
 Agora que você acessou seu VPS, use o comando abaixo para instalar o Nginx.
 
@@ -43,13 +41,13 @@ Agora que você acessou seu VPS, use o comando abaixo para instalar o Nginx.
 sudo apt install nginx
 ```
 
-Depois de instalado, você precisará ajustar seu firewall para garantir que o serviço seja acessível pela internet. Para este guia, usaremos o **Firewall UFW**, já que o Nginx se registra como um app, facilitando a configuração. Você pode aprender mais sobre o Firewall UFW no nosso guia [Dicas de Segurança Linux](vserver-linux-security-tips.md).
+Depois de instalado, você precisará ajustar seu firewall para garantir que o serviço seja acessível pela internet. Para este guia, usaremos o **Firewall UFW**, já que o Nginx se registra como um app, facilitando o ajuste das configurações. Você pode aprender mais sobre o Firewall UFW no nosso guia [Dicas de Segurança Linux](vserver-linux-security-tips.md).
 
 :::note
 Se você estiver usando outros firewalls (como Iptables), certifique-se de liberar o acesso relevante para o Nginx, especificamente nas portas 80 e 443, onde o serviço nginx opera.
 :::
 
-Você pode checar os perfis do Nginx rodando `sudo ufw app list`. Neste caso, queremos selecionar a opção **Nginx Full**, que libera acesso HTTP para testes e HTTPS para uso em produção.
+Você pode checar os perfis do Nginx rodando `sudo ufw app list`. Neste cenário, queremos selecionar a opção **Nginx Full**, que libera acesso HTTP para testes e HTTPS para uso em produção.
 
 ```
 sudo ufw allow 'Nginx Full'
@@ -65,46 +63,46 @@ http://[seu_endereço_ip]
 
 ## Para Sites
 
-Um reverse proxy para sites pode ser super útil por vários motivos, incluindo redirecionar para recursos internos do servidor, como uma instância do vaultwarden (sem precisar da porta na URL), ou encaminhar o usuário para conteúdo externo, o que é ótimo para balanceamento de carga e proteção.
+Um reverse proxy para sites pode ser muito útil por vários motivos, incluindo redirecionar para recursos internos do servidor, como uma instância do vaultwarden (sem precisar da porta na URL), ou encaminhar o usuário para conteúdo externo, o que é útil para balanceamento de carga e proteção.
 
 Um dos maiores benefícios é que seu servidor pode lidar com requisições de quantas fontes/domínios forem necessárias, ao contrário de um único servidor web rodando na porta 80/443.
 
 ### Configuração do Nginx
 
-Comece criando uma entrada dentro do diretório do Nginx para o domínio que você escolheu, que normalmente será um subdomínio como `zapdocs.example.com`, como no nosso exemplo.
+Comece criando uma entrada dentro do diretório do Nginx para o domínio que você selecionou anteriormente, que normalmente será um subdomínio como `zapdocs.exemplo.com` no nosso exemplo.
 
 :::important
 Garanta que você configurou um registro `A` apontando para o Endereço IP do seu servidor proxy antes de continuar. Sem isso, o domínio e os passos seguintes não funcionarão como esperado.
 :::
 
-Acesse a pasta dos blocos de servidor com o comando abaixo. É aqui que você vai guardar todas as configurações do proxy.
+Acesse a pasta dos blocos de servidor com o comando abaixo. É aqui que você vai armazenar todas as suas configurações de proxy.
 
 ```
 cd /etc/nginx/sites-available/
 ```
 
-Agora use o comando abaixo para criar um novo arquivo de configuração. Recomendamos usar o domínio como nome do arquivo, para facilitar a identificação (ex: zapdocs.example.com). Substitua `[your_filename]` pelo nome que quiser usar.
+Agora use o comando abaixo para criar um novo arquivo de configuração. Recomendamos usar o domínio como nome do arquivo, para facilitar a identificação (ex: zapdocs.exemplo.com). Substitua `[seu_nome_arquivo]` pelo nome que desejar.
 
 ```
-sudo nano [your_filename]
+sudo nano [seu_nome_arquivo]
 ```
 
-Isso vai abrir o editor nano, onde você poderá inserir o conteúdo. Copie o template abaixo para o editor. Você precisa ajustar `[your_domain]` para o domínio que quer proxyar e `[your_target_server]` para o servidor alvo que deseja alcançar.
+Isso abrirá o editor nano, onde você poderá inserir o conteúdo. Copie o template abaixo para o editor. Você precisa ajustar `[seu_dominio]` com o domínio que deseja proxyar e `[seu_servidor_alvo]` para o servidor alvo que deseja alcançar.
 
 ```
 upstream targetServer {
     # Adicione o servidor alvo que deseja alcançar. Pode ser:
     # Redirecionamento interno "localhost" (ex: 127.0.0.1:9090)
     # Servidor externo (ex: 103.146.43.52:9000)
-    server [your_target_server];
+    server [seu_servidor_alvo];
 }
 
 server {
     listen 80;
     listen [::]:80;
 
-    # Domínio que será gerenciado (ex: zapdocs.example.com)
-    server_name [your_domain];
+    # Domínio que será atendido (ex: zapdocs.exemplo.com)
+    server_name [seu_dominio];
 
     location / {
         proxy_set_header Host $host;
@@ -122,10 +120,10 @@ Com todos os valores adaptados para sua configuração, salve o arquivo e saia d
 Agora você precisa ativar o bloco de servidor criando um link simbólico para o diretório ativo.
 
 ```
-sudo ln -s /etc/nginx/sites-available/[your_filename] /etc/nginx/sites-enabled/[your_filename]
+sudo ln -s /etc/nginx/sites-available/[seu_nome_arquivo] /etc/nginx/sites-enabled/[seu_nome_arquivo]
 ```
 
-Para garantir que está tudo certo, especialmente a sintaxe, use `sudo nginx -t` para verificar se há erros. Se retornar sucesso, o último passo é reiniciar o Nginx para aplicar o novo bloco de servidor.
+Para garantir que tudo está correto, especialmente a sintaxe, use `sudo nginx -t` para verificar se há erros. Se retornar sucesso, o último passo é reiniciar o Nginx para aplicar o novo bloco de servidor.
 
 ```
 systemctl reload nginx.service
@@ -143,7 +141,7 @@ A maioria dos servidores dedicados de jogos deve funcionar perfeitamente com um 
 
 ### Configuração do Nginx
 
-Para isso, você vai precisar do módulo **Nginx Stream**, que não faz parte da instalação padrão do Nginx.
+Para isso, é necessário o módulo **Nginx Stream**, que não faz parte da instalação padrão do Nginx.
 
 #### Instalar módulo Nginx stream
 
@@ -165,7 +163,7 @@ sudo dnf -y install nginx-mod-stream
 
 #### Configuração do Nginx stream
 
-Você vai adicionar um novo bloco `stream` no arquivo principal `nginx.conf`, onde definirá o servidor upstream e a porta pela qual ele será acessado no seu proxy.
+Você vai adicionar um novo bloco `stream` no arquivo principal `nginx.conf`, onde definirá o servidor upstream e a porta que será acessada no seu proxy.
 
 Abra o arquivo com o comando:
 
@@ -173,41 +171,39 @@ Abra o arquivo com o comando:
 sudo nano /etc/nginx/nginx.conf
 ```
 
-Agora, copie o template abaixo para dentro do arquivo, que adiciona um novo bloco `stream`. Substitua `[your_target_server]` pelo servidor para o qual deseja transmitir, incluindo a porta relevante (como `:30120` para FiveM). Da mesma forma, substitua `[your_port_listener]` pela porta pela qual as pessoas vão acessar seu conteúdo via proxy.
+Agora, copie o template abaixo para dentro do arquivo, que adiciona um bloco `stream`. Substitua `[seu_servidor_alvo]` pelo servidor para onde deseja transmitir, incluindo a porta relevante (como `:30120` para FiveM). Da mesma forma, substitua `[sua_porta_escuta]` pela porta que as pessoas usarão para acessar seu conteúdo via proxy.
 
 ```
 stream {
     upstream targetServer {
         # Adicione o servidor alvo que deseja alcançar (ex: 103.146.43.52:30120)
-        server [your_target_server];
+        server [seu_servidor_alvo];
     }
 
     server {
         # Porta que escuta e faz a ponte das conexões (ex: 30120)
-        listen [your_port_listener];
+        listen [sua_porta_escuta];
         proxy_pass targetServer;
     }
 }
 ```
 
-Na prática, o Nginx vai escutar na porta específica por conexões e transmitir tudo para o servidor alvo que você definiu (do seu servidor proxy para seu servidor dedicado de jogos real).
+Basicamente, o Nginx vai escutar na porta específica por conexões e transmitir tudo para o servidor alvo que você definiu (do seu servidor proxy para seu servidor de jogos real).
 
-Com todos os valores adaptados para sua configuração, salve o arquivo e saia do nano usando `CTRL + X`, depois `Y` para confirmar e por fim `ENTER`.
+Com todos os valores adaptados, salve o arquivo e saia do nano usando `CTRL + X`, depois `Y` para confirmar e por fim `ENTER`.
 
-Para garantir que está tudo certo, especialmente a sintaxe, use `sudo nginx -t` para verificar se há erros. Se retornar sucesso, o último passo é reiniciar o Nginx para aplicar a nova configuração.
+Para garantir que tudo está correto, especialmente a sintaxe, use `sudo nginx -t` para verificar se há erros. Se retornar sucesso, o último passo é reiniciar o Nginx para aplicar a nova configuração.
 
 ```
 systemctl reload nginx.service
 ```
 
-Com o serviço reiniciado, tente conectar ao seu servidor de jogos via domínio do proxy. Se funcionar, você deve conseguir se conectar ao servidor de jogos, especificamente ao servidor que definiu no parâmetro `targetServer`. Se tiver problemas, recomendamos checar os logs para troubleshooting com `journalctl -f -u nginx.service` para identificar possíveis erros.
+Com o serviço reiniciado, tente conectar ao seu servidor de jogos via domínio do proxy. Se funcionar, você deverá conseguir conectar ao servidor de jogos que definiu no parâmetro `targetServer`. Se tiver problemas, recomendamos checar os logs para troubleshooting com `journalctl -f -u nginx.service` para identificar possíveis erros.
 
 ## Certificado SSL
 
-Com seu reverse proxy configurado, recomendamos muito adicionar um Certificado SSL aos domínios usados para garantir que o site transmita dados de forma segura via HTTPS. Confira nosso guia [Instalar Certbot](dedicated-linux-certbot.md), que cobre todo o processo de solicitar e renovar automaticamente Certificados SSL para seu(s) domínio(s).
+Com seu reverse proxy configurado, recomendamos fortemente adicionar um Certificado SSL aos seus domínios usados para garantir que o site transmita dados de forma segura via HTTPS. Confira nosso guia [Instalar Certbot](dedicated-linux-certbot.md), que cobre todo o processo de solicitação e renovação automática de Certificados SSL para seu(s) domínio(s).
 
 ## Conclusão
 
-Parabéns, você configurou com sucesso um reverse proxy para um site ou seu servidor de jogos (ou ambos :), garantindo várias melhorias em segurança, confiabilidade e performance. Para dúvidas ou ajuda, não hesite em contatar nosso time de suporte, disponível diariamente para te ajudar! 🙂
-
-<InlineVoucher />
+Parabéns, você configurou com sucesso um reverse proxy para um site ou seu servidor de jogos (ou ambos :), garantindo várias melhorias em segurança, confiabilidade e desempenho. Para dúvidas ou ajuda, não hesite em contatar nosso time de suporte, disponível diariamente para te ajudar! 🙂

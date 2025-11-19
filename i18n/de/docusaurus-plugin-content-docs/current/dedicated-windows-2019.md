@@ -14,7 +14,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 Im Folgenden erklären wir dir Schritt für Schritt, wie du das Windows Server Betriebssystem auf deinem Dedicated Server installierst und konfigurierst. Folge diesen Anweisungen sorgfältig, damit du das Betriebssystem erfolgreich einrichtest und optimal nutzen kannst.
 
 :::info Windows Server 2019
-Die Setup-Schritte und die Demonstration in dieser Anleitung basieren auf dem Betriebssystem Windows Server 2019. Ältere OS-Versionen können sich in Aufbau und Optik unterscheiden. Das Vorgehen ist jedoch ähnlich.
+Die Setup-Schritte und die Demonstration in dieser Anleitung basieren auf dem Windows Server 2019 Betriebssystem. Ältere OS-Versionen können sich in Aufbau und Optik unterscheiden. Das Vorgehen ist jedoch ähnlich.
 :::
 
 :::warning Neuere Version verfügbar / EOL-Details
@@ -28,24 +28,22 @@ Der Support für ältere Windows Server Versionen wird früher oder später eing
 
 :::
 
-<InlineVoucher />
-
 ## Vorbereitung
 Für die Installation und Konfiguration eines Betriebssystems ist es zunächst wichtig, das passende ISO des Betriebssystems einzubinden. Es gibt mehrere Möglichkeiten, das ISO zu mounten:
 
-1. Einbinden über die Ersteinrichtung
-2. Einbinden über iLO (Virtual Media)
-3. Einbinden über iLO (Remote Console)
+1. Mounten über die Ersteinrichtung
+2. Mounten über iLO (Virtual Media)
+3. Mounten über iLO (Remote Console)
 
-Wenn du noch nicht vertraut bist mit dem Einbinden einer ISO-Datei, empfehlen wir dir unsere [Ersteinrichtung](dedicated-setup.md) oder [Eigenes ISO](dedicated-iso.md) Anleitung.
+Wenn du noch nicht vertraut bist mit dem Mounten einer ISO-Datei, empfehlen wir dir unsere [Ersteinrichtung](dedicated-setup.md) oder die [Eigene ISO](dedicated-iso.md) Anleitung.
 
 ## Installation
-Um einen Windows Server zu installieren, benötigst du eine ISO-Datei deiner Wahl. Im Webinterface kannst du die gewünschte Windows-Version auswählen. Alternativ kannst du auch eine eigene ISO-Datei verwenden, dafür haben wir eine [Eigenes ISO](dedicated-iso.md) Anleitung.
+Um einen Windows Server zu installieren, benötigst du eine ISO-Datei deiner Wahl. Im Webinterface kannst du die gewünschte Windows-Version auswählen. Alternativ kannst du auch eine eigene ISO-Datei verwenden, dafür haben wir eine [Eigene ISO](dedicated-iso.md) Anleitung.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/DDNsa9zjbXng9Z6/preview)
 
-Wenn dieser Bildschirm in der Remote-Konsole erscheint, bedeutet das, dass das ISO erfolgreich geladen wurde und wir mit der Installation starten können.
-Wähle deine gewünschte Sprache und klicke auf „Weiter“, um fortzufahren.
+Wenn dieser Bildschirm in deiner Remote-Konsole erscheint, wurde das ISO erfolgreich geladen und wir können mit der Installation starten.
+Wähle deine gewünschte Sprache und klicke auf „Weiter“.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/iyjwCCSmjPqiDMt/preview)
 
@@ -60,13 +58,13 @@ Wir verkaufen keine Windows-Lizenzen, der Schlüssel muss selbst erworben werden
 :::
 
 Windows-Produktschlüssel kannst du in verschiedenen Online-Shops kaufen. Achte darauf, dass der Schlüssel für deine Windows-Version gültig ist, da es unterschiedliche Versionen gibt.
-Bei Windows Server 2019 gibt es z.B. zwei Editionen: die Standard- und die Datacenter-Edition.
-Wenn du dir unsicher bist, was du genau brauchst, klicke einfach auf „Ich habe keinen Produktschlüssel“. Du kannst den Schlüssel jederzeit später hinzufügen.
+Beim Windows Server 2019 gibt es z.B. die Standard- und die Datacenter-Edition.
+Wenn du dir unsicher bist, was genau du brauchst, klicke einfach auf „Ich habe keinen Produktschlüssel“. Du kannst den Schlüssel später jederzeit hinzufügen.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/jH5dYQBq7FtT2SL/preview)
 
-Wähle jetzt die Version aus, die du installieren möchtest.
-Achte darauf, die richtige Version zu wählen, da ein späterer Wechsel nicht möglich ist.
+Wähle nun die Version aus, die du installieren möchtest.
+Achte darauf, die richtige Version zu wählen, ein späterer Wechsel ist nicht möglich.
 Wichtig: Wähle eine Version mit „(Desktop Experience)“, sonst läuft dein Windows nur als Shell-basiertes System.
 Wenn du dich entschieden hast, markiere die Version und klicke auf „Weiter“.
 
@@ -76,18 +74,18 @@ Akzeptiere die Lizenzbedingungen und klicke auf „Weiter“.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/Bbfj7R2RdkNkMzq/preview)
 
-Wähle „Benutzerdefiniert“ (Custom), wenn du eine Neuinstallation von Windows durchführen möchtest. „Upgrade“ kannst du wählen, wenn du z.B. von 2016 auf 2019 upgraden willst.
+Wähle „Benutzerdefiniert“, wenn du eine Neuinstallation von Windows durchführen möchtest. „Upgrade“ kannst du wählen, wenn du z.B. von 2016 auf 2019 upgraden willst.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/8zkx8grPTCSgprQ/preview)
 
 Im nächsten Schritt musst du Partitionen auf deinem Dedicated Server anlegen. Normalerweise sollten noch keine Partitionen vorhanden sein. Falls doch, markiere sie und klicke auf „Löschen“.
 
-Du kannst mehrere kleinere Partitionen oder eine große anlegen. Wenn du kleinere Partitionen erstellst, empfehlen wir mindestens 50 GB für die Haupt-Windows-Partition.
+Du kannst mehrere kleinere Partitionen oder eine große erstellen. Wenn du kleinere Partitionen anlegst, empfehlen wir mindestens 50 GB für die Hauptpartition von Windows.
 Klicke auf „Neu“, um eine Partition zu erstellen.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/GtBxwdETkNeSGcT/preview)
 
-Wenn du eine große Partition möchtest, kannst du einfach auf „Übernehmen“ klicken. Das Setup nimmt automatisch die größtmögliche Größe.
+Wenn du nur eine große Partition möchtest, klicke einfach auf „Übernehmen“. Das Setup nimmt automatisch die größtmögliche Größe.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/xWr3ySfyGdYbxKt/preview)
 
@@ -118,7 +116,7 @@ Nach dem Setzen des Passworts landest du im Windows-Lockscreen.
 ![](https://screensaver01.zap-hosting.com/index.php/s/ddxASYsjNgwHX5i/preview)
 
 Um dich bei Windows anzumelden, drücke die Tastenkombination `STRG + ALT + ENTF`. Das kannst du einfach über deine Remote-Konsole machen.
-(Du findest das in der Java-Konsole unter „Tastatur“)
+(In der Java-Konsole findest du das unter „Tastatur“)
 Melde dich jetzt mit deinem Passwort an.
 
 Im nächsten Schritt musst du den Remotedesktop aktivieren, damit du dich später einfach mit deinem Server verbinden kannst.
@@ -137,7 +135,7 @@ Wähle „Eigenschaften“.
 Bestätige die Firewall-Meldung mit „OK“ und klicke auf „Übernehmen“.
 
 Öffne jetzt auf deinem Rechner den Remotedesktop und gib die IP-Adresse deines ZAP-Interfaces ein.
-Der Benutzername ist immer Administrator und das Passwort ist das, das du zuvor festgelegt hast.
+Der Benutzername ist immer Administrator und das Passwort das, welches du vorher festgelegt hast.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/w97g9aDrpM8EjpA/preview)
 
@@ -146,7 +144,7 @@ Bestätige alles mit „Ja“.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/SqqCdBZRYysz8yj/preview)
 
-Die Remotedesktop-Verbindung stellt nun eine Verbindung zu deinem Dedicated Server her und du kannst ihn nutzen.
+Die Remotedesktopverbindung stellt nun eine Verbindung zu deinem Dedicated Server her und du kannst ihn nutzen.
 Die Netzwerkkonfiguration wird automatisch per DHCP übernommen, weitere Änderungen sind nicht nötig.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/9BEEiFAtJ2jCoCk/preview)
@@ -157,5 +155,3 @@ Wenn du weitere Fragen oder Probleme hast, hilft dir unser Support gerne weiter!
 
 ## Fazit
 Glückwunsch, du hast erfolgreich das Windows Server 2019 Betriebssystem auf deinem Dedicated Server installiert. Für weitere Fragen oder Unterstützung steht dir unser Support-Team täglich zur Verfügung! 🙂
-
-<InlineVoucher />

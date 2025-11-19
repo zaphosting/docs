@@ -1,7 +1,7 @@
 ---
 id: dedicated-windows-bitwarden
 title: "Servidor Dedicado: Configura Bitwarden en Windows"
-description: "Descubre cómo gestionar tus contraseñas de forma segura con Bitwarden usando cifrado de extremo a extremo y opciones de autoalojamiento → Aprende más ahora"
+description: "Descubre cómo gestionar contraseñas de forma segura con Bitwarden usando cifrado de extremo a extremo y opciones de autoalojamiento → Aprende más ahora"
 sidebar_label: Instalar Bitwarden
 services:
   - dedicated
@@ -13,19 +13,17 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introducción
 
-Bitwarden es un gestor de contraseñas y claves de acceso open source que utiliza cifrado de conocimiento cero y de extremo a extremo para proteger tus datos. Puedes usarlo como servicio en la nube o autoalojarlo, con funciones para generar, almacenar y autocompletar credenciales seguras.
+Bitwarden es un gestor de contraseñas y claves de acceso open source que utiliza cifrado de conocimiento cero y de extremo a extremo para proteger tus datos. Puedes usarlo como servicio en la nube o autoalojarlo, con funciones para generar, almacenar y autocompletar credenciales fuertes.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/RwKmstAct5kNQwB/preview)
 
-¿Estás pensando en alojar este servicio tú mismo? Te guiaremos paso a paso para configurarlo y ajustarlo, junto con todo lo que necesitas tener en cuenta.
-
-<InlineVoucher />
+¿Estás pensando en alojar este servicio tú mismo? Te guiaremos paso a paso para configurarlo y ajustarlo, junto con todo lo que debes tener en cuenta.
 
 
 
 ## Requisitos previos
 
-Antes de instalar **Bitwarden**, asegúrate de que tu entorno de hosting cumple con los siguientes requisitos para garantizar una instalación fluida y un rendimiento óptimo.
+Antes de instalar **Bitwarden**, asegúrate de que tu entorno de hosting cumple con los siguientes requisitos para garantizar una instalación sin problemas y un rendimiento óptimo.
 
 | Hardware   | Mínimo     | Recomendación ZAP-Hosting |
 | ---------- | ----------- | -------------------------- |
@@ -37,7 +35,7 @@ El software requiere que todas las dependencias necesarias estén instaladas y q
 
 **Dependencias:** `Docker (Engine 26+ y Compose)`
 
-**Sistema operativo:** Última versión de Windows Server compatible con Docker 26+
+**Sistema Operativo:** Última versión de Windows Server compatible con Docker 26+
 
 Verifica que todas las dependencias estén instaladas y que la versión del sistema operativo sea la correcta para evitar problemas de compatibilidad durante la instalación de Bitwarden.
 
@@ -52,7 +50,7 @@ Antes de configurar **Bitwarden**, necesitas preparar tu sistema. Esto incluye a
 Para asegurarte de que tu sistema funciona con el software y las mejoras de seguridad más recientes, siempre debes realizar primero las actualizaciones del sistema. Esto garantiza que tu sistema tenga los últimos parches de seguridad y versiones de software antes de continuar.
 
 ### Instalar dependencias
-Una vez completado el proceso de actualización, puedes proceder con la instalación de las dependencias. Bitwarden se desplegará y ejecutará en tu máquina usando varios contenedores Docker. Para ello, primero debes instalar Docker. Para hacerlo, instala [Docker Desktop](https://docs.docker.com/desktop/setup/install/windows-install/) en tu servidor.
+Una vez completado el proceso de actualización, puedes proceder con la instalación de las dependencias. Bitwarden se desplegará y ejecutará en tu máquina usando varios contenedores Docker. Esto requiere que Docker esté instalado primero. Para ello, instala [Docker Desktop](https://docs.docker.com/desktop/setup/install/windows-install/) en tu servidor.
 
 Un tutorial completo del proceso de instalación y cómo usar Docker está disponible en nuestra [guía Docker](dedicated-linux-docker.md).
 
@@ -75,19 +73,19 @@ Después crea una carpeta Bitwarden bajo `C:\` para el usuario recién creado:
 PS C:\> mkdir Bitwarden
 ```
 
-En Docker Desktop, ve a **Settings → Resources → File Sharing**. Añade el directorio `C:\Bitwarden` a las rutas compartidas. Selecciona Aplicar y Reiniciar para guardar los cambios.
+En Docker Desktop, ve a **Settings → Resources → File Sharing**. Añade el directorio `C:\Bitwarden` a las rutas compartidas. Selecciona Aplicar y Reiniciar para aplicar los cambios.
 
 
 
 ### Configura tu dominio
 
-Por defecto, Bitwarden corre en el host a través de los puertos 80 (HTTP) y 443 (HTTPS). Configura un dominio con registros DNS apuntando al host, por ejemplo server.example.com, especialmente si lo vas a servir en internet. Evita incluir “Bitwarden” en el nombre de host para reducir la exposición del rol o software del servidor.
+Por defecto, Bitwarden corre en el host a través de los puertos 80 (HTTP) y 443 (HTTPS). Configura un dominio con registros DNS apuntando al host, por ejemplo server.ejemplo.com, especialmente si lo vas a servir en internet. Evita incluir “Bitwarden” en el nombre de host para reducir la exposición del rol o software del servidor.
 
 
 
 
 ## Instalación
-Ahora que se cumplen todos los requisitos y has hecho las preparaciones necesarias, puedes proceder con la instalación de la aplicación Bitwarden.
+Ahora que se cumplen todos los requisitos y se han completado las preparaciones necesarias, puedes proceder con la instalación de la aplicación Bitwarden.
 
 Descarga el script de instalación de Bitwarden a tu máquina y luego ejecuta el script instalador:
 
@@ -99,9 +97,9 @@ Invoke-RestMethod -OutFile bitwarden.ps1 -Uri "https://func.bitwarden.com/api/dl
 
 En el instalador primero introduces el nombre de dominio de tu instancia Bitwarden, normalmente el registro DNS configurado. Luego eliges si Let’s Encrypt debe generar un certificado SSL gratuito y confiable. Si sí, proporcionas un correo para avisos de expiración. Si no, siguen las preguntas sobre el certificado.
 
-Introduce tu ID de instalación y clave de instalación, ambos obtenidos en [Bitwarden](https://bitwarden.com/host). Luego selecciona la región US o EU, que solo importa si conectas una instancia autoalojada a una suscripción de pago.
+Introduce tu ID de instalación y Clave de instalación, ambos obtenidos en [Bitwarden](https://bitwarden.com/host). Luego selecciona la región US o EU, que solo importa si conectas una instancia autoalojada a una suscripción de pago.
 
-Si no usas Let’s Encrypt, puedes usar un certificado existente colocando los archivos en `C:\Bitwarden\bwdata\ssl\<tu_dominio>` y declarando si es confiable. Alternativamente, puedes generar un certificado autofirmado, recomendado solo para pruebas. Si eliges no usar certificado, debes colocar un proxy HTTPS delante de la instalación o las aplicaciones Bitwarden no funcionarán.
+Si no usas Let’s Encrypt puedes usar un certificado existente colocando los archivos en `C:\Bitwarden\bwdata\ssl\<tu_dominio>` y declarando si es confiable. Alternativamente puedes generar un certificado autofirmado, recomendado solo para pruebas. Si eliges no usar certificado, debes colocar un proxy HTTPS delante de la instalación o las aplicaciones Bitwarden no funcionarán.
 
 
 
@@ -125,9 +123,9 @@ Valida la configuración SMTP. Una configuración correcta reporta éxito; de lo
 
 Una configuración correcta reporta éxito; de lo contrario verás mensajes sobre falta de OpenSSL o valores incorrectos. Aplica los cambios con `.\bitwarden.ps1 -restart`.
 
-Luego revisa los parámetros de instalación en `.\bwdata\config.yml`. Este archivo controla los recursos generados y debe ajustarse para entornos especiales, por ejemplo si usas un proxy o puertos alternativos. Aplica estos cambios con `.\bitwarden.ps1 -rebuild`.
+Luego revisa los parámetros de instalación en `.\bwdata\config.yml`. Este archivo controla los recursos generados y debe ajustarse para entornos especiales, por ejemplo si usas un proxy o puertos alternativos. Aplica esos cambios con `.\bitwarden.ps1 -rebuild`.
 
-Finalmente inicia la instancia con `.\bitwarden.ps1 -start`. La primera ejecución puede tardar mientras Docker descarga las imágenes. Usa `docker ps` para confirmar que todos los contenedores están saludables. Luego abre la bóveda web en tu dominio configurado y regístrate si es necesario. La verificación por correo requiere variables SMTP configuradas correctamente.
+Finalmente inicia la instancia con `.\bitwarden.ps1 -start`. La primera ejecución puede tardar mientras Docker descarga las imágenes. Usa `docker ps` para confirmar que todos los contenedores están saludables. Luego abre la bóveda web en tu dominio configurado y registra una cuenta si es necesario. La verificación por correo requiere variables SMTP configuradas correctamente.
 
 ## Conclusión y más recursos
 

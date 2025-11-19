@@ -11,11 +11,9 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introdução
 
-O **FTP (File Transfer Protocol)** é um protocolo de rede usado para transferir arquivos através de uma rede TCP/IP. O protocolo foi desenvolvido para permitir a troca fácil de arquivos entre sistemas. Com o **FileZilla Server** é possível configurar um servidor FTP assim em um sistema operacional Linux. O FileZilla Server é fácil de instalar e configurar, e oferece várias funcionalidades como a possibilidade de criar contas de usuário, gerenciar direitos de acesso e transferir arquivos. Neste guia, vamos explorar o processo de instalação e configuração do serviço **FileZilla Server** em um servidor Linux.
+O **FTP (File Transfer Protocol)** é um protocolo de rede usado para transferir arquivos através de uma rede TCP/IP. O protocolo foi desenvolvido para permitir a troca fácil de arquivos entre sistemas. Com o **FileZilla Server** é possível configurar um servidor FTP assim em um sistema operacional Linux. O FileZilla Server é fácil de instalar e configurar, e oferece vários recursos como a possibilidade de criar contas de usuário, gerenciar direitos de acesso e transferir arquivos. Neste guia, vamos explorar o processo de instalação e configuração do serviço **FileZilla Server** em um servidor Linux.
 
-<InlineVoucher />
-
-## Como instalo o servidor FTP para adicionar um usuário?
+## Como eu instalo o servidor FTP para adicionar um usuário?
 
 Para adicionar um usuário FTP, primeiro você precisa instalar o servidor FTP. Para isso, conecte-se ao servidor uma vez via SSH (Putty).
 
@@ -27,13 +25,13 @@ Agora ainda precisamos ajustar a configuração. Para isso, digite o comando **n
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/8X4A6MZEr27YqFf/preview)
 
-Os seguintes parâmetros devem ser adicionados:
+As seguintes entradas devem ser adicionadas:
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/7ykDgQeP2qTHSbm/preview)
 
 Agora o servidor FTP precisa ser reiniciado para que as alterações tenham efeito. Isso pode ser feito com o comando: **service proftpd restart**
 
-## Como adiciono um usuário FTP?
+## Como eu adiciono um usuário FTP?
 
 Para criar o novo usuário FTP, primeiro precisamos criar um grupo FTP. Fazemos isso com o comando **addgroup ftpuser**. Vai ficar assim:
 
@@ -57,8 +55,4 @@ Agora podemos conectar com as informações que configuramos:
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/7toWfnRSmQzGL9r/preview)
 
-
 ![](https://screensaver01.zap-hosting.com/index.php/s/oHsAKpc7MHqEQCF/preview)
-
-
-<InlineVoucher />

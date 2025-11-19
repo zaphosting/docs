@@ -13,25 +13,23 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 بروتوكول **FTP (بروتوكول نقل الملفات)** هو بروتوكول شبكي يُستخدم لنقل الملفات عبر شبكة TCP/IP. تم تطوير البروتوكول لتسهيل تبادل الملفات بين الأنظمة. مع **FileZilla Server** يمكنك إعداد سيرفر FTP على نظام تشغيل لينكس. FileZilla Server سهل التثبيت والتهيئة، ويقدم ميزات كثيرة مثل إمكانية إنشاء حسابات مستخدمين، إدارة صلاحيات الوصول ونقل الملفات. في هذا الدليل، سنستعرض خطوات تثبيت وتكوين خدمة **FileZilla Server** على سيرفر لينكس.
 
-<InlineVoucher />
-
 ## كيف أثبت سيرفر FTP لإضافة مستخدم؟
 
 لإضافة مستخدم FTP، يجب أولاً تثبيت سيرفر FTP. للقيام بذلك، اتصل بالسيرفر مرة واحدة عبر SSH (باستخدام Putty).
 
-لتثبيت سيرفر FTP الآن، أدخل الأمر التالي **apt-get install proftpd**. عليك تأكيد الطلب بالضغط على **Y** ثم إدخال:
+لتثبيت سيرفر FTP الآن، أدخل الأمر التالي **apt-get install proftpd**. يجب تأكيد الطلب بالضغط على **Y** ثم إدخال:
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/MWzQMoq5yrRXP7Y/preview)
 
-الآن يجب تعديل ملف الإعدادات. للقيام بذلك، أدخل الأمر التالي **nano /etc/proftpd/proftpd.conf** واضغط إدخال. بعدها سيفتح ملف الإعدادات في محرر Nano:
+الآن علينا تعديل الإعدادات. للقيام بذلك، أدخل الأمر **nano /etc/proftpd/proftpd.conf** واضغط إدخال. بعدها سيفتح ملف الإعدادات في محرر Nano:
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/8X4A6MZEr27YqFf/preview)
 
-يجب إضافة الإدخالات التالية:
+يجب إضافة السطور التالية:
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/7ykDgQeP2qTHSbm/preview)
 
-الآن يجب إعادة تشغيل سيرفر FTP لتطبيق التغييرات. يمكن فعل ذلك بالأمر: **service proftpd restart**
+الآن يجب إعادة تشغيل سيرفر FTP لتطبيق التغييرات. يمكن فعل ذلك بالأمر التالي: **service proftpd restart**
 
 ## كيف أضيف مستخدم FTP؟
 
@@ -57,8 +55,4 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/7toWfnRSmQzGL9r/preview)
 
-
 ![](https://screensaver01.zap-hosting.com/index.php/s/oHsAKpc7MHqEQCF/preview)
-
-
-<InlineVoucher />

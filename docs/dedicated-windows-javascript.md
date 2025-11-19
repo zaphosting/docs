@@ -13,7 +13,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 This guide provides steps for the installation of Node.js, Deno and Bun on Windows. The steps provided below must be executed via RDP, if you don't know how to connect to your server via RDP, please have a look at our [Initial Access (RDP)](vserver-windows-userdp.md) guide.
 
-<InlineVoucher />
+
 
 ## Installation
 
@@ -209,4 +209,4 @@ Congratulations, you have successfully installed JavaScript. For further questio
 
 
 
-<InlineVoucher />
+

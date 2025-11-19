@@ -1,7 +1,7 @@
 ---
 id: dedicated-linux-gitlab
 title: "専用サーバー：LinuxにGitLabをインストールする方法"
-description: "GitLabをLinuxにセットアップしてDevOpsワークフローを効率化し、チームコラボレーションを強化しよう → 今すぐ詳しくチェック"
+description: "GitLabをLinuxにセットアップしてDevOpsワークフローを効率化し、チームコラボレーションを強化しよう → 今すぐチェック"
 sidebar_label: GitLabのインストール
 services:
   - dedicated
@@ -17,20 +17,20 @@ GitLabは、チームがコードでコラボし、ワークフローを自動�
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/ZWMPsLzrXZjnqEE/preview)
 
-<InlineVoucher />
+
 
 ## 準備
 
-以下の要件は公式の[GitLabチーム](https://docs.gitlab.com/ee/install/requirements.html)によって推奨されており、後々のトラブルを避けるために必ず事前条件を守ることを強くおすすめします。
+以下の要件は公式の[GitLabチーム](https://docs.gitlab.com/ee/install/requirements.html)によって推奨されており、後々のトラブルを避けるために必ず事前に確認しておくことを強くおすすめします。
 
 #### ハードウェア
 
-| コンポーネント | 最低要件               | 推奨要件                   |
-| -------------- | ---------------------- | -------------------------- |
-| CPU            | 2x 2 GHz               | 4x 2.6+ GHz                |
-| RAM            | 4 GB                   | 8 GB                       |
-| ストレージ     | 10 GB                  | 50+ GB                     |
-| 帯域幅         | 100 Mbit/s (上り・下り) | 100 Mbit/s (上り・下り)     |
+| コンポーネント | 最低要件               | 推奨                     |
+| -------------- | ---------------------- | ------------------------ |
+| CPU            | 2x 2 GHz               | 4x 2.6+ GHz             |
+| RAM            | 4 GB                   | 8 GB                    |
+| ストレージ     | 10 GB                  | 50 GB以上               |
+| 帯域幅         | 100 Mbit/s (上り下り)  | 100 Mbit/s (上り下り)   |
 
 #### ソフトウェア
 
@@ -38,36 +38,36 @@ GitLabは、チームがコードでコラボし、ワークフローを自動�
 | ---------------- | -------------------------------------------------------------- |
 | OS               | Ubuntu (20.04, 22.04, 24.04), Debian(10, 11, 12), OpenSUSE (15.5) |
 | データベース     | PostgreSQL 14.9+                                               |
-| Webサーバー      | NGINX (GitLabに同梱), Puma 6.4.2+                             |
+| Webサーバー      | NGINX (GitLabにバンドル), Puma 6.4.2+                         |
 | その他           | Redis 7.x+, Sidekiq 7.3.2+, Prometheus 2.54.1+                 |
 
 :::info
-最新かつ正確な仕様情報は、GitLab公式の[ハードウェア要件](https://docs.gitlab.com/ee/install/requirements.html)ドキュメントを必ずご確認ください。
+最新かつ正確な仕様情報については、GitLab公式の[ハードウェア要件](https://docs.gitlab.com/ee/install/requirements.html)ドキュメントを必ずご確認ください。
 :::
 
-## 準備作業
+## 準備
 
-LinuxサーバーにGitLabをインストールするには、SSHクライアントを使って接続を確立する必要があります。詳しくは当社の[初回アクセス（SSH）](vserver-linux-ssh.md)ガイドをご覧ください。
+LinuxサーバーにGitLabをインストールするには、SSHクライアントを使って接続を確立する必要があります。詳しくは当社の[初期アクセス（SSH）](vserver-linux-ssh.md)ガイドをご覧ください。
 
 接続が確立したら、GitLabのインストールに必要なパッケージをインストールしましょう。
 
 ## ステップ1：依存関係のインストール
 
-まず、GitLabインストーラーを動かすために必要な依存関係をインストールします。以下のコマンドを使ってLinuxサーバーに必要なパッケージを入れてください。
+まず、GitLabインストーラーを動かすために必要な依存関係をインストールします。以下のコマンドを使ってLinuxサーバーに必要なパッケージをインストールしてください。
 
 <Tabs>
 <TabItem value="ubuntu" label="Ubuntu" default>
 
-パッケージリストを最新に更新し、OpenSSHサーバーと必要な前提パッケージをインストールします。GitLabのWebインターフェースはこれでホストされます。
+パッケージリストを最新に更新し、OpenSSHサーバーと必要な前提条件をインストールします。これがGitLabのWebインターフェースをホストする仕組みです。
 
 ```
 sudo apt update
 sudo apt-get install -y curl openssh-server ca-certificates tzdata perl
 ```
 
-メール通知を使いたい場合は、Postfix（SMTPサーバー）もインストール可能です。これは**任意**です。
+GitLabでメール通知を送りたい場合は、Postfix（SMTPサーバー）もインストール可能です。これは**任意**です。
 
-メール通知を使う場合は、以下のコマンドでPostfixをインストールしてください。
+メール通知を使いたい場合は、以下のコマンドでPostfixをインストールしてください。
 ```
 sudo apt-get install -y postfix
 ```
@@ -76,16 +76,16 @@ sudo apt-get install -y postfix
 
 <TabItem value="debian" label="Debian">
 
-パッケージリストを最新に更新し、OpenSSHサーバーと必要な前提パッケージをインストールします。GitLabのWebインターフェースはこれでホストされます。
+パッケージリストを最新に更新し、OpenSSHサーバーと必要な前提条件をインストールします。これがGitLabのWebインターフェースをホストする仕組みです。
 
 ```
 sudo apt update
 sudo apt-get install -y curl openssh-server ca-certificates perl
 ```
 
-メール通知を使いたい場合は、Postfix（SMTPサーバー）もインストール可能です。これは**任意**です。
+GitLabでメール通知を送りたい場合は、Postfix（SMTPサーバー）もインストール可能です。これは**任意**です。
 
-メール通知を使う場合は、以下のコマンドでPostfixをインストールしてください。
+メール通知を使いたい場合は、以下のコマンドでPostfixをインストールしてください。
 ```
 sudo apt-get install -y postfix
 ```
@@ -94,14 +94,13 @@ sudo apt-get install -y postfix
 
 <TabItem value="opensuse" label="OpenSUSE">
 
-OpenSSHサーバーと必要な前提パッケージをインストールします。GitLabのWebインターフェースはこれでホストされます。
+OpenSSHサーバーと必要な前提条件をインストールします。これがGitLabのWebインターフェースをホストする仕組みです。
 
 ```
 sudo zypper install curl openssh perl
 ```
 
-次に、OpenSSHデーモンが有効になっているか確認し、必要なら起動します。
-
+次に、OpenSSHデーモンが有効になっているか以下のコマンドで確認し、有効化・起動します。
 ```
 sudo systemctl status sshd
 sudo systemctl enable sshd
@@ -116,7 +115,7 @@ sudo systemctl start sshd
 sudo systemctl status firewalld
 ```
 
-使っている場合は、デフォルトで必要なポート（80と443）を開放しましょう。
+使っている場合は、必要なポート（デフォルトで80と443）を開放してください。
 
 ```
 sudo firewall-cmd --permanent --add-service=http
@@ -124,10 +123,9 @@ sudo firewall-cmd --permanent --add-service=https
 sudo systemctl reload firewalld
 ```
 
-メール通知を使いたい場合は、Postfix（SMTPサーバー）もインストール可能です。これは**任意**です。
+GitLabでメール通知を送りたい場合は、Postfix（SMTPサーバー）もインストール可能です。これは**任意**です。
 
-メール通知を使う場合は、以下のコマンドでPostfixをインストールし、有効化・起動してください。
-
+メール通知を使いたい場合は、以下のコマンドでPostfixをインストールし、有効化・起動してください。
 ```
 sudo zypper install postfix
 sudo systemctl enable postfix
@@ -138,9 +136,9 @@ sudo systemctl start postfix
 </Tabs>
 
 :::info
-Postfixのインストール中に設定画面が表示されたら、「Internet Site」を選択してEnterを押してください。メール名にはLinuxサーバーの外部DNSを入力し、Enterを押します。追加の画面が出た場合はすべてEnterでデフォルト設定を受け入れてください。
+Postfixのインストール中に設定画面が表示された場合は、「Internet Site」を選択してEnterを押してください。メール名にはLinuxサーバーの外部DNSを入力し、Enterを押します。追加の画面が出たらすべてEnterでデフォルト設定を受け入れてください。
 
-別のメール送信方法を使いたい場合はこのステップをスキップし、GitLabインストール後に公式GitLabチームのガイドに従って[外部SMTPサーバーを設定](https://docs.gitlab.com/omnibus/settings/smtp)してください。
+別のメール送信ソリューションを使いたい場合はこのステップをスキップし、GitLabインストール後に公式GitLabチームのガイドに従って[外部SMTPサーバーを設定](https://docs.gitlab.com/omnibus/settings/smtp)してください。
 :::
 
 ## ステップ2：GitLabのインストール
@@ -158,7 +156,7 @@ Postfixのインストール中に設定画面が表示されたら、「Interne
 curl https://packages.gitlab.com/install/repositories/gitlab/gitlab-ee/script.deb.sh | sudo bash
 ```
 
-追加が完了したら、`gitlab-ee`パッケージをインストールします。
+完了したら、`gitlab-ee`パッケージをインストールします。
 
 ```bash
 sudo apt-get install -y gitlab-ee
@@ -172,7 +170,7 @@ sudo apt-get install -y gitlab-ee
 curl -sS https://packages.gitlab.com/install/repositories/gitlab/gitlab-ee/script.rpm.sh | sudo bash
 ```
 
-追加が完了したら、`gitlab-ee`パッケージをインストールします。
+完了したら、`gitlab-ee`パッケージをインストールします。
 
 ```bash
 sudo zypper install gitlab-ee
@@ -181,40 +179,40 @@ sudo zypper install gitlab-ee
 
 </Tabs>
 
-インストールが完了したら、次のセクションでサーバーを正常に動作させるための基本設定を行います。
+このプロセスが完了すると、LinuxサーバーにGitLabがインストールされているはずです。次のセクションで、サーバーが正常に動作するための重要な設定を行います。
 
 ## ステップ3：GitLabの設定
 
-正常に動作させるために、設定ファイルの一部を編集します。まずはお好きなテキストエディタでGitLabの設定ファイルを開きましょう。ここでは例として`nano`を使います。
+正常に動作させるために、設定ファイルの一部を編集します。まずはお好みのテキストエディタでGitLabの設定ファイルを開きましょう。ここでは例として`nano`を使います。
 
 ```
 sudo nano /etc/gitlab/gitlab.rb
 ```
 
-次に、`external_url`の行を探し、ドメインをお持ちであればドメインを、なければLinuxサーバーのIPアドレスを入力してください。
+次に、`external_url`の行を探し、ドメインをお持ちの場合はドメイン名を、ない場合はLinuxサーバーのIPアドレスを入力してください。
 
-<!-- /etc/gitlab/gitlab.rbファイルからの抜粋 -->
+<!-- 以下は /etc/gitlab/gitlab.rb ファイルの一部 -->
 ```
 ## GitLab URL
-##! GitLabにアクセスするためのURL
+##! GitLabにアクセスするURL
 ##! 詳細は以下を参照:
 ##! https://docs.gitlab.com/omnibus/settings/configuration.html#configuring-the-external-url-for-gitlab
 ##!
-##! インストールやアップグレード時には環境変数
+##! 注意: インストールやアップグレード時に環境変数
 ##! EXTERNAL_URLの値がここに反映されます。
-##! AWS EC2の場合はパブリックホスト名/IPも取得します。
+##! AWS EC2インスタンスの場合は、AWSからパブリックホスト名/IPアドレスを取得しようとします。
 ##! 詳細は以下を参照:
 ##! https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/instancedata-data-retrieval.html
 external_url 'http`s`://`あなたのドメインまたはLinuxサーバーのIPv4アドレス`'
 ```
 
-さらに、`letsencrypt['contact_emails']`の行にメールアドレスを入力することをおすすめします。これによりLet's Encryptから自動で無料SSL証明書の通知が届きます。
+さらに、`letsencrypt['contact_emails']`の行にメールアドレスを入力することをおすすめします。これにより、Let's Encryptから自動で無料のSSL証明書に関する通知が届きます。
 
 :::note
-無料SSL証明書をLet's Encryptから取得するにはドメインが必要です。IPアドレスでは直接取得できません。
+無料のSSL証明書をLet's Encryptから取得するにはドメインが必要です。IPアドレスでは直接取得できません。
 :::
 
-<!-- /etc/gitlab/gitlab.rbファイルからの抜粋 -->
+<!-- 以下は /etc/gitlab/gitlab.rb ファイルの一部 -->
 ```
 ################################################################################
 # Let's Encrypt連携設定
@@ -238,7 +236,7 @@ external_url 'http`s`://`あなたのドメインまたはLinuxサーバーのIP
 `CTRL+W`で`letsencrypt['contact_emails']`を検索するとファイル内を手早く探せます。
 :::
 
-編集が終わったら、`CTRL+X` → `Y` → `Enter`で保存して終了します。
+編集が終わったら、`CTRL+X`を押し、`Y`で保存、`Enter`で確定してください。
 
 最後に、以下のコマンドでGitLabを新しい設定で再構成します。
 
@@ -246,11 +244,11 @@ external_url 'http`s`://`あなたのドメインまたはLinuxサーバーのIP
 sudo gitlab-ctl reconfigure
 ```
 
-この処理はGitLabを更新設定で初期化し、自動化された処理を行うため少し時間がかかります。ドメインを設定していればSSL証明書も発行されます。
+この処理は少し時間がかかります。GitLabが新しい設定で初期化され、自動的にSSL証明書も発行されます（ドメインを使っている場合）。
 
 ## ステップ4：Webインターフェースへのアクセス
 
-初期化が完了したら、ブラウザからサーバーにアクセスできるようになります。以下のようにドメイン名またはIPアドレスを入力してください。
+初期化が完了したら、ブラウザからサーバーにアクセスできます。以下のようにドメイン名またはIPアドレスを入力してください。
 
 ```
 https://[あなたのドメイン] または http://[あなたのIPアドレス]
@@ -260,47 +258,47 @@ https://[あなたのドメイン] または http://[あなたのIPアドレス]
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/E46E3qS32GKFfk3/preview)
 
-初回ログインで管理者権限を得るには、ユーザー名に`root`を使います。
+初回ログインは`root`ユーザーで管理者アクセスが可能です。ユーザー名は`root`を使います。
 
-パスワードはLinuxサーバー内のファイルに保存されているので、以下のコマンドでファイルを開き`Password`欄を確認してください。
+パスワードはLinuxサーバー内のファイルに保存されているので、以下のコマンドで確認してください。
 
 ```
 sudo nano /etc/gitlab/initial_root_password
 ```
 
-<!-- /etc/gitlab/initial_root_passwordファイルからの抜粋 -->
+<!-- 以下は /etc/gitlab/initial_root_password ファイルの一部 -->
 ```
 # 警告: この値は以下の条件でのみ有効です
 
-# 1. 手動で設定されている場合（環境変数 `GITLAB_ROOT_PASSWORD` または `gitlab_rails['initial_root_password']` 設定）
+# 1. 手動で設定されている場合（`GITLAB_ROOT_PASSWORD`環境変数または`gitlab_rails['initial_root_password']`設定）
 
 # 2. パスワードがUIやコマンドラインで変更されていない場合
 
 #
 
-# もしここにあるパスワードでログインできない場合は、以下を参照して管理者パスワードをリセットしてください。
+# もしここにあるパスワードでログインできない場合は、以下の手順で管理者パスワードをリセットしてください。
 # https://docs.gitlab.com/ee/security/reset_user_password.html#reset-your-root-password
 
 Password: `[ここにパスワードが表示されます]`
 
-# 注意: このファイルは初回のreconfigure実行後24時間以内に自動削除されます。
+# 注意: このファイルは24時間後の最初の再構成時に自動削除されます。
 ```
 
-ログイン画面でユーザー名とパスワードを入力すると、GitLabのダッシュボードに入れます。これで自分のLinuxサーバー上にGitLabパネルが立ち上がりました。
+ログイン画面でユーザー名とパスワードを入力すると、GitLabのダッシュボードにアクセスできます。
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/AqPHoEmY2Q2nFCF/preview)
 
-セキュリティのため、`root`ユーザーのパスワード変更や新規ユーザー作成を強くおすすめします。左下の**Admin**から**Overview->Users**に進むとユーザー管理ができます。
+セキュリティのため、`root`ユーザーのパスワード変更や新規ユーザー作成を強くおすすめします。左下の**Admin**から**Overview->Users**にアクセスするとユーザー管理が可能です。
 
 ## オプション：ufwでファイアウォールを設定する
 
-ファイアウォール設定をしたくない場合や、OpenSUSEで既に`firewalld`を使っている場合はこのセクションはスキップしてOKです。
+ファイアウォール設定をしたくない場合や、OpenSUSEで`firewalld`を使っている場合はこのセクションはスキップしてOKです。
 
 ポート80/443と22を許可する必要があります。
 
 ### ufwのインストール
 
-すでに`ufw`が入っている場合はこのステップはスキップしてください。
+すでに`ufw`をインストール済みならこのステップはスキップしてください。
 
 <Tabs>
 
@@ -329,10 +327,10 @@ sudo ufw allow OpenSSH
 ### ファイアウォールを有効化
 
 :::warning
-この操作で許可していないポートはすべてブロックされます。実行前にホワイトリストが正しく設定されているか必ず確認してください。
+この操作で許可していないポートへのアクセスはすべてブロックされます。実行前にホワイトリストが正しく設定されているか必ず確認してください。
 :::
 
-以下のコマンドでファイアウォールを有効にします。
+ファイアウォールを有効にするには以下のコマンドを実行します。
 
 ```
 sudo ufw enable
@@ -340,8 +338,6 @@ sudo ufw enable
 
 ## まとめ
 
-おめでとうございます！GitLabのインストールに成功しました！もし質問や問題があれば、毎日対応しているサポートチームまでお気軽にお問い合わせください。
+おめでとうございます！GitLabのインストールに成功しました！もし質問や問題があれば、いつでも対応可能なサポートチームにご連絡ください。
 
 さらに設定を進めたい場合は、[公式GitLabドキュメント](https://docs.gitlab.com/ee/install/next_steps.html)の次のステップを読むことをおすすめします。
-
-<InlineVoucher />

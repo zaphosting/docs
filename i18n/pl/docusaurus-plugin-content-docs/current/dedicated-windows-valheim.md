@@ -11,16 +11,16 @@ import YouTube from '@site/src/components/YouTube/YouTube';
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Wprowadzenie
-Masz serwer dedykowany i chcesz na nim zainstalować serwery gier? Na przykład Valheim Dedicated Server? Trafiłeś idealnie! Poniżej krok po kroku wyjaśnimy, jak zainstalować taką usługę na swoim serwerze.
+Masz serwer dedykowany i chcesz na nim postawić serwery gier? Na przykład Valheim Dedicated Server? Trafiłeś idealnie! W poniższym poradniku krok po kroku wyjaśnimy, jak zainstalować taką usługę na swoim serwerze.
 
-<YouTube videoId="Trs9Ysxa1gc" imageSrc="https://screensaver01.zap-hosting.com/index.php/s/D2doaAqjzdMSo9r/preview" title="Konfiguracja Valheim Dedicated Server na Windows VPS" description="Wolisz zobaczyć wszystko w akcji, żeby lepiej zrozumieć? Mamy to! Zanurz się w naszym wideo, które wszystko rozkłada na czynniki pierwsze. Niezależnie czy się spieszysz, czy po prostu wolisz chłonąć wiedzę w najbardziej angażujący sposób!"/>
+<YouTube videoId="Trs9Ysxa1gc" imageSrc="https://screensaver01.zap-hosting.com/index.php/s/D2doaAqjzdMSo9r/preview" title="Konfiguracja Valheim Dedicated Server na Windows VPS" description="Wolisz zobaczyć wszystko na żywo, żeby lepiej zrozumieć? Mamy to! Zanurz się w naszym wideo, które rozkłada wszystko na czynniki pierwsze. Niezależnie czy się spieszysz, czy po prostu wolisz chłonąć wiedzę w najbardziej angażujący sposób!"/>
 
-<InlineVoucher />
+
 
 ## Przygotowanie
-Do konfiguracji serwera Valheim potrzebny jest SteamCMD. SteamCMD to **wersja Steam w trybie tekstowym (command line)**. To narzędzie pozwala szybko i łatwo pobrać aplikacje serwerów dedykowanych popularnych gier ze Steam. SteamCMD znajdziesz na oficjalnej stronie dewelopera Valve: https://developer.valvesoftware.com/wiki/SteamCMD. 
+Do konfiguracji serwera Valheim potrzebny jest SteamCMD. SteamCMD to **wersja klienta Steam działająca w wierszu poleceń**. To narzędzie pozwala szybko i łatwo pobrać aplikacje serwerów dedykowanych popularnych gier ze Steam. SteamCMD znajdziesz na oficjalnej stronie deweloperskiej Valve: https://developer.valvesoftware.com/wiki/SteamCMD. 
 
-Następnie pobierz plik. Będzie to plik **steamcmd.zip**, który musisz rozpakować. Zalecamy utworzenie osobnego folderu, gdzie rozpakujesz plik. Po rozpakowaniu powinieneś zobaczyć plik **steamcmd.exe**. Uruchom go i poczekaj, aż proces instalacji się zakończy.
+Następnie pobierz plik. Będzie to archiwum **steamcmd.zip**, które musisz najpierw rozpakować. Zalecamy utworzyć osobny folder, w którym rozpakujesz plik. Po rozpakowaniu powinieneś zobaczyć plik **steamcmd.exe**. Uruchom go i poczekaj, aż proces instalacji się zakończy.
 ![](https://screensaver01.zap-hosting.com/index.php/s/Y5zygHw2DFJa4dZ/preview)
 
 Gdy pojawi się komunikat **Loading Steam API.... OK**, proces zakończył się pomyślnie i możesz przejść do instalacji serwera Valheim.
@@ -29,9 +29,9 @@ Gdy pojawi się komunikat **Loading Steam API.... OK**, proces zakończył się 
 
 ## Instalacja
 
-Po instalacji powinieneś móc wykonywać polecenia w **Steam command line (steamcmd.exe)**. Musisz się tam zalogować. Zrób to jako użytkownik **anonymous**. Wpisz polecenie: `login anonymous`
+Po instalacji powinieneś móc wykonywać polecenia w **wierszu poleceń Steam (steamcmd.exe)**. Musisz się tam zalogować. Zrób to jako użytkownik **anonymous**. Wpisz polecenie: `login anonymous`
 
-Kolejnym krokiem jest instalacja. Wykonaj polecenie `app_update 896660`. App ID **896660** oznacza aplikację **Valheim Dedicated Server**.
+Kolejnym krokiem jest instalacja. Wykonaj polecenie `app_update 896660`. ID aplikacji **896660** oznacza aplikację **Valheim Dedicated Server**.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/PxZFZat7cP2C26k/preview)
 
@@ -71,10 +71,9 @@ W ustawieniach dodaj reguły przychodzące i wychodzące dla portów: 2456-2458 
 
 
 
-
 ## Konfiguracja
 
-Sama instalacja jest już gotowa. Dalsze zmiany konfiguracji możesz wprowadzić w pliku **start_headless_server.bat**. Masz tam możliwość zmiany nazwy serwera, hasła serwera, hasła administratora i wielu innych opcji. Przejdź do katalogu:
+Sama instalacja jest już gotowa. Dalsze zmiany konfiguracji możesz wprowadzać w pliku **start_headless_server.bat**. Masz tam możliwość zmiany nazwy serwera, hasła serwera, hasła administratora i wielu innych opcji. Znajdziesz go w katalogu:
 
 ```
 ../steamapps/common/Valheim dedicated Server/
@@ -82,8 +81,6 @@ Sama instalacja jest już gotowa. Dalsze zmiany konfiguracji możesz wprowadzić
 
 
 
-## Graj
+## Gra
 
-Na koniec konfiguracji możesz uruchomić serwer, wykonując wcześniej utworzony plik **start_headless_server.bat**. Powinno to otworzyć konsolę serwera i rozpocząć proces startu. Jeśli wszystko pójdzie zgodnie z planem, serwer pojawi się na liście serwerów po pomyślnym uruchomieniu.
-
-<InlineVoucher />
+Na koniec możesz uruchomić serwer, wykonując wcześniej utworzony plik **start_headless_server.bat**. Powinno to otworzyć konsolę serwera i rozpocząć proces startu. Jeśli wszystko pójdzie zgodnie z planem, serwer pojawi się na liście serwerów po pomyślnym uruchomieniu.

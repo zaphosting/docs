@@ -1,7 +1,7 @@
 ---
 id: dedicated-windows-fivem
-title: "Serwer dedykowany: Konfiguracja serwera FiveM dedykowanego"
-description: "Dowiedz się, jak zainstalować i uruchomić własny serwer FiveM dedykowany z txAdmin dla płynnej rozgrywki multiplayer → Sprawdź teraz"
+title: "Serwer dedykowany: Konfiguracja serwera FiveM"
+description: "Dowiedz się, jak zainstalować i uruchomić własny serwer FiveM z txAdmin dla płynnej rozgrywki multiplayer → Sprawdź teraz"
 sidebar_label: FiveM
 services:
   - dedicated
@@ -17,7 +17,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Wprowadzenie
 
-Masz serwer dedykowany i chcesz zainstalować oraz prowadzić własny serwer FiveM dedykowany z txAdmin? Trafiłeś idealnie! Poniżej wyjaśnimy wszystkie niezbędne kroki, jak go zainstalować, skonfigurować i na co zwrócić uwagę.
+Masz serwer dedykowany i chcesz zainstalować oraz prowadzić własny serwer FiveM z txAdmin? Trafiłeś idealnie! Poniżej wyjaśnimy wszystkie niezbędne kroki, jak go zainstalować, skonfigurować i na co zwrócić uwagę.
 
 
 
@@ -29,13 +29,13 @@ Zakładamy, że wybrałeś i zainstalowałeś już system operacyjny na swoim se
 
 ## Przygotowanie
 
-Aby skonfigurować serwer FiveM, potrzebne są pewne przygotowania, które muszą zostać wykonane zanim rozpoczniesz właściwą instalację serwera FiveM dedykowanego.
+Aby skonfigurować serwer FiveM, potrzebne są pewne przygotowania, które muszą zostać wykonane zanim rozpoczniesz właściwą instalację serwera FiveM.
 
 
 
 ### Konfiguracja bazy danych
 
-Jeśli chcesz korzystać i instalować zasoby wymagające bazy danych, potrzebujesz dodatkowego **serwera bazy danych**. Istnieje kilka sposobów na jego konfigurację. W naszym poradniku [Instalacja MySQL](dedicated-windows-installmysql.md) pokazujemy, jak zainstalować własny **serwer bazy danych** na Twoim **serwerze dedykowanym**.
+Jeśli chcesz korzystać i instalować zasoby wymagające bazy danych, potrzebujesz dodatkowego **serwera bazy danych**. Istnieje kilka sposobów na jego konfigurację. W naszym [poradniku Instalacja MySQL](dedicated-windows-installmysql.md) pokazujemy, jak zainstalować własny **serwer bazy danych** na Twoim **serwerze dedykowanym**.
 
 
 
@@ -45,8 +45,8 @@ Kolejnym krokiem jest pobranie oprogramowania serwera FiveM. Wejdź na stronę [
 
 Rozpakuj pobrany plik w katalogu Pobrane i przenieś pliki serwera FiveM najlepiej do osobnego folderu. W tym przykładzie oprogramowanie serwera znajduje się w folderze **FiveM** na pulpicie.
 
-:::warning Wymagane narzędzie do rozpakowywania
-Do rozpakowania pobranego oprogramowania serwera FiveM potrzebne jest narzędzie do rozpakowywania archiwów. W tym przykładzie używamy [7Zip](https://7-zip.com/).
+:::warning Potrzebne narzędzie do rozpakowywania
+Do rozpakowania pobranego oprogramowania serwera FiveM potrzebujesz narzędzia do rozpakowywania archiwów. W tym przykładzie używamy [7Zip](https://7-zip.com/).
 :::
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/B9Qs9raB3fRZjJ4/download)
@@ -63,12 +63,12 @@ Każdy serwer FiveM wymaga własnego klucza licencyjnego, którym zarządza się
 
 ## Konfiguracja
 
-Teraz możesz rozpocząć instalację serwera FiveM i txAdmin. Aby zacząć, otwórz ponownie katalog serwera FiveM i uruchom aplikację `FXServer.exe`.
+Teraz możesz rozpocząć instalację serwera FiveM i txAdmin. Aby to zrobić, otwórz ponownie katalog serwera FiveM i uruchom aplikację `FXServer.exe`.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/aSEbx3LnJe2rZpd/download)
 
 
-Po uruchomieniu aplikacji serwera otworzy się konsola serwera oraz txAdmin. W interfejsie txAdmin musisz połączyć swoje **konto Cfx.re** z txAdmin.
+Po uruchomieniu aplikacji serwera otworzy się konsola serwera oraz txAdmin. W panelu txAdmin musisz połączyć swoje **konto Cfx.re** z txAdmin.
 
 
 
@@ -78,19 +78,19 @@ Po uruchomieniu aplikacji serwera otworzy się konsola serwera oraz txAdmin. W i
 
 ### Konfiguracja txAdmin
 
-Podczas konfiguracji txAdmin Twój własny serwer FiveM zostanie zainstalowany i skonfigurowany w pięciu krokach. Postępuj zgodnie z instrukcjami w interfejsie txAdmin i najpierw zdefiniuj **nazwę serwera**. Następnie wybierz pożądany **typ serwera**. Ten przykład pokazuje instalację serwera FiveM z preinstalowanym QBCore.
+Podczas konfiguracji txAdmin Twój własny serwer FiveM zostanie zainstalowany i skonfigurowany w pięciu krokach. Postępuj zgodnie z instrukcjami w panelu txAdmin i najpierw zdefiniuj **nazwę serwera**. Następnie wybierz odpowiedni **typ serwera**. W tym przykładzie pokazujemy instalację serwera FiveM z preinstalowanym QBCore.
 
 W kroku **Deployment Type** wybierz opcję **Popular Recipes**, a następnie **QBCore Framework Template**. Potwierdź wybrany **katalog danych** i uruchom **Recipe Deployer**, aby zakończyć instalację.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/WACQEdocRxNrRrk/download)
 
-Podczas działania Recipe Deployer musisz podać ostatnie niezbędne informacje, zanim serwer będzie mógł zostać uruchomiony. Wpisz wcześniej utworzony klucz licencyjny FiveM w polu **License Key**. Następnie kliknij **Show/Hide Database Options (Advanced)** i wpisz dane logowania do swojego serwera bazy danych. W tym przypadku potrzebne jest tylko wcześniej ustalone hasło dla użytkownika **root**. Pozostałe ustawienia mogą pozostać bez zmian. Sprawdź wpisane dane i kliknij **Run Recipe**, aby rozpocząć proces.
+Podczas działania Recipe Deployer musisz podać ostatnie niezbędne informacje, zanim serwer zostanie uruchomiony. Wpisz wcześniej utworzony klucz licencyjny FiveM w polu **License Key**. Następnie kliknij **Show/Hide Database Options (Advanced)** i wpisz dane logowania do swojego serwera bazy danych. W tym przypadku potrzebne jest tylko wcześniej ustalone hasło dla użytkownika **root**. Pozostałe ustawienia pozostaw bez zmian. Sprawdź poprawność danych i kliknij **Run Recipe**, aby rozpocząć proces.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/QPyEctyQbp3kCxa/download)
 
 
 ### Konfiguracja zapory sieciowej
-Aby Twój serwer był dostępny publicznie, musisz zmienić reguły przekierowania portów dla portów, z których korzysta proces serwera dedykowanego. Możesz to zrobić albo bezpośrednio przez polecenia Powershell, co jest łatwiejsze, albo standardowo przez panel Windows Defender Firewall.
+Aby Twój serwer był dostępny publicznie, musisz zmienić reguły przekierowania portów dla portów używanych przez proces serwera dedykowanego. Możesz to zrobić albo przez polecenia Powershell, co jest łatwiejsze, albo standardowo przez panel Windows Defender Firewall.
 
 <Tabs>
 <TabItem value="powershell" label="Przez Powershell" default>
@@ -115,22 +115,22 @@ Te polecenia automatycznie utworzą reguły zapory sieciowej, które są niezbę
 
 <TabItem value="windefender" label="Przez Windows Defender">
 
-Użyj wyszukiwarki Windows, aby otworzyć **Ustawienia zapory Windows z zaawansowanym zabezpieczeniem**. Może być konieczne kliknięcie **Zaawansowane ustawienia**, aby otworzyć odpowiednie okno, jeśli otworzysz podstawową stronę zapory Windows.
+Użyj wyszukiwarki Windows, aby otworzyć **Ustawienia zapory Windows z zaawansowanym zabezpieczeniem**. Jeśli otworzysz podstawową stronę zapory, może być konieczne kliknięcie **Zaawansowane ustawienia**, aby otworzyć właściwe okno.
 
 ![](https://github.com/zaphosting/docs/assets/42719082/5fb9f943-7e51-4d8f-9df4-2f5ff60857d3)
 
-Musisz utworzyć nowe reguły dla swojego serwera FiveM. Zrób to, klikając na reguły przychodzące i wychodzące, jak opisano poniżej, i dodaj je dla następujących protokołów i portów:
+Musisz utworzyć nowe reguły dla swojego serwera FiveM. Kliknij na reguły przychodzące i wychodzące, jak opisano poniżej, i dodaj je dla następujących protokołów i portów:
 - TCP przychodzące i wychodzące: 30120
 - UDP przychodzące i wychodzące: 30120
 
-Jeśli potrzebujesz pomocy, skorzystaj z naszego poradnika [Przekierowanie portów (zapora)](vserver-windows-port.md).
+Jeśli potrzebujesz pomocy, skorzystaj z naszego [poradnika Przekierowanie portów (Firewall)](vserver-windows-port.md).
 
 </TabItem>
 </Tabs>
 
 ## Podsumowanie
 
-Pomyślnie zainstalowałeś i skonfigurowałeś serwer FiveM dedykowany na swoim serwerze dedykowanym. W razie dalszych pytań lub potrzeby pomocy, śmiało kontaktuj się z naszym zespołem wsparcia, który jest dostępny codziennie, by Ci pomóc! 🙂
+Pomyślnie zainstalowałeś i skonfigurowałeś serwer FiveM na swoim serwerze dedykowanym. W razie pytań lub potrzeby pomocy, śmiało kontaktuj się z naszym zespołem wsparcia, który jest dostępny codziennie, by Ci pomóc! 🙂
 
 
-<InlineVoucher />
+

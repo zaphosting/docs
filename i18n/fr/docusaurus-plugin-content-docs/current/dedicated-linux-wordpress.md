@@ -11,11 +11,11 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introduction
 
-WordPress est un système de gestion de contenu web populaire utilisé pour gérer et publier des sites web. De nos jours, WordPress s’est étendu à divers autres domaines comme le mailing, les forums, les boutiques et bien plus encore. Cela est renforcé par une communauté dynamique qui a créé un écosystème solide de plugins ainsi que des templates facilitant la mise en place de n’importe quoi en tant qu’utilisateur final. Dans ce guide, nous allons couvrir le processus d’installation du CMS WordPress sur un serveur Linux.
+WordPress est un système de gestion de contenu web très populaire utilisé pour gérer et publier des sites web. Aujourd’hui, WordPress s’est étendu à divers autres domaines comme le mailing, les forums, les boutiques en ligne et bien plus encore. Cela est renforcé par une communauté dynamique qui a créé un écosystème solide de plugins ainsi que des templates qui facilitent la mise en place de n’importe quoi en tant qu’utilisateur final. Dans ce guide, nous allons couvrir le processus d’installation du CMS WordPress sur un serveur Linux.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/r26L7xASWY3d5Z5/preview)
 
-<InlineVoucher />
+
 
 ## Préparation
 
@@ -30,7 +30,7 @@ Une fois connecté, commencez par lancer la commande de mise à jour.
 sudo apt update
 ```
 
-Ensuite, vous pouvez installer toutes les dépendances nécessaires. Copiez simplement la commande complète ci-dessous et collez-la pour installer toutes les dépendances d’un coup. Soyez patient, cela peut prendre un peu de temps.
+Ensuite, vous pouvez installer toutes les dépendances nécessaires. Copiez simplement la commande complète ci-dessous et collez-la pour installer toutes les dépendances en une fois. Soyez patient, cela peut prendre un peu de temps.
 ```
 sudo apt install apache2 \
                  ghostscript \
@@ -52,9 +52,9 @@ Une fois les dépendances installées, il y a quelques petites étapes recommand
 
 ### Apache & Pare-feu
 
-Pour commencer, vous devrez configurer le pare-feu pour permettre au serveur web Apache de communiquer avec Internet et vous assurer qu’il est fonctionnel. Il est important que les règles de pare-feu appropriées soient créées pour garantir que le serveur web soit accessible depuis Internet.
+Pour commencer, vous devez configurer le pare-feu pour permettre au serveur web Apache de communiquer avec Internet et vous assurer qu’il fonctionne. Il est important que les règles appropriées du pare-feu soient créées pour que le serveur web soit accessible depuis Internet.
 
-Dans cet exemple, nous utiliserons le **pare-feu UFW** car Apache dispose d’une application enregistrée pour celui-ci. Si vous utilisez un autre pare-feu, assurez-vous d’autoriser le port 80 (HTTP) à travers le pare-feu. Vous pouvez en apprendre plus sur les pare-feux sous Linux via notre guide [Gérer le pare-feu](vserver-linux-firewall.md).
+Dans cet exemple, nous utiliserons le **pare-feu UFW** car Apache a une application enregistrée pour celui-ci. Si vous utilisez un autre pare-feu, assurez-vous d’autoriser le port 80 (HTTP) à travers le pare-feu. Vous pouvez en apprendre plus sur les pare-feux sous Linux via notre guide [Gérer le pare-feu](vserver-linux-firewall.md).
 
 Assurez-vous que le pare-feu UFW est activé et qu’une règle pour SSH est créée.
 ```
@@ -79,14 +79,14 @@ sudo ufw status
 ```
 
 :::tip
-Vous pouvez voir les profils disponibles en lançant la commande `ufw app list`. Dans l’exemple ci-dessus, utiliser `Apache Full` signifie que les règles HTTP (port 80) et HTTPS (port 443) sont créées.
+Vous pouvez voir les profils disponibles en lançant la commande `ufw app list`. Dans l’exemple ci-dessus, utiliser `Apache Full` signifie que les règles pour HTTP (port 80) et HTTPS (port 443) sont créées.
 :::
 
-Vous devriez voir les règles `Apache` et `Apache (v6)` avec l’action `ALLOW`, ce qui confirme que le pare-feu est prêt. Vous verrez aussi d’autres règles que vous avez peut-être configurées auparavant, y compris la règle SSH.
+Vous devriez voir les règles `Apache` et `Apache (v6)` avec l’action `ALLOW`, ce qui confirme que le pare-feu est prêt. Vous verrez aussi d’autres règles que vous avez peut-être déjà configurées, y compris celle pour SSH.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/o8NDBppnTwHdSgf/preview)
 
-Avec le pare-feu ouvert pour Apache, vous devez maintenant vérifier qu’Apache fonctionne. Vous pouvez le faire en essayant d’accéder à votre adresse IP dans un navigateur, comme ceci : `http://[votre_adresse_ip]`
+Avec le pare-feu ouvert pour Apache, vous devez maintenant vérifier qu’Apache fonctionne. Vous pouvez tester en accédant à votre adresse IP dans un navigateur, comme ceci : `http://[votre_adresse_ip]`
 
 Si tout fonctionne, vous devriez voir une page d’accueil par défaut. Sinon, vérifiez le statut du service avec la commande : `systemctl status apache2`
 
@@ -96,19 +96,19 @@ Si tout fonctionne, vous devriez voir une page d’accueil par défaut. Sinon, v
 
 La prochaine étape est la configuration initiale de MySQL. Il est recommandé d’exécuter un script d’installation sécurisée, qui garantit que votre instance MySQL reste sécurisée. C’est optionnel mais fortement conseillé. Lancez-le avec la commande `sudo mysql_secure_installation`.
 
-Cela vous guidera dans une configuration interactive. D’abord, vous serez invité à valider les mots de passe. Nous recommandons de choisir `Y` pour n’autoriser que des mots de passe sécurisés à l’avenir, puis de sélectionner soit `MEDIUM` via `1` soit `STRONG` via `2`.
+Cela vous guidera dans une configuration interactive. D’abord, vous serez invité à configurer la validation des mots de passe. On recommande de choisir `Y` pour n’autoriser que des mots de passe sécurisés à l’avenir, puis de sélectionner soit `MEDIUM` via `1` ou `STRONG` via `2`.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/YF6N3iPaDWD4sgX/preview)
 
-Ensuite, vous serez invité à supprimer l’utilisateur `anonymous` et à interdire la connexion root à distance. Pour les deux, nous recommandons fortement d’accepter via `Y` pour des raisons de sécurité. Cela garantit que l’utilisateur test est supprimé et que l’utilisateur root principal ne peut être utilisé qu’en local via SSH, réduisant ainsi les risques.
+Ensuite, vous serez invité à supprimer l’utilisateur `anonymous` et à interdire la connexion root à distance. Pour les deux, on recommande fortement de répondre `Y` pour des raisons de sécurité. Cela supprime l’utilisateur test et limite l’accès root à local via SSH uniquement, réduisant ainsi les risques.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/ka6GKkojRPRycZB/preview)
 
-Enfin, vous serez invité à supprimer la base de données `test` et à recharger les tables de privilèges. Encore une fois, nous recommandons d’accepter via `Y` car la base test n’est pas nécessaire et il faut recharger les privilèges pour que les changements prennent effet.
+Enfin, vous serez invité à supprimer la base de données `test` et à recharger les tables de privilèges. Là encore, on recommande d’accepter avec `Y` car la base test n’est pas nécessaire et il faut recharger les privilèges pour que les changements prennent effet.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/42cYTkPaEfo3Jbq/preview)
 
-Vérifiez maintenant si la base MySQL tourne en essayant de vous connecter avec la commande : `sudo mysql -u root`. Si c’est réussi, un message de bienvenue s’affichera. Vous pouvez quitter avec la commande `quit` quand vous êtes prêt.
+Vérifiez maintenant si la base MySQL tourne en essayant de vous connecter avec la commande : `sudo mysql -u root`. Si ça marche, un message de bienvenue s’affichera. Vous pouvez quitter avec la commande `quit` quand vous êtes prêt.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/gFKBAZyaFiHgrCz/preview)
 
@@ -134,15 +134,15 @@ http://[votre_adresse_ip]/info.php
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/bSg3nHaKRatBxFR/preview)
 
-Avec les dépendances principales de la stack LAMP testées et fonctionnelles, vous êtes prêt à passer à l’installation principale du CMS WordPress.
+Avec les dépendances LAMP principales testées et fonctionnelles, vous êtes prêt à passer à l’installation principale du CMS WordPress.
 
 ## Installation
 
-L’installation de WordPress se divise en trois étapes : préparer une base de données MySQL, installer WordPress puis configurer via l’assistant d’installation WordPress.
+L’installation de WordPress se divise en trois étapes : préparer une base de données MySQL, installer WordPress, puis configurer via l’assistant d’installation WordPress.
 
 ### Base de données MySQL
 
-Pour commencer l’installation, vous devez créer une nouvelle base de données MySQL. C’est important car vous utiliserez ces infos dans l’assistant d’installation WordPress plus tard, donc on vous recommande d’utiliser nos exemples.
+Pour commencer l’installation, vous devez créer une nouvelle base de données MySQL. C’est important car vous utiliserez ces infos dans l’assistant d’installation WordPress plus tard, donc on vous conseille d’utiliser nos exemples.
 
 Copiez simplement les commandes suivantes pour créer la base, les tables et l’utilisateur nécessaires.
 ```
@@ -169,19 +169,19 @@ Une fois la base et l’utilisateur créés, quittez avec la commande `quit`. Vo
 
 ### Installer WordPress
 
-Pour l’installation principale, on recommande et utilisera la version officielle de **wordpress.org** plutôt que le paquet APT, car WordPress conseille cette méthode pour éviter des problèmes potentiels.
+Pour l’installation principale, on recommande d’utiliser la version officielle de **wordpress.org** directement plutôt que le paquet APT, car WordPress le conseille pour éviter des soucis potentiels.
 
 Pour télécharger la dernière version, utilisez la commande suivante qui télécharge la release dans le dossier temporaire.
 ```
 cd /tmp && wget https://wordpress.org/latest.tar.gz
 ```
 
-Extrayez maintenant l’archive, ce qui créera un dossier `wordpress` avec tous les fichiers nécessaires.
+Décompressez ensuite l’archive, ce qui créera un dossier `wordpress` avec tous les fichiers nécessaires.
 ```
 tar -xvf latest.tar.gz
 ```
 
-Avec les fichiers extraits, vous devez copier le dossier dans le répertoire Apache `/var/www/html/` pour rendre tout accessible via le web. Lancez les commandes suivantes qui copient le dossier, créent un répertoire `uploads` et ajustent les permissions pour que le groupe `www-data` du serveur web ait accès.
+Avec les fichiers extraits, vous devez copier le dossier dans le répertoire Apache `/var/www/html/` pour rendre tout accessible via le web. Lancez les commandes suivantes qui copient le dossier, créent un dossier `uploads` et ajustent les permissions pour que le groupe `www-data` du serveur web ait accès.
 ```
 # Copier le dossier wordpress et mettre à jour la propriété
 cp -R wordpress /var/www/html/
@@ -199,20 +199,20 @@ Avec ça, WordPress devrait être installé. Accédez à l’assistant d’insta
 
 ### Assistant d’installation
 
-Via l’assistant, vous pouvez maintenant configurer WordPress, dernière étape de l’installation. D’abord, vous serez invité à choisir votre langue.
+Dans l’assistant, vous pouvez maintenant configurer WordPress, c’est la dernière étape de l’installation. D’abord, vous serez invité à choisir votre langue.
 
-Ensuite, vous devrez configurer les paramètres de la base de données. Vous avez déjà préparé cela via MySQL dans la première partie, donc utilisez les mêmes identifiants et valeurs ici. Si vous avez suivi nos exemples, remplissez les champs comme suit, en remplaçant `[your_password]` par le mot de passe que vous avez choisi.
+Ensuite, vous devrez configurer les paramètres de la base de données. Vous avez déjà préparé ça dans MySQL lors de la première étape, donc utilisez les mêmes identifiants et valeurs ici. Si vous avez suivi nos exemples, remplissez comme suit en remplaçant `[your_password]` par le mot de passe que vous avez choisi.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/4ZmA43WMjf2bBxB/preview)
 
-Une fois cette étape terminée, vous serez invité à lancer l’installation. C’est la dernière étape du processus.
+Une fois cette étape terminée, vous serez invité à lancer l’installation. C’est la dernière partie du processus.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/7kfjz8p2cCzoD8S/preview)
 
-Sur la page suivante, vous devrez renseigner plusieurs infos comme le titre du site, une adresse email, un nom d’utilisateur et un mot de passe pour le compte root WordPress qui permettra d’accéder au panneau. Vous pouvez aussi décider de la visibilité pour les moteurs de recherche, si vous voulez que votre site soit indexé ou non.
+Sur la page suivante, vous devrez renseigner plusieurs infos comme le titre du site, une adresse email, un nom d’utilisateur et un mot de passe pour le compte root WordPress qui permettra d’accéder au panneau. Vous pouvez aussi choisir la visibilité pour les moteurs de recherche, si vous voulez que votre site soit indexé ou non.
 
 :::tip
-Veillez à choisir un mot de passe fort et à sauvegarder vos identifiants pour ne pas perdre l’accès à votre panneau WordPress !
+Pensez à choisir un mot de passe fort et à sauvegarder vos identifiants pour ne pas perdre l’accès à votre panneau WordPress !
 :::
 
 Quand vous êtes prêt, cliquez sur le bouton **Installer WordPress** pour finaliser l’installation.
@@ -229,10 +229,8 @@ Et voilà, une fois connecté avec succès, vous êtes sur votre panneau WordPre
 
 ## Conclusion
 
-Félicitations, vous avez installé et configuré WordPress avec succès ! Comme prochaine étape, nous vous **recommandons vivement** de configurer un domaine et un **certificat SSL** pour garantir que les données soient transmises de manière sécurisée et faciliter l’accès au panneau WordPress. Consultez notre [guide Certbot](dedicated-linux-certbot.md) en vous concentrant sur le **plugin Apache** et suivez la configuration interactive pour mettre en place rapidement et facilement un certificat pour votre domaine choisi.
+Félicitations, vous avez installé et configuré WordPress avec succès ! Comme prochaine étape, on vous **recommande vivement** de configurer un domaine et un **certificat SSL** pour garantir que les données soient transmises de manière sécurisée et faciliter l’accès au panneau WordPress. Consultez notre [guide Certbot](dedicated-linux-certbot.md) en vous concentrant sur le **plugin Apache** et suivez la configuration interactive pour mettre en place rapidement et facilement un certificat pour votre domaine.
 
-Pour aller plus loin, nous vous conseillons de parcourir nos guides [Plugins WordPress](webspace-wordpress-plugins.md) et [WordPress Elementor](webspace-wordpress-elementor.md) qui expliquent comment installer des plugins et utiliser un constructeur de pages populaire et facile à prendre en main nommé Elementor.
+Pour aller plus loin, on vous conseille de parcourir nos guides [Plugins WordPress](webspace-wordpress-plugins.md) et [WordPress Elementor](webspace-wordpress-elementor.md) qui expliquent comment installer des plugins et utiliser Elementor, un constructeur de pages populaire et facile à prendre en main.
 
-Pour toute question ou aide, n’hésitez pas à contacter notre équipe support, disponible tous les jours pour vous assister ! 🙂
-
-<InlineVoucher />
+Pour toute question ou aide, n’hésitez pas à contacter notre support, disponible tous les jours pour vous assister ! 🙂

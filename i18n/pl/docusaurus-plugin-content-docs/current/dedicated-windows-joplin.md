@@ -1,7 +1,7 @@
 ---
 id: dedicated-windows-joplin
 title: "Serwer dedykowany: Instalacja Joplin na Windows"
-description: "Dowiedz się, jak organizować i synchronizować bezpieczne notatki oparte na Markdown między urządzeniami z Joplin, dla większej prywatności i produktywności → Sprawdź teraz"
+description: "Dowiedz się, jak organizować i synchronizować bezpieczne notatki oparte na Markdown między urządzeniami z Joplin, dla lepszej prywatności i produktywności → Sprawdź teraz"
 sidebar_label: Instalacja Joplin
 services:
 - dedicated
@@ -21,7 +21,7 @@ Myślisz o samodzielnym hostingu tej usługi? Przeprowadzimy Cię przez każdy k
 
 
 
-<InlineVoucher />
+
 
 
 
@@ -39,7 +39,7 @@ Przed instalacją **Joplin** upewnij się, że Twoje środowisko hostingowe spe�
 
 
 ## Instalacja
-Gdy spełnisz wszystkie wymagania i przygotujesz środowisko, możesz przejść do instalacji aplikacji Joplin. Pobierz ją ze strony oficjalnej: https://joplinapp.org/download/
+Gdy wszystkie wymagania są spełnione, a przygotowania zakończone, możesz przejść do instalacji aplikacji Joplin. Pobierz ją ze strony oficjalnej: https://joplinapp.org/download/
 
 Uruchom instalator Joplin i postępuj zgodnie z instrukcjami.
 
@@ -55,16 +55,16 @@ Po instalacji Joplin warto skonfigurować podstawowe ustawienia, aby dopasować 
 Joplin obsługuje różne cele synchronizacji, takie jak Nextcloud, Dropbox, OneDrive czy WebDAV. Wybierz swojego dostawcę w sekcji „Synchronizacja” i wpisz dane logowania. Dzięki temu Twoje notatki będą zawsze aktualne na wszystkich urządzeniach.
 
 **Szyfrowanie**  
-Aby zabezpieczyć synchronizowane notatki, włącz end-to-end encryption w ustawieniach „Szyfrowanie”. Zostanie wygenerowany klucz, który musisz skonfigurować na wszystkich urządzeniach korzystających z notatek.
+Aby zabezpieczyć zsynchronizowane notatki, włącz end-to-end encryption w ustawieniach „Szyfrowanie”. Zostanie wygenerowany klucz, który musisz skonfigurować na wszystkich urządzeniach korzystających z notatek.
 
 **Edytor i wygląd**  
 Joplin korzysta z Markdown do tworzenia notatek. W ustawieniach „Edytor” możesz ustawić automatyczne podglądy oraz dostosować czcionkę i jej rozmiar.
 
 **Wtyczki i rozszerzenia**  
-Wbudowany menedżer wtyczek pozwala instalować dodatkowe funkcje, takie jak wsparcie dla diagramów, integrację kalendarza czy zaawansowane zarządzanie tagami.
+Wbudowany menedżer wtyczek pozwala instalować dodatkowe funkcje, takie jak wsparcie dla diagramów, integracja kalendarza czy zaawansowane zarządzanie tagami.
 
 **Web Clipper**  
-Opcjonalnie możesz włączyć rozszerzenie przeglądarki „Joplin Web Clipper”, które pozwala zapisywać całe strony internetowe lub wybrane fragmenty bezpośrednio jako notatki.
+Opcjonalnie możesz włączyć rozszerzenie przeglądarki „Joplin Web Clipper”, które pozwala zapisywać całe strony internetowe lub zaznaczenia bezpośrednio jako notatki.
 
 Dzięki tym podstawowym ustawieniom Joplin jest gotowy do użycia w różnych scenariuszach, takich jak zarządzanie zadaniami, dokumentacja projektów czy osobiste bazy wiedzy.
 
@@ -75,13 +75,9 @@ Dzięki tym podstawowym ustawieniom Joplin jest gotowy do użycia w różnych sc
 
 ## Podsumowanie i dodatkowe zasoby
 
-Gratulacje! Właśnie zainstalowałeś i skonfigurowałeś Joplin na swoim serwerze dedykowanym. Polecamy też zajrzeć do poniższych źródeł, które mogą pomóc Ci jeszcze lepiej wykorzystać aplikację i usprawnić konfigurację serwera.
+Gratulacje! Właśnie zainstalowałeś i skonfigurowałeś Joplin na swoim serwerze dedykowanym. Polecamy też rzucić okiem na poniższe materiały, które mogą Ci pomóc i wesprzeć podczas dalszej konfiguracji serwera.
 
 - [Joplinapp.org](https://joplin.org/) - Oficjalna strona
 - [Joplinapp.org/help/](https://joplinapp.org/help/) - Centrum pomocy Joplin
 
 Masz pytania, które nie zostały tu poruszone? Jeśli potrzebujesz wsparcia lub dodatkowych informacji, śmiało kontaktuj się z naszym zespołem wsparcia, który jest do Twojej dyspozycji codziennie! 🙂
-
-
-
-<InlineVoucher />

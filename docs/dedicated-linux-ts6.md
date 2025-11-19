@@ -19,7 +19,7 @@ Considering about hosting this service yourself? We’ll walk you through every 
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/4J6HJjQdRddjGFK/preview)
 
-<InlineVoucher />
+
 
 
 

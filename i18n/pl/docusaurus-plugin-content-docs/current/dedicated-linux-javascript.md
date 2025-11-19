@@ -13,11 +13,9 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Ten poradnik pokazuje kroki instalacji Node.js, Deno i Bun. Te polecenia musisz wykonać przez SSH, jeśli nie wiesz, jak połączyć się z serwerem przez SSH, zerknij na nasz [Pierwszy dostęp (SSH)](vserver-linux-ssh.md).
 
-<InlineVoucher />
-
 ## Przygotowanie
 
-Zanim cokolwiek zainstalujesz na serwerze, zalecamy uruchomić polecenie aktualizacji odpowiadające Twojemu systemowi operacyjnemu, aby utrzymać serwer bezpiecznym.
+Zanim cokolwiek zainstalujesz na serwerze, zalecamy uruchomić polecenie aktualizacji odpowiednie dla Twojego systemu operacyjnego, aby utrzymać serwer bezpiecznym.
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
@@ -81,9 +79,9 @@ apt install npm
 
 ### Aktualizacja Node.js do najnowszej wersji
 
-Polecenie `node -v` pokaże zainstalowaną wersję Node.js. Zwykle nie jest to najnowsza, więc warto ją zaktualizować, żeby mieć najnowsze funkcje. Na szczęście pakiet npm `n` daje bardzo łatwy sposób na to.
+Polecenie `node -v` pokaże zainstalowaną wersję Node.js. Zwykle nie jest to najnowsza wersja, więc warto ją zaktualizować, żeby mieć najnowsze funkcje. Na szczęście pakiet npm `n` daje bardzo prosty sposób na to.
 
-Najpierw zainstaluj go poleceniem `npm install -g n`, a potem możesz uruchomić `n [wersja]`, podmieniając `[wersja]` na wybraną wersję, żeby zainstalować dowolną wersję Node.js.
+Najpierw zainstaluj go poleceniem `npm install -g n`, a potem możesz uruchomić `n [wersja]`, gdzie `[wersja]` to numer wersji, którą chcesz zainstalować.
 
 :::tip
 Zalecamy trzymać się najnowszej wersji Long Term Support. Zrobisz to poleceniem `n lts`.
@@ -100,16 +98,16 @@ Najpierw upewnij się, że masz curl, a potem uruchom:
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
 ```
 
-To pobierze i uruchomi skrypt instalacyjny nvm z GitHuba.
+To pobierze i uruchomi skrypt instalacyjny nvm z GitHub.
 
 :::note
 Jeśli po instalacji nvm polecenia nie działają, uruchom `source ~/.bashrc`, żeby przeładować konfigurację bash.
 :::
 
-Podobnie jak wcześniej, możesz teraz zainstalować dowolną wersję Node.js poleceniem `nvm install v[wersja]`. Aby zobaczyć dostępne wersje, użyj `nvm list-remote`, a żeby zobaczyć zainstalowane wersje, wpisz `nvm list`.
+Podobnie jak wcześniej, możesz teraz zainstalować dowolną wersję Node.js poleceniem `nvm install v[wersja]`. Aby zobaczyć dostępne wersje, wpisz `nvm list-remote`, a aby zobaczyć zainstalowane wersje, wpisz `nvm list`.
 
 :::tip
-Instalacja Long Term Support to `nvm install --lts`
+Instalację wersji Long Term Support wykonasz poleceniem `nvm install --lts`
 :::
 
 </TabItem>
@@ -125,9 +123,9 @@ Wszystkie pakiety npm znajdziesz na ich [stronie](https://www.npmjs.com/).
 
 ### Tworzenie nowego projektu
 
-Za każdym razem, gdy chcesz zacząć nowy projekt Node.js, musisz utworzyć nowy katalog (`mkdir [nazwa-projektu]`) lub wejść do pustego folderu i uruchomić `npm init`, żeby rozpocząć konfigurację. Program zapyta Cię o podstawowe dane do stworzenia pliku `package.json`. To będzie "konfiguracja" do uruchamiania Node.js.
+Za każdym razem, gdy chcesz zacząć nowy projekt Node.js, musisz stworzyć nowy katalog (`mkdir [nazwa-projektu]`) lub wejść do pustego folderu i uruchomić `npm init`, żeby rozpocząć konfigurację. To zapyta Cię o podstawowe dane i stworzy plik `package.json`, który jest "konfigiem" do uruchamiania Node.js.
 
-Po inicjalizacji projektu możesz stworzyć plik `index.js` i napisać w nim kod. Jako przykład stworzymy prosty serwer http na domyślnym porcie 80, który odpowiada testową wiadomością przy dostępie przez localhost. Kod wygląda tak:
+Po inicjalizacji projektu możesz stworzyć plik `index.js` i napisać w nim kod. Na przykład stworzymy prosty serwer http na domyślnym porcie 80, który odpowiada testową wiadomością przy dostępie z localhost. Kod wygląda tak:
 
 ```js
 const http = require('http')
@@ -143,7 +141,7 @@ server.listen(80)
 Teraz możesz uruchomić ten kod poleceniem `node .` i sprawdzić efekt, wchodząc w przeglądarce na `localhost:80`.
 
 :::tip
-Instalacja zewnętrznych pakietów npm odbywa się przez `npm install [nazwa-pakietu]`
+Instalacja zewnętrznych pakietów z npm odbywa się poleceniem `npm install [nazwa-pakietu]`
 :::
 
 </TabItem>
@@ -152,7 +150,11 @@ Instalacja zewnętrznych pakietów npm odbywa się przez `npm install [nazwa-pak
 
 ## Instalacja środowiska Deno
 
-Deno zainstalujesz bardzo prosto, wpisując w konsoli `curl -fsSL https://deno.land/install.sh | sh`.
+Deno zainstalujesz prosto, wpisując w konsoli:
+
+```
+curl -fsSL https://deno.land/install.sh | sh
+```
 
 :::tip
 Aby sprawdzić zainstalowaną wersję, wpisz `deno --version`.
@@ -164,7 +166,7 @@ Aktualizacja Deno to po prostu `deno upgrade`.
 
 ### Uruchamianie Deno
 
-Aby zacząć korzystać z Deno, stwórz plik `index.ts` i napisz w nim kod. Jako przykład stworzymy prosty serwer http na porcie 80, który odpowiada testową wiadomością przy dostępie przez localhost. Kod wygląda tak:
+Aby zacząć korzystać z Deno, stwórz plik `index.ts` i napisz w nim kod. Przykładowo, stworzymy prosty serwer http na porcie 80, który odpowiada testową wiadomością przy dostępie z localhost:
 
 ```js
 Deno.serve({ port: 80 }, (_req: Request) => {
@@ -172,10 +174,10 @@ Deno.serve({ port: 80 }, (_req: Request) => {
 })
 ```
 
-Teraz uruchom ten kod poleceniem `deno run --allow-net index.ts` i sprawdź efekt, wchodząc w przeglądarce na `localhost:80`.
+Uruchom ten kod poleceniem `deno run --allow-net index.ts` i sprawdź efekt, wchodząc na `localhost:80` w przeglądarce.
 
 :::info
-Deno zostało stworzone z myślą o większym bezpieczeństwie, dlatego wymaga podania uprawnień, np. `--allow-net` do korzystania z niektórych modułów.
+Deno jest zaprojektowane z myślą o bezpieczeństwie, dlatego wymaga podania uprawnień, np. `--allow-net` do korzystania z niektórych modułów.
 :::
 
 </TabItem>
@@ -205,13 +207,13 @@ Jeśli masz już npm, możesz wpisać `npm install -g bun`.
 
 ### Uruchamianie Bun
 
-Bun został stworzony, by być szybszym niż inne silniki JavaScript, a jednocześnie ma podobną konfigurację do Node.js. Aby zacząć, otwórz pusty katalog i wpisz `bun init`.
+Bun jest szybszy niż niektóre inne silniki JavaScript i ma podobną konfigurację do Node.js. Aby zacząć, otwórz pusty katalog i wpisz `bun init`.
 
 :::note
 W zależności od wybranego języka (JS lub TS), Bun stworzy plik konfiguracyjny (jsconfig.json lub tsconfig.json).
 :::
 
-Aby uruchomić Bun, stwórz plik `index.ts` i napisz w nim kod. Jako przykład stworzymy prosty serwer http na porcie 80, który odpowiada testową wiadomością przy dostępie przez localhost. Kod wygląda tak:
+Aby uruchomić Bun, stwórz plik `index.ts` i napisz w nim kod. Przykładowo, prosty serwer http na porcie 80, który odpowiada testową wiadomością przy dostępie z localhost:
 
 ```js
 const server = Bun.serve({
@@ -222,11 +224,9 @@ const server = Bun.serve({
 })
 ```
 
-Teraz uruchom ten kod poleceniem `bun index.ts` i sprawdź efekt, wchodząc w przeglądarce na `localhost:80`.
+Uruchom ten kod poleceniem `bun index.ts` i sprawdź efekt, wchodząc na `localhost:80` w przeglądarce.
 
 </TabItem>
 </Tabs>
 
-Dzięki temu poradnikowi pomyślnie zainstalujesz jedno z popularnych środowisk uruchomieniowych JavaScript na swoim serwerze Linux.
-
-<InlineVoucher />
+Postępując według tego poradnika, zainstalujesz jedno z popularnych środowisk uruchomieniowych JavaScript na swoim serwerze Linux.

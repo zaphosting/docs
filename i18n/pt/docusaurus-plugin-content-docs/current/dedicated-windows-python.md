@@ -13,7 +13,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Este guia traz os passos para a instalação do runtime do Python no Windows. Os passos abaixo devem ser executados via RDP. Se você não sabe como conectar ao seu servidor via RDP, dê uma olhada no nosso [Acesso Inicial (RDP)](vserver-windows-userdp.md).
 
-<InlineVoucher />
+
 
 ## Instalação
 
@@ -27,7 +27,7 @@ Agora clique no botão `Download Python [versão]` e espere o download terminar.
 ![](https://screensaver01.zap-hosting.com/index.php/s/b8j6ZbfGWoBjpep/preview)
 
 ### Passo 2: Instalando o Python
-Execute o instalador clicando nele. Agora você será solicitado a configurar algumas opções para a instalação. Certifique-se de que a caixa `Add python.exe to PATH` no rodapé esteja marcada (isso facilita rodar arquivos Python depois) e clique no botão `Install Now`.
+Execute o instalador clicando nele. Agora você será solicitado a configurar algumas opções para a instalação. Certifique-se de que a caixa `Add python.exe to PATH` (Adicionar python.exe ao PATH) na parte inferior esteja marcada (isso facilita rodar arquivos Python depois) e clique no botão `Install Now`.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/Z57KiQwHqP3RpPy/preview)
 
@@ -46,7 +46,7 @@ Agora que você instalou o Python no seu servidor, pode começar a rodar seus pr
 
 ### Modo interpretador
 
-Rodar o comando `python` dentro do Prompt de Comando ou PowerShell vai iniciar o interpretador Python. Você pode digitar qualquer código Python válido após o prefixo `>>>` e ele será executado ao pressionar `Enter`. Para sair do interpretador, rode `exit()` no console ou simplesmente feche o prompt.
+Rodar o comando `python` dentro do Prompt de Comando ou PowerShell vai iniciar o interpretador Python. Você pode digitar qualquer código Python válido após o prefixo `>>>` e ele será executado ao pressionar `Enter`. Para sair do interpretador, rode `exit()` no console ou simplesmente feche a janela.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/DskKi5Ac28ERY38/preview)
 
@@ -55,14 +55,14 @@ Rodar o comando `python` dentro do Prompt de Comando ou PowerShell vai iniciar o
 Para rodar arquivos Python `.py`, use o comando `python3 [nome_do_arquivo].py`, substituindo `[nome_do_arquivo]` pelo caminho do arquivo que quer executar. Isso também é feito via Prompt de Comando ou PowerShell.
 
 :::tip
-A maioria dos programas que você encontra online pode ser rodado com `python3 main.py` porque `main.py` é o ponto de partida comum da maioria dos programas Python.
+A maioria dos programas que você encontra online pode ser rodado com `python3 main.py`, porque `main.py` é o ponto de partida comum da maioria dos programas Python.
 :::
 
 Você também pode rodar arquivos Python (.py) abrindo-os diretamente ou clicando com o botão direito e selecionando Python no Windows.
 
 ## Ambientes virtuais
 
-Ao escrever um programa Python, pode ser que você precise instalar pacotes externos via pip. Eles podem ser instalados globalmente, ficando acessíveis para todos os scripts `.py`, ou você pode criar um ambiente virtual (venv).
+Quando estiver desenvolvendo um programa Python, pode precisar instalar pacotes externos via pip. Esses pacotes podem ser instalados globalmente, ficando disponíveis para todos os scripts `.py`, ou você pode criar um ambiente virtual (venv).
 
 ### Criando o venv
 
@@ -76,8 +76,8 @@ Quando terminar de trabalhar no venv, volte ao ambiente normal rodando o comando
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/Ws5BosJzJ78s7Y9/preview)
 
+
+
 ## Conclusão
 
 Parabéns, você instalou o Python com sucesso! Para dúvidas ou ajuda, não hesite em contatar nosso time de suporte, que está disponível todos os dias para te ajudar! 🙂
-
-<InlineVoucher />

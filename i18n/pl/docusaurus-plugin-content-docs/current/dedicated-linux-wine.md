@@ -11,9 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Wprowadzenie
 
-Wine to open-source warstwa kompatybilności dla Linuxa, która pozwala na uruchamianie oprogramowania pierwotnie stworzonego dla Windows na systemach Linux. Jest to szczególnie ważne dla serwerów dedykowanych gier, które oferują tylko pliki serwera Windows i może być wymagane jako warunek wstępny do naszych innych poradników dotyczących serwerów dedykowanych Linux. W tym poradniku przejdziemy przez proces pierwszej konfiguracji instalacji Wine na Twoim serwerze Linux. W przykładach używamy Ubuntu, ale proces powinien być bardzo podobny dla innych dystrybucji.
-
-<InlineVoucher />
+Wine to open-source’owa warstwa kompatybilności dla Linuxa, która pozwala na uruchamianie oprogramowania pierwotnie stworzonego dla Windows na systemach Linux. To szczególnie ważne dla serwerów dedykowanych gier, które oferują tylko pliki serwera Windows i może być wymagane jako warunek wstępny do naszych innych poradników dotyczących serwerów dedykowanych Linux. W tym poradniku przejdziemy przez proces pierwszej konfiguracji Wine na Twoim serwerze Linux. W przykładach używamy Ubuntu, ale proces powinien być bardzo podobny na innych dystrybucjach.
 
 ## Przygotowanie
 
@@ -21,17 +19,17 @@ Na początek połącz się ze swoim serwerem dedykowanym przez SSH. Jeśli potrz
 
 ## Instalacja Wine
 
-Rozpocznij instalację od upewnienia się, że katalog `/etc/apt/keyrings/` istnieje, ponieważ jest on niezbędny dla Wine.
+Zacznij instalację od upewnienia się, że katalog `/etc/apt/keyrings/` istnieje, ponieważ jest on potrzebny dla Wine.
 ```
 sudo mkdir -pm755 /etc/apt/keyrings
 ```
 
-Następnie pobierz i zapisz klucz GPG Wine w tym katalogu, co potwierdzi autentyczność pakietu.
+Następnie pobierz i zapisz klucz GPG Wine do tego katalogu, co potwierdzi autentyczność pakietu.
 ```
 sudo wget -O /etc/apt/keyrings/winehq-archive.key https://dl.winehq.org/wine-builds/winehq.key
 ```
 
-Musisz też zapisać listę źródeł dla WineHQ, co możesz zrobić za pomocą poniższego gotowego polecenia:
+Musisz też zapisać listę źródeł dla WineHQ, co zrobisz za pomocą poniższego gotowego polecenia:
 ```
 sudo wget -NP /etc/apt/sources.list.d/ https://dl.winehq.org/wine-builds/$(lsb_release -is | tr '[:upper:]' '[:lower:]')/dists/$(lsb_release -cs)/winehq-$(lsb_release -cs).sources
 ```
@@ -55,6 +53,4 @@ sudo apt install cabextract winbind screen xvfb
 
 Pomyślnie skonfigurowałeś warstwę kompatybilności Wine, która pozwoli Ci uruchamiać programy Windows na Twoim serwerze Linux. Mając ten ważny warunek wstępny, możesz teraz instalować serwery dedykowane gier, nawet jeśli są przeznaczone na Windows.
 
-Polecamy sprawdzić pozostałe poradniki w tej sekcji, które pokazują, jak instalować konkretne gry za pomocą SteamCMD i ewentualnie Wine dla plików serwerów dedykowanych Windows.
-
-<InlineVoucher />
+Polecamy też sprawdzić pozostałe poradniki w tej sekcji, które pokazują, jak instalować konkretne gry przez SteamCMD i ewentualnie Wine dla plików serwerów dedykowanych Windows.

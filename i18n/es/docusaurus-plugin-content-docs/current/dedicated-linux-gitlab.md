@@ -1,6 +1,6 @@
 ---
 id: dedicated-linux-gitlab
-title: "Servidor dedicado: Instalar GitLab en Linux"
+title: "Servidor Dedicado: Instalar GitLab en Linux"
 description: "Descubre cómo configurar GitLab en Linux para optimizar flujos DevOps y mejorar la colaboración en equipo → Aprende más ahora"
 sidebar_label: Instalar GitLab
 services:
@@ -13,11 +13,11 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introducción
 
-GitLab es una plataforma DevOps completa que permite a los equipos colaborar en código, automatizar flujos de trabajo y gestionar todo el ciclo de vida del desarrollo de software de forma eficiente. En esta guía, explicaremos cómo instalar GitLab en un servidor Linux.
+GitLab es una plataforma DevOps completa que permite a los equipos colaborar en código, automatizar flujos de trabajo y gestionar todo el ciclo de vida del desarrollo de software de manera eficiente. En esta guía, se explicará la instalación de GitLab en un servidor Linux.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/ZWMPsLzrXZjnqEE/preview)
 
-<InlineVoucher />
+
 
 ## Preparación
 
@@ -36,38 +36,38 @@ Los siguientes requisitos son recomendados por el equipo oficial de [GitLab](htt
 
 | Plataforma       | Opciones                                                      |
 | ---------------- | ------------------------------------------------------------- |
-| Sistema operativo | Ubuntu (20.04, 22.04, 24.04), Debian (10, 11, 12), OpenSUSE (15.5) |
-| Base de datos    | PostgreSQL 14.9+                                              |
-| Servidor web     | NGINX (incluido con GitLab), Puma 6.4.2+                      |
-| Otros            | Redis 7.x+, Sidekiq 7.3.2+, Prometheus 2.54.1+                |
+| Sistema Operativo | Ubuntu (20.04, 22.04, 24.04), Debian (10, 11, 12), OpenSUSE (15.5) |
+| Base de datos    | PostgreSQL 14.9+                                             |
+| Servidor web     | NGINX (incluido con GitLab), Puma 6.4.2+                     |
+| Otros            | Redis 7.x+, Sidekiq 7.3.2+, Prometheus 2.54.1+               |
 
 :::info
-Para la información más precisa y actualizada sobre especificaciones, consulta la documentación oficial de [Requisitos de hardware](https://docs.gitlab.com/ee/install/requirements.html) de GitLab.
+Para obtener la información más precisa y actualizada sobre especificaciones, consulta la documentación oficial de [Requisitos de Hardware](https://docs.gitlab.com/ee/install/requirements.html) de GitLab.
 :::
 
 ## Preparación
 
-Para instalar GitLab en tu servidor Linux, primero debes establecer una conexión mediante un cliente SSH. Consulta nuestra [guía de acceso inicial (SSH)](vserver-linux-ssh.md) para aprender más sobre esto.
+Para instalar GitLab en tu servidor Linux, debes establecer una conexión mediante un cliente SSH. Consulta nuestra [guía de acceso inicial (SSH)](vserver-linux-ssh.md) para aprender más sobre esto.
 
 Una vez establecida la conexión, puedes comenzar a instalar los paquetes necesarios para la instalación de GitLab.
 
-## Paso 1: Instalación de dependencias
+## Paso 1: Instalando Dependencias
 
-Primero, debes instalar algunas dependencias para poder ejecutar el instalador de GitLab. Usa los siguientes comandos para instalar las dependencias requeridas en tu servidor Linux.
+Primero, debes instalar algunas dependencias para ejecutar el instalador de GitLab. Usa los siguientes comandos para instalar las dependencias requeridas en tu servidor Linux.
 
 <Tabs>
 <TabItem value="ubuntu" label="Ubuntu" default>
 
-Actualiza la lista de paquetes a la última versión e instala el paquete OpenSSH Server junto con los prerrequisitos necesarios usando el siguiente comando. Así es como se alojará tu panel web de GitLab.
+Actualiza la lista de paquetes a la última versión e instala el paquete OpenSSH Server junto con los prerrequisitos necesarios usando el siguiente comando. Así se alojará el panel web de GitLab.
 
 ```
 sudo apt update
 sudo apt-get install -y curl openssh-server ca-certificates tzdata perl
 ```
 
-También puedes instalar Postfix (servidor SMTP) si quieres enviar notificaciones por correo electrónico usando GitLab. Esto es **opcional**.
+También puedes instalar Postfix (Servidor SMTP) si quieres enviar notificaciones por email usando GitLab. Esto es **opcional**.
 
-Si quieres usar notificaciones por correo, instala Postfix con el siguiente comando:
+Si quieres usar notificaciones por email, instala Postfix con el siguiente comando.
 ```
 sudo apt-get install -y postfix
 ```
@@ -76,16 +76,16 @@ sudo apt-get install -y postfix
 
 <TabItem value="debian" label="Debian">
 
-Actualiza la lista de paquetes a la última versión e instala el paquete OpenSSH Server junto con los prerrequisitos necesarios usando el siguiente comando. Así es como se alojará tu panel web de GitLab.
+Actualiza la lista de paquetes a la última versión e instala el paquete OpenSSH Server junto con los prerrequisitos necesarios usando el siguiente comando. Así se alojará el panel web de GitLab.
 
 ```
 sudo apt update
 sudo apt-get install -y curl openssh-server ca-certificates perl
 ```
 
-También puedes instalar Postfix (servidor SMTP) si quieres enviar notificaciones por correo electrónico usando GitLab. Esto es **opcional**.
+También puedes instalar Postfix (Servidor SMTP) si quieres enviar notificaciones por email usando GitLab. Esto es **opcional**.
 
-Si quieres usar notificaciones por correo, instala Postfix con el siguiente comando:
+Si quieres usar notificaciones por email, instala Postfix con el siguiente comando.
 ```
 sudo apt-get install -y postfix
 ```
@@ -94,13 +94,13 @@ sudo apt-get install -y postfix
 
 <TabItem value="opensuse" label="OpenSUSE">
 
-Instala el paquete OpenSSH Server junto con los prerrequisitos necesarios usando el siguiente comando. Así es como se alojará tu panel web de GitLab.
+Instala el paquete OpenSSH Server junto con los prerrequisitos necesarios usando el siguiente comando. Así se alojará el panel web de GitLab.
 
 ```
 sudo zypper install curl openssh perl
 ```
 
-Luego, asegúrate de que el demonio OpenSSH esté habilitado con los siguientes comandos:
+Luego, asegúrate de que el daemon OpenSSH esté habilitado con los siguientes comandos.
 ```
 sudo systemctl status sshd
 sudo systemctl enable sshd
@@ -109,13 +109,13 @@ sudo systemctl start sshd
 
 Debes asegurarte de que el firewall permita el acceso necesario, si usas `firewalld`.
 
-Para saber si usas `firewalld`, ejecuta primero:
+Averigua si usas `firewalld` ejecutando primero:
 
 ```bash
 sudo systemctl status firewalld
 ```
 
-Si lo usas, abre los puertos necesarios (80 y 443 por defecto):
+Si es así, abre los puertos necesarios (80 y 443 por defecto):
 
 ```
 sudo firewall-cmd --permanent --add-service=http
@@ -123,9 +123,9 @@ sudo firewall-cmd --permanent --add-service=https
 sudo systemctl reload firewalld
 ```
 
-También puedes instalar Postfix (servidor SMTP) si quieres enviar notificaciones por correo electrónico usando GitLab. Esto es **opcional**.
+También puedes instalar Postfix (Servidor SMTP) si quieres enviar notificaciones por email usando GitLab. Esto es **opcional**.
 
-Si quieres usar notificaciones por correo, instala Postfix con los siguientes comandos:
+Si quieres usar notificaciones por email, instala Postfix con los siguientes comandos.
 ```
 sudo zypper install postfix
 sudo systemctl enable postfix
@@ -136,12 +136,12 @@ sudo systemctl start postfix
 </Tabs>
 
 :::info
-Durante la instalación de Postfix puede aparecer una configuración. En ese caso, selecciona 'Internet Site' y presiona enter. Usa el DNS externo de tu servidor Linux para 'mail name' y presiona enter. Si aparecen más pantallas, sigue presionando enter para aceptar la configuración por defecto.
+Durante la instalación de Postfix, puede aparecer una configuración. En ese caso, selecciona 'Internet Site' y presiona enter. Usa el DNS externo de tu servidor Linux para 'mail name' y presiona enter. Si aparecen más pantallas, sigue presionando enter para aceptar la configuración por defecto.
 
-Si prefieres usar otra solución para enviar correos, omite este paso y [configura un servidor SMTP externo](https://docs.gitlab.com/omnibus/settings/smtp) después de instalar GitLab en tu servidor Linux siguiendo una guía oficial de GitLab.
+Si prefieres usar otra solución para enviar emails, omite este paso y [configura un servidor SMTP externo](https://docs.gitlab.com/omnibus/settings/smtp) después de instalar GitLab en tu servidor Linux siguiendo una guía oficial de GitLab.
 :::
 
-## Paso 2: Instalación de GitLab
+## Paso 2: Instalando GitLab
 
 Después de descargar e instalar todas las dependencias necesarias, ya estás listo para instalar GitLab.
 
@@ -179,18 +179,18 @@ sudo zypper install gitlab-ee
 
 </Tabs>
 
-Cuando termine este proceso, deberías tener GitLab listo en tu servidor Linux. Continúa con la siguiente sección para configurar ajustes esenciales y asegurar que el servidor funcione correctamente.
+Cuando este proceso termine, deberías tener GitLab listo en tu servidor Linux. Continúa con la siguiente sección donde configurarás ajustes esenciales para que el servidor funcione correctamente.
 
-## Paso 3: Configuración de GitLab
+## Paso 3: Configurando GitLab
 
-Para asegurarte de que todo funcione, debes hacer algunos cambios en el archivo de configuración. Empieza abriendo el archivo de configuración de GitLab con tu editor de texto favorito. Usaremos el editor `nano` preinstalado como ejemplo.
+Para asegurar que todo funcione, debes hacer algunos cambios en el archivo de configuración. Comienza abriendo el archivo de configuración de GitLab con tu editor de texto preferido. Usaremos el editor preinstalado `nano` como ejemplo.
 ```
 sudo nano /etc/gitlab/gitlab.rb
 ```
 
-Luego, busca la línea `external_url` y escribe tu dominio o la dirección IP de tu servidor Linux si no tienes un dominio para usar con GitLab.
+Luego, busca la línea `external_url` y escribe tu dominio o la dirección IP de tu servidor Linux en caso de que no tengas un dominio para usar con GitLab.
 
-<!-- El siguiente código es del archivo /etc/gitlab/gitlab.rb -->
+<!-- The following code is from the /etc/gitlab/gitlab.rb file  -->
 ```
 ## GitLab URL
 ##! URL en la que GitLab será accesible.
@@ -199,30 +199,30 @@ Luego, busca la línea `external_url` y escribe tu dominio o la dirección IP de
 ##!
 ##! Nota: Durante la instalación/actualizaciones, el valor de la variable de entorno
 ##! EXTERNAL_URL se usará para rellenar/reemplazar este valor.
-##! En instancias AWS EC2, también intentamos obtener el nombre de host/IP pública
+##! En instancias AWS EC2, también intentamos obtener el nombre público/IP
 ##! desde AWS. Para más detalles, consulta:
 ##! https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/instancedata-data-retrieval.html
 external_url 'http`s`://`Tu dominio / dirección IPv4 de tu servidor Linux`'
 ```
 
-Además, recomendamos ingresar tu correo electrónico en la línea `letsencrypt['contact_emails']`. Esto permitirá que Let's Encrypt te envíe notificaciones y te contacte sobre los certificados SSL automáticos y gratuitos.
+Además, recomendamos ingresar tu email en la línea `letsencrypt['contact_emails']`. Esto permitirá que Let's Encrypt te envíe notificaciones y te contacte sobre los certificados SSL automáticos y gratuitos.
 
 :::note
 Necesitas usar un dominio si quieres obtener un certificado SSL gratuito de Let's Encrypt. No puedes solicitar uno directamente para tu dirección IP.
 :::
 
-<!-- El siguiente código es del archivo /etc/gitlab/gitlab.rb -->
+<!-- The following code is from the /etc/gitlab/gitlab.rb file  -->
 ```
 ################################################################################
 # Integración con Let's Encrypt
 ################################################################################
 # letsencrypt['enable'] = nil
-# letsencrypt['contact_emails'] = [`Tu correo aquí`] # Debe ser un array con correos para contacto
+# letsencrypt['contact_emails'] = [`Tu email aquí`] # Debe ser un array de direcciones de email para contacto
 # letsencrypt['group'] = 'root'
 # letsencrypt['key_size'] = 2048
 # letsencrypt['owner'] = 'root'
 # letsencrypt['wwwroot'] = '/var/opt/gitlab/nginx/www'
-# Consulta https://docs.gitlab.com/omnibus/settings/ssl/index.html#renew-the-certificates-automatically para más info
+# Consulta https://docs.gitlab.com/omnibus/settings/ssl/index.html#renew-the-certificates-automatically para más detalles
 # letsencrypt['auto_renew'] = true
 # letsencrypt['auto_renew_hour'] = 0
 # letsencrypt['auto_renew_minute'] = nil # Debe ser un número o expresión cron, si se especifica.
@@ -235,18 +235,18 @@ Necesitas usar un dominio si quieres obtener un certificado SSL gratuito de Let'
 Puedes usar `CTRL+W` para buscar `letsencrypt['contact_emails']` y presionar enter para no tener que buscar manualmente en todo el archivo.
 :::
 
-Cuando termines, presiona `CTRL+X`, luego `Y` y `Enter` para guardar los cambios.
+Cuando termines, presiona `CTRL+X` seguido de `Y` y `Enter` para confirmar los cambios.
 
-Finalmente, ejecuta el siguiente comando para reconfigurar GitLab con las nuevas opciones:
+Finalmente, ejecuta el siguiente comando para reconfigurar GitLab con las nuevas opciones.
 ```
 sudo gitlab-ctl reconfigure
 ```
 
-Este proceso puede tardar un poco porque inicializará GitLab con la configuración actualizada y procesos automáticos. También se emitirán los certificados SSL si usaste un dominio.
+Este proceso puede tardar un poco porque inicializará GitLab usando la configuración actualizada, con procesos automatizados. Los certificados SSL también se emitirán si usaste un dominio.
 
-## Paso 4: Acceder a la interfaz web
+## Paso 4: Accediendo a la Interfaz Web
 
-Después de la inicialización, el servidor debería ser accesible vía navegador. Navega a tu sitio web ingresando tu dominio o dirección IP así:
+Después de la inicialización, el servidor debería ser accesible vía navegador web. Navega a tu sitio ingresando tu dominio o dirección IP así:
 ```
 https://[tu_dominio] O http://[tu_dirección_ip]
 ```
@@ -255,24 +255,24 @@ Al entrar por primera vez a la interfaz web, verás una página de login.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/E46E3qS32GKFfk3/preview)
 
-Para obtener acceso de administrador en el primer login, entra como usuario root usando `root` como nombre de usuario.
+Para obtener acceso admin en tu primer login, ingresa como usuario root usando `root` como nombre de usuario.
 
-Para la contraseña, debes acceder a un archivo en tu servidor Linux donde está almacenada. Usa el siguiente comando y busca el campo `Password`.
+Para la contraseña, debes acceder a un archivo en tu servidor Linux donde está almacenada. Abre el archivo con el siguiente comando y busca el campo `Password`.
 ```
 sudo nano /etc/gitlab/initial_root_password
 ```
 
-<!-- El siguiente código es del archivo /etc/gitlab/initial_root_password -->
+<!-- The following code is from the /etc/gitlab/initial_root_password file -->
 ```
-# ADVERTENCIA: Este valor es válido solo en las siguientes condiciones
+# ADVERTENCIA: Este valor es válido solo bajo las siguientes condiciones
 
-# 1. Si se proporcionó manualmente (ya sea vía variable de entorno `GITLAB_ROOT_PASSWORD` o mediante la configuración `gitlab_rails['initial_root_password']` en `gitlab.rb` antes de que la base de datos fuera inicializada).
+# 1. Si se proporcionó manualmente (ya sea vía variable de entorno `GITLAB_ROOT_PASSWORD` o mediante la configuración `gitlab_rails['initial_root_password']` en `gitlab.rb`, antes de que la base de datos fuera inicializada por primera vez).
 
 # 2. La contraseña no ha sido cambiada manualmente, ni vía UI ni línea de comandos.
 
 #
 
-# Si la contraseña mostrada aquí no funciona, debes resetear la contraseña de admin siguiendo https://docs.gitlab.com/ee/security/reset_user_password.html#reset-your-root-password.
+# Si la contraseña mostrada aquí no funciona, debes resetear la contraseña admin siguiendo https://docs.gitlab.com/ee/security/reset_user_password.html#reset-your-root-password.
 
 Password: `[TU_CONTRASEÑA_AQUÍ]`
 
@@ -283,11 +283,11 @@ Introduce el usuario y contraseña en la página de login para entrar a tu panel
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/AqPHoEmY2Q2nFCF/preview)
 
-Recomendamos crear un nuevo usuario y/o cambiar la contraseña del usuario `root`. Esto se hace accediendo a **Admin** en la esquina inferior izquierda y seleccionando **Overview->Users**. En esta página podrás gestionar los usuarios de tu instancia GitLab.
+Recomendamos crear un nuevo usuario y/o cambiar la contraseña del usuario `root`. Esto se puede hacer accediendo a **Admin** en la esquina inferior izquierda y seleccionando **Overview->Users**. En esta página podrás gestionar los usuarios de tu instancia GitLab.
 
 ## Opcional: Configurar un firewall con ufw
 
-Puedes saltarte esto si no quieres configurar un firewall o si, por ejemplo, ya usas `firewalld` en OpenSUSE.
+Puedes saltarte esto si no quieres configurar un firewall o, por ejemplo, ya usas `firewalld` en OpenSUSE.
 Asegúrate de permitir los puertos 80/443 y el puerto 22.
 
 ### Instalar ufw
@@ -321,10 +321,10 @@ sudo ufw allow OpenSSH
 ### Activar firewall
 
 :::warning
-Esto bloqueará por defecto el acceso a todos los puertos excepto los permitidos. Asegúrate de que la lista blanca esté bien configurada antes de ejecutar este comando.
+Por defecto, esto bloqueará el acceso a todos los puertos excepto los permitidos. Asegúrate de que la lista blanca esté correctamente configurada antes de ejecutar este comando.
 :::
 
-Para que el firewall tenga efecto, actívalo con el siguiente comando:
+Para que el firewall tenga efecto, actívalo con el siguiente comando.
 
 ```
 sudo ufw enable
@@ -334,6 +334,4 @@ sudo ufw enable
 
 ¡Felicidades, has instalado GitLab con éxito! Si tienes más preguntas o problemas, contacta a nuestro equipo de soporte, disponible para ayudarte todos los días.
 
-Si quieres hacer configuraciones adicionales, te recomendamos leer la [Documentación oficial de GitLab](https://docs.gitlab.com/ee/install/next_steps.html) para los siguientes pasos.
-
-<InlineVoucher />
+Si quieres hacer configuraciones adicionales, te recomendamos leer la [Documentación Oficial de GitLab](https://docs.gitlab.com/ee/install/next_steps.html) para los siguientes pasos.

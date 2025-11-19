@@ -1,7 +1,7 @@
 ---
 id: dedicated-windows-2022
 title: "専用サーバー：Windows Server 2022のインストール"
-description: "専用サーバーにWindows Serverをインストールして最適なパフォーマンスとセキュリティを実現する方法を解説 → 今すぐチェック"
+description: "専用サーバーにWindows Serverをインストール・設定して、最高のパフォーマンスとセキュリティを実現する方法をチェック → 今すぐ詳しく見る"
 sidebar_label: Windows Server 2022
 services:
   - dedicated
@@ -11,43 +11,39 @@ import YouTube from '@site/src/components/YouTube/YouTube';
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## はじめに
-以下では、専用サーバーにWindows ServerのOSをインストールし設定する手順をステップごとに説明します。OSを確実にセットアップし、最大限に活用するために、指示にしっかり従ってください。
+このガイドでは、専用サーバーにWindows ServerのOSをインストールし、設定する手順をステップバイステップで解説します。指示にしっかり従って、OSを確実にセットアップし、最大限に活用しましょう。
 
 :::info Windows Server 2022
-本ガイドのセットアップ手順とデモはWindows Server 2022（2019の見た目と同様のデザイン）をベースにしています。古いOSバージョンは構成や見た目が異なる場合がありますが、手順はほぼ同じです。
+本ガイドのセットアップ手順と画面はWindows Server 2022（2019の見た目と同じデザイン）をベースにしています。古いOSバージョンは構成や見た目が異なる場合がありますが、基本的な流れは同じです。
 :::
 
-:::warning 新しいバージョンの提供 / EOL情報
+:::warning 新しいバージョンの案内 / EOL情報
 
-Microsoftの最新Windows Serverバージョンは[2025](dedicated-windows.md)です。長期プロジェクトには最新バージョンの利用を推奨します。
+Microsoftの最新Windows Serverバージョンは[2025](dedicated-windows.md)です。長期プロジェクトには最新バージョンの利用をおすすめします。
 
-古いWindows Serverバージョンのサポートはいずれ終了します。2022バージョンのサポート期限は以下の通りです：
+古いWindows Serverのサポートはいずれ終了します。2022バージョンのサポート期限は以下の通りです：
 
-- アクティブサポート終了：2026年6月13日
-- セキュリティサポート終了：2031年10月14日
+- アクティブサポート：2026年6月13日
+- セキュリティサポート：2031年10月14日
 
 :::
-
-<InlineVoucher />
 
 ## 準備
-OSのインストールと設定には、まず対応するOSのISOをマウントする必要があります。マウント方法はいくつかあります：
+OSのインストール・設定には、まず対応するOSのISOをマウントする必要があります。マウント方法は主に以下の3つです：
 
-1. 初期セットアップ時のマウント
-2. iLO経由のマウント（Virtual Media）
-3. iLO経由のマウント（リモートコンソール）
+1. 初期セットアップからのマウント
+2. iLO経由でのマウント（Virtual Media）
+3. iLO経由でのマウント（リモートコンソール）
 
-ISOファイルのマウントに慣れていない場合は、[初期セットアップ](dedicated-setup.md)や[Own ISO](dedicated-iso.md)ガイドを参照するのがおすすめです。
-
-
+ISOファイルのマウントに慣れていない場合は、[初期セットアップ](dedicated-setup.md)や[Own ISO](dedicated-iso.md)ガイドを参考にしてください。
 
 ## インストール
-Windows Serverをインストールするには、まずISOファイルが必要です。弊社のウェブインターフェースから希望のWindowsバージョンを選択できます。もしくは、独自のISOファイルを使うことも可能で、その場合は[Own ISO](dedicated-iso.md)ガイドをご覧ください。
+Windows Serverをインストールするには、まずISOファイルが必要です。ZAPのウェブインターフェースから希望のWindowsバージョンを選択できます。もちろん、自分で用意したISOファイルを使うことも可能で、その場合は[Own ISO](dedicated-iso.md)ガイドを参照してください。
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/DDNsa9zjbXng9Z6/preview)
 
-リモートコンソールにこの画面が表示されたら、ISOの読み込みが成功しています。セットアップを開始しましょう。
-希望の言語を選択し、「次へ」をクリック。
+リモートコンソールにこの画面が表示されたら、ISOの読み込みが成功しています。セットアップを始めましょう。
+言語を選択して「次へ」をクリック。
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/iyjwCCSmjPqiDMt/preview)
 
@@ -55,74 +51,75 @@ Windows Serverをインストールするには、まずISOファイルが必要
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/y8rXwXfrnRRD9fZ/preview)
 
-Windowsはプロダクトキーを要求します。お持ちの場合は入力してください。
+Windowsのプロダクトキーを求められます。持っている場合は入力してください。
 
 :::note
-弊社ではWindowsライセンスの販売はしていません。キーはご自身で購入してください。
+Windowsライセンスは販売していません。キーはご自身で購入してください。
 :::
 
-Windowsのプロダクトキーは各種オンラインショップで購入可能です。購入時はご自身のWindowsバージョンに合った有効なキーか必ず確認してください。Windows Server 2022には通常版とDatacenter版など複数のエディションがあります。
-キーがわからない場合は「プロダクトキーがありません」を選択し、後から追加することも可能です。
+Windowsのプロダクトキーは各種オンラインショップで購入可能です。購入時は自分のWindowsバージョンに合った有効なキーか必ず確認しましょう。
+Windows Server 2022には通常版とDatacenter版の2種類があります。
+迷ったら「プロダクトキーがありません」を選択して、あとからキーを追加することも可能です。
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/jH5dYQBq7FtT2SL/preview)
 
-インストールしたいバージョンを選択してください。
-後から変更できないので、間違いのないように選びましょう。
-また、「(Desktop Experience)」付きのバージョンを選ばないと、Windowsがシェルベースになります。
-選択したら「次へ」をクリック。
+インストールしたいエディションを選択してください。
+後から変更できないので、間違えないように注意しましょう。
+「(Desktop Experience)」付きのバージョンを選ばないと、Windowsがシェルベースになります。
+選択したら「次へ」で進みます。
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/9GRPiS3JpFPyJYk/preview)
 
-利用規約に同意し、「次へ」を押します。
+利用規約に同意して「次へ」をクリック。
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/Bbfj7R2RdkNkMzq/preview)
 
-Windowsの新規インストールを行う場合は「カスタム」を選択してください。例えば2016から2022へのアップグレードを行う場合は「アップグレード」を選びます。
+Windowsの新規インストールなら「カスタム」を選択。2016から2022へのアップグレードなどの場合は「アップグレード」を選べます。
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/8zkx8grPTCSgprQ/preview)
 
-次に専用サーバーのパーティションを作成します。通常はまだパーティションは作成されていません。もし既存のパーティションがあれば選択して「削除」を押してください。
+次に専用サーバーのパーティションを作成します。通常はまだパーティションがないはずですが、もしあれば選択して「削除」してください。
 
-複数の小さいパーティションを作るか、大きなパーティション1つにするか選べます。小さいパーティションを作る場合でも、メインのWindowsパーティションは最低50GBは確保するのがおすすめです。
+複数の小さいパーティションを作るか、大きな1つのパーティションを作るか選べます。小さいパーティションを作る場合でも、Windowsのメインパーティションは最低50GBは確保するのがおすすめです。
 「新規」をクリックしてパーティションを作成。
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/GtBxwdETkNeSGcT/preview)
 
-大きなパーティション1つで良ければ「適用」を押すだけでOK。セットアップが自動的に最大サイズを割り当てます。
+大きな1つのパーティションにしたい場合は「適用」を押すだけでOK。セットアップが自動的に最大サイズを割り当てます。
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/xWr3ySfyGdYbxKt/preview)
 
-Windowsはシステム用に小さなパーティションを作成します。これを許可するため「OK」を押します。
+Windowsは小さなシステム用パーティションを自動で作成します。「OK」を押して承認。
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/B2JPRH3pYRt323x/preview)
 
-パーティション設定に問題なければ、Windowsをインストールするパーティションを選択し「次へ」をクリック。
-Windowsセットアップが自動で処理を進めます。数分かかることがあります。
-セットアップ完了まで特に操作は不要です。
+パーティション設定に問題なければ、Windowsをインストールしたいパーティションを選択して「次へ」をクリック。
+あとはWindowsセットアップが自動で進みます。数分かかるので完了まで待ちましょう。
+セットアップ中は特に操作不要です。
 
 ## 設定
 
-セットアップが完了すると、Windowsはパスワード設定を求めます。
+セットアップ完了後、Windowsがパスワード設定を求めます。
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/Zmn6zJyPWAM5MHG/preview)
 
-ここで希望のパスワードを設定してください。
+希望のパスワードを入力してください。
 
 :::info
 特殊文字を含む強力なパスワードを推奨します。
 
-パスワードを忘れると復旧できないので、必ずメモを残してください。
+パスワードを忘れると復旧できないので、必ずメモを残しましょう。
 :::
 
 パスワード設定後、Windowsのロック画面が表示されます。
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/ddxASYsjNgwHX5i/preview)
 
-Windowsにログインするには、`CTRL + ALT + DELETE`キーを押します。リモートコンソールから簡単に操作可能です。
-（Javaコンソールの「キーボード」から操作できます）
-設定したパスワードでログインしてください。
+Windowsにログインするには、リモートコンソールから `CTRL + ALT + DELETE` を押します。
+（Javaコンソールの「Keyboard」から簡単に操作可能）
+パスワードを使ってログインしてください。
 
-次にリモートデスクトップを有効化します。これで簡単にサーバーへ接続可能になります。
+次にリモートデスクトップを有効化します。これで簡単にサーバーへ接続できるようになります。
 エクスプローラーを開き、「PC」を右クリック。
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/HSnnXftNbXNYjq6/preview)
@@ -131,33 +128,29 @@ Windowsにログインするには、`CTRL + ALT + DELETE`キーを押します�
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/g2CFHpdrZ3E8g29/preview)
 
-「リモートの設定」を開きます。
+「リモートの設定」を開く。
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/e8Q4rixGtBZZH35/preview)
 
-ファイアウォールの警告が出たら「OK」を押し、「適用」をクリック。
+ファイアウォールの警告は「OK」で承認し、「適用」をクリック。
 
-お使いのPCでリモートデスクトップを開き、ZAPのインターフェースのIPアドレスを入力してください。
+パソコンのリモートデスクトップを開き、ZAPのインターフェースのIPアドレスを入力。
 ユーザー名は常にAdministrator、パスワードは先ほど設定したものです。
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/w97g9aDrpM8EjpA/preview)
 
-証明書警告は無視してOKです。「今後このコンピューターへの接続で確認しない」にチェックを入れ、
-「はい」を押して接続を完了させます。
+証明書警告は無視してOK。「今後このコンピューターへの接続で確認しない」にチェックを入れて、「はい」で完了。
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/SqqCdBZRYysz8yj/preview)
 
-リモートデスクトップ接続が確立され、専用サーバーを使えるようになります。
-ネットワーク設定はDHCPで自動的に適用されるため、追加設定は不要です。
+これでリモートデスクトップ接続が確立し、専用サーバーを使えるようになります。
+ネットワーク設定はDHCPで自動的に適用されるので、追加設定は不要です。
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/9BEEiFAtJ2jCoCk/preview)
 
 :::tip
-質問やトラブルがあれば、いつでもサポートにご連絡ください！
+質問やトラブルがあれば、いつでもサポートに相談してくださいね！
 :::
 
-
 ## まとめ
-おめでとうございます！専用サーバーにWindows Server 2022のOSを無事インストールできました。ご不明点やサポートが必要な場合は、毎日対応しているサポートチームまでお気軽にお問い合わせくださいね！🙂
-
-<InlineVoucher />
+おめでとうございます！専用サーバーにWindows Server 2022のインストールが無事完了しました。何かあれば、毎日対応しているサポートチームまでお気軽にお問い合わせくださいね 🙂

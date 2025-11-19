@@ -13,11 +13,11 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introducción
 
-Git es un sistema de control de versiones distribuido diseñado para una gestión eficiente del código fuente. Permite a los desarrolladores rastrear cambios, trabajar en diferentes ramas simultáneamente y colaborar en proyectos sin complicaciones. Gracias a su flexibilidad y rendimiento, Git se ha convertido en la herramienta estándar para el control de versiones en el desarrollo de software moderno.
+Git es un sistema de control de versiones distribuido diseñado para la gestión eficiente del código fuente. Permite a los desarrolladores rastrear cambios, trabajar en diferentes ramas simultáneamente y colaborar en proyectos sin complicaciones. Gracias a su flexibilidad y rendimiento, Git se ha convertido en la herramienta estándar para el control de versiones en el desarrollo de software moderno.
 
-¿Estás pensando en alojar este servicio por tu cuenta? Te guiaremos paso a paso sobre cómo configurarlo y ajustarlo, junto con todo lo que debes tener en cuenta.
+¿Estás pensando en alojar este servicio tú mismo? Te guiaremos paso a paso sobre cómo configurarlo y ajustarlo, junto con todo lo que necesitas tener en cuenta.
 
-<InlineVoucher />
+
 
 
 
@@ -27,7 +27,7 @@ Antes de configurar **Git**, necesitas preparar tu sistema. Esto incluye actuali
 
 
 ### Actualizar Sistema
-Para asegurarte de que tu sistema funcione con el software y las mejoras de seguridad más recientes, siempre debes realizar primero las actualizaciones del sistema. Esto garantiza que tu sistema tenga los últimos parches de seguridad y versiones de software antes de continuar.
+Para asegurarte de que tu sistema esté funcionando con las mejoras más recientes de software y seguridad, siempre debes realizar primero las actualizaciones del sistema. Esto garantiza que tu sistema tenga los últimos parches de seguridad y versiones de software antes de continuar.
 
 
 
@@ -41,7 +41,7 @@ Luego, ejecuta el instalador del archivo descargado y sigue los pasos que se mue
 
 Una vez finalizada la instalación, deberías verificar que Git funciona correctamente abriendo una terminal o símbolo del sistema. Escribe el comando `git --version` y presiona Enter.
 
-Si la instalación fue exitosa, Git devolverá el número de versión instalado actualmente. Si recibes un mensaje de error o no aparece nada, generalmente indica que Git no se instaló correctamente o que el comando no está incluido en la ruta del sistema.
+Si la instalación fue exitosa, Git devolverá el número de versión instalado actualmente. Si recibes un mensaje de error o no hay salida, generalmente indica que Git no se instaló correctamente o que el comando no está incluido en la ruta del sistema.
 
 ```
 git --version
@@ -54,7 +54,7 @@ git version 2.51.2
 
 ## Configuración
 
-Configura tu nombre de usuario y correo electrónico de Git con los comandos a continuación, reemplazando los valores de ejemplo por tus propios datos. Estas credenciales se vincularán a cada commit que hagas.
+Configura tu nombre de usuario y correo electrónico de Git con los comandos a continuación, reemplazando los valores de ejemplo por tus propios datos. Estas credenciales estarán vinculadas a cada commit que hagas.
 
 ```
 git config --global user.name "John Doe Paris"
@@ -65,13 +65,12 @@ git config --global user.email "doe@e-mail.com"
 
 ## Conclusión y más Recursos
 
-¡Felicidades! Ahora has instalado y configurado Git exitosamente en tu servidor dedicado. También te recomendamos echar un vistazo a los siguientes recursos, que pueden ofrecerte ayuda y guía adicional durante el proceso de configuración de tu servidor.
+¡Felicidades! Ahora has instalado y configurado Git exitosamente en tu servidor dedicado. También te recomendamos echar un vistazo a los siguientes recursos, que pueden ofrecerte ayuda y guía adicional durante el proceso de configuración de tu servidor
 
 - [git-scm.com](https://git-scm.com/) - Sitio Oficial
 - [git-scm.com/doc](https://git-scm.com/doc) Documentación de Git
 
-¿Tienes preguntas específicas que no se abordan aquí? Para más dudas o asistencia, no dudes en contactar a nuestro equipo de soporte, ¡disponible todos los días para ayudarte! 🙂
+¿Tienes preguntas específicas que no se cubren aquí? Para más dudas o asistencia, no dudes en contactar a nuestro equipo de soporte, ¡disponible todos los días para ayudarte! 🙂
 
 
 
-<InlineVoucher />

@@ -17,7 +17,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introdução
 
-Você tem um servidor dedicado e quer instalar e operar seu próprio serviço de Servidor Dedicado FiveM com txAdmin? Você está no lugar certo! A seguir, vamos explicar todos os passos necessários para instalar e configurar, além do que você precisa ficar ligado.
+Você tem um servidor dedicado e quer instalar e operar seu próprio serviço de Servidor Dedicado FiveM com txAdmin? Você está no lugar certo! A seguir, vamos explicar todos os passos necessários para instalar e configurar, além do que você precisa ficar ligado. 
 
 
 
@@ -41,12 +41,12 @@ Se você quiser usar e instalar recursos que precisam de banco de dados, vai pre
 
 ### Baixar o software do Servidor FiveM
 
-O próximo passo é baixar o software do servidor FiveM. Para isso, acesse o site [Server Build List](https://runtime.fivem.net/artifacts/fivem/build_server_windows/master/) do FiveM pelo navegador de internet que preferir e baixe a versão mais recente do servidor FiveM.
+O próximo passo é baixar o software do servidor FiveM. Para isso, acesse o site [Server Build List](https://runtime.fivem.net/artifacts/fivem/build_server_windows/master/) do FiveM pelo navegador de internet que preferir e baixe a versão mais recente do servidor FiveM. 
 
-Descompacte o arquivo baixado na pasta Downloads e mova os arquivos do servidor FiveM preferencialmente para uma pasta separada. Neste exemplo, o software do servidor está numa pasta chamada **FiveM** na área de trabalho.
+Descompacte o arquivo baixado na pasta Downloads e mova os arquivos do servidor FiveM preferencialmente para uma pasta separada. Neste exemplo, o software do servidor está em uma pasta chamada **FiveM** na área de trabalho. 
 
 :::warning Ferramenta de descompactação necessária
-Para descompactar o software do Servidor FiveM baixado, é preciso uma ferramenta de descompactação para o arquivo compactado. Neste exemplo, usamos o [7Zip](https://7-zip.com/).
+Para descompactar o software do Servidor FiveM baixado, é preciso uma ferramenta de descompactação para o arquivo compactado. Neste exemplo, usamos o [7Zip](https://7-zip.com/). 
 :::
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/B9Qs9raB3fRZjJ4/download)
@@ -55,7 +55,7 @@ Para descompactar o software do Servidor FiveM baixado, é preciso uma ferrament
 
 ### Criar chave de licença do Servidor FiveM
 
-Todo servidor FiveM precisa da sua própria chave de licença, que é gerenciada pelo novo [Portal Cfx.re](http://portal.cfx.re/). A chave de licença fica vinculada à sua conta Cfx.re. Faça login no site, vá até a categoria **Server** e clique no botão **Generate Key**.
+Todo servidor FiveM precisa da sua própria chave de licença, que é gerenciada pelo novo [Portal Cfx.re](http://portal.cfx.re/). A chave de licença fica vinculada à sua conta Cfx.re. Faça login no site, vá na categoria **Server** e clique no botão **Generate Key**.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/X6kHcs6o2dcFJqw/preview)
 
@@ -63,12 +63,12 @@ Todo servidor FiveM precisa da sua própria chave de licença, que é gerenciada
 
 ## Configuração
 
-Agora você pode começar a instalar o Servidor FiveM e o txAdmin. Para isso, abra novamente a pasta do seu Servidor FiveM e execute o aplicativo `FXServer.exe`.
+Agora você pode começar a instalar o Servidor FiveM e o txAdmin. Para isso, abra novamente a pasta do Servidor FiveM e execute o aplicativo `FXServer.exe`.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/aSEbx3LnJe2rZpd/download)
 
 
-Quando o aplicativo do servidor for executado, o console do servidor e o txAdmin vão abrir. Na interface do txAdmin, você deve vincular sua **conta Cfx.re** ao txAdmin.  
+Quando o aplicativo do servidor for executado, o console do servidor e o txAdmin vão abrir. Na interface do txAdmin, você deve vincular sua **conta Cfx.re** com o txAdmin.  
 
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/EDcJWjKSrrwARTL/download)
@@ -79,11 +79,11 @@ Quando o aplicativo do servidor for executado, o console do servidor e o txAdmin
 
 Durante a configuração do txAdmin, seu próprio servidor FiveM será instalado e configurado em cinco passos. Siga as instruções na interface do txAdmin e defina primeiro um **nome para o servidor**. Depois, selecione o **tipo de servidor** desejado. Este exemplo mostra a instalação de um servidor FiveM com QBCore pré-instalado.
 
-Selecione a opção **Popular Recipes** no passo **Deployment Type** e depois o **QBCore Framework Template**. Confirme o **Diretório de Dados** desejado e inicie o **Recipe Deployer** para concluir a instalação.
+Selecione a opção **Popular Recipes** na etapa **Deployment Type** e depois o **QBCore Framework Template**. Confirme o **Diretório de Dados** desejado e inicie o **Recipe Deployer** para concluir a instalação.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/WACQEdocRxNrRrk/download)
 
-Durante o Recipe Deployer, as últimas informações necessárias devem ser adicionadas antes do servidor poder ser iniciado de vez. Insira sua chave de licença FiveM criada anteriormente no campo **License Key**. Depois clique em **Show/Hide Database Options (Advanced)** e informe os dados de login do seu servidor de banco de dados. Neste caso, só é necessário a senha definida anteriormente para o usuário **root**. As outras configurações podem ficar como estão. Confira seus dados e clique em **Run Recipe** para iniciar o processo.
+Durante o Recipe Deployer, as últimas informações necessárias devem ser adicionadas antes do servidor poder ser iniciado de vez. Insira sua chave de licença FiveM criada anteriormente no campo **License Key**. Depois clique em **Show/Hide Database Options (Advanced)** e informe os dados de login do seu servidor de banco de dados. Neste caso, só é necessário a senha definida para o usuário **root**. Todas as outras configurações podem ficar como estão. Confira seus dados e clique em **Run Recipe** para iniciar o processo.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/QPyEctyQbp3kCxa/download)
 
@@ -97,10 +97,10 @@ Para garantir que seu servidor fique acessível ao público, você precisa alter
 Abra a busca do Windows e procure por **Powershell**. Clique com o botão direito e escolha **Executar como Administrador** para garantir que as permissões estejam corretas e tudo funcione.
 
 :::info
-Tenha certeza de rodar o Powershell em modo Administrador, senão as configurações podem não ser aplicadas direito.
+Garanta que o Powershell esteja rodando em modo Administrador, senão as configurações podem não ser aplicadas direito.
 :::
 
-Depois, copie e cole os comandos abaixo no prompt do Powershell:
+Depois, copie e cole os seguintes comandos no prompt do Powershell:
 ```
 New-NetFirewallRule -DisplayName "FiveM Server" -Direction Inbound -LocalPort 30120 -Protocol TCP -Action Allow
 New-NetFirewallRule -DisplayName "FiveM Server" -Direction Inbound -LocalPort 30120 -Protocol UDP -Action Allow
@@ -114,7 +114,7 @@ Esses comandos vão criar automaticamente as regras de firewall necessárias par
 
 <TabItem value="windefender" label="Via Windows Defender">
 
-Use a busca do Windows para abrir as **Configurações do Firewall do Windows com Segurança Avançada**. Pode ser que você precise clicar em **Configurações Avançadas** para abrir a janela necessária, caso abra a página básica do Firewall do Windows.
+Use a busca do Windows para abrir as **Configurações do Firewall do Windows com Segurança Avançada**. Pode ser que você precise clicar em **Configurações Avançadas** para abrir a janela necessária se abrir a página básica do Firewall do Windows.
 
 ![](https://github.com/zaphosting/docs/assets/42719082/5fb9f943-7e51-4d8f-9df4-2f5ff60857d3)
 
@@ -122,7 +122,7 @@ Você deve criar novas regras para seu servidor FiveM. Para isso, clique nas reg
 - TCP entrada e saída: 30120
 - UDP entrada e saída: 30120
 
-Se precisar de ajuda, use nosso guia [Encaminhamento de Portas (Firewall)](vserver-windows-port.md).
+Use nosso guia [Encaminhamento de Portas (Firewall)](vserver-windows-port.md) se precisar de ajuda extra para fazer isso.
 
 </TabItem>
 </Tabs>
@@ -132,4 +132,4 @@ Se precisar de ajuda, use nosso guia [Encaminhamento de Portas (Firewall)](vserv
 Você instalou e configurou com sucesso um serviço de Servidor Dedicado FiveM no seu servidor dedicado. Para dúvidas ou ajuda, não hesite em contatar nosso time de suporte, que está disponível todos os dias para te ajudar! 🙂
 
 
-<InlineVoucher />
+

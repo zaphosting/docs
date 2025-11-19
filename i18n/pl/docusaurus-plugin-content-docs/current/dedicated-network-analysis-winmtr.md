@@ -19,15 +19,15 @@ Problemy sieciowe mogą być uciążliwe i oczywiście nie powinny być części
 
 WinMTR/MTR to narzędzie diagnostyczne sieci, które łączy funkcje Ping i Traceroute. Pozwala na szczegółową analizę zarówno **trasy wychodzącej (Klient → Serwer)**, jak i **trasy powrotnej (Serwer → Klient)**, śledząc ścieżkę pakietów danych w obu kierunkach. Przy tym zbiera ważne informacje, takie jak opóźnienia i utrata pakietów, które są kluczowe do precyzyjnej diagnozy i rozwiązania problemów sieciowych.
 
-**Trasa wychodząca (Klient → Serwer)**: Raport dla **trasy wychodzącej** jest przydatny, gdy pojawiają się problemy takie jak zerwania połączenia, wolne łącza lub trudności z nawiązaniem połączenia. Ta analiza pomaga zidentyfikować potencjalne problemy na drodze od klienta do serwera, takie jak przeciążenie sieci, utrata pakietów czy błędne trasowanie.
+**Trasa wychodząca (Klient → Serwer)**: Raport dla **trasy wychodzącej** jest przydatny, gdy pojawiają się problemy takie jak zerwania połączenia, wolne łącze lub trudności z nawiązaniem połączenia. Ta analiza pomaga zidentyfikować potencjalne problemy na drodze od klienta do serwera, takie jak przeciążenie sieci, utrata pakietów czy błędne trasowanie.
 
-**Trasa powrotna (Serwer → Klient)**: Raport dla **trasy powrotnej** ma sens dopiero po potwierdzeniu stabilnego i działającego połączenia na trasie wychodzącej. Oznacza to, że raport trasy powrotnej jest szczególnie istotny, gdy trasa wychodząca nie wykazuje problemów, ale nadal występują takie kłopoty jak wolne odpowiedzi serwera, opóźnione ładowanie czy niepełne przesyłanie danych.
+**Trasa powrotna (Serwer → Klient)**: Raport dla **trasy powrotnej** ma sens dopiero po potwierdzeniu stabilnego i działającego połączenia na trasie wychodzącej. Oznacza to, że raport trasy powrotnej jest szczególnie istotny, gdy trasa wychodząca nie wykazuje problemów, ale nadal występują takie kłopoty jak wolne odpowiedzi serwera, opóźnione ładowanie czy niekompletne przesyłanie danych.
 
-Podsumowując, jeśli pojawią się zauważalne problemy sieciowe, najpierw należy przeanalizować **trasę wychodzącą (Klient → Serwer)**. Jeśli raport z trasy wychodzącej nie wykazuje anomalii, a problemy nadal występują, konieczne jest sprawdzenie **trasy powrotnej (Serwer → Klient)**, aby wykryć ewentualne problemy asymetryczne. Problemy asymetryczne pojawiają się, gdy pakiety danych są przesyłane bez problemów w jednym kierunku, a w przeciwnym występują opóźnienia lub utrata pakietów.
+Podsumowując, jeśli pojawią się zauważalne problemy sieciowe, najpierw należy przeanalizować **trasę wychodzącą (Klient → Serwer)**. Jeśli raport trasy wychodzącej nie wykazuje anomalii, a problemy nadal występują, konieczne jest sprawdzenie **trasy powrotnej (Serwer → Klient)**, aby wykryć ewentualne problemy asymetryczne. Problemy asymetryczne pojawiają się, gdy pakiety danych są przesyłane bez problemów w jednym kierunku, a w przeciwnym występują opóźnienia lub utrata pakietów.
 
 ## Instalacja
 
-Skoro już wiemy, kiedy raporty dla tras przychodzących i wychodzących są przydatne, przejdźmy do instalacji na poziomie klienta i serwera.
+Skoro już wiadomo, kiedy raporty dla tras wychodzących i powrotnych są przydatne, przejdźmy do instalacji na poziomie klienta i serwera.
 
 ### Klient
 
@@ -36,7 +36,7 @@ Dla trasy wychodzącej aplikacja musi być zainstalowana na kliencie (**Twoim ko
 <Tabs>
 <TabItem value="windows" label="Windows" default>
 
-Jeśli korzystasz z komputera z systemem Windows, analizę sieci przeprowadza się za pomocą aplikacji WinMTR. Aby zainstalować WinMTR na swoim komputerze, najpierw pobierz aplikację ze strony ZAP-Hosting. Po pobraniu rozpakuj plik. W efekcie otrzymasz plik wykonywalny `WinMTR.exe`.
+Na komputerze z systemem Windows analizę sieci przeprowadza się za pomocą aplikacji WinMTR. Aby zainstalować WinMTR na swoim komputerze, najpierw pobierz aplikację ze strony ZAP-Hosting. Po pobraniu rozpakuj plik. W efekcie otrzymasz plik wykonywalny `WinMTR.exe`.
 
 | Aplikacja | Pobierz                                   |
 | --------- | ----------------------------------------- |
@@ -46,7 +46,7 @@ Jeśli korzystasz z komputera z systemem Windows, analizę sieci przeprowadza si
 
 <TabItem value="linux" label="Linux">
 
-Jeśli korzystasz z komputera z systemem Linux, analizę sieci przeprowadza się za pomocą aplikacji MTR. Aby zainstalować MTR na swoim systemie, otwórz terminal i wykonaj odpowiednie polecenie instalacji dla swojego systemu operacyjnego:
+Na komputerze z systemem Linux analizę sieci przeprowadza się za pomocą aplikacji MTR. Aby zainstalować MTR na swoim systemie, otwórz terminal i wykonaj odpowiednie polecenie instalacyjne dla swojego systemu operacyjnego:
 
 **Debian**
 
@@ -76,11 +76,11 @@ yum install mtr -y
 
 <TabItem value="macos" label="MacOS">
 
-Jeśli korzystasz z komputera z systemem Mac OS, analizę sieci przeprowadza się za pomocą aplikacji MTR. Jednak MTR nie jest preinstalowany na urządzeniach Mac OS i nie jest dostępny w Apple Store. Aby zainstalować MTR, musisz najpierw zainstalować Homebrew jako system zarządzania pakietami na swoim komputerze.
+Na komputerze z systemem Mac OS analizę sieci przeprowadza się za pomocą aplikacji MTR. Jednak MTR nie jest preinstalowany na urządzeniach Mac OS i nie jest dostępny w Apple Store. Aby zainstalować MTR, musisz najpierw zainstalować Homebrew jako system zarządzania pakietami na swoim komputerze.
 
 **Instalacja Homebrew**
 
-Otwórz terminal na swoim komputerze i uruchom następujące polecenie, aby zainstalować Homebrew:
+Otwórz terminal na swoim komputerze i uruchom poniższe polecenie, aby zainstalować Homebrew:
 
 ```
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
@@ -103,9 +103,9 @@ Dla trasy powrotnej aplikacja musi być zainstalowana na serwerze. Poniższe kro
 
 <Tabs>
 
-<TabItem value="linux" label="Serwer na Linux" default>
+<TabItem value="linux" label="Serwer działający na Linux" default>
 
-Połącz się z serwerem przez **[SSH](vserver-linux-ssh.md)**. Aby zainstalować MTR na systemie, wykonaj odpowiednie polecenie instalacji dla systemu operacyjnego serwera:
+Połącz się z serwerem przez **[SSH](vserver-linux-ssh.md)**. Aby zainstalować MTR na swoim systemie, wykonaj odpowiednie polecenie instalacyjne dla systemu operacyjnego serwera:
 
 **Debian**
 ```
@@ -131,7 +131,7 @@ yum install mtr -y
 
 </TabItem>
 
-<TabItem value="windows" label="Serwer na Windows">
+<TabItem value="windows" label="Serwer działający na Windows">
 
 Połącz się z serwerem przez **[Zdalny pulpit (Remote Desktop Connection)](vserver-windows-userdp.md)**. Aby zainstalować WinMTR na serwerze, najpierw pobierz aplikację ze strony ZAP-Hosting. Po pobraniu rozpakuj plik. W efekcie otrzymasz plik wykonywalny `WinMTR.exe`.
 
@@ -193,7 +193,7 @@ Pozwól aplikacji działać przez co najmniej **jedną minutę**, aby zebrać wy
 Aby przeanalizować trasę z serwera do Twojego komputera, połącz się z serwerem i wykonaj poniższe kroki.
 
 <Tabs>
-<TabItem value="linux" label="Serwer na Linux" default>
+<TabItem value="linux" label="Serwer działający na Linux" default>
 
 Aplikację MTR uruchom na serwerze, wykonując w terminalu SSH polecenie:
 ```
@@ -203,17 +203,17 @@ mtr <adres-ip-twojego-komputera>
 Pozwól aplikacji działać przez co najmniej **jedną minutę**, aby zebrać wystarczająco dużo danych. Gdy masz już dane, zatrzymaj analizę i zapisz wynik.
 
 :::info
-Nie znasz swojego adresu IP lub nie wiesz, jak go znaleźć? Istnieje kilka sposobów, aby to sprawdzić. Najszybszym jest skorzystanie z serwisu online, np. WhatIsMyIPAddress.
+Nie znasz swojego adresu IP lub nie wiesz, jak go znaleźć? Istnieje kilka sposobów, aby to sprawdzić. Najszybszy to skorzystanie z serwisu online, np. WhatIsMyIPAddress.
 :::
 
 </TabItem>
 
-<TabItem value="windows" label="Serwer na Windows">
+<TabItem value="windows" label="Serwer działający na Windows">
 
 W polu `Host` wpisz adres IP swojego połączenia. Następnie rozpocznij raport. Pozwól aplikacji działać przez co najmniej **jedną minutę**, aby zebrać wystarczająco dużo danych. Gdy masz już dane, zatrzymaj analizę i zapisz wynik, klikając `Export TEXT`.
 
 :::info
-Nie znasz swojego adresu IP lub nie wiesz, jak go znaleźć? Istnieje kilka sposobów, aby to sprawdzić. Najszybszym jest skorzystanie z serwisu online, np. **[WhatIsMyIPAddress](https://whatismyipaddress.com/)**.
+Nie znasz swojego adresu IP lub nie wiesz, jak go znaleźć? Istnieje kilka sposobów, aby to sprawdzić. Najszybszy to skorzystanie z serwisu online, np. **[WhatIsMyIPAddress](https://whatismyipaddress.com/)**.
 :::
 
 </TabItem>
@@ -222,21 +222,21 @@ Nie znasz swojego adresu IP lub nie wiesz, jak go znaleźć? Istnieje kilka spos
 
 ## Ocena raportu
 
-Podczas oceny wyników warto zwrócić uwagę na kilka kluczowych punktów. Poniższa sekcja wyjaśni je dokładniej i wyjaśni, co oznaczają dla analizy. Uważne przyjrzenie się tym aspektom jest niezbędne do precyzyjnej diagnozy i skutecznego wykrycia potencjalnych przyczyn.
+Podczas oceny wyników warto zwrócić uwagę na kilka kluczowych punktów. Poniższa sekcja wyjaśni je dokładniej i wyjaśni ich znaczenie dla analizy. Uważne śledzenie tych aspektów jest kluczowe dla precyzyjnej diagnozy i skutecznego wykrycia potencjalnych przyczyn.
 
 ### Utrata pakietów
 
-Jeśli w wynikach widzisz utratę pakietów, oznacza to potencjalne problemy sieciowe. Niewielka, chwilowa utrata pakietów na poziomie 1-2% może nie być problemem, ale wyższe wartości sugerują poważniejsze kłopoty. Utrata pakietów może powodować opóźnienia lub przerwy w połączeniach usług. Jeśli utrata jest równomiernie rozłożona na wszystkich przeskokach (hopach), problem może leżeć w Twojej sieci lokalnej lub po stronie serwera. Natomiast jeśli utrata występuje tylko na konkretnym przeskoku lub obszarze, problem prawdopodobnie dotyczy tego węzła lub połączenia do następnego. Ważne jest też, że niewielkie straty na pierwszych przeskokach, które należą do Twojej sieci lokalnej, nie muszą być krytyczne, ponieważ te urządzenia często niżej traktują zapytania ICMP (np. ping) i mogą je odrzucać.
+Jeśli w wynikach widzisz utratę pakietów, oznacza to potencjalne problemy sieciowe. Niewielka, chwilowa utrata pakietów na poziomie 1-2% może nie być problemem, ale wyższe wartości sugerują poważniejsze kłopoty. Utrata pakietów może powodować opóźnienia lub przerwy w połączeniach usług. Jeśli utrata jest równomiernie rozłożona na wszystkich przeskokach (hopach), problem może leżeć w Twojej sieci lokalnej lub po stronie serwera. Natomiast jeśli utrata występuje tylko na konkretnym przeskoku lub obszarze, problem prawdopodobnie dotyczy tego węzła lub połączenia do następnego. Ważne jest też, że niewielkie straty na pierwszych przeskokach, które należą do Twojej lokalnej sieci, nie muszą być krytyczne, ponieważ te urządzenia często niżej traktują zapytania ICMP (np. ping) i mogą je odrzucać.
 
 ### Opóźnienia (czasy ping)
 
-Wartości opóźnień (`Avg`, `Best`, `Worst`) dają wgląd w szybkość i stabilność połączenia. Jeśli zauważysz, że opóźnienia są stale wysokie na konkretnym przeskoku, może to wskazywać na przeciążenie sieci lub wolny router. Nagły wzrost opóźnień między dwoma przeskokami wskazuje na możliwe wąskie gardło. Zwykle opóźnienia rosną stopniowo wzdłuż trasy do celu. Jednak warto uważać na nagłe, duże skoki, które często są oznaką problemu. Porównanie tras wychodzącej i powrotnej może też pomóc wykryć problemy asymetryczne, które oznaczają, że ruch w jednym kierunku napotyka trudności.
+Wartości opóźnień (`Avg`, `Best`, `Worst`) dają wgląd w szybkość i stabilność połączenia. Jeśli zauważysz, że opóźnienia są stale wysokie na konkretnym przeskoku, może to wskazywać na przeciążenie sieci lub wolny router. Nagły wzrost opóźnień między dwoma przeskokami wskazuje na możliwe wąskie gardło. Zwykle opóźnienia rosną stopniowo wzdłuż trasy do celu. Jednak warto uważać na nagłe, duże skoki, które często świadczą o problemie. Porównanie tras wychodzącej i powrotnej może też pomóc wykryć problemy asymetryczne, które oznaczają, że ruch w jednym kierunku napotyka trudności.
 
-Dzięki uważnej analizie tych czynników możesz precyzyjnie określić, gdzie leży problem sieciowy — czy w Twojej sieci, u dostawcy internetu, czy gdzieś na trasie do serwera.
+Dzięki uważnej analizie tych czynników możesz dokładnie określić, gdzie leży problem sieciowy — czy w Twojej sieci lokalnej, u dostawcy internetu, czy gdzieś na trasie do serwera.
 
 ### Przykłady diagnostyczne
 
-Aby lepiej zrozumieć powyższe informacje, wyjaśnimy je na kilku przykładach diagnostycznych. Przygotowaliśmy kilka scenariuszy ilustrujących różne sytuacje i możliwe przyczyny. Te przykłady pomogą Ci lepiej interpretować dane i skuteczniej diagnozować problemy sieciowe.
+Aby lepiej zrozumieć powyższe informacje, wyjaśnimy je na kilku przykładach diagnostycznych. Przygotowaliśmy kilka scenariuszy, które ilustrują różne sytuacje i możliwe przyczyny. Te przykłady pomogą Ci lepiej interpretować dane i skuteczniej diagnozować problemy sieciowe.
 
 :::info
 Poniższe przykłady diagnostyczne ilustrują różne scenariusze na podstawie fikcyjnych raportów WinMTR/MTR. Zawarte adresy IP, nazwy hostów i trasy są całkowicie fikcyjne i nie mają związku z rzeczywistymi sieciami czy hostami.
@@ -331,7 +331,7 @@ Ocena wskazuje, że utrata pakietów występuje po stronie serwera. Obie trasy p
 
 **Opis**
 
-W tym przykładzie sytuacja opisuje wysokie czasy opóźnień po stronie klienta, widoczne na trasie wychodzącej i powrotnej.
+W tym przykładzie sytuacja opisuje wysokie czasy opóźnień po stronie klienta, widoczne zarówno na trasie wychodzącej, jak i powrotnej.
 
 **Trasa wychodząca (Klient → Serwer)**
 
@@ -373,7 +373,7 @@ Ocena pokazuje, że występują wysokie opóźnienia po stronie klienta. Obie tr
 
 **Opis**
 
-W tym przykładzie sytuacja opisuje wysokie czasy opóźnień po stronie serwera, widoczne na trasie wychodzącej i powrotnej.
+W tym przykładzie sytuacja opisuje wysokie czasy opóźnień po stronie serwera, widoczne zarówno na trasie wychodzącej, jak i powrotnej.
 
 **Trasa wychodząca (Klient → Serwer)**
 
@@ -520,7 +520,7 @@ Host                               Loss%   Snt   Last   Avg  Best  Wrst StDev
 
 **Ocena**
 
-Ocena pokazuje, że utrata pakietów występuje wyłącznie na trasie wychodzącej. Straty widoczne są na przeskokach 4, 5 i 6, co wskazuje na problem na trasie od klienta do serwera, np. przeciążenie lub wadliwe urządzenia sieciowe w segmencie trasy. Na trasie powrotnej nie ma strat, co oznacza, że połączenie w przeciwnym kierunku jest stabilne.
+Ocena pokazuje, że utrata pakietów występuje wyłącznie na trasie wychodzącej. Straty widoczne są na przeskokach 4, 5 i 6, co wskazuje na problem na drodze od klienta do serwera, np. przeciążenie lub wadliwe urządzenia sieciowe na fragmencie trasy. Na trasie powrotnej nie ma strat, co oznacza, że połączenie w przeciwnym kierunku jest stabilne.
 
 </TabItem>
 
@@ -562,7 +562,7 @@ Host                               Loss%   Snt   Last   Avg  Best  Wrst StDev
 
 **Ocena**
 
-Ocena pokazuje, że utrata pakietów występuje tylko na trasie powrotnej. Straty widoczne są na przeskokach 4, 5 i 6 trasy powrotnej, co wskazuje na problem na trasie od serwera do klienta.
+Ocena pokazuje, że utrata pakietów występuje tylko na trasie powrotnej. Straty widoczne są na przeskokach 4, 5 i 6 trasy powrotnej, co wskazuje na problem na drodze od serwera do klienta.
 
 </TabItem>
 
@@ -570,6 +570,4 @@ Ocena pokazuje, że utrata pakietów występuje tylko na trasie powrotnej. Strat
 
 ## Zgłaszanie problemów
 
-Chociaż ZAP-Hosting stale monitoruje sieć, ważne jest, aby w przypadku problemów sieciowych niezwłocznie skontaktować się z naszym działem wsparcia. Aby zapewnić precyzyjną diagnozę i szybką naprawę, prosimy o przesłanie wyników raportów WinMTR/MTR zarówno dla trasy wychodzącej, jak i powrotnej. Te informacje pomagają nam dokładnie zlokalizować potencjalne problemy i szybko je rozwiązać.
-
-<InlineVoucher />
+Chociaż ZAP-Hosting stale monitoruje sieć, ważne jest, aby w przypadku problemów sieciowych niezwłocznie skontaktować się z naszym zespołem wsparcia. Aby zapewnić precyzyjną diagnozę i szybką naprawę, prosimy o przesłanie wyników raportów WinMTR/MTR zarówno dla trasy wychodzącej, jak i powrotnej. Te informacje pomagają nam dokładnie zlokalizować potencjalne problemy i szybko je rozwiązać.

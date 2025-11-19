@@ -11,9 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introducción
 
-SteamCMD es una herramienta esencial necesaria para instalar servidores dedicados para una gran variedad de juegos, incluyendo Palworld, Enshrouded y más. En esta guía, exploraremos el proceso de configuración inicial para instalar SteamCMD en tu servidor Linux. Usaremos Ubuntu en los ejemplos, pero el proceso debería ser muy similar en otras distribuciones.
-
-<InlineVoucher />
+SteamCMD es una herramienta esencial necesaria para instalar servidores dedicados para una gran variedad de juegos, incluyendo Palworld, Enshrouded y más. En esta guía, exploraremos el proceso de configuración inicial para instalar SteamCMD en tu servidor Linux. Usaremos Ubuntu en los ejemplos, pero el proceso debería ser muy similar para otras distribuciones.
 
 ## Preparación
 
@@ -45,8 +43,8 @@ sudo dnf upgrade --refresh
 Ahora necesitarás instalar algunos paquetes. Estos se dividen de la siguiente manera:
 
 - El paquete **software-properties-common** facilita la gestión de tu distro y fuentes de software independientes.
-- SteamCMD es una herramienta de 32 bits, por lo que debe añadirse la arquitectura **i386**, para que el software apropiado se instale en tu sistema y la soporte.
-- Dado que SteamCMD es propietario, esto también significa que necesitas el paquete **multiverse** o **non-free** dependiendo de tu distro Linux, ya que normalmente no están incluidos en el repositorio por defecto.
+- SteamCMD es una herramienta de 32 bits, por lo que se debe añadir la arquitectura **i386**, para que el software adecuado se instale en tu sistema y lo soporte.
+- Dado que SteamCMD es propietario, también necesitas el paquete **multiverse** o **non-free** dependiendo de tu distro Linux, ya que normalmente no están incluidos en el repositorio por defecto.
 
 ```
 sudo apt install software-properties-common
@@ -59,7 +57,7 @@ sudo add-apt-repository multiverse
 sudo apt-add-repository non-free
 ```
 
-Ahora ejecuta el comando de actualización para asegurarte de que los cambios en los paquetes se lean y se instalen en tu sistema:
+Ahora ejecuta el comando de actualización para asegurarte de que los cambios en los paquetes se lean e instalen en tu sistema:
 
 ```
 sudo apt update
@@ -75,11 +73,11 @@ sudo apt install steamcmd
 Puedes verificar que la instalación de SteamCMD fue exitosa simplemente ejecutando `steamcmd`. Una vez cargado, el prompt debería mostrar `Steam>`. Puedes escribir `quit` para salir después.
 :::
 
-Con todo preparado e instalado, puedes continuar con el siguiente paso, que implica instalar el servidor dedicado usando SteamCMD.
+Con todo preparado e instalado, puedes proceder al siguiente paso, que implica instalar el servidor dedicado usando SteamCMD.
 
 ## Creando Usuario
 
-Recomendamos mucho crear un usuario separado para usar SteamCMD. Ejecutar como root, como en la mayoría de los casos, no es recomendable por varias razones.
+Recomendamos encarecidamente crear un usuario separado para usar SteamCMD. Ejecutar como root, como en la mayoría de los casos, no es recomendable por varias razones.
 
 Usa el siguiente comando para crear un usuario llamado `steam` con una contraseña opcional de tu elección.
 
@@ -90,13 +88,13 @@ sudo passwd steam # Contraseña opcional
 
 Una vez creado el usuario, necesitarás ajustar el archivo `.bashrc` para dar acceso a la ruta `/usr/games` donde está SteamCMD. Esto se hace añadiendo una variable de entorno PATH extra.
 
-Abre el archivo usando el editor nano ejecutando:
+Abre el archivo con el editor nano ejecutando:
 
 ```
 sudo nano /home/steam/.bashrc
 ```
 
-Ahora baja hasta el final del archivo con las flechas y añade la siguiente variable de entorno PATH:
+Ahora baja hasta el final del archivo usando las flechas y añade la siguiente variable de entorno PATH:
 
 ```
 export PATH="/usr/games/:$PATH"
@@ -106,8 +104,6 @@ Guarda el archivo y sal de nano usando `CTRL + X`, luego `Y` para confirmar y fi
 
 ## Conclusión
 
-Ya has configurado con éxito la funcionalidad básica de SteamCMD en tu servidor Linux. Ahora puedes proceder a instalar contenido de Steam usando el usuario `steam`.
+Ahora has configurado con éxito la funcionalidad básica de SteamCMD en tu servidor Linux. Ya puedes proceder a instalar contenido de Steam usando el usuario `steam`.
 
 Te recomendamos revisar las otras guías en esta sección, que cubren la instalación de juegos específicos usando SteamCMD, que ya tienes configurado.
-
-<InlineVoucher />

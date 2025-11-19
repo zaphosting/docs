@@ -13,7 +13,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 This guide provides steps for the installation of Python runtime on Windows. The steps provided below must be executed via RDP, if you don't know how to connect to your server via RDP, please have a look at our [Initial Access (RDP)](vserver-windows-userdp.md) guide.
 
-<InlineVoucher />
+
 
 ## Installation
 
@@ -82,4 +82,4 @@ When you have finished working inside the venv you can go back by running the `d
 
 Congratulations, you have successfully installed Python. For further questions or assistance, please don't hesitate to contact our support team, which is available daily to assist you! 🙂
 
-<InlineVoucher />
+

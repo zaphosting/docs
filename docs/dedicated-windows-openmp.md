@@ -13,7 +13,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Do you have a Windows Dedicated Server and you want to install the open.mp Dedicated server service on it? You are in the right place. In this guide, we will explain the step by step process of installing this service on your server.
 
-<InlineVoucher />
+
 
 ## Preparation
 
@@ -107,4 +107,4 @@ You will now be able to direct connect to your server in-game via the open.mp la
 
 Congratulations, you have successfully installed and configured the open.mp server on your Dedicated Server! If you have any further questions or problems, please contact our support team, who are available to help you every day! 
 
-<InlineVoucher />
+

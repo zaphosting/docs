@@ -1,7 +1,7 @@
 ---
 id: dedicated-linux-cs16
-title: "Serveur dédié : Installation d’un serveur dédié Counter-Strike 1.6 sous Linux"
-description: "Apprenez à configurer un serveur dédié Counter-Strike 1.6 sur votre VPS Linux pour un gameplay fluide et une gestion facile du serveur → Découvrez-le maintenant"
+title: "Serveur dédié : Configuration d’un serveur dédié Counter-Strike 1.6 sous Linux"
+description: "Apprenez à configurer un serveur dédié Counter-Strike 1.6 sur votre VPS Linux pour un gameplay fluide et une gestion facile → En savoir plus maintenant"
 sidebar_label: "Counter-Strike 1.6"
 services:
   - vserver
@@ -10,61 +10,57 @@ services:
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introduction
-Vous avez un VPS Linux et vous souhaitez installer le service serveur dédié Counter-Strike 1.6 dessus ? Vous êtes au bon endroit. Dans ce guide, on vous explique étape par étape comment installer ce service sur votre serveur Linux via SteamCMD. On utilise Ubuntu en exemple, mais le processus est très similaire sur d’autres distributions.
+Tu as un VPS Linux et tu veux installer le service serveur dédié Counter-Strike 1.6 dessus ? T’es au bon endroit. Dans ce guide, on va t’expliquer étape par étape comment installer ce service sur ton serveur Linux en utilisant SteamCMD. On prendra Ubuntu en exemple, mais le process est très similaire sur d’autres distributions.
 
 :::tip
-Saviez-vous que vous pouvez installer notre **Interface ZAP GS/TS3** directement sur votre VPS ? Ça vous permet de configurer vos services de serveur de jeux avec une intégration directe à votre tableau de bord ZAP-Hosting, en seulement quelques clics ! Découvrez-en plus sur l’[Interface GS/TS3](dedicated-linux-gs-interface.md).
+Tu savais que tu peux installer notre **Interface ZAP GS/TS3** directement sur ton VPS ? Ça te permet de configurer des services de serveur de jeux avec une intégration directe à ton tableau de bord ZAP-Hosting, en seulement quelques clics ! Découvre-en plus sur l’[Interface GS/TS3](dedicated-linux-gs-interface.md).
 :::
-
-<InlineVoucher />
 
 ## Préparation
 
-Pour commencer, connectez-vous à votre VPS via SSH. Si vous avez besoin d’aide, consultez notre [guide d’accès initial SSH](dedicated-linux-ssh.md). Vous devrez aussi faire une première configuration de SteamCMD si c’est la première fois que vous l’utilisez sur votre serveur Linux. Utilisez notre [guide d’installation SteamCMD Linux](dedicated-linux-steamcmd.md) et assurez-vous que SteamCMD est bien configuré avant de continuer.
+Pour commencer, connecte-toi à ton VPS via SSH. Si tu as besoin d’aide, utilise notre [guide d’accès initial SSH](dedicated-linux-ssh.md). Tu devras aussi faire une première configuration de SteamCMD si c’est la première fois que tu l’utilises sur ton serveur Linux. Suis notre [guide d’installation SteamCMD Linux](dedicated-linux-steamcmd.md) et assure-toi que SteamCMD est bien configuré avant de continuer.
 
 ## Installation
 
-Commencez par vous connecter en tant qu’utilisateur `steam` et rendez-vous dans le répertoire home de cet utilisateur pour garder tout bien organisé.
+Commence par te connecter en tant qu’utilisateur `steam` et rends-toi dans le répertoire home de cet utilisateur pour garder tout bien organisé.
 ```
 sudo -u steam -s
 cd ~
 ```
 
-Une fois connecté, lancez l’installation avec la commande suivante pour démarrer facilement l’installation via SteamCMD directement sous l’utilisateur `steam`.
+Une fois connecté, lance l’installation avec la commande suivante pour démarrer facilement l’installation via SteamCMD directement sous l’utilisateur `steam`.
 ```
 steamcmd +force_install_dir '/home/steam/cs2-ds' +login anonymous +app_update 90 validate +quit
 ```
 
-Soyez patient pendant le téléchargement, ça peut prendre un peu de temps pour les jeux volumineux. Une fois terminé, un message de succès apparaîtra pour confirmer que tout s’est bien passé.
+Sois patient pendant le téléchargement, ça peut prendre un peu de temps pour les jeux volumineux. Une fois terminé, un message de succès s’affichera pour te confirmer que tout est OK.
 
 ## Configuration
 
-À ce stade, votre serveur Counter-Strike 1.6 est installé. Vous pouvez configurer davantage votre serveur en modifiant directement le fichier de lancement.
+À ce stade, tu as fini la configuration de ton serveur Counter-Strike 1.6. Tu peux faire des réglages supplémentaires en éditant directement le fichier de lancement.
 
-Rendez-vous dans votre répertoire racine. À l’intérieur, allez dans le dossier cfg et ouvrez le fichier `server.cfg`. C’est là que vous pouvez modifier les options du serveur.
+Retourne dans ton répertoire racine. À l’intérieur, va dans le dossier cfg et ouvre le fichier `server.cfg`. C’est là que tu peux modifier les options du serveur.
 ```
 nano /home/steam/cs2-ds/game/csgo/cfg/server.cfg
 ```
 
 ## Enregistrement du token GSL
 
-Pour que d’autres joueurs puissent rejoindre votre serveur, vous devez générer et inclure un Game Server Login Token (GSLT). Ce token authentifie votre serveur auprès de Steam. Pour générer un GSLT, rendez-vous sur http://steamcommunity.com/dev/managegameservers et créez un token avec l’ID de jeu 90, qui correspond à Counter-Strike 1.6.
+Pour que d’autres joueurs puissent rejoindre ton serveur, tu dois générer et inclure un Game Server Login Token (GSLT). Ce token authentifie ton serveur auprès de Steam. Pour générer un GSLT, rends-toi sur http://steamcommunity.com/dev/managegameservers et crée un token avec l’ID jeu 90, qui correspond à Counter-Strike 1.6.
 
-Une fois le token obtenu, ajoutez-le dans les paramètres de lancement de votre serveur avec `+sv_setsteamaccount <TOKEN>`.
+Une fois que tu as ton token, ajoute-le dans les paramètres de lancement de ton serveur avec `+sv_setsteamaccount <TOKEN>`.
 
-## Démarrage & connexion à votre serveur
+## Démarrage & connexion à ton serveur
 
-Il est maintenant temps de lancer votre serveur. Allez dans le répertoire principal du jeu et exécutez la commande de lancement suivante :
+Il est temps de lancer ton serveur. Va dans le répertoire principal du jeu et exécute la commande de lancement suivante :
 ```
 ./hlds_run -game cstrike +maxplayers X +map <map>
 ```
 
-Vous devriez voir apparaître des logs dans votre terminal, ce qui signifie que le démarrage a réussi. Notez que le premier démarrage peut prendre un peu plus de temps le temps que tout se mette en place. Sinon, vous pouvez aussi vous connecter directement en utilisant la barre de recherche en bas de la liste des serveurs et en cherchant : `[votre_adresse_ip]:2456`.
+Tu devrais voir apparaître des logs dans ton terminal, ce qui signifie que le démarrage a réussi. Note que le premier lancement peut prendre un peu de temps le temps que tout se mette en place. Sinon, tu peux aussi te connecter directement en utilisant la barre de recherche en bas de la liste des serveurs et en cherchant : `[ton_adresse_ip]:2456`.
 
 ## Conclusion
 
-Félicitations, vous avez installé et configuré avec succès votre serveur Counter-Strike 1.6 sur votre VPS ! En suite, on vous recommande de jeter un œil à notre [guide de création de service Linux](dedicated-linux-create-gameservice.md), qui explique comment configurer votre nouveau serveur dédié de jeux en tant que service. Ça apporte plein d’avantages comme le lancement automatique au démarrage, les mises à jour automatiques, une gestion simplifiée, l’accès aux logs, et bien plus encore !
+Félicitations, tu as installé et configuré avec succès ton serveur Counter-Strike 1.6 sur ton VPS ! Pour la suite, on te conseille de jeter un œil à notre [guide de création de service Linux](dedicated-linux-create-gameservice.md), qui explique comment configurer ton nouveau serveur dédié de jeux en tant que service. Ça t’apporte plein d’avantages comme le lancement automatique au démarrage, les mises à jour automatiques, une gestion simplifiée, l’accès aux logs, et bien plus encore !
 
-Pour toute question ou besoin d’aide, n’hésitez pas à contacter notre support, disponible tous les jours pour vous assister ! 🙂
-
-<InlineVoucher />
+Si tu as des questions ou besoin d’aide, n’hésite surtout pas à contacter notre support, dispo tous les jours pour t’assister ! 🙂

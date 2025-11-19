@@ -1,7 +1,7 @@
 ---
 id: dedicated-linux-css
 title: "Servidor Dedicado: Configuración de Servidor Dedicado Counter-Strike: Source en Linux"
-description: "Aprende a configurar un servidor dedicado de Counter-Strike: Source en tu VPS Linux para un alojamiento de juego sin interrupciones → ¡Descubre más ahora!"
+description: "Aprende a configurar un servidor dedicado de Counter-Strike: Source en tu VPS Linux para un hosting de juego sin interrupciones → ¡Descubre más ahora!"
 sidebar_label: "Counter-Strike: Source"
 services:
   - vserver
@@ -13,10 +13,8 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 ¿Tienes un VPS Linux y quieres instalar el servicio de servidor dedicado de Counter-Strike: Source en él? Estás en el lugar correcto. En esta guía, te explicaremos paso a paso cómo instalar este servicio en tu servidor Linux usando SteamCMD. Usaremos Ubuntu en los ejemplos, pero el proceso debería ser muy similar en otras distribuciones.
 
 :::tip
-¿Sabías que puedes instalar nuestra **Interfaz ZAP GS/TS3** directamente en tu VPS? Así podrás configurar servicios de servidor de juegos con integración directa a tu panel de ZAP-Hosting, ¡en solo unos clics! Aprende más sobre la [Interfaz GS/TS3](dedicated-linux-gs-interface.md).
+¿Sabías que puedes instalar nuestra **Interfaz ZAP GS/TS3** directamente en tu VPS? Esto te permite configurar servicios de servidor de juegos con integración directa a tu panel de ZAP-Hosting, ¡en solo unos clics! Aprende más sobre la [Interfaz GS/TS3](dedicated-linux-gs-interface.md).
 :::
-
-<InlineVoucher />
 
 ## Preparación
 
@@ -30,7 +28,7 @@ sudo -u steam -s
 cd ~
 ```
 
-Una vez dentro, puedes iniciar el proceso de instalación con el siguiente comando para instalar fácilmente usando SteamCMD directamente bajo el usuario `steam`.
+Una vez dentro, puedes iniciar el proceso de instalación con el siguiente comando para instalar fácilmente usando SteamCMD directamente en el usuario `steam`.
 ```
 steamcmd +force_install_dir '/home/steam/cs2-ds' +login anonymous +app_update 232330 validate +quit
 ```
@@ -63,8 +61,6 @@ Deberías ver aparecer logs en tu consola que indican que el servidor arrancó c
 
 ## Conclusión
 
-¡Felicidades, has instalado y configurado con éxito el servidor de Counter-Strike: Source en tu VPS! Como siguiente paso, te recomendamos revisar nuestra guía de [Configurar Servicio Linux](dedicated-linux-create-gameservice.md), que explica cómo configurar tu nuevo servidor dedicado de juegos como un servicio. Esto ofrece varios beneficios como arranque automático al iniciar el VPS, actualizaciones automáticas, gestión sencilla y acceso a logs, ¡y mucho más!
+¡Felicidades, has instalado y configurado con éxito el servidor de Counter-Strike: Source en tu VPS! Como siguiente paso, te recomendamos revisar nuestra guía de [Configurar Servicio Linux](dedicated-linux-create-gameservice.md), que explica cómo configurar tu nuevo servidor dedicado de juegos como un servicio. Esto ofrece varios beneficios, incluyendo arranque automático del servidor al iniciar, actualizaciones automáticas, gestión sencilla y acceso a logs, ¡y mucho más!
 
-Si tienes más preguntas o necesitas ayuda, no dudes en contactar a nuestro equipo de soporte, ¡disponible todos los días para ayudarte! 🙂
-
-<InlineVoucher />
+Si tienes más preguntas o necesitas ayuda, no dudes en contactar a nuestro equipo de soporte, ¡disponible todos los días para asistirte! 🙂

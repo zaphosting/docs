@@ -1,7 +1,7 @@
 ---
 id: dedicated-linux-password-change
 title: "Servidor dedicado: Cambiar la contraseña root para servidor Linux"
-description: "Descubre cómo cambiar y gestionar tu contraseña de servidor de forma segura vía interfaz web o consola para un mejor control de acceso → Aprende más ahora"
+description: "Descubre cómo cambiar y gestionar de forma segura la contraseña de tu servidor vía interfaz web o consola para un mejor control de acceso → Aprende más ahora"
 sidebar_label: Cambiar Contraseña
 services:
   - dedicated
@@ -9,7 +9,7 @@ services:
 
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
-<InlineVoucher />
+
 
 ## Interfaz web
 
@@ -29,13 +29,16 @@ Después de ingresar la contraseña, aparecerá un mensaje emergente que puedes 
 
 Si se cumplen todos los requisitos, el sistema confirmará que la contraseña se ha cambiado con éxito.
 
+
 ✅ La contraseña ha sido cambiada.
+
 
 A partir de ahora, la contraseña podrá verse en nuestra interfaz web durante 3 horas. Después de eso, se eliminará por razones de seguridad. Para ver la contraseña, solo haz clic en el icono del ojo en "Contraseña".
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/XfpFrGg5LyKEiRL/preview)
 
-Después aparecerá una ventana emergente donde se mostrará la contraseña.
+Luego aparecerá una ventana emergente donde se mostrará la contraseña.
+
 
 ## Consola del servidor
 
@@ -45,12 +48,13 @@ La contraseña también se puede cambiar vía Consola del servidor, no importa s
 Importante: Esta opción solo se puede usar si aún tienes acceso al servidor.
 :::
 
-Si estás dentro de la consola, puedes cambiar la contraseña con el comando "passwd". Luego tienes que escribir la contraseña nuevamente para confirmarla. Si esto se hace y la contraseña coincide con la primera, la consola confirmará el cambio.
+Si estás conectado a la consola, puedes cambiar la contraseña con el comando "passwd". Después debes escribir la contraseña nuevamente para confirmarla. Si esto se hace y la contraseña coincide con la primera, la consola confirmará el cambio.
 
-Si ambas contraseñas no son iguales, la consola cancelará la operación. En ese caso, debes ejecutar el comando "passwd" otra vez.
+
+Si ambas contraseñas no son iguales, la consola cancelará la operación. En ese caso, debes ejecutar el comando "passwd" de nuevo.
 
 :::info
-Importante: Si cambias la contraseña vía Consola, no podrá verse durante 3 horas en nuestra interfaz web bajo Acceso y Seguridad.
+Importante: Si cambias la contraseña vía Consola, no podrá mostrarse durante 3 horas en nuestra interfaz web bajo Acceso y Seguridad.
 :::
 
-<InlineVoucher />
+

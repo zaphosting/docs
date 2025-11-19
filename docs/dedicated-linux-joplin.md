@@ -24,7 +24,7 @@ This application can only be installed and used on a Linux system with a graphic
 
 :::
 
-<InlineVoucher />
+
 
 
 
@@ -127,4 +127,3 @@ Got specific questions that aren't covered here? For further questions or assist
 
 
 
-<InlineVoucher />

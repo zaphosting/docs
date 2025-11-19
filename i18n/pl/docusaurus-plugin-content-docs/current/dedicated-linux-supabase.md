@@ -13,17 +13,17 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Wprowadzenie
 
-Supabase to open-source’owa platforma do rozwoju na bazie Postgresa, która oferuje pełną bazę danych Postgres wraz z uwierzytelnianiem, natychmiastowymi API, realtime i storage, stanowiąc otwartoźródłową alternatywę dla Firebase.
+Supabase to open-source’owa platforma developerska Postgresa, która oferuje pełną bazę danych Postgres wraz z uwierzytelnianiem, natychmiastowymi API, realtime i storage, stanowiąc otwartoźródłową alternatywę dla Firebase.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/gE9NRSMr22oZaCx/preview)
 
-Myślisz o samodzielnym hostingu tej usługi? Przeprowadzimy Cię krok po kroku przez cały proces instalacji i konfiguracji oraz podpowiemy, na co zwrócić uwagę.
+Myślisz o samodzielnym hostingu tej usługi? Przeprowadzimy Cię przez każdy krok instalacji i konfiguracji oraz podpowiemy, na co zwrócić uwagę.
 
-<InlineVoucher />
+
 
 ## Wymagania wstępne
 
-Przed instalacją **Supabase** upewnij się, że Twoje środowisko hostingowe spełnia poniższe wymagania, aby zapewnić płynną instalację i optymalną wydajność.
+Przed instalacją **Supabase** upewnij się, że Twoje środowisko hostingowe spełnia poniższe wymagania, aby instalacja przebiegła gładko, a wydajność była optymalna.
 
 | Sprzęt    | Minimum    | Rekomendacja ZAP-Hosting |
 | --------- | ----------| ------------------------ |
@@ -39,9 +39,12 @@ Oprogramowanie wymaga zainstalowania wszystkich niezbędnych zależności oraz d
 
 Sprawdź, czy wszystkie zależności są zainstalowane, a system operacyjny jest odpowiedni, aby uniknąć problemów z kompatybilnością podczas instalacji Supabase.
 
+
+
 ## Przygotowanie
 
-Przed konfiguracją **Supabase** musisz przygotować swój system. Obejmuje to aktualizację systemu operacyjnego do najnowszej wersji oraz instalację wszystkich wymaganych zależności. Te kroki zapewnią stabilne środowisko i pomogą uniknąć problemów podczas lub po instalacji.
+Przed konfiguracją **Supabase** musisz przygotować swój system. Obejmuje to aktualizację systemu operacyjnego do najnowszej wersji oraz instalację wszystkich wymaganych zależności. To zapewni stabilne środowisko i pomoże uniknąć problemów podczas lub po instalacji.
+
 
 ### Aktualizacja systemu
 Aby mieć pewność, że Twój system działa na najnowszym oprogramowaniu i ma aktualizacje bezpieczeństwa, zawsze zacznij od aktualizacji systemu. Wykonaj polecenie:
@@ -49,22 +52,20 @@ Aby mieć pewność, że Twój system działa na najnowszym oprogramowaniu i ma 
 ```
 sudo apt update && sudo apt upgrade -y
 ```
-
 Dzięki temu Twój system będzie miał najnowsze poprawki bezpieczeństwa i wersje oprogramowania przed dalszymi krokami.
 
 ### Instalacja zależności
-Po zakończeniu aktualizacji możesz przystąpić do instalacji zależności.
+Po zakończeniu aktualizacji możesz przejść do instalacji zależności.
 
 #### Git
 Dane Supabase będą pobierane z GitHuba, więc najpierw musisz mieć zainstalowany Git. Wykonaj polecenie:
-
 ```
 sudo apt install git-all
 ```
 
 #### Docker
 
-Supabase będzie uruchamiane w kontenerze Docker na Twoim serwerze, więc Docker musi być zainstalowany. Wykonaj polecenia:
+Supabase będzie uruchamiane na Twoim serwerze w kontenerze Docker, więc Docker musi być zainstalowany. Wykonaj polecenia:
 
 ```
 curl -fsSL https://get.docker.com -o get-docker.sh
@@ -72,6 +73,7 @@ sh get-docker.sh
 ```
 
 Pełny poradnik instalacji i obsługi Dockera znajdziesz w naszym [poradniku Docker](dedicated-linux-docker.md).
+
 
 ## Instalacja
 Gdy spełnisz wszystkie wymagania i przygotujesz system, możesz przejść do instalacji Supabase.
@@ -87,7 +89,6 @@ cp supabase/docker/.env.example supabase-project/.env
 ```
 
 Przejdź do katalogu projektu, pobierz najnowsze obrazy kontenerów i uruchom stack w trybie odłączonym.
-
 ```
 cd supabase-project
 docker compose pull
@@ -107,6 +108,8 @@ Teraz możesz uzyskać dostęp do Supabase Studio pod adresem `http://<twoje-ip>
 Twoja aplikacja działa teraz na domyślnych danych logowania. Zabezpiecz swoje usługi jak najszybciej, korzystając z instrukcji poniżej.
 :::
 
+
+
 ## Konfiguracja
 Nigdy nie wdrażaj aplikacji z domyślnymi lub przykładowymi wartościami. Zamień wszystkie placeholdery na silne, unikalne sekrety, sprawdź konfigurację pod kątem wymagań bezpieczeństwa i zrestartuj wszystkie usługi, aby zmiany zaczęły działać.
 
@@ -117,7 +120,7 @@ Uruchom formularz dwukrotnie, aby wygenerować oba klucze. Zaktualizuj plik `./d
 - `ANON_KEY`: klucz anon
 - `SERVICE_ROLE_KEY`: klucz serwisowy
 
-Zaktualizuj wymagane sekrety w `./docker/.env`. Te wartości muszą być ustawione, aby wdrożenie działało poprawnie:
+Zaktualizuj wymagane sekrety w `./docker/.env`. Te wartości muszą być ustawione, aby wdrożenie działało:
 
 - `POSTGRES_PASSWORD`: hasło dla roli `postgres`
 - `JWT_SECRET`: używany przez PostgREST i GoTrue
@@ -151,13 +154,14 @@ docker compose down
 docker compose up -d
 ```
 
+
+
+
 ## Podsumowanie i dodatkowe zasoby
 
-Gratulacje! Właśnie pomyślnie zainstalowałeś i skonfigurowałeś Supabase na swoim serwerze dedykowanym. Polecamy też zapoznać się z poniższymi zasobami, które mogą Ci pomóc i wesprzeć podczas konfiguracji serwera:
+Gratulacje! Właśnie pomyślnie zainstalowałeś i skonfigurowałeś Supabase na swoim serwerze dedykowanym. Polecamy też rzucić okiem na poniższe zasoby, które mogą pomóc i wesprzeć Cię podczas konfiguracji serwera:
 
 - [Supabase.com](https://Supabase.com/) - Oficjalna strona
 - [Supabase.com/docs/guides/self-hosting](https://supabase.com/docs/guides/self-hosting) - Dokumentacja Supabase
 
-Masz pytania, które nie zostały tu poruszone? Jeśli potrzebujesz pomocy lub masz dodatkowe pytania, śmiało kontaktuj się z naszym supportem, który jest dostępny codziennie, by Ci pomóc! 🙂
-
-<InlineVoucher />
+Masz pytania, które nie zostały tu poruszone? Jeśli potrzebujesz dalszej pomocy, śmiało kontaktuj się z naszym supportem, który jest dostępny codziennie, by Ci pomóc! 🙂

@@ -11,25 +11,25 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Wprowadzenie
 
-Poniżej znajdziesz krok po kroku instrukcję, jak zainstalować i skonfigurować system operacyjny Debian na swoim serwerze dedykowanym. Postępuj uważnie według tych wskazówek, aby poprawnie zainstalować system i wykorzystać go w pełni.
+Poniżej znajdziesz krok po kroku, jak zainstalować i skonfigurować system operacyjny Debian na swoim serwerze dedykowanym. Postępuj uważnie według instrukcji, aby poprawnie zainstalować system i wykorzystać go w pełni.
 
 :::info
 
-Struktura poradnika opiera się na systemie Debian 10. Instalacje na starszych lub nowszych wersjach mogą się nieco różnić pod względem procesu.
+Struktura poradnika opiera się na systemie Debian 10. Instalacje z wcześniejszych lub nowszych wersji mogą się nieco różnić pod względem procesu.
 
 :::
 
-<InlineVoucher />
+
 
 ## Przygotowanie
 
-Do instalacji i konfiguracji systemu operacyjnego najpierw ważne jest zamontowanie odpowiedniego obrazu ISO systemu. Można to zrobić na kilka sposobów:
+Do instalacji i konfiguracji systemu operacyjnego najpierw ważne jest zamontowanie odpowiedniego obrazu ISO systemu. Istnieje kilka sposobów na jego zamontowanie:
 
-1. Montowanie przez wstępną konfigurację
+1. Montowanie przez konfigurację początkową
 2. Montowanie przez iLO (Virtual Media)
 3. Montowanie przez iLO (Remote Console)
 
-Jeśli nie znasz jeszcze sposobu montowania pliku ISO, najlepiej zajrzyj do naszego [Poradnika wstępnej konfiguracji](dedicated-setup.md) lub [Własnego ISO](dedicated-iso.md).
+Jeśli nie znasz jeszcze montowania pliku ISO, najlepiej zajrzyj do naszego [Poradnika konfiguracji początkowej](dedicated-setup.md) lub [Własne ISO](dedicated-iso.md).
 
 
 
@@ -39,15 +39,15 @@ Gdy obraz ISO zostanie poprawnie załadowany, serwer przejdzie do procesu instal
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/QdRyxyaSLWPGHwN/preview)
 
-W tym przykładzie przejdziemy przez instalację korzystając z opcji „klasycznej” instalacji.
+W tym przykładzie przejdziemy przez instalację za pomocą opcji „klasycznej” instalacji.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/YEy9jKbPcmCwD22/preview)
 
-Wybierz język, w którym ma być wyświetlany kreator instalacji. Pamiętaj, że ten język wpłynie później na zainstalowany system.
+Wybierz język, w którym będzie wyświetlany kreator instalacji. Pamiętaj, że ten język wpłynie później na zainstalowany system.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/qprfbz2SPf5MZ4j/preview)
 
-Nasza lokalizacja nie znajduje się na pierwszej stronie wyboru, więc przechodzimy dalej, wybierając „Inne”.
+Nasza lokalizacja nie znajduje się na pierwszej stronie wyboru, więc przechodzimy dalej, klikając „Inne”.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/frH9t9arerKxecZ/preview)
 
@@ -71,7 +71,7 @@ Twój serwer przygotowuje teraz komponenty niezbędne do instalacji, co może po
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/XmLgEHDszmHG23r/preview)
 
-Serwer automatycznie konfiguruje interfejs sieciowy za pomocą DHCP. Wybierz `eno1` – to domyślny adapter sieciowy Twojego serwera dedykowanego ZAP. ![](https://screensaver01.zap-hosting.com/index.php/s/Q8RRoMwfeTMPpxE/preview)
+Serwer automatycznie konfiguruje interfejs sieciowy za pomocą DHCP. Wybierz `eno1` — to domyślny adapter sieciowy Twojego serwera dedykowanego ZAP. ![](https://screensaver01.zap-hosting.com/index.php/s/Q8RRoMwfeTMPpxE/preview)
 
 Nazwa hosta może zostać zmieniona, jeśli chcesz, ale nie jest to konieczne.
 
@@ -81,7 +81,7 @@ Nazwa domeny również nie musi być zmieniana.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/wRLRrxrDKLf5d4q/preview)
 
-Tutaj ustawiasz hasło dla konta „root”. Zanotuj wybrane hasło.
+Tutaj ustawiasz hasło dla konta „root”. Zapisz wybrane hasło.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/SQeqqKDZx3PjWTs/preview)
 
@@ -96,7 +96,7 @@ Kreator instalacji poprosi Cię o utworzenie drugiego konta użytkownika.
 Wpisz teraz imię właściciela zwykłego konta użytkownika. Możesz wpisać dowolną nazwę.
 
 :::info
-Oczywiście na końcu możesz korzystać z konta „root”.
+Oczywiście możesz na końcu korzystać z konta „root”.
 :::
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/GixGJyTfAzENSmc/preview)
@@ -105,7 +105,7 @@ Wpisz nazwę użytkownika konta. Wybierz też hasło i potwierdź je. Serwer prz
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/NM8fdY9J8qwiNGJ/preview)
 
-Masz teraz możliwość tworzenia partycji lub użycia całego dysku SSD jako jednej partycji. Jeśli nie chcesz nic zmieniać, wybierz „Guided - Use entire disk”.
+Masz teraz możliwość utworzenia partycji lub użycia całego dysku SSD jako jednej partycji. Jeśli nie chcesz nic zmieniać, wybierz „Guided - Use entire disk”.
 
 ***
 
@@ -113,12 +113,12 @@ Masz teraz możliwość tworzenia partycji lub użycia całego dysku SSD jako je
 
 Wybierz dysk SSD zainstalowany w Twoim serwerze. ![](https://screensaver01.zap-hosting.com/index.php/s/foqPgy3oPbzDAZf/preview)
 
-Generalnie dobrze jest, jeśli cała struktura jest na jednej partycji. ![](https://screensaver01.zap-hosting.com/index.php/s/ApME7eaxLkWmNew/preview)
+Generalnie dobrze jest, gdy cała struktura jest na jednej partycji. ![](https://screensaver01.zap-hosting.com/index.php/s/ApME7eaxLkWmNew/preview)
 
-Potwierdzamy konfigurację przyciskiem „Finish partitioning and write changes to disk”.
+Potwierdzamy konfigurację klikając „Finish partitioning and write changes to disk”.
 
 :::info
-Jeśli na dysku SSD są stare partycje, potwierdź ich nadpisanie wybierając „Yes”.
+Jeśli na dysku SSD są stare partycje, potwierdzamy nadpisanie klikając „Yes”.
 :::
 
 Serwer wykona teraz partycjonowanie i przygotuje instalację systemu.
@@ -137,11 +137,11 @@ Zalecamy korzystanie z domyślnego repozytorium Debiana.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/iqZSLMBqbx8ZDdZ/preview)
 
-Jeśli chcesz używać proxy HTTP, możesz tutaj wpisać dane (nie jest to wymagane).
+Jeśli chcesz używać proxy HTTP, możesz wpisać dane (nie jest to wymagane).
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/Ty7BzmzXY78x38q/preview)
 
-System chce zbierać anonimowe statystyki – możesz to zaakceptować lub odrzucić.
+System chce zbierać anonimowe statystyki, możesz to odrzucić lub potwierdzić.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/gwxF4k5jf3o3xM4/preview)
 
@@ -156,25 +156,25 @@ Wybierz teraz pakiety, które chcesz zainstalować:
 * Standardowe narzędzia systemowe  
   Zapewnia podstawowe pakiety.
 
-Wybór pakietów dokonujesz za pomocą `TAB` i klawiszy strzałek. Pakiety zaznacza się lub odznacza spacją. Gdy jesteś gotowy, naciśnij `TAB` do opcji Kontynuuj i zatwierdź Enterem.
+Wybór pakietów odbywa się za pomocą `TAB` i `strzałek`. Pakiety zaznacza się lub odznacza spacją. Gdy jesteś zadowolony z wyboru, naciśnij `TAB` do „Continue” i zatwierdź Enterem.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/mwbNHxBCHxXPQiw/preview)
 
-Potwierdź, że ten system operacyjny będzie jedynym na serwerze, wybierając `Yes`.
+Potwierdź, że ten system operacyjny jest jedynym na serwerze, wybierając `Yes`.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/YWiBDBMNsczMHcm/preview)
 
-Jako miejsce instalacji wybierz domyślną lokalizację na dysku SSD.
+Jako miejsce przechowywania wybierz domyślną lokalizację na dysku SSD.
 
 :::info
-🎉 Instalacja systemu Debian właśnie się zakończyła.
+🎉 Instalacja systemu Debian została zakończona.
 :::
 
 Otwórz „Virtual Media” w iLO i kliknij „Eject Media”, aby odmontować plik ISO z systemu.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/WMTJ88CFBsQ2miz/preview)
 
-Po poprawnym odmontowaniu wybierz Kontynuuj, serwer wykona restart.
+Po pomyślnym odmontowaniu wybierz Continue, serwer wykona restart.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/pYysYayb6d2rQtb/preview)
 
@@ -184,7 +184,7 @@ Po poprawnym odmontowaniu wybierz Kontynuuj, serwer wykona restart.
 
 ### Logowanie SSH
 
-Po restarcie serwera i pomyślnej instalacji pojawi się monit o logowanie.
+Po restarcie serwera i udanej instalacji pojawi się monit o logowanie.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/7PxyTxE56GgcAbE/preview)
 
@@ -198,12 +198,12 @@ Otwórz plik konfiguracyjny SSH za pomocą nano: `nano /etc/ssh/sshd_config`.
 
 Znajdź linię `#PermitRootLogin no` i zmień ją na `PermitRootLogin yes`.
 
-Następnie naciśnij `CTRL + X` i potwierdź zmiany klawiszem `Y`.
+Naciśnij `CTRL + X` i potwierdź zmiany klawiszem `Y`.
 
-Po tym zrestartuj usługę SSH poleceniem `service ssh restart`.
+Następnie zrestartuj usługę SSH poleceniem `service ssh restart`.
 
-Logowanie SSH jest teraz aktywne i możesz łączyć się np. przez PuTTY.  
-Wpisz adres IP swojego serwera, który widzisz w panelu głównym ZAP, oraz użyj wcześniej ustalonych danych logowania.
+Logowanie SSH jest teraz aktywne i możesz połączyć się np. przez PuTTY.  
+Wpisz adres IP swojego serwera, który widzisz w panelu głównym ZAP, i użyj wcześniej ustawionych danych logowania.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/qBqF2fPmyWrtH6Q/preview)
 
@@ -217,6 +217,4 @@ Masz pytania lub problemy? Nasze wsparcie chętnie Ci pomoże!
 
 ## Podsumowanie
 
-Gratulacje, pomyślnie zainstalowałeś system Debian na swoim serwerze dedykowanym. W razie pytań lub potrzeby pomocy, śmiało kontaktuj się z naszym supportem, który jest dostępny codziennie, by Ci pomóc! 🙂
-
-<InlineVoucher />
+Gratulacje, pomyślnie zainstalowałeś system Debian na swoim serwerze dedykowanym. W razie pytań lub potrzeby pomocy, śmiało kontaktuj się z naszym supportem, który jest do Twojej dyspozycji codziennie! 🙂

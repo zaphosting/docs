@@ -21,7 +21,7 @@ Please note that these instructions are not exhaustive and that more detailed in
 The easiest way to protect your server is always the same, regardless of the server: Use secure passwords, update your services regularly and generally pay attention to which services you want to install and which guides you follow.
 :::
 
-<InlineVoucher />
+
 
 ## Securing SSH 
 
@@ -396,4 +396,4 @@ Further measures can of course be taken:
 - Set up mail notifications in Fail2Ban
 - And many more...
 
-<InlineVoucher />
+

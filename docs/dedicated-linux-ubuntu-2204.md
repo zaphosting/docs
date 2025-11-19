@@ -29,7 +29,7 @@ More information can be found on the [official website](https://ubuntu.com/about
 :::
 
 
-<InlineVoucher />
+
 
 ## Preparation
 
@@ -123,4 +123,4 @@ Congratulations, you have successfully installed the Ubuntu 22.04 operating syst
 
 
 
-<InlineVoucher />
+

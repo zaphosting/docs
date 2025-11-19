@@ -13,15 +13,13 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introducción
 
-El stack **LEMP** es una selección popular de software open-source que se configura junto para permitir un alojamiento sencillo de sitios web dinámicos, con un enfoque especial en sitios y apps PHP. El acrónimo significa: **L**inux como sistema operativo, "**E**ngine x" (nginx) como servidor web, **M**ySQL como base de datos y finalmente **P**HP para el procesamiento. En esta guía, cubriremos el proceso de configurar un stack LEMP en un Servidor Dedicado Linux, con un desglose detallado y un ejemplo de cómo montar un sitio web de lista de tareas.
-
-<InlineVoucher />
+El stack **LEMP** es una selección popular de software open-source que se configura junto para permitir un alojamiento sencillo de sitios web dinámicos, con un enfoque particular en sitios y apps PHP. El acrónimo significa: **L**inux como sistema operativo, "**E**ngine x" (nginx) como servidor web, **M**ySQL como base de datos y finalmente **P**HP para el procesamiento. En esta guía, cubriremos el proceso de configurar un stack LEMP en un Servidor Dedicado Linux, con un desglose detallado y un ejemplo de cómo montar un sitio web de lista de tareas.
 
 ## Preparación
 
 Comienza conectándote a tu servidor vía SSH. Si no sabes cómo hacerlo, echa un vistazo a nuestra [guía de acceso inicial (SSH)](vserver-linux-ssh.md).
 
-En esta guía usaremos Ubuntu como distribución Linux. Las instrucciones son iguales para Debian y similares para otras distribuciones, aunque la sintaxis de algunos comandos puede variar un poco. Asegúrate de tener un sistema operativo instalado y estar conectado al servidor vía SSH.
+En esta guía usaremos Ubuntu como distribución Linux. Las instrucciones son iguales para Debian y deberían ser similares para otras distribuciones, aunque la sintaxis de comandos puede variar un poco. Asegúrate de tener un sistema operativo instalado y estar conectado al servidor vía SSH.
 
 Como siempre, antes de continuar con la instalación, asegúrate de que todos los paquetes estén actualizados con el siguiente comando:
 ```
@@ -44,21 +42,21 @@ La instalación se puede dividir fácilmente en cada dependencia principal del s
 
 ### Configurando Nginx
 
-Nginx es el servidor web que procesará las peticiones entrantes y servirá las respuestas. Instálalo con el siguiente comando.
+Nginx es el servidor web que se usará para procesar las peticiones entrantes y servir las respuestas. Instálalo con el siguiente comando.
 ```
 sudo apt install nginx
 ```
 
-Una vez instalado, debes asegurarte de que las reglas del firewall adecuadas estén creadas para que el servidor web sea accesible desde internet. En este ejemplo usaremos el **firewall UFW** ya que Nginx tiene una aplicación registrada para este.
+Una vez instalado, debes asegurarte de que las reglas del firewall apropiadas estén creadas para que el servidor web sea accesible desde internet. En este ejemplo, usaremos el **firewall UFW** ya que Nginx tiene una aplicación registrada para esto.
 
 Si usas otro firewall, asegúrate de permitir el puerto 80 (HTTP) a través del firewall. Puedes aprender más sobre firewalls en Linux en nuestra guía [Gestionar Firewall](vserver-linux-firewall.md).
 
-Asegúrate de que el firewall UFW esté activado y que exista una regla para SSH.
+Asegúrate de que el firewall UFW esté habilitado y que exista una regla para SSH.
 ```
 # Crear regla para permitir SSH
 sudo ufw allow OpenSSH
 
-# Activar firewall UFW
+# Habilitar firewall UFW
 sudo ufw enable
 ```
 
@@ -79,49 +77,49 @@ sudo ufw status
 Puedes ver qué perfiles están disponibles ejecutando el comando `ufw app list`. En el ejemplo anterior, usar `Nginx Full` significa que se crean reglas para HTTP (puerto 80) y HTTPS (puerto 443).
 :::
 
-Deberías ver reglas `Nginx` y `Nginx (v6)` con acción `ALLOW`, lo que confirma que el firewall está listo. También verás otras reglas que hayas configurado antes, incluida la de SSH.
+Deberías ver reglas `Nginx` y `Nginx (v6)` con acción `ALLOW`, lo que confirma que el firewall está listo. También verás otras reglas que hayas configurado antes, incluyendo la de SSH.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/A36rfRzL3gFGq9x/preview)
 
-Con el firewall abierto para Nginx, ahora asegúrate de que Nginx funcione. Puedes probar accediendo a tu dirección IP en un navegador, así: `http://[tu_direccion_ip]`
+Con el firewall abierto para Nginx, ahora debes asegurarte de que Nginx funcione. Puedes hacer esto intentando acceder a tu dirección IP en un navegador, así: `http://[tu_direccion_ip]`
 
-Si funciona, verás una página de bienvenida por defecto. Si no, revisa el estado del servicio con: `systemctl status nginx`
+Si funciona, deberías ver una página de bienvenida por defecto. Si no, revisa el estado del servicio con el comando: `systemctl status nginx`
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/EqFoyXMJMaHc3dc/preview)
 
 ### Configurando MySQL
 
-Ahora instalarás y configurarás un servidor MySQL que actuará como base de datos para almacenar datos de forma persistente y relacional. Instálalo con:
+Ahora instalarás y configurarás un servidor MySQL que actuará como base de datos para almacenar datos de forma persistente y relacional. Instálalo con el siguiente comando.
 ```
 sudo apt install mysql-server
 ```
 
-Cuando termine, se recomienda ejecutar un script de instalación segura para mantener tu instancia MySQL protegida. Es opcional pero muy recomendado. Ejecuta: `sudo mysql_secure_installation`.
+Cuando termine, se recomienda ejecutar un script de instalación segura para mantener tu instancia de MySQL protegida. Es opcional pero muy recomendable. Puedes hacerlo con el comando `sudo mysql_secure_installation`.
 
-Este script te guiará paso a paso. Primero te preguntará sobre la validación de contraseñas. Recomendamos elegir `Y` para permitir solo contraseñas seguras y luego seleccionar `MEDIUM` con `1` o `STRONG` con `2`.
+Esto te guiará en una configuración interactiva. Primero te preguntará sobre la validación de contraseñas. Recomendamos seleccionar `Y` para permitir solo contraseñas seguras y luego elegir `MEDIUM` con `1` o `STRONG` con `2`.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/YF6N3iPaDWD4sgX/preview)
 
-Luego te preguntará si quieres eliminar el usuario `anonymous` y deshabilitar el acceso remoto para root. Recomendamos aceptar con `Y` por seguridad. Esto elimina usuarios de prueba y limita el acceso root solo localmente vía SSH, reduciendo riesgos.
+Luego te preguntará sobre eliminar el usuario `anonymous` y deshabilitar el login remoto para root. Recomendamos aceptar con `Y` por seguridad. Esto elimina el usuario de prueba y asegura que el usuario root solo pueda usarse localmente vía SSH, reduciendo riesgos.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/ka6GKkojRPRycZB/preview)
 
-Finalmente te preguntará si quieres eliminar la base de datos `test` y recargar las tablas de privilegios. Nuevamente, recomendamos aceptar con `Y` para limpiar y aplicar cambios.
+Finalmente, te preguntará sobre eliminar la base de datos `test` y recargar las tablas de privilegios. Nuevamente recomendamos aceptar con `Y` ya que la tabla de prueba no es necesaria y debes recargar los privilegios para que los cambios tengan efecto.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/42cYTkPaEfo3Jbq/preview)
 
-Ahora verifica que MySQL esté corriendo intentando iniciar sesión: `sudo mysql -u root`. Si ves un mensaje de bienvenida, todo está bien. Sal con el comando `quit` cuando quieras.
+Ahora verifica si la base de datos MySQL está corriendo intentando iniciar sesión con: `sudo mysql -u root`. Si tienes éxito, verás un mensaje de bienvenida. Puedes salir con el comando `quit` cuando quieras.
 
 ### Configurando PHP
 
-La última dependencia del stack LEMP es PHP y para Nginx requiere usar un programa externo llamado `php-fpm` (PHP FastCGI Process Manager). Nginx se configura para pasar las peticiones a `php-fpm` antes de responder.
+La última dependencia del stack LEMP es PHP y para Nginx, esto requiere usar un programa externo llamado `php-fpm` (PHP FastCGI Process Manager). Nginx se configura para pasar las peticiones a `php-fpm` antes de responderlas, usando bloques de servidor.
 
-Instala la última versión de php-fpm junto con el plugin PHP para MySQL para que Nginx y PHP trabajen juntos y PHP pueda usar MySQL.
+El siguiente comando instala la última versión de php-fpm junto con un plugin PHP para MySQL, para que Nginx funcione con PHP y PHP pueda usar MySQL.
 ```
 sudo apt install php-fpm php-mysql
 ```
 
-Confirma que la instalación fue exitosa comprobando la versión. Si ves un número de versión, PHP funciona correctamente.
+Confirma que la instalación fue exitosa revisando la versión. Si ves una versión, PHP funciona correctamente.
 ```
 php -v
 ```
@@ -129,40 +127,40 @@ php -v
 :::tip Extensiones PHP
 Para casos avanzados, puede que necesites extensiones PHP adicionales para más funcionalidades. Puedes ver una lista ejecutando `apt search php- | less`.
 
-Usa las flechas para navegar y presiona `Q` para salir. Para instalar una extensión, usa:
+Usa las flechas para navegar y presiona `Q` para salir. Para instalar una extensión, usa el comando apt install así. Puedes instalar varias a la vez separándolas con espacio para acelerar el proceso.
+
 ```
 sudo apt install [php_extension] [...]
 ```
-Puedes instalar varias a la vez separándolas con espacios.
 :::
 
-### Creando sitio web de prueba
+### Creando el sitio web de prueba
 
-Con todas las dependencias LEMP instaladas, ahora crearemos un sitio web de prueba para mostrar cómo el stack funciona junto para formar una solución web dinámica. Esto es opcional, pero útil para entender cómo usar estas herramientas para tus propios sitios.
+Con la instalación de cada dependencia LEMP completa, ahora crearemos un sitio web de prueba para mostrar cómo el stack LEMP funciona junto para formar una solución web dinámica genial. Esto es totalmente opcional, pero útil para entender cómo usar estas herramientas para montar tus propios sitios.
 
-En este ejemplo, crearemos un pequeño sitio de lista de tareas en PHP que recupera y muestra entradas. Los datos se almacenan en una tabla MySQL y se sirven a través de Nginx.
+En este ejemplo, crearemos un pequeño sitio de lista de tareas en PHP que recupera y muestra las tareas. Esto se almacenará en una tabla MySQL y se servirá a través de Nginx.
 
-Usaremos un dominio de prueba `zapdocs.example.com` durante todo el ejemplo, ya que en un caso real usarías un dominio. **Debes** configurar un registro DNS tipo `A` para el dominio apuntando a la dirección IP de tu servidor. Si necesitas ayuda, consulta nuestra guía [Registros de Dominio](domain-records.md).
+También usaremos un dominio de prueba `zapdocs.example.com` durante todo el proceso, ya que en un escenario real probablemente usarías un dominio. **Debes** configurar un registro DNS tipo `A` para el dominio que apunte a la dirección IP de tu servidor. Si necesitas ayuda, consulta nuestra guía [Registros de Dominio](domain-records.md).
 
 :::note
-Puedes no usar un dominio y reemplazar `[your_domain]` por un nombre cualquiera. Accederías al sitio vía IP. Pero al crear el archivo del bloque de servidor, elimina el parámetro `server_name`.
+Puedes optar por no usar un dominio y reemplazar las menciones de `[your_domain]` por un nombre normal. Entonces accederías al sitio vía IP. Pero ten en cuenta que al crear el archivo del bloque de servidor más adelante, debes eliminar el parámetro `server_name`.
 :::
 
 #### Configurando Nginx
 
-Normalmente, todos los archivos y datos web se almacenan en `/var/www`. Por defecto, Nginx trae un directorio `html` con una página por defecto. Para mantener todo organizado, especialmente si alojas varios sitios en un solo Nginx, recomendamos crear un directorio individual para cada sitio.
+Normalmente, en servidores web, todos los archivos y datos de sitios se almacenan bajo el directorio `/var/www`. Por defecto, Nginx suele venir con un directorio `html` que contiene una página por defecto. Para mantener todo organizado, especialmente si alojas varios sitios en una sola instancia Nginx, recomendamos crear un directorio individual para cada sitio.
 
-Crea una carpeta nueva en `/var/www/[your_domain]` para cada dominio. En este ejemplo: `/var/www/zapdocs.example.com`.
+Para esto, simplemente crea una carpeta nueva en `/var/www/[your_domain]` para cada dominio. En este ejemplo, será `/var/www/zapdocs.example.com`.
 ```
 sudo mkdir /var/www/[your_domain]
 ```
 
-Ahora crea un archivo de configuración para el bloque de servidor en `sites-available` para este dominio y carpeta.
+Ahora crea un nuevo archivo de configuración de bloque de servidor Nginx en el directorio `sites-available` para este dominio y carpeta.
 ```
 sudo nano /etc/nginx/sites-available/[your_domain].conf
 ```
 
-Copia esta plantilla en el editor nano, reemplazando `[your_domain]` por tu dominio.
+Usa la plantilla abajo y cópiala en el editor nano, reemplazando `[your_domain]` por el dominio que uses.
 ```
 server {
     listen 80;
@@ -187,48 +185,48 @@ server {
 ```
 
 :::important Versión PHP
-Es importante cambiar `[your_phpversion]` por la versión PHP instalada. Para saberla, ejecuta `php -v`, que mostrará algo como: `PHP 8.3.6 (cli) (built: Mar 19 2025 10:08:38) (NTS)`.
+Es importante cambiar `[your_phpversion]` por la versión actual de PHP instalada. Para verificar, ejecuta `php -v` que debería devolver una versión, por ejemplo: `PHP 8.3.6 (cli) (built: Mar 19 2025 10:08:38) (NTS)`.
 
-En este ejemplo, usarías `8.3` como subversión mayor, así la línea queda: `fastcgi_pass unix:/var/run/php/php8.3-fpm.sock;`
+En este ejemplo, pondrías `8.3` como subversión mayor, así la línea queda: `fastcgi_pass unix:/var/run/php/php8.3-fpm.sock;`
 :::
 
-Este archivo maneja peticiones al puerto 80 (HTTP) y verifica que la petición coincida con el `server_name` (tu dominio). También indica que la carpeta `/var/www/[your_domain]` será usada para servir archivos.
+Este nuevo archivo de bloque de servidor maneja peticiones en el puerto 80 (HTTP) y verifica si la petición coincide con el `server_name` especificado, en este caso tu dominio. También apunta a que la carpeta `/var/www/[your_domain]` que creaste antes se use para servir archivos.
 
-Guarda y sal de nano con `CTRL + X`, luego `Y` para confirmar y finalmente `ENTER`.
+Guarda el archivo y sal de nano con `CTRL + X`, luego `Y` para confirmar y finalmente `ENTER`.
 
-El último paso para configurar Nginx es activar esta configuración creando un enlace simbólico en `sites-enabled`.
+El último paso para configurar Nginx es activar la configuración creando un enlace simbólico desde `sites-enabled`.
 ```
 sudo ln -s /etc/nginx/sites-available/[your_domain].conf /etc/nginx/sites-enabled/
 ```
 
 :::note Sin dominio
-Si **no** usas dominio, elimina o comenta la línea `server_name` con un `#`. También desactiva el bloque por defecto con: `sudo unlink /etc/nginx/sites-enabled/default`.
+Si **no** usas un dominio, elimina la línea `server_name` o coméntala poniendo un `#` al inicio. También tendrás que deshabilitar el bloque de servidor por defecto con `sudo unlink /etc/nginx/sites-enabled/default`.
 :::
 
-Recomendamos usar `sudo nginx -t` para verificar que no haya errores de sintaxis.
+Recomendamos usar `sudo nginx -t` para asegurarte de que el archivo no tenga errores de sintaxis.
 
-Finalmente, reinicia Nginx para aplicar los cambios con: `sudo systemctl reload nginx`.
+Finalmente, reinicia Nginx para que el nuevo host virtual tenga efecto con: `sudo systemctl reload nginx`.
 
 #### Creando el sitio web
 
-Con Nginx configurado y la carpeta lista, ahora crearemos el sitio web real que se servirá. La carpeta está vacía, así que nada se mostrará aún. Crearemos un sitio de lista de tareas como mencionamos antes.
+Ahora que configuraste Nginx con el nuevo bloque de servidor y carpeta de documentos, es hora de crear el sitio web que se servirá. Por ahora la carpeta está vacía, así que no se mostrará nada. Crearemos un pequeño sitio de lista de tareas como mencionamos antes para este dominio.
 
 ##### Preparando la base de datos
 
-Primero, crea una base de datos y tabla para almacenar cada tarea. Entra a MySQL:
+Para empezar, crea una base de datos y tabla para almacenar cada tarea. Entra a tu servidor MySQL.
 ```
 sudo mysql -u root
 ```
 
-Crea la base de datos `todowebsite` y la tabla `todoitems`.
+Ahora crea una base de datos `todowebsite` y una tabla `todoitems` dentro.
 ```
 # Crear base de datos
 CREATE DATABASE todowebsite;
 
-# Usar la base de datos
+# Usar la base de datos nueva
 USE todowebsite;
 
-# Crear tabla de items
+# Crear tabla de items en la base de datos
 CREATE TABLE todoitems (
     id INT AUTO_INCREMENT PRIMARY KEY,
     name VARCHAR(255) NOT NULL,
@@ -237,21 +235,21 @@ CREATE TABLE todoitems (
 );
 ```
 
-Ahora inserta algunas tareas de ejemplo.
+Con la tabla lista, crea algunas entradas de ejemplo.
 ```
-INSERT INTO todoitems (name, is_completed) VALUES ('Create ZAP-Docs Guide', 0);
-INSERT INTO todoitems (name, is_completed) VALUES ('Buy a ZAP-Hosting Server', 1);
-INSERT INTO todoitems (name, is_completed) VALUES ('Join ZAP-Hosting Discord', 0);
-INSERT INTO todoitems (name, is_completed) VALUES ('Have a great day!', 0);
+INSERT INTO todoitems (name, is_completed) VALUES ('Crear Guía ZAP-Docs', 0);
+INSERT INTO todoitems (name, is_completed) VALUES ('Comprar un Servidor ZAP-Hosting', 1);
+INSERT INTO todoitems (name, is_completed) VALUES ('Unirse al Discord de ZAP-Hosting', 0);
+INSERT INTO todoitems (name, is_completed) VALUES ('¡Que tengas un gran día!', 0);
 ```
 
-Finalmente, crea un usuario dedicado `todo` para este sitio.
+Finalmente, crea un usuario dedicado `todo` que se usará solo para este sitio.
 ```
 # Crear usuario dedicado
-# Reemplaza [your_password] por tu contraseña
+# Reemplaza [your_password] con tu propia contraseña
 CREATE USER todo@localhost IDENTIFIED BY '[your_password]';
 
-# Asignar privilegios (copiar todo junto)
+# Asignar privilegios al usuario (copiar todo junto)
 GRANT SELECT,INSERT,UPDATE,DELETE,CREATE,DROP,ALTER
 ON todowebsite.*
 TO todo@localhost;
@@ -260,22 +258,22 @@ TO todo@localhost;
 FLUSH PRIVILEGES;
 ```
 
-Cuando termines, sal del terminal MySQL con `quit`.
+Con la base de datos preparada y el usuario listo, puedes salir del terminal MySQL con `quit` cuando quieras.
 
-##### Archivos PHP del sitio
+##### Archivos PHP del sitio web
 
-La última parte es crear el archivo PHP para la página de tareas. Será un `index.php` en `/var/www/[your_domain]`. Ábrelo con nano:
+La última parte del ejemplo es crear el archivo PHP para la página de tareas. Esto se hará con un nuevo archivo `index.php` en `/var/www/[your_domain]` que creaste antes. Abre nano para crear el archivo.
 ```
 sudo nano /var/www/[your_domain]/index.php
 ```
 
-Aquí tienes un código simple para mostrar la lista de tareas que están en la base de datos. La primera parte PHP conecta con MySQL.
+Aquí tienes un código simple que puedes pegar en nano para una página básica de tareas que muestra los ítems almacenados en la base de datos. La primera sección PHP establece la conexión MySQL.
 
 :::important
-Debes cambiar `[your_password]` por la contraseña que asignaste al usuario `todo`.
+Debes cambiar `[your_password]` por la contraseña que asignaste al usuario `todo` antes.
 :::
 
-La parte HTML crea una lista no ordenada que recorre los resultados.
+La sección HTML contiene la página principal que crea una lista desordenada, recorriendo cada resultado.
 
 ```
 <?php
@@ -288,50 +286,50 @@ $dbname = "todowebsite";
 // Crear conexión
 $conn = new mysqli($servername, $username, $password, $dbname);
 
-// Verificar conexión, si falla mostrar error
+// Verificar si la conexión fue exitosa, si no mostrar error
 if ($conn->connect_error) {
-    die("Connection failed: " . $conn->connect_error);
+    die("Conexión fallida: " . $conn->connect_error);
 }
 
-// Ejecutar consulta SQL para obtener entradas y guardar resultado
+// Ejecutar consulta SQL para obtener entradas y guardar en $result
 $sql = "SELECT id, name, is_completed, creation_date FROM todoitems ORDER BY creation_date DESC";
 $result = $conn->query($sql);
 ?>
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
   <head>
-      <meta charset="UTF--8">
+      <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>To-Do List</title>
+      <title>Lista de Tareas</title>
   </head>
   <body>
-      <h1>Awesome To-Do List :D</h1>
-      <p>For our awesome ZAP-Hosting guide: <a href="https://zap-hosting.com/guides/docs/vserver-linux-lemp-stack">https://zap-hosting.com/guides/docs/vserver-linux-lemp-stack</a></p>
+      <h1>¡Lista de Tareas Genial :D!</h1>
+      <p>Para nuestra increíble guía de ZAP-Hosting: <a href="https://zap-hosting.com/guides/docs/vserver-linux-lemp-stack">https://zap-hosting.com/guides/docs/vserver-linux-lemp-stack</a></p>
       <ul>
           <?php
           // Verificar si hay resultados
           if ($result->num_rows > 0) {
-              // Recorrer cada item del resultado
+              // Recorrer cada ítem del resultado
               foreach ($result as $entry) {
                   echo "<li>";
-                  // Mostrar nombre y usar htmlspecialchars para evitar XSS
+                  // Mostrar el nombre usando htmlspecialchars para evitar XSS
                   echo htmlspecialchars($entry["name"]);
 
                   // Mostrar estado de completado
                   if ($entry["is_completed"]) {
-                      echo " <strong>(Completed)</strong>";
+                      echo " <strong>(Completado)</strong>";
                   } else {
-                      echo " <strong>(Incomplete)</strong>";
+                      echo " <strong>(Incompleto)</strong>";
                   }
 
                   // Mostrar fecha de creación
-                  echo " - Creation Date: " . htmlspecialchars($entry['creation_date']);
+                  echo " - Fecha de creación: " . htmlspecialchars($entry['creation_date']);
                   echo "</li>";
               }
           } else {
-              // Si no hay resultados, mostrar mensaje por defecto
-              echo "<li>No to-do items found.</li>";
+              // Si no hay ítems, mostrar mensaje por defecto
+              echo "<li>No se encontraron tareas.</li>";
           }
           ?>
       </ul>
@@ -339,25 +337,23 @@ $result = $conn->query($sql);
 </html>
 
 <?php
-// Cerrar conexión a base de datos
+// Cerrar conexión a la base de datos
 $conn->close();
 ?>
 ```
 
-Copia esto en nano, guarda con `CTRL + X`, confirma con `Y` y presiona `ENTER`.
+Una vez pegado en nano, guarda con `CTRL + X`, luego `Y` para confirmar y finalmente `ENTER`.
 
 #### Probando el sitio web
 
-¡Has configurado con éxito un sitio de lista de tareas que usa todo el stack LEMP!
+¡Has seguido todos los pasos y configurado un sitio web de prueba que usa todos los componentes del stack LEMP!
 
-Ahora deberías poder acceder al sitio vía el dominio (usando `http`/puerto 80) que definiste en el bloque de servidor, en este ejemplo `zapdocs.example.com`. El resultado final debería verse así:
+Ahora deberías poder acceder al sitio vía el dominio (usando `http`/puerto 80) que definiste en el archivo del bloque de servidor, que en este ejemplo es `zapdocs.example.com`. El resultado final debería verse así:
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/NgK2n8xN3wZPLeP/preview)
 
 ## Conclusión
 
-¡Felicidades, has instalado y configurado el stack LEMP con éxito! Como siguiente paso, **recomendamos mucho** configurar un dominio y un **certificado SSL** para asegurar que los datos se transmitan de forma segura a tus sitios. Consulta nuestra [guía Certbot](vserver-linux-certbot.md) enfocada en el **plugin Nginx** y sigue la configuración interactiva para instalar un certificado rápido y fácil para tu dominio.
+¡Felicidades, has instalado y configurado exitosamente el stack LEMP! Como siguiente paso, te **recomendamos mucho** configurar un dominio y un **certificado SSL** para asegurar que los datos se transmitan de forma segura a tus sitios. Consulta nuestra [guía Certbot](vserver-linux-certbot.md) enfocada en el **plugin Nginx** y sigue la configuración interactiva para instalar un certificado rápido y fácil para tu dominio.
 
-Si tienes más preguntas o necesitas ayuda, no dudes en contactar a nuestro equipo de soporte, disponible todos los días para asistirte 🙂.
-
-<InlineVoucher />
+Si tienes más preguntas o necesitas ayuda, no dudes en contactar a nuestro equipo de soporte, disponible todos los días para asistirte 🙂

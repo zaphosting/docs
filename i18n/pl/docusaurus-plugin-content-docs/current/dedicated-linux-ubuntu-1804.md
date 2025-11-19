@@ -17,9 +17,9 @@ Poniżej znajdziesz krok po kroku instrukcję, jak zainstalować i skonfigurowa�
 
 :::warning Nowsza wersja dostępna / Szczegóły EOL
 
-Najnowszą wersją Ubuntu jest wersja [24.04](dedicated-linux-ubuntu.md). Zalecamy korzystanie z najnowszej wersji do długoterminowych projektów.
+Najnowszą wersją Ubuntu jest wersja [24.04](dedicated-linux-ubuntu.md). Zalecamy korzystanie z najnowszej wersji przy długoterminowych projektach.
 
-Wsparcie dla starszych wersji Ubuntu zostanie w końcu zakończone. Poniżej terminy dla wersji 18.04:
+Wsparcie dla starszych wersji Ubuntu zostanie w końcu zakończone. Oto planowane terminy dla wersji 18.04:
 
 - Koniec standardowego wsparcia: 01.03.2023
 - Koniec wsparcia Ubuntu Pro: 01.04.2028
@@ -29,7 +29,7 @@ Więcej informacji znajdziesz na [oficjalnej stronie](https://ubuntu.com/about/r
 :::
 
 
-<InlineVoucher />
+
 
 ## Przygotowanie
 
@@ -45,7 +45,7 @@ Jeśli nie masz jeszcze doświadczenia z montowaniem plików ISO, najlepiej zajr
 
 ## Instalacja
 
-Gdy obraz ISO zostanie poprawnie zamontowany i załadowany, serwer powinien przejść do procesu instalacji. Na początku wybierz język, którego chcesz używać w systemie operacyjnym. Wybierz jeden z dostępnych języków i potwierdź wybór klawiszem `Enter`. 
+Gdy obraz ISO zostanie poprawnie zamontowany i załadowany, serwer powinien przejść do procesu instalacji. Na początku instalacji wybierz język, którego chcesz używać w systemie operacyjnym. Wybierz jeden z dostępnych języków i potwierdź wybór klawiszem `Enter`. 
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/yrHMNzstM23XZH6/preview)
 
@@ -53,11 +53,11 @@ Następnie wybierz odpowiedni układ klawiatury dopasowany do języka.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/x9kYGEWS5fy7Wjp/preview)
 
-Kolejnym krokiem jest konfiguracja sieci. Domyślnie serwer jest konfigurowany przez DHCP. Domyślny adapter sieciowy to `eno1`. Potwierdź domyślne ustawienia i przejdź dalej. 
+Kolejnym krokiem jest konfiguracja sieci. Domyślnie serwer jest konfigurowany przez DHCP. Domyślny adapter sieciowy to `eno1`. Potwierdź domyślne ustawienia i kontynuuj. 
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/6mr5kAKJQ39iJt5/preview)
 
-Opcjonalnie możesz skonfigurować dodatkowy proxy. Nie jest to jednak konieczne. Jeśli nie potrzebujesz, po prostu pomiń ten krok. 
+Opcjonalnie możesz skonfigurować dodatkowy proxy, ale nie jest to konieczne. Jeśli nie potrzebujesz tego, po prostu pomiń ten krok. 
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/tz97Ee8ZQkxAGGb/preview)
 
@@ -78,7 +78,7 @@ Przed rozpoczęciem procesu zostaniesz poinformowany, że wszystkie istniejące 
 ![](https://screensaver01.zap-hosting.com/index.php/s/L3YcGNbYWpMmaDj/preview)
 
 Skonfiguruj swoje konto użytkownika według własnych preferencji, możesz też na końcu użyć konta root, zmieniając jego hasło.
-Poruszaj się po opcjach za pomocą tabulatora lub strzałek. Gdy skończysz, potwierdź wybór klikając `Done`.
+Poruszaj się po opcjach za pomocą tabulatora lub strzałek. Gdy skończysz, zaznacz `Done`.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/mqrjmF2ZmA2Qj9z/preview)
 
@@ -86,7 +86,7 @@ Poruszaj się po opcjach za pomocą tabulatora lub strzałek. Gdy skończysz, po
 
 
 
-Zalecamy instalację konfiguracji SSH. Jeśli chcesz zarządzać serwerem przez SSH, wybierz opcję instalacji i potwierdź.
+Zalecamy instalację konfiguracji SSH. Jeśli chcesz zarządzać serwerem przez SSH, wybierz tę opcję i potwierdź instalację.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/Xz3zzMdZ6C523ip/preview)
 
@@ -94,7 +94,7 @@ Ubuntu oferuje kilka domyślnych snapów, jeśli chcesz z nich skorzystać, zazn
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/wcGiSwX935jXeex/preview)
 
-Aby zakończyć proces, obraz ISO musi zostać wysunięty, aby nie został ponownie załadowany po restarcie serwera. Uruchom serwer ponownie, aby zakończyć instalację. 
+Aby zakończyć proces, obraz ISO musi zostać wysunięty, aby nie został ponownie załadowany przy restarcie serwera. Uruchom serwer ponownie, aby zakończyć instalację. 
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/SzrxCtJTx2S8Nef/preview)
 
@@ -110,17 +110,10 @@ Aby zakończyć proces, obraz ISO musi zostać wysunięty, aby nie został ponow
 
 ### Zmiana hasła użytkownika root
 
-Hasło użytkownika root możesz łatwo zmienić. Wykonaj `sudo su` i wpisz swoje hasło. Następnie wykonaj `sudo passwd`, aby zmienić hasło. Teraz wpisz nowe, wybrane hasło dla użytkownika root. Gotowe, możesz teraz logować się na konto `root`.
+Hasło użytkownika root możesz łatwo zmienić. Wykonaj polecenie `sudo su` i wpisz swoje hasło. Następnie wpisz `sudo passwd`, aby zmienić hasło. Teraz wpisz nowe hasło dla użytkownika root. Gotowe, możesz teraz logować się na konto `root`.
 
 
 
 ## Podsumowanie
 
-Gratulacje, pomyślnie zainstalowałeś system operacyjny Ubuntu 18.04 na swoim serwerze dedykowanym. W razie dalszych pytań lub potrzeby pomocy, śmiało kontaktuj się z naszym zespołem wsparcia, który jest dostępny codziennie, aby Ci pomóc! 🙂
-
-
-
-
-
-
-<InlineVoucher />
+Gratulacje, pomyślnie zainstalowałeś system operacyjny Ubuntu 18.04 na swoim serwerze dedykowanym. W razie pytań lub potrzeby pomocy, śmiało kontaktuj się z naszym zespołem wsparcia, który jest dostępny codziennie, aby Ci pomóc! 🙂

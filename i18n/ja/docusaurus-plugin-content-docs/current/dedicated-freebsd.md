@@ -15,11 +15,11 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 :::info
 
-このガイドはFreeBSD 13.0をベースに構成しています。以前のバージョンや新しいバージョンでは、手順が若干異なる場合があります。
+このガイドはFreeBSD 13.0をベースに構成しています。過去または新しいバージョンのインストール手順は多少異なる場合があります。
 
 :::
 
-<InlineVoucher />
+
 
 ## 準備
 
@@ -29,7 +29,7 @@ OSのインストールと設定には、まず対応するOSのISOをマウン�
 2. iLO経由でのマウント（Virtual Media）
 3. iLO経由でのマウント（リモートコンソール）
 
-ISOファイルのマウントに慣れていない場合は、[初期セットアップ](dedicated-setup.md)や[Own ISO](dedicated-iso.md)ガイドを参考にするのがオススメです。
+ISOファイルのマウントに慣れていない場合は、[初期セットアップ](dedicated-setup.md)や[独自ISO](dedicated-iso.md)のガイドを参照するのがおすすめです。
 
 
 
@@ -48,7 +48,7 @@ ISOが正常に読み込まれると、サーバーはセットアップ画面�
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/zqXPS6fHdkoMPH2/preview)
 
-インストールしたいシステムパッケージを任意で選択できます。選び終わったら「OK」で進みます。
+インストールしたいシステムパッケージを任意で選択し、完了したら「OK」を押します。
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/zTSBQRGRFLHDxDo/preview)
 
@@ -60,7 +60,7 @@ ISOが正常に読み込まれると、サーバーはセットアップ画面�
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/MR3eJKMpdExXnsJ/preview)
 
-RAID0なので冗長性は「なし」を選択。
+RAID0なので冗長性なしを選択します。
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/Qf5JZMKs5HzDXnT/preview)
 
@@ -80,11 +80,11 @@ RAID0なので冗長性は「なし」を選択。
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/f9aJF57b2w3g9qY/preview)
 
-IPv4/IPv6の設定は最後に行うため「No」を選択。
+IPv4/IPv6の設定は最後に行うため、「いいえ」を選択します。
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/88bxbHsRjwCoYJQ/preview)
 
-「Yes」を選び、タイムゾーンと日時を設定します。
+「はい」を選択し、タイムゾーンと日時を設定します。
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/MCtpoQkLdc8Wd7Y/preview)
 
@@ -96,10 +96,10 @@ IPv4/IPv6の設定は最後に行うため「No」を選択。
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/BXEs3sFYCbFE4Q4/preview)
 
-セットアップ完了です。「Exit」を選んで`Enter`で確定しましょう。
+セットアップ完了です。「終了」を選択し、`Enter`で確定します。
 
 :::info
-iLOからISOファイルを取り外し、「Reboot」を選択してください。
+iLOからISOファイルを取り外し、「再起動」を選択してください。
 :::
 
 
@@ -108,13 +108,13 @@ iLOからISOファイルを取り外し、「Reboot」を選択してくださ�
 
 ### ネットワーク
 
-ネットワークデバイスを有効にするため、パスワードでシステムにログインしてください。
+ネットワークデバイスを有効にするには、パスワードでシステムにログインしてください。
 
-お好きなエディタで`loader.conf`を開きます。例：`ee /boot/loader.conf`。以下の行を追加してください：
+好きなエディタで`loader.conf`を開きます。例：`ee /boot/loader.conf`。以下の行を追加します：
 
 ```if_oce_load="YES"```
 
-`CTRL+C`でエディタを終了し、`exit`と入力した後、専用サーバーを再起動します。
+`CTRL+C`でエディタを終了し、exitと入力してログアウト後、専用サーバーを再起動してください。
 
 ***
 
@@ -125,14 +125,14 @@ ifconfig_oce0="DHCP"
 ```
 
 :::caution
-例にあるネットワークアダプター名**oce0**は異なる場合があります。正しいアダプター名は`ifconfig`コマンドで確認してください。DHCPサーバーから自動的にIPアドレスが取得されます。
+例にあるネットワークアダプター名 **oce0** は異なる場合があります。正しいアダプター名は`ifconfig`コマンドで確認してください。DHCPサーバーから自動的にIPアドレスが取得されます。
 :::
 
 例としてはこんな感じになります：
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/mBCZpbG37N9Dj5e/preview)
 
-`CTRL+C`でエディタを閉じ、「exit」と入力した後、`/etc/netstart`コマンドを一度実行してください。
+`CTRL+C`でエディタを閉じ、「exit」と入力した後、`/etc/netstart`コマンドを一度実行します。
 
 :::info
 これでサーバーはインターネットに接続されているはずです。
@@ -142,6 +142,4 @@ ifconfig_oce0="DHCP"
 
 ## まとめ
 
-おめでとうございます！専用サーバーにFreeBSD OSのインストールが無事完了しました。質問やサポートが必要な場合は、いつでもお気軽にサポートチームまでご連絡くださいね！🙂
-
-<InlineVoucher />
+おめでとうございます！専用サーバーにFreeBSD OSを無事インストールできました。質問やサポートが必要な場合は、毎日対応しているサポートチームまでお気軽にご連絡くださいね！🙂

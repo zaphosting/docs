@@ -1,7 +1,7 @@
 ---
 id: dedicated-linux-lemp-stack
 title: "専用サーバー：LEMPスタックのセットアップ - Linux、Nginx、MySQL、PHP"
-description: "Linuxサーバーで動的なPHPウェブサイトをホスティングするためのLEMPスタックのセットアップ方法を実例付きで解説 → 今すぐチェック"
+description: "Linuxサーバーで動的なPHPウェブサイトをホスティングするためのLEMPスタックのセットアップ方法を実践例で解説 → 今すぐチェック"
 sidebar_label: Web LEMPスタック
 services:
   - dedicated
@@ -13,17 +13,15 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## はじめに
 
-**LEMP**スタックは、PHPウェブサイトやアプリに特化した動的なウェブサイトホスティングを簡単に実現するために一緒にセットアップされる人気のオープンソースソフトウェア群です。頭文字は、**L**inux（OS）、"**E**ngine x"（nginx）をウェブサーバー、**M**ySQLをデータベース、そして最後に**P**HPを処理に使うことを表しています。このガイドでは、Linux専用サーバーにLEMPスタックをセットアップする手順を、詳細な解説とTo-Doリストウェブサイトの例を交えて紹介します。
-
-<InlineVoucher />
+**LEMP**スタックは、PHPウェブサイトやアプリに特化したシンプルな動的ウェブサイトホスティングを実現するために一緒にセットアップされる人気のオープンソースソフトウェア群です。頭文字は、**L**inux（OS）、"**E**ngine x"（nginx）をウェブサーバー、**M**ySQLをデータベース、そして最後に**P**HPを処理に使うことを表しています。このガイドでは、Linux専用サーバーにLEMPスタックをセットアップする手順を、詳細な解説とTo-Doリストウェブサイトの例を交えて紹介します。
 
 ## 準備
 
-まずはSSHでサーバーに接続しましょう。やり方がわからない場合は、[初回アクセス（SSH）](vserver-linux-ssh.md)ガイドをチェックしてください。
+まずはSSHでサーバーに接続してください。やり方がわからない場合は、[初回アクセス（SSH）](vserver-linux-ssh.md)ガイドを参照してください。
 
-このガイドではUbuntuをLinuxディストリビューションとして使用します。Debianでも同様の手順で、他のディストリビューションでもコマンドの書式が多少異なる場合がありますが基本は同じです。OSがインストールされていてSSH接続ができる状態であることを確認してください。
+本ガイドではUbuntuをLinuxディストリビューションとして使用します。Debianでも同様の手順で、他のディストリビューションでも似たような手順ですが、コマンドの構文が若干異なる場合があります。OSがインストールされていてSSH接続ができることを確認してください。
 
-インストールを始める前に、以下のコマンドでパッケージを最新にアップデートしておきましょう：
+インストールを始める前に、以下のコマンドでパッケージを最新状態にアップデートしておきましょう。
 ```
 // Ubuntu & Debian
 sudo apt update
@@ -40,7 +38,7 @@ sudo dnf upgrade --refresh
 
 ## インストール
 
-インストールはLEMPの各コアコンポーネントごとに分けて行います。まずNginxウェブサーバー、次にMySQLデータベース、最後にPHPです。インストール中にPHPで書かれたテスト用ウェブサイトをセットアップし、MySQLデータベースにアクセスし、Nginxを通じてリクエストを処理・配信する流れを作ります。
+インストールはLEMPの各コアコンポーネントごとに分けて行います。まずNginxウェブサーバー、次にMySQLデータベース、最後にPHPです。インストール中はPHPで書かれたテスト用ウェブサイトをセットアップし、MySQLデータベースにアクセスし、Nginxがリクエストを処理して応答を返す流れを作ります。
 
 ### Nginxのセットアップ
 
@@ -49,11 +47,11 @@ Nginxはウェブリクエストを処理しレスポンスを返すウェブサ
 sudo apt install nginx
 ```
 
-インストール後は、ウェブサーバーがインターネットからアクセス可能になるようにファイアウォールのルールを設定しましょう。ここではNginx用の登録済みアプリケーションがある**UFWファイアウォール**を使います。
+インストール後は、ウェブサーバーがインターネットからアクセス可能になるようにファイアウォールのルールを設定しましょう。ここではNginx用に登録されたアプリケーションがある**UFWファイアウォール**を使います。
 
 別のファイアウォールを使っている場合は、HTTPのポート80を通す設定をしてください。Linuxのファイアウォールについては[ファイアウォール管理](vserver-linux-firewall.md)ガイドも参考にどうぞ。
 
-UFWファイアウォールを有効にし、SSH用のルールも作成します。
+UFWファイアウォールを有効化し、SSH用のルールも作成します。
 ```
 # SSH用ルール作成
 sudo ufw allow OpenSSH
@@ -63,63 +61,71 @@ sudo ufw enable
 ```
 
 :::caution
-UFWファイアウォールを使う場合は必ずSSH用ルールを作成してください！これをしないと現在のセッションが切れた後、サーバーにSSH接続できなくなります！
+UFWを使う場合は必ずSSH用のルールを作成してください！設定しないと現在のセッションが切断された後、サーバーにSSH接続できなくなります！
 :::
 
-次にNginx用のルールを作成し、ルールが正しく設定されているか確認します。
+次にNginx用のルールを作成し、設定が反映されているか確認します。
 ```
 # Nginx用ルール作成
 sudo ufw allow in "Nginx Full"
 
-# UFWファイアウォールのルール確認
+# UFWのルール確認
 sudo ufw status
 ```
 
 :::tip
-利用可能なプロファイルは `ufw app list` コマンドで確認できます。上記の例で使った `Nginx Full` はHTTP（ポート80）とHTTPS（ポート443）の両方を許可するルールを作成します。
+`ufw app list`コマンドで利用可能なプロファイルを確認できます。上記の`Nginx Full`はHTTP（ポート80）とHTTPS（ポート443）の両方を許可するルールを作成します。
 :::
 
-`Nginx` と `Nginx (v6)` のルールが `ALLOW` になっていればファイアウォールの設定はOKです。SSHルールなど他のルールも表示されるはずです。
+`Nginx`と`Nginx (v6)`のルールが`ALLOW`になっていればファイアウォール設定はOKです。SSHルールなど他のルールも表示されます。
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/A36rfRzL3gFGq9x/preview)
 
 ファイアウォールが開放されたら、ブラウザでサーバーのIPアドレスにアクセスしてNginxが動作しているか確認しましょう。例：`http://[your_ipaddress]`
 
-正常ならデフォルトのウェルカムページが表示されます。表示されない場合は以下のコマンドでサービスの状態を確認してください：`systemctl status nginx`
+正常ならデフォルトのウェルカムページが表示されます。表示されない場合は以下のコマンドでサービスの状態を確認してください。
+```
+systemctl status nginx
+```
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/EqFoyXMJMaHc3dc/preview)
 
 ### MySQLのセットアップ
 
-次にMySQLサーバーをインストールし、リレーショナルにデータを永続化できるデータベースを用意します。
+次にMySQLサーバーをインストールし、リレーショナルにデータを永続保存できるデータベースを用意します。
 ```
 sudo apt install mysql-server
 ```
 
-インストール後はセキュリティを強化するために推奨されるスクリプトを実行しましょう。これは任意ですが強く推奨します。以下のコマンドで実行できます。
+インストール後はセキュリティを強化するために推奨されるスクリプトを実行しましょう。任意ですが強く推奨します。
 ```
 sudo mysql_secure_installation
 ```
 
-対話形式で進みます。最初にパスワードの検証について聞かれます。将来的に安全なパスワードのみ許可するために `Y` を選び、`MEDIUM`（1）か `STRONG`（2）を選択しましょう。
+対話形式で設定を進めます。まずパスワードの強度チェックについて聞かれます。将来的に安全なパスワードのみ許可するために`Y`を選び、`MEDIUM`（1）か`STRONG`（2）を選択してください。
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/YF6N3iPaDWD4sgX/preview)
 
-次に匿名ユーザーの削除とrootのリモートログイン禁止について聞かれます。セキュリティ上の理由から両方とも `Y` を選択することを強く推奨します。これによりテストユーザーが削除され、rootユーザーはSSH経由のローカルのみで使えるようになりリスクが減ります。
+次に匿名ユーザーの削除とrootのリモートログイン禁止について聞かれます。セキュリティ上どちらも`Y`で承認することを強く推奨します。これによりテストユーザーが削除され、rootユーザーはSSH経由のローカルのみで利用可能になります。
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/ka6GKkojRPRycZB/preview)
 
-最後にテストデータベースの削除と権限テーブルのリロードを聞かれます。こちらも不要なので `Y` を選択してください。
+最後にテストデータベースの削除と権限テーブルのリロードを聞かれます。こちらも`Y`で承認してください。
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/42cYTkPaEfo3Jbq/preview)
 
-MySQLが起動しているか確認するには以下のコマンドでログインを試みます：`sudo mysql -u root`。成功すればウェルカムメッセージが表示されます。終了は `quit` コマンドで。
+MySQLが起動しているか確認するには以下のコマンドでログインを試みます。
+```
+sudo mysql -u root
+```
+
+成功すればウェルカムメッセージが表示されます。終了するには`quit`コマンドを使います。
 
 ### PHPのセットアップ
 
-最後のLEMPコンポーネントはPHPです。NginxでPHPを動かすには外部プログラムの `php-fpm`（PHP fastCGIプロセスマネージャー）を使います。Nginxはリクエストを `php-fpm` に渡して処理させます。
+最後のLEMPコンポーネントはPHPです。NginxでPHPを動かすには`php-fpm`（PHP fastCGIプロセスマネージャー）を使います。Nginxはリクエストを`php-fpm`に渡して処理します。
 
-以下のコマンドで最新のphp-fpmとMySQL用PHPプラグインをインストールします。これでNginxがPHPを扱え、PHPからMySQLを使えるようになります。
+以下のコマンドで最新のphp-fpmとMySQL用のPHPプラグインをインストールします。これによりNginxがPHPを扱え、PHPがMySQLを使えるようになります。
 ```
 sudo apt install php-fpm php-mysql
 ```
@@ -130,11 +136,11 @@ php -v
 ```
 
 :::tip PHP拡張機能
-高度な用途では追加のPHP拡張機能が必要になる場合があります。以下のコマンドで一覧を確認できます。
+高度な用途では追加のPHP拡張機能が必要になることがあります。以下のコマンドで一覧を確認できます。
 ```
 apt search php- | less
 ```
-矢印キーでスクロールし、終了は `Q` を押します。拡張機能のインストールは以下のように複数同時に指定可能です。
+矢印キーでスクロールし、`Q`で終了。拡張機能をインストールするには以下のようにします。複数同時に指定可能です。
 ```
 sudo apt install [php_extension] [...]
 ```
@@ -144,29 +150,29 @@ sudo apt install [php_extension] [...]
 
 LEMPの各コンポーネントが揃ったので、実際に動作を確認するためのテスト用ウェブサイトを作成します。これは任意ですが、LEMPスタックの連携を理解するのに役立ちます。
 
-今回はPHPで書かれた小さなTo-Doリストサイトを作り、MySQLのテーブルからデータを取得してNginx経由で配信します。
+今回はPHPで書かれた小さなTo-Doリストサイトを作成し、MySQLのテーブルからデータを取得してNginx経由で表示します。
 
-例として `zapdocs.example.com` というテスト用ドメインを使います。実際にはドメインを使うことが多いので、必ずサーバーのIPアドレスを指す `A`タイプのDNSレコードを設定してください。設定方法は[ドメインレコード](domain-records.md)ガイドを参照。
+テスト用に`zapdocs.example.com`というドメインを使います。実際にはドメインを用意し、サーバーのIPアドレスを指す`A`タイプのDNSレコードを必ず設定してください。設定方法は[ドメインレコード](domain-records.md)ガイドを参照してください。
 
 :::note
-ドメインを使わずIPアドレスでアクセスしたい場合は、以降の `[your_domain]` を任意の名前に置き換え、サーバーブロックの `server_name` 行は削除してください。
+ドメインを使わずIPアドレスでアクセスする場合は、後述のサーバーブロック設定で`server_name`行を削除してください。
 :::
 
 #### Nginxの設定
 
-ウェブサーバーでは通常、ウェブサイトのファイルは `/var/www` 配下に保存されます。Nginxはデフォルトで `html` ディレクトリにデフォルトページを持っていますが、複数サイトを管理する場合はドメインごとにフォルダを分けるのがおすすめです。
+ウェブサーバーでは通常、ウェブサイトのファイルは`/var/www`ディレクトリ以下に保存されます。Nginxはデフォルトで`html`ディレクトリにデフォルトページを持っていますが、複数サイトを管理する場合はドメインごとにフォルダを分けるのがおすすめです。
 
-以下のようにドメイン名のフォルダを作成します。例では `/var/www/zapdocs.example.com` です。
+以下のようにドメイン名のフォルダを作成します。例では`/var/www/zapdocs.example.com`です。
 ```
 sudo mkdir /var/www/[your_domain]
 ```
 
-次に、`sites-available` にドメイン用のNginxサーバーブロック設定ファイルを作成します。
+次に`sites-available`ディレクトリにサーバーブロックの設定ファイルを作成します。
 ```
 sudo nano /etc/nginx/sites-available/[your_domain].conf
 ```
 
-以下のテンプレートをコピーして、`[your_domain]` を使うドメインに置き換えてください。
+以下のテンプレートをコピーし、`[your_domain]`を実際のドメインに置き換えてnanoに貼り付けてください。
 ```
 server {
     listen 80;
@@ -191,50 +197,52 @@ server {
 ```
 
 :::important PHPバージョン
-`[your_phpversion]` はインストールされているPHPのバージョンに置き換えてください。`php -v` で確認できます。例：`PHP 8.3.6 (cli) ...` なら `8.3` を使い、以下のようにします。
+`[your_phpversion]`はインストールされているPHPのバージョンに置き換えてください。`php -v`コマンドで確認できます。例：`PHP 8.3.6`なら`8.3`を使い、以下のようにします。
 ```
 fastcgi_pass unix:/var/run/php/php8.3-fpm.sock;
 ```
 :::
 
-このサーバーブロックはポート80（HTTP）をリッスンし、`server_name` に合致するリクエストを受け付けます。ルートディレクトリは先ほど作成した `/var/www/[your_domain]` です。
+このサーバーブロックはポート80（HTTP）をリッスンし、`server_name`に指定したドメインへのリクエストを処理します。ルートディレクトリは先ほど作成したフォルダを指定しています。
 
-ファイルを保存してnanoを終了するには `CTRL + X`、`Y`、`ENTER` の順に押します。
+ファイルを保存してnanoを終了するには`CTRL + X`、`Y`、`ENTER`の順に押します。
 
-最後にこの設定を有効化するため、`sites-enabled` にシンボリックリンクを作成します。
+最後に`sites-enabled`ディレクトリにシンボリックリンクを作成して設定を有効化します。
 ```
 sudo ln -s /etc/nginx/sites-available/[your_domain].conf /etc/nginx/sites-enabled/
 ```
 
 :::note ドメインを使わない場合
-ドメインを使わない場合は `server_name` 行を削除またはコメントアウトし、デフォルトのサーバーブロックを無効化してください。
+ドメインを使わない場合は`server_name`行を削除またはコメントアウトし、デフォルトのサーバーブロックを無効化してください。
 ```
 sudo unlink /etc/nginx/sites-enabled/default
 ```
 :::
 
-設定ファイルに文法エラーがないかは以下でチェックできます。
+設定ファイルに文法エラーがないか確認するには以下を実行します。
 ```
 sudo nginx -t
 ```
 
-問題なければNginxを再起動して設定を反映します。
+問題なければNginxをリロードして設定を反映させます。
 ```
 sudo systemctl reload nginx
 ```
 
 #### ウェブサイトの作成
 
-Nginxの設定ができたので、実際に配信するウェブサイトを作成します。現状フォルダは空なので何も表示されません。ここでは先述のTo-Doリストサイトを作ります。
+Nginxの設定ができたので、実際に表示するウェブサイトのファイルを作成します。現状フォルダは空なので何も表示されません。
+
+今回はTo-DoリストのPHPサイトを作成します。
 
 ##### データベースの準備
 
-まずはMySQLに新しいデータベースとテーブルを作成します。MySQLにログインしましょう。
+まずMySQLにログインし、新しいデータベースとテーブルを作成します。
 ```
 sudo mysql -u root
 ```
 
-以下のコマンドで `todowebsite` データベースと `todoitems` テーブルを作成します。
+以下のSQLを実行して`todowebsite`データベースと`todoitems`テーブルを作成します。
 ```
 # データベース作成
 CREATE DATABASE todowebsite;
@@ -251,7 +259,7 @@ CREATE TABLE todoitems (
 );
 ```
 
-続いてサンプルデータをいくつか挿入します。
+サンプルデータをいくつか挿入します。
 ```
 INSERT INTO todoitems (name, is_completed) VALUES ('Create ZAP-Docs Guide', 0);
 INSERT INTO todoitems (name, is_completed) VALUES ('Buy a ZAP-Hosting Server', 1);
@@ -259,10 +267,10 @@ INSERT INTO todoitems (name, is_completed) VALUES ('Join ZAP-Hosting Discord', 0
 INSERT INTO todoitems (name, is_completed) VALUES ('Have a great day!', 0);
 ```
 
-最後にこのウェブサイト専用の `todo` ユーザーを作成します。
+専用の`todo`ユーザーを作成し、適切な権限を付与します。
 ```
 # ユーザー作成
-# [your_password] は任意のパスワードに置き換えてください
+# [your_password]は任意のパスワードに置き換えてください
 CREATE USER todo@localhost IDENTIFIED BY '[your_password]';
 
 # 権限付与（まとめてコピーしてください）
@@ -270,28 +278,28 @@ GRANT SELECT,INSERT,UPDATE,DELETE,CREATE,DROP,ALTER
 ON todowebsite.*
 TO todo@localhost;
 
-# 権限リロード
+# 権限反映
 FLUSH PRIVILEGES;
 ```
 
-準備ができたら `quit` コマンドでMySQLを終了します。
+準備ができたら`quit`でMySQLを終了します。
 
 ##### PHPウェブサイトファイル
 
-最後に、To-DoページのPHPファイルを `/var/www/[your_domain]` に作成します。nanoで新規作成しましょう。
+最後に`/var/www/[your_domain]`に`index.php`ファイルを作成します。
 ```
 sudo nano /var/www/[your_domain]/index.php
 ```
 
-以下のコードをコピーして貼り付けてください。最初のPHP部分でMySQLに接続し、後半のHTML部分でデータをリスト表示します。
+以下のコードをコピーして貼り付けてください。MySQLへの接続とTo-Doリストの表示を行います。
 
 :::important
-`[your_password]` は先ほど設定した `todo` ユーザーのパスワードに必ず置き換えてください。
+`[your_password]`は先ほど設定した`todo`ユーザーのパスワードに必ず置き換えてください。
 :::
 
-```
+```php
 <?php
-// MySQL接続準備
+// MySQL接続情報
 $servername = "localhost";
 $username = "todo";
 $password = "[your_password]";
@@ -300,12 +308,12 @@ $dbname = "todowebsite";
 // 接続作成
 $conn = new mysqli($servername, $username, $password, $dbname);
 
-// 接続確認、失敗時はエラー表示
+// 接続確認。失敗したらエラー表示
 if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }
 
-// SQLクエリ実行、結果を$resultに格納
+// SQLクエリ実行。作成日時の降順で取得
 $sql = "SELECT id, name, is_completed, creation_date FROM todoitems ORDER BY creation_date DESC";
 $result = $conn->query($sql);
 ?>
@@ -324,7 +332,7 @@ $result = $conn->query($sql);
           <?php
           // 結果があるかチェック
           if ($result->num_rows > 0) {
-              // 各エントリーをループ処理
+              // 取得した各項目をループ処理
               foreach ($result as $entry) {
                   echo "<li>";
                   // XSS対策でhtmlspecialcharsを使い名前を表示
@@ -351,27 +359,25 @@ $result = $conn->query($sql);
 </html>
 
 <?php
-// 接続を閉じる
+// 接続終了
 $conn->close();
 ?>
 ```
 
-貼り付けたら `CTRL + X`、`Y`、`ENTER` で保存してnanoを終了します。
+保存してnanoを終了します（`CTRL + X`、`Y`、`ENTER`）。
 
 #### ウェブサイトの動作確認
 
 これでLEMPスタックを使ったテスト用To-Doウェブサイトが完成しました！
 
-先ほど設定したドメイン（HTTP/ポート80）でアクセスしてみましょう。例では `zapdocs.example.com` です。以下のような画面が表示されるはずです。
+ブラウザで先ほど設定したドメイン（例：`zapdocs.example.com`）にアクセスし、HTTP（ポート80）で表示されることを確認してください。以下のような画面が表示されるはずです。
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/NgK2n8xN3wZPLeP/preview)
 
 ## まとめ
 
-おめでとうございます！LEMPスタックのインストールとセットアップが無事完了しました！次のステップとして、ドメインと**SSL証明書**の設定を強くおすすめします。これによりウェブサイトへの通信が安全に暗号化されます。
+おめでとうございます！LEMPスタックのインストールとセットアップが無事完了しました！
 
-当社の[Certbotガイド](vserver-linux-certbot.md)の**Nginxプラグイン**部分を参考に、対話形式で簡単に証明書を取得・設定できます。
+次のステップとして、ドメインと**SSL証明書**の設定を強くおすすめします。これによりウェブサイトへの通信が安全に暗号化されます。Nginxプラグインを使った証明書の簡単セットアップは[Certbotガイド](vserver-linux-certbot.md)を参照してください。
 
-質問やサポートが必要な場合は、いつでもお気軽に当社のサポートチームにお問い合わせください！毎日対応していますよ！🙂
-
-<InlineVoucher />
+質問やサポートが必要な場合は、いつでもお気軽にサポートチームへお問い合わせくださいね！🙂

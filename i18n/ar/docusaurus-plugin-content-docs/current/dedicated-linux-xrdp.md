@@ -11,14 +11,12 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## مقدمة
 
-على لينوكس، عادةً ما يكون هناك وحدة تحكم SSH افتراضية لإدارة السيرفر. في بعض الحالات قد يكون من الأسهل استخدام اتصال سطح مكتب بعيد، مشابه لويندوز.  
-يمكن إجراء تثبيت بعدي لمعظم توزيعات لينوكس. في هذا الدليل نشرح ذلك لأوبونتو وديبيان.
+على لينكس، عادةً ما يكون هناك وحدة تحكم SSH افتراضية لإدارة السيرفر. في بعض الحالات قد يكون من الأسهل استخدام اتصال سطح مكتب بعيد، مشابه لويندوز.  
+يمكن إجراء تثبيت بعدي لمعظم توزيعات لينكس. في هذا الدليل يتم شرح ذلك لأوبونتو وديبيان.
 
 :::info
 مهم: يجب استخدام أوبونتو 18.04.X LTS (Bionic Beaver) أو ديبيان 10 (Buster) على الأقل كنظام تشغيل. يُفضل استخدام الإصدارات الأحدث.
 :::
-
-<InlineVoucher />
 
 ## تثبيت xRDP
 
@@ -59,7 +57,7 @@ sudo systemctl status xrdp
 ```
 ![xrdp](https://screensaver01.zap-hosting.com/index.php/s/wdKep3W6GHWekp3/preview)
 
-إذا كانت الحالة جيدة، يجب إنشاء مستخدم. ثم إعادة تشغيل خدمة xRDP: 
+إذا كانت الحالة جيدة، يجب إنشاء مستخدم. ثم يجب إعادة تشغيل خدمة xRDP: 
 ```
 // ديبيان
 sudo adduser xrdp ssl-cert; sudo systemctl restart xrdp
@@ -79,7 +77,7 @@ sudo adduser xrdp ssl-cert; sudo systemctl restart xrdp
 ![xrdp2](https://screensaver01.zap-hosting.com/index.php/s/btRPMG73cT6ysyL/preview)
 
 بعد تسجيل الدخول بنجاح سترى سطح المكتب.  
-مع أوبونتو الشكل مختلف قليلاً عن ديبيان:
+مع أوبونتو يبدو مختلفًا قليلاً عن ديبيان:
 
 أوبونتو: 
 
@@ -88,5 +86,3 @@ sudo adduser xrdp ssl-cert; sudo systemctl restart xrdp
 ديبيان: 
 
 ![xrdp4](https://screensaver01.zap-hosting.com/index.php/s/riHNCEEyKcoLHDy/preview)
-
-<InlineVoucher />

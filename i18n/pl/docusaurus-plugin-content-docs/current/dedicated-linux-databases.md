@@ -1,7 +1,7 @@
 ---
 id: dedicated-linux-databases
 title: "Serwer dedykowany: Instalacja baz danych"
-description: "Sprawdź, jak zainstalować i skonfigurować różne bazy danych na Ubuntu i innych dystrybucjach Linux, aby zwiększyć wydajność i bezpieczeństwo → Dowiedz się więcej już teraz"
+description: "Sprawdź, jak zainstalować i skonfigurować różne bazy danych na Ubuntu i innych dystrybucjach Linux dla lepszej wydajności i bezpieczeństwa → Dowiedz się więcej"
 sidebar_label: Instalacja baz danych
 services:
   - dedicated
@@ -11,13 +11,11 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Wprowadzenie
 
-Ten poradnik przedstawia kroki instalacji różnych typów baz danych. W przykładzie używany jest system operacyjny Ubuntu 20.04, jednak podane są też odpowiedniki poleceń dla innych dystrybucji Linux, które oferujemy na naszej stronie. Polecenia te należy wykonać przez SSH. Jeśli nie wiesz, jak połączyć się z serwerem przez SSH, zerknij tutaj: [Pierwszy dostęp (SSH)](vserver-linux-ssh.md).
-
-<InlineVoucher />
+Ten poradnik przedstawia kroki instalacji różnych typów baz danych. W przykładzie używany jest system operacyjny Ubuntu 20.04, jednak podane są też odpowiedniki poleceń dla innych dystrybucji Linux, które oferujemy na naszej stronie. Polecenia te należy wykonać przez SSH, jeśli nie wiesz, jak połączyć się z serwerem przez SSH, zerknij tutaj: [Pierwszy dostęp (SSH)](vserver-linux-ssh.md).
 
 ## Przygotowanie
 
-Zanim zaczniesz instalację bazy danych, najpierw upewnij się, że system jest aktualny. Aby to zrobić, zaktualizuj pakiety za pomocą menedżera pakietów systemu, używając odpowiedniego polecenia dla Twojego systemu operacyjnego:
+Zanim zaczniesz instalację bazy danych, najpierw upewnij się, że system jest aktualny. Aby to zrobić, zaktualizuj pakiety za pomocą menedżera pakietów systemu, używając poniższego polecenia odpowiedniego dla Twojego systemu operacyjnego:
 
 ```
 // Ubuntu & Debian
@@ -45,23 +43,23 @@ import TabItem from '@theme/TabItem';
 
 ## Co to jest MariaDB?
 
-MariaDB to otwartoźródłowy system zarządzania relacyjnymi bazami danych, wywodzący się z MySQL. Zapewnia lepszą wydajność, bezpieczeństwo i ciągły rozwój. MariaDB oferuje ulepszone silniki przechowywania danych, a jej architektura jest w pełni kompatybilna z MySQL. Polecamy MariaDB zamiast MySQL.
+MariaDB to open-source’owy system zarządzania relacyjną bazą danych, wywodzący się z MySQL. Zapewnia lepszą wydajność, bezpieczeństwo i ciągły rozwój. MariaDB oferuje ulepszone silniki przechowywania danych, a jej architektura jest w pełni kompatybilna z MySQL. Polecamy MariaDB zamiast MySQL.
 
 ## Instalacja MariaDB
 
-Na początek upewnij się, że instalujesz najnowszą wersję MariaDB. Niektóre starsze systemy, jak Debian 9 czy Ubuntu 18.04, nie mają domyślnie najnowszej wersji MariaDB w menedżerze pakietów, dlatego wykonując poniższe polecenie, zapewniasz pobranie najnowszej wersji.
+Na początek upewnij się, że instalujesz najnowszą wersję MariaDB. Niektóre starsze systemy operacyjne, jak Debian 9 czy Ubuntu 18.04, nie mają domyślnie najnowszej wersji MariaDB w menedżerze pakietów, dlatego wykonując poniższe polecenie, zapewniasz pobranie najnowszej wersji.
 
 ```
 curl -sS https://downloads.mariadb.com/MariaDB/mariadb_repo_setup | sudo bash
 ```
 
-Po dodaniu repozytorium zaktualizuj cache menedżera pakietów, wykonując kroki opisane w sekcji przygotowanie.
+Po dodaniu repozytorium zaktualizuj cache menedżera pakietów, wykonując kroki opisane w sekcji przygotowania.
 
 :::info
-Instalację repozytorium MariaDB (powyższy krok) można pominąć w nowoczesnych systemach, takich jak Ubuntu 22.04 czy Debian 11.
+Instalację repozytorium MariaDB (powyższy krok) można bezpiecznie pominąć na nowoczesnych systemach, takich jak Ubuntu 22.04 czy Debian 11.
 :::
 
-Po skonfigurowaniu repozytorium możesz rozpocząć instalację MariaDB, instalując pakiet `mariadb-server`. Wykonaj odpowiednie polecenie dla swojego systemu:
+Po skonfigurowaniu repozytorium możesz rozpocząć instalację MariaDB, instalując pakiet `mariadb-server`. W zależności od systemu operacyjnego wykonaj jedno z poniższych poleceń:
 
 ```
 // Ubuntu & Debian
@@ -85,7 +83,7 @@ Po zakończeniu instalacji wpisz poniższe polecenie, aby rozpocząć konfigurac
 mysql_secure_installation
 ```
 
-Teraz możesz skonfigurować swój serwer MariaDB (MySQL), postępując zgodnie z instrukcjami i ustawiając hasło dla serwera. Przy następnym pytaniu możesz na razie pominąć wpis, naciskając **Enter**.
+Teraz możesz skonfigurować swój serwer MariaDB (MySQL), postępując zgodnie z instrukcjami i ustawiając hasło dla serwera. Przy następnym pytaniu możesz pominąć wpis, naciskając **Enter**.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/sYDegXcMZwCoZzJ/preview)
 
@@ -96,10 +94,10 @@ Użytkownik root to główny użytkownik Twojego serwera MariaDB (MySQL)!
 Następnie zostaniesz zapytany, czy chcesz ustawić hasło dla użytkownika root — potwierdź to wpisując **y** (tak). Potem wpisz nowe hasło dla użytkownika root.
 
 :::note
-Podczas wpisywania hasła nie będzie ono widoczne na ekranie. To normalne zachowanie, a hasło zostanie zapisane. Użyj silnego hasła dla użytkownika root i przechowuj je w bezpiecznym miejscu.
+Podczas wpisywania hasła nie będzie ono widoczne. To normalne zachowanie, a hasło zostanie zapisane. Użyj silnego hasła dla użytkownika root i przechowuj je w bezpiecznym miejscu.
 :::
 
-Teraz zostaniesz zapytany, czy chcesz usunąć anonimowych użytkowników z serwera — zdecydowanie zalecamy to zrobić ze względów bezpieczeństwa. Potwierdź wpisując **y**:
+Następnie zostaniesz zapytany, czy chcesz usunąć anonimowych użytkowników z serwera — dla bezpieczeństwa zdecydowanie zalecamy to zrobić. Potwierdź to wpisując **y**:
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/9rnHy9dJmezjemq/preview)
 
@@ -107,11 +105,11 @@ W kolejnym kroku zdecyduj, czy użytkownik root może łączyć się z serwerem 
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/cEozmgcXDBgaRwY/preview)
 
-Następnie możesz potwierdzić usunięcie testowej bazy danych dostarczanej przez MariaDB (MySQL) — nie jest potrzebna i można ją bezpiecznie usunąć, potwierdź **y**:
+Następnie możesz potwierdzić usunięcie testowej bazy danych dostarczonej przez MariaDB (MySQL) wpisując **y**, ponieważ nie jest potrzebna i można ją bezpiecznie usunąć:
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/kGHT3tm78dNBTRo/preview)
 
-Na koniec konfiguracji zostaniesz zapytany, czy chcesz zaktualizować uprawnienia bazy danych. Potwierdź **y**, aby aktywować ustawione hasło dla użytkownika root:
+Na koniec konfiguracji zostaniesz zapytany, czy chcesz zaktualizować uprawnienia bazy danych. Potwierdź to wpisując **y**, aby aktywować wcześniej ustawione hasło dla użytkownika root:
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/kGNDZkRS4QrpEfF/preview)
 
@@ -124,11 +122,11 @@ Twój serwer MariaDB (MySQL) jest teraz gotowy do użycia!
 
 ## Co to jest Redis?
 
-Redis to magazyn struktur danych działający w pamięci RAM, głównie używany do przechowywania danych w strukturze klucz-wartość, choć obsługuje też inne formaty, takie jak listy, JSON i więcej. Charakteryzuje się ogromną szybkością, odpowiadając na zapytania w milisekundach.
+Redis to magazyn struktur danych w pamięci, głównie używany do przechowywania danych w strukturze klucz-wartość, choć obsługuje też inne formaty, takie jak listy, JSON i więcej. Charakteryzuje się dużą szybkością, odpowiadając na zapytania w milisekundach.
 
 ## Instalacja Redis
 
-Na początek musisz dodać repozytorium, które pozwoli zainstalować Redis. Ten krok nie jest konieczny dla wszystkich dystrybucji Linux, tylko dla wymienionych poniżej. Wykonaj polecenie odpowiadające Twojemu systemowi i wersji:
+Na początek musisz dodać repozytorium, które pozwoli nam zainstalować Redis. Ten krok nie jest konieczny dla wszystkich dystrybucji Linux, tylko dla wymienionych poniżej. Wykonaj polecenie odpowiadające Twojemu systemowi operacyjnemu i wersji:
 
 ```
 // Ubuntu (dowolna wersja) i Debian (tylko Debian 10)
@@ -142,13 +140,13 @@ sudo yum install epel-release
 sudo dnf install https://dl.fedoraproject.org/pub/epel/epel-release-latest-8.noarch.rpm
 ```
 
-Po dodaniu repozytorium zaktualizuj cache menedżera pakietów, wykonując kroki opisane w sekcji przygotowanie.
+Po dodaniu repozytorium zaktualizuj cache menedżera pakietów, wykonując kroki z sekcji przygotowania.
 
 :::info
 Jeśli Twój system operacyjny nie jest wymieniony powyżej, możesz pominąć ten krok.
 :::
 
-Po dodaniu odpowiedniego repozytorium przejdź do instalacji pakietu Redis Server. Uruchom polecenie odpowiednie dla Twojego systemu:
+Po dodaniu odpowiedniego repozytorium przejdź do instalacji pakietu Redis Server. Uruchom polecenie odpowiadające Twojemu systemowi operacyjnemu:
 
 ```
 // Ubuntu i Debian
@@ -164,11 +162,11 @@ sudo zypper install redis
 sudo dnf install redis
 ```
 
-Po instalacji Twój serwer Redis jest gotowy do działania! Domyślnie działa na 127.0.0.1:6379 bez hasła.
+Po instalacji Twój serwer Redis jest gotowy do użycia! Domyślnie działa na 127.0.0.1:6379 bez hasła.
 
 :::caution 
 Dla użytkowników Debian/Ubuntu:
-Pamiętaj, aby po instalacji włączyć usługę `redis-server`, aby automatycznie startowała przy uruchomieniu serwera. Zrób to poleceniem:
+Pamiętaj, aby po instalacji włączyć usługę `redis-server`, aby automatycznie startowała przy uruchomieniu serwera. Możesz to zrobić poleceniem:
 ```
 sudo systemctl enable --now redis-server
 ```
@@ -179,7 +177,7 @@ sudo systemctl enable --now redis-server
 <TabItem value="mongodb" label="MongoDB">
 
 ## Co to jest MongoDB?
-MongoDB to dokumentowa baza danych NoSQL, zaprojektowana z myślą o skalowalności i elastyczności dla programistów. Przechowuje dane w formacie BSON, podobnym do JSON, co pozwala na przechowywanie różnorodnych typów danych. Umożliwia korzystanie z indeksów, które skracają czas odpowiedzi, i charakteryzuje się brakiem sztywnego schematu, jak w MySQL czy SQLite, co daje dużą swobodę i szybkość działania.
+MongoDB to dokumentowa baza danych NoSQL, zaprojektowana pod kątem skalowalności i szybkości pracy deweloperów. Przechowuje dane w formacie BSON, podobnym do JSON, co pozwala na przechowywanie różnorodnych typów danych. Umożliwia korzystanie z indeksów dla szybszych odpowiedzi i charakteryzuje się brakiem sztywnego schematu, jak w MySQL czy SQLite, co daje dużą elastyczność.
 
 ## Instalacja MongoDB
 
@@ -198,7 +196,7 @@ curl -fsSL https://pgp.mongodb.com/server-6.0.asc | \
    --dearmor
 ```
 
-Następnie dodaj źródło MongoDB do listy repozytoriów systemu, wykonując:
+Następnie dodaj źródło MongoDB do listy źródeł swojego systemu, wykonując:
 
 ```
 echo "deb [ arch=amd64,arm64 signed-by=/usr/share/keyrings/mongodb-server-6.0.gpg ] https://repo.mongodb.org/apt/$(lsb_release -si | awk '{print tolower($0)}') $(lsb_release -sc)/mongodb-org/6.0 main" | sudo tee /etc/apt/sources.list.d/mongodb-org-6.0.list
@@ -230,7 +228,7 @@ enabled=1
 gpgkey=https://www.mongodb.org/static/pgp/server-6.0.asc
 ```
 
-Teraz możesz zainstalować MongoDB. Polecenie instalacji różni się nieco między CentOS a Fedora, więc użyj odpowiedniego:
+Teraz możesz zainstalować MongoDB. Polecenie instalacji różni się nieco między CentOS a Fedora, więc użyj odpowiedniego poniżej:
 
 ```
 // CentOS
@@ -272,5 +270,3 @@ Twoja instalacja MongoDB powinna działać!
 
 </TabItem>
 </Tabs>
-
-<InlineVoucher />

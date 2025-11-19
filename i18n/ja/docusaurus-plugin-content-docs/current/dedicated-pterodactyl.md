@@ -1,7 +1,7 @@
 ---
 id: dedicated-pterodactyl
 title: "専用サーバー：Pterodactylのインストール"
-description: "自分だけのPterodactylゲームサーバーパネルを効率的にセットアップ＆管理する方法をチェック → 今すぐ詳しく"
+description: "Pterodactylゲームサーバーパネルの効率的なセットアップと管理方法を発見 → 今すぐ詳しく学ぼう"
 sidebar_label: Pterodactylのインストール
 services:
   - dedicated
@@ -11,11 +11,11 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## はじめに
 
-Pterodactylパネルは、ゲームサーバーを簡単に管理・ホスティングできるオープンソースのコントロールパネルです。管理者が複数のゲームサーバーを一元的に設定・管理できるユーザーインターフェースを提供します。
+Pterodactylパネルは、ゲームサーバーの管理とホスティングを簡単に行うためのオープンソースのコントロールパネルです。管理者が複数のゲームサーバーを一元的に設定・管理できるユーザーインターフェースを提供します。
 
-このガイドでは、専用サーバーに自分のPterodactylインスタンスをセットアップするための手順を紹介します。
+このガイドでは、専用サーバー上に自分のPterodactylインスタンスをセットアップするための手順を解説します。
 
-<InlineVoucher />
+
 
 ## 準備
 
@@ -33,9 +33,9 @@ Pterodactylを正常にインストール・実行するには、いくつかの
 
 ### 依存関係リスト
 
-このガイドで必要な依存関係のリストです。次のセクションでインストール方法を解説します。
+このガイドで必要な依存関係の概要は以下の通りです。次のセクションでインストール方法を説明します。
 
-- PHP 8.1（拡張機能：cli, openssl, gd, mysql, PDO, mbstring, tokenizer, bcmath, xmlまたはdom, curl, zip, fpm）
+- PHP 8.1 と以下の拡張機能：cli, openssl, gd, mysql, PDO, mbstring, tokenizer, bcmath, xmlまたはdom, curl, zip, fpm
 - MariaDB
 - Webサーバー - 本ガイドではNginxを使用します。
 - curl
@@ -46,7 +46,7 @@ Pterodactylを正常にインストール・実行するには、いくつかの
 
 ### 依存関係のインストール
 
-まず、OSにデフォルトでないパッケージを追加できるように、以下のコマンドを実行します。
+まず、OSにデフォルトで含まれていないパッケージを追加できるように、以下のコマンドを実行してください。
 
 ```bash
 apt -y install software-properties-common curl apt-transport-https ca-certificates gnupg
@@ -65,16 +65,16 @@ curl -fsSL https://packages.redis.io/gpg | sudo gpg --dearmor -o /usr/share/keyr
 echo "deb [signed-by=/usr/share/keyrings/redis-archive-keyring.gpg] https://packages.redis.io/deb $(lsb_release -cs) main" | sudo tee /etc/apt/sources.list.d/redis.list
 ```
 
-Webサーバーには信頼性が高くオープンソースのNginxを選びました。ApacheやCaddyなど他のWebサーバーも使えますが、本ガイドには適していません。
+Webサーバーには信頼性が高くオープンソースのNginxを使用します。ApacheやCaddyなど他のWebサーバーも使えますが、本ガイドとは少し異なります。
 
 ```bash
-sudo apt install nginx # Nginxのインストール
+sudo apt install nginx # Nginxのダウンロードとインストール
 sudo ufw allow 'Nginx Full' # ファイアウォールの調整
 ```
 
-`http://[your_serverip]/` にアクセスして、Nginxが正常に動作しているか確認しましょう。デフォルトのウェルカムページが表示されるはずです。
+`http://[your_serverip]/` にアクセスし、Nginxが正常に動作しているか確認してください。デフォルトのウェルカムページが表示されるはずです。
 
-続いて、MySQLデータベースとして使うMariaDBをインストールします。
+続いて、MySQLデータベースとして使用するMariaDBをインストールします。
 
 ```bash
 curl -sS https://downloads.mariadb.com/MariaDB/mariadb_repo_setup | sudo bash
@@ -87,7 +87,7 @@ apt update
 apt -y install php8.1 php8.1-{common,cli,gd,mysql,mbstring,bcmath,xml,fpm,curl,zip} mariadb-server nginx tar unzip git redis-server
 ```
 
-これで必要な依存関係がすべてインストールされました。次はComposerのインストールに進みましょう。
+これで必要な依存関係がすべてインストールされました。次はComposerのインストールに進みます。
 
 ### Composerのインストール
 
@@ -101,7 +101,7 @@ curl -sS https://getcomposer.org/installer | sudo php -- --install-dir=/usr/loca
 
 ## パネルのダウンロード
 
-すべての準備が整ったので、Pterodactylパネルをインストールします。
+すべての前提条件が整ったので、Pterodactylパネルをインストールします。
 
 まず、パネルを保存するフォルダを作成します。
 
@@ -110,7 +110,7 @@ mkdir /var/www/pterodactyl
 cd /var/www/pterodactyl
 ```
 
-次に、公式Pterodactyl GitHubリポジトリから必要なファイルをクローンします。
+次に、公式のPterodactyl GitHubリポジトリから必要なファイルをクローンします。
 
 ```bash
 curl -Lo panel.tar.gz https://github.com/pterodactyl/panel/releases/latest/download/panel.tar.gz
@@ -122,11 +122,11 @@ chmod -R 755 storage/* bootstrap/cache/
 
 ## インストール
 
-インストールの最初のステップは、Pterodactylパネルのデータを保存するMySQLデータベースのセットアップです。すでに適切なユーザーを持つMySQLデータベースがある場合は、次のサブセクションをスキップして進めてください。
+インストールの最初のステップは、Pterodactylパネルのデータを保存するMySQLデータベースのセットアップです。すでに適切なユーザーが設定されたMySQLデータベースがある場合は、次のサブセクションをスキップして構いません。
 
 ### データベースのセットアップ
 
-MySQLにログインします。新規インスタンスの場合は以下のコマンドでログイン可能です。
+MySQLデータベースにログインします。新規のMySQLインスタンスなら、以下のコマンドでログイン可能です。
 
 ```
 mysql -u root -p
@@ -140,7 +140,7 @@ mysql -u root -p
 CREATE USER 'pterodactyl'@'127.0.0.1' IDENTIFIED BY '[your_password]';
 ```
 
-ユーザーができたら、Pterodactyl用のデータベースを作成し、新ユーザーに権限を付与します。
+ユーザーが作成できたら、Pterodactyl用のデータベースを作成し、新ユーザーに権限を付与します。
 
 ```sql
 CREATE DATABASE panel;
@@ -171,7 +171,7 @@ php artisan key:generate --force
 
 ### 環境設定
 
-Pterodactylインスタンスの設定を行います。以下のコマンドを実行すると、セッション、メール、キャッシュなど幅広い設定を対話形式で行えます。
+Pterodactylインスタンスのセットアップを開始します。以下のコマンドを順に実行すると、セッション、メール、キャッシュなど幅広い設定を対話形式で行えます。
 
 ```bash
 php artisan p:environment:setup # 最初のコマンド
@@ -180,10 +180,10 @@ php artisan p:environment:database # 次のコマンド
 
 ### データベースのセットアップ
 
-パネル稼働に必要な基本データをセットアップします。先ほど作成したデータベースを使います。
+パネルの動作に必要な基本データをデータベースにセットアップします。先ほど作成したデータベースを使用します。
 
 :::info
-処理には数分かかる場合があります。途中で終了しないように注意してください。気長にお待ちください :)
+処理には数分かかる場合があります。途中で中断すると不具合の原因になるので、完了まで気長にお待ちください :)
 :::
 
 ```bash
@@ -192,7 +192,7 @@ php artisan migrate --seed --force
 
 ### 管理者ユーザーの作成
 
-データベース準備ができたら、最初の管理者ユーザーを作成してパネルにログインできるようにします。
+データベースの準備ができたら、Pterodactylパネルにログインするための最初の管理者ユーザーを作成します。
 
 ```bash
 php artisan p:user:make
@@ -200,13 +200,15 @@ php artisan p:user:make
 
 ### パーミッションの設定
 
-パネルのファイルに対して、常に読み書き可能なように適切なパーミッションを設定します。
+パネルのファイルに対して、常に読み書きが問題なく行えるようにパーミッションを設定します。
+
+以下のコマンドを実行してください。
 
 ```bash
 chown -R www-data:www-data /var/www/pterodactyl/*
 ```
 
-これで、以下のURLにアクセスすればPterodactylパネルに入れます。`your_ipaddress`はサーバーのIPに置き換えてください。
+これで、以下のURLにアクセスすればPterodactylパネルに入れます。`your_ipaddress`はサーバーのIPアドレスに置き換えてください。
 
 ```
 http://[your_ipaddress]/
@@ -214,7 +216,7 @@ http://[your_ipaddress]/
 
 ### キュー・ワーカーの設定
 
-最後に、定期的に動作するcronジョブと、バックグラウンドで多くのタスクを処理するキュー・ワーカーを設定します。
+インストールの最後のステップは、定期的に実行されるcronジョブと、バックグラウンドで多くのタスクを処理するキュー・ワーカーの設定です。
 
 まず、`sudo crontab -e`でcrontabを開き、以下の行を追加して毎分Pterodactylのスケジュールを実行します。
 
@@ -222,7 +224,7 @@ http://[your_ipaddress]/
 * * * * * php /var/www/pterodactyl/artisan schedule:run >> /dev/null 2>&1
 ```
 
-次に、`systemd`を使ってキュー・ワーカーを常駐させます。
+次に、`systemd`を使ってキュー・ワーカーを作成し、バックグラウンドで常に動作させます。
 
 以下のコマンドでnanoエディタを開きます。
 
@@ -242,7 +244,7 @@ After=redis-server.service
 
 [Service]
 # 一部のシステムではユーザーやグループ名が異なる場合があります。
-# apacheやnginxユーザーを使う場合もあります。
+# apacheやnginxを使っている場合もあります。
 User=www-data
 Group=www-data
 Restart=always
@@ -256,19 +258,19 @@ WantedBy=multi-user.target
 ```
 
 :::note
-CentOSを使っている場合は、`redis-server.service`を`redis.service`に置き換えてください。
+CentOSを使っている場合は、上記ファイル内の `redis-server.service` を `redis.service` に置き換えてください。
 :::
 
-保存は `CTRL + X`、続いて `Y` を押して確定します。
+編集が終わったら、`CTRL + X`、`Y`で保存してnanoを閉じます。
 
-最後に、redisサービスと作成したサービスを起動時に有効化します。
+最後に、Redisサービスと作成したサービスを起動時に有効化します。
 
 ```
 sudo systemctl enable --now redis-server
 sudo systemctl enable --now pteroq.service
 ```
 
-これでサーバーにPterodactylのインストールが完了しました。以下のURLでパネルにアクセスできます。`[your_serverip]`は自分のサーバーIPに置き換えてください。
+これでサーバーにPterodactylが正常にインストールされました。以下のURLでパネルにアクセスできます。`[your_serverip]`はサーバーのIPアドレスに置き換えてください。
 
 ```
 http://[your_serverip]
@@ -276,25 +278,25 @@ http://[your_serverip]
 
 ## オプション：Webサーバーの設定
 
-追加機能として、Webサーバーの設定を行うこともできます。本ガイドではNginxを使っているので、その設定方法を紹介します。
+追加機能として、Webサーバーの設定を行うこともできます。本ガイドではNginxを使用しているため、ここではNginxの設定方法を解説します。
 
-Webサーバーを設定するメリットは、パネルを自分のドメインで運用できたり、SSL証明書を設定して安全にアクセスできるようになることです。
+Webサーバーをさらに設定するメリットは、パネルを独自のドメインで運用できることや、SSL証明書を設定して安全にアクセスできることです。
 
 ### ドメインのDNSレコード設定
 
-サーバーをドメインでアクセス可能にするには、そのドメインに対して`A`タイプのDNSレコードを設定する必要があります。これは利用しているドメイン管理サービスの「DNSパネル」などから設定可能です。レコードの内容は、あなたのサーバーのIPアドレスを指定してください。
+サーバーをドメインでアクセス可能にするには、そのドメインに対して`A`レコードを設定する必要があります。設定方法はドメインの管理会社によって異なりますが、多くの場合「DNSパネル」などの管理画面から設定可能です。レコードの内容は、利用しているサーバーのIPアドレスを指定してください。
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/EsGB6DaTC65Fce8/preview)
 
 ### デフォルト設定の削除
 
-まずはNginxのデフォルト設定を削除します。
+まずはNginxのデフォルト設定を削除します。以下のコマンドでファイルを削除してください。
 
 ```bash
 rm /etc/nginx/sites-enabled/default
 ```
 
-ここからは、SSLを使うかどうかで設定内容が少し変わるので、どちらかを選んでください。
+ここからは、パネル用の新しい設定ファイルを作成します。SSLを使うかどうかで設定内容や手順が少し変わるので、どちらかを選択してください。
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
@@ -306,7 +308,7 @@ import TabItem from '@theme/TabItem';
 
 SSL証明書を自動管理・更新するために、オープンソースのCertbotを使います。
 
-まずはCertbotとNginx用のpython3パッケージをインストールします。
+まずはCertbotをサーバーにインストールします。Nginx用にpython3-certbot-nginxも必要です。
 
 ```bash
 sudo apt update
@@ -316,15 +318,15 @@ sudo apt install -y python3-certbot-nginx
 
 次に、証明書発行のための検証を行います。ここではHTTPチャレンジより安全なDNSチャレンジを使います。
 
-使いたいドメインに対して`TXT`タイプのDNSレコードを作成してください。これもドメイン管理サービスのDNSパネルから設定します。
+使用したいドメインに対して`TXT`レコードを作成してください。設定方法はドメイン管理会社によって異なりますが、DNSパネルなどから設定可能です。
 
-以下のコマンドを実行すると、DNSレコードに設定すべき値が表示されます。`[your_domain]`は使いたいドメインに置き換えてください。
+以下のコマンドを実行すると、`TXT`レコードに設定すべき内容が表示されます。`[your_domain]`は使用したいドメインに置き換えてください。
 
 ```bash
 certbot -d [your_domain] --manual --preferred-challenges dns certonly
 ```
 
-DNSレコードを設定したら、証明書の自動更新用にcronジョブを設定します。`sudo crontab -e`でcrontabを開き、以下の行を追加してください。毎日23時に証明書を更新し、更新後にNginxを再起動します。
+DNSレコードを設定したら、証明書の自動更新をcronジョブで設定します。`sudo crontab -e`でcrontabを開き、以下の行を追加してください。これで毎日23時に証明書が更新され、更新後にNginxが再起動されます。
 
 ```bash
 0 23 * * * certbot renew --quiet --deploy-hook "systemctl restart nginx"
@@ -332,7 +334,7 @@ DNSレコードを設定したら、証明書の自動更新用にcronジョブ�
 
 #### 設定ファイルの作成
 
-SSL証明書が準備できたら、Nginxの設定ファイルを作成します。
+SSL証明書が準備できたら、設定ファイルを作成します。
 
 以下のコマンドでnanoエディタを開きます。
 
@@ -340,10 +342,10 @@ SSL証明書が準備できたら、Nginxの設定ファイルを作成します
 nano /etc/nginx/sites-enabled/pterodactyl.conf
 ```
 
-以下の内容をコピーして貼り付けてください。`[your_domain]`は先ほどDNS設定したドメインに置き換えます。
+以下の内容をコピー＆ペーストしてください。`[your_domain]`は先ほどDNSレコードを設定したドメインに置き換えてください。
 
 :::warning
-SSL証明書が設定されていないと、Webサーバーが正常に起動しません。必ず証明書を用意してください。
+SSL証明書を設定していないと、Webサーバーが正常に起動しません。必ず証明書を用意してください。
 :::
 
 ```
@@ -422,10 +424,10 @@ server {
 nano /etc/nginx/sites-enabled/pterodactyl.conf
 ```
 
-以下の内容をコピーして貼り付けてください。`[your_domain]`はDNSレコードを設定したドメインに置き換えます。
+以下の内容をコピー＆ペーストしてください。`[your_domain]`はサーバーのIPアドレスを指すDNSレコードを設定したドメインに置き換えてください。
 
 :::warning
-SSL証明書が設定されていないと、Webサーバーが正常に起動しません。必ず証明書を用意してください。
+SSL証明書を設定していないと、Webサーバーが正常に起動しません。必ず証明書を用意してください。
 :::
 
 ```
@@ -483,11 +485,9 @@ server {
 ```bash
 sudo ln -s /etc/nginx/sites-available/pterodactyl.conf /etc/nginx/sites-enabled/pterodactyl.conf # CentOSでは不要
 
-sudo systemctl restart nginx # Nginxの再起動
+sudo systemctl restart nginx # Nginxを再起動
 ```
 
 これで設定は完了です。設定したドメインでPterodactylパネルにアクセスできるはずです。
 
-ドメインでのアクセスとSSL証明書の設定が無事に完了しました。
-
-<InlineVoucher />
+独自ドメインの利用とSSL証明書の設定によって、より安全で便利にパネルを運用できます。

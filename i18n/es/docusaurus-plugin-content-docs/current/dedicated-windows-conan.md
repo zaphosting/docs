@@ -13,11 +13,9 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ¿Tienes un Servidor Dedicado Windows y quieres instalar el servicio del servidor dedicado de Conan Exiles en él? Estás en el lugar correcto. En esta guía, te explicaremos paso a paso cómo instalar este servicio en tu servidor.
 
-<InlineVoucher />
-
 ## Preparación
 
-Para empezar, conéctate a tu Servidor Dedicado mediante Escritorio Remoto (RDP). Usa nuestra [Guía de Acceso Inicial (RDP)](vserver-windows-userdp.md) si necesitas ayuda para hacerlo.
+Para empezar, conéctate a tu Servidor Dedicado mediante Escritorio Remoto (RDP). Usa nuestra guía de [Acceso Inicial (RDP)](vserver-windows-userdp.md) si necesitas ayuda para hacerlo.
 
 :::note Herramienta de Lanzamiento del Servidor
 Como alternativa a usar SteamCMD, los desarrolladores de Conan Exiles mantienen una útil herramienta de lanzamiento de servidor que puede usarse en Windows para facilitar el arranque del servidor.
@@ -25,9 +23,9 @@ Como alternativa a usar SteamCMD, los desarrolladores de Conan Exiles mantienen 
 Te recomendamos leer el [Post Oficial en el Foro](https://forums.funcom.com/t/conan-exiles-dedicated-server-launcher-official-version-1-7-9-beta/21699) si prefieres usar esta opción.
 :::
 
-Una vez que hayas accedido a tu servidor, necesitarás configurar **SteamCMD** para poder descargar los archivos necesarios del servidor dedicado. SteamCMD es la versión **de línea de comandos (CLI)** del cliente Steam y es la herramienta que te permite descargar fácilmente una variedad de archivos de Steam Workshop y servidores dedicados. Descarga [SteamCMD desde la web oficial de Valve](https://developer.valvesoftware.com/wiki/SteamCMD) o directamente [aquí](https://steamcdn-a.akamaihd.net/client/installer/steamcmd.zip).
+Una vez que hayas accedido a tu servidor, necesitarás configurar **SteamCMD** para poder descargar los archivos necesarios del servidor dedicado. SteamCMD es la versión **línea de comandos (CLI)** del cliente Steam y es la herramienta que te permite descargar fácilmente una variedad de archivos de servidores dedicados y del taller de Steam. Descarga [SteamCMD desde la web oficial de Valve](https://developer.valvesoftware.com/wiki/SteamCMD) o directamente [aquí](https://steamcdn-a.akamaihd.net/client/installer/steamcmd.zip).
 
-Crea una carpeta nueva en algún lugar de tu servidor, en este caso la llamaremos `steamcmd`. Ve a tu carpeta de Descargas, encuentra el archivo **steamcmd.zip** que acabas de descargar y colócalo dentro de la carpeta `steamcmd`. Ahora descomprime el archivo haciendo clic derecho y usando la función de descompresión de Windows directamente, o con cualquier aplicación como .7zip o Winrar. Esto debería generar un archivo **steamcmd.exe** descomprimido.
+Crea una nueva carpeta en algún lugar de tu servidor, en este caso la llamaremos `steamcmd`. Ve a tu carpeta de Descargas, encuentra el archivo **steamcmd.zip** que acabas de descargar y colócalo dentro de la carpeta `steamcmd`. Ahora descomprime el archivo haciendo clic derecho y usando la función de descompresión de Windows, o cualquier aplicación como .7zip o Winrar. Esto debería generar un archivo **steamcmd.exe** descomprimido.
 
 Simplemente ejecuta **steamcmd.exe** y espera hasta que el proceso de instalación se complete por completo.
 
@@ -37,7 +35,7 @@ En cuanto aparezca el mensaje **Loading Steam API.... OK**, el proceso se ha com
 
 ## Instalación
 
-Después de la instalación, deberías poder ejecutar comandos dentro del símbolo del sistema de **steamcmd.exe** que abriste antes. Necesitas iniciar sesión antes de poder hacer cualquier cosa, usando el usuario **anonymous**, con el comando: `login anonymous`
+Después de la instalación, deberías poder ejecutar comandos dentro del símbolo del sistema de **steamcmd.exe** que abriste antes. Necesitas iniciar sesión antes de poder hacer cualquier cosa, usando el usuario **anonymous** con el comando: `login anonymous`
 
 Una vez logueado, ya puedes comenzar a descargar los archivos.
 
@@ -48,7 +46,7 @@ force_install_dir C:\Conan-Server
 ```
 :::
 
-Ahora ejecuta el comando `app_update 443030` que iniciará la descarga. El ID de la app **443030** corresponde a la aplicación **Conan Exiles**.
+Ahora ejecuta el comando `app_update 443030` que comenzará la descarga. El ID de la aplicación **443030** corresponde a **Conan Exiles**.
 
 ![](https://github.com/zaphosting/docs/assets/42719082/29931eec-fd19-4806-88dc-69e585e42370)
 
@@ -60,7 +58,7 @@ Una vez finalizado, ve al directorio de descarga donde se han guardado todos los
 
 ### Reenvío de puertos para tu servidor
 
-Para asegurarte de que tu servidor sea accesible públicamente, debes modificar las reglas de reenvío de puertos para los puertos que usa el proceso del servidor dedicado. Puedes hacerlo directamente con comandos de Powershell, que es más fácil, o de forma tradicional a través de la página del Firewall de Windows Defender.
+Para asegurarte de que tu servidor sea accesible públicamente, debes modificar las reglas de reenvío de puertos para los puertos que usa el proceso del servidor dedicado. Puedes hacerlo directamente con comandos de Powershell, que es más fácil, o mediante la página del Firewall de Windows Defender.
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
@@ -71,7 +69,7 @@ import TabItem from '@theme/TabItem';
 Abre el buscador de Windows y busca **Powershell**. Asegúrate de hacer clic derecho y **Ejecutar como Administrador** para que los permisos estén disponibles y todo funcione correctamente.
 
 :::info
-Asegúrate de ejecutar Powershell en modo Administrador, si no, las configuraciones podrían no aplicarse bien.
+Asegúrate de ejecutar Powershell en modo Administrador, de lo contrario los ajustes podrían no aplicarse correctamente.
 :::
 
 Luego, copia y pega los siguientes comandos en tu consola de Powershell:
@@ -96,18 +94,18 @@ Debes crear nuevas reglas para tu servidor de Conan Exiles. Para ello, haz clic 
 - TCP entrante y saliente: 7777, 25575
 - UDP entrante y saliente: 7777, 7778, 27015
 
-Por favor, usa nuestra [Guía de Reenvío de Puertos (Firewall)](vserver-windows-port.md) si necesitas más ayuda para hacerlo.
+Por favor, usa nuestra guía de [Reenvío de Puertos (Firewall)](vserver-windows-port.md) si necesitas más ayuda para hacerlo.
 
 </TabItem>
 </Tabs>
 
-Una vez añadidas estas reglas, tu servidor será accesible, lo que significa que podrás conectarte a él mediante la dirección IP de tu servidor. Te recomendamos configurar primero los ajustes de tu servidor en la siguiente sección antes de acceder.
+Una vez añadidas estas reglas, tu servidor será accesible, lo que significa que podrás conectarte a él usando la dirección IP de tu servidor. Te recomendamos configurar primero los ajustes de tu servidor en la siguiente sección antes de acceder.
 
 ## Configuración
 
-A estas alturas, ya has terminado la configuración inicial de tu servidor de Conan Exiles. Puedes realizar configuraciones adicionales a través de un archivo de configuración que se encuentra dentro del directorio de tu servidor.
+En este punto, ya has terminado la configuración inicial de tu servidor de Conan Exiles. Puedes hacer configuraciones adicionales a través de un archivo de configuración que se encuentra dentro del directorio de tu servidor.
 
-Primero, navega hasta el siguiente directorio:
+Primero, navega al siguiente directorio:
 ```
 ../Conan-Server/Engine/Config/Windows
 ```
@@ -128,10 +126,8 @@ Te recomendamos visitar la [Wiki de Conan Exiles](https://conanexiles.fandom.com
 
 ## Iniciar y conectar a tu servidor
 
-Ahora es momento de arrancar tu servidor. Ve al directorio base de tu servidor de Conan Exiles y ejecuta **StartServer.bat** que creaste antes para iniciar el proceso. Esto abrirá la consola del servidor en una ventana de comandos y comenzará el arranque. Ahora podrás conectarte directamente a tu servidor usando el navegador de servidores dentro del juego e introduciendo la IP y el puerto de tu servidor (el puerto por defecto es 7777).
+Ahora es momento de iniciar tu servidor. Ve al directorio base de tu servidor de Conan Exiles y ejecuta el archivo **StartServer.bat** que creaste antes para comenzar el proceso de arranque. Esto abrirá la consola del servidor en una ventana de comandos y comenzará el proceso de inicio. Ahora podrás conectarte directamente a tu servidor usando el navegador de servidores dentro del juego e introduciendo la IP y el puerto de tu servidor (el puerto por defecto es 7777).
 
 ## Conclusión
 
 ¡Felicidades, has instalado y configurado con éxito el servidor de Conan Exiles en tu servidor dedicado! Si tienes más preguntas o problemas, contacta con nuestro equipo de soporte, ¡están disponibles para ayudarte todos los días!
-
-<InlineVoucher />

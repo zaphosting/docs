@@ -17,13 +17,13 @@ Problemas de rede podem ser bem chatos e, claro, não deveriam fazer parte do di
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/RecNoSB7J7A7B72/preview)
 
-WinMTR/MTR é uma ferramenta de diagnóstico de rede que combina as funções de Ping e Traceroute. Ela permite uma análise detalhada tanto da **rota de saída (Cliente → Servidor)** quanto da **rota de retorno (Servidor → Cliente)**, rastreando o caminho dos pacotes de dados em ambas as direções. Assim, captura informações importantes como latência e perda de pacotes, que são cruciais para diagnosticar e resolver problemas de rede com precisão.
+WinMTR/MTR é uma ferramenta de diagnóstico de rede que combina as funções de Ping e Traceroute. Ela permite uma análise detalhada tanto da **rota de saída (Cliente → Servidor)** quanto da **rota de retorno (Servidor → Cliente)**, rastreando o caminho dos pacotes de dados em ambas as direções. Durante esse processo, captura informações importantes como latência e perda de pacotes, que são cruciais para diagnosticar e resolver problemas de rede com precisão.
 
-**Rota de saída (Cliente → Servidor)**: Um relatório para a **rota de saída** é útil quando surgem problemas como quedas de conexão, conexões lentas ou dificuldades para estabelecer conexão. Essa análise ajuda a identificar possíveis problemas no caminho do cliente até o servidor, como congestionamento de rede, perda de pacotes ou roteamento defeituoso.
+**Rota de saída (Cliente → Servidor)**: Um relatório para a **rota de saída** é útil quando surgem problemas como quedas de conexão, conexões lentas ou dificuldades para estabelecer conexão. Essa análise ajuda a identificar possíveis problemas no caminho do cliente até o servidor, como congestionamento de rede, perda de pacotes ou roteamento incorreto.
 
 **Rota de retorno (Servidor → Cliente)**: Um relatório para a **rota de retorno** só faz sentido depois que uma conexão estável e funcional na rota de saída foi confirmada. Ou seja, o relatório da rota de retorno é especialmente relevante quando a rota de saída não apresenta problemas, mas ainda assim há lentidão nas respostas do servidor, atrasos no carregamento ou transmissões de dados incompletas.
 
-Resumindo, se ocorrerem problemas de rede perceptíveis, a **rota de saída (Cliente → Servidor)** deve ser analisada primeiro. Se o relatório da rota de saída não mostrar anomalias e os problemas persistirem, é necessário verificar a **rota de retorno (Servidor → Cliente)** para identificar possíveis problemas assimétricos. Problemas assimétricos de rede podem acontecer quando os pacotes de dados trafegam sem problemas em uma direção, mas enfrentam atrasos ou perda de pacotes na direção oposta.
+Resumindo, se ocorrerem problemas de rede perceptíveis, a **rota de saída (Cliente → Servidor)** deve ser analisada primeiro. Se o relatório da rota de saída não mostrar anomalias e os problemas persistirem, é necessário verificar a **rota de retorno (Servidor → Cliente)** para identificar possíveis problemas assimétricos. Problemas assimétricos de rede podem acontecer quando os pacotes são transmitidos sem problemas em uma direção, mas há atrasos ou perda de pacotes na direção oposta.
 
 ## Instalação
 
@@ -76,11 +76,11 @@ yum install mtr -y
 
 <TabItem value="macos" label="MacOS">
 
-Se você usa um computador com sistema operacional Mac OS, a análise de rede é feita pelo aplicativo MTR. Porém, o MTR não vem pré-instalado no Mac OS e também não está disponível na Apple Store. Para instalar o MTR, você precisa instalar o Homebrew como sistema de gerenciamento de pacotes no seu computador.
+Se você usa um computador com sistema operacional Mac OS, a análise de rede é feita pelo aplicativo MTR. Porém, o MTR não vem pré-instalado no Mac OS e também não está disponível na Apple Store. Para instalar o MTR, você precisa instalar o Homebrew como gerenciador de pacotes no seu computador.
 
 **Instalando o Homebrew**
 
-Abra o terminal no seu computador e rode o comando abaixo para instalar o Homebrew:
+Abra o terminal no seu computador e execute o seguinte comando para instalar o Homebrew:
 
 ```
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
@@ -144,10 +144,10 @@ Conecte-se ao seu servidor via **[Conexão de Área de Trabalho Remota](vserver-
 
 ## Criar Relatório
 
-A seguir, vamos criar um relatório usando o aplicativo WinMTR/MTR. Isso será feito tanto para a **rota de saída (Cliente → Servidor)** quanto para a **rota de retorno (Servidor → Cliente)**.
+A seguir, será criado um relatório usando o aplicativo WinMTR/MTR. Isso será feito tanto para a **rota de saída (Cliente → Servidor)** quanto para a **rota de retorno (Servidor → Cliente)**.
 
 :::warning Crie o relatório durante o problema ativo 
-O relatório deve ser gerado enquanto o problema estiver acontecendo e perceptível. Só assim o relatório vai fornecer informações úteis que ajudam a diagnosticar e resolver o problema.
+O relatório deve ser gerado enquanto o problema estiver ativo e perceptível. Só assim ele fornecerá informações úteis que ajudarão no diagnóstico e na resolução do problema.
 :::
 
 ### Rota de saída (Cliente → Servidor)
@@ -157,7 +157,7 @@ Para analisar a rota do seu computador até o servidor, abra o aplicativo WinMTR
 <Tabs>
 <TabItem value="windows" label="Windows" default>
 
-O WinMTR pode ser aberto dando um duplo clique no arquivo `WinMTR.exe`. No campo `Host`, digite o endereço IP ou nome do host do servidor. Depois, inicie o relatório. Deixe o aplicativo rodando por pelo menos **um minuto** para coletar dados suficientes. Quando tiver dados suficientes, pare a análise e salve o resultado clicando em `Export TEXT`.
+O WinMTR pode ser iniciado dando um duplo clique no arquivo `WinMTR.exe`. No campo `Host`, digite o endereço IP ou nome do host do servidor. Depois, inicie o relatório. Deixe o aplicativo rodando por pelo menos **um minuto** para coletar dados suficientes. Quando tiver dados suficientes, pare a análise e salve o resultado clicando em `Export TEXT`.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/pYNikLsj3jHxBSD/preview)
 
@@ -165,7 +165,7 @@ O WinMTR pode ser aberto dando um duplo clique no arquivo `WinMTR.exe`. No campo
 
 <TabItem value="linux" label="Linux">
 
-No Linux, abra o terminal e rode o comando:
+No Linux, abra o terminal e execute o comando:
 
 ```
 mtr <endereço-ip-do-seu-servidor>
@@ -177,7 +177,7 @@ Deixe o aplicativo rodando por pelo menos **um minuto** para coletar dados sufic
 
 <TabItem value="macos" label="MacOS">
 
-No MacOS, abra o terminal e rode o comando:
+No MacOS, abra o terminal e execute o comando:
 
 ```
 mtr <endereço-ip-do-seu-servidor>
@@ -195,7 +195,8 @@ Para analisar a rota do servidor até o seu computador, conecte-se ao seu servid
 <Tabs>
 <TabItem value="linux" label="Servidor rodando Linux" default>
 
-No servidor Linux, rode o comando no terminal SSH:
+No servidor Linux, execute o comando no terminal SSH:
+
 ```
 mtr <endereço-ip-do-seu-cliente>
 ```
@@ -220,23 +221,23 @@ Não sabe seu endereço IP ou não tem certeza de como encontrá-lo? Existem vá
 </Tabs>
 
 
-## Avaliar o relatório
+## Avaliar relatório
 
-Ao avaliar os resultados, existem alguns pontos-chave que você deve ficar de olho. A seção a seguir explica esses pontos com mais detalhes e esclarece a importância deles para a análise. Prestar atenção nesses aspectos é essencial para um diagnóstico preciso e para identificar as causas possíveis de forma eficaz.
+Ao avaliar os resultados, há alguns pontos-chave que você deve ficar de olho. A seção a seguir explica esses pontos com mais detalhes e esclarece sua importância para a análise. Prestar atenção a esses aspectos é essencial para um diagnóstico preciso e para identificar as causas potenciais de forma eficaz.
 
 ### Perda de pacotes
 
-Se você notar perda de pacotes nos resultados, isso indica possíveis problemas de rede. Uma perda temporária pequena de 1-2% pode não ser problemática, mas valores maiores indicam problemas mais sérios. Perda de pacotes pode causar atrasos ou interrupções nas conexões dos serviços. Se a perda estiver distribuída uniformemente por todos os saltos, o problema pode estar na sua própria rede ou no servidor. Porém, se a perda ocorrer apenas em um salto ou área específica, o problema provavelmente está naquele nó ou na conexão para o próximo. Também é importante saber que pequenas perdas nos primeiros saltos, que pertencem à sua rede local, não são necessariamente críticas, pois esses dispositivos costumam priorizar menos as requisições ICMP (como ping) e podem descartá-las.
+Se você notar perda de pacotes nos resultados, isso indica possíveis problemas de rede. Uma perda temporária pequena de 1-2% pode não ser problemática, mas valores maiores indicam problemas mais sérios. A perda de pacotes pode causar atrasos ou interrupções nas conexões dos serviços. Se a perda estiver distribuída uniformemente por todos os saltos, o problema pode estar na sua própria rede ou no servidor. Porém, se a perda ocorrer apenas em um salto ou área específica, o problema provavelmente está naquele nó ou na conexão para o próximo. Também é importante saber que pequenas perdas nos primeiros saltos, que pertencem à sua rede local, não são necessariamente críticas, pois esses dispositivos costumam priorizar menos as requisições ICMP (como ping) e podem descartá-las.
 
 ### Latência (tempos de ping)
 
-Os valores de latência (`Avg`, `Best`, `Worst`) dão uma ideia da velocidade e estabilidade da conexão. Se você notar que a latência permanece consistentemente alta em um salto específico, isso pode indicar congestionamento de rede ou um roteador lento. Um aumento repentino na latência entre dois saltos aponta para um possível gargalo. Normalmente, a latência aumenta gradualmente ao longo da rota até o destino. Mas fique atento a picos repentinos e significativos, que geralmente indicam um problema. Comparar as rotas de saída e retorno também ajuda a identificar problemas assimétricos, que indicam que o tráfego em uma direção está enfrentando dificuldades.
+Os valores de latência (`Avg`, `Best`, `Worst`) dão uma ideia da velocidade e estabilidade da conexão. Se você perceber que a latência permanece consistentemente alta em um salto específico, isso pode indicar congestionamento de rede ou um roteador lento. Um aumento repentino na latência entre dois saltos aponta para um possível gargalo. Normalmente, a latência aumenta gradualmente ao longo da rota até o destino. Mas fique atento a picos repentinos e significativos, que geralmente indicam um problema. Comparar as rotas de saída e retorno também pode ajudar a identificar problemas assimétricos, que indicam que o tráfego em uma direção está enfrentando dificuldades.
 
 Com uma análise cuidadosa desses fatores, você pode determinar com precisão onde está o problema de rede — se na sua própria rede, no provedor de internet ou em algum ponto do caminho até o servidor.
 
 ### Exemplos de diagnóstico
 
-Para facilitar o entendimento, vamos esclarecer as informações anteriores com alguns exemplos de diagnóstico. Reunimos alguns cenários que ilustram diferentes situações e possíveis causas. Esses exemplos ajudam a mostrar como interpretar os dados e diagnosticar problemas de rede de forma mais eficaz.
+Para facilitar o entendimento, vamos esclarecer as informações anteriores com alguns exemplos de diagnóstico. Reunimos alguns cenários que ilustram situações diferentes e possíveis causas. Esses exemplos ajudam a mostrar como interpretar os dados e diagnosticar problemas de rede de forma mais eficaz.
 
 :::info
 Os exemplos de diagnóstico a seguir ilustram vários cenários baseados em relatórios fictícios do WinMTR/MTR. Os endereços IP, nomes de host e rotas contidos são totalmente fictícios e não têm conexão com redes ou hosts reais.
@@ -245,13 +246,13 @@ Os exemplos de diagnóstico a seguir ilustram vários cenários baseados em rela
 <Tabs>
 <TabItem value="mtrResultsExample1" label="Exemplo 1" default>
 
-**Exemplo:** Perda de Pacotes no Cliente
+**Exemplo:** Perda de pacotes no Cliente
 
 **Descrição**
 
 Neste exemplo, a situação descreve perda de pacotes ocorrendo no lado do cliente, visível tanto na rota de saída quanto na de retorno.
 
-**Rota de Saída (Cliente → Servidor)**
+**Rota de saída (Cliente → Servidor)**
 
 ```console {2-3}
 Host                               Loss%   Snt   Last   Avg  Best  Wrst StDev
@@ -265,7 +266,7 @@ Host                               Loss%   Snt   Last   Avg  Best  Wrst StDev
 8. Destination-IP (Servidor)                 0.0%   20   80.2   80.0  79.5   81.2  0.6
 ```
 
-**Rota de Retorno (Servidor → Cliente)**
+**Rota de retorno (Servidor → Cliente)**
 
 ```console {8-9}
 Host                               Loss%   Snt   Last   Avg  Best  Wrst StDev
@@ -287,7 +288,7 @@ A avaliação revela que a perda de pacotes está ocorrendo no lado do cliente. 
 
 <TabItem value="mtrResultsExample2" label="Exemplo 2">
 
-**Exemplo:** Perda de Pacotes no Servidor
+**Exemplo:** Perda de pacotes no servidor
 
 **Descrição**
 
@@ -305,7 +306,7 @@ Host                               Loss%   Snt   Last   Avg  Best  Wrst StDev
 8. Destination-IP (Servidor)                15.0%   20   85.3   90.2  85.0  105.0  7.0
 ```
 
-**Rota de Retorno (Servidor → Cliente)**
+**Rota de retorno (Servidor → Cliente)**
 
 ```console {2-3}
 Host                               Loss%   Snt   Last   Avg  Best  Wrst StDev
@@ -327,13 +328,13 @@ A avaliação indica que a perda de pacotes está ocorrendo no lado do servidor.
 
 <TabItem value="mtrResultsExample3" label="Exemplo 3">
 
-**Exemplo:** Problemas de Latência no Cliente
+**Exemplo:** Problemas de latência no cliente
 
 **Descrição**
 
 Neste exemplo, a situação descreve tempos de latência altos no lado do cliente, perceptíveis tanto na rota de saída quanto na de retorno.
 
-**Rota de Saída (Cliente → Servidor)**
+**Rota de saída (Cliente → Servidor)**
 
 ```console {2-3} 
 Host                               Loss%   Snt   Last   Avg  Best  Wrst StDev
@@ -347,7 +348,7 @@ Host                               Loss%   Snt   Last   Avg  Best  Wrst StDev
 8. Destination-IP (Servidor)                 0.0%   20   80.2   80.0  79.5   81.2   0.6
 ```
 
-**Rota de Retorno (Servidor → Cliente)**
+**Rota de retorno (Servidor → Cliente)**
 
 ```console {8-9}
 Host                               Loss%   Snt   Last   Avg  Best  Wrst StDev
@@ -369,13 +370,13 @@ A avaliação mostra que há alta latência no lado do cliente. Ambas as rotas a
 
 <TabItem value="mtrResultsExample4" label="Exemplo 4">
 
-**Exemplo:** Problemas de Latência no Servidor
+**Exemplo:** Problemas de latência no servidor
 
 **Descrição**
 
 Neste exemplo, a situação descreve tempos de latência altos ocorrendo no lado do servidor, perceptíveis tanto na rota de saída quanto na de retorno.
 
-**Rota de Saída (Cliente → Servidor)**
+**Rota de saída (Cliente → Servidor)**
 
 ```console {8-9}
 Host                               Loss%   Snt   Last   Avg  Best  Wrst StDev
@@ -389,7 +390,7 @@ Host                               Loss%   Snt   Last   Avg  Best  Wrst StDev
 8. Destination-IP (Servidor)                 0.0%   20  300.5  320.0 300.0  350.0  15.0
 ```
 
-**Rota de Retorno (Servidor → Cliente)**
+**Rota de retorno (Servidor → Cliente)**
 
 ```console {2-3}
 Host                               Loss%   Snt   Last   Avg  Best  Wrst StDev
@@ -411,13 +412,13 @@ A avaliação mostra que há alta latência no lado do servidor. Ambas as rotas 
 
 <TabItem value="mtrResultsExample5" label="Exemplo 5">
 
-**Exemplo:** Problema de Roteamento (Roteamento do ISP)
+**Exemplo:** Problema de roteamento (Roteamento do ISP)
 
 **Descrição**
 
 Neste exemplo, a situação descreve como a rota do Cliente X até o servidor funciona sem problemas, enquanto há problemas de roteamento do Cliente Y até o servidor, causando perda de pacotes. Isso indica um problema no roteamento do provedor de internet (ISP).
 
-**Rota de Saída (Cliente X → Servidor)**
+**Rota de saída (Cliente X → Servidor)**
 
 ```
 Host                               Loss%   Snt   Last   Avg  Best  Wrst StDev
@@ -432,7 +433,7 @@ Host                               Loss%   Snt   Last   Avg  Best  Wrst StDev
 
 ```
 
-**Rota de Saída (Cliente Y → Servidor)**
+**Rota de saída (Cliente Y → Servidor)**
 
 ```console {5-7}
 Host                               Loss%   Snt   Last   Avg  Best  Wrst StDev
@@ -446,7 +447,7 @@ Host                               Loss%   Snt   Last   Avg  Best  Wrst StDev
 8. Destination-IP (Servidor)                 0.0%   20   80.2   80.0  79.5   81.2   0.6
 ```
 
-**Rota de Retorno (Servidor → Cliente X)**
+**Rota de retorno (Servidor → Cliente X)**
 
 ```
 Host                               Loss%   Snt   Last   Avg  Best  Wrst StDev
@@ -460,7 +461,7 @@ Host                               Loss%   Snt   Last   Avg  Best  Wrst StDev
 8. 192.168.1.1                      0.0%   20    1.2    1.3   1.1    2.0   0.3
 ```
 
-**Rota de Retorno (Servidor → Cliente Y)**
+**Rota de retorno (Servidor → Cliente Y)**
 
 ```
 Host                               Loss%   Snt   Last   Avg  Best  Wrst StDev
@@ -483,13 +484,13 @@ A avaliação mostra que há um problema de roteamento com o ISP. Enquanto a rot
 
 <TabItem value="mtrResultsExample6" label="Exemplo 6">
 
-**Exemplo:** Perda de Pacotes Apenas na Rota de Saída (Cliente → Servidor)
+**Exemplo:** Perda de pacotes apenas na rota de saída (Cliente → Servidor)
 
 **Descrição**
 
 Neste exemplo, a perda de pacotes ocorre apenas na rota de saída (do cliente para o servidor), enquanto a rota de retorno (do servidor para o cliente) não apresenta perdas. Isso pode indicar um problema em um segmento da rede em direção ao servidor, possivelmente causado por roteadores defeituosos, congestionamento ou conexão ruim no caminho.
 
-**Rota de Saída (Cliente → Servidor)**
+**Rota de saída (Cliente → Servidor)**
 
 ```console {5-7}
 Host                               Loss%   Snt   Last   Avg  Best  Wrst StDev
@@ -504,7 +505,7 @@ Host                               Loss%   Snt   Last   Avg  Best  Wrst StDev
 
 ```
 
-**Rota de Retorno (Servidor → Cliente)**
+**Rota de retorno (Servidor → Cliente)**
 
 ```
 Host                               Loss%   Snt   Last   Avg  Best  Wrst StDev
@@ -526,13 +527,13 @@ A avaliação mostra que a perda de pacotes ocorre exclusivamente na rota de sa�
 
 <TabItem value="mtrResultsExample7" label="Exemplo 7">
 
-**Exemplo:** Perda de Pacotes Apenas na Rota de Retorno (Servidor → Cliente)
+**Exemplo:** Perda de pacotes apenas na rota de retorno (Servidor → Cliente)
 
 **Descrição**
 
 Neste exemplo, a perda de pacotes ocorre apenas na rota de retorno (do servidor para o cliente), enquanto a rota de saída (do cliente para o servidor) não apresenta perdas. Isso pode indicar um problema em um segmento da rede no caminho de retorno.
 
-**Rota de Saída (Cliente → Servidor)**
+**Rota de saída (Cliente → Servidor)**
 
 ```
 Host                               Loss%   Snt   Last   Avg  Best  Wrst StDev
@@ -546,7 +547,7 @@ Host                               Loss%   Snt   Last   Avg  Best  Wrst StDev
 8. Destination-IP (Servidor)                 0.0%   20   85.3   85.0  84.5   86.0   0.5
 ```
 
-**Rota de Retorno (Servidor → Cliente)**
+**Rota de retorno (Servidor → Cliente)**
 
 ```console {5-7}
 Host                               Loss%   Snt   Last   Avg  Best  Wrst StDev
@@ -568,8 +569,6 @@ A avaliação mostra que a perda de pacotes ocorre apenas na rota de retorno. As
 
 </Tabs>
 
-## Reportando Problemas
+## Reportando problemas
 
-Embora a ZAP-Hosting monitore a rede continuamente, é importante entrar em contato com nosso suporte rapidamente em caso de problemas de rede. Para garantir um diagnóstico preciso e uma resolução rápida, pedimos que você nos envie os resultados dos seus relatórios WinMTR/MTR tanto da rota de saída quanto da rota de retorno. Essas informações nos ajudam a identificar exatamente as áreas problemáticas e resolver o problema rapidinho.
-
-<InlineVoucher />
+Embora a ZAP-Hosting monitore a rede continuamente, é importante entrar em contato com nosso suporte rapidamente em caso de problemas de rede. Para garantir um diagnóstico preciso e uma resolução rápida, pedimos que você nos envie os resultados dos seus relatórios WinMTR/MTR tanto da rota de saída quanto da rota de retorno. Essas informações nos ajudam a identificar exatamente as áreas problemáticas e resolver o problema o quanto antes.

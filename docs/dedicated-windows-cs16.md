@@ -13,7 +13,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 ## Introduction
 Got a VPS or dedicated server and want to install game servers on it? For example an Counter-Strike 1.6 Dedicated Server? Then you are at the right place! In the following we will explain step by step how you can install such a service on your server.
 
-<InlineVoucher />
+
 
 ## Preparation
 
@@ -76,4 +76,4 @@ You should now see logs appear in your command prompt which signals that the sta
 
 Congratulations, you have successfully installed and configured the Counter-Strike 1.6 server on your VPS! For further questions or assistance, please don't hesitate to contact our support team, which is available daily to assist you! 🙂
 
-<InlineVoucher />
+

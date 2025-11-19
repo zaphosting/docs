@@ -11,13 +11,11 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introducción
 
-Esta guía te muestra los pasos para instalar el entorno de ejecución de Python en Windows. Los pasos que verás a continuación deben ejecutarse vía RDP. Si no sabes cómo conectarte a tu servidor vía RDP, échale un ojo a nuestra [Guía de Acceso Inicial (RDP)](vserver-windows-userdp.md).
-
-<InlineVoucher />
+Esta guía te muestra los pasos para instalar el entorno de ejecución de Python en Windows. Los pasos que verás a continuación deben ejecutarse vía RDP. Si no sabes cómo conectarte a tu servidor vía RDP, échale un vistazo a nuestra [Guía de Acceso Inicial (RDP)](vserver-windows-userdp.md).
 
 ## Instalación
 
-### Paso 1: Descargar los archivos
+### Paso 1: Descargar archivos
 Abre el navegador que prefieras (yo usaré Chrome para esta guía) y ve a [https://www.python.org/downloads/](https://www.python.org/downloads/)
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/WAET5RFn6yBfNzC/preview)
@@ -27,11 +25,11 @@ Ahora haz clic en el botón `Download Python [versión]` y espera a que termine 
 ![](https://screensaver01.zap-hosting.com/index.php/s/b8j6ZbfGWoBjpep/preview)
 
 ### Paso 2: Instalar Python
-Ejecuta el instalador haciendo clic en él. Ahora te pedirán configurar algunos ajustes para la instalación. Asegúrate de marcar la casilla `Add python.exe to PATH` que está abajo (esto hará que ejecutar archivos Python sea mucho más fácil después) y haz clic en el botón `Install Now`.
+Ejecuta el instalador haciendo clic en él. Ahora te pedirá configurar algunos ajustes para la instalación. Asegúrate de marcar la casilla `Add python.exe to PATH` al final (esto facilitará ejecutar archivos Python más adelante) y haz clic en el botón `Install Now`.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/Z57KiQwHqP3RpPy/preview)
 
-### Paso 3: Finalizar la instalación
+### Paso 3: Finalizar instalación
 Espera a que se instalen todos los archivos. Ten paciencia, puede tardar un poco. :)
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/XA2Y3DGezb84Ek9/preview)
@@ -55,7 +53,7 @@ Ejecutar el comando `python` dentro de una ventana de Símbolo del sistema o Pow
 Para ejecutar archivos Python `.py`, simplemente usa el comando `python3 [nombrearchivo].py`, reemplazando `[nombrearchivo]` por la ruta y nombre del archivo que quieres ejecutar. Esto también se hace desde Símbolo del sistema o PowerShell.
 
 :::tip
-La mayoría de los programas que encuentras online se ejecutan con `python3 main.py` porque `main.py` es el punto de inicio común en muchos programas Python.
+La mayoría de los programas que encuentras online se pueden ejecutar con `python3 main.py` porque `main.py` es el punto de inicio común en la mayoría de programas Python.
 :::
 
 También puedes ejecutar archivos Python (.py) abriéndolos directamente o haciendo clic derecho y seleccionando Python en Windows.
@@ -70,14 +68,12 @@ Primero, navega a la carpeta donde quieres crear tu venv usando el explorador de
 
 ### Activar y desactivar
 
-Para ejecutar comandos como `pip install` dentro de tu venv, necesitas activarlo con `.\Scripts\activate`. Ahora tu consola solo funcionará dentro del venv y los scripts solo tendrán acceso a los paquetes instalados localmente.
+Para ejecutar comandos como `pip install` dentro de tu venv, necesitas activarlo ejecutando `.\Scripts\activate`. Ahora tu consola solo funcionará dentro del venv y los scripts solo tendrán acceso a los paquetes instalados localmente.
 
-Cuando termines de trabajar en el venv, puedes salir ejecutando el comando `deactivate`.
+Cuando termines de trabajar dentro del venv, puedes salir ejecutando el comando `deactivate`.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/Ws5BosJzJ78s7Y9/preview)
 
 ## Conclusión
 
-¡Felicidades, has instalado Python con éxito! Si tienes más preguntas o necesitas ayuda, no dudes en contactar a nuestro equipo de soporte, que está disponible todos los días para ayudarte. 🙂
-
-<InlineVoucher />
+¡Felicidades, has instalado Python con éxito! Si tienes más preguntas o necesitas ayuda, no dudes en contactar a nuestro equipo de soporte, disponible todos los días para asistirte. 🙂

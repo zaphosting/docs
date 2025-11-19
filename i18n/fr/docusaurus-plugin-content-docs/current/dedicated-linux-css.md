@@ -1,7 +1,7 @@
 ---
 id: dedicated-linux-css
-title: "Serveur dédié : Configuration du serveur dédié Counter-Strike: Source sous Linux"
-description: "Apprenez à configurer un serveur dédié Counter-Strike: Source sur votre VPS Linux pour une expérience de jeu fluide → Découvrez-le maintenant"
+title: "Serveur dédié : Installation d’un serveur dédié Counter-Strike: Source sous Linux"
+description: "Apprenez à configurer un serveur dédié Counter-Strike: Source sur votre VPS Linux pour une expérience de jeu fluide → Découvrez-en plus maintenant"
 sidebar_label: "Counter-Strike: Source"
 services:
   - vserver
@@ -16,15 +16,13 @@ Vous avez un VPS Linux et vous souhaitez installer le service serveur dédié Co
 Saviez-vous que vous pouvez installer notre **Interface ZAP GS/TS3** directement sur votre VPS, vous permettant de configurer des services de serveur de jeux avec une intégration directe à votre tableau de bord ZAP-Hosting, en seulement quelques clics ? Découvrez-en plus sur l’[Interface GS/TS3](dedicated-linux-gs-interface.md).
 :::
 
-<InlineVoucher />
-
 ## Préparation
 
-Pour commencer, connectez-vous à votre VPS via SSH. Utilisez notre guide [Accès SSH initial](dedicated-linux-ssh.md) si vous avez besoin d’aide pour cela. Vous devrez également effectuer une première configuration de SteamCMD si c’est la première fois que vous l’utilisez sur votre serveur Linux. Veuillez suivre notre guide [Configuration SteamCMD Linux](dedicated-linux-steamcmd.md) et assurez-vous que SteamCMD est entièrement configuré avant de continuer.
+Pour commencer, connectez-vous à votre VPS via SSH. Utilisez notre guide [Accès SSH initial](dedicated-linux-ssh.md) si vous avez besoin d’aide pour cela. Vous devrez également effectuer une première configuration de SteamCMD si c’est la première fois que vous l’utilisez sur votre serveur Linux. Veuillez suivre notre guide [Installation SteamCMD Linux](dedicated-linux-steamcmd.md) et assurez-vous que SteamCMD est complètement configuré avant de continuer.
 
 ## Installation
 
-Commencez par vous connecter en tant qu’utilisateur `steam` et rendez-vous dans le répertoire racine `home/steam` de cet utilisateur pour garder tout organisé.
+Commencez par vous connecter en tant qu’utilisateur `steam` et rendez-vous dans le répertoire racine `home/steam` de cet utilisateur pour garder tout bien organisé.
 ```
 sudo -u steam -s
 cd ~
@@ -35,11 +33,11 @@ Une fois connecté, vous pouvez lancer l’installation avec la commande suivant
 steamcmd +force_install_dir '/home/steam/cs2-ds' +login anonymous +app_update 232330 validate +quit
 ```
 
-Soyez patient pendant le téléchargement, cela peut prendre un certain temps pour les jeux volumineux. Une fois terminé, un message de succès apparaîtra pour vous confirmer la bonne installation.
+Soyez patient pendant le téléchargement, cela peut prendre un certain temps pour les jeux volumineux. Une fois terminé, un message de succès apparaîtra pour confirmer la bonne installation.
 
 ## Configuration
 
-À ce stade, vous avez terminé la configuration de votre serveur Counter-Strike: Source. Vous pouvez effectuer des configurations supplémentaires en éditant directement le fichier de lancement.
+À ce stade, vous avez terminé la configuration de votre serveur Counter-Strike: Source. Vous pouvez effectuer des réglages supplémentaires en éditant directement le fichier de lancement.
 
 Rendez-vous dans votre répertoire racine. À l’intérieur, naviguez vers le dossier cfg et ouvrez le fichier `server.cfg`. Vous pourrez y modifier les options du serveur.
 ```
@@ -59,12 +57,10 @@ Il est maintenant temps de démarrer votre serveur. Rendez-vous dans le réperto
 ./srcds_run -console -game cstrike -secure +maxplayers 22 +map de_dust +sv_setsteamaccount XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 ```
 
-Vous devriez voir apparaître des logs dans votre terminal, ce qui indique que le démarrage a réussi. Notez que le premier démarrage peut prendre un peu de temps le temps que tout se mette en place. Sinon, vous pourrez vous connecter directement en utilisant la barre de recherche en bas de la liste des serveurs et en cherchant : `[votre_adresse_ip]:2456`.
+Vous devriez voir des logs apparaître dans votre terminal, ce qui indique que le démarrage a réussi. Notez que le premier démarrage peut prendre un peu de temps le temps que tout se mette en place. Sinon, vous pouvez vous connecter directement en utilisant la barre de recherche en bas de la liste des serveurs et en cherchant : `[votre_adresse_ip]:2456`.
 
 ## Conclusion
 
-Félicitations, vous avez installé et configuré avec succès le serveur Counter-Strike: Source sur votre VPS ! Pour la suite, nous vous recommandons de consulter notre guide [Configurer un service Linux](dedicated-linux-create-gameservice.md), qui explique comment configurer votre nouveau serveur de jeux dédié en tant que service. Cela offre plusieurs avantages, notamment le lancement automatique du serveur au démarrage, les mises à jour automatiques, une gestion simplifiée et l’accès aux logs, et bien plus encore !
+Félicitations, vous avez installé et configuré avec succès le serveur Counter-Strike: Source sur votre VPS ! Pour la suite, nous vous recommandons de consulter notre guide [Configurer un service Linux](dedicated-linux-create-gameservice.md), qui explique comment configurer votre nouveau serveur dédié de jeux en tant que service. Cela offre plusieurs avantages, comme le lancement automatique du serveur au démarrage, les mises à jour automatiques, une gestion simplifiée et l’accès aux logs, et bien plus encore !
 
 Pour toute question ou assistance, n’hésitez pas à contacter notre équipe support, disponible tous les jours pour vous aider ! 🙂
-
-<InlineVoucher />

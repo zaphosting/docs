@@ -11,9 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introduction
 
-Plesk est une plateforme complète de gestion d’hébergement web et de serveurs qui permet aux utilisateurs de gérer sites web, serveurs, comptes email et bien plus via une interface intuitive. C’est une solution polyvalente adaptée aussi bien aux débutants qu’aux développeurs web et administrateurs système expérimentés.
-
-<InlineVoucher />
+Plesk est une plateforme complète de gestion d’hébergement web et de serveurs qui permet aux utilisateurs de gérer des sites web, serveurs, comptes email et bien plus via une interface intuitive. C’est une solution polyvalente adaptée aussi bien aux débutants qu’aux développeurs web et administrateurs système expérimentés.
 
 ## Établir une connexion au serveur
 
@@ -30,7 +28,7 @@ Cet installateur est maintenant stocké dans un dossier, dans notre exemple nous
 ### Ouvrir l’invite de commandes
 
 La console CMD doit maintenant être ouverte pour l’installation.  
-Pour cela, utilisez la combinaison de touches [Windows] + [R] ou recherchez "cmd" dans la barre de recherche Windows.
+Cela se fait via la combinaison de touches [Windows] + [R] ou en recherchant "commande" dans la barre de recherche Windows.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/ZHCiRtYrFK43Xbn/preview)
 
@@ -55,5 +53,3 @@ Le processus d’installation peut prendre entre 30 et 60 minutes, après quoi P
 ## Conclusion
 
 Félicitations, vous avez installé Plesk avec succès. Pour toute question ou assistance, n’hésitez pas à contacter notre équipe support, disponible tous les jours pour vous aider ! 🙂
-
-<InlineVoucher />

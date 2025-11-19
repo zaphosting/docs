@@ -11,25 +11,25 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
 
-Im Folgenden erklären wir dir Schritt für Schritt, wie du das FreeBSD Betriebssystem auf deinem Dedicated Server installierst und konfigurierst. Folge den Anweisungen genau, damit du das Betriebssystem erfolgreich einrichtest und optimal nutzen kannst.
+Im Folgenden erklären wir dir Schritt für Schritt, wie du das FreeBSD-Betriebssystem auf deinem Dedicated Server installierst und konfigurierst. Folge diesen Anweisungen sorgfältig, damit du das Betriebssystem erfolgreich einrichtest und optimal nutzen kannst.
 
 :::info
 
-Die Anleitung basiert auf der Nutzung von FreeBSD 13.0. Installationen mit älteren oder neueren Versionen können im Ablauf leicht abweichen.
+Die Anleitung basiert auf der Nutzung von FreeBSD 13.0. Installationen von älteren oder neueren Versionen können im Ablauf leicht abweichen.
 
 :::
 
-<InlineVoucher />
+
 
 ## Vorbereitung
 
-Für die Installation und Konfiguration eines Betriebssystems ist es zunächst wichtig, das passende ISO-Image des Betriebssystems zu mounten. Es gibt mehrere Möglichkeiten, das zu machen:
+Für die Installation und Konfiguration eines Betriebssystems ist es zunächst wichtig, das passende ISO-Image des Betriebssystems einzubinden. Es gibt mehrere Möglichkeiten, das ISO zu mounten:
 
 1. Mounten über die Ersteinrichtung
-2. Mounten über iLO (Virtual Media)
-3. Mounten über iLO (Remote Console)
+2. Mounten via iLO (Virtual Media)
+3. Mounten via iLO (Remote Console)
 
-Wenn du noch nicht weißt, wie man ein ISO mountet, schau am besten in unsere [Ersteinrichtung](dedicated-setup.md) oder [Eigenes ISO](dedicated-iso.md) Anleitung rein.
+Falls du noch nicht vertraut bist mit dem Mounten einer ISO-Datei, empfehlen wir dir unsere [Ersteinrichtung](dedicated-setup.md) oder [Eigenes ISO](dedicated-iso.md) Anleitung.
 
 
 
@@ -40,7 +40,7 @@ Wenn das ISO erfolgreich geladen wurde, befindet sich der Server im Setup-Prozes
 
 Starte die Installation mit `Enter`![](https://screensaver01.zap-hosting.com/index.php/s/CK4xnGEqBe5Kd4y/preview)
 
-Wähle das Tastaturlayout, das dir am besten passt, und fahre mit „Continue“ fort.
+Wähle dein bevorzugtes Tastaturlayout und fahre mit „Continue“ fort.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/BSrWrN9TnqEEmmb/preview)
 
@@ -48,11 +48,11 @@ Gib deinen gewünschten Hostname ein.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/zqXPS6fHdkoMPH2/preview)
 
-Optional kannst du Systempakete auswählen, die installiert werden sollen. Wenn du fertig bist, bestätige mit OK.
+Du kannst optionale Systempakete auswählen, die installiert werden sollen. Wenn du fertig bist, bestätige mit OK.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/zTSBQRGRFLHDxDo/preview)
 
-In diesem Schritt kannst du Partitionen anlegen. Im Beispiel nutzen wir ein RAID0. Mehr Infos zu RAIDs findest du in [RAID konfigurieren](dedicated-raid.md).
+In diesem Schritt kannst du Partitionen anlegen. Im Beispiel nutzen wir ein RAID0. Mehr Infos zu RAID findest du in [RAID konfigurieren](dedicated-raid.md).
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/DTk5zgjbpCWwbmp/preview)
 
@@ -60,7 +60,7 @@ Wenn keine Änderungen nötig sind, kannst du mit `Enter` fortfahren.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/MR3eJKMpdExXnsJ/preview)
 
-Da wir ein RAID0 haben, wählen wir keine Redundanz.
+Da wir ein RAID0 nutzen, wählen wir keine Redundanz.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/Qf5JZMKs5HzDXnT/preview)
 
@@ -71,7 +71,7 @@ Markiere dein Volume mit `Space` und bestätige mit `Enter`.
 Wir bestätigen, dass alle Daten gelöscht werden.
 
 :::info
-Dein Server führt jetzt die Einrichtung durch, das kann einige Minuten dauern.
+Dein Server verarbeitet jetzt die Einrichtung, das kann einige Minuten dauern.
 :::
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/NmR5PcTPe3Kdc4i/preview)
@@ -80,7 +80,7 @@ Bitte gib dein Passwort ein und bestätige mit `Enter`.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/f9aJF57b2w3g9qY/preview)
 
-Wähle bei der IPv4/IPv6-Konfiguration „No“, das machen wir am Ende.
+Wähle bei der IPv4/IPv6-Konfiguration „No“, das wird am Ende erledigt.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/88bxbHsRjwCoYJQ/preview)
 
@@ -143,5 +143,3 @@ Dein Server sollte jetzt eine aktive Internetverbindung haben.
 ## Fazit
 
 Glückwunsch, du hast FreeBSD erfolgreich auf deinem Dedicated Server installiert. Bei weiteren Fragen oder Problemen steht dir unser Support-Team täglich zur Verfügung – wir helfen dir gerne! 🙂
-
-<InlineVoucher />

@@ -10,13 +10,11 @@ services:
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
-Du hast einen Linux VPS und möchtest den Day of Defeat: Source Dedicated Server darauf installieren? Dann bist du hier genau richtig. In dieser Anleitung erklären wir dir Schritt für Schritt, wie du diesen Service auf deinem Linux-Server mit SteamCMD installierst. Wir nutzen Ubuntu als Beispiel, aber der Prozess ist bei anderen Distributionen sehr ähnlich.
+Du hast einen Linux VPS und möchtest den Day of Defeat: Source Dedicated Server darauf installieren? Dann bist du hier genau richtig. In dieser Anleitung erklären wir dir Schritt für Schritt, wie du diesen Service auf deinem Linux-Server mit SteamCMD installierst. Wir nutzen Ubuntu als Beispiel, aber der Prozess ist bei anderen Distributionen ähnlich.
 
 :::tip
 Wusstest du, dass du unsere **ZAP GS/TS3 Interface** direkt auf deinem VPS installieren kannst? Damit richtest du Gameserver-Services mit direkter Integration in dein ZAP-Hosting Dashboard in nur wenigen Klicks ein! Erfahre mehr über das [GS/TS3 Interface](dedicated-linux-gs-interface.md).
 :::
-
-<InlineVoucher />
 
 ## Vorbereitung
 
@@ -30,7 +28,7 @@ sudo -u steam -s
 cd ~
 ```
 
-Sobald du eingeloggt bist, kannst du die Installation mit folgendem Befehl starten, der SteamCMD nutzt, um den Server direkt im `steam` User-Verzeichnis zu installieren:
+Sobald du eingeloggt bist, kannst du die Installation mit folgendem Befehl starten. So installierst du den Server direkt über SteamCMD als `steam` User:
 ```
 steamcmd +force_install_dir '/home/steam/dod-ds' +login anonymous +app_update 232290 validate +quit
 ```
@@ -39,16 +37,16 @@ Bitte hab Geduld, bis der Download abgeschlossen ist – bei größeren Spielen 
 
 ## Konfiguration
 
-Jetzt hast du die Grundinstallation deines Day of Defeat: Source Servers abgeschlossen. Weitere Servereinstellungen kannst du direkt in der Startdatei vornehmen.
+Jetzt hast du die Grundinstallation deines Day of Defeat: Source Servers abgeschlossen. Weitere Server-Einstellungen kannst du direkt in der Startdatei vornehmen.
 
-Wechsle in dein Root-Verzeichnis. Dort findest du im Ordner `cfg` die Datei `server.cfg`, die du bearbeiten kannst, um Serveroptionen anzupassen.
+Wechsle in dein Root-Verzeichnis. Dort navigierst du in den Ordner `cfg` und öffnest die Datei `server.cfg`. Hier kannst du die Server-Optionen anpassen.
 ```
 nano /home/steam/dod-ds/dod/cfg/server.cfg
 ```
 
 ## GSL Token registrieren
 
-Damit andere Spieler deinem Server beitreten können, musst du einen Game Server Login Token (GSLT) generieren und einbinden. Dieser Token authentifiziert deinen Server bei Steam. Erstelle deinen GSLT unter http://steamcommunity.com/dev/managegameservers mit der Game-ID 232290 für Day of Defeat: Source.
+Damit andere Spieler auf deinen Server connecten können, musst du einen Game Server Login Token (GSLT) generieren und einbinden. Dieser Token authentifiziert deinen Server bei Steam. Erstelle deinen GSLT unter http://steamcommunity.com/dev/managegameservers mit der Game-ID 232290 für Day of Defeat: Source.
 
 Füge den Token dann in deine Server-Startparameter mit `+sv_setsteamaccount <TOKEN>` ein.
 
@@ -66,5 +64,3 @@ Im Terminal solltest du nun Logs sehen, die den erfolgreichen Start anzeigen. Be
 Glückwunsch, du hast deinen Day of Defeat: Source Server erfolgreich auf deinem VPS installiert und konfiguriert! Als nächsten Schritt empfehlen wir dir unsere [Linux Service Setup](dedicated-linux-create-gameservice.md) Anleitung. Dort erfährst du, wie du deinen neuen Dedicated Gameserver als Service einrichtest – mit Vorteilen wie automatischem Serverstart beim Booten, automatischen Updates, einfacher Verwaltung und Zugriff auf Logs und vieles mehr!
 
 Bei Fragen oder Problemen steht dir unser Support-Team täglich zur Seite – zögere nicht, uns zu kontaktieren! 🙂
-
-<InlineVoucher />

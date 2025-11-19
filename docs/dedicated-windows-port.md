@@ -13,7 +13,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Windows OS consists of its own Windows Defender Firewall which manages incoming and outbound trafcic between the server and internet. In this guide, we will go through the process of managing firewall rules and general tips for port forwarding.
 
-<InlineVoucher />
+
 
 ## Accessing Windows Defender Firewall
 
@@ -107,4 +107,4 @@ Once ready, finally press the **Finish** button to create the rule.
 
 You have successfully created your very own Port Rule for your Windows server. You should now repeat this to create an **Outbound Rule** following the same steps, but creating it under the Outbound Rules section.
 
-<InlineVoucher />
+

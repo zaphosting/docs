@@ -1,7 +1,7 @@
 ---
 id: dedicated-windows-rdp-freeze
 title: "Dedicated Server: Remote-Desktop-Verbindung bricht ab"
-description: "Entdecke, wie du RDP-Freezes durch stabilere Verbindungen und Vermeidung von Sitzungsabbrüchen behebst → Jetzt mehr erfahren"
+description: "Entdecke, wie du RDP-Freezes durch verbesserte Verbindungsstabilität und Vermeidung von Sitzungsabbrüchen behebst → Jetzt mehr erfahren"
 sidebar_label: RDP-Verbindungsabbrüche
 services:
   - dedicated
@@ -11,17 +11,15 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
 
-Das RDP-Freezing-Problem ist ein häufiges Phänomen, bei dem Remote-Desktop-Sitzungen je nach verwendetem Betriebssystem und Version unerwartet einfrieren. Dieses Problem kann mega nervig sein und deine Produktivität stark beeinträchtigen. In diesem Beitrag erfährst du, was die Ursache ist und wie du das Problem fixen kannst.
-
-<InlineVoucher />
+Das RDP-Freezing-Problem ist ein häufiges Phänomen, bei dem je nach verwendetem Betriebssystem und Version Remote-Desktop-Sitzungen unerwartet einfrieren. Dieses Problem kann frustrierend sein und die Produktivität erheblich beeinträchtigen. In diesem Dokument erfährst du mehr über die Ursache des Problems und wie du es beheben kannst.
 
 ## Hauptursache
 
-Verschiedene Quellen zeigen immer mehr, dass das Problem an der geringen Fehlertoleranz des RDP-Protokolls bei Paketverlust oder beschädigten Paketen liegt. Außerdem sorgt ein Bug in bestimmten Windows-Versionen dafür, dass das Betriebssystem nicht sauber zwischen TCP- und UDP-Protokollen switcht, was das Ganze noch verschlimmert.
+Verschiedene Quellen deuten zunehmend darauf hin, dass das Problem auf die geringere Fehlertoleranz des RDP-Protokolls gegenüber Paketverlust oder beschädigten Paketen zurückzuführen ist. Zusätzlich kann ein Bug in bestimmten Windows-Versionen dazu führen, dass das Betriebssystem nicht nahtlos zwischen den TCP- und UDP-Protokollen wechseln kann, was das Problem weiter verschärft.
 
 ## Lösungsansatz
 
-Um das Problem zu lösen, kannst du das UDP-Protokoll für die RDP-Verbindung deaktivieren und stattdessen das stabilere TCP-Protokoll nutzen. Öffne dazu die Eingabeaufforderung (cmd.exe) als Administrator auf deinem PC und führe folgenden Befehl aus:
+Um das Problem zu beheben, kannst du das UDP-Protokoll für die RDP-Verbindung deaktivieren und stattdessen das stabilere TCP-Protokoll verwenden. Öffne dazu die Eingabeaufforderung (cmd.exe) als Administrator auf deinem Rechner und führe folgenden Befehl aus:
 
 ```
 reg add "HKLM\software\policies\microsoft\windows nt\Terminal Services\Client" /v fClientDisableUDP /d 1 /t REG_DWORD
@@ -29,10 +27,8 @@ reg add "HKLM\software\policies\microsoft\windows nt\Terminal Services\Client" /
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/6E6AzroG88ETj2X/preview)
 
-Mit diesem Befehl nutzt dein Rechner für die RDP-Sitzung jetzt das TCP-Protokoll statt UDP. Das kann die Verbindung deutlich stabiler machen, vor allem bei instabilen Netzwerken oder hohem Paketverlust.
+Mit diesem Befehl nutzt dein Rechner nun das TCP-Protokoll anstelle des UDP-Protokolls für die RDP-Sitzung. Das kann die Stabilität der Verbindung verbessern, besonders in Netzwerken mit instabilen Verbindungen oder hohem Paketverlust.
 
 :::info 
-**Bestätige die Eingabe** mit der Enter-Taste und **starte deinen PC danach neu**, damit die Änderung übernommen wird und wirkt.
+**Bestätige die Eingabe** mit der Enter-Taste und **starte deinen Rechner anschließend neu**, damit die Änderung übernommen und wirksam wird.
 :::
-
-<InlineVoucher />

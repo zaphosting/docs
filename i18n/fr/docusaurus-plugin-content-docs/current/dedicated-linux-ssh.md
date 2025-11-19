@@ -1,7 +1,7 @@
 ---
 id: dedicated-linux-ssh
 title: "Serveur dédié : Accès initial avec SSH"
-description: "Découvre les clients SSH populaires pour gérer tes serveurs Linux sans interface graphique et apprends à te connecter en toute sécurité via SSH → En savoir plus maintenant"
+description: "Découvre les clients SSH populaires pour gérer des serveurs Linux sans interface graphique et apprends à te connecter en toute sécurité via SSH → En savoir plus maintenant"
 sidebar_label: Accès initial (SSH)
 services:
   - dedicated
@@ -17,7 +17,7 @@ Les produits serveur Linux n’incluent pas d’interface graphique de gestion p
 
 
 
-| Client SSH | Systèmes d’exploitation supportés | Open-Source |                           Télécharger                           |
+| Client SSH | Systèmes d’exploitation supportés | Open-Source |                           Téléchargement                           |
 | :--------: | :--------------------------: | :---------: | :----------------------------------------------------------: |
 |   Putty    |        Windows, Linux        |     Oui      |               [Clique ici](https://www.putty.org/)                |
 |   Kitty    |        Windows, Linux        |     Oui      |        [Clique ici](http://www.9bis.net/kitty/)                   |
@@ -26,11 +26,11 @@ Les produits serveur Linux n’incluent pas d’interface graphique de gestion p
 | mRemoteNG  |           Windows            |     Oui      |           [Clique ici](https://mremoteng.org/download)            |
 
 
-<InlineVoucher />
+
 
 ## Adresse IP & accès
 
-Dans ce qui suit, la connexion avec le client SSH Putty est expliquée. Dans la fenêtre de configuration, l’adresse IP du serveur et le port SSH 22 sont saisis pour le **nom d’hôte**. Ensuite, la connexion peut être lancée via le bouton **Open**.
+Dans ce qui suit, la connexion avec le client SSH Putty est expliquée. Dans la fenêtre de configuration, l’adresse IP du serveur et le port SSH 22 sont renseignés pour le **nom d’hôte**. Ensuite, la connexion peut être lancée via le bouton **Open**.
 
 
 
@@ -49,7 +49,7 @@ La connexion SSH par mot de passe est désactivée par défaut. Si tu souhaites 
 
 
 :::info
-Lors de la première connexion au serveur, un message de sécurité de Putty apparaît, t’informant qu’aucune clé d’hôte n’a encore été mise en cache dans le registre. Tu peux confirmer avec **Yes** si tu ne veux plus recevoir ce message à chaque connexion. 
+Lors de la première connexion au serveur, un message de sécurité de Putty apparaît, t’informant qu’aucune clé d’hôte n’a encore été mise en cache dans le registre. Tu peux confirmer avec **Yes** si tu ne veux plus recevoir ce message à chaque fois. 
 :::
 
  
@@ -90,9 +90,9 @@ Pour une utilisation optimale du client SSH, il est essentiel de connaître les 
 |  free   | Utilisation mémoire du système. Divisée en RAM et espace SWAP. | free                                         |
 |  kill   |  Termine le processus avec l’ID de processus (PID) donné   | kill [ID]                                    |
 | killall |        Termine tous les processus portant le nom donné        | killall [nom]                               |
-|   mv    |       Déplacer fichiers ou répertoire vers un autre emplacement        | mv chemin_source chemin_nouveau                        |
-|  mkdir  |                    Créer un nouveau répertoire                    | mkdir nom_du_répertoire                          |
-| service |    Démarrer, arrêter, redémarrer un service et vérifier son statut     | service NomDuService start/stop/restart/status |
+|   mv    |       Déplacer fichiers ou répertoire vers un autre emplacement        | mv cheminSource cheminDestination                        |
+|  mkdir  |                    Créer un nouveau répertoire                    | mkdir nomRépertoire                          |
+| service |    Démarrer, arrêter, redémarrer un service et vérifier son statut     | service NomService start/stop/restart/status |
 | reboot  |                      Redémarrer le système                        | reboot                                       |
 
 
@@ -101,14 +101,14 @@ Pour une utilisation optimale du client SSH, il est essentiel de connaître les 
 
 | Commande | Description | Syntaxe
 | ------ | ------------------------------------------ | ---------------------------------------- |
-| ls | Affiche fichiers et dossiers dans le répertoire | ls |
+| ls | Affiche fichiers et dossiers dans un répertoire | ls |
 | cd | changer de répertoire | cd [OPTION] RÉPERTOIRE |
 | cp | Copier fichiers ou répertoires | cp [OPTIONS] SOURCE DESTINATION |
 | mv | déplacer fichier ou répertoire | mv [OPTION] SOURCE DESTINATION |
-| mkdir | Créer un nouveau répertoire | mkdir [OPTION] NOM_DU_RÉPERTOIRE |
+| mkdir | Créer un nouveau répertoire | mkdir [OPTION] NOM_RÉPERTOIRE |
 | rmdir | Supprimer un répertoire existant | rmdir [OPTION] RÉPERTOIRE
 | find | parcourir le système de fichiers | find [OPTIONS] [RÉPERTOIRE] [ACTIONS] |
-| grep | Rechercher dans des fichiers texte | grep [OPTIONS] MOTIF_DE_RECHERCHE [FICHIER(S)] |
+| grep | Rechercher dans des fichiers texte | grep [OPTIONS] MOTIF_RECHERCHE [FICHIER(S)] |
 
 
 
@@ -119,7 +119,7 @@ Pour une utilisation optimale du client SSH, il est essentiel de connaître les 
 | ip | Interroger et configurer les interfaces réseau | ip [OPTIONS] OBJET [COMMANDE [ARGUMENTS]] |
 | netstat | Interroger le statut des interfaces réseau | netstat [OPTIONS] |
 | nslookup | Interroger les infos DNS | nslookup |
-| ping | Vérifier la connexion réseau | ping [OPTIONS] DESTINATION
+| ping | Tester la connexion réseau | ping [OPTIONS] DESTINATION
 
 
-<InlineVoucher />
+

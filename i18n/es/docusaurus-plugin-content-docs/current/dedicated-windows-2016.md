@@ -1,6 +1,6 @@
 ---
 id: dedicated-windows-2016
-title: "Servidor Dedicado: Instalación de Windows Server 2016"
+title: "Servidor dedicado: Instalación de Windows Server 2016"
 description: "Descubre cómo instalar y configurar Windows Server en tu servidor dedicado para un rendimiento y seguridad óptimos → Aprende más ahora"
 sidebar_label: Windows Server 2016
 services:
@@ -17,7 +17,7 @@ A continuación te explicamos paso a paso cómo instalar y configurar el sistema
 Los pasos de instalación y la demostración en esta guía están basados en el sistema operativo Windows Server 2016 (estética 2019 - mismo diseño). Las versiones antiguas del SO pueden diferir en estructura y apariencia. Sin embargo, el procedimiento es similar.
 :::
 
-:::warning Versión más reciente disponible / detalles EOL
+:::warning Nueva versión disponible / Detalles EOL
 
 La última versión de Windows Server de Microsoft es la versión [2025](dedicated-windows.md). Recomendamos usar la versión más reciente para proyectos a largo plazo.
 
@@ -28,19 +28,21 @@ El soporte para versiones antiguas de Windows Server se descontinuará tarde o t
 
 :::
 
-<InlineVoucher />
+
 
 ## Preparación
-Para la instalación y configuración de un sistema operativo, es importante montar inicialmente el ISO correspondiente del sistema operativo. Hay varias formas posibles de montarlo:
+Para la instalación y configuración de un sistema operativo, inicialmente es importante montar el ISO correspondiente del sistema operativo. Hay varias formas posibles de montarlo:
 
-1. Montaje vía la configuración inicial
+1. Montaje vía configuración inicial
 2. Montaje vía iLO (Medios Virtuales)
 3. Montaje vía iLO (Consola Remota)
 
-Si aún no estás familiarizado con montar un archivo ISO, lo mejor es que consultes nuestra [guía de Configuración inicial](dedicated-setup.md) o la guía de [ISO propia](dedicated-iso.md).
+Si aún no estás familiarizado con montar un archivo ISO, lo mejor es consultar nuestra [guía de configuración inicial](dedicated-setup.md) o la guía de [ISO propio](dedicated-iso.md).
+
+
 
 ## Instalación
-Para instalar un Windows Server, necesitarás tener un archivo ISO de tu elección, puedes seleccionar la versión deseada de Windows en nuestro panel web. Alternativamente, puedes elegir un ISO propio, para eso tenemos una guía de [ISO propia](dedicated-iso.md).
+Para instalar un Windows Server, necesitarás tener un archivo ISO de tu elección, puedes seleccionar la versión deseada de Windows en nuestro panel web. Alternativamente, puedes elegir un ISO propio, para eso tenemos una guía de [ISO propio](dedicated-iso.md).
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/DDNsa9zjbXng9Z6/preview)
 
@@ -56,10 +58,10 @@ Presiona "Instalar ahora" para iniciar el proceso de instalación.
 Windows ahora requiere una clave de producto. Introdúcela si tienes una.
 
 :::note
-No vendemos licencias de Windows, es necesario comprar la clave por tu cuenta.
+No vendemos licencias de Windows, es necesario comprar una clave por tu cuenta.
 :::
 
-Puedes comprar claves de producto de Windows en varias tiendas online, verifica que la clave sea válida para tu versión de Windows, ya que existen diferentes versiones.
+Puedes comprar claves de producto de Windows en varias tiendas online, verifica que compres una clave válida para tu versión de Windows, ya que hay diferentes versiones.
 Por ejemplo, en Windows Server 2019 hay dos ediciones, la normal y la edición datacenter.
 Si no estás seguro de qué necesitas exactamente, simplemente presiona "No tengo clave de producto", siempre puedes agregar una clave después.
 
@@ -67,7 +69,7 @@ Si no estás seguro de qué necesitas exactamente, simplemente presiona "No teng
 
 Ahora selecciona la versión que deseas instalar.
 Asegúrate de elegir la versión correcta, no es posible cambiarla después.
-También recuerda elegir una versión con "(Experiencia de Escritorio)", de lo contrario tu Windows será basado en consola.
+También recuerda elegir una versión con "(Experiencia de escritorio)", de lo contrario tu Windows será basado en shell.
 Cuando hayas tomado tu decisión, marca la versión y continúa con "Siguiente".
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/9GRPiS3JpFPyJYk/preview)
@@ -82,12 +84,12 @@ Selecciona 'Personalizada' si quieres hacer una instalación limpia de Windows. 
 
 En el siguiente paso, tendrás que crear particiones en tu servidor dedicado, normalmente no debería haber particiones creadas aún. Si hay entradas, márcalas y presiona eliminar.
 
-Puedes crear varias particiones pequeñas o una grande. Si creas particiones pequeñas, recomendamos que la partición principal de Windows tenga al menos 50GB.
+Puedes crear varias particiones pequeñas o una grande. Si creas particiones pequeñas, recomendamos tener al menos 50GB en la partición principal de Windows.
 Haz clic en "Nuevo" para crear una partición.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/GtBxwdETkNeSGcT/preview)
 
-Puedes simplemente presionar Aplicar si quieres una partición grande. La instalación toma automáticamente el tamaño máximo posible.
+Puedes simplemente presionar Aplicar si quieres una partición grande. La instalación toma automáticamente el tamaño más grande posible.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/xWr3ySfyGdYbxKt/preview)
 
@@ -96,7 +98,7 @@ Windows requiere una pequeña partición del sistema, aceptamos eso presionando 
 ![](https://screensaver01.zap-hosting.com/index.php/s/B2JPRH3pYRt323x/preview)
 
 Si estás conforme con tus particiones, elige la partición donde quieres instalar Windows y continúa con "Siguiente".
-La instalación de Windows ahora hará todo automáticamente, esto puede tardar varios minutos.
+La instalación de Windows ahora hace todo automáticamente, esto puede tardar varios minutos.
 No hay nada más que hacer hasta que la instalación termine.
 
 ## Configuración
@@ -105,7 +107,7 @@ Una vez que el proceso de instalación termine, Windows te pedirá que configure
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/Zmn6zJyPWAM5MHG/preview)
 
-Configura la contraseña que desees.
+Pon la contraseña que desees.
 
 :::info
 Recomendamos elegir una contraseña fuerte con caracteres especiales.
@@ -119,7 +121,7 @@ Después de configurar la contraseña, estarás en la pantalla de bloqueo de Win
 
 Para iniciar sesión en Windows, presiona la combinación de teclas `CTRL + ALT + DELETE`. Puedes hacerlo fácilmente a través de tu consola remota.
 (Lo encontrarás en la consola Java en "Teclado")
-Inicia sesión con tu contraseña ahora.
+Ahora inicia sesión con tu contraseña.
 
 En el siguiente paso es necesario habilitar Escritorio Remoto, así podrás conectarte fácilmente a tu servidor.
 Abre el Explorador de Windows y haz clic derecho en "Este equipo".
@@ -141,13 +143,13 @@ El usuario siempre es Administrator y la contraseña es la que definiste antes.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/w97g9aDrpM8EjpA/preview)
 
-Puedes ignorar la advertencia del certificado, marca la opción "No volver a preguntar para conexiones a este equipo".
-Confirma todo presionando "Sí".
+Puedes ignorar la advertencia del certificado, marca la opción "No volver a preguntarme para conexiones a este equipo".
+Completa todo presionando "Sí".
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/SqqCdBZRYysz8yj/preview)
 
-La Conexión a Escritorio Remoto ahora establecerá una conexión con tu servidor dedicado y podrás usarlo.
-La configuración de red se aplica automáticamente vía DHCP, así que no necesitas hacer más cambios.
+La conexión de Escritorio Remoto ahora establecerá una conexión con tu servidor dedicado y podrás usarlo.
+La configuración de red se aplica automáticamente vía DHCP, así que no se necesitan más cambios.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/9BEEiFAtJ2jCoCk/preview)
 
@@ -156,6 +158,4 @@ Si tienes más preguntas o problemas, ¡nuestro soporte te ayudará!
 :::
 
 ## Conclusión
-¡Felicidades, has instalado con éxito el sistema operativo Windows Server 2016 en tu servidor dedicado! Para más preguntas o ayuda, no dudes en contactar a nuestro equipo de soporte, disponible todos los días para asistirte 🙂.
-
-<InlineVoucher />
+¡Felicidades, has instalado con éxito el sistema operativo Windows Server 2016 en tu servidor dedicado! Para más preguntas o ayuda, no dudes en contactar a nuestro equipo de soporte, disponible todos los días para asistirte 🙂

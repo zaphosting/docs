@@ -11,9 +11,9 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## はじめに
 
-このガイドではNode.js、Deno、Bunのインストール手順を紹介します。これらのコマンドはSSH経由で実行する必要があります。サーバーへのSSH接続方法がわからない場合は、[初回アクセス（SSH）](vserver-linux-ssh.md)をご覧ください。
+このガイドではNode.js、Deno、Bunのインストール手順を紹介します。これらのコマンドはSSH経由で実行する必要があります。SSHでサーバーに接続する方法がわからない場合は、[初回アクセス（SSH）](vserver-linux-ssh.md)をご覧ください。
 
-<InlineVoucher />
+
 
 ## 準備
 
@@ -55,7 +55,7 @@ import TabItem from '@theme/TabItem';
 
 ## インストール
 
-まず、どのJavaScriptランタイムをインストールするか決めましょう。各ランタイムについて詳しく解説しているオンラインリソースはたくさんありますが、このガイドでは基本的な使い方やコード例も紹介します。Node.jsは最も広く使われている人気の選択肢なのでおすすめです。
+まず、どのJavaScriptランタイムをインストールするか決めましょう。各ランタイムについて詳しく解説しているオンラインリソースはたくさんありますが、このガイドでも基本的な使い方やコード例を紹介します。NodeJSは最も広く使われている人気の選択肢なのでおすすめです。
 
 <Tabs>
 <TabItem value="NodeJS Runtime" label="NodeJS" default>
@@ -67,13 +67,13 @@ Node.jsはLinuxディストリビューションのパッケージマネージ�
 <Tabs>
 <TabItem value="apt" label="パッケージマネージャー" default>
 
-以下のコマンドでパッケージマネージャー経由でNode.jsのインストールを開始します。
+以下のコマンドを実行してパッケージマネージャー経由でNode.jsをインストールします。
 
 ```
 apt install nodejs -y
 ```
 
-プロジェクト用にNode.jsパッケージを管理するnpmもインストールする必要があります。
+プロジェクト用にNode.jsパッケージをインストールするにはnpmパッケージマネージャーも必要です。
 
 ```
 apt install npm
@@ -81,18 +81,18 @@ apt install npm
 
 ### Node.jsを最新バージョンにアップデートする
 
-`node -v`でインストールされているNode.jsのバージョンを確認できます。通常は最新ではないので、最新機能を使うためにアップデートが必要です。npmパッケージの`n`を使うと簡単にアップデートできます。
+`node -v`を実行するとインストールされているNode.jsのバージョンが表示されます。通常は最新ではないので、最新機能を使うためにアップデートが必要です。幸いnpmパッケージの`n`を使うと簡単にアップデートできます。
 
-まず`npm install -g n`で`n`をインストールし、`n [version]`（[version]は任意のバージョン番号）を実行して任意のNode.jsバージョンをインストールします。
+まず`npm install -g n`で`n`をインストールし、その後`n [version]`（[version]は任意のバージョン番号）を実行して任意のNode.jsバージョンをインストールします。
 
 :::tip
-基本的には最新のLong Term Support（LTS）バージョンを使うのがおすすめです。`n lts`でインストールできます。
+一般的には最新のLong Term Support（LTS）バージョンを使うのがおすすめです。`n lts`でインストールできます。
 :::
 
 </TabItem>
 <TabItem value="nvm" label="nvm">
 
-nvmを使ったNode.jsのインストールは、複数バージョンを切り替えながら使いたい場合に便利です。
+nvmを使ったNode.jsのインストールは、複数バージョンを切り替えながらそれぞれのパッケージを管理したい場合に便利です。
 
 まずcurlがインストールされていることを確認し、以下のコマンドを実行します。
 
@@ -117,17 +117,17 @@ LTSバージョンは`nvm install --lts`でインストールできます。
 
 ### Node.js & npmの実行
 
-npmはNode.jsの公式パッケージマネージャーで、インターネット上のパッケージをインストールするのに使います。
+npmはNode.jsの公式パッケージマネージャーで、インターネット上のパッケージをインストールする際に使います。
 
 :::note
 npmの全パッケージは[公式サイト](https://www.npmjs.com/)で探せます。
 :::
 
-### 新規プロジェクトの作成
+### 新しいプロジェクトの作成
 
-新しいNode.jsプロジェクトを始めるときは、まず新しいディレクトリを作成（`mkdir [project-name]`）するか空のフォルダに移動して、`npm init`を実行してセットアップを開始します。いくつかの基本情報を入力すると`package.json`ファイルが作成され、Node.jsの設定ファイルとなります。
+新しいNode.jsプロジェクトを始めるときは、まず新しいディレクトリを作成（`mkdir [project-name]`）するか空のフォルダに移動して、`npm init`コマンドを実行してセットアップを開始します。これにより`package.json`ファイルが作成され、Node.jsの設定ファイルとして機能します。
 
-プロジェクト初期化後、`index.js`というファイルを作成してコードを書きます。例として、デフォルトのポート80で簡単なHTTPサーバーを作り、localhostからアクセスされたらテストメッセージを返すコードを以下に示します。
+プロジェクト初期化後、`index.js`というファイルを作成してコードを書きます。例として、デフォルトのポート80でシンプルなHTTPサーバーを作り、localhostからアクセスされたらテストメッセージを返すコードを以下に示します。
 
 ```js
 const http = require('http')
@@ -152,23 +152,19 @@ npmから外部パッケージをインストールするには`npm install [pac
 
 ## Denoランタイムのインストール
 
-Denoは以下のコマンドをコンソールで実行するだけで簡単にインストールできます。
-
-```
-curl -fsSL https://deno.land/install.sh | sh
-```
+Denoのインストールはコンソールで`curl -fsSL https://deno.land/install.sh | sh`と入力するだけで簡単にできます。
 
 :::tip
-インストール済みのバージョンは`deno --version`で確認できます。
+現在のインストールバージョンは`deno --version`で確認できます。
 :::
 
 ### Denoを最新バージョンにアップデートする
 
-`deno upgrade`コマンドで簡単にアップデート可能です。
+Denoのアップデートは`deno upgrade`コマンドで簡単に行えます。
 
 ### Denoの実行
 
-Denoを使い始めるには、新しく`index.ts`ファイルを作成してコードを書きます。例として、デフォルトのポート80で簡単なHTTPサーバーを作り、localhostからアクセスされたらテストメッセージを返すコードを以下に示します。
+Denoを使い始めるには、新しく`index.ts`ファイルを作成してコードを書きます。例として、デフォルトのポート80でシンプルなHTTPサーバーを作り、localhostからアクセスされたらテストメッセージを返すコードを以下に示します。
 
 ```js
 Deno.serve({ port: 80 }, (_req: Request) => {
@@ -179,7 +175,7 @@ Deno.serve({ port: 80 }, (_req: Request) => {
 このコードは`deno run --allow-net index.ts`コマンドで実行でき、ブラウザで`localhost:80`にアクセスして動作を確認できます。
 
 :::info
-Denoはセキュリティを重視して作られているため、`--allow-net`のような権限指定が必要です。
+Denoはセキュリティを重視して作られているため、`--allow-net`のような権限を明示的に許可する必要があります。
 :::
 
 </TabItem>
@@ -193,24 +189,16 @@ Bunの公式インストール方法はcurlかnpmの2通りがあります。
 <Tabs>
 <TabItem value="curl" label="curl" default>
 
-以下のコマンドでサーバーにBunをインストールできます。
-
-```
-curl -fsSL https://bun.sh/install | bash
-```
+`curl -fsSL https://bun.sh/install | bash`を実行するとサーバーにBunがインストールされます。
 
 :::tip
-他のバージョンをインストールしたい場合は、`curl -fsSL https://bun.sh/install | bash -s "bun-v[version]"`を実行してください。
+他のバージョンをインストールしたい場合は、`curl -fsSL https://bun.sh/install | bash -s "bun-v[version]"`を使います。
 :::
 
 </TabItem>
 <TabItem value="npm" label="npm">
 
-npmがすでにインストールされている場合は、以下のコマンドでBunをインストールできます。
-
-```
-npm install -g bun
-```
+npmがすでにインストールされている場合は、`npm install -g bun`でBunをインストールできます。
 
 </TabItem>
 </Tabs>
@@ -220,10 +208,10 @@ npm install -g bun
 Bunは他のJavaScriptエンジンより高速で、Node.jsに似たセットアップが特徴です。空のディレクトリを開いて`bun init`を実行するとセットアップが始まります。
 
 :::note
-選択した言語（JSまたはTS）に応じて、Bunは設定ファイル（jsconfig.jsonまたはtsconfig.json）を作成します。
+選択した言語（JSまたはTS）に応じて、Bunは`jsconfig.json`または`tsconfig.json`の設定ファイルを作成します。
 :::
 
-Bunを使い始めるには、新しく`index.ts`ファイルを作成してコードを書きます。例として、デフォルトのポート80で簡単なHTTPサーバーを作り、localhostからアクセスされたらテストメッセージを返すコードを以下に示します。
+Bunを使い始めるには、新しく`index.ts`ファイルを作成してコードを書きます。例として、デフォルトのポート80でシンプルなHTTPサーバーを作り、localhostからアクセスされたらテストメッセージを返すコードを以下に示します。
 
 ```js
 const server = Bun.serve({
@@ -240,5 +228,3 @@ const server = Bun.serve({
 </Tabs>
 
 このガイドに従えば、Linuxサーバーに人気のJavaScriptランタイムのいずれかを無事インストールできます。
-
-<InlineVoucher />

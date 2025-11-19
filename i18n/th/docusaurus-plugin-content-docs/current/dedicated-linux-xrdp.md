@@ -1,7 +1,7 @@
 ---
 id: dedicated-linux-xrdp
 title: "เซิร์ฟเวอร์เฉพาะ: การติดตั้ง xRDP (รีโมตเดสก์ท็อป)"
-description: "ค้นหาวิธีตั้งค่าการเข้าถึงรีโมตเดสก์ท็อปบนเซิร์ฟเวอร์ Ubuntu และ Debian เพื่อการจัดการและควบคุมที่ง่ายขึ้น → เรียนรู้เพิ่มเติมตอนนี้"
+description: "เรียนรู้วิธีตั้งค่ารีโมตเดสก์ท็อปบนเซิร์ฟเวอร์ Ubuntu และ Debian เพื่อการจัดการและควบคุมที่ง่ายขึ้น → เริ่มเรียนรู้เลย"
 sidebar_label: ติดตั้ง xRDP
 services:
   - dedicated
@@ -17,8 +17,6 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 :::info
 สำคัญ: ต้องใช้ระบบปฏิบัติการอย่างน้อย Ubuntu 18.04.X LTS (Bionic Beaver) หรือ Debian 10 (Buster) แนะนำให้ใช้เวอร์ชันใหม่กว่า  
 :::
-
-<InlineVoucher />
 
 ## การติดตั้ง xRDP
 
@@ -68,7 +66,7 @@ sudo adduser xrdp ssl-cert; sudo systemctl restart xrdp
 sudo adduser xrdp ssl-cert; sudo systemctl restart xrdp
 ```
 
-เมื่อเสร็จสิ้นการตั้งค่า คุณสามารถเชื่อมต่อกับ root หรือข้อมูลผู้ใช้ของเซิร์ฟเวอร์ผ่านรีโมตเดสก์ท็อปได้  
+เมื่อเสร็จสิ้นการตั้งค่า คุณสามารถเชื่อมต่อไปยัง root หรือผู้ใช้ที่ต้องการบนเซิร์ฟเวอร์ผ่านรีโมตเดสก์ท็อปได้  
 พอร์ตดีฟอลต์คือ: 3389
 
 ## การเชื่อมต่อ
@@ -88,5 +86,3 @@ Ubuntu:
 Debian: 
 
 ![xrdp4](https://screensaver01.zap-hosting.com/index.php/s/riHNCEEyKcoLHDy/preview)
-
-<InlineVoucher />

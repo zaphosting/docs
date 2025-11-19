@@ -12,8 +12,6 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 ## Introdução
 Você ainda é novo nessa área e está preocupado que talvez não consiga lidar com a configuração desse serviço ou que possa encontrar dificuldades ao fazer isso? Relaxa! Este guia e nosso assistente de configuração vão te acompanhar em todos os passos para a configuração inicial do seu Servidor Dedicado ZAP.
 
-<InlineVoucher />
-
 ## Preparação
 
 ### Ativando o iLO
@@ -21,7 +19,7 @@ Para a configuração inicial, a interface de administração iLO precisa ser at
 
 ![EN](https://screensaver01.zap-hosting.com/index.php/s/xmAFAt4CXTt7b7c/preview)
 
-Assim que o iLO estiver ativado, o status do iLO deve aparecer como **Ativo**. A sessão do iLO é ativada por padrão por três horas e precisa ser reativada depois, caso queira acessá-la novamente. Agora você pode continuar com a seleção do ISO.
+Assim que o iLO estiver ativado, o status do iLO deve aparecer como **Ativo**. A sessão do iLO é ativada por padrão por três horas e precisa ser reativada depois, caso queira acessar novamente. Agora você pode continuar com a seleção do ISO.
 
 ### Selecionando o ISO
 
@@ -33,13 +31,13 @@ Oferecemos uma ampla variedade de arquivos ISO para os sistemas operacionais mai
 
 | ISO (Sistema Operacional) | Versões                                               |
 | ------------------------- | ----------------------------------------------------- |
-| Debian                    | 12, 11, 10.9, 9.13                                    |
-| Ubuntu                    | 22.04.3, 22.04, 22.02, 18.04                          |
-| FreeBSD                   | 13.0, 12.2, 11.4                                      |
-| Windows                   | 2022 (EN/DE), 2019 (EN/DE), 2016 (EN/DE), 2012 (EN/DE) |
-| CentOS                    | 7.9, 8.3                                              |
-| ArchLinux                 | 2023                                                  |
-| Proxmox                   | 8.0-2, 7.4-1, 7.1-1, 7.0-1, 6.4-1, 6.3-1              |
+| Debian                   | 12, 11, 10.9, 9.13                                    |
+| Ubuntu                   | 22.04.3, 22.04, 22.02, 18.04                          |
+| FreeBSD                  | 13.0, 12.2, 11.4                                      |
+| Windows                  | 2022 (EN/DE), 2019 (EN/DE), 2016 (EN/DE), 2012 (EN/DE)|
+| CentOS                   | 7.9, 8.3                                              |
+| ArchLinux                | 2023                                                  |
+| Proxmox                  | 8.0-2, 7.4-1, 7.1-1, 7.0-1, 6.4-1, 6.3-1              |
 
 Também é possível adicionar e montar seu próprio ISO personalizado. Para mais informações sobre como montar seu próprio arquivo ISO, recomendamos conferir o guia **[ISO Próprio](dedicated-iso.md)**.
 
@@ -47,7 +45,7 @@ Também é possível adicionar e montar seu próprio ISO personalizado. Para mai
 
 ### Montando e inicializando o ISO
 
-Depois que o arquivo ISO for selecionado e inserido com sucesso, o sistema precisa ser reiniciado uma vez para aceitar a mudança e iniciar o boot usando o arquivo ISO. Para isso, basta clicar no botão **Reiniciar**. Pode levar um tempinho até o reinício ser concluído.
+Depois que o arquivo ISO for selecionado e inserido com sucesso, o sistema precisa ser reiniciado uma vez para aceitar a mudança e iniciar o boot usando o arquivo ISO. Para isso, basta clicar no botão **Reiniciar**. A reinicialização pode levar um tempinho para ser concluída.
 
 ![EN](https://screensaver01.zap-hosting.com/index.php/s/zPQagx6yD5nCM7L/preview)
 
@@ -63,5 +61,3 @@ A instalação do sistema operacional será feita na console HTML. Também ofere
 - [Instalar FreeBSD](dedicated-freebsd.md)
 - [Instalar CentOS](dedicated-centos.md)
 - [Instalar Proxmox](dedicated-proxmox.md)
-
-<InlineVoucher />

@@ -1,7 +1,7 @@
 ---
 id: dedicated-raid
 title: "Serveur dédié : Configuration RAID"
-description: "Découvrez comment les configurations RAID améliorent la performance et la redondance des données pour les serveurs dédiés avec SSD → En savoir plus maintenant"
+description: "Découvrez comment les configurations RAID améliorent les performances et la redondance des données pour les serveurs dédiés avec SSD → En savoir plus maintenant"
 sidebar_label: Configurer RAID
 services:
   - dedicated
@@ -11,12 +11,10 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introduction
 
-RAID (Redundant Array of Independent Disks) est une technologie qui combine plusieurs disques durs en un seul lecteur logique pour obtenir une redondance des données et/ou une augmentation des performances. Il existe différents niveaux de RAID offrant diverses combinaisons de répartition des données et de tolérance aux pannes.
-
-<InlineVoucher />
+RAID (Redundant Array of Independent Disks) est une technologie qui combine plusieurs disques durs en un seul lecteur logique afin d’obtenir une redondance des données et/ou une augmentation des performances. Il existe différents niveaux de RAID qui offrent diverses combinaisons de répartition des données et de tolérance aux pannes.
 
 ## Types de RAID disponibles
-Nos serveurs dédiés proposent actuellement 2 baies SSD, ce qui signifie qu’il y a deux configurations RAID possibles. La première est le RAID0, utilisé pour combiner les volumes en un seul grand volume, et le RAID1, utilisé pour dupliquer les volumes et assurer la redondance des données. Nous allons détailler les deux dans les sections suivantes.
+Nos serveurs dédiés proposent actuellement 2 baies SSD, ce qui signifie qu’il y a deux configurations possibles pour le RAID. La première est le RAID0, utilisé pour combiner les volumes en un seul grand volume, et le RAID1, utilisé pour dupliquer les volumes et assurer la redondance des données. Nous allons détailler les deux dans les sections suivantes.
 
 :::info
 Le RAID0 offre des vitesses de lecture et d’écriture légèrement plus rapides, grâce à la présence de deux disques.
@@ -35,10 +33,10 @@ Si votre serveur dédié ne possède qu’un seul SSD, il s’agit automatiqueme
 
 ### RAID1
 Cette configuration est très différente du RAID0, ici vos données sont redondantes, ce qui signifie que tout ce que vous stockez sur votre serveur est dupliqué.
-Elles sont donc miroir sur les deux SSD et seraient disponibles même en cas de panne d’un des disques, donc vos données sont sécurisées avec 1 SSD.
+Elles sont donc miroir sur les deux SSD et seraient disponibles même en cas de défaillance d’un disque, donc vos données sont sécurisées avec 1 SSD.
 
-En cas de panne technique, seul le SSD affecté devra être remplacé et votre serveur reconstruira le RAID, c’est-à-dire qu’il recopiera les données en miroir.
-Cette configuration est particulièrement recommandée pour les données sensibles, mais elle ne remplace pas les sauvegardes.
+En cas de panne technique, seul le SSD affecté devra être remplacé et votre serveur reconstruira le RAID, c’est-à-dire qu’il dupliquera à nouveau les données.
+Cette configuration est fortement recommandée pour les données sensibles, mais elle ne remplace pas les sauvegardes.
 
 :::info
 Des sauvegardes régulières de toutes les données importantes sont indispensables !
@@ -46,7 +44,7 @@ Des sauvegardes régulières de toutes les données importantes sont indispensab
 
 ## L’assistant de configuration
 
-Au démarrage de votre serveur, l’outil de configuration RAID doit être lancé. Cela se fait en appuyant sur `F8` à l’étape de démarrage nécessaire.
+Au démarrage de votre serveur, l’outil de configuration RAID doit être lancé. Cela peut se faire en appuyant sur `F8` à l’étape de démarrage nécessaire.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/cYzj7L6dL5g7255/preview)
 
@@ -56,11 +54,11 @@ Appuyez sur F8 à ce moment pour ouvrir l’outil de configuration RAID
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/L4Lw8oGjxbDR96N/preview)
 
-Après quelques secondes, cet aperçu de configuration apparaîtra.
+Après quelques secondes, ce résumé de configuration apparaîtra.
 
 ***
 
-Plusieurs options de menu sont disponibles :
+Plusieurs options de menu sont maintenant disponibles :
 
 * Créer un lecteur logique  
 Permet de créer un nouveau volume.
@@ -85,7 +83,7 @@ Vous pouvez supprimer la configuration RAID actuelle, par exemple pour en créer
 Vous pouvez démarrer depuis un autre support de stockage, ce qui n’est pas nécessaire dans notre cas.
 
 * Gérer les clés de licence  
-Aucune modification n’est nécessaire ici, la licence est déjà préconfigurée.
+Aucun réglage n’est nécessaire ici, la licence est déjà préconfigurée.
 
 * Paramètres du cache  
 L’option cache peut être ajustée pour augmenter un peu les vitesses de lecture/écriture des SSD.  
@@ -94,7 +92,7 @@ Cela entraîne un léger impact sur les performances.
 
 ### Créer un nouveau RAID
 
-D’abord, vérifiez qu’il n’y a plus de volume, ouvrez `Supprimer le lecteur logique`
+Tout d’abord, vérifiez qu’il n’y a plus de volume, ouvrez `Supprimer le lecteur logique`
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/EbPtmgFyZ3oN6jb/preview)
 
@@ -108,23 +106,23 @@ Confirmez la suppression en appuyant sur `F3`.
 
 ***
 
-Une fois le RAID supprimé avec succès, ouvrez `Créer un lecteur logique`
+Après la suppression réussie du RAID, ouvrez `Créer un lecteur logique`
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/SjP6ZkcWXCKc4kT/preview)
 
 Vous voyez ici tous vos SSD et pouvez choisir la configuration RAID.  
-Évidemment, toutes ces configurations ne sont pas réalisables avec la configuration actuelle.
+Bien sûr, toutes ces configurations RAID ne peuvent pas être mises en œuvre dans la configuration actuelle.
 
-Dans notre exemple, on choisit RAID0 ou RAID1.
+Dans notre exemple, nous choisissons RAID0 ou RAID1.
 
 :::info
-Vous pouvez naviguer entre les menus avec la touche `TAB`
+Vous pouvez naviguer entre les menus en appuyant sur `TAB`
 :::
 
-Quand vous avez choisi votre configuration RAID, validez avec `Entrée`.
+Une fois votre choix de configuration RAID fait, validez en appuyant sur `Entrée`.
 
 :::info
-Vous pouvez fermer l’assistant de configuration avec `ESC`
+Vous pouvez fermer l’assistant de configuration en appuyant sur `ESC`
 :::
 
 ### Sélectionner le volume de démarrage
@@ -144,14 +142,9 @@ Cela se fait facilement dans **Sélectionner le volume de démarrage**, choisiss
 **Appuyez sur `F8` pour enregistrer comme volume de démarrage**<br/>
 ![](https://screensaver01.zap-hosting.com/index.php/s/tqGFzGZGgeo4JjZ/preview)
 
-Enfin, vous pouvez appuyer sur `F8` pour redémarrer directement votre système ou revenir au menu principal avec `Entrée`.  
+Enfin, vous pouvez appuyer sur `F8` pour redémarrer directement votre système ou revenir au menu principal en appuyant sur `Entrée`.  
 Notez que le volume de démarrage doit être défini **à chaque fois** que vous modifiez votre configuration RAID.
-
-
 
 ## Conclusion
 
 Félicitations, vous avez configuré avec succès le RAID sur votre serveur dédié. Pour toute question ou assistance, n’hésitez pas à contacter notre équipe support, disponible tous les jours pour vous aider ! 🙂
-
-
-<InlineVoucher />

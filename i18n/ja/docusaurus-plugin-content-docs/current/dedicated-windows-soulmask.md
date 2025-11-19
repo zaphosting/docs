@@ -12,50 +12,48 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## はじめに
 
-Windows VPS または専用サーバーをお持ちで、そこに Soulmask 専用サーバーサービスをインストールしたいですか？ここがまさにその場所です。このガイドでは、サーバーにこのサービスをインストールする手順をステップバイステップで説明します。
-
-<InlineVoucher />
+Windows VPS または専用サーバーを持っていて、そこに Soulmask 専用サーバーサービスをインストールしたい？それならここがピッタリ。この記事では、サーバーにこのサービスをインストールする手順をステップバイステップで解説するよ。
 
 ## 準備
 
-まずは、リモートデスクトップ（RDP）を使って VPS に接続しましょう。接続方法がわからない場合は、[初回アクセス（RDP）](vserver-windows-userdp.md) ガイドを参考にしてください。
+まずは、リモートデスクトップ（RDP）で VPS に接続しよう。接続方法がわからなければ、[初期アクセス（RDP）](vserver-windows-userdp.md) ガイドを参考にしてね。
 
-サーバーにアクセスしたら、必要な専用サーバーファイルをダウンロードするために **SteamCMD** をセットアップする必要があります。SteamCMD は Steam クライアントの **コマンドライン（CLI）版** で、Steam ワークショップや専用サーバーファイルを簡単にダウンロードできるツールです。[Valve公式サイトからSteamCMDをダウンロード](https://developer.valvesoftware.com/wiki/SteamCMD)するか、直接[こちら](https://steamcdn-a.akamaihd.net/client/installer/steamcmd.zip)からダウンロードしてください。
+サーバーにアクセスできたら、専用サーバーファイルをダウンロードするために **SteamCMD** をセットアップしよう。SteamCMD は Steam クライアントの **コマンドライン（CLI）版** で、Steam ワークショップや専用サーバーファイルを簡単にダウンロードできるツールだよ。[Valve公式サイトからSteamCMDをダウンロード](https://developer.valvesoftware.com/wiki/SteamCMD)するか、直接[こちら](https://steamcdn-a.akamaihd.net/client/installer/steamcmd.zip)からもOK。
 
-サーバーのどこかに新しいフォルダを作成します。ここでは例として `steamcmd` と名付けます。ダウンロードフォルダにある **steamcmd.zip** ファイルを見つけて、この `steamcmd` フォルダに移動させましょう。次に、ファイルを右クリックして Windows の解凍機能や 7zip、Winrar などのアプリで解凍します。これで **steamcmd.exe** ファイルが展開されます。
+サーバーのどこかに新しいフォルダを作成しよう。ここでは `steamcmd` と名付けるよ。ダウンロードフォルダにある **steamcmd.zip** を見つけて、それを `steamcmd` フォルダに移動。次に、右クリックして Windows の解凍機能や 7zip、Winrar などで解凍しよう。すると **steamcmd.exe** ファイルが展開されるはず。
 
-**steamcmd.exe** を実行し、インストールが完全に完了するまで待ちます。
+あとは **steamcmd.exe** を実行して、インストールが完了するまで待とう。
 
 ![](https://github.com/zaphosting/docs/assets/42719082/ffb8e8a1-26e3-4d16-9baf-938e17ec1613)
 
-**Loading Steam API.... OK** というメッセージが表示されたら、インストールは成功です。次のセクションで Soulmask 専用サーバーのインストールを始めましょう。
+**Loading Steam API.... OK** のメッセージが表示されたら、インストール完了！次のセクションで Soulmask 専用サーバーのインストールに進もう。
 
 ## インストール
 
-インストール後、先ほど実行した **steamcmd.exe** のコマンドプロンプトでコマンドを実行できるようになります。何か操作をする前に、まずは **anonymous** ユーザーでログインする必要があります。以下のコマンドを入力してください：`login anonymous`
+インストール後、先ほど実行した **steamcmd.exe** のコマンドプロンプトでコマンドを実行できるようになるよ。まずはログインが必要で、匿名ユーザーでログインするには以下のコマンドを使おう：`login anonymous`
 
-ログインできたら、ファイルのダウンロードを開始しましょう。
+ログインできたら、ファイルのダウンロードを開始できるよ。
 
 :::tip
-任意：サーバーのインストール先ディレクトリを指定したい場合は、`force_install_dir [パス]` コマンドを使います。`[パス]` はサーバー用に使いたいパスに置き換えてください。例：
+任意：サーバーのインストール先ディレクトリを指定したい場合は、`force_install_dir [パス]` コマンドを使って `[パス]` を希望のパスに置き換えてね。例：
 ```
 force_install_dir C:\Soulmask-Server
 ```
 :::
 
-次に、`app_update 3017310` コマンドを実行するとダウンロードが始まります。App ID **3017310** は **Soulmask** のアプリケーションIDです。
+次に、`app_update 3017310` コマンドを実行するとダウンロードが始まるよ。App ID **3017310** は **Soulmask** のアプリケーションIDだよ。
 
 ![](https://github.com/zaphosting/docs/assets/42719082/b265a784-cf9a-43dc-b100-376f080e18f3)
 
 :::info
-ダウンロードが完了するまで中断しないでください。少し時間がかかるかもしれませんが、じっくり待つ価値ありです！ :)
+ダウンロードが完了するまで中断しないでね。少し時間がかかるけど、我慢する価値あり！ :)
 :::
 
-ダウンロードが完了したら、ダウンロード先フォルダに移動してください。そこにサーバーファイルがすべてあります。**StartServer.bat** を使ってサーバーを起動できますが、まずはポートフォワーディングとサーバー設定を行うことをおすすめします。
+ダウンロードが完了したら、ダウンロード先フォルダに移動しよう。ここにサーバーファイルが全部あるよ。**StartServer.bat** を使ってサーバーを起動できるけど、まずはポートフォワーディングとサーバー設定を済ませるのがおすすめ。
 
 ### サーバーのポートフォワーディング設定
 
-サーバーを外部からアクセス可能にするには、専用サーバープロセスが使うポートのポートフォワーディング設定を変更する必要があります。PowerShell コマンドで設定する方法（簡単）か、Windows Defender ファイアウォールの設定画面から通常の方法で設定できます。
+サーバーを外部からアクセス可能にするには、専用サーバープロセスが使うポートのポートフォワーディング設定を変更する必要があるよ。PowerShell コマンドで設定する方法（簡単）か、Windows Defender ファイアウォールの設定画面から通常の方法で設定できるよ。
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
@@ -63,13 +61,13 @@ import TabItem from '@theme/TabItem';
 <Tabs>
 <TabItem value="powershell" label="PowerShellで設定" default>
 
-Windowsの検索ボックスを開き、**PowerShell** を検索します。右クリックして **管理者として実行** するのを忘れずに。権限がないと設定が正しく反映されません。
+Windowsの検索ボックスを開いて **PowerShell** を検索。右クリックして **管理者として実行** しよう。これで権限が正しく付与されて設定が反映されるよ。
 
 :::info
-必ず管理者モードで PowerShell を実行してください。そうしないと設定が適用されないことがあります。
+管理者モードで PowerShell を実行しないと設定が正しく適用されないから注意してね。
 :::
 
-次に、以下のコマンドを PowerShell にコピー＆ペーストして実行してください：
+次に、以下のコマンドを PowerShell にコピー＆ペーストして実行しよう：
 ```
 New-NetFirewallRule -DisplayName "Soulmask Server" -Direction Inbound -LocalPort 8777,27015  -Protocol TCP -Action Allow
 New-NetFirewallRule -DisplayName "Soulmask Server" -Direction Inbound -LocalPort 8777,27015 -Protocol UDP -Action Allow
@@ -77,49 +75,47 @@ New-NetFirewallRule -DisplayName "Soulmask Server" -Direction Outbound -LocalPor
 New-NetFirewallRule -DisplayName "Soulmask Server" -Direction Outbound -LocalPort 8777,27015 -Protocol UDP -Action Allow
 ```
 
-これで Soulmask サーバーが外部からアクセス可能になるために必要なファイアウォールルールが自動で作成されます。
+これで Soulmask サーバーが外部からアクセス可能になるために必要なファイアウォールルールが自動で作成されるよ。
 
 </TabItem>
 
 <TabItem value="windefender" label="Windows Defenderで設定">
 
-Windowsの検索機能で **Windows ファイアウォールの詳細設定** を開きます。基本の Windows ファイアウォール画面を開いた場合は、**詳細設定** をクリックして必要な画面を表示してください。
+Windowsの検索で **Windows Firewall Settings with Advanced Security** を開こう。基本の Windows ファイアウォール画面が開いたら、**詳細設定** をクリックして必要なウィンドウを開く必要があるかも。
 
 ![](https://github.com/zaphosting/docs/assets/42719082/5fb9f943-7e51-4d8f-9df4-2f5ff60857d3)
 
-Soulmask サーバー用に新しいルールを作成します。以下のプロトコルとポートで、受信ルールと送信ルールの両方を追加してください：
+Soulmask サーバー用に新しいルールを作成しよう。受信と送信のルールをそれぞれ以下のプロトコルとポートで追加してね：
 - TCP 受信・送信：8777, 27015
 - UDP 受信・送信：8777, 27015
 
-設定方法がわからない場合は、[ポートフォワーディング（ファイアウォール）](vserver-windows-port.md) ガイドを参考にしてください。
+設定方法がわからなければ、[ポートフォワーディング（ファイアウォール）](vserver-windows-port.md) ガイドを参考にしてね。
 
 </TabItem>
 </Tabs>
 
-これらのルールを追加したら、サーバーは外部からアクセス可能になります。ゲームのメインメニューからマルチプレイヤーを選び、「IPダイレクト接続」でサーバーの IP アドレスとポート（デフォルトは 3724、設定した場合はそのポート）を入力して接続できます。
+これらのルールを追加したら、サーバーは外部からアクセス可能になるよ。ゲームのメインメニューからマルチプレイヤーを開き、「IPダイレクト接続」を選択して、サーバーの IP アドレスと設定したポート（デフォルトは 3724）を入力すれば接続できるよ。
 
-サーバーにアクセスする前に、次のセクションでサーバー設定を行うことをおすすめします。
+アクセス前に、次のセクションでサーバー設定を済ませるのがおすすめ。
 
 ## 設定
 
-ここまでで Soulmask サーバーのセットアップは完了です。さらに細かい設定は、ルートディレクトリにある **StartServer.bat** ファイルや、`../WS/Saved/Config/WindowsServer` フォルダ内の **GameUserSettings.ini** ファイルを編集して行えます。
+ここまでで Soulmask サーバーのセットアップは完了。さらに細かい設定は、ルートディレクトリにある **StartServer.bat** ファイルや、`../WS/Saved/Config/WindowsServer` フォルダ内の **GameUserSettings.ini** ファイルを編集して行えるよ。
 
-利用可能なパラメータや設定オプションは、[サーバー設定](soulmask-configuration.md) ガイドをチェックしてください。
+利用可能なパラメータや設定オプションは、[サーバー設定](soulmask-configuration.md) ガイドをチェックしてね。
 
-## サーバーの起動と接続
+## サーバーの起動＆接続
 
-いよいよサーバーを起動しましょう。ルートディレクトリに移動して **StartServer.bat** を実行すると、コマンドプロンプトでサーバーのコンソールが開き、起動プロセスが始まります。
+いよいよサーバーを起動しよう。ルートディレクトリに移動して **StartServer.bat** を実行すると、コマンドプロンプトでサーバーのコンソールが開き、起動が始まるよ。
 
 :::tip
-もしサーバーが起動せず、コマンドプロンプトがすぐに閉じてしまう場合は、`../WS/Saved/Logs` フォルダ内の最新ログを確認して原因を調べてください。
+もしサーバーが起動しなくてコマンドプロンプトがすぐ閉じてしまう場合は、`../WS/Saved/Logs` フォルダの最新ログを確認して原因を探ってみて。
 
-Windows 専用サーバーバイナリで Steam オンラインサービスの起動に失敗する問題がよくあります。これはパッケージングの不具合が原因です。エラーが Steam 関連の場合は、ルートディレクトリから以下のファイルを `../WS/Binaries/Win64` フォルダに移動してください：`steamclient64.dll`、`tier0_s64.dll`、`vstdlib_s64.dll`。その後、再度サーバーを起動すると正常に起動するはずです。
+Windows 専用サーバーバイナリで Steam オンラインサービスの起動失敗がよくある問題としてあるよ。もし Steam 関連のエラーが出たら、ルートディレクトリから以下のファイルを `../WS/Binaries/Win64` フォルダに移動してみて：`steamclient64.dll`、`tier0_s64.dll`、`vstdlib_s64.dll`。その後、再度サーバーを起動してみてね。
 :::
 
-これでゲーム内のマルチプレイヤーメニューから、サーバーの IP アドレスとポート 8777 を入力して直接接続できるようになります。
+これでゲーム内のマルチプレイヤーメニューからサーバーの IP アドレスとポート 8777 を入力して直接接続できるよ。
 
-サーバーリストに表示させたい場合は、[サーバー設定](soulmask-configuration.md) ガイドを参考にして、**StartServer.bat** ファイルに適切な `-SteamServerName` パラメータを追加してください。保存後、再度バッチファイルを実行しましょう。
+サーバーリストに表示させたい場合は、[サーバー設定](soulmask-configuration.md) ガイドを参考にして、**StartServer.bat** に適切な `-SteamServerName` パラメータを追加しよう。保存したらバッチファイルを再実行してね。
 
-これで Windows 専用サーバーに Soulmask を無事インストールできました。
-
-<InlineVoucher />
+これで Windows 専用サーバーに Soulmask を無事インストール完了だよ！

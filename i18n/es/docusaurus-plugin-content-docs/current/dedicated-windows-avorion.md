@@ -1,7 +1,7 @@
 ---
 id: dedicated-windows-avorion
 title: "Servidor Dedicado: Configuración del Servidor Dedicado Avorion en Windows"
-description: "Descubre cómo configurar el Servidor Dedicado Avorion en tu VPS Windows para un hosting de juego sin interrupciones → Aprende más ahora"
+description: "Descubre cómo configurar el Servidor Dedicado Avorion en tu VPS Windows para un alojamiento de juego sin interrupciones → Aprende más ahora"
 sidebar_label: Avorion
 services:
   - dedicated
@@ -14,16 +14,15 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ¿Tienes un VPS Windows y quieres instalar el servicio de Servidor Dedicado Avorion en él? Estás en el lugar correcto. En esta guía, te explicaremos paso a paso cómo instalar este servicio en tu servidor.
 
-<YouTube videoId="x10ssP09qtg" imageSrc="https://screensaver01.zap-hosting.com/index.php/s/7Nfiz2kgc9Sxbts/preview" title="Cómo Configurar el Servidor Dedicado Avorion en un VPS Windows" description="¿Sientes que entiendes mejor cuando ves las cosas en acción? ¡Te tenemos cubierto! Sumérgete en nuestro video que te lo explica todo. Ya sea que tengas prisa o prefieras absorber la información de la forma más entretenida posible."/>
-<InlineVoucher />
+<YouTube videoId="x10ssP09qtg" imageSrc="https://screensaver01.zap-hosting.com/index.php/s/7Nfiz2kgc9Sxbts/preview" title="Cómo Configurar el Servidor Dedicado Avorion en un VPS Windows" description="¿Sientes que entiendes mejor cuando ves las cosas en acción? ¡Te tenemos cubierto! Sumérgete en nuestro video que lo explica todo para ti. Ya sea que tengas prisa o simplemente prefieras absorber la información de la forma más entretenida posible."/>
 
 ## Preparación
 
-Para empezar, conéctate a tu VPS mediante Escritorio Remoto (RDP). Usa nuestra [Guía de Acceso Inicial (RDP)](vserver-windows-userdp.md) si necesitas ayuda para hacerlo.
+Para comenzar, conéctate a tu VPS mediante Escritorio Remoto (RDP). Usa nuestra [Guía de Acceso Inicial (RDP)](vserver-windows-userdp.md) si necesitas ayuda para hacerlo.
 
-Una vez que hayas accedido a tu servidor, necesitarás configurar **SteamCMD** para poder descargar los archivos necesarios del servidor dedicado. SteamCMD es la versión **línea de comandos (CLI)** del cliente Steam y es la herramienta que te permite descargar fácilmente una variedad de archivos de Steam Workshop y servidores dedicados. Descarga [SteamCMD desde la web oficial de Valve](https://developer.valvesoftware.com/wiki/SteamCMD) o directamente [aquí](https://steamcdn-a.akamaihd.net/client/installer/steamcmd.zip).
+Una vez que hayas accedido a tu servidor, necesitarás configurar **SteamCMD** para poder descargar los archivos necesarios del servidor dedicado. SteamCMD es la versión de **línea de comandos (CLI)** del cliente Steam y es la herramienta que te permite descargar fácilmente una variedad de archivos del taller de Steam y servidores dedicados. Descarga [SteamCMD desde la web oficial de Valve](https://developer.valvesoftware.com/wiki/SteamCMD) o directamente [aquí](https://steamcdn-a.akamaihd.net/client/installer/steamcmd.zip).
 
-Crea una nueva carpeta en algún lugar de tu servidor, en este caso la llamaremos `steamcmd`. Ve a tu carpeta de Descargas, encuentra el archivo **steamcmd.zip** que acabas de descargar y colócalo dentro de la carpeta `steamcmd`. Ahora descomprime el archivo haciendo clic derecho y usando la función de descompresión de Windows, o cualquier aplicación como .7zip o Winrar. Esto debería generar un archivo **steamcmd.exe** descomprimido.
+Crea una nueva carpeta en algún lugar de tu servidor, en este caso la llamaremos `steamcmd`. Ve a tu carpeta de Descargas, encuentra el archivo **steamcmd.zip** que acabas de descargar y colócalo dentro de la carpeta `steamcmd`. Ahora descomprime el archivo haciendo clic derecho y usando la función de descompresión de Windows directamente, o con cualquier aplicación como .7zip o Winrar. Esto debería generar un archivo **steamcmd.exe** descomprimido.
 
 Simplemente ejecuta **steamcmd.exe** y espera hasta que el proceso de instalación se complete por completo.
 
@@ -44,7 +43,7 @@ force_install_dir C:\Avorion-Server
 ```
 :::
 
-Ahora ejecuta el comando `app_update 565060` que comenzará la descarga. El ID de la aplicación **565060** corresponde a **Avorion**.
+Ahora ejecuta el comando `app_update 565060` que comenzará la descarga. El ID de la aplicación **565060** es la aplicación **Avorion**.
 
 ![](https://github.com/zaphosting/docs/assets/42719082/29931eec-fd19-4806-88dc-69e585e42370)
 
@@ -52,11 +51,11 @@ Ahora ejecuta el comando `app_update 565060` que comenzará la descarga. El ID d
 Por favor, no interrumpas el proceso antes de que termine para evitar errores. Puede tardar un momento, ¡pero vale la pena ser paciente! :)
 :::
 
-Una vez completado, ve al directorio de descarga donde se han guardado todos los archivos del servidor. Aquí, deberías hacer una copia del archivo **server.bat** y renombrar la copia a **startserver.bat** o algo similar. Usarás este nuevo archivo `.bat` para iniciar el servidor y para poder editar las opciones de configuración del servidor en la siguiente sección. Recomendamos configurar el reenvío de puertos y tu servidor primero.
+Una vez completado, ve al directorio de descarga donde se han guardado todos los archivos del servidor. Aquí, deberías hacer una copia del archivo **server.bat** y renombrar la copia a **startserver.bat** o algo similar. Usarás este nuevo archivo `.bat` para iniciar el servidor y para poder editar las opciones de configuración del servidor en la siguiente sección. Recomendamos configurar primero el reenvío de puertos y la configuración del servidor.
 
 ### Reenvío de puertos para tu servidor
 
-Para asegurarte de que tu servidor sea accesible al público, debes modificar las reglas de reenvío de puertos para los puertos que usa el proceso del servidor dedicado. Puedes hacerlo mediante comandos de Powershell, que es más fácil, o a través de la página del Firewall de Windows Defender.
+Para asegurarte de que tu servidor sea accesible públicamente, debes modificar las reglas de reenvío de puertos para los puertos que usa el proceso del servidor dedicado. Puedes hacerlo mediante comandos de Powershell, que es más fácil, o a través de la página del Firewall de Windows Defender.
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
@@ -64,7 +63,7 @@ import TabItem from '@theme/TabItem';
 <Tabs>
 <TabItem value="powershell" label="Vía Powershell" default>
 
-Abre el buscador de Windows y busca **Powershell**. Asegúrate de hacer clic derecho y **Ejecutar como Administrador** para que los permisos estén disponibles y todo funcione correctamente.
+Abre el buscador de Windows y busca **Powershell**. Asegúrate de hacer clic derecho y seleccionar **Ejecutar como Administrador** para que los permisos estén disponibles y todo funcione correctamente.
 
 :::info
 Asegúrate de ejecutar Powershell en modo Administrador, de lo contrario los ajustes podrían no aplicarse correctamente.
@@ -78,7 +77,7 @@ New-NetFirewallRule -DisplayName "Avorion Server" -Direction Outbound -LocalPort
 New-NetFirewallRule -DisplayName "Avorion Server" -Direction Outbound -LocalPort 27000,27003,27020,27021 -Protocol UDP -Action Allow
 ```
 
-Estos comandos crearán automáticamente las reglas de firewall necesarias para que tu servidor Avorion sea accesible al público.
+Estos comandos crearán automáticamente las reglas de firewall necesarias para que tu servidor Avorion sea accesible públicamente.
 
 </TabItem>
 
@@ -88,7 +87,7 @@ Usa la función de búsqueda de Windows para abrir **Configuración del Firewall
 
 ![](https://github.com/zaphosting/docs/assets/42719082/5fb9f943-7e51-4d8f-9df4-2f5ff60857d3)
 
-Debes crear nuevas reglas para tu servidor Avorion. Para ello, haz clic en las reglas entrantes y salientes como se describe a continuación y añádelas para los siguientes protocolos y puertos:
+Debes crear nuevas reglas para tu servidor Avorion. Para hacerlo, haz clic en las reglas entrantes y salientes como se describe a continuación y añádelas para los siguientes protocolos y puertos:
 - TCP entrante y saliente: 27000
 - UDP entrante y saliente: 27000, 27003, 27020, 27021
 
@@ -97,15 +96,15 @@ Por favor, usa nuestra [Guía de Reenvío de Puertos (Firewall)](vserver-windows
 </TabItem>
 </Tabs>
 
-Una vez que hayas añadido estas reglas, tu servidor será accesible, lo que significa que podrás conectarte a él mediante la dirección IP de tu servidor. Para ello, selecciona tu personaje en el menú principal, ve a la pestaña **Buscar Juegos** y pulsa **Agregar Servidor**. Aquí, introduce la IP de tu servidor junto con el puerto (15636 por defecto) y la contraseña del servidor (si la has configurado, si no déjalo vacío).
+Una vez que hayas añadido estas reglas, tu servidor será accesible, lo que significa que podrás conectarte a él mediante la dirección IP de tu servidor. Puedes hacerlo seleccionando tu personaje en el menú principal, yendo a la pestaña **Buscar Juegos** y pulsando **Agregar Servidor**. Aquí, introduce la IP de tu servidor junto con el puerto (15636 por defecto) y la contraseña del servidor (si la configuraste, si no déjalo vacío).
 
-Recomendamos configurar primero los ajustes de tu servidor en la siguiente sección antes de acceder a él.
+Recomendamos que configures primero los ajustes de tu servidor en la siguiente sección antes de acceder a él.
 
 ## Configuración
 
-A estas alturas, ya has terminado la configuración de tu servidor Avorion. Puedes configurar los ajustes de tu servidor directamente a través del archivo **startserver.bat** que copiaste antes. Ábrelo con un editor de texto como el bloc de notas y configura los parámetros de tu servidor.
+Para este punto, ya has terminado la configuración de tu servidor Avorion. Puedes configurar los ajustes de tu servidor directamente a través del archivo **startserver.bat** que copiaste antes. Abre el archivo con un editor de texto como el bloc de notas y configura los parámetros de tu servidor.
 
-Si quieres editar parámetros y configuraciones específicas del mundo, tendrás que acceder a tus guardados de galaxia y editar el archivo de configuración **server.ini**. Este se almacenará en tu AppData de Windows, accesible mediante la siguiente ruta:
+Si quieres editar parámetros y configuraciones específicas del mundo, tendrás que acceder a tus guardados de galaxia y editar el archivo de configuración **server.ini**. Este se almacenará en el AppData de Windows, accesible mediante la siguiente ruta:
 ```
 ../AppData/Roaming/Avorion/galaxies
 ```
@@ -123,5 +122,3 @@ Ahora es momento de iniciar tu servidor. Ve al directorio base de tu servidor Av
 ## Conclusión
 
 ¡Felicidades, has instalado y configurado con éxito el servidor Avorion en tu VPS! Si tienes más preguntas o problemas, contacta con nuestro equipo de soporte, que está disponible para ayudarte todos los días.
-
-<InlineVoucher />
