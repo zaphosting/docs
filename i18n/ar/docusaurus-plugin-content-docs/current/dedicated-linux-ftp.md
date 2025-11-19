@@ -1,7 +1,7 @@
 ---
 id: dedicated-linux-ftp
 title: "سيرفر مخصص: خدمة FTP لا تعمل - استكشاف الأخطاء وإصلاحها"
-description: "تعرف على كيفية استكشاف مشاكل الوصول إلى FTP على VPS الخاص بك لاستعادة اتصال السيرفر وإدارة سيرفر الألعاب أو Teamspeak بفعالية → تعرف على المزيد"
+description: "تعرف على كيفية استكشاف مشاكل الوصول إلى FTP على VPS الخاص بك لاستعادة اتصال السيرفر وإدارة سيرفر الألعاب أو Teamspeak بفعالية → تعرف أكثر no"
 sidebar_label: خدمة FTP لا تعمل
 services:
   - dedicated
@@ -15,9 +15,9 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 تنبيه: الخطوات التالية تعمل فقط على VPS الخاص بك إذا تم تثبيت واجهة الويب الخاصة بـ ZAP!
 :::
 
-إذا لم يكن بالإمكان الوصول إلى السيرفر الذي تم إنشاؤه عبر FTP، فعادةً ما تكون خدمة FTP (ProFTPD) غير مفعلة. في حالات نادرة، قد يكون السبب تكوين خاطئ أو منفذ مشغول، أي أن منفذ FTP 21 مستخدم / محجوز من قبل برنامج آخر.
+إذا لم تتمكن من الوصول إلى السيرفر الذي أنشأته عبر FTP، فعادةً ما تكون خدمة FTP (ProFTPD) غير مفعلة. وفي حالات نادرة قد يكون السبب تكوين خاطئ أو منفذ مشغول، أي أن منفذ FTP 21 مستخدم / محجوز من قبل برنامج آخر.
 
-<InlineVoucher />
+
 
 ## تحقق من مشكلة FTP بشكل أدق:
 
@@ -34,7 +34,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/FFJo8XeEJcX7RTM/preview)
 
-بما أنه واضح الآن أن الاتصال عبر WebFTP أو أداة FTP غير ممكن، عليك إلقاء نظرة أدق على خدمة FTP على VPS.
+بما أنه واضح الآن أن الاتصال عبر WebFTP أو أداة FTP غير ممكن، عليك إلقاء نظرة أعمق على خدمة FTP في VPS.
 
 ### تحقق من حالة ProFTPD
 
@@ -42,7 +42,9 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/zsg8qwFJsWEAZkA/preview)
 
-هنا يمكنك رؤية أن الحالة تظهر "dead"، بمعنى أن الخدمة غير متصلة وبالتالي غير متاحة.
+
+هنا يمكنك رؤية أن الحالة تظهر "dead"، أي أن الخدمة غير متصلة وبالتالي غير متاحة.
+
 
 ### إعادة تشغيل خدمة FTP
 يمكن إعادة تشغيل خدمة FTP بالأمر التالي:
@@ -53,7 +55,7 @@ service proftpd start
 
 إذا لم يكن هناك رد بعد تنفيذ الأمر، فهذا يعني عادةً أن الخدمة أصبحت متصلة / متاحة مرة أخرى.
 
-يمكن التحقق من ذلك مجددًا باستخدام الأمر "service proftpd status". يجب أن تظهر كما يلي:
+يمكنك التحقق من ذلك مجددًا باستخدام الأمر "service proftpd status". يجب أن تظهر كما يلي:
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/8QNNnoMFYG4rt2D/preview)
 
@@ -64,5 +66,3 @@ service proftpd start
 
 ### تم حل المشكلة
 ✅ خدمة FTP (ProFTPD) الآن مفعلة / متصلة ولا يوجد ما يمنع تبادل البيانات!
-
-<InlineVoucher />

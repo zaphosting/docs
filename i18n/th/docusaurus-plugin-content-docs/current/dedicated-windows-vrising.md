@@ -10,22 +10,22 @@ services:
 import YouTube from '@site/src/components/YouTube/YouTube';
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
-<YouTube videoId="to2ghqNpGLA" imageSrc="https://screensaver01.zap-hosting.com/index.php/s/yCRYqJAjTTp4YFf/preview" title="วิธีตั้งค่า V RISING Dedicated Windows Server!" description="รู้สึกเข้าใจมากขึ้นเมื่อได้เห็นของจริง? เราจัดให้! ดำดิ่งสู่คลิปวิดีโอที่อธิบายทุกอย่างให้คุณแบบชัดเจน ไม่ว่าคุณจะรีบหรือชอบเรียนรู้แบบสนุก ๆ!"/>
+<YouTube videoId="to2ghqNpGLA" imageSrc="https://screensaver01.zap-hosting.com/index.php/s/yCRYqJAjTTp4YFf/preview" title="วิธีตั้งค่า V RISING Dedicated Windows Server!" description="รู้สึกว่าคุณเข้าใจได้ดีขึ้นเมื่อเห็นของจริง? เราจัดให้! ดำดิ่งสู่คลิปวิดีโอของเราที่อธิบายทุกอย่างให้คุณ ไม่ว่าคุณจะรีบหรือชอบเรียนรู้แบบสนุก ๆ!"/>
 
-<InlineVoucher />
 
-## ข้อมูลพื้นฐาน:  
-ต้องใช้เซิร์ฟเวอร์ที่รันบน Windows Server 2016/2019 ที่มี CPU อย่างน้อย 4 คอร์ ความเร็ว 2.4 GHz (AMD/Intel) และ RAM อย่างน้อย 4GB (DDR3/4) พร้อมพื้นที่ว่างบนดิสก์ 6GB (SSD หรือดีกว่า แนะนำ) เซิร์ฟเวอร์ต้องใช้สถาปัตยกรรม 64 บิต
+
+## ข้อมูลพื้นฐาน: 
+ต้องใช้เซิร์ฟเวอร์ที่รันบน Windows Server 2016/2019 โดยมี CPU อย่างน้อย 4 คอร์ ที่ความเร็ว 2.4 GHz (AMD/Intel) และ RAM อย่างน้อย 4GB (DDR3/4) พร้อมพื้นที่ว่างบนดิสก์ 6GB (SSD หรือดีกว่า แนะนำ) เซิร์ฟเวอร์ต้องใช้สถาปัตยกรรม 64 บิต
 
 ## ขั้นตอนที่ 1 สร้างโฟลเดอร์สำหรับ V-Rising
 
-ก่อนอื่น คุณต้องเชื่อมต่อกับเซิร์ฟเวอร์ของคุณโดยใช้ [Initial Access (RDP)](vserver-windows-userdp.md) หลังจากเชื่อมต่อแล้ว ให้สร้างโฟลเดอร์ใหม่บนเซิร์ฟเวอร์เพื่อเก็บไฟล์ของ V-Rising  
+ก่อนอื่น คุณต้องเชื่อมต่อกับเซิร์ฟเวอร์ของคุณโดยใช้ [Initial Access (RDP)](vserver-windows-userdp.md) หลังจากเชื่อมต่อแล้ว ให้สร้างโฟลเดอร์ใหม่บนเซิร์ฟเวอร์ของคุณสำหรับติดตั้งไฟล์ของ V-Rising  
 ในตัวอย่างนี้ เราจะสร้างโฟลเดอร์ใหม่บน Desktop  
 ทำได้โดยคลิกขวา แล้วเลือก "ใหม่ -> โฟลเดอร์"
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/SzB3TgsSkHRAaAB/preview)
 
-ตั้งชื่อโฟลเดอร์ตามที่คุณต้องการ ในตัวอย่างนี้เราจะตั้งชื่อว่า "VRising"
+คุณตั้งชื่อโฟลเดอร์อะไรก็ได้ ในตัวอย่างนี้เราจะตั้งชื่อว่า "VRising"
 
 ## ขั้นตอนที่ 2 ดาวน์โหลด SteamCMD ไปยังเซิร์ฟเวอร์ Windows ของคุณ
 
@@ -40,7 +40,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 เพื่อความสะดวก เราจะคัดลอกไฟล์ steamcmd.zip ไปยังโฟลเดอร์ VRising ที่สร้างไว้บน Desktop  
 คลิกที่ไฟล์แล้วกด "CTRL+C"  
 จากนั้นเปิดโฟลเดอร์ VRising บน Desktop แล้วกด "CTRL+V"  
-ตอนนี้คุณจะเห็นไฟล์อยู่ในโฟลเดอร์ VRising
+ตอนนี้คุณจะเห็นไฟล์ในโฟลเดอร์ VRising
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/kKGt3gy2yDQXSLx/preview)
 
@@ -57,21 +57,24 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## ขั้นตอนที่ 3 ดาวน์โหลดไฟล์ V Rising
 
-หลังจากติดตั้งไฟล์ steamcmd แล้ว คุณจะเห็นหน้าต่างแบบนี้
+หลังจากติดตั้งไฟล์ steamcmd แล้ว คุณจะเห็นหน้าต่างนี้
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/GAb4TgCNbpiW2F2/preview)
 
-ตอนนี้ให้กำหนดที่เก็บไฟล์ที่จะดาวน์โหลดด้วยคำสั่ง "force_install_dir"  
+ตอนนี้ให้ระบุที่อยู่สำหรับดาวน์โหลดไฟล์  
+ใช้คำสั่ง "force_install_dir"  
 คำสั่งเต็มในตัวอย่างนี้คือ:  
 force_install_dir "C:\Users\Administrator\Desktop\VRising"
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/DeNFAWGLLnKq7pr/preview)
 
-จากนั้นล็อกอินด้วยผู้ใช้ anonymous โดยพิมพ์คำสั่ง "login anonymous"
+จากนั้นล็อกอินด้วยผู้ใช้ anonymous  
+พิมพ์คำสั่ง "login anonymous"
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/pq74iCW6E2k8Sid/preview)
 
-เมื่อเสร็จแล้ว เราก็พร้อมดาวน์โหลดไฟล์ด้วยคำสั่ง:  
+เมื่อเสร็จแล้ว เราสามารถดาวน์โหลดไฟล์ได้เลย  
+ใช้คำสั่งนี้:  
 app_update 1829350 validate
 
 ไฟล์จะถูกดาวน์โหลด ซึ่งอาจใช้เวลาสักครู่
@@ -86,23 +89,24 @@ app_update 1829350 validate
 
 คุณสามารถแก้ไขไฟล์ start_server_example.bat เพื่อปรับแต่งบางอย่าง  
 คลิกขวาที่ไฟล์แล้วเลือกแก้ไข  
-คุณสามารถเปลี่ยนชื่อเซิร์ฟเวอร์และเส้นทางที่บันทึกข้อมูลได้
+คุณสามารถปรับชื่อเซิร์ฟเวอร์และเส้นทางที่บันทึกข้อมูลได้
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/zpEw92o7eQG9P2a/preview)
 
-คุณยังสามารถแก้ไขไฟล์ config เพิ่มเติมได้ในโฟลเดอร์ VRisingServer_Data\StreamingAssets\Settings
+คุณยังสามารถแก้ไขไฟล์ config เพิ่มเติมได้  
+ไฟล์เหล่านี้อยู่ในโฟลเดอร์ VRisingServer_Data\StreamingAssets\Settings
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/9TtQm6Yp8g3y5HH/preview)
 
-ในไฟล์ ServerHostSettings.json คุณสามารถตั้งค่าทั่วไป เช่น กำหนดพอร์ต, คำอธิบายเซิร์ฟเวอร์, ระยะเวลาบันทึกอัตโนมัติ และรหัสผ่านเซิร์ฟเวอร์เกม  
-ในตัวอย่างนี้ ผมเปลี่ยนชื่อเซิร์ฟเวอร์เป็น "ZAP-Hosting Test Server"
+ในไฟล์ ServerHostSettings.json คุณสามารถตั้งค่าทั่วไปได้ เช่น กำหนดพอร์ต, คำอธิบายเซิร์ฟเวอร์, ระยะเวลาบันทึกข้อมูลอัตโนมัติ และรหัสผ่านเซิร์ฟเวอร์เกม  
+ผมเปลี่ยนชื่อเซิร์ฟเวอร์ในไฟล์นี้เป็น "ZAP-Hosting Test Server"
 
 เพื่อเริ่มเซิร์ฟเวอร์ ให้ดับเบิลคลิกที่ไฟล์ start_server_example.bat
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/gzs85C4HRy9MPTy/preview)
 
 กระบวนการเริ่มต้นจะใช้เวลาสักครู่  
-ถ้าพอร์ตถูกตั้งค่าให้ส่งต่อถูกต้องในขั้นตอนถัดไป คุณจะเจอเซิร์ฟเวอร์ในรายชื่อเซิร์ฟเวอร์
+ถ้าพอร์ตถูกตั้งค่าให้ส่งต่อถูกต้องในขั้นตอนถัดไป คุณจะเจอเซิร์ฟเวอร์ในรายการเซิร์ฟเวอร์
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/S9mM8KNzsFARmQW/preview)
 
@@ -112,8 +116,8 @@ app_update 1829350 validate
 ดังนั้นพอร์ตของเซิร์ฟเวอร์ต้องถูกเปิดในไฟร์วอลล์ของ Windows  
 พอร์ต 9876 และ 9877 ต้องเปิดสำหรับโปรโตคอล TCP และ UDP  
 พอร์ต 9876 คือพอร์ตเซิร์ฟเวอร์เกม และ 9877 คือพอร์ต Query  
-วิธีเปิดพอร์ตบน Windows: [การส่งต่อพอร์ต (ไฟร์วอลล์)](vserver-windows-port.md)
+วิธีเปิดพอร์ตบน Windows: [Port Forwarding (Firewall)](vserver-windows-port.md)  
 
-หลังจากเปิดพอร์ตแล้ว เซิร์ฟเวอร์จะเข้าถึงได้สาธารณะถ้าเซิร์ฟเวอร์ถูกสตาร์ทแล้ว
+หลังจากปลดล็อกพอร์ตแล้ว เซิร์ฟเวอร์จะเปิดให้เข้าถึงได้สาธารณะถ้าเซิร์ฟเวอร์ถูกสตาร์ทแล้ว  
 
-<InlineVoucher />
+

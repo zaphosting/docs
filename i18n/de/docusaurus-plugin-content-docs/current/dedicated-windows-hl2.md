@@ -13,17 +13,17 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 ## Einführung
 Du hast einen VPS oder Dedicated Server und willst darauf Gameserver installieren? Zum Beispiel einen Half-Life 2 Dedicated Server? Dann bist du hier genau richtig! Im Folgenden erklären wir dir Schritt für Schritt, wie du so einen Service auf deinem Server installierst.
 
-<InlineVoucher />
+
 
 ## Vorbereitung
 
-Für die Einrichtung eines Half-Life 2 Servers wird SteamCMD benötigt. SteamCMD ist die **Kommandozeilen-Version des Steam-Clients**. Mit diesem Tool kannst du schnell und einfach die Dedicated Server-Anwendungen beliebter Steam-Games herunterladen. SteamCMD findest du auf der offiziellen Valve Entwicklerseite: https://developer.valvesoftware.com/wiki/SteamCMD.
+Für die Einrichtung eines Half-Life 2 Servers wird SteamCMD benötigt. SteamCMD ist die **Kommandozeilen-Version des Steam-Clients**. Mit diesem Tool kannst du schnell und einfach die Dedicated Server Anwendungen beliebter Steam-Spiele herunterladen. SteamCMD findest du auf der offiziellen Valve Entwicklerseite: https://developer.valvesoftware.com/wiki/SteamCMD. 
 
-Danach erfolgt der Download. Dieser enthält die **steamcmd.zip** Datei, die zuerst entpackt werden muss. Es empfiehlt sich, einen eigenen Ordner anzulegen, in den die Datei entpackt wird. Am Ende solltest du die **steamcmd.exe** sehen. Starte diese und warte, bis der Installationsprozess abgeschlossen ist.
+Danach erfolgt der Download. Dieser enthält die **steamcmd.zip** Datei, die zuerst entpackt werden muss. Es empfiehlt sich, einen eigenen Ordner dafür anzulegen, in den die Datei entpackt wird. Am Ende solltest du die **steamcmd.exe** sehen. Starte diese und warte, bis der Installationsprozess abgeschlossen ist.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/7Hib2ZgaYWTsRNE/preview)
 
-Sobald die Meldung **Loading Steam API.... OK** erscheint, ist der Prozess erfolgreich abgeschlossen und du kannst mit der Installation des Half-Life 2 Servers starten.
+Sobald die Meldung **Loading Steam API.... OK** erscheint, wurde der Prozess erfolgreich abgeschlossen und du kannst mit der Installation des Half-Life 2 Servers starten.
 
 
 
@@ -35,7 +35,7 @@ Der nächste Schritt ist die Installation. Diese erfolgt mit dem Befehl `app_upd
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/cgMfJdL5DNNxjrf/preview)
 
-Bitte hab Geduld, bis der Download abgeschlossen ist, das kann bei größeren Spielen etwas dauern. Sobald es erfolgreich war, erscheint eine Erfolgsmeldung.
+Bitte hab Geduld, bis der Download abgeschlossen ist, da es bei größeren Spielen etwas dauern kann. Sobald der Vorgang erfolgreich war, erscheint eine Bestätigungsmeldung.
 
 Damit der Server von außen sichtbar und erreichbar ist, müssen die genutzten Server-Ports in der Firewall freigegeben/weitergeleitet werden. Öffne dazu die Windows Firewall Einstellungen.
 
@@ -47,7 +47,7 @@ In den Einstellungen müssen zusätzliche Regeln hinzugefügt werden. Klicke daz
 
 ## Konfiguration
 
-Bis hierhin hast du die Grundinstallation deines Half-Life 2 Servers abgeschlossen. Weitere Servereinstellungen kannst du direkt über die Bearbeitung der Startdatei vornehmen. Gehe dazu in dein Root-Verzeichnis. Dort navigiere in den Ordner cfg und öffne die Datei `server.cfg`. Hier kannst du Serveroptionen anpassen.
+Bis hierhin hast du die Grundinstallation deines Half-Life 2 Servers abgeschlossen. Weitere Servereinstellungen kannst du direkt über die Bearbeitung der Startdatei vornehmen. Navigiere in dein Root-Verzeichnis. Dort findest du den Ordner cfg, in dem du die Datei `server.cfg` öffnest. Hier kannst du Serveroptionen anpassen.
 
 ```
 ../steamapps/common/hl2-ds/hl2mp/cfg/server.cfg
@@ -57,7 +57,7 @@ Bis hierhin hast du die Grundinstallation deines Half-Life 2 Servers abgeschloss
 
 Damit andere Spieler deinem Server beitreten können, musst du einen Game Server Login Token (GSLT) generieren und einbinden. Dieser Token authentifiziert deinen Server bei Steam. Um einen GSLT zu erstellen, besuche http://steamcommunity.com/dev/managegameservers und generiere einen Token mit der Game ID 232370, die für Half-Life 2 steht.
 
-Hast du den Token, binde ihn in deine Server-Startparameter mit `+sv_setsteamaccount <TOKEN>` ein.
+Hast du den Token, füge ihn in deine Server-Startparameter mit `+sv_setsteamaccount <TOKEN>` ein. 
 
 
 
@@ -74,6 +74,4 @@ Im Kommandozeilenfenster solltest du nun Logs sehen, die signalisieren, dass der
 
 ## Fazit
 
-Glückwunsch, du hast deinen Half-Life 2 Server erfolgreich auf deinem VPS installiert und konfiguriert! Bei weiteren Fragen oder Problemen steht dir unser Support-Team täglich zur Seite! 🙂
-
-<InlineVoucher />
+Glückwunsch, du hast deinen Half-Life 2 Server erfolgreich auf deinem VPS eingerichtet und konfiguriert! Bei weiteren Fragen oder Problemen steht dir unser Support-Team täglich zur Seite! 🙂

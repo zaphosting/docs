@@ -10,13 +10,11 @@ services:
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introduction
-Vous avez un serveur dédié Linux et vous souhaitez installer le service serveur dédié RageMP dessus ? Vous êtes au bon endroit. Dans ce guide, on vous explique étape par étape comment installer ce service sur votre serveur Linux. On utilisera Ubuntu dans les exemples, mais le processus est très similaire pour les autres distributions.
+Vous avez un serveur dédié Linux et vous souhaitez installer le service serveur dédié RageMP dessus ? Vous êtes au bon endroit. Dans ce guide, on vous explique étape par étape comment installer ce service sur votre serveur Linux. On utilisera Ubuntu dans les exemples, mais le processus est très similaire pour d’autres distributions.
 
 :::tip
-Saviez-vous que vous pouvez installer notre **Interface ZAP GS/TS3** directement sur votre serveur dédié, vous permettant de configurer vos serveurs de jeux avec une intégration directe à votre tableau de bord ZAP-Hosting, en seulement quelques clics ? Découvrez-en plus sur l’[Interface GS/TS3](dedicated-linux-gs-interface.md).
+Saviez-vous que vous pouvez installer notre **Interface ZAP GS/TS3** directement sur votre serveur dédié, vous permettant de configurer des services de serveur de jeux avec une intégration directe à votre tableau de bord ZAP-Hosting, en seulement quelques clics ? Découvrez-en plus sur l’[Interface GS/TS3](dedicated-linux-gs-interface.md).
 :::
-
-<InlineVoucher />
 
 ## Préparation
 
@@ -24,7 +22,7 @@ Pour commencer, connectez-vous à votre serveur dédié via SSH. Utilisez notre 
 
 ### Création d’utilisateur
 
-On vous recommande vivement de créer un utilisateur séparé pour faire tourner tous vos services de serveurs de jeux dédiés. Utiliser l’utilisateur root, comme souvent, n’est pas conseillé pour plusieurs raisons. Si vous avez déjà un utilisateur prêt, passez directement aux étapes d’installation.
+On vous recommande vivement de créer un utilisateur séparé pour faire tourner tous vos services de serveur de jeux dédiés. Utiliser l’utilisateur root, comme souvent, n’est pas conseillé pour plusieurs raisons. Si vous avez déjà un utilisateur prêt, passez directement aux étapes d’installation.
 
 Utilisez la commande suivante pour créer un utilisateur nommé `gameservers` avec un mot de passe optionnel de votre choix.
 
@@ -53,19 +51,19 @@ Maintenant, téléchargez la dernière version disponible sur le site de RageMP.
 wget https://cdn.rage.mp/updater/prerelease/server-files/linux_x64.tar.gz
 ```
 
-Cela téléchargera le fichier `.tar.gz` dans votre dossier actuel, qui devrait être votre nouveau dossier `RageMP-Server`. Décompressez-le avec la commande suivante.
+Cela téléchargera le fichier `.tar.gz` à l’emplacement courant, qui devrait être dans votre nouveau dossier `RageMP-Server`. Décompressez-le avec la commande suivante.
 ```
 tar -xvzf linux_x64.tar.gz
 ```
 
-Vos fichiers sont maintenant accessibles dans le dossier **ragemp-srv**, accédez-y avec `cd ragemp-srv`. Utilisez `ls` pour voir le contenu du dossier à tout moment. Le serveur est prêt, passez à la section suivante pour configurer les paramètres.
+Vos fichiers seront maintenant accessibles dans le dossier **ragemp-srv**, accédez-y avec `cd ragemp-srv`. Utilisez `ls` pour voir le contenu du dossier à tout moment. Le serveur est prêt, passez à la section suivante pour configurer les paramètres.
 
 ## Configuration
 
-À ce stade, vous avez terminé la configuration de base de votre serveur RageMP. Vous pouvez affiner la configuration via un fichier de config situé dans le répertoire de votre serveur.
+À ce stade, la configuration de votre serveur RageMP est terminée. Vous pouvez effectuer des réglages supplémentaires via un fichier de configuration situé dans le répertoire de votre serveur.
 
 :::tip
-Il se peut que vous deviez lancer le serveur au moins une fois avant que les fichiers de configuration soient créés. Vous pouvez le faire en lançant le fichier shell : `/home/gameservers/RageMP-Server/ragemp-srv/ragemp-server`. Ensuite, utilisez `CTRL+C` pour fermer le serveur.
+Il se peut que vous deviez lancer le serveur au moins une fois avant que les fichiers de configuration soient créés. Vous pouvez le faire en lançant le fichier shell : `/home/gameservers/RageMP-Server/ragemp-srv/ragemp-server`. Ensuite, appuyez sur `CTRL+C` pour arrêter le serveur.
 :::
 
 Vous pouvez modifier les paramètres principaux en éditant le fichier de configuration **conf.json**.
@@ -75,17 +73,15 @@ nano /home/gameservers/RageMP-Server/ragemp-srv/conf.json
 
 ## Démarrage & connexion à votre serveur
 
-Il est temps de démarrer votre serveur. Rendez-vous dans le dossier principal du jeu et lancez le fichier shell **ragemp-server**.
+Il est maintenant temps de démarrer votre serveur. Rendez-vous dans le répertoire principal du jeu et lancez le fichier shell **ragemp-server**.
 ```
 /home/gameservers/RageMP-Server/ragemp-srv/ragemp-server
 ```
 
-Vous devriez voir apparaître des logs dans votre terminal, y compris des logs réseau, ce qui signifie que le démarrage a réussi. Si tout se passe comme prévu, votre serveur sera accessible via connexion directe et visible dans la liste des serveurs. Sinon, vous pouvez vous connecter directement via : `[votre_adresse_ip]:22005`.
+Vous devriez voir apparaître des logs dans votre terminal, y compris des logs réseau, ce qui signifie que le démarrage a réussi. Si tout se passe comme prévu, votre serveur sera accessible via connexion directe et visible dans la liste des serveurs. Sinon, vous pourrez vous connecter directement via : `[votre_adresse_ip]:22005`.
 
 ## Conclusion
 
-Félicitations, vous avez installé et configuré avec succès le serveur RageMP sur votre serveur dédié ! En suite, on vous recommande de jeter un œil à notre guide [Configurer un service Linux](dedicated-linux-create-gameservice.md), qui explique comment transformer votre nouveau serveur de jeux dédié en service. Cela apporte plein d’avantages comme le lancement automatique au démarrage, les mises à jour automatiques, une gestion simplifiée et l’accès aux logs, et bien plus encore !
+Félicitations, vous avez installé et configuré avec succès le serveur RageMP sur votre serveur dédié ! En suivant, on vous recommande de jeter un œil à notre guide [Configurer un service Linux](dedicated-linux-create-gameservice.md), qui explique comment transformer votre nouveau serveur de jeux dédié en service. Cela apporte plein d’avantages comme le lancement automatique au démarrage, les mises à jour automatiques, une gestion simplifiée, l’accès aux logs, et bien plus encore !
 
-Si vous avez d’autres questions ou soucis, n’hésitez pas à contacter notre support, disponible tous les jours pour vous aider !
-
-<InlineVoucher />
+Si vous avez d’autres questions ou problèmes, n’hésitez pas à contacter notre équipe support, disponible tous les jours pour vous aider !

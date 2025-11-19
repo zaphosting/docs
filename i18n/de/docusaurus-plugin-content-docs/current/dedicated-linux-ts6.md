@@ -1,7 +1,7 @@
 ---
 id: dedicated-linux-ts6
 title: "Dedicated Server: Teamspeak 6 Server auf deinem Linux Dedicated Server einrichten"
-description: "Entdecke, wie du den TeamSpeak 6 Server einrichtest und optimierst für zuverlässiges Hosting und Performance → Jetzt mehr erfahren"
+description: "Entdecke, wie du den TeamSpeak 6 Server einrichtest und optimierst für zuverlässiges Server mieten und Performance → Jetzt mehr erfahren"
 sidebar_label: Teamspeak 6 Server installieren
 services:
   - dedicated
@@ -15,11 +15,11 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Im Sommer 2025 hat TeamSpeak die **Beta-Version** des **TeamSpeak 6 Servers** veröffentlicht. Erlebe jetzt die nächste Generation von TeamSpeak hautnah!
 
-Du überlegst, diesen Service selbst zu hosten? Wir führen dich Schritt für Schritt durch die Einrichtung und Konfiguration und zeigen dir alles, was du beachten musst.
+Du überlegst, den Service selbst zu hosten? Wir führen dich Schritt für Schritt durch die Einrichtung und Konfiguration und zeigen dir alles, was du beachten musst.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/4J6HJjQdRddjGFK/preview)
 
-<InlineVoucher />
+
 
 
 
@@ -31,25 +31,25 @@ Bevor du den **Teamspeak 6 Server** installierst, stelle sicher, dass deine Host
 | ---------- | ----------- | ------------------------- |
 | CPU        | 1 CPU-Kern  | 4 CPU-Kerne               |
 | RAM        | 1 GB        | 4 GB                      |
-| Speicher   | 1 GB        | 25 GB                     |
+| Festplattenspeicher | 1 GB        | 25 GB                     |
 
 
 
 ## Vorbereitung
 
-Bevor du den **TeamSpeak 6 Server** einrichtest, musst du dein System vorbereiten. Dazu gehört, dein Betriebssystem auf die neueste Version zu aktualisieren und alle benötigten Abhängigkeiten zu installieren. Diese Vorbereitung sorgt für eine stabile Umgebung und hilft, Probleme während oder nach der Installation zu vermeiden.
+Bevor du den **TeamSpeak 6 Server** einrichtest, musst du dein System vorbereiten. Dazu gehört, dein Betriebssystem auf die neueste Version zu aktualisieren und alle erforderlichen Abhängigkeiten zu installieren. Diese Vorbereitung sorgt für eine stabile Umgebung und hilft, Probleme während oder nach der Installation zu vermeiden.
 
 
 ### System aktualisieren
-Damit dein System mit der aktuellsten Software und den neuesten Sicherheitsupdates läuft, solltest du zuerst immer ein Update durchführen. Führe dazu folgenden Befehl aus:
+Damit dein System mit den neuesten Software- und Sicherheitsupdates läuft, solltest du immer zuerst ein Update durchführen. Führe dazu folgenden Befehl aus:
 
 ```
 sudo apt update && sudo apt upgrade -y
 ```
-So stellst du sicher, dass dein System vor der Installation die neuesten Sicherheits-Patches und Software-Versionen hat.
+So stellst du sicher, dass dein System vor der Installation die aktuellsten Sicherheitspatches und Softwareversionen hat.
 
 ### Abhängigkeiten installieren
-Nachdem das Update abgeschlossen ist, kannst du mit der Installation der Abhängigkeiten starten. Für eine schnelle, einfache und empfohlene Installation empfehlen wir Docker. Dafür musst du die Docker Engine installieren:
+Nachdem das Update abgeschlossen ist, kannst du mit der Installation der Abhängigkeiten weitermachen. Für eine schnelle, einfache und empfohlene Installation empfehlen wir Docker. Dafür musst du die Docker Engine installieren:
 
 ```
 curl -fsSL https://get.docker.com -o get-docker.sh
@@ -62,7 +62,7 @@ sh get-docker.sh
 ## Installation
 Jetzt, wo alle Voraussetzungen erfüllt und die Vorbereitungen abgeschlossen sind, kannst du mit der Installation der Teamspeak 6 Server Anwendung starten.
 
-Der nächste Schritt ist, die Docker Compose Datei `docker-compose.yml` für den TeamSpeak 6 Server zu erstellen. Du kannst jedes Verzeichnis wählen, in diesem Beispiel wird die Datei unter `/opt/containers/ts6/` angelegt. Dafür verwenden wir die offizielle TeamSpeak Compose Datei:
+Der nächste Schritt ist, die Docker Compose Datei `docker-compose.yml` für den TeamSpeak 6 Server zu erstellen. Du kannst jedes Verzeichnis wählen, in diesem Beispiel wird die Datei unter `/opt/containers/ts6/` erstellt. Dabei verwenden wir die offizielle TeamSpeak Compose Datei:
 
 ```
 services:
@@ -83,7 +83,7 @@ volumes:
   teamspeak-data:
 ```
 
-Wechsle in das Verzeichnis, in dem die Datei erstellt werden soll, und erstelle die Datei. Nutze dafür den Befehl `nano docker-compose.yml` und füge den Inhalt dort ein.
+Wechsle in das Verzeichnis, in dem die Datei erstellt werden soll, und erstelle die Datei. Nutze dazu den Befehl `nano docker-compose.yml` und füge den Inhalt dort ein.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/yBZTKL8MYgLiJEt/download)
 
@@ -93,11 +93,11 @@ Um den Docker Container und den TeamSpeak 6 Server zu starten, führe folgenden 
 docker compose -f /opt/containers/ts6/docker-compose.yml up
 ```
 
-Jetzt startet der Docker Container für den TeamSpeak 6 Server. Standardmäßig läuft er noch nicht persistent. Beim ersten Start siehst du **wichtige Infos** zum **Server Query Admin Account** und zum **Privilege Key**.
+Jetzt startet der Docker Container für den TeamSpeak 6 Server. Standardmäßig läuft er noch nicht dauerhaft. Beim ersten Start siehst du **wichtige Infos** zum **Server Query Admin Account** und dem **Privilege Key**.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/7nNwWkEdG84yx4y/download)
 
-Bewahre diese Infos gut auf, denn sie werden bei späteren Starts nicht nochmal angezeigt. Danach stoppst du den Container wieder mit `CTRL+C`.
+Speichere diese Infos unbedingt sicher ab, da sie bei späteren Starts nicht nochmal angezeigt werden. Danach stoppst du den Container wieder mit `CTRL+C`.
 
 
 
@@ -117,13 +117,13 @@ environment:
 
 ## Serverbetrieb
 
-Damit der TeamSpeak 6 Server im Hintergrund weiterläuft, startest du den Container mit folgendem Befehl:
+Damit der TeamSpeak 6 Server im Hintergrund weiterläuft, starte den Container mit folgendem Befehl:
 
 ```
 docker compose -f /opt/containers/ts6/docker-compose.yml up -d
 ```
 
-Um den TeamSpeak 6 Server zu stoppen, stoppst du den Container mit diesem Befehl:
+Um den TeamSpeak 6 Server zu stoppen, stoppst du den Container mit:
 
 ```
 docker compose -f /opt/containers/ts6/docker-compose.yml down
@@ -133,7 +133,7 @@ docker compose -f /opt/containers/ts6/docker-compose.yml down
 
 ## Verbindung herstellen
 
-Sobald der TeamSpeak 6 Server läuft, kannst du dich mit dem TeamSpeak 6 Client verbinden. Nutze einfach die IP-Adresse deines Servers zusammen mit dem richtigen Port. Gib diese Daten im Client ein, um dich mit deinem Server zu verbinden und direkt loszulegen.
+Sobald der TeamSpeak 6 Server läuft, kannst du dich mit dem TeamSpeak 6 Client verbinden. Nutze einfach die IP-Adresse deines Servers zusammen mit dem richtigen Port. Gib diese Daten im Client ein, um dich mit deinem Server zu verbinden und loszulegen.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/4J6HJjQdRddjGFK/preview)
 
@@ -141,10 +141,10 @@ Sobald der TeamSpeak 6 Server läuft, kannst du dich mit dem TeamSpeak 6 Client 
 
 ## Fazit und weitere Ressourcen
 
-Glückwunsch! Du hast den Teamspeak 6 Server erfolgreich auf deinem Dedicated Server installiert und konfiguriert. Wir empfehlen dir außerdem, einen Blick auf die folgenden Ressourcen zu werfen, die dir bei der Server-Konfiguration weiterhelfen können:
+Glückwunsch! Du hast den Teamspeak 6 Server erfolgreich auf deinem Dedicated Server installiert und konfiguriert. Wir empfehlen dir außerdem, einen Blick auf die folgenden Ressourcen zu werfen, die dir bei der Serverkonfiguration weiterhelfen können:
 
 - [Offizielle Webseite](https://teamspeak.com/en/) – Infos und Downloads für TeamSpeak 6
-- [Community Forum](https://community.teamspeak.com/) – Support und Diskussionen der Nutzer
+- [Community Forum](https://community.teamspeak.com/) – Support und Diskussionen
 - [GitHub Issues](https://github.com/teamspeak/teamspeak6-server/issues) – Bugs melden und offene Issues verfolgen
 
-Du hast spezielle Fragen, die hier nicht beantwortet wurden? Für weitere Fragen oder Hilfe steht dir unser Support-Team täglich zur Verfügung – melde dich einfach bei uns! 🙂
+Du hast spezielle Fragen, die hier nicht beantwortet wurden? Für weitere Fragen oder Support steht dir unser Team täglich zur Verfügung – melde dich einfach bei uns! 🙂

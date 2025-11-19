@@ -15,8 +15,6 @@ O Painel Pterodactyl é um painel de controle open source projetado para gerenci
 
 Neste guia, vamos explorar os passos necessários para configurar sua própria instância do Pterodactyl no seu servidor.
 
-<InlineVoucher />
-
 ## Preparação
 
 Você vai precisar de um servidor dedicado rodando Linux para instalar o Painel Pterodactyl. Use um dos sistemas operacionais compatíveis listados na tabela abaixo.
@@ -46,7 +44,7 @@ Aqui está uma lista resumida das dependências que você vai precisar para este
 
 ### Instalando Dependências
 
-Primeiro, execute este comando essencial para permitir que você adicione pacotes que não são padrão no SO.
+Primeiro, rode este comando essencial para permitir que você adicione pacotes que não são padrão no SO.
 
 ```bash
 apt -y install software-properties-common curl apt-transport-https ca-certificates gnupg
@@ -89,7 +87,7 @@ Agora você deve ter todas as dependências necessárias instaladas e pode pross
 
 ### Instalando o Composer
 
-Com as dependências principais instaladas, você precisa instalar o Composer, que é um gerenciador de dependências popular para PHP. Isso permitirá baixar e instalar facilmente todo o serviço Pterodactyl.
+Com as dependências principais instaladas, você precisa instalar o Composer, que é um gerenciador de dependências popular para PHP. Isso vai permitir que você baixe e instale facilmente todo o serviço Pterodactyl.
 
 Basta rodar o comando abaixo:
 ```bash
@@ -113,7 +111,7 @@ tar -xzvf panel.tar.gz
 chmod -R 755 storage/* bootstrap/cache/
 ```
 
-Após o download, o painel estará baixado com sucesso. Na próxima seção, você vai configurar várias opções essenciais para garantir que o painel seja instalado corretamente e funcione bem.
+Quando o download terminar, o painel estará baixado com sucesso. Na próxima seção, você vai configurar várias opções essenciais para garantir que o painel seja instalado corretamente e funcione bem.
 
 ## Instalação
 
@@ -126,24 +124,24 @@ Você precisa fazer login no seu banco de dados MySQL para começar. Se for uma 
 mysql -u root -p
 ```
 
-Se já tiver uma instância MySQL, use seu login com `-u` para o usuário e `-p` para a senha.
+Se já tiver uma instância MySQL, use seu login com `-u` sendo o nome do usuário e `-p` para a senha.
 
-Após logar, crie um novo usuário para sua instância Pterodactyl. Substitua `[sua_senha]` pela senha que deseja usar:
+Depois de logado, crie um novo usuário para sua instância Pterodactyl. Substitua `[sua_senha]` pela senha que deseja usar:
 ```sql
 CREATE USER 'pterodactyl'@'127.0.0.1' IDENTIFIED BY '[sua_senha]';
 ```
 
-Agora crie o banco de dados para o Pterodactyl e dê permissões ao usuário criado:
+Agora crie o banco de dados para o Pterodactyl e conceda permissões ao usuário criado:
 ```sql
 CREATE DATABASE panel;
 GRANT ALL PRIVILEGES ON panel.* TO 'pterodactyl'@'127.0.0.1' WITH GRANT OPTION;
 ```
 
-Você configurou com sucesso o usuário e banco MySQL para sua instância Pterodactyl. Use o comando `exit` para sair do MySQL.
+Você configurou com sucesso o usuário e o banco de dados MySQL para sua instância Pterodactyl. Use o comando `exit` para sair do MySQL.
 
 ### Continuando a Configuração
 
-Agora copie o arquivo de ambiente padrão onde você armazenará seus tokens secretos.
+Agora copie o arquivo de ambiente padrão onde você vai armazenar seus tokens secretos.
 ```bash
 cp .env.example .env
 ```
@@ -160,7 +158,7 @@ php artisan key:generate --force
 
 ### Configuração do Ambiente
 
-Configure sua instância Pterodactyl rodando os comandos abaixo. Cada um abrirá um setup interativo cobrindo várias configurações como sessões, email, cache e mais.
+Configure sua instância Pterodactyl rodando os comandos abaixo. Cada um vai abrir um setup interativo cobrindo várias configurações como sessões, email, cache e mais.
 
 ```bash
 php artisan p:environment:setup # Primeiro comando
@@ -172,7 +170,7 @@ php artisan p:environment:database # Segundo comando
 Agora configure os dados base necessários para o painel rodar, usando o banco que você criou. Rode o comando abaixo.
 
 :::info
-Isso pode levar alguns minutos. Não saia do processo para evitar problemas. Tenha paciência :)
+Isso pode levar alguns minutos para completar. Não saia do processo para evitar problemas. Tenha paciência :)
 :::
 
 ```bash
@@ -188,14 +186,14 @@ php artisan p:user:make
 
 ### Configurando Permissões
 
-Defina as permissões necessárias para os arquivos do painel para garantir que o painel possa ler e escrever sem problemas.
+Defina as permissões necessárias para os arquivos do painel para garantir que ele possa sempre ler e escrever sem problemas.
 
 Rode o comando:
 ```bash
 chown -R www-data:www-data /var/www/pterodactyl/*
 ```
 
-Agora você deve conseguir acessar seu painel Pterodactyl pelo link, substituindo `seu_endereco_ip` pelo IP do seu servidor:
+Agora você deve conseguir acessar seu painel Pterodactyl pelo link abaixo, substituindo `seu_endereco_ip` pelo IP do seu servidor:
 ```
 http://[seu_endereco_ip]/
 ```
@@ -204,14 +202,14 @@ http://[seu_endereco_ip]/
 
 A última etapa da instalação é configurar um cronjob que roda em intervalos regulares junto com um queue worker responsável por várias tarefas em background.
 
-Abra seu crontab com `sudo crontab -e` e adicione o cronjob que roda a cada minuto para o painel:
+Abra seu crontab com `sudo crontab -e`. Adicione o cronjob que roda a cada minuto para o painel:
 ```bash
 * * * * * php /var/www/pterodactyl/artisan schedule:run >> /dev/null 2>&1
 ```
 
 Agora crie um queue worker usando `systemd` para manter o processo rodando em background.
 
-Crie um arquivo para o worker abrindo o nano:
+Crie um arquivo para o worker com o nano:
 ```
 nano /etc/systemd/system/pteroq.service
 ```
@@ -246,7 +244,7 @@ Se estiver usando CentOS, substitua `redis-server.service` por `redis.service` n
 
 Salve com `CTRL + X` e confirme com `Y`.
 
-Por fim, habilite o serviço do Redis e o serviço que você criou para iniciar junto com o sistema:
+Por fim, habilite o serviço do Redis e o serviço que você criou para rodar na inicialização:
 ```
 sudo systemctl enable --now redis-server
 sudo systemctl enable --now pteroq.service
@@ -264,16 +262,19 @@ Como recurso extra, você pode configurar seu servidor web. Neste guia usamos Ng
 Configurar o servidor web permite usar seu próprio domínio e configurar um certificado SSL para o site do painel.
 
 ### Registro DNS do Domínio
-Para que seu servidor seja acessível pelo domínio, configure um registro DNS do tipo `A` para esse domínio. Isso depende do provedor que você usa, mas normalmente fica disponível em algum painel de DNS ao gerenciar seu domínio. O conteúdo do registro deve ser o IP do seu servidor.
+
+Para que seu servidor seja acessível pelo seu domínio, configure um registro DNS do tipo `A` para esse domínio. Isso depende do provedor que você usa, mas geralmente fica disponível em algum painel de DNS ao gerenciar seu domínio. O conteúdo do registro deve ser o endereço IP do seu servidor.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/EsGB6DaTC65Fce8/preview)
 
 ### Removendo a configuração padrão
+
 Comece removendo a configuração padrão do Nginx. Basta remover o arquivo:
 ```bash
 rm /etc/nginx/sites-enabled/default
 ```
-Agora, use o conteúdo abaixo para criar um novo arquivo de configuração para o site do painel Pterodactyl. Decida se quer usar SSL ou não, pois o conteúdo e passos mudam um pouco conforme a escolha.
+
+Agora use o conteúdo abaixo para criar um novo arquivo de configuração para o site do seu painel Pterodactyl. Decida se quer usar SSL ou não, pois a configuração e os passos vão variar um pouco.
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
@@ -282,18 +283,19 @@ import TabItem from '@theme/TabItem';
 <TabItem value="Nginx With SSL" label="Nginx Com SSL" default>
 
 ### Configurando o Certbot
-Para ter um certificado SSL, configure um sistema que gerencie e renove automaticamente seus certificados. Usaremos o Certbot, que é open-source.
 
-Primeiro instale o Certbot no servidor. Para Nginx, instale também o pacote python3-certbot-nginx.
+Para ter um certificado SSL, você deve configurar um sistema que gerencie e renove automaticamente seus certificados. Aqui usaremos o Certbot, que é open-source.
+
+Primeiro instale o Certbot no seu servidor. Para Nginx, instale também o pacote python3-certbot-nginx.
 ```bash
 sudo apt update
 sudo apt install -y certbot
 sudo apt install -y python3-certbot-nginx
 ```
 
-Depois, configure a verificação para gerar o certificado. Usaremos o desafio DNS, que é mais seguro que o HTTP.
+Agora configure a verificação para gerar o certificado. Usaremos o desafio DNS, que é mais seguro que o HTTP.
 
-Você precisará criar um registro DNS do tipo `TXT` para o domínio que quer usar. Isso depende do provedor, mas normalmente fica disponível no painel de DNS do domínio.
+Você precisará criar um registro DNS do tipo `TXT` para o domínio que quer usar. Isso depende do seu provedor, mas deve estar disponível no painel de DNS do seu domínio.
 
 Rode o comando abaixo para obter o conteúdo do registro `TXT`. Substitua `[seu_dominio]` pelo domínio que quer usar.
 ```bash
@@ -310,15 +312,15 @@ Depois de criar o registro DNS, configure a renovação automática com um cronj
 
 Com o certificado SSL pronto, crie o arquivo de configuração.
 
-Abra o nano no caminho e arquivo indicados:
+Abra o nano no local correto:
 ```bash
 nano /etc/nginx/sites-enabled/pterodactyl.conf
 ```
 
-Cole o conteúdo abaixo, substituindo `[seu_dominio]` pelo domínio que configurou no DNS.
+Cole o conteúdo abaixo, substituindo `[seu_dominio]` pelo domínio que você configurou no DNS.
 
 :::warning
-Certifique-se de ter configurado o certificado SSL, caso contrário o servidor web não iniciará corretamente.
+Certifique-se de que o certificado SSL está configurado, caso contrário o servidor web não vai iniciar corretamente.
 :::
 
 ```
@@ -391,15 +393,15 @@ server {
 
 #### Criando o Arquivo de Configuração
 
-Abra o nano no caminho e arquivo indicados:
+Abra o nano no local correto:
 ```bash
 nano /etc/nginx/sites-enabled/pterodactyl.conf
 ```
 
-Cole o conteúdo abaixo, substituindo `[seu_dominio]` pelo domínio que configurou no DNS apontando para o IP do seu servidor.
+Cole o conteúdo abaixo, substituindo `[seu_dominio]` pelo domínio que você configurou no DNS apontando para o IP do seu servidor.
 
 :::warning
-Certifique-se de ter configurado o certificado SSL, caso contrário o servidor web não iniciará corretamente.
+Certifique-se de que o certificado SSL está configurado, caso contrário o servidor web não vai iniciar corretamente.
 :::
 
 ```
@@ -459,8 +461,6 @@ sudo ln -s /etc/nginx/sites-available/pterodactyl.conf /etc/nginx/sites-enabled/
 sudo systemctl restart nginx # Reiniciar Nginx
 ```
 
-Se tudo foi feito corretamente, agora você pode acessar seu painel Pterodactyl usando o domínio configurado.
+Se tudo foi feito corretamente, agora você deve conseguir acessar seu painel Pterodactyl usando o domínio configurado nesta seção.
 
-Você configurou com sucesso seu servidor web para usar seu domínio e adicionar um certificado SSL ao seu site.
-
-<InlineVoucher />
+Você configurou seu servidor web com sucesso para usar seu domínio e adicionar um certificado SSL ao seu site.

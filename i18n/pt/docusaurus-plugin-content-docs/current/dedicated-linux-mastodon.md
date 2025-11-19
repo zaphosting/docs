@@ -21,8 +21,6 @@ cada uma com seu próprio código de conduta, termos de serviço, política de p
 Este guia foca na instalação em uma distro baseada em Debian. Exemplos são Debian e Ubuntu. Este guia varia dependendo do sistema operacional que você está usando.
 :::
 
-<InlineVoucher />
-
 ## Requisitos do sistema
 Se você quer configurar uma instância Mastodon no seu servidor, precisa atender alguns pré-requisitos:
 - Domínio
@@ -60,14 +58,14 @@ apt install -y \
   nginx redis-server redis-tools postgresql postgresql-contrib \
   certbot python3-certbot-nginx libidn11-dev libicu-dev libjemalloc-dev
 ```
-Deixe os pacotes instalarem, isso pode levar um tempo. Depois, configure o yarn, que é um gerenciador de pacotes para o Node.JS instalado anteriormente:  
+Deixe os pacotes instalarem, isso pode levar um tempo. Depois disso, configure o yarn, que é um gerenciador de pacotes para o Node.JS instalado anteriormente:  
 ```bash
 corepack enable
 yarn set version stable
 ```
 
 ## Instalando Ruby
-Vamos criar um usuário separado, pois facilita o gerenciamento das versões do Ruby. Primeiro crie um usuário chamado mastodon, com login desativado. Depois, troque para o usuário mastodon com os comandos:  
+Vamos criar um usuário diferente, pois isso facilita o gerenciamento das versões do Ruby. Primeiro crie um usuário chamado mastodon, com login desativado. Depois, mude para o usuário mastodon. Use os comandos:  
 ```bash
 # Você pode deixar os campos vazios
 adduser --disabled-login mastodon
@@ -89,10 +87,10 @@ RUBY_CONFIGURE_OPTS=--with-jemalloc rbenv install 3.0.3
 rbenv global 3.0.3
 gem install bundler --no-document
 ```
-Isso pode levar um tempo, então aproveite para pegar um chá ou café enquanto espera. Depois disso, podemos voltar para o usuário root com o comando `exit`.
+Isso pode demorar um pouco, então aproveite para pegar um chá ou café enquanto espera. Depois disso, podemos voltar para o usuário root com o comando `exit`.
 
 ## Configurando o PostgreSQL
-Mastodon usa PostgreSQL como sistema de banco de dados. Configure com o seguinte:  
+Mastodon usa PostgreSQL como sistema de banco de dados. Configure com:  
 ```bash
 sudo -u postgres psql
 ```
@@ -108,12 +106,12 @@ Agora volte para o usuário mastodon:
 ```bash
 su - mastodon
 ```
-Use o git para baixar a versão mais recente do Mastodon com esses comandos:  
+Use o git para baixar a versão mais recente do Mastodon com os comandos:  
 ```bash
 git clone https://github.com/tootsuite/mastodon.git live && cd live
 git checkout $(git tag -l | grep -v 'rc[0-9]*$' | sort -V | tail -n 1)
 ```
-Agora instale as últimas dependências para Ruby e Javascript:  
+Agora instale as últimas dependências para Ruby e Javascript com:  
 ```bash
 bundle config deployment 'true'
 bundle config without 'development test'
@@ -133,7 +131,7 @@ https://gist.github.com/amolkhanorkar/8706915
 Depois, volte para o usuário root com `exit`.
 
 ## Configurando o servidor web
-Agora vem a parte mais complexa. Você precisa configurar seu servidor web. Primeiro, crie um registro A e/ou AAAA no seu DNS apontando diretamente para seu servidor. Alternativamente, pode apontar o registro raiz para seu servidor.
+Agora vem a parte mais delicada. Você precisa configurar seu servidor web. Primeiro, crie um registro A e/ou AAAA no seu DNS apontando diretamente para seu servidor. Alternativamente, pode apontar o registro raiz para seu servidor.
 
 Depois, use os dois comandos abaixo para copiar e ativar a configuração do servidor web do Mastodon:  
 ```bash
@@ -142,25 +140,23 @@ ln -s /etc/nginx/sites-available/mastodon /etc/nginx/sites-enabled/mastodon
 ```
 
 Edite o arquivo `/etc/nginx/sites-available/mastodon` com um editor de texto como vim ou nano e troque example.com pelo seu domínio.  
-Agora, adquira um certificado SSL para seu domínio facilmente com:  
+Agora você precisa adquirir um certificado SSL para seu domínio. Faça isso facilmente com:  
 ```bash
 certbot --nginx -d <seu domínio>
 ```
-Digite seu domínio. Você será solicitado a fornecer algumas informações. No final, será perguntado se deseja redirecionar automaticamente requisições http para https — recomendamos que ative essa opção.
+Digite seu domínio. Você será solicitado a fornecer algumas informações. No final, será perguntado se deseja redirecionar automaticamente requisições http para https — recomendamos que habilite essa opção.
 
 ## Criando um serviço Mastodon
 Por fim, vamos criar um serviço do sistema para o Mastodon. É bem simples.  
-Copie a configuração padrão do serviço para o diretório de serviços da sua distribuição:  
+Use este comando para copiar a configuração padrão do serviço para o diretório de serviços da sua distribuição:  
 ```sh
 cp /home/mastodon/live/dist/mastodon-*.service /etc/systemd/system/
 ```
 
-Agora habilite e inicie os novos serviços com:  
+Agora habilite e inicie seus novos serviços com os comandos:  
 ```sh
 systemctl daemon-reload
 systemctl enable --now mastodon-web mastodon-sidekiq mastodon-streaming
 ```
 
-Após um reboot, sua configuração estará pronta. Divirta-se com sua instância!
-
-<InlineVoucher />
+Após um reboot, sua configuração deve estar pronta. Curta sua instância!

@@ -11,151 +11,147 @@ import YouTube from '@site/src/components/YouTube/YouTube';
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introduction
-Ce guide vous expliquera étape par étape comment installer et configurer le système d’exploitation Windows Server sur votre serveur dédié. Suivez ces instructions attentivement pour garantir une installation réussie et une utilisation optimale du système.
+Voici un guide étape par étape pour installer et configurer le système d’exploitation Windows Server sur votre serveur dédié. Suivez ces instructions attentivement pour réussir l’installation et exploiter au mieux votre système.
 
 :::info Windows Server 2016
-Les étapes d’installation et la démonstration dans ce guide sont basées sur le système d’exploitation Windows Server 2016 (optique 2019 - même design). Les versions plus anciennes peuvent différer en termes de structure et d’apparence. Cependant, la procédure reste similaire.
+Les étapes d’installation et la démonstration dans ce guide sont basées sur Windows Server 2016 (design 2019 - même apparence). Les versions plus anciennes peuvent différer en structure et en apparence, mais la procédure reste similaire.
 :::
 
 :::warning Nouvelle version disponible / Détails EOL
 
-La dernière version de Windows Server proposée par Microsoft est la version [2025](dedicated-windows.md). Nous recommandons d’utiliser la version la plus récente pour vos projets à long terme.
+La dernière version de Windows Server chez Microsoft est la version [2025](dedicated-windows.md). On recommande d’utiliser la version la plus récente pour vos projets longue durée.
 
-Le support des anciennes versions de Windows Server sera arrêté tôt ou tard. Voici les dates prévues pour la version 2016 :
+Le support des anciennes versions de Windows Server sera arrêté tôt ou tard. Voici les dates clés pour la version 2016 :
 
 - Support actif : 11.01.2022
 - Support de sécurité : 12.01.2027
 
 :::
 
-<InlineVoucher />
-
 ## Préparation
-Pour l’installation et la configuration d’un système d’exploitation, il est important de monter initialement l’ISO correspondant. Plusieurs méthodes sont possibles :
+Pour installer et configurer un système d’exploitation, il faut d’abord monter l’ISO correspondant. Plusieurs méthodes sont possibles :
 
 1. Montage via la configuration initiale
 2. Montage via iLO (Média virtuel)
 3. Montage via iLO (Console distante)
 
-Si vous ne connaissez pas encore le montage d’un fichier ISO, référez-vous à notre [guide de configuration initiale](dedicated-setup.md) ou au guide [ISO personnalisé](dedicated-iso.md).
+Si tu ne connais pas encore le montage d’un fichier ISO, consulte notre [guide Configuration initiale](dedicated-setup.md) ou [ISO perso](dedicated-iso.md).
 
 ## Installation
-Pour installer un Windows Server, vous aurez besoin d’un fichier ISO de votre choix. Vous pouvez sélectionner la version de Windows souhaitée dans notre interface web. Sinon, vous pouvez utiliser un ISO personnalisé, pour cela consultez notre guide [ISO personnalisé](dedicated-iso.md).
+Pour installer Windows Server, il te faut un fichier ISO. Tu peux choisir la version Windows souhaitée directement dans notre interface web. Sinon, tu peux utiliser un ISO perso, pour ça on a un [guide ISO perso](dedicated-iso.md).
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/DDNsa9zjbXng9Z6/preview)
 
-Si cet écran apparaît dans la console distante que vous utilisez, cela signifie que l’ISO a été chargé avec succès, vous pouvez maintenant commencer l’installation.
-Choisissez votre langue préférée et cliquez sur « Suivant » pour continuer.
+Si cet écran apparaît dans ta console distante, c’est que l’ISO est bien chargé, on peut commencer l’installation.
+Choisis ta langue préférée et clique sur "Suivant" pour continuer.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/iyjwCCSmjPqiDMt/preview)
 
-Cliquez sur « Installer maintenant » pour lancer le processus d’installation.
+Clique sur "Installer maintenant" pour lancer l’installation.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/y8rXwXfrnRRD9fZ/preview)
 
-Windows demande maintenant une clé produit. Saisissez-la si vous en avez une.
+Windows demande maintenant une clé produit. Entre-la si tu en as une.
 
 :::note
-Nous ne vendons pas de licences Windows, il est nécessaire d’acheter une clé par vos propres moyens.
+On ne vend pas de licences Windows, il faut acheter ta clé toi-même.
 :::
 
-Vous pouvez acheter des clés produit Windows dans divers boutiques en ligne, assurez-vous d’acheter une clé valide pour votre version de Windows, car il existe différentes éditions.
-Par exemple, Windows Server 2019 propose deux éditions : la version standard et l’édition Datacenter.
-Si vous n’êtes pas sûr de ce dont vous avez besoin, cliquez simplement sur « Je n’ai pas de clé produit », vous pourrez toujours en ajouter une plus tard.
+Tu peux acheter des clés Windows dans plusieurs boutiques en ligne, vérifie bien que la clé est valide pour ta version de Windows, car il y a différentes éditions.
+Par exemple, Windows Server 2019 propose deux éditions : standard et datacenter.
+Si tu n’es pas sûr, clique sur "Je n’ai pas de clé produit", tu pourras en ajouter une plus tard.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/jH5dYQBq7FtT2SL/preview)
 
-Sélectionnez maintenant la version que vous souhaitez installer.
-Assurez-vous de choisir la bonne version, il ne sera pas possible de la modifier par la suite.
-Pensez aussi à choisir une version avec « (Desktop Experience) », sinon votre Windows sera en mode shell.
-Une fois votre choix fait, sélectionnez la version et continuez avec « Suivant ».
+Sélectionne maintenant la version que tu souhaites installer.
+Assure-toi de choisir la bonne version, car tu ne pourras pas la changer après.
+Pense aussi à choisir une version avec "(Desktop Experience)", sinon Windows sera en mode shell.
+Une fois ta sélection faite, marque la version et clique sur "Suivant".
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/9GRPiS3JpFPyJYk/preview)
 
-Acceptez les termes et conditions en cliquant sur « Suivant ».
+Accepte les termes et continue en cliquant sur "Suivant".
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/Bbfj7R2RdkNkMzq/preview)
 
-Choisissez « Personnalisée » si vous souhaitez effectuer une installation propre de Windows. Vous pouvez choisir « Mise à niveau » si vous souhaitez passer par exemple de 2016 à 2019.
+Choisis "Personnalisée" pour une installation propre de Windows. Tu peux choisir "Mise à niveau" si tu veux passer de 2016 à 2019 par exemple.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/8zkx8grPTCSgprQ/preview)
 
-À l’étape suivante, vous devez créer des partitions sur votre serveur dédié, normalement il ne devrait pas y avoir de partitions créées. Si des entrées apparaissent, sélectionnez-les et cliquez sur supprimer.
+À l’étape suivante, crée les partitions sur ton serveur dédié. En général, il n’y a pas encore de partitions. Si tu en vois, sélectionne-les et supprime-les.
 
-Vous pouvez créer plusieurs petites partitions ou une grosse. Si vous créez plusieurs partitions, nous recommandons d’avoir au moins 50 Go pour la partition principale de Windows.
-Cliquez sur « Nouveau » pour créer une partition.
+Tu peux créer plusieurs petites partitions ou une grosse. Si tu fais plusieurs partitions, on recommande au moins 50 Go pour la partition principale Windows.
+Clique sur "Nouveau" pour créer une partition.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/GtBxwdETkNeSGcT/preview)
 
-Vous pouvez simplement cliquer sur Appliquer si vous souhaitez une seule grande partition. L’installation prendra automatiquement la taille maximale possible.
+Tu peux aussi juste cliquer sur Appliquer pour une grosse partition. L’installation prendra automatiquement la taille maximale possible.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/xWr3ySfyGdYbxKt/preview)
 
-Windows nécessite une petite partition système, acceptez cela en cliquant sur « OK ».
+Windows crée une petite partition système, accepte en cliquant sur "OK".
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/B2JPRH3pYRt323x/preview)
 
-Si vous êtes satisfait de vos partitions, choisissez celle sur laquelle Windows doit être installé et cliquez sur « Suivant ».
-L’installation de Windows se lance automatiquement, cela peut prendre plusieurs minutes.
-Il n’y a rien d’autre à faire jusqu’à la fin de l’installation.
+Si tes partitions te conviennent, choisis celle où installer Windows et clique sur "Suivant".
+L’installation se lance et peut prendre plusieurs minutes.
+Tu n’as rien à faire d’autre jusqu’à la fin.
 
 ## Configuration
 
-Une fois l’installation terminée, Windows vous demandera de définir un mot de passe.
+Une fois l’installation terminée, Windows te demande de définir un mot de passe.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/Zmn6zJyPWAM5MHG/preview)
 
-Choisissez votre mot de passe souhaité.
+Choisis ton mot de passe.
 
 :::info
-Nous recommandons de choisir un mot de passe fort avec des caractères spéciaux.
+On recommande un mot de passe fort avec des caractères spéciaux.
 
-Si vous oubliez le mot de passe, il n’y a aucun moyen de le récupérer, alors pensez bien à le noter.
+Si tu oublies ton mot de passe, il n’y a aucun moyen de le récupérer, alors note-le bien.
 :::
 
-Après avoir défini le mot de passe, vous arrivez sur l’écran de verrouillage de Windows.
+Après avoir défini le mot de passe, tu arrives sur l’écran de verrouillage Windows.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/ddxASYsjNgwHX5i/preview)
 
-Pour vous connecter à Windows, appuyez sur la combinaison de touches `CTRL + ALT + DELETE`. Vous pouvez le faire facilement via votre console distante.
-(Vous trouverez cette option dans la console Java sous « Clavier »)
-Connectez-vous avec votre mot de passe.
+Pour te connecter à Windows, appuie sur la combinaison `CTRL + ALT + DELETE`. Tu peux le faire facilement via ta console distante.
+(Tu trouveras ça dans la console Java sous "Clavier")
+Connecte-toi avec ton mot de passe.
 
-À l’étape suivante, il faut activer le Bureau à distance, ce qui vous permettra de vous connecter facilement à votre serveur.
-Ouvrez l’Explorateur Windows et faites un clic droit sur « Ce PC »
+Ensuite, il faut activer le Bureau à distance pour te connecter facilement à ton serveur.
+Ouvre l’Explorateur Windows et fais un clic droit sur "Ce PC".
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/HSnnXftNbXNYjq6/preview)
 
-Choisissez Propriétés.
+Choisis Propriétés.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/g2CFHpdrZ3E8g29/preview)
 
-Ouvrez « Paramètres à distance »
+Ouvre "Paramètres à distance".
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/e8Q4rixGtBZZH35/preview)
 
-Acceptez les informations du pare-feu qui apparaissent en cliquant sur « OK » puis sur « Appliquer ».
+Accepte l’alerte du pare-feu avec "OK" et clique sur "Appliquer".
 
-Ouvrez maintenant le Bureau à distance sur votre ordinateur et saisissez l’adresse IP de votre interface ZAP.
-Le nom d’utilisateur est toujours Administrator et le mot de passe est celui que vous avez défini précédemment.
+Ouvre maintenant le Bureau à distance sur ton PC et entre l’adresse IP de ton interface ZAP.
+Le nom d’utilisateur est toujours Administrator et le mot de passe celui que tu as défini.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/w97g9aDrpM8EjpA/preview)
 
-Vous pouvez ignorer l’avertissement de certificat, cochez la case « Ne plus m’avertir pour les connexions vers cet ordinateur ».
-Validez en cliquant sur « Oui ».
+Tu peux ignorer l’avertissement de certificat, coche "Ne plus m’avertir pour les connexions à cet ordinateur".
+Valide en cliquant sur "Oui".
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/SqqCdBZRYysz8yj/preview)
 
-La connexion Bureau à distance s’établit maintenant avec votre serveur dédié et vous pouvez l’utiliser.
-La configuration réseau est automatiquement appliquée via DHCP, aucune modification supplémentaire n’est nécessaire.
+La connexion Bureau à distance s’établit et tu peux utiliser ton serveur dédié.
+La configuration réseau est appliquée automatiquement via DHCP, aucune autre modification n’est nécessaire.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/9BEEiFAtJ2jCoCk/preview)
 
 :::tip
-Si vous avez d’autres questions ou problèmes, notre support est là pour vous aider !
+Si tu as d’autres questions ou soucis, notre support est là pour t’aider !
 :::
 
 ## Conclusion
-Félicitations, vous avez installé avec succès le système d’exploitation Windows Server 2016 sur votre serveur dédié. Pour toute question ou assistance, n’hésitez pas à contacter notre équipe support, disponible tous les jours pour vous aider ! 🙂
-
-<InlineVoucher />
+Félicitations, tu as installé avec succès Windows Server 2016 sur ton serveur dédié. Pour toute question ou aide, n’hésite pas à contacter notre support, disponible tous les jours pour t’assister ! 🙂

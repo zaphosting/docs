@@ -13,17 +13,17 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 ## Einführung
 Du hast einen VPS oder Dedicated Server und willst darauf Gameserver installieren? Zum Beispiel einen Counter-Strike: Condition Zero Dedicated Server? Dann bist du hier genau richtig! Im Folgenden erklären wir dir Schritt für Schritt, wie du so einen Service auf deinem Server installierst.
 
-<InlineVoucher />
+
 
 ## Vorbereitung
 
-Für die Einrichtung eines Counter-Strike: Condition Zero Servers wird SteamCMD benötigt. SteamCMD ist die **Kommandozeilen-Version des Steam-Clients**. Mit diesem Tool kannst du schnell und einfach die Dedicated Server-Anwendungen beliebter Steam-Games herunterladen. SteamCMD findest du auf der offiziellen Valve Entwicklerseite: https://developer.valvesoftware.com/wiki/SteamCMD.
+Für die Einrichtung eines Counter-Strike: Condition Zero Servers wird SteamCMD benötigt. SteamCMD ist die **Kommandozeilen-Version des Steam-Clients**. Mit diesem Tool kannst du schnell und einfach die Dedicated Server-Anwendungen beliebter Steam-Games herunterladen. SteamCMD findest du auf der offiziellen Valve Entwicklerseite: https://developer.valvesoftware.com/wiki/SteamCMD. 
 
-Danach erfolgt der Download. Dieser enthält die **steamcmd.zip** Datei, die zuerst entpackt werden muss. Es empfiehlt sich, einen eigenen Ordner anzulegen, in den die Datei entpackt wird. Am Ende solltest du die **steamcmd.exe** sehen. Starte diese und warte, bis der Installationsprozess abgeschlossen ist.
+Anschließend erfolgt der Download. Dabei erhältst du die **steamcmd.zip** Datei, die zuerst entpackt werden muss. Es empfiehlt sich, einen eigenen Ordner anzulegen, in den du die Datei entpackst. Am Ende solltest du die **steamcmd.exe** sehen. Starte diese und warte, bis der Installationsprozess abgeschlossen ist.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/7Hib2ZgaYWTsRNE/preview)
 
-Sobald die Meldung **Loading Steam API.... OK** erscheint, ist der Prozess erfolgreich abgeschlossen und du kannst mit der Installation des Counter-Strike: Condition Zero Servers starten.
+Sobald die Meldung **Loading Steam API.... OK** erscheint, wurde der Prozess erfolgreich abgeschlossen und du kannst mit der Installation des Counter-Strike: Condition Zero Servers starten.
 
 
 
@@ -35,7 +35,7 @@ Der nächste Schritt ist die Installation. Diese erfolgt mit dem Befehl `app_upd
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/cgMfJdL5DNNxjrf/preview)
 
-Bitte hab Geduld, bis der Download abgeschlossen ist, das kann bei größeren Spielen etwas dauern. Sobald es erfolgreich war, erscheint eine Erfolgsmeldung.
+Bitte hab Geduld, bis der Download abgeschlossen ist – bei größeren Spielen kann das eine Weile dauern. Sobald alles erfolgreich ist, erscheint eine Bestätigungsmeldung.
 
 Damit der Server von außen sichtbar und erreichbar ist, müssen die genutzten Server-Ports in der Firewall freigegeben/weitergeleitet werden. Öffne dazu die Windows Firewall Einstellungen.
 
@@ -47,7 +47,7 @@ In den Einstellungen müssen zusätzliche Regeln hinzugefügt werden. Klicke daz
 
 ## Konfiguration
 
-Bis hierhin hast du die Einrichtung deines Counter-Strike: Condition Zero Servers abgeschlossen. Weitere Server-Konfigurationen kannst du vornehmen, indem du die Startdatei direkt bearbeitest. Navigiere in dein Root-Verzeichnis. Dort findest du den Ordner cfg, in dem du die Datei `server.cfg` öffnest. Dort kannst du Server-Optionen anpassen.
+Bis hierhin hast du die Grundinstallation deines Counter-Strike: Condition Zero Servers abgeschlossen. Weitere Server-Einstellungen kannst du direkt über die Bearbeitung der Startdatei vornehmen. Gehe dazu in dein Root-Verzeichnis. Navigiere dort in den Ordner cfg und öffne die Datei `server.cfg`. Dort kannst du Server-Optionen anpassen.
 
 ```
 ../steamapps/common/cs-ds/cstrike/cfg/server.cfg
@@ -57,17 +57,15 @@ Bis hierhin hast du die Einrichtung deines Counter-Strike: Condition Zero Server
 
 ## Server starten & verbinden
 
-Jetzt wird’s Zeit, deinen Server zu starten. Wechsle in das Hauptspielverzeichnis und führe folgenden Startbefehl aus:
+Jetzt geht’s ans Eingemachte: Starte deinen Server. Wechsle ins Hauptspielverzeichnis und führe folgenden Startbefehl aus:
 
 ```
 hlds.exe -console -game cstrike +maxplayers 8 +map de_dust
 ```
 
-Im Kommandozeilenfenster solltest du nun Logs sehen, die signalisieren, dass der Start erfolgreich war. Beachte, dass der erste Start etwas länger dauern kann, da alles eingerichtet wird. Alternativ kannst du dich direkt verbinden, indem du in der Serverliste unten in der Suchleiste nach `[deine_ip_adresse]:2456` suchst.
+Im Kommandozeilenfenster solltest du nun Logs sehen, die signalisieren, dass der Server erfolgreich gestartet wurde. Beachte, dass der erste Start etwas länger dauern kann, da alles eingerichtet wird. Alternativ kannst du dich direkt verbinden, indem du in der Serverliste unten die Suchleiste nutzt und nach `[deine_ip_adresse]:2456` suchst.
 
 
 ## Fazit
 
-Glückwunsch, du hast deinen Counter-Strike: Condition Zero Server erfolgreich auf deinem VPS installiert und konfiguriert! Bei weiteren Fragen oder Problemen steht dir unser Support-Team täglich zur Verfügung – zögere nicht, uns zu kontaktieren! 🙂
-
-<InlineVoucher />
+Glückwunsch, du hast deinen Counter-Strike: Condition Zero Server erfolgreich auf deinem VPS installiert und konfiguriert! Bei weiteren Fragen oder Problemen steht dir unser Support-Team täglich zur Seite – zögere nicht, uns zu kontaktieren! 🙂

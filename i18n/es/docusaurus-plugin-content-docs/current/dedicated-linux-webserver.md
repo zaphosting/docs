@@ -1,7 +1,7 @@
 ---
 id: dedicated-linux-webserver
-title: "Servidor Dedicado: Instalación de Nginx y Apache como servidor web"
-description: "Descubre cómo configurar e instalar servidores web Nginx o Apache para alojar tu sitio web de forma eficiente → Aprende más ahora"
+title: "Servidor dedicado: Instalación de Nginx y Apache webserver"
+description: "Descubre cómo configurar y montar servidores web Nginx o Apache para alojar tu sitio web de forma eficiente → Aprende más ahora"
 sidebar_label: Instalar servidor web
 services:
   - dedicated
@@ -11,9 +11,9 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introducción
 
-Nginx y Apache son servicios web populares que se usan para entregar páginas web al navegador del usuario. A continuación te mostramos cómo instalar uno de estos servicios en tu sistema.
+Nginx y Apache son servicios web populares que se usan para entregar páginas web al navegador del usuario. A continuación te mostramos cómo instalar uno de estos servicios en tu sistema. 
 
-<InlineVoucher />
+
 
 ## Preparación
 
@@ -102,7 +102,7 @@ Después de instalar el servidor web, puedes subir los archivos de tu sitio web.
 
 ## Verificación de versión
 
-Una vez terminada la instalación, puedes usar los comandos `apache2 -v` (Apache) y `nginx -v` (Nginx) para comprobar si la instalación fue exitosa. La salida debería verse similar a lo siguiente:
+Una vez terminada la instalación, puedes usar los comandos `apache2 -v` (Apache) y `nginx -v` (Nginx) para comprobar si la instalación fue exitosa. La salida debería ser similar a la siguiente:
 
 
 
@@ -124,6 +124,6 @@ nginx version: nginx/1.2.3
 ...
 ```
 
-Si obtienes alguna de estas salidas, entonces el servidor web se ha instalado correctamente.
+Si obtienes alguna de estas salidas, entonces el servidor web se ha instalado correctamente. 
 
-<InlineVoucher />
+

@@ -13,15 +13,13 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introduction
 
-La stack **LAMP** est une sélection populaire de logiciels open-source configurés ensemble pour permettre un hébergement simple de sites web dynamiques, avec un focus particulier sur les sites et applications PHP. L'acronyme signifie : **L**inux comme système d’exploitation, **A**pache comme serveur web, **M**ySQL comme base de données et enfin **P**HP pour le traitement. Dans ce guide, nous allons couvrir le processus d’installation d’une stack LAMP sur un serveur dédié Linux, avec une explication détaillée et un exemple de création d’un site web de liste de tâches.
-
-<InlineVoucher />
+La stack **LAMP** est une sélection populaire de logiciels open-source configurés ensemble pour permettre un hébergement simple de sites web dynamiques, avec un focus particulier sur les sites et applications PHP. L’acronyme signifie : **L**inux comme système d’exploitation, **A**pache comme serveur web, **M**ySQL comme base de données et enfin **P**HP pour le traitement. Dans ce guide, nous allons couvrir le processus d’installation d’une stack LAMP sur un serveur dédié Linux, avec une explication détaillée et un exemple de création d’un site web de liste de tâches.
 
 ## Préparation
 
-Commencez par vous connecter à votre serveur via SSH. Si vous ne savez pas comment faire, jetez un œil à notre [guide d’accès initial (SSH)](vserver-linux-ssh.md).
+Commencez par vous connecter à votre serveur via SSH. Si vous ne savez pas comment faire, jetez un œil à notre guide [Accès initial (SSH)](vserver-linux-ssh.md).
 
-Dans ce guide, nous utiliserons Ubuntu comme distribution Linux. Les instructions sont les mêmes pour Debian et devraient être similaires pour d’autres distributions, mais la syntaxe des commandes peut varier légèrement. Assurez-vous d’avoir un OS installé et d’être connecté au serveur via SSH.
+Dans ce guide, nous utiliserons Ubuntu comme distribution Linux. Les instructions sont les mêmes pour Debian et devraient être similaires pour d’autres distributions, même si la syntaxe des commandes peut légèrement varier. Assurez-vous d’avoir un OS installé et d’être connecté au serveur via SSH.
 
 Comme toujours, avant de continuer l’installation, assurez-vous que tous les paquets sont à jour avec la commande suivante :
 ```
@@ -79,7 +77,7 @@ sudo ufw status
 Vous pouvez voir les profils disponibles en lançant la commande `ufw app list`. Dans l’exemple ci-dessus, utiliser `Apache Full` signifie que les règles pour HTTP (port 80) et HTTPS (port 443) sont créées.
 :::
 
-Vous devriez voir les règles `Apache` et `Apache (v6)` avec l’action `ALLOW`, ce qui confirme que le pare-feu est prêt. Vous verrez aussi les autres règles que vous avez peut-être déjà configurées, y compris celle pour SSH.
+Vous devriez voir les règles `Apache` et `Apache (v6)` avec l’action `ALLOW`, ce qui confirme que le pare-feu est prêt. Vous verrez aussi les autres règles que vous avez pu configurer, y compris celle pour SSH.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/o8NDBppnTwHdSgf/preview)
 
@@ -98,23 +96,23 @@ sudo apt install mysql-server
 
 Une fois l’installation terminée, il est recommandé d’exécuter un script d’installation sécurisée pour garantir la sécurité de votre instance MySQL. C’est optionnel mais fortement conseillé. Lancez-le avec la commande `sudo mysql_secure_installation`.
 
-Ce script vous guidera de manière interactive. D’abord, il vous sera demandé si vous souhaitez activer la validation des mots de passe. Nous recommandons de répondre `Y` pour n’autoriser que des mots de passe sécurisés, puis de choisir `MEDIUM` via `1` ou `STRONG` via `2`.
+Ce script vous guidera de manière interactive. D’abord, vous serez invité à configurer la validation des mots de passe. Nous recommandons de choisir `Y` pour n’autoriser que des mots de passe sécurisés, puis de sélectionner soit `MEDIUM` via `1` ou `STRONG` via `2`.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/YF6N3iPaDWD4sgX/preview)
 
-Ensuite, vous serez invité à supprimer l’utilisateur `anonymous` et à interdire la connexion root à distance. Nous recommandons fortement d’accepter ces deux options avec `Y` pour des raisons de sécurité. Cela supprime l’utilisateur test et limite l’accès root à la connexion locale via SSH uniquement, réduisant ainsi les risques.
+Ensuite, vous serez invité à supprimer l’utilisateur `anonymous` et à interdire la connexion root à distance. Nous recommandons fortement d’accepter ces options via `Y` pour des raisons de sécurité. Cela supprime l’utilisateur test et limite l’accès root à la connexion locale via SSH uniquement, réduisant ainsi les risques.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/ka6GKkojRPRycZB/preview)
 
-Enfin, il vous sera demandé de supprimer la base de données `test` et de recharger les tables de privilèges. Nous recommandons encore une fois d’accepter avec `Y` car la base test n’est pas nécessaire et il faut recharger les privilèges pour que les changements prennent effet.
+Enfin, vous serez invité à supprimer la base de données `test` et à recharger les tables de privilèges. Nous recommandons encore une fois d’accepter via `Y` car la base test n’est pas nécessaire et il faut recharger les privilèges pour que les changements prennent effet.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/42cYTkPaEfo3Jbq/preview)
 
-Vérifiez maintenant que MySQL fonctionne en essayant de vous connecter avec la commande : `sudo mysql -u root`. Si la connexion réussit, un message de bienvenue s’affichera. Vous pouvez quitter avec la commande `quit`.
+Vérifiez maintenant si MySQL tourne en essayant de vous connecter : `sudo mysql -u root`. Si la connexion réussit, un message de bienvenue s’affichera. Vous pouvez quitter avec la commande `quit`.
 
 ### Configuration de PHP
 
-La dernière dépendance LAMP est PHP, et son installation est assez simple. La commande suivante installe PHP ainsi qu’un plugin pour Apache et MySQL, permettant à Apache de fonctionner avec PHP et à PHP d’utiliser MySQL.
+La dernière dépendance LAMP est PHP, et son installation est assez simple. La commande suivante installe PHP avec un plugin pour Apache et MySQL, permettant à Apache de fonctionner avec PHP et à PHP d’utiliser MySQL.
 ```
 sudo apt install php libapache2-mod-php php-mysql
 ```
@@ -125,9 +123,9 @@ php -v
 ```
 
 :::tip Extensions PHP
-Pour des cas d’utilisation avancés, vous pourriez avoir besoin d’extensions PHP supplémentaires pour plus de fonctionnalités. Vous pouvez voir la liste en lançant la commande `apt search php- | less`.
+Pour des cas d’usage avancés, vous pourriez avoir besoin d’extensions PHP supplémentaires pour ajouter des fonctionnalités. Vous pouvez voir la liste en lançant la commande `apt search php- | less`.
 
-Utilisez les flèches pour défiler et appuyez sur `Q` pour quitter. Pour installer une extension, utilisez simplement la commande apt install comme suit. Vous pouvez installer plusieurs extensions en même temps, séparées par un espace pour aller plus vite.
+Utilisez les flèches pour défiler et appuyez sur `Q` pour quitter. Pour installer une extension, utilisez simplement la commande apt install comme suit. Vous pouvez installer plusieurs extensions en même temps, séparées par un espace, pour aller plus vite.
 
 ```
 sudo apt install [php_extension] [...]
@@ -144,35 +142,35 @@ Dans l’éditeur nano, déplacez `index.php` en tête de liste, comme ceci :
 DirectoryIndex index.php index.html index.cgi index.pl index.xhtml index.htm
 ```
 
-Sauvegardez et quittez nano avec `CTRL + X`, puis `Y` pour confirmer et enfin `ENTER`. Redémarrez Apache pour appliquer la modification avec `sudo systemctl restart apache2`.
+Sauvegardez et quittez nano avec `CTRL + X`, puis `Y` pour confirmer et enfin `ENTER`. Redémarrez Apache pour appliquer les changements avec `sudo systemctl restart apache2`.
 
 ### Création du site test
 
-Avec l’installation de chaque dépendance LAMP terminée, créons un site test pour montrer comment la stack LAMP fonctionne ensemble pour offrir une super solution de site dynamique. C’est totalement optionnel, mais ça aide à comprendre comment utiliser ces outils pour vos propres sites.
+Avec l’installation des dépendances LAMP terminée, créons un site test pour montrer comment la stack LAMP fonctionne ensemble pour offrir une solution web dynamique. C’est optionnel, mais utile pour comprendre comment utiliser ces outils pour vos propres sites.
 
-Dans cet exemple, on va créer un petit site de liste de tâches en PHP qui récupère et affiche les entrées. Ces données seront stockées dans une table MySQL et servies via Apache.
+Dans cet exemple, on va créer un petit site de liste de tâches en PHP qui récupère et affiche les entrées. Les données seront stockées dans une table MySQL et servies via Apache.
 
-On utilisera aussi un domaine test `zapdocs.example.com` tout au long du guide, car dans la vraie vie vous utiliserez probablement un domaine. Vous **devez** configurer un enregistrement DNS de type `A` pour ce domaine pointant vers l’adresse IP de votre serveur. Si vous avez besoin d’aide, consultez notre guide [Enregistrements de domaine](domain-records.md).
+On utilisera un domaine test `zapdocs.example.com` tout au long du guide, car dans un vrai cas, vous utiliserez probablement un domaine. Vous **devez** configurer un enregistrement DNS de type `A` pour ce domaine pointant vers l’adresse IP de votre serveur. Si besoin, consultez notre guide [Enregistrements de domaine](domain-records.md).
 
 :::note
-Vous pouvez choisir de ne pas utiliser de domaine et remplacer les mentions de `[your_domain]` par un nom simple. Vous accéderez alors au site via l’adresse IP. Notez cependant que lors de la création du fichier de virtual host, vous devrez retirer la ligne `ServerName`.
+Vous pouvez choisir de ne pas utiliser de domaine et remplacer les mentions de `[your_domain]` par un nom simple. Vous accéderez alors au site via l’adresse IP. Notez cependant que lors de la création du fichier d’hôte virtuel, vous devrez retirer la ligne `ServerName`.
 :::
 
 #### Configuration d’Apache
 
-En général, tous les fichiers et données des sites web sont stockés dans le répertoire `/var/www`. Par défaut, Apache vient avec un dossier `html` contenant une page par défaut. Pour garder tout organisé, surtout si vous hébergez plusieurs sites sur une même instance Apache, on recommande de créer un dossier individuel pour chaque site.
+Habituellement, tous les fichiers et données des sites web sont stockés dans le répertoire `/var/www`. Par défaut, Apache vient avec un dossier `html` contenant une page par défaut. Pour organiser proprement, surtout si vous hébergez plusieurs sites sur une même instance Apache, on recommande de créer un dossier individuel par site.
 
 Pour cela, créez un nouveau dossier dans `/var/www/[your_domain]` pour chaque domaine. Ici, ce sera `/var/www/zapdocs.example.com`.
 ```
 sudo mkdir /var/www/[your_domain]
 ```
 
-Créez maintenant un nouveau fichier de configuration de virtual host Apache dans le dossier `sites-available` pour ce domaine et dossier.
+Créez maintenant un nouveau fichier de configuration d’hôte virtuel Apache dans `sites-available` pour ce domaine et dossier.
 ```
 sudo nano /etc/apache2/sites-available/[your_domain].conf
 ```
 
-Copiez-collez le modèle ci-dessous dans nano, en remplaçant `[your_domain]` par votre domaine.
+Copiez-collez ce modèle dans nano, en remplaçant `[your_domain]` par votre domaine.
 ```
 <VirtualHost *:80>
     ServerName [your_domain]
@@ -184,41 +182,41 @@ Copiez-collez le modèle ci-dessous dans nano, en remplaçant `[your_domain]` pa
 </VirtualHost>
 ```
 
-Ce fichier virtual host gère les requêtes sur le port 80 (HTTP) et vérifie si la requête correspond au `ServerName` spécifié, ici votre domaine. Il indique aussi que le dossier `/var/www/[your_domain]` doit être utilisé pour servir les fichiers.
+Ce fichier gère les requêtes sur le port 80 (HTTP) et vérifie si la requête correspond au `ServerName` (votre domaine). Il indique aussi que le dossier `/var/www/[your_domain]` doit servir les fichiers.
 
-Sauvegardez et quittez nano avec `CTRL + X`, puis `Y` et `ENTER`. On recommande de tester la config avec la commande `sudo apache2ctl configtest` pour vérifier qu’il n’y a pas d’erreurs de syntaxe.
+Sauvegardez et quittez nano avec `CTRL + X`, puis `Y` et `ENTER`. On recommande de tester la config avec `sudo apache2ctl configtest` pour vérifier qu’il n’y a pas d’erreurs de syntaxe.
 
-La dernière étape est d’activer ce virtual host avec `a2ensite`.
+La dernière étape est d’activer ce nouvel hôte virtuel avec `a2ensite`.
 ```
 sudo a2ensite [your_domain]
 ```
 
 :::note Pas de domaine utilisé
-Si vous **n’utilisez pas** de domaine, supprimez ou commentez la ligne `ServerName` en la préfixant avec un `#`. Vous devrez aussi désactiver le virtual host par défaut avec la commande `sudo a2dissite 000-default`.
+Si vous **n’utilisez pas** de domaine, supprimez ou commentez la ligne `ServerName` en la préfixant avec un `#`. Vous devrez aussi désactiver l’hôte virtuel par défaut avec `sudo a2dissite 000-default`.
 :::
 
-Enfin, redémarrez Apache pour appliquer le nouveau virtual host avec : `sudo systemctl restart apache2`.
+Enfin, redémarrez Apache pour appliquer la nouvelle configuration : `sudo systemctl restart apache2`.
 
 #### Création du site web
 
-Maintenant que vous avez configuré Apache avec le nouveau virtual host et dossier, il est temps de créer le site web qui sera servi. Pour l’instant, le dossier est vide donc rien ne sera affiché. On va créer un petit site de liste de tâches comme expliqué plus haut.
+Maintenant que vous avez configuré Apache avec le nouvel hôte virtuel et le dossier, il est temps de créer le site web qui sera servi. Le dossier est vide pour l’instant, donc rien ne sera affiché. On va créer un petit site de liste de tâches comme expliqué.
 
 ##### Préparation de la base de données
 
-Commençons par créer une nouvelle base de données et une table pour stocker les tâches. Connectez-vous à MySQL.
+Commençons par créer une nouvelle base et une table pour stocker les tâches. Connectez-vous à MySQL.
 ```
 sudo mysql -u root
 ```
 
-Créons une base `todowebsite` et une table `todoitems` dedans.
+Créons une base `todowebsite` et une table `todoitems`.
 ```
-# Créer la base de données
+# Créer la base
 CREATE DATABASE todowebsite;
 
-# Utiliser la nouvelle base
+# Utiliser la base
 USE todowebsite;
 
-# Créer une table items dans la base
+# Créer la table des tâches
 CREATE TABLE todoitems (
     id INT AUTO_INCREMENT PRIMARY KEY,
     name VARCHAR(255) NOT NULL,
@@ -227,7 +225,7 @@ CREATE TABLE todoitems (
 );
 ```
 
-Créons quelques entrées exemples.
+Ajoutons quelques entrées exemples.
 ```
 INSERT INTO todoitems (name, is_completed) VALUES ('Créer le guide ZAP-Docs', 0);
 INSERT INTO todoitems (name, is_completed) VALUES ('Acheter un serveur ZAP-Hosting', 1);
@@ -235,13 +233,13 @@ INSERT INTO todoitems (name, is_completed) VALUES ('Rejoindre le Discord ZAP-Hos
 INSERT INTO todoitems (name, is_completed) VALUES ('Passe une super journée !', 0);
 ```
 
-Créons enfin un utilisateur dédié `todo` pour ce site.
+Créons un utilisateur dédié `todo` pour ce site.
 ```
 # Créer un utilisateur dédié
 # Remplacez [your_password] par votre mot de passe
 CREATE USER todo@localhost IDENTIFIED BY '[your_password]';
 
-# Donner les privilèges à l’utilisateur (copiez en une seule fois)
+# Donner les privilèges (copiez en une seule fois)
 GRANT SELECT,INSERT,UPDATE,DELETE,CREATE,DROP,ALTER
 ON todowebsite.*
 TO todo@localhost;
@@ -250,16 +248,16 @@ TO todo@localhost;
 FLUSH PRIVILEGES;
 ```
 
-La base est prête et l’utilisateur créé, vous pouvez quitter MySQL avec la commande `quit`.
+Vous pouvez maintenant quitter MySQL avec la commande `quit`.
 
 ##### Fichiers PHP du site
 
-La dernière étape est de créer le fichier PHP du site de liste de tâches. Ce sera un fichier `index.php` dans le dossier `/var/www/[your_domain]` que vous avez créé. Ouvrez nano pour créer ce fichier.
+La dernière étape est de créer le fichier PHP principal pour la page de la liste de tâches. Ce sera un fichier `index.php` dans `/var/www/[your_domain]`. Ouvrez nano pour créer ce fichier.
 ```
 sudo nano /var/www/[your_domain]/index.php
 ```
 
-Voici un code simple à copier dans nano pour une page basique qui affiche les tâches stockées en base. La première partie PHP établit la connexion MySQL.
+Voici un code simple à copier dans nano pour une page basique qui affiche les tâches stockées dans la base. La première partie PHP établit la connexion MySQL.
 
 :::important
 N’oubliez pas de remplacer `[your_password]` par le mot de passe que vous avez défini pour l’utilisateur `todo`.
@@ -302,13 +300,13 @@ $result = $conn->query($sql);
           <?php
           // Vérifier s’il y a des résultats
           if ($result->num_rows > 0) {
-              // Parcourir chaque élément du résultat
+              // Parcourir chaque élément retourné par la requête
               foreach ($result as $entry) {
                   echo "<li>";
                   // Afficher le nom en sécurisant avec htmlspecialchars pour éviter le XSS
                   echo htmlspecialchars($entry["name"]);
 
-                  // Afficher le statut de complétion
+                  // Afficher le statut d’achèvement
                   if ($entry["is_completed"]) {
                       echo " <strong>(Terminé)</strong>";
                   } else {
@@ -338,16 +336,14 @@ Une fois copié dans nano, sauvegardez et quittez avec `CTRL + X`, puis `Y` et `
 
 #### Tester le site
 
-Vous avez suivi le guide et créé un site test de liste de tâches qui utilise tous les éléments de la stack LAMP !
+Bravo, vous avez suivi le guide et mis en place un site test de liste de tâches qui utilise tous les éléments de la stack LAMP !
 
-Vous devriez maintenant pouvoir accéder au site via le domaine (en HTTP/port 80) que vous avez défini dans le virtual host, ici `zapdocs.example.com`. Le résultat final devrait ressembler à ça :
+Vous devriez maintenant pouvoir accéder au site via le domaine (en HTTP/port 80) que vous avez défini dans le fichier d’hôte virtuel, ici `zapdocs.example.com`. Le rendu final devrait ressembler à ça :
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/NgK2n8xN3wZPLeP/preview)
 
 ## Conclusion
 
-Bravo, vous avez installé et configuré la stack LAMP avec succès ! La prochaine étape, on vous **recommande vivement** de configurer un domaine et un **certificat SSL** pour sécuriser la transmission des données vers vos sites. Consultez notre [guide Certbot](vserver-linux-certbot.md) en vous concentrant sur le **plugin Apache** et suivez la configuration interactive pour installer rapidement un certificat pour votre domaine.
+Félicitations, vous avez installé et configuré la stack LAMP avec succès ! La prochaine étape, on vous **recommande vivement** de configurer un domaine et un **certificat SSL** pour sécuriser la transmission des données vers vos sites. Consultez notre [guide Certbot](vserver-linux-certbot.md) en vous concentrant sur le **plugin Apache** et suivez la configuration interactive pour installer rapidement un certificat pour votre domaine.
 
 Pour toute question ou aide, n’hésitez pas à contacter notre support, disponible tous les jours pour vous aider ! 🙂
-
-<InlineVoucher />

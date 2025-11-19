@@ -1,7 +1,7 @@
 ---
 id: dedicated-windows-hl2
 title: "Serwer dedykowany: Konfiguracja Half-Life 2 Dedicated Server na Windows"
-description: "Dowiedz się, jak szybko i sprawnie skonfigurować serwer dedykowany Half-Life 2 na swoim VPS lub serwerze dedykowanym → Sprawdź teraz"
+description: "Dowiedz się, jak szybko i sprawnie postawić serwer dedykowany Half-Life 2 na swoim VPS lub serwerze dedykowanym → Sprawdź teraz"
 sidebar_label: "Half-Life 2"
 services:
   - vserver
@@ -11,15 +11,15 @@ import YouTube from '@site/src/components/YouTube/YouTube';
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Wprowadzenie
-Masz VPS lub serwer dedykowany i chcesz na nim postawić serwery gier? Na przykład serwer dedykowany Half-Life 2? Trafiłeś idealnie! W tym poradniku krok po kroku pokażemy Ci, jak zainstalować taki serwer na Twoim sprzęcie.
+Masz VPS lub serwer dedykowany i chcesz postawić na nim serwery gier? Na przykład Half-Life 2 Dedicated Server? Trafiłeś idealnie! Poniżej krok po kroku wyjaśnimy, jak zainstalować taki serwer na swoim sprzęcie.
 
-<InlineVoucher />
+
 
 ## Przygotowanie
 
-Do konfiguracji serwera Half-Life 2 potrzebujesz SteamCMD. SteamCMD to **wersja Steam w trybie tekstowym**. To narzędzie pozwala szybko i łatwo pobrać aplikacje serwerów dedykowanych popularnych gier ze Steam. SteamCMD znajdziesz na oficjalnej stronie Valve dla deweloperów: https://developer.valvesoftware.com/wiki/SteamCMD.
+Do konfiguracji serwera Half-Life 2 potrzebny jest SteamCMD. SteamCMD to **wersja Steam klienta działająca w linii poleceń**. To narzędzie pozwala szybko i łatwo pobrać aplikacje serwerów dedykowanych popularnych gier ze Steam. SteamCMD znajdziesz na oficjalnej stronie Valve dla deweloperów: https://developer.valvesoftware.com/wiki/SteamCMD. 
 
-Następnie pobierz plik. Będzie to archiwum **steamcmd.zip**, które musisz rozpakować. Zalecamy utworzyć osobny folder, gdzie wypakujesz pliki. Po rozpakowaniu powinieneś zobaczyć plik **steamcmd.exe**. Uruchom go i poczekaj, aż instalacja się zakończy.
+Następnie pobierz plik. Będzie to archiwum **steamcmd.zip**, które trzeba rozpakować. Zalecamy utworzyć osobny folder, gdzie rozpakujesz plik. Po rozpakowaniu powinieneś zobaczyć plik **steamcmd.exe**. Uruchom go i poczekaj, aż instalacja się zakończy.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/7Hib2ZgaYWTsRNE/preview)
 
@@ -29,19 +29,19 @@ Gdy pojawi się komunikat **Loading Steam API.... OK**, oznacza to, że proces z
 
 ## Instalacja
 
-Po instalacji powinieneś mieć możliwość wpisywania komend w **konsoli Steam (steamcmd.exe)**. Najpierw musisz się zalogować. Zrób to jako użytkownik **anonymous**. Wpisz komendę: `login anonymous`
+Po instalacji powinieneś móc wykonywać polecenia w **Steam w linii poleceń (steamcmd.exe)**. Najpierw musisz się zalogować. Zrobisz to jako użytkownik **anonymous**. Wpisz komendę: `login anonymous`
 
-Kolejnym krokiem jest instalacja serwera. Wykonaj polecenie `app_update 232370`. ID aplikacji **232370** to właśnie **Half-Life 2 Dedicated Server**.
+Kolejnym krokiem jest instalacja. Wykonaj polecenie `app_update 232370`. ID aplikacji **232370** to właśnie **Half-Life 2 Dedicated Server**.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/cgMfJdL5DNNxjrf/preview)
 
-Poczekaj cierpliwie na zakończenie pobierania, bo przy większych grach może to chwilę potrwać. Po udanym pobraniu pojawi się komunikat potwierdzający sukces.
+Poczekaj cierpliwie na zakończenie pobierania, może to chwilę potrwać, zwłaszcza przy większych grach. Po udanym pobraniu pojawi się komunikat potwierdzający sukces.
 
-Aby serwer był widoczny i dostępny z zewnątrz, musisz odblokować/przekierować porty serwera w zaporze sieciowej. Otwórz ustawienia Zapory systemu Windows.
+Aby serwer był widoczny i dostępny z zewnątrz, musisz odblokować/przekierować porty serwera w zaporze sieciowej. Otwórz ustawienia Zapory Windows.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/EM32i73TLcn32Mc/preview)
 
-Dodaj nowe reguły przychodzące i wychodzące dla portów: 27015-27020 dla protokołów TCP/UDP.
+W ustawieniach dodaj nowe reguły przychodzące i wychodzące dla portów: 27015-27020 dla protokołów TCP/UDP.
 
 
 
@@ -55,25 +55,23 @@ Na tym etapie masz już gotowy serwer Half-Life 2. Możesz dalej konfigurować s
 
 ## Rejestracja tokenu GSL
 
-Aby inni gracze mogli dołączyć do Twojego serwera, musisz wygenerować i dodać Game Server Login Token (GSLT). Token ten uwierzytelnia Twój serwer w Steam. Aby wygenerować GSLT, odwiedź http://steamcommunity.com/dev/managegameservers i stwórz token dla gry o ID 232370, czyli Half-Life 2.
+Aby inni gracze mogli dołączyć do Twojego serwera, musisz wygenerować i dodać Game Server Login Token (GSLT). Token ten uwierzytelnia Twój serwer w Steam. Aby wygenerować GSLT, odwiedź http://steamcommunity.com/dev/managegameservers i stwórz token, używając ID gry 232370, które odpowiada Half-Life 2.
 
-Gdy masz już token, dodaj go do parametrów startowych serwera jako `+sv_setsteamaccount <TOKEN>`.
+Po otrzymaniu tokenu dodaj go do parametrów uruchomieniowych serwera jako `+sv_setsteamaccount <TOKEN>`.
 
 
 
-## Uruchomienie i łączenie się z serwerem
+## Uruchamianie i łączenie się z serwerem
 
-Teraz czas na start serwera. Przejdź do głównego katalogu gry i uruchom serwer poleceniem:
+Teraz czas uruchomić serwer. Przejdź do głównego katalogu gry i wpisz następującą komendę startową:
 
 ```
 start srcds.exe -console -game hl2mp -secure +maxplayers 10 +map dm_runoff +sv_setsteamaccount XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 ```
 
-W konsoli powinny pojawić się logi, które potwierdzą, że serwer wystartował poprawnie. Pamiętaj, że pierwsze uruchomienie może potrwać dłużej, bo wszystko się konfiguruje. Alternatywnie możesz połączyć się bezpośrednio, wpisując w wyszukiwarce serwerów: `[twoj_adres_ip]:2456`.
+W konsoli powinny pojawić się logi, które potwierdzą, że serwer wystartował poprawnie. Pamiętaj, że pierwsze uruchomienie może potrwać dłużej, bo wszystko się konfiguruje. Alternatywnie możesz połączyć się bezpośrednio, wpisując w wyszukiwarce serwerów adres: `[twoj_adres_ip]:2456`.
 
 
 ## Podsumowanie
 
-Gratulacje, właśnie zainstalowałeś i skonfigurowałeś serwer Half-Life 2 na swoim VPS! Jeśli masz pytania lub potrzebujesz pomocy, nasz support jest dostępny codziennie i chętnie Ci pomoże! 🙂
-
-<InlineVoucher />
+Gratulacje, udało Ci się zainstalować i skonfigurować serwer Half-Life 2 na Twoim VPS! Jeśli masz pytania lub potrzebujesz pomocy, śmiało kontaktuj się z naszym supportem, który jest do Twojej dyspozycji codziennie! 🙂

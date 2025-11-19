@@ -31,16 +31,16 @@ Um einen FiveM Server einzurichten, sind bestimmte Vorbereitungsschritte notwend
 
 ### Datenbank einrichten
 
-Für unsere GS/TS3 Interface Option stellen wir bereits eigene Datenbanken inklusive bereit. Wenn du jedoch lieber deinen eigenen Datenbankserver und deine eigene Datenbank einrichten möchtest, empfehlen wir dir einen Blick in die [Datenbank installieren](dedicated-linux-databases.md) Anleitung zu werfen. 
+Für unsere GS/TS3 Interface Option stellen wir bereits eigene Datenbanken inklusive bereit. Falls du jedoch lieber deinen eigenen Datenbankserver und deine eigene Datenbank einrichten möchtest, empfehlen wir dir einen Blick in die [Datenbank installieren](dedicated-linux-databases.md) Anleitung.
 
 :::warning
-Wenn du deine eigene Datenbank nutzt, musst du während der txAdmin Einrichtung die voreingestellten Datenbankinformationen durch deine eigenen ersetzen. 
+Wenn du deine eigene Datenbank nutzt, musst du während der txAdmin Einrichtung die voreingestellten Datenbankinformationen durch deine eigenen ersetzen.
 :::
 
 
 
 ### GS/TS3 Interface installieren
-Mit dem benutzerfreundlichen GS/TS3 Interface kannst du deinen FiveM Dedicated Server mit nur wenigen Klicks installieren. Für diese Installation sind keine Vorkenntnisse nötig. Die Einrichtung aller benötigten Pakete, Serverdateien und die eigentliche Installation sind vollautomatisiert, was dir Zeit und Aufwand spart.
+Mit dem benutzerfreundlichen GS/TS3 Interface kannst du deinen FiveM Dedicated Server mit nur wenigen Klicks installieren. Für diese Installation sind keine Vorkenntnisse nötig. Die Einrichtung aller benötigten Pakete, Serverdateien und die eigentliche Installation laufen vollautomatisch ab, was dir Zeit und Aufwand spart.
 
 :::warning
 Das GS/TS3 Interface Feature kann mit folgenden Betriebssystemen genutzt werden:
@@ -62,7 +62,7 @@ Vorausgesetzt, du hast das GS/TS3 Interface installiert, öffne den neu erstellt
 
 ### FiveM Server Lizenzschlüssel erstellen
 
-Jeder FiveM Server benötigt einen eigenen Lizenzschlüssel, der über das neue [Cfx.re Portal](http://portal.cfx.re/) verwaltet wird. Der Lizenzschlüssel ist mit deinem Cfx.re Account verknüpft. Melde dich auf der Webseite an, navigiere zur Kategorie **Server** und klicke auf den Button **Generate Key**.
+Jeder FiveM Server benötigt einen eigenen Lizenzschlüssel, der über das neue [Cfx.re Portal](http://portal.cfx.re/) verwaltet wird. Der Lizenzschlüssel ist an deinen Cfx.re Account gebunden. Melde dich auf der Webseite an, navigiere zur Kategorie **Server** und klicke auf den Button **Generate Key**.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/X6kHcs6o2dcFJqw/preview)
 
@@ -87,7 +87,7 @@ Wähle im Schritt **Deployment Type** die Option **Popular Recipes** und dann di
 
 ### Firewall-Konfiguration
 
-Bei der Installation des FiveM Servers über das GS/TS3 Interface wird die gesamte notwendige Portweiterleitung **automatisch** in der Firewall eingerichtet. Falls es Probleme geben sollte, kannst du die Portweiterleitung auch manuell per SSH mit folgendem Befehl einrichten:
+Bei der Installation des FiveM Servers über das GS/TS3 Interface wird die gesamte notwendige Portweiterleitung **automatisch** in der Firewall eingerichtet. Sollten Probleme auftreten, kannst du die Portweiterleitung auch manuell via SSH mit folgendem Befehl einrichten:
 
 ```
 iptables -A INPUT -p tcp --dport 30120 -j ACCEPT
@@ -100,7 +100,7 @@ iptables -A OUTPUT -p udp --dport 30120 -j ACCEPT
 
 ## Fazit
 
-Du hast erfolgreich einen FiveM Dedicated Server Service auf deinem Dedicated Server installiert und konfiguriert. Bei weiteren Fragen oder wenn du Hilfe brauchst, steht dir unser Support-Team täglich zur Verfügung! 🙂
+Du hast erfolgreich einen FiveM Dedicated Server Service auf deinem Dedicated Server installiert und konfiguriert. Bei weiteren Fragen oder Problemen steht dir unser Support-Team täglich zur Verfügung und hilft dir gerne weiter! 🙂
 
 
-<InlineVoucher />
+

@@ -1,6 +1,6 @@
 ---
 id: dedicated-linux-ubuntu-2004
-title: "Servidor dedicado: Instalación de Ubuntu 20.04"
+title: "Servidor Dedicado: Instalación de Ubuntu 20.04"
 description: "Descubre cómo instalar y configurar Ubuntu en tu servidor dedicado para un rendimiento óptimo y soporte a largo plazo → Aprende más ahora"
 sidebar_label: Ubuntu 20.04
 services:
@@ -11,11 +11,11 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introducción
 
-A continuación te explicamos paso a paso cómo instalar y configurar el sistema operativo Ubuntu en tu servidor dedicado. Sigue estas instrucciones con cuidado para asegurarte de que configuras el sistema operativo correctamente y lo aprovechas al máximo.
+A continuación te explicamos paso a paso cómo instalar y configurar el sistema operativo Ubuntu en tu servidor dedicado. Sigue estas instrucciones con atención para asegurarte de configurar el sistema operativo correctamente y sacarle el máximo provecho.
 
 
 
-:::warning Versión más reciente disponible / detalles EOL
+:::warning Versión más reciente disponible / Detalles EOL
 
 La última versión de Ubuntu es la [24.04](dedicated-linux-ubuntu.md). Recomendamos usar la versión más reciente para proyectos a largo plazo.
 
@@ -29,11 +29,11 @@ Más información en la [web oficial](https://ubuntu.com/about/release-cycle).
 :::
 
 
-<InlineVoucher />
+
 
 ## Preparación
 
-Para la instalación y configuración de un sistema operativo, es importante montar inicialmente el ISO correspondiente. Hay varias formas posibles de montarlo:
+Para la instalación y configuración de un sistema operativo, es importante montar inicialmente el ISO correspondiente. Hay varias formas de montarlo:
 
 1. Montaje vía configuración inicial
 2. Montaje vía iLO (Medios Virtuales)
@@ -45,23 +45,23 @@ Si aún no estás familiarizado con montar un archivo ISO, lo mejor es consultar
 
 ## Instalación
 
-Una vez que el ISO se haya montado y cargado correctamente, el servidor debería iniciar el proceso de configuración. Al principio se define el idioma que quieres usar para tu sistema operativo. Selecciona uno de los idiomas disponibles y confirma con la tecla `Enter`. 
+Una vez que el ISO se haya montado y cargado correctamente, el servidor debería iniciar el proceso de instalación. Al principio del setup se define el idioma que quieres usar para tu sistema operativo. Selecciona uno de los idiomas disponibles y confirma con la tecla `Enter`. 
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/yrHMNzstM23XZH6/preview)
 
-A continuación, debes seleccionar y configurar la distribución del teclado para el idioma elegido. Escoge la distribución que más te convenga. 
+A continuación, debes seleccionar y configurar el layout del teclado para el idioma elegido. Escoge el que mejor te convenga. 
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/x9kYGEWS5fy7Wjp/preview)
 
-Después viene la configuración de red. Por defecto, el servidor se configura vía DHCP. El adaptador de red predeterminado es `eno1`. Confirma los ajustes por defecto y continúa. 
+Después viene la configuración de red. Por defecto, el servidor se configura vía DHCP. El adaptador de red por defecto es `eno1`. Confirma los ajustes por defecto y continúa. 
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/6mr5kAKJQ39iJt5/preview)
 
-Opcionalmente, puedes configurar un proxy adicional. Esto no es obligatorio, así que si no lo necesitas, simplemente salta este paso. 
+Opcionalmente, puedes configurar un proxy adicional. Esto no es obligatorio. Si no lo necesitas, simplemente salta este paso. 
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/tz97Ee8ZQkxAGGb/preview)
 
-Ahora se define el espejo del archivo de Ubuntu (servidor de descarga para paquetes). Nuestros servidores dedicados están en Alemania, por lo que recomendamos elegir el espejo alemán para obtener la mejor velocidad de descarga posible.
+Ahora se define el espejo del archivo de Ubuntu (servidor de descarga de paquetes). Nuestros servidores dedicados están en Alemania, por lo que recomendamos elegir el mirror alemán para obtener la mejor velocidad de descarga posible.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/xNknNyWAbd5DnsZ/preview)
 
@@ -69,7 +69,7 @@ En la configuración de almacenamiento puedes definir las particiones. Puedes us
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/2dJ9oeMGjpWn6cZ/preview)
 
-El sistema crea automáticamente los volúmenes y puedes continuar eligiendo la opción `Hecho`.
+El setup crea automáticamente los volúmenes y puedes continuar eligiendo la opción `Hecho`.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/WXfzt57Rtm2SQLD/preview)
 
@@ -77,20 +77,24 @@ Antes de iniciar el proceso, se te informará que se borrarán todos los datos e
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/L3YcGNbYWpMmaDj/preview)
 
-Configura tu cuenta de usuario a tu gusto; también puedes usar la cuenta root al final cambiando la contraseña.
-Puedes navegar por las opciones con tab o las flechas. Cuando termines, marca `Hecho`.
+Configura tu cuenta de usuario a tu gusto, también puedes usar la cuenta root al final cambiando la contraseña.
+Puedes navegar por las opciones con tab o las flechas. Cuando termines, continúa marcando `Hecho`.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/mqrjmF2ZmA2Qj9z/preview)
 
-La instalación del setup SSH es recomendable. Si quieres gestionar el servidor vía SSH, selecciona la opción para instalarlo y confirma.
+
+
+
+
+Se recomienda instalar la configuración SSH. Si quieres gestionar el servidor vía SSH, selecciona la opción para instalarlo y confirma.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/Xz3zzMdZ6C523ip/preview)
 
-Ubuntu ofrece algunos snaps por defecto; si quieres usar alguno, márcalos.
+Ubuntu ofrece algunos snaps por defecto, si quieres usar algunos, simplemente márcalos.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/wcGiSwX935jXeex/preview)
 
-Para completar el proceso, el ISO debe ser expulsado para evitar que se recargue al reiniciar el servidor. Reinicia el servidor una vez para finalizar.
+Para completar el proceso, debes expulsar el ISO para evitar que se recargue al reiniciar el servidor. Reinicia el servidor una vez para finalizar.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/SzrxCtJTx2S8Nef/preview)
 
@@ -112,11 +116,7 @@ Puedes cambiar fácilmente la contraseña del usuario root. Ejecuta `sudo su` e 
 
 ## Conclusión
 
-¡Felicidades! Has instalado con éxito Ubuntu 20.04 en tu servidor dedicado. Para cualquier duda o ayuda, no dudes en contactar con nuestro equipo de soporte, disponible todos los días para echarte una mano 🙂
+¡Felicidades! Has instalado con éxito Ubuntu 20.04 en tu servidor dedicado. Para cualquier duda o ayuda, no dudes en contactar con nuestro equipo de soporte, disponible todos los días para asistirte 🙂
 
 
 
-
-
-
-<InlineVoucher />

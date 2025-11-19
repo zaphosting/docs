@@ -13,7 +13,9 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/TYEHE38gNQoFjBx/download/ssh_connect.gif)
 
-Linux-Server-Produkte beinhalten standardmäßig keine grafische Verwaltungsoberfläche, weshalb die Verbindung und Verwaltung über einen SSH-Client (Konsole) erfolgt. Es gibt eine große Auswahl an SSH-Clients. Unten findest du eine Übersicht der bekannten / häufig genutzten SSH-Clients.
+Linux-Server-Produkte beinhalten standardmäßig keine grafische Verwaltungsoberfläche, weshalb die Verbindung und Verwaltung über einen SSH-Client (Konsole) erfolgt. Es gibt eine große Auswahl an SSH-Clients. Unten findest du eine Übersicht der bekannten / häufig genutzten SSH-Clients. 
+
+
 
 | SSH-Client | Unterstützte Betriebssysteme | Open-Source |                           Download                           |
 | :--------: | :--------------------------: | :---------: | :----------------------------------------------------------: |
@@ -24,19 +26,27 @@ Linux-Server-Produkte beinhalten standardmäßig keine grafische Verwaltungsober
 | mRemoteNG  |           Windows            |     Ja      |           [Klick](https://mremoteng.org/download)            |
 
 
-<InlineVoucher />
+
 
 ## IP-Adresse & Zugriff
 
-Im Folgenden wird die Verbindung mit dem Putty SSH-Client erklärt. Im Konfigurationsfenster werden die IP-Adresse des Servers und der SSH-Port 22 als **Hostname** eingetragen. Danach kann die Verbindung über den **Open**-Button gestartet werden.
+Im Folgenden wird die Verbindung mit dem Putty SSH-Client erklärt. Im Konfigurationsfenster wird die IP-Adresse des Servers und der SSH-Port 22 als **Hostname** eingetragen. Anschließend kann die Verbindung über den **Open**-Button gestartet werden.
+
+
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/Jp2Wn3s9kQG5t55/preview)
+
+
 
 :::info
 Der SSH-Login per Passwort ist standardmäßig deaktiviert. Wenn du dich mit Passwort anmelden möchtest, musst du die Option zuerst unter **Zugriff & Sicherheit** aktivieren.
 :::
 
+
+
 ![](https://screensaver01.zap-hosting.com/index.php/s/4fSRwzaq8QQLZ3o/preview)
+
+
 
 :::info
 Beim ersten Verbindungsaufbau zum Server erscheint eine Sicherheitsmeldung von Putty, die dich darüber informiert, dass noch kein Host-Key im Registry-Cache gespeichert ist. Diese kannst du mit **Yes** bestätigen, wenn du die Meldung künftig nicht mehr sehen möchtest.
@@ -44,7 +54,9 @@ Beim ersten Verbindungsaufbau zum Server erscheint eine Sicherheitsmeldung von P
 
  
 
-Das öffnet die SSH-Konsole und fordert dich zur Eingabe von **Benutzername** und **Passwort** auf. Der Benutzername lautet "**root**". Das Passwort findest du im Webinterface unter "**Zugriff & Sicherheit**" oder kannst es dort setzen.
+Es öffnet sich die SSH-Konsole und fordert dich zur Eingabe von **Benutzername** und **Passwort** auf. Der Benutzername lautet "**root**". Das Passwort findest du im Webinterface unter "**Zugriff & Sicherheit**" oder kannst es dort setzen.
+
+
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/pG4dTmCGFyzK3dY/preview)
 
@@ -52,7 +64,7 @@ Das öffnet die SSH-Konsole und fordert dich zur Eingabe von **Benutzername** un
 
 
 
-## Administration per SSH
+## Administration via SSH
 
 Für die optimale Nutzung des SSH-Clients ist es wichtig, die Grundbefehle zu kennen. Im Folgenden findest du eine grobe Übersicht mit allen relevanten Befehlen und deren Bedeutung:
 
@@ -73,14 +85,14 @@ Für die optimale Nutzung des SSH-Clients ist es wichtig, die Grundbefehle zu ke
 | Befehl  |                         Beschreibung                         | Syntax                                       |
 | :-----: | :----------------------------------------------------------: | -------------------------------------------- |
 |   top   | Übersicht über Auslastung, Prozesse und weitere Infos (ähnlich dem Windows Task-Manager)  | top                                          |
-|   df    |            Anzeige der Speicherplatznutzung (Partitionen)            | df -h                                        |
+|   df    |            Anzeige der Speicherplatznutzung (Partition)            | df -h                                        |
 |   du    |          Anzeige des Speicherplatzverbrauchs (Verzeichnis)           | du -sh *                                     |
 |  free   | Speicherbelegung des Systems, aufgeteilt in RAM und SWAP-Speicher | free                                         |
 |  kill   |  Beendet den Prozess mit der übergebenen Prozess-ID (PID)   | kill [ID]                                    |
 | killall |        Beendet alle Prozesse mit dem angegebenen Namen        | killall [Name]                               |
 |   mv    |       Verschiebt Dateien oder Verzeichnisse an einen anderen Ort        | mv Quellpfad Zielpfad                        |
 |  mkdir  |                    Neues Verzeichnis anlegen                    | mkdir Verzeichnisname                          |
-| service |    Dienst starten, stoppen, neu starten und Status abfragen     | service Dienstname start/stop/restart/status |
+| service |    Dienst starten, stoppen, neu starten und Status prüfen     | service Dienstname start/stop/restart/status |
 | reboot  |                      System neu starten                        | reboot                                       |
 
 
@@ -93,7 +105,7 @@ Für die optimale Nutzung des SSH-Clients ist es wichtig, die Grundbefehle zu ke
 | cd | Verzeichnis wechseln | cd [OPTION] VERZEICHNIS |
 | cp | Dateien oder Verzeichnisse kopieren | cp [OPTIONEN] QUELLE ZIEL |
 | mv | Datei oder Verzeichnis verschieben | mv [OPTION] QUELLE ZIEL |
-| mkdir | Neues Verzeichnis erstellen | mkdir [OPTION] VERZEICHNISNAME |
+| mkdir | Neues Verzeichnis anlegen | mkdir [OPTION] VERZEICHNISNAME |
 | rmdir | Bestehendes Verzeichnis löschen | rmdir [OPTION] VERZEICHNIS |
 | find | Dateisystem durchsuchen | find [OPTIONEN] [VERZEICHNIS] [AKTIONEN] |
 | grep | Textdateien durchsuchen | grep [OPTIONEN] SUCHMUSTER [DATEI(EN)] |
@@ -107,7 +119,4 @@ Für die optimale Nutzung des SSH-Clients ist es wichtig, die Grundbefehle zu ke
 | ip | Netzwerkinterfaces abfragen und konfigurieren | ip [OPTIONEN] OBJEKT [BEFEHL [ARGUMENTE]] |
 | netstat | Status der Netzwerkinterfaces abfragen | netstat [OPTIONEN] |
 | nslookup | DNS-Informationen abfragen | nslookup |
-| ping | Netzwerkverbindung prüfen | ping [OPTIONEN] ZIEL
-
-
-<InlineVoucher />
+| ping | Netzwerkverbindung prüfen | ping [OPTIONEN] ZIEL |

@@ -1,7 +1,7 @@
 ---
 id: dedicated-linux-create-gameservice
 title: "Servidor Dedicado: Configura tu Servidor de Juegos Dedicado como un Servicio en Linux"
-description: "Descubre cómo configurar y gestionar servicios de servidores de juegos dedicados en Linux para una automatización fluida y un control sencillo → Aprende más ahora"
+description: "Descubre cómo configurar y gestionar servicios de servidores de juegos dedicados en Linux para una automatización fluida y control sencillo → Aprende más ahora"
 sidebar_label: Configurar Servicio Linux
 services:
   - dedicated
@@ -11,19 +11,17 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introducción
 
-Los servicios son una parte fundamental de Linux y se refieren a un proceso o aplicación que se ejecuta en segundo plano, ya sea una tarea predefinida o basada en eventos. Esto ofrece varios beneficios, incluyendo el lanzamiento automático del servidor al iniciar, actualizaciones automáticas, gestión sencilla y acceso a los logs, ¡y mucho más! En esta guía, exploraremos el proceso para crear un servicio para tu servidor de juegos dedicado.
-
-<InlineVoucher />
+Los servicios son una parte fundamental de Linux y se refieren a un proceso o aplicación que se ejecuta en segundo plano, ya sea una tarea predefinida o basada en eventos. Esto ofrece varios beneficios, incluyendo el lanzamiento automático del servidor al iniciar, actualizaciones automáticas del servidor, gestión sencilla y acceso a los registros, ¡y mucho más! En esta guía, exploraremos el proceso para crear un servicio para tu servidor de juegos dedicado.
 
 ## Preparación
 
-Para empezar, conéctate a tu servidor dedicado vía SSH. Usa nuestra [guía de Acceso Inicial SSH](vserver-linux-ssh.md) si necesitas ayuda para hacerlo.
+Para comenzar, conéctate a tu servidor dedicado vía SSH. Usa nuestra [guía de Acceso Inicial SSH](vserver-linux-ssh.md) si necesitas ayuda para hacerlo.
 
-También deberías seguir alguna de nuestras guías de servidores de juegos dedicados en esta sección para instalar y configurar un servidor de juegos en tu sistema Linux. En esta guía, usaremos el [servidor de juegos dedicado Palworld](dedicated-linux-palworld.md) como ejemplo, pero las instrucciones se pueden adaptar para todas nuestras guías.
+También deberías seguir una de nuestras guías de servidores de juegos dedicados en esta sección para instalar y configurar un servidor de juegos en tu sistema Linux. En esta guía, usaremos el [servidor dedicado de Palworld](dedicated-linux-palworld.md) como ejemplo, pero las instrucciones pueden adaptarse para todas nuestras guías.
 
 ## Creando un Servicio
 
-Comienza creando un nuevo archivo de servicio para el servidor de juegos dedicado que hayas configurado. Reemplaza `[your_game]` con el nombre que prefieras. Recomendamos usar el nombre del juego para mantener todo organizado, por lo que usaremos `palworld.service`.
+Empieza creando un nuevo archivo de servicio para el servidor de juegos dedicado que has configurado. Reemplaza `[your_game]` con el nombre que prefieras. Recomendamos usar el nombre del juego para mantener todo organizado, por lo que usaremos `palworld.service`.
 ```
 sudo nano /etc/systemd/system/[your_game].service
 ```
@@ -80,12 +78,12 @@ WantedBy=multi-user.target
 </TabItem>
 </Tabs>
 
-Vamos a desglosar el contenido del archivo para entenderlo mejor:
+Vamos a desglosar el contenido del archivo para entender todo mejor:
 - `Description`: Puede ser cualquier cosa, útil para distinguir fácilmente el propósito del servicio.
-- `User`: Siguiendo nuestras guías, deberías haber configurado un usuario separado `steam` para usar con SteamCMD, o el usuario `gameservers` para juegos sin SteamCMD. Si no, debe ser el usuario que ejecutará el servicio.
+- `User`: Siguiendo nuestras guías, deberías haber creado un usuario separado `steam` para usar con SteamCMD, o el usuario `gameservers` para juegos sin SteamCMD. Si no, debe ser el usuario que ejecutará el servicio.
 - `WorkingDirectory`: Es la ruta al directorio principal que contiene todo lo que el servicio necesita.
-- `ExecStartPre` (solo SteamCMD): En este campo, configuramos el mismo comando de instalación de SteamCMD que antes, que se ejecutará cada vez que el servidor se reinicie para asegurarse de que esté actualizado. Debes copiar esto de la guía respectiva del servidor de juegos dedicado, o reemplazar los valores manualmente con los del juego.
-- `ExecStart`: Este campo determina la tarea predefinida que debe ejecutarse con el servicio. Nuevamente, debes copiar la ruta de la guía respectiva del servidor de juegos dedicado, o reemplazar los valores manualmente para navegar al archivo de inicio.
+- `ExecStartPre` (solo SteamCMD): Aquí configuramos el mismo comando de instalación de SteamCMD que antes, que se ejecutará cada vez que el servidor se reinicie para asegurarse de que esté actualizado. Debes copiar esto de la guía respectiva del servidor de juegos dedicado, o reemplazar los valores manualmente con los del juego.
+- `ExecStart`: Este campo determina la tarea predefinida que debe ejecutarse con el servicio. Nuevamente, debes copiar la ruta de la guía respectiva del servidor de juegos dedicado, o reemplazar los valores manualmente para apuntar al archivo de inicio.
 :::important Capa de Compatibilidad Wine
 Para juegos que requieren la capa de compatibilidad **Wine** para poder ejecutarse, debes incluir los comandos **xvfb-run** y **wine** dentro del parámetro `ExecStart`. Por ejemplo, para V-Rising:
 ```
@@ -135,7 +133,7 @@ sudo systemctl restart [your_service]
 ```
 
 :::tip
-Para ver detalles sobre el servicio, usa el comando `systemctl status`. Si necesitas logs para depurar, usa `journalctl -u [your_service].service` para ver los logs más recientes del servicio.
+Para ver detalles sobre el servicio, usa el comando `systemctl status`. Si necesitas logs para depurar, usa `journalctl -u [your_service].service` para ver los registros más recientes del servicio.
 :::
 
 Por último, si alguna vez quieres evitar que el servicio se inicie automáticamente, simplemente deshabilítalo.
@@ -145,8 +143,6 @@ sudo systemctl disable [your_service]
 
 ## Conclusión
 
-Ya configuraste con éxito un servicio para tu servidor de juegos dedicado. Ahora el servidor arrancará automáticamente al iniciar el servidor dedicado.
+Ya configuraste con éxito un servicio para tu servidor de juegos dedicado. El servidor ahora se iniciará automáticamente al arrancar el servidor.
 
 También aprendiste sobre el contenido del archivo de servicio y cómo gestionar el servicio usando varios comandos.
-
-<InlineVoucher />

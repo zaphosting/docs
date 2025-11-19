@@ -1,7 +1,7 @@
 ---
 id: dedicated-windows-soulmask
 title: "Servidor Dedicado: Configuración del Servidor Dedicado Soulmask en Windows"
-description: "Descubre cómo instalar el servidor dedicado Soulmask en tu VPS o servidor dedicado Windows de forma rápida y eficiente → Aprende más ahora"
+description: "Descubre cómo instalar el servidor dedicado de Soulmask en tu VPS Windows o servidor dedicado de forma rápida y eficiente → Aprende más ahora"
 sidebar_label: Soulmask
 services:
   - dedicated
@@ -12,15 +12,13 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introducción
 
-¿Tienes un VPS o servidor dedicado Windows y quieres instalar el servicio de servidor dedicado Soulmask en él? Estás en el lugar correcto. En esta guía, te explicaremos paso a paso cómo instalar este servicio en tu servidor.
-
-<InlineVoucher />
+¿Tienes un VPS Windows o un servidor dedicado y quieres instalar el servicio de servidor dedicado Soulmask en él? Estás en el lugar correcto. En esta guía, te explicaremos paso a paso cómo instalar este servicio en tu servidor.
 
 ## Preparación
 
-Para empezar, conéctate a tu VPS mediante Escritorio Remoto (RDP). Usa nuestra guía de [Acceso Inicial (RDP)](vserver-windows-userdp.md) si necesitas ayuda para hacerlo.
+Para empezar, conéctate a tu VPS mediante Escritorio Remoto (RDP). Usa nuestra [Guía de Acceso Inicial (RDP)](vserver-windows-userdp.md) si necesitas ayuda para hacerlo.
 
-Una vez que hayas accedido a tu servidor, necesitarás configurar **SteamCMD** para poder descargar los archivos necesarios del servidor dedicado. SteamCMD es la versión de **línea de comandos (CLI)** del cliente Steam y es la herramienta que te permite descargar fácilmente una variedad de archivos del taller de Steam y servidores dedicados. Descarga [SteamCMD desde la web oficial de Valve](https://developer.valvesoftware.com/wiki/SteamCMD) o directamente [aquí](https://steamcdn-a.akamaihd.net/client/installer/steamcmd.zip).
+Una vez que hayas accedido a tu servidor, necesitarás configurar **SteamCMD** para poder descargar los archivos necesarios del servidor dedicado. SteamCMD es la versión **de línea de comandos (CLI)** del cliente Steam y es la herramienta que te permite descargar fácilmente una variedad de archivos del taller de Steam y servidores dedicados. Descarga [SteamCMD desde la web oficial de Valve](https://developer.valvesoftware.com/wiki/SteamCMD) o directamente [aquí](https://steamcdn-a.akamaihd.net/client/installer/steamcmd.zip).
 
 Crea una nueva carpeta en algún lugar de tu servidor, en este caso la llamaremos `steamcmd`. Ve a tu carpeta de Descargas, encuentra el archivo **steamcmd.zip** que acabas de descargar y colócalo dentro de la carpeta `steamcmd`. Ahora descomprime el archivo haciendo clic derecho y usando la función de descompresión de Windows directamente, o con cualquier aplicación como .7zip o Winrar. Esto debería generar un archivo **steamcmd.exe** descomprimido.
 
@@ -28,7 +26,7 @@ Simplemente ejecuta **steamcmd.exe** y espera hasta que el proceso de instalaci�
 
 ![](https://github.com/zaphosting/docs/assets/42719082/ffb8e8a1-26e3-4d16-9baf-938e17ec1613)
 
-Tan pronto como aparezca el mensaje **Loading Steam API.... OK**, el proceso se ha completado con éxito y puedes comenzar con la instalación del servidor dedicado Soulmask en la siguiente sección.
+En cuanto aparezca el mensaje **Loading Steam API.... OK**, el proceso se ha completado con éxito y puedes comenzar con la instalación del servidor dedicado Soulmask en la siguiente sección.
 
 ## Instalación
 
@@ -37,7 +35,7 @@ Después de la instalación, deberías poder ejecutar comandos dentro del símbo
 Una vez conectado, ya puedes comenzar a descargar los archivos.
 
 :::tip
-Opcional: Puedes establecer tu directorio de instalación preferido usando el comando `force_install_dir [ruta]`, reemplazando `[ruta]` con la ruta que quieras usar para tu servidor. Por ejemplo:
+Opcional: Puedes establecer tu directorio de instalación preferido usando el comando `force_install_dir [ruta]`, reemplazando `[ruta]` con la ruta que quieras usar para tu servidor. Por ejemplo: 
 ```
 force_install_dir C:\Soulmask-Server
 ```
@@ -55,7 +53,7 @@ Una vez finalizado, ve al directorio de descarga, donde se han descargado todos 
 
 ### Reenvío de puertos para tu servidor
 
-Para asegurarte de que tu servidor sea accesible al público, debes modificar las reglas de reenvío de puertos para los puertos que usa el proceso del servidor dedicado. Puedes hacerlo mediante comandos de PowerShell directamente, que es más fácil, o de forma tradicional a través de la página del Firewall de Windows Defender.
+Para asegurarte de que tu servidor sea accesible públicamente, debes modificar las reglas de reenvío de puertos para los puertos que usa el proceso del servidor dedicado. Puedes hacerlo directamente mediante comandos de PowerShell, que es más fácil, o de forma tradicional a través de la página del Firewall de Windows Defender.
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
@@ -63,7 +61,7 @@ import TabItem from '@theme/TabItem';
 <Tabs>
 <TabItem value="powershell" label="Vía PowerShell" default>
 
-Abre el cuadro de búsqueda de Windows y busca **PowerShell**. Asegúrate de hacer clic derecho y **Ejecutar como Administrador** para que los permisos estén disponibles y todo funcione correctamente.
+Abre el buscador de Windows y busca **PowerShell**. Asegúrate de hacer clic derecho y **Ejecutar como Administrador** para que los permisos estén disponibles y todo funcione correctamente.
 
 :::info
 Asegúrate de ejecutar PowerShell en modo Administrador, de lo contrario los ajustes podrían no aplicarse correctamente.
@@ -77,13 +75,13 @@ New-NetFirewallRule -DisplayName "Soulmask Server" -Direction Outbound -LocalPor
 New-NetFirewallRule -DisplayName "Soulmask Server" -Direction Outbound -LocalPort 8777,27015 -Protocol UDP -Action Allow
 ```
 
-Estos comandos crearán automáticamente las reglas de firewall necesarias para que tu servidor Soulmask sea accesible al público.
+Estos comandos crearán automáticamente las reglas de firewall necesarias para que tu servidor Soulmask sea accesible públicamente.
 
 </TabItem>
 
 <TabItem value="windefender" label="Vía Windows Defender">
 
-Usa la función de búsqueda de Windows para abrir **Configuración del Firewall de Windows con Seguridad Avanzada**. Puede que tengas que pulsar en **Configuración avanzada** para abrir la ventana necesaria si abres la página base del Firewall de Windows.
+Usa la función de búsqueda de Windows para abrir **Configuración del Firewall de Windows con Seguridad Avanzada**. Puede que tengas que pulsar en **Configuración avanzada** para abrir la ventana necesaria si solo abres la página base del Firewall de Windows.
 
 ![](https://github.com/zaphosting/docs/assets/42719082/5fb9f943-7e51-4d8f-9df4-2f5ff60857d3)
 
@@ -91,18 +89,18 @@ Debes crear nuevas reglas para tu servidor Soulmask. Para ello, haz clic en las 
 - TCP entrante y saliente: 8777, 27015
 - UDP entrante y saliente: 8777, 27015
 
-Por favor, usa nuestra guía de [Reenvío de Puertos (Firewall)](vserver-windows-port.md) si necesitas más ayuda para hacerlo.
+Usa nuestra guía de [Reenvío de Puertos (Firewall)](vserver-windows-port.md) si necesitas más ayuda para hacerlo.
 
 </TabItem>
 </Tabs>
 
-Una vez que hayas añadido estas reglas, tu servidor será accesible, lo que significa que podrás conectarte a él mediante la dirección IP de tu servidor. Puedes hacerlo desde el menú principal en Multijugador, entrando en Conexión Directa por IP e introduciendo tu dirección IP y el puerto usado, que por defecto es 3724 y el que hayas configurado.
+Una vez que hayas añadido estas reglas, tu servidor será accesible, lo que significa que podrás conectarte a él mediante la dirección IP de tu servidor. Para ello, ve al menú Multijugador, selecciona Conexión Directa por IP e introduce la dirección IP y el puerto que usas, que por defecto es 3724 y como lo hayas configurado.
 
 Recomendamos que configures primero los ajustes de tu servidor en la siguiente sección antes de acceder a él.
 
 ## Configuración
 
-A estas alturas, ya has terminado la configuración básica de tu servidor Soulmask. Puedes realizar configuraciones adicionales ajustando los parámetros dentro del archivo **StartServer.bat** que se encuentra en el directorio raíz y a través del archivo **GameUserSettings.ini** ubicado en la ruta `../WS/Saved/Config/WindowsServer`.
+A estas alturas, ya has terminado la configuración inicial de tu servidor Soulmask. Puedes realizar configuraciones adicionales ajustando los parámetros dentro del archivo **StartServer.bat** que se encuentra en el directorio raíz y a través del archivo **GameUserSettings.ini** ubicado en la ruta `../WS/Saved/Config/WindowsServer`.
 
 Consulta nuestra guía de [Configuración del Servidor](soulmask-configuration.md) para ver todos los parámetros y opciones de configuración disponibles para tu servidor Soulmask.
 
@@ -113,13 +111,11 @@ Ahora es momento de iniciar tu servidor. Ve al directorio raíz y ejecuta **Star
 :::tip
 Si tu servidor no arranca y la ventana de comandos simplemente desaparece, entra en el directorio `../WS/Saved/Logs` y revisa el último log para diagnosticar el problema.
 
-Hay un problema común relacionado con el servicio online de Steam que falla al iniciar en los binarios del servidor dedicado Windows debido a un empaquetado incorrecto. Si el error está relacionado con Steam, ve a tu directorio raíz y mueve los siguientes archivos a la carpeta `../WS/Binaries/Win64`: `steamclient64.dll`, `tier0_s64.dll`, `vstdlib_s64.dll`. Ahora intenta iniciar el servidor de nuevo y debería arrancar correctamente en la ventana de comandos.
+Hay un problema común relacionado con el servicio online de Steam que falla al arrancar en los binarios del servidor dedicado para Windows debido a un empaquetado incorrecto. Si el error está relacionado con Steam, ve a tu directorio raíz y mueve los siguientes archivos a la carpeta `../WS/Binaries/Win64`: `steamclient64.dll`, `tier0_s64.dll`, `vstdlib_s64.dll`. Luego intenta iniciar el servidor de nuevo y debería arrancar correctamente en la ventana de comandos.
 :::
 
-Ahora podrás conectarte directamente a tu servidor vía IP introduciendo la dirección IP de tu servidor y el puerto 8777 en el menú multijugador del juego.
+Ahora podrás conectarte directamente a tu servidor vía IP introduciendo la dirección IP de tu servidor y el puerto 8777 en el menú multijugador dentro del juego.
 
-Si quieres que tu servidor aparezca en la lista de servidores, revisa nuestra guía de [Configuración del Servidor](soulmask-configuration.md) y añade el parámetro `-SteamServerName` adecuado en tu archivo **StartServer.bat**. Guarda el archivo y ejecuta de nuevo el batch.
+Si quieres que tu servidor aparezca en la lista de servidores, revisa nuestra guía de [Configuración del Servidor](soulmask-configuration.md) y añade el parámetro `-SteamServerName` adecuado en tu archivo **StartServer.bat**. Guarda el archivo y ejecuta el batch de nuevo.
 
-Has instalado con éxito Soulmask en tu servidor dedicado Windows.
-
-<InlineVoucher />
+Has instalado Soulmask con éxito en tu servidor dedicado Windows.

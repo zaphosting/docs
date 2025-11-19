@@ -13,7 +13,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introducción
 
-Los problemas de red pueden ser molestos y, por supuesto, no deberían formar parte del día a día. Sin embargo, cuando ocurren, es importante identificar rápida y eficazmente la causa para resolver el problema. La información detallada sobre problemas de red puede analizarse de forma efectiva usando la aplicación **WinMTR (Windows)** o **MTR (Linux/Mac OS)**.
+Los problemas de red pueden ser molestos y, por supuesto, no deberían formar parte de la vida diaria. Sin embargo, cuando ocurren, es importante identificar rápida y eficazmente la causa para resolver el problema. La información detallada sobre problemas de red puede analizarse de forma efectiva usando la aplicación **WinMTR (Windows)** o **MTR (Linux/Mac OS)**.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/RecNoSB7J7A7B72/preview)
 
@@ -23,11 +23,11 @@ WinMTR/MTR es una herramienta de diagnóstico de red que combina las funciones d
 
 **Ruta de retorno (Servidor → Cliente)**: Un informe para la **ruta de retorno** solo tiene sentido una vez que se ha confirmado una conexión estable y funcional en la ruta de salida. Esto significa que el informe de la ruta de retorno es especialmente relevante cuando la ruta de salida no muestra problemas, pero persisten problemas como respuestas lentas del servidor, tiempos de carga retrasados o transmisiones de datos incompletas.
 
-En resumen, si ocurren problemas de red notables, primero se debe analizar la **ruta de salida (Cliente → Servidor)**. Si el informe de salida no muestra anomalías y los problemas persisten, es necesario revisar la **ruta de retorno (Servidor → Cliente)** para identificar posibles problemas asimétricos. Los problemas de red asimétricos pueden surgir cuando los paquetes de datos se transmiten sin problemas en una dirección, mientras que en la dirección opuesta ocurren retrasos o pérdida de paquetes.
+En resumen, si ocurren problemas de red evidentes, primero se debe analizar la **ruta de salida (Cliente → Servidor)**. Si el informe de salida no muestra anomalías y los problemas persisten, es necesario revisar la **ruta de retorno (Servidor → Cliente)** para identificar posibles problemas asimétricos. Los problemas de red asimétricos pueden surgir cuando los paquetes de datos se transmiten sin problemas en una dirección, mientras que en la dirección opuesta ocurren retrasos o pérdida de paquetes.
 
 ## Instalación
 
-Ahora que hemos aclarado cuándo son útiles los informes para las rutas de entrada y salida, podemos pasar a la instalación tanto a nivel cliente como servidor.
+Ahora que está claro cuándo son útiles los informes para las rutas de entrada y salida, podemos pasar a la instalación tanto a nivel cliente como servidor.
 
 ### Cliente
 
@@ -36,7 +36,7 @@ Para la ruta de salida, la aplicación debe instalarse en el cliente (**tu orden
 <Tabs>
 <TabItem value="windows" label="Windows" default>
 
-Si usas un ordenador con sistema operativo Windows, el análisis de red se realiza mediante la aplicación WinMTR. Para instalar WinMTR en tu equipo, primero descarga la aplicación desde la web de ZAP-Hosting. Tras descargarla, extrae el archivo. Como resultado, obtendrás el archivo ejecutable `WinMTR.exe`.
+Cuando usas un ordenador con sistema operativo Windows, el análisis de red se realiza mediante la aplicación WinMTR. Para instalar WinMTR en tu ordenador, primero descarga la aplicación desde la web de ZAP-Hosting. Tras la descarga, extrae el archivo. Como resultado, obtendrás el archivo ejecutable `WinMTR.exe`.
 
 | Aplicación | Descarga                                   |
 | ----------- | ------------------------------------------ |
@@ -46,7 +46,7 @@ Si usas un ordenador con sistema operativo Windows, el análisis de red se reali
 
 <TabItem value="linux" label="Linux">
 
-Si usas un ordenador con sistema operativo Linux, el análisis de red se realiza mediante la aplicación MTR. Para instalar MTR en tu sistema, abre la terminal y ejecuta el comando de instalación correspondiente a tu distribución:
+Cuando usas un ordenador con sistema operativo Linux, el análisis de red se realiza mediante la aplicación MTR. Para instalar MTR en tu sistema, abre la terminal y ejecuta el comando de instalación correspondiente a tu sistema operativo:
 
 **Debian**
 
@@ -76,11 +76,11 @@ yum install mtr -y
 
 <TabItem value="macos" label="MacOS">
 
-Si usas un ordenador con sistema operativo Mac OS, el análisis de red se realiza mediante la aplicación MTR. Sin embargo, MTR no viene preinstalado en Mac OS ni está disponible en la Apple Store. Para instalar MTR, primero necesitas instalar Homebrew como sistema de gestión de paquetes en tu equipo.
+Cuando usas un ordenador con sistema operativo Mac OS, el análisis de red se realiza mediante la aplicación MTR. Sin embargo, MTR no viene preinstalado en dispositivos Mac OS ni está disponible en la Apple Store. Para instalar MTR, necesitas instalar Homebrew como sistema de gestión de paquetes en tu ordenador.
 
 **Instalando Homebrew**
 
-Abre la terminal y ejecuta el siguiente comando para instalar Homebrew:
+Abre la terminal en tu ordenador y ejecuta el siguiente comando para instalar Homebrew:
 
 ```
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
@@ -88,7 +88,7 @@ Abre la terminal y ejecuta el siguiente comando para instalar Homebrew:
 
 **Instalando MTR**
 
-Sigue los pasos que se muestran para completar la instalación. Una vez que Homebrew esté instalado correctamente, puedes usarlo para instalar MTR ejecutando este comando en la terminal:
+Sigue los pasos que se muestran para completar la instalación. Una vez que Homebrew esté instalado correctamente, puedes usarlo para instalar MTR ejecutando el siguiente comando en la terminal:
 
 ```
 brew install mtr
@@ -133,7 +133,7 @@ yum install mtr -y
 
 <TabItem value="windows" label="Servidor con Windows">
 
-Conéctate a tu servidor vía **[Conexión a Escritorio Remoto](vserver-windows-userdp.md)**. Para instalar WinMTR en tu servidor, primero descarga la aplicación desde la web de ZAP-Hosting. Tras descargarla, extrae el archivo. Como resultado, obtendrás el archivo ejecutable `WinMTR.exe`.
+Conéctate a tu servidor vía **[Conexión a Escritorio Remoto](vserver-windows-userdp.md)**. Para instalar WinMTR en tu servidor, primero descarga la aplicación desde la web de ZAP-Hosting. Tras la descarga, extrae el archivo. Como resultado, obtendrás el archivo ejecutable `WinMTR.exe`.
 
 | Aplicación | Descarga                                   |
 | ----------- | ------------------------------------------ |
@@ -147,17 +147,17 @@ Conéctate a tu servidor vía **[Conexión a Escritorio Remoto](vserver-windows-
 A continuación, se creará un informe usando la aplicación WinMTR/MTR. Esto se hará tanto para la **ruta de salida (Cliente → Servidor)** como para la **ruta de retorno (Servidor → Cliente)**.
 
 :::warning Crear informe durante problemas activos 
-El informe debe generarse cuando el problema esté ocurriendo activamente y sea perceptible. Solo en ese caso el informe proporcionará información útil que ayudará en la resolución del problema.
+El informe debe generarse cuando el problema esté ocurriendo activamente y sea perceptible. Solo en ese caso el informe proporcionará información útil que puede ayudar a diagnosticar y resolver el problema.
 :::
 
 ### Ruta de salida (Cliente → Servidor)
 
-Para analizar la ruta desde tu ordenador hasta el servidor, abre la aplicación WinMTR/MTR en tu equipo y sigue los pasos que se detallan a continuación.
+Para analizar la ruta desde tu ordenador hasta el servidor, abre la aplicación WinMTR/MTR en tu ordenador y sigue los pasos que se indican a continuación.
 
 <Tabs>
 <TabItem value="windows" label="Windows" default>
 
-La aplicación WinMTR se puede iniciar haciendo doble clic en el archivo `WinMTR.exe`. En el campo `Host`, introduce la dirección IP o el nombre de host del servidor. Luego, inicia el informe. Deja que la aplicación funcione durante al menos **un minuto** para recopilar suficientes datos. Cuando tengas datos suficientes, detén el análisis y guarda el resultado haciendo clic en `Export TEXT`.
+La aplicación WinMTR se puede iniciar haciendo doble clic en el archivo `WinMTR.exe`. En el campo `Host`, introduce la dirección IP o el nombre de host del servidor. Luego, inicia el informe. Deja que la aplicación funcione durante al menos **un minuto** para recopilar suficientes datos. Una vez tengas datos suficientes, detén el análisis y guarda el resultado haciendo clic en `Export TEXT`.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/pYNikLsj3jHxBSD/preview)
 
@@ -165,55 +165,55 @@ La aplicación WinMTR se puede iniciar haciendo doble clic en el archivo `WinMTR
 
 <TabItem value="linux" label="Linux">
 
-La aplicación MTR se puede usar en tu ordenador abriendo la terminal y ejecutando el siguiente comando:
+La aplicación MTR puede usarse en tu ordenador abriendo la terminal y ejecutando el siguiente comando:
 
 ```
 mtr <dirección-ip-de-tu-servidor>
 ```
 
-Deja que la aplicación funcione durante al menos **un minuto** para recopilar suficientes datos. Cuando tengas datos suficientes, detén el análisis y guarda el resultado.
+Deja que la aplicación funcione durante al menos **un minuto** para recopilar suficientes datos. Una vez tengas datos suficientes, detén el análisis y guarda el resultado.
 
 </TabItem>
 
 <TabItem value="macos" label="MacOS">
 
-La aplicación MTR se puede usar en tu ordenador abriendo la terminal y ejecutando el siguiente comando:
+La aplicación MTR puede usarse en tu ordenador abriendo la terminal y ejecutando el siguiente comando:
 
 ```
 mtr <dirección-ip-de-tu-cliente>
 ```
 
-Deja que la aplicación funcione durante al menos **un minuto** para recopilar suficientes datos. Cuando tengas datos suficientes, detén el análisis y guarda el resultado.
+Deja que la aplicación funcione durante al menos **un minuto** para recopilar suficientes datos. Una vez tengas datos suficientes, detén el análisis y guarda el resultado.
 
 </TabItem>
 </Tabs>
 
 ### Ruta de retorno (Servidor → Cliente)
 
-Para analizar la ruta desde el servidor hasta tu ordenador, conéctate a tu servidor y sigue los pasos que se detallan a continuación.
+Para analizar la ruta desde el servidor hasta tu ordenador, conéctate a tu servidor y sigue los pasos que se indican a continuación.
 
 <Tabs>
 <TabItem value="linux" label="Servidor con Linux" default>
 
-La aplicación MTR se puede usar en tu servidor ejecutando el siguiente comando en la terminal SSH:
+La aplicación MTR puede usarse en tu servidor ejecutando el siguiente comando en la terminal SSH:
 ```
 mtr <dirección-ip-de-tu-cliente>
 ```
 
-Deja que la aplicación funcione durante al menos **un minuto** para recopilar suficientes datos. Cuando tengas datos suficientes, detén el análisis y guarda el resultado.
+Deja que la aplicación funcione durante al menos **un minuto** para recopilar suficientes datos. Una vez tengas datos suficientes, detén el análisis y guarda el resultado.
 
 :::info
-¿No sabes tu dirección IP o no sabes cómo encontrarla? Hay varias formas de determinar tu dirección IP. La forma más rápida es a través de un servicio online como WhatIsMyIPAddress.
+¿No sabes tu dirección IP o no sabes cómo encontrarla? Hay varios métodos para determinar tu dirección IP. La forma más rápida es a través de un servicio online como WhatIsMyIPAddress.
 :::
 
 </TabItem>
 
 <TabItem value="windows" label="Servidor con Windows">
 
-En el campo `Host`, introduce la dirección IP de tu conexión. Luego, inicia el informe. Deja que la aplicación funcione durante al menos **un minuto** para recopilar suficientes datos. Cuando tengas datos suficientes, detén el análisis y guarda el resultado haciendo clic en `Export TEXT`.
+En el campo `Host`, introduce la dirección IP de tu conexión. Luego, inicia el informe. Deja que la aplicación funcione durante al menos **un minuto** para recopilar suficientes datos. Una vez tengas datos suficientes, detén el análisis y guarda el resultado haciendo clic en `Export TEXT`.
 
 :::info
-¿No sabes tu dirección IP o no sabes cómo encontrarla? Hay varias formas de determinar tu dirección IP. La forma más rápida es a través de un servicio online como **[WhatIsMyIPAddress](https://whatismyipaddress.com/)**.
+¿No sabes tu dirección IP o no sabes cómo encontrarla? Hay varios métodos para determinar tu dirección IP. La forma más rápida es a través de un servicio online como **[WhatIsMyIPAddress](https://whatismyipaddress.com/)**.
 :::
 
 </TabItem>
@@ -222,24 +222,24 @@ En el campo `Host`, introduce la dirección IP de tu conexión. Luego, inicia el
 
 ## Evaluar informe
 
-Al evaluar los resultados, hay varios puntos clave que debes tener en cuenta. La siguiente sección explica estos puntos con más detalle y aclara su importancia para el análisis. Prestar atención a estos aspectos es crucial para hacer un diagnóstico preciso e identificar posibles causas de forma efectiva.
+Al evaluar los resultados, hay varios puntos clave que debes tener en cuenta. La siguiente sección explicará estos puntos con más detalle y aclarará su importancia para el análisis. Prestar atención a estos aspectos es crucial para hacer un diagnóstico preciso e identificar posibles causas de forma efectiva.
 
 ### Pérdida de paquetes
 
-Si ves pérdida de paquetes en los resultados, esto indica posibles problemas de red. Una pérdida temporal menor del 1-2% puede no ser problemática, pero valores más altos sugieren problemas más serios. La pérdida de paquetes puede causar retrasos o interrupciones en las conexiones de los servicios. Si la pérdida está distribuida uniformemente en todos los saltos, el problema podría estar en tu propia red o en el lado del servidor. Sin embargo, si la pérdida ocurre solo en un salto o área específica, el problema probablemente esté en ese nodo o en la conexión al siguiente. También es importante saber que pequeñas pérdidas en los primeros saltos, que pertenecen a tu red local, no son necesariamente críticas, ya que estos dispositivos suelen priorizar menos las solicitudes ICMP (como ping) y pueden descartarlas.
+Si ves pérdida de paquetes en los resultados, esto indica posibles problemas de red. Una pérdida temporal menor del 1-2% puede no ser problemática, pero valores más altos sugieren problemas más serios. La pérdida de paquetes puede causar retrasos o interrupciones en las conexiones de los servicios. Si la pérdida está distribuida uniformemente en todos los saltos, el problema podría estar en tu propia red o en el lado del servidor. Sin embargo, si la pérdida ocurre solo en un salto o área específica, el problema probablemente esté en ese nodo o en la conexión hacia el siguiente. También es importante saber que pequeñas pérdidas en los primeros saltos, que pertenecen a tu red local, no son necesariamente críticas, ya que estos dispositivos suelen priorizar menos las solicitudes ICMP (como ping) y pueden descartarlas.
 
 ### Latencia (tiempos de ping)
 
-Los valores de latencia (`Avg`, `Best`, `Worst`) te dan una idea de la velocidad y estabilidad de la conexión. Si notas que la latencia se mantiene consistentemente alta en un salto en particular, esto podría indicar congestión de red o un router lento. Un aumento repentino de latencia entre dos saltos señala un posible cuello de botella. Normalmente, la latencia aumenta gradualmente a lo largo de la ruta hacia el destino. Sin embargo, debes estar atento a picos repentinos y significativos, que suelen ser señal de un problema. Comparar las rutas de salida y retorno también puede ayudar a identificar problemas asimétricos, que indican que el tráfico en una dirección está teniendo dificultades.
+Los valores de latencia (`Avg`, `Best`, `Worst`) te dan una idea de la velocidad y estabilidad de la conexión. Si notas que la latencia se mantiene consistentemente alta en un salto en particular, esto podría indicar congestión de red o un router lento. Un aumento repentino de latencia entre dos saltos apunta a un posible cuello de botella. Normalmente, la latencia aumenta gradualmente a lo largo de la ruta hacia el destino. Sin embargo, debes estar atento a picos repentinos y significativos, que suelen ser señal de un problema. Comparar las rutas de salida y retorno también puede ayudar a identificar problemas asimétricos, que indican que el tráfico en una dirección está teniendo dificultades.
 
 Con un análisis cuidadoso de estos factores, puedes determinar con precisión dónde está el problema de red—ya sea en tu propia red, con el proveedor de internet o en algún punto del camino hacia el servidor.
 
 ### Ejemplos de diagnóstico
 
-Para mejorar tu comprensión, vamos a aclarar la información anterior con algunos ejemplos de diagnóstico. Hemos recopilado varios escenarios que ilustran diferentes situaciones y posibles causas. Estos ejemplos te ayudarán a entender cómo interpretar los datos y diagnosticar problemas de red de forma más efectiva.
+Para mejorar tu comprensión, aclaremos la información anterior con algunos ejemplos de diagnóstico. Hemos recopilado varios escenarios que ilustran diferentes situaciones y posibles causas. Estos ejemplos te ayudarán a entender cómo interpretar los datos y diagnosticar problemas de red de forma más efectiva.
 
 :::info
-Los siguientes ejemplos de diagnóstico ilustran varios escenarios basados en informes ficticios de WinMTR/MTR. Las direcciones IP, nombres de host y rutas contenidas son totalmente ficticios y no tienen conexión con redes o hosts reales.
+Los siguientes ejemplos de diagnóstico ilustran varios escenarios basados en informes ficticios de WinMTR/MTR. Las direcciones IP, nombres de host y rutas contenidas son completamente ficticios y no tienen conexión con redes o hosts reales.
 :::
 
 <Tabs>
@@ -249,7 +249,7 @@ Los siguientes ejemplos de diagnóstico ilustran varios escenarios basados en in
 
 **Descripción**
 
-En este ejemplo, la situación describe pérdida de paquetes que ocurre en el lado del cliente, visible en ambas rutas, de salida y retorno.
+En este ejemplo, la situación describe pérdida de paquetes que ocurre en el lado del cliente, visible tanto en la ruta de salida como en la de retorno.
 
 **Ruta de salida (Cliente → Servidor)**
 
@@ -291,7 +291,7 @@ La evaluación revela que la pérdida de paquetes ocurre en el lado del cliente.
 
 **Descripción**
 
-En este ejemplo, la situación describe pérdida de paquetes que ocurre en el lado del servidor, visible en ambas rutas, de salida y retorno.
+En este ejemplo, la situación describe pérdida de paquetes que ocurre en el lado del servidor, visible tanto en la ruta de salida como en la de retorno.
 
 ```console {8-9}
 Host                               Loss%   Snt   Last   Avg  Best  Wrst StDev
@@ -331,7 +331,7 @@ La evaluación indica que la pérdida de paquetes ocurre en el lado del servidor
 
 **Descripción**
 
-En este ejemplo, la situación describe tiempos de latencia altos en el lado del cliente, visibles en ambas rutas, de salida y retorno.
+En este ejemplo, la situación describe tiempos de latencia altos en el lado del cliente, visibles tanto en la ruta de salida como en la de retorno.
 
 **Ruta de salida (Cliente → Servidor)**
 
@@ -373,7 +373,7 @@ La evaluación muestra que hay alta latencia en el lado del cliente. Ambas rutas
 
 **Descripción**
 
-En este ejemplo, la situación describe tiempos de latencia altos en el lado del servidor, visibles en ambas rutas, de salida y retorno.
+En este ejemplo, la situación describe tiempos de latencia altos que ocurren en el lado del servidor, visibles tanto en la ruta de salida como en la de retorno.
 
 **Ruta de salida (Cliente → Servidor)**
 
@@ -427,7 +427,7 @@ Host                               Loss%   Snt   Last   Avg  Best  Wrst StDev
 4. 203.0.113.5                      0.0%   20   30.6   30.3  29.5   31.5   0.6
 5. be1234.ccr42.isp.net             0.0%   20   50.2   50.5  49.5   51.0   0.4
 6. be5678.ccr21.isp.net             0.0%   20   60.1   60.2  59.5   61.5   0.7
-7. 198.51.100.10                   0.0%   20   70.2   70.5  70.0   71.3   0.5
+7. 198.51.100.10                    0.0%   20   70.2   70.5  70.0   71.3   0.5
 8. Destination-IP (Servidor)                 0.0%   20   80.2   80.0  79.5   81.2   0.6
 
 ```
@@ -460,7 +460,7 @@ Host                               Loss%   Snt   Last   Avg  Best  Wrst StDev
 8. 192.168.1.1                      0.0%   20    1.2    1.3   1.1    2.0   0.3
 ```
 
-**Ruta de retorno (Servidor  → Cliente Y)**
+**Ruta de retorno (Servidor → Cliente Y)**
 
 ```
 Host                               Loss%   Snt   Last   Avg  Best  Wrst StDev
@@ -570,6 +570,4 @@ La evaluación muestra que la pérdida de paquetes ocurre solo en la ruta de ret
 
 ## Reportar problemas
 
-Aunque ZAP-Hosting monitoriza la red de forma continua, es importante contactar con nuestro equipo de soporte rápidamente en caso de problemas de red. Para asegurar un diagnóstico preciso y una resolución rápida, te pedimos que nos proporciones los resultados de tus informes WinMTR/MTR tanto de la ruta de salida como de la ruta de retorno. Esta información nos ayuda a identificar con exactitud las posibles áreas problemáticas y resolver el problema rápido.
-
-<InlineVoucher />
+Aunque ZAP-Hosting monitoriza continuamente la red, es importante contactar con nuestro equipo de soporte rápidamente en caso de problemas de red. Para asegurar un diagnóstico preciso y una resolución rápida, te pedimos que nos proporciones los resultados de tus informes WinMTR/MTR tanto para la ruta de salida como para la de retorno. Esta información nos ayuda a identificar con exactitud las posibles áreas problemáticas y resolver el problema rápido.

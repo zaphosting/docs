@@ -11,13 +11,13 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introduction
 
-Ce guide vous explique les étapes pour installer Node.js, Deno et Bun sur Windows. Les étapes ci-dessous doivent être exécutées via RDP. Si vous ne savez pas comment vous connecter à votre serveur via RDP, consultez notre [guide d’accès initial (RDP)](vserver-windows-userdp.md).
+Ce guide vous explique les étapes pour installer Node.js, Deno et Bun sur Windows. Les étapes ci-dessous doivent être réalisées via RDP. Si vous ne savez pas comment vous connecter à votre serveur via RDP, consultez notre [guide d’accès initial (RDP)](vserver-windows-userdp.md).
 
-<InlineVoucher />
+
 
 ## Installation
 
-Pour commencer, vous devez choisir quel runtime JavaScript installer. Il existe plein de ressources en ligne qui détaillent chacun d’eux. Mais vous pouvez aussi lire ce guide, car il inclut les commandes de base et des exemples de code. On vous recommande Node.js, car c’est l’un des plus utilisés et un choix très populaire.
+Pour commencer, vous devez choisir quel runtime JavaScript installer. Il existe plein de ressources en ligne qui décrivent chacun en détail. Mais vous pouvez aussi lire ce guide, car il inclut les commandes de base et des exemples de code. On vous recommande Node.js, car c’est l’un des plus utilisés et un choix très populaire.
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
@@ -70,7 +70,7 @@ Une fois terminé, cliquez sur `Finish` et commencez à utiliser Node.js sur vot
 
 ### Mettre à jour Node.js vers la dernière version
 
-La commande `node -v` affiche la version installée de Node.js. De temps en temps, vérifiez que vous utilisez la dernière version LTS. Pour mettre à jour Node.js, suivez à nouveau la section [Installation de Node.js](dedicated-windows-javascript.md) de ce guide.
+La commande `node -v` affiche la version installée de Node.js. De temps en temps, vérifiez que vous avez la dernière version LTS. Pour mettre à jour Node.js, suivez à nouveau la section du guide [Installer JavaScript](dedicated-windows-javascript.md).
 
 ### Utiliser Node.js & npm
 
@@ -85,7 +85,7 @@ Vous pouvez trouver tous les paquets npm sur leur [site web](https://www.npmjs.c
 Chaque fois que vous voulez démarrer un nouveau projet Node.js, créez un nouveau dossier avec l’Explorateur de fichiers, ouvrez l’Invite de commandes ou PowerShell dedans, et lancez la commande `npm init` pour commencer la configuration. Cela vous demandera quelques infos de base pour créer un fichier `package.json`. Ce fichier sera la "config" pour exécuter Node.js.
 
 :::tip
-Sous Windows, cliquez une fois sur le chemin actuel dans l’Explorateur de fichiers, tapez `cmd` puis appuyez sur `Entrée` pour ouvrir l’Invite de commandes dans ce dossier, c’est plus simple.
+Sous Windows, cliquez une fois sur le chemin actuel dans l’Explorateur de fichiers, tapez `cmd` puis appuyez sur `Entrée` pour ouvrir l’Invite de commandes directement dans ce dossier, c’est plus simple.
 :::
 
 Après avoir initialisé le projet, créez un fichier `index.js` et écrivez du code dedans. Par exemple, on va créer un serveur http simple sur le port 80 par défaut qui répond avec un message test quand on y accède via localhost. Voici le code :
@@ -106,7 +106,7 @@ Lancez ce code avec la commande `node .` et vérifiez le résultat en allant sur
 ![](https://screensaver01.zap-hosting.com/index.php/s/kWRi9agrzkWc4rw/preview)
 
 :::tip
-Installer des paquets externes depuis npm se fait avec la commande `npm install [nom-du-paquet]`.
+Pour installer des paquets externes depuis npm, utilisez la commande `npm install [nom-du-paquet]`.
 :::
 
 </TabItem>
@@ -115,7 +115,7 @@ Installer des paquets externes depuis npm se fait avec la commande `npm install 
 
 ## Installation du runtime Deno
 
-Installer Deno est aussi simple que de taper `irm https://deno.land/install.ps1 | iex` dans une instance PowerShell. Utilisez la barre de recherche Windows et cherchez `Powershell`. Ouvrez une invite en mode administrateur et lancez la commande ci-dessus, en suivant les instructions éventuelles.
+Installer Deno est aussi simple que de taper `irm https://deno.land/install.ps1 | iex` dans une fenêtre PowerShell. Utilisez la barre de recherche Windows pour chercher `Powershell`. Ouvrez-le en administrateur et lancez la commande ci-dessus, en suivant les instructions éventuelles.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/jTdDo6c2Kx42o8B/preview)
 
@@ -161,7 +161,7 @@ Lancer `irm bun.sh/install.ps1|iex` dans PowerShell installera Bun sur votre ser
 ![](https://screensaver01.zap-hosting.com/index.php/s/65oooTQRGQPW8DS/preview)
 
 :::info
-Le serveur peut manquer certains fichiers requis. Bun vous informera et fournira des liens pour les télécharger lors de l’exécution de l’installateur.
+Le serveur peut manquer certains fichiers requis. Bun vous informera et vous fournira des liens pour les télécharger lors de l’exécution de l’installateur.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/kZsc5DF3BAiQ2fF/preview)
 :::
@@ -178,10 +178,10 @@ Si vous avez déjà npm installé, vous pouvez lancer `npm install -g bun` pour 
 
 ### Utiliser Bun
 
-Bun a été conçu pour être plus rapide que certains autres moteurs JavaScript, tout en ayant une configuration similaire à Node.js. Pour lancer Bun, ouvrez un dossier vide et lancez `bun init` dans l’Invite de commandes.
+Bun a été conçu pour être plus rapide que certains autres moteurs JavaScript, tout en ayant une configuration similaire à Node.js. Pour lancer Bun, ouvrez un dossier vide et tapez `bun init` dans l’Invite de commandes.
 
 :::note
-Selon la langue choisie (JS ou TS), Bun créera un fichier de config (jsconfig.json ou tsconfig.json).
+Selon le langage choisi (JS ou TS), Bun créera un fichier de config (jsconfig.json ou tsconfig.json).
 :::
 
 Pour commencer avec Bun, créez un fichier `index.ts` et écrivez du code dedans. Par exemple, on crée un serveur http simple sur le port 80 par défaut qui répond avec un message test quand on y accède via localhost. Voici le code :
@@ -205,8 +205,3 @@ Lancez ce code avec la commande `bun index.ts` et vérifiez le résultat en alla
 ## Conclusion
 
 Félicitations, vous avez installé JavaScript avec succès. Pour toute question ou aide, n’hésitez pas à contacter notre équipe support, disponible tous les jours pour vous aider ! 🙂
-
-
-
-
-<InlineVoucher />

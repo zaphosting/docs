@@ -13,11 +13,11 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Diese Anleitung zeigt dir, wie du die Python-Laufzeit und venv installierst. Die Befehle müssen per SSH ausgeführt werden. Falls du nicht weißt, wie du dich per SSH mit deinem Server verbindest, nutze bitte unsere [Erstzugang (SSH)](vserver-linux-ssh.md) Anleitung, um mehr zu erfahren.
 
-<InlineVoucher />
+
 
 ## Vorbereitung
 
-Bevor du irgendwas auf deinem Server installierst, empfehlen wir, den Update-Befehl passend zu deinem Betriebssystem auszuführen, um deinen Server sicher zu halten.
+Bevor du irgendwas auf deinem Server installierst, solltest du den Update-Befehl passend zu deinem Betriebssystem ausführen, um deinen Server sicher zu halten.
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
@@ -55,7 +55,7 @@ import TabItem from '@theme/TabItem';
 
 ## Installation
 
-Die meisten Linux-Distributionen bringen Python vorinstalliert mit, allerdings ist die Version oft nicht aktuell oder das System wurde ohne einige Pakete installiert. Du kannst prüfen, ob Python installiert ist (`python3 --version`) und dann die folgenden Befehle nutzen, um die Laufzeit zu aktualisieren oder zu installieren.
+Die meisten Linux-Distributionen haben Python vorinstalliert, aber die Version ist eventuell nicht aktuell oder das System wurde ohne einige Pakete installiert. Du kannst prüfen, ob Python installiert ist (`python3 --version`) und dann die folgenden Befehle ausführen, um die Laufzeit zu aktualisieren oder zu installieren.
 
 <Tabs>
 <TabItem value="ubuntu-debian" label="Ubuntu & Debian" default>
@@ -64,7 +64,7 @@ Die meisten Linux-Distributionen bringen Python vorinstalliert mit, allerdings i
   // Version prüfen
   python3 --version
 
-  // Laufzeit installieren / aktualisieren
+  // Laufzeit aktualisieren / installieren
   sudo apt install python3
 ```
 
@@ -114,7 +114,7 @@ Der Befehl `python3` startet den Python-Interpreter. Du kannst nach dem `>>>`-Pr
 
 ### Ausführen von .py-Dateien
 
-Um `.py` Python-Dateien auszuführen, nutzt du einfach den Befehl `python3 [Dateiname].py`, wobei du `[Dateiname]` durch den Pfad zur gewünschten Datei ersetzt.
+Um `.py`-Dateien auszuführen, nutzt du einfach den Befehl `python3 [Dateiname].py`, wobei du `[Dateiname]` durch den Pfad zur gewünschten Datei ersetzt.
 
 :::tip
 Die meisten Programme, die du online findest, kannst du mit `python3 main.py` starten, da `main.py` der übliche Einstiegspunkt der meisten Python-Programme ist.
@@ -122,16 +122,14 @@ Die meisten Programme, die du online findest, kannst du mit `python3 main.py` st
 
 ## Virtuelle Umgebungen
 
-Beim Programmieren in Python brauchst du oft externe Pakete, die du mit pip installierst. Diese kannst du global installieren, sodass alle `.py`-Skripte darauf zugreifen können, oder du erstellst eine virtuelle Umgebung (venv).
+Beim Programmieren mit Python brauchst du oft externe Pakete, die du mit pip installierst. Diese können global installiert werden und sind dann für alle `.py`-Skripte verfügbar, oder du erstellst eine virtuelle Umgebung (venv).
 
 ### venv erstellen
 
-Wechsle zuerst in den Ordner, in dem du dein venv einrichten möchtest, mit `cd`. Dann führst du `python3 -m venv .` aus, um die nötigen Dateien im aktuellen Verzeichnis zu installieren.
+Wechsle zuerst in den Ordner, in dem du deine venv einrichten möchtest, mit `cd`. Dann führst du `python3 -m venv .` aus, um die nötigen Dateien im aktuellen Verzeichnis zu installieren.
 
 ### Aktivieren & Deaktivieren
 
-Um Befehle wie `pip install` innerhalb deines venv auszuführen, musst du es aktivieren mit `source /bin/activate`. Ab jetzt läuft deine Konsole nur noch innerhalb des venv und Skripte haben nur Zugriff auf lokal installierte Pakete.
+Um Befehle wie `pip install` innerhalb deiner venv auszuführen, musst du sie aktivieren mit `source /bin/activate`. Ab jetzt läuft deine Konsole nur noch innerhalb der venv und Skripte haben nur Zugriff auf lokal installierte Pakete.
 
-Wenn du fertig bist, kannst du das venv mit dem Befehl `deactivate` wieder verlassen.
-
-<InlineVoucher />
+Wenn du fertig bist, kannst du die venv mit dem Befehl `deactivate` wieder verlassen.

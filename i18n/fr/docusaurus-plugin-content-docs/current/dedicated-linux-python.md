@@ -13,7 +13,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Ce guide te donne les étapes pour installer l’environnement Python et venv. Ces commandes doivent être exécutées via SSH, si tu ne sais pas comment te connecter à ton serveur via SSH, utilise notre [guide d’accès initial (SSH)](vserver-linux-ssh.md) pour en savoir plus.
 
-<InlineVoucher />
+
 
 ## Préparation
 
@@ -110,11 +110,11 @@ Maintenant que Python est installé sur ton serveur, tu peux commencer à lancer
 
 ### Mode interpréteur
 
-La commande `python3` lance l’interpréteur Python. Tu peux écrire n’importe quel code Python valide après le préfixe `>>>` et il sera exécuté après avoir appuyé sur `Entrée`. Tu peux quitter l’interpréteur en tapant `exit()` dans la console.
+La commande `python3` lance l’interpréteur Python. Tu peux écrire n’importe quel code Python valide après le préfixe `>>>` et il sera exécuté après avoir appuyé sur `Entrée`. Tu peux quitter l’interpréteur quand tu as fini en tapant `exit()` dans la console.
 
 ### Exécuter des fichiers .py
 
-Pour lancer des fichiers Python `.py`, utilise simplement la commande `python3 [nom_du_fichier].py`, en remplaçant `[nom_du_fichier]` par le chemin vers le fichier que tu souhaites exécuter.
+Pour lancer des fichiers Python `.py`, utilise simplement la commande `python3 [nom_du_fichier].py`, en remplaçant `[nom_du_fichier]` par le chemin vers le fichier que tu veux exécuter.
 
 :::tip
 La plupart des programmes que tu trouves en ligne peuvent être lancés avec `python3 main.py` car `main.py` est le point de départ classique de la plupart des programmes Python.
@@ -126,12 +126,10 @@ Quand tu écris un programme Python, tu peux avoir besoin d’installer des paqu
 
 ### Créer le venv
 
-D’abord, rends-toi dans le dossier où tu veux créer ton venv avec `cd`, puis lance `python3 -m venv .` pour installer les fichiers nécessaires à l’emplacement courant.
+D’abord, rends-toi dans le dossier où tu veux créer ton venv avec `cd`, puis lance `python3 -m venv .` pour installer les fichiers nécessaires à l’emplacement actuel.
 
 ### Activation & désactivation
 
-Pour lancer des commandes comme `pip install` dans ton venv, tu dois l’activer avec `source /bin/activate`. Maintenant, ta console fonctionnera uniquement dans le venv et les scripts n’auront accès qu’aux paquets installés localement.
+Pour lancer des commandes comme `pip install` dans ton venv, tu dois l’activer avec `source /bin/activate`. Maintenant ta console fonctionnera uniquement dans le venv et les scripts n’auront accès qu’aux paquets installés localement.
 
 Quand tu as fini de bosser dans le venv, tu peux revenir à l’environnement normal en lançant la commande `deactivate`.
-
-<InlineVoucher />

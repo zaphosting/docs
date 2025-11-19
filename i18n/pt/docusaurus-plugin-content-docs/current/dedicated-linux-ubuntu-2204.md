@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introdução
 
-A seguir, vamos te mostrar passo a passo como instalar e configurar o sistema operacional Ubuntu no seu servidor dedicado. Siga essas instruções com atenção para garantir que o sistema operacional seja configurado com sucesso e utilizado da melhor forma possível.
+A seguir, vamos te mostrar passo a passo como instalar e configurar o sistema operacional Ubuntu no seu servidor dedicado. Siga essas instruções com atenção para garantir que você configure o sistema operacional com sucesso e o utilize da melhor forma.
 
 
 
@@ -29,27 +29,27 @@ Mais informações podem ser encontradas no [site oficial](https://ubuntu.com/ab
 :::
 
 
-<InlineVoucher />
+
 
 ## Preparação
 
-Para a instalação e configuração do sistema operacional, é importante inicialmente montar o ISO correspondente do sistema. Existem várias formas possíveis de montar:
+Para a instalação e configuração de um sistema operacional, é importante inicialmente montar o ISO correspondente do sistema. Existem várias formas possíveis de montar:
 
 1. Montagem via configuração inicial
 2. Montagem via iLO (Mídia Virtual)
 3. Montagem via iLO (Console Remoto)
 
-Se você ainda não está familiarizado com a montagem de um arquivo ISO, o ideal é consultar nosso [Guia de Configuração Inicial](dedicated-setup.md) ou o [Guia de ISO Próprio](dedicated-iso.md).
+Se você ainda não está familiarizado com a montagem de um arquivo ISO, o melhor é consultar nosso [Guia de Configuração Inicial](dedicated-setup.md) ou [Guia de ISO Próprio](dedicated-iso.md).
 
 
 
 ## Instalação
 
-Depois que o ISO for montado e carregado com sucesso, o servidor entrará no processo de configuração. A língua que você quer usar para o seu sistema será definida no início da instalação. Selecione uma das línguas disponíveis e confirme com a tecla `Enter`. 
+Depois que o ISO for montado e carregado com sucesso, o servidor deve entrar no processo de configuração. O idioma que você quer usar para seu sistema operacional será definido no início da instalação. Selecione um dos idiomas disponíveis e confirme a seleção com a tecla `Enter`. 
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/yrHMNzstM23XZH6/preview)
 
-Em seguida, o layout do teclado deve ser selecionado e configurado para a língua escolhida. Escolha o layout que for mais adequado para você. 
+Em seguida, o layout do teclado apropriado deve ser selecionado e configurado para o idioma. Escolha o layout de teclado que for mais adequado para você. 
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/x9kYGEWS5fy7Wjp/preview)
 
@@ -57,28 +57,28 @@ Depois disso, ocorre a configuração da rede. O servidor é configurado via DHC
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/6mr5kAKJQ39iJt5/preview)
 
-Um proxy adicional pode ser configurado como opção, mas não é obrigatório. Se você não precisar, basta pular essa etapa. 
+Um proxy adicional pode ser configurado como opção. Porém, isso não é essencial. Se você não precisar, simplesmente pule essa etapa. 
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/tz97Ee8ZQkxAGGb/preview)
 
-Agora o Mirror do Arquivo Ubuntu (servidor de download dos pacotes) será definido. Nossos servidores dedicados estão localizados na Alemanha, então recomendamos escolher o mirror alemão para garantir a melhor velocidade de download possível.
+Agora o Mirror do Arquivo Ubuntu (servidor de download dos pacotes) é definido. Nossos servidores dedicados estão localizados na Alemanha, então é recomendado escolher o mirror alemão para garantir a melhor velocidade de download possível.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/xNknNyWAbd5DnsZ/preview)
 
-As partições podem ser definidas na configuração de armazenamento. Você pode usar uma partição grande ou subdividir, se preferir. Se quiser usar o SSD inteiro como uma única partição, escolha `Use an entire disk` e continue.
+As partições podem ser definidas agora na configuração de armazenamento. Você pode usar uma partição grande ou subdividir se quiser. Se quiser usar o SSD inteiro como uma partição só, escolha `Use an entire disk` e continue.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/2dJ9oeMGjpWn6cZ/preview)
 
-O setup cria automaticamente os volumes e você pode prosseguir escolhendo a opção `Done`.
+A configuração cria automaticamente os volumes e você pode prosseguir escolhendo a opção `Done`.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/WXfzt57Rtm2SQLD/preview)
 
-Antes de iniciar o processo, você será avisado que todos os dados existentes serão apagados. Essa mensagem deve ser confirmada com a opção `Continue`. 
+Antes de iniciar o processo, você será informado que todos os dados existentes serão apagados. Essa mensagem deve ser confirmada com a opção `Continue`. 
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/L3YcGNbYWpMmaDj/preview)
 
-Configure sua conta de usuário do jeito que preferir, você também pode usar a conta root no final trocando a senha.
-Navegue pelas opções com tab ou as setas do teclado. Quando terminar, avance marcando `Done`.
+Configure sua conta de usuário do jeito que preferir, você também pode usar a conta root no final alterando a senha.
+Você pode navegar pelas opções com tab ou as setas do teclado. Quando terminar, avance marcando `Done`.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/mqrjmF2ZmA2Qj9z/preview)
 
@@ -94,7 +94,7 @@ A instalação do setup SSH é recomendada. Se quiser gerenciar o servidor via S
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/wcGiSwX935jXeex/preview)
 
-Para finalizar, o ISO deve ser ejetado para evitar que ele seja recarregado quando o servidor reiniciar. Reinicie o servidor uma vez para concluir o processo. 
+Para finalizar o processo, o ISO deve ser ejetado para evitar que ele seja recarregado quando o servidor for reiniciado. Reinicie o servidor uma vez para concluir o processo. 
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/SzrxCtJTx2S8Nef/preview)
 
@@ -110,17 +110,13 @@ Para finalizar, o ISO deve ser ejetado para evitar que ele seja recarregado quan
 
 ### Alterando a senha do usuário root
 
-Você pode trocar a senha do usuário root facilmente. Execute `sudo su` e digite sua senha. Depois, execute `sudo passwd` para alterar a senha. Agora digite a nova senha desejada para o usuário root. Pronto, agora você pode fazer login com o usuário `root`.
+Você pode mudar a senha do usuário root facilmente. Execute `sudo su` e digite sua senha. Depois disso, execute `sudo passwd` para alterar a senha. Agora digite a nova senha desejada para o usuário root. Pronto, agora você pode fazer login com o usuário `root`.
 
 
 
 ## Conclusão
 
-Parabéns, você instalou com sucesso o sistema operacional Ubuntu 22.04 no seu servidor dedicado. Para dúvidas ou ajuda, não hesite em contatar nosso time de suporte, disponível todos os dias para te ajudar! 🙂
+Parabéns, você instalou com sucesso o sistema operacional Ubuntu 22.04 no seu servidor dedicado. Para dúvidas ou ajuda, não hesite em contatar nosso time de suporte, que está disponível diariamente para te ajudar! 🙂
 
 
 
-
-
-
-<InlineVoucher />

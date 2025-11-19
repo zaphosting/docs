@@ -2,7 +2,7 @@
 id: dedicated-linux-wine
 title: "Dedicated Server: Wine-Kompatibilitätsschicht Linux Setup"
 description: "Entdecke, wie du Wine auf Linux einrichtest, um Windows-Gameserver problemlos auf Ubuntu und ähnlichen Systemen laufen zu lassen → Jetzt mehr erfahren"
-sidebar_label: Wine-Kompatibilitätsschicht Setup
+sidebar_label: Wine-Kompatibilitätsschicht einrichten
 services:
   - dedicated
 ---
@@ -13,11 +13,9 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Wine ist eine Open-Source-Kompatibilitätsschicht für Linux, die es ermöglicht, Software, die ursprünglich für Windows entwickelt wurde, auf Linux-Systemen auszuführen. Das ist besonders wichtig für Dedicated Gameserver, die nur Windows-Serverdateien anbieten und oft eine Voraussetzung für unsere anderen Linux-Dedicated-Gameserver-Anleitungen sind. In dieser Anleitung zeigen wir dir, wie du Wine zum ersten Mal auf deinem Linux-Server installierst. Wir nutzen Ubuntu als Beispiel, der Ablauf ist aber bei anderen Distributionen sehr ähnlich.
 
-<InlineVoucher />
-
 ## Vorbereitung
 
-Verbinde dich zunächst per SSH mit deinem Dedicated Server. Falls du dabei Hilfe brauchst, schau dir unsere [SSH Erste Schritte](vserver-linux-ssh.md) Anleitung an.
+Verbinde dich zunächst per SSH mit deinem Dedicated Server. Falls du dabei Hilfe brauchst, schau dir unsere [SSH Initialzugang](vserver-linux-ssh.md) Anleitung an.
 
 ## Wine installieren
 
@@ -31,17 +29,17 @@ Lade als Nächstes den Wine GPG-Schlüssel herunter und speichere ihn in diesem 
 sudo wget -O /etc/apt/keyrings/winehq-archive.key https://dl.winehq.org/wine-builds/winehq.key
 ```
 
-Speichere außerdem die Quellenliste für WineHQ ab, das geht mit folgendem vorgefertigten Befehl:
+Du musst außerdem die Quellenliste für WineHQ speichern. Das geht mit folgendem vorgefertigten Befehl:
 ```
 sudo wget -NP /etc/apt/sources.list.d/ https://dl.winehq.org/wine-builds/$(lsb_release -is | tr '[:upper:]' '[:lower:]')/dists/$(lsb_release -cs)/winehq-$(lsb_release -cs).sources
 ```
 
-Führe ein Update aus, damit die Paketquellen neu eingelesen und aktualisiert werden.
+Führe ein Update aus, damit deine Paketquellen aktualisiert und die Änderungen übernommen werden.
 ```
 sudo apt update
 ```
 
-Jetzt kannst du den Hauptschritt starten und die neueste Wine-Version herunterladen. Das kann eine Weile dauern.
+Jetzt kannst du den Hauptschritt starten und die neueste Wine-Version installieren. Das kann eine Weile dauern.
 ```
 sudo apt install --install-recommends winehq-staging
 ```
@@ -55,6 +53,4 @@ sudo apt install cabextract winbind screen xvfb
 
 Du hast jetzt erfolgreich die Wine-Kompatibilitätsschicht eingerichtet, mit der du Windows-Programme auf deinem Linux-Server ausführen kannst. Mit dieser wichtigen Voraussetzung kannst du nun Dedicated Gameserver installieren, selbst wenn sie eigentlich für Windows gebaut sind.
 
-Wir empfehlen dir, auch die anderen Anleitungen in diesem Bereich anzuschauen, die zeigen, wie du bestimmte Games mit SteamCMD und eventuell Wine für Windows-basierte Dedicated Server-Dateien installierst.
-
-<InlineVoucher />
+Wir empfehlen dir, auch die anderen Anleitungen in diesem Bereich anzuschauen, die zeigen, wie man bestimmte Games über SteamCMD und gegebenenfalls Wine für Windows-basierte Dedicated Server-Dateien installiert.

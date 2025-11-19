@@ -1,7 +1,7 @@
 ---
 id: dedicated-linux-sftp
-title: "سيرفر مخصص: الاتصال بسيرفر لينكس عبر SFTP"
-description: "تعلم كيف تتصل بأمان بسيرفرك عبر SFTP لإدارة الملفات بكفاءة وتحسين وصولك للسيرفر → تعلّم المزيد الآن"
+title: "سيرفر مخصص: الاتصال بسيرفر Linux عبر SFTP"
+description: "تعلم كيف تتصل بسيرفرك بأمان عبر SFTP لإدارة الملفات بكفاءة وتحسين وصولك للسيرفر → تعلّم المزيد الآن"
 sidebar_label: اتصال SFTP
 services:
   - dedicated
@@ -9,11 +9,11 @@ services:
 
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
-<InlineVoucher />
+
 
 ## كيف أتصل عبر SFTP؟
 
-عشان تتصل عبر SFTP، لازم تغير البروتوكول إلى SFTP في Winscp:
+عشان تتصل عبر SFTP، لازم تغير البروتوكول في Winscp لـ SFTP:
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/R5QRq5t8spGezE9/download/vps-sftp-3.gif)
 
@@ -32,4 +32,4 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/xA44qPQB6zcFc75/preview)
 
-<InlineVoucher />
+

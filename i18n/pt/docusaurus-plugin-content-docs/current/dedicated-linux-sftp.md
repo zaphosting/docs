@@ -9,9 +9,9 @@ services:
 
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
-<InlineVoucher />
 
-## Como me conecto via SFTP?
+
+## Como me conectar via SFTP?
 
 Para se conectar via SFTP, você precisa mudar para SFTP no Winscp: 
 
@@ -19,11 +19,11 @@ Para se conectar via SFTP, você precisa mudar para SFTP no Winscp:
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/7HYF3ngpfcKXLZ9/preview)
 
-Depois, insira os dados de conexão. Como endereço do servidor, use o **IP** do seu **servidor**. Como **nome de usuário**, use **root** e depois a **senha** do seu **usuário root**.
+Depois, insira os dados de conexão. Como endereço do servidor, use o **IP** do seu **servidor dedicado**. Como **nome de usuário**, use **root** e depois a **senha** do seu **usuário root**.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/boGkPkqF58CjxkD/preview)
 
-A seguinte janela precisa ser confirmada:
+A janela a seguir precisa ser confirmada:
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/TQ9abPjsCXRqTGG/preview)
 
@@ -32,4 +32,4 @@ Agora você está conectado ao seu servidor via SFTP:
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/xA44qPQB6zcFc75/preview)
 
-<InlineVoucher />
+

@@ -17,9 +17,9 @@ Supabase es una plataforma de desarrollo Postgres open-source que ofrece una bas
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/gE9NRSMr22oZaCx/preview)
 
-¿Estás pensando en alojar este servicio por tu cuenta? Te guiaremos paso a paso para configurarlo y ajustarlo, junto con todo lo que necesitas tener en cuenta.
+¿Estás pensando en alojar este servicio tú mismo? Te guiaremos paso a paso sobre cómo configurarlo y ajustarlo, junto con todo lo que necesitas tener en cuenta.
 
-<InlineVoucher />
+
 
 ## Requisitos Previos
 
@@ -39,9 +39,12 @@ El software requiere que todas las dependencias necesarias estén instaladas y q
 
 Verifica que todas las dependencias estén instaladas y que la versión del sistema operativo sea la correcta para evitar problemas de compatibilidad durante la instalación de Supabase.
 
+
+
 ## Preparación
 
 Antes de configurar **Supabase**, necesitas preparar tu sistema. Esto incluye actualizar tu sistema operativo a la última versión e instalar todas las dependencias necesarias. Estas preparaciones aseguran un entorno estable y ayudan a prevenir problemas durante o después de la instalación.
+
 
 ### Actualizar Sistema
 Para asegurarte de que tu sistema está ejecutando el software y las mejoras de seguridad más recientes, siempre debes realizar primero una actualización del sistema. Para ello, ejecuta el siguiente comando:
@@ -55,14 +58,14 @@ Esto garantiza que tu sistema tenga los últimos parches de seguridad y versione
 Una vez completado el proceso de actualización, puedes proceder con la instalación de las dependencias.
 
 #### Git
-Los datos de Supabase se descargarán a través de GitHub. Por ello, primero debes instalar Git. Para hacerlo, ejecuta el siguiente comando:
+Los datos de Supabase se descargarán a través de GitHub. Esto requiere que Git esté instalado primero. Para hacerlo, ejecuta el siguiente comando:
 ```
 sudo apt install git-all
 ```
 
 #### Docker
 
-Supabase se desplegará y ejecutará en tu máquina usando un contenedor Docker. Por eso, primero debes instalar Docker. Para hacerlo, ejecuta el siguiente comando:
+Supabase se desplegará y ejecutará en tu máquina usando un contenedor Docker. Esto requiere que Docker esté instalado primero. Para hacerlo, ejecuta el siguiente comando:
 
 ```
 curl -fsSL https://get.docker.com -o get-docker.sh
@@ -70,6 +73,7 @@ sh get-docker.sh
 ```
 
 Un tutorial completo del proceso de instalación y cómo usar Docker está disponible en nuestra [guía Docker](dedicated-linux-docker.md).
+
 
 ## Instalación
 Ahora que se han cumplido todos los requisitos y se han completado las preparaciones necesarias, puedes proceder con la instalación de la aplicación Supabase.
@@ -84,7 +88,7 @@ cp -rf supabase/docker/* supabase-project
 cp supabase/docker/.env.example supabase-project/.env
 ```
 
-Cambia al directorio del proyecto, descarga las últimas imágenes de contenedor y lanza la stack en modo detached.
+Cambia al directorio del proyecto, descarga las últimas imágenes de contenedores y lanza la stack en modo detached.
 ```
 cd supabase-project
 docker compose pull
@@ -101,18 +105,20 @@ Ahora puedes acceder a Supabase Studio a través de `http://<tu-ip>:8000`. Se te
 ![img](https://screensaver01.zap-hosting.com/index.php/s/oBpk2K3S46gETHf/preview)
 
 :::warning Credenciales por Defecto
-Tu app está corriendo con credenciales por defecto. Asegura tus servicios lo antes posible usando las instrucciones a continuación.
+Tu app está corriendo ahora con credenciales por defecto. Asegura tus servicios lo antes posible usando las instrucciones a continuación.
 :::
 
+
+
 ## Configuración
-Nunca debes desplegar con valores por defecto o de ejemplo. Debes reemplazar todos los placeholders con secretos fuertes y únicos, revisar la configuración según tus requisitos de seguridad y reiniciar todos los servicios para aplicar los cambios.
+Nunca deberías desplegar con valores por defecto o de ejemplo. Debes reemplazar todos los placeholders con secretos fuertes y únicos, revisar la configuración según tus requisitos de seguridad y reiniciar todos los servicios para aplicar los cambios.
 
 Genera claves API seguras antes de exponer cualquier servicio. Comienza eligiendo un secreto JWT de 40 caracteres. Puedes usar el valor proporcionado o crear el tuyo propio. Guarda este secreto localmente en un lugar seguro. No lo compartas ni lo subas a control de versiones. Usa el secreto para generar un JWT y luego deriva las claves API anon y service usando el formulario referenciado en la documentación de Supabase: https://supabase.com/docs/guides/self-hosting/docker#generate-api-keys
 
 Ejecuta el formulario dos veces para producir ambas claves. Actualiza tu `./docker/.env` con:
 
 - `ANON_KEY`: clave anon
-- `SERVICE_ROLE_KEY`: clave service
+- `SERVICE_ROLE_KEY`: clave de servicio
 
 Actualiza los secretos requeridos en `./docker/.env`. Estos valores deben estar configurados para un despliegue funcional:
 
@@ -122,12 +128,12 @@ Actualiza los secretos requeridos en `./docker/.env`. Estos valores deben estar 
 - `SMTP_*`: credenciales del servidor de correo
 - `POOLER_TENANT_ID`: ID de tenant usado por el pooler Supavisor
 
-Protege el Dashboard con nuevas credenciales antes de usar en producción. Edita `./docker/.env`:
+Protege el Panel con nuevas credenciales antes de usar en producción. Edita `./docker/.env`:
 
-- `DASHBOARD_USERNAME`: usuario del dashboard
-- `DASHBOARD_PASSWORD`: contraseña del dashboard
+- `DASHBOARD_USERNAME`: usuario del panel
+- `DASHBOARD_PASSWORD`: contraseña del panel
 
-Puedes definir múltiples usuarios para el dashboard en `./docker/volumes/api/kong.yml`:
+Puedes definir múltiples usuarios para el panel en `./docker/volumes/api/kong.yml`:
 
 ```
 basicauth_credentials:
@@ -139,7 +145,7 @@ basicauth_credentials:
     password: password_two
 ```
 
-Para habilitar todas las funciones del dashboard fuera de `localhost`, configura `SUPABASE_PUBLIC_URL` en `./docker/.env` con la URL o IP que usarás para acceder al dashboard.
+Para habilitar todas las funciones del panel fuera de `localhost`, configura `SUPABASE_PUBLIC_URL` en `./docker/.env` con la URL o IP que usarás para acceder al panel.
 
 Aplica los cambios de configuración reiniciando la stack:
 
@@ -148,13 +154,14 @@ docker compose down
 docker compose up -d
 ```
 
+
+
+
 ## Conclusión y más Recursos
 
-¡Felicidades! Ahora has instalado y configurado Supabase con éxito en tu Servidor Dedicado. También te recomendamos echar un vistazo a los siguientes recursos, que pueden ofrecerte ayuda y guía adicional durante la configuración de tu servidor:
+¡Felicidades! Ahora has instalado y configurado con éxito Supabase en tu Servidor Dedicado. También te recomendamos echar un vistazo a los siguientes recursos, que pueden ofrecerte ayuda y guía adicional durante el proceso de configuración de tu servidor:
 
 - [Supabase.com](https://Supabase.com/) - Sitio Oficial
 - [Supabase.com/docs/guides/self-hosting](https://supabase.com/docs/guides/self-hosting) - Documentación de Supabase
 
 ¿Tienes preguntas específicas que no se cubren aquí? Para más dudas o asistencia, no dudes en contactar a nuestro equipo de soporte, ¡disponible todos los días para ayudarte! 🙂
-
-<InlineVoucher />

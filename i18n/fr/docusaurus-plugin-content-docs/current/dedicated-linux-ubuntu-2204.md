@@ -29,7 +29,7 @@ Plus d’infos sur le [site officiel](https://ubuntu.com/about/release-cycle).
 :::
 
 
-<InlineVoucher />
+
 
 ## Préparation
 
@@ -45,7 +45,7 @@ Si tu ne connais pas encore le montage d’un fichier ISO, consulte notre [guide
 
 ## Installation
 
-Une fois l’ISO monté et chargé avec succès, le serveur lance le processus d’installation. Choisis la langue que tu souhaites utiliser pour ton OS dès le début. Sélectionne une langue et valide avec la touche `Entrée`. 
+Une fois l’ISO monté et chargé avec succès, le serveur démarre le processus d’installation. Choisis la langue que tu souhaites utiliser pour ton OS au début de l’installation. Sélectionne une langue parmi celles proposées et valide avec la touche `Entrée`. 
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/yrHMNzstM23XZH6/preview)
 
@@ -53,7 +53,7 @@ Ensuite, choisis la disposition du clavier adaptée à ta langue.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/x9kYGEWS5fy7Wjp/preview)
 
-Puis, la configuration réseau s’affiche. Par défaut, le serveur est configuré en DHCP. L’adaptateur réseau par défaut est `eno1`. Confirme les paramètres par défaut et continue. 
+Puis vient la configuration réseau. Par défaut, le serveur est configuré en DHCP. L’adaptateur réseau par défaut est `eno1`. Confirme les réglages par défaut et continue. 
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/6mr5kAKJQ39iJt5/preview)
 
@@ -69,19 +69,24 @@ Tu peux définir les partitions dans la configuration du stockage. Soit tu utili
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/2dJ9oeMGjpWn6cZ/preview)
 
-Le setup crée automatiquement les volumes, tu peux valider avec l’option `Terminé`.
+Le setup crée automatiquement les volumes, tu peux valider en sélectionnant l’option `Terminé`.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/WXfzt57Rtm2SQLD/preview)
 
-Avant de lancer le processus, un message t’informe que toutes les données existantes seront supprimées. Confirme avec `Continuer`. 
+Avant de lancer le processus, un message t’informe que toutes les données existantes seront supprimées. Confirme avec l’option `Continuer`. 
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/L3YcGNbYWpMmaDj/preview)
 
-Configure ton compte utilisateur comme tu veux, tu peux aussi utiliser le compte root en fin de setup en changeant le mot de passe. Navigue avec tab ou les flèches. Quand c’est bon, coche `Terminé`.
+Configure ton compte utilisateur comme tu veux, tu peux aussi utiliser le compte root en changeant simplement le mot de passe.
+Navigue dans les options avec la touche tab ou les flèches. Quand c’est bon, valide avec `Terminé`.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/mqrjmF2ZmA2Qj9z/preview)
 
-L’installation du setup SSH est recommandée. Si tu veux gérer ton serveur via SSH, sélectionne cette option et confirme.
+
+
+
+
+L’installation du setup SSH est recommandée. Si tu veux gérer ton serveur via SSH, sélectionne l’option d’installation et confirme.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/Xz3zzMdZ6C523ip/preview)
 
@@ -89,7 +94,7 @@ Ubuntu propose quelques snaps par défaut, coche ceux que tu souhaites utiliser.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/wcGiSwX935jXeex/preview)
 
-Pour finir, il faut éjecter l’ISO pour éviter qu’il se recharge au redémarrage. Redémarre ton serveur une fois pour terminer.
+Pour finir, il faut éjecter l’ISO pour éviter qu’il ne se recharge au redémarrage. Redémarre ton serveur une fois pour terminer l’installation. 
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/SzrxCtJTx2S8Nef/preview)
 
@@ -105,17 +110,10 @@ Pour finir, il faut éjecter l’ISO pour éviter qu’il se recharge au redéma
 
 ### Changer le mot de passe du user root
 
-Tu peux facilement changer le mot de passe du user root. Tape `sudo su`, puis entre ton mot de passe. Ensuite, lance `sudo passwd` pour modifier le mot de passe. Entre le nouveau mot de passe root. Voilà, tu peux maintenant te connecter avec le user `root`.
+Tu peux facilement changer le mot de passe du user root. Tape `sudo su`, puis entre ton mot de passe. Ensuite, lance `sudo passwd` pour modifier le mot de passe. Entre le nouveau mot de passe souhaité pour root. Voilà, tu peux maintenant te connecter avec le compte `root`.
 
 
 
 ## Conclusion
 
 Bravo, tu as installé avec succès Ubuntu 22.04 sur ton serveur dédié. Pour toute question ou aide, n’hésite pas à contacter notre support, dispo tous les jours pour t’aider ! 🙂
-
-
-
-
-
-
-<InlineVoucher />

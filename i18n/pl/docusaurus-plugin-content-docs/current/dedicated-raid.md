@@ -11,37 +11,37 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Wprowadzenie
 
-RAID (Redundant Array of Independent Disks) to technologia łącząca wiele dysków twardych w jeden logiczny wolumin, aby osiągnąć redundancję danych i/lub zwiększoną wydajność. Istnieją różne poziomy RAID, które oferują różne kombinacje rozkładu danych i odporności na awarie.
+RAID (Redundant Array of Independent Disks) to technologia łącząca kilka dysków twardych w jeden logiczny wolumin, aby osiągnąć redundancję danych i/lub zwiększoną wydajność. Istnieją różne poziomy RAID, które oferują różne kombinacje rozkładu danych i odporności na awarie.
 
-<InlineVoucher />
+
 
 ## Dostępne typy RAID
-Nasze serwery dedykowane mają obecnie 2 zatoki na dyski SSD, co oznacza, że dostępne są dwie możliwe konfiguracje RAID. Pierwsza to RAID0, który służy do łączenia woluminów w jeden duży wolumin, a druga to RAID1, który służy do mirroringu woluminów i utrzymania redundancji danych. Szczegółowo omówimy obie poniżej.
+Nasze serwery dedykowane mają obecnie 2 zatoki na dyski SSD, co oznacza, że dostępne są dwie możliwe konfiguracje RAID. Pierwsza to RAID0, który służy do łączenia woluminów w jeden duży, a druga to RAID1, który służy do mirroringu woluminów i zachowania redundancji danych. Szczegółowo omówimy obie poniżej.
 
 :::info
 RAID0 zapewnia nieco szybsze prędkości odczytu i zapisu, dzięki obecności dwóch dysków.
 :::
 
 ### RAID0
-W tej konfiguracji RAID wszystkie istniejące woluminy są łączone w jeden duży wolumin, na przykład z 2 dysków SSD po 1 TB każdy. Tworzona jest wtedy partycja 2 TB, którą można w pełni wykorzystać.
+W tej konfiguracji RAID wszystkie istniejące woluminy są łączone w jeden duży, np. z 2 dysków SSD po 1 TB każdy tworzy się jedna partycja 2 TB, którą można w pełni wykorzystać.
 
 Nie ma tu redundancji danych, więc w przypadku awarii technicznej utrata danych jest często nieunikniona, ponieważ dane są zapisywane w różnych sektorach.
 
-Jeśli przechowujesz na serwerze wrażliwe dane, RAID0 nie powinien być używany lub przynajmniej należy regularnie wykonywać kopie zapasowe systemu.
+Jeśli przechowujesz wrażliwe dane na swoim systemie, RAID0 nie powinien być używany lub przynajmniej należy regularnie wykonywać kopie zapasowe systemu.
 
 :::info
 Jeśli Twój serwer dedykowany ma tylko 1 dysk SSD, to automatycznie jest to RAID0.
 :::
 
 ### RAID1
-Ta konfiguracja różni się znacznie od RAID0 – tutaj masz redundancję danych, co oznacza, że wszystko, co zapisujesz na serwerze, jest duplikowane.
-Dane są więc mirrorowane na obu dyskach SSD i będą dostępne nawet przy awarii jednego z nich, czyli Twoje dane są bezpieczne przy awarii 1 dysku SSD.
+Ta konfiguracja różni się znacznie od RAID0 — tutaj dane są redundantne, co oznacza, że wszystko, co zapisujesz na serwerze, jest duplikowane.
+Dane są więc mirrorowane na obu dyskach SSD i będą dostępne nawet przy awarii jednego z nich, czyli Twoje dane są bezpieczne przy 1 działającym SSD.
 
 W przypadku awarii technicznej wystarczy wymienić uszkodzony dysk SSD, a serwer odbuduje RAID, czyli ponownie zmirroruje dane.
 Szczególnie dla bardziej wrażliwych danych ta konfiguracja jest bardzo polecana, ale nie zastępuje regularnych kopii zapasowych.
 
 :::info
-Regularne kopie zapasowe wszystkich ważnych danych są niezbędne!
+Regularne kopie zapasowe wszystkich ważnych danych to podstawa!
 :::
 
 ## Asystent konfiguracji
@@ -60,7 +60,7 @@ Po kilku sekundach pojawi się ten przegląd konfiguracji.
 
 ***
 
-Dostępne są teraz różne opcje menu:
+Do wyboru są teraz różne opcje menu:
 
 * Create Logical Drive  
 Tworzy nowy wolumin.
@@ -79,7 +79,7 @@ RAID1
 ***
 
 * Delete Logical Drive  
-Możesz usunąć aktualną konfigurację RAID, aby na przykład stworzyć nową.
+Możesz usunąć aktualną konfigurację RAID, np. aby stworzyć nową.
 
 * Select Boot Volume  
 Możesz wybrać inny nośnik rozruchowy, co w naszym przypadku nie jest konieczne.
@@ -88,13 +88,13 @@ Możesz wybrać inny nośnik rozruchowy, co w naszym przypadku nie jest konieczn
 Nie trzeba nic zmieniać, licencje są już skonfigurowane.
 
 * Cache Settings  
-Opcję cache można dostosować, aby nieco zwiększyć prędkości odczytu/zapisu SSD.  
-Podczas każdego zapisu ostatnie bloki danych są buforowane dla bezpieczeństwa, np. na wypadek utraty zasilania.  
-To powoduje minimalne obniżenie wydajności.
+Opcja cache można dostosować, aby nieco zwiększyć prędkości odczytu/zapisu SSD.  
+Podczas każdego zapisu ostatnie bloki danych są buforowane dla bezpieczeństwa, np. przy utracie zasilania.  
+To powoduje minimalny spadek wydajności.
 
 ### Tworzenie nowego RAID
 
-Najpierw sprawdzamy, czy nie ma już woluminu, otwierając `Delete Logical Drive`
+Najpierw sprawdzamy, czy nie ma już woluminu, otwieramy `Delete Logical Drive`
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/EbPtmgFyZ3oN6jb/preview)
 
@@ -112,8 +112,9 @@ Po pomyślnym usunięciu RAID otwieramy `Create Logical Drive`
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/SjP6ZkcWXCKc4kT/preview)
 
+
 Tutaj widzisz wszystkie swoje dyski SSD i możesz wybrać konfigurację RAID.  
-Oczywiście nie wszystkie konfiguracje RAID są możliwe do zrealizowania w obecnym układzie.
+Oczywiście nie wszystkie konfiguracje RAID da się zastosować w obecnym układzie.
 
 W naszym przykładzie wybieramy RAID0 lub RAID1.
 
@@ -121,7 +122,7 @@ W naszym przykładzie wybieramy RAID0 lub RAID1.
 Między menu przełączasz się klawiszem `TAB`
 :::
 
-Po wybraniu konfiguracji RAID potwierdź ją, naciskając `Enter`.
+Po wybraniu konfiguracji RAID zatwierdź ją, naciskając `Enter`.
 
 :::info
 Asystenta konfiguracji zamkniesz, naciskając `ESC`
@@ -129,8 +130,8 @@ Asystenta konfiguracji zamkniesz, naciskając `ESC`
 
 ### Wybór woluminu rozruchowego
 
-Jeśli zmieniałeś konfigurację RAID, konieczne jest wybranie woluminu rozruchowego.  
-Można to łatwo zrobić w **Select Boot Volume** – wybierz tam utworzony wolumin logiczny, inaczej serwer utknie w pętli bootowania.
+Jeśli zmieniałeś RAID, konieczne jest wybranie woluminu rozruchowego.  
+Zrobisz to łatwo w **Select Boot Volume** — wybierz tam utworzony wolumin logiczny, inaczej serwer utknie w pętli bootowania.
 
 **Select Boot Volume**<br/>
 ![](https://screensaver01.zap-hosting.com/index.php/s/2GDEYfjnkmaKF9F/preview)
@@ -151,7 +152,4 @@ Pamiętaj, że wolumin rozruchowy musi być ustawiony **za każdym razem**, gdy 
 
 ## Podsumowanie
 
-Gratulacje, pomyślnie skonfigurowałeś RAID na swoim serwerze dedykowanym. W razie pytań lub potrzeby pomocy, śmiało kontaktuj się z naszym supportem, który jest dostępny codziennie, by Ci pomóc! 🙂
-
-
-<InlineVoucher />
+Gratulacje, udało Ci się skonfigurować RAID na swoim serwerze dedykowanym. W razie pytań lub potrzeby pomocy, śmiało kontaktuj się z naszym supportem, który jest dostępny codziennie, by Ci pomóc! 🙂

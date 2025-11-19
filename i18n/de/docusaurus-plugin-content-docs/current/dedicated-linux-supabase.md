@@ -17,31 +17,29 @@ Supabase ist eine Open-Source Postgres Entwicklungsplattform, die eine vollstän
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/gE9NRSMr22oZaCx/preview)
 
-Willst du diesen Service selbst hosten? Wir führen dich Schritt für Schritt durch die Einrichtung und Konfiguration und zeigen dir alles, was du beachten musst.
-
-<InlineVoucher />
+Willst du diesen Service selbst hosten? Wir zeigen dir Schritt für Schritt, wie du Supabase einrichtest und konfigurierst – inklusive allem, was du beachten musst.
 
 ## Voraussetzungen
 
-Bevor du **Supabase** installierst, stelle sicher, dass deine Hosting-Umgebung die folgenden Anforderungen erfüllt, um eine reibungslose Installation und optimale Performance zu gewährleisten.
+Bevor du **Supabase** installierst, stelle sicher, dass deine Hosting-Umgebung folgende Anforderungen erfüllt, um eine reibungslose Installation und optimale Performance zu garantieren.
 
-| Hardware   | Minimum     | ZAP-Hosting Empfehlung    |
-| ---------- | ----------- | ------------------------- |
-| CPU        | 1 CPU-Kern  | 4 CPU-Kerne               |
-| RAM        | 4 GB        | 8 GB                      |
-| Festplattenspeicher | 25 GB       | 25 GB                     |
+| Hardware   | Minimum     | ZAP-Hosting Empfehlung   |
+| ---------- | ----------- | ------------------------ |
+| CPU        | 1 CPU-Kern  | 4 CPU-Kerne              |
+| RAM        | 4 GB        | 8 GB                     |
+| Festplattenspeicher | 25 GB       | 25 GB                    |
 
-Die Software benötigt alle notwendigen Abhängigkeiten und muss auf einem unterstützten Betriebssystem laufen. Vergewissere dich, dass dein Server folgende Anforderungen erfüllt, bevor du mit der Installation startest:
+Die Software benötigt alle nötigen Abhängigkeiten und muss auf einem unterstützten Betriebssystem laufen. Vergewissere dich, dass dein Server folgende Anforderungen erfüllt, bevor du mit der Installation startest:
 
 **Abhängigkeiten:** `Git`, `Docker (Engine und Compose)`
 
-**Betriebssystem:** Neueste Version von Ubuntu/Debian mit Docker-Unterstützung
+**Betriebssystem:** Neueste Version von Ubuntu/Debian mit Docker 2 Support
 
 Stelle sicher, dass alle Abhängigkeiten installiert sind und das richtige Betriebssystem verwendet wird, um Kompatibilitätsprobleme bei der Supabase-Installation zu vermeiden.
 
 ## Vorbereitung
 
-Bevor du **Supabase** einrichtest, solltest du dein System vorbereiten. Dazu gehört, dein Betriebssystem auf den neuesten Stand zu bringen und alle erforderlichen Abhängigkeiten zu installieren. So sorgst du für eine stabile Umgebung und vermeidest Probleme während oder nach der Installation.
+Bevor du **Supabase** einrichtest, solltest du dein System vorbereiten. Das bedeutet, dein Betriebssystem auf den neuesten Stand bringen und alle erforderlichen Abhängigkeiten installieren. So sorgst du für eine stabile Umgebung und vermeidest Probleme während oder nach der Installation.
 
 ### System aktualisieren
 Damit dein System mit den aktuellsten Software- und Sicherheitsupdates läuft, solltest du zuerst ein Update durchführen. Führe dazu folgenden Befehl aus:
@@ -49,13 +47,14 @@ Damit dein System mit den aktuellsten Software- und Sicherheitsupdates läuft, s
 ```
 sudo apt update && sudo apt upgrade -y
 ```
+
 So stellst du sicher, dass dein System die neuesten Sicherheitspatches und Softwareversionen hat, bevor es weitergeht.
 
 ### Abhängigkeiten installieren
-Nach dem Update kannst du mit der Installation der Abhängigkeiten starten.
+Nach dem Update kannst du die benötigten Abhängigkeiten installieren.
 
 #### Git
-Die Supabase-Daten werden über GitHub heruntergeladen. Dafür muss Git installiert sein. Führe diesen Befehl aus:
+Die Supabase-Daten werden über GitHub geladen. Dafür muss Git installiert sein. Führe diesen Befehl aus:
 
 ```
 sudo apt install git-all
@@ -109,19 +108,19 @@ Deine App läuft jetzt mit den Standard-Zugangsdaten. Sichere deine Services so 
 ## Konfiguration
 Du solltest niemals mit Standard- oder Beispielwerten live gehen. Ersetze alle Platzhalter durch starke, einzigartige Secrets, überprüfe die Konfiguration auf deine Sicherheitsanforderungen und starte alle Services neu, damit die Änderungen greifen.
 
-Generiere sichere API-Keys, bevor du irgendeinen Service öffentlich machst. Starte mit einem 40-stelligen JWT-Secret. Du kannst den vorgegebenen Wert nutzen oder dein eigenes erstellen. Speichere das Secret lokal an einem sicheren Ort. Teile es nicht und committe es nicht in Versionskontrollen. Nutze das Secret, um ein JWT zu generieren und daraus die anon- und service-API-Keys mit dem Formular in den Supabase-Dokumenten abzuleiten: https://supabase.com/docs/guides/self-hosting/docker#generate-api-keys
+Generiere sichere API-Keys, bevor du einen Service öffentlich machst. Starte mit einem 40-stelligen JWT-Secret. Du kannst den vorgegebenen Wert nutzen oder dein eigenes erstellen. Speichere das Secret lokal an einem sicheren Ort. Teile es nicht und committe es nicht ins Versionskontrollsystem. Nutze das Secret, um ein JWT zu generieren und daraus die anon- und service-API-Keys mit dem Formular in den Supabase-Dokumenten abzuleiten: https://supabase.com/docs/guides/self-hosting/docker#generate-api-keys
 
 Führe das Formular zweimal aus, um beide Keys zu erzeugen. Aktualisiere deine `./docker/.env` mit:
 
 - `ANON_KEY`: anon key
 - `SERVICE_ROLE_KEY`: service key
 
-Aktualisiere die notwendigen Secrets in `./docker/.env`. Diese Werte müssen gesetzt sein für eine funktionierende Installation:
+Aktualisiere die erforderlichen Secrets in `./docker/.env`. Diese Werte müssen gesetzt sein, damit die Installation funktioniert:
 
 - `POSTGRES_PASSWORD`: Passwort für die Rolle `postgres`
 - `JWT_SECRET`: wird von PostgREST und GoTrue genutzt
 - `SITE_URL`: Basis-URL deiner Seite
-- `SMTP_*`: Mailserver-Zugangsdaten
+- `SMTP_*`: Zugangsdaten für deinen Mailserver
 - `POOLER_TENANT_ID`: Tenant-ID, die vom Supavisor Pooler genutzt wird
 
 Schütze das Dashboard mit neuen Zugangsdaten, bevor du es produktiv nutzt. Bearbeite `./docker/.env`:
@@ -152,11 +151,9 @@ docker compose up -d
 
 ## Fazit und weitere Ressourcen
 
-Glückwunsch! Du hast Supabase erfolgreich auf deinem Dedicated Server installiert und konfiguriert. Wir empfehlen dir außerdem, einen Blick auf folgende Ressourcen zu werfen, die dir bei der Serverkonfiguration weiterhelfen können:
+Glückwunsch! Du hast Supabase erfolgreich auf deinem Dedicated Server installiert und konfiguriert. Wir empfehlen dir außerdem, einen Blick auf folgende Ressourcen zu werfen, die dir bei der weiteren Server-Konfiguration helfen können:
 
-- [Supabase.com](https://Supabase.com/) – Offizielle Webseite
+- [Supabase.com](https://Supabase.com/) – Offizielle Website
 - [Supabase.com/docs/guides/self-hosting](https://supabase.com/docs/guides/self-hosting) – Supabase Dokumentation
 
-Du hast spezielle Fragen, die hier nicht beantwortet wurden? Für weitere Fragen oder Support steht dir unser Team täglich zur Verfügung – melde dich einfach bei uns! 🙂
-
-<InlineVoucher />
+Du hast spezielle Fragen, die hier nicht beantwortet werden? Für weitere Fragen oder Support steht dir unser Team täglich zur Verfügung – melde dich einfach bei uns! 🙂

@@ -1,7 +1,7 @@
 ---
 id: dedicated-linux-ftp
 title: "専用サーバー：FTPサービスが動作しない場合のトラブルシューティング"
-description: "VPSでのFTPアクセス問題を解決して、ゲームサーバーやTeamspeakサーバーの管理をスムーズに行う方法を理解しよう → 詳しくはこちら"
+description: "VPSのFTPアクセス問題を解決して、ゲームサーバーやTeamspeakサーバーの管理をスムーズに行う方法を理解しよう → 詳しくはこちら"
 sidebar_label: FTPサービスが動作しない
 services:
   - dedicated
@@ -9,20 +9,20 @@ services:
 
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
-## ゲームサーバーやTeamspeakサーバーにFTPでアクセスできない場合はどうする？
+## ゲームサーバーやTeamspeakサーバーにFTPでアクセスできないときはどうする？
 
 :::info
 注意：以下の手順は、ZAPのウェブインターフェースがインストールされている自分のVPSでのみ有効です！
 :::
 
-作成したサーバーにFTPで接続できない場合、ほとんどの場合FTPサービス（ProFTPD）が起動していません。稀に設定ミスやポートの競合（FTPのポート21が他のプログラムに使われている）も原因となります。
+作成したサーバーにFTPで接続できない場合、多くはFTPサービス（ProFTPD）が起動していません。稀に設定ミスやポートの競合（FTPのポート21が他のプログラムに使われている）も原因となります。
 
-<InlineVoucher />
 
-## FTPの問題を詳しくチェックしよう：
 
-### 接続可能か確認する
-ウェブインターフェースのFTPブラウザを使うと簡単に確認できます。対象サーバーのメニューの「ツール」から「FTPブラウザ」をクリック。
+## FTP問題を詳しくチェックしよう：
+
+### 接続可否の確認
+ウェブインターフェースのFTPブラウザで簡単に確認できます。対象サーバーのメニューの「ツール」から「FTPブラウザ」をクリック
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/G394GJkDc9WXEzs/preview)
 
@@ -30,39 +30,50 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/KLCmb8A4xSjWmy9/preview)
 
-するとおそらくこんな画面が表示されます：
+するとおそらく以下のような画面が表示されます：
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/FFJo8XeEJcX7RTM/preview)
 
 WebFTPやFTPツールでの接続ができないことがはっきりしたので、VPS上のFTPサービスを詳しく調べる必要があります。
 
-### ProFTPDの状態を確認する
+### ProFTPDの状態を確認
 
-SSHやコンソールでサーバーに接続し、「service proftpd status」コマンドを入力します。状態が読み取られ、以下のように表示されます：
+SSHやコンソールでサーバーに接続し、以下のコマンドを入力します。
+
+```
+service proftpd status
+```
+
+ステータスが読み取られ、以下のように表示されます：
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/zsg8qwFJsWEAZkA/preview)
 
-ここで「dead」と表示されていれば、サービスはオフラインでアクセスできない状態です。
+ここで「dead」と表示されていれば、サービスは停止中でアクセスできません。
 
-### FTPサービスを再起動する
+
+### FTPサービスの再起動
 FTPサービスは以下のコマンドで再起動できます：
 
 ```
 service proftpd start
 ```
 
-コマンド実行後に特にエラーが出なければ、サービスは通常オンライン／利用可能になっています。
+コマンド実行後に何も返答がなければ、通常サービスは再び起動しています。
 
-再度「service proftpd status」コマンドで状態を確認しましょう。こんな感じになっていればOKです：
+再度以下のコマンドで状態を確認しましょう。
+
+```
+service proftpd status
+```
+
+このように表示されればOKです：
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/8QNNnoMFYG4rt2D/preview)
 
-状態が「active」になっていれば、「dead」ではなくなり、FTP接続をFTPツールやWebFTPで再度試せます。
+「active」と表示されていればサービスは起動中なので、FTPツールやWebFTPで再接続を試みてください。
 
-### 接続を再確認する
-これで接続が確立でき、データの閲覧もできるはずです。
+### 再接続の確認
+これで接続ができてデータの閲覧が可能になっているはずです。
 
 ### 問題解決！
-✅ FTPサービス（ProFTPD）が起動／アクティブになり、データのやり取りに問題なし！
-
-<InlineVoucher />
+✅ FTPサービス（ProFTPD）が起動し、データのやり取りに問題なし！

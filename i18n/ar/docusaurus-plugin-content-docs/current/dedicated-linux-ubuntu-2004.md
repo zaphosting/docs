@@ -17,7 +17,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 :::warning إصدار أحدث متوفر / تفاصيل نهاية الدعم
 
-أحدث إصدار من أوبونتو هو الإصدار [24.04](dedicated-linux-ubuntu.md). نوصي باستخدام أحدث إصدار للمشاريع طويلة الأمد.
+أحدث إصدار من أوبونتو هو الإصدار [24.04](dedicated-linux-ubuntu.md). ننصح باستخدام أحدث إصدار للمشاريع طويلة الأمد.
 
 سيتم إيقاف دعم إصدارات أوبونتو القديمة عاجلاً أم آجلاً. المواعيد النهائية التالية محددة لإصدار 20.04:
 
@@ -29,7 +29,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 :::
 
 
-<InlineVoucher />
+
 
 ## التحضير
 
@@ -37,7 +37,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 1. التركيب عبر الإعداد الأولي
 2. التركيب عبر iLO (الوسائط الافتراضية)
-3. التركيب عبر iLO (الكونسول البعيد)
+3. التركيب عبر iLO (الكونسول عن بُعد)
 
 إذا لم تكن معتادًا على تركيب ملف ISO بعد، فمن الأفضل الرجوع إلى [الإعداد الأولي](dedicated-setup.md) أو [ملف ISO الخاص](dedicated-iso.md) دليلنا.
 
@@ -45,27 +45,27 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## التثبيت
 
-بمجرد تركيب ملف ISO وتحميله بنجاح، يجب أن يكون السيرفر في وضع الإعداد. سيتم تحديد اللغة التي تريد استخدامها لنظام التشغيل في بداية الإعداد. اختر واحدة من اللغات المتاحة وأكد الاختيار بزر `Enter`. 
+بمجرد تركيب ملف ISO وتحميله بنجاح، يجب أن يكون السيرفر في وضع الإعداد. سيتم تحديد اللغة التي تريد استخدامها لنظام التشغيل في بداية الإعداد. اختر واحدة من اللغات المتاحة وأكد الاختيار بزر `Enter`.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/yrHMNzstM23XZH6/preview)
 
-بعد ذلك، يجب اختيار وتعيين تخطيط لوحة المفاتيح المناسب للغة. اختر تخطيط لوحة المفاتيح الذي يناسبك هنا أيضًا. 
+بعد ذلك، يجب اختيار وتعيين تخطيط لوحة المفاتيح المناسب للغة. اختر تخطيط لوحة المفاتيح الذي يناسبك هنا أيضًا.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/x9kYGEWS5fy7Wjp/preview)
 
-بعد ذلك، تتم عملية تكوين الشبكة. يتم تكوين السيرفر عبر DHCP بشكل افتراضي. المحول الشبكي الافتراضي هو `eno1`. أكد الإعدادات الافتراضية واستمر. 
+بعد ذلك، تتم عملية تكوين الشبكة. يتم تكوين السيرفر عبر DHCP بشكل افتراضي. محول الشبكة الافتراضي هو `eno1`. أكد الإعدادات الافتراضية واستمر.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/6mr5kAKJQ39iJt5/preview)
 
-يمكن تكوين بروكسي إضافي كخيار. لكن هذا ليس ضروريًا. إذا لم تكن بحاجة إليه، فقط تخطى هذه الخطوة. 
+يمكن تكوين بروكسي إضافي كخيار. لكن هذا ليس ضروريًا. إذا لم تكن بحاجة إليه، فقط تخطى هذه الخطوة.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/tz97Ee8ZQkxAGGb/preview)
 
-الآن يتم تحديد مرآة أرشيف أوبونتو (خادم التنزيل للحزم). سيرفراتنا المخصصة تقع في ألمانيا، لذا يُنصح باختيار موقع المرآة الألمانية لتحقيق أفضل سرعات تنزيل ممكنة.
+الآن يتم تحديد مرآة أرشيف أوبونتو (خادم التنزيل للحزم). سيرفراتنا المخصصة موجودة في ألمانيا، لذا يُنصح باختيار المرآة الألمانية لتحقيق أفضل سرعة تنزيل ممكنة.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/xNknNyWAbd5DnsZ/preview)
 
-يمكن الآن تحديد الأقسام في تكوين التخزين. يمكنك استخدام قسم واحد كبير أو تقسيمه إذا لزم الأمر. إذا أردت استخدام كامل SSD كقسم واحد فقط اختر `Use an entire disk` واستمر.
+يمكن الآن تحديد الأقسام في تكوين التخزين. يمكنك استخدام قسم واحد كبير أو تقسيمه إذا لزم الأمر. إذا أردت استخدام كامل SSD كقسم واحد فقط، اختر `Use an entire disk` واستمر.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/2dJ9oeMGjpWn6cZ/preview)
 
@@ -73,7 +73,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/WXfzt57Rtm2SQLD/preview)
 
-قبل بدء العملية، سيتم إعلامك بأن هذه العملية ستحذف جميع البيانات الموجودة. يجب تأكيد هذه الرسالة بخيار `Continue`. 
+قبل بدء العملية، سيتم إعلامك بأن هذه العملية ستحذف جميع البيانات الموجودة. يجب تأكيد هذه الرسالة بخيار `Continue`.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/L3YcGNbYWpMmaDj/preview)
 
@@ -90,11 +90,11 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/Xz3zzMdZ6C523ip/preview)
 
-​	يقدم أوبونتو بعض الحزم الافتراضية (snaps)، إذا أردت استخدام بعضها، فقط اختر ما يعجبك.
+​	يقدم أوبونتو بعض الحزم الافتراضية snap، إذا أردت استخدام بعضها، فقط اختر ما يعجبك.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/wcGiSwX935jXeex/preview)
 
-لإكمال العملية، يجب إخراج ملف ISO لمنع إعادة تحميله عند إعادة تشغيل السيرفر. أعد تشغيل السيرفر مرة واحدة لإنهاء العملية. 
+لإكمال العملية، يجب إخراج ملف ISO لمنع إعادة تحميله عند إعادة تشغيل السيرفر. أعد تشغيل السيرفر مرة واحدة لإنهاء العملية.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/SzrxCtJTx2S8Nef/preview)
 
@@ -120,7 +120,3 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 
 
-
-
-
-<InlineVoucher />

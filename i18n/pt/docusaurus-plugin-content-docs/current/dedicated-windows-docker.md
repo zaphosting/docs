@@ -17,23 +17,25 @@ Docker é uma plataforma aberta para desenvolver, distribuir e executar aplicaç
 
 Essa abordagem elimina problemas causados por diferenças entre sistemas de desenvolvimento, teste e produção. Com Docker, as aplicações podem ser implantadas rapidamente, escaladas de forma eficiente e atualizadas sem downtime.
 
-Pensando em hospedar esse serviço você mesmo? Vamos te guiar em cada passo para configurar e ajustar tudo, além de tudo que você precisa saber para manter seu setup tinindo.
+Pensando em hospedar esse serviço você mesmo? Vamos te guiar em cada passo para configurar e ajustar tudo, além de tudo que você precisa ficar ligado.
 
-<InlineVoucher />
+
 
 ## Requisitos
 
-Antes de instalar o **Docker**, certifique-se de que seu ambiente de hospedagem atende aos seguintes requisitos para garantir uma instalação tranquila e desempenho ideal.
+Antes de instalar o **Docker**, certifique-se que seu ambiente de hospedagem atende aos seguintes requisitos para garantir uma instalação tranquila e desempenho ideal.
 
 | Hardware   | Mínimo     | Recomendação ZAP-Hosting |
-| ---------- | ---------- | ------------------------ |
-| CPU        | 1 núcleo de CPU | 4 núcleos de CPU         |
-| RAM        | 4 GB       | 4 GB                     |
-| Espaço em disco | 10 GB  | 25 GB                    |
+| ---------- | ----------- | ------------------------ |
+| CPU        | 1 núcleo de CPU | 4 núcleos de CPU       |
+| RAM        | 4 GB        | 4 GB                     |
+| Espaço em disco | 10 GB   | 25 GB                    |
+
+
 
 ## Instalação
 
-Para configurar o Docker no Windows Server, baixe e execute o script PowerShell `install-docker-ce.ps1`. Ele ativa os recursos do sistema operacional necessários para containers e instala o runtime do Docker. Abra o PowerShell como administrador e execute o comando:
+Para configurar o Docker no Windows Server, baixe e execute o script PowerShell `install-docker-ce.ps1`. Ele ativa os recursos do SO necessários para containers e instala o runtime do Docker. Abra o PowerShell como administrador e execute o comando:
 
 ```powershell
 Invoke-WebRequest -UseBasicParsing "https://raw.githubusercontent.com/microsoft/Windows-Containers/Main/helpful_tools/Install-DockerCE/install-docker-ce.ps1" -o install-docker-ce.ps1
@@ -44,7 +46,7 @@ O script ativa os recursos do Windows relacionados a containers, instala o Docke
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/y26fPWy63FAWJGp/download)
 
-O sistema irá reiniciar durante a instalação e deve continuar automaticamente depois. Após o reinício, faça login e execute o mesmo comando novamente se o script pedir para completar a inicialização do serviço. Quando o script terminar, a saída será parecida com isso:
+O sistema vai reiniciar durante a instalação e deve continuar automaticamente depois. Após o reboot, faça login e execute o mesmo comando novamente se o script pedir para completar a inicialização do serviço. Quando o script terminar, a saída será parecida com isso:
 
 ```
 Installing Docker... C:\Users\Administrator\DockerDownloads\docker-28.3.3\docker\docker.exe
@@ -58,17 +60,21 @@ REPOSITORY   TAG       IMAGE ID   CREATED   SIZE
 Script complete!
 ```
 
+
+
 ## Configuração
 
-### Iniciar e parar o Docker
+### Iniciar e parar o docker
 
-O Docker roda como um serviço no Windows. Depois da instalação, ele inicia automaticamente. Para controlar manualmente:
+Docker roda como um serviço no Windows. Depois da instalação, ele inicia automaticamente. Para controlar manualmente:
 
 ```
 Start-Service docker    # Iniciar o serviço Docker
 Stop-Service docker     # Parar o serviço Docker
 Restart-Service docker  # Reiniciar o serviço Docker
 ```
+
+
 
 ### Iniciar e parar container
 
@@ -78,9 +84,11 @@ Inicie um container com `docker run`. Exemplo: servidor web IIS mapeando a porta
 docker run -d --name web -p 8080:80 mcr.microsoft.com/windows/servercore/iis:windowsservercore-ltsc2022
 ```
 
+
+
 ### Verificar status do container
 
-Confira o status dos containers com:
+Confira o status do container com:
 
 ```
 docker ps        # Containers em execução
@@ -89,11 +97,16 @@ docker inspect web   # Informações detalhadas
 docker logs web      # Logs do container
 ```
 
+
+
 #### Recursos e status
 
 ```
 docker stats            # Uso ao vivo de CPU/RAM/IO
 ```
+
+
+
 
 ## Conclusão e mais Recursos
 

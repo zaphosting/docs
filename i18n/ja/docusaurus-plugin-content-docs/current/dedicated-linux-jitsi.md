@@ -11,27 +11,25 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## はじめに
 
-Jitsi Meetはオープンソースのビデオ会議ソフトで、自分のサーバー上にビデオ会議環境を構築できます。Jitsi Meetの大きなメリットは操作の簡単さ。ブラウザだけで使え（スマホの場合はJitsiアプリ）、外部サービスへのログインも不要です。各ビデオ会議には専用のURLが割り当てられ、誰でも簡単に参加可能。ビデオ会議に慣れていない人とも気軽に使えるのが魅力です。  
-注意：特別な設定をしない限り、Jitsi Meetサーバーにアクセスした誰でも自分のビデオ会議を開始できてしまいます。
-
-<InlineVoucher />
+Jitsi Meetはオープンソースのビデオ会議ソフトで、自分のサーバー上にビデオ会議環境を構築できます。Jitsi Meetの大きなメリットは使いやすさ：ブラウザだけで利用でき（スマホの場合はJitsiアプリ）、外部サービスへのログインは不要です。各ビデオ会議には専用のURLが割り当てられ、誰でも簡単に参加可能。初心者でも使いやすいビデオ会議ツールとして最適です。  
+注意：特別な設定をしない限り、Jitsi Meetサーバーにアクセスした全員が自分のビデオ会議を開始できる状態になります。
 
 ## DebianサーバーへのJitsi Meetインストール
 
-以下ではDebianサーバーにJitsi Meetサーバーをインストールする手順を紹介します。基本的にJitsi MeetはUbuntuなど他のLinuxサーバーでも動作し、インストール方法もほぼ同じです。
+ここではDebianサーバーにJitsi Meetサーバーをインストールする方法を紹介します。基本的にJitsi MeetはUbuntuなど他のLinuxサーバーでも動作し、インストール手順もほぼ同じです。
 
 ### 準備
 
-Jitsi Meetを快適に使うには、自分のドメインでJitsiサーバーにアクセスするのがおすすめです。Jitsi Meetサーバー用にサブドメインを作成すると便利。例として「meet.zap-testdomain.de」というドメインを使います。  
-ZAP-Hostingのドメインの場合はDNS管理画面で新しいエントリを作成してください。  
+Jitsi Meetを正しく使うには、自分のドメインでJitsiサーバーにアクセスするのがおすすめです。Jitsi Meetサーバー用にサブドメインを作成すると便利です。例として、ドメイン meet.zap-testdomain.de を使います。  
+ZAP-Hostingのドメインの場合は、DNS管理画面で新しいエントリーを作成してください。  
 「名前」欄にサブドメイン名を、「値」欄にサーバーのIPアドレスを入力します。  
-例では「meet」を名前欄に、Jitsi MeetをインストールするZAPテストサーバーのIPアドレス「185.239.239.49」（実際は自分のサーバーのIPを入力）を値欄に入れます。
+例では「meet」を名前欄に、Jitsi MeetをインストールするZAPテストサーバーのIPアドレス 185.239.239.49 を値欄に入力します（必ず自分のサーバーのIPアドレスを入力してください）。
 
-Jitsi MeetサーバーにはIPアドレスでもアクセス可能ですが、SSL証明書にはドメインが必要です。ドメインがないとブラウザでセキュリティ警告が出ます。
+IPアドレスでJitsi Meetサーバーにアクセスすることも可能ですが、SSL証明書にはドメインが必要です。ドメインがないとブラウザでセキュリティ警告が表示されます。
 
-サブドメインの設定が反映されるまで最大24時間かかることがあります。設定が完了したらサーバーの準備に進みましょう。  
-PuttyやWinSCPでサーバーに接続します。  
-続ける前にサーバーが最新状態か確認してください。必要に応じてコマンドの前に「sudo」を付けて実行します（例：「sudo apt-get update」）。
+サブドメインの設定が反映されるまで最大24時間かかることがあります。設定が完了したらサーバーのインストール準備を始めましょう。  
+PuttyやWinSCPでサーバーに接続してください。  
+続ける前にサーバーが最新状態か確認しましょう。必要に応じてコマンドは管理者権限で実行してください。コマンドの前に「sudo」を付けます（例：`sudo apt-get update`）。
 
 ```
 $	apt-get update
@@ -40,7 +38,7 @@ $	apt-get update
 $	apt-get upgrade
 ```
 
-サーバーにファイアウォールが入っていなければ、例えばUFWをインストールしましょう：
+サーバーにファイアウォールがインストールされていなければ、UFWなどをインストールしましょう：
 ```
 $	apt install ufw
 ```
@@ -80,7 +78,7 @@ $	wget https://download.jitsi.org/jitsi-key.gpg.key
 $	apt-key add jitsi-key.gpg.key
 ```
 
-Jitsi Meetのリポジトリを追加します：
+Jitsi MeetをインストールするためにJitsiリポジトリを追加します：
 ```
 $	nano /etc/apt/sources.list.d/jitsi-stable.list
 ```
@@ -98,17 +96,17 @@ $	apt update
 $	apt install jitsi-meet
 ```
 
-インストール中にホスト名の入力を求められます。ここには作成したJitsi Meet用サブドメインを入力してください。  
-例のテストサーバーでは「meet.zap-testdomain.de」です。
+インストール中にホスト名の入力を求められます。ここにはJitsi Meetサーバー用に作成したサブドメインを入力してください。  
+例のテストサーバーでは：meet.zap-testdomain.de
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/jHEGSQARQrDKLoz/preview)
 
-「Ok」で確定すると、自己署名TLS証明書を作成するか既存の証明書を使うかの選択画面が出ます。  
-「新しい自己署名証明書を生成する」を選択してください。
+「Ok」で入力を確定すると、自己署名TLS証明書を作成するか既存の証明書を使うかの選択画面が表示されます。  
+「新しい自己署名証明書を生成する」を選択してください：
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/QWmYp3gdXMnBdnC/preview)
 
-これでJitsi Meetのインストールは完了し、あとはTLS証明書を取得するだけです。  
+これでJitsi Meetのインストールは完了です。あとはTLS証明書を取得するだけです。  
 Certbotパッケージをインストールします：
 ```
 $	apt install certbot
@@ -121,13 +119,11 @@ $	/usr/share/jitsi-meet/scripts/install-letsencrypt-cert.sh
 
 実行中にletsencrypt.orgに送信するメールアドレスの入力を求められます。メールアドレスを入力して確定してください。
 
-これでJitsi Meetがサーバーに完全にインストールされ、稼働しているはずです。  
-正しくインストールされたか確認するには、ブラウザのURLバーに設定したサブドメインを入力してアクセスしてみましょう。  
-このチュートリアルの例では以下のURLです：
+これでJitsi Meetはサーバー上に完全にインストールされ、稼働しているはずです。  
+正しくインストールされたか確認するには、ブラウザのURLバーに設定したサブドメインを入力してください。  
+このチュートリアルの例では：
 ```
 https://meet.zap-testdomain.de
 ```
 
 Jitsi Meetの画面が表示されれば、すぐに1回目のビデオ会議を始められます。
-
-<InlineVoucher />

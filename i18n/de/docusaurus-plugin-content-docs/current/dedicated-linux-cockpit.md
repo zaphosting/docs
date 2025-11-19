@@ -16,10 +16,8 @@ Cockpit eignet sich sowohl für Einsteiger als auch für fortgeschrittene Nutzer
 Die Projektseite findest du unter https://cockpit-project.org/. 
 
 :::info
-Diese Anleitung erklärt die Installation für Debian (ab Buster) und Ubuntu (ab Bionic Beaver). Die Installation ist auch auf der Projektseite für Fedora, Red Hat, Fedora CoreOS, CentOS, Clear Linux, Arch Linux und Tumbleweed verfügbar.  
+Diese Anleitung erklärt die Installation für Debian (ab Buster) und Ubuntu (ab Bionic Beaver). Die Installation ist auch auf der Projektseite für Fedora, Red Hat, Fedora CoreOS, CentOS, Clear Linux, Arch Linux und Tumbleweed verfügbar.   
 :::
-
-<InlineVoucher />
 
 ## Installation
 
@@ -37,5 +35,3 @@ Nach der Installation erreichst du das Cockpit-Panel über IP:9090.
 Der Login erfolgt mit den normalen Login-Daten des Servers/Users. 
 
 ![cockpit](https://screensaver01.zap-hosting.com/index.php/s/iobBy6s7gDJ4Zxm/preview)
-
-<InlineVoucher />

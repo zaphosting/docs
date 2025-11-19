@@ -14,21 +14,19 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 Masz serwer dedykowany z Linuxem i chcesz zainstalować na nim serwer dedykowany Conan Exiles? Trafiłeś idealnie. W tym poradniku krok po kroku pokażemy Ci, jak zainstalować tę usługę na Twoim serwerze Linux za pomocą SteamCMD. W przykładach używamy Ubuntu, ale proces powinien być bardzo podobny na innych dystrybucjach.
 
 :::tip
-Wiedziałeś, że możesz zainstalować nasz **ZAP GS/TS3 Interface** bezpośrednio na swoim serwerze dedykowanym? Dzięki temu w kilka klików skonfigurujesz serwery gier z integracją do swojego panelu głównego ZAP-Hosting! Sprawdź więcej o [GS/TS3 Interface](dedicated-linux-gs-interface.md).
+Wiesz, że możesz zainstalować nasz **ZAP GS/TS3 Interface** bezpośrednio na swoim serwerze dedykowanym? Dzięki temu w kilka kliknięć skonfigurujesz serwery gier z bezpośrednią integracją z Twoim panelem głównym ZAP-Hosting! Sprawdź więcej o [GS/TS3 Interface](dedicated-linux-gs-interface.md).
 :::
-
-<InlineVoucher />
 
 ## Przygotowanie
 
-Na początek połącz się ze swoim serwerem dedykowanym przez SSH. Jeśli potrzebujesz pomocy, skorzystaj z naszego [poradnika SSH - pierwszy dostęp](dedicated-linux-ssh.md).
+Na początek połącz się ze swoim serwerem dedykowanym przez SSH. Jeśli potrzebujesz pomocy, skorzystaj z naszego [poradnika SSH - pierwsze połączenie](dedicated-linux-ssh.md).
 
-Musisz też wykonać pierwszą konfigurację SteamCMD, jeśli to Twój pierwszy raz na tym serwerze Linux. Skorzystaj z naszego [poradnika SteamCMD Linux Setup](dedicated-linux-steamcmd.md) i upewnij się, że SteamCMD jest w pełni skonfigurowany, zanim przejdziesz dalej.
+Musisz też wykonać pierwszą konfigurację SteamCMD, jeśli to Twój pierwszy raz z tym narzędziem na Linuxie. Skorzystaj z naszego [poradnika SteamCMD Linux](dedicated-linux-steamcmd.md) i upewnij się, że SteamCMD jest w pełni gotowy, zanim przejdziesz dalej.
 
 :::info Warstwa kompatybilności Wine
 Conan Exiles nie oferuje natywnej wersji serwera na Linuxa, więc potrzebny jest dodatkowy krok, aby uruchomić wersję Windows na Linuxie.
 
-Musisz wykonać jednorazową instalację warstwy kompatybilności **Wine**, jeśli to Twój pierwszy raz na tym serwerze Linux. Skorzystaj z naszego szybkiego [poradnika Wine Compatibility Layer Setup](dedicated-linux-wine.md), aby to skonfigurować przed dalszymi krokami.
+Musisz wykonać jednorazową instalację warstwy kompatybilności **Wine**, jeśli to Twój pierwszy raz z tym na Linuxie. Skorzystaj z naszego szybkiego [poradnika instalacji Wine](dedicated-linux-wine.md), aby to przygotować przed dalszą konfiguracją.
 :::
 
 ## Instalacja
@@ -44,7 +42,7 @@ Będąc zalogowanym, rozpocznij instalację poleceniem, które uruchomi SteamCMD
 steamcmd +@sSteamCmdForcePlatformType windows +force_install_dir '/home/steam/Conan-Server' +login anonymous +app_update 443030 validate +quit
 ```
 
-Poczekaj cierpliwie na pobranie – przy większych grach może to chwilę potrwać. Po zakończeniu zobaczysz komunikat potwierdzający sukces.
+Poczekaj cierpliwie na zakończenie pobierania – gry o większym rozmiarze mogą chwilę zająć. Po udanej instalacji zobaczysz komunikat potwierdzający sukces.
 
 ## Konfiguracja
 
@@ -55,31 +53,29 @@ Wszystkie parametry konfiguracyjne znajdziesz i edytujesz w pliku **WindowsServe
 nano /home/steam/Conan-Server/Engine/Config/Windows/WindowsServerEngine.ini
 ```
 
-Możesz dodać opcje konfiguracyjne, np. nazwę serwera, hasło i hasło admina, dodając do pliku takie wpisy:
+Możesz dodać opcje konfiguracyjne, wpisując odpowiednie parametry. Na przykład, aby ustawić nazwę serwera, hasło i hasło administratora, dodaj do pliku:
 ```
 [OnlineSubsystem]
 ServerName=[twoja_nazwa_serwera]
-ServerPassword=[twoje_hasło]
+ServerPassword=[twoje_haslo]
 
 [ServerSettings]
-AdminPassword=[twoje_hasło_admina]
+AdminPassword=[twoje_haslo_admina]
 ```
 
 Polecamy zajrzeć na [Conan Exiles Wiki](https://conanexiles.fandom.com/wiki/Server_Configuration) po pełną listę dostępnych opcji.
 
 ## Uruchomienie i połączenie z serwerem
 
-Teraz czas odpalić serwer. Przejdź do głównego katalogu gry i uruchom plik wykonywalny **ConanSandboxServer.exe** poleceniem poniżej. Pamiętaj, żeby dodać **xvfb-run** i **wine64**, żeby uruchomić go przez warstwę Wine.
+Teraz czas odpalić serwer. Przejdź do głównego katalogu gry i uruchom plik wykonywalny **ConanSandboxServer.exe** poleceniem poniżej. Pamiętaj, aby dodać **xvfb-run** i **wine64**, by uruchomić serwer przez warstwę kompatybilności Wine.
 ```
 xvfb-run wine64 /home/steam/Conan-Server/ConanSandboxServer.exe
 ```
 
-W terminalu pojawi się masa logów, co oznacza, że serwer się uruchamia. Połączysz się z nim, wyszukując go na liście serwerów lub bezpośrednio przez: `[twój_adres_ip]:7777`.
+W terminalu powinno pojawić się sporo logów, co oznacza, że serwer się uruchamia. Połączysz się z nim, wyszukując go na liście serwerów lub bezpośrednio przez: `[twoj_adres_ip]:7777`.
 
 ## Podsumowanie
 
-Gratulacje, właśnie zainstalowałeś i skonfigurowałeś serwer Conan Exiles na swoim serwerze dedykowanym! Następny krok? Sprawdź nasz [poradnik Setup Linux Service](dedicated-linux-create-gameservice.md), który pokaże Ci, jak uruchomić serwer gier jako usługę. To daje wiele korzyści, jak automatyczne uruchamianie serwera przy starcie, automatyczne aktualizacje, łatwe zarządzanie i dostęp do logów oraz wiele więcej!
+Gratulacje, udało Ci się zainstalować i skonfigurować serwer Conan Exiles na Twoim serwerze dedykowanym! Następny krok? Sprawdź nasz [poradnik konfiguracji usługi Linux](dedicated-linux-create-gameservice.md), który pokaże Ci, jak ustawić serwer gier jako usługę systemową. Dzięki temu serwer będzie się automatycznie uruchamiał przy starcie, aktualizował, a Ty zyskasz łatwy dostęp do zarządzania i logów – i wiele więcej!
 
-Jeśli masz pytania lub problemy, śmiało kontaktuj się z naszym supportem – jesteśmy do Twojej dyspozycji codziennie!
-
-<InlineVoucher />
+Masz pytania lub problemy? Nasz support jest do Twojej dyspozycji codziennie i chętnie pomoże!

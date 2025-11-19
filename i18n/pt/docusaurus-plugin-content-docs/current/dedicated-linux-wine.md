@@ -1,7 +1,7 @@
 ---
 id: dedicated-linux-wine
 title: "Servidor Dedicado: Configuração do Wine no Linux"
-description: "Descubra como configurar o Wine no Linux para rodar servidores de jogos Windows de forma suave no Ubuntu e sistemas similares → Saiba mais agora"
+description: "Descubra como configurar o Wine no Linux para rodar servidores de jogos Windows de forma tranquila no Ubuntu e sistemas similares → Saiba mais agora"
 sidebar_label: Configurar Camada de Compatibilidade Wine
 services:
   - dedicated
@@ -11,9 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introdução
 
-Wine é uma camada de compatibilidade open-source para Linux que permite rodar softwares originalmente desenvolvidos para Windows em sistemas Linux. Isso é especialmente importante para servidores dedicados de jogos que só oferecem arquivos de servidor para Windows e pode ser um requisito para nossos outros guias de servidores dedicados Linux. Neste guia, vamos explorar o processo de configuração inicial para instalar o Wine no seu servidor Linux. Usaremos o Ubuntu nos exemplos, mas o processo deve ser bem parecido para outras distribuições.
-
-<InlineVoucher />
+Wine é uma camada de compatibilidade open-source para Linux que permite rodar softwares originalmente desenvolvidos para Windows em sistemas Linux. Isso é especialmente importante para servidores dedicados de jogos que só oferecem arquivos de servidor para Windows e pode ser um pré-requisito para nossos outros guias de servidores dedicados Linux. Neste guia, vamos explorar o processo de configuração inicial para instalar o Wine no seu servidor Linux. Usaremos o Ubuntu nos exemplos, mas o processo deve ser bem parecido para outras distribuições.
 
 ## Preparação
 
@@ -26,7 +24,7 @@ Comece o processo de instalação garantindo que o diretório `/etc/apt/keyrings
 sudo mkdir -pm755 /etc/apt/keyrings
 ```
 
-Em seguida, baixe e armazene a chave GPG do Wine nesse diretório para verificar que o pacote é autêntico.
+Em seguida, baixe e armazene a chave GPG do Wine nesse diretório, que verifica a autenticidade do pacote.
 ```
 sudo wget -O /etc/apt/keyrings/winehq-archive.key https://dl.winehq.org/wine-builds/winehq.key
 ```
@@ -46,15 +44,13 @@ Agora você pode seguir para o passo principal de baixar a versão mais recente 
 sudo apt install --install-recommends winehq-staging
 ```
 
-Por fim, você precisa instalar alguns pacotes extras para garantir que o Wine funcione bem com servidores dedicados de jogos, rodando o seguinte comando.
+Por fim, você precisa instalar alguns pacotes extras para garantir que o Wine funcione bem com servidores dedicados de jogos, rodando o seguinte comando:
 ```
 sudo apt install cabextract winbind screen xvfb
 ```
 
 ## Conclusão
 
-Você configurou com sucesso a camada de compatibilidade Wine, que vai permitir rodar programas Windows no seu servidor Linux. Com esse requisito importante instalado, agora você pode instalar servidores dedicados de jogos mesmo que sejam feitos para Windows.
+Você configurou com sucesso a camada de compatibilidade Wine, que vai permitir rodar programas Windows no seu servidor Linux. Com esse pré-requisito importante instalado, agora você pode instalar servidores dedicados de jogos mesmo que sejam feitos para Windows.
 
-Recomendamos conferir os outros guias desta seção que cobrem a instalação de jogos específicos usando SteamCMD e possivelmente Wine para arquivos de servidores dedicados baseados em Windows.
-
-<InlineVoucher />
+Recomendamos conferir os outros guias desta seção, que cobrem a instalação de jogos específicos usando SteamCMD e possivelmente Wine para arquivos de servidores dedicados baseados em Windows.

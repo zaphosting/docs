@@ -1,7 +1,7 @@
 ---
 id: dedicated-linux-soulmask
 title: "専用サーバー：Soulmask 専用サーバー Linux セットアップ"
-description: "LinuxでSoulmask専用サーバーをセットアップ＆設定して、スムーズなゲームサーバー運用を実現しよう → 今すぐチェック"
+description: "LinuxでSoulmask専用サーバーをセットアップ・設定して、スムーズなゲームサーバー運用を実現しよう → 今すぐチェック"
 sidebar_label: Soulmask
 services:
   - dedicated
@@ -10,17 +10,15 @@ services:
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## はじめに
-Linux専用サーバーを持っていて、そこにSoulmask専用サーバーサービスをインストールしたい？それならここがピッタリ！このガイドでは、SteamCMDを使ってLinuxサーバーにこのサービスをインストールする手順をステップバイステップで解説するよ。例ではUbuntuを使ってるけど、他のディストリビューションでもほぼ同じ流れだよ。
+Linux専用サーバーを持っていて、そこにSoulmask専用サーバーサービスをインストールしたい？それならここがピッタリ！このガイドでは、SteamCMDを使ってLinuxサーバーにこのサービスをインストールする手順をステップバイステップで解説するよ。例ではUbuntuを使うけど、他のディストリビューションでもほぼ同じ流れだよ。
 
 :::tip
 知ってた？**ZAP GS/TS3インターフェース**を専用サーバーに直接インストールできて、ZAP-Hostingのダッシュボードと直結したゲームサーバーサービスを数クリックでセットアップできちゃうんだ！詳しくは[GS/TS3インターフェース](dedicated-linux-gs-interface.md)をチェックしてね。
 :::
 
-<InlineVoucher />
-
 ## 準備
 
-まずはSSHで専用サーバーに接続しよう。やり方がわからなければ、[SSH初期アクセス](dedicated-linux-ssh.md)ガイドを参考にしてね。
+まずはSSHで専用サーバーに接続しよう。接続方法がわからなければ、[SSH初期アクセス](dedicated-linux-ssh.md)ガイドを参考にしてね。
 
 また、LinuxサーバーでSteamCMDを初めて使う場合は、最初のセットアップが必要だよ。必ず[SteamCMD Linuxセットアップ](dedicated-linux-steamcmd.md)ガイドを見て、SteamCMDが完全にセットアップされていることを確認してから進もう。
 
@@ -41,7 +39,7 @@ steamcmd +force_install_dir '/home/steam/Soulmask-Server' +login anonymous +app_
 
 ## 設定
 
-ここまででSoulmaskサーバーのセットアップは完了！さらに細かい設定は、サーバーディレクトリ内の設定ファイルで行えるよ。
+ここまででSoulmaskサーバーのセットアップは完了だよ。さらに細かい設定はサーバーディレクトリ内の設定ファイルでできるよ。
 
 設定パラメータは、Savedフォルダ内にある**Engine.ini**ファイルを編集すれば調整可能。
 ```
@@ -50,17 +48,15 @@ nano /home/steam/Soulmask-Server/Engine/Saved/Config/LinuxServer/Engine.ini
 
 ## サーバーの起動＆接続
 
-いよいよサーバーを起動しよう。ゲームのメインディレクトリに移動して、**StartServer.sh**実行ファイルを以下のコマンドで実行してね。
+いよいよサーバーを起動しよう。メインのゲームディレクトリに移動して、**StartServer.sh**実行ファイルを以下のコマンドで実行してね。
 ```
 /home/steam/Soulmask-Server/StartServer.sh
 ```
 
-コマンドプロンプトにログが表示されれば起動成功のサイン。初回起動はセットアップに時間がかかることがあるから気長に待ってね。もしくは、サーバーリストの下部検索バーで `[your_ip_address]:18888` を入力して直接接続もできるよ。
+コマンドプロンプトにログが表示されれば起動成功のサインだよ。初回起動はセットアップに時間がかかることがあるから気長に待ってね。もしくは、サーバーリストの下部検索バーで `[your_ip_address]:18888` を入力して直接接続もできるよ。
 
 ## まとめ
 
-おめでとう！専用サーバーにSoulmaskサーバーを無事インストール＆設定できたね！次のステップとしては、[Linuxサービスのセットアップ](dedicated-linux-create-gameservice.md)ガイドを見て、新しい専用ゲームサーバーをサービスとして登録する方法をチェックしよう。これで自動起動や自動アップデート、ログ管理などが超ラクになるよ！
+おめでとう！専用サーバーにSoulmaskサーバーを無事インストール＆設定できたね！次のステップとしては、[Linuxサービスのセットアップ](dedicated-linux-create-gameservice.md)ガイドを見て、専用ゲームサーバーをサービス化する方法をチェックしよう。これで起動時の自動起動や自動アップデート、ログ管理などが超ラクになるよ！
 
-もし何か質問やトラブルがあれば、いつでもサポートチームに連絡してね。毎日みんなのサポートを待ってるよ！
-
-<InlineVoucher />
+もし何か質問やトラブルがあったら、いつでもサポートチームに連絡してね。毎日みんなのサポートを待ってるよ！

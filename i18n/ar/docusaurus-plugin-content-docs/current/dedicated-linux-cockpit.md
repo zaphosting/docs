@@ -16,14 +16,12 @@ Cockpit مناسب للمبتدئين وأيضًا للمستخدمين المت
 يمكن الوصول إلى موقع المشروع على https://cockpit-project.org/. 
 
 :::info
-هذا الدليل يشرح التثبيت على Debian (ابتداءً من Buster) / على Ubuntu (ابتداءً من Bionic Beaver). التثبيت متاح أيضًا على صفحة المشروع لـ Fedora، Red Hat، Fedora CoreOS، CentOS، Clear Linux، Archlinux و Tumbleweed.  
+هذا الدليل يشرح التثبيت على ديبيان (من Buster) / أوبونتو (من Bionic Beaver). التثبيت متاح أيضًا على صفحة المشروع لفيدورا، ريد هات، Fedora CoreOS، سنتوس، Clear Linux، archlinux و Tumbleweed.  
 :::
-
-<InlineVoucher />
 
 ## التثبيت
 
-أولًا، يجب تحديث السيرفر:
+أولاً، يجب تحديث السيرفر:
 ```
 // تحديث
 sudo apt update; sudo apt upgrade -y
@@ -37,5 +35,3 @@ sudo apt install cockpit -y
 يتم تسجيل الدخول باستخدام بيانات الدخول العادية للسيرفر/المستخدم. 
 
 ![cockpit](https://screensaver01.zap-hosting.com/index.php/s/iobBy6s7gDJ4Zxm/preview)
-
-<InlineVoucher />

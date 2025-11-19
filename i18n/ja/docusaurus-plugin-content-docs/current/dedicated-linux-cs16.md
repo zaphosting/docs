@@ -1,6 +1,6 @@
 ---
 id: dedicated-linux-cs16
-title: "専用サーバー：Counter-Strike 1.6 専用サーバー Linux セットアップ"
+title: "専用サーバー: Counter-Strike 1.6 専用サーバー Linux セットアップ"
 description: "Linux VPSにCounter-Strike 1.6専用サーバーをセットアップして、快適なゲームプレイとサーバー管理を実現しよう → 今すぐ詳しく見る"
 sidebar_label: "Counter-Strike 1.6"
 services:
@@ -16,11 +16,9 @@ Linux VPSを持っていて、そこにCounter-Strike 1.6専用サーバーを�
 知ってた？**ZAP GS/TS3インターフェース**をVPSに直接インストールできて、ZAP-Hostingのダッシュボードと直結したゲームサーバーサービスを数クリックでセットアップできちゃうんだ！詳しくは[GS/TS3インターフェース](dedicated-linux-gs-interface.md)をチェックしてね。
 :::
 
-<InlineVoucher />
-
 ## 準備
 
-まずはSSHでVPSに接続しよう。接続方法がわからなければ、[SSH初期アクセス](dedicated-linux-ssh.md)ガイドを参考にしてね。SteamCMDをLinuxサーバーで初めて使う場合は、最初のセットアップも必要だよ。必ず[SteamCMD Linuxセットアップ](dedicated-linux-steamcmd.md)ガイドを見て、SteamCMDが完全にセットアップされていることを確認してから進もう。
+まずはSSHでVPSに接続しよう。接続方法がわからなければ、[SSH初期アクセス](dedicated-linux-ssh.md)ガイドを参考にしてね。SteamCMDを初めて使う場合は、最初のセットアップも必要だから、[SteamCMD Linuxセットアップ](dedicated-linux-steamcmd.md)ガイドを見てSteamCMDが完全にセットアップされていることを確認してから進もう。
 
 ## インストール
 
@@ -41,18 +39,18 @@ steamcmd +force_install_dir '/home/steam/cs2-ds' +login anonymous +app_update 90
 
 ここまででCounter-Strike 1.6サーバーのセットアップは完了。さらに細かい設定をしたい場合は、起動ファイルを直接編集しよう。
 
-ホームディレクトリに戻って、`cfg`フォルダ内の`server.cfg`ファイルを開いてサーバーオプションを編集できるよ。
+ホームディレクトリに移動して、`cfg`フォルダ内の`server.cfg`ファイルを開いてサーバーオプションを編集できるよ。
 ```
 nano /home/steam/cs2-ds/game/csgo/cfg/server.cfg
 ```
 
 ## GSLトークンの登録
 
-他のプレイヤーがサーバーに参加するには、Game Server Login Token（GSLT）を生成してサーバーに設定する必要があるよ。このトークンはSteamにサーバーを認証するためのもの。GSLTは http://steamcommunity.com/dev/managegameservers で作成できるよ。ゲームIDは90（Counter-Strike 1.6）を使ってね。
+他のプレイヤーがサーバーに参加するには、ゲームサーバーログイントークン（GSLT）を生成してサーバーに登録する必要があるよ。このトークンはSteamでサーバーを認証するためのもの。GSLTは http://steamcommunity.com/dev/managegameservers で作成できるよ。ゲームIDは90（Counter-Strike 1.6）を使ってね。
 
-トークンを取得したら、起動パラメータに`+sv_setsteamaccount <TOKEN>`を追加して設定しよう。
+トークンを取得したら、サーバー起動パラメータに `+sv_setsteamaccount <TOKEN>` を追加しよう。
 
-## サーバーの起動＆接続
+## サーバーの起動と接続
 
 いよいよサーバーを起動しよう。ゲームのメインディレクトリに移動して、以下のコマンドを実行してね。
 ```
@@ -63,8 +61,6 @@ nano /home/steam/cs2-ds/game/csgo/cfg/server.cfg
 
 ## まとめ
 
-おめでとう！VPSにCounter-Strike 1.6サーバーを無事インストール＆設定できたね！次のステップとしては、[Linuxサービスのセットアップ](dedicated-linux-create-gameservice.md)ガイドを見て、専用ゲームサーバーをサービスとして登録するのがおすすめ。これで自動起動や自動アップデート、ログ管理などが超ラクになるよ！
+おめでとう！VPSにCounter-Strike 1.6サーバーを無事インストール＆設定できたね！次のステップとしては、[Linuxサービスのセットアップ](dedicated-linux-create-gameservice.md)ガイドを見て、専用ゲームサーバーをサービスとして登録する方法をチェックしよう。これで自動起動や自動アップデート、ログ管理などが超ラクになるよ！
 
-質問やサポートが必要なら、いつでも気軽にサポートチームに連絡してね。毎日対応してるから安心して！🙂
-
-<InlineVoucher />
+質問やサポートが必要なら、いつでも気軽にサポートチームに連絡してね。毎日対応してるから安心して 🙂

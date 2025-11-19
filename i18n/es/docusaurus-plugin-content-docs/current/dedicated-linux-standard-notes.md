@@ -1,7 +1,7 @@
 ---
 id: dedicated-linux-standard-notes
 title: "Servidor Dedicado: Configura Standard Notes en Linux"
-description: "Descubre cómo sincronizar y proteger tus notas de forma segura en todos tus dispositivos con el autoalojamiento de Standard Notes → Aprende más ahora"
+description: "Descubre cómo sincronizar y proteger tus notas de forma segura en todos tus dispositivos con Standard Notes autoalojado → Aprende más ahora"
 sidebar_label: Instalar Standard Notes
 services:
   - dedicated
@@ -13,13 +13,11 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introducción
 
-Standard Notes es una app de notas open-source que protege tus datos con cifrado de extremo a extremo auditado. Solo tú controlas las claves de descifrado. Sincroniza tus notas y archivos cifrados sin problemas en dispositivos ilimitados, los mantiene accesibles offline y protege activamente tu contenido de accesos externos.
+Standard Notes es una app de notas open-source que protege tus datos usando cifrado de extremo a extremo auditado. Solo tú controlas las claves de descifrado. Sincroniza tus notas y archivos cifrados sin problemas en dispositivos ilimitados, los mantiene accesibles offline y protege activamente tu contenido de accesos externos.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/b6ZpyKJGny5qAon/preview)
 
 ¿Pensando en alojar este servicio tú mismo? Te guiaremos paso a paso para configurarlo y ajustarlo, junto con todo lo que debes tener en cuenta.
-
-<InlineVoucher />
 
 
 
@@ -37,7 +35,7 @@ El software requiere que todas las dependencias necesarias estén instaladas y q
 
 **Dependencias:** `Docker (Engine 26+ y Compose)`
 
-**Sistema operativo:** Última versión de Ubuntu/Debian compatible con Docker 26+
+**Sistema Operativo:** Última versión de Ubuntu/Debian compatible con Docker 26+
 
 Verifica que todas las dependencias estén instaladas y que uses la versión correcta del sistema operativo para evitar problemas de compatibilidad durante la instalación de Standard Notes.
 
@@ -49,7 +47,7 @@ Antes de configurar **Standard Notes**, necesitas preparar tu sistema. Esto incl
 
 
 ### Actualizar sistema
-Para asegurarte de que tu sistema corre con las últimas mejoras de software y seguridad, siempre debes hacer primero una actualización del sistema. Para ello, ejecuta el siguiente comando:
+Para asegurarte de que tu sistema corre con el software y parches de seguridad más recientes, siempre debes hacer una actualización primero. Ejecuta el siguiente comando:
 
 ```
 sudo apt update && sudo apt upgrade -y
@@ -57,14 +55,14 @@ sudo apt update && sudo apt upgrade -y
 Esto garantiza que tu sistema tenga los últimos parches de seguridad y versiones de software antes de continuar.
 
 ### Instalar dependencias
-Una vez terminado el proceso de actualización, puedes proceder con la instalación de las dependencias. Standard Notes se desplegará y ejecutará en tu máquina usando varios contenedores Docker. Por eso, primero necesitas instalar Docker. Para hacerlo, ejecuta:
+Una vez completada la actualización, puedes proceder con la instalación de dependencias. Standard Notes se desplegará y ejecutará en tu máquina usando varios contenedores Docker. Por eso, primero debes instalar Docker. Ejecuta:
 
 ```
 curl -fsSL https://get.docker.com -o get-docker.sh
 sh get-docker.sh
 ```
 
-Una guía completa del proceso de instalación y cómo usar Docker está disponible en nuestra [guía Docker](vserver-linux-docker.md).
+Una guía completa del proceso de instalación y uso de Docker está disponible en nuestra [guía Docker](vserver-linux-docker.md).
 
 
 
@@ -81,13 +79,13 @@ mkdir standardnotes
 cd standardnotes
 ```
 
-Luego, crea un archivo `.env` en tu directorio de trabajo y rellénalo con los valores por defecto del archivo de configuración de ejemplo del proyecto:
+Luego, crea un archivo `.env` en tu directorio de trabajo y llénalo con los valores por defecto del archivo de configuración de ejemplo del proyecto:
 ```
 touch .env
 curl https://raw.githubusercontent.com/standardnotes/server/main/.env.sample > .env
 ```
 
-Este archivo contiene solo las variables mínimas necesarias para una configuración funcional. La lista completa de variables en uso actualmente la puedes encontrar aquí: [docker-entrypoint.sh](https://github.com/standardnotes/server/blob/main/docker/docker-entrypoint.sh)
+Este archivo contiene solo las variables mínimas necesarias para una configuración funcional. La lista completa de variables en uso la puedes encontrar aquí: [docker-entrypoint.sh](https://github.com/standardnotes/server/blob/main/docker/docker-entrypoint.sh)
 
 Abre el archivo `.env` y asegúrate de que todas las claves en la sección KEYS estén correctamente configuradas. Genera valores aleatorios para cada variable de entorno requerida con:
 
@@ -95,7 +93,7 @@ Abre el archivo `.env` y asegúrate de que todas las claves en la sección KEYS 
 openssl rand -hex 32
 ```
 
-Pega estos valores en tu archivo `.env`. Standard Notes necesita un script bootstrap para LocalStack. Descárgalo en tu directorio de trabajo y hazlo ejecutable:
+Pega estos valores en tu archivo `.env`. Standard Notes requiere un script bootstrap para LocalStack. Descárgalo en tu directorio de trabajo y hazlo ejecutable:
 
 ```shell
 curl https://raw.githubusercontent.com/standardnotes/server/main/docker/localstack_bootstrap.sh > localstack_bootstrap.sh
@@ -126,7 +124,7 @@ Asegurar la base de datos es otro paso crítico. Las contraseñas por defecto de
 openssl rand -hex 12  
 ```
 
-Agrega el valor generado al archivo `.env` como `DB_PASSWORD`. El mismo valor también debe configurarse para `MYSQL_ROOT_PASSWORD` y `MYSQL_PASSWORD` en el archivo `docker-compose.yml` para mantener sincronizados los contenedores.
+Agrega el valor generado al archivo `.env` como `DB_PASSWORD`. El mismo valor debe configurarse también para `MYSQL_ROOT_PASSWORD` y `MYSQL_PASSWORD` en el archivo `docker-compose.yml` para mantener sincronizados los contenedores.
 
 Estos cambios en la configuración aseguran que tu instalación no solo funcione, sino que también esté segura y adaptada a tu entorno.
 
@@ -136,9 +134,9 @@ Estos cambios en la configuración aseguran que tu instalación no solo funcione
 
 ## Conexión al servidor de sincronización
 
-Para configurar tu cuenta en Standard Notes, haz clic en el icono de avatar en la esquina inferior derecha de la app. En el menú que aparece, selecciona “Crear cuenta” para empezar a crear un nuevo perfil de usuario. Introduce un correo electrónico válido junto con una contraseña segura.
+Para configurar tu cuenta en Standard Notes, haz clic en el ícono de avatar en la esquina inferior derecha de la app. En el menú que aparece, selecciona “Crear cuenta” para empezar a crear un nuevo perfil de usuario. Ingresa un correo electrónico válido junto con una contraseña segura.
 
-Antes de finalizar, abre la sección “Opciones avanzadas”. Bajo “Servidor de sincronización”, selecciona la opción “Personalizado” e ingresa la dirección IP y el puerto de tu propio servidor en el formato IP:Puerto. Esto asegura que tus notas no se sincronicen a través del servicio estándar de Standard Notes, sino con tu servidor autoalojado.
+Antes de finalizar, abre la sección “Opciones avanzadas”. Bajo “Servidor de sincronización”, selecciona la opción “Personalizado” e ingresa la dirección IP y puerto de tu propio servidor en el formato IP:Puerto. Esto asegura que tus notas no se sincronicen a través del servicio estándar de Standard Notes, sino con tu servidor autoalojado.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/tpsFzSQEokP9xit/download)
 
@@ -148,7 +146,7 @@ Antes de finalizar, abre la sección “Opciones avanzadas”. Bajo “Servidor 
 
 ## Conclusión y más recursos
 
-¡Felicidades! Ya has instalado y configurado con éxito Standard Notes en tu servidor dedicado. También te recomendamos echar un vistazo a los siguientes recursos, que pueden ofrecerte ayuda y guía adicional durante la configuración de tu servidor:
+¡Felicidades! Ya instalaste y configuraste Standard Notes en tu servidor dedicado. También te recomendamos echar un vistazo a estos recursos, que pueden darte ayuda y guía adicional durante la configuración de tu servidor:
 
 - [Standardnotes.com](https://standardnotes.com/) - Sitio oficial
 - [Standardnotes.com/help](https://standardnotes.com/help) - Centro de ayuda de Standard Notes (Documentación)

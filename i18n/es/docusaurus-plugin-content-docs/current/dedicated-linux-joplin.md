@@ -17,14 +17,14 @@ Joplin es una aplicación de código abierto para tomar notas y gestionar tareas
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/qfo8k2RXWPFqi3g/preview)
 
-¿Estás pensando en alojar este servicio tú mismo? Te guiaremos paso a paso sobre cómo configurarlo y ajustarlo, junto con todo lo que debes tener en cuenta.
+¿Estás pensando en alojar este servicio por tu cuenta? Te guiaremos paso a paso sobre cómo configurarlo y ajustarlo, junto con todo lo que debes tener en cuenta.
 
 :::danger Se requiere Linux con variante de escritorio
 Esta aplicación solo puede instalarse y usarse en un sistema Linux con interfaz gráfica; en este ejemplo, se usa Ubuntu Desktop 25.04 como referencia.
 
 :::
 
-<InlineVoucher />
+
 
 
 
@@ -54,7 +54,7 @@ Antes de configurar **Joplin**, necesitas preparar tu sistema. Esto incluye actu
 
 
 ### Actualizar sistema
-Para asegurarte de que tu sistema está ejecutando el software y las mejoras de seguridad más recientes, siempre debes realizar primero las actualizaciones del sistema. Para ello, ejecuta el siguiente comando:
+Para asegurarte de que tu sistema está corriendo con el software y mejoras de seguridad más recientes, siempre debes realizar primero las actualizaciones del sistema. Para ello, ejecuta el siguiente comando:
 
 ```
 sudo apt update && sudo apt upgrade -y
@@ -80,7 +80,7 @@ Ahora que se han cumplido todos los requisitos y se han completado las preparaci
 wget -O - https://raw.githubusercontent.com/laurent22/joplin/dev/Joplin_install_and_update.sh | bash
 ```
 
-Joplin se descargará e instalará usando el script oficial de instalación. Simplemente deja que el proceso termine, tras lo cual podrás lanzar la aplicación de inmediato.
+Joplin se descargará e instalará usando el script oficial de instalación. Simplemente deja que el proceso termine, después de lo cual podrás lanzar la aplicación de inmediato.
 
 
 
@@ -107,7 +107,7 @@ El gestor de plugins integrado te permite instalar funciones adicionales, como s
 **Recortador Web**  
 Opcionalmente, activa la extensión de navegador “Joplin Web Clipper” para guardar páginas web completas o selecciones directamente como notas.
 
-Con estos ajustes básicos, Joplin está listo para usarse en múltiples escenarios, como gestión de tareas, documentación de proyectos o bases de conocimiento personales.
+Con estos ajustes básicos, Joplin está listo para usarse en una variedad de escenarios, como gestión de tareas, documentación de proyectos o bases de conocimiento personales.
 
 
 
@@ -118,13 +118,12 @@ Con estos ajustes básicos, Joplin está listo para usarse en múltiples escenar
 
 ## Conclusión y más recursos
 
-¡Felicidades! Ahora has instalado y configurado con éxito Joplin en tu Servidor Dedicado. También te recomendamos echar un vistazo a los siguientes recursos, que pueden ofrecerte ayuda y guía adicional durante el proceso de configuración de tu servidor:
+¡Felicidades! Ahora has instalado y configurado con éxito Joplin en tu Servidor Dedicado. También te recomendamos echar un vistazo a los siguientes recursos, que pueden ofrecerte ayuda y guía adicional durante tu proceso de configuración del servidor:
 
 - [Joplinapp.org](https://joplin.org/) - Sitio Oficial  
 - [Joplinapp.org/help/](https://joplinapp.org/help/) - Centro de Ayuda de Joplin
 
-¿Tienes preguntas específicas que no se cubren aquí? Para más dudas o asistencia, no dudes en contactar a nuestro equipo de soporte, ¡disponible todos los días para ayudarte! 🙂
+¿Tienes preguntas específicas que no se cubren aquí? Para más dudas o asistencia, no dudes en contactar a nuestro equipo de soporte, ¡disponible a diario para ayudarte! 🙂
 
 
 
-<InlineVoucher />

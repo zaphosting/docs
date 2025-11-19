@@ -19,17 +19,17 @@ A estrutura deste guia é baseada no uso do sistema operacional CentOS 8.3. Inst
 
 :::
 
-<InlineVoucher />
+
 
 ## Preparação
 
-Para a instalação e configuração de um sistema operacional, é importante inicialmente montar o ISO correspondente do sistema. Existem várias formas possíveis de fazer isso:
+Para a instalação e configuração de um sistema operacional, é importante inicialmente montar o ISO correspondente do sistema. Existem várias formas possíveis de montar:
 
 1. Montagem via configuração inicial
 2. Montagem via iLO (Mídia Virtual)
 3. Montagem via iLO (Console Remoto)
 
-Se você ainda não está familiarizado com a montagem de um arquivo ISO, o melhor é consultar nosso [Guia de configuração inicial](dedicated-setup.md) ou [Guia de ISO própria](dedicated-iso.md).
+Se você ainda não está familiarizado com a montagem de um arquivo ISO, o melhor é consultar nosso [Guia de Configuração Inicial](dedicated-setup.md) ou [Guia de ISO Próprio](dedicated-iso.md).
 
 
 
@@ -54,11 +54,11 @@ Selecione o SSD onde o CentOS será instalado
 * Rede & Nome do Host  
 Como há um problema de incompatibilidade, a rede ainda não pôde ser configurada, faremos isso no final.
 
-Depois de configurar tudo do jeito que quiser, clique em 'Iniciar Instalação'.
+Depois de configurar tudo do seu jeito, clique em 'Begin Installation'.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/iqF8KzziQix3jyd/preview)
 
-Após a instalação ser concluída, remova o arquivo ISO do seu servidor e clique em 'Reiniciar Sistema'.
+Após a instalação ser concluída, remova o arquivo ISO do seu servidor e clique em 'Reboot System'.
 
 
 
@@ -72,7 +72,7 @@ Agora, vamos configurar o dispositivo de rede, o que exige atualizar alguns arqu
 
 ```http://185.223.30.65/dedicatedisos/centos-network-554flb.iso```
 
-Depois que o arquivo ISO for montado com sucesso, precisamos montá-lo no sistema para ter acesso a ele.
+Depois que o arquivo ISO for montado com sucesso, precisamos montá-lo no sistema para ter acesso.
 
 ```mount /dev/sr0 /mnt```
 
@@ -84,7 +84,7 @@ Em seguida, instale o pacote de atualização.
 
 ```modprobe be2net```
 
-Nesta etapa, vamos rodar a atualização, que pode levar alguns segundos.  
+Nesta etapa, vamos rodar a atualização, isso pode levar alguns segundos.  
 Você pode verificar com `ip a s` se existe um dispositivo de rede chamado `eno1`. Se sim, por favor reinicie o sistema.
 
 Após o reboot, prossiga para configurar o dispositivo de rede.
@@ -104,7 +104,7 @@ Para sair do nano, pressione `CTRL+X` e depois `Y`
 Agora precisamos ativar o dispositivo de rede com `ifup eno1` 
 
 :::info
-Seu servidor dedicado agora deve ter uma conexão de internet funcionando.
+Seu servidor dedicado deve estar com a conexão de internet funcionando agora.
 :::
 
 
@@ -115,4 +115,4 @@ Seu servidor dedicado agora deve ter uma conexão de internet funcionando.
 
 Parabéns, você instalou com sucesso o sistema operacional CentOS no seu servidor dedicado. Para dúvidas ou ajuda, não hesite em contatar nosso time de suporte, disponível todos os dias para te ajudar! 🙂
 
-<InlineVoucher />
+

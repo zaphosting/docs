@@ -13,31 +13,36 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
 
-cURL ist sowohl ein kostenloses Kommandozeilen-Tool als auch eine Software-Bibliothek (libcURL) zum Übertragen von Daten über URLs. Es unterstützt eine breite Palette an Protokollen – darunter HTTP(S), FTP, SMTP, LDAP, MQTT und mehr – und wird häufig für Aufgaben wie das Herunterladen von Dateien, API-Tests und die Automatisierung von Netzwerkoperationen verwendet.
+cURL ist sowohl ein kostenloses Kommandozeilen-Tool als auch eine Software-Bibliothek (libcURL) zum Übertragen von Daten über URLs. Es unterstützt eine Vielzahl von Protokollen – darunter HTTP(S), FTP, SMTP, LDAP, MQTT und mehr – und wird häufig für Aufgaben wie das Herunterladen von Dateien, das Testen von APIs und die Automatisierung von Netzwerkprozessen genutzt.
 
 Du willst diesen Service selbst hosten? Wir führen dich Schritt für Schritt durch die Einrichtung und Konfiguration und zeigen dir alles, was du beachten musst.
 
-<InlineVoucher />
+
 
 ## Vorbereitung
 
 Bevor du **cURL** einrichtest, solltest du dein System vorbereiten. Dazu gehört, dein Betriebssystem auf den neuesten Stand zu bringen. Diese Vorbereitung sorgt für eine stabile Umgebung und hilft, Probleme während oder nach der Installation zu vermeiden.
 
+
 ### System aktualisieren
-Damit dein System mit der aktuellsten Software und den neuesten Sicherheitsupdates läuft, solltest du zuerst ein System-Update durchführen. Gib dazu folgenden Befehl ein:
+Damit dein System mit der aktuellsten Software und den neuesten Sicherheitsupdates läuft, solltest du zuerst ein Update durchführen. Gib dazu folgenden Befehl ein:
 
 ```
 sudo apt update && sudo apt upgrade -y
 ```
-So stellst du sicher, dass dein System vor der Installation die neuesten Sicherheits-Patches und Software-Versionen hat.
+So stellst du sicher, dass dein System vor der Installation die neuesten Sicherheitspatches und Softwareversionen hat.
+
+
 
 ## Installation
 
 Nachdem die Vorbereitung abgeschlossen ist, kannst du mit der Installation von cURL starten. Führe dazu folgenden Befehl aus:
 
 ```console
-sudo apt install curl -y
+sudo apt install curl  -y
 ```
+
+
 
 ## Konfiguration
 
@@ -50,13 +55,13 @@ cURL benötigt keine klassische Konfiguration, kann aber über eine Konfiguratio
 
 Außerdem können Umgebungsvariablen wie `HTTP_PROXY` oder `HTTPS_PROXY` gesetzt werden, um cURL-Anfragen über einen Proxy-Server zu leiten. Das macht cURL bei wiederkehrenden Aufgaben effizienter, da du lange Befehlsoptionen nicht jedes Mal neu eingeben musst.
 
+
+
 ## Fazit und weitere Ressourcen
 
-Glückwunsch! Du hast cURL erfolgreich auf deinem Dedicated Server installiert und konfiguriert. Wir empfehlen dir außerdem, einen Blick auf die folgenden Ressourcen zu werfen, die dir bei der Server-Konfiguration weiterhelfen können:
+Glückwunsch! Du hast cURL erfolgreich auf deinem Dedicated Server installiert und konfiguriert. Wir empfehlen dir außerdem, einen Blick auf die folgenden Ressourcen zu werfen, die dir bei der weiteren Server-Konfiguration helfen können:
 
-- [curl.se](https://curl.se/) – Offizielle Webseite  
-- [curl.se/docs/](https://curl.se/docs/) – cURL-Dokumentation  
+- [curl.se](https://curl.se/) – Offizielle Webseite
+- [curl.se/docs/](https://curl.se/docs/) – cURL-Dokumentation
 
-Du hast spezielle Fragen, die hier nicht beantwortet wurden? Für weitere Fragen oder Support steht dir unser Team täglich zur Verfügung – melde dich gerne bei uns! 🙂
-
-<InlineVoucher />
+Du hast spezielle Fragen, die hier nicht beantwortet wurden? Für weitere Fragen oder Support steht dir unser Team täglich zur Verfügung – melde dich einfach bei uns! 🙂

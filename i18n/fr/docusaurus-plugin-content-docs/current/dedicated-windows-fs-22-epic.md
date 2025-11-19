@@ -10,9 +10,7 @@ services:
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introduction
-La configuration d’un serveur pour la version Epic Games de Farming Simulator 22 diffère un peu du processus pour un serveur classique. Ce guide vous accompagne étape par étape, en mettant l’accent sur les particularités de la version Epic Games.
-
-<InlineVoucher />
+La configuration d’un serveur pour la version Epic Games de Farming Simulator 22 diffère un peu du processus pour un serveur standard. Ce guide vous accompagne étape par étape, en mettant l’accent sur les particularités de la version Epic Games.
 
 ## Préparation
 
@@ -33,7 +31,7 @@ Commencez par vous connecter à votre serveur via Remote Desktop (RDP). Si vous 
 Une fois connecté, vous devez installer un prérequis nécessaire, Microsoft Visual C++ Redistribuable, téléchargeable depuis le [site de Microsoft](https://learn.microsoft.com/en-US/cpp/windows/latest-supported-vc-redist?view=msvc-170). Après téléchargement, suivez les instructions à l’écran pour finaliser l’installation.
 
 :::tip
-Il est possible que vous ayez déjà les outils C++ Redistribuables installés, dans ce cas l’installateur peut renvoyer une erreur. Vous pouvez l’ignorer sans problème et continuer.
+Il est possible que vous ayez déjà les outils C++ Redistribuables installés, dans ce cas l’installateur peut afficher une erreur. Vous pouvez l’ignorer sans problème et continuer.
 :::
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/9kjW9QdoWtwRAbW/preview.png)
@@ -48,15 +46,15 @@ Après l’installation, il est très probable que le launcher doive télécharg
 
 Une fois le launcher ouvert, connectez-vous avec votre compte Epic Games, celui qui possède Farming Simulator 2022 dans sa bibliothèque.
 
-## Étape 2 : Téléchargement de Farming Simulator 2022
+## Étape 2 : Télécharger Farming Simulator 2022
 
-Dans le launcher Epic Games, cliquez sur l’onglet **Bibliothèque** et localisez Farming Simulator 22. Utilisez le bouton **Installer** et choisissez l’emplacement où vous souhaitez télécharger le jeu.
+Dans le launcher Epic Games, cliquez sur l’onglet **Bibliothèque** et localisez Farming Simulator 22. Cliquez sur le bouton **Installer** et choisissez l’emplacement où vous souhaitez télécharger le jeu.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/s9SxMgLtQHtwTPQ/preview)
 
-Vous devrez maintenant attendre la fin du téléchargement et de l’installation. La vitesse dépendra de la bande passante de votre serveur.
+Il faudra maintenant attendre que le téléchargement et l’installation se terminent. La vitesse dépendra de la bande passante de votre serveur.
 
-## Étape 3 : Configuration des options de lancement
+## Étape 3 : Configurer les options de lancement
 
 Une fois le jeu installé, retournez dans l’onglet **Bibliothèque** du launcher Epic Games. Trouvez Farming Simulator 22, cliquez sur les trois points à côté et sélectionnez **Gérer**.
 
@@ -66,25 +64,25 @@ Descendez jusqu’à la section **Options de lancement** et activez-la. Dans la 
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/HLAXkbdpanAFfbS/preview)
 
-## Étape 4 : Lancement du serveur
+## Étape 4 : Lancer le serveur
 
-Vous pouvez maintenant démarrer Farming Simulator 2022 depuis votre launcher Epic Games ou le raccourci sur le bureau. Le jeu devrait se lancer via une invite de commande (CMD) en mode serveur dédié. Si ce n’est pas le cas, vérifiez que vous avez bien configuré l’option de lancement.
+Vous pouvez maintenant démarrer Farming Simulator 2022 depuis votre launcher Epic Games ou le raccourci sur le bureau. Le jeu devrait se lancer via une fenêtre de commande (CMD) en mode serveur dédié. Si ce n’est pas le cas, vérifiez que vous avez bien configuré l’option de lancement.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/Bf5LX72LWNwSFib/preview)
 
-## Étape 5 : Activation de l’interface web (optionnel)
+## Étape 5 : Activer l’interface web (optionnel)
 
 Les serveurs dédiés Farming Simulator 22 disposent d’une interface web que vous pouvez activer pour votre serveur. C’est optionnel, mais ça peut être super utile pour ajuster les réglages et accéder à plein d’infos, donc on recommande de l’activer.
 
-Avant de continuer, assurez-vous de fermer le serveur en quittant l’invite de commande. Cela évite que les modifications que vous allez faire soient écrasées.
+Avant de continuer, assurez-vous de fermer le serveur en quittant la fenêtre de commande. Cela évite que les modifications que vous allez faire soient écrasées.
 
-Allez dans le chemin d’installation du jeu, généralement `C:\Program Files\Epic Games\FarmingSimulator22` si vous avez installé dans le dossier par défaut.
+Allez dans le dossier d’installation du jeu, généralement `C:\Program Files\Epic Games\FarmingSimulator22` si vous avez installé dans le répertoire par défaut.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/yoqHoDAFZFkP2Ps/preview)
 
 Trouvez et ouvrez le fichier `dedicatedServer.xml` à la racine avec un éditeur de texte comme Notepad.
 
-Modifiez les champs pour définir le nom d’utilisateur et le mot de passe admin : 
+Modifiez les champs pour définir le nom d’utilisateur et le mot de passe admin :
 ```xml
   <initial_admin>
     <username>admin</username> //nom d’utilisateur
@@ -98,16 +96,16 @@ N’oubliez pas de sauvegarder avant de fermer, puis lancez `dedicatedServer.exe
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/KjNeS5E8BLEgnnH/preview)
 
-Vous devriez maintenant pouvoir accéder à l’interface web en allant sur `http://[votre_ip_serveur]:8080` dans votre navigateur, en remplaçant `[votre_ip_serveur]` par l’adresse IP de votre serveur. Si vous êtes directement sur le serveur, vous pouvez aussi utiliser `http://127.0.0.1:8080`.
+Vous devriez maintenant pouvoir accéder à l’interface web en allant sur `http://[votre_ip_serveur]:8080` dans votre navigateur, en remplaçant `[votre_ip_serveur]` par l’adresse IP de votre serveur. Si vous voulez accéder au panneau directement depuis le serveur, vous pouvez aussi utiliser `http://127.0.0.1:8080`.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/n96fcAxyxBnfjyL/preview)
 
 :::info
-À cause de la configuration spécifique de la version Epic Games, vous pouvez rencontrer des limitations avec l’interface web. Par exemple, vous pouvez faire des modifications et arrêter le serveur via l’interface, mais vous ne pouvez pas lancer le serveur depuis celle-ci.
+À cause de la configuration spécifique de la version Epic Games, vous pouvez rencontrer des limitations avec l’interface web. Par exemple, vous pouvez faire des modifications et arrêter le serveur via l’interface, mais pas le démarrer depuis celle-ci.
 
 Si vous avez des soucis, arrêtez d’abord dedicatedServer.exe, lancez Farming Simulator 22 directement pour vérifier que le serveur fonctionne, puis relancez dedicatedServer.exe pour activer l’interface web.
 
-Il est important de lancer le serveur **d’abord** puis l’interface web **ensuite**, sinon Epic Games peut détecter les deux comme le même fichier et empêcher le lancement du serveur principal.
+Il est important de lancer le serveur **d’abord** puis l’interface web **ensuite**, sinon Epic Games risque de détecter les deux comme le même fichier et vous empêcher de lancer le serveur principal.
 :::
 
 ## Étape 6 : Redirection de ports
@@ -120,7 +118,7 @@ import TabItem from '@theme/TabItem';
 <Tabs>
 <TabItem value="powershell" label="Via Powershell" default>
 
-Ouvrez la recherche Windows et tapez **PowerShell**. Faites un clic droit et choisissez **Exécuter en tant qu’administrateur** pour avoir les droits nécessaires.
+Ouvrez la barre de recherche Windows et tapez **PowerShell**. Faites un clic droit et choisissez **Exécuter en tant qu’administrateur** pour avoir les permissions nécessaires.
 
 :::info
 Assurez-vous d’exécuter PowerShell en mode administrateur, sinon les réglages risquent de ne pas s’appliquer correctement.
@@ -140,7 +138,7 @@ Ces commandes créent automatiquement les règles nécessaires dans le pare-feu 
 
 <TabItem value="windefender" label="Via Windows Defender">
 
-Utilisez la recherche Windows pour ouvrir **Paramètres du Pare-feu Windows avec sécurité avancée**. Vous devrez peut-être cliquer sur **Paramètres avancés** pour accéder à la fenêtre complète si vous ouvrez la page de base du pare-feu.
+Utilisez la recherche Windows pour ouvrir **Paramètres du Pare-feu Windows avec sécurité avancée**. Vous devrez peut-être cliquer sur **Paramètres avancés** pour accéder à la fenêtre complète si vous êtes dans la page de base du pare-feu.
 
 ![](https://github.com/zaphosting/docs/assets/42719082/5fb9f943-7e51-4d8f-9df4-2f5ff60857d3)
 
@@ -158,6 +156,4 @@ Lancez le jeu et allez dans le menu multijoueur. Cherchez le nom du serveur, vis
 
 Une fois trouvé, cliquez dessus pour vous connecter. Si un mot de passe est demandé, entrez-le, il est aussi visible dans l’interface web.
 
-Vous avez installé avec succès Farming Simulator 22 (version Epic Games) sur votre serveur dédié Windows.
-
-<InlineVoucher />
+Vous avez maintenant installé avec succès Farming Simulator 22 (version Epic Games) sur votre serveur dédié Windows.

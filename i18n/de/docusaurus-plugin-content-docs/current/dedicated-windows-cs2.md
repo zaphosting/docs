@@ -13,13 +13,13 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 ## Einführung
 Du hast einen VPS oder Dedicated Server und willst darauf Gameserver installieren? Zum Beispiel einen Counter-Strike 2 Dedicated Server? Dann bist du hier genau richtig! Im Folgenden erklären wir dir Schritt für Schritt, wie du so einen Service auf deinem Server installierst.
 
-<InlineVoucher />
+
 
 ## Vorbereitung
 
-Für die Einrichtung eines Counter-Strike 2 Servers wird SteamCMD benötigt. SteamCMD ist die **Kommandozeilen-Version des Steam-Clients**. Mit diesem Tool kannst du schnell und einfach die Dedicated Server-Anwendungen beliebter Steam-Spiele herunterladen. SteamCMD findest du auf der offiziellen Valve Entwicklerseite: https://developer.valvesoftware.com/wiki/SteamCMD.
+Für die Einrichtung eines Counter-Strike 2 Servers wird SteamCMD benötigt. SteamCMD ist die **Kommandozeilen-Version des Steam-Clients**. Mit diesem Tool kannst du schnell und einfach die Dedicated Server Anwendungen beliebter Steam-Games herunterladen. SteamCMD findest du auf der offiziellen Valve Entwicklerseite: https://developer.valvesoftware.com/wiki/SteamCMD. 
 
-Danach erfolgt der Download. Dabei erhältst du die **steamcmd.zip** Datei, die du zuerst entpacken musst. Es empfiehlt sich, einen eigenen Ordner dafür anzulegen, in den du die Datei entpackst. Am Ende solltest du die **steamcmd.exe** sehen. Starte diese und warte, bis der Installationsprozess abgeschlossen ist.
+Anschließend erfolgt der Download. Dieser enthält die **steamcmd.zip** Datei, die zuerst entpackt werden muss. Es empfiehlt sich, einen eigenen Ordner anzulegen, in den die Datei entpackt wird. Du solltest anschließend die **steamcmd.exe** sehen. Starte diese und warte, bis der Installationsprozess abgeschlossen ist.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/7Hib2ZgaYWTsRNE/preview)
 
@@ -29,13 +29,13 @@ Sobald die Meldung **Loading Steam API.... OK** erscheint, ist der Prozess erfol
 
 ## Installation
 
-Nach der Installation solltest du Befehle in der **Steam-Kommandozeile (steamcmd.exe)** ausführen können. Dort musst du dich einloggen. Das funktioniert mit dem Benutzer **anonymous**. Führe folgenden Befehl aus: `login anonymous`
+Nach der Installation solltest du Befehle in der **Steam-Kommandozeile (steamcmd.exe)** ausführen können. Dort musst du dich einloggen. Das erfolgt mit dem Benutzer **anonymous**. Führe folgenden Befehl aus: `login anonymous`
 
 Der nächste Schritt ist die Installation. Diese erfolgt mit dem Befehl `app_update 730`. Die App ID **730** steht für die **Counter-Strike 2 Dedicated Server** Anwendung.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/cgMfJdL5DNNxjrf/preview)
 
-Bitte hab Geduld, bis der Download abgeschlossen ist, das kann bei größeren Spielen etwas dauern. Sobald es erfolgreich war, erscheint eine Bestätigungsmeldung.
+Bitte hab Geduld, bis der Download abgeschlossen ist, da es bei größeren Spielen etwas dauern kann. Sobald erfolgreich, erscheint eine Bestätigungsmeldung.
 
 Damit der Server von außen sichtbar und erreichbar ist, müssen die genutzten Server-Ports in der Firewall freigegeben/weitergeleitet werden. Öffne dazu die Windows Firewall Einstellungen.
 
@@ -47,7 +47,7 @@ In den Einstellungen müssen zusätzliche Regeln hinzugefügt werden. Klicke daz
 
 ## Konfiguration
 
-Bis hierhin hast du die Grundinstallation deines Counter-Strike 2 Servers abgeschlossen. Weitere Servereinstellungen kannst du vornehmen, indem du die Startdatei direkt bearbeitest. Navigiere in dein Root-Verzeichnis. Dort findest du den Ordner cfg, in dem du die Datei `server.cfg` öffnest. Hier kannst du Serveroptionen anpassen.
+Bis hierhin hast du die Grundinstallation deines Counter-Strike 2 Servers abgeschlossen. Weitere Server-Konfigurationen kannst du direkt über die Bearbeitung der Startdatei vornehmen. Navigiere in dein Root-Verzeichnis. Dort findest du den Ordner cfg, in dem du die Datei `server.cfg` öffnen kannst. Dort kannst du Server-Optionen anpassen.
 
 ```
 ../steamapps/common/cs2-ds/game/csgo/cfg/server.cfg
@@ -57,7 +57,7 @@ Bis hierhin hast du die Grundinstallation deines Counter-Strike 2 Servers abgesc
 
 Damit andere Spieler deinem Server beitreten können, musst du einen Game Server Login Token (GSLT) generieren und einbinden. Dieser Token authentifiziert deinen Server bei Steam. Um einen GSLT zu erstellen, besuche http://steamcommunity.com/dev/managegameservers und generiere einen Token mit der Game ID 730, die für Counter-Strike 2 steht.
 
-Den Token fügst du dann in deine Server-Startparameter mit `+sv_setsteamaccount <TOKEN>` ein.
+Hast du den Token, füge ihn in deine Server-Startparameter mit `+sv_setsteamaccount <TOKEN>` ein. 
 
 
 
@@ -74,6 +74,4 @@ Im Kommandozeilenfenster solltest du nun Logs sehen, die signalisieren, dass der
 
 ## Fazit
 
-Glückwunsch, du hast deinen Counter-Strike 2 Server erfolgreich auf deinem VPS eingerichtet und konfiguriert! Bei weiteren Fragen oder Problemen steht dir unser Support-Team täglich zur Seite! 🙂
-
-<InlineVoucher />
+Glückwunsch, du hast deinen Counter-Strike 2 Server erfolgreich auf deinem VPS eingerichtet und konfiguriert! Bei weiteren Fragen oder Problemen steht dir unser Support-Team täglich zur Seite – zögere nicht, uns zu kontaktieren! 🙂

@@ -1,7 +1,7 @@
 ---
 id: dedicated-windows-manage-users
 title: "Servidor Dedicado: Gestiona Usuarios en Windows Server"
-description: "Descubre cómo gestionar múltiples usuarios en Windows Server para un acceso remoto seguro y simultáneo con entornos personalizados → Aprende más ahora"
+description: "Descubre cómo gestionar múltiples usuarios en Windows server para un acceso remoto seguro y simultáneo con entornos personalizados → Aprende más ahora"
 sidebar_label: Añadir y Gestionar Usuarios
 services:
   - dedicated
@@ -11,13 +11,11 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introducción
 
-El sistema operativo Windows incluye una gestión de usuarios integrada que te permite manejar usuarios adicionales fácilmente. Algunos beneficios de usar usuarios individuales incluyen acceso simultáneo (hasta 2) por escritorio remoto con credenciales propias, escritorios y archivos individuales, además de un sistema de permisos sencillo. En esta guía, cubriremos el proceso para gestionar usuarios en tu servidor Windows.
-
-<InlineVoucher />
+El sistema operativo Windows ofrece una gestión de usuarios integrada que te permite manejar usuarios adicionales fácilmente. Algunas ventajas de usar usuarios individuales incluyen acceso simultáneo (hasta 2) por escritorio remoto con credenciales propias, escritorios y archivos individuales, así como un sistema de permisos sencillo. En esta guía, cubriremos el proceso para gestionar usuarios en tu servidor Windows.
 
 ## Preparación
 
-Comienza conectándote a tu servidor Windows vía RDP. Si necesitas ayuda con esto, consulta nuestra [Guía de Acceso Inicial (RDP)](dedicated-windows-userdp.md).
+Comienza conectándote a tu servidor Windows vía RDP. Si necesitas ayuda para hacerlo, consulta nuestra [Guía de Acceso Inicial (RDP)](dedicated-windows-userdp.md).
 
 :::important Privilegios Administrativos
 Asegúrate de usar el usuario **Administrador** o cualquier usuario con privilegios administrativos para iniciar sesión en tu servidor Windows, de lo contrario no podrás gestionar usuarios.
@@ -25,7 +23,7 @@ Asegúrate de usar el usuario **Administrador** o cualquier usuario con privileg
 
 Cada usuario que crees en tu servidor Windows podrá usar sus propias credenciales para conectarse al servidor mediante Escritorio Remoto. De igual forma, cada usuario tendrá su propio escritorio, archivos y programas independientes de los demás, y solo podrán ser vistos por usuarios con privilegios administrativos. Los programas instalados para todos los usuarios estarán accesibles globalmente.
 
-Con la licencia estándar de Windows Server, **2** cuentas pueden iniciar sesión y usar el servidor simultáneamente. Si se supera este límite y otro usuario se conecta, el usuario que se conectó primero será desconectado para dar paso al nuevo usuario. Por lo demás, no hay límite en la cantidad de cuentas de usuario que puedes crear.
+Con la licencia estándar de Windows Server, **2** cuentas pueden iniciar sesión y usar el servidor simultáneamente. Si se supera este límite y otro usuario se conecta, el usuario que se conectó primero será desconectado en favor del nuevo usuario. Por lo demás, no hay límite en la cantidad de cuentas de usuario que se pueden crear.
 
 ## Accediendo a la Gestión de Usuarios
 
@@ -33,15 +31,15 @@ La gestión de cuentas de usuario se realiza a través de la configuración en e
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/zePaY2rcCwTgaCo/preview)
 
-Una vez más, selecciona la opción **Cuentas de usuario** en el menú para acceder a un área de resumen.
+Una vez más, selecciona la opción **Cuentas de usuario** en el menú para acceder a una vista general.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/rafwZP8rDnycjpa/preview)
 
-En la página de resumen, selecciona la opción **Administrar otra cuenta** para acceder a la sección **Administrar cuentas**, que se usa principalmente para gestionar usuarios.
+En la página de vista general, selecciona la opción **Administrar otra cuenta** para acceder a la sección **Administrar cuentas**, usada principalmente para gestionar usuarios.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/iyQ9ZXoFLdMTNSZ/preview)
 
-Ahora estás listo para gestionar los usuarios en tu servidor Windows. Continúa con una de las siguientes secciones según la acción que quieras realizar.
+Ya estás listo para gestionar los usuarios en tu servidor Windows, continúa con una de las siguientes secciones según la acción que quieras realizar.
 
 ## Crear Nuevo Usuario
 
@@ -49,7 +47,7 @@ Para comenzar el proceso de creación de usuario, selecciona la opción **Agrega
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/x4EpREF5FJoLycw/preview)
 
-Esto abrirá un cuadro de diálogo en pantalla donde deberás completar algunos datos para la cuenta, incluyendo el nombre de usuario, contraseña y una pista para la contraseña. Asegúrate de que tu contraseña sea fuerte para evitar errores de validación.
+Esto abrirá un cuadro de diálogo en pantalla donde deberás completar algunos datos para la cuenta, incluyendo nombre de usuario, contraseña y una pista para la contraseña. Asegúrate de que tu contraseña sea fuerte, de lo contrario podrías recibir un error de validación.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/dAyCkyAA2BLwNNe/preview)
 
@@ -57,7 +55,7 @@ Cuando estés listo, simplemente selecciona el botón siguiente y tu nuevo usuar
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/zEZGXQH9ErcCbgD/preview)
 
-Por último, tendrás que añadir el nuevo usuario a la lista de conexiones de escritorio remoto para asegurarte de que el servidor acepte conexiones RDP desde él. Ve al **Panel de Control** y accede a **Sistema y Seguridad**.
+Por último, deberás añadir el nuevo usuario a la lista de conexiones de escritorio remoto para asegurarte de que el servidor acepte conexiones RDP desde él. Ve al **Panel de Control** y accede a **Sistema y seguridad**.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/NtNg7sRRgDdnffr/preview)
 
@@ -65,7 +63,7 @@ Desde aquí, localiza **Permitir acceso remoto** y selecciónalo para abrir un n
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/diBL57HtffpNAGX/preview)
 
-En el menú, pulsa **Seleccionar usuarios...** en la parte inferior para mostrar un nuevo menú con los usuarios actuales que tienen acceso por escritorio remoto.
+En el menú, presiona **Seleccionar usuarios...** en la parte inferior, lo que mostrará un nuevo menú con los usuarios actuales con acceso por escritorio remoto.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/TP7LW2pWboFKixy/preview)
 
@@ -75,7 +73,7 @@ En el menú mostrado, selecciona **Agregar...** para abrir un selector de usuari
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/SNd89fxNXKbfBBt/preview)
 
-Esto ampliará la ventana para facilitar la búsqueda del usuario. Usa el botón **Buscar ahora** para obtener una lista de usuarios y encuentra tu nuevo usuario, en este ejemplo es `ZAP-Docs`.
+Esto expandirá la ventana para facilitar la búsqueda del usuario. Usa el botón **Buscar ahora** para obtener una lista de usuarios y encuentra tu nuevo usuario, en este ejemplo es `ZAP-Docs`.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/spQL9fTNd778bry/preview)
 
@@ -85,16 +83,14 @@ Has creado exitosamente un nuevo usuario en tu servidor Windows con acceso a esc
 
 ## Gestionar Usuarios
 
-Puedes gestionar fácilmente todos los usuarios desde la sección **Administrar cuentas**. Simplemente selecciona el usuario que quieras administrar.
+Puedes gestionar fácilmente todos los usuarios a través de la sección **Administrar cuentas**. Simplemente selecciona el usuario que deseas gestionar.
 
 :::important Privilegios Administrativos
-Para gestionar usuarios, debes usar la cuenta principal **Administrador** o un usuario con tipo de cuenta administrador que tenga todos los privilegios necesarios para ello.
+Para gestionar usuarios, debes usar la cuenta principal **Administrador** o un usuario con tipo de cuenta administrador que tenga todos los privilegios necesarios para permitir esto.
 :::
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/yJPTWKieZNZXifH/preview)
 
-En esta página podrás usar varias funciones para gestionar al usuario, incluyendo cambiar el nombre de usuario, contraseña, tipo de cuenta y también eliminar al usuario.
+Ahora en la página, podrás usar varias funciones para gestionar el usuario, incluyendo cambiar el nombre de usuario, contraseña, tipo de cuenta, así como eliminar el usuario.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/tkPtbrmfsnK3TcG/preview)
-
-<InlineVoucher />

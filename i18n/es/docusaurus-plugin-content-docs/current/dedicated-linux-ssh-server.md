@@ -13,11 +13,11 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Secure Shell (SSH) es un protocolo seguro que permite un acceso cifrado y protegido a sistemas remotos. Garantiza la confidencialidad e integridad de los datos transmitidos a través de redes.
 
-En esta guía, entenderás cómo instalar o reinstalar el servidor SSH para varias distribuciones de Linux que ofrecemos actualmente en nuestros servidores VPS. La mayoría de las distros Linux que ofrecemos en nuestros VPS ya vienen con un servidor SSH por defecto, lo que significa que puedes gestionarlo fácilmente desde el panel web del producto. Puedes ver cómo hacerlo en nuestra guía: [Acceso inicial (SSH)](vserver-linux-ssh.md)
+En esta guía, entenderás cómo instalar o reinstalar el servidor SSH para varias distribuciones de Linux que ofrecemos actualmente en nuestros servidores VPS. La mayoría de las distros Linux que ofrecemos en nuestros VPS ya vienen con un servidor SSH instalado por defecto, lo que significa que puedes gestionarlo fácilmente a través de la interfaz web del producto. Puedes ver cómo hacerlo en nuestra guía: [Acceso inicial (SSH)](vserver-linux-ssh.md)
 
-Si quieres aprender más sobre cómo mejorar la seguridad de tu servidor, te recomendamos echar un vistazo a nuestra guía de [Consejos de Seguridad](vserver-linux-security-tips.md), que presenta varias herramientas y servicios para proteger aún más tu servidor.
+Si quieres mejorar la seguridad de tu servidor, te recomendamos echar un vistazo a nuestra guía de [Consejos de Seguridad](vserver-linux-security-tips.md), que presenta varias herramientas y servicios para proteger aún más tu servidor.
 
-<InlineVoucher />
+
 
 ## Instalación
 
@@ -59,7 +59,7 @@ systemctl enable sshd
 Para habilitar el login root, necesitas editar el archivo de configuración de openssh. En esta guía usaremos "nano" como editor.
 
 :::info
-Si "nano" no está instalado, primero debes instalarlo con el comando: `yum install nano`
+Si "nano" no está instalado, primero debes instalarlo. Para ello, usa el comando: `yum install nano`
 :::
 
 Abre el archivo de configuración ejecutando:
@@ -114,7 +114,7 @@ systemctl enable sshd
 Para habilitar el login root, necesitas editar el archivo de configuración de openssh. En esta guía usaremos "nano" como editor.
 
 :::info
-Si no tienes "nano" instalado, primero debes instalarlo con el comando: `apt install nano`
+Si no tienes "nano" instalado, primero debes instalarlo. Para ello, usa el comando: `apt install nano`
 :::
 
 Abre el archivo de configuración ejecutando:
@@ -169,7 +169,7 @@ systemctl enable sshd
 Para habilitar el login root, necesitas editar el archivo de configuración de openssh. En esta guía usaremos "nano" como editor.
 
 :::info
-Si no tienes "nano" instalado, primero debes instalarlo con el comando: `apt install nano`
+Si no tienes "nano" instalado, primero debes instalarlo. Para ello, usa el comando: `apt install nano`
 :::
 
 Abre el archivo de configuración ejecutando:
@@ -224,7 +224,7 @@ systemctl enable sshd
 Para habilitar el login root, necesitas editar el archivo de configuración de openssh. En esta guía usaremos "nano" como editor.
 
 :::info
-Si no tienes "nano" instalado, primero debes instalarlo con el comando: `dnf install nano`
+Si no tienes "nano" instalado, primero debes instalarlo. Para ello, usa el comando: `dnf install nano`
 :::
 
 Abre el archivo de configuración ejecutando:
@@ -250,6 +250,3 @@ systemctl restart sshd
 </Tabs>
 
 Ya has instalado con éxito el servicio SSH en tu servidor y ahora puedes acceder a tu servidor vía SSH.
-
-
-<InlineVoucher />

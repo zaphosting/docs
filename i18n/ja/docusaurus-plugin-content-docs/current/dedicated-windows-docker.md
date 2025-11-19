@@ -1,7 +1,7 @@
 ---
 id: dedicated-windows-docker
 title: "専用サーバー：WindowsでDockerをセットアップ"
-description: "Dockerコンテナでアプリを安定的にデプロイ＆管理し、効率的にスケール＆アップデート → 今すぐチェック"
+description: "Dockerコンテナでアプリを安定的にデプロイ＆管理し、効率的にスケールやアップデートを実現 → 今すぐチェック"
 sidebar_label: Dockerのインストール
 services:
   - 専用サーバー
@@ -15,11 +15,9 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Dockerは、アプリケーションをコンテナ内で開発・配布・実行するためのオープンプラットフォームです。コンテナはアプリとその依存関係をまとめて標準化された単位にパッケージ化し、異なる環境でも安定して動作させることができます。
 
-この方法により、開発環境・テスト環境・本番環境の違いによる問題を解消。Dockerを使えば、アプリのデプロイが高速化され、効率的にスケールし、ダウンタイムなしでアップデートが可能です。
+この方法により、開発環境・テスト環境・本番環境の違いによる問題を解消。Dockerを使えば、アプリのデプロイが高速化され、効率的にスケールし、ダウンタイムなしでアップデートも可能です。
 
-自分でこのサービスをホスティングしたい？セットアップから設定まで、必要なポイントを全部わかりやすく解説します。
-
-<InlineVoucher />
+自分でこのサービスをホスティングしたい？セットアップから設定まで、必要なポイントを全部わかりやすく解説します！
 
 
 
@@ -37,7 +35,7 @@ Dockerは、アプリケーションをコンテナ内で開発・配布・実�
 
 ## インストール
 
-Windows ServerにDockerをセットアップするには、PowerShellスクリプト `install-docker-ce.ps1` をダウンロードして実行します。これにより、コンテナに必要なOS機能が有効化され、Dockerランタイムがインストールされます。管理者権限でPowerShellを開き、以下のコマンドを実行してください：
+WindowsサーバーにDockerをセットアップするには、PowerShellスクリプト `install-docker-ce.ps1` をダウンロードして実行します。これにより、コンテナに必要なOS機能が有効化され、Dockerランタイムがインストールされます。管理者権限でPowerShellを開き、以下のコマンドを実行してください：
 
 ```powershell
 Invoke-WebRequest -UseBasicParsing "https://raw.githubusercontent.com/microsoft/Windows-Containers/Main/helpful_tools/Install-DockerCE/install-docker-ce.ps1" -o install-docker-ce.ps1
@@ -68,7 +66,7 @@ Script complete!
 
 ### Dockerサービスの起動・停止
 
-DockerはWindows上でサービスとして動作します。インストール後は自動的に起動しますが、手動で操作する場合は以下のコマンドを使います：
+DockerはWindows上でサービスとして動作します。インストール後は自動で起動しますが、手動で操作する場合は以下のコマンドを使います：
 
 ```
 Start-Service docker    # Dockerサービスを起動
@@ -101,10 +99,10 @@ docker logs web      # コンテナのログ
 
 
 
-#### リソースとステータス
+#### リソースとステータス確認
 
 ```
-docker stats            # CPU/RAM/IOのリアルタイム情報
+docker stats            # CPU/RAM/IOのリアルタイム監視
 ```
 
 
@@ -112,9 +110,9 @@ docker stats            # CPU/RAM/IOのリアルタイム情報
 
 ## まとめ＆参考リソース
 
-おめでとう！これで専用サーバーにDockerを無事インストール＆設定できました。さらにサーバー設定を深めたいなら、以下のリソースもチェックしてみてください。
+おめでとう！これで専用サーバーにDockerを無事インストール＆設定できました。さらにサーバー設定を深めたいなら、以下のリソースもチェックしてみてください：
 
 - [Docker.com](https://Docker.com/) - 公式サイト
 - [docs.docker.com](https://docs.docker.com/) - Docker公式ドキュメント
 
-ここにない質問やサポートが必要な場合は、いつでも気軽にサポートチームにお問い合わせくださいね！毎日対応してますよ 🙂
+ここにない質問や困ったことがあれば、いつでもサポートチームに連絡してくださいね。毎日対応してるので安心してどうぞ！🙂

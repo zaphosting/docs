@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introdução
 
-A seguir, vamos te mostrar passo a passo como instalar e configurar o sistema operacional Ubuntu no seu servidor dedicado. Siga essas instruções com atenção para garantir que você configure o sistema operacional com sucesso e o utilize da melhor forma possível.
+A seguir, vamos te mostrar passo a passo como instalar e configurar o sistema operacional Ubuntu no seu servidor dedicado. Siga essas instruções com atenção para garantir que o sistema operacional seja configurado com sucesso e utilizado da melhor forma possível.
 
 
 
@@ -29,7 +29,7 @@ Mais informações podem ser encontradas no [site oficial](https://ubuntu.com/ab
 :::
 
 
-<InlineVoucher />
+
 
 ## Preparação
 
@@ -45,15 +45,15 @@ Se você ainda não está familiarizado com a montagem de um arquivo ISO, o melh
 
 ## Instalação
 
-Depois que o ISO for montado e carregado com sucesso, o servidor deve entrar no processo de configuração. O idioma que você quer usar para seu sistema operacional será definido no início da instalação. Selecione um dos idiomas disponíveis e confirme a seleção com a tecla `Enter`. 
+Depois que o ISO for montado e carregado com sucesso, o servidor deve entrar no processo de configuração. O idioma que você quer usar para seu SO será definido no início da instalação. Selecione um dos idiomas disponíveis e confirme a seleção com a tecla `Enter`. 
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/yrHMNzstM23XZH6/preview)
 
-Em seguida, o layout do teclado apropriado deve ser selecionado e configurado para o idioma. Escolha o layout de teclado que for mais adequado para você aqui também. 
+Em seguida, o layout do teclado apropriado deve ser selecionado e configurado para o idioma. Escolha o layout de teclado que for mais adequado para você. 
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/x9kYGEWS5fy7Wjp/preview)
 
-Depois disso, ocorre a configuração da rede. O servidor é configurado via DHCP por padrão. O adaptador de rede padrão é o `eno1`. Confirme as configurações padrão e continue. 
+Depois disso, ocorre a configuração da rede. O servidor é configurado via DHCP por padrão. O adaptador de rede padrão é `eno1`. Confirme as configurações padrão e continue. 
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/6mr5kAKJQ39iJt5/preview)
 
@@ -61,11 +61,11 @@ Um proxy adicional pode ser configurado como opção. Porém, isso não é essen
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/tz97Ee8ZQkxAGGb/preview)
 
-Agora o Espelho do Arquivo Ubuntu (servidor de download para pacotes) é definido. Nossos servidores dedicados estão localizados na Alemanha, então é recomendado escolher o espelho alemão para garantir a melhor velocidade de download possível.
+Agora o Espelho do Arquivo do Ubuntu (servidor de download dos pacotes) é definido. Nossos servidores dedicados estão localizados na Alemanha, então é recomendado escolher o espelho alemão para garantir a melhor velocidade de download possível.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/xNknNyWAbd5DnsZ/preview)
 
-As partições podem ser definidas agora na configuração de armazenamento. Você pode usar uma partição grande ou subdividi-la se quiser. Se quiser usar o SSD inteiro como uma única partição, escolha `Usar um disco inteiro` e continue.
+As partições podem ser definidas na configuração de armazenamento. Você pode usar uma partição grande ou subdividir, se quiser. Se quiser usar o SSD inteiro como uma única partição, escolha `Usar um disco inteiro` e continue.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/2dJ9oeMGjpWn6cZ/preview)
 
@@ -73,7 +73,7 @@ A configuração cria automaticamente os volumes e você pode prosseguir escolhe
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/WXfzt57Rtm2SQLD/preview)
 
-Antes de iniciar o processo, você será informado que ele apagará todos os dados existentes. Essa mensagem deve ser confirmada com a opção `Continuar`. 
+Antes de iniciar o processo, você será informado que todos os dados existentes serão apagados. Essa mensagem deve ser confirmada com a opção `Continuar`. 
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/L3YcGNbYWpMmaDj/preview)
 
@@ -90,7 +90,7 @@ A instalação do setup SSH é recomendada. Se quiser gerenciar o servidor via S
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/Xz3zzMdZ6C523ip/preview)
 
-​	O Ubuntu oferece alguns snaps padrão, se quiser usar alguns deles, é só marcar os que preferir.
+​	O Ubuntu oferece alguns snaps padrão, se quiser usar algum deles, é só marcar os que preferir.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/wcGiSwX935jXeex/preview)
 
@@ -120,7 +120,3 @@ Parabéns, você instalou com sucesso o sistema operacional Ubuntu 20.04 no seu 
 
 
 
-
-
-
-<InlineVoucher />

@@ -1,6 +1,6 @@
 ---
 id: dedicated-linux-odoo
-title: "Servidor Dedicado: Configure Odoo (ERP e CRM Open Source) no Linux"
+title: "Servidor Dedicado: Configure o Odoo (ERP e CRM Open Source) no Linux"
 description: "Descubra como gerenciar e automatizar processos empresariais com a plataforma integrada de ERP e CRM do Odoo para operações empresariais simplificadas → Saiba mais agora"
 sidebar_label: Instalar Odoo
 services:
@@ -13,19 +13,19 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introdução
 
-Odoo é uma plataforma modular open source que combina recursos de Enterprise Resource Planning (ERP) e Customer Relationship Management (CRM). Ela permite que empresas gerenciem e automatizem processos como contabilidade, estoque, gerenciamento de projetos e vendas a partir de um único sistema.
+Odoo é uma plataforma modular open source que combina recursos de Enterprise Resource Planning (ERP) e Customer Relationship Management (CRM). Ela permite que empresas gerenciem e automatizem processos como contabilidade, inventário, gerenciamento de projetos e vendas a partir de um único sistema.
 
 Com suas extensões flexíveis, o Odoo pode ser personalizado para necessidades específicas e oferece uma solução integrada para gerenciar todas as áreas de uma empresa.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/3nwfLeK2c9kTiCp/preview)
 
-Pensando em hospedar esse serviço por conta própria? Vamos te guiar em cada passo para configurar e ajustar tudo, além de te mostrar tudo que precisa ficar de olho.
+Pensando em hospedar esse serviço por conta própria? Vamos te guiar em cada passo para configurar e ajustar tudo, além de tudo que você precisa saber para manter o sistema rodando tranquilo.
 
-<InlineVoucher />
+
 
 ## Pré-requisitos
 
-Antes de instalar o **Odoo**, certifique-se de que seu ambiente de hospedagem atende aos seguintes requisitos para garantir uma instalação tranquila e desempenho ideal.
+Antes de instalar o **Odoo**, certifique-se de que seu ambiente de hospedagem atende aos seguintes requisitos para garantir uma instalação suave e desempenho ideal.
 
 | Hardware   | Mínimo      | Recomendado  |
 | ---------- | ------------ | ------------ |
@@ -39,22 +39,25 @@ O software exige que todas as dependências necessárias estejam instaladas e qu
 
 **Sistema Operacional:** Última versão do Ubuntu/Debian com suporte ao Docker 26+
 
-Verifique se todas as dependências estão instaladas e se a versão correta do sistema operacional está em uso para evitar problemas de compatibilidade durante a instalação do Odoo.
+Certifique-se de que todas as dependências estão instaladas e que a versão correta do sistema operacional está em uso para evitar problemas de compatibilidade durante a instalação do Odoo.
+
+
 
 ## Preparação
 
 Antes de configurar o **Odoo**, você precisa preparar seu sistema. Isso inclui atualizar seu sistema operacional para a versão mais recente e instalar todas as dependências necessárias. Essas preparações garantem um ambiente estável e ajudam a evitar problemas durante ou após a instalação.
 
+
 ### Atualizar Sistema
-Para garantir que seu sistema esteja rodando com as melhorias mais recentes de software e segurança, sempre faça as atualizações do sistema primeiro. Para isso, execute o seguinte comando:
+Para garantir que seu sistema esteja rodando com as melhorias mais recentes de software e segurança, você deve sempre realizar as atualizações do sistema primeiro. Para isso, execute o seguinte comando:
 
 ```
 sudo apt update && sudo apt upgrade -y
 ```
-Isso garante que seu sistema tenha os patches de segurança e versões de software mais recentes antes de continuar.
+Isso garante que seu sistema tenha os patches de segurança e versões de software mais recentes antes de prosseguir.
 
 ### Instalar dependências
-Após o processo de atualização, você pode prosseguir com a instalação das dependências. O Bitwarden será implantado e executado na sua máquina usando uma série de containers Docker. Para isso, o Docker precisa estar instalado primeiro. Execute o comando:
+Após o processo de atualização, você pode prosseguir com a instalação das dependências. O Bitwarden será implantado e executado na sua máquina usando uma série de containers Docker. Para isso, o Docker precisa estar instalado primeiro. Execute o seguinte comando:
 
 ```
 curl -fsSL https://get.docker.com -o get-docker.sh
@@ -63,15 +66,19 @@ sh get-docker.sh
 
 Um guia completo do processo de instalação e como usar o Docker está disponível no nosso [guia Docker](vserver-linux-docker.md).
 
-### Configurar seu domínio
+
+
+### Configure seu domínio
 
 Por padrão, o Odoo roda no host pelas portas 80 (HTTP) e 443 (HTTPS). Configure um domínio com registros DNS apontando para o host. Se o domínio for gerenciado por nós, você pode fazer isso facilmente usando a opção [EasyDNS](domain-easydns.md).
 
-## Instalação
 
+
+
+## Instalação
 Agora que todos os requisitos foram atendidos e as preparações necessárias concluídas, você pode prosseguir com a instalação do aplicativo Odoo.
 
-Quando trabalhar com múltiplas configurações Docker, é uma boa prática criar uma estrutura de diretórios clara para manter os projetos isolados. Uma abordagem comum é criar uma pasta *docker* dentro do diretório home do usuário, com uma subpasta dedicada para cada domínio. Assim, vários projetos podem ser hospedados no mesmo servidor sem conflitos de configuração.
+Quando se trabalha com múltiplas configurações Docker, é uma boa prática criar uma estrutura de diretórios clara para manter os projetos isolados uns dos outros. Uma abordagem comum é criar uma pasta *docker* dentro do diretório home do usuário, com uma subpasta dedicada para cada domínio. Assim, vários projetos podem ser hospedados no mesmo servidor sem conflitos de configuração.
 
 Por exemplo, para preparar a estrutura para o domínio `example.com`:
 
@@ -87,6 +94,9 @@ mkdir -p nginx/{conf,ssl,inc} config addons
 ```
 
 Isso fornece diretórios dedicados para configuração do nginx, certificados SSL, arquivos include e conteúdo específico do Odoo, como configs e addons.
+
+
+
 
 ### Criar Docker Compose
 
@@ -142,9 +152,11 @@ volumes:
   odoo-web-data:
 ```
 
+
+
 ### Firewall
 
-Para que nginx e certbot funcionem corretamente, você precisa liberar as portas TCP 80 (HTTP) e 443 (HTTPS) no firewall. Essas portas são essenciais porque o certbot usa a porta 80 para validação HTTP, enquanto a porta 443 é necessária para tráfego criptografado HTTPS. Se o UFW (Uncomplicated Firewall) estiver ativado, adicione as regras necessárias com:
+Para que o nginx e o certbot funcionem corretamente, você precisa liberar as portas TCP 80 (HTTP) e 443 (HTTPS) no firewall. Essas portas são essenciais porque o certbot depende da porta 80 para validação HTTP, enquanto a porta 443 é necessária para servir tráfego criptografado via HTTPS. Se o UFW (Uncomplicated Firewall) estiver ativado, você pode adicionar as regras necessárias com os comandos:
 
 ```
 sudo ufw allow http
@@ -153,9 +165,11 @@ sudo ufw allow https
 
 Depois, verifique as regras com `sudo ufw status` para confirmar que as portas estão abertas. Certifique-se de que nenhuma outra configuração de firewall esteja bloqueando o acesso a essas portas, caso contrário a geração do certificado ou o tráfego HTTPS seguro podem falhar.
 
+
+
 ### Configuração do Nginx
 
-A configuração do nginx começa criando um arquivo de configuração para seu domínio. Dentro do diretório `nginx/conf`, crie um novo arquivo com o nome do seu domínio. Execute `nano nginx/conf/example.com.conf` e adicione as diretivas básicas, substituindo o placeholder pelo seu domínio real:
+A configuração do nginx começa criando um arquivo de configuração para seu domínio. Dentro do diretório `nginx/conf`, crie um novo arquivo com o nome do seu domínio. Para isso, execute `nano nginx/conf/example.com.conf` e adicione as diretivas básicas no arquivo, substituindo o placeholder pelo seu domínio real:
 
 ```
 server {
@@ -174,17 +188,18 @@ server {
 
 Essa configuração permite que o certbot complete o desafio ACME e emita certificados SSL válidos. Também garante que todas as requisições HTTP sejam redirecionadas para HTTPS.
 
-Depois de salvar o arquivo, inicie os containers necessários: banco de dados, Odoo e nginx. Execute:
+Depois de salvar o arquivo, você pode iniciar os containers necessários. Eles incluem o banco de dados, o Odoo e o nginx. Execute o comando:
 
 ```
 sudo docker compose up -d db odoo nginx
 ```
 
-Os containers rodarão em background, e o nginx já usará a nova configuração, permitindo que o certbot gere os certificados no próximo passo.
+Os containers vão rodar em background, e o nginx já usará a nova configuração, permitindo que o certbot gere os certificados no próximo passo.
+
 
 ### Gerar certificados SSL
 
-Execute o comando abaixo para criar certificados SSL usando o certbot. Lembre-se de substituir seu domínio após a flag `-d` e o email `user@mail.com` pelo seu email válido.
+Execute o comando abaixo para criar certificados SSL usando o certbot. Certifique-se de especificar seu próprio domínio após a flag `-d` e substituir o endereço de exemplo user@mail.com pelo seu e-mail válido.
 
 ```
 sudo docker compose run --rm certbot certonly --webroot --webroot-path=/var/www/certbot -d example.com --email user@mail.com --agree-tos --no-eff-email
@@ -196,7 +211,7 @@ Depois, gere um arquivo DH parameter dedicado para fortalecer ainda mais a segur
 openssl dhparam -out nginx/ssl/dhparam.pem 2048
 ```
 
-Agora crie o arquivo `ssl.conf` com `nano nginx/ssl/ssl.conf` e adicione o conteúdo abaixo. Substitua `example.com` pelo seu domínio:
+Agora crie o arquivo `ssl.conf` usando `nano nginx/ssl/ssl.conf` e adicione o conteúdo abaixo. Lembre-se de substituir example.com pelo seu domínio:
 
 ```
 ssl_protocols TLSv1.2 TLSv1.3;
@@ -210,13 +225,17 @@ ssl_trusted_certificate /etc/letsencrypt/live/example.com/chain.pem;
 resolver 1.1.1.1 1.0.0.1 valid=300s;
 ```
 
+
+
 ## Configuração
+
+
 
 ### Configuração do Nginx
 
-Edite o arquivo de configuração do nginx criado anteriormente e substitua seu conteúdo pela configuração abaixo para garantir que seu site seja servido apenas via HTTPS.
+Edite o arquivo de configuração do nginx que você criou anteriormente e substitua seu conteúdo pela configuração abaixo para garantir que seu site seja servido apenas via HTTPS.
 
-Não esqueça de colocar seu domínio real na diretiva `server_name` e especificar os caminhos corretos para seus arquivos de certificado nas diretivas `ssl_certificate` e `ssl_certificate_key`.
+Não esqueça de inserir seu domínio real na diretiva `server_name` e especificar os caminhos corretos para seus arquivos de certificado nas diretivas `ssl_certificate` e `ssl_certificate_key`.
 
 ```bash
 server {
@@ -239,10 +258,10 @@ server {
     access_log /var/log/nginx/odoo_access.log;
     error_log  /var/log/nginx/odoo_error.log;
 
-    # Gzip
+    #Gzip
     include /etc/nginx/inc/gzip.conf;
 
-    # Configurações de proxy para Odoo
+    # Configurações de proxy para o Odoo
     location / {
         proxy_pass http://odoo:8069;
         proxy_http_version 1.1;
@@ -308,19 +327,23 @@ server {
 }
 ```
 
-Depois de salvar as alterações na configuração do nginx, aplique as novas configurações reiniciando o container nginx:
+
+
+Depois de salvar as alterações na configuração do nginx, aplique as novas configurações reiniciando o container do nginx:
 
 ```
 sudo docker compose restart nginx
 ```
 
-Reiniciar garante que o nginx carregue a configuração atualizada e comece a servir as requisições com os novos parâmetros imediatamente. Fique de olho em mensagens de erro durante o processo. Se ocorrerem problemas, você pode inspecionar os logs do container com `sudo docker compose logs nginx` para diagnosticar possíveis erros de configuração. Quando o container rodar sem erros, acesse seu site para confirmar que o HTTPS está ativo e funcionando como esperado.
+Reiniciar garante que o nginx carregue a configuração atualizada e comece a servir as requisições com os novos parâmetros imediatamente. Fique de olho em mensagens de erro durante o processo. Se ocorrerem problemas, você pode inspecionar os logs do container com `sudo docker compose logs nginx` para diagnosticar possíveis erros de configuração. Quando o container rodar sem erros, acesse seu site para confirmar que o HTTPS está ativo e o site está funcionando como esperado.
+
+
 
 ### Opções de Configuração do Odoo
 
 Para aplicar configurações personalizadas, você pode criar um arquivo de configuração dedicado para o Odoo. Coloque um novo arquivo em `config/odoo.conf` e adicione as opções desejadas.
 
-Nesse arquivo, você pode definir vários parâmetros úteis: `list_db = False` oculta a seleção de banco de dados na página de login, `proxy_mode = True` informa ao Odoo que ele está rodando atrás de um proxy reverso, e se quiser usar addons personalizados, pode descomentar a linha `addons_path` e apontar para o diretório de addons criado anteriormente. Exemplo de configuração:
+Nesse arquivo, você pode definir vários parâmetros úteis: `list_db = False` oculta a seleção de banco de dados na página de login, `proxy_mode = True` informa ao Odoo que ele está rodando atrás de um proxy reverso, e se quiser usar addons personalizados, pode descomentar a linha `addons_path` e apontar para o diretório de addons que você criou anteriormente. Exemplo de configuração:
 
 ```
 [options]
@@ -329,29 +352,38 @@ proxy_mode = True
 #addons_path = /mnt/extra-addons
 ```
 
+
+
 ### Remover flag -i base
 
-A flag `-i base` deve ser removida do arquivo `compose.yml`, caso contrário o banco de dados será recriado toda vez que o container do Odoo for recriado. Para removê-la, acesse o arquivo compose. Abra com `nano compose.yml` e ajuste o comando para:
+A flag `-i base` deve ser removida do arquivo `compose.yml`, caso contrário ela recriará o banco de dados toda vez que você recriar o container do odoo. Para removê-la, acesse o arquivo compose. Abra o arquivo com `nano compose.yml` e ajuste o comando para ficar assim:
 
 ```
 command: odoo -d odoo_db --db_user=odoo --db_password=odoo --db_host=db
 ```
 
+
+
 ## Acessando o site
 
 Depois que a instalação e configuração estiverem completas e todos os serviços rodando, você pode acessar seu site com segurança digitando seu domínio na barra de endereços do navegador.
 
+
+
 ![img](https://screensaver01.zap-hosting.com/index.php/s/QTEzbrqG66tTQEA/download)
 
-Isso carregará a página inicial da sua nova instalação. Para o login inicial, uma conta padrão é fornecida com o usuário `admin` e a senha `admin`. Recomendamos fortemente que você altere essas credenciais.
+Isso vai carregar a página inicial da sua nova instalação. Para o login inicial, uma conta padrão é fornecida com o usuário `admin` e a senha `admin`. Recomendamos fortemente que você altere essas credenciais.
+
+
 
 ## Conclusão e mais Recursos
 
-Parabéns! Você instalou e configurou com sucesso o Odoo no seu Servidor Dedicado. Também recomendamos dar uma olhada nos seguintes recursos, que podem te ajudar ainda mais durante o processo de configuração do servidor:
+Parabéns! Você instalou e configurou com sucesso o Odoo no seu Servidor Dedicado. Também recomendamos dar uma olhada nos seguintes recursos, que podem te ajudar ainda mais durante o processo de configuração do seu servidor:
 
 - [Odoo.com](https://odoo.com) - Site Oficial
 - [odoo.com/documentation/18.0/](https://www.odoo.com/documentation/18.0/) - Documentação do Odoo
 
-Tem dúvidas específicas que não foram abordadas aqui? Para mais perguntas ou suporte, não hesite em contatar nosso time de suporte, disponível diariamente para te ajudar! 🙂
+Tem dúvidas específicas que não foram abordadas aqui? Para mais perguntas ou suporte, não hesite em contatar nossa equipe de suporte, disponível diariamente para te ajudar! 🙂
 
-<InlineVoucher />
+
+

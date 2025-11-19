@@ -13,7 +13,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Ter múltiplos endereços IP em um servidor pode ser vantajoso por vários motivos, especialmente em ambientes de rede complexos ou para atender a requisitos específicos de desempenho, segurança e gerenciamento de rede. Atribuir diferentes endereços IP para diferentes serviços ou aplicações no mesmo servidor pode garantir um isolamento melhor.
 
-<InlineVoucher />
+
 
 
 ## Preparação
@@ -41,7 +41,7 @@ Primeiro, você precisa das informações sobre os endereços IP disponíveis. E
 
 Existem várias formas de acessar a configuração de rede em um Windows Server. Por exemplo, você pode acessar a configuração de rede pelo Painel de Controle em **Central de Rede e Compartilhamento**.
 
-Abra o **Painel de Controle**, clique em **Rede e Internet** e depois em **Central de Rede e Compartilhamento**. Em seguida, vá em "Alterar configurações do adaptador" e dê um duplo clique no adaptador de rede (Ethernet 2). Isso abrirá o adaptador de rede, onde você deve acessar as propriedades.
+Abra o **Painel de Controle**, clique em **Rede e Internet** e depois em **Central de Rede e Compartilhamento**. Em seguida, vá em "Alterar as configurações do adaptador" e dê um duplo clique no adaptador de rede (Ethernet 2). Isso abrirá o adaptador de rede, onde você deve acessar as propriedades.
 
 Agora, nas **Propriedades** do adaptador de rede, selecione a opção **Protocolo IP Versão 4 (TCP/IPv4)**. Lá, você verá informações sobre o endereço IP principal, máscara de sub-rede, gateway padrão e os servidores DNS. Clique no botão **Avançado** para adicionar o(s) endereço(s) IP adicional(is).
 
@@ -61,4 +61,4 @@ Agora, o endereço IP adicional é adicionado via **Configurações Avançadas d
 
 O endereço IP foi configurado e adicionado com sucesso. Para dúvidas ou ajuda, não hesite em contatar nosso time de suporte, que está disponível diariamente para te ajudar! 🙂
 
-<InlineVoucher />
+

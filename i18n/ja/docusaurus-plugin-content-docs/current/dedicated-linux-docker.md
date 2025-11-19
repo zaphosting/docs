@@ -1,7 +1,7 @@
 ---
 id: dedicated-linux-docker
 title: "専用サーバー：Dockerのインストール"
-description: "LinuxサーバーにDockerをインストールして、アプリケーションを効率的に隔離して実行し、リソースの最適化を実現する方法をチェック → 今すぐ詳しく見る"
+description: "LinuxサーバーにDockerをインストールして、アプリケーションを効率的に分離して実行し、リソースの最適化を実現する方法をチェック → 今すぐ詳しく見る"
 sidebar_label: Dockerのインストール
 services:
   - dedicated
@@ -13,9 +13,7 @@ import TabItem from '@theme/TabItem';
 
 ## はじめに
 
-Dockerは、軽量でオープンソースの仮想化ソフトウェアで、単一のシステム上でサービスやアプリケーションを隔離して提供します。実際の仮想マシンとは異なり、追加のOSをエミュレートしたりホストしたりするのではなく、ホストシステム内にアプリケーション環境のみを構築します。これにより、リソースの節約だけでなく、フル仮想化に比べてオーバーヘッドも低く抑えられます。このガイドでは、サーバーにDockerをインストールする手順を解説します。
-
-<InlineVoucher />
+Dockerは軽量でオープンソースの仮想化ソフトウェアで、単一のシステム上でサービスやアプリケーションを分離して提供します。実際の仮想マシンとは異なり、追加のOSをエミュレートしたりホストしたりするのではなく、ホストシステム内にアプリケーション環境だけを作成します。これにより、リソースの節約だけでなく、フル仮想化に比べてオーバーヘッドも低く抑えられます。このガイドでは、あなたのサーバーにDockerをインストールする手順を解説します。
 
 ## 準備
 
@@ -33,12 +31,12 @@ Dockerコンテナを動作させるには、サーバーのウェブインタ�
 
 ## インストール
 
-Linuxサーバーに接続できたら、以下のLinuxリポジトリから該当するインストール手順を選んでください。
+Linuxサーバーに接続できたら、以下のLinuxディストリビューション別のインストール手順から該当するものを選んでください。
 
 <Tabs>
 <TabItem value="ubuntu/debian" label="Ubuntu & Debian" default>
 
-まずは`apt`を使ってDockerのパッケージを追加し、セットアップします。これにより将来的にリポジトリから簡単にDockerをインストール・更新できます。
+まずは`apt`を使ってDockerのパッケージを追加し、セットアップします。これにより将来的にリポジトリから簡単にDockerをインストール・更新できるようになります。
 
 以下のコマンドでDockerの公式GPGキーをリポジトリリストに追加します。
 ```
@@ -49,7 +47,7 @@ sudo curl -fsSL https://download.docker.com/linux/ubuntu/gpg -o /etc/apt/keyring
 sudo chmod a+r /etc/apt/keyrings/docker.asc
 ```
 
-セットアップが完了したら、次のコマンドで`apt`のソースにリポジトリを追加します。
+セットアップが完了したら、次のコマンドでリポジトリを`apt`のソースに追加します。
 ```
 echo \
   "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.asc] https://download.docker.com/linux/ubuntu \
@@ -62,7 +60,7 @@ Dockerリポジトリを追加したら、`apt-get update`コマンドで変更�
 sudo apt-get update
 ```
 
-これでDockerの`apt`リポジトリがセットアップされました。最後にDockerパッケージをインストールします。以下のコマンドで最新バージョンをインストール可能です。
+これでDockerの`apt`リポジトリのセットアップは完了です。最後にDockerパッケージをインストールします。以下のコマンドで最新バージョンをインストール可能です。
 ```
 sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
 ```
@@ -94,23 +92,23 @@ sudo systemctl enable --now docker
 sudo docker run hello-world
 ```
 
-成功すると、基本情報が書かれた挨拶メッセージが表示されます。もし`Permission Denied`エラーが出る場合は、[準備](#準備)で説明したようにウェブインターフェースで**Docker互換性**を有効にし、サーバーを再起動したか確認してください。
+成功すると、基本情報が書かれた挨拶メッセージが表示されます。もし`Permission Denied`エラーが出る場合は、準備段階で説明したようにウェブインターフェースで**Docker互換性**を有効にし、サーバーを再起動したか確認してください。
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/tzJwpYRYb9Mmryo/preview)
 
-これでLinuxサーバーにDockerが無事インストールされました。
+これでLinuxサーバーにDockerを無事インストールできました。
 
 ## インストール後の設定
 
 Dockerがインストールできたら、sudoなしでDockerコマンドを実行できるようにしたり、サーバー起動時にDockerを自動起動させる設定を行うこともできます。
 
-### sudoなしでDockerを操作する
+### sudoなしでDockerを使う
 
-すべてのDockerコマンドに`sudo`を付ける必要をなくすには、新しくDockerグループを作成し、ユーザーを追加します。便利になりますが、ユーザーにroot権限相当の権限が付与されるので注意してください。
+すべてのDockerコマンドに`sudo`を付ける必要をなくすには、新しく`docker`グループを作成し、ユーザーを追加します。便利になりますが、ユーザーにroot権限に近い権限を与えることになるので注意してください。
 
 以下のコマンドで`docker`グループを作成し、現在のユーザーを追加します。
 ```
-# Dockerグループ作成
+# Dockerグループを作成
 sudo groupadd docker
 
 # 現在のユーザーをDockerグループに追加
@@ -127,29 +125,27 @@ sudo usermod -aG docker $USER
 
 問題なく実行できれば、sudoなしでDockerを使えるようになっています。
 
-### サーバー起動時にDockerを自動起動する
+### 起動時にDockerを自動起動させる
 
-多くのLinuxディストリビューションで使われている`systemd`を使い、サーバー起動時にDockerを自動起動させることができます。
+多くのLinuxディストリビューションで使われている`systemd`を使って、サーバー起動時にDockerを自動起動させることができます。
 
 :::tip
 UbuntuとDebianでは、Dockerはデフォルトで起動時に自動起動する設定になっています。この2つのディストリビューションを使っている場合は特に設定不要です。
 :::
 
-以下のコマンドでDockerサービスの自動起動を有効にできます。
+以下のコマンドでDockerサービスを起動時に有効化できます。
 ```
 sudo systemctl enable docker.service
 sudo systemctl enable containerd.service
 ```
 
-逆に自動起動を無効にしたい場合は、`enable`を`disable`に置き換えてください。また、以下のように`systemctl`のサブコマンドでサービスを管理できます。
+逆に自動起動を無効化したい場合は、`enable`を`disable`に置き換えて実行してください。その他、`systemctl`のサブコマンドでサービスの管理も可能です。
 ```
-sudo systemctl start [your_service]
-sudo systemctl stop [your_service]
-sudo systemctl restart [your_service]
+sudo systemctl start [サービス名]
+sudo systemctl stop [サービス名]
+sudo systemctl restart [サービス名]
 ```
 
 ## まとめ
 
 おめでとうございます！LinuxサーバーにDockerを無事インストール・設定できました。もし質問や問題があれば、毎日対応しているサポートチームまでお気軽にお問い合わせください！
-
-<InlineVoucher />

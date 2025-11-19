@@ -11,49 +11,49 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Wprowadzenie
 
-Poniżej znajdziesz krok po kroku instrukcję, jak zainstalować i skonfigurować system operacyjny Ubuntu na swoim serwerze dedykowanym. Postępuj zgodnie z tymi wskazówkami, aby poprawnie ustawić system i wykorzystać go w pełni.
+Poniżej znajdziesz krok po kroku instrukcję, jak zainstalować i skonfigurować system operacyjny Ubuntu na swoim serwerze dedykowanym. Postępuj uważnie według tych wskazówek, aby poprawnie zainstalować system i wykorzystać go na maxa.
 
 
 
 :::warning Dostępna nowsza wersja / Szczegóły EOL
 
-Najnowszą wersją Ubuntu jest wersja [24.04](dedicated-linux-ubuntu.md). Zalecamy korzystanie z najnowszej wersji do projektów długoterminowych.
+Najnowszą wersją Ubuntu jest [24.04](dedicated-linux-ubuntu.md). Polecamy korzystać z najnowszej wersji przy długoterminowych projektach.
 
-Wsparcie dla starszych wersji Ubuntu zostanie w końcu zakończone. Poniżej terminy dla wersji 22.04:
+Wsparcie dla starszych wersji Ubuntu zostanie w końcu zakończone. Oto planowane terminy dla wersji 22.04:
 
 - Koniec standardowego wsparcia: 01.04.2027
 - Koniec wsparcia Ubuntu Pro: 01.04.2032
 - Koniec wsparcia Legacy: 01.04.2034
 
-Więcej informacji znajdziesz na [oficjalnej stronie](https://ubuntu.com/about/release-cycle).
+Więcej info znajdziesz na [oficjalnej stronie](https://ubuntu.com/about/release-cycle).
 :::
 
 
-<InlineVoucher />
+
 
 ## Przygotowanie
 
-Do instalacji i konfiguracji systemu operacyjnego najpierw ważne jest zamontowanie odpowiedniego obrazu ISO systemu. Istnieje kilka sposobów na jego zamontowanie:
+Do instalacji i konfiguracji systemu operacyjnego najpierw musisz zamontować odpowiedni obraz ISO systemu. Masz kilka opcji montowania:
 
 1. Montowanie przez początkową konfigurację
 2. Montowanie przez iLO (Virtual Media)
 3. Montowanie przez iLO (Remote Console)
 
-Jeśli nie masz jeszcze doświadczenia z montowaniem pliku ISO, najlepiej zajrzyj do naszego [poradnika Początkowa konfiguracja](dedicated-setup.md) lub [Własne ISO](dedicated-iso.md).
+Jeśli nie masz jeszcze doświadczenia z montowaniem plików ISO, najlepiej zajrzyj do naszego [poradnika początkowej konfiguracji](dedicated-setup.md) lub [poradnika własnego ISO](dedicated-iso.md).
 
 
 
 ## Instalacja
 
-Po pomyślnym zamontowaniu i załadowaniu ISO serwer powinien przejść do procesu instalacji. Na początku wybierz język, którego chcesz używać w systemie operacyjnym. Wybierz jeden z dostępnych języków i potwierdź klawiszem `Enter`. 
+Gdy obraz ISO zostanie poprawnie zamontowany i załadowany, serwer przejdzie do procesu instalacji. Na początku wybierz język, którego chcesz używać w systemie. Wybierz jeden z dostępnych języków i zatwierdź klawiszem `Enter`. 
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/yrHMNzstM23XZH6/preview)
 
-Następnie wybierz odpowiedni układ klawiatury dopasowany do języka. 
+Następnie wybierz odpowiedni układ klawiatury dopasowany do wybranego języka. 
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/x9kYGEWS5fy7Wjp/preview)
 
-Kolejnym krokiem jest konfiguracja sieci. Domyślnie serwer jest konfigurowany przez DHCP. Domyślny adapter sieciowy to `eno1`. Potwierdź domyślne ustawienia i kontynuuj. 
+Kolejnym krokiem jest konfiguracja sieci. Domyślnie serwer jest ustawiony na DHCP. Domyślny adapter sieciowy to `eno1`. Potwierdź domyślne ustawienia i przejdź dalej. 
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/6mr5kAKJQ39iJt5/preview)
 
@@ -61,11 +61,11 @@ Opcjonalnie możesz skonfigurować dodatkowy proxy, ale nie jest to konieczne. J
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/tz97Ee8ZQkxAGGb/preview)
 
-Teraz wybierz Ubuntu Archive Mirror (serwer pobierania pakietów). Nasze serwery dedykowane znajdują się w Niemczech, więc zalecamy wybrać niemiecki mirror, aby uzyskać najlepszą możliwą prędkość pobierania.
+Teraz wybierz mirror Ubuntu Archive (serwer pobierania pakietów). Nasze serwery dedykowane znajdują się w Niemczech, więc zalecamy wybrać niemiecki mirror, aby uzyskać najlepsze prędkości pobierania.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/xNknNyWAbd5DnsZ/preview)
 
-Teraz możesz zdefiniować partycje w konfiguracji dysku. Możesz użyć jednej dużej partycji lub podzielić ją według potrzeb. Jeśli chcesz użyć całego dysku SSD jako jednej partycji, wybierz `Use an entire disk` i kontynuuj.
+Teraz możesz ustawić partycje w konfiguracji dysku. Możesz użyć jednej dużej partycji lub podzielić ją według potrzeb. Jeśli chcesz użyć całego dysku SSD jako jednej partycji, wybierz `Use an entire disk` i kontynuuj.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/2dJ9oeMGjpWn6cZ/preview)
 
@@ -73,12 +73,12 @@ Instalator automatycznie utworzy wolumeny, a Ty możesz przejść dalej, wybiera
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/WXfzt57Rtm2SQLD/preview)
 
-Przed rozpoczęciem procesu zostaniesz poinformowany, że wszystkie istniejące dane zostaną usunięte. Potwierdź tę wiadomość wybierając `Continue`. 
+Przed rozpoczęciem procesu pojawi się informacja, że wszystkie istniejące dane zostaną usunięte. Potwierdź to komunikat wybierając `Continue`. 
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/L3YcGNbYWpMmaDj/preview)
 
 Skonfiguruj swoje konto użytkownika według własnych preferencji, możesz też na końcu użyć konta root, zmieniając jego hasło.
-Poruszaj się po opcjach za pomocą tabulatora lub strzałek. Po zakończeniu zaznacz `Done`.
+Poruszaj się po opcjach za pomocą tabulatora lub strzałek. Gdy skończysz, zatwierdź `Done`.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/mqrjmF2ZmA2Qj9z/preview)
 
@@ -94,7 +94,7 @@ Ubuntu oferuje kilka domyślnych snapów, jeśli chcesz z nich skorzystać, zazn
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/wcGiSwX935jXeex/preview)
 
-Aby zakończyć proces, należy wysunąć ISO, aby nie zostało ponownie załadowane po restarcie serwera. Uruchom serwer ponownie, aby zakończyć instalację. 
+Na koniec musisz wysunąć obraz ISO, aby nie został ponownie załadowany przy restarcie serwera. Uruchom serwer ponownie, aby zakończyć proces. 
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/SzrxCtJTx2S8Nef/preview)
 
@@ -110,17 +110,10 @@ Aby zakończyć proces, należy wysunąć ISO, aby nie zostało ponownie załado
 
 ### Zmiana hasła użytkownika root
 
-Hasło użytkownika root możesz łatwo zmienić. Wykonaj `sudo su` i wpisz swoje hasło. Następnie wykonaj `sudo passwd`, aby zmienić hasło. Teraz wpisz nowe hasło dla użytkownika root. Gotowe, możesz teraz logować się na konto `root`.
+Hasło użytkownika root możesz łatwo zmienić. Wpisz `sudo su` i podaj swoje hasło. Następnie wpisz `sudo passwd`, aby zmienić hasło. Teraz wpisz nowe hasło dla użytkownika root. Gotowe, możesz teraz logować się jako `root`.
 
 
 
 ## Podsumowanie
 
-Gratulacje, pomyślnie zainstalowałeś system operacyjny Ubuntu 22.04 na swoim serwerze dedykowanym. W razie dalszych pytań lub potrzeby pomocy, śmiało kontaktuj się z naszym zespołem wsparcia, który jest dostępny codziennie, by Ci pomóc! 🙂
-
-
-
-
-
-
-<InlineVoucher />
+Gratulacje, pomyślnie zainstalowałeś system Ubuntu 22.04 na swoim serwerze dedykowanym. W razie pytań lub potrzeby pomocy, śmiało kontaktuj się z naszym supportem, który jest dostępny codziennie, by Ci pomóc! 🙂

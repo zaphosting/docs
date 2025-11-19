@@ -13,11 +13,9 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
 
-Git ist ein verteiltes Versionskontrollsystem, das für effizientes Quellcode-Management entwickelt wurde. Es ermöglicht Entwicklern, Änderungen nachzuverfolgen, gleichzeitig an verschiedenen Branches zu arbeiten und Projekte reibungslos gemeinsam zu bearbeiten. Dank seiner Flexibilität und Performance ist Git zum Standard-Tool für Versionskontrolle in der modernen Softwareentwicklung geworden.
+Git ist ein verteiltes Versionskontrollsystem, das für effizientes Quellcode-Management entwickelt wurde. Es ermöglicht Entwicklern, Änderungen nachzuverfolgen, gleichzeitig an verschiedenen Branches zu arbeiten und Projekte reibungslos gemeinsam zu bearbeiten. Dank seiner Flexibilität und Performance hat sich Git zum Standard-Tool für Versionskontrolle in der modernen Softwareentwicklung etabliert.
 
-Du überlegst, diesen Service selbst zu hosten? Wir führen dich Schritt für Schritt durch die Einrichtung und Konfiguration und zeigen dir alles, was du beachten musst.
-
-<InlineVoucher />
+Du denkst darüber nach, diesen Service selbst zu hosten? Wir führen dich Schritt für Schritt durch die Einrichtung und Konfiguration und zeigen dir alles, was du beachten musst.
 
 
 
@@ -27,7 +25,7 @@ Bevor du **Git** einrichtest, solltest du dein System vorbereiten. Dazu gehört,
 
 
 ### System aktualisieren
-Um sicherzustellen, dass dein System mit der aktuellsten Software und den neuesten Sicherheitsupdates läuft, solltest du zuerst immer ein System-Update durchführen. So ist gewährleistet, dass dein System vor der Installation die neuesten Sicherheitspatches und Softwareversionen hat.
+Um sicherzustellen, dass dein System mit der aktuellsten Software und den neuesten Sicherheitsupdates läuft, solltest du zuerst immer ein Systemupdate durchführen. So ist gewährleistet, dass dein System die neuesten Sicherheitspatches und Softwareversionen hat, bevor du weitermachst.
 
 
 
@@ -54,7 +52,7 @@ git version 2.51.2
 
 ## Konfiguration
 
-Richte deinen Git-Benutzernamen und deine E-Mail mit den folgenden Befehlen ein, wobei du die Beispielwerte durch deine eigenen Angaben ersetzt. Diese Daten werden mit jedem Commit verknüpft.
+Richte deinen Git-Benutzernamen und deine E-Mail-Adresse mit den folgenden Befehlen ein, wobei du die Beispielwerte durch deine eigenen Daten ersetzt. Diese Angaben werden mit jedem Commit verknüpft.
 
 ```
 git config --global user.name "John Doe Paris"
@@ -65,13 +63,9 @@ git config --global user.email "doe@e-mail.com"
 
 ## Fazit und weitere Ressourcen
 
-Glückwunsch! Du hast Git jetzt erfolgreich auf deinem Dedicated Server installiert und konfiguriert. Wir empfehlen dir außerdem, einen Blick auf die folgenden Ressourcen zu werfen, die dir bei der weiteren Server-Konfiguration zusätzliche Hilfe und Tipps bieten können:
+Glückwunsch! Du hast Git jetzt erfolgreich auf deinem vServer installiert und konfiguriert. Wir empfehlen dir außerdem, einen Blick auf die folgenden Ressourcen zu werfen, die dir bei der weiteren Serverkonfiguration zusätzliche Hilfe und Tipps bieten können:
 
 - [git-scm.com](https://git-scm.com/) – Offizielle Webseite
 - [git-scm.com/doc](https://git-scm.com/doc) – Git Dokumentation
 
-Du hast spezielle Fragen, die hier nicht beantwortet wurden? Für weitere Fragen oder Support steht dir unser Team täglich zur Verfügung – melde dich gerne bei uns! 🙂
-
-
-
-<InlineVoucher />
+Du hast spezielle Fragen, die hier nicht beantwortet wurden? Für weitere Fragen oder Unterstützung steht dir unser Support-Team täglich zur Verfügung – zögere nicht, uns zu kontaktieren! 🙂

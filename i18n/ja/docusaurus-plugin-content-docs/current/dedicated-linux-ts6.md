@@ -1,7 +1,7 @@
 ---
 id: dedicated-linux-ts6
-title: "専用サーバー：Linux専用サーバーにTeamspeak 6サーバーをセットアップ"
-description: "信頼性の高いホスティングとパフォーマンスのためにTeamSpeak 6サーバーをセットアップ・最適化する方法を発見 → 今すぐチェック"
+title: "専用サーバー：Linux専用サーバーにTeamspeak 6サーバーをセットアップする方法"
+description: "信頼性の高いホスティングとパフォーマンスのためにTeamSpeak 6サーバーをセットアップ・最適化する方法を発見 → 今すぐ詳しく学ぼう"
 sidebar_label: Teamspeak 6サーバーのインストール
 services:
   - dedicated
@@ -19,7 +19,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/4J6HJjQdRddjGFK/preview)
 
-<InlineVoucher />
+
 
 
 
@@ -29,7 +29,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 | ハードウェア   | 最低要件     | ZAP-Hosting推奨スペック |
 | ---------- | ----------- | -------------------------- |
-| CPU        | 1 CPUコア   | 4 CPUコア                |
+| CPU        | 1 CPUコア | 4 CPUコア                |
 | RAM        | 1 GB        | 4 GB                       |
 | ディスク容量 | 1 GB        | 25 GB                      |
 
@@ -41,7 +41,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 
 ### システムのアップデート
-システムが最新のソフトウェアとセキュリティ改善を反映していることを確認するため、まずはシステムアップデートを行いましょう。以下のコマンドを実行してください：
+最新のソフトウェアとセキュリティ改善を適用するため、まずシステムのアップデートを行いましょう。以下のコマンドを実行してください：
 
 ```
 sudo apt update && sudo apt upgrade -y
@@ -49,7 +49,7 @@ sudo apt update && sudo apt upgrade -y
 これにより、最新のセキュリティパッチとソフトウェアバージョンが適用されます。
 
 ### 依存関係のインストール
-アップデートが完了したら、依存関係のインストールに進みます。簡単かつ推奨される方法としてDockerを使うのがおすすめです。まずはDockerエンジンをインストールしましょう：
+アップデートが完了したら、依存関係のインストールに進みます。簡単かつ推奨される方法としてDockerを使うことをおすすめします。まずDockerエンジンをインストールしましょう：
 
 ```
 curl -fsSL https://get.docker.com -o get-docker.sh
@@ -71,9 +71,9 @@ services:
     container_name: teamspeak-server
     restart: unless-stopped
     ports:
-      - "9987:9987/udp"   # ボイス用ポート
-      - "30033:30033/tcp" # ファイル転送用
-      # - "10080:10080/tcp" # Webクエリ用
+      - "9987:9987/udp"   # ボイスポート
+      - "30033:30033/tcp" # ファイル転送
+      # - "10080:10080/tcp" # Webクエリ
     environment:
       - TSSERVER_LICENSE_ACCEPTED=accept
     volumes:
@@ -83,7 +83,7 @@ volumes:
   teamspeak-data:
 ```
 
-ファイルを作成したいディレクトリに移動し、`nano docker-compose.yml` コマンドでファイルを開き、上記内容を貼り付けて保存してください。
+ファイルを作成したいディレクトリに移動し、`nano docker-compose.yml` コマンドでファイルを開き、上記の内容を貼り付けて保存してください。
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/yBZTKL8MYgLiJEt/download)
 
@@ -93,7 +93,7 @@ DockerコンテナとTeamSpeak 6サーバーを起動するには、以下のDoc
 docker compose -f /opt/containers/ts6/docker-compose.yml up
 ```
 
-これでTeamSpeak 6サーバーのDockerコンテナが起動します。デフォルトではまだ常駐動作しません。初回起動時には**サーバークエリアドミンアカウント**と**特権キー**に関する**重要な情報**が表示されます。
+これでTeamSpeak 6サーバーのDockerコンテナが起動します。デフォルトではまだ常駐動作しません。初回起動時に**Server Query管理アカウント**と**特権キー**に関する**重要な情報**が表示されます。
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/7nNwWkEdG84yx4y/download)
 
@@ -103,7 +103,7 @@ docker compose -f /opt/containers/ts6/docker-compose.yml up
 
 ## 設定
 
-Docker Composeファイル内の**環境変数**を使って、TeamSpeak 6サーバーの追加設定が可能です。これにより、サーバーを自分のニーズに合わせてカスタマイズできます。利用可能なオプションの全リストは公式の[TeamSpeak 6 Server](https://github.com/teamspeak/teamspeak6-server/blob/main/CONFIG.md)ドキュメントで確認できます。
+Docker Composeファイル内の**環境変数**を使って、TeamSpeak 6サーバーの追加設定が可能です。これにより、サーバーを自分のニーズに合わせてカスタマイズできます。利用可能なオプションの全リストは公式の[TeamSpeak 6サーバー](https://github.com/teamspeak/teamspeak6-server/blob/main/CONFIG.md)ドキュメントで確認できます。
 
 `docker-compose.yml`の例：
 
@@ -117,13 +117,13 @@ environment:
 
 ## サーバー運用
 
-TeamSpeak 6サーバーをバックグラウンドで常時稼働させるには、以下のコマンドでコンテナを起動します：
+TeamSpeak 6サーバーをバックグラウンドで稼働させるには、以下のコマンドでコンテナを起動します：
 
 ```
 docker compose -f /opt/containers/ts6/docker-compose.yml up -d
 ```
 
-サーバーを停止するには、以下のコマンドでコンテナを停止してください：
+TeamSpeak 6サーバーを停止するには、以下のコマンドでコンテナを停止します：
 
 ```
 docker compose -f /opt/containers/ts6/docker-compose.yml down
@@ -141,10 +141,10 @@ TeamSpeak 6サーバーが起動したら、TeamSpeak 6クライアントを使�
 
 ## まとめと追加リソース
 
-おめでとうございます！これで専用サーバーにTeamspeak 6サーバーを無事インストール・設定できました。さらにサーバー設定の参考になる以下のリソースもぜひチェックしてみてください。
+おめでとうございます！これで専用サーバーにTeamspeak 6サーバーを無事インストール・設定できました。サーバー設定の参考になる以下のリソースもぜひチェックしてみてください。
 
 - [公式サイト](https://teamspeak.com/en/) - TeamSpeak 6の情報とダウンロード
 - [コミュニティフォーラム](https://community.teamspeak.com/) - ユーザーサポートとディスカッション
-- [GitHub Issues](https://github.com/teamspeak/teamspeak6-server/issues) - バグ報告や未解決の課題追跡
+- [GitHub Issues](https://github.com/teamspeak/teamspeak6-server/issues) - バグ報告やオープンな問題の追跡
 
-ここにない質問やサポートが必要な場合は、いつでもお気軽にサポートチームにお問い合わせください。毎日対応していますよ！🙂
+ここにない具体的な質問があれば、いつでもサポートチームにお問い合わせください。毎日対応しているので気軽にどうぞ！🙂

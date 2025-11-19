@@ -1,7 +1,7 @@
 ---
 id: dedicated-linux-ubuntu-2204
-title: "専用サーバー：Ubuntu 22.04 のインストール"
-description: "専用サーバーにUbuntuを成功裏にインストールし、最適なパフォーマンスと長期サポートを実現する方法を解説 → 今すぐチェック"
+title: "専用サーバー：Ubuntu 22.04のインストール"
+description: "専用サーバーにUbuntuを成功裏にインストール・設定し、最適なパフォーマンスと長期サポートを実現する方法を解説 → 今すぐチェック"
 sidebar_label: Ubuntu 22.04
 services:
   - dedicated
@@ -11,13 +11,13 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## はじめに
 
-以下では、専用サーバーにUbuntu OSをインストールし設定する手順をステップごとに説明します。これらの手順をしっかりと守ることで、OSを確実にセットアップし、最大限に活用できます。
+以下では、専用サーバーにUbuntu OSをインストールし設定する手順をステップごとに解説します。これらの手順をしっかりと守ることで、OSを確実にセットアップし、最大限に活用できます。
 
 
 
 :::warning 新しいバージョンの案内 / EOL情報
 
-最新のUbuntuバージョンは[24.04](dedicated-linux-ubuntu.md)です。長期プロジェクトには最新バージョンの利用をおすすめします。
+Ubuntuの最新バージョンは[24.04](dedicated-linux-ubuntu.md)です。長期プロジェクトには最新バージョンの利用をおすすめします。
 
 古いUbuntuバージョンのサポートはいずれ終了します。22.04バージョンのサポート終了予定は以下の通りです：
 
@@ -29,7 +29,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 :::
 
 
-<InlineVoucher />
+
 
 ## 準備
 
@@ -39,45 +39,46 @@ OSのインストールと設定には、まず対応するOSのISOをマウン�
 2. iLO経由でのマウント（Virtual Media）
 3. iLO経由でのマウント（リモートコンソール）
 
-ISOファイルのマウントに慣れていない場合は、[初期セットアップ](dedicated-setup.md)や[Own ISO](dedicated-iso.md)ガイドを参照するのがベストです。
+ISOファイルのマウントに慣れていない場合は、[初期セットアップ](dedicated-setup.md)や[Own ISO](dedicated-iso.md)のガイドを参照するのがベストです。
 
 
 
 ## インストール
 
-ISOが正常にマウントされ読み込まれると、サーバーはセットアッププロセスに入ります。最初にOSで使用したい言語を選択します。利用可能な言語の中から選び、`Enter`キーで確定してください。
+ISOが正常にマウントされ読み込まれると、セットアッププロセスが開始されます。最初にOSで使用する言語を選択します。利用したい言語を選び、`Enter`キーで確定してください。 
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/yrHMNzstM23XZH6/preview)
 
-次に、言語に合ったキーボードレイアウトを選択し設定します。自分に合ったキーボードレイアウトを選んでください。
+次に、言語に合ったキーボードレイアウトを選択して設定します。ここでも自分に合ったキーボードレイアウトを選んでください。 
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/x9kYGEWS5fy7Wjp/preview)
 
-続いてネットワーク設定です。サーバーはデフォルトでDHCP設定になっています。デフォルトのネットワークアダプターは`eno1`です。デフォルト設定を確認して続行してください。
+続いてネットワーク設定です。サーバーはデフォルトでDHCP設定になっています。デフォルトのネットワークアダプターは`eno1`です。設定を確認して続行してください。 
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/6mr5kAKJQ39iJt5/preview)
 
-オプションでプロキシの設定も可能ですが、必須ではありません。必要なければこのステップはスキップしてください。
+オプションでプロキシの設定も可能ですが、必須ではありません。不要な場合はこのステップをスキップしてください。 
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/tz97Ee8ZQkxAGGb/preview)
 
-次にUbuntuのアーカイブミラー（パッケージのダウンロードサーバー）を指定します。当社の専用サーバーはドイツにあるため、最速のダウンロード速度を得るにはドイツのミラーを選ぶのがおすすめです。
+次にUbuntuのアーカイブミラー（パッケージダウンロードサーバー）を指定します。当社の専用サーバーはドイツにあるため、最速のダウンロード速度を狙うならドイツのミラーを選ぶのがおすすめです。
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/xNknNyWAbd5DnsZ/preview)
 
-ストレージのパーティション設定に進みます。大きな1つのパーティションにするか、必要に応じて分割も可能です。SSD全体を1つのパーティションとして使いたい場合は「Use an entire disk」を選択して続行してください。
+ストレージ設定でパーティションを決めます。大きな1つのパーティションにするか、必要に応じて分割も可能です。SSD全体を1つのパーティションとして使いたい場合は「Use an entire disk」を選択して続行してください。
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/2dJ9oeMGjpWn6cZ/preview)
 
-セットアップが自動でボリュームを作成します。`Done`を選択して次に進みましょう。
+セットアップが自動でボリュームを作成します。`Done`を選んで次へ進みましょう。
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/WXfzt57Rtm2SQLD/preview)
 
-処理を開始する前に、既存のデータがすべて削除される旨の警告が表示されます。`Continue`を選択して確定してください。
+処理開始前に、既存データがすべて削除される旨の警告が表示されます。`Continue`を選んで確定してください。 
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/L3YcGNbYWpMmaDj/preview)
 
-ユーザーアカウントを好みに合わせて設定してください。最終的にrootアカウントを使いたい場合はパスワードを変更すればOKです。タブキーや矢印キーで選択肢を移動し、設定が完了したら`Done`にチェックを入れて進みます。
+ユーザーアカウントを好みに合わせて設定してください。rootアカウントもパスワードを変更すれば使えます。
+タブキーや矢印キーで選択肢を移動し、設定が終わったら`Done`にチェックを入れて進みます。
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/mqrjmF2ZmA2Qj9z/preview)
 
@@ -85,7 +86,7 @@ ISOが正常にマウントされ読み込まれると、サーバーはセッ�
 
 
 
-SSHセットアップのインストールを推奨します。SSHでサーバーを管理したい場合はインストールオプションを選択し、処理を確定してください。
+SSHセットアップのインストールを推奨します。SSHでサーバー管理したい場合はインストールを選択し、処理を確定してください。
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/Xz3zzMdZ6C523ip/preview)
 
@@ -93,7 +94,7 @@ Ubuntuにはいくつかのデフォルトsnapパッケージがあります。�
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/wcGiSwX935jXeex/preview)
 
-最後に、ISOを取り出して再起動時に再読み込みされないようにします。サーバーを再起動してインストールを完了させましょう。
+処理完了のため、ISOを取り出して再起動時に再読み込みされないようにします。サーバーを再起動してセットアップを完了させましょう。
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/SzrxCtJTx2S8Nef/preview)
 
@@ -109,17 +110,13 @@ Ubuntuにはいくつかのデフォルトsnapパッケージがあります。�
 
 ### rootユーザーのパスワード変更
 
-rootユーザーのパスワードは簡単に変更可能です。`sudo su`を実行し、自分のパスワードを入力します。続けて`sudo passwd`を実行し、新しいrootパスワードを入力してください。これでrootユーザーでログインできるようになります。
+rootユーザーのパスワードは簡単に変更可能です。`sudo su`を実行し、自分のパスワードを入力します。続けて`sudo passwd`を実行し、新しいrootパスワードを入力してください。これでrootユーザーでログインできます。
 
 
 
 ## まとめ
 
-おめでとうございます！専用サーバーにUbuntu 22.04のインストールが無事完了しました。もし質問やサポートが必要な場合は、いつでもお気軽に当社のサポートチームにご連絡ください。毎日対応していますよ！🙂
+おめでとうございます！専用サーバーにUbuntu 22.04のインストールが無事完了しました。もし質問やサポートが必要な場合は、毎日対応しているサポートチームまでお気軽にお問い合わせくださいね！🙂
 
 
 
-
-
-
-<InlineVoucher />

@@ -11,14 +11,12 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Wprowadzenie
 
-Na Linuksie zazwyczaj dostępna jest domyślna konsola SSH do zarządzania serwerem. W niektórych przypadkach wygodniej jest użyć połączenia pulpitu zdalnego, podobnie jak w Windows.  
-Post-instalacja jest możliwa dla większości dystrybucji Linuksa. W tym poradniku wyjaśniamy to na przykładzie Ubuntu i Debiana.
+Na Linuksie zazwyczaj jest domyślna konsola SSH do zarządzania serwerem. W niektórych przypadkach łatwiej może być użyć połączenia pulpitu zdalnego, podobnie jak w Windows.  
+Post-instalacja jest możliwa dla większości dystrybucji Linuksa. W tym poradniku wyjaśniamy to dla Ubuntu i Debiana.
 
 :::info
 Ważne: Jako system operacyjny musi być użyte co najmniej Ubuntu 18.04.X LTS (Bionic Beaver) lub Debian 10 (Buster). Zalecamy nowsze wersje.
 :::
-
-<InlineVoucher />
 
 ## Instalacja xRDP
 
@@ -31,7 +29,7 @@ sudo apt update; sudo apt upgrade -y
 sudo apt update; sudo apt upgrade -y
 ```
 
-Po aktualizacji instalujemy niezbędne pakiety: 
+Po aktualizacji instalujemy potrzebne pakiety: 
 ```
 // Debian
 sudo apt install xfce4 xfce4-goodies xorg dbus-x11 x11-xserver-utils -y
@@ -73,7 +71,7 @@ Domyślny port to: 3389
 
 ## Połączenie
 
-Połączenie można nawiązać za pomocą dowolnego klienta RDP, łącząc się pod IP:PORT.  
+Połączenie można nawiązać przez dowolne narzędzie RDP, łącząc się z IP:PORT.  
 Podczas łączenia zostaniesz poproszony o dane logowania: 
 
 ![xrdp2](https://screensaver01.zap-hosting.com/index.php/s/btRPMG73cT6ysyL/preview)
@@ -88,5 +86,3 @@ Ubuntu:
 Debian: 
 
 ![xrdp4](https://screensaver01.zap-hosting.com/index.php/s/riHNCEEyKcoLHDy/preview)
-
-<InlineVoucher />

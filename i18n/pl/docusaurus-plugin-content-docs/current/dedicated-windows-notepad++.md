@@ -19,12 +19,6 @@ Notepad++ to darmowy i otwartoźródłowy edytor tekstu i kodu źródłowego dla
 
 Myślisz o samodzielnym hostingu tej usługi? Przeprowadzimy Cię przez każdy krok instalacji i konfiguracji oraz podpowiemy, na co zwrócić uwagę.
 
-
-
-<InlineVoucher />
-
-
-
 ## Wymagania wstępne
 
 Przed instalacją **Notepad++** upewnij się, że Twoje środowisko hostingowe spełnia poniższe wymagania, aby zapewnić płynną instalację i optymalną wydajność.
@@ -35,44 +29,33 @@ Przed instalacją **Notepad++** upewnij się, że Twoje środowisko hostingowe s
 | RAM | 2 GB | 4 GB |
 | Miejsce na dysku | 25 MB | 25 GB |
 
-
-
-
 ## Instalacja
-Gdy wszystkie wymagania zostały spełnione, a niezbędne przygotowania zakończone, możesz przejść do instalacji aplikacji Notepad++. Pobierz ją ze strony oficjalnej: https://notepad-plus-plus.org/downloads/
+
+Gdy spełnisz wszystkie wymagania i przygotujesz środowisko, możesz przejść do instalacji aplikacji Notepad++. Pobierz ją z oficjalnej strony: https://notepad-plus-plus.org/downloads/
 
 Uruchom instalator Notepad++ i postępuj zgodnie z instrukcjami:
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/5ksLwSePniTPZFQ/preview)
 
-
-
 ## Konfiguracja
 
-Notepad++ oferuje szeroki zakres opcji personalizacji dostępnych w *Ustawienia > Preferencje*. Pozwalają one dostosować edytor do Twojego stylu pracy:
+Notepad++ oferuje szeroki zakres opcji personalizacji dostępnych w *Ustawienia > Preferencje*. Dzięki nim możesz dostosować edytor do swojego stylu pracy:
 
 - **Ogólne**: Kontroluj zachowanie przy starcie, np. automatyczne otwieranie ostatnio używanych plików, ustaw domyślny język lub sposób działania kart.  
-- **Ustawienia edytora**: Dostosuj czcionkę i jej rozmiar, szerokość tabulatora, numerację linii, automatyczne wcięcia lub wyświetlanie znaków spacji i tabulatorów.  
+- **Ustawienia edytora**: Dostosuj czcionkę i jej rozmiar, szerokość tabulatora, numerację linii, automatyczne wcięcia oraz wyświetlanie spacji i znaków tabulacji.  
 - **Schematy kolorów i składnia**: Skorzystaj z „Konfiguratora stylów”, aby zmieniać motywy i personalizować podświetlanie składni dla każdego obsługiwanego języka.  
-- **Obsługa plików**: Skonfiguruj automatyczne przeładowanie plików po zmianach, zachowanie przy dużych plikach lub preferencje kodowania, np. UTF-8.  
+- **Obsługa plików**: Skonfiguruj automatyczne przeładowanie plików po zmianach, zachowanie przy dużych plikach oraz preferencje kodowania, np. UTF-8.  
 - **Bezpieczeństwo i kopie zapasowe**: Włącz automatyczne kopie zapasowe lub przywracanie sesji, by uniknąć utraty danych.  
-- **Wtyczki**: Instaluj i zarządzaj rozszerzeniami przez Menedżera Wtyczek, dodając funkcje takie jak wsparcie FTP czy zaawansowane formatowanie.  
+- **Wtyczki**: Instaluj i zarządzaj rozszerzeniami przez Menedżera wtyczek, dodając funkcje takie jak wsparcie FTP czy zaawansowane formatowanie.  
 
-Dzięki tym ustawieniom Notepad++ jest bardzo elastyczny — sprawdzi się zarówno do prostego edytowania tekstu, jak i pełnoprawnego developmentu.
+Te ustawienia sprawiają, że Notepad++ jest bardzo elastyczny — idealny zarówno do prostego edytowania tekstu, jak i pełnoprawnego developmentu.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/X8og5qnFkBTRcmA/preview)
 
+## Podsumowanie i dodatkowe materiały
 
+Gratulacje! Udało Ci się zainstalować i skonfigurować Notepad++ na Twoim serwerze dedykowanym. Polecamy też zajrzeć do poniższych źródeł, które mogą pomóc Ci jeszcze lepiej ogarnąć konfigurację serwera:
 
+- [notepad-plus-plus.org/](https://notepad-plus-plus.org/) – Oficjalna strona
 
-## Podsumowanie i dodatkowe zasoby
-
-Gratulacje! Właśnie pomyślnie zainstalowałeś i skonfigurowałeś Notepad++ na swoim serwerze dedykowanym. Polecamy też rzucić okiem na poniższe materiały, które mogą Ci pomóc i wesprzeć podczas konfiguracji serwera:
-
-- [notepad-plus-plus.org/](https://notepad-plus-plus.org/) - Oficjalna strona
-
-Masz pytania, które nie zostały tu poruszone? Jeśli potrzebujesz dalszej pomocy, śmiało kontaktuj się z naszym supportem — jesteśmy dostępni codziennie, by Ci pomóc! 🙂
-
-
-
-<InlineVoucher />
+Masz pytania, których tu nie ma? Jeśli potrzebujesz pomocy lub wsparcia, śmiało kontaktuj się z naszym zespołem supportu, który jest do Twojej dyspozycji codziennie! 🙂

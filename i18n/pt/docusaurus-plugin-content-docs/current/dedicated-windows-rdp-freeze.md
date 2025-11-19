@@ -13,8 +13,6 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 O problema de travamento do RDP é um fenômeno comum onde, dependendo do sistema operacional e da versão usada, sessões de área de trabalho remota travam inesperadamente. Essa questão pode ser frustrante e prejudicar bastante a produtividade. Neste documento, você vai entender melhor a causa do problema e como resolvê-lo.
 
-<InlineVoucher />
-
 ## Causa Principal
 
 Diversas fontes indicam cada vez mais que o problema se deve à menor resistência do protocolo RDP à perda de pacotes ou pacotes corrompidos. Além disso, um bug em certas versões do Windows pode fazer com que o sistema operacional não consiga alternar de forma fluida entre os protocolos TCP e UDP, agravando ainda mais a situação.
@@ -34,5 +32,3 @@ Ao executar esse comando, seu computador passará a usar o protocolo TCP em vez 
 :::info 
 **Confirme a entrada** pressionando a tecla Enter e **reinicie seu computador depois** para que a alteração seja aplicada e entre em vigor.
 :::
-
-<InlineVoucher />

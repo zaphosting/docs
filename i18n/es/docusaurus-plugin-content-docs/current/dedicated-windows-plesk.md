@@ -1,7 +1,7 @@
 ---
 id: dedicated-windows-plesk
 title: "Servidor Dedicado: Instalación de Plesk"
-description: "Descubre cómo gestionar sitios web y servidores de forma eficiente con Plesk, tanto para principiantes como para expertos → Aprende más ahora"
+description: "Descubre cómo gestionar de forma eficiente sitios web y servidores con Plesk, tanto para principiantes como para expertos → Aprende más ahora"
 sidebar_label: Instalar Plesk
 services:
   - dedicated
@@ -11,9 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introducción
 
-Plesk es una plataforma completa para el alquiler de servidores y gestión de hosting web que permite a los usuarios administrar sitios web, servidores, cuentas de correo y más a través de una interfaz fácil de usar. Es una solución versátil, ideal tanto para principiantes como para desarrolladores web y administradores de sistemas con experiencia.
-
-<InlineVoucher />
+Plesk es una plataforma completa para el hosting web y la gestión de servidores que permite a los usuarios administrar sitios web, servidores, cuentas de correo y más a través de una interfaz fácil de usar. Es una solución versátil, ideal tanto para principiantes como para desarrolladores web y administradores de sistemas con experiencia.
 
 ## Establecer conexión con el servidor
 
@@ -21,7 +19,7 @@ Para instalar Plesk en el servidor, primero necesitas conectarte a él. Cómo ha
 
 ## Instalador de Plesk
 
-A continuación, necesitas el Instalador de Plesk, que es necesario para la instalación de Plesk. Puedes descargarlo haciendo clic en [Plesk Installer](https://installer-win.plesk.com/plesk-installer.exe)
+A continuación, necesitas el Instalador de Plesk, que es necesario para la instalación. Puedes descargarlo haciendo clic en [Plesk Installer](https://installer-win.plesk.com/plesk-installer.exe)
 
 Este instalador se guarda en una carpeta; en nuestro ejemplo usamos una carpeta llamada "Plesk" creada en el escritorio. La ruta a este archivo será importante para los siguientes pasos.
 
@@ -54,6 +52,4 @@ El proceso de instalación puede tardar entre 30 y 60 minutos, tras lo cual Ples
 
 ## Conclusión
 
-¡Felicidades, has instalado Plesk con éxito! Para cualquier duda o ayuda, no dudes en contactar a nuestro equipo de soporte, disponible todos los días para asistirte. 🙂
-
-<InlineVoucher />
+¡Felicidades, has instalado Plesk con éxito! Para cualquier duda o ayuda, no dudes en contactar con nuestro equipo de soporte, disponible todos los días para asistirte 🙂

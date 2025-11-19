@@ -13,18 +13,16 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 phpMyAdmin é uma ferramenta gratuita baseada na web para gerenciar bancos de dados MySQL e MariaDB. Ela oferece uma interface amigável que permite criar, editar, gerenciar e excluir bancos de dados sem precisar digitar comandos SQL manualmente.
 
-<InlineVoucher />
-
 ## Preparação
 
-Antes de começar a instalação, certifique-se de que o sistema está atualizado. Atualizações pendentes podem ser feitas com os seguintes comandos:
+Antes de começar a instalação, certifique-se de que o sistema está atualizado. Atualizações pendentes podem ser feitas com os comandos:
 
 ```
 sudo apt update -y
 sudo apt upgrade -y
 ```
 
-Você também deve garantir que o PHP já esteja instalado no seu sistema. Isso é essencial para o uso do phpMyAdmin. Para saber como instalar o PHP, confira nosso [guia Instalar PHP](dedicated-linux-php.md).
+Você também deve garantir que o PHP já esteja instalado no seu sistema. Isso é essencial para usar o phpMyAdmin. Para saber como instalar o PHP, confira nosso [guia Instalar PHP](dedicated-linux-php.md).
 
 :::warning Pacotes PHP faltando
 Se os pacotes PHP necessários estiverem faltando, os arquivos PHP do phpMyAdmin não poderão ser processados e exibidos corretamente.
@@ -32,7 +30,7 @@ Se os pacotes PHP necessários estiverem faltando, os arquivos PHP do phpMyAdmin
 
 ## Instalação
 
-Com a preparação concluída, a instalação da interface do phpMyAdmin pode começar. Primeiro, abra o diretório onde o phpMyAdmin será instalado.
+Se a preparação foi concluída, agora pode começar a instalação da interface phpMyAdmin. Para isso, primeiro abra o diretório de instalação onde o phpMyAdmin será instalado.
 
 Navegue até o diretório correspondente com o comando `cd /usr/share`. A versão mais recente do phpMyAdmin deve ser baixada para o diretório de instalação usando o `wget`:
 
@@ -41,19 +39,19 @@ wget https://www.phpmyadmin.net/downloads/phpMyAdmin-latest-all-languages.zip -O
 ```
 
 :::warning
-Se o comando `wget` não for encontrado, ele pode ser instalado com o comando `sudo apt install wget -y`.
+Se o serviço `wget` não for encontrado, ele pode ser instalado com o comando `sudo apt install wget -y`.
 :::
 
-Assim que o download terminar, o arquivo ZIP baixado pode ser descompactado com o seguinte comando:
+Assim que o download terminar, o arquivo ZIP baixado pode ser descompactado com o comando:
 
 ```
 unzip phpmyadmin.zip
 ```
 :::warning
-Se o comando `unzip` não for encontrado, ele pode ser instalado com o comando `sudo apt install unzip -y`.
+Se o serviço `unzip` não for encontrado, ele pode ser instalado com o comando `sudo apt install unzip -y`.
 :::
 
-Agora o arquivo descompactado pode ser renomeado para um nome mais simples, o arquivo ZIP removido e as permissões necessárias configuradas:
+O arquivo descompactado pode agora ser renomeado para um nome mais simples, o arquivo ZIP removido e as permissões necessárias configuradas:
 
 ```
 mv phpMyAdmin-*-all-languages phpmyadmin
@@ -67,7 +65,7 @@ rm phpmyadmin.zip; chmod -R 0755 phpmyadmin
 Agora o phpMyAdmin deve ser adicionado à configuração do servidor web. Para isso, use `nano /etc/apache2/conf-available/phpmyadmin.conf` para criar um novo arquivo de configuração de Virtual Host e preencha com o seguinte conteúdo:
 
 ```
-# Configuração Apache do phpMyAdmin
+# Configuração do Apache para phpMyAdmin
 
 Alias /phpmyadmin /usr/share/phpmyadmin
 
@@ -76,7 +74,7 @@ Alias /phpmyadmin /usr/share/phpmyadmin
     DirectoryIndex index.php
 </Directory>
 
-# Bloquear acesso web por segurança a diretórios que não precisam
+# Bloquear acesso web por segurança para diretórios que não precisam
 <Directory /usr/share/phpmyadmin/templates>
     Require all denied
 </Directory>
@@ -108,6 +106,4 @@ chown -R www-data:www-data /usr/share/phpmyadmin/tmp/
 
 ## Conclusão
 
-Parabéns, você instalou e configurou o phpMyAdmin com sucesso. Você pode acessar a interface web usando o endereço IP e o caminho do seu servidor (http://Endereço-IP/phpmyadmin). Para dúvidas ou ajuda, não hesite em contatar nosso time de suporte, disponível diariamente para te ajudar! 🙂
-
-<InlineVoucher />
+Parabéns, você instalou e configurou o phpMyAdmin com sucesso! Você pode acessar a interface web usando o endereço IP e o caminho do seu servidor (http://Endereço-IP/phpmyadmin). Para dúvidas ou ajuda, não hesite em contatar nosso time de suporte, disponível diariamente para te ajudar! 🙂

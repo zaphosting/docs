@@ -13,14 +13,12 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 Você tem um VPS Linux e quer instalar o serviço de servidor dedicado de Half-Life 2 nele? Você está no lugar certo. Neste guia, vamos explicar o passo a passo para instalar esse serviço no seu servidor Linux usando o SteamCMD. Usaremos o Ubuntu nos exemplos, mas o processo deve ser bem parecido para outras distribuições.
 
 :::tip
-Sabia que você pode instalar nossa **Interface ZAP GS/TS3** diretamente no seu VPS, permitindo configurar serviços de servidor de jogos com integração direta ao seu dashboard da ZAP-Hosting, em apenas alguns cliques? Saiba mais sobre a [Interface GS/TS3](dedicated-linux-gs-interface.md).
+Sabia que você pode instalar nossa **Interface ZAP GS/TS3** diretamente no seu VPS, permitindo configurar serviços de servidor de jogos com integração direta ao seu dashboard da ZAP-Hosting, em poucos cliques? Saiba mais sobre a [Interface GS/TS3](dedicated-linux-gs-interface.md).
 :::
-
-<InlineVoucher />
 
 ## Preparação
 
-Para começar, conecte-se ao seu VPS via SSH. Use nosso guia [Acesso Inicial SSH](dedicated-linux-ssh.md) se precisar de ajuda para isso. Também será necessário fazer uma configuração inicial do SteamCMD se for a primeira vez que você o usa no seu servidor Linux. Use nosso guia [Configuração SteamCMD Linux](dedicated-linux-steamcmd.md) e certifique-se de que o SteamCMD está totalmente configurado antes de continuar.
+Para começar, conecte-se ao seu VPS via SSH. Use nosso guia [Acesso Inicial SSH](dedicated-linux-ssh.md) se precisar de ajuda com isso. Também será necessário fazer a configuração inicial do SteamCMD se for a primeira vez que você o usa no seu servidor Linux. Use nosso guia [Configuração SteamCMD Linux](dedicated-linux-steamcmd.md) e certifique-se que o SteamCMD está totalmente configurado antes de continuar.
 
 ## Instalação
 
@@ -35,7 +33,7 @@ Quando estiver logado, você pode iniciar o processo de instalação usando o co
 steamcmd +force_install_dir '/home/steam/hl2-ds' +login anonymous +app_update 232370 validate +quit
 ```
 
-Tenha paciência enquanto o download é concluído, pode levar um tempo para jogos maiores. Quando terminar com sucesso, uma mensagem de confirmação aparecerá.
+Tenha paciência enquanto o download é concluído, pode levar um tempo para jogos maiores. Quando terminar, uma mensagem de sucesso aparecerá confirmando.
 
 ## Configuração
 
@@ -54,17 +52,15 @@ Depois de obter o token, inclua-o nos parâmetros de inicialização do servidor
 
 ## Iniciando e Conectando ao seu servidor
 
-Agora é hora de iniciar seu servidor. Vá para o diretório principal do jogo e execute o seguinte comando de inicialização:
+Agora é hora de iniciar seu servidor. Vá para o diretório principal do jogo e execute o comando de inicialização:
 ```
 ./srcds_run -console -game hl2mp -secure +maxplayers 10 +map dm_runoff +sv_setsteamaccount XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 ```
 
-Você deverá ver logs aparecerem no seu terminal, indicando que o servidor iniciou com sucesso. Note que a primeira inicialização pode demorar um pouco enquanto tudo é configurado. Alternativamente, você pode se conectar diretamente usando a barra de busca na lista de servidores, procurando por: `[seu_endereço_ip]:2456`.
+Você verá logs aparecerem no seu terminal indicando que o servidor iniciou com sucesso. Lembre-se que a primeira inicialização pode demorar um pouco enquanto tudo é configurado. Alternativamente, você pode se conectar diretamente usando a barra de busca na lista de servidores e procurando por: `[seu_endereço_ip]:2456`.
 
 ## Conclusão
 
-Parabéns, você instalou e configurou com sucesso o servidor Half-Life 2 no seu VPS! Como próximo passo, recomendamos conferir nosso guia [Configurar Serviço Linux](dedicated-linux-create-gameservice.md), que explica como configurar seu novo servidor dedicado de jogos como um serviço. Isso traz vários benefícios, incluindo inicialização automática do servidor no boot, atualizações automáticas, gerenciamento fácil e acesso a logs, entre outros!
+Parabéns, você instalou e configurou com sucesso o servidor Half-Life 2 no seu VPS! Como próximo passo, recomendamos conferir nosso guia [Configurar Serviço Linux](dedicated-linux-create-gameservice.md), que explica como configurar seu novo servidor dedicado de jogos como um serviço. Isso traz vários benefícios, como inicialização automática do servidor no boot, atualizações automáticas, gerenciamento fácil e acesso a logs, entre outros!
 
-Para dúvidas ou ajuda, não hesite em contatar nosso time de suporte, disponível diariamente para te ajudar! 🙂
-
-<InlineVoucher />
+Se tiver dúvidas ou precisar de ajuda, não hesite em contatar nosso time de suporte, disponível diariamente para te ajudar! 🙂

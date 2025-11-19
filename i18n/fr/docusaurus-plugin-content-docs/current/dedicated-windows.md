@@ -22,22 +22,22 @@ Les étapes d’installation et la démonstration dans ce guide sont basées sur
 
 
 
-<InlineVoucher />
+
 
 ## Préparation
-Pour l’installation et la configuration d’un système d’exploitation, il est d’abord important de monter l’ISO correspondant du système. Plusieurs méthodes sont possibles :
+Pour l’installation et la configuration d’un système d’exploitation, il est d’abord important de monter l’ISO correspondant. Plusieurs méthodes sont possibles :
 
 1. Montage via la configuration initiale
 2. Montage via iLO (Média Virtuel)
 3. Montage via iLO (Console à distance)
 
-Si vous ne connaissez pas encore la procédure pour monter un fichier ISO, il est conseillé de consulter notre [guide Configuration initiale](dedicated-setup.md) ou [ISO personnalisée](dedicated-iso.md).
+Si vous ne connaissez pas encore le montage d’un fichier ISO, il est préférable de consulter notre [guide Configuration initiale](dedicated-setup.md) ou [ISO perso](dedicated-iso.md).
 
 
 
 ## Installation
 
-Une fois le fichier ISO monté avec succès, l’installation de Windows Server démarrera automatiquement au prochain redémarrage du système. Commencez par choisir la langue et la disposition du clavier. Ensuite, sélectionnez l’option d’installation où vous devez choisir **Installer Windows Server**.
+Une fois l’ISO monté avec succès, l’installation de Windows Server démarrera automatiquement au prochain redémarrage du système. Commencez par choisir la langue et la disposition du clavier. Ensuite, sélectionnez l’option d’installation, où vous devez choisir **Installer Windows Server**.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/gW4cr5WDGYEdBzw/download)
 
@@ -48,7 +48,7 @@ Dès que l’installation est lancée, le système prépare les composants néce
 - Windows Server 2025 Datacenter Evaluation
 - Windows Server 2025 Datacenter Evaluation (Expérience Bureau)
 
-Si vous avez besoin d’une interface graphique et de l’utilisation du RDP, choisissez l’une des variantes Expérience Bureau. Pour plus d’infos sur les différences entre les éditions Standard et Datacenter, consultez le site officiel de [Microsoft](https://learn.microsoft.com/en-us/windows-server/get-started/editions-comparison?pivots=windows-server-2025).
+Si vous avez besoin d’une interface graphique et de l’utilisation du RDP, choisissez l’une des variantes Expérience Bureau. Plus d’infos sur les différences entre les éditions Standard et Datacenter sont disponibles sur le site officiel de [Microsoft](https://learn.microsoft.com/en-us/windows-server/get-started/editions-comparison?pivots=windows-server-2025).
 
 :::warning Éditions et licences Windows Server
 Assurez-vous de sélectionner l’édition du serveur pour laquelle vous possédez une clé de licence valide. ZAP-Hosting ne fournit pas de licence Windows Server avec ce produit. Une fois la période d’essai terminée, la licence doit être achetée séparément.
@@ -58,9 +58,9 @@ Après avoir choisi l’image désirée, confirmez les avis et conditions de lic
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/2RQcBKiqoJE9MAg/download)
 
-L’installation de Windows Server va maintenant se dérouler. Le système redémarrera plusieurs fois durant le processus. Cela peut prendre un certain temps.
+L’installation de Windows Server va maintenant se dérouler. Le système redémarrera plusieurs fois pendant le processus. Cela peut prendre un certain temps.
 
-Définissez les identifiants de connexion et vous serez prêt à vous connecter à votre système installé. Conservez bien ces identifiants, car vous en aurez toujours besoin pour vous connecter.
+Définissez les identifiants de connexion et vous serez prêt à vous connecter à votre système d’exploitation installé. Conservez bien ces identifiants, car vous en aurez toujours besoin pour vous connecter.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/FiXwH85pT24DYnJ/download)
 
@@ -75,6 +75,4 @@ Une fois le système d’exploitation installé, il faut activer l’accès RDP 
 
 
 ## Conclusion
-Félicitations, vous avez installé avec succès Windows Server 2025 sur votre serveur dédié. Pour toute question ou aide supplémentaire, n’hésitez pas à contacter notre équipe support, disponible tous les jours pour vous accompagner ! 🙂
-
-<InlineVoucher />
+Félicitations, vous avez installé avec succès Windows Server 2025 sur votre serveur dédié. Pour toute question ou assistance, n’hésitez pas à contacter notre équipe support, disponible tous les jours pour vous aider ! 🙂

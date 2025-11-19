@@ -11,9 +11,9 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introducción
 
-RAID (Conjunto Redundante de Discos Independientes) es una tecnología que combina varios discos duros en una única unidad lógica para lograr redundancia de datos y/o mayor rendimiento. Existen diferentes niveles de RAID que ofrecen distintas combinaciones de distribución de datos y tolerancia a fallos.
+RAID (Redundant Array of Independent Disks) es una tecnología que combina varios discos duros en una sola unidad lógica para lograr redundancia de datos y/o un aumento en el rendimiento. Existen diferentes niveles de RAID que ofrecen distintas combinaciones de distribución de datos y tolerancia a fallos.
 
-<InlineVoucher />
+
 
 ## Tipos de RAID disponibles
 Nuestros servidores dedicados actualmente ofrecen 2 bahías para SSD, lo que significa que hay dos configuraciones posibles para RAID. La primera es RAID0, que se usa para combinar volúmenes en uno solo grande, y RAID1, que se usa para espejar volúmenes y mantener los datos redundantes. Vamos a profundizar en ambos en las siguientes secciones.
@@ -23,7 +23,7 @@ RAID0 ofrece velocidades de lectura y escritura un poco más rápidas, gracias a
 :::
 
 ### RAID0
-En esta configuración RAID, todos los volúmenes existentes se combinan en uno solo grande, por ejemplo, de 2 SSDs, cada uno con 1 TB. Se crearía una partición de 2TB que podría usarse completamente.
+En esta configuración RAID, todos los volúmenes existentes se combinan en uno solo grande, por ejemplo, de 2 SSDs, cada uno con 1 TB. Se crearía una partición de 2TB que luego podría usarse completamente.
 
 No hay redundancia de datos, por lo que en caso de un fallo técnico, la pérdida de datos suele ser inevitable porque los datos se escriben en sectores diferentes.
 
@@ -34,7 +34,7 @@ Si tu servidor dedicado tiene solo 1 SSD, esto es automáticamente un RAID0.
 :::
 
 ### RAID1
-Esta configuración es muy diferente a RAID0, aquí hay redundancia de tus datos, lo que significa que todo lo que guardas en tu servidor se duplica.
+Esta configuración es muy diferente a RAID0, aquí hay redundancia de tus datos, lo que significa que todo lo que guardes en tu servidor se duplica.
 Por lo tanto, se espeja en ambos SSDs y estaría disponible incluso si falla uno de ellos, así que tus datos están seguros con 1 SSD.
 
 En caso de un fallo técnico, solo habría que reemplazar el SSD afectado y tu servidor reconstruiría el RAID, es decir, volvería a espejar los datos.
@@ -44,7 +44,7 @@ Especialmente para datos más sensibles, esta configuración es muy recomendada,
 ¡Las copias de seguridad regulares de todos los datos importantes son esenciales!
 :::
 
-## El asistente de configuración
+## El Asistente de Configuración
 
 Cuando tu servidor está arrancando, es necesario iniciar la herramienta de configuración RAID. Esto se puede hacer presionando `F8` en el paso de arranque correspondiente.
 
@@ -62,10 +62,10 @@ Después de unos segundos, aparecerá esta vista general de configuración.
 
 Ahora hay varias opciones de menú:
 
-* Crear unidad lógica  
+* Crear Unidad Lógica  
 Crea un nuevo volumen.
 
-* Ver unidad lógica  
+* Ver Unidad Lógica  
 Muestra la configuración RAID actual.
 
 ***
@@ -78,23 +78,23 @@ RAID1
 ![](https://screensaver01.zap-hosting.com/index.php/s/749Kxjq6Mkzdc69/preview)
 ***
 
-* Eliminar unidad lógica  
+* Eliminar Unidad Lógica  
 Puedes eliminar la configuración RAID actual, para crear una nueva por ejemplo.
 
-* Seleccionar volumen de arranque  
-Podrías arrancar desde otro medio de almacenamiento, lo cual no es necesario en nuestro caso.
+* Seleccionar Volumen de Arranque  
+Podrías arrancar desde otro medio de almacenamiento, lo cual no es necesario en nuestro caso aquí.
 
-* Gestionar claves de licencia  
+* Gestionar Claves de Licencia  
 No es necesario ajustar o cambiar nada aquí, la licencia ya está preconfigurada.
 
-* Configuración de caché  
+* Configuración de Caché  
 La opción de caché se puede ajustar para aumentar un poco las velocidades de lectura/escritura del SSD.  
 Básicamente, los últimos bloques de datos se almacenan en caché durante cada proceso de escritura por razones de seguridad, por ejemplo, en caso de una pérdida de energía.  
 Esto causa una desventaja mínima en el rendimiento.
 
 ### Crear un nuevo RAID
 
-Primero verificamos que no haya ningún volumen, abrimos `Eliminar unidad lógica`
+Primero verificamos que no haya ningún volumen, abrimos `Eliminar Unidad Lógica`
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/EbPtmgFyZ3oN6jb/preview)
 
@@ -108,9 +108,10 @@ Presionando `F3` confirmamos la eliminación.
 
 ***
 
-Después de que el RAID se haya eliminado con éxito, necesitamos abrir `Crear unidad lógica`
+Después de que el RAID se haya eliminado con éxito, necesitamos abrir `Crear Unidad Lógica`
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/SjP6ZkcWXCKc4kT/preview)
+
 
 Aquí puedes ver todos tus SSDs y elegir entre configuraciones RAID.  
 Por supuesto, no todos estos RAIDs pueden implementarse en la configuración actual.
@@ -127,31 +128,28 @@ Cuando termines de elegir tu configuración RAID, puedes confirmarla presionando
 Puedes cerrar el asistente de configuración presionando `ESC`
 :::
 
-### Seleccionar volumen de arranque
+### Seleccionar Volumen de Arranque
 
 Si has modificado tu RAID, es necesario seleccionar el volumen de arranque.  
-Esto se puede hacer fácilmente en **Seleccionar volumen de arranque**, elige ahí la unidad lógica que creaste, de lo contrario tu servidor quedará atrapado en un bucle de arranque.
+Esto se puede hacer fácilmente en **Seleccionar Volumen de Arranque**, elige allí la unidad lógica que creaste, de lo contrario tu servidor quedará atrapado en un bucle de arranque.
 
-**Seleccionar volumen de arranque**<br/>
+**Seleccionar Volumen de Arranque**<br/>
 ![](https://screensaver01.zap-hosting.com/index.php/s/2GDEYfjnkmaKF9F/preview)
 ***
-**Almacenamiento conectado directamente**<br/>
+**Almacenamiento Directo Conectado**<br/>
 ![](https://screensaver01.zap-hosting.com/index.php/s/2468ZCGkr2ninxM/preview)
 ***
-**Unidad lógica 01**<br/>
+**Unidad Lógica 01**<br/>
 ![](https://screensaver01.zap-hosting.com/index.php/s/tN6pRiJbZexbzmg/preview)
 ***
 **Presiona `F8` para guardar como volumen de arranque**<br/>
 ![](https://screensaver01.zap-hosting.com/index.php/s/tqGFzGZGgeo4JjZ/preview)
 
 Al final tienes la opción de presionar `F8` para reiniciar tu sistema directamente o volver al menú principal presionando `Enter`.  
-Recuerda que el volumen de arranque debe configurarse **siempre** que modifiques tu configuración RAID.
+Recuerda que el volumen de arranque debe configurarse **siempre** cuando hayas modificado tu configuración RAID.
 
 
 
 ## Conclusión
 
-¡Felicidades, has configurado exitosamente el RAID en tu servidor dedicado! Para cualquier pregunta o ayuda, no dudes en contactar a nuestro equipo de soporte, que está disponible todos los días para asistirte 🙂
-
-
-<InlineVoucher />
+¡Felicidades, has configurado con éxito el RAID en tu servidor dedicado! Para más preguntas o ayuda, no dudes en contactar a nuestro equipo de soporte, que está disponible todos los días para asistirte 🙂

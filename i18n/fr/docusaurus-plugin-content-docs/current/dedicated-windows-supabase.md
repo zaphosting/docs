@@ -17,19 +17,19 @@ Supabase est une plateforme de développement Postgres open-source qui fournit u
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/gE9NRSMr22oZaCx/preview)
 
-Tu envisages d’héberger ce service toi-même ? On te guide pas à pas pour l’installer et le configurer, avec tout ce qu’il faut savoir.
+Tu envisages d’héberger ce service toi-même ? On te guide pas à pas pour l’installer et le configurer, avec tout ce qu’il faut savoir pour assurer un setup au top.
 
-<InlineVoucher />
+
 
 ## Prérequis
 
-Avant d’installer **Supabase**, assure-toi que ton environnement d’hébergement répond aux exigences suivantes pour garantir une installation fluide et des performances optimales.
+Avant d’installer **Supabase**, assure-toi que ton environnement d’hébergement remplit les conditions suivantes pour garantir une installation fluide et des performances optimales.
 
-| Matériel  | Minimum     | Recommandation ZAP-Hosting |
-| --------- | ----------- | -------------------------- |
-| CPU       | 1 cœur CPU  | 4 cœurs CPU                |
-| RAM       | 4 Go        | 8 Go                       |
-| Espace disque | 25 Go    | 25 Go                      |
+| Matériel   | Minimum     | Recommandation ZAP-Hosting |
+| ---------- | ----------- | -------------------------- |
+| CPU        | 1 cœur CPU  | 4 cœurs CPU                |
+| RAM        | 4 Go        | 8 Go                       |
+| Espace disque | 25 Go     | 25 Go                      |
 
 Le logiciel nécessite que toutes les dépendances soient installées et qu’il tourne sur un système d’exploitation supporté. Vérifie que ton serveur remplit ces conditions avant de lancer l’installation :
 
@@ -39,24 +39,27 @@ Le logiciel nécessite que toutes les dépendances soient installées et qu’il
 
 Assure-toi que toutes les dépendances sont installées et que la bonne version du système d’exploitation est utilisée pour éviter les problèmes de compatibilité lors de l’installation de Supabase.
 
+
+
 ## Préparation
 
-Avant de configurer **Supabase**, il faut préparer ton système. Cela inclut la mise à jour du système d’exploitation à la dernière version et l’installation de toutes les dépendances nécessaires. Ces étapes garantissent un environnement stable et évitent les soucis pendant ou après l’installation.
+Avant de configurer **Supabase**, tu dois préparer ton système. Cela inclut la mise à jour de ton système d’exploitation à la dernière version et l’installation de toutes les dépendances nécessaires. Ces préparatifs garantissent un environnement stable et évitent les soucis pendant ou après l’installation.
+
 
 ### Mise à jour du système
-Pour t’assurer que ton système tourne avec les dernières améliorations logicielles et de sécurité, commence toujours par faire une mise à jour complète. Ça garantit que ton système a les derniers patchs de sécurité et versions logicielles avant de continuer.
+Pour t’assurer que ton système tourne avec les dernières améliorations logicielles et de sécurité, commence toujours par faire une mise à jour système. Ça garantit que ton système a les derniers patchs de sécurité et versions logicielles avant de continuer.
 
 ### Installer les dépendances
 Une fois la mise à jour terminée, tu peux passer à l’installation des dépendances.
 
 #### Git
-Les données Supabase seront téléchargées via GitHub. Il faut donc installer Git en premier. Pour ça, installe [Git pour Windows](https://git-scm.com/downloads/win) sur ton serveur.
-
+Les données Supabase seront téléchargées via GitHub. Il faut donc que Git soit installé en premier. Pour ça, installe [Git pour Windows](https://git-scm.com/downloads/win) sur ton serveur.
 #### Docker
 
 Supabase sera déployé et exécuté sur ta machine via un conteneur Docker. Il faut donc installer Docker en premier. Pour ça, installe [Docker Desktop](https://docs.docker.com/desktop/setup/install/windows-install/) sur ton serveur.
 
 Un guide complet sur l’installation et l’utilisation de Docker est dispo dans notre [guide Docker](dedicated-windows-docker.md).
+
 
 ## Installation
 Maintenant que tous les prérequis sont remplis et que la préparation est faite, tu peux lancer l’installation de Supabase. Ouvre l’invite de commandes. Récupère le dépôt Supabase, crée un dossier projet dédié, et copie les fichiers Docker et le fichier d’environnement exemple dedans.
@@ -87,10 +90,12 @@ Tu peux maintenant accéder à Supabase Studio via `http://<ton-ip>:8000`. On te
 Ton appli tourne maintenant avec les identifiants par défaut. Sécurise tes services au plus vite en suivant les instructions ci-dessous.
 :::
 
-## Configuration
-Ne déploie jamais avec des valeurs par défaut ou d’exemple. Remplace tous les placeholders par des secrets forts et uniques, vérifie la configuration selon tes exigences de sécurité, et redémarre tous les services pour appliquer les changements.
 
-Génère des clés API sécurisées avant d’exposer un service. Commence par choisir un secret JWT de 40 caractères. Tu peux utiliser la valeur fournie ou créer la tienne. Stocke ce secret localement dans un endroit sûr. Ne le partage pas et ne le commit pas dans un contrôle de version. Utilise ce secret pour générer un JWT puis dérive les clés API anon et service via le formulaire référencé dans la doc Supabase : https://supabase.com/docs/guides/self-hosting/docker#generate-api-keys
+
+## Configuration
+Ne déploie jamais avec des valeurs par défaut ou d’exemple. Remplace tous les placeholders par des secrets forts et uniques, vérifie la config selon tes exigences de sécurité, et redémarre tous les services pour appliquer les changements.
+
+Génère des clés API sécurisées avant d’exposer un service. Commence par choisir un secret JWT de 40 caractères. Tu peux utiliser la valeur fournie ou créer la tienne. Stocke ce secret localement dans un endroit sûr. Ne le partage pas et ne le commit pas dans un contrôle de version. Utilise ce secret pour générer un JWT puis dérive les clés API anon et service avec le formulaire référencé dans la doc Supabase : https://supabase.com/docs/guides/self-hosting/docker#generate-api-keys
 
 Lance le formulaire deux fois pour produire les deux clés. Mets à jour ton `./docker/.env` avec :
 
@@ -131,13 +136,14 @@ docker compose down
 docker compose up -d
 ```
 
+
+
+
 ## Conclusion et ressources supplémentaires
 
-Félicitations ! Tu as maintenant installé et configuré Supabase avec succès sur ton serveur dédié. On te conseille aussi de jeter un œil aux ressources suivantes, qui peuvent t’apporter un coup de main et des conseils pendant ta configuration.
+Félicitations ! Tu as maintenant installé et configuré Supabase avec succès sur ton serveur dédié. On te recommande aussi de jeter un œil aux ressources suivantes, qui pourront t’apporter un coup de main et des conseils pendant ta configuration serveur :
 
 - [Supabase.com](https://Supabase.com/) - Site officiel
 - [Supabase.com/docs/guides/self-hosting](https://supabase.com/docs/guides/self-hosting) - Documentation Supabase
 
-Tu as des questions spécifiques qui ne sont pas couvertes ici ? Pour toute demande ou assistance, n’hésite pas à contacter notre support, dispo tous les jours pour t’aider ! 🙂
-
-<InlineVoucher />
+Tu as des questions spécifiques qui ne sont pas couvertes ici ? Pour toute question ou assistance, n’hésite pas à contacter notre support, dispo tous les jours pour t’aider ! 🙂

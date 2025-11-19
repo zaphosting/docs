@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introdução
 
-A seguir, vamos te mostrar passo a passo como instalar e configurar o sistema operacional Ubuntu no seu servidor dedicado. Siga essas instruções com atenção para garantir que você configure o sistema operacional com sucesso e o utilize da melhor forma.
+A seguir, vamos te mostrar passo a passo como instalar e configurar o sistema operacional Ubuntu no seu servidor dedicado. Siga essas instruções com atenção para garantir que o sistema operacional seja configurado com sucesso e utilizado da melhor forma.
 
 
 
@@ -29,7 +29,7 @@ Mais informações podem ser encontradas no [site oficial](https://ubuntu.com/ab
 :::
 
 
-<InlineVoucher />
+
 
 ## Preparação
 
@@ -45,11 +45,11 @@ Se você ainda não está familiarizado com a montagem de um arquivo ISO, o melh
 
 ## Instalação
 
-Depois que o ISO for montado e carregado com sucesso, o servidor deve entrar no processo de configuração. O idioma que você quer usar para o seu sistema operacional será definido no início da configuração. Selecione um dos idiomas disponíveis e confirme a seleção com a tecla `Enter`. 
+Assim que o ISO for montado e carregado com sucesso, o servidor deve entrar no processo de configuração. O idioma que você quer usar para seu SO será definido no início da instalação. Selecione um dos idiomas disponíveis e confirme com a tecla `Enter`. 
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/yrHMNzstM23XZH6/preview)
 
-Em seguida, o layout do teclado apropriado deve ser selecionado e configurado para o idioma. Escolha o layout de teclado que for mais adequado para você aqui também. 
+Em seguida, o layout do teclado apropriado deve ser selecionado e configurado para o idioma. Escolha o layout de teclado que for mais adequado para você. 
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/x9kYGEWS5fy7Wjp/preview)
 
@@ -61,11 +61,11 @@ Um proxy adicional pode ser configurado como opção. Porém, isso não é essen
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/tz97Ee8ZQkxAGGb/preview)
 
-Agora o Espelho do Arquivo do Ubuntu (servidor de download dos pacotes) é definido. Nossos servidores dedicados estão localizados na Alemanha, então é recomendado escolher o espelho alemão para garantir a melhor velocidade de download possível.
+Agora o Espelho do Arquivo Ubuntu (servidor de download dos pacotes) é definido. Nossos servidores dedicados estão localizados na Alemanha, então recomendamos escolher o espelho alemão para garantir a melhor velocidade de download possível.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/xNknNyWAbd5DnsZ/preview)
 
-As partições podem ser definidas agora na configuração de armazenamento. Você pode usar uma partição grande ou subdividir se quiser. Se quiser usar o SSD inteiro como uma única partição, escolha `Usar um disco inteiro` e continue.
+As partições podem ser definidas na configuração de armazenamento. Você pode usar uma partição grande ou subdividir, se quiser. Se quiser usar o SSD inteiro como uma única partição, escolha `Usar um disco inteiro` e continue.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/2dJ9oeMGjpWn6cZ/preview)
 
@@ -73,11 +73,11 @@ A configuração cria automaticamente os volumes e você pode prosseguir escolhe
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/WXfzt57Rtm2SQLD/preview)
 
-Antes de iniciar o processo, você será informado que isso apagará todos os dados existentes. Essa mensagem deve ser confirmada com a opção `Continuar`. 
+Antes de iniciar o processo, você será informado que todos os dados existentes serão apagados. Essa mensagem deve ser confirmada com a opção `Continuar`. 
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/L3YcGNbYWpMmaDj/preview)
 
-Configure sua conta de usuário do jeito que preferir, você também pode usar a conta root no final alterando a senha.
+Configure sua conta de usuário como preferir, você também pode usar a conta root no final alterando a senha.
 Você pode navegar pelas opções com tab ou as setas do teclado. Quando terminar, avance marcando `Concluído`.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/mqrjmF2ZmA2Qj9z/preview)
@@ -94,7 +94,7 @@ A instalação do setup SSH é recomendada. Se quiser gerenciar o servidor via S
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/wcGiSwX935jXeex/preview)
 
-Para finalizar o processo, o ISO deve ser ejetado para evitar que ele seja recarregado quando o servidor for reiniciado. Reinicie o servidor uma vez para concluir o processo. 
+Para finalizar o processo, o ISO deve ser ejetado para evitar que ele seja recarregado quando o servidor reiniciar. Reinicie o servidor uma vez para concluir.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/SzrxCtJTx2S8Nef/preview)
 
@@ -110,17 +110,13 @@ Para finalizar o processo, o ISO deve ser ejetado para evitar que ele seja recar
 
 ### Alterando a senha do usuário root
 
-Você pode mudar a senha do usuário root facilmente. Execute `sudo su` e digite sua senha. Depois disso, execute `sudo passwd` para alterar a senha. Agora digite a nova senha desejada para o usuário root. Pronto, agora você pode fazer login com o usuário `root`.
+Você pode mudar a senha do usuário root facilmente. Execute `sudo su` e digite sua senha. Depois, execute `sudo passwd` para alterar a senha. Agora digite a nova senha desejada para o usuário root. Pronto, agora você pode fazer login com o usuário `root`.
 
 
 
 ## Conclusão
 
-Parabéns, você instalou com sucesso o sistema operacional Ubuntu 18.04 no seu servidor dedicado. Para dúvidas ou ajuda, não hesite em contatar nosso time de suporte, que está disponível diariamente para te ajudar! 🙂
+Parabéns, você instalou com sucesso o sistema operacional Ubuntu 18.04 no seu servidor dedicado. Para dúvidas ou ajuda, não hesite em contatar nosso time de suporte, que está disponível todos os dias para te ajudar! 🙂
 
 
 
-
-
-
-<InlineVoucher />

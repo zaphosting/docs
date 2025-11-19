@@ -18,7 +18,7 @@ Quer montar um ISO? Talvez um dos nossos ou prefere usar o seu próprio? Sem pro
 Ao usar seu próprio ISO (SO), que não oferecemos ativamente, não podemos garantir a funcionalidade em caso de possíveis problemas.
 :::
 
-<InlineVoucher />
+
 
 ## Opções disponíveis para montagem
 Existem duas formas de montar seu próprio arquivo ISO. É sempre necessário reiniciar o servidor para carregar o arquivo. Em geral, não há restrições para montar um arquivo, o importante é que o arquivo ISO seja bootável.
@@ -27,9 +27,9 @@ Existem duas formas de montar seu próprio arquivo ISO. É sempre necessário re
 Abra sua Interface de Gerenciamento iLO e acesse "Virtual" Media
 ![](https://screensaver01.zap-hosting.com/index.php/s/myWMSi3GgyLBHXR/preview)
 
-* Insira a URL que aponta para o arquivo ISO que você quer usar. Certifique-se que o link termine com .iso
+* Insira a URL que aponta para o arquivo ISO que você quer usar. Certifique-se de que o link termine com .iso
 * Agora clique em "Insert Media"
-* Clique em "Server Reset" para que o sistema reinicie.
+* Clique em "Server Reset" para que seu sistema reinicie.
 
 Seu arquivo ISO será carregado.
 
@@ -45,19 +45,19 @@ Você pode montar o arquivo diretamente no console remoto:
 
 A diferença entre "Scripted media URL" e "Local .iso File" é que você pode montar um arquivo ISO que está hospedado em um servidor/hospedagem de sites ou escolher diretamente com "Local *.iso File" um arquivo do seu computador, sem precisar fazer upload.
 
-Depois de escolher seu arquivo ISO, é necessário reiniciar o servidor.
+Após escolher seu arquivo ISO, é necessário reiniciar o servidor.
+
 
 **Console Java**
-Assim como no console HTML5, o arquivo ISO também é montado diretamente no aplicativo.
+Assim como no console HTML5, o arquivo ISO também é montado diretamente na aplicação.
 ![](https://screensaver01.zap-hosting.com/index.php/s/2CdR5d5AcsG7YdH/preview)
 
 * Abra "Virtual Drives"
 
-A diferença entre "Image File CD/DVD-ROM" e "URL CD/DVD-ROM" é que você pode montar um arquivo ISO hospedado em um servidor/hospedagem de sites ou escolher diretamente com "Image File CD/DVD-ROM" um arquivo do seu computador, sem precisar fazer upload.
+A diferença entre "Image File CD/DVD-ROM" e "URL CD/DVD-ROM" é que você pode montar um arquivo ISO que está hospedado em um servidor/hospedagem de sites ou escolher diretamente com "Image File CD/DVD-ROM" um arquivo do seu computador, sem precisar fazer upload.
 
-Após injetar o arquivo ISO desejado, é necessário reiniciar o servidor.
+Depois de injetar o arquivo ISO desejado, é necessário reiniciar o servidor.
+
 
 ## Conclusão
 Parabéns, você selecionou e montou seu arquivo ISO com sucesso. Para dúvidas ou ajuda, não hesite em contatar nosso time de suporte, disponível diariamente para te ajudar! 🙂
-
-<InlineVoucher />

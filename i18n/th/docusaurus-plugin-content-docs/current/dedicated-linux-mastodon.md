@@ -11,17 +11,15 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## แนะนำ
 
-Mastodon คือซอฟต์แวร์ฟรีและโอเพ่นซอร์สสำหรับการรันบริการเครือข่ายสังคมที่โฮสต์เอง
+Mastodon คือซอฟต์แวร์โอเพนซอร์สฟรีสำหรับรันบริการเครือข่ายสังคมที่โฮสต์เอง
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/oNCpfBwLNB5f79P/preview)
 
-มันมีฟีเจอร์ไมโครบล็อกที่คล้ายกับบริการ X (เดิมชื่อ Twitter) ซึ่งให้บริการโดยโหนดที่ดำเนินการอย่างอิสระจำนวนมาก เรียกว่า อินสแตนซ์
+มันมีฟีเจอร์ไมโครบล็อกที่คล้ายกับบริการ X (เดิมชื่อ Twitter) ซึ่งให้บริการโดยโหนดที่ดำเนินการอย่างอิสระจำนวนมาก เรียกว่า อินสแตนซ์,
 แต่ละอินสแตนซ์มีข้อบังคับการใช้งาน เงื่อนไขการให้บริการ นโยบายความเป็นส่วนตัว ตัวเลือกความเป็นส่วนตัว และนโยบายการดูแลที่แตกต่างกัน
 :::info
-คู่มือนี้เน้นการติดตั้งบนดิสโทรที่ใช้ Debian เช่น Debian และ Ubuntu คู่มือจะแตกต่างกันขึ้นอยู่กับระบบปฏิบัติการที่คุณใช้
+คู่มือนี้เน้นการติดตั้งบนดิสโทรที่ใช้ Debian เป็นฐาน เช่น Debian และ Ubuntu คู่มือจะแตกต่างกันขึ้นอยู่กับระบบปฏิบัติการที่คุณใช้
 :::
-
-<InlineVoucher />
 
 ## ความต้องการระบบ
 ถ้าคุณต้องการตั้งค่าอินสแตนซ์ Mastodon บนเซิร์ฟเวอร์ของคุณ คุณต้องมีความต้องการดังนี้
@@ -40,7 +38,7 @@ apt update && apt upgrade -y
 
 ต่อไปคุณต้องติดตั้ง dependencies ของ Mastodon:
 ```bash
-# ระบบรีโพซิทอรี
+# ที่เก็บระบบ
 apt install -y curl wget gnupg apt-transport-https lsb-release ca-certificates
 # Node.JS
 curl -sL https://deb.nodesource.com/setup_16.x | bash -
@@ -60,7 +58,7 @@ apt install -y \
   nginx redis-server redis-tools postgresql postgresql-contrib \
   certbot python3-certbot-nginx libidn11-dev libicu-dev libjemalloc-dev
 ```
-รอให้แพ็กเกจติดตั้งเสร็จ ซึ่งอาจใช้เวลาสักครู่ หลังจากนั้นเราต้องตั้งค่า yarn ซึ่งเป็นตัวจัดการแพ็กเกจสำหรับ Node.JS ที่ติดตั้งไปก่อนหน้านี้
+รอให้แพ็กเกจติดตั้งให้เสร็จ ซึ่งอาจใช้เวลาสักครู่ หลังจากนั้นเราต้องตั้งค่า yarn ซึ่งเป็นตัวจัดการแพ็กเกจสำหรับ Node.JS ที่ติดตั้งไปก่อนหน้านี้
 ```bash
 corepack enable
 yarn set version stable
@@ -74,7 +72,7 @@ adduser --disabled-login mastodon
 su - mastodon
 ```
 
-ตอนนี้เราจะติดตั้งตัวจัดการ Ruby ชื่อ `rbenv` เพื่อให้ง่ายต่อการจัดการเวอร์ชัน Ruby ใช้คำสั่งเหล่านี้:
+ตอนนี้เราจะติดตั้ง Ruby Manager `rbenv` เพื่อให้ง่ายต่อการจัดการเวอร์ชัน Ruby ใช้คำสั่งเหล่านี้:
 ```bash
 git clone https://github.com/rbenv/rbenv.git ~/.rbenv
 cd ~/.rbenv && src/configure && make -C src
@@ -83,16 +81,16 @@ echo 'eval "$(rbenv init -)"' >> ~/.bashrc
 exec bash
 git clone https://github.com/rbenv/ruby-build.git ~/.rbenv/plugins/ruby-build
 ```
-หลังจากรันคำสั่งเหล่านี้เสร็จแล้ว คุณสามารถติดตั้ง Ruby ด้วยคำสั่งนี้ พร้อมติดตั้ง bundler ในขั้นตอนเดียวกัน
+หลังจากรันคำสั่งชุดนี้เสร็จ คุณสามารถติดตั้ง Ruby และ bundler ได้ด้วยคำสั่งนี้:
 ```bash
 RUBY_CONFIGURE_OPTS=--with-jemalloc rbenv install 3.0.3
 rbenv global 3.0.3
 gem install bundler --no-document
 ```
-ขั้นตอนนี้อาจใช้เวลานานหน่อย ใจเย็นๆ หยิบชา หรือกาแฟมาดื่มระหว่างรอ หลังจากเสร็จแล้ว เราสามารถกลับไปยังผู้ใช้ root ด้วยคำสั่ง `exit`
+ขั้นตอนนี้อาจใช้เวลานานหน่อย ใจเย็น ๆ แล้วหาเครื่องดื่มอย่างชา หรือกาแฟมาดื่มระหว่างรอ หลังจากเสร็จแล้ว คุณสามารถกลับไปยังผู้ใช้ root ด้วยคำสั่ง `exit`
 
 ## การตั้งค่า PostgreSQL
-Mastodon ใช้ PostgreSQL เป็นระบบฐานข้อมูล การตั้งค่าง่ายๆ ด้วยคำสั่งนี้:
+Mastodon ใช้ PostgreSQL เป็นระบบฐานข้อมูล การตั้งค่าง่าย ๆ ด้วยคำสั่งนี้:
 ```bash
 sudo -u postgres psql
 ```
@@ -113,7 +111,7 @@ su - mastodon
 git clone https://github.com/tootsuite/mastodon.git live && cd live
 git checkout $(git tag -l | grep -v 'rc[0-9]*$' | sort -V | tail -n 1)
 ```
-ต่อไปติดตั้ง dependencies สำหรับ Ruby และ Javascript ด้วยคำสั่งเหล่านี้:
+ต่อไปติดตั้ง dependencies สุดท้ายสำหรับ Ruby และ Javascript ด้วยคำสั่งเหล่านี้:
 ```bash
 bundle config deployment 'true'
 bundle config without 'development test'
@@ -133,24 +131,24 @@ https://gist.github.com/amolkhanorkar/8706915
 หลังจากนั้น กลับไปยังผู้ใช้ root ด้วยคำสั่ง `exit`
 
 ## การตั้งค่าเว็บเซิร์ฟเวอร์
-ขั้นตอนนี้จะซับซ้อนหน่อย คุณต้องตั้งค่าเว็บเซิร์ฟเวอร์ก่อน สร้าง A-Record และ/หรือ AAAA-Record ใน DNS ของคุณให้ชี้ตรงไปยังเซิร์ฟเวอร์ หรือจะชี้ Root-Record ไปยังเซิร์ฟเวอร์ก็ได้
+ตอนนี้มาถึงส่วนที่ซับซ้อน คุณต้องตั้งค่าเว็บเซิร์ฟเวอร์ก่อน สร้าง A-Record และ/หรือ AAAA-Record ใน DNS ของคุณให้ชี้ตรงไปยังเซิร์ฟเวอร์ หรือจะชี้ Root-Record ไปยังเซิร์ฟเวอร์ก็ได้
 
-จากนั้นใช้คำสั่งสองคำสั่งนี้เพื่อคัดลอกและเปิดใช้งานการตั้งค่าเว็บเซิร์ฟเวอร์ Mastodon
+จากนั้นใช้คำสั่งสองคำสั่งนี้เพื่อคัดลอกและเปิดใช้งานคอนฟิกเว็บเซิร์ฟเวอร์ Mastodon
 ```bash
 cp /home/mastodon/live/dist/nginx.conf /etc/nginx/sites-available/mastodon
 ln -s /etc/nginx/sites-available/mastodon /etc/nginx/sites-enabled/mastodon
 ```
 
 แก้ไขไฟล์ `/etc/nginx/sites-available/mastodon` ด้วยโปรแกรมแก้ไขข้อความ เช่น vim หรือ nano แล้วเปลี่ยน example.com เป็นโดเมนของคุณ
-ต่อไปขอใบรับรอง SSL สำหรับโดเมนของคุณง่ายๆ ด้วยคำสั่งนี้:
+ต่อไปขอใบรับรอง SSL สำหรับโดเมนของคุณง่าย ๆ ด้วยคำสั่งนี้:
 ```bash
 certbot --nginx -d <your domain>
 ```
-ใส่โดเมนของคุณ คุณจะถูกถามข้อมูลหลายอย่าง สุดท้ายจะถามว่าต้องการเปลี่ยนเส้นทาง http เป็น https อัตโนมัติไหม เราแนะนำให้เปิดใช้งาน
+ใส่โดเมนของคุณ คุณจะถูกถามข้อมูลหลายอย่าง สุดท้ายจะถามว่าต้องการเปลี่ยนเส้นทาง http เป็น https อัตโนมัติหรือไม่ เราแนะนำให้เปิดใช้งาน
 
 ## การสร้างบริการ Mastodon
-สุดท้ายเราจะสร้างบริการระบบ Mastodon ใช้งานง่ายมาก
-ใช้คำสั่งนี้เพื่อคัดลอกการตั้งค่าบริการเริ่มต้นไปยังไดเรกทอรีบริการของดิสโทรคุณ
+สุดท้ายเราจะสร้างบริการระบบ Mastodon ง่ายมาก
+ใช้คำสั่งนี้เพื่อคัดลอกคอนฟิกบริการไปยังไดเรกทอรีบริการของดิสโทรคุณ
 ```sh
 cp /home/mastodon/live/dist/mastodon-*.service /etc/systemd/system/
 ```
@@ -162,5 +160,3 @@ systemctl enable --now mastodon-web mastodon-sidekiq mastodon-streaming
 ```
 
 หลังรีบูต คุณก็พร้อมใช้งานอินสแตนซ์ Mastodon ของคุณแล้ว สนุกกับการใช้งานนะ!
-
-<InlineVoucher />

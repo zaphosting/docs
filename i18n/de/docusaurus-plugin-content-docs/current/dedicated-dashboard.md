@@ -1,7 +1,7 @@
 ---
 id: dedicated-dashboard
 title: "Dedicated Server: Dashboard Übersicht"
-description: "Entdecke, wie du deinen Dedicated Server effizient verwaltest und optimierst – mit einer klaren Übersicht über wichtige Features und Verwaltungstools → Jetzt mehr erfahren"
+description: "Entdecke, wie du deinen Dedicated Server effizient verwaltest und optimierst – mit einer klaren Übersicht über wichtige Features und Admin-Tools → Jetzt mehr erfahren"
 sidebar_label: Dashboard
 services:
   - dedicated
@@ -12,21 +12,21 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
 
-Du interessierst dich für einen **Dedicated Server** oder besitzt bereits einen, hast aber noch keinen umfassenden Überblick über die Verwaltung und die Auffindbarkeit aller notwendigen Optionen? Gerade am Anfang kann das eine Herausforderung sein. Aber keine Sorge, wir geben dir weiter unten eine ausführliche Einführung in die Administration deines Services, damit du den bestmöglichen Überblick bekommst.
+Du interessierst dich für einen **Dedicated Server** oder besitzt bereits einen, hast aber noch keinen umfassenden Überblick über die Administration und die Auffindbarkeit aller nötigen Optionen? Gerade am Anfang kann das eine Herausforderung sein. Keine Sorge, wir geben dir weiter unten eine ausführliche Einführung in die Verwaltung deines Services, damit du den bestmöglichen Überblick bekommst.
 
-Nach dem Durcharbeiten dieser Anleitung kannst du deinen Dedicated Server ganz easy effizient verwalten und findest alle nötigen Optionen und Features schnell und unkompliziert. Hier bekommst du eine strukturierte Übersicht, die dir Schritt für Schritt hilft, dich mit der Dedicated Server Verwaltung vertraut zu machen und dein Wissen gezielt zu erweitern. So stellst du sicher, dass dein **Dedicated Server** optimal auf deine Bedürfnisse eingestellt ist und du das Maximum aus den verfügbaren Optionen rausholst.
+Nach dem Durcharbeiten dieser Anleitung kannst du deinen Dedicated Server ganz easy effizient verwalten und findest alle wichtigen Optionen und Features schnell und unkompliziert. Hier bekommst du eine strukturierte Übersicht, die dir Schritt für Schritt hilft, dich mit der Dedicated Server Administration vertraut zu machen und dein Wissen gezielt zu erweitern. So stellst du sicher, dass dein **Dedicated Server** optimal auf deine Bedürfnisse eingestellt ist und du das Maximum aus den verfügbaren Optionen rausholst.
 
-<InlineVoucher />
+
 
 ## Produktverwaltung
 
-Im Bereich **Produktverwaltung** findest du alle wichtigen Seiten zur Verwaltung deines Dedicated Servers. Die Optionen zur Verwaltung deines Dedicated Servers sind unten detailliert aufgelistet.
+Im Bereich **Produktverwaltung** findest du alle notwendigen Seiten zur Verwaltung deines Dedicated Servers. Die Optionen zur Verwaltung deines Dedicated Servers sind im Folgenden detailliert aufgelistet.
 
 
 
 ### Dashboard
 
-Das Dashboard bietet dir eine zentrale Übersicht aller wichtigen Infos rund um deinen Dedicated Server. Es zeigt den aktuellen Status, Serveradresse, Hostname, installiertes Betriebssystem, Systemauslastung inklusive CPU- und RAM-Nutzung sowie den Netzwerktraffic an. Diese Übersicht unterstützt dich bei der effektiven Überwachung und Verwaltung deiner Serverumgebung.
+Das Dashboard bietet dir eine zentrale Übersicht aller wichtigen Infos rund um deinen Dedicated Server. Es zeigt den aktuellen Status, die Serveradresse, den Hostname, das installierte Betriebssystem, die Systemauslastung inklusive CPU- und RAM-Nutzung sowie den Netzwerktraffic an. Diese Übersicht unterstützt dich dabei, deine virtuelle Serverumgebung effektiv zu überwachen und zu managen.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/QEnaS6N7MqHejtk/preview)
 
@@ -42,27 +42,27 @@ Behalte alle Admin-Aufgaben und Systemereignisse an einem Ort im Blick. Das Erei
 
 ### Statistiken
 
-Detaillierte Traffic-Zahlen zeigen dir genau, wie viel Daten dein Server verarbeitet – sowohl eingehend als auch ausgehend. Aktuelle Temperaturwerte und Lüftergeschwindigkeiten helfen dir, deine Hardware jederzeit im sicheren Betriebsbereich zu halten.
+Detaillierte Traffic-Zahlen zeigen dir genau, wie viel Daten dein Server verarbeitet – sowohl eingehend als auch ausgehend. Aktuelle Temperaturwerte und Lüfterdrehzahlen helfen dir, deine Hardware jederzeit im sicheren Betriebsbereich zu halten.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/B7yLamtJrdALpPb/preview)
 
 
 
-### Hardware-Status
+### Hardwarestatus
 
-Behalte alle wichtigen Hardware-Details an einem Ort im Blick. Prüfe, welche Firmware-Versionen aktuell installiert sind, inklusive System-ROM, iLO und Storage Controller, und überwache den Status deiner CPU, deines RAMs, der Netzwerkschnittstellen und der angeschlossenen Festplatten in Echtzeit.
+Behalte alle wichtigen Hardwaredetails an einem Ort im Blick. Prüfe, welche Firmware-Versionen aktuell installiert sind, inklusive System-ROM, iLO und Storage Controller, und überwache den Status deiner CPU, deines RAMs, der Netzwerkschnittstellen und der angeschlossenen Festplatten in Echtzeit.
 
-Detaillierte Hardware-Daten helfen dir, potenzielle Probleme frühzeitig zu erkennen und sorgen für einen zuverlässigen Serverbetrieb. Außerdem hast du Zugriff auf ein übersichtliches Protokoll aller durchgeführten Wartungsarbeiten, damit du immer weißt, welche Updates oder Reparaturen wann gemacht wurden.
+Detaillierte Hardwaredaten helfen dir, potenzielle Probleme frühzeitig zu erkennen und sorgen dafür, dass dein Server zuverlässig läuft. Außerdem hast du Zugriff auf ein übersichtliches Protokoll aller durchgeführten Wartungsarbeiten, sodass du immer weißt, welche Updates oder Reparaturen wann gemacht wurden.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/9CsZGarzsdMP5Ea/preview)
 
 ## Einstellungen
 
-Im Bereich **Einstellungen** findest du alle wichtigen Seiten zur Konfiguration deines Dedicated Servers. Die verfügbaren Optionen zur Konfiguration deines Dedicated Servers sind unten detailliert aufgelistet.
+Im Bereich **Einstellungen** findest du alle notwendigen Seiten zur Konfiguration deines Dedicated Servers. Die verfügbaren Optionen zur Konfiguration deines Dedicated Servers sind im Folgenden detailliert aufgelistet.
 
 ### Ersteinrichtung
 
-Bevor du deinen Dedicated Server produktiv nutzen kannst, ist eine Ersteinrichtung notwendig. Dazu gehört die Aktivierung der iLO-Verwaltungsschnittstelle, das Auswählen und Einbinden eines ISO-Images sowie die Installation deines gewünschten Betriebssystems. Der Einrichtungsassistent führt dich Schritt für Schritt durch diesen Prozess, sodass du auch ohne Vorerfahrung problemlos starten kannst. Detaillierte Anleitungen findest du in unserer [Ersteinrichtung](dedicated-setup.md) Anleitung.
+Bevor du deinen Dedicated Server produktiv nutzen kannst, ist eine Ersteinrichtung nötig. Dazu gehört die Aktivierung der iLO-Managementschnittstelle, das Auswählen und Einbinden eines ISO-Images sowie die Installation deines gewünschten Betriebssystems. Der Setup-Assistent führt dich Schritt für Schritt durch diesen Prozess und sorgt so für einen reibungslosen Start – auch ohne Vorerfahrung. Detaillierte Anleitungen findest du in unserer [Ersteinrichtung](dedicated-setup.md) Anleitung.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/MnZKXAGGTqs9Xdp/download)
 
@@ -86,12 +86,12 @@ Je nach Serverstandort und dort verfügbarem DDoS-Schutz kannst du aktive Angrif
 
 ### Gameserver / TS3
 
-Mit diesem Feature kannst du Gameserver- und Voiceserver-Services mit nur wenigen Klicks einfach einrichten und verwalten. Die Weboberfläche übernimmt den kompletten Installationsprozess für dich, sodass du keine tiefen technischen Kenntnisse brauchst.
+Mit diesem Feature kannst du Gameserver- und Voiceserver-Services mit nur wenigen Klicks einfach einrichten und verwalten. Die Weboberfläche übernimmt den gesamten Installationsprozess für dich, sodass du keine tiefen technischen Kenntnisse brauchst.
 
-Du kannst jederzeit neue Gameserver oder Voiceserver erstellen, Einstellungen wie Slots oder Ressourcen anpassen und sie bequem über dein ZAP-Web-Dashboard steuern. So wird die Verwaltung mehrerer Server schnell, flexibel und unkompliziert. Alles an einem Ort.
+Du kannst jederzeit neue Gameserver oder Voiceserver erstellen, Einstellungen wie Slots oder Ressourcen anpassen und sie bequem über dein ZAP-Web-Dashboard steuern. So wird das Verwalten mehrerer Server schnell, flexibel und unkompliziert – alles an einem Ort.
 
 :::warning Betriebssystem-Kompatibilität 
-Dieses Feature ist nur mit ausgewählten Linux-Betriebssystemen kompatibel. Für mehr Infos zur Einrichtung und Nutzung der GS/TS3-Schnittstelle schau dir bitte unsere [GS/TS3 Schnittstelle](dedicated-linux-gs-interface.md) Anleitung an.
+Dieses Feature ist nur mit ausgewählten Linux-Betriebssystemen kompatibel. Für weitere Infos zur Einrichtung und Nutzung der GS/TS3-Schnittstelle schau dir bitte unsere [GS/TS3 Schnittstellen](dedicated-linux-gs-interface.md) Anleitung an.
 :::
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/nd6YF93omGcApC8/preview)
@@ -108,7 +108,7 @@ Passe den Reverse-DNS-Eintrag (PTR-Eintrag) für die IP-Adresse deines Servers a
 
 ### IP-Adressen
 
-Behalte alle IP-Adressen, die deinem Server zugewiesen sind, auf einen Blick im Auge. Diese Übersicht zeigt wichtige Konfigurationsdetails wie IP-Adresse, Subnetzmaske und Gateway. Du kannst auch prüfen, ob eine IP erreichbar ist oder nicht, was dir hilft zu verifizieren, dass deine Netzwerkeinstellungen im Betriebssystem korrekt eingerichtet sind.
+Behalte alle IP-Adressen, die deinem Server zugewiesen sind, auf einen Blick im Auge. Diese Übersicht zeigt wichtige Konfigurationsdetails wie IP-Adresse, Subnetzmaske und Gateway. Du kannst auch prüfen, ob eine IP erreichbar ist oder nicht, was dir hilft, deine Netzwerkeinstellungen im Betriebssystem zu überprüfen.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/a64XRkWn2EA4Nef/preview)
 
@@ -116,13 +116,13 @@ Behalte alle IP-Adressen, die deinem Server zugewiesen sind, auf einen Blick im 
 
 ## Tools
 
-Der Bereich **Tools** enthält alle wichtigen Werkzeuge zur Verwaltung des Dedicated Servers. Die verfügbaren Optionen zur Serverkonfiguration sind unten detailliert beschrieben und ermöglichen eine präzise Anpassung an spezifische Anforderungen.
+Der Bereich **Tools** enthält alle wichtigen Werkzeuge zur Verwaltung deines Dedicated Servers. Die verfügbaren Optionen zur Serverkonfiguration sind im Folgenden detailliert beschrieben und ermöglichen eine präzise Anpassung an deine individuellen Anforderungen.
 
 
 
 ### Traffic zurücksetzen
 
-Behalte deinen monatlichen Traffic-Verbrauch im Blick. In diesem Bereich siehst du, wie viel von deinem inkludierten Traffic du bereits genutzt hast. Wenn du dein Limit vor Monatsende erreichst, hast du auch die Möglichkeit, deinen Traffic gegen eine zusätzliche Gebühr vorzeitig zurückzusetzen.
+Behalte deinen monatlichen Traffic-Verbrauch im Blick. Dieser Bereich zeigt dir, wie viel von deinem inkludierten Traffic du bereits genutzt hast. Wenn du dein Limit vor Monatsende erreichst, hast du außerdem die Möglichkeit, deinen Traffic gegen eine zusätzliche Gebühr vorzeitig zurückzusetzen.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/5Z38eyRdntF6ict/preview)
 
@@ -138,12 +138,9 @@ Erhalte jederzeit sicheren Fernzugriff auf deine Server-Hardware. Hier kannst du
 Der Bereich mit weiteren Links bietet zusätzliche Verweise, die für die Nutzung und Verwaltung des Produkts relevant sind. Dazu gehören Dokumentationen, Tools oder externe Ressourcen, die mit dem jeweiligen Service zusammenhängen.
 
 ### Häufig gestellte Fragen
-Der Bereich **Häufig gestellte Fragen** bietet eine Übersicht der am häufigsten gestellten Fragen unserer Kunden. Hier findest du hilfreiche Antworten und detaillierte Infos zu verschiedenen Themen, die dir schnell und effizient weiterhelfen.
+Der Bereich **Häufig gestellte Fragen** gibt dir einen Überblick über die am häufigsten gestellten Fragen unserer Kunden. Hier findest du hilfreiche Antworten und detaillierte Infos zu verschiedenen Themen, damit du schnell und effizient weiterkommst.
 
 ### ZAP-Hosting Dokumentation
 Wir bieten umfangreiche Dokumentationen zu unseren Produkten, die als Wissensdatenbank für die häufigsten Fragen und Anliegen dienen. Dort findest du verschiedene Anleitungen und Hilfen zu unterschiedlichen Themen, die dich bei der Nutzung und Verwaltung deines Produkts unterstützen.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/n48ct6aZBrNq7eT/preview)
-
-
-<InlineVoucher />

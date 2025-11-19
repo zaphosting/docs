@@ -1,6 +1,6 @@
 ---
 id: dedicated-windows-ts6
-title: "Serwer dedykowany: Jak zainstalować serwer Teamspeak 6 na Twoim Windows serwerze dedykowanym"
+title: "Serwer dedykowany: Jak zainstalować serwer Teamspeak 6 na Windows Serwerze dedykowanym"
 description: "Dowiedz się, jak skonfigurować i zoptymalizować swój serwer TeamSpeak 6 dla najlepszej wydajności i bezpieczeństwa → Sprawdź teraz"
 sidebar_label: Instalacja serwera Teamspeak 6
 services:
@@ -19,7 +19,7 @@ Myślisz o hostingu tego serwisu na własnym serwerze? Przeprowadzimy Cię przez
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/4J6HJjQdRddjGFK/preview)
 
-<InlineVoucher />
+
 
 
 
@@ -37,9 +37,9 @@ Przed instalacją **serwera Teamspeak 6** upewnij się, że Twoje środowisko ho
 
 ## Przygotowanie
 
-Zanim zaczniesz konfigurację **serwera TeamSpeak 6**, przygotuj swój system. Aby mieć pewność, że działa na najnowszym oprogramowaniu i z aktualnymi poprawkami bezpieczeństwa, zawsze wykonaj najpierw aktualizacje systemu.
+Przed konfiguracją **serwera TeamSpeak 6** musisz przygotować swój system. Aby mieć pewność, że działa na najnowszym oprogramowaniu i z aktualnymi poprawkami bezpieczeństwa, zawsze wykonaj najpierw aktualizacje systemu.
 
-Dzięki temu Twój system będzie miał najnowsze łatki i wersje oprogramowania przed dalszymi krokami.
+Dzięki temu Twój system będzie miał najświeższe łatki i wersje oprogramowania przed dalszą instalacją.
 
 
 
@@ -55,7 +55,7 @@ Następnie rozpakuj plik do wybranego katalogu. Otwórz **PowerShell** i przejd�
 .\tsserver.exe
 ```
 
-Przy pierwszym uruchomieniu pojawi się okno z umową licencyjną, którą musisz zaakceptować. Po tym zostaną wyświetlone dane konta administratora Server Query oraz klucz uprawnień. Te informacje pojawią się tylko raz, więc koniecznie je zapisz w bezpiecznym miejscu.
+Przy pierwszym uruchomieniu pojawi się okno z umową licencyjną, którą musisz zaakceptować. Po tym zostaną wyświetlone dane konta administratora Server Query oraz klucz uprawnień. Te informacje pojawią się tylko raz, więc koniecznie zapisz je w bezpiecznym miejscu.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/rsmBkcJiAAinjE6/download)
 
@@ -65,7 +65,7 @@ Po potwierdzeniu serwer TeamSpeak 6 będzie już działał w tle i gotowy do uż
 
 ## Konfiguracja
 
-Możesz też dostosować dodatkowe ustawienia **serwera TeamSpeak 6** za pomocą **argumentów wiersza poleceń**. Opcje podajesz bezpośrednio przy uruchamianiu serwera. Pełną listę dostępnych opcji znajdziesz w oficjalnej dokumentacji [TeamSpeak 6 Server](https://github.com/teamspeak/teamspeak6-server/blob/main/CONFIG.md). Przykład:
+Dodatkowo możesz dostosować ustawienia **serwera TeamSpeak 6** za pomocą **argumentów wiersza poleceń**. Opcje podajesz bezpośrednio przy uruchamianiu serwera. Pełną listę dostępnych opcji znajdziesz w oficjalnej dokumentacji [TeamSpeak 6 Server](https://github.com/teamspeak/teamspeak6-server/blob/main/CONFIG.md). Przykład:
 
 ```
 ./tsserver --default-voice-port 9987
@@ -75,7 +75,7 @@ Możesz też dostosować dodatkowe ustawienia **serwera TeamSpeak 6** za pomocą
 
 ## Nawiązywanie połączenia
 
-Gdy serwer TeamSpeak 6 jest już uruchomiony, możesz połączyć się z nim za pomocą klienta TeamSpeak 6. Wystarczy, że wpiszesz adres IP swojego serwera oraz odpowiedni port. Wprowadź te dane w kliencie, aby połączyć się z serwerem i zacząć testować.
+Gdy serwer TeamSpeak 6 działa, możesz połączyć się z nim za pomocą klienta TeamSpeak 6. Wystarczy, że wpiszesz adres IP swojego serwera oraz odpowiedni port. Wprowadź te dane w kliencie, aby połączyć się z serwerem i zacząć testy.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/4J6HJjQdRddjGFK/preview)
 
@@ -83,12 +83,10 @@ Gdy serwer TeamSpeak 6 jest już uruchomiony, możesz połączyć się z nim za 
 
 ## Podsumowanie i dodatkowe materiały
 
-Gratulacje! Właśnie pomyślnie zainstalowałeś i skonfigurowałeś serwer Teamspeak 6 na swoim serwerze dedykowanym. Polecamy też rzucić okiem na poniższe materiały, które mogą Ci pomóc i wesprzeć podczas konfiguracji serwera.
+Gratulacje! Właśnie zainstalowałeś i skonfigurowałeś serwer Teamspeak 6 na swoim serwerze dedykowanym. Polecamy też rzucić okiem na poniższe materiały, które mogą Ci pomóc i wesprzeć podczas konfiguracji serwera.
 
 - [Oficjalna strona](https://teamspeak.com/en/) - Informacje i pobieranie TeamSpeak 6
 - [Forum społeczności](https://community.teamspeak.com/) - Wsparcie użytkowników i dyskusje
 - [GitHub Issues](https://github.com/teamspeak/teamspeak6-server/issues) - Zgłaszanie błędów i śledzenie problemów
 
-Masz pytania, które nie zostały tu poruszone? Jeśli potrzebujesz pomocy lub masz dodatkowe pytania, śmiało kontaktuj się z naszym supportem, który jest dostępny codziennie, by Ci pomóc! 🙂
-
-<InlineVoucher />
+Masz pytania, których tu nie ma? Jeśli potrzebujesz pomocy lub masz dodatkowe pytania, śmiało kontaktuj się z naszym supportem, który jest dostępny codziennie, by Ci pomóc! 🙂

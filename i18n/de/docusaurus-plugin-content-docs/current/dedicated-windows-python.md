@@ -13,8 +13,6 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Diese Anleitung zeigt dir, wie du die Python-Laufzeit auf Windows installierst. Die untenstehenden Schritte müssen per RDP ausgeführt werden. Falls du nicht weißt, wie du dich per RDP mit deinem Server verbindest, schau dir bitte unsere [Erstzugang (RDP)](vserver-windows-userdp.md) Anleitung an.
 
-<InlineVoucher />
-
 ## Installation
 
 ### Schritt 1: Dateien herunterladen
@@ -27,12 +25,12 @@ Klicke jetzt auf den Button `Download Python [Version]` und warte, bis der Downl
 ![](https://screensaver01.zap-hosting.com/index.php/s/b8j6ZbfGWoBjpep/preview)
 
 ### Schritt 2: Python installieren
-Starte den Installer durch einen Klick darauf. Nun wirst du aufgefordert, ein paar Einstellungen für die Installation vorzunehmen. Achte darauf, dass die Checkbox `Add python.exe to PATH` unten aktiviert ist (das macht das Ausführen von Python-Dateien später viel einfacher) und klicke dann auf den Button `Install Now`.
+Starte den Installer per Klick. Nun wirst du aufgefordert, einige Einstellungen für die Installation vorzunehmen. Achte darauf, dass die Checkbox `Add python.exe to PATH` unten aktiviert ist (das macht das Ausführen von Python-Dateien später viel einfacher) und klicke dann auf `Install Now`.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/Z57KiQwHqP3RpPy/preview)
 
 ### Schritt 3: Installation abschließen
-Warte, bis alle Dateien installiert sind. Hab Geduld, das kann einen Moment dauern. :)
+Warte, bis alle Dateien installiert sind. Hab etwas Geduld, das kann einen Moment dauern. :)
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/XA2Y3DGezb84Ek9/preview)
 
@@ -46,13 +44,13 @@ Jetzt, wo Python auf deinem Server installiert ist, kannst du deine Python-Progr
 
 ### Interpreter-Modus
 
-Wenn du den Befehl `python` in der Eingabeaufforderung (Command Prompt) oder PowerShell eingibst, startet der Python-Interpreter. Du kannst jetzt jeden gültigen Python-Code nach dem `>>>`-Prompt eingeben, der nach Drücken von `Enter` ausgeführt wird. Den Interpreter kannst du mit `exit()` oder einfach durch Schließen des Fensters beenden.
+Wenn du den Befehl `python` in der Eingabeaufforderung oder PowerShell eingibst, startet der Python-Interpreter. Du kannst jetzt jeden gültigen Python-Code nach dem `>>>`-Prompt eingeben, der nach Drücken von `Enter` ausgeführt wird. Den Interpreter kannst du mit `exit()` oder einfach durch Schließen des Fensters beenden.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/DskKi5Ac28ERY38/preview)
 
 ### Ausführen von .py-Dateien
 
-Um `.py` Python-Dateien auszuführen, kannst du einfach den Befehl `python3 [Dateiname].py` verwenden, wobei du `[Dateiname]` durch den Pfad zur gewünschten Datei ersetzt. Das machst du ebenfalls in der Eingabeaufforderung oder PowerShell.
+Um `.py` Python-Dateien auszuführen, kannst du einfach den Befehl `python3 [Dateiname].py` verwenden, wobei du `[Dateiname]` durch den Pfad zur gewünschten Datei ersetzt. Das funktioniert ebenfalls über die Eingabeaufforderung oder PowerShell.
 
 :::tip
 Die meisten Programme, die du online findest, kannst du mit `python3 main.py` starten, da `main.py` der übliche Einstiegspunkt der meisten Python-Programme ist.
@@ -62,15 +60,15 @@ Du kannst Python (.py) Dateien auch einfach durch Doppelklick öffnen oder per R
 
 ## Virtuelle Umgebungen
 
-Beim Programmieren mit Python brauchst du oft externe Pakete, die du über pip installierst. Diese kannst du global installieren, sodass alle `.py`-Skripte darauf zugreifen können, oder du erstellst eine virtuelle Umgebung (venv).
+Beim Programmieren in Python brauchst du oft externe Pakete, die du mit pip installierst. Diese kannst du global installieren, sodass alle `.py`-Skripte darauf zugreifen können, oder du erstellst eine virtuelle Umgebung (venv).
 
 ### venv erstellen
 
-Navigiere zuerst im Datei-Explorer in den Ordner, in dem du deine venv einrichten möchtest. Dort führst du dann `python -m venv .` aus, um die nötigen Dateien im aktuellen Verzeichnis zu installieren.
+Navigiere zuerst mit dem Datei-Explorer in den Ordner, in dem du deine venv einrichten möchtest. Dort führst du dann `python -m venv .` aus, um die nötigen Dateien am aktuellen Ort zu installieren.
 
 ### Aktivieren & Deaktivieren
 
-Um Befehle wie `pip install` in deiner venv auszuführen, musst du sie aktivieren, indem du `.\Scripts\activate` eingibst. Ab jetzt laufen alle Befehle nur noch innerhalb der venv und Skripte greifen nur auf lokal installierte Pakete zu.
+Um Befehle wie `pip install` innerhalb deiner venv auszuführen, musst du sie aktivieren mit `.\Scripts\activate`. Ab jetzt läuft deine Konsole nur noch innerhalb der venv und Skripte haben nur Zugriff auf lokal installierte Pakete.
 
 Wenn du fertig bist, kannst du die venv mit dem Befehl `deactivate` wieder verlassen.
 
@@ -78,6 +76,4 @@ Wenn du fertig bist, kannst du die venv mit dem Befehl `deactivate` wieder verla
 
 ## Fazit
 
-Glückwunsch, du hast Python erfolgreich installiert! Bei weiteren Fragen oder Problemen steht dir unser Support-Team täglich zur Verfügung – zögere nicht, uns zu kontaktieren! 🙂
-
-<InlineVoucher />
+Glückwunsch, du hast Python erfolgreich installiert! Bei weiteren Fragen oder wenn du Hilfe brauchst, steht dir unser Support-Team täglich zur Verfügung. 🙂

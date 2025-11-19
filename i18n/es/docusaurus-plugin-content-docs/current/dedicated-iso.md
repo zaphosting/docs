@@ -18,7 +18,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 Cuando usas tu propio ISO (SO), que no ofrecemos activamente, no podemos garantizar su funcionamiento en caso de cualquier problema.
 :::
 
-<InlineVoucher />
+
 
 ## Opciones disponibles para montar
 Hay dos formas de montar tu propio archivo ISO. Siempre es necesario reiniciar el servidor para cargar el archivo. En general, no hay restricciones para montar un archivo, lo importante es que el archivo ISO sea booteable.
@@ -60,6 +60,4 @@ Después de inyectar tu archivo ISO deseado, es necesario reiniciar el servidor.
 
 
 ## Conclusión
-¡Felicidades, has seleccionado y montado tu archivo ISO con éxito! Para cualquier duda o ayuda, no dudes en contactar a nuestro equipo de soporte, disponible todos los días para asistirte 🙂.
-
-<InlineVoucher />
+¡Felicidades, has seleccionado y montado tu archivo ISO con éxito! Para cualquier duda o ayuda, no dudes en contactar a nuestro equipo de soporte, disponible todos los días para asistirte 🙂

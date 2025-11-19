@@ -11,9 +11,9 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Wprowadzenie
 
-PHP to popularny, uniwersalny język programowania, szeroko stosowany w tworzeniu stron internetowych. W tym poradniku pokażemy, jak zainstalować PHP na Twoim serwerze.
+PHP to popularny, ogólnego przeznaczenia język programowania, szeroko wykorzystywany w tworzeniu stron internetowych. W tym poradniku pokażemy, jak zainstalować PHP na Twoim serwerze.
 
-<InlineVoucher />
+
 
 ## Przygotowanie
 
@@ -57,11 +57,11 @@ import TabItem from '@theme/TabItem';
 
 ## Instalacja
 
-Są dwa główne sposoby instalacji PHP na serwerze Linux: samodzielnie lub jako dodatkowy pakiet dla Apache. Jeśli korzystasz z własnego serwera www, który nie jest Apache, lub potrzebujesz PHP do ogólnych zadań, polecamy metodę samodzielną. W przeciwnym razie, jeśli używasz Apache, zainstaluj PHP jako pakiet dodatkowy dla Apache.
+Są dwa główne sposoby instalacji PHP na serwerze Linux: samodzielnie lub jako dodatkowy pakiet dla Apache. Jeśli korzystasz z własnego serwera www innego niż Apache lub potrzebujesz PHP do ogólnych zastosowań, polecamy metodę samodzielną. W przeciwnym razie, do pracy z serwerem Apache, użyj metody instalacji PHP jako pakietu dla Apache.
 
 ## Samodzielna instalacja
 
-Użyj poniższego polecenia, aby zainstalować najnowszą wersję PHP. Jeśli chcesz zainstalować konkretną wersję, użyj flagi `-y` wraz z numerem wersji.
+Użyj poniższego polecenia, aby zainstalować najnowszą wersję PHP. Jeśli chcesz zainstalować konkretną wersję, możesz użyć flagi `-y` wraz z numerem wersji.
 ```
 # Najnowsza wersja
 sudo apt install php
@@ -70,43 +70,43 @@ sudo apt install php
 sudo apt -y install php[wersja]
 ```
 
-Sprawdź, czy instalacja się powiodła, wpisując `php -v`. Gratulacje, właśnie zainstalowałeś PHP na swoim serwerze. Polecamy zapoznać się z sekcją **Rozszerzenia PHP**, aby zainstalować potrzebne dodatki.
+Sprawdź, czy instalacja się powiodła, wpisując `php -v`. Gratulacje, właśnie zainstalowałeś PHP na swoim serwerze. Polecamy zapoznać się z sekcją **Rozszerzenia PHP**, aby zainstalować potrzebne Ci dodatki.
 
 ## Instalacja z Apache
 
-Na początek zainstaluj Apache, jeśli jeszcze tego nie zrobiłeś. Wykonaj polecenie:
+Na początek zainstaluj Apache, jeśli jeszcze tego nie zrobiłeś. Możesz to zrobić poleceniem:
 ```
 sudo apt install apache2
 ```
 
-Po instalacji upewnij się, że zapora sieciowa pozwala na dostęp do serwera www z internetu. W tym przykładzie używamy **zapory UFW**, ponieważ Apache ma zarejestrowaną aplikację dla niej. Jeśli korzystasz z innej zapory, upewnij się, że port 80 (HTTP) jest otwarty.
+Po instalacji upewnij się, że odpowiednie reguły zapory sieciowej pozwalają na dostęp do serwera www z internetu. W tym przykładzie używamy **zapory UFW**, ponieważ Apache ma zarejestrowaną aplikację dla niej. Jeśli korzystasz z innej zapory, upewnij się, że port 80 (HTTP) jest otwarty.
 ```
 sudo ufw allow in "Apache"
 ```
 
-Twój serwer powinien być teraz dostępny. Sprawdź, wpisując w przeglądarce `http://[adres_IP_twojego_serwera]`.
+Twój serwer powinien być teraz dostępny. Sprawdź to, wpisując w przeglądarce `http://[adres_IP_twojego_serwera]`.
 
 Gdy Apache jest gotowy, zainstaluj pakiet PHP dla Apache poleceniem:
 ```
 sudo apt install php libapache2-mod-php
 ```
 
-Sprawdź instalację poleceniem `php -v`. PHP zostało pomyślnie zainstalowane razem z serwerem Apache. Zachęcamy do zapoznania się z sekcją **Rozszerzenia PHP**, aby dodać potrzebne moduły.
+Sprawdź poprawność instalacji poleceniem `php -v`. PHP zostało pomyślnie zainstalowane razem z serwerem Apache. Zachęcamy do zapoznania się z sekcją **Rozszerzenia PHP**, aby dodać potrzebne funkcjonalności.
 
 ## Rozszerzenia PHP
 
-PHP oferuje szeroki wybór rozszerzeń, które możesz opcjonalnie zainstalować, by rozszerzyć funkcjonalność. Aby zobaczyć listę dostępnych rozszerzeń, wpisz poniższe polecenie, które wyświetli wyniki wyszukiwania w konsoli z możliwością przewijania:
+PHP oferuje szeroki wybór rozszerzeń, które można opcjonalnie zainstalować, by rozszerzyć funkcjonalność. Aby zobaczyć listę dostępnych rozszerzeń, wpisz poniższe polecenie, które wyświetli wyniki wyszukiwania w konsoli z możliwością przewijania przez `less`.
+
 ```
 apt search php- | less
 ```
 
-Użyj strzałek, by przewijać, a `Q`, by wyjść. Aby zainstalować rozszerzenie, użyj polecenia apt install, podając nazwę rozszerzenia. Możesz podać kilka rozszerzeń naraz, oddzielając je spacją, by przyspieszyć instalację.
+Użyj strzałek do przewijania i naciśnij `Q`, aby wyjść. Aby zainstalować rozszerzenie, użyj polecenia apt install, podając nazwę rozszerzenia. Możesz podać kilka rozszerzeń naraz, oddzielając je spacją, by przyspieszyć instalację.
+
 ```
 sudo apt install [php_rozszerzenie] [...]
 ```
 
 ## Podsumowanie
 
-PHP zostało pomyślnie zainstalowane na Twoim serwerze Linux. Jeśli masz pytania lub potrzebujesz pomocy, śmiało kontaktuj się z naszym supportem, który jest dostępny codziennie, by Ci pomóc! 🙂
-
-<InlineVoucher />
+PHP zostało pomyślnie zainstalowane na Twoim serwerze Linux. W razie pytań lub potrzeby pomocy, śmiało kontaktuj się z naszym supportem, który jest dostępny codziennie, by Ci pomóc! 🙂

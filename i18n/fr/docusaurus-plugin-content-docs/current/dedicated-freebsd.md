@@ -19,17 +19,17 @@ La structure de ce guide est basée sur l’utilisation de FreeBSD 13.0. Les ins
 
 :::
 
-<InlineVoucher />
+
 
 ## Préparation
 
-Pour l’installation et la configuration d’un système d’exploitation, il est important dans un premier temps de monter l’ISO correspondante. Plusieurs méthodes sont possibles :
+Pour l’installation et la configuration d’un système d’exploitation, il est d’abord important de monter l’ISO correspondante. Plusieurs méthodes sont possibles :
 
 1. Montage via la configuration initiale
 2. Montage via iLO (Média virtuel)
 3. Montage via iLO (Console distante)
 
-Si vous ne connaissez pas encore le montage d’un fichier ISO, nous vous recommandons de consulter notre [guide de configuration initiale](dedicated-setup.md) ou [guide ISO perso](dedicated-iso.md).
+Si vous ne savez pas encore comment monter un fichier ISO, référez-vous à notre [configuration initiale](dedicated-setup.md) ou au guide [ISO perso](dedicated-iso.md).
 
 
 
@@ -38,13 +38,13 @@ Une fois l’ISO chargée avec succès, le serveur démarre le processus d’ins
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/wSa8eGnrtJDLHB5/preview)
 
-Lancez l’installation en appuyant sur `Entrée` ![](https://screensaver01.zap-hosting.com/index.php/s/CK4xnGEqBe5Kd4y/preview)
+On lance l’installation en appuyant sur `Entrée` ![](https://screensaver01.zap-hosting.com/index.php/s/CK4xnGEqBe5Kd4y/preview)
 
 Choisissez la disposition du clavier qui vous convient puis continuez.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/BSrWrN9TnqEEmmb/preview)
 
-Choisissez le nom d’hôte (hostname) souhaité.
+Choisissez le nom d’hôte souhaité.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/zqXPS6fHdkoMPH2/preview)
 
@@ -52,15 +52,15 @@ Vous pouvez sélectionner des paquets système optionnels à installer, puis val
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/zTSBQRGRFLHDxDo/preview)
 
-À cette étape, vous pouvez créer des partitions. Dans cet exemple, nous utilisons un RAID0. Plus d’infos sur les RAID dans [Configurer RAID](dedicated-raid.md).
+Ici, vous pouvez créer des partitions. Dans cet exemple, on utilise un RAID0. Plus d’infos sur les RAID dans [Configurer RAID](dedicated-raid.md)
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/DTk5zgjbpCWwbmp/preview)
 
-Si vous ne souhaitez pas modifier, continuez avec `Entrée`.
+Si vous n’avez pas de modifications, continuez avec `Entrée`.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/MR3eJKMpdExXnsJ/preview)
 
-Comme nous avons un RAID0, on choisit pas de redondance.
+Comme on a un RAID0, on choisit pas de redondance.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/Qf5JZMKs5HzDXnT/preview)
 
@@ -68,19 +68,19 @@ Sélectionnez votre volume avec `Espace` puis validez avec `Entrée`.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/4d93FtfDmSEtifY/preview)
 
-Confirmez que toutes les données seront effacées.
+On vérifie que toutes les données seront effacées.
 
 :::info
-Votre serveur est en train de traiter l’installation, cela peut prendre plusieurs minutes.
+Votre serveur est en train de configurer le système, cela peut prendre plusieurs minutes.
 :::
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/NmR5PcTPe3Kdc4i/preview)
 
-Saisissez votre mot de passe puis validez avec `Entrée`.
+Entrez votre mot de passe puis validez avec `Entrée`.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/f9aJF57b2w3g9qY/preview)
 
-Choisissez "Non" pour la configuration IPv4/IPv6, cela sera fait à la fin.
+Choisissez "Non" pour la configuration IPv4/IPv6, cela se fera à la fin.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/88bxbHsRjwCoYJQ/preview)
 
@@ -88,7 +88,7 @@ Choisissez "Oui" et sélectionnez votre fuseau horaire ainsi que la date/heure.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/MCtpoQkLdc8Wd7Y/preview)
 
-Vous pouvez modifier les services qui démarreront automatiquement au lancement du serveur.
+Vous pouvez modifier les services qui démarrent automatiquement au lancement du serveur.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/wPbL3HJGYBTLdyD/preview)
 
@@ -110,22 +110,22 @@ Retirez le fichier ISO dans votre iLO et choisissez "Redémarrer"
 
 Pour activer la carte réseau, connectez-vous à votre système avec le mot de passe.
 
-Ouvrez loader.conf avec l’éditeur de votre choix, par exemple `ee /boot/loader.conf` et ajoutez la ligne suivante :
+Ouvrez loader.conf avec un éditeur de votre choix, par exemple `ee /boot/loader.conf` et ajoutez la ligne suivante :
 
 ```if_oce_load="YES"```
 
-Quittez l’éditeur avec `CTRL+C` puis tapez exit, ensuite redémarrez votre serveur dédié.
+Quittez l’éditeur en appuyant sur `CTRL+C` puis tapez exit, ensuite redémarrez votre serveur dédié.
 
 ***
 
-Après le redémarrage, modifiez le fichier rc.conf, par exemple avec `ee /etc/rc.conf`, ajoutez les lignes suivantes :
+Après le redémarrage, modifiez le rc.conf, par exemple avec `ee /etc/rc.conf`, ajoutez les lignes suivantes :
 
 ```
 ifconfig_oce0="DHCP"
 ```
 
 :::caution
-Le nom de la carte réseau dans l’exemple **oce0** peut être différent. Assurez-vous d’indiquer la bonne carte réseau. Vous pouvez vérifier cela avec la commande ifconfig. L’adresse sera alors automatiquement récupérée via le serveur DHCP.
+Le nom de la carte réseau dans l’exemple **oce0** peut être différent. Assurez-vous d’indiquer la bonne carte réseau. Vous pouvez vérifier cela avec la commande ifconfig. L’adresse sera alors récupérée automatiquement via le serveur DHCP.
 :::
 
 Cela devrait ressembler à ça :
@@ -142,6 +142,4 @@ Votre serveur devrait maintenant avoir une connexion internet active.
 
 ## Conclusion
 
-Félicitations, vous avez installé avec succès le système FreeBSD sur votre serveur dédié. Pour toute question ou aide, n’hésitez pas à contacter notre support, disponible tous les jours pour vous accompagner ! 🙂
-
-<InlineVoucher />
+Félicitations, vous avez installé avec succès FreeBSD sur votre serveur dédié. Pour toute question ou aide, n’hésitez pas à contacter notre support, disponible tous les jours pour vous aider ! 🙂

@@ -10,9 +10,7 @@ services:
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introducción
-¿Eres nuevo en esto y te preocupa no poder manejar la configuración de un servicio así o que te surjan dificultades? ¡No te preocupes! Esta guía y nuestro asistente de configuración te llevarán paso a paso por la configuración inicial de tu Servidor dedicado ZAP.
-
-<InlineVoucher />
+¿Eres nuevo en este tema y te preocupa no poder manejar la configuración de un servicio así o que puedas tener dificultades al hacerlo? ¡No te preocupes! Esta guía y nuestro asistente de configuración te llevarán paso a paso por la configuración inicial de tu Servidor dedicado ZAP.
 
 ## Preparación
 
@@ -21,7 +19,7 @@ Para la configuración inicial, primero debes activar la interfaz de administrac
 
 ![EN](https://screensaver01.zap-hosting.com/index.php/s/xmAFAt4CXTt7b7c/preview)
 
-En cuanto iLO esté activado, el estado de iLO debería mostrarse como **Activo**. La sesión de iLO se activa por defecto durante tres horas y después debe reactivarse si quieres acceder de nuevo. Ahora puedes continuar con la selección del ISO.
+En cuanto el iLO esté activado, el estado de iLO debería mostrarse como **Activo**. La sesión de iLO se activa por defecto durante tres horas y luego debe reactivarse si quieres acceder de nuevo. Ahora puedes continuar con la selección del ISO.
 
 ### Selección del ISO
 
@@ -47,15 +45,15 @@ También es posible añadir y montar tu propio ISO personalizado. Para más info
 
 ### Montar y arrancar el ISO
 
-Una vez que el archivo ISO ha sido seleccionado e insertado correctamente, el sistema debe reiniciarse una vez para que acepte el cambio y arranque usando el archivo ISO. Para ello, simplemente haz clic en el botón **Reiniciar**. El reinicio puede tardar un momento.
+Una vez que el archivo ISO ha sido seleccionado e insertado correctamente, el sistema debe reiniciarse para que acepte el cambio y arranque desde el archivo ISO. Para ello, simplemente haz clic en el botón **Reiniciar**. El reinicio puede tardar un momento.
 
 ![EN](https://screensaver01.zap-hosting.com/index.php/s/zPQagx6yD5nCM7L/preview)
 
 ### Usar iLO para instalar el sistema operativo
 
-Ahora tienes la base para instalar el sistema operativo que quieras. El sistema ha montado el ISO e iniciado la configuración correspondiente. Abre la **interfaz de administración iLO** de tu servidor y haz clic directamente en "Consola remota integrada: **HTML 5**" para acceder a la pantalla de tu servidor. Más información sobre cómo manejar la consola en la interfaz iLO la tienes en nuestra guía de [iLO](dedicated-ilo.md).
+Ahora tienes la base para instalar el sistema operativo que desees. El sistema ha montado el ISO y ha iniciado la configuración. Abre la **interfaz de administración iLO** de tu servidor y haz clic directamente en "Consola remota integrada: **HTML 5**" para acceder a la pantalla de tu servidor. Más información sobre cómo manejar la consola en la interfaz iLO la encontrarás en nuestra guía de [iLO](dedicated-ilo.md).
 
-La instalación del sistema operativo se realiza ahora en la consola HTML. También ofrecemos guías para los sistemas operativos más comunes. Para más detalles sobre los siguientes pasos, echa un vistazo a las guías correspondientes:
+La instalación del sistema operativo se realiza ahora en la consola HTML. También ofrecemos guías para los sistemas operativos más comunes. Para más información sobre los siguientes pasos, echa un vistazo a las guías correspondientes:
 
 - [Instalar Windows](dedicated-windows.md)
 - [Instalar Debian](dedicated-linux-debian.md)
@@ -63,5 +61,3 @@ La instalación del sistema operativo se realiza ahora en la consola HTML. Tambi
 - [Instalar FreeBSD](dedicated-freebsd.md)
 - [Instalar CentOS](dedicated-centos.md)
 - [Instalar Proxmox](dedicated-proxmox.md)
-
-<InlineVoucher />

@@ -1,7 +1,7 @@
 ---
 id: dedicated-windows-fivem
 title: "Serveur dédié : Configuration d’un serveur dédié FiveM"
-description: "Découvrez comment installer et gérer votre propre serveur dédié FiveM avec txAdmin pour un jeu multijoueur fluide → En savoir plus maintenant"
+description: "Découvrez comment configurer et faire tourner votre propre serveur dédié FiveM avec txAdmin pour un jeu multijoueur fluide → En savoir plus maintenant"
 sidebar_label: FiveM
 services:
   - dedicated
@@ -17,19 +17,19 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introduction
 
-Vous possédez un serveur dédié et souhaitez installer et exploiter votre propre service de serveur dédié FiveM avec txAdmin ? Vous êtes au bon endroit ! Dans ce qui suit, nous allons vous expliquer toutes les étapes nécessaires pour l’installer et le configurer ainsi que ce à quoi il faut faire attention. 
+Vous possédez un serveur dédié et souhaitez installer et gérer votre propre service de serveur dédié FiveM avec txAdmin ? Vous êtes au bon endroit ! Dans ce qui suit, nous vous expliquons toutes les étapes nécessaires pour l’installer et le configurer ainsi que ce à quoi vous devez faire attention.
 
 
 
 :::warning  Système d’exploitation sélectionné et installé
-On part du principe que vous avez déjà choisi et installé un système d’exploitation pour votre serveur dédié. Si ce n’est pas encore fait, vous devez d’abord suivre les étapes du [guide de configuration initiale](dedicated-setup.md) pour serveurs dédiés.
+On part du principe que vous avez déjà choisi et installé un système d’exploitation pour votre serveur dédié. Si ce n’est pas encore fait, vous devez d’abord suivre les étapes du guide [Configuration initiale](dedicated-setup.md) pour serveurs dédiés.
 :::
 
 
 
 ## Préparation
 
-Pour mettre en place un serveur FiveM, certaines étapes de préparation sont nécessaires et doivent être réalisées avant de commencer l’installation proprement dite du serveur dédié FiveM.
+Pour mettre en place un serveur FiveM, certaines étapes de préparation sont nécessaires et doivent être réalisées avant de commencer la configuration proprement dite du serveur dédié FiveM.
 
 
 
@@ -41,19 +41,19 @@ Si vous souhaitez utiliser et installer des ressources nécessitant une base de 
 
 ### Télécharger le logiciel serveur FiveM
 
-L’étape suivante consiste à télécharger le logiciel serveur FiveM. Pour cela, rendez-vous sur le site [Server Build List](https://runtime.fivem.net/artifacts/fivem/build_server_windows/master/) de FiveM via l’un des navigateurs Internet installés de votre choix et téléchargez la dernière version du build serveur FiveM. 
+L’étape suivante consiste à télécharger le logiciel serveur FiveM. Pour cela, rendez-vous sur le site [Server Build List](https://runtime.fivem.net/artifacts/fivem/build_server_windows/master/) de FiveM via l’un des navigateurs Internet installés de votre choix et téléchargez la dernière version du build serveur FiveM.
 
-Décompressez le fichier téléchargé dans le dossier Téléchargements et déplacez les fichiers du serveur FiveM de préférence dans un dossier séparé. Dans cet exemple, le logiciel serveur se trouve dans un dossier nommé **FiveM** sur le bureau. 
+Décompressez le fichier téléchargé dans le dossier Téléchargements et déplacez les fichiers du serveur FiveM de préférence dans un dossier séparé. Dans cet exemple, le logiciel serveur se trouve dans un dossier nommé **FiveM** sur le bureau.
 
-:::warning Outil de décompression nécessaire
-Pour décompresser le logiciel serveur FiveM téléchargé, un outil de décompression est nécessaire pour le fichier compressé. Dans cet exemple, nous utilisons le logiciel [7Zip](https://7-zip.com/). 
+:::warning Outil de décompression requis
+Pour décompresser le logiciel serveur FiveM téléchargé, un outil de décompression est nécessaire pour le fichier compressé. Dans cet exemple, nous utilisons le logiciel [7Zip](https://7-zip.com/).
 :::
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/B9Qs9raB3fRZjJ4/download)
 
 
 
-### Créer une clé de licence pour le serveur FiveM
+### Créer la clé de licence du serveur FiveM
 
 Chaque serveur FiveM nécessite sa propre clé de licence, qui est gérée via le nouveau [Portail Cfx.re](http://portal.cfx.re/). La clé de licence est liée à votre compte Cfx.re. Connectez-vous au site, allez dans la catégorie **Server** et cliquez sur le bouton **Generate Key**.
 
@@ -68,7 +68,7 @@ Vous pouvez maintenant commencer l’installation du serveur FiveM et de txAdmin
 ![img](https://screensaver01.zap-hosting.com/index.php/s/aSEbx3LnJe2rZpd/download)
 
 
-Une fois l’application serveur lancée, la console serveur et txAdmin s’ouvrent. Dans l’interface txAdmin, vous devez lier votre **compte Cfx.re** avec txAdmin.  
+Une fois l’application serveur lancée, la console serveur et txAdmin s’ouvrent. Dans l’interface txAdmin, vous devez lier votre **compte Cfx.re** avec txAdmin.
 
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/EDcJWjKSrrwARTL/download)
@@ -77,9 +77,9 @@ Une fois l’application serveur lancée, la console serveur et txAdmin s’ouvr
 
 ### Configuration de txAdmin
 
-Lors de la configuration de txAdmin, votre propre serveur FiveM est installé et configuré en cinq étapes. Suivez les instructions dans l’interface txAdmin et définissez d’abord un **nom de serveur**. Ensuite, sélectionnez le **type de serveur** souhaité. Cet exemple montre l’installation d’un serveur FiveM avec QBCore préinstallé.
+Pendant la configuration de txAdmin, votre propre serveur FiveM est installé et configuré en cinq étapes. Suivez les instructions dans l’interface txAdmin et définissez d’abord un **nom de serveur**. Ensuite, sélectionnez le **type de serveur** souhaité. Cet exemple montre l’installation d’un serveur FiveM avec QBCore préinstallé.
 
-Choisissez l’option **Popular Recipes** dans l’étape **Deployment Type** puis le **QBCore Framework Template**. Confirmez le **répertoire de données** souhaité et lancez le **Recipe Deployer** pour finaliser l’installation.
+Choisissez l’option **Popular Recipes** dans l’étape **Deployment Type**, puis le **QBCore Framework Template**. Confirmez le **répertoire de données** souhaité et lancez le **Recipe Deployer** pour finaliser l’installation.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/WACQEdocRxNrRrk/download)
 
@@ -89,18 +89,18 @@ Pendant le Recipe Deployer, les dernières informations nécessaires doivent êt
 
 
 ### Configuration du pare-feu
-Pour que votre serveur soit accessible publiquement, vous devez modifier les règles de redirection de ports pour les ports utilisés par le processus du serveur dédié. Vous pouvez le faire soit via des commandes Powershell, ce qui est plus simple, soit via la page du pare-feu Windows Defender.
+Pour que votre serveur soit accessible au public, vous devez modifier les règles de redirection de ports pour les ports utilisés par le processus du serveur dédié. Vous pouvez le faire soit via des commandes Powershell, ce qui est plus simple, soit via la page du pare-feu Windows Defender.
 
 <Tabs>
 <TabItem value="powershell" label="Via Powershell" default>
 
-Ouvrez la barre de recherche Windows et cherchez **Powershell**. Veillez à faire un clic droit et à **Exécuter en tant qu’administrateur** pour que les permissions soient accessibles et que tout fonctionne correctement.
+Ouvrez la barre de recherche Windows et cherchez **Powershell**. Faites un clic droit et sélectionnez **Exécuter en tant qu’administrateur** pour que les permissions soient accessibles et que tout fonctionne correctement.
 
 :::info
 Assurez-vous d’exécuter Powershell en mode administrateur, sinon les paramètres risquent de ne pas s’appliquer correctement.
 :::
 
-Ensuite, copiez-collez les commandes suivantes dans votre invite Powershell :
+Copiez-collez ensuite les commandes suivantes dans votre invite Powershell :
 ```
 New-NetFirewallRule -DisplayName "FiveM Server" -Direction Inbound -LocalPort 30120 -Protocol TCP -Action Allow
 New-NetFirewallRule -DisplayName "FiveM Server" -Direction Inbound -LocalPort 30120 -Protocol UDP -Action Allow
@@ -108,13 +108,13 @@ New-NetFirewallRule -DisplayName "FiveM Server" -Direction Outbound -LocalPort 3
 New-NetFirewallRule -DisplayName "FiveM Server" -Direction Outbound -LocalPort 30120 -Protocol UDP -Action Allow
 ```
 
-Ces commandes créeront automatiquement les règles de pare-feu nécessaires pour que votre serveur FiveM soit accessible publiquement.
+Ces commandes créeront automatiquement les règles de pare-feu nécessaires pour que votre serveur FiveM soit accessible au public.
 
 </TabItem>
 
 <TabItem value="windefender" label="Via Windows Defender">
 
-Utilisez la fonction de recherche Windows pour ouvrir les **Paramètres du pare-feu Windows avec sécurité avancée**. Vous devrez peut-être cliquer sur **Paramètres avancés** pour ouvrir la fenêtre nécessaire si vous ouvrez la page de base du pare-feu Windows.
+Utilisez la fonction de recherche Windows pour ouvrir les **Paramètres du pare-feu Windows avec sécurité avancée**. Vous devrez peut-être cliquer sur **Paramètres avancés** pour ouvrir la fenêtre nécessaire si vous êtes sur la page de base du pare-feu Windows.
 
 ![](https://github.com/zaphosting/docs/assets/42719082/5fb9f943-7e51-4d8f-9df4-2f5ff60857d3)
 
@@ -132,4 +132,4 @@ N’hésitez pas à consulter notre guide [Redirection de ports (Pare-feu)](vser
 Vous avez installé et configuré avec succès un service de serveur dédié FiveM sur votre serveur dédié. Pour toute question ou assistance, n’hésitez pas à contacter notre équipe support, disponible tous les jours pour vous aider ! 🙂
 
 
-<InlineVoucher />
+

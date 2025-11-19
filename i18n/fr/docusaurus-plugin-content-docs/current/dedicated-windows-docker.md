@@ -1,7 +1,7 @@
 ---
 id: dedicated-windows-docker
 title: "Serveur dédié : Installer Docker sur Windows"
-description: "Découvrez comment déployer et gérer des applications de manière fiable avec des conteneurs Docker pour un scaling efficace et des mises à jour sans accroc → En savoir plus maintenant"
+description: "Découvrez comment déployer et gérer des applications de manière fiable avec des conteneurs Docker pour une montée en charge et des mises à jour efficaces → En savoir plus maintenant"
 sidebar_label: Installer Docker
 services:
   - Serveur dédié
@@ -13,13 +13,13 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introduction
 
-Docker est une plateforme open source pour développer, déployer et exécuter des applications dans des conteneurs. Un conteneur regroupe une application avec toutes ses dépendances dans une unité standardisée qui peut tourner de manière fiable sur différents environnements.
+Docker est une plateforme open source pour développer, déployer et exécuter des applications dans des conteneurs. Un conteneur regroupe une application avec toutes ses dépendances dans une unité standardisée qui peut fonctionner de manière fiable sur différents environnements.
 
-Cette approche élimine les problèmes liés aux différences entre les systèmes de développement, de test et de production. Avec Docker, les applications peuvent être déployées rapidement, scalées efficacement et mises à jour sans interruption.
+Cette approche élimine les problèmes liés aux différences entre les systèmes de développement, de test et de production. Avec Docker, les applications peuvent être déployées rapidement, montées en charge efficacement et mises à jour sans interruption.
 
-Tu envisages d’héberger ce service toi-même ? On te guide pas à pas pour l’installer et le configurer, avec tout ce qu’il faut savoir.
+Tu envisages d’héberger ce service toi-même ? On te guide pas à pas pour l’installer et le configurer, avec tout ce qu’il faut savoir pour assurer un bon fonctionnement.
 
-<InlineVoucher />
+
 
 ## Prérequis
 
@@ -27,20 +27,22 @@ Avant d’installer **Docker**, assure-toi que ton environnement d’hébergemen
 
 | Matériel   | Minimum     | Recommandation ZAP-Hosting |
 | ---------- | ----------- | -------------------------- |
-| CPU        | 1 cœurs CPU | 4 cœurs CPU                |
+| CPU        | 1 cœur CPU  | 4 cœurs CPU                |
 | RAM        | 4 Go        | 4 Go                       |
-| Espace disque | 10 Go     | 25 Go                      |
+| Espace disque | 10 Go    | 25 Go                      |
+
+
 
 ## Installation
 
-Pour installer Docker sur Windows Server, télécharge et lance le script PowerShell `install-docker-ce.ps1`. Il active les fonctionnalités Windows nécessaires aux conteneurs et installe le runtime Docker. Ouvre PowerShell en admin et exécute la commande suivante :
+Pour installer Docker sur Windows Server, télécharge et lance le script PowerShell `install-docker-ce.ps1`. Il active les fonctionnalités Windows nécessaires aux conteneurs et installe le runtime Docker. Ouvre PowerShell en mode admin et exécute la commande suivante :
 
 ```powershell
 Invoke-WebRequest -UseBasicParsing "https://raw.githubusercontent.com/microsoft/Windows-Containers/Main/helpful_tools/Install-DockerCE/install-docker-ce.ps1" -o install-docker-ce.ps1
 .\install-docker-ce.ps1
 ```
 
-Le script active les fonctionnalités Windows liées aux conteneurs, installe Docker Engine et la CLI Docker, puis enregistre le service Docker pour un démarrage automatique.
+Le script active les fonctionnalités Windows liées aux conteneurs, installe Docker Engine et l’interface Docker CLI, puis enregistre le service Docker pour un démarrage automatique.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/y26fPWy63FAWJGp/download)
 
@@ -58,6 +60,8 @@ REPOSITORY   TAG       IMAGE ID   CREATED   SIZE
 Script complete!
 ```
 
+
+
 ## Configuration
 
 ### Démarrer et arrêter Docker
@@ -70,6 +74,8 @@ Stop-Service docker     # Arrêter le service Docker
 Restart-Service docker  # Redémarrer le service Docker
 ```
 
+
+
 ### Démarrer et arrêter un conteneur
 
 Lance un conteneur avec `docker run`. Exemple : serveur web IIS mappant le port 80 du conteneur sur le port 8080 de l’hôte :
@@ -77,6 +83,8 @@ Lance un conteneur avec `docker run`. Exemple : serveur web IIS mappant le port 
 ```
 docker run -d --name web -p 8080:80 mcr.microsoft.com/windows/servercore/iis:windowsservercore-ltsc2022
 ```
+
+
 
 ### Vérifier le statut d’un conteneur
 
@@ -89,17 +97,22 @@ docker inspect web   # Infos détaillées
 docker logs web      # Logs du conteneur
 ```
 
+
+
 #### Ressources et statut
 
 ```
 docker stats            # CPU/RAM/IO en temps réel
 ```
 
-## Conclusion et ressources complémentaires
 
-Bravo ! Tu as maintenant installé et configuré Docker avec succès sur ton serveur dédié. On te conseille aussi de jeter un œil à ces ressources, qui pourront t’apporter un coup de main et des conseils pendant ta config serveur :
+
+
+## Conclusion et ressources supplémentaires
+
+Félicitations ! Tu as maintenant installé et configuré Docker avec succès sur ton serveur dédié. On te recommande aussi de jeter un œil aux ressources suivantes, qui pourront t’apporter un coup de main et des conseils pendant ta configuration :
 
 - [Docker.com](https://Docker.com/) - Site officiel
 - [docs.docker.com](https://docs.docker.com/) - Documentation Docker
 
-Tu as des questions spécifiques qui ne sont pas couvertes ici ? Pour toute demande ou aide, n’hésite pas à contacter notre support, dispo tous les jours pour t’aider ! 🙂
+Tu as des questions spécifiques qui ne sont pas couvertes ici ? Pour toute autre demande ou assistance, n’hésite pas à contacter notre support, disponible tous les jours pour t’aider ! 🙂

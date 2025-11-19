@@ -21,11 +21,11 @@ A diferencia de un servidor virtual, con un servidor dedicado tendrás tu propio
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/9YMG6QfsNzzjCSQ/preview)
 
-<InlineVoucher />
+
 
 ## Pedido
 
-El proceso de pedido es muy sencillo. Selecciona la configuración que deseas para tu [servidor dedicado](https://zap-hosting.com/en/dedicated-server-hosting/). El tiempo de configuración del servidor dedicado depende de la disponibilidad. Puedes comprobarlo mirando el símbolo de estado junto a la bandera para cada configuración. El estado **Verde** significa que la configuración está disponible y estará lista en pocos minutos. Si aparece el estado **Naranja** para la configuración, esta no está disponible de inmediato y debe ser ensamblada. El tiempo de configuración es aproximadamente 5 días hábiles (lunes a viernes).
+El proceso de pedido es muy sencillo. Selecciona la configuración que deseas para tu [servidor dedicado](https://zap-hosting.com/en/dedicated-server-hosting/). El tiempo de configuración del servidor dedicado depende de la disponibilidad. Puedes comprobarlo mirando el símbolo de estado junto a la bandera para cada configuración. El estado **Verde** significa que la configuración está disponible y estará lista en pocos minutos. Si se muestra el estado **Naranja** para la configuración, esta no está disponible de inmediato y debe ser ensamblada. El tiempo de configuración es aproximadamente 5 días hábiles (lunes a viernes).
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/SD6jF4MENeqaJFZ/preview)
 
@@ -58,8 +58,6 @@ Gracias al rendimiento, los permisos completos y las posibilidades que esto ofre
 - Servidores de juegos y servidores de voz
 - Virtualizaciones
 
-## Preguntas frecuentes
-¿Tienes más preguntas sobre nuestro producto de servidor dedicado? Obtén respuestas a todo lo que quieras saber sobre características, beneficios, configuración y cómo usarlo de forma efectiva. Así tendrás la info que necesitas para sacarle el máximo provecho a nuestro producto de servidor dedicado. Y si algo sigue sin estar claro, solo contáctanos y estaremos aquí para ayudarte al instante.
+## Preguntas Frecuentes
+¿Tienes más preguntas sobre nuestro producto de servidor dedicado? Obtén respuestas a todo lo que quieres saber sobre características, beneficios, configuración y cómo usarlo de forma efectiva. Así obtienes la info que necesitas para aprovechar al máximo nuestro producto de servidor dedicado. Y si algo sigue sin quedar claro, solo contáctanos y estamos aquí para ayudarte al instante.
 <SearchableAccordion items={items} />
-
-<InlineVoucher />

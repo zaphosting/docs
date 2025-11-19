@@ -13,45 +13,45 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Du hast einen Windows Dedicated Server und möchtest den open.mp Dedicated Server Service darauf installieren? Dann bist du hier genau richtig. In dieser Anleitung erklären wir dir Schritt für Schritt, wie du diesen Service auf deinem Server installierst.
 
-<InlineVoucher />
+
 
 ## Vorbereitung
 
-Verbinde dich zunächst per Remote Desktop (RDP) mit deinem Dedicated Server. Falls du dabei Hilfe brauchst, schau dir unsere [Erstzugang (RDP)](vserver-windows-userdp.md) Anleitung an.
+Verbinde dich zunächst per Remote Desktop (RDP) mit deinem Dedicated Server. Falls du dabei Hilfe brauchst, nutze unsere [Erstzugang (RDP)](vserver-windows-userdp.md) Anleitung.
 
-Nachdem du Zugriff auf deinen Server hast, lade die neueste Version aus dem [open.mp GitHub Repository](https://github.com/openmultiplayer/open.mp/releases) herunter. Achte darauf, die **win-x86** Version auszuwählen.
+Sobald du Zugriff auf deinen Server hast, lade die neueste Version aus dem [open.mp GitHub Repository](https://github.com/openmultiplayer/open.mp/releases) herunter. Achte darauf, die **win-x86** Version auszuwählen.
 
 ![image](https://screensaver01.zap-hosting.com/index.php/s/sCGpA3dwHngbNCy/preview)
 
 ## Installation
 
-Nachdem du die Release-Datei heruntergeladen hast, entpacke den Inhalt mit einem Tool wie 7zip oder WinRAR. Es sollte ein **Server** Ordner entstehen, der alle notwendigen Serverdateien enthält.
+Nachdem du die Release-Datei heruntergeladen hast, entpacke den Inhalt mit einem Tool wie 7zip oder WinRAR. Es sollte ein **Server** Ordner entstehen, der alle nötigen Serverdateien enthält.
 
-Um den Server zu starten, führe einfach **omp-server.exe** aus und der Server beginnt zu booten. Wir empfehlen jedoch, zuerst das Port Forwarding einzurichten und deinen Server zu konfigurieren.
+Um den Server zu starten, führe einfach **omp-server.exe** aus und der Server bootet. Wir empfehlen jedoch, zuerst das Port Forwarding einzurichten und deinen Server zu konfigurieren.
 
 ![image](https://screensaver01.zap-hosting.com/index.php/s/xeqZjg8RMCnRcZf/preview)
 
 ### Port Forwarding für deinen Server
 
-Damit dein Server öffentlich erreichbar ist, musst du Port-Weiterleitungsregeln für die Ports anpassen, die der Dedicated Server nutzt. Das kannst du entweder direkt über PowerShell-Befehle machen, was einfacher ist, oder klassisch über die Windows Defender Firewall.
+Damit dein Server öffentlich erreichbar ist, musst du Port-Weiterleitungsregeln für die Ports anlegen, die der Dedicated Server nutzt. Das kannst du entweder direkt über PowerShell-Befehle machen, was einfacher ist, oder klassisch über die Windows Defender Firewall.
 
 :::tip
-Beim ersten Start des Servers sollte eine UAC-Abfrage erscheinen. Wenn du diese bestätigst, werden die Firewall-Regeln automatisch eingerichtet, sodass du direkt mit dem nächsten Abschnitt weitermachen kannst. Falls nicht, folge einer der untenstehenden Methoden.
+Beim ersten Start des Servers erscheint eine UAC-Abfrage. Wenn du diese bestätigst, werden die Firewall-Regeln automatisch eingerichtet und du kannst direkt zum nächsten Abschnitt springen. Falls nicht, folge einer der Methoden unten.
 :::
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
 <Tabs>
-<TabItem value="powershell" label="Via PowerShell" default>
+<TabItem value="powershell" label="Via Powershell" default>
 
 Öffne die Windows-Suche und suche nach **PowerShell**. Klicke mit Rechtsklick und wähle **Als Administrator ausführen**, damit die nötigen Berechtigungen vorhanden sind und alles reibungslos funktioniert.
 
 :::info
-Stelle sicher, dass du PowerShell im Administrator-Modus ausführst, sonst werden die Einstellungen möglicherweise nicht korrekt übernommen.
+Stelle sicher, dass du PowerShell im Administrator-Modus startest, sonst werden die Einstellungen nicht korrekt übernommen.
 :::
 
-Kopiere und füge dann die folgenden Befehle in die PowerShell ein:
+Füge nun die folgenden Befehle in die PowerShell ein und führe sie aus:
 ```
 New-NetFirewallRule -DisplayName "open.mp Server" -Direction Inbound -LocalPort 7777  -Protocol TCP -Action Allow
 New-NetFirewallRule -DisplayName "open.mp Server" -Direction Inbound -LocalPort 7777 -Protocol UDP -Action Allow
@@ -59,7 +59,7 @@ New-NetFirewallRule -DisplayName "open.mp Server" -Direction Outbound -LocalPort
 New-NetFirewallRule -DisplayName "open.mp Server" -Direction Outbound -LocalPort 7777 -Protocol UDP -Action Allow
 ```
 
-Diese Befehle erstellen automatisch die Firewall-Regeln, die dein open.mp Server braucht, um öffentlich erreichbar zu sein.
+Diese Befehle legen automatisch die Firewall-Regeln an, die dein open.mp Server braucht, um öffentlich erreichbar zu sein.
 
 </TabItem>
 
@@ -69,7 +69,7 @@ Diese Befehle erstellen automatisch die Firewall-Regeln, die dein open.mp Server
 
 ![image](https://github.com/zaphosting/docs/assets/42719082/5fb9f943-7e51-4d8f-9df4-2f5ff60857d3)
 
-Du musst neue Regeln für deinen open.mp Server anlegen. Klicke dazu auf eingehende und ausgehende Regeln und füge folgende Protokolle und Ports hinzu:
+Erstelle neue Regeln für deinen open.mp Server. Klicke dazu auf eingehende und ausgehende Regeln und füge folgende Protokolle und Ports hinzu:
 - TCP eingehend und ausgehend: 7777
 - UDP eingehend und ausgehend: 7777
 
@@ -80,15 +80,15 @@ Falls du weitere Hilfe brauchst, schau dir unsere [Port Forwarding (Firewall)](v
 
 Nachdem du diese Regeln hinzugefügt hast, ist dein Server erreichbar und du kannst dich über die IP-Adresse deines Servers verbinden.
 
-Wir empfehlen, zuerst die Servereinstellungen zu konfigurieren, bevor du dich verbindest. Das erklären wir im nächsten Abschnitt.
+Wir empfehlen, deinen Server zuerst über den nächsten Abschnitt zu konfigurieren, bevor du dich verbindest.
 
 ## Konfiguration
 
 Bis hierhin hast du die Grundinstallation deines open.mp Servers abgeschlossen. Weitere Einstellungen kannst du über eine Konfigurationsdatei vornehmen.
 
-Wechsle zurück in das Root-Verzeichnis und öffne die **config.json** Datei. Dort kannst du viele Serverparameter anpassen, z.B. den Port, das Passwort und vieles mehr.
+Wechsle zurück in das Root-Verzeichnis. Öffne die **config.json** Datei. Hier kannst du viele Serverparameter anpassen, von Port über Passwort bis hin zu weiteren Optionen.
 
-Hier ein Beispiel für ein paar Konfigurationsoptionen:
+Zum Beispiel sind folgende Einstellungen gesetzt:
 ```
 "name": "ZAP-Hosting Docs Test",
 "password": "iLoveZAP!2024",
@@ -99,12 +99,10 @@ Sieh dir unsere [Server Konfiguration](openmp-configuration.md) an, um alle verf
 
 ## Server starten & verbinden
 
-Jetzt kannst du deinen Server starten. Gehe ins Root-Verzeichnis und führe **omp-server.exe** aus, um den Startprozess zu beginnen. Das öffnet die Server-Konsole in einem Kommando-Fenster.
+Jetzt kannst du deinen Server starten. Gehe ins Root-Verzeichnis und führe **omp-server.exe** aus, um den Startvorgang zu beginnen. Es öffnet sich die Server-Konsole im Kommandozeilenfenster und der Server bootet.
 
-Du kannst dich jetzt direkt im Spiel über den open.mp Launcher mit deinem Server verbinden. Wenn du möchtest, dass dein Server in der Serverliste angezeigt wird, schau dir unsere [Server Konfiguration](openmp-configuration.md) Anleitung an und stelle sicher, dass der Parameter `enable_query` auf true steht (ist normalerweise Standard). Speichere die Datei und starte den Server erneut.
+Du kannst dich jetzt direkt im Spiel über den open.mp Launcher mit deinem Server verbinden. Wenn du möchtest, dass dein Server in der Serverliste angezeigt wird, schau dir unsere [Server Konfiguration](openmp-configuration.md) Anleitung an und stelle sicher, dass der Parameter `enable_query` auf true steht (ist standardmäßig so). Speichere die Datei und starte den Server erneut.
 
 ## Fazit
 
 Glückwunsch, du hast den open.mp Server erfolgreich auf deinem Dedicated Server installiert und konfiguriert! Falls du noch Fragen oder Probleme hast, steht dir unser Support-Team täglich zur Verfügung und hilft dir gerne weiter!
-
-<InlineVoucher />

@@ -11,18 +11,18 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introduction
 
-Votre serveur ne démarre plus ? Vous êtes bloqué hors de votre système ou vous souhaitez créer une sauvegarde avant de faire des modifications ?  
+Votre serveur ne démarre plus ? Vous êtes bloqué hors de votre système ou vous souhaitez créer une sauvegarde avant de faire des modifications ?
 En démarrant votre serveur avec l’**ISO SystemRescue**, vous pouvez toujours accéder à vos disques, restaurer des fichiers importants et créer des sauvegardes localement. Ça marche même si le système d’exploitation d’origine n’est plus accessible.
 
 Pour transférer les données récupérées en toute sécurité, vous pouvez utiliser **SFTP (Secure File Transfer Protocol)**. Cette méthode vous permet de copier des fichiers depuis le système de secours vers votre ordinateur local ou vers un autre serveur via une connexion sécurisée et chiffrée.
 
-<InlineVoucher />
+
 
 
 
 ## Préparation
 
-Pour effectuer la sauvegarde des données, vous allez utiliser l’**ISO SystemRescue version 12.01**.  
+Pour effectuer la sauvegarde des données, vous utiliserez l’**ISO SystemRescue version 12.01**.
 Commencez par accéder à l’interface de votre serveur dédié et rendez-vous dans la section **Installation initiale**.
 
 Sélectionnez l’ISO **SystemRescue 12.01** parmi les options disponibles. Après avoir choisi la bonne ISO, cliquez sur **Démarrer depuis l’ISO** pour lancer le processus de démarrage. Une fois le serveur démarré depuis l’ISO, connectez-vous via l’[interface iLO](dedicated-ilo.md) pour continuer.
@@ -46,12 +46,12 @@ Avant de monter un disque, il est important d’avoir une vue d’ensemble des p
 fdisk -l
 ```
 
-Cette commande liste tous les disques détectés avec les détails de leurs partitions. Le résultat inclut :
+Cette commande liste tous les disques détectés avec les détails de leurs partitions. La sortie inclut :
 
-- Les périphériques de stockage connectés (ex : `/dev/sda`, `/dev/sdb`),  
-- La taille de chaque disque,  
-- Les types de partitions,  
-- Les partitions disponibles (ex : `/dev/sda1`, `/dev/sda2`, …),  
+- Les périphériques de stockage connectés (ex : `/dev/sda`, `/dev/sdb`),
+- La taille de chaque disque,
+- Le type de partition,
+- Les partitions disponibles (ex : `/dev/sda1`, `/dev/sda2`, …),
 - Le type de système de fichiers (si détecté).
 
 Dans cet exemple, le disque `/dev/sda` a trois partitions : `/dev/sda1`, `/dev/sda2` et `/dev/sda3`. Assurez-vous de sélectionner la bonne partition avant de la monter. La sortie de `fdisk -l` vous aide à éviter les erreurs en montrant clairement quel disque contient quelles données. Exemple :
@@ -64,7 +64,7 @@ Device        Boot   Start       End   Sectors   Size Type
 /dev/sda3           3147776 234440703 231292928   110G Linux LVM
 ```
 
-Une fois que vous avez identifié la bonne partition, l’étape suivante est de créer un dossier qui servira de point de montage. C’est l’endroit où la partition sera accessible. Ensuite, montez la partition désirée dans ce dossier. Il est recommandé de monter en **mode lecture seule** pour garantir un accès sécurisé aux données.
+Une fois la bonne partition identifiée, l’étape suivante est de créer un dossier qui servira de point de montage. C’est l’emplacement où la partition sera accessible. Ensuite, montez la partition désirée dans ce dossier. Il est recommandé de monter en **mode lecture seule** pour garantir un accès sécurisé aux données.
 
 Pour créer le point de montage et attacher la partition, utilisez les commandes suivantes :
 
@@ -73,7 +73,7 @@ mkdir /mnt/rescue
 mount -o ro /dev/sdaX /mnt/rescue
 ```
 
-Remplacez `/dev/sdaX` par l’identifiant correct de la partition que vous avez trouvé avec `fdisk -l`. Dans cet exemple, `/dev/sda2` serait la bonne partition pour notre disque.
+Remplacez `/dev/sdaX` par l’identifiant correct de la partition que vous avez trouvé avec `fdisk -l`. Dans cet exemple, `/dev/sda2` serait la partition correcte pour notre disque.
 
 ## Configuration du pare-feu
 
@@ -104,7 +104,7 @@ passwd: password updated successfully
 
 ## Transfert des données
 
-Vous êtes maintenant prêt à sauvegarder vos données. Pour cela, ouvrez simplement le client FTP de votre choix et établissez une connexion à votre serveur. Assurez-vous de sélectionner `SFTP` comme protocole de transfert. Pour le nom d’hôte, entrez l’`adresse IP` de votre serveur, utilisez le port `21` et connectez-vous avec le nom d’utilisateur `root` et le `mot de passe` que vous avez défini précédemment.
+Vous êtes maintenant prêt à sauvegarder vos données. Pour cela, ouvrez simplement le client FTP de votre choix et établissez une connexion à votre serveur. Assurez-vous de sélectionner `SFTP` comme protocole de transfert. Pour le nom d’hôte, entrez l’`adresse IP` de votre serveur, utilisez le port `21` et connectez-vous avec l’utilisateur `root` et le `mot de passe` que vous avez défini précédemment.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/armZ9db3nXsJW2o/download)
 
@@ -120,9 +120,7 @@ Maintenant que vous êtes connecté, naviguez jusqu’au **dossier rescue** que 
 
 ## Conclusion
 
-Vous avez maintenant réussi à récupérer et sauvegarder vos fichiers importants.  
+Vous avez maintenant réussi à récupérer et sauvegarder vos fichiers importants.
 Cela signifie que vos données sont en sécurité et prêtes à être restaurées quand vous le souhaitez. À ce stade, vous pouvez poursuivre avec d’autres actions, comme réinstaller votre serveur, réparer le système ou migrer vos données vers un nouvel environnement.
 
 Pour toute question ou assistance, n’hésitez pas à contacter notre équipe support, disponible tous les jours pour vous aider ! 🙂
-
-<InlineVoucher />

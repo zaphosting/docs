@@ -13,7 +13,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Pleskは、ウェブサイト、サーバー、メールアカウントなどを使いやすいインターフェースで管理できる総合的なホスティング＆サーバー管理プラットフォームです。初心者から経験豊富なウェブ開発者やシステム管理者まで幅広く使える万能ソリューションです。
 
-<InlineVoucher />
+
 
 ## サーバーへの接続を確立する
 
@@ -23,7 +23,7 @@ Pleskをサーバーにインストールするには、まずサーバーに接
 
 次に、Pleskのインストールに必要なPleskインストーラーを用意します。こちらからダウンロード可能です：[Pleskインストーラー](https://installer-win.plesk.com/plesk-installer.exe)
 
-ダウンロードしたインストーラーはフォルダに保存します。例として、デスクトップに作成した「Plesk」フォルダを使います。このファイルのパスが次のステップで重要になります。
+このインストーラーはフォルダに保存します。例として、デスクトップに作成した「Plesk」フォルダを使います。このファイルのパスが次のステップで重要になります。
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/qpQK28F3oPezWR8/preview)
 
@@ -38,24 +38,26 @@ Pleskをサーバーにインストールするには、まずサーバーに接
 
 CMDコンソールで、Pleskインストーラーを保存したディレクトリに移動します。例では「デスクトップ」の「Plesk」フォルダです。
 
-ディレクトリ移動はCMDの「*cd*」コマンドで行います。
+このディレクトリ移動はCMDの「*cd*」コマンドで行います。
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/sCCpiogDGsrGN9F/preview)
 
 正しいディレクトリに移動したら、最後にインストーラーを実行します。  
-`plesk-installer.exe`を起動すると、最新のPleskバージョンが自動的にインストールされます。
+`plesk-installer.exe`を起動し、最新のPleskバージョンが自動でインストールされます。
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/TKrkZagQr4CC7Hr/preview)
 
 コマンド: `plesk-installer.exe --select-product-id=panel --select-release-latest --installation-type=recommended`
 
 :::info
-インストールには30〜60分かかる場合があります。完了後、Pleskがインストールされてすぐに使える状態になります。
+インストールには30分から60分ほどかかります。完了するとPleskがインストールされ、すぐに使える状態になります。
 :::
+
+
+
+
 
 ## まとめ
 
-おめでとうございます、Pleskのインストールが無事完了しました！  
+おめでとうございます！Pleskのインストールが無事完了しました。  
 もし質問やサポートが必要な場合は、いつでもお気軽にサポートチームまでご連絡ください。毎日対応していますよ！🙂
-
-<InlineVoucher />

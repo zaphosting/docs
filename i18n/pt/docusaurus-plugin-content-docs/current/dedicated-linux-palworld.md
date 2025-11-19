@@ -10,13 +10,11 @@ services:
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introdução
-Você tem um Servidor Dedicado Linux e quer instalar o serviço do servidor dedicado Palworld nele? Você está no lugar certo. Neste guia, vamos explicar o passo a passo para instalar esse serviço no seu servidor Linux usando o SteamCMD. Usaremos o Ubuntu nos exemplos, mas o processo deve ser bem parecido para outras distribuições.
+Você tem um Servidor Dedicado Linux e quer instalar o serviço do servidor dedicado Palworld nele? Você está no lugar certo. Neste guia, vamos explicar o passo a passo para instalar esse serviço no seu servidor Linux usando o SteamCMD. Usaremos Ubuntu nos exemplos, mas o processo deve ser bem parecido para outras distribuições.
 
 :::tip
 Sabia que você pode instalar nossa **Interface ZAP GS/TS3** diretamente no seu servidor dedicado, permitindo configurar serviços de servidor de jogos com integração direta ao seu dashboard ZAP-Hosting, em poucos cliques? Saiba mais sobre a [Interface GS/TS3 aqui](dedicated-linux-gs-interface.md).
 :::
-
-<InlineVoucher />
 
 ## Preparação
 
@@ -37,13 +35,13 @@ Com o login feito, você pode iniciar a instalação usando o comando abaixo par
 steamcmd +force_install_dir '/home/steam/Palworld-Server' +login anonymous +app_update 2394010 validate +quit
 ```
 
-Tenha paciência enquanto o download acontece, pode levar um tempo para jogos maiores. Quando terminar, uma mensagem de sucesso aparecerá confirmando.
+Tenha paciência enquanto o download acontece, pode levar um tempo dependendo do tamanho do jogo. Quando terminar, uma mensagem de sucesso aparecerá confirmando.
 
 ## Configuração
 
 Neste ponto, você já terminou a instalação do seu servidor Palworld. Pode fazer configurações adicionais através de um arquivo de configuração dentro do diretório do servidor.
 
-Você precisa criar uma cópia do arquivo de configuração padrão e colocá-la na pasta de salvamento antes de editar.
+Você precisará criar uma cópia do arquivo de configuração padrão e colocá-la na pasta de salvamento antes de editar.
 ```
 cp /home/steam/Palworld-Server/DefaultPalWorldSettings.ini /home/steam/Palworld-Server/Pal/Saved/Config/LinuxServer/PalWorldSettings.ini
 ```
@@ -57,17 +55,15 @@ Confira nosso guia de [Configuração do Servidor Palworld](palworld-configurati
 
 ## Iniciando e conectando ao seu servidor
 
-Agora é hora de iniciar seu servidor. Vá para o diretório principal do jogo e execute o arquivo shell **PalServer.sh**.
+Agora é hora de iniciar seu servidor. Vá até o diretório principal do jogo e execute o arquivo shell **PalServer.sh**.
 ```
 /home/steam/Palworld-Server/PalServer.sh
 ```
 
-Você verá logs aparecerem no prompt, incluindo o log da versão do jogo, indicando que o servidor iniciou com sucesso. Se tudo ocorrer como esperado, seu servidor aparecerá na lista de servidores. Alternativamente, você pode se conectar diretamente usando a barra de busca na lista de servidores e procurando por: `[seu_endereço_ip]:8211`.
+Você verá logs aparecerem no seu terminal, incluindo o log da versão do jogo, indicando que o servidor iniciou com sucesso. Se tudo ocorrer como esperado, seu servidor aparecerá na lista de servidores. Alternativamente, você pode conectar diretamente usando a barra de busca na lista de servidores e procurando por: `[seu_endereço_ip]:8211`.
 
 ## Conclusão
 
-Parabéns, você instalou e configurou com sucesso o servidor Palworld no seu Servidor Dedicado! Como próximo passo, recomendamos conferir nosso guia de [Configuração do Serviço Linux](dedicated-linux-create-gameservice.md), que explica como configurar seu novo servidor dedicado de jogos como um serviço. Isso traz vários benefícios, como iniciar o servidor automaticamente no boot, atualizações automáticas, gerenciamento fácil e acesso aos logs, entre outros!
+Parabéns, você instalou e configurou com sucesso o servidor Palworld no seu Servidor Dedicado! Como próximo passo, recomendamos dar uma olhada no nosso guia de [Configurar Serviço Linux](dedicated-linux-create-gameservice.md), que explica como transformar seu servidor dedicado de jogos em um serviço. Isso traz vários benefícios, como iniciar o servidor automaticamente no boot, atualizações automáticas, gerenciamento fácil, acesso a logs e muito mais!
 
 Se tiver dúvidas ou problemas, entre em contato com nosso time de suporte, disponível para te ajudar todos os dias!
-
-<InlineVoucher />

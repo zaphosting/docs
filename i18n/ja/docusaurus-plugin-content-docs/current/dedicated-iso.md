@@ -18,7 +18,7 @@ ISOをマウントしたい？当社のISOでも、自分のISOでもOK！問題
 当社が積極的に提供していない自分のISO（OS）を使う場合、万が一トラブルが起きても動作保証はできません。 
 :::
 
-<InlineVoucher />
+
 
 ## 利用可能なマウント方法
 自分のISOファイルをマウントする方法は2つ。ファイルを読み込むためにサーバーの再起動は必須だよ。基本的にマウントに制限はないけど、ISOファイルは必ずブート可能なものを使ってね。
@@ -28,8 +28,8 @@ iLO管理画面を開いて「Virtual Media」を選択
 ![](https://screensaver01.zap-hosting.com/index.php/s/myWMSi3GgyLBHXR/preview)
 
 * マウントしたいISOファイルのURLを入力。リンクは必ず .iso で終わるようにしてね
-* 「Insert Media」をクリック
-* 「Server Reset」を押すとサーバーが再起動するよ
+* 「Insert Media」を押す
+* 「Server Reset」をクリックするとサーバーが再起動するよ
 
 これでISOファイルが読み込まれるよ。
 
@@ -49,12 +49,12 @@ ISOファイルを選んだら、サーバーの再起動が必要だよ。
 
 
 **Javaコンソール**
-HTML5コンソールと同様に、アプリ内で直接ISOファイルをマウントできるよ。
+HTML5コンソールと同じく、アプリ内で直接ISOファイルをマウントできるよ。
 ![](https://screensaver01.zap-hosting.com/index.php/s/2CdR5d5AcsG7YdH/preview)
 
 * 「Virtual Drives」を開く
 
-「Image File CD/DVD-ROM」は自分のPCから直接ISOファイルを選ぶ方法で、「URL CD/DVD-ROM」はサーバーやホスティングにアップロード済みのISOをマウントする方法だよ。
+「Image File CD/DVD-ROM」は自分のPCから直接ファイルを選んでマウント、「URL CD/DVD-ROM」はサーバーやホスティングにアップロード済みのISOをマウントする方法だよ。
 
 ISOファイルをセットしたら、サーバーの再起動が必要だよ。
 
@@ -62,4 +62,4 @@ ISOファイルをセットしたら、サーバーの再起動が必要だよ�
 ## まとめ
 おめでとう！無事にISOファイルを選んでマウントできたね。もし質問やサポートが必要なら、毎日対応しているサポートチームに気軽に連絡してね！🙂
 
-<InlineVoucher />
+

@@ -13,18 +13,16 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 Você tem um Servidor Dedicado Linux e quer instalar o serviço de servidor dedicado open.mp nele? Você está no lugar certo. Neste guia, vamos explicar o passo a passo para instalar esse serviço no seu servidor Linux. Usaremos Ubuntu nos exemplos, mas o processo deve ser bem parecido para outras distribuições.
 
 :::tip
-Sabia que você pode instalar nossa **Interface ZAP GS/TS3** diretamente no seu Servidor Dedicado, permitindo configurar serviços de servidor de jogos com integração direta ao seu dashboard ZAP-Hosting, em apenas alguns cliques? Saiba mais sobre a [Interface GS/TS3](dedicated-linux-gs-interface.md).
+Sabia que você pode instalar nossa **Interface ZAP GS/TS3** diretamente no seu Servidor Dedicado, permitindo configurar serviços de servidor de jogos com integração direta ao seu dashboard ZAP-Hosting, em poucos cliques? Saiba mais sobre a [Interface GS/TS3](dedicated-linux-gs-interface.md).
 :::
-
-<InlineVoucher />
 
 ## Preparação
 
-Para começar, conecte-se ao seu Servidor Dedicado via SSH. Use nosso guia de [Acesso Inicial SSH](dedicated-linux-ssh.md) se precisar de ajuda para isso.
+Para começar, conecte-se ao seu Servidor Dedicado via SSH. Use nosso guia de [Acesso Inicial SSH](dedicated-linux-ssh.md) se precisar de ajuda.
 
 ### Criando Usuário
 
-Recomendamos muito criar um usuário separado para rodar todos os seus serviços de servidor de jogos dedicados. Rodar como root, como na maioria dos casos, não é recomendado por vários motivos. Se você já tem um usuário pronto, siga para os passos de instalação.
+Recomendamos muito criar um usuário separado para rodar todos os seus serviços de servidor de jogos dedicados. Rodar como root, como em muitas coisas, não é recomendado por vários motivos. Se você já tem um usuário pronto, siga para os passos de instalação.
 
 Use o comando abaixo para criar um usuário chamado `gameservers` com uma senha opcional de sua escolha.
 
@@ -43,7 +41,7 @@ sudo -u gameservers -s
 cd ~
 ```
 
-Para manter tudo organizado, use o comando abaixo para criar uma nova pasta para seu servidor open.mp e entre nela.
+Para manter a organização, use o comando abaixo para criar uma nova pasta para seu servidor open.mp e entre nela.
 ```
 mkdir OpenMP-Server && cd OpenMP-Server
 ```
@@ -53,7 +51,7 @@ Agora, você vai precisar baixar a última versão do [Repositório open.mp no G
 wget [link]
 ```
 
-Isso vai baixar o arquivo `.zip` para a sua pasta atual, que deve ser a nova pasta `OpenMP-Server`. Prossiga com o comando abaixo para descompactar e extrair os arquivos dentro da pasta.
+Isso vai baixar o arquivo `.zip` para sua pasta atual, que deve ser a nova pasta `OpenMP-Server`. Prossiga com o comando abaixo para descompactar e extrair os arquivos dentro da pasta.
 ```
 tar -xvzf open.mp-linux-x86.tar.gz
 ```
@@ -62,7 +60,7 @@ Seus arquivos agora devem estar acessíveis dentro da pasta **Server**, acesse-a
 
 ## Configuração
 
-Neste ponto, você já terminou a configuração do seu servidor open.mp. Você pode fazer configurações adicionais através do arquivo de configuração que fica dentro do diretório do seu servidor.
+Nesta etapa, você já terminou a configuração do seu servidor open.mp. Pode fazer configurações adicionais através do arquivo de configuração que fica dentro do diretório do servidor.
 
 Você pode editar os parâmetros principais abrindo o arquivo de configuração **config.json**.
 ```
@@ -82,8 +80,6 @@ Você deve ver logs aparecendo no seu terminal, incluindo logs de rede, o que in
 
 ## Conclusão
 
-Parabéns, você instalou e configurou com sucesso o servidor open.mp no seu VPS! Como próximo passo, recomendamos dar uma olhada no nosso guia de [Configurar Serviço Linux](dedicated-linux-create-gameservice.md), que explica como configurar seu novo servidor dedicado de jogos como um serviço. Isso traz vários benefícios, incluindo inicialização automática do servidor no boot, atualizações automáticas, gerenciamento fácil e acesso a logs, e muito mais!
+Parabéns, você instalou e configurou com sucesso o servidor open.mp no seu VPS! Como próximo passo, recomendamos dar uma olhada no nosso guia de [Configurar Serviço Linux](dedicated-linux-create-gameservice.md), que explica como configurar seu novo servidor dedicado de jogos como um serviço. Isso traz vários benefícios, como iniciar o servidor automaticamente no boot, atualizações automáticas, gerenciamento fácil e acesso aos logs, e muito mais!
 
 Se tiver qualquer dúvida ou problema, entre em contato com nosso time de suporte, que está disponível para te ajudar todos os dias!
-
-<InlineVoucher />

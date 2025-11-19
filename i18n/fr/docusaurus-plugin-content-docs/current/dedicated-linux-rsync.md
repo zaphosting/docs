@@ -13,8 +13,6 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Les sauvegardes peuvent être réalisées avec l’outil Rsync. Elles peuvent être copiées sur le système local lui-même vers un autre répertoire/disque ou vers un système distant.  
 
-<InlineVoucher />
-
 ## Copier des données vers un autre répertoire ou disque local :
 
 :::info
@@ -53,7 +51,7 @@ rsync -arz /home/Client /home/Backup
 -z=Compression, selon la quantité/taille des données, compression activée
 
 
-Le dossier a été synchronisé avec succès. 
+Le dossier a été synchronisé avec succès.
 
 Si un fichier, etc. dans le dossier client est supprimé maintenant, il restera dans le dossier de sauvegarde.  
 Mais comme les fichiers doivent toujours être synchronisés 1:1, la commande rsync peut facilement être modifiée, ce changement garantira que les données qui ne sont plus présentes dans le dossier client seront aussi supprimées du dossier de sauvegarde. 
@@ -73,7 +71,7 @@ rsync -arz --delete /home/Client /home/Backup
 
 ## Étape 3
 
-Pour ne pas avoir à lancer la commande manuellement à chaque fois, elle peut simplement être placée dans un cronjob.  
+Pour ne pas avoir à exécuter la commande manuellement à chaque fois, elle peut simplement être placée dans un cronjob.  
 Par exemple, une sauvegarde doit être créée tous les jours à 3h du matin : 
 
 Ouvrir crontab -e :
@@ -123,7 +121,7 @@ Spécifie la clé SSH (chemin)("ssh -i /home/sshkey/keybackup")= ssh -i /[chemin
 <br/>
 Spécifie le répertoire à sauvegarder (/home/client/)= /[répertoire]
 <br/>
-HôteDistant(root@123.123.123.123:)= Nom d’utilisateur sur l’hôte distant et adresse : nom@IP/Domaine
+Hôte distant(root@123.123.123.123:)= Nom d’utilisateur sur l’hôte distant et adresse : nom@IP/Domaine
 <br/>
 Répertoire cible pour les données sur l’hôte distant(:/home/Backup/Home-Server1/)= :/[chemin vers le répertoire]
 
@@ -152,13 +150,13 @@ Spécifie la clé SSH (chemin)("ssh -i /home/sshkey/keybackup")= ssh -i /[chemin
 <br/>
 Spécifie le répertoire à sauvegarder (/home/client/)= /[répertoire]
 <br/>
-HôteDistant(root@123.123.123.123:)= Nom d’utilisateur sur l’hôte distant et adresse : nom@IP/Domaine
+Hôte distant(root@123.123.123.123:)= Nom d’utilisateur sur l’hôte distant et adresse : nom@IP/Domaine
 <br/>
-Répertoire cible pour les données sur l’hôte distant(:/home/Backup/Home-Server1/)= :/[chemin vers le répertoire cible]
+Répertoire cible pour les données sur l’hôte distant(:/home/Backup/Home-Server1/)= :/[Chemin vers le répertoire cible]
 
 ## Étape 5
 
-Pour ne pas avoir à lancer la commande manuellement à chaque fois, elle peut simplement être placée dans un cronjob.  
+Pour ne pas avoir à exécuter la commande manuellement à chaque fois, elle peut simplement être placée dans un cronjob.  
 Par exemple, une sauvegarde doit être créée tous les jours à 3h du matin : 
 
 Ouvrir crontab -e :
@@ -182,5 +180,3 @@ Tous les jours à 3h du matin, la commande est exécutée et une sauvegarde est 
 
 </TabItem>
 </Tabs>
-
-<InlineVoucher />

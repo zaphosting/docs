@@ -1,7 +1,7 @@
 ---
 id: dedicated-linux-xrdp
 title: "Serveur dédié : Installation de xRDP (Bureau à distance)"
-description: "Découvrez comment configurer l’accès bureau à distance sur des serveurs Ubuntu et Debian pour une gestion et un contrôle simplifiés → En savoir plus maintenant"
+description: "Découvrez comment configurer l'accès bureau à distance sur des serveurs Ubuntu et Debian pour une gestion et un contrôle simplifiés → En savoir plus maintenant"
 sidebar_label: Installer xRDP
 services:
   - dedicated
@@ -17,8 +17,6 @@ Une post-installation est possible pour la plupart des distributions Linux. Ce g
 :::info
 Important : Il faut utiliser au minimum Ubuntu 18.04.X LTS (Bionic Beaver) ou Debian 10 (Buster) comme système d’exploitation. Les versions plus récentes sont recommandées. 
 :::
-
-<InlineVoucher />
 
 ## Installation de xRDP
 
@@ -68,17 +66,17 @@ sudo adduser xrdp ssl-cert; sudo systemctl restart xrdp
 sudo adduser xrdp ssl-cert; sudo systemctl restart xrdp
 ```
 
-Une fois la configuration terminée, tu peux te connecter au root ou aux données utilisateur respectives du serveur via le Bureau à distance.  
+Une fois la configuration terminée, vous pouvez vous connecter au root ou aux données utilisateur respectives du serveur via le Bureau à distance.  
 Le port par défaut est : 3389
 
 ## Connexion
 
 La connexion peut se faire via n’importe quel outil RDP, connecté avec IP:PORT.  
-Lors de la connexion, tu seras invité à entrer les identifiants : 
+Lors de la connexion, les identifiants vous seront demandés : 
 
 ![xrdp2](https://screensaver01.zap-hosting.com/index.php/s/btRPMG73cT6ysyL/preview)
 
-Après une connexion réussie, tu vois le bureau.  
+Après une connexion réussie, vous verrez le bureau.  
 Avec Ubuntu, l’interface est un peu différente de celle de Debian :
 
 Ubuntu : 
@@ -88,5 +86,3 @@ Ubuntu :
 Debian : 
 
 ![xrdp4](https://screensaver01.zap-hosting.com/index.php/s/riHNCEEyKcoLHDy/preview)
-
-<InlineVoucher />

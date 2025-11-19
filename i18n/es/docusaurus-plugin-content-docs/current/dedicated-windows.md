@@ -22,7 +22,7 @@ Los pasos de instalación y la demostración en esta guía están basados en el 
 
 
 
-<InlineVoucher />
+
 
 ## Preparación
 Para la instalación y configuración de un sistema operativo, inicialmente es importante montar el ISO correspondiente del sistema operativo. Hay varias formas posibles de montarlo:
@@ -41,7 +41,7 @@ Una vez que el archivo ISO se haya montado correctamente, la instalación de Win
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/gW4cr5WDGYEdBzw/download)
 
-Tan pronto como se inicie la instalación, el sistema preparará los componentes necesarios. Este proceso puede tardar un poco. Una vez completado, se debe seleccionar la edición deseada de Windows Server. Las siguientes versiones están disponibles:
+Tan pronto como se inicie la instalación, el sistema preparará los componentes necesarios. Este proceso puede tardar un poco. Una vez completado, se debe seleccionar la edición deseada de Windows Server. Están disponibles las siguientes versiones:
 
 - Windows Server 2025 Standard Evaluation
 - Windows Server 2025 Standard Evaluation (Experiencia de Escritorio)
@@ -60,7 +60,7 @@ Después de seleccionar la imagen deseada, se deben aceptar los avisos y condici
 
 Ahora se llevará a cabo la instalación del sistema operativo Windows Server. El sistema se reiniciará varias veces durante el proceso. Puede tardar un rato en completarse. 
 
-Define los datos de acceso y estarás listo para iniciar sesión en tu sistema operativo instalado. Guarda bien los datos de acceso, ya que siempre los usarás para entrar.
+Define los datos de acceso y estarás listo para iniciar sesión en tu sistema operativo instalado. Guarda bien los datos de acceso, ya que siempre los usarás para iniciar sesión en el futuro. 
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/FiXwH85pT24DYnJ/download)
 
@@ -75,6 +75,6 @@ Una vez configurado el sistema operativo, es necesario activar el acceso RDP par
 
 
 ## Conclusión
-¡Felicidades, has instalado con éxito el sistema operativo Windows Server 2025 en tu servidor dedicado! Para cualquier duda o ayuda, no dudes en contactar con nuestro equipo de soporte, que está disponible todos los días para asistirte 🙂.
+¡Felicidades, has instalado con éxito el sistema operativo Windows Server 2025 en tu servidor dedicado! Para cualquier pregunta o ayuda, no dudes en contactar con nuestro equipo de soporte, que está disponible a diario para asistirte 🙂
 
-<InlineVoucher />
+

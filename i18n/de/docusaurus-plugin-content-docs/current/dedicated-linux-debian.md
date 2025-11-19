@@ -1,7 +1,7 @@
 ---
 id: dedicated-linux-debian
 title: "Dedicated Server: Installation von Debian"
-description: "Lerne, wie du das Debian-Betriebssystem auf deinem Dedicated Server installierst und konfigurierst für optimale Performance und Zuverlässigkeit → Jetzt mehr erfahren"
+description: "Lerne, wie du das Debian OS auf deinem Dedicated Server installierst und konfigurierst für optimale Performance und Zuverlässigkeit → Jetzt mehr erfahren"
 sidebar_label: Debian installieren
 services:
   - dedicated
@@ -11,19 +11,19 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
 
-Im Folgenden erklären wir dir Schritt für Schritt, wie du das Debian-Betriebssystem auf deinem Dedicated Server installierst und konfigurierst. Folge diesen Anweisungen sorgfältig, damit du das Betriebssystem erfolgreich einrichtest und optimal nutzen kannst.
+Im Folgenden erklären wir dir Schritt für Schritt, wie du das Debian Betriebssystem auf deinem Dedicated Server installierst und konfigurierst. Folge diesen Anweisungen sorgfältig, damit du das Betriebssystem erfolgreich einrichtest und optimal nutzen kannst.
 
 :::info
 
-Die Struktur dieser Anleitung basiert auf der Verwendung von Debian 10. Installationen mit älteren oder neueren Versionen können im Ablauf leicht abweichen.
+Die Struktur der Anleitung basiert auf der Nutzung von Debian 10. Installationen von älteren oder neueren Versionen können im Ablauf leicht abweichen.
 
 :::
 
-<InlineVoucher />
+
 
 ## Vorbereitung
 
-Für die Installation und Konfiguration eines Betriebssystems ist es zunächst wichtig, das passende ISO-Image des Betriebssystems zu mounten. Es gibt mehrere Möglichkeiten, das zu machen:
+Für die Installation und Konfiguration eines Betriebssystems ist es zunächst wichtig, das passende ISO-Image des Betriebssystems einzubinden. Es gibt mehrere Möglichkeiten, das ISO zu mounten:
 
 1. Mounten über die Ersteinrichtung
 2. Mounten über iLO (Virtual Media)
@@ -31,9 +31,11 @@ Für die Installation und Konfiguration eines Betriebssystems ist es zunächst w
 
 Wenn du noch nicht vertraut bist mit dem Mounten einer ISO-Datei, empfehlen wir dir unsere [Ersteinrichtung](dedicated-setup.md) oder [Eigene ISO](dedicated-iso.md) Anleitung.
 
+
+
 ## Installation
 
-Wenn das ISO erfolgreich geladen ist, befindet sich der Server im Setup-Prozess.
+Wenn das ISO erfolgreich geladen wurde, befindet sich der Server im Setup-Prozess.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/QdRyxyaSLWPGHwN/preview)
 
@@ -45,7 +47,7 @@ Wähle deine gewünschte Sprache, in der der Installationsassistent angezeigt wi
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/qprfbz2SPf5MZ4j/preview)
 
-Unser gewünschter Standort ist nicht auf der ersten Auswahlseite, also gehen wir mit „Andere“ zur nächsten Seite.
+Unser gewünschter Standort ist nicht auf der ersten Auswahlseite, also gehen wir mit „Andere“ auf die nächste Seite.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/frH9t9arerKxecZ/preview)
 
@@ -57,7 +59,7 @@ Je nach gewünschter Zeitzone wählen wir hier die deutsche Zeitzone.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/F3SCKdb2dCrqndM/preview)
 
-Wir wählen als Gebietsschema „Vereinigte Staaten“.
+Als Gebietsschema wählen wir United States.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/zYP8rRJN9G4ftPx/preview)
 
@@ -86,7 +88,7 @@ Hier musst du das Passwort für deinen „root“-Account festlegen. Notiere dir
 Zur Bestätigung musst du das Passwort nochmal eingeben.
 
 :::info
-Der Installationsassistent fragt dich, einen zweiten Benutzeraccount anzulegen.
+Der Installationsassistent fragt dich, ob du einen zweiten Benutzeraccount anlegen möchtest.
 :::
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/CLxectPXbqzteqf/preview)
@@ -94,12 +96,12 @@ Der Installationsassistent fragt dich, einen zweiten Benutzeraccount anzulegen.
 Gib jetzt den Namen des Besitzers für einen normalen Benutzeraccount ein. Du kannst natürlich frei wählen, was du hier eingibst.
 
 :::info
-Du kannst natürlich am Ende auch den „root“-Account verwenden.
+Du kannst natürlich am Ende auch den „root“-Account nutzen.
 :::
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/GixGJyTfAzENSmc/preview)
 
-Gib nun den Benutzernamen des Accounts ein. Wähle auch ein Passwort deiner Wahl und bestätige es nochmal. Dein Server bereitet jetzt die nächsten Installationsschritte vor.
+Gib nun den Benutzernamen für den Account ein. Wähle auch ein Passwort deiner Wahl und bestätige es erneut. Dein Server bereitet jetzt die nächsten Installationsschritte vor.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/NM8fdY9J8qwiNGJ/preview)
 
@@ -116,7 +118,7 @@ Grundsätzlich ist es okay, wenn die komplette Struktur auf einer Partition lieg
 Wir bestätigen die Konfiguration mit „Partitionierung beenden und Änderungen auf die Festplatte schreiben“.
 
 :::info
-Falls sich noch alte Partitionen auf deiner SSD befinden, bestätigen wir das Überschreiben mit „Ja“.
+Falls sich noch alte Partitionen auf deiner SSD befinden, bestätige das Überschreiben mit „Ja“.
 :::
 
 Dein Server führt jetzt die Partitionierung durch und bereitet die Installation des Systems vor.
@@ -127,15 +129,15 @@ Wenn du weitere Installationsmedien einbinden möchtest, z.B. für bestimmte Pak
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/c6Mq4kP7mYYWyLL/preview)
 
-Unsere Dedicated Server stehen in Deutschland, daher empfehlen wir, den deutschen Spiegelserver auszuwählen, um bestmögliche Downloadgeschwindigkeiten zu erzielen.
+Unsere Dedicated Server stehen in Deutschland, daher empfehlen wir, den deutschen Spiegelserver auszuwählen, um die bestmöglichen Downloadgeschwindigkeiten zu erzielen.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/8nReYnYopxJNBmg/preview)
 
-Grundsätzlich empfehlen wir, das Standard-Debian-Repository zu verwenden.
+Grundsätzlich empfehlen wir, das Standard-Debian-Repository zu nutzen.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/iqZSLMBqbx8ZDdZ/preview)
 
-Wenn du einen HTTP-Proxy nutzen möchtest, kannst du die Daten hier eingeben. (ist nicht zwingend erforderlich)
+Wenn du einen HTTP-Proxy verwenden möchtest, kannst du die Daten hier eingeben. (ist nicht zwingend erforderlich)
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/Ty7BzmzXY78x38q/preview)
 
@@ -146,20 +148,20 @@ Das System möchte anonymisierte Statistiken sammeln, das kannst du ablehnen ode
 Jetzt wähle die Pakete aus, die du installieren möchtest:
 
 * Debian Desktop-Umgebung  
-Erstellt eine grafische Benutzeroberfläche auf deinem Server, aber in diesem Beispiel nutzen wir nur die Shell-Ebene des Servers.
+Erstellt eine grafische Benutzeroberfläche auf deinem Server, aber in diesem Beispiel nutzen wir nur die Shell-Ebene.
 
 * SSH-Server  
-Wird benötigt, um sich z.B. mit PuTTY zu verbinden.
+Wird benötigt, um z.B. mit PuTTY eine Verbindung herzustellen.
 
 * Standard-Systemwerkzeuge  
 Stellt eine Reihe von Basis-Paketen bereit.
 
 Die Auswahl der Pakete erfolgt mit `TAB` und den Pfeiltasten. Pakete werden mit der Leertaste ausgewählt oder abgewählt.  
-Wenn du zufrieden bist, drücke `TAB`, bis du bei „Weiter“ bist, und bestätige mit Enter.
+Wenn du zufrieden bist, drücke `TAB`, bis du auf „Weiter“ kommst, und bestätige mit Enter.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/mwbNHxBCHxXPQiw/preview)
 
-Bestätige, dass dieses Betriebssystem das einzige auf dem aktuellen Server ist, mit `Ja`.
+Bestätige, dass dieses Betriebssystem das einzige auf dem aktuellen Server ist mit `Ja`.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/YWiBDBMNsczMHcm/preview)
 
@@ -173,9 +175,11 @@ Als Speicherort wählen wir den Standardpfad auf unserer SSD.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/WMTJ88CFBsQ2miz/preview)
 
-Wenn das erfolgreich erledigt ist, wählen wir „Weiter“. Der Server startet jetzt neu.
+Wenn das erfolgreich erledigt ist, wählen wir „Weiter“, der Server startet jetzt neu.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/pYysYayb6d2rQtb/preview)
+
+
 
 ## Konfiguration
 
@@ -208,8 +212,10 @@ Gib die IP-Adresse deines Servers ein, die du in deinem ZAP Dashboard siehst, un
 Wenn du weitere Fragen oder Probleme hast, hilft dir unser Support gerne weiter!
 :::
 
+
+
+
+
 ## Fazit
 
-Glückwunsch, du hast das Debian-Betriebssystem erfolgreich auf deinem Dedicated Server installiert. Für weitere Fragen oder Unterstützung steht dir unser Support-Team täglich zur Verfügung! 🙂
-
-<InlineVoucher />
+Glückwunsch, du hast das Debian Betriebssystem erfolgreich auf deinem Dedicated Server installiert. Für weitere Fragen oder Unterstützung steht dir unser Support-Team täglich zur Verfügung! 🙂

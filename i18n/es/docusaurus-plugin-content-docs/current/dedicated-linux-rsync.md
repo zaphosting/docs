@@ -13,12 +13,10 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Las copias de seguridad se pueden hacer con la herramienta Rsync. Se pueden copiar en el mismo sistema local a otro directorio/disco o a un sistema remoto.  
 
-<InlineVoucher />
-
 ## Copiar datos a otro directorio o disco local:
 
 :::info
-Atención: La primera ejecución puede tardar mucho más que las siguientes, dependiendo de la cantidad de datos. Esto se debe a que la primera vez Rsync sincroniza todos los datos, a partir de la segunda vez solo se sincronizan los datos que han cambiado. 
+Atención: La primera ejecución puede tardar mucho más que las siguientes, dependiendo de la cantidad de datos. Esto es porque la primera vez Rsync sincroniza todos los datos, a partir de la segunda vez solo se sincronizan los datos que han cambiado. 
 :::
 >Así se crea una copia de seguridad incremental.  
 
@@ -30,7 +28,7 @@ Rsync se puede instalar con el siguiente comando:
 apt install rsync
 ```
 
-Una vez instalado, se puede usar directamente. 
+Después de instalarlo, se puede usar directamente. 
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
@@ -46,28 +44,28 @@ Esto se puede hacer con el siguiente comando:
 ```
 rsync -arz /home/Client /home/Backup
 ```
--a=Archivado, se copiarán los atributos
+-a=Archivado, se copian los atributos
 <br/>
 -r=Recursivo, también se sincronizan subcarpetas
 <br/>
--z=Compresión, se comprime según la cantidad/tamaño de datos
+-z=Compresión, dependiendo de la cantidad/tamaño de datos se comprime
 
 
 La carpeta se sincronizó correctamente.
 
 Si ahora se elimina un archivo, etc. en la carpeta Client, este permanecerá en la carpeta Backup.  
-Pero como los archivos deberían estar siempre sincronizados 1:1, el comando rsync se puede modificar fácilmente para que también elimine datos que ya no estén en la carpeta Client de la carpeta Backup. 
+Pero como los archivos deberían estar siempre sincronizados 1:1, el comando rsync se puede modificar fácilmente, este cambio asegurará que los datos que ya no estén en la carpeta Client también se eliminen de la carpeta Backup. 
 
 El comando modificado es: 
 
 ```
 rsync -arz --delete /home/Client /home/Backup
 ```
--a=Archivado, se copiarán los atributos
+-a=Archivado, se copian los atributos
 <br/>
 -r=Recursivo, también se sincronizan subcarpetas
 <br/>
--z=Compresión, se comprime según la cantidad/tamaño de datos
+-z=Compresión, dependiendo de la cantidad/tamaño de datos se comprime
 <br/>
 --delete= Elimina datos que ya no existen en la fuente pero sí en el destino
 
@@ -80,13 +78,13 @@ Abre crontab -e:
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/KNewp9zMdWce3Zz/preview)
 
-Con el número 1 puedes usar "nano" como editor.
-Con el número 2 puedes usar "vim" como editor.  
+Con el número 1 se puede usar "nano" como editor.
+Con el número 2 se puede usar "vim" como editor.  
 
 Después de abrir el archivo con, por ejemplo, Nano, se puede generar y añadir un crontab.  
 Un crontab se puede crear con este [Generador](https://crontab-generator.org/). 
 
-El crontab que se introduce queda así: 
+El crontab introducido queda así: 
 
  ```
 0 3 * * * rsync --progress -arz --delete -e  "ssh -i /home/sshkey/keybackup" /home/Client/ root@123.123.123.123:/home/Backup/Home-Server1/ >/dev/null 2>&1
@@ -99,23 +97,23 @@ Cada día a las 3 a.m. se ejecuta el comando y se crea la copia de seguridad.
 
 ## Paso 4
 
-En este ejemplo, la carpeta Client dentro de /home debe sincronizarse con la carpeta Backup en un sistema remoto. La conexión se hará mediante clave SSH para que la copia pueda automatizarse.  
+En este ejemplo, la carpeta Client dentro de /home debe sincronizarse con la carpeta Backup en un sistema remoto. La conexión se hará mediante clave SSH, para que la copia de seguridad pueda automatizarse.  
 >Importante: Rsync también debe estar instalado en el servidor remoto.  
 >```
 >apt install rsync
 >```
 
-Por ejemplo, se puede usar el siguiente comando para hacer la copia al host remoto (personaliza según tu caso): 
+Por ejemplo, se puede usar el siguiente comando para hacer la copia de seguridad en el host remoto (personalizar según sea necesario): 
 
 ```
 rsync --progress -arz -e  "ssh -i /home/sshkey/keybackup" /home/Client/ root@123.123.123.123:/home/Backup/Home-Server1/
 ```
 
--a=Archivado, se copiarán los atributos
+-a=Archivado, se copian los atributos
 <br/>
 -r=Recursivo, también se sincronizan subcarpetas
 <br/>
--z=Compresión, se comprime según la cantidad/tamaño de datos
+-z=Compresión, dependiendo de la cantidad/tamaño de datos se comprime
 <br/>
 -e=Especifica el puerto SSH (por defecto 22)
 <br/>
@@ -128,21 +126,20 @@ Host remoto (root@123.123.123.123:)= Nombre de usuario en el host remoto y direc
 Directorio destino en el host remoto (:/home/Backup/Home-Server1/)= :/[ruta destino]
 
 La carpeta/archivos se sincronizaron/guardaron correctamente en el directorio remoto tras ejecutar el comando.
-  
 
-Si se elimina un archivo, etc. en la carpeta Client, este permanecerá en la carpeta Backup del host remoto.  
-Pero como los archivos deberían estar siempre sincronizados 1:1, el comando rsync se puede modificar para eliminar datos que ya no estén en la carpeta Client de la carpeta Backup en el host remoto. 
+Si se elimina un archivo, etc. en la carpeta Client, este permanecerá en la carpeta Backup en el host remoto.  
+Pero como los archivos deberían estar siempre sincronizados 1:1, el comando rsync se puede modificar fácilmente para eliminar datos que ya no estén en la carpeta Client de la carpeta Backup en el host remoto. 
 
 El comando modificado es:
 
 ```
 rsync --progress -arz --delete -e  "ssh -i /home/sshkey/keybackup" /home/Client/ root@123.123.123.123:/home/Backup/Home-Server1/
 ```
--a=Archivado, se copiarán los atributos
+-a=Archivado, se copian los atributos
 <br/>
 -r=Recursivo, también se sincronizan subcarpetas
 <br/>
--z=Compresión, se comprime según la cantidad/tamaño de datos
+-z=Compresión, dependiendo de la cantidad/tamaño de datos se comprime
 <br/>
 --delete= Elimina datos que ya no existen en la fuente pero sí en el destino
 <br/>
@@ -165,13 +162,13 @@ Abre crontab -e:
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/KNewp9zMdWce3Zz/preview)
 
-Con el número 1 puedes usar "nano" como editor.
-Con el número 2 puedes usar "vim" como editor.  
+Con el número 1 se puede usar "nano" como editor.
+Con el número 2 se puede usar "vim" como editor.  
 
 Después de abrir el archivo con, por ejemplo, Nano, se puede generar y añadir un crontab.  
 Un crontab se puede crear con este [Generador](https://crontab-generator.org/). 
 
-El crontab que se introduce queda así: 
+El crontab introducido queda así: 
   
   
  ```
@@ -182,5 +179,3 @@ Cada día a las 3 a.m. se ejecuta el comando y se crea la copia de seguridad.
 
 </TabItem>
 </Tabs>
-
-<InlineVoucher />

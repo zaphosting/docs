@@ -1,7 +1,7 @@
 ---
 id: dedicated-linux-debian
 title: "Servidor Dedicado: Instalación de Debian"
-description: "Aprende cómo instalar y configurar el sistema operativo Debian en tu servidor dedicado para un rendimiento y fiabilidad óptimos → Descubre más ahora"
+description: "Aprende cómo instalar y configurar el sistema operativo Debian en tu servidor dedicado para un rendimiento y fiabilidad óptimos → Aprende más ahora"
 sidebar_label: Instalar Debian
 services:
   - dedicated
@@ -19,27 +19,27 @@ La estructura de esta guía está basada en el uso del sistema operativo Debian 
 
 :::
 
-<InlineVoucher />
+
 
 ## Preparación
 
-Para la instalación y configuración de un sistema operativo, es importante montar inicialmente la ISO correspondiente del sistema operativo. Hay varias formas posibles de montarla:
+Para la instalación y configuración de un sistema operativo, es importante montar inicialmente el ISO correspondiente del sistema operativo. Hay varias formas posibles de montarlo:
 
-1. Montaje vía configuración inicial
+1. Montaje vía la configuración inicial
 2. Montaje vía iLO (Medios Virtuales)
 3. Montaje vía iLO (Consola Remota)
 
-Si aún no estás familiarizado con cómo montar un archivo ISO, lo mejor es que consultes nuestra [Configuración inicial](dedicated-setup.md) o la guía de [ISO propia](dedicated-iso.md).
+Si aún no estás familiarizado con montar un archivo ISO, lo mejor es que consultes nuestra [Configuración inicial](dedicated-setup.md) o la [Guía de ISO propia](dedicated-iso.md).
 
 
 
 ## Instalación
 
-Cuando la ISO se haya cargado correctamente, el servidor estará en proceso de configuración.
+Cuando el ISO se haya cargado correctamente, el servidor estará en proceso de configuración.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/QdRyxyaSLWPGHwN/preview)
 
-En este ejemplo, recorreremos el proceso de instalación usando la opción "clásica".
+En este ejemplo, recorreremos el proceso de instalación usando la instalación "clásica".
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/YEy9jKbPcmCwD22/preview)
 
@@ -63,7 +63,7 @@ Elegimos Estados Unidos como configuración regional.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/zYP8rRJN9G4ftPx/preview)
 
-En nuestro caso elegimos la distribución de teclado alemana, que es la QWERTZ. Si eres de América, la distribución por defecto sería QWERTY.
+En nuestro caso elegimos la distribución de teclado alemana que es la QWERTZ. Si eres de América, la distribución por defecto sería QWERTY.
 
 :::info
 Tu servidor está preparando algunos componentes necesarios para la instalación, esto puede tardar unos minutos.
@@ -85,7 +85,7 @@ Aquí tienes que establecer la contraseña para tu cuenta "root". Apunta la cont
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/SQeqqKDZx3PjWTs/preview)
 
-Para confirmar la contraseña, introdúcela de nuevo.
+Para confirmar la contraseña, tienes que introducirla de nuevo.
 
 :::info
 El asistente de instalación te pedirá crear una segunda cuenta de usuario.
@@ -96,7 +96,7 @@ El asistente de instalación te pedirá crear una segunda cuenta de usuario.
 Ahora introduce el nombre del propietario para una cuenta de usuario normal. Por supuesto, puedes elegir libremente lo que quieras poner aquí.
 
 :::info
-Al final puedes usar la cuenta "root" si quieres.
+Por supuesto, al final puedes usar la cuenta "root".
 :::
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/GixGJyTfAzENSmc/preview)
@@ -105,7 +105,7 @@ Ahora introduce el nombre de usuario de la cuenta. También elige una contraseñ
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/NM8fdY9J8qwiNGJ/preview)
 
-Ahora tienes la opción de crear particiones o usar todo el SSD como una sola partición. Si no quieres cambiar nada en las particiones, simplemente elige "Guiado - Usar disco entero".
+Ahora tienes la posibilidad de crear particiones o usar todo el SSD como una sola partición. Si no quieres cambiar nada en la partición, simplemente elige "Guiado - Usar disco entero".
 
 ***
 
@@ -125,11 +125,11 @@ Tu servidor ahora realiza el particionado y prepara la instalación del sistema.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/JoJ6MppTzm79R3R/preview)
 
-Si quieres incluir otros medios de instalación, por ejemplo para ciertos paquetes, podrías hacerlo ahora. Normalmente, sin embargo, puedes descargar todos los paquetes cómodamente después vía el gestor de paquetes (apt).
+Si quieres incluir otros medios de instalación, por ejemplo para ciertos paquetes, esto podría hacerse ahora. Normalmente, sin embargo, puedes descargar todos los paquetes cómodamente después vía el gestor de paquetes (apt).
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/c6Mq4kP7mYYWyLL/preview)
 
-Nuestros servidores dedicados están ubicados en Alemania, por lo que se recomienda elegir el espejo alemán para lograr la mejor velocidad de descarga posible.
+Nuestros servidores dedicados están ubicados en Alemania, por lo que se recomienda elegir el mirror alemán para lograr la mejor velocidad de descarga posible.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/8nReYnYopxJNBmg/preview)
 
@@ -141,7 +141,7 @@ Si quieres usar un proxy HTTP, puedes introducir los datos. (esto no es obligato
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/Ty7BzmzXY78x38q/preview)
 
-El sistema quiere recopilar estadísticas anónimas, puedes rechazarlo o confirmarlo.
+El sistema quiere recopilar estadísticas anónimas, esto puede rechazarse o confirmarse.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/gwxF4k5jf3o3xM4/preview)
 
@@ -154,7 +154,7 @@ Crearía una interfaz gráfica en tu servidor, pero en este ejemplo solo usamos 
 Es necesario, por ejemplo, para conectarse con PuTTY.
 
 * Utilidades estándar del sistema  
-Necesario para proporcionar varios paquetes básicos.
+Es necesario para proporcionar varios paquetes básicos.
 
 La selección de los diferentes paquetes se hace con `TAB` y las `flechas`. Los paquetes se seleccionan o deseleccionan con la barra espaciadora.  
 Cuando estés satisfecho con tu selección, presiona `TAB` hasta llegar a Continuar y confirma con Enter.
@@ -171,11 +171,11 @@ Como ubicación de almacenamiento elegimos la ubicación por defecto en nuestro 
 🎉 La instalación de tu sistema Debian ha finalizado.
 :::
 
-Abre "Medios Virtuales" en tu iLO y pulsa "Expulsar medios" para quitar el archivo ISO del sistema.
+Abre "Medios Virtuales" en tu iLO y presiona "Expulsar medios" para quitar el archivo ISO del sistema.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/WMTJ88CFBsQ2miz/preview)
 
-Cuando esto se haya hecho correctamente, seleccionamos Continuar, el servidor realizará un reinicio.
+Cuando esto se haga correctamente, seleccionamos Continuar, el servidor realizará un reinicio.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/pYysYayb6d2rQtb/preview)
 
@@ -204,7 +204,7 @@ Ahora presiona `CTRL + X` y confirma los cambios con `Y`.
 Después tienes que reiniciar el servicio SSH escribiendo `service ssh restart`.
 
 Tu login SSH ya está activo y puedes conectarte vía PuTTY, por ejemplo.  
-Introduce la dirección IP de tu servidor, que ves en tu panel de ZAP, y usa las credenciales definidas anteriormente.
+Introduce la dirección IP de tu servidor, que ves en tu panel ZAP, y usa las credenciales definidas anteriormente.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/qBqF2fPmyWrtH6Q/preview)
 
@@ -218,6 +218,4 @@ Si tienes más preguntas o problemas, ¡nuestro soporte está encantado de ayuda
 
 ## Conclusión
 
-¡Felicidades, has instalado con éxito el sistema operativo Debian en tu servidor dedicado! Para cualquier duda o ayuda, no dudes en contactar con nuestro equipo de soporte, disponible a diario para asistirte 🙂.
-
-<InlineVoucher />
+¡Felicidades, has instalado con éxito el sistema operativo Debian en tu servidor dedicado! Para más preguntas o ayuda, no dudes en contactar con nuestro equipo de soporte, que está disponible a diario para asistirte 🙂

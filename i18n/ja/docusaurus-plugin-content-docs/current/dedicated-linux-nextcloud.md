@@ -15,22 +15,20 @@ Nextcloudはオープンソースのクラウドソリューションで、Owncl
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/n2PbXo94RGNdPzt/preview)
 
-Nextcloudサーバーをホスティングする際に、最適なパフォーマンス、安定性、機能性を実現するために以下のセットアップを推奨します。NextcloudサーバーはWindowsやMacOSとは互換性がありません。少なくとも追加の仮想化や類似の回避策なしでは動作しません。<br/>
-
-<InlineVoucher />
+Nextcloudサーバーの最適なパフォーマンス、安定性、機能性を実現するために、以下のセットアップを推奨します。NextcloudサーバーはWindowsやMacOSとは互換性がありません。少なくとも追加の仮想化や類似の回避策なしでは動作しません。<br/>
 
 ## 準備
 
-以下の要件は開発者の推奨と当社の経験に基づいています。これらの前提条件を満たさない場合、問題が発生する可能性があります。
+以下の要件は開発者の推奨および当社の経験に基づいています。これらの前提条件を満たさない場合、問題が発生する可能性があります。
 
 #### ハードウェア
 
-| コンポーネント | 最低要件               | 推奨                      |
-| -------------- | ---------------------- | ------------------------- |
-| CPU            | 2x 1 GHz               | 4x 2GHz以上               |
+| コンポーネント | 最低要件               | 推奨                       |
+| -------------- | ---------------------- | -------------------------- |
+| CPU            | 2x 1 GHz               | 4x 2GHz以上                |
 | RAM            | 512 MB                 | 4GB以上                   |
 | ストレージ     | 10 GB                  | 50GB以上                  |
-| 帯域幅         | 100 Mbit/s (上り下り)  | 500 Mbit/s (上り下り) 複数ユーザー利用時に推奨 |
+| 帯域幅         | 100 Mbit/s (上り下り)  | 複数ユーザー利用時は500 Mbit/s推奨 |
 
 #### ソフトウェア
 
@@ -38,12 +36,12 @@ Nextcloudサーバーをホスティングする際に、最適なパフォー�
 | ---------------- | -------------------------------------------------------------- |
 | OS               | Ubuntu (14.04, 16.04, 18.04), Debian(8,9,10), CentOS 6.5/7     |
 | データベース     | MySQLまたはMariaDB 5.5+（推奨）、SQLite（テストや最小構成のみ推奨） |
-| Webサーバー      | Apache 2.4 + `mod_php` または `php-fpm`（推奨）                 |
+| Webサーバー      | Apache 2.4 + `mod_php` または `php-fpm`（推奨）                |
 | PHP              | 5.6、7.0（推奨）、7.1（推奨）、7.2                              |
 
-## 準備作業
+## 準備
 
-LinuxサーバーにクラウドをインストールするにはSSHクライアントで接続する必要があります。SSHの使い方がわからない場合は、こちらのガイドを参考にしてください：[初回アクセス（SSH）](vserver-linux-ssh.md)
+LinuxサーバーにNextcloudをインストールするには、SSHクライアントで接続する必要があります。SSHの使い方がわからない場合は、こちらのガイドを参考にしてください：[初回アクセス（SSH）](vserver-linux-ssh.md)
 
 接続が確立したら、Nextcloudのインストールに必要なパッケージをインストールします。これにはWebサーバーとPHPのインストールが含まれます。
 
@@ -213,7 +211,7 @@ sudo systemctl enable httpd
 
 🗄️ CentOS 6:
 ```
-# ステップ1: Yumリポジトリの設定
+# ステップ1: Yumリポジトリのセットアップ
 yum install epel-release
 rpm -Uvh http://rpms.famillecollet.com/enterprise/remi-release-6.rpm
 
@@ -226,7 +224,7 @@ yum --enablerepo=remi-php73 install php-xml php-soap php-xmlrpc php-mbstring php
 
 🗄️ CentOS 7:
 ```
-# ステップ1: Yumリポジトリの設定
+# ステップ1: Yumリポジトリのセットアップ
 yum install epel-release
 rpm -Uvh http://rpms.famillecollet.com/enterprise/remi-release-7.rpm
 
@@ -239,7 +237,7 @@ yum --enablerepo=remi-php73 install php-xml php-soap php-xmlrpc php-mbstring php
 
 🗄️ CentOS 8:
 ```
-# ステップ1: Yumリポジトリの設定
+# ステップ1: Yumリポジトリのセットアップ
 dnf install dnf-utils http://rpms.remirepo.net/enterprise/remi-release-8.rpm
 
 # ステップ2: PHP 7.3のインストール
@@ -256,7 +254,7 @@ php -v
 </TabItem>
 </Tabs>
 
-次に、Nextcloudの情報を保存するためのデータベースの種類を決めます。選択肢はいくつかあります：
+次に、Nextcloudの情報を保存するためのデータベースの種類を決めます。選択肢は以下の通りです：
 
 <Tabs>
 
@@ -270,7 +268,7 @@ MariaDBを使う場合は以下の手順に従ってください：
 sudo apt-get install mariadb-server php-mysql
 ```
 
-インストール中にrootパスワードの設定を求められます。要求がなければデフォルトは空パスワードです。これは安全ではないので、すぐに変更してください！
+インストール中にrootパスワードの設定を求められます。要求がなければデフォルトは空白です。これは安全ではないので、すぐに変更してください！
 
 次にデータベースサーバーに接続し、必要なデータベースを作成します：
 
@@ -279,7 +277,7 @@ mysql -u root -p
 CREATE DATABASE nextcloud;
 ```
 
-続いて、Nextcloudデータベースにアクセスできるユーザーを作成します。
+続いて、Nextcloudデータベースにアクセスできるユーザーを作成します：
 
 ```sql
 CREATE USER 'nc_user'@'localhost' IDENTIFIED BY 'YOUR_PASSWORD_HERE';
@@ -289,7 +287,7 @@ CREATE USER 'nc_user'@'localhost' IDENTIFIED BY 'YOUR_PASSWORD_HERE';
 rootユーザーを使ってこのステップを省略しないでください。安全ではなく、データが危険にさらされます！
 :::
 
-最後に新しいユーザーに権限を付与します：
+最後に、新しいユーザーに権限を付与します：
 
 ```SQL
 GRANT ALL PRIVILEGES ON nextcloud.* TO 'nc_user'@'localhost';
@@ -309,7 +307,7 @@ MySQLを使う場合は以下の手順に従ってください：
 sudo apt-get install mysql-server php-mysql
 ```
 
-インストール中にrootパスワードの設定を求められます。要求がなければデフォルトは空パスワードです。これは安全ではないので、すぐに変更してください！
+インストール中にrootパスワードの設定を求められます。要求がなければデフォルトは空白です。これは安全ではないので、すぐに変更してください！
 
 次にデータベースサーバーに接続し、必要なデータベースを作成します：
 
@@ -318,7 +316,7 @@ mysql -u root -p
 CREATE DATABASE nextcloud;
 ```
 
-続いて、Nextcloudデータベースにアクセスできるユーザーを作成します。
+続いて、Nextcloudデータベースにアクセスできるユーザーを作成します：
 
 ```sql
 CREATE USER 'nc_user'@'localhost' IDENTIFIED BY 'YOUR_PASSWORD_HERE';
@@ -328,7 +326,7 @@ CREATE USER 'nc_user'@'localhost' IDENTIFIED BY 'YOUR_PASSWORD_HERE';
 rootユーザーを使ってこのステップを省略しないでください。安全ではなく、データが危険にさらされます！
 :::
 
-最後に新しいユーザーに権限を付与します：
+最後に、新しいユーザーに権限を付与します：
 
 ```SQL
 GRANT ALL PRIVILEGES ON nextcloud.* TO 'nc_user'@'localhost';
@@ -348,7 +346,7 @@ sudo apt-get update
 sudo apt-get install postgresql postgresql-contrib
 ```
 
-インストール中にrootパスワードの設定を求められます。要求がなければデフォルトは空パスワードです。これは安全ではないので、すぐに変更してください！
+インストール中にrootパスワードの設定を求められます。要求がなければデフォルトは空白です。これは安全ではないので、すぐに変更してください！
 
 次にデータベースサーバーに接続し、必要なデータベースを作成します：
 
@@ -357,7 +355,7 @@ sudo -u postgres psql
 CREATE DATABASE nextcloud;
 ```
 
-続いて、Nextcloudデータベースにアクセスできるユーザーを作成します。
+続いて、Nextcloudデータベースにアクセスできるユーザーを作成します：
 
 ```sql
 CREATE USER nextcloud with encrypted password 'YOUR_PASSWORD_HERE';
@@ -367,14 +365,14 @@ CREATE USER nextcloud with encrypted password 'YOUR_PASSWORD_HERE';
 rootユーザーを使ってこのステップを省略しないでください。安全ではなく、データが危険にさらされます！
 :::
 
-最後に新しいユーザーに権限を付与します：
+最後に、新しいユーザーに権限を付与します：
 
 ```SQL
 grant all privileges on database mydb to myuser;
 FLUSH PRIVILEGES;
 ```
 
-完了したらCtrl-Dでデータベースを終了します。その後、PostgreSQLデータベースはWebインストーラーまたは**config.php**設定ファイルで修正できます。
+完了したらCtrl-Dでデータベースを終了します。その後、PostgreSQLデータベースはWebインストーラーまたは**config.php**設定ファイルで変更可能です。
 
 ```
 <?php
@@ -404,7 +402,7 @@ SQLite 3データベースの作成
 sqlite3 DatabaseName.db
 ```
 
-その後、SQLite 3データベースはWebインストーラーまたは**config.php**設定ファイルで修正できます。
+その後、SQLite 3データベースはWebインストーラーまたは**config.php**設定ファイルで変更可能です。
 ```
 <?php
 $AUTOCONFIG = array(
@@ -434,13 +432,11 @@ rm latest.zip
 **http://domain.tld/nextcloud/** 
 :::
 
-インストールスクリプトの設定画面が表示され、rootユーザーの作成やデータベース情報の設定を行います：
+インストールスクリプトの設定画面が表示され、rootユーザーの作成やデータベース情報の入力を行います：
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/BdLXfzQwpRPbL9E/preview)
 
-
 ![](https://screensaver01.zap-hosting.com/index.php/s/BNcyjRJNeT9dcZj/preview)
-
 
 ## セキュリティと安全性
 
@@ -448,22 +444,18 @@ rm latest.zip
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/PdzHSP5WaPEcQqH/preview)
 
-
-
 **データディレクトリ**
 
-データディレクトリはWebルートディレクトリ（例：/var/www）外に置くことを強く推奨します。新規インストール時に設定可能ですが、事前にディレクトリを作成し適切な権限を設定する必要があります。例えばホームディレクトリ内にCloudという名前のディレクトリを作成して保存する方法があります。
+データディレクトリはWebルートディレクトリ（例：/var/www）外に置くことを強く推奨します。新規インストール時に設定可能ですが、事前にディレクトリを作成し適切な権限を設定する必要があります。例えばホームディレクトリ内のCloudフォルダに保存する方法があります。
 
 ```
 mkdir /home/cloud/
 chown -R www-data:www-data /home/cloud/
 ```
 
-
-
 **SSL証明書（Let's Encrypt）によるHTTPS**
 
-安全なクラウド環境はSSL接続のみでアクセス可能にすべきです。SSLなしではデータが平文で送信され、簡単に傍受・閲覧されてしまいます。
+安全なクラウド環境にはSSL接続が必須です。SSLなしではデータが平文で送信され、簡単に傍受・閲覧されてしまいます。
 
 ```
 <IfModule mod_ssl.c>
@@ -498,9 +490,7 @@ SSLCertificateKeyFile /etc/letsencrypt/live/domain.tld/privkey.pem
  </IfModule>
 ```
 
-
-
-さらに、すべてのHTTPトラフィックはステータスコード301の恒久的リダイレクトでHTTPSに転送すべきです。ApacheのVirtualHosts設定例は以下の通りです：
+さらに、すべてのHTTPトラフィックはステータスコード301の恒久的リダイレクトでHTTPSに転送すべきです。ApacheのVirtualHosts設定例：
 
 ```
 <VirtualHost *:80>
@@ -509,14 +499,13 @@ SSLCertificateKeyFile /etc/letsencrypt/live/domain.tld/privkey.pem
 </VirtualHost>
 ```
 
-
 ## Nextcloudの管理
 
 Nextcloudにはブラウザだけでなく、スマホやPCのアプリからもアクセス可能です。ダウンロードはこちらから：https://nextcloud.com/install/#install-clients
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/5ay4YtgM8szkrxM/preview)
 
-設定画面ではセットアップ後もオプションの調整やログ、アクティビティの確認ができます。二段階認証や暗号化などのセキュリティ設定、ロゴやカラー、スローガン、ヘッダーのデザイン設定、アクセス設定などもここで行えます。
+設定画面ではセットアップ後もオプションの調整やログ・アクティビティの確認ができます。二段階認証や暗号化などのセキュリティ設定、ロゴやカラー、スローガン、ヘッダーのデザイン設定、アクセス権限の管理など多彩です。
 
 **アプリ**
 
@@ -525,5 +514,3 @@ Nextcloudにはブラウザだけでなく、スマホやPCのアプリからも
 ![](https://screensaver01.zap-hosting.com/index.php/s/AG8PCQwDfsKGQXS/preview)
 
 こうした**Apps**でNextcloudを自分好みにカスタマイズできます。
-
-<InlineVoucher />
