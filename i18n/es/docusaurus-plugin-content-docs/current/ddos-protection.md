@@ -2,7 +2,7 @@
 id: ddos-protection
 title: Protección DDoS de ZAP-Hosting
 description: "Descubre cómo ZAP-Hosting garantiza un servicio ininterrumpido con soluciones de protección DDoS personalizadas y en tiempo real para centros de datos globales → Aprende más ahora"
-sidebar_label: Protección DDoS
+sidebar_label: Allgemein
 ---
 
 ## Introducción
@@ -13,7 +13,7 @@ Nuestros sistemas de protección DDoS operan de forma automática y en tiempo re
 
 ## Soluciones de Protección DDoS
 
-En ZAP-Hosting se despliegan diferentes sistemas de protección DDoS según la ubicación geográfica y la infraestructura de red del centro de datos correspondiente. Cada sitio está equipado con una solución de mitigación específicamente elegida para ofrecer el mejor equilibrio entre rendimiento, fiabilidad y capacidad de respuesta frente a patrones de ataque comunes.
+En ZAP-Hosting se despliegan diferentes sistemas de protección DDoS según la ubicación geográfica y la infraestructura de red del centro de datos correspondiente. Cada sitio está equipado con una solución de mitigación específicamente elegida para ofrecer el mejor equilibrio entre rendimiento, fiabilidad y capacidad de respuesta frente a los patrones de ataque más comunes.
 <details>
   <summary>PletX</summary>
 
@@ -34,12 +34,12 @@ OVH es uno de los mayores proveedores de infraestructura europeos y opera su pro
 
 ## Comparación de Protección DDoS
 La siguiente tabla ofrece una visión simplificada de las principales características de los sistemas de protección DDoS en uso. Esta comparación te ayuda a entender qué tipo de protección se aplica en cada ubicación de servidor.  
-Aunque todos los proveedores ofrecen una protección base sólida, existen diferencias en alcance y métodos según la infraestructura.
+Aunque todos los proveedores ofrecen una protección básica sólida, existen diferencias en alcance y métodos según la infraestructura.
 
-| Característica de Protección                        | PletX | OVH  |
+| Característica de Protección                       | PletX | OVH  |
 | -------------------------------------------------- | :---: | :--: |
 | Protección siempre activa                           |   ✓   |  ✓   |
-| Protección base para todos los servicios           |   ✓   |  ✓   |
+| Protección básica para todos los servicios         |   ✓   |  ✓   |
 | Filtrado a nivel de red y aplicación                |   ✓   |  ✓   |
 | Filtrado adicional específico para juegos          |   ✓   |  ✓   |
 | Sin tiempo de inactividad durante la mitigación    |   ✓   |  ✓   |
@@ -48,3 +48,6 @@ Aunque todos los proveedores ofrecen una protección base sólida, existen difer
 <div style={{ textAlign: 'center', fontSize: '0.7em', color: '#666' }}>
   ✓ = Función totalmente soportada &nbsp;|&nbsp; X = Función no disponible &nbsp;|&nbsp; * = Función no disponible o solo parcialmente disponible según configuración
 </div>
+## Aprende Más Sobre Nuestras Soluciones de Protección DDoS
+
+Para información detallada sobre los sistemas de protección específicos usados en cada ubicación, puedes consultar nuestras guías dedicadas. La documentación de [Protección DDoS PletX](ddos-protection-pletx.md) explica la lógica de filtrado usada en nuestras regiones de Alemania y próximamente EE. UU., mientras que la documentación de [Protección DDoS OVH](ddos-protection-pletx.md) cubre la protección usada en nuestras ubicaciones de Reino Unido, Asia y Australia.
