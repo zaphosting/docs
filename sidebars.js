@@ -4551,6 +4551,14 @@ const sidebars = {
       label: "Dedicated Game Servers",
       key: "vserver-linux-dedicated-game-servers",
       items: [
+        {
+        type: "category",
+        label: "General",
+        key: "vserver-linux-dedicated-game-servers-general",
+        items: [
+          'vserver-linux-fivem-txAdmin-cloudflare-tunnel',
+          ]
+        },
         'vserver-linux-steamcmd',
         'vserver-linux-wine',
         'vserver-linux-create-gameservice',
@@ -4646,6 +4654,14 @@ const sidebars = {
       label: "Dedicated Game Servers",
       key: "vserver-windows-dedicated-game-servers",
       items: [
+        {
+        type: "category",
+        label: "General",
+        key: "vserver-windows-dedicated-game-servers-general",
+        items: [
+          'vserver-windows-fivem-txAdmin-cloudflare-tunnel',
+          ]
+        },
         'vserver-windows-arksurvivalascended',
         'vserver-windows-avorion',
         'vserver-windows-conan',
@@ -4843,6 +4859,14 @@ const sidebars = {
       label: "Dedicated Game Servers",
       key: "dedicated-server-linux-dedicated-game-servers",
       items: [
+        {
+        type: "category",
+        label: "General",
+        key: "dedicated-linux-dedicated-game-servers-general",
+        items: [
+          'dedicated-linux-fivem-txAdmin-cloudflare-tunnel',
+          ]
+        },
         'dedicated-linux-steamcmd',
         'dedicated-linux-wine',
         'dedicated-linux-create-gameservice',
@@ -4938,6 +4962,14 @@ const sidebars = {
       label: "Dedicated Game Servers",
       key: "dedicated-server-windows-dedicated-game-servers",
       items: [
+        {
+        type: "category",
+        label: "General",
+        key: "dedicated-windows-dedicated-game-servers-general",
+        items: [
+          'dedicated-windows-fivem-txAdmin-cloudflare-tunnel',
+          ]
+        },
         'dedicated-windows-arksurvivalascended',
         'dedicated-windows-avorion',
         'dedicated-windows-conan',
