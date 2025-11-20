@@ -11,6 +11,8 @@ DDoS (Distributed Denial of Service) attacks are malicious attempts to disrupt t
 
 One of the key technologies used within our infrastructure is PletX, a highly adaptive protection platform that filters and mitigates attacks in real time. This document explains how PletX operates, which services benefit from it and why it provides a significant advantage for performance critical hosting environments.
 
+
+
 ## Where the Protection Is Utilized
 
 PletX is already fully deployed at our FFM/Eygelshoven location, where it protects all hosted products including gameservers, VPS, dedicated servers, TeamSpeak servers, TS3 and Discord bots as well as webspace services. This ensures comprehensive and consistent protection across the entire product range at this site.

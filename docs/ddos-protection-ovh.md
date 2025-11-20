@@ -11,6 +11,8 @@ DDoS (Distributed Denial of Service) attacks are malicious attempts to disrupt t
 
 One of the protection platforms integrated into our global infrastructure is the OVH Anti-DDoS system. OVH provides a fully automated, network-level mitigation solution designed to absorb even very large scale attacks without impacting service stability. This section explains how the OVH protection works and which of our products benefit from it.
 
+
+
 ## Where the Protection Is Utilized
 
 OVH DDoS Protection is in active use at our hosting locations in London (UK), Sydney (Australia) and Singapore (Asia). At these locations, the protection covers our gameserver and voiceserver product lines, ensuring stable operation even during heavy attack scenarios.
