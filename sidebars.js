@@ -38,7 +38,16 @@ const sidebars = {
     'welcome',
     'firststeps-register',
     'firststeps-locations',
-    'ddos-protection',
+    {
+        type: "category",
+        label: "DDoS Protection",
+        key: "dedicated-linux-dedicated-game-servers-general",
+        items: [
+         'ddos-protection',
+         'ddos-protection-pletx',
+         'ddos-protection-ovh'
+        ]
+    },
     'preorders',
     'firststeps-rent-or-purchase',
     'community-info',

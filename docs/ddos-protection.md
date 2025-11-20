@@ -2,7 +2,7 @@
 id: ddos-protection
 title: ZAP-Hosting DDoS Protection
 description: "Discover how ZAP-Hosting ensures uninterrupted service with tailored, real-time DDoS protection solutions for global data centers → Learn more now"
-sidebar_label: DDoS Protection
+sidebar_label: Allgemein
 ---
 
 ## Introduction
@@ -48,9 +48,6 @@ While all providers offer strong baseline protection, there are differences in s
 <div style={{ textAlign: 'center', fontSize: '0.7em', color: '#666' }}>
   ✓ = Feature is fully supported &nbsp;|&nbsp; X = Feature not available &nbsp;|&nbsp; * = Feature not available or only partially available depending on configuration
 </div>
+## Learn More About Our DDoS Protection Solutions
 
-
-
-
-
-
+For detailed information about the specific protection systems used at each location, you can refer to our dedicated guides. The [PletX DDoS Protection](ddos-protection-pletx.md) documentation explains the filtering logic used in our German and upcoming US regions, while the [OVH DDoS Protection](ddos-protection-pletx.md) documentation covers the protection used in our UK, Asia and Australia locations.

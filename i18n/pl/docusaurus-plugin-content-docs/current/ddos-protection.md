@@ -1,23 +1,23 @@
 ---
 id: ddos-protection
-title: Ochrona DDoS w ZAP-Hosting
+title: Ochrona DDoS ZAP-Hosting
 description: "Dowiedz się, jak ZAP-Hosting zapewnia nieprzerwaną usługę dzięki dopasowanym, działającym w czasie rzeczywistym rozwiązaniom ochrony DDoS dla globalnych centrów danych → Sprawdź teraz"
-sidebar_label: Ochrona DDoS
+sidebar_label: Ogólne
 ---
 
 ## Wprowadzenie
 
-Ataki DDoS (Distributed Denial of Service) to złośliwe próby zakłócenia normalnego ruchu na docelowym serwerze, usłudze lub sieci poprzez zalanie ich ogromnym natężeniem ruchu internetowego. Aby zapewnić nieprzerwaną usługę naszym klientom, ZAP-Hosting korzysta ze sprawdzonych rozwiązań ochrony DDoS, dopasowanych do lokalizacji centrum danych.
+Ataki DDoS (Distributed Denial of Service) to złośliwe próby zakłócenia normalnego ruchu na docelowym serwerze, usłudze lub sieci poprzez zalanie ich ogromnym ruchem internetowym. Aby zapewnić nieprzerwaną usługę naszym klientom, ZAP-Hosting korzysta ze sprawdzonych rozwiązań ochrony DDoS, dopasowanych do lokalizacji centrum danych.
 
 Nasze systemy ochrony DDoS działają automatycznie i w czasie rzeczywistym, filtrując złośliwy ruch zanim wpłynie na wydajność lub dostępność serwera.
 
 ## Rozwiązania ochrony DDoS
 
-W ZAP-Hosting stosujemy różne systemy ochrony DDoS w zależności od geograficznej lokalizacji i infrastruktury sieciowej danego centrum danych. Każda lokalizacja jest wyposażona w rozwiązanie do łagodzenia ataków, które zostało specjalnie wybrane, aby zapewnić najlepszą równowagę między wydajnością, niezawodnością i szybkością reakcji na typowe wzorce ataków.
+W ZAP-Hosting stosujemy różne systemy ochrony DDoS w zależności od lokalizacji geograficznej i infrastruktury sieciowej danego centrum danych. Każda lokalizacja jest wyposażona w rozwiązanie do łagodzenia ataków, które zostało specjalnie dobrane, aby zapewnić najlepszą równowagę między wydajnością, niezawodnością i szybkością reakcji na typowe wzorce ataków.
 <details>
   <summary>PletX</summary>
 
-PletX to niemiecki dostawca sieci skoncentrowany na infrastrukturze hostingowej o wysokiej wydajności. Oferuje natywne filtrowanie na poziomie sieci i współpracuje ze specjalistycznymi dostawcami rozwiązań do łagodzenia ataków.
+PletX to niemiecki dostawca sieci skoncentrowany na wysokowydajnej infrastrukturze hostingowej. Oferuje natywne filtrowanie na poziomie sieci i współpracuje ze specjalistycznymi dostawcami rozwiązań do łagodzenia ataków.
 
 **Dostępne lokalizacje:** FFM / Eygelshoven, GER
 
@@ -48,3 +48,6 @@ Choć wszyscy dostawcy oferują solidną ochronę bazową, różnią się zakres
 <div style={{ textAlign: 'center', fontSize: '0.7em', color: '#666' }}>
   ✓ = Funkcja w pełni dostępna &nbsp;|&nbsp; X = Funkcja niedostępna &nbsp;|&nbsp; * = Funkcja niedostępna lub częściowo dostępna w zależności od konfiguracji
 </div>
+## Dowiedz się więcej o naszych rozwiązaniach ochrony DDoS
+
+Szczegółowe informacje o konkretnych systemach ochrony stosowanych w każdej lokalizacji znajdziesz w naszych dedykowanych poradnikach. Dokumentacja [PletX Ochrona DDoS](ddos-protection-pletx.md) wyjaśnia logikę filtrowania stosowaną w naszych niemieckich i nadchodzących amerykańskich regionach, natomiast dokumentacja [OVH Ochrona DDoS](ddos-protection-pletx.md) opisuje ochronę stosowaną w lokalizacjach w UK, Azji i Australii.
