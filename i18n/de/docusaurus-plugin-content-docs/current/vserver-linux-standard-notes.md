@@ -1,6 +1,6 @@
 ---
 id: vserver-linux-standard-notes
-title: "VPS: Standard Notes auf Linux einrichten"
+title: "vServer: Standard Notes auf Linux einrichten"
 description: "Entdecke, wie du deine Notizen mit Standard Notes sicher über Geräte synchronisierst und schützt – jetzt selbst hosten → Erfahre mehr"
 sidebar_label: Standard Notes installieren
 services:

@@ -1,6 +1,6 @@
 ---
 id: vserver-linux-screen
-title: "VPS: Installation von Screen"
+title: "vServer: Installation von Screen"
 description: "Entdecke, wie du mehrere Terminal-Sessions effizient auf Unix-ähnlichen Systemen mit dem Screen-Tool verwaltest → Jetzt mehr erfahren"
 sidebar_label: Screen installieren
 services:

@@ -1,6 +1,6 @@
 ---
 id: vserver-linux-odoo
-title: "VPS: Odoo (Open Source ERP und CRM) auf Linux einrichten"
+title: "vServer: Odoo (Open Source ERP und CRM) auf Linux einrichten"
 description: "Entdecke, wie du deine Geschäftsprozesse mit Odoos integrierter ERP- und CRM-Plattform verwaltest und automatisierst → Jetzt mehr erfahren"
 sidebar_label: Odoo installieren
 services:

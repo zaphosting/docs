@@ -1,6 +1,6 @@
 ---
 id: vserver-windows-supabase
-title: "VPS: Supabase auf Windows einrichten"
+title: "vServer: Supabase auf Windows einrichten"
 description: "Entdecke, wie du Supabase als zuverlässige Open-Source Postgres-Plattform mit Authentifizierung und Realtime-Features einrichtest und konfigurierst → Jetzt mehr erfahren"
 sidebar_label: Supabase installieren
 services:

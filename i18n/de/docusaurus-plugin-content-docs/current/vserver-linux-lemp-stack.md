@@ -1,6 +1,6 @@
 ---
 id: vserver-linux-lemp-stack
-title: "VPS: LEMP-Stack einrichten - Linux, Nginx, MySQL, PHP"
+title: "vServer: LEMP-Stack einrichten - Linux, Nginx, MySQL, PHP"
 description: "Entdecke, wie du einen LEMP-Stack für das Hosting dynamischer PHP-Websites auf Linux VPS-Servern einrichtest → Jetzt mehr erfahren"
 sidebar_label: Web LEMP-Stack
 services:

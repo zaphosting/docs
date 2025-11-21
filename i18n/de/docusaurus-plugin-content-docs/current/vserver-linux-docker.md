@@ -1,6 +1,6 @@
 ---
 id: vserver-linux-docker
-title: "VPS: Docker Installation"
+title: "vServer: Docker Installation"
 description: "Entdecke, wie du Docker auf deinem Linux-Server installierst, um isolierte Anwendungen effizient auszuführen und Systemressourcen zu sparen → Jetzt mehr erfahren"
 sidebar_label: Docker installieren
 services:

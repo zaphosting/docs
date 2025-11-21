@@ -1,6 +1,6 @@
 ---
 id: vserver-windows-ark
-title: "VPS: ARK Survival Evolved Dedicated Server Windows Setup"
+title: "vServer: ARK Survival Evolved Dedicated Server Windows Setup"
 description: "Entdecke, wie du schnell und einfach einen ARK: Survival Evolved Dedicated Server auf deinem Windows VPS einrichtest → Jetzt mehr erfahren"
 sidebar_label: ARK Survival Evolved Dedicated Server Setup
 services:

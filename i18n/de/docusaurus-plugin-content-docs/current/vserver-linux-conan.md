@@ -1,6 +1,6 @@
 ---
 id: vserver-linux-conan
-title: "VPS: Conan Exiles Dedicated Server Linux Setup"
+title: "vServer: Conan Exiles Dedicated Server Linux Setup"
 description: "Entdecke, wie du einen Conan Exiles Dedicated Server auf deinem Linux VPS mit SteamCMD und Wine zum Laufen bringst → Jetzt mehr erfahren"
 sidebar_label: Conan Exiles
 services:

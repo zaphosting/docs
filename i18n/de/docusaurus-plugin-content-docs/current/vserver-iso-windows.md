@@ -1,6 +1,6 @@
 ---
 id: vserver-iso-windows
-title: "VPS: Installation von Windows X/Windows Server 20XX"
+title: "vServer: Installation von Windows X/Windows Server 20XX"
 description: "Entdecke, wie du Windows-Installationen mit maßgeschneiderten ISOs anpasst und volle Kontrolle über Setup und Treiber bekommst → Jetzt mehr erfahren"
 sidebar_label: "Windows X/WS 20XX installieren"
 services:

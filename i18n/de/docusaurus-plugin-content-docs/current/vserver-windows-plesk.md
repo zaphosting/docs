@@ -1,6 +1,6 @@
 ---
 id: vserver-windows-plesk
-title: "VPS: Installation von Plesk"
+title: "vServer: Installation von Plesk"
 description: "Entdecke, wie du Websites und Server effizient mit Plesks vielseitiger Plattform für Einsteiger und Profis verwaltest → Jetzt mehr erfahren"
 sidebar_label: Plesk installieren
 services:

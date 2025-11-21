@@ -1,6 +1,6 @@
 ---
 id: vserver-linux-speedtest-cli
-title: "VPS: Speedtest-Cli auf Linux einrichten"
+title: "vServer: Speedtest-Cli auf Linux einrichten"
 description: "Entdecke, wie du Speedtest-Cli für zuverlässige Netzwerktests und Automatisierung einrichtest und nutzt → Jetzt mehr erfahren"
 sidebar_label: Speedtest-Cli installieren
 services:

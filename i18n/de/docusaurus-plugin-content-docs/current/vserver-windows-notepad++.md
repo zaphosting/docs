@@ -1,6 +1,6 @@
 ---
 id: vserver-windows-notepad++
-title: "VPS: Notepad++ auf Windows einrichten"
+title: "vServer: Notepad++ auf Windows einrichten"
 description: "Entdecke, wie du Notepad++ für effizientes Coden mit anpassbaren Features und schneller Performance nutzt → Jetzt mehr erfahren"
 sidebar_label: Notepad++ installieren
 services:

@@ -1,6 +1,6 @@
 ---
 id: vserver-windows-hl2
-title: "VPS: Half-Life 2 Dedicated Server Windows Setup"
+title: "vServer: Half-Life 2 Dedicated Server Windows Setup"
 description: "Lerne, wie du schnell und einfach einen Half-Life 2 Dedicated Server auf deinem VPS oder Dedicated Server einrichtest → Jetzt mehr erfahren"
 sidebar_label: "Half-Life 2"
 services:

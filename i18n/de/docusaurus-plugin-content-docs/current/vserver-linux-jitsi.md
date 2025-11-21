@@ -1,6 +1,6 @@
 ---
 id: vserver-linux-jitsi
-title: "VPS: Installation von Jitsi Meet"
+title: "vServer: Installation von Jitsi Meet"
 description: "Entdecke, wie du deinen eigenen sicheren und einfach zu bedienenden Jitsi Meet Videokonferenz-Server auf Debian einrichtest für nahtlose Online-Meetings → Jetzt mehr erfahren"
 sidebar_label: Jitsi Meet installieren
 services:

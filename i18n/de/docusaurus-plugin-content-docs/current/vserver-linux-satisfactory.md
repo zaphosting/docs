@@ -1,6 +1,6 @@
 ---
 id: vserver-linux-satisfactory
-title: "VPS: Satisfactory Dedicated Server Linux Setup"
+title: "vServer: Satisfactory Dedicated Server Linux Setup"
 description: "Entdecke, wie du einen Satisfactory Dedicated Server auf deinem Linux VPS für nahtloses Gameserver Hosting und Management einrichtest → Jetzt mehr erfahren"
 sidebar_label: Satisfactory
 services:

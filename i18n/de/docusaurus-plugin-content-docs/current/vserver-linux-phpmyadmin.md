@@ -1,6 +1,6 @@
 ---
 id: vserver-linux-phpmyadmin
-title: "VPS: Installation von phpMyAdmin"
+title: "vServer: Installation von phpMyAdmin"
 description: "Entdecke, wie du MySQL- und MariaDB-Datenbanken ganz easy mit der benutzerfreundlichen Weboberfläche von phpMyAdmin verwaltest → Jetzt mehr erfahren"
 sidebar_label: phpMyAdmin installieren
 services:

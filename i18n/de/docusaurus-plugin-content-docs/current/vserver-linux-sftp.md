@@ -1,6 +1,6 @@
 ---
 id: vserver-linux-sftp
-title: "VPS: Verbindung über SFTP herstellen"
+title: "vServer: Verbindung über SFTP herstellen"
 description: "Entdecke, wie du Dateien sicher per SFTP überträgst und deine Daten mit verschlüsselten Verbindungen schützt → Jetzt mehr erfahren"
 sidebar_label: SFTP Verbindung
 services:

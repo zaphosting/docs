@@ -1,6 +1,6 @@
 ---
 id: vserver-linux-plausible
-title: "VPS: Plausible auf OS einrichten"
+title: "vServer: Plausible auf OS einrichten"
 description: "Entdecke, wie du eine datenschutzfreundliche Web-Analytics-Plattform für klare Insights und schnelle Performance einrichtest → Jetzt mehr erfahren"
 sidebar_label: Plausible installieren
 services:

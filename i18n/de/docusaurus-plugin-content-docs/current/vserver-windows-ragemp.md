@@ -1,6 +1,6 @@
 ---
 id: vserver-windows-ragemp
-title: "VPS: RageMP Dedicated Server Windows Setup"
+title: "vServer: RageMP Dedicated Server Windows Setup"
 description: "Lerne, wie du den RageMP Dedicated Server auf deinem Windows VPS installierst und einrichtest für nahtloses Multiplayer-Gaming → Jetzt mehr erfahren"
 sidebar_label: RageMP
 services:

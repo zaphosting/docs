@@ -1,6 +1,6 @@
 ---
 id: vserver-windows-enshrouded
-title: "VPS: Enshrouded Dedicated Server Windows Setup"
+title: "vServer: Enshrouded Dedicated Server Windows Setup"
 description: "Entdecke, wie du einen Enshrouded Dedicated Server auf deinem Windows VPS einrichtest für nahtloses Gameplay und volle Kontrolle → Jetzt mehr erfahren"
 sidebar_label: Enshrouded
 services:

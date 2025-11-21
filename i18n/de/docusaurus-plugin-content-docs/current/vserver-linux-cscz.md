@@ -1,6 +1,6 @@
 ---
 id: vserver-linux-cscz
-title: "VPS: Counter-Strike: Condition Zero Dedicated Server Linux Setup"
+title: "vServer: Counter-Strike: Condition Zero Dedicated Server Linux Setup"
 description: "Entdecke, wie du einen Counter-Strike: Condition Zero Dedicated Server auf deinem Linux VPS für nahtloses Gameplay-Hosting einrichtest → Jetzt mehr erfahren"
 sidebar_label: "Counter-Strike: Condition Zero"
 services:

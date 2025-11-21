@@ -1,6 +1,6 @@
 ---
 id: vserver-windows-palworld
-title: "VPS: Palworld Dedicated Server Windows Setup"
+title: "vServer: Palworld Dedicated Server Windows Setup"
 description: "Entdecke, wie du einen Palworld Dedicated Server auf deinem Windows VPS einrichtest für nahtloses Gameplay-Hosting → Jetzt mehr erfahren"
 sidebar_label: Palworld
 services:

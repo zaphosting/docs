@@ -1,6 +1,6 @@
 ---
 id: vserver-windows-fs-19
-title: "VPS: Farming Simulator 2019 Dedicated Server Windows Setup"
+title: "vServer: Farming Simulator 2019 Dedicated Server Windows Setup"
 description: "Lerne, wie du einen Farming Simulator Dedicated Server 2019 auf einem Windows VPS für flüssiges Multiplayer-Gameplay einrichtest → Jetzt mehr erfahren"
 sidebar_label: Farming Simulator 2019
 services:

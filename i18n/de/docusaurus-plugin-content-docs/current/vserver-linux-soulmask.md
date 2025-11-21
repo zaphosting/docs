@@ -1,6 +1,6 @@
 ---
 id: vserver-linux-soulmask
-title: "VPS: Soulmask Dedicated Server Linux Setup"
+title: "vServer: Soulmask Dedicated Server Linux Setup"
 description: "Entdecke, wie du den Soulmask Dedicated Server schnell und einfach auf deinem Linux VPS installierst und konfigurierst → Jetzt mehr erfahren"
 sidebar_label: Soulmask
 services:

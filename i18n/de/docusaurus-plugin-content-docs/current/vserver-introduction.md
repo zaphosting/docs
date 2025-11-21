@@ -1,6 +1,6 @@
 ---
 id: vserver-introduction
-title: "VPS: Einführung"
+title: "vServer: Einführung"
 description: "Entdecke leistungsstarkes, günstiges VPS-Hosting mit flexiblen Konfigurationen für Websites, Datenbanken, Gaming und mehr → Jetzt mehr erfahren"
 sidebar_label: Einführung
 services:

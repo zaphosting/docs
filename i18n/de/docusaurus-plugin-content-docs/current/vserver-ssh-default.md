@@ -1,6 +1,6 @@
 ---
 id: vserver-ssh-default
-title: "VPS: Standard-SSH-Keys im Profil verwalten"
+title: "vServer: Standard-SSH-Keys im Profil verwalten"
 description: "Entdecke, wie du mit ZAP-Hosting die SSH-Key-Einrichtung automatisierst für schnelleren Serverzugang und einfachere Produktinstallationen → Jetzt mehr erfahren"
 sidebar_label: Standard-SSH-Keys
 services:

@@ -1,6 +1,6 @@
 ---
 id: vserver-linux-avorion
-title: "VPS: Avorion Dedicated Server Linux Setup"
+title: "vServer: Avorion Dedicated Server Linux Setup"
 description: "Entdecke, wie du einen Avorion Dedicated Server auf deinem Linux VPS für nahtloses Gameserver Hosting und Management einrichtest → Jetzt mehr erfahren"
 sidebar_label: Avorion
 services:

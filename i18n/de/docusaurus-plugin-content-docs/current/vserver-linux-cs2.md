@@ -1,6 +1,6 @@
 ---
 id: vserver-linux-cs2
-title: "VPS: Counter-Strike 2 Dedicated Server Linux Setup"
+title: "vServer: Counter-Strike 2 Dedicated Server Linux Setup"
 description: "Entdecke, wie du schnell und einfach einen Counter-Strike 2 Dedicated Server auf deinem Linux VPS einrichtest → Jetzt mehr erfahren"
 sidebar_label: "Counter-Strike 2"
 services:

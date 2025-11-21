@@ -1,6 +1,6 @@
 ---
 id: vserver-linux-openvpn
-title: "VPS: Installation von OpenVPN"
+title: "vServer: Installation von OpenVPN"
 description: "Entdecke, wie du deine Internetverbindung sicherst und auf eingeschränkte Inhalte mit OpenVPN auf Linux-Servern zugreifst → Jetzt mehr erfahren"
 sidebar_label: OpenVPN installieren
 services:

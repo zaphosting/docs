@@ -1,6 +1,6 @@
 ---
 id: vserver-linux-curl
-title: "VPS: cURL auf Linux einrichten"
+title: "vServer: cURL auf Linux einrichten"
 description: "Entdecke, wie du cURL für effiziente Datenübertragungen und API-Tests einrichtest und optimierst → Jetzt mehr erfahren"
 sidebar_label: cURL installieren
 services:

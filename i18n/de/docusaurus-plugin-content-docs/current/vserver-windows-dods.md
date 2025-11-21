@@ -1,6 +1,6 @@
 ---
 id: vserver-windows-dods
-title: "VPS: Day of Defeat: Source Dedicated Server Windows Setup"
+title: "vServer: Day of Defeat: Source Dedicated Server Windows Setup"
 description: "Lerne, wie du schnell und einfach einen Day of Defeat: Source Dedicated Server auf deinem VPS oder Dedicated Server einrichtest → Jetzt mehr erfahren"
 sidebar_label: "Day of Defeat: Source"
 services:

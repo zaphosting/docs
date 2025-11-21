@@ -1,6 +1,6 @@
 ---
 id: vserver-windows-fs-22
-title: "VPS: Farming Simulator 2022 Dedicated Server Windows Setup"
+title: "vServer: Farming Simulator 2022 Dedicated Server Windows Setup"
 description: "Entdecke, wie du den Farming Simulator Dedicated Server 2022 auf deinem Windows VPS für flüssiges Multiplayer-Gameplay einrichtest → Jetzt mehr erfahren"
 sidebar_label: Farming Simulator 2022
 services:

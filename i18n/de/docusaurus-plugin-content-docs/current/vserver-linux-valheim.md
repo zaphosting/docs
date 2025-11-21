@@ -1,6 +1,6 @@
 ---
 id: vserver-linux-valheim
-title: "VPS: Valheim Dedicated Server Linux Setup"
+title: "vServer: Valheim Dedicated Server Linux Setup"
 description: "Entdecke, wie du einen Valheim Dedicated Server auf deinem Linux VPS für nahtloses Gameplay und einfache Serververwaltung einrichtest → Jetzt mehr erfahren"
 sidebar_label: Valheim
 services:

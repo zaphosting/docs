@@ -1,6 +1,6 @@
 ---
 id: vserver-linux-ssl
-title: "VPS: SSL-Zertifikat erstellen (Let's Encrypt) für Linux-Server"
+title: "vServer: SSL-Zertifikat erstellen (Let's Encrypt) für Linux-Server"
 description: "Entdecke, wie du deine Website mit kostenlosen SSL-Zertifikaten via Certbot und Let's Encrypt absicherst für eine sichere Datenübertragung → Jetzt mehr erfahren"
 sidebar_label: SSL-Zertifikat installieren (Let's Encrypt)
 services:

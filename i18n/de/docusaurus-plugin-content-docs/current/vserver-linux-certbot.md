@@ -1,6 +1,6 @@
 ---
 id: vserver-linux-certbot
-title: "VPS: Certbot auf Linux einrichten"
+title: "vServer: Certbot auf Linux einrichten"
 description: "Entdecke, wie du deine Website mit kostenlosen SSL-Zertifikaten über Certbot und Let's Encrypt absicherst für sichere Datenübertragung → Jetzt mehr erfahren"
 sidebar_label: Certbot installieren
 services:

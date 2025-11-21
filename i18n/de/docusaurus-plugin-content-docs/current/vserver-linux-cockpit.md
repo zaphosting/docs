@@ -1,6 +1,6 @@
 ---
 id: vserver-linux-cockpit
-title: "VPS: Installation von Cockpit"
+title: "vServer: Installation von Cockpit"
 description: "Entdecke, wie du Linux-Server effizient mit der Weboberfläche von Cockpit verwaltest – perfekt für Einsteiger und Profis → Jetzt mehr erfahren"
 sidebar_label: Cockpit installieren
 services:

@@ -1,6 +1,6 @@
 ---
 id: vserver-linux-sshkey
-title: "VPS: SSH-Keys für Linux-Server erstellen und nutzen"
+title: "vServer: SSH-Keys für Linux-Server erstellen und nutzen"
 description: "Entdecke, wie du SSH-Keys sicher für deinen Linux-Server generierst und verwaltest, um die Verbindungssicherheit und Kontrolle zu verbessern → Jetzt mehr erfahren"
 sidebar_label: SSH Key
 services:

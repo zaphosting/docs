@@ -1,6 +1,6 @@
 ---
 id: vserver-windows-git
-title: "VPS: Git auf Windows einrichten"
+title: "vServer: Git auf Windows einrichten"
 description: "Entdecke, wie du Git für effiziente Versionskontrolle und nahtlose Zusammenarbeit in der Softwareentwicklung einrichtest und konfigurierst → Jetzt mehr erfahren"
 sidebar_label: Git installieren
 services:

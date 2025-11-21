@@ -1,6 +1,6 @@
 ---
 id: vserver-linux-nmrih
-title: "VPS: No More Room In Hell Dedicated Server Linux Setup"
+title: "vServer: No More Room In Hell Dedicated Server Linux Setup"
 description: "Entdecke, wie du einen No More Room In Hell Dedicated Server auf deinem Linux VPS für nahtloses Gameplay-Hosting einrichtest → Jetzt mehr erfahren"
 sidebar_label: "No More Room In Hell"
 services:

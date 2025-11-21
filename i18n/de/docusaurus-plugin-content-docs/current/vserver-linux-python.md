@@ -1,6 +1,6 @@
 ---
 id: vserver-linux-python
-title: "VPS: Installation von Python"
+title: "vServer: Installation von Python"
 description: "Lerne, wie du die Python-Laufzeit auf verschiedenen Linux-Distributionen installierst und aktualisierst, um eine sichere und aktuelle Umgebung zu gewährleisten → Jetzt mehr erfahren"
 sidebar_label: Python installieren
 services:

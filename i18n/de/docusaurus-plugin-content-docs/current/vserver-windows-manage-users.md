@@ -1,6 +1,6 @@
 ---
 id: vserver-windows-manage-users
-title: "VPS: Benutzer auf Windows Server verwalten"
+title: "vServer: Benutzer auf Windows Server verwalten"
 description: "Entdecke, wie du mehrere Benutzerkonten auf deinem Windows Server sicher verwaltest – für gleichzeitigen Remote-Zugriff und personalisierte Desktops → Jetzt mehr erfahren"
 sidebar_label: Benutzer hinzufügen & verwalten
 services:

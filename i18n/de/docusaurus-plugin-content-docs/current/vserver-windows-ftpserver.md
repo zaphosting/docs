@@ -1,6 +1,6 @@
 ---
 id: vserver-windows-ftpserver
-title: "VPS: Installation von FTP"
+title: "vServer: Installation von FTP"
 description: "Entdecke, wie du einen FileZilla FTP-Server auf Windows einrichtest und verwaltest – für sichere Dateiübertragungen und Benutzerzugriffssteuerung → Jetzt mehr erfahren"
 sidebar_label: FTP installieren
 services:

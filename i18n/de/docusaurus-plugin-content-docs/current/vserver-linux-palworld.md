@@ -1,6 +1,6 @@
 ---
 id: vserver-linux-palworld
-title: "VPS: Palworld Dedicated Server Linux Setup"
+title: "vServer: Palworld Dedicated Server Linux Setup"
 description: "Entdecke, wie du einen Palworld Dedicated Server effizient auf deinem Linux VPS einrichtest und betreibst → Jetzt mehr erfahren"
 sidebar_label: Palworld
 services:

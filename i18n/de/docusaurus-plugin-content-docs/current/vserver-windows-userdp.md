@@ -1,6 +1,6 @@
 ---
 id: vserver-windows-userdp
-title: "VPS: Zugriff auf Windows Server via Remote Desktop (RDP)"
+title: "vServer: Zugriff auf Windows Server via Remote Desktop (RDP)"
 description: "Entdecke, wie du dich sicher per RDP mit deinem Windows Server verbindest und den Zugriff kinderleicht verwaltest → Jetzt mehr erfahren"
 sidebar_label: Erster Zugriff (RDP)
 services:

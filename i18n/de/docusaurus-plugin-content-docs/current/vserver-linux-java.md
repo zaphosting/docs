@@ -1,6 +1,6 @@
 ---
 id: vserver-linux-java
-title: "VPS: Java Installation"
+title: "vServer: Java Installation"
 description: "Lerne, wie du Java auf verschiedenen Linux-Systemen installierst und konfigurierst, damit deine Programme smooth laufen → Jetzt mehr erfahren"
 sidebar_label: Java installieren
 services:

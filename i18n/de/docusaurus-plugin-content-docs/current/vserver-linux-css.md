@@ -1,6 +1,6 @@
 ---
 id: vserver-linux-css
-title: "VPS: Counter-Strike: Source Dedicated Server Linux Setup"
+title: "vServer: Counter-Strike: Source Dedicated Server Linux Setup"
 description: "Entdecke, wie du schnell und einfach einen Counter-Strike: Source Dedicated Server auf deinem Linux VPS einrichtest → Jetzt mehr erfahren"
 sidebar_label: "Counter-Strike: Source"
 services:

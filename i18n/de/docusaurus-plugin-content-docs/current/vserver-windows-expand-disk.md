@@ -1,6 +1,6 @@
 ---
 id: vserver-windows-expand-disk
-title: "VPS: Festplatte (Partition) unter Windows Server erweitern"
+title: "vServer: Festplatte (Partition) unter Windows Server erweitern"
 description: "Entdecke, wie du deine Windows Server-Partition sicher erweiterst, um neuen Speicherplatz effektiv zu nutzen → Jetzt mehr erfahren"
 sidebar_label: Partition erweitern
 services:

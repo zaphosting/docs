@@ -1,6 +1,6 @@
 ---
 id: vserver-linux-databases
-title: "VPS: Installation von Datenbanken"
+title: "vServer: Installation von Datenbanken"
 description: "Entdecke, wie du verschiedene Datenbanken auf Linux installierst und einrichtest für bessere Performance und Sicherheit → Jetzt mehr erfahren"
 sidebar_label: Datenbanken installieren
 services:

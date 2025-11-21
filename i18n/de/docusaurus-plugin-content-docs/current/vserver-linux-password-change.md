@@ -1,6 +1,6 @@
 ---
 id: vserver-linux-password-change
-title: "VPS: Root-Passwort für Linux-Server ändern"
+title: "vServer: Root-Passwort für Linux-Server ändern"
 description: "Entdecke, wie du dein Server-Passwort sicher über das Webinterface oder die Konsole änderst und verwaltest – für besseren Zugriffsschutz → Jetzt mehr erfahren"
 sidebar_label: Passwort ändern
 services:

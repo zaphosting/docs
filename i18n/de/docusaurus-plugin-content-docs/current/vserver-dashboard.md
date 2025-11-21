@@ -1,6 +1,6 @@
 ---
 id: vserver-dashboard
-title: "VPS: Dashboard Übersicht"
+title: "vServer: Dashboard Übersicht"
 description: "Entdecke, wie du deinen VPS effizient verwaltest und absicherst – mit einer klaren Übersicht über alle wichtigen Features und Optionen → Jetzt mehr erfahren"
 sidebar_label: Dashboard
 services:

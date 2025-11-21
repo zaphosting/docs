@@ -1,6 +1,6 @@
 ---
 id: vserver-windows-l4d2
-title: "VPS: Left 4 Dead 2 Dedicated Server Windows Setup"
+title: "vServer: Left 4 Dead 2 Dedicated Server Windows Setup"
 description: "Lerne, wie du schnell und einfach einen Left 4 Dead 2 Dedicated Server auf deinem VPS oder Dedicated Server einrichtest → Jetzt mehr erfahren"
 sidebar_label: "Left 4 Dead 2"
 services:

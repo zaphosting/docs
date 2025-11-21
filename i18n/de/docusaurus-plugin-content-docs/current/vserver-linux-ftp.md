@@ -1,6 +1,6 @@
 ---
 id: vserver-linux-ftp
-title: "VPS: FTP-Service funktioniert nicht – Fehlerbehebung"
+title: "vServer: FTP-Service funktioniert nicht – Fehlerbehebung"
 description: "Check, wie du den FTP-Zugang auf deinem VPS wiederherstellst, wenn dein Gameserver oder Teamspeak-Server nicht erreichbar ist → Jetzt mehr erfahren"
 sidebar_label: FTP-Service funktioniert nicht
 services:

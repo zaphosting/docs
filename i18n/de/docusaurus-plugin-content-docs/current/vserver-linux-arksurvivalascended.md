@@ -1,6 +1,6 @@
 ---
 id: vserver-linux-arksurvivalascended
-title: "VPS: ARK Survival Ascended Dedicated Server Linux Setup"
+title: "vServer: ARK Survival Ascended Dedicated Server Linux Setup"
 description: "Entdecke, wie du den ARK: Survival Ascended Dedicated Server auf deinem Linux VPS für nahtloses Gameplay-Management einrichtest → Jetzt mehr erfahren"
 sidebar_label: ARK Survival Ascended
 services:

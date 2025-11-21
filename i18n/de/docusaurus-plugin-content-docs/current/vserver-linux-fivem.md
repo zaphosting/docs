@@ -1,6 +1,6 @@
 ---
 id: vserver-linux-fivem
-title: "VPS: FiveM Dedicated Server Linux Setup (GS/TS3 Interface)"
+title: "vServer: FiveM Dedicated Server Linux Setup (GS/TS3 Interface)"
 description: "Entdecke, wie du deinen eigenen FiveM Dedicated Server mit txAdmin für nahtloses Multiplayer-Gaming einrichtest und betreibst → Jetzt mehr erfahren"
 sidebar_label: FiveM
 services:

@@ -1,6 +1,6 @@
 ---
 id: vserver-linux-nextcloud
-title: "VPS: Installation von Nextcloud"
+title: "vServer: Installation von Nextcloud"
 description: "Entdecke, wie du einen leistungsstarken Nextcloud-Server auf Linux für optimales Cloud-Hosting einrichtest → Jetzt mehr erfahren"
 sidebar_label: Nextcloud installieren
 services:

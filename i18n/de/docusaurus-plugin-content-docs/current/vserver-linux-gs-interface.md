@@ -1,6 +1,6 @@
 ---
 id: vserver-linux-gs-interface
-title: "VPS: Gameserver/TS3 Interface"
+title: "vServer: Gameserver/TS3 Interface"
 description: "Entdecke, wie du ganz easy Gameserver und Voiceserver auf Linux VPS ohne Vorkenntnisse mit einer automatisierten Oberfläche einrichtest → Jetzt mehr erfahren"
 sidebar_label: GS/TS3 Interface
 services:

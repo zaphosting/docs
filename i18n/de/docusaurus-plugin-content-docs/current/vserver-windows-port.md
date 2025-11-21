@@ -1,6 +1,6 @@
 ---
 id: vserver-windows-port
-title: "VPS: Windows Defender Firewall-Regeln verwalten"
+title: "vServer: Windows Defender Firewall-Regeln verwalten"
 description: "Entdecke, wie du Windows Defender Firewall-Regeln verwaltest und Portweiterleitungen für sichere Server-Kommunikation optimierst → Jetzt mehr erfahren"
 sidebar_label: Portweiterleitung (Firewall)
 services:

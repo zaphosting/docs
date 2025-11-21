@@ -1,6 +1,6 @@
 ---
 id: vserver-windows-cs2
-title: "VPS: Counter-Strike 2 Dedicated Server Windows Setup"
+title: "vServer: Counter-Strike 2 Dedicated Server Windows Setup"
 description: "Lerne, wie du schnell und einfach einen Counter-Strike 2 Dedicated Server auf deinem VPS oder Dedicated Server einrichtest → Jetzt mehr erfahren"
 sidebar_label: "Counter-Strike 2"
 services:

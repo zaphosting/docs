@@ -1,6 +1,6 @@
 ---
 id: vserver-windows-docker
-title: "VPS: Docker auf Windows einrichten"
+title: "vServer: Docker auf Windows einrichten"
 description: "Entdecke, wie du Anwendungen effizient mit Docker-Containern bereitstellst und verwaltest – für nahtloses Skalieren und Updates → Jetzt mehr erfahren"
 sidebar_label: Docker installieren
 services:

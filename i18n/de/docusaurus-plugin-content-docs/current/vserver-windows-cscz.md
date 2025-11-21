@@ -1,6 +1,6 @@
 ---
 id: vserver-windows-cscz
-title: "VPS: Counter-Strike: Condition Zero Dedicated Server Windows Setup"
+title: "vServer: Counter-Strike: Condition Zero Dedicated Server Windows Setup"
 description: "Lerne, wie du schnell und einfach einen Counter-Strike: Condition Zero Dedicated Server auf deinem VPS oder Dedicated Server einrichtest → Jetzt mehr erfahren"
 sidebar_label: "Counter-Strike: Condition Zero"
 services:

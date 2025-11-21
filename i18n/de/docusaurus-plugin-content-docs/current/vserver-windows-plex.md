@@ -1,6 +1,6 @@
 ---
 id: vserver-windows-plex
-title: "VPS: Plex auf Windows einrichten"
+title: "vServer: Plex auf Windows einrichten"
 description: "Entdecke, wie du deine persönliche Mediathek mit Plex kinderleicht verwaltest und streamst – für nahtlosen Zugriff auf jedem Gerät → Jetzt mehr erfahren"
 sidebar_label: Plex installieren
 services:

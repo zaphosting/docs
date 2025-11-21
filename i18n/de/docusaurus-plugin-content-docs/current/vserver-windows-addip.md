@@ -1,6 +1,6 @@
 ---
 id: vserver-windows-addip
-title: "VPS: Zusätzliche IP-Adressen unter Windows konfigurieren"
+title: "vServer: Zusätzliche IP-Adressen unter Windows konfigurieren"
 description: "Entdecke, wie du die Serverleistung und Sicherheit optimierst, indem du mehrere IP-Adressen für bessere Service-Isolierung nutzt → Jetzt mehr erfahren"
 sidebar_label: Zusätzliche IP-Adressen
 services:

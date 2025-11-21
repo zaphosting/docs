@@ -1,6 +1,6 @@
 ---
 id: vserver-windows-ts6
-title: "VPS: Teamspeak 6 Server auf deinem Windows VPS einrichten"
+title: "vServer: Teamspeak 6 Server auf deinem Windows VPS einrichten"
 description: "Entdecke, wie du den TeamSpeak 6 Server Beta einrichtest und optimierst für nahtloses Hosting und Performance → Jetzt mehr erfahren"
 sidebar_label: Teamspeak 6 Server installieren
 services:

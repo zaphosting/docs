@@ -1,6 +1,6 @@
 ---
 id: vserver-linux-vrising
-title: "VPS: V-Rising Dedicated Server Linux Setup"
+title: "vServer: V-Rising Dedicated Server Linux Setup"
 description: "Entdecke, wie du den V-Rising Dedicated Server effizient auf deinem Linux VPS installierst und betreibst → Jetzt mehr erfahren"
 sidebar_label: V-Rising
 services:

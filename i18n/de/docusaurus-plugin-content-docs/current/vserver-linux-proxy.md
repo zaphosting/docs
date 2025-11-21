@@ -1,6 +1,6 @@
 ---
 id: vserver-linux-proxy
-title: "VPS: Reverse Proxy mit nginx auf Linux einrichten"
+title: "vServer: Reverse Proxy mit nginx auf Linux einrichten"
 description: "Entdecke, wie du einen sicheren und effizienten Reverse Proxy für Webseiten und Gameserver einrichtest, um Zugriff und Schutz zu verbessern → Jetzt mehr erfahren"
 sidebar_label: Reverse Proxy
 services:

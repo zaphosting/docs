@@ -1,6 +1,6 @@
 ---
 id: vserver-vnc
-title: "VPS: VNC (Virtual Network Computing) Konsole"
+title: "vServer: VNC (Virtual Network Computing) Konsole"
 description: "Entdecke, wie du deinen Server auch während des Starts oder bei Netzwerkproblemen remote erreichst und steuerst – für ein nahtloses Management → Jetzt mehr erfahren"
 sidebar_label: VNC Konsole
 services:

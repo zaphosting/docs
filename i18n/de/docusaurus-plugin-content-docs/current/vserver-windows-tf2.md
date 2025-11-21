@@ -1,6 +1,6 @@
 ---
 id: vserver-windows-tf2
-title: "VPS: Team Fortress 2 Dedicated Server Windows Setup"
+title: "vServer: Team Fortress 2 Dedicated Server Windows Setup"
 description: "Entdecke, wie du schnell und einfach einen Team Fortress 2 Dedicated Server auf deinem VPS oder Server einrichtest → Jetzt mehr erfahren"
 sidebar_label: "Team Fortress 2"
 services:

@@ -1,6 +1,6 @@
 ---
 id: vserver-linux-hl2
-title: "VPS: Half-Life 2 Dedicated Server Linux Setup"
+title: "vServer: Half-Life 2 Dedicated Server Linux Setup"
 description: "Entdecke, wie du einen Half-Life 2 Dedicated Server auf deinem Linux VPS für nahtloses Gaming einrichtest → Jetzt mehr erfahren"
 sidebar_label: "Half-Life 2"
 services:

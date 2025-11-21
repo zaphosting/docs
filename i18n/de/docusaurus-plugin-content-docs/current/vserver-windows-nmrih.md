@@ -1,6 +1,6 @@
 ---
 id: vserver-windows-nmrih
-title: "VPS: No More Room In Hell Dedicated Server Windows Setup"
+title: "vServer: No More Room In Hell Dedicated Server Windows Setup"
 description: "Lerne, wie du schnell und einfach einen No More Room In Hell Dedicated Gameserver auf deinem VPS oder Dedicated Server einrichtest → Jetzt mehr erfahren"
 sidebar_label: "No More Room In Hell"
 services:

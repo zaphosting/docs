@@ -1,6 +1,6 @@
 ---
 id: vserver-windows-bitwarden
-title: "VPS: Bitwarden auf Windows einrichten"
+title: "vServer: Bitwarden auf Windows einrichten"
 description: "Entdecke, wie du Bitwarden sicher selbst hostest, um Passwörter mit Ende-zu-Ende-Verschlüsselung und starken Anmeldefunktionen zu verwalten → Jetzt mehr erfahren"
 sidebar_label: Bitwarden installieren
 services:

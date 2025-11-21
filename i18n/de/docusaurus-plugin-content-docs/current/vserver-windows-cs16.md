@@ -1,6 +1,6 @@
 ---
 id: vserver-windows-cs16
-title: "VPS: Counter-Strike 1.6 Dedicated Server Windows Setup"
+title: "vServer: Counter-Strike 1.6 Dedicated Server Windows Setup"
 description: "Lerne, wie du schnell und einfach einen Counter-Strike 1.6 Dedicated Server auf deinem VPS oder Dedicated Server einrichtest → Jetzt mehr erfahren"
 sidebar_label: "Counter-Strike 1.6"
 services:

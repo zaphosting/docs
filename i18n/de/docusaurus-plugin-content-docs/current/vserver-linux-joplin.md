@@ -1,6 +1,6 @@
 ---
 id: vserver-linux-joplin
-title: "VPS: Joplin auf Linux einrichten"
+title: "vServer: Joplin auf Linux einrichten"
 description: "Entdecke, wie du verschlüsselte Markdown-Notizen mit Joplin geräteübergreifend organisierst und synchronisierst – für sicheres und flexibles Notizenmachen → Jetzt mehr erfahren"
 sidebar_label: Joplin installieren
 services:
