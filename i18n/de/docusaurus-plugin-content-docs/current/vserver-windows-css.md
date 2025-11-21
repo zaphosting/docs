@@ -1,6 +1,6 @@
 ---
 id: vserver-windows-css
-title: "VPS: Counter-Strike: Source Dedicated Server Windows Setup"
+title: "vServer: Counter-Strike: Source Dedicated Server Windows Setup"
 description: "Entdecke, wie du schnell und einfach einen Counter-Strike: Source Dedicated Server auf deinem VPS oder Server einrichtest → Jetzt mehr erfahren"
 sidebar_label: "Counter-Strike: Source"
 services:

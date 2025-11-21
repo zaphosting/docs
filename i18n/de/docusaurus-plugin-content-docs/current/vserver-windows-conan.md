@@ -1,6 +1,6 @@
 ---
 id: vserver-windows-conan
-title: "VPS: Conan Exiles Dedicated Server Windows Setup"
+title: "vServer: Conan Exiles Dedicated Server Windows Setup"
 description: "Entdecke, wie du schnell und einfach einen Conan Exiles Dedicated Server auf deinem Windows VPS einrichtest → Jetzt mehr erfahren"
 sidebar_label: Conan Exiles
 services:

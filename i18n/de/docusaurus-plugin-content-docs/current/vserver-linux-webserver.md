@@ -1,6 +1,6 @@
 ---
 id: vserver-linux-webserver
-title: "VPS: Installation von Nginx und Apache Webserver"
+title: "vServer: Installation von Nginx und Apache Webserver"
 description: "Entdecke, wie du Apache oder Nginx Webserver einrichtest und konfigurierst, um deine Website effizient zu hosten → Jetzt mehr erfahren"
 sidebar_label: Webserver installieren
 services:

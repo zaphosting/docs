@@ -1,6 +1,6 @@
 ---
 id: vserver-windows-fivem
-title: "VPS: FiveM Dedicated Server Setup"
+title: "vServer: FiveM Dedicated Server Setup"
 description: "Entdecke, wie du deinen eigenen FiveM Dedicated Server auf einem VPS installierst und konfigurierst für nahtloses Multiplayer-Gaming → Jetzt mehr erfahren"
 sidebar_label: FiveM
 services:

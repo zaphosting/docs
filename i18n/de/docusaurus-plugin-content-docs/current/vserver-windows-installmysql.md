@@ -1,6 +1,6 @@
 ---
 id: vserver-windows-installmysql
-title: "VPS: MySQL Installation"
+title: "vServer: MySQL Installation"
 description: "Entdecke, wie du deinen eigenen MySQL-Datenbankserver auf einem Windows VPS einrichtest und absicherst für zuverlässiges Datenmanagement → Jetzt mehr erfahren"
 sidebar_label: MySQL installieren
 services:

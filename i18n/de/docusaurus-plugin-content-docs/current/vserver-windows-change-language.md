@@ -1,6 +1,6 @@
 ---
 id: vserver-windows-change-language
-title: "VPS: Sprachen auf Windows Server verwalten"
+title: "vServer: Sprachen auf Windows Server verwalten"
 description: "Entdecke, wie du die Spracheinstellungen deines Windows Servers anpasst für ein lokales Erlebnis und bessere Bedienbarkeit → Jetzt mehr erfahren"
 sidebar_label: Sprachen hinzufügen & verwalten
 services:

@@ -1,6 +1,6 @@
 ---
 id: vserver-linux-mythofempires
-title: "VPS: Myth of Empires Dedicated Server Linux Setup"
+title: "vServer: Myth of Empires Dedicated Server Linux Setup"
 description: "Entdecke, wie du den Myth of Empires Dedicated Server auf deinem Linux VPS installierst und betreibst für nahtloses Server mieten → Jetzt mehr erfahren"
 sidebar_label: Myth of Empires
 services:

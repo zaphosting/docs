@@ -1,6 +1,6 @@
 ---
 id: vserver-linux-notepad++
-title: "VPS: Notepad++ auf Linux einrichten"
+title: "vServer: Notepad++ auf Linux einrichten"
 description: "Entdecke, wie du Notepad++ auf Linux installierst und optimierst für effizientes, leichtgewichtiges Coden und Entwickeln → Jetzt mehr erfahren"
 sidebar_label: Notepad++ installieren
 services:

@@ -1,6 +1,6 @@
 ---
 id: vserver-windows-fs-25
-title: "VPS: Farming Simulator 2025 Dedicated Server Windows Setup"
+title: "vServer: Farming Simulator 2025 Dedicated Server Windows Setup"
 description: "Entdecke, wie du einen Farming Simulator 2025 Dedicated Server auf deinem Windows VPS für nahtloses Multiplayer-Gameplay einrichtest → Jetzt mehr erfahren"
 sidebar_label: Farming Simulator 2025
 services:

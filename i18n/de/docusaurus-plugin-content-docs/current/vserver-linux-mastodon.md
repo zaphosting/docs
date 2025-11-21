@@ -1,6 +1,6 @@
 ---
 id: vserver-linux-mastodon
-title: "VPS: Installation von Mastodon"
+title: "vServer: Installation von Mastodon"
 description: "Entdecke, wie du ein sicheres, selbstgehostetes Mastodon Social Network auf Debian-basierten Servern einrichtest – für volle Kontrolle und Datenschutz → Jetzt mehr erfahren"
 sidebar_label: Mastodon installieren
 services:

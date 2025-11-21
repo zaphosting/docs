@@ -1,6 +1,6 @@
 ---
 id: vserver-reset
-title: "VPS: Server Reset (Werkseinstellung)"
+title: "vServer: Server Reset (Werkseinstellung)"
 description: "Entdecke, wie du deinen Server zurücksetzt, um optimale Leistung wiederherzustellen und Datenverlust zu vermeiden → Jetzt mehr erfahren"
 sidebar_label: Server Reset
 services:

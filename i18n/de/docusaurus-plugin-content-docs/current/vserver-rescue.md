@@ -1,6 +1,6 @@
 ---
 id: vserver-rescue
-title: "VPS: Dateien mit SystemRescue retten"
+title: "vServer: Dateien mit SystemRescue retten"
 description: "Entdecke, wie du Daten sicher wiederherstellst und Backups von einem nicht bootfähigen Server mit SystemRescue ISO erstellst → Jetzt mehr erfahren"
 sidebar_label: System Rescue (Backup)
 services:

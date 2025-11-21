@@ -1,6 +1,6 @@
 ---
 id: vserver-linux-add-ip
-title: "VPS: IP-Adresse(n) konfigurieren"
+title: "vServer: IP-Adresse(n) konfigurieren"
 description: "Lerne, wie du primäre und zusätzliche IP-Adressen auf Debian- und Ubuntu-Systemen konfigurierst und verwaltest, um dein Netzwerk optimal einzurichten → Jetzt mehr erfahren"
 sidebar_label: IP-Adresse(n) konfigurieren
 services:

@@ -1,6 +1,6 @@
 ---
 id: vserver-linux-wordpress
-title: "VPS: WordPress Installation"
+title: "vServer: WordPress Installation"
 description: "Entdecke, wie du WordPress auf einem Linux-Server mit dem LAMP-Stack einrichtest – für eine starke, flexible Website-Lösung → Jetzt mehr erfahren"
 sidebar_label: WordPress installieren
 services:

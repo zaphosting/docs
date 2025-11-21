@@ -1,6 +1,6 @@
 ---
 id: vserver-linux-dods
-title: "VPS: Day of Defeat: Source Dedicated Server Linux Setup"
+title: "vServer: Day of Defeat: Source Dedicated Server Linux Setup"
 description: "Entdecke, wie du schnell und einfach einen Day of Defeat: Source Dedicated Server auf deinem Linux VPS einrichtest → Jetzt mehr erfahren"
 sidebar_label: "Day of Defeat: Source"
 services:

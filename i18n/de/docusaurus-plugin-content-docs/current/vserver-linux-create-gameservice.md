@@ -1,6 +1,6 @@
 ---
 id: vserver-linux-create-gameservice
-title: "VPS: Richte deinen Dedicated Gameserver als Linux-Service ein"
+title: "vServer: Richte deinen Dedicated Gameserver als Linux-Service ein"
 description: "Entdecke, wie du Linux-Services für deinen Dedicated Gameserver erstellst und verwaltest, um automatischen Start und einfache Wartung zu gewährleisten → Jetzt mehr erfahren"
 sidebar_label: Linux-Service einrichten
 services:

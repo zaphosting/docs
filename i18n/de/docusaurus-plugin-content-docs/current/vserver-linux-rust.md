@@ -1,6 +1,6 @@
 ---
 id: vserver-linux-rust
-title: "VPS: Rust Dedicated Server Linux Setup"
+title: "vServer: Rust Dedicated Server Linux Setup"
 description: "Lerne, wie du einen Rust Dedicated Server auf deinem Linux VPS mit SteamCMD für nahtloses Server mieten einrichtest → Jetzt mehr erfahren"
 sidebar_label: Rust
 services:

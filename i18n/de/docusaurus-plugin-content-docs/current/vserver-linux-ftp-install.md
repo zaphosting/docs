@@ -1,6 +1,6 @@
 ---
 id: vserver-linux-ftp-install
-title: "VPS: Installation eines FTP-Servers"
+title: "vServer: Installation eines FTP-Servers"
 description: "Entdecke, wie du einen sicheren FTP-Server auf Linux mit FileZilla Server einrichtest und verwaltest, um Dateien effizient zu übertragen → Jetzt mehr erfahren"
 sidebar_label: FTP-Server installieren
 services:

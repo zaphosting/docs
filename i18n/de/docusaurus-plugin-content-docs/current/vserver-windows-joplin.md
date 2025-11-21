@@ -1,6 +1,6 @@
 ---
 id: vserver-windows-joplin
-title: "VPS: Joplin auf Windows einrichten"
+title: "vServer: Joplin auf Windows einrichten"
 description: "Entdecke, wie du verschlüsselte Markdown-Notizen mit Joplin geräteübergreifend organisierst und synchronisierst – für sicheres und flexibles Notizenmachen → Jetzt mehr erfahren"
 sidebar_label: Joplin installieren
 services:

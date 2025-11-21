@@ -1,6 +1,6 @@
 ---
 id: vserver-linux-security-tips
-title: "VPS: Linux Sicherheitstipps"
+title: "vServer: Linux Sicherheitstipps"
 description: "Entdecke, wie du die Sicherheit deines Linux Servers mit wichtigen Tipps verbesserst, um unbefugten Zugriff zu verhindern und deine Services zu schützen → Jetzt mehr erfahren"
 sidebar_label: Sicherheitstipps
 services:

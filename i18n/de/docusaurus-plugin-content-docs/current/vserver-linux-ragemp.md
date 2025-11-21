@@ -1,6 +1,6 @@
 ---
 id: vserver-linux-ragemp
-title: "VPS: RageMP Dedicated Server Linux Setup"
+title: "vServer: RageMP Dedicated Server Linux Setup"
 description: "Entdecke, wie du einen RageMP Dedicated Server auf deinem Linux VPS für nahtloses Multiplayer-Gaming einrichtest → Jetzt mehr erfahren"
 sidebar_label: RageMP
 services:

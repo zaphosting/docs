@@ -1,6 +1,6 @@
 ---
 id: vserver-linux-wine
-title: "VPS: Wine Compatibility Layer Linux Setup"
+title: "vServer: Wine Compatibility Layer Linux Setup"
 description: "Entdecke, wie du Wine auf Linux einrichtest, um Windows-Software und Gameserver problemlos auf deinem System laufen zu lassen → Jetzt mehr erfahren"
 sidebar_label: Wine Compatibility Layer Setup
 services:

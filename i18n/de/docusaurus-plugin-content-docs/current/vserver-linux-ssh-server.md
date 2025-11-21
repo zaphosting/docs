@@ -1,6 +1,6 @@
 ---
 id: vserver-linux-ssh-server
-title: "VPS: Installation von SSH"
+title: "vServer: Installation von SSH"
 description: "Lerne, wie du sicher und verschlüsselt auf entfernte Linux-Server mit SSH zugreifst und sie verwaltest, um den Datenschutz und die Serverkontrolle zu verbessern → Jetzt mehr erfahren"
 sidebar_label: SSH installieren
 services:

@@ -1,6 +1,6 @@
 ---
 id: vserver-linux-foundry
-title: "VPS: Foundry Dedicated Server Linux Setup"
+title: "vServer: Foundry Dedicated Server Linux Setup"
 description: "Entdecke, wie du den Foundry Dedicated Server auf deinem Linux VPS installierst für nahtloses Gameserver Hosting und Management → Jetzt mehr erfahren"
 sidebar_label: Foundry
 services:

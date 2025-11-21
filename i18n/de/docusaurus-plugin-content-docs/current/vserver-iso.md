@@ -1,6 +1,6 @@
 ---
 id: vserver-iso
-title: "VPS: ISO-Datei mounten"
+title: "vServer: ISO-Datei mounten"
 description: "Entdecke, wie du deinen VPS mit deinem Wunsch-ISO individuell anpasst und volle Kontrolle über deine Serverumgebung bekommst → Jetzt mehr erfahren"
 sidebar_label: ISO-Datei mounten
 services:

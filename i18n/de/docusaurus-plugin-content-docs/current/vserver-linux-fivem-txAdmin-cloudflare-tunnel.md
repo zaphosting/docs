@@ -1,6 +1,6 @@
 ---
 id: vserver-linux-fivem-txAdmin-cloudflare-tunnel
-title: "VPS: Cloudflare Tunnel für txAdmin einrichten"
+title: "vServer: Cloudflare Tunnel für txAdmin einrichten"
 description: "Entdecke, wie du einen Cloudflare Tunnel für txAdmin einrichtest und so mehr Sicherheit bekommst → Jetzt mehr erfahren"
 sidebar_label: Cloudflare Tunnel für txAdmin
 services:

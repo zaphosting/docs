@@ -1,6 +1,6 @@
 ---
 id: vserver-windows-speedtest-cli
-title: "VPS: Speedtest CLI auf Windows einrichten"
+title: "vServer: Speedtest CLI auf Windows einrichten"
 description: "Entdecke, wie du mit Speedtest CLI deinen Quellcode effizient verwaltest und nahtlos im Team zusammenarbeitest – für modernes Versionieren → Jetzt mehr erfahren"
 sidebar_label: Speedtest CLI installieren
 services:

@@ -1,6 +1,6 @@
 ---
 id: vserver-ballooning
-title: "VPS: Ballooning – Dynamisches Speichermanagement in virtuellen Server-Umgebungen"
+title: "vServer: Ballooning – Dynamisches Speichermanagement in virtuellen Server-Umgebungen"
 description: "Entdecke, wie Ballooning die Speicherzuweisung zwischen virtuellen Maschinen optimiert, um die Stabilität und Performance deines Servers zu verbessern → Jetzt mehr erfahren"
 sidebar_label: Ballooning
 services:

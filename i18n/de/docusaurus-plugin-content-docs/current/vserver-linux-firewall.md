@@ -1,6 +1,6 @@
 ---
 id: vserver-linux-firewall
-title: "VPS: Firewall-Verwaltung unter Linux"
+title: "vServer: Firewall-Verwaltung unter Linux"
 description: "Lerne, wie du eine Firewall konfigurierst, um deinen Server abzusichern und notwendige externe Verbindungen zu erlauben → Jetzt mehr erfahren"
 sidebar_label: Portweiterleitung (Firewall)
 services:

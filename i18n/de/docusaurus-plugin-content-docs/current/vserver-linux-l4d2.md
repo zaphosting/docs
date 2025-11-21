@@ -1,6 +1,6 @@
 ---
 id: vserver-linux-l4d2
-title: "VPS: Left 4 Dead 2 Dedicated Server Linux Setup"
+title: "vServer: Left 4 Dead 2 Dedicated Server Linux Setup"
 description: "Entdecke, wie du einen Left 4 Dead 2 Dedicated Server auf deinem Linux VPS für nahtloses Gameplay und einfache Serververwaltung einrichtest → Jetzt mehr erfahren"
 sidebar_label: "Left 4 Dead 2"
 services:

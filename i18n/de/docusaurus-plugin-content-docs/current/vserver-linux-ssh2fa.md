@@ -1,6 +1,6 @@
 ---
 id: vserver-linux-ssh2fa
-title: "VPS: SSH Zwei-Faktor-Authentifizierung"
+title: "vServer: SSH Zwei-Faktor-Authentifizierung"
 description: "Entdecke, wie du die SSH-Sicherheit mit Google Authenticator 2FA verbesserst für einen sichereren Serverzugang und schütze deine Linux-Umgebung → Jetzt mehr erfahren"
 sidebar_label: 2FA (SSH)
 services:

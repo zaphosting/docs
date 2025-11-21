@@ -1,6 +1,6 @@
 ---
 id: vserver-linux-nodejs
-title: "VPS: Node.js auf Linux einrichten"
+title: "vServer: Node.js auf Linux einrichten"
 description: "Entdecke, wie du eine stabile Node.js-Umgebung für skalierbare Echtzeitanwendungen mit Docker und Systemvorbereitung einrichtest → Jetzt mehr erfahren"
 sidebar_label: Node.js installieren
 services:

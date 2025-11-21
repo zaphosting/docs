@@ -1,6 +1,6 @@
 ---
 id: vserver-linux-ssh
-title: "VPS: Erster Zugriff per SSH"
+title: "vServer: Erster Zugriff per SSH"
 description: "Entdecke beliebte SSH-Clients zur Verwaltung von Linux-Servern via Konsole und lerne, wie du dich sicher mit Putty verbindest → Jetzt mehr erfahren"
 sidebar_label: Erster Zugriff (SSH)
 services:

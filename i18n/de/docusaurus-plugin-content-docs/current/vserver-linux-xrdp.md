@@ -1,6 +1,6 @@
 ---
 id: vserver-linux-xrdp
-title: "VPS: Installation von xRDP (Remote Desktop)"
+title: "vServer: Installation von xRDP (Remote Desktop)"
 description: "Entdecke, wie du Remote-Desktop-Zugriff auf Ubuntu- und Debian-Server einrichtest für einfacheres Management und Kontrolle → Jetzt mehr erfahren"
 sidebar_label: xRDP installieren
 services:

@@ -1,6 +1,6 @@
 ---
 id: vserver-windows-avorion
-title: "VPS: Avorion Dedicated Server Windows Setup"
+title: "vServer: Avorion Dedicated Server Windows Setup"
 description: "Entdecke, wie du deinen Avorion Dedicated Server schnell und einfach auf deinem Windows VPS einrichtest → Jetzt mehr erfahren"
 sidebar_label: Avorion
 services:

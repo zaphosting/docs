@@ -1,6 +1,6 @@
 ---
 id: vserver-linux-enshrouded
-title: "VPS: Enshrouded Dedicated Server Linux Setup"
+title: "vServer: Enshrouded Dedicated Server Linux Setup"
 description: "Entdecke, wie du den Enshrouded Dedicated Server auf deinem Linux VPS für nahtloses Gameserver Hosting und Management einrichtest → Jetzt mehr erfahren"
 sidebar_label: Enshrouded
 services:

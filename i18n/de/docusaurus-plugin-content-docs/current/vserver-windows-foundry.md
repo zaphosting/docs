@@ -1,6 +1,6 @@
 ---
 id: vserver-windows-foundry
-title: "VPS: Foundry Dedicated Server Windows Setup"
+title: "vServer: Foundry Dedicated Server Windows Setup"
 description: "Entdecke, wie du einen Foundry Dedicated Server auf deinem Windows VPS einrichtest für nahtloses Gameplay-Hosting → Jetzt mehr erfahren"
 sidebar_label: Foundry
 services:

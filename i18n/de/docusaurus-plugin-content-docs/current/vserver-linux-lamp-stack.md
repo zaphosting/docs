@@ -1,6 +1,6 @@
 ---
 id: vserver-linux-lamp-stack
-title: "VPS: LAMP-Stack einrichten - Linux, Apache, MySQL, PHP"
+title: "vServer: LAMP-Stack einrichten - Linux, Apache, MySQL, PHP"
 description: "Entdecke, wie du einen LAMP-Stack für das effiziente Hosting dynamischer PHP-Websites auf deinem Linux VPS einrichtest → Jetzt mehr erfahren"
 sidebar_label: Web LAMP-Stack
 services:

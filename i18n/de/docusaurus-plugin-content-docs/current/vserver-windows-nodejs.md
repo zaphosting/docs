@@ -1,6 +1,6 @@
 ---
 id: vserver-windows-nodejs
-title: "VPS: Node.js auf Windows einrichten"
+title: "vServer: Node.js auf Windows einrichten"
 description: "Entdecke, wie du eine stabile Node.js-Umgebung für skalierbare Echtzeit-Anwendungen mit Docker und Systemvorbereitung einrichtest → Jetzt mehr erfahren"
 sidebar_label: Node.js installieren
 services:

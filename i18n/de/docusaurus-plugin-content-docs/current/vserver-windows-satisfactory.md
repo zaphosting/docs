@@ -1,6 +1,6 @@
 ---
 id: vserver-windows-satisfactory
-title: "VPS: Satisfactory Dedicated Server Windows Setup"
+title: "vServer: Satisfactory Dedicated Server Windows Setup"
 description: "Entdecke, wie du schnell und einfach einen Satisfactory Dedicated Server auf deinem VPS oder Dedicated Server einrichtest → Jetzt mehr erfahren"
 sidebar_label: Satisfactory
 services:

@@ -1,6 +1,6 @@
 ---
 id: vserver-windows-openmp
-title: "VPS: Open.mp Dedicated Server Windows Setup"
+title: "vServer: Open.mp Dedicated Server Windows Setup"
 description: "Lerne, wie du einen open.mp Dedicated Server auf deinem Windows VPS einrichtest und konfigurierst für nahtloses Multiplayer-Gaming → Jetzt mehr erfahren"
 sidebar_label: Open.mp
 services:

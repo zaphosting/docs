@@ -1,6 +1,6 @@
 ---
 id: vserver-linux-bitwarden
-title: "VPS: Bitwarden auf Linux einrichten"
+title: "vServer: Bitwarden auf Linux einrichten"
 description: "Entdecke, wie du Bitwarden sicher selbst hostest, um Passwörter mit Ende-zu-Ende-Verschlüsselung und starken Anmeldeinformationen zu verwalten → Jetzt mehr erfahren"
 sidebar_label: Bitwarden installieren
 services:

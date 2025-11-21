@@ -1,6 +1,6 @@
 ---
 id: vserver-linux-tf2
-title: "VPS: Team Fortress 2 Dedicated Server Linux Setup"
+title: "vServer: Team Fortress 2 Dedicated Server Linux Setup"
 description: "Entdecke, wie du schnell und einfach einen Team Fortress 2 Dedicated Server auf deinem Linux VPS einrichtest → Jetzt mehr erfahren"
 sidebar_label: "Team Fortress 2"
 services:

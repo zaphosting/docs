@@ -1,6 +1,6 @@
 ---
 id: vserver-linux-plex
-title: "VPS: Plex auf Linux einrichten"
+title: "vServer: Plex auf Linux einrichten"
 description: "Entdecke, wie du deine persönliche Mediathek mit Plex ganz easy verwaltest und streamst – für nahtlosen Zugriff auf all deinen Geräten → Jetzt mehr erfahren"
 sidebar_label: Plex installieren
 services:

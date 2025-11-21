@@ -1,6 +1,6 @@
 ---
 id: vserver-linux-supabase
-title: "VPS: Supabase auf Linux einrichten"
+title: "vServer: Supabase auf Linux einrichten"
 description: "Entdecke, wie du Supabase hostest und konfigurierst – eine zuverlässige Open-Source Postgres Plattform mit Authentifizierung und Realtime Features → Jetzt mehr erfahren"
 sidebar_label: Supabase installieren
 services:

@@ -1,6 +1,6 @@
 ---
 id: vserver-windows-soulmask
-title: "VPS: Soulmask Dedicated Server Windows Setup"
+title: "vServer: Soulmask Dedicated Server Windows Setup"
 description: "Entdecke, wie du den Soulmask Dedicated Server auf deinem Windows VPS oder Dedicated Server installierst für ein reibungsloses Gameplay → Jetzt mehr erfahren"
 sidebar_label: Soulmask
 services:

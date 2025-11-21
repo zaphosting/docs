@@ -1,6 +1,6 @@
 ---
 id: vserver-windows-rdp-freeze
-title: "VPS: Remote Desktop Verbindung bricht ab"
+title: "vServer: Remote Desktop Verbindung bricht ab"
 description: "Entdecke, wie du RDP-Freezing-Probleme behebst, indem du die Verbindungsstabilität verbesserst und die Produktivität im Remote Desktop steigerst → Jetzt mehr erfahren"
 sidebar_label: RDP-Verbindung bricht ab
 services:

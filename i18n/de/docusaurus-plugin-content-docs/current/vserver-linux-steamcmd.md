@@ -1,6 +1,6 @@
 ---
 id: vserver-linux-steamcmd
-title: "VPS: SteamCMD Linux Setup"
+title: "vServer: SteamCMD Linux Setup"
 description: "Entdecke, wie du SteamCMD auf Linux einrichtest, um Dedicated Gameserver effizient zu installieren und dein Servermanagement zu optimieren → Jetzt mehr erfahren"
 sidebar_label: SteamCMD Setup
 services:

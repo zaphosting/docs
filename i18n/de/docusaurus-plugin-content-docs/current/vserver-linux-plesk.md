@@ -1,6 +1,6 @@
 ---
 id: vserver-linux-plesk
-title: "VPS: Installation von Plesk"
+title: "vServer: Installation von Plesk"
 description: "Entdecke, wie du Websites und Server effizient mit Plesk verwaltest – für Anfänger und Profis → Jetzt mehr erfahren"
 sidebar_label: Plesk installieren
 services:

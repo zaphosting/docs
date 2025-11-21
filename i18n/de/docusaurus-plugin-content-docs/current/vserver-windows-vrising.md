@@ -1,6 +1,6 @@
 ---
 id: vserver-windows-vrising
-title: "VPS: V-Rising Dedicated Server Windows Setup"
+title: "vServer: V-Rising Dedicated Server Windows Setup"
 description: "Entdecke, wie du einen V Rising Dedicated Windows Server für optimale Gaming-Performance und reibungsloses Server mieten einrichtest → Jetzt mehr erfahren"
 sidebar_label: V-Rising
 services:

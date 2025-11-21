@@ -1,6 +1,6 @@
 ---
 id: vserver-windows-nointernet
-title: "VPS: Kein Internet – Fehler beheben"
+title: "vServer: Kein Internet – Fehler beheben"
 description: "Entdecke, wie du Internetverbindungsprobleme auf deinem Windows VPS effektiv beheben kannst → Jetzt mehr erfahren"
 sidebar_label: Kein Internet beheben
 services:

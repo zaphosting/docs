@@ -1,6 +1,6 @@
 ---
 id: vserver-linux-openmp
-title: "VPS: Open.mp Dedicated Server Linux Setup"
+title: "vServer: Open.mp Dedicated Server Linux Setup"
 description: "Entdecke, wie du den open.mp Dedicated Server auf deinem Linux VPS für nahtloses Gameserver Hosting und Management einrichtest → Jetzt mehr erfahren"
 sidebar_label: Open.mp
 services:

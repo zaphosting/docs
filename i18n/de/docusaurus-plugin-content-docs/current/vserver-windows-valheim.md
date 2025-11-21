@@ -1,6 +1,6 @@
 ---
 id: vserver-windows-valheim
-title: "VPS: Valheim Dedicated Server Windows Setup"
+title: "vServer: Valheim Dedicated Server Windows Setup"
 description: "Entdecke, wie du schnell und einfach einen Valheim Dedicated Server auf deinem VPS oder Dedicated Server einrichtest → Jetzt mehr erfahren"
 sidebar_label: Valheim
 services:

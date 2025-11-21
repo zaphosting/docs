@@ -1,6 +1,6 @@
 ---
 id: vserver-linux-rsync
-title: "VPS: Linux-Server mit Rsync sichern"
+title: "vServer: Linux-Server mit Rsync sichern"
 description: "Lerne, wie du effiziente inkrementelle Backups mit Rsync für lokale oder entfernte Datensynchronisation erstellst → Jetzt mehr erfahren"
 sidebar_label: Backups mit Rsync erstellen
 services:

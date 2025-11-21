@@ -1,6 +1,6 @@
 ---
 id: vserver-network-analysis-winmtr
-title: "VPS: Netzwerkprobleme mit WinMTR/MTR erkennen"
+title: "vServer: Netzwerkprobleme mit WinMTR/MTR erkennen"
 description: "Entdecke, wie du Netzwerkprobleme durch Analyse von Aus- und Rückweg diagnostizierst, um Verbindungsstabilität und Performance zu verbessern → Jetzt mehr erfahren"
 sidebar_label: Netzwerkprobleme
 services:

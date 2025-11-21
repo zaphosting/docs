@@ -1,6 +1,6 @@
 ---
 id: vserver-linux-gitlab
-title: "VPS: GitLab auf Linux installieren"
+title: "vServer: GitLab auf Linux installieren"
 description: "Entdecke, wie du GitLab effizient auf Linux einrichtest, um DevOps-Workflows zu optimieren und die Teamzusammenarbeit zu verbessern → Jetzt mehr erfahren"
 sidebar_label: GitLab installieren
 services:
