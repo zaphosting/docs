@@ -8,7 +8,9 @@ const openai = new OpenAI({
 });
 
 const SOURCE_DIR = 'docs';
-const TARGET_LANGUAGES = ['de', 'fr', 'es', 'ar', 'pt', 'th', 'pl', 'ja'];
+const TARGET_LANGUAGES = ['de', 'fr', 'es', 'ar', 'pt', 'th', 'pl', 'ja', 'it', 'sv', 'nl'];
+
+const CONCURRENCY = 5;
 
 let totalPromptTokens = 0;
 let totalCompletionTokens = 0;
@@ -64,9 +66,6 @@ function getAllMarkdownFiles() {
 async function translateContent(content, targetLang) {
   const systemPrompt = buildSystemPrompt(targetLang);
 
-  // console.log(`\n--- DEBUG: Prompt for ${targetLang} ---`);
-  // console.log(systemPrompt);
-
   const response = await openai.chat.completions.create({
     model: 'gpt-4.1-mini',
     messages: [
@@ -91,17 +90,52 @@ async function translateContent(content, targetLang) {
   return response.choices[0].message.content;
 }
 
+async function runWithConcurrency(tasks, worker, concurrency) {
+  let index = 0;
+
+  async function next() {
+    const current = index++;
+    if (current >= tasks.length) return;
+    const task = tasks[current];
+    await worker(task);
+    await next();
+  }
+
+  const workers = [];
+  const workerCount = Math.min(concurrency, tasks.length);
+  for (let i = 0; i < workerCount; i++) {
+    workers.push(next());
+  }
+  await Promise.all(workers);
+}
+
 async function main() {
   const changedFiles = getChangedMarkdownFiles();
-  console.log(`Found ${changedFiles.length} changed markdown files`);
+  console.log(`Found ${changedFiles.length} markdown files to translate`);
+
+  const tasks = [];
 
   for (const file of changedFiles) {
     const content = fs.readFileSync(file, 'utf8');
     const relPath = path.relative(SOURCE_DIR, file);
 
     for (const lang of TARGET_LANGUAGES) {
-      console.log(`Translating ${file} to ${lang}...`);
+      tasks.push({
+        file,
+        relPath,
+        lang,
+        content
+      });
+    }
+  }
 
+  console.log(`Created ${tasks.length} translation tasks`);
+  console.log(`Running with concurrency = ${CONCURRENCY}`);
+
+  await runWithConcurrency(
+    tasks,
+    async ({ file, relPath, lang, content }) => {
+      console.log(`Translating ${file} to ${lang}...`);
       try {
         const translatedContent = await translateContent(content, lang);
 
@@ -114,13 +148,12 @@ async function main() {
 
         fs.mkdirSync(path.dirname(outputFile), { recursive: true });
         fs.writeFileSync(outputFile, translatedContent);
-
-        await new Promise(resolve => setTimeout(resolve, 1000));
       } catch (error) {
         console.error(`Error translating ${file} to ${lang}:`, error);
       }
-    }
-  }
+    },
+    CONCURRENCY
+  );
 
   console.log('\n--- Translation Token Usage ---');
   console.log(`Prompt tokens:     ${totalPromptTokens}`);
