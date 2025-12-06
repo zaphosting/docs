@@ -8,7 +8,7 @@ const openai = new OpenAI({
 });
 
 const SOURCE_DIR = 'docs';
-const TARGET_LANGUAGES = ['it', 'sv', 'nl'];
+const TARGET_LANGUAGES = ['de', 'fr', 'es', 'ar', 'pt', 'th', 'pl', 'ja', 'it', 'sv', 'nl'];
 
 const CONCURRENCY = 5;
 
