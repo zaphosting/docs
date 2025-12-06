@@ -1,18 +1,18 @@
 {
   "service.vserver.title": {
-    "message": "خادم افتراضي خاص",
+    "message": "VPS",
     "description": "Product name for the gameserver product"
   },
   "service.vserver.path": {
-    "message": "{marketingSite}/{language}/vps-hosting/",
+    "message": "{marketingSite}/vps-hosting/",
     "description": "URL path for the VPS product"
   },
   "service.dedicated.title": {
-    "message": "dedicated server",
+    "message": "سيرفر مخصص",
     "description": "Product name for the dedicated server product"
   },
   "service.dedicated.path": {
-    "message": "{marketingSite}/{language}/تأجير-السيرفرات-المخصصة/",
+    "message": "{marketingSite}/dedicated-server-hosting/",
     "description": "URL path for the dedicated server product"
   },
   "service.domain.title": {
@@ -20,23 +20,23 @@
     "description": "Product name for the domain product"
   },
   "service.domain.path": {
-    "message": "{marketingSite}/{language}/domain-check/",
+    "message": "{marketingSite}/domain-check/",
     "description": "URL path for the domain product"
   },
   "service.webspace.title": {
-    "message": "webspace",
+    "message": "استضافة مواقع",
     "description": "Product name for the webspace product"
   },
   "service.webspace.path": {
-    "message": "{marketingSite}/{language}/تأجير-استضافة-مواقع/",
+    "message": "{marketingSite}/webhosting-rent-a-webspace/",
     "description": "URL path for the webspace product"
   },
   "service.voiceserver.title": {
-    "message": "voice server",
+    "message": "سيرفر صوتي",
     "description": "Product name for the voiceserver product"
   },
   "service.voiceserver.path": {
-    "message": "{marketingSite}/{language}/teamspeak-3-تأجير-سيرفر-صوتي/",
+    "message": "{marketingSite}/teamspeak-3-server-hosting/",
     "description": "URL path for the voiceserver product"
   },
   "service.voicebot.title": {
@@ -44,7 +44,7 @@
     "description": "Product name for the voicebot product"
   },
   "service.voicebot.path": {
-    "message": "{marketingSite}/{language}/تأجير-سيرفر-ألعاب-teamspeak-3/",
+    "message": "{marketingSite}/teamspeak-3-server-hosting/",
     "description": "URL path for the voicebot product"
   },
   "service.storage.title": {
@@ -52,7 +52,7 @@
     "description": "Product name for the storage product"
   },
   "service.storage.path": {
-    "message": "{marketingSite}/{language}/shop/product/premium-storage/",
+    "message": "{marketingSite}/shop/product/premium-storage/",
     "description": "URL path for the storage product"
   },
   "service.fivemupvotes.title": {
@@ -60,7 +60,7 @@
     "description": "Product name for the storage product"
   },
   "service.fivemupvotes.path": {
-    "message": "{marketingSite}/{language}/shop/product/cloud-gameserver/discord-bot/",
+    "message": "{marketingSite}/shop/product/cloud-gameserver/discord-bot/",
     "description": "URL path for the storage product"
   },
   "service.fivemupvotesburst.title": {
@@ -72,7 +72,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver.path": {
-    "message": "{marketingSite}/{language}/تأجير-سيرفر-ألعاب/",
+    "message": "{marketingSite}/gameserver-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-7d2d.title": {
@@ -80,7 +80,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-7d2d.path": {
-    "message": "{marketingSite}/{language}/7-days-to-die-تأجير-الخوادم/",
+    "message": "{marketingSite}/7-days-to-die-server-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-abioticfactor.title": {
@@ -88,7 +88,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-abioticfactor.path": {
-    "message": "{marketingSite}/{language}/abiotic-factor-server-hosting/",
+    "message": "{marketingSite}/abiotic-factor-server-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-afterinfection.title": {
@@ -96,7 +96,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-afterinfection.path": {
-    "message": "{marketingSite}/{language}/afterinfection-تأجير-الخوادم/",
+    "message": "{marketingSite}/afterinfection-server-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-amongus.title": {
@@ -104,7 +104,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-amongus.path": {
-    "message": "{marketingSite}/{language}/تأجير-سيرفر-ألعاب-among-us/",
+    "message": "{marketingSite}/among-us-server-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-animalia-survival.title": {
@@ -112,7 +112,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-animalia-survival.path": {
-    "message": "{marketingSite}/{language}/animalia-survival-سيرفر-ألعاب-تأجير/",
+    "message": "{marketingSite}/animalia-survival-server-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-argo.title": {
@@ -120,7 +120,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-argo.path": {
-    "message": "{marketingSite}/{language}/تأجير-سيرفر-أرغو/",
+    "message": "{marketingSite}/argo-server-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-ark.title": {
@@ -128,7 +128,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-ark.path": {
-    "message": "{marketingSite}/{language}/تأجير-سيرفر-ألعاب-ark-survival-evolved/",
+    "message": "{marketingSite}/ark-survival-evolved-server-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-arma3.title": {
@@ -136,7 +136,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-arma3.path": {
-    "message": "{marketingSite}/{language}/arma-3-تأجير-سيرفر-ألعاب/",
+    "message": "{marketingSite}/arma-3-server-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-arma-reforger.title": {
@@ -144,7 +144,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-arma-reforger.path": {
-    "message": "{marketingSite}/{language}/arma-reforger-تأجير-سيرفر-ألعاب/",
+    "message": "{marketingSite}/arma-reforger-server-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-assettocorsa.title": {
@@ -152,7 +152,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-assettocorsa.path": {
-    "message": "{marketingSite}/{language}/assetto-corsa-server-hosting/",
+    "message": "{marketingSite}/assetto-corsa-server-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-assetto-competizione.title": {
@@ -160,7 +160,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-assetto-competizione.path": {
-    "message": "{marketingSite}/{language}/استضافة-سيرفر-ألعاب-assetto-corsa-competizione/",
+    "message": "{marketingSite}/assetto-corsa-competizione-server-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-astrocolony.title": {
@@ -168,7 +168,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-astrocolony.path": {
-    "message": "{marketingSite}/{language}/astro-colony-تأجير-سيرفر-ألعاب/",
+    "message": "{marketingSite}/astro-colony-server-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-astroneer.title": {
@@ -176,7 +176,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-astroneer.path": {
-    "message": "{marketingSite}/{language}/تأجير-سيرفر-أسترونير/",
+    "message": "{marketingSite}/astroneer-server-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-avorion.title": {
@@ -184,7 +184,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-avorion.path": {
-    "message": "{marketingSite}/{language}/avorion-تأجير-سيرفر-ألعاب/",
+    "message": "{marketingSite}/avorion-server-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-ats.title": {
@@ -192,7 +192,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-ats.path": {
-    "message": "{marketingSite}/{language}/تأجير-سيرفر-ألعاب-american-truck-simulator/",
+    "message": "{marketingSite}/american-truck-simulator-server-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-bananashooter.title": {
@@ -200,7 +200,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-bananashooter.path": {
-    "message": "{marketingSite}/{language}/banana-shooter-server-hosting/",
+    "message": "{marketingSite}/banana-shooter-server-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-barotrauma.title": {
@@ -208,7 +208,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-barotrauma.path": {
-    "message": "{marketingSite}/{language}/تأجير-سيرفر-ألعاب-barotrauma/",
+    "message": "{marketingSite}/barotrauma-server-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-battalion1944.title": {
@@ -216,7 +216,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-battalion1944.path": {
-    "message": "{marketingSite}/{language}/battalion-1944-تأجير-سيرفر-ألعاب/",
+    "message": "{marketingSite}/battalion-1944-server-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-battlegrounds3.title": {
@@ -224,7 +224,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-battlegrounds3.path": {
-    "message": "{marketingSite}/{language}/battle-grounds-iii-تأجير-سيرفر-ألعاب/",
+    "message": "{marketingSite}/battle-grounds-iii-server-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-beammp.title": {
@@ -232,7 +232,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-beammp.path": {
-    "message": "{marketingSite}/{language}/تأجير-سيرفر-ألعاب-beammp/",
+    "message": "{marketingSite}/beammp-server-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-bob.title": {
@@ -240,7 +240,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-bob.path": {
-    "message": "{marketingSite}/{language}/تأجير-سيرفر-ألعاب-beasts-of-bermuda/",
+    "message": "{marketingSite}/beasts-of-bermuda-server-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-beyondthewire.title": {
@@ -248,7 +248,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-beyondthewire.path": {
-    "message": "{marketingSite}/{language}/beyond-the-wire-تأجير-سيرفر-ألعاب/",
+    "message": "{marketingSite}/beyond-the-wire-server-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-brokeprotocol.title": {
@@ -256,7 +256,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-brokeprotocol.path": {
-    "message": "{marketingSite}/{language}/broke-protocol-تأجير-سيرفر-ألعاب/",
+    "message": "{marketingSite}/broke-protocol-server-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-citadel-forgedwithfire.title": {
@@ -264,7 +264,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-citadel-forgedwithfire.path": {
-    "message": "{marketingSite}/{language}/citadel-forged-with-fire-تأجير-الخوادم/",
+    "message": "{marketingSite}/citadel-forged-with-fire-server-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-colonysurvival.title": {
@@ -272,7 +272,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-colonysurvival.path": {
-    "message": "{marketingSite}/{language}/تأجير-سيرفر-ألعاب-colony-survival/",
+    "message": "{marketingSite}/colony-survival-server-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-conan.title": {
@@ -280,7 +280,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-conan.path": {
-    "message": "{marketingSite}/{language}/conan-exiles-server-hosting/",
+    "message": "{marketingSite}/conan-exiles-server-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-contagion.title": {
@@ -288,7 +288,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-contagion.path": {
-    "message": "{marketingSite}/{language}/contagion-تأجير-سيرفر-ألعاب/",
+    "message": "{marketingSite}/contagion-server-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-corekeeper.title": {
@@ -296,7 +296,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-corekeeper.path": {
-    "message": "{marketingSite}/{language}/core-keeper-تأجير-سيرفر-ألعاب/",
+    "message": "{marketingSite}/core-keeper-server-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-craftopia.title": {
@@ -304,7 +304,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-craftopia.path": {
-    "message": "{marketingSite}/{language}/تأجير-سيرفر-ألعاب-craftopia/",
+    "message": "{marketingSite}/craftopia-server-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-cryofall.title": {
@@ -312,7 +312,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-cryofall.path": {
-    "message": "{marketingSite}/{language}/تأجير-سيرفر-ألعاب-cryofall/",
+    "message": "{marketingSite}/cryofall-server-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-cs16.title": {
@@ -320,7 +320,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-cs16.path": {
-    "message": "{marketingSite}/{language}/تأجير-سيرفر-ألعاب-Counter-Strike-1-6/",
+    "message": "{marketingSite}/counter-strike-1-6-server-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-cs2.title": {
@@ -328,7 +328,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-cs2.path": {
-    "message": "{marketingSite}/{language}/تأجير-سيرفر-ألعاب-Counter-Strike-2/",
+    "message": "{marketingSite}/counter-strike-2-server-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-css.title": {
@@ -336,7 +336,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-css.path": {
-    "message": "{marketingSite}/{language}/css-تأجير-الخوادم/",
+    "message": "{marketingSite}/css-server-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-dayofinfamy.title": {
@@ -344,7 +344,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-dayofinfamy.path": {
-    "message": "{marketingSite}/{language}/تأجير-سيرفر-ألعاب-day-of-infamy/",
+    "message": "{marketingSite}/day-of-infamy-server-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-dayz.title": {
@@ -352,7 +352,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-dayz.path": {
-    "message": "{marketingSite}/{language}/dayz-standalone-تأجير-سيرفر-ألعاب/",
+    "message": "{marketingSite}/dayz-standalone-server-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-ddracenetwork.title": {
@@ -360,7 +360,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-ddracenetwork.path": {
-    "message": "{marketingSite}/{language}/ddracenetwork-تأجير-سيرفر-ألعاب/",
+    "message": "{marketingSite}/ddracenetwork-server-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-deadlock.title": {
@@ -368,7 +368,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-deadlock.path": {
-    "message": "{marketingSite}/{language}/تأجير-سيرفر-deadlock/",
+    "message": "{marketingSite}/deadlock-server-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-deadpoly.title": {
@@ -376,7 +376,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-deadpoly.path": {
-    "message": "{marketingSite}/{language}/تأجير-سيرفر-ألعاب-deadpoly/",
+    "message": "{marketingSite}/deadpoly-server-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-dods.title": {
@@ -384,7 +384,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-dods.path": {
-    "message": "{marketingSite}/{language}/تأجير-سيرفر-ألعاب-day-of-defeat-source/",
+    "message": "{marketingSite}/day-of-defeat-source-server-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-dst.title": {
@@ -392,7 +392,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-dst.path": {
-    "message": "{marketingSite}/{language}/تأجير-سيرفر-ألعاب-don-t-starve-together/",
+    "message": "{marketingSite}/don-t-starve-together-server-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-eco.title": {
@@ -400,7 +400,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-eco.path": {
-    "message": "{marketingSite}/{language}/eco-global-survival-تأجير-سيرفر-ألعاب/",
+    "message": "{marketingSite}/eco-global-survival-server-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-empyrion.title": {
@@ -408,7 +408,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-empyrion.path": {
-    "message": "{marketingSite}/{language}/تأجير-سيرفر-ألعاب-empyrion/",
+    "message": "{marketingSite}/empyrion-server-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-enshrouded.title": {
@@ -416,7 +416,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-enshrouded.path": {
-    "message": "{marketingSite}/{language}/تأجير-سيرفر-ألعاب-enshrouded/",
+    "message": "{marketingSite}/enshrouded-server-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-ets2.title": {
@@ -424,7 +424,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-ets2.path": {
-    "message": "{marketingSite}/{language}/تأجير-سيرفر-ألعاب-euro-truck-simulator-2/",
+    "message": "{marketingSite}/euro-truck-simulator-2-server-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-factorio.title": {
@@ -432,7 +432,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-factorio.path": {
-    "message": "{marketingSite}/{language}/factorio-server-hosting/",
+    "message": "{marketingSite}/factorio-server-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-fivem.title": {
@@ -440,7 +440,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-fivem.path": {
-    "message": "{marketingSite}/{language}/fivem-server-hosting/",
+    "message": "{marketingSite}/fivem-server-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-foundry.title": {
@@ -448,7 +448,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-foundry.path": {
-    "message": "{marketingSite}/{language}/تأجير-سيرفر-مخصص/",
+    "message": "{marketingSite}/foundry-server-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-gmod.title": {
@@ -456,7 +456,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-gmod.path": {
-    "message": "{marketingSite}/{language}/garrys-mod-server-hosting/",
+    "message": "{marketingSite}/garrys-mod-server-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-groundbranch.title": {
@@ -464,7 +464,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-groundbranch.path": {
-    "message": "{marketingSite}/{language}/تأجير-سيرفر-ألعاب-ground-branch/",
+    "message": "{marketingSite}/ground-branch-server-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-hl1.title": {
@@ -472,7 +472,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-hl1.path": {
-    "message": "{marketingSite}/{language}/تأجير-سيرفر-ألعاب-half-life-1/",
+    "message": "{marketingSite}/half-life-1-server-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-hl2.title": {
@@ -480,7 +480,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-hl2.path": {
-    "message": "{marketingSite}/{language}/تأجير-سيرفر-ألعاب-half-life-2/",
+    "message": "{marketingSite}/half-life-2-server-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-holdfast.title": {
@@ -488,7 +488,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-holdfast.path": {
-    "message": "{marketingSite}/{language}/holdfast-nations-at-war-تأجير-سيرفر-ألعاب/",
+    "message": "{marketingSite}/holdfast-nations-at-war-server-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-humanitz.title": {
@@ -496,7 +496,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-humanitz.path": {
-    "message": "{marketingSite}/{language}/humanitz-تأجير-الخوادم/",
+    "message": "{marketingSite}/humanitz-server-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-hurtworld.title": {
@@ -504,7 +504,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-hurtworld.path": {
-    "message": "{marketingSite}/{language}/تأجير-سيرفر-ألعاب-hurtworld/",
+    "message": "{marketingSite}/hurtworld-server-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-icarus.title": {
@@ -512,7 +512,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-icarus.path": {
-    "message": "{marketingSite}/{language}/icarus-تأجير-الخوادم/",
+    "message": "{marketingSite}/icarus-server-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-insurgency.title": {
@@ -520,7 +520,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-insurgency.path": {
-    "message": "{marketingSite}/{language}/تأجير-سيرفر-ألعاب-insurgency-sandstorm/",
+    "message": "{marketingSite}/insurgency-sandstorm-server-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-ironarmada.title": {
@@ -528,7 +528,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-ironarmada.path": {
-    "message": "{marketingSite}/{language}/iron-armada-تأجير-سيرفر-ألعاب/",
+    "message": "{marketingSite}/iron-armada-server-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-jol.title": {
@@ -536,7 +536,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-jol.path": {
-    "message": "{marketingSite}/{language}/رحلة-حياة-تأجير-الخوادم/",
+    "message": "{marketingSite}/journey-of-life-server-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-killingfloor2.title": {
@@ -544,7 +544,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-killingfloor2.path": {
-    "message": "{marketingSite}/{language}/killing-floor-2-تأجير-سيرفر-ألعاب/",
+    "message": "{marketingSite}/killing-floor-2-server-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-lastoasis.title": {
@@ -552,7 +552,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-lastoasis.path": {
-    "message": "{marketingSite}/{language}/last-oasis-تأجير-سيرفر-ألعاب/",
+    "message": "{marketingSite}/last-oasis-server-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-leap.title": {
@@ -560,7 +560,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-leap.path": {
-    "message": "{marketingSite}/{language}/تأجير-سيرفر-ألعاب/",
+    "message": "{marketingSite}/leap-server-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-l4d2.title": {
@@ -568,7 +568,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-l4d2.path": {
-    "message": "{marketingSite}/{language}/left-4-dead-2-تأجير-سيرفر-ألعاب/",
+    "message": "{marketingSite}/left-4-dead-2-server-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-longvinter.title": {
@@ -576,7 +576,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-longvinter.path": {
-    "message": "{marketingSite}/{language}/longvinter-تأجير-الخوادم/",
+    "message": "{marketingSite}/longvinter-server-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-minecraft.title": {
@@ -584,7 +584,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-minecraft.path": {
-    "message": "{marketingSite}/{language}/تأجير-سيرفر-ألعاب-minecraft/",
+    "message": "{marketingSite}/minecraft-server-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-minetest.title": {
@@ -592,7 +592,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-minetest.path": {
-    "message": "{marketingSite}/{language}/minetest-server-hosting/",
+    "message": "{marketingSite}/minetest-server-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-miscreated.title": {
@@ -600,7 +600,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-miscreated.path": {
-    "message": "{marketingSite}/{language}/miscreated-تأجير-سيرفر-ألعاب/",
+    "message": "{marketingSite}/miscreated-server-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-motortown.title": {
@@ -608,7 +608,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-motortown.path": {
-    "message": "{marketingSite}/{language}/تأجير-سيرفر-لعبة-motor-town-behind-the-wheel/",
+    "message": "{marketingSite}/motor-town-behind-the-wheel-server-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-mountandblade.title": {
@@ -616,7 +616,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-mountandblade.path": {
-    "message": "{marketingSite}/{language}/تأجير-سيرفر-ألعاب-mount-and-blade/",
+    "message": "{marketingSite}/mount-and-blade-server-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-mta.title": {
@@ -624,7 +624,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-mta.path": {
-    "message": "{marketingSite}/{language}/تأجير-سيرفر-ألعاب/",
+    "message": "{marketingSite}/mta-server-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-moe.title": {
@@ -632,7 +632,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-moe.path": {
-    "message": "{marketingSite}/{language}/myth-of-empires-تأجير-سيرفر-ألعاب/",
+    "message": "{marketingSite}/myth-of-empires-server-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-necesse.title": {
@@ -640,7 +640,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-necesse.path": {
-    "message": "{marketingSite}/{language}/تأجير-الخوادم-نيكيسي/",
+    "message": "{marketingSite}/necesse-server-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-nstp.title": {
@@ -648,7 +648,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-nstp.path": {
-    "message": "{marketingSite}/{language}/never-split-the-party-تأجير-الخوادم/",
+    "message": "{marketingSite}/never-split-the-party-server-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-nienix.title": {
@@ -656,7 +656,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-nienix.path": {
-    "message": "{marketingSite}/{language}/nienix-تأجير-الخوادم/",
+    "message": "{marketingSite}/nienix-server-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-nmrih.title": {
@@ -664,7 +664,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-nmrih.path": {
-    "message": "{marketingSite}/{language}/لا-مزید-مساحة-في-سيرفر-سيرفر-ألعاب-تأجير/",
+    "message": "{marketingSite}/no-more-room-in-hell-server-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-noonesurvived.title": {
@@ -672,7 +672,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-noonesurvived.path": {
-    "message": "{marketingSite}/{language}/لم ينجُ أحد في تأجير الخوادم/",
+    "message": "{marketingSite}/no-one-survived-server-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-ohol.title": {
@@ -680,7 +680,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-ohol.path": {
-    "message": "{marketingSite}/{language}/تأجير-سيرفر-واحد-ساعة-واحد-حياة/",
+    "message": "{marketingSite}/one-hour-one-life-server-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-openmp.title": {
@@ -688,7 +688,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-openmp.path": {
-    "message": "{marketingSite}/{language}/open-mp-server-hosting/",
+    "message": "{marketingSite}/open-mp-server-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-openttd.title": {
@@ -696,7 +696,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-openttd.path": {
-    "message": "{marketingSite}/{language}/openttd-تأجير-سيرفر-ألعاب/",
+    "message": "{marketingSite}/openttd-server-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-ohd.title": {
@@ -704,7 +704,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-ohd.path": {
-    "message": "{marketingSite}/{language}/operation-harsh-doorstop-server-hosting/",
+    "message": "{marketingSite}/operation-harsh-doorstop-server-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-ootow.title": {
@@ -712,7 +712,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-ootow.path": {
-    "message": "{marketingSite}/{language}/تأجير-سيرفر-ألعاب-outlaws-of-the-old-west/",
+    "message": "{marketingSite}/outlaws-of-the-old-west-server-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-palworld.title": {
@@ -720,7 +720,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-palworld.path": {
-    "message": "{marketingSite}/{language}/palworld-تأجير-سيرفر-ألعاب/",
+    "message": "{marketingSite}/palworld-server-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-pathoftitans.title": {
@@ -728,7 +728,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-pathoftitans.path": {
-    "message": "{marketingSite}/{language}/تأجير-سيرفر-ألعاب-path-of-titans/",
+    "message": "{marketingSite}/path-of-titans-server-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-pixark.title": {
@@ -736,7 +736,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-pixark.path": {
-    "message": "{marketingSite}/{language}/pixark-تأجير-سيرفر-ألعاب/",
+    "message": "{marketingSite}/pixark-server-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-portalknights.title": {
@@ -744,7 +744,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-portalknights.path": {
-    "message": "{marketingSite}/{language}/portal-knights-تأجير-سيرفر-ألعاب/",
+    "message": "{marketingSite}/portal-knights-server-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-projectzomboid.title": {
@@ -752,7 +752,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-projectzomboid.path": {
-    "message": "{marketingSite}/{language}/تأجير-سيرفر-ألعاب-project-zomboid/",
+    "message": "{marketingSite}/project-zomboid-server-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-redm.title": {
@@ -760,7 +760,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-redm.path": {
-    "message": "{marketingSite}/{language}/تأجير-سيرفر-ألعاب-redm/",
+    "message": "{marketingSite}/redm-server-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-reignofkings.title": {
@@ -768,7 +768,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-reignofkings.path": {
-    "message": "{marketingSite}/{language}/تأجير-سيرفر-ألعاب-reign-of-kings/",
+    "message": "{marketingSite}/reign-of-kings-server-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-rimworldtogether.title": {
@@ -776,7 +776,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-rimworldtogether.path": {
-    "message": "{marketingSite}/{language}/rimworld-together-تأجير-سيرفر-ألعاب/",
+    "message": "{marketingSite}/rimworld-together-server-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-risingstorm2.title": {
@@ -784,7 +784,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-risingstorm2.path": {
-    "message": "{marketingSite}/{language}/rising-storm-2-تأجير-سيرفر-ألعاب/",
+    "message": "{marketingSite}/rising-storm-2-server-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-risingworld.title": {
@@ -792,7 +792,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-risingworld.path": {
-    "message": "{marketingSite}/{language}/تأجير-سيرفر-ألعاب-rising-world/",
+    "message": "{marketingSite}/rising-world-server-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-riskofrain2.title": {
@@ -800,7 +800,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-riskofrain2.path": {
-    "message": "{marketingSite}/{language}/تأجير-سيرفر-ألعاب-risk-of-rain-2/",
+    "message": "{marketingSite}/risk-of-rain-2-server-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-rust.title": {
@@ -808,7 +808,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-rust.path": {
-    "message": "{marketingSite}/{language}/تأجير-سيرفر-ألعاب-rust/",
+    "message": "{marketingSite}/rust-server-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-sanctuaryisland.title": {
@@ -816,7 +816,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-sanctuaryisland.path": {
-    "message": "{marketingSite}/{language}/sanctuary-island-تأجير-سيرفر-ألعاب/",
+    "message": "{marketingSite}/sanctuary-island-server-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-satisfactory.title": {
@@ -824,7 +824,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-satisfactory.path": {
-    "message": "{marketingSite}/{language}/تأجير-سيرفر-ألعاب-satisfactory/",
+    "message": "{marketingSite}/satisfactory-server-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-scp5k.title": {
@@ -832,7 +832,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-scp5k.path": {
-    "message": "{marketingSite}/{language}/scp-5k-تأجير-سيرفر-ألعاب/",
+    "message": "{marketingSite}/scp-5k-server-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-scp-containmentbreach.title": {
@@ -840,7 +840,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-scp-containmentbreach.path": {
-    "message": "{marketingSite}/{language}/scp-containment-breach-تأجير-سيرفر-ألعاب/",
+    "message": "{marketingSite}/scp-containment-breach-server-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-scp-escapetogether.title": {
@@ -848,7 +848,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-scp-escapetogether.path": {
-    "message": "{marketingSite}/{language}/scp-escape-together-تأجير-سيرفر-ألعاب/",
+    "message": "{marketingSite}/scp-escape-together-server-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-scp.title": {
@@ -856,7 +856,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-scp.path": {
-    "message": "{marketingSite}/{language}/scp-secret-laboratory-تأجير-سيرفر-ألعاب/",
+    "message": "{marketingSite}/scp-secret-laboratory-server-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-scum.title": {
@@ -864,7 +864,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-scum.path": {
-    "message": "{marketingSite}/{language}/scum-تأجير-سيرفر-ألعاب/",
+    "message": "{marketingSite}/scum-server-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-soldat.title": {
@@ -872,7 +872,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-soldat.path": {
-    "message": "{marketingSite}/{language}/تأجير-سيرفر-ألعاب-soldat/",
+    "message": "{marketingSite}/soldat-server-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-sonsoftheforest.title": {
@@ -880,7 +880,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-sonsoftheforest.path": {
-    "message": "{marketingSite}/{language}/تأجير-سيرفر-ألعاب-sons-of-the-forest/",
+    "message": "{marketingSite}/sons-of-the-forest-server-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-soulmask.title": {
@@ -888,7 +888,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-soulmask.path": {
-    "message": "{marketingSite}/{language}/soulmask-تأجير-سيرفر-ألعاب/",
+    "message": "{marketingSite}/soulmask-server-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-spaceengineers.title": {
@@ -896,7 +896,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-spaceengineers.path": {
-    "message": "{marketingSite}/{language}/تأجير-سيرفر-ألعاب-space-engineers/",
+    "message": "{marketingSite}/space-engineers-server-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-squad.title": {
@@ -904,7 +904,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-squad.path": {
-    "message": "{marketingSite}/{language}/تأجير-سيرفر-ألعاب/",
+    "message": "{marketingSite}/squad-server-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-starbound.title": {
@@ -912,7 +912,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-starbound.path": {
-    "message": "{marketingSite}/{language}/استضافة-سيرفر-ألعاب-starbound/",
+    "message": "{marketingSite}/starbound-server-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-starmade.title": {
@@ -920,7 +920,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-starmade.path": {
-    "message": "{marketingSite}/{language}/starmade-تأجير-سيرفر-ألعاب/",
+    "message": "{marketingSite}/starmade-server-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-staxel.title": {
@@ -928,7 +928,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-staxel.path": {
-    "message": "{marketingSite}/{language}/staxel-server-hosting/",
+    "message": "{marketingSite}/staxel-server-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-stormworks.title": {
@@ -936,7 +936,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-stormworks.path": {
-    "message": "{marketingSite}/{language}/تأجير-سيرفر-ألعاب-stormworks/",
+    "message": "{marketingSite}/stormworks-server-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-subsistence.title": {
@@ -944,7 +944,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-subsistence.path": {
-    "message": "{marketingSite}/{language}/تأجير-سيرفر-مخصص/",
+    "message": "{marketingSite}/subsistence-server-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-sunkenland.title": {
@@ -952,7 +952,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-sunkenland.path": {
-    "message": "{marketingSite}/{language}/sunkenland-تأجير-سيرفر-ألعاب/",
+    "message": "{marketingSite}/sunkenland-server-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-tf2.title": {
@@ -960,7 +960,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-tf2.path": {
-    "message": "{marketingSite}/{language}/team-fortress-2-تأجير-سيرفر-ألعاب/",
+    "message": "{marketingSite}/team-fortress-2-server-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-teeworlds.title": {
@@ -968,7 +968,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-teeworlds.path": {
-    "message": "{marketingSite}/{language}/teeworlds-server-hosting/",
+    "message": "{marketingSite}/teeworlds-server-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-terraria.title": {
@@ -976,7 +976,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-terraria.path": {
-    "message": "{marketingSite}/{language}/تأجير-سيرفر-ألعاب-terraria/",
+    "message": "{marketingSite}/terraria-server-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-terratech-worlds.title": {
@@ -984,7 +984,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-terratech-worlds.path": {
-    "message": "{marketingSite}/{language}/terratech-worlds-تأجير-سيرفر-ألعاب/",
+    "message": "{marketingSite}/terratech-worlds-server-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-thebus.title": {
@@ -992,7 +992,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-thebus.path": {
-    "message": "{marketingSite}/{language}/تأجير-سيرفر-الأتوبيس/",
+    "message": "{marketingSite}/the-bus-server-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-thefront.title": {
@@ -1000,7 +1000,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-thefront.path": {
-    "message": "{marketingSite}/{language}/the-front-server-hosting/",
+    "message": "{marketingSite}/the-front-server-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-theisle.title": {
@@ -1008,7 +1008,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-theisle.path": {
-    "message": "{marketingSite}/{language}/تأجير-سيرفر-ألعاب-the-isle/",
+    "message": "{marketingSite}/the-isle-server-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-lotr-rtm.title": {
@@ -1016,7 +1016,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-lotr-rtm.path": {
-    "message": "{marketingSite}/{language}/lotr-return-to-moria-تأجير-سيرفر-ألعاب/",
+    "message": "{marketingSite}/lotr-return-to-moria-server-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-unturned.title": {
@@ -1024,7 +1024,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-unturned.path": {
-    "message": "{marketingSite}/{language}/unturned-3-تأجير-سيرفر-ألعاب/",
+    "message": "{marketingSite}/unturned-3-server-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-vrising.title": {
@@ -1032,7 +1032,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-vrising.path": {
-    "message": "{marketingSite}/{language}/تأجير-سيرفر-ألعاب-v-rising/",
+    "message": "{marketingSite}/v-rising-server-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-valheim.title": {
@@ -1040,7 +1040,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-valheim.path": {
-    "message": "{marketingSite}/{language}/valheim-server-hosting/",
+    "message": "{marketingSite}/valheim-server-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-vein.title": {
@@ -1048,7 +1048,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-vein.path": {
-    "message": "{marketingSite}/{language}/تأجير-سيرفر-الألعاب/",
+    "message": "{marketingSite}/vein-server-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-veloren.title": {
@@ -1056,7 +1056,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-veloren.path": {
-    "message": "{marketingSite}/{language}/تأجير-سيرفر-ألعاب-veloren/",
+    "message": "{marketingSite}/veloren-server-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-vintagestory.title": {
@@ -1064,7 +1064,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-vintagestory.path": {
-    "message": "{marketingSite}/{language}/vintage-story-تأجير-سيرفر-ألعاب/",
+    "message": "{marketingSite}/vintage-story-server-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-voyagers-of-nera.title": {
@@ -1072,7 +1072,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-voyagers-of-nera.path": {
-    "message": "{marketingSite}/{language}/voyagers-of-nera-تأجير-الخوادم/",
+    "message": "{marketingSite}/voyagers-of-nera-server-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-wreckfest.title": {
@@ -1080,7 +1080,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-wreckfest.path": {
-    "message": "{marketingSite}/{language}/تأجير-سيرفر-ألعاب-wreckfest/",
+    "message": "{marketingSite}/wreckfest-server-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-wreckfest2.title": {
@@ -1088,7 +1088,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-wreckfest2.path": {
-    "message": "{marketingSite}/{language}/تأجير-سيرفر-ألعاب-wreckfest-2/",
+    "message": "{marketingSite}/wreckfest-2-server-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-wurmunlimited.title": {
@@ -1096,7 +1096,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-wurmunlimited.path": {
-    "message": "{marketingSite}/{language}/استضافة-سيرفر-ألعاب-wurm-unlimited/",
+    "message": "{marketingSite}/wurm-unlimited-server-hosting/",
     "description": "URL path for the gameserver product"
   },
   "inlinevoucher.title": {

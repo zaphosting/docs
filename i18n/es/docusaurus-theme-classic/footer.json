@@ -1,6 +1,6 @@
 {
   "link.title.Rent a Server": {
-    "message": "Alquilar un servidor",
+    "message": "Rentar un servidor",
     "description": "The title of the footer links column with title=Rent a Server in the footer"
   },
   "link.title.Social": {
@@ -16,31 +16,31 @@
     "description": "The title of the footer links column with title=Legal in the footer"
   },
   "link.item.label.Rent a VPS": {
-    "message": "Alquilar un VPS",
+    "message": "Rentar un VPS",
     "description": "The label of footer link with label=Rent a VPS linking to https://zap-hosting.com/en/rent-a-virtual-server/"
   },
   "link.item.label.Rent a RootServer": {
-    "message": "Alquilar un RootServer",
+    "message": "Rentar un servidor root",
     "description": "The label of footer link with label=Rent a RootServer linking to https://zap-hosting.com/en/rent-a-root-server/"
   },
   "link.item.label.Rent a Gameserver": {
-    "message": "Alquilar un servidor de juegos",
+    "message": "Rentar un servidor de juegos",
     "description": "The label of footer link with label=Rent a Gameserver linking to https://zap-hosting.com/en/rent-a-gameserver/"
   },
   "link.item.label.Rent a TeamSpeak server": {
-    "message": "Alquilar un servidor de TeamSpeak",
+    "message": "Rentar un servidor de TeamSpeak",
     "description": "The label of footer link with label=Rent a TeamSpeak server linking to https://zap-hosting.com/en/rent-a-teamspeak-3-server/"
   },
   "link.item.label.Rent a Discord Musicbot": {
-    "message": "Alquila un Musicbot de Discord",
+    "message": "Renta un Musicbot de Discord",
     "description": "The label of footer link with label=Rent a Discord Musicbot linking to https://zap-hosting.com/en/rent-a-discord-musicbot/"
   },
   "link.item.label.Rent a Domain": {
-    "message": "Alquilar un dominio",
+    "message": "Rentar un dominio",
     "description": "The label of footer link with label=Rent a Domain linking to https://zap-hosting.com/en/domain-check/"
   },
   "link.item.label.Rent a Webspace": {
-    "message": "Alquilar un hosting web",
+    "message": "Rentar un hosting web",
     "description": "The label of footer link with label=Rent a Webspace linking to https://zap-hosting.com/en/webhosting-rent-a-webspace/"
   },
   "link.item.label.X": {
@@ -84,7 +84,7 @@
     "description": "The label of footer link with label=Smokeping linking to https://smoky.zap-hosting.com/smokeping/"
   },
   "link.item.label.Terms of Service": {
-    "message": "Términos de Servicio",
+    "message": "Términos de servicio",
     "description": "The label of footer link with label=Terms of Service linking to https://zap-hosting.com/en/terms/"
   },
   "link.item.label.Imprint": {
@@ -92,7 +92,7 @@
     "description": "The label of footer link with label=Imprint linking to https://zap-hosting.com/en/imprint/"
   },
   "link.item.label.Privacy Policy": {
-    "message": "Política de Privacidad",
+    "message": "Política de privacidad",
     "description": "The label of footer link with label=Privacy Policy linking to https://zap-hosting.com/en/privacy-policy/"
   },
   "link.item.label.Security": {

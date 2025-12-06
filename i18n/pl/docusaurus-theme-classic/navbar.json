@@ -10,5 +10,25 @@
   "item.label.General": {
     "message": "Ogólne",
     "description": "Navbar item with label General"
+  },
+  "item.label.Gameserver": {
+    "message": "Serwer gier",
+    "description": "Navbar item with label Gameserver"
+  },
+  "item.label.VPS": {
+    "message": "VPS",
+    "description": "Navbar item with label VPS"
+  },
+  "item.label.Dedicated Server": {
+    "message": "Serwer dedykowany",
+    "description": "Navbar item with label Dedicated Server"
+  },
+  "item.label.Domain & Webspace": {
+    "message": "Domeny i hosting",
+    "description": "Navbar item with label Domain & Webspace"
+  },
+  "item.label.Voicebot & Voiceserver": {
+    "message": "Bot głosowy i serwer głosowy",
+    "description": "Navbar item with label Voicebot & Voiceserver"
   }
 }

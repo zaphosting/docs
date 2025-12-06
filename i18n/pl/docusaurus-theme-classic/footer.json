@@ -20,7 +20,7 @@
     "description": "The label of footer link with label=Rent a VPS linking to https://zap-hosting.com/en/rent-a-virtual-server/"
   },
   "link.item.label.Rent a RootServer": {
-    "message": "Wynajem RootServer",
+    "message": "Wynajem serwera dedykowanego",
     "description": "The label of footer link with label=Rent a RootServer linking to https://zap-hosting.com/en/rent-a-root-server/"
   },
   "link.item.label.Rent a Gameserver": {
@@ -32,7 +32,7 @@
     "description": "The label of footer link with label=Rent a TeamSpeak server linking to https://zap-hosting.com/en/rent-a-teamspeak-3-server/"
   },
   "link.item.label.Rent a Discord Musicbot": {
-    "message": "Wynajem Discord Musicbot",
+    "message": "Wynajem bota muzycznego Discord",
     "description": "The label of footer link with label=Rent a Discord Musicbot linking to https://zap-hosting.com/en/rent-a-discord-musicbot/"
   },
   "link.item.label.Rent a Domain": {

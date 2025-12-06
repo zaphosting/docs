@@ -24,7 +24,7 @@
     "description": "The label for category Minecraft in sidebar gameserverSidebar"
   },
   "sidebar.gameserverSidebar.category.First Steps": {
-    "message": "Getting Started",
+    "message": "Erste Schritte",
     "description": "The label for category First Steps in sidebar gameserverSidebar"
   },
   "sidebar.gameserverSidebar.category.Administration": {
@@ -44,7 +44,7 @@
     "description": "The label for category FiveM in sidebar gameserverSidebar"
   },
   "sidebar.gameserverSidebar.category.Configuration & Administration": {
-    "message": "Configuration & Management",
+    "message": "Konfiguration & Verwaltung",
     "description": "The label for category Configuration & Administration in sidebar gameserverSidebar"
   },
   "sidebar.gameserverSidebar.category.Resources & Mods": {
@@ -216,11 +216,11 @@
     "description": "The label for category Project Zomboid in sidebar gameserverSidebar"
   },
   "sidebar.vpsrootSidebar.category.General": {
-    "message": "General",
+    "message": "Allgemein",
     "description": "The label for category General in sidebar vpsrootSidebar"
   },
   "sidebar.vpsrootSidebar.category.Services": {
-    "message": "Services",
+    "message": "Dienste",
     "description": "The label for category Services in sidebar vpsrootSidebar"
   },
   "sidebar.vpsrootSidebar.category.Gameserver services": {
@@ -240,7 +240,7 @@
     "description": "The label for category Forge & Fabric in sidebar gameserverSidebar"
   },
   "sidebar.guidesSidebar.category.Partner Program": {
-    "message": "Partner Programm",
+    "message": "Partnerprogramm",
     "description": "The label for category 'Partner Program' in sidebar 'guidesSidebar'"
   },
   "sidebar.gameserverSidebar.category.CS 1.6": {
@@ -264,7 +264,7 @@
     "description": "The label for category Open.mp in sidebar gameserverSidebar"
   },
   "sidebar.guidesSidebar.category.Guides": {
-    "message": "Anleitungen",
+    "message": "Anleitung",
     "description": "The label for category Guides in sidebar guidesSidebar"
   },
   "sidebar.guidesSidebar.category.Blogs": {
@@ -272,7 +272,7 @@
     "description": "The label for category Blogs in sidebar guidesSidebar"
   },
   "sidebar.dedicatedserverSidebar.category.Services": {
-    "message": "Services",
+    "message": "Dienste",
     "description": "The label for category Services in sidebar dedicatedserverSidebar"
   },
   "sidebar.dedicatedserverSidebar.category.Security": {
@@ -688,7 +688,7 @@
     "description": "The label for category The Lord of the Rings: RTM in sidebar gameserverSidebar"
   },
   "sidebar.gameserverSidebar.category.Configuration": {
-    "message": "Configuration",
+    "message": "Konfiguration",
     "description": "The label for category Configuration in sidebar gameserverSidebar"
   },
   "sidebar.gameserverSidebar.category.Resources": {
@@ -776,7 +776,7 @@
     "description": "The label for category 'Security' in sidebar 'guidesSidebar'"
   },
   "sidebar.guidesSidebar.category.general-contribution-program-guides": {
-    "message": "Anleitungen",
+    "message": "Anleitung",
     "description": "The label for category 'Guides' in sidebar 'guidesSidebar'"
   },
   "sidebar.guidesSidebar.category.general-contribution-program-blogs": {
@@ -2878,5 +2878,25 @@
   "sidebar.voiceserverbotSidebar.category.domain-ts3musicbot": {
     "message": "TS3MusicBot",
     "description": "The label for category 'TS3MusicBot' in sidebar 'voiceserverbotSidebar'"
+  },
+  "sidebar.guidesSidebar.category.dedicated-linux-dedicated-game-servers-general": {
+    "message": "DDoS-Schutz",
+    "description": "The label for category 'DDoS Protection' in sidebar 'guidesSidebar'"
+  },
+  "sidebar.vpsrootSidebar.category.vserver-linux-dedicated-game-servers-general": {
+    "message": "Allgemein",
+    "description": "The label for category 'General' in sidebar 'vpsrootSidebar'"
+  },
+  "sidebar.vpsrootSidebar.category.vserver-windows-dedicated-game-servers-general": {
+    "message": "Allgemein",
+    "description": "The label for category 'General' in sidebar 'vpsrootSidebar'"
+  },
+  "sidebar.dedicatedserverSidebar.category.dedicated-linux-dedicated-game-servers-general": {
+    "message": "Allgemein",
+    "description": "The label for category 'General' in sidebar 'dedicatedserverSidebar'"
+  },
+  "sidebar.dedicatedserverSidebar.category.dedicated-windows-dedicated-game-servers-general": {
+    "message": "Allgemein",
+    "description": "The label for category 'General' in sidebar 'dedicatedserverSidebar'"
   }
 }

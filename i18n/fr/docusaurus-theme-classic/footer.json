@@ -20,7 +20,7 @@
     "description": "The label of footer link with label=Rent a VPS linking to https://zap-hosting.com/en/rent-a-virtual-server/"
   },
   "link.item.label.Rent a RootServer": {
-    "message": "Louez un RootServer",
+    "message": "Louer un serveur dédié",
     "description": "The label of footer link with label=Rent a RootServer linking to https://zap-hosting.com/en/rent-a-root-server/"
   },
   "link.item.label.Rent a Gameserver": {
@@ -28,11 +28,11 @@
     "description": "The label of footer link with label=Rent a Gameserver linking to https://zap-hosting.com/en/rent-a-gameserver/"
   },
   "link.item.label.Rent a TeamSpeak server": {
-    "message": "Louez un serveur TeamSpeak",
+    "message": "Louer un serveur TeamSpeak",
     "description": "The label of footer link with label=Rent a TeamSpeak server linking to https://zap-hosting.com/en/rent-a-teamspeak-3-server/"
   },
   "link.item.label.Rent a Discord Musicbot": {
-    "message": "Louez un bot musical Discord",
+    "message": "Louer un bot musical Discord",
     "description": "The label of footer link with label=Rent a Discord Musicbot linking to https://zap-hosting.com/en/rent-a-discord-musicbot/"
   },
   "link.item.label.Rent a Domain": {
@@ -72,7 +72,7 @@
     "description": "The label of footer link with label=Changelog linking to https://zap-hosting.com/en/changelog/"
   },
   "link.item.label.Ticketsupport": {
-    "message": "Support tickets",
+    "message": "Tickets de support",
     "description": "The label of footer link with label=Ticketsupport linking to https://zap-hosting.com/en/customer/support/"
   },
   "link.item.label.Server Status": {

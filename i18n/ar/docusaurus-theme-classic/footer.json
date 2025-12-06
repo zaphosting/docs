@@ -1,6 +1,6 @@
 {
   "link.title.Rent a Server": {
-    "message": "تأجير سيرفر",
+    "message": "Server hosting",
     "description": "The title of the footer links column with title=Rent a Server in the footer"
   },
   "link.title.Social": {
@@ -16,31 +16,31 @@
     "description": "The title of the footer links column with title=Legal in the footer"
   },
   "link.item.label.Rent a VPS": {
-    "message": "استأجر VPS",
+    "message": "Rent VPS",
     "description": "The label of footer link with label=Rent a VPS linking to https://zap-hosting.com/en/rent-a-virtual-server/"
   },
   "link.item.label.Rent a RootServer": {
-    "message": "استأجر سيرفر RootServer",
+    "message": "Rent RootServer",
     "description": "The label of footer link with label=Rent a RootServer linking to https://zap-hosting.com/en/rent-a-root-server/"
   },
   "link.item.label.Rent a Gameserver": {
-    "message": "استئجار سيرفر ألعاب",
+    "message": "Rent game server",
     "description": "The label of footer link with label=Rent a Gameserver linking to https://zap-hosting.com/en/rent-a-gameserver/"
   },
   "link.item.label.Rent a TeamSpeak server": {
-    "message": "استأجر سيرفر TeamSpeak",
+    "message": "Rent TeamSpeak server",
     "description": "The label of footer link with label=Rent a TeamSpeak server linking to https://zap-hosting.com/en/rent-a-teamspeak-3-server/"
   },
   "link.item.label.Rent a Discord Musicbot": {
-    "message": "استئجار بوت موسيقى Discord",
+    "message": "Rent Discord music bot",
     "description": "The label of footer link with label=Rent a Discord Musicbot linking to https://zap-hosting.com/en/rent-a-discord-musicbot/"
   },
   "link.item.label.Rent a Domain": {
-    "message": "استئجار نطاق",
+    "message": "Rent domain",
     "description": "The label of footer link with label=Rent a Domain linking to https://zap-hosting.com/en/domain-check/"
   },
   "link.item.label.Rent a Webspace": {
-    "message": "تأجير استضافة مواقع",
+    "message": "Webspace hosting",
     "description": "The label of footer link with label=Rent a Webspace linking to https://zap-hosting.com/en/webhosting-rent-a-webspace/"
   },
   "link.item.label.X": {
@@ -48,51 +48,51 @@
     "description": "The label of footer link with label=X linking to https://x.com/zaphosting"
   },
   "link.item.label.Instagram": {
-    "message": "إنستغرام",
+    "message": "Instagram",
     "description": "The label of footer link with label=Instagram linking to https://www.instagram.com/zaphosting/"
   },
   "link.item.label.Blog": {
-    "message": "مدونة",
+    "message": "Blog",
     "description": "The label of footer link with label=Blog linking to https://zap-hosting.com/en/blog/"
   },
   "link.item.label.Discord": {
-    "message": "ديسكورد",
+    "message": "Discord",
     "description": "The label of footer link with label=Discord linking to https://discord.gg/zaphosting"
   },
   "link.item.label.TikTok": {
-    "message": "تيك توك",
+    "message": "TikTok",
     "description": "The label of footer link with label=TikTok linking to https://tiktok.com/@zaphosting"
   },
   "link.item.label.YouTube": {
-    "message": "يوتيوب",
+    "message": "YouTube",
     "description": "The label of footer link with label=YouTube linking to https://youtube.com/@zaphosting"
   },
   "link.item.label.Changelog": {
-    "message": "سجل التغييرات",
+    "message": "Change log",
     "description": "The label of footer link with label=Changelog linking to https://zap-hosting.com/en/changelog/"
   },
   "link.item.label.Ticketsupport": {
-    "message": "دعم التذاكر",
+    "message": "Ticket support",
     "description": "The label of footer link with label=Ticketsupport linking to https://zap-hosting.com/en/customer/support/"
   },
   "link.item.label.Server Status": {
-    "message": "حالة السيرفر",
+    "message": "Server status",
     "description": "The label of footer link with label=Server Status linking to https://status.zap-hosting.com/"
   },
   "link.item.label.Smokeping": {
-    "message": "سموك بينغ",
+    "message": "Smoke ping",
     "description": "The label of footer link with label=Smokeping linking to https://smoky.zap-hosting.com/smokeping/"
   },
   "link.item.label.Terms of Service": {
-    "message": "شروط الخدمة",
+    "message": "Terms of service",
     "description": "The label of footer link with label=Terms of Service linking to https://zap-hosting.com/en/terms/"
   },
   "link.item.label.Imprint": {
-    "message": "الطابع",
+    "message": "Stamp",
     "description": "The label of footer link with label=Imprint linking to https://zap-hosting.com/en/imprint/"
   },
   "link.item.label.Privacy Policy": {
-    "message": "سياسة الخصوصية",
+    "message": "Privacy policy",
     "description": "The label of footer link with label=Privacy Policy linking to https://zap-hosting.com/en/privacy-policy/"
   },
   "link.item.label.Security": {
@@ -100,7 +100,7 @@
     "description": "The label of footer link with label=Security linking to https://zap-hosting.com/en/security/"
   },
   "copyright": {
-    "message": "حقوق النشر © 2025 ZAP-Hosting GmbH",
+    "message": "Copyright © 2025 ZAP-Hosting GmbH",
     "description": "The footer copyright"
   }
 }
