@@ -56,7 +56,7 @@
     "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-resources-fivem-popular": {
-    "message": "Resources",
+    "message": "Recursos",
     "description": "The label for category 'Resources' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-frameworks-fivem-popular": {
@@ -72,7 +72,7 @@
     "description": "The label for category 'QBCore' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-fivem-popular": {
-    "message": "Troubleshooting",
+    "message": "Solución de problemas",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-minecraft-popular": {
@@ -104,7 +104,7 @@
     "description": "The label for category 'Spigot & Bukkit (Plugins)' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-minecraft-popular": {
-    "message": "Troubleshooting",
+    "message": "Solución de problemas",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-scp-secret-laboratory-popular": {
@@ -124,7 +124,7 @@
     "description": "The label for category 'Exiled' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-scp-secret-laboratory-popular": {
-    "message": "Troubleshooting",
+    "message": "Solución de problemas",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-valheim-popular": {
@@ -140,7 +140,7 @@
     "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-valheim-popular": {
-    "message": "Troubleshooting",
+    "message": "Solución de problemas",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-ark-survival-evolved-popular": {
@@ -156,7 +156,7 @@
     "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-ark-survival-evolved-popular": {
-    "message": "Troubleshooting",
+    "message": "Solución de problemas",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-palworld-popular": {
@@ -172,7 +172,7 @@
     "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-palworld-popular": {
-    "message": "Troubleshooting",
+    "message": "Solución de problemas",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-enshrouded-popular": {
@@ -188,7 +188,7 @@
     "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-enshrouded-popular": {
-    "message": "Troubleshooting",
+    "message": "Solución de problemas",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-scum-popular": {
@@ -204,7 +204,7 @@
     "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-scum-popular": {
-    "message": "Troubleshooting",
+    "message": "Solución de problemas",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-7-days-to-die": {
@@ -220,7 +220,7 @@
     "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-7-days-to-die": {
-    "message": "Troubleshooting",
+    "message": "Solución de problemas",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-abiotic-factor": {
@@ -236,7 +236,7 @@
     "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-abiotic-factor": {
-    "message": "Troubleshooting",
+    "message": "Solución de problemas",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-afterinfection": {
@@ -248,7 +248,7 @@
     "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-afterinfection": {
-    "message": "Troubleshooting",
+    "message": "Solución de problemas",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-american-truck-simulator": {
@@ -264,7 +264,7 @@
     "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-american-truck-simulator": {
-    "message": "Troubleshooting",
+    "message": "Solución de problemas",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-among-us": {
@@ -276,7 +276,7 @@
     "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-among-us": {
-    "message": "Troubleshooting",
+    "message": "Solución de problemas",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-animalia-survival": {
@@ -288,7 +288,7 @@
     "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-animalia-survival": {
-    "message": "Troubleshooting",
+    "message": "Solución de problemas",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-argo": {
@@ -300,7 +300,7 @@
     "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-argo": {
-    "message": "Troubleshooting",
+    "message": "Solución de problemas",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-ark-survival-evolved": {
@@ -316,7 +316,7 @@
     "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-ark-survival-evolved": {
-    "message": "Troubleshooting",
+    "message": "Solución de problemas",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-arma-3": {
@@ -332,7 +332,7 @@
     "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-arma-3": {
-    "message": "Troubleshooting",
+    "message": "Solución de problemas",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-arma-reforger": {
@@ -348,7 +348,7 @@
     "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-arma-reforger": {
-    "message": "Troubleshooting",
+    "message": "Solución de problemas",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-assetto-corsa": {
@@ -364,7 +364,7 @@
     "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-assetto-corsa": {
-    "message": "Troubleshooting",
+    "message": "Solución de problemas",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-assetto-corsa-competizione": {
@@ -380,7 +380,7 @@
     "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-assetto-corsa-competizione": {
-    "message": "Troubleshooting",
+    "message": "Solución de problemas",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-astro-colony": {
@@ -392,7 +392,7 @@
     "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-astro-colony": {
-    "message": "Troubleshooting",
+    "message": "Solución de problemas",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-astroneer": {
@@ -404,7 +404,7 @@
     "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-astroneer": {
-    "message": "Troubleshooting",
+    "message": "Solución de problemas",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-avorion": {
@@ -420,7 +420,7 @@
     "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-avorion": {
-    "message": "Troubleshooting",
+    "message": "Solución de problemas",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-banana-shooter": {
@@ -432,7 +432,7 @@
     "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-banana-shooter": {
-    "message": "Troubleshooting",
+    "message": "Solución de problemas",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-barotrauma": {
@@ -448,7 +448,7 @@
     "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-barotrauma": {
-    "message": "Troubleshooting",
+    "message": "Solución de problemas",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-battalion-1944": {
@@ -460,7 +460,7 @@
     "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-battalion-1944": {
-    "message": "Troubleshooting",
+    "message": "Solución de problemas",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-battle-grounds-iii": {
@@ -472,7 +472,7 @@
     "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-battle-grounds-iii": {
-    "message": "Troubleshooting",
+    "message": "Solución de problemas",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-beammp": {
@@ -488,7 +488,7 @@
     "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-beammp": {
-    "message": "Troubleshooting",
+    "message": "Solución de problemas",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-beasts-of-bermuda": {
@@ -500,7 +500,7 @@
     "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-beasts-of-bermuda": {
-    "message": "Troubleshooting",
+    "message": "Solución de problemas",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-beyond-the-wire": {
@@ -512,7 +512,7 @@
     "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-beyond-the-wire": {
-    "message": "Troubleshooting",
+    "message": "Solución de problemas",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-broke-protocol": {
@@ -524,7 +524,7 @@
     "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-broke-protocol": {
-    "message": "Troubleshooting",
+    "message": "Solución de problemas",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-citadel-forged-with-fire": {
@@ -536,7 +536,7 @@
     "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-citadel-forged-with-fire": {
-    "message": "Troubleshooting",
+    "message": "Solución de problemas",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-colony-survival": {
@@ -548,7 +548,7 @@
     "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-colony-survival": {
-    "message": "Troubleshooting",
+    "message": "Solución de problemas",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-conan-exiles": {
@@ -564,7 +564,7 @@
     "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-conan-exiles": {
-    "message": "Troubleshooting",
+    "message": "Solución de problemas",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-contagion": {
@@ -576,7 +576,7 @@
     "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-contagion": {
-    "message": "Troubleshooting",
+    "message": "Solución de problemas",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-core-keeper": {
@@ -588,7 +588,7 @@
     "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-core-keeper": {
-    "message": "Troubleshooting",
+    "message": "Solución de problemas",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-craftopia": {
@@ -600,7 +600,7 @@
     "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-craftopia": {
-    "message": "Troubleshooting",
+    "message": "Solución de problemas",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-cryofall": {
@@ -612,7 +612,7 @@
     "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-cryofall": {
-    "message": "Troubleshooting",
+    "message": "Solución de problemas",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-counter-strike-1-6": {
@@ -628,7 +628,7 @@
     "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-counter-strike-1-6": {
-    "message": "Troubleshooting",
+    "message": "Solución de problemas",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-counter-strike-condition-zero": {
@@ -640,7 +640,7 @@
     "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-counter-strike-condition-zero": {
-    "message": "Troubleshooting",
+    "message": "Solución de problemas",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-counter-strike-source": {
@@ -656,7 +656,7 @@
     "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-counter-strike-source": {
-    "message": "Troubleshooting",
+    "message": "Solución de problemas",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-counter-strike-2": {
@@ -676,7 +676,7 @@
     "description": "The label for category 'Plugins / Mods' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-counter-strike-2": {
-    "message": "Troubleshooting",
+    "message": "Solución de problemas",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-day-of-defeat-source": {
@@ -692,7 +692,7 @@
     "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-day-of-defeat-source": {
-    "message": "Troubleshooting",
+    "message": "Solución de problemas",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-day-of-infamy": {
@@ -704,7 +704,7 @@
     "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-day-of-infamy": {
-    "message": "Troubleshooting",
+    "message": "Solución de problemas",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-dayz": {
@@ -720,7 +720,7 @@
     "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-dayz": {
-    "message": "Troubleshooting",
+    "message": "Solución de problemas",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-ddracenetwork": {
@@ -732,7 +732,7 @@
     "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-ddracenetwork": {
-    "message": "Troubleshooting",
+    "message": "Solución de problemas",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-deadlock": {
@@ -744,7 +744,7 @@
     "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-deadlock": {
-    "message": "Troubleshooting",
+    "message": "Solución de problemas",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-deadpoly": {
@@ -756,7 +756,7 @@
     "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-deadpoly": {
-    "message": "Troubleshooting",
+    "message": "Solución de problemas",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-don-t-starve-together": {
@@ -772,7 +772,7 @@
     "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-don-t-starve-together": {
-    "message": "Troubleshooting",
+    "message": "Solución de problemas",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-eco": {
@@ -788,7 +788,7 @@
     "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-eco": {
-    "message": "Troubleshooting",
+    "message": "Solución de problemas",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-empyrion": {
@@ -804,7 +804,7 @@
     "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-empyrion": {
-    "message": "Troubleshooting",
+    "message": "Solución de problemas",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-enshrouded": {
@@ -820,7 +820,7 @@
     "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-enshrouded": {
-    "message": "Troubleshooting",
+    "message": "Solución de problemas",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-euro-truck-simulator-2": {
@@ -836,7 +836,7 @@
     "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-euro-truck-simulator-2": {
-    "message": "Troubleshooting",
+    "message": "Solución de problemas",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-factorio": {
@@ -852,7 +852,7 @@
     "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-factorio": {
-    "message": "Troubleshooting",
+    "message": "Solución de problemas",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-fivem": {
@@ -868,7 +868,7 @@
     "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-resources-fivem": {
-    "message": "Resources",
+    "message": "Recursos",
     "description": "The label for category 'Resources' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-frameworks-fivem": {
@@ -884,7 +884,7 @@
     "description": "The label for category 'QBCore' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-fivem": {
-    "message": "Troubleshooting",
+    "message": "Solución de problemas",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-foundry": {
@@ -900,7 +900,7 @@
     "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-foundry": {
-    "message": "Troubleshooting",
+    "message": "Solución de problemas",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-garry-s-mod": {
@@ -916,7 +916,7 @@
     "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-garry-s-mod": {
-    "message": "Troubleshooting",
+    "message": "Solución de problemas",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-ground-branch": {
@@ -928,7 +928,7 @@
     "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-ground-branch": {
-    "message": "Troubleshooting",
+    "message": "Solución de problemas",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-half-life-1": {
@@ -944,7 +944,7 @@
     "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-half-life-1": {
-    "message": "Troubleshooting",
+    "message": "Solución de problemas",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-half-life-2": {
@@ -960,7 +960,7 @@
     "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-half-life-2": {
-    "message": "Troubleshooting",
+    "message": "Solución de problemas",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-holdfast-nations-at-war": {
@@ -972,7 +972,7 @@
     "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-holdfast-nations-at-war": {
-    "message": "Troubleshooting",
+    "message": "Solución de problemas",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-humanitz": {
@@ -984,7 +984,7 @@
     "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-humanitz": {
-    "message": "Troubleshooting",
+    "message": "Solución de problemas",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-hurtworld": {
@@ -996,7 +996,7 @@
     "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-hurtworld": {
-    "message": "Troubleshooting",
+    "message": "Solución de problemas",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-icarus": {
@@ -1008,7 +1008,7 @@
     "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-icarus": {
-    "message": "Troubleshooting",
+    "message": "Solución de problemas",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-insurgency-sandstorm": {
@@ -1020,7 +1020,7 @@
     "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-insurgency-sandstorm": {
-    "message": "Troubleshooting",
+    "message": "Solución de problemas",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-iron-armada": {
@@ -1032,7 +1032,7 @@
     "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-iron-armada": {
-    "message": "Troubleshooting",
+    "message": "Solución de problemas",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-journey-of-life": {
@@ -1044,7 +1044,7 @@
     "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-journey-of-life": {
-    "message": "Troubleshooting",
+    "message": "Solución de problemas",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-killing-floor-2": {
@@ -1056,7 +1056,7 @@
     "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-killing-floor-2": {
-    "message": "Troubleshooting",
+    "message": "Solución de problemas",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-last-oasis": {
@@ -1072,7 +1072,7 @@
     "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-last-oasis": {
-    "message": "Troubleshooting",
+    "message": "Solución de problemas",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-leap": {
@@ -1084,7 +1084,7 @@
     "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-leap": {
-    "message": "Troubleshooting",
+    "message": "Solución de problemas",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-left-4-dead-2": {
@@ -1100,7 +1100,7 @@
     "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-left-4-dead-2": {
-    "message": "Troubleshooting",
+    "message": "Solución de problemas",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-longvinter": {
@@ -1112,7 +1112,7 @@
     "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-longvinter": {
-    "message": "Troubleshooting",
+    "message": "Solución de problemas",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-minecraft": {
@@ -1144,7 +1144,7 @@
     "description": "The label for category 'Spigot & Bukkit (Plugins)' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-minecraft": {
-    "message": "Troubleshooting",
+    "message": "Solución de problemas",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-minetest": {
@@ -1156,7 +1156,7 @@
     "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-minetest": {
-    "message": "Troubleshooting",
+    "message": "Solución de problemas",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-miscreated": {
@@ -1184,7 +1184,7 @@
     "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-motor-town-behind-the-wheel": {
-    "message": "Troubleshooting",
+    "message": "Solución de problemas",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-mount-blade": {
@@ -1196,7 +1196,7 @@
     "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-mount-blade": {
-    "message": "Troubleshooting",
+    "message": "Solución de problemas",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-multi-theft-auto": {
@@ -1212,7 +1212,7 @@
     "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-multi-theft-auto": {
-    "message": "Troubleshooting",
+    "message": "Solución de problemas",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-myth-of-empires": {
@@ -1228,7 +1228,7 @@
     "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-myth-of-empires": {
-    "message": "Troubleshooting",
+    "message": "Solución de problemas",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-necesse": {
@@ -1240,7 +1240,7 @@
     "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-necesse": {
-    "message": "Troubleshooting",
+    "message": "Solución de problemas",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-never-split-the-party": {
@@ -1252,7 +1252,7 @@
     "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-never-split-the-party": {
-    "message": "Troubleshooting",
+    "message": "Solución de problemas",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-nienix": {
@@ -1264,7 +1264,7 @@
     "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-nienix": {
-    "message": "Troubleshooting",
+    "message": "Solución de problemas",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-no-more-room-in-hell": {
@@ -1280,7 +1280,7 @@
     "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-no-more-room-in-hell": {
-    "message": "Troubleshooting",
+    "message": "Solución de problemas",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-no-one-survived": {
@@ -1292,7 +1292,7 @@
     "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-no-one-survived": {
-    "message": "Troubleshooting",
+    "message": "Solución de problemas",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-one-hour-one-life": {
@@ -1304,7 +1304,7 @@
     "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-one-hour-one-life": {
-    "message": "Troubleshooting",
+    "message": "Solución de problemas",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-open-mp": {
@@ -1320,7 +1320,7 @@
     "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-open-mp": {
-    "message": "Troubleshooting",
+    "message": "Solución de problemas",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-openttd": {
@@ -1332,7 +1332,7 @@
     "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-openttd": {
-    "message": "Troubleshooting",
+    "message": "Solución de problemas",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-operation-harsh-doorstop": {
@@ -1344,7 +1344,7 @@
     "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-operation-harsh-doorstop": {
-    "message": "Troubleshooting",
+    "message": "Solución de problemas",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-outlaws-of-the-old-west": {
@@ -1356,7 +1356,7 @@
     "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-outlaws-of-the-old-west": {
-    "message": "Troubleshooting",
+    "message": "Solución de problemas",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-palworld": {
@@ -1372,7 +1372,7 @@
     "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-palworld": {
-    "message": "Troubleshooting",
+    "message": "Solución de problemas",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-path-of-titans": {
@@ -1388,7 +1388,7 @@
     "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-path-of-titans": {
-    "message": "Troubleshooting",
+    "message": "Solución de problemas",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-pixark": {
@@ -1400,7 +1400,7 @@
     "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-pixark": {
-    "message": "Troubleshooting",
+    "message": "Solución de problemas",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-portal-knights": {
@@ -1412,7 +1412,7 @@
     "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-portal-knights": {
-    "message": "Troubleshooting",
+    "message": "Solución de problemas",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-project-zomboid": {
@@ -1428,7 +1428,7 @@
     "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-project-zomboid": {
-    "message": "Troubleshooting",
+    "message": "Solución de problemas",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-redm": {
@@ -1444,11 +1444,11 @@
     "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-resources-redm": {
-    "message": "Resources",
+    "message": "Recursos",
     "description": "The label for category 'Resources' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-redm": {
-    "message": "Troubleshooting",
+    "message": "Solución de problemas",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-reign-of-kings": {
@@ -1460,7 +1460,7 @@
     "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-reign-of-kings": {
-    "message": "Troubleshooting",
+    "message": "Solución de problemas",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-rimworld-together": {
@@ -1476,7 +1476,7 @@
     "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-rimworld-together": {
-    "message": "Troubleshooting",
+    "message": "Solución de problemas",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-rising-storm-2": {
@@ -1488,7 +1488,7 @@
     "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-rising-storm-2": {
-    "message": "Troubleshooting",
+    "message": "Solución de problemas",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-risk-of-rain-2": {
@@ -1500,7 +1500,7 @@
     "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-risk-of-rain-2": {
-    "message": "Troubleshooting",
+    "message": "Solución de problemas",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-rising-world": {
@@ -1512,7 +1512,7 @@
     "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-rising-world": {
-    "message": "Troubleshooting",
+    "message": "Solución de problemas",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-rust": {
@@ -1528,7 +1528,7 @@
     "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-rust": {
-    "message": "Troubleshooting",
+    "message": "Solución de problemas",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-sanctuary-island": {
@@ -1540,7 +1540,7 @@
     "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-sanctuary-island": {
-    "message": "Troubleshooting",
+    "message": "Solución de problemas",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-satisfactory": {
@@ -1556,7 +1556,7 @@
     "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-satisfactory": {
-    "message": "Troubleshooting",
+    "message": "Solución de problemas",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-scp-5k": {
@@ -1568,7 +1568,7 @@
     "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-scp-5k": {
-    "message": "Troubleshooting",
+    "message": "Solución de problemas",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-scp-containment-breach": {
@@ -1580,7 +1580,7 @@
     "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-scp-containment-breach": {
-    "message": "Troubleshooting",
+    "message": "Solución de problemas",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-scp-escape-together": {
@@ -1592,7 +1592,7 @@
     "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-scp-escape-together": {
-    "message": "Troubleshooting",
+    "message": "Solución de problemas",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-scp-secret-laboratory": {
@@ -1612,7 +1612,7 @@
     "description": "The label for category 'Exiled' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-scp-secret-laboratory": {
-    "message": "Troubleshooting",
+    "message": "Solución de problemas",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-scum": {
@@ -1628,7 +1628,7 @@
     "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-scum": {
-    "message": "Troubleshooting",
+    "message": "Solución de problemas",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-soldat": {
@@ -1640,7 +1640,7 @@
     "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-soldat": {
-    "message": "Troubleshooting",
+    "message": "Solución de problemas",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-sons-of-the-forest": {
@@ -1652,7 +1652,7 @@
     "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-sons-of-the-forest": {
-    "message": "Troubleshooting",
+    "message": "Solución de problemas",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-soulmask": {
@@ -1668,7 +1668,7 @@
     "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-soulmask": {
-    "message": "Troubleshooting",
+    "message": "Solución de problemas",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-space-engineers": {
@@ -1684,7 +1684,7 @@
     "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-space-engineers": {
-    "message": "Troubleshooting",
+    "message": "Solución de problemas",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-squad": {
@@ -1696,7 +1696,7 @@
     "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-squad": {
-    "message": "Troubleshooting",
+    "message": "Solución de problemas",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-starbound": {
@@ -1708,7 +1708,7 @@
     "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-starbound": {
-    "message": "Troubleshooting",
+    "message": "Solución de problemas",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-starmade": {
@@ -1720,7 +1720,7 @@
     "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-starmade": {
-    "message": "Troubleshooting",
+    "message": "Solución de problemas",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-staxel": {
@@ -1732,7 +1732,7 @@
     "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-staxel": {
-    "message": "Troubleshooting",
+    "message": "Solución de problemas",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-stormworks": {
@@ -1748,7 +1748,7 @@
     "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-stormworks": {
-    "message": "Troubleshooting",
+    "message": "Solución de problemas",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-subsistence": {
@@ -1760,7 +1760,7 @@
     "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-subsistence": {
-    "message": "Troubleshooting",
+    "message": "Solución de problemas",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-sunkenland": {
@@ -1772,7 +1772,7 @@
     "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-sunkenland": {
-    "message": "Troubleshooting",
+    "message": "Solución de problemas",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-team-fortress-2": {
@@ -1788,7 +1788,7 @@
     "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-team-fortress-2": {
-    "message": "Troubleshooting",
+    "message": "Solución de problemas",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-teeworlds": {
@@ -1800,7 +1800,7 @@
     "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-teeworlds": {
-    "message": "Troubleshooting",
+    "message": "Solución de problemas",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-terraria": {
@@ -1816,7 +1816,7 @@
     "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-terraria": {
-    "message": "Troubleshooting",
+    "message": "Solución de problemas",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-terratech-worlds": {
@@ -1828,7 +1828,7 @@
     "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-terratech-worlds": {
-    "message": "Troubleshooting",
+    "message": "Solución de problemas",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-the-bus": {
@@ -1840,7 +1840,7 @@
     "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-the-bus": {
-    "message": "Troubleshooting",
+    "message": "Solución de problemas",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-the-front": {
@@ -1852,7 +1852,7 @@
     "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-the-front": {
-    "message": "Troubleshooting",
+    "message": "Solución de problemas",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-the-isle": {
@@ -1864,7 +1864,7 @@
     "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-the-isle": {
-    "message": "Troubleshooting",
+    "message": "Solución de problemas",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-the-lord-of-the-rings-rtm": {
@@ -1876,7 +1876,7 @@
     "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-the-lord-of-the-rings-rtm": {
-    "message": "Troubleshooting",
+    "message": "Solución de problemas",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-unfortunate-spacemen": {
@@ -1888,7 +1888,7 @@
     "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-unfortunate-spacemen": {
-    "message": "Troubleshooting",
+    "message": "Solución de problemas",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-unturned": {
@@ -1908,7 +1908,7 @@
     "description": "The label for category 'RocketMod' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-unturned": {
-    "message": "Troubleshooting",
+    "message": "Solución de problemas",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-valheim": {
@@ -1924,7 +1924,7 @@
     "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-valheim": {
-    "message": "Troubleshooting",
+    "message": "Solución de problemas",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-vein": {
@@ -1936,7 +1936,7 @@
     "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-vein": {
-    "message": "Troubleshooting",
+    "message": "Solución de problemas",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-veloren": {
@@ -1948,7 +1948,7 @@
     "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-veloren": {
-    "message": "Troubleshooting",
+    "message": "Solución de problemas",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-vintage-story": {
@@ -1960,7 +1960,7 @@
     "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-vintage-story": {
-    "message": "Troubleshooting",
+    "message": "Solución de problemas",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-voyagers-of-nera": {
@@ -1972,7 +1972,7 @@
     "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-voyagers-of-nera": {
-    "message": "Troubleshooting",
+    "message": "Solución de problemas",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-v-rising": {
@@ -1988,7 +1988,7 @@
     "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-v-rising": {
-    "message": "Troubleshooting",
+    "message": "Solución de problemas",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-wreckfest": {
@@ -2000,7 +2000,7 @@
     "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-wreckfest": {
-    "message": "Troubleshooting",
+    "message": "Solución de problemas",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-wreckfest-2": {
@@ -2012,7 +2012,7 @@
     "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-wreckfest-2": {
-    "message": "Troubleshooting",
+    "message": "Solución de problemas",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-wurm-unlimited": {
@@ -2024,11 +2024,11 @@
     "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-wurm-unlimited": {
-    "message": "Troubleshooting",
+    "message": "Solución de problemas",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.vpsrootSidebar.category.vserver-troubleshooting": {
-    "message": "Troubleshooting",
+    "message": "Solución de problemas",
     "description": "The label for category 'Troubleshooting' in sidebar 'vpsrootSidebar'"
   },
   "sidebar.vpsrootSidebar.category.vserver-general": {
@@ -2048,7 +2048,7 @@
     "description": "The label for category 'General' in sidebar 'vpsrootSidebar'"
   },
   "sidebar.vpsrootSidebar.category.vserver-linux-troubleshooting": {
-    "message": "Troubleshooting",
+    "message": "Solución de problemas",
     "description": "The label for category 'Troubleshooting' in sidebar 'vpsrootSidebar'"
   },
   "sidebar.vpsrootSidebar.category.vserver-windows-general": {
@@ -2068,11 +2068,11 @@
     "description": "The label for category 'General' in sidebar 'vpsrootSidebar'"
   },
   "sidebar.vpsrootSidebar.category.vserver-windows-troubleshooting": {
-    "message": "Troubleshooting",
+    "message": "Solución de problemas",
     "description": "The label for category 'Troubleshooting' in sidebar 'vpsrootSidebar'"
   },
   "sidebar.dedicatedserverSidebar.category.dedicated-server-troubleshooting": {
-    "message": "Troubleshooting",
+    "message": "Solución de problemas",
     "description": "The label for category 'Troubleshooting' in sidebar 'dedicatedserverSidebar'"
   },
   "sidebar.dedicatedserverSidebar.category.dedicated-server-install-windows": {
@@ -2120,7 +2120,7 @@
     "description": "The label for category 'General' in sidebar 'dedicatedserverSidebar'"
   },
   "sidebar.dedicatedserverSidebar.category.dedicated-server-windows-troubleshooting": {
-    "message": "Troubleshooting",
+    "message": "Solución de problemas",
     "description": "The label for category 'Troubleshooting' in sidebar 'dedicatedserverSidebar'"
   },
   "sidebar.domainwebspaceSidebar.category.domain-domain-forwarding": {

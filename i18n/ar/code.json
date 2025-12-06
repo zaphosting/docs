@@ -964,7 +964,7 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-teeworlds.title": {
-    "message": "سيرفر ألعاب Teeworlds",
+    "message": "Teeworlds سيرفر ألعاب",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-teeworlds.path": {
@@ -972,7 +972,7 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-terraria.title": {
-    "message": "سيرفر ألعاب Terraria",
+    "message": "Terraria سيرفر ألعاب",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-terraria.path": {
@@ -980,7 +980,7 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-terratech-worlds.title": {
-    "message": "سيرفر ألعاب Terratech Worlds",
+    "message": "Terratech Worlds سيرفر ألعاب",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-terratech-worlds.path": {
@@ -988,7 +988,7 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-thebus.title": {
-    "message": "سيرفر ألعاب الحافلة",
+    "message": "الحافلة سيرفر ألعاب",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-thebus.path": {
@@ -996,7 +996,7 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-thefront.title": {
-    "message": "سيرفر ألعاب Front",
+    "message": "Front سيرفر ألعاب",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-thefront.path": {
@@ -1004,7 +1004,7 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-theisle.title": {
-    "message": "سيرفر ألعاب The Isle",
+    "message": "The Isle سيرفر ألعاب",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-theisle.path": {
@@ -1012,7 +1012,7 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-lotr-rtm.title": {
-    "message": "سيد الخواتم: سيرفر ألعاب RTM",
+    "message": "سيد الخواتم: RTM سيرفر ألعاب",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-lotr-rtm.path": {
@@ -1020,7 +1020,7 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-unturned.title": {
-    "message": "سيرفر ألعاب Unturned",
+    "message": "Unturned سيرفر ألعاب",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-unturned.path": {
@@ -1028,7 +1028,7 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-vrising.title": {
-    "message": "سيرفر ألعاب V Rising",
+    "message": "V Rising سيرفر ألعاب",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-vrising.path": {
@@ -1036,7 +1036,7 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-valheim.title": {
-    "message": "سيرفر ألعاب Valheim",
+    "message": "Valheim سيرفر ألعاب",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-valheim.path": {
@@ -1044,7 +1044,7 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-vein.title": {
-    "message": "سيرفر ألعاب Vein",
+    "message": "Vein سيرفر ألعاب",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-vein.path": {
@@ -1052,7 +1052,7 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-veloren.title": {
-    "message": "سيرفر ألعاب Veloren",
+    "message": "Veloren سيرفر ألعاب",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-veloren.path": {
@@ -1060,7 +1060,7 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-vintagestory.title": {
-    "message": "سيرفر ألعاب Vintage Story",
+    "message": "Vintage Story سيرفر ألعاب",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-vintagestory.path": {
@@ -1068,7 +1068,7 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-voyagers-of-nera.title": {
-    "message": "مستكشفو سيرفر ألعاب Nera",
+    "message": "مستكشفو Nera سيرفر ألعاب",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-voyagers-of-nera.path": {
@@ -1076,7 +1076,7 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-wreckfest.title": {
-    "message": "سيرفر ألعاب Wreckfest",
+    "message": "Wreckfest سيرفر ألعاب",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-wreckfest.path": {
@@ -1084,7 +1084,7 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-wreckfest2.title": {
-    "message": "سيرفر ألعاب Wreckfest 2",
+    "message": "Wreckfest 2 سيرفر ألعاب",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-wreckfest2.path": {
@@ -1092,7 +1092,7 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-wurmunlimited.title": {
-    "message": "سيرفر ألعاب Wurm Unlimited",
+    "message": "Wurm Unlimited سيرفر ألعاب",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-wurmunlimited.path": {
@@ -1100,7 +1100,7 @@
     "description": "URL path for the gameserver product"
   },
   "inlinevoucher.title": {
-    "message": "{voucherValue} {voucherType} خصم تأجير الخوادم 🏷️"
+    "message": "خصم تأجير الخوادم 🏷️ {voucherValue} {voucherType}"
   },
   "inlinevoucher.description.with-products": {
     "message": "اغتنم الفرصة وابدأ مشروعك الخاص اليوم! استخدم رمز الخصم للمنتجات المدرجة في هذا الدليل واحصل على خصم 50%. 😉"

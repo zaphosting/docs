@@ -1044,7 +1044,7 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-vein.title": {
-    "message": "Guías",
+    "message": "Guía",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-vein.path": {
@@ -1183,7 +1183,7 @@
     "description": "The title of the fallback page when the page crashed"
   },
   "theme.BackToTopButton.buttonAriaLabel": {
-    "message": "Back to top",
+    "message": "Volver arriba",
     "description": "The ARIA label for the back to top button"
   },
   "theme.blog.archive.title": {
@@ -1195,31 +1195,31 @@
     "description": "The page & hero description of the blog archive page"
   },
   "theme.blog.paginator.navAriaLabel": {
-    "message": "Navigation through the blog list page",
+    "message": "Navegación a través de la página de lista de blogs",
     "description": "The ARIA label for the blog pagination"
   },
   "theme.blog.paginator.newerEntries": {
-    "message": "Most recent entries",
+    "message": "Entradas más recientes",
     "description": "The label used to navigate to the newer blog posts page (previous page)"
   },
   "theme.blog.paginator.olderEntries": {
-    "message": "Older entries",
+    "message": "Entradas antiguas",
     "description": "The label used to navigate to the older blog posts page (next page)"
   },
   "theme.blog.post.paginator.navAriaLabel": {
-    "message": "Blog post pagination bar",
+    "message": "Barra de paginación de publicaciones del blog",
     "description": "The ARIA label for the blog posts pagination"
   },
   "theme.blog.post.paginator.newerPost": {
-    "message": "Most recent post",
+    "message": "Publicación más reciente",
     "description": "The blog post button label to navigate to the newer/previous post"
   },
   "theme.blog.post.paginator.olderPost": {
-    "message": "Oldest post",
+    "message": "Publicación más antigua",
     "description": "The blog post button label to navigate to the older/next post"
   },
   "theme.tags.tagsPageLink": {
-    "message": "View All Tags",
+    "message": "Ver todas las etiquetas",
     "description": "The label of the link targeting the tag list page"
   },
   "theme.colorToggle.ariaLabel.mode.system": {
@@ -1227,7 +1227,7 @@
     "description": "The name for the system color mode"
   },
   "theme.colorToggle.ariaLabel.mode.light": {
-    "message": "light mode",
+    "message": "modo claro",
     "description": "The name for the light color mode"
   },
   "theme.colorToggle.ariaLabel.mode.dark": {
@@ -1235,11 +1235,11 @@
     "description": "The name for the dark color mode"
   },
   "theme.colorToggle.ariaLabel": {
-    "message": "Switch between dark and light mode (currently {mode})",
+    "message": "Cambiar entre modo oscuro y claro (actualmente {mode})",
     "description": "The ARIA label for the color mode toggle"
   },
   "theme.docs.breadcrumbs.navAriaLabel": {
-    "message": "Breadcrumbs",
+    "message": "Migas de pan",
     "description": "The ARIA label for the breadcrumbs"
   },
   "theme.docs.DocCard.categoryDescription.plurals": {
@@ -1247,15 +1247,15 @@
     "description": "The default description for a category card in the generated index about how many items this category includes"
   },
   "theme.docs.paginator.navAriaLabel": {
-    "message": "Document page",
+    "message": "Página de documento",
     "description": "The ARIA label for the docs pagination"
   },
   "theme.docs.paginator.previous": {
-    "message": "Previous",
+    "message": "Anterior",
     "description": "The label used to navigate to the previous doc"
   },
   "theme.docs.paginator.next": {
-    "message": "Next",
+    "message": "Siguiente",
     "description": "The label used to navigate to the next doc"
   },
   "theme.docs.tagDocListPageTitle.nDocsTagged": {
@@ -1270,7 +1270,7 @@
     "message": "Versión: {versionLabel}"
   },
   "theme.docs.versions.unreleasedVersionLabel": {
-    "message": "This is the unpublished documentation for {siteTitle}, version {versionLabel}.",
+    "message": "Esta es la documentación no publicada para {siteTitle}, versión {versionLabel}.",
     "description": "The label used to tell the user that he's browsing an unreleased doc version"
   },
   "theme.docs.versions.unmaintainedVersionLabel": {
@@ -1278,7 +1278,7 @@
     "description": "The label used to tell the user that he's browsing an unmaintained doc version"
   },
   "theme.docs.versions.latestVersionSuggestionLabel": {
-    "message": "For the updated documentation, see {latestVersionLink} ({versionLabel}).",
+    "message": "Para la documentación actualizada, vea {latestVersionLink} ({versionLabel}).",
     "description": "The label used to tell the user to check the latest version"
   },
   "theme.docs.versions.latestVersionLinkLabel": {
@@ -1306,7 +1306,7 @@
     "description": "The sentence used to display when a page has been last updated, and by who"
   },
   "theme.navbar.mobileVersionsDropdown.label": {
-    "message": "Versions",
+    "message": "Versiones",
     "description": "The label for the navbar versions dropdown on mobile view"
   },
   "theme.NotFound.title": {
@@ -1314,7 +1314,7 @@
     "description": "The title of the 404 page"
   },
   "theme.tags.tagsListLabel": {
-    "message": "Tags:",
+    "message": "Etiquetas:",
     "description": "The label alongside a tag list"
   },
   "theme.AnnouncementBar.closeButtonAriaLabel": {
@@ -1354,7 +1354,7 @@
     "description": "The ARIA label to expand the sidebar category"
   },
   "theme.DocSidebarItem.collapseCategoryAriaLabel": {
-    "message": "Collapse categoría '{label}' de la barra lateral",
+    "message": "Colapsar categoría '{label}' de la barra lateral",
     "description": "The ARIA label to collapse the sidebar category"
   },
   "theme.NavBar.navAriaLabel": {
@@ -1370,11 +1370,11 @@
     "description": "The 2nd paragraph of the 404 page"
   },
   "theme.TOCCollapsible.toggleButtonLabel": {
-    "message": "On this page",
+    "message": "En esta página",
     "description": "The label used by the button on the collapsible TOC component"
   },
   "theme.navbar.mobileLanguageDropdown.label": {
-    "message": "Languages",
+    "message": "Idiomas",
     "description": "The label for the mobile language switcher dropdown"
   },
   "theme.blog.post.readMore": {
@@ -1390,23 +1390,23 @@
     "description": "Pluralized label for \"{readingTime} min read\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
   },
   "theme.CodeBlock.wordWrapToggle": {
-    "message": "Toggle ajuste de palabras",
+    "message": "Alternar ajuste de palabras",
     "description": "The title attribute for toggle word wrapping button of code block lines"
   },
   "theme.CodeBlock.copy": {
-    "message": "Copy",
+    "message": "Copiar",
     "description": "The copy button label on code blocks"
   },
   "theme.CodeBlock.copied": {
-    "message": "Copied",
+    "message": "Copiado",
     "description": "The copied button label on code blocks"
   },
   "theme.CodeBlock.copyButtonAriaLabel": {
-    "message": "Copy code",
+    "message": "Copiar código",
     "description": "The ARIA label for copy code blocks button"
   },
   "theme.docs.breadcrumbs.home": {
-    "message": "Homepage",
+    "message": "Página principal",
     "description": "The ARIA label for the home page in the breadcrumbs"
   },
   "theme.docs.sidebar.collapseButtonTitle": {
@@ -1418,11 +1418,11 @@
     "description": "The title attribute for collapse button of doc sidebar"
   },
   "theme.docs.sidebar.navAriaLabel": {
-    "message": "Sidebar de Documentos",
+    "message": "Barra lateral de Documentos",
     "description": "The ARIA label for the sidebar navigation"
   },
   "theme.docs.sidebar.closeSidebarButtonAriaLabel": {
-    "message": "Close sidebar",
+    "message": "Cerrar barra lateral",
     "description": "The ARIA label for close button of mobile sidebar"
   },
   "theme.navbar.mobileSidebarSecondaryMenu.backButtonLabel": {
@@ -1478,7 +1478,7 @@
     "description": "The unlisted content banner title"
   },
   "theme.contentVisibility.unlistedBanner.message": {
-    "message": "This page is unclassified. Search engines will not index it, and only users with the direct link will be able to access it.",
+    "message": "Esta página no está clasificada. Los motores de búsqueda no la indexarán, y solo los usuarios con el enlace directo podrán acceder a ella.",
     "description": "The unlisted content banner message"
   },
   "theme.contentVisibility.draftBanner.title": {
@@ -1490,7 +1490,7 @@
     "description": "The draft content banner message"
   },
   "theme.ErrorPageContent.tryAgain": {
-    "message": "Please try again",
+    "message": "Por favor, inténtelo de nuevo",
     "description": "The label of the button to try again rendering when the React error boundary captures an error"
   },
   "theme.common.skipToMainContent": {
@@ -1498,7 +1498,7 @@
     "description": "The skip to content label used for accessibility, allowing to rapidly navigate to main content with keyboard tab/enter navigation"
   },
   "theme.tags.tagsPageTitle": {
-    "message": "Tags",
+    "message": "Etiquetas",
     "description": "The title of the tag list page"
   },
   "service.gameserver-voyagers-of-nera.title": {
@@ -1510,10 +1510,10 @@
     "description": "URL path for the gameserver product"
   },
   "footer.cookieSettings": {
-    "message": "Cookie settings"
+    "message": "Configuración de cookies"
   },
   "theme.IconExternalLink.ariaLabel": {
-    "message": "(opens in new tab)",
+    "message": "(se abre en una pestaña nueva)",
     "description": "The ARIA label for the external link icon"
   }
 }

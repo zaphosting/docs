@@ -1187,11 +1187,11 @@
     "description": "The page & hero title of the blog archive page"
   },
   "theme.blog.archive.description": {
-    "message": "Archive",
+    "message": "アーカイブ",
     "description": "The page & hero description of the blog archive page"
   },
   "theme.BackToTopButton.buttonAriaLabel": {
-    "message": "Back to top",
+    "message": "ページトップへ戻る",
     "description": "The ARIA label for the back to top button"
   },
   "theme.blog.paginator.navAriaLabel": {
@@ -1199,11 +1199,11 @@
     "description": "The ARIA label for the blog pagination"
   },
   "theme.blog.paginator.newerEntries": {
-    "message": "New article",
+    "message": "新しい記事",
     "description": "The label used to navigate to the newer blog posts page (previous page)"
   },
   "theme.blog.paginator.olderEntries": {
-    "message": "Past articles",
+    "message": "過去の記事",
     "description": "The label used to navigate to the older blog posts page (next page)"
   },
   "theme.blog.post.paginator.navAriaLabel": {
@@ -1215,15 +1215,15 @@
     "description": "The blog post button label to navigate to the newer/previous post"
   },
   "theme.blog.post.paginator.olderPost": {
-    "message": "Past articles",
+    "message": "過去の記事",
     "description": "The blog post button label to navigate to the older/next post"
   },
   "theme.tags.tagsPageLink": {
-    "message": "View all tags",
+    "message": "すべてのタグを見る",
     "description": "The label of the link targeting the tag list page"
   },
   "theme.colorToggle.ariaLabel.mode.system": {
-    "message": "System Mode",
+    "message": "システムモード",
     "description": "The name for the system color mode"
   },
   "theme.colorToggle.ariaLabel.mode.light": {
@@ -1251,11 +1251,11 @@
     "description": "The ARIA label for the docs pagination"
   },
   "theme.docs.paginator.previous": {
-    "message": "Previous",
+    "message": "前へ",
     "description": "The label used to navigate to the previous doc"
   },
   "theme.docs.paginator.next": {
-    "message": "Next",
+    "message": "次へ",
     "description": "The label used to navigate to the next doc"
   },
   "theme.docs.tagDocListPageTitle.nDocsTagged": {
@@ -1286,7 +1286,7 @@
     "description": "The label used for the latest version suggestion link label"
   },
   "theme.common.editThisPage": {
-    "message": "Edit this page",
+    "message": "このページを編集",
     "description": "The link label to edit the current page"
   },
   "theme.common.headingLinkTitle": {
@@ -1306,7 +1306,7 @@
     "description": "The sentence used to display when a page has been last updated, and by who"
   },
   "theme.navbar.mobileVersionsDropdown.label": {
-    "message": "Other versions",
+    "message": "他のバージョン",
     "description": "The label for the navbar versions dropdown on mobile view"
   },
   "theme.NotFound.title": {
@@ -1334,11 +1334,11 @@
     "description": "The default label used for the Note admonition (:::note)"
   },
   "theme.admonition.tip": {
-    "message": "Hint",
+    "message": "ヒント",
     "description": "The default label used for the Tip admonition (:::tip)"
   },
   "theme.admonition.warning": {
-    "message": "Warning",
+    "message": "警告",
     "description": "The default label used for the Warning admonition (:::warning)"
   },
   "theme.AnnouncementBar.closeButtonAriaLabel": {
@@ -1366,7 +1366,7 @@
     "description": "The label for the mobile language switcher dropdown"
   },
   "theme.NotFound.p1": {
-    "message": "The page you are looking for could not be found.",
+    "message": "お探しのページは見つかりませんでした。",
     "description": "The first paragraph of the 404 page"
   },
   "theme.NotFound.p2": {
@@ -1394,11 +1394,11 @@
     "description": "The copy button label on code blocks"
   },
   "theme.CodeBlock.copied": {
-    "message": "Copied",
+    "message": "コピーしました",
     "description": "The copied button label on code blocks"
   },
   "theme.CodeBlock.copyButtonAriaLabel": {
-    "message": "Copy code to clipboard",
+    "message": "コードをクリップボードにコピー",
     "description": "The ARIA label for copy code blocks button"
   },
   "theme.CodeBlock.wordWrapToggle": {
@@ -1410,7 +1410,7 @@
     "description": "The ARIA label for the home page in the breadcrumbs"
   },
   "theme.docs.sidebar.collapseButtonTitle": {
-    "message": "Hide sidebar",
+    "message": "サイドバーを隠す",
     "description": "The title attribute for collapse button of doc sidebar"
   },
   "theme.docs.sidebar.collapseButtonAriaLabel": {
@@ -1430,7 +1430,7 @@
     "description": "The label of the back button to return to main menu, inside the mobile navbar sidebar secondary menu (notably used to display the docs sidebar)"
   },
   "theme.docs.sidebar.toggleSidebarButtonAriaLabel": {
-    "message": "Open the navigation bar",
+    "message": "ナビゲーションバーを開く",
     "description": "The ARIA label for hamburger menu button of mobile navigation"
   },
   "theme.navbar.mobileDropdown.collapseButton.expandAriaLabel": {
@@ -1442,11 +1442,11 @@
     "description": "The ARIA label of the button to collapse the mobile dropdown navbar item"
   },
   "theme.docs.sidebar.expandButtonTitle": {
-    "message": "Open the sidebar",
+    "message": "サイドバーを開く",
     "description": "The ARIA label and title attribute for expand button of doc sidebar"
   },
   "theme.docs.sidebar.expandButtonAriaLabel": {
-    "message": "Open the sidebar",
+    "message": "サイドバーを開く",
     "description": "The ARIA label and title attribute for expand button of doc sidebar"
   },
   "theme.blog.post.plurals": {
@@ -1466,11 +1466,11 @@
     "description": "The title of the authors page"
   },
   "theme.blog.authorsList.viewAll": {
-    "message": "View all authors",
+    "message": "すべての著者を見る",
     "description": "The label of the link targeting the blog authors page"
   },
   "theme.blog.author.noPosts": {
-    "message": "There are no posts by this author yet.  \nこの著者による投稿はまだありません。",
+    "message": "この著者による投稿はまだありません。",
     "description": "The text for authors with 0 blog post"
   },
   "theme.contentVisibility.unlistedBanner.title": {
@@ -1486,15 +1486,15 @@
     "description": "The draft content banner title"
   },
   "theme.contentVisibility.draftBanner.message": {
-    "message": "This page is a draft. It is displayed only in the development environment and is not included in the production build.",
+    "message": "このページは下書きです。開発環境でのみ表示され、本番ビルドには含まれません。",
     "description": "The draft content banner message"
   },
   "theme.ErrorPageContent.tryAgain": {
-    "message": "Please try again",
+    "message": "もう一度お試しください",
     "description": "The label of the button to try again rendering when the React error boundary captures an error"
   },
   "theme.common.skipToMainContent": {
-    "message": "Skip to main content",
+    "message": "メインコンテンツへスキップ",
     "description": "The skip to content label used for accessibility, allowing to rapidly navigate to main content with keyboard tab/enter navigation"
   },
   "theme.tags.tagsPageTitle": {
@@ -1510,10 +1510,10 @@
     "description": "URL path for the gameserver product"
   },
   "footer.cookieSettings": {
-    "message": "Cookie settings"
+    "message": "クッキー設定"
   },
   "theme.IconExternalLink.ariaLabel": {
-    "message": "(opens in new tab)",
+    "message": "（新しいタブで開く）",
     "description": "The ARIA label for the external link icon"
   }
 }

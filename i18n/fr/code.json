@@ -1501,19 +1501,19 @@
     "description": "The draft content banner title"
   },
   "theme.contentVisibility.draftBanner.message": {
-    "message": "Cette page est un brouillon. Elle ne sera visible qu'en développement et sera exclue de la version de production.",
+    "message": "This page is a draft. It will only be visible in development and will be excluded from the production version.",
     "description": "The draft content banner message"
   },
   "theme.ErrorPageContent.tryAgain": {
-    "message": "Réessayez",
+    "message": "Retry",
     "description": "The label of the button to try again rendering when the React error boundary captures an error"
   },
   "theme.common.skipToMainContent": {
-    "message": "Passer au contenu principal",
+    "message": "Skip to main content",
     "description": "The skip to content label used for accessibility, allowing to rapidly navigate to main content with keyboard tab/enter navigation"
   },
   "theme.tags.tagsPageTitle": {
-    "message": "Étiquettes",
+    "message": "Tags",
     "description": "The title of the tag list page"
   }
 }

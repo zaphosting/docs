@@ -972,7 +972,7 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-terraria.title": {
-    "message": "เซิร์ฟเวอร์เกม Terraria",
+    "message": "{voucherValue} {voucherType} ส่วนลดเช่าเซิร์ฟเวอร์ 🏷️",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-terraria.path": {
@@ -980,7 +980,7 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-terratech-worlds.title": {
-    "message": "เซิร์ฟเวอร์เกม Terratech Worlds",
+    "message": "ส่วนลดเช่าเซิร์ฟเวอร์",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-terratech-worlds.path": {
@@ -988,7 +988,7 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-thebus.title": {
-    "message": "เซิร์ฟเวอร์เกม The Bus",
+    "message": "ผู้ร่วมเขียนคู่มือ",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-thebus.path": {
@@ -996,7 +996,7 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-thefront.title": {
-    "message": "เซิร์ฟเวอร์เกม Front",
+    "message": "หน้านี้เกิดข้อผิดพลาด",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-thefront.path": {
@@ -1004,7 +1004,7 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-theisle.title": {
-    "message": "เซิร์ฟเวอร์เกม The Isle",
+    "message": "เก็บถาวร",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-theisle.path": {
@@ -1012,7 +1012,7 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-lotr-rtm.title": {
-    "message": "เซิร์ฟเวอร์เกม The Lord of the Rings: RTM",
+    "message": "ไม่พบหน้าเว็บ",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-lotr-rtm.path": {
@@ -1020,7 +1020,7 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-unturned.title": {
-    "message": "เซิร์ฟเวอร์เกม Unturned",
+    "message": "หน้าไม่แสดงในรายการ",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-unturned.path": {
@@ -1028,7 +1028,7 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-vrising.title": {
-    "message": "เซิร์ฟเวอร์เกม V Rising",
+    "message": "ร่างหน้า",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-vrising.path": {
@@ -1036,7 +1036,7 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-valheim.title": {
-    "message": "เซิร์ฟเวอร์เกม Valheim",
+    "message": "ถัดไป",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-valheim.path": {
@@ -1044,7 +1044,7 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-vein.title": {
-    "message": "เซิร์ฟเวอร์เกม Vein",
+    "message": "ป้องกัน DDoS",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-vein.path": {
@@ -1052,7 +1052,7 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-veloren.title": {
-    "message": "เซิร์ฟเวอร์เกม Veloren",
+    "message": "สนับสนุน",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-veloren.path": {
@@ -1060,7 +1060,7 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-vintagestory.title": {
-    "message": "เซิร์ฟเวอร์เกม Vintage Story",
+    "message": "บัญชี",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-vintagestory.path": {
@@ -1068,7 +1068,7 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-wreckfest.title": {
-    "message": "เซิร์ฟเวอร์เกม Wreckfest",
+    "message": "ความปลอดภัย",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-wreckfest.path": {
@@ -1076,7 +1076,7 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-wreckfest2.title": {
-    "message": "เซิร์ฟเวอร์เกม Wreckfest 2",
+    "message": "โปรแกรมพันธมิตร",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-wreckfest2.path": {
@@ -1084,7 +1084,7 @@
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-wurmunlimited.title": {
-    "message": "เซิร์ฟเวอร์เกม Wurm Unlimited",
+    "message": "โปรแกรมมีส่วนร่วม",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-wurmunlimited.path": {
@@ -1092,7 +1092,7 @@
     "description": "URL path for the gameserver product"
   },
   "inlinevoucher.title": {
-    "message": "{voucherValue} {voucherType} ส่วนลดเช่าเซิร์ฟเวอร์ 🏷️"
+    "message": "คู่มือ"
   },
   "inlinevoucher.description.with-products": {
     "message": "คว้าโอกาสและเริ่มต้นโปรเจกต์ของคุณวันนี้เลย! ใช้รหัสส่วนลดสำหรับผลิตภัณฑ์ที่ระบุในคู่มือนี้และรับส่วนลด 50% 😉"
@@ -1170,16 +1170,16 @@
     "message": "(รายละเอียดอาจแตกต่างกันไปตามผลิตภัณฑ์จากผู้ให้บริการต่างๆ แต่แนวคิดหลักยังคงเหมือนเดิม)"
   },
   "voucherbox.title": {
-    "message": "ส่วนลดเช่าเซิร์ฟเวอร์"
+    "message": "บล็อก"
   },
   "contributors.title": {
-    "message": "ผู้ร่วมเขียนคู่มือ"
+    "message": "ฐานข้อมูล"
   },
   "contributors.description": {
     "message": "เข้าร่วมเป็นส่วนหนึ่งของชุมชน ZAP-Hosting วันนี้! เข้าร่วม {contributionLink} ของเราเพื่อแบ่งปันความรู้และความเชี่ยวชาญของคุณโดยการสร้างคู่มือคุณภาพสูงและเนื้อหาสร้างสรรค์ พร้อมรับรางวัลสุดคุ้มสูงสุดถึง 130€ เริ่มต้นวันนี้และสร้างความเปลี่ยนแปลง! 🙂"
   },
   "theme.ErrorPageContent.title": {
-    "message": "หน้านี้เกิดข้อผิดพลาด",
+    "message": "FiveM",
     "description": "The title of the fallback page when the page crashed"
   },
   "theme.BackToTopButton.buttonAriaLabel": {
@@ -1187,7 +1187,7 @@
     "description": "The ARIA label for the back to top button"
   },
   "theme.blog.archive.title": {
-    "message": "เก็บถาวร",
+    "message": "ขั้นตอนแรก",
     "description": "The page & hero title of the blog archive page"
   },
   "theme.blog.archive.description": {
@@ -1306,7 +1306,7 @@
     "description": "The sentence used to display when a page has been last updated, and by who"
   },
   "theme.NotFound.title": {
-    "message": "ไม่พบหน้าเว็บ",
+    "message": "การกำหนดค่า",
     "description": "The title of the 404 page"
   },
   "theme.navbar.mobileVersionsDropdown.label": {
@@ -1450,7 +1450,7 @@
     "description": "The ARIA label and title attribute for expand button of doc sidebar"
   },
   "theme.blog.post.plurals": {
-    "message": "หนึ่งโพสต์|{count} โพสต์",
+    "message": "โพสต์ 1 โพสต์|{count} โพสต์",
     "description": "Pluralized label for \"{count} posts\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
   },
   "theme.blog.tagTitle": {
@@ -1474,7 +1474,7 @@
     "description": "The text for authors with 0 blog post"
   },
   "theme.contentVisibility.unlistedBanner.title": {
-    "message": "หน้าไม่แสดงในรายการ",
+    "message": "ทรัพยากร",
     "description": "The unlisted content banner title"
   },
   "theme.contentVisibility.unlistedBanner.message": {
@@ -1482,7 +1482,7 @@
     "description": "The unlisted content banner message"
   },
   "theme.contentVisibility.draftBanner.title": {
-    "message": "ร่างหน้า",
+    "message": "เฟรมเวิร์ก",
     "description": "The draft content banner title"
   },
   "theme.contentVisibility.draftBanner.message": {
@@ -1502,7 +1502,7 @@
     "description": "The title of the tag list page"
   },
   "service.gameserver-voyagers-of-nera.title": {
-    "message": "เซิร์ฟเวอร์เกม Voyagers of Nera",
+    "message": "ESX",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-voyagers-of-nera.path": {
@@ -1510,10 +1510,10 @@
     "description": "URL path for the gameserver product"
   },
   "footer.cookieSettings": {
-    "message": "Cookie settings"
+    "message": "การตั้งค่า Cookie"
   },
   "theme.IconExternalLink.ariaLabel": {
-    "message": "(opens in new tab)",
+    "message": "(เปิดในแท็บใหม่)",
     "description": "The ARIA label for the external link icon"
   }
 }

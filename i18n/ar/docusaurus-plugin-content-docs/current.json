@@ -28,7 +28,7 @@
     "description": "The label for category 'Contribution Program' in sidebar 'guidesSidebar'"
   },
   "sidebar.guidesSidebar.category.general-contribution-program-guides": {
-    "message": "أدلة",
+    "message": "الأدلة",
     "description": "The label for category 'Guides' in sidebar 'guidesSidebar'"
   },
   "sidebar.guidesSidebar.category.general-contribution-program-blogs": {
@@ -628,7 +628,7 @@
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-counter-strike-condition-zero": {
-    "message": "كاونتر-سترايك: كونديشن زيرو",
+    "message": "Counter-Strike: Condition Zero",
     "description": "The label for category 'Counter-Strike: Condition Zero' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-counter-strike-condition-zero": {
@@ -640,7 +640,7 @@
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-counter-strike-source": {
-    "message": "كاونتر-سترايك: سورس",
+    "message": "Counter-Strike: Source",
     "description": "The label for category 'Counter-Strike: Source' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-counter-strike-source": {
@@ -656,7 +656,7 @@
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-counter-strike-2": {
-    "message": "كاونتر-سترايك 2",
+    "message": "Counter-Strike 2",
     "description": "The label for category 'Counter-Strike 2' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-counter-strike-2": {
@@ -676,7 +676,7 @@
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-day-of-defeat-source": {
-    "message": "يوم الهزيمة: المصدر",
+    "message": "Day of Defeat: Source",
     "description": "The label for category 'Day of Defeat: Source' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-day-of-defeat-source": {
@@ -692,7 +692,7 @@
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-day-of-infamy": {
-    "message": "يوم العار",
+    "message": "Day of Infamy",
     "description": "The label for category 'Day of Infamy' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-day-of-infamy": {
@@ -732,7 +732,7 @@
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-deadlock": {
-    "message": "احتجاز متبادل",
+    "message": "Containment Breach",
     "description": "The label for category 'Deadlock' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-deadlock": {
@@ -756,7 +756,7 @@
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-don-t-starve-together": {
-    "message": "لا تموتوا معًا",
+    "message": "Don't Starve Together",
     "description": "The label for category 'Don't Starve Together' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-don-t-starve-together": {
@@ -836,7 +836,7 @@
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-factorio": {
-    "message": "فاكتوريو",
+    "message": "Factorio",
     "description": "The label for category 'Factorio' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-factorio": {
@@ -884,7 +884,7 @@
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-foundry": {
-    "message": "فاوندري",
+    "message": "Foundry",
     "description": "The label for category 'Foundry' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-foundry": {
@@ -916,7 +916,7 @@
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-ground-branch": {
-    "message": "جروند برانش",
+    "message": "Ground Branch",
     "description": "The label for category 'Ground Branch' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-ground-branch": {
@@ -960,7 +960,7 @@
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-holdfast-nations-at-war": {
-    "message": "هولدفاست: الأمم في حرب",
+    "message": "Holdfast: Nations at War",
     "description": "The label for category 'Holdfast: Nations At War' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-holdfast-nations-at-war": {
@@ -996,7 +996,7 @@
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-icarus": {
-    "message": "إيكاروس",
+    "message": "Icarus",
     "description": "The label for category 'Icarus' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-icarus": {
@@ -1008,7 +1008,7 @@
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-insurgency-sandstorm": {
-    "message": "إنسيرجنسي: ساندستورم",
+    "message": "Insurgency: Sandstorm",
     "description": "The label for category 'Insurgency: Sandstorm' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-insurgency-sandstorm": {
@@ -1020,7 +1020,7 @@
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-iron-armada": {
-    "message": "آيرون أرمادا",
+    "message": "Iron Armada",
     "description": "The label for category 'Iron Armada' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-iron-armada": {
@@ -1032,7 +1032,7 @@
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-journey-of-life": {
-    "message": "رحلة الحياة",
+    "message": "Journey of Life",
     "description": "The label for category 'Journey of Life' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-journey-of-life": {
@@ -1056,7 +1056,7 @@
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-last-oasis": {
-    "message": "لاست أوايسس",
+    "message": "Last Oasis",
     "description": "The label for category 'Last Oasis' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-last-oasis": {
@@ -1072,7 +1072,7 @@
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-leap": {
-    "message": "قفزة",
+    "message": "Leap",
     "description": "The label for category 'Leap' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-leap": {
@@ -1100,7 +1100,7 @@
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-longvinter": {
-    "message": "لونغفينتر",
+    "message": "Long Winter",
     "description": "The label for category 'Longvinter' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-longvinter": {
@@ -1132,7 +1132,7 @@
     "description": "The label for category 'Bungeecord' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-forge-fabric-mods-minecraft": {
-    "message": "فورج وفابريك (التعديلات)",
+    "message": "Forge and Fabric (Mods)",
     "description": "The label for category 'Forge & Fabric (Mods)' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-spigot-bukkit-plugins-minecraft": {
@@ -1144,7 +1144,7 @@
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-minetest": {
-    "message": "مينيتست",
+    "message": "Minetest",
     "description": "The label for category 'Minetest' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-minetest": {
@@ -1172,7 +1172,7 @@
     "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-motor-town-behind-the-wheel": {
-    "message": "موتور تاون: خلف المقود",
+    "message": "Motor Town: Behind the Wheel",
     "description": "The label for category 'Motor Town: Behind The Wheel' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-motor-town-behind-the-wheel": {
@@ -1184,7 +1184,7 @@
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-mount-blade": {
-    "message": "ماونت آند بليد",
+    "message": "Mount & Blade",
     "description": "The label for category 'Mount & Blade' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-mount-blade": {
@@ -1196,7 +1196,7 @@
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-multi-theft-auto": {
-    "message": "Grand Theft Auto متعدد اللاعبين",
+    "message": "Grand Theft Auto Multiplayer",
     "description": "The label for category 'Multi Theft Auto' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-multi-theft-auto": {
@@ -1212,7 +1212,7 @@
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-myth-of-empires": {
-    "message": "أسطورة الإمبراطوريات",
+    "message": "Myth of Empires",
     "description": "The label for category 'Myth of Empires' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-myth-of-empires": {
@@ -1240,7 +1240,7 @@
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-never-split-the-party": {
-    "message": "لا تقم بتقسيم الفريق أبدًا",
+    "message": "Never Split the Team",
     "description": "The label for category 'Never Split the Party' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-never-split-the-party": {
@@ -1264,7 +1264,7 @@
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-no-more-room-in-hell": {
-    "message": "لا مزيد من الغرف في الجحيم",
+    "message": "No More Rooms in Hell",
     "description": "The label for category 'No More Room In Hell' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-no-more-room-in-hell": {
@@ -1280,7 +1280,7 @@
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-no-one-survived": {
-    "message": "لم ينجُ أحد",
+    "message": "No One Survived",
     "description": "The label for category 'No One Survived' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-no-one-survived": {
@@ -1292,7 +1292,7 @@
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-one-hour-one-life": {
-    "message": "ساعة واحدة حياة واحدة",
+    "message": "One Hour One Life",
     "description": "The label for category 'One Hour One Life' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-one-hour-one-life": {
@@ -1332,7 +1332,7 @@
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-operation-harsh-doorstop": {
-    "message": "العملية: Harsh Doorstop",
+    "message": "Operation: Harsh Doorstop",
     "description": "The label for category 'Operation: Harsh Doorstop' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-operation-harsh-doorstop": {
@@ -1344,7 +1344,7 @@
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-outlaws-of-the-old-west": {
-    "message": "خارجون عن القانون في الغرب القديم",
+    "message": "Outlaws of the Old West",
     "description": "The label for category 'Outlaws of the Old West' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-outlaws-of-the-old-west": {
@@ -1372,7 +1372,7 @@
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-path-of-titans": {
-    "message": "مسار التيتانز",
+    "message": "Path of Titans",
     "description": "The label for category 'Path of Titans' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-path-of-titans": {
@@ -1400,7 +1400,7 @@
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-portal-knights": {
-    "message": "بوابة الفرسان",
+    "message": "Portal Knights",
     "description": "The label for category 'Portal Knights' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-portal-knights": {
@@ -1412,7 +1412,7 @@
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-project-zomboid": {
-    "message": "مشروع زومبويد",
+    "message": "Project Zomboid",
     "description": "The label for category 'Project Zomboid' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-project-zomboid": {
@@ -1428,7 +1428,7 @@
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-redm": {
-    "message": "ريد إم",
+    "message": "Red M",
     "description": "The label for category 'RedM' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-redm": {
@@ -1448,7 +1448,7 @@
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-reign-of-kings": {
-    "message": "عهد الملوك",
+    "message": "Reign of Kings",
     "description": "The label for category 'Reign of Kings' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-reign-of-kings": {
@@ -1488,7 +1488,7 @@
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-risk-of-rain-2": {
-    "message": "خطر المطر 2",
+    "message": "Risk of Rain 2",
     "description": "The label for category 'Risk of Rain 2' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-risk-of-rain-2": {
@@ -2028,15 +2028,15 @@
     "description": "The label for category 'Troubleshooting' in sidebar 'vpsrootSidebar'"
   },
   "sidebar.vpsrootSidebar.category.vserver-general": {
-    "message": "عام",
+    "message": "سيرفرات ألعاب مخصصة",
     "description": "The label for category 'General' in sidebar 'vpsrootSidebar'"
   },
   "sidebar.vpsrootSidebar.category.vserver-linux-services": {
-    "message": "الخدمات",
+    "message": "تثبيت Windows",
     "description": "The label for category 'Services' in sidebar 'vpsrootSidebar'"
   },
   "sidebar.vpsrootSidebar.category.vserver-linux-dedicated-game-servers": {
-    "message": "Dedicated game servers",
+    "message": "تثبيت Ubuntu",
     "description": "The label for category 'Dedicated Game Servers' in sidebar 'vpsrootSidebar'"
   },
   "sidebar.vpsrootSidebar.category.vserver-linux-troubleshooting": {
@@ -2044,15 +2044,15 @@
     "description": "The label for category 'Troubleshooting' in sidebar 'vpsrootSidebar'"
   },
   "sidebar.vpsrootSidebar.category.vserver-windows-general": {
-    "message": "عام",
+    "message": "سيرفرات ألعاب مخصصة",
     "description": "The label for category 'General' in sidebar 'vpsrootSidebar'"
   },
   "sidebar.vpsrootSidebar.category.vserver-windows-services": {
-    "message": "الخدمات",
+    "message": "تثبيت Windows",
     "description": "The label for category 'Services' in sidebar 'vpsrootSidebar'"
   },
   "sidebar.vpsrootSidebar.category.vserver-windows-dedicated-game-servers": {
-    "message": "Dedicated game servers",
+    "message": "تثبيت Ubuntu",
     "description": "The label for category 'Dedicated Game Servers' in sidebar 'vpsrootSidebar'"
   },
   "sidebar.vpsrootSidebar.category.vserver-windows-troubleshooting": {
@@ -2064,23 +2064,23 @@
     "description": "The label for category 'Troubleshooting' in sidebar 'dedicatedserverSidebar'"
   },
   "sidebar.dedicatedserverSidebar.category.dedicated-server-install-windows": {
-    "message": "Install Windows",
+    "message": "إعادة توجيه النطاق",
     "description": "The label for category 'Install Windows' in sidebar 'dedicatedserverSidebar'"
   },
   "sidebar.dedicatedserverSidebar.category.dedicated-server-install-ubuntu": {
-    "message": "Install Ubuntu",
+    "message": "Cloudflare",
     "description": "The label for category 'Install Ubuntu' in sidebar 'dedicatedserverSidebar'"
   },
   "sidebar.dedicatedserverSidebar.category.dedicated-server-linux-general": {
-    "message": "عام",
+    "message": "سيرفرات ألعاب مخصصة",
     "description": "The label for category 'General' in sidebar 'dedicatedserverSidebar'"
   },
   "sidebar.dedicatedserverSidebar.category.dedicated-server-linux-services": {
-    "message": "الخدمات",
+    "message": "تثبيت Windows",
     "description": "The label for category 'Services' in sidebar 'dedicatedserverSidebar'"
   },
   "sidebar.dedicatedserverSidebar.category.dedicated-server-linux-dedicated-game-servers": {
-    "message": "Dedicated game servers",
+    "message": "تثبيت Ubuntu",
     "description": "The label for category 'Dedicated Game Servers' in sidebar 'dedicatedserverSidebar'"
   },
   "sidebar.dedicatedserverSidebar.category.dedicated-server-linux-security": {
@@ -2088,15 +2088,15 @@
     "description": "The label for category 'Security' in sidebar 'dedicatedserverSidebar'"
   },
   "sidebar.dedicatedserverSidebar.category.dedicated-server-windows-general": {
-    "message": "عام",
+    "message": "سيرفرات ألعاب مخصصة",
     "description": "The label for category 'General' in sidebar 'dedicatedserverSidebar'"
   },
   "sidebar.dedicatedserverSidebar.category.dedicated-server-windows-services": {
-    "message": "الخدمات",
+    "message": "تثبيت Windows",
     "description": "The label for category 'Services' in sidebar 'dedicatedserverSidebar'"
   },
   "sidebar.dedicatedserverSidebar.category.dedicated-server-windows-dedicated-game-servers": {
-    "message": "Dedicated game servers",
+    "message": "تثبيت Ubuntu",
     "description": "The label for category 'Dedicated Game Servers' in sidebar 'dedicatedserverSidebar'"
   },
   "sidebar.dedicatedserverSidebar.category.dedicated-server-windows-troubleshooting": {
@@ -2104,23 +2104,23 @@
     "description": "The label for category 'Troubleshooting' in sidebar 'dedicatedserverSidebar'"
   },
   "sidebar.domainwebspaceSidebar.category.domain-domain-forwarding": {
-    "message": "Domain forwarding",
+    "message": "MyBB",
     "description": "The label for category 'Domain forwarding' in sidebar 'domainwebspaceSidebar'"
   },
   "sidebar.domainwebspaceSidebar.category.domain-cloudflare": {
-    "message": "Cloudflare",
+    "message": "WordPress",
     "description": "The label for category 'Cloudflare' in sidebar 'domainwebspaceSidebar'"
   },
   "sidebar.domainwebspaceSidebar.category.domain-e-mails": {
-    "message": "Email",
+    "message": "TS3MusicBot",
     "description": "The label for category 'E-Mails' in sidebar 'domainwebspaceSidebar'"
   },
   "sidebar.domainwebspaceSidebar.category.domain-mybb": {
-    "message": "MyBB",
+    "message": "تأجير VPS",
     "description": "The label for category 'MyBB' in sidebar 'domainwebspaceSidebar'"
   },
   "sidebar.domainwebspaceSidebar.category.domain-wordpress": {
-    "message": "WordPress",
+    "message": "تأجير سيرفر مخصص",
     "description": "The label for category 'WordPress' in sidebar 'domainwebspaceSidebar'"
   },
   "sidebar.voiceserverbotSidebar.category.domain-discord-bot": {
@@ -2128,27 +2128,27 @@
     "description": "The label for category 'Discord Bot' in sidebar 'voiceserverbotSidebar'"
   },
   "sidebar.voiceserverbotSidebar.category.domain-ts3musicbot": {
-    "message": "TS3MusicBot",
+    "message": "تأجير سيرفر ألعاب",
     "description": "The label for category 'TS3MusicBot' in sidebar 'voiceserverbotSidebar'"
   },
   "sidebar.guidesSidebar.category.dedicated-linux-dedicated-game-servers-general": {
-    "message": "حماية DDoS",
+    "message": "تأجير سيرفر TeamSpeak",
     "description": "The label for category 'DDoS Protection' in sidebar 'guidesSidebar'"
   },
   "sidebar.vpsrootSidebar.category.vserver-linux-dedicated-game-servers-general": {
-    "message": "عام",
+    "message": "سيرفرات ألعاب مخصصة",
     "description": "The label for category 'General' in sidebar 'vpsrootSidebar'"
   },
   "sidebar.vpsrootSidebar.category.vserver-windows-dedicated-game-servers-general": {
-    "message": "عام",
+    "message": "سيرفرات ألعاب مخصصة",
     "description": "The label for category 'General' in sidebar 'vpsrootSidebar'"
   },
   "sidebar.dedicatedserverSidebar.category.dedicated-linux-dedicated-game-servers-general": {
-    "message": "عام",
+    "message": "سيرفرات ألعاب مخصصة",
     "description": "The label for category 'General' in sidebar 'dedicatedserverSidebar'"
   },
   "sidebar.dedicatedserverSidebar.category.dedicated-windows-dedicated-game-servers-general": {
-    "message": "عام",
+    "message": "سيرفرات ألعاب مخصصة",
     "description": "The label for category 'General' in sidebar 'dedicatedserverSidebar'"
   }
 }

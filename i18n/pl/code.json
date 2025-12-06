@@ -1183,7 +1183,7 @@
     "description": "The title of the fallback page when the page crashed"
   },
   "theme.BackToTopButton.buttonAriaLabel": {
-    "message": "Scroll to top",
+    "message": "Przewiń do góry",
     "description": "The ARIA label for the back to top button"
   },
   "theme.blog.archive.title": {
@@ -1195,7 +1195,7 @@
     "description": "The page & hero description of the blog archive page"
   },
   "theme.blog.paginator.navAriaLabel": {
-    "message": "Navigation on the blog post list page",
+    "message": "Nawigacja na stronie listy wpisów na blogu",
     "description": "The ARIA label for the blog pagination"
   },
   "theme.blog.paginator.newerEntries": {
@@ -1203,11 +1203,11 @@
     "description": "The label used to navigate to the newer blog posts page (previous page)"
   },
   "theme.blog.paginator.olderEntries": {
-    "message": "Older entries",
+    "message": "Starsze wpisy",
     "description": "The label used to navigate to the older blog posts page (next page)"
   },
   "theme.blog.post.paginator.navAriaLabel": {
-    "message": "Navigation on the blog post page",
+    "message": "Nawigacja na stronie wpisu na blogu",
     "description": "The ARIA label for the blog posts pagination"
   },
   "theme.blog.post.paginator.newerPost": {
@@ -1227,7 +1227,7 @@
     "description": "The name for the system color mode"
   },
   "theme.colorToggle.ariaLabel.mode.light": {
-    "message": "light theme",
+    "message": "jasny motyw",
     "description": "The name for the light color mode"
   },
   "theme.colorToggle.ariaLabel.mode.dark": {
@@ -1251,11 +1251,11 @@
     "description": "The ARIA label for the docs pagination"
   },
   "theme.docs.paginator.previous": {
-    "message": "Previous page",
+    "message": "Poprzednia strona",
     "description": "The label used to navigate to the previous doc"
   },
   "theme.docs.paginator.next": {
-    "message": "Next page",
+    "message": "Następna strona",
     "description": "The label used to navigate to the next doc"
   },
   "theme.docs.tagDocListPageTitle.nDocsTagged": {
@@ -1274,7 +1274,7 @@
     "description": "The label used to tell the user that he's browsing an unreleased doc version"
   },
   "theme.docs.versions.unmaintainedVersionLabel": {
-    "message": "This documentation concerns {siteTitle} version {versionLabel} and is no longer actively updated.",
+    "message": "Ta dokumentacja dotyczy wersji {versionLabel} {siteTitle} i nie jest już aktywnie aktualizowana.",
     "description": "The label used to tell the user that he's browsing an unmaintained doc version"
   },
   "theme.docs.versions.latestVersionSuggestionLabel": {
@@ -1306,7 +1306,7 @@
     "description": "The sentence used to display when a page has been last updated, and by who"
   },
   "theme.navbar.mobileVersionsDropdown.label": {
-    "message": "Versions",
+    "message": "Wersje",
     "description": "The label for the navbar versions dropdown on mobile view"
   },
   "theme.NotFound.title": {
@@ -1314,7 +1314,7 @@
     "description": "The title of the 404 page"
   },
   "theme.tags.tagsListLabel": {
-    "message": "Tags:",
+    "message": "Tagi:",
     "description": "The label alongside a tag list"
   },
   "theme.admonition.caution": {
@@ -1334,7 +1334,7 @@
     "description": "The default label used for the Note admonition (:::note)"
   },
   "theme.admonition.tip": {
-    "message": "tip",
+    "message": "wskazówka",
     "description": "The default label used for the Tip admonition (:::tip)"
   },
   "theme.admonition.warning": {
@@ -1342,11 +1342,11 @@
     "description": "The default label used for the Warning admonition (:::warning)"
   },
   "theme.AnnouncementBar.closeButtonAriaLabel": {
-    "message": "Close",
+    "message": "Zamknij",
     "description": "The ARIA label for close button of announcement bar"
   },
   "theme.blog.sidebar.navAriaLabel": {
-    "message": "Navigation through the latest blog posts",
+    "message": "Nawigacja przez najnowsze wpisy na blogu",
     "description": "The ARIA label for recent posts in the blog sidebar"
   },
   "theme.DocSidebarItem.expandCategoryAriaLabel": {
@@ -1366,11 +1366,11 @@
     "description": "The first paragraph of the 404 page"
   },
   "theme.NotFound.p2": {
-    "message": "Please contact the owner of the site from which the link brought you here and inform them that the link is incorrect.",
+    "message": "Prosimy o kontakt z właścicielem strony, z której pochodzi ten link, i poinformowanie go, że link jest nieprawidłowy.",
     "description": "The 2nd paragraph of the 404 page"
   },
   "theme.navbar.mobileLanguageDropdown.label": {
-    "message": "Languages",
+    "message": "Języki",
     "description": "The label for the mobile language switcher dropdown"
   },
   "theme.TOCCollapsible.toggleButtonLabel": {
@@ -1378,7 +1378,7 @@
     "description": "The label used by the button on the collapsible TOC component"
   },
   "theme.blog.post.readMore": {
-    "message": "Read more",
+    "message": "Czytaj więcej",
     "description": "The label used in blog post item excerpts to link to full blog posts"
   },
   "theme.blog.post.readMoreLabel": {
@@ -1390,11 +1390,11 @@
     "description": "Pluralized label for \"{readingTime} min read\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
   },
   "theme.CodeBlock.copy": {
-    "message": "Copy",
+    "message": "Kopiuj",
     "description": "The copy button label on code blocks"
   },
   "theme.CodeBlock.copied": {
-    "message": "Copied!",
+    "message": "Skopiowano!",
     "description": "The copied button label on code blocks"
   },
   "theme.CodeBlock.copyButtonAriaLabel": {
@@ -1402,7 +1402,7 @@
     "description": "The ARIA label for copy code blocks button"
   },
   "theme.CodeBlock.wordWrapToggle": {
-    "message": "Toggle word wrap",
+    "message": "Przełącz zawijanie tekstu",
     "description": "The title attribute for toggle word wrapping button of code block lines"
   },
   "theme.docs.breadcrumbs.home": {
@@ -1410,11 +1410,11 @@
     "description": "The ARIA label for the home page in the breadcrumbs"
   },
   "theme.docs.sidebar.collapseButtonTitle": {
-    "message": "Collapse the side panel",
+    "message": "Zwiń panel boczny",
     "description": "The title attribute for collapse button of doc sidebar"
   },
   "theme.docs.sidebar.collapseButtonAriaLabel": {
-    "message": "Collapse the side panel",
+    "message": "Zwiń panel boczny",
     "description": "The title attribute for collapse button of doc sidebar"
   },
   "theme.docs.sidebar.navAriaLabel": {
@@ -1422,7 +1422,7 @@
     "description": "The ARIA label for the sidebar navigation"
   },
   "theme.docs.sidebar.closeSidebarButtonAriaLabel": {
-    "message": "Close navigation panel",
+    "message": "Zamknij panel nawigacji",
     "description": "The ARIA label for close button of mobile sidebar"
   },
   "theme.navbar.mobileSidebarSecondaryMenu.backButtonLabel": {
@@ -1430,7 +1430,7 @@
     "description": "The label of the back button to return to main menu, inside the mobile navbar sidebar secondary menu (notably used to display the docs sidebar)"
   },
   "theme.docs.sidebar.toggleSidebarButtonAriaLabel": {
-    "message": "Switching the navigation panel",
+    "message": "Przełączanie panelu nawigacji",
     "description": "The ARIA label for hamburger menu button of mobile navigation"
   },
   "theme.navbar.mobileDropdown.collapseButton.expandAriaLabel": {
@@ -1442,11 +1442,11 @@
     "description": "The ARIA label of the button to collapse the mobile dropdown navbar item"
   },
   "theme.docs.sidebar.expandButtonTitle": {
-    "message": "Expand the side panel",
+    "message": "Rozwiń panel boczny",
     "description": "The ARIA label and title attribute for expand button of doc sidebar"
   },
   "theme.docs.sidebar.expandButtonAriaLabel": {
-    "message": "Expand the side panel",
+    "message": "Rozwiń panel boczny",
     "description": "The ARIA label and title attribute for expand button of doc sidebar"
   },
   "theme.blog.post.plurals": {
@@ -1462,11 +1462,11 @@
     "description": "The title of the page for a blog author"
   },
   "theme.blog.authorsList.pageTitle": {
-    "message": "Authors",
+    "message": "Autorzy",
     "description": "The title of the authors page"
   },
   "theme.blog.authorsList.viewAll": {
-    "message": "See all authors",
+    "message": "Zobacz wszystkich autorów",
     "description": "The label of the link targeting the blog authors page"
   },
   "theme.blog.author.noPosts": {
@@ -1478,7 +1478,7 @@
     "description": "The unlisted content banner title"
   },
   "theme.contentVisibility.unlistedBanner.message": {
-    "message": "This page is private. Search engines will not index it, and only users with a direct link will have access to it.",
+    "message": "Ta strona jest prywatna. Wyszukiwarki nie będą jej indeksować, a dostęp do niej będą mieli tylko użytkownicy z bezpośrednim linkiem.",
     "description": "The unlisted content banner message"
   },
   "theme.contentVisibility.draftBanner.title": {
@@ -1486,19 +1486,19 @@
     "description": "The draft content banner title"
   },
   "theme.contentVisibility.draftBanner.message": {
-    "message": "Ta strona jest wersją roboczą. Będzie widoczna tylko w środowisku deweloperskim i zostanie wyłączona z wersji produkcyjnej.",
+    "message": "Ta strona jest wersją roboczą. Będzie widoczna tylko w środowisku deweloperskim i zostanie wyłączona w wersji produkcyjnej.",
     "description": "The draft content banner message"
   },
   "theme.ErrorPageContent.tryAgain": {
-    "message": "Try again",
+    "message": "Spróbuj ponownie",
     "description": "The label of the button to try again rendering when the React error boundary captures an error"
   },
   "theme.common.skipToMainContent": {
-    "message": "Go to main content",
+    "message": "Przejdź do głównej treści",
     "description": "The skip to content label used for accessibility, allowing to rapidly navigate to main content with keyboard tab/enter navigation"
   },
   "theme.tags.tagsPageTitle": {
-    "message": "Tags",
+    "message": "Tagi",
     "description": "The title of the tag list page"
   },
   "service.gameserver-voyagers-of-nera.title": {
@@ -1510,7 +1510,7 @@
     "description": "URL path for the gameserver product"
   },
   "footer.cookieSettings": {
-    "message": "Cookie settings"
+    "message": "Ustawienia plików cookie"
   },
   "theme.IconExternalLink.ariaLabel": {
     "message": "(otwiera się w nowej karcie)",

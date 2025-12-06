@@ -1191,7 +1191,7 @@
     "description": "The page & hero title of the blog archive page"
   },
   "theme.blog.archive.description": {
-    "message": "File",
+    "message": "Arquivo",
     "description": "The page & hero description of the blog archive page"
   },
   "theme.blog.paginator.navAriaLabel": {
@@ -1203,7 +1203,7 @@
     "description": "The label used to navigate to the newer blog posts page (previous page)"
   },
   "theme.blog.paginator.olderEntries": {
-    "message": "Older content",
+    "message": "Conteúdo mais antigo",
     "description": "The label used to navigate to the older blog posts page (next page)"
   },
   "theme.blog.post.paginator.navAriaLabel": {
@@ -1227,15 +1227,15 @@
     "description": "The name for the system color mode"
   },
   "theme.colorToggle.ariaLabel.mode.light": {
-    "message": "light mode",
+    "message": "modo claro",
     "description": "The name for the light color mode"
   },
   "theme.colorToggle.ariaLabel.mode.dark": {
-    "message": "dark mode",
+    "message": "modo escuro",
     "description": "The name for the dark color mode"
   },
   "theme.colorToggle.ariaLabel": {
-    "message": "Switch between light and dark modes (mode {mode} activated)",
+    "message": "Alternar entre modos claro e escuro (modo {mode} ativado)",
     "description": "The ARIA label for the color mode toggle"
   },
   "theme.docs.breadcrumbs.navAriaLabel": {
@@ -1247,15 +1247,15 @@
     "description": "The default description for a category card in the generated index about how many items this category includes"
   },
   "theme.docs.paginator.navAriaLabel": {
-    "message": "Documentation pages",
+    "message": "Páginas de documentação",
     "description": "The ARIA label for the docs pagination"
   },
   "theme.docs.paginator.previous": {
-    "message": "Previous",
+    "message": "Anterior",
     "description": "The label used to navigate to the previous doc"
   },
   "theme.docs.paginator.next": {
-    "message": "Next",
+    "message": "Próximo",
     "description": "The label used to navigate to the next doc"
   },
   "theme.docs.tagDocListPageTitle.nDocsTagged": {
@@ -1306,7 +1306,7 @@
     "description": "The sentence used to display when a page has been last updated, and by who"
   },
   "theme.navbar.mobileVersionsDropdown.label": {
-    "message": "Versions",
+    "message": "Versões",
     "description": "The label for the navbar versions dropdown on mobile view"
   },
   "theme.NotFound.title": {
@@ -1322,7 +1322,7 @@
     "description": "The default label used for the Caution admonition (:::caution)"
   },
   "theme.admonition.danger": {
-    "message": "danger",
+    "message": "perigo",
     "description": "The default label used for the Danger admonition (:::danger)"
   },
   "theme.admonition.info": {
@@ -1342,7 +1342,7 @@
     "description": "The default label used for the Warning admonition (:::warning)"
   },
   "theme.AnnouncementBar.closeButtonAriaLabel": {
-    "message": "Close",
+    "message": "Fechar",
     "description": "The ARIA label for close button of announcement bar"
   },
   "theme.blog.sidebar.navAriaLabel": {
@@ -1362,7 +1362,7 @@
     "description": "The ARIA label for the main navigation"
   },
   "theme.navbar.mobileLanguageDropdown.label": {
-    "message": "Linguagens",
+    "message": "Idiomas",
     "description": "The label for the mobile language switcher dropdown"
   },
   "theme.NotFound.p1": {
@@ -1374,7 +1374,7 @@
     "description": "The 2nd paragraph of the 404 page"
   },
   "theme.TOCCollapsible.toggleButtonLabel": {
-    "message": "Nessa página",
+    "message": "Nesta página",
     "description": "The label used by the button on the collapsible TOC component"
   },
   "theme.blog.post.readMore": {
@@ -1390,19 +1390,19 @@
     "description": "Pluralized label for \"{readingTime} min read\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
   },
   "theme.CodeBlock.copy": {
-    "message": "Copy",
+    "message": "Copiar",
     "description": "The copy button label on code blocks"
   },
   "theme.CodeBlock.copied": {
-    "message": "Copied",
+    "message": "Copiado",
     "description": "The copied button label on code blocks"
   },
   "theme.CodeBlock.copyButtonAriaLabel": {
-    "message": "Copy code to clipboard",
+    "message": "Copiar código para a área de transferência",
     "description": "The ARIA label for copy code blocks button"
   },
   "theme.CodeBlock.wordWrapToggle": {
-    "message": "Toggle line break",
+    "message": "Alternar quebra de linha",
     "description": "The title attribute for toggle word wrapping button of code block lines"
   },
   "theme.docs.breadcrumbs.home": {
@@ -1430,11 +1430,11 @@
     "description": "The label of the back button to return to main menu, inside the mobile navbar sidebar secondary menu (notably used to display the docs sidebar)"
   },
   "theme.docs.sidebar.toggleSidebarButtonAriaLabel": {
-    "message": "Toggle the navigation bar",
+    "message": "Alternar a barra de navegação",
     "description": "The ARIA label for hamburger menu button of mobile navigation"
   },
   "theme.navbar.mobileDropdown.collapseButton.expandAriaLabel": {
-    "message": "Expanda o menu suspenso",
+    "message": "Expandir o menu suspenso",
     "description": "The ARIA label of the button to expand the mobile dropdown navbar item"
   },
   "theme.navbar.mobileDropdown.collapseButton.collapseAriaLabel": {
@@ -1478,7 +1478,7 @@
     "description": "The unlisted content banner title"
   },
   "theme.contentVisibility.unlistedBanner.message": {
-    "message": "This page is not listed. Search engines will not store any information, and only users who have the direct link will be able to access it.",
+    "message": "Esta página não está listada. Motores de busca não armazenarão nenhuma informação, e somente usuários com o link direto poderão acessá-la.",
     "description": "The unlisted content banner message"
   },
   "theme.contentVisibility.draftBanner.title": {
@@ -1494,7 +1494,7 @@
     "description": "The label of the button to try again rendering when the React error boundary captures an error"
   },
   "theme.common.skipToMainContent": {
-    "message": "Skip to main content",
+    "message": "Ir para o conteúdo principal",
     "description": "The skip to content label used for accessibility, allowing to rapidly navigate to main content with keyboard tab/enter navigation"
   },
   "theme.tags.tagsPageTitle": {
@@ -1502,7 +1502,7 @@
     "description": "The title of the tag list page"
   },
   "service.gameserver-voyagers-of-nera.title": {
-    "message": "Voyagers of Nera Servidor de jogos",
+    "message": "Voyagers of Nera servidor de jogos",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-voyagers-of-nera.path": {
@@ -1510,10 +1510,10 @@
     "description": "URL path for the gameserver product"
   },
   "footer.cookieSettings": {
-    "message": "Cookie settings"
+    "message": "Configurações de cookies"
   },
   "theme.IconExternalLink.ariaLabel": {
-    "message": "(opens in new tab)",
+    "message": "(abre em nova aba)",
     "description": "The ARIA label for the external link icon"
   }
 }
