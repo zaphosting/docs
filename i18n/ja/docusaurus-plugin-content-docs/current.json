@@ -2,5 +2,2153 @@
   "version.label": {
     "message": "次へ",
     "description": "The label for version current"
+  },
+  "sidebar.guidesSidebar.category.dedicated-linux-dedicated-game-servers-general": {
+    "message": "DDoS保護",
+    "description": "The label for category 'DDoS Protection' in sidebar 'guidesSidebar'"
+  },
+  "sidebar.guidesSidebar.category.Support": {
+    "message": "サポート",
+    "description": "The label for category 'Support' in sidebar 'guidesSidebar'"
+  },
+  "sidebar.guidesSidebar.category.Account": {
+    "message": "アカウント",
+    "description": "The label for category 'Account' in sidebar 'guidesSidebar'"
+  },
+  "sidebar.guidesSidebar.category.general-security": {
+    "message": "セキュリティ",
+    "description": "The label for category 'Security' in sidebar 'guidesSidebar'"
+  },
+  "sidebar.guidesSidebar.category.Affiliate Program": {
+    "message": "アフィリエイトプログラム",
+    "description": "The label for category 'Affiliate Program' in sidebar 'guidesSidebar'"
+  },
+  "sidebar.guidesSidebar.category.Partner Program": {
+    "message": "パートナープログラム",
+    "description": "The label for category 'Partner Program' in sidebar 'guidesSidebar'"
+  },
+  "sidebar.guidesSidebar.category.Contribution Program": {
+    "message": "貢献プログラム",
+    "description": "The label for category 'Contribution Program' in sidebar 'guidesSidebar'"
+  },
+  "sidebar.guidesSidebar.category.general-contribution-program-guides": {
+    "message": "ガイド",
+    "description": "The label for category 'Guides' in sidebar 'guidesSidebar'"
+  },
+  "sidebar.guidesSidebar.category.general-contribution-program-blogs": {
+    "message": "ブログ",
+    "description": "The label for category 'Blogs' in sidebar 'guidesSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-databases": {
+    "message": "データベース",
+    "description": "The label for category 'Databases' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-fivem-popular": {
+    "message": "FiveM",
+    "description": "The label for category 'FiveM' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-first-steps-fivem-popular": {
+    "message": "はじめに",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-configuration-fivem-popular": {
+    "message": "設定",
+    "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-resources-fivem-popular": {
+    "message": "リソース",
+    "description": "The label for category 'Resources' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-frameworks-fivem-popular": {
+    "message": "フレームワーク",
+    "description": "The label for category 'Frameworks' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-esx-frameworks-popular": {
+    "message": "ESX",
+    "description": "The label for category 'ESX' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-qbcore-frameworks-popular": {
+    "message": "QBCore",
+    "description": "The label for category 'QBCore' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-troubleshooting-fivem-popular": {
+    "message": "トラブルシューティング",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-minecraft-popular": {
+    "message": "Minecraft",
+    "description": "The label for category 'Minecraft' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-first-steps-minecraft-popular": {
+    "message": "はじめに",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-configuration-minecraft-popular": {
+    "message": "設定",
+    "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-bedrock-minecraft-popular": {
+    "message": "Bedrock",
+    "description": "The label for category 'Bedrock' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-bungeecord-minecraft-popular": {
+    "message": "Bungeecord",
+    "description": "The label for category 'Bungeecord' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-forge-fabric-mods-minecraft-popular": {
+    "message": "Forge & Fabric（Mods）",
+    "description": "The label for category 'Forge & Fabric (Mods)' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-spigot-bukkit-plugins-minecraft-popular": {
+    "message": "Spigot & Bukkit（プラグイン）",
+    "description": "The label for category 'Spigot & Bukkit (Plugins)' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-troubleshooting-minecraft-popular": {
+    "message": "トラブルシューティング",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-scp-secret-laboratory-popular": {
+    "message": "SCP: Secret Laboratory",
+    "description": "The label for category 'SCP: Secret Laboratory' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-first-steps-scp-secret-laboratory-popular": {
+    "message": "はじめに",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-configuration-scp-secret-laboratory-popular": {
+    "message": "設定",
+    "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-exiled-scp-secret-laboratory-popular": {
+    "message": "Exiled",
+    "description": "The label for category 'Exiled' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-troubleshooting-scp-secret-laboratory-popular": {
+    "message": "トラブルシューティング",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-valheim-popular": {
+    "message": "Valheim",
+    "description": "The label for category 'Valheim' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-first-steps-valheim-popular": {
+    "message": "はじめに",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-configuration-valheim-popular": {
+    "message": "設定",
+    "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-troubleshooting-valheim-popular": {
+    "message": "トラブルシューティング",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-ark-survival-evolved-popular": {
+    "message": "Ark: Survival Evolved",
+    "description": "The label for category 'Ark: Survival Evolved' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-first-steps-ark-survival-evolved-popular": {
+    "message": "はじめに",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-configuration-ark-survival-evolved-popular": {
+    "message": "設定",
+    "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-troubleshooting-ark-survival-evolved-popular": {
+    "message": "トラブルシューティング",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-palworld-popular": {
+    "message": "Palworld",
+    "description": "The label for category 'Palworld' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-first-steps-palworld-popular": {
+    "message": "はじめに",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-configuration-palworld-popular": {
+    "message": "設定",
+    "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-troubleshooting-palworld-popular": {
+    "message": "トラブルシューティング",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-enshrouded-popular": {
+    "message": "Enshrouded",
+    "description": "The label for category 'Enshrouded' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-first-steps-enshrouded-popular": {
+    "message": "はじめに",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-configuration-enshrouded-popular": {
+    "message": "設定",
+    "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-troubleshooting-enshrouded-popular": {
+    "message": "トラブルシューティング",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-scum-popular": {
+    "message": "SCUM",
+    "description": "The label for category 'SCUM' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-first-steps-scum-popular": {
+    "message": "はじめに",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-configuration-scum-popular": {
+    "message": "設定",
+    "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-troubleshooting-scum-popular": {
+    "message": "トラブルシューティング",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-7-days-to-die": {
+    "message": "7 Days to Die",
+    "description": "The label for category '7 Days to Die' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-first-steps-7-days-to-die": {
+    "message": "はじめに",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-configuration-7-days-to-die": {
+    "message": "設定",
+    "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-troubleshooting-7-days-to-die": {
+    "message": "トラブルシューティング",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-abiotic-factor": {
+    "message": "Abiotic Factor",
+    "description": "The label for category 'Abiotic Factor' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-first-steps-abiotic-factor": {
+    "message": "はじめに",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-configuration-abiotic-factor": {
+    "message": "設定",
+    "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-troubleshooting-abiotic-factor": {
+    "message": "トラブルシューティング",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-afterinfection": {
+    "message": "Afterinfection",
+    "description": "The label for category 'Afterinfection' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-first-steps-afterinfection": {
+    "message": "はじめに",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-troubleshooting-afterinfection": {
+    "message": "トラブルシューティング",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-american-truck-simulator": {
+    "message": "American Truck Simulator",
+    "description": "The label for category 'American Truck Simulator' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-first-steps-american-truck-simulator": {
+    "message": "はじめに",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-configuration-american-truck-simulator": {
+    "message": "設定",
+    "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-troubleshooting-american-truck-simulator": {
+    "message": "トラブルシューティング",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-among-us": {
+    "message": "アモングアス",
+    "description": "The label for category 'Among Us' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-first-steps-among-us": {
+    "message": "はじめに",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-troubleshooting-among-us": {
+    "message": "トラブルシューティング",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-animalia-survival": {
+    "message": "アニマリアサバイバル",
+    "description": "The label for category 'Animalia Survival' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-first-steps-animalia-survival": {
+    "message": "はじめに",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-troubleshooting-animalia-survival": {
+    "message": "トラブルシューティング",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-argo": {
+    "message": "アルゴ",
+    "description": "The label for category 'Argo' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-first-steps-argo": {
+    "message": "はじめに",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-troubleshooting-argo": {
+    "message": "トラブルシューティング",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-ark-survival-evolved": {
+    "message": "Ark: Survival Evolved",
+    "description": "The label for category 'Ark: Survival Evolved' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-first-steps-ark-survival-evolved": {
+    "message": "はじめに",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-configuration-ark-survival-evolved": {
+    "message": "設定",
+    "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-troubleshooting-ark-survival-evolved": {
+    "message": "トラブルシューティング",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-arma-3": {
+    "message": "アルマ3",
+    "description": "The label for category 'Arma 3' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-first-steps-arma-3": {
+    "message": "はじめに",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-configuration-arma-3": {
+    "message": "設定",
+    "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-troubleshooting-arma-3": {
+    "message": "トラブルシューティング",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-arma-reforger": {
+    "message": "アルマリフォージャー",
+    "description": "The label for category 'Arma Reforger' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-first-steps-arma-reforger": {
+    "message": "はじめに",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-configuration-arma-reforger": {
+    "message": "設定",
+    "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-troubleshooting-arma-reforger": {
+    "message": "トラブルシューティング",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-assetto-corsa": {
+    "message": "アセットコルサ",
+    "description": "The label for category 'Assetto Corsa' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-first-steps-assetto-corsa": {
+    "message": "はじめに",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-configuration-assetto-corsa": {
+    "message": "設定",
+    "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-troubleshooting-assetto-corsa": {
+    "message": "トラブルシューティング",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-assetto-corsa-competizione": {
+    "message": "アセットコルサコンペティツィオーネ",
+    "description": "The label for category 'Assetto Corsa Competizione' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-first-steps-assetto-corsa-competizione": {
+    "message": "はじめに",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-configuration-assetto-corsa-competizione": {
+    "message": "設定",
+    "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-troubleshooting-assetto-corsa-competizione": {
+    "message": "トラブルシューティング",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-astro-colony": {
+    "message": "アストロコロニー",
+    "description": "The label for category 'Astro Colony' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-first-steps-astro-colony": {
+    "message": "はじめに",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-troubleshooting-astro-colony": {
+    "message": "トラブルシューティング",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-astroneer": {
+    "message": "アストロニア",
+    "description": "The label for category 'ASTRONEER' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-first-steps-astroneer": {
+    "message": "はじめに",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-troubleshooting-astroneer": {
+    "message": "トラブルシューティング",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-avorion": {
+    "message": "アヴォリオン",
+    "description": "The label for category 'Avorion' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-first-steps-avorion": {
+    "message": "はじめに",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-configuration-avorion": {
+    "message": "設定",
+    "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-troubleshooting-avorion": {
+    "message": "トラブルシューティング",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-banana-shooter": {
+    "message": "バナナシューター",
+    "description": "The label for category 'Banana Shooter' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-first-steps-banana-shooter": {
+    "message": "はじめに",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-troubleshooting-banana-shooter": {
+    "message": "トラブルシューティング",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-barotrauma": {
+    "message": "バロトラウマ",
+    "description": "The label for category 'Barotrauma' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-first-steps-barotrauma": {
+    "message": "はじめに",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-configuration-barotrauma": {
+    "message": "設定",
+    "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-troubleshooting-barotrauma": {
+    "message": "トラブルシューティング",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-battalion-1944": {
+    "message": "バタリオン1944",
+    "description": "The label for category 'Battalion 1944' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-first-steps-battalion-1944": {
+    "message": "はじめに",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-troubleshooting-battalion-1944": {
+    "message": "トラブルシューティング",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-battle-grounds-iii": {
+    "message": "バトルグラウンズIII",
+    "description": "The label for category 'Battle Grounds III' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-first-steps-battle-grounds-iii": {
+    "message": "はじめに",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-troubleshooting-battle-grounds-iii": {
+    "message": "トラブルシューティング",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-beammp": {
+    "message": "ビームMP",
+    "description": "The label for category 'BeamMP' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-first-steps-beammp": {
+    "message": "はじめに",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-configuration-beammp": {
+    "message": "設定",
+    "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-troubleshooting-beammp": {
+    "message": "トラブルシューティング",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-beasts-of-bermuda": {
+    "message": "ビースツオブバミューダ",
+    "description": "The label for category 'Beasts of Bermuda' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-first-steps-beasts-of-bermuda": {
+    "message": "はじめに",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-troubleshooting-beasts-of-bermuda": {
+    "message": "トラブルシューティング",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-beyond-the-wire": {
+    "message": "ビヨンドザワイヤー",
+    "description": "The label for category 'Beyond the Wire' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-first-steps-beyond-the-wire": {
+    "message": "はじめに",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-troubleshooting-beyond-the-wire": {
+    "message": "トラブルシューティング",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-broke-protocol": {
+    "message": "ブロークプロトコル",
+    "description": "The label for category 'Broke Protocol' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-first-steps-broke-protocol": {
+    "message": "はじめに",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-troubleshooting-broke-protocol": {
+    "message": "トラブルシューティング",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-citadel-forged-with-fire": {
+    "message": "シタデル：フォージドウィズファイア",
+    "description": "The label for category 'Citadel: Forged With Fire' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-first-steps-citadel-forged-with-fire": {
+    "message": "はじめに",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-troubleshooting-citadel-forged-with-fire": {
+    "message": "トラブルシューティング",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-colony-survival": {
+    "message": "コロニーサバイバル",
+    "description": "The label for category 'Colony Survival' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-first-steps-colony-survival": {
+    "message": "はじめに",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-troubleshooting-colony-survival": {
+    "message": "トラブルシューティング",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-conan-exiles": {
+    "message": "コナンエグザイルズ",
+    "description": "The label for category 'Conan Exiles' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-first-steps-conan-exiles": {
+    "message": "はじめに",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-configuration-conan-exiles": {
+    "message": "設定",
+    "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-troubleshooting-conan-exiles": {
+    "message": "トラブルシューティング",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-contagion": {
+    "message": "コンテイジョン",
+    "description": "The label for category 'Contagion' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-first-steps-contagion": {
+    "message": "はじめに",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-troubleshooting-contagion": {
+    "message": "トラブルシューティング",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-core-keeper": {
+    "message": "コアキーパー",
+    "description": "The label for category 'Core Keeper' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-first-steps-core-keeper": {
+    "message": "はじめに",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-troubleshooting-core-keeper": {
+    "message": "トラブルシューティング",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-craftopia": {
+    "message": "クラフトピア",
+    "description": "The label for category 'Craftopia' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-first-steps-craftopia": {
+    "message": "はじめに",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-troubleshooting-craftopia": {
+    "message": "トラブルシューティング",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-cryofall": {
+    "message": "クライオフォール",
+    "description": "The label for category 'Cryofall' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-first-steps-cryofall": {
+    "message": "はじめに",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-troubleshooting-cryofall": {
+    "message": "トラブルシューティング",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-counter-strike-1-6": {
+    "message": "カウンターストライク1.6",
+    "description": "The label for category 'Counter-Strike 1.6' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-first-steps-counter-strike-1-6": {
+    "message": "はじめに",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-configuration-counter-strike-1-6": {
+    "message": "設定",
+    "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-troubleshooting-counter-strike-1-6": {
+    "message": "トラブルシューティング",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-counter-strike-condition-zero": {
+    "message": "カウンターストライク：コンディションゼロ",
+    "description": "The label for category 'Counter-Strike: Condition Zero' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-first-steps-counter-strike-condition-zero": {
+    "message": "はじめに",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-troubleshooting-counter-strike-condition-zero": {
+    "message": "トラブルシューティング",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-counter-strike-source": {
+    "message": "カウンターストライク：ソース",
+    "description": "The label for category 'Counter-Strike: Source' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-first-steps-counter-strike-source": {
+    "message": "はじめに",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-configuration-counter-strike-source": {
+    "message": "設定",
+    "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-troubleshooting-counter-strike-source": {
+    "message": "トラブルシューティング",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-counter-strike-2": {
+    "message": "カウンターストライク2",
+    "description": "The label for category 'Counter-Strike 2' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-first-steps-counter-strike-2": {
+    "message": "はじめに",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-configuration-counter-strike-2": {
+    "message": "設定",
+    "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-plugins-mods-counter-strike-2": {
+    "message": "プラグイン / モッズ",
+    "description": "The label for category 'Plugins / Mods' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-troubleshooting-counter-strike-2": {
+    "message": "トラブルシューティング",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-day-of-defeat-source": {
+    "message": "デイオブディフィート：ソース",
+    "description": "The label for category 'Day of Defeat: Source' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-first-steps-day-of-defeat-source": {
+    "message": "はじめに",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-configuration-day-of-defeat-source": {
+    "message": "設定",
+    "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-troubleshooting-day-of-defeat-source": {
+    "message": "トラブルシューティング",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-day-of-infamy": {
+    "message": "デイオブインファミー",
+    "description": "The label for category 'Day of Infamy' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-first-steps-day-of-infamy": {
+    "message": "はじめに",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-troubleshooting-day-of-infamy": {
+    "message": "トラブルシューティング",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-dayz": {
+    "message": "デイZ",
+    "description": "The label for category 'DayZ' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-first-steps-dayz": {
+    "message": "はじめに",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-configuration-dayz": {
+    "message": "設定",
+    "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-troubleshooting-dayz": {
+    "message": "トラブルシューティング",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-ddracenetwork": {
+    "message": "DDraceNetwork",
+    "description": "The label for category 'DDraceNetwork' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-first-steps-ddracenetwork": {
+    "message": "はじめに",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-troubleshooting-ddracenetwork": {
+    "message": "トラブルシューティング",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-deadlock": {
+    "message": "デッドロック",
+    "description": "The label for category 'Deadlock' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-first-steps-deadlock": {
+    "message": "はじめに",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-troubleshooting-deadlock": {
+    "message": "トラブルシューティング",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-deadpoly": {
+    "message": "デッドポリ",
+    "description": "The label for category 'DeadPoly' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-first-steps-deadpoly": {
+    "message": "はじめに",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-troubleshooting-deadpoly": {
+    "message": "トラブルシューティング",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-don-t-starve-together": {
+    "message": "ドントスターブトゥギャザー",
+    "description": "The label for category 'Don't Starve Together' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-first-steps-don-t-starve-together": {
+    "message": "はじめに",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-configuration-don-t-starve-together": {
+    "message": "設定",
+    "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-troubleshooting-don-t-starve-together": {
+    "message": "トラブルシューティング",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-eco": {
+    "message": "ECO",
+    "description": "The label for category 'ECO' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-first-steps-eco": {
+    "message": "はじめに",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-configuration-eco": {
+    "message": "設定",
+    "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-troubleshooting-eco": {
+    "message": "トラブルシューティング",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-empyrion": {
+    "message": "エンピリオン",
+    "description": "The label for category 'Empyrion' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-first-steps-empyrion": {
+    "message": "はじめに",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-configuration-empyrion": {
+    "message": "設定",
+    "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-troubleshooting-empyrion": {
+    "message": "トラブルシューティング",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-enshrouded": {
+    "message": "Enshrouded",
+    "description": "The label for category 'Enshrouded' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-first-steps-enshrouded": {
+    "message": "はじめに",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-configuration-enshrouded": {
+    "message": "設定",
+    "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-troubleshooting-enshrouded": {
+    "message": "トラブルシューティング",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-euro-truck-simulator-2": {
+    "message": "ユーロトラックシミュレーター2",
+    "description": "The label for category 'Euro Truck Simulator 2' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-first-steps-euro-truck-simulator-2": {
+    "message": "はじめに",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-configuration-euro-truck-simulator-2": {
+    "message": "設定",
+    "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-troubleshooting-euro-truck-simulator-2": {
+    "message": "トラブルシューティング",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-factorio": {
+    "message": "ファクトリオ",
+    "description": "The label for category 'Factorio' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-first-steps-factorio": {
+    "message": "はじめに",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-configuration-factorio": {
+    "message": "設定",
+    "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-troubleshooting-factorio": {
+    "message": "トラブルシューティング",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-fivem": {
+    "message": "FiveM",
+    "description": "The label for category 'FiveM' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-first-steps-fivem": {
+    "message": "はじめに",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-configuration-fivem": {
+    "message": "設定",
+    "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-resources-fivem": {
+    "message": "リソース",
+    "description": "The label for category 'Resources' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-frameworks-fivem": {
+    "message": "フレームワーク",
+    "description": "The label for category 'Frameworks' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-esx-frameworks": {
+    "message": "ESX",
+    "description": "The label for category 'ESX' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-qbcore-frameworks": {
+    "message": "QBCore",
+    "description": "The label for category 'QBCore' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-troubleshooting-fivem": {
+    "message": "トラブルシューティング",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-foundry": {
+    "message": "ファウンドリー",
+    "description": "The label for category 'Foundry' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-first-steps-foundry": {
+    "message": "はじめに",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-configuration-foundry": {
+    "message": "設定",
+    "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-troubleshooting-foundry": {
+    "message": "トラブルシューティング",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-garry-s-mod": {
+    "message": "ギャリーズモッド",
+    "description": "The label for category 'Garry's Mod' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-first-steps-garry-s-mod": {
+    "message": "はじめに",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-configuration-garry-s-mod": {
+    "message": "設定",
+    "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-troubleshooting-garry-s-mod": {
+    "message": "トラブルシューティング",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-ground-branch": {
+    "message": "グラウンドブランチ",
+    "description": "The label for category 'Ground Branch' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-first-steps-ground-branch": {
+    "message": "はじめに",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-troubleshooting-ground-branch": {
+    "message": "トラブルシューティング",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-half-life-1": {
+    "message": "ハーフライフ1",
+    "description": "The label for category 'Half-Life 1' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-first-steps-half-life-1": {
+    "message": "はじめに",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-configuration-half-life-1": {
+    "message": "設定",
+    "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-troubleshooting-half-life-1": {
+    "message": "トラブルシューティング",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-half-life-2": {
+    "message": "ハーフライフ2",
+    "description": "The label for category 'Half-Life 2' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-first-steps-half-life-2": {
+    "message": "はじめに",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-configuration-half-life-2": {
+    "message": "設定",
+    "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-troubleshooting-half-life-2": {
+    "message": "トラブルシューティング",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-holdfast-nations-at-war": {
+    "message": "ホールドファスト：ネイションズアットウォー",
+    "description": "The label for category 'Holdfast: Nations At War' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-first-steps-holdfast-nations-at-war": {
+    "message": "はじめに",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-troubleshooting-holdfast-nations-at-war": {
+    "message": "トラブルシューティング",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-humanitz": {
+    "message": "ヒューマニッツ",
+    "description": "The label for category 'HumanitZ' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-first-steps-humanitz": {
+    "message": "はじめに",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-troubleshooting-humanitz": {
+    "message": "トラブルシューティング",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-hurtworld": {
+    "message": "ハートワールド",
+    "description": "The label for category 'Hurtworld' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-first-steps-hurtworld": {
+    "message": "はじめに",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-troubleshooting-hurtworld": {
+    "message": "トラブルシューティング",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-icarus": {
+    "message": "イカロス",
+    "description": "The label for category 'Icarus' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-first-steps-icarus": {
+    "message": "はじめに",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-troubleshooting-icarus": {
+    "message": "トラブルシューティング",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-insurgency-sandstorm": {
+    "message": "インサージェンシー：サンドストーム",
+    "description": "The label for category 'Insurgency: Sandstorm' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-first-steps-insurgency-sandstorm": {
+    "message": "はじめに",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-troubleshooting-insurgency-sandstorm": {
+    "message": "トラブルシューティング",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-iron-armada": {
+    "message": "アイアンアーマダ",
+    "description": "The label for category 'Iron Armada' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-first-steps-iron-armada": {
+    "message": "はじめに",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-troubleshooting-iron-armada": {
+    "message": "トラブルシューティング",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-journey-of-life": {
+    "message": "ジャーニーオブライフ",
+    "description": "The label for category 'Journey of Life' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-first-steps-journey-of-life": {
+    "message": "はじめに",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-troubleshooting-journey-of-life": {
+    "message": "トラブルシューティング",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-killing-floor-2": {
+    "message": "キリングフロア2",
+    "description": "The label for category 'Killing Floor 2' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-first-steps-killing-floor-2": {
+    "message": "はじめに",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-troubleshooting-killing-floor-2": {
+    "message": "トラブルシューティング",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-last-oasis": {
+    "message": "ラストオアシス",
+    "description": "The label for category 'Last Oasis' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-first-steps-last-oasis": {
+    "message": "はじめに",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-configuration-last-oasis": {
+    "message": "設定",
+    "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-troubleshooting-last-oasis": {
+    "message": "トラブルシューティング",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-leap": {
+    "message": "リープ",
+    "description": "The label for category 'Leap' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-first-steps-leap": {
+    "message": "はじめに",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-troubleshooting-leap": {
+    "message": "トラブルシューティング",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-left-4-dead-2": {
+    "message": "レフト4デッド2",
+    "description": "The label for category 'Left 4 Dead 2' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-first-steps-left-4-dead-2": {
+    "message": "はじめに",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-configuration-left-4-dead-2": {
+    "message": "設定",
+    "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-troubleshooting-left-4-dead-2": {
+    "message": "トラブルシューティング",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-longvinter": {
+    "message": "ロングヴィンター",
+    "description": "The label for category 'Longvinter' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-first-steps-longvinter": {
+    "message": "はじめに",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-troubleshooting-longvinter": {
+    "message": "トラブルシューティング",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-minecraft": {
+    "message": "Minecraft",
+    "description": "The label for category 'Minecraft' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-first-steps-minecraft": {
+    "message": "はじめに",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-configuration-minecraft": {
+    "message": "設定",
+    "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-bedrock-minecraft": {
+    "message": "Bedrock",
+    "description": "The label for category 'Bedrock' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-bungeecord-minecraft": {
+    "message": "Bungeecord",
+    "description": "The label for category 'Bungeecord' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-forge-fabric-mods-minecraft": {
+    "message": "Forge & Fabric（Mods）",
+    "description": "The label for category 'Forge & Fabric (Mods)' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-spigot-bukkit-plugins-minecraft": {
+    "message": "Spigot & Bukkit（プラグイン）",
+    "description": "The label for category 'Spigot & Bukkit (Plugins)' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-troubleshooting-minecraft": {
+    "message": "トラブルシューティング",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-minetest": {
+    "message": "ミネテスト",
+    "description": "The label for category 'Minetest' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-first-steps-minetest": {
+    "message": "はじめに",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-troubleshooting-minetest": {
+    "message": "トラブルシューティング",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-miscreated": {
+    "message": "ミスクリエイテッド",
+    "description": "The label for category 'Miscreated' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-first-steps-miscreated": {
+    "message": "はじめに",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-mordhau": {
+    "message": "モードホー",
+    "description": "The label for category 'Mordhau' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-first-steps-mordhau": {
+    "message": "はじめに",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-motor-town-behind-the-wheel": {
+    "message": "モータータウン：ビハインド・ザ・ホイール",
+    "description": "The label for category 'Motor Town: Behind The Wheel' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-first-steps-motor-town-behind-the-wheel": {
+    "message": "はじめに",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-troubleshooting-motor-town-behind-the-wheel": {
+    "message": "トラブルシューティング",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-mount-blade": {
+    "message": "マウント＆ブレード",
+    "description": "The label for category 'Mount & Blade' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-first-steps-mount-blade": {
+    "message": "はじめに",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-troubleshooting-mount-blade": {
+    "message": "トラブルシューティング",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-multi-theft-auto": {
+    "message": "グランド・セフト・オート",
+    "description": "The label for category 'Multi Theft Auto' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-first-steps-multi-theft-auto": {
+    "message": "はじめに",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-configuration-multi-theft-auto": {
+    "message": "設定",
+    "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-troubleshooting-multi-theft-auto": {
+    "message": "トラブルシューティング",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-myth-of-empires": {
+    "message": "ミス・オブ・エンパイアーズ",
+    "description": "The label for category 'Myth of Empires' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-first-steps-myth-of-empires": {
+    "message": "はじめに",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-configuration-myth-of-empires": {
+    "message": "設定",
+    "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-troubleshooting-myth-of-empires": {
+    "message": "トラブルシューティング",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-necesse": {
+    "message": "ネセッセ",
+    "description": "The label for category 'Necesse' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-first-steps-necesse": {
+    "message": "はじめに",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-troubleshooting-necesse": {
+    "message": "トラブルシューティング",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-never-split-the-party": {
+    "message": "ネバー・スプリット・ザ・パーティ",
+    "description": "The label for category 'Never Split the Party' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-first-steps-never-split-the-party": {
+    "message": "はじめに",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-troubleshooting-never-split-the-party": {
+    "message": "トラブルシューティング",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-nienix": {
+    "message": "ニーニックス",
+    "description": "The label for category 'Nienix' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-first-steps-nienix": {
+    "message": "はじめに",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-troubleshooting-nienix": {
+    "message": "トラブルシューティング",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-no-more-room-in-hell": {
+    "message": "ノー・モア・ルーム・イン・ヘル",
+    "description": "The label for category 'No More Room In Hell' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-first-steps-no-more-room-in-hell": {
+    "message": "はじめに",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-configuration-no-more-room-in-hell": {
+    "message": "設定",
+    "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-troubleshooting-no-more-room-in-hell": {
+    "message": "トラブルシューティング",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-no-one-survived": {
+    "message": "ノー・ワン・サバイブド",
+    "description": "The label for category 'No One Survived' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-first-steps-no-one-survived": {
+    "message": "はじめに",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-troubleshooting-no-one-survived": {
+    "message": "トラブルシューティング",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-one-hour-one-life": {
+    "message": "ワン・アワー・ワン・ライフ",
+    "description": "The label for category 'One Hour One Life' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-first-steps-one-hour-one-life": {
+    "message": "はじめに",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-troubleshooting-one-hour-one-life": {
+    "message": "トラブルシューティング",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-open-mp": {
+    "message": "オープン.mp",
+    "description": "The label for category 'Open.mp' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-first-steps-open-mp": {
+    "message": "はじめに",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-configuration-open-mp": {
+    "message": "設定",
+    "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-troubleshooting-open-mp": {
+    "message": "トラブルシューティング",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-openttd": {
+    "message": "オープンTTD",
+    "description": "The label for category 'OpenTTD' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-first-steps-openttd": {
+    "message": "はじめに",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-troubleshooting-openttd": {
+    "message": "トラブルシューティング",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-operation-harsh-doorstop": {
+    "message": "オペレーション：ハーシュ・ドアストップ",
+    "description": "The label for category 'Operation: Harsh Doorstop' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-first-steps-operation-harsh-doorstop": {
+    "message": "はじめに",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-troubleshooting-operation-harsh-doorstop": {
+    "message": "トラブルシューティング",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-outlaws-of-the-old-west": {
+    "message": "アウトローズ・オブ・ザ・オールド・ウェスト",
+    "description": "The label for category 'Outlaws of the Old West' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-first-steps-outlaws-of-the-old-west": {
+    "message": "はじめに",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-troubleshooting-outlaws-of-the-old-west": {
+    "message": "トラブルシューティング",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-palworld": {
+    "message": "Palworld",
+    "description": "The label for category 'Palworld' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-first-steps-palworld": {
+    "message": "はじめに",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-configuration-palworld": {
+    "message": "設定",
+    "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-troubleshooting-palworld": {
+    "message": "トラブルシューティング",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-path-of-titans": {
+    "message": "パス・オブ・タイタンズ",
+    "description": "The label for category 'Path of Titans' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-first-steps-path-of-titans": {
+    "message": "はじめに",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-configuration-path-of-titans": {
+    "message": "設定",
+    "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-troubleshooting-path-of-titans": {
+    "message": "トラブルシューティング",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-pixark": {
+    "message": "ピックスARK",
+    "description": "The label for category 'PixARK' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-first-steps-pixark": {
+    "message": "はじめに",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-troubleshooting-pixark": {
+    "message": "トラブルシューティング",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-portal-knights": {
+    "message": "ポータル・ナイツ",
+    "description": "The label for category 'Portal Knights' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-first-steps-portal-knights": {
+    "message": "はじめに",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-troubleshooting-portal-knights": {
+    "message": "トラブルシューティング",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-project-zomboid": {
+    "message": "プロジェクト・ゾンボイド",
+    "description": "The label for category 'Project Zomboid' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-first-steps-project-zomboid": {
+    "message": "はじめに",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-configuration-project-zomboid": {
+    "message": "設定",
+    "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-troubleshooting-project-zomboid": {
+    "message": "トラブルシューティング",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-redm": {
+    "message": "レッドM",
+    "description": "The label for category 'RedM' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-first-steps-redm": {
+    "message": "はじめに",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-configuration-redm": {
+    "message": "設定",
+    "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-resources-redm": {
+    "message": "リソース",
+    "description": "The label for category 'Resources' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-troubleshooting-redm": {
+    "message": "トラブルシューティング",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-reign-of-kings": {
+    "message": "レイン・オブ・キングス",
+    "description": "The label for category 'Reign of Kings' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-first-steps-reign-of-kings": {
+    "message": "はじめに",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-troubleshooting-reign-of-kings": {
+    "message": "トラブルシューティング",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-rimworld-together": {
+    "message": "リムワールド・トゥゲザー",
+    "description": "The label for category 'RimWorld Together' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-first-steps-rimworld-together": {
+    "message": "はじめに",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-configuration-rimworld-together": {
+    "message": "設定",
+    "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-troubleshooting-rimworld-together": {
+    "message": "トラブルシューティング",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-rising-storm-2": {
+    "message": "ライジング・ストーム2",
+    "description": "The label for category 'Rising Storm 2' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-first-steps-rising-storm-2": {
+    "message": "はじめに",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-troubleshooting-rising-storm-2": {
+    "message": "トラブルシューティング",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-risk-of-rain-2": {
+    "message": "Risk of Rain 2",
+    "description": "The label for category 'Risk of Rain 2' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-first-steps-risk-of-rain-2": {
+    "message": "はじめに",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-troubleshooting-risk-of-rain-2": {
+    "message": "トラブルシューティング",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-rising-world": {
+    "message": "Rising World",
+    "description": "The label for category 'Rising World' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-first-steps-rising-world": {
+    "message": "はじめに",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-troubleshooting-rising-world": {
+    "message": "トラブルシューティング",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-rust": {
+    "message": "Last",
+    "description": "The label for category 'Rust' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-first-steps-rust": {
+    "message": "はじめに",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-configuration-rust": {
+    "message": "設定",
+    "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-troubleshooting-rust": {
+    "message": "トラブルシューティング",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-sanctuary-island": {
+    "message": "Sanctuary Island",
+    "description": "The label for category 'Sanctuary Island' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-first-steps-sanctuary-island": {
+    "message": "はじめに",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-troubleshooting-sanctuary-island": {
+    "message": "トラブルシューティング",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-satisfactory": {
+    "message": "Satisfactory",
+    "description": "The label for category 'Satisfactory' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-first-steps-satisfactory": {
+    "message": "はじめに",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-configuration-satisfactory": {
+    "message": "設定",
+    "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-troubleshooting-satisfactory": {
+    "message": "トラブルシューティング",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-scp-5k": {
+    "message": "SCP: 5K",
+    "description": "The label for category 'SCP: 5K' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-first-steps-scp-5k": {
+    "message": "はじめに",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-troubleshooting-scp-5k": {
+    "message": "トラブルシューティング",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-scp-containment-breach": {
+    "message": "SCP: Containment Breach",
+    "description": "The label for category 'SCP: Containment Breach' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-first-steps-scp-containment-breach": {
+    "message": "はじめに",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-troubleshooting-scp-containment-breach": {
+    "message": "トラブルシューティング",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-scp-escape-together": {
+    "message": "SCP: Escape Together",
+    "description": "The label for category 'SCP: Escape Together' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-first-steps-scp-escape-together": {
+    "message": "はじめに",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-troubleshooting-scp-escape-together": {
+    "message": "トラブルシューティング",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-scp-secret-laboratory": {
+    "message": "SCP: Secret Laboratory",
+    "description": "The label for category 'SCP: Secret Laboratory' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-first-steps-scp-secret-laboratory": {
+    "message": "はじめに",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-configuration-scp-secret-laboratory": {
+    "message": "設定",
+    "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-exiled-scp-secret-laboratory": {
+    "message": "Exiled",
+    "description": "The label for category 'Exiled' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-troubleshooting-scp-secret-laboratory": {
+    "message": "トラブルシューティング",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-scum": {
+    "message": "SCUM",
+    "description": "The label for category 'SCUM' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-first-steps-scum": {
+    "message": "はじめに",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-configuration-scum": {
+    "message": "設定",
+    "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-troubleshooting-scum": {
+    "message": "トラブルシューティング",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-soldat": {
+    "message": "Soldat",
+    "description": "The label for category 'Soldat' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-first-steps-soldat": {
+    "message": "はじめに",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-troubleshooting-soldat": {
+    "message": "トラブルシューティング",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-sons-of-the-forest": {
+    "message": "Sons of the Forest",
+    "description": "The label for category 'Sons of the Forest' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-first-steps-sons-of-the-forest": {
+    "message": "はじめに",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-troubleshooting-sons-of-the-forest": {
+    "message": "トラブルシューティング",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-soulmask": {
+    "message": "Soulmask",
+    "description": "The label for category 'Soulmask' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-first-steps-soulmask": {
+    "message": "はじめに",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-configuration-soulmask": {
+    "message": "設定",
+    "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-troubleshooting-soulmask": {
+    "message": "トラブルシューティング",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-space-engineers": {
+    "message": "Space Engineers",
+    "description": "The label for category 'Space Engineers' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-first-steps-space-engineers": {
+    "message": "はじめに",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-configuration-space-engineers": {
+    "message": "設定",
+    "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-troubleshooting-space-engineers": {
+    "message": "トラブルシューティング",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-squad": {
+    "message": "Squad",
+    "description": "The label for category 'Squad' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-first-steps-squad": {
+    "message": "はじめに",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-troubleshooting-squad": {
+    "message": "トラブルシューティング",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-starbound": {
+    "message": "Starbound",
+    "description": "The label for category 'Starbound' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-first-steps-starbound": {
+    "message": "はじめに",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-troubleshooting-starbound": {
+    "message": "トラブルシューティング",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-starmade": {
+    "message": "StarMade",
+    "description": "The label for category 'Starmade' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-first-steps-starmade": {
+    "message": "はじめに",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-troubleshooting-starmade": {
+    "message": "トラブルシューティング",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-staxel": {
+    "message": "Staxel",
+    "description": "The label for category 'Staxel' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-first-steps-staxel": {
+    "message": "はじめに",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-troubleshooting-staxel": {
+    "message": "トラブルシューティング",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-stormworks": {
+    "message": "Stormworks",
+    "description": "The label for category 'Stormworks' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-first-steps-stormworks": {
+    "message": "はじめに",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-configuration-stormworks": {
+    "message": "設定",
+    "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-troubleshooting-stormworks": {
+    "message": "トラブルシューティング",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-subsistence": {
+    "message": "Subsistence",
+    "description": "The label for category 'Subsistence' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-first-steps-subsistence": {
+    "message": "はじめに",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-troubleshooting-subsistence": {
+    "message": "トラブルシューティング",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-sunkenland": {
+    "message": "Sunken Land",
+    "description": "The label for category 'Sunkenland' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-first-steps-sunkenland": {
+    "message": "はじめに",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-troubleshooting-sunkenland": {
+    "message": "トラブルシューティング",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-team-fortress-2": {
+    "message": "Team Fortress 2",
+    "description": "The label for category 'Team Fortress 2' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-first-steps-team-fortress-2": {
+    "message": "はじめに",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-configuration-team-fortress-2": {
+    "message": "設定",
+    "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-troubleshooting-team-fortress-2": {
+    "message": "トラブルシューティング",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-teeworlds": {
+    "message": "T-Worlds",
+    "description": "The label for category 'Teeworlds' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-first-steps-teeworlds": {
+    "message": "はじめに",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-troubleshooting-teeworlds": {
+    "message": "トラブルシューティング",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-terraria": {
+    "message": "Terraria",
+    "description": "The label for category 'Terraria' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-first-steps-terraria": {
+    "message": "はじめに",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-configuration-terraria": {
+    "message": "設定",
+    "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-troubleshooting-terraria": {
+    "message": "トラブルシューティング",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-terratech-worlds": {
+    "message": "TerraTech Worlds",
+    "description": "The label for category 'Terratech Worlds' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-first-steps-terratech-worlds": {
+    "message": "はじめに",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-troubleshooting-terratech-worlds": {
+    "message": "トラブルシューティング",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-the-bus": {
+    "message": "The Bus",
+    "description": "The label for category 'The Bus' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-first-steps-the-bus": {
+    "message": "はじめに",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-troubleshooting-the-bus": {
+    "message": "トラブルシューティング",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-the-front": {
+    "message": "The Front",
+    "description": "The label for category 'The Front' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-first-steps-the-front": {
+    "message": "はじめに",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-troubleshooting-the-front": {
+    "message": "トラブルシューティング",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-the-isle": {
+    "message": "The Isle",
+    "description": "The label for category 'The Isle' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-first-steps-the-isle": {
+    "message": "はじめに",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-troubleshooting-the-isle": {
+    "message": "トラブルシューティング",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-the-lord-of-the-rings-rtm": {
+    "message": "The Lord of the Rings: RTM",
+    "description": "The label for category 'The Lord of the Rings: RTM' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-first-steps-the-lord-of-the-rings-rtm": {
+    "message": "はじめに",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-troubleshooting-the-lord-of-the-rings-rtm": {
+    "message": "トラブルシューティング",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-unfortunate-spacemen": {
+    "message": "Unfortunate Spacemen",
+    "description": "The label for category 'Unfortunate Spacemen' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-first-steps-unfortunate-spacemen": {
+    "message": "はじめに",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-troubleshooting-unfortunate-spacemen": {
+    "message": "トラブルシューティング",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-unturned": {
+    "message": "Unturned",
+    "description": "The label for category 'Unturned' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-first-steps-unturned": {
+    "message": "はじめに",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-configuration-unturned": {
+    "message": "設定",
+    "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-rocketmod-unturned": {
+    "message": "RocketMod",
+    "description": "The label for category 'RocketMod' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-troubleshooting-unturned": {
+    "message": "トラブルシューティング",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-valheim": {
+    "message": "Valheim",
+    "description": "The label for category 'Valheim' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-first-steps-valheim": {
+    "message": "はじめに",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-configuration-valheim": {
+    "message": "設定",
+    "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-troubleshooting-valheim": {
+    "message": "トラブルシューティング",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-vein": {
+    "message": "Vain",
+    "description": "The label for category 'Vein' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-first-steps-vein": {
+    "message": "はじめに",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-troubleshooting-vein": {
+    "message": "トラブルシューティング",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-veloren": {
+    "message": "Veloren",
+    "description": "The label for category 'Veloren' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-first-steps-veloren": {
+    "message": "はじめに",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-troubleshooting-veloren": {
+    "message": "トラブルシューティング",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-vintage-story": {
+    "message": "Vintage Story",
+    "description": "The label for category 'Vintage Story' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-first-steps-vintage-story": {
+    "message": "はじめに",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-troubleshooting-vintage-story": {
+    "message": "トラブルシューティング",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-voyagers-of-nera": {
+    "message": "Voyagers of Neera",
+    "description": "The label for category 'Voyagers of Nera' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-first-steps-voyagers-of-nera": {
+    "message": "はじめに",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-troubleshooting-voyagers-of-nera": {
+    "message": "トラブルシューティング",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-v-rising": {
+    "message": "V Rising",
+    "description": "The label for category 'V Rising' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-first-steps-v-rising": {
+    "message": "はじめに",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-configuration-v-rising": {
+    "message": "設定",
+    "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-troubleshooting-v-rising": {
+    "message": "トラブルシューティング",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-wreckfest": {
+    "message": "RecFest",
+    "description": "The label for category 'Wreckfest' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-first-steps-wreckfest": {
+    "message": "はじめに",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-troubleshooting-wreckfest": {
+    "message": "トラブルシューティング",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-wreckfest-2": {
+    "message": "RecFest 2",
+    "description": "The label for category 'Wreckfest 2' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-first-steps-wreckfest-2": {
+    "message": "はじめに",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-troubleshooting-wreckfest-2": {
+    "message": "トラブルシューティング",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-wurm-unlimited": {
+    "message": "Wurm Unlimited",
+    "description": "The label for category 'Wurm Unlimited' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-first-steps-wurm-unlimited": {
+    "message": "はじめに",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-troubleshooting-wurm-unlimited": {
+    "message": "トラブルシューティング",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.vpsrootSidebar.category.vserver-troubleshooting": {
+    "message": "トラブルシューティング",
+    "description": "The label for category 'Troubleshooting' in sidebar 'vpsrootSidebar'"
+  },
+  "sidebar.vpsrootSidebar.category.vserver-general": {
+    "message": "General",
+    "description": "The label for category 'General' in sidebar 'vpsrootSidebar'"
+  },
+  "sidebar.vpsrootSidebar.category.vserver-linux-services": {
+    "message": "Service",
+    "description": "The label for category 'Services' in sidebar 'vpsrootSidebar'"
+  },
+  "sidebar.vpsrootSidebar.category.vserver-linux-dedicated-game-servers": {
+    "message": "専用ゲームサーバー",
+    "description": "The label for category 'Dedicated Game Servers' in sidebar 'vpsrootSidebar'"
+  },
+  "sidebar.vpsrootSidebar.category.vserver-linux-dedicated-game-servers-general": {
+    "message": "General",
+    "description": "The label for category 'General' in sidebar 'vpsrootSidebar'"
+  },
+  "sidebar.vpsrootSidebar.category.vserver-linux-troubleshooting": {
+    "message": "トラブルシューティング",
+    "description": "The label for category 'Troubleshooting' in sidebar 'vpsrootSidebar'"
+  },
+  "sidebar.vpsrootSidebar.category.vserver-windows-general": {
+    "message": "General",
+    "description": "The label for category 'General' in sidebar 'vpsrootSidebar'"
+  },
+  "sidebar.vpsrootSidebar.category.vserver-windows-services": {
+    "message": "Service",
+    "description": "The label for category 'Services' in sidebar 'vpsrootSidebar'"
+  },
+  "sidebar.vpsrootSidebar.category.vserver-windows-dedicated-game-servers": {
+    "message": "専用ゲームサーバー",
+    "description": "The label for category 'Dedicated Game Servers' in sidebar 'vpsrootSidebar'"
+  },
+  "sidebar.vpsrootSidebar.category.vserver-windows-dedicated-game-servers-general": {
+    "message": "General",
+    "description": "The label for category 'General' in sidebar 'vpsrootSidebar'"
+  },
+  "sidebar.vpsrootSidebar.category.vserver-windows-troubleshooting": {
+    "message": "トラブルシューティング",
+    "description": "The label for category 'Troubleshooting' in sidebar 'vpsrootSidebar'"
+  },
+  "sidebar.dedicatedserverSidebar.category.dedicated-server-troubleshooting": {
+    "message": "トラブルシューティング",
+    "description": "The label for category 'Troubleshooting' in sidebar 'dedicatedserverSidebar'"
+  },
+  "sidebar.dedicatedserverSidebar.category.dedicated-server-install-windows": {
+    "message": "Windowsをインストール",
+    "description": "The label for category 'Install Windows' in sidebar 'dedicatedserverSidebar'"
+  },
+  "sidebar.dedicatedserverSidebar.category.dedicated-server-install-ubuntu": {
+    "message": "Ubuntuをインストール",
+    "description": "The label for category 'Install Ubuntu' in sidebar 'dedicatedserverSidebar'"
+  },
+  "sidebar.dedicatedserverSidebar.category.dedicated-server-linux-general": {
+    "message": "General",
+    "description": "The label for category 'General' in sidebar 'dedicatedserverSidebar'"
+  },
+  "sidebar.dedicatedserverSidebar.category.dedicated-server-linux-services": {
+    "message": "Service",
+    "description": "The label for category 'Services' in sidebar 'dedicatedserverSidebar'"
+  },
+  "sidebar.dedicatedserverSidebar.category.dedicated-server-linux-dedicated-game-servers": {
+    "message": "専用ゲームサーバー",
+    "description": "The label for category 'Dedicated Game Servers' in sidebar 'dedicatedserverSidebar'"
+  },
+  "sidebar.dedicatedserverSidebar.category.dedicated-linux-dedicated-game-servers-general": {
+    "message": "General",
+    "description": "The label for category 'General' in sidebar 'dedicatedserverSidebar'"
+  },
+  "sidebar.dedicatedserverSidebar.category.dedicated-server-linux-security": {
+    "message": "セキュリティ",
+    "description": "The label for category 'Security' in sidebar 'dedicatedserverSidebar'"
+  },
+  "sidebar.dedicatedserverSidebar.category.dedicated-server-windows-general": {
+    "message": "General",
+    "description": "The label for category 'General' in sidebar 'dedicatedserverSidebar'"
+  },
+  "sidebar.dedicatedserverSidebar.category.dedicated-server-windows-services": {
+    "message": "Service",
+    "description": "The label for category 'Services' in sidebar 'dedicatedserverSidebar'"
+  },
+  "sidebar.dedicatedserverSidebar.category.dedicated-server-windows-dedicated-game-servers": {
+    "message": "専用ゲームサーバー",
+    "description": "The label for category 'Dedicated Game Servers' in sidebar 'dedicatedserverSidebar'"
+  },
+  "sidebar.dedicatedserverSidebar.category.dedicated-windows-dedicated-game-servers-general": {
+    "message": "General",
+    "description": "The label for category 'General' in sidebar 'dedicatedserverSidebar'"
+  },
+  "sidebar.dedicatedserverSidebar.category.dedicated-server-windows-troubleshooting": {
+    "message": "トラブルシューティング",
+    "description": "The label for category 'Troubleshooting' in sidebar 'dedicatedserverSidebar'"
+  },
+  "sidebar.domainwebspaceSidebar.category.domain-domain-forwarding": {
+    "message": "ドメイン転送",
+    "description": "The label for category 'Domain forwarding' in sidebar 'domainwebspaceSidebar'"
+  },
+  "sidebar.domainwebspaceSidebar.category.domain-cloudflare": {
+    "message": "Cloudflare",
+    "description": "The label for category 'Cloudflare' in sidebar 'domainwebspaceSidebar'"
+  },
+  "sidebar.domainwebspaceSidebar.category.domain-e-mails": {
+    "message": "Eメール",
+    "description": "The label for category 'E-Mails' in sidebar 'domainwebspaceSidebar'"
+  },
+  "sidebar.domainwebspaceSidebar.category.domain-mybb": {
+    "message": "MyBB",
+    "description": "The label for category 'MyBB' in sidebar 'domainwebspaceSidebar'"
+  },
+  "sidebar.domainwebspaceSidebar.category.domain-wordpress": {
+    "message": "WordPress",
+    "description": "The label for category 'WordPress' in sidebar 'domainwebspaceSidebar'"
+  },
+  "sidebar.voiceserverbotSidebar.category.domain-discord-bot": {
+    "message": "Discordボット",
+    "description": "The label for category 'Discord Bot' in sidebar 'voiceserverbotSidebar'"
+  },
+  "sidebar.voiceserverbotSidebar.category.domain-ts3musicbot": {
+    "message": "TS3MusicBot",
+    "description": "The label for category 'TS3MusicBot' in sidebar 'voiceserverbotSidebar'"
   }
 }

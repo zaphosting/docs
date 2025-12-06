@@ -290,6 +290,14 @@ const config = {
           value: (() => {
             switch (process.env.DOCUSAURUS_CURRENT_LOCALE) {
               case "de": return '<a href="https://zap-hosting.com/de/server-mieten/">Server mieten</a>';
+              case "en": return '<a href="https://zap-hosting.com/en/server-hosting/">Rent a server</a>';
+              case "es": return '<a href="https://zap-hosting.com/en/server-hosting/">Alquilar servidor</a>';
+              case "fr": return '<a href="https://zap-hosting.com/en/server-hosting/">Louer un serveur</a>';
+              case "ar": return '<a href="https://zap-hosting.com/en/server-hosting/">استئجار خادم</a>';
+              case "pt": return '<a href="https://zap-hosting.com/en/server-hosting/">Alugar servidor</a>';
+              case "th": return '<a href="https://zap-hosting.com/en/server-hosting/">เช่าเซิร์ฟเวอร์</a>';
+              case "pl": return '<a href="https://zap-hosting.com/en/server-hosting/">Wynajmij serwer</a>';
+              case "ja": return '<a href="https://zap-hosting.com/en/server-hosting/">サーバーをレンタル</a>';
               default: return '<a href="https://zap-hosting.com/en/server-hosting/">Rent a server</a>';
             }
           })(),

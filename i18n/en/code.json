@@ -1500,5 +1500,20 @@
   "theme.tags.tagsPageTitle": {
     "message": "Tags",
     "description": "The title of the tag list page"
+  },
+  "service.gameserver-voyagers-of-nera.title": {
+    "message": "Voyagers of Nera Gameserver",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-voyagers-of-nera.path": {
+    "message": "{marketingSite}/{language}/voyagers-of-nera-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "footer.cookieSettings": {
+    "message": "Cookie settings"
+  },
+  "theme.IconExternalLink.ariaLabel": {
+    "message": "(opens in new tab)",
+    "description": "The ARIA label for the external link icon"
   }
 }

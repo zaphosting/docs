@@ -24,7 +24,7 @@
     "description": "Navbar item with label Dedicated Server"
   },
   "item.label.Domain & Webspace": {
-    "message": "Domaine & Hébergement web",
+    "message": "Domaine & hébergement web",
     "description": "Navbar item with label Domain & Webspace"
   },
   "item.label.Voicebot & Voiceserver": {

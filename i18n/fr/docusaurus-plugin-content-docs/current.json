@@ -5,2130 +5,2150 @@
   },
   "sidebar.guidesSidebar.category.Support": {
     "message": "Support",
-    "description": "The label for category Support in sidebar guidesSidebar"
+    "description": "The label for category 'Support' in sidebar 'guidesSidebar'"
   },
   "sidebar.guidesSidebar.category.Account": {
-    "message": "Compte",
-    "description": "The label for category Account in sidebar guidesSidebar"
+    "message": "Account",
+    "description": "The label for category 'Account' in sidebar 'guidesSidebar'"
   },
   "sidebar.guidesSidebar.category.general-security": {
-    "message": "Sécurité",
-    "description": "The label for category Security in sidebar guidesSidebar"
+    "message": "Security",
+    "description": "The label for category 'Security' in sidebar 'guidesSidebar'"
   },
   "sidebar.guidesSidebar.category.Affiliate Program": {
-    "message": "Programme d'affiliation",
-    "description": "The label for category Affiliate Program in sidebar guidesSidebar"
+    "message": "Affiliate Program",
+    "description": "The label for category 'Affiliate Program' in sidebar 'guidesSidebar'"
   },
   "sidebar.guidesSidebar.category.Partner Program": {
-    "message": "Programme Partenaires",
-    "description": "The label for category Partner Program in sidebar guidesSidebar"
+    "message": "Partner Program",
+    "description": "The label for category 'Partner Program' in sidebar 'guidesSidebar'"
   },
   "sidebar.guidesSidebar.category.Contribution Program": {
-    "message": "Programme de contribution",
-    "description": "The label for category Contribution Program in sidebar guidesSidebar"
+    "message": "Contribution Program",
+    "description": "The label for category 'Contribution Program' in sidebar 'guidesSidebar'"
   },
   "sidebar.guidesSidebar.category.general-contribution-program-guides": {
     "message": "Guides",
-    "description": "The label for category Guides in sidebar guidesSidebar"
+    "description": "The label for category 'Guides' in sidebar 'guidesSidebar'"
   },
   "sidebar.guidesSidebar.category.general-contribution-program-blogs": {
     "message": "Blogs",
-    "description": "The label for category Blogs in sidebar guidesSidebar"
+    "description": "The label for category 'Blogs' in sidebar 'guidesSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-databases": {
-    "message": "Bases de données",
-    "description": "The label for category Databases in sidebar gameserverSidebar"
+    "message": "Databases",
+    "description": "The label for category 'Databases' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-fivem-popular": {
     "message": "FiveM",
-    "description": "The label for category FiveM in sidebar gameserverSidebar"
+    "description": "The label for category 'FiveM' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-fivem-popular": {
-    "message": "Premiers Pas",
-    "description": "The label for category First Steps in sidebar gameserverSidebar"
+    "message": "Getting Started",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-configuration-fivem-popular": {
     "message": "Configuration",
-    "description": "The label for category Configuration in sidebar gameserverSidebar"
+    "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-resources-fivem-popular": {
-    "message": "Ressources",
-    "description": "The label for category Resources in sidebar gameserverSidebar"
+    "message": "Resources",
+    "description": "The label for category 'Resources' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-frameworks-fivem-popular": {
     "message": "Frameworks",
-    "description": "The label for category Frameworks in sidebar gameserverSidebar"
+    "description": "The label for category 'Frameworks' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-esx-frameworks-popular": {
     "message": "ESX",
-    "description": "The label for category ESX in sidebar gameserverSidebar"
+    "description": "The label for category 'ESX' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-qbcore-frameworks-popular": {
     "message": "QBCore",
-    "description": "The label for category QBCore in sidebar gameserverSidebar"
+    "description": "The label for category 'QBCore' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-fivem-popular": {
-    "message": "Dépannage",
-    "description": "The label for category Troubleshooting in sidebar gameserverSidebar"
+    "message": "Troubleshooting",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-minecraft-popular": {
     "message": "Minecraft",
-    "description": "The label for category Minecraft in sidebar gameserverSidebar"
+    "description": "The label for category 'Minecraft' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-minecraft-popular": {
-    "message": "Premiers Pas",
-    "description": "The label for category First Steps in sidebar gameserverSidebar"
+    "message": "Getting Started",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-configuration-minecraft-popular": {
     "message": "Configuration",
-    "description": "The label for category Configuration in sidebar gameserverSidebar"
+    "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-bedrock-minecraft-popular": {
     "message": "Bedrock",
-    "description": "The label for category Bedrock in sidebar gameserverSidebar"
+    "description": "The label for category 'Bedrock' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-bungeecord-minecraft-popular": {
     "message": "Bungeecord",
-    "description": "The label for category Bungeecord in sidebar gameserverSidebar"
+    "description": "The label for category 'Bungeecord' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-forge-fabric-mods-minecraft-popular": {
     "message": "Forge & Fabric (Mods)",
-    "description": "The label for category Forge & Fabric (Mods) in sidebar gameserverSidebar"
+    "description": "The label for category 'Forge & Fabric (Mods)' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-spigot-bukkit-plugins-minecraft-popular": {
     "message": "Spigot & Bukkit (Plugins)",
-    "description": "The label for category Spigot & Bukkit (Plugins) in sidebar gameserverSidebar"
+    "description": "The label for category 'Spigot & Bukkit (Plugins)' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-minecraft-popular": {
-    "message": "Dépannage",
-    "description": "The label for category Troubleshooting in sidebar gameserverSidebar"
+    "message": "Troubleshooting",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-scp-secret-laboratory-popular": {
-    "message": "SCP : Laboratoire Secret",
-    "description": "The label for category SCP: Secret Laboratory in sidebar gameserverSidebar"
+    "message": "SCP: Secret Laboratory",
+    "description": "The label for category 'SCP: Secret Laboratory' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-scp-secret-laboratory-popular": {
-    "message": "Premiers Pas",
-    "description": "The label for category First Steps in sidebar gameserverSidebar"
+    "message": "Getting Started",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-configuration-scp-secret-laboratory-popular": {
     "message": "Configuration",
-    "description": "The label for category Configuration in sidebar gameserverSidebar"
+    "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-exiled-scp-secret-laboratory-popular": {
-    "message": "Exilé",
-    "description": "The label for category Exiled in sidebar gameserverSidebar"
+    "message": "Exiled",
+    "description": "The label for category 'Exiled' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-scp-secret-laboratory-popular": {
-    "message": "Dépannage",
-    "description": "The label for category Troubleshooting in sidebar gameserverSidebar"
+    "message": "Troubleshooting",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-valheim-popular": {
     "message": "Valheim",
-    "description": "The label for category Valheim in sidebar gameserverSidebar"
+    "description": "The label for category 'Valheim' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-valheim-popular": {
-    "message": "Premiers Pas",
-    "description": "The label for category First Steps in sidebar gameserverSidebar"
+    "message": "Getting Started",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-configuration-valheim-popular": {
     "message": "Configuration",
-    "description": "The label for category Configuration in sidebar gameserverSidebar"
+    "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-valheim-popular": {
-    "message": "Dépannage",
-    "description": "The label for category Troubleshooting in sidebar gameserverSidebar"
+    "message": "Troubleshooting",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-ark-survival-evolved-popular": {
-    "message": "Ark : Survival Evolved",
-    "description": "The label for category Ark: Survival Evolved in sidebar gameserverSidebar"
+    "message": "Ark: Survival Evolved",
+    "description": "The label for category 'Ark: Survival Evolved' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-ark-survival-evolved-popular": {
-    "message": "Premiers Pas",
-    "description": "The label for category First Steps in sidebar gameserverSidebar"
+    "message": "Getting Started",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-configuration-ark-survival-evolved-popular": {
     "message": "Configuration",
-    "description": "The label for category Configuration in sidebar gameserverSidebar"
+    "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-ark-survival-evolved-popular": {
-    "message": "Dépannage",
-    "description": "The label for category Troubleshooting in sidebar gameserverSidebar"
+    "message": "Troubleshooting",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-palworld-popular": {
     "message": "Palworld",
-    "description": "The label for category Palworld in sidebar gameserverSidebar"
+    "description": "The label for category 'Palworld' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-palworld-popular": {
-    "message": "Premiers Pas",
-    "description": "The label for category First Steps in sidebar gameserverSidebar"
+    "message": "Getting Started",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-configuration-palworld-popular": {
     "message": "Configuration",
-    "description": "The label for category Configuration in sidebar gameserverSidebar"
+    "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-palworld-popular": {
-    "message": "Dépannage",
-    "description": "The label for category Troubleshooting in sidebar gameserverSidebar"
+    "message": "Troubleshooting",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-enshrouded-popular": {
     "message": "Enshrouded",
-    "description": "The label for category Enshrouded in sidebar gameserverSidebar"
+    "description": "The label for category 'Enshrouded' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-enshrouded-popular": {
-    "message": "Premiers Pas",
-    "description": "The label for category First Steps in sidebar gameserverSidebar"
+    "message": "Getting Started",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-configuration-enshrouded-popular": {
     "message": "Configuration",
-    "description": "The label for category Configuration in sidebar gameserverSidebar"
+    "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-enshrouded-popular": {
-    "message": "Dépannage",
-    "description": "The label for category Troubleshooting in sidebar gameserverSidebar"
+    "message": "Troubleshooting",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-scum-popular": {
     "message": "SCUM",
-    "description": "The label for category SCUM in sidebar gameserverSidebar"
+    "description": "The label for category 'SCUM' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-scum-popular": {
-    "message": "Premiers Pas",
-    "description": "The label for category First Steps in sidebar gameserverSidebar"
+    "message": "Getting Started",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-configuration-scum-popular": {
     "message": "Configuration",
-    "description": "The label for category Configuration in sidebar gameserverSidebar"
+    "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-scum-popular": {
-    "message": "Dépannage",
-    "description": "The label for category Troubleshooting in sidebar gameserverSidebar"
+    "message": "Troubleshooting",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-7-days-to-die": {
     "message": "7 Days to Die",
-    "description": "The label for category 7 Days to Die in sidebar gameserverSidebar"
+    "description": "The label for category '7 Days to Die' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-7-days-to-die": {
-    "message": "Premiers Pas",
-    "description": "The label for category First Steps in sidebar gameserverSidebar"
+    "message": "Getting Started",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-configuration-7-days-to-die": {
     "message": "Configuration",
-    "description": "The label for category Configuration in sidebar gameserverSidebar"
+    "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-7-days-to-die": {
-    "message": "Dépannage",
-    "description": "The label for category Troubleshooting in sidebar gameserverSidebar"
+    "message": "Troubleshooting",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-abiotic-factor": {
-    "message": "Facteur abiotique",
-    "description": "The label for category Abiotic Factor in sidebar gameserverSidebar"
+    "message": "Abiotic Factor",
+    "description": "The label for category 'Abiotic Factor' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-abiotic-factor": {
-    "message": "Premiers Pas",
-    "description": "The label for category First Steps in sidebar gameserverSidebar"
+    "message": "Getting Started",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-configuration-abiotic-factor": {
     "message": "Configuration",
-    "description": "The label for category Configuration in sidebar gameserverSidebar"
+    "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-abiotic-factor": {
-    "message": "Dépannage",
-    "description": "The label for category Troubleshooting in sidebar gameserverSidebar"
+    "message": "Troubleshooting",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-afterinfection": {
-    "message": "Après-infection",
-    "description": "The label for category Afterinfection in sidebar gameserverSidebar"
+    "message": "Post-Infection",
+    "description": "The label for category 'Afterinfection' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-afterinfection": {
-    "message": "Premiers pas",
-    "description": "The label for category First Steps in sidebar gameserverSidebar"
+    "message": "Getting Started",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-afterinfection": {
-    "message": "Dépannage",
-    "description": "The label for category Troubleshooting in sidebar gameserverSidebar"
+    "message": "Troubleshooting",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-american-truck-simulator": {
     "message": "American Truck Simulator",
-    "description": "The label for category American Truck Simulator in sidebar gameserverSidebar"
+    "description": "The label for category 'American Truck Simulator' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-american-truck-simulator": {
-    "message": "Premiers Pas",
-    "description": "The label for category First Steps in sidebar gameserverSidebar"
+    "message": "Getting Started",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-configuration-american-truck-simulator": {
     "message": "Configuration",
-    "description": "The label for category Configuration in sidebar gameserverSidebar"
+    "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-american-truck-simulator": {
-    "message": "Dépannage",
-    "description": "The label for category Troubleshooting in sidebar gameserverSidebar"
+    "message": "Troubleshooting",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-among-us": {
     "message": "Among Us",
-    "description": "The label for category Among Us in sidebar gameserverSidebar"
+    "description": "The label for category 'Among Us' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-among-us": {
-    "message": "Premiers Pas",
-    "description": "The label for category First Steps in sidebar gameserverSidebar"
+    "message": "Getting Started",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-among-us": {
-    "message": "Dépannage",
-    "description": "The label for category Troubleshooting in sidebar gameserverSidebar"
+    "message": "Troubleshooting",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-animalia-survival": {
     "message": "Animalia Survival",
-    "description": "The label for category Animalia Survival in sidebar gameserverSidebar"
+    "description": "The label for category 'Animalia Survival' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-animalia-survival": {
-    "message": "Premiers Pas",
-    "description": "The label for category First Steps in sidebar gameserverSidebar"
+    "message": "Getting Started",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-animalia-survival": {
-    "message": "Dépannage",
-    "description": "The label for category Troubleshooting in sidebar gameserverSidebar"
+    "message": "Troubleshooting",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-argo": {
     "message": "Argo",
-    "description": "The label for category Argo in sidebar gameserverSidebar"
+    "description": "The label for category 'Argo' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-argo": {
-    "message": "Premiers Pas",
-    "description": "The label for category First Steps in sidebar gameserverSidebar"
+    "message": "Getting Started",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-argo": {
-    "message": "Dépannage",
-    "description": "The label for category Troubleshooting in sidebar gameserverSidebar"
+    "message": "Troubleshooting",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-ark-survival-evolved": {
-    "message": "Ark : Survival Evolved",
-    "description": "The label for category Ark: Survival Evolved in sidebar gameserverSidebar"
+    "message": "Ark: Survival Evolved",
+    "description": "The label for category 'Ark: Survival Evolved' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-ark-survival-evolved": {
-    "message": "Premiers Pas",
-    "description": "The label for category First Steps in sidebar gameserverSidebar"
+    "message": "Getting Started",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-configuration-ark-survival-evolved": {
     "message": "Configuration",
-    "description": "The label for category Configuration in sidebar gameserverSidebar"
+    "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-ark-survival-evolved": {
-    "message": "Dépannage",
-    "description": "The label for category Troubleshooting in sidebar gameserverSidebar"
+    "message": "Troubleshooting",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-arma-3": {
     "message": "Arma 3",
-    "description": "The label for category Arma 3 in sidebar gameserverSidebar"
+    "description": "The label for category 'Arma 3' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-arma-3": {
-    "message": "Premiers Pas",
-    "description": "The label for category First Steps in sidebar gameserverSidebar"
+    "message": "Getting Started",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-configuration-arma-3": {
     "message": "Configuration",
-    "description": "The label for category Configuration in sidebar gameserverSidebar"
+    "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-arma-3": {
-    "message": "Dépannage",
-    "description": "The label for category Troubleshooting in sidebar gameserverSidebar"
+    "message": "Troubleshooting",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-arma-reforger": {
     "message": "Arma Reforger",
-    "description": "The label for category Arma Reforger in sidebar gameserverSidebar"
+    "description": "The label for category 'Arma Reforger' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-arma-reforger": {
-    "message": "Premiers Pas",
-    "description": "The label for category First Steps in sidebar gameserverSidebar"
+    "message": "Getting Started",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-configuration-arma-reforger": {
     "message": "Configuration",
-    "description": "The label for category Configuration in sidebar gameserverSidebar"
+    "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-arma-reforger": {
-    "message": "Dépannage",
-    "description": "The label for category Troubleshooting in sidebar gameserverSidebar"
+    "message": "Troubleshooting",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-assetto-corsa": {
     "message": "Assetto Corsa",
-    "description": "The label for category Assetto Corsa in sidebar gameserverSidebar"
+    "description": "The label for category 'Assetto Corsa' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-assetto-corsa": {
-    "message": "Premiers pas",
-    "description": "The label for category First Steps in sidebar gameserverSidebar"
+    "message": "Getting Started",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-configuration-assetto-corsa": {
     "message": "Configuration",
-    "description": "The label for category Configuration in sidebar gameserverSidebar"
+    "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-assetto-corsa": {
-    "message": "Dépannage",
-    "description": "The label for category Troubleshooting in sidebar gameserverSidebar"
+    "message": "Troubleshooting",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-assetto-corsa-competizione": {
     "message": "Assetto Corsa Competizione",
-    "description": "The label for category Assetto Corsa Competizione in sidebar gameserverSidebar"
+    "description": "The label for category 'Assetto Corsa Competizione' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-assetto-corsa-competizione": {
-    "message": "Premiers Pas",
-    "description": "The label for category First Steps in sidebar gameserverSidebar"
+    "message": "Getting Started",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-configuration-assetto-corsa-competizione": {
     "message": "Configuration",
-    "description": "The label for category Configuration in sidebar gameserverSidebar"
+    "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-assetto-corsa-competizione": {
-    "message": "Dépannage",
-    "description": "The label for category Troubleshooting in sidebar gameserverSidebar"
+    "message": "Troubleshooting",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-astro-colony": {
     "message": "Astro Colony",
-    "description": "The label for category Astro Colony in sidebar gameserverSidebar"
+    "description": "The label for category 'Astro Colony' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-astro-colony": {
-    "message": "Premiers Pas",
-    "description": "The label for category First Steps in sidebar gameserverSidebar"
+    "message": "Getting Started",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-astro-colony": {
-    "message": "Dépannage",
-    "description": "The label for category Troubleshooting in sidebar gameserverSidebar"
+    "message": "Troubleshooting",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-astroneer": {
     "message": "ASTRONEER",
-    "description": "The label for category ASTRONEER in sidebar gameserverSidebar"
+    "description": "The label for category 'ASTRONEER' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-astroneer": {
-    "message": "Premiers Pas",
-    "description": "The label for category First Steps in sidebar gameserverSidebar"
+    "message": "Getting Started",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-astroneer": {
-    "message": "Dépannage",
-    "description": "The label for category Troubleshooting in sidebar gameserverSidebar"
+    "message": "Troubleshooting",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-avorion": {
     "message": "Avorion",
-    "description": "The label for category Avorion in sidebar gameserverSidebar"
+    "description": "The label for category 'Avorion' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-avorion": {
-    "message": "Premiers pas",
-    "description": "The label for category First Steps in sidebar gameserverSidebar"
+    "message": "Getting Started",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-configuration-avorion": {
     "message": "Configuration",
-    "description": "The label for category Configuration in sidebar gameserverSidebar"
+    "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-avorion": {
-    "message": "Dépannage",
-    "description": "The label for category Troubleshooting in sidebar gameserverSidebar"
+    "message": "Troubleshooting",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-banana-shooter": {
     "message": "Banana Shooter",
-    "description": "The label for category Banana Shooter in sidebar gameserverSidebar"
+    "description": "The label for category 'Banana Shooter' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-banana-shooter": {
-    "message": "Premiers Pas",
-    "description": "The label for category First Steps in sidebar gameserverSidebar"
+    "message": "Getting Started",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-banana-shooter": {
-    "message": "Dépannage",
-    "description": "The label for category Troubleshooting in sidebar gameserverSidebar"
+    "message": "Troubleshooting",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-barotrauma": {
     "message": "Barotrauma",
-    "description": "The label for category Barotrauma in sidebar gameserverSidebar"
+    "description": "The label for category 'Barotrauma' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-barotrauma": {
-    "message": "Premiers Pas",
-    "description": "The label for category First Steps in sidebar gameserverSidebar"
+    "message": "Getting Started",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-configuration-barotrauma": {
     "message": "Configuration",
-    "description": "The label for category Configuration in sidebar gameserverSidebar"
+    "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-barotrauma": {
-    "message": "Dépannage",
-    "description": "The label for category Troubleshooting in sidebar gameserverSidebar"
+    "message": "Troubleshooting",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-battalion-1944": {
     "message": "Battalion 1944",
-    "description": "The label for category Battalion 1944 in sidebar gameserverSidebar"
+    "description": "The label for category 'Battalion 1944' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-battalion-1944": {
-    "message": "Premiers Pas",
-    "description": "The label for category First Steps in sidebar gameserverSidebar"
+    "message": "Getting Started",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-battalion-1944": {
-    "message": "Dépannage",
-    "description": "The label for category Troubleshooting in sidebar gameserverSidebar"
+    "message": "Troubleshooting",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-battle-grounds-iii": {
     "message": "Battle Grounds III",
-    "description": "The label for category Battle Grounds III in sidebar gameserverSidebar"
+    "description": "The label for category 'Battle Grounds III' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-battle-grounds-iii": {
-    "message": "Premiers Pas",
-    "description": "The label for category First Steps in sidebar gameserverSidebar"
+    "message": "Getting Started",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-battle-grounds-iii": {
-    "message": "Dépannage",
-    "description": "The label for category Troubleshooting in sidebar gameserverSidebar"
+    "message": "Troubleshooting",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-beammp": {
     "message": "BeamMP",
-    "description": "The label for category BeamMP in sidebar gameserverSidebar"
+    "description": "The label for category 'BeamMP' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-beammp": {
-    "message": "Premiers Pas",
-    "description": "The label for category First Steps in sidebar gameserverSidebar"
+    "message": "Getting Started",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-configuration-beammp": {
     "message": "Configuration",
-    "description": "The label for category Configuration in sidebar gameserverSidebar"
+    "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-beammp": {
-    "message": "Dépannage",
-    "description": "The label for category Troubleshooting in sidebar gameserverSidebar"
+    "message": "Troubleshooting",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-beasts-of-bermuda": {
-    "message": "Bêtes de Bermuda",
-    "description": "The label for category Beasts of Bermuda in sidebar gameserverSidebar"
+    "message": "Bermuda Beasts",
+    "description": "The label for category 'Beasts of Bermuda' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-beasts-of-bermuda": {
-    "message": "Premiers Pas",
-    "description": "The label for category First Steps in sidebar gameserverSidebar"
+    "message": "Getting Started",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-beasts-of-bermuda": {
-    "message": "Dépannage",
-    "description": "The label for category Troubleshooting in sidebar gameserverSidebar"
+    "message": "Troubleshooting",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-beyond-the-wire": {
     "message": "Beyond the Wire",
-    "description": "The label for category Beyond the Wire in sidebar gameserverSidebar"
+    "description": "The label for category 'Beyond the Wire' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-beyond-the-wire": {
-    "message": "Premiers Pas",
-    "description": "The label for category First Steps in sidebar gameserverSidebar"
+    "message": "Getting Started",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-beyond-the-wire": {
-    "message": "Dépannage",
-    "description": "The label for category Troubleshooting in sidebar gameserverSidebar"
+    "message": "Troubleshooting",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-broke-protocol": {
     "message": "Broke Protocol",
-    "description": "The label for category Broke Protocol in sidebar gameserverSidebar"
+    "description": "The label for category 'Broke Protocol' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-broke-protocol": {
-    "message": "Premiers Pas",
-    "description": "The label for category First Steps in sidebar gameserverSidebar"
+    "message": "Getting Started",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-broke-protocol": {
-    "message": "Dépannage",
-    "description": "The label for category Troubleshooting in sidebar gameserverSidebar"
+    "message": "Troubleshooting",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-citadel-forged-with-fire": {
-    "message": "Citadel : Forgé par le Feu",
-    "description": "The label for category Citadel: Forged With Fire in sidebar gameserverSidebar"
+    "message": "Citadel: Forged by Fire",
+    "description": "The label for category 'Citadel: Forged With Fire' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-citadel-forged-with-fire": {
-    "message": "Premiers Pas",
-    "description": "The label for category First Steps in sidebar gameserverSidebar"
+    "message": "Getting Started",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-citadel-forged-with-fire": {
-    "message": "Dépannage",
-    "description": "The label for category Troubleshooting in sidebar gameserverSidebar"
+    "message": "Troubleshooting",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-colony-survival": {
     "message": "Colony Survival",
-    "description": "The label for category Colony Survival in sidebar gameserverSidebar"
+    "description": "The label for category 'Colony Survival' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-colony-survival": {
-    "message": "Premiers Pas",
-    "description": "The label for category First Steps in sidebar gameserverSidebar"
+    "message": "Getting Started",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-colony-survival": {
-    "message": "Dépannage",
-    "description": "The label for category Troubleshooting in sidebar gameserverSidebar"
+    "message": "Troubleshooting",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-conan-exiles": {
     "message": "Conan Exiles",
-    "description": "The label for category Conan Exiles in sidebar gameserverSidebar"
+    "description": "The label for category 'Conan Exiles' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-conan-exiles": {
-    "message": "Premiers Pas",
-    "description": "The label for category First Steps in sidebar gameserverSidebar"
+    "message": "Getting Started",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-configuration-conan-exiles": {
     "message": "Configuration",
-    "description": "The label for category Configuration in sidebar gameserverSidebar"
+    "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-conan-exiles": {
-    "message": "Dépannage",
-    "description": "The label for category Troubleshooting in sidebar gameserverSidebar"
+    "message": "Troubleshooting",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-contagion": {
     "message": "Contagion",
-    "description": "The label for category Contagion in sidebar gameserverSidebar"
+    "description": "The label for category 'Contagion' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-contagion": {
-    "message": "Premiers Pas",
-    "description": "The label for category First Steps in sidebar gameserverSidebar"
+    "message": "Getting Started",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-contagion": {
-    "message": "Dépannage",
-    "description": "The label for category Troubleshooting in sidebar gameserverSidebar"
+    "message": "Troubleshooting",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-core-keeper": {
     "message": "Core Keeper",
-    "description": "The label for category Core Keeper in sidebar gameserverSidebar"
+    "description": "The label for category 'Core Keeper' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-core-keeper": {
-    "message": "Premiers Pas",
-    "description": "The label for category First Steps in sidebar gameserverSidebar"
+    "message": "Getting Started",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-core-keeper": {
-    "message": "Dépannage",
-    "description": "The label for category Troubleshooting in sidebar gameserverSidebar"
+    "message": "Troubleshooting",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-craftopia": {
     "message": "Craftopia",
-    "description": "The label for category Craftopia in sidebar gameserverSidebar"
+    "description": "The label for category 'Craftopia' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-craftopia": {
-    "message": "Premiers Pas",
-    "description": "The label for category First Steps in sidebar gameserverSidebar"
+    "message": "Getting Started",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-craftopia": {
-    "message": "Dépannage",
-    "description": "The label for category Troubleshooting in sidebar gameserverSidebar"
+    "message": "Troubleshooting",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-cryofall": {
     "message": "Cryofall",
-    "description": "The label for category Cryofall in sidebar gameserverSidebar"
+    "description": "The label for category 'Cryofall' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-cryofall": {
-    "message": "Premiers Pas",
-    "description": "The label for category First Steps in sidebar gameserverSidebar"
+    "message": "Getting Started",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-cryofall": {
-    "message": "Dépannage",
-    "description": "The label for category Troubleshooting in sidebar gameserverSidebar"
+    "message": "Troubleshooting",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-counter-strike-1-6": {
     "message": "Counter-Strike 1.6",
-    "description": "The label for category Counter-Strike 1.6 in sidebar gameserverSidebar"
+    "description": "The label for category 'Counter-Strike 1.6' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-counter-strike-1-6": {
-    "message": "Premiers Pas",
-    "description": "The label for category First Steps in sidebar gameserverSidebar"
+    "message": "Getting Started",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-configuration-counter-strike-1-6": {
     "message": "Configuration",
-    "description": "The label for category Configuration in sidebar gameserverSidebar"
+    "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-counter-strike-1-6": {
-    "message": "Dépannage",
-    "description": "The label for category Troubleshooting in sidebar gameserverSidebar"
+    "message": "Troubleshooting",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-counter-strike-condition-zero": {
     "message": "Counter-Strike : Condition Zero",
-    "description": "The label for category Counter-Strike: Condition Zero in sidebar gameserverSidebar"
+    "description": "The label for category 'Counter-Strike: Condition Zero' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-counter-strike-condition-zero": {
-    "message": "Premiers Pas",
-    "description": "The label for category First Steps in sidebar gameserverSidebar"
+    "message": "Getting Started",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-counter-strike-condition-zero": {
-    "message": "Dépannage",
-    "description": "The label for category Troubleshooting in sidebar gameserverSidebar"
+    "message": "Troubleshooting",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-counter-strike-source": {
     "message": "Counter-Strike: Source",
-    "description": "The label for category Counter-Strike: Source in sidebar gameserverSidebar"
+    "description": "The label for category 'Counter-Strike: Source' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-counter-strike-source": {
-    "message": "Premiers Pas",
-    "description": "The label for category First Steps in sidebar gameserverSidebar"
+    "message": "Getting Started",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-configuration-counter-strike-source": {
     "message": "Configuration",
-    "description": "The label for category Configuration in sidebar gameserverSidebar"
+    "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-counter-strike-source": {
-    "message": "Dépannage",
-    "description": "The label for category Troubleshooting in sidebar gameserverSidebar"
+    "message": "Troubleshooting",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-counter-strike-2": {
     "message": "Counter-Strike 2",
-    "description": "The label for category Counter-Strike 2 in sidebar gameserverSidebar"
+    "description": "The label for category 'Counter-Strike 2' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-counter-strike-2": {
-    "message": "Premiers Pas",
-    "description": "The label for category First Steps in sidebar gameserverSidebar"
+    "message": "Getting Started",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-configuration-counter-strike-2": {
     "message": "Configuration",
-    "description": "The label for category Configuration in sidebar gameserverSidebar"
+    "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-plugins-mods-counter-strike-2": {
     "message": "Plugins / Mods",
-    "description": "The label for category Plugins / Mods in sidebar gameserverSidebar"
+    "description": "The label for category 'Plugins / Mods' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-counter-strike-2": {
-    "message": "Dépannage",
-    "description": "The label for category Troubleshooting in sidebar gameserverSidebar"
+    "message": "Troubleshooting",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-day-of-defeat-source": {
     "message": "Day of Defeat: Source",
-    "description": "The label for category Day of Defeat: Source in sidebar gameserverSidebar"
+    "description": "The label for category 'Day of Defeat: Source' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-day-of-defeat-source": {
-    "message": "Premiers Pas",
-    "description": "The label for category First Steps in sidebar gameserverSidebar"
+    "message": "Getting Started",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-configuration-day-of-defeat-source": {
     "message": "Configuration",
-    "description": "The label for category Configuration in sidebar gameserverSidebar"
+    "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-day-of-defeat-source": {
-    "message": "Dépannage",
-    "description": "The label for category Troubleshooting in sidebar gameserverSidebar"
+    "message": "Troubleshooting",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-day-of-infamy": {
     "message": "Jour d'Infamie",
-    "description": "The label for category Day of Infamy in sidebar gameserverSidebar"
+    "description": "The label for category 'Day of Infamy' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-day-of-infamy": {
-    "message": "Premiers Pas",
-    "description": "The label for category First Steps in sidebar gameserverSidebar"
+    "message": "Getting Started",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-day-of-infamy": {
-    "message": "Dépannage",
-    "description": "The label for category Troubleshooting in sidebar gameserverSidebar"
+    "message": "Troubleshooting",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-dayz": {
     "message": "DayZ",
-    "description": "The label for category DayZ in sidebar gameserverSidebar"
+    "description": "The label for category 'DayZ' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-dayz": {
-    "message": "Premiers Pas",
-    "description": "The label for category First Steps in sidebar gameserverSidebar"
+    "message": "Getting Started",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-configuration-dayz": {
     "message": "Configuration",
-    "description": "The label for category Configuration in sidebar gameserverSidebar"
+    "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-dayz": {
-    "message": "Dépannage",
-    "description": "The label for category Troubleshooting in sidebar gameserverSidebar"
+    "message": "Troubleshooting",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-ddracenetwork": {
     "message": "DDraceNetwork",
-    "description": "The label for category DDraceNetwork in sidebar gameserverSidebar"
+    "description": "The label for category 'DDraceNetwork' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-ddracenetwork": {
-    "message": "Premiers Pas",
-    "description": "The label for category First Steps in sidebar gameserverSidebar"
+    "message": "Getting Started",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-ddracenetwork": {
-    "message": "Dépannage",
-    "description": "The label for category Troubleshooting in sidebar gameserverSidebar"
+    "message": "Troubleshooting",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-deadlock": {
     "message": "Interblocage",
-    "description": "The label for category Deadlock in sidebar gameserverSidebar"
+    "description": "The label for category 'Deadlock' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-deadlock": {
-    "message": "Premiers Pas",
-    "description": "The label for category First Steps in sidebar gameserverSidebar"
+    "message": "Getting Started",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-deadlock": {
-    "message": "Dépannage",
-    "description": "The label for category Troubleshooting in sidebar gameserverSidebar"
+    "message": "Troubleshooting",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-deadpoly": {
     "message": "DeadPoly",
-    "description": "The label for category DeadPoly in sidebar gameserverSidebar"
+    "description": "The label for category 'DeadPoly' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-deadpoly": {
-    "message": "Premiers Pas",
-    "description": "The label for category First Steps in sidebar gameserverSidebar"
+    "message": "Getting Started",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-deadpoly": {
-    "message": "Dépannage",
-    "description": "The label for category Troubleshooting in sidebar gameserverSidebar"
+    "message": "Troubleshooting",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-don-t-starve-together": {
     "message": "Don't Starve Together",
-    "description": "The label for category Don't Starve Together in sidebar gameserverSidebar"
+    "description": "The label for category 'Don't Starve Together' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-don-t-starve-together": {
-    "message": "Premiers Pas",
-    "description": "The label for category First Steps in sidebar gameserverSidebar"
+    "message": "Getting Started",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-configuration-don-t-starve-together": {
     "message": "Configuration",
-    "description": "The label for category Configuration in sidebar gameserverSidebar"
+    "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-don-t-starve-together": {
-    "message": "Dépannage",
-    "description": "The label for category Troubleshooting in sidebar gameserverSidebar"
+    "message": "Troubleshooting",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-eco": {
     "message": "ECO",
-    "description": "The label for category ECO in sidebar gameserverSidebar"
+    "description": "The label for category 'ECO' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-eco": {
-    "message": "Premiers pas",
-    "description": "The label for category First Steps in sidebar gameserverSidebar"
+    "message": "Getting Started",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-configuration-eco": {
     "message": "Configuration",
-    "description": "The label for category Configuration in sidebar gameserverSidebar"
+    "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-eco": {
-    "message": "Dépannage",
-    "description": "The label for category Troubleshooting in sidebar gameserverSidebar"
+    "message": "Troubleshooting",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-empyrion": {
     "message": "Empyrion",
-    "description": "The label for category Empyrion in sidebar gameserverSidebar"
+    "description": "The label for category 'Empyrion' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-empyrion": {
-    "message": "Premiers Pas",
-    "description": "The label for category First Steps in sidebar gameserverSidebar"
+    "message": "Getting Started",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-configuration-empyrion": {
     "message": "Configuration",
-    "description": "The label for category Configuration in sidebar gameserverSidebar"
+    "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-empyrion": {
-    "message": "Dépannage",
-    "description": "The label for category Troubleshooting in sidebar gameserverSidebar"
+    "message": "Troubleshooting",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-enshrouded": {
     "message": "Enshrouded",
-    "description": "The label for category Enshrouded in sidebar gameserverSidebar"
+    "description": "The label for category 'Enshrouded' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-enshrouded": {
-    "message": "Premiers Pas",
-    "description": "The label for category First Steps in sidebar gameserverSidebar"
+    "message": "Getting Started",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-configuration-enshrouded": {
     "message": "Configuration",
-    "description": "The label for category Configuration in sidebar gameserverSidebar"
+    "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-enshrouded": {
-    "message": "Dépannage",
-    "description": "The label for category Troubleshooting in sidebar gameserverSidebar"
+    "message": "Troubleshooting",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-euro-truck-simulator-2": {
     "message": "Euro Truck Simulator 2",
-    "description": "The label for category Euro Truck Simulator 2 in sidebar gameserverSidebar"
+    "description": "The label for category 'Euro Truck Simulator 2' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-euro-truck-simulator-2": {
-    "message": "Premiers Pas",
-    "description": "The label for category First Steps in sidebar gameserverSidebar"
+    "message": "Getting Started",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-configuration-euro-truck-simulator-2": {
     "message": "Configuration",
-    "description": "The label for category Configuration in sidebar gameserverSidebar"
+    "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-euro-truck-simulator-2": {
-    "message": "Dépannage",
-    "description": "The label for category Troubleshooting in sidebar gameserverSidebar"
+    "message": "Troubleshooting",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-factorio": {
     "message": "Factorio",
-    "description": "The label for category Factorio in sidebar gameserverSidebar"
+    "description": "The label for category 'Factorio' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-factorio": {
-    "message": "Premiers pas",
-    "description": "The label for category First Steps in sidebar gameserverSidebar"
+    "message": "Getting Started",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-configuration-factorio": {
     "message": "Configuration",
-    "description": "The label for category Configuration in sidebar gameserverSidebar"
+    "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-factorio": {
-    "message": "Dépannage",
-    "description": "The label for category Troubleshooting in sidebar gameserverSidebar"
+    "message": "Troubleshooting",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-fivem": {
     "message": "FiveM",
-    "description": "The label for category FiveM in sidebar gameserverSidebar"
+    "description": "The label for category 'FiveM' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-fivem": {
-    "message": "Premiers Pas",
-    "description": "The label for category First Steps in sidebar gameserverSidebar"
+    "message": "Getting Started",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-configuration-fivem": {
     "message": "Configuration",
-    "description": "The label for category Configuration in sidebar gameserverSidebar"
+    "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-resources-fivem": {
-    "message": "Ressources",
-    "description": "The label for category Resources in sidebar gameserverSidebar"
+    "message": "Resources",
+    "description": "The label for category 'Resources' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-frameworks-fivem": {
     "message": "Frameworks",
-    "description": "The label for category Frameworks in sidebar gameserverSidebar"
+    "description": "The label for category 'Frameworks' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-esx-frameworks": {
     "message": "ESX",
-    "description": "The label for category ESX in sidebar gameserverSidebar"
+    "description": "The label for category 'ESX' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-qbcore-frameworks": {
     "message": "QBCore",
-    "description": "The label for category QBCore in sidebar gameserverSidebar"
+    "description": "The label for category 'QBCore' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-fivem": {
-    "message": "Dépannage",
-    "description": "The label for category Troubleshooting in sidebar gameserverSidebar"
+    "message": "Troubleshooting",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-foundry": {
     "message": "Foundry",
-    "description": "The label for category Foundry in sidebar gameserverSidebar"
+    "description": "The label for category 'Foundry' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-foundry": {
-    "message": "Premiers Pas",
-    "description": "The label for category First Steps in sidebar gameserverSidebar"
+    "message": "Getting Started",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-configuration-foundry": {
     "message": "Configuration",
-    "description": "The label for category Configuration in sidebar gameserverSidebar"
+    "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-foundry": {
-    "message": "Dépannage",
-    "description": "The label for category Troubleshooting in sidebar gameserverSidebar"
+    "message": "Troubleshooting",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-garry-s-mod": {
     "message": "Garry's Mod",
-    "description": "The label for category Garry's Mod in sidebar gameserverSidebar"
+    "description": "The label for category 'Garry's Mod' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-garry-s-mod": {
-    "message": "Premiers Pas",
-    "description": "The label for category First Steps in sidebar gameserverSidebar"
+    "message": "Getting Started",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-configuration-garry-s-mod": {
     "message": "Configuration",
-    "description": "The label for category Configuration in sidebar gameserverSidebar"
+    "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-garry-s-mod": {
-    "message": "Dépannage",
-    "description": "The label for category Troubleshooting in sidebar gameserverSidebar"
+    "message": "Troubleshooting",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-ground-branch": {
     "message": "Ground Branch",
-    "description": "The label for category Ground Branch in sidebar gameserverSidebar"
+    "description": "The label for category 'Ground Branch' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-ground-branch": {
-    "message": "Premiers Pas",
-    "description": "The label for category First Steps in sidebar gameserverSidebar"
+    "message": "Getting Started",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-ground-branch": {
-    "message": "Dépannage",
-    "description": "The label for category Troubleshooting in sidebar gameserverSidebar"
+    "message": "Troubleshooting",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-half-life-1": {
     "message": "Half-Life 1",
-    "description": "The label for category Half-Life 1 in sidebar gameserverSidebar"
+    "description": "The label for category 'Half-Life 1' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-half-life-1": {
-    "message": "Premiers pas",
-    "description": "The label for category First Steps in sidebar gameserverSidebar"
+    "message": "Getting Started",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-configuration-half-life-1": {
     "message": "Configuration",
-    "description": "The label for category Configuration in sidebar gameserverSidebar"
+    "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-half-life-1": {
-    "message": "Dépannage",
-    "description": "The label for category Troubleshooting in sidebar gameserverSidebar"
+    "message": "Troubleshooting",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-half-life-2": {
     "message": "Half-Life 2",
-    "description": "The label for category Half-Life 2 in sidebar gameserverSidebar"
+    "description": "The label for category 'Half-Life 2' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-half-life-2": {
-    "message": "Premiers pas",
-    "description": "The label for category First Steps in sidebar gameserverSidebar"
+    "message": "Getting Started",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-configuration-half-life-2": {
     "message": "Configuration",
-    "description": "The label for category Configuration in sidebar gameserverSidebar"
+    "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-half-life-2": {
-    "message": "Dépannage",
-    "description": "The label for category Troubleshooting in sidebar gameserverSidebar"
+    "message": "Troubleshooting",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-holdfast-nations-at-war": {
     "message": "Holdfast : Nations At War",
-    "description": "The label for category Holdfast: Nations At War in sidebar gameserverSidebar"
+    "description": "The label for category 'Holdfast: Nations At War' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-holdfast-nations-at-war": {
-    "message": "Premiers Pas",
-    "description": "The label for category First Steps in sidebar gameserverSidebar"
+    "message": "Getting Started",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-holdfast-nations-at-war": {
-    "message": "Dépannage",
-    "description": "The label for category Troubleshooting in sidebar gameserverSidebar"
+    "message": "Troubleshooting",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-humanitz": {
     "message": "HumanitZ",
-    "description": "The label for category HumanitZ in sidebar gameserverSidebar"
+    "description": "The label for category 'HumanitZ' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-humanitz": {
-    "message": "Premiers pas",
-    "description": "The label for category First Steps in sidebar gameserverSidebar"
+    "message": "Getting Started",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-humanitz": {
-    "message": "Dépannage",
-    "description": "The label for category Troubleshooting in sidebar gameserverSidebar"
+    "message": "Troubleshooting",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-hurtworld": {
     "message": "Hurtworld",
-    "description": "The label for category Hurtworld in sidebar gameserverSidebar"
+    "description": "The label for category 'Hurtworld' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-hurtworld": {
-    "message": "Premiers Pas",
-    "description": "The label for category First Steps in sidebar gameserverSidebar"
+    "message": "Getting Started",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-hurtworld": {
-    "message": "Dépannage",
-    "description": "The label for category Troubleshooting in sidebar gameserverSidebar"
+    "message": "Troubleshooting",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-icarus": {
     "message": "Icarus",
-    "description": "The label for category Icarus in sidebar gameserverSidebar"
+    "description": "The label for category 'Icarus' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-icarus": {
-    "message": "Premiers Pas",
-    "description": "The label for category First Steps in sidebar gameserverSidebar"
+    "message": "Getting Started",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-icarus": {
-    "message": "Dépannage",
-    "description": "The label for category Troubleshooting in sidebar gameserverSidebar"
+    "message": "Troubleshooting",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-insurgency-sandstorm": {
     "message": "Insurgency : Sandstorm",
-    "description": "The label for category Insurgency: Sandstorm in sidebar gameserverSidebar"
+    "description": "The label for category 'Insurgency: Sandstorm' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-insurgency-sandstorm": {
-    "message": "Premiers Pas",
-    "description": "The label for category First Steps in sidebar gameserverSidebar"
+    "message": "Getting Started",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-insurgency-sandstorm": {
-    "message": "Dépannage",
-    "description": "The label for category Troubleshooting in sidebar gameserverSidebar"
+    "message": "Troubleshooting",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-iron-armada": {
     "message": "Iron Armada",
-    "description": "The label for category Iron Armada in sidebar gameserverSidebar"
+    "description": "The label for category 'Iron Armada' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-iron-armada": {
-    "message": "Premiers Pas",
-    "description": "The label for category First Steps in sidebar gameserverSidebar"
+    "message": "Getting Started",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-iron-armada": {
-    "message": "Dépannage",
-    "description": "The label for category Troubleshooting in sidebar gameserverSidebar"
+    "message": "Troubleshooting",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-journey-of-life": {
     "message": "Parcours de la vie",
-    "description": "The label for category Journey of Life in sidebar gameserverSidebar"
+    "description": "The label for category 'Journey of Life' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-journey-of-life": {
-    "message": "Premiers Pas",
-    "description": "The label for category First Steps in sidebar gameserverSidebar"
+    "message": "Getting Started",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-journey-of-life": {
-    "message": "Dépannage",
-    "description": "The label for category Troubleshooting in sidebar gameserverSidebar"
+    "message": "Troubleshooting",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-killing-floor-2": {
     "message": "Killing Floor 2",
-    "description": "The label for category Killing Floor 2 in sidebar gameserverSidebar"
+    "description": "The label for category 'Killing Floor 2' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-killing-floor-2": {
-    "message": "Premiers Pas",
-    "description": "The label for category First Steps in sidebar gameserverSidebar"
+    "message": "Getting Started",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-killing-floor-2": {
-    "message": "Dépannage",
-    "description": "The label for category Troubleshooting in sidebar gameserverSidebar"
+    "message": "Troubleshooting",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-last-oasis": {
     "message": "Last Oasis",
-    "description": "The label for category Last Oasis in sidebar gameserverSidebar"
+    "description": "The label for category 'Last Oasis' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-last-oasis": {
-    "message": "Premiers pas",
-    "description": "The label for category First Steps in sidebar gameserverSidebar"
+    "message": "Getting Started",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-configuration-last-oasis": {
     "message": "Configuration",
-    "description": "The label for category Configuration in sidebar gameserverSidebar"
+    "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-last-oasis": {
-    "message": "Dépannage",
-    "description": "The label for category Troubleshooting in sidebar gameserverSidebar"
+    "message": "Troubleshooting",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-leap": {
     "message": "Saut",
-    "description": "The label for category Leap in sidebar gameserverSidebar"
+    "description": "The label for category 'Leap' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-leap": {
-    "message": "Premiers Pas",
-    "description": "The label for category First Steps in sidebar gameserverSidebar"
+    "message": "Getting Started",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-leap": {
-    "message": "Dépannage",
-    "description": "The label for category Troubleshooting in sidebar gameserverSidebar"
+    "message": "Troubleshooting",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-left-4-dead-2": {
     "message": "Left 4 Dead 2",
-    "description": "The label for category Left 4 Dead 2 in sidebar gameserverSidebar"
+    "description": "The label for category 'Left 4 Dead 2' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-left-4-dead-2": {
-    "message": "Premiers Pas",
-    "description": "The label for category First Steps in sidebar gameserverSidebar"
+    "message": "Getting Started",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-configuration-left-4-dead-2": {
     "message": "Configuration",
-    "description": "The label for category Configuration in sidebar gameserverSidebar"
+    "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-left-4-dead-2": {
-    "message": "Dépannage",
-    "description": "The label for category Troubleshooting in sidebar gameserverSidebar"
+    "message": "Troubleshooting",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-longvinter": {
     "message": "Longvinter",
-    "description": "The label for category Longvinter in sidebar gameserverSidebar"
+    "description": "The label for category 'Longvinter' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-longvinter": {
-    "message": "Premiers Pas",
-    "description": "The label for category First Steps in sidebar gameserverSidebar"
+    "message": "Getting Started",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-longvinter": {
-    "message": "Dépannage",
-    "description": "The label for category Troubleshooting in sidebar gameserverSidebar"
+    "message": "Troubleshooting",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-minecraft": {
     "message": "Minecraft",
-    "description": "The label for category Minecraft in sidebar gameserverSidebar"
+    "description": "The label for category 'Minecraft' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-minecraft": {
-    "message": "Premiers Pas",
-    "description": "The label for category First Steps in sidebar gameserverSidebar"
+    "message": "Getting Started",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-configuration-minecraft": {
     "message": "Configuration",
-    "description": "The label for category Configuration in sidebar gameserverSidebar"
+    "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-bedrock-minecraft": {
     "message": "Bedrock",
-    "description": "The label for category Bedrock in sidebar gameserverSidebar"
+    "description": "The label for category 'Bedrock' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-bungeecord-minecraft": {
     "message": "Bungeecord",
-    "description": "The label for category Bungeecord in sidebar gameserverSidebar"
+    "description": "The label for category 'Bungeecord' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-forge-fabric-mods-minecraft": {
     "message": "Forge & Fabric (Mods)",
-    "description": "The label for category Forge & Fabric (Mods) in sidebar gameserverSidebar"
+    "description": "The label for category 'Forge & Fabric (Mods)' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-spigot-bukkit-plugins-minecraft": {
     "message": "Spigot & Bukkit (Plugins)",
-    "description": "The label for category Spigot & Bukkit (Plugins) in sidebar gameserverSidebar"
+    "description": "The label for category 'Spigot & Bukkit (Plugins)' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-minecraft": {
-    "message": "Dépannage",
-    "description": "The label for category Troubleshooting in sidebar gameserverSidebar"
+    "message": "Troubleshooting",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-minetest": {
     "message": "Minetest",
-    "description": "The label for category Minetest in sidebar gameserverSidebar"
+    "description": "The label for category 'Minetest' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-minetest": {
-    "message": "Premiers Pas",
-    "description": "The label for category First Steps in sidebar gameserverSidebar"
+    "message": "Getting Started",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-minetest": {
-    "message": "Dépannage",
-    "description": "The label for category Troubleshooting in sidebar gameserverSidebar"
+    "message": "Troubleshooting",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-miscreated": {
     "message": "Miscreated",
-    "description": "The label for category Miscreated in sidebar gameserverSidebar"
+    "description": "The label for category 'Miscreated' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-miscreated": {
-    "message": "Premiers Pas",
-    "description": "The label for category First Steps in sidebar gameserverSidebar"
+    "message": "Getting Started",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-mordhau": {
     "message": "Mordhau",
-    "description": "The label for category Mordhau in sidebar gameserverSidebar"
+    "description": "The label for category 'Mordhau' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-mordhau": {
-    "message": "Premiers Pas",
-    "description": "The label for category First Steps in sidebar gameserverSidebar"
+    "message": "Getting Started",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-motor-town-behind-the-wheel": {
     "message": "Motor Town : Derrière le Volant",
-    "description": "The label for category Motor Town: Behind The Wheel in sidebar gameserverSidebar"
+    "description": "The label for category 'Motor Town: Behind The Wheel' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-motor-town-behind-the-wheel": {
-    "message": "Premiers Pas",
-    "description": "The label for category First Steps in sidebar gameserverSidebar"
+    "message": "Getting Started",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-motor-town-behind-the-wheel": {
-    "message": "Dépannage",
-    "description": "The label for category Troubleshooting in sidebar gameserverSidebar"
+    "message": "Troubleshooting",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-mount-blade": {
     "message": "Mount & Blade",
-    "description": "The label for category Mount & Blade in sidebar gameserverSidebar"
+    "description": "The label for category 'Mount & Blade' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-mount-blade": {
-    "message": "Premiers Pas",
-    "description": "The label for category First Steps in sidebar gameserverSidebar"
+    "message": "Getting Started",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-mount-blade": {
-    "message": "Dépannage",
-    "description": "The label for category Troubleshooting in sidebar gameserverSidebar"
+    "message": "Troubleshooting",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-multi-theft-auto": {
     "message": "Multi Theft Auto",
-    "description": "The label for category Multi Theft Auto in sidebar gameserverSidebar"
+    "description": "The label for category 'Multi Theft Auto' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-multi-theft-auto": {
-    "message": "Premiers Pas",
-    "description": "The label for category First Steps in sidebar gameserverSidebar"
+    "message": "Getting Started",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-configuration-multi-theft-auto": {
     "message": "Configuration",
-    "description": "The label for category Configuration in sidebar gameserverSidebar"
+    "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-multi-theft-auto": {
-    "message": "Dépannage",
-    "description": "The label for category Troubleshooting in sidebar gameserverSidebar"
+    "message": "Troubleshooting",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-myth-of-empires": {
     "message": "Myth of Empires",
-    "description": "The label for category Myth of Empires in sidebar gameserverSidebar"
+    "description": "The label for category 'Myth of Empires' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-myth-of-empires": {
-    "message": "Premiers Pas",
-    "description": "The label for category First Steps in sidebar gameserverSidebar"
+    "message": "Getting Started",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-configuration-myth-of-empires": {
     "message": "Configuration",
-    "description": "The label for category Configuration in sidebar gameserverSidebar"
+    "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-myth-of-empires": {
-    "message": "Dépannage",
-    "description": "The label for category Troubleshooting in sidebar gameserverSidebar"
+    "message": "Troubleshooting",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-necesse": {
     "message": "Necesse",
-    "description": "The label for category Necesse in sidebar gameserverSidebar"
+    "description": "The label for category 'Necesse' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-necesse": {
-    "message": "Premiers Pas",
-    "description": "The label for category First Steps in sidebar gameserverSidebar"
+    "message": "Getting Started",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-necesse": {
-    "message": "Dépannage",
-    "description": "The label for category Troubleshooting in sidebar gameserverSidebar"
+    "message": "Troubleshooting",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-never-split-the-party": {
     "message": "Ne jamais diviser le groupe",
-    "description": "The label for category Never Split the Party in sidebar gameserverSidebar"
+    "description": "The label for category 'Never Split the Party' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-never-split-the-party": {
-    "message": "Premiers Pas",
-    "description": "The label for category First Steps in sidebar gameserverSidebar"
+    "message": "Getting Started",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-never-split-the-party": {
-    "message": "Dépannage",
-    "description": "The label for category Troubleshooting in sidebar gameserverSidebar"
+    "message": "Troubleshooting",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-nienix": {
     "message": "Nienix",
-    "description": "The label for category Nienix in sidebar gameserverSidebar"
+    "description": "The label for category 'Nienix' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-nienix": {
-    "message": "Premiers Pas",
-    "description": "The label for category First Steps in sidebar gameserverSidebar"
+    "message": "Getting Started",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-nienix": {
-    "message": "Dépannage",
-    "description": "The label for category Troubleshooting in sidebar gameserverSidebar"
+    "message": "Troubleshooting",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-no-more-room-in-hell": {
     "message": "Plus de place en enfer",
-    "description": "The label for category No More Room In Hell in sidebar gameserverSidebar"
+    "description": "The label for category 'No More Room In Hell' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-no-more-room-in-hell": {
-    "message": "Premiers Pas",
-    "description": "The label for category First Steps in sidebar gameserverSidebar"
+    "message": "Getting Started",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-configuration-no-more-room-in-hell": {
     "message": "Configuration",
-    "description": "The label for category Configuration in sidebar gameserverSidebar"
+    "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-no-more-room-in-hell": {
-    "message": "Dépannage",
-    "description": "The label for category Troubleshooting in sidebar gameserverSidebar"
+    "message": "Troubleshooting",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-no-one-survived": {
     "message": "Personne n'a survécu",
-    "description": "The label for category No One Survived in sidebar gameserverSidebar"
+    "description": "The label for category 'No One Survived' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-no-one-survived": {
-    "message": "Premiers Pas",
-    "description": "The label for category First Steps in sidebar gameserverSidebar"
+    "message": "Getting Started",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-no-one-survived": {
-    "message": "Dépannage",
-    "description": "The label for category Troubleshooting in sidebar gameserverSidebar"
+    "message": "Troubleshooting",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-one-hour-one-life": {
     "message": "Une Heure Une Vie",
-    "description": "The label for category One Hour One Life in sidebar gameserverSidebar"
+    "description": "The label for category 'One Hour One Life' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-one-hour-one-life": {
-    "message": "Premiers Pas",
-    "description": "The label for category First Steps in sidebar gameserverSidebar"
+    "message": "Getting Started",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-one-hour-one-life": {
-    "message": "Dépannage",
-    "description": "The label for category Troubleshooting in sidebar gameserverSidebar"
+    "message": "Troubleshooting",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-open-mp": {
     "message": "Open.mp",
-    "description": "The label for category Open.mp in sidebar gameserverSidebar"
+    "description": "The label for category 'Open.mp' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-open-mp": {
-    "message": "Premiers Pas",
-    "description": "The label for category First Steps in sidebar gameserverSidebar"
+    "message": "Getting Started",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-configuration-open-mp": {
     "message": "Configuration",
-    "description": "The label for category Configuration in sidebar gameserverSidebar"
+    "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-open-mp": {
-    "message": "Dépannage",
-    "description": "The label for category Troubleshooting in sidebar gameserverSidebar"
+    "message": "Troubleshooting",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-openttd": {
     "message": "OpenTTD",
-    "description": "The label for category OpenTTD in sidebar gameserverSidebar"
+    "description": "The label for category 'OpenTTD' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-openttd": {
-    "message": "Premiers Pas",
-    "description": "The label for category First Steps in sidebar gameserverSidebar"
+    "message": "Getting Started",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-openttd": {
-    "message": "Dépannage",
-    "description": "The label for category Troubleshooting in sidebar gameserverSidebar"
+    "message": "Troubleshooting",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-operation-harsh-doorstop": {
     "message": "Opération : Harsh Doorstop",
-    "description": "The label for category Operation: Harsh Doorstop in sidebar gameserverSidebar"
+    "description": "The label for category 'Operation: Harsh Doorstop' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-operation-harsh-doorstop": {
-    "message": "Premiers Pas",
-    "description": "The label for category First Steps in sidebar gameserverSidebar"
+    "message": "Getting Started",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-operation-harsh-doorstop": {
-    "message": "Dépannage",
-    "description": "The label for category Troubleshooting in sidebar gameserverSidebar"
+    "message": "Troubleshooting",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-outlaws-of-the-old-west": {
     "message": "Hors-la-loi du Far West",
-    "description": "The label for category Outlaws of the Old West in sidebar gameserverSidebar"
+    "description": "The label for category 'Outlaws of the Old West' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-outlaws-of-the-old-west": {
-    "message": "Premiers Pas",
-    "description": "The label for category First Steps in sidebar gameserverSidebar"
+    "message": "Getting Started",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-outlaws-of-the-old-west": {
-    "message": "Dépannage",
-    "description": "The label for category Troubleshooting in sidebar gameserverSidebar"
+    "message": "Troubleshooting",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-palworld": {
     "message": "Palworld",
-    "description": "The label for category Palworld in sidebar gameserverSidebar"
+    "description": "The label for category 'Palworld' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-palworld": {
-    "message": "Premiers Pas",
-    "description": "The label for category First Steps in sidebar gameserverSidebar"
+    "message": "Getting Started",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-configuration-palworld": {
     "message": "Configuration",
-    "description": "The label for category Configuration in sidebar gameserverSidebar"
+    "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-palworld": {
-    "message": "Dépannage",
-    "description": "The label for category Troubleshooting in sidebar gameserverSidebar"
+    "message": "Troubleshooting",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-path-of-titans": {
     "message": "Path of Titans",
-    "description": "The label for category Path of Titans in sidebar gameserverSidebar"
+    "description": "The label for category 'Path of Titans' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-path-of-titans": {
-    "message": "Premiers Pas",
-    "description": "The label for category First Steps in sidebar gameserverSidebar"
+    "message": "Getting Started",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-configuration-path-of-titans": {
     "message": "Configuration",
-    "description": "The label for category Configuration in sidebar gameserverSidebar"
+    "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-path-of-titans": {
-    "message": "Dépannage",
-    "description": "The label for category Troubleshooting in sidebar gameserverSidebar"
+    "message": "Troubleshooting",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-pixark": {
     "message": "PixARK",
-    "description": "The label for category PixARK in sidebar gameserverSidebar"
+    "description": "The label for category 'PixARK' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-pixark": {
-    "message": "Premiers Pas",
-    "description": "The label for category First Steps in sidebar gameserverSidebar"
+    "message": "Getting Started",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-pixark": {
-    "message": "Dépannage",
-    "description": "The label for category Troubleshooting in sidebar gameserverSidebar"
+    "message": "Troubleshooting",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-portal-knights": {
     "message": "Portal Knights",
-    "description": "The label for category Portal Knights in sidebar gameserverSidebar"
+    "description": "The label for category 'Portal Knights' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-portal-knights": {
-    "message": "Premiers Pas",
-    "description": "The label for category First Steps in sidebar gameserverSidebar"
+    "message": "Getting Started",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-portal-knights": {
-    "message": "Dépannage",
-    "description": "The label for category Troubleshooting in sidebar gameserverSidebar"
+    "message": "Troubleshooting",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-project-zomboid": {
     "message": "Project Zomboid",
-    "description": "The label for category Project Zomboid in sidebar gameserverSidebar"
+    "description": "The label for category 'Project Zomboid' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-project-zomboid": {
-    "message": "Premiers Pas",
-    "description": "The label for category First Steps in sidebar gameserverSidebar"
+    "message": "Getting Started",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-configuration-project-zomboid": {
     "message": "Configuration",
-    "description": "The label for category Configuration in sidebar gameserverSidebar"
+    "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-project-zomboid": {
-    "message": "Dépannage",
-    "description": "The label for category Troubleshooting in sidebar gameserverSidebar"
+    "message": "Troubleshooting",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-redm": {
     "message": "RedM",
-    "description": "The label for category RedM in sidebar gameserverSidebar"
+    "description": "The label for category 'RedM' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-redm": {
-    "message": "Premiers Pas",
-    "description": "The label for category First Steps in sidebar gameserverSidebar"
+    "message": "Getting Started",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-configuration-redm": {
     "message": "Configuration",
-    "description": "The label for category Configuration in sidebar gameserverSidebar"
+    "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-resources-redm": {
-    "message": "Ressources",
-    "description": "The label for category Resources in sidebar gameserverSidebar"
+    "message": "Resources",
+    "description": "The label for category 'Resources' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-redm": {
-    "message": "Dépannage",
-    "description": "The label for category Troubleshooting in sidebar gameserverSidebar"
+    "message": "Troubleshooting",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-reign-of-kings": {
     "message": "Reign of Kings",
-    "description": "The label for category Reign of Kings in sidebar gameserverSidebar"
+    "description": "The label for category 'Reign of Kings' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-reign-of-kings": {
-    "message": "Premiers Pas",
-    "description": "The label for category First Steps in sidebar gameserverSidebar"
+    "message": "Getting Started",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-reign-of-kings": {
-    "message": "Dépannage",
-    "description": "The label for category Troubleshooting in sidebar gameserverSidebar"
+    "message": "Troubleshooting",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-rimworld-together": {
     "message": "RimWorld Together",
-    "description": "The label for category RimWorld Together in sidebar gameserverSidebar"
+    "description": "The label for category 'RimWorld Together' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-rimworld-together": {
-    "message": "Premiers Pas",
-    "description": "The label for category First Steps in sidebar gameserverSidebar"
+    "message": "Getting Started",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-configuration-rimworld-together": {
     "message": "Configuration",
-    "description": "The label for category Configuration in sidebar gameserverSidebar"
+    "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-rimworld-together": {
-    "message": "Dépannage",
-    "description": "The label for category Troubleshooting in sidebar gameserverSidebar"
+    "message": "Troubleshooting",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-rising-storm-2": {
     "message": "Rising Storm 2",
-    "description": "The label for category Rising Storm 2 in sidebar gameserverSidebar"
+    "description": "The label for category 'Rising Storm 2' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-rising-storm-2": {
-    "message": "Premiers pas",
-    "description": "The label for category First Steps in sidebar gameserverSidebar"
+    "message": "Getting Started",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-rising-storm-2": {
-    "message": "Dépannage",
-    "description": "The label for category Troubleshooting in sidebar gameserverSidebar"
+    "message": "Troubleshooting",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-risk-of-rain-2": {
     "message": "Risk of Rain 2",
-    "description": "The label for category Risk of Rain 2 in sidebar gameserverSidebar"
+    "description": "The label for category 'Risk of Rain 2' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-risk-of-rain-2": {
-    "message": "Premiers Pas",
-    "description": "The label for category First Steps in sidebar gameserverSidebar"
+    "message": "Getting Started",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-risk-of-rain-2": {
-    "message": "Dépannage",
-    "description": "The label for category Troubleshooting in sidebar gameserverSidebar"
+    "message": "Troubleshooting",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-rising-world": {
     "message": "Rising World",
-    "description": "The label for category Rising World in sidebar gameserverSidebar"
+    "description": "The label for category 'Rising World' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-rising-world": {
-    "message": "Premiers Pas",
-    "description": "The label for category First Steps in sidebar gameserverSidebar"
+    "message": "Getting Started",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-rising-world": {
-    "message": "Dépannage",
-    "description": "The label for category Troubleshooting in sidebar gameserverSidebar"
+    "message": "Troubleshooting",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-rust": {
     "message": "Rust",
-    "description": "The label for category Rust in sidebar gameserverSidebar"
+    "description": "The label for category 'Rust' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-rust": {
-    "message": "Premiers Pas",
-    "description": "The label for category First Steps in sidebar gameserverSidebar"
+    "message": "Getting Started",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-configuration-rust": {
     "message": "Configuration",
-    "description": "The label for category Configuration in sidebar gameserverSidebar"
+    "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-rust": {
-    "message": "Dépannage",
-    "description": "The label for category Troubleshooting in sidebar gameserverSidebar"
+    "message": "Troubleshooting",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-sanctuary-island": {
     "message": "Île Sanctuaire",
-    "description": "The label for category Sanctuary Island in sidebar gameserverSidebar"
+    "description": "The label for category 'Sanctuary Island' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-sanctuary-island": {
-    "message": "Premiers Pas",
-    "description": "The label for category First Steps in sidebar gameserverSidebar"
+    "message": "Getting Started",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-sanctuary-island": {
-    "message": "Dépannage",
-    "description": "The label for category Troubleshooting in sidebar gameserverSidebar"
+    "message": "Troubleshooting",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-satisfactory": {
     "message": "Satisfaisant",
-    "description": "The label for category Satisfactory in sidebar gameserverSidebar"
+    "description": "The label for category 'Satisfactory' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-satisfactory": {
-    "message": "Premiers Pas",
-    "description": "The label for category First Steps in sidebar gameserverSidebar"
+    "message": "Getting Started",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-configuration-satisfactory": {
     "message": "Configuration",
-    "description": "The label for category Configuration in sidebar gameserverSidebar"
+    "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-satisfactory": {
-    "message": "Dépannage",
-    "description": "The label for category Troubleshooting in sidebar gameserverSidebar"
+    "message": "Troubleshooting",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-scp-5k": {
     "message": "SCP : 5K",
-    "description": "The label for category SCP: 5K in sidebar gameserverSidebar"
+    "description": "The label for category 'SCP: 5K' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-scp-5k": {
-    "message": "Premiers Pas",
-    "description": "The label for category First Steps in sidebar gameserverSidebar"
+    "message": "Getting Started",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-scp-5k": {
-    "message": "Dépannage",
-    "description": "The label for category Troubleshooting in sidebar gameserverSidebar"
+    "message": "Troubleshooting",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-scp-containment-breach": {
     "message": "SCP : Containment Breach",
-    "description": "The label for category SCP: Containment Breach in sidebar gameserverSidebar"
+    "description": "The label for category 'SCP: Containment Breach' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-scp-containment-breach": {
-    "message": "Premiers Pas",
-    "description": "The label for category First Steps in sidebar gameserverSidebar"
+    "message": "Getting Started",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-scp-containment-breach": {
-    "message": "Dépannage",
-    "description": "The label for category Troubleshooting in sidebar gameserverSidebar"
+    "message": "Troubleshooting",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-scp-escape-together": {
     "message": "SCP : Évadez-vous Ensemble",
-    "description": "The label for category SCP: Escape Together in sidebar gameserverSidebar"
+    "description": "The label for category 'SCP: Escape Together' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-scp-escape-together": {
-    "message": "Premiers Pas",
-    "description": "The label for category First Steps in sidebar gameserverSidebar"
+    "message": "Getting Started",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-scp-escape-together": {
-    "message": "Dépannage",
-    "description": "The label for category Troubleshooting in sidebar gameserverSidebar"
+    "message": "Troubleshooting",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-scp-secret-laboratory": {
-    "message": "SCP : Laboratoire Secret",
-    "description": "The label for category SCP: Secret Laboratory in sidebar gameserverSidebar"
+    "message": "SCP: Secret Laboratory",
+    "description": "The label for category 'SCP: Secret Laboratory' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-scp-secret-laboratory": {
-    "message": "Premiers Pas",
-    "description": "The label for category First Steps in sidebar gameserverSidebar"
+    "message": "Getting Started",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-configuration-scp-secret-laboratory": {
     "message": "Configuration",
-    "description": "The label for category Configuration in sidebar gameserverSidebar"
+    "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-exiled-scp-secret-laboratory": {
-    "message": "Exilé",
-    "description": "The label for category Exiled in sidebar gameserverSidebar"
+    "message": "Exiled",
+    "description": "The label for category 'Exiled' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-scp-secret-laboratory": {
-    "message": "Dépannage",
-    "description": "The label for category Troubleshooting in sidebar gameserverSidebar"
+    "message": "Troubleshooting",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-scum": {
     "message": "SCUM",
-    "description": "The label for category SCUM in sidebar gameserverSidebar"
+    "description": "The label for category 'SCUM' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-scum": {
-    "message": "Premiers Pas",
-    "description": "The label for category First Steps in sidebar gameserverSidebar"
+    "message": "Getting Started",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-configuration-scum": {
     "message": "Configuration",
-    "description": "The label for category Configuration in sidebar gameserverSidebar"
+    "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-scum": {
-    "message": "Dépannage",
-    "description": "The label for category Troubleshooting in sidebar gameserverSidebar"
+    "message": "Troubleshooting",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-soldat": {
     "message": "Soldat",
-    "description": "The label for category Soldat in sidebar gameserverSidebar"
+    "description": "The label for category 'Soldat' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-soldat": {
-    "message": "Premiers Pas",
-    "description": "The label for category First Steps in sidebar gameserverSidebar"
+    "message": "Getting Started",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-soldat": {
-    "message": "Dépannage",
-    "description": "The label for category Troubleshooting in sidebar gameserverSidebar"
+    "message": "Troubleshooting",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-sons-of-the-forest": {
     "message": "Sons of the Forest",
-    "description": "The label for category Sons of the Forest in sidebar gameserverSidebar"
+    "description": "The label for category 'Sons of the Forest' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-sons-of-the-forest": {
-    "message": "Premiers Pas",
-    "description": "The label for category First Steps in sidebar gameserverSidebar"
+    "message": "Getting Started",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-sons-of-the-forest": {
-    "message": "Dépannage",
-    "description": "The label for category Troubleshooting in sidebar gameserverSidebar"
+    "message": "Troubleshooting",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-soulmask": {
     "message": "Soulmask",
-    "description": "The label for category Soulmask in sidebar gameserverSidebar"
+    "description": "The label for category 'Soulmask' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-soulmask": {
-    "message": "Premiers Pas",
-    "description": "The label for category First Steps in sidebar gameserverSidebar"
+    "message": "Getting Started",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-configuration-soulmask": {
     "message": "Configuration",
-    "description": "The label for category Configuration in sidebar gameserverSidebar"
+    "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-soulmask": {
-    "message": "Dépannage",
-    "description": "The label for category Troubleshooting in sidebar gameserverSidebar"
+    "message": "Troubleshooting",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-space-engineers": {
     "message": "Space Engineers",
-    "description": "The label for category Space Engineers in sidebar gameserverSidebar"
+    "description": "The label for category 'Space Engineers' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-space-engineers": {
-    "message": "Premiers Pas",
-    "description": "The label for category First Steps in sidebar gameserverSidebar"
+    "message": "Getting Started",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-configuration-space-engineers": {
     "message": "Configuration",
-    "description": "The label for category Configuration in sidebar gameserverSidebar"
+    "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-space-engineers": {
-    "message": "Dépannage",
-    "description": "The label for category Troubleshooting in sidebar gameserverSidebar"
+    "message": "Troubleshooting",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-squad": {
     "message": "Squad",
-    "description": "The label for category Squad in sidebar gameserverSidebar"
+    "description": "The label for category 'Squad' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-squad": {
-    "message": "Premiers Pas",
-    "description": "The label for category First Steps in sidebar gameserverSidebar"
+    "message": "Getting Started",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-squad": {
-    "message": "Dépannage",
-    "description": "The label for category Troubleshooting in sidebar gameserverSidebar"
+    "message": "Troubleshooting",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-starbound": {
     "message": "Starbound",
-    "description": "The label for category Starbound in sidebar gameserverSidebar"
+    "description": "The label for category 'Starbound' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-starbound": {
-    "message": "Premiers Pas",
-    "description": "The label for category First Steps in sidebar gameserverSidebar"
+    "message": "Getting Started",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-starbound": {
-    "message": "Dépannage",
-    "description": "The label for category Troubleshooting in sidebar gameserverSidebar"
+    "message": "Troubleshooting",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-starmade": {
     "message": "Starmade",
-    "description": "The label for category Starmade in sidebar gameserverSidebar"
+    "description": "The label for category 'Starmade' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-starmade": {
-    "message": "Premiers Pas",
-    "description": "The label for category First Steps in sidebar gameserverSidebar"
+    "message": "Getting Started",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-starmade": {
-    "message": "Dépannage",
-    "description": "The label for category Troubleshooting in sidebar gameserverSidebar"
+    "message": "Troubleshooting",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-staxel": {
     "message": "Staxel",
-    "description": "The label for category Staxel in sidebar gameserverSidebar"
+    "description": "The label for category 'Staxel' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-staxel": {
-    "message": "Premiers Pas",
-    "description": "The label for category First Steps in sidebar gameserverSidebar"
+    "message": "Getting Started",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-staxel": {
-    "message": "Dépannage",
-    "description": "The label for category Troubleshooting in sidebar gameserverSidebar"
+    "message": "Troubleshooting",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-stormworks": {
     "message": "Stormworks",
-    "description": "The label for category Stormworks in sidebar gameserverSidebar"
+    "description": "The label for category 'Stormworks' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-stormworks": {
-    "message": "Premiers Pas",
-    "description": "The label for category First Steps in sidebar gameserverSidebar"
+    "message": "Getting Started",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-configuration-stormworks": {
     "message": "Configuration",
-    "description": "The label for category Configuration in sidebar gameserverSidebar"
+    "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-stormworks": {
-    "message": "Dépannage",
-    "description": "The label for category Troubleshooting in sidebar gameserverSidebar"
+    "message": "Troubleshooting",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-subsistence": {
     "message": "Subsistance",
-    "description": "The label for category Subsistence in sidebar gameserverSidebar"
+    "description": "The label for category 'Subsistence' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-subsistence": {
-    "message": "Premiers Pas",
-    "description": "The label for category First Steps in sidebar gameserverSidebar"
+    "message": "Getting Started",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-subsistence": {
-    "message": "Dépannage",
-    "description": "The label for category Troubleshooting in sidebar gameserverSidebar"
+    "message": "Troubleshooting",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-sunkenland": {
     "message": "Sunkenland",
-    "description": "The label for category Sunkenland in sidebar gameserverSidebar"
+    "description": "The label for category 'Sunkenland' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-sunkenland": {
-    "message": "Premiers Pas",
-    "description": "The label for category First Steps in sidebar gameserverSidebar"
+    "message": "Getting Started",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-sunkenland": {
-    "message": "Dépannage",
-    "description": "The label for category Troubleshooting in sidebar gameserverSidebar"
+    "message": "Troubleshooting",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-team-fortress-2": {
     "message": "Team Fortress 2",
-    "description": "The label for category Team Fortress 2 in sidebar gameserverSidebar"
+    "description": "The label for category 'Team Fortress 2' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-team-fortress-2": {
-    "message": "Premiers Pas",
-    "description": "The label for category First Steps in sidebar gameserverSidebar"
+    "message": "Getting Started",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-configuration-team-fortress-2": {
     "message": "Configuration",
-    "description": "The label for category Configuration in sidebar gameserverSidebar"
+    "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-team-fortress-2": {
-    "message": "Dépannage",
-    "description": "The label for category Troubleshooting in sidebar gameserverSidebar"
+    "message": "Troubleshooting",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-teeworlds": {
     "message": "Teeworlds",
-    "description": "The label for category Teeworlds in sidebar gameserverSidebar"
+    "description": "The label for category 'Teeworlds' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-teeworlds": {
-    "message": "Premiers Pas",
-    "description": "The label for category First Steps in sidebar gameserverSidebar"
+    "message": "Getting Started",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-teeworlds": {
-    "message": "Dépannage",
-    "description": "The label for category Troubleshooting in sidebar gameserverSidebar"
+    "message": "Troubleshooting",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-terraria": {
     "message": "Terraria",
-    "description": "The label for category Terraria in sidebar gameserverSidebar"
+    "description": "The label for category 'Terraria' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-terraria": {
-    "message": "Premiers Pas",
-    "description": "The label for category First Steps in sidebar gameserverSidebar"
+    "message": "Getting Started",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-configuration-terraria": {
     "message": "Configuration",
-    "description": "The label for category Configuration in sidebar gameserverSidebar"
+    "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-terraria": {
-    "message": "Dépannage",
-    "description": "The label for category Troubleshooting in sidebar gameserverSidebar"
+    "message": "Troubleshooting",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-terratech-worlds": {
     "message": "Terratech Worlds",
-    "description": "The label for category Terratech Worlds in sidebar gameserverSidebar"
+    "description": "The label for category 'Terratech Worlds' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-terratech-worlds": {
-    "message": "Premiers Pas",
-    "description": "The label for category First Steps in sidebar gameserverSidebar"
+    "message": "Getting Started",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-terratech-worlds": {
-    "message": "Dépannage",
-    "description": "The label for category Troubleshooting in sidebar gameserverSidebar"
+    "message": "Troubleshooting",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-the-bus": {
     "message": "Le Bus",
-    "description": "The label for category The Bus in sidebar gameserverSidebar"
+    "description": "The label for category 'The Bus' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-the-bus": {
-    "message": "Premiers Pas",
-    "description": "The label for category First Steps in sidebar gameserverSidebar"
+    "message": "Getting Started",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-the-bus": {
-    "message": "Dépannage",
-    "description": "The label for category Troubleshooting in sidebar gameserverSidebar"
+    "message": "Troubleshooting",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-the-front": {
     "message": "Le Front",
-    "description": "The label for category The Front in sidebar gameserverSidebar"
+    "description": "The label for category 'The Front' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-the-front": {
-    "message": "Premiers Pas",
-    "description": "The label for category First Steps in sidebar gameserverSidebar"
+    "message": "Getting Started",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-the-front": {
-    "message": "Dépannage",
-    "description": "The label for category Troubleshooting in sidebar gameserverSidebar"
+    "message": "Troubleshooting",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-the-isle": {
     "message": "The Isle",
-    "description": "The label for category The Isle in sidebar gameserverSidebar"
+    "description": "The label for category 'The Isle' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-the-isle": {
-    "message": "Premiers Pas",
-    "description": "The label for category First Steps in sidebar gameserverSidebar"
+    "message": "Getting Started",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-the-isle": {
-    "message": "Dépannage",
-    "description": "The label for category Troubleshooting in sidebar gameserverSidebar"
+    "message": "Troubleshooting",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-the-lord-of-the-rings-rtm": {
     "message": "Le Seigneur des Anneaux : RTM",
-    "description": "The label for category The Lord of the Rings: RTM in sidebar gameserverSidebar"
+    "description": "The label for category 'The Lord of the Rings: RTM' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-the-lord-of-the-rings-rtm": {
-    "message": "Premiers pas",
-    "description": "The label for category First Steps in sidebar gameserverSidebar"
+    "message": "Getting Started",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-the-lord-of-the-rings-rtm": {
-    "message": "Dépannage",
-    "description": "The label for category Troubleshooting in sidebar gameserverSidebar"
+    "message": "Troubleshooting",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-unfortunate-spacemen": {
     "message": "Spacemen Malchanceux",
-    "description": "The label for category Unfortunate Spacemen in sidebar gameserverSidebar"
+    "description": "The label for category 'Unfortunate Spacemen' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-unfortunate-spacemen": {
-    "message": "Premiers Pas",
-    "description": "The label for category First Steps in sidebar gameserverSidebar"
+    "message": "Getting Started",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-unfortunate-spacemen": {
-    "message": "Dépannage",
-    "description": "The label for category Troubleshooting in sidebar gameserverSidebar"
+    "message": "Troubleshooting",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-unturned": {
     "message": "Unturned",
-    "description": "The label for category Unturned in sidebar gameserverSidebar"
+    "description": "The label for category 'Unturned' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-unturned": {
-    "message": "Premiers Pas",
-    "description": "The label for category First Steps in sidebar gameserverSidebar"
+    "message": "Getting Started",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-configuration-unturned": {
     "message": "Configuration",
-    "description": "The label for category Configuration in sidebar gameserverSidebar"
+    "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-rocketmod-unturned": {
     "message": "RocketMod",
-    "description": "The label for category RocketMod in sidebar gameserverSidebar"
+    "description": "The label for category 'RocketMod' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-unturned": {
-    "message": "Dépannage",
-    "description": "The label for category Troubleshooting in sidebar gameserverSidebar"
+    "message": "Troubleshooting",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-valheim": {
     "message": "Valheim",
-    "description": "The label for category Valheim in sidebar gameserverSidebar"
+    "description": "The label for category 'Valheim' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-valheim": {
-    "message": "Premiers Pas",
-    "description": "The label for category First Steps in sidebar gameserverSidebar"
+    "message": "Getting Started",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-configuration-valheim": {
     "message": "Configuration",
-    "description": "The label for category Configuration in sidebar gameserverSidebar"
+    "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-valheim": {
-    "message": "Dépannage",
-    "description": "The label for category Troubleshooting in sidebar gameserverSidebar"
+    "message": "Troubleshooting",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-vein": {
     "message": "Veine",
-    "description": "The label for category Vein in sidebar gameserverSidebar"
+    "description": "The label for category 'Vein' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-vein": {
-    "message": "Premiers Pas",
-    "description": "The label for category First Steps in sidebar gameserverSidebar"
+    "message": "Getting Started",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-vein": {
-    "message": "Dépannage",
-    "description": "The label for category Troubleshooting in sidebar gameserverSidebar"
+    "message": "Troubleshooting",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-veloren": {
     "message": "Veloren",
-    "description": "The label for category Veloren in sidebar gameserverSidebar"
+    "description": "The label for category 'Veloren' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-veloren": {
-    "message": "Premiers Pas",
-    "description": "The label for category First Steps in sidebar gameserverSidebar"
+    "message": "Getting Started",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-veloren": {
-    "message": "Dépannage",
-    "description": "The label for category Troubleshooting in sidebar gameserverSidebar"
+    "message": "Troubleshooting",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-vintage-story": {
     "message": "Vintage Story",
-    "description": "The label for category Vintage Story in sidebar gameserverSidebar"
+    "description": "The label for category 'Vintage Story' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-vintage-story": {
-    "message": "Premiers Pas",
-    "description": "The label for category First Steps in sidebar gameserverSidebar"
+    "message": "Getting Started",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-vintage-story": {
-    "message": "Dépannage",
-    "description": "The label for category Troubleshooting in sidebar gameserverSidebar"
+    "message": "Troubleshooting",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-voyagers-of-nera": {
     "message": "Voyageurs de Nera",
-    "description": "The label for category Voyagers of Nera in sidebar gameserverSidebar"
+    "description": "The label for category 'Voyagers of Nera' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-voyagers-of-nera": {
-    "message": "Premiers pas",
-    "description": "The label for category First Steps in sidebar gameserverSidebar"
+    "message": "Getting Started",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-voyagers-of-nera": {
-    "message": "Dépannage",
-    "description": "The label for category Troubleshooting in sidebar gameserverSidebar"
+    "message": "Troubleshooting",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-v-rising": {
     "message": "V Rising",
-    "description": "The label for category V Rising in sidebar gameserverSidebar"
+    "description": "The label for category 'V Rising' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-v-rising": {
-    "message": "Premiers Pas",
-    "description": "The label for category First Steps in sidebar gameserverSidebar"
+    "message": "Getting Started",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-configuration-v-rising": {
     "message": "Configuration",
-    "description": "The label for category Configuration in sidebar gameserverSidebar"
+    "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-v-rising": {
-    "message": "Dépannage",
-    "description": "The label for category Troubleshooting in sidebar gameserverSidebar"
+    "message": "Troubleshooting",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-wreckfest": {
     "message": "Wreckfest",
-    "description": "The label for category Wreckfest in sidebar gameserverSidebar"
+    "description": "The label for category 'Wreckfest' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-wreckfest": {
-    "message": "Premiers Pas",
-    "description": "The label for category First Steps in sidebar gameserverSidebar"
+    "message": "Getting Started",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-wreckfest": {
-    "message": "Dépannage",
-    "description": "The label for category Troubleshooting in sidebar gameserverSidebar"
+    "message": "Troubleshooting",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-wreckfest-2": {
     "message": "Wreckfest 2",
-    "description": "The label for category Wreckfest 2 in sidebar gameserverSidebar"
+    "description": "The label for category 'Wreckfest 2' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-wreckfest-2": {
-    "message": "Premiers Pas",
-    "description": "The label for category First Steps in sidebar gameserverSidebar"
+    "message": "Getting Started",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-wreckfest-2": {
-    "message": "Dépannage",
-    "description": "The label for category Troubleshooting in sidebar gameserverSidebar"
+    "message": "Troubleshooting",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-wurm-unlimited": {
     "message": "Wurm Unlimited",
-    "description": "The label for category Wurm Unlimited in sidebar gameserverSidebar"
+    "description": "The label for category 'Wurm Unlimited' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-wurm-unlimited": {
-    "message": "Premiers Pas",
-    "description": "The label for category First Steps in sidebar gameserverSidebar"
+    "message": "Getting Started",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-wurm-unlimited": {
-    "message": "Dépannage",
-    "description": "The label for category Troubleshooting in sidebar gameserverSidebar"
+    "message": "Troubleshooting",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.vpsrootSidebar.category.vserver-troubleshooting": {
-    "message": "Dépannage",
-    "description": "The label for category Troubleshooting in sidebar vpsrootSidebar"
+    "message": "Troubleshooting",
+    "description": "The label for category 'Troubleshooting' in sidebar 'vpsrootSidebar'"
   },
   "sidebar.vpsrootSidebar.category.vserver-general": {
     "message": "Général",
-    "description": "The label for category General in sidebar vpsrootSidebar"
+    "description": "The label for category 'General' in sidebar 'vpsrootSidebar'"
   },
   "sidebar.vpsrootSidebar.category.vserver-linux-services": {
     "message": "Services",
-    "description": "The label for category Services in sidebar vpsrootSidebar"
+    "description": "The label for category 'Services' in sidebar 'vpsrootSidebar'"
   },
   "sidebar.vpsrootSidebar.category.vserver-linux-dedicated-game-servers": {
     "message": "Serveurs dédiés de jeux",
-    "description": "The label for category Dedicated Game Servers in sidebar vpsrootSidebar"
+    "description": "The label for category 'Dedicated Game Servers' in sidebar 'vpsrootSidebar'"
   },
   "sidebar.vpsrootSidebar.category.vserver-linux-troubleshooting": {
-    "message": "Dépannage",
-    "description": "The label for category Troubleshooting in sidebar vpsrootSidebar"
+    "message": "Troubleshooting",
+    "description": "The label for category 'Troubleshooting' in sidebar 'vpsrootSidebar'"
   },
   "sidebar.vpsrootSidebar.category.vserver-windows-general": {
     "message": "Général",
-    "description": "The label for category General in sidebar vpsrootSidebar"
+    "description": "The label for category 'General' in sidebar 'vpsrootSidebar'"
   },
   "sidebar.vpsrootSidebar.category.vserver-windows-services": {
     "message": "Services",
-    "description": "The label for category Services in sidebar vpsrootSidebar"
+    "description": "The label for category 'Services' in sidebar 'vpsrootSidebar'"
   },
   "sidebar.vpsrootSidebar.category.vserver-windows-dedicated-game-servers": {
     "message": "Serveurs dédiés de jeux",
-    "description": "The label for category Dedicated Game Servers in sidebar vpsrootSidebar"
+    "description": "The label for category 'Dedicated Game Servers' in sidebar 'vpsrootSidebar'"
   },
   "sidebar.vpsrootSidebar.category.vserver-windows-troubleshooting": {
-    "message": "Dépannage",
-    "description": "The label for category Troubleshooting in sidebar vpsrootSidebar"
+    "message": "Troubleshooting",
+    "description": "The label for category 'Troubleshooting' in sidebar 'vpsrootSidebar'"
   },
   "sidebar.dedicatedserverSidebar.category.dedicated-server-troubleshooting": {
-    "message": "Dépannage",
-    "description": "The label for category Troubleshooting in sidebar dedicatedserverSidebar"
+    "message": "Troubleshooting",
+    "description": "The label for category 'Troubleshooting' in sidebar 'dedicatedserverSidebar'"
   },
   "sidebar.dedicatedserverSidebar.category.dedicated-server-install-windows": {
     "message": "Installer Windows",
-    "description": "The label for category Install Windows in sidebar dedicatedserverSidebar"
+    "description": "The label for category 'Install Windows' in sidebar 'dedicatedserverSidebar'"
   },
   "sidebar.dedicatedserverSidebar.category.dedicated-server-install-ubuntu": {
     "message": "Installer Ubuntu",
-    "description": "The label for category Install Ubuntu in sidebar dedicatedserverSidebar"
+    "description": "The label for category 'Install Ubuntu' in sidebar 'dedicatedserverSidebar'"
   },
   "sidebar.dedicatedserverSidebar.category.dedicated-server-linux-general": {
     "message": "Général",
-    "description": "The label for category General in sidebar dedicatedserverSidebar"
+    "description": "The label for category 'General' in sidebar 'dedicatedserverSidebar'"
   },
   "sidebar.dedicatedserverSidebar.category.dedicated-server-linux-services": {
     "message": "Services",
-    "description": "The label for category Services in sidebar dedicatedserverSidebar"
+    "description": "The label for category 'Services' in sidebar 'dedicatedserverSidebar'"
   },
   "sidebar.dedicatedserverSidebar.category.dedicated-server-linux-dedicated-game-servers": {
     "message": "Serveurs dédiés de jeux",
-    "description": "The label for category Dedicated Game Servers in sidebar dedicatedserverSidebar"
+    "description": "The label for category 'Dedicated Game Servers' in sidebar 'dedicatedserverSidebar'"
   },
   "sidebar.dedicatedserverSidebar.category.dedicated-server-linux-security": {
-    "message": "Sécurité",
-    "description": "The label for category Security in sidebar dedicatedserverSidebar"
+    "message": "Security",
+    "description": "The label for category 'Security' in sidebar 'dedicatedserverSidebar'"
   },
   "sidebar.dedicatedserverSidebar.category.dedicated-server-windows-general": {
     "message": "Général",
-    "description": "The label for category General in sidebar dedicatedserverSidebar"
+    "description": "The label for category 'General' in sidebar 'dedicatedserverSidebar'"
   },
   "sidebar.dedicatedserverSidebar.category.dedicated-server-windows-services": {
     "message": "Services",
-    "description": "The label for category Services in sidebar dedicatedserverSidebar"
+    "description": "The label for category 'Services' in sidebar 'dedicatedserverSidebar'"
   },
   "sidebar.dedicatedserverSidebar.category.dedicated-server-windows-dedicated-game-servers": {
     "message": "Serveurs dédiés de jeux",
-    "description": "The label for category Dedicated Game Servers in sidebar dedicatedserverSidebar"
+    "description": "The label for category 'Dedicated Game Servers' in sidebar 'dedicatedserverSidebar'"
   },
   "sidebar.dedicatedserverSidebar.category.dedicated-server-windows-troubleshooting": {
-    "message": "Dépannage",
-    "description": "The label for category Troubleshooting in sidebar dedicatedserverSidebar"
+    "message": "Troubleshooting",
+    "description": "The label for category 'Troubleshooting' in sidebar 'dedicatedserverSidebar'"
   },
   "sidebar.domainwebspaceSidebar.category.domain-domain-forwarding": {
     "message": "Redirection de domaine",
-    "description": "The label for category Domain forwarding in sidebar domainwebspaceSidebar"
+    "description": "The label for category 'Domain forwarding' in sidebar 'domainwebspaceSidebar'"
   },
   "sidebar.domainwebspaceSidebar.category.domain-cloudflare": {
     "message": "Cloudflare",
-    "description": "The label for category Cloudflare in sidebar domainwebspaceSidebar"
+    "description": "The label for category 'Cloudflare' in sidebar 'domainwebspaceSidebar'"
   },
   "sidebar.domainwebspaceSidebar.category.domain-e-mails": {
     "message": "E-Mails",
-    "description": "The label for category E-Mails in sidebar domainwebspaceSidebar"
+    "description": "The label for category 'E-Mails' in sidebar 'domainwebspaceSidebar'"
   },
   "sidebar.domainwebspaceSidebar.category.domain-mybb": {
     "message": "MyBB",
-    "description": "The label for category MyBB in sidebar domainwebspaceSidebar"
+    "description": "The label for category 'MyBB' in sidebar 'domainwebspaceSidebar'"
   },
   "sidebar.domainwebspaceSidebar.category.domain-wordpress": {
     "message": "WordPress",
-    "description": "The label for category WordPress in sidebar domainwebspaceSidebar"
+    "description": "The label for category 'WordPress' in sidebar 'domainwebspaceSidebar'"
   },
   "sidebar.voiceserverbotSidebar.category.domain-discord-bot": {
     "message": "Bot Discord",
-    "description": "The label for category Discord Bot in sidebar voiceserverbotSidebar"
+    "description": "The label for category 'Discord Bot' in sidebar 'voiceserverbotSidebar'"
   },
   "sidebar.voiceserverbotSidebar.category.domain-ts3musicbot": {
     "message": "TS3MusicBot",
-    "description": "The label for category TS3MusicBot in sidebar voiceserverbotSidebar"
+    "description": "The label for category 'TS3MusicBot' in sidebar 'voiceserverbotSidebar'"
+  },
+  "sidebar.guidesSidebar.category.dedicated-linux-dedicated-game-servers-general": {
+    "message": "protection DDoS",
+    "description": "The label for category 'DDoS Protection' in sidebar 'guidesSidebar'"
+  },
+  "sidebar.vpsrootSidebar.category.vserver-linux-dedicated-game-servers-general": {
+    "message": "Général",
+    "description": "The label for category 'General' in sidebar 'vpsrootSidebar'"
+  },
+  "sidebar.vpsrootSidebar.category.vserver-windows-dedicated-game-servers-general": {
+    "message": "Général",
+    "description": "The label for category 'General' in sidebar 'vpsrootSidebar'"
+  },
+  "sidebar.dedicatedserverSidebar.category.dedicated-linux-dedicated-game-servers-general": {
+    "message": "Général",
+    "description": "The label for category 'General' in sidebar 'dedicatedserverSidebar'"
+  },
+  "sidebar.dedicatedserverSidebar.category.dedicated-windows-dedicated-game-servers-general": {
+    "message": "Général",
+    "description": "The label for category 'General' in sidebar 'dedicatedserverSidebar'"
   }
 }

@@ -1,6 +1,6 @@
 {
   "title": {
-    "message": "مستندات ZAP-Hosting",
+    "message": "وثائق ZAP-Hosting",
     "description": "The title in the navbar"
   },
   "logo.alt": {
@@ -8,7 +8,7 @@
     "description": "The alt text of navbar logo"
   },
   "item.label.General": {
-    "message": "عام",
+    "message": "سيرفرات ألعاب مخصصة",
     "description": "Navbar item with label General"
   },
   "item.label.Gameserver": {
@@ -24,7 +24,7 @@
     "description": "Navbar item with label Dedicated Server"
   },
   "item.label.Domain & Webspace": {
-    "message": "النطاق والاستضافة",
+    "message": "نطاق واستضافة مواقع",
     "description": "Navbar item with label Domain & Webspace"
   },
   "item.label.Voicebot & Voiceserver": {

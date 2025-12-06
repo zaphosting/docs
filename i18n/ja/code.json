@@ -4,7 +4,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.vserver.path": {
-    "message": "{marketingSite}/{language}/vps-hosting/",
+    "message": "{marketingSite}/vps-hosting/",
     "description": "URL path for the VPS product"
   },
   "service.dedicated.title": {
@@ -12,7 +12,7 @@
     "description": "Product name for the dedicated server product"
   },
   "service.dedicated.path": {
-    "message": "{marketingSite}/{language}/専用サーバーのレンタル/",
+    "message": "{marketingSite}/dedicated-server-hosting/",
     "description": "URL path for the dedicated server product"
   },
   "service.domain.title": {
@@ -20,7 +20,7 @@
     "description": "Product name for the domain product"
   },
   "service.domain.path": {
-    "message": "{marketingSite}/{language}/domain-check/",
+    "message": "{marketingSite}/domain-check/",
     "description": "URL path for the domain product"
   },
   "service.webspace.title": {
@@ -28,7 +28,7 @@
     "description": "Product name for the webspace product"
   },
   "service.webspace.path": {
-    "message": "{marketingSite}/{language}/webhosting-rent-a-webspace/",
+    "message": "{marketingSite}/webhosting-rent-a-webspace/",
     "description": "URL path for the webspace product"
   },
   "service.voiceserver.title": {
@@ -36,7 +36,7 @@
     "description": "Product name for the voiceserver product"
   },
   "service.voiceserver.path": {
-    "message": "{marketingSite}/{language}/teamspeak-3-サーバーホスティング/",
+    "message": "{marketingSite}/teamspeak-3-server-hosting/",
     "description": "URL path for the voiceserver product"
   },
   "service.voicebot.title": {
@@ -44,7 +44,7 @@
     "description": "Product name for the voicebot product"
   },
   "service.voicebot.path": {
-    "message": "{marketingSite}/{language}/teamspeak-3-サーバーホスティング/",
+    "message": "{marketingSite}/teamspeak-3-server-hosting/",
     "description": "URL path for the voicebot product"
   },
   "service.storage.title": {
@@ -52,7 +52,7 @@
     "description": "Product name for the storage product"
   },
   "service.storage.path": {
-    "message": "{marketingSite}/{language}/shop/product/premium-storage/",
+    "message": "{marketingSite}/shop/product/premium-storage/",
     "description": "URL path for the storage product"
   },
   "service.fivemupvotes.title": {
@@ -60,7 +60,7 @@
     "description": "Product name for the storage product"
   },
   "service.fivemupvotes.path": {
-    "message": "{marketingSite}/{language}/shop/product/cloud-gameserver/discord-bot/",
+    "message": "{marketingSite}/shop/product/cloud-gameserver/discord-bot/",
     "description": "URL path for the storage product"
   },
   "service.fivemupvotesburst.title": {
@@ -72,7 +72,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver.path": {
-    "message": "{marketingSite}/{language}/gameserver-hosting/",
+    "message": "{marketingSite}/gameserver-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-7d2d.title": {
@@ -80,7 +80,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-7d2d.path": {
-    "message": "{marketingSite}/{language}/7-days-to-die-サーバーのレンタル/",
+    "message": "{marketingSite}/7-days-to-die-server-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-abioticfactor.title": {
@@ -88,7 +88,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-abioticfactor.path": {
-    "message": "{marketingSite}/{language}/abiotic-factor-server-hosting/",
+    "message": "{marketingSite}/abiotic-factor-server-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-afterinfection.title": {
@@ -96,7 +96,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-afterinfection.path": {
-    "message": "{marketingSite}/{language}/afterinfection-server-hosting/",
+    "message": "{marketingSite}/afterinfection-server-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-amongus.title": {
@@ -104,7 +104,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-amongus.path": {
-    "message": "{marketingSite}/{language}/among-us-ゲームサーバーのレンタル/",
+    "message": "{marketingSite}/among-us-server-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-animalia-survival.title": {
@@ -112,7 +112,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-animalia-survival.path": {
-    "message": "{marketingSite}/{language}/animalia-survival-ゲームサーバーのレンタル/",
+    "message": "{marketingSite}/animalia-survival-server-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-argo.title": {
@@ -120,7 +120,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-argo.path": {
-    "message": "{marketingSite}/{language}/argo-server-hosting/",
+    "message": "{marketingSite}/argo-server-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-ark.title": {
@@ -128,7 +128,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-ark.path": {
-    "message": "{marketingSite}/{language}/ark-survival-evolved-server-hosting/",
+    "message": "{marketingSite}/ark-survival-evolved-server-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-arma3.title": {
@@ -136,7 +136,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-arma3.path": {
-    "message": "{marketingSite}/{language}/arma-3-server-hosting/",
+    "message": "{marketingSite}/arma-3-server-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-arma-reforger.title": {
@@ -144,7 +144,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-arma-reforger.path": {
-    "message": "{marketingSite}/{language}/arma-reforger-ゲームサーバーのレンタル/",
+    "message": "{marketingSite}/arma-reforger-server-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-assettocorsa.title": {
@@ -152,7 +152,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-assettocorsa.path": {
-    "message": "{marketingSite}/{language}/assetto-corsa-ゲームサーバーのレンタル/",
+    "message": "{marketingSite}/assetto-corsa-server-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-assetto-competizione.title": {
@@ -160,7 +160,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-assetto-competizione.path": {
-    "message": "{marketingSite}/{language}/assetto-corsa-competizione-ゲームサーバーのレンタル/",
+    "message": "{marketingSite}/assetto-corsa-competizione-server-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-astrocolony.title": {
@@ -168,7 +168,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-astrocolony.path": {
-    "message": "{marketingSite}/{language}/astro-colony-server-hosting/",
+    "message": "{marketingSite}/astro-colony-server-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-astroneer.title": {
@@ -176,7 +176,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-astroneer.path": {
-    "message": "{marketingSite}/{language}/astroneer-server-hosting/",
+    "message": "{marketingSite}/astroneer-server-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-avorion.title": {
@@ -184,7 +184,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-avorion.path": {
-    "message": "{marketingSite}/{language}/avorion-ゲームサーバーのレンタル/",
+    "message": "{marketingSite}/avorion-server-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-ats.title": {
@@ -192,7 +192,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-ats.path": {
-    "message": "{marketingSite}/{language}/american-truck-simulator-ゲームサーバーのレンタル/",
+    "message": "{marketingSite}/american-truck-simulator-server-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-bananashooter.title": {
@@ -200,7 +200,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-bananashooter.path": {
-    "message": "{marketingSite}/{language}/banana-shooter-ゲームサーバーのレンタル/",
+    "message": "{marketingSite}/banana-shooter-server-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-barotrauma.title": {
@@ -208,7 +208,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-barotrauma.path": {
-    "message": "{marketingSite}/{language}/barotrauma-server-hosting/",
+    "message": "{marketingSite}/barotrauma-server-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-battalion1944.title": {
@@ -216,7 +216,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-battalion1944.path": {
-    "message": "{marketingSite}/{language}/battalion-1944-ゲームサーバーのレンタル/",
+    "message": "{marketingSite}/battalion-1944-server-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-battlegrounds3.title": {
@@ -224,7 +224,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-battlegrounds3.path": {
-    "message": "{marketingSite}/{language}/battle-grounds-iii-サーバーのレンタル/",
+    "message": "{marketingSite}/battle-grounds-iii-server-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-beammp.title": {
@@ -232,7 +232,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-beammp.path": {
-    "message": "{marketingSite}/{language}/beammp-server-hosting/",
+    "message": "{marketingSite}/beammp-server-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-bob.title": {
@@ -240,7 +240,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-bob.path": {
-    "message": "{marketingSite}/{language}/beasts-of-bermuda-ゲームサーバーのレンタル/",
+    "message": "{marketingSite}/beasts-of-bermuda-server-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-beyondthewire.title": {
@@ -248,7 +248,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-beyondthewire.path": {
-    "message": "{marketingSite}/{language}/beyond-the-wire-server-hosting/",
+    "message": "{marketingSite}/beyond-the-wire-server-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-brokeprotocol.title": {
@@ -256,7 +256,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-brokeprotocol.path": {
-    "message": "{marketingSite}/{language}/broke-protocol-ゲームサーバーのレンタル/",
+    "message": "{marketingSite}/broke-protocol-server-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-citadel-forgedwithfire.title": {
@@ -264,7 +264,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-citadel-forgedwithfire.path": {
-    "message": "{marketingSite}/{language}/citadel-forged-with-fire-サーバーのレンタル/",
+    "message": "{marketingSite}/citadel-forged-with-fire-server-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-colonysurvival.title": {
@@ -272,7 +272,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-colonysurvival.path": {
-    "message": "{marketingSite}/{language}/colony-survival-server-hosting/",
+    "message": "{marketingSite}/colony-survival-server-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-conan.title": {
@@ -280,7 +280,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-conan.path": {
-    "message": "{marketingSite}/{language}/conan-exiles-ゲームサーバーのレンタル/",
+    "message": "{marketingSite}/conan-exiles-server-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-contagion.title": {
@@ -288,7 +288,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-contagion.path": {
-    "message": "{marketingSite}/{language}/contagion-server-hosting/",
+    "message": "{marketingSite}/contagion-server-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-corekeeper.title": {
@@ -296,7 +296,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-corekeeper.path": {
-    "message": "{marketingSite}/{language}/core-keeper-ゲームサーバー-サーバーのレンタル/",
+    "message": "{marketingSite}/core-keeper-server-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-craftopia.title": {
@@ -304,7 +304,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-craftopia.path": {
-    "message": "{marketingSite}/{language}/craftopia-server-hosting/",
+    "message": "{marketingSite}/craftopia-server-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-cryofall.title": {
@@ -312,7 +312,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-cryofall.path": {
-    "message": "{marketingSite}/{language}/cryofall-server-hosting/",
+    "message": "{marketingSite}/cryofall-server-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-cs16.title": {
@@ -320,7 +320,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-cs16.path": {
-    "message": "{marketingSite}/{language}/counter-strike-1-6-ゲームサーバーのレンタル/",
+    "message": "{marketingSite}/counter-strike-1-6-server-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-cs2.title": {
@@ -328,7 +328,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-cs2.path": {
-    "message": "{marketingSite}/{language}/counter-strike-2-ゲームサーバーのレンタル/",
+    "message": "{marketingSite}/counter-strike-2-server-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-css.title": {
@@ -336,7 +336,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-css.path": {
-    "message": "{marketingSite}/{language}/css-server-hosting/",
+    "message": "{marketingSite}/css-server-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-dayofinfamy.title": {
@@ -344,7 +344,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-dayofinfamy.path": {
-    "message": "{marketingSite}/{language}/day-of-infamy-server-hosting/",
+    "message": "{marketingSite}/day-of-infamy-server-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-dayz.title": {
@@ -352,7 +352,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-dayz.path": {
-    "message": "{marketingSite}/{language}/dayz-standalone-server-hosting/",
+    "message": "{marketingSite}/dayz-standalone-server-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-ddracenetwork.title": {
@@ -360,7 +360,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-ddracenetwork.path": {
-    "message": "{marketingSite}/{language}/ddracenetwork-サーバーのレンタル/",
+    "message": "{marketingSite}/ddracenetwork-server-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-deadlock.title": {
@@ -368,7 +368,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-deadlock.path": {
-    "message": "{marketingSite}/{language}/deadlock-server-hosting/",
+    "message": "{marketingSite}/deadlock-server-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-deadpoly.title": {
@@ -376,7 +376,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-deadpoly.path": {
-    "message": "{marketingSite}/{language}/deadpoly-server-hosting/",
+    "message": "{marketingSite}/deadpoly-server-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-dods.title": {
@@ -384,7 +384,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-dods.path": {
-    "message": "{marketingSite}/{language}/day-of-defeat-source-server-hosting/",
+    "message": "{marketingSite}/day-of-defeat-source-server-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-dst.title": {
@@ -392,7 +392,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-dst.path": {
-    "message": "{marketingSite}/{language}/don-t-starve-together-サーバーのレンタル/",
+    "message": "{marketingSite}/don-t-starve-together-server-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-eco.title": {
@@ -400,7 +400,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-eco.path": {
-    "message": "{marketingSite}/{language}/eco-global-survival-server-hosting/",
+    "message": "{marketingSite}/eco-global-survival-server-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-empyrion.title": {
@@ -408,7 +408,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-empyrion.path": {
-    "message": "{marketingSite}/{language}/empyrion-server-hosting/",
+    "message": "{marketingSite}/empyrion-server-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-enshrouded.title": {
@@ -416,7 +416,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-enshrouded.path": {
-    "message": "{marketingSite}/{language}/enshrouded-server-hosting/",
+    "message": "{marketingSite}/enshrouded-server-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-ets2.title": {
@@ -424,7 +424,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-ets2.path": {
-    "message": "{marketingSite}/{language}/euro-truck-simulator-2-ゲームサーバーのレンタル/",
+    "message": "{marketingSite}/euro-truck-simulator-2-server-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-factorio.title": {
@@ -432,7 +432,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-factorio.path": {
-    "message": "{marketingSite}/{language}/factorio-server-hosting/",
+    "message": "{marketingSite}/factorio-server-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-fivem.title": {
@@ -440,7 +440,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-fivem.path": {
-    "message": "{marketingSite}/{language}/fivem-server-hosting/",
+    "message": "{marketingSite}/fivem-server-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-foundry.title": {
@@ -448,7 +448,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-foundry.path": {
-    "message": "{marketingSite}/{language}/foundry-server-hosting/",
+    "message": "{marketingSite}/foundry-server-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-gmod.title": {
@@ -456,7 +456,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-gmod.path": {
-    "message": "{marketingSite}/{language}/garrys-mod-server-hosting/",
+    "message": "{marketingSite}/garrys-mod-server-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-groundbranch.title": {
@@ -464,7 +464,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-groundbranch.path": {
-    "message": "{marketingSite}/{language}/ground-branch-server-hosting/",
+    "message": "{marketingSite}/ground-branch-server-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-hl1.title": {
@@ -472,7 +472,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-hl1.path": {
-    "message": "{marketingSite}/{language}/half-life-1-ゲームサーバーのレンタル/",
+    "message": "{marketingSite}/half-life-1-server-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-hl2.title": {
@@ -480,7 +480,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-hl2.path": {
-    "message": "{marketingSite}/{language}/half-life-2-server-hosting/",
+    "message": "{marketingSite}/half-life-2-server-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-holdfast.title": {
@@ -488,7 +488,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-holdfast.path": {
-    "message": "{marketingSite}/{language}/holdfast-nations-at-war-ゲームサーバーのレンタル/",
+    "message": "{marketingSite}/holdfast-nations-at-war-server-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-humanitz.title": {
@@ -496,7 +496,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-humanitz.path": {
-    "message": "{marketingSite}/{language}/humanitz-server-hosting/",
+    "message": "{marketingSite}/humanitz-server-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-hurtworld.title": {
@@ -504,7 +504,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-hurtworld.path": {
-    "message": "{marketingSite}/{language}/hurtworld-サーバーのレンタル/",
+    "message": "{marketingSite}/hurtworld-server-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-icarus.title": {
@@ -512,7 +512,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-icarus.path": {
-    "message": "{marketingSite}/{language}/icarus-server-hosting/",
+    "message": "{marketingSite}/icarus-server-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-insurgency.title": {
@@ -520,7 +520,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-insurgency.path": {
-    "message": "{marketingSite}/{language}/insurgency-sandstorm-server-hosting/",
+    "message": "{marketingSite}/insurgency-sandstorm-server-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-ironarmada.title": {
@@ -528,7 +528,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-ironarmada.path": {
-    "message": "{marketingSite}/{language}/iron-armada-server-hosting/",
+    "message": "{marketingSite}/iron-armada-server-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-jol.title": {
@@ -536,7 +536,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-jol.path": {
-    "message": "{marketingSite}/{language}/journey-of-life-server-hosting/",
+    "message": "{marketingSite}/journey-of-life-server-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-killingfloor2.title": {
@@ -544,7 +544,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-killingfloor2.path": {
-    "message": "{marketingSite}/{language}/killing-floor-2-ゲームサーバーのレンタル/",
+    "message": "{marketingSite}/killing-floor-2-server-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-lastoasis.title": {
@@ -552,7 +552,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-lastoasis.path": {
-    "message": "{marketingSite}/{language}/last-oasis-server-hosting/",
+    "message": "{marketingSite}/last-oasis-server-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-leap.title": {
@@ -560,7 +560,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-leap.path": {
-    "message": "{marketingSite}/{language}/leap-server-hosting/",
+    "message": "{marketingSite}/leap-server-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-l4d2.title": {
@@ -568,7 +568,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-l4d2.path": {
-    "message": "{marketingSite}/{language}/left-4-dead-2-ゲームサーバーのレンタル/",
+    "message": "{marketingSite}/left-4-dead-2-server-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-longvinter.title": {
@@ -576,7 +576,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-longvinter.path": {
-    "message": "{marketingSite}/{language}/longvinter-server-hosting/",
+    "message": "{marketingSite}/longvinter-server-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-minecraft.title": {
@@ -584,7 +584,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-minecraft.path": {
-    "message": "{marketingSite}/{language}/minecraft-server-hosting/",
+    "message": "{marketingSite}/minecraft-server-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-minetest.title": {
@@ -592,7 +592,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-minetest.path": {
-    "message": "{marketingSite}/{language}/minetest-server-hosting/",
+    "message": "{marketingSite}/minetest-server-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-miscreated.title": {
@@ -600,7 +600,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-miscreated.path": {
-    "message": "{marketingSite}/{language}/miscreated-ゲームサーバー-サーバーのレンタル/",
+    "message": "{marketingSite}/miscreated-server-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-motortown.title": {
@@ -608,7 +608,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-motortown.path": {
-    "message": "{marketingSite}/{language}/motor-town-behind-the-wheel-サーバーのレンタル/",
+    "message": "{marketingSite}/motor-town-behind-the-wheel-server-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-mountandblade.title": {
@@ -616,7 +616,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-mountandblade.path": {
-    "message": "{marketingSite}/{language}/mount-and-blade-server-hosting/",
+    "message": "{marketingSite}/mount-and-blade-server-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-mta.title": {
@@ -624,7 +624,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-mta.path": {
-    "message": "{marketingSite}/{language}/mta-server-hosting/",
+    "message": "{marketingSite}/mta-server-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-moe.title": {
@@ -632,7 +632,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-moe.path": {
-    "message": "{marketingSite}/{language}/myth-of-empires-ゲームサーバーのレンタル/",
+    "message": "{marketingSite}/myth-of-empires-server-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-necesse.title": {
@@ -640,7 +640,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-necesse.path": {
-    "message": "{marketingSite}/{language}/necesse-server-hosting/",
+    "message": "{marketingSite}/necesse-server-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-nstp.title": {
@@ -648,7 +648,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-nstp.path": {
-    "message": "{marketingSite}/{language}/never-split-the-party-server-hosting/",
+    "message": "{marketingSite}/never-split-the-party-server-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-nienix.title": {
@@ -656,7 +656,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-nienix.path": {
-    "message": "{marketingSite}/{language}/nienix-server-hosting/",
+    "message": "{marketingSite}/nienix-server-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-nmrih.title": {
@@ -664,7 +664,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-nmrih.path": {
-    "message": "{marketingSite}/{language}/no-more-room-in-hell-サーバーのレンタル/",
+    "message": "{marketingSite}/no-more-room-in-hell-server-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-noonesurvived.title": {
@@ -672,7 +672,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-noonesurvived.path": {
-    "message": "{marketingSite}/{language}/no-one-survived-サーバーのレンタル/",
+    "message": "{marketingSite}/no-one-survived-server-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-ohol.title": {
@@ -680,7 +680,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-ohol.path": {
-    "message": "{marketingSite}/{language}/one-hour-one-life-サーバーのレンタル/",
+    "message": "{marketingSite}/one-hour-one-life-server-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-openmp.title": {
@@ -688,7 +688,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-openmp.path": {
-    "message": "{marketingSite}/{language}/open-mp-server-hosting/",
+    "message": "{marketingSite}/open-mp-server-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-openttd.title": {
@@ -696,7 +696,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-openttd.path": {
-    "message": "{marketingSite}/{language}/openttd-server-hosting/",
+    "message": "{marketingSite}/openttd-server-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-ohd.title": {
@@ -704,7 +704,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-ohd.path": {
-    "message": "{marketingSite}/{language}/operation-harsh-doorstop-server-hosting/",
+    "message": "{marketingSite}/operation-harsh-doorstop-server-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-ootow.title": {
@@ -712,7 +712,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-ootow.path": {
-    "message": "{marketingSite}/{language}/outlaws-of-the-old-west-サーバーのレンタル/",
+    "message": "{marketingSite}/outlaws-of-the-old-west-server-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-palworld.title": {
@@ -720,7 +720,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-palworld.path": {
-    "message": "{marketingSite}/{language}/palworld-server-hosting/",
+    "message": "{marketingSite}/palworld-server-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-pathoftitans.title": {
@@ -728,7 +728,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-pathoftitans.path": {
-    "message": "{marketingSite}/{language}/path-of-titans-ゲームサーバーのレンタル/",
+    "message": "{marketingSite}/path-of-titans-server-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-pixark.title": {
@@ -736,7 +736,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-pixark.path": {
-    "message": "{marketingSite}/{language}/pixark-server-hosting/",
+    "message": "{marketingSite}/pixark-server-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-portalknights.title": {
@@ -744,7 +744,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-portalknights.path": {
-    "message": "{marketingSite}/{language}/portal-knights-ゲームサーバーのレンタル/",
+    "message": "{marketingSite}/portal-knights-server-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-projectzomboid.title": {
@@ -752,7 +752,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-projectzomboid.path": {
-    "message": "{marketingSite}/{language}/project-zomboid-server-hosting/",
+    "message": "{marketingSite}/project-zomboid-server-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-redm.title": {
@@ -760,7 +760,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-redm.path": {
-    "message": "{marketingSite}/{language}/redm-server-hosting/",
+    "message": "{marketingSite}/redm-server-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-reignofkings.title": {
@@ -768,7 +768,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-reignofkings.path": {
-    "message": "{marketingSite}/{language}/reign-of-kings-ゲームサーバーのレンタル/",
+    "message": "{marketingSite}/reign-of-kings-server-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-rimworldtogether.title": {
@@ -776,7 +776,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-rimworldtogether.path": {
-    "message": "{marketingSite}/{language}/rimworld-together-ゲームサーバーのレンタル/",
+    "message": "{marketingSite}/rimworld-together-server-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-risingstorm2.title": {
@@ -784,7 +784,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-risingstorm2.path": {
-    "message": "{marketingSite}/{language}/rising-storm-2-ゲームサーバーのレンタル/",
+    "message": "{marketingSite}/rising-storm-2-server-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-risingworld.title": {
@@ -792,7 +792,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-risingworld.path": {
-    "message": "{marketingSite}/{language}/rising-world-server-hosting/",
+    "message": "{marketingSite}/rising-world-server-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-riskofrain2.title": {
@@ -800,7 +800,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-riskofrain2.path": {
-    "message": "{marketingSite}/{language}/risk-of-rain-2-サーバーのレンタル/",
+    "message": "{marketingSite}/risk-of-rain-2-server-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-rust.title": {
@@ -808,7 +808,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-rust.path": {
-    "message": "{marketingSite}/{language}/rust-server-hosting/",
+    "message": "{marketingSite}/rust-server-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-sanctuaryisland.title": {
@@ -816,7 +816,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-sanctuaryisland.path": {
-    "message": "{marketingSite}/{language}/sanctuary-island-server-hosting/",
+    "message": "{marketingSite}/sanctuary-island-server-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-satisfactory.title": {
@@ -824,7 +824,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-satisfactory.path": {
-    "message": "{marketingSite}/{language}/satisfactory-server-hosting/",
+    "message": "{marketingSite}/satisfactory-server-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-scp5k.title": {
@@ -832,7 +832,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-scp5k.path": {
-    "message": "{marketingSite}/{language}/scp-5k-server-hosting/",
+    "message": "{marketingSite}/scp-5k-server-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-scp-containmentbreach.title": {
@@ -840,7 +840,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-scp-containmentbreach.path": {
-    "message": "{marketingSite}/{language}/scp-containment-breach-サーバーのレンタル/",
+    "message": "{marketingSite}/scp-containment-breach-server-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-scp-escapetogether.title": {
@@ -848,7 +848,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-scp-escapetogether.path": {
-    "message": "{marketingSite}/{language}/scp-escape-together-サーバーのレンタル/",
+    "message": "{marketingSite}/scp-escape-together-server-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-scp.title": {
@@ -856,7 +856,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-scp.path": {
-    "message": "{marketingSite}/{language}/scp-secret-laboratory-server-hosting/",
+    "message": "{marketingSite}/scp-secret-laboratory-server-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-scum.title": {
@@ -864,7 +864,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-scum.path": {
-    "message": "{marketingSite}/{language}/scum-server-hosting/",
+    "message": "{marketingSite}/scum-server-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-soldat.title": {
@@ -872,7 +872,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-soldat.path": {
-    "message": "{marketingSite}/{language}/soldat-server-hosting/",
+    "message": "{marketingSite}/soldat-server-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-sonsoftheforest.title": {
@@ -880,7 +880,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-sonsoftheforest.path": {
-    "message": "{marketingSite}/{language}/sons-of-the-forest-サーバーのレンタル/",
+    "message": "{marketingSite}/sons-of-the-forest-server-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-soulmask.title": {
@@ -888,7 +888,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-soulmask.path": {
-    "message": "{marketingSite}/{language}/soulmask-server-hosting/",
+    "message": "{marketingSite}/soulmask-server-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-spaceengineers.title": {
@@ -896,7 +896,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-spaceengineers.path": {
-    "message": "{marketingSite}/{language}/space-engineers-server-hosting/",
+    "message": "{marketingSite}/space-engineers-server-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-squad.title": {
@@ -904,7 +904,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-squad.path": {
-    "message": "{marketingSite}/{language}/squad-server-hosting/",
+    "message": "{marketingSite}/squad-server-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-starbound.title": {
@@ -912,7 +912,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-starbound.path": {
-    "message": "{marketingSite}/{language}/starbound-server-hosting/",
+    "message": "{marketingSite}/starbound-server-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-starmade.title": {
@@ -920,7 +920,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-starmade.path": {
-    "message": "{marketingSite}/{language}/starmade-server-hosting/",
+    "message": "{marketingSite}/starmade-server-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-staxel.title": {
@@ -928,7 +928,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-staxel.path": {
-    "message": "{marketingSite}/{language}/staxel-server-hosting/",
+    "message": "{marketingSite}/staxel-server-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-stormworks.title": {
@@ -936,7 +936,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-stormworks.path": {
-    "message": "{marketingSite}/{language}/stormworks-server-hosting/",
+    "message": "{marketingSite}/stormworks-server-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-subsistence.title": {
@@ -944,7 +944,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-subsistence.path": {
-    "message": "{marketingSite}/{language}/subsistence-server-hosting/",
+    "message": "{marketingSite}/subsistence-server-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-sunkenland.title": {
@@ -952,7 +952,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-sunkenland.path": {
-    "message": "{marketingSite}/{language}/sunkenland-server-hosting/",
+    "message": "{marketingSite}/sunkenland-server-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-tf2.title": {
@@ -960,7 +960,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-tf2.path": {
-    "message": "{marketingSite}/{language}/team-fortress-2-ゲームサーバーのレンタル/",
+    "message": "{marketingSite}/team-fortress-2-server-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-teeworlds.title": {
@@ -968,7 +968,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-teeworlds.path": {
-    "message": "{marketingSite}/{language}/teeworlds-server-hosting/",
+    "message": "{marketingSite}/teeworlds-server-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-terraria.title": {
@@ -976,7 +976,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-terraria.path": {
-    "message": "{marketingSite}/{language}/terraria-server-hosting/",
+    "message": "{marketingSite}/terraria-server-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-terratech-worlds.title": {
@@ -984,7 +984,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-terratech-worlds.path": {
-    "message": "{marketingSite}/{language}/terratech-worlds-server-hosting/",
+    "message": "{marketingSite}/terratech-worlds-server-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-thebus.title": {
@@ -992,7 +992,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-thebus.path": {
-    "message": "{marketingSite}/{language}/the-bus-server-hosting/",
+    "message": "{marketingSite}/the-bus-server-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-thefront.title": {
@@ -1000,7 +1000,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-thefront.path": {
-    "message": "{marketingSite}/{language}/the-front-server-hosting/",
+    "message": "{marketingSite}/the-front-server-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-theisle.title": {
@@ -1008,7 +1008,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-theisle.path": {
-    "message": "{marketingSite}/{language}/the-isle-ゲームサーバーのレンタル/",
+    "message": "{marketingSite}/the-isle-server-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-lotr-rtm.title": {
@@ -1016,7 +1016,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-lotr-rtm.path": {
-    "message": "{marketingSite}/{language}/lotr-return-to-moria-サーバーのレンタル/",
+    "message": "{marketingSite}/lotr-return-to-moria-server-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-unturned.title": {
@@ -1024,7 +1024,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-unturned.path": {
-    "message": "{marketingSite}/{language}/unturned-3-ゲームサーバーのレンタル/",
+    "message": "{marketingSite}/unturned-3-server-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-vrising.title": {
@@ -1032,7 +1032,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-vrising.path": {
-    "message": "{marketingSite}/{language}/v-rising-server-hosting/",
+    "message": "{marketingSite}/v-rising-server-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-valheim.title": {
@@ -1040,7 +1040,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-valheim.path": {
-    "message": "{marketingSite}/{language}/valheim-server-hosting/",
+    "message": "{marketingSite}/valheim-server-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-vein.title": {
@@ -1048,7 +1048,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-vein.path": {
-    "message": "{marketingSite}/{language}/vein-server-hosting/",
+    "message": "{marketingSite}/vein-server-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-veloren.title": {
@@ -1056,7 +1056,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-veloren.path": {
-    "message": "{marketingSite}/{language}/veloren-server-hosting/",
+    "message": "{marketingSite}/veloren-server-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-vintagestory.title": {
@@ -1064,7 +1064,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-vintagestory.path": {
-    "message": "{marketingSite}/{language}/vintage-story-ゲームサーバーのレンタル/",
+    "message": "{marketingSite}/vintage-story-server-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-wreckfest.title": {
@@ -1072,7 +1072,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-wreckfest.path": {
-    "message": "{marketingSite}/{language}/wreckfest-server-hosting/",
+    "message": "{marketingSite}/wreckfest-server-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-wreckfest2.title": {
@@ -1080,7 +1080,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-wreckfest2.path": {
-    "message": "{marketingSite}/{language}/wreckfest-2-サーバーのレンタル/",
+    "message": "{marketingSite}/wreckfest-2-server-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-wurmunlimited.title": {
@@ -1088,7 +1088,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.gameserver-wurmunlimited.path": {
-    "message": "{marketingSite}/{language}/wurm-unlimited-server-hosting/",
+    "message": "{marketingSite}/wurm-unlimited-server-hosting/",
     "description": "URL path for the gameserver product"
   },
   "searchableItemList.all": {
@@ -1179,19 +1179,19 @@
     "message": "今日からZAP-Hostingコミュニティの一員になりましょう！{contributionLink}に参加して、高品質なガイドやクリエイティブなコンテンツを制作しながら、最大130€の貴重な報酬を獲得して知識と専門知識を共有しましょう。今すぐ始めて、違いを生み出しましょう！🙂"
   },
   "theme.ErrorPageContent.title": {
-    "message": "An error has occurred  \nエラーが発生しました",
+    "message": "エラーが発生しました",
     "description": "The title of the fallback page when the page crashed"
   },
   "theme.blog.archive.title": {
-    "message": "Archive",
+    "message": "アーカイブ",
     "description": "The page & hero title of the blog archive page"
   },
   "theme.blog.archive.description": {
-    "message": "Archive",
+    "message": "アーカイブ",
     "description": "The page & hero description of the blog archive page"
   },
   "theme.BackToTopButton.buttonAriaLabel": {
-    "message": "Back to top",
+    "message": "ページトップへ戻る",
     "description": "The ARIA label for the back to top button"
   },
   "theme.blog.paginator.navAriaLabel": {
@@ -1199,11 +1199,11 @@
     "description": "The ARIA label for the blog pagination"
   },
   "theme.blog.paginator.newerEntries": {
-    "message": "New article",
+    "message": "新しい記事",
     "description": "The label used to navigate to the newer blog posts page (previous page)"
   },
   "theme.blog.paginator.olderEntries": {
-    "message": "Past articles",
+    "message": "過去の記事",
     "description": "The label used to navigate to the older blog posts page (next page)"
   },
   "theme.blog.post.paginator.navAriaLabel": {
@@ -1215,15 +1215,15 @@
     "description": "The blog post button label to navigate to the newer/previous post"
   },
   "theme.blog.post.paginator.olderPost": {
-    "message": "Past articles",
+    "message": "過去の記事",
     "description": "The blog post button label to navigate to the older/next post"
   },
   "theme.tags.tagsPageLink": {
-    "message": "View all tags",
+    "message": "すべてのタグを見る",
     "description": "The label of the link targeting the tag list page"
   },
   "theme.colorToggle.ariaLabel.mode.system": {
-    "message": "System Mode",
+    "message": "システムモード",
     "description": "The name for the system color mode"
   },
   "theme.colorToggle.ariaLabel.mode.light": {
@@ -1251,11 +1251,11 @@
     "description": "The ARIA label for the docs pagination"
   },
   "theme.docs.paginator.previous": {
-    "message": "Previous",
+    "message": "前へ",
     "description": "The label used to navigate to the previous doc"
   },
   "theme.docs.paginator.next": {
-    "message": "Next",
+    "message": "次へ",
     "description": "The label used to navigate to the next doc"
   },
   "theme.docs.tagDocListPageTitle.nDocsTagged": {
@@ -1286,7 +1286,7 @@
     "description": "The label used for the latest version suggestion link label"
   },
   "theme.common.editThisPage": {
-    "message": "Edit this page",
+    "message": "このページを編集",
     "description": "The link label to edit the current page"
   },
   "theme.common.headingLinkTitle": {
@@ -1306,7 +1306,7 @@
     "description": "The sentence used to display when a page has been last updated, and by who"
   },
   "theme.navbar.mobileVersionsDropdown.label": {
-    "message": "Other versions",
+    "message": "他のバージョン",
     "description": "The label for the navbar versions dropdown on mobile view"
   },
   "theme.NotFound.title": {
@@ -1334,11 +1334,11 @@
     "description": "The default label used for the Note admonition (:::note)"
   },
   "theme.admonition.tip": {
-    "message": "Hint",
+    "message": "ヒント",
     "description": "The default label used for the Tip admonition (:::tip)"
   },
   "theme.admonition.warning": {
-    "message": "Warning",
+    "message": "警告",
     "description": "The default label used for the Warning admonition (:::warning)"
   },
   "theme.AnnouncementBar.closeButtonAriaLabel": {
@@ -1366,7 +1366,7 @@
     "description": "The label for the mobile language switcher dropdown"
   },
   "theme.NotFound.p1": {
-    "message": "The page you are looking for could not be found.",
+    "message": "お探しのページは見つかりませんでした。",
     "description": "The first paragraph of the 404 page"
   },
   "theme.NotFound.p2": {
@@ -1394,11 +1394,11 @@
     "description": "The copy button label on code blocks"
   },
   "theme.CodeBlock.copied": {
-    "message": "Copied",
+    "message": "コピーしました",
     "description": "The copied button label on code blocks"
   },
   "theme.CodeBlock.copyButtonAriaLabel": {
-    "message": "Copy code to clipboard",
+    "message": "コードをクリップボードにコピー",
     "description": "The ARIA label for copy code blocks button"
   },
   "theme.CodeBlock.wordWrapToggle": {
@@ -1410,7 +1410,7 @@
     "description": "The ARIA label for the home page in the breadcrumbs"
   },
   "theme.docs.sidebar.collapseButtonTitle": {
-    "message": "Hide sidebar",
+    "message": "サイドバーを隠す",
     "description": "The title attribute for collapse button of doc sidebar"
   },
   "theme.docs.sidebar.collapseButtonAriaLabel": {
@@ -1430,7 +1430,7 @@
     "description": "The label of the back button to return to main menu, inside the mobile navbar sidebar secondary menu (notably used to display the docs sidebar)"
   },
   "theme.docs.sidebar.toggleSidebarButtonAriaLabel": {
-    "message": "Open the navigation bar",
+    "message": "ナビゲーションバーを開く",
     "description": "The ARIA label for hamburger menu button of mobile navigation"
   },
   "theme.navbar.mobileDropdown.collapseButton.expandAriaLabel": {
@@ -1442,11 +1442,11 @@
     "description": "The ARIA label of the button to collapse the mobile dropdown navbar item"
   },
   "theme.docs.sidebar.expandButtonTitle": {
-    "message": "Open the sidebar",
+    "message": "サイドバーを開く",
     "description": "The ARIA label and title attribute for expand button of doc sidebar"
   },
   "theme.docs.sidebar.expandButtonAriaLabel": {
-    "message": "Open the sidebar",
+    "message": "サイドバーを開く",
     "description": "The ARIA label and title attribute for expand button of doc sidebar"
   },
   "theme.blog.post.plurals": {
@@ -1466,11 +1466,11 @@
     "description": "The title of the authors page"
   },
   "theme.blog.authorsList.viewAll": {
-    "message": "View all authors",
+    "message": "すべての著者を見る",
     "description": "The label of the link targeting the blog authors page"
   },
   "theme.blog.author.noPosts": {
-    "message": "There are no posts by this author yet.  \nこの著者による投稿はまだありません。",
+    "message": "この著者による投稿はまだありません。",
     "description": "The text for authors with 0 blog post"
   },
   "theme.contentVisibility.unlistedBanner.title": {
@@ -1482,23 +1482,38 @@
     "description": "The unlisted content banner message"
   },
   "theme.contentVisibility.draftBanner.title": {
-    "message": "Draft page",
+    "message": "下書きページ",
     "description": "The draft content banner title"
   },
   "theme.contentVisibility.draftBanner.message": {
-    "message": "This page is a draft. It is displayed only in the development environment and is not included in the production build.",
+    "message": "このページは下書きです。開発環境でのみ表示され、本番ビルドには含まれません。",
     "description": "The draft content banner message"
   },
   "theme.ErrorPageContent.tryAgain": {
-    "message": "Please try again",
+    "message": "もう一度お試しください",
     "description": "The label of the button to try again rendering when the React error boundary captures an error"
   },
   "theme.common.skipToMainContent": {
-    "message": "Skip to main content",
+    "message": "メインコンテンツへスキップ",
     "description": "The skip to content label used for accessibility, allowing to rapidly navigate to main content with keyboard tab/enter navigation"
   },
   "theme.tags.tagsPageTitle": {
     "message": "タグ",
     "description": "The title of the tag list page"
+  },
+  "service.gameserver-voyagers-of-nera.title": {
+    "message": "Voyagers of Nera ゲームサーバー",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-voyagers-of-nera.path": {
+    "message": "{marketingSite}/voyagers-of-nera-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "footer.cookieSettings": {
+    "message": "クッキー設定"
+  },
+  "theme.IconExternalLink.ariaLabel": {
+    "message": "（新しいタブで開く）",
+    "description": "The ARIA label for the external link icon"
   }
 }
