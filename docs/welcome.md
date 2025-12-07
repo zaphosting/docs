@@ -11,7 +11,7 @@ import YouTube from '@site/src/components/YouTube/YouTube';
 
 ## Introduction
 
-Welcome to the comprehensive documentation of ZAP-Hosting, serving as the central hub for everything related to our products – from game servers, vRoot servers, and dedicated servers to domain & webspace, as well as voicebot & voice server. Here you will find detailed instructions, tips, and tricks to help you get the most out of your products (services) and successfully implement your projects.
+Welcome to the comprehensive documentation of ZAP-Hosting, serving as the central hub for everything related to our products – from game servers, VPS and dedicated servers to domain & webspace, as well as voicebot & voice server. Here you will find detailed instructions, tips, and tricks to help you get the most out of your products (services) and successfully implement your projects.
 
 Our goal is to make knowledge accessible and understandable. That's why we've designed our guides to be easily comprehensible to everyone – regardless of technical prior knowledge. Whether you're just starting with setting up your first game server, diving into the world of dedicated servers, registering your first domain, or configuring your voice server, our guides are aimed at providing you with an easy and clear entry point.
 
