@@ -43,7 +43,7 @@ const config = {
   // to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: 'en',
-    locales: ['en', 'de', 'es', 'fr', 'ar', 'pt', 'th', 'pl', 'ja'],
+    locales: ['en', 'de', 'es', 'fr', 'ar', 'pt', 'th', 'pl', 'ja', 'sv', 'it', 'nl'],
     localeConfigs: {
     ar: {
       direction: 'rtl',
@@ -81,6 +81,18 @@ const config = {
     th: {
       label: 'ไทย',
       htmlLang: 'th-TH',
+    },
+    sv: {
+      label: 'Svenska',
+      htmlLang: 'sv-SV',
+    },
+    it: {
+      label: 'Italiano',
+      htmlLang: 'it-IT',
+    },
+    nl: {
+      label: 'Nederlands',
+      htmlLang: 'nl-NL',
     },
   },    
   },
@@ -298,6 +310,9 @@ const config = {
               case "th": return '<a href="https://zap-hosting.com/en/server-hosting/">เช่าเซิร์ฟเวอร์</a>';
               case "pl": return '<a href="https://zap-hosting.com/en/server-hosting/">Wynajmij serwer</a>';
               case "ja": return '<a href="https://zap-hosting.com/en/server-hosting/">サーバーをレンタル</a>';
+              case "sv": return '<a href="https://zap-hosting.com/en/server-hosting/">Hyr en server</a>';
+              case "it": return '<a href="https://zap-hosting.com/en/server-hosting/">Noleggia un server </a>';
+              case "nl": return '<a href="https://zap-hosting.com/en/server-hosting/">Huur een server</a>';
               default: return '<a href="https://zap-hosting.com/en/server-hosting/">Rent a server</a>';
             }
           })(),

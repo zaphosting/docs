@@ -29,7 +29,10 @@ const sidebars = {
           case "pt": return "Primeiros passos";
           case "th": return "เริ่มต้นใช้งาน";
           case "pl": return "Pierwsze kroki";
-          case "ja": return "はじめに";    
+          case "ja": return "はじめに";
+          case "sv": return "Kom igång";
+          case "it": return "Primi passi";
+          case "nl": return "Eerste stappen";
           default: return "First steps";
         }
       })(),
@@ -101,7 +104,10 @@ const sidebars = {
           case "pt": return "Programas";
           case "th": return "โปรแกรม";
           case "pl": return "Programy";
-          case "ja": return "プログラム";    
+          case "ja": return "プログラム";
+          case "sv": return "Program";
+          case "it": return "Programmi";
+          case "nl": return "Programma's";
           default: return "Programs";
         }
       })(),
@@ -162,7 +168,10 @@ const sidebars = {
           case "pt": return "Outros";
           case "th": return "อื่นๆ";
           case "pl": return "Inne";
-          case "ja": return "その他";    
+          case "ja": return "その他";
+          case "sv": return "Övrigt";
+          case "it": return "Altro";
+          case "nl": return "Overig";
           default: return "Other";
         }
       })(),
@@ -186,7 +195,10 @@ const sidebars = {
           case "pt": return "Primeiros passos";
           case "th": return "เริ่มต้นใช้งาน";
           case "pl": return "Pierwsze kroki";
-          case "ja": return "はじめに";    
+          case "ja": return "はじめに";
+          case "sv": return "Kom igång";
+          case "it": return "Primi passi";
+          case "nl": return "Eerste stappen";
           default: return "First steps";
         }
       })(),
@@ -226,7 +238,10 @@ const sidebars = {
           case "pt": return "Jogos populares";
           case "th": return "เกมยอดนิยม";
           case "pl": return "Popularne gry";
-          case "ja": return "人気のゲーム";    
+          case "ja": return "人気のゲーム";
+          case "sv": return "Populära spel";
+          case "it": return "Giochi popolari";
+          case "nl": return "Populaire spellen";
           default: return "Popular Games";
         }
       })(),
@@ -639,7 +654,10 @@ const sidebars = {
           case "pt": return "Todos os jogos (A-Z)";
           case "th": return "เกมทั้งหมด (A-Z)";
           case "pl": return "Wszystkie gry (A-Z)";
-          case "ja": return "すべてのゲーム (A-Z)";    
+          case "ja": return "すべてのゲーム (A-Z)";
+          case "sv": return "Alla spel (A-Z)";
+          case "it": return "Tutti i giochi (A-Z)";
+          case "nl": return "Alle spellen (A-Z)";
           default: return "All Games (A-Z)";
         }
       })(),
@@ -4433,7 +4451,10 @@ const sidebars = {
           case "pt": return "Primeiros passos";
           case "th": return "เริ่มต้นใช้งาน";
           case "pl": return "Pierwsze kroki";
-          case "ja": return "はじめに";    
+          case "ja": return "はじめに";
+          case "sv": return "Kom igång";
+          case "it": return "Primi passi";
+          case "nl": return "Eerste stappen";
           default: return "First steps";
         }
       })(),
@@ -4466,7 +4487,10 @@ const sidebars = {
           case "pt": return "ISOs personalizadas";
           case "th": return "ISO แบบกำหนดเอง";
           case "pl": return "Niestandardowe obrazy ISO";
-          case "ja": return "カスタムISO";    
+          case "ja": return "カスタムISO";
+          case "sv": return "Anpassade ISOs";
+          case "it": return "ISO personalizzate";
+          case "nl": return "Aangepaste ISO's";
           default: return "Custom ISOs";
         }
       })(),
@@ -4486,7 +4510,10 @@ const sidebars = {
           case "pt": return "Linux";
           case "th": return "ลินุกซ์";
           case "pl": return "Linux";
-          case "ja": return "Linux";    
+          case "ja": return "Linux";
+          case "sv": return "Linux";
+          case "it": return "Linux";
+          case "nl": return "Linux";
           default: return "Linux";
         }
       })(),
@@ -4725,7 +4752,10 @@ const sidebars = {
           case "pt": return "Primeiros passos";
           case "th": return "เริ่มต้นใช้งาน";
           case "pl": return "Pierwsze kroki";
-          case "ja": return "はじめに";    
+          case "ja": return "はじめに";
+          case "sv": return "Kom igång";
+          case "it": return "Primi passi";
+          case "nl": return "Eerste stappen";
           default: return "First steps";
         }
       })(),
@@ -4758,7 +4788,10 @@ const sidebars = {
           case "pt": return "Sistemas operacionais";
           case "th": return "ระบบปฏิบัติการ";
           case "pl": return "Systemy operacyjne";
-          case "ja": return "オペレーティングシステム";    
+          case "ja": return "オペレーティングシステム";
+          case "sv": return "Operativsystem";
+          case "it": return "Sistemi operativi";
+          case "nl": return "Besturingssystemen";
           default: return "Operating systems";
         }
       })(),
@@ -5033,7 +5066,10 @@ const sidebars = {
           case "pt": return "Domínio";
           case "th": return "โดเมน";
           case "pl": return "Domena";
-          case "ja": return "ドメイン";    
+          case "ja": return "ドメイン";
+          case "sv": return "Domän";
+          case "it": return "Dominio";
+          case "nl": return "Domein";
           default: return "Domain";
         }
       })(),
@@ -5077,7 +5113,10 @@ const sidebars = {
           case "pt": return "Hospedagem web";
           case "th": return "เว็บสเปซ";
           case "pl": return "Przestrzeń WWW";
-          case "ja": return "ウェブスペース";    
+          case "ja": return "ウェブスペース";
+          case "sv": return "Webbhotell";
+          case "it": return "Spazio web";
+          case "nl": return "Webhosting";
           default: return "Webspace";
         }
       })(),
@@ -5136,7 +5175,10 @@ const sidebars = {
           case "pt": return "Voicebot";
           case "th": return "Voicebot";
           case "pl": return "Voicebot";
-          case "ja": return "ボイスボット";    
+          case "ja": return "ボイスボット";
+          case "sv": return "Voicebot";
+          case "it": return "Voicebot";
+          case "nl": return "Voicebot";
           default: return "Voicebot";
         }
       })(),
@@ -5172,7 +5214,10 @@ const sidebars = {
           case "pt": return "Servidor de voz";
           case "th": return "เซิร์ฟเวอร์เสียง";
           case "pl": return "Serwer głosowy";
-          case "ja": return "ボイスサーバー";    
+          case "ja": return "ボイスサーバー";
+          case "sv": return "Röstserver";
+          case "it": return "Server vocale";
+          case "nl": return "Voiceserver";
           default: return "Voiceserver";
         }
       })(),
