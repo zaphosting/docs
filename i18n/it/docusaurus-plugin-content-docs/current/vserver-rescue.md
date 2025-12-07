@@ -11,10 +11,10 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introduzione
 
-Il tuo server non si avvia più? Sei bloccato fuori dal sistema o vuoi fare un backup prima di apportare modifiche?  
+Il tuo server non si avvia più? Sei bloccato fuori dal sistema o vuoi creare un backup prima di fare modifiche?
 Avviando il tuo server con la **SystemRescue ISO**, puoi comunque accedere ai tuoi dischi, recuperare file importanti e creare backup localmente. Funziona anche se il sistema operativo originale non è più accessibile.
 
-Per trasferire i dati recuperati in modo sicuro, puoi usare **SFTP (Secure File Transfer Protocol)**. Questo metodo ti permette di copiare i file dal sistema di rescue al tuo PC locale o a un altro server tramite una connessione sicura e criptata.
+Per trasferire i dati recuperati in modo sicuro, puoi usare **SFTP (Secure File Transfer Protocol)**. Questo metodo ti permette di copiare file dal sistema di rescue al tuo PC locale o a un altro server tramite una connessione sicura e criptata.
 
 <InlineVoucher />
 
@@ -22,7 +22,7 @@ Per trasferire i dati recuperati in modo sicuro, puoi usare **SFTP (Secure File 
 
 ## Preparazione
 
-Per fare il backup dei dati, userai la **SystemRescue ISO versione 12.01**.  
+Per fare il backup dei dati, userai la **SystemRescue ISO versione 12.01**.
 Inizia accedendo all’interfaccia del tuo VPS e vai nella sezione **ISOs**.
 
 Seleziona l’ISO tra le opzioni disponibili. Dopo aver scelto quella giusta, clicca su **Modifica ordine di boot** e poi sul pulsante **Riavvia** per avviare il processo di boot.
@@ -54,7 +54,7 @@ Questo comando elenca tutti i dischi rilevati con i dettagli delle partizioni. L
 - Partizioni disponibili (es. `/dev/sda1`, `/dev/sda2`, …),
 - Tipo di filesystem (se rilevato).
 
-Nell’esempio, il disco `/dev/sda` ha tre partizioni: `/dev/sda1`, `/dev/sda2` e `/dev/sda3`. Assicurati di selezionare la partizione corretta prima di montarla. L’output di `fdisk -l` ti aiuta a evitare errori mostrando chiaramente quali dati sono su quale disco. Esempio:
+In questo esempio, il disco `/dev/sda` ha tre partizioni: `/dev/sda1`, `/dev/sda2` e `/dev/sda3`. Assicurati di selezionare la partizione corretta prima di montarla. L’output di `fdisk -l` ti aiuta a evitare errori mostrando chiaramente quale disco contiene quali dati. Esempio:
 
 ```
 Disk /dev/sda: 111.76 GiB, 119998201240 bytes, 234373120 sectors
@@ -64,7 +64,7 @@ Device        Boot   Start       End   Sectors   Size Type
 /dev/sda3           3147776 234440703 231292928   110G Linux LVM
 ```
 
-Dopo aver identificato la partizione giusta, il passo successivo è creare una cartella che farà da punto di mount, cioè il luogo dove la partizione sarà accessibile. Poi monta la partizione in questa cartella. È consigliato montare in **modalità sola lettura** per garantire un accesso sicuro ai dati.
+Una volta identificata la partizione giusta, il passo successivo è creare una directory che sarà il punto di mount, cioè il luogo dove la partizione sarà accessibile. Poi monta la partizione in questa directory. È consigliato montare in **modalità sola lettura** per garantire un accesso sicuro ai dati.
 
 Per creare il punto di mount e montare la partizione, usa questi comandi:
 
@@ -73,15 +73,37 @@ mkdir /mnt/rescue
 mount -o ro /dev/sdaX /mnt/rescue
 ```
 
-Sostituisci `/dev/sdaX` con l’identificativo corretto della partizione trovato con `fdisk -l`. Nell’esempio, `/dev/sda2` sarebbe la partizione giusta per il nostro disco.
+Sostituisci `/dev/sdaX` con l’identificativo corretto della partizione trovato con `fdisk -l`. Nell’esempio, `/dev/sda2` sarebbe la partizione giusta.
+
+
+
+## Configurare la rete
+
+La rete non si configura automaticamente. Per stabilire la connettività, i parametri base di rete devono essere impostati manualmente. Prima di assegnare un indirizzo IP, è consigliato verificare il nome della scheda di rete. Di solito si chiama **ens18**, ma può variare. Puoi controllare con il comando `ip a`.
+
+Una volta che conosci la scheda corretta, puoi assegnare manualmente un indirizzo IP. Esempio per configurare un indirizzo in una subnet locale:
+
+```
+ip addr add <IP>/24 dev <adapter>
+```
+
+Sostituisci `<IP>` con l’indirizzo desiderato e `<adapter>` con il nome della scheda, di solito `ens18`. Per far sì che il sistema possa instradare il traffico correttamente, devi aggiungere anche un gateway di default:
+
+```
+ip route add default via <gateway>
+```
+
+Sostituisci `<gateway>` con l’indirizzo del gateway valido della tua rete. Dopo questi passaggi, la configurazione di rete è attiva e puoi testare la connettività, per esempio pingando un host esterno.
+
+
 
 ## Configurare il firewall
 
-Per motivi di sicurezza, SystemRescue attiva il firewall di default. Questo significa che tutte le connessioni in entrata sono bloccate per proteggere il sistema da accessi non autorizzati.
+Per motivi di sicurezza, SystemRescue attiva il firewall di default. Questo significa che tutte le connessioni in ingresso sono bloccate per proteggere il sistema da accessi non autorizzati.
 
-Tuttavia, in questo caso devi permettere una connessione dal tuo PC locale al server SFTP che gira su SystemRescue. Per farlo, devi configurare il firewall per consentire il traffico SFTP oppure disabilitarlo temporaneamente.
+Tuttavia, in questo caso devi permettere una connessione dalla tua macchina locale al server SFTP che gira su SystemRescue. Per farlo, devi configurare il firewall per consentire il traffico SFTP oppure disabilitarlo temporaneamente.
 
-Se sei in una rete fidata, la soluzione più semplice e veloce è fermare il servizio firewall in SystemRescue con questo comando:
+Se lavori in una rete affidabile, la soluzione più semplice e veloce è fermare il servizio firewall in SystemRescue con questo comando:
 
 ```
 systemctl stop iptables
@@ -104,25 +126,25 @@ passwd: password updated successfully
 
 ## Trasferimento dati
 
-Ora sei pronto per fare il backup dei dati. Apri il client FTP che preferisci e connettiti al server. Assicurati di selezionare `SFTP` come protocollo di trasferimento. Per hostname inserisci l’`indirizzo IP` del server, usa la porta `21` e accedi con username `root` e la `password` che hai appena impostato.
+Ora sei pronto per fare il backup dei tuoi dati. Apri un client FTP a tua scelta e connettiti al server. Assicurati di selezionare `SFTP` come protocollo di trasferimento. Per l’hostname inserisci l’`indirizzo IP` del server, usa la porta `21` e accedi con username `root` e la `password` che hai impostato.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/armZ9db3nXsJW2o/download)
 
 Quando ti connetti a un server via **SFTP** per la prima volta, WinSCP mostra questo prompt di sicurezza. L’avviso appare perché la **host key** del server non è ancora salvata nella cache locale.
 
-In questo caso, se sai che l’IP è corretto e hai avviato tu la connessione, **è sicuro fidarsi del server**. Clicca semplicemente su **"Yes"** per confermare. Così la chiave del server sarà salvata nella cache e non ti verrà più chiesto in futuro.
+In questo caso, se sai che l’IP è corretto e hai avviato la connessione intenzionalmente, **è sicuro fidarsi del server**. Clicca semplicemente su **"Yes"** per confermare. Questo aggiungerà la chiave del server alla cache così non ti verrà più chiesto per questo server in futuro.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/y5353jyzky67LxB/preview)
 
-Ora che sei connesso, naviga nella **cartella rescue** che hai creato prima. Da lì potrai accedere ai tuoi file e iniziare a scaricarli sul tuo PC. Sfoglia le cartelle, seleziona i dati da salvare e trasferiscili in modo sicuro via SFTP.
+Ora che sei connesso, naviga nella **directory rescue** che hai creato prima. Da lì potrai accedere ai tuoi file e iniziare a scaricarli sul tuo PC. Sfoglia le cartelle, seleziona i dati da salvare e trasferiscili in modo sicuro via SFTP.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/QiS4wiTWXx6g8aT/download)
 
 ## Conclusione
 
-Hai appena recuperato e fatto il backup dei tuoi file importanti.  
-I tuoi dati sono al sicuro e pronti per essere ripristinati quando vuoi. Ora puoi procedere con altre azioni, come reinstallare il server, riparare il sistema o migrare i dati in un nuovo ambiente.
+Hai appena recuperato e fatto il backup dei tuoi file importanti.
+Questo significa che i tuoi dati sono al sicuro e pronti per essere ripristinati quando vuoi. A questo punto puoi procedere con altre azioni, come reinstallare il server, riparare il sistema o migrare i dati in un nuovo ambiente.
 
-Per qualsiasi domanda o supporto, non esitare a contattare il nostro team di assistenza, disponibile ogni giorno per aiutarti! 🙂
+Per domande o supporto, non esitare a contattare il nostro team di assistenza, disponibile ogni giorno per aiutarti! 🙂
 
 <InlineVoucher />
