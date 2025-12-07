@@ -1544,7 +1544,7 @@
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-satisfactory": {
-    "message": "Satisfactory",
+    "message": "サティスファクトリー",
     "description": "The label for category 'Satisfactory' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-satisfactory": {
@@ -1572,7 +1572,7 @@
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-scp-containment-breach": {
-    "message": "SCP: Containment Breach",
+    "message": "SCP: コンテインメントブリーチ",
     "description": "The label for category 'SCP: Containment Breach' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-scp-containment-breach": {
@@ -1584,7 +1584,7 @@
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-scp-escape-together": {
-    "message": "SCP: Escape Together",
+    "message": "SCP: エスケープトゥギャザー",
     "description": "The label for category 'SCP: Escape Together' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-scp-escape-together": {
@@ -1632,7 +1632,7 @@
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-soldat": {
-    "message": "Soldat",
+    "message": "ソルダット",
     "description": "The label for category 'Soldat' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-soldat": {
@@ -1644,7 +1644,7 @@
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-sons-of-the-forest": {
-    "message": "Sons of the Forest",
+    "message": "サンズ・オブ・ザ・フォレスト",
     "description": "The label for category 'Sons of the Forest' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-sons-of-the-forest": {
@@ -1656,7 +1656,7 @@
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-soulmask": {
-    "message": "Soulmask",
+    "message": "ソウルマスク",
     "description": "The label for category 'Soulmask' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-soulmask": {
@@ -1672,7 +1672,7 @@
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-space-engineers": {
-    "message": "Space Engineers",
+    "message": "スペースエンジニアーズ",
     "description": "The label for category 'Space Engineers' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-space-engineers": {
@@ -1688,7 +1688,7 @@
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-squad": {
-    "message": "Squad",
+    "message": "スクワッド",
     "description": "The label for category 'Squad' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-squad": {
@@ -1700,7 +1700,7 @@
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-starbound": {
-    "message": "Starbound",
+    "message": "スターバウンド",
     "description": "The label for category 'Starbound' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-starbound": {
@@ -1712,7 +1712,7 @@
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-starmade": {
-    "message": "StarMade",
+    "message": "スターメイド",
     "description": "The label for category 'Starmade' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-starmade": {
@@ -1724,7 +1724,7 @@
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-staxel": {
-    "message": "Staxel",
+    "message": "スタクセル",
     "description": "The label for category 'Staxel' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-staxel": {
@@ -1736,7 +1736,7 @@
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-stormworks": {
-    "message": "Stormworks",
+    "message": "ストームワークス",
     "description": "The label for category 'Stormworks' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-stormworks": {
@@ -1752,7 +1752,7 @@
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-subsistence": {
-    "message": "Subsistence",
+    "message": "サブシステンス",
     "description": "The label for category 'Subsistence' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-subsistence": {
@@ -1764,7 +1764,7 @@
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-sunkenland": {
-    "message": "Sunken Land",
+    "message": "サンケンランド",
     "description": "The label for category 'Sunkenland' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-sunkenland": {
@@ -1776,7 +1776,7 @@
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-team-fortress-2": {
-    "message": "Team Fortress 2",
+    "message": "チームフォートレス2",
     "description": "The label for category 'Team Fortress 2' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-team-fortress-2": {
@@ -1792,7 +1792,7 @@
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-teeworlds": {
-    "message": "T-Worlds",
+    "message": "T-ワールズ",
     "description": "The label for category 'Teeworlds' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-teeworlds": {
@@ -1804,7 +1804,7 @@
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-terraria": {
-    "message": "Terraria",
+    "message": "テラリア",
     "description": "The label for category 'Terraria' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-terraria": {
@@ -1820,7 +1820,7 @@
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-terratech-worlds": {
-    "message": "TerraTech Worlds",
+    "message": "テラテックワールズ",
     "description": "The label for category 'Terratech Worlds' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-terratech-worlds": {
@@ -1832,7 +1832,7 @@
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-the-bus": {
-    "message": "The Bus",
+    "message": "ザ・バス",
     "description": "The label for category 'The Bus' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-the-bus": {
@@ -1844,7 +1844,7 @@
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-the-front": {
-    "message": "The Front",
+    "message": "ザ・フロント",
     "description": "The label for category 'The Front' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-the-front": {
@@ -1856,7 +1856,7 @@
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-the-isle": {
-    "message": "The Isle",
+    "message": "ザ・アイル",
     "description": "The label for category 'The Isle' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-the-isle": {
@@ -1868,7 +1868,7 @@
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-the-lord-of-the-rings-rtm": {
-    "message": "The Lord of the Rings: RTM",
+    "message": "ザ・ロード・オブ・ザ・リングス: RTM",
     "description": "The label for category 'The Lord of the Rings: RTM' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-the-lord-of-the-rings-rtm": {
@@ -1880,7 +1880,7 @@
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-unfortunate-spacemen": {
-    "message": "Unfortunate Spacemen",
+    "message": "アンフォーチュネイト・スペースメン",
     "description": "The label for category 'Unfortunate Spacemen' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-unfortunate-spacemen": {
@@ -1892,7 +1892,7 @@
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-unturned": {
-    "message": "Unturned",
+    "message": "アンターンド",
     "description": "The label for category 'Unturned' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-unturned": {
@@ -1904,7 +1904,7 @@
     "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-rocketmod-unturned": {
-    "message": "RocketMod",
+    "message": "ロケットモッド",
     "description": "The label for category 'RocketMod' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-unturned": {
@@ -1928,7 +1928,7 @@
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-vein": {
-    "message": "Vain",
+    "message": "ヴェイン",
     "description": "The label for category 'Vein' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-vein": {
@@ -1940,7 +1940,7 @@
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-veloren": {
-    "message": "Veloren",
+    "message": "ヴェロレン",
     "description": "The label for category 'Veloren' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-veloren": {
@@ -1952,7 +1952,7 @@
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-vintage-story": {
-    "message": "Vintage Story",
+    "message": "ヴィンテージストーリー",
     "description": "The label for category 'Vintage Story' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-vintage-story": {
@@ -1964,7 +1964,7 @@
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-voyagers-of-nera": {
-    "message": "Voyagers of Neera",
+    "message": "ヴォイジャーズ・オブ・ニア",
     "description": "The label for category 'Voyagers of Nera' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-voyagers-of-nera": {
@@ -1976,7 +1976,7 @@
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-v-rising": {
-    "message": "V Rising",
+    "message": "Vライジング",
     "description": "The label for category 'V Rising' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-v-rising": {
@@ -1992,7 +1992,7 @@
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-wreckfest": {
-    "message": "RecFest",
+    "message": "レックフェスト",
     "description": "The label for category 'Wreckfest' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-wreckfest": {
@@ -2004,7 +2004,7 @@
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-wreckfest-2": {
-    "message": "RecFest 2",
+    "message": "レックフェスト2",
     "description": "The label for category 'Wreckfest 2' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-wreckfest-2": {
@@ -2016,7 +2016,7 @@
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-wurm-unlimited": {
-    "message": "Wurm Unlimited",
+    "message": "ウルムアンリミテッド",
     "description": "The label for category 'Wurm Unlimited' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-wurm-unlimited": {
@@ -2032,11 +2032,11 @@
     "description": "The label for category 'Troubleshooting' in sidebar 'vpsrootSidebar'"
   },
   "sidebar.vpsrootSidebar.category.vserver-general": {
-    "message": "General",
+    "message": "一般",
     "description": "The label for category 'General' in sidebar 'vpsrootSidebar'"
   },
   "sidebar.vpsrootSidebar.category.vserver-linux-services": {
-    "message": "Service",
+    "message": "サービス",
     "description": "The label for category 'Services' in sidebar 'vpsrootSidebar'"
   },
   "sidebar.vpsrootSidebar.category.vserver-linux-dedicated-game-servers": {
@@ -2044,7 +2044,7 @@
     "description": "The label for category 'Dedicated Game Servers' in sidebar 'vpsrootSidebar'"
   },
   "sidebar.vpsrootSidebar.category.vserver-linux-dedicated-game-servers-general": {
-    "message": "General",
+    "message": "一般",
     "description": "The label for category 'General' in sidebar 'vpsrootSidebar'"
   },
   "sidebar.vpsrootSidebar.category.vserver-linux-troubleshooting": {
@@ -2052,11 +2052,11 @@
     "description": "The label for category 'Troubleshooting' in sidebar 'vpsrootSidebar'"
   },
   "sidebar.vpsrootSidebar.category.vserver-windows-general": {
-    "message": "General",
+    "message": "一般",
     "description": "The label for category 'General' in sidebar 'vpsrootSidebar'"
   },
   "sidebar.vpsrootSidebar.category.vserver-windows-services": {
-    "message": "Service",
+    "message": "サービス",
     "description": "The label for category 'Services' in sidebar 'vpsrootSidebar'"
   },
   "sidebar.vpsrootSidebar.category.vserver-windows-dedicated-game-servers": {
@@ -2064,7 +2064,7 @@
     "description": "The label for category 'Dedicated Game Servers' in sidebar 'vpsrootSidebar'"
   },
   "sidebar.vpsrootSidebar.category.vserver-windows-dedicated-game-servers-general": {
-    "message": "General",
+    "message": "一般",
     "description": "The label for category 'General' in sidebar 'vpsrootSidebar'"
   },
   "sidebar.vpsrootSidebar.category.vserver-windows-troubleshooting": {
@@ -2084,11 +2084,11 @@
     "description": "The label for category 'Install Ubuntu' in sidebar 'dedicatedserverSidebar'"
   },
   "sidebar.dedicatedserverSidebar.category.dedicated-server-linux-general": {
-    "message": "General",
+    "message": "一般",
     "description": "The label for category 'General' in sidebar 'dedicatedserverSidebar'"
   },
   "sidebar.dedicatedserverSidebar.category.dedicated-server-linux-services": {
-    "message": "Service",
+    "message": "サービス",
     "description": "The label for category 'Services' in sidebar 'dedicatedserverSidebar'"
   },
   "sidebar.dedicatedserverSidebar.category.dedicated-server-linux-dedicated-game-servers": {
@@ -2096,7 +2096,7 @@
     "description": "The label for category 'Dedicated Game Servers' in sidebar 'dedicatedserverSidebar'"
   },
   "sidebar.dedicatedserverSidebar.category.dedicated-linux-dedicated-game-servers-general": {
-    "message": "General",
+    "message": "一般",
     "description": "The label for category 'General' in sidebar 'dedicatedserverSidebar'"
   },
   "sidebar.dedicatedserverSidebar.category.dedicated-server-linux-security": {
@@ -2104,11 +2104,11 @@
     "description": "The label for category 'Security' in sidebar 'dedicatedserverSidebar'"
   },
   "sidebar.dedicatedserverSidebar.category.dedicated-server-windows-general": {
-    "message": "General",
+    "message": "一般",
     "description": "The label for category 'General' in sidebar 'dedicatedserverSidebar'"
   },
   "sidebar.dedicatedserverSidebar.category.dedicated-server-windows-services": {
-    "message": "Service",
+    "message": "サービス",
     "description": "The label for category 'Services' in sidebar 'dedicatedserverSidebar'"
   },
   "sidebar.dedicatedserverSidebar.category.dedicated-server-windows-dedicated-game-servers": {
@@ -2116,7 +2116,7 @@
     "description": "The label for category 'Dedicated Game Servers' in sidebar 'dedicatedserverSidebar'"
   },
   "sidebar.dedicatedserverSidebar.category.dedicated-windows-dedicated-game-servers-general": {
-    "message": "General",
+    "message": "一般",
     "description": "The label for category 'General' in sidebar 'dedicatedserverSidebar'"
   },
   "sidebar.dedicatedserverSidebar.category.dedicated-server-windows-troubleshooting": {
