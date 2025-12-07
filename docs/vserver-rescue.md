@@ -75,6 +75,28 @@ mount -o ro /dev/sdaX /mnt/rescue
 
 Replace `/dev/sdaX` with the correct partition identifier you found using `fdisk -l`. In this example, `/dev/sda2` would be the correct partition for our disk.
 
+
+
+## Configuring the network
+
+The network is not configured automatically. To establish connectivity, the basic network parameters must be set manually. Before assigning an IP address, it is recommended to verify the name of the network adapter. In most cases the adapter is named **ens18**, although this may vary. You can check this by executing the `ip a` command.
+
+Once the correct adapter is known, an IP address can be assigned manually. Example for configuring an address in a local subnet:
+
+```
+ip addr add <IP>/24 dev <adapter>
+```
+
+Replace `<IP>` with the desired address and `<adapter>` with the detected device name, typically `ens18`. To ensure the system can route traffic properly, a default gateway must also be added:
+
+```
+ip route add default via <gateway>
+```
+
+Replace `<gateway>` with the valid gateway address of your network. After completing these steps, the network configuration is active and connectivity can be tested, for example by pinging an external host.
+
+
+
 ## Configuring the firewall
 
 For security reasons, SystemRescue enables its firewall by default. This means all incoming connections are blocked to protect the system from unauthorized access.
