@@ -76,7 +76,7 @@
     "description": "The label of footer link with label=Ticketsupport linking to https://zap-hosting.com/en/customer/support/"
   },
   "link.item.label.Server Status": {
-    "message": "Status do Servidor",
+    "message": "Status do servidor",
     "description": "The label of footer link with label=Server Status linking to https://status.zap-hosting.com/"
   },
   "link.item.label.Smokeping": {
@@ -84,7 +84,7 @@
     "description": "The label of footer link with label=Smokeping linking to https://smoky.zap-hosting.com/smokeping/"
   },
   "link.item.label.Terms of Service": {
-    "message": "Termos de Serviço",
+    "message": "Termos de serviço",
     "description": "The label of footer link with label=Terms of Service linking to https://zap-hosting.com/en/terms/"
   },
   "link.item.label.Imprint": {
@@ -92,7 +92,7 @@
     "description": "The label of footer link with label=Imprint linking to https://zap-hosting.com/en/imprint/"
   },
   "link.item.label.Privacy Policy": {
-    "message": "Política de Privacidade",
+    "message": "Política de privacidade",
     "description": "The label of footer link with label=Privacy Policy linking to https://zap-hosting.com/en/privacy-policy/"
   },
   "link.item.label.Security": {

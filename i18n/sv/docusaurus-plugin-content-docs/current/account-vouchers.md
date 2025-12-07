@@ -1,0 +1,79 @@
+---
+id: account-vouchers
+title: "Vouchers & Rabattkoder: Spara pengar med vouchers"
+description: "Upptäck hur du löser in voucher- och rabattkoder för att lägga till ZAP Coins eller spara på serverbeställningar → Lär dig mer nu"
+sidebar_label: Kuponger & Koder
+---
+
+## Introduktion
+Hittade du en voucher-kod som du vill lösa in som pengar till din cashbox (ZAP Coins) eller använda som rabatt på en av dina servrar? Kolla igenom den här guiden för att förstå hur du löser in den aktuella rabattkoden.
+
+För att börja bör du logga in eller registrera dig på vår webbplats för att kunna använda koder. Det går snabbt och enkelt via inloggningspanelen högst upp.
+
+![](https://github.com/zaphosting/docs/assets/42719082/f81bcb46-2129-47c9-ab98-90b746e01fd0)
+
+
+
+Så fort du är inloggad landar du automatiskt i ditt webbgränssnitt. För att kunna använda en kod bör du först ta reda på vilken typ av kod du vill lösa in.
+
+Det finns två olika typer av kupongkoder:
+- Koder som ökar dina ZAP Coins (**voucher-koder**)
+- Koder som sänker priset på en beställning (**rabattkoder**)
+
+## Voucher ZAP Coin-koder
+Voucher ZAP Coin-koder kan lösas in väldigt enkelt via ditt webbgränssnitt. Gå helt enkelt till din **Cashbox** genom att klicka på texten ZAP Coins högst upp i webbgränssnittet.
+
+![](https://github.com/zaphosting/docs/assets/42719082/e436f9d9-ad85-482a-90fa-03fe6cd6836e)
+
+När du är inne på din **Cashbox**-sida, scrolla ner till den blåa knappen **Använd voucher**. Tryck på knappen för att öppna en meny. 
+
+![](https://github.com/zaphosting/docs/assets/42719082/cee125ff-06b1-460b-a4d9-8c71157c50c4)
+
+
+
+Här kan du skriva in voucher-koden du fått. När du är klar, tryck på den gröna knappen **Använd voucher** för att skicka in den.
+
+![](https://github.com/zaphosting/docs/assets/42719082/0daa73de-00a6-4079-9e93-c12d9df8f222)
+
+
+
+
+Om vouchern var giltig och korrekt får du ett lyckat meddelande som bekräftar att det fungerade.
+
+Om koden inte fungerar kan det bero på att den redan har gått ut, redan använts eller att koden inte är en voucher-kreditkod.
+
+:::tip
+Du kan också scrolla längst ner på **Cashbox** för att se vilka voucher-koder du har löst in under valfri tidsperiod.
+:::
+
+
+
+## Rabattkoder
+Rabattkoder fungerar liknande kreditkoder, men används på andra ställen i webbgränssnittet. De sänker kostnaden för paketet du vill boka under beställningsprocessen.
+
+Först, hitta produkten du vill beställa på vår webbplats och konfigurera den som du vill i vår serverkonfigurator.
+
+![](https://github.com/zaphosting/docs/assets/42719082/93fce0a9-1ff6-4878-9625-6581361324ef)
+
+
+
+När allt är korrekt konfigurerat kan du använda din kod i beställningsprocessen. Scrolla ner till botten, välj din betalningsmetod och klicka helt enkelt på texten **Lös in voucher** under ordertotalen.
+
+![](https://github.com/zaphosting/docs/assets/42719082/8e27371d-a9db-4dae-bc52-6861fcbc5598)
+
+![](https://github.com/zaphosting/docs/assets/42719082/6502ef6a-16bf-4066-a25d-58d312caa0f1)
+
+
+
+Så fort du använder vouchern ser du det nya uppdaterade priset. Om du får ett fel kan det finnas flera orsaker. Det kan vara att koden nått sin maxanvändningsgräns, att koden har gått ut eller att koden bara kan användas på vissa produkter eller betalningsmetoder. Felmeddelandet förklarar oftast vad som är problemet.
+
+:::info
+Det finns två olika rabattkoder: 
+- Koder som sänker kostnaden för den första bokade perioden
+- Koder som permanent sänker kostnader under hela löptiden
+:::
+
+## Få freebies och koder
+Vi älskar att ge tillbaka till vår ZAP Community, därför finns det många sätt att få rabatter och freebies, inklusive pengar till din cashbox, ibland gratis servrar och mycket mer!
+
+För att lära dig mer rekommenderar vi att du läser vår grymma [ZAP-Hosting Community](community-info.md)-guide som täcker alla sätt att få voucher-koder och freebies via våra sociala plattformar (och till och med genom att skriva guider för just de här ZAP-Docs du läser :) 💚

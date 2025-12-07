@@ -1,0 +1,54 @@
+---
+id: dedicated-windows-installmysql
+title: "Dedicated Server: Installazione di MySQL"
+description: "Scopri come configurare e mettere in sicurezza il tuo server database MySQL su un Dedicated Server Windows per una gestione dati affidabile → Scopri di più ora"
+sidebar_label: Installa MySQL
+services:
+  - dedicated
+---
+
+import InlineVoucher from '@site/src/components/InlineVoucher';
+
+## Introduzione
+
+Un server MySQL è necessario per varie applicazioni e può contenere dati importanti, ad esempio per un server di gioco o un sito web. Qui ti spieghiamo come configurare il tuo server database MySQL sul tuo Dedicated Server Windows.
+
+
+
+## Installazione
+
+Per prima cosa, connettiti al tuo server tramite Desktop Remoto e scarica l’ultima versione di MariaDB, che useremo come server database: [Download MariaDB](https://mariadb.org/download/?t=mariadb). 
+
+Estrai l’archivio scaricato con WinRAR o 7Zip e avvia il file di installazione con un doppio click: 
+
+![](https://screensaver01.zap-hosting.com/index.php/s/53N4nAFHyrH4y3Q/preview)
+
+Poi segui la procedura di installazione cliccando su **Next** finché non ti viene chiesto di inserire la password root:
+
+![](https://screensaver01.zap-hosting.com/index.php/s/eaPM9S8DFkyL2cK/preview)
+
+Qui puoi definire la master password per l’accesso al tuo server database. Assicurati di usare una password sicura che nessun altro conosca!
+
+:::info
+IMPORTANTE! Se vuoi accedere al database da remoto tramite Navicat, HeidiSQL o altri tool, devi attivare l’opzione **Enable access from remote machines for root user**! Per motivi di sicurezza, però, non è consigliato farlo.
+:::
+
+Poi clicca su **Next** fino alla fine dell’installazione, dove dovrai cliccare su **Install**:
+
+![](https://screensaver01.zap-hosting.com/index.php/s/btHcmpYicgiraY4/preview)
+
+Il tuo server database è ora online e pronto all’uso!
+
+## Configurazione accesso esterno
+
+Se hai abilitato "Enable access from remote machines for root user" durante l’installazione, devi anche aprire la porta MySQL **3306** nel firewall di Windows. Apri il firewall e crea una nuova regola per questa porta.
+Qui trovi la guida su come aprire le porte nel firewall:
+[Port Forwarding (Firewall)](vserver-windows-port.md)
+
+Ora puoi accedere al tuo server MySQL anche da remoto!
+
+
+
+## Conclusione
+
+Congratulazioni, hai installato con successo il server MySQL. Per qualsiasi domanda o supporto, il nostro team è sempre a disposizione ogni giorno per aiutarti! 🙂

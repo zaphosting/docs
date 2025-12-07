@@ -1,0 +1,140 @@
+---
+id: vserver-linux-bitwarden
+title: "VPS: Bitwarden auf Linux einrichten"
+description: "Entdecke, wie du Bitwarden sicher selbst hostest, um Passwörter mit Ende-zu-Ende-Verschlüsselung und starken Credential-Features zu managen → Jetzt mehr erfahren"
+sidebar_label: Bitwarden installieren
+services:
+  - vserver
+---
+
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+import InlineVoucher from '@site/src/components/InlineVoucher';
+
+## Einführung
+
+Bitwarden ist ein Open-Source-Passwortmanager für Passwörter und Passkeys, der Zero-Knowledge und Ende-zu-Ende-Verschlüsselung nutzt, um deine Daten zu schützen. Du kannst ihn als Cloud-Service nutzen oder selbst hosten – mit Features zum Generieren, Speichern und automatischen Ausfüllen starker Zugangsdaten.
+
+![img](https://screensaver01.zap-hosting.com/index.php/s/RwKmstAct5kNQwB/preview)
+
+Willst du den Service selbst hosten? Wir führen dich Schritt für Schritt durch die Einrichtung und Konfiguration und zeigen dir alles, was du beachten musst.
+
+<InlineVoucher />
+
+## Voraussetzungen
+
+Bevor du **Bitwarden** installierst, stelle sicher, dass deine Hosting-Umgebung die folgenden Anforderungen erfüllt, um eine reibungslose Installation und optimale Performance zu gewährleisten.
+
+| Hardware   | Minimum      | ZAP-Hosting Empfehlung    |
+| ---------- | ------------ | ------------------------- |
+| CPU        | 1 vCPU Kern  | 4 vCPU Kerne              |
+| RAM        | 2 GB         | 4 GB                      |
+| Speicher   | 12 GB        | 25 GB                     |
+
+Die Software benötigt alle erforderlichen Abhängigkeiten und muss auf einem unterstützten Betriebssystem laufen. Prüfe vor der Installation, ob dein Server folgende Anforderungen erfüllt:
+
+**Abhängigkeiten:** `Docker (Engine 26+ und Compose)`
+
+**Betriebssystem:** Neueste Version von Ubuntu/Debian mit Docker 26+ Support
+
+Stelle sicher, dass alle Abhängigkeiten installiert sind und das richtige Betriebssystem verwendet wird, um Kompatibilitätsprobleme bei der Bitwarden-Installation zu vermeiden.
+
+## Vorbereitung
+
+Bevor du **Bitwarden** einrichtest, solltest du dein System vorbereiten. Das bedeutet, dein Betriebssystem auf den neuesten Stand zu bringen und alle nötigen Abhängigkeiten zu installieren. So sorgst du für eine stabile Umgebung und vermeidest Probleme während oder nach der Installation.
+
+### System aktualisieren
+Damit dein System mit den aktuellsten Software- und Sicherheitsupdates läuft, solltest du zuerst ein Update durchführen. Führe dazu folgenden Befehl aus:
+
+```
+sudo apt update && sudo apt upgrade -y
+```
+So stellst du sicher, dass dein System vor der Installation die neuesten Sicherheitspatches und Softwareversionen hat.
+
+### Abhängigkeiten installieren
+Nach dem Update kannst du die nötigen Abhängigkeiten installieren. Bitwarden läuft in mehreren Docker-Containern, daher muss Docker zuerst installiert werden. Führe dazu folgende Befehle aus:
+
+```
+curl -fsSL https://get.docker.com -o get-docker.sh
+sh get-docker.sh
+```
+
+Eine ausführliche Anleitung zur Docker-Installation und Nutzung findest du in unserem [Docker](vserver-linux-docker.md) Guide.
+
+### Benutzer & Verzeichnis anlegen
+
+Es empfiehlt sich, auf deinem Linux-Server einen eigenen `bitwarden` Service-Account anzulegen, von dem aus Bitwarden installiert und betrieben wird. So bleibt deine Bitwarden-Instanz isoliert von anderen Anwendungen auf deinem Server.
+
+Lege den Benutzer bitwarden an und setze ein starkes, einzigartiges Passwort:
+
+```
+sudo adduser bitwarden
+sudo passwd bitwarden
+```
+
+Falls die Docker-Gruppe noch nicht existiert, erstelle sie und füge den bitwarden-Benutzer hinzu:
+
+```
+sudo groupadd docker
+sudo usermod -aG docker bitwarden
+```
+
+Erstelle das Arbeitsverzeichnis, setze die Rechte und weise den Besitz an bitwarden zu:
+
+```
+sudo mkdir /opt/bitwarden
+sudo chmod -R 700 /opt/bitwarden
+sudo chown -R bitwarden:bitwarden /opt/bitwarden
+```
+
+### Domain konfigurieren
+
+Standardmäßig läuft Bitwarden auf dem Host über die Ports 80 (HTTP) und 443 (HTTPS). Richte eine Domain mit DNS-Einträgen ein, die auf deinen Host zeigen, z.B. server.deinedomain.com – besonders wichtig, wenn du Bitwarden öffentlich im Internet anbietest. Vermeide es, Bitwarden im Hostnamen zu verwenden, um die Rolle oder Software deines Servers nicht zu verraten.
+
+## Installation
+
+Wenn alle Voraussetzungen erfüllt und Vorbereitungen abgeschlossen sind, kannst du mit der Installation von Bitwarden starten.
+
+Lade das Bitwarden-Installationsskript auf deinen Server und führe es aus. Dabei wird ein `./bwdata` Verzeichnis relativ zum Speicherort von `bitwarden.sh` erstellt.
+
+```
+curl -Lso bitwarden.sh "https://func.bitwarden.com/api/dl/?app=self-host&platform=linux" && chmod 700 bitwarden.sh
+./bitwarden.sh install
+```
+
+Im Installer gibst du zuerst den Domainnamen deiner Bitwarden-Instanz ein, also den konfigurierten DNS-Eintrag. Danach wählst du, ob Let’s Encrypt ein kostenloses, vertrauenswürdiges SSL-Zertifikat generieren soll. Falls ja, gibst du eine E-Mail für Ablaufbenachrichtigungen an. Falls nein, folgen Fragen zum Zertifikat.
+
+Trage deine Installations-ID und den Installationsschlüssel ein, die du bei [Bitwarden](https://bitwarden.com/host) bekommst. Wähle dann die Region US oder EU – relevant nur, wenn du eine selbst gehostete Instanz mit einem kostenpflichtigen Abo verbindest.
+
+Wenn du kein Let’s Encrypt nutzt, kannst du ein bestehendes Zertifikat verwenden, indem du die Dateien in `./bwdata/ssl/deine.domain` ablegst und angibst, ob es vertrauenswürdig ist. Alternativ kannst du ein selbstsigniertes Zertifikat generieren, was aber nur für Tests empfohlen wird. Wenn du kein Zertifikat nutzt, musst du einen HTTPS-Proxy vor die Installation setzen, sonst funktionieren Bitwarden-Anwendungen nicht.
+
+## Konfiguration
+
+Nach der Installation erledigst du die Grundkonfiguration über zwei Dateien. Bearbeite zuerst die Umgebungsdatei unter `./bwdata/env/global.override.env`. Trage dort deine SMTP-Serverdaten ein – Host, Port, SSL, Benutzername und Passwort – damit Bitwarden Verifizierungs- und Organisations-Einladungsmails verschicken kann. Falls du Zugriff auf das System-Admin-Portal brauchst, füge eine Admin-E-Mail zu `adminSettings__admins` hinzu.
+
+```
+...
+globalSettings__mail__smtp__host=<platzhalter>
+globalSettings__mail__smtp__port=<platzhalter>
+globalSettings__mail__smtp__ssl=<platzhalter>
+globalSettings__mail__smtp__username=<platzhalter>
+globalSettings__mail__smtp__password=<platzhalter>
+...
+adminSettings__admins=
+...
+```
+
+Teste die SMTP-Konfiguration mit `./bitwarden.sh checksmtp`. Bei korrekter Einrichtung bekommst du eine Erfolgsmeldung; ansonsten siehst du Hinweise zu fehlendem OpenSSL oder falschen Werten. Änderungen übernimmst du mit `./bitwarden.sh restart`.
+
+Anschließend prüfe die Installationsparameter in `./bwdata/config.yml`. Diese Datei steuert die generierten Assets und muss angepasst werden, wenn du z.B. hinter einem Proxy arbeitest oder andere Ports nutzt. Änderungen übernimmst du mit `./bitwarden.sh rebuild`.
+
+Starte die Instanz zuletzt mit `./bitwarden.sh start`. Der erste Start kann etwas dauern, da Docker die Images zieht. Mit `docker ps` kannst du prüfen, ob alle Container healthy sind. Öffne dann das Web Vault unter deiner Domain und registriere dich bei Bedarf. Für die E-Mail-Verifizierung müssen die SMTP-Variablen korrekt konfiguriert sein.
+
+## Fazit & weitere Ressourcen
+
+Glückwunsch! Du hast Bitwarden erfolgreich auf deinem VPS installiert und konfiguriert. Schau dir auch diese Ressourcen an, die dir bei der Serverkonfiguration weiterhelfen können:
+
+- [bitwarden.com](https://bitwarden.com/) – Offizielle Website
+- https://bitwarden.com/help/ – Bitwarden Help Center (Dokumentation)
+
+Du hast noch Fragen, die hier nicht beantwortet wurden? Für weitere Hilfe oder Support steht dir unser Team täglich zur Verfügung – meld dich einfach bei uns! 🙂
