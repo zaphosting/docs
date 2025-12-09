@@ -1,7 +1,7 @@
 ---
 id: vserver-introduction
 title: "VPS: Introducción"
-description: "Descubre un hosting VPS potente y económico con configuraciones flexibles para webs, bases de datos, juegos y más → Aprende más ahora"
+description: "Descubre un hosting VPS potente y asequible con configuraciones flexibles para sitios web, bases de datos, juegos y más → Aprende más ahora"
 sidebar_label: Introducción
 services:
   - vserver
@@ -13,7 +13,7 @@ import items from '@site/data/faqs/vserver-introduction-en.json';
 
 ## Introducción
 
-¿Buscas tu propio servidor con una configuración potente a un precio justo? ¡Entonces ZAP-Hosting es el lugar perfecto para ti! En ZAP-Hosting puedes alquilar o comprar tu VPS ideal para una experiencia de máximo rendimiento en muchos casos de uso.
+¿Buscas tu propio servidor con una configuración potente a un precio justo? ¡Entonces ZAP-Hosting es el lugar indicado para ti! En ZAP-Hosting puedes alquilar o comprar tu VPS ideal para una experiencia de máximo rendimiento en muchos casos de uso.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/6cCD5TmrwXgtayy/preview)
 
@@ -21,7 +21,7 @@ import items from '@site/data/faqs/vserver-introduction-en.json';
 
 ## Pedido
 
-El proceso de pedido es muy sencillo. Elige la configuración que deseas para tu [VPS](https://zap-hosting.com/en/vps-hosting/). El tiempo de configuración es de solo unos segundos. Después, puedes empezar a configurarlo de inmediato.
+El proceso de pedido es muy sencillo. Elige la configuración que deseas para tu [VPS](https://zap-hosting.com/en/vps-hosting/). El tiempo de configuración es de solo unos segundos. Después, puedes comenzar inmediatamente con la configuración.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/Lm9HpPkzZQ8NAS6/preview)
 
@@ -32,12 +32,12 @@ Ofrecemos varias opciones de configuración para nuestro producto VPS, que deber
 | Componentes | Opciones de Configuración |
 | -------------------------------- | ------------------------- |
 | **CPU** | AMD EPYC serie 7000 |
-| **Núcleos de CPU**              | hasta 64         |
-| **Memoria**              | hasta 128 GB de RAM      |
+| **Núcleos de CPU**              | 4-64 núcleos |
+| **Memoria**              | 4-128 GB de RAM     |
 | **Espacio en disco**               | 25-600 GB                                      |
-| **Sistema operativo** | Debian, Ubuntu, Windows Server y ISO personalizada |
-| **Direcciones IP** | hasta 10 direcciones IP   |
-| **Ancho de banda**     | hasta 5.000 Mbit/s subida/bajada |
+| **Sistema operativo** | Debian (11,12,13) Ubuntu (20.04,22.04,24.04), Windows Server 2022/2025 y ISOs personalizadas |
+| **Direcciones IP** | 1-10 direcciones IP  |
+| **Ancho de banda**     | 1.000-5.000 Mbit/s subida/bajada |
 | **Tráfico**                      | 33 TB/mes       |
 
 
@@ -53,7 +53,7 @@ Gracias al precio favorable, rendimiento, amplios permisos de acceso y las posib
 - ¡y más!
 
 ## Preguntas frecuentes
-¿Tienes más preguntas sobre nuestro producto VPS? Encuentra respuestas a todo lo que quieres saber sobre características, beneficios, configuración y cómo usarlo de forma efectiva. Así obtienes la info que necesitas para sacarle el máximo provecho a nuestro VPS. Y si algo sigue sin quedar claro, solo contáctanos y estamos aquí para ayudarte al instante.
+¿Tienes más preguntas sobre nuestro producto VPS? Obtén respuestas a todo lo que quieres saber sobre características, beneficios, configuración y cómo usarlo de forma efectiva. Así obtienes la info que necesitas para sacar el máximo provecho a nuestro producto VPS. Y si algo sigue sin estar claro, solo contáctanos y estamos aquí para ayudarte al instante.
 <SearchableAccordion items={items} />
 
 <InlineVoucher />

@@ -1,6 +1,6 @@
 ---
 id: vserver-introduction
-title: "vServer: Einführung"
+title: "VPS: Einführung"
 description: "Entdecke leistungsstarkes, günstiges VPS-Hosting mit flexiblen Konfigurationen für Websites, Datenbanken, Gaming und mehr → Jetzt mehr erfahren"
 sidebar_label: Einführung
 services:
@@ -21,7 +21,7 @@ Suchst du nach deinem eigenen Server mit starker Ausstattung zu einem fairen Pre
 
 ## Bestellung
 
-Der Bestellprozess ist super easy. Wähle deine Wunschkonfiguration für deinen [VPS](https://zap-hosting.com/en/vps-hosting/). Die Einrichtung dauert nur wenige Sekunden. Danach kannst du direkt mit der Konfiguration loslegen.
+Der Bestellprozess ist super easy. Wähle einfach deine Wunschkonfiguration für deinen [VPS](https://zap-hosting.com/en/vps-hosting/). Die Einrichtung dauert nur wenige Sekunden. Danach kannst du direkt mit der Konfiguration loslegen.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/Lm9HpPkzZQ8NAS6/preview)
 
@@ -32,12 +32,12 @@ Wir bieten verschiedene Konfigurationsmöglichkeiten für unser VPS-Produkt, die
 | Komponenten | Konfigurationsoptionen |
 | -------------------------------- | ------------------------- |
 | **CPU** | AMD EPYC 7000 Serie |
-| **CPU-Kerne**              | bis zu 64         |
-| **RAM**              | bis zu 128 GB RAM      |
+| **CPU-Kerne**              | 4-64 Kerne |
+| **RAM**              | 4-128 GB RAM     |
 | **Festplattenspeicher**               | 25-600 GB                                      |
-| **Betriebssystem** | Debian, Ubuntu, Windows Server und eigene ISO |
-| **IP-Adressen** | bis zu 10 IP-Adressen   |
-| **Bandbreite**     | bis zu 5.000 Mbit/s up/down |
+| **Betriebssystem** | Debian (11,12,13), Ubuntu (20.04,22.04,24.04), Windows Server 2022/2025 und eigene ISOs |
+| **IP-Adressen** | 1-10 IP-Adressen  |
+| **Bandbreite**     | 1.000-5.000 Mbit/s up/down |
 | **Traffic**                      | 33 TB/Monat       |
 
 
@@ -53,7 +53,7 @@ Dank des günstigen Preises, der starken Performance, umfangreichen Zugriffsrech
 - und mehr!
 
 ## Häufig gestellte Fragen
-Du hast noch mehr Fragen zu unserem VPS-Produkt? Hier findest du Antworten auf alles, was du über Features, Vorteile, Einrichtung und effektive Nutzung wissen willst. So bekommst du alle Infos, um das Beste aus deinem VPS rauszuholen. Und falls doch noch was unklar ist, melde dich einfach – wir helfen dir sofort weiter.
+Du hast noch mehr Fragen zu unserem VPS-Produkt? Hier bekommst du Antworten auf alles, was du über Features, Vorteile, Einrichtung und effektive Nutzung wissen willst. So hast du alle Infos, um das Beste aus deinem VPS rauszuholen. Und falls doch noch was unklar ist, melde dich einfach – wir helfen dir sofort weiter.
 <SearchableAccordion items={items} />
 
 <InlineVoucher />

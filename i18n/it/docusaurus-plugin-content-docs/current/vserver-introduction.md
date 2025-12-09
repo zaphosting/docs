@@ -1,7 +1,7 @@
 ---
 id: vserver-introduction
 title: "VPS: Introduzione"
-description: "Scopri l’hosting VPS potente e conveniente con configurazioni flessibili per siti web, database, gaming e molto altro → Scopri di più ora"
+description: "Scopri VPS potenti e convenienti con configurazioni flessibili per siti web, database, gaming e molto altro → Scopri di più ora"
 sidebar_label: Introduzione
 services:
   - vserver
@@ -13,7 +13,7 @@ import items from '@site/data/faqs/vserver-introduction-en.json';
 
 ## Introduzione
 
-Cerchi un server tutto tuo con una configurazione potente a un prezzo giusto? Allora ZAP-Hosting è il posto giusto per te! Da ZAP-Hosting puoi noleggiare o acquistare il VPS perfetto per te, per un’esperienza massima in tantissimi ambiti!
+Cerchi un server tutto tuo con una configurazione potente a un prezzo giusto? Allora ZAP-Hosting è il posto giusto per te! Da ZAP-Hosting puoi noleggiare o acquistare il VPS perfetto per un’esperienza massima in tantissimi ambiti!
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/6cCD5TmrwXgtayy/preview)
 
@@ -21,23 +21,23 @@ Cerchi un server tutto tuo con una configurazione potente a un prezzo giusto? Al
 
 ## Ordine
 
-Ordinare è super semplice. Scegli la configurazione che vuoi per il tuo [VPS](https://zap-hosting.com/en/vps-hosting/). Il setup richiede solo pochi secondi. Dopo di che puoi subito iniziare a configurarlo come vuoi.
+Ordinare è super semplice. Scegli la configurazione che vuoi per il tuo [VPS](https://zap-hosting.com/en/vps-hosting/). Il setup richiede solo pochi secondi. Dopo puoi subito partire con la configurazione.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/Lm9HpPkzZQ8NAS6/preview)
 
 ## Configurazioni
 
-Offriamo diverse opzioni di configurazione per il nostro VPS, così da adattarsi a ogni esigenza. Le nostre configurazioni generalmente includono queste opzioni:
+Offriamo diverse opzioni di configurazione per il nostro VPS, così da adattarsi a ogni esigenza. Le nostre configurazioni includono generalmente queste opzioni:
 
 | Componenti | Opzioni di Configurazione |
 | -------------------------------- | ------------------------- |
 | **CPU** | AMD EPYC serie 7000 |
-| **Core CPU**              | fino a 64         |
-| **RAM**              | fino a 128 GB      |
+| **Core CPU**              | 4-64 Core |
+| **RAM**              | 4-128 GB RAM     |
 | **Spazio disco**               | 25-600 GB                                      |
-| **Sistema operativo** | Debian, Ubuntu, Windows Server e ISO personalizzate |
-| **Indirizzi IP** | fino a 10 indirizzi IP   |
-| **Banda**     | fino a 5.000 Mbit/s in upload e download |
+| **Sistema operativo** | Debian (11,12,13), Ubuntu (20.04,22.04,24.04), Windows Server 2022/2025 e ISO personalizzate |
+| **Indirizzi IP** | 1-10 indirizzi IP  |
+| **Banda**     | 1.000-5.000 Mbit/s upload/download |
 | **Traffico**                      | 33 TB/mese       |
 
 
@@ -53,7 +53,7 @@ Grazie al prezzo vantaggioso, alle prestazioni, ai permessi di accesso estesi e 
 - e molto altro!
 
 ## Domande Frequenti
-Hai altre domande sul nostro prodotto VPS? Trova tutte le risposte su funzionalità, vantaggi, setup e come usarlo al meglio. Così hai tutte le info per sfruttare al massimo il nostro VPS. E se qualcosa non è chiaro, scrivici pure: siamo qui per aiutarti subito.
+Hai altre domande sul nostro VPS? Trova tutte le risposte su funzionalità, vantaggi, setup e come usarlo al meglio. Così hai tutte le info per sfruttare al massimo il nostro VPS. E se qualcosa non è chiaro, scrivici pure, siamo qui per aiutarti subito.
 <SearchableAccordion items={items} />
 
 <InlineVoucher />
