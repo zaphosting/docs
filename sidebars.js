@@ -60,7 +60,8 @@ const sidebars = {
       label: 'Support',
       items: [
         "contactsupport",
-        "create-screenshots"
+        "create-screenshots",
+        "session-diagnostics"
       ]
     },
     {
