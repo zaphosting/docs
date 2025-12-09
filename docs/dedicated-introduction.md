@@ -37,11 +37,12 @@ For our Dedicated Servers we offer numerous configuration variants, which means 
 
 | Components | Available options                                            |
 | ------------------- | ------------------------------------------------------------ |
-| CPU                 | AMD Ryzen 9 9950X, AMD Ryzen 7 9700X, Intel Xeon E5-2609v2, Intel Xeon E5-2640v2, Intel Xeon E5-2609v2, Intel Xeon E5-2637v2, Intel Xeon E5-2630v2, Intel Xeon E5-2650v2, Intel Xeon E5-2651v2, Intel Xeon E5-2667v2, Intel Xeon E5-2637v2, Intel Xeon E5-2680v2, Intel Xeon E5-2640v4, Intel Xeon E5-2650v4, Intel Xeon E5-2667v4, Intel Xeon E5-2680v4 |
-| RAM                 | Up to 256 GB of RAM                                          |
-| DISK                | From 500 GB up to 2x 8 TB SSD hard disk space              |
+| CPU                 | AMD Ryzen 9 9950X, AMD Ryzen 7 9700X, AMD Epyc 7443, AMD Epyc 7543, AMD Epyc 7763, Intel Xeon E5-2609v2, Intel Xeon E5-2640v2, Intel Xeon E5-2609v2, Intel Xeon E5-2637v2, Intel Xeon E5-2630v2, Intel Xeon E5-2650v2, Intel Xeon E5-2651v2, Intel Xeon E5-2667v2, Intel Xeon E5-2637v2, Intel Xeon E5-2680v2, Intel Xeon E5-2640v4, Intel Xeon E5-2650v4, Intel Xeon E5-2667v4, Intel Xeon E5-2680v4 |
+| RAM                 | 32-2048 GB RAM                                    |
+| DISK                | From 500 GB up to 2x 8 TB SSD disk space              |
+| IP-Addresses | 1-100 IP-Addresses |
+| Bandwidth | Up to 25 Gbit/s |
 | Traffic                      | 33 TB/month       |
-
 
 :::danger Looking for a custom configuration?
 We offer custom configurations directly through our order page. Simply select the custom configuration option there to access the form and specify your individual requirements.
@@ -61,5 +62,4 @@ Due to the performance, the comprehensive permissions and the resulting possibil
 ## Frequently Asked Questions
 Got more questions about our Dedicated Server product? Get answers to everything you want to know about features, benefits, setup and how to use it effectively. This way you get the info you need to make the most of our Dedicated Server product. And if something is still unclear, just reach out and we are here to help you right away.
 <SearchableAccordion items={items} />
-
 

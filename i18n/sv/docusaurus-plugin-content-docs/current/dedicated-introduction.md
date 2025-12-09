@@ -25,7 +25,7 @@ Till skillnad från en virtuell server får du med en dedikerad server din egen 
 
 ## Beställning
 
-Beställningsprocessen är superenkel. Välj din önskade konfiguration för din [Dedikerade Server](https://zap-hosting.com/en/dedicated-server-hosting/). Uppstartstiden för den dedikerade servern beror på tillgängligheten. Du kan kolla detta genom att titta på statusikonen bredvid flaggan för varje konfiguration. Status **Grön** betyder att konfigurationen finns tillgänglig och är redo inom några minuter. Om status **Orange** visas för konfigurationen är den inte omedelbart tillgänglig och måste byggas ihop. Uppstartstiden är ungefär 5 arbetsdagar (måndag-fredag).
+Beställningsprocessen är superenkel. Välj din önskade konfiguration för din [Dedikerade Server](https://zap-hosting.com/en/dedicated-server-hosting/). Uppstartstiden för den dedikerade servern beror på tillgängligheten. Du kan kolla detta genom att titta på statusikonen bredvid flaggan för varje konfiguration. Status **Grön** betyder att konfigurationen är tillgänglig och klar inom några minuter. Om status **Orange** visas för konfigurationen är den inte omedelbart tillgänglig och måste byggas ihop. Uppstartstiden är ungefär 5 arbetsdagar (måndag-fredag).
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/SD6jF4MENeqaJFZ/preview)
 
@@ -37,11 +37,12 @@ För våra dedikerade servrar erbjuder vi massor av konfigurationsvarianter, så
 
 | Komponenter | Tillgängliga alternativ                                            |
 | ------------------- | ------------------------------------------------------------ |
-| CPU                 | AMD Ryzen 9 9950X, AMD Ryzen 7 9700X, Intel Xeon E5-2609v2, Intel Xeon E5-2640v2, Intel Xeon E5-2609v2, Intel Xeon E5-2637v2, Intel Xeon E5-2630v2, Intel Xeon E5-2650v2, Intel Xeon E5-2651v2, Intel Xeon E5-2667v2, Intel Xeon E5-2637v2, Intel Xeon E5-2680v2, Intel Xeon E5-2640v4, Intel Xeon E5-2650v4, Intel Xeon E5-2667v4, Intel Xeon E5-2680v4 |
-| RAM                 | Upp till 256 GB RAM                                          |
-| DISK                | Från 500 GB upp till 2x 8 TB SSD-lagring              |
+| CPU                 | AMD Ryzen 9 9950X, AMD Ryzen 7 9700X, AMD Epyc 7443, AMD Epyc 7543, AMD Epyc 7763, Intel Xeon E5-2609v2, Intel Xeon E5-2640v2, Intel Xeon E5-2609v2, Intel Xeon E5-2637v2, Intel Xeon E5-2630v2, Intel Xeon E5-2650v2, Intel Xeon E5-2651v2, Intel Xeon E5-2667v2, Intel Xeon E5-2637v2, Intel Xeon E5-2680v2, Intel Xeon E5-2640v4, Intel Xeon E5-2650v4, Intel Xeon E5-2667v4, Intel Xeon E5-2680v4 |
+| RAM                 | 32-2048 GB RAM                                    |
+| DISK                | Från 500 GB upp till 2x 8 TB SSD lagringsutrymme              |
+| IP-adresser | 1-100 IP-adresser |
+| Bandbredd | Upp till 25 Gbit/s |
 | Trafik                      | 33 TB/månad       |
-
 
 :::danger Letar du efter en skräddarsydd konfiguration?
 Vi erbjuder skräddarsydda konfigurationer direkt via vår beställningssida. Välj bara alternativet för anpassad konfiguration där för att komma åt formuläret och specificera dina individuella krav.
@@ -59,5 +60,5 @@ Tack vare prestandan, de omfattande rättigheterna och de möjligheter det ger k
 - Virtualiseringar
 
 ## Vanliga frågor
-Har du fler frågor om vår dedikerade server? Få svar på allt du vill veta om funktioner, fördelar, setup och hur du använder den effektivt. På så sätt får du all info du behöver för att maxa din dedikerade server. Och om något fortfarande är oklart, hör bara av dig så hjälper vi dig direkt.
+Har du fler frågor om vår produkt Dedikerad Server? Få svar på allt du vill veta om funktioner, fördelar, uppstart och hur du använder den effektivt. På så sätt får du all info du behöver för att maxa din upplevelse med vår dedikerade server. Och om något fortfarande är oklart, hör bara av dig så hjälper vi dig direkt.
 <SearchableAccordion items={items} />

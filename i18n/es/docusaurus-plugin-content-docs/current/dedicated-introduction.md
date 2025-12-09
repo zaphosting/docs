@@ -37,11 +37,12 @@ Para nuestros servidores dedicados ofrecemos numerosas variantes de configuraci�
 
 | Componentes | Opciones disponibles                                            |
 | ------------------- | ------------------------------------------------------------ |
-| CPU                 | AMD Ryzen 9 9950X, AMD Ryzen 7 9700X, Intel Xeon E5-2609v2, Intel Xeon E5-2640v2, Intel Xeon E5-2609v2, Intel Xeon E5-2637v2, Intel Xeon E5-2630v2, Intel Xeon E5-2650v2, Intel Xeon E5-2651v2, Intel Xeon E5-2667v2, Intel Xeon E5-2637v2, Intel Xeon E5-2680v2, Intel Xeon E5-2640v4, Intel Xeon E5-2650v4, Intel Xeon E5-2667v4, Intel Xeon E5-2680v4 |
-| RAM                 | Hasta 256 GB de RAM                                          |
+| CPU                 | AMD Ryzen 9 9950X, AMD Ryzen 7 9700X, AMD Epyc 7443, AMD Epyc 7543, AMD Epyc 7763, Intel Xeon E5-2609v2, Intel Xeon E5-2640v2, Intel Xeon E5-2609v2, Intel Xeon E5-2637v2, Intel Xeon E5-2630v2, Intel Xeon E5-2650v2, Intel Xeon E5-2651v2, Intel Xeon E5-2667v2, Intel Xeon E5-2637v2, Intel Xeon E5-2680v2, Intel Xeon E5-2640v4, Intel Xeon E5-2650v4, Intel Xeon E5-2667v4, Intel Xeon E5-2680v4 |
+| RAM                 | 32-2048 GB de RAM                                    |
 | DISCO               | Desde 500 GB hasta 2x 8 TB de almacenamiento SSD              |
+| Direcciones IP      | 1-100 direcciones IP |
+| Ancho de banda      | Hasta 25 Gbit/s |
 | Tráfico             | 33 TB/mes       |
-
 
 :::danger ¿Buscas una configuración personalizada?
 Ofrecemos configuraciones personalizadas directamente a través de nuestra página de pedido. Simplemente selecciona la opción de configuración personalizada para acceder al formulario y especificar tus requisitos individuales.
@@ -59,5 +60,5 @@ Gracias al rendimiento, los permisos completos y las posibilidades que esto ofre
 - Virtualizaciones
 
 ## Preguntas Frecuentes
-¿Tienes más preguntas sobre nuestro producto de servidor dedicado? Obtén respuestas a todo lo que quieres saber sobre características, beneficios, configuración y cómo usarlo de forma efectiva. Así obtienes la info que necesitas para aprovechar al máximo nuestro producto de servidor dedicado. Y si algo sigue sin quedar claro, solo contáctanos y estamos aquí para ayudarte al instante.
+¿Tienes más preguntas sobre nuestro producto de servidor dedicado? Obtén respuestas a todo lo que quieres saber sobre características, beneficios, configuración y cómo usarlo de forma efectiva. Así obtienes la info que necesitas para sacarle el máximo provecho a nuestro producto de servidor dedicado. Y si algo sigue sin quedar claro, solo contáctanos y estamos aquí para ayudarte al instante.
 <SearchableAccordion items={items} />

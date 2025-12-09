@@ -1,7 +1,7 @@
 ---
 id: vserver-introduction
 title: "VPS : Introduction"
-description: "Découvre l’hébergement VPS puissant et abordable avec des configurations flexibles pour sites web, bases de données, gaming, et plus → En savoir plus maintenant"
+description: "Découvrez l’hébergement VPS puissant et abordable avec des configurations flexibles pour sites web, bases de données, gaming, et plus encore → En savoir plus maintenant"
 sidebar_label: Introduction
 services:
   - vserver
@@ -13,7 +13,7 @@ import items from '@site/data/faqs/vserver-introduction-en.json';
 
 ## Introduction
 
-Tu cherches ton propre serveur avec une config puissante à un prix juste ? Alors ZAP-Hosting est fait pour toi ! Chez ZAP-Hosting, tu peux louer ou acheter ton VPS adapté pour une expérience ultra performante dans plein d’utilisations différentes !
+Tu cherches ton propre serveur avec une config puissante à un prix juste ? Alors ZAP-Hosting est fait pour toi ! Chez ZAP-Hosting, tu peux louer ou acheter ton VPS adapté pour une expérience ultra-performante dans plein de cas d’usage !
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/6cCD5TmrwXgtayy/preview)
 
@@ -27,24 +27,24 @@ Le processus de commande est super simple. Choisis la configuration que tu veux 
 
 ## Configurations
 
-On propose plusieurs options de configuration pour notre produit VPS, qui conviennent à tous les usages. Nos configs comprennent généralement les options suivantes :
+On propose plusieurs options de configuration pour notre produit VPS, pour coller à tous les besoins. Nos configs comprennent généralement les options suivantes :
 
 | Composants | Options de configuration |
 | -------------------------------- | ------------------------- |
 | **CPU** | AMD EPYC série 7000 |
-| **Cœurs CPU**              | jusqu’à 64         |
-| **RAM**              | jusqu’à 128 Go RAM      |
+| **Cœurs CPU**              | 4-64 cœurs |
+| **Mémoire**              | 4-128 Go RAM     |
 | **Espace disque**               | 25-600 Go                                      |
-| **Système d’exploitation** | Debian, Ubuntu, Windows Server et ISO personnalisée |
-| **Adresses IP** | jusqu’à 10 adresses IP   |
-| **Bande passante**     | jusqu’à 5 000 Mbit/s en up/down |
+| **Système d’exploitation** | Debian (11,12,13), Ubuntu (20.04,22.04,24.04), Windows Server 2022/2025 et ISOs personnalisées |
+| **Adresses IP** | 1-10 adresses IP  |
+| **Bande passante**     | 1.000-5.000 Mbit/s en up/down |
 | **Trafic**                      | 33 To/mois       |
 
 
 
 ## Domaines d’application
 
-Grâce au prix avantageux, à la performance, aux accès étendus et aux possibilités associées, un hébergement web peut être utilisé pour plusieurs domaines d’application, notamment :
+Grâce au prix avantageux, à la performance, aux accès étendus, et aux possibilités associées, un VPS peut être utilisé pour plusieurs domaines, notamment :
 
 - Sites web
 - Bases de données

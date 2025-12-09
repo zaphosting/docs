@@ -27,24 +27,24 @@ Het bestelproces is super simpel. Kies je gewenste configuratie voor je [VPS](ht
 
 ## Configuraties
 
-We bieden verschillende configuratie-opties voor ons VPS-product, zodat er voor elke use case iets passends is. Onze configuraties bestaan doorgaans uit de volgende opties:
+We bieden verschillende configuratie-opties voor ons VPS-product, zodat er voor elke use case iets passends is. Onze configuraties bestaan over het algemeen uit de volgende opties:
 
 | Componenten | Configuratie-opties |
 | -------------------------------- | ------------------------- |
 | **CPU** | AMD EPYC 7000-serie |
-| **CPU Cores**              | tot 64         |
-| **Geheugen**              | tot 128 GB RAM      |
+| **CPU Cores**              | 4-64 cores |
+| **Geheugen**              | 4-128 GB RAM     |
 | **Opslagruimte**               | 25-600 GB                                      |
-| **Besturingssysteem** | Debian, Ubuntu, Windows Server en custom ISO |
-| **IP-adressen** | tot 10 IP-adressen   |
-| **Bandbreedte**     | tot 5.000 Mbit/s up/down |
+| **Besturingssysteem** | Debian (11,12,13), Ubuntu (20.04,22.04,24.04), Windows Server 2022/2025 en custom ISO’s |
+| **IP-adressen** | 1-10 IP-adressen  |
+| **Bandbreedte**     | 1.000-5.000 Mbit/s up/down |
 | **Traffic**                      | 33 TB/maand       |
 
 
 
 ## Toepassingsgebieden
 
-Door de scherpe prijs, performance, uitgebreide toegangsrechten en de bijbehorende mogelijkheden, is een VPS geschikt voor diverse toepassingen, zoals:
+Door de scherpe prijs, performance, uitgebreide toegangsrechten en de bijbehorende mogelijkheden, is een VPS geschikt voor verschillende toepassingen, zoals:
 
 - Websites
 - Databases
@@ -53,7 +53,7 @@ Door de scherpe prijs, performance, uitgebreide toegangsrechten en de bijbehoren
 - en meer!
 
 ## Veelgestelde Vragen
-Heb je nog meer vragen over ons VPS-product? Vind antwoorden op alles wat je wilt weten over features, voordelen, installatie en hoe je het effectief gebruikt. Zo krijg je alle info die je nodig hebt om het maximale uit onze VPS te halen. En als er toch iets onduidelijk is, neem gewoon contact op, we helpen je direct verder.
+Heb je nog meer vragen over ons VPS-product? Vind antwoorden op alles wat je wilt weten over features, voordelen, installatie en hoe je het effectief gebruikt. Zo krijg je alle info die je nodig hebt om het maximale uit onze VPS te halen. En als er toch iets onduidelijk is, neem dan gewoon contact op, we helpen je direct verder.
 <SearchableAccordion items={items} />
 
 <InlineVoucher />
