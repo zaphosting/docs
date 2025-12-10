@@ -1,20 +1,86 @@
 import { createContext, useEffect, useState } from 'react';
 
+const VOUCHERS = {
+    default: {
+        code: 'docs-50',
+        value: '50',
+        type: '%',
+    },
+    vserver: {
+        code: 'docs-50',
+        value: '50',
+        type: '%',
+    },
+    dedicated: {
+        code: 'docs-10',
+        value: '10',
+        type: '%',
+    },
+    gameserver: {
+        code: 'docs-50',
+        value: '50',
+        type: '%',
+    },
+    domain: {
+        code: 'docs-10',
+        value: '10',
+        type: '%',
+    },
+    webspace: {
+        code: 'docs-50',
+        value: '50',
+        type: '%',
+    },
+    voiceserver: {
+        code: 'docs-50',
+        value: '50',
+        type: '%',
+    },
+    voicebot: {
+        code: 'docs-50',
+        value: '50',
+        type: '%',
+    },
+};
+
+export function getVoucherForServices(vouchers, services = []) {
+    if (vouchers && vouchers.code && !vouchers.default) {
+        return vouchers;
+    }
+
+    if (vouchers && typeof vouchers === 'object') {
+        if (Array.isArray(services) && services.length > 0) {
+            for (const service of services) {
+                if (vouchers[service]) {
+                    return vouchers[service];
+                }
+            }
+        }
+        
+        if (vouchers.default) {
+            return vouchers.default;
+        }
+    }
+
+    return VOUCHERS.default;
+}
+
 export const VoucherContext = createContext({
     loading: false,
     found: false,
-    voucher: null,
+    vouchers: {},
+    getVoucherForServices: getVoucherForServices,
 });
 
 export const VoucherProvider = props => {
     const [
         loading,
         setLoading,
-    ] = useState(false);
+    ] = useState(true);
 
     const [
-        voucher,
-        setVoucher,
+        vouchers,
+        setVouchers,
     ] = useState({});
 
     const [
@@ -23,45 +89,17 @@ export const VoucherProvider = props => {
     ] = useState(null);
 
     useEffect(() => {
-        const voucherRetrieval = async () => {
-            setLoading(true);
-
-            try {
-                const voucherResponse = await fetch('https://zap-hosting.com/interface/shop/_ajax/json_getDocsCoupon.php', {
-                    headers: {
-                        'X-Requested-With': 'XMLHttpRequest',
-                    },
-                });
-
-                if (!voucherResponse.ok) {
-                    throw new Error(`HTTP error! Status: ${voucherResponse.status}`);
-                }
-
-                const voucherData = await voucherResponse.json();
-
-                if (voucherData.message !== 'ok' || voucherData.result !== 'success') {
-                    throw new Error(`Successful response code with application level error: ${voucherData.message}`);
-                }
-
-                setFound(true);
-                setVoucher(voucherData.data);
-            } catch (error) {
-                console.error("Not displaying a voucher for this reason:", error); // Log the error for debugging
-                setFound(false);
-                setVoucher({});
-            } finally {
-                setLoading(false);
-            }
-        };
-
-        voucherRetrieval();
+        setVouchers(VOUCHERS);
+        setFound(true);
+        setLoading(false);
     }, []);
 
     return (
         <VoucherContext.Provider value={{
             loading: loading,
             found: found,
-            voucher: voucher,
+            vouchers: vouchers,
+            getVoucherForServices: (services) => getVoucherForServices(vouchers, services),
         }}>
             { props.children }
         </VoucherContext.Provider>
