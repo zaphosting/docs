@@ -1,7 +1,7 @@
 ---
 id: domain-handle-management
 title: "Domaine : Gestion des contacts"
-description: "Comprends comment maintenir des coordonnées de domaine précises pour la conformité et la joignabilité en gérant efficacement tes contacts de domaine → Découvre-en plus maintenant"
+description: "Comprends comment maintenir des coordonnées de domaine précises pour la conformité et la joignabilité en gérant efficacement tes contacts de domaine → Découvre-le maintenant"
 sidebar_label: Gestion des contacts
 services:
   - domain
@@ -12,6 +12,8 @@ services:
 Un **contact de domaine** est un enregistrement de données contenant les informations de contact associées à un domaine et utilisé dans les bases de données publiques WHOIS. Il identifie le propriétaire du domaine ainsi que les contacts administratifs ou techniques. Pour garder ces informations précises et à jour, tu peux gérer les contacts dans la gestion de domaine sous Gestion des contacts en modifiant ceux existants ou en créant de nouvelles entrées.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/qNEeWEnbtHyxKEe/preview)
+
+<InlineVoucher />
 
 ## Création ou modification
 

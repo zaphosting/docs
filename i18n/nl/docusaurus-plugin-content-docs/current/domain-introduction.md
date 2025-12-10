@@ -13,21 +13,23 @@ import items from '@site/data/faqs/domain-introduction-en.json';
 
 ## Introductie
 
-Ben je op zoek naar een domein voor een eerlijke prijs? Dan ben je bij ZAP-Hosting aan het juiste adres! Bij ZAP-Hosting kun je je eigen domein registreren om je online aanwezigheid te personaliseren. Je kunt het domein bijvoorbeeld gebruiken voor een website of als doorverwijzing voor een game server of voice server service.
+Ben je op zoek naar een domein tegen een eerlijke prijs? Dan ben je bij ZAP-Hosting aan het juiste adres! Bij ZAP-Hosting kun je jouw domein registreren om je online aanwezigheid te personaliseren. Je kunt het domein bijvoorbeeld gebruiken voor een website of als doorverwijzing voor een game server of voice server service.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/ESkLyeoLMTTENHG/preview)
 
+<InlineVoucher />
+
 ## Bestellen
 
-Het bestelproces is super simpel. Kies je gewenste configuratie voor je [Domein](https://zap-hosting.com/en/shop/product/domain/). De setup duurt maar een paar seconden. Daarna kun je meteen aan de slag met de configuratie. Meer info over het exacte bestelproces vind je in onze [Domein bestellen](domain-order.md) gids.
+Het bestelproces is super eenvoudig. Kies je gewenste configuratie voor je [Domein](https://zap-hosting.com/en/shop/product/domain/). De setup duurt maar een paar seconden. Daarna kun je meteen aan de slag met de configuratie. Meer info over het exacte bestelproces vind je in onze [Domein bestellen](domain-order.md) gids.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/FEN8gHSaL9i7X38/preview)
 
 ## Beschikbare domeinen
 
-We bieden een ruime keuze aan beschikbare domeinextensies. De prijzen kunnen verschillen per extensie. Hieronder vind je de meest populaire domeinen met hun prijzen, plus alle andere domeinextensies die we actief aanbieden.
+We bieden een ruime keuze aan beschikbare domeinextensies. De prijzen kunnen per extensie verschillen. Hieronder vind je de meest voorkomende domeinen met hun prijzen, plus alle andere domeinextensies die we actief aanbieden.
 
-| Populaire domeinextensies | Prijs (per jaar) |
+| Veelvoorkomende domeinextensies | Prijs (per jaar) |
 |---------------|-------|
 | .com          | 22,30 € |
 | .org          | 24,39 € |
@@ -48,7 +50,7 @@ Let op dat je bij het kiezen van de naam en domeinextensie geen premium domein s
 
 ## Toepassingsgebieden
 
-Door de scherpe prijs, eenvoudige administratie en de mogelijkheden die erbij komen kijken, kan een domein voor verschillende toepassingen worden gebruikt, zoals:
+Door de scherpe prijs, eenvoudige administratie en de mogelijkheden die erbij horen, kan een domein voor verschillende toepassingen worden gebruikt, zoals:
 
 - Websites
 - Mailservice
@@ -56,7 +58,7 @@ Door de scherpe prijs, eenvoudige administratie en de mogelijkheden die erbij ko
 - Digitale marketing en reclame
 
 ## Veelgestelde vragen
-Heb je nog meer vragen over ons Domein-product? Vind hier antwoorden op alles wat je wilt weten over functies, voordelen, installatie en hoe je het effectief gebruikt. Zo haal je het maximale uit ons Domein-product. En als er toch iets onduidelijk is, neem gewoon contact op, we helpen je direct verder.
+Heb je nog meer vragen over ons Domein-product? Vind antwoorden op alles wat je wilt weten over functies, voordelen, installatie en hoe je het effectief gebruikt. Zo krijg je alle info die je nodig hebt om het maximale uit ons Domein-product te halen. En als er toch iets onduidelijk is, neem dan gewoon contact op, we helpen je direct verder.
 <SearchableAccordion items={items} />
 
 <InlineVoucher />

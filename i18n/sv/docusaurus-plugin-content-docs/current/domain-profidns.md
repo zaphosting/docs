@@ -13,7 +13,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 **ProfiDNS-alternativet** ger dig möjligheten att göra avancerade inställningar i DNS-konfigurationen. Det låter dig koppla till ZAP-Hostings egna tjänster såväl som till andra externa tjänster. Möjligheterna är alltså oändliga.
 
-
+<InlineVoucher />
 
 ## Åtkomst och användningsfall
 
@@ -27,21 +27,15 @@ För att komma åt och aktivera EasyDNS-alternativet måste du öppna administra
 
 ![2022-05-07_21-51_1](https://screensaver01.zap-hosting.com/index.php/s/tgQaM3iP2oYZsDC/preview)
 
-
-
 Du kan hantera DNS-poster under **DNS-administration** i domänadministrationen under Inställningar. Nya poster kan skapas eller befintliga justeras/raderas där.
 
 ![2022-05-07_21-50_1](https://screensaver01.zap-hosting.com/index.php/s/DHodS8rAggnMmSF/preview)
-
-
 
 Vi rekommenderar att du kollar in följande guider för viktig info om hur du konfigurerar DNS-inställningarna:
 
 - [Domänposter](domain-records.md)
 - [Gameserver-vidarebefordran](domain-gameserver-srv-link.md)
 - [Teamspeak 3-vidarebefordran](domain-teamspeak-redirect.md)
-
-
 
 ## Slutsats
 

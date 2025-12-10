@@ -13,27 +13,29 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Zarządzanie domeną jest ważne, w tym możliwość przeniesienia domeny między dostawcami. W tym poradniku pokażemy, jak możesz przenieść swoją istniejącą domenę, zarówno do, jak i z konta ZAP-Hosting.
 
+<InlineVoucher />
+
 ## Przenoszenie domeny do ZAP-Hosting
 
 Przeniesienie domeny na konto ZAP-Hosting jest proste. Zacznij od przejścia na [stronę konfiguratora domen](https://zap-hosting.com/en/shop/product/domain/) będąc zalogowanym i wyszukaj swoją istniejącą domenę.
 
 :::info
-Aby przenieść domenę, musisz ją przedłużyć o 1 rok podczas składania zamówienia.
+Aby przenieść domenę, musisz przedłużyć ją o 1 rok podczas składania zamówienia.
 :::
 
-Gdy znajdziesz dokładną domenę, którą chcesz przenieść, wybierz ją z listy. To normalne, że domena będzie pokazywana jako niedostępna, ale obok powinna pojawić się ikona transferu.
+Gdy znajdziesz dokładnie domenę, którą chcesz przenieść, wybierz ją z listy. To normalne, że domena będzie pokazywana jako niedostępna, ale obok powinna pojawić się ikona transferu.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/omnaMqXJgarxsqW/preview)
 
-Otworzy się nowe okno, w którym autoryzujesz transfer na swoje konto ZAP-Hosting.
+To otworzy nowe okno, w którym autoryzujesz transfer na swoje konto ZAP-Hosting.
 
-Teraz musisz udać się do swojego obecnego rejestratora i poprosić o **kod Auth** dla swojej domeny. Popularni rejestratorzy zwykle mają zautomatyzowany system, który pozwala łatwo uzyskać kod autoryzacyjny, np. przez formularz lub panel klienta. W razie wątpliwości skontaktuj się z działem wsparcia swojego rejestratora.
+Teraz musisz udać się do swojego obecnego rejestratora i poprosić o **kod Auth** dla swojej domeny. Zazwyczaj popularni rejestratorzy mają zautomatyzowany system umożliwiający łatwe uzyskanie kodu autoryzacyjnego, np. przez formularz lub panel klienta. W razie wątpliwości skontaktuj się z działem wsparcia swojego rejestratora.
 
-Gdy będziesz mieć gotowy **kod Auth**, wpisz go w oknie i potwierdź. Kontynuuj proces zamówienia jak zwykle.
+Gdy masz już **kod Auth**, wpisz go w oknie i potwierdź. Kontynuuj proces zamówienia jak zwykle.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/fXjwGCX7kFtPnTB/preview)
 
-Po złożeniu zamówienia, transfer powinien zostać zazwyczaj zakończony w ciągu 48 godzin. Czasami proces może potrwać dłużej, ponieważ poprzedni dostawca musi najpierw zatwierdzić transfer, więc prosimy o cierpliwość :)
+Po złożeniu zamówienia, transfer powinien zostać zazwyczaj zakończony w ciągu 48 godzin. Jednak czasami proces ten może potrwać dłużej, ponieważ poprzedni dostawca musi najpierw zatwierdzić transfer, więc prosimy o cierpliwość :)
 
 Jeśli pojawi się problem z zamówieniem, np. z kodem Auth, skontaktujemy się z Tobą jak najszybciej, aby szybko rozwiązać sprawę.
 

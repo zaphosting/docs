@@ -1,8 +1,8 @@
 ---
 id: domain-records
-title: "Domain: Impostazioni record dominio"
-description: "Scopri come configurare e comprendere i diversi tipi di record DNS per ottimizzare la gestione del tuo dominio → Scopri di più ora"
-sidebar_label: Record Dominio
+title: "Domain: Impostazioni dei record di dominio"
+description: "Scopri come configurare e capire i diversi tipi di record DNS per ottimizzare la gestione del tuo dominio → Scopri di più ora"
+sidebar_label: Record di Dominio
 services:
   - domain
 ---
@@ -13,25 +13,25 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 I domini possono essere configurati facilmente utilizzando una vasta gamma di tipi di record DNS che svolgono azioni diverse. In questa guida, copriremo tutti i diversi tipi di record e spiegheremo come funzionano.
 
-
+<InlineVoucher />
 
 ## Configurazione
 
-Puoi configurare i record del dominio nella tua amministrazione dominio sotto la gestione DNS. Per farlo, clicca sul pulsante verde **Nuova voce**. Si aprirà una finestra popup. Da lì potrai configurare e creare nuovi record come preferisci. 
+Puoi configurare i record del dominio nella tua amministrazione dominio sotto la gestione DNS. Per farlo, clicca sul pulsante verde **Nuova voce**. Si aprirà una finestra popup. Da lì puoi configurare e creare nuovi record come preferisci.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/5qGjz8jDi4sNGcQ/download)
 
 :::info
-Usiamo il dominio **zap-hosting.com** per illustrare i singoli tipi di record DNS. Usa il tuo dominio nel tuo caso specifico.
+Usiamo il dominio **zap-hosting.com** per illustrare i singoli tipi di record DNS. Usa il tuo dominio personale nel tuo caso.
 :::
 
 :::warning
-Quando configuri un record DNS, assicurati di inserire un punto alla fine del record per definire che il nome del dominio è completo e per evitare fraintendimenti durante l’assegnazione nel sistema DNS.
+Assicurati, quando configuri un record DNS, di inserire un punto alla fine del record per definire che il nome del dominio è completo e per evitare fraintendimenti durante l’assegnazione nel sistema DNS.
 :::
 
 ## Tipi di record DNS
 
-Esistono vari tipi di record DNS con significati e scopi diversi. Qui sotto spiegheremo il significato e le differenze. 
+Esistono vari tipi di record DNS con significati e scopi diversi. Qui sotto spiegheremo il significato e le differenze.
 
 ### Record A
 
@@ -84,7 +84,7 @@ Un record PTR viene usato per creare un inoltro di un "**indirizzo IPv4**" o "**
 
 ### Record RP
 
-Un record RP viene usato per fornire informazioni sul proprietario del dominio. Di solito viene inserito un indirizzo e-mail dove il simbolo "**@**" è sostituito da un "**punto**".
+Un record RP viene usato per fornire informazioni sul proprietario del dominio. Di solito si inserisce un indirizzo e-mail dove il simbolo "**@**" è sostituito da un "**punto**".
 
 | Nome (Esempio) | Tipo | Valore (Esempio)       | TTL  | Priorità |
 | -------------- | ---- | --------------------- | ---- | -------- |

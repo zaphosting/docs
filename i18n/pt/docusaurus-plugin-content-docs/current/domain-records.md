@@ -13,6 +13,8 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Domínios podem ser configurados facilmente utilizando uma grande variedade de tipos de registros DNS que executam diferentes funções. Neste guia, vamos cobrir todos os tipos de registros e explicar como eles funcionam.
 
+<InlineVoucher />
+
 ## Configuração
 
 Você pode configurar os registros do domínio na administração do seu domínio, na seção de administração DNS. Para isso, clique no botão verde **Nova entrada**. Isso abrirá uma janela popup. A partir daí, você pode configurar e criar novos registros como desejar.
@@ -57,7 +59,7 @@ Um registro CNAME é usado para criar um redirecionamento de um "**subdomínio**
 
 ### Registros MX
 
-Um registro MX é usado para criar um redirecionamento de um "**subdomínio**" ou "**domínio principal**" para um "**domínio**" ou "**registro A**". Este registro MX é usado para especificar um ou mais servidores de e-mail. A prioridade indica qual servidor de e-mail deve ser usado preferencialmente se houver múltiplos registros MX. A prioridade deve ser um número inteiro entre 0 e 65535, quanto menor o valor, maior a prioridade.
+Um registro MX é usado para criar um redirecionamento de um "**subdomínio**" ou "**domínio principal**" para um "**domínio**" ou "**registro A**". Este registro MX é usado para especificar um ou mais servidores de e-mail. A prioridade especifica qual servidor de e-mail deve ser usado preferencialmente se houver múltiplos registros MX. A prioridade deve ser um número inteiro entre 0 e 65535, quanto menor o valor, maior a prioridade.
 
 | Nome (Exemplo)   | Tipo  | Valor (Exemplo)    | TTL  | Prioridade |
 | ---------------- | ----- | ------------------ | ---- | ---------- |
@@ -67,17 +69,17 @@ Um registro MX é usado para criar um redirecionamento de um "**subdomínio**" o
 
 Um registro PTR é usado para criar um redirecionamento de um "**endereço IPv4**" ou "**endereço IPv6**" para um "**subdomínio**" ou "**domínio principal**". Este registro PTR representa o oposto do registro A ou AAAA.
 
-| Nome (Exemplo)          | Tipo  | Valor (Exemplo)    | TTL  | Prioridade |
-| ----------------------- | ----- | ------------------ | ---- | ---------- |
-| 1.0.0.127.in-addr.arpa. | PTR   | zap-hosting.com.   | 1440 | 0          |
+| Nome (Exemplo)          | Tipo | Valor (Exemplo)     | TTL  | Prioridade |
+| ----------------------- | ---- | ------------------- | ---- | ---------- |
+| 1.0.0.127.in-addr.arpa. | PTR  | zap-hosting.com.    | 1440 | 0          |
 
 ### Registros RP
 
 Um registro RP é usado para fornecer informações sobre o proprietário do domínio. Normalmente, um endereço de e-mail é inserido para esse propósito, onde o símbolo "**@**" é substituído por um "**ponto**".
 
-| Nome (Exemplo) | Tipo | Valor (Exemplo)         | TTL  | Prioridade |
-| -------------- | ---- | ----------------------- | ---- | ---------- |
-| rp.            | RP   | info.zap-hosting.com.   | 1440 | 0          |
+| Nome (Exemplo) | Tipo | Valor (Exemplo)        | TTL  | Prioridade |
+| -------------- | ---- | ---------------------- | ---- | ---------- |
+| rp.            | RP   | info.zap-hosting.com.  | 1440 | 0          |
 
 ### Registros SRV
 

@@ -13,11 +13,11 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Los dominios se pueden configurar fácilmente utilizando una gran variedad de tipos de registros DNS que realizan diferentes funciones. En esta guía, cubriremos todos los tipos de registros y explicaremos cómo funcionan.
 
-
+<InlineVoucher />
 
 ## Configuración
 
-Puedes configurar los registros del dominio en la administración de tu dominio bajo administración DNS. Para hacerlo, haz clic en el botón verde **Nueva entrada**. Esto abrirá una ventana emergente. Desde ahí podrás configurar y crear nuevos registros como desees. 
+Puedes configurar los registros del dominio en la administración de tu dominio bajo la administración DNS. Para hacerlo, haz clic en el botón verde **Nueva entrada**. Esto abrirá una ventana emergente. Desde ahí podrás configurar y crear nuevos registros como desees.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/5qGjz8jDi4sNGcQ/download)
 
@@ -31,7 +31,7 @@ Asegúrate al configurar un registro DNS de colocar un punto al final del regist
 
 ## Tipos de registros DNS
 
-Existen varios tipos de registros DNS que tienen diferentes significados y propósitos. A continuación te explicamos el significado y las diferencias. 
+Existen varios tipos de registros DNS que tienen diferentes significados y propósitos. A continuación te explicamos su significado y diferencias.
 
 ### Registros A
 
@@ -40,7 +40,6 @@ Un registro A se usa para crear un reenvío de un "**subdominio**" o "**dominio 
 | Nombre (Ejemplo)   | Tipo | Valor (Ejemplo) | TTL  | Prioridad |
 | ------------------ | ---- | --------------- | ---- | --------- |
 | zap-hosting.com.   | A    | Dirección IPv4  | 1440 | 0         |
-
 
 
 ### Registros AAAA
@@ -56,35 +55,32 @@ Un registro AAAA se usa para crear un reenvío de un "**subdominio**" o "**domin
 
 Un registro CNAME se usa para crear un reenvío de un "**subdominio**" a un "**subdominio**" o "**dominio principal**".
 
-| Nombre (Ejemplo) | Tipo  | Valor (Ejemplo)    | TTL  | Prioridad |
-| ---------------- | ----- | ------------------ | ---- | --------- |
-| zap-test.        | CNAME | zap-hosting.com    | 1440 | 0         |
-
+| Nombre (Ejemplo) | Tipo  | Valor (Ejemplo)   | TTL  | Prioridad |
+| ---------------- | ----- | ----------------- | ---- | --------- |
+| zap-test.        | CNAME | zap-hosting.com   | 1440 | 0         |
 
 
 ### Registros MX
 
-Un registro MX se usa para redirigir un "**subdominio**" o "**dominio principal**" a un "**dominio**" o un "**registro A**". Este registro MX se usa para especificar uno o más servidores de correo. La prioridad indica qué servidor de correo debe usarse preferentemente si hay varios registros MX. La prioridad debe ser un número entero entre 0 y 65535, mientras más bajo el valor, mayor la prioridad.
+Un registro MX se usa para redirigir un "**subdominio**" o "**dominio principal**" a un "**dominio**" o "**registro A**". Este registro MX se usa para especificar uno o más servidores de correo. La prioridad indica qué servidor de correo debe usarse preferentemente si hay múltiples registros MX. La prioridad debe ser un número entero entre 0 y 65535, siendo menor valor mayor prioridad.
 
 | Nombre (Ejemplo)   | Tipo  | Valor (Ejemplo)    | TTL  | Prioridad |
 | ------------------ | ----- | ------------------ | ---- | --------- |
 | zap-hosting.com.   | CNAME | mailserverxy.com   | 1440 | 0         |
 
 
-
 ### Registros PTR
 
-Un registro PTR se usa para crear un reenvío de una "**dirección IPv4**" o "**dirección IPv6**" a un "**subdominio**" o "**dominio principal**". Este registro PTR representa lo opuesto a un registro A o AAAA.
+Un registro PTR se usa para crear un reenvío de una "**dirección IPv4**" o "**dirección IPv6**" a un "**subdominio**" o "**dominio principal**". Este registro PTR representa el opuesto del registro A o AAAA.
 
-| Nombre (Ejemplo)            | Tipo  | Valor (Ejemplo)    | TTL  | Prioridad |
-| -------------------------- | ----- | ------------------ | ---- | --------- |
-| 1.0.0.127.in-addr.arpa.    | PTR   | zap-hosting.com.   | 1440 | 0         |
-
+| Nombre (Ejemplo)            | Tipo  | Valor (Ejemplo)     | TTL  | Prioridad |
+| -------------------------- | ----- | ------------------- | ---- | --------- |
+| 1.0.0.127.in-addr.arpa.    | PTR   | zap-hosting.com.    | 1440 | 0         |
 
 
 ### Registros RP
 
-Un registro RP se usa para proporcionar información sobre el propietario del dominio. Normalmente se introduce una dirección de correo electrónico donde el símbolo "**@**" es reemplazado por un "**punto**".
+Un registro RP se usa para proporcionar información sobre el propietario del dominio. Normalmente se introduce una dirección de correo electrónico donde el símbolo "**@**" se reemplaza por un "**punto**".
 
 | Nombre (Ejemplo) | Tipo | Valor (Ejemplo)         | TTL  | Prioridad |
 | ---------------- | ---- | ----------------------- | ---- | --------- |
@@ -93,13 +89,13 @@ Un registro RP se usa para proporcionar información sobre el propietario del do
 ### Registros SRV
 
 Un registro SRV se usa para crear un reenvío de un "**subdominio**" o "**dominio principal**" a un "**registro A**".  
-Los registros SRV se usan para aplicaciones donde no se usa un puerto estándar y por eso es necesario el reenvío de puertos.  
-La prioridad define cuál de los servicios debe usarse preferentemente si hay varios registros SRV para el mismo servicio.  
-La prioridad debe ser un número entero, mientras más bajo el valor, mayor la prioridad.
+Los registros SRV se usan para aplicaciones donde no se usa un puerto estándar y por eso es necesario el reenvío de puerto.  
+La prioridad define cuál de los servicios debe usarse preferentemente si hay múltiples registros SRV para los mismos servicios.  
+La prioridad debe ser un número entero, siendo menor valor mayor prioridad.
 
-| Nombre (Ejemplo)   | Tipo | Valor (Ejemplo)           | TTL  | Prioridad |
-| ------------------ | ---- | ------------------------- | ---- | --------- |
-| zap-hosting.com.   | SRV  | 0 2006 zap-hosting.com.   | 1440 | 0         |
+| Nombre (Ejemplo)   | Tipo | Valor (Ejemplo)             | TTL  | Prioridad |
+| ------------------ | ---- | --------------------------- | ---- | --------- |
+| zap-hosting.com.   | SRV  | 0 2006 zap-hosting.com.     | 1440 | 0         |
 
 ### Registros TXT
 
@@ -110,9 +106,8 @@ Un registro TXT se usa para añadir texto a tu elección. En algunos sistemas, e
 | zap-hosting.com.   | TXT  | v=spf1 -all     | 1440 | 0         |
 
 
-
 ## Conclusión
 
-¡Felicidades, has creado y configurado con éxito tus registros DNS! Para cualquier duda o ayuda, no dudes en contactar a nuestro equipo de soporte, que está disponible todos los días para asistirte 🙂 
+¡Felicidades, has creado y configurado con éxito tus registros DNS! Para cualquier duda o ayuda, no dudes en contactar a nuestro equipo de soporte, disponible todos los días para asistirte 🙂.
 
 <InlineVoucher />

@@ -1,7 +1,7 @@
 ---
 id: domain-migrate-to-zap
 title: "Zu ZAP wechseln: Domain"
-description: "Entdecke, wie du deine Domain ganz easy zu ZAP-Hosting transferierst und von einfacher Verwaltung sowie zuverlässigem Hosting profitierst → Jetzt mehr erfahren"
+description: "Erfahre, wie du deine Domain ganz easy zu ZAP-Hosting transferierst und von einfacher Verwaltung sowie zuverlässigem Hosting profitierst → Jetzt mehr erfahren"
 sidebar_label: Domain
 services:
   - domain
@@ -11,21 +11,23 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
 
-Bist du neu hier und interessierst dich für die Produkte von ZAP-Hosting? Dann bist du hier genau richtig. Erstmal: Willkommen bei ZAP-Hosting! Wir freuen uns, dass du unsere Services spannend findest und wissen möchtest, wie du deine bestehende Domain von einem anderen Anbieter zu uns umziehen kannst. Diese Anleitung zeigt dir die allgemeinen Schritte, die du gehen musst, um deine Domain erfolgreich zu uns zu transferieren.
+Bist du neu hier und interessierst dich für die Produkte von ZAP-Hosting? Dann bist du hier genau richtig. Erstmal: Willkommen bei ZAP-Hosting! Wir freuen uns, dass du dich für unsere Services interessierst und wissen möchtest, wie du deine bestehende Domain von einem anderen Anbieter zu uns umziehen kannst. Diese Anleitung zeigt dir die allgemeinen Schritte, die du gehen musst, um deine Domain erfolgreich zu uns zu transferieren.
+
+<InlineVoucher />
 
 ## Vorteile
 
-Du stehst bestimmt vor der Entscheidung, welcher Anbieter am besten zu dir passt. So eine Entscheidung kann manchmal echt Zeit kosten. Deshalb wollen wir dir helfen und dir die Vorteile von ZAP-Hosting zeigen. ZAP-Hosting gibt’s schon seit über einem Jahrzehnt und ist damit ein erfahrener und etablierter Anbieter im Bereich Server mieten.
+Du stehst bestimmt gerade vor der Entscheidung, welcher Anbieter am besten zu dir passt. So eine Entscheidung kann manchmal echt Zeit kosten. Deshalb wollen wir dir bei deiner Wahl helfen und dir die Vorteile von ZAP-Hosting zeigen. ZAP-Hosting bietet seine Services seit über einem Jahrzehnt an und ist damit ein etablierter und erfahrener Anbieter im Bereich Server mieten.
 
-Unser Management-Interface macht die Domain-Verwaltung super easy und unkompliziert. Außerdem kannst du mit nur einem Klick Subdomains für andere ZAP-Produkte anlegen.
+Unsere Verwaltungsoberfläche macht die Domain-Verwaltung super easy und unkompliziert. Außerdem kannst du mit nur einem Klick Subdomains für andere ZAP-Produkte anlegen.
 
-Wenn du dich für uns entschieden hast, kannst du direkt starten und deine bestehende Domain zu ZAP-Hosting transferieren. Der Prozess besteht aus drei Schritten: Vorbereitung, bei der du den Auth Code anforderst; Transfer, bei dem die Domain registriert und zu uns übertragen wird; und den notwendigen Konfigurationsanpassungen, damit danach alles reibungslos läuft.
+Wenn du dich für uns entschieden hast, kannst du direkt damit starten, deine bestehende Domain zu ZAP-Hosting zu transferieren. Der Prozess besteht aus drei Schritten: Vorbereitung, bei der du den Auth Code anforderst; Transfer, bei dem die Domain registriert und zu uns übertragen wird; und den notwendigen Konfigurationsanpassungen, damit danach alles reibungslos läuft.
 
 ## Vorbereitung
 
-Für den Transfer einer bereits registrierten Domain brauchst du einen **Auth Code** (kurz für Autorisierungscode). Das ist sozusagen das Passwort für Domains. Der Auth Code wird benötigt, wenn eine Domain von einem Anbieter zum anderen umziehen soll. Er stellt sicher, dass der Domain-Transfer wirklich vom rechtmäßigen Domain-Besitzer angefragt wird.
+Für den Transfer einer bereits registrierten Domain brauchst du einen **Auth Code** (kurz für Autorisierungscode). Das ist sozusagen das Passwort für Domains. Der Auth Code wird benötigt, wenn eine Domain von einem Anbieter zum anderen umgezogen werden soll. Er stellt sicher, dass der Domain-Transfer wirklich vom rechtmäßigen Domain-Inhaber angefragt wird.
 
-Manche Anbieter stellen den Auth Code direkt im Management-Interface bereit. Falls nicht, musst du deinen aktuellen Anbieter über den geplanten Domain-Transfer informieren und den Auth Code anfordern.
+Manche Anbieter stellen den Auth Code direkt im Control Panel bereit. Falls nicht, musst du deinen aktuellen Anbieter über deinen Wunsch zum Domain-Transfer informieren und den Auth Code anfordern.
 
 :::warning Gültigkeitsdauer
 
@@ -34,12 +36,12 @@ Der Auth Code ist nur für eine bestimmte Zeit gültig. Nach Ablauf musst du ein
 
 ## Transfer
 
-Wenn du deinen Auth Code hast, kannst du deine Domain bei ZAP-Hosting bestellen und registrieren. Geh dazu auf die Bestellseite für unsere [**Domains**](https://zap-hosting.com/en/shop/product/domain/). Füll zuerst deine persönlichen Daten aus und such dann nach der Domain, die du transferieren möchtest.
+Wenn du deinen Auth Code hast, kannst du jetzt deine Domain bei ZAP-Hosting bestellen und registrieren. Gehe dazu auf die Bestellseite für unsere [**Domains**](https://zap-hosting.com/en/shop/product/domain/). Fülle zuerst deine persönlichen Daten aus und suche dann nach der Domain, die du transferieren möchtest.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/3dmY76dZscz9DPM/preview)
 
 :::info
-Um eine Domain zu transferieren, musst du sie während des Bestellvorgangs um 1 Jahr verlängern. Das ist bei allen Anbietern Standard.
+Für den Domain-Transfer musst du die Domain im Bestellprozess um 1 Jahr verlängern. Das ist Standard bei allen Anbietern.
 :::
 
 Eine Liste mit deiner Wunschdomain und allen verfügbaren Domain-Endungen öffnet sich. Domains, die schon woanders registriert sind, erkennst du am grauen Button mit dem Pfeil.
@@ -54,14 +56,14 @@ In dieses Feld gibst du den **Auth Code** ein, den du im Vorbereitungsschritt vo
 
 :::danger Eingabe genau prüfen
 
-Bitte überprüfe, dass der **Auth Code** korrekt und gültig ist. Sonst verzögert sich der Bestellprozess und der Domain-Transfer kann fehlschlagen.
+Bitte achte darauf, dass der **Auth Code** korrekt und gültig ist. Sonst verzögert sich der Bestellprozess und der Domain-Transfer kann fehlschlagen.
 :::
 
 Der Domain-Transfer wurde jetzt gestartet. Wie lange der Transfer dauert, hängt von der Domain-Endung und dem vorherigen Anbieter ab. In der Regel ist der Transfer innerhalb von 72 Stunden abgeschlossen. In Einzelfällen kann es aber auch länger dauern, da viele Faktoren eine Rolle spielen.
 
 ## Konfiguration
 
-Wenn die Domain erfolgreich zu uns transferiert wurde, kannst du mit der Konfiguration starten. Im Management-Interface deiner Domain kannst du z.B. DNS-Einstellungen oder Nameserver ändern. Wir haben weitere Anleitungen für unsere Domain-Produkte, die dir helfen können:
+Wenn die Domain erfolgreich zu uns transferiert wurde, kannst du mit der Konfiguration starten. Im Control Panel deiner Domain kannst du z.B. DNS-Einstellungen oder Nameserver ändern. Wir haben weitere Anleitungen für unsere Domain-Produkte, die dir helfen können:
 
 - [Einführung](domain-introduction.md)
 - [Domain bestellen](domain-order.md)

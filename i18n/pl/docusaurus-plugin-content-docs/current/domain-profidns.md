@@ -13,9 +13,11 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Opcja **ProfiDNS** daje możliwość zaawansowanej konfiguracji ustawień DNS. Dzięki temu możesz połączyć się z usługami ZAP-Hosting, jak i z innymi zewnętrznymi serwisami. Możliwości są więc praktycznie nieograniczone.
 
+<InlineVoucher />
+
 ## Dostęp i zastosowanie
 
-Aby uzyskać dostęp i aktywować opcję EasyDNS, musisz wejść w administrację swojej domeny w panelu webowym. Tam zobaczysz następujące opcje w sekcji administracji DNS:
+Aby uzyskać dostęp i aktywować opcję EasyDNS, musisz otworzyć administrację swojej domeny w panelu webowym. Po wejściu zobaczysz następujące opcje w sekcji administracji DNS:
 
 - EasyDNS
 - ProfiDNS
@@ -37,6 +39,6 @@ Zalecamy zapoznanie się z poniższymi poradnikami, które zawierają ważne inf
 
 ## Podsumowanie
 
-Gratulacje, pomyślnie skonfigurowałeś ustawienia DNS swojej domeny. W razie dalszych pytań lub potrzeby pomocy, śmiało kontaktuj się z naszym zespołem wsparcia, który jest dostępny codziennie, by Ci pomóc! 🙂
+Gratulacje, pomyślnie skonfigurowałeś ustawienia DNS swojej domeny. W razie dalszych pytań lub potrzeby pomocy, śmiało kontaktuj się z naszym zespołem wsparcia, który jest do Twojej dyspozycji codziennie! 🙂
 
 <InlineVoucher />

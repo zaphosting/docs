@@ -13,9 +13,11 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 **EasyDNS-alternativet** gör det enkelt att länka (vidarebefordra) din domän till en av dina ZAP-hostingtjänster. Med bara några klick kan du till exempel koppla din domän till en server eller ett webbspace.
 
+<InlineVoucher />
+
 ## Åtkomst och användningsfall
 
-För att komma åt och aktivera EasyDNS-alternativet måste du öppna administrationen för din domän i webbgränssnittet. När du är där ser du följande alternativ under DNS-administration:
+För att komma åt och aktivera EasyDNS-alternativet måste du öppna administrationen för din domän i webbgränssnittet. Där kommer du att se följande alternativ under DNS-administration:
 
 - EasyDNS
 - ProfiDNS
@@ -25,7 +27,7 @@ Aktivera EasyDNS och välj den tjänst du vill länka aktivt till din domän, so
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/spg7YHqAJb6Wqky/preview)
 
-I exemplet från skärmdumpen är domänen kopplad till en gameserver som installerats via en vServer med hjälp av det installerade GS/TS3-gränssnittet. Ange ett namn i subdomänfältet och välj tjänsten.
+I exemplet från skärmdumpen är domänen kopplad till en spelserver som installerats via en vServer med hjälp av det installerade GS/TS3-gränssnittet. Ange ett namn i subdomänfältet och välj tjänsten.
 
 :::warning Ändringar i DNS-konfigurationen
 Tänk på att ändringar i DNS kan ta upp till **24 timmar** innan de är globala. Vidarebefordran kommer inte att fungera förrän dess.
@@ -33,6 +35,6 @@ Tänk på att ändringar i DNS kan ta upp till **24 timmar** innan de är global
 
 ## Slutsats
 
-Grattis, du har nu kopplat din domän till en av dina tjänster! Har du fler frågor eller behöver hjälp är du varmt välkommen att kontakta vår support, som finns tillgänglig varje dag för att hjälpa dig! 🙂
+Grattis, du har nu framgångsrikt kopplat din domän till en av dina tjänster. Har du fler frågor eller behöver hjälp, tveka inte att kontakta vårt supportteam som finns tillgängligt varje dag för att hjälpa dig! 🙂
 
 <InlineVoucher />

@@ -9,13 +9,15 @@ services:
 
 ## Einführung
 
-Ein **Domain-Handle** ist ein Datensatz mit Kontaktinformationen, der mit einer Domain verknüpft ist und in öffentlichen WHOIS-Datenbanken verwendet wird. Er identifiziert den Domain-Inhaber sowie administrative oder technische Kontakte. Um diese Informationen korrekt und aktuell zu halten, kannst du Handles in der Domainverwaltung unter Handle-Verwaltung bearbeiten oder neue Einträge anlegen.
+Ein **Domain-Handle** ist ein Datensatz mit Kontaktinformationen, der mit einer Domain verknüpft ist und in öffentlichen WHOIS-Datenbanken verwendet wird. Es identifiziert den Domaininhaber sowie administrative oder technische Kontakte. Um diese Informationen korrekt und aktuell zu halten, kannst du Handles in der Domainverwaltung unter Handle-Verwaltung bearbeiten oder neue Einträge erstellen.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/qNEeWEnbtHyxKEe/preview)
 
+<InlineVoucher />
+
 ## Erstellen oder Bearbeiten
 
-In der Domainverwaltung unter **Handle-Verwaltung** kannst du entweder ein bestehendes Handle ändern oder ein neues erstellen. Folgende Felder können beim Arbeiten mit einem Handle konfiguriert oder aktualisiert werden:
+In der Domainverwaltung unter **Handle-Verwaltung** kannst du entweder ein bestehendes Handle ändern oder ein neues anlegen. Folgende Felder können beim Arbeiten mit einem Handle konfiguriert oder aktualisiert werden:
 
 - Typ (Person / Firma)  
 - Geschlecht  
@@ -36,4 +38,4 @@ Alle Änderungen kannst du direkt in der Handle-Verwaltung eingeben und speicher
 
 ## Fazit
 
-Durch das Erstellen oder Aktualisieren eines Domain-Handles stellst du sicher, dass deine Kontaktdaten korrekt bei deinen Domains hinterlegt sind. Das ist essenziell für rechtliche Vorgaben, Erreichbarkeit und die Genauigkeit im WHOIS.
+Durch das Erstellen oder Aktualisieren eines Domain-Handles stellst du sicher, dass deine Kontaktdaten korrekt bei deinen Domains hinterlegt sind. Das ist essenziell für rechtliche Compliance, Erreichbarkeit und WHOIS-Genauigkeit.

@@ -10,18 +10,20 @@ services:
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
-Du kannst entweder deine komplette Domain oder nur eine Subdomain auf deinen Gameserver weiterleiten. Das ist praktisch, weil Leute so über eine Domain auf deinen Gameserver connecten können, anstatt sich komplizierte IP-Adressen aus Zahlen merken zu müssen. In dieser Anleitung zeigen wir dir, wie du deine Domain per DNS-Einträgen auf deinen Gameserver weiterleitest.
+Du kannst entweder deine komplette Domain oder nur eine Subdomain auf deinen Gameserver weiterleiten. Das ist praktisch, weil Leute so über eine Domain auf deinen Gameserver connecten können, anstatt sich komplizierte IP-Adressen nur aus Zahlen merken zu müssen. In dieser Anleitung zeigen wir dir, wie du deine Domain per DNS-Einträgen auf deinen Gameserver weiterleitest.
+
+<InlineVoucher />
 
 :::info
-Beachte bitte, dass Änderungen an DNS-Einträgen bis zu 24 Stunden brauchen können, bis sie aktiv sind!
+Beachte, dass es immer bis zu 24 Stunden dauern kann, bis Änderungen an DNS-Einträgen aktiv werden!
 :::
 
 ## Funktionsweise
 
-Für die Weiterleitung der IP-Adresse wird entweder eine Subdomain erstellt, die auf die IP-Adresse des Gameservers zeigt, oder du leitest die komplette Domain ohne Subdomain weiter. Das reicht aus, wenn der Gameserver den Standardport des Spiels nutzt. Nutzt der Gameserver einen anderen Port als den Standardport, brauchst du einen zusätzlichen **SRV-Eintrag**, um die Subdomain auf den Gameserver weiterzuleiten.
+Für die Weiterleitung der IP-Adresse wird entweder eine Subdomain erstellt, die auf die IP-Adresse des Gameservers zeigt, oder du leitest die komplette Domain ohne Subdomain weiter. Das reicht aus, wenn der Gameserver den Standard-Port des Spiels nutzt. Wenn der Gameserver einen anderen Port als den Standard-Port verwendet, brauchst du einen zusätzlichen **SRV-Eintrag**, um die Subdomain auf den Gameserver weiterzuleiten.
 
 :::info
-Nicht alle Spiele unterstützen die Weiterleitung einer Domain auf den Spieleport via SRV-Eintrag. Informiere dich also vorher, ob dein Spiel SRV-Einträge unterstützt.
+Nicht alle Spiele unterstützen die Weiterleitung einer Domain auf den Spiele-Port via SRV-Eintrag. Informiere dich also vorher, ob dein Spiel SRV-Einträge unterstützt.
 :::
 
 ### SRV Service
@@ -30,7 +32,7 @@ Der Service-Name hängt vom Spiel ab und beginnt immer mit einem **Unterstrich**
 
 ### SRV Protokoll
 
-Als Protokoll geben wir das Internetprotokoll an, das für die Verbindung genutzt wird. Hier stehen **UDP** und **TCP** zur Auswahl. Welches Protokoll verwendet wird, hängt ebenfalls vom jeweiligen Spiel ab. Die Protokollangabe beginnt immer mit einem **Unterstrich** und ist entweder **_udp** oder **_tcp**.
+Als Protokoll geben wir das Internetprotokoll an, das für die Verbindung genutzt wird. Hier stehen **UDP** und **TCP** zur Auswahl. Welches Protokoll verwendet wird, hängt ebenfalls vom jeweiligen Spiel ab. Die Angabe des Protokolls beginnt immer mit einem **Unterstrich** und ist entweder **_udp** oder **_tcp**.
 
 ## Vorbereitung
 
@@ -56,7 +58,7 @@ Es öffnet sich ein Fenster mit vier Feldern, die ausgefüllt werden müssen:
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/BYNiFMMwdwjEHwZ/preview)
 
-Der **Name** ist die Haupt- oder Subdomain, über die die Weiterleitung zur IP erfolgt. Dieser Name ist frei wählbar. Der **Typ** bleibt in diesem Schritt auf **A**. Im Feld **Wert** trägst du nur die IP des Minecraft-Servers ein, die du vorher herausgesucht hast. In unserem Beispiel sieht das so aus:
+Der **Name** ist die Haupt- oder Subdomain, über die die Weiterleitung auf die IP erfolgt. Dieser Name ist frei wählbar. Der **Typ** bleibt in diesem Schritt auf **A**. Im Feld **Wert** muss nur die IP des Minecraft-Servers eingetragen werden, die du vorher herausgesucht hast. In unserem Beispiel sieht das so aus:
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/aRYpxgrySQqzton/preview)
 
@@ -66,9 +68,9 @@ Nach dem Speichern wird der Eintrag so angezeigt:
 
 ### SRV-Eintrag erstellen
 
-Jetzt musst du einen SRV-Eintrag erstellen, der für die Portweiterleitung nötig ist, falls du nicht den Standardport nutzt. Klicke dazu erneut auf **Neuer Eintrag**.
+Jetzt musst du einen SRV-Eintrag anlegen, der für die Portweiterleitung nötig ist, wenn du nicht den Standard-Port nutzt. Klicke dafür wieder auf **Neuer Eintrag**.
 
-Beim **Name** gibst du das Protokoll und die Verbindungsdomain ein. Der dort eingetragene Domainname wird später für die Verbindung zum Server genutzt. Als **Typ** wählst du im Dropdown-Menü **SRV** aus:
+Bei **Name** gibst du das Protokoll und die Verbindungsdomain ein. Der dort eingetragene Domainname wird später für die Verbindung zum Server genutzt. Als **Typ** wählst du im Dropdown-Menü **SRV** aus:
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/pH9F5kZins8wHn4/preview)
 
@@ -81,7 +83,7 @@ In unserem Beispiel sieht das so aus:
 ### Fehlerbehebung & Ergebnis
 
 :::important
-Am Ende des Eintrags muss ein Punkt stehen. Ohne diesen Punkt versucht das System, die Domain anzuhängen.
+Am Ende des Eintrags muss ein Punkt stehen, ohne diesen Punkt versucht das System, die Domain anzuhängen.
 :::
 
 Wenn du das nicht beachtest, leitet das System `minecraft.testserver-domain.de` auf `minecraft.testserver-domain.de.testserver-domain.de` weiter und die Weiterleitung schlägt fehl.
@@ -100,7 +102,7 @@ Es öffnet sich ein Fenster mit vier Feldern, die ausgefüllt werden müssen:
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/FigmCXEc3eJYz78/preview)
 
-Der **Name** ist die Haupt- oder Subdomain, über die die Weiterleitung zur IP erfolgt. Dieser Name ist frei wählbar. Der **Typ** bleibt in diesem Schritt auf **A**. Im Feld **Wert** trägst du nur die IP des FiveM-Servers ein, die du vorher herausgesucht hast. In unserem Beispiel sieht das so aus:
+Der **Name** ist die Haupt- oder Subdomain, über die die Weiterleitung auf die IP erfolgt. Dieser Name ist frei wählbar. Der **Typ** bleibt in diesem Schritt auf **A**. Im Feld **Wert** muss nur die IP des FiveM-Servers eingetragen werden, die du vorher herausgesucht hast. In unserem Beispiel sieht das so aus:
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/7dBKaJ4xomTiS9C/preview)
 
@@ -110,9 +112,9 @@ Nach dem Speichern wird der Eintrag so angezeigt:
 
 ### SRV-Eintrag erstellen
 
-Jetzt musst du einen SRV-Eintrag erstellen, der für die Portweiterleitung nötig ist, falls du nicht den Standardport nutzt. Klicke dazu erneut auf **Neuer Eintrag**.
+Jetzt musst du einen SRV-Eintrag anlegen, der für die Portweiterleitung nötig ist, wenn du nicht den Standard-Port nutzt. Klicke dafür wieder auf **Neuer Eintrag**.
 
-Beim **Name** gibst du das Protokoll und die Verbindungsdomain ein. Der dort eingetragene Domainname wird später für die Verbindung zum Server genutzt. Als **Typ** wählst du im Dropdown-Menü **SRV** aus:
+Bei **Name** gibst du das Protokoll und die Verbindungsdomain ein. Der dort eingetragene Domainname wird später für die Verbindung zum Server genutzt. Als **Typ** wählst du im Dropdown-Menü **SRV** aus:
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/Yab6ksJNJFTLAeB/preview)
 
@@ -125,7 +127,7 @@ In unserem Beispiel sieht das so aus:
 ### Fehlerbehebung & Ergebnis
 
 :::important
-Am Ende des Eintrags muss ein Punkt stehen. Ohne diesen Punkt versucht das System, die Domain anzuhängen.
+Am Ende des Eintrags muss ein Punkt stehen, ohne diesen Punkt versucht das System, die Domain anzuhängen.
 :::
 
 Wenn du das nicht beachtest, leitet das System `fivem.testserver-domain.de` auf `fivem.testserver-domain.de.testserver-domain.de` weiter und die Weiterleitung schlägt fehl.

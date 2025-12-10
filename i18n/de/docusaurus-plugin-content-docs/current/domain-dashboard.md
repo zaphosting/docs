@@ -12,21 +12,21 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
 
-Du interessierst dich für eine **Domain** oder besitzt bereits eine, hast aber noch keinen umfassenden Überblick über die Verwaltung und findest nicht alle nötigen Optionen? Gerade am Anfang kann das ganz schön herausfordernd sein. Keine Sorge, wir geben dir weiter unten eine ausführliche Einführung in die Verwaltung deines Services, damit du den bestmöglichen Überblick bekommst.
+Du interessierst dich für eine **Domain** oder besitzt bereits eine, hast aber noch keinen umfassenden Überblick über die Verwaltung und findest nicht alle nötigen Optionen? Gerade am Anfang kann das ganz schön herausfordernd sein. Keine Sorge, wir geben dir weiter unten eine ausführliche Einführung in die Verwaltung deines Services, damit du den besten Überblick bekommst.
 
 Nach dem Durcharbeiten dieser Anleitung kannst du deine Domain ganz easy effizient verwalten und findest alle wichtigen Optionen und Features schnell und unkompliziert. Hier bekommst du eine strukturierte Übersicht, die dir Schritt für Schritt hilft, dich mit der Domain-Verwaltung vertraut zu machen und dein Wissen gezielt zu erweitern. So stellst du sicher, dass deine **Domain** optimal auf deine Bedürfnisse eingestellt ist und du das Maximum aus den verfügbaren Optionen rausholst.
 
-
+<InlineVoucher />
 
 ## Produktverwaltung
 
-Im Bereich **Produktverwaltung** findest du alle notwendigen Seiten zur Verwaltung deiner Domain. Die Optionen zur Verwaltung deiner Domain sind im Folgenden detailliert aufgelistet. 
+Im Bereich **Produktverwaltung** findest du alle wichtigen Seiten zur Verwaltung deiner Domain. Die Optionen zur Verwaltung deiner Domain sind unten detailliert aufgelistet.
 
 
 
 ### Dashboard
 
-Das **Dashboard** deiner Domain ist das Herzstück der Verwaltung. Hier werden alle grundlegenden und wichtigen Informationen zu deiner Domain übersichtlich dargestellt. Dazu gehören zum Beispiel Infos zur Domain, Nameserver-Registrierung/-Ablaufdatum und der AUTH-Code. Außerdem kannst du über das Dashboard auch unsere einfachen DNS-Modi ([EasyDNS](domain-easydns.md), [ProfiDNS](domain-profidns.md), [ExpertDNS](domain-expertdns)) nutzen.
+Das **Dashboard** deiner Domain ist das Herzstück der Verwaltung. Hier werden alle grundlegenden und wichtigen Infos zu deiner Domain übersichtlich dargestellt. Dazu gehören zum Beispiel Infos zur Domain selbst, Nameserver-Registrierung/-Ablaufdaten und der AUTH-Code. Außerdem kannst du über das Dashboard auch unsere einfachen DNS-Modi ([EasyDNS](domain-easydns.md), [ProfiDNS](domain-profidns.md), [ExpertDNS](domain-expertdns)) nutzen.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/xQww62Noja46TED/preview)
 
@@ -35,7 +35,7 @@ Das **Dashboard** deiner Domain ist das Herzstück der Verwaltung. Hier werden a
 
 ### Ereignisprotokoll
 
-Das **Ereignisprotokoll** gibt dir eine umfassende Übersicht über alle Aktivitäten rund um die Domain-Verwaltung. Hier kannst du jederzeit nachvollziehen, wann Änderungen an den DNS-Einträgen oder Nameservern vorgenommen wurden.
+Das **Ereignisprotokoll** gibt dir einen umfassenden Überblick über alle Aktivitäten rund um die Domain-Verwaltung. Hier kannst du jederzeit nachvollziehen, wann Änderungen an den DNS-Einträgen oder Nameservern vorgenommen wurden.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/2Tfirza5nkm6jzr/preview)
 
@@ -44,21 +44,21 @@ Das **Ereignisprotokoll** gibt dir eine umfassende Übersicht über alle Aktivit
 
 ## Einstellungen
 
-Im Bereich **Einstellungen** findest du alle notwendigen Seiten zur Konfiguration deiner Domain. Die verfügbaren Optionen zur Konfiguration deiner Domain sind im Folgenden detailliert aufgelistet.
+Im Bereich **Einstellungen** findest du alle wichtigen Seiten zur Konfiguration deiner Domain. Die verfügbaren Optionen zur Konfiguration deiner Domain sind unten detailliert aufgelistet.
 
 
 
 ### DNS-Verwaltung
 
-Verwalte deine DNS-Einträge in der DNS-Verwaltung. Hier kannst du die benötigten [Domain-Einträge](domain-records.md) erstellen und nach deinen Anforderungen konfigurieren.
+Verwalte deine DNS-Einträge in der DNS-Verwaltung. Hier kannst du die benötigten [Domain-Einträge](domain-records.md) anlegen und nach deinen Anforderungen konfigurieren.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/eSFEN9sLkKfcHPb/preview)
 
 ### Handle-Verwaltung
 
-Mit dem Domain-Handle legst du die Kontaktdaten fest, die bei der Registrierung deiner Domain hinterlegt werden. Dazu gehören Informationen wie Name des Domaininhabers, Adresse, E-Mail-Adresse und Telefonnummer.
+Mit dem Domain-Handle legst du die Kontaktdaten fest, die bei der Registrierung deiner Domain hinterlegt werden. Dazu gehören Infos wie Name des Domaininhabers, Adresse, E-Mail-Adresse und Telefonnummer.
 
-Diese Angaben sind notwendig, um die Domain eindeutig einer Person oder Organisation zuzuordnen. Hier kannst du deinen bestehenden Handle auswählen oder einen neuen erstellen, falls du andere Kontaktdaten verwenden möchtest.
+Diese Angaben sind notwendig, um die Domain eindeutig einer Person oder Organisation zuzuordnen. Hier kannst du deinen bestehenden Handle auswählen oder einen neuen anlegen, wenn du andere Kontaktdaten verwenden möchtest.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/DWKmQqPQ3B2DwD9/preview)
 

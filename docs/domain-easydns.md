@@ -13,7 +13,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 The **EasyDNS option** enables simple linking (forwarding) with one of your ZAP hosting services. With just a few clicks, you can for example connect your domain to a server or webspace product. 
 
-
+<InlineVoucher />
 
 ## Access and use case
 

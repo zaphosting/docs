@@ -13,7 +13,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 La **opción ProfiDNS** ofrece la posibilidad de hacer configuraciones avanzadas en los ajustes DNS. Esto te permite enlazar con los propios servicios de ZAP-Hosting así como con otros servicios externos. Las posibilidades son prácticamente infinitas.
 
-
+<InlineVoucher />
 
 ## Acceso y caso de uso
 
@@ -27,21 +27,15 @@ La opción **EasyDNS** debería estar seleccionada por defecto. Por lo tanto, pr
 
 ![2022-05-07_21-51_1](https://screensaver01.zap-hosting.com/index.php/s/tgQaM3iP2oYZsDC/preview)
 
-
-
-Puedes gestionar los registros DNS bajo **Administración DNS** en la administración del dominio dentro de Configuración. Ahí puedes crear nuevos registros o ajustar/eliminar los existentes.
+Puedes gestionar los registros DNS bajo **Administración DNS** en la administración del dominio dentro de Ajustes. Ahí puedes crear nuevos registros o ajustar/eliminar los existentes.
 
 ![2022-05-07_21-50_1](https://screensaver01.zap-hosting.com/index.php/s/DHodS8rAggnMmSF/preview)
 
-
-
-Te recomendamos echar un vistazo a las siguientes guías para más información importante sobre la configuración de los ajustes DNS:
+Recomendamos echar un vistazo a las siguientes guías para más información importante sobre la configuración de los ajustes DNS:
 
 - [Registros de dominio](domain-records.md)
 - [Redirección para servidor de juegos](domain-gameserver-srv-link.md)
 - [Redirección para Teamspeak 3](domain-teamspeak-redirect.md)
-
-
 
 ## Conclusión
 

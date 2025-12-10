@@ -17,9 +17,11 @@ Cerchi un dominio a un prezzo giusto? Allora ZAP-Hosting è il posto giusto per 
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/ESkLyeoLMTTENHG/preview)
 
+<InlineVoucher />
+
 ## Ordine
 
-Il processo d’ordine è super semplice. Scegli la configurazione che preferisci per il tuo [Dominio](https://zap-hosting.com/en/shop/product/domain/). Il setup richiede solo pochi secondi. Subito dopo puoi iniziare a configurarlo. Maggiori dettagli sul processo d’ordine li trovi nella nostra guida [Ordina Dominio](domain-order.md).
+Il processo d’ordine è super semplice. Scegli la configurazione che preferisci per il tuo [Dominio](https://zap-hosting.com/en/shop/product/domain/). Il setup richiede solo pochi secondi. Dopo puoi subito iniziare con la configurazione. Maggiori dettagli sul processo d’ordine li trovi nella nostra guida [Ordina Dominio](domain-order.md).
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/FEN8gHSaL9i7X38/preview)
 
@@ -43,7 +45,7 @@ Offriamo una vasta selezione di estensioni di dominio disponibili. I prezzi vari
 Inoltre, offriamo anche queste estensioni: .es, .it, .nl, .fr, .ch, .link, .work, .at, .ro, .xyz, .dk, .club, .rocks, .me, .rip, .one, .vip, .exposed, .jetzt, .run, .website, .cloud, .ninja, .earth, .today, .solutions, .technology, .gmbh, .systems, .email, .wine, .win, .download, .lol, .party, .site, .beer, .vodka, .surf, .help, .fail, .wiki, .blog, .cool, .plus, .world, .wtf, .community, .team, .zone, .life, .money, .digital, .design, .pizza, .codes, .store, .berlin, .bar, .bio, .io, .im, .host, .gg
 
 :::info
-Assicurati di non scegliere un dominio premium quando selezioni nome ed estensione. Non possiamo offrire questi a prezzi standard.
+Assicurati di non scegliere un dominio premium quando selezioni il nome e l’estensione. Non possiamo offrirli ai prezzi indicati.
 :::
 
 ## Ambiti di utilizzo
@@ -56,7 +58,7 @@ Grazie al prezzo vantaggioso, alla gestione semplice e alle possibilità offerte
 - Marketing digitale e pubblicità
 
 ## Domande frequenti
-Hai altre domande sul nostro prodotto Dominio? Trova tutte le risposte su funzionalità, vantaggi, configurazione e come usarlo al meglio. Così avrai tutte le info per sfruttare al massimo il nostro prodotto Dominio. E se qualcosa non è chiaro, contattaci pure, siamo qui per aiutarti subito.
+Hai altre domande sul nostro prodotto Dominio? Trova tutte le risposte su funzionalità, vantaggi, configurazione e come usarlo al meglio. Così hai tutte le info per sfruttare al massimo il nostro prodotto Dominio. E se qualcosa non è chiaro, scrivici pure, siamo qui per aiutarti subito.
 <SearchableAccordion items={items} />
 
 <InlineVoucher />
