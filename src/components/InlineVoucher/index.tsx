@@ -11,7 +11,7 @@ export default function InlineVoucher({ showProducts = true }): JSX.Element {
   const { siteConfig = {} } = useDocusaurusContext();
   const { frontMatter } = useDoc();
 
-  const { loading, voucher, found } = useContext(VoucherContext);
+  const { loading, vouchers, found, getVoucherForServices } = useContext(VoucherContext);
 
   let services = null;
   let serviceInfoList = [];
@@ -24,6 +24,9 @@ export default function InlineVoucher({ showProducts = true }): JSX.Element {
     services = frontMatter.services;
     serviceInfoList = mapList(services);
   }
+
+  // Get the appropriate voucher for the current services
+  const voucher = getVoucherForServices ? getVoucherForServices(services || []) : null;
 
   const canDisplayProducts = showProducts === true && serviceInfoList.length > 0;
 
@@ -42,7 +45,7 @@ export default function InlineVoucher({ showProducts = true }): JSX.Element {
         </div>
       ) : (
         <>
-          {found === true &&
+          {found === true && voucher &&
             <>
               <div className={styles.wiggleBg + ' wiggle-bg'} style={{
                 'height': '4.5rem',

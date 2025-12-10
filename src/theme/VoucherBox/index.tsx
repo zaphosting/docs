@@ -8,7 +8,10 @@ import VoucherButton from '../../components/VoucherButton';
 export default function VoucherBox() {
   const { siteConfig } = useDocusaurusContext();
 
-  const { loading, voucher, found } = useContext(VoucherContext);
+  const { loading, vouchers, found, getVoucherForServices } = useContext(VoucherContext);
+  
+  // VoucherBox doesn't have specific services, so use default voucher
+  const voucher = getVoucherForServices ? getVoucherForServices([]) : null;
 
   return (
     <>
@@ -25,7 +28,7 @@ export default function VoucherBox() {
         </div>
       ) : (
         <>
-        {found === true &&
+        {found === true && voucher &&
           <div className={styles.box}>
             <div className={styles.giftContainer}>
               <div className="relative">
