@@ -6,39 +6,14 @@ const VOUCHERS = {
         value: '50',
         type: '%',
     },
-    vserver: {
-        code: 'docs-50',
-        value: '50',
-        type: '%',
-    },
     dedicated: {
         code: 'docs-10',
         value: '10',
         type: '%',
     },
-    gameserver: {
-        code: 'docs-50',
-        value: '50',
-        type: '%',
-    },
     domain: {
         code: 'docs-10',
         value: '10',
-        type: '%',
-    },
-    webspace: {
-        code: 'docs-50',
-        value: '50',
-        type: '%',
-    },
-    voiceserver: {
-        code: 'docs-50',
-        value: '50',
-        type: '%',
-    },
-    voicebot: {
-        code: 'docs-50',
-        value: '50',
         type: '%',
     },
 };
