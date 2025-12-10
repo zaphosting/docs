@@ -13,9 +13,11 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Aquí en ZAP-Hosting, ofrecemos una gran variedad de dominios populares, incluyendo gTLDs como `.com` y `.net`, que puedes pedir directamente a través de nuestro [configurador de dominios](https://zap-hosting.com/en/shop/product/domain/). En esta guía, exploraremos el proceso de pedido a fondo.
 
+<InlineVoucher />
+
 ## Cómo pedir un dominio nuevo
 
-Puedes pedir tu propio dominio [directamente aquí](https://zap-hosting.com/en/shop/product/domain/). En la página, usa la barra de búsqueda para ingresar el nombre de dominio que quieres tener y presiona buscar.
+Puedes pedir tu propio dominio [directamente aquí](https://zap-hosting.com/en/shop/product/domain/). En la página, usa la barra de búsqueda para ingresar el nombre de dominio que deseas tener y presiona buscar.
 
 El sitio web te mostrará la disponibilidad de cada dominio para el nombre dado, facilitando encontrar uno que esté disponible. Si un dominio no está disponible, significa que alguien más ya lo posee y por lo tanto no puedes pedirlo.
 
@@ -25,7 +27,7 @@ El sitio web te mostrará la disponibilidad de cada dominio para el nombre dado,
 
 Los dominios siempre se cobran en incrementos de **1 año** y deben renovarse antes de la fecha de expiración, de lo contrario corres el riesgo de perderlo.
 
-Durante el proceso de pedido, deberás proporcionar de forma veraz una serie de datos personales, incluyendo tu nombre, apellido y dirección. Estos campos son privados y solo el registrador y las autoridades pueden acceder a esta información si es absolutamente necesario.
+Durante el proceso de pedido, tendrás que proporcionar de forma veraz una serie de datos personales, incluyendo tu nombre, apellido y dirección. Estos campos son privados y solo el registrador y las autoridades pueden acceder a estos datos si es absolutamente necesario.
 
 :::info
 Con las reglas GDPR vigentes en toda la UE, toda la información que proporciones junto con el dominio será privada y no podrá ser accedida públicamente.

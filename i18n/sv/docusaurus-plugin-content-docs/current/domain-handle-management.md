@@ -1,7 +1,7 @@
 ---
 id: domain-handle-management
 title: "Domän: Hantering av Kontakter"
-description: "Förstå hur du håller dina domänkontakters uppgifter korrekta för efterlevnad och kontaktbarhet genom att effektivt hantera dina domänkontakter → Lär dig mer nu"
+description: "Förstå hur du håller dina domänkontaktuppgifter korrekta för efterlevnad och tillgänglighet genom att effektivt hantera dina domänkontakter → Lär dig mer nu"
 sidebar_label: Hantering av Kontakter
 services:
   - domain
@@ -12,6 +12,8 @@ services:
 En **domänkontakt** är en datapost som innehåller kontaktinformation kopplad till en domän och används i offentliga WHOIS-databaser. Den identifierar domänägaren samt administrativa eller tekniska kontakter. För att hålla denna information korrekt och uppdaterad kan du hantera kontakter i domänhanteringen under Hantering av Kontakter genom att redigera befintliga eller skapa nya poster.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/qNEeWEnbtHyxKEe/preview)
+
+<InlineVoucher />
 
 ## Skapa eller Redigera
 
@@ -36,4 +38,4 @@ Alla ändringar kan matas in och sparas direkt i gränssnittet för Hantering av
 
 ## Slutsats
 
-Genom att skapa eller uppdatera en domänkontakt säkerställer du att dina kontaktuppgifter är korrekt registrerade med dina domäner. Detta är avgörande för juridisk efterlevnad, kontaktbarhet och WHOIS-precision.
+Genom att skapa eller uppdatera en domänkontakt säkerställer du att dina kontaktuppgifter är korrekt registrerade med dina domäner. Detta är avgörande för juridisk efterlevnad, tillgänglighet och WHOIS-precision.

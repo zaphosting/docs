@@ -13,10 +13,12 @@ import items from '@site/data/faqs/domain-introduction-en.json';
 
 ## Wprowadzenie
 
-Szukasz domeny w uczciwej cenie? W takim razie ZAP-Hosting to miejsce dla Ciebie! W ZAP-Hosting możesz zarejestrować swoją domenę, aby spersonalizować swoją obecność w sieci. Możesz na przykład użyć domeny do strony internetowej lub jako przekierowanie dla serwera gier albo serwera głosowego. 
+Szukasz domeny w dobrej cenie? W takim razie ZAP-Hosting to miejsce dla Ciebie! U nas możesz zarejestrować swoją domenę, aby spersonalizować swoją obecność w sieci. Możesz na przykład użyć domeny do strony internetowej lub jako przekierowanie dla serwera gier albo serwera głosowego. 
 
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/ESkLyeoLMTTENHG/preview)
+
+<InlineVoucher />
 
 ## Zamawianie
 
@@ -29,7 +31,7 @@ Proces zamawiania jest bardzo prosty. Wybierz swoją wymarzoną konfigurację dl
 
 ## Dostępne domeny
 
-Oferujemy szeroki wybór dostępnych końcówek domen. Ceny między poszczególnymi końcówkami domen mogą się różnić. Poniżej wymieniamy najpopularniejsze domeny wraz z ich cenami oraz wszystkie inne końcówki domen, które aktywnie oferujemy. 
+Oferujemy szeroki wybór dostępnych końcówek domen. Ceny między poszczególnymi końcówkami mogą się różnić. Poniżej znajdziesz najpopularniejsze domeny wraz z cenami oraz wszystkie inne końcówki, które aktywnie oferujemy. 
 
 
 | Popularne końcówki domen | Cena (rok) |
@@ -48,14 +50,14 @@ Oferujemy szeroki wybór dostępnych końcówek domen. Ceny między poszczególn
 Dodatkowo oferujemy także następujące końcówki domen: .es, .it, .nl, .fr, .ch, .link, .work, .at, .ro, .xyz, .dk, .club, .rocks, .me, .rip, .one, .vip, .exposed, .jetzt, .run, .website, .cloud, .ninja, .earth, .today, .solutions, .technology, .gmbh, .systems, .email, .wine, .win, .download, .lol, .party, .site, .beer, .vodka, .surf, .help, .fail, .wiki, .blog, .cool, .plus, .world, .wtf, .community, .team, .zone, .life, .money, .digital, .design, .pizza, .codes, .store, .berlin, .bar, .bio, .io, .im, .host, .gg
 
 :::info
-Upewnij się, że nie wybierasz domeny premium podczas wyboru nazwy i rozszerzenia domeny. Nie możemy zaoferować ich w podanych cenach.
+Upewnij się, że nie wybierasz domeny premium podczas wyboru nazwy i rozszerzenia. Nie możemy zaoferować ich w podanych cenach.
 :::
 
 
 
 ## Obszary zastosowania
 
-Dzięki korzystnej cenie, łatwej administracji i powiązanym możliwościom, domena może być używana w różnych obszarach, w tym:
+Dzięki korzystnej cenie, łatwej administracji i powiązanym możliwościom, domena może być używana w różnych obszarach, między innymi:
 
 - Strony internetowe
 - Usługi mailowe
@@ -63,7 +65,7 @@ Dzięki korzystnej cenie, łatwej administracji i powiązanym możliwościom, do
 - Marketing cyfrowy i reklama
 
 ## Najczęściej zadawane pytania
-Masz więcej pytań dotyczących naszego produktu Domena? Znajdź odpowiedzi na wszystko, co chcesz wiedzieć o funkcjach, korzyściach, konfiguracji i efektywnym użytkowaniu. Dzięki temu zdobędziesz potrzebne informacje, aby w pełni wykorzystać nasz produkt Domena. A jeśli coś nadal będzie niejasne, po prostu skontaktuj się z nami – jesteśmy tu, by Ci pomóc od razu.
+Masz więcej pytań dotyczących naszego produktu Domena? Znajdź odpowiedzi na wszystko, co chcesz wiedzieć o funkcjach, korzyściach, konfiguracji i efektywnym wykorzystaniu. Dzięki temu zdobędziesz wszystkie potrzebne informacje, aby w pełni wykorzystać nasz produkt Domena. A jeśli coś nadal będzie niejasne, po prostu skontaktuj się z nami – jesteśmy tu, by pomóc Ci od razu.
 <SearchableAccordion items={items} />
 
 <InlineVoucher />

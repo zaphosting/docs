@@ -1,8 +1,8 @@
 ---
 id: domain-teamspeak-redirect
-title: "Dominio: Configura el reenvío para TeamSpeak 3"
+title: "Dominio: Configurar redirección para TeamSpeak 3"
 description: "Descubre cómo simplificar la conexión a tu servidor de TeamSpeak 3 usando dominios o subdominios personalizados para un acceso fácil → Aprende más ahora"
-sidebar_label: Reenvío TeamSpeak 3
+sidebar_label: Redirección TeamSpeak 3
 services:
   - domain
 ---
@@ -21,6 +21,8 @@ Así, nadie tendrá que recordar la complicada dirección IP numérica y podrá 
 :::note
 Por defecto, los servidores de TeamSpeak 3 **nuevos** ahora recibirán un alias `.zap.cloud` con un prefijo aleatorio que se puede usar para conectarse.
 :::
+
+<InlineVoucher />
 
 ## Uso de la configuración rápida TSDNS
 
@@ -44,7 +46,7 @@ Ten en cuenta que puede tardar hasta 3 horas para que el dominio se propague y c
 
 Para redirigir la dirección IP, crea un subdominio que apunte a la dirección IP del servidor de TeamSpeak 3, o redirige todo el dominio sin subdominio.  
 Esto es suficiente si el servidor de TeamSpeak 3 usa el puerto predeterminado **9987**.  
-Sin embargo, si el servidor de TeamSpeak 3 usa un puerto diferente al predeterminado, se debe añadir un **registro SRV** adicional para redirigir el dominio o subdominio al puerto correcto.
+Sin embargo, si el servidor de TeamSpeak 3 usa un puerto diferente al predeterminado, se debe añadir un **registro SRV** adicional para redirigir el dominio o subdominio al puerto correcto del servidor de TeamSpeak 3.
 
 ### Servicio SRV
 
@@ -53,13 +55,13 @@ Para un servidor de TeamSpeak 3, el nombre del servicio siempre es **_ts3**, sin
 
 ### Protocolo SRV
 
-Como protocolo especificamos el protocolo de Internet usado para la conexión. Aquí están disponibles **UDP** y **TCP**.  
+El protocolo especifica el protocolo de Internet usado para la conexión. Aquí están disponibles **UDP** y **TCP**.  
 La especificación del protocolo también siempre comienza con un **guion bajo** y es **_udp** o **_tcp**.  
 Para un servidor de TeamSpeak 3, siempre se usa **_udp**, sin excepción.
 
 ## Redirigir el dominio sin subdominio
 
-Para redirigir tu dominio a un servidor de juegos sin crear un subdominio, primero abre tu dominio en el panel, luego abre Gestión DNS desde el menú a la izquierda.
+Para redirigir tu dominio a un servidor de juegos sin crear un subdominio, primero abre tu dominio desde el panel, luego abre Gestión DNS desde el menú a la izquierda.
 
 ![](https://puu.sh/Fuzfa/0927cbb177.png)
 
@@ -72,31 +74,31 @@ Si aún no has creado tus propias entradas, puedes ver todas las entradas existe
 
 Luego haz clic en **Nueva entrada** y serás llevado a la creación de un nuevo registro DNS.  
 Como **Nombre** elegimos el nombre del dominio, por ejemplo **teamspeak-server.de**, el **tipo es A** y el **valor** es la IP de tu servidor de TeamSpeak 3, en este caso **88.214.57.116**.  
-Puedes dejar el campo **TTL** sin tocar.
+Puedes dejar el campo **TTL** sin modificar.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/cTGTdBFrigs7HDG/preview)
 
-Cuando hayas ingresado todo, haz clic en **Guardar**, la entrada se guardará en la configuración DNS y se mostrará dentro de 24 horas.
+Cuando hayas ingresado todo, haz clic en **Guardar**, la entrada se guardará en la configuración DNS y se mostrará dentro de las próximas 24 horas.
 
 :::info
-Siempre puede tardar hasta 24 horas hasta que las nuevas entradas DNS se activen. Lamentablemente nadie puede influir en esto.
+Siempre puede tardar hasta 24 horas para que las nuevas entradas DNS se activen. Desafortunadamente, nadie puede influir en esto.
 :::
 
 ## Redirigir el dominio con subdominio
 
 Si quieres crear un subdominio, por ejemplo ts.teamspeak-server.de, lo haces como en el ejemplo anterior,  
 pero para **Nombre** no ingresas el nombre del dominio, sino el subdominio.  
-Esto se ve así:
+Se ve así:
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/ocaqgX2DSdspGQ8/preview)
 
 ## Redirigir el dominio con puerto (SRV)
 
-Si no se usa el puerto estándar **9987**, se debe crear un **registro SRV** adicional para no solo redirigir el dominio a la IP del servidor de juegos, sino también al puerto correcto.
+Si no se usa el puerto estándar **9987**, se debe crear un **registro SRV** adicional para redirigir no solo el dominio a la IP del servidor de juegos, sino también al puerto correcto.
 
-Primero creas un **subdominio** como se describió arriba, o rediriges el dominio directamente al servidor de TeamSpeak 3, ambas opciones son posibles.
+Primero, crea un **subdominio** como se describió arriba, o redirige el dominio directamente al servidor de TeamSpeak 3, ambas opciones son posibles.
 
-### Redirigir sin subdominio
+### Redirección sin subdominio
 
 Después de redirigir tu dominio a la IP de tu servidor de TeamSpeak 3 como se describió arriba, haz clic en **Nueva entrada** y crea una entrada que se vea así:
 
@@ -113,7 +115,7 @@ Luego puedes hacer clic en **Guardar**.
 ¡Es importante que se ponga un **punto** al final del dominio en el campo **valor**!
 :::
 
-### Redirigir con subdominio
+### Redirección con subdominio
 
 Con un subdominio es casi igual. Primero creas un subdominio como se describió arriba y lo rediriges a la IP de tu servidor de TeamSpeak 3. Luego haz clic en **Nueva entrada** y crea una entrada con el siguiente contenido:
 

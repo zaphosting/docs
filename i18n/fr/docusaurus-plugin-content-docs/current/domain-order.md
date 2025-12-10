@@ -13,11 +13,13 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Chez ZAP-Hosting, on propose une large variété de domaines populaires, y compris des gTLD comme `.com` et `.net`, que tu peux commander directement via notre [configurateur de domaine](https://zap-hosting.com/en/shop/product/domain/). Dans ce guide, on va te détailler tout le processus de commande.
 
+<InlineVoucher />
+
 ## Commander un nouveau domaine
 
 Tu peux commander ton propre domaine [directement ici](https://zap-hosting.com/en/shop/product/domain/). Sur la page, utilise la barre de recherche pour entrer le nom de domaine que tu souhaites posséder, puis clique sur rechercher.
 
-Le site te montrera alors la disponibilité de chaque domaine pour ce nom, ce qui te facilite la tâche pour en trouver un de dispo. Si un domaine n’est pas dispo, ça veut dire que quelqu’un d’autre le possède déjà et tu ne peux donc pas le commander.
+Le site te montrera alors la disponibilité de chaque domaine pour ce nom, ce qui te facilite la tâche pour en trouver un de dispo. Si un domaine n’est pas dispo, ça veut dire que quelqu’un d’autre le possède déjà et tu ne pourras pas le commander.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/cmdoBKgzYeJPPJH/preview)
 
@@ -25,7 +27,7 @@ Le site te montrera alors la disponibilité de chaque domaine pour ce nom, ce qu
 
 Les domaines sont toujours facturés par tranches de **1 an** et doivent être renouvelés avant la date d’expiration, sinon tu risques de le perdre.
 
-Pendant la commande, tu devras fournir honnêtement plusieurs infos perso comme ton prénom, nom et adresse. Ces infos sont privées et seuls le registrar et les autorités peuvent y accéder si c’est absolument nécessaire.
+Pendant la commande, tu devras fournir honnêtement plusieurs infos perso comme ton prénom, nom et adresse. Ces infos sont privées et seuls le registrar et les autorités peuvent y accéder si c’est vraiment nécessaire.
 
 :::info
 Avec le RGPD en vigueur dans toute l’UE, toutes les infos que tu fournis avec le domaine restent privées et ne sont pas accessibles publiquement.

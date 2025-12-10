@@ -13,6 +13,8 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Die **ProfiDNS-Option** bietet dir die Möglichkeit, erweiterte Einstellungen an den DNS-Konfigurationen vorzunehmen. So kannst du sowohl ZAP-Hostings eigene Services als auch externe Dienste verknüpfen. Die Möglichkeiten sind also quasi grenzenlos.
 
+<InlineVoucher />
+
 ## Zugriff und Anwendungsfall
 
 Um auf die EasyDNS-Option zuzugreifen und sie zu aktivieren, musst du die Verwaltung deiner Domain im Webinterface öffnen. Dort findest du unter DNS-Verwaltung folgende Optionen:
@@ -25,11 +27,11 @@ Standardmäßig ist die **EasyDNS**-Option ausgewählt. Du musst also zuerst die
 
 ![2022-05-07_21-51_1](https://screensaver01.zap-hosting.com/index.php/s/tgQaM3iP2oYZsDC/preview)
 
-Die DNS-Einträge kannst du unter **DNS-Verwaltung** in der Domain-Verwaltung unter Einstellungen bearbeiten. Dort lassen sich neue Einträge anlegen oder bestehende anpassen/löschen.
+Die DNS-Einträge kannst du unter **DNS-Verwaltung** in der Domain-Verwaltung unter Einstellungen verwalten. Dort lassen sich neue Einträge anlegen oder bestehende anpassen/löschen.
 
 ![2022-05-07_21-50_1](https://screensaver01.zap-hosting.com/index.php/s/DHodS8rAggnMmSF/preview)
 
-Wir empfehlen dir, einen Blick in die folgenden Anleitungen zu werfen, um weitere wichtige Infos zur DNS-Konfiguration zu bekommen:
+Wir empfehlen dir, einen Blick in die folgenden Anleitungen zu werfen, um weitere wichtige Infos zur DNS-Konfiguration zu erhalten:
 
 - [Domain-Einträge](domain-records.md)
 - [Gameserver-Weiterleitung](domain-gameserver-srv-link.md)

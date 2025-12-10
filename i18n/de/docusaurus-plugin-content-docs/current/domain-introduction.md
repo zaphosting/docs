@@ -1,7 +1,7 @@
 ---
 id: domain-introduction
 title: "Domain: Einführung"
-description: "Entdecke, wie du dir eine personalisierte Domain zu fairen Preisen für deine Website oder Server sichern kannst → Jetzt mehr erfahren"
+description: "Entdecke, wie du dir eine persönliche Domain zu fairen Preisen für deine Website oder Server sichern kannst → Jetzt mehr erfahren"
 sidebar_label: Einführung
 services:
   - domain
@@ -17,15 +17,17 @@ Suchst du eine Domain zu einem fairen Preis? Dann bist du bei ZAP-Hosting genau 
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/ESkLyeoLMTTENHG/preview)
 
+<InlineVoucher />
+
 ## Bestellung
 
-Der Bestellprozess ist super einfach. Wähle deine Wunschkonfiguration für deine [Domain](https://zap-hosting.com/en/shop/product/domain/). Die Einrichtungszeit dauert nur wenige Sekunden. Danach kannst du sofort mit der Konfiguration starten. Mehr Infos zum genauen Bestellablauf findest du in unserer [Domain bestellen](domain-order.md) Anleitung.
+Der Bestellprozess ist super easy. Wähle deine Wunschkonfiguration für deine [Domain](https://zap-hosting.com/en/shop/product/domain/). Die Einrichtung dauert nur wenige Sekunden. Danach kannst du direkt mit der Konfiguration starten. Mehr Infos zum genauen Bestellablauf findest du in unserer [Domain bestellen](domain-order.md) Anleitung.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/FEN8gHSaL9i7X38/preview)
 
 ## Verfügbare Domains
 
-Wir bieten eine große Auswahl an verfügbaren Domain-Endungen. Die Preise können je nach Domain-Endung variieren. Im Folgenden listen wir die gängigsten Domains und ihre Preise sowie alle weiteren Domain-Endungen, die wir aktiv anbieten.
+Wir bieten eine große Auswahl an verfügbaren Domain-Endungen. Die Preise können je nach Domain-Endung variieren. Im Folgenden findest du die gängigsten Domains mit ihren Preisen sowie alle weiteren Domain-Endungen, die wir aktiv anbieten.
 
 | Gängige Domain-Endungen | Preis (pro Jahr) |
 |---------------|-------|
@@ -40,7 +42,7 @@ Wir bieten eine große Auswahl an verfügbaren Domain-Endungen. Die Preise könn
 | .tech         | 81,20 € |
 | .shop         | 54,50 € |
 
-Außerdem bieten wir auch folgende Domain-Endungen an: .es, .it, .nl, .fr, .ch, .link, .work, .at, .ro, .xyz, .dk, .club, .rocks, .me, .rip, .one, .vip, .exposed, .jetzt, .run, .website, .cloud, .ninja, .earth, .today, .solutions, .technology, .gmbh, .systems, .email, .wine, .win, .download, .lol, .party, .site, .beer, .vodka, .surf, .help, .fail, .wiki, .blog, .cool, .plus, .world, .wtf, .community, .team, .zone, .life, .money, .digital, .design, .pizza, .codes, .store, .berlin, .bar, .bio, .io, .im, .host, .gg
+Außerdem bieten wir folgende Domain-Endungen an: .es, .it, .nl, .fr, .ch, .link, .work, .at, .ro, .xyz, .dk, .club, .rocks, .me, .rip, .one, .vip, .exposed, .jetzt, .run, .website, .cloud, .ninja, .earth, .today, .solutions, .technology, .gmbh, .systems, .email, .wine, .win, .download, .lol, .party, .site, .beer, .vodka, .surf, .help, .fail, .wiki, .blog, .cool, .plus, .world, .wtf, .community, .team, .zone, .life, .money, .digital, .design, .pizza, .codes, .store, .berlin, .bar, .bio, .io, .im, .host, .gg
 
 :::info
 Bitte achte darauf, bei der Wahl des Namens und der Domain-Endung keine Premium-Domain auszuwählen. Diese können wir zu den angegebenen Preisen nicht anbieten.
@@ -51,7 +53,7 @@ Bitte achte darauf, bei der Wahl des Namens und der Domain-Endung keine Premium-
 Dank des günstigen Preises, der einfachen Verwaltung und den vielfältigen Möglichkeiten kann eine Domain in verschiedenen Bereichen eingesetzt werden, unter anderem:
 
 - Websites
-- Mailservice
+- Mail-Service
 - Firmenidentität und Branding
 - Digitales Marketing und Werbung
 

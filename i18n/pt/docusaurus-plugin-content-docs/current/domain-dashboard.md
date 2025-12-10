@@ -1,7 +1,7 @@
 ---
 id: domain-dashboard
 title: "Domínio: Visão Geral do Dashboard"
-description: "Descubra como gerenciar seu domínio de forma eficiente e acessar todos os recursos principais para uma configuração e controle ideais → Saiba mais agora"
+description: "Descubra como gerenciar seu domínio de forma eficiente e acessar todos os recursos-chave para uma configuração e controle ideais → Saiba mais agora"
 sidebar_label: Dashboard
 services:
   - domain
@@ -16,17 +16,17 @@ Você está interessado em um **Domínio** ou já possui um, mas ainda não tem 
 
 Depois de passar por este guia, você vai conseguir gerenciar seu domínio de forma eficiente e encontrar todas as opções e recursos necessários de forma rápida e fácil. Aqui, você terá uma visão estruturada que vai te ajudar passo a passo a se familiarizar com a administração do domínio e expandir seu conhecimento de forma direcionada. Assim, você garante que seu **Domínio** esteja configurado da melhor forma para suas necessidades e que você aproveite ao máximo as opções disponíveis.
 
-
+<InlineVoucher />
 
 ## Administração do Produto
 
-Na seção **Administração do Produto**, você encontra todas as páginas necessárias para gerenciar seu domínio. As opções para administrar seu domínio estão listadas em detalhes abaixo. 
+Na seção **Administração do Produto**, você encontra todas as páginas necessárias para gerenciar seu domínio. As opções para administrar seu domínio estão listadas detalhadamente abaixo. 
 
 
 
 ### Dashboard
 
-O **Dashboard** do seu domínio é o coração da administração. Todas as informações básicas e essenciais sobre seu domínio são apresentadas de forma clara aqui. Isso inclui, por exemplo, informações sobre o domínio, registro/expiração dos servidores de nomes e o AUTH-Code. Além disso, você também pode usar nossos modos simples de DNS ([EasyDNS](domain-easydns.md), [ProfiDNS](domain-profidns.md), [ExpertDNS](domain-expertdns)) direto pelo dashboard.
+O **Dashboard** do seu domínio é o coração da administração. Todas as informações básicas e essenciais sobre seu domínio são apresentadas de forma clara aqui. Isso inclui, por exemplo, informações sobre o domínio, datas de registro/expiração dos servidores de nomes e o Código AUTH. Além disso, você também pode usar nossos modos DNS simples ([EasyDNS](domain-easydns.md), [ProfiDNS](domain-profidns.md), [ExpertDNS](domain-expertdns)) direto pelo dashboard.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/xQww62Noja46TED/preview)
 
@@ -44,7 +44,7 @@ O **Registro de Eventos** te oferece uma visão completa de todas as atividades 
 
 ## Configurações
 
-Na seção **Configurações**, você encontra todas as páginas necessárias para configurar seu domínio. As opções disponíveis para configurar seu domínio estão listadas em detalhes abaixo.
+Na seção **Configurações**, você encontra todas as páginas necessárias para configurar seu domínio. As opções disponíveis para configurar seu domínio estão listadas detalhadamente abaixo.
 
 
 
@@ -71,7 +71,7 @@ Na seção **Links Adicionais**, você encontra links relevantes para o seu prod
 A seção **Perguntas Frequentes** oferece uma visão geral das dúvidas mais comuns dos nossos clientes. Aqui, você encontra respostas úteis e informações detalhadas sobre vários temas para te ajudar de forma rápida e eficiente.
 
 ### Documentação ZAP-Hosting
-Oferecemos uma documentação completa para nossos produtos, que serve como base de conhecimento para as dúvidas e questões mais frequentes. Lá você encontra vários guias e ajuda sobre diferentes assuntos que vão te auxiliar no uso e na administração do seu produto.
+Oferecemos uma documentação completa para nossos produtos, que serve como base de conhecimento para as dúvidas e questões mais frequentes. Lá você encontra vários guias e ajudas sobre diferentes temas que vão te auxiliar no uso e na administração do seu produto.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/n48ct6aZBrNq7eT/preview)
 
