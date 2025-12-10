@@ -13,7 +13,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 The **ProfiDNS option** offers the possibility to make advanced configurations to the DNS settings. This allows you to link to ZAP-Hosting's own services as well as to other external services. The possibilities are therefore endless. 
 
-
+<InlineVoucher />
 
 ## Access and use case
 

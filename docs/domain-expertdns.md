@@ -13,7 +13,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 The **ExpertDNS option** offers the possibility to use external name servers instead of the ones provided by ZAP-Hosting. With just a few clicks you can change the name servers. 
 
-
+<InlineVoucher />
 
 ## Access and use case
 

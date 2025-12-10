@@ -12,6 +12,8 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 ## Introduction
 You can either forward your domain completely or only a subdomain to your game server. This is useful because it allows people to connect to your game server via a domain, instead of having to remember complicated IP addresses composed of numbers only. In this guide, we will cover the process of setting up a domain to forward to your game server via DNS records.
 
+<InlineVoucher />
+
 :::info
 Please note that it can always take up to 24 hours until changes to DNS entries become active!
 :::

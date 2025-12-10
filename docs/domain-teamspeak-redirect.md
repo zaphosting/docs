@@ -22,6 +22,8 @@ This way, no one has to remember the complicated IP address consisting of number
 By default, **new** TeamSpeak 3 servers will now receive a `.zap.cloud` alias with a random prefix which can be used to connect.
 :::
 
+<InlineVoucher />
+
 ## Using TSDNS quick setup
 
 We have implemented a new TSDNS system for our TeamSpeak 3 servers, which allows you to setup a subdomain for your TeamSpeak 3 server in just a few clicks! If you don't have a domain with us, skip to the next section to manually setup DNS records.

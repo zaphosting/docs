@@ -13,6 +13,8 @@ A **domain handle** is a data record containing contact information associated w
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/qNEeWEnbtHyxKEe/preview)
 
+<InlineVoucher />
+
 ## Creating or Editing
 
 In the domain management under **Handle Management**, you can either modify an existing handle or create a new one. The following fields can be configured or updated when working with a handle:

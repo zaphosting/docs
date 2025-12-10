@@ -13,6 +13,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Are you new and interested in ZAP-Hosting's products? Then you are in the right place. First of all, welcome to ZAP-Hosting! We are pleased that you are interested in our services and want to learn on how to transfer your existing domain from another provider to us. This guide will inform you of the general steps you need to take to successfully transfer your domain to us.
 
+<InlineVoucher />
 
 ## Advantages
 
