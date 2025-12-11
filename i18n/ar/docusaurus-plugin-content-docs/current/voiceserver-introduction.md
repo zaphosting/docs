@@ -9,7 +9,7 @@ services:
 
 import InlineVoucher from '@site/src/components/InlineVoucher';
 import SearchableAccordion from '@site/src/components/SearchableAccordion/SearchableAccordion';
-import items from '@site/data/faqs/voiceserver-introduction-en.json';
+import items from '@site/data/faqs/voiceserver-introduction.json';
 
 ## مقدمة
 هل تبحث عن سيرفر صوتي خاص بك ولأصدقائك بسعر عادل؟ إذًا أنت في المكان الصح مع ZAP-Hosting! عندنا تقدر تأجر أو تشتري سيرفر صوتي يناسبك. تقدر تخصص وتضبط سيرفرك الصوتي حسب ذوقك واحتياجاتك.
@@ -28,6 +28,6 @@ import items from '@site/data/faqs/voiceserver-introduction-en.json';
 
 ## الأسئلة المتكررة
 عندك أسئلة أكثر عن منتج السيرفر الصوتي؟ احصل على إجابات لكل اللي تبي تعرفه عن المميزات، الفوائد، الإعداد وكيف تستخدمه بشكل فعّال. بهالطريقة تحصل على كل المعلومات اللي تحتاجها عشان تستفيد لأقصى حد من منتج السيرفر الصوتي عندنا. وإذا في شي بعده مش واضح، تواصل معنا وحنا جاهزين نساعدك فورًا.
-<SearchableAccordion items={items} />
+<SearchableAccordion items={items} locale="ar" />
 
 <InlineVoucher />

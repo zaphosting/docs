@@ -1,0 +1,302 @@
+[
+  {
+    "title": {
+      "en": "What is the difference between the TeamSpeak MyMusicBot and a Discord Bot Server?",
+      "de": "Was ist der Unterschied zwischen dem TeamSpeak MyMusicBot und einem Discord Bot Server?",
+      "es": "¿Cuál es la diferencia entre el MyMusicBot de TeamSpeak y un servidor de bot de Discord?",
+      "fr": "Quelle est la différence entre le MyMusicBot de TeamSpeak et un serveur de bot Discord ?",
+      "ar": "ما الفرق بين MyMusicBot في TeamSpeak وخادم بوت Discord؟",
+      "pt": "Qual é a diferença entre o TeamSpeak MyMusicBot e um Servidor de Bot do Discord?",
+      "th": "ความแตกต่างระหว่าง TeamSpeak MyMusicBot และ Discord Bot Server คืออะไร?",
+      "pl": "Jaka jest różnica między TeamSpeak MyMusicBot a serwerem bota Discord?",
+      "ja": "TeamSpeakのMyMusicBotとDiscord Bot Serverの違いは何ですか？",
+      "sv": "Vad är skillnaden mellan TeamSpeak MyMusicBot och en Discord Bot Server?",
+      "it": "Qual è la differenza tra il TeamSpeak MyMusicBot e un server bot Discord?",
+      "nl": "Wat is het verschil tussen de TeamSpeak MyMusicBot en een Discord Bot Server?"
+    },
+    "content": {
+      "en": "The TeamSpeak MyMusicBot is a specialized voice bot that plays music within TS3/Discord with features like YouTube browsing, Shoutcast support, text-to-speech, and welcome messages, all managed via an intuitive web interface. A Discord Bot Server, by contrast, provides you with a full host environment (Node.js, Java or Python) to run your own Discord bots continuously, with full FTP access and DDoS protection.",
+      "de": "Der TeamSpeak MyMusicBot ist ein spezialisierter Voice-Bot für TS3/Discord, der Musik abspielt – inklusive YouTube-Browser, Shoutcast-Support, Text-to-Speech und Begrüßungsnachrichten – alles über eine elegante Weboberfläche. Ein Discord Bot Server hingegen stellt eine vollwertige Hosting-Umgebung (Node.js, Java oder Python) bereit, auf der du deine eigenen Discord-Bots dauerhaft betreiben kannst – inklusive FTP-Zugriff und DDoS-Schutz.",
+      "es": "El TeamSpeak MyMusicBot es un bot de voz especializado que reproduce música dentro de TS3/Discord con características como navegación por YouTube, soporte para Shoutcast, conversión de texto a voz y mensajes de bienvenida, todo gestionado a través de una interfaz web intuitiva. Un Servidor de Bot de Discord, en contraste, te proporciona un entorno de alojamiento completo (Node.js, Java o Python) para ejecutar tus propios bots de Discord de manera continua, con acceso completo a FTP y protección contra DDoS.",
+      "fr": "Le MyMusicBot de TeamSpeak est un bot vocal spécialisé qui joue de la musique dans TS3/Discord avec des fonctionnalités telles que la navigation sur YouTube, le support de Shoutcast, la synthèse vocale et des messages de bienvenue, le tout géré via une interface web intuitive. En revanche, un serveur de bot Discord vous offre un environnement d'hébergement complet (Node.js, Java ou Python) pour exécuter vos propres bots Discord en continu, avec un accès FTP complet et une protection contre les DDoS.",
+      "ar": "يعتبر MyMusicBot الخاص بـ TeamSpeak بوت صوتي متخصص يقوم بتشغيل الموسيقى داخل TS3/Discord مع ميزات مثل تصفح YouTube، ودعم Shoutcast، وتحويل النص إلى كلام، ورسائل الترحيب، وكل ذلك يتم إدارته عبر واجهة ويب بديهية. من ناحية أخرى، يوفر خادم بوت Discord بيئة استضافة كاملة (Node.js، Java أو Python) لتشغيل بوتات Discord الخاصة بك بشكل مستمر، مع وصول كامل إلى FTP وحماية من هجمات DDoS.",
+      "pt": "O TeamSpeak MyMusicBot é um bot de voz especializado que toca música dentro do TS3/Discord, com recursos como navegação no YouTube, suporte a Shoutcast, conversão de texto em fala e mensagens de boas-vindas, tudo gerenciado por meio de uma interface web intuitiva. Por outro lado, um Servidor de Bot do Discord oferece um ambiente de hospedagem completo (Node.js, Java ou Python) para executar seus próprios bots do Discord continuamente, com acesso completo ao FTP e proteção contra DDoS.",
+      "th": "TeamSpeak MyMusicBot เป็นบอทเสียงเฉพาะทางที่เล่นเพลงภายใน TS3/Discord โดยมีฟีเจอร์เช่น การค้นหา YouTube, การสนับสนุน Shoutcast, การแปลงข้อความเป็นเสียง, และข้อความต้อนรับ ซึ่งทั้งหมดนี้จัดการผ่านอินเทอร์เฟซเว็บที่ใช้งานง่าย ในทางตรงกันข้าม, Discord Bot Server จะให้คุณมีสภาพแวดล้อมโฮสต์เต็มรูปแบบ (Node.js, Java หรือ Python) เพื่อรันบอท Discord ของคุณอย่างต่อเนื่อง พร้อมการเข้าถึง FTP แบบเต็มรูปแบบและการป้องกัน DDoS.",
+      "pl": "TeamSpeak MyMusicBot to specjalizowany bot głosowy, który odtwarza muzykę w TS3/Discord, oferując funkcje takie jak przeglądanie YouTube, wsparcie dla Shoutcast, syntezę mowy oraz wiadomości powitalne, wszystko zarządzane za pomocą intuicyjnego interfejsu webowego. Z kolei serwer botów Discord zapewnia pełne środowisko hostingowe (Node.js, Java lub Python) do ciągłego uruchamiania własnych botów Discord, z pełnym dostępem FTP i ochroną przed DDoS.",
+      "ja": "TeamSpeak MyMusicBotは、TS3/Discord内で音楽を再生するための専門的なボイスボットで、YouTubeブラウジング、Shoutcastサポート、テキスト読み上げ、ウェルカムメッセージなどの機能を備えており、直感的なウェブインターフェースを通じて管理されます。一方、Discord Bot Serverは、Node.js、Java、またはPythonを使用して独自のDiscordボットを継続的に実行するための完全なホスティング環境を提供し、完全なFTPアクセスとDDoS保護を備えています。",
+      "sv": "TeamSpeak MyMusicBot är en specialiserad röstbot som spelar musik inom TS3/Discord med funktioner som YouTube-sökning, Shoutcast-stöd, text-till-tal och välkomstmeddelanden, allt hanterat via ett intuitivt webbgränssnitt. En Discord Bot Server, å sin sida, ger dig en fullständig värdmiljö (Node.js, Java eller Python) för att kontinuerligt köra dina egna Discord-botar, med full FTP-åtkomst och DDoS-skydd.",
+      "it": "Il TeamSpeak MyMusicBot è un bot vocale specializzato che riproduce musica all'interno di TS3/Discord con funzionalità come la navigazione su YouTube, supporto Shoutcast, sintesi vocale e messaggi di benvenuto, il tutto gestito tramite un'interfaccia web intuitiva. Un server bot Discord, al contrario, ti offre un ambiente di hosting completo (Node.js, Java o Python) per eseguire continuamente i tuoi bot Discord, con accesso FTP completo e protezione DDoS.",
+      "nl": "De TeamSpeak MyMusicBot is een gespecialiseerde voice bot die muziek afspeelt binnen TS3/Discord met functies zoals YouTube-browsing, Shoutcast-ondersteuning, tekst-naar-spraak en welkomstberichten, allemaal beheerd via een intuïtieve webinterface. Een Discord Bot Server daarentegen biedt je een volledige hostomgeving (Node.js, Java of Python) om je eigen Discord-bots continu te draaien, met volledige FTP-toegang en DDoS-bescherming."
+    }
+  },
+  {
+    "title": {
+      "en": "Can I upload my music and playlists to the MusicBot?",
+      "de": "Kann ich Musik und Playlists in den MusicBot hochladen?",
+      "es": "¿Puedo subir mi música y listas de reproducción al MusicBot?",
+      "fr": "Puis-je télécharger ma musique et mes playlists sur le MusicBot ?",
+      "ar": "هل يمكنني رفع موسيقاي وقوائم التشغيل الخاصة بي إلى MusicBot؟",
+      "pt": "Posso fazer o upload da minha música e playlists para o MusicBot?",
+      "th": "ฉันสามารถอัปโหลดเพลงและเพลย์ลิสต์ของฉันไปยัง MusicBot ได้หรือไม่?",
+      "pl": "Czy mogę przesłać swoją muzykę i playlisty do MusicBota?",
+      "ja": "MusicBotに自分の音楽やプレイリストをアップロードできますか？",
+      "sv": "Kan jag ladda upp min musik och mina spellistor till MusicBot?",
+      "it": "Posso caricare la mia musica e le mie playlist su MusicBot?",
+      "nl": "Kan ik mijn muziek en afspeellijsten uploaden naar de MusicBot?"
+    },
+    "content": {
+      "en": "Yes. You get up to 50 GB SSD storage space to upload your desired music. You can browse YouTube or Shoutcast directly in the interface, and also manage playlists, welcome messages, or TTS—all via a simple and elegant GUI.",
+      "de": "Ja. Dir stehen bis zu 50 GB SSD-Speicher zur Verfügung, um Musik hochzuladen. Du kannst YouTube oder Shoutcast direkt in der Oberfläche durchsuchen, Playlists verwalten, Begrüßungsnachrichten setzen oder TTS nutzen – alles über ein einfaches GUI.",
+      "es": "Sí. Obtienes hasta 50 GB de espacio de almacenamiento SSD para subir la música que desees. Puedes navegar por YouTube o Shoutcast directamente en la interfaz, y también gestionar listas de reproducción, mensajes de bienvenida o TTS, todo a través de una interfaz gráfica de usuario simple y elegante.",
+      "fr": "Oui. Vous disposez de jusqu'à 50 Go d'espace de stockage SSD pour télécharger la musique de votre choix. Vous pouvez naviguer sur YouTube ou Shoutcast directement dans l'interface, et également gérer des playlists, des messages de bienvenue ou du TTS—le tout via une interface graphique simple et élégante.",
+      "ar": "نعم. ستحصل على مساحة تخزين SSD تصل إلى 50 جيجابايت لتحميل الموسيقى التي ترغب بها. يمكنك تصفح يوتيوب أو شوتكاست مباشرة من الواجهة، وأيضًا إدارة قوائم التشغيل، ورسائل الترحيب، أو TTS - كل ذلك عبر واجهة مستخدم بسيطة وأنيقة.",
+      "pt": "Sim. Você tem até 50 GB de espaço de armazenamento SSD para fazer upload da música que desejar. Você pode navegar no YouTube ou Shoutcast diretamente na interface, além de gerenciar playlists, mensagens de boas-vindas ou TTS—tudo isso através de uma interface gráfica simples e elegante.",
+      "th": "ใช่แล้ว คุณจะได้รับพื้นที่จัดเก็บ SSD สูงสุด 50 GB เพื่ออัปโหลดเพลงที่คุณต้องการ คุณสามารถเรียกดู YouTube หรือ Shoutcast ได้โดยตรงในอินเทอร์เฟซ และยังสามารถจัดการเพลย์ลิสต์ ข้อความต้อนรับ หรือ TTS ทั้งหมดนี้ผ่าน GUI ที่เรียบง่ายและสวยงาม",
+      "pl": "Tak. Otrzymujesz do 50 GB przestrzeni dyskowej SSD, aby przesłać swoją ulubioną muzykę. Możesz przeglądać YouTube lub Shoutcast bezpośrednio w interfejsie, a także zarządzać playlistami, wiadomościami powitalnymi lub TTS — wszystko za pomocą prostego i eleganckiego interfejsu graficznego.",
+      "ja": "はい。最大50 GBのSSDストレージスペースが提供され、希望する音楽をアップロードできます。インターフェース内でYouTubeやShoutcastを直接ブラウズでき、プレイリスト、ウェルカムメッセージ、TTSの管理もすべてシンプルでエレガントなGUIを通じて行えます。",
+      "sv": "Ja. Du får upp till 50 GB SSD-lagringsutrymme för att ladda upp din önskade musik. Du kan bläddra på YouTube eller Shoutcast direkt i gränssnittet, och även hantera spellistor, välkomstmeddelanden eller TTS—allt via en enkel och elegant GUI.",
+      "it": "Sì. Hai a disposizione fino a 50 GB di spazio di archiviazione SSD per caricare la musica desiderata. Puoi navigare su YouTube o Shoutcast direttamente nell'interfaccia e gestire anche le playlist, i messaggi di benvenuto o il TTS, il tutto tramite un'interfaccia grafica semplice ed elegante.",
+      "nl": "Ja. Je krijgt tot 50 GB SSD-opslagruimte om je gewenste muziek te uploaden. Je kunt YouTube of Shoutcast rechtstreeks in de interface doorbladeren en ook afspeellijsten, welkomstberichten of TTS beheren - allemaal via een eenvoudige en elegante GUI."
+    }
+  },
+  {
+    "title": {
+      "en": "Which programming languages are supported on the Discord Bot Server?",
+      "de": "Welche Programmiersprachen werden vom Discord Bot Server unterstützt?",
+      "es": "¿Qué lenguajes de programación son compatibles con el servidor de bots de Discord?",
+      "fr": "Quelles langages de programmation sont pris en charge sur le serveur de bot Discord ?",
+      "ar": "ما هي لغات البرمجة المدعومة على خادم بوت ديسكورد؟",
+      "pt": "Quais linguagens de programação são suportadas no Servidor de Bot do Discord?",
+      "th": "ภาษาโปรแกรมใดบ้างที่รองรับบน Discord Bot Server?",
+      "pl": "Jakie języki programowania są obsługiwane na serwerze bota Discord?",
+      "ja": "Discord Bot Serverでサポートされているプログラミング言語は何ですか？",
+      "sv": "Vilka programmeringsspråk stöds på Discord Bot Server?",
+      "it": "Quali linguaggi di programmazione sono supportati sul Server Bot di Discord?",
+      "nl": "Welke programmeertalen worden ondersteund op de Discord Bot Server?"
+    },
+    "content": {
+      "en": "The Discord Bot Server supports Node.js, Java, and Python. You select the language in the web interface, upload your bot files via FTP, and run your bot continuously with full DDoS protection.",
+      "de": "Der Discord Bot Server unterstützt Node.js, Java und Python. Du wählst die Sprache im Webinterface, lädst deine Bot-Dateien via FTP hoch und lässt deinen Bot durchgehend laufen – inklusive DDoS-Schutz.",
+      "es": "El servidor de bots de Discord admite Node.js, Java y Python. Seleccionas el lenguaje en la interfaz web, subes tus archivos de bot a través de FTP y ejecutas tu bot de forma continua con protección completa contra DDoS.",
+      "fr": "Le serveur de bot Discord prend en charge Node.js, Java et Python. Vous sélectionnez le langage dans l'interface web, téléchargez vos fichiers de bot via FTP et exécutez votre bot en continu avec une protection DDoS complète.",
+      "ar": "يدعم خادم بوت ديسكورد Node.js وJava وPython. يمكنك اختيار اللغة من واجهة الويب، وتحميل ملفات البوت الخاصة بك عبر FTP، وتشغيل البوت الخاص بك بشكل مستمر مع حماية كاملة من هجمات DDoS.",
+      "pt": "O Servidor do Bot do Discord suporta Node.js, Java e Python. Você seleciona a linguagem na interface web, faz o upload dos arquivos do seu bot via FTP e executa seu bot continuamente com proteção completa contra DDoS.",
+      "th": "เซิร์ฟเวอร์บอท Discord รองรับ Node.js, Java และ Python คุณสามารถเลือกภาษาในส่วนติดต่อผู้ใช้เว็บ อัปโหลดไฟล์บอทของคุณผ่าน FTP และรันบอทของคุณอย่างต่อเนื่องพร้อมการป้องกัน DDoS แบบเต็มรูปแบบ",
+      "pl": "Serwer bota Discord obsługuje Node.js, Java i Python. Wybierasz język w interfejsie internetowym, przesyłasz pliki swojego bota za pomocą FTP i uruchamiasz swojego bota nieprzerwanie z pełną ochroną przed DDoS.",
+      "ja": "Discordボットサーバーは、Node.js、Java、およびPythonをサポートしています。ウェブインターフェースで言語を選択し、FTPを介してボットファイルをアップロードし、完全なDDoS保護を備えてボットを継続的に実行します。",
+      "sv": "Discord Bot-servern stöder Node.js, Java och Python. Du väljer språket i webbgränssnittet, laddar upp dina botfiler via FTP och kör din bot kontinuerligt med full DDoS-skydd.",
+      "it": "Il server del bot Discord supporta Node.js, Java e Python. Puoi selezionare il linguaggio nell'interfaccia web, caricare i file del tuo bot tramite FTP e far funzionare il tuo bot in modo continuo con piena protezione DDoS.",
+      "nl": "De Discord Bot Server ondersteunt Node.js, Java en Python. Je selecteert de programmeertaal in de webinterface, uploadt je botbestanden via FTP en draait je bot continu met volledige DDoS-bescherming."
+    }
+  },
+  {
+    "title": {
+      "en": "How quickly is my VoiceBot product set up after ordering?",
+      "de": "Wie schnell ist mein VoiceBot-Produkt nach der Bestellung einsatzbereit?",
+      "es": "¿Cuán rápido se configura mi producto VoiceBot después de realizar el pedido?",
+      "fr": "Quelle est la rapidité de la mise en place de mon produit VoiceBot après la commande ?",
+      "ar": "كم من الوقت يستغرق إعداد منتج VoiceBot الخاص بي بعد الطلب؟",
+      "pt": "Quão rapidamente meu produto VoiceBot é configurado após o pedido?",
+      "th": "การตั้งค่า VoiceBot ของฉันจะใช้เวลานานแค่ไหนหลังจากที่สั่งซื้อ?",
+      "pl": "Jak szybko zostanie skonfigurowany mój produkt VoiceBot po złożeniu zamówienia?",
+      "ja": "VoiceBot製品の注文後、どのくらいの速さでセットアップされますか？",
+      "sv": "Hur snabbt sätts min VoiceBot-produkt upp efter beställning?",
+      "it": "Quanto tempo ci vuole per configurare il mio prodotto VoiceBot dopo aver effettuato l'ordine?",
+      "nl": "Hoe snel wordt mijn VoiceBot-product ingesteld na bestelling?"
+    },
+    "content": {
+      "en": "Setup is fully automatic. After ordering and payment, your VoiceBot (MyMusicBot or Discord Bot Server) is configured and ready to go within just a few minutes.",
+      "de": "Der Setup erfolgt vollständig automatisch. Nach Bestellung und Zahlung ist dein VoiceBot (MyMusicBot oder Discord Bot Server) innerhalb weniger Minuten einsatzbereit.",
+      "es": "La configuración es completamente automática. Después de realizar el pedido y el pago, tu VoiceBot (MyMusicBot o Discord Bot Server) se configura y está listo para usar en solo unos minutos.",
+      "fr": "La configuration est entièrement automatique. Après la commande et le paiement, votre VoiceBot (MyMusicBot ou serveur Discord Bot) est configuré et prêt à l'emploi en seulement quelques minutes.",
+      "ar": "الإعداد تلقائي بالكامل. بعد الطلب والدفع، يتم تكوين VoiceBot الخاص بك (MyMusicBot أو خادم Discord Bot) ويكون جاهزًا للاستخدام في غضون بضع دقائق فقط.",
+      "pt": "A configuração é totalmente automática. Após o pedido e o pagamento, seu VoiceBot (MyMusicBot ou Discord Bot Server) é configurado e fica pronto para uso em apenas alguns minutos.",
+      "th": "การตั้งค่าทั้งหมดเป็นแบบอัตโนมัติ หลังจากที่ทำการสั่งซื้อและชำระเงินแล้ว VoiceBot ของคุณ (MyMusicBot หรือ Discord Bot Server) จะถูกตั้งค่าและพร้อมใช้งานภายในไม่กี่นาทีเท่านั้น",
+      "pl": "Konfiguracja jest w pełni automatyczna. Po złożeniu zamówienia i dokonaniu płatności, Twój VoiceBot (MyMusicBot lub Discord Bot Server) jest skonfigurowany i gotowy do użycia w zaledwie kilka minut.",
+      "ja": "セットアップは完全に自動化されています。注文と支払いが完了すると、あなたのVoiceBot（MyMusicBotまたはDiscord Bot Server）が数分以内に設定され、すぐに使用可能になります。",
+      "sv": "Installationen är helt automatisk. Efter beställning och betalning konfigureras din VoiceBot (MyMusicBot eller Discord Bot Server) och är redo att användas inom bara några minuter.",
+      "it": "L'installazione è completamente automatica. Dopo aver effettuato l'ordine e il pagamento, il tuo VoiceBot (MyMusicBot o Discord Bot Server) viene configurato e pronto all'uso in pochi minuti.",
+      "nl": "De setup is volledig automatisch. Na het bestellen en betalen wordt je VoiceBot (MyMusicBot of Discord Bot Server) geconfigureerd en is deze binnen enkele minuten klaar voor gebruik."
+    }
+  },
+  {
+    "title": {
+      "en": "Is the VoiceBot protected against DDoS attacks?",
+      "de": "Ist der VoiceBot gegen DDoS-Angriffe geschützt?",
+      "es": "¿Está protegido el VoiceBot contra ataques DDoS?",
+      "fr": "Le VoiceBot est-il protégé contre les attaques DDoS ?",
+      "ar": "هل يتم حماية VoiceBot من هجمات DDoS؟",
+      "pt": "O VoiceBot está protegido contra ataques DDoS?",
+      "th": "VoiceBot มีการป้องกันการโจมตี DDoS หรือไม่?",
+      "pl": "Czy VoiceBot jest chroniony przed atakami DDoS?",
+      "ja": "VoiceBotはDDoS攻撃から保護されていますか？",
+      "sv": "Är VoiceBot skyddad mot DDoS-attacker?",
+      "it": "Il VoiceBot è protetto contro gli attacchi DDoS?",
+      "nl": "Is de VoiceBot beschermd tegen DDoS-aanvallen?"
+    },
+    "content": {
+      "en": "Absolutely. All VoiceBot services from ZAP-Hosting, including MyMusicBot and Discord Bot Servers, are shielded by robust DDoS protection to ensure constant uptime and stability.",
+      "de": "Ja. Alle VoiceBot-Dienste von ZAP-Hosting, einschließlich MyMusicBot und Discord Bot Server, besitzen einen starken DDoS-Schutz für maximale Stabilität und Uptime.",
+      "es": "Absolutamente. Todos los servicios de VoiceBot de ZAP-Hosting, incluidos MyMusicBot y los Servidores de Bot de Discord, están protegidos por una robusta protección DDoS para garantizar un tiempo de actividad y estabilidad constantes.",
+      "fr": "Absolument. Tous les services VoiceBot de ZAP-Hosting, y compris MyMusicBot et les serveurs de bots Discord, sont protégés par une robuste protection DDoS pour garantir un temps de disponibilité et une stabilité constants.",
+      "ar": "بالطبع. جميع خدمات VoiceBot من ZAP-Hosting، بما في ذلك MyMusicBot وخوادم Discord Bot، محمية بواسطة حماية قوية من هجمات DDoS لضمان وقت تشغيل مستمر واستقرار.",
+      "pt": "Absolutamente. Todos os serviços VoiceBot da ZAP-Hosting, incluindo MyMusicBot e Servidores de Bot do Discord, estão protegidos por uma robusta proteção contra DDoS para garantir tempo de atividade e estabilidade constantes.",
+      "th": "แน่นอน บริการ VoiceBot ทั้งหมดจาก ZAP-Hosting รวมถึง MyMusicBot และ Discord Bot Servers ได้รับการป้องกันด้วยระบบ DDoS ที่มีความแข็งแกร่งเพื่อให้มั่นใจในความพร้อมใช้งานและความเสถียรอย่างต่อเนื่อง",
+      "pl": "Oczywiście. Wszystkie usługi VoiceBot od ZAP-Hosting, w tym MyMusicBot i serwery botów Discord, są chronione przez solidną ochronę DDoS, aby zapewnić ciągłą dostępność i stabilność.",
+      "ja": "もちろんです。ZAP-HostingのすべてのVoiceBotサービス、MyMusicBotやDiscord Botサーバーを含むは、常時稼働と安定性を確保するために強力なDDoS保護によって守られています。",
+      "sv": "Absolut. Alla VoiceBot-tjänster från ZAP-Hosting, inklusive MyMusicBot och Discord Bot-servrar, skyddas av robust DDoS-skydd för att säkerställa konstant drifttid och stabilitet.",
+      "it": "Assolutamente. Tutti i servizi VoiceBot di ZAP-Hosting, inclusi MyMusicBot e i server Discord Bot, sono protetti da una robusta protezione DDoS per garantire un uptime e una stabilità costanti.",
+      "nl": "Absoluut. Alle VoiceBot-diensten van ZAP-Hosting, inclusief MyMusicBot en Discord Bot Servers, zijn beschermd door robuuste DDoS-bescherming om constante uptime en stabiliteit te waarborgen."
+    }
+  },
+  {
+    "title": {
+      "en": "Can I choose between prepaid and contract billing?",
+      "de": "Kann ich zwischen Prepaid- und Vertragsabwicklung wählen?",
+      "es": "¿Puedo elegir entre facturación prepago y por contrato?",
+      "fr": "Puis-je choisir entre la facturation prépayée et la facturation par contrat ?",
+      "ar": "هل يمكنني الاختيار بين الفوترة المدفوعة مسبقًا والفوترة بعقد؟",
+      "pt": "Posso escolher entre faturamento pré-pago e por contrato?",
+      "th": "ฉันสามารถเลือกการชำระเงินแบบเติมเงินหรือแบบสัญญาได้หรือไม่?",
+      "pl": "Czy mogę wybrać między płatnością z góry a rozliczeniem na podstawie umowy?",
+      "ja": "プリペイドと契約請求のどちらかを選ぶことはできますか？",
+      "sv": "Kan jag välja mellan förbetald och avtalsbaserad fakturering?",
+      "it": "Posso scegliere tra fatturazione prepagata e a contratto?",
+      "nl": "Kan ik kiezen tussen prepaid en contractfacturering?"
+    },
+    "content": {
+      "en": "Yes. You can opt for prepaid billing (one-time payment) or a contract model. Prepaid services expire if not renewed manually, whereas contract options renew automatically.",
+      "de": "Ja. Du kannst zwischen Prepaid-Abwicklung (Einmalzahlung) und Vertrag wählen. Bei Prepaid endet der Dienst, wenn du ihn nicht manuell verlängerst. Vertragsprodukte verlängern sich automatisch.",
+      "es": "Sí. Puedes optar por facturación prepaga (pago único) o un modelo de contrato. Los servicios prepagos caducan si no se renuevan manualmente, mientras que las opciones de contrato se renuevan automáticamente.",
+      "fr": "Oui. Vous pouvez opter pour une facturation prépayée (paiement unique) ou un modèle de contrat. Les services prépayés expirent s'ils ne sont pas renouvelés manuellement, tandis que les options de contrat se renouvellent automatiquement.",
+      "ar": "نعم. يمكنك اختيار الفوترة المدفوعة مسبقًا (دفعة واحدة) أو نموذج العقد. تنتهي صلاحية الخدمات المدفوعة مسبقًا إذا لم يتم تجديدها يدويًا، بينما يتم تجديد خيارات العقد تلقائيًا.",
+      "pt": "Sim. Você pode optar pelo faturamento pré-pago (pagamento único) ou por um modelo de contrato. Os serviços pré-pagos expiram se não forem renovados manualmente, enquanto as opções de contrato renovam automaticamente.",
+      "th": "ใช่ คุณสามารถเลือกการเรียกเก็บเงินแบบชำระล่วงหน้า (การชำระเงินครั้งเดียว) หรือแบบสัญญา บริการแบบชำระล่วงหน้าจะหมดอายุหากไม่ได้ทำการต่ออายุด้วยตนเอง ในขณะที่ตัวเลือกแบบสัญญาจะต่ออายุโดยอัตโนมัติ",
+      "pl": "Tak. Możesz wybrać model płatności z góry (jednorazowa opłata) lub model umowy. Usługi opłacone z góry wygasają, jeśli nie zostaną ręcznie odnowione, podczas gdy opcje umowy odnawiają się automatycznie.",
+      "ja": "はい。プリペイド請求（ワンタイムペイメント）または契約モデルを選択できます。プリペイドサービスは手動で更新しない限り期限切れになりますが、契約オプションは自動的に更新されます。",
+      "sv": "Ja. Du kan välja förbetald fakturering (engångsbetalning) eller en kontraktsmodell. Förbetalda tjänster upphör om de inte förnyas manuellt, medan kontraktsalternativ förnyas automatiskt.",
+      "it": "Sì. Puoi scegliere tra la fatturazione prepagata (pagamento una tantum) o un modello contrattuale. I servizi prepagati scadono se non vengono rinnovati manualmente, mentre le opzioni contrattuali si rinnovano automaticamente.",
+      "nl": "Ja. U kunt kiezen voor prepaid facturering (eenmalige betaling) of een contractmodel. Prepaid diensten vervallen als ze niet handmatig worden verlengd, terwijl contractopties automatisch worden verlengd."
+    }
+  },
+  {
+    "title": {
+      "en": "How do I upload my bot or music files?",
+      "de": "Wie lade ich meine Bot- oder Musikdaten hoch?",
+      "es": "¿Cómo subo mis archivos de bot o de música?",
+      "fr": "Comment puis-je télécharger mon bot ou mes fichiers musicaux ?",
+      "ar": "كيف يمكنني رفع البوت أو ملفات الموسيقى الخاصة بي؟",
+      "pt": "Como faço para enviar meu bot ou arquivos de música?",
+      "th": "วิธีการอัปโหลดบอทหรือไฟล์เพลงของฉันคืออะไร?",
+      "pl": "Jak mogę przesłać moje pliki bota lub muzyki?",
+      "ja": "ボットや音楽ファイルをどのようにアップロードしますか？",
+      "sv": "Hur laddar jag upp min bot eller musikfiler?",
+      "it": "Come posso caricare il mio bot o i file musicali?",
+      "nl": "Hoe upload ik mijn bot of muziekbestanden?"
+    },
+    "content": {
+      "en": "You can upload your files via FTP. For Discord Bot Servers, upload your bot's scripts and dependencies. For MyMusicBot, upload music files into the available storage. Full FTP access is provided with both products.",
+      "de": "Du lädst deine Dateien per FTP hoch. Für Discord Bot Server überträgst du die Bot-Skripte und Abhängigkeiten; für MyMusicBot deine Musikdateien. Beide Produkte bieten vollen FTP-Zugriff.",
+      "es": "Puedes subir tus archivos a través de FTP. Para los Servidores de Bot de Discord, sube los scripts y dependencias de tu bot. Para MyMusicBot, sube los archivos de música en el almacenamiento disponible. Se proporciona acceso completo a FTP con ambos productos.",
+      "fr": "Vous pouvez télécharger vos fichiers via FTP. Pour les serveurs de bot Discord, téléchargez les scripts et les dépendances de votre bot. Pour MyMusicBot, téléchargez les fichiers musicaux dans le stockage disponible. Un accès FTP complet est fourni avec les deux produits.",
+      "ar": "يمكنك رفع ملفاتك عبر FTP. بالنسبة لخوادم بوت ديسكورد، قم برفع سكريبتات بوتك والاعتماديات الخاصة به. بالنسبة لـ MyMusicBot، قم برفع ملفات الموسيقى إلى مساحة التخزين المتاحة. يتم توفير وصول كامل عبر FTP مع كلا المنتجين.",
+      "pt": "Você pode fazer o upload dos seus arquivos via FTP. Para Servidores de Bot do Discord, faça o upload dos scripts e dependências do seu bot. Para o MyMusicBot, faça o upload dos arquivos de música no armazenamento disponível. O acesso completo ao FTP é fornecido com ambos os produtos.",
+      "th": "คุณสามารถอัปโหลดไฟล์ของคุณผ่าน FTP สำหรับเซิร์ฟเวอร์ Discord Bot ให้คุณอัปโหลดสคริปต์และการพึ่งพาของบอทของคุณ สำหรับ MyMusicBot ให้คุณอัปโหลดไฟล์เพลงลงในพื้นที่จัดเก็บที่มีอยู่ การเข้าถึง FTP แบบเต็มจะถูกจัดเตรียมให้กับทั้งสองผลิตภัณฑ์",
+      "pl": "Możesz przesyłać swoje pliki za pomocą FTP. Dla serwerów botów Discord, przesyłaj skrypty i zależności swojego bota. Dla MyMusicBot, przesyłaj pliki muzyczne do dostępnej pamięci. Pełny dostęp do FTP jest zapewniony w obu produktach.",
+      "ja": "ファイルはFTPを介してアップロードできます。Discordボットサーバーの場合は、ボットのスクリプトと依存関係をアップロードしてください。MyMusicBotの場合は、音楽ファイルを利用可能なストレージにアップロードします。両方の製品で完全なFTPアクセスが提供されています。",
+      "sv": "Du kan ladda upp dina filer via FTP. För Discord Bot-servrar, ladda upp din bots skript och beroenden. För MyMusicBot, ladda upp musikfiler till det tillgängliga lagringsutrymmet. Full FTP-åtkomst tillhandahålls med båda produkterna.",
+      "it": "Puoi caricare i tuoi file tramite FTP. Per i server di bot Discord, carica gli script e le dipendenze del tuo bot. Per MyMusicBot, carica i file musicali nello spazio di archiviazione disponibile. L'accesso FTP completo è fornito con entrambi i prodotti.",
+      "nl": "Je kunt je bestanden uploaden via FTP. Voor Discord Bot Servers, upload de scripts en afhankelijkheden van je bot. Voor MyMusicBot, upload muziekbestanden in de beschikbare opslag. Volledige FTP-toegang wordt geboden met beide producten."
+    }
+  },
+  {
+    "title": {
+      "en": "Can I upgrade my resources (RAM or storage) later?",
+      "de": "Kann ich später Ressourcen wie RAM oder Speicher erweitern?",
+      "es": "¿Puedo actualizar mis recursos (RAM o almacenamiento) más tarde?",
+      "fr": "Puis-je mettre à niveau mes ressources (RAM ou stockage) plus tard ?",
+      "ar": "هل يمكنني ترقية مواردي (الذاكرة العشوائية أو التخزين) لاحقًا؟",
+      "pt": "Posso atualizar meus recursos (RAM ou armazenamento) mais tarde?",
+      "th": "ฉันสามารถอัปเกรดทรัพยากร (RAM หรือพื้นที่เก็บข้อมูล) ในภายหลังได้หรือไม่?",
+      "pl": "Czy mogę później zwiększyć moje zasoby (RAM lub pamięć)?",
+      "ja": "後でリソース（RAMやストレージ）をアップグレードできますか？",
+      "sv": "Kan jag uppgradera mina resurser (RAM eller lagring) senare?",
+      "it": "Posso aggiornare le mie risorse (RAM o spazio di archiviazione) in seguito?",
+      "nl": "Kan ik mijn middelen (RAM of opslag) later upgraden?"
+    },
+    "content": {
+      "en": "Yes, upgrades are possible and can be performed at any time through the web interface. If your bot needs more memory or storage, you can add it just a few clicks away.",
+      "de": "Ja, Upgrades sind jederzeit über das Webinterface möglich. Wenn dein Bot mehr Arbeitsspeicher oder Speicherplatz benötigt, kannst du das mit wenigen Klicks erweitern.",
+      "es": "Sí, las actualizaciones son posibles y se pueden realizar en cualquier momento a través de la interfaz web. Si tu bot necesita más memoria o almacenamiento, puedes añadirlo con solo unos pocos clics.",
+      "fr": "Oui, les mises à niveau sont possibles et peuvent être effectuées à tout moment via l'interface web. Si votre bot a besoin de plus de mémoire ou de stockage, vous pouvez l'ajouter en quelques clics.",
+      "ar": "نعم، التحديثات ممكنة ويمكن تنفيذها في أي وقت من خلال واجهة الويب. إذا كان الروبوت الخاص بك يحتاج إلى مزيد من الذاكرة أو التخزين، يمكنك إضافته ببضع نقرات فقط.",
+      "pt": "Sim, as atualizações são possíveis e podem ser realizadas a qualquer momento através da interface web. Se o seu bot precisar de mais memória ou armazenamento, você pode adicioná-los com apenas alguns cliques.",
+      "th": "ใช่ การอัปเกรดเป็นไปได้และสามารถทำได้ตลอดเวลาผ่านทางเว็บอินเตอร์เฟซ หากบอทของคุณต้องการหน่วยความจำหรือพื้นที่จัดเก็บเพิ่มเติม คุณสามารถเพิ่มได้เพียงไม่กี่คลิกเท่านั้น",
+      "pl": "Tak, aktualizacje są możliwe i mogą być przeprowadzane w dowolnym momencie za pośrednictwem interfejsu internetowego. Jeśli Twój bot potrzebuje więcej pamięci lub przestrzeni dyskowej, możesz dodać je w zaledwie kilka kliknięć.",
+      "ja": "はい、アップグレードは可能であり、ウェブインターフェースを通じていつでも実行できます。ボットがより多くのメモリやストレージを必要とする場合は、数回のクリックで追加できます。",
+      "sv": "Ja, uppgraderingar är möjliga och kan utföras när som helst via webbgränssnittet. Om din bot behöver mer minne eller lagring kan du lägga till det med bara några klick.",
+      "it": "Sì, gli aggiornamenti sono possibili e possono essere eseguiti in qualsiasi momento tramite l'interfaccia web. Se il tuo bot ha bisogno di più memoria o spazio di archiviazione, puoi aggiungerli con pochi clic.",
+      "nl": "Ja, upgrades zijn mogelijk en kunnen op elk moment via de webinterface worden uitgevoerd. Als je bot meer geheugen of opslag nodig heeft, kun je dit met slechts een paar klikken toevoegen."
+    }
+  },
+  {
+    "title": {
+      "en": "Does the MusicBot support text-to-speech and welcome messages?",
+      "de": "Unterstützt der MusicBot Text-to-Speech und Begrüßungsnachrichten?",
+      "es": "¿El MusicBot soporta texto a voz y mensajes de bienvenida?",
+      "fr": "Le MusicBot prend-il en charge la synthèse vocale et les messages de bienvenue ?",
+      "ar": "هل يدعم MusicBot تحويل النص إلى كلام ورسائل الترحيب؟",
+      "pt": "O MusicBot suporta texto-para-fala e mensagens de boas-vindas?",
+      "th": "MusicBot รองรับการแปลงข้อความเป็นเสียง (text-to-speech) และข้อความต้อนรับ (welcome messages) หรือไม่?",
+      "pl": "Czy MusicBot obsługuje tekst na mowę oraz wiadomości powitalne?",
+      "ja": "MusicBotはテキスト読み上げ機能とウェルカムメッセージをサポートしていますか？",
+      "sv": "Stöder MusicBot text-till-tal och välkomstmeddelanden?",
+      "it": "Il MusicBot supporta la sintesi vocale e i messaggi di benvenuto?",
+      "nl": "Ondersteunt de MusicBot tekst-naar-spraak en welkomstberichten?"
+    },
+    "content": {
+      "en": "Yes. The MyMusicBot features text-to-speech, customizable welcome messages, YouTube browsing, Shoutcast integration, and more.",
+      "de": "Ja. Der MyMusicBot bietet Text-to-Speech, anpassbare Begrüßungsnachrichten, YouTube-Browser, Shoutcast-Integration und weitere Funktionen.",
+      "es": "Sí. MyMusicBot cuenta con texto a voz, mensajes de bienvenida personalizables, navegación por YouTube, integración con Shoutcast y más.",
+      "fr": "Oui. Le MyMusicBot propose des fonctionnalités de synthèse vocale, des messages de bienvenue personnalisables, la navigation sur YouTube, l'intégration de Shoutcast, et bien plus encore.",
+      "ar": "نعم. يتميز MyMusicBot بتحويل النص إلى كلام، ورسائل ترحيب قابلة للتخصيص، وتصفح يوتيوب، وتكامل Shoutcast، والمزيد.",
+      "pt": "Sim. O MyMusicBot possui recursos de conversão de texto em fala, mensagens de boas-vindas personalizáveis, navegação no YouTube, integração com Shoutcast e muito mais.",
+      "th": "ใช่แล้ว MyMusicBot มีฟีเจอร์การแปลงข้อความเป็นเสียง, ข้อความต้อนรับที่ปรับแต่งได้, การค้นหา YouTube, การรวม Shoutcast, และอื่นๆ อีกมากมาย",
+      "pl": "Tak. MyMusicBot oferuje funkcje syntezatora mowy, konfigurowalne wiadomości powitalne, przeglądanie YouTube, integrację z Shoutcast i wiele więcej.",
+      "ja": "はい。MyMusicBotは、テキスト読み上げ機能、カスタマイズ可能なウェルカムメッセージ、YouTubeブラウジング、Shoutcast統合などの機能を備えています。",
+      "sv": "Ja. MyMusicBot har text-till-tal, anpassningsbara välkomstmeddelanden, YouTube-sökning, Shoutcast-integration och mer.",
+      "it": "Sì. MyMusicBot offre funzionalità di sintesi vocale, messaggi di benvenuto personalizzabili, navigazione su YouTube, integrazione con Shoutcast e altro ancora.",
+      "nl": "Ja. De MyMusicBot heeft tekst-naar-spraak, aanpasbare welkomstberichten, YouTube-browsing, Shoutcast-integratie en meer."
+    }
+  },
+  {
+    "title": {
+      "en": "Is there a limit to SSD storage, or bandwidth for the VoiceBot?",
+      "de": "Gibt es eine Beschränkung für SSD-Speicher oder Bandbreite beim VoiceBot?",
+      "es": "¿Hay un límite en el almacenamiento SSD o en el ancho de banda para el VoiceBot?",
+      "fr": "Y a-t-il une limite de stockage SSD ou de bande passante pour le VoiceBot ?",
+      "ar": "هل هناك حد لتخزين SSD أو عرض النطاق الترددي لروبوت الصوت؟",
+      "pt": "Há um limite para o armazenamento SSD ou largura de banda para o VoiceBot?",
+      "th": "มีข้อจำกัดเกี่ยวกับพื้นที่จัดเก็บ SSD หรือแบนด์วิธสำหรับ VoiceBot หรือไม่?",
+      "pl": "Czy istnieje limit na pamięć SSD lub przepustowość dla VoiceBota?",
+      "ja": "VoiceBotのSSDストレージや帯域幅に制限はありますか？",
+      "sv": "Finns det en gräns för SSD-lagring eller bandbredd för VoiceBot?",
+      "it": "C'è un limite allo spazio di archiviazione SSD o alla larghezza di banda per il VoiceBot?",
+      "nl": "Is er een limiet aan SSD-opslag of bandbreedte voor de VoiceBot?"
+    },
+    "content": {
+      "en": "MusicBot offers up to 50 GB SSD storage. Discord Bot Servers do not have storage limits within the fair-use policy, and disk space is generally unrestricted unless you choose to upgrade.",
+      "de": "Der MusicBot bietet bis zu 50 GB SSD-Speicher. Discord Bot Server haben innerhalb der Fair-Use-Richtlinie keine Speicherbeschränkung; Speicherplatz ist im Allgemeinen unbegrenzt, sofern du nicht upgraden willst.",
+      "es": "MusicBot ofrece hasta 50 GB de almacenamiento SSD. Los servidores de bots de Discord no tienen límites de almacenamiento dentro de la política de uso justo, y el espacio en disco es generalmente ilimitado a menos que decidas actualizar.",
+      "fr": "MusicBot offre jusqu'à 50 Go de stockage SSD. Les serveurs de bots Discord n'ont pas de limites de stockage dans le cadre de la politique d'utilisation équitable, et l'espace disque est généralement illimité à moins que vous ne choisissiez de passer à une option supérieure.",
+      "ar": "يقدم MusicBot ما يصل إلى 50 جيجابايت من تخزين SSD. لا تحتوي خوادم بوت ديسكورد على حدود تخزين ضمن سياسة الاستخدام العادل، وعادةً ما تكون مساحة القرص غير محدودة ما لم تقم باختيار الترقية.",
+      "pt": "O MusicBot oferece até 50 GB de armazenamento SSD. Os Servidores de Bot do Discord não têm limites de armazenamento dentro da política de uso justo, e o espaço em disco é geralmente irrestrito, a menos que você opte por fazer um upgrade.",
+      "th": "MusicBot มีพื้นที่จัดเก็บ SSD สูงสุดถึง 50 GB เซิร์ฟเวอร์ Discord Bot ไม่มีข้อจำกัดด้านพื้นที่จัดเก็บภายใต้ นโยบายการใช้งานที่เป็นธรรม และพื้นที่ดิสก์โดยทั่วไปไม่มีข้อจำกัด เว้นแต่คุณจะเลือกอัปเกรด",
+      "pl": "MusicBot oferuje do 50 GB pamięci SSD. Serwery botów Discord nie mają ograniczeń dotyczących pamięci w ramach polityki uczciwego użytkowania, a przestrzeń dyskowa jest zazwyczaj nieograniczona, chyba że zdecydujesz się na aktualizację.",
+      "ja": "MusicBotは最大50 GBのSSDストレージを提供します。Discord Botサーバーはフェアユースポリシー内でストレージ制限がなく、ディスクスペースは一般的に制限されていませんが、アップグレードを選択した場合は別です。",
+      "sv": "MusicBot erbjuder upp till 50 GB SSD-lagring. Discord Bot-servrar har inga lagringsgränser inom ramen för rättvis användning, och diskutrymme är generellt sett obegränsat om du inte väljer att uppgradera.",
+      "it": "MusicBot offre fino a 50 GB di spazio di archiviazione SSD. I server per bot Discord non hanno limiti di archiviazione all'interno della politica di uso corretto, e lo spazio su disco è generalmente illimitato a meno che tu non scelga di eseguire un upgrade.",
+      "nl": "MusicBot biedt tot 50 GB SSD-opslag. Discord Bot Servers hebben geen opslaglimieten binnen het beleid voor eerlijk gebruik, en schijfruimte is over het algemeen onbeperkt, tenzij je ervoor kiest om te upgraden."
+    }
+  }
+]

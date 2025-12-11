@@ -9,7 +9,7 @@ services:
 
 import InlineVoucher from '@site/src/components/InlineVoucher';
 import SearchableAccordion from '@site/src/components/SearchableAccordion/SearchableAccordion';
-import items from '@site/data/faqs/voicebot-introduction-en.json';
+import items from '@site/data/faqs/voicebot-introduction.json';
 
 ## Intro
 
@@ -29,6 +29,6 @@ De Voicebot voor Teamspeak 3 en Discord is een veelzijdige tool die je gebruikt 
 
 ## Veelgestelde Vragen
 Heb je nog meer vragen over onze Voicebot? Vind hier antwoorden op alles wat je wilt weten over functies, voordelen, installatie en hoe je ‘m effectief gebruikt. Zo haal je het maximale uit onze Voicebot. En als er toch iets onduidelijk is, neem gewoon contact op, we helpen je direct verder.
-<SearchableAccordion items={items} />
+<SearchableAccordion items={items} locale="nl" />
 
 <InlineVoucher />

@@ -9,7 +9,7 @@ services:
 
 import InlineVoucher from '@site/src/components/InlineVoucher';
 import SearchableAccordion from '@site/src/components/SearchableAccordion/SearchableAccordion';
-import items from '@site/data/faqs/voiceserver-introduction-en.json';
+import items from '@site/data/faqs/voiceserver-introduction.json';
 
 ## แนะนำ
 กำลังมองหาเซิร์ฟเวอร์เสียงของตัวเองสำหรับคุณและเพื่อน ๆ ในราคายุติธรรมอยู่ใช่ไหม? ถ้าใช่ คุณมาถูกที่แล้วที่ ZAP-Hosting! ที่ ZAP-Hosting คุณสามารถเช่าเซิร์ฟเวอร์เสียงหรือซื้อเซิร์ฟเวอร์เสียงที่เหมาะกับคุณได้ คุณสามารถปรับแต่งและตั้งค่าเซิร์ฟเวอร์เสียงของคุณตามใจชอบได้เลย
@@ -28,6 +28,6 @@ import items from '@site/data/faqs/voiceserver-introduction-en.json';
 
 ## คำถามที่พบบ่อย
 มีคำถามเพิ่มเติมเกี่ยวกับผลิตภัณฑ์เซิร์ฟเวอร์เสียงของเราไหม? หาคำตอบทุกอย่างที่คุณอยากรู้เกี่ยวกับฟีเจอร์, ประโยชน์, การตั้งค่า และวิธีใช้งานให้คุ้มค่าที่สุด ที่นี่คุณจะได้ข้อมูลครบถ้วนเพื่อใช้เซิร์ฟเวอร์เสียงของเราให้เต็มประสิทธิภาพ และถ้ายังมีอะไรไม่ชัดเจน แค่ติดต่อมา เราพร้อมช่วยคุณทันที
-<SearchableAccordion items={items} />
+<SearchableAccordion items={items} locale="th" />
 
 <InlineVoucher />

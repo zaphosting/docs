@@ -9,7 +9,7 @@ services:
 
 import InlineVoucher from '@site/src/components/InlineVoucher';
 import SearchableAccordion from '@site/src/components/SearchableAccordion/SearchableAccordion';
-import items from '@site/data/faqs/dedicated-introduction-en.json';
+import items from '@site/data/faqs/dedicated-introduction.json';
 import Admonition from '@theme/Admonition';
 
 
@@ -61,4 +61,4 @@ import Admonition from '@theme/Admonition';
 
 ## よくある質問
 専用サーバーについてもっと知りたい？機能やメリット、セットアップ方法、効果的な使い方まで、気になることは全部ここでチェック！わかりにくいことがあればいつでも気軽に連絡してね。すぐにサポートするよ。
-<SearchableAccordion items={items} />
+<SearchableAccordion items={items} locale="ja" />

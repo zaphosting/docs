@@ -9,7 +9,7 @@ services:
 
 import InlineVoucher from '@site/src/components/InlineVoucher';
 import SearchableAccordion from '@site/src/components/SearchableAccordion/SearchableAccordion';
-import items from '@site/data/faqs/webspace-introduction-en.json';
+import items from '@site/data/faqs/webspace-introduction.json';
 
 ## イントロダクション
 
@@ -58,6 +58,6 @@ import items from '@site/data/faqs/webspace-introduction-en.json';
 
 ## よくある質問
 ホスティング商品についてもっと知りたい？機能やメリット、セットアップ方法、効果的な使い方まで、気になることは全部ここでチェック。これでホスティングを最大限に活用できるよ。もしまだわからないことがあれば、気軽に連絡してね。すぐにサポートするよ！
-<SearchableAccordion items={items} />
+<SearchableAccordion items={items} locale="ja" />
 
 <InlineVoucher />

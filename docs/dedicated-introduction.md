@@ -9,7 +9,7 @@ services:
 
 import InlineVoucher from '@site/src/components/InlineVoucher';
 import SearchableAccordion from '@site/src/components/SearchableAccordion/SearchableAccordion';
-import items from '@site/data/faqs/dedicated-introduction-en.json';
+import items from '@site/data/faqs/dedicated-introduction.json';
 import Admonition from '@theme/Admonition';
 
 
@@ -21,7 +21,7 @@ Unlike a virtual server, you will have your own physical hardware with a dedicat
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/9YMG6QfsNzzjCSQ/preview)
 
-
+<InlineVoucher />
 
 ## Ordering
 

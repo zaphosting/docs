@@ -1,0 +1,242 @@
+[
+  {
+    "title": {
+      "en": "Does the MySQL database support SSL and multiple users?",
+      "de": "Unterstützt die MySQL-Datenbank SSL und mehrere Benutzer?",
+      "es": "¿La base de datos MySQL soporta SSL y múltiples usuarios?",
+      "fr": "La base de données MySQL prend-elle en charge SSL et plusieurs utilisateurs ?",
+      "ar": "هل تدعم قاعدة بيانات MySQL SSL والعديد من المستخدمين؟",
+      "pt": "O banco de dados MySQL suporta SSL e múltiplos usuários?",
+      "th": "ฐานข้อมูล MySQL รองรับ SSL และผู้ใช้หลายคนหรือไม่?",
+      "pl": "Czy baza danych MySQL obsługuje SSL i wielu użytkowników?",
+      "ja": "MySQLデータベースはSSLと複数のユーザーをサポートしていますか？",
+      "sv": "Stöder MySQL-databasen SSL och flera användare?",
+      "it": "Il database MySQL supporta SSL e più utenti?",
+      "nl": "Ondersteunt de MySQL-database SSL en meerdere gebruikers?"
+    },
+    "content": {
+      "en": "Plesk does not currently support SSL encryption for MySQL. However, you can create and manage multiple database users directly in Plesk.",
+      "de": "Plesk unterstützt derzeit keine SSL-Verschlüsselung für MySQL. Du kannst jedoch mehrere Datenbank-Benutzer direkt in Plesk anlegen und verwalten.",
+      "es": "Plesk actualmente no soporta la encriptación SSL para MySQL. Sin embargo, puedes crear y gestionar múltiples usuarios de base de datos directamente en Plesk.",
+      "fr": "Plesk ne prend actuellement pas en charge le chiffrement SSL pour MySQL. Cependant, vous pouvez créer et gérer plusieurs utilisateurs de base de données directement dans Plesk.",
+      "ar": "لا يدعم Plesk حاليًا تشفير SSL لقاعدة بيانات MySQL. ومع ذلك، يمكنك إنشاء وإدارة عدة مستخدمين لقاعدة البيانات مباشرةً في Plesk.",
+      "pt": "O Plesk atualmente não suporta criptografia SSL para MySQL. No entanto, você pode criar e gerenciar múltiplos usuários de banco de dados diretamente no Plesk.",
+      "th": "Plesk ไม่รองรับการเข้ารหัส SSL สำหรับ MySQL ในปัจจุบัน อย่างไรก็ตาม คุณสามารถสร้างและจัดการผู้ใช้ฐานข้อมูลหลายคนได้โดยตรงใน Plesk",
+      "pl": "Plesk obecnie nie obsługuje szyfrowania SSL dla MySQL. Możesz jednak tworzyć i zarządzać wieloma użytkownikami baz danych bezpośrednio w Plesk.",
+      "ja": "Pleskは現在、MySQLのSSL暗号化をサポートしていません。ただし、Plesk内で直接複数のデータベースユーザーを作成および管理することができます。",
+      "sv": "Plesk stöder för närvarande inte SSL-kryptering för MySQL. Du kan dock skapa och hantera flera databas-användare direkt i Plesk.",
+      "it": "Plesk attualmente non supporta la crittografia SSL per MySQL. Tuttavia, puoi creare e gestire più utenti del database direttamente in Plesk.",
+      "nl": "Plesk ondersteunt momenteel geen SSL-encryptie voor MySQL. U kunt echter meerdere databasegebruikers rechtstreeks in Plesk aanmaken en beheren."
+    }
+  },
+  {
+    "title": {
+      "en": "Can I use an external domain with my webspace via Cloudflare?",
+      "de": "Kann ich eine externe Domain mit meinem Webspace über Cloudflare nutzen?",
+      "es": "¿Puedo usar un dominio externo con mi espacio web a través de Cloudflare?",
+      "fr": "Puis-je utiliser un domaine externe avec mon espace web via Cloudflare ?",
+      "ar": "هل يمكنني استخدام نطاق خارجي مع مساحة الويب الخاصة بي عبر Cloudflare؟",
+      "pt": "Posso usar um domínio externo com meu espaço na web via Cloudflare?",
+      "th": "ฉันสามารถใช้โดเมนภายนอกกับพื้นที่เว็บของฉันผ่าน Cloudflare ได้หรือไม่?",
+      "pl": "Czy mogę używać zewnętrznej domeny z moim miejscem na stronie za pośrednictwem Cloudflare?",
+      "ja": "Cloudflareを介して、外部ドメインを私のウェブスペースで使用できますか？",
+      "sv": "Kan jag använda en extern domän med mitt webbhotell via Cloudflare?",
+      "it": "Posso utilizzare un dominio esterno con il mio spazio web tramite Cloudflare?",
+      "nl": "Kan ik een extern domein gebruiken met mijn webspace via Cloudflare?"
+    },
+    "content": {
+      "en": "Yes. Add your webspace IP (DNS A record) in the domain settings and include the domain in Plesk. Guide: https://zap-hosting.com/guides/en/docs/webspace-adddomain",
+      "de": "Ja. Füge die Webspace-IP (DNS A-Record) in den Domaineinstellungen hinzu und hinterlege die Domain in Plesk. Anleitung: https://zap-hosting.com/guides/en/docs/webspace-adddomain",
+      "es": "Sí. Agrega la IP de tu espacio web (registro A de DNS) en la configuración del dominio e incluye el dominio en Plesk. Guía: https://zap-hosting.com/guides/es/docs/webspace-adddomain",
+      "fr": "Oui. Ajoutez l'IP de votre espace web (enregistrement DNS A) dans les paramètres de domaine et incluez le domaine dans Plesk. Guide : https://zap-hosting.com/guides/fr/docs/webspace-adddomain",
+      "ar": "نعم. أضف عنوان IP لمساحتك على الويب (سجل DNS A) في إعدادات النطاق وقم بإضافة النطاق في Plesk. الدليل: https://zap-hosting.com/guides/en/docs/webspace-adddomain",
+      "pt": "Sim. Adicione o IP do seu espaço web (registro DNS A) nas configurações de domínio e inclua o domínio no Plesk. Guia: https://zap-hosting.com/guides/pt/docs/webspace-adddomain",
+      "th": "ใช่ เพิ่ม IP ของพื้นที่เว็บของคุณ (ระเบียน DNS A) ในการตั้งค่าชื่อโดเมนและรวมโดเมนใน Plesk คู่มือ: https://zap-hosting.com/guides/en/docs/webspace-adddomain",
+      "pl": "Tak. Dodaj adres IP swojego miejsca na serwerze (rekord DNS A) w ustawieniach domeny i dołącz domenę w Plesk. Przewodnik: https://zap-hosting.com/guides/en/docs/webspace-adddomain",
+      "ja": "はい。ドメイン設定にウェブスペースのIP（DNS Aレコード）を追加し、Pleskにドメインを含めてください。ガイド: https://zap-hosting.com/guides/en/docs/webspace-adddomain",
+      "sv": "Ja. Lägg till din webspace IP (DNS A-post) i domäninställningarna och inkludera domänen i Plesk. Guide: https://zap-hosting.com/guides/sv/docs/webspace-adddomain",
+      "it": "Sì. Aggiungi l'IP del tuo spazio web (record DNS A) nelle impostazioni del dominio e includi il dominio in Plesk. Guida: https://zap-hosting.com/guides/en/docs/webspace-adddomain",
+      "nl": "Ja. Voeg het IP-adres van je webspace (DNS A-record) toe in de domeininstellingen en voeg het domein toe in Plesk. Gids: https://zap-hosting.com/guides/nl/docs/webspace-adddomain"
+    }
+  },
+  {
+    "title": {
+      "en": "What happens if I exceed the 500 GB traffic limit?",
+      "de": "Was passiert, wenn ich das 500-GB-Traffic-Limit überschreite?",
+      "es": "¿Qué sucede si supero el límite de tráfico de 500 GB?",
+      "fr": "Que se passe-t-il si je dépasse la limite de trafic de 500 Go ?",
+      "ar": "ماذا يحدث إذا تجاوزت حد حركة المرور البالغ 500 جيجابايت؟",
+      "pt": "O que acontece se eu exceder o limite de tráfego de 500 GB?",
+      "th": "หากคุณเกินขีดจำกัดการใช้งานข้อมูล 500 GB จะมีผลกระทบต่อบริการของคุณ ซึ่งอาจรวมถึงการลดความเร็วในการเชื่อมต่อหรือการเรียกเก็บค่าธรรมเนียมเพิ่มเติมสำหรับการใช้งานข้อมูลที่เกินขีดจำกัดที่กำหนดไว้ คุณควรตรวจสอบนโยบายการใช้งานของผู้ให้บริการ VPS หรือ Dedicated Server ของคุณเพื่อดูรายละเอียดเพิ่มเติมเกี่ยวกับการจัดการกับการใช้งานข้อมูลที่เกินขีดจำกัดนี้",
+      "pl": "Co się stanie, jeśli przekroczę limit ruchu 500 GB?",
+      "ja": "500 GBのトラフィック制限を超えた場合、どうなりますか？",
+      "sv": "Vad händer om jag överskrider trafikgränsen på 500 GB?",
+      "it": "Cosa succede se supero il limite di traffico di 500 GB?",
+      "nl": "Wat gebeurt er als ik de 500 GB datalimiet overschrijd?"
+    },
+    "content": {
+      "en": "If the limit is exceeded, the webspace will be blocked. Contact support to reactivate it.",
+      "de": "Wird das Limit überschritten, wird der Webspace gesperrt. Kontaktiere den Support, um ihn wieder freischalten zu lassen.",
+      "es": "Si se excede el límite, el espacio web será bloqueado. Contacte con el soporte para reactivarlo.",
+      "fr": "Si la limite est dépassée, l'espace web sera bloqué. Contactez le support pour le réactiver.",
+      "ar": "إذا تم تجاوز الحد، سيتم حظر مساحة الويب. يرجى الاتصال بالدعم لإعادة تفعيلها.",
+      "pt": "Se o limite for excedido, o espaço web será bloqueado. Entre em contato com o suporte para reativá-lo.",
+      "th": "หากเกินขีดจำกัด พื้นที่เว็บจะถูกบล็อก กรุณาติดต่อฝ่ายสนับสนุนเพื่อเปิดใช้งานอีกครั้ง",
+      "pl": "Jeśli limit zostanie przekroczony, przestrzeń internetowa zostanie zablokowana. Skontaktuj się z pomocą techniczną, aby ją ponownie aktywować.",
+      "ja": "制限を超えた場合、ウェブスペースはブロックされます。再活性化するにはサポートに連絡してください。",
+      "sv": "Om gränsen överskrids kommer webbplatsen att blockeras. Kontakta supporten för att återaktivera den.",
+      "it": "Se il limite viene superato, lo spazio web verrà bloccato. Contatta il supporto per riattivarlo.",
+      "nl": "Als de limiet wordt overschreden, wordt de webruimte geblokkeerd. Neem contact op met de ondersteuning om deze te heractiveren."
+    }
+  },
+  {
+    "title": {
+      "en": "Can I set up cron jobs with my webspace?",
+      "de": "Kann ich Cronjobs mit meinem Webspace nutzen?",
+      "es": "¿Puedo configurar trabajos cron con mi espacio web?",
+      "fr": "Puis-je configurer des tâches cron avec mon espace web ?",
+      "ar": "هل يمكنني إعداد مهام كرون مع مساحة الويب الخاصة بي؟",
+      "pt": "Posso configurar tarefas cron com meu espaço na web?",
+      "th": "ฉันสามารถตั้งค่า cron jobs กับพื้นที่เว็บของฉันได้หรือไม่?",
+      "pl": "Czy mogę skonfigurować zadania cron na mojej przestrzeni internetowej?",
+      "ja": "ウェブスペースでcronジョブを設定できますか？",
+      "sv": "Kan jag ställa in cron-jobb med mitt webbhotell?",
+      "it": "Posso impostare cron job con il mio spazio web?",
+      "nl": "Kan ik cronjobs instellen met mijn webruimte?"
+    },
+    "content": {
+      "en": "Yes, cron jobs are available with all webspace packages.",
+      "de": "Ja, Cronjobs sind in allen Webspace-Paketen enthalten.",
+      "es": "Sí, los trabajos cron están disponibles con todos los paquetes de espacio web.",
+      "fr": "Oui, les tâches cron sont disponibles avec tous les forfaits d'espace web.",
+      "ar": "نعم، تتوفر مهام الكرون مع جميع حزم مساحة الويب.",
+      "pt": "Sim, os cron jobs estão disponíveis em todos os pacotes de webspace.",
+      "th": "ใช่, cron jobs มีให้บริการกับแพ็คเกจพื้นที่เว็บทั้งหมด",
+      "pl": "Tak, zadania cron są dostępne we wszystkich pakietach przestrzeni internetowej.",
+      "ja": "はい、すべてのウェブスペースパッケージでcronジョブが利用可能です。",
+      "sv": "Ja, cron-jobbar är tillgängliga med alla webbhotellspaket.",
+      "it": "Sì, i cron job sono disponibili con tutti i pacchetti di webspace.",
+      "nl": "Ja, cronjobs zijn beschikbaar bij alle webhostingpakketten."
+    }
+  },
+  {
+    "title": {
+      "en": "Can the database be reached via IP?",
+      "de": "Kann die Datenbank über IP erreicht werden?",
+      "es": "¿Se puede acceder a la base de datos a través de la IP?",
+      "fr": "La base de données peut-elle être atteinte via IP ?",
+      "ar": "هل يمكن الوصول إلى قاعدة البيانات عبر IP؟",
+      "pt": "A base de dados pode ser acessada via IP?",
+      "th": "สามารถเข้าถึงฐานข้อมูลได้ผ่านทาง IP หรือไม่?",
+      "pl": "Czy baza danych może być osiągnięta za pomocą adresu IP?",
+      "ja": "データベースにはIP経由でアクセスできますか？",
+      "sv": "Kan databasen nås via IP?",
+      "it": "È possibile accedere al database tramite IP?",
+      "nl": "Kan de database via IP worden bereikt?"
+    },
+    "content": {
+      "en": "Yes, databases can generally be accessed via IP. If it doesn't work, support can help.",
+      "de": "Ja, grundsätzlich kann die Datenbank auch über IP erreicht werden. Falls es nicht funktioniert, hilft der Support.",
+      "es": "Sí, las bases de datos generalmente se pueden acceder a través de IP. Si no funciona, el soporte puede ayudar.",
+      "fr": "Oui, les bases de données peuvent généralement être accessibles via IP. Si cela ne fonctionne pas, le support peut vous aider.",
+      "ar": "نعم، يمكن عادةً الوصول إلى قواعد البيانات عبر IP. إذا لم تنجح، يمكن للدعم الفني المساعدة.",
+      "pt": "Sim, os bancos de dados geralmente podem ser acessados via IP. Se não funcionar, o suporte pode ajudar.",
+      "th": "ใช่, ฐานข้อมูลสามารถเข้าถึงได้โดยทั่วไปผ่าน IP หากไม่สามารถใช้งานได้, ทีมสนับสนุนสามารถช่วยได้.",
+      "pl": "Tak, bazy danych można zazwyczaj uzyskać dostęp przez IP. Jeśli to nie działa, wsparcie może pomóc.",
+      "ja": "はい、データベースには一般的にIPを介してアクセスできます。うまくいかない場合は、サポートが手助けできます。",
+      "sv": "Ja, databaser kan vanligtvis nås via IP. Om det inte fungerar kan supporten hjälpa till.",
+      "it": "Sì, in generale le basi di dati possono essere accessibili tramite IP. Se non funziona, il supporto può aiutare.",
+      "nl": "Ja, databases kunnen over het algemeen via IP worden benaderd. Als het niet werkt, kan de ondersteuning helpen."
+    }
+  },
+  {
+    "title": {
+      "en": "Is a Plesk license included?",
+      "de": "Ist eine Plesk-Lizenz enthalten?",
+      "es": "¿Se incluye una licencia de Plesk?",
+      "fr": "Une licence Plesk est-elle incluse ?",
+      "ar": "هل تتضمن الترخيص الخاص بـ Plesk؟",
+      "pt": "A licença do Plesk está incluída?",
+      "th": "มีใบอนุญาต Plesk รวมอยู่ด้วยหรือไม่?",
+      "pl": "Czy licencja Plesk jest wliczona?",
+      "ja": "Pleskライセンスは含まれていますか？",
+      "sv": "Ingår en Plesk-licens?",
+      "it": "È inclusa una licenza Plesk?",
+      "nl": "Is een Plesk-licentie inbegrepen?"
+    },
+    "content": {
+      "en": "Yes, the Plesk license is included with your webspace package.",
+      "de": "Ja, die Plesk-Lizenz ist in deinem Webspace-Paket enthalten.",
+      "es": "Sí, la licencia de Plesk está incluida en tu paquete de espacio web.",
+      "fr": "Oui, la licence Plesk est incluse dans votre package d'espace web.",
+      "ar": "نعم، ترخيص Plesk مشمول في حزمة مساحة الويب الخاصة بك.",
+      "pt": "Sim, a licença do Plesk está incluída no seu pacote de espaço web.",
+      "th": "ใช่, ใบอนุญาต Plesk รวมอยู่ในแพ็คเกจพื้นที่เว็บของคุณแล้ว",
+      "pl": "Tak, licencja Plesk jest wliczona w Twój pakiet przestrzeni internetowej.",
+      "ja": "はい、Pleskライセンスはあなたのウェブスペースパッケージに含まれています。",
+      "sv": "Ja, Plesk-licensen ingår i ditt webbhotellspaket.",
+      "it": "Sì, la licenza Plesk è inclusa nel tuo pacchetto di webspace.",
+      "nl": "Ja, de Plesk-licentie is inbegrepen bij uw webhostingpakket."
+    }
+  },
+  {
+    "title": {
+      "en": "Can I connect external domains using nameservers?",
+      "de": "Kann ich externe Domains über Nameserver verbinden?",
+      "es": "¿Puedo conectar dominios externos utilizando servidores de nombres?",
+      "fr": "Puis-je connecter des domaines externes en utilisant des serveurs de noms ?",
+      "ar": "هل يمكنني ربط النطاقات الخارجية باستخدام خوادم الأسماء؟",
+      "pt": "Posso conectar domínios externos usando servidores de nomes?",
+      "th": "ฉันสามารถเชื่อมต่อโดเมนภายนอกโดยใช้ nameservers ได้หรือไม่?",
+      "pl": "Czy mogę podłączyć zewnętrzne domeny za pomocą serwerów nazw?",
+      "ja": "外部ドメインをネームサーバーを使用して接続できますか？",
+      "sv": "Kan jag koppla externa domäner med hjälp av namnservrar?",
+      "it": "Posso collegare domini esterni utilizzando i nameserver?",
+      "nl": "Kan ik externe domeinen verbinden met behulp van nameservers?"
+    },
+    "content": {
+      "en": "Yes. Guide: https://zap-hosting.com/guides/docs/en/webspace_adddomain/",
+      "de": "Ja. Anleitung: https://zap-hosting.com/guides/docs/en/webspace_adddomain/",
+      "es": "Sí. Guía: https://zap-hosting.com/guides/docs/es/webspace_adddomain/",
+      "fr": "Oui. Guide : https://zap-hosting.com/guides/docs/fr/webspace_adddomain/",
+      "ar": "نعم. الدليل: https://zap-hosting.com/guides/docs/ar/webspace_adddomain/",
+      "pt": "Sim. Guia: https://zap-hosting.com/guides/docs/pt/webspace_adddomain/",
+      "th": "ใช่. คู่มือ: https://zap-hosting.com/guides/docs/en/webspace_adddomain/",
+      "pl": "Tak. Przewodnik: https://zap-hosting.com/guides/docs/pl/webspace_adddomain/",
+      "ja": "はい。ガイド: https://zap-hosting.com/guides/docs/en/webspace_adddomain/",
+      "sv": "Ja. Guide: https://zap-hosting.com/guides/docs/sv/webspace_adddomain/",
+      "it": "Sì. Guida: https://zap-hosting.com/guides/docs/it/webspace_adddomain/",
+      "nl": "Ja. Gids: https://zap-hosting.com/guides/docs/nl/webspace_adddomain/"
+    }
+  },
+  {
+    "title": {
+      "en": "Can the database be used externally?",
+      "de": "Kann die Datenbank auch extern genutzt werden?",
+      "es": "¿Se puede utilizar la base de datos externamente?",
+      "fr": "La base de données peut-elle être utilisée de manière externe ?",
+      "ar": "هل يمكن استخدام قاعدة البيانات خارجيًا؟",
+      "pt": "O banco de dados pode ser utilizado externamente?",
+      "th": "ฐานข้อมูลสามารถใช้งานภายนอกได้หรือไม่?",
+      "pl": "Czy baza danych może być używana zewnętrznie?",
+      "ja": "データベースは外部で使用できますか？",
+      "sv": "Kan databasen användas externt?",
+      "it": "Il database può essere utilizzato esternamente?",
+      "nl": "Kan de database extern worden gebruikt?"
+    },
+    "content": {
+      "en": "Yes, your webspace database can also be accessed externally.",
+      "de": "Ja, die Datenbank des Webspace kann auch extern aufgerufen werden.",
+      "es": "Sí, su base de datos de espacio web también se puede acceder externamente.",
+      "fr": "Oui, votre base de données d'espace web peut également être accessible de manière externe.",
+      "ar": "نعم، يمكن الوصول إلى قاعدة بيانات مساحة الويب الخاصة بك من الخارج أيضًا.",
+      "pt": "Sim, o banco de dados do seu espaço web também pode ser acessado externamente.",
+      "th": "ใช่, ฐานข้อมูลพื้นที่เว็บของคุณสามารถเข้าถึงได้จากภายนอกเช่นกัน",
+      "pl": "Tak, do bazy danych Twojej przestrzeni internetowej można również uzyskać dostęp z zewnątrz.",
+      "ja": "はい、あなたのウェブスペースデータベースは外部からもアクセス可能です。",
+      "sv": "Ja, din webbplatsdatabas kan också nås externt.",
+      "it": "Sì, il database del tuo spazio web può essere accessibile anche esternamente.",
+      "nl": "Ja, uw webspace-database kan ook extern worden benaderd."
+    }
+  }
+]

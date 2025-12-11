@@ -9,7 +9,7 @@ services:
 
 import InlineVoucher from '@site/src/components/InlineVoucher';
 import SearchableAccordion from '@site/src/components/SearchableAccordion/SearchableAccordion';
-import items from '@site/data/faqs/voicebot-introduction-en.json';
+import items from '@site/data/faqs/voicebot-introduction.json';
 
 ## مقدمة
 
@@ -29,6 +29,6 @@ import items from '@site/data/faqs/voicebot-introduction-en.json';
 
 ## الأسئلة المتكررة
 عندك أسئلة أكثر عن منتج البوت الصوتي؟ احصل على إجابات لكل شيء تود تعرفه عن الميزات، الفوائد، الإعداد وكيفية الاستخدام بفعالية. بهذه الطريقة تحصل على كل المعلومات اللي تحتاجها لتستفيد لأقصى حد من منتج البوت الصوتي. وإذا ظل شيء غير واضح، تواصل معنا ونحن جاهزين نساعدك فورًا.
-<SearchableAccordion items={items} />
+<SearchableAccordion items={items} locale="ar" />
 
 <InlineVoucher />

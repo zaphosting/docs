@@ -9,7 +9,7 @@ services:
 
 import InlineVoucher from '@site/src/components/InlineVoucher';
 import SearchableAccordion from '@site/src/components/SearchableAccordion/SearchableAccordion';
-import items from '@site/data/faqs/domain-introduction-en.json';
+import items from '@site/data/faqs/domain-introduction.json';
 
 ## Wprowadzenie
 
@@ -65,7 +65,8 @@ Dzięki korzystnej cenie, łatwej administracji i powiązanym możliwościom, do
 - Marketing cyfrowy i reklama
 
 ## Najczęściej zadawane pytania
-Masz więcej pytań dotyczących naszego produktu Domena? Znajdź odpowiedzi na wszystko, co chcesz wiedzieć o funkcjach, korzyściach, konfiguracji i efektywnym wykorzystaniu. Dzięki temu zdobędziesz wszystkie potrzebne informacje, aby w pełni wykorzystać nasz produkt Domena. A jeśli coś nadal będzie niejasne, po prostu skontaktuj się z nami – jesteśmy tu, by pomóc Ci od razu.
-<SearchableAccordion items={items} />
+
+Masz więcej pytań dotyczących naszego produktu Domena? Znajdź odpowiedzi na wszystko, co chcesz wiedzieć o funkcjach, korzyściach, konfiguracji i efektywnym użytkowaniu. Dzięki temu zdobędziesz potrzebne informacje, aby w pełni wykorzystać nasz produkt Domena. A jeśli coś nadal będzie niejasne, po prostu skontaktuj się z nami – jesteśmy tu, by Ci pomóc od razu.
+<SearchableAccordion items={items} locale="pl" />
 
 <InlineVoucher />

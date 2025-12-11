@@ -9,7 +9,7 @@ services:
 
 import InlineVoucher from '@site/src/components/InlineVoucher';
 import SearchableAccordion from '@site/src/components/SearchableAccordion/SearchableAccordion';
-import items from '@site/data/faqs/webspace-introduction-en.json';
+import items from '@site/data/faqs/webspace-introduction.json';
 
 ## Intro
 
@@ -58,6 +58,6 @@ Door de scherpe prijs, goede performance, uitgebreide toegangsrechten en de bijb
 
 ## Veelgestelde Vragen
 Heb je nog meer vragen over ons Webspace-product? Vind hier antwoorden op alles wat je wilt weten over features, voordelen, setup en hoe je het effectief gebruikt. Zo haal je het maximale uit onze Webspace. En als iets toch nog onduidelijk is, neem gewoon contact op, we helpen je direct verder.
-<SearchableAccordion items={items} />
+<SearchableAccordion items={items} locale="nl" />
 
 <InlineVoucher />

@@ -9,7 +9,7 @@ services:
 
 import InlineVoucher from '@site/src/components/InlineVoucher';
 import SearchableAccordion from '@site/src/components/SearchableAccordion/SearchableAccordion';
-import items from '@site/data/faqs/domain-introduction-en.json';
+import items from '@site/data/faqs/domain-introduction.json';
 
 ## แนะนำ
 
@@ -58,7 +58,8 @@ import items from '@site/data/faqs/domain-introduction-en.json';
 - การตลาดดิจิทัลและโฆษณา
 
 ## คำถามที่พบบ่อย
-มีคำถามเพิ่มเติมเกี่ยวกับผลิตภัณฑ์โดเมนของเราหรือเปล่า? หาคำตอบทุกอย่างที่คุณอยากรู้เกี่ยวกับฟีเจอร์ ประโยชน์ การตั้งค่า และวิธีใช้งานอย่างมีประสิทธิภาพ เพื่อให้คุณได้ข้อมูลครบถ้วนและใช้โดเมนของเราได้เต็มที่ ถ้ายังมีข้อสงสัย แค่ติดต่อมา เราพร้อมช่วยคุณทันที
-<SearchableAccordion items={items} />
+
+มีคำถามเพิ่มเติมเกี่ยวกับผลิตภัณฑ์โดเมนของเราหรือเปล่า? หาคำตอบทุกอย่างที่คุณอยากรู้เกี่ยวกับฟีเจอร์ ประโยชน์ การตั้งค่า และวิธีใช้งานอย่างมีประสิทธิภาพ เพื่อให้คุณได้ข้อมูลครบถ้วนและใช้โดเมนของเราได้เต็มที่ ถ้ายังมีข้อสงสัย ติดต่อเราได้เลย เรายินดีช่วยเหลือคุณทันที
+<SearchableAccordion items={items} locale="th" />
 
 <InlineVoucher />

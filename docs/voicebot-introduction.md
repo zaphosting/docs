@@ -9,7 +9,7 @@ services:
 
 import InlineVoucher from '@site/src/components/InlineVoucher';
 import SearchableAccordion from '@site/src/components/SearchableAccordion/SearchableAccordion';
-import items from '@site/data/faqs/voicebot-introduction-en.json';
+import items from '@site/data/faqs/voicebot-introduction.json';
 
 ## Introduction
 

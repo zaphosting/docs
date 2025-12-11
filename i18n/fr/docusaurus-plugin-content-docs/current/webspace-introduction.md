@@ -9,7 +9,7 @@ services:
 
 import InlineVoucher from '@site/src/components/InlineVoucher';
 import SearchableAccordion from '@site/src/components/SearchableAccordion/SearchableAccordion';
-import items from '@site/data/faqs/webspace-introduction-en.json';
+import items from '@site/data/faqs/webspace-introduction.json';
 
 ## Introduction
 
@@ -58,6 +58,6 @@ Grâce à son prix avantageux, ses performances, ses accès étendus et les poss
 
 ## Questions fréquentes
 Tu as d’autres questions sur notre produit d’hébergement web ? Trouve toutes les réponses sur les fonctionnalités, avantages, la mise en place et comment l’utiliser efficacement. Comme ça, tu as toutes les infos pour tirer le meilleur parti de notre hébergement web. Et si quelque chose n’est pas clair, contacte-nous, on est là pour t’aider direct.
-<SearchableAccordion items={items} />
+<SearchableAccordion items={items} locale="fr" />
 
 <InlineVoucher />

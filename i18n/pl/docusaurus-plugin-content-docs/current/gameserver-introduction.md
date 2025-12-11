@@ -9,7 +9,7 @@ services:
 
 import InlineVoucher from '@site/src/components/InlineVoucher';
 import SearchableAccordion from '@site/src/components/SearchableAccordion/SearchableAccordion';
-import items from '@site/data/faqs/gameserver-introduction-en.json';
+import items from '@site/data/faqs/gameserver-introduction.json';
 
 ## Wprowadzenie
 
@@ -52,7 +52,7 @@ Poza popularnymi grami takimi jak **FiveM**, **Minecraft**, **SCP: Secret Labora
 
 ## Najczęściej zadawane pytania
 Masz więcej pytań o nasz produkt serwera gier? Znajdź odpowiedzi na wszystko, co chcesz wiedzieć o funkcjach, korzyściach, konfiguracji i efektywnym użytkowaniu. Dzięki temu zdobędziesz wszystkie potrzebne informacje, by w pełni wykorzystać nasz serwer gier. A jeśli coś nadal będzie niejasne, po prostu skontaktuj się z nami – jesteśmy tu, by Ci pomóc od razu.
-<SearchableAccordion items={items} />
+<SearchableAccordion items={items} locale="pl" />
 
 
 <InlineVoucher />

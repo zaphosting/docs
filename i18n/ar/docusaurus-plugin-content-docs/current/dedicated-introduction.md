@@ -9,7 +9,7 @@ services:
 
 import InlineVoucher from '@site/src/components/InlineVoucher';
 import SearchableAccordion from '@site/src/components/SearchableAccordion/SearchableAccordion';
-import items from '@site/data/faqs/dedicated-introduction-en.json';
+import items from '@site/data/faqs/dedicated-introduction.json';
 import Admonition from '@theme/Admonition';
 
 
@@ -61,4 +61,4 @@ import Admonition from '@theme/Admonition';
 
 ## الأسئلة المتكررة
 هل لديك المزيد من الأسئلة حول منتج السيرفر المخصص؟ احصل على إجابات لكل ما تريد معرفته عن الميزات، الفوائد، الإعداد وكيفية استخدامه بفعالية. بهذه الطريقة تحصل على المعلومات التي تحتاجها للاستفادة القصوى من منتج السيرفر المخصص. وإذا بقي شيء غير واضح، فقط تواصل معنا ونحن هنا لمساعدتك فورًا.
-<SearchableAccordion items={items} />
+<SearchableAccordion items={items} locale="ar" />

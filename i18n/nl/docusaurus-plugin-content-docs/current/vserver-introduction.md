@@ -9,7 +9,7 @@ services:
 
 import InlineVoucher from '@site/src/components/InlineVoucher';
 import SearchableAccordion from '@site/src/components/SearchableAccordion/SearchableAccordion';
-import items from '@site/data/faqs/vserver-introduction-en.json';
+import items from '@site/data/faqs/vserver-introduction.json';
 
 ## Introductie
 
@@ -54,6 +54,6 @@ Door de scherpe prijs, performance, uitgebreide toegangsrechten en de bijbehoren
 
 ## Veelgestelde Vragen
 Heb je nog meer vragen over ons VPS-product? Vind antwoorden op alles wat je wilt weten over features, voordelen, installatie en hoe je het effectief gebruikt. Zo krijg je alle info die je nodig hebt om het maximale uit onze VPS te halen. En als er toch iets onduidelijk is, neem dan gewoon contact op, we helpen je direct verder.
-<SearchableAccordion items={items} />
+<SearchableAccordion items={items} locale="nl" />
 
 <InlineVoucher />

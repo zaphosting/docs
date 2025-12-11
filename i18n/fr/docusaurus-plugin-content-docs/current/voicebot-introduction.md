@@ -9,7 +9,7 @@ services:
 
 import InlineVoucher from '@site/src/components/InlineVoucher';
 import SearchableAccordion from '@site/src/components/SearchableAccordion/SearchableAccordion';
-import items from '@site/data/faqs/voicebot-introduction-en.json';
+import items from '@site/data/faqs/voicebot-introduction.json';
 
 ## Introduction
 
@@ -29,6 +29,6 @@ Le bot vocal pour Teamspeak 3 et Discord est un outil ultra polyvalent pour diff
 
 ## Questions fréquentes
 Tu as d’autres questions sur notre produit bot vocal ? Trouve toutes les réponses sur les fonctionnalités, avantages, installation et comment l’utiliser efficacement. Comme ça, tu as toutes les infos pour tirer le max de notre bot vocal. Et si quelque chose n’est pas clair, contacte-nous, on est là pour t’aider direct.
-<SearchableAccordion items={items} />
+<SearchableAccordion items={items} locale="fr" />
 
 <InlineVoucher />

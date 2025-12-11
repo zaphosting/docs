@@ -9,7 +9,7 @@ services:
 
 import InlineVoucher from '@site/src/components/InlineVoucher';
 import SearchableAccordion from '@site/src/components/SearchableAccordion/SearchableAccordion';
-import items from '@site/data/faqs/domain-introduction-en.json';
+import items from '@site/data/faqs/domain-introduction.json';
 
 ## Introduzione
 
@@ -58,7 +58,8 @@ Grazie al prezzo vantaggioso, alla gestione semplice e alle possibilità offerte
 - Marketing digitale e pubblicità
 
 ## Domande frequenti
-Hai altre domande sul nostro prodotto Dominio? Trova tutte le risposte su funzionalità, vantaggi, configurazione e come usarlo al meglio. Così hai tutte le info per sfruttare al massimo il nostro prodotto Dominio. E se qualcosa non è chiaro, scrivici pure, siamo qui per aiutarti subito.
-<SearchableAccordion items={items} />
+
+Hai altre domande sul nostro prodotto Dominio? Trova tutte le risposte su funzionalità, vantaggi, configurazione e come usarlo al meglio. Così avrai tutte le info per sfruttare al massimo il nostro prodotto Dominio. E se qualcosa non è chiaro, contattaci pure, siamo qui per aiutarti subito.
+<SearchableAccordion items={items} locale="it" />
 
 <InlineVoucher />

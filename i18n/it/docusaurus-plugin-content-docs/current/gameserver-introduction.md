@@ -9,7 +9,7 @@ services:
 
 import InlineVoucher from '@site/src/components/InlineVoucher';
 import SearchableAccordion from '@site/src/components/SearchableAccordion/SearchableAccordion';
-import items from '@site/data/faqs/gameserver-introduction-en.json';
+import items from '@site/data/faqs/gameserver-introduction.json';
 
 ## Introduzione
 
@@ -51,7 +51,7 @@ Oltre ai giochi top come **FiveM**, **Minecraft**, **SCP: Secret Laboratory**, *
 
 ## Domande Frequenti
 Hai altre domande sul nostro prodotto Gameserver? Qui trovi risposte su tutto quello che vuoi sapere: funzionalità, vantaggi, setup e come usarlo al meglio. Così hai tutte le info per sfruttare al massimo il tuo Gameserver. E se qualcosa non è chiaro, scrivici pure, siamo qui per aiutarti subito.
-<SearchableAccordion items={items} />
+<SearchableAccordion items={items} locale="it" />
 
 
 <InlineVoucher />
