@@ -1,0 +1,242 @@
+[
+  {
+    "title": {
+      "en": "Can I change the number of slots after renting the server?",
+      "de": "Kann ich die Slotanzahl nach der Miete ändern?",
+      "es": "¿Puedo cambiar el número de slots después de alquilar el servidor?",
+      "fr": "Puis-je changer le nombre de slots après avoir loué le serveur ?",
+      "ar": "هل يمكنني تغيير عدد الفتحات بعد استئجار الخادم؟",
+      "pt": "Posso mudar o número de slots após alugar o servidor?",
+      "th": "ฉันสามารถเปลี่ยนจำนวนช่องหลังจากเช่าเซิร์ฟเวอร์ได้หรือไม่?",
+      "pl": "Czy mogę zmienić liczbę slotów po wynajęciu serwera?",
+      "ja": "サーバーをレンタルした後にスロット数を変更できますか？",
+      "sv": "Kan jag ändra antalet platser efter att jag har hyrt servern?",
+      "it": "Posso cambiare il numero di slot dopo aver affittato il server?",
+      "nl": "Kan ik het aantal slots wijzigen nadat ik de server heb gehuurd?"
+    },
+    "content": {
+      "en": "Yes, you can increase or decrease the number of slots anytime via our upgrade/downgrade feature.",
+      "de": "Ja, die Slots können jederzeit über unsere Upgrade-/Downgrade-Funktion angepasst werden.",
+      "es": "Sí, puedes aumentar o disminuir el número de slots en cualquier momento a través de nuestra función de actualización/reducción.",
+      "fr": "Oui, vous pouvez augmenter ou diminuer le nombre de slots à tout moment grâce à notre fonctionnalité de mise à niveau/diminution.",
+      "ar": "نعم، يمكنك زيادة أو تقليل عدد الفتحات في أي وقت من خلال ميزة الترقية/الخفض لدينا.",
+      "pt": "Sim, você pode aumentar ou diminuir o número de slots a qualquer momento através do nosso recurso de upgrade/downgrade.",
+      "th": "ใช่, คุณสามารถเพิ่มหรือลดจำนวนช่องได้ทุกเมื่อผ่านฟีเจอร์การอัปเกรด/ดาวน์เกรดของเรา",
+      "pl": "Tak, możesz zwiększyć lub zmniejszyć liczbę slotów w dowolnym momencie za pomocą naszej funkcji aktualizacji/zmiany planu.",
+      "ja": "はい、アップグレード/ダウングレード機能を使用して、スロット数をいつでも増減することができます。",
+      "sv": "Ja, du kan öka eller minska antalet platser när som helst via vår uppgraderings/nedgraderingsfunktion.",
+      "it": "Sì, puoi aumentare o diminuire il numero di slot in qualsiasi momento tramite la nostra funzione di aggiornamento/diminuzione.",
+      "nl": "Ja, je kunt het aantal slots op elk moment verhogen of verlagen via onze upgrade/downgrade functie."
+    }
+  },
+  {
+    "title": {
+      "en": "Can I connect my Teamspeak 3 server to my own domain?",
+      "de": "Kann ich meinen Teamspeak 3 Server mit meiner eigenen Domain verbinden?",
+      "es": "¿Puedo conectar mi servidor de Teamspeak 3 a mi propio dominio?",
+      "fr": "Puis-je connecter mon serveur Teamspeak 3 à mon propre domaine ?",
+      "ar": "هل يمكنني ربط خادم Teamspeak 3 الخاص بي بنطاقي الخاص؟",
+      "pt": "Posso conectar meu servidor Teamspeak 3 ao meu próprio domínio?",
+      "th": "ฉันสามารถเชื่อมต่อเซิร์ฟเวอร์ Teamspeak 3 ของฉันกับโดเมนของตัวเองได้หรือไม่?",
+      "pl": "Czy mogę połączyć mój serwer Teamspeak 3 z moją własną domeną?",
+      "ja": "自分のドメインにTeamspeak 3サーバーを接続できますか？",
+      "sv": "Kan jag koppla min Teamspeak 3-server till min egen domän?",
+      "it": "Posso collegare il mio server Teamspeak 3 al mio dominio?",
+      "nl": "Kan ik mijn Teamspeak 3-server verbinden met mijn eigen domein?"
+    },
+    "content": {
+      "en": "Yes. For domains hosted with us, we provide a guide for TS forwarding. For other providers, contact them if settings differ. Guide: https://zap-hosting.com/guides/docs/en/domain_teamspeak_redirect/",
+      "de": "Ja. Für Domains bei uns gibt es eine Anleitung zur TS-Weiterleitung. Bei anderen Anbietern bitte dort nach den passenden Einstellungen fragen. Anleitung: https://zap-hosting.com/guides/docs/en/domain_teamspeak_redirect/",
+      "es": "Sí. Para los dominios alojados con nosotros, proporcionamos una guía para el reenvío de TS. Para otros proveedores, contáctalos si los ajustes son diferentes. Guía: https://zap-hosting.com/guides/docs/es/domain_teamspeak_redirect/",
+      "fr": "Oui. Pour les domaines hébergés chez nous, nous fournissons un guide pour le transfert TS. Pour d'autres fournisseurs, contactez-les si les paramètres diffèrent. Guide : https://zap-hosting.com/guides/docs/fr/domain_teamspeak_redirect/",
+      "ar": "نعم. بالنسبة للنطاقات المستضافة لدينا، نقدم دليلًا لإعادة توجيه TS. بالنسبة لمقدمي الخدمات الآخرين، يرجى الاتصال بهم إذا كانت الإعدادات مختلفة. الدليل: https://zap-hosting.com/guides/docs/en/domain_teamspeak_redirect/",
+      "pt": "Sim. Para domínios hospedados conosco, fornecemos um guia para encaminhamento de TS. Para outros provedores, entre em contato com eles se as configurações forem diferentes. Guia: https://zap-hosting.com/guides/docs/pt/domain_teamspeak_redirect/",
+      "th": "ใช่ สำหรับโดเมนที่โฮสต์กับเรา เรามีคู่มือสำหรับการส่งต่อ TS สำหรับผู้ให้บริการอื่น ๆ กรุณาติดต่อพวกเขาหากการตั้งค่าแตกต่างกัน คู่มือ: https://zap-hosting.com/guides/docs/en/domain_teamspeak_redirect/",
+      "pl": "Tak. Dla domen hostowanych u nas, udostępniamy przewodnik dotyczący przekierowania TS. W przypadku innych dostawców, skontaktuj się z nimi, jeśli ustawienia się różnią. Przewodnik: https://zap-hosting.com/guides/docs/en/domain_teamspeak_redirect/",
+      "ja": "はい。当社でホスティングされているドメインについては、TSフォワーディングのガイドを提供しています。他のプロバイダーの場合、設定が異なる場合は、直接お問い合わせください。ガイドはこちらです: https://zap-hosting.com/guides/docs/en/domain_teamspeak_redirect/",
+      "sv": "Ja. För domäner som är hostade hos oss tillhandahåller vi en guide för TS-vidarekoppling. För andra leverantörer, kontakta dem om inställningarna skiljer sig. Guide: https://zap-hosting.com/guides/docs/sv/domain_teamspeak_redirect/",
+      "it": "Sì. Per i domini ospitati con noi, forniamo una guida per il forwarding di TS. Per altri provider, contattali se le impostazioni differiscono. Guida: https://zap-hosting.com/guides/docs/en/domain_teamspeak_redirect/",
+      "nl": "Ja. Voor domeinen die bij ons gehost worden, bieden we een handleiding voor TS-omleiding. Voor andere providers, neem contact met hen op als de instellingen verschillen. Handleiding: https://zap-hosting.com/guides/docs/nl/domain_teamspeak_redirect/"
+    }
+  },
+  {
+    "title": {
+      "en": "Do you offer Teamspeak 5 servers?",
+      "de": "Bietet ihr Teamspeak 5 Server an?",
+      "es": "¿Ofrecen servidores de Teamspeak 5?",
+      "fr": "Proposez-vous des serveurs Teamspeak 5 ?",
+      "ar": "هل تقدمون خوادم Teamspeak 5؟",
+      "pt": "Você oferece servidores Teamspeak 5?",
+      "th": "คุณมีบริการเซิร์ฟเวอร์ Teamspeak 5 หรือไม่?",
+      "pl": "Czy oferujecie serwery Teamspeak 5?",
+      "ja": "Teamspeak 5サーバーは提供していますか？",
+      "sv": "Erbjuder ni Teamspeak 5-servrar?",
+      "it": "Offrite server Teamspeak 5?",
+      "nl": "Biedt u Teamspeak 5-servers aan?"
+    },
+    "content": {
+      "en": "Yes, they will be available soon and always run on the latest version for the best performance. Learn more here: https://zap-hosting.com/en/teamspeak-5-server-hosting/",
+      "de": "Ja, diese sind bald verfügbar und laufen immer mit der neuesten Version. Mehr Infos: https://zap-hosting.com/en/teamspeak-5-server-hosting/",
+      "es": "Sí, estarán disponibles pronto y siempre funcionarán en la última versión para obtener el mejor rendimiento. Obtén más información aquí: https://zap-hosting.com/es/teamspeak-5-server-hosting/",
+      "fr": "Oui, ils seront bientôt disponibles et fonctionneront toujours sur la dernière version pour une performance optimale. En savoir plus ici : https://zap-hosting.com/en/teamspeak-5-server-hosting/",
+      "ar": "نعم، ستكون متاحة قريبًا وستعمل دائمًا على أحدث إصدار لتحقيق أفضل أداء. لمعرفة المزيد، يمكنك زيارة الرابط التالي: https://zap-hosting.com/en/teamspeak-5-server-hosting/",
+      "pt": "Sim, eles estarão disponíveis em breve e sempre rodarão na versão mais recente para o melhor desempenho. Saiba mais aqui: https://zap-hosting.com/en/teamspeak-5-server-hosting/",
+      "th": "ใช่ พวกเขาจะพร้อมใช้งานในไม่ช้าและจะทำงานบนเวอร์ชันล่าสุดเสมอเพื่อประสิทธิภาพที่ดีที่สุด เรียนรู้เพิ่มเติมได้ที่นี่: https://zap-hosting.com/en/teamspeak-5-server-hosting/",
+      "pl": "Tak, będą dostępne wkrótce i zawsze będą działać na najnowszej wersji dla najlepszej wydajności. Dowiedz się więcej tutaj: https://zap-hosting.com/en/teamspeak-5-server-hosting/",
+      "ja": "はい、彼らはすぐに利用可能になり、常に最新バージョンで実行されるため、最高のパフォーマンスを提供します。詳細はこちらをご覧ください: https://zap-hosting.com/en/teamspeak-5-server-hosting/",
+      "sv": "Ja, de kommer snart att vara tillgängliga och kommer alltid att köras på den senaste versionen för bästa prestanda. Läs mer här: https://zap-hosting.com/en/teamspeak-5-server-hosting/",
+      "it": "Sì, saranno disponibili a breve e funzioneranno sempre sulla versione più recente per le migliori prestazioni. Scopri di più qui: https://zap-hosting.com/en/teamspeak-5-server-hosting/",
+      "nl": "Ja, ze zullen binnenkort beschikbaar zijn en draaien altijd op de nieuwste versie voor de beste prestaties. Leer hier meer: https://zap-hosting.com/en/teamspeak-5-server-hosting/"
+    }
+  },
+  {
+    "title": {
+      "en": "Can I assign Speechpower to channels on my Teamspeak server?",
+      "de": "Kann ich Kanälen auf meinem Teamspeak-Server Speechpower zuweisen?",
+      "es": "¿Puedo asignar Speechpower a canales en mi servidor de Teamspeak?",
+      "fr": "Puis-je attribuer Speechpower aux canaux de mon serveur Teamspeak ?",
+      "ar": "هل يمكنني تخصيص Speechpower للقنوات على خادم Teamspeak الخاص بي؟",
+      "pt": "Posso atribuir o Speechpower a canais no meu servidor Teamspeak?",
+      "th": "ฉันสามารถกำหนด Speechpower ให้กับช่องทางบนเซิร์ฟเวอร์ Teamspeak ของฉันได้หรือไม่?",
+      "pl": "Czy mogę przypisać Speechpower do kanałów na moim serwerze Teamspeak?",
+      "ja": "TeamspeakサーバーのチャンネルにSpeechpowerを割り当てることはできますか？",
+      "sv": "Kan jag tilldela Speechpower till kanaler på min Teamspeak-server?",
+      "it": "Posso assegnare Speechpower ai canali del mio server Teamspeak?",
+      "nl": "Kan ik Speechpower toewijzen aan kanalen op mijn Teamspeak-server?"
+    },
+    "content": {
+      "en": "Yes, this can be configured in the channel settings when renting a TS3 server from us.",
+      "de": "Ja, dies lässt sich in den Kanaleinstellungen festlegen, wenn du einen TS3-Server bei uns mietest.",
+      "es": "Sí, esto se puede configurar en la configuración del canal al alquilar un servidor TS3 de nuestra parte.",
+      "fr": "Oui, cela peut être configuré dans les paramètres du canal lors de la location d'un serveur TS3 chez nous.",
+      "ar": "نعم، يمكن تكوين ذلك في إعدادات القناة عند استئجار خادم TS3 منا.",
+      "pt": "Sim, isso pode ser configurado nas configurações do canal ao alugar um servidor TS3 conosco.",
+      "th": "ใช่, สิ่งนี้สามารถตั้งค่าได้ในการตั้งค่าช่องเมื่อเช่าบริการ TS3 จากเรา",
+      "pl": "Tak, to można skonfigurować w ustawieniach kanału podczas wynajmowania serwera TS3 od nas.",
+      "ja": "はい、私たちからTS3サーバーをレンタルする際に、チャンネル設定でこれを構成することができます。",
+      "sv": "Ja, detta kan konfigureras i kanalinställningarna när du hyr en TS3-server från oss.",
+      "it": "Sì, questo può essere configurato nelle impostazioni del canale quando si affitta un server TS3 da noi.",
+      "nl": "Ja, dit kan worden geconfigureerd in de kanaalinstellingen wanneer je een TS3-server bij ons huurt."
+    }
+  },
+  {
+    "title": {
+      "en": "Does a prepaid server end automatically after its term?",
+      "de": "Endet ein Prepaid-Server automatisch nach Ablauf der Laufzeit?",
+      "es": "¿Un servidor prepago finaliza automáticamente después de su período?",
+      "fr": "Un serveur prépayé se termine-t-il automatiquement après son terme ?",
+      "ar": "هل ينتهي السيرفر المدفوع مسبقًا تلقائيًا بعد انتهاء مدته؟",
+      "pt": "Um servidor pré-pago termina automaticamente após o seu prazo?",
+      "th": "เซิร์ฟเวอร์แบบพรีเพดจะสิ้นสุดอัตโนมัติหลังจากหมดระยะเวลาหรือไม่?",
+      "pl": "Czy serwer prepaid kończy się automatycznie po upływie swojego terminu?",
+      "ja": "プリペイドサーバーは、その契約期間が終了すると自動的に終了しますか？",
+      "sv": "Avslutas en förbetald server automatiskt efter sin löptid?",
+      "it": "Un server prepagato termina automaticamente dopo il suo periodo?",
+      "nl": "Eindigt een prepaid server automatisch na zijn termijn?"
+    },
+    "content": {
+      "en": "Yes. It will lock automatically after the booked period ends. You have 14 days to renew before it is deleted.",
+      "de": "Ja. Nach Ablauf wird er automatisch gesperrt. Du hast 14 Tage Zeit zur Verlängerung, bevor er gelöscht wird.",
+      "es": "Sí. Se bloqueará automáticamente después de que finalice el período reservado. Tienes 14 días para renovarlo antes de que sea eliminado.",
+      "fr": "Oui. Il se verrouillera automatiquement après la fin de la période réservée. Vous avez 14 jours pour le renouveler avant qu'il ne soit supprimé.",
+      "ar": "نعم. سيتم قفلها تلقائيًا بعد انتهاء الفترة المحجوزة. لديك 14 يومًا لتجديدها قبل أن يتم حذفها.",
+      "pt": "Sim. Ele será bloqueado automaticamente após o término do período reservado. Você tem 14 dias para renovar antes que seja excluído.",
+      "th": "ใช่ ระบบจะล็อคโดยอัตโนมัติหลังจากช่วงเวลาที่จองสิ้นสุดลง คุณมีเวลา 14 วันในการต่ออายุ ก่อนที่จะถูกลบออก",
+      "pl": "Tak. Zostanie zablokowane automatycznie po zakończeniu zarezerwowanego okresu. Masz 14 dni na odnowienie, zanim zostanie usunięte.",
+      "ja": "はい。予約された期間が終了すると、自動的にロックされます。削除される前に、14日間の更新期間があります。",
+      "sv": "Ja. Det kommer att låsas automatiskt efter att den bokade perioden har avslutats. Du har 14 dagar på dig att förnya innan det raderas.",
+      "it": "Sì. Si bloccherà automaticamente dopo la scadenza del periodo prenotato. Hai 14 giorni per rinnovare prima che venga eliminato.",
+      "nl": "Ja. Het wordt automatisch vergrendeld nadat de geboekte periode is afgelopen. Je hebt 14 dagen om te verlengen voordat het wordt verwijderd."
+    }
+  },
+  {
+    "title": {
+      "en": "How can I extend my prepaid Teamspeak server?",
+      "de": "Wie verlängere ich meinen Prepaid-Teamspeak-Server?",
+      "es": "¿Cómo puedo extender mi servidor de Teamspeak prepago?",
+      "fr": "Comment puis-je prolonger mon serveur Teamspeak prépayé ?",
+      "ar": "كيف يمكنني تمديد خادم Teamspeak المدفوع مسبقًا الخاص بي؟",
+      "pt": "Como posso estender meu servidor Teamspeak pré-pago?",
+      "th": "คุณสามารถขยายเซิร์ฟเวอร์ Teamspeak แบบเติมเงินของคุณได้อย่างไร?",
+      "pl": "Jak mogę przedłużyć mój prepaid serwer Teamspeak?",
+      "ja": "プリペイドのTeamspeakサーバーを延長するには、以下の手順を実行してください。\n\n1. **アカウントにログイン**: Teamspeakの公式ウェブサイトにアクセスし、あなたのアカウントにログインします。\n\n2. **サーバー管理パネルに移動**: ログイン後、サーバー管理パネルに移動します。ここで、現在のサーバーの状態や設定を確認できます。\n\n3. **サーバーの延長オプションを選択**: 管理パネル内で、サーバーの延長に関するオプションを探します。通常、「サーバーの延長」や「プランの更新」といった項目があります。\n\n4. **支払い方法を選択**: 延長する期間を選択し、支払い方法を選びます。クレジットカードやPayPalなど、利用可能な支払いオプションが表示されます。\n\n5. **確認と支払い**: すべての情報を確認し、支払いを完了します。支払いが成功すると、サーバーの延長が適用されます。\n\n6. **確認メールをチェック**: 支払いが完了したら、確認メールが届くはずです。このメールには、サーバーの延長に関する詳細が含まれています。\n\n以上の手順で、プリペイドのTeamspeakサーバーを簡単に延長することができます。",
+      "sv": "Hur kan jag förlänga min förbetalda Teamspeak-server?",
+      "it": "Come posso estendere il mio server Teamspeak prepagato?",
+      "nl": "Hoe kan ik mijn prepaid Teamspeak-server verlengen?"
+    },
+    "content": {
+      "en": "You will receive reminder emails before expiration. Renewal is possible via the web interface and up to 14 days after the term ends.",
+      "de": "Vor Ablauf erhältst du Erinnerungs-E-Mails. Die Verlängerung ist über das Webinterface und bis zu 14 Tage nach Ablauf möglich.",
+      "es": "Recibirás correos electrónicos de recordatorio antes de la expiración. La renovación es posible a través de la interfaz web y hasta 14 días después de que finalice el plazo.",
+      "fr": "Vous recevrez des e-mails de rappel avant l'expiration. Le renouvellement est possible via l'interface web et jusqu'à 14 jours après la fin de la période.",
+      "ar": "ستتلقى رسائل تذكير عبر البريد الإلكتروني قبل انتهاء الصلاحية. يمكن تجديد الخدمة عبر واجهة الويب وحتى 14 يومًا بعد انتهاء المدة.",
+      "pt": "Você receberá e-mails de lembrete antes da expiração. A renovação é possível através da interface web e até 14 dias após o término do prazo.",
+      "th": "คุณจะได้รับอีเมลเตือนความจำก่อนวันหมดอายุ การต่ออายุสามารถทำได้ผ่านทางเว็บอินเตอร์เฟซและภายใน 14 วันหลังจากที่ระยะเวลาสิ้นสุดลง",
+      "pl": "Otrzymasz przypomnienia e-mailem przed wygaśnięciem. Odnowienie jest możliwe za pośrednictwem interfejsu internetowego i do 14 dni po zakończeniu okresu.",
+      "ja": "期限が切れる前にリマインダーメールが届きます。更新はウェブインターフェースを通じて可能で、契約期間終了後最大14日間まで行えます。",
+      "sv": "Du kommer att få påminnelsemejl innan utgång. Förnyelse är möjlig via webbgränssnittet och upp till 14 dagar efter att perioden har avslutats.",
+      "it": "Riceverai email di promemoria prima della scadenza. Il rinnovo è possibile tramite l'interfaccia web e fino a 14 giorni dopo la scadenza del termine.",
+      "nl": "U ontvangt herinnerings-e-mails voordat de vervaldatum aanbreekt. Verlengen is mogelijk via de webinterface en tot 14 dagen na het verstrijken van de termijn."
+    }
+  },
+  {
+    "title": {
+      "en": "Is there unlimited file upload/download on TS3 servers?",
+      "de": "Gibt es unbegrenzten Datei-Upload/-Download auf TS3-Servern?",
+      "es": "¿Hay carga/descarga de archivos ilimitada en los servidores TS3?",
+      "fr": "Y a-t-il un téléchargement/téléversement de fichiers illimité sur les serveurs TS3 ?",
+      "ar": "هل يوجد تحميل/تنزيل غير محدود للملفات على خوادم TS3؟",
+      "pt": "Há upload/download de arquivos ilimitados em servidores TS3?",
+      "th": "การอัปโหลด/ดาวน์โหลดไฟล์ไม่จำกัดบนเซิร์ฟเวอร์ TS3 หรือไม่?",
+      "pl": "Czy na serwerach TS3 istnieje nieograniczony transfer plików?",
+      "ja": "TS3サーバーでは、ファイルのアップロード/ダウンロードに制限はありますか？",
+      "sv": "Finns det obegränsad filuppladdning/nedladdning på TS3-servrar?",
+      "it": "C'è un caricamento/scaricamento di file illimitato sui server TS3?",
+      "nl": "Is er onbeperkte bestandsoverdracht op TS3-servers?"
+    },
+    "content": {
+      "en": "Disk space is limited to 50 GB (soft limit). You get a warning if exceeded and have 3 days to reduce usage. Running TS3 on your own server follows that server's limits.",
+      "de": "Es gilt ein Softlimit von 50 GB. Bei Überschreitung erhältst du eine Warnung und hast 3 Tage Zeit zur Reduzierung. Auf eigenen Servern gelten die Limits des gebuchten Systems.",
+      "es": "El espacio en disco está limitado a 50 GB (límite suave). Recibirás una advertencia si se supera y tendrás 3 días para reducir el uso. Ejecutar TS3 en tu propio servidor sigue los límites de ese servidor.",
+      "fr": "L'espace disque est limité à 50 Go (limite souple). Vous recevrez un avertissement si cette limite est dépassée et vous disposez de 3 jours pour réduire votre utilisation. L'exécution de TS3 sur votre propre serveur est soumise aux limites de ce serveur.",
+      "ar": "مساحة القرص محدودة بـ 50 جيجابايت (حد ناعم). ستحصل على تحذير إذا تم تجاوز هذه المساحة ولديك 3 أيام لتقليل الاستخدام. تشغيل TS3 على خادمك الخاص يتبع حدود ذلك الخادم.",
+      "pt": "O espaço em disco é limitado a 50 GB (limite suave). Você receberá um aviso se exceder esse limite e terá 3 dias para reduzir o uso. Executar o TS3 em seu próprio servidor segue os limites desse servidor.",
+      "th": "พื้นที่ดิสก์มีขีดจำกัดที่ 50 GB (ขีดจำกัดอ่อน) คุณจะได้รับการแจ้งเตือนหากเกินขีดจำกัดนี้และมีเวลา 3 วันในการลดการใช้งาน การรัน TS3 บนเซิร์ฟเวอร์ของคุณเองจะต้องปฏิบัติตามขีดจำกัดของเซิร์ฟเวอร์นั้น ๆ",
+      "pl": "Przestrzeń dyskowa jest ograniczona do 50 GB (limit miękki). Otrzymasz ostrzeżenie, jeśli przekroczysz ten limit i masz 3 dni na zmniejszenie zużycia. Uruchamianie TS3 na własnym serwerze podlega ograniczeniom tego serwera.",
+      "ja": "ディスクスペースは50 GB（ソフトリミット）に制限されています。これを超えると警告が表示され、使用量を減らすための猶予が3日間与えられます。自分のサーバーでTS3を実行する場合、そのサーバーの制限に従う必要があります。",
+      "sv": "Diskutrymme är begränsat till 50 GB (mjukt gränsvärde). Du får en varning om du överskrider detta och har 3 dagar på dig att minska användningen. Att köra TS3 på din egen server följer den serverns begränsningar.",
+      "it": "Lo spazio su disco è limitato a 50 GB (limite morbido). Riceverai un avviso se superi questo limite e avrai 3 giorni per ridurre l'utilizzo. Eseguire TS3 sul proprio server segue i limiti di quel server.",
+      "nl": "Schijfruimte is beperkt tot 50 GB (zachte limiet). Je ontvangt een waarschuwing als deze limiet wordt overschreden en hebt 3 dagen om het gebruik te verminderen. Het draaien van TS3 op je eigen server volgt de limieten van die server."
+    }
+  },
+  {
+    "title": {
+      "en": "Can I renew a prepaid server with a different term?",
+      "de": "Kann ich einen Prepaid-Server mit einer anderen Laufzeit verlängern?",
+      "es": "¿Puedo renovar un servidor prepago con un término diferente?",
+      "fr": "Puis-je renouveler un serveur prépayé avec un terme différent ?",
+      "ar": "هل يمكنني تجديد خادم مدفوع مسبقًا بمدة مختلفة؟",
+      "pt": "Posso renovar um servidor pré-pago com um termo diferente?",
+      "th": "ฉันสามารถต่ออายุเซิร์ฟเวอร์แบบพรีเพดด้วยระยะเวลาที่แตกต่างกันได้หรือไม่?",
+      "pl": "Czy mogę odnowić serwer prepaid z innym okresem?",
+      "ja": "異なる期間でプリペイドサーバーを更新できますか？",
+      "sv": "Kan jag förnya en förbetald server med en annan tidsperiod?",
+      "it": "Posso rinnovare un server prepagato con un termine diverso?",
+      "nl": "Kan ik een prepaid server verlengen met een andere termijn?"
+    },
+    "content": {
+      "en": "Yes. After the term ends, you can choose a new billing cycle. Not available for contract servers.",
+      "de": "Ja. Nach Ablauf kannst du für die Verlängerung eine neue Abrechnungsperiode wählen. Bei Vertragsservern nicht möglich.",
+      "es": "Sí. Después de que termine el período, puedes elegir un nuevo ciclo de facturación. No disponible para servidores dedicados.",
+      "fr": "Oui. Après la fin de la période, vous pouvez choisir un nouveau cycle de facturation. Non disponible pour les serveurs dédiés.",
+      "ar": "نعم. بعد انتهاء المدة، يمكنك اختيار دورة فواتير جديدة. غير متاحة للخوادم التعاقدية.",
+      "pt": "Sim. Após o término do período, você pode escolher um novo ciclo de faturamento. Não disponível para servidores dedicados.",
+      "th": "ใช่ หลังจากที่ระยะเวลาสิ้นสุด คุณสามารถเลือกวงจรการเรียกเก็บเงินใหม่ได้ แต่ไม่สามารถใช้ได้กับเซิร์ฟเวอร์ที่มีสัญญา",
+      "pl": "Tak. Po zakończeniu okresu umowy możesz wybrać nowy cykl rozliczeniowy. Nie dotyczy serwerów kontraktowych.",
+      "ja": "はい。契約期間が終了した後、新しい請求サイクルを選択できます。ただし、契約サーバーには適用されません。",
+      "sv": "Ja. Efter att perioden har avslutats kan du välja en ny faktureringscykel. Detta är inte tillgängligt för kontraktsservrar.",
+      "it": "Sì. Dopo la scadenza del termine, puoi scegliere un nuovo ciclo di fatturazione. Non disponibile per i server in contratto.",
+      "nl": "Ja. Na het einde van de termijn kun je een nieuwe factureringscyclus kiezen. Niet beschikbaar voor contractservers."
+    }
+  }
+]

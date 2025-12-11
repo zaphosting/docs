@@ -7,6 +7,8 @@ services:
   - domain
 ---
 
+import InlineVoucher from '@site/src/components/InlineVoucher';
+
 ## Wprowadzenie
 
 **Dane kontaktowe domeny** to rekord zawierający informacje kontaktowe powiązane z domeną, używany w publicznych bazach WHOIS. Identyfikuje właściciela domeny oraz kontakty administracyjne lub techniczne. Aby utrzymać te informacje dokładne i aktualne, możesz zarządzać danymi kontaktowymi w panelu zarządzania domeną w sekcji Zarządzanie danymi kontaktowymi, edytując istniejące wpisy lub tworząc nowe.

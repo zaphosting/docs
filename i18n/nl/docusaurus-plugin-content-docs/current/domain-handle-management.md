@@ -7,6 +7,8 @@ services:
   - domain
 ---
 
+import InlineVoucher from '@site/src/components/InlineVoucher';
+
 ## Introductie
 
 Een **domeinhandle** is een dataverzoek met contactinformatie die gekoppeld is aan een domein en gebruikt wordt in openbare WHOIS-databases. Het identificeert de domeineigenaar en de administratieve of technische contactpersonen. Om deze info accuraat en up-to-date te houden, kun je handles beheren in het domeinbeheer onder Handlebeheer door bestaande te bewerken of nieuwe aan te maken.

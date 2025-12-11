@@ -9,7 +9,7 @@ services:
 
 import InlineVoucher from '@site/src/components/InlineVoucher';
 import SearchableAccordion from '@site/src/components/SearchableAccordion/SearchableAccordion';
-import items from '@site/data/faqs/domain-introduction-en.json';
+import items from '@site/data/faqs/domain-introduction.json';
 
 ## مقدمة
 
@@ -58,7 +58,7 @@ import items from '@site/data/faqs/domain-introduction-en.json';
 - التسويق الرقمي والإعلانات
 
 ## الأسئلة المتكررة
-هل لديك المزيد من الأسئلة حول منتج النطاق لدينا؟ احصل على إجابات لكل ما تريد معرفته عن الميزات، الفوائد، الإعداد وكيفية استخدامه بفعالية. بهذه الطريقة تحصل على المعلومات التي تحتاجها للاستفادة القصوى من منتج النطاق لدينا. وإذا بقي شيء غير واضح، فقط تواصل معنا ونحن هنا لمساعدتك فورًا.
-<SearchableAccordion items={items} />
+هل لديك المزيد من الأسئلة حول منتج النطاق لدينا؟ احصل على إجابات لكل ما تريد معرفته عن الميزات، والفوائد، والإعداد، وكيفية استخدامه بفعالية. بهذه الطريقة تحصل على المعلومات التي تحتاجها للاستفادة القصوى من منتج النطاق لدينا. وإذا بقي شيء غير واضح، فقط تواصل معنا ونحن هنا لمساعدتك فورًا.
+<SearchableAccordion items={items} locale="ar" />
 
 <InlineVoucher />

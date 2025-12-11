@@ -7,6 +7,8 @@ services:
   - domain
 ---
 
+import InlineVoucher from '@site/src/components/InlineVoucher';
+
 ## Introduktion
 
 En **domänkontakt** är en datapost som innehåller kontaktinformation kopplad till en domän och används i offentliga WHOIS-databaser. Den identifierar domänägaren samt administrativa eller tekniska kontakter. För att hålla denna information korrekt och uppdaterad kan du hantera kontakter i domänhanteringen under Hantering av Kontakter genom att redigera befintliga eller skapa nya poster.

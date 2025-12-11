@@ -9,7 +9,7 @@ services:
 
 import InlineVoucher from '@site/src/components/InlineVoucher';
 import SearchableAccordion from '@site/src/components/SearchableAccordion/SearchableAccordion';
-import items from '@site/data/faqs/domain-introduction-en.json';
+import items from '@site/data/faqs/domain-introduction.json';
 
 ## Introduktion
 
@@ -58,7 +58,9 @@ Tack vare det schyssta priset, enkel administration och de möjligheter som föl
 - Digital marknadsföring och reklam
 
 ## Vanliga frågor
-Har du fler frågor om vår Domän-produkt? Få svar på allt du vill veta om funktioner, fördelar, setup och hur du använder den effektivt. På så sätt får du all info du behöver för att maxa din domän. Och om något fortfarande är oklart, hör bara av dig så hjälper vi dig direkt.
-<SearchableAccordion items={items} />
+
+Har du fler frågor om vår Domän-produkt? Få svar på allt du vill veta om funktioner, fördelar, setup och hur du använder den på bästa sätt. Så får du all info du behöver för att maxa din domän. Och om något fortfarande är oklart, hör bara av dig så hjälper vi dig direkt.
+<SearchableAccordion items={items} locale="sv" />
+
 
 <InlineVoucher />

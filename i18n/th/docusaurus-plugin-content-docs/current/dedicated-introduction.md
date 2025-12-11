@@ -9,7 +9,7 @@ services:
 
 import InlineVoucher from '@site/src/components/InlineVoucher';
 import SearchableAccordion from '@site/src/components/SearchableAccordion/SearchableAccordion';
-import items from '@site/data/faqs/dedicated-introduction-en.json';
+import items from '@site/data/faqs/dedicated-introduction.json';
 import Admonition from '@theme/Admonition';
 
 
@@ -61,4 +61,4 @@ import Admonition from '@theme/Admonition';
 
 ## คำถามที่พบบ่อย
 มีคำถามเพิ่มเติมเกี่ยวกับผลิตภัณฑ์เซิร์ฟเวอร์เฉพาะของเราไหม? รับคำตอบทุกอย่างที่คุณอยากรู้เกี่ยวกับฟีเจอร์ ประโยชน์ การตั้งค่า และวิธีใช้งานอย่างมีประสิทธิภาพ เพื่อให้คุณได้รับข้อมูลที่จำเป็นในการใช้ผลิตภัณฑ์เซิร์ฟเวอร์เฉพาะของเราให้เต็มที่ และถ้ายังมีอะไรไม่ชัดเจน แค่ติดต่อมา เราพร้อมช่วยคุณทันที
-<SearchableAccordion items={items} />
+<SearchableAccordion items={items} locale="th" />

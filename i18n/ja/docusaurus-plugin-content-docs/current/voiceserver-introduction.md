@@ -9,7 +9,7 @@ services:
 
 import InlineVoucher from '@site/src/components/InlineVoucher';
 import SearchableAccordion from '@site/src/components/SearchableAccordion/SearchableAccordion';
-import items from '@site/data/faqs/voiceserver-introduction-en.json';
+import items from '@site/data/faqs/voiceserver-introduction.json';
 
 ## イントロダクション
 友達と使える自分だけのボイスサーバーをお手頃価格で探してる？それならZAP-Hostingがピッタリ！ZAP-Hostingでは、あなたに合ったボイスサーバーをレンタルまたは購入できるよ。自分の好みに合わせてボイスサーバーをカスタマイズ＆設定できるから超便利。
@@ -28,6 +28,6 @@ Teamspeak 3/5ベースのボイスサーバーは、みんなとボイスチャ�
 
 ## よくある質問
 ボイスサーバーについてもっと知りたい？機能やメリット、セットアップ方法、使い方のコツまで、気になることは全部ここで解決。これでボイスサーバーを最大限に活用できる！もしまだわからないことがあれば、気軽に連絡してね。すぐにサポートするよ。
-<SearchableAccordion items={items} />
+<SearchableAccordion items={items} locale="ja" />
 
 <InlineVoucher />

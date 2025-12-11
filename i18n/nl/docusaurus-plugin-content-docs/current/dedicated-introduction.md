@@ -9,7 +9,7 @@ services:
 
 import InlineVoucher from '@site/src/components/InlineVoucher';
 import SearchableAccordion from '@site/src/components/SearchableAccordion/SearchableAccordion';
-import items from '@site/data/faqs/dedicated-introduction-en.json';
+import items from '@site/data/faqs/dedicated-introduction.json';
 import Admonition from '@theme/Admonition';
 
 
@@ -61,4 +61,4 @@ Door de performance, uitgebreide rechten en de mogelijkheden die dat biedt, zijn
 
 ## Veelgestelde Vragen
 Heb je nog meer vragen over onze Dedicated Server? Vind hier antwoorden op alles wat je wilt weten over features, voordelen, setup en hoe je ‘m optimaal gebruikt. Zo heb je alle info om het maximale uit onze Dedicated Server te halen. En als er toch iets onduidelijk is, neem gewoon contact op, we helpen je direct verder.
-<SearchableAccordion items={items} />
+<SearchableAccordion items={items} locale="nl" />

@@ -9,7 +9,7 @@ services:
 
 import InlineVoucher from '@site/src/components/InlineVoucher';
 import SearchableAccordion from '@site/src/components/SearchableAccordion/SearchableAccordion';
-import items from '@site/data/faqs/voiceserver-introduction-en.json';
+import items from '@site/data/faqs/voiceserver-introduction.json';
 
 ## Introduction
 Are you looking for your own voiceserver for you and your friends at a fair price? Then you've come to the right place at ZAP-Hosting! At ZAP-Hosting, you can rent or buy your suitable voiceserver. You can customize and configure your voiceserver according to your preferences.

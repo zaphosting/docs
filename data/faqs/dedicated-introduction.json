@@ -1,0 +1,302 @@
+[
+  {
+    "title": {
+      "en": "What happens if the server hardware fails?",
+      "de": "Was passiert, wenn die Server-Hardware ausfällt?",
+      "es": "¿Qué sucede si falla el hardware del servidor?",
+      "fr": "Que se passe-t-il si le matériel du serveur tombe en panne ?",
+      "ar": "ماذا يحدث إذا فشلت عتاد الخادم؟",
+      "pt": "O que acontece se o hardware do servidor falhar?",
+      "th": "จะเกิดอะไรขึ้นถ้าฮาร์ดแวร์ของเซิร์ฟเวอร์ล้มเหลว?",
+      "pl": "Co się stanie, jeśli sprzęt serwera ulegnie awarii?",
+      "ja": "サーバーハードウェアが故障した場合、どのようなことが起こりますか？",
+      "sv": "Vad händer om serverhårdvaran går sönder?",
+      "it": "Cosa succede se l'hardware del server si guasta?",
+      "nl": "Wat gebeurt er als de serverhardware faalt?"
+    },
+    "content": {
+      "en": "In the event of hardware failure, we will replace the defective component at no cost.",
+      "de": "Im Falle eines Hardwaredefekts tauschen wir das betroffene Teil kostenlos aus.",
+      "es": "En caso de falla de hardware, reemplazaremos el componente defectuoso sin costo alguno.",
+      "fr": "En cas de défaillance matérielle, nous remplacerons le composant défectueux sans frais.",
+      "ar": "في حالة حدوث عطل في الأجهزة، سنقوم باستبدال المكون التالف دون أي تكلفة.",
+      "pt": "Em caso de falha de hardware, substituiremos o componente defeituoso sem custo.",
+      "th": "ในกรณีที่เกิดความล้มเหลวของฮาร์ดแวร์ เราจะทำการเปลี่ยนชิ้นส่วนที่มีข้อบกพร่องโดยไม่มีค่าใช้จ่ายใดๆ",
+      "pl": "W przypadku awarii sprzętu wymienimy wadliwy komponent bez dodatkowych kosztów.",
+      "ja": "ハードウェアの故障が発生した場合、故障したコンポーネントを無償で交換いたします。",
+      "sv": "Vid hårdvarufel kommer vi att ersätta den defekta komponenten utan kostnad.",
+      "it": "In caso di guasto hardware, sostituiremo il componente difettoso senza alcun costo.",
+      "nl": "In het geval van hardwarestoringen zullen we de defecte component kosteloos vervangen."
+    }
+  },
+  {
+    "title": {
+      "en": "Are there differences between Lifetime and rented Dedicated Servers?",
+      "de": "Gibt es Unterschiede zwischen Lifetime- und Miet-Servern?",
+      "es": "¿Existen diferencias entre los Servidores Dedicados de por vida y los Servidores Dedicados alquilados?",
+      "fr": "Y a-t-il des différences entre les serveurs dédiés à vie et les serveurs dédiés loués ?",
+      "ar": "هل هناك اختلافات بين الخوادم المخصصة مدى الحياة والخوادم المخصصة المستأجرة؟",
+      "pt": "Existem diferenças entre Servidores Dedicados Vitalícios e Servidores Dedicados Alugados?",
+      "th": "มีความแตกต่างระหว่าง Dedicated Server แบบ Lifetime และแบบเช่าหรือไม่?",
+      "pl": "Czy istnieją różnice między serwerami dedykowanymi na czas nieokreślony a wynajmowanymi?",
+      "ja": "ライフタイム専用サーバーとレンタル専用サーバーの違いはありますか？",
+      "sv": "Finns det skillnader mellan livstids- och hyrda dedikerade servrar?",
+      "it": "Ci sono differenze tra i Server Dedicati a Vita e i Server Dedicati in Affitto?",
+      "nl": "Zijn er verschillen tussen Lifetime en gehuurde Dedicated Servers?"
+    },
+    "content": {
+      "en": "There are no technical differences. However, if a Lifetime Server remains inactive for an extended period (no access via the web interface), it may be stopped or blocked according to our terms.",
+      "de": "Technisch gibt es keine Unterschiede. Bei längerer Inaktivität (kein Aufruf im Webinterface) kann der Server laut unseren AGB gestoppt oder gesperrt werden.",
+      "es": "No hay diferencias técnicas. Sin embargo, si un Servidor de Por Vida permanece inactivo durante un período prolongado (sin acceso a través de la interfaz web), puede ser detenido o bloqueado de acuerdo con nuestros términos.",
+      "fr": "Il n'y a pas de différences techniques. Cependant, si un Serveur à Vie reste inactif pendant une période prolongée (aucun accès via l'interface web), il peut être arrêté ou bloqué conformément à nos conditions.",
+      "ar": "لا توجد اختلافات تقنية. ومع ذلك، إذا ظل الخادم مدى الحياة غير نشط لفترة طويلة (دون الوصول عبر واجهة الويب)، فقد يتم إيقافه أو حظره وفقًا لشروطنا.",
+      "pt": "Não há diferenças técnicas. No entanto, se um Servidor Vitalício permanecer inativo por um período prolongado (sem acesso através da interface web), ele pode ser parado ou bloqueado de acordo com nossos termos.",
+      "th": "ไม่มีความแตกต่างทางเทคนิค อย่างไรก็ตาม หากเซิร์ฟเวอร์แบบ Lifetime ไม่มีการใช้งานเป็นระยะเวลานาน (ไม่มีการเข้าถึงผ่านทางเว็บอินเตอร์เฟส) อาจถูกหยุดหรือบล็อกตามข้อกำหนดของเรา",
+      "pl": "Nie ma różnic technicznych. Jednakże, jeśli Serwer na Czas Nieokreślony pozostaje nieaktywny przez dłuższy czas (brak dostępu przez interfejs webowy), może zostać zatrzymany lub zablokowany zgodnie z naszymi warunkami.",
+      "ja": "技術的な違いはありません。ただし、ライフタイムサーバーが長期間（ウェブインターフェース経由でのアクセスがない場合）非アクティブな状態が続くと、当社の規約に従って停止またはブロックされる可能性があります。",
+      "sv": "Det finns inga tekniska skillnader. Om en Lifetime Server dock förblir inaktiv under en längre period (ingen åtkomst via webbgränssnittet), kan den stoppas eller blockeras enligt våra villkor.",
+      "it": "Non ci sono differenze tecniche. Tuttavia, se un Server Lifetime rimane inattivo per un lungo periodo (senza accesso tramite l'interfaccia web), potrebbe essere fermato o bloccato secondo i nostri termini.",
+      "nl": "Er zijn geen technische verschillen. Echter, als een Lifetime Server gedurende een langere periode inactief blijft (geen toegang via de webinterface), kan deze worden gestopt of geblokkeerd volgens onze voorwaarden."
+    }
+  },
+  {
+    "title": {
+      "en": "Can I add more IP addresses to my Lifetime Server later?",
+      "de": "Kann ich später weitere IP-Adressen zu meinem Lifetime-Server hinzufügen?",
+      "es": "¿Puedo agregar más direcciones IP a mi Servidor de por Vida más tarde?",
+      "fr": "Puis-je ajouter d'autres adresses IP à mon serveur à vie plus tard ?",
+      "ar": "هل يمكنني إضافة المزيد من عناوين IP إلى خادم Lifetime الخاص بي لاحقًا؟",
+      "pt": "Posso adicionar mais endereços IP ao meu Servidor Vitalício mais tarde?",
+      "th": "ฉันสามารถเพิ่มที่อยู่ IP เพิ่มเติมให้กับเซิร์ฟเวอร์ Lifetime ของฉันในภายหลังได้หรือไม่?",
+      "pl": "Czy mogę dodać więcej adresów IP do mojego serwera na czas nieokreślony później?",
+      "ja": "後でライフタイムサーバーに追加のIPアドレスを追加できますか？",
+      "sv": "Kan jag lägga till fler IP-adresser till min Lifetime Server senare?",
+      "it": "Posso aggiungere ulteriori indirizzi IP al mio Server Lifetime in seguito?",
+      "nl": "Kan ik later meer IP-adressen aan mijn Lifetime Server toevoegen?"
+    },
+    "content": {
+      "en": "Yes, you can add IP addresses later via the upgrade function, but downgrades are not possible.",
+      "de": "Ja, zusätzliche IP-Adressen können über die Upgrade-Funktion gebucht werden. Ein Downgrade ist nicht möglich.",
+      "es": "Sí, puedes agregar direcciones IP más tarde a través de la función de actualización, pero no es posible realizar degradaciones.",
+      "fr": "Oui, vous pouvez ajouter des adresses IP ultérieurement via la fonction de mise à niveau, mais les rétrogradations ne sont pas possibles.",
+      "ar": "نعم، يمكنك إضافة عناوين IP لاحقًا عبر وظيفة الترقية، ولكن لا يمكن إجراء تخفيضات.",
+      "pt": "Sim, você pode adicionar endereços IP posteriormente através da função de upgrade, mas downgrades não são possíveis.",
+      "th": "ใช่ คุณสามารถเพิ่มที่อยู่ IP ได้ในภายหลังผ่านฟังก์ชันการอัปเกรด แต่ไม่สามารถลดระดับได้",
+      "pl": "Tak, możesz dodać adresy IP później za pomocą funkcji aktualizacji, ale obniżenie poziomu nie jest możliwe.",
+      "ja": "はい、アップグレード機能を使用して後でIPアドレスを追加することは可能ですが、ダウングレードはできません。",
+      "sv": "Ja, du kan lägga till IP-adresser senare via uppgraderingsfunktionen, men nedgraderingar är inte möjliga.",
+      "it": "Sì, puoi aggiungere indirizzi IP in seguito tramite la funzione di aggiornamento, ma i downgrade non sono possibili.",
+      "nl": "Ja, je kunt IP-adressen later toevoegen via de upgradefunctie, maar downgrades zijn niet mogelijk."
+    }
+  },
+  {
+    "title": {
+      "en": "Do I have to pay for hardware replacement on a Lifetime Server?",
+      "de": "Muss ich defekte Hardware bei einem Lifetime-Server selbst bezahlen?",
+      "es": "¿Tengo que pagar por el reemplazo de hardware en un Servidor de por Vida?",
+      "fr": "Dois-je payer pour le remplacement du matériel sur un serveur à vie ?",
+      "ar": "هل يجب علي دفع ثمن استبدال الأجهزة في خادم مدى الحياة؟",
+      "pt": "Preciso pagar pela substituição de hardware em um Servidor Vitalício?",
+      "th": "ฉันต้องจ่ายค่าทดแทนฮาร์ดแวร์สำหรับ Lifetime Server หรือไม่?",
+      "pl": "Czy muszę płacić za wymianę sprzętu na serwerze dożywotnim?",
+      "ja": "ライフタイムサーバーのハードウェア交換に料金は発生しますか？",
+      "sv": "Måste jag betala för hårdvaruersättning på en Livstidsserver?",
+      "it": "Devo pagare per la sostituzione dell'hardware su un Server a Vita?",
+      "nl": "Moet ik betalen voor hardwarevervanging op een Lifetime Server?"
+    },
+    "content": {
+      "en": "No. Any defective hardware components will be replaced free of charge.",
+      "de": "Nein. Defekte Hardware wird kostenlos ersetzt.",
+      "es": "No. Cualquier componente de hardware defectuoso será reemplazado sin costo alguno.",
+      "fr": "Non. Tous les composants matériels défectueux seront remplacés gratuitement.",
+      "ar": "لا. سيتم استبدال أي مكونات أجهزة معيبة مجانًا.",
+      "pt": "Não. Quaisquer componentes de hardware defeituosos serão substituídos gratuitamente.",
+      "th": "ไม่ มีส่วนประกอบฮาร์ดแวร์ที่ชำรุดจะถูกเปลี่ยนฟรีโดยไม่มีค่าใช้จ่าย",
+      "pl": "Nie. Wszelkie wadliwe komponenty sprzętowe zostaną wymienione bezpłatnie.",
+      "ja": "いいえ。欠陥のあるハードウェアコンポーネントは、無償で交換されます。",
+      "sv": "Nej. Eventuella defekta hårdvarukomponenter kommer att bytas ut kostnadsfritt.",
+      "it": "No. Qualsiasi componente hardware difettoso sarà sostituito gratuitamente.",
+      "nl": "Nee. Defecte hardwarecomponenten worden kosteloos vervangen."
+    }
+  },
+  {
+    "title": {
+      "en": "Can I order a custom server configuration?",
+      "de": "Kann ich eine individuelle Serverkonfiguration bestellen?",
+      "es": "¿Puedo solicitar una configuración de servidor personalizada?",
+      "fr": "Puis-je commander une configuration de serveur personnalisée ?",
+      "ar": "هل يمكنني طلب تكوين خادم مخصص؟",
+      "pt": "Posso solicitar uma configuração de servidor personalizada?",
+      "th": "ฉันสามารถสั่งซื้อการกำหนดค่าของเซิร์ฟเวอร์แบบกำหนดเองได้หรือไม่?",
+      "pl": "Czy mogę zamówić niestandardową konfigurację serwera?",
+      "ja": "カスタムサーバー構成を注文できますか？",
+      "sv": "Kan jag beställa en anpassad serverkonfiguration?",
+      "it": "Posso ordinare una configurazione server personalizzata?",
+      "nl": "Kan ik een aangepaste serverconfiguratie bestellen?"
+    },
+    "content": {
+      "en": "If your desired configuration is not available, we can assemble it for you as a dedicated server for rental. Hardware upgrades for existing systems are currently not possible.",
+      "de": "Falls die gewünschte Konfiguration nicht verfügbar ist, können wir diese als Miet-Server zusammenstellen. Hardware-Upgrades für bestehende Systeme sind derzeit nicht möglich.",
+      "es": "Si la configuración que deseas no está disponible, podemos ensamblarla para ti como un servidor dedicado en alquiler. Actualmente, no es posible realizar actualizaciones de hardware para sistemas existentes.",
+      "fr": "Si la configuration souhaitée n'est pas disponible, nous pouvons l'assembler pour vous en tant que serveur dédié à la location. Les mises à niveau matérielles pour les systèmes existants ne sont actuellement pas possibles.",
+      "ar": "إذا كانت التكوينات المطلوبة غير متاحة، يمكننا تجميعها لك كخادم مخصص للإيجار. ترقيات الأجهزة للأنظمة الحالية غير ممكنة في الوقت الحالي.",
+      "pt": "Se a configuração desejada não estiver disponível, podemos montá-la para você como um servidor dedicado para locação. Atualizações de hardware para sistemas existentes atualmente não são possíveis.",
+      "th": "หากการตั้งค่าที่คุณต้องการไม่สามารถใช้งานได้ เราสามารถประกอบให้คุณเป็น Dedicated Server สำหรับเช่าได้ ขณะนี้ไม่สามารถอัปเกรดฮาร์ดแวร์สำหรับระบบที่มีอยู่ได้",
+      "pl": "Jeśli żądana konfiguracja nie jest dostępna, możemy ją złożyć dla Ciebie jako serwer dedykowany do wynajęcia. Aktualnie nie ma możliwości modernizacji sprzętu w istniejących systemach.",
+      "ja": "ご希望の構成が利用できない場合は、専用サーバーとしてレンタル用に組み立てることができます。既存システムのハードウェアアップグレードは現在のところ不可能です。",
+      "sv": "Om din önskade konfiguration inte är tillgänglig kan vi sätta ihop den åt dig som en dedikerad server för uthyrning. Hårdvaruuppgraderingar för befintliga system är för närvarande inte möjliga.",
+      "it": "Se la configurazione desiderata non è disponibile, possiamo assemblarla per te come server dedicato in affitto. Gli aggiornamenti hardware per i sistemi esistenti attualmente non sono possibili.",
+      "nl": "Als uw gewenste configuratie niet beschikbaar is, kunnen we deze voor u samenstellen als een dedicated server voor verhuur. Hardware-upgrades voor bestaande systemen zijn momenteel niet mogelijk."
+    }
+  },
+  {
+    "title": {
+      "en": "Do you offer floating IPs for Dedicated Servers?",
+      "de": "Bietet ihr Floating-IPs für Dedicated Server an?",
+      "es": "¿Ofrecen IPs flotantes para Servidores Dedicados?",
+      "fr": "Proposez-vous des IP flottantes pour les serveurs dédiés ?",
+      "ar": "هل تقدمون عناوين IP عائمة للخوادم المخصصة؟",
+      "pt": "Você oferece IPs flutuantes para Servidores Dedicados?",
+      "th": "คุณมีการให้บริการ IP ลอยสำหรับ Dedicated Server หรือไม่?",
+      "pl": "Czy oferujecie adresy IP typu floating dla serwerów dedykowanych?",
+      "ja": "専用サーバー用のフローティングIPは提供していますか？",
+      "sv": "Erbjuder ni flytande IP-adresser för dedikerade servrar?",
+      "it": "Offrite IP flottanti per i Server Dedicati?",
+      "nl": "Biedt u drijvende IP's aan voor Dedicated Servers?"
+    },
+    "content": {
+      "en": "No, floating IPs are currently not available for dedicated server rentals.",
+      "de": "Nein, Floating-IPs sind derzeit für Dedicated Server nicht verfügbar.",
+      "es": "No, las IPs flotantes actualmente no están disponibles para el alquiler de servidores dedicados.",
+      "fr": "Non, les IP flottantes ne sont actuellement pas disponibles pour les locations de serveurs dédiés.",
+      "ar": "لا، عناوين IP العائمة غير متاحة حالياً لاستئجار الخوادم المخصصة.",
+      "pt": "Não, IPs flutuantes atualmente não estão disponíveis para locações de servidores dedicados.",
+      "th": "ไม่, IP ลอยตัวในขณะนี้ไม่สามารถใช้ได้สำหรับการเช่าบริการเซิร์ฟเวอร์เฉพาะ (Dedicated Server)",
+      "pl": "Nie, obecnie adresy IP typu floating nie są dostępne w przypadku wynajmu serwerów dedykowanych.",
+      "ja": "いいえ、現在、専用サーバーのレンタルにはフローティングIPは利用できません。",
+      "sv": "Nej, flytande IP-adresser är för närvarande inte tillgängliga för uthyrning av dedikerade servrar.",
+      "it": "No, gli IP flottanti attualmente non sono disponibili per il noleggio di server dedicati.",
+      "nl": "Nee, drijvende IP-adressen zijn momenteel niet beschikbaar voor de verhuur van dedicated servers."
+    }
+  },
+  {
+    "title": {
+      "en": "Can I upgrade my dedicated server later?",
+      "de": "Kann ich meinen Dedicated Server später aufrüsten?",
+      "es": "¿Puedo actualizar mi servidor dedicado más tarde?",
+      "fr": "Puis-je mettre à niveau mon serveur dédié plus tard ?",
+      "ar": "هل يمكنني ترقية خادم مخصص لاحقًا؟",
+      "pt": "Posso atualizar meu servidor dedicado mais tarde?",
+      "th": "ฉันสามารถอัปเกรดเซิร์ฟเวอร์เฉพาะของฉันในภายหลังได้หรือไม่?",
+      "pl": "Czy mogę później zaktualizować mój serwer dedykowany?",
+      "ja": "後で専用サーバーをアップグレードできますか？",
+      "sv": "Kan jag uppgradera min dedikerade server senare?",
+      "it": "Posso aggiornare il mio server dedicato in seguito?",
+      "nl": "Kan ik mijn dedicated server later upgraden?"
+    },
+    "content": {
+      "en": "Upgrades of existing hardware are currently not possible. If the desired configuration is not available, we can build it for you as a rental.",
+      "de": "Ein späteres Hardware-Upgrade ist aktuell nicht möglich. Falls die gewünschte Konfiguration fehlt, können wir sie als Miet-Server für dich zusammenstellen.",
+      "es": "Las actualizaciones del hardware existente no son posibles en este momento. Si la configuración deseada no está disponible, podemos construirla para usted como un alquiler.",
+      "fr": "Les mises à niveau du matériel existant ne sont actuellement pas possibles. Si la configuration souhaitée n'est pas disponible, nous pouvons la construire pour vous en tant que location.",
+      "ar": "ترقيات الأجهزة الحالية غير ممكنة حاليًا. إذا كانت التكوينات المطلوبة غير متاحة، يمكننا بناؤها لك كإيجار.",
+      "pt": "Atualmente, atualizações de hardware existente não são possíveis. Se a configuração desejada não estiver disponível, podemos construí-la para você como um aluguel.",
+      "th": "การอัปเกรดฮาร์ดแวร์ที่มีอยู่ในปัจจุบันไม่สามารถทำได้ หากการกำหนดค่าที่ต้องการไม่มีให้บริการ เราสามารถสร้างมันขึ้นมาให้คุณในรูปแบบการเช่าได้",
+      "pl": "Aktualnie nie ma możliwości modernizacji istniejącego sprzętu. Jeśli żądana konfiguracja nie jest dostępna, możemy ją dla Ciebie zbudować jako wynajem.",
+      "ja": "既存のハードウェアのアップグレードは現在不可能です。希望する構成が利用できない場合は、レンタルとして構築することができます。",
+      "sv": "Uppgraderingar av befintlig hårdvara är för närvarande inte möjliga. Om den önskade konfigurationen inte är tillgänglig kan vi bygga den åt dig som en hyra.",
+      "it": "Gli aggiornamenti dell'hardware esistente non sono attualmente possibili. Se la configurazione desiderata non è disponibile, possiamo costruirla per te come noleggio.",
+      "nl": "Upgrades van bestaande hardware zijn momenteel niet mogelijk. Als de gewenste configuratie niet beschikbaar is, kunnen we deze voor u bouwen als een huur."
+    }
+  },
+  {
+    "title": {
+      "en": "How long does it take to set up a dedicated server?",
+      "de": "Wie lange dauert die Bereitstellung eines Dedicated Servers?",
+      "es": "¿Cuánto tiempo se tarda en configurar un servidor dedicado?",
+      "fr": "Combien de temps faut-il pour configurer un serveur dédié ?",
+      "ar": "كم من الوقت يستغرق إعداد خادم مخصص؟",
+      "pt": "Quanto tempo leva para configurar um servidor dedicado?",
+      "th": "การตั้งค่า Dedicated Server ใช้เวลานานเท่าไหร่?",
+      "pl": "Jak długo trwa konfiguracja serwera dedykowanego?",
+      "ja": "専用サーバーのセットアップにはどれくらいの時間がかかりますか？",
+      "sv": "Hur lång tid tar det att ställa in en dedikerad server?",
+      "it": "Quanto tempo ci vuole per configurare un server dedicato?",
+      "nl": "Hoe lang duurt het om een dedicated server in te stellen?"
+    },
+    "content": {
+      "en": "If the server is in stock, it is usually ready within minutes. If it needs to be assembled, it may take up to 5 days.",
+      "de": "Lagernde Systeme sind meist innerhalb weniger Minuten einsatzbereit. Muss der Server erst gebaut werden, kann es bis zu 5 Tage dauern.",
+      "es": "Si el servidor está en stock, generalmente está listo en cuestión de minutos. Si necesita ser ensamblado, puede tardar hasta 5 días.",
+      "fr": "Si le serveur est en stock, il est généralement prêt en quelques minutes. S'il doit être assemblé, cela peut prendre jusqu'à 5 jours.",
+      "ar": "إذا كان الخادم متوفرًا في المخزون، فعادةً ما يكون جاهزًا خلال دقائق. إذا كان بحاجة إلى تجميع، فقد يستغرق الأمر ما يصل إلى 5 أيام.",
+      "pt": "Se o servidor estiver em estoque, geralmente está pronto em minutos. Se precisar ser montado, pode levar até 5 dias.",
+      "th": "หากเซิร์ฟเวอร์มีอยู่ในสต็อก มักจะพร้อมใช้งานภายในไม่กี่นาที หากต้องประกอบเซิร์ฟเวอร์ อาจใช้เวลานานถึง 5 วัน",
+      "pl": "Jeśli serwer jest dostępny w magazynie, zazwyczaj jest gotowy w ciągu kilku minut. Jeśli wymaga złożenia, może to zająć do 5 dni.",
+      "ja": "サーバーが在庫にある場合、通常は数分以内に準備が整います。組み立てが必要な場合は、最大で5日かかることがあります。",
+      "sv": "Om servern finns i lager är den vanligtvis redo inom några minuter. Om den behöver monteras kan det ta upp till 5 dagar.",
+      "it": "Se il server è disponibile, di solito è pronto entro pochi minuti. Se deve essere assemblato, potrebbe richiedere fino a 5 giorni.",
+      "nl": "Als de server op voorraad is, is deze meestal binnen enkele minuten klaar. Als deze geassembleerd moet worden, kan het tot 5 dagen duren."
+    }
+  },
+  {
+    "title": {
+      "en": "How much traffic is included with dedicated servers?",
+      "de": "Wie viel Traffic ist bei Dedicated Servern enthalten?",
+      "es": "¿Cuánto tráfico está incluido con los servidores dedicados?",
+      "fr": "Quelle quantité de trafic est incluse avec les serveurs dédiés ?",
+      "ar": "ما مقدار حركة المرور المضمنة مع الخوادم المخصصة؟",
+      "pt": "Quanto tráfego está incluído com servidores dedicados?",
+      "th": "การจราจรที่รวมอยู่กับเซิร์ฟเวอร์เฉพาะ (Dedicated Server) มีความแตกต่างกันไปตามผู้ให้บริการและแผนบริการที่เลือก โดยทั่วไปแล้ว ผู้ให้บริการจะกำหนดปริมาณการจราจรที่อนุญาตในแต่ละเดือน ซึ่งอาจมีตั้งแต่ไม่จำกัด (unlimited) จนถึงจำนวนที่เฉพาะเจาะจง เช่น 1TB, 5TB หรือมากกว่านั้น ขึ้นอยู่กับความต้องการและการใช้งานของคุณ ควรตรวจสอบรายละเอียดจากผู้ให้บริการเพื่อให้แน่ใจว่าคุณได้รับข้อมูลที่ถูกต้องและเหมาะสมกับความต้องการของคุณ",
+      "pl": "Ile ruchu jest zawarte w serwerach dedykowanych?",
+      "ja": "専用サーバーにはどれくらいのトラフィックが含まれていますか？",
+      "sv": "Hur mycket trafik ingår med dedikerade servrar?",
+      "it": "Quanta di traffico è inclusa con i server dedicati?",
+      "nl": "Hoeveel verkeer is inbegrepen bij dedicated servers?"
+    },
+    "content": {
+      "en": "Dedicated servers include 5 TB of monthly traffic under fair use. Additional traffic resets cost €9.99.",
+      "de": "Es sind monatlich 5 TB Traffic nach Fair-Use-Bedingungen enthalten. Ein Zurücksetzen des Zählers kostet 9,99 €.",
+      "es": "Los servidores dedicados incluyen 5 TB de tráfico mensual bajo uso justo. Los costos de restablecimiento de tráfico adicional son de 9,99 €.",
+      "fr": "Les serveurs dédiés incluent 5 To de trafic mensuel sous une utilisation équitable. Les frais de réinitialisation de trafic supplémentaires s'élèvent à 9,99 €.",
+      "ar": "تتضمن الخوادم المخصصة 5 تيرابايت من حركة المرور الشهرية وفقًا للاستخدام العادل. تكاليف إعادة تعيين حركة المرور الإضافية هي 9.99 يورو.",
+      "pt": "Servidores dedicados incluem 5 TB de tráfego mensal sob uso justo. Custos adicionais para redefinições de tráfego são de €9,99.",
+      "th": "เซิร์ฟเวอร์เฉพาะรวมการใช้งานข้อมูล 5 TB ต่อเดือนภายใต้การใช้งานที่เป็นธรรม ค่าใช้จ่ายสำหรับการรีเซ็ตการใช้งานข้อมูลเพิ่มเติมคือ €9.99.",
+      "pl": "Serwery dedykowane obejmują 5 TB miesięcznego ruchu w ramach uczciwego użytkowania. Dodatkowe koszty za reset ruchu wynoszą 9,99 €.",
+      "ja": "専用サーバーには、フェアユースの下で月間5TBのトラフィックが含まれています。追加のトラフィックリセットは€9.99の費用がかかります。",
+      "sv": "Dedikerade servrar inkluderar 5 TB månatlig trafik under rimlig användning. Ytterligare trafikåterställningar kostar 9,99 €.",
+      "it": "I server dedicati includono 5 TB di traffico mensile sotto uso equo. I costi per il ripristino del traffico aggiuntivo sono di €9,99.",
+      "nl": "Dedicated servers omvatten 5 TB maandelijk verkeer onder eerlijke gebruiksvoorwaarden. Extra verkeersresetkosten bedragen €9,99."
+    }
+  },
+  {
+    "title": {
+      "en": "Do I have full access and can I resell my server?",
+      "de": "Habe ich vollen Zugriff und darf den Server weiterverkaufen?",
+      "es": "¿Tengo acceso completo y puedo revender mi servidor?",
+      "fr": "Ai-je un accès complet et puis-je revendre mon serveur ?",
+      "ar": "هل لدي وصول كامل ويمكنني إعادة بيع خادمي؟",
+      "pt": "Eu tenho acesso total e posso revender meu servidor?",
+      "th": "ฉันมีการเข้าถึงทั้งหมดและสามารถขายเซิร์ฟเวอร์ของฉันต่อได้หรือไม่?",
+      "pl": "Czy mam pełny dostęp i czy mogę odsprzedać mój serwer?",
+      "ja": "サーバーに完全なアクセス権がありますか？また、サーバーを再販することはできますか？",
+      "sv": "Har jag fullständig åtkomst och kan jag återförsälja min server?",
+      "it": "Ho accesso completo e posso rivendere il mio server?",
+      "nl": "Heb ik volledige toegang en kan ik mijn server doorverkopen?"
+    },
+    "content": {
+      "en": "You have access via the iLO interface to install your preferred OS. OS licenses must be purchased separately if needed. Account sharing is not allowed, but additional users can be added for management and commercial use such as reselling virtual servers is permitted.",
+      "de": "Du erhältst Zugriff über die iLO-Oberfläche und kannst das gewünschte Betriebssystem installieren. Lizenzen müssen ggf. separat gekauft werden. Account-Weitergabe ist nicht erlaubt, aber zusätzliche Nutzer können hinzugefügt werden und eine kommerzielle Nutzung wie die Vermietung virtueller Server ist gestattet.",
+      "es": "Tienes acceso a través de la interfaz iLO para instalar tu sistema operativo preferido. Las licencias del sistema operativo deben comprarse por separado si es necesario. No se permite el uso compartido de cuentas, pero se pueden agregar usuarios adicionales para la gestión y el uso comercial, como la reventa de servidores virtuales, lo cual está permitido.",
+      "fr": "Vous avez accès via l'interface iLO pour installer votre système d'exploitation préféré. Les licences de système d'exploitation doivent être achetées séparément si nécessaire. Le partage de compte n'est pas autorisé, mais des utilisateurs supplémentaires peuvent être ajoutés pour la gestion et l'utilisation commerciale, comme la revente de serveurs virtuels, ce qui est permis.",
+      "ar": "لديك وصول عبر واجهة iLO لتثبيت نظام التشغيل المفضل لديك. يجب شراء تراخيص نظام التشغيل بشكل منفصل إذا لزم الأمر. لا يُسمح بمشاركة الحسابات، ولكن يمكن إضافة مستخدمين إضافيين للإدارة والاستخدام التجاري مثل إعادة بيع الخوادم الافتراضية.",
+      "pt": "Você tem acesso através da interface iLO para instalar o seu sistema operacional preferido. As licenças do sistema operacional devem ser adquiridas separadamente, se necessário. O compartilhamento de contas não é permitido, mas usuários adicionais podem ser adicionados para gerenciamento e uso comercial, como a revenda de servidores virtuais, que é permitida.",
+      "th": "คุณสามารถเข้าถึงผ่านทางอินเทอร์เฟซ iLO เพื่อติดตั้งระบบปฏิบัติการที่คุณต้องการ ใบอนุญาตระบบปฏิบัติการต้องซื้อแยกต่างหากหากจำเป็น การแชร์บัญชีไม่อนุญาต แต่สามารถเพิ่มผู้ใช้เพิ่มเติมสำหรับการจัดการและการใช้งานเชิงพาณิชย์ เช่น การขายเซิร์ฟเวอร์เสมือนต่อได้",
+      "pl": "Masz dostęp do interfejsu iLO, aby zainstalować preferowany system operacyjny. Licencje na systemy operacyjne muszą być zakupione osobno, jeśli są potrzebne. Udostępnianie kont nie jest dozwolone, ale można dodać dodatkowych użytkowników do zarządzania, a także do użytku komercyjnego, takiego jak odsprzedaż serwerów wirtualnych.",
+      "ja": "iLOインターフェースを介して、好みのOSをインストールすることができます。必要な場合、OSライセンスは別途購入する必要があります。アカウントの共有は許可されていませんが、管理や商業利用（例えば、仮想サーバーの再販など）のために追加のユーザーを追加することは許可されています。",
+      "sv": "Du har tillgång via iLO-gränssnittet för att installera ditt föredragna operativsystem. Licenser för operativsystemet måste köpas separat om det behövs. Kontodelning är inte tillåten, men ytterligare användare kan läggas till för hantering och kommersiellt bruk, såsom att återförsälja virtuella servrar, vilket är tillåtet.",
+      "it": "Hai accesso tramite l'interfaccia iLO per installare il tuo sistema operativo preferito. Le licenze del sistema operativo devono essere acquistate separatamente, se necessario. La condivisione dell'account non è consentita, ma è possibile aggiungere utenti aggiuntivi per la gestione e l'uso commerciale, come la rivendita di server virtuali.",
+      "nl": "U heeft toegang via de iLO-interface om uw voorkeur besturingssysteem (OS) te installeren. OS-licenties moeten indien nodig apart worden aangeschaft. Het delen van accounts is niet toegestaan, maar extra gebruikers kunnen worden toegevoegd voor beheer en commercieel gebruik, zoals het doorverkopen van virtuele servers, is toegestaan."
+    }
+  }
+]

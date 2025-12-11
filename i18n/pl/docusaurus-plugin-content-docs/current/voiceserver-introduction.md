@@ -9,7 +9,7 @@ services:
 
 import InlineVoucher from '@site/src/components/InlineVoucher';
 import SearchableAccordion from '@site/src/components/SearchableAccordion/SearchableAccordion';
-import items from '@site/data/faqs/voiceserver-introduction-en.json';
+import items from '@site/data/faqs/voiceserver-introduction.json';
 
 ## Wprowadzenie
 Szukasz własnego serwera głosowego dla siebie i znajomych w uczciwej cenie? Trafiłeś idealnie do ZAP-Hosting! U nas możesz wynająć lub kupić dopasowany serwer głosowy. Możesz go dowolnie personalizować i konfigurować według swoich potrzeb.
@@ -28,6 +28,6 @@ Nasze serwery głosowe oparte na Teamspeak 3/5 są idealne do prowadzenia rozmó
 
 ## Najczęściej zadawane pytania
 Masz więcej pytań dotyczących naszego produktu Serwer głosowy? Znajdź odpowiedzi na wszystko, co chcesz wiedzieć o funkcjach, korzyściach, konfiguracji i efektywnym użytkowaniu. Dzięki temu zdobędziesz wszystkie informacje, aby w pełni wykorzystać nasz produkt Serwer głosowy. A jeśli coś nadal będzie niejasne, po prostu napisz do nas – chętnie pomożemy od razu.
-<SearchableAccordion items={items} />
+<SearchableAccordion items={items} locale="pl" />
 
 <InlineVoucher />

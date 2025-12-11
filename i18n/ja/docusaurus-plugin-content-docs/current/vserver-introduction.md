@@ -9,7 +9,7 @@ services:
 
 import InlineVoucher from '@site/src/components/InlineVoucher';
 import SearchableAccordion from '@site/src/components/SearchableAccordion/SearchableAccordion';
-import items from '@site/data/faqs/vserver-introduction-en.json';
+import items from '@site/data/faqs/vserver-introduction.json';
 
 ## はじめに
 
@@ -54,6 +54,6 @@ VPSにはいろんな構成オプションがあって、どんな使い方に�
 
 ## よくある質問
 VPSについてもっと知りたい？機能やメリット、セットアップ方法、使いこなし方まで、気になることは全部ここで解決しよう。わかりにくいことがあればいつでも気軽に連絡してね。すぐにサポートするよ！
-<SearchableAccordion items={items} />
+<SearchableAccordion items={items} locale="ja" />
 
 <InlineVoucher />

@@ -9,7 +9,7 @@ services:
 
 import InlineVoucher from '@site/src/components/InlineVoucher';
 import SearchableAccordion from '@site/src/components/SearchableAccordion/SearchableAccordion';
-import items from '@site/data/faqs/dedicated-introduction-en.json';
+import items from '@site/data/faqs/dedicated-introduction.json';
 import Admonition from '@theme/Admonition';
 
 
@@ -61,4 +61,4 @@ Gracias al rendimiento, los permisos completos y las posibilidades que esto ofre
 
 ## Preguntas Frecuentes
 ¿Tienes más preguntas sobre nuestro producto de servidor dedicado? Obtén respuestas a todo lo que quieres saber sobre características, beneficios, configuración y cómo usarlo de forma efectiva. Así obtienes la info que necesitas para sacarle el máximo provecho a nuestro producto de servidor dedicado. Y si algo sigue sin quedar claro, solo contáctanos y estamos aquí para ayudarte al instante.
-<SearchableAccordion items={items} />
+<SearchableAccordion items={items} locale="es" />

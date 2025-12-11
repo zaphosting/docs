@@ -9,7 +9,7 @@ services:
 
 import InlineVoucher from '@site/src/components/InlineVoucher';
 import SearchableAccordion from '@site/src/components/SearchableAccordion/SearchableAccordion';
-import items from '@site/data/faqs/voicebot-introduction-en.json';
+import items from '@site/data/faqs/voicebot-introduction.json';
 
 ## イントロダクション
 
@@ -29,6 +29,6 @@ Teamspeak 3やDiscord用のボイスボットは、ボイスチャネルで音�
 
 ## よくある質問
 ボイスボットについてもっと知りたい？機能やメリット、セットアップ方法、効果的な使い方まで、気になることは全部ここで解決！わかりにくいことがあれば、いつでも気軽に問い合わせてね。すぐにサポートするよ。
-<SearchableAccordion items={items} />
+<SearchableAccordion items={items} locale="ja" />
 
 <InlineVoucher />

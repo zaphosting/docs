@@ -9,7 +9,7 @@ services:
 
 import InlineVoucher from '@site/src/components/InlineVoucher';
 import SearchableAccordion from '@site/src/components/SearchableAccordion/SearchableAccordion';
-import items from '@site/data/faqs/voicebot-introduction-en.json';
+import items from '@site/data/faqs/voicebot-introduction.json';
 
 ## Introduktion
 
@@ -29,7 +29,7 @@ Voiceboten för Teamspeak 3 och Discord är ett grymt verktyg för att spela mus
 
 ## Vanliga frågor
 Har du fler frågor om vår Voicebot? Få svar på allt du vill veta om funktioner, fördelar, setup och hur du använder den på bästa sätt. Så får du all info du behöver för att maxa din upplevelse med vår Voicebot. Och om något fortfarande är oklart, hör bara av dig så hjälper vi dig direkt.
-<SearchableAccordion items={items} />
+<SearchableAccordion items={items} locale="sv" />
 
 
 <InlineVoucher />

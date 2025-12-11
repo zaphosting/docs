@@ -9,7 +9,7 @@ services:
 
 import InlineVoucher from '@site/src/components/InlineVoucher';
 import SearchableAccordion from '@site/src/components/SearchableAccordion/SearchableAccordion';
-import items from '@site/data/faqs/gameserver-introduction-en.json';
+import items from '@site/data/faqs/gameserver-introduction.json';
 
 ## แนะนำ
 
@@ -47,7 +47,7 @@ import items from '@site/data/faqs/gameserver-introduction-en.json';
 
 ## คำถามที่พบบ่อย
 มีคำถามเพิ่มเติมเกี่ยวกับผลิตภัณฑ์เซิร์ฟเวอร์เกมของเราหรือเปล่า? รับคำตอบทุกอย่างที่คุณอยากรู้เกี่ยวกับฟีเจอร์ ประโยชน์ การตั้งค่า และวิธีใช้งานอย่างมีประสิทธิภาพ เพื่อให้คุณได้ข้อมูลครบถ้วนและใช้เซิร์ฟเวอร์เกมของเราได้เต็มที่ และถ้ายังไม่ชัดเจน แค่ติดต่อมา เราพร้อมช่วยคุณทันที
-<SearchableAccordion items={items} />
+<SearchableAccordion items={items} locale="th" />
 
 
 <InlineVoucher />

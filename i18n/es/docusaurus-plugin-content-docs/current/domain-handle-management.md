@@ -7,6 +7,8 @@ services:
   - domain
 ---
 
+import InlineVoucher from '@site/src/components/InlineVoucher';
+
 ## Introducción
 
 Un **handle de dominio** es un registro de datos que contiene información de contacto asociada a un dominio y que se utiliza en las bases de datos públicas WHOIS. Identifica al propietario del dominio así como a los contactos administrativos o técnicos. Para mantener esta información precisa y actualizada, puedes gestionar los handles en la administración de dominios bajo Gestión de Handles, editando los existentes o creando nuevas entradas.

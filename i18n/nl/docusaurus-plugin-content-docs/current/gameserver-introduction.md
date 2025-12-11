@@ -9,7 +9,7 @@ services:
 
 import InlineVoucher from '@site/src/components/InlineVoucher';
 import SearchableAccordion from '@site/src/components/SearchableAccordion/SearchableAccordion';
-import items from '@site/data/faqs/gameserver-introduction-en.json';
+import items from '@site/data/faqs/gameserver-introduction.json';
 
 ## Introductie
 
@@ -45,7 +45,7 @@ Naast populaire games zoals **FiveM**, **Minecraft**, **SCP: Secret Laboratory**
 
 ## Veelgestelde Vragen
 Heb je nog meer vragen over ons Gameserver-product? Vind hier antwoorden op alles wat je wilt weten over features, voordelen, installatie en hoe je het effectief gebruikt. Zo krijg je alle info die je nodig hebt om het maximale uit onze Gameservers te halen. En als er toch iets onduidelijk is, neem gewoon contact op, we helpen je direct verder.
-<SearchableAccordion items={items} />
+<SearchableAccordion items={items} locale="nl" />
 
 
 <InlineVoucher />

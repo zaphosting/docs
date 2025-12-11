@@ -7,6 +7,8 @@ services:
   - domain
 ---
 
+import InlineVoucher from '@site/src/components/InlineVoucher';
+
 ## Introduction
 
 Un **contact de domaine** est un enregistrement de données contenant les informations de contact associées à un domaine et utilisé dans les bases de données publiques WHOIS. Il identifie le propriétaire du domaine ainsi que les contacts administratifs ou techniques. Pour garder ces informations précises et à jour, tu peux gérer les contacts dans la gestion de domaine sous Gestion des contacts en modifiant ceux existants ou en créant de nouvelles entrées.

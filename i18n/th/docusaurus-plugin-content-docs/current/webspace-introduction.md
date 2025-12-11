@@ -9,7 +9,7 @@ services:
 
 import InlineVoucher from '@site/src/components/InlineVoucher';
 import SearchableAccordion from '@site/src/components/SearchableAccordion/SearchableAccordion';
-import items from '@site/data/faqs/webspace-introduction-en.json';
+import items from '@site/data/faqs/webspace-introduction.json';
 
 ## บทนำ
 
@@ -58,6 +58,6 @@ import items from '@site/data/faqs/webspace-introduction-en.json';
 
 ## คำถามที่พบบ่อย
 มีคำถามเพิ่มเติมเกี่ยวกับผลิตภัณฑ์เว็บโฮสติ้งของเราหรือเปล่า? รับคำตอบทุกอย่างที่คุณอยากรู้เกี่ยวกับฟีเจอร์ ประโยชน์ การตั้งค่า และวิธีใช้งานอย่างมีประสิทธิภาพ เพื่อให้คุณได้ข้อมูลที่จำเป็นในการใช้เว็บโฮสติ้งของเราให้เต็มที่ และถ้ายังมีอะไรไม่ชัดเจน แค่ติดต่อมา เราพร้อมช่วยคุณทันที
-<SearchableAccordion items={items} />
+<SearchableAccordion items={items} locale="th" />
 
 <InlineVoucher />

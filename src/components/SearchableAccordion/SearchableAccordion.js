@@ -2,24 +2,48 @@ import React, { useState, useMemo } from 'react';
 import ReactMarkdown from 'react-markdown';
 import Details from '@theme/Details';
 import Translate, { translate } from '@docusaurus/Translate';
+import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import styles from './styles.module.css';
 
 /**
  * Accordion-Komponente mit Suchfunktion für beliebige Inhalte
- * @param {Object[]} items - Array mit Objekten im Format { title, content }
+ * @param {Object[]} items - Array mit Objekten im Format { title, content } oder { title: { en: "...", de: "..." }, content: { en: "...", de: "..." } }
+ * @param {string} locale - Optional: Sprache (z.B. 'en', 'de'). Falls nicht angegeben, wird die aktuelle Docusaurus-Sprache verwendet
  */
-const SearchableAccordion = ({ items }) => {
+const SearchableAccordion = ({ items, locale }) => {
+  const { i18n } = useDocusaurusContext();
+  const currentLocale = locale || i18n.currentLocale;
   const [searchTerm, setSearchTerm] = useState('');
   const [visibleCount, setVisibleCount] = useState(5);
 
+  const localizedItems = useMemo(() => {
+    return items.map(item => {
+      let title, content;
+      
+      if (typeof item.title === 'object' && item.title !== null) {
+        title = item.title[currentLocale] || item.title['en'] || Object.values(item.title)[0];
+      } else {
+        title = item.title;
+      }
+      
+      if (typeof item.content === 'object' && item.content !== null) {
+        content = item.content[currentLocale] || item.content['en'] || Object.values(item.content)[0];
+      } else {
+        content = item.content;
+      }
+      
+      return { title, content };
+    });
+  }, [items, currentLocale]);
+
   const filteredItems = useMemo(
     () =>
-      items.filter(
+      localizedItems.filter(
         item =>
           item.title.toLowerCase().includes(searchTerm.toLowerCase()) ||
           item.content.toLowerCase().includes(searchTerm.toLowerCase())
       ),
-    [searchTerm, items]
+    [searchTerm, localizedItems]
   );
 
   const shownItems = filteredItems.slice(0, visibleCount);

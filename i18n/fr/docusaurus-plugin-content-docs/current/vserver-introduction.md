@@ -9,7 +9,7 @@ services:
 
 import InlineVoucher from '@site/src/components/InlineVoucher';
 import SearchableAccordion from '@site/src/components/SearchableAccordion/SearchableAccordion';
-import items from '@site/data/faqs/vserver-introduction-en.json';
+import items from '@site/data/faqs/vserver-introduction.json';
 
 ## Introduction
 
@@ -54,6 +54,6 @@ Grâce au prix avantageux, à la performance, aux accès étendus, et aux possib
 
 ## Questions fréquentes
 Tu as d’autres questions sur notre produit VPS ? Trouve toutes les réponses sur les fonctionnalités, avantages, la mise en place et comment l’utiliser efficacement. Comme ça, tu as toutes les infos pour tirer le meilleur de notre VPS. Et si quelque chose n’est pas clair, contacte-nous, on est là pour t’aider direct.
-<SearchableAccordion items={items} />
+<SearchableAccordion items={items} locale="fr" />
 
 <InlineVoucher />

@@ -9,7 +9,7 @@ services:
 
 import InlineVoucher from '@site/src/components/InlineVoucher';
 import SearchableAccordion from '@site/src/components/SearchableAccordion/SearchableAccordion';
-import items from '@site/data/faqs/domain-introduction-en.json';
+import items from '@site/data/faqs/domain-introduction.json';
 
 ## Introductie
 
@@ -58,7 +58,7 @@ Door de scherpe prijs, eenvoudige administratie en de mogelijkheden die erbij ho
 - Digitale marketing en reclame
 
 ## Veelgestelde vragen
-Heb je nog meer vragen over ons Domein-product? Vind antwoorden op alles wat je wilt weten over functies, voordelen, installatie en hoe je het effectief gebruikt. Zo krijg je alle info die je nodig hebt om het maximale uit ons Domein-product te halen. En als er toch iets onduidelijk is, neem dan gewoon contact op, we helpen je direct verder.
-<SearchableAccordion items={items} />
+Heb je nog meer vragen over ons Domein-product? Vind hier antwoorden op alles wat je wilt weten over functies, voordelen, installatie en hoe je het effectief gebruikt. Zo haal je het maximale uit ons Domein-product. En als er toch iets onduidelijk is, neem gewoon contact op, we helpen je direct verder.
+<SearchableAccordion items={items} locale="nl" />
 
 <InlineVoucher />

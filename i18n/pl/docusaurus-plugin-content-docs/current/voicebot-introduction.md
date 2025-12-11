@@ -9,7 +9,7 @@ services:
 
 import InlineVoucher from '@site/src/components/InlineVoucher';
 import SearchableAccordion from '@site/src/components/SearchableAccordion/SearchableAccordion';
-import items from '@site/data/faqs/voicebot-introduction-en.json';
+import items from '@site/data/faqs/voicebot-introduction.json';
 
 ## Wprowadzenie
 
@@ -29,6 +29,6 @@ Bot głosowy do Teamspeak 3 i Discord to wszechstronne narzędzie do odtwarzania
 
 ## Najczęściej zadawane pytania
 Masz więcej pytań dotyczących naszego produktu bot głosowy? Znajdź odpowiedzi na wszystko, co chcesz wiedzieć o funkcjach, korzyściach, konfiguracji i efektywnym użytkowaniu. Dzięki temu zdobędziesz wszystkie potrzebne informacje, by w pełni wykorzystać naszego bota głosowego. A jeśli coś nadal jest niejasne, po prostu skontaktuj się z nami – chętnie pomożemy od razu.
-<SearchableAccordion items={items} />
+<SearchableAccordion items={items} locale="pl" />
 
 <InlineVoucher />

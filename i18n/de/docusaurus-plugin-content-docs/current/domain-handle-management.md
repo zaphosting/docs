@@ -7,6 +7,8 @@ services:
   - domain
 ---
 
+import InlineVoucher from '@site/src/components/InlineVoucher';
+
 ## Einführung
 
 Ein **Domain-Handle** ist ein Datensatz mit Kontaktinformationen, der mit einer Domain verknüpft ist und in öffentlichen WHOIS-Datenbanken verwendet wird. Es identifiziert den Domaininhaber sowie administrative oder technische Kontakte. Um diese Informationen korrekt und aktuell zu halten, kannst du Handles in der Domainverwaltung unter Handle-Verwaltung bearbeiten oder neue Einträge erstellen.

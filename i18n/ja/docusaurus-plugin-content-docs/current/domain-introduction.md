@@ -9,7 +9,7 @@ services:
 
 import InlineVoucher from '@site/src/components/InlineVoucher';
 import SearchableAccordion from '@site/src/components/SearchableAccordion/SearchableAccordion';
-import items from '@site/data/faqs/domain-introduction-en.json';
+import items from '@site/data/faqs/domain-introduction.json';
 
 ## イントロダクション
 
@@ -58,7 +58,7 @@ import items from '@site/data/faqs/domain-introduction-en.json';
 - デジタルマーケティングや広告
 
 ## よくある質問
-ドメインについてもっと知りたい？機能やメリット、設定方法、効果的な使い方まで、気になることは全部ここで解決しよう。必要な情報をゲットして、ドメインを最大限に活用しよう！それでもわからないことがあれば、気軽に問い合わせてね。すぐにサポートするよ。
-<SearchableAccordion items={items} />
+ドメインについてもっと知りたい？機能やメリット、設定方法、効果的な使い方まで、気になることは全部ここで解決！わかりやすくまとめてるから、ドメインを最大限に活用できるよ。もしまだわからないことがあれば、気軽に連絡してね。すぐにサポートするよ。
+<SearchableAccordion items={items} locale="ja" />
 
 <InlineVoucher />

@@ -9,7 +9,7 @@ services:
 
 import InlineVoucher from '@site/src/components/InlineVoucher';
 import SearchableAccordion from '@site/src/components/SearchableAccordion/SearchableAccordion';
-import items from '@site/data/faqs/gameserver-introduction-en.json';
+import items from '@site/data/faqs/gameserver-introduction.json';
 
 ## イントロダクション
 
@@ -52,7 +52,7 @@ import items from '@site/data/faqs/gameserver-introduction-en.json';
 
 ## よくある質問
 ゲームサーバー製品についてもっと知りたい？機能やメリット、セットアップ方法、効果的な使い方まで、気になることは全部ここでチェック！これでゲームサーバーを最大限に活用できるよ。もしまだわからないことがあれば、いつでも気軽に問い合わせてね。すぐにサポートするよ！
-<SearchableAccordion items={items} />
+<SearchableAccordion items={items} locale="ja" />
 
 
 <InlineVoucher />

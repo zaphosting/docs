@@ -9,7 +9,7 @@ services:
 
 import InlineVoucher from '@site/src/components/InlineVoucher';
 import SearchableAccordion from '@site/src/components/SearchableAccordion/SearchableAccordion';
-import items from '@site/data/faqs/webspace-introduction-en.json';
+import items from '@site/data/faqs/webspace-introduction.json';
 
 ## مقدمة
 
@@ -58,6 +58,6 @@ import items from '@site/data/faqs/webspace-introduction-en.json';
 
 ## الأسئلة المتكررة
 هل لديك المزيد من الأسئلة حول منتج استضافة المواقع لدينا؟ احصل على إجابات لكل ما تريد معرفته عن الميزات، الفوائد، الإعداد وكيفية الاستخدام بفعالية. بهذه الطريقة تحصل على المعلومات التي تحتاجها للاستفادة القصوى من منتج استضافة المواقع. وإذا بقي شيء غير واضح، فقط تواصل معنا ونحن هنا لمساعدتك فورًا.
-<SearchableAccordion items={items} />
+<SearchableAccordion items={items} locale="ar" />
 
 <InlineVoucher />

@@ -9,7 +9,7 @@ services:
 
 import InlineVoucher from '@site/src/components/InlineVoucher';
 import SearchableAccordion from '@site/src/components/SearchableAccordion/SearchableAccordion';
-import items from '@site/data/faqs/voiceserver-introduction-en.json';
+import items from '@site/data/faqs/voiceserver-introduction.json';
 
 ## Introduktion
 Letar du efter din egen voiceserver för dig och dina vänner till ett schysst pris? Då har du kommit helt rätt hos ZAP-Hosting! Hos oss kan du hyra eller köpa din perfekta voiceserver. Du kan anpassa och konfigurera din voiceserver precis som du vill.
@@ -28,6 +28,6 @@ Våra voiceservers baserade på Teamspeak 3/5 är perfekta för att snacka röst
 
 ## Vanliga frågor
 Har du fler frågor om vår Voiceserver-produkt? Få svar på allt du vill veta om funktioner, fördelar, setup och hur du använder den på bästa sätt. Så får du all info du behöver för att maxa din upplevelse med vår Voiceserver. Och om något fortfarande är oklart, hör bara av dig så hjälper vi dig direkt.
-<SearchableAccordion items={items} />
+<SearchableAccordion items={items} locale="sv" />
 
 <InlineVoucher />
