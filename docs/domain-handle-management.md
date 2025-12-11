@@ -7,6 +7,8 @@ services:
   - domain
 ---
 
+import InlineVoucher from '@site/src/components/InlineVoucher';
+
 ## Introduction
 
 A **domain handle** is a data record containing contact information associated with a domain and used in public WHOIS databases. It identifies the domain owner as well as administrative or technical contacts. To keep this information accurate and up to date, you can manage handles in the domain management under Handle Management by editing existing ones or creating new entries.

@@ -7,9 +7,11 @@ services:
   - domain
 ---
 
+import InlineVoucher from '@site/src/components/InlineVoucher';
+
 ## Einführung
 
-Ein **Domain-Handle** ist ein Datensatz mit Kontaktinformationen, der mit einer Domain verknüpft ist und in öffentlichen WHOIS-Datenbanken verwendet wird. Es identifiziert den Domaininhaber sowie administrative oder technische Kontakte. Um diese Informationen korrekt und aktuell zu halten, kannst du Handles in der Domainverwaltung unter Handle-Verwaltung bearbeiten oder neue Einträge erstellen.
+Ein **Domain-Handle** ist ein Datensatz mit Kontaktinformationen, der einer Domain zugeordnet ist und in öffentlichen WHOIS-Datenbanken verwendet wird. Er identifiziert den Domaininhaber sowie administrative oder technische Ansprechpartner. Um diese Informationen korrekt und aktuell zu halten, kannst du Handles in der Domainverwaltung unter Handle-Verwaltung bearbeiten oder neue Einträge anlegen.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/qNEeWEnbtHyxKEe/preview)
 
@@ -38,4 +40,4 @@ Alle Änderungen kannst du direkt in der Handle-Verwaltung eingeben und speicher
 
 ## Fazit
 
-Durch das Erstellen oder Aktualisieren eines Domain-Handles stellst du sicher, dass deine Kontaktdaten korrekt bei deinen Domains hinterlegt sind. Das ist essenziell für rechtliche Compliance, Erreichbarkeit und WHOIS-Genauigkeit.
+Durch das Erstellen oder Aktualisieren eines Domain-Handles stellst du sicher, dass deine Kontaktdaten korrekt bei deinen Domains hinterlegt sind. Das ist wichtig für rechtliche Vorgaben, Erreichbarkeit und die Genauigkeit im WHOIS.
