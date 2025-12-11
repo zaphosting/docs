@@ -1,7 +1,7 @@
 ---
 id: domain-handle-management
 title: "Dominio: Gestión de Handles"
-description: "Entiende cómo mantener los datos de contacto de tu dominio precisos para cumplir con normativas y garantizar la accesibilidad gestionando tus handles de dominio de forma efectiva → Aprende más ahora"
+description: "Entiende cómo mantener los datos de contacto de tu dominio precisos para cumplir con normativas y garantizar que te puedan localizar gestionando tus handles de dominio de forma efectiva → Aprende más ahora"
 sidebar_label: Gestión de Handles
 services:
   - domain
@@ -26,7 +26,7 @@ En la administración de dominios, dentro de **Gestión de Handles**, puedes mod
 - Nombre  
 - Apellido  
 - Empresa  
-- Calle / No.  
+- Calle / Nº  
 - Código postal  
 - Ciudad  
 - País  
@@ -40,4 +40,4 @@ Todos los cambios pueden introducirse y guardarse directamente desde la interfaz
 
 ## Conclusión
 
-Creando o actualizando un handle de dominio, aseguras que tus datos de contacto estén correctamente registrados con tus dominios. Esto es clave para cumplir con la ley, garantizar la accesibilidad y mantener la precisión en WHOIS.
+Creando o actualizando un handle de dominio, aseguras que tus datos de contacto estén correctamente registrados con tus dominios. Esto es fundamental para cumplir con la ley, garantizar que te puedan localizar y mantener la precisión en WHOIS.

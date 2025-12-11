@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introduction
 
-Un **contact de domaine** est un enregistrement de données contenant les informations de contact associées à un domaine et utilisé dans les bases de données publiques WHOIS. Il identifie le propriétaire du domaine ainsi que les contacts administratifs ou techniques. Pour garder ces informations précises et à jour, tu peux gérer les contacts dans la gestion de domaine sous Gestion des contacts en modifiant ceux existants ou en créant de nouvelles entrées.
+Un **contact de domaine** est un enregistrement de données contenant les informations de contact associées à un domaine et utilisé dans les bases de données WHOIS publiques. Il identifie le propriétaire du domaine ainsi que les contacts administratifs ou techniques. Pour garder ces informations précises et à jour, tu peux gérer les contacts dans la gestion de domaine sous Gestion des contacts en modifiant ceux existants ou en créant de nouvelles entrées.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/qNEeWEnbtHyxKEe/preview)
 
@@ -36,7 +36,7 @@ Dans la gestion de domaine sous **Gestion des contacts**, tu peux soit modifier 
 - Téléphone  
 - Fax
 
-Toutes les modifications peuvent être saisies et sauvegardées directement dans l’interface de Gestion des contacts. Les contacts nouvellement créés deviennent disponibles pour les futures inscriptions ou mises à jour de domaines. Les contacts existants peuvent être mis à jour sur des domaines actifs lorsque cela est supporté par le registre.
+Toutes les modifications peuvent être saisies et enregistrées directement dans l’interface de Gestion des contacts. Les contacts nouvellement créés deviennent disponibles pour les futures inscriptions ou mises à jour de domaines. Les contacts existants peuvent être mis à jour sur des domaines actifs lorsque cela est supporté par le registre.
 
 ## Conclusion
 

@@ -1,7 +1,7 @@
 ---
 id: domain-handle-management
 title: "Domän: Hantering av Kontakter"
-description: "Förstå hur du håller dina domänkontaktuppgifter korrekta för efterlevnad och tillgänglighet genom att effektivt hantera dina domänkontakter → Lär dig mer nu"
+description: "Förstå hur du håller dina domänkontakter korrekta för efterlevnad och kontaktbarhet genom att effektivt hantera dina domänkontakter → Lär dig mer nu"
 sidebar_label: Hantering av Kontakter
 services:
   - domain
@@ -19,7 +19,7 @@ En **domänkontakt** är en datapost som innehåller kontaktinformation kopplad 
 
 ## Skapa eller Redigera
 
-I domänhanteringen under **Hantering av Kontakter** kan du antingen ändra en befintlig kontakt eller skapa en ny. Följande fält kan konfigureras eller uppdateras när du jobbar med en kontakt:
+I domänhanteringen under **Hantering av Kontakter** kan du antingen ändra en befintlig kontakt eller skapa en ny. Följande fält kan konfigureras eller uppdateras när du arbetar med en kontakt:
 
 - Typ (Person / Företag)  
 - Kön  
@@ -40,4 +40,4 @@ Alla ändringar kan matas in och sparas direkt i gränssnittet för Hantering av
 
 ## Slutsats
 
-Genom att skapa eller uppdatera en domänkontakt säkerställer du att dina kontaktuppgifter är korrekt registrerade med dina domäner. Detta är avgörande för juridisk efterlevnad, tillgänglighet och WHOIS-precision.
+Genom att skapa eller uppdatera en domänkontakt säkerställer du att dina kontaktuppgifter är korrekt registrerade med dina domäner. Detta är avgörande för juridisk efterlevnad, kontaktbarhet och WHOIS-precision.
