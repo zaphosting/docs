@@ -42,7 +42,7 @@
     "prism-react-renderer": "^2.4.1",
     "react": "^19.2.1",
     "react-copy-to-clipboard": "github:zaphosting/react-copy-to-clipboard#master",
-    "react-dom": "^19.2.1",
+    "react-dom": "^19.2.3",
     "react-markdown": "^10.1.0"
   },
   "devDependencies": {
