@@ -29,7 +29,6 @@
     "clsx": "^2.1.1",
     "cross-spawn": "^7.0.6",
     "crypto-js": "^4.2.0",
-    "docusaurus-lunr-search": "^3.6.1",
     "express": "^5.2.1",
     "git-url-parse": "^16.1.0",
     "js-yaml": "^4.1.1",

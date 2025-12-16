@@ -209,12 +209,6 @@ const config = {
       containerId: 'GTM-5R9FLS69',
     },
     ],
-    [ 
-      require.resolve('docusaurus-lunr-search'),
-      {
-        languages: ['en', 'de'] // language codes
-      }
-    ]
   ],
   
   presets: [
