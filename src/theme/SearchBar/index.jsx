@@ -7,53 +7,11 @@ import React, {
 } from 'react';
 import clsx from 'clsx';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
+import {translate} from '@docusaurus/Translate';
 import './styles.css';
 
 const MIN_QUERY_LENGTH = 3;
 const TAB_ORDER = ['game', 'docs', 'landingPage', 'posts'];
-const LABELS = {
-    en: {
-        placeholder: 'Search products, games, docs…',
-        loading: 'Searching…',
-        empty: 'No matching results.',
-        failure: 'Search is unavailable. Please try again.',
-        short: 'Enter at least 3 characters.',
-        askAiHeading: 'Ask AI',
-        askAiDescription: 'Get AI-powered answers based on our documentation.',
-        askAiButton: 'Go!',
-        askAiGenericError: 'Failed to generate answer. Please try again.',
-        askAiUnavailable: 'Ask AI is currently unavailable.',
-        askAiRateLimited: 'Slow down, you\'re asking too many questions, please try again later!',
-        askAiLoadingText: 'Thinking...',
-        tabs: {
-            game: 'Products',
-            docs: 'Docs',
-            landingPage: 'Pages',
-            posts: 'Blog',
-        },
-    },
-    de: {
-        placeholder: 'Produkte, Spiele, Docs suchen…',
-        loading: 'Suche läuft…',
-        empty: 'Keine passenden Ergebnisse.',
-        failure: 'Suche nicht verfügbar. Bitte versuche es erneut.',
-        short: 'Bitte mindestens 3 Zeichen eingeben.',
-        askAiHeading: 'Frage die KI',
-        askAiDescription: 'Erhalte KI-gestützte Antworten basierend auf unserer Dokumentation.',
-        askAiButton: 'Los!',
-        askAiGenericError: 'Antwort konnte nicht erstellt werden. Bitte erneut versuchen.',
-        askAiUnavailable: 'Ask AI ist aktuell nicht verfügbar.',
-        askAiRateLimited: 'Bitte langsamer – versuche es gleich noch einmal!',
-        askAiLoadingText: 'Denke nach...',
-        tabs: {
-            game: 'Produkte',
-            docs: 'Docs',
-            landingPage: 'Seiten',
-            posts: 'Blog',
-        },
-    },
-};
-
 const sanitizeBase = (url) => url.replace(/\/+$/, '');
 
 const buildTabs = (counts, labels) => {
@@ -117,7 +75,90 @@ const Search = (props) => {
 
     const {siteConfig, i18n} = useDocusaurusContext();
     const locale = i18n?.currentLocale || 'en';
-    const copy = useMemo(() => LABELS[locale] || LABELS.en, [locale]);
+    const copy = useMemo(() => ({
+        placeholder: translate({
+            id: 'search.placeholder',
+            message: 'Search products, games, docs…',
+            description: 'Placeholder text for the navbar search input',
+        }),
+        loading: translate({
+            id: 'search.loading',
+            message: 'Searching…',
+            description: 'Loading text while search results are being fetched',
+        }),
+        empty: translate({
+            id: 'search.empty',
+            message: 'No matching results.',
+            description: 'Shown when search returns no results',
+        }),
+        failure: translate({
+            id: 'search.failure',
+            message: 'Search is unavailable. Please try again.',
+            description: 'Shown when search fails',
+        }),
+        short: translate({
+            id: 'search.short',
+            message: 'Enter at least 3 characters.',
+            description: 'Shown when the search query is too short',
+        }),
+        askAiHeading: translate({
+            id: 'search.askAiHeading',
+            message: 'Ask our AI',
+            description: 'Heading for the Ask AI section',
+        }),
+        askAiDescription: translate({
+            id: 'search.askAiDescription',
+            message: 'Get AI-powered answers based on our documentation.',
+            description: 'Description for the Ask AI section',
+        }),
+        askAiButton: translate({
+            id: 'search.askAiButton',
+            message: 'Go!',
+            description: 'Button label for the Ask AI action',
+        }),
+        askAiGenericError: translate({
+            id: 'search.askAiGenericError',
+            message: 'Failed to generate answer. Please try again.',
+            description: 'Generic error for Ask AI failures',
+        }),
+        askAiUnavailable: translate({
+            id: 'search.askAiUnavailable',
+            message: 'Ask AI is currently unavailable.',
+            description: 'Shown when Ask AI is disabled',
+        }),
+        askAiRateLimited: translate({
+            id: 'search.askAiRateLimited',
+            message: 'Slow down, you\'re asking too many questions, please try again later!',
+            description: 'Shown when Ask AI rate limit is reached',
+        }),
+        askAiLoadingText: translate({
+            id: 'search.askAiLoadingText',
+            message: 'Thinking...',
+            description: 'Loading text while Ask AI prepares an answer',
+        }),
+        tabs: {
+            game: translate({
+                id: 'search.tabs.game',
+                message: 'Products',
+                description: 'Tab label for product search results',
+            }),
+            docs: translate({
+                id: 'search.tabs.docs',
+                message: 'Docs',
+                description: 'Tab label for documentation search results',
+            }),
+            landingPage: translate({
+                id: 'search.tabs.landingPage',
+                message: 'Pages',
+                description: 'Tab label for landing page search results',
+            }),
+            posts: translate({
+                id: 'search.tabs.posts',
+                message: 'Blog',
+                description: 'Tab label for blog search results',
+            }),
+        },
+    }), [locale]);
     const marketingBase = useMemo(() => {
         const source = siteConfig?.customFields?.searchSite || siteConfig?.url || '';
 
@@ -369,6 +410,10 @@ const Search = (props) => {
     useEffect(() => {
         fetchAskAiConfig();
     }, [fetchAskAiConfig]);
+
+    useEffect(() => {
+        setCurrentLoadingLabel(copy.loading);
+    }, [copy.loading]);
 
     useEffect(() => {
         if (results === null) {
