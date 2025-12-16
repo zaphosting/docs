@@ -99,36 +99,56 @@
 
 .zap-search-tabs {
   display: flex;
-  gap: 8px;
+  gap: 14px;
+  padding: 0 2px 10px;
   margin-bottom: 12px;
+  border-bottom: 1px solid var(--zap-search-border);
   overflow-x: auto;
+  overflow-y: visible;
 }
 
 .zap-search-tab {
+  position: relative;
   display: inline-flex;
   align-items: center;
-  gap: 6px;
-  padding: 9px 12px;
-  border-radius: 999px;
-  border: 1px solid var(--zap-search-border);
+  gap: 8px;
+  padding: 6px 0;
+  border: none;
+  border-radius: 0;
   background: transparent;
   color: var(--zap-search-text-muted);
   cursor: pointer;
-  font-size: 13px;
+  font-size: 14px;
+  font-weight: 600;
   transition: all 180ms ease;
 }
 
 .zap-search-tab:hover {
   color: var(--zap-search-text);
-  border-color: var(--zap-search-border-strong);
-  background: var(--zap-search-surface-strong);
 }
 
 .zap-search-tab-active {
-  background: linear-gradient(180deg, rgba(190, 242, 100, 0.18), rgba(52, 211, 153, 0.18));
   color: var(--zap-search-text);
-  border-color: var(--zap-search-border-strong);
-  box-shadow: 0 8px 24px rgba(52, 211, 153, 0.16);
+}
+
+.zap-search-tab::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -11px;
+  height: 3px;
+  border-radius: 999px;
+  background: transparent;
+  box-shadow: 0 0 0 rgba(52, 211, 153, 0);
+  opacity: 0;
+  transition: all 180ms ease;
+}
+
+.zap-search-tab-active::after {
+  background: linear-gradient(90deg, var(--zap-search-accent-strong), var(--zap-search-accent));
+  box-shadow: 0 0 18px rgba(52, 211, 153, 0.55);
+  opacity: 1;
 }
 
 .zap-search-badge {
