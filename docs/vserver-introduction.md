@@ -34,7 +34,7 @@ We offer various configuration options for our VPS product, which should suit ev
 | **CPU** | AMD EPYC 7000 series |
 | **CPU Cores**              | 4-64 Cores |
 | **Memory**              | 4-128 GB RAM     |
-| **Disk space**               | 25-600 GB                                      |
+| **Disk space**               | 25-2000 GB                                   |
 | **Operating system** | Debian (11,12,13) Ubuntu (20.04,22.04,24.04), Windows Server 2022/2025 and custom ISOs |
 | **IP-Addresses** | 1-10 IP-Addresses  |
 | **Bandwidth**     | 1.000-5.000 Mbit/s up/down |
