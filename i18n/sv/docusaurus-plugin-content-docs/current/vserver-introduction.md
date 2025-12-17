@@ -13,7 +13,7 @@ import items from '@site/data/faqs/vserver-introduction.json';
 
 ## Introduktion
 
-Letar du efter en egen server med kraftfull konfiguration till ett schysst pris? Då är ZAP-Hosting rätt ställe för dig! Hos ZAP-Hosting kan du hyra eller köpa din perfekta VPS för maxad prestanda i många olika användningsområden!
+Letar du efter en egen server med kraftfull konfiguration till ett schysst pris? Då är ZAP-Hosting rätt ställe för dig! Hos ZAP-Hosting kan du hyra eller köpa din perfekta VPS för en maxad prestandaupplevelse för många olika användningsområden!
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/6cCD5TmrwXgtayy/preview)
 
@@ -27,14 +27,14 @@ Beställningsprocessen är superenkel. Välj din önskade konfiguration för din
 
 ## Konfigurationer
 
-Vi erbjuder olika konfigurationsalternativ för vår VPS-produkt som passar alla typer av användningsområden. Våra konfigurationer består generellt av följande möjliga val:
+Vi erbjuder olika konfigurationsmöjligheter för vår VPS-produkt som passar alla typer av användningsområden. Våra konfigurationer består generellt av följande möjliga alternativ:
 
 | Komponenter | Konfigurationsalternativ |
 | -------------------------------- | ------------------------- |
 | **CPU** | AMD EPYC 7000-serien |
 | **CPU-kärnor**              | 4-64 kärnor |
 | **Minne**              | 4-128 GB RAM     |
-| **Lagringsutrymme**               | 25-600 GB                                      |
+| **Diskutrymme**               | 25-2000 GB                                   |
 | **Operativsystem** | Debian (11,12,13), Ubuntu (20.04,22.04,24.04), Windows Server 2022/2025 och egna ISO-filer |
 | **IP-adresser** | 1-10 IP-adresser  |
 | **Bandbredd**     | 1.000-5.000 Mbit/s upp/ner |
@@ -44,7 +44,7 @@ Vi erbjuder olika konfigurationsalternativ för vår VPS-produkt som passar alla
 
 ## Användningsområden
 
-Tack vare det schyssta priset, prestandan, omfattande åtkomsträttigheter och de möjligheter det ger, kan en VPS användas för flera olika ändamål, bland annat:
+Tack vare det schyssta priset, prestandan, de omfattande åtkomsträttigheterna och de möjligheter det ger kan en Webspace användas för flera olika ändamål, bland annat:
 
 - Webbplatser
 - Databaser
@@ -53,7 +53,7 @@ Tack vare det schyssta priset, prestandan, omfattande åtkomsträttigheter och d
 - och mycket mer!
 
 ## Vanliga frågor
-Har du fler frågor om vår VPS-produkt? Få svar på allt du vill veta om funktioner, fördelar, installation och hur du använder den på bästa sätt. Så får du all info du behöver för att maxa din VPS. Och om något fortfarande är oklart, hör bara av dig så hjälper vi dig direkt.
-<SearchableAccordion items={items} locale="sv" />
+Har du fler frågor om vår VPS-produkt? Få svar på allt du vill veta om funktioner, fördelar, installation och hur du använder den effektivt. På så sätt får du all info du behöver för att maxa din VPS. Och om något fortfarande är oklart, hör bara av dig så hjälper vi dig direkt.
+<SearchableAccordion items={items} locale="de" />
 
 <InlineVoucher />
