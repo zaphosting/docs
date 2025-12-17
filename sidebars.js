@@ -88,7 +88,8 @@ const sidebars = {
           key: "general-security",
           items: [
             "account-security",
-            "account-2factor"
+            "account-2factor",
+            "account-hardware-authentication"
           ]
         },
       ]
