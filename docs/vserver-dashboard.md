@@ -1,7 +1,7 @@
 ---
 id: vserver-dashboard
 title: "VPS: Dashboard Overview"
-description: Information about the dashboard of a VPS product from ZAP-Hosting - ZAP-Hosting.com Documentation
+description: "Discover how to efficiently manage and secure your VPS with a clear overview of key features and options → Learn more now"
 sidebar_label: Dashboard
 services:
   - vserver

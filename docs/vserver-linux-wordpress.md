@@ -1,7 +1,7 @@
 ---
 id: vserver-linux-wordpress
 title: "VPS: Installation of WordPress"
-description: Information on how to install WordPress on your Linux VPS from ZAP-Hosting - ZAP-Hosting.com documentation
+description: "Discover how to set up WordPress on a Linux server using the LAMP stack for a powerful, flexible website solution → Learn more now"
 sidebar_label: Install WordPress
 services:
   - vserver
@@ -229,7 +229,7 @@ And just like that, upon successful login you will now be on your WordPress pane
 
 ## Conclusion
 
-Congratulations, you have successfully installed and configured WordPress! As the next step, we **highly recommend** setting up a domain and **SSL certificate** to ensure that data is transmitted securely and make the WordPress panel easier to access. Please view our [Certbot guide](vserver-linux-certbot.md#webroot-plugin) with a focus on the **Apache Plugin** and follow the interactive setup to quickly and easily setup a certificate for your chosen domain.
+Congratulations, you have successfully installed and configured WordPress! As the next step, we **highly recommend** setting up a domain and **SSL certificate** to ensure that data is transmitted securely and make the WordPress panel easier to access. Please view our [Certbot guide](vserver-linux-certbot.md) with a focus on the **Apache Plugin** and follow the interactive setup to quickly and easily setup a certificate for your chosen domain.
 
 For future reading and further setup, we highly recommend having a browse through our [WordPress Plugins](webspace-wordpress-plugins.md) and [WordPress Elementor](webspace-wordpress-elementor.md) guides which explore the process of installing plugins and using a popular user-friendly page builder named Elementor.
 

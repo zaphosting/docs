@@ -1,7 +1,7 @@
 ---
 id: discordbot-setup
 title: Set up your Discord Bot
-description: Information on how to set up your own Discord Bot - ZAP-Hosting.com documentation
+description: "Discover how to run and manage Discord bots for moderation, music, giveaways, and more with seamless server hosting → Learn more now"
 sidebar_label: Setup
 services:
   - discord-bot

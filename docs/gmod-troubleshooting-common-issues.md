@@ -1,7 +1,7 @@
 ---
 id: gmod-troubleshooting-common-issues
 title: "Garry's Mod: Common issues"
-description: "Information on how to resolve common issues on a Garry's Mod server from ZAP-Hosting - ZAP-Hosting.com documentation"
+description: "Discover how to troubleshoot and resolve common Garry's Mod server issues for a smooth gaming experience → Learn more now"
 sidebar_label: Common issues
 services:
   - gameserver-gmod

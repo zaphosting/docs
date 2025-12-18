@@ -1,7 +1,7 @@
 ---
 id: theisle-firststeps-dashboard
 title: "The Isle: Dashboard overview"
-description: Information about the dashboard of an The Isle server from ZAP-Hosting - ZAP-Hosting.com Documentation
+description: "Discover how to efficiently manage and optimize your The Isle server with a clear overview of all key features and options → Learn more now"
 sidebar_label: Dashboard
 services:
   - gameserver-theisle

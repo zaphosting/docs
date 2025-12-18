@@ -1,7 +1,7 @@
 ---
 id: vserver-windows-plesk
 title: "vServer: Installation von Plesk"
-description: Informationen, wie du Plesk auf deinen Windows vServer von ZAP-Hosting installieren kannst - ZAP-Hosting.com Dokumentation
+description: "Entdecke, wie du Websites und Server effizient mit Plesks vielseitiger Plattform für Einsteiger und Profis verwaltest → Jetzt mehr erfahren"
 sidebar_label: Plesk installieren
 services:
   - vserver
@@ -11,55 +11,50 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
 
-Plesk ist eine umfassende Webhosting- und Servermanagement-Plattform, die es Benutzern ermöglicht, Websites, Server, E-Mail-Konten und mehr über eine benutzerfreundliche Oberfläche zu verwalten. Es handelt sich um eine vielseitige Lösung, die sowohl für Einsteiger als auch für erfahrene Webentwickler und Systemadministratoren geeignet ist. 
-
+Plesk ist eine umfassende Webhosting- und Servermanagement-Plattform, mit der du Websites, Server, E-Mail-Konten und mehr über eine benutzerfreundliche Oberfläche verwalten kannst. Es ist eine vielseitige Lösung, die sowohl für Einsteiger als auch für erfahrene Webentwickler und Systemadministratoren geeignet ist.  
 <InlineVoucher />
+
 
 ## Verbindung zum Server herstellen
 
-Um Plesk auf dem Server zu installieren, musst du dich erstmal mit diesen verbinden. 
-Wie das geht, ist hier in unserer separaten Anleitung ausführlich erläutert: [Erstzugriff (RDP)](vserver-windows-userdp.md)
+Um Plesk auf dem Server zu installieren, musst du dich zuerst mit ihm verbinden. Wie das genau funktioniert, erklären wir ausführlich in unserer separaten Anleitung: [Erstzugang (RDP)](vserver-windows-userdp.md)
 
-## Plesk Installer 
+## Plesk Installer
 
-Als Nächstes wird der Plesk Installer benötigt, welche für die Installation von Plesk benötigt wird.
-Diese kann über einen Klick auf [Plesk Installer](https://installer-win.plesk.com/plesk-installer.exe) heruntergeladen werden
+Als Nächstes brauchst du den Plesk Installer, der für die Installation von Plesk erforderlich ist. Diesen kannst du herunterladen, indem du auf [Plesk Installer](https://installer-win.plesk.com/plesk-installer.exe) klickst.
 
-Diesen Installer wird nun in einem Ordner abgelegt, in unserem Beispiel nutzen wir dafür einen auf unserem Desktop erstellten "Plesk" Ordner
-Der Pfad zu dieser Datei wäre für die weiteren Schritte wichtig.
+Der Installer wird nun in einem Ordner gespeichert, in unserem Beispiel nutzen wir einen "Plesk"-Ordner, den wir auf dem Desktop erstellt haben. Der Pfad zu dieser Datei ist für die nächsten Schritte wichtig.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/HjzEBrowYnWk4pf/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/kLWzpPdxXRPKbHP/preview)
 
-### Befehl Prompt öffnen
+### Eingabeaufforderung öffnen
 
-Für die Installation muss jetzt die CMD Konsole geöffnet werden.
-Dies würde über die Tastenkombination [Windows] + [R] gehen oder auch wenn man bei dem "Windows Symbol" nach "Befehl" sucht und diese "command prompt" dort öffnet.
+Für die Installation muss jetzt die CMD-Konsole geöffnet werden.  
+Das geht über die Tastenkombination [Windows] + [R] oder indem du in der Windows-Suche „cmd“ oder „Eingabeaufforderung“ eingibst.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/BjnZszr8KbP6yz2/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/Bxy33gxjASsf5G3/preview)
 
 ### Plesk Installation
 
-In dieser CMD Konsole muss zu Beginn in das Verzeichnis navigiert werden, in welches der Plesk Installer hochgeladen wurde.
-In unserem Beispiel war es der "Plesk" Ordner auf dem "Desktop". 
+In der CMD-Konsole musst du in das Verzeichnis wechseln, in das du den Plesk Installer hochgeladen hast. In unserem Beispiel ist das der "Plesk"-Ordner auf dem Desktop.
 
-Über CMD gelangt man mit dem Befehl "*cd*" in dieses Verzeichnis.
+Das Verzeichnis wechselst du in CMD mit dem Befehl "*cd*".
 
-![](https://screensaver01.zap-hosting.com/index.php/s/wx9EGrtAewMSkHd/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/QzQmFzpi3SDQbbE/preview)
 
-Korrekt in dieses Verzeichnis gekommen, wäre der letzte Schritt die Ausführung von dem Installer Befehl.
-Mit diesem würde die Plesk-installer.exe ausgeführt und es würde automatisch die neuste Plesk Version installiert werden.
+Befindest du dich im richtigen Verzeichnis, ist der letzte Schritt die Ausführung des Installer-Befehls. Dadurch wird die Datei plesk-installer.exe gestartet und die neueste Plesk-Version automatisch installiert.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/7wc8dWQqnW5E3XT/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/2XcY2WEyX48RM4G/preview)
 
 Befehl: `plesk-installer.exe --select-product-id=panel --select-release-latest --installation-type=recommended`
 
 :::info
-Der Installationsprozess kann 30 bis 60 Minuten dauern, im Anschluss wäre Plesk installiert und kann genutzt werden.
+Der Installationsprozess kann 30 bis 60 Minuten dauern. Danach ist Plesk installiert und einsatzbereit.
 :::
 
 
-## Abschluss
+## Fazit
 
-Glückwunsch, du hast Plesk erfolgreich installiert und konfiguriert! Solltest du noch weitere Fragen oder Probleme haben, dann wende dich gerne an unser Support-Team, welches dir jeden Tag zur Verfügung steht!
+Glückwunsch, du hast Plesk erfolgreich auf deinem VPS installiert und eingerichtet! Falls du noch Fragen oder Probleme hast, steht dir unser Support-Team täglich zur Verfügung und hilft dir gerne weiter!
 
 <InlineVoucher />

@@ -1,7 +1,7 @@
 ---
 id: thebus-firststeps-dashboard
 title: "The Bus: Dashboard overview"
-description: Information about the dashboard of an The Bus server from ZAP-Hosting - ZAP-Hosting.com Documentation
+description: "Discover how to efficiently manage and optimize your The Bus server with a clear overview of all features and options → Learn more now"
 sidebar_label: Dashboard
 services:
   - gameserver-thebus

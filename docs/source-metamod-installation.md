@@ -1,7 +1,7 @@
 ---
 id: source-metamod-installation
 title: Install Source Mod and Meta Mod on server
-description: Information how to install Source Mod and Meta Mod on your Source Gameserver from ZAP-Hosting - ZAP-Hosting.com documentation
+description: "Discover how to enhance your Source engine game server with Source- and Metamod for advanced customization and administration → Learn more now"
 sidebar_label: Installation
 services:
   - gameserver

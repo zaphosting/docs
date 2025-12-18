@@ -1,7 +1,7 @@
 ---
 id: dedicated-linux-joplin
 title: "Dedicated Server: Setup Joplin on Linux"
-description: Information on how to setup Joplin on your Linux Dedicated Server from ZAP-Hosting - ZAP-Hosting.com documentation
+description: "Discover how to organize and sync encrypted Markdown notes across devices with Joplin for secure, flexible note-taking → Learn more now"
 sidebar_label: Install Joplin
 services:
 - dedicated
@@ -24,7 +24,7 @@ This application can only be installed and used on a Linux system with a graphic
 
 :::
 
-<InlineVoucher />
+
 
 
 
@@ -127,4 +127,3 @@ Got specific questions that aren't covered here? For further questions or assist
 
 
 
-<InlineVoucher />

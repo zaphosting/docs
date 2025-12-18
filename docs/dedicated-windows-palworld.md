@@ -1,7 +1,7 @@
 ---
 id: dedicated-windows-palworld
 title: "Dedicated Server: Palworld Dedicated Server Windows Setup"
-description: Information about setting up a Palworld Dedicated Server on a Windows Dedicated Server from ZAP-Hosting - ZAP-Hosting.com documentation
+description: "Discover how to set up a Palworld Dedicated Server on your Windows VPS or server quickly and efficiently → Learn more now"
 sidebar_label: Palworld
 services:
   - dedicated
@@ -16,7 +16,7 @@ Do you have a Windows VPS or dedicated server and you want to install the Palwor
 
 <YouTube videoId="thn0wDE5LDg" imageSrc="https://screensaver01.zap-hosting.com/index.php/s/pt4oNY8tPJdKf44/preview" title="How To Setup Palworld Dedicated Server on Windows VPS!" description="Feel like you understand better when you see things in action? We’ve got you! Dive into our video that breaks it all down for you. Whether you're in a rush or just prefer to soak up information in the most engaging way possible!"/>
 
-<InlineVoucher />
+
 
 ## Preparation
 
@@ -154,4 +154,4 @@ Head over to the base directory of your Palworld server and run **PalServer.exe*
 
 You have successfully installed Palworld on your Windows Dedicated Server.
 
-<InlineVoucher />
+

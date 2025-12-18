@@ -1,7 +1,7 @@
 ---
 id: dedicated-linux-webserver
 title: "Dedicated Server: Installation of Nginx and Apache webserver"
-description: Information on how to install Nginx and Apache web servers on your Linx VPS from ZAP-Hosting - ZAP-Hosting.com documentation
+description: "Discover how to set up and configure Nginx or Apache web servers to host your website efficiently → Learn more now"
 sidebar_label: Install webserver
 services:
   - dedicated
@@ -13,7 +13,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Nginx and Apache are popular web services that are used to deliver web pages to a user's browser. Below we will show you how to install one of the services on your system. 
 
-<InlineVoucher />
+
 
 ## Preparation
 
@@ -126,4 +126,4 @@ nginx version: nginx/1.2.3
 
 If either one of the two cases occurs, then the web server has been successfully installed. 
 
-<InlineVoucher />
+

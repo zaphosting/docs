@@ -1,7 +1,7 @@
 ---
 id: contribution-guides-guidelines
 title: Guide Guidelines
-description: Guidelines for the Guides section of the ZAP-Hosting Contribution Program - ZAP-Hosting.com documentation
+description: "Discover how to create consistent, high-quality documentation that enhances reader experience and clarity → Learn more now"
 sidebar_label: Guidelines
 ---
 
@@ -11,10 +11,10 @@ In order to ensure that the content on our ZAP-Docs always remains consistent in
 
 Our guides contribution guidelines are split into the following sections:
 
-- [Structure](#structure)
-- [Style](#style)
-- [Formatting](#formatting)
-- [Terminology](#terminology)
+- Structure
+- Style
+- Formatting
+- Terminology
 
 We recommend browsing these sections at least once before proceeding with writing any content. It is also a useful place to refer to if you are in doubt of how to approach something during the creation process.
 
@@ -22,7 +22,7 @@ We recommend browsing these sections at least once before proceeding with writin
 
 All of our guides across our ZAP-Docs follow a relatively consistent structure which begins with an short introduction along with any prerequisites or preparation steps, followed by the main content and a short conclusion.
 
-The structure can be altered occassionally depending on the type of guide produced. This can be discussed with the ZAP-Docs Team within your initial suggestion. You can view how to utilise headings via the [headers](#headers) section, it done through regular traditional Markdown.
+The structure can be altered occassionally depending on the type of guide produced. This can be discussed with the ZAP-Docs Team within your initial suggestion. You can view how to utilise headings via the headers section, it done through regular traditional Markdown.
 
 The structure that we typically expect to see would have the following headings:
 

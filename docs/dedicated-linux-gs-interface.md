@@ -1,7 +1,7 @@
 ---
 id: dedicated-linux-gs-interface
 title: "Dedicated Server: Gameserver/TS3 Interface"
-description: Information on how to install TS and game server via the game server/TS3 interface with just a few clicks - ZAP-Hosting.com documentation
+description: "Discover how to easily set up game servers, voice servers, and music bots on Linux VPS or dedicated servers → Learn more now"
 sidebar_label: GS/TS3 Interface
 services:
   - dedicated
@@ -15,7 +15,7 @@ If game server products don't meet your taste or expectations, or if you need yo
 
 To solve this problem, we have developed a practical solution for our Linux-based VPS or dedicated server. The so-called Gameserver/Teamspeak 3 Server interface (GS/TS3 Interface)!
 
-<InlineVoucher />
+
 
 ## Use case
 
@@ -148,4 +148,4 @@ There is no licence installed on the Teamspeak 3 server by default. This means t
 ## Conclusion
 Congratulations, you have successfully installed and configured our GS/TS3 interface! If you have any further questions or problems, please contact our support team, who are available to help you every day!
 
-<InlineVoucher />
+

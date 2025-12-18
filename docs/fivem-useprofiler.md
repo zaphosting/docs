@@ -1,7 +1,7 @@
 ---
 id: fivem-useprofiler
 title: "FiveM: Using the Profiler to identify server issues"
-description: Information on how to use and interpret the profiler for your FiveM server on ZAP-Hosting to identify problems - ZAP-Hosting.com 
+description: "Discover how to analyze server performance and identify resource issues with the FiveM Profiler for smoother gameplay → Learn more now"
 sidebar_label: Use Profiler
 services:
   - gameserver-fivem

@@ -1,7 +1,7 @@
 ---
 id: spaceengineers-troubleshooting-common-issues
 title: "Space Engineers: Common issues"
-description: "Information on how to resolve common issues on a Space Engineers server from ZAP-Hosting - ZAP-Hosting.com documentation"
+description: "Discover how to troubleshoot and resolve common Space Engineers server issues for a smoother gaming experience → Learn more now"
 sidebar_label: Common issues
 services:
   - gameserver-spaceengineers

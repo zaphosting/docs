@@ -1,7 +1,7 @@
 ---
 id: dedicated-linux-password-change
 title: "Dedicated Server: Change root password for Linux server"
-description: Information on how to change the root password for on your Linux Dedicated Server from ZAP-Hosting - ZAP-Hosting.com documentation
+description: "Discover how to securely change and manage your server password via web interface or console for enhanced access control → Learn more now"
 sidebar_label: Change Password
 services:
   - dedicated
@@ -9,7 +9,7 @@ services:
 
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
-<InlineVoucher />
+
 
 ## Webinterface
 
@@ -57,4 +57,4 @@ If both passwords are not equal, then the console will stop the operation. in th
 Important: If you change the password via Console, it cannot be displayed for 3 hours in our web interface under Access and Security.
 :::
 
-<InlineVoucher />
+

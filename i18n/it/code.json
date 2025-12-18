@@ -1,0 +1,1519 @@
+{
+  "service.vserver.title": {
+    "message": "VPS",
+    "description": "Product name for the gameserver product"
+  },
+  "service.vserver.path": {
+    "message": "{marketingSite}/{language}/vps-hosting/",
+    "description": "URL path for the VPS product"
+  },
+  "service.dedicated.title": {
+    "message": "server dedicato",
+    "description": "Product name for the dedicated server product"
+  },
+  "service.dedicated.path": {
+    "message": "{marketingSite}/{language}/dedicated-server-hosting/",
+    "description": "URL path for the dedicated server product"
+  },
+  "service.domain.title": {
+    "message": "dominio",
+    "description": "Product name for the domain product"
+  },
+  "service.domain.path": {
+    "message": "{marketingSite}/{language}/domain-check/",
+    "description": "URL path for the domain product"
+  },
+  "service.webspace.title": {
+    "message": "hosting web",
+    "description": "Product name for the webspace product"
+  },
+  "service.webspace.path": {
+    "message": "{marketingSite}/{language}/webhosting-rent-a-webspace/",
+    "description": "URL path for the webspace product"
+  },
+  "service.voiceserver.title": {
+    "message": "server vocale",
+    "description": "Product name for the voiceserver product"
+  },
+  "service.voiceserver.path": {
+    "message": "{marketingSite}/{language}/teamspeak-3-server-hosting/",
+    "description": "URL path for the voiceserver product"
+  },
+  "service.voicebot.title": {
+    "message": "voicebot",
+    "description": "Product name for the voicebot product"
+  },
+  "service.voicebot.path": {
+    "message": "{marketingSite}/{language}/teamspeak-3-server-hosting/",
+    "description": "URL path for the voicebot product"
+  },
+  "service.storage.title": {
+    "message": "Archiviazione Premium",
+    "description": "Product name for the storage product"
+  },
+  "service.storage.path": {
+    "message": "{marketingSite}/{language}/shop/product/premium-storage/",
+    "description": "URL path for the storage product"
+  },
+  "service.fivemupvotes.title": {
+    "message": "FiveM Upvotes",
+    "description": "Product name for the storage product"
+  },
+  "service.fivemupvotes.path": {
+    "message": "{marketingSite}/{language}/shop/product/fivem-upvotes/",
+    "description": "URL path for the storage product"
+  },
+  "service.fivemupvotesburst.title": {
+    "message": "FiveM Upvotes BURST",
+    "description": "Product name for the storage product"
+  },
+  "service.gameserver.title": {
+    "message": "Server di gioco Cloud",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver.path": {
+    "message": "{marketingSite}/{language}/gameserver-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-7d2d.title": {
+    "message": "Server di gioco 7 Days to Die",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-7d2d.path": {
+    "message": "{marketingSite}/{language}/7-days-to-die-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-abioticfactor.title": {
+    "message": "Server di gioco Abiotic Factor",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-abioticfactor.path": {
+    "message": "{marketingSite}/{language}/abiotic-factor-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-afterinfection.title": {
+    "message": "Server di gioco Afterinfection",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-afterinfection.path": {
+    "message": "{marketingSite}/{language}/afterinfection-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-amongus.title": {
+    "message": "Server di gioco Among Us",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-amongus.path": {
+    "message": "{marketingSite}/{language}/among-us-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-animalia-survival.title": {
+    "message": "Server di gioco Animalia Survival",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-animalia-survival.path": {
+    "message": "{marketingSite}/{language}/animalia-survival-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-argo.title": {
+    "message": "Server di gioco Argo",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-argo.path": {
+    "message": "{marketingSite}/{language}/argo-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-ark.title": {
+    "message": "Server di gioco ARK: Survival Evolved",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-ark.path": {
+    "message": "{marketingSite}/{language}/ark-survival-evolved-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-arma3.title": {
+    "message": "Server di gioco Arma 3",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-arma3.path": {
+    "message": "{marketingSite}/{language}/arma-3-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-arma-reforger.title": {
+    "message": "Server di gioco Arma Reforger",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-arma-reforger.path": {
+    "message": "{marketingSite}/{language}/arma-reforger-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-assettocorsa.title": {
+    "message": "Server di gioco Assetto Corsa",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-assettocorsa.path": {
+    "message": "{marketingSite}/{language}/assetto-corsa-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-assetto-competizione.title": {
+    "message": "Server di gioco Assetto Corsa Competizione",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-assetto-competizione.path": {
+    "message": "{marketingSite}/{language}/assetto-corsa-competizione-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-astrocolony.title": {
+    "message": "Server di gioco Astro Colony",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-astrocolony.path": {
+    "message": "{marketingSite}/{language}/astro-colony-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-astroneer.title": {
+    "message": "Server di gioco ASTRONEER",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-astroneer.path": {
+    "message": "{marketingSite}/{language}/astroneer-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-avorion.title": {
+    "message": "Server di gioco Avorion",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-avorion.path": {
+    "message": "{marketingSite}/{language}/avorion-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-ats.title": {
+    "message": "Server di gioco American Truck Simulator",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-ats.path": {
+    "message": "{marketingSite}/{language}/american-truck-simulator-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-bananashooter.title": {
+    "message": "Server di gioco Banana Shooter",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-bananashooter.path": {
+    "message": "{marketingSite}/{language}/banana-shooter-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-barotrauma.title": {
+    "message": "Server di gioco Barotrauma",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-barotrauma.path": {
+    "message": "{marketingSite}/{language}/barotrauma-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-battalion1944.title": {
+    "message": "Server di gioco Battalion 1944",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-battalion1944.path": {
+    "message": "{marketingSite}/{language}/battalion-1944-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-battlegrounds3.title": {
+    "message": "Server di gioco Battle Grounds III",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-battlegrounds3.path": {
+    "message": "{marketingSite}/{language}/battle-grounds-iii-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-beammp.title": {
+    "message": "Server di gioco BeamMP",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-beammp.path": {
+    "message": "{marketingSite}/{language}/beammp-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-bob.title": {
+    "message": "Server di gioco Beasts of Bermuda",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-bob.path": {
+    "message": "{marketingSite}/{language}/beasts-of-bermuda-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-beyondthewire.title": {
+    "message": "Server di gioco Beyond the Wire",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-beyondthewire.path": {
+    "message": "{marketingSite}/{language}/beyond-the-wire-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-brokeprotocol.title": {
+    "message": "Server di gioco Broke Protocol",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-brokeprotocol.path": {
+    "message": "{marketingSite}/{language}/broke-protocol-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-citadel-forgedwithfire.title": {
+    "message": "Server di gioco Citadel: Forged With Fire",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-citadel-forgedwithfire.path": {
+    "message": "{marketingSite}/{language}/citadel-forged-with-fire-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-colonysurvival.title": {
+    "message": "Server di gioco Colony Survival",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-colonysurvival.path": {
+    "message": "{marketingSite}/{language}/colony-survival-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-conan.title": {
+    "message": "Server di gioco Conan Exiles",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-conan.path": {
+    "message": "{marketingSite}/{language}/conan-exiles-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-contagion.title": {
+    "message": "Server di gioco Contagion",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-contagion.path": {
+    "message": "{marketingSite}/{language}/contagion-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-corekeeper.title": {
+    "message": "Server di gioco Core Keeper",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-corekeeper.path": {
+    "message": "{marketingSite}/{language}/core-keeper-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-craftopia.title": {
+    "message": "Server di gioco Craftopia",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-craftopia.path": {
+    "message": "{marketingSite}/{language}/craftopia-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-cryofall.title": {
+    "message": "Server di gioco Cryofall",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-cryofall.path": {
+    "message": "{marketingSite}/{language}/cryofall-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-cs16.title": {
+    "message": "Server di gioco Counter-Strike 1.6",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-cs16.path": {
+    "message": "{marketingSite}/{language}/counter-strike-1-6-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-cs2.title": {
+    "message": "Server di gioco Counter-Strike 2",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-cs2.path": {
+    "message": "{marketingSite}/{language}/counter-strike-2-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-css.title": {
+    "message": "Server di gioco Counter-Strike: Source",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-css.path": {
+    "message": "{marketingSite}/{language}/css-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-dayofinfamy.title": {
+    "message": "Server di gioco Day of Infamy",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-dayofinfamy.path": {
+    "message": "{marketingSite}/{language}/day-of-infamy-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-dayz.title": {
+    "message": "Server di gioco DayZ",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-dayz.path": {
+    "message": "{marketingSite}/{language}/dayz-standalone-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-ddracenetwork.title": {
+    "message": "Server di gioco DDraceNetwork",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-ddracenetwork.path": {
+    "message": "{marketingSite}/{language}/ddracenetwork-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-deadlock.title": {
+    "message": "Server di gioco Deadlock",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-deadlock.path": {
+    "message": "{marketingSite}/{language}/deadlock-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-deadpoly.title": {
+    "message": "Server di gioco DeadPoly",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-deadpoly.path": {
+    "message": "{marketingSite}/{language}/deadpoly-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-dods.title": {
+    "message": "Server di gioco Day of Defeat: Source",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-dods.path": {
+    "message": "{marketingSite}/{language}/day-of-defeat-source-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-dst.title": {
+    "message": "Server di gioco Don't Starve Together",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-dst.path": {
+    "message": "{marketingSite}/{language}/don-t-starve-together-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-eco.title": {
+    "message": "Server di gioco ECO",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-eco.path": {
+    "message": "{marketingSite}/{language}/eco-global-survival-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-empyrion.title": {
+    "message": "Server di gioco Empyrion",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-empyrion.path": {
+    "message": "{marketingSite}/{language}/empyrion-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-enshrouded.title": {
+    "message": "Server di gioco Enshrouded",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-enshrouded.path": {
+    "message": "{marketingSite}/{language}/enshrouded-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-ets2.title": {
+    "message": "Server di gioco Euro Truck Simulator 2",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-ets2.path": {
+    "message": "{marketingSite}/{language}/euro-truck-simulator-2-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-factorio.title": {
+    "message": "Server di gioco Factorio",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-factorio.path": {
+    "message": "{marketingSite}/{language}/factorio-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-fivem.title": {
+    "message": "Server di gioco FiveM",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-fivem.path": {
+    "message": "{marketingSite}/{language}/fivem-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-foundry.title": {
+    "message": "Server di gioco Foundry",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-foundry.path": {
+    "message": "{marketingSite}/{language}/foundry-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-gmod.title": {
+    "message": "Server di gioco Garry's Mod",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-gmod.path": {
+    "message": "{marketingSite}/{language}/garrys-mod-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-groundbranch.title": {
+    "message": "Server di gioco Ground Branch",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-groundbranch.path": {
+    "message": "{marketingSite}/{language}/ground-branch-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-hl1.title": {
+    "message": "Server di gioco Half-Life 1",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-hl1.path": {
+    "message": "{marketingSite}/{language}/half-life-1-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-hl2.title": {
+    "message": "Server di gioco Half-Life 2",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-hl2.path": {
+    "message": "{marketingSite}/{language}/half-life-2-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-holdfast.title": {
+    "message": "Server di gioco Holdfast: Nations At War",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-holdfast.path": {
+    "message": "{marketingSite}/{language}/holdfast-nations-at-war-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-humanitz.title": {
+    "message": "Server di gioco HumanitZ",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-humanitz.path": {
+    "message": "{marketingSite}/{language}/humanitz-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-hurtworld.title": {
+    "message": "Server di gioco Hurtworld",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-hurtworld.path": {
+    "message": "{marketingSite}/{language}/hurtworld-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-icarus.title": {
+    "message": "Server di gioco Icarus",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-icarus.path": {
+    "message": "{marketingSite}/{language}/icarus-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-insurgency.title": {
+    "message": "Server di gioco Insurgency: Sandstorm",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-insurgency.path": {
+    "message": "{marketingSite}/{language}/insurgency-sandstorm-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-ironarmada.title": {
+    "message": "Iron Armada server di gioco",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-ironarmada.path": {
+    "message": "{marketingSite}/{language}/iron-armada-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-jol.title": {
+    "message": "Journey of Life server di gioco",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-jol.path": {
+    "message": "{marketingSite}/{language}/journey-of-life-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-killingfloor2.title": {
+    "message": "Killing Floor 2 server di gioco",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-killingfloor2.path": {
+    "message": "{marketingSite}/{language}/killing-floor-2-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-lastoasis.title": {
+    "message": "Last Oasis server di gioco",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-lastoasis.path": {
+    "message": "{marketingSite}/{language}/last-oasis-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-leap.title": {
+    "message": "Leap server di gioco",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-leap.path": {
+    "message": "{marketingSite}/{language}/leap-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-l4d2.title": {
+    "message": "Left 4 Dead 2 server di gioco",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-l4d2.path": {
+    "message": "{marketingSite}/{language}/left-4-dead-2-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-longvinter.title": {
+    "message": "Longvinter server di gioco",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-longvinter.path": {
+    "message": "{marketingSite}/{language}/longvinter-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-minecraft.title": {
+    "message": "Minecraft server di gioco",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-minecraft.path": {
+    "message": "{marketingSite}/{language}/minecraft-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-minetest.title": {
+    "message": "Minetest server di gioco",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-minetest.path": {
+    "message": "{marketingSite}/{language}/minetest-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-miscreated.title": {
+    "message": "Miscreated server di gioco",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-miscreated.path": {
+    "message": "{marketingSite}/{language}/miscreated-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-motortown.title": {
+    "message": "Motor Town: Behind The Wheel server di gioco",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-motortown.path": {
+    "message": "{marketingSite}/{language}/motor-town-behind-the-wheel-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-mountandblade.title": {
+    "message": "Mount & Blade server di gioco",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-mountandblade.path": {
+    "message": "{marketingSite}/{language}/mount-and-blade-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-mta.title": {
+    "message": "Multi Theft Auto server di gioco",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-mta.path": {
+    "message": "{marketingSite}/{language}/mta-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-moe.title": {
+    "message": "Myth of Empires server di gioco",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-moe.path": {
+    "message": "{marketingSite}/{language}/myth-of-empires-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-necesse.title": {
+    "message": "Necesse server di gioco",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-necesse.path": {
+    "message": "{marketingSite}/{language}/necesse-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-nstp.title": {
+    "message": "Never Split the Party server di gioco",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-nstp.path": {
+    "message": "{marketingSite}/{language}/never-split-the-party-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-nienix.title": {
+    "message": "Nienix server di gioco",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-nienix.path": {
+    "message": "{marketingSite}/{language}/nienix-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-nmrih.title": {
+    "message": "No More Room In Hell server di gioco",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-nmrih.path": {
+    "message": "{marketingSite}/{language}/no-more-room-in-hell-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-noonesurvived.title": {
+    "message": "No One Survived server di gioco",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-noonesurvived.path": {
+    "message": "{marketingSite}/{language}/no-one-survived-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-ohol.title": {
+    "message": "One Hour One Life server di gioco",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-ohol.path": {
+    "message": "{marketingSite}/{language}/one-hour-one-life-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-openmp.title": {
+    "message": "Open.mp server di gioco",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-openmp.path": {
+    "message": "{marketingSite}/{language}/open-mp-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-openttd.title": {
+    "message": "OpenTTD server di gioco",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-openttd.path": {
+    "message": "{marketingSite}/{language}/openttd-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-ohd.title": {
+    "message": "Operation: Harsh Doorstop server di gioco",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-ohd.path": {
+    "message": "{marketingSite}/{language}/operation-harsh-doorstop-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-ootow.title": {
+    "message": "Outlaws of the Old West server di gioco",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-ootow.path": {
+    "message": "{marketingSite}/{language}/outlaws-of-the-old-west-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-palworld.title": {
+    "message": "Palworld server di gioco",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-palworld.path": {
+    "message": "{marketingSite}/{language}/palworld-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-pathoftitans.title": {
+    "message": "Path of Titans server di gioco",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-pathoftitans.path": {
+    "message": "{marketingSite}/{language}/path-of-titans-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-pixark.title": {
+    "message": "PixARK server di gioco",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-pixark.path": {
+    "message": "{marketingSite}/{language}/pixark-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-portalknights.title": {
+    "message": "Portal Knights server di gioco",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-portalknights.path": {
+    "message": "{marketingSite}/{language}/portal-knights-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-projectzomboid.title": {
+    "message": "Project Zomboid server di gioco",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-projectzomboid.path": {
+    "message": "{marketingSite}/{language}/project-zomboid-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-redm.title": {
+    "message": "RedM server di gioco",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-redm.path": {
+    "message": "{marketingSite}/{language}/redm-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-reignofkings.title": {
+    "message": "Reign of Kings server di gioco",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-reignofkings.path": {
+    "message": "{marketingSite}/{language}/reign-of-kings-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-rimworldtogether.title": {
+    "message": "RimWorld Together server di gioco",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-rimworldtogether.path": {
+    "message": "{marketingSite}/{language}/rimworld-together-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-risingstorm2.title": {
+    "message": "Rising Storm 2 server di gioco",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-risingstorm2.path": {
+    "message": "{marketingSite}/{language}/rising-storm-2-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-risingworld.title": {
+    "message": "Rising World server di gioco",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-risingworld.path": {
+    "message": "{marketingSite}/{language}/rising-world-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-riskofrain2.title": {
+    "message": "Risk of Rain 2 server di gioco",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-riskofrain2.path": {
+    "message": "{marketingSite}/{language}/risk-of-rain-2-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-rust.title": {
+    "message": "Rust server di gioco",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-rust.path": {
+    "message": "{marketingSite}/{language}/rust-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-sanctuaryisland.title": {
+    "message": "Sanctuary Island server di gioco",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-sanctuaryisland.path": {
+    "message": "{marketingSite}/{language}/sanctuary-island-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-satisfactory.title": {
+    "message": "Satisfactory server di gioco",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-satisfactory.path": {
+    "message": "{marketingSite}/{language}/satisfactory-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-scp5k.title": {
+    "message": "SCP: 5K server di gioco",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-scp5k.path": {
+    "message": "{marketingSite}/{language}/scp-5k-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-scp-containmentbreach.title": {
+    "message": "SCP: Containment Breach server di gioco",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-scp-containmentbreach.path": {
+    "message": "{marketingSite}/{language}/scp-containment-breach-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-scp-escapetogether.title": {
+    "message": "SCP: Escape Together server di gioco",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-scp-escapetogether.path": {
+    "message": "{marketingSite}/{language}/scp-escape-together-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-scp.title": {
+    "message": "SCP: Secret Laboratory server di gioco",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-scp.path": {
+    "message": "{marketingSite}/{language}/scp-secret-laboratory-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-scum.title": {
+    "message": "SCUM server di gioco",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-scum.path": {
+    "message": "{marketingSite}/{language}/scum-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-soldat.title": {
+    "message": "Soldat server di gioco",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-soldat.path": {
+    "message": "{marketingSite}/{language}/soldat-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-sonsoftheforest.title": {
+    "message": "Sons of the Forest server di gioco",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-sonsoftheforest.path": {
+    "message": "{marketingSite}/{language}/sons-of-the-forest-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-soulmask.title": {
+    "message": "Soulmask server di gioco",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-soulmask.path": {
+    "message": "{marketingSite}/{language}/soulmask-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-spaceengineers.title": {
+    "message": "Space Engineers server di gioco",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-spaceengineers.path": {
+    "message": "{marketingSite}/{language}/space-engineers-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-squad.title": {
+    "message": "Squad server di gioco",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-squad.path": {
+    "message": "{marketingSite}/{language}/squad-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-starbound.title": {
+    "message": "Starbound server di gioco",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-starbound.path": {
+    "message": "{marketingSite}/{language}/starbound-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-starmade.title": {
+    "message": "Starmade server di gioco",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-starmade.path": {
+    "message": "{marketingSite}/{language}/starmade-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-staxel.title": {
+    "message": "Staxel server di gioco",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-staxel.path": {
+    "message": "{marketingSite}/{language}/staxel-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-stormworks.title": {
+    "message": "Stormworks server di gioco",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-stormworks.path": {
+    "message": "{marketingSite}/{language}/stormworks-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-subsistence.title": {
+    "message": "Subsistence server di gioco",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-subsistence.path": {
+    "message": "{marketingSite}/{language}/subsistence-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-sunkenland.title": {
+    "message": "Sunkenland server di gioco",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-sunkenland.path": {
+    "message": "{marketingSite}/{language}/sunkenland-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-tf2.title": {
+    "message": "Team Fortress 2 server di gioco",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-tf2.path": {
+    "message": "{marketingSite}/{language}/team-fortress-2-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-teeworlds.title": {
+    "message": "Teeworlds server di gioco",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-teeworlds.path": {
+    "message": "{marketingSite}/{language}/teeworlds-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-terraria.title": {
+    "message": "Terraria server di gioco",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-terraria.path": {
+    "message": "{marketingSite}/{language}/terraria-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-terratech-worlds.title": {
+    "message": "Terratech Worlds server di gioco",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-terratech-worlds.path": {
+    "message": "{marketingSite}/{language}/terratech-worlds-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-thebus.title": {
+    "message": "The Bus server di gioco",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-thebus.path": {
+    "message": "{marketingSite}/{language}/the-bus-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-thefront.title": {
+    "message": "The Front server di gioco",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-thefront.path": {
+    "message": "{marketingSite}/{language}/the-front-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-theisle.title": {
+    "message": "The Isle server di gioco",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-theisle.path": {
+    "message": "{marketingSite}/{language}/the-isle-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-lotr-rtm.title": {
+    "message": "The Lord of the Rings: RTM server di gioco",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-lotr-rtm.path": {
+    "message": "{marketingSite}/{language}/lotr-return-to-moria-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-unturned.title": {
+    "message": "Unturned server di gioco",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-unturned.path": {
+    "message": "{marketingSite}/{language}/unturned-3-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-vrising.title": {
+    "message": "V Rising server di gioco",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-vrising.path": {
+    "message": "{marketingSite}/{language}/v-rising-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-valheim.title": {
+    "message": "Valheim server di gioco",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-valheim.path": {
+    "message": "{marketingSite}/{language}/valheim-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-vein.title": {
+    "message": "Vein server di gioco",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-vein.path": {
+    "message": "{marketingSite}/{language}/vein-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-veloren.title": {
+    "message": "Veloren server di gioco",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-veloren.path": {
+    "message": "{marketingSite}/{language}/veloren-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-vintagestory.title": {
+    "message": "Vintage Story server di gioco",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-vintagestory.path": {
+    "message": "{marketingSite}/{language}/vintage-story-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-voyagers-of-nera.title": {
+    "message": "Voyagers of Nera server di gioco",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-voyagers-of-nera.path": {
+    "message": "{marketingSite}/{language}/voyagers-of-nera-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-wreckfest.title": {
+    "message": "Wreckfest server di gioco",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-wreckfest.path": {
+    "message": "{marketingSite}/{language}/wreckfest-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-wreckfest2.title": {
+    "message": "Wreckfest 2 server di gioco",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-wreckfest2.path": {
+    "message": "{marketingSite}/{language}/wreckfest-2-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-wurmunlimited.title": {
+    "message": "Wurm Unlimited server di gioco",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-wurmunlimited.path": {
+    "message": "{marketingSite}/{language}/wurm-unlimited-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "inlinevoucher.title": {
+    "message": "{voucherValue} {voucherType} SCONTO HOSTING 🏷️"
+  },
+  "inlinevoucher.description.with-products": {
+    "message": "Approfitta dell'occasione e inizia oggi il tuo progetto! Usa il codice sconto per i prodotti elencati in questa guida e ottieni uno sconto del 50%. 😉"
+  },
+  "inlinevoucher.list-title.with-products": {
+    "message": "Questo codice sconto può essere utilizzato per i seguenti prodotti in modalità noleggio:"
+  },
+  "inlinevoucher.description.without-products": {
+    "message": "Pronto per il tuo prossimo fantastico progetto 😉"
+  },
+  "inlinevoucher.list-title.without-products": {
+    "message": "Perché dovresti provarci?"
+  },
+  "inlinevoucher.list-reasons.first": {
+    "message": "protezione DDoS"
+  },
+  "inlinevoucher.list-reasons.second": {
+    "message": "Online in pochi minuti"
+  },
+  "inlinevoucher.list-reasons.third": {
+    "message": "Interfaccia web personalizzata"
+  },
+  "inlinevoucher.your-voucher": {
+    "message": "IL TUO CODICE"
+  },
+  "voucherbox.cta": {
+    "message": "Noleggia un server"
+  },
+  "voucher.redeem": {
+    "message": "Riscatta"
+  },
+  "accordion.search.placeholder": {
+    "message": "Cerca...",
+    "description": "Placeholder text in the accordion search field"
+  },
+  "accordion.counter": {
+    "message": "Visualizzati {shown} su {total} contenuti",
+    "description": "Amount of displayed vs. filtered accordion items"
+  },
+  "accordion.showMore": {
+    "message": "Mostra di più",
+    "description": "Button to display additional accordion items"
+  },
+  "searchableItemList.all": {
+    "message": "Tutti"
+  },
+  "searchableItemList.uncategorized": {
+    "message": "Non categorizzati"
+  },
+  "searchableItemList.searchPlaceholder": {
+    "message": "Cerca..."
+  },
+  "searchableItemList.showLess": {
+    "message": "Mostra meno"
+  },
+  "searchableItemList.showMore": {
+    "message": "Mostra di più"
+  },
+  "searchableItemList.openWebsite": {
+    "message": "Apri sito web"
+  },
+  "searchableItemList.counter": {
+    "message": "Visualizzati {shown} su {total} voci"
+  },
+  "searchableItemList.showMoreBtn": {
+    "message": "Mostra di più"
+  },
+  "voucherbutton.success": {
+    "message": "YEEEAH!"
+  },
+  "servicelist.introduction": {
+    "message": "Questa guida è stata creata con i seguenti prodotti:"
+  },
+  "servicelist.note": {
+    "message": "(I dettagli possono variare con prodotti di fornitori diversi ma i concetti principali rimangono gli stessi)"
+  },
+  "footer.cookieSettings": {
+    "message": "Impostazioni cookie"
+  },
+  "voucherbox.title": {
+    "message": "SCONTO HOSTING"
+  },
+  "contributors.title": {
+    "message": "Collaboratore(i) della guida"
+  },
+  "contributors.description": {
+    "message": "Diventa parte della Community ZAP-Hosting oggi! Unisciti al nostro {contributionLink} per condividere la tua conoscenza ed esperienza producendo guide di alta qualità e contenuti creativi guadagnando premi fino a 130€. Inizia oggi e fai la differenza! 🙂"
+  },
+  "theme.ErrorPageContent.title": {
+    "message": "Questa pagina è andata in crash.",
+    "description": "The title of the fallback page when the page crashed"
+  },
+  "theme.BackToTopButton.buttonAriaLabel": {
+    "message": "Torna indietro all'inizio",
+    "description": "The ARIA label for the back to top button"
+  },
+  "theme.blog.archive.title": {
+    "message": "Archivio",
+    "description": "The page & hero title of the blog archive page"
+  },
+  "theme.blog.archive.description": {
+    "message": "Archivio",
+    "description": "The page & hero description of the blog archive page"
+  },
+  "theme.blog.paginator.navAriaLabel": {
+    "message": "Navigazione nella pagina dei post del blog",
+    "description": "The ARIA label for the blog pagination"
+  },
+  "theme.blog.paginator.newerEntries": {
+    "message": "Post più recenti",
+    "description": "The label used to navigate to the newer blog posts page (previous page)"
+  },
+  "theme.blog.paginator.olderEntries": {
+    "message": "Post più vecchi",
+    "description": "The label used to navigate to the older blog posts page (next page)"
+  },
+  "theme.tags.tagsPageLink": {
+    "message": "Guarda tutte le etichette",
+    "description": "The label of the link targeting the tag list page"
+  },
+  "theme.blog.post.paginator.navAriaLabel": {
+    "message": "Navigazione nella pagina dei post del blog",
+    "description": "The ARIA label for the blog posts pagination"
+  },
+  "theme.blog.post.paginator.newerPost": {
+    "message": "Post più recente",
+    "description": "The blog post button label to navigate to the newer/previous post"
+  },
+  "theme.blog.post.paginator.olderPost": {
+    "message": "Post più vecchio",
+    "description": "The blog post button label to navigate to the older/next post"
+  },
+  "theme.colorToggle.ariaLabel.mode.system": {
+    "message": "modalità sistema",
+    "description": "The name for the system color mode"
+  },
+  "theme.colorToggle.ariaLabel.mode.light": {
+    "message": "modalità luce",
+    "description": "The name for the light color mode"
+  },
+  "theme.colorToggle.ariaLabel.mode.dark": {
+    "message": "modalità scura",
+    "description": "The name for the dark color mode"
+  },
+  "theme.colorToggle.ariaLabel": {
+    "message": "Passa dalla modalità scura a quella chiara (attualmente {mode})",
+    "description": "The ARIA label for the color mode toggle"
+  },
+  "theme.docs.breadcrumbs.navAriaLabel": {
+    "message": "Briciole di pane",
+    "description": "The ARIA label for the breadcrumbs"
+  },
+  "theme.docs.DocCard.categoryDescription.plurals": {
+    "message": "1 elemento|{count} elementi",
+    "description": "The default description for a category card in the generated index about how many items this category includes"
+  },
+  "theme.docs.paginator.navAriaLabel": {
+    "message": "Pagina del documento",
+    "description": "The ARIA label for the docs pagination"
+  },
+  "theme.docs.paginator.previous": {
+    "message": "Precedente",
+    "description": "The label used to navigate to the previous doc"
+  },
+  "theme.docs.paginator.next": {
+    "message": "Successivo",
+    "description": "The label used to navigate to the next doc"
+  },
+  "theme.docs.tagDocListPageTitle.nDocsTagged": {
+    "message": "Un documento etichettato|{count} documenti etichettati",
+    "description": "Pluralized label for \"{count} docs tagged\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+  },
+  "theme.docs.tagDocListPageTitle": {
+    "message": "{nDocsTagged} con \"{tagName}\"",
+    "description": "The title of the page for a docs tag"
+  },
+  "theme.docs.versionBadge.label": {
+    "message": "Versione: {versionLabel}"
+  },
+  "theme.docs.versions.unreleasedVersionLabel": {
+    "message": "Questa è documentazione inedita per {siteTitle} versione {versionLabel}.",
+    "description": "The label used to tell the user that he's browsing an unreleased doc version"
+  },
+  "theme.docs.versions.unmaintainedVersionLabel": {
+    "message": "Questa è la documentazione per {siteTitle} {versionLabel}, che non è più attivamente mantenuta.",
+    "description": "The label used to tell the user that he's browsing an unmaintained doc version"
+  },
+  "theme.docs.versions.latestVersionSuggestionLabel": {
+    "message": "Per la documentazione aggiornata, guarda la {latestVersionLink} ({versionLabel}).",
+    "description": "The label used to tell the user to check the latest version"
+  },
+  "theme.docs.versions.latestVersionLinkLabel": {
+    "message": "ultima versione",
+    "description": "The label used for the latest version suggestion link label"
+  },
+  "theme.common.editThisPage": {
+    "message": "Modifica questa pagina",
+    "description": "The link label to edit the current page"
+  },
+  "theme.common.headingLinkTitle": {
+    "message": "Link diretto a {heading}",
+    "description": "Title for link to heading"
+  },
+  "theme.lastUpdated.atDate": {
+    "message": "il {date}",
+    "description": "The words used to describe on which date a page has been last updated"
+  },
+  "theme.lastUpdated.byUser": {
+    "message": "da {user}",
+    "description": "The words used to describe by who the page has been last updated"
+  },
+  "theme.lastUpdated.lastUpdatedAtBy": {
+    "message": "Ultimo aggiornamento{atDate}{byUser}",
+    "description": "The sentence used to display when a page has been last updated, and by who"
+  },
+  "theme.navbar.mobileVersionsDropdown.label": {
+    "message": "Versioni",
+    "description": "The label for the navbar versions dropdown on mobile view"
+  },
+  "theme.NotFound.title": {
+    "message": "Pagina non trovata",
+    "description": "The title of the 404 page"
+  },
+  "theme.tags.tagsListLabel": {
+    "message": "Etichette:",
+    "description": "The label alongside a tag list"
+  },
+  "theme.AnnouncementBar.closeButtonAriaLabel": {
+    "message": "Chiudi",
+    "description": "The ARIA label for close button of announcement bar"
+  },
+  "theme.admonition.caution": {
+    "message": "attenzione",
+    "description": "The default label used for the Caution admonition (:::caution)"
+  },
+  "theme.admonition.danger": {
+    "message": "pericolo",
+    "description": "The default label used for the Danger admonition (:::danger)"
+  },
+  "theme.admonition.info": {
+    "message": "informazioni",
+    "description": "The default label used for the Info admonition (:::info)"
+  },
+  "theme.admonition.note": {
+    "message": "note",
+    "description": "The default label used for the Note admonition (:::note)"
+  },
+  "theme.admonition.tip": {
+    "message": "suggerimento",
+    "description": "The default label used for the Tip admonition (:::tip)"
+  },
+  "theme.admonition.warning": {
+    "message": "warning",
+    "description": "The default label used for the Warning admonition (:::warning)"
+  },
+  "theme.blog.sidebar.navAriaLabel": {
+    "message": "Navigazione dei post recenti del blog",
+    "description": "The ARIA label for recent posts in the blog sidebar"
+  },
+  "theme.DocSidebarItem.expandCategoryAriaLabel": {
+    "message": "Espandi categoria della barra laterale '{label}'",
+    "description": "The ARIA label to expand the sidebar category"
+  },
+  "theme.DocSidebarItem.collapseCategoryAriaLabel": {
+    "message": "Comprimi categoria della barra laterale '{label}'",
+    "description": "The ARIA label to collapse the sidebar category"
+  },
+  "theme.IconExternalLink.ariaLabel": {
+    "message": "(si apre in una nuova scheda)",
+    "description": "The ARIA label for the external link icon"
+  },
+  "theme.NavBar.navAriaLabel": {
+    "message": "Principale",
+    "description": "The ARIA label for the main navigation"
+  },
+  "theme.navbar.mobileLanguageDropdown.label": {
+    "message": "Linguaggio",
+    "description": "The label for the mobile language switcher dropdown"
+  },
+  "theme.NotFound.p1": {
+    "message": "Non siamo riusciti a trovare quello che stavi cercando.",
+    "description": "The first paragraph of the 404 page"
+  },
+  "theme.NotFound.p2": {
+    "message": "Contatta il proprietario del sito che ti ha collegato all'URL originale e fagli sapere che il loro collegamento è interrotto.",
+    "description": "The 2nd paragraph of the 404 page"
+  },
+  "theme.TOCCollapsible.toggleButtonLabel": {
+    "message": "Su questa pagina",
+    "description": "The label used by the button on the collapsible TOC component"
+  },
+  "theme.blog.post.readingTime.plurals": {
+    "message": "Lettura di 1 minuto|{readingTime} minuti di lettura",
+    "description": "Pluralized label for \"{readingTime} min read\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+  },
+  "theme.blog.post.readMore": {
+    "message": "Leggi di più",
+    "description": "The label used in blog post item excerpts to link to full blog posts"
+  },
+  "theme.blog.post.readMoreLabel": {
+    "message": "Leggi di più su {title}",
+    "description": "The ARIA label for the link to full blog posts from excerpts"
+  },
+  "theme.CodeBlock.copy": {
+    "message": "Copia",
+    "description": "The copy button label on code blocks"
+  },
+  "theme.CodeBlock.copied": {
+    "message": "Copiato",
+    "description": "The copied button label on code blocks"
+  },
+  "theme.CodeBlock.copyButtonAriaLabel": {
+    "message": "Copia il codice negli appunti",
+    "description": "The ARIA label for copy code blocks button"
+  },
+  "theme.CodeBlock.wordWrapToggle": {
+    "message": "Attiva/disattiva a capo automatico",
+    "description": "The title attribute for toggle word wrapping button of code block lines"
+  },
+  "theme.docs.breadcrumbs.home": {
+    "message": "Pagina principale",
+    "description": "The ARIA label for the home page in the breadcrumbs"
+  },
+  "theme.docs.sidebar.collapseButtonTitle": {
+    "message": "Comprimi la barra laterale",
+    "description": "The title attribute for collapse button of doc sidebar"
+  },
+  "theme.docs.sidebar.collapseButtonAriaLabel": {
+    "message": "Comprimi la barra laterale",
+    "description": "The title attribute for collapse button of doc sidebar"
+  },
+  "theme.docs.sidebar.navAriaLabel": {
+    "message": "Barra laterale dei documenti",
+    "description": "The ARIA label for the sidebar navigation"
+  },
+  "theme.docs.sidebar.closeSidebarButtonAriaLabel": {
+    "message": "Chiudi la barra di navigazione",
+    "description": "The ARIA label for close button of mobile sidebar"
+  },
+  "theme.navbar.mobileSidebarSecondaryMenu.backButtonLabel": {
+    "message": "← Indietro al menu principale",
+    "description": "The label of the back button to return to main menu, inside the mobile navbar sidebar secondary menu (notably used to display the docs sidebar)"
+  },
+  "theme.docs.sidebar.toggleSidebarButtonAriaLabel": {
+    "message": "Attiva/disattiva la barra di navigazione",
+    "description": "The ARIA label for hamburger menu button of mobile navigation"
+  },
+  "theme.navbar.mobileDropdown.collapseButton.expandAriaLabel": {
+    "message": "Espandi il menu a discesa",
+    "description": "The ARIA label of the button to expand the mobile dropdown navbar item"
+  },
+  "theme.navbar.mobileDropdown.collapseButton.collapseAriaLabel": {
+    "message": "Comprimi il menu a discesa",
+    "description": "The ARIA label of the button to collapse the mobile dropdown navbar item"
+  },
+  "theme.docs.sidebar.expandButtonTitle": {
+    "message": "Espandi la barra laterale",
+    "description": "The ARIA label and title attribute for expand button of doc sidebar"
+  },
+  "theme.docs.sidebar.expandButtonAriaLabel": {
+    "message": "Espandi la barra laterale",
+    "description": "The ARIA label and title attribute for expand button of doc sidebar"
+  },
+  "theme.blog.post.plurals": {
+    "message": "Un post|{count} post",
+    "description": "Pluralized label for \"{count} posts\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+  },
+  "theme.blog.tagTitle": {
+    "message": "{nPosts} etichettati con \"{tagName}\"",
+    "description": "The title of the page for a blog tag"
+  },
+  "theme.blog.author.pageTitle": {
+    "message": "{authorName} - {nPosts}",
+    "description": "The title of the page for a blog author"
+  },
+  "theme.blog.authorsList.pageTitle": {
+    "message": "Autori",
+    "description": "The title of the authors page"
+  },
+  "theme.blog.authorsList.viewAll": {
+    "message": "Visualizza tutti gli autori",
+    "description": "The label of the link targeting the blog authors page"
+  },
+  "theme.blog.author.noPosts": {
+    "message": "Questo autore non ha ancora scritto post.",
+    "description": "The text for authors with 0 blog post"
+  },
+  "theme.contentVisibility.unlistedBanner.title": {
+    "message": "Pagina non in elenco",
+    "description": "The unlisted content banner title"
+  },
+  "theme.contentVisibility.unlistedBanner.message": {
+    "message": "Questa pagina non è in elenco. I motori di ricerca non la indicizzeranno e solo gli utenti con collegamento diretto possono accedervi.",
+    "description": "The unlisted content banner message"
+  },
+  "theme.contentVisibility.draftBanner.title": {
+    "message": "Bozza pagina",
+    "description": "The draft content banner title"
+  },
+  "theme.contentVisibility.draftBanner.message": {
+    "message": "Questa pagina è una bozza. Sarà visibile solo in dev ed esclusa dalla build di produzione.",
+    "description": "The draft content banner message"
+  },
+  "theme.ErrorPageContent.tryAgain": {
+    "message": "Riprova",
+    "description": "The label of the button to try again rendering when the React error boundary captures an error"
+  },
+  "theme.common.skipToMainContent": {
+    "message": "Vai al contenuto principale",
+    "description": "The skip to content label used for accessibility, allowing to rapidly navigate to main content with keyboard tab/enter navigation"
+  },
+  "theme.tags.tagsPageTitle": {
+    "message": "Etichette",
+    "description": "The title of the tag list page"
+  }
+}

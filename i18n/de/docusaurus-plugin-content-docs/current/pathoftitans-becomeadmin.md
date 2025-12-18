@@ -1,7 +1,7 @@
 ---
 id: pathoftitans-becomeadmin
-title: "Path of Titans: Admin werden"
-description: Informationen darüber, wie du ein Admin auf deinem Path of Titans Server bei ZAP-Hosting wirst - ZAP-Hosting.com Dokumentation
+title: Admin werden
+description: "Entdecke, wie du Administratorrechte zuweist und verwaltest, um volle Kontrolle über deinen Gameserver zu haben → Jetzt mehr erfahren"
 sidebar_label: Admin werden
 services:
   - gameserver-pathoftitans
@@ -10,33 +10,30 @@ services:
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
-Die Zuweisung von Administratorberechtigungen ermöglicht dir eine einfache und umfangreiche Verwaltung mit voller Kontrolle deines Servers. Als Administrator hast du die Möglichkeit alle verfügbaren Optionen und Funktionen, die das Spiel bereitstellt, direkt im Spiel anzuwenden. Im folgenden werden dir alle notwendigen Schritte erläutert, die du benötigst, um dir die Administratorberechtigungen für deinen Server zuzuweisen. 
+Die Vergabe von Administratorrechten ermöglicht dir eine einfache und umfassende Verwaltung mit voller Kontrolle über deinen Server. Als Admin kannst du alle verfügbaren Optionen und Funktionen, die das Spiel direkt bietet, nutzen. Alle Schritte, die du zur Vergabe von Administratorrechten für deinen Server durchführen musst, werden im Folgenden beschrieben.  
 <InlineVoucher />
 
 ## Vorbereitung
 
-Die Konfiguration der Admin-Berechtigungen erfolgt über die Konfigurationsdateien deines Servers. Navigiere dafür in deinem Gameserver Dashboard zu **Configs** und öffne die Game.ini Konfigurationsdatei. 
-
-
+Die Konfiguration der Admin-Rechte erfolgt über die Konfigurationsdateien deines Servers. Navigiere dazu in deinem Gameserver-Dashboard zu **Configs** und öffne die Game.ini-Konfigurationsdatei.
 
 ## Konfiguration
 
-Unter dem Abschnitt[/Script/PathOfTitans.IGameSession] muss die Alderon Games ID (AGID) des Admins hinterlegt werden. Der Eintrag dafür lautet `Server-Admins=` gefolgt mit der AGID. Wenn du mehrere Admins hinzufügen möchtest, dann musst du diese jeweils in einer neuen Zeile anlegen. Nehmen wir an, dass du insgesamt drei Spieler Adminberechtigungen zuweisen möchtest, dann würde die Konfiguration dafür wie folgt aussehen:
+Unter dem Abschnitt [/Script/PathOfTitans.IGameSession] muss die Alderon Games ID (AGID) des Admins eingetragen werden. Der Eintrag dafür lautet `ServerAdmins=` gefolgt von der AGID. Wenn du mehrere Admins hinzufügen möchtest, musst du jeden in einer neuen Zeile eintragen. Angenommen, du möchtest insgesamt drei Spielern Admin-Rechte geben, sieht die Konfiguration so aus:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/BsH3o6tsi2ERsNS/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/TwZyRsEoeATM3By/preview)
 
 ```
 [/Script/PathOfTitans.IGameSession]
-ServerAdmins=XXX-XXX-XXX # 1. Admin Eintrag
-ServerAdmins=XXX-XXX-XXX # 2. Admin Eintrag
-ServerAdmins=XXX-XXX-XXX # 3. Admin Eintrag
+ServerAdmins=XXX-XXX-XXX # 1. Admin-Eintrag
+ServerAdmins=XXX-XXX-XXX # 2. Admin-Eintrag
+ServerAdmins=XXX-XXX-XXX # 3. Admin-Eintrag
 ```
 
-Klicke auf Speichern und Starte den Server daraufhin neu. Die Adminberechtigungen sind nun erfolgreich gesetzt. Sobald du über Adminrechte verfügst, hast du die Möglichkeit, andere Spieler im Spiel durch Chat-Befehle entweder zu Admins zu ernennen oder deren Adminstatus zu entziehen. Diese Funktionen stehen dir zur Verfügung, solange dein Server aktiv ist. Weitere Informationen zu den Befehlen findest du in der offiziellen [GitHub Wik](https://github.com/Alderon-Games/pot-community-servers/wiki/Admin-Chat-Commands#admin-tools)i.
+Klicke auf Speichern und starte dann den Server neu. Die Admin-Rechte sind jetzt erfolgreich gesetzt. Sobald du Admin-Rechte hast, kannst du über Chat-Befehle weitere Spieler zu Admins ernennen oder deren Admin-Status entziehen. Diese Funktionen stehen dir zur Verfügung, solange dein Server aktiv ist. Mehr Infos zu den Befehlen findest du im offiziellen [GitHub Wiki](https://github.com/Alderon-Games/pot-community-servers/wiki/Admin-Chat-Commands#admin-tools).
 
+## Fazit
 
-## Abschluss
-
-Glückwunsch, du hast erfolgreich die Administratorberechtigungen konfiguriert. Für weitere Fragen oder Hilfe zögere bitte nicht, unser Support-Team zu kontaktieren, das dir täglich zur Verfügung steht! 🙂
+Glückwunsch, du hast die Administratorrechte erfolgreich konfiguriert. Bei weiteren Fragen oder wenn du Hilfe brauchst, steht dir unser Support-Team täglich zur Verfügung! 🙂 
 
 <InlineVoucher />

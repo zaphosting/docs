@@ -1,7 +1,7 @@
 ---
 id: fivem-installeup
 title: "FiveM: Install EUP (Emergency Uniform Pack)"
-description: Information on how to install EUP on your FiveM server from ZAP-Hosting.com - ZAP-Hosting.com documentation
+description: "Discover how to set up Emergency Uniform Pack for free mode characters with Element Club subscription required → Learn more now"
 sidebar_label: Install EUP
 services:
   - gameserver-fivem

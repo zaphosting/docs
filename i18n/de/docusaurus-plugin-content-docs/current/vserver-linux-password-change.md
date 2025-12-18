@@ -1,7 +1,7 @@
 ---
 id: vserver-linux-password-change
-title: "vServer: Root Passwort für Linux-Server ändern"
-description: Informationen, wie du das Root-Passwort für deinen Linux vServer von ZAP-Hosting ändern kannst - ZAP-Hosting.com Dokumentation
+title: "vServer: Root-Passwort für Linux-Server ändern"
+description: "Entdecke, wie du dein Server-Passwort sicher über das Webinterface oder die Konsole änderst und verwaltest – für besseren Zugriffsschutz → Jetzt mehr erfahren"
 sidebar_label: Passwort ändern
 services:
   - vserver
@@ -13,47 +13,44 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Webinterface
 
-Das Passwort kann über unser Webinterface bei dem jeweiligen Server geändert werden. 
-Öffne dazu die Seite „Zugang und Sicherheit“, diese findet man Links im Menü
+Das Passwort kannst du ganz easy über unser Webinterface ändern. Öffne dazu die Seite „Zugang und Sicherheit“, die du links in der Navigation findest.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/N7NmZjHq2baYxSk/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/9nMFt4ZAGmQEHnZ/preview)
 
-Dort findet man das Eingabefeld „Root Password“. 
-Dort kann man ein neues Wunschpasswort eintragen.
+Das Feld für das Root-Passwort findest du dort, wo du dein neues Passwort eingeben kannst.
 
->Bitte beachte das dies mindestens 8 Zeichen lang sein muss sowie aus Klein und Groß Buchstaben (a-z/A-Z), Zahlen (1-9) und Sonderzeichen (!@=#$%&-?_;:.,) bestehen muss. 
-Sollte dies nicht der Fall sein, wird es bei dem Server nicht gesetzt. 
-
-![](https://screensaver01.zap-hosting.com/index.php/s/snHG3maY9nEfoA5/preview)
-
-Nun bestätigt das System, dass das Passwort geändert wurde. 
-
-Das Passwort kann ab jetzt noch 3 Stunden in unserem Webinterface eingesehen werden, danach löschen wir dieses aus Sicherheitsgründen zur Einsicht raus. Um das Passwort einzusehen, genügt ein Klick auf das Auge bei "Passwort" auf der Seite "Login und Sicherheit". 
-
-![](https://screensaver01.zap-hosting.com/index.php/s/PybrA4Wz4CTJdHo/preview)
-
-Anschließend öffnet sich ein Pop-up wo das Passwort angezeigt wird.
-
-
-
-## Server Konsole
-
-Das Passwort kann auch über die Server Console geändert werden, dabei ist es egal, ob man diese via Putty erreicht oder z. B. via VNC/Serial.
 :::info
-Wichtig: Diese Option funktioniert nur, wenn noch Zugriff zum Server besteht, sprich man noch auf die Konsole verbinden sowie anmelden kann. 
+Beachte bitte, dass das Passwort mindestens 8 Zeichen lang sein muss und Groß- und Kleinbuchstaben (a-z/A-Z), Zahlen (1-9) sowie Sonderzeichen (!@=#$%&-?_;:.,) enthalten muss. Wenn das nicht erfüllt ist, wird das Passwort nicht auf dem Server übernommen.
 :::
 
-Ist man in der Konsole angemeldet, kann über den Befehl "passwd" das Passwort geändert werden. 
-Nachdem man diesen Befehl "abgesendet" hat, mit der Taste "Enter" wird man aufgefordert sein neues Passwort einzugeben. 
-Dies geschieht "Unsichtbar"
+Nachdem du das Passwort eingegeben hast, erscheint ein Pop-up, das du mit „ok“ bestätigen kannst.
 
-Anschließend muss man das Passwort erneut zur Bestätigung eingeben werden. 
-Ist dies gemacht und das Passwort stimmte mit der ersten Eingabe überein, so bestätigt die Konsole die Änderung. 
+![](https://screensaver01.zap-hosting.com/index.php/s/sybJP9oeJKY2SLr/preview)
 
-Stimmen die beiden Eingaben nicht überein, so wird die Konsole den Vorgang beenden und man muss erneut den Befehl "passwd" eingeben. 
+Wenn alle Voraussetzungen passen, bestätigt das System, dass das Passwort erfolgreich geändert wurde.
+
+✅ Das Passwort wurde jetzt geändert.
+
+Ab sofort kannst du das Passwort für 3 Stunden in unserem Webinterface einsehen. Danach wird es aus Sicherheitsgründen gelöscht. Um das Passwort anzuzeigen, klick einfach auf das Augensymbol bei „Passwort“.
+
+![](https://screensaver01.zap-hosting.com/index.php/s/rFKrYA6en8Z9ypz/preview)
+
+Danach öffnet sich ein Pop-up-Fenster, in dem dir das Passwort angezeigt wird.
+
+## Server-Konsole
+
+Das Passwort kannst du auch über die Server-Konsole ändern, egal ob du per Putty oder über die serielle Konsole zugreifst.
 
 :::info
-Wichtig: Ändert man das Password via Konsole, kann es nicht für 3 Stunden in unserem Webinterface unter Zugang und Sicherheit angezeigt werden. 
+Wichtig: Diese Option kannst du nur nutzen, wenn du noch Zugriff auf den Server hast.
+:::
+
+Wenn du in der Konsole eingeloggt bist, änderst du das Passwort mit dem Befehl `passwd`. Danach musst du das neue Passwort zur Bestätigung nochmal eingeben. Stimmen beide Eingaben überein, bestätigt dir die Konsole die Änderung.
+
+Wenn die beiden Passwörter nicht übereinstimmen, bricht die Konsole den Vorgang ab. In dem Fall musst du den Befehl `passwd` nochmal ausführen.
+
+:::info
+Wichtig: Wenn du das Passwort über die Konsole änderst, wird es nicht für 3 Stunden im Webinterface unter „Zugang und Sicherheit“ angezeigt.
 :::
 
 <InlineVoucher />

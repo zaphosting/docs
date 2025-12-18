@@ -1,7 +1,7 @@
 ---
 id: minecraft-server-optimize
 title: "Minecraft: server performance optimisation"
-description: Information on how to optimise your Minecraft server from ZAP-Hosting for better performance - ZAP-Hosting.com documentation
+description: "Discover how to optimize Minecraft servers for better performance and smoother gameplay with effective settings adjustments → Learn more now"
 sidebar_label: Minecraft-Server Optimization
 services:
   - gameserver-minecraft
@@ -26,13 +26,13 @@ The options for optimizing a vanilla server are unfortunately very limited, as t
 One measure that is taken very often is to reduce the range of vision. The standard view range is 10 chunks, but many players play with far fewer, such as 6-8. Some players overdo it with the chunks and sometimes set this to 32 chunks as an example, which means that the server then has to load and process all of these chunks, which costs a lot of performance.
 
 With a vanilla server, the visibility range can be adjusted in the "server.properties" config, for this the value "view-disance" must be adjusted. In order not to restrict the gaming experience too much, it is recommended to set this value to 5-6, which relieves the server by up to 50%.
-We already have an entry in our documentation for this, which can be found [here](minecraft-default-config.md#view-distance).
+We already have an entry in our documentation for this, which can be found [here](minecraft-default-config.md).
 
 ### Data-Compression
 
 On a server there is a permanent exchange between the server and the connected players. The movements of the players themselves are transmitted to the server and the server then sends this in turn to all other players. But also player actions or events in the world, such as explosions as an example, are part of the data that is transmitted over and over again.
 
-In order to make the regularity of this exchange a little more elegant, the size of the packed data can be doubled, which means that the server only has to do 50% of the effort to exchange the same data with the players compared to before. To do this, the value "network-compression-threshold" must also be adjusted in the "server.properties" config. The value should be set to 512 here. Here, too, we already have an entry in our documentation, which can be [here](minecraft-default-config.md#network-compression-threshold).
+In order to make the regularity of this exchange a little more elegant, the size of the packed data can be doubled, which means that the server only has to do 50% of the effort to exchange the same data with the players compared to before. To do this, the value "network-compression-threshold" must also be adjusted in the "server.properties" config. The value should be set to 512 here. Here, too, we already have an entry in our documentation, which can be [here](minecraft-default-config.md).
 
 ## Forge
 
@@ -75,13 +75,13 @@ The mod can still be installed on the server even after this process is complete
 One measure that is taken very often is to reduce the range of vision. The standard view range is 10 chunks, but many players play with far fewer, such as 6-8. Some players overdo it with the chunks and sometimes set this to 32 chunks as an example, which means that the server then has to load and process all of these chunks, which costs a lot of performance.
 
 The visibility of a Forge server can be adjusted in the "server.properties" config, for this the value "view-disance" must be adjusted. In order not to restrict the gaming experience too much, it is recommended to set this value to 5-6, which relieves the server by up to 50%.
-We already have an entry in our documentation for this, which can be found [here](minecraft-default-config.md#view-distance).
+We already have an entry in our documentation for this, which can be found [here](minecraft-default-config.md).
 
 ### Data-Compression
 
 On a server there is a permanent exchange between the server and the connected players. The movements of the players themselves are transmitted to the server and the server then sends this in turn to all other players. But also player actions or events in the world, such as explosions as an example, are part of the data that is transmitted over and over again.
 
-In order to make the regularity of this exchange a little more elegant, the size of the packed data can be doubled, which means that the server only has to do 50% of the effort to exchange the same data with the players compared to before. To do this, the value "network-compression-threshold" must also be adjusted in the "server.properties" config. The value should be set to 512 here. Here, too, we already have an entry in our documentation, which can be [here](minecraft-default-config.md#network-compression-threshold).
+In order to make the regularity of this exchange a little more elegant, the size of the packed data can be doubled, which means that the server only has to do 50% of the effort to exchange the same data with the players compared to before. To do this, the value "network-compression-threshold" must also be adjusted in the "server.properties" config. The value should be set to 512 here. Here, too, we already have an entry in our documentation, which can be [here](minecraft-default-config.md).
 
 ## Bukkit
 
@@ -90,13 +90,13 @@ In order to make the regularity of this exchange a little more elegant, the size
 One measure that is taken very often is to reduce the range of vision. The standard view range is 10 chunks, but many players play with far fewer, such as 6-8. Some players overdo it with the chunks and sometimes set this to 32 chunks as an example, which means that the server then has to load and process all of these chunks, which costs a lot of performance.
 
 The visibility of a Forge server can be adjusted in the "server.properties" config, for this the value "view-disance" must be adjusted. In order not to restrict the gaming experience too much, it is recommended to set this value to 5-6, which relieves the server by up to 50%.
-We already have an entry in our documentation for this, which can be found [here](minecraft-default-config.md#view-distance).
+We already have an entry in our documentation for this, which can be found [here](minecraft-default-config.md).
 
 ### Data compression
 
 On a server there is a permanent exchange between the server and the connected players. The movements of the players themselves are transmitted to the server and the server then sends this in turn to all other players. But also player actions or events in the world, such as explosions as an example, are part of the data that is transmitted over and over again.
 
-In order to make the regularity of this exchange a little more elegant, the size of the packed data can be doubled, which means that the server only has to do 50% of the effort to exchange the same data with the players compared to before. To do this, the value "network-compression-threshold" must also be adjusted in the "server.properties" config. The value should be set to 512 here. Here, too, we already have an entry in our documentation, which can be [here](minecraft-default-config.md#network-compression-threshold).
+In order to make the regularity of this exchange a little more elegant, the size of the packed data can be doubled, which means that the server only has to do 50% of the effort to exchange the same data with the players compared to before. To do this, the value "network-compression-threshold" must also be adjusted in the "server.properties" config. The value should be set to 512 here. Here, too, we already have an entry in our documentation, which can be [here](minecraft-default-config.md).
 
 ### Spawn-Limits
 
@@ -147,7 +147,7 @@ Depending on your preference, the value can also be set to 4, which as an exampl
 
 On a server there is a permanent exchange between the server and the connected players. The movements of the players themselves are transmitted to the server and the server then sends this in turn to all other players. But also player actions or events in the world, such as explosions as an example, are part of the data that is transmitted over and over again.
 
-In order to make the regularity of this exchange a little more elegant, the size of the packed data can be doubled, which means that the server only has to do 50% of the effort to exchange the same data with the players compared to before. To do this, the value "network-compression-threshold" must also be adjusted in the "server.properties" config. The value should be set to 512 here. Here, too, we already have an entry in our documentation, which can be [here](minecraft-default-config.md#network-compression-threshold).
+In order to make the regularity of this exchange a little more elegant, the size of the packed data can be doubled, which means that the server only has to do 50% of the effort to exchange the same data with the players compared to before. To do this, the value "network-compression-threshold" must also be adjusted in the "server.properties" config. The value should be set to 512 here. Here, too, we already have an entry in our documentation, which can be [here](minecraft-default-config.md).
 
 ### Spawn-Limits
 
@@ -249,7 +249,7 @@ Depending on your preference, the value can also be set to 4, which as an exampl
 
 On a server there is a permanent exchange between the server and the connected players. The movements of the players themselves are transmitted to the server and the server then sends this in turn to all other players. But also player actions or events in the world, such as explosions as an example, are part of the data that is transmitted over and over again.
 
-In order to make the regularity of this exchange a little more elegant, the size of the packed data can be doubled, which means that the server only has to do 50% of the effort to exchange the same data with the players compared to before. To do this, the value "network-compression-threshold" must also be adjusted in the "server.properties" config. The value should be set to 512 here. Here, too, we already have an entry in our documentation, which can be [here](minecraft-default-config.md#network-compression-threshold).
+In order to make the regularity of this exchange a little more elegant, the size of the packed data can be doubled, which means that the server only has to do 50% of the effort to exchange the same data with the players compared to before. To do this, the value "network-compression-threshold" must also be adjusted in the "server.properties" config. The value should be set to 512 here. Here, too, we already have an entry in our documentation, which can be [here](minecraft-default-config.md).
 
 ### Spawn-Limits
 

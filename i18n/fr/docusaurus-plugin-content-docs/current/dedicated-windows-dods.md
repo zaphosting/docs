@@ -1,0 +1,77 @@
+---
+id: dedicated-windows-dods
+title: "Serveur dédié : Configuration du serveur dédié Day of Defeat: Source sous Windows"
+description: "Découvrez comment configurer rapidement et efficacement un serveur dédié Day of Defeat: Source sur votre VPS ou serveur → En savoir plus maintenant"
+sidebar_label: "Day of Defeat: Source"
+services:
+  - vserver
+---
+
+import YouTube from '@site/src/components/YouTube/YouTube';
+import InlineVoucher from '@site/src/components/InlineVoucher';
+
+## Introduction
+Tu as un VPS ou un serveur dédié et tu veux y installer des serveurs de jeux ? Par exemple un serveur dédié Day of Defeat: Source ? Alors t’es au bon endroit ! Dans ce guide, on t’explique étape par étape comment installer ce service sur ton serveur.
+
+
+
+## Préparation
+
+Pour configurer un serveur Day of Defeat: Source, il te faut SteamCMD. SteamCMD est la **version en ligne de commande du client Steam**. Cet outil permet de télécharger rapidement et facilement les applications de serveurs dédiés des jeux Steam populaires. Tu peux trouver SteamCMD sur le site officiel des développeurs Valve : https://developer.valvesoftware.com/wiki/SteamCMD. 
+
+Ensuite, tu télécharges le fichier. Il contiendra le fichier **steamcmd.zip** qu’il faudra d’abord décompresser. On te recommande de créer un dossier dédié pour extraire ce fichier. Tu devrais voir apparaître le fichier **steamcmd.exe**. Lance-le et attends que l’installation soit terminée.
+
+![](https://screensaver01.zap-hosting.com/index.php/s/7Hib2ZgaYWTsRNE/preview)
+
+Dès que le message **Loading Steam API.... OK** s’affiche, c’est que tout s’est bien passé et tu peux commencer l’installation du serveur Day of Defeat: Source.
+
+
+
+## Installation
+
+Après l’installation, tu dois pouvoir exécuter des commandes dans la **ligne de commande Steam (steamcmd.exe)**. Là, il faut te connecter. Utilise l’utilisateur **anonymous**. Tape la commande suivante : `login anonymous`
+
+L’étape suivante est l’installation du serveur. Pour ça, utilise la commande `app_update 232290`. L’ID de l’application **232290** correspond au **serveur dédié Day of Defeat: Source**.
+
+![](https://screensaver01.zap-hosting.com/index.php/s/cgMfJdL5DNNxjrf/preview)
+
+Sois patient pendant le téléchargement, ça peut prendre un peu de temps pour les jeux volumineux. Une fois terminé, un message de succès s’affichera.
+
+Pour que ton serveur soit visible et accessible depuis l’extérieur, il faut ouvrir/forwarder les ports utilisés dans le pare-feu. Ouvre les paramètres du Pare-feu Windows.
+
+![](https://screensaver01.zap-hosting.com/index.php/s/EM32i73TLcn32Mc/preview)
+
+Ajoute des règles entrantes et sortantes comme indiqué, pour les ports suivants : 27015-27020 en TCP/UDP.
+
+
+
+## Configuration
+
+À ce stade, ton serveur Day of Defeat: Source est installé. Tu peux configurer davantage ton serveur en éditant directement le fichier de lancement. Va dans ton répertoire racine, puis dans le dossier cfg et ouvre le fichier `server.cfg`. Là, tu peux modifier les options du serveur.
+
+```
+../steamapps/common/dod-ds/dod/cfg/server.cfg
+```
+
+## Enregistrement du token GSL
+
+Pour que d’autres joueurs puissent rejoindre ton serveur, tu dois générer et ajouter un Game Server Login Token (GSLT). Ce token authentifie ton serveur auprès de Steam. Pour générer un GSLT, rends-toi sur http://steamcommunity.com/dev/managegameservers et crée un token avec l’ID du jeu 232290, qui correspond à Day of Defeat: Source.
+
+Une fois que tu as le token, ajoute-le dans les paramètres de lancement de ton serveur avec `+sv_setsteamaccount <TOKEN>`.
+
+
+
+## Démarrage & connexion à ton serveur
+
+Il est temps de lancer ton serveur. Va dans le dossier principal du jeu et exécute la commande de lancement suivante :
+
+```
+start srcds.exe -console -game dod -secure +maxplayers 22 +map de_dust +sv_setsteamaccount XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+```
+
+Tu devrais voir apparaître des logs dans ta console qui confirment que le démarrage a réussi. Note que le premier lancement peut prendre un peu de temps le temps que tout se mette en place. Sinon, tu peux aussi te connecter directement en cherchant dans la barre de recherche en bas de la liste des serveurs : `[ton_adresse_ip]:2456`.
+
+
+## Conclusion
+
+Félicitations, tu as installé et configuré avec succès ton serveur Day of Defeat: Source sur ton VPS ! Pour toute question ou aide, n’hésite pas à contacter notre support, dispo tous les jours pour t’aider ! 🙂

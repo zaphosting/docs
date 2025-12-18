@@ -1,7 +1,7 @@
 ---
 id: dedicated-linux-valheim
 title: "Dedicated Server: Valheim Dedicated Server Linux Setup"
-description: Informationen zum Einrichten eines Valheim Dedicated Servers auf einem Linux Dedicated Server von ZAP-Hosting - ZAP-Hosting.com Dokumentation
+description: "Entdecke, wie du einen Valheim Dedicated Server auf Linux einrichtest, um dein Game effizient zu hosten und die Serverperformance zu optimieren → Jetzt mehr erfahren"
 sidebar_label: Valheim
 services:
   - dedicated
@@ -10,69 +10,64 @@ services:
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
-
-Hast du einen Linux Dedicated Server und möchtest den Valheim Dedicated Server Dienst darauf installieren? Dann bist du hier genau richtig. In dieser Anleitung erklären wir dir Schritt für Schritt, wie du diesen Dienst mit SteamCMD auf deinem Linux-Server installierst. Wir verwenden in den Beispielen Ubuntu, aber der Prozess sollte für andere Distributionen sehr ähnlich sein.
+Du hast einen Linux Dedicated Server und möchtest den Valheim Dedicated Server darauf installieren? Dann bist du hier genau richtig. In dieser Anleitung erklären wir dir Schritt für Schritt, wie du diesen Service auf deinem Linux-Server mit SteamCMD installierst. Wir nutzen Ubuntu als Beispiel, aber der Prozess ist bei anderen Distributionen sehr ähnlich.
 
 :::tip
-Wusstest du, dass du unser **ZAP GS/TS3 Interface** direkt auf deinem Dedicated Server installieren kannst? Damit kannst du mit nur wenigen Klicks Gameserver-Dienste einrichten, die direkt in dein ZAP-Hosting-Dashboard integriert sind! Erfahre mehr über das [GS/TS3 Interface](dedicated-linux-gs-interface.md).
+Wusstest du, dass du unsere **ZAP GS/TS3 Interface** direkt auf deinem Dedicated Server installieren kannst? Damit richtest du Gameserver-Services mit direkter Integration in dein ZAP-Hosting Dashboard in nur wenigen Klicks ein! Mehr Infos zur [GS/TS3 Interface](dedicated-linux-gs-interface.md).
 :::
-
-<InlineVoucher />
 
 ## Vorbereitung
 
-Verbinde dich zunächst über SSH mit deinem Dedicated Server. Benutze unsere Anleitung [Erstzugriff (SSH)](vserver-linux-ssh.md), wenn du dabei Hilfe benötigst.
+Verbinde dich zuerst per SSH mit deinem Dedicated Server. Falls du Hilfe brauchst, schau in unsere [SSH Initial Access](dedicated-linux-ssh.md) Anleitung.
 
-Du musst auch eine Ersteinrichtung für SteamCMD vornehmen, wenn du es zum ersten Mal auf deinem Linux-Server verwendest. Bitte benutze unsere [SteamCMD einrichten](dedicated-linux-steamcmd.md) Anleitung und stelle sicher, dass SteamCMD vollständig eingerichtet ist, bevor du fortfährst.
+Außerdem musst du SteamCMD beim ersten Mal auf deinem Linux-Server einrichten. Nutze dafür unsere [SteamCMD Linux Setup](dedicated-linux-steamcmd.md) Anleitung und stelle sicher, dass SteamCMD komplett eingerichtet ist, bevor du weitermachst.
 
 ## Installation
 
-Beginne damit, dich als Benutzer „Steam“ anzumelden und gehe in das Stammverzeichnis „home/steam“, um Ordnung zu schaffen.
+Melde dich als `steam` User an und wechsle in das Home-Verzeichnis von `steam`, um alles ordentlich zu halten.
 ```
 sudo -u steam -s
 cd ~
 ```
 
-Wenn du eingeloggt bist, kannst du den Installationsprozess mit dem folgenden Befehl starten, um die Installation mit Hilfe von SteamCMD direkt in deinem `steam`-Benutzer zu starten.
+Sobald du eingeloggt bist, kannst du die Installation mit folgendem Befehl starten. So installierst du den Valheim Server direkt über SteamCMD als `steam` User.
 ```
 steamcmd +force_install_dir '/home/steam/Valheim-Server' +login anonymous +app_update 896660 validate +quit
 ```
 
-Bitte habe etwas Geduld, während der Download abgeschlossen wird, denn bei Spielen mit größerem Umfang kann es einige Zeit dauern. Sobald der Download erfolgreich war, erscheint eine Erfolgsmeldung, die dies bestätigt.
+Bitte hab Geduld, bis der Download abgeschlossen ist – bei größeren Games kann das etwas dauern. Wenn alles erfolgreich war, erscheint eine Bestätigungsmeldung.
 
 ## Konfiguration
 
-In diesem Stadium hast du die Einrichtung deines Valheim-Servers abgeschlossen. Du kannst weitere Serverkonfigurationen vornehmen, indem du die Startdatei direkt bearbeitest.
+Jetzt hast du die Grundinstallation deines Valheim Servers abgeschlossen. Weitere Einstellungen kannst du direkt in der Startdatei vornehmen.
 
-Gehe in dein Stammverzeichnis und öffne die Datei `.sh`. Hier kannst du die Parameter bearbeiten.
+Wechsle in dein Home-Verzeichnis und öffne die `.sh` Datei zum Bearbeiten der Parameter.
 ```
 nano /home/steam/Valheim-Server/start_server.sh
 ```
 
-## Starten und Verbinden mit deinem Server
+## Server starten & verbinden
 
-Nun ist es an der Zeit, deinen Server zu starten. Gehe in das Hauptverzeichnis des Spiels und führe die Shell-Datei **start_server.sh** aus.
+Jetzt geht’s ans Eingemachte: Starte deinen Server, indem du ins Hauptverzeichnis des Spiels wechselst und die **start_server.sh** ausführst.
 ```
 /home/steam/Valheim-Server/start_server.sh
 ```
 
-In der Eingabeaufforderung sollten nun Logs erscheinen, die anzeigen, dass der Start erfolgreich war. Bitte beachte, dass der erste Start einige Zeit dauern kann, da alles eingerichtet wird. Alternativ kannst du dich auch direkt verbinden, indem du in der unteren Suchleiste der Serverliste nach suchst: `[deine_ip_address]:2456`.
+Im Terminal solltest du nun Logs sehen, die den erfolgreichen Start anzeigen. Beachte, dass der erste Start etwas länger dauern kann, da alles eingerichtet wird. Alternativ kannst du dich direkt verbinden, indem du in der Serverliste unten die Suche nutzt und `[deine_ip_adresse]:2456` eingibst.
 
 :::info
-Wenn du keine Verbindung herstellen kannst und in der Konsole die Fehlermeldung `PlayFab` angezeigt wird, musst du möglicherweise die Crossplay-Unterstützung deaktivieren, um dieses Problem zu beheben, da es sich um ein aktuelles Problem der Linux-Version handelt. Führe dazu `nano /home/steam/Valheim-Server/start_server.sh` aus und entferne das `-crossplay`-Flag.
+Falls du dich nicht verbinden kannst und `PlayFab`-Fehler in der Konsole erscheinen, musst du eventuell den Crossplay-Support deaktivieren, da es aktuell ein Problem mit der Linux-Version gibt. Öffne dazu `nano /home/steam/Valheim-Server/start_server.sh` und entferne die `-crossplay` Option.
 
-Wenn du Crossplay benötigst, kannst du stattdessen auch die Windows-Version installieren und **Wine** als Kompatibilitätsschicht verwenden. Bitte benutze unsere Kurzanleitung [Wine-Kompatibilitätsschicht einrichten](dedicated-linux-wine.md), um dies einzurichten. Wenn du fertig bist, kannst du die Valheim-Windows-Serverversion über SteamCMD installieren:
+Wenn du Crossplay brauchst, kannst du stattdessen die Windows-Version installieren und **Wine** als Kompatibilitätsschicht nutzen. Unsere schnelle [Wine Compatibility Layer Setup](dedicated-linux-wine.md) Anleitung hilft dir dabei. Danach installierst du den Valheim Windows Server via SteamCMD so:
 ```
 steamcmd +@sSteamCmdForcePlatformType windows +force_install_dir '/home/steam/Valheim-Server' +login anonymous +app_update 896660 validate +quit
 ```
 
-Nach der Installation kannst du die Windows-Version stattdessen mit folgendem Befehl über Wine starten: `xvfb-run wine /home/steam/Valheim-Server/StartServer.bat`
+Zum Starten der Windows-Version über Wine nutzt du diesen Befehl: `xvfb-run wine /home/steam/Valheim-Server/StartServer.bat`
 :::
 
-## Abschluss
+## Fazit
 
-Herzlichen Glückwunsch, du hast den Valheim-Server erfolgreich auf deinem Dedicated Server installiert und konfiguriert! Als nächsten Schritt empfehlen wir dir einen Blick in unsere Anleitung [Linux Dienst einrichten](dedicated-linux-create-gameservice.md), in der du deinen neuen dedizierten Gameserver als Dienst einrichtest. Dies bietet verschiedene Vorteile, wie z. B. den automatischen Start des Servers beim Hochfahren, automatische Server-Updates, einfache Verwaltung und Zugriff auf Logs und vieles mehr!
+Glückwunsch, du hast deinen Valheim Server erfolgreich auf deinem Dedicated Server installiert und konfiguriert! Als nächsten Schritt empfehlen wir dir unsere [Setup Linux Service](dedicated-linux-create-gameservice.md) Anleitung. Damit richtest du deinen neuen Dedicated Gameserver als Service ein – mit Vorteilen wie automatischem Serverstart beim Boot, automatischen Updates, einfacher Verwaltung und Zugriff auf Logs und vieles mehr!
 
-Wenn du weitere Fragen oder Probleme hast, wende dich bitte an unser Support-Team, das dir jeden Tag zur Verfügung steht!
-
-<InlineVoucher />
+Wenn du noch Fragen oder Probleme hast, steht dir unser Support-Team täglich zur Verfügung und hilft dir gerne weiter!

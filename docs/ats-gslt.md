@@ -1,7 +1,7 @@
 ---
 id: ats-gslt
 title: "American Truck Simulator: Create a GSLT (Steam Game Server Login Token)"
-description: "Information about the creation and use of GSLT for American Truck Simulator server from ZAP-Hosting - ZAP-Hosting.com documentation"
+description: "Discover how to secure and authenticate your dedicated game servers with Steam's Game Server Login Token for reliable public listing and protection → Learn more"
 sidebar_label: Create GSLT
 services:
   - gameserver-ats

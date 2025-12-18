@@ -1186,6 +1186,18 @@ const servicesMap: serviceMap = {
             description: 'URL path for the gameserver product',
         }),
     },
+    'gameserver-renown': {
+        title: translate({
+            message: 'Renown Gameserver',
+            id: 'service.gameserver-renown.title',
+            description: 'Product name for the gameserver product',
+        }),
+        url: translate({
+            message: '{marketingSite}/{language}/renown-server-hosting/',
+            id: 'service.gameserver-renown.path',
+            description: 'URL path for the gameserver product',
+        }),
+    },
     'gameserver-rimworldtogether': {
         title: translate({
             message: 'RimWorld Together Gameserver',

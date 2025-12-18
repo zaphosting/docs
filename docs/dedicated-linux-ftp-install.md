@@ -1,7 +1,7 @@
 ---
 id: dedicated-linux-ftp-install
 title: "Dedicated Server: Installation of a FTP server"
-description: Information on how to install and set up an FTP server on your Dedicated Server from ZAP-Hosting - ZAP-Hosting.com documentation
+description: "Discover how to set up and manage a secure FTP server on Linux with FileZilla Server to streamline file transfers and user access → Learn more now"
 sidebar_label: Install FTP server
 services:
   - dedicated
@@ -13,7 +13,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 The **FTP (File Transfer Protocol)** is a network protocol used to transfer files over a TCP/IP network. The protocol was developed to allow the easy exchange of files between systems. With the **FileZilla Server** it is possible to set up such a FTP server on a Linux operating system. The FileZilla Server is easy to install and configure, and offers numerous features such as the ability to set up user accounts, manage access rights and transfer files. In this guide, we will explore the process of installing and configuring the **FileZilla Server** service on a Linux server.
 
-<InlineVoucher />
+
 
 ## How do I install the FTP server to add a user? 
 
@@ -61,4 +61,4 @@ Now we can connect with our set information:
 ![](https://screensaver01.zap-hosting.com/index.php/s/oHsAKpc7MHqEQCF/preview)
 
 
-<InlineVoucher />
+

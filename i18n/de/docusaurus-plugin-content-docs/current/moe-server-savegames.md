@@ -1,7 +1,7 @@
 ---
 id: moe-server-savegames
 title: "Myth of Empires: Savegames verwalten"
-description: Informationen über die Verwaltung von Savegames auf deinem Myth of Empires Server von ZAP-Hosting - ZAP-Hosting.com Dokumentation
+description: "Entdecke, wie du deine Myth of Empires Savegames sicher verwaltest und sicherst, um ein nahtloses Spielerlebnis zu gewährleisten → Jetzt mehr erfahren"
 sidebar_label: Savegames verwalten
 services:
   - gameserver-moe
@@ -11,66 +11,66 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
 
-In dieser Anleitung erfährst du, wie du deine Myth of Empires Gamesaves auf deinem Gameserver verwaltest, einschließlich der Sicherung deiner lokalen und Server-Savegames sowie des Uploads auf deinen Server.
+In dieser Anleitung erfährst du, wie du deine Myth of Empires Savegames auf deinem Gameserver verwaltest, inklusive Backup deiner lokalen und Server-Savegames sowie dem Hochladen auf deinen Server.
 
 <InlineVoucher />
 
-## Voraussetzungen
+## Vorbereitung
 
-Um auf die Dateien deines Servers zugreifen zu können, benötigst du einen FTP-Client wie [WinSCP](https://winscp.net/eng/index.php) oder [FileZilla](https://filezilla-project.org/), die beide Open-Source sind und kostenlos heruntergeladen werden können.
+Um auf deine Serverdateien zugreifen zu können, benötigst du einen FTP-Client wie [WinSCP](https://winscp.net/eng/index.php) oder [FileZilla](https://filezilla-project.org/), die beide Open-Source und kostenlos sind.
 
-Du musst dich über einen FTP-Client mit deinem Server verbinden, indem du die Zugangsdaten verwendest, die du unter **Tools->FTP-Broswer** im Webinterface deines Gameservers findest. Bitte benutze unsere [Zugriff per FTP](gameserver-ftpaccess.md) Anleitung als weitere Hilfe, um dich mit deinem Server zu verbinden.
+Du musst dich mit einem FTP-Client über die Zugangsdaten verbinden, die du im **Tools->FTP-Browser** Bereich im Webinterface deines Gameservers findest. Nutze gerne unsere [Zugriff via FTP](gameserver-ftpaccess.md) Anleitung für weitere Hilfe beim Verbinden mit deinem Server.
 
-## Backup Savegame
+## Savegame Backup
 
 ### Lokales Savegame
 
-Lokale Savegames sind Spiele, die du während eines Multiplayer-Spiels lokal auf deinem Gerät erstellt hast. MOE speichert diese in einem Ordner am Installationsort des Spiels.
+Lokale Savegames sind solche, die du erstellt hast, während du ein Multiplayer-Spiel lokal auf deinem Gerät gehostet hast. MOE speichert diese in einem Ordner innerhalb des Spielinstallationsverzeichnisses.
 
-Öffne Steam auf deinem System, klicke mit der rechten Maustaste auf dein **Myth of Empires** Spiel und wähle **Lokale Dateien durchsuchen**, während du den Mauszeiger über den Abschnitt **Verwalten** bewegst.
+Öffne Steam auf deinem System, klicke mit der rechten Maustaste auf dein **Myth of Empires** Spiel und wähle **Lokale Dateien durchsuchen** im Bereich **Verwalten** aus.
 
-![Bild](https://screensaver01.zap-hosting.com/index.php/s/Cmj325wLSWgNGif/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/Cmj325wLSWgNGif/preview)
 
-Navigiere zu dem folgenden Pfad:
+Navigiere zu folgendem Pfad:
 ```
 ../WindowsPrivateServer/MOE/Saved/SaveGames/
 ```
 
-In diesem Ordner kannst du alle deine derzeit vorhandenen lokalen Savegames sehen.
+In diesem Ordner findest du alle aktuell vorhandenen lokalen Savegames.
 
-### Zugriff auf das Savegame über FTP
+### Savegame per FTP zugreifen
 
-Das Sichern deines Savegames vom Server aus ist ganz einfach. Sobald du dich über einen FTP-Client mit deinem Gameserver verbunden hast, gehst du zu folgendem Pfad:
+Das Backup deines Savegames vom Server ist easy. Sobald du dich mit einem FTP-Client mit deinem Gameserver verbunden hast, navigiere zu folgendem Pfad:
 ```
 ../moe-dedicated/MOE/Saved/SaveGames/
 ```
 
-An diesem Ort solltest du Ordner sehen, die deine Savegames sind. Klicke einfach mit der rechten Maustaste auf den Ordner und benutze den Button **Download**, um ihn lokal auf deinem Gerät zu speichern.
+Dort solltest du Ordner sehen, die deine Savegames sind. Klicke einfach mit der rechten Maustaste auf den Ordner und nutze den **Download**-Button, um ihn lokal auf deinem Gerät zu speichern.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/3yN723tY8eiBb2w/preview)
 
-### Automatische Sicherung
+### Automatisches Backup
 
-Wir bieten auch die Möglichkeit, dein Savegame (und deine Konfigurationsdatei) direkt über unser Webinterface automatisch zu sichern. Rufe einfach das Webinterface deines Gameservers auf und gehe in den Bereich **Tools->Backups**. Hier kannst du eine Reihe von Optionen konfigurieren, um automatische Backups für deinen Server zu planen. Wir stellen dir 10gb kostenlosen Backup-Speicher zur Verfügung, in dem deine Backups gespeichert werden. Weitere Informationen zu Backups findest du in unserer [Backups](gameserver-backups.md) Anleitung zu diesem Thema.
+Wir bieten dir auch die Möglichkeit, dein Savegame (und die Konfigurationsdatei) direkt über unser Webinterface automatisch zu sichern. Gehe dazu einfach im Webinterface deines Gameservers auf **Tools->Backups**. Hier kannst du verschiedene Optionen einstellen, um automatische Backups für deinen Server zu planen. Wir stellen dir 10 GB kostenlosen Backup-Speicherplatz zur Verfügung, in dem deine Backups gespeichert werden. Für mehr Infos zu Backups schau dir unsere spezielle [Backups](gameserver-backups.md) Anleitung an.
 
 ## Savegame hochladen
 
-Ähnlich wie das Sichern ist auch das Hochladen deines Savegames ganz einfach. Stelle zunächst sicher, dass du dich über einen FTP-Client mit deinem Gameserver verbindest. Sobald du bereit bist, gehst du zu folgendem Pfad:
+Ähnlich wie beim Backup ist das Hochladen deines Savegames simpel. Verbinde dich zuerst mit deinem Gameserver über einen FTP-Client. Navigiere dann zu folgendem Pfad:
 ```
 ../moe-dedicated/MOE/Saved/SaveGames/
 ```
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/KLD26KTYZYpfoqP/preview)
 
-Ziehe einfach eines deiner Savegames mit deinem FTP-Client in diesen Ordner und es wird auf deinen Server hochgeladen.
+Zieh einfach dein Savegame per Drag & Drop in diesen Ordner im FTP-Client und es wird auf deinen Server hochgeladen.
 
 ## Savegame aktivieren
 
-Um dein Savegame zu benutzen, musst du es in deiner Serverkonfiguration auswählen. Am einfachsten ist es, wenn du im Webinterface deines Gameservers den Bereich **Einstellungen** aufrufst. Weitere Informationen findest du in unserer [Server Konfiguration](moe-configuration.md).
+Um dein Savegame zu nutzen, musst du es in deiner Serverkonfiguration auswählen. Am einfachsten geht das im **Einstellungen** Bereich im Webinterface deines Gameservers. Für mehr Infos nutze unsere [Serverkonfiguration](moe-configuration.md) Anleitung.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/cGbSnRp5gfbWnnb/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/QDPzFgWRrfB49HB/preview)
 
-In diesem Abschnitt findest du den Parameter **Map Name** im Abschnitt Grundeinstellungen, und deine hochgeladene Welt sollte nun hier zu finden sein. Wenn du ihn nicht siehst, stelle sicher, dass du deinen Server nach dem Hochladen neu startest.
+Suche in diesem Bereich den Parameter **Map Name** in den Grundeinstellungen, dort sollte deine hochgeladene Welt jetzt auftauchen. Falls nicht, stelle sicher, dass du deinen Server nach dem Hochladen neu startest.
 
 Du hast erfolgreich ein Savegame zu deinem Gameserver hinzugefügt.
 

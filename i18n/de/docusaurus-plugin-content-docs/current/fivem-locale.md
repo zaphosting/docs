@@ -1,7 +1,7 @@
 ---
 id: fivem-locale
 title: "FiveM: Sprache / Standort (Flagge) ändern"
-description: Informationen, wie du die Sprache und den Standort (Flagge) bei einem FiveM Server anpassen kannst. - ZAP-Hosting.com Dokumentation
+description: "Entdecke, wie du die Sprache und Flagge deines FiveM Servers für ein persönliches Spielerlebnis anpasst → Jetzt mehr erfahren"
 sidebar_label: Sprache / Standort (Flagge)
 services:
   - gameserver-fivem
@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
 
-FiveM Server können in verschiedenen Sprachen angezeigt werden. Das gilt sowohl für die Anzeige der Flagge des Servers im Serverbrowser als auch die Sprache, die auf dem Server aktiv verwendet wird. Diese kann bei Bedarf angepasst werden. Somit hast du die Möglichkeit deine Sprache und Landesflagge für deinen Server zu setzen.
+FiveM Gameserver können in verschiedenen Sprachen angezeigt werden. Das gilt sowohl für die Anzeige der Server-Flagge im Serverbrowser als auch für die Sprache, die aktiv auf dem Server verwendet wird. Die Sprache kann bei Bedarf individuell angepasst werden. So hast du die Möglichkeit, deine Sprache und Länderflagge für deinen Server auszuwählen.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/FJZc7pJmppG28mX/preview)
 
@@ -19,61 +19,52 @@ FiveM Server können in verschiedenen Sprachen angezeigt werden. Das gilt sowohl
 
 ## Konfiguration
 
-Die Konfiguration der Flagge und Sprache des Servers erfolgt über die Locales Option. Die Locales Konfiguration wird über die Server Config vorgenommen. Über den Wert des **sets locale** Befehl wird dies definiert. Die Englische Sprache und Antarktik als Standort (Flagge) wird standardmäßig angezeigt. 
+Die Konfiguration der Flagge und Sprache des Servers erfolgt über die Locales-Option. Die Locales-Konfiguration wird über die Server-Konfig gemacht. Diese wird durch den Wert des **sets locale** Befehls definiert. Standardmäßig wird die englische Sprache und die Antarktis als Standort (Flagge) angezeigt.
 
+### Server-Konfigurationsdatei öffnen
 
-
-### Server Konfigurationsdatei aufrufen
-
-Die Server Konfigurationsdatei `server.cfg` kann in der txAdmin Verwaltung unter `CFG- Editor` aufgerufen werden.
+Die Server-Konfigurationsdatei `server.cfg` kannst du im txAdmin Interface unter `CFG Editor` öffnen.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/qDsN5ggCjaaJLS5/preview)
 
+### Locale-/Sprachcode für deine Sprache finden
 
+Die Definition der Sprache/Anzeige erfolgt über die Locales (Sprachcodes/Ländercodes) basierend auf den ISO 639-1/ISO 3166-1 Standards. Wir haben dir eine kleine Liste der relevantesten Länder/Sprachen zusammengestellt. Die tatsächliche Liste ist natürlich deutlich größer:
 
-### Locale-/Sprachcode für deine Sprache suchen
-
-Die Definition der Sprache/Anzeige erfolgt über die Locales (Sprachcodes/Ländercodes) basierend auf den Normen ISO 639-1/ISO 3166-1. Im folgenden haben wir eine kleine Auflistung der relevantesten Länder/Sprachen verfasst. Die tatsächliche Liste natürlich deutlich größer:
-
-| Land           | Sprache        | Locale |
-| -------------- | -------------- | ------ |
-| Deutschland    | Deutsch        | de-DE  |
-| USA            | Englisch       | en-US  |
-| Canada         | Englisch       | en-CA  |
-| Australien     | Englisch       | en-AU  |
-| United Kingdom | Englisch       | en-GB  |
-| Finnland       | Finnisch       | fi-FI  |
-| Frankreich     | Französisch    | fr-FR  |
+| Land           | Sprache    | Locale |
+| -------------- | ---------- | ------ |
+| Deutschland    | Deutsch    | de-DE  |
+| USA            | Englisch   | en-US  |
+| Kanada         | Englisch   | en-CA  |
+| Australien     | Englisch   | en-AU  |
+| Vereinigtes Königreich | Englisch | en-GB  |
+| Finnland       | Finnisch   | fi-FI  |
+| Frankreich     | Französisch| fr-FR  |
 | Niederlande    | Niederländisch | nl-NL  |
-| Portugal       | Portugiesisch  | pt-PT  |
-| Brasilien      | Portugiesisch  | pt-BR  |
-| Spanien        | Spanisch       | es-ES  |
-| Singapur       | Englisch       | en-SG  |
+| Portugal       | Portugiesisch | pt-PT  |
+| Brasilien      | Portugiesisch | pt-BR  |
+| Spanien        | Spanisch   | es-ES  |
+| Singapur       | Englisch   | en-SG  |
 
 :::caution 
-
-Die Anzeige der Serverflagge wird prinzipiell von allen verfügbaren Ländern unterstützt. Allerdings beinhalten nicht alle Ressourcen alle Sprachen. Stelle daher vorher sicher, dass deine Land/Sprache unterstützt wird! 
-
+Die Anzeige der Server-Flagge wird grundsätzlich von allen verfügbaren Ländern unterstützt. Allerdings enthalten nicht alle Ressourcen alle Sprachen. Stelle daher sicher, dass dein Land/deine Sprache im Vorfeld unterstützt wird!
 :::
 
+### Inhalt der Server-Konfigurationsdatei anpassen
 
-
-### Inhalt der  Server Konfigurationsdatei anpassen
-
-Nachdem die Konfigurationsdatei aufgerufen und du dich um die Locale-/Sprachcode gekümmert hast, kann nun die Konfiguration vorgenommen werden.  Zunächst muss geprüft werden, ob der **sets locale** Befehl bereits vorhanden ist. Falls nicht sieht der Eintrag dafür wie folgt aus:
+Nachdem du die Konfigurationsdatei geöffnet und den Locale-/Sprachcode herausgesucht hast, kannst du die Konfiguration vornehmen. Zuerst solltest du prüfen, ob der **sets locale** Befehl bereits existiert. Falls nicht, sieht die Eingabe dafür so aus:
 
 ```
-# A valid locale identifier for your server's primary language.
-# For example "en-US", "fr-CA", "nl-NL", "de-DE", "en-GB", "pt-BR"
+# Ein gültiger Locale-Identifier für die Hauptsprache deines Servers.
+# Zum Beispiel "en-US", "fr-CA", "nl-NL", "de-DE", "en-GB", "pt-BR"
 sets locale "root-AQ" 
-# please DO replace root-AQ on the line ABOVE with a real language! :)
+# bitte ERSETZE root-AQ in der ZEILE OBEN mit einer echten Sprache! :)
 ```
 
-Der Wert vom **sets-locale** Befehl hat standardmäßig den **root-AQ** Wert. Dieser muss nun angepasst werden. Wenn du beispielsweise die USA als Flagge und Englisch als Sprache verwenden möchtest, dann würdest du in diesem Fall **en_US** als Wert verwenden. Speichere die vorgenommene Änderung. 
+Der Wert des **sets locale** Befehls ist standardmäßig auf **root-AQ** gesetzt. Dies muss jetzt angepasst werden. Wenn du zum Beispiel die USA als Flagge und Englisch als Sprache verwenden möchtest, würdest du hier **en-US** als Wert eintragen. Speichere die Änderung anschließend ab.
 
+## Fazit
 
-## Abschluss
-
-Als letztes muss der Server noch einmal neu gestartet werden, damit die Änderung übernommen wird. Im Anschluss kannst du die Serverliste in deinem FiveM Client neuladen und solltest die vorgenommene Änderung sehen. Für weitere Fragen oder Hilfe zögere bitte nicht, unser Support-Team zu kontaktieren, das dir täglich zur Verfügung steht! 🙂
+Der letzte Schritt ist, den Server neu zu starten, damit die Änderung übernommen wird. Danach kannst du die Serverliste in deinem FiveM Client neu laden und solltest die gerade gemachte Änderung sehen. Bei weiteren Fragen oder wenn du Hilfe brauchst, steht dir unser Support-Team täglich zur Verfügung! 🙂
 
 <InlineVoucher />

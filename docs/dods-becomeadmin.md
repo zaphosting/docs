@@ -1,7 +1,7 @@
 ---
 id: dods-becomeadmin
 title: "Day of Defeat: Source: Become an admin"
-description: "Information on how to become an admin on your Day of Defeat: Source server from ZAP-Hosting - ZAP-Hosting.com documentation"
+description: "Discover how to assign admin permissions for full server control and manage game functions effectively → Learn more now"
 sidebar_label: Become admin
 services:
   - gameserver-dods

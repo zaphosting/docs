@@ -1,7 +1,7 @@
 ---
 id: dedicated-windows-cscz
 title: "Dedicated Server: Counter-Strike: Condition Zero Dedicated Server Windows Setup"
-description: "Information about setting up a Counter-Strike: Condition Zero Dedicated Server on a Windows VPS from ZAP-Hosting - ZAP-Hosting.com documentation"
+description: "Learn how to set up a Counter-Strike: Condition Zero dedicated server on your VPS or dedicated server quickly and easily → Learn more now"
 sidebar_label: "Counter-Strike: Condition Zero"
 services:
   - vserver
@@ -13,7 +13,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 ## Introduction
 Got a VPS or dedicated server and want to install game servers on it? For example an Counter-Strike: Condition Zero Dedicated Server? Then you are at the right place! In the following we will explain step by step how you can install such a service on your server.
 
-<InlineVoucher />
+
 
 ## Preparation
 
@@ -70,4 +70,4 @@ You should now see logs appear in your command prompt which signals that the sta
 
 Congratulations, you have successfully installed and configured the Counter-Strike: Condition Zero server on your VPS! For further questions or assistance, please don't hesitate to contact our support team, which is available daily to assist you! 🙂
 
-<InlineVoucher />
+

@@ -1,7 +1,7 @@
 ---
 id: css-becomeadmin
 title: "Counter-Strike: Source: Become an admin"
-description: "Information on how to become an admin on your Counter-Strike: Source server from ZAP-Hosting - ZAP-Hosting.com documentation"
+description: "Discover how to assign administrator permissions for full server control and manage game functions effectively → Learn more now"
 sidebar_label: Become admin
 services:
   - gameserver-css

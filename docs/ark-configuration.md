@@ -1,7 +1,7 @@
 ---
 id: ark-configuration
 title: "ARK: Server configuration"
-description: Information about the configuration options in the web interface of your ARK server at ZAP-Hosting - ZAP-Hosting.com documentation
+description: "Discover how to optimize your ARK game server settings for better gameplay and customization → Learn more now"
 sidebar_label: Server Configuration
 services:
   - gameserver-ark

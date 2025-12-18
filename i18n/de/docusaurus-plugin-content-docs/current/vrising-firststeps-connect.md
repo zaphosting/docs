@@ -1,51 +1,51 @@
 ---
 id: vrising-firststeps-connect
-Titel: "V Rising: Mit dem V Rising Server verbinden"
-description: Informationen zur Verbindung mit einem V Rising Server von ZAP-Hosting - ZAP-Hosting.com Dokumentation
-sidebar_label: Mit dem Server verbinden
+title: "V Rising: Mit deinem V Rising Server verbinden"
+description: "Entdecke, wie du dich direkt oder über die Serverliste mit deinem V Rising Server verbindest für ein nahtloses Gameplay → Jetzt mehr erfahren"
+sidebar_label: Mit Server verbinden
 services:
   - gameserver-vrising
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
-## Einleitung
+## Einführung
 
-In dieser Anleitung erfahren wir, wie du dich mit deinem V Rising Server verbinden kannst. Es gibt zwei Möglichkeiten, eine Verbindung herzustellen: entweder direkt über die IP-Adresse deines Servers oder über die Serverliste. Wir empfehlen, den Server vorher nach deinen Wünschen zu konfigurieren. Mehr darüber erfährst du in unserer [Server-Konfiguration](vrising-configuration.md) Anleitung.
+In dieser Anleitung zeigen wir dir, wie du dich mit deinem V Rising Server verbindest. Es gibt zwei Verbindungswege: Entweder direkt über die IP-Adresse deines Servers oder über die Serverliste. Wir empfehlen, deinen Server vorher nach deinen Wünschen zu konfigurieren. Mehr dazu findest du in unserer [Server Konfiguration](vrising-configuration.md) Anleitung.
 
 <InlineVoucher />
 
-## Direktverbindung über IP
+## Direkte Verbindung über IP
 
-### Server-IP abfragen
+### Server-IP herausfinden
 
-Zunächst musst du die IP und den Port deines V Rising-Servers kennen, um eine direkte Verbindung herstellen zu können. Gehe einfach zu deinem [ZAP-Hosting Webinterface](https://zap-hosting.com/en/customer/) auf der Website und halte die vollständige IP und den Port bereit.
+Zuerst brauchst du die IP und den Port deines V Rising Servers, um dich direkt verbinden zu können. Geh einfach auf dein [ZAP-Hosting Webinterface](https://zap-hosting.com/en/customer/) und halte die vollständige IP und den Port bereit.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/tyDGMi7YmmNMLsd/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/4L86LFeqL8o96kn/preview)
 
-Wenn du deinen V Rising Server als externen dedizierten Server betreibst, ist deine IP die des Hostrechners und der Port derjenige, den du in deiner Konfigurationsdatei eingestellt hast (standardmäßig ist das 9876). In unserer [Server-Konfiguration](vrising-configuration.md) findest du weitere Informationen zum Port.
+Falls du deinen V Rising Server auf einem externen Dedicated Server betreibst, ist die IP die des Host-Systems und der Port der, den du in deiner Konfigurationsdatei eingestellt hast (standardmäßig 9876). Mehr Infos zum Port findest du in unserer [Server Konfiguration](vrising-configuration.md) Anleitung.
 
 ### Verbindung im Spiel herstellen
 
-Beginne damit, V Rising über deinen Game Launcher zu starten. Wähle im Hauptmenü **Spielen**, gefolgt von der Option **Online-Spiel**.
+Starte V Rising über deinen Game Launcher. Im Hauptmenü wählst du **Play** und dann die Option **Online Play**.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/cJcnRAX2Wj7sogx/preview)
 
-Wähle den Spielmodus aus, den du spielen willst, oder drücke alternativ unten rechts auf **Alle Server anzeigen**, um direkt zum Server-Browser zu gelangen. 
+Wähle den Spielmodus, den du spielen möchtest, oder drücke alternativ unten rechts auf **Show all Servers**, um direkt zum Serverbrowser zu gelangen.
 
-Drücke unten auf den Button **Direktverbindung** und gib deine IP gefolgt von dem Port ein, zum Beispiel: "123.456.679.123:9876". Wenn es ein Passwort gibt, wird das Spiel dich nach der Verbindung auffordern, dieses einzugeben.
+Drücke jetzt unten auf den Button **Direct Connect** und gib deine IP gefolgt vom Port ein, z.B.: `123.456.679.123:9876`. Falls ein Passwort gesetzt ist, wirst du nach dem Verbinden dazu aufgefordert, es einzugeben.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/tfroQDEgmr3p2D8/preview)
 
-Wenn du dem Server nicht erfolgreich beitreten kannst und eine Timeout-Fehlermeldung erhältst, vergewissere dich bitte, dass die eingegebene IP und der Port korrekt sind und dass der Server online ist. Du kannst den Konsolenbereich deines Webinterfaces für deinen V Rising Server verwenden, um die Fehlersuche zu erleichtern.
+Falls du nicht erfolgreich verbinden kannst und eine Timeout-Fehlermeldung bekommst, überprüfe bitte, ob die eingegebene IP und der Port korrekt sind und dein Server online ist. Zur Fehlersuche kannst du die Konsole im Webinterface deines V Rising Servers nutzen.
 
-## Verbindung über Serverliste
+## Verbindung über die Serverliste
 
-Die einfachste Möglichkeit, dich mit deinem Server zu verbinden, ist über die Serverliste. Dazu muss dein Server jedoch in den Serverkonfigurationsparametern auf öffentlich eingestellt sein. 
+Die einfachere Variante, um dich mit deinem Server zu verbinden, ist über die Serverliste. Dafür muss dein Server allerdings in den Serverkonfigurationen auf öffentlich gestellt sein.
 
-Bitte schau dir unsere [Server-Konfiguration](vrising-configuration.md) an, um die entsprechenden Parameter `Name` und `ListOnMasterServer` in deiner Konfigurationsdatei oder über das Webinterface-Panel hinzuzufügen.
+Schau dir dazu unsere [Server Konfiguration](vrising-configuration.md) Anleitung an, um die passenden Parameter `Name` und `ListOnMasterServer` in deine Konfigurationsdatei oder im Webinterface einzutragen.
 
-Sobald dies erledigt ist, wähle im Hauptmenü **Spielen**, gefolgt von der Option **Online spielen** und drücke noch einmal unten rechts auf **Alle Server anzeigen**. Jetzt kannst du den Server-Browser benutzen, um deinen Server mit Hilfe der bereitgestellten Filter wie Namenssuche, Spielmodus, Schwierigkeitsgrad und vielem mehr zu finden.
+Ist das erledigt, wählst du im Hauptmenü **Play**, dann **Online Play** und klickst wieder unten rechts auf **Show all Servers**. Im Serverbrowser kannst du jetzt deinen Server mit den Filtern wie Name, Spielmodus, Schwierigkeit und mehr finden.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/CGoZBkRsGTwkTQg/preview)
 

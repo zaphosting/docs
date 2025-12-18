@@ -1,7 +1,7 @@
 ---
 id: dedicated-linux-rust
 title: "Dedicated Server: Rust Dedicated Server Linux Setup"
-description: Information about setting up a Rust Dedicated Server on a Linux Dedicated Server from ZAP-Hosting - ZAP-Hosting.com documentation
+description: "Learn how to set up a Rust Dedicated Server on Linux to host your game efficiently and optimize server performance → Learn more now"
 sidebar_label: Rust
 services:
   - dedicated
@@ -17,7 +17,7 @@ Do you have a Linux Dedicated Server and you want to install the Rust Dedicated 
 Did you know that you can install our **ZAP GS/TS3 Interface** directly onto your dedicated server, allowing you to setup game server services, with direct integration to your ZAP-Hosting dashboard, in just a few clicks! Learn more about the [GS/TS3 Interface here](dedicated-linux-gs-interface.md).
 :::
 
-<InlineVoucher />
+
 
 ## Preparation
 
@@ -75,4 +75,4 @@ Congratulations, you have successfully installed and configured the Rust server 
 
 If you have any further questions or problems, please contact our support team, who are available to help you every day!
 
-<InlineVoucher />
+

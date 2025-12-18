@@ -1,7 +1,7 @@
 ---
 id: deadmatter-firststeps-dashboard
 title: "Dead Matter: Dashboard Overview"
-description: Information about the dashboard of an Dead Matter server from ZAP-Hosting - ZAP-Hosting.com Documentation
+description: "Discover how to efficiently manage your Dead Matter server with a clear overview of features and options tailored to your needs → Learn more now"
 sidebar_label: Dashboard
 services:
   - gameserver

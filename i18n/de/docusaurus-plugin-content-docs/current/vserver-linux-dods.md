@@ -1,7 +1,7 @@
 ---
 id: vserver-linux-dods
-title: "VPS: Day of Defeat: Source Dedicated Server Linux Setup"
-description: "Informationen zur Einrichtung eines Day of Defeat: Source Dedicated Servers auf einem Windows VPS von ZAP Hosting – ZAP Hosting.com Dokumentation"
+title: "vServer: Day of Defeat: Source Dedicated Server Linux Setup"
+description: "Entdecke, wie du schnell und einfach einen Day of Defeat: Source Dedicated Server auf deinem Linux VPS einrichtest → Jetzt mehr erfahren"
 sidebar_label: "Day of Defeat: Source"
 services:
   - vserver
@@ -10,61 +10,61 @@ services:
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
-Du hast einen Linux VPS und möchtest darauf den Day of Defeat:Source  Dedicated Server installieren? Dann bist du hier richtig. In dieser Anleitung erläutern wir Schritt für Schritt die Installation dieses Dienstes auf deinem Linux Server mit SteamCMD. In den Beispielen verwenden wir Ubuntu, der Ablauf ist jedoch bei anderen Distributionen sehr ähnlich.
+Du hast einen Linux VPS und möchtest den Day of Defeat: Source Dedicated Server darauf installieren? Dann bist du hier genau richtig. In dieser Anleitung erklären wir dir Schritt für Schritt, wie du diesen Service auf deinem Linux-Server mit SteamCMD installierst. Wir verwenden Ubuntu als Beispiel, aber der Prozess ist bei anderen Distributionen ähnlich.
 
 :::tip
-Wusstest du, dass du unser **ZAP GS/TS3 Interface** direkt auf deinem VPS installieren kannst? So richtest du Gameserver Dienste mit direkter Integration in dein ZAP Hosting Dashboard mit nur wenigen Klicks ein! Mehr dazu im [GS/TS3 Interface](vserver-linux-gs-interface.md).
+Wusstest du, dass du unsere **ZAP GS/TS3 Interface** direkt auf deinem VPS installieren kannst? Damit richtest du Gameserver-Services mit direkter Integration in dein ZAP-Hosting Dashboard in nur wenigen Klicks ein! Erfahre mehr über die [GS/TS3 Interface](vserver-linux-gs-interface.md).
 :::
 
 <InlineVoucher />
 
 ## Vorbereitung
 
-Stelle zunächst per SSH eine Verbindung zu deinem VPS her. Nutze bei Bedarf unsere Anleitung [SSH Erster Zugriff](vserver-linux-ssh.md). Wenn du SteamCMD zum ersten Mal auf deinem Linux Server verwendest, musst du außerdem eine Ersteinrichtung durchführen. Verwende dazu unsere Anleitung [SteamCMD Linux Einrichtung](vserver-linux-steamcmd.md) und stelle sicher, dass SteamCMD vollständig eingerichtet ist, bevor du fortfährst.
+Verbinde dich zunächst per SSH mit deinem VPS. Falls du dabei Hilfe brauchst, nutze unsere [SSH Erste Schritte](vserver-linux-ssh.md) Anleitung. Außerdem musst du SteamCMD beim ersten Mal auf deinem Linux-Server einrichten. Nutze dazu unsere [SteamCMD Linux Setup](vserver-linux-steamcmd.md) Anleitung und stelle sicher, dass SteamCMD vollständig eingerichtet ist, bevor du weitermachst.
 
 ## Installation
 
-Melde dich beim Benutzer `steam` an und wechsle in dessen Home Verzeichnis, um die Dateien übersichtlich zu halten.
+Melde dich als `steam` Benutzer an und wechsle in das Home-Verzeichnis von `steam`, um alles ordentlich zu halten.
 ```
 sudo -u steam -s
 cd ~
 ```
 
-Wenn du angemeldet bist, kannst du den Installationsprozess mit folgendem Befehl starten, um die Installation bequem per SteamCMD direkt für den Benutzer `steam` durchzuführen.
+Sobald du eingeloggt bist, kannst du die Installation mit folgendem Befehl starten. Damit wird SteamCMD genutzt, um den Server direkt im Verzeichnis des `steam` Users zu installieren.
 ```
 steamcmd +force_install_dir '/home/steam/dod-ds' +login anonymous +app_update 232290 validate +quit
 ```
 
-Bitte warte, bis der Download abgeschlossen ist. Bei größeren Spielen kann das etwas dauern. Nach erfolgreichem Abschluss erscheint eine entsprechende Erfolgsmeldung.
+Bitte hab Geduld, bis der Download abgeschlossen ist – bei größeren Spielen kann das eine Weile dauern. Sobald alles erfolgreich ist, erscheint eine Bestätigungsmeldung.
 
 ## Konfiguration
 
-An diesem Punkt ist die Grundinstallation deines Day of Defeat:Source  Servers abgeschlossen. Weitere Servereinstellungen kannst du durch direktes Bearbeiten der Start /Konfigurationsdateien vornehmen.
+Jetzt hast du die Grundinstallation deines Day of Defeat: Source Servers abgeschlossen. Weitere Server-Einstellungen kannst du direkt in der Startdatei vornehmen.
 
-Wechsle in dein Hauptverzeichnis. Navigiere darin in das Verzeichnis `cfg` und öffne die Datei `server.cfg`. Dort kannst du Serveroptionen anpassen.
+Wechsle in dein Root-Verzeichnis. Dort findest du im Ordner `cfg` die Datei `server.cfg`, die du bearbeiten kannst, um Serveroptionen anzupassen.
 ```
 nano /home/steam/dod-ds/dod/cfg/server.cfg
 ```
 
 ## GSL Token registrieren
 
-Damit andere Spieler deinem Server beitreten können, musst du ein Game Server Login Token (GSLT) erstellen und hinterlegen. Dieses Token authentifiziert deinen Server bei Steam. Erzeuge ein GSLT unter http://steamcommunity.com/dev/managegameservers und verwende dabei die App ID 232290 für Counter Strike 2.
+Damit andere Spieler deinem Server beitreten können, musst du einen Game Server Login Token (GSLT) generieren und einbinden. Dieser Token authentifiziert deinen Server bei Steam. Erstelle deinen GSLT unter http://steamcommunity.com/dev/managegameservers mit der Game-ID 232290 für Day of Defeat: Source.
 
-Füge das Token anschließend in die Startparameter deines Servers ein, z.B. mit `+sv_setsteamaccount <TOKEN>`.
+Füge den Token dann in deine Server-Startparameter mit `+sv_setsteamaccount <TOKEN>` ein.
 
-## Server starten und verbinden
+## Server starten & verbinden
 
 Jetzt kannst du deinen Server starten. Wechsle in das Hauptverzeichnis des Spiels und führe folgenden Startbefehl aus:
 ```
 ./srcds_run -console -game dod -secure +maxplayers 22 +map de_dust +sv_setsteamaccount XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 ```
 
-In der Konsole sollten nun Protokolle erscheinen, die einen erfolgreichen Start signalisieren. Beachte, dass der erste Start etwas länger dauern kann, da alles eingerichtet wird. Alternativ kannst du direkt verbinden, indem du in der Serverliste in der unteren Suchleiste nach folgender Adresse suchst: `[your_ip_address]:2456`.
+Im Terminal solltest du nun Logs sehen, die den erfolgreichen Start anzeigen. Beachte, dass der erste Start etwas länger dauern kann, da alles eingerichtet wird. Alternativ kannst du dich direkt verbinden, indem du in der Serverliste unten in der Suchleiste nach `[deine_ip_adresse]:2456` suchst.
 
-## Abschluss
+## Fazit
 
-Glückwunsch, du hast den Day of Defeat:Source  Server auf deinem VPS erfolgreich installiert und konfiguriert! Als nächsten Schritt empfehlen wir unsere Anleitung [Linux Dienst einrichten](vserver-linux-create-gameservice.md). Diese erklärt, wie du deinen neuen Dedicated Gameserver als Dienst betreibst. Vorteile: automatischer Start beim Booten, automatische Server Updates, einfache Verwaltung und Zugriff auf Logs und vieles mehr!
+Glückwunsch, du hast deinen Day of Defeat: Source Server erfolgreich auf deinem VPS installiert und konfiguriert! Als nächsten Schritt empfehlen wir dir unsere [Linux Service Setup](vserver-linux-create-gameservice.md) Anleitung. Dort erfährst du, wie du deinen neuen Dedicated Server als Service einrichtest. Das bringt dir viele Vorteile wie automatischen Serverstart beim Booten, automatische Updates, einfache Verwaltung und Zugriff auf Logs – und noch viel mehr!
 
-Für weitere Fragen oder Unterstützung wende dich bitte an unser Support Team, das täglich für dich da ist! 🙂
+Bei Fragen oder Problemen steht dir unser Support-Team täglich zur Verfügung – zögere nicht, uns zu kontaktieren! 🙂
 
 <InlineVoucher />

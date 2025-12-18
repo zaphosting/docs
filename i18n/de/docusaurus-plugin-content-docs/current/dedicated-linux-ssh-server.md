@@ -1,7 +1,7 @@
 ---
 id: dedicated-linux-ssh-server
 title: "Dedicated Server: Installation von SSH"
-description: Informationen zur Installation von SSH auf deinem Linux VPS von ZAP-Hosting - ZAP-Hosting.com Dokumentation
+description: "Entdecke, wie du SSH-Server auf Linux VPS sicher installierst und verwaltest, um sicheren Remote-Zugriff und verbesserten Schutz deines Servers zu gewährleisten → Jetzt mehr erfahren"
 sidebar_label: SSH installieren
 services:
   - dedicated
@@ -11,17 +11,18 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
 
-Secure Shell (SSH) ist ein sicheres Protokoll, das einen sicheren und verschlüsselten Zugang zu entfernten Systemen ermöglicht. Es bietet eine vertrauliche und sichere Übertragung von Daten über Netzwerke.
+Secure Shell (SSH) ist ein sicheres Protokoll, das verschlüsselten und sicheren Zugriff auf entfernte Systeme ermöglicht. Es gewährleistet die Vertraulichkeit und Integrität der über Netzwerke übertragenen Daten.
 
-In dieser Anleitung erfährst du, wie du den SSH-Server für eine Reihe von Linux-Distributionen, die wir derzeit auf unseren VPS-Servern anbieten, installieren oder neu installieren kannst. Die meisten Linux-Distributionen, die wir auf unseren VPS-Servern anbieten, sind standardmäßig mit einem SSH-Server ausgestattet, den du einfach über das Webinterface des Produkts verwalten kannst. Wie das geht, kannst du in unserem Anleitung nachlesen: [Erstzugriff (SSH)](vserver-linux-ssh.md)
+In dieser Anleitung erfährst du, wie du den SSH-Server für verschiedene Linux-Distributionen installierst oder neu installierst, die wir aktuell auf unseren VPS-Servern anbieten. Die meisten Linux-Distros, die wir über unsere VPS-Server bereitstellen, sind standardmäßig mit einem SSH-Server ausgestattet, sodass du diesen einfach über das Webinterface des Produkts verwalten kannst. Wie das genau funktioniert, zeigen wir dir in unserer Anleitung: [Erstzugang (SSH)](vserver-linux-ssh.md)
 
-Wenn du mehr darüber erfahren möchtest, wie du die Sicherheit deines Servers verbessern kannst, empfehlen wir dir unsere Anleitung [Sicherheitstipps](vserver-linux-security-tips.md), die eine Reihe von Tools und Diensten vorstellt, mit denen du deinen Server noch besser schützen kannst.
+Wenn du deine Sicherheit auf dem Server weiter verbessern möchtest, empfehlen wir dir unbedingt unsere [Sicherheitstipps](vserver-linux-security-tips.md) anzuschauen. Dort findest du eine Reihe von Tools und Services, die deinen Server noch sicherer machen.
 
-<InlineVoucher />
+
 
 ## Installation
 
-Um die Installation zu beginnen, musst du erst über VNC auf deinem Server verbinden. Du kannst dazu unserer Anleitung folgen [VNC-Konsole](vserver-vnc.md)
+Um mit der Installation zu starten, greif über VNC auf deinen Server zu. Folge dazu einfach den Schritten in der [VNC-Konsole](vserver-vnc.md).
+
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
@@ -30,53 +31,53 @@ import TabItem from '@theme/TabItem';
 <TabItem value="CentOS" label="CentOS" default>
 
 :::info
-Wenn du den SSH-Server neu installieren willst, musst du ihn zuerst deinstallieren. Das kannst du mit dem Befehl: `yum remove openssh`.
+Wenn du den SSH-Server neu installieren möchtest, deinstalliere ihn vorher. Das geht mit dem Befehl: `yum remove openssh`.
 :::
 
-Bevor du mit der Installation beginnst, stelle sicher, dass das System auf dem neuesten Stand ist. Führe dazu folgenden Befehl aus:
+Bevor du den SSH-Server installierst, stelle sicher, dass dein System auf dem neuesten Stand ist. Führe dazu folgenden Befehl aus:
 ```
 yum update
 ```
 
-Nun kannst du mit der Installation des SSH-Servers fortfahren. Verwende dafür den folgenden Befehl:
+Installiere nun den SSH-Server mit folgendem Befehl:
 ```
 yum install openssh-server
 ```
 
-Sobald die Installation abgeschlossen ist, kannst du den SSH-Serverdienst mit dem folgenden Befehl starten:
+Nach der Installation kannst du den SSH-Server mit diesem Befehl starten:
 ```
 systemctl start sshd
 ```
 
-Vergewissere dich, dass du den Dienst so konfigurierst, dass er beim Systemstart automatisch gestartet wird. Das kannst du mit dem folgenden Befehl tun:
+Damit der Dienst beim Systemstart automatisch startet, aktiviere ihn mit:
 ```
 systemctl enable sshd
 ```
 
-## Root Anmeldung aktivieren
+## Root-Login aktivieren
 
-Um den Root Anmeldung zu aktivieren, musst du die openssh-Konfigurationsdatei bearbeiten. In dieser Anleitung werden wir "nano" als Editor verwenden.
+Um den Root-Login zu erlauben, musst du die OpenSSH-Konfigurationsdatei bearbeiten. In dieser Anleitung verwenden wir den Editor "nano".
 
 :::info
-Falls "nano" noch nicht installiert ist, muss es zuerst installiert werden. Verwende dazu den folgenden Befehl: `yum install nano`
+Falls "nano" noch nicht installiert ist, musst du es zuerst installieren. Das geht mit: `yum install nano`
 :::
 
-Öffne die Konfigurationsdatei, indem du sie ausführst:
+Öffne die Konfigurationsdatei mit:
 ```
 nano /etc/ssh/sshd_config 
 ```
 
-Verwende die Pfeiltasten zum Navigieren und suche nach der folgenden Zeile:
+Navigiere mit den Pfeiltasten zu folgender Zeile:
 ```
 #PermitRootLogin prohibit-password
 ```
 
-Ändere dies in den folgenden Text, der den Remote-Root-Login ermöglicht:
+Ändere sie zu:
 ```
 PermitRootLogin yes
 ```
 
-Starte schließlich den SSH-Server neu, um die neue Konfiguration mit dem folgenden Befehl zu übernehmen:
+Starte abschließend den SSH-Server neu, damit die Änderungen wirksam werden:
 ```
 systemctl restart sshd
 ```
@@ -85,53 +86,53 @@ systemctl restart sshd
 <TabItem value="Debian" label="Debian">
 
 :::info
-Wenn du den SSH-Server neu installieren willst, musst du ihn zuerst deinstallieren. Das kannst du mit dem Befehl: `apt remove openssh`.
+Wenn du den SSH-Server neu installieren möchtest, deinstalliere ihn vorher. Das geht mit dem Befehl: `apt remove openssh`.
 :::
 
-Bevor du mit der Installation beginnst, stelle sicher, dass das System auf dem neuesten Stand ist. Führe dazu folgenden Befehl aus:
+Bevor du den SSH-Server installierst, stelle sicher, dass dein System auf dem neuesten Stand ist. Führe dazu folgenden Befehl aus:
 ```
 apt update
 ```
 
-Nun kannst du mit der Installation des SSH-Servers fortfahren. Verwende dafür den folgenden Befehl:
+Installiere nun den SSH-Server mit folgendem Befehl:
 ```
 apt install openssh-server
 ```
 
-Sobald die Installation abgeschlossen ist, kannst du den SSH-Serverdienst mit dem folgenden Befehl starten:
+Nach der Installation kannst du den SSH-Server mit diesem Befehl starten:
 ```
 systemctl start sshd
 ```
 
-Vergewissere dich, dass du den Dienst so konfigurierst, dass er beim Systemstart automatisch gestartet wird. Das kannst du mit dem folgenden Befehl tun:
+Damit der Dienst beim Systemstart automatisch startet, aktiviere ihn mit:
 ```
 systemctl enable sshd
 ```
 
-## Root Anmeldung aktivieren
+## Root-Login aktivieren
 
-Um den Root Anmeldung zu aktivieren, musst du die openssh-Konfigurationsdatei bearbeiten. In dieser Anleitung werden wir "nano" als Editor verwenden.
+Um den Root-Login zu erlauben, musst du die OpenSSH-Konfigurationsdatei bearbeiten. In dieser Anleitung verwenden wir den Editor "nano".
 
 :::info
-Falls "nano" noch nicht installiert ist, muss es zuerst installiert werden. Verwende dazu den folgenden Befehl: `apt install nano`
+Falls "nano" noch nicht installiert ist, musst du es zuerst installieren. Das geht mit: `apt install nano`
 :::
 
-Öffne die Konfigurationsdatei, indem du sie ausführst:
+Öffne die Konfigurationsdatei mit:
 ```
 nano /etc/ssh/sshd_config 
 ```
 
-Verwende die Pfeiltasten zum Navigieren und suche nach der folgenden Zeile:
+Navigiere mit den Pfeiltasten zu folgender Zeile:
 ```
 #PermitRootLogin prohibit-password
 ```
 
-Ändere dies in den folgenden Text, der den Remote-Root-Login ermöglicht:
+Ändere sie zu:
 ```
 PermitRootLogin yes
 ```
 
-Starte schließlich den SSH-Server neu, um die neue Konfiguration mit dem folgenden Befehl zu übernehmen:
+Starte abschließend den SSH-Server neu, damit die Änderungen wirksam werden:
 ```
 systemctl restart sshd
 ```
@@ -140,53 +141,53 @@ systemctl restart sshd
 <TabItem value="Ubuntu" label="Ubuntu">
 
 :::info
-Wenn du den SSH-Server neu installieren willst, musst du ihn zuerst deinstallieren. Das kannst du mit dem Befehl: `apt remove openssh`.
+Wenn du den SSH-Server neu installieren möchtest, deinstalliere ihn vorher. Das geht mit dem Befehl: `apt remove openssh`.
 :::
 
-Bevor du mit der Installation beginnst, stelle sicher, dass das System auf dem neuesten Stand ist. Führe dazu folgenden Befehl aus:
+Bevor du den SSH-Server installierst, stelle sicher, dass dein System auf dem neuesten Stand ist. Führe dazu folgenden Befehl aus:
 ```
 apt update
 ```
 
-Nun kannst du mit der Installation des SSH-Servers fortfahren. Verwende dafür den folgenden Befehl:
+Installiere nun den SSH-Server mit folgendem Befehl:
 ```
 apt install openssh-server
 ```
 
-Sobald die Installation abgeschlossen ist, kannst du den SSH-Serverdienst mit dem folgenden Befehl starten:
+Nach der Installation kannst du den SSH-Server mit diesem Befehl starten:
 ```
 systemctl start sshd
 ```
 
-Vergewissere dich, dass du den Dienst so konfigurierst, dass er beim Systemstart automatisch gestartet wird. Das kannst du mit dem folgenden Befehl tun:
+Damit der Dienst beim Systemstart automatisch startet, aktiviere ihn mit:
 ```
 systemctl enable sshd
 ```
 
-## Root Anmeldung aktivieren
+## Root-Login aktivieren
 
-Um den Root Anmeldung zu aktivieren, musst du die openssh-Konfigurationsdatei bearbeiten. In dieser Anleitung werden wir "nano" als Editor verwenden.
+Um den Root-Login zu erlauben, musst du die OpenSSH-Konfigurationsdatei bearbeiten. In dieser Anleitung verwenden wir den Editor "nano".
 
 :::info
-Falls "nano" noch nicht installiert ist, muss es zuerst installiert werden. Verwende dazu den folgenden Befehl: `apt install nano`
+Falls "nano" noch nicht installiert ist, musst du es zuerst installieren. Das geht mit: `apt install nano`
 :::
 
-Öffne die Konfigurationsdatei, indem du sie ausführst:
+Öffne die Konfigurationsdatei mit:
 ```
 nano /etc/ssh/sshd_config 
 ```
 
-Verwende die Pfeiltasten zum Navigieren und suche nach der folgenden Zeile:
+Navigiere mit den Pfeiltasten zu folgender Zeile:
 ```
 #PermitRootLogin prohibit-password
 ```
 
-Ändere dies in den folgenden Text, der den Remote-Root-Login ermöglicht:
+Ändere sie zu:
 ```
 PermitRootLogin yes
 ```
 
-Starte schließlich den SSH-Server neu, um die neue Konfiguration mit dem folgenden Befehl zu übernehmen:
+Starte abschließend den SSH-Server neu, damit die Änderungen wirksam werden:
 ```
 systemctl restart sshd
 ```
@@ -195,59 +196,57 @@ systemctl restart sshd
 <TabItem value="Fedora" label="Fedora">
 
 :::info
-Wenn du den SSH-Server neu installieren willst, musst du ihn zuerst deinstallieren. Das kannst du mit dem Befehl: `dnf remove openssh`.
+Wenn du den SSH-Server neu installieren möchtest, deinstalliere ihn vorher. Das geht mit dem Befehl: `dnf remove openssh`.
 :::
 
-Bevor du mit der Installation beginnst, stelle sicher, dass das System auf dem neuesten Stand ist. Führe dazu folgenden Befehl aus:
+Bevor du den SSH-Server installierst, stelle sicher, dass dein System auf dem neuesten Stand ist. Führe dazu folgenden Befehl aus:
 ```
 dnf update
 ```
 
-Nun kannst du mit der Installation des SSH-Servers fortfahren. Verwende dafür den folgenden Befehl:
+Installiere nun den SSH-Server mit folgendem Befehl:
 ```
 dnf install openssh-server
 ```
 
-Sobald die Installation abgeschlossen ist, kannst du den SSH-Serverdienst mit dem folgenden Befehl starten:
+Nach der Installation kannst du den SSH-Server mit diesem Befehl starten:
 ```
 systemctl start sshd
 ```
 
-Vergewissere dich, dass du den Dienst so konfigurierst, dass er beim Systemstart automatisch gestartet wird. Das kannst du mit dem folgenden Befehl tun:
+Damit der Dienst beim Systemstart automatisch startet, aktiviere ihn mit:
 ```
 systemctl enable sshd
 ```
 
-## Root Anmeldung aktivieren
+## Root-Login aktivieren
 
-Um den Root Anmeldung zu aktivieren, musst du die openssh-Konfigurationsdatei bearbeiten. In dieser Anleitung werden wir "nano" als Editor verwenden.
+Um den Root-Login zu erlauben, musst du die OpenSSH-Konfigurationsdatei bearbeiten. In dieser Anleitung verwenden wir den Editor "nano".
 
 :::info
-Falls "nano" noch nicht installiert ist, muss es zuerst installiert werden. Verwende dazu den folgenden Befehl: `dnf install nano`
+Falls "nano" noch nicht installiert ist, musst du es zuerst installieren. Das geht mit: `dnf install nano`
 :::
 
-Öffne die Konfigurationsdatei, indem du sie ausführst:
+Öffne die Konfigurationsdatei mit:
 ```
-nano /etc/ssh/sshd_config 
+sudo nano /etc/ssh/sshd_config 
 ```
 
-Verwende die Pfeiltasten zum Navigieren und suche nach der folgenden Zeile:
+Navigiere mit den Pfeiltasten zu folgender Zeile:
 ```
 #PermitRootLogin prohibit-password
 ```
 
-Ändere dies in den folgenden Text, der den Remote-Root-Login ermöglicht:
+Ändere sie zu:
 ```
 PermitRootLogin yes
 ```
 
-Starte schließlich den SSH-Server neu, um die neue Konfiguration mit dem folgenden Befehl zu übernehmen:
+Starte abschließend den SSH-Server neu, damit die Änderungen wirksam werden:
 ```
 systemctl restart sshd
 ```
 </TabItem>
 </Tabs>
 
-Du hast nun erfolgreich den SSH-Dienst auf deinem Server installiert und kannst nun über SSH auf deinen Server zugreifen.
-
-<InlineVoucher />
+Du hast jetzt erfolgreich den SSH-Dienst auf deinem Server installiert und kannst dich nun per SSH mit deinem Server verbinden.

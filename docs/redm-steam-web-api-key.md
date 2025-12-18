@@ -1,7 +1,7 @@
 ---
 id: redm-steam-web-api-key
 title: "RedM: Steam Web API Key setup"
-description: Information on setting up a Steam Web API key from ZAP-Hosting - ZAP-Hosting.com documentation
+description: "Discover how to obtain and activate a Steam Web API key for RedM to enable authentication and enhance your server setup → Learn more now"
 sidebar_label: Steam Web API Key
 services:
   - gameserver-redm

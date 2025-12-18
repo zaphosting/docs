@@ -1,7 +1,7 @@
 ---
 id: foundry-configuration
 title: "Foundry: Server Configuration"
-description: Information about configuring a Foundry game server from ZAP-Hosting - ZAP-Hosting.com documentation
+description: "Explore how to customize Foundry server settings for optimal gameplay and server management → Learn more now"
 sidebar_label: Server Configuration
 services:
   - gameserver-foundry

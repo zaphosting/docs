@@ -1,7 +1,7 @@
 ---
 id: domain-migrate-to-zap
 title: "Migrate to ZAP: Domain"
-description: Information on how to transfer your domain from another provider to ZAP-Hosting - ZAP-Hosting.com Documentation
+description: "Discover how to seamlessly transfer your domain to ZAP-Hosting and enjoy easy management and reliable hosting services → Learn more now"
 sidebar_label: Domain
 services:
   - domain
@@ -13,6 +13,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Are you new and interested in ZAP-Hosting's products? Then you are in the right place. First of all, welcome to ZAP-Hosting! We are pleased that you are interested in our services and want to learn on how to transfer your existing domain from another provider to us. This guide will inform you of the general steps you need to take to successfully transfer your domain to us.
 
+<InlineVoucher />
 
 ## Advantages
 

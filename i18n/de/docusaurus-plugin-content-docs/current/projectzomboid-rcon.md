@@ -1,7 +1,7 @@
 ---
 id: projectzomboid-rcon
 title: "Project Zomboid: RCON"
-description: "Erfahre, wie du RCON für Project Zomboid verwendest – ZAP-Hosting Dokumentation"
+description: "Entdecke, wie du Project Zomboid Gameserver sicher aus der Ferne verwaltest und steuerst – ganz ohne Ingame-Zugang → Jetzt mehr erfahren"
 sidebar_label: RCON
 services:
   - gameserver-projectzomboid
@@ -12,62 +12,61 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
 
-RCON (Remote Console) ist ein Netzwerkprotokoll zur Fernsteuerung von Gameservern. Es ermöglicht den Zugriff auf die Serverkonsole, ohne dass du direkt auf die Serverumgebung zugreifen musst. Dadurch kannst du administrative Befehle ausführen, Konfigurationsparameter anpassen oder den Serverstatus abfragen.
+RCON (Remote Console) ist ein Netzwerkprotokoll, mit dem du Gameserver aus der Ferne steuern kannst. Es erlaubt den Zugriff auf die Serverkonsole, ohne direkt mit der Serverumgebung interagieren zu müssen. So kannst du administrative Befehle ausführen, Konfigurationsparameter anpassen oder Serverstatusinformationen abrufen.
 
-In Project Zomboid wird RCON verwendet, um serverseitige Befehle auszuführen, zum Beispiel zur Verwaltung von Spielern, zur Änderung von Spieleinstellungen oder zum Abrufen von Diagnosedaten. Die Verbindung ist durch ein Passwort geschützt und erfolgt über einen definierten Port, der über kompatible RCON-Clients erreichbar ist.
+Bei Project Zomboid wird RCON genutzt, um serverseitige Befehle auszuführen, wie z.B. Spieler verwalten, Gameplay-Einstellungen ändern oder Diagnoseausgaben abrufen. Die Verbindung ist durch ein Passwort geschützt und läuft über einen festgelegten Port, der über kompatible RCON-Clients erreichbar ist.
 
-Ein wesentlicher Vorteil von RCON ist, dass du den Server verwalten kannst, **ohne selbst im Spiel verbunden zu sein**. Administratoren können Project Zomboid über externe Tools, Kommandozeilen-Interfaces oder Web-Dashboards überwachen und steuern, flexibel und ortsunabhängig.
+Ein großer Vorteil von RCON ist, dass du den Server **verwalten kannst, ohne als Spieler im Spiel verbunden zu sein**. Server-Admins können Project Zomboid bequem über externe Tools, Kommandozeilen oder Web-Dashboards überwachen und steuern – perfekt für flexibles und komfortables Remote-Management.
 
 <InlineVoucher />
 
-
-
 ## Konfiguration
 
-Bevor RCON verwendet werden kann, muss es aktiviert und konfiguriert werden. Dies erfolgt über die Konfigurationsdatei, die du in der Gameserververwaltung unter **Configs** findest. In der Datei `servertest.ini` müssen folgende Einträge ergänzt oder angepasst werden:
+Bevor du RCON nutzen kannst, muss es aktiviert und konfiguriert werden. Das machst du, indem du die Konfigurationsdatei unter **Configs** im Gameserver Control Panel bearbeitest. In der Datei `servertest.ini` müssen folgende Einträge hinzugefügt oder angepasst werden:
 
 ```cfg
 RCONPort=XXXXX
-RCONPassword=define-your-password
+RCONPassword=dein-passwort-hier
 ```
-
-Der zugewiesene RCON-Port ist ebenfalls in der **Portübersicht** unten auf der Einstellungsseite zu finden und muss dort eingetragen sein.
-
+Den zugewiesenen RCON-Port findest du unten auf der Einstellungsseite in der Port-Übersicht, dieser muss dort auch angegeben werden.
 
 
-## Verbindung per RCON
 
-Um dich per RCON mit dem Project Zomboid Server zu verbinden, wird das Kommandozeilentool **rcon-cli** verwendet. Du kannst es aus dem offiziellen [GitHub-Repository](https://github.com/gorcon/rcon-cli) herunterladen. Nach dem Download und der lokalen Installation kann die Verbindung mit der IP-Adresse des Servers, dem RCON-Port und dem RCON-Passwort hergestellt werden.
+## Verbindung via RCON
 
-Den zugewiesenen Port findest du in der **Portübersicht** unten auf der Einstellungsseite in der Gameserververwaltung. Passwort und Port müssen mit den Werten übereinstimmen, die im Panel oder in der Konfigurationsdatei eingetragen sind. Verwende folgenden Befehl, um dich zu verbinden und direkt einen Befehl auszuführen:
+Um dich per RCON mit dem Project Zomboid Gameserver zu verbinden, nutzt du das Kommandozeilen-Tool **rcon-cli**. Du kannst es im offiziellen [GitHub Repository](https://github.com/gorcon/rcon-cli) herunterladen. Nach dem Download und der Installation auf deinem Rechner kannst du die Verbindung mit der Server-IP, dem RCON-Port und dem RCON-Passwort herstellen.
 
-```
+Den zugewiesenen Port findest du in der **Port-Übersicht** ganz unten auf der Einstellungsseite im Gameserver Dashboard. Passwort und Port müssen mit den Werten im Control Panel oder der Konfigurationsdatei übereinstimmen. Mit folgendem Befehl verbindest du dich und führst direkt einen Befehl aus:
+
+```bash
 rcon-cli -a <IP>:<PORT> -p <PASSWORD> command
 ```
 
 
 
-## RCON-Befehle
+## RCON Befehle
 
-Sobald die Verbindung über RCON besteht, können verschiedene administrative und diagnostische Befehle auf dem Project Zomboid Server ausgeführt werden. Die verfügbaren Befehle hängen von der Game-Engine ab, beinhalten aber typischerweise Aktionen zur Spielersteuerung, Statusabfragen und Serverkontrolle.
+Sobald du per RCON verbunden bist, kannst du verschiedene administrative und diagnostische Befehle auf dem Project Zomboid Gameserver ausführen. Die verfügbaren Befehle hängen von der Game-Engine ab, umfassen aber typischerweise Aktionen zur Spielerverwaltung, Statusabfragen und Serversteuerung.
 
-| Befehl                               | Beschreibung                                     |
-| ------------------------------------ | ------------------------------------------------ |
-| `/grantadmin <Benutzername>`         | Verleiht einem Spieler Adminrechte               |
-| `/removeadmin <Benutzername>`        | Entzieht einem Spieler Adminrechte               |
-| `/save`                              | Speichert die Welt manuell                       |
-| `/kickuser <Benutzername>`           | Kickt einen Spieler vom Server                   |
-| `/banuser <Benutzername>`            | Bannt einen Spieler                              |
-| `/unbanuser <Benutzername>`          | Hebt den Bann eines Spielers auf                 |
-| `/adduser <Benutzername> <Passwort>` | Erstellt einen neuen Benutzer mit Passwort       |
-| `/godmod <Benutzername>`             | Aktiviert oder deaktiviert God-Modus für Spieler |
-| `/teleport <Name1> <Name2>`          | Teleportiert Name1 zu Name2                      |
-| `/chopper`                           | Simuliert einen Helikopterüberflug               |
+| Befehl                          | Beschreibung                             |
+| -------------------------------- | --------------------------------------- |
+| `/grantadmin <username>`         | Vergibt Adminrechte an einen Spieler    |
+| `/removeadmin <username>`        | Entzieht einem Spieler Adminrechte      |
+| `/save`                          | Speichert die Welt manuell               |
+| `/kickuser <username>`           | Kickt einen Spieler vom Server           |
+| `/banuser <username>`            | Bannt einen Spieler                      |
+| `/unbanuser <username>`          | Entbannt einen Spieler                   |
+| `/adduser <username> <password>` | Erstellt einen neuen Nutzer mit Passwort |
+| `/godmod <username>`             | Schaltet Godmode für den angegebenen Nutzer an/aus |
+| `/teleport <Name1> <Name2>`      | Teleportiert Name1 zu Name2              |
+| `/chopper`                       | Simuliert einen Helikopter-Überflug      |
 
-## Abschluss
 
-RCON ist ein zentrales Werkzeug für die Fernadministration von Project Zomboid Gameservern. Es ermöglicht schnellen und direkten Zugriff auf administrative Funktionen und bietet gleichzeitig Zugriffsschutz durch Passwortauthentifizierung. Eine korrekte und sichere Konfiguration ist entscheidend, um die Stabilität des Servers zu gewährleisten und unbefugten Zugriff zu verhindern.
 
-Für weitere Fragen oder Hilfe zögere bitte nicht, unser Support-Team zu kontaktieren, das dir täglich zur Verfügung steht! 🙂
+## Fazit
+
+RCON ist ein zentrales Tool für die Remote-Administration von Project Zomboid Gameservern. Es ermöglicht schnellen und direkten Zugriff auf administrative Funktionen und bietet durch Passwortschutz eine sichere Zugangskontrolle. Eine korrekte und sichere Konfiguration ist entscheidend, um die Serverstabilität zu gewährleisten und unbefugten Zugriff zu verhindern.
+
+Bei Fragen oder wenn du Hilfe brauchst, steht dir unser Support-Team täglich zur Seite! 🙂
 
 <InlineVoucher />

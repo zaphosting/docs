@@ -1,7 +1,7 @@
 ---
 id: dedicated-linux-rsync
 title: "Dedicated Server: Backing up Linux servers with Rsync"
-description: Information on how to make backups of on your Linux Dedicated Server from ZAP-Hosting with Rsync - ZAP-Hosting.com documentation
+description: "Discover how to create efficient local and remote backups with Rsync for reliable data synchronization and protection → Learn more now"
 sidebar_label: Create Backups with Rsync
 services:
   - dedicated
@@ -13,7 +13,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Backups can be made with the tool Rsync. They can be copied on the local system itself to another directory/drive or to a remote system.  
 
-<InlineVoucher />
+
 
 ## Copy data to another local directory or drive:
 
@@ -183,4 +183,4 @@ Every day at 3 a.m. the command is executed and a backup is created.
 </TabItem>
 </Tabs>
 
-<InlineVoucher />
+

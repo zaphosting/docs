@@ -1,7 +1,7 @@
 ---
 id: webspace-mybb
-title: "Webspace: MyBB Forensoftware installieren"
-description: Informationen, wie du die MyBulletinBoard Forensoftware auf deinen Webspace von ZAP-Hosting installieren kannst - ZAP-Hosting.com Dokumentation
+title: "Webspace: MyBB Forum-Software installieren"
+description: "Entdecke, wie du dein eigenes MyBB Forum einrichtest und startest, um eine coole Online-Community aufzubauen → Jetzt mehr erfahren"
 sidebar_label: MyBB installieren
 services:
   - webspace
@@ -11,81 +11,68 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
 
-MyBB, ursprünglich MyBulletinBoard, ist eine freie und quelloffene Forensoftware, welche von der MyBB Group entwickelt wird. In dieser Anleitung erklären wir, wie diese Forensoftware auf unserem Webspace Produkt installiert werden kann.
+MyBB, früher MyBulletinBoard, ist eine kostenlose und Open-Source Forum-Software, entwickelt von der MyBB Group. In dieser Anleitung zeigen wir dir, wie du diese Forum-Software auf unserem Webspace-Produkt installierst.
 
 <InlineVoucher />
 
 ## Vorbereitung
 
-Bevor die eigentliche Installation von MyBB durchgeführt werden kann, müssen gewisse Vorbereitungen vorgenommen werden. Dazu gehört das Besorgen der Forensoftware, die Einrichtung der zu verwendenden Datenbank und der Mailserver (E-Mail Adresse).
-
-
+Bevor die eigentliche Installation von MyBB starten kann, müssen ein paar Vorbereitungen getroffen werden. Dazu gehört das Besorgen der Forum-Software, das Einrichten der Datenbank und des Mailservers (E-Mail-Adresse).
 
 **Software**
 
-Die Forensoftware kann auf der offiziellen Webseite von MyBB heruntergeladen werden. Der Download dazu ist hier zu finden: [MyBB](https://mybb.com/download/)
+Die Forum-Software kannst du dir von der offiziellen MyBB-Webseite herunterladen. Den Download findest du hier: [MyBB](https://mybb.com/download/)
 
-![Bildschirmfoto vom 2022-05-15 23-16-59](https://screensaver01.zap-hosting.com/index.php/s/n6HkkQmxSyJ2fek/preview)
+![Bildschirmfoto vom 2022-05-15 23-16-59](https://screensaver01.zap-hosting.com/index.php/s/s8kbtNFq6c79SoH/preview)
 
-Beim Download erhält man eine gepackte Datei, welche auf dem lokalen Computer entpackt werden muss. Darin befindet sich dann ein Ordner mit dem Namen **Upload**. Dessen Inhalt wird benötigt und muss entweder per **FTP oder Datei-Manager** hochgeladen werden. Unter **Websites & Domains** bei **FTP-Access** kannst du einen FTP-Benutzer anlegen.
+Der Download enthält eine gepackte Datei, die du auf deinem lokalen Rechner entpacken musst. Darin findest du einen Ordner namens **Upload**. Dessen Inhalt wird gebraucht und muss per **FTP oder Dateimanager** hochgeladen werden. Unter **Websites & Domains** bei **FTP-Zugang** kannst du einen FTP-User anlegen.
 
+Öffnest du den Dateimanager im Pleskpanel, navigierst du in das Verzeichnis **httpdocs** und lädst dort die Dateien der Forum-Software hoch.
 
-Nach dem Öffnen des Datei-Managers im Pleskpanel, navigieren wir in das **httpdocs** Verzeichnis und laden im Anschluss die Dateien der Forensoftware hoch.
-
-![](https://screensaver01.zap-hosting.com/index.php/s/MczCqJsjgifFd5G/preview)
-
+![en-file](https://screensaver01.zap-hosting.com/index.php/s/x9oWpWCzrtB87e7/preview)
 
 **Datenbank**
 
-Als Nächstes muss die Datenbank angelegt werden, in der später alle Informationen vom Forum gespeichert werden sollen. Klicke dazu wieder auf **Websites & Domains** und dann auf **Datenbanken**. Dort klicken wir dann auf Datenbank hinzufügen und legen eine Datenbank an: 
+Als nächstes muss die Datenbank erstellt werden, in der später alle Infos des Forums gespeichert werden. Klicke dazu wieder auf **Websites & Domains** und dann auf **Datenbanken**. Dort klickst du auf Datenbank hinzufügen und erstellst eine neue Datenbank:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/7X2wZFSJeBTsyqG/preview)
+![en-db](https://screensaver01.zap-hosting.com/index.php/s/f3dwjM5qxQQpzd6/preview)
 
-Im Anschluss auf **OK** klicken und schon wurde die Datenbank hinzugefügt.
+Klicke auf **OK** und die Datenbank wird angelegt.
 
+**Mailserver (E-Mail-Adresse)**
 
-
-**Mailserver (E-Mail Adresse)**
-
-Um einen Account beim Forum zu registrieren wird ein Mailserver mit einer E-Mail-Adresse benötigt, damit die Registrierungsmails auch an die Benutzer verschickt werden können. Eine Anleitung zur Einrichtung solch einer E-Mail-Adresse findest du hier: [E-Mails verschicken](webspace-plesk-sendmail.md)
-
-
+Für die Registrierung eines Accounts im Forum wird ein Mailserver mit einer E-Mail-Adresse benötigt, damit die Registrierungs-Mails an die User gesendet werden können. Eine Anleitung zum Einrichten einer solchen E-Mail-Adresse findest du hier: [E-Mails versenden](webspace-plesk-sendmail.md)
 
 ## Installation
 
-Wenn alle Schritte von der Vorbereitung erfüllt wurden, dann kann mit der eigentlichen Einrichtung von MyBB begonnen werden. Dafür muss nun im Internetbrowser die Webseite aufgerufen werden. Das sieht dann so aus: 
+Wenn alle Schritte aus der Vorbereitung erledigt sind, kann die eigentliche MyBB-Installation starten. Dafür rufst du die Webseite jetzt im Browser auf. Das sollte dann so aussehen:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/q6yBdx9zdYza5BP/preview)
+![mybbinstall](https://screensaver01.zap-hosting.com/index.php/s/DzgRZMBFotTgsXZ/preview)
 
+Dort müssen wir nun während der Installation 9 Kategorien konfigurieren. Die Konfiguration prüft, ob alle Voraussetzungen erfüllt sind, richtet die Datenbank und Forum-Software ein und so weiter. Zuerst musst du entscheiden, ob anonyme Statistiken an MyBB gesendet werden sollen oder nicht. Danach musst du den Lizenzbedingungen zustimmen.
 
-Dort angelangt, müssen wir bei der Einrichtung jetzt die 9 Kategorien konfigurieren. Während der Konfiguration wird geprüft, ob alle Voraussetzungen erfüllt wurden, die Datenbank und Forensoftware wird konfiguriert und so weiter. Zu Beginn muss allerdings erstmal festgelegt werden, ob anonyme Statistiken an MyBB weitergeleitet werden soll oder nicht. Im Anschluss müssen dann ebenfalls noch den Lizenzbestimmungen noch zugestimmt werden. 
+Anschließend wird eine Übersicht der benötigten Systemvoraussetzungen angezeigt. Dazu gehören PHP-Version, Speicher usw. Der Webspace sollte standardmäßig schon so konfiguriert sein, dass alle Voraussetzungen erfüllt sind.
 
-Anschließend sollte eine Übersicht aller notwendigen Voraussetzungen angezeigt werden. Standardmäßig sollten das Webspace bereits so konfiguriert sein, dass diese alle erfüllt werden.
+![install2](https://screensaver01.zap-hosting.com/index.php/s/fTJQGRADn5SF62C/preview)
 
+Sollte eine Voraussetzung nicht erfüllt sein, wende dich bitte an den Support. Ansonsten kannst du auf **Weiter** klicken und mit der Installation fortfahren. Jetzt musst du die Datenbank konfigurieren, die du vorher erstellt hast. Die Datenbankdaten der erstellten Datenbank müssen hier eingetragen werden:
 
-![install2](https://screensaver01.zap-hosting.com/index.php/s/E4gSmm4KrzFJxPK/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/GaRZiSizcYCMX3Z/preview)
 
-Sollten irgendwelche Voraussetzungen nicht erfüllt werden, dann melde dich diesbezüglich bitte im Support. Ansonsten kannst du einfach auf **Weiter** klicken und die Einrichtung fortsetzen. Jetzt steht die Konfiguration der Datenbank an, welche bereits im Voraus erstellt wurde. Die Datenbankinformationen von der erstellten Datenbank müssen nun dort eingetragen werden: 
+Die Datenbank wird danach eingerichtet. Das kann einen Moment dauern. Danach werden die Standard-Daten und Themes eingespielt. Hier musst du einfach nur auf **Weiter** klicken.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/ySCZWiPwWFWsFD2/preview)
+Im nächsten Schritt geht es um die allgemeine Konfiguration. Hier kannst du den Namen der Webseite, des Forums, die URL und mehr festlegen:
 
+![install3](https://screensaver01.zap-hosting.com/index.php/s/asEA4KqtZGaN65A/preview)
 
-Die Datenbank wird im Anschluss konfiguriert. Das kann einen Augenblick dauern. Im Anschluss erfolgt dann die Implementierung der Standard Daten und Designs. Hier musst du ebenfalls nur auf **Weiter** klicken.
+Zuletzt muss noch ein allgemeiner Administrator-Account erstellt werden, bevor die Installation abgeschlossen werden kann.
 
+![Install4](https://screensaver01.zap-hosting.com/index.php/s/3T6NMLYyMnb4pja/preview)
 
-Darauffolgend kommen wir dann schon zur allgemeinen Konfiguration. Hier kann nun der Name der, Website, Forum, URL und mehr definiert werden:
+Wenn du das erledigt hast und alles andere erfolgreich konfiguriert wurde, solltest du folgende Meldung sehen und dein Forum aufrufen können:
 
+![](https://screensaver01.zap-hosting.com/index.php/s/9N2jBCbzEYe2iyn/preview)
 
-![install3](https://screensaver01.zap-hosting.com/index.php/s/x8D4wQCJ9PwgqMq/preview)
-
-Zu guter Letzt wird nun noch ein allgemeiner Administrator Account angelegt, bevor die Einrichtung dann endgültig abgeschlossen werden kann. 
-
-![Install4](https://screensaver01.zap-hosting.com/index.php/s/FgejewJkTxDC5j2/preview)
-
-Wenn du das erledigt hast und auch ansonsten alles erfolgreich konfiguriert wurde, dann solltest du im Anschluss folgende Meldung sehen und dein Forum ebenfalls aufrufen können:
-
-![](https://screensaver01.zap-hosting.com/index.php/s/e8btBkHP9Cd5nxt/preview)
-
-![](https://screensaver01.zap-hosting.com/index.php/s/kHTSpaESrJB7MMP/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/g9iecMjiDX4GoqP/preview)
 
 <InlineVoucher />

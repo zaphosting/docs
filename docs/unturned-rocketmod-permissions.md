@@ -1,7 +1,7 @@
 ---
 id: unturned-rocketmod-permissions
 title: "Unturned: Adjusting server permissions"
-description: Information on how to customise the permissions for your Unturned Rocketmod server from ZAP-Hosting - ZAP-Hosting.com documentation
+description: "Understand how to manage and customize server permissions effectively for better control and security → Learn more now"
 sidebar_label: Adjust Permissions
 services:
   - gameserver-unturned

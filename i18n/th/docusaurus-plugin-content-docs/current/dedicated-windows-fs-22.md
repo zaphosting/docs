@@ -1,0 +1,95 @@
+---
+id: dedicated-windows-fs-22
+title: "เซิร์ฟเวอร์เฉพาะ: การตั้งค่า Farming Simulator 2022 Dedicated Server บน Windows"
+description: "ค้นหาวิธีตั้งค่า Farming Simulator Dedicated Server 2022 บน Windows VPS หรือเซิร์ฟเวอร์เฉพาะของคุณ → เรียนรู้เพิ่มเติมตอนนี้"
+sidebar_label: Farming Simulator 2022
+services:
+  - dedicated
+---
+
+import InlineVoucher from '@site/src/components/InlineVoucher';
+
+## แนะนำ
+
+คุณมี Windows VPS หรือเซิร์ฟเวอร์เฉพาะและต้องการติดตั้งบริการ Farming Simulator Dedicated Server 2022 บนเครื่องใช่ไหม? คุณมาถูกที่แล้ว ในคู่มือนี้เราจะอธิบายขั้นตอนการติดตั้งบริการนี้บนเซิร์ฟเวอร์ของคุณทีละขั้นตอน
+
+
+
+## การเตรียมตัว
+ต้องใช้เซิร์ฟเวอร์ที่รัน Windows Server 2016/2019 โดยมี CPU อย่างน้อย 4 คอร์ ที่ความเร็ว 2.4 GHz (AMD/Intel) และ RAM อย่างน้อย 2GB (DDR3/4) พร้อมพื้นที่ว่างบนดิสก์ 6GB (SSD หรือดีกว่า แนะนำ) เซิร์ฟเวอร์ต้องใช้สถาปัตยกรรม 64 บิต  
+นอกจากนี้ต้องมี GameLicense ของตัวเอง (ไม่ใช่เวอร์ชัน Steam) และที่อยู่ IPv4 สาธารณะ GPU หรือการ์ดเสียงไม่จำเป็นสำหรับ Dedicated Server  
+ขึ้นอยู่กับว่าคุณปรับแต่งเซิร์ฟเวอร์เฉพาะมากแค่ไหน เช่น เพิ่มม็อดหรือ DLC อาจต้องใช้ทรัพยากรมากขึ้น  
+
+
+## ขั้นตอนที่ 1 ซื้อไลเซนส์ดิจิทัล
+
+ต้องมีเวอร์ชันดิจิทัลของ Farming Simulator 2022 ซึ่งไม่สามารถใช้เวอร์ชัน Steam ได้  
+สามารถซื้อเวอร์ชันดิจิทัลได้ที่ [เว็บไซต์ FarmingSimulator](https://www.farming-simulator.com/buy-now.php?lang=de&country=de&platform=pcdigital)  
+หลังจากซื้อเวอร์ชันดิจิทัลแล้ว สามารถดาวน์โหลด FarmingSimulator ออนไลน์ได้โดยคลิกลิงก์นี้ [Link](https://eshop.giants-software.com/downloads.php) จากอีเมลที่คุณได้รับจาก Giants  
+:::info
+สำคัญ: ในอีเมลจะมี GameKey ซึ่งจำเป็นสำหรับการดาวน์โหลดและการเปิดใช้งานการติดตั้งในภายหลัง  
+:::
+
+![](https://screensaver01.zap-hosting.com/index.php/s/MXkbf8pNSYJAmGt/preview)
+
+## ขั้นตอนที่ 2 ดาวน์โหลด Farming Simulator ลงบนเซิร์ฟเวอร์ Windows ของคุณโดยตรง
+
+เชื่อมต่อผ่าน [Initial Access (RDP)](vserver-windows-userdp.md) ไปยังเซิร์ฟเวอร์ Windows ของคุณ หลังจากเชื่อมต่อแล้ว เปิดเบราว์เซอร์และไปที่ [ลิงก์](https://eshop.giants-software.com/downloads.php) จากอีเมลอีกครั้ง จากนั้นใส่ GameKey ของคุณและเลือกดาวน์โหลดสำหรับ Windows8/10  
+
+![](https://screensaver01.zap-hosting.com/index.php/s/wDa758WS8aKDBwE/preview)
+
+ไฟล์จะถูกดาวน์โหลดและควรอยู่ในโฟลเดอร์ดาวน์โหลด (โฟลเดอร์ดาวน์โหลดอาจแตกต่างกัน)
+
+![](https://screensaver01.zap-hosting.com/index.php/s/3KZ9wstGSz6JTke/preview)
+
+ดับเบิลคลิกที่ไฟล์เพื่อเปิดและรัน Setup.exe  
+จากนั้นอ่านข้อกำหนดการใช้งาน (TOS) และยืนยัน หลังจากนั้นสามารถติดตั้งแบบ Standard หรือ Custom ได้ โดยปกติ Standard ก็เพียงพอ  
+สุดท้ายคลิกติดตั้งและ FarmingSimulator 2022 จะถูกติดตั้ง ซึ่งอาจใช้เวลาสักครู่  
+
+![](https://screensaver01.zap-hosting.com/index.php/s/A4daMGF35a6aCj4/preview)
+
+เมื่อการติดตั้งเสร็จสิ้น จะมีข้อความแจ้งเตือนขึ้นมา ให้กดยืนยันด้วย "Finish"  
+
+![](https://screensaver01.zap-hosting.com/index.php/s/EWcaeSD8HacP8je/preview)
+
+การติดตั้งพื้นฐานเสร็จสมบูรณ์แล้ว  
+
+## ขั้นตอนที่ 3 เปิดใช้งานเกมและตั้งค่าเซิร์ฟเวอร์เฉพาะ
+
+ตอนนี้ต้องเปิด Farming Simulator ขึ้นมา ควรมีช็อตคัตบนเดสก์ท็อป ถ้าไม่มีสามารถเปิดผ่านเมนู Windows ได้  
+ถ้ามีข้อผิดพลาดเกี่ยวกับ GPU หายไปหรืออื่น ๆ สามารถมองข้ามหรือปิดด้วย No/Cancel ได้ Farming Simulator แค่ต้องเปิดเพื่อใส่คีย์เท่านั้น  
+
+![](https://screensaver01.zap-hosting.com/index.php/s/5FcRkkxajWFN6D5/preview)
+
+![](https://screensaver01.zap-hosting.com/index.php/s/FXzNNeaBzAP794w/preview)
+
+ตอนนี้ต้องตั้งชื่อผู้ใช้และรหัสผ่าน หรือเปลี่ยน/อ่านค่าใน Config ของ Dedicated Server เพื่อให้สามารถล็อกอินเข้าเว็บอินเทอร์เฟซของ Dedicated Server ได้  
+ไฟล์ Config จะอยู่ในโฟลเดอร์ติดตั้งมาตรฐานที่  
+`C:\Program Files (x86)\Farming Simulator 2022` ชื่อไฟล์ `"dedicatedServer.xml"`  
+ข้อมูลล็อกอินสามารถตั้งค่าได้ตามใจชอบ  
+
+![](https://screensaver01.zap-hosting.com/index.php/s/LHkeCNSnEtE5Rd8/preview)
+
+## ขั้นตอนที่ 4 เริ่มต้น Farming Simulator 2022 Dedicated Server
+
+เพื่อเริ่มเซิร์ฟเวอร์เฉพาะ ให้รัน `"dedicatedServer.exe"` ในโฟลเดอร์เดียวกับที่มี `"dedicatedServer.xml"`  
+
+![](https://screensaver01.zap-hosting.com/index.php/s/43ZYGoNiE7npxDz/preview)
+
+จากนั้นเปิดเว็บอินเทอร์เฟซผ่าน `https://SERVER-IP:8080`  
+
+![](https://screensaver01.zap-hosting.com/index.php/s/RbfZFQZkRSX4okr/preview)
+
+ล็อกอินด้วยข้อมูลที่ตั้งไว้/อ่านได้จาก `"dedicatedServer.xml"`  
+การตั้งค่าต่อไปในเว็บอินเทอร์เฟซเข้าใจง่ายและทำได้ด้วยคลิกไม่กี่ครั้งตามความต้องการของคุณ  
+
+## ขั้นตอนที่ 5 ปลดล็อกพอร์ตในไฟร์วอลล์
+
+เซิร์ฟเวอร์ต้องเปิดให้เข้าถึงได้สาธารณะเพื่อเล่นกับเพื่อน ๆ ดังนั้นต้องเปิดพอร์ตของเซิร์ฟเวอร์ในไฟร์วอลล์ Windows  
+พอร์ต 10823 และ 8080 ต้องเปิดสำหรับโปรโตคอล TCP  
+10823 คือพอร์ตเซิร์ฟเวอร์เกม และ 8080 คือพอร์ตเว็บสำหรับเว็บอินเทอร์เฟซ พอร์ตเว็บต้องเปิดเฉพาะถ้าต้องการใช้งานเท่านั้น การจัดการยังสามารถทำได้เฉพาะในเครื่องผ่าน RDP  
+วิธีเปิดพอร์ตบน Windows: [Port Forwarding (Firewall)](vserver-windows-port.md)  
+
+หลังจากเปิดพอร์ตแล้ว เซิร์ฟเวอร์จะเข้าถึงได้สาธารณะถ้าเซิร์ฟเวอร์ถูกสตาร์ทแล้ว  
+
+

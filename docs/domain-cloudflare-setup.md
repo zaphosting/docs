@@ -1,7 +1,7 @@
 ---
 id: domain-cloudflare-setup
 title: "Domain: Setting up domain with Cloudflare"
-description: Information about setting up your domain from ZAP-Hosting to use it with Cloudflare - ZAP-Hosting.com documentation
+description: "Discover how to enhance your website security and performance using Cloudflare with ZAP-Hosting domains → Learn more now"
 sidebar_label: Cloudflare setup
 services:
   - domain
@@ -13,6 +13,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Cloudflare is a highly popular CDN (Content Delivery Network) provider which enchances your websites with improved security protection, DDoS mitigation and provides easy management via their dashboard. This guide will provide information about setting up your ZAP-Hosting domain to use it with Cloudflare through the use of ExpertDNS and adjusting nameservers.
 
+<InlineVoucher />
 
 ## Preparation
 In order to follow this guide, you will require:

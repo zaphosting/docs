@@ -1,7 +1,7 @@
 ---
 id: dedicated-windows-fs-19
 title: "Dedicated Server: Farming Simulator 2019 Dedicated Server Windows Setup"
-description: Information about setting up a Farming Simulator 2019 Dedicated Server on a Windows Dedicated Server from ZAP-Hosting - ZAP-Hosting.com documentation
+description: "Discover how to set up a Farming Simulator Dedicated Server 2019 on your Windows VPS or dedicated server quickly and efficiently → Learn more now"
 sidebar_label: Farming Simulator 2019
 services:
   - dedicated
@@ -13,7 +13,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Do you have a Windows VPS or dedicated server and you want to install the Farming Simulator Dedicated Server 2019 service on it? You are in the right place. In this guide, we will explain the step by step process of installing this service on your server.
 
-<InlineVoucher />
+
 
 ## Preparation
 
@@ -95,4 +95,4 @@ How to enable ports on Windows: [Port Forwarding (Firewall)](vserver-windows-por
 
 After the port release the server is publicly accessible, if it was started. 
 
-<InlineVoucher />
+

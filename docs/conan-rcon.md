@@ -1,7 +1,7 @@
 ---
 id: conan-rcon
 title: "Conan Exiles: RCON"
-description: "Learn how to use RCON for Conan Exiles - ZAP-Hosting Documentation"
+description: "Discover how to remotely manage and control Conan Exiles servers securely without in-game connection → Learn more now"
 sidebar_label: RCON
 services:
   - gameserver-conan

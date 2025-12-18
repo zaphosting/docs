@@ -1,7 +1,7 @@
 ---
 id: dedicated-linux-create-gameservice
 title: "Dedicated Server: Setup your Dedicated Game Server as a Linux Service"
-description: Information about setting up your dedicated game server as a Linux Service on a Linux Dedicated Server from ZAP-Hosting - ZAP-Hosting.com documentation
+description: "Discover how to set up and manage dedicated game server services on Linux for seamless automation and easy control → Learn more now"
 sidebar_label: Setup Linux Service
 services:
   - dedicated
@@ -13,7 +13,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Services are an integral part of Linux and refers to a process or application that runs in the background, either being a pre-defined task or an event-based task. This provides various benefits including automatic server launching on boot, automatic server updates, easy management and access to logs, plus much more! In this guide, we will explore the process of creating a service for your dedicated game server.
 
-<InlineVoucher />
+
 
 ## Preparation
 
@@ -149,4 +149,4 @@ You have now successfully setup a service for your dedicated game server. The se
 
 You have also learnt about the contents of the service file as well as how to manage the service using a variety of commands.
 
-<InlineVoucher />
+

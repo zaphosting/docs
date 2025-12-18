@@ -1,7 +1,7 @@
 ---
 id: vrising-configuration
 title: "V Rising: Server Configuration"
-description: Information about configuring a V Rising game server from ZAP-Hosting - ZAP-Hosting.com documentation
+description: "Explore how to customize V Rising server settings for optimal gameplay and control your server environment → Learn more now"
 sidebar_label: Server Configuration
 services:
   - gameserver-vrising

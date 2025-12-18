@@ -1,7 +1,7 @@
 ---
 id: dedicated-windows-nodejs
 title: "Dedicated Server: Setup Node.js on Windows"
-description: "Information on how to setup Node.js on your Windows Dedicated Server from ZAP-Hosting - ZAP-Hosting.com documentation"
+description: "Discover how to set up Node.js for scalable, real-time applications using a streamlined environment → Learn more now"
 sidebar_label: Install Node.js
 services:
   - dedicated
@@ -19,7 +19,7 @@ Node.js is a cross-platform, open-source JavaScript runtime environment that exe
 
 
 
-<InlineVoucher />
+
 
 
 

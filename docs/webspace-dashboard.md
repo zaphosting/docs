@@ -1,7 +1,7 @@
 ---
 id: webspace-dashboard
 title: "Webspace: Dashboard Overview"
-description: Information about the dashboard of a Webspace product from ZAP-Hosting - ZAP-Hosting.com Documentation
+description: "Discover how to efficiently manage and optimize your Webspace with a clear overview of all features and settings → Learn more now"
 sidebar_label: Dashboard
 services:
   - webspace

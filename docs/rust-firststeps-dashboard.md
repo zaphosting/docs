@@ -1,7 +1,7 @@
 ---
 id: rust-firststeps-dashboard
 title: "Rust: Dashboard Overview"
-description: Information about the dashboard of a Rust server from ZAP-Hosting - ZAP-Hosting.com documentation
+description: "Discover how to efficiently manage and optimize your Rust server with a clear overview of all key features and options → Learn more now"
 sidebar_label: Dashboard
 services:
   - gameserver-rust

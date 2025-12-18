@@ -1,8 +1,8 @@
 ---
 id: csgo-configuration
-title: "CSGO: Server Konfiguration"
-description: Informationen zu den Einstellungen und Konfigurationsmöglichkeiten deines CS GO-Servers von ZAP-Hosting - ZAP-Hosting.com Dokumentation
-sidebar_label: Server Konfiguration
+title: "CSGO: Server-Konfiguration"
+description: "Entdecke, wie du Counter-Strike-Server für verschiedene Spielmodi und Einstellungen konfigurierst, um das Gameplay zu optimieren → Jetzt mehr erfahren"
+sidebar_label: Server-Konfiguration
 services:
   - gameserver
 ---
@@ -10,40 +10,44 @@ services:
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
 :::warning Archivierte Anleitung
-Dieses Dokument wurde archiviert. Dokumente werden archiviert, wenn sie nicht mehr relevant, nicht mehr korrekt oder nicht mehr auf dem neuesten Stand sind. Es wurde aus den folgenden Gründen archiviert:
+Dieses Dokument wurde archiviert. Dokumente werden archiviert, wenn sie nicht mehr relevant, fehlerhaft oder veraltet sind. Es wurde aus folgenden Gründen archiviert:
 
-Grund: CS:GO wird nicht mehr aktiv angeboten und nicht mehr weiterentwickelt. CS2 ist der Nachfolger von CS:GO. Wir empfehlen den Umstieg auf CS2.
+Grund: CS:GO wird nicht mehr aktiv angeboten und nicht weiterentwickelt. CS2 ist der Nachfolger von CS:GO. Wir empfehlen den Wechsel zu CS2.
 ::::
+
+
 
 ## Einführung
 
-Counter-Strike Server lassen sich umfangreich konfigurieren. Grundlegende Einstellungen können über die **Server.cfg** Config und über die Einstellungsseite im Webinterface vorgenommen werden. Die erweitere Konfiguration erfolgt über die Gamemode Konfigurationsdateien wie zum Beispiel gamemode_competitive.cfg, gamemode_custom.cfg, gamemode_casual.cfg, gamemode_cooperative.cfg, gamemode_demolition.cfg, usw.
+Counter-Strike-Gameserver können sehr vielfältig konfiguriert werden. Grundlegende Einstellungen lassen sich über die **Server.cfg**-Datei und über die Einstellungsseite im Webinterface vornehmen. Die erweiterte Konfiguration erfolgt über die Gamemode-Config-Dateien wie gamemode_competitive.cfg, gamemode_custom.cfg, gamemode_casual.cfg, gamemode_cooperative.cfg, gamemode_demolition.cfg usw.
 
-Unter den Einstellungen wird der Gamemode bestimmt der benutzt werden soll. Die Befehle dieser Config werden dann dementsprechend geladen. Diese kannst du entweder in der Gameserver Verwaltung oder manuell via FTP unter **gXXXXX3/csgo/csgo/cfg/** verwaltet werden. 
+Unter den Einstellungen kannst du den gewünschten Spielmodus auswählen. Die Befehle dieser Config werden dann entsprechend geladen. Diese können entweder über die Gameserver-Verwaltung oder manuell per FTP unter **gXXXXXX/csgo/csgo/cfg/** verwaltet werden. 
+
 
 <InlineVoucher />
 
 ## Konfiguration
 
-### Konfiguration im Interface (Einstellungen)
 
-Auf der Einstellungsseite kannst du Basiseinstellungen zum GSL Token, Gametype/Gamemode, Mapgroup, Tickrate und mehr vornehmen. 
+### Konfiguration über das Interface (Einstellungen)
 
-![](https://screensaver01.zap-hosting.com/index.php/s/xLqmNwaYWPHXwgS/preview)
+Auf der Einstellungsseite kannst du grundlegende Einstellungen für den GSL-Token, Spieltyp/-modus, Mapgroup, Tickrate und mehr anpassen.  
+
+![](https://screensaver01.zap-hosting.com/index.php/s/rfHJDH8e4mSQ4Mg/preview)
 
 
 
 **GSL Token**
 
-Gameserver Login Tokens (GSLTs) ist ein Verfahren, welches Steam als Schutzmaßnahme implementiert hat. Um Gameserver von gewissen Steam Games (hauptsächlich Source-Games) zu betreiben ist es zwingend notwendig einen Token zu generieren. Genauere Informationen dazu findest du hier:
+Gameserver Login Tokens (GSLTs) sind ein von Steam implementiertes Schutzverfahren. Um Gameserver für bestimmte Steam-Spiele (hauptsächlich Source-Spiele) zu betreiben, muss ein Token generiert werden. Mehr Infos findest du hier:
 
 [GSL-Token](source-gsltoken.md)
 
 
 
-**Gametype**
+**Spieltyp**
 
-Es gibt verschiedene Gamemodes. Im folgenden siehst du eine Auflistung der verfügbaren Optionen:
+Es gibt verschiedene Spielmodi. Hier eine Liste aller verfügbaren Optionen:
 
 - Classic Casual
 - Classic Competitive
@@ -56,7 +60,7 @@ Es gibt verschiedene Gamemodes. Im folgenden siehst du eine Auflistung der verf�
 
 **Mapgroup**
 
-Mapgroups sind Gruppen von Maps, welche normalerweise einer bestimmten Kategorie entsprechen. Standardmäßig gibt es die **mg_active, mg_armsrace, mg_demolition, mg_allclassic** Gruppen. Optional kann auch eine eigene erstellt werden. Diese muss dann in der **Gamemodes_server.txt** eingetragen werden. Die Struktur einer solchen Mapgroup ist einfach aufgebaut werden und sieht wie folgt aus:
+Mapgroups sind Gruppen von Maps, die normalerweise einer bestimmten Kategorie entsprechen. Standardmäßig gibt es die Gruppen **mg_active, mg_armsrace, mg_demolition, mg_allclassic**. Optional kannst du eigene erstellen. Diese müssen in der **Gamemodes_server.txt** hinzugefügt werden. Die Struktur einer Mapgroup ist einfach und sieht so aus:
 
 ```
 {	 	 	 	 
@@ -78,259 +82,257 @@ Mapgroups sind Gruppen von Maps, welche normalerweise einer bestimmten Kategorie
 
 **Tickrate**
 
-Die gesetzte Tickrate bestimmt die Frequenz, mit der ein Server die Position eines Spielers an die anderen Spieler übermittelt. Desto höher der Wert ist, umso besser ist das Spielerlebnis. Hierbei können folgende Werte gesetzt werden: 33, 64, 100 und 128 (bester Wert). 
+Die eingestellte Tickrate bestimmt, wie oft der Server die Position eines Spielers an die anderen Spieler sendet. Je höher der Wert, desto besser das Spielerlebnis. Folgende Werte sind möglich: 33, 64, 100 und 128 (bester Wert). 
 
 
 
 **Startmap**
 
-Über die Startmap wird bestimmt, welche Map beim Startvorgangs geladen werden soll. Hierbei ist es wichtig, dass der Name der Map vollständig und richtig geschrieben. Die Dateiendung muss nicht eingetragen werden. 
+Die Startmap legt fest, welche Map beim Serverstart geladen wird. Wichtig ist, dass der Name der Map vollständig und korrekt geschrieben wird. Die Dateiendung ist nicht notwendig. 
 
 
 
 **Pingboost**
 
-Pingboost ist eine Methode, welche da Spielgefühl durch verschiedene Methoden verändert und dadurch einen möglichst geringen Ping erzielt.
+Pingboost ist eine Methode, das Spielgefühl durch verschiedene Techniken zu verbessern, um den niedrigstmöglichen Ping zu erreichen.
 
 
 
+### Konfiguration über server.cfg
 
+In der **server.cfg** kannst du Einstellungen wie Servername, RCON-Passwort und Serverpasswort ändern. 
 
-### Konfiguration über die server.cfg
-
-In der **server.cfg** kannst du Einstellungen bezüglich Servername, Rcon Passwort, Server Passwort einstellen. 
-
-![](https://screensaver01.zap-hosting.com/index.php/s/CYsqnAcppLZ3Spb/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/RRyRgMzwaQPTR8b/preview)
 
 
 
 **hostname**
 
-Über den Hostname wird der Name des Servers definiert. Der Name wird dann in der Serverliste und im Scoreboard angezeigt.
+Der Hostname definiert den Namen des Servers. Dieser wird in der Serverliste und im Scoreboard angezeigt.
 
 
 
-**rcon_password **
+**rcon_password**
 
-Das rcon_password wird benötigt, wenn Server Befehle im Spiel oder per Rcon Tool wie zum Beispiel HLSW ausgeführt werden soll. Das kann dann über die folgenden Befehle gemacht werden:
+Das rcon_password wird benötigt, um Serverbefehle im Spiel oder via Rcon-Tools wie HLSW auszuführen. Das funktioniert mit folgenden Befehlen:
 
 ```
 rcon_password DeinPasswort
-rcon befehl // Zum Beispiel rcon changelevel de_dust2
+rcon command // Zum Beispiel: rcon changelevel de_dust2
 ```
 
 
 
 **sv_password**
 
-Wenn du dein Server privat benutzen möchtest oder nur bestimmte Personen zugriff haben sollen, dann kannst du ein Server Passwort festglegen. Beim Verbindungsaufbau zum Server erfolgt dann die Passwortabfrage.
+Wenn du deinen Server privat halten möchtest oder nur bestimmten Leuten Zugang geben willst, kannst du ein Serverpasswort setzen. Beim Verbinden zum Server wird dann nach dem Passwort gefragt.
 
 
 
 **sv_cheats**
 
-Gewisse Befehle sind geschützt und können daher nur benutzt werden, wenn Cheats aktiviert sind. Aktiviert oder deaktiviert werden kann der Befehl mit dem Wert 0 (deaktiviert) oder 1 (aktiviert). Zu den geschützten Befehlen gehören zum Beispiel:
+Bestimmte Befehle sind geschützt und können nur genutzt werden, wenn Cheats aktiviert sind. Der Befehl kann mit 0 (deaktiviert) oder 1 (aktiviert) gesetzt werden. Geschützte Befehle sind z.B.:
 
-- god, sv_infinite_ammo, noclip, r_drawothermodels 2, mat_wireframe 2, enable_skeleton_draw 1, mat_fullbright 3 und viele weitere
-
-
-
-## Gamemode spezifische Konfiguration
-
-Wie am Anfang beschrieben definierst du im Interface in der Einstellungsseite, welchen Gamemode/Gametype du benutzen möchtest. Danach musst du dich dann richten und die entsprechende Konfigurationsdatei bearbeiten. In den Gamemode-Configs können detailierte Änderungen zum Spielgeschehen, Botverhalten usw vorgenommen werden.
+- god, sv_infinite_ammo, noclip, r_drawothermodels 2, mat_wireframe 2, enable_skeleton_draw 1, mat_fullbright 3 und weitere.
 
 
 
-#### Bot Befehle
+### Gamemode-spezifische Konfiguration
+
+Wie am Anfang beschrieben, kannst du den gewünschten Spielmodus/-typ im Interface auf der Einstellungsseite auswählen. Danach musst du deine Einstellungen anpassen und die entsprechende Config-Datei modifizieren. In den Gamemode-Configs kannst du detaillierte Änderungen am Gameplay, Bot-Verhalten usw. vornehmen.
+
+
+
+#### Bot-Befehle
 
 
 
 **bot_chatter**
-Mit diesem Befehl wird festgelegt, was die Bots im Spiel sagen dürfen. Es  kann entweder off, radio, minimal oder normal gesetzt werden.
+Dieser Befehl definiert, was die Bots im Spiel sagen dürfen. Er kann auf off, radio, minimal oder normal gesetzt werden.
 
 
 
 **bot_difficulty**
-Mit diesem Befehl wird festgelegt, wie schwierig die Bots sind. Dabei können folgende Wert gesetzt werden: 
+Dieser Befehl definiert die Schwierigkeit der Bots. Folgende Werte sind möglich:  
 
-- 0 - easy
+- 0 - leicht
 - 1 - normal
-- 2 - hard
-- 3 - expert
+- 2 - schwer
+- 3 - Experte
 
 
 
 **bot_quota**
-Mit diesem Befehl wird die maximale Anzahl von Bots festgelegt, die Du auf Deinem Server haben kannst. Der Standardwert ist 10.
+Dieser Befehl definiert die maximale Anzahl an Bots, die auf deinem Server sein können. Der Standardwert ist 10.
 
 
 
 **bot_quota_mode**
-Mit diesem Befehl wird der Modus definiert, mit dem die Anzahl der Bots gesteuert werden soll. Die Optionen sind: normal, fill und match. Normal ist normales Verhalten. Fill füllt den Server mit so vielen Bots, wie bei "bot_quota" gesetzt ist. Match füllt Spieler Slots auf. Wenn zum Beispiel 3 Spieler verbunden sind und 10 Bots eingestellt sind, dann werden nur 7 Bots eingesetzt.
+Dieser Befehl definiert den Modus, mit dem die Anzahl der Bots gesteuert wird. Optionen sind: normal, fill und match. Normal ist das Standardverhalten. Fill füllt den Server mit so vielen Bots, wie bei "bot_quota" eingestellt. Match füllt die Spielerplätze auf. Wenn z.B. 3 Spieler verbunden sind und 10 Bots eingestellt sind, werden nur 7 Bots genutzt.
 
 
 
 
-#### Geld Befehle
+#### Geld-Befehle
 
 **cash_player_bomb_defused**
-Mit diesem Befehl wird festgelegt, wie viel Geld ein Spieler für das Entschärfen einer Bombe verdient. Dabei kann nicht mehr als der maximale Geldbetrag gegeben werden, den Du auf dem Server erhalten kannst.
+Dieser Befehl definiert, wie viel Geld ein Spieler für das Entschärfen einer Bombe erhält. Es kann nicht mehr als der maximale Geldbetrag vergeben werden, der auf dem Server möglich ist.
 
 
 
 **cash_player_bomb_planted**
-Mit diesem Befehl wird festgelegt, wie viel Geld ein Spieler für das Platzieren der Bombe erhält.
+Dieser Befehl definiert, wie viel Geld ein Spieler für das Legen der Bombe bekommt.
 
 
 
 **cash_player_damage_hostage**
-Mit diesem Befehl wird festgelegt, wie viel Geld für die Verletzung einer Geisel abgezogen oder verdient wird. Standardmäßig werden dem Spieler für jedes mal verletzen der Geisel $30 abgezogen.
+Dieser Befehl definiert, wie viel Geld abgezogen oder verdient wird, wenn ein Geisel verletzt wird. Standardmäßig werden dem Spieler $30 abgezogen, wenn die Geisel verletzt wird.
 
 
 
 **cash_player_interact_with_hostage**
-Mit diesem Befehl wird das für die Interaktion mit einer Geisel verdiente oder verlorene Geld festgelegt.
+Dieser Befehl definiert, wie viel Geld für die Interaktion mit einer Geisel verdient oder verloren wird.
 
 
 
 **cash_player_killed_enemy_default**
-Mit diesem Befehl wird festgelegt, wie viel Geld durch das Töten eines gegnerischen Spielers mit einer Standardwaffe verdient oder verloren wird.
+Dieser Befehl definiert, wie viel Geld man für das Töten eines Gegners mit einer Standardwaffe bekommt oder verliert.
 
 
 
 **cash_player_killed_enemy_factor**
-Mit diesem Befehl wird festgelegt, wie viel Geld durch das Töten eines feindlichen Spielers mit einer der Hauptwaffen (Standardpistolen, Primärgewehre wie die AK/M4 usw.) verdient wird.
+Dieser Befehl definiert, wie viel Geld man für das Töten eines Gegners mit einer Hauptwaffe (Standardpistolen, Primärgewehre wie AK/M4 etc.) bekommt.
 
 
 
 **cash_player_killed_hostage**
-Mit diesem Befehl wird festgelegt, wie viel Geld verdient oder verloren wird, wenn ein Spieler eine Geisel tötet.
+Dieser Befehl definiert, wie viel Geld man für das Töten einer Geisel bekommt oder verliert.
 
 
 
 **cash_player_killed_teammate**
-Mit diesem Befehl wird festgelegt, wie viel Geld für das Töten eines Teamkollegen verdient oder verloren wird.
+Dieser Befehl definiert, wie viel Geld man für das Töten eines Teamkollegen bekommt oder verliert.
 
 
 
 **cash_player_rescued_hostage**
-Mit diesem Befehl wird festgelegt, wie viel Geld für die sichere Rettung einer Geisel im Geiselmodus verdient oder verloren wird.
+Dieser Befehl definiert, wie viel Geld man für das sichere Retten einer Geisel im Geiselmodus bekommt oder verliert.
 
 
 
 **cash_team_elimination_bomb_map**
-Mit diesem Befehl wird festgelegt, wie viel Geld jedes Teammitglied verdient, wenn alle 5 Feinde auf einer Bombenentschärfungskarte wie Mirage oder Dust II getötet werden.
+Dieser Befehl definiert, wie viel Geld jedes Teammitglied bekommt, wenn alle 5 Gegner auf einer Bombenentschärfungskarte wie Mirage oder Dust II getötet werden.
 
 
 
 **cash_team_elimination_hostage_map_t**
-Mit diesem Befehl wird festgelegt, wie viel Geld jeder Terrorist für den Gewinn einer Runde in einer Geiselkarte durch Eliminierung verdient.
+Dieser Befehl definiert, wie viel Geld jeder Terrorist für den Gewinn einer Runde durch Eliminierung auf einer Geiselkarte bekommt.
 
 
 
 **cash_team_elimination_hostage_map_ct**
-Mit diesem Befehl wird festgelegt, wie viel Geld jedes Teammitglied auf der CT-Seite verdient, wenn es alle 5 Terroristen auf einer Geiselkarte eliminiert.
+Dieser Befehl definiert, wie viel Geld jedes CT-Teammitglied bekommt, wenn alle 5 Terroristen auf einer Geiselkarte eliminiert werden.
 
 
 
 **cash_team_hostage_alive**
-Mit diesem Befehl wird festgelegt, wie viel Geld eine Geisel verdient oder verliert, wenn sie die Runde überlebt. 
+Dieser Befehl definiert, wie viel Geld verdient oder verloren wird, wenn eine Geisel die Runde überlebt. 
 
 
 
 **cash_team_hostage_interaction**
-Mit diesem Befehl wird festgelegt, wie viel Geld für einen Spieler, der mit einer Geisel interagiert, verdient oder verloren wird.
+Dieser Befehl definiert, wie viel Geld ein Spieler für die Interaktion mit einer Geisel verdient oder verliert.
 
 
 
 **cash_team_loser_bonus**
-Mit diesem Befehl wird das Grundgeld festgelegt, das ein Team für den Verlust einer Runde verdient. Dieser steigt dann in festgelegten Schritten an, was durch einen separaten Befehl gesteuert wird.
+Dieser Befehl definiert das Startgeld, das ein Team für das Verlieren einer Runde erhält. Dieses erhöht sich in festen Schritten, die durch einen separaten Befehl gesteuert werden.
 
 
 
 **cash_team_loser_bonus_consecutive_rounds**
-Mit diesem Befehl wird festgelegt, wie viel Geld für eine Abfolge von Verlusten erhöht werden soll. Wenn dieser Wert bei $500 liegt (Standardeinstellung), bedeutet das, dass jede aufeinander folgende verlorene Runde dem Verliererteam $500 mehr als die vorherige zuspricht und das gilt bis zu 5 verlorene Runden hintereinander.
+Dieser Befehl definiert, um wie viel Geld der Verlustbonus bei aufeinanderfolgenden Niederlagen erhöht wird. Wenn dieser Wert $500 beträgt (Standardeinstellung), bedeutet das, dass jede weitere verlorene Runde dem Verliererteam $500 mehr gibt als die vorherige. Das gilt für bis zu 5 aufeinanderfolgende Runden.
 
 
 
 **cash_team_planted_bomb_but_defused**
-Mit diesem Befehl wird der Geldbetrag festgelegt, den das Terroristenteam für das Platzieren einer Bombe verdient, die schlussendlich entschärft wurde. Dieser Betrag wird zusammen mit dem Rundenverlustbonus festgelegt. Der Standardwert ist 800 $.
+Dieser Befehl definiert, wie viel Geld das Terroristenteam für das Legen einer Bombe bekommt, die letztlich entschärft wird. Dies **stapelt sich mit dem Rundenverlust-Bonus**. Der Standardwert ist $800.
 
 
 
 **cash_team_rescued_hostage**
-Mit diesem Befehl wird festgelegt, wie viel Geld das gesamte Team für einen Spieler verdient, der die Geisel rettet.
+Dieser Befehl definiert, wie viel Geld **das ganze Team** bekommt, wenn ein Spieler eine Geisel rettet.
 
 
 
 **cash_team_terrorist_win_bomb**
-Mit diesem Befehl wird festgelegt, wie viel Geld jeder Spieler des Terroristen-Teams gewinnt, wenn er eine Runde durch die explodierende Bombe gewinnt.
+Dieser Befehl definiert, wie viel Geld jeder Spieler des Terroristenteams gewinnt, wenn sie eine Runde durch die Explosion der Bombe gewinnen.
 
 
 
 **cash_team_win_by_defusing_bomb**
-Mit diesem Befehl wird festgelegt, wie viel Geld das Counter-Teroristen Team für den Gewinn einer Runde durch das Entschärfen der Bombe verdient.
+Dieser Befehl definiert, wie viel Geld das CT-Team für den Gewinn einer Runde durch Entschärfen der Bombe bekommt.
 
 
 
 **cash_team_win_by_hostage_rescue**
-Mit diesem Befehl wird festgelegt, wie viel Geld die Teammitglieder gewinnen, wenn sie eine Runde durch die Rettung einer Geisel gewinnen.
+Dieser Cheat-Befehl definiert, wie viel Geld Teammitglieder gewinnen, wenn sie eine Runde durch das Retten einer Geisel gewinnen.
 
 
 
 **cash_team_win_by_time_running_out_hostage**
-Mit diesem Befehl wird festgelegt, wie viel Geld das Team, das die Geiseln bewacht, gewinnt, wenn es die Runde gewinnt, indem es keine Geiseln innerhalb des Zeitlimits befreien lässt.
+Dieser Befehl definiert, wie viel Geld das Team, das die Geiseln bewacht, gewinnt, wenn sie die Runde gewinnen, weil keine Geiseln innerhalb der Zeit gerettet wurden.
 
 
 
 **cash_team_win_by_time_running_out_bomb**
-Mit diesem Befehl wird festgelegt, wie viel Geld die Spieler der Counter-Teroristen mit dem Gewinn einer Runde verdienen, wenn die Zeit abläuft. Das bedeutet, dass die Terroristen in der erforderlichen Zeit keine Bombe platziert oder alle Counter-Terroristen eliminiert haben.
+Dieser Befehl definiert, wie viel Geld die CT-Spieler für den Gewinn einer Runde erhalten, wenn die Zeit abläuft. Das bedeutet, dass die Terroristen keine Bombe gelegt oder nicht alle CTs innerhalb der Zeit eliminiert haben.
 
 
 
-#### Gameplay Befehle
+#### Gameplay-Befehle
 
 
 
 **mp_afterroundmoney**
-Mit diesem Befehl wird festgelegt, wie viel Geld jedem Spieler jedes Teams am Ende einer Runde unabhängig von Sieg oder Niederlage ausgezahlt wird. Der Standardwert ist 0 (der Gewinn-/Verlustbonus wird mit einem anderen Befehl festgelegt).
+Dieser Befehl definiert, wie viel Geld jeder Spieler am Ende einer Runde erhält, unabhängig von Sieg oder Niederlage. Der Standardwert ist 0 (der Gewinn-/Verlustbonus wird mit einem anderen Befehl gesetzt).
 
 
 
 **mp_buytime**
-Mit diesem Befehl wird die Zeit (in Sekunden) festgelegt, die Spieler nach Beginn einer Runde zum Kauf von Gegenständen haben. 
+Dieser Befehl definiert die Zeit (in Sekunden), die Spieler nach Rundenstart haben, um Ausrüstung zu kaufen. 
 
 
 
 **mp_buy_anywhere**
-Mit diesem Befehl wird festgelegt, ob Spieler außerhalb der Buyzone auf das Kaufmenü zugreifen können oder nicht. Dabei ist zu beachten, dass die Spieler immer noch innerhalb des Kaufzeitraums sein müssen
+Dieser Befehl definiert, ob Spieler das Kaufmenü auch außerhalb der Kaufzone nutzen können. Beachte, dass die Kaufzeit weiterhin gilt. 
 
 
 
 **mp_death_drop_defuser**
-Mit diesem Befehl wird festgelegt, ob Defuse Kits beim Tod fallen gelassen werden oder nicht. 
+Dieser Befehl definiert, ob Defuse-Kits beim Tod fallen gelassen werden oder nicht. 
 
 
 
 **mp_death_drop_grenade**
-Mit diesem Befehl wird festgelegt, welche Granate (falls vorhanden) fallen gelassen wird, wenn ein Spieler getötet wird.
+Dieser Befehl definiert, welche Granate (falls überhaupt) beim Tod eines Spielers fallen gelassen wird:
 
-- Wert: 0 - Es werden keine Granaten fallen gelasse
-- Wert: 1 - Die wertvollste Granate soll fallen gelassen werde.
+- Wert: 0 - Keine Granaten fallen lassen
+- Wert: 1 - Die wertvollste Granate fallen lassen
 
 
 
 **mp_death_drop_gun**
-Mit diesem Befehl wird festgelegt, welche Waffe fallen gelassen werden soll, wenn ein Spieler getötet wird. Die Voreinstellung ist 1 ( die beste). Wählen Sie eine der folgenden Optionen:
+Dieser Befehl definiert, welche Waffe beim Tod eines Spielers fallen gelassen wird. Standard ist 1 (die beste). Optionen:
 
-- Wert: 0 - Beim Tod werden keine Waffen fallen gelassen
-- Wert: 1 Beim Tod wird die beste Waffe fallen gelassen (wertvollste),
-- Wert: 2 Wenn der Spieler zum Zeitpunkt des Todes eine Waffe in der Hand hält, dann lässt er diese fallen, ansonsten die wervollste. 
+- Wert: 0 - Keine Waffen fallen lassen
+- Wert: 1 - Die beste Waffe fallen lassen
+- Wert: 2 - Wenn der Spieler beim Tod eine Waffe in der Hand hat, wird diese fallen gelassen, sonst die wertvollste Waffe
 
 
 
 **mp_defuser_allocation**
-Mit diesem Befehl wird festgelegt, ob Spieler zu Beginn der Runde kostenlos einen Defuser erhalten sollen oder nicht, und wenn ja, wer die Defuser erhalten soll. 
+Dieser Befehl definiert, ob Spieler zu Beginn der Runde kostenlos einen Defuser bekommen und wenn ja, wer:
 
 - Wert: 1 - Keine kostenlosen Defuser
 - Wert: 2 - Zufällige Spieler erhalten einen Defuser
@@ -340,104 +342,107 @@ Mit diesem Befehl wird festgelegt, ob Spieler zu Beginn der Runde kostenlos eine
 
 **mp_force_pick_time** 
 
-Mit diesem Befehl wird die Spieldauer in Sekunden festgelegt, die ein Spieler für die Auswahl eines Teams zur Verfügung hat. Nach dieser Zeitspanne wird automatisch ein Team ausgewählt. Die Standarddauer beträgt 15 Sekunden.
+Dieser Befehl definiert die Dauer in Sekunden, die ein Spieler hat, um ein Team auszuwählen. Nach Ablauf wird automatisch ein Team zugewiesen. Standard sind 15 Sekunden.
 
 
 
 **mp_forcecamera**
 
-Mit diesem Befehl wird die Reichweite der Zuschauer festgelegt (d. h., welche Spieler zuschauen können, wenn sie sterben).
+Dieser Befehl legt fest, wen Zuschauer sehen können (also wen Spieler nach dem Tod beobachten können). Optionen:
 
-- Wert: 0 - Die toten Spieler können jedem Spieler zuschauen
-- Wert: 1 - Die toten Spieler können ihrem Teammates zuschauen
-- Wert: 2 - Das Bild der toten Spieler wird bis zur nächsten Runde schwarz.
+- Wert: 0 - Tote Spieler können jeden Spieler beobachten
+- Wert: 1 - Tote Spieler können nur ihre Teamkollegen beobachten
+- Wert: 2 - Der Bildschirm wird schwarz bis zur nächsten Runde.
 
 
 
 **mp_free_armor**
 
-Mit diesem Befehl wird festgelegt, ob ein Spieler zum Anfang der Runde kostenlos eine Rüstung und Helm erhält
+Dieser Befehl definiert, ob Spieler zu Beginn der Runde kostenlose Rüstung und Helm erhalten:
 
-- Wert: 0 - Deaktivieren
-- Wert: 1 - Aktivieren
+- Wert: 0 - Deaktiviert
+- Wert: 1 - Aktiviert
 
 
 
 **mp_freezetime**
 
-Mit diesem Befehl wird festgelegt, wie lange die Spieler zu Beginn jeder Runde eingefroren werden. In dieser Zeit können die Spieler ihre Ausrüstung kaufen und ihre Taktik besprechen, bevor die Runde beginnt. Die Standardeinstellung beträgt 15 Sekunden.
+Dieser Befehl definiert, wie lange Spieler zu Beginn jeder Runde eingefroren sind. Diese Zeit erlaubt es, Ausrüstung zu kaufen und Taktiken zu besprechen. Standard sind 15 Sekunden.
 
 
 
 **mp_friendlyfire**
 
-Mit diesem Befehl kann festgelegt werden, ob Friendly fire aktiviert oder deaktiviert werden soll. Wenn der Beschuss durch die eigenen Spieler aktiviert ist, können die Spieler ihren eigenen Teamkollegen Schaden zufügen. Die Standardeinstellung für diesen Befehl hängt vom Spielmodus ab. Bei Wettbewerbs-Spielmodi ist das Beschuss durch eigene Spieler aktiviert, bei Gelegenheitsspielen ist das nicht der Fall.
+Dieser Befehl definiert, ob Friendly Fire aktiviert ist. Wenn aktiviert, können Spieler ihren Teamkollegen Schaden zufügen. Standard hängt vom Spielmodus ab: Im Competitive ist Friendly Fire an, im Casual nicht.
 
 
 
 **mp_win_panel_display_time**
 
-Mit diesem Befehl wird die Zeitspanne (in Sekunden) festgelegt, in der das Scoreboard zwischen den Runden angezeigt werden soll. Die Standardeinstellung ist 3 Sekunden.
+Dieser Befehl definiert die Zeit (in Sekunden), wie lange das Scoreboard zwischen den Runden angezeigt wird. Standard sind 3 Sekunden.
 
 
 
 **mp_respawn_immunitytime**
 
-Mit diesem Befehl wird festgelegt, wie viele Sekunden lang Spieler nach ihrem Respawn immun sind. Dieser Befehl wird für den Deathmatch-Spielmodus verwendet.
+Dieser Befehl definiert, wie viele Sekunden Spieler nach dem Respawn immun sind. Wird im Deathmatch-Modus genutzt.
 
 
 
 **mp_halftime**
 
-Mit diesem Befehl wird festgelegt, ob die Teams zur Halbzeit gewechselt werden oder nicht. Die Standardeinstellung ist 1.
+Dieser Befehl definiert, ob die Teams zur Halbzeit gewechselt werden. Standard ist 1.
 
 
 
 **mp_maxmoney**
 
-Mit diesem Befehl wird der maximale Geldbetrag festgelegt, den ein Spieler zu einem Zeitpunkt haben kann. 
+Dieser Befehl definiert das maximale Geld, das ein Spieler haben kann.
 
 
 
 **mp_maxrounds**
 
-Mit diesem Befehl wird die maximale Anzahl der Runden festgelegt, die auf dem Server gespielt werden können bis die Map gewechselt wird.
+Dieser Befehl definiert die maximale Anzahl an Runden, die der Server spielt.
 
 
 
 **mp_roundtime**
 
-Mit diesem Befehl wird festgelegt, wie viele Minuten eine Runde maximal dauert, bevor sie gewonnen/verloren wird. Bei Abbruch wird nach Ablauf dieser Zeit der Rundensieg an die Counter-Terroristen übergeben. Die Sekunden werden in Dezimalstellen angegeben, 1,92 = 1m55s.
+Dieser Befehl definiert, wie viele Minuten eine Runde maximal dauert, bevor sie gewonnen/verloren ist. Wenn die Runde nach dieser Zeit abgebrochen wird, gewinnt das CT-Team. Sekunden werden als Dezimalzahl angegeben, z.B. 1.92 = 1m55s.
 
 
-mp_solid_teammates
 
-Mit diesem Befehl wird festgelegt, ob du mit deinen Teamkameraden kollidieren kannst oder nicht.
+**mp_solid_teammates**
+
+Dieser Befehl definiert, ob man mit Teamkollegen kollidieren kann:
 
 - Wert: 0 - Kollision deaktiviert
-- Wert: 1: Kollision aktiviert
+- Wert: 1 - Kollision aktiviert
 
 
 
 **mp_startmoney**
 
-Mit diesem Befehl wird festgelegt, wie viel Geld ein Spieler zu Beginn einer Halbzeit erhält. Der Standardwert beträgt 800$.
+Dieser Befehl definiert, wie viel Geld ein Spieler zu Beginn einer Halbzeit erhält. Standard sind $800.
 
 
 
 **mp_timelimit**
 
-Mit diesem Befehl wird die maximale Dauer jedes Spiels in Minuten festgelegt. Standardmäßig ist dies deaktiviert (auf 0 gesetzt).
+Dieser Befehl definiert die maximale Spieldauer in Minuten. Standard ist deaktiviert (0).
 
 
 
 **mp_warmuptime**
 
-Mit diesem Befehl wird festgelegt, wie lange die Aufwärmphase dauert, bevor das eigentliche Spiel startet. Die Zeit wird in Sekunden angegeben.
+Dieser Befehl definiert, wie lange die Aufwärmphase vor dem eigentlichen Spiel dauert. Zeit in Sekunden.
+
+
 
 **sv_allow_votes**
 
-Mit diesem Befehl wird festgelegt, ob Abstimmungen (z.B. Timeout-Abstimmungen) erlaubt sind oder nicht.
+Dieser Befehl definiert, ob Abstimmungen (z.B. Timeout-Voting) erlaubt sind:
 
 - Wert: 0 - Deaktiviert
 - Wert: 1 - Aktiviert
@@ -446,20 +451,22 @@ Mit diesem Befehl wird festgelegt, ob Abstimmungen (z.B. Timeout-Abstimmungen) e
 
 **sv_infinite_ammo**
 
-Mit diesem Befehl wird festgelegt ob Spieler unbegrenzt Munition bekommen.
+Dieser Befehl definiert, ob Spieler unendlich Munition haben:
 
-- Wert: 1 - Unendliche Munition in der Waffe, mit der ewig ohne Nachladen geschossen werden kann.
-- Wert: 2 -  Unendliche Anzahl an Munitionsmagazinen. Allerdings muss das Magazin nachgeladen werden, wenn es leer ist.
+- Wert: 1 - Unendlich Munition ohne Nachladen
+- Wert: 2 - Unendlich Magazine, aber Nachladen ist nötig
 
 
 
 **ammo_grenade_limit_flashbang**
 
-Mit diesem Befehl wird festgelegt, wie viele Flashgranaten ein Spieler tragen kann.
+Dieser Befehl definiert, wie viele Blendgranaten ein Spieler tragen kann.
+
+
 
 **ammo_grenade_limit_total**
 
-Mit diesem Befehl wird festgelegt, wie viele Granaten ein Spieler insgesamt tragen kann.
+Dieser Befehl definiert, wie viele Granaten ein Spieler insgesamt tragen kann.
 
 
 
@@ -467,15 +474,15 @@ Mit diesem Befehl wird festgelegt, wie viele Granaten ein Spieler insgesamt trag
 
 ### Esport-Ready Konfiguration (ESL Configs)
 
-Wenn der Server aus E-Sport-Zwecken verwendet werden soll, dann lohnt es sich die Configs von der ESL hochzuladen. Diese kannst du über die offizielle Seite der ESL herunterladen: [Download](https://play.eslgaming.com/download/26251762/)
+Wenn du den Server für E-Sport-Zwecke nutzen willst, lohnt es sich, die von ESL bereitgestellten Configs hochzuladen. Du kannst sie auf der offiziellen ESL-Seite herunterladen: [Download](https://play.eslgaming.com/download/26251762/)
 
-Die Configs müssen im Anschluss in das **cfg** Verzeichnis hochgeladen werden und können im Spiel mit den folgenden Befehlen ausgeführt werden:
+Die Configs müssen in das **cfg**-Verzeichnis hochgeladen werden und können im Spiel mit folgenden Befehlen ausgeführt werden:
 
 ```
-rcon_password deinPasswort // Login via Rcon um rcon Befehle auszuführen
+rcon_password DeinPasswort // Login via RCON, um RCON-Befehle auszuführen
 rcon exec esl5on5
 ```
 
-Daraufhin werden alle ESL-Befehlswerte geladen und das Spiel kann gestartet werden!
+Danach werden alle ESL-Befehlswerte geladen und das Spiel kann starten!
 
 <InlineVoucher />

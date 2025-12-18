@@ -1,104 +1,104 @@
 ---
 id: account-affiliate
 title: ZAP-Hosting Affiliate Programm
-description: Wie du mit ZAP-Hosting über das Partnerprogramm Geld verdienen kannst - ZAP-Hosting.com Dokumentation
+description: "Entdecke, wie du durch das Werben von Kunden für ZAP-Hosting Provisionen verdienen und dein Einkommen mit exklusiven Rabatten steigern kannst → Jetzt mehr erfahren"
 sidebar_label: Einführung
 ---
 
-![Affiliate Program](https://screensaver01.zap-hosting.com/index.php/s/GoXwRnHrRARc4jk/preview)
+![Affiliate Programm](https://screensaver01.zap-hosting.com/index.php/s/GoXwRnHrRARc4jk/preview)
 
 ## Einführung
 
-Mit unserem Partnerprogramm kannst du Geld verdienen, indem du neue Kunden an ZAP-Hosting weiterempfiehlst. Du findest das Programm auf unserer Website unter [Partner-Dashboard](https://zap-hosting.com/en/customer/affiliate/).
+Unser Affiliate Programm ermöglicht es jedem, durch das Werben neuer Kunden für ZAP-Hosting Geld mit Provisionen zu verdienen. Du kannst darauf zugreifen, indem du auf unserer Website zum [Affiliate Dashboard](https://zap-hosting.com/en/customer/affiliate/) gehst.
 
-Auf der Affiliate-Seite kannst du Affiliate-Links und Banner verwalten und auf deinen eigenen Affiliate-Gutscheincode zugreifen, mit dem neue Kunden für die gesamte Laufzeit des Programms einen Rabatt von **20%** auf deren Serverpreis erhalten.
+Über das Affiliate Dashboard kannst du Affiliate-Links, Banner verwalten und deinen persönlichen Affiliate-Gutscheincode abrufen, der neuen Kunden einen genialen permanenten **20% Rabatt** auf den Serverpreis für die gesamte Laufzeit bietet.
 
-## So funktioniert das Partnerprogramm
+## So funktioniert das Affiliate Programm
 
-Du kannst alle von den Partnern erstellten Inhalte dort veröffentlichen und bewerben, wo du glaubst, dass sie gut ankommen, z. B. auf deiner Website, in einem Forum oder auf deinem Social-Media-Konto. Das ist ganz dir überlassen.
+Du kannst alle Affiliate-Inhalte überall veröffentlichen und bewerben, wo du denkst, dass du Reichweite bekommst – zum Beispiel auf deiner Website, in einem Forum oder auf deinem Social-Media-Account. Ganz dir überlassen.
 
-Wenn jemand auf den Link klickt und ein Produkt auf unserer [Website](https://zap-hosting.com/) kauft, erhältst du eine Verkaufsprovision. 
+Wenn jemand auf deinen Link klickt und ein Produkt auf unserer [Website](https://zap-hosting.com/) kauft, erhältst du eine Verkaufsprovision.
 
 :::tip
-Der/die Nutzer/in kann seinen/ihren Einkauf während des Bestellvorgangs auch mit deinem Partner-Gutscheincode koppeln, um ebenfalls einen Rabatt zu erhalten.
+Der Nutzer kann beim Checkout auch deinen Affiliate-Gutscheincode eingeben, um zusätzlich einen Rabatt zu erhalten.
 :::
 
 ## Provisionen
 
-Im Rahmen des Partnerprogramms hängt die genaue Höhe der Provision von der Art des Produkts ab, welche die Person, die deinen Link benutzt hat, gekauft hat. Diese kann bei vielen Produkten bis zu **50%** betragen.
+Die genaue Höhe der Provision im Affiliate Programm hängt vom Produkttyp ab, den die Person über deinen Link gekauft hat. Für manche Produkte sind es bis zu **50%**.
 
-Die neuesten und aktuellsten Werte für die Provisionen kannst du im [Abschnitt Bedingungen](https://zap-hosting.com/en/customer/affiliate/conditions/) auf der Partnerseite einsehen.
+Die aktuell gültigen Provisionssätze (%) findest du immer im [Bedingungen-Bereich](https://zap-hosting.com/en/customer/affiliate/conditions/) auf der Affiliate-Seite.
 
 ## Erstellen eines Affiliate-Links & Banners
 
-Um einen neuen Affiliate-Link oder Banner zu erstellen, gehst du einfach auf die [Affiliate-Hauptseite](https://zap-hosting.com/en/customer/affiliate/) und scrollst nach unten. Dort kannst du deine bestehenden Links und Banner sehen, aber auch neue über den grünen Button **Werbemittel erstellen** erstellen.
+Um einen neuen Affiliate-Link oder Banner zu erstellen, geh einfach auf die Haupt-[Affiliate-Seite](https://zap-hosting.com/en/customer/affiliate/) und scroll runter. Dort siehst du deine bestehenden Links und Banner und kannst über den grünen **Werbematerial erstellen** Button neue anlegen.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/3KTLeT7y4PzZtLS/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/zHjcrXACxAoA7qJ/preview)
 
-Daraufhin öffnet sich ein Menü, in dem du eine Reihe von Werten anpassen kannst. Zunächst solltest du auswählen, ob es sich um einen einfachen Link oder ein Banner handeln soll.
+Es öffnet sich ein Menü, in dem du verschiedene Werte anpassen kannst. Zuerst wählst du, ob es ein Link oder ein Banner sein soll.
 
-Die einzelnen Werte werden im Folgenden genauer erklärt:
+Jeder Wert wird unten detailliert erklärt:
 
 #### Alias
 
-In diesem Feld kannst du die eindeutige Alias-URL-Endung angeben, die für dein Banner oder deinen Link verwendet werden soll. Diese Endung darf nicht doppelt vorkommen, sie muss also vorhanden sein.
+Hier kannst du die einzigartige Alias-URL-Endung für deinen Banner oder Link festlegen. Diese darf nicht doppelt vergeben sein und muss verfügbar sein.
 
-Wenn du zum Beispiel `ilovezap` in diesem Feld angibst, bedeutet das, dass dein Banner/Link über `https://zap-hosting.com/ilovezap` erreichbar ist.
+Beispiel: Wenn du `ilovezap` eingibst, ist dein Banner/Link unter `https://zap-hosting.com/ilovezap` erreichbar.
 
-Wenn du keinen eigenen Alias angibst, wird automatisch ein zufälliger Alias für dich generiert.
+Wenn du keinen Alias angibst, wird automatisch ein zufälliger generiert.
 
-#### Wähle eine Vorlage oder einen Linktext
+#### Vorlage oder Linktext wählen
 
-Dieses Feld hängt von der Art des Werbemittels ab, das du ausgewählt hast. 
+Dieses Feld hängt vom Typ des Werbematerials ab.
 
-Wenn du **Banner** gewählt hast, musst du eine Vorlage auswählen. Du kannst das tun, indem du das Dropdown-Menü benutzt und einen unserer vielen Standardbanner auswählst, das deinen Bedürfnissen und deinem Aussehen entspricht.
+Wenn du **Banner** gewählt hast, musst du eine Vorlage auswählen. Nutze das Dropdown-Menü und wähle einen unserer vielen Standard-Banner, der zu deinem Style passt.
 
-Wenn du hingegen **Link** gewählt hast, kannst du einen Linktext angeben, der verwendet wird, um den HTML-Code für deinen Link zu erzeugen. Wenn du z.B. "klick das" auswählst, zeigt der erzeugte HTML-Code den Text "klick mich" an, der mit dem Partnerlink, den du erstellst, verlinkt ist. 
+Wenn du **Link** gewählt hast, kannst du einen Linktext angeben, der im generierten HTML-Code angezeigt wird. Beispiel: Wenn du `click this` eingibst, zeigt der HTML-Code den Text `click me` als Link zu deinem Affiliate-Link an.
 
-Du kannst das hier sehen: `<a href="https://zap-hosting.com/[deine_affiliate_link]">Klick mich</a>`
+So sieht das aus: `<a href="https://zap-hosting.com/[dein_affiliate_link]">click me</a>`
 
-#### Auswählen des Zielprodukts
+#### Zielprodukt auswählen
 
-In diesen Feldern kannst du eine Reihe von Optionen auswählen, um die Weiterleitung deines neuen Affiliate-Links nach deinen Wünschen zu gestalten.
+Hier kannst du verschiedene Optionen einstellen, wohin dein neuer Affiliate-Link weiterleitet.
 
-Wir empfehlen, die Option **Produkte kaufen** zu aktivieren, da sie den Kunden direkt zum Serverkonfigurator für das ausgewählte Produkt führt und nicht zur Produktseite. Je weniger Seiten ein Nutzer durchlaufen muss, desto wahrscheinlicher ist es, dass er eine Bestellung aufgibt.
+Wir empfehlen, **Shop-Produkte** einzuschalten, da der Kunde dann direkt zum Server-Konfigurator des ausgewählten Produkts gelangt, statt nur zur Produktseite. Je weniger Seiten ein Nutzer durchklicken muss, desto höher die Chance auf eine Bestellung.
 
-Als Nächstes kannst du über das Dropdown-Menü das Feld **Produkt** auswählen. Dorthin wird dein neuer Partnerlink den Nutzer weiterleiten, wenn dieser ihn aufruft. Wenn du einen Gameserver auswählst, gibt es eine zusätzliche Option **Spiel**, die du auswählen musst, ansonsten ist das Produkt die einzige Option.
+Danach wählst du im Dropdown-Menü das **Produkt** aus, auf das dein Affiliate-Link verweisen soll. Wenn du einen Gameserver auswählst, erscheint zusätzlich die Option **Spiel**, die du auswählen musst. Ansonsten ist das Produkt die einzige Option.
 
-#### Abschluss des Erstellungsprozesses
+#### Erstellung abschließen
 
-Wenn du alles nach deinen Vorstellungen ausgefüllt hast, drückst du einfach auf den grünen Button **Erstellen**, um mit der Erstellung deines Banners oder Links fortzufahren. Du solltest eine Erfolgsmeldung erhalten, wenn alles korrekt ist und dein neuer Banner oder Link erscheint unter dem Abschnitt **Deine Banner/Links**, wenn du nach unten scrollst.
+Wenn alles nach deinem Geschmack ausgefüllt ist, klick einfach auf den grünen **Erstellen** Button, um deinen Banner oder Link anzulegen. Du bekommst eine Erfolgsmeldung, wenn alles passt, und dein neues Werbematerial erscheint unter **Deine Banner/Links**, wenn du runter scrollst.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/724JJWXKptMB9qR/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/THYSkKPHtSpMgiy/preview)
 
-## Auszahlen & Übertragen
+## Auszahlung & Überweisung
 
-Du kannst dir dein Partnerprogramm-Guthaben entweder deine cashbox (ZAP Coins) oder in Geld über PayPal. Gehe dazu wieder auf die [Affiliate-Seite](https://zap-hosting.com/en/customer/affiliate/) und klicke auf den blauen Button **Auszahlung/Umbuchung**.
+Du kannst dein Guthaben aus dem Affiliate Programm entweder in deine Cashbox (ZAP Coins) oder als Geld via PayPal auszahlen lassen. Geh dazu wieder auf die [Affiliate-Seite](https://zap-hosting.com/en/customer/affiliate/) und klick auf den blauen **Zahlung/Überweisung** Button.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/639MHYsCXnf7YeP/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/GnzqQrQtC3jtzt9/preview)
 
-Folge nun dem entsprechenden Abschnitt unten, um in eine der beiden Währungen zu überweisen.
+Folge dann dem passenden Abschnitt unten, um auf die gewünschte Währung zu überweisen.
 
 ### ZAP Coins
 
 :::warning
-Sobald du deine Credits in ZAP Coins transferiert hast, kannst du sie nicht mehr auszahlen lassen!
+Wenn du dein Guthaben in ZAP Coins umwandelst, kannst du es nicht mehr auszahlen lassen!
 :::
 
-Wähle bei der Menüaufforderung **ZAP-Guthaben** als Option aus. Wähle aus, ob du das gesamte Guthaben oder nur einen bestimmten Teil davon übertragen möchtest. Wenn du fertig bist, drückst du zur Bestätigung einfach auf die grüne Taste **Übertragen**.
+Wähle im Menü **ZAP Coin Guthaben** als Option. Entscheide, ob du den gesamten Betrag oder nur einen Teil übertragen möchtest. Drücke dann den grünen **Überweisen** Button zur Bestätigung.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/AEoNwL7sMGsQD6Z/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/HyCXmc2KzqSY4yL/preview)
 
-### Echtgeld (PayPal)
+### Geld (PayPal)
 
-Wir bieten derzeit nur Auszahlungen in Echtgeld über PayPal an. Um eine Auszahlung über PayPal vorzunehmen, musst du eine Rechnung erstellen und an uns senden, die deine ZAP ID enthält.
+Aktuell bieten wir Auszahlungen nur per PayPal an. Um per PayPal auszuzahlen, musst du eine Rechnung erstellen und an uns senden, in der deine Kunden-ZAP-ID referenziert wird.
 
-Rufe den [PayPal Invoice Creator](https://www.paypal.com/invoice/create?fromWidget=newuser) auf und fülle die Rechnung entsprechend aus:
+Gehe zum [PayPal Rechnungsersteller](https://www.paypal.com/invoice/create?fromWidget=newuser) und fülle die Rechnung wie folgt aus:
 
-- Gib unsere Unternehmensdaten als Empfänger an: `ZAP-Hosting GmbH, Hafenweg 8, 48155 Münster, Deutschland`
-- Die Beschreibung muss enthalten: `ZAP Affiliate Payout [deine_zapid]`
-- Die Rechnung muss gesendet werden an: `m.kluck@zap-hosting.com`
+- Empfänger: `ZAP-Hosting GmbH, Hafenweg 8, 48155 Münster, Deutschland`
+- Beschreibung: `ZAP Affiliate Auszahlung [deine_zapid]`
+- Rechnung senden an: `m.kluck@zap-hosting.com`
 
 :::note
-Deine ZAP ID-Nummer findest du oben rechts auf unserer Website, wenn du eingeloggt bist. Sie hat ein Format wie `zap123456`.
+Deine ZAP ID findest du oben rechts auf unserer Website, wenn du eingeloggt bist, im Format `zap123456`.
 :::

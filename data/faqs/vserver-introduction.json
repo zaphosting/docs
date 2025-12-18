@@ -1,0 +1,452 @@
+[
+  {
+    "title": {
+      "en": "What are the benefits of using a VPS?",
+      "de": "Welche Vorteile hat ein VPS?",
+      "es": "¿Cuáles son los beneficios de usar un VPS?",
+      "fr": "Quels sont les avantages d'utiliser un VPS ?",
+      "ar": "ما هي فوائد استخدام VPS؟",
+      "pt": "Quais são os benefícios de usar um VPS?",
+	  "th": "ประโยชน์ของการใช้ VPS มีอะไรบ้าง?",
+      "pl": "Jakie są korzyści z korzystania z VPS?",
+      "ja": "VPSを使用する利点は何ですか？",
+      "sv": "Vilka är fördelarna med att använda en VPS?",
+      "it": "Quali sono i vantaggi dell'utilizzo di un VPS?",
+      "nl": "Wat zijn de voordelen van het gebruik van een VPS?"
+    },
+    "content": {
+      "en": "A VPS offers a cost-effective alternative to a dedicated server, as the physical hardware is shared between multiple VPS instances. Each VPS still has guaranteed resources and full configuration freedom, making it suitable for demanding projects like online shops or custom web services.",
+      "de": "Ein VPS ist eine kostengünstige Alternative zu einem Dedicated Server, da sich mehrere VPS-Instanzen die Hardware teilen. Dennoch erhält jeder VPS garantierte Ressourcen und volle Konfigurationsfreiheit, was ihn für anspruchsvolle Projekte wie Online-Shops oder individuelle Webservices geeignet macht.",
+      "es": "Un VPS ofrece una alternativa rentable a un servidor dedicado, ya que el hardware físico se comparte entre múltiples instancias de VPS. Cada VPS aún cuenta con recursos garantizados y plena libertad de configuración, lo que lo hace adecuado para proyectos exigentes como tiendas en línea o servicios web personalizados.",
+      "fr": "Un VPS offre une alternative économique à un serveur dédié, car le matériel physique est partagé entre plusieurs instances de VPS. Chaque VPS dispose néanmoins de ressources garanties et d'une liberté de configuration totale, ce qui le rend adapté à des projets exigeants tels que des boutiques en ligne ou des services web personnalisés.",
+      "ar": "تقدم خدمة VPS بديلاً فعالاً من حيث التكلفة للخادم المخصص، حيث يتم مشاركة الأجهزة المادية بين عدة حالات VPS. لا يزال كل VPS يحتوي على موارد مضمونة وحرية كاملة في التكوين، مما يجعله مناسبًا للمشاريع المت demanding مثل المتاجر الإلكترونية أو خدمات الويب المخصصة.",
+      "pt": "Um VPS oferece uma alternativa econômica a um servidor dedicado, uma vez que o hardware físico é compartilhado entre várias instâncias de VPS. Cada VPS ainda possui recursos garantidos e total liberdade de configuração, tornando-o adequado para projetos exigentes, como lojas online ou serviços web personalizados.",
+      "th": "VPS เป็นทางเลือกที่คุ้มค่ากว่า Dedicated Server เนื่องจากฮาร์ดแวร์ทางกายภาพถูกแชร์ระหว่างหลาย VPS อินสแตนซ์ แต่ละ VPS ยังคงมีทรัพยากรที่รับประกันและความอิสระในการกำหนดค่าทั้งหมด ทำให้เหมาะสำหรับโครงการที่ต้องการทรัพยากรสูง เช่น ร้านค้าออนไลน์หรือบริการเว็บที่กำหนดเอง",
+      "pl": "VPS oferuje opłacalną alternatywę dla serwera dedykowanego, ponieważ fizyczny sprzęt jest dzielony między wieloma instancjami VPS. Każdy VPS ma jednak gwarantowane zasoby i pełną swobodę konfiguracji, co czyni go odpowiednim rozwiązaniem dla wymagających projektów, takich jak sklepy internetowe czy niestandardowe usługi internetowe.",
+      "ja": "VPSは、物理ハードウェアが複数のVPSインスタンス間で共有されるため、専用サーバーに対するコスト効率の良い代替手段を提供します。各VPSは依然として保証されたリソースと完全な構成の自由を持っており、オンラインショップやカスタムウェブサービスなどの要求の厳しいプロジェクトに適しています。",
+      "sv": "En VPS erbjuder ett kostnadseffektivt alternativ till en dedikerad server, eftersom den fysiska hårdvaran delas mellan flera VPS-instanser. Varje VPS har fortfarande garanterade resurser och full konfigurationsfrihet, vilket gör den lämplig för krävande projekt som nätbutiker eller anpassade webbtjänster.",
+      "it": "Un VPS offre un'alternativa economica a un server dedicato, poiché l'hardware fisico è condiviso tra più istanze VPS. Ogni VPS ha comunque risorse garantite e piena libertà di configurazione, rendendolo adatto per progetti impegnativi come negozi online o servizi web personalizzati.",
+      "nl": "Een VPS biedt een kosteneffectief alternatief voor een dedicated server, aangezien de fysieke hardware wordt gedeeld tussen meerdere VPS-instanties. Elke VPS heeft nog steeds gegarandeerde middelen en volledige configuratievrijheid, waardoor het geschikt is voor veeleisende projecten zoals online winkels of op maat gemaakte webservices."
+    }
+  },
+  {
+    "title": {
+      "en": "What is a VPS exactly?",
+      "de": "Was genau ist ein VPS?",
+      "es": "¿Qué es un VPS exactamente?",
+      "fr": "Qu'est-ce qu'un VPS exactement ?",
+      "ar": "ما هو VPS بالضبط؟",
+      "pt": "O que é um VPS exatamente?",
+      "th": "VPS คืออะไร?",
+      "pl": "Czym dokładnie jest VPS?",
+      "ja": "VPSとは正確に何ですか？",
+      "sv": "Vad är en VPS exakt?",
+      "it": "Cos'è esattamente un VPS?",
+      "nl": "Wat is een VPS precies?"
+    },
+    "content": {
+      "en": "A VPS (Virtual Private Server) is a virtual machine running on a physical server. Each VPS has its own operating system, IP address, and can be managed independently, while sharing hardware resources with other VPS instances.",
+      "de": "Ein VPS (Virtual Private Server) ist eine virtuelle Maschine auf einem physischen Server. Jeder VPS hat ein eigenes Betriebssystem, eine eigene IP-Adresse und kann unabhängig verwaltet werden, teilt sich jedoch die Hardware-Ressourcen mit anderen VPS-Instanzen.",
+      "es": "Un VPS (Servidor Privado Virtual) es una máquina virtual que se ejecuta en un servidor físico. Cada VPS tiene su propio sistema operativo, dirección IP y puede ser gestionado de manera independiente, mientras comparte recursos de hardware con otras instancias de VPS.",
+      "fr": "Un VPS (Serveur Privé Virtuel) est une machine virtuelle fonctionnant sur un serveur physique. Chaque VPS dispose de son propre système d'exploitation, d'une adresse IP et peut être géré de manière indépendante, tout en partageant les ressources matérielles avec d'autres instances de VPS.",
+      "ar": "VPS (الخادم الخاص الافتراضي) هو آلة افتراضية تعمل على خادم مادي. يحتوي كل VPS على نظام تشغيل خاص به، وعنوان IP، ويمكن إدارته بشكل مستقل، بينما يشارك موارد الأجهزة مع مثيلات VPS الأخرى.",
+      "pt": "Um VPS (Servidor Virtual Privado) é uma máquina virtual que opera em um servidor físico. Cada VPS possui seu próprio sistema operacional, endereço IP e pode ser gerenciado de forma independente, enquanto compartilha recursos de hardware com outras instâncias de VPS.",
+      "th": "VPS (Virtual Private Server) คือเครื่องเสมือนที่ทำงานบนเซิร์ฟเวอร์จริง โดยแต่ละ VPS จะมีระบบปฏิบัติการ, ที่อยู่ IP, และสามารถจัดการได้อย่างอิสระ ในขณะที่ใช้ทรัพยากรฮาร์ดแวร์ร่วมกับ VPS ตัวอื่น ๆ",
+      "pl": "VPS (Wirtualny Serwer Prywatny) to maszyna wirtualna działająca na fizycznym serwerze. Każdy VPS ma swój własny system operacyjny, adres IP i może być zarządzany niezależnie, jednocześnie dzieląc zasoby sprzętowe z innymi instancjami VPS.",
+      "ja": "VPS（仮想プライベートサーバー）は、物理サーバー上で動作する仮想マシンです。各VPSは独自のオペレーティングシステム、IPアドレスを持ち、他のVPSインスタンスとハードウェアリソースを共有しながら独立して管理できます。",
+      "sv": "En VPS (Virtuell Privat Server) är en virtuell maskin som körs på en fysisk server. Varje VPS har sitt eget operativsystem, IP-adress och kan hanteras oberoende, samtidigt som den delar hårdvaruresurser med andra VPS-instanser.",
+      "it": "Un VPS (Server Privato Virtuale) è una macchina virtuale che opera su un server fisico. Ogni VPS ha il proprio sistema operativo, indirizzo IP e può essere gestito in modo indipendente, pur condividendo le risorse hardware con altre istanze VPS.",
+      "nl": "Een VPS (Virtual Private Server) is een virtuele machine die draait op een fysieke server. Elke VPS heeft zijn eigen besturingssysteem, IP-adres en kan onafhankelijk worden beheerd, terwijl het hardwarebronnen deelt met andere VPS-instanties."
+    }
+  },
+  {
+    "title": {
+      "en": "How does upgrading work if I buy a VPS long-term?",
+      "de": "Wie funktioniert ein Upgrade bei langfristiger VPS-Miete?",
+      "es": "¿Cómo funciona la actualización si compro un VPS a largo plazo?",
+      "fr": "Comment fonctionne la mise à niveau si j'achète un VPS à long terme ?",
+      "ar": "كيف تعمل عملية الترقية إذا اشتريت VPS على المدى الطويل؟",
+      "pt": "Como funciona a atualização se eu comprar um VPS a longo prazo?",
+      "th": "การอัปเกรดทำงานอย่างไรหากฉันซื้อ VPS ระยะยาว?",
+      "pl": "Jak działa proces aktualizacji, jeśli kupię VPS na dłuższy okres?",
+      "ja": "長期的にVPSを購入した場合、アップグレードはどのように機能しますか？",
+      "sv": "Hur fungerar uppgradering om jag köper en VPS på lång sikt?",
+      "it": "Come funziona l'upgrade se acquisto un VPS a lungo termine?",
+      "nl": "Hoe werkt het upgraden als ik een VPS op lange termijn koop?"
+    },
+    "content": {
+      "en": "You can upgrade at any time via our upgrade/downgrade function. The monthly price will adjust accordingly, and for the current billing period, you'll pay the difference for the remaining days.",
+      "de": "Ein Upgrade ist jederzeit über die Upgrade-/Downgrade-Funktion möglich. Der Preis wird entsprechend angepasst, und für den laufenden Abrechnungszeitraum zahlst du den anteiligen Differenzbetrag.",
+      "es": "Puedes actualizar en cualquier momento a través de nuestra función de actualización/bajada. El precio mensual se ajustará en consecuencia, y para el período de facturación actual, pagarás la diferencia por los días restantes.",
+      "fr": "Vous pouvez effectuer une mise à niveau à tout moment via notre fonction de mise à niveau/diminution. Le prix mensuel s'ajustera en conséquence, et pour la période de facturation actuelle, vous paierez la différence pour les jours restants.",
+      "ar": "يمكنك الترقية في أي وقت من خلال وظيفة الترقية/التخفيض لدينا. سيتكيف السعر الشهري وفقًا لذلك، وخلال فترة الفوترة الحالية، ستدفع الفرق عن الأيام المتبقية.",
+      "pt": "Você pode fazer o upgrade a qualquer momento através da nossa função de upgrade/downgrade. O preço mensal será ajustado de acordo, e para o período de faturamento atual, você pagará a diferença pelos dias restantes.",
+      "th": "คุณสามารถอัปเกรดได้ตลอดเวลาผ่านฟังก์ชันการอัปเกรด/ลดระดับ ราคาต่อเดือนจะปรับตามนั้น และสำหรับรอบการเรียกเก็บเงินปัจจุบัน คุณจะต้องชำระส่วนต่างสำหรับวันที่เหลืออยู่",
+      "pl": "Możesz zaktualizować swój plan w dowolnym momencie za pomocą naszej funkcji aktualizacji/zmiany planu. Miesięczna cena dostosuje się odpowiednio, a za bieżący okres rozliczeniowy zapłacisz różnicę za pozostałe dni.",
+      "ja": "いつでもアップグレード/ダウングレード機能を通じてアップグレードできます。月額料金はそれに応じて調整され、現在の請求期間中は残りの日数に対する差額をお支払いいただきます。",
+      "sv": "Du kan uppgradera när som helst via vår funktion för uppgradering/nedgradering. Det månatliga priset justeras i enlighet med detta, och för den aktuella faktureringsperioden kommer du att betala skillnaden för de återstående dagarna.",
+      "it": "Puoi effettuare un upgrade in qualsiasi momento tramite la nostra funzione di upgrade/downgrade. Il prezzo mensile si adeguerà di conseguenza e, per il periodo di fatturazione attuale, pagherai la differenza per i giorni rimanenti.",
+      "nl": "Je kunt op elk moment upgraden via onze upgrade/downgrade functie. De maandprijs zal dienovereenkomstig worden aangepast, en voor de huidige factureringsperiode betaal je het verschil voor de resterende dagen."
+    }
+  },
+  {
+    "title": {
+      "en": "Is CPU virtualization supported on VPS?",
+      "de": "Wird CPU-Virtualisierung auf VPS unterstützt?",
+      "es": "¿Se admite la virtualización de CPU en VPS?",
+      "fr": "La virtualisation du CPU est-elle prise en charge sur VPS ?",
+      "ar": "هل يتم دعم افتراضية وحدة المعالجة المركزية (CPU) على VPS؟",
+      "pt": "A virtualização de CPU é suportada em VPS?",
+      "th": "การจำลองเสมือน CPU รองรับบน VPS หรือไม่?",
+      "pl": "Czy w VPS obsługiwana jest wirtualizacja CPU?",
+      "ja": "VPSではCPU仮想化はサポートされていますか？",
+      "sv": "Stöds CPU-virtualisering på VPS?",
+      "it": "La virtualizzazione della CPU è supportata su VPS?",
+      "nl": "Wordt CPU-virtualisatie ondersteund op VPS?"
+    },
+    "content": {
+      "en": "No, CPU virtualization (VMX or similar) requires a dedicated server.",
+      "de": "Nein, CPU-Virtualisierung (VMX oder ähnlich) erfordert einen Dedicated Server.",
+      "es": "No, la virtualización de CPU (VMX o similar) requiere un servidor dedicado.",
+      "fr": "Non, la virtualisation CPU (VMX ou similaire) nécessite un serveur dédié.",
+      "ar": "لا، تتطلب افتراضية وحدة المعالجة المركزية (VMX أو ما شابه) خادمًا مخصصًا.",
+      "pt": "Não, a virtualização de CPU (VMX ou similar) requer um servidor dedicado.",
+      "th": "ไม่, การจำลองเสมือน CPU (VMX หรือคล้ายกัน) ต้องการเซิร์ฟเวอร์เฉพาะ (Dedicated Server)",
+      "pl": "Nie, wirtualizacja CPU (VMX lub podobna) wymaga serwera dedykowanego.",
+      "ja": "いいえ、CPU仮想化（VMXまたはそれに類似するもの）は専用サーバーを必要とします。",
+      "sv": "Nej, CPU-virtualisering (VMX eller liknande) kräver en dedikerad server.",
+      "it": "No, la virtualizzazione della CPU (VMX o simile) richiede un server dedicato.",
+      "nl": "Nee, CPU-virtualisatie (VMX of vergelijkbaar) vereist een dedicated server."
+    }
+  },
+  {
+    "title": {
+      "en": "Can I host websites or SaaS services on a lifetime VPS?",
+      "de": "Kann ich Websites oder SaaS-Dienste auf einem Lifetime-VPS hosten?",
+      "es": "¿Puedo alojar sitios web o servicios SaaS en un VPS de por vida?",
+      "fr": "Puis-je héberger des sites web ou des services SaaS sur un VPS à vie ?",
+      "ar": "هل يمكنني استضافة مواقع الويب أو خدمات SaaS على VPS مدى الحياة؟",
+      "pt": "Posso hospedar sites ou serviços SaaS em um VPS vitalício?",
+      "th": "ฉันสามารถโฮสต์เว็บไซต์หรือบริการ SaaS บน VPS ตลอดชีพได้หรือไม่?",
+      "pl": "Czy mogę hostować strony internetowe lub usługi SaaS na VPS na czas nieokreślony?",
+      "ja": "ライフタイムVPSでウェブサイトやSaaSサービスをホスティングすることはできますか？",
+      "sv": "Kan jag hosta webbplatser eller SaaS-tjänster på en livstids-VPS?",
+      "it": "Posso ospitare siti web o servizi SaaS su un VPS a vita?",
+      "nl": "Kan ik websites of SaaS-diensten hosten op een levenslange VPS?"
+    },
+    "content": {
+      "en": "Yes, hosting e-commerce sites, APIs, blogs, or SaaS platforms is possible.",
+      "de": "Ja, es ist möglich, E-Commerce-Seiten, APIs, Blogs oder SaaS-Plattformen zu betreiben.",
+      "es": "Sí, es posible alojar sitios de comercio electrónico, APIs, blogs o plataformas SaaS.",
+      "fr": "Oui, il est possible d'héberger des sites e-commerce, des API, des blogs ou des plateformes SaaS.",
+      "ar": "نعم، من الممكن استضافة مواقع التجارة الإلكترونية، وواجهات برمجة التطبيقات (APIs)، والمدونات، أو منصات البرمجيات كخدمة (SaaS).",
+      "pt": "Sim, é possível hospedar sites de e-commerce, APIs, blogs ou plataformas SaaS.",
+      "th": "ใช่, การโฮสต์เว็บไซต์อีคอมเมิร์ซ, APIs, บล็อก, หรือแพลตฟอร์ม SaaS เป็นไปได้",
+      "pl": "Tak, hosting stron e-commerce, API, blogów lub platform SaaS jest możliwy.",
+      "ja": "はい、eコマースサイト、API、ブログ、またはSaaSプラットフォームのホスティングは可能です。",
+      "sv": "Ja, det är möjligt att hosta e-handelswebbplatser, API:er, bloggar eller SaaS-plattformar.",
+      "it": "Sì, è possibile ospitare siti di e-commerce, API, blog o piattaforme SaaS.",
+      "nl": "Ja, het is mogelijk om e-commerce sites, API's, blogs of SaaS-platforms te hosten."
+    }
+  },
+  {
+    "title": {
+      "en": "Can I install Ubuntu on a Windows VPS via ISO?",
+      "de": "Kann ich Ubuntu per ISO auf einem Windows-VPS installieren?",
+      "es": "¿Puedo instalar Ubuntu en un VPS de Windows a través de ISO?",
+      "fr": "Puis-je installer Ubuntu sur un VPS Windows via ISO ?",
+      "ar": "هل يمكنني تثبيت أوبونتو على VPS يعمل بنظام ويندوز عبر ISO؟",
+      "pt": "Posso instalar o Ubuntu em um VPS Windows via ISO?",
+      "th": "ฉันสามารถติดตั้ง Ubuntu บน Windows VPS ผ่าน ISO ได้หรือไม่?",
+      "pl": "Czy mogę zainstalować Ubuntu na VPS z systemem Windows za pomocą ISO?",
+      "ja": "Windows VPSにISOを介してUbuntuをインストールできますか？",
+      "sv": "Kan jag installera Ubuntu på en Windows VPS via ISO?",
+      "it": "Posso installare Ubuntu su un VPS Windows tramite ISO?",
+      "nl": "Kan ik Ubuntu installeren op een Windows VPS via ISO?"
+    },
+    "content": {
+      "en": "No, this is not supported.",
+      "de": "Nein, das ist nicht möglich.",
+      "es": "No, esto no es compatible.",
+      "fr": "Non, cela n'est pas pris en charge.",
+      "ar": "لا، هذا غير مدعوم.",
+      "pt": "Não, isso não é suportado.",
+      "th": "ไม่, สิ่งนี้ไม่ได้รับการสนับสนุน.",
+      "pl": "Nie, to nie jest wspierane.",
+      "ja": "いいえ、これはサポートされていません。",
+      "sv": "Nej, detta stöds inte.",
+      "it": "No, questo non è supportato.",
+      "nl": "Nee, dit wordt niet ondersteund."
+    }
+  },
+  {
+    "title": {
+      "en": "Do root servers come with the latest Ubuntu version?",
+      "de": "Haben Rootserver die neueste Ubuntu-Version?",
+      "es": "¿Los servidores raíz vienen con la última versión de Ubuntu?",
+      "fr": "Les serveurs dédiés sont-ils fournis avec la dernière version d'Ubuntu ?",
+      "ar": "هل تأتي الخوادم الجذرية مع أحدث إصدار من أوبونتو؟",
+      "pt": "Os servidores root vêm com a versão mais recente do Ubuntu?",
+      "th": "เซิร์ฟเวอร์รูทมาพร้อมกับเวอร์ชันล่าสุดของ Ubuntu หรือไม่?",
+      "pl": "Czy serwery root są dostarczane z najnowszą wersją Ubuntu?",
+      "ja": "ルートサーバーには最新のUbuntuバージョンが付属していますか？",
+      "sv": "Kommer root-servrar med den senaste versionen av Ubuntu?",
+      "it": "I server root vengono forniti con l'ultima versione di Ubuntu?",
+      "nl": "Worden rootservers geleverd met de nieuwste versie van Ubuntu?"
+    },
+    "content": {
+      "en": "Available versions can be selected during ordering or in the web interface. The latest version will be offered soon.",
+      "de": "Verfügbare Versionen können bei der Bestellung oder im Webinterface ausgewählt werden. Die neueste Version wird bald verfügbar sein.",
+      "es": "Las versiones disponibles se pueden seleccionar durante el pedido o en la interfaz web. La última versión se ofrecerá pronto.",
+      "fr": "Les versions disponibles peuvent être sélectionnées lors de la commande ou dans l'interface web. La dernière version sera bientôt proposée.",
+      "ar": "يمكن اختيار الإصدارات المتاحة أثناء الطلب أو من خلال واجهة الويب. سيتم تقديم الإصدار الأحدث قريبًا.",
+      "pt": "As versões disponíveis podem ser selecionadas durante o pedido ou na interface da web. A versão mais recente será oferecida em breve.",
+      "th": "เวอร์ชันที่มีให้เลือกสามารถเลือกได้ในระหว่างการสั่งซื้อหรือในส่วนติดต่อเว็บ เวอร์ชันล่าสุดจะมีให้บริการในเร็วๆ นี้",
+      "pl": "Dostępne wersje można wybrać podczas składania zamówienia lub w interfejsie internetowym. Najnowsza wersja będzie wkrótce dostępna.",
+      "ja": "注文時またはウェブインターフェースで利用可能なバージョンを選択できます。最新バージョンは近日中に提供される予定です。",
+      "sv": "Tillgängliga versioner kan väljas under beställning eller i webbgränssnittet. Den senaste versionen kommer snart att erbjudas.",
+      "it": "Le versioni disponibili possono essere selezionate durante l'ordinazione o nell'interfaccia web. L'ultima versione sarà disponibile a breve.",
+      "nl": "Beschikbare versies kunnen worden geselecteerd tijdens het bestellen of in de webinterface. De nieuwste versie zal binnenkort worden aangeboden."
+    }
+  },
+  {
+    "title": {
+      "en": "What happens if I exceed the 5TB traffic limit?",
+      "de": "Was passiert, wenn ich das 5-TB-Traffic-Limit überschreite?",
+      "es": "¿Qué sucede si supero el límite de tráfico de 5TB?",
+      "fr": "Que se passe-t-il si je dépasse la limite de trafic de 5 To ?",
+      "ar": "ماذا يحدث إذا تجاوزت حد حركة المرور البالغ 5 تيرابايت؟",
+      "pt": "O que acontece se eu exceder o limite de tráfego de 5TB?",
+      "th": "หากคุณเกินขีดจำกัดการใช้งานข้อมูล 5TB จะมีผลกระทบต่อบริการของคุณ โดยทั่วไปแล้ว ผู้ให้บริการอาจมีนโยบายที่แตกต่างกัน เช่น การคิดค่าธรรมเนียมเพิ่มเติมสำหรับการใช้งานข้อมูลที่เกิน หรือการลดความเร็วในการเชื่อมต่อของคุณ นอกจากนี้ บางครั้งอาจมีการระงับบริการชั่วคราวจนกว่าคุณจะลดการใช้งานข้อมูลลง หรืออาจมีการเสนอแผนการอัปเกรดเพื่อเพิ่มขีดจำกัดการใช้งานข้อมูลของคุณ หากคุณคาดว่าจะมีการใช้งานข้อมูลสูงเกินกว่าขีดจำกัดนี้ ควรติดต่อผู้ให้บริการเพื่อหารือเกี่ยวกับทางเลือกที่เหมาะสม เช่น VPS หรือ Dedicated Server ที่มีขีดจำกัดการใช้งานข้อมูลที่สูงขึ้น",
+      "pl": "Co się stanie, jeśli przekroczę limit 5TB ruchu?",
+      "ja": "5TBのトラフィック制限を超えた場合、どうなりますか？",
+      "sv": "Vad händer om jag överskrider trafikgränsen på 5TB?",
+      "it": "Cosa succede se supero il limite di traffico di 5TB?",
+      "nl": "Wat gebeurt er als ik de 5TB datalimiet overschrijd?"
+    },
+    "content": {
+      "en": "Traffic is throttled to 10 Mbit/s until the limit is increased or the new billing period starts.",
+      "de": "Der Traffic wird auf 10 Mbit/s gedrosselt, bis das Limit erhöht oder ein neuer Abrechnungszeitraum beginnt.",
+      "es": "El tráfico se limita a 10 Mbit/s hasta que se aumente el límite o comience el nuevo período de facturación.",
+      "fr": "Le trafic est limité à 10 Mbit/s jusqu'à ce que la limite soit augmentée ou que la nouvelle période de facturation commence.",
+      "ar": "يتم تقليل سرعة النقل إلى 10 ميجابت في الثانية حتى يتم زيادة الحد أو يبدأ فترة الفوترة الجديدة.",
+      "pt": "O tráfego é limitado a 10 Mbit/s até que o limite seja aumentado ou que o novo período de faturamento comece.",
+      "th": "การรับส่งข้อมูลจะถูกจำกัดที่ 10 Mbit/s จนกว่าจะมีการเพิ่มขีดจำกัดหรือเริ่มต้นรอบการเรียกเก็บเงินใหม่",
+      "pl": "Ruch jest ograniczany do 10 Mbit/s, dopóki limit nie zostanie zwiększony lub nie rozpocznie się nowy okres rozliczeniowy.",
+      "ja": "トラフィックは、制限が増加するか新しい請求期間が始まるまで、10 Mbit/sに制限されます。",
+      "sv": "Trafiken begränsas till 10 Mbit/s tills gränsen ökas eller den nya faktureringsperioden börjar.",
+      "it": "Il traffico è limitato a 10 Mbit/s fino a quando il limite non viene aumentato o inizia il nuovo periodo di fatturazione.",
+      "nl": "Het verkeer wordt beperkt tot 10 Mbit/s totdat de limiet wordt verhoogd of de nieuwe factureringsperiode begint."
+    }
+  },
+  {
+    "title": {
+      "en": "Can I upgrade hardware on a lifetime VPS?",
+      "de": "Kann ich die Hardware eines Lifetime-VPS aufrüsten?",
+      "es": "¿Puedo actualizar el hardware en un VPS de por vida?",
+      "fr": "Puis-je mettre à niveau le matériel d'un VPS à vie ?",
+      "ar": "هل يمكنني ترقية الأجهزة على VPS مدى الحياة؟",
+      "pt": "Posso atualizar o hardware em um VPS vitalício?",
+      "th": "ฉันสามารถอัปเกรดฮาร์ดแวร์บน VPS แบบตลอดชีพได้หรือไม่?",
+      "pl": "Czy mogę zaktualizować sprzęt na VPS z dożywotnią subskrypcją?",
+      "ja": "ライフタイムVPSのハードウェアをアップグレードできますか？",
+      "sv": "Kan jag uppgradera hårdvaran på en livstids VPS?",
+      "it": "Posso aggiornare l'hardware su un VPS a vita?",
+      "nl": "Kan ik de hardware van een lifetime VPS upgraden?"
+    },
+    "content": {
+      "en": "Paid upgrades (e.g., more RAM or CPU cores) are possible. Downgrades are not available and upgrades cannot be paid with ZAP Coins.",
+      "de": "Bezahlte Upgrades (z. B. mehr RAM oder CPU-Kerne) sind möglich. Downgrades sind nicht verfügbar und Upgrades können nicht mit ZAP Coins bezahlt werden.",
+      "es": "Las actualizaciones de pago (por ejemplo, más RAM o núcleos de CPU) son posibles. No se permiten degradaciones y las actualizaciones no se pueden pagar con ZAP Coins.",
+      "fr": "Des mises à niveau payantes (par exemple, plus de RAM ou de cœurs CPU) sont possibles. Les rétrogradations ne sont pas disponibles et les mises à niveau ne peuvent pas être payées avec des ZAP Coins.",
+      "ar": "الترقيات المدفوعة (مثل المزيد من الذاكرة RAM أو نوى المعالج CPU) ممكنة. لا تتوفر خيارات الترقية إلى مستويات أقل، ولا يمكن دفع تكاليف الترقيات باستخدام زCoins ZAP.",
+      "pt": "Atualizações pagas (por exemplo, mais RAM ou núcleos de CPU) são possíveis. Downgrades não estão disponíveis e as atualizações não podem ser pagas com ZAP Coins.",
+      "th": "การอัปเกรดที่ต้องชำระเงิน (เช่น RAM หรือ CPU cores ที่มากขึ้น) เป็นไปได้ แต่ไม่สามารถลดระดับบริการได้ และการอัปเกรดไม่สามารถชำระด้วย ZAP Coins ได้",
+      "pl": "Płatne ulepszenia (np. więcej RAM-u lub rdzeni CPU) są możliwe. Downgrady nie są dostępne, a ulepszenia nie mogą być opłacane za pomocą ZAP Coins.",
+      "ja": "有料アップグレード（例：RAMやCPUコアの増加）は可能です。ダウングレードは利用できず、アップグレードはZAP Coinsで支払うことはできません。",
+      "sv": "Betalda uppgraderingar (t.ex. mer RAM eller CPU-kärnor) är möjliga. Nedgraderingar är inte tillgängliga och uppgraderingar kan inte betalas med ZAP Coins.",
+      "it": "Gli aggiornamenti a pagamento (ad es., più RAM o core CPU) sono possibili. I downgrade non sono disponibili e gli aggiornamenti non possono essere pagati con ZAP Coins.",
+      "nl": "Betaalde upgrades (bijv. meer RAM of CPU-kernen) zijn mogelijk. Downgrades zijn niet beschikbaar en upgrades kunnen niet met ZAP Coins worden betaald."
+    }
+  },
+  {
+    "title": {
+      "en": "What does lifetime/once payment mean for a VPS?",
+      "de": "Was bedeutet Lifetime/Einmalzahlung bei einem VPS?",
+      "es": "¿Qué significa pago único de por vida para un VPS?",
+      "fr": "Que signifie paiement à vie/unique pour un VPS ?",
+      "ar": "ماذا يعني الدفع لمرة واحدة/مدى الحياة لخدمة VPS؟",
+      "pt": "O que significa pagamento vitalício/único para um VPS?",
+      "th": "การชำระเงินแบบตลอดชีพ/ครั้งเดียวสำหรับ VPS หมายถึงการชำระเงินเพียงครั้งเดียวที่คุณทำเพื่อซื้อบริการ VPS โดยไม่ต้องจ่ายค่าบริการรายเดือนหรือรายปีในอนาคต ซึ่งหมายความว่าคุณจะได้รับการเข้าถึงและใช้งาน VPS ตลอดระยะเวลาที่บริการนั้นยังคงมีอยู่ โดยไม่ต้องกังวลเกี่ยวกับการต่ออายุหรือการชำระเงินเพิ่มเติมในภายหลัง",
+      "pl": "Co oznacza płatność jednorazowa/lifetime za VPS?",
+      "ja": "VPSの「ライフタイム/一回払い」とは何を意味しますか？",
+      "sv": "Vad betyder livstids-/engångsbetalning för en VPS?",
+      "it": "Cosa significa pagamento una tantum/vita per un VPS?",
+      "nl": "Wat betekent levenslange/eenmalige betaling voor een VPS?"
+    },
+    "content": {
+      "en": "You pay once for a lifetime VPS, and it remains available as long as you log into the web interface at least once every 3 months.",
+      "de": "Du zahlst einmal für einen Lifetime-VPS, und er bleibt verfügbar, solange du dich mindestens alle 3 Monate im Webinterface einloggst.",
+      "es": "Pagas una vez por un VPS de por vida, y permanece disponible siempre que inicies sesión en la interfaz web al menos una vez cada 3 meses.",
+      "fr": "Vous payez une fois pour un VPS à vie, et il reste disponible tant que vous vous connectez à l'interface web au moins une fois tous les 3 mois.",
+      "ar": "تدفع مرة واحدة مقابل VPS مدى الحياة، وسيظل متاحًا طالما أنك تسجل الدخول إلى واجهة الويب مرة واحدة على الأقل كل 3 أشهر.",
+      "pt": "Você paga uma vez por um VPS vitalício, e ele permanece disponível enquanto você fizer login na interface web pelo menos uma vez a cada 3 meses.",
+      "th": "คุณชำระเงินเพียงครั้งเดียวสำหรับ VPS ตลอดชีพ และมันจะยังคงใช้งานได้ตราบใดที่คุณเข้าสู่ระบบในเว็บอินเตอร์เฟซอย่างน้อยเดือนละครั้งทุก 3 เดือน",
+      "pl": "Płacisz raz za VPS na całe życie, a usługa pozostaje dostępna tak długo, jak logujesz się do interfejsu webowego przynajmniej raz na 3 miesiące.",
+      "ja": "一度支払うことで生涯利用可能なVPSを取得でき、3ヶ月ごとに少なくとも一度はウェブインターフェースにログインする限り、そのサービスは利用可能です。",
+      "sv": "Du betalar en gång för en livstids VPS, och den förblir tillgänglig så länge du loggar in på webbgränssnittet minst en gång var tredje månad.",
+      "it": "Paghi una sola volta per un VPS a vita, e rimane disponibile finché accedi all'interfaccia web almeno una volta ogni 3 mesi.",
+      "nl": "Je betaalt één keer voor een levenslange VPS, en deze blijft beschikbaar zolang je minstens één keer per 3 maanden in de webinterface inlogt."
+    }
+  },
+  {
+    "title": {
+      "en": "Can I download my data before my prepaid VPS ends?",
+      "de": "Kann ich meine Daten vor Ablauf eines Prepaid-VPS sichern?",
+      "es": "¿Puedo descargar mis datos antes de que finalice mi VPS prepago?",
+      "fr": "Puis-je télécharger mes données avant la fin de mon VPS prépayé ?",
+      "ar": "هل يمكنني تنزيل بياناتي قبل انتهاء فترة الدفع المسبق لـ VPS الخاص بي؟",
+      "pt": "Posso baixar meus dados antes que meu VPS pré-pago termine?",
+      "th": "ฉันสามารถดาวน์โหลดข้อมูลของฉันก่อนที่ VPS แบบชำระล่วงหน้าจะสิ้นสุดได้หรือไม่?",
+      "pl": "Czy mogę pobrać swoje dane przed zakończeniem opłaconego VPS?",
+      "ja": "プリペイドVPSの契約が終了する前にデータをダウンロードできますか？",
+      "sv": "Kan jag ladda ner mina data innan min förbetalda VPS tar slut?",
+      "it": "Posso scaricare i miei dati prima della scadenza del mio VPS prepagato?",
+      "nl": "Kan ik mijn gegevens downloaden voordat mijn prepaid VPS eindigt?"
+    },
+    "content": {
+      "en": "Yes, you can use an FTP server or backup solutions to download your data before the contract ends.",
+      "de": "Ja, du kannst einen FTP-Server oder Backup-Lösungen verwenden, um deine Daten vor Vertragsende herunterzuladen.",
+      "es": "Sí, puedes utilizar un servidor FTP o soluciones de respaldo para descargar tus datos antes de que finalice el contrato.",
+      "fr": "Oui, vous pouvez utiliser un serveur FTP ou des solutions de sauvegarde pour télécharger vos données avant la fin du contrat.",
+      "ar": "نعم، يمكنك استخدام خادم FTP أو حلول النسخ الاحتياطي لتنزيل بياناتك قبل انتهاء العقد.",
+      "pt": "Sim, você pode usar um servidor FTP ou soluções de backup para baixar seus dados antes do término do contrato.",
+      "th": "ใช่ คุณสามารถใช้เซิร์ฟเวอร์ FTP หรือโซลูชันการสำรองข้อมูลเพื่อดาวน์โหลดข้อมูลของคุณก่อนที่สัญญาจะสิ้นสุดลง",
+      "pl": "Tak, możesz użyć serwera FTP lub rozwiązań do tworzenia kopii zapasowych, aby pobrać swoje dane przed zakończeniem umowy.",
+      "ja": "はい、契約が終了する前にデータをダウンロードするために、FTPサーバーやバックアップソリューションを使用することができます。",
+      "sv": "Ja, du kan använda en FTP-server eller backup-lösningar för att ladda ner dina data innan kontraktet avslutas.",
+      "it": "Sì, puoi utilizzare un server FTP o soluzioni di backup per scaricare i tuoi dati prima della scadenza del contratto.",
+      "nl": "Ja, je kunt een FTP-server of back-upoplossingen gebruiken om je gegevens te downloaden voordat het contract eindigt."
+    }
+  },
+  {
+    "title": {
+      "en": "Will my Windows VPS restart due to updates?",
+      "de": "Wird mein Windows-VPS wegen Updates neu gestartet?",
+      "es": "¿Se reiniciará mi VPS de Windows debido a actualizaciones?",
+      "fr": "Mon VPS Windows redémarrera-t-il en raison des mises à jour ?",
+      "ar": "هل سيعاد تشغيل VPS الخاص بي الذي يعمل بنظام ويندوز بسبب التحديثات؟",
+      "pt": "Meu VPS Windows reiniciará devido a atualizações?",
+      "th": "เซิร์ฟเวอร์ VPS ของ Windows ของฉันจะรีสตาร์ทเนื่องจากการอัปเดตหรือไม่?",
+      "pl": "Czy mój serwer VPS z systemem Windows zrestartuje się z powodu aktualizacji?",
+      "ja": "私のWindows VPSは、更新のために再起動しますか？",
+      "sv": "Kommer min Windows VPS att starta om på grund av uppdateringar?",
+      "it": "Il mio VPS Windows si riavvierà a causa degli aggiornamenti?",
+      "nl": "Zal mijn Windows VPS opnieuw opstarten vanwege updates?"
+    },
+    "content": {
+      "en": "You can disable automatic updates, but Windows may still force reboots for critical patches. Manual updates are recommended.",
+      "de": "Automatische Updates können deaktiviert werden, jedoch kann Windows bei kritischen Patches trotzdem einen Neustart erzwingen. Manuelle Updates werden empfohlen.",
+      "es": "Puedes desactivar las actualizaciones automáticas, pero Windows aún puede forzar reinicios para parches críticos. Se recomiendan actualizaciones manuales.",
+      "fr": "Vous pouvez désactiver les mises à jour automatiques, mais Windows peut tout de même forcer les redémarrages pour des correctifs critiques. Les mises à jour manuelles sont recommandées.",
+      "ar": "يمكنك تعطيل التحديثات التلقائية، ولكن قد تضطر ويندوز إلى فرض إعادة التشغيل لتثبيت التحديثات الحرجة. يُوصى بالتحديثات اليدوية.",
+      "pt": "Você pode desativar as atualizações automáticas, mas o Windows ainda pode forçar reinicializações para patches críticos. Atualizações manuais são recomendadas.",
+      "th": "คุณสามารถปิดการอัปเดตอัตโนมัติได้ แต่ Windows อาจยังบังคับให้รีบูตสำหรับแพตช์ที่สำคัญ การอัปเดตแบบแมนนวลเป็นที่แนะนำ",
+      "pl": "Możesz wyłączyć automatyczne aktualizacje, ale Windows może nadal wymuszać ponowne uruchomienia w przypadku krytycznych poprawek. Zaleca się ręczne aktualizacje.",
+      "ja": "自動更新を無効にすることはできますが、Windowsは重要なパッチのために再起動を強制する場合があります。手動での更新を推奨します。",
+      "sv": "Du kan inaktivera automatiska uppdateringar, men Windows kan fortfarande tvinga omstarter för kritiska patchar. Manuella uppdateringar rekommenderas.",
+      "it": "Puoi disabilitare gli aggiornamenti automatici, ma Windows potrebbe comunque forzare i riavvii per patch critiche. Si consiglia di eseguire aggiornamenti manuali.",
+      "nl": "U kunt automatische updates uitschakelen, maar Windows kan nog steeds gedwongen herstarts uitvoeren voor kritieke patches. Handmatige updates worden aanbevolen."
+    }
+  },
+  {
+    "title": {
+      "en": "How are player slots determined on a VPS?",
+      "de": "Wie werden die Spielerslots auf einem VPS festgelegt?",
+      "es": "¿Cómo se determinan los slots de jugadores en un VPS?",
+      "fr": "Comment les emplacements de joueurs sont-ils déterminés sur un VPS ?",
+      "ar": "كيف يتم تحديد عدد أماكن اللاعبين على VPS؟",
+      "pt": "Como são determinados os slots de jogadores em um VPS?",
+      "th": "การกำหนดจำนวนช่องผู้เล่นบน VPS เป็นอย่างไร?",
+      "pl": "Jak są określane sloty graczy na VPS?",
+      "ja": "VPS上でのプレイヤースロットはどのように決定されますか？",
+      "sv": "Hur bestäms spelarplatser på en VPS?",
+      "it": "Come vengono determinati i slot per i giocatori su un VPS?",
+      "nl": "Hoe worden spelerslots bepaald op een VPS?"
+    },
+    "content": {
+      "en": "Slots can be freely set, but you must ensure your booked hardware is sufficient.",
+      "de": "Die Slots können frei festgelegt werden, solange die gebuchte Hardware dafür ausreicht.",
+      "es": "Los slots se pueden configurar libremente, pero debes asegurarte de que el hardware reservado sea suficiente.",
+      "fr": "Les slots peuvent être définis librement, mais vous devez vous assurer que le matériel que vous avez réservé est suffisant.",
+      "ar": "يمكن ضبط الفتحات بحرية، ولكن يجب عليك التأكد من أن الأجهزة المحجوزة لديك كافية.",
+      "pt": "Os slots podem ser definidos livremente, mas você deve garantir que o hardware reservado seja suficiente.",
+      "th": "สามารถตั้งค่าช่องได้ตามต้องการ แต่คุณต้องมั่นใจว่าอุปกรณ์ที่คุณจองมีความเพียงพอ",
+      "pl": "Sloty można ustawiać dowolnie, ale musisz upewnić się, że zamówiony sprzęt jest wystarczający.",
+      "ja": "スロットは自由に設定できますが、予約したハードウェアが十分であることを確認する必要があります。",
+      "sv": "Platser kan ställas in fritt, men du måste säkerställa att din bokade hårdvara är tillräcklig.",
+      "it": "I slot possono essere impostati liberamente, ma è necessario assicurarsi che l'hardware prenotato sia sufficiente.",
+      "nl": "Slots kunnen vrij worden ingesteld, maar u moet ervoor zorgen dat uw geboekte hardware voldoende is."
+    }
+  },
+  {
+    "title": {
+      "en": "Are there limits on the number of game servers I can install?",
+      "de": "Gibt es eine Begrenzung für die Anzahl installierbarer Gameserver?",
+      "es": "¿Existen límites en la cantidad de servidores de juego que puedo instalar?",
+      "fr": "Y a-t-il des limites sur le nombre de serveurs de jeu que je peux installer ?",
+      "ar": "هل هناك حدود لعدد خوادم الألعاب التي يمكنني تثبيتها؟",
+      "pt": "Existem limites para o número de servidores de jogo que posso instalar?",
+      "th": "มีข้อจำกัดเกี่ยวกับจำนวนเซิร์ฟเวอร์เกมที่ฉันสามารถติดตั้งได้หรือไม่?",
+      "pl": "Czy istnieją ograniczenia dotyczące liczby serwerów gier, które mogę zainstalować?",
+      "ja": "ゲームサーバーをインストールできる数に制限はありますか？",
+      "sv": "Finns det några begränsningar för antalet spelservrar jag kan installera?",
+      "it": "Ci sono limiti sul numero di server di gioco che posso installare?",
+      "nl": "Zijn er limieten aan het aantal game-servers dat ik kan installeren?"
+    },
+    "content": {
+      "en": "No fixed limit. The main restriction is disk space. Docker is supported, and plugins can be installed on Spigot servers.",
+      "de": "Es gibt keine feste Begrenzung. Entscheidend ist vor allem der verfügbare Speicherplatz. Docker wird unterstützt, und Plugins können auf Spigot-Servern installiert werden.",
+      "es": "Sin límite fijo. La principal restricción es el espacio en disco. Docker es compatible y se pueden instalar complementos en servidores Spigot.",
+      "fr": "Pas de limite fixe. La principale restriction est l'espace disque. Docker est pris en charge, et des plugins peuvent être installés sur les serveurs Spigot.",
+      "ar": "لا يوجد حد ثابت. القيد الرئيسي هو مساحة القرص. يتم دعم Docker، ويمكن تثبيت الإضافات على خوادم Spigot.",
+      "pt": "Sem limite fixo. A principal restrição é o espaço em disco. Docker é suportado, e plugins podem ser instalados em servidores Spigot.",
+      "th": "ไม่มีขีดจำกัดที่แน่นอน ข้อจำกัดหลักคือพื้นที่ดิสก์ รองรับ Docker และสามารถติดตั้งปลั๊กอินบนเซิร์ฟเวอร์ Spigot ได้",
+      "pl": "Brak stałego limitu. Głównym ograniczeniem jest przestrzeń dyskowa. Docker jest obsługiwany, a wtyczki można instalować na serwerach Spigot.",
+      "ja": "固定の制限はありません。主な制約はディスクスペースです。Dockerはサポートされており、Spigotサーバーにプラグインをインストールすることができます。",
+      "sv": "Ingen fast gräns. Den huvudsakliga begränsningen är diskutrymme. Docker stöds, och plugins kan installeras på Spigot-servrar.",
+      "it": "Nessun limite fisso. La principale restrizione è lo spazio su disco. Docker è supportato e i plugin possono essere installati sui server Spigot.",
+      "nl": "Geen vaste limiet. De belangrijkste beperking is de schijfruimte. Docker wordt ondersteund en plugins kunnen worden geïnstalleerd op Spigot-servers."
+    }
+  },
+  {
+    "title": {
+      "en": "Can I change the IP for my VPS game server?",
+      "de": "Kann ich die IP meines VPS-Gameservers ändern?",
+      "es": "¿Puedo cambiar la IP de mi servidor de juegos VPS?",
+      "fr": "Puis-je changer l'IP de mon serveur de jeu VPS ?",
+      "ar": "هل يمكنني تغيير عنوان IP لخادم اللعبة الخاص بي على VPS؟",
+      "pt": "Posso mudar o IP do meu servidor de jogo VPS?",
+      "th": "ฉันสามารถเปลี่ยน IP สำหรับเซิร์ฟเวอร์เกม VPS ของฉันได้หรือไม่?",
+      "pl": "Czy mogę zmienić adres IP mojego serwera gier VPS?",
+      "ja": "VPSゲームサーバーのIPアドレスを変更できますか？",
+      "sv": "Kan jag ändra IP-adressen för min VPS-spelserver?",
+      "it": "Posso cambiare l'IP del mio server di gioco VPS?",
+      "nl": "Kan ik het IP-adres van mijn VPS game server wijzigen?"
+    },
+    "content": {
+      "en": "You can link a domain to your server's IP address using our documentation.",
+      "de": "Du kannst eine Domain mit der IP deines Servers verknüpfen. Eine Anleitung dazu findest du in unserer Dokumentation.",
+      "es": "Puedes vincular un dominio a la dirección IP de tu servidor utilizando nuestra documentación.",
+      "fr": "Vous pouvez lier un domaine à l'adresse IP de votre serveur en utilisant notre documentation.",
+      "ar": "يمكنك ربط نطاق بعنوان IP الخاص بالخادم الخاص بك باستخدام وثائقنا.",
+      "pt": "Você pode vincular um domínio ao endereço IP do seu servidor usando nossa documentação.",
+      "th": "คุณสามารถเชื่อมโยงโดเมนกับที่อยู่ IP ของเซิร์ฟเวอร์ของคุณโดยใช้เอกสารของเรา",
+      "pl": "Możesz powiązać domenę z adresem IP swojego serwera, korzystając z naszej dokumentacji.",
+      "ja": "当社のドキュメントを使用して、ドメインをサーバーのIPアドレスにリンクすることができます。",
+      "sv": "Du kan länka en domän till din servers IP-adress med hjälp av vår dokumentation.",
+      "it": "Puoi collegare un dominio all'indirizzo IP del tuo server utilizzando la nostra documentazione.",
+      "nl": "U kunt een domein koppelen aan het IP-adres van uw server met behulp van onze documentatie."
+    }
+  }
+]

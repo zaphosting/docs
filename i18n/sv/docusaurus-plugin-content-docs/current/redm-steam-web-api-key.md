@@ -1,0 +1,52 @@
+---
+id: redm-steam-web-api-key
+title: "RedM: Steam Web API-nyckel setup"
+description: "Upptäck hur du skaffar och aktiverar en Steam Web API-nyckel för RedM för att möjliggöra autentisering och förbättra din serversetup → Läs mer nu"
+sidebar_label: Steam Web API-nyckel
+services:
+  - gameserver-redm
+---
+
+import InlineVoucher from '@site/src/components/InlineVoucher';
+
+## Introduktion
+
+En Steam Web API-nyckel har viktiga användningsområden för RedM. Det inkluderar autentisering via API-nyckeln när Steam används som identifierare av olika scripts och/eller resurser.
+
+<InlineVoucher />
+
+## Förberedelser
+
+Ett Steam-konto utan begränsningar krävs för att kunna begära en API-nyckel. Begränsade Steam-konton har begränsad tillgång till Steams funktioner, så utan full tillgång går det inte att begära en API-nyckel. Du måste ha spenderat minst **5,00 USD** i Steam-butiken för att låsa upp ditt konto och dess funktioner.
+
+## Begär en API-nyckel
+
+När ditt Steam-konto är klart ska du kunna begära din egen Steam Web API-nyckel. Det gör du genom att logga in [på Steams webbplats](https://steamcommunity.com/dev/apikey) med ditt Steam-kontonamn och lösenord.
+
+![](https://github.com/zaphosting/docs/assets/42719082/56be5337-a458-425b-86b0-e0c5fa94abab)
+
+När du är inloggad måste du ange ett domännamn, godkänna användarvillkoren för Steam Web API och klicka på **Register**-knappen. Domänen ska sättas till din **Server IP** *(utan port)*, så skriv in den där.
+
+![](https://github.com/zaphosting/docs/assets/42719082/334e89a9-0eef-4ea5-b100-5a1e4b8cdc31)
+
+Om allt går som det ska ska du kunna se din egen Steam Web API-nyckel, som visas nedan.
+
+![](https://github.com/zaphosting/docs/assets/42719082/a99f463b-93ae-408b-b038-29e366b30256)
+
+## Aktivering av API-nyckel
+
+Nu när du har din Steam Web API-nyckel måste du lägga in den i din serverkonfiguration (`server.cfg`) på din RedM-spelserver. Du kan komma åt din `server.cfg` via **txAdmin-gränssnittet** under **CFG Editor**. Hitta en befintlig rad eller skapa en ny om den inte finns, och lägg till följande, där du byter ut `YOUR_KEY_HERE` mot nyckeln du genererade:
+
+```
+set steam_webApiKey "YOUR_KEY_HERE"
+```
+
+![img](https://screensaver01.zap-hosting.com/index.php/s/Rw48iY5FGCfP5s9/preview)
+
+
+
+## Avslutning
+
+Till sist kan du starta om din server. Din Steam Web API-nyckel kommer att laddas nästa gång servern är helt igång. Du har nu framgångsrikt lagt till en Steam Web API-nyckel i din RedM-spelserver. Har du fler frågor eller behöver hjälp är du varmt välkommen att kontakta vår support, som finns tillgänglig varje dag för att hjälpa dig! 🙂
+
+<InlineVoucher />

@@ -1,7 +1,7 @@
 ---
 id: vserver-linux-valheim
 title: "VPS: Valheim Dedicated Server Linux Setup"
-description: Information about setting up an Valheim Dedicated Server on a Linux VPS from ZAP-Hosting - ZAP-Hosting.com documentation
+description: "Discover how to set up a Valheim Dedicated server on your Linux VPS for seamless gameplay and server management → Learn more now"
 sidebar_label: Valheim
 services:
   - vserver

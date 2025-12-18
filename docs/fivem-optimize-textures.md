@@ -1,7 +1,7 @@
 ---
 id: fivem-optimize-textures
 title: "FiveM: Optimize textures"
-description: Wie du Texturen bei deinem FiveM Server von ZAP-Hosting optimieren kannst - ZAP-Hosting.com - Documentation
+description: "Discover how to optimize GTA5 mod textures to reduce size and improve game performance → Learn more now"
 sidebar_label: Optimize textures
 services:
   - gameserver-fivem

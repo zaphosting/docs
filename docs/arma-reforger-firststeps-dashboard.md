@@ -1,7 +1,7 @@
 ---
 id: arma-reforger-firststeps-dashboard
 title: "Arma Reforger: Dashboard Overview"
-description: Information about the dashboard of an Arma Reforger Server from ZAP-Hosting - ZAP-Hosting.com Documentation
+description: "Discover how to efficiently manage and optimize your Arma Reforger Server with a clear overview of key features and options → Learn more now"
 sidebar_label: Dashboard
 services:
   - gameserver-arma-reforger

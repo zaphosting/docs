@@ -1,7 +1,7 @@
 ---
 id: contribution-guides
 title: Guides Process
-description: Information on the guides (ZAP-Docs) contribution process for the ZAP-Hosting Community Contributions program - ZAP-Hosting.com documentation
+description: "Discover how to contribute valuable, original guides to ZAP-Docs and help educate users with clear, practical content → Learn more now"
 sidebar_label: Guides Process
 ---
 
@@ -115,7 +115,7 @@ Using our example, the file should now contain the following:
 ---
 id: rust-commands
 title: "Rust: Admin Commands"
-description: Information on Admin commands for Rust from ZAP-Hosting - ZAP-Hosting.com documentation
+description: "Information on Admin commands for Rust from ZAP-Hosting"
 sidebar_label: Admin Commands
 services:
   - gameserver
@@ -167,7 +167,7 @@ Once you have performed your changes, use the **Commit changes...** button which
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/2iQCZzzAHsHS2rt/preview)
 
-Enter a useful commit message that explains what you have done and an extended description where appropriate. Finally, commit the changes. This will commit it to your fork of the docs. You may now head over to the **[Submitting Content](#step-3-submitting-content)** section to create a Pull Request to submit the content to our main ZAP-Docs Repository.
+Enter a useful commit message that explains what you have done and an extended description where appropriate. Finally, commit the changes. This will commit it to your fork of the docs. You may now head over to the **Submitting Content** section to create a Pull Request to submit the content to our main ZAP-Docs Repository.
 
 </TabItem>
 
@@ -207,7 +207,7 @@ Using our example, the file should now contain the following:
 ---
 id: rust-commands
 title: "Rust: Admin Commands"
-description: Information on Admin commands for Rust from ZAP-Hosting - ZAP-Hosting.com documentation
+description: "Information on Admin commands for Rust from ZAP-Hosting"
 sidebar_label: Admin Commands
 services:
   - gameserver
@@ -259,10 +259,10 @@ Once you are finished with the changes to your guide, the last step of the entir
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/tFdrLknnXn62sZc/preview)
 
-You may now head over to the **[Submitting Content](#step-3-submitting-content)** section to create a Pull Request to submit the content to our ZAP-Docs Repository.
+You may now head over to the **Submitting Content** section to create a Pull Request to submit the content to our ZAP-Docs Repository.
 
 :::tip
-We recommend that you also read the optional **[Testing build locally](#optional-testing-build-locally)** section, as you can pair this section with testing locally to create an optimal workflow where changes are updated on your local build on-the-go which is proven to be very useful. However, this is not necessary.
+We recommend that you also read the optional **Testing build locally** section, as you can pair this section with testing locally to create an optimal workflow where changes are updated on your local build on-the-go which is proven to be very useful. However, this is not necessary.
 :::
 
 </TabItem>

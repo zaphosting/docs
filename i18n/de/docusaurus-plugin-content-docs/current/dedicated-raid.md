@@ -1,7 +1,7 @@
 ---
 id: dedicated-raid
-title: "Dedicated Server: RAID konfigurieren"
-description: Informationen, über die RAID Konfigurationsmöglichkeiten für deinen Dedicated Server von ZAP-Hosting - ZAP-Hosting.com Dokumentation 
+title: "Dedicated Server: RAID-Konfiguration"
+description: "Entdecke, wie RAID-Konfigurationen die Datenperformance und Redundanz bei Dedicated Servern mit SSDs verbessern → Jetzt mehr erfahren"
 sidebar_label: RAID konfigurieren
 services:
   - dedicated
@@ -11,125 +11,128 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
 
-RAID (Redundant Array of Independent Disks) ist eine Technologie, die mehrere Festplatten zu einem einzigen logischen Laufwerk zusammenfasst, um Datenredundanz und/oder Leistungssteigerung zu erreichen. Es gibt verschiedene RAID-Levels, die unterschiedliche Kombinationen aus Datenverteilung und Fehlertoleranz bieten.
+RAID (Redundant Array of Independent Disks) ist eine Technologie, die mehrere Festplatten zu einem einzigen logischen Laufwerk kombiniert, um Datenredundanz und/oder höhere Performance zu erreichen. Es gibt verschiedene RAID-Level, die unterschiedliche Kombinationen aus Datenverteilung und Fehlertoleranz bieten.
 
-<InlineVoucher />
 
-## Verfügbare RAID Arten
-Grundsätzlich gibt es verschiedenste Arten von RAID-Möglichkeiten. Dadurch dass unsere Dedicated Server für SSDs 2 Bays bereitstellen,
-ist eine Konfiguration von RAID0 oder RAID1 möglich. Andere Arten von RAID würden mehr Datenträger erfordern.
+
+## Verfügbare RAID-Typen
+Unsere Dedicated Server bieten aktuell 2 SSD-Bays, was zwei mögliche RAID-Konfigurationen erlaubt. Die erste ist RAID0, das Volumes zu einem großen Volume zusammenfasst, und RAID1, das Volumes spiegelt und Daten redundant hält. Beide Varianten erklären wir dir im Folgenden genauer.
 
 :::info
-RAID0 hat geringfügig schnellere Lese- und Schreibraten
+RAID0 bietet etwas schnellere Lese- und Schreibgeschwindigkeiten, da zwei Laufwerke parallel genutzt werden.
 :::
 
 ### RAID0
-Bei dieser RAID-Konfiguration werden alle vorhandenen Datenträger in ein großes Volume zusammengefasst, beispielsweise aus 2 jeweils 1 TB SSDs,
-würde eine 2 TB Partition entstehen, welche dann komplett genutzt werden könnte.
-Es besteht keine Datenredundanz, im Falle eines technischen Defektes ist also ein Datenverlust häufig unausweichlich, da deine Daten in verschiedenen Sektoren geschrieben werden.
-Solltest du also sensible Daten auf deinem System lagern ist grundsätzlich von RAID0 abzuraten oder es sollten zumindest regelmäßige Systembackups durchgeführt werden.
+Bei dieser RAID-Konfiguration werden alle vorhandenen Volumes zu einem großen Volume zusammengefasst, z.B. aus 2 SSDs mit je 1 TB. Es entsteht eine 2TB-Partition, die komplett genutzt werden kann.
+
+Es gibt keine Datenredundanz, bei einem technischen Defekt droht also oft Datenverlust, da die Daten auf verschiedene Sektoren verteilt geschrieben werden.
+
+Wenn du sensible Daten auf deinem System speicherst, solltest du RAID0 nicht verwenden oder zumindest regelmäßige System-Backups machen.
 
 :::info
-Wenn dein Dedicated Server lediglich 1 SSD hat, ist dies automatisch ein RAID0
+Hat dein Dedicated Server nur 1 SSD, ist das automatisch ein RAID0.
 :::
 
 ### RAID1
-Diese Konfiguration unterscheidet sich deutlich von RAID0, hier besteht eine Redundanz deiner Daten, das heißt, dass alles, was du auf deinem Server abspeicherst, dupliziert wird.
-Es wird also auf beiden SSDs gespiegelt und würde bei einer Ausfallquote von 50%, also einer 1 SSD weiterhin problemlos zur Verfügung stehen. 
-Bei einem technischen Defekt müsste lediglich die betroffene SSD ausgetauscht werden und dein Server würde das RAID wieder erneut aufbauen, das heißt die Daten spiegeln.
-Gerade für sensiblere Daten ist diese Konfiguration sehr empfehlenswert, dennoch ist sie keine Alternative, um keine Backups mehr anfertigen zu müssen.
+Diese Konfiguration unterscheidet sich stark von RAID0, denn hier gibt es eine Datenredundanz. Alles, was du auf deinem Server speicherst, wird dupliziert.
+
+Die Daten werden also auf beiden SSDs gespiegelt und sind bei einem Ausfall von 50 % der Laufwerke weiterhin verfügbar – deine Daten sind also mit 1 SSD sicher.
+
+Im Falle eines technischen Defekts muss nur die betroffene SSD ersetzt werden, danach baut dein Server das RAID wieder auf, also spiegelt die Daten erneut.
+Gerade bei sensiblen Daten ist diese Konfiguration sehr zu empfehlen, ersetzt aber kein Backup.
 
 :::info
-Regelmäßige Backups aller wichtigen Daten sind unerlässlich!
+Regelmäßige Backups aller wichtigen Daten sind ein Muss!
 :::
 
 ## Der Konfigurationsassistent
 
-Zuerst muss der Konfigurator für RAIDs aufgerufen werden, dies wird mit `F8` während dem Bootprozess erledigt.
+Beim Booten deines Servers muss das RAID-Konfigurationstool gestartet werden. Das geht, indem du im richtigen Boot-Schritt `F8` drückst.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/cYzj7L6dL5g7255/preview)
 
-Drücke `F8` an dieser Stelle des Bootvorgangs
+Drücke hier `F8`, um das RAID-Konfigurationstool zu öffnen
 
 ***
 
-![](https://screensaver01.zap-hosting.com/index.php/s/W4WSnmkeRJXTa9y/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/L4Lw8oGjxbDR96N/preview)
 
-Nach einigen Sekunden wird die Konfigurationsoberfläche geladen
+Nach ein paar Sekunden erscheint diese Konfigurationsübersicht.
 
 ***
 
-Hier finden sich nun einige verschiedene Menüpunkte:
+Es gibt jetzt mehrere Menüoptionen:
 
-* Create Logical Drive
-Das Erstellen eines neuen Volumes
+* Create Logical Drive  
+Erstellt ein neues Volume.
 
-* View Logical Drive
-Hier kann die aktuelle RAID-Konfiguration eingesehen werden. 
+* View Logical Drive  
+Zeigt die aktuelle RAID-Konfiguration an.
 
 ***
 RAID0
 
-![](https://screensaver01.zap-hosting.com/index.php/s/H9yRPPnAwkHGmyr/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/6mtbrFXNPeqHnYi/preview)
 
 RAID1
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/749Kxjq6Mkzdc69/preview)
 ***
 
-* Delete Logical Drive
-Damit kann die aktuelle RAID-Konfiguration gelöscht werden, um beispielsweise eine neue zu erstellen.
+* Delete Logical Drive  
+Hier kannst du die aktuelle RAID-Konfiguration löschen, um z.B. eine neue zu erstellen.
 
-* Select Boot Volume
-Hier könnte von einem anderen Speichermedium gebootet werden, was in unserem Falle hier nicht notwendig ist.
+* Select Boot Volume  
+Hier kannst du ein anderes Speichermedium zum Booten auswählen, was bei uns aber nicht nötig ist.
 
-* Manage License Keys
-Hier muss nichts angepasst oder verändert werden, die Lizenzierung ist bereits vorkonfiguriert.
+* Manage License Keys  
+Hier muss nichts angepasst werden, die Lizenzierung ist schon vorkonfiguriert.
 
-* Cache Settings
-Die Cache-Option kann angepasst werden, um die Lese/Schreibraten der SSD nochmals etwas zu erhöhen.
-Grundsätzlich wird bei jedem Schreibvorgang zur Sicherheit z.B. bei Spannungsverlust die letzten Datenblöcke zwischengespeichert.
-Was einen minimalen Leistungsnachteil verursacht.
+* Cache Settings  
+Die Cache-Option kann angepasst werden, um die Lese-/Schreibgeschwindigkeit der SSD etwas zu erhöhen.  
+Grundsätzlich werden die letzten Datenblöcke bei jedem Schreibvorgang zwischengespeichert, z.B. aus Sicherheitsgründen bei Stromausfall.  
+Das kann minimal die Performance beeinträchtigen.
 
-### Erstellen eines RAIDs
+### Neues RAID erstellen
 
-Zuerst stellen wir sicher das kein Volume erstellt wurde, hierzu öffnen wir `Delete Logical Drive`
+Zuerst prüfen wir, ob kein Volume mehr existiert, dazu öffnen wir `Delete Logical Drive`
 
-![](https://screensaver01.zap-hosting.com/index.php/s/s4JM84K38negZiS/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/EbPtmgFyZ3oN6jb/preview)
 
 Wir drücken `F8`, um das bestehende RAID zu löschen.
 
 ***
 
-![](https://screensaver01.zap-hosting.com/index.php/s/NH94PZ3EkzXfwbS/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/qmtAciacCLKJ9QG/preview)
 
-Mit `F3` bestätigen wir das Löschen erneut
+Mit `F3` bestätigen wir die Löschung.
 
 ***
 
 Nachdem das RAID erfolgreich gelöscht wurde, öffnen wir `Create Logical Drive`
 
-![](https://screensaver01.zap-hosting.com/index.php/s/Jb8ciXoDRWzLxmJ/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/SjP6ZkcWXCKc4kT/preview)
 
-Hier kannst du alle deine SSDs sehen und hast eine Auswahl der RAID-Konfigurationen.
-Natürlich sind nicht alle dieser RAIDs in der aktuellen Konstellation umsetzbar.
 
-Wir wählen in unserem Beispiel also das RAID0 oder RAID1.
+Hier siehst du alle deine SSDs und kannst eine RAID-Konfiguration auswählen.  
+Natürlich sind nicht alle RAID-Level in der aktuellen Hardware-Konstellation umsetzbar.
 
-:::info
-Du kannst zwischen den Menüs mit TAB wechseln
-:::
-
-Wenn du das gewünschte RAID ausgewählt hast, kannst du deine Wahl mit `Enter` bestätigen.
+In unserem Beispiel wählen wir RAID0 oder RAID1.
 
 :::info
-Du kannst nun mit `ESC` den Konfigurationsassistenten verlassen.
+Zwischen den Menüs kannst du mit `TAB` wechseln.
 :::
 
-### Boot Volume erstellen
+Wenn du deine RAID-Konfiguration ausgewählt hast, bestätigst du mit `Enter`.
 
-Sofern dein RAID in irgendeiner Form modifiziert wurde, muss zwingend zum Abschluss immer ein das Boot Volume definiert werden.
-Dies kann unter **Select Boot Volume** erledigt werden, wähle hierbei dein Speichermedium, andernfalls wird der Server in einer Bootschleife hängen.
+:::info
+Den Konfigurationsassistenten kannst du mit `ESC` schließen.
+:::
+
+### Boot-Volume auswählen
+
+Wenn du dein RAID verändert hast, musst du unbedingt das Boot-Volume auswählen.  
+Das geht ganz einfach unter **Select Boot Volume** – wähle dort das logische Laufwerk, das du erstellt hast, sonst hängt dein Server in einer Bootschleife fest.
 
 **Select Boot Volume**<br/>
 ![](https://screensaver01.zap-hosting.com/index.php/s/2GDEYfjnkmaKF9F/preview)
@@ -140,18 +143,14 @@ Dies kann unter **Select Boot Volume** erledigt werden, wähle hierbei dein Spei
 **Logical Drive 01**<br/>
 ![](https://screensaver01.zap-hosting.com/index.php/s/tN6pRiJbZexbzmg/preview)
 ***
-**Press `F8` to save as bootvolume**<br/>
+**Drücke `F8`, um als Bootvolume zu speichern**<br/>
 ![](https://screensaver01.zap-hosting.com/index.php/s/tqGFzGZGgeo4JjZ/preview)
 
-Danach hast du die Möglichkeit, mit `F8` direkt dein System neuzustarten oder mit `Enter` weitere Einstellungen im RAID-Manager vorzunehmen.
-Bedenke, dass das Boot Volume **immer** nach Veränderungen deines RAIDs angepasst werden muss.
+Am Ende kannst du durch Drücken von `F8` dein System direkt neu starten oder mit `Enter` ins Hauptmenü zurückkehren.  
+Wichtig: Das Boot-Volume muss **immer** gesetzt werden, wenn du deine RAID-Konfiguration geändert hast.
 
 
 
+## Fazit
 
-
-## Abschluss
-
-Glückwunsch, du hast das RAID erfolgreich konfiguriert. Für weitere Fragen oder Hilfe zögere bitte nicht, unser Support-Team zu kontaktieren, das dir täglich zur Verfügung steht! 🙂
-
-<InlineVoucher />
+Glückwunsch, du hast dein RAID auf deinem Dedicated Server erfolgreich konfiguriert. Bei weiteren Fragen oder Problemen steht dir unser Support-Team täglich zur Seite! 🙂

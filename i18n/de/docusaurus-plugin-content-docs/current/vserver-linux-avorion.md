@@ -1,7 +1,7 @@
 ---
 id: vserver-linux-avorion
 title: "vServer: Avorion Dedicated Server Linux Setup"
-description: Informationen zur Einrichtung eines Avorion Dedicated Servers auf einem Linux vServer von ZAP-Hosting - ZAP-Hosting.com Dokumentation
+description: "Entdecke, wie du einen Avorion Dedicated Server auf deinem Linux VPS für nahtloses Gameserver Hosting und Management einrichtest → Jetzt mehr erfahren"
 sidebar_label: Avorion
 services:
   - vserver
@@ -10,67 +10,66 @@ services:
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
-
-Hast du einen Linux Dedicated Server und möchtest den Avorion Dedicated Server Service darauf installieren? Dann bist du hier genau richtig. In dieser Anleitung erklären wir dir Schritt für Schritt, wie du diesen Dienst mithilfe von SteamCMD auf deinem Linux-Server installierst. Wir verwenden in den Beispielen Ubuntu, aber der Prozess sollte bei anderen Distributionen sehr ähnlich sein.
+Du hast einen Linux VPS und möchtest den Avorion Dedicated Server darauf installieren? Dann bist du hier genau richtig. In dieser Anleitung erklären wir dir Schritt für Schritt, wie du diesen Service auf deinem Linux-Server mit SteamCMD installierst. Wir verwenden Ubuntu als Beispiel, aber der Prozess ist bei anderen Distributionen sehr ähnlich.
 
 :::tip
-Wusstest du, dass du unser **ZAP GS/TS3 Interface** direkt auf deinem Dedicated Server installieren kannst? Damit kannst du mit nur wenigen Klicks Gameserver-Dienste einrichten, die direkt in dein ZAP-Hosting-Dashboard integriert sind! Erfahre mehr über das [GS/TS3 Interface](vserver-linux-gs-interface.md).
+Wusstest du, dass du unsere **ZAP GS/TS3 Interface** direkt auf deinem VPS installieren kannst? Damit richtest du Gameserver-Services mit direkter Integration in dein ZAP-Hosting Dashboard in nur wenigen Klicks ein! Erfahre mehr über die [GS/TS3 Interface](vserver-linux-gs-interface.md).
 :::
 
 <InlineVoucher />
 
 ## Vorbereitung
 
-Verbinde dich zunächst über SSH mit deinem Dedicated Server. Benutze unsere Anleitung [Erstzugriff (SSH)](vserver-linux-ssh.md), wenn du dabei Hilfe benötigst.
+Verbinde dich zunächst per SSH mit deinem VPS. Falls du dabei Hilfe brauchst, nutze unsere [SSH Erste Schritte](vserver-linux-ssh.md) Anleitung.
 
-Du musst auch eine Ersteinrichtung für SteamCMD vornehmen, wenn du es zum ersten Mal auf deinem Linux-Server verwendest. Bitte benutze unsere [SteamCMD einrichten](vserver-linux-steamcmd.md) Anleitung und stelle sicher, dass SteamCMD vollständig eingerichtet ist, bevor du fortfährst.
+Falls du SteamCMD zum ersten Mal auf deinem Linux-Server nutzt, musst du es einmalig einrichten. Folge dazu unserer [SteamCMD Linux Setup](vserver-linux-steamcmd.md) Anleitung und stelle sicher, dass SteamCMD vollständig eingerichtet ist, bevor du weitermachst.
 
 ## Installation
 
-Beginne damit, dich als Benutzer `steam` anzumelden und gehe in das Root-Verzeichnis `home/steam`, um für Ordnung zu sorgen.
+Melde dich als `steam` User an und wechsle in das Home-Verzeichnis von `steam`, um alles ordentlich zu halten.
 ```
 sudo -u steam -s
 cd ~
 ```
 
-Wenn du eingeloggt bist, kannst du den Installationsprozess mit folgendem Befehl starten, um die Installation mit Hilfe von SteamCMD direkt in deinem `steam`-Benutzer zu starten.
+Sobald du eingeloggt bist, kannst du die Installation mit folgendem Befehl starten. So installierst du den Server direkt über SteamCMD als `steam` User.
 ```
 steamcmd +force_install_dir '/home/steam/Avorion-Server' +login anonymous +app_update 565060 validate +quit
 ```
 
-Bitte habe etwas Geduld, während der Download abgeschlossen wird, denn bei größeren Spielen kann es einige Zeit dauern. Wenn der Download erfolgreich war, wird eine Erfolgsmeldung angezeigt, die dies bestätigt.
+Bitte hab Geduld, bis der Download abgeschlossen ist – bei größeren Spielen kann das etwas dauern. Wenn alles erfolgreich war, erscheint eine Bestätigungsmeldung.
 
 ## Konfiguration
 
-Zu diesem Zeitpunkt hast du die Einrichtung deines Avorion-Servers abgeschlossen. Du kannst deine Servereinstellungen direkt über die **startserver.sh**-Datei konfigurieren, die du zuvor kopiert hast. Öffne die Datei mit `nano /home/steam/Avorion-Server/startserver.sh` und konfiguriere die Parameter für deinen Server.
+Jetzt hast du die Grundinstallation deines Avorion Servers abgeschlossen. Die Server-Einstellungen kannst du direkt in der **startserver.sh** Datei anpassen, die du zuvor kopiert hast. Öffne sie mit `nano /home/steam/Avorion-Server/startserver.sh` und konfiguriere deine Server-Parameter.
 
-Du kannst weltenspezifische Parameter und Einstellungen bearbeiten, indem du die **server.ini**-Konfigurationsdatei bearbeitest, die sich in jedem Galaxie-Speicher befindet. Diese wird im Stammordner deines Benutzers (der `steam` lauten sollte) gespeichert und kann mit den folgenden Befehlen verwaltet werden.
+Welt-spezifische Einstellungen kannst du in der **server.ini** Datei ändern, die in jedem Galaxy-Save liegt. Diese findest du im Root-Verzeichnis deines Users (normalerweise `steam`) und kannst sie mit folgenden Befehlen bearbeiten:
 ```
-# Aktuelle Speicherstände anzeigen
+# Aktuelle Saves anzeigen
 ls /home/steam/.avorion/galaxies
 
-# Edit a Save Configuration
+# Save-Konfiguration bearbeiten
 nano /home/steam/.avorion/galaxies/avorion_galaxy/server.ini
 ```
 
-## Starten und Verbinden mit deinem Server
+## Server starten & verbinden
 
-Jetzt ist es an der Zeit, deinen Server zu starten. Gehe zum Hauptverzeichnis des Spiels, wo wir empfehlen, eine Kopie der Beispiel-Batch-Datei zu erstellen.
+Jetzt geht’s ans Eingemachte: Starte deinen Server. Wechsle ins Hauptspielverzeichnis und erstelle am besten eine Kopie der Beispiel-Batchdatei.
 ```
 cp /home/steam/Avorion-Server/server.sh /home/steam/Avorion-Server/startserver.sh
 ```
 
-Du kannst die Datei auch bearbeiten. Wenn du fertig bist, führe die neue **startserver.sh**-Batchdatei mit dem folgenden Befehl aus.
+Du kannst die Datei nach Belieben anpassen. Wenn du bereit bist, starte den Server mit folgendem Befehl:
 ```
 /home/steam/Avorion-Server/startserver.sh
 ```
 
-In der Eingabeaufforderung sollten nun Protokolle angezeigt werden, die signalisieren, dass der Startvorgang erfolgreich war. Bitte beachte, dass der erste Startvorgang einige Zeit in Anspruch nehmen kann, da alles eingerichtet wird. Sobald alles fertig ist, sollte in der Konsole `Server startup complete.` angezeigt werden. Du kannst dich nun direkt mit deinem Server verbinden, indem du den Server-Browser im Spiel verwendest und deine Server-IP und deinen Port eingibst (Standard ist 27000).
+Im Terminal solltest du nun Logs sehen, die den erfolgreichen Start anzeigen. Beachte, dass der erste Start etwas länger dauern kann, da alles eingerichtet wird. Sobald alles fertig ist, erscheint die Meldung `Server startup complete.` in der Konsole. Du kannst dich jetzt direkt über den Ingame-Serverbrowser mit deinem Server verbinden, indem du die Server-IP und den Port (Standard: 27000) eingibst.
 
-## Abschluss
+## Fazit
 
-Herzlichen Glückwunsch, du hast den Foundry-Server erfolgreich auf deinem Dedicated Server installiert und konfiguriert! Als nächsten Schritt empfehlen wir dir einen Blick in unsere Anleitung [Linux Dienst einrichten](vserver-linux-create-gameservice.md), in der du deinen neuen dedizierten Gameserver als Dienst einrichten kannst. Dies bietet verschiedene Vorteile, wie z. B. den automatischen Start des Servers beim Hochfahren, automatische Server-Updates, einfache Verwaltung und Zugriff auf Logs und vieles mehr!
+Glückwunsch, du hast deinen Avorion Server erfolgreich auf deinem VPS installiert und konfiguriert! Als nächsten Schritt empfehlen wir dir unsere [Linux Service Setup](vserver-linux-create-gameservice.md) Anleitung. Dort erfährst du, wie du deinen neuen Dedicated Gameserver als Service einrichtest. Das bringt dir viele Vorteile wie automatischen Serverstart beim Booten, automatische Updates, einfache Verwaltung und Zugriff auf Logs – und noch viel mehr!
 
-Wenn du weitere Fragen oder Probleme hast, wende dich bitte an unser Support-Team, das dir jeden Tag zur Verfügung steht!
+Falls du weitere Fragen oder Probleme hast, steht dir unser Support-Team täglich zur Verfügung und hilft dir gerne weiter!
 
 <InlineVoucher />

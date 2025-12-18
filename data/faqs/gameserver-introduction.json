@@ -1,0 +1,602 @@
+[
+  {
+    "title": {
+      "en": "Why should I book a dedicated IPv4 address for my game server?",
+      "de": "Warum sollte ich eine eigene IPv4-Adresse für meinen Gameserver buchen?",
+      "es": "¿Por qué debería reservar una dirección IPv4 dedicada para mi servidor de juegos?",
+      "fr": "Pourquoi devrais-je réserver une adresse IPv4 dédiée pour mon serveur de jeu ?",
+      "ar": "لماذا يجب أن أحجز عنوان IPv4 مخصص لخادم اللعبة الخاص بي؟",
+      "pt": "Por que devo reservar um endereço IPv4 dedicado para meu servidor de jogos?",
+      "th": "ทำไมฉันควรจองที่อยู่ IPv4 แบบเฉพาะสำหรับเซิร์ฟเวอร์เกมของฉัน?",
+      "pl": "Dlaczego powinienem zarezerwować dedykowany adres IPv4 dla mojego serwera gier?",
+      "ja": "ゲームサーバーのために専用のIPv4アドレスを予約する理由は何ですか？",
+      "sv": "Varför bör jag boka en dedikerad IPv4-adress för min spelserver?",
+      "it": "Perché dovrei prenotare un indirizzo IPv4 dedicato per il mio server di gioco?",
+      "nl": "Waarom zou ik een dedicated IPv4-adres voor mijn game server moeten reserveren?"
+    },
+    "content": {
+      "en": "A dedicated IPv4 address allows you to use the default port, provides direct access to the DDoS manager, and can offer advantages during certain types of DDoS attacks.",
+      "de": "Mit einer eigenen IPv4-Adresse kannst du den Standardport nutzen, hast Zugriff auf den DDoS-Manager und profitierst bei bestimmten DDoS-Angriffen.",
+      "es": "Una dirección IPv4 dedicada te permite utilizar el puerto predeterminado, proporciona acceso directo al gestor de DDoS y puede ofrecer ventajas durante ciertos tipos de ataques DDoS.",
+      "fr": "Une adresse IPv4 dédiée vous permet d'utiliser le port par défaut, offre un accès direct au gestionnaire DDoS et peut présenter des avantages lors de certains types d'attaques DDoS.",
+      "ar": "تتيح لك عنوان IPv4 المخصص استخدام المنفذ الافتراضي، وتوفر وصولاً مباشراً إلى مدير DDoS، ويمكن أن تقدم مزايا خلال أنواع معينة من هجمات DDoS.",
+      "pt": "Um endereço IPv4 dedicado permite que você utilize a porta padrão, fornece acesso direto ao gerenciador de DDoS e pode oferecer vantagens durante certos tipos de ataques DDoS.",
+      "th": "ที่อยู่ IPv4 แบบเฉพาะช่วยให้คุณสามารถใช้พอร์ตเริ่มต้นได้ ให้การเข้าถึงโดยตรงไปยังผู้จัดการ DDoS และสามารถนำเสนอข้อได้เปรียบในระหว่างการโจมตี DDoS บางประเภทได้",
+      "pl": "Dedykowany adres IPv4 pozwala na korzystanie z domyślnego portu, zapewnia bezpośredni dostęp do menedżera DDoS i może oferować korzyści podczas niektórych typów ataków DDoS.",
+      "ja": "専用のIPv4アドレスを使用すると、デフォルトポートを利用でき、DDoSマネージャーへの直接アクセスが可能になり、特定の種類のDDoS攻撃において利点を提供することができます。",
+      "sv": "En dedikerad IPv4-adress gör att du kan använda standardporten, ger direkt åtkomst till DDoS-hanteraren och kan erbjuda fördelar under vissa typer av DDoS-attacker.",
+      "it": "Un indirizzo IPv4 dedicato ti consente di utilizzare la porta predefinita, fornisce accesso diretto al gestore DDoS e può offrire vantaggi durante determinati tipi di attacchi DDoS.",
+      "nl": "Een dedicated IPv4-adres stelt je in staat om de standaardpoort te gebruiken, biedt directe toegang tot de DDoS-manager en kan voordelen bieden tijdens bepaalde soorten DDoS-aanvallen."
+    }
+  },
+  {
+    "title": {
+      "en": "Will choosing a different server location affect my ping?",
+      "de": "Beeinflusst ein anderer Serverstandort meinen Ping?",
+      "es": "¿Elegir una ubicación de servidor diferente afectará mi ping?",
+      "fr": "Le choix d'un emplacement de serveur différent affectera-t-il mon ping ?",
+      "ar": "هل سيؤثر اختيار موقع خادم مختلف على زمن الاستجابة (Ping) الخاص بي؟",
+      "pt": "Escolher uma localização de servidor diferente afetará meu ping?",
+      "th": "การเลือกตำแหน่งเซิร์ฟเวอร์ที่แตกต่างกันจะมีผลต่อค่า ping ของฉันหรือไม่?",
+      "pl": "Czy wybór innej lokalizacji serwera wpłynie na mój ping?",
+      "ja": "異なるサーバーの場所を選択すると、私のピングに影響しますか？",
+      "sv": "Kommer valet av en annan serverplats att påverka min ping?",
+      "it": "La scelta di una posizione del server diversa influenzerà il mio ping?",
+      "nl": "Zal het kiezen van een andere serverlocatie mijn ping beïnvloeden?"
+    },
+    "content": {
+      "en": "Use the Ping Check tool to see your connection latency to each server location. This helps you choose the best location for minimal ping.",
+      "de": "Nutze den Ping-Check, um die Latenz zu unseren Standorten zu prüfen und den besten Standort zu wählen.",
+      "es": "Utiliza la herramienta de Verificación de Ping para ver la latencia de tu conexión a cada ubicación del servidor. Esto te ayuda a elegir la mejor ubicación para minimizar el ping.",
+      "fr": "Utilisez l'outil de vérification de ping pour voir votre latence de connexion vers chaque emplacement de serveur. Cela vous aide à choisir le meilleur emplacement pour un ping minimal.",
+      "ar": "استخدم أداة فحص الاتصال لرؤية زمن التأخير في الاتصال الخاص بك مع كل موقع خادم. يساعدك ذلك في اختيار أفضل موقع للحصول على أقل زمن تأخير.",
+      "pt": "Use a ferramenta de Verificação de Ping para verificar a latência da sua conexão em relação a cada local de servidor. Isso ajuda você a escolher a melhor localização para minimizar o ping.",
+      "th": "ใช้เครื่องมือ Ping Check เพื่อตรวจสอบความหน่วงของการเชื่อมต่อของคุณไปยังแต่ละตำแหน่งเซิร์ฟเวอร์ ซึ่งจะช่วยให้คุณเลือกตำแหน่งที่ดีที่สุดเพื่อให้มีความหน่วงต่ำที่สุด",
+      "pl": "Użyj narzędzia Ping Check, aby sprawdzić opóźnienie połączenia do każdej lokalizacji serwera. To pomoże Ci wybrać najlepszą lokalizację dla minimalnego ping.",
+      "ja": "Pingチェックツールを使用して、各サーバーロケーションへの接続遅延を確認してください。これにより、最小のピングのために最適なロケーションを選択するのに役立ちます。",
+      "sv": "Använd Ping Check-verktyget för att se din anslutningslatens till varje serverplats. Detta hjälper dig att välja den bästa platsen för minimal ping.",
+      "it": "Utilizza lo strumento di Ping Check per verificare la latenza della tua connessione verso ciascuna posizione del server. Questo ti aiuta a scegliere la posizione migliore per una latenza minima.",
+      "nl": "Gebruik de Ping Check-tool om de latentie van je verbinding naar elke serverlocatie te bekijken. Dit helpt je de beste locatie te kiezen voor minimale ping."
+    }
+  },
+  {
+    "title": {
+      "en": "Does my server include all GTA 5 mods?",
+      "de": "Sind alle GTA 5 Mods enthalten?",
+      "es": "¿Mi servidor incluye todos los mods de GTA 5?",
+      "fr": "Mon serveur inclut-il tous les mods de GTA 5 ?",
+      "ar": "هل يتضمن خادمي جميع تعديلات GTA 5؟",
+      "pt": "Meu servidor inclui todos os mods do GTA 5?",
+      "th": "เซิร์ฟเวอร์ของฉันรวมมอดทั้งหมดของ GTA 5 หรือไม่?",
+      "pl": "Czy mój serwer zawiera wszystkie mody do GTA 5?",
+      "ja": "私のサーバーにはすべてのGTA 5モッドが含まれていますか？",
+      "sv": "Ingår alla GTA 5-mods i min server?",
+      "it": "Il mio server include tutti i mod di GTA 5?",
+      "nl": "Bevat mijn server alle GTA 5-mods?"
+    },
+    "content": {
+      "en": "No, but you can upload compatible mods via FTP, ensuring they match the platform you use (FiveM, RageMP, Alt:V).",
+      "de": "Nein, Mods müssen per FTP hochgeladen und mit der genutzten Plattform (FiveM, RageMP, Alt:V) kompatibel sein.",
+      "es": "No, pero puedes subir mods compatibles a través de FTP, asegurándote de que coincidan con la plataforma que utilizas (FiveM, RageMP, Alt:V).",
+      "fr": "Non, mais vous pouvez télécharger des mods compatibles via FTP, en vous assurant qu'ils correspondent à la plateforme que vous utilisez (FiveM, RageMP, Alt:V).",
+      "ar": "لا، ولكن يمكنك رفع المودات المتوافقة عبر FTP، مع التأكد من أنها تتناسب مع المنصة التي تستخدمها (FiveM، RageMP، Alt:V).",
+      "pt": "Não, mas você pode fazer o upload de mods compatíveis via FTP, garantindo que eles correspondam à plataforma que você utiliza (FiveM, RageMP, Alt:V).",
+      "th": "ไม่ แต่คุณสามารถอัปโหลดม็อดที่เข้ากันได้ผ่าน FTP โดยต้องมั่นใจว่าม็อดเหล่านั้นตรงกับแพลตฟอร์มที่คุณใช้ (FiveM, RageMP, Alt:V)",
+      "pl": "Nie, ale możesz przesyłać kompatybilne mody za pomocą FTP, upewniając się, że pasują do platformy, której używasz (FiveM, RageMP, Alt:V).",
+      "ja": "いいえ、しかし、FTPを介して互換性のあるモッドをアップロードすることができます。これらのモッドは、使用しているプラットフォーム（FiveM、RageMP、Alt:V）に一致していることを確認してください。",
+      "sv": "Nej, men du kan ladda upp kompatibla mods via FTP, och se till att de matchar plattformen du använder (FiveM, RageMP, Alt:V).",
+      "it": "No, ma puoi caricare mod compatibili tramite FTP, assicurandoti che corrispondano alla piattaforma che utilizzi (FiveM, RageMP, Alt:V).",
+      "nl": "Nee, maar je kunt compatibele mods uploaden via FTP, waarbij je ervoor zorgt dat ze overeenkomen met het platform dat je gebruikt (FiveM, RageMP, Alt:V)."
+    }
+  },
+  {
+    "title": {
+      "en": "How quickly is my game server set up?",
+      "de": "Wie schnell wird mein Gameserver eingerichtet?",
+      "es": "¿Con qué rapidez se configura mi servidor de juegos?",
+      "fr": "Quelle est la rapidité de la configuration de mon serveur de jeu ?",
+      "ar": "كم من الوقت يستغرق إعداد خادم اللعبة الخاص بي؟",
+      "pt": "Quão rapidamente meu servidor de jogo é configurado?",
+      "th": "เซิร์ฟเวอร์เกมของฉันจะถูกตั้งค่าเร็วแค่ไหน?",
+      "pl": "Jak szybko jest konfigurowany mój serwer gier?",
+      "ja": "ゲームサーバーのセットアップはどれくらい迅速に行われますか？",
+      "sv": "Hur snabbt sätts min spelserver upp?",
+      "it": "Quanto velocemente viene configurato il mio server di gioco?",
+      "nl": "Hoe snel wordt mijn game server opgezet?"
+    },
+    "content": {
+      "en": "Most servers are ready within minutes of ordering.",
+      "de": "In der Regel innerhalb weniger Minuten nach Bestellung.",
+      "es": "La mayoría de los servidores están listos en minutos después de realizar el pedido.",
+      "fr": "La plupart des serveurs sont prêts dans les minutes qui suivent la commande.",
+      "ar": "تكون معظم الخوادم جاهزة في غضون دقائق من الطلب.",
+      "pt": "A maioria dos servidores está pronta em minutos após o pedido.",
+      "th": "เซิร์ฟเวอร์ส่วนใหญ่จะพร้อมใช้งานภายในไม่กี่นาทีหลังจากการสั่งซื้อ",
+      "pl": "Większość serwerów jest gotowa w ciągu kilku minut od złożenia zamówienia.",
+      "ja": "ほとんどのサーバーは、注文から数分以内に準備が整います。",
+      "sv": "De flesta servrar är klara inom några minuter efter beställning.",
+      "it": "La maggior parte dei server è pronta entro pochi minuti dall'ordine.",
+      "nl": "De meeste servers zijn binnen enkele minuten na bestelling klaar."
+    }
+  },
+  {
+    "title": {
+      "en": "How effective is your DDoS protection?",
+      "de": "Wie gut ist der DDoS-Schutz?",
+      "es": "¿Qué tan efectiva es su protección contra DDoS?",
+      "fr": "Quelle est l'efficacité de votre protection DDoS ?",
+      "ar": "ما مدى فعالية حماية DDoS الخاصة بك؟",
+      "pt": "Quão eficaz é a sua proteção contra DDoS?",
+      "th": "การป้องกัน DDoS ของคุณมีประสิทธิภาพแค่ไหน?",
+      "pl": "Jak skuteczna jest wasza ochrona przed DDoS?",
+      "ja": "あなたのDDoS保護はどれほど効果的ですか？",
+      "sv": "Hur effektiv är er DDoS-skydd?",
+      "it": "Quanto è efficace la vostra protezione DDoS?",
+      "nl": "Hoe effectief is uw DDoS-bescherming?"
+    },
+    "content": {
+      "en": "All servers at our Eygelshoven location use advanced DDoS protection from PletX. You can see a live demonstration here: https://www.twitch.tv/videos/2509694036",
+      "de": "Am Standort Eygelshoven nutzen alle Server den erweiterten DDoS-Schutz von PletX. Live-Demo: https://www.twitch.tv/videos/2509694036",
+      "es": "Todos los servidores en nuestra ubicación de Eygelshoven utilizan protección avanzada contra DDoS de PletX. Puedes ver una demostración en vivo aquí: https://www.twitch.tv/videos/2509694036",
+      "fr": "Tous les serveurs de notre emplacement à Eygelshoven utilisent une protection DDoS avancée de PletX. Vous pouvez voir une démonstration en direct ici : https://www.twitch.tv/videos/2509694036",
+      "ar": "جميع الخوادم في موقعنا في إيغيلشوفن تستخدم حماية متقدمة من هجمات DDoS من PletX. يمكنك مشاهدة عرض مباشر هنا: https://www.twitch.tv/videos/2509694036",
+      "pt": "Todos os servidores em nossa localização em Eygelshoven utilizam proteção avançada contra DDoS da PletX. Você pode ver uma demonstração ao vivo aqui: https://www.twitch.tv/videos/2509694036",
+      "th": "เซิร์ฟเวอร์ทั้งหมดที่ตั้งอยู่ใน Eygelshoven ของเราใช้การป้องกัน DDoS ขั้นสูงจาก PletX คุณสามารถดูการสาธิตสดได้ที่นี่: https://www.twitch.tv/videos/2509694036",
+      "pl": "Wszystkie serwery w naszej lokalizacji w Eygelshoven korzystają z zaawansowanej ochrony DDoS od PletX. Możesz zobaczyć na żywo demonstrację tutaj: https://www.twitch.tv/videos/2509694036",
+      "ja": "私たちのエイゲルスホーフェンのロケーションにあるすべてのサーバーは、PletXによる高度なDDoS保護を使用しています。こちらでライブデモをご覧いただけます: https://www.twitch.tv/videos/2509694036",
+      "sv": "Alla servrar på vår plats i Eygelshoven använder avancerat DDoS-skydd från PletX. Du kan se en live-demonstration här: https://www.twitch.tv/videos/2509694036",
+      "it": "Tutti i server presso la nostra sede di Eygelshoven utilizzano una protezione avanzata DDoS fornita da PletX. Puoi vedere una dimostrazione dal vivo qui: https://www.twitch.tv/videos/2509694036",
+      "nl": "Alle servers op onze locatie in Eygelshoven maken gebruik van geavanceerde DDoS-bescherming van PletX. Je kunt hier een live demonstratie bekijken: https://www.twitch.tv/videos/2509694036"
+    }
+  },
+  {
+    "title": {
+      "en": "Do you support Foundry VTT?",
+      "de": "Unterstützt ihr Foundry VTT?",
+      "es": "¿Soportan Foundry VTT?",
+      "fr": "Supportez-vous Foundry VTT ?",
+      "ar": "هل تدعم Foundry VTT؟",
+      "pt": "Você suporta o Foundry VTT?",
+      "th": "คุณสนับสนุน Foundry VTT หรือไม่?",
+      "pl": "Czy wspieracie Foundry VTT?",
+      "ja": "Foundry VTTをサポートしていますか？",
+      "sv": "Stöder ni Foundry VTT?",
+      "it": "Supportate Foundry VTT?",
+      "nl": "Ondersteunen jullie Foundry VTT?"
+    },
+    "content": {
+      "en": "We currently only offer Foundry via Steam as a pre-installed game server. Foundry VTT can be installed on VPS, root, or dedicated servers.",
+      "de": "Derzeit bieten wir Foundry nur über Steam als vorinstallierten Gameserver an. Foundry VTT kann auf VPS, Root- oder Dedicated-Servern installiert werden.",
+      "es": "Actualmente, solo ofrecemos Foundry a través de Steam como un servidor de juego preinstalado. Foundry VTT se puede instalar en VPS, servidores raíz o servidores dedicados.",
+      "fr": "Nous proposons actuellement Foundry uniquement via Steam en tant que serveur de jeu pré-installé. Foundry VTT peut être installé sur des VPS, des serveurs root ou des serveurs dédiés.",
+      "ar": "نحن نقدم حاليًا Foundry عبر Steam كخادم ألعاب مثبت مسبقًا. يمكن تثبيت Foundry VTT على VPS أو خوادم الجذر أو الخوادم المخصصة.",
+      "pt": "Atualmente, oferecemos o Foundry apenas via Steam como um servidor de jogo pré-instalado. O Foundry VTT pode ser instalado em VPS, servidores root ou servidores dedicados.",
+      "th": "ขณะนี้เรามีการให้บริการ Foundry ผ่าน Steam เท่านั้นในฐานะเซิร์ฟเวอร์เกมที่ติดตั้งไว้ล่วงหน้า Foundry VTT สามารถติดตั้งได้บน VPS, root หรือ dedicated servers.",
+      "pl": "Obecnie oferujemy Foundry wyłącznie za pośrednictwem Steam jako wstępnie zainstalowany serwer gier. Foundry VTT można zainstalować na VPS, serwerach root lub serwerach dedykowanych.",
+      "ja": "現在、FoundryはSteamを通じてプリインストールされたゲームサーバーとしてのみ提供しています。Foundry VTTは、VPS、ルートサーバー、または専用サーバーにインストールすることができます。",
+      "sv": "Vi erbjuder för närvarande endast Foundry via Steam som en förinstallerad spelserver. Foundry VTT kan installeras på VPS, root- eller dedikerade servrar.",
+      "it": "Attualmente offriamo Foundry solo tramite Steam come server di gioco preinstallato. Foundry VTT può essere installato su VPS, server root o server dedicati.",
+      "nl": "We bieden momenteel alleen Foundry aan via Steam als een voorgeïnstalleerde game server. Foundry VTT kan worden geïnstalleerd op VPS, root- of dedicated servers."
+    }
+  },
+  {
+    "title": {
+      "en": "Which operating system do you use for Insurgency?",
+      "de": "Welches Betriebssystem nutzt ihr für Insurgency?",
+      "es": "¿Qué sistema operativo utilizas para Insurgency?",
+      "fr": "Quel système d'exploitation utilisez-vous pour Insurgency ?",
+      "ar": "أي نظام تشغيل تستخدمه للعبة Insurgency؟",
+      "pt": "Qual sistema operacional você usa para Insurgency?",
+      "th": "คุณใช้ระบบปฏิบัติการอะไรสำหรับ Insurgency?",
+      "pl": "Jakiego systemu operacyjnego używasz do Insurgency?",
+      "ja": "Insurgencyにはどのオペレーティングシステムを使用していますか？",
+      "sv": "Vilket operativsystem använder du för Insurgency?",
+      "it": "Quale sistema operativo utilizzi per Insurgency?",
+      "nl": "Welk besturingssysteem gebruik je voor Insurgency?"
+    },
+    "content": {
+      "en": "Insurgency runs on Linux. Insurgency: Sandstorm runs on Windows.",
+      "de": "Insurgency läuft auf Linux, Insurgency: Sandstorm auf Windows.",
+      "es": "Insurgency se ejecuta en Linux. Insurgency: Sandstorm se ejecuta en Windows.",
+      "fr": "Insurgency fonctionne sur Linux. Insurgency: Sandstorm fonctionne sur Windows.",
+      "ar": "تعمل لعبة Insurgency على نظام Linux. بينما تعمل لعبة Insurgency: Sandstorm على نظام Windows.",
+      "pt": "Insurgency roda em Linux. Insurgency: Sandstorm roda em Windows.",
+      "th": "Insurgency ทำงานบน Linux ส่วน Insurgency: Sandstorm ทำงานบน Windows",
+      "pl": "Insurgency działa na systemie Linux. Insurgency: Sandstorm działa na systemie Windows.",
+      "ja": "InsurgencyはLinuxで動作します。Insurgency: SandstormはWindowsで動作します。",
+      "sv": "Insurgency körs på Linux. Insurgency: Sandstorm körs på Windows.",
+      "it": "Insurgency funziona su Linux. Insurgency: Sandstorm funziona su Windows.",
+      "nl": "Insurgency draait op Linux. Insurgency: Sandstorm draait op Windows."
+    }
+  },
+  {
+    "title": {
+      "en": "What happens if I choose a standard server instead of the recommended premium one?",
+      "de": "Was passiert, wenn ich statt des empfohlenen Premium-Servers den Standard nehme?",
+      "es": "¿Qué sucede si elijo un servidor estándar en lugar del recomendado premium?",
+      "fr": "Que se passe-t-il si je choisis un serveur standard au lieu du serveur premium recommandé ?",
+      "ar": "ماذا يحدث إذا اخترت خادمًا قياسيًا بدلاً من الخادم المميز الموصى به؟",
+      "pt": "O que acontece se eu escolher um servidor padrão em vez do recomendado premium?",
+      "th": "หากคุณเลือกเซิร์ฟเวอร์มาตรฐานแทนที่จะเป็นเซิร์ฟเวอร์พรีเมียมที่แนะนำ จะมีผลกระทบหลายประการที่คุณควรพิจารณา:\n\n1. **ประสิทธิภาพ**: เซิร์ฟเวอร์มาตรฐานอาจมีประสิทธิภาพต่ำกว่าเซิร์ฟเวอร์พรีเมียม ซึ่งอาจส่งผลต่อความเร็วในการประมวลผลและการตอบสนองของแอปพลิเคชันของคุณ\n\n2. **ทรัพยากร**: เซิร์ฟเวอร์พรีเมียมมักจะมีทรัพยากรที่มากกว่า เช่น CPU, RAM และพื้นที่เก็บข้อมูล ซึ่งจะช่วยให้คุณสามารถจัดการกับการใช้งานที่สูงขึ้นได้ดีกว่า\n\n3. **ความเสถียร**: เซิร์ฟเวอร์พรีเมียมมักจะมีความเสถียรและความน่าเชื่อถือที่ดีกว่า ซึ่งจะช่วยลดความเสี่ยงในการหยุดทำงานหรือปัญหาที่เกิดขึ้น\n\n4. **การสนับสนุน**: บริการเซิร์ฟเวอร์พรีเมียมมักจะมาพร้อมกับการสนับสนุนที่ดีกว่า ซึ่งอาจรวมถึงการเข้าถึงทีมสนับสนุนที่มีความเชี่ยวชาญมากขึ้น\n\n5. **ฟีเจอร์เพิ่มเติม**: เซิร์ฟเวอร์พรีเมียมอาจมีฟีเจอร์เพิ่มเติม เช่น การเข้าถึง API, การจัดการ Docker, หรือการสนับสนุนสำหรับการใช้งาน Spigot ที่อาจไม่มีในเซิร์ฟเวอร์มาตรฐาน\n\nการเลือกเซิร์ฟเวอร์ที่เหมาะสมขึ้นอยู่กับความต้องการเฉพาะของคุณและลักษณะการใช้งานที่คุณต้องการ หากคุณคาดว่าจะมีการใช้งานที่สูงหรือมีความต้องการเฉพาะทาง การเลือกเซิร์ฟเวอร์พรีเมียมอาจเป็นทางเลือกที่ดีกว่าในระยะยาว",
+      "pl": "Co się stanie, jeśli wybiorę standardowy serwer zamiast zalecanego serwera premium?",
+      "ja": "推奨されるプレミアムサーバーの代わりに標準サーバーを選択した場合、いくつかの影響があります。標準サーバーは、パフォーマンスやリソースの面で制限があるため、特に高負荷のアプリケーションやサービスを運用する際に、応答速度や処理能力が低下する可能性があります。また、標準サーバーでは、VPSやDedicated Serverに比べてカスタマイズの自由度が制限されることがあります。\n\nさらに、APIの呼び出しやFTPの転送速度が遅くなることも考えられます。Dockerコンテナの管理やSpigotサーバーの運用においても、プレミアムサーバーの方がより安定した環境を提供するため、パフォーマンスの向上が期待できます。ZAP Coinsの利用に関しても、標準サーバーでは制限がある場合があります。\n\n総じて、標準サーバーを選択することで、コストを抑えることはできますが、パフォーマンスや機能において妥協が必要になることを理解しておくことが重要です。",
+      "sv": "Vad händer om jag väljer en standardserver istället för den rekommenderade premiumservern?",
+      "it": "Cosa succede se scelgo un server standard invece di quello premium raccomandato?",
+      "nl": "Wat gebeurt er als ik een standaardserver kies in plaats van de aanbevolen premiumserver?"
+    },
+    "content": {
+      "en": "Performance may be lower, depending on the game. If a premium server or higher RAM is recommended, using less may cause lag.",
+      "de": "Je nach Spiel kann die Leistung schlechter sein. Bei Empfehlung eines Premium-Servers oder mehr RAM kann es sonst zu Lags kommen.",
+      "es": "El rendimiento puede ser inferior, dependiendo del juego. Si se recomienda un servidor premium o más RAM, usar menos puede causar retrasos.",
+      "fr": "Les performances peuvent être inférieures, selon le jeu. Si un serveur premium ou une RAM plus élevée est recommandé, utiliser moins peut entraîner des ralentissements.",
+      "ar": "قد تكون الأداء أقل، اعتمادًا على اللعبة. إذا كان يُوصى بخادم متميز أو ذاكرة RAM أعلى، فإن استخدام ذاكرة أقل قد يتسبب في تأخير.",
+      "pt": "O desempenho pode ser inferior, dependendo do jogo. Se um servidor premium ou mais RAM for recomendado, usar menos pode causar lag.",
+      "th": "ประสิทธิภาพอาจต่ำกว่าขึ้นอยู่กับเกม หากแนะนำให้ใช้เซิร์ฟเวอร์พรีเมียมหรือ RAM ที่สูงกว่า การใช้ RAM ที่น้อยกว่านั้นอาจทำให้เกิดการหน่วง (lag) ได้",
+      "pl": "Wydajność może być niższa, w zależności od gry. Jeśli zalecany jest serwer premium lub wyższa pamięć RAM, używanie mniejszej ilości może powodować opóźnienia.",
+      "ja": "ゲームによってはパフォーマンスが低下する場合があります。プレミアムサーバーやより高いRAMが推奨される場合、少ないリソースを使用するとラグが発生する可能性があります。",
+      "sv": "Prestandan kan vara lägre, beroende på spelet. Om en premiumserver eller högre RAM rekommenderas kan användning av mindre orsaka lagg.",
+      "it": "Le prestazioni possono essere inferiori, a seconda del gioco. Se si consiglia un server premium o una RAM superiore, utilizzare meno potrebbe causare lag.",
+      "nl": "De prestaties kunnen lager zijn, afhankelijk van het spel. Als een premium server of meer RAM wordt aanbevolen, kan het gebruik van minder leiden tot lag."
+    }
+  },
+  {
+    "title": {
+      "en": "Is the Fjordur map available for ARK: Survival Evolved?",
+      "de": "Ist die Fjordur-Map für ARK: Survival Evolved verfügbar?",
+      "es": "¿Está disponible el mapa Fjordur para ARK: Survival Evolved?",
+      "fr": "La carte Fjordur est-elle disponible pour ARK: Survival Evolved ?",
+      "ar": "هل خريطة فيوردور متاحة للعبة ARK: Survival Evolved؟",
+      "pt": "O mapa Fjordur está disponível para ARK: Survival Evolved?",
+      "th": "แผนที่ Fjordur มีให้บริการสำหรับ ARK: Survival Evolved หรือไม่?",
+      "pl": "Czy mapa Fjordur jest dostępna w ARK: Survival Evolved?",
+      "ja": "FjordurマップはARK: Survival Evolvedで利用可能ですか？",
+      "sv": "Är Fjordur-kartan tillgänglig för ARK: Survival Evolved?",
+      "it": "La mappa Fjordur è disponibile per ARK: Survival Evolved?",
+      "nl": "Is de Fjordur-kaart beschikbaar voor ARK: Survival Evolved?"
+    },
+    "content": {
+      "en": "Yes, it is available and can be selected under 'Settings' in the web interface.",
+      "de": "Ja, sie kann im Webinterface unter 'Einstellungen' ausgewählt werden.",
+      "es": "Sí, está disponible y se puede seleccionar en 'Configuración' en la interfaz web.",
+      "fr": "Oui, il est disponible et peut être sélectionné sous 'Paramètres' dans l'interface web.",
+      "ar": "نعم، إنه متاح ويمكن اختياره تحت \"الإعدادات\" في واجهة الويب.",
+      "pt": "Sim, está disponível e pode ser selecionado em 'Configurações' na interface web.",
+      "th": "ใช่ มันมีให้ใช้งานและสามารถเลือกได้ภายใต้ 'การตั้งค่า' ในส่วนติดต่อผู้ใช้บนเว็บ",
+      "pl": "Tak, jest dostępne i można je wybrać w sekcji 'Ustawienia' w interfejsie webowym.",
+      "ja": "はい、それは利用可能であり、ウェブインターフェースの「設定」から選択できます。",
+      "sv": "Ja, det är tillgängligt och kan väljas under 'Inställningar' i webbgränssnittet.",
+      "it": "Sì, è disponibile e può essere selezionato sotto 'Impostazioni' nell'interfaccia web.",
+      "nl": "Ja, het is beschikbaar en kan worden geselecteerd onder 'Instellingen' in de webinterface."
+    }
+  },
+  {
+    "title": {
+      "en": "How much storage is available for FiveM servers?",
+      "de": "Wie viel Speicher haben FiveM-Server?",
+      "es": "¿Cuánto almacenamiento está disponible para los servidores de FiveM?",
+      "fr": "Quelle est la capacité de stockage disponible pour les serveurs FiveM ?",
+      "ar": "ما مقدار التخزين المتاح لخوادم FiveM؟",
+      "pt": "Quanto espaço de armazenamento está disponível para servidores FiveM?",
+      "th": "พื้นที่จัดเก็บข้อมูลสำหรับเซิร์ฟเวอร์ FiveM มีเท่าไหร่?",
+      "pl": "Ile pamięci jest dostępne dla serwerów FiveM?",
+      "ja": "FiveMサーバーにはどれくらいのストレージが利用可能ですか？",
+      "sv": "Hur mycket lagring finns tillgänglig för FiveM-servrar?",
+      "it": "Quanto spazio di archiviazione è disponibile per i server FiveM?",
+      "nl": "Hoeveel opslagruimte is er beschikbaar voor FiveM-servers?"
+    },
+    "content": {
+      "en": "Each game server has a soft limit of 50 GB. You will receive a warning when exceeding this and have 3 days to reduce usage.",
+      "de": "Jeder Gameserver hat ein Softlimit von 50 GB. Bei Überschreitung gibt es eine Warnung und 3 Tage Zeit zur Reduzierung.",
+      "es": "Cada servidor de juego tiene un límite suave de 50 GB. Recibirás una advertencia al exceder este límite y tendrás 3 días para reducir el uso.",
+      "fr": "Chaque serveur de jeu a une limite douce de 50 Go. Vous recevrez un avertissement lorsque vous dépasserez cette limite et vous aurez 3 jours pour réduire votre utilisation.",
+      "ar": "كل خادم لعبة لديه حد أقصى غير صارم يبلغ 50 جيجابايت. ستتلقى تحذيرًا عند تجاوز هذا الحد ولديك 3 أيام لتقليل الاستخدام.",
+      "pt": "Cada servidor de jogo tem um limite suave de 50 GB. Você receberá um aviso ao exceder esse limite e terá 3 dias para reduzir o uso.",
+      "th": "แต่ละเซิร์ฟเวอร์เกมมีขีดจำกัดอ่อนที่ 50 GB คุณจะได้รับการแจ้งเตือนเมื่อเกินขีดจำกัดนี้และมีเวลา 3 วันในการลดการใช้งาน",
+      "pl": "Każdy serwer gier ma miękki limit wynoszący 50 GB. Otrzymasz ostrzeżenie po przekroczeniu tego limitu i będziesz miał 3 dni na zmniejszenie zużycia.",
+      "ja": "各ゲームサーバーには、ソフトリミットとして50 GBがあります。この制限を超えると警告が表示され、使用量を減らすための猶予が3日間与えられます。",
+      "sv": "Varje spelserver har en mjuk gräns på 50 GB. Du kommer att få en varning när du överskrider detta och har 3 dagar på dig att minska användningen.",
+      "it": "Ogni server di gioco ha un limite soft di 50 GB. Riceverai un avviso quando superi questo limite e avrai 3 giorni per ridurre l'utilizzo.",
+      "nl": "Elke game server heeft een zachte limiet van 50 GB. U ontvangt een waarschuwing wanneer u deze limiet overschrijdt en heeft 3 dagen de tijd om het gebruik te verminderen."
+    }
+  },
+  {
+    "title": {
+      "en": "Do you offer Team Fortress Classic servers?",
+      "de": "Bietet ihr Team Fortress Classic Server an?",
+      "es": "¿Ofrecen servidores para Team Fortress Classic?",
+      "fr": "Proposez-vous des serveurs pour Team Fortress Classic ?",
+      "ar": "هل تقدمون خوادم Team Fortress Classic؟",
+      "pt": "Você oferece servidores para Team Fortress Classic?",
+      "th": "คุณมีบริการเซิร์ฟเวอร์ Team Fortress Classic หรือไม่?",
+      "pl": "Czy oferujecie serwery do Team Fortress Classic?",
+      "ja": "Team Fortress Classicサーバーは提供していますか？",
+      "sv": "Erbjuder ni Team Fortress Classic-servrar?",
+      "it": "Offrite server per Team Fortress Classic?",
+      "nl": "Biedt u Team Fortress Classic-servers aan?"
+    },
+    "content": {
+      "en": "Currently, it's not available, but you can suggest it here: https://zap-hosting.com/guides/docs/en/suggestions/",
+      "de": "Derzeit nicht verfügbar, Vorschläge hier einreichen: https://zap-hosting.com/guides/docs/en/suggestions/",
+      "es": "Actualmente, no está disponible, pero puedes sugerirlo aquí: https://zap-hosting.com/guides/docs/es/suggestions/",
+      "fr": "Actuellement, ce n'est pas disponible, mais vous pouvez le suggérer ici : https://zap-hosting.com/guides/docs/fr/suggestions/",
+      "ar": "حالياً، ليست متاحة، ولكن يمكنك اقتراحها هنا: https://zap-hosting.com/guides/docs/en/suggestions/",
+      "pt": "Atualmente, não está disponível, mas você pode sugerir aqui: https://zap-hosting.com/guides/docs/en/suggestions/",
+      "th": "ขณะนี้ยังไม่สามารถใช้งานได้ แต่คุณสามารถเสนอความคิดเห็นได้ที่นี่: https://zap-hosting.com/guides/docs/en/suggestions/",
+      "pl": "Obecnie nie jest to dostępne, ale możesz to zasugerować tutaj: https://zap-hosting.com/guides/docs/en/suggestions/",
+      "ja": "現在は利用できませんが、こちらで提案することができます: https://zap-hosting.com/guides/docs/en/suggestions/",
+      "sv": "För närvarande är det inte tillgängligt, men du kan föreslå det här: https://zap-hosting.com/guides/docs/sv/suggestions/",
+      "it": "Attualmente, non è disponibile, ma puoi suggerirlo qui: https://zap-hosting.com/guides/docs/en/suggestions/",
+      "nl": "Momenteel is het niet beschikbaar, maar je kunt het hier voorstellen: https://zap-hosting.com/guides/docs/nl/suggestions/"
+    }
+  },
+  {
+    "title": {
+      "en": "Do I need to configure my server on my PC?",
+      "de": "Muss ich den Server am PC konfigurieren?",
+      "es": "¿Necesito configurar mi servidor en mi PC?",
+      "fr": "Dois-je configurer mon serveur sur mon PC ?",
+      "ar": "هل أحتاج إلى تكوين خادمي على جهاز الكمبيوتر الخاص بي؟",
+      "pt": "Preciso configurar meu servidor no meu PC?",
+      "th": "ฉันจำเป็นต้องตั้งค่าเซิร์ฟเวอร์บนคอมพิวเตอร์ของฉันหรือไม่?",
+      "pl": "Czy muszę skonfigurować mój serwer na moim komputerze?",
+      "ja": "PC上でサーバーを設定する必要がありますか？",
+      "sv": "Behöver jag konfigurera min server på min PC?",
+      "it": "Devo configurare il mio server sul mio PC?",
+      "nl": "Moet ik mijn server op mijn pc configureren?"
+    },
+    "content": {
+      "en": "No. All settings are managed via our web interface. We do not offer servers for PS4.",
+      "de": "Nein. Alle Einstellungen erfolgen im Webinterface. Wir bieten keine PS4-Server an.",
+      "es": "No. Todas las configuraciones se gestionan a través de nuestra interfaz web. No ofrecemos servidores para PS4.",
+      "fr": "Non. Tous les paramètres sont gérés via notre interface web. Nous n'offrons pas de serveurs pour PS4.",
+      "ar": "لا. يتم إدارة جميع الإعدادات عبر واجهة الويب الخاصة بنا. نحن لا نقدم خوادم لجهاز PS4.",
+      "pt": "Não. Todas as configurações são gerenciadas através da nossa interface web. Não oferecemos servidores para PS4.",
+      "th": "ไม่. การตั้งค่าทั้งหมดจะถูกจัดการผ่านทางเว็บอินเตอร์เฟซของเรา เราไม่มีบริการเซิร์ฟเวอร์สำหรับ PS4.",
+      "pl": "Nie. Wszystkie ustawienia są zarządzane za pośrednictwem naszego interfejsu webowego. Nie oferujemy serwerów dla PS4.",
+      "ja": "いいえ。すべての設定は当社のウェブインターフェースを通じて管理されます。PS4用のサーバーは提供しておりません。",
+      "sv": "Nej. Alla inställningar hanteras via vårt webbgränssnitt. Vi erbjuder inte servrar för PS4.",
+      "it": "No. Tutte le impostazioni sono gestite tramite la nostra interfaccia web. Non offriamo server per PS4.",
+      "nl": "Nee. Alle instellingen worden beheerd via onze webinterface. We bieden geen servers voor PS4 aan."
+    }
+  },
+  {
+    "title": {
+      "en": "Is the Windows plugin for ARK compatible with Xbox?",
+      "de": "Ist das Windows-Plugin für ARK mit Xbox kompatibel?",
+      "es": "¿Es compatible el complemento de Windows para ARK con Xbox?",
+      "fr": "Le plugin Windows pour ARK est-il compatible avec Xbox ?",
+      "ar": "هل الإضافة الخاصة بنظام ويندوز لـ ARK متوافقة مع إكس بوكس؟",
+      "pt": "O plugin do Windows para ARK é compatível com o Xbox?",
+      "th": "ปลั๊กอิน Windows สำหรับ ARK สามารถใช้งานร่วมกับ Xbox ได้หรือไม่?",
+      "pl": "Czy wtyczka Windows dla ARK jest kompatybilna z Xboxem?",
+      "ja": "ARKのWindowsプラグインはXboxと互換性がありますか？",
+      "sv": "Är Windows-pluginet för ARK kompatibelt med Xbox?",
+      "it": "Il plugin per Windows di ARK è compatibile con Xbox?",
+      "nl": "Is de Windows-plugin voor ARK compatibel met Xbox?"
+    },
+    "content": {
+      "en": "No. The Windows servers are for the Steam version and are not compatible with Xbox.",
+      "de": "Nein, es ist nur für die Steam-Version und nicht mit Xbox kompatibel.",
+      "es": "No. Los servidores de Windows son para la versión de Steam y no son compatibles con Xbox.",
+      "fr": "Non. Les serveurs Windows sont destinés à la version Steam et ne sont pas compatibles avec Xbox.",
+      "ar": "لا. خوادم ويندوز مخصصة لإصدار ستيم وليست متوافقة مع إكس بوكس.",
+      "pt": "Não. Os servidores Windows são para a versão Steam e não são compatíveis com Xbox.",
+      "th": "ไม่ใช่ เซิร์ฟเวอร์ Windows สำหรับเวอร์ชัน Steam และไม่สามารถใช้งานร่วมกับ Xbox ได้",
+      "pl": "Nie. Serwery Windows są przeznaczone dla wersji Steam i nie są kompatybilne z Xbox.",
+      "ja": "いいえ。WindowsサーバーはSteam版用であり、Xboxとは互換性がありません。",
+      "sv": "Nej. Windows-servrarna är för Steam-versionen och är inte kompatibla med Xbox.",
+      "it": "No. I server Windows sono per la versione Steam e non sono compatibili con Xbox.",
+      "nl": "Nee. De Windows-servers zijn voor de Steam-versie en zijn niet compatibel met Xbox."
+    }
+  },
+  {
+    "title": {
+      "en": "Where can I find my Minecraft server address?",
+      "de": "Wo finde ich die Adresse meines Minecraft-Servers?",
+      "es": "¿Dónde puedo encontrar la dirección de mi servidor de Minecraft?",
+      "fr": "Où puis-je trouver l'adresse de mon serveur Minecraft ?",
+      "ar": "أين يمكنني العثور على عنوان خادم Minecraft الخاص بي؟",
+      "pt": "Onde posso encontrar o endereço do meu servidor Minecraft?",
+      "th": "คุณสามารถหาที่อยู่เซิร์ฟเวอร์ Minecraft ของคุณได้ที่ไหน?",
+      "pl": "Gdzie mogę znaleźć adres mojego serwera Minecraft?",
+      "ja": "Minecraftサーバーのアドレスはどこで見つけることができますか？",
+      "sv": "Var kan jag hitta min Minecraft-serveradress?",
+      "it": "Dove posso trovare l'indirizzo del mio server Minecraft?",
+      "nl": "Waar kan ik mijn Minecraft serveradres vinden?"
+    },
+    "content": {
+      "en": "The IP address and port are displayed in your server's web interface.",
+      "de": "IP-Adresse und Port stehen im Webinterface.",
+      "es": "La dirección IP y el puerto se muestran en la interfaz web de su servidor.",
+      "fr": "L'adresse IP et le port sont affichés dans l'interface web de votre serveur.",
+      "ar": "يتم عرض عنوان IP والمنفذ في واجهة الويب الخاصة بالخادم لديك.",
+      "pt": "O endereço IP e a porta são exibidos na interface web do seu servidor.",
+      "th": "ที่อยู่ IP และพอร์ตจะแสดงในส่วนติดต่อเว็บของเซิร์ฟเวอร์ของคุณ",
+      "pl": "Adres IP i port są wyświetlane w interfejsie webowym Twojego serwera.",
+      "ja": "IPアドレスとポートは、サーバーのウェブインターフェースに表示されます。",
+      "sv": "IP-adressen och porten visas i din servers webbgränssnitt.",
+      "it": "L'indirizzo IP e la porta sono visualizzati nell'interfaccia web del tuo server.",
+      "nl": "Het IP-adres en de poort worden weergegeven in de webinterface van uw server."
+    }
+  },
+  {
+    "title": {
+      "en": "Can I transfer my Minecraft save to a purchased server?",
+      "de": "Kann ich meinen Minecraft-Spielstand übertragen?",
+      "es": "¿Puedo transferir mi guardado de Minecraft a un servidor comprado?",
+      "fr": "Puis-je transférer ma sauvegarde Minecraft vers un serveur acheté ?",
+      "ar": "هل يمكنني نقل حفظ لعبة Minecraft الخاصة بي إلى خادم تم شراؤه؟",
+      "pt": "Posso transferir meu salvamento do Minecraft para um servidor comprado?",
+      "th": "ฉันสามารถโอนบันทึก Minecraft ของฉันไปยังเซิร์ฟเวอร์ที่ซื้อได้หรือไม่?",
+      "pl": "Czy mogę przenieść moje zapisy z Minecrafta na zakupiony serwer?",
+      "ja": "購入したサーバーにMinecraftのセーブデータを転送できますか？",
+      "sv": "Kan jag överföra min Minecraft-sparfil till en köpt server?",
+      "it": "Posso trasferire il mio salvataggio di Minecraft a un server acquistato?",
+      "nl": "Kan ik mijn Minecraft-save overzetten naar een aangeschafte server?"
+    },
+    "content": {
+      "en": "Yes, via FTP or our backup function.",
+      "de": "Ja, per FTP oder über die Backup-Funktion.",
+      "es": "Sí, a través de FTP o nuestra función de respaldo.",
+      "fr": "Oui, via FTP ou notre fonction de sauvegarde.",
+      "ar": "نعم، عبر FTP أو وظيفة النسخ الاحتياطي لدينا.",
+      "pt": "Sim, via FTP ou nossa função de backup.",
+      "th": "ใช่ ผ่าน FTP หรือฟังก์ชันการสำรองข้อมูลของเรา",
+      "pl": "Tak, za pomocą FTP lub naszej funkcji tworzenia kopii zapasowych.",
+      "ja": "はい、FTPまたは当社のバックアップ機能を使用して行えます。",
+      "sv": "Ja, via FTP eller vår backup-funktion.",
+      "it": "Sì, tramite FTP o la nostra funzione di backup.",
+      "nl": "Ja, via FTP of onze back-upfunctie."
+    }
+  },
+  {
+    "title": {
+      "en": "Why did my FiveM server setup take longer?",
+      "de": "Warum dauert mein FiveM-Server-Setup länger?",
+      "es": "¿Por qué tardó más en configurarse mi servidor de FiveM?",
+      "fr": "Pourquoi la configuration de mon serveur FiveM a-t-elle pris plus de temps ?",
+      "ar": "لماذا استغرقت إعداد خادم FiveM الخاص بي وقتًا أطول؟",
+      "pt": "Por que a configuração do meu servidor FiveM demorou mais?",
+      "th": "ทำไมการตั้งค่าเซิร์ฟเวอร์ FiveM ของฉันถึงใช้เวลานานขึ้น?",
+      "pl": "Dlaczego konfiguracja mojego serwera FiveM zajęła więcej czasu?",
+      "ja": "なぜ私のFiveMサーバーのセットアップに時間がかかったのですか？",
+      "sv": "Varför tog min FiveM-serverinstallation längre tid?",
+      "it": "Perché la mia configurazione del server FiveM ha impiegato più tempo?",
+      "nl": "Waarom heeft mijn FiveM-serveropstelling langer geduurd?"
+    },
+    "content": {
+      "en": "Usually setup takes under a minute, but in rare cases it may take longer to ensure performance.",
+      "de": "Normalerweise dauert es unter einer Minute, in seltenen Fällen länger, um optimale Performance zu gewährleisten.",
+      "es": "Por lo general, la configuración toma menos de un minuto, pero en casos raros puede tardar más para garantizar el rendimiento.",
+      "fr": "En général, la configuration prend moins d'une minute, mais dans de rares cas, cela peut prendre plus de temps pour garantir les performances.",
+      "ar": "عادةً ما يستغرق الإعداد أقل من دقيقة، ولكن في حالات نادرة قد يستغرق وقتًا أطول لضمان الأداء.",
+      "pt": "Normalmente, a configuração leva menos de um minuto, mas em casos raros, pode demorar mais para garantir o desempenho.",
+      "th": "โดยปกติการตั้งค่าจะใช้เวลาน้อยกว่าหนึ่งนาที แต่ในบางกรณีที่หายากอาจใช้เวลานานกว่าเพื่อให้แน่ใจในประสิทธิภาพ",
+      "pl": "Zazwyczaj konfiguracja zajmuje mniej niż minutę, ale w rzadkich przypadkach może zająć dłużej, aby zapewnić optymalną wydajność.",
+      "ja": "通常、セットアップは1分以内で完了しますが、パフォーマンスを確保するために稀に長くかかることがあります。",
+      "sv": "Vanligtvis tar installationen under en minut, men i sällsynta fall kan det ta längre tid för att säkerställa prestanda.",
+      "it": "Di solito, la configurazione richiede meno di un minuto, ma in rari casi potrebbe richiedere più tempo per garantire le prestazioni.",
+      "nl": "De setup duurt meestal minder dan een minuut, maar in zeldzame gevallen kan het langer duren om de prestaties te waarborgen."
+    }
+  },
+  {
+    "title": {
+      "en": "Do you install FiveM mods for me?",
+      "de": "Installiert ihr FiveM-Mods für mich?",
+      "es": "¿Instalas mods de FiveM para mí?",
+      "fr": "Installez-vous des mods FiveM pour moi ?",
+      "ar": "هل تقوم بتثبيت تعديلات FiveM لي؟",
+      "pt": "Você instala mods do FiveM para mim?",
+      "th": "คุณติดตั้งม็อด FiveM ให้ฉันได้ไหม?",
+      "pl": "Czy instalujesz mody do FiveM dla mnie?",
+      "ja": "FiveMのモッドをインストールしてもらえますか？",
+      "sv": "Installerar du FiveM-mods åt mig?",
+      "it": "Installi mod di FiveM per me?",
+      "nl": "Installeert u FiveM-mods voor mij?"
+    },
+    "content": {
+      "en": "We offer one-click installation for popular mods, but do not manually install custom ones.",
+      "de": "Wir bieten One-Click-Installationen für beliebte Mods, installieren aber keine individuellen Mods manuell.",
+      "es": "Ofrecemos instalación con un clic para mods populares, pero no instalamos manualmente mods personalizados.",
+      "fr": "Nous proposons une installation en un clic pour les mods populaires, mais nous n'installons pas manuellement des mods personnalisés.",
+      "ar": "نقدم تثبيتًا بنقرة واحدة للبرامج الإضافية الشائعة، ولكننا لا نقوم بتثبيت البرامج المخصصة يدويًا.",
+      "pt": "Oferecemos instalação com um clique para mods populares, mas não instalamos manualmente mods personalizados.",
+      "th": "เรามีบริการติดตั้งด้วยคลิกเดียวสำหรับม็อดยอดนิยม แต่ไม่ทำการติดตั้งม็อดที่กำหนดเองด้วยมือ",
+      "pl": "Oferujemy instalację jednym kliknięciem dla popularnych modów, ale nie instalujemy ręcznie niestandardowych.",
+      "ja": "人気のあるモッドについてはワンクリックインストールを提供していますが、カスタムモッドの手動インストールは行っていません。",
+      "sv": "Vi erbjuder installation med ett klick för populära moddar, men installerar inte manuellt anpassade moddar.",
+      "it": "Offriamo un'installazione con un clic per i mod popolari, ma non installiamo manualmente quelli personalizzati.",
+      "nl": "We bieden een installatie met één klik voor populaire mods, maar installeren geen aangepaste mods handmatig."
+    }
+  },
+  {
+    "title": {
+      "en": "How much RAM is included for FiveM servers?",
+      "de": "Wie viel RAM ist bei FiveM-Servern enthalten?",
+      "es": "¿Cuánta RAM se incluye para los servidores de FiveM?",
+      "fr": "Quelle quantité de RAM est incluse pour les serveurs FiveM ?",
+      "ar": "كم مقدار الذاكرة العشوائية (RAM) المضمنة لخوادم FiveM؟",
+      "pt": "Quantos GB de RAM estão incluídos para servidores FiveM?",
+      "th": "RAM ที่รวมอยู่สำหรับเซิร์ฟเวอร์ FiveM คือเท่าไหร่?",
+      "pl": "Ile pamięci RAM jest dołączone do serwerów FiveM?",
+      "ja": "FiveMサーバーにはどれくらいのRAMが含まれていますか？",
+      "sv": "Hur mycket RAM ingår för FiveM-servrar?",
+      "it": "Quanta RAM è inclusa per i server FiveM?",
+      "nl": "Hoeveel RAM is inbegrepen voor FiveM-servers?"
+    },
+    "content": {
+      "en": "It depends on the number of slots. RAM details are shown in the shop.",
+      "de": "Hängt von der Slot-Anzahl ab. Angaben dazu findest du im Shop.",
+      "es": "Depende del número de slots. Los detalles de la RAM se muestran en la tienda.",
+      "fr": "Cela dépend du nombre de slots. Les détails de la RAM sont affichés dans la boutique.",
+      "ar": "يعتمد ذلك على عدد الفتحات. تفاصيل الذاكرة العشوائية (RAM) موضحة في المتجر.",
+      "pt": "Depende do número de slots. Os detalhes da RAM estão disponíveis na loja.",
+      "th": "ขึ้นอยู่กับจำนวนช่องสัญญาณ รายละเอียด RAM จะแสดงในร้านค้า",
+      "pl": "To zależy od liczby slotów. Szczegóły dotyczące RAM-u są wyświetlane w sklepie.",
+      "ja": "スロットの数によります。RAMの詳細はショップに表示されています。",
+      "sv": "Det beror på antalet platser. RAM-detaljer visas i butiken.",
+      "it": "Dipende dal numero di slot. I dettagli della RAM sono mostrati nel negozio.",
+      "nl": "Het hangt af van het aantal slots. RAM-gegevens worden weergegeven in de winkel."
+    }
+  },
+  {
+    "title": {
+      "en": "What if my server setup is delayed?",
+      "de": "Was, wenn sich die Servereinrichtung verzögert?",
+      "es": "¿Qué pasa si la configuración de mi servidor se retrasa?",
+      "fr": "Que faire si la configuration de mon serveur est retardée ?",
+      "ar": "ماذا لو تأخرت إعدادات الخادم الخاص بي؟",
+      "pt": "E se a configuração do meu servidor estiver atrasada?",
+      "th": "หากการตั้งค่าเซิร์ฟเวอร์ของฉันล่าช้า จะทำอย่างไร?",
+      "pl": "Co jeśli konfiguracja mojego serwera jest opóźniona?",
+      "ja": "サーバーのセットアップが遅れた場合はどうなりますか？",
+      "sv": "Vad händer om min serverinstallation blir försenad?",
+      "it": "Cosa succede se la configurazione del mio server è in ritardo?",
+      "nl": "Wat als de opzet van mijn server vertraging oploopt?"
+    },
+    "content": {
+      "en": "In rare cases it may take a few minutes longer. You will be notified by email once setup is complete.",
+      "de": "In seltenen Fällen dauert es ein paar Minuten länger. Du wirst per E-Mail informiert, sobald der Server fertig ist.",
+      "es": "En casos raros, puede tardar unos minutos más. Se le notificará por correo electrónico una vez que la configuración esté completa.",
+      "fr": "Dans de rares cas, cela peut prendre quelques minutes de plus. Vous serez informé par email une fois la configuration terminée.",
+      "ar": "في حالات نادرة، قد يستغرق الأمر بضع دقائق إضافية. سيتم إبلاغك عبر البريد الإلكتروني بمجرد اكتمال الإعداد.",
+      "pt": "Em casos raros, pode levar alguns minutos a mais. Você será notificado por e-mail assim que a configuração estiver completa.",
+      "th": "ในกรณีที่เกิดขึ้นได้ยาก อาจใช้เวลานานกว่าปกติเล็กน้อย คุณจะได้รับการแจ้งเตือนทางอีเมลเมื่อการตั้งค่าเสร็จสมบูรณ์",
+      "pl": "W rzadkich przypadkach może to zająć kilka minut dłużej. Zostaniesz powiadomiony e-mailem, gdy konfiguracja zostanie zakończona.",
+      "ja": "稀に、数分長くかかることがあります。セットアップが完了すると、メールで通知されます。",
+      "sv": "I sällsynta fall kan det ta några minuter längre. Du kommer att meddelas via e-post när installationen är klar.",
+      "it": "In rari casi, potrebbe richiedere qualche minuto in più. Sarai notificato via email una volta completata la configurazione.",
+      "nl": "In zeldzame gevallen kan het enkele minuten langer duren. U ontvangt een e-mail zodra de installatie is voltooid."
+    }
+  },
+  {
+    "title": {
+      "en": "Can I request new Minecraft modpacks?",
+      "de": "Kann ich neue Minecraft-Modpacks anfragen?",
+      "es": "¿Puedo solicitar nuevos modpacks de Minecraft?",
+      "fr": "Puis-je demander de nouveaux modpacks Minecraft ?",
+      "ar": "هل يمكنني طلب حزم تعديل جديدة لـ Minecraft؟",
+      "pt": "Posso solicitar novos modpacks para Minecraft?",
+      "th": "ฉันสามารถขอแพ็คม็อดใหม่สำหรับ Minecraft ได้หรือไม่?",
+      "pl": "Czy mogę poprosić o nowe modpacki do Minecrafta?",
+      "ja": "新しいMinecraftのモッドパックをリクエストできますか？",
+      "sv": "Kan jag begära nya Minecraft-modpaket?",
+      "it": "Posso richiedere nuovi modpack per Minecraft?",
+      "nl": "Kan ik nieuwe Minecraft modpacks aanvragen?"
+    },
+    "content": {
+      "en": "Yes, via https://zap-hosting.com/en/suggestion/ under 'Game request'.",
+      "de": "Ja, über https://zap-hosting.com/en/suggestion/ unter 'Game request'.",
+      "es": "Sí, a través de https://zap-hosting.com/es/suggestion/ en 'Solicitud de juego'.",
+      "fr": "Oui, via https://zap-hosting.com/fr/suggestion/ sous 'Demande de jeu'.",
+      "ar": "نعم، عبر https://zap-hosting.com/en/suggestion/ تحت \"طلب لعبة\".",
+      "pt": "Sim, através de https://zap-hosting.com/pt/suggestion/ na seção 'Solicitação de jogo'.",
+      "th": "ใช่ ผ่านทาง https://zap-hosting.com/en/suggestion/ ภายใต้ 'คำขอเกม'",
+      "pl": "Tak, poprzez https://zap-hosting.com/en/suggestion/ w sekcji 'Prośba o grę'.",
+      "ja": "はい、https://zap-hosting.com/en/suggestion/ の「ゲームリクエスト」から可能です。",
+      "sv": "Ja, via https://zap-hosting.com/sv/forslag/ under 'Spelförfrågan'.",
+      "it": "Sì, tramite https://zap-hosting.com/en/suggestion/ sotto 'Richiesta di gioco'.",
+      "nl": "Ja, via https://zap-hosting.com/nl/suggestion/ onder 'Game aanvraag'."
+    }
+  }
+]

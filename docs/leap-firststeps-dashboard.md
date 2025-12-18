@@ -1,7 +1,7 @@
 ---
 id: leap-firststeps-dashboard
 title: "Leap: Dashboard overview"
-description: Information about the dashboard of an Leap server from ZAP-Hosting - ZAP-Hosting.com Documentation
+description: "Discover how to efficiently manage your Leap server with a clear overview of features and options for optimal performance → Learn more now"
 sidebar_label: Dashboard
 services:
   - gameserver-leap

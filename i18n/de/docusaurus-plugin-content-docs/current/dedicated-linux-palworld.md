@@ -1,7 +1,7 @@
 ---
 id: dedicated-linux-palworld
 title: "Dedicated Server: Palworld Dedicated Server Linux Setup"
-description: Informationen zur Einrichtung eines Palworld Dedicated Servers auf einem Linux Dedicated Server von ZAP-Hosting - ZAP-Hosting.com Dokumentation
+description: "Entdecke, wie du einen Palworld Dedicated Server auf Linux einrichtest und konfigurierst für nahtloses Gameplay-Management → Jetzt mehr erfahren"
 sidebar_label: Palworld
 services:
   - dedicated
@@ -10,65 +10,60 @@ services:
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
-
-Hast du einen Linux Dedicated Server und möchtest den Palworld Dedicated Server Dienst darauf installieren? Dann bist du hier genau richtig. In diesem Anleitung erklären wir dir Schritt für Schritt, wie du diesen Dienst mithilfe von SteamCMD auf deinem Linux-Server installierst. Wir verwenden in den Beispielen Ubuntu, aber der Prozess sollte bei anderen Distributionen sehr ähnlich sein.
+Du hast einen Linux Dedicated Server und möchtest den Palworld Dedicated Server Service darauf installieren? Dann bist du hier genau richtig. In dieser Anleitung erklären wir dir Schritt für Schritt, wie du diesen Service auf deinem Linux-Server mit SteamCMD installierst. Wir nutzen Ubuntu als Beispiel, aber der Prozess ist bei anderen Distributionen sehr ähnlich.
 
 :::tip
-Wusstest du, dass du unser **ZAP GS/TS3 Interface** direkt auf deinem Dedicated Server installieren kannst? Damit kannst du mit nur wenigen Klicks Gameserver-Dienste einrichten, die direkt in dein ZAP-Hosting-Dashboard integriert sind! Erfahre mehr über das [GS/TS3 Interface](dedicated-linux-gs-interface.md).
+Wusstest du, dass du unsere **ZAP GS/TS3 Interface** direkt auf deinem Dedicated Server installieren kannst? Damit richtest du Gameserver-Services mit direkter Integration in dein ZAP-Hosting Dashboard in nur wenigen Klicks ein! Mehr Infos zur [GS/TS3 Interface findest du hier](dedicated-linux-gs-interface.md).
 :::
-
-<InlineVoucher />
 
 ## Vorbereitung
 
-Verbinde dich zunächst über SSH mit deinem Dedicated Server. Benutze unsere Anleitung [Erstzugriff (SSH)](vserver-linux-ssh.md), wenn du dabei Hilfe benötigst.
+Verbinde dich zuerst per SSH mit deinem Dedicated Server. Falls du Hilfe brauchst, nutze unsere [SSH Erste Schritte](dedicated-linux-ssh.md) Anleitung.
 
-Du musst auch eine Ersteinrichtung für SteamCMD vornehmen, wenn du es zum ersten Mal auf deinem Linux-Server verwendest. Bitte benutze unsere [SteamCMD einrichten](dedicated-linux-steamcmd.md) Anleitung und stelle sicher, dass SteamCMD vollständig eingerichtet ist, bevor du fortfährst.
+Falls du SteamCMD zum ersten Mal auf deinem Linux-Server nutzt, musst du es erstmal einrichten. Folge dazu unserer [SteamCMD Linux Einrichtung](dedicated-linux-steamcmd.md) Anleitung und stelle sicher, dass SteamCMD komplett eingerichtet ist, bevor du weitermachst.
 
 ## Installation
 
-Beginne damit, dich als Benutzer „Steam“ anzumelden und gehe in das Stammverzeichnis „home/steam“, um Ordnung zu schaffen.
+Melde dich als `steam` User an und wechsle in das Home-Verzeichnis von `steam`, um alles ordentlich zu halten.
 ```
 sudo -u steam -s
 cd ~
 ```
 
-Wenn du eingeloggt bist, kannst du den Installationsprozess mit dem folgenden Befehl starten, um die Installation mit Hilfe von SteamCMD direkt in deinem `steam`-Benutzer zu starten.
+Sobald du eingeloggt bist, kannst du die Installation mit folgendem Befehl starten, der SteamCMD nutzt, um den Server direkt im `steam` User-Verzeichnis zu installieren.
 ```
 steamcmd +force_install_dir '/home/steam/Palworld-Server' +login anonymous +app_update 2394010 validate +quit
 ```
 
-Bitte habe etwas Geduld, während der Download abgeschlossen wird, denn bei größeren Spielen kann es einige Zeit dauern. Sobald der Download erfolgreich war, erscheint eine Erfolgsmeldung, die dies bestätigt.
+Bitte hab Geduld, bis der Download abgeschlossen ist – bei größeren Spielen kann das eine Weile dauern. Wenn alles erfolgreich war, erscheint eine Bestätigungsmeldung.
 
 ## Konfiguration
 
-An dieser Stelle hast du die Einrichtung deines Palworld Servers abgeschlossen. Die weitere Konfiguration des Servers kannst du über eine Konfigurationsdatei im Verzeichnis deines Servers vornehmen.
+Jetzt hast du die Grundinstallation deines Palworld Servers abgeschlossen. Weitere Einstellungen kannst du über eine Konfigurationsdatei im Serververzeichnis vornehmen.
 
-Du musst eine Kopie der Standardkonfigurationsdatei erstellen und sie dem gespeicherten Ordner hinzufügen, bevor du sie bearbeiten kannst.
+Du musst eine Kopie der Standard-Konfigurationsdatei erstellen und in den Saved-Ordner legen, bevor du sie bearbeiten kannst.
 ```
 cp /home/steam/Palworld-Server/DefaultPalWorldSettings.ini /home/steam/Palworld-Server/Pal/Saved/Config/LinuxServer/PalWorldSettings.ini
 ```
 
-Mit der erstellten Kopie kannst du die wichtigsten Konfigurationsparameter bearbeiten, indem du die neue Konfigurationsdatei **PalWorldSettings.ini** öffnest.
+Mit der Kopie kannst du die wichtigsten Einstellungen anpassen, indem du die neue **PalWorldSettings.ini** Datei öffnest.
 ```
 nano /home/steam/Palworld-Server/Pal/Saved/Config/LinuxServer/PalWorldSettings.ini
 ```
 
-In unserem [Server Konfiguration](palworld-configuration.md) Anleitung findest du alle verfügbaren Optionen und ihre Funktionen.
+Schau dir unsere Palworld [Server Konfiguration](palworld-configuration.md) Anleitung an, um alle verfügbaren Optionen und ihre Funktionen kennenzulernen.
 
-## Starten und Verbinden mit deinem Server
+## Server starten & verbinden
 
-Jetzt ist es an der Zeit, deinen Server zu starten. Gehe in das Hauptverzeichnis des Spiels und führe die Shell-Datei **PalServer.sh** aus.
+Jetzt geht’s ans Eingemachte: Starte deinen Server, indem du ins Hauptspielverzeichnis wechselst und die **PalServer.sh** Shell-Datei ausführst.
 ```
 /home/steam/Palworld-Server/PalServer.sh
 ```
 
-In der Eingabeaufforderung sollten nun Protokolle erscheinen, darunter auch ein Protokoll der Spielversion, das anzeigt, dass der Startvorgang erfolgreich war. Wenn alles wie erwartet abläuft, wird dein Server in der Serverliste sichtbar sein. Alternativ kannst du dich auch direkt verbinden, indem du in der unteren Suchleiste der Serverliste nach `[deine_ip_address]:8211`.
+Im Terminal solltest du jetzt Logs sehen, inklusive einer Spielversion, was bedeutet, dass der Start erfolgreich war. Wenn alles glatt läuft, erscheint dein Server in der Serverliste. Alternativ kannst du dich direkt verbinden, indem du in der Serverliste unten in der Suchleiste `[deine_ip_adresse]:8211` eingibst.
 
-## Abschluss
+## Fazit
 
-Herzlichen Glückwunsch, du hast den Palworld-Server erfolgreich auf deinem Dedicated Server installiert und konfiguriert! Als nächsten Schritt empfehlen wir dir einen Blick in unsere Anleitung [Linux Dienst einrichten](dedicated-linux-create-gameservice.md), in der du deinen neuen dedizierten Gameserver als Dienst einrichten kannst. Dies bietet verschiedene Vorteile, wie z. B. den automatischen Start des Servers beim Hochfahren, automatische Server-Updates, einfache Verwaltung und Zugriff auf Logs und vieles mehr!
+Glückwunsch, du hast deinen Palworld Server erfolgreich auf deinem Dedicated Server installiert und konfiguriert! Als nächstes empfehlen wir dir, unsere [Linux Service Einrichtung](dedicated-linux-create-gameservice.md) Anleitung anzuschauen. Damit richtest du deinen neuen Dedicated Gameserver als Service ein – mit Vorteilen wie automatischem Serverstart beim Booten, automatischen Updates, einfacher Verwaltung und Zugriff auf Logs und vieles mehr!
 
-Wenn du weitere Fragen oder Probleme hast, wende dich bitte an unser Support-Team, das dir jeden Tag zur Verfügung steht!
-
-<InlineVoucher />
+Falls du noch Fragen oder Probleme hast, steht dir unser Support-Team täglich zur Verfügung und hilft dir gerne weiter!

@@ -1,7 +1,7 @@
 ---
 id: gameserver-database-external-access
 title: 'Game server: External database access'
-description: Information on how to access the databases of game servers from ZAP-Hosting with external administration programs - ZAP-Hosting.com documentation
+description: "Discover how to manage ZAP-Hosting MySQL databases for game servers using tools like Navicat or HeidiSQL → Learn more now"
 sidebar_label: External database access
 services:
   - gameserver

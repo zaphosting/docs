@@ -1,7 +1,7 @@
 ---
 id: dedicated-linux-gitlab
 title: "Dedicated Server: Install GitLab on Linux"
-description: Information on how to set up GitLab on your Linux Dedicated Server from ZAP-Hosting - ZAP-Hosting.com documentation
+description: "Discover how to set up GitLab on Linux to streamline DevOps workflows and enhance team collaboration → Learn more now"
 sidebar_label: Install GitLab
 services:
   - dedicated
@@ -17,7 +17,7 @@ GitLab is a comprehensive DevOps platform that enables teams to collaborate on c
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/ZWMPsLzrXZjnqEE/preview)
 
-<InlineVoucher />
+
 
 ## Preparation
 
@@ -336,4 +336,4 @@ Congratulations, you have successfully installed GitLab! If you have any further
 
 If you wish to perform additional setup, we recommend reading the [Official GitLab Documentation](https://docs.gitlab.com/ee/install/next_steps.html) for next steps.
 
-<InlineVoucher />
+

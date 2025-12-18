@@ -1,7 +1,7 @@
 ---
 id: redm-upvotes
 title: "RedM: Upvotes and Server Boosts"
-description: Information about upvotes for RedM servers and how to boost your server in the server list - ZAP-Hosting.com documentation
+description: "Discover how to boost your RedM server’s ranking and visibility with upvotes and burst upvotes → Learn more now"
 sidebar_label: Upvotes
 services:
   - fivem-upvotes

@@ -1,7 +1,7 @@
 ---
 id: minecraft-timings-report
-title: "Minecraft: Server-Probleme mit Timings-Report identifizieren"
-description: Informationen, wie du Lag-Probleme bei deinem Minecraft-Server mit einem Timings-Report identifizieren kannst - ZAP-Hosting.com Dokumentation
+title: "Minecraft: Serverprobleme mit Timings-Report erkennen"
+description: "Entdecke, wie du Server-Performance-Probleme mit Timings-Reports analysierst, um Lags zu identifizieren und deinen Server zu optimieren → Jetzt mehr erfahren"
 sidebar_label: Timings-Report
 services:
   - gameserver-minecraft
@@ -15,91 +15,79 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ### Was ist ein Timings-Report?
 
-Ein Timings-Report ähnelt dem Task-Manager von deinem PC sehr und ermöglicht es gerade bei Laggs das Problem zu finden.
-Durch einen Timings-Report werden alle Prozesse auf dem Server aufgezeichnet und dann visuell dargestellt.
+Timings-Reports sind ähnlich wie der Task-Manager deines PCs und helfen dir dabei, Probleme, besonders bei Lags, zu finden. Ein Timings-Report zeichnet alle Aktivitäten des Servers auf und stellt sie visuell dar.
 
-## Einen Timings-Report erstellen
+## Timings-Report
 
 ## Timings-Report erstellen
 
-Je nach Server-Software wird der Timings-Report anderes erstellt. Grundlegend muss man bis auf Ausnahme von **Paper Spigot** (sofern die Einstellungen nicht geändert wurden) die Aufnahme zuerst mit folgendem Befehl starten:
+Je nach Server-Software wird der Timings-Report unterschiedlich erstellt. Grundsätzlich musst du die Aufnahme zuerst mit folgendem Befehl starten (außer bei **Paper Spigot** (sofern die Einstellungen nicht geändert wurden)):
 
 `/timings start`
 
-Während der Aufnahme sollte der Server möglichst normale bespielt werden, sodass auch die jeweiligen Probleme aufgezeichnet und im Anschluss genauer analysiert werden können. Die Aufnahme sollte **min. 10 Minuten** dauern, nach Möglichkeit auch länger.
+Während der Aufnahme solltest du den Server wie gewohnt nutzen, damit die jeweiligen Probleme erfasst und anschließend genauer analysiert werden können. Die Aufnahmedauer sollte **mindestens 10 Minuten** betragen oder länger, wenn möglich.
 
 ## Timings-Report exportieren
 
-Damit der Timings-Report nun wirklich erstellt und exportiert wird, muss der folgende Befehl verwendet werden:
+Um den Timings-Report zu erstellen und zu exportieren, musst du folgenden Befehl nutzen:
 
 `/timings paste`
 
-Nach einigen Sekunden erscheint nun eine Nachricht, dass der Export erfolgreich war und der Timings-Report durch den Link mittels eines Klicks geöffnet werden kann.
+Nach ein paar Sekunden erscheint eine Meldung, dass der Export erfolgreich war. Den Timings-Report kannst du über den Link öffnen.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/4mm98iE32SMrNYR/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/wpmB2jr2XCibHtY/preview)
 
-## Auswertung
+## Analyse
 
 ### ↔️ Werte eingrenzen
 
-Nachdem der Timings-Report wie oben beschrieben exportiert und geöffnet wurde, sollte ein ähnliches Fenster wie dieses erscheinen:
+Sobald der Timings-Report exportiert und wie oben beschrieben geöffnet wurde, sollte ein Fenster ähnlich diesem erscheinen:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/ogzYB6YyHsTFXCA/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/9xMMtpr2jePk7B5/preview)
 
-Als Erstes sollte man einen genaueren Blick auf den Graphen werfen, um sich grobe Werte zu den einzelnen Aufnahmepunkten anschauen zu können, indem man mit der Maus über die einzelnen Punkte fährt.
+Schau dir zuerst den Graphen genauer an, um grobe Werte der einzelnen Aufnahmezeitpunkte zu checken, indem du mit der Maus über die Punkte fährst.
 
-Um möglichste genaue Werte zu erhalten, welche sich auf ein mögliches Problem auf Server bezieht, sollte zunächst der problematische Zeitraum wie im Graphen einzusehen durch die Schieberegler darunter eingegrenzt werden.
+Um möglichst genaue Werte zu erhalten, die auf ein mögliches Problem auf dem Server hinweisen, solltest du den problematischen Zeitraum mit den Schiebereglern unten eingrenzen, wie im Graph gezeigt:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/2FRbgn2J8TiqYZR/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/yfkbfqJdcQwbsiB/preview)
 
-### Server-Werte untersuchen
+### Serverwerte untersuchen
 
-Es gibt insgesamt 3 Spalten, wobei wie unten auf dem Screenshot zu sehen Box 1 darstellt, wie viel % eines Ticks (wobei 20 Ticks einer Sekunde entspricht) der Hauptprozess in Anspruch nimmt. Unter anderem kann hier auch eingesehen werden, wie oft dieser Prozess insgesamt ausgeführt wurde während der Aufnahme.
+Es gibt insgesamt 3 Spalten. Wie im Screenshot unten zu sehen, zeigt Box Nummer 1, wie viel % eines Ticks (20 Ticks sind eine Sekunde) der Hauptprozess benötigt. Außerdem siehst du, wie oft dieser Prozess während der Aufnahme ausgeführt wurde.
 
-In Box 2 sehen wir genauere Werte in Millisekunden, hierbei sollte man beachten, dass die Zeitangaben niemals höher als 50ms liegen sollten. Sollte dies dennoch der Fall sein, so würde dies eine Kettenreaktion auslösen und alle weiteren Prozesse stauen sich etwas an, wodurch es schlussendlich zu Laggs kommt, da der Server die Prozesse nur verzögert bearbeiten kann.
+In Box Nummer 2 findest du genauere Werte in Millisekunden, aber beachte bitte, dass die Zeit niemals über 50ms liegen sollte. Wenn das der Fall ist, löst das eine Kettenreaktion aus und alle weiteren Prozesse stauen sich, was letztendlich zu Lags führt, da der Server die Prozesse nur verzögert abarbeiten kann.
 
 :::info
-Der **Full Server Tick** kann in der Regel ignoriert werden, da die Werte hierbei immer im roten Bereich liegen, was jedoch kein Problem darstellt.
+Der **Full Server Tick** kann meistens ignoriert werden, da die Werte immer im roten Bereich liegen, was aber kein großes Problem darstellt.
 :::
 
-![](https://screensaver01.zap-hosting.com/index.php/s/eHKeDQkotAwraTY/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/gLkFeTek6yR5tME/preview)
 
-Grundlegend sollte man in jedem Fall die farblich hervorgehobenen Wertepunkte genauer untersuchen.
+Auf jeden Fall solltest du die farblich hervorgehobenen Werte genauer unter die Lupe nehmen.
 
-In diesem Beispiel schauen wir uns den Prozess für alle Entitys (Tiere, Monster, Items, etc.) an, da die Werte bereits orange dargestellt wird. Hieraus könnte man also nun direkt schließen, dass es ein Problem mit zu vielen Entitys auf dem Server gibt.
-Möglicherweise werden auf dem Server derartige Mobfarmen betrieben, oder massenweise neue Mobs spawnwn.
-Hilfreich bei Problemen mit zu vielen Entiys ist, dass man Spawnrate in den Einstellungen drosselt oder Plugins installiert, welche Entitys limitiert und nach Bedarf automatisch entfernt.
+In diesem Beispiel schauen wir uns den Prozess für alle Entities (Tiere, Monster, Items, etc.) an, da die Werte bereits orange markiert sind. Daraus kannst du direkt schließen, dass es ein Problem mit zu vielen Entities auf dem Server gibt.
+Vielleicht gibt es Mob-Farmen auf dem Server oder es werden massenhaft neue Mobs gespawnt. Wenn du Probleme mit zu vielen Entities hast, kannst du die Spawnrate in den Einstellungen drosseln oder Plugins installieren, die die Anzahl der Entities begrenzen und sie bei Bedarf automatisch entfernen.
 
-Wie oben beschrieben, wird in der Liste grundlegend immer der Hauptprozess aufgelistet. Mit einem Klick auf einen Prozess können wir einzelne Prozesse je Art des Entitys genauer einsehen und untersuchen. Auch hier sollte man wieder Spalte 2 und 3 beachten, wie oben beschrieben.
+Wie oben beschrieben zeigt die Liste grundsätzlich immer den Hauptprozess. Durch Klicken auf einen Prozess kannst du einzelne Prozesse für jede Entity-Art genauer anschauen und untersuchen. Achte dabei auch auf die Spalten 2 und 3, wie zuvor erwähnt.
 
-Hierbei fällt auf, dass **Minecraft::tickEntity - nms.EntitySkeleton** sehr viele Prozesse ausgeführt hat. Auch hier können wieder derartige Mobfarmen das Problem sein.
+Du wirst sehen, dass **Minecraft::tickEntity - nms.EntitySkeleton** viele Prozesse ausgeführt hat. Auch hier könnten Mob-Farmen das Problem sein.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/fZzeemocpsNfxXL/preview)
 
-Ein anderer Prozess mit bereits ebenfalls orangen Werten sind zu Deutsch wartende Blöcke.
-Blöcke, die warten sind besondere Leistungsfresser, da der Server den Status jeden wartenden Blocks jeden Tick prüfen muss.
-Als Beispiel wäre dies fliegender Sand, Kies oder auch Lava und Wasser.
+Ein weiterer Prozess mit bereits orangen Werten sind wartende Blöcke. Blöcke, die warten, können besonders ineffizient sein, weil der Server den Status jedes wartenden Blocks bei jedem Tick prüfen muss. Beispiele dafür sind fliegender Sand, Kies oder auch Lava und Wasser.
 
-Nachdem der Hauptprozess ausgeklappt wurde, ist ebenfalls ein anderer Prozess bereits im orangen Bereich.
-Wie der Name des Prozesses verrät, handelt es sich hierbei um Flüssigkeiten wie Lava und Wasser.
+Wenn zum Beispiel viel Wasser auf einer großen Farm genutzt wird, kann das viele Probleme verursachen. Das Problem kann auch auftreten, wenn neue Chunks generiert werden und Wasserquellen in diesen Chunks in einem Berg entstehen. Der Server muss den Status jedes Mal neu berechnen, damit das Wasser fließt. Außerdem muss der Server die Chunks erstellen und laden, was ebenfalls ein sehr intensiver Prozess ist.
 
-Wenn viel Wasser als Beispiel bei einer großen Farm als Beispiel verwendet wird, kann dies unter anderem viele Probleme mit sich führen.
-Das Problem kann sich aber auch ergeben, wenn neue Chunks generiert werden und in diesen Chunks Wasserquellen als Beispiel in einem Berg erstellt wurden. Der Server muss auch hier wieder den Status jeweils berechnen, damit das Wasser normal verläuft.
-Hierbei kommt hinzu, dass der Server die Chunks erstellen und laden muss, was ebenfalls ein sehr intensiver Prozess ist.
+![](https://screensaver01.zap-hosting.com/index.php/s/GWz98fTiknCkWZW)
 
-![](https://screensaver01.zap-hosting.com/index.php/s/GWz98fTiknCkWZW/preview)
+Alle weiteren Untersuchungen kannst du genauso durchführen, da die Schritte für jeden anderen Prozess identisch sind. Wenn du trotzdem Hilfe bei der Auswertung brauchst, sind wir jederzeit für dich da!
 
-Alle weiteren Untersuchungen können ebenfalls so vorgenommen werden, da es bei jedem anderen Prozess ebenfalls genau die gleichen Schritte sind. Solltest du dennoch Hilfe bei der Auswertung benötigen, so stehen wir dir im Support jederzeit zur Verfügung!
+### Plugins checken
 
-### Plugins prüfen
+Manchmal werden Probleme auch durch Plugins verursacht. Um herauszufinden, ob ein Plugin der Übeltäter ist, kannst du testweise Plugins vom Server entfernen und den aktuellen Zustand erneut checken.
 
-Teilweise stammen Probleme auch von Plugins, um überhaupt feststellen zu können, dass möglicherweise ein Plugin schuld ist, kann man installierte Plugins temporär vom Server einmal entfernen und sich dann nochmal ein Bild der Lage machen.
+Wenn es ein Problem mit Plugins gibt, kannst du das auch im Bereich „Plugins“ untersuchen. Die Werte sind ebenfalls in drei Spalten aufgelistet, die genau die gleiche Struktur wie die normalen Serverwerte oben haben. Der Unterschied ist, dass hier kein Hauptprozess angezeigt wird, sondern das Plugin selbst. Trotzdem kannst du alle Prozesse durch Klicken öffnen und die Werte genauer untersuchen.
 
-Ist ein Problem mit Plugins möglich, so kann man dies ebenfalls im Bereich "Plugins" genauer untersuchen.
-Auch hier werden die Werte wieder in drei Spalten aufgeleitet, die genau gleich aufgebaut sind, wie oben bei den normalen Server-Werten.
-Anders hierbei ist es, dass nun kein Hauptprozess mehr dargestellt wird, sondern das Plugin selbst.
-Dennoch können wir die Prozesse durch Anklicken alle einsehen und die Werte besser untersuchen.
-
-![](https://screensaver01.zap-hosting.com/index.php/s/CzitKykWC2dzExD/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/CzitKykWC2dzExD)
 
 <InlineVoucher />

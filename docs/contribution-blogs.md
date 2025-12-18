@@ -1,7 +1,7 @@
 ---
 id: contribution-blogs
 title: Blogs Process
-description: Information on the blogs contribution process for the ZAP-Hosting Community Contributions program - ZAP-Hosting.com documentation
+description: "Discover how to contribute original, engaging blog content to ZAP-Hosting and share your expertise with a wide audience → Learn more now"
 sidebar_label: Blogs Process
 ---
 
@@ -61,7 +61,7 @@ During this step, you will be writing a new blog post based on the agreed-upon i
 Currently, we accept content using both **Markdown** and **HTML5** styling options.
 
 :::tip
-We can **highly recommend** using the Markdown tool **[StackEdit](https://stackedit.io/app#)** to write your content whilst maintaining all the awesome functionality of Markdown. Alternatively, we can also recommend **[HTML5 Editor](https://html5-editor.net/)** if you prefer to style using HTML5. You could then directly export this to your Google Drive or any file-sharing application and receive a link that you can share with us. You can learn more about Markdown styling via our Blog [Guidelines](contribution-blogs-guidelines.md#formatting)guide.
+We can **highly recommend** using the Markdown tool **[StackEdit](https://stackedit.io/app#)** to write your content whilst maintaining all the awesome functionality of Markdown. Alternatively, we can also recommend **[HTML5 Editor](https://html5-editor.net/)** if you prefer to style using HTML5. You could then directly export this to your Google Drive or any file-sharing application and receive a link that you can share with us. You can learn more about Markdown styling via our Blog [Guidelines](contribution-blogs-guidelines.md)guide.
 :::
 
 :::note

@@ -1,7 +1,7 @@
 ---
 id: vserver-linux-databases
 title: "VPS: Installation of Databases"
-description: Information on how to install databases on your VPS from ZAP-Hosting - ZAP-Hosting.com documentation
+description: "Discover how to install and set up various databases on Linux for improved performance and security → Learn more now"
 sidebar_label: Install Databases
 services:
   - vserver
@@ -55,7 +55,7 @@ First of all, you need to ensure that the latest MariaDB version is being instal
 curl -sS https://downloads.mariadb.com/MariaDB/mariadb_repo_setup | sudo bash
 ```
 
-After installing the repo, update your package manager cache by following the steps provided in the [preparation step](#preparation) section.
+After installing the repo, update your package manager cache by following the steps provided in the preparation step section.
 
 :::info
 The MariaDB repo installation (step above) can be safely ignored in modern operating systems like Ubuntu 22.04 or Debian 11.
@@ -142,7 +142,7 @@ sudo yum install epel-release
 sudo dnf install https://dl.fedoraproject.org/pub/epel/epel-release-latest-8.noarch.rpm
 ```
 
-After installing the repo, update your package manager cache by following the steps in the [preparation step](#preparation) section.
+After installing the repo, update your package manager cache by following the steps in the preparation step section.
 
 :::info
 If your operating system is not listed above, then you can avoid this step.

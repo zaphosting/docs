@@ -1,7 +1,7 @@
 ---
 id: dedicated-linux-valheim
 title: "Dedicated Server: Valheim Dedicated Server Linux Setup"
-description: Information about setting up an Valheim Dedicated Server on a Linux Dedicated Server from ZAP-Hosting - ZAP-Hosting.com documentation
+description: "Discover how to set up a Valheim Dedicated Server on Linux to host your game efficiently and optimize your server performance → Learn more now"
 sidebar_label: Valheim
 services:
   - dedicated
@@ -16,7 +16,7 @@ Do you have a Linux Dedicated Server and you want to install the Valheim Dedicat
 Did you know that you can install our **ZAP GS/TS3 Interface** directly onto your dedicated server, allowing you to setup game server services, with direct integration to your ZAP-Hosting dashboard, in just a few clicks! Learn more about the [GS/TS3 Interface](dedicated-linux-gs-interface.md).
 :::
 
-<InlineVoucher />
+
 
 ## Preparation
 
@@ -74,4 +74,4 @@ Congratulations, you have successfully installed and configured the Valheim serv
 
 If you have any further questions or problems, please contact our support team, who are available to help you every day!
 
-<InlineVoucher />
+

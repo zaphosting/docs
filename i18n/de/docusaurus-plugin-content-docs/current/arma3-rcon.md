@@ -1,7 +1,7 @@
 ---
 id: arma3-rcon
 title: "Arma 3: RCON"
-description: "Erfahre, wie du RCON für Arma 3 verwendest – ZAP-Hosting Dokumentation"
+description: "Entdecke, wie du Arma 3 Gameserver sicher aus der Ferne verwaltest und steuerst, ohne dich ins Spiel einzuloggen → Jetzt mehr erfahren"
 sidebar_label: RCON
 services:
   - gameserver-arma3
@@ -12,59 +12,59 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
 
-RCON (Remote Console) ist ein Netzwerkprotokoll zur Fernsteuerung von Gameservern. Es ermöglicht den Zugriff auf die Serverkonsole, ohne dass du direkt auf die Serverumgebung zugreifen musst. Dadurch kannst du administrative Befehle ausführen, Konfigurationsparameter anpassen oder den Serverstatus abfragen.
+RCON (Remote Console) ist ein Netzwerkprotokoll, mit dem du Gameserver aus der Ferne steuern kannst. Es ermöglicht den Zugriff auf die Serverkonsole, ohne direkt mit der Serverumgebung interagieren zu müssen. So kannst du administrative Befehle ausführen, Konfigurationsparameter anpassen oder Serverstatusinformationen abrufen.
 
-In Arma 3 wird RCON verwendet, um serverseitige Befehle auszuführen, zum Beispiel zur Verwaltung von Spielern, zur Änderung von Spieleinstellungen oder zum Abrufen von Diagnosedaten. Die Verbindung ist durch ein Passwort geschützt und erfolgt über einen definierten Port, der über kompatible RCON-Clients erreichbar ist.
+In Arma 3 wird RCON genutzt, um serverseitige Befehle auszuführen, wie z.B. Spieler verwalten, Gameplay-Einstellungen ändern oder Diagnoseausgaben abrufen. Die Verbindung ist durch ein Passwort geschützt und läuft über einen festgelegten Port, der über kompatible RCON-Clients erreichbar ist.
 
-Ein wesentlicher Vorteil von RCON ist, dass du den Server verwalten kannst, **ohne selbst im Spiel verbunden zu sein**. Administratoren können Arma 3 über externe Tools, Kommandozeilen-Interfaces oder Web-Dashboards überwachen und steuern, flexibel und ortsunabhängig.
+Ein großer Vorteil von RCON ist, dass du den Server **verwalten kannst, ohne als Spieler im Spiel verbunden sein zu müssen**. Server-Admins können Arma 3 bequem über externe Tools, Kommandozeilen oder Web-Dashboards überwachen und steuern – super flexibel und praktisch für die Fernbedienung.
 
 <InlineVoucher />
 
-
-
 ## Konfiguration
 
-Bevor RCON verwendet werden kann, muss es aktiviert und konfiguriert werden. Dies kann direkt in der Gameserververwaltung unter dem Reiter **Einstellungen** erfolgen. Dort findest du eine Option namens **RCON**, die aktiviert werden muss. Zusätzlich solltest du ein sicheres Passwort festlegen und einen gültigen Port definieren.
+Bevor du RCON nutzen kannst, muss es aktiviert und konfiguriert werden. Das geht direkt in der Gameserver-Verwaltung. Im Bereich **Einstellungen** findest du die Option **RCON**, die aktiviert werden muss. Setze hier ein sicheres Passwort.
 
-Der zugewiesene RCON-Port ist unten auf der Einstellungsseite im Bereich **Portübersicht** zu finden.
+Den zugewiesenen RCON-Port findest du ganz unten auf der Einstellungsseite in der **Portübersicht**. 
 
 
 
-## Verbindung per RCON
+## Verbindung via RCON
 
-Um dich per RCON mit dem Arma 3 Server zu verbinden, wird das Tool **BattleWarden** verwendet. Es kann über die [offizielle Website](https://www.battlewarden.net) heruntergeladen werden. Nach der Installation auf deinem Computer muss ein neues Verbindungsprofil erstellt werden. Folgende Angaben sind erforderlich:
+Um dich per RCON mit deinem Arma 3 Gameserver zu verbinden, nutzt du das Tool **BattleWarden**. Das kannst du auf der [offiziellen Webseite](https://www.battlewarden.net) herunterladen. Nach dem Download und der Installation auf deinem Rechner legst du ein neues Verbindungsprofil an. Folgende Werte brauchst du:
 
-- IP-Adresse des Servers
-- RCON-Port
+- Server IP-Adresse  
+- RCON-Port 
 - RCON-Passwort
 
-Sobald die Verbindung steht, können RCON-Befehle über die grafische Oberfläche ausgeführt werden. Das Tool bietet je nach Spiel zusätzliche Funktionen wie Spielerlisten, Live-Chat und Befehlshistorie.
+Ist die Verbindung hergestellt, kannst du RCON-Befehle über die grafische Oberfläche ausführen. Das Tool bietet je nach Spielintegration auch Features wie Spielerlisten, Live-Chat und Befehlsverlauf.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/P9S3rx3GFWkAo3G/preview)
 
+
+
 ## RCON-Befehle
 
-Sobald die Verbindung über RCON besteht, können verschiedene administrative und diagnostische Befehle auf dem Arma 3 Server ausgeführt werden. Die verfügbaren Befehle hängen von der Game-Engine ab, beinhalten aber typischerweise Aktionen zur Spielersteuerung, Statusabfragen und Serverkontrolle.
+Sobald du per RCON verbunden bist, kannst du verschiedene administrative und diagnostische Befehle auf deinem Arma 3 Gameserver ausführen. Die verfügbaren Befehle hängen vom Spiel-Engine ab, umfassen aber typischerweise Aktionen zur Spielerverwaltung, Statusabfragen und Serversteuerung.
 
-| Befehl                         | Beschreibung                                       |
-|----------------------------------|---------------------------------------------------|
-| `#login <Passwort>`             | Als Admin einloggen                               |
-| `#logout`                       | Adminstatus verlassen                              |
-| `#mission <Missionsname>`      | Neue Mission auf dem Server starten               |
-| `#missions`                    | Zeigt verfügbare Missionen zur Auswahl an         |
-| `#restart`                     | Startet die aktuelle Mission neu                  |
-| `#reassign`                    | Versetzt alle Spieler zurück zur Slotauswahl      |
-| `#kick <SpielerID>`            | Kickt einen Spieler                               |
-| `#exec ban <SpielerID>`        | Bannt einen Spieler                               |
-| `#exec unban <SpielerID>`      | Hebt Bann eines Spielers auf                      |
-| `#shutdown`                    | Server herunterfahren                             |
+| Befehl                         | Beschreibung                                        |
+|--------------------------------|----------------------------------------------------|
+| `#login <password>`             | Als Server-Admin einloggen                          |
+| `#logout`                      | Admin-Status beenden                                |
+| `#mission <missionName>`       | Startet eine neue Mission auf dem Server           |
+| `#missions`                   | Listet verfügbare Missionen zur Auswahl auf        |
+| `#restart`                    | Startet die aktuelle Mission neu                    |
+| `#reassign`                   | Versetzt alle Spieler zurück in ihre Rollen        |
+| `#kick <playerID>`            | Kickt einen Spieler                                 |
+| `#exec ban <playerID>`        | Bannt einen Spieler                                 |
+| `#exec unban <playerID>`      | Entbannt einen Spieler                              |
+| `#shutdown`                   | Fährt den Server herunter                           |
 
 
 
-## Abschluss
+## Fazit
 
-RCON ist ein zentrales Werkzeug für die Fernadministration von Arma 3 Gameservern. Es ermöglicht schnellen und direkten Zugriff auf administrative Funktionen und bietet gleichzeitig Zugriffsschutz durch Passwortauthentifizierung. Eine korrekte und sichere Konfiguration ist entscheidend, um die Stabilität des Servers zu gewährleisten und unbefugten Zugriff zu verhindern.
+RCON ist ein zentrales Tool für die Fernverwaltung von Arma 3 Gameservern. Es ermöglicht schnellen und direkten Zugriff auf administrative Funktionen und bietet durch Passwortschutz eine sichere Zugangskontrolle. Eine korrekte und sichere Konfiguration ist entscheidend, um die Serverstabilität zu gewährleisten und unbefugten Zugriff zu verhindern.
 
-Für weitere Fragen oder Hilfe zögere bitte nicht, unser Support-Team zu kontaktieren, das dir täglich zur Verfügung steht! 🙂
+Bei Fragen oder wenn du Hilfe brauchst, steht dir unser Support-Team täglich zur Seite! 🙂
 
 <InlineVoucher />

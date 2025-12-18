@@ -1,7 +1,7 @@
 ---
 id: brokeprotocol-troubleshooting-common-issues
 title: "Broke Protocol: Common issues"
-description: "Information on how to resolve common issues on a Broke Protocol server from ZAP-Hosting - ZAP-Hosting.com documentation"
+description: "Discover how to troubleshoot and resolve common Broke Protocol server issues to ensure smooth gameplay and a stable gaming environment → Learn more now"
 sidebar_label: Common issues
 services:
   - gameserver-brokeprotocol

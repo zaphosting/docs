@@ -1,7 +1,7 @@
 ---
 id: spaceengineers-addmods
 title: "Space Engineers: Installation of mods"
-description: Information on how to install mods on your Space Engineers server from ZAP-Hosting - ZAP-Hosting.com documentation
+description: "Discover how to safely configure and add mods to your Space Engineers server for a customized gameplay experience → Learn more now"
 sidebar_label: Install mods
 services:
   - gameserver-spaceengineers

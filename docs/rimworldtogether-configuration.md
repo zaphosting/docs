@@ -1,7 +1,7 @@
 ---
 id: rimworldtogether-configuration
 title: "RimWorld Together: Server Configuration"
-description: Information about configuring a RimWorld Together game server from ZAP-Hosting - ZAP-Hosting.com documentation
+description: "Explore RimWorld Together server settings to customize gameplay and manage access for a tailored multiplayer experience → Learn more now"
 sidebar_label: Server Configuration
 services:
   - gameserver

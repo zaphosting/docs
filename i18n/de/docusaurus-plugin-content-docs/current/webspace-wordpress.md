@@ -1,35 +1,37 @@
 ---
 id: webspace-wordpress
 title: "Webspace: WordPress installieren"
-description: Informationen, wie du WordPress auf deinen Webspace von ZAP-Hosting installieren kannst - ZAP-Hosting.com Dokumentation
-sidebar_label: WordPress installieren
+description: "Entdecke, wie du WordPress auf deinem Webspace einrichtest, um deine Website effizient zu erstellen und zu verwalten → Jetzt mehr erfahren"
+sidebar_label: Installation
 services:
   - webspace
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
+
+
 ## Einführung
 
-WordPress ist das meist verwendete freie Content-Management-System weltweit. Es wurde ab 2003 von Matthew Mullenweg als Software für Weblogs programmiert und wird als Open-Source-Projekt permanent weiterentwickelt. In dieser Anleitung erklären wir, wie diese Software auf unserem Webspace Produkt installiert werden kann. 
+WordPress ist das weltweit meistgenutzte kostenlose Content-Management-System. Es wurde ab 2003 von Matthew Mullenweg als Software für Weblogs programmiert und wird weiterhin als Open-Source-Projekt entwickelt. In dieser Anleitung erklären wir, wie du diese Software auf unserem Webspace-Produkt installierst. 
 
-![](https://screensaver01.zap-hosting.com/index.php/s/ddP3y64b4nCW2nq/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/j3Ctfont64EnpcH/preview)
 
 <InlineVoucher />
 
 ## Vorbereitung
 
-Bevor die eigentliche Installation von WordPress durchgeführt werden kann, müssen gewisse Vorbereitungen vorgenommen werden. Dazu gehört das Besorgen der Software, die Einrichtung der zu verwendenden Datenbank und der Mailserver (E-Mail Adresse).
+Bevor die eigentliche Installation von WordPress durchgeführt werden kann, müssen einige Vorbereitungen getroffen werden. Dazu gehört das Beschaffen der Software, das Einrichten der zu nutzenden Datenbank und des Mailservers (E-Mail-Adresse).
 
 
 
 **Software**
 
-Die Software kann auf der offiziellen Webseite von WordPress heruntergeladen werden. Der Download dazu ist hier zu finden: [WordPress Download](https://de.wordpress.org/download/)
+Die Software kannst du von der offiziellen WordPress-Webseite herunterladen. Den Download findest du hier: [WordPress Download](https://en.wordpress.org/download/)
 
-![](https://screensaver01.zap-hosting.com/index.php/s/a9GgdcdgWnExELk/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/69YD2QWG8iHzzaa/preview)
 
-Beim Download erhält man eine gepackte ZIP-Datei, welche auf dem lokalen Computer entpackt werden muss. Darin befindet sich dann ein Ordner. Dessen Inhalt wird benötigt und muss entweder per **FTP oder Datei-Manager** hochgeladen werden. In dem Beispiel wird die Einrichtung mittels FTP gezeigt. Unter **Websites & Domains** bei **FTP-Access** kannst du einen FTP-Benutzer anlegen.
+Der Download enthält eine gepackte Zip-Datei, die auf deinem lokalen Rechner entpackt werden muss. Darin findest du einen Ordner mit dem Namen **wordpress**. Dessen Inhalt wird benötigt und muss entweder per **FTP oder Dateimanager** hochgeladen werden. In diesem Beispiel zeigen wir die Einrichtung per FTP. Einen FTP-Benutzer kannst du unter **Websites & Domains** bei **FTP-Zugang** anlegen.
 
 
 
@@ -37,68 +39,74 @@ Beim Download erhält man eine gepackte ZIP-Datei, welche auf dem lokalen Comput
 
 
 
-Nun verbinden wir uns mit dem erstellten FTP-Account mit dem Webspace. Dort navigieren wir dann in das **httpdocs** Verzeichnis und laden im Anschluss die Dateien der Forensoftware hoch.
+Jetzt verbinden wir uns mit dem erstellten FTP-Account zum Webspace. Dort navigieren wir in das Verzeichnis **httpdocs** und laden die Dateien der Software hoch.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/fBDzPzmykfFQGRQ/preview)
+
+
+![](https://screensaver01.zap-hosting.com/index.php/s/c9JSb9XEjfwGwwQ/preview)
 
 
 
 **Datenbank**
 
-Als Nächstes muss die Datenbank angelegt werden, in der später alle Informationen von der Webseite gespeichert werden sollen. Klicke dazu wieder auf **Websites & Domains** und dann auf **Datenbanken**. Dort klicken wir dann auf Datenbank hinzufügen und legen eine Datenbank an: 
+Als nächstes muss die Datenbank erstellt werden, die später alle Informationen der Website speichert. Klicke dazu wieder auf **Websites & Domains** und dann auf **Datenbanken**. Klicke anschließend auf Datenbank hinzufügen und erstelle eine neue Datenbank:  
 
 
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/99BJeGCHjS9QHkz/download/chrome_Jzw3adOg7G.gif)
 
-Im Anschluss auf **OK** klicken und schon wurde die Datenbank hinzugefügt.
+
+
+Klicke auf **OK** und die Datenbank wird angelegt.
 
 
 
 **Mailserver (E-Mail-Adresse)**
 
-Um einen Account beim Forum zu registrieren wird ein Mailserver mit einer E-Mail-Adresse benötigt, damit die Registrierungsmails auch an die Benutzer verschickt werden können. Eine Anleitung zur Einrichtung solch einer E-Mail-Adresse findest du hier: [E-Mails verschicken](webspace-plesk-sendmail.md)
+Für die Registrierung eines Accounts im Forum wird ein Mailserver mit einer E-Mail-Adresse benötigt, damit die Registrierungs-Mails an die Nutzer gesendet werden können. Eine Anleitung zum Einrichten einer solchen E-Mail-Adresse findest du hier: [E-Mails versenden](webspace-plesk-sendmail.md)
 
 
 
 ## Installation
 
-Wenn alle Schritte von der Vorbereitung erfüllt wurden, dann kann mit der eigentlichen Einrichtung von WordPress begonnen werden. Dafür muss jetzt im Internetbrowser die Webseite aufgerufen werden. Das sieht dann so aus: 
+Wenn alle Schritte aus der Vorbereitung erledigt sind, kann die eigentliche WordPress-Installation gestartet werden. Dazu muss die Website jetzt im Internetbrowser aufgerufen werden. Das sollte so aussehen: 
 
-![](https://screensaver01.zap-hosting.com/index.php/s/3w5gWATLjfDFoan/preview)
-
-
-
-Dort angelangt können wir auf **Los geht's!** Klicken, um mit der Einrichtung anzufangen. Als Erstes steht dann die Konfiguration der Datenbank an, welche bereits im Voraus in der Vorbereitung erstellt wurde. Die Datenbankinformationen von der erstellten Datenbank müssen nun dort eingetragen werden.
-
-![](https://screensaver01.zap-hosting.com/index.php/s/KGRpK4s92RYyRCa/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/8AcGsKyHpsSgKxL/preview)
 
 
 
-Klicke im Anschluss auf **Senden** und im folgenden Schritt auf **Installation durchführen**.
+Dort klicken wir auf **Los geht's!**, um die Installation zu starten. Zuerst muss die Datenbank konfiguriert werden, die zuvor in der Vorbereitung erstellt wurde. Die Datenbankdaten der erstellten Datenbank müssen jetzt dort eingetragen werden. 
 
 
 
-![](https://screensaver01.zap-hosting.com/index.php/s/6rYLYQRJJRqgKJq/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/9jnjxz8B9TaeZSD/preview)
 
 
 
-Jetzt benötigt WordPress noch weitere Informationen. Hier kann der Titel der Webseite, Benutzername, Passwort, und die E-Mail-Adresse angegeben werden. 
-
-![](https://screensaver01.zap-hosting.com/index.php/s/nkos6Kg99cHEHt7/preview)
+Klicke auf **Absenden** und im nächsten Schritt auf **Installation ausführen**. 
 
 
 
-Wenn alle Felder ausgefüllt wurden, dann muss im Anschluss auf **WordPress installieren** geklickt werden. Die Installation wird dann innerhalb weniger Sekunden abgeschlossen und es öffnet sich das Login-Fenster. Dort kannst du dich jetzt mit deinem erstellten Account einloggen. Im Anschluss kannst du dein WordPress nach deinen Wünschen beliebig einrichten!
+![](https://screensaver01.zap-hosting.com/index.php/s/ZLZdC5NeWDoQBkr/preview)
 
 
+
+WordPress benötigt jetzt noch einige weitere Angaben. Der Titel der Website, Benutzername, Passwort und die E-Mail-Adresse können jetzt festgelegt werden.
+
+ 
+
+![](https://screensaver01.zap-hosting.com/index.php/s/WzckYZ47QJLd7yM/preview)
+
+
+
+Sind alle Felder ausgefüllt, klicke auf **WordPress installieren**. Die Installation wird dann innerhalb weniger Sekunden abgeschlossen und das Login-Fenster sollte erscheinen. Dort kannst du dich mit deinem erstellten Account anmelden. Danach kannst du dein WordPress nach Belieben einrichten!
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/MnLRYMDJCXjJJ8i/download/chrome_4KNjihGpo0.gif)
 
 
 
-## Abschluss
+## Fazit
 
-Glückwünsch, du hast dein WordPress bei deinem Webspace installiert. olltest du noch weitere Fragen oder Probleme haben, dann wende dich gerne an unser Support-Team, welches dir jeden Tag zur Verfügung steht!
+Glückwunsch, du hast WordPress auf deinem Webspace installiert. Falls du noch Fragen oder Probleme hast, steht dir unser Support-Team täglich zur Verfügung und hilft dir gerne weiter!
 
 <InlineVoucher />

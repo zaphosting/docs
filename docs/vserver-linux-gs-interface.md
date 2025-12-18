@@ -1,7 +1,7 @@
 ---
 id: vserver-linux-gs-interface
 title: "VPS: Gameserver/TS3 Interface"
-description: Information on how to install TS and game server via the game server/TS3 interface with just a few clicks - ZAP-Hosting.com documentation
+description: "Discover how to easily set up game and voice servers on Linux VPS without prior knowledge using an automated interface → Learn more now"
 sidebar_label: GS/TS3 Interface
 services:
   - vserver

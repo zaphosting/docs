@@ -1,7 +1,7 @@
 ---
 id: abioticfactor-becomeadmin
 title: "Abiotic Factor: Admin werden"
-description: Informationen darüber, wie man ein Admin auf einem Abiotic Factor Gameserver von ZAP-Hosting wird - ZAP-Hosting.com Dokumentation
+description: "Entdecke, wie du Spielern Admin-Rechte gibst, um volle Kontrolle über den Server zu haben und das Gameplay besser zu managen → Jetzt mehr erfahren"
 sidebar_label: Admin werden
 services:
   - gameserver-abioticfactor
@@ -11,15 +11,13 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
 
-In **Abiotic Factor** benötigen Serveradministratoren erhöhte Rechte, um Spieler zu verwalten, Serverbefehle auszuführen oder Einstellungen während des Spiels zu ändern.
+In **Abiotic Factor** brauchen Server-Admins erweiterte Rechte, um Spieler zu verwalten, Serverbefehle auszuführen oder Einstellungen während des Spiels anzupassen.
 
 <InlineVoucher />
 
-
-
 ## Konfiguration
 
-Die Konfiguration erfolgt über die Konfigurationsdatei `admin.ini`. Um darauf zuzugreifen, öffne den Abschnitt **Configs** in der Gameserververwaltung und suche die Datei `admin.ini`. Standardmäßig sollte die Datei den folgenden Eintrag enthalten, in dem Administratoren definiert werden können. Ersetze die `ExampleID` Werte durch die entsprechenden **SteamID64** der Spieler, denen du Admin-Berechtigungen erteilen möchtest.
+Die Konfiguration erfolgt über die `admin.ini` Datei. Um darauf zuzugreifen, öffne den Bereich **Configs** in der Gameserver-Verwaltung und suche die `admin.ini`. Standardmäßig sollte die Datei folgenden Eintrag enthalten, in dem Admins definiert werden können. Ersetze die `ExampleID` Werte durch die entsprechenden **SteamID64** der Spieler, denen du Admin-Rechte geben möchtest.
 
 ```
 [Moderators]
@@ -27,13 +25,9 @@ Moderator=ExampleID1
 Moderator=ExampleID2
 ```
 
+## Fazit
 
-
-## Abschluss
-
-Sobald die Informationen korrekt hinzugefügt wurden und der Server neu gestartet wurde, hat der angegebene Spieler vollen Admin-Zugriff im Spiel. Für weitere Fragen oder Hilfe zögere bitte nicht, unser Support-Team zu kontaktieren, das dir täglich zur Verfügung steht! 🙂
-
-
+Sobald die Angaben korrekt eingetragen und der Server neu gestartet wurde, hat der angegebene Spieler vollen Admin-Zugriff im Spiel. Bei weiteren Fragen oder wenn du Hilfe brauchst, steht dir unser Support-Team täglich zur Seite! 🙂
 
 
 <InlineVoucher />

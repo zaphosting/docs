@@ -1,7 +1,7 @@
 ---
 id: domain-dashboard
 title: "Domain: Dashboard Overview"
-description: Information about the dashboard of a Domain product from ZAP-Hosting - ZAP-Hosting.com Documentation
+description: "Discover how to efficiently manage your domain and access all key features for optimal configuration and control → Learn more now"
 sidebar_label: Dashboard
 services:
   - domain
@@ -16,7 +16,7 @@ You are interested in a **Domain** or already own one, but you still lack a comp
 
 After going through this guide, you will easily be able to manage your domain efficiently and find all the necessary options and features quickly and easily. Here, you will get a structured overview that will help you step by step to get familiar with the domain administration and expand your knowledge in a targeted manner. This way, you can ensure that your **Domain** is optimally configured to your needs and that you get the most out of the available options.
 
-
+<InlineVoucher />
 
 ## Product Administration
 

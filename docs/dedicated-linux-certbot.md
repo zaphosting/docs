@@ -1,7 +1,7 @@
 ---
 id: dedicated-linux-certbot
 title: "Dedicated Server: Setup Certbot on Linux"
-description: Information on how to setup Certbot on your Linux Dedicated Server from ZAP-Hosting - ZAP-Hosting.com documentation
+description: "Discover how to secure your website with free SSL certificates using Certbot and Let's Encrypt for safe data transmission → Learn more now"
 sidebar_label: Install Certbot
 services:
   - dedicated
@@ -15,7 +15,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 SSL Certificates are essential parts of the internet, ensuring that data can be safely transmitted between client and host. In this guide, we will explore the process of setting up the open-source [**Certbot**](https://certbot.eff.org/) tool to request free SSL certificates from the **Let's Encrypt** non-profit certificate authority.
 
-<InlineVoucher />
+
 
 ## Preparation
 
@@ -217,4 +217,4 @@ Save the file and quit nano by using `CTRL + X`, followed by `Y` to confirm and 
 
 You have successfully setup Certbot for your domain(s) through a variety of methods including standalone, web root or via one of the plugins, providing your website with secure data transmission via HTTPS. For further questions or assistance, please don’t hesitate to contact our support team, which is available daily to assist you! 🙂
 
-<InlineVoucher />
+

@@ -1,7 +1,7 @@
 ---
 id: fivem-server-customisation
 title: "FiveM: Customise server details"
-description: Information on how to customise server details displayed in the server list for FiveM servers - ZAP-Hosting.com 
+description: "Discover how to customize your server name with colors and emojis to make it stand out in the server list → Learn more now"
 sidebar_label: Customise Server Details
 services:
   - gameserver-fivem

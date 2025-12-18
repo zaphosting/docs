@@ -1,7 +1,7 @@
 ---
 id: account-data-information
 title: Data Information – Access and Download Your Account Data
-description: Learn how to view and download your personal data stored by ZAP-Hosting - ZAP-Hosting Documentation
+description: "Discover how to access and review your personal data stored by ZAP-Hosting for full transparency and control → Learn more now"
 sidebar_label: Data Information
 ---
 

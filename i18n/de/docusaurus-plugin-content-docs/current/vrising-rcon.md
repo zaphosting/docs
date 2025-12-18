@@ -1,7 +1,7 @@
 ---
 id: vrising-rcon
 title: "V Rising: RCON"
-description: "Erfahre, wie du RCON für V Rising verwendest – ZAP-Hosting Dokumentation"
+description: "Entdecke, wie du V Rising Gameserver effizient aus der Ferne verwaltest und steuerst – ganz ohne Ingame-Verbindung → Jetzt mehr erfahren"
 sidebar_label: RCON
 services:
   - gameserver-vrising
@@ -12,67 +12,65 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
 
-RCON (Remote Console) ist ein Netzwerkprotokoll zur Fernsteuerung von Gameservern. Es ermöglicht den Zugriff auf die Serverkonsole, ohne dass du direkt auf die Serverumgebung zugreifen musst. Dadurch kannst du administrative Befehle ausführen, Konfigurationsparameter anpassen oder den Serverstatus abfragen.
+RCON (Remote Console) ist ein Netzwerkprotokoll, mit dem du Gameserver aus der Ferne steuern kannst. Es ermöglicht den Zugriff auf die Serverkonsole, ohne direkt mit der Serverumgebung interagieren zu müssen. So kannst du administrative Befehle ausführen, Konfigurationsparameter anpassen oder Serverstatusinformationen abrufen.
 
-In V Rising wird RCON verwendet, um serverseitige Befehle auszuführen, zum Beispiel zur Verwaltung von Spielern, zur Änderung von Spieleinstellungen oder zum Abrufen von Diagnosedaten. Die Verbindung ist durch ein Passwort geschützt und erfolgt über einen definierten Port, der über kompatible RCON-Clients erreichbar ist.
+Bei V Rising wird RCON genutzt, um serverseitige Befehle auszuführen, wie z.B. Spieler verwalten, Gameplay-Einstellungen ändern oder Diagnoseausgaben abrufen. Die Verbindung ist durch ein Passwort geschützt und läuft über einen festgelegten Port, der über kompatible RCON-Clients erreichbar ist.
 
-Ein wesentlicher Vorteil von RCON ist, dass du den Server verwalten kannst, **ohne selbst im Spiel verbunden zu sein**. Administratoren können V Rising über externe Tools, Kommandozeilen-Interfaces oder Web-Dashboards überwachen und steuern, flexibel und ortsunabhängig.
+Der große Vorteil von RCON ist, dass du den Server **verwaltst, ohne im Spiel als Spieler verbunden sein zu müssen**. Server-Admins können V Rising so bequem über externe Tools, Kommandozeilen oder Web-Dashboards überwachen und steuern – super flexibel und praktisch für die Fernverwaltung.
 
 <InlineVoucher />
 
-
-
 ## Konfiguration
 
-Bevor RCON verwendet werden kann, muss es aktiviert und konfiguriert werden. Dies erfolgt über die Konfigurationsdatei, die du in der Gameserververwaltung unter **Configs** findest. In der Datei `ServerHostSettings.json` müssen folgende Einträge ergänzt oder angepasst werden:
+Bevor du RCON nutzen kannst, muss es aktiviert und konfiguriert werden. Das machst du, indem du die Konfigurationsdatei unter **Configs** im Gameserver-Management-Panel bearbeitest. In der Datei `ServerHostSettings.json` müssen folgende Einträge hinzugefügt oder angepasst werden:
 
 ```cfg
   "Rcon": {
     "Enabled": false,
     "Port": XXXXX,
-    "Password": "define-your-password"
+    "Password": "definiere-dein-passwort"
   },
 ```
 
-Der zugewiesene RCON-Port ist ebenfalls in der **Portübersicht** unten auf der Einstellungsseite zu finden und muss dort eingetragen sein.
+Den zugewiesenen RCON-Port findest du unten auf der Einstellungsseite in der Port-Übersicht, dieser muss dort eingetragen werden.
 
 
 
-## Verbindung per RCON
+## Verbindung via RCON
 
-Um dich per RCON mit dem V Rising Server zu verbinden, wird das Kommandozeilentool **rcon-cli** verwendet. Du kannst es aus dem offiziellen [GitHub-Repository](https://github.com/gorcon/rcon-cli) herunterladen. Nach dem Download und der lokalen Installation kann die Verbindung mit der IP-Adresse des Servers, dem RCON-Port und dem RCON-Passwort hergestellt werden.
+Für die Verbindung zum V Rising Gameserver via RCON nutzt du das Kommandozeilen-Tool **rcon-cli**. Das kannst du dir im offiziellen [GitHub-Repository](https://github.com/gorcon/rcon-cli) herunterladen. Nach dem Download und der Installation auf deinem Rechner kannst du die Verbindung mit der Server-IP, dem RCON-Port und dem RCON-Passwort herstellen.
 
-Den zugewiesenen Port findest du in der **Portübersicht** unten auf der Einstellungsseite in der Gameserververwaltung. Passwort und Port müssen mit den Werten übereinstimmen, die im Panel oder in der Konfigurationsdatei eingetragen sind. Verwende folgenden Befehl, um dich zu verbinden und direkt einen Befehl auszuführen:
+Den zugewiesenen Port findest du in der **Port-Übersicht** ganz unten auf der Einstellungsseite im Gameserver-Adminbereich. Passwort und Port müssen mit den Werten im Panel oder der Konfigurationsdatei übereinstimmen. Mit folgendem Befehl verbindest du dich und führst direkt einen Befehl aus:
 
-```
-rcon-cli -a <IP>:<PORT> -p <PASSWORD> command
+```bash
+rcon-cli -a <IP>:<PORT> -p <PASSWORT> befehl
 ```
 
 
 
 ## RCON-Befehle
 
-Sobald die Verbindung über RCON besteht, können verschiedene administrative und diagnostische Befehle auf dem V Rising Server ausgeführt werden. Die verfügbaren Befehle hängen von der Game-Engine ab, beinhalten aber typischerweise Aktionen zur Spielersteuerung, Statusabfragen und Serverkontrolle.
+Sobald du via RCON verbunden bist, kannst du verschiedene administrative und diagnostische Befehle auf dem V Rising Gameserver ausführen. Die verfügbaren Befehle hängen vom Spiel ab, umfassen aber typischerweise Aktionen zur Spielerverwaltung, Statusabfragen und Serversteuerung.
 
-| Befehl                          | Beschreibung                                        |
-| ------------------------------- | --------------------------------------------------- |
-| `adminauth`                     | Aktiviert Adminrechte für dich (Ingame-Chat-Befehl) |
-| `admindeauth`                   | Deaktiviert deine Adminrechte                       |
-| `banuser <SteamID>`             | Bannt einen Spieler dauerhaft                       |
-| `unbanuser <SteamID>`           | Hebt einen Bann auf                                 |
-| `kick <Spielername>`            | Kickt einen Spieler sofort vom Server               |
-| `give <ItemName> <Anzahl>`      | Gibt dir Items direkt ins Inventar                  |
-| `teleport <X> <Y>`              | Teleportiert deinen Charakter zu Koordinaten        |
-| `teleportplayer <Name> <X> <Y>` | Teleportiert einen Spieler an bestimmte Koordinaten |
-| `changehealth <Wert>`           | Ändert Lebenspunkte deines Charakters               |
-| `spawn <EntityName> <Anzahl>`   | Spawnt eine Kreatur oder Einheit                    |
+| Befehl                                     | Beschreibung                                                |
+|--------------------------------------------|-------------------------------------------------------------|
+| `adminauth`                                | Aktiviert Adminrechte für deinen Charakter (nur ingame)     |
+| `admindeauth`                              | Deaktiviert Adminrechte                                     |
+| `banuser <SteamID>`                        | Sperrt einen Spieler dauerhaft                              |
+| `unbanuser <SteamID>`                      | Hebt eine vorherige Sperre eines Spielers auf               |
+| `kick <Spielername>`                       | Kickt einen Spieler sofort vom Server                        |
+| `give <ItemName> <Menge>`                  | Gibt Items direkt ins Inventar                               |
+| `teleport <X> <Y>`                         | Teleportiert deinen Charakter zu den angegebenen Koordinaten|
+| `teleportplayer <Name> <X> <Y>`            | Teleportiert einen anderen Spieler zu bestimmten Koordinaten|
+| `changehealth <Wert>`                      | Setzt deine aktuelle Gesundheit auf einen bestimmten Wert  |
+| `spawn <EntityName> <Menge>`                | Spawnt NPCs, Kreaturen oder andere Entities                 |
 
 
 
-## Abschluss
+## Fazit
 
-RCON ist ein zentrales Werkzeug für die Fernadministration von V Rising Gameservern. Es ermöglicht schnellen und direkten Zugriff auf administrative Funktionen und bietet gleichzeitig Zugriffsschutz durch Passwortauthentifizierung. Eine korrekte und sichere Konfiguration ist entscheidend, um die Stabilität des Servers zu gewährleisten und unbefugten Zugriff zu verhindern.
+RCON ist ein essentielles Tool zur Fernverwaltung von V Rising Gameservern. Es ermöglicht schnellen und direkten Zugriff auf administrative Funktionen und bietet durch Passwortschutz eine sichere Zugangskontrolle. Eine korrekte und sichere Konfiguration ist entscheidend, um die Serverstabilität zu gewährleisten und unbefugten Zugriff zu verhindern.
 
-Für weitere Fragen oder Hilfe zögere bitte nicht, unser Support-Team zu kontaktieren, das dir täglich zur Verfügung steht! 🙂
+Bei Fragen oder wenn du Hilfe brauchst, steht dir unser Support-Team täglich zur Seite! 🙂
 
 <InlineVoucher />

@@ -1,7 +1,7 @@
 ---
 id: vserver-linux-tf2
-title: "VPS: Team Fortress 2 Dedicated Server Linux Setup"
-description: "Informationen zur Einrichtung eines Counter-Strike 2 Dedicated Servers auf einem Linux VPS von ZAP Hosting – ZAP Hosting.com Dokumentation"
+title: "vServer: Team Fortress 2 Dedicated Server Linux Setup"
+description: "Entdecke, wie du schnell und einfach einen Team Fortress 2 Dedicated Server auf deinem Linux VPS einrichtest → Jetzt mehr erfahren"
 sidebar_label: "Team Fortress 2"
 services:
   - vserver
@@ -10,61 +10,61 @@ services:
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
-Du hast einen Linux VPS und möchtest darauf den Counter Strike 2 Dedicated Server installieren? Dann bist du hier richtig. In dieser Anleitung erläutern wir Schritt für Schritt die Installation dieses Dienstes auf deinem Linux Server mit SteamCMD. In den Beispielen verwenden wir Ubuntu, der Ablauf ist jedoch bei anderen Distributionen sehr ähnlich.
+Du hast einen Linux VPS und möchtest darauf den Team Fortress 2 Dedicated Server installieren? Dann bist du hier genau richtig. In dieser Anleitung erklären wir dir Schritt für Schritt, wie du diesen Service auf deinem Linux-Server mit SteamCMD installierst. Wir verwenden Ubuntu als Beispiel, aber der Prozess ist bei anderen Distributionen sehr ähnlich.
 
 :::tip
-Wusstest du, dass du unser **ZAP GS/TS3 Interface** direkt auf deinem VPS installieren kannst? So richtest du Gameserver Dienste mit direkter Integration in dein ZAP Hosting Dashboard mit nur wenigen Klicks ein! Mehr dazu im [GS/TS3 Interface](vserver-linux-gs-interface.md).
+Wusstest du, dass du unsere **ZAP GS/TS3 Interface** direkt auf deinem VPS installieren kannst? Damit richtest du Gameserver-Services mit direkter Integration in dein ZAP-Hosting Dashboard in nur wenigen Klicks ein! Erfahre mehr über das [GS/TS3 Interface](vserver-linux-gs-interface.md).
 :::
 
 <InlineVoucher />
 
 ## Vorbereitung
 
-Stelle zunächst per SSH eine Verbindung zu deinem VPS her. Nutze bei Bedarf unsere Anleitung [SSH Erster Zugriff](vserver-linux-ssh.md). Wenn du SteamCMD zum ersten Mal auf deinem Linux Server verwendest, musst du außerdem eine Ersteinrichtung durchführen. Verwende dazu unsere Anleitung [SteamCMD Linux Einrichtung](vserver-linux-steamcmd.md) und stelle sicher, dass SteamCMD vollständig eingerichtet ist, bevor du fortfährst.
+Verbinde dich zunächst per SSH mit deinem VPS. Falls du dabei Hilfe brauchst, nutze unsere [SSH Erste Schritte](vserver-linux-ssh.md) Anleitung. Außerdem musst du SteamCMD beim ersten Mal auf deinem Linux-Server einrichten. Folge dazu unserer [SteamCMD Linux Setup](vserver-linux-steamcmd.md) Anleitung und stelle sicher, dass SteamCMD vollständig eingerichtet ist, bevor du weitermachst.
 
 ## Installation
 
-Melde dich beim Benutzer `steam` an und wechsle in dessen Home Verzeichnis, um die Dateien übersichtlich zu halten.
+Melde dich als `steam`-User an und wechsle in das Home-Verzeichnis von `steam`, um alles ordentlich zu halten.
 ```
 sudo -u steam -s
 cd ~
 ```
 
-Wenn du angemeldet bist, kannst du den Installationsprozess mit folgendem Befehl starten, um die Installation bequem per SteamCMD direkt für den Benutzer `steam` durchzuführen.
+Sobald du eingeloggt bist, kannst du die Installation mit folgendem Befehl starten. Damit wird SteamCMD genutzt, um den Server direkt im Verzeichnis `/home/steam/tf2-ds` zu installieren.
 ```
 steamcmd +force_install_dir '/home/steam/tf2-ds' +login anonymous +app_update 232250 validate +quit
 ```
 
-Bitte warte, bis der Download abgeschlossen ist. Bei größeren Spielen kann das etwas dauern. Nach erfolgreichem Abschluss erscheint eine entsprechende Erfolgsmeldung.
+Bitte hab Geduld, bis der Download abgeschlossen ist – bei größeren Spielen kann das eine Weile dauern. Wenn alles erfolgreich war, erscheint eine Bestätigungsmeldung.
 
 ## Konfiguration
 
-An diesem Punkt ist die Grundinstallation deines Counter Strike 2 Servers abgeschlossen. Weitere Servereinstellungen kannst du durch direktes Bearbeiten der Start /Konfigurationsdateien vornehmen.
+Jetzt hast du die Grundinstallation deines Team Fortress 2 Servers abgeschlossen. Weitere Servereinstellungen kannst du direkt in der Startdatei anpassen.
 
-Wechsle in dein Hauptverzeichnis. Navigiere darin in das Verzeichnis `cfg` und öffne die Datei `server.cfg`. Dort kannst du Serveroptionen anpassen.
+Wechsle in dein Root-Verzeichnis. Dort findest du im Ordner `cfg` die Datei `server.cfg`, in der du die Serveroptionen bearbeiten kannst.
 ```
 nano /home/steam/tf-ds/tf2/tf/cfg/server.cfg
 ```
 
 ## GSL Token registrieren
 
-Damit andere Spieler deinem Server beitreten können, musst du ein Game Server Login Token (GSLT) erstellen und hinterlegen. Dieses Token authentifiziert deinen Server bei Steam. Erzeuge ein GSLT unter http://steamcommunity.com/dev/managegameservers und verwende dabei die App ID 232250 für Counter Strike 2.
+Damit andere Spieler auf deinen Server connecten können, musst du einen Game Server Login Token (GSLT) generieren und einbinden. Dieser Token authentifiziert deinen Server bei Steam. Erstelle deinen GSLT unter http://steamcommunity.com/dev/managegameservers mit der Game-ID 232250 für Team Fortress 2.
 
-Füge das Token anschließend in die Startparameter deines Servers ein, z.B. mit `+sv_setsteamaccount <TOKEN>`.
+Füge den Token dann in deine Server-Startparameter mit `+sv_setsteamaccount <TOKEN>` ein.
 
-## Server starten und verbinden
+## Server starten & verbinden
 
-Jetzt kannst du deinen Server starten. Wechsle in das Hauptverzeichnis des Spiels und führe folgenden Startbefehl aus:
+Jetzt kannst du deinen Server starten. Wechsle in das Hauptspielverzeichnis und führe folgenden Startbefehl aus:
 ```
 ./srcds_run -console -game tf -secure +maxplayers 22 +map de_dust +sv_setsteamaccount XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 ```
 
-In der Konsole sollten nun Protokolle erscheinen, die einen erfolgreichen Start signalisieren. Beachte, dass der erste Start etwas länger dauern kann, da alles eingerichtet wird. Alternativ kannst du direkt verbinden, indem du in der Serverliste in der unteren Suchleiste nach folgender Adresse suchst: `[your_ip_address]:2456`.
+Im Terminal solltest du nun Logs sehen, die den erfolgreichen Start anzeigen. Beachte, dass der erste Start etwas länger dauern kann, da alles eingerichtet wird. Alternativ kannst du dich direkt verbinden, indem du in der Serverliste unten die Suche nutzt und nach `[deine_ip_adresse]:2456` suchst.
 
-## Abschluss
+## Fazit
 
-Glückwunsch, du hast den Counter Strike 2 Server auf deinem VPS erfolgreich installiert und konfiguriert! Als nächsten Schritt empfehlen wir unsere Anleitung [Linux Dienst einrichten](vserver-linux-create-gameservice.md). Diese erklärt, wie du deinen neuen Dedicated Gameserver als Dienst betreibst. Vorteile: automatischer Start beim Booten, automatische Server Updates, einfache Verwaltung und Zugriff auf Logs und vieles mehr!
+Glückwunsch, du hast deinen Team Fortress 2 Server erfolgreich auf deinem VPS installiert und konfiguriert! Als nächsten Schritt empfehlen wir dir unsere [Linux Service Setup](vserver-linux-create-gameservice.md) Anleitung. Dort erfährst du, wie du deinen Dedicated Gameserver als Service einrichtest – mit Vorteilen wie automatischem Serverstart beim Booten, automatischen Updates, einfacher Verwaltung und Zugriff auf Logs und vieles mehr!
 
-Für weitere Fragen oder Unterstützung wende dich bitte an unser Support Team, das täglich für dich da ist! 🙂
+Bei Fragen oder Problemen steht dir unser Support-Team täglich zur Verfügung – zögere nicht, uns zu kontaktieren! 🙂
 
 <InlineVoucher />

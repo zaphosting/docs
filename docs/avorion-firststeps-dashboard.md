@@ -1,7 +1,7 @@
 ---
 id: avorion-firststeps-dashboard
 title: "Avorion: Dashboard overview"
-description: Information about the dashboard of an Avorion server from ZAP-Hosting - ZAP-Hosting.com Documentation
+description: "Discover how to efficiently manage and optimize your Avorion server with a clear overview of all essential features → Learn more now"
 sidebar_label: Dashboard
 services:
   - gameserver-bananashooter-avorion

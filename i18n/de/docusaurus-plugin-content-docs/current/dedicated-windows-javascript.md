@@ -1,7 +1,7 @@
 ---
 id: dedicated-windows-javascript
 title: 'Dedicated Server: Installation von JavaScript'
-description: Informationen darüber, wie man JavaScript auf deinem Windows-Server von ZAP-Hosting.com installiert -  ZAP-Hosting.com Dokumentation
+description: "Entdecke, wie du Node.js, Deno und Bun auf Windows installierst und einrichtest, um JavaScript effizient auszuführen → Jetzt mehr erfahren"
 sidebar_label: JavaScript installieren
 services:
   - dedicated
@@ -11,157 +11,157 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
 
-Diese Anleitung liefert Schritte zur Installation von Node.js, Deno und Bun unter Windows. Die unten aufgeführten Schritte müssen über RDP ausgeführt werden. Wenn du nicht weißt, wie man sich über RDP mit deinem Server verbindet, schau dir bitte unsere [Erstzugang (RDP)](vserver-windows-userdp.md) Anleitung an.
+Diese Anleitung zeigt dir, wie du Node.js, Deno und Bun auf Windows installierst. Die unten beschriebenen Schritte müssen per RDP ausgeführt werden. Falls du nicht weißt, wie du dich per RDP mit deinem Server verbindest, schau dir bitte unsere [Erstzugang (RDP)](vserver-windows-userdp.md) Anleitung an.
 
-<InlineVoucher />
+
 
 ## Installation
 
-Zu Beginn musst du entscheiden, welche JavaScript-Laufzeitumgebung du installieren möchtest. Es gibt viele Online-Ressourcen, die jede davon ausführlich beschreiben. Du kannst aber auch diese Anleitung lesen, da diese grundlegende Befehle zur Nutzung und Codebeispiele enthält. Wir empfehlen die Verwendung von NodeJS, da es eine der am weitesten verbreiteten und sehr beliebten Optionen ist.
+Zuerst musst du entscheiden, welche JavaScript-Laufzeitumgebung du installieren möchtest. Es gibt viele Online-Ressourcen, die jede davon ausführlich beschreiben. Aber du kannst auch diese Anleitung lesen, da sie grundlegende Befehle und Codebeispiele enthält. Wir empfehlen Node.js, da es eine der am weitesten verbreiteten und beliebtesten Optionen ist.
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
 <Tabs>
-<TabItem value="NodeJS Runtime" label="Node.js" default>
+<TabItem value="Node.js Runtime" label="Node.js" default>
 
-## Node.js-Laufzeitumgebung installieren
+## Node.js Runtime installieren
 
 ### Schritt 1: Dateien herunterladen
-
-Öffne den Browser deiner Wahl (in dieser Anleitung wird Chrome verwenden) und navigiere zu [https://nodejs.org/en](https://nodejs.org/en)
+Öffne deinen bevorzugten Browser (ich nutze für diese Anleitung Chrome) und gehe auf [https://Node.js.org/en](https://Node.js.org/en)
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/FXEML6xiCedS7Nq/preview)
 
-Klicke nun auf den Button `Node.js (LTS) herunterladen` und warte, bis der Download abgeschlossen ist. 
+Klicke jetzt auf den Button `Download Node.js (LTS)` und warte, bis der Download abgeschlossen ist.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/EwjMejMYykPCQRQ/preview)
 
-:::tip Es wird allgemein empfohlen, deine Installation auf der neuesten Langzeitunterstützungs-Version (LTS) zu halten. :::
+:::tip
+Es wird generell empfohlen, die neueste Long Term Support (LTS) Version zu verwenden.
+:::
 
-### Schritt 2: Installation von Python
-Starte den Installer, indem du darauf klickst. Nun wirst du aufgefordert, einige Einstellungen für die Installation vorzunehmen. Auf der `Willkommen`-Seite solltest du `Weiter` klicken.
+### Schritt 2: Node.js installieren
+Starte den Installer durch einen Klick darauf. Nun wirst du aufgefordert, einige Einstellungen für die Installation vorzunehmen. Auf der `Willkommen`-Seite klickst du auf `Weiter`.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/4kZo7AFbMk58c2E/preview)
 
-Nun musst du die Node.js-Lizenzvereinbarung lesen und akzeptieren (indem du das Kontrollkästchen markierst) und dann auf den `Weiter`-Button klicken.
+Jetzt musst du die Node.js Lizenzvereinbarung lesen und akzeptieren (Checkbox markieren) und dann auf `Weiter` klicken.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/sDNjGj7fCqHRFGp/preview)
 
-Danach wirst du nach einem Installationsort für Node.js gefragt.
+Anschließend wirst du nach einem Installationsort für Node.js gefragt.
 
 :::note
-Wir empfehlen, den Standardinstallationsort zu verwenden.
+Wir empfehlen, den Standard-Installationspfad zu verwenden.
 :::
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/L2wNRLFfEo3H6wn/preview)
 
-Auf der nächsten Seite kannst du dich gegen die Installation einiger Kernpakete von Node.js entscheiden. Wenn du eine normale Installation wünschst, was empfohlen wird, drücke einfach auf den `Weiter`-Button. Du hast auch die Möglichkeit, Chocolatey zu installieren, aber das ist nicht notwendig.
+Auf der nächsten Seite kannst du auswählen, ob du einige Kernpakete von Node.js nicht installieren möchtest. Für eine normale Installation, die empfohlen wird, klicke einfach auf `Weiter`. Du hast auch die Option, Chocolatey zu installieren, das ist aber nicht notwendig.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/y6ssQbn2psE5sFt/preview)
 
 ### Schritt 3: Installation abschließen
-Das war's, jetzt kannst du auf `Installieren` klicken und warten, bis alles eingerichtet ist. Hab Geduld, denn das kann etwas dauern. :)
+Jetzt kannst du auf `Installieren` klicken und warten, bis alles eingerichtet ist. Hab Geduld, das kann eine Weile dauern. :)
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/Bdr4pfwS2HRoaS2/preview)
 
-Sobald die Installation abgeschlossen ist, kannst du einfach auf der letzten Seite auf `Fertigstellen` drücken und beginnen, Node.js auf deinem Server zu verwenden.
+Nach Abschluss klickst du einfach auf `Fertigstellen` und kannst Node.js auf deinem Server nutzen.
 
 ### Node.js auf die neueste Version aktualisieren
 
-Mit `node -v` wird die installierte Version von Node.js angezeigt. Von Zeit zu Zeit solltest du überprüfen, ob du die neueste LTS-Version verwendest. Um Node.js zu aktualisieren, musst du den bereitgestellten [Installationsabschnitt](dedicated-windows-javascript.md#nodejs-laufzeitumgebung-installieren) erneut befolgen.
+Mit `node -v` kannst du die installierte Node.js-Version anzeigen lassen. Von Zeit zu Zeit solltest du prüfen, ob du die neueste LTS-Version nutzt. Um Node.js zu aktualisieren, folge einfach nochmal dem Abschnitt dieser [JavaScript Installation](dedicated-windows-javascript.md) Anleitung.
 
-### Node.js & npm ausführen
+### Node.js & npm starten
 
-npm ist der offizielle Paketmanager von Node.js. Du wirst ihn verwenden, um Pakete aus dem Internet zu installieren.
-
-:::tip
-Alle npm-Pakete findest du auf ihrer [Webseite](https://www.npmjs.com/).
-:::
-
-
-### Ein neues Projekt erstellen
-
-Jedes Mal, wenn du ein neues Node.js-Projekt starten möchtest, musst du mit dem Datei-Explorer ein neues Verzeichnis dafür anlegen, die Eingabeaufforderung oder PowerShell darin öffnen und den Befehl `npm init` ausführen, um die Einrichtung zu beginnen. Dabei wirst du nach einigen grundlegenden Informationen gefragt, um eine `package.json`-Datei zu erstellen. Diese Datei wird die "Konfigurations"-Datei für das Ausführen von Node.js sein.
+npm ist der offizielle Paketmanager von Node.js. Damit installierst du alle Pakete aus dem Internet.
 
 :::tip
-Unter Windows kannst du einmal auf den aktuellen Pfad im Datei-Explorer klicken und `cmd` eingeben, dann `Enter` drücken, um die Eingabeaufforderung im aktuellen Verzeichnis zu öffnen, was die Arbeit erleichtert.
+Alle npm-Pakete findest du auf der [offiziellen Webseite](https://www.npmjs.com/).
 :::
 
-Nachdem du das neue Projekt initialisiert hast, kannst du eine neue Datei namens `index.js` erstellen und darin Code schreiben. Als Beispiel werden wir einen einfachen HTTP-Server auf dem Standardport 80 erstellen, der mit einer Testnachricht antwortet, wenn er über localhost aufgerufen wird. Dies kann unten gesehen werden.
+### Neues Projekt erstellen
+
+Jedes Mal, wenn du ein neues Node.js-Projekt starten willst, musst du einen neuen Ordner dafür anlegen, den du im Datei-Explorer öffnest. Öffne dann die Eingabeaufforderung oder PowerShell in diesem Ordner und führe den Befehl `npm init` aus, um die Einrichtung zu starten. Dabei wirst du nach einigen Basisinfos gefragt, um eine `package.json` Datei zu erstellen. Diese ist die "Config"-Datei für Node.js.
+
+:::tip
+Unter Windows kannst du im Datei-Explorer einmal auf den aktuellen Pfad klicken, `cmd` eintippen und mit Enter bestätigen. So öffnet sich die Eingabeaufforderung direkt im aktuellen Verzeichnis – super praktisch!
+:::
+
+Nach der Initialisierung kannst du eine neue Datei namens `index.js` erstellen und deinen Code darin schreiben. Als Beispiel erstellen wir einen einfachen HTTP-Server auf dem Standardport 80, der beim Zugriff über localhost eine Testnachricht zurückgibt. So sieht der Code aus:
 
 ```js
 const http = require('http')
 
 const server = http.createServer((req, res) => {
   res.writeHead(200, { 'Content-Type': 'text/plain' })
-  res.end('Hallo von ZAP-Hosting Docs =)')
+  res.end('Hello from ZAP-Hosting Docs =)')
 })
 
 server.listen(80)
 ```
 
-Jetzt kannst du den bereitgestellten Code mit dem Befehl `node .` ausführen und die Ergebnisse überprüfen, indem du `localhost:80` in deinem Browser aufrufst.
+Jetzt kannst du den Code mit dem Befehl `node .` ausführen und das Ergebnis im Browser unter `localhost:80` anschauen.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/kWRi9agrzkWc4rw/preview)
 
 :::tip
-Das Installieren externer Pakete von npm wird mit dem Befehl `npm install [paket-name]` durchgeführt.
+Externe Pakete von npm installierst du mit `npm install [paket-name]`.
 :::
 
 </TabItem>
 
 <TabItem value="Deno Runtime" label="Deno" default>
 
-## Deno-Laufzeitumgebung installieren
+## Deno Runtime installieren
 
-Deno zu installieren ist so einfach, wie `irm https://deno.land/install.ps1 | iex` in einer PowerShell-Instanz einzugeben. Benutze die Windows-Suchleiste und suche nach `Powershell`. Öffne eine Eingabeaufforderung als Administrator und führe den obigen Befehl aus, wobei du allen Schritten folgst, die dir möglicherweise angezeigt werden.
+Deno installierst du ganz einfach, indem du in einer PowerShell-Instanz den Befehl `irm https://deno.land/install.ps1 | iex` eingibst. Suche in der Windows-Suche nach `PowerShell`, öffne die Konsole als Administrator und führe den Befehl aus. Folge den Anweisungen, die eventuell angezeigt werden.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/jTdDo6c2Kx42o8B/preview)
 
 :::tip
-Um die derzeit installierte Version zu überprüfen, kannst du `deno --version` ausführen.
+Um die aktuell installierte Version zu prüfen, kannst du `deno --version` ausführen.
 :::
 
 ### Deno auf die neueste Version aktualisieren
 
-Das Aktualisieren von Deno kann einfach durch Ausführen von `deno upgrade` erfolgen.
+Deno aktualisierst du ganz einfach mit dem Befehl `deno upgrade`.
 
-### Deno ausführen
+### Deno starten
 
-Um Deno zu starten, musst du eine neue Datei `index.ts` erstellen und etwas Code hineinschreiben. Als Beispiel werden wir einen einfachen HTTP-Server auf dem Standardport 80 erstellen, der mit einer Testnachricht antwortet, wenn er über localhost aufgerufen wird. Dies kann unten gesehen werden.
+Um Deno zu starten, erstellst du eine neue Datei `index.ts` und schreibst etwas Code hinein. Als Beispiel bauen wir einen einfachen HTTP-Server auf Port 80, der beim Zugriff über localhost eine Testnachricht zurückgibt. So sieht der Code aus:
 
 ```js
 Deno.serve({ port: 80 }, (_req: Request) => {
-  return new Response('Hallo von ZAP-Hosting Docs =)')
+  return new Response('Hello from ZAP-Hosting Docs =)')
 })
 ```
 
-Jetzt kannst du den bereitgestellten Code mit dem Befehl `deno run --allow-net index.ts` ausführen und die Ergebnisse überprüfen, indem du `localhost:80` in deinem Browser aufrufst.
+Jetzt kannst du den Code mit `deno run --allow-net index.ts` ausführen und das Ergebnis im Browser unter `localhost:80` ansehen.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/rswYFXWM9D5grpS/preview)
 
 :::info
-Deno wurde entwickelt, um sicherer zu sein, und erfordert daher bestimmte Berechtigungen wie `--allow-net`, um auf einige seiner Module zugreifen zu können.
+Deno wurde mit Fokus auf Sicherheit entwickelt und benötigt deshalb bestimmte Berechtigungen wie `--allow-net`, um auf manche Module zugreifen zu können.
 :::
 
 </TabItem>
 
 <TabItem value="Bun Runtime" label="Bun" default>
 
-## Bun-Laufzeitumgebung installieren
+## Bun Runtime installieren
 
-Bun bietet ebenfalls eine sehr einfache Ein-Befehl-Installation, gibt den Nutzern jedoch auch die Möglichkeit, es über npm zu installieren, falls sie bereits Erfahrung mit NodeJS haben.
+Bun bietet ebenfalls eine einfache Ein-Befehl-Installation, gibt dir aber auch die Möglichkeit, es via npm zu installieren, falls du schon Node.js benutzt hast.
 
 <Tabs>
 <TabItem value="command" label="Befehl" default>
 
-Das Ausführen von `irm bun.sh/install.ps1|iex` in PowerShell installiert Bun auf deinem Server.
+Führe in PowerShell den Befehl `irm bun.sh/install.ps1|iex` aus, um Bun auf deinem Server zu installieren.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/65oooTQRGQPW8DS/preview)
 
 :::info
-Dem Server könnten einige erforderliche Dateien fehlen. Bun wird dich über dieses Problem informieren und auch Links zum Herunterladen der benötigten Dateien bereitstellen, wenn du versuchst, den Installer auszuführen.
+Falls auf dem Server einige benötigte Dateien fehlen, informiert dich Bun darüber und gibt dir Links zum Download, wenn du versuchst, den Installer auszuführen.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/kZsc5DF3BAiQ2fF/preview)
 :::
@@ -169,43 +169,42 @@ Dem Server könnten einige erforderliche Dateien fehlen. Bun wird dich über die
 </TabItem>
 <TabItem value="npm" label="npm">
 
-Wenn du bereits npm installiert hast, kannst du `npm install -g bun` ausführen, um Bun zu installieren.
+Wenn du npm bereits installiert hast, kannst du Bun mit `npm install -g bun` installieren.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/cejbBAQdHxkrm2A/preview)
 
 </TabItem>
 </Tabs>
 
-### Bun ausführen
+### Bun starten
 
-Bun wurde entwickelt, um schneller zu sein als einige andere JavaScript-Engines, und hat auch eine ähnliche Einrichtung wie Node.js. Um Bun zu starten, öffne ein leeres Verzeichnis und führe `bun init` in einer Eingabeaufforderung aus.
+Bun wurde entwickelt, um schneller als andere JavaScript-Engines zu sein und hat eine ähnliche Struktur wie Node.js. Öffne ein leeres Verzeichnis und führe in der Eingabeaufforderung `bun init` aus.
 
 :::note
-Je nach gewählter Sprache (JS oder TS) wird Bun eine Konfigurationsdatei erstellen (jsconfig.json oder tsconfig.json).
+Je nach gewählter Sprache (JS oder TS) erstellt Bun eine Konfigurationsdatei (jsconfig.json oder tsconfig.json).
 :::
 
-Um Bun zu starten, musst du eine neue Datei `index.ts` erstellen und etwas Code hineinschreiben. Als Beispiel werden wir einen einfachen HTTP-Server auf dem Standardport 80 erstellen, der mit einer Testnachricht antwortet, wenn er über localhost aufgerufen wird. Dies kann unten gesehen werden.
+Um Bun zu starten, erstellst du eine neue Datei `index.ts` und schreibst etwas Code hinein. Als Beispiel bauen wir einen einfachen HTTP-Server auf Port 80, der beim Zugriff über localhost eine Testnachricht zurückgibt. So sieht der Code aus:
 
 ```js
 const server = Bun.serve({
   port: 80,
   fetch(req) {
-    return new Response('Hallo von ZAP-Hosting Docs =)')
+    return new Response('Hello from ZAP-Hosting Docs =)')
   },
 })
 ```
 
-Jetzt kannst du den bereitgestellten Code mit dem Befehl `bun index.ts` ausführen und die Ergebnisse überprüfen, indem du `localhost:80` in deinem Browser aufrufst.
+Jetzt kannst du den Code mit `bun index.ts` ausführen und das Ergebnis im Browser unter `localhost:80` ansehen.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/oTco7F65bZbSGP9/preview)
 
 </TabItem>
 </Tabs>
 
+## Fazit
+
+Glückwunsch, du hast JavaScript erfolgreich installiert! Bei weiteren Fragen oder wenn du Hilfe brauchst, steht dir unser Support-Team täglich zur Verfügung. 🙂
 
 
-## Abschluss
 
-Glückwunsch, du hast erfolgreich JavaScript installiert. Für weitere Fragen oder Hilfe zögere bitte nicht, unser Support-Team zu kontaktieren, das dir täglich zur Verfügung steht! 🙂
-
-<InlineVoucher />

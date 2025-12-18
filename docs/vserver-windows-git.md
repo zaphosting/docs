@@ -1,7 +1,7 @@
 ---
 id: vserver-windows-git
 title: "VPS: Setup Git on Windows"
-description: Information on how to setup Git on your Windows vServer from ZAP-Hosting - ZAP-Hosting.com documentation
+description: "Discover how to set up and configure Git for efficient version control and seamless collaboration in software development → Learn more now"
 sidebar_label: Install Git
 services:
   - vserver

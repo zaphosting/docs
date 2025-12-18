@@ -1,7 +1,7 @@
 ---
 id: foundry-configuration
 title: "Foundry: Server-Konfiguration"
-description: Informationen zur Konfiguration eines Foundry Gameservers von ZAP-Hosting - ZAP-Hosting.com Dokumentation
+description: "Entdecke, wie du die Foundry-Servereinstellungen für optimales Gameplay und Servermanagement anpasst → Jetzt mehr erfahren"
 sidebar_label: Server-Konfiguration
 services:
   - gameserver-foundry
@@ -11,84 +11,84 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
 
-Foundry-Server werden mit einer Vielzahl von Konfigurationsparametern geliefert, die du nach deinen Wünschen anpassen kannst. In dieser Anleitung gehen wir auf alle derzeit verfügbaren Konfigurationsparameter ein und erklären sie genauer.
+Foundry-Server bieten eine Vielzahl an Konfigurationsparametern, die du ganz nach deinem Geschmack anpassen kannst. In dieser Anleitung schauen wir uns alle aktuell verfügbaren Konfigurationsparameter an und erklären sie dir im Detail.
 
 <InlineVoucher />
 
 ## Zugriff auf deine Konfigurationsdatei
 
-Zunächst musst du auf deine Konfigurationsdatei zugreifen, um die Parameter zu bearbeiten. Es gibt mehrere Möglichkeiten, diese Datei zu bearbeiten.
+Zuerst musst du auf deine Konfigurationsdatei zugreifen, um irgendwelche Parameter zu bearbeiten. Es gibt mehrere Wege, diese Datei zu editieren.
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
 <Tabs>
-<TabItem value="Einstellungen" label="Über Webinterface" default>
+<TabItem value="settings" label="Über Webinterface" default>
 
 #### Über Webinterface
 
-Die benutzerfreundlichste Methode ist es, im Webinterface deines Gameservers in den Bereich **Einstellungen** zu gehen und dort nach den entsprechenden Einstellungen zu suchen, wie unten zu sehen:
+Die benutzerfreundlichste Methode ist, im **Settings**-Bereich deines Gameservers im Webinterface nach den passenden Einstellungen zu suchen, wie hier gezeigt:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/cGbSnRp5gfbWnnb/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/QDPzFgWRrfB49HB/preview)
 </TabItem>
 
-<TabItem value="configs" label="Über die WI-Konfigurationsdatei">
+<TabItem value="configs" label="Über WI Config-Datei">
 
-#### Über die WI-Konfigurationsdatei
+#### Über WI Config-Datei
 
 :::note
-Der Server muss angehalten werden, bevor die Config bearbeitet werden kann. Wenn du die Config bearbeitest und den Server neu startest, werden alle Änderungen rückgängig gemacht.
+Der Server muss gestoppt sein, bevor die Config bearbeitet werden kann. Änderungen an der Config und ein anschließender Neustart ohne Speichern führen dazu, dass alle Änderungen verloren gehen.
 :::
 
-Wenn du die Rohdatei direkt bearbeiten möchtest, kannst du dies auch tun, indem du im Webinterface deines Gameservers in den Bereich **Configs** gehst und auf den blauen Button Datei bearbeiten klickst, wie unten zu sehen:
+Alternativ, wenn du die rohe Datei direkt bearbeiten möchtest, kannst du im **Configs**-Bereich deines Gameservers im Webinterface auf den blauen „Datei bearbeiten“-Button klicken, wie hier gezeigt:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/dEfMcBBiDgZesYG/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/64bAt9qCqHAdWXH/preview)
 
-Dadurch wird ein Texteditor direkt auf der Seite geöffnet, mit dem du die Datei bearbeiten kannst.
+Dadurch öffnet sich ein Texteditor direkt auf der Seite, mit dem du die Datei bearbeiten kannst.
 
 </TabItem>
 
-<TabItem value="ftp" label="Via FTP">
+<TabItem value="ftp" label="Über FTP">
 
 #### Über FTP
 
 :::note
-Der Server muss angehalten werden, bevor die Konfiguration bearbeitet werden kann. Wenn du die Konfiguration bearbeitest und den Server neu startest, werden alle Änderungen rückgängig gemacht.
+Der Server muss gestoppt sein, bevor die Config bearbeitet werden kann. Änderungen an der Config und ein anschließender Neustart ohne Speichern führen dazu, dass alle Änderungen verloren gehen.
 :::
 
-Die letzte Methode, um auf die Rohdatei zuzugreifen, ist über FTP. Wenn du dich mit der Verwendung von FTP nicht auskennst, empfehlen wir dir, einen Blick in die Anleitung [Zugriff per FTP](gameserver-ftpaccess.md) zu werfen. Diese Methode dauert jedoch länger und wenn du den Inhalt der Datei direkt bearbeiten möchtest, empfehlen wir dir, wie bereits erwähnt, den Bereich **Configs** im Webinterface deines Gameservers zu verwenden.
+Die letzte Möglichkeit, auf die rohe Datei zuzugreifen, ist über FTP. Wenn du mit FTP noch nicht vertraut bist, empfehlen wir dir, einen Blick in die [Zugriff via FTP](gameserver-ftpaccess.md) Anleitung zu werfen. Diese Methode dauert allerdings länger und wenn du die Datei direkt bearbeiten möchtest, empfehlen wir dir, einfach den **Configs**-Bereich im Webinterface deines Gameservers zu nutzen.
 
 </TabItem>
 </Tabs>
 
 ## Server-Konfigurationsoptionen
 
-In der folgenden Tabelle stellen wir wichtige Serverkonfigurationsoptionen vor, die derzeit auf Foundry-Servern verfügbar sind.
+In der folgenden Tabelle findest du wichtige Server-Konfigurationsoptionen, die aktuell bei Foundry-Servern verfügbar sind.
 
 :::tip
-Wir raten davon ab, die Port-Einstellungen zu ändern, da diese automatisch vom Gameserver konfiguriert werden. Wenn du die Port-Werte änderst, kann es passieren, dass dein Gameserver kaputtgeht!
+Wir empfehlen nicht, die Port-Einstellungen zu ändern, da diese automatisch vom Gameserver konfiguriert werden. Änderungen an den Port-Werten können deinen Gameserver beschädigen!
 :::
 
-### Wichtige Servereinstellungen
+### Wichtige Server-Einstellungen
 
-| Parameter Name | Beispiel | Beschreibung |
-| ------------------ | ------------------------- | ------------------------------------------------------------------------------------ | 
-| server_world_name | ZAPDocsTest | Lege den Namen der Welt fest, in dem auch die Speicherdateien gespeichert werden |
-| server_name | ZAP-Hosting Docs Test | Name, der in der Serverliste für deinen Server erscheint |
-| server_password | iLoveZAP!2024 | Lege ein Passwort fest, das benötigt wird, um dem Server beizutreten |
-| server_is_public | true/false | Schaltet um, ob der Server im Server-Browser angezeigt wird |
-| server_port | 3724 (Standard) | Festlegen des Netzwerkports, der vom Spiel verwendet werden soll |
-| server_query_port | 27015 (Standard) | Setzt den Abfrageport, der verwendet wird, um Informationen über den Server in der Serverliste zurückzugeben |
-| server_max_players | 32 | Legt die maximale Anzahl von Spielern fest, die gleichzeitig auf dem Server sein können |
+| Parameter-Name     | Beispiel                  | Beschreibung                                                                        |
+| ------------------ | ------------------------- | ---------------------------------------------------------------------------------- | 
+| server_world_name  | ZAPDocsTest               | Legt den Namen der Welt fest, in dessen Ordner die Speicherdateien abgelegt werden |
+| server_name        | ZAP-Hosting Docs Test     | Name, der in der Serverliste für deinen Server angezeigt wird                      |
+| server_password    | iLoveZAP!2024             | Passwort, das zum Betreten des Servers benötigt wird                               |
+| server_is_public   | true/false                | Legt fest, ob der Server im Serverbrowser angezeigt wird                           |
+| server_port        | 3724 (Standard)           | Legt den Netzwerk-Port fest, den das Spiel verwendet                              |
+| server_query_port  | 27015 (Standard)          | Legt den Query-Port fest, der Infos über den Server in der Serverliste zurückgibt |
+| server_max_players | 32                        | Legt die maximale Anzahl an Spielern fest, die gleichzeitig auf dem Server sind   |
 
 ### Gameplay-Konfigurationseinstellungen
 
-| Parameter Name | Beispiel | Beschreibung |
+| Parameter-Name          | Beispiel     | Beschreibung                                                                       |
 | ----------------------- | ----------- | --------------------------------------------------------------------------------- | 
-| pause_server_when_empty | true/false | Schaltet um, ob die Fabrik weiterarbeiten soll, wenn keine Spieler online sind |
-| map_seed | 42938743982 | Setzt einen eigenen Seed für die Welterzeugung |
-| autosave_interval | 300 | Legt fest, wie oft der Server in Sekunden speichert |
+| pause_server_when_empty | true/false  | Legt fest, ob die Welt auch ohne Spieler online weiterlaufen soll                 |
+| map_seed                | 42938743982 | Legt einen individuellen Seed für die Welterzeugung fest                         |
+| autosave_interval       | 300         | Legt fest, wie oft der Server in Sekunden automatisch speichert                   |
 
-Nachdem du deine Änderungen vorgenommen hast, speichere die Datei an den entsprechenden Stellen und starte deinen Server neu. Wenn dein Server das nächste Mal startet, verwendet er die Einstellungen, die du vorgenommen hast.
+Nachdem du deine Änderungen abgeschlossen hast, speichere die Datei an der passenden Stelle und starte deinen Server neu. Beim nächsten Start verwendet dein Server dann die von dir angegebenen Einstellungen.
 
 <InlineVoucher />

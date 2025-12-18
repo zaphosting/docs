@@ -1,7 +1,7 @@
 ---
 id: scp-becomeadmin
 title: "SCP Secret Laboratory: Become an admin on your own server"
-description: Information on how to become an admin on your SCP server from ZAP-Hosting.com - ZAP-Hosting.com documentation
+description: "Discover how to assign administrator permissions for full server control and manage roles effectively in your game server → Learn more now"
 sidebar_label: Become admin
 services:
   - gameserver-scp

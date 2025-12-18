@@ -1,8 +1,8 @@
 ---
 id: vserver-windows-expand-disk
-title: "vServer: Festplatte (Partition) auf Windows Server erweitern"
-description: Informationen, wie du die Festplatte deines Windows vServers von ZAP-Hosting nach einem Upgrade erweitern kannst - ZAP-Hosting.com Dokumentation
-sidebar_label: Festplatte erweitern
+title: "vServer: Festplatte (Partition) unter Windows Server erweitern"
+description: "Entdecke, wie du deine Windows Server-Partition sicher erweiterst, um neuen Speicherplatz effektiv zu nutzen → Jetzt mehr erfahren"
+sidebar_label: Partition erweitern
 services:
   - vserver
 ---
@@ -13,46 +13,46 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
 
-Das Windows-Betriebssystem hat eine eingebaute Festplatten- und Partitionsverwaltung, mit der du ganz einfach verschiedene Festplattenverwaltungsaktionen durchführen kannst, wie zum Beispiel Partitionen erweitern, Festplatten aufteilen und vieles mehr. Dazu gehört auch das Erweitern von Partitionen, was besonders wichtig ist, wenn du die Speicherkapazität deines Windows-Servers aufrüstest. In dieser Anleitung zeigen wir dir, wie du eine Partition auf deinem Windows-Server erweiterst.
+Windows OS bietet integrierte Tools zur Festplatten- und Partitionsverwaltung, mit denen du eine Vielzahl von Aktionen durchführen kannst – darunter Partitionen erweitern, Festplatten aufteilen und mehr. Besonders wichtig ist das Erweitern von Partitionen, wenn du den Speicherplatz deines Windows Servers aufgerüstet hast. In dieser Anleitung zeigen wir dir, wie du eine Partition auf deinem Windows Server erweiterst.
 
 <InlineVoucher />
 
-## Voraussetzungen
+## Vorbereitung
 
-Verbinde dich erst mal über RDP mit deinem Windows-Server. Wenn du dabei Hilfe brauchst, schau dir unsere Anleitung [Erstzugriff (RDP)](vserver-windows-userdp.md) an.
+Verbinde dich zunächst per RDP mit deinem Windows Server. Falls du dabei Hilfe brauchst, schau dir unsere [Erstzugang (RDP)](vserver-windows-userdp.md) Anleitung an.
 
-Es gibt zwei Möglichkeiten, Festplatten und Partitionen zu verwalten: über das Dienstprogramm **Datenträgerverwaltung** oder über die Befehlszeilenschnittstelle **diskpart**. Das Tool **Datenträgerverwaltung** bietet eine grafische Version von diskpart, mit der du die meisten gängigen Aktionen ausführen kannst, einschließlich der Erweiterung von Partitionen. Fortgeschrittene Benutzer können jedoch diskpart verwenden, da dieses Tool viel umfangreicher und leistungsfähiger ist.
+Es gibt zwei Methoden, um Festplatten und Partitionen zu verwalten: Zum einen das **Datenträgerverwaltung**-Tool mit GUI und zum anderen die Kommandozeile **diskpart**. Das **Datenträgerverwaltung**-Tool ist eine grafische Oberfläche zu Diskpart und deckt die meisten Standardaufgaben ab, inklusive Partitionen erweitern. Für fortgeschrittene Nutzer ist `diskpart` die mächtigere und umfangreichere Option.
 
 ## Partition erweitern
 
-In manchen Fällen musst du vielleicht deine aktuelle Partition vergrößern, um neuen Speicherplatz zu nutzen. Das kann zum Beispiel nötig sein, wenn du den Speicherplatz deines Servers aufrüsten willst, der standardmäßig erst nach dem Vergrößern der Hauptpartition zugewiesen wird.
+In verschiedenen Fällen ist es nötig, deine bestehende Partition zu erweitern, um neuen Speicherplatz zu nutzen. Ein typisches Szenario ist das Upgrade des Speicherplatzes deines Servers, der standardmäßig erst nach der Erweiterung der Hauptpartition zugewiesen wird.
 
-Wir empfehlen dir, das Dienstprogramm **Datenträgerverwaltung** zu verwenden, da dies besonders für Anfänger viel einfacher ist. Dieser Vorgang ist sicher und hat keinerlei Auswirkungen auf deine Daten.
+Wir empfehlen die Methode über das **Datenträgerverwaltung**-Tool, da sie besonders für Einsteiger viel einfacher ist. Der Vorgang ist sicher und beeinträchtigt deine Daten nicht.
 
 <Tabs>
-<TabItem value="disk-management" label="Über die Datenträgerverwaltung (GUI)" default>
+<TabItem value="disk-management" label="Über Datenträgerverwaltung (GUI)" default>
 
-Öffne zuerst das Tool **Datenträgerverwaltung**. Such einfach im Startmenü danach oder öffne es über Ausführen, indem du die `Windows-Taste + R` drückst, `diskmgmt.msc` eingibst und dann auf **OK** klickst.
+Öffne zuerst das **Datenträgerverwaltung**-Tool. Suche einfach im Startmenü danach oder öffne es über Ausführen mit `Windows-Taste + R` und gib `diskmgmt.msc` ein, dann bestätige.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/xfMexYdrJMr3L6Y/preview)
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/gKjkst3H89knLFa/preview)
 
-Öffne das Tool, klicke mit der rechten Maustaste auf die Hauptpartition und wähle die Option **Volume erweitern**, um ein neues Assistentenmenü zu öffnen.
+Im Tool klickst du mit der rechten Maustaste auf die Hauptpartition und wählst **Volume erweitern** aus, woraufhin sich ein Assistent öffnet.
 
 :::tip
-Das Hauptlaufwerk ist immer das Laufwerk **C:**.
+Das Hauptlaufwerk ist immer das **C:**-Laufwerk.
 :::
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/nWMStW6T74SrrRe/preview)
 
-Klicke im Assistenten auf **Weiter**, um zur Einrichtungsseite zu gelangen, wo du den Speicherplatz zuweisen kannst, den du hinzufügen möchtest. Standardmäßig füllt Windows hier automatisch den gesamten nicht zugewiesenen Speicherplatz aus, was ideal ist.
+Im Assistenten klickst du auf **Weiter** und gelangst zu einer Seite, auf der du festlegen kannst, wie viel Speicherplatz du hinzufügen möchtest. Standardmäßig füllt Windows automatisch den gesamten nicht zugewiesenen Speicherplatz aus – das ist ideal.
 
-Klicke daher erneut auf **Weiter** und dann auf **Fertig stellen**, um den Vorgang abzuschließen.
+Du kannst also direkt auf **Weiter** klicken und zum Schluss auf **Fertig stellen**, um den Vorgang abzuschließen.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/MwRFS8eCHoqBSNt/download)
 
-Wenn alles fertig ist, wird die aktuelle Konfiguration wieder in der Datenträgerverwaltung angezeigt, mit der neuen Größe.
+Nach Abschluss wird die neue Konfiguration in der Datenträgerverwaltung mit der aktualisierten Festplattengröße angezeigt.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/M46ca4FkeG42AZz/preview)
 
@@ -60,34 +60,34 @@ Wenn alles fertig ist, wird die aktuelle Konfiguration wieder in der Datenträge
 
 <TabItem value="diskpart" label="Über Diskpart (CLI)">
 
-Öffne zuerst die Eingabeaufforderung als Administrator. Such im Windows-Startmenü danach, klicke mit der rechten Maustaste drauf und wähle **Als Administrator ausführen**.
+Öffne zunächst die Eingabeaufforderung als Administrator. Suche im Windows-Startmenü danach, klicke mit Rechts und wähle **Als Administrator ausführen**.
 
-Führ einfach den Befehl `diskpart` aus, um das CLI-Dienstprogramm zu starten. Sobald das Dienstprogramm geladen ist, führ `list disk` aus, um eine Liste aller aktuell verbundenen Festplatten anzuzeigen.
+Gib den Befehl `diskpart` ein, um das CLI-Tool zu starten. Sobald es geladen ist, gib `list disk` ein, um alle aktuell verbundenen Festplatten anzuzeigen.
 
-Als Nächstes gibst du `select disk [festplattennummer]` ein und ersetzt `[festplattennummer]` durch die Nummer des Laufwerks aus der vorherigen Liste, das du erweitern möchtest.
+Wähle dann mit `select disk [Festplattennummer]` die Festplatte aus, die du erweitern möchtest. Ersetze `[Festplattennummer]` durch die Nummer aus der Liste.
 
 :::tip
-Das Hauptlaufwerk ist immer das Laufwerk **C:**.
+Das Hauptlaufwerk ist immer das **C:**-Laufwerk.
 :::
 
-Wenn du die Festplatte ausgewählt hast, gib `list volume` ein, um eine Liste aller Volumes auf dem ausgewählten Laufwerk anzuzeigen. Such das Volume, das du vergrößern willst, und gib dann `select volume [volume_number]` ein, wobei du `[volume_number]` durch die Nummer des Volumes aus der vorherigen Liste ersetzt.
+Mit der ausgewählten Festplatte gib `list volume` ein, um alle Volumes auf dieser Festplatte anzuzeigen. Suche das Volume, das du erweitern möchtest, und wähle es mit `select volume [Volumenummer]` aus. Ersetze `[Volumenummer]` durch die entsprechende Nummer.
 
-Nachdem du das Laufwerk und das Volume ausgewählt hast, kannst du mit dem folgenden Befehl das Volume vergrößern. Du kannst entweder nur den Befehl ausführen, um den gesamten nicht zugewiesenen Speicherplatz zu nutzen, oder eine Größe angeben.
+Mit ausgewählter Festplatte und Volume kannst du das Volume jetzt erweitern. Entweder nutzt du den gesamten nicht zugewiesenen Speicherplatz oder gibst eine bestimmte Größe an:
 ```
-# Auf den ganzen nicht zugewiesenen Speicherplatz erweitern
+# Erweiterung auf gesamten nicht zugewiesenen Speicherplatz
 extend
 
-# Auf eine bestimmte Größe erweitern (10240 = 10240 MB = 10 GB)
+# Erweiterung auf eine bestimmte Größe (10240 = 10240MB = 10GB)
 extend size=10240
 ```
 
-Wenn alles geklappt hat, solltest du sehen, dass die Volumengröße größer ist, wenn du die Festplatten nochmal auflistest und im Datei-Explorer anschaust. Um die CLI zu verlassen, gib einfach den Befehl `quit` ein.
+Wenn der Vorgang erfolgreich war, siehst du die vergrößerte Volume-Größe bei erneuter Anzeige der Volumes und im Explorer. Zum Beenden gib `quit` ein.
 
 </TabItem>
 </Tabs>
 
-## Abschluss
+## Fazit
 
-Du hast die Hauptpartition auf deiner Festplatte erfolgreich vergrößert, um den gesamten Speicherplatz zu nutzen. Für weitere Fragen oder Hilfe zögere bitte nicht, unser Support-Team zu kontaktieren, das dir täglich zur Verfügung steht! 🙂
+Du hast erfolgreich deine Hauptpartition erweitert und nutzt jetzt den gesamten verfügbaren Speicherplatz. Bei Fragen oder wenn du Hilfe brauchst, steht dir unser Support-Team täglich zur Verfügung! 🙂
 
 <InlineVoucher />

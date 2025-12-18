@@ -1,7 +1,7 @@
 ---
 id: cs2-becomeadmin
 title: "CS2: Become admin"
-description: Information on how to become an admin on your CS2 server from ZAP-Hosting - ZAP-Hosting.com documentation
+description: "Discover how to assign and manage administrator permissions for full server control in CS2 gameplay → Learn more now"
 sidebar_label: Become admin
 services:
   - gameserver-cs2

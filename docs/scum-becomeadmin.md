@@ -1,7 +1,7 @@
 ---
 id: scum-becomeadmin
 title: "SCUM: Become admin"
-description: Information about how to become admin on your SCUM server from ZAP-Hosting - ZAP-Hosting.com Documentation
+description: "Discover how to manage your game server with full admin control and use powerful commands to enhance gameplay → Learn more now"
 sidebar_label: Become admin
 services:
   - gameserver-scum

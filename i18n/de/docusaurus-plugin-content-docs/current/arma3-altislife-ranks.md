@@ -1,7 +1,7 @@
 ---
 id: arma3-altislife-ranks
-title: "Arma 3: Ränge bei einem Altis Life Server hinzufügen"
-description: Informationen, wie du Ränge auf deinem Altis Life-Server von ZAP-Hosting hinzufügen kannst - ZAP-Hosting.com Dokumentation
+title: "Arma 3: Ränge auf einem Altis Life Server hinzufügen"
+description: "Lerne, wie du Spieler-Ränge wie Cop, Medic und Admin in Arma 3 zuweist und verwaltest, um das Gameplay und die Serverrollen zu verbessern → Jetzt mehr erfahren"
 sidebar_label: Altis Life Ränge
 services:
   - gameserver-arma3
@@ -11,69 +11,62 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
 
-In Arma 3 gibt es verschiedene Ränge, welche einem Spieler zugewiesen werden können. Hierzu gehören Cop, Medic so wie die verschiedenen Admin-Ränge.
-Je nach Server kann es noch weitere Ränge geben, wenn zum Beispiel eine neue Fraktion oder ein Beruf eingebaut wurde.
-Im Folgenden lernst du wie du die Ränge für Cop's, Medic's und Administratoren im Spiel vergibst, geschehen tut dies immer mithilfe der Datenbank innerhalb der Tabelle **players**.
+In Arma 3 gibt es verschiedene Ränge, die einem Spieler zugewiesen werden können. Dazu gehören Cop, Medic und die verschiedenen Admin-Ränge.  
+Je nach Server können weitere Ränge existieren, wenn zum Beispiel eine neue Fraktion oder ein neuer Beruf hinzugefügt wird.  
+Im Folgenden lernst du, wie du die Ränge für Cops, Medics und Administratoren im Spiel zuweist – immer über die Datenbank in der Tabelle **players**.
 
 :::info
-WICHTIG: Damit der Name des jeweiligen Spielers in der Datenbank zu finden ist, muss dieser sich mindestens ein mal mit dem Server verbunden haben!
+WICHTIG: Um den Namen des Spielers in der Datenbank zu finden, muss sich der Spieler mindestens einmal auf dem Server eingeloggt haben!
 :::
 
 <InlineVoucher />
 
-## Öffnen der Datenbank
+## Die Datenbank öffnen
 
-Als Erstes navigierst du zu deiner Datenbank, welche du links über das Menü unter **Werkzeuge** > **Datenbanken** erreichst:
+Zuerst navigierst du zu deiner Datenbank, die du über das Menü links unter **Tools** > **Datenbanken** erreichst:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/WPifJDE3QgLS73E/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/Y8mZZ7JCNqr9zZM/preview)
 
-Den Login zur Datenbank erreichst du dort über dieses blaue Icon, links daneben findest du zudem die Logindaten (Benutzername und Passwort) für deine Datenbank:
+Der Login zur Datenbank erfolgt über dieses blaue Icon, links findest du außerdem die Zugangsdaten (Benutzername und Passwort) für deine Datenbank:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/Gx2PKCySnL9is4J/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/3tta9MQ5XcdZk98/preview)
 
+Nach dem Klick auf den Button bist du jetzt in phpMyAdmin, der Verwaltungsoberfläche deiner Datenbank.  
+Dort wählst du links den Namen deiner Datenbank aus:
 
-Nach einem Klick auf diesen Button befindest du dich nun in PhpMyAdmin, der Verwaltungsoberfläche deiner Datenbank.
-Dort wählst du nun links den Namen deiner per Linksklick Datenbank aus:
+![](https://screensaver01.zap-hosting.com/index.php/s/YfTpyoXmArbtBwb/preview)
 
-![](https://screensaver01.zap-hosting.com/index.php/s/ZBr5ATAq9kXnrzS/preview)
+Anschließend wählst du die Tabelle **players** per Linksklick aus, in der du die Ränge zuweisen kannst:
 
-Im Anschluss wählst du ebenfalls per Linksklick die Tabelle **players** aus, in welcher du dann die Ränge vergeben kannst:
+![](https://screensaver01.zap-hosting.com/index.php/s/A643Ds2LFjFCzba/preview)
 
+Dort suchst du nach dem Namen des Spielers, dem du einen Rang zuweisen möchtest, und klickst auf **Bearbeiten**:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/fG67Qt3a4LqmPTH/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/KrnpZMyeiL8YXAm/preview)
 
-Dort suchst du nun nach dem Namen des Spielers, welchem du einen Rang zuweisen möchtest und klickst bei diesem auf **Bearbeiten**:
+## Ränge für Cops und Medics zuweisen
 
-![](https://screensaver01.zap-hosting.com/index.php/s/mPoEJpRxq3MyR7N/preview)
+Die Felder für das Cop- sowie Medic-Level findest du ganz oben in der Liste:
 
+![](https://screensaver01.zap-hosting.com/index.php/s/z5KoxwqHf7XMcFd/preview)
 
-## Vergeben der Ränge für Cop's und Medic's
+Dort kannst du jetzt ganz einfach das Rang-Level über das Dropdown-Menü auswählen. Verfügbar sind Level von 1 bis 7 für Cops und von 1 bis 5 für Medics.  
+Je höher das Level, desto mehr Rechte hat der Cop oder Medic im Spiel. Das wirkt sich unter anderem auf die verfügbaren Waffen und Fahrzeuge aus.
 
+![](https://screensaver01.zap-hosting.com/index.php/s/bKr4MHNy5LYnWYr/preview)
 
-Die Felder für das Cop- so wie Medic-Level findest du direkt recht weit oben in der Liste:
+## Ränge für Administratoren (Admin-Level) zuweisen
 
-![](https://screensaver01.zap-hosting.com/index.php/s/dxxnG3PDSeYmgad/preview)
+Das Admin-Level setzt du wie oben beschrieben, nur der Eintrag dafür befindet sich weiter unten:
 
-Dort kannst du nun ganz einfach über das Dropdown-Menü das Rang-Level auswählen, zur Verfügung stehen hier Level von 1 bis 7 für Cop's und von 1 bis 5 für Medics.
-Je höher das level desto mehr Berechtigungen hat der Cop oder Medic im Spiel, das hat unter anderem Einfluss auf die verfügbaren Waffen und Fahrzeuge.
+![](https://screensaver01.zap-hosting.com/index.php/s/fc5G93bWkdW7nAj/preview)
 
-![](https://screensaver01.zap-hosting.com/index.php/s/5S3FEgxe6WsMRzC/preview)
+Auch hier kannst du per Dropdown zwischen 5 verschiedenen Leveln wählen. Je höher das Level, desto mehr Rechte hat der Administrator im Spiel.
 
+Um die Änderungen zu speichern, klickst du einfach unten rechts auf den **GO**-Button:
 
-## Vergeben der Ränge für Administratoren (Adminlevel)
+![](https://screensaver01.zap-hosting.com/index.php/s/y85Zwq3J8zM9sFi/preview)
 
-Das Adminlevel legst du ebenfalls wie oben beschrieben fest, lediglich der Eintrag dazu befindet sich weiter unten:
-
-![](https://screensaver01.zap-hosting.com/index.php/s/MJ2LpAfiLW8JfEd/preview)
-
-Dort kannst du ebenfalls per Dropdown zwischen 5 verschiedenen Leveln wählen. Je höher das Level, desto mehr Berechtigungen hat der Administrator im Spiel.
-
-
-Um die Änderungen zu speichern, genügt ein Klick auf den **OK** Button unten rechts:
-
-![](https://screensaver01.zap-hosting.com/index.php/s/28ZxaiFRqZ3TtND/preview)
-
-Die Ränge wurden nun gespeichert, damit diese für den Spieler aktiv werden muss dieser sich einmal neu zum Server verbinden, ein Neustart
-des Servers ist nicht notwendig.
+Die Ränge sind jetzt gespeichert und werden aktiv, sobald sich der Spieler einmal neu auf dem Server verbindet. Ein Server-Neustart ist nicht nötig.
 
 <InlineVoucher />

@@ -1,8 +1,8 @@
 ---
 id: gameserver-server-down-what-now
-title: 'Gameserver: Server down - Was nun?'
-description: Informationen, was du tun kannst, wenn dein Gameserver von ZAP-Hosting abgestürzt oder down ist - ZAP-Hosting.com Dokumentation
-sidebar_label: Server down - Was nun?
+title: 'Gameserver: Server down – Was jetzt?'
+description: "Lerne, wie du Gameserver-Abstürze durch Analyse der Logdateien diagnostizierst, Fehler findest und effektive Lösungen entdeckst → Jetzt mehr erfahren"
+sidebar_label: Servercrash – Was tun?
 services:
   - gameserver
 ---
@@ -11,57 +11,55 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
 
-Wenn dein Gameserver down ist, kann das viel Gründe haben. **Wichtig** ist, dass du erstmal nicht direkt versucht diesen neu zu starten, sondern erst einen Blick in die **Log-Datei** wirfst. Dort sind in der Regel **Fehlermeldungen**, die beschreiben, warum genau der Server abgestürzt ist. **Solltest du den Server direkt neu starten, so wird die Log neu generiert und die alte gelöscht. Dann kann man leider keine Fehler mehr einsehen.**
+Wenn dein Gameserver down ist, kann das viele Gründe haben. **Wichtig ist, dass du nicht sofort versuchst, ihn neu zu starten, sondern zuerst einen Blick in die Logdatei wirfst. Dort stehen meistens **Fehlermeldungen**, die genau beschreiben, warum der Server abgestürzt ist. **Wenn du den Server direkt neu startest, wird die Logdatei neu erstellt und die alte gelöscht. Dann kannst du leider keine Fehler mehr sehen.**
 
 <InlineVoucher />
 
-## Einblick in die Log-Datei
+## Logdatei ansehen
 
-Die Log-Datei kann einfach links über das Menü aufgerufen werden.
+Die Logdatei kannst du ganz easy über das Menü links öffnen.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/9XRNoSA7EqxocXE/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/rTMjGQPGoijMCXQ/preview)
 
-Im Anschluss kannst du diese über das grüne Auge einsehen. **Wichtig ist dabei, dass du immer die neuste Log öffnet.**
-Diese kannst du am Datum oder dem Namen erkennen.
+Anschließend kannst du sie über das grüne Auge anschauen. **Wichtig ist, dass du immer die aktuellste Logdatei öffnest.  
+Erkennbar ist sie am Datum oder am Namen.**
 
-![](https://screensaver01.zap-hosting.com/index.php/s/cYXBo3JQ6zcFjJs/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/Hc4cYQSj3c9Enpi/preview)
 
-Wenn du diese dann geöffnet hast, musst du sie auf Fehler prüfen.(**Fehler enthalten meistens etwas wie "Error" "Cant find" "Couldnt load"**)
+Wenn du sie geöffnet hast, musst du sie auf Fehler prüfen (**Fehler enthalten meistens Wörter wie "Error", "Cant find", "Couldnt load"**)
 
-Im folgenden Screenshot habe ich ein Beispiel eines FivemServers mit falschem Server Lizenz Key.
+Im folgenden Screenshot siehst du ein Beispiel eines FivemServers mit einem falschen Server-Lizenzschlüssel.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/tqFaSRqiAT8YmN2/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/pAwzNkHZBTtHds9/preview)
 
-Diesen Fehler könntest du dann z.B. bei Google eingeben und schauen, ob dieser bekannt ist. In der Regel findet man dort recht schnell den Grund, der diesen Fehler ausgelöst hat.
+Diesen Fehler kannst du dann z.B. bei Google eingeben und schauen, ob er bekannt ist. Meist findest du so schnell den Grund für den Fehler.
 
-Solltest du zu dem Fehler nichts finden, dann kannst du am besten in den Live Chat gehen und dort diesen Fehler als Text oder Screenshot einschicken.
+Wenn du nichts zum Fehler findest, kannst du im Live Chat den Fehler als Text oder Screenshot einsenden.
 
-## Log-Datei ohne Inhalt
+## Logdatei ohne Inhalt
 
-Das kann bedauerlicherweise ebenfalls passieren. Wenn die Log-Datei leer ist, dann konnte sie nicht erstellt werden, da der Server direkt down gegangen ist oder wurde aufgrund eines Neustarts gelöscht. In dem Fall kannst du nur versuchen ihn neu zu starten in der Hoffnung, dass der Fehler erneut generiert wird oder der Server wieder läuft.
+Das kann leider auch passieren. Wenn die Logdatei leer ist, konnte sie nicht erstellt werden, weil der Server direkt abgestürzt ist oder durch einen Neustart gelöscht wurde. In dem Fall kannst du nur versuchen, den Server neu zu starten in der Hoffnung, dass der Fehler wieder auftaucht oder der Server wieder läuft.
 
-## Keine Lösung im Chat
+## Keine Lösung im Live Chat
 
-Wenn du bei Google und im Chat keine Lösung gefunden hast, dann gibt es 2 Möglichkeiten. Die erste wäre ein Ticket zu öffnen und den Server so zu lassen wie er ist, damit der Support dies genauer prüfen kann.
+Wenn du weder bei Google noch im Live Chat eine Lösung gefunden hast, gibt es 2 Möglichkeiten. Die erste wäre, ein Ticket zu öffnen und den Server so zu lassen, damit der Support ihn genauer prüfen kann.
 
-Die zweite Lösung wäre es ein Backup einzuspielen oder den Server neu zu installieren.
+Die zweite Lösung wäre, ein Backup einzuspielen oder den Server neu zu installieren.
 
-### Variante 1 - Backup einspielen
+### Variante 1 – Backup wiederherstellen
 
-Um ein Backup einzuspielen, musst du lediglich links auf Backups gehen und dort dann das neuste Backup über den grünen Pfeil einspielen. Im Anschluss sollte dein Server wieder wie gewohnt laufen.
+Um ein Backup wiederherzustellen, geh einfach links auf Backups und importiere das neueste Backup über den grünen Pfeil. Danach sollte dein Server wieder wie gewohnt laufen.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/zbctK7rzcL3g2SG/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/j9C396QXtq8Pytx/preview)
 
-### Variante 2 - Server neu installieren
+### Variante 2 – Server neu installieren
 
-Die Neuinstallation kann unter "Einstellungen" auf der linken Seite gestartet werden. Im Anschluss wird der komplette Server wieder auf den ersten Tag zurückgesetzt.(zusätzlich können die Einstellungen auch zurückgesetzt werden "**Alle Optionen zurücksetzen**")
+Die Neuinstallation startest du unter „Einstellungen“ links. Danach wird der komplette Server auf den ersten Tag zurückgesetzt (zusätzlich können die Einstellungen auch zurückgesetzt werden "**Alle Optionen zurücksetzen**").
 
-![](https://screensaver01.zap-hosting.com/index.php/s/8AFBNbGjWDQ7AFe/preview)
-
-
+![](https://screensaver01.zap-hosting.com/index.php/s/2edwoTrn3We67SB/preview)
 
 ## Neuinstallation ohne Erfolg
 
-Das ist leider der schlimmste Fall, der eintreten kann. Dann ist es bedauerlicherweise nur noch möglich den Server über den Chat oder ein Ticket prüfen zu lassen, da es dann ein schwerwiegenderes Problem ist. In dem Fall werden wir unser Bestes geben das Problem so schnell es geht für dich zu lösen, damit du deinen Dienst wieder wie gewohnt nutzen kannst.
+Das ist leider der Worst Case. Dann bleibt leider nur, den Server per Chat oder Ticket prüfen zu lassen, denn dann liegt ein ernsteres Problem vor. Wir geben natürlich alles, um das Problem so schnell wie möglich zu lösen, damit du deinen Service wie gewohnt nutzen kannst.
 
 <InlineVoucher />

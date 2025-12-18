@@ -1,7 +1,7 @@
 ---
 id: dedicated-windows-ftpserver
 title: "Dedicated Server: Installation of FTP"
-description: Information on how to install and set up an FTP server on your Windows Dedicated Server from ZAP-Hosting - ZAP-Hosting.com documentation
+description: "Discover how to set up and manage a FileZilla FTP server on Windows for secure file transfers and user access control → Learn more now"
 sidebar_label: Install FTP
 services:
   - dedicated
@@ -15,7 +15,7 @@ The **FTP (File Transfer Protocol)** is a network protocol used to transfer file
 
 With the **FileZilla Server** it is possible to set up such a FTP server on a Windows operating system. The FileZilla Server is easy to install and configure, and offers numerous features such as the ability to set up user accounts, manage access rights and transfer files.
 
-<InlineVoucher />
+
 
 ## Preparation
 
@@ -105,4 +105,4 @@ After that you can close the process with a click on **OK**, a connection to you
 
 Congratulations, you have successfully installed the FTP server. For further questions or assistance, please don't hesitate to contact our support team, which is available daily to assist you! 🙂
 
-<InlineVoucher />
+

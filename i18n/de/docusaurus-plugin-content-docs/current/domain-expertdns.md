@@ -1,7 +1,7 @@
 ---
 id: domain-expertdns
 title: "Domain: ExpertDNS"
-description: Informationen zu den ExpertDNS Domaineinstellungen bei ZAP-Hosting - ZAP-hosting.com Dokumentationen
+description: "Entdecke, wie du die Nameserver deiner Domain mit ExpertDNS anpassen kannst für mehr Kontrolle und Flexibilität → Jetzt mehr erfahren"
 sidebar_label: ExpertDNS
 services:
   - domain
@@ -11,30 +11,30 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
 
-Die **ExpertDNS-Option** bietet die Möglichkeit, externe Nameserver anstelle der von ZAP-Hosting bereitgestellten zu verwenden. Mit nur wenigen Klicks kannst du deine Nameserver ändern. 
+Die **ExpertDNS-Option** bietet dir die Möglichkeit, externe Nameserver statt der von ZAP-Hosting bereitgestellten zu verwenden. Mit nur wenigen Klicks kannst du die Nameserver ändern.
 
-## Zugang und Anwendungsfall
+<InlineVoucher />
 
-Um auf die **ExpertDNS** Option zuzugreifen und sie zu aktivieren, musst du die Verwaltung deiner Domain im Webinterface öffnen. Dort siehst du unter der DNS-Verwaltung die folgenden Optionen: 
+## Zugriff und Anwendungsfall
+
+Um auf die EasyDNS-Option zuzugreifen und sie zu aktivieren, musst du die Verwaltung deiner Domain im Webinterface öffnen. Dort findest du unter DNS-Verwaltung folgende Optionen:
 
 - EasyDNS
-
 - ProfiDNS
-
 - ExpertDNS
 
-Die Option **EasyDNS** sollte standardmäßig ausgewählt sein. Daher musst du zuerst die Option **EasyDNS** auswählen und aktivieren. Die Option **EasyDNS** sollte dort standardmäßig ausgewählt sein, weshalb du zuerst die Option **ExpertDNS** aktivieren musst. 
+Standardmäßig ist die **EasyDNS**-Option ausgewählt. Du musst also zuerst die **ExpertDNS**-Option auswählen und aktivieren.
 
-![2022-05-07_22-01_2](https://screensaver01.zap-hosting.com/index.php/s/5Xmdwz9Wy5Nn7XW/preview)
+![2022-05-07_21-58](https://screensaver01.zap-hosting.com/index.php/s/zrKagEpZx7coebe/preview)
 
-Sobald die Option aktiv ist, kannst du entweder die voreingestellten Nameserver ändern oder zusätzliche (optionale) Nameserver hinzufügen. Speichere die Änderung anschließend mit einem Klick auf den grünen Button **Speichern**. 
+Sobald die Option aktiv ist, kannst du entweder die Standard-Nameserver ändern oder zusätzliche (optionale) Nameserver hinzufügen. Speichere die Änderung anschließend mit einem Klick auf den grünen **Speichern**-Button.
 
 :::warning Domains müssen im Nameserver konfiguriert sein
-Andere Nameserver können nur dann angegeben und verwendet werden, wenn die Domain bereits beim angegebenen Nameserver gespeichert und konfiguriert ist. 
+Andere Nameserver können nur angegeben und genutzt werden, wenn die Domain bereits mit dem angegebenen Nameserver gespeichert und konfiguriert ist.
 :::
 
-## Abschluss
+## Fazit
 
-Glückwunsch, du hast die verwendeten Nameserver deiner Domain erfolgreich angepasst. Für weitere Fragen oder Hilfe zögere bitte nicht, unser Support-Team zu kontaktieren, das dir täglich zur Verfügung steht! 🙂
+Glückwunsch, du hast erfolgreich die verwendeten Nameserver deiner Domain angepasst. Bei weiteren Fragen oder wenn du Hilfe brauchst, steht dir unser Support-Team täglich zur Verfügung! 🙂
 
 <InlineVoucher />

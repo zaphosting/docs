@@ -1,7 +1,7 @@
 ---
 id: dedicated-pterodactyl
 title: "Dedicated Server: Installation von Pterodactyl"
-description: Informationen zur Installation des Pterodactyl-Panels mit Debian auf deinem Dedicated Server von ZAP-Hosting -   ZAP-Hosting.com Dokumentation
+description: "Entdecke, wie du dein eigenes Pterodactyl Gameserver-Panel effizient einrichtest und verwaltest → Jetzt mehr erfahren"
 sidebar_label: Pterodactyl installieren
 services:
   - dedicated
@@ -11,33 +11,31 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
 
-Das Pterodactyl Panel ist ein Open-Source-Kontrollpanel, das speziell dafür entwickelt wurde, um das Verwalten und Hosten von Spieleservern zu vereinfachen. Es bietet eine Benutzeroberfläche, die es Administratoren ermöglicht, zentral mehrere Gameserver zu konfigurieren und zu verwalten.
+Das Pterodactyl Panel ist ein Open-Source Control Panel, das entwickelt wurde, um Gameserver einfach zu verwalten und zu hosten. Es bietet eine Benutzeroberfläche, mit der Administratoren mehrere Gameserver zentral konfigurieren und steuern können.
 
-In dieser Anleitung werden wir die notwendigen Schritte durchgehen, um deine eigene Pterodactyl-Instanz auf deinem Server einzurichten.
+In dieser Anleitung zeigen wir dir die notwendigen Schritte, um deine eigene Pterodactyl-Instanz auf deinem Dedicated Server einzurichten.
 
-<InlineVoucher />
+## Vorbereitung
 
-## Voraussetzungen
-
-Du benötigst einen dedizierten Server mit Linux, um das Pterodactyl Panel zu installieren. Du solltest eines der kompatiblen Betriebssysteme verwenden, die in der untenstehenden Tabelle aufgeführt sind.
+Du benötigst einen Dedicated Server mit Linux, um das Pterodactyl Panel zu installieren. Verwende eines der kompatiblen Betriebssysteme aus der folgenden Tabelle.
 
 | OS     | Kompatible Versionen |
-| ------ | ------- |
-| Ubuntu | 20.04, 22.04 |
-| CentOS | 7, 8    |
-| Debian | 11, 12  |
+| ------ | -------------------- |
+| Ubuntu | 20.04, 22.04         |
+| CentOS | 7, 8                 |
+| Debian | 11, 12               |
 
 ## Abhängigkeiten
 
-Pterodactyl benötigt eine Reihe von Abhängigkeiten, um erfolgreich installiert und betrieben werden zu können. Es stützt sich auch auf einen beliebten Abhängigkeitsmanager für PHP namens Composer.
+Pterodactyl benötigt verschiedene Abhängigkeiten, um erfolgreich installiert und betrieben zu werden. Außerdem setzt es auf den beliebten PHP-Abhängigkeitsmanager Composer.
 
 ### Liste der Abhängigkeiten
 
-Hier ist eine Kurzliste der Abhängigkeiten, die du für diese Anleitung benötigen wirst. Im folgenden Abschnitt erfährst du, wie du diese Abhängigkeiten installieren kannst.
+Hier eine kurze Übersicht der Abhängigkeiten, die du für diese Anleitung brauchst. Im nächsten Abschnitt erfährst du, wie du diese installierst.
 
-- PHP 8.1 mit den folgenden Erweiterungen: cli, openssl, gd, mysql, PDO, mbstring, tokenizer, bcmath, xml oder dom, curl, zip und fpm.
+- PHP 8.1 mit den Extensions: cli, openssl, gd, mysql, PDO, mbstring, tokenizer, bcmath, xml oder dom, curl, zip und fpm.
 - MariaDB
-- Webserver - In dieser Anleitung werden wir Nginx verwenden.
+- Webserver – in dieser Anleitung verwenden wir Nginx.
 - curl
 - tar
 - unzip
@@ -46,180 +44,200 @@ Hier ist eine Kurzliste der Abhängigkeiten, die du für diese Anleitung benöti
 
 ### Installation der Abhängigkeiten
 
-Zuerst solltest du diesen Befehl ausführen, der notwendig ist, um Pakete hinzuzufügen, die nicht standardmäßig im Betriebssystem enthalten sind.
+Zuerst solltest du diesen Befehl ausführen, der es dir ermöglicht, zusätzliche Pakete hinzuzufügen, die nicht standardmäßig im OS enthalten sind.
 
 ```bash
 apt -y install software-properties-common curl apt-transport-https ca-certificates gnupg
 ```
 
-Nun solltest du die zusätzlichen Repositories für PHP, Redis und MariaDB (MySQL) installieren.
+Jetzt installierst du die zusätzlichen Repositories für PHP, Redis und MariaDB (MySQL).
 
 ```bash
 LC_ALL=C.UTF-8 add-apt-repository -y ppa:ondrej/php
 ```
 
-Du musst auch Redis installieren, das für die temporäre Datenspeicherung benötigt wird.
+Redis musst du ebenfalls installieren, da es für die temporäre Datenspeicherung benötigt wird.
 
 ```bash
 curl -fsSL https://packages.redis.io/gpg | sudo gpg --dearmor -o /usr/share/keyrings/redis-archive-keyring.gpg
 echo "deb [signed-by=/usr/share/keyrings/redis-archive-keyring.gpg] https://packages.redis.io/deb $(lsb_release -cs) main" | sudo tee /etc/apt/sources.list.d/redis.list
 ```
 
-Für den Webserver haben wir uns für Nginx entschieden, da er zuverlässig und Open-Source ist. Du solltest diesen installieren, oder du könntest alternativ andere Webserver wie Apache oder Caddy verwenden, obwohl dies nicht gut zu dieser Anleitung passen würde.
+Für den Webserver haben wir uns für Nginx entschieden, da es zuverlässig und Open-Source ist. Du kannst natürlich auch andere Webserver wie Apache oder Caddy nutzen, aber die passen nicht so gut zu dieser Anleitung.
 
 ```bash
 sudo apt install nginx # Nginx herunterladen und installieren
 sudo ufw allow 'Nginx Full' # Firewall anpassen
 ```
 
-Wir empfehlen, auf http://[deine_serverip]/ zu gehen, wobei du [deine_serverip] durch die IP-Adresse deines Servers ersetzen solltest, um zu testen und sicherzustellen, dass Nginx läuft. Du solltest eine Standard-Willkommensseite sehen.
+Wir empfehlen, `http://[deine_serverip]/` im Browser aufzurufen (ersetze `[deine_serverip]` mit der IP deines Servers), um zu testen, ob Nginx läuft. Du solltest eine Standard-Willkommensseite sehen.
 
-Weiterhin solltest du jetzt MariaDB installieren, das du als deine MySQL-Datenbank verwenden wirst.
+Als Nächstes installierst du MariaDB, das du als MySQL-Datenbank verwenden wirst.
+
 ```bash
 curl -sS https://downloads.mariadb.com/MariaDB/mariadb_repo_setup | sudo bash
 ```
 
-Schließlich solltest du deine Repositories-Liste aktualisieren und die verbleibenden Abhängigkeiten installieren.
+Zum Schluss aktualisierst du die Paketliste und installierst die restlichen Abhängigkeiten.
+
 ```bash
 apt update
 apt -y install php8.1 php8.1-{common,cli,gd,mysql,mbstring,bcmath,xml,fpm,curl,zip} mariadb-server nginx tar unzip git redis-server
 ```
 
-Jetzt solltest du alle notwendigen Abhängigkeiten installiert haben und kannst mit der Installation von Composer fortfahren.
+Jetzt sollten alle notwendigen Abhängigkeiten installiert sein und du kannst mit der Installation von Composer weitermachen.
 
-### Installation von Composer
+### Composer installieren
 
-Jetzt, da deine Hauptabhängigkeiten installiert sind, musst du Composer installieren, einen beliebten Abhängigkeitsmanager für PHP. Dies ermöglicht dir, den gesamten Pterodactyl-Service einfach herunterzuladen und zu installieren. Führe einfach den folgenden Befehl aus:
+Nachdem die Hauptabhängigkeiten installiert sind, musst du Composer installieren, den beliebten PHP-Abhängigkeitsmanager. Damit kannst du den kompletten Pterodactyl-Service einfach herunterladen und installieren.
+
+Führe einfach diesen Befehl aus:
 
 ```bash
 curl -sS https://getcomposer.org/installer | sudo php -- --install-dir=/usr/local/bin --filename=composer
 ```
 
-## Das Panel herunterladen
+## Panel herunterladen
 
-Jetzt, da alle Voraussetzungen erfüllt sind, musst du das Pterodactyl Panel installieren. Du musst einen Ordner erstellen, in dem das Panel gespeichert wird, indem du den folgenden Befehl verwendest.
+Jetzt, wo alle Voraussetzungen erfüllt sind, kannst du das Pterodactyl Panel installieren.
+
+Erstelle zunächst einen Ordner, in dem das Panel gespeichert wird:
 
 ```bash
 mkdir /var/www/pterodactyl
 cd /var/www/pterodactyl
 ```
 
-Nun kannst du das offizielle Pterodactyl GitHub Repository klonen, um die notwendigen Dateien herunterzuladen.
+Dann klonst du das offizielle Pterodactyl GitHub-Repository, um die nötigen Dateien herunterzuladen:
+
 ```bash
 curl -Lo panel.tar.gz https://github.com/pterodactyl/panel/releases/latest/download/panel.tar.gz
 tar -xzvf panel.tar.gz
 chmod -R 755 storage/* bootstrap/cache/
 ```
 
-Sobald das Klonen abgeschlossen ist, hast du das Panel erfolgreich heruntergeladen. Im folgenden Abschnitt wirst du eine Vielzahl von wesentlichen Einstellungen und Optionen konfigurieren, um sicherzustellen, dass das Panel korrekt installiert ist und gut funktioniert.
+Nach dem Download ist das Panel erfolgreich auf deinem Server. Im nächsten Abschnitt konfigurierst du wichtige Einstellungen, damit das Panel korrekt installiert ist und reibungslos läuft.
 
 ## Installation
 
-Der erste Teil der Installation umfasst das Einrichten einer MySQL-Datenbank, die alle Daten für dein Pterodactyl-Panel speichern wird. Wenn du bereits eine MySQL-Datenbank mit einem entsprechenden Benutzer eingerichtet hast, kannst du den nächsten Unterabschnitt überspringen.
+Der erste Schritt der Installation ist das Einrichten einer MySQL-Datenbank, die alle Daten für dein Pterodactyl Panel speichert. Falls du bereits eine MySQL-Datenbank mit einem passenden Benutzer hast, kannst du den nächsten Unterabschnitt überspringen.
 
 ### Datenbank einrichten
 
-Du musst dich zuerst in deine MySQL-Datenbank einloggen. Wenn es sich um eine frische MySQL-Instanz handelt, kannst du dies einfach durch Ausführen des folgenden Befehls tun:
+Melde dich zunächst bei deiner MySQL-Datenbank an. Falls es eine frische MySQL-Installation ist, geht das so:
+
 ```
 mysql -u root -p
 ```
 
-Andernfalls, wenn du bereits eine MySQL-Instanz hast, kannst du dich mit deinem Login anmelden, wobei `-u` der Benutzername und `-p` das Passworteingabefeld ist.
+Falls du schon eine MySQL-Instanz hast, nutze deinen Benutzernamen mit `-u` und das Passwort mit `-p`.
 
-Sobald du eingeloggt bist, musst du einen neuen Benutzer erstellen, den du für deine Pterodactyl-Instanz verwenden wirst. Stelle sicher, dass du `[dein_passwort]` durch das Passwort ersetzt, das du verwenden möchtest. Dies kann folgendermaßen durchgeführt werden:
+Sobald du eingeloggt bist, musst du einen neuen Benutzer für deine Pterodactyl-Instanz anlegen. Ersetze `[dein_passwort]` durch dein gewünschtes Passwort:
 
 ```sql
-CREATE USER 'pterodactyl'@'127.0.0.1' IDENTIFIED BY '[your_password]';
+CREATE USER 'pterodactyl'@'127.0.0.1' IDENTIFIED BY '[dein_passwort]';
 ```
 
-Jetzt, da dein Benutzer bereit ist, musst du eine Tabelle für deine Pterodactyl-Instanz erstellen. Du musst auch Berechtigungen für deinen neuen Benutzer erteilen, damit er Aktionen an der Tabelle durchführen kann. Führe einfach aus:
+Jetzt erstellst du die Datenbank für Pterodactyl und gibst dem neuen Benutzer alle Rechte darauf:
+
 ```sql
 CREATE DATABASE panel;
 GRANT ALL PRIVILEGES ON panel.* TO 'pterodactyl'@'127.0.0.1' WITH GRANT OPTION;
 ```
 
-Du hast erfolgreich einen MySQL-Benutzer und eine Tabelle für deine Pterodactyl-Instanz eingerichtet, sodass du mit der Installation fortfahren kannst. Führe den Befehl `exit` aus, um die MySQL-Verwaltung zu verlassen.
+Du hast erfolgreich einen MySQL-Benutzer und eine Datenbank für Pterodactyl angelegt. Verlasse die MySQL-Konsole mit:
 
-### Fortsetzung der Einrichtung
+```
+exit
+```
 
-Um fortzufahren, musst du nun die Standard-Umgebungsdatei kopieren, in der du deine geheimen Token speichern wirst.
+### Installation fortsetzen
+
+Kopiere nun die Standard-Umgebungsdatei, in der du deine geheimen Tokens speichern wirst:
+
 ```bash
 cp .env.example .env
 ```
 
-Anschließend kannst du Composer verwenden, um automatisch alle notwendigen Pakete zu installieren, indem du ausführst:
+Danach installierst du alle nötigen Pakete automatisch mit Composer:
+
 ```bash
 composer install --no-dev --optimize-autoloader
 ```
 
-Du musst auch einen Verschlüsselungsschlüssel generieren, den du für deine Anwendung verwenden wirst, was durch folgenden Befehl geschieht:
+Generiere außerdem einen Verschlüsselungsschlüssel für deine Anwendung:
+
 ```bash
 php artisan key:generate --force
 ```
 
-### Umgebungskonfiguration
+### Umgebungs-Konfiguration
 
-Du wirst jetzt deine Pterodactyl-Instanz einrichten. Dies geschieht einfach durch Ausführen der folgenden Befehle. Jeder Befehl führt durch eine interaktive Einrichtung, die eine breite Palette von Einstellungen wie Sitzungen, E-Mail, Caching und mehr umfasst.
+Jetzt richtest du deine Pterodactyl-Instanz ein. Führe dazu die folgenden Befehle aus. Jeder startet eine interaktive Einrichtung, bei der du Einstellungen zu Sessions, E-Mail, Caching und mehr vornehmen kannst.
 
 ```bash
-php artisan p:environment:setup #Erster Befehl
-php artisan p:environment:database #Zweiter Befehl
+php artisan p:environment:setup # Erster Befehl
+php artisan p:environment:database # Zweiter Befehl
 ```
 
 ### Datenbank einrichten
 
-Der nächste Schritt ist die Einrichtung der Basisdaten, die für den Betrieb des Panels notwendig sind und die Datenbanktabelle verwenden, die du zuvor erstellt hast. Auch dies geschieht einfach durch Ausführen des folgenden Befehls.
+Der nächste Schritt ist das Einrichten der Basisdaten, die das Panel zum Laufen braucht. Dabei wird die zuvor erstellte Datenbank genutzt. Führe dazu diesen Befehl aus:
 
 :::info
-Bitte beachte, dass dies einige Minuten dauern kann. Verlasse den Prozess nicht, da dies zu Fehlern führen kann. Bitte habe Geduld :)
+Das kann einige Minuten dauern. Bitte unterbrich den Prozess nicht, sonst kann es zu Problemen kommen. Bleib geduldig :)
 :::
 
 ```bash
 php artisan migrate --seed --force
 ```
 
-### Admin-Benutzer einrichten
+### Admin-Benutzer anlegen
 
-Jetzt, da deine Datenbank vorbereitet ist, musst du deinen ersten Administrator-Benutzer erstellen, damit du dich bei deinem Pterodactyl-Panel anmelden kannst. Dies geschieht einfach durch Ausführen des folgenden Befehls.
+Jetzt, wo die Datenbank vorbereitet ist, musst du deinen ersten Administrator-Benutzer anlegen, um dich im Pterodactyl Panel einzuloggen. Das geht mit:
+
 ```bash
 php artisan p:user:make
 ```
 
-### Berechtigungen einrichten
+### Berechtigungen setzen
 
-Der nächste Schritt bei der Installation deines Panels ist das Einrichten der notwendigen Berechtigungen für Dateien, die sich im Pterodactyl-Panel befinden, damit die Panel-Instanz immer ohne Probleme lesen und schreiben kann.
+Der nächste Schritt ist, die nötigen Berechtigungen für die Dateien im Pterodactyl-Panel zu setzen, damit das Panel immer ohne Probleme lesen und schreiben kann.
 
-Du kannst die Berechtigung durch Ausführen des folgenden Befehls setzen:
+Setze die Rechte mit:
+
 ```bash
 chown -R www-data:www-data /var/www/pterodactyl/*
 ```
 
-Sobald dies erledigt ist, solltest du auf dein Pterodactyl-Panel zugreifen können, indem du den folgenden Link aufrufst und `deine_ipadresse` durch die IP deines Systems ersetzt.
+Danach solltest du dein Pterodactyl Panel über die folgende URL erreichen können (ersetze `deine_ipadresse` mit der IP deines Servers):
+
 ```
 http://[deine_ipadresse]/
 ```
 
+### Queue Worker einrichten
 
-### Queue-Worker
+Der letzte Schritt bei der Installation ist das Einrichten eines Cronjobs, der in regelmäßigen Abständen läuft, sowie eines Queue Workers, der viele Hintergrundaufgaben übernimmt.
 
-Der letzte Schritt bei der Installation des Panels umfasst das Einrichten eines Cronjobs, der in regelmäßigen Abständen zusammen mit einem Queue-Worker läuft, der für viele Hintergrundaufgaben verantwortlich ist.
+Öffne zuerst deine Crontab mit `sudo crontab -e`. Füge dann diesen Cronjob hinzu, der jede Minute ausgeführt wird:
 
-Öffne zunächst deinen Crontab, indem du `sudo crontab -e` in deiner Konsole ausführst. Sobald dieser geöffnet ist, führe den folgenden Befehl aus, der einen Cronjob einrichtet, der jede Minute für dein Pterodactyl-Panel läuft.
 ```bash
 * * * * * php /var/www/pterodactyl/artisan schedule:run >> /dev/null 2>&1
 ```
 
-Jetzt, da dies erledigt ist, musst du einen Queue-Worker mit `systemd` erstellen, der den Queue-Prozess im Hintergrund laufen lässt.
+Jetzt erstellst du einen Queue Worker mit `systemd`, der den Queue-Prozess im Hintergrund am Laufen hält.
 
-Erstelle eine neue Datei für den Worker, indem du das Folgende ausführst, was deinen Nano-Editor öffnen wird.
+Erstelle eine neue Datei für den Worker mit dem Nano-Editor:
 
 ```
 nano /etc/systemd/system/pteroq.service
 ```
 
-In dieser Datei kopiere und füge den folgenden Inhalt ein:
+Füge folgenden Inhalt ein:
+
 ```
-# Pterodactyl Queue Worker File
+# Pterodactyl Queue Worker Datei
 # ----------------------------------
 
 [Unit]
@@ -227,8 +245,8 @@ Description=Pterodactyl Queue Worker
 After=redis-server.service
 
 [Service]
-# On some systems the user and group might be different.
-# Some systems use `apache` or `nginx` as the user and group.
+# Auf manchen Systemen können Benutzer und Gruppe anders heißen.
+# Manche Systeme nutzen `apache` oder `nginx` als Benutzer und Gruppe.
 User=www-data
 Group=www-data
 Restart=always
@@ -242,85 +260,94 @@ WantedBy=multi-user.target
 ```
 
 :::note
-Wenn du CentOS verwendest, musst du `redis-server.service` durch `redis.service` in der obigen Datei ersetzen.
+Wenn du CentOS nutzt, musst du `redis-server.service` in der Datei durch `redis.service` ersetzen.
 :::
 
-Sobald du fertig bist, kannst du speichern, indem du `CTRL + X` und `Y`drückst, um das Speichern der Datei zu bestätigen.
+Speichere die Datei mit `CTRL + X` und bestätige mit `Y`.
 
-Schließlich musst du den Redis-Dienst und den von dir erstellten Dienst aktivieren, damit sie beim Systemstart ausgeführt werden, indem du die folgenden Befehle ausführst.
+Aktiviere nun den Redis-Service und deinen neuen Service, damit sie beim Systemstart automatisch starten:
+
 ```
 sudo systemctl enable --now redis-server
 sudo systemctl enable --now pteroq.service
 ```
 
-Du hast Pterodactyl erfolgreich auf deinem Server installiert. Du solltest über die folgende URL auf das Panel zugreifen können, indem du `[deine_serverip]` durch die IP deines eigenen Servers ersetzt.
+Du hast Pterodactyl erfolgreich auf deinem Dedicated Server installiert. Du kannst das Panel jetzt über folgende URL erreichen (ersetze `[deine_serverip]` mit der IP deines Servers):
+
 ```
 http://[deine_serverip]
 ```
 
+## Optional: Webserver konfigurieren
 
-## Optional: Konfiguration des Webservers
+Als Zusatzfeature kannst du deinen Webserver konfigurieren. In dieser Anleitung haben wir Nginx verwendet, deshalb zeigen wir hier, wie du die Konfiguration anpasst.
 
-Als zusätzliches Feature kannst du deinen Webserver konfigurieren. In dieser Anleitung haben wir Nginx verwendet, daher wird dieser Abschnitt die Anpassung der Konfiguration dafür erkunden.
+Der Vorteil einer erweiterten Webserver-Konfiguration ist, dass du das Panel über deine eigene Domain erreichbar machen und ein SSL-Zertifikat für deine Panel-Webseite einrichten kannst.
 
-Der Vorteil einer weiteren Webserver-Konfiguration besteht darin, dass du das Panel auf deiner eigenen Domain einrichten und ein SSL-Zertifikat für deine Panel-Website einrichten könntest.
+### DNS-Eintrag für die Domain
 
-### DNS-Eintrag für Domain
-Damit dein Server über deine Domain erreichbar ist, musst du einen `A` DNS-Eintrag für diese Domain einrichten. Dies hängt stark von deinem Anbieter ab, sollte jedoch über eine Art `DNS-Panel`-Bereich zugänglich sein, wenn du deine Domain verwaltest. Der Inhalt des Eintrags sollte die Ziel-IP-Adresse deines Servers sein, die du verwendest.
+Damit dein Server über deine Domain erreichbar ist, musst du einen `A` DNS-Eintrag für diese Domain anlegen. Das hängt stark von deinem Provider ab, sollte aber über ein `DNS Panel` beim Domain-Management möglich sein. Der Eintrag muss auf die IP-Adresse deines Servers zeigen.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/EsGB6DaTC65Fce8/preview)
 
-### Entfernen der Standardkonfiguration
-Beginne damit, die Standardkonfiguration von Nginx zu entfernen. Dies geschieht einfach durch das Löschen der Datei.
+### Standard-Konfiguration entfernen
+
+Entferne zuerst die Standard-Nginx-Konfiguration, indem du die Datei löschst:
+
 ```bash
 rm /etc/nginx/sites-enabled/default
 ```
-An diesem Punkt solltest du die unten stehenden Inhalte verwenden, um eine neue Konfigurationsdatei für deine Pterodactyl-Panel-Site zu erstellen. Du solltest jetzt entscheiden, ob du SSL verwenden möchtest oder nicht, da die Inhalte der Konfiguration und die notwendigen Schritte je nach Wahl leicht unterschiedlich sein werden.
+
+Jetzt kannst du eine neue Konfigurationsdatei für dein Pterodactyl Panel anlegen. Entscheide dich, ob du SSL nutzen möchtest oder nicht, denn die Konfiguration und die notwendigen Schritte unterscheiden sich leicht.
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
 <Tabs>
-<TabItem value="Nginx mit SSL" label="Nginx mit SSL" default>
+<TabItem value="Nginx With SSL" label="Nginx mit SSL" default>
 
-### Einrichten von Certbot
-Damit deine Website ein SSL-Zertifikat erhält, musst du ein System einrichten, das deine Zertifikate automatisch verwaltet und erneuert. In diesem Fall wirst du Certbot verwenden, das Open-Source ist.
+### Certbot einrichten
 
-Zuerst musst du Certbot auf deinem Server installieren. Für Nginx musst du auch das Python3-Certbot-Paket installieren.
+Damit deine Webseite ein SSL-Zertifikat bekommt, musst du ein System einrichten, das Zertifikate automatisch verwaltet und erneuert. Hier nutzen wir Certbot, das Open-Source ist.
+
+Installiere Certbot auf deinem Server. Für Nginx brauchst du außerdem das Python3-Certbot-Paket:
+
 ```bash
 sudo apt update
 sudo apt install -y certbot
 sudo apt install -y python3-certbot-nginx
 ```
 
-Als Nächstes musst du eine Verifizierung einrichten, um die Erstellung eines Zertifikats zu ermöglichen. In diesem Fall wirst du eine DNS-Herausforderung verwenden, da diese im Vergleich zu einer HTTP-Herausforderung sicherer ist.
+Als nächstes richtest du die Verifikation ein, um ein Zertifikat zu generieren. Wir nutzen eine DNS-Challenge, da diese sicherer ist als eine HTTP-Challenge.
 
-Du musst einen `TXT` DNS-Eintrag für die Domain erstellen, die du verwenden möchtest. Dies hängt stark von deinem Anbieter ab, sollte jedoch über eine Art `DNS-Panel`-Bereich zugänglich sein, wenn du deine Domain verwaltest.
+Du musst einen `TXT` DNS-Eintrag für deine Domain anlegen. Das hängt vom Provider ab, sollte aber über dein `DNS Panel` möglich sein.
 
-Führe den folgenden Befehl aus, der dir den Inhalt für deinen `TXT` DNS-Eintrag liefert. Ersetze `[deine_domain]` durch die Domain, die du verwenden möchtest.
+Führe diesen Befehl aus, der dir den Inhalt für den `TXT` DNS-Eintrag anzeigt. Ersetze `[deine_domain]` durch deine Domain:
+
 ```bash
 certbot -d [deine_domain] --manual --preferred-challenges dns certonly
 ```
 
-Sobald du deinen DNS-Eintrag eingerichtet hast, musst du die automatische Erneuerung durch die Verwendung eines Cronjobs einrichten. Öffne zuerst den Crontab, indem du `sudo crontab -e` ausführst, und wenn er geöffnet ist, führe den folgenden Befehl aus, um das Zertifikat jeden Tag um 23:00 Uhr Systemzeit zu erneuern.
+Nachdem du den DNS-Eintrag gesetzt hast, richtest du die automatische Erneuerung per Cronjob ein. Öffne Crontab mit `sudo crontab -e` und füge diesen Eintrag hinzu, damit das Zertifikat täglich um 23:00 Uhr erneuert wird:
 
 ```bash
 0 23 * * * certbot renew --quiet --deploy-hook "systemctl restart nginx"
 ```
 
-#### Erstellen der Konfigurationsdatei
+#### Konfigurationsdatei erstellen
 
-Jetzt, da du dein SSL-Zertifikat bereit hast, kannst du mit dem Erstellen deiner Konfigurationsdatei beginnen.
+Jetzt, wo dein SSL-Zertifikat bereit ist, kannst du die Konfigurationsdatei anlegen.
 
-Führe einfach den folgenden Befehl aus, um den Nano-Editor im angegebenen Zielordner und mit dem spezifizierten Dateinamen zu öffnen.
+Öffne den Nano-Editor mit:
+
 ```bash
 nano /etc/nginx/sites-enabled/pterodactyl.conf
 ```
 
-Kopiere die untenstehende Konfigurationsdatei in den Editor. Stelle sicher, dass du `[deine_domain]` durch die Domain ersetzt, für die du in den vorherigen Schritten DNS-Einträge eingerichtet hast.
+Füge folgenden Inhalt ein. Ersetze `[deine_domain]` mit deiner Domain, für die du den DNS-Eintrag erstellt hast.
 
 :::warning
-Stelle sicher, dass du das SSL-Zertifikat eingerichtet hast, da sonst der Webserver nicht erfolgreich starten wird.
+Stelle sicher, dass das SSL-Zertifikat eingerichtet ist, sonst startet der Webserver nicht korrekt.
 :::
 
 ```
@@ -389,19 +416,20 @@ server {
 ```
 
 </TabItem>
-<TabItem value="Nginx ohne SSL" label="Nginx ohne SSL">
+<TabItem value="Nginx Without SSL" label="Nginx ohne SSL">
 
-#### Erstellen der Konfigurationsdatei
+#### Konfigurationsdatei erstellen
 
-Führe den folgenden Befehl aus, um den Nano-Editor im angegebenen Zielordner und mit dem spezifizierten Dateinamen zu öffnen.
+Öffne den Nano-Editor mit:
+
 ```bash
 nano /etc/nginx/sites-enabled/pterodactyl.conf
 ```
 
-Kopiere die untenstehende Konfigurationsdatei in den Editor. Stelle sicher, dass du `[deine_domain]` durch die Domain ersetzt, für die du einen DNS-Eintrag eingerichtet hast, der auf die IP-Adresse deines Servers zeigt.
+Füge folgenden Inhalt ein. Ersetze `[deine_domain]` mit deiner Domain, für die du einen DNS-Eintrag auf deine Server-IP gesetzt hast.
 
 :::warning
-Stelle sicher, dass du das SSL-Zertifikat eingerichtet hast, da sonst der Webserver nicht erfolgreich starten wird.
+Stelle sicher, dass du kein SSL erzwingen möchtest, sonst startet der Webserver nicht korrekt.
 :::
 
 ```
@@ -452,17 +480,16 @@ server {
 </TabItem>
 </Tabs>
 
-### Konfiguration anwenden
-Jetzt, da du die Änderungen an deiner Konfiguration vorgenommen hast, musst du sie aktivieren, indem du den folgenden Befehl ausführst.
+### Konfiguration aktivieren
+
+Nachdem du die Änderungen an der Konfiguration vorgenommen hast, musst du sie aktivieren:
 
 ```bash
-sudo ln -s /etc/nginx/sites-available/pterodactyl.conf /etc/nginx/sites-enabled/pterodactyl.conf # Nicht erforderlich für CentOS
+sudo ln -s /etc/nginx/sites-available/pterodactyl.conf /etc/nginx/sites-enabled/pterodactyl.conf # Nicht nötig bei CentOS
 
 sudo systemctl restart nginx # Nginx neu starten
 ```
 
-Nachdem alles erfolgreich abgeschlossen wurde, solltest du nun einfach auf dein Pterodactyl-Panel zugreifen können, indem du die Domain verwendest, die du in diesem Abschnitt eingerichtet hast.
+Wenn alles erfolgreich war, solltest du dein Pterodactyl Panel jetzt bequem über die Domain erreichen können, die du in diesem Abschnitt eingerichtet hast.
 
-Du hast deinen Webserver erfolgreich konfiguriert, um die Verwendung deiner Domain zu ermöglichen und ein SSL-Zertifikat zu deiner Website hinzuzufügen.
-
-<InlineVoucher />
+Du hast deinen Webserver erfolgreich konfiguriert, um deine Domain zu nutzen und ein SSL-Zertifikat für deine Webseite hinzuzufügen.

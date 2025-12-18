@@ -1,7 +1,7 @@
 ---
 id: nmrih-firststeps-dashboard
 title: "No More Room In Hell: Dashboard overview"
-description: Information about the dashboard of an No More Room In Hell server from ZAP-Hosting - ZAP-Hosting.com Documentation
+description: "Discover how to efficiently manage your No More Room In Hell server with a clear overview of features and options → Learn more now"
 sidebar_label: Dashboard
 services:
   - gameserver-nmrih

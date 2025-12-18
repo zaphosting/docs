@@ -1,7 +1,7 @@
 ---
 id: dedicated-linux-nextcloud
 title: "Dedicated Server: Installation of Nextcloud"
-description: Information on how to set up a Nextcloud server on your server from ZAP-Hosting - ZAP-Hosting.com documentation
+description: "Discover how to optimize your Nextcloud server setup for best performance and stability on Linux systems → Learn more now"
 sidebar_label: Install Nextcloud
 services:
   - dedicated
@@ -17,7 +17,7 @@ Nextcloud is an open source cloud solution and fork of Owncloud, which was found
 
 In order to achieve optimal performance, stability and functionality, the following setup is recommended for hosting a Nextcloud server. The Nextcloud server is not compatible with Windows and MacOS. At least not without any further virtualization or similar workarounds.<br/>
 
-<InlineVoucher />
+
 
 ## Preparation
 
@@ -531,4 +531,4 @@ Moreover, there is also the possibility to install additional apps apart from th
 
 With such **Apps** it is possible to further individualize Nextcloud according to your wishes.
 
-<InlineVoucher />
+

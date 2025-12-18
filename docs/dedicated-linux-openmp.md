@@ -1,7 +1,7 @@
 ---
 id: dedicated-linux-openmp
 title: "Dedicated Server: Open.mp Dedicated Server Linux Setup"
-description: Information about setting up an open.mp Dedicated Server on a Linux Dedicated Server from ZAP-Hosting - ZAP-Hosting.com documentation
+description: "Discover how to set up the open.mp Dedicated Server on your Linux server for seamless game hosting and management → Learn more now"
 sidebar_label: Open.mp
 services:
   - dedicated
@@ -16,7 +16,7 @@ Do you have a Linux Dedicated Server and you want to install the open.mp Dedicat
 Did you know that you can install our **ZAP GS/TS3 Interface** directly onto your Dedicated Server, allowing you to setup game server services, with direct integration to your ZAP-Hosting dashboard, in just a few clicks! Learn more about the [GS/TS3 Interface](dedicated-linux-gs-interface.md).
 :::
 
-<InlineVoucher />
+
 
 ## Preparation
 
@@ -86,4 +86,4 @@ Congratulations, you have successfully installed and configured the open.mp serv
 
 If you have any further questions or problems, please contact our support team, who are available to help you every day!
 
-<InlineVoucher />
+

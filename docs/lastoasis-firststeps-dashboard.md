@@ -1,7 +1,7 @@
 ---
 id: lastoasis-firststeps-dashboard
 title: "Last Oasis: Dashboard Overview"
-description: Information about the dashboard of a Last Oasis server from ZAP-Hosting - ZAP-Hosting.com documentation
+description: "Discover how to efficiently manage your Last Oasis server and optimize its settings for the best performance → Learn more now"
 sidebar_label: Dashboard
 services:
   - gameserver-lastoasis

@@ -1,7 +1,7 @@
 ---
 id: 7d2d-rcon
 title: "7 Days to Die: RCON"
-description: "Learn how to use RCON for 7 Days to Die - ZAP-Hosting Documentation"
+description: "Discover how to remotely manage and control 7 Days to Die servers securely without in-game access for efficient server administration → Learn more now"
 sidebar_label: RCON
 services:
   - gameserver-7d2d

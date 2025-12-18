@@ -1,7 +1,7 @@
 ---
 id: theisle-troubleshooting-common-issues
 title: "The Isle: Common issues"
-description: "Information on how to resolve common issues on a The Isle server from ZAP-Hosting - ZAP-Hosting.com documentation"
+description: "Discover how to troubleshoot and resolve common The Isle server issues to ensure smooth gameplay and a stable gaming environment → Learn more now"
 sidebar_label: Common issues
 services:
   - gameserver-theisle

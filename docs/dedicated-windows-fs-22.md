@@ -1,7 +1,7 @@
 ---
 id: dedicated-windows-fs-22
 title: "Dedicated Server: Farming Simulator 2022 Dedicated Server Windows Setup"
-description: Information about setting up a Farming Simulator 2022 Dedicated Server on a Windows Dedicated Server from ZAP-Hosting - ZAP-Hosting.com documentation
+description: "Discover how to set up the Farming Simulator Dedicated Server 2022 on your Windows VPS or dedicated server → Learn more now"
 sidebar_label: Farming Simulator 2022
 services:
   - dedicated
@@ -13,7 +13,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Do you have a Windows VPS or dedicated server and you want to install the Farming Simulator Dedicated Server 2022 service on it? You are in the right place. In this guide, we will explain the step by step process of installing this service on your server.
 
-<InlineVoucher />
+
 
 ## Preparation
 A server based on Windows Server 2016/2019 with at least 4x 2.4 GHz CPU (AMD/Intel) and at least 2GB RAM (DDR3/4) and 6GB free Disk (SSD or better, preferred) is required. The server must run on 64 bit architecture. 
@@ -90,4 +90,4 @@ How to enable ports on Windows:[Port Forwarding (Firewall)](vserver-windows-port
 
 After the port release the server is publicly accessible, if it was started. 
 
-<InlineVoucher />
+

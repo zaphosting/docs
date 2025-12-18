@@ -1,7 +1,7 @@
 ---
 id: exiled-plugins
 title: "SCP EXILED: Installing plugins"
-description: "Information on how to install plugins on your SCP: EXILED  server from ZAP-Hosting - ZAP-Hosting.com documentation"
+description: "Discover how to expand and personalize your server with trusted plugins for enhanced functionality and customization → Learn more now"
 sidebar_label: Install Plugins
 services:
   - gameserver
@@ -23,7 +23,7 @@ Plugins allow you to expand and personalize your server even more. In the follow
 
 First, you’ll need to download the plugins you want to install on your server. A wide range of EXILED plugins can be found on their official GitHub page. Once you’ve selected a plugin repository, you’ll find a releases section where you can download the latest version. Detailed instructions on how to proceed are provided below.
 
-While plugins can be downloaded from various sources, we recommend sticking to trusted platforms like the official GitHub repository, as these are generally considered the safest. Always exercise caution when adding plugins to your server – make sure to verify the source, check the developers, and fully understand what the plugin does before installing it.
+While plugins can be downloaded from various sources, we recommend sticking to trusted platforms like the official GitHub repository, as these are generally considered the safest. Always exercise caution when adding plugins to your server. Make sure to verify the source, check the developers, and fully understand what the plugin does before installing it.
 
 To download a plugin from GitHub, start by visiting the official [EXILED GitHub page](https://github.com/Exiled-Team) and selecting the plugin repository you’d like to use.  
 ![](https://screensaver01.zap-hosting.com/index.php/s/6cCEZGEBKNnJ4o4/preview)  

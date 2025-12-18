@@ -1,7 +1,7 @@
 ---
 id: minecraft-troubleshooting-common-issues
 title: "Minecraft: Common issues"
-description: "Information on how to resolve common issues on a Minecraft server from ZAP-Hosting - ZAP-Hosting.com documentation"
+description: "Discover how to troubleshoot common Minecraft server issues and keep your game running smoothly for an optimal gaming experience → Learn more now"
 sidebar_label: Common issues
 services:
   - gameserver-minecraft

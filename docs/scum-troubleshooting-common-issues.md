@@ -1,7 +1,7 @@
 ---
 id: scum-troubleshooting-common-issues
 title: "SCUM: Common issues"
-description: "Information on how to resolve common issues on a SCUM server from ZAP-Hosting - ZAP-Hosting.com documentation"
+description: "Discover how to troubleshoot and resolve common SCUM server issues for a smooth gaming experience → Learn more now"
 sidebar_label: Common issues
 services:
   - gameserver-scum

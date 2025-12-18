@@ -1,7 +1,7 @@
 ---
 id: dedicated-linux-xrdp
 title: "Dedicated Server: Installation of xRDP (Remote Desktop) "
-description: Guide to install xRDP (Remote Desktop) on Linux - ZAP-Hosting.com documentation
+description: "Discover how to set up remote desktop access on Ubuntu and Debian servers for easier management and control → Learn more now"
 sidebar_label: Install xRDP
 services:
   - dedicated
@@ -18,7 +18,7 @@ A post-installation is possible for most Linux distros. In this guide this is ex
 Important: At least Ubuntu 18.04.X LTS (Bionic Beaver) or Debian 10 (Buster) must be used as OS. Newer versions are recommended. 
 :::
 
-<InlineVoucher />
+
 
 ## Installing xRDP
 
@@ -89,4 +89,4 @@ Debian:
 
 ![xrdp4](https://screensaver01.zap-hosting.com/index.php/s/riHNCEEyKcoLHDy/preview)
 
-<InlineVoucher />
+

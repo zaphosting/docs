@@ -1,7 +1,7 @@
 ---
 id: webspace-introduction
 title: "Webspace: Introduction"
-description: Introduction and information about the Webspace product from ZAP-Hosting - ZAP-Hosting.com Documentation
+description: "Discover affordable web hosting solutions with flexible configurations and instant setup to launch your online presence quickly → Learn more now"
 sidebar_label: Introduction
 services:
   - webspace
@@ -9,7 +9,7 @@ services:
 
 import InlineVoucher from '@site/src/components/InlineVoucher';
 import SearchableAccordion from '@site/src/components/SearchableAccordion/SearchableAccordion';
-import items from '@site/data/faqs/webspace-introduction-en.json';
+import items from '@site/data/faqs/webspace-introduction.json';
 
 ## Introduction
 

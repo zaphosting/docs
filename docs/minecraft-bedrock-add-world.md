@@ -1,7 +1,7 @@
 ---
 id: minecraft-bedrock-add-world
 title: "Minecraft Bedrock: Import own World"
-description: Information on how to import an own world into your Minecraft Bedrock Server from ZAP-Hosting - ZAP-Hosting.com documentation
+description: "Discover how to import and share your custom Minecraft Bedrock worlds on your server for seamless multiplayer fun → Learn more now"
 sidebar_label: Import own World
 services:
   - gameserver-minecraft

@@ -1,7 +1,7 @@
 ---
 id: vrising-becomeadmin
 title: "V Rising: Become admin"
-description: Information on how to become an admin on your V Rising server at ZAP-Hosting - ZAP-Hosting.com documentation
+description: "Discover how to manage and assign full administrator permissions for your game server efficiently → Learn more now"
 sidebar_label: Become admin
 services:
   - gameserver-vrising

@@ -1,0 +1,1519 @@
+{
+  "service.vserver.title": {
+    "message": "VPS",
+    "description": "Product name for the gameserver product"
+  },
+  "service.vserver.path": {
+    "message": "{marketingSite}/vps-hosting/",
+    "description": "URL path for the VPS product"
+  },
+  "service.dedicated.title": {
+    "message": "سيرفر مخصص",
+    "description": "Product name for the dedicated server product"
+  },
+  "service.dedicated.path": {
+    "message": "{marketingSite}/dedicated-server-hosting/",
+    "description": "URL path for the dedicated server product"
+  },
+  "service.domain.title": {
+    "message": "نطاق",
+    "description": "Product name for the domain product"
+  },
+  "service.domain.path": {
+    "message": "{marketingSite}/domain-check/",
+    "description": "URL path for the domain product"
+  },
+  "service.webspace.title": {
+    "message": "استضافة مواقع",
+    "description": "Product name for the webspace product"
+  },
+  "service.webspace.path": {
+    "message": "{marketingSite}/webhosting-rent-a-webspace/",
+    "description": "URL path for the webspace product"
+  },
+  "service.voiceserver.title": {
+    "message": "سيرفر صوتي",
+    "description": "Product name for the voiceserver product"
+  },
+  "service.voiceserver.path": {
+    "message": "{marketingSite}/teamspeak-3-server-hosting/",
+    "description": "URL path for the voiceserver product"
+  },
+  "service.voicebot.title": {
+    "message": "بوت صوتي",
+    "description": "Product name for the voicebot product"
+  },
+  "service.voicebot.path": {
+    "message": "{marketingSite}/teamspeak-3-server-hosting/",
+    "description": "URL path for the voicebot product"
+  },
+  "service.storage.title": {
+    "message": "تخزين مميز",
+    "description": "Product name for the storage product"
+  },
+  "service.storage.path": {
+    "message": "{marketingSite}/shop/product/premium-storage/",
+    "description": "URL path for the storage product"
+  },
+  "service.fivemupvotes.title": {
+    "message": "FiveM Upvotes",
+    "description": "Product name for the storage product"
+  },
+  "service.fivemupvotes.path": {
+    "message": "{marketingSite}/{language}/shop/product/fivem-upvotes/",
+    "description": "URL path for the storage product"
+  },
+  "service.fivemupvotesburst.title": {
+    "message": "FiveM Upvotes BURST",
+    "description": "Product name for the storage product"
+  },
+  "service.gameserver.title": {
+    "message": "سيرفر ألعاب",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver.path": {
+    "message": "{marketingSite}/gameserver-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-7d2d.title": {
+    "message": "سيرفر ألعاب 7 Days to Die",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-7d2d.path": {
+    "message": "{marketingSite}/7-days-to-die-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-abioticfactor.title": {
+    "message": "سيرفر ألعاب Abiotic Factor",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-abioticfactor.path": {
+    "message": "{marketingSite}/abiotic-factor-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-afterinfection.title": {
+    "message": "بعد الإصابة سيرفر ألعاب",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-afterinfection.path": {
+    "message": "{marketingSite}/afterinfection-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-amongus.title": {
+    "message": "سيرفر ألعاب Among Us",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-amongus.path": {
+    "message": "{marketingSite}/among-us-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-animalia-survival.title": {
+    "message": "سيرفر ألعاب Animalia Survival",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-animalia-survival.path": {
+    "message": "{marketingSite}/animalia-survival-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-argo.title": {
+    "message": "أرجو سيرفر ألعاب",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-argo.path": {
+    "message": "{marketingSite}/argo-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-ark.title": {
+    "message": "سيرفر ألعاب ARK: Survival Evolved",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-ark.path": {
+    "message": "{marketingSite}/ark-survival-evolved-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-arma3.title": {
+    "message": "سيرفر ألعاب Arma 3",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-arma3.path": {
+    "message": "{marketingSite}/arma-3-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-arma-reforger.title": {
+    "message": "سيرفر ألعاب Arma Reforger",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-arma-reforger.path": {
+    "message": "{marketingSite}/arma-reforger-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-assettocorsa.title": {
+    "message": "سيرفر ألعاب Assetto Corsa",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-assettocorsa.path": {
+    "message": "{marketingSite}/assetto-corsa-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-assetto-competizione.title": {
+    "message": "سيرفر ألعاب Assetto Corsa Competizione",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-assetto-competizione.path": {
+    "message": "{marketingSite}/assetto-corsa-competizione-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-astrocolony.title": {
+    "message": "سيرفر ألعاب Astro Colony",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-astrocolony.path": {
+    "message": "{marketingSite}/astro-colony-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-astroneer.title": {
+    "message": "سيرفر ألعاب ASTRONEER",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-astroneer.path": {
+    "message": "{marketingSite}/astroneer-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-avorion.title": {
+    "message": "سيرفر ألعاب Avorion",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-avorion.path": {
+    "message": "{marketingSite}/avorion-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-ats.title": {
+    "message": "سيرفر ألعاب American Truck Simulator",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-ats.path": {
+    "message": "{marketingSite}/american-truck-simulator-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-bananashooter.title": {
+    "message": "سيرفر ألعاب Banana Shooter",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-bananashooter.path": {
+    "message": "{marketingSite}/banana-shooter-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-barotrauma.title": {
+    "message": "سيرفر ألعاب Barotrauma",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-barotrauma.path": {
+    "message": "{marketingSite}/barotrauma-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-battalion1944.title": {
+    "message": "سيرفر ألعاب Battalion 1944",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-battalion1944.path": {
+    "message": "{marketingSite}/battalion-1944-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-battlegrounds3.title": {
+    "message": "سيرفر ألعاب Battle Grounds III",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-battlegrounds3.path": {
+    "message": "{marketingSite}/battle-grounds-iii-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-beammp.title": {
+    "message": "سيرفر ألعاب BeamMP",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-beammp.path": {
+    "message": "{marketingSite}/beammp-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-bob.title": {
+    "message": "سيرفر ألعاب Beasts of Bermuda",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-bob.path": {
+    "message": "{marketingSite}/beasts-of-bermuda-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-beyondthewire.title": {
+    "message": "سيرفر ألعاب Beyond the Wire",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-beyondthewire.path": {
+    "message": "{marketingSite}/beyond-the-wire-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-brokeprotocol.title": {
+    "message": "سيرفر ألعاب Broke Protocol",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-brokeprotocol.path": {
+    "message": "{marketingSite}/broke-protocol-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-citadel-forgedwithfire.title": {
+    "message": "Citadel: سيرفر ألعاب Forged With Fire",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-citadel-forgedwithfire.path": {
+    "message": "{marketingSite}/citadel-forged-with-fire-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-colonysurvival.title": {
+    "message": "سيرفر ألعاب Colony Survival",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-colonysurvival.path": {
+    "message": "{marketingSite}/colony-survival-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-conan.title": {
+    "message": "سيرفر ألعاب Conan Exiles",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-conan.path": {
+    "message": "{marketingSite}/conan-exiles-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-contagion.title": {
+    "message": "سيرفر ألعاب Contagion",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-contagion.path": {
+    "message": "{marketingSite}/contagion-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-corekeeper.title": {
+    "message": "سيرفر ألعاب Core Keeper",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-corekeeper.path": {
+    "message": "{marketingSite}/core-keeper-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-craftopia.title": {
+    "message": "سيرفر ألعاب Craftopia",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-craftopia.path": {
+    "message": "{marketingSite}/craftopia-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-cryofall.title": {
+    "message": "سيرفر ألعاب Cryofall",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-cryofall.path": {
+    "message": "{marketingSite}/cryofall-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-cs16.title": {
+    "message": "سيرفر ألعاب Counter-Strike 1.6",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-cs16.path": {
+    "message": "{marketingSite}/counter-strike-1-6-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-cs2.title": {
+    "message": "سيرفر ألعاب Counter-Strike 2",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-cs2.path": {
+    "message": "{marketingSite}/counter-strike-2-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-css.title": {
+    "message": "سيرفر ألعاب Counter-Strike: Source",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-css.path": {
+    "message": "{marketingSite}/css-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-dayofinfamy.title": {
+    "message": "سيرفر ألعاب Day of Infamy",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-dayofinfamy.path": {
+    "message": "{marketingSite}/day-of-infamy-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-dayz.title": {
+    "message": "سيرفر ألعاب DayZ",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-dayz.path": {
+    "message": "{marketingSite}/dayz-standalone-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-ddracenetwork.title": {
+    "message": "سيرفر ألعاب DDraceNetwork",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-ddracenetwork.path": {
+    "message": "{marketingSite}/ddracenetwork-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-deadlock.title": {
+    "message": "سيرفر ألعاب Deadlock",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-deadlock.path": {
+    "message": "{marketingSite}/deadlock-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-deadpoly.title": {
+    "message": "سيرفر ألعاب DeadPoly",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-deadpoly.path": {
+    "message": "{marketingSite}/deadpoly-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-dods.title": {
+    "message": "سيرفر ألعاب Day of Defeat: Source",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-dods.path": {
+    "message": "{marketingSite}/day-of-defeat-source-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-dst.title": {
+    "message": "سيرفر ألعاب Don't Starve Together",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-dst.path": {
+    "message": "{marketingSite}/don-t-starve-together-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-eco.title": {
+    "message": "سيرفر ألعاب ECO",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-eco.path": {
+    "message": "{marketingSite}/eco-global-survival-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-empyrion.title": {
+    "message": "سيرفر ألعاب Empyrion",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-empyrion.path": {
+    "message": "{marketingSite}/empyrion-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-enshrouded.title": {
+    "message": "سيرفر ألعاب Enshrouded",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-enshrouded.path": {
+    "message": "{marketingSite}/enshrouded-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-ets2.title": {
+    "message": "سيرفر ألعاب Euro Truck Simulator 2",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-ets2.path": {
+    "message": "{marketingSite}/euro-truck-simulator-2-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-factorio.title": {
+    "message": "سيرفر ألعاب Factorio",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-factorio.path": {
+    "message": "{marketingSite}/factorio-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-fivem.title": {
+    "message": "سيرفر ألعاب FiveM",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-fivem.path": {
+    "message": "{marketingSite}/fivem-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-foundry.title": {
+    "message": "سيرفر ألعاب Foundry",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-foundry.path": {
+    "message": "{marketingSite}/foundry-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-gmod.title": {
+    "message": "سيرفر ألعاب Garry's Mod",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-gmod.path": {
+    "message": "{marketingSite}/garrys-mod-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-groundbranch.title": {
+    "message": "سيرفر ألعاب Ground Branch",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-groundbranch.path": {
+    "message": "{marketingSite}/ground-branch-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-hl1.title": {
+    "message": "سيرفر ألعاب Half-Life 1",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-hl1.path": {
+    "message": "{marketingSite}/half-life-1-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-hl2.title": {
+    "message": "سيرفر ألعاب Half-Life 2",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-hl2.path": {
+    "message": "{marketingSite}/half-life-2-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-holdfast.title": {
+    "message": "هولدفاست: سيرفر ألعاب Nations At War",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-holdfast.path": {
+    "message": "{marketingSite}/holdfast-nations-at-war-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-humanitz.title": {
+    "message": "سيرفر ألعاب HumanitZ",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-humanitz.path": {
+    "message": "{marketingSite}/humanitz-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-hurtworld.title": {
+    "message": "سيرفر ألعاب Hurtworld",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-hurtworld.path": {
+    "message": "{marketingSite}/hurtworld-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-icarus.title": {
+    "message": "سيرفر ألعاب Icarus",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-icarus.path": {
+    "message": "{marketingSite}/icarus-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-insurgency.title": {
+    "message": "سيرفر ألعاب Insurgency: Sandstorm",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-insurgency.path": {
+    "message": "{marketingSite}/insurgency-sandstorm-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-ironarmada.title": {
+    "message": "سيرفر ألعاب Iron Armada",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-ironarmada.path": {
+    "message": "{marketingSite}/iron-armada-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-jol.title": {
+    "message": "رحلة سيرفر ألعاب الحياة",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-jol.path": {
+    "message": "{marketingSite}/journey-of-life-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-killingfloor2.title": {
+    "message": "سيرفر ألعاب Killing Floor 2",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-killingfloor2.path": {
+    "message": "{marketingSite}/killing-floor-2-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-lastoasis.title": {
+    "message": "سيرفر ألعاب Last Oasis",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-lastoasis.path": {
+    "message": "{marketingSite}/last-oasis-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-leap.title": {
+    "message": "سيرفر ألعاب Leap",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-leap.path": {
+    "message": "{marketingSite}/leap-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-l4d2.title": {
+    "message": "سيرفر ألعاب Left 4 Dead 2",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-l4d2.path": {
+    "message": "{marketingSite}/left-4-dead-2-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-longvinter.title": {
+    "message": "سيرفر ألعاب Longvinter",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-longvinter.path": {
+    "message": "{marketingSite}/longvinter-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-minecraft.title": {
+    "message": "سيرفر ألعاب ماينكرافت",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-minecraft.path": {
+    "message": "{marketingSite}/minecraft-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-minetest.title": {
+    "message": "سيرفر ألعاب Minetest",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-minetest.path": {
+    "message": "{marketingSite}/minetest-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-miscreated.title": {
+    "message": "سيرفر ألعاب Miscreated",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-miscreated.path": {
+    "message": "{marketingSite}/miscreated-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-motortown.title": {
+    "message": "Motor Town: سيرفر ألعاب Behind The Wheel",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-motortown.path": {
+    "message": "{marketingSite}/motor-town-behind-the-wheel-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-mountandblade.title": {
+    "message": "سيرفر ألعاب Mount & Blade",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-mountandblade.path": {
+    "message": "{marketingSite}/mount-and-blade-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-mta.title": {
+    "message": "سيرفر ألعاب Multi Theft Auto",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-mta.path": {
+    "message": "{marketingSite}/mta-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-moe.title": {
+    "message": "سيرفر ألعاب Myth of Empires",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-moe.path": {
+    "message": "{marketingSite}/myth-of-empires-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-necesse.title": {
+    "message": "Necesse سيرفر ألعاب",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-necesse.path": {
+    "message": "{marketingSite}/necesse-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-nstp.title": {
+    "message": "لا تقم بتقسيم سيرفر ألعاب Never Split the Party",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-nstp.path": {
+    "message": "{marketingSite}/never-split-the-party-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-nienix.title": {
+    "message": "Nienix سيرفر ألعاب",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-nienix.path": {
+    "message": "{marketingSite}/nienix-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-nmrih.title": {
+    "message": "سيرفر ألعاب No More Room In Hell",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-nmrih.path": {
+    "message": "{marketingSite}/no-more-room-in-hell-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-noonesurvived.title": {
+    "message": "لم ينجُ أحد من سيرفر ألعاب",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-noonesurvived.path": {
+    "message": "{marketingSite}/no-one-survived-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-ohol.title": {
+    "message": "سيرفر ألعاب One Hour One Life",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-ohol.path": {
+    "message": "{marketingSite}/one-hour-one-life-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-openmp.title": {
+    "message": "سيرفر ألعاب Open.mp",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-openmp.path": {
+    "message": "{marketingSite}/open-mp-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-openttd.title": {
+    "message": "سيرفر ألعاب OpenTTD",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-openttd.path": {
+    "message": "{marketingSite}/openttd-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-ohd.title": {
+    "message": "العملية: سيرفر ألعاب Harsh Doorstop",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-ohd.path": {
+    "message": "{marketingSite}/operation-harsh-doorstop-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-ootow.title": {
+    "message": "سيرفر ألعاب Outlaws of the Old West",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-ootow.path": {
+    "message": "{marketingSite}/outlaws-of-the-old-west-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-palworld.title": {
+    "message": "سيرفر ألعاب Palworld",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-palworld.path": {
+    "message": "{marketingSite}/palworld-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-pathoftitans.title": {
+    "message": "سيرفر ألعاب Path of Titans",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-pathoftitans.path": {
+    "message": "{marketingSite}/path-of-titans-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-pixark.title": {
+    "message": "سيرفر ألعاب PixARK",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-pixark.path": {
+    "message": "{marketingSite}/pixark-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-portalknights.title": {
+    "message": "سيرفر ألعاب Portal Knights",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-portalknights.path": {
+    "message": "{marketingSite}/portal-knights-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-projectzomboid.title": {
+    "message": "سيرفر ألعاب Project Zomboid",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-projectzomboid.path": {
+    "message": "{marketingSite}/project-zomboid-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-redm.title": {
+    "message": "سيرفر ألعاب RedM",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-redm.path": {
+    "message": "{marketingSite}/redm-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-reignofkings.title": {
+    "message": "سيرفر ألعاب Reign of Kings",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-reignofkings.path": {
+    "message": "{marketingSite}/reign-of-kings-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-rimworldtogether.title": {
+    "message": "سيرفر ألعاب RimWorld Together",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-rimworldtogether.path": {
+    "message": "{marketingSite}/rimworld-together-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-risingstorm2.title": {
+    "message": "سيرفر ألعاب Rising Storm 2",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-risingstorm2.path": {
+    "message": "{marketingSite}/rising-storm-2-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-risingworld.title": {
+    "message": "سيرفر ألعاب Rising World",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-risingworld.path": {
+    "message": "{marketingSite}/rising-world-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-riskofrain2.title": {
+    "message": "سيرفر ألعاب Risk of Rain 2",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-riskofrain2.path": {
+    "message": "{marketingSite}/risk-of-rain-2-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-rust.title": {
+    "message": "سيرفر ألعاب Rust",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-rust.path": {
+    "message": "{marketingSite}/rust-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-sanctuaryisland.title": {
+    "message": "سيرفر ألعاب جزيرة Sanctuary",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-sanctuaryisland.path": {
+    "message": "{marketingSite}/sanctuary-island-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-satisfactory.title": {
+    "message": "سيرفر ألعاب Satisfactory",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-satisfactory.path": {
+    "message": "{marketingSite}/satisfactory-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-scp5k.title": {
+    "message": "SCP: سيرفر ألعاب 5K",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-scp5k.path": {
+    "message": "{marketingSite}/scp-5k-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-scp-containmentbreach.title": {
+    "message": "SCP: Containment Breach سيرفر ألعاب",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-scp-containmentbreach.path": {
+    "message": "{marketingSite}/scp-containment-breach-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-scp-escapetogether.title": {
+    "message": "SCP: Escape Together سيرفر ألعاب",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-scp-escapetogether.path": {
+    "message": "{marketingSite}/scp-escape-together-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-scp.title": {
+    "message": "سيرفر ألعاب SCP: Secret Laboratory",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-scp.path": {
+    "message": "{marketingSite}/scp-secret-laboratory-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-scum.title": {
+    "message": "سيرفر ألعاب SCUM",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-scum.path": {
+    "message": "{marketingSite}/scum-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-soldat.title": {
+    "message": "سيرفر ألعاب Soldat",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-soldat.path": {
+    "message": "{marketingSite}/soldat-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-sonsoftheforest.title": {
+    "message": "سيرفر ألعاب Sons of the Forest",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-sonsoftheforest.path": {
+    "message": "{marketingSite}/sons-of-the-forest-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-soulmask.title": {
+    "message": "سيرفر ألعاب Soulmask",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-soulmask.path": {
+    "message": "{marketingSite}/soulmask-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-spaceengineers.title": {
+    "message": "سيرفر ألعاب Space Engineers",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-spaceengineers.path": {
+    "message": "{marketingSite}/space-engineers-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-squad.title": {
+    "message": "سيرفر ألعاب Squad",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-squad.path": {
+    "message": "{marketingSite}/squad-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-starbound.title": {
+    "message": "سيرفر ألعاب Starbound",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-starbound.path": {
+    "message": "{marketingSite}/starbound-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-starmade.title": {
+    "message": "سيرفر ألعاب Starmade",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-starmade.path": {
+    "message": "{marketingSite}/starmade-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-staxel.title": {
+    "message": "سيرفر ألعاب Staxel",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-staxel.path": {
+    "message": "{marketingSite}/staxel-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-stormworks.title": {
+    "message": "سيرفر ألعاب Stormworks",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-stormworks.path": {
+    "message": "{marketingSite}/stormworks-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-subsistence.title": {
+    "message": "سيرفر ألعاب Subsistence",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-subsistence.path": {
+    "message": "{marketingSite}/subsistence-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-sunkenland.title": {
+    "message": "سيرفر ألعاب Sunkenland",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-sunkenland.path": {
+    "message": "{marketingSite}/sunkenland-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-tf2.title": {
+    "message": "سيرفر ألعاب Team Fortress 2",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-tf2.path": {
+    "message": "{marketingSite}/team-fortress-2-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-teeworlds.title": {
+    "message": "Teeworlds سيرفر ألعاب",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-teeworlds.path": {
+    "message": "{marketingSite}/teeworlds-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-terraria.title": {
+    "message": "Terraria سيرفر ألعاب",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-terraria.path": {
+    "message": "{marketingSite}/terraria-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-terratech-worlds.title": {
+    "message": "Terratech Worlds سيرفر ألعاب",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-terratech-worlds.path": {
+    "message": "{marketingSite}/terratech-worlds-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-thebus.title": {
+    "message": "الحافلة سيرفر ألعاب",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-thebus.path": {
+    "message": "{marketingSite}/the-bus-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-thefront.title": {
+    "message": "Front سيرفر ألعاب",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-thefront.path": {
+    "message": "{marketingSite}/the-front-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-theisle.title": {
+    "message": "The Isle سيرفر ألعاب",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-theisle.path": {
+    "message": "{marketingSite}/the-isle-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-lotr-rtm.title": {
+    "message": "سيد الخواتم: RTM سيرفر ألعاب",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-lotr-rtm.path": {
+    "message": "{marketingSite}/lotr-return-to-moria-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-unturned.title": {
+    "message": "Unturned سيرفر ألعاب",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-unturned.path": {
+    "message": "{marketingSite}/unturned-3-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-vrising.title": {
+    "message": "V Rising سيرفر ألعاب",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-vrising.path": {
+    "message": "{marketingSite}/v-rising-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-valheim.title": {
+    "message": "Valheim سيرفر ألعاب",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-valheim.path": {
+    "message": "{marketingSite}/valheim-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-vein.title": {
+    "message": "Vein سيرفر ألعاب",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-vein.path": {
+    "message": "{marketingSite}/vein-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-veloren.title": {
+    "message": "Veloren سيرفر ألعاب",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-veloren.path": {
+    "message": "{marketingSite}/veloren-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-vintagestory.title": {
+    "message": "Vintage Story سيرفر ألعاب",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-vintagestory.path": {
+    "message": "{marketingSite}/vintage-story-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-voyagers-of-nera.title": {
+    "message": "مستكشفو Nera سيرفر ألعاب",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-voyagers-of-nera.path": {
+    "message": "{marketingSite}/voyagers-of-nera-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-wreckfest.title": {
+    "message": "Wreckfest سيرفر ألعاب",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-wreckfest.path": {
+    "message": "{marketingSite}/wreckfest-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-wreckfest2.title": {
+    "message": "Wreckfest 2 سيرفر ألعاب",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-wreckfest2.path": {
+    "message": "{marketingSite}/wreckfest-2-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-wurmunlimited.title": {
+    "message": "Wurm Unlimited سيرفر ألعاب",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-wurmunlimited.path": {
+    "message": "{marketingSite}/wurm-unlimited-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "inlinevoucher.title": {
+    "message": "خصم تأجير الخوادم 🏷️ {voucherValue} {voucherType}"
+  },
+  "inlinevoucher.description.with-products": {
+    "message": "اغتنم الفرصة وابدأ مشروعك الخاص اليوم! استخدم رمز الخصم للمنتجات المدرجة في هذا الدليل واحصل على خصم 50%. 😉"
+  },
+  "inlinevoucher.list-title.with-products": {
+    "message": "يمكن استخدام رمز الخصم هذا للمنتجات التالية على أساس التأجير:"
+  },
+  "inlinevoucher.description.without-products": {
+    "message": "جاهز لمشروعك الرائع القادم 😉"
+  },
+  "inlinevoucher.list-title.without-products": {
+    "message": "لماذا يجب أن تجربنا؟"
+  },
+  "inlinevoucher.list-reasons.first": {
+    "message": "حماية DDoS"
+  },
+  "inlinevoucher.list-reasons.second": {
+    "message": "متصل عبر الإنترنت خلال دقائق"
+  },
+  "inlinevoucher.list-reasons.third": {
+    "message": "واجهة ويب مخصصة"
+  },
+  "inlinevoucher.your-voucher": {
+    "message": "رمزك"
+  },
+  "voucherbox.cta": {
+    "message": "استئجار سيرفر"
+  },
+  "voucher.redeem": {
+    "message": "استرداد"
+  },
+  "accordion.search.placeholder": {
+    "message": "بحث...",
+    "description": "Placeholder text in the accordion search field"
+  },
+  "accordion.counter": {
+    "message": "{shown} من أصل {total} محتويات معروضة",
+    "description": "Amount of displayed vs. filtered accordion items"
+  },
+  "accordion.showMore": {
+    "message": "عرض المزيد",
+    "description": "Button to display additional accordion items"
+  },
+  "searchableItemList.all": {
+    "message": "الكل"
+  },
+  "searchableItemList.uncategorized": {
+    "message": "غير مصنف"
+  },
+  "searchableItemList.searchPlaceholder": {
+    "message": "بحث..."
+  },
+  "searchableItemList.showLess": {
+    "message": "عرض أقل"
+  },
+  "searchableItemList.showMore": {
+    "message": "عرض المزيد"
+  },
+  "searchableItemList.openWebsite": {
+    "message": "افتح الموقع"
+  },
+  "searchableItemList.counter": {
+    "message": "{shown} من أصل {total} إدخالات معروضة"
+  },
+  "searchableItemList.showMoreBtn": {
+    "message": "عرض المزيد"
+  },
+  "voucherbutton.success": {
+    "message": "يييه!"
+  },
+  "servicelist.introduction": {
+    "message": "تم إنشاء هذا الدليل باستخدام المنتجات التالية:"
+  },
+  "servicelist.note": {
+    "message": "(قد تختلف التفاصيل مع المنتجات من مزودين مختلفين ولكن المفاهيم الرئيسية تظل كما هي)"
+  },
+  "footer.cookieSettings": {
+    "message": "إعدادات الكوكيز"
+  },
+  "voucherbox.title": {
+    "message": "خصم التأجير"
+  },
+  "contributors.title": {
+    "message": "مساهم(ون) في الدليل"
+  },
+  "contributors.description": {
+    "message": "كن جزءًا من مجتمع ZAP-Hosting اليوم! انضم إلى {contributionLink} لمشاركة معرفتك وخبرتك من خلال إنتاج أدلة عالية الجودة ومحتوى إبداعي مع كسب مكافآت قيمة تصل إلى 130€. ابدأ اليوم واصنع الفرق! 🙂"
+  },
+  "theme.ErrorPageContent.title": {
+    "message": "تعطلت هذه الصفحة.",
+    "description": "The title of the fallback page when the page crashed"
+  },
+  "theme.BackToTopButton.buttonAriaLabel": {
+    "message": "ارجع إلى الأعلى",
+    "description": "The ARIA label for the back to top button"
+  },
+  "theme.blog.archive.title": {
+    "message": "أرشيف",
+    "description": "The page & hero title of the blog archive page"
+  },
+  "theme.blog.archive.description": {
+    "message": "الأرشيف",
+    "description": "The page & hero description of the blog archive page"
+  },
+  "theme.blog.paginator.navAriaLabel": {
+    "message": "تنقل صفحة قائمة المدونة",
+    "description": "The ARIA label for the blog pagination"
+  },
+  "theme.blog.paginator.newerEntries": {
+    "message": "إدخالات أحدث",
+    "description": "The label used to navigate to the newer blog posts page (previous page)"
+  },
+  "theme.blog.paginator.olderEntries": {
+    "message": "الإدخالات القديمة",
+    "description": "The label used to navigate to the older blog posts page (next page)"
+  },
+  "theme.blog.post.paginator.navAriaLabel": {
+    "message": "تنقل صفحة منشور المدونة",
+    "description": "The ARIA label for the blog posts pagination"
+  },
+  "theme.blog.post.paginator.newerPost": {
+    "message": "منشور أحدث",
+    "description": "The blog post button label to navigate to the newer/previous post"
+  },
+  "theme.blog.post.paginator.olderPost": {
+    "message": "منشور أقدم",
+    "description": "The blog post button label to navigate to the older/next post"
+  },
+  "theme.tags.tagsPageLink": {
+    "message": "عرض جميع العلامات",
+    "description": "The label of the link targeting the tag list page"
+  },
+  "theme.colorToggle.ariaLabel.mode.system": {
+    "message": "وضع النظام",
+    "description": "The name for the system color mode"
+  },
+  "theme.colorToggle.ariaLabel.mode.light": {
+    "message": "الوضع الفاتح",
+    "description": "The name for the light color mode"
+  },
+  "theme.colorToggle.ariaLabel.mode.dark": {
+    "message": "الوضع الداكن",
+    "description": "The name for the dark color mode"
+  },
+  "theme.colorToggle.ariaLabel": {
+    "message": "التبديل بين الوضع الداكن والوضع الفاتح (حالياً {mode})",
+    "description": "The ARIA label for the color mode toggle"
+  },
+  "theme.docs.breadcrumbs.navAriaLabel": {
+    "message": "مسار التنقل",
+    "description": "The ARIA label for the breadcrumbs"
+  },
+  "theme.docs.DocCard.categoryDescription.plurals": {
+    "message": "عنصر واحد|{count} عناصر",
+    "description": "The default description for a category card in the generated index about how many items this category includes"
+  },
+  "theme.docs.paginator.navAriaLabel": {
+    "message": "صفحات الوثائق",
+    "description": "The ARIA label for the docs pagination"
+  },
+  "theme.docs.paginator.previous": {
+    "message": "السابق",
+    "description": "The label used to navigate to the previous doc"
+  },
+  "theme.docs.paginator.next": {
+    "message": "التالي",
+    "description": "The label used to navigate to the next doc"
+  },
+  "theme.docs.tagDocListPageTitle.nDocsTagged": {
+    "message": "مستند واحد معنّون|{count} مستندات معنونة",
+    "description": "Pluralized label for \"{count} docs tagged\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+  },
+  "theme.docs.tagDocListPageTitle": {
+    "message": "{nDocsTagged} مع \"{tagName}\"",
+    "description": "The title of the page for a docs tag"
+  },
+  "theme.docs.versionBadge.label": {
+    "message": "الإصدار: {versionLabel}"
+  },
+  "theme.docs.versions.unreleasedVersionLabel": {
+    "message": "هذه وثائق غير منشورة لإصدار {siteTitle} {versionLabel}.",
+    "description": "The label used to tell the user that he's browsing an unreleased doc version"
+  },
+  "theme.docs.versions.unmaintainedVersionLabel": {
+    "message": "هذه وثائق لـ {siteTitle} {versionLabel}، والتي لم تعد تُدار بنشاط.",
+    "description": "The label used to tell the user that he's browsing an unmaintained doc version"
+  },
+  "theme.docs.versions.latestVersionSuggestionLabel": {
+    "message": "للحصول على الوثائق المحدثة، راجع {latestVersionLink} ({versionLabel}).",
+    "description": "The label used to tell the user to check the latest version"
+  },
+  "theme.docs.versions.latestVersionLinkLabel": {
+    "message": "الإصدار الأخير",
+    "description": "The label used for the latest version suggestion link label"
+  },
+  "theme.common.editThisPage": {
+    "message": "عدل هذه الصفحة",
+    "description": "The link label to edit the current page"
+  },
+  "theme.common.headingLinkTitle": {
+    "message": "رابط مباشر إلى {heading}",
+    "description": "Title for link to heading"
+  },
+  "theme.lastUpdated.atDate": {
+    "message": "في {date}",
+    "description": "The words used to describe on which date a page has been last updated"
+  },
+  "theme.lastUpdated.byUser": {
+    "message": "بواسطة {user}",
+    "description": "The words used to describe by who the page has been last updated"
+  },
+  "theme.lastUpdated.lastUpdatedAtBy": {
+    "message": "آخر تحديث {atDate} بواسطة {byUser}",
+    "description": "The sentence used to display when a page has been last updated, and by who"
+  },
+  "theme.NotFound.title": {
+    "message": "الصفحة غير موجودة",
+    "description": "The title of the 404 page"
+  },
+  "theme.navbar.mobileVersionsDropdown.label": {
+    "message": "الإصدارات",
+    "description": "The label for the navbar versions dropdown on mobile view"
+  },
+  "theme.tags.tagsListLabel": {
+    "message": "العلامات:",
+    "description": "The label alongside a tag list"
+  },
+  "theme.AnnouncementBar.closeButtonAriaLabel": {
+    "message": "إغلاق",
+    "description": "The ARIA label for close button of announcement bar"
+  },
+  "theme.admonition.caution": {
+    "message": "تحذير",
+    "description": "The default label used for the Caution admonition (:::caution)"
+  },
+  "theme.admonition.danger": {
+    "message": "خطر",
+    "description": "The default label used for the Danger admonition (:::danger)"
+  },
+  "theme.admonition.info": {
+    "message": "معلومات",
+    "description": "The default label used for the Info admonition (:::info)"
+  },
+  "theme.admonition.note": {
+    "message": "ملاحظة",
+    "description": "The default label used for the Note admonition (:::note)"
+  },
+  "theme.admonition.tip": {
+    "message": "نصيحة",
+    "description": "The default label used for the Tip admonition (:::tip)"
+  },
+  "theme.admonition.warning": {
+    "message": "تحذير",
+    "description": "The default label used for the Warning admonition (:::warning)"
+  },
+  "theme.blog.sidebar.navAriaLabel": {
+    "message": "تصفح المشاركات الحديثة في المدونة",
+    "description": "The ARIA label for recent posts in the blog sidebar"
+  },
+  "theme.DocSidebarItem.expandCategoryAriaLabel": {
+    "message": "توسيع فئة الشريط الجانبي '{label}'",
+    "description": "The ARIA label to expand the sidebar category"
+  },
+  "theme.DocSidebarItem.collapseCategoryAriaLabel": {
+    "message": "طي فئة الشريط الجانبي '{label}'",
+    "description": "The ARIA label to collapse the sidebar category"
+  },
+  "theme.IconExternalLink.ariaLabel": {
+    "message": "(يفتح في علامة تبويب جديدة)",
+    "description": "The ARIA label for the external link icon"
+  },
+  "theme.NavBar.navAriaLabel": {
+    "message": "الرئيسية",
+    "description": "The ARIA label for the main navigation"
+  },
+  "theme.NotFound.p1": {
+    "message": "لم نتمكن من العثور على ما كنت تبحث عنه.",
+    "description": "The first paragraph of the 404 page"
+  },
+  "theme.NotFound.p2": {
+    "message": "يرجى الاتصال بمالك الموقع الذي ربطك بالرابط الأصلي وإبلاغه بأن الرابط الخاص بهم معطل.",
+    "description": "The 2nd paragraph of the 404 page"
+  },
+  "theme.navbar.mobileLanguageDropdown.label": {
+    "message": "اللغات",
+    "description": "The label for the mobile language switcher dropdown"
+  },
+  "theme.TOCCollapsible.toggleButtonLabel": {
+    "message": "في هذه الصفحة",
+    "description": "The label used by the button on the collapsible TOC component"
+  },
+  "theme.blog.post.readingTime.plurals": {
+    "message": "قراءة دقيقة واحدة|قراءة {readingTime} دقيقة",
+    "description": "Pluralized label for \"{readingTime} min read\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+  },
+  "theme.CodeBlock.copy": {
+    "message": "نسخ",
+    "description": "The copy button label on code blocks"
+  },
+  "theme.CodeBlock.copied": {
+    "message": "تم النسخ",
+    "description": "The copied button label on code blocks"
+  },
+  "theme.CodeBlock.copyButtonAriaLabel": {
+    "message": "انسخ الكود إلى الحافظة",
+    "description": "The ARIA label for copy code blocks button"
+  },
+  "theme.CodeBlock.wordWrapToggle": {
+    "message": "تبديل التفاف الكلمات",
+    "description": "The title attribute for toggle word wrapping button of code block lines"
+  },
+  "theme.blog.post.readMore": {
+    "message": "اقرأ المزيد",
+    "description": "The label used in blog post item excerpts to link to full blog posts"
+  },
+  "theme.blog.post.readMoreLabel": {
+    "message": "اقرأ المزيد عن {title}",
+    "description": "The ARIA label for the link to full blog posts from excerpts"
+  },
+  "theme.docs.breadcrumbs.home": {
+    "message": "الصفحة الرئيسية",
+    "description": "The ARIA label for the home page in the breadcrumbs"
+  },
+  "theme.docs.sidebar.collapseButtonTitle": {
+    "message": "طي الشريط الجانبي",
+    "description": "The title attribute for collapse button of doc sidebar"
+  },
+  "theme.docs.sidebar.collapseButtonAriaLabel": {
+    "message": "طي الشريط الجانبي",
+    "description": "The title attribute for collapse button of doc sidebar"
+  },
+  "theme.docs.sidebar.navAriaLabel": {
+    "message": "شريط جانبي للوثائق",
+    "description": "The ARIA label for the sidebar navigation"
+  },
+  "theme.docs.sidebar.closeSidebarButtonAriaLabel": {
+    "message": "إغلاق شريط التنقل",
+    "description": "The ARIA label for close button of mobile sidebar"
+  },
+  "theme.navbar.mobileSidebarSecondaryMenu.backButtonLabel": {
+    "message": "← العودة إلى القائمة الرئيسية",
+    "description": "The label of the back button to return to main menu, inside the mobile navbar sidebar secondary menu (notably used to display the docs sidebar)"
+  },
+  "theme.docs.sidebar.toggleSidebarButtonAriaLabel": {
+    "message": "تبديل شريط التنقل",
+    "description": "The ARIA label for hamburger menu button of mobile navigation"
+  },
+  "theme.navbar.mobileDropdown.collapseButton.expandAriaLabel": {
+    "message": "قم بتوسيع القائمة المنسدلة",
+    "description": "The ARIA label of the button to expand the mobile dropdown navbar item"
+  },
+  "theme.navbar.mobileDropdown.collapseButton.collapseAriaLabel": {
+    "message": "طي قائمة الخيارات المنسدلة",
+    "description": "The ARIA label of the button to collapse the mobile dropdown navbar item"
+  },
+  "theme.docs.sidebar.expandButtonTitle": {
+    "message": "توسيع الشريط الجانبي",
+    "description": "The ARIA label and title attribute for expand button of doc sidebar"
+  },
+  "theme.docs.sidebar.expandButtonAriaLabel": {
+    "message": "توسيع الشريط الجانبي",
+    "description": "The ARIA label and title attribute for expand button of doc sidebar"
+  },
+  "theme.blog.post.plurals": {
+    "message": "مشاركة واحدة|{count} مشاركات",
+    "description": "Pluralized label for \"{count} posts\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+  },
+  "theme.blog.tagTitle": {
+    "message": "{nPosts} معنونة بـ \"{tagName}\"",
+    "description": "The title of the page for a blog tag"
+  },
+  "theme.blog.author.pageTitle": {
+    "message": "{authorName} - {nPosts}",
+    "description": "The title of the page for a blog author"
+  },
+  "theme.blog.authorsList.pageTitle": {
+    "message": "المؤلفون",
+    "description": "The title of the authors page"
+  },
+  "theme.blog.authorsList.viewAll": {
+    "message": "عرض جميع المؤلفين",
+    "description": "The label of the link targeting the blog authors page"
+  },
+  "theme.blog.author.noPosts": {
+    "message": "هذا المؤلف لم يكتب أي منشورات بعد.",
+    "description": "The text for authors with 0 blog post"
+  },
+  "theme.contentVisibility.unlistedBanner.title": {
+    "message": "صفحة غير مدرجة",
+    "description": "The unlisted content banner title"
+  },
+  "theme.contentVisibility.unlistedBanner.message": {
+    "message": "هذه الصفحة غير مدرجة. محركات البحث لن تقوم بفهرستها، ولن يتمكن من الوصول إليها سوى المستخدمون الذين لديهم رابط مباشر.",
+    "description": "The unlisted content banner message"
+  },
+  "theme.contentVisibility.draftBanner.title": {
+    "message": "مسودة الصفحة",
+    "description": "The draft content banner title"
+  },
+  "theme.contentVisibility.draftBanner.message": {
+    "message": "هذه الصفحة مسودة. ستكون مرئية فقط في بيئة التطوير وستُستبعد من بناء الإنتاج.",
+    "description": "The draft content banner message"
+  },
+  "theme.ErrorPageContent.tryAgain": {
+    "message": "حاول مرة أخرى",
+    "description": "The label of the button to try again rendering when the React error boundary captures an error"
+  },
+  "theme.common.skipToMainContent": {
+    "message": "تخطي إلى المحتوى الرئيسي",
+    "description": "The skip to content label used for accessibility, allowing to rapidly navigate to main content with keyboard tab/enter navigation"
+  },
+  "theme.tags.tagsPageTitle": {
+    "message": "العلامات",
+    "description": "The title of the tag list page"
+  }
+}

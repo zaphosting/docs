@@ -1,7 +1,7 @@
 ---
 id: ddracenetwork-firststeps-dashboard
 title: "DDraceNetwork: Dashboard overview"
-description: Information about the dashboard of an DDraceNetwork server from ZAP-Hosting - ZAP-Hosting.com Documentation
+description: "Discover how to efficiently manage your DDraceNetwork server with a clear overview of features and options → Learn more now"
 sidebar_label: Dashboard
 services:
   - gameserver-ddracenetwork

@@ -1,7 +1,7 @@
 ---
 id: veloren-firststeps-dashboard
 title: "Veloren: Dashboard overview"
-description: Information about the dashboard of an Veloren server from ZAP-Hosting - ZAP-Hosting.com Documentation
+description: "Discover how to efficiently manage your Veloren server with a clear overview of features and options → Learn more now"
 sidebar_label: Dashboard
 services:
   - gameserver-veloren

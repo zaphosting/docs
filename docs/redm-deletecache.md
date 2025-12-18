@@ -1,7 +1,7 @@
 ---
 id: redm-deletecache
 title: "RedM: Empty Cache"
-description: Information on how to clear the cache of your RedM Server from ZAP-Hosting - ZAP-Hosting.com documentation
+description: "Discover how clearing your RedM server cache improves performance and resolves errors for a smoother gaming experience → Learn more now"
 sidebar_label: Delete Cache
 services:
   - gameserver-redm

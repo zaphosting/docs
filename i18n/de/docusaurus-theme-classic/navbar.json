@@ -1,6 +1,6 @@
 {
   "title": {
-    "message": "ZAP-Hosting Docs",
+    "message": "ZAP-Hosting Anleitung",
     "description": "The title in the navbar"
   },
   "logo.alt": {
@@ -28,11 +28,11 @@
     "description": "Navbar item with label Voicebot & Voiceserver"
   },
   "item.label.vRootserver": {
-    "message": "vRootserver",
+    "message": "VRootserver",
     "description": "Navbar item with label vRootserver"
   },
   "item.label.VPS": {
-    "message": "VPS",
+    "message": "VServer",
     "description": "Navbar item with label VPS"
   }
 }

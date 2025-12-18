@@ -1,7 +1,7 @@
 ---
 id: dedicated-linux-python
 title: "Dedicated Server: Installation of Python"
-description: Information on how to install and run python on your Linux server from ZAP-Hosting - ZAP-Hosting.com documentation
+description: "Learn how to install and update the Python runtime on various Linux distros to ensure a secure and up-to-date environment → Learn more now"
 sidebar_label: Install Python
 services:
   - dedicated
@@ -13,7 +13,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 This guide provides steps for the installation of the Python runtime and venv. These commands must be executed via SSH, if you don't know how to connect to your server via SSH, please use our [Initial access (SSH)](vserver-linux-ssh.md) guide to learn more.
 
-<InlineVoucher />
+
 
 ## Preparation
 
@@ -134,4 +134,4 @@ To run commands like `pip install` inside your venv you need to activate it by r
 
 When you have finished working inside the venv you can go back by running the `deactivate` command.
 
-<InlineVoucher />
+

@@ -1,7 +1,7 @@
 ---
 id: domain-dashboard
 title: "Domain: Dashboard Übersicht"
-description: Informationen über das Dashboard eines Domain-Produkts von ZAP-Hosting - ZAP-Hosting.com Dokumentation
+description: "Entdecke, wie du deine Domain effizient verwaltest und alle wichtigen Funktionen für eine optimale Konfiguration und Kontrolle nutzt → Jetzt mehr erfahren"
 sidebar_label: Dashboard
 services:
   - domain
@@ -12,30 +12,30 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
 
-Du bist an einer **Domain** interessiert oder besitzt bereits eine, doch dir fehlt noch ein umfassender Überblick über die Verwaltung und die Auffindbarkeit aller notwendigen Optionen? Gerade zu Beginn kann dies eine Herausforderung darstellen. Aber keine Sorge, im Folgenden bieten wir dir eine ausführliche Einführung zur Verwaltung deiner Domain, damit du den optimalen Durchblick hast.
+Du interessierst dich für eine **Domain** oder besitzt bereits eine, hast aber noch keinen umfassenden Überblick über die Verwaltung und findest nicht alle nötigen Optionen? Gerade am Anfang kann das ganz schön herausfordernd sein. Keine Sorge, wir geben dir weiter unten eine ausführliche Einführung in die Verwaltung deines Services, damit du den besten Überblick bekommst.
 
-Nachdem du diese Anleitung durchgegangen bist, wirst du problemlos in der Lage sein, deine Domain effizient zu verwalten und alle erforderlichen Optionen sowie Features zügig und unkompliziert zu finden. Hier erhältst du einen strukturierten Überblick, der dir Schritt für Schritt hilft, dich mit der Domainverwaltung vertraut zu machen und dein Wissen gezielt zu erweitern. So kannst du sicherstellen, dass deine **Domain** optimal auf deine Bedürfnisse abgestimmt ist und du das Beste aus den vorhandenen Möglichkeiten herausholst.
+Nach dem Durcharbeiten dieser Anleitung kannst du deine Domain ganz easy effizient verwalten und findest alle wichtigen Optionen und Features schnell und unkompliziert. Hier bekommst du eine strukturierte Übersicht, die dir Schritt für Schritt hilft, dich mit der Domain-Verwaltung vertraut zu machen und dein Wissen gezielt zu erweitern. So stellst du sicher, dass deine **Domain** optimal auf deine Bedürfnisse eingestellt ist und du das Maximum aus den verfügbaren Optionen rausholst.
 
-
+<InlineVoucher />
 
 ## Produktverwaltung
 
-In dem Abschnitt **Produkt Administration** wirst du alle notwendigen Seiten finden, die für die Verwaltung deiner Domain notwendig sind. Die Möglichkeiten, wie du deine Domain verwalten kannst, werden dir im folgenden detailliert aufgelistet.
+Im Bereich **Produktverwaltung** findest du alle wichtigen Seiten zur Verwaltung deiner Domain. Die Optionen zur Verwaltung deiner Domain sind unten detailliert aufgelistet.
 
 
 
 ### Dashboard
 
-Das **Dashboard** deiner Domain ist das Herzstück der Verwaltung. Hier werden alle grundlegenden und wesentlichen Informationen zu deiner Domain übersichtlich dargestellt. Dazu gehören z.B. Informationen über die Domain, Nameserver Registrierung/Ablaufdatum und der AUTH-Code. Darüber hinaus kannst du über das Dashboard auch unsere einfachen DNS-Modi ([EasyDNS](domain-easydns.md), [ProfiDNS](domain-profidns.md), [ExpertDNS](domain-expertdns)) verwenden. 
+Das **Dashboard** deiner Domain ist das Herzstück der Verwaltung. Hier werden alle grundlegenden und wichtigen Infos zu deiner Domain übersichtlich dargestellt. Dazu gehören zum Beispiel Infos zur Domain selbst, Nameserver-Registrierung/-Ablaufdaten und der AUTH-Code. Außerdem kannst du über das Dashboard auch unsere einfachen DNS-Modi ([EasyDNS](domain-easydns.md), [ProfiDNS](domain-profidns.md), [ExpertDNS](domain-expertdns)) nutzen.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/xQww62Noja46TED/preview)
 
 
 
 
-### Ereignislog
+### Ereignisprotokoll
 
-Die **Ereignislog** bietet dir einen umfassenden Überblick über alle Aktivitäten im Zusammenhang mit der Domainverwaltung. Hier kannst du jederzeit verfolgen, wann Änderungen an den DNS-Einträgen oder Nameservern vorgenommen wurden. 
+Das **Ereignisprotokoll** gibt dir einen umfassenden Überblick über alle Aktivitäten rund um die Domain-Verwaltung. Hier kannst du jederzeit nachvollziehen, wann Änderungen an den DNS-Einträgen oder Nameservern vorgenommen wurden.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/2Tfirza5nkm6jzr/preview)
 
@@ -44,36 +44,36 @@ Die **Ereignislog** bietet dir einen umfassenden Überblick über alle Aktivitä
 
 ## Einstellungen
 
-Im Bereich **Einstellungen** findest du alle notwendigen Seiten für die Konfiguration deiner Domain. Die verfügbaren Optionen für die Konfiguration der Domain sind unten im Detail aufgeführt.
+Im Bereich **Einstellungen** findest du alle wichtigen Seiten zur Konfiguration deiner Domain. Die verfügbaren Optionen zur Konfiguration deiner Domain sind unten detailliert aufgelistet.
 
 
 
 ### DNS-Verwaltung
 
-Verwalte deine DNS-Einträge in der DNS-Verwaltung. Hier kannst du deine benötigten [Domain Records](domain-records.md) erstellen und nach deinen Anforderungen konfigurieren. 
+Verwalte deine DNS-Einträge in der DNS-Verwaltung. Hier kannst du die benötigten [Domain-Einträge](domain-records.md) anlegen und nach deinen Anforderungen konfigurieren.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/eSFEN9sLkKfcHPb/preview)
 
-### Handle Management
+### Handle-Verwaltung
 
-Das Domain-Handle wird verwendet, um die Kontaktdaten zu definieren, die bei der Registrierung Ihrer Domain gespeichert werden. Dazu gehören Informationen wie der Name, die Adresse, die E-Mail-Adresse und die Telefonnummer des Domaininhabers.
+Mit dem Domain-Handle legst du die Kontaktdaten fest, die bei der Registrierung deiner Domain hinterlegt werden. Dazu gehören Infos wie Name des Domaininhabers, Adresse, E-Mail-Adresse und Telefonnummer.
 
-Diese Informationen werden benötigt, um die Domain eindeutig einer Person oder Organisation zuzuordnen. Du kannst hier dein bestehendes Handle auswählen oder ein neues erstellen, wenn du andere Kontaktdaten verwenden möchtest.
+Diese Angaben sind notwendig, um die Domain eindeutig einer Person oder Organisation zuzuordnen. Hier kannst du deinen bestehenden Handle auswählen oder einen neuen anlegen, wenn du andere Kontaktdaten verwenden möchtest.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/DWKmQqPQ3B2DwD9/preview)
 
 
 
-## Weiterführende Links
-In dem Abschnitt **Weiterführende Links** findest du weitere Links, die für dein Produkt relevant sind. 
+## Weitere Links
+Im Bereich **Weitere Links** findest du zusätzliche Links, die für dein Produkt relevant sind.
 
-### Fragen und Antworten
-Der Bereich **Fragen und Antworten** bietet einen Überblick über die am häufigsten gestellten Fragen unserer Kunden. Hier findest du hilfreiche Antworten und detaillierte Informationen zu verschiedenen Themen, um dir schnell und effizient zu helfen.
+### Häufig gestellte Fragen
+Der Bereich **Häufig gestellte Fragen** bietet dir eine Übersicht der am häufigsten gestellten Fragen unserer Kunden. Hier findest du hilfreiche Antworten und detaillierte Infos zu verschiedenen Themen, die dir schnell und effizient weiterhelfen.
 
 ### ZAP-Hosting Dokumentation
+Wir bieten umfangreiche Dokumentationen zu unseren Produkten, die als Wissensdatenbank für die häufigsten Fragen und Anliegen dienen. Dort findest du verschiedene Anleitungen und Hilfen zu unterschiedlichen Themen, die dich bei der Nutzung und Verwaltung deines Produkts unterstützen.
 
-Wir bieten eine umfangreiche Dokumentation zu unseren Produkten an, die als Wissensdatenbank für die am häufigsten gestellten Fragen und Anliegen dient. Dort findest du zahlreiche Anleitungen und Hilfestellungen zu verschiedenen Themen, die dir bei der Nutzung und Verwaltung deines Produktes unterstützen.
+![](https://screensaver01.zap-hosting.com/index.php/s/n48ct6aZBrNq7eT/preview)
 
-![](https://screensaver01.zap-hosting.com/index.php/s/a9ccomokEwYfPbo/preview)
 
 <InlineVoucher />

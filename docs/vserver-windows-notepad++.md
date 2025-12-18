@@ -1,7 +1,7 @@
 ---
 id: vserver-windows-notepad++
 title: "VPS: Setup Notepad++ on Windows"
-description: "Information on how to setup Notepad++ on your Windows VPS from ZAP-Hosting - ZAP-Hosting.com documentation"
+description: "Discover how to use Notepad++ for efficient coding with customizable features and fast performance → Learn more now"
 sidebar_label: Install Notepad++
 services:
 - vserver

@@ -1,7 +1,7 @@
 ---
 id: spaceengineers-becomeadmin
 title: "Space Engineers: Become a server admin"
-description: Information on how to become an admin on your Space Engineers server from ZAP-Hosting - ZAP-Hosting.com documentation
+description: "Discover how to assign administrator permissions for full server control and seamless in-game management → Learn more now"
 sidebar_label: Become admin
 services:
   - gameserver-spaceengineers

@@ -1,7 +1,7 @@
 ---
 id: dedicated-linux-php
 title: 'Dedicated Server: Installation of PHP'
-description: Information on how to install and run PHP on your Linux Dedicated Server from ZAP-Hosting.com - ZAP-Hosting.com documentation
+description: "Discover how to install PHP on your Linux server for web development and optimize your setup with essential extensions → Learn more now"
 sidebar_label: Install PHP
 services:
   - dedicated
@@ -13,7 +13,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 PHP is a popular general-purpose programming language with significant usage in web development. In this guide, we cover the process of installing PHP to your server.
 
-<InlineVoucher />
+
 
 ## Preparation
 
@@ -111,4 +111,4 @@ sudo apt install [php_extension] [...]
 
 You have successfully installed PHP to your Linux server. For further questions or assistance, please don't hesitate to contact our support team, which is available daily to assist you! 🙂
 
-<InlineVoucher />
+

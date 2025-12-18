@@ -1,7 +1,7 @@
 ---
 id: dedicated-windows-troubleshooting-restore-access
 title: "Dedicated Server: Restore access"
-description: Learn how to restore access to your lost Windows Administrator account on a dedicated server from ZAP-Hosting  - ZAP-Hosting.com documentation
+description: "Discover how to regain access to your Windows Dedicated Server after a password lockout and minimize downtime → Learn more now"
 sidebar_label: Restore access
 services:
   - dedicated
@@ -13,7 +13,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 It can happen quickly... You try to log into your Windows Server, but your password is no longer accepted or you simply forgot it. Suddenly, you're locked out and access to important data and applications is no longer possible. This situation is obviously frustrating, but it’s far from the end. By following the steps outlined below, you can regain access to your Windows Dedicated Server and continue your work with minimal disruption.
 
-<InlineVoucher />
+
 
 ## Preparation
 Resetting access from the administrator account is done by using a Windows ISO file. Accordingly, the same ISO file is used that was originally used for the installation of the Windows Server operating system. 
@@ -82,4 +82,4 @@ shutdown -r -t 0
 
 Once you have completed the process, you should have successfully set a new password for the administrator user. You can now use this to log in again via the remote desktop connection. 
 
-<InlineVoucher />
+

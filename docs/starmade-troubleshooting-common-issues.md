@@ -1,7 +1,7 @@
 ---
 id: starmade-troubleshooting-common-issues
 title: "Starmade: Common issues"
-description: "Information on how to resolve common issues on a Starmade server from ZAP-Hosting - ZAP-Hosting.com documentation"
+description: "Discover how to troubleshoot common Starmade server issues and maintain smooth gameplay for your community → Learn more now"
 sidebar_label: Common issues
 services:
   - gameserver-starmade

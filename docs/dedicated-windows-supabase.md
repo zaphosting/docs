@@ -1,7 +1,7 @@
 ---
 id: dedicated-windows-supabase
 title: "Dedicated Server: Setup Supabase on Windows"
-description: Information on how to setup Supabase on your Windows Dedicated Server from ZAP-Hosting - ZAP-Hosting.com documentation
+description: "Discover how to set up and configure Supabase for a reliable open-source Postgres platform with authentication and realtime features → Learn more now"
 sidebar_label: Install Supabase
 services:
   - dedicated
@@ -19,7 +19,7 @@ Supabase is an open-source Postgres development platform that provides a full Po
 
 Considering about hosting this service yourself? We’ll walk you through every step on how to set it up and configure it, along with everything you need to keep in mind.
 
-<InlineVoucher />
+
 
 
 
@@ -152,4 +152,3 @@ Got specific questions that aren't covered here? For further questions or assist
 
 
 
-<InlineVoucher />

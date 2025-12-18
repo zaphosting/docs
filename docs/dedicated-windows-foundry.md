@@ -1,7 +1,7 @@
 ---
 id: dedicated-windows-foundry
 title: "Dedicated Server: Foundry Dedicated Server Windows Setup"
-description: Information about setting up a Foundry Dedicated Server on a Windows Dedicated Server from ZAP-Hosting - ZAP-Hosting.com documentation
+description: "Discover how to set up a Foundry Dedicated Server on your Windows VPS or dedicated server quickly and efficiently → Learn more now"
 sidebar_label: Foundry
 services:
   - dedicated
@@ -16,7 +16,7 @@ Do you have a Windows VPS or dedicated server and you want to install the Foundr
 
 <YouTube videoId="bRsZNqKsghA" imageSrc="https://screensaver01.zap-hosting.com/index.php/s/e7inNNGMd5Wwcsp/preview" title="How To Setup Foundry Dedicated Server on Windows VPS!" description="Feel like you understand better when you see things in action? We’ve got you! Dive into our video that breaks it all down for you. Whether you're in a rush or just prefer to soak up information in the most engaging way possible!"/>
 
-<InlineVoucher />
+
 
 ## Preparation
 
@@ -127,4 +127,4 @@ If you wish your server to be available in the server list, please check out our
 
 You have successfully installed Foundry on your Windows Dedicated Server.
 
-<InlineVoucher />
+

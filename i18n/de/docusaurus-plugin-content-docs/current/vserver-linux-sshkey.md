@@ -1,7 +1,7 @@
 ---
 id: vserver-linux-sshkey
-title: "vServer: SSH Key für Linux Server generieren und verwenden"
-description: Informationen wie du einen SSH Key für deinen Linux vServer von ZAP-Hosting generieren kannst und wie du den Key verwendest - ZAP-Hosting.com Dokumentation
+title: "vServer: SSH-Keys für Linux-Server erstellen und nutzen"
+description: "Entdecke, wie du SSH-Keys sicher für deinen Linux-Server generierst und verwaltest, um die Verbindungssicherheit und Kontrolle zu verbessern → Jetzt mehr erfahren"
 sidebar_label: SSH Key
 services:
   - vserver
@@ -9,105 +9,90 @@ services:
 
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
-## SSH Key generieren
+## SSH-Key generieren
 
-Für eine Verbindung, die deutlich sicherer ist, wie eine herkömmliche Verbindung mit dem SSH Password, wird die Nutzung von SSH Keys empfohlen.
-Hierzu im Dashboard von dem Linux Server den Reiter "**Zugang & Sicherheit**" öffnen.
+Für eine deutlich sicherere Verbindung als bei der herkömmlichen SSH-Passwort-Verbindung empfehlen wir die Nutzung von SSH-Keys. Öffne dafür den Tab "**Zugriff & Sicherheit**" im Dashboard deines Linux-Servers.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/7a6NbYMSLAn2DDw/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/wJCtHY44dYiYoqX/preview)
 
-Bei "**Zugang & Sicherheit**" kann nun mit dem "**SSH-Key generieren**" Button in Key generiert werden.
-Sobald dieser gedrückt wird, öffnet sich ein Popup und ein Key zufällig erstellter Key wird direkt auf den PC heruntergeladen.
-Damit der Key zu dem Server hinzugefügt wird, muss der "**Key hinzufügen**" Button betätigt werden.
+Unter "**Zugriff & Sicherheit**" kannst du jetzt mit dem Button "**SSH-Key generieren**" einen Key erstellen. Sobald du diesen klickst, öffnet sich ein Popup und der zufällig generierte Key wird direkt auf deinen PC heruntergeladen. Damit der Key auf dem Server hinterlegt wird, musst du den Button "**Key hinzufügen**" drücken.
 
 :::info
-Bei Linux vServern wird der Key direkt hinzugefügt
-
+Bei Linux VPS wird der Key direkt hinzugefügt. Bei Linux Root Servern muss der Server neu gestartet werden, damit die Änderungen wirksam werden.
 :::
 
 <InlineVoucher />
 
-![](https://screensaver01.zap-hosting.com/index.php/s/wYgLT8aZmmijnPC/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/GsER3sNYWYj8t7y/preview)
 
-Sollten weitere Keys benötigt werden, kann im gleichen Fenster der "**Key generieren**" Button betätigt werden.
-Mit "**Keyname**" kann man einen Namen für den Key setzen, welcher im ZAP-Hosting Panel angezeigt werden soll, wird für eine deutlich bessere Übersicht empfohlen.
+Wenn du weitere Keys brauchst, kannst du im selben Fenster den Button "**Key generieren**" erneut drücken.  
+Mit "**Key-Name**" kannst du deinem Key einen Namen geben, der im ZAP-Hosting Panel angezeigt wird. Das sorgt für mehr Übersicht.
 
-Sofern alle gewünschten Keys generiert und hinzugefügt wurden, werden diese nun bei "**Zugang & Sicherheit**" angezeigt.
+Sind alle gewünschten Keys generiert und hinzugefügt, werden sie unter "**Zugriff & Sicherheit**" angezeigt.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/ijroyJ6jK7R8FkK/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/5yjACdnpyiw6E97/preview)
 
-Solltest du einen eigenen Public Key haben, welchen du vorher extern und nicht über unser Panel generiert hast, kannst du diesen über einen Klick auf das "**+**" Icon einbinden.
+Falls du einen eigenen öffentlichen Key hast, den du extern generiert hast und nicht über unser Panel, kannst du ihn über das "**+**"-Icon integrieren.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/YXAoP7RPA7fdPws/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/H75CCTe5tTonn8y/preview)
 
-Es öffnet sich dann ein leeres Panel, in welchem du deinen eigenen Public Key einfügen kannst. 
-Der Key wird dann mit Betätigen der "**Key hinzufügen**" Funktion zum Server hinzugefügt und in unserem Panel angezeigt.
+Es öffnet sich ein leeres Feld, in das du deinen öffentlichen Key einfügen kannst. Mit "**Key hinzufügen**" wird der Key auf dem Server hinterlegt und im Panel angezeigt.
 
-## OpenSSH zu PuTTY-Private-Key mit PuTTYGen
+## OpenSSH zu PuTTY Private Key mit PuTTYGen konvertieren
 
-Die SSH Keys, die von unserem Panel erstellt werden, befinden sich im OpenSSH Format.
-Damit man diese bei PuTTY nutzen kann, müssen diese Keys vorher zu dem PuTTY-Private-Key Format konvertiert werden.
-Nutzen kann man dafür die von PuTTY automatisch mit installierte "**PuTTYGen**" Software.
+Die SSH-Keys, die unser Panel erstellt, sind im OpenSSH-Format. Um diese mit PuTTY nutzen zu können, müssen sie zuerst ins PuTTY Private Key-Format konvertiert werden. Dafür nutzt du die Software "**PuTTYGen**", die automatisch mit PuTTY installiert wird.
 
-Die PuTTYGen Anwendung befindet sich in dem PuTTY Stammverzeichnis.
-Standardmäßig wäre der PuTTY Ordner wie im Beispielbild zu sehen bei "** C: > Program Files > PuTTY **"
+Die PuTTYGen-Anwendung findest du im PuTTY-Installationsordner. Standardmäßig wäre das im Beispielbild unter "**C:>Program Files>PuTTY**".
 
-Die PuTTYGen Anwendung starten und dort dann auf "**File**" -> "**Load private key**"
+Starte PuTTYGen und klicke dann auf "**Datei**" -> "**Privaten Schlüssel laden**".
 
-![](https://screensaver01.zap-hosting.com/index.php/s/gEf7RNEFSM8SF7Y/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/KNeiG7eWpWateDz/preview)
 
-Nun muss die vom ZAP-Hosting generierte Datei geöffnet werden.
-Dafür musst du in das Standardverzeichnis, wo alle deine Downloads abgelegt werden.
+Jetzt musst du die von ZAP-Hosting generierte Datei öffnen. Navigiere dazu in das Standard-Download-Verzeichnis.
 
 :::info
-**Wichtig:** stelle sicher, dass du den Filter wie im Bild zu sehen auf "**ALL Files**" stehen hast, da die vom System erstellte .pri Datei nicht zu sehen ist.
+**Wichtig:** Achte darauf, dass der Filter auf "**Alle Dateien**" steht, wie im Bild gezeigt, da die .pri-Datei sonst nicht angezeigt wird.
 :::
 
-![](https://screensaver01.zap-hosting.com/index.php/s/D4gDMZfnc3T3bBk/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/WQfWN264pJPKWYX/preview)
 
-Sobald diese geladen wurde, kann man jetzt mit den verschiedenen Feldern sowohl Kommentare als auch ein Passwort für die Keys festlegen.
-Um das Passwort zu setzen, muss dieses Wunschpasswort sowohl in "**Key passphrase**" als auch "**Confirm passphrase**" eingetragen werden.
-*Hinweis:* Man kann diese Felder auch leer lassen und den Key ohne ein Passwort erstellen, dies wäre aber etwas unsicherer und demnach nicht empfohlen. 
-Sobald alle Wunscheinträge gesetzt, kann nun mit dem Button "**Save private key**" ein für PuTTY kompatibler Key gespeichert werden.
+Sobald die Datei geladen ist, kannst du Kommentare und ein Passwort für den Key festlegen. Um ein Passwort zu setzen, gib es sowohl bei "**Key-Passphrase**" als auch bei "**Passphrase bestätigen**" ein.  
+*Hinweis:* Du kannst die Felder auch leer lassen und den Key ohne Passwort erstellen, das ist aber weniger sicher und daher nicht empfohlen. Wenn alles passt, speichere den PuTTY-kompatiblen Key mit "**Privaten Schlüssel speichern**".
 
-![](https://screensaver01.zap-hosting.com/index.php/s/noFCwZWoj5PE2Cf/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/N4dKc86M95yYbtK/preview)
 
-Diese .ppk Datei benennen und so abspeichern, dass diese später wiedergefunden werden kann.
+Gib der .ppk-Datei einen Namen und speichere sie, damit du sie später wiederfindest.
 
-## SSH Key Verbindung
+## SSH-Key Verbindung
 
-Damit der Key für die Verbindungen genutzt werden kann, muss dieser bei Putty erst verknüpft werden.
-Dafür im PuTTY Panel auf "**SSH**" - "**Auth**" - "**Browse...**".
+Damit der Key für Verbindungen genutzt werden kann, muss er zuerst in PuTTY eingebunden werden. Klicke dazu auf "**SSH**" - "**Auth**" - "**Durchsuchen...**".
 
-![](https://screensaver01.zap-hosting.com/index.php/s/WfroQtpinWjeKYe/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/3BJ7NaG2AemGSZt/preview)
 
-Den gerade über PuTTYGen erstellten Key heraussuchen und dort "**Öffnen**".
+Wähle den gerade mit PuTTYGen erstellten Key aus und klicke auf "**Öffnen**".
 
-Damit man diese Schritte nicht bei jeder Verbindung wiederholen muss, wäre es empfohlen dies in der Session zu speichern.
-Dafür auf "**Session**" - "**Default Settings**" - "**Save**", sowie es im Screenshot zu sehen wäre.
+Damit du das nicht bei jeder Verbindung wiederholen musst, empfiehlt es sich, die Einstellungen in der Session zu speichern. Klicke dazu auf "**Session**" - "**Standard-Einstellungen**" - "**Speichern**", wie im Screenshot zu sehen.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/qwLYtan4oNrpBYr/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/zENfY7DBZk85mMa/preview)
 
-Nun kann bei Putty der Login zu dem Server durchgeführt werden.
+Jetzt kannst du dich mit PuTTY auf deinem Server einloggen. Der in PuTTYGen eingetragene "**Key-Kommentar**" wird dort angezeigt.
 
-## Login mit Passwort deaktivieren
+## Passwort-Login deaktivieren
 
-Die SSH Keys wurden erstellt, um die Sicherheit zu erhöhen. Sofern der Login mit dem SSH Passwort aber noch möglich ist, hat sich an der Sicherheit vom Server noch nichts getan.
-Aus diesem Grund muss jetzt der SSH Login via Passwort deaktiviert werden.
-Zwischen Linux vServer und Linux Rootservern, gibt es einen Unterschied wie dieser Login deaktiviert werden muss.
-Insofern der Login für deinen Server korrekt deaktiviert wurde, ist die Verbindung ausschließlich für Nutzer mit deinen erstellten SSH Key möglich.
+SSH-Keys wurden erstellt, um die Sicherheit zu erhöhen. Wenn der Login per SSH-Passwort noch möglich ist, hat sich an der Sicherheit des Servers nichts geändert. Deshalb muss der SSH-Login via Passwort jetzt deaktiviert werden. Dabei gibt es Unterschiede zwischen Linux VPS und Linux Root Servern. Wenn der Login korrekt deaktiviert ist, können sich nur noch Nutzer mit deinem SSH-Key verbinden.
 
-### Linux vServer
+### Linux VPS
 
-Bei Linux vServer befindet sich direkt neben dem "**SSH Key generieren**" Button der "**Login mit Passwort deaktivieren**" Button, sofern dieser gedrückt wurde, ist der SSH Login mit dem Passwort nicht mehr möglich.
+Das Passwort-Login kannst du ganz einfach im Tab Zugriff & Sicherheit deaktivieren.  
+Drücke den Button **Passwort-Login deaktivieren** neben dem Button SSH-Key generieren.  
+Ist es deaktiviert, ist der Login per Passwort nicht mehr möglich.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/eT8jeirpdWEnRB2/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/jd9NiypwxgpeMGe/preview)
 
-Die Anzeige bei "**SSH-Login via Passwort**" würde sich dann auch auf "**inaktiv**" stellen.
+Die Anzeige bei "**SSH-Login via Passwort**" steht dann auf "**Inaktiv**".
 
+## Fazit
 
-## Abschluss
-
-Glückwunsch, du hast den SSH Key erfolgreich angelegt und konfiguriert! Solltest du noch weitere Fragen oder Probleme haben, dann wende dich gerne an unser Support-Team, welches dir jeden Tag zur Verfügung steht! 
+Glückwunsch, du hast deinen SSH-Key erfolgreich eingerichtet und konfiguriert! Falls du noch Fragen oder Probleme hast, steht dir unser Support-Team täglich zur Verfügung und hilft dir gerne weiter!
 
 <InlineVoucher />

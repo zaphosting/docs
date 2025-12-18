@@ -1,7 +1,7 @@
 ---
 id: palworld-rcon
 title: "Palworld: RCON"
-description: "Learn how to use RCON for Palworld - ZAP-Hosting Documentation"
+description: "Discover how to remotely manage Palworld servers for flexible control and monitoring without joining the game → Learn more now"
 sidebar_label: RCON
 services:
   - gameserver-palworld

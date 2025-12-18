@@ -1,7 +1,7 @@
 ---
 id: valheim-plugins-bepinex
 title: "Valheim: Installing plugins on server (BepInEx)"
-description: Information on how to install plugins on your Valheim server using BepInEx (Valheim Plus Server) from ZAP-Hosting - ZAP-Hosting.com documentation
+description: "Discover how to enhance your Valheim gameplay with BepInEx plugins and unlock new modding possibilities → Learn more now"
 sidebar_label: Install plugins (BepInEx)
 services:
   - gameserver-valheim

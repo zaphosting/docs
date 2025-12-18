@@ -1,7 +1,7 @@
 ---
 id: source-metamod-installation
-title: Source Spiele Source Mod und Meta Mod auf Server installieren
-description: Informationen, wie du Source Mod und Meta Mod auf deinen Source Gameserver von ZAP-Hosting installieren kannst - ZAP-Hosting.com Dokumentation
+title: Source Mod und Meta Mod auf dem Server installieren
+description: "Entdecke, wie du deinen Source Engine Gameserver mit Source- und Metamod für erweiterte Anpassungen und Administration auf das nächste Level bringst → Jetzt mehr erfahren"
 sidebar_label: Installation
 services:
   - gameserver
@@ -9,96 +9,96 @@ services:
 
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
-## Was ist SM und MM überhaupt?
+## Was sind SM und MM eigentlich?
 
-Source- und Metamod sind zwei Half Life 2 Erweiterungen, welches es ermöglichen einen Source-Engine Gameserver (z.B. CS:S CS:GO, DoD:S, TF2, etc.) noch mehr als üblich zu individualisieren. Dazu gehört zum Beispiel die Nutzung von Plugins und eine erweitere Administration deines Servers.
+Source- und Metamod sind zwei Erweiterungen für Half Life 2, die es ermöglichen, einen Source Engine Gameserver (z.B. CS: S, CS: GO, DoD: S, TF2, etc.) noch individueller als sonst zu gestalten. Dazu gehört zum Beispiel die Nutzung von Plugins und eine erweiterte Administration deines Servers.
 
 <InlineVoucher />
 
 ## SM / MM Installation
 
-### Download der Dateien
+### Dateien herunterladen
 
-Zunächst einmal werden die eigentlichen Erweiterungen benötigt. Hierbei ist es wichtig immer die neusten Versionen (**stable**) zu benutzen, damit diese auch noch voll funktionsfähig bzw. kompatibel sind. Die neusten Versionen können unter den folgenden Webseiten heruntergeladen werden: 
+Zuerst brauchst du die eigentlichen Erweiterungen. Wichtig ist, immer die neuesten Versionen (**stable**) zu verwenden, damit sie voll funktionsfähig und kompatibel bleiben. Die aktuellsten Versionen kannst du hier herunterladen:
 
 - [Metamod](https://www.sourcemm.net/downloads.php?branch=stable)
 - [Sourcemod](https://www.sourcemod.net/downloads.php?branch=stable)
-
-![](https://screensaver01.zap-hosting.com/index.php/s/tdQc7L7Sm7Qbboz/preview)
+- 
+![](https://screensaver01.zap-hosting.com/index.php/s/zb6LsPbnAYJSHap/preview)
 
 :::info
-Source-Engine Gameserver laufen bei ZAP-Hosting in der Regel unter einem Linux Betriebssystem. Dementsprechend wird die Linux Version der Erweiterungen benötigt.
+Source Engine Gameserver bei ZAP-Hosting laufen in der Regel unter Linux. Deshalb benötigst du die Linux-Version der Erweiterungen.
 :::
 
-### Entpacken der Dateien
+### Dateien entpacken
 
-Beim Herunterladen der beiden Erweiterungen erhält man zunächst zwei gepackte Dateien (sourcemod-X.X.X-gitXXXX-linux.tar / mmsource-X.X.X-gitXXX-linux.tar), welche vor dem Hochladen noch entpackt werden müssen. Dafür kann man entweder Winrar, 7zip oder ähnliche Programme benutzen.
+Nach dem Download der beiden Erweiterungen erhältst du zwei gepackte Dateien (sourcemod-XXX-gitXXXX-linux.tar / mmsource-XXX-gitXXX-linux.tar), die vor dem Hochladen entpackt werden müssen. Dafür kannst du Winrar, 7zip oder ähnliche Programme nutzen.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/55cynQbCX8s6N24/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/fw8r376kqKr5rgL/preview)
 
-Aus den entpackten Dateien erhält man im Anschluss addons und cfg den Ordner:
+Aus den entpackten Dateien bekommst du die Ordner addons und cfg:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/Wgx5arjjRYoiqJT/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/oJazFjaDWCjt9oP/preview)
 
-### Hochladen der Dateien
+### Dateien hochladen
 
-Wenn die oben genannten Schritte abgeschlossen sind, dann geht es an die eigentliche Installation. Hierfür müssen wir uns per FTP mit dem Server verbinden, damit wir die Ordner der Erweiterungen hochladen können.
+Wenn die obigen Schritte erledigt sind, startet die eigentliche Installation. Dafür verbinden wir uns per FTP mit dem Server, um die Ordner der Erweiterungen hochzuladen.
 
-Die Dateien müssen in dem Hauptverzeichnis hochgeladen werden. Das Hauptverzeichnis befindet sich unter der folgenden Ordnerstruktur:
+Die Dateien müssen in das Hauptverzeichnis hochgeladen werden. Das Hauptverzeichnis findest du je nach Spiel unter folgender Ordnerstruktur:
 
-| Spiel | Verzeichnis  |
+| Spiel | Ordner  |
 | :-----: |:-------------:| 
-| CS: Clobal Offensive | csgo |
+| CS: Global Offensive | csgo |
 | CS: Source | cstrike |
 | Team Fortress 2 | tf2 |
 | L4D2 | left4dead2 |
 
-![](https://screensaver01.zap-hosting.com/index.php/s/pMfx7xfCQ8TZ3H5/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/g384YWYRN8TaPRx/preview)
 
-Im Anschluss sollte die Ordnerstruktur dann wie folgt aussehen:
+Die Ordnerstruktur sollte danach so aussehen:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/7Cd4rwkTGJKH7m4/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/JTwTwzeXQdZrYY7/preview)
 
 ## SM / MM Installation überprüfen
 
-Zum Überprüfen, ob die Erweiterungen fehlerfrei installiert wurden, gibt es zwei Möglichkeiten:
+Es gibt zwei Möglichkeiten, um zu checken, ob die Erweiterungen korrekt installiert wurden:
 
-1. Spiel Konsole
+1. Spielkonsole
 2. Remote Console (HLSW - RCON)
 
-### Versionsabfrage via Spiel
+### Version abfragen per Befehl
 
-Über die folgenden Schritte können wir die Version für den eigenen Server prüfen
+So kannst du die Version auf deinem Server prüfen:
 
-1. Im Spiel mit dem Server verbinden
-2. Die Konsole öffnen und folgenden Befehl eingeben:
-
-```
-sm version
-meta version
-```
-
-Als Resultat erhalten wir dann folgende Ausgabe: 
-
-![](https://screensaver01.zap-hosting.com/index.php/s/j8k6Rz8S475zQqw/preview)
-
-### Versionsabfrage via RCON
-
-![](https://screensaver01.zap-hosting.com/index.php/s/adH3FXGPxPfWHP8/preview)
-
-Über die folgenden Schritte können wir die Version für den eigenen Server prüfen
-
-1. IP-Adresse oben unter IP/Port eingeben
-2. Unten auf Rcon Konfiguration gehen
-3. Unter Rcon Passwort dein Rcon Passwort angeben
-4. Die Konsole aufrufen und folgenden Befehl eingeben:
+1. Verbinde dich im Spiel mit dem Server
+2. Öffne die Konsole und gib folgenden Befehl ein:
 
 ```
 sm version
 meta version
 ```
 
-Als Resultat erhalten wir dann folgende Ausgabe: 
+Das Ergebnis sieht dann so aus:
+
+![](https://screensaver01.zap-hosting.com/index.php/s/qdNywS6PLdJkrnP/preview)
+
+### 📖 Version abfragen per RCON
+
+![](https://screensaver01.zap-hosting.com/index.php/s/jZZ6FFxksJgcCSf/preview)
+
+So kannst du die Version über RCON prüfen:
+
+1. Gib oben unter IP / Port die IP-Adresse ein
+2. Scrolle runter zu Rcon Configuration
+3. Trage dein Rcon-Passwort unter Rcon password ein
+4. Öffne die Konsole und gib folgenden Befehl ein:
+
+```
+sm version
+meta version
+```
+
+Das Ergebnis sieht dann so aus:
 
 ```
 SourceMod Version Information:

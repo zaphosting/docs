@@ -1,84 +1,79 @@
 ---
 id: account-vouchers
-title: "Gutscheine & Codes: Spare mit Gutscheinen"
-description: Informationen, wie du Gutscheine gegen Geld oder eine Preisreduktion für Server einlösen kannst - ZAP-Hosting.com Dokumentation
+title: "Gutscheine & Coupon-Codes: Spar Geld mit Gutscheinen"
+description: "Entdecke, wie du Gutschein- und Rabattcodes einlöst, um ZAP Coins zu erhalten oder bei Serverbestellungen zu sparen → Jetzt mehr erfahren"
 sidebar_label: Gutscheine & Codes
 ---
 
-
-
 ## Einführung
+Hast du einen Gutscheincode gefunden, den du als Guthaben für deine Cashbox (ZAP Coins) einlösen oder als Rabatt für einen deiner Server nutzen möchtest? Schau dir diese Anleitung an, um zu verstehen, wie du den passenden Rabattcode einlöst.
 
-Du hast einen Gutscheincode gefunden, den du als Geld in deine cashbox einlösen möchtest (ZAP Coins) einlösen oder als Rabatt für einen deiner Server verwenden möchtest? Schauen dir diese Anleitung an, um zu verstehen, wie du den entsprechenden Rabattcode einlösen kannst.
+Zuerst solltest du dich auf unserer Website einloggen oder registrieren, um Codes verwenden zu können. Das geht super schnell und easy über das Login-Panel oben.
 
-Zunächst solltest du dich auf unserer Website anmelden oder registrieren, um die Codes verwenden zu können. Dies kann sehr schnell und einfach über das obere Login-Panel gemacht werden.
+![](https://github.com/zaphosting/docs/assets/42719082/f81bcb46-2129-47c9-ab98-90b746e01fd0)
 
-![](https://github.com/zaphosting/docs/assets/42719082/b146be91-69d9-444a-b1f5-3aed09ae866b)
 
-Sobald du eingeloggt bist, landest du automatisch in deinem Webinterface. Um einen Code verwenden zu können, musst du zuerst herausfinden, welche Art von Code du einlösen möchtest.
+
+Sobald du eingeloggt bist, landest du automatisch in deinem Webinterface. Um einen Code nutzen zu können, solltest du zuerst herausfinden, welche Art von Code du einlösen möchtest.
 
 Es gibt zwei verschiedene Arten von Gutscheincodes:
-
-- Codes, die dein ZAP-Guthaben erhöhen (**Guthabencodes**)
+- Codes, die deine ZAP Coins erhöhen (**Gutscheincodes**)
 - Codes, die den Preis einer Bestellung reduzieren (**Rabattcodes**)
 
+## Gutschein ZAP Coin Codes
+Gutschein ZAP Coin Codes kannst du ganz easy über dein Webinterface einlösen. Geh einfach auf deine **Cashbox**, indem du oben im Webinterface auf den Text „ZAP Coins“ klickst.
 
+![](https://github.com/zaphosting/docs/assets/42719082/e436f9d9-ad85-482a-90fa-03fe6cd6836e)
 
-## Guthabencodes
+Auf deiner **Cashbox**-Seite scrollst du runter zum blauen Button **Gutschein einlösen**. Klick den Button, um ein Menü zu öffnen.
 
-Gutscheincodes können ganz einfach über das Webinterface eingelöst werden. Gehe dazu einfach zu deiner **Cashbox**, indem du oben in deinem Webinterface auf die "ZAP Coins" klickst.
-
-![](https://screensaver01.zap-hosting.com/index.php/s/AoASqdZ7AbyEQtQ/preview)
-
-Sobald du dich auf der Seite **Cashbox** befindest, scrolle nach unten bis zum blauen Button **Gutschein einlösen**. Durch Drücken des Buttons öffnet sich ein Menü.
-
-![](https://github.com/zaphosting/docs/assets/42719082/a115cb35-5560-4d76-b0b0-71703e96c895)
-
-Hier kannst du den Gutscheincode eingeben, den du erhalten hast. Sobald du fertig bist, drückst du auf den grünen Button **Gutschein einlösen**, um ihn abzuschicken.
-
-![](https://github.com/zaphosting/docs/assets/42719082/c891f0e6-0328-4d44-bd7e-5f39314e8c7e)
+![](https://github.com/zaphosting/docs/assets/42719082/cee125ff-06b1-460b-a4d9-8c71157c50c4)
 
 
 
-Wenn der Gutschein gültig und korrekt ist, erhältst du eine Erfolgsbestätigung, die dir mitteilt, dass es geklappt hat.
+Hier kannst du den Gutscheincode eingeben, den du erhalten hast. Wenn du fertig bist, drück den grünen Button **Gutschein einlösen**, um ihn abzuschicken.
 
-Wenn ein Code nicht funktioniert, kann es sein, dass er bereits abgelaufen ist, bereits verwendet wurde oder dass der Code kein Guthaben Gutscheincode ist.
+![](https://github.com/zaphosting/docs/assets/42719082/0daa73de-00a6-4079-9e93-c12d9df8f222)
+
+
+
+
+Wenn der Gutschein gültig und korrekt ist, bekommst du eine Erfolgsmeldung, die dir bestätigt, dass es geklappt hat.
+
+Falls der Code nicht funktioniert, kann das daran liegen, dass er abgelaufen ist, schon benutzt wurde oder kein Gutschein-Guthabencode ist.
 
 :::tip
-Du kannst auch bis zum Ende der **Cashbox** scrollen, um zu sehen, welche Gutscheincodes du innerhalb eines bestimmten Zeitraums eingelöst hast.
+Du kannst auch ganz unten in der **Cashbox** nachschauen, welche Gutscheincodes du in welchem Zeitraum schon eingelöst hast.
 :::
 
 
 
 ## Rabattcodes
+Rabattcodes funktionieren ähnlich wie Guthabencodes, werden aber an anderer Stelle im Webinterface genutzt. Sie reduzieren die Kosten des Pakets, das du während des Bestellprozesses buchen möchtest.
 
-Rabattcodes funktionieren ähnlich wie Guthabencodes, werden aber an anderer Stelle im Webinterface verwendet. Sie reduzieren die Kosten für das Paket, das du während des Bestellvorgangs buchen möchtest.
+Such dir zuerst das Produkt aus, das du bestellen willst, und konfiguriere es nach deinen Wünschen in unserem Server-Konfigurator.
 
-Suche zunächst das Produkt, das du bestellen möchtest, auf unserer Website und konfiguriere es in unserem Server-Konfigurator nach deinen Wünschen.
-
-![](https://github.com/zaphosting/docs/assets/42719082/8eb8e9e8-c930-4d10-b488-74b0002212cb)
-
-Sobald alles korrekt konfiguriert ist, kannst du deinen Code während des Bestellvorgangs verwenden. Scrollen nach unten, wähle deine Zahlungsmethode und klicke einfach auf den Text **Gutschein einlösen** unterhalb der Bestellsumme.
-
-![](https://github.com/zaphosting/docs/assets/42719082/7db5d875-8eb1-47c6-ab79-eb1b91857b83)
-
-![](https://github.com/zaphosting/docs/assets/42719082/68d5bab1-23c5-489b-9a06-e2916f8a1740)
+![](https://github.com/zaphosting/docs/assets/42719082/93fce0a9-1ff6-4878-9625-6581361324ef)
 
 
 
-Sobald du den Gutschein verwendest, wird der neue, aktualisierte Preis angezeigt. Wenn du jedoch eine Fehlermeldung erhältst, kann dies mehrere Gründe haben. Es könnte sein, dass der Code sein maximales Nutzungslimit erreicht hat, dass der Code abgelaufen ist oder dass der Code nur für bestimmte Produkte oder Zahlungsarten verwendet werden kann. Die Fehlermeldung sollte das Problem erklären.
+Wenn alles richtig eingestellt ist, kannst du deinen Code im Bestellprozess verwenden. Scroll runter bis ganz unten, wähle deine Zahlungsmethode aus und klick einfach auf den Text **Gutschein einlösen** unter der Bestellsumme.
+
+![](https://github.com/zaphosting/docs/assets/42719082/8e27371d-a9db-4dae-bc52-6861fcbc5598)
+
+![](https://github.com/zaphosting/docs/assets/42719082/6502ef6a-16bf-4066-a25d-58d312caa0f1)
+
+
+
+Sobald du den Gutschein benutzt hast, siehst du den neuen, reduzierten Preis. Falls eine Fehlermeldung erscheint, kann das verschiedene Gründe haben: Der Code hat sein Maximal-Limit erreicht, ist abgelaufen oder gilt nur für bestimmte Produkte oder Zahlungsmethoden. Die Fehlermeldung erklärt dir das Problem.
 
 :::info
 Es gibt zwei verschiedene Rabattcodes: 
-
-- Codes, die die Kosten für den ersten gebuchten Zeitraum reduzieren
-- Codes, die dauerhaft die Kosten während der Laufzeit reduzieren
+- Codes, die die Kosten der ersten gebuchten Periode reduzieren
+- Codes, die die Kosten dauerhaft während der Laufzeit senken
 :::
 
+## Gratisaktionen und Codes abstauben
+Wir lieben es, unserer ZAP-Community etwas zurückzugeben! Deshalb gibt’s viele Möglichkeiten, Rabatte und Gratisaktionen abzustauben – darunter Geld für deine Cashbox, gelegentlich kostenlose Server und mehr!
 
-
-## Werbegeschenke und Codes erhalten
-
-Wir lieben es, unserer ZAP-Community etwas zurückzugeben. Deshalb gibt es viele Möglichkeiten, Rabatte und Werbegeschenke zu erhalten, darunter Geld für deine cashbox, gelegentliche kostenlose Server und mehr!
-
-Um mehr zu erfahren, empfehlen wir dir, unsere großartige [ZAP-Hosting Community](community-info.md) Anleitung zu lesen, in dem die vielen Möglichkeiten beschrieben werden, wie du Gutscheincodes und Werbegeschenke über unsere verschiedenen sozialen Plattformen erhalten kannst (und sogar durch das Schreiben von Anleitungen für genau diese ZAP-Docs, die du gerade liest :) 💚
+Mehr dazu erfährst du in unserer mega [ZAP-Hosting Community](community-info.md) Anleitung, die dir zeigt, wie du auf unseren Social-Media-Kanälen und sogar durch das Schreiben von Guides für genau diese ZAP-Docs, die du gerade liest, an Gutscheincodes und Gratisaktionen kommst :) 💚

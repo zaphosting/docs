@@ -1,7 +1,7 @@
 ---
 id: dedicated-windows-notepad++
 title: "Dedicated Server: Setup Notepad++ on Windows"
-description: "Information on how to setup Notepad++ on your Windows Dedicated Server from ZAP-Hosting - ZAP-Hosting.com documentation"
+description: "Discover how to optimize your coding workflow with Notepad++ for fast, customizable, and lightweight text editing → Learn more now"
 sidebar_label: Install Notepad++
 services:
 - dedicated
@@ -21,7 +21,7 @@ Considering about hosting this service yourself? We’ll walk you through every 
 
 
 
-<InlineVoucher />
+
 
 
 
@@ -75,4 +75,3 @@ Got specific questions that aren't covered here? For further questions or assist
 
 
 
-<InlineVoucher />

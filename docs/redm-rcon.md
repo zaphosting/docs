@@ -1,7 +1,7 @@
 ---
 id: redm-rcon
 title: "RedM: RCON"
-description: "Learn how to use RCON for RedM - ZAP-Hosting Documentation"
+description: "Discover how to remotely manage RedM game servers securely and efficiently without being in-game → Learn more now"
 sidebar_label: RCON
 services:
   - gameserver-redm

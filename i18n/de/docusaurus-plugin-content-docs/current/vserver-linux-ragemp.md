@@ -1,7 +1,7 @@
 ---
 id: vserver-linux-ragemp
 title: "vServer: RageMP Dedicated Server Linux Setup"
-description: Informationen zur Einrichtung eines RageMP Dedicated Servers auf einem Linux vServer von ZAP-Hosting – ZAP-Hosting.com-Dokumentation
+description: "Entdecke, wie du einen RageMP Dedicated Server auf deinem Linux VPS für nahtloses Multiplayer-Gaming einrichtest → Jetzt mehr erfahren"
 sidebar_label: RageMP
 services:
   - vserver
@@ -10,83 +10,82 @@ services:
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
-
-Hast du einen Linux vServer und möchtest den RageMP Dedicated Server Service darauf installieren? Dann bist du hier richtig. In dieser Anleitung erklären wir dir Schritt für Schritt, wie du diesen Service auf deinem Linux-Server installierst. In den Beispielen verwenden wir Ubuntu, aber der Prozess sollte bei anderen Distributionen sehr ähnlich sein.
+Du hast einen Linux VPS und möchtest den RageMP Dedicated Server darauf installieren? Dann bist du hier genau richtig. In dieser Anleitung erklären wir dir Schritt für Schritt, wie du diesen Service auf deinem Linux-Server einrichtest. Wir verwenden Ubuntu in den Beispielen, aber der Prozess ist bei anderen Distributionen ähnlich.
 
 :::tip
-Wusstest du, dass du unser **ZAP GS/TS3 Interface** direkt auf deinem vServer installieren kannst? Damit kannst du mit nur wenigen Klicks Gameserver-Dienste einrichten, die direkt in dein ZAP-Hosting-Dashboard integriert sind! Erfahre mehr über das [GS/TS3 Interface](vserver-linux-gs-interface.md).
+Wusstest du, dass du unser **ZAP GS/TS3 Interface** direkt auf deinem VPS installieren kannst? Damit richtest du Gameserver-Services mit direkter Integration in dein ZAP-Hosting Dashboard in nur wenigen Klicks ein! Erfahre mehr über das [GS/TS3 Interface](vserver-linux-gs-interface.md).
 :::
 
 <InlineVoucher />
 
 ## Vorbereitung
 
-Verbinde dich zunächst über SSH mit deinem vServer. Verwende unseren [Erstzugriff (SSH)](vserver-linux-ssh.md), wenn du dabei Hilfe benötigst.
+Verbinde dich zunächst per SSH mit deinem VPS. Falls du Hilfe brauchst, schau dir unsere [SSH Initial Access](vserver-linux-ssh.md) Anleitung an.
 
-### Benutzer erstellen
+### Benutzer anlegen
 
-Wir empfehlen dringend, einen separaten Benutzer zu erstellen, auf dem alle deine dedizierten Spielserverdienste ausgeführt werden. Die Ausführung auf dem Root-Benutzer wird, wie bei den meisten Dingen, aus verschiedenen Gründen nicht empfohlen. Wenn du bereits einen Benutzer hast, fahre mit den Installationsschritten fort.
+Wir empfehlen dringend, einen separaten Benutzer anzulegen, unter dem alle deine Dedicated Gameserver-Services laufen. Den Root-User zu verwenden, ist aus verschiedenen Gründen nicht ratsam. Falls du schon einen Benutzer hast, kannst du direkt mit der Installation weitermachen.
 
-Verwende den folgenden Befehl, um einen Benutzer namens `gameservers` mit einem optionalen Passwort deiner Wahl zu erstellen.
+Nutze folgenden Befehl, um einen Benutzer namens `gameservers` mit einem optionalen Passwort deiner Wahl anzulegen.
 
 ```
 sudo useradd -m gameservers
 sudo passwd gameservers # Optionales Passwort
 ```
 
-Sobald du auf deinen Server zugegriffen hast und einen Benutzer bereit hast, fahre mit den Installationsschritten fort.
+Sobald du Zugriff auf deinen Server hast und ein Benutzer bereitsteht, geht’s weiter mit der Installation.
 
 ## Installation
 
-Melde dich zunächst als Benutzer `gameservers` an und wechsle zum Stammverzeichnis des Benutzers `home/gameservers`, um die Dinge organisiert zu halten.
+Melde dich als `gameservers` Benutzer an und wechsle in das Home-Verzeichnis, um alles ordentlich zu halten.
 ```
 sudo -u gameservers -s
 cd ~
 ```
 
-Um die Dinge organisiert zu halten, verwende den folgenden Befehl, um einen neuen Ordner für deinen RageMP-Server zu erstellen und öffne ihn.
+Erstelle einen neuen Ordner für deinen RageMP Server und öffne ihn.
 ```
 mkdir RageMP-Server && cd RageMP-Server
 ```
 
-Jetzt musst du die neueste Version von der RageMP-Website herunterladen. Verwende den folgenden Befehl, um sie direkt herunterzuladen.
+Jetzt musst du die neueste Version von der RageMP-Webseite herunterladen. Nutze dazu diesen Befehl:
 ```
 wget https://cdn.rage.mp/updater/prerelease/server-files/linux_x64.tar.gz
 ```
 
-Dadurch wird die `.zip`-Datei an den aktuellen Speicherort heruntergeladen, der sich in deinem neuen Ordner `RageMP-Server` befinden sollte. Fahre mit dem folgenden Befehl fort, um die Dateien im Ordner zu entpacken und zu extrahieren.
+Das `.zip`-Archiv wird in deinem aktuellen Verzeichnis, also im neuen `RageMP-Server` Ordner, gespeichert. Entpacke die Dateien mit:
 ```
 tar -xvzf linux_x64.tar.gz
 ```
 
-Deine Dateien sollten nun im Ordner **ragemp-srv** verfügbar sein. Rufe ihn mit `cd ragemp-srv` auf. Verwende `ls`, um den Inhalt des Ordners jederzeit anzuzeigen. Der Server ist nun bereit. Fahre mit dem folgenden Abschnitt fort, um die Parameter zu konfigurieren.
+Deine Dateien findest du jetzt im Ordner **ragemp-srv**. Wechsle dorthin mit `cd ragemp-srv`. Mit `ls` kannst du jederzeit den Inhalt anzeigen lassen. Der Server ist jetzt bereit, im nächsten Abschnitt geht’s an die Konfiguration.
 
 ## Konfiguration
 
-Zu diesem Zeitpunkt hast du die Einrichtung deines RageMP-Servers abgeschlossen. Du kannst weitere Serverkonfigurationen über eine Konfigurationsdatei vornehmen, die sich im Verzeichnis deines Servers befindet.
+Bis hierhin hast du die Grundinstallation deines RageMP Servers abgeschlossen. Weitere Einstellungen kannst du über eine Konfigurationsdatei im Serververzeichnis vornehmen.
 
 :::tip
-Möglicherweise musst du den Server mindestens einmal ausführen, bevor die Konfigurationsdateien erstellt werden. Dies kannst du tun, indem du die Shell-Datei `/home/gameservers/RageMP-Server/ragemp-srv/ragemp-server` ausführst. Drücke anschließend `CTRL+C`, um den Server zu schließen.
+Eventuell musst du den Server mindestens einmal starten, damit die Konfigurationsdateien erstellt werden. Starte ihn dazu mit der Shell-Datei: `/home/gameservers/RageMP-Server/ragemp-srv/ragemp-server`. Mit `CTRL+C` kannst du den Server wieder stoppen.
 :::
 
-Du kannst die Kernkonfigurationsparameter bearbeiten, indem du die **conf.json**-Konfigurationsdatei öffnest.
+Die wichtigsten Einstellungen findest du in der **conf.json** Datei, die du so öffnest:
 ```
 nano /home/gameservers/RageMP-Server/ragemp-srv/conf.json
 ```
 
-## Starten und Verbinden mit deinem Server
+## Server starten & verbinden
 
-Jetzt ist es an der Zeit, deinen Server zu starten. Gehe zum Hauptverzeichnis des Spiels und führe die **rage-mp-server**-Shell-Datei aus.
+Jetzt geht’s ans Eingemachte: Starte deinen Server, indem du ins Hauptverzeichnis wechselst und die Shell-Datei ausführst:
 ```
 /home/gameservers/RageMP-Server/ragemp-srv/ragemp-server
 ```
 
-In deiner Eingabeaufforderung sollten nun Protokolle angezeigt werden, einschließlich Netzwerkprotokollen, was darauf hinweist, dass der Startvorgang erfolgreich war. Wenn alles wie erwartet abläuft, ist dein Server über Direct Connect erreichbar und in der Serverliste sichtbar. Alternativ kannst du dich direkt über: `[deine_ip_address]:22005` verbinden.
+Im Terminal solltest du jetzt Logs sehen, inklusive Netzwerk-Logs – das zeigt, dass der Server erfolgreich gestartet ist. Wenn alles läuft, kannst du dich per Direct Connect verbinden oder deinen Server in der Serverliste finden. Alternativ verbindest du dich direkt über: `[deine_ip_adresse]:22005`.
 
-## Abschluss
+## Fazit
 
-Herzlichen Glückwunsch, du hast den RageMP-Server erfolgreich auf deinem vServer installiert und konfiguriert! Als nächsten Schritt empfehlen wir dir einen Blick in unsere Anleitung [Linux Dienst einrichten](vserver-linux-create-gameservice.md), in der du deinen neuen dedizierten Gameserver als Dienst einrichten kannst. Dies bietet verschiedene Vorteile, wie z. B. den automatischen Start des Servers beim Hochfahren, automatische Server-Updates, einfache Verwaltung und Zugriff auf Logs und vieles mehr!
+Glückwunsch, du hast deinen RageMP Server erfolgreich auf deinem VPS installiert und konfiguriert! Als nächstes empfehlen wir dir, unsere [Setup Linux Service](vserver-linux-create-gameservice.md) Anleitung anzuschauen. Dort erfährst du, wie du deinen Dedicated Gameserver als Service einrichtest – mit Vorteilen wie automatischem Start beim Booten, automatischen Updates, einfacher Verwaltung und Zugriff auf Logs und vieles mehr!
 
-Wenn du weitere Fragen oder Probleme hast, wende dich bitte an unser Support-Team, das dir jeden Tag zur Verfügung steht!
+Falls du noch Fragen hast oder Probleme auftreten, steht dir unser Support-Team täglich zur Seite!
 
 <InlineVoucher />

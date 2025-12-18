@@ -1,7 +1,7 @@
 ---
 id: contribution-blogs-guidelines
 title: Blog Guidelines
-description: Guidelines for the Blogs section of the ZAP-Hosting Contribution Program - ZAP-Hosting.com documentation
+description: "Discover how to create high-quality, consistent blog posts that engage readers and enhance your writing skills → Learn more now"
 sidebar_label: Guidelines
 ---
 
@@ -11,10 +11,10 @@ In order to ensure that all ZAP-Hosting Blog Posts are consistent in quality and
 
 Our blog contribution guidelines can be split into a few major sections, which are:
 
-- [Structure](#structure)
-- [Style](#style)
-- [Formatting](#formatting)
-- [Terminology](#terminology)
+- Structure
+- Style
+- Formatting
+- Terminology
 
 ## Structure
 

@@ -1,7 +1,7 @@
 ---
 id: mountandblade-troubleshooting-common-issues
 title: "Mount & Blade: Common issues"
-description: "Information on how to resolve common issues on a Mount & Blade server from ZAP-Hosting - ZAP-Hosting.com documentation"
+description: "Discover how to troubleshoot and resolve common Mount & Blade server issues for a smooth gaming experience → Learn more now"
 sidebar_label: Common issues
 services:
   - gameserver-mountandblade

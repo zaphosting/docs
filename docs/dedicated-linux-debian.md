@@ -1,7 +1,7 @@
 ---
 id: dedicated-linux-debian
 title: "Dedicated Server: Installation of Debian"
-description: Information about installing Debian operating system on your dedicated server from ZAP-Hosting - ZAP-Hosting.com documentation
+description: "Learn how to install and configure Debian OS on your dedicated server for optimal performance and reliability → Learn more now"
 sidebar_label: Install Debian
 services:
   - dedicated
@@ -19,7 +19,7 @@ The structure of the guide is based on the use of the Debian 10 operating system
 
 :::
 
-<InlineVoucher />
+
 
 ## Preparation
 
@@ -220,4 +220,4 @@ If you have any further questions or problems, our support is happy to assist yo
 
 Congratulations, you have successfully installed the Debian operating system on your dedicated server. For further questions or assistance, please don't hesitate to contact our support team, which is available daily to assist you! 🙂
 
-<InlineVoucher />
+

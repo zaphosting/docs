@@ -1,7 +1,7 @@
 ---
 id: dedicated-freebsd
 title: "Dedicated Server: Installation of FreeBSD"
-description: Information about installing the FreeBSD operating system on your dedicated server from ZAP-Hosting - ZAP-Hosting.com documentation
+description: "Discover how to install and configure FreeBSD on your dedicated server for optimal performance and reliability → Learn more now"
 sidebar_label: Install FreeBSD
 services:
   - dedicated
@@ -19,7 +19,7 @@ The structure of the guide is based on the use of the FreeBSD 13.0 operating sys
 
 :::
 
-<InlineVoucher />
+
 
 ## Preparation
 
@@ -144,4 +144,4 @@ Your server should have an active internet connection now
 
 Congratulations, you have successfully installed the FreeBSD operating system on your dedicated server. For further questions or assistance, please don't hesitate to contact our support team, which is available daily to assist you! 🙂
 
-<InlineVoucher />
+

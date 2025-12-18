@@ -1,7 +1,7 @@
 ---
 id: dedicated-linux-ftp
 title: "Dedicated Server: FTP service does not work - Troubleshooting"
-description: Information on how to fix FTP problems on your Dedicated Server from ZAP-Hosting - ZAP-Hosting.com documentation
+description: "Understand how to troubleshoot FTP access issues on your VPS to restore server connectivity and manage your game or Teamspeak server effectively → Learn more no"
 sidebar_label: FTP Service isn't working
 services:
   - dedicated
@@ -17,7 +17,7 @@ Attention: The following steps only work on your own VPS if the ZAP web interfac
 
 If the created server cannot be reached via FTP, the FTP service (ProFTPD) is not active in most cases. In rare cases this can also be due to an incorrect config or an occupied port, i.e. FTP port 21 is used / occupied by another program.
 
-<InlineVoucher />
+
 
 ## Check the FTP problem more closely:
 
@@ -67,4 +67,4 @@ You should now be able to establish a connection and view your data.
 ### Problem Solved
 ✅ The FTP service (ProFTPD) is now started/active again and nothing stands in the way of data exchange!
 
-<InlineVoucher />
+

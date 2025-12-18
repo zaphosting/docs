@@ -1,7 +1,7 @@
 ---
 id: insurgency-troubleshooting-common-issues
 title: "Insurgency: Sandstorm: Common issues"
-description: "Information on how to resolve common issues on a Insurgency: Sandstorm server from ZAP-Hosting - ZAP-Hosting.com documentation"
+description: "Discover how to troubleshoot and resolve common Insurgency: Sandstorm server issues for a smooth gaming experience → Learn more now"
 sidebar_label: Common issues
 services:
   - gameserver-insurgency

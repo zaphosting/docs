@@ -1,7 +1,7 @@
 ---
 id: vserver-windows-arksurvivalascended
 title: "VPS: ARK Survival Ascended Dedicated Server Windows Setup"
-description: Information about setting up an ARK Survival Ascended Dedicated Server on a Windows VPS from ZAP-Hosting - ZAP-Hosting.com documentation
+description: "Discover how to set up an ARK: Survival Ascended Dedicated Server on a Windows VPS for smooth gameplay and server control → Learn more now"
 sidebar_label: ARK Survival Ascended
 services:
   - vserver
@@ -65,7 +65,7 @@ Ensure that you have the "Display file extensions" option enabled in your File E
 
 Open the file using a text editor (such as Notepad++) and add the following contents within it:
 ```
-start ArkAscendedServer.exe TheIsland_WP?listen?SessionName=[server_name]?ServerAdminPassword=[admin_password]?Port=7777?QueryPort=27015?MaxPlayers=[max_players] -NoBattlEye
+start ArkAscendedServer.exe TheIsland_WP?listen?SessionName=[server_name]Port=7777?QueryPort=27015?MaxPlayers=[max_players]?ServerAdminPassword=[admin_password]? -NoBattlEye
 exit
 ```
 
@@ -73,7 +73,7 @@ Within this command, you should replace `[server_name]`, `[admin_password]` and 
 
 If you also want to setup a password for regular people to be able to join, you can add `?ServerPassword=[join_password]` to the command in the file above. This would change it to:
 ```
-start ArkAscendedServer.exe TheIsland_WP?listen?SessionName=[server_name]?ServerPassword=[join_password]?ServerAdminPassword=[admin_password]?Port=7777?QueryPort=27015?MaxPlayers=[max_players] -NoBattlEye
+start ArkAscendedServer.exe TheIsland_WP?listen?SessionName=[server_name]?ServerPassword=[join_password]?Port=7777?QueryPort=27015?MaxPlayers=[max_players]?ServerAdminPassword=[admin_password] -NoBattlEye
 exit
 ```
 
@@ -107,6 +107,10 @@ New-NetFirewallRule -DisplayName "ARKSA Server" -Direction Outbound -LocalPort 7
 
 These commands will automatically create firewall rules which are necessary for your Ark: Survival Ascended server to be accessible to the public.
 
+:::info
+If you encounter issues connecting or completing server initialization (ticking loop), it is recommended to add the ARK Survival Ascended application to the firewall as an exception. 
+:::
+
 </TabItem>
 
 <TabItem value="windefender" label="Via Windows Defender">
@@ -120,7 +124,17 @@ You must create new rules for your Ark: Survival Ascended server. To do this, cl
 - UDP incoming and outgoing: 27015
 - UDP incoming and outgoing: 7777-7778
 
-Please use our [Port Forwarding (Firewall)](vserver-windows-port.md) guide if you need further assistance doing this.
+Please use our [Port Forwarding (Firewall)](vserver-windows-port.md) guide if you need further assistance doing this. 
+
+:::info
+If you encounter issues connecting or completing server initialization (ticking loop), it is recommended to add the ARK Survival Ascended application to the firewall as an exception. 
+:::
+
+
+
+
+
+
 
 </TabItem>
 </Tabs>

@@ -1,7 +1,7 @@
 ---
 id: dedicated-linux-notepad++
 title: "Dedicated Server: Setup Notepad++ on Linux"
-description: "Information on how to setup Notepad++ on your Linux Dedicated Server from ZAP-Hosting - ZAP-Hosting.com documentation"
+description: "Discover how to set up and optimize Notepad++ on Linux for powerful, lightweight code editing and enhanced developer productivity → Learn more now"
 sidebar_label: Install Notepad++
 services:
 - dedicated
@@ -24,7 +24,7 @@ This application can only be installed and used on a Linux system with a graphic
 
 :::
 
-<InlineVoucher />
+
 
 
 
@@ -114,4 +114,3 @@ Got specific questions that aren't covered here? For further questions or assist
 
 
 
-<InlineVoucher />

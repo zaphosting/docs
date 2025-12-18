@@ -1,7 +1,7 @@
 ---
 id: ohd-troubleshooting-common-issues
 title: "Operation: Harsh Doorstop: Common issues"
-description: "Information on how to resolve common issues on a Operation: Harsh Doorstop server from ZAP-Hosting - ZAP-Hosting.com documentation"
+description: "Discover how to troubleshoot and resolve common Operation: Harsh Doorstop server issues for a smooth gaming experience → Learn more now"
 sidebar_label: Common issues
 services:
   - gameserver-ohd

@@ -1,7 +1,7 @@
 ---
 id: cscz-firststeps-connect
 title: "Counter-Strike: Condition Zero: Connect to the server"
-description: "Information about various ways to connect to your Counter-Strike 1.6 from ZAP-Hosting - ZAP-Hosting.com Documentation"
+description: "Discover how to connect to your Counter-Strike 1.6 server smoothly and get ready to play without hassle → Learn more now"
 sidebar_label: Connect to the server
 services:
   - gameserver-cscz
@@ -13,7 +13,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 
 ## Introduction
-Not sure how to connect to your **Counter-Strike: 1.6** server or what you need to get started? No worries, we’ve got you covered! We will walk you through everything you need – from the required tools and information to the actual connection process, along with key considerations to ensure a smooth and trouble-free connection experience. Follow our guide and you'll be connected in no time!
+Not sure how to connect to your **Counter-Strike: 1.6** server or what you need to get started? No worries, we’ve got you covered! We will walk you through everything you need. From the required tools and information to the actual connection process, along with key considerations to ensure a smooth and trouble-free connection experience. Follow our guide and you'll be connected in no time!
 
 <InlineVoucher />
 

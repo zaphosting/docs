@@ -1,7 +1,7 @@
 ---
 id: dedicated-linux-soulmask
 title: "Dedicated Server: Soulmask Dedicated Server Linux Setup"
-description: Information about setting up an Soulmask Dedicated Server on a Linux Dedicated Server from ZAP-Hosting - ZAP-Hosting.com documentation
+description: "Discover how to set up and configure a Soulmask Dedicated Server on Linux for seamless game hosting and management → Learn more now"
 sidebar_label: Soulmask
 services:
   - dedicated
@@ -16,7 +16,7 @@ Do you have a Linux Dedicated Server and you want to install the Soulmask Dedica
 Did you know that you can install our **ZAP GS/TS3 Interface** directly onto your dedicated server, allowing you to setup game server services, with direct integration to your ZAP-Hosting dashboard, in just a few clicks! Learn more about the [GS/TS3 Interface](dedicated-linux-gs-interface.md).
 :::
 
-<InlineVoucher />
+
 
 ## Preparation
 
@@ -63,4 +63,4 @@ Congratulations, you have successfully installed and configured the Soulmask ser
 
 If you have any further questions or problems, please contact our support team, who are available to help you every day!
 
-<InlineVoucher />
+

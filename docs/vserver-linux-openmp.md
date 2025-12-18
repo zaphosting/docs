@@ -1,7 +1,7 @@
 ---
 id: vserver-linux-openmp
 title: "VPS: Open.mp Dedicated Server Linux Setup"
-description: Information about setting up an open.mp Dedicated Server on a Linux VPS from ZAP-Hosting - ZAP-Hosting.com documentation
+description: "Discover how to set up the open.mp Dedicated server on your Linux VPS for seamless game hosting and management → Learn more now"
 sidebar_label: Open.mp
 services:
   - vserver

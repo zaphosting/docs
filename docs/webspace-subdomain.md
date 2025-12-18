@@ -1,7 +1,7 @@
 ---
 id: webspace-subdomain
 title: 'Webspace: ZAP Subdomain'
-description: Information on settings up a ZAP Cloud (.zap.cloud) subdomain or your own domain for your webspace from ZAP-Hosting - ZAP-Hosting.com 
+description: "Discover how to easily set up and manage subdomains for your webspace to enhance site access and customization → Learn more now"
 sidebar_label: Webspace Subdomain
 services:
   - webspace

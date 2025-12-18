@@ -1,7 +1,7 @@
 ---
 id: empyrion-becomeadmin
 title: "Empyrion: Become an Admin"
-description: Information on how to become an admin on your Empyrion server at ZAP-Hosting - ZAP-Hosting.com documentation
+description: "Learn how to assign administrator permissions for full server control and manage game functions effectively → Learn more now"
 sidebar_label: Become admin
 services:
   - gameserver-empyrion

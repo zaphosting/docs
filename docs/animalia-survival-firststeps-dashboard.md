@@ -1,7 +1,7 @@
 ---
 id: animalia-survival-firststeps-dashboard
 title: "Animalia Survival: Dashboard Overview"
-description: Information about the dashboard of an Animalia Survival server from ZAP-Hosting - ZAP-Hosting.com Documentation
+description: "Discover how to efficiently manage and optimize your Animalia Survival server with a clear, structured overview → Learn more now"
 sidebar_label: Dashboard
 services:
   - gameserver-argo-animalia-survival

@@ -1,7 +1,7 @@
 ---
 id: vserver-linux-mastodon
 title: "VPS: Installation of Mastodon"
-description: Information on how to set up Mastodon server on your server from ZAP-Hosting - ZAP-Hosting.com documentation
+description: "Discover how to set up a secure, self-hosted Mastodon social network on Debian-based servers for full control and privacy → Learn more now"
 sidebar_label: Install Mastodon
 services:
   - vserver

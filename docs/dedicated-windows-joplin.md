@@ -1,7 +1,7 @@
 ---
 id: dedicated-windows-joplin
 title: "Dedicated Server: Setup Joplin on Windows"
-description: Information on how to setup Joplin on your Windows Dedicated Server from ZAP-Hosting - ZAP-Hosting.com documentation
+description: "Discover how to organize and sync secure, Markdown-based notes across devices with Joplin for enhanced privacy and productivity → Learn more now"
 sidebar_label: Install Joplin
 services:
 - dedicated
@@ -21,7 +21,7 @@ Considering about hosting this service yourself? We’ll walk you through every 
 
 
 
-<InlineVoucher />
+
 
 
 
@@ -84,4 +84,3 @@ Got specific questions that aren't covered here? For further questions or assist
 
 
 
-<InlineVoucher />

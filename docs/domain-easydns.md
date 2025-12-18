@@ -1,7 +1,7 @@
 ---
 id: domain-easydns
 title: "Domain: EasyDNS"
-description: Information about EasyDNS domain settings at ZAP-Hosting - ZAP-Hosting.com documentation
+description: "Discover how to easily link your domain to hosting services for seamless web or server connections → Learn more now"
 sidebar_label: EasyDNS
 services:
   - domain
@@ -13,7 +13,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 The **EasyDNS option** enables simple linking (forwarding) with one of your ZAP hosting services. With just a few clicks, you can for example connect your domain to a server or webspace product. 
 
-
+<InlineVoucher />
 
 ## Access and use case
 

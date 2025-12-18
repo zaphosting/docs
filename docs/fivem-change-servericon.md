@@ -1,7 +1,7 @@
 ---
 id: fivem-change-servericon
 title: "FiveM:  Change icon for server list"
-description: Information on how to change the server icon for FiveM servers from ZAP-Hosting - ZAP-Hosting.com documentation
+description: "Discover how to customize your FiveM server with a unique 96x96 PNG icon to enhance your server's identity → Learn more now"
 sidebar_label: Change server icon
 services:
   - gameserver-fivem

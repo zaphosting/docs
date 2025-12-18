@@ -1,153 +1,149 @@
 ---
 id: contribution-blogs-guidelines
-title: Blog Richtlinien
-description: Richtlinien für den Bereich Blogs des ZAP-Hosting Beitragsprogramms - ZAP-Hosting.com Dokumentation
+title: Blog-Richtlinien
+description: "Entdecke, wie du hochwertige, konsistente Blog-Beiträge erstellst, die Leser fesseln und deine Schreibskills verbessern → Jetzt mehr erfahren"
 sidebar_label: Richtlinien
 ---
 
 ![Blogs Banner](https://screensaver01.zap-hosting.com/index.php/s/ysxLZ26K3dSRLJQ/preview)
 
-Um sicherzustellen, dass alle ZAP-Hosting-Blogbeiträge in Qualität und Stil einheitlich sind, haben wir eine Reihe von Richtlinien erstellt, die du bei der Erstellung von Inhalten für unser Blogbeitragsprogramm beachten solltest. Du musst unsere Richtlinien genau befolgen, um sicherzustellen, dass deine Vorschläge und nachfolgenden Entwürfe zügig bearbeitet werden. Noch wichtiger ist jedoch, dass du damit sicherstellst, dass unsere Leser eine bessere und einheitlichere Erfahrung beim Lesen unseres Blogs haben werden.
+Um sicherzustellen, dass alle ZAP-Hosting Blog-Beiträge in Qualität und Stil einheitlich sind, haben wir eine Reihe von Richtlinien erstellt, die du beim Erstellen von Inhalten für unser Blogs Contribution Programm beachten solltest. Du musst unsere Richtlinien genau befolgen, damit deine Vorschläge und anschließenden Entwürfe schnell bearbeitet werden. Noch wichtiger ist, dass unsere Leser so eine bessere und konsistent hochwertige Erfahrung beim Lesen unserer Blogs haben.
 
-Unsere Blogbeitragsrichtlinien lassen sich in mehrere Hauptabschnitte unterteilen und umfassen folgende Punkte:
+Unsere Blog Contribution Richtlinien lassen sich in einige Hauptbereiche unterteilen:
 
-- [Struktur](#struktur)
-- [Stil](#stil)
-- [Formatierung](#formatierung)
-- [Terminologie](#terminologie)
+- Struktur
+- Stil
+- Formatierung
+- Terminologie
 
 ## Struktur
 
-Unsere Blog-Beiträge in unserem Beitragsprogramm sollten einer relativ einheitlichen Struktur folgen, die das Interesse der Leser weckt und ihnen Informationen und Neuigkeiten bietet. Das ZAP-Beitragsteam wird mit dir zusammenarbeiten, um sicherzustellen, dass deine Struktur beim Erstellen eines Blogvorschlags passend ist.
+Unsere Blog-Beiträge im Contribution Programm sollten einer relativ einheitlichen Struktur folgen, um das Interesse der Leser zu wecken und ihnen Informationen sowie Neuigkeiten zu liefern. Das ZAP Contribution Team arbeitet mit dir zusammen, um sicherzustellen, dass deine Struktur passend ist, wenn du einen Blog-Vorschlag erstellst.
 
 - **Seitentitel** (H1)
-- **Einleitung** (H2)
+- **Einleitung** (H2) 
 - **Vorbereitung** (H2)
 - **Hauptthema** (H2)
 - Optional: **Unterthema 1** (H3)
 - Optional: **Unterthema 2** (H3)
 - ...
 - Optional: **Weiteres Thema** (H2)
-- **Abschluss** (H2)
+- **Fazit** (H2)
 
 :::info Verwendung von Unterüberschriften (H3 & H4)
-Wir fordern dich auf, H3-Überschriften zu verwenden, um Unterabschnitte innerhalb der H2-Hauptabschnitte zu erstellen und so größere Inhaltsblöcke in geordnete Abschnitte zu gliedern. Ein Beispiel hierfür ist der Abschnitt **Hauptthema** oben.
+Du wirst ermutigt, H3-Überschriften zu verwenden, um Unterabschnitte innerhalb der Haupt-H2-Abschnitte zu erstellen und größere Inhaltsblöcke besser zu strukturieren. Ein Beispiel findest du im Abschnitt **Hauptthema** oben.
 
-Wenn du Unterüberschriften verwendest, ist es in der Regel sinnvoll, mindestens zwei oder mehr Unterüberschriften innerhalb der übergeordneten Überschrift zu haben, andernfalls macht es normalerweise keinen Sinn, nur eine Unterüberschrift innerhalb einer Hauptüberschrift zu haben.
+Wenn du Unterüberschriften nutzt, macht es in der Regel Sinn, mindestens zwei oder mehr Unterüberschriften innerhalb der übergeordneten Überschrift zu haben, ansonsten ergibt es meist keinen Sinn, nur eine einzelne Unterüberschrift unter einer Hauptüberschrift zu haben.
 :::
 
 :::info
-Bitte beachte, dass die obigen Angaben nur eine grobe Orientierung sind. Der Hauptteil deines Blogeintrags kann verschiedene Überschriften haben, je nachdem, was für deinen Inhalt angemessen ist, aber alle Blogeinträge sollten einheitlich einen Titel, eine Einleitung und eine Schlussfolgerung haben, die den Hauptinhalt umgeben.
+Beachte, dass das oben Genannte eine grobe Orientierung ist. Der Hauptteil deines Blog-Beitrags kann je nach Inhalt andere Überschriften haben, aber alle Blog-Beiträge sollten konsequent einen Titel, eine Einleitung und ein Fazit rund um den Hauptinhalt haben.
 :::
 
 ### Titel
 
-Der Titel deines Blogbeitrags sollte kurz, klar und prägnant sein, um die Aufmerksamkeit des Lesers zu wecken. Er sollte genau angeben, worum es in deinem Blogbeitrag geht, z.B. ob es sich um Neuigkeiten oder Tipps und Ratschläge handelt. Ein Beispiel für einen guten Titel wäre: **Top 10 FiveM Police Scripts**.
+Der Titel deines Blog-Beitrags sollte kurz, klar und knackig sein, um die Aufmerksamkeit der Leser zu gewinnen. Er sollte genau sagen, worum es in deinem Blog geht, z.B. ob es News oder Tipps & Tricks sind. Ein gutes Beispiel wäre: **Top 10 FiveM Police Scripts**.
 
-### Einführung
+### Einleitung
 
-Einleitungen für deinen Blogbeitrag sollten relativ kurz und prägnant sein und in der Regel 1-2 Sätze umfassen. Im Inhalt solltest du darauf abzielen, den jeweiligen Themenbereich kurz zu beschreiben und vor allem zu erklären, was der Blogbeitrag dem Leser vermittelt und ihn über das Ziel zu informieren.
+Die Einleitung deines Blog-Beitrags sollte relativ kurz und auf den Punkt sein, typischerweise 1-2 Sätze. Im Text solltest du das Thema kurz beschreiben und vor allem erklären, was der Blog-Beitrag dem Leser präsentiert und welches Ziel er verfolgt.
 
-Ein Beispiel für eine ideale Einleitung für einen Blogbeitrag zum Thema SteamCMD wäre:
+Ein Beispiel für eine ideale Einleitung zu einem Blog-Beitrag über SteamCMD wäre:
 
-- **1. Satz**: SteamCMD ist ein unverzichtbares Tool, das für die Installation von dedizierten Servern für eine Vielzahl von Spielen wie Palworld, Enshrouded und viele mehr benötigt wird.
-- **2. Satz**: In diesem Blogbeitrag werden wir uns mit der erstmaligen Installation von SteamCMD auf einem Linux-Server beschäftigen. Wir werden in den Beispielen Ubuntu verwenden, aber der Prozess sollte für andere Distributionen sehr ähnlich sein.
+- **1. Satz**: SteamCMD ist ein unverzichtbares Tool, das für die Installation von Dedicated Servern für viele Spiele wie Palworld, Enshrouded und mehr benötigt wird.
+- **2. Satz**: In diesem Blog-Beitrag zeigen wir dir den Erst-Setup-Prozess zur Installation von SteamCMD auf deinem Linux-Server. Wir verwenden Ubuntu in den Beispielen, aber der Ablauf ist bei anderen Distributionen ähnlich.
 
-Wie im Beispiel zu sehen, umfasst es kurz sowohl die relevanten Themen dieses Blogbeitrags als auch das allgemeine Ziel für den Leser bei der Ausführung dieses Blogbeitrags.
+Wie im Beispiel zu sehen, fasst die Einleitung kurz die relevanten Themen zusammen und stellt das Ziel des Blog-Beitrags für den Leser klar dar.
 
 ### Vorbereitung
 
-Der Abschnitt „Vorbereitung“ ist nützlich, um alle notwendigen Voraussetzungen zu klären, die der Leser erfüllen muss, bevor er dem Blogbeitrag folgen kann. Dabei kann es sich um Software- oder Hardware-Anforderungen handeln, um Anweisungen zur Vorbereitung einer Software wie einer Firewall oder einfach um die Anleitung, wie man sich über SSH oder RDP auf dem Server anmeldet.
+Der Vorbereitungsteil ist hilfreich, um alle notwendigen Voraussetzungen zu klären, die der Leser erfüllen muss, bevor er dem Blog-Beitrag folgen kann. Das können Software- oder Hardware-Anforderungen sein, Anleitungen zur Vorbereitung von Software wie einer Firewall oder einfach eine Anleitung, sich via SSH oder RDP auf dem Server einzuloggen.
 
-Wir raten dringend dazu, auf unserer [ZAP-Docs-Website] (https://zap-hosting.com/guides) nach Anleitungen zu suchen, die sich auf die von dir geplanten Vorbereitungsschritte beziehen oder diese abdecken. Wenn es eine Anleitung gibt, die ein Thema abdeckt, z. B. [SSH-Erstzugang](vserver-linux-ssh.md), solltest du die Anleitung verlinken und den Leser darauf hinweisen, ihr zu folgen, bevor du fortfährst.
+Wir empfehlen dir dringend, auf unserer [ZAP-Docs Webseite](https://zap-hosting.com/guides) nach Anleitungen zu suchen, die Vorbereitungsschritte abdecken oder damit zusammenhängen. Wenn es eine Anleitung zu einem Thema gibt, z.B. [SSH Initial Access](vserver-linux-ssh.md), solltest du diese verlinken und den Leser bitten, dieser Anleitung zu folgen, bevor er weitermacht.
 
-Übliche Voraussetzungen für Blog-Beiträge sind:
+Typische Voraussetzungen für Blog-Beiträge sind:
 
-- Erforderliche Software (z. B. Git, Node.js, Python, Docker)
-- Tutorials, die dem Leser helfen können, Grundkenntnisse zu erwerben (z. B. eine andere ZAP-Docs-Seite)
-- Benutzerkonten wie z.B. APIs
+- Benötigte Software (z.B. Git, Node.js, Python, Docker)
+- Tutorials, die dem Leser Grundwissen vermitteln (z.B. weitere ZAP-Docs Seiten)
+- Benutzerkonten wie APIs
 - Erforderliche Einstellungen (z.B. DNS/SSL)
 
-Ein Beispiel für einen Reverse-Proxy-Blogpost wäre:
-
+Ein Beispiel für einen Blog-Beitrag über Reverse Proxy wäre:
 ```
-Um einen Reverse-Proxy einzurichten, benötigst du einen Linux-Server, auf dem dein Proxy-Server gehostet wird, und du solltest dich mit ihm verbinden. Benutze unsere [SSH Initial Access](vserver-linux-ssh.md) Anleitung, wenn du Hilfe dabei brauchst. Du benötigst auch Zugang zu einer Domain, die dir gehört. Für jede Subdomain, die du verwenden willst, solltest du einen `A` DNS-Eintrag erstellen, der auf die IP-Adresse deines Linux-Servers verweist.
+Um einen Reverse Proxy einzurichten, benötigst du einen Linux-Server, auf dem dein Proxy läuft, und solltest dich mit diesem verbinden. Nutze unsere [SSH Initial Access](vserver-linux-ssh.md) Anleitung, falls du dabei Hilfe brauchst. Außerdem benötigst du Zugriff auf eine Domain, die du besitzt. Für jede Subdomain, die du verwenden möchtest, solltest du einen `A` DNS-Eintrag anlegen, der auf die IP-Adresse deines Linux-Servers zeigt.
 ```
-
 
 ### Hauptthema
 
-Nun ist es an der Zeit, den Hauptteil deines Blogbeitrags zu schreiben. Wir empfehlen, den Blogbeitrag in mehrere Abschnitte aufzuteilen, damit sich der Leser mit dem Inhalt beschäftigen kann. Es gibt keine strikten Vorgaben für die Aufteilung, aber als allgemeine Faustregel solltest du versuchen, große Mengen an Inhalt in einige wenige Überschriften aufzuteilen. Das ZAP-Beitragsteam hilft dir während des gesamten Prozesses dabei.
+Jetzt geht es an den Hauptteil deines Blog-Beitrags. Wir empfehlen, den Beitrag in mehrere Abschnitte zu unterteilen, damit der Leser beim Inhalt dranbleibt. Es gibt keine strikten Vorgaben, wie diese Abschnitte aufgeteilt sein müssen, aber als Faustregel solltest du größere Inhaltsmengen in mehrere Überschriften aufteilen. Das ZAP Contributions Team unterstützt dich dabei während des Prozesses.
 
-Wenn dein Blogbeitrag Schritt-für-Schritt-Informationen oder Anleitungen enthält, ist es sinnvoll, die Nummer des Schritts und eine kurze Beschreibung des Schritts in der Überschrift des Hauptthemas anzugeben, z. B. **Schritt 1 - Erstellen des Ordners**. Du solltest kurz beschreiben, was der Leser in dem Schritt tut, um im ersten Satz ein Gesamtziel zu nennen. Zwischen den einzelnen Schritten solltest du eine kurze Einleitung und eine abschließende Überleitung formulieren, um den Leser darüber zu informieren, was er bisher getan hat und was in den folgenden Schritten geschehen wird. Diese Übergänge bieten dem Leser einen wichtigen Kontext. Versuche Wiederholungen zu vermeiden und verwende eine Auswahl an Begriffen, um Wiederholungen von Schritten zu vermeiden.
+Wenn dein Blog-Beitrag eine Schritt-für-Schritt-Anleitung oder ein Tutorial ist, macht es Sinn, die Schritte zu nummerieren und eine kurze Beschreibung im Hauptthema zu geben, z.B. **Schritt 1 – Ordner erstellen**. Du solltest kurz beschreiben, was der Leser in diesem Schritt macht, um das Ziel klarzumachen. Zwischen den Schritten solltest du kurze Einleitungen und Übergänge schreiben, die dem Leser erklären, was bisher passiert ist und was als Nächstes kommt. Diese Übergänge sind wichtig für den Kontext. Vermeide Wiederholungen und nutze verschiedene Formulierungen, um Schritte nicht ständig zu wiederholen.
 
-### Abschluss
+### Fazit
 
-Der letzte Abschnitt ist die Schlussfolgerung des Blogbeitrags. Dieser Abschnitt sollte die Anleitung in 1-3 Sätzen abschließen, in denen erklärt wird, was der Leser erfolgreich erreicht oder gelernt hat oder um eine informative Anleitung abzuschließen. 
+Zum Schluss folgt das Fazit des Blog-Beitrags. Dieser Abschnitt sollte den Guide in 1-3 Sätzen abschließen, indem erklärt wird, was der Leser erfolgreich erreicht, gelernt oder umgesetzt hat.
 
-Es wäre auch sinnvoll, Verweise auf weiterführende Literatur oder andere Blogeinträge oder Anleitungen zu geben, denen der Benutzer folgen kann, um sein Wissen über das Thema zu erweitern. Du solltest hier auf bestehende ZAP-Docs- Anleitungen oder Blog-Beiträge verlinken, insbesondere dann, wenn diese natürlich an deine Anleitung anknüpfen.
+Es macht auch Sinn, Verweise auf weiterführende Lektüre oder andere Blog-Beiträge bzw. Anleitungen zu geben, mit denen der Nutzer sein Wissen vertiefen kann. Du solltest hier Links zu bestehenden ZAP-Docs Anleitungen oder Blog-Beiträgen setzen, besonders wenn diese natürlich auf deinen Guide aufbauen.
 
 ## Stil
 
-Der Schreibstil für die ZAP-Hosting-Dokumente folgt unserer Überzeugung, qualitativ hochwertige, praktische und leicht zugängliche Blog-Beiträge zu verfassen, die ein breites Spektrum an Themen abdecken und Leser mit unterschiedlichem Erfahrungsstand ansprechen. 
+Der Schreibstil für die ZAP-Hosting Docs basiert auf unserem Anspruch, hochwertige, praktische und leicht zugängliche Blog-Beiträge zu erstellen, die eine breite Themenvielfalt abdecken und Leser aller Erfahrungsstufen unterstützen.
 
 ### Technisch & korrekt
 
-Unsere Blog-Beiträge sollen technisch so genau wie möglich sein und die neuesten Brancheninformationen enthalten. In jedem Blogbeitrag erwarten wir, dass die Leser gut geschriebene und qualitativ hochwertige Informationen zu neuen Themen und Technologien sowie Anleitungen erhalten, die sich darauf konzentrieren, dem Leser neue Informationen zu vermitteln. Wenn dein Blogbeitrag schrittweise Informationen oder Anleitungen enthält, sollte jeder Schritt einen klaren Zweck und eine klare Erklärung haben und gegebenenfalls zusätzliche Optionen und/oder Markierungen enthalten.
+Unsere Blog-Beiträge sollen so technisch korrekt und aktuell wie möglich sein, mit den neuesten Infos aus der Branche. In jedem Blog-Beitrag erwarten wir gut geschriebene, hochwertige Infos zu neuen Themen und Technologien sowie Tutorials, die den Leser beim Lernen neuer Inhalte unterstützen. Wenn dein Blog-Beitrag eine Schritt-für-Schritt-Anleitung oder ein Tutorial ist, sollte jeder Schritt einen klaren Zweck und eine Erklärung haben, inklusive zusätzlicher Optionen und/oder Flags, wenn sinnvoll.
 
-Verfasser sollten ihre Blogeinträge stets Korrektur lesen und testen, um sicherzustellen, dass alles technisch korrekt ist und wie beabsichtigt funktioniert, bevor sie den Entwurf einreichen. Das ZAP-Beitragsteam wird deinen Blogbeitrag durchlesen und prüfen, um sicherzustellen, dass er konsistent und sachlich korrekt ist, oder um Verbesserungen zu besprechen, wenn ein Fehler festgestellt wird.
+Autoren sollten ihre Blog-Beiträge immer Korrektur lesen und testen, um sicherzugehen, dass alles technisch korrekt ist und wie vorgesehen funktioniert, bevor sie Entwürfe einreichen. Das ZAP Contributions Team liest und testet deinen Beitrag bei Bedarf, um Konsistenz und Faktencheck sicherzustellen oder Verbesserungen vorzuschlagen, falls Fehler entdeckt werden.
 
 :::tip
-Wir empfehlen unseren Schreibern immer, den Inhalt durch ein Rechtschreibprüfungstool zu prüfen, um sicherzustellen, dass die Rechtschreibung korrekt ist, bevor der Entwurf eingereicht wird. Eine nützliche Website hierfür ist: https://languagetool.org/
+Wir empfehlen allen Autoren, ihre Inhalte vor dem Einreichen mit einem Rechtschreib- und Grammatik-Check zu prüfen. Ein nützliches Tool dafür ist: https://languagetool.org/
 :::
 
+### Praktisch & nützlich
 
-### Praktisch & hilfreich
+Wenn ein Leser einen Blog-Beitrag fertig gelesen hat, sollte er etwas gelernt, gebaut oder eingerichtet haben – von Anfang bis Ende. Unsere Blog-Beiträge sollen Leser aller Erfahrungsstufen unterstützen, deshalb solltest du dein Thema umfassend behandeln, alle nötigen Details und Voraussetzungen angeben. Du solltest Leser nur dann auf externe Seiten verweisen, wenn es keine passende Dokumentation bei ZAP-Docs gibt oder wenn es um zusätzliche Infos geht, die für deinen Artikel nicht zwingend nötig sind, aber das technische Verständnis erweitern können. Externe Links dürfen nicht auf Konkurrenz-Dokumentationen verweisen.
 
-Wenn ein Leser einen Blogbeitrag zu Ende gelesen hat, sollte er von Anfang bis Ende etwas gelernt, aufgebaut oder eingerichtet haben. Unsere Blog-Beiträge zielen darauf ab, Leser aller Erfahrungsstufen zu unterstützen. Daher sollte der Inhalt deines Blogbeitrags das jeweilige Thema umfassend behandeln, um sicherzustellen, dass der Leser Wissen erlangt und/oder etwas erreicht hat. Für dich als Autor bedeutet das, dass du dein Thema gründlich behandeln und alle notwendigen Details und gegebenenfalls auch Voraussetzungen angeben musst. Du solltest die Leser nur dann auf externe Websites verweisen, wenn es in den ZAP Docs keine Dokumentation zu diesem Thema gibt oder wenn es dem Leser ermöglicht werden soll, zusätzliche Details zu sammeln, die für deinen Artikel nicht erforderlich sind, aber für den Aufbau seines technischen Wissens von Nutzen sein können. Externe Links sollten nicht auf Dokumentationen von Wettbewerbern verweisen.
+### Freundlich, formal & umfassend
 
-### Freundlich, formal & verständlich
+Wir wollen, dass unsere Dokumentation zukunftsorientiert und freundlich ist, damit sie für jeden Leser zugänglich bleibt, dabei aber formal genug, um seriös zu wirken. Im Blog-Beitrag solltest du einen Ton wählen, der für alle Leser akzeptabel ist, egal wie viel Erfahrung sie haben oder welche Sprachbarrieren bestehen.
 
-Wir erwarten, dass unsere Dokumentation zukunftsorientiert und freundlich ist, damit sie für jeden Leser zugänglich ist, aber gleichzeitig formell bleibt. In deinem Blogbeitrag solltest du darauf achten, dass dein Schreibstil für alle Leser akzeptabel ist, unabhängig von ihrer Erfahrung oder bestehenden Sprachbarrieren.
+Da es sich um Blog-Beiträge handelt, die primär den Leser unterstützen, etwas zu lernen und ein Ergebnis zu erreichen, erwarten wir, dass du die zweite Person Singular verwendest (z.B. „Du musst...“) statt der ersten Person (z.B. „Ich denke...“), um den Leser direkt anzusprechen und den Fokus auf ihn zu legen.
 
-Da es sich um Blog-Beiträge handelt, die in erster Linie darauf abzielen, den Leser zu unterstützen, sich weiterzubilden und ihm zu ermöglichen, ein Ergebnis zu erzielen, erwarten wir von den Autoren, dass sie in der zweiten Person (z. B. „ Du musst...“) und nicht in der ersten Person (z. B. „Ich denke...“) schreiben, um den Leser bei der Sache zu halten und den Fokus auf ihn zu richten.
-
-Abschließend müssen alle Autoren unseren Verhaltensrichtlinien folgen, um sicherzustellen, dass unsere Blog-Beiträge für jeden akzeptabel sind, unabhängig von Alter, ethnischer Zugehörigkeit, Geschlechtsidentität, Erfahrungsgrad, Nationalität, Religion, politischer Zugehörigkeit, sexueller Orientierung, sozioökonomischem Status oder technologischer Wahl. Du musst jede potenziell beleidigende Sprache und jeden anderen Inhalt, der sich auf die oben genannten Themen bezieht, vermeiden.
+Außerdem müssen alle Autoren unseren Verhaltenskodex einhalten, damit unsere Blog-Beiträge für jeden akzeptabel sind – unabhängig von Alter, Herkunft, Geschlechtsidentität, Erfahrung, Nationalität, Religion, politischer Einstellung, sexueller Orientierung, sozialem Status oder Technologie-Vorlieben. Vermeide bitte jegliche potenziell anstößige Sprache oder Inhalte, die sich auf die genannten Themen beziehen.
 
 ## Formatierung
 
-Unser Blog ist mit der weit verbreiteten Auszeichnungssprache Markdown formatiert. In den folgenden Abschnitten erfährst du, welche Elemente wir verwenden und wie sie in deinen Blogbeiträgen eingesetzt werden können.
+Unser Blog wird mit der Markdown-Auszeichnungssprache formatiert, die weit verbreitet ist. Nutze die folgenden Abschnitte, um zu verstehen, welche Elemente wir verwenden und wie du sie in deinen Blog-Beiträgen einsetzen kannst.
 
-Wir erlauben den Nutzern, beliebige Schreibprogramme für die Erstellung ihrer Inhalte zu verwenden. Wir empfehlen jedoch, das Tool **[StackEdit](https://stackedit.io/app#)** zu verwenden, um deine Inhalte zu schreiben und gleichzeitig die großartigen Funktionen von Markdown zu nutzen. Du kannst diese dann direkt in dein Google Drive oder eine andere Anwendung zur Dateifreigabe exportieren und erhältst einen Link, den du mit uns teilen kannst.
+Du kannst jedes Schreib-Tool für deine Inhalte nutzen, wir empfehlen aber **sehr**, das Tool **[StackEdit](https://stackedit.io/app#)** zu verwenden, um deinen Content zu schreiben und dabei alle coolen Markdown-Funktionen zu behalten. Du kannst dann direkt in Google Drive oder anderen File-Sharing-Apps exportieren und uns einen Link schicken.
 
 :::tip
-Weitere Beispiele und ausführliche Erklärungen zu den Funktionen von Markdown findest du in der [Markdown Anleitung] (https://www.markdownguide.org/cheat-sheet/), die weitere Informationen enthält.
+Für mehr Beispiele und ausführliche Erklärungen zu Markdown-Features schau bei [Markdown Guide](https://www.markdownguide.org/cheat-sheet/) vorbei.
 :::
 
 ### Überschriften
 
-Überschriften sind eine der wichtigsten Formatierungsoptionen, um Blogbeiträge umfassend und logisch zu trennen. Der Haupttitel besteht aus der H1-Überschrift.
+Überschriften sind eines der wichtigsten Formatierungs-Tools, um Blog-Beiträge logisch und übersichtlich zu gliedern. Der Haupttitel ist die H1-Überschrift.
 
-In unseren Blogs sollten H2-Überschriften verwendet werden, um den Blogbeitrag in seine Hauptabschnitte zu unterteilen. Daraufhin sollten H3-Überschriften verwendet werden, um die Hauptabschnitte in Unterabschnitte zu unterteilen. Ein Beispiel hierfür ist die Unterteilung eines Hauptabschnitts in mehrere Schritte, um das Befolgen des Blogbeitrags zu erleichtern. Schließlich gibt es noch einen H4-Tag, der seltener verwendet wird, aber dem gleichen Zweck der Aufteilung in Unterabschnitte dient.
+In unseren Blogs sollten H2-Überschriften verwendet werden, um den Beitrag in Hauptabschnitte zu unterteilen. Darunter nutzt du H3-Überschriften, um diese Hauptabschnitte in Unterabschnitte zu gliedern. Ein Beispiel wäre, einen Hauptabschnitt in mehrere Schritte zu unterteilen, damit der Beitrag leichter zu folgen ist. Es gibt auch H4-Überschriften, die seltener genutzt werden, aber denselben Zweck erfüllen.
 
 :::info
-Wenn du Unterüberschriften verwendest (z.B. H3-Überschriften unter H2-Hauptüberschriften), stelle bitte sicher, dass es zwei oder mehr Überschriften der gleichen Ebene innerhalb dieses Abschnitts gibt, sonst wäre dies eine falsche Verwendung.
+Wenn du Unterüberschriften nutzt (z.B. H3 unter H2), stelle bitte sicher, dass es zwei oder mehr Überschriften derselben Ebene in diesem Abschnitt gibt, sonst ist das falsch.
 :::
 
-Hier ist ein kurzes Beispiel für die Verwendung von Überschriften:
-
+Hier ein schnelles Beispiel für die Nutzung von Überschriften:
 
 ```
 ## Installation
 H2 - Hauptabschnitt
 
-### Herunterladen von Spieldateien
+### Game-Dateien herunterladen
 H3 - Unterabschnitt von H2
 
-#### Über SteamCMD
+#### Via SteamCMD
 H4 - Unterabschnitt von H3
 
-#### Manuell über GitHub
+#### Manuell via GitHub
 H4 - Unterabschnitt von H3
 
 ### Konfiguration vorbereiten
@@ -157,94 +153,92 @@ H3 - Unterabschnitt von H2
 H3 - Unterabschnitt von H2
 ```
 
-### Inline markdown
+### Inline-Markdown
 
-Wir verwenden eine Reihe von Inline-Formatierungen, um die Lesbarkeit unserer Blog-Beiträge zu verbessern und Leser mit unterschiedlichen technischen Kenntnissen anzusprechen. Bitte lese den folgenden Abschnitt durch, um die Verwendung der einzelnen Formatierungen zu verstehen.
+Wir nutzen verschiedene Inline-Formatierungen, um die Lesbarkeit unserer Blog-Beiträge zu verbessern und Leser mit unterschiedlichen technischen Kenntnissen abzuholen. Lies den Abschnitt unten, um die Nutzung zu verstehen.
 
-#### Fettgedruckter Text
+#### Fettdruck
 
-Der Hauptverwendungszweck von fettgedrucktem Text ist die Hervorhebung von Informationen. Beispiele hierfür sind:
+Fettdruck wird hauptsächlich verwendet, um Infos hervorzuheben. Beispiele:
 
-- Änderung des Kontexts zwischen den Schritten
-- Hostnamen, Berechtigungsnachweise und Benutzernamen
-- Wichtige Terminologie
+- Kontextwechsel zwischen Schritten
+- Hostnames, Zugangsdaten & Benutzernamen
+- Wichtige Fachbegriffe
 
-Du kannst einfach ein doppeltes Sternchen außerhalb des Zieltextes verwenden, um den Text fett zu machen, z. B. ergibt `**Hallo dort**` **Hallo dort**.
+Du kannst einfach zwei Sternchen außen an den Text setzen, z.B. `**hallo**` ergibt **hallo**.
 
+#### Kursiv
 
-#### Kursivschrift
+Kursiv wird hauptsächlich genutzt, um neue technische Schlüsselbegriffe einzuführen. Beispiel: Wir richten heute einen *Reverse Proxy* ein.
 
-Die kursive Schrift dient in erster Linie dazu, neue technische Schlüsselwörter in deinem Beitrag einzuführen. Zum Beispiel: Wir werden heute einen *Reverse Proxy* einrichten.
+Für Kursiv setzt du einfach einen Stern außen an den Text, z.B. `*ZAP-Hosting - Mehr POWER!*` ergibt *ZAP-Hosting - Mehr POWER!*.
 
-Um Kursivschrift zu verwenden, musst du einfach ein einzelnes Sternchen außerhalb des Zieltextes platzieren, z. B. `*ZAP-Hosting - More POWER!*` ergibt *ZAP-Hosting - More Power!*.
+#### Inline-Code
 
-#### Inline code
+Inline-Code wird vor allem genutzt, um technische Infos wie URLs darzustellen. Beispiele:
 
-Die Inline-Code-Formatierung wird in erster Linie zur Anzeige technischer Informationen wie URLs verwendet. Eine umfangreichere Liste von Beispielen umfasst:
-
-- Dateinamen und -pfade (z. B. `C:/Benutzer/[IhrName]/AppData....test.png`)
-- URLs (z. B. `https://zap-hosting.com`)
-- Ports (z. B. `:30120`)
+- Dateinamen und Pfade (z.B. `C:/User/[DeinName]/AppData....test.png`)
+- URLs (z.B. `https://zap-hosting.com`)
+- Ports (z.B. `:30120`)
 - Befehle (z.B. `ipconfig`)
-- SQL-Abfragen (z. B. `SELECT * FROM servers`)
-- Tastenkombinationen und Tastendrücke (z.B. `ENTER` oder `CTRL + C`)
+- SQL-Abfragen (z.B. `SELECT * FROM servers`)
+- Tastenkombinationen (z.B. `ENTER` oder `CTRL + C`)
 
 #### Tabellen
 
-Eine weitere nützliche Funktion von Markdown sind Tabellen. Diese können besonders nützlich sein, wenn du eine große Menge an sich wiederholenden Informationen anzeigen musst, zum Beispiel die Befehle, Beschreibungen und Verwendungen, die in einem Spiel verfügbar sind. Nachfolgend ein Beispiel für die Verwendung von Tabellen:
+Tabellen sind super, wenn du viele sich wiederholende Infos darstellen willst, z.B. Befehle, Beschreibungen und Nutzung in einem Spiel. Beispiel:
 
 ```
-| Befehl | Beschreibung | Verwendung |
-| ----------- | ------------------------ | --------------------- |
-| /help | Sendet Hilfebefehl | /help [Kategorie] |
-| /stop | Stoppt den Server | /stop [true/false] |
+| Befehl      | Beschreibung            | Nutzung               |
+| ----------- | ----------------------- | --------------------- |
+| /help       | Hilfebefehl senden      | /help [Kategorie]     |
+| /stop       | Server stoppen          | /stop [true/false]    |
 ```
 
-#### Code-Blöcke
+#### Codeblöcke
 
-Ein weiteres sehr nützliches Markdown-Formatierungstool sind Codeblöcke. Diese sind besonders nützlich für Blogbeiträge, die die Verwendung von Befehlen, Skripten, Terminalausgaben und mehr beinhalten. 
+Codeblöcke sind mega praktisch für Blog-Beiträge mit Befehlen, Skripten, Terminal-Ausgaben und mehr.
 
-Um einen Codeblock zu verwenden, setze einfach das Zeichen `` ```` außerhalb des Textblocks ein, den du in einen Block setzen möchtest. Du kannst auch die Sprache neben dem ersten Satz von dreifachen Anführungszeichen angeben, um die Programmiersprache richtig zu formatieren. Nachfolgend ein Beispiel für die Verwendung von Codeblöcken unter Verwendung von ```js` für die Sprache JavaScript.
+Um einen Codeblock zu erstellen, setzt du einfach ``` vor und nach dem Textblock. Du kannst auch die Programmiersprache angeben, z.B. ` ```js ` für JavaScript:
 
 ```js
-function hallo(name) {
+function hello(name) {
     console.log(name)
 }
 
 var server = "ZAP-Hosting"
-hallo(server)
+hello(server)
 ```
-
 
 ### Screenshots
 
-Screenshots sind eine äußerst nützliche Methode, um die Leser visuell durch die einzelnen Schritte zu führen und wir empfehlen unbedingt, diese zu verwenden, wo es angebracht ist.
+Screenshots sind super hilfreich, um Leser visuell durch Schritte zu führen – wir empfehlen sie, wo immer es passt.
 
-Du kannst die folgende Syntax verwenden, um ein Screenshot zu deinem Inhalt hinzuzufügen, indem du „deine_url“ durch die URL des Bildes ersetzt:
+Du kannst Screenshots so einfügen, ersetze `your_url` durch die Bild-URL:
 ```
-![]( deine_url)
+![](your_url)
 ```
 
-Am besten verwendest du eine Webseite, auf der Bilder gehostet werden, wie [Imgur](https://imgur.com/), um das Bild hochzuladen und in deinem Markdown einzubinden.
+Am besten nutzt du einen Online-Bilderhoster wie [Imgur](https://imgur.com/), um deine Bilder hochzuladen und dann im Markdown zu verlinken.
 
 ## Terminologie
 
-Bei unseren Blog-Beiträgen wird eine breite Palette von Schlüsselbegriffen verwendet. Wir erwarten von dir, dass du in deinem Blogbeitrag die US-englische, lokalisierte Schreibweise verwendest, um die Konsistenz in allen unseren Blogbeiträgen zu gewährleisten. In diesem Abschnitt möchten wir einige der wahrscheinlich am häufigsten verwendeten Begriffe vereinheitlichen.
+In unseren Blog-Beiträgen verwenden wir viele wichtige Fachbegriffe. Wir erwarten, dass du US-Englisch als Basis nimmst, um Konsistenz zu gewährleisten. In diesem Abschnitt standardisieren wir einige häufig genutzte Begriffe.
 
 ### ZAP-Hosting Produkte
 
-Wenn du dich auf ein ZAP-Hosting Produkt beziehst, solltest du immer sicherstellen, dass der richtige Name, die richtige Schreibweise und die richtige Großschreibung verwendet werden. Um dies zu überprüfen, gehe auf die [ZAP-Hosting-Website](https://zap-hosting.com) und schaue nach, wie das Produkt auf der entsprechenden Produktseite genannt wird.
+Wenn du ein ZAP-Hosting Produkt erwähnst, achte immer auf korrekte Bezeichnung, Schreibweise und Groß-/Kleinschreibung. Du kannst das auf [der ZAP-Hosting Webseite](https://zap-hosting.com) prüfen, wie das Produkt dort genannt wird.
 
 ### Benutzerdefinierte Attribute
 
-In einigen Blogbeiträgen können Konfigurationsoptionen für Elemente wie Benutzer, Hostnamen, Domänen, IP-Adressen und URLs erforderlich sein, wobei der Leser seine eigenen Angaben anstelle unserer Platzhalter verwenden muss.
+In manchen Blog-Beiträgen brauchst du Konfigurationsoptionen wie Benutzer, Hostnames, Domains, IP-Adressen oder URLs, bei denen der Leser eigene Daten einsetzen muss.
 
-Standardmäßig solltest du immer `[dein_Attribut]` verwenden, um zwischen statischen Elementen und eindeutigen Elementen zu unterscheiden, wobei `[Attribut]` durch die Art des Attributs ersetzt werden sollte. Wenn du zum Beispiel eine IP-Adresse nennst, solltest du `[deine_server_ip]` in deinem Blogpost angeben, oder wenn du eine URL nennst, solltest du `http://[deine_server_ip]:30120` angeben. Dadurch werden die Attribute, die der Leser aufgrund seiner eigenen Konfiguration ändern muss, klar unterschieden. Außerdem solltest du dem Leser bei der ersten Erwähnung des Blogposts eine Erklärung oder einen Hinweis geben, welche Attribute er ändern muss, um sicherzustellen, dass alles verstanden wird.
+Standardmäßig solltest du immer `[dein_attribut]` verwenden, um statische von individuellen Elementen zu unterscheiden, wobei `[attribut]` durch den Typ ersetzt wird. Beispiel: Bei einer IP schreibst du `[deine_server_ip]` oder bei einer URL `http://[deine_server_ip]:30120`. So weiß der Leser genau, was er anpassen muss. Erkläre oder weise beim ersten Mal darauf hin, welche Attribute geändert werden müssen.
 
-Du solltest `zaphosting` als Standard-Hostname, -Benutzername oder -Datenbankname verwenden.
+Als Standard-Hostname, Benutzername oder Datenbankname solltest du `zaphosting` verwenden.
 
 ### Software
 
-Wenn du in deinem Blogbeitrag Software erwähnst, solltest du sicherstellen, dass du die korrekte Schreibweise und Großschreibung für den Namen der Software einhältst. Wenn die Software-Website die Groß- und Kleinschreibung nicht einheitlich handhabt, solltest du darauf achten, dass du innerhalb eines Artikels dieselbe Groß- und Kleinschreibung verwendest, um die Konsistenz zu wahren.
+Wenn du Software erwähnst, achte auf korrekte Schreibweise und Groß-/Kleinschreibung. Falls die Webseite der Software inkonsistent ist, bleib innerhalb eines Artikels bei einer Schreibweise, um Einheitlichkeit zu wahren.
 
-Wenn du die Software zum ersten Mal erwähnst, solltest du einen Hyperlink zur Website der Software setzen, sofern eine offizielle Website vorhanden ist.
+Verlinke beim ersten Erwähnen der Software auf die offizielle Webseite, sofern verfügbar.

@@ -1,7 +1,7 @@
 ---
 id: vserver-windows-joplin
 title: "VPS: Setup Joplin on Windows"
-description: Information on how to setup Joplin on your Windows VPS from ZAP-Hosting - ZAP-Hosting.com documentation
+description: "Discover how to organize and sync encrypted Markdown notes across devices with Joplin for secure, flexible note-taking → Learn more now"
 sidebar_label: Install Joplin
 services:
 - vserver

@@ -1,6 +1,7 @@
 ---
 id: satisfactory-addmods
 title: "Satisfactory: Install Mods"
+description: "Discover how to safely manage and install mods for Satisfactory servers while protecting your savegame → Learn more now"
 sidebar_label: Install Mods
 services:
   - gameserver-satisfactory

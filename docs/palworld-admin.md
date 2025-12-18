@@ -1,7 +1,7 @@
 ---
 id: palworld-admin
 title: "Palworld: Setup Admin"
-description: Information about setting up and adding yourself as admin for a Palworld server from ZAP-Hosting - ZAP-Hosting.com documentation
+description: "Discover how to secure your Palworld server with an admin password and manage trusted players effectively → Learn more now"
 sidebar_label: Setup Admin
 services:
   - gameserver-palworld

@@ -1,7 +1,7 @@
 ---
 id: dedicated-linux-cscz
 title: "Dedicated Server: Counter-Strike: Condition Zero Dedicated Server Linux Setup"
-description: "Information about setting up an Counter-Strike: Condition Zero Dedicated Server on a Linux VPS from ZAP-Hosting - ZAP-Hosting.com documentation"
+description: "Discover how to set up a Counter-Strike: Condition Zero dedicated server on Linux VPS for seamless gameplay management → Learn more now"
 sidebar_label: "Counter-Strike: Condition Zero"
 services:
   - vserver
@@ -16,7 +16,7 @@ Do you have a Linux VPS and you want to install the Counter-Strike: Condition Ze
 Did you know that you can install our **ZAP GS/TS3 Interface** directly onto your VPS, allowing you to setup game server services, with direct integration to your ZAP-Hosting dashboard, in just a few clicks! Learn more about the [GS/TS3 Interface](dedicated-linux-gs-interface.md).
 :::
 
-<InlineVoucher />
+
 
 ## Preparation
 
@@ -63,4 +63,4 @@ Congratulations, you have successfully installed and configured the Counter-Stri
 
 For further questions or assistance, please don't hesitate to contact our support team, which is available daily to assist you! 🙂
 
-<InlineVoucher />
+

@@ -1,7 +1,7 @@
 ---
 id: domain-records
 title: "Domain: Domain records settings"
-description: Information about the domain record settings for domains at ZAP-Hosting - ZAP-Hosting.com documentation
+description: "Discover how to configure and understand different DNS record types to optimize your domain management → Learn more now"
 sidebar_label: Domain Records
 services:
   - domain
@@ -13,7 +13,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Domains can be configured easily by utilising a wide variety of DNS record types which perform different actions. In this guide, we will cover all of the different record types and explain how they work.
 
-
+<InlineVoucher />
 
 ## Configuration
 

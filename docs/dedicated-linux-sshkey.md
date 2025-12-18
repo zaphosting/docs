@@ -1,7 +1,7 @@
 ---
 id: dedicated-linux-sshkey
 title: "Dedicated Server: Generating and using SSH keys for Linux servers"
-description: Information on how to generate an SSH key for on your Linux Dedicated Server from ZAP-Hosting and how to use the key - ZAP-Hosting.com documentation
+description: "Discover how to securely generate and manage SSH keys for your Linux server to enhance connection safety → Learn more now"
 sidebar_label: SSH Key
 services:
   - dedicated
@@ -9,7 +9,7 @@ services:
 
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
-<InlineVoucher />
+
 
 ## Generate SSH Key
 
@@ -95,4 +95,4 @@ Once its deceactivated, its no longer possible to reach the server via password 
 The display for "**SSH login via password**" would then also be set to "**Inactive**".
 
 
-<InlineVoucher />
+

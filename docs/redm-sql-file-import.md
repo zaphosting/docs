@@ -1,7 +1,7 @@
 ---
 id: redm-sql-file-import
 title: "RedM: SQL file import"
-description: Information on how to import SQL files into the database of your RedM server from ZAP-Hosting - ZAP-Hosting.com documentation
+description: "Discover how to properly import SQL files into your RedM database to ensure resource functionality and database integration → Learn more now"
 sidebar_label: SQL File Import
 services:
   - gameserver-redm

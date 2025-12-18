@@ -1,7 +1,7 @@
 ---
 id: satisfactory-blueprints
 title: "Satisfactory: Manage Blueprints (Import/Export)"
-description: Information on how to manage Blueprints for your Satisfactory server from ZAP-Hosting - ZAP-Hosting.com documentation
+description: "Discover how to create, share, and manage custom blueprints for efficient Satisfactory builds and layouts → Learn more now"
 sidebar_label:  Manage Blueprints
 services:
   - gameserver-satisfactory

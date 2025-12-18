@@ -1,7 +1,7 @@
 ---
 id: domain-order
 title: "Domain: Order a domain"
-description: Information about the process of ordering a new domain at ZAP-Hosting - ZAP-Hosting.com documentation
+description: "Discover how to secure your ideal domain with ZAP-Hosting and understand key registration details → Learn more now"
 sidebar_label: Order Domain
 services:
   - domain
@@ -12,6 +12,8 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 ## Introduction
 
 Here at ZAP-Hosting, we offer a wide variety of popular domains including gTLD's such as `.com` and `.net`, that you can order directly through our [Domain configurator](https://zap-hosting.com/en/shop/product/domain/). In this guide, we will explore the order process in-depth.
+
+<InlineVoucher />
 
 ## Ordering a New Domain
 

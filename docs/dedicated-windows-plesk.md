@@ -1,7 +1,7 @@
 ---
 id: dedicated-windows-plesk
 title: "Dedicated Server: Installation of Plesk "
-description: Information on how to install Plesk on your Windows Dedicated Server from ZAP-Hosting - ZAP-Hosting.com documentation
+description: "Discover how to efficiently manage websites and servers with Plesk for both beginners and experts → Learn more now"
 sidebar_label: Install Plesk
 services:
   - dedicated
@@ -13,7 +13,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Plesk is a comprehensive web hosting and server management platform that allows users to manage websites, servers, email accounts and more through a user-friendly interface. It is a versatile solution that is suitable for beginners as well as experienced web developers and system administrators. 
 
-<InlineVoucher />
+
 
 ## Establish a connection to the server
 
@@ -60,4 +60,4 @@ The installation process can take 30 to 60 minutes, after which Plesk would be i
 
 Congratulations, you have successfully installed Plesk. For further questions or assistance, please don't hesitate to contact our support team, which is available daily to assist you! 🙂
 
-<InlineVoucher />
+

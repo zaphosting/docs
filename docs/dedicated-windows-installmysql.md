@@ -1,7 +1,7 @@
 ---
 id: dedicated-windows-installmysql
 title: "Dedicated Server: Installation of MySQL"
-description: Information on how to install and set up a MySQL server on your Windows Dedicated Server from ZAP-Hosting - ZAP-Hosting.com documentation
+description: "Learn how to set up and secure your own MySQL database server on a Windows Dedicated Server for reliable data management → Learn more now"
 sidebar_label: Install MySQL
 services:
   - dedicated
@@ -13,7 +13,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 A MySQL server is needed for various applications and can contain important data for example for a game server or a website. In the following we explain how to set up your own MySQL database server on your Windows Dedicated Server.
 
-<InlineVoucher />
+
 
 ## Installation
 
@@ -54,4 +54,4 @@ Now you can access your MySQL server externally!
 
 Congratulations, you have successfully installed the MySQL server. For further questions or assistance, please don't hesitate to contact our support team, which is available daily to assist you! 🙂
 
-<InlineVoucher />
+

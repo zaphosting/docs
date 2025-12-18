@@ -1,7 +1,7 @@
 ---
 id: gmod-ttt
 title: "Garry's Mod: Konfiguration"
-description: Informationen zu den Konfigurationsmöglichkeiten deines Garry's Mod TTT-Server von ZAP-Hosting - ZAP-Hosting.com Dokumentation
+description: "Entdecke, wie du deine TTT-Server-Einstellungen für besseres Gameplay und Rundenmanagement optimierst → Jetzt mehr erfahren"
 sidebar_label: Garry's Mod TTT Konfiguration
 services:
   - gameserver-gmod
@@ -9,172 +9,176 @@ services:
 
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
-## Die Grundkonfiguration deines TTT-Servers
+## Die Konfiguration deines TTT-Servers
 
-**Bitte beachte, dass der Server für alle Änderungen heruntergefahren sein muss!**
+**Wichtig: Schalte deinen Server für alle Änderungen aus.**
 
-Einige Basiseinstellungen kannst du bereits bequem in unserem Webinterface setzen, wie den Servernamen, das Rcon- und Serverpasswort.
+Die Basis-Konfiguration kannst du ganz easy in unserem Webinterface erledigen, z.B. Servername, Rcon- und Serverpasswort.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/pG2sJYgn7aRx2Dm/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/6TACDQ4QGXkRfrX/preview)
 
-Sofern du diese Einstellungen nach deinen Wünschen angepasst hast, können nun die spezifischen Einstellungen des TTT-Gamemodes verändert werden. Hierbei kannst du bequem unseren Config-Editor im Webinterface nutzen, selbstverständlich ist eine Bearbeitung der Datei auch via FTP möglich.
+Wenn du den Server nach deinen Wünschen eingestellt hast, geht’s weiter mit der Konfiguration der speziellen TTT-Gamemode-Einstellungen. Dafür kannst du unser Webinterface nutzen oder die Datei per FTP anpassen.
 
-In unserem Webinterface findest du diese Funktion unter "Configs" dort öffnest du die server.cfg
+Den Konfigurations-Editor findest du in unserem Webinterface unter dem Tab „Configs“, dort öffnest du die server.cfg.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/WGbPdFAPHWPkLBS/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/MjC5XoBCzc2tsMo/preview)
 
-Dort finden wir die Einstellungen von unserem TTT Server, die wichtigsten Variablen kurz erklärt:
+Dort findest du die Werte, um das Gameplay auf deinem TTT-Server anzupassen. Die wichtigsten Variablen kurz erklärt:
 
 <InlineVoucher />
 
 ## Runden und Mapwechsel
-ttt_round_limit 
-:::info
-Dieser Wert legt die Anzahl der Runden bis zum nächsten Mapwechsel fest. (Standardmäßig: 6)
+
+ttt_round_limit  
+:::info  
+Maximale Anzahl an Runden, bis die Map gewechselt wird. (Standard: 6)  
 :::
 
-ttt_time_limit_minutes
-:::info
-Hiermit definierst du die Zeit bis zum Mapwechsel oder einer Abstimmung. (Standardmäßig: 75)
+ttt_time_limit_minutes  
+:::info  
+Maximale Minutenanzahl bis zum Mapwechsel oder Start einer Abstimmung. (Standard: 75)  
 :::
 
-ttt_postround_dm
-:::info
-Sofern dieser Wert auf 1 steht, ist es möglich sich nach einer Runde gegenseitig zu töten. (Standardmäßig: 1)
+ttt_postround_dm  
+:::info  
+Erlaubt Schaden nach Ende einer Runde. Kills werden nicht für die Wertung gezählt, also freies Chaos. (Standard: 1)  
 :::
 
-ttt_ragdoll_pinning_innocents 
-:::info
-Sofern dieser Wert auf 1 steht, ist es für die Innocents möglich, Leichen an Wänden und Decken aufzuhängen. (Standardmäßig: 1)
+ttt_ragdoll_pinning_innocents  
+:::info  
+Erlaubt es auch Nicht-Verrätern, Leichen festzupinnen. (Standard: 1)  
 :::
 
 ## Gameplay
-ttt_traitor_pct
-:::info
-Dieser Wert definiert die prozentuale Anzahl der Spieler, welche Verräter sind. Die Anzahl der Spieler wird mit diesem Wert multipliziert. (Standardmäßig: 0.25)
+
+ttt_traitor_pct  
+:::info  
+Prozentsatz der Spieler, die Verräter sind. Die Spieleranzahl wird mit diesem Wert multipliziert und abgerundet. Ergebnis wird auf mindestens 1 und maximal Spieleranzahl begrenzt. (Standard: 0.25)  
 :::
 
-ttt_traitor_max
-:::info
-Die maximale Anzahl von Verrätern. (Standardmäßig: 32)
+ttt_traitor_max  
+:::info  
+Maximale Anzahl an Verrätern. (Standard: 32)  
 :::
 
-ttt_detective_pct 
-:::info
-Dieser Wert definiert die prozentuale Anzahl der Spieler, welche Detektive sind. Die Anzahl der Spieler wird mit diesem Wert multipliziert. (Standardmäßig: 0.13)
+ttt_detective_pct  
+:::info  
+Prozentsatz der Spieler, die Detektive sind. (Standard: 0.13)  
 :::
 
-ttt_detective_max
-:::info
-Die maximale Anzahl von Detektivten (Standardmäßig: 32)
+ttt_detective_max  
+:::info  
+Maximale Anzahl an Detektiven. Damit kannst du Detektive begrenzen oder deaktivieren. (Standard: 32)  
 :::
 
-ttt_detective_min_players
-:::info
-Definiert die minimale Anzahl von Spielern, ab welcher ein Detektiv vorhanden sein soll (Standardmäßig: 5)
+ttt_detective_min_players  
+:::info  
+Minimale Spieleranzahl, bevor Detektive ins Spiel kommen. (Standard: 5)  
 :::
 
-ttt_detective_karma_min
-:::info
-Wenn ein Spieler unter diesen Wert fällt, sinkt die Chance ein Detektiv zu sein. (Standardmäßig: 600)
+ttt_detective_karma_min  
+:::info  
+Wenn das Karma eines Spielers unter diesen Wert fällt, sinken seine Chancen, als Detektiv ausgewählt zu werden. (Standard: 600)  
 :::
 
-ttt_minimum_players
-:::info
-Die Anzahl der Spieler, welche mindestens auf dem Server sein müssen, damit eine Runde beginnt. (Standardmäßig: 2)
+ttt_minimum_players  
+:::info  
+Anzahl der Spieler, die mindestens da sein müssen, bevor die Runde startet. Wird vor der Vorbereitungsphase und vor Rundenstart geprüft. (Standard: 2)  
 :::
 
 ## DNA
-ttt_killer_dna_range
-:::info
-Maximaler Bereich, um welchen eine DNA-Probe hinterlassen wird. (Standardmäßig: 300)
+
+ttt_killer_dna_range  
+:::info  
+Maximale Reichweite, in der eine DNA-Probe des Killers auf der Leiche des Opfers hinterlassen wird. (Standard: 300)  
 :::
 
 ## Karma
-ttt_karma
-:::info
-Aktiviert oder deaktiviert das Karma-System. Spieler starten mit einer bestimmten Anzahl von Karma-Punkten, sie verlieren diese durch das verletzen oder töten von Team-Mitgliedern. Die Menge hängt vom Karma-Wert des getöteten/verletzten ab. (Standardmäßig: 1)
+
+ttt_karma  
+:::info  
+Aktiviert das Karma-System. Spieler starten mit einem Karma-Wert und verlieren Karma, wenn sie „Teammitglieder“ (also Unschuldige, wenn sie unschuldig sind, oder Verräter, wenn sie Verräter sind) verletzen oder töten. Der Verlust hängt vom Karma des Opfers ab. (Standard: 1)  
 :::
 
-ttt_karma_strict
-:::info
-Wenn aktiviert, erhöht sich der Abzug des Karmas deutlich, der sogenannte Strenge-Modus. (Standardmäßig: 1)
+ttt_karma_strict  
+:::info  
+Wenn aktiviert, steigt die Schadensstrafe schneller, je niedriger das Karma wird. Bei deaktiviertem strict ist die Schadensstrafe sehr niedrig, solange das Karma über 800 bleibt. (Standard: 1)  
 :::
 
-ttt_karma_starting
-:::info
-Dieser Wert definiert die Anzahl der Karma-Punkte bei einem neuen Spieler. (Standardmäßig: 1000)
+ttt_karma_starting  
+:::info  
+Start-Karma der Spieler. Wenn du willst, dass Spieler einen Schadensbonus „verdienen“ können, setz das z.B. auf 850. Sauberes Spielen lässt das Karma auf 1000 steigen, was ein paar Prozent mehr Schaden als ein neuer Spieler bedeutet. (Standard: 1000)  
 :::
 
-ttt_karma_max
-:::info
-Die maximale Anzahl an Karma, welche ein Spieler haben kann. (Standardmäßig: 1000)
+ttt_karma_max  
+:::info  
+Maximales Karma, das ein Spieler haben kann. Werte über 1000 geben keinen Schadensbonus, sondern nur einen „Puffer“, bevor eine Schadensstrafe einsetzt. (Standard: 1000)  
 :::
 
-ttt_karma_ratio
-:::info
-Definiert wieviel Karma abgezogen wird. (Standardmäßig: 0.001)
+ttt_karma_ratio  
+:::info  
+Verhältnis des Schadens, das genutzt wird, um zu berechnen, wie viel Karma des Opfers vom Angreifer abgezogen wird. (Standard: 0.001)  
 :::
 
-ttt_karma_kill_penalty
-:::info
-Die Karma-Strafe basiert auf dem verursachten Schaden. Die Todesstrafe ist nur eine zusätzliche Menge an Schäden, der verursacht wird, wenn sie jemanden töten. z.B. Bei einem Heaadshot wird statt 100, 200 abgezogen. (Standardmäßig: 15)
+ttt_karma_kill_penalty  
+:::info  
+Alle Karma-Strafen basieren auf dem verursachten Schaden. Die Kill-Strafe ist ein zusätzlicher „Schaden“, der beim Töten angerechnet wird. Wenn dieser Wert z.B. 100 ist und du jemanden mit einem Kopfschuss tötest, wird dir so getan, als hättest du 200 Schaden verursacht. (Standard: 15)  
 :::
 
-ttt_karma_round_increment
-:::info
-Die Grundanzahl, um wie viele Punkte das Karma sich am Rundenende "heilt" (Standardmäßig: 5)
+ttt_karma_round_increment  
+:::info  
+Grundwert, um den das Karma am Ende jeder Runde „geheilt“ wird. (Standard: 5)  
 :::
 
-ttt_karma_clean_bonus
-:::info
-Wenn ein Spieler nimenaden verletzt oder tötet, erhält er diesen Wert als Bonus am Rundenende. (Standardmäßig: 30)
+ttt_karma_clean_bonus  
+:::info  
+Wenn ein Spieler in der Runde keine Teammitglieder verletzt oder getötet hat, bekommt er extra 30 Karma „geheilt“. (Standard: 30)  
 :::
 
-ttt_karma_traitordmg_ratio 
-:::info
-Definiert den Wert, wie viele Karma-Punkte erhalten werden, wenn ein Verräter verletzt wird. (Standardmäßig: 30)
+ttt_karma_traitordmg_ratio  
+:::info  
+Wie ttt_karma_ratio, aber für die Karma-Belohnung, wenn man einen Verräter verletzt. Standardmäßig wird das Belohnt mit ca. 1/4 der Strafe, die man bekommen würde, wenn es ein Unschuldiger mit vollem Karma wäre. (Standard: 30)  
 :::
 
-ttt_karma_traitorkill_bonus
-:::info
-Bonus Karma, wenn ein Verräter getötet wird. (Standardmäßig: 40)
+ttt_karma_traitorkill_bonus  
+:::info  
+Bonus-Karma für das Töten eines Verräters. (Standard: 40)  
 :::
 
-ttt_karma_low_autokick
-:::info
-Aktiviert oder deaktiviert den Autokick eines Spielers mit niedrigem Karma-Level am Rundenende (Standardmäßig: 1)
+ttt_karma_low_autokick  
+:::info  
+Spieler mit niedrigem Karma werden am Ende der Runde automatisch gekickt. (Standard: 1)  
 :::
 
-ttt_karma_low_amount
-:::info
-Definiert den Karma Punktestand, ob ein Spieler am Rundenende gekickt wird oder nicht. (Standardmäßig: 300)
+ttt_karma_low_amount  
+:::info  
+Karma-Level, bei dem Spieler am Rundenende gekickt werden. (Standard: 300)  
 :::
 
-ttt_karma_low_ban
-:::info
-Sofern Autokick aktiviert ist, werden Spieler auch gebannt, wenn dieser Wert auf 1 steht. (Standardmäßig: 1)
+ttt_karma_low_ban  
+:::info  
+Wenn low_autokick aktiviert ist, werden Spieler zusätzlich gebannt, wenn diese Option an ist. Keine Wirkung, wenn Autokick aus ist. (Standard: 1)  
 :::
 
-ttt_karma_low_ban_minutes
-:::info
-Definiert die Ban-Zeit welche durch einen Karma-Ban ausgelöst wird. (in Minuten) (Standardmäßig: 60)
+ttt_karma_low_ban_minutes  
+:::info  
+Dauer des Banns in Minuten. (Standard: 60)  
 :::
 
-ttt_karma_persist
-:::info
-Sofern aktiviert, werden die Karma-Punkte beim disconnecten gespeichert. (Standardmäßig: 1)
+ttt_karma_persist  
+:::info  
+Speichert das Karma eines Spielers dauerhaft am Rundenende oder bei Disconnect. Beim Wiedereinloggen wird es geladen, sodass das Karma auch bei Mapwechsel erhalten bleibt. (Standard: 1)  
 :::
 
-ttt_karma_clean_half
-:::info
-Wenn das Karma eines Spielers über dem Startlevel liegt (was bedeutet, dass das Karma-Maximum höher konfiguriert wurde), werden alle seine Karma-Erhöhungen reduziert, je nachdem, wie weit sein Karma über diesem Startlevel liegt. Je höher es ist, desto langsamer steigt es. Wenn der Standardwert 0,25 ist und die Startmenge von Karma 1000 und die maximale Menge von 1500 beträgt und ein Spieler Karma 1125 ((1500 - 1000) * 0,25 = 125) hat, beträgt sein Bonus für die saubere Runde 30/2 = 15. (Standardmäßig 0.25)
+ttt_karma_clean_half  
+:::info  
+Wenn das Karma eines Spielers über dem Startwert liegt (also wenn das maximale Karma höher als der Startwert konfiguriert ist), werden alle Karma-Zuwächse basierend darauf reduziert, wie weit das Karma über dem Startwert liegt. Je höher das Karma, desto langsamer steigt es. (Standard: 0.25)  
 :::
 
-Wenn du alle Variablen angepasst hast, musst du deine Änderungen nur noch speichern.
+Wenn du alle Variablen nach Wunsch angepasst hast, ist der nächste Schritt, deine Änderungen zu speichern.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/Zxy8gSLLaybioy8/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/LyEsQQ8Af8AwWj9/preview)
 
-Danach kannst du deinen Server starten! 
+Danach kannst du deinen Server starten!
 
 <InlineVoucher />

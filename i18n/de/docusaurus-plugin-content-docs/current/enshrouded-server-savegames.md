@@ -1,7 +1,7 @@
 ---
 id: enshrouded-server-savegames
 title: "Enshrouded: Enshrouded Savegames verwalten"
-description: Informationen über die Verwaltung von Savegames auf deinem Enshrouded-Server von ZAP-Hosting - ZAP-Hosting.com Dokumentation
+description: "Entdecke, wie du deine Enshrouded Gamesaves sicher verwaltest und sicherst für entspanntes Multiplayer-Gaming → Jetzt mehr erfahren"
 sidebar_label: Savegames verwalten
 services:
   - gameserver-enshrouded
@@ -11,68 +11,67 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
 
-In dieser Anleitung erfahren wir, wie du deine Enshrouded Gamesaves auf deinem Gameserver verwaltest, einschließlich der Sicherung deiner lokalen und Server-Savegames sowie des Uploads auf deinen Server.
+In dieser Anleitung zeigen wir dir, wie du deine Enshrouded Gamesaves auf deinem Gameserver verwaltest, inklusive Backup deiner lokalen und Server-Savegames sowie dem Hochladen auf deinen Server.
 
 <InlineVoucher />
 
-## Voraussetzungen
+## Vorbereitung
 
-Um auf die Dateien deines Servers zugreifen zu können, benötigst du einen FTP-Client wie [WinSCP](https://winscp.net/eng/index.php) oder [FileZilla](https://filezilla-project.org/), die beide Open-Source sind und kostenlos heruntergeladen werden können.
+Um auf deine Server-Dateien zugreifen zu können, benötigst du einen FTP-Client wie [WinSCP](https://winscp.net/eng/index.php) oder [FileZilla](https://filezilla-project.org/), die beide Open-Source und kostenlos sind.
 
-Du musst dich über einen FTP-Client mit deinem Server verbinden, indem du die Zugangsdaten verwendest, die du unter **Werkzeuge->FTP-Broswer** im Webinterface deines Gameservers findest. Bitte benutze unsere [Zugriff per FTP](gameserver-ftpaccess.md) Anleitung als weitere Hilfe, um dich mit deinem Server zu verbinden.
+Du musst dich mit deinem FTP-Client über die Zugangsdaten verbinden, die du im **Tools->FTP-Browser** Bereich im Webinterface deines Gameservers findest. Nutze gerne unsere [Zugriff via FTP](gameserver-ftpaccess.md) Anleitung, falls du Hilfe beim Verbinden brauchst.
 
-
-## Backup Savegame
+## Savegame sichern
 
 ### Lokales Savegame
 
-Lokale Savegames sind Savegames, die du erstellt hast, während du ein Multiplayer-Spiel lokal auf deinem Gerät hostest. Standardmäßig nutzt Enshrouded die Steam Cloud, um dein Savegame automatisch zu sichern. Um darauf zugreifen zu können, musst du in den Ordner "Steam Userdata" gehen, um auf die Spieldaten zuzugreifen. Gehe zu dem folgenden Pfad:
+Lokale Savegames sind solche, die du erstellt hast, während du ein Multiplayer-Spiel lokal auf deinem Gerät gehostet hast. Standardmäßig nutzt Enshrouded Steam Cloud, um dein Savegame automatisch zu sichern. Um darauf zuzugreifen, musst du in deinen Steam-Userdata-Ordner gehen. Navigiere zu folgendem Pfad:
 ```
-../Steam/userdata/[dein_steamid]/1203620/remote
+../Steam/userdata/[deine_steamid]/1203620/remote
 ```
 
 :::tip
-Bei regulären Installationen befindet sich der Steam-Ordner auf dem Laufwerk deines Betriebssystems, und zwar unter dem Pfad: C://Programmdateien x86/Steam`. Es ist möglich, dass dies bei dir anders ist, wenn du Steam woanders installiert hast.
+Bei normalen Installationen findest du den Steam-Ordner auf deinem Systemlaufwerk unter: `C://Program Files x86/Steam`. Beachte, dass der Pfad abweichen kann, wenn du Steam an einem anderen Ort installiert hast.
 :::
 
-Sobald du diesen Ordner erreicht hast, siehst du eine Zeichendatei mit allen deinen lokalen Savegames an einem Ort. 
+Sobald du diesen Ordner erreicht hast, siehst du eine Datei mit Charakterdaten sowie alle deine lokalen Savegames an einem Ort.
 
 ![](https://github.com/zaphosting/docs/assets/42719082/31022018-3072-4b40-85f0-77f9da992ccc)
 
 :::note
-Wenn du explizit **nicht** die Steam Cloud zum Speichern verwendest, findest du deinen Speicherordner in folgendem Verzeichnis: `C://Users/[deinBenutzer]/Saved Games/Enshrouded`.
+Falls du explizit **nicht** Steam Cloud zum Speichern nutzt, findest du deinen Savegame-Ordner unter: `C://Users/[deinuser]/Saved Games/Enshrouded`.
 :::
 
-### Zugriff auf das Savegame über FTP
+### Savegame per FTP zugreifen
 
-Das Sichern deines Savegames vom Server aus ist ganz einfach. Sobald du dich über einen FTP-Client mit deinem Gameserver verbunden hast, gehst du zu folgendem Pfad:
+Das Backup deines Savegames vom Server ist easy. Sobald du dich mit deinem FTP-Client mit deinem Gameserver verbunden hast, navigiere zu folgendem Pfad:
 ```
 ../enshrouded/savegame/
 ```
 
-An diesem Ort solltest du eine Datei mit zufälligen Zeichen sehen, die dein Savegame ist. Klicke einfach mit der rechten Maustaste auf die Datei und benutze den Button **Download**, um sie lokal auf deinem Gerät zu speichern.
+Dort findest du eine Datei mit zufälligen Zeichen – das ist dein Savegame. Rechtsklick drauf und **Download** auswählen, um es lokal auf deinem Gerät zu speichern.
 
 ![](https://github.com/zaphosting/docs/assets/42719082/e7c230a3-a2cb-4ae0-a0dc-6d2211edd06c)
 
-### Automatische Sicherung
+### Automatisches Backup
 
-Wir bieten auch die Möglichkeit, dein Savegame (und deine Konfigurationsdatei) direkt über unser Webinterface automatisch zu sichern. Rufe einfach das Webinterface deines Gameservers auf und gehe in den Bereich **Tools->Backups**. Hier kannst du eine Reihe von Optionen konfigurieren, um automatische Backups für deinen Server zu planen. Wir stellen dir 10gb kostenlosen Backup-Speicher zur Verfügung, in dem deine Backups gespeichert werden. Weitere Informationen zu Backups findest du in unserer [Backups](gameserver-backups.md) Anleitung zu diesem Thema.
+Wir bieten dir auch die Möglichkeit, dein Savegame (und die Konfigurationsdatei) direkt über unser Webinterface automatisch sichern zu lassen. Gehe dazu einfach im Webinterface deines Gameservers auf **Tools->Backups**. Dort kannst du verschiedene Optionen einstellen, um automatische Backups zu planen. Du bekommst 10 GB kostenlosen Backup-Speicher, in dem deine Backups abgelegt werden. Für mehr Infos zu Backups schau dir unsere spezielle [Backups](gameserver-backups.md) Anleitung an.
 
 ## Savegame hochladen
 
-Ähnlich wie das Sichern ist auch das Hochladen deines Savegames ganz einfach. Stelle zunächst sicher, dass du dich über einen FTP-Client mit deinem Gameserver verbindest. Sobald du bereit bist, gehst du zu folgendem Pfad:
+Das Hochladen deines Savegames ist genauso easy wie das Backup. Verbinde dich zuerst mit deinem Gameserver per FTP-Client. Navigiere dann zu folgendem Pfad:
 ```
 ../enshrouded/savegame/
 ```
 
 ![](https://github.com/zaphosting/docs/assets/42719082/e465680f-65bc-456d-bd99-fbdff755defb)
 
-Ziehe einfach eines deiner Savegames mit deinem FTP-Client in diesen Ordner und es wird auf deinen Server hochgeladen.
+Zieh einfach dein Savegame per Drag & Drop in diesen Ordner im FTP-Client und es wird auf deinen Server hochgeladen.
 
 ## Savegame aktivieren
 
-Die Verwendung deines Savegames ist sehr einfach. Verbinde dich einfach mit deinem Server und wähle während der Spieleinstellungen ein bestimmtes Savegame aus, das du verwenden möchtest. Der Name des Spielstands, das Level und das Datum des letzten Spiels werden unter jedem Spielstand angezeigt, damit du erkennen kannst, welchen du auswählen möchtest.
+Dein Savegame zu nutzen ist super simpel. Verbinde dich mit deinem Server und im Spiel-Setup kannst du dann das gewünschte Savegame auswählen. Der Name, das Level und das letzte Spiel-Datum werden unter jedem Save angezeigt, damit du leicht erkennst, welches du laden möchtest.
 
-Du hast erfolgreich ein Savegame zu deinem Gameserver hinzugefügt.
+Du hast erfolgreich ein Savegame auf deinem Gameserver hinzugefügt.
 
 <InlineVoucher />

@@ -1,7 +1,7 @@
 ---
 id: dedicated-windows-soulmask
 title: "Dedicated Server: Soulmask Dedicated Server Windows Setup"
-description: Information about setting up a Soulmask Dedicated Server on a Windows Dedicated Server from ZAP-Hosting - ZAP-Hosting.com documentation
+description: "Discover how to install the Soulmask dedicated server on your Windows VPS or dedicated server quickly and efficiently → Learn more now"
 sidebar_label: Soulmask
 services:
   - dedicated
@@ -14,7 +14,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Do you have a Windows VPS or dedicated server and you want to install the Soulmask Dedicated server service on it? You are in the right place. In this guide, we will explain the step by step process of installing this service on your server.
 
-<InlineVoucher />
+
 
 ## Preparation
 
@@ -122,4 +122,4 @@ If you wish your server to be available in the server list, please check out our
 
 You have successfully installed Soulmask on your Windows Dedicated Server.
 
-<InlineVoucher />
+

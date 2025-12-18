@@ -1,7 +1,7 @@
 ---
 id: dedicated-windows-arksurvivalascended
 title: "Dedicated Server: ARK Survival Ascended Dedicated Server Windows Setup"
-description: Information about setting up an ARK Survival Ascended Dedicated Server on a Windows Dedicated Server from ZAP-Hosting - ZAP-Hosting.com documentation
+description: "Discover how to set up an ARK: Survival Ascended Dedicated Server on your Windows VPS or dedicated server quickly and easily → Learn more now"
 sidebar_label: ARK Survival Ascended
 services:
   - dedicated
@@ -15,7 +15,7 @@ Do you have a Windows VPS or dedicated server and you want to install the ARK: S
 
 <YouTube videoId="NvaXYjLSCn8" imageSrc="https://screensaver01.zap-hosting.com/index.php/s/RpJWENYeqgTQaee/preview" title="ARK: Survival Ascended Dedicated Server Setup on Windows VPS" description="Feel like you understand better when you see things in action? We’ve got you! Dive into our video that breaks it all down for you. Whether you're in a rush or just prefer to soak up information in the most engaging way possible!"/>
 
-<InlineVoucher />
+
 
 ## Preparation
 
@@ -168,4 +168,4 @@ This will open the server's console in a command prompt and begin the startup pr
 
 You have successfully installed Ark: Survival Ascended on your Windows Dedicated Server.
 
-<InlineVoucher />
+

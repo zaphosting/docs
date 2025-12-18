@@ -1,7 +1,7 @@
 ---
 id: satisfactory-savegame
 title: "Satisfactory: Manage Savegames"
-description: Information on how to manage savegames on your Satisfactory server from ZAP-Hosting - ZAP-Hosting.com documentation
+description: "Discover how to manage and back up your Satisfactory game saves locally and on your server for secure gameplay → Learn more now"
 sidebar_label: Managing Savegames
 services:
   - gameserver-satisfactory

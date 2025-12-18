@@ -1,7 +1,7 @@
 ---
 id: groundbranch-troubleshooting-common-issues
 title: "Ground Branch: Common issues"
-description: "Information on how to resolve common issues on a Ground Branch server from ZAP-Hosting - ZAP-Hosting.com documentation"
+description: "Discover how to troubleshoot and resolve common Ground Branch server issues for a smooth gaming experience → Learn more now"
 sidebar_label: Common issues
 services:
   - gameserver-groundbranch

@@ -1,7 +1,7 @@
 ---
 id: dedicated-linux-wine
 title: "Dedicated Server: Wine Compatibility Layer Linux Setup"
-description: Information about setting up the Wine (WineHQ) Windows compatibility layer on a Linux Dedicated Server from ZAP-Hosting - ZAP-Hosting.com documentation
+description: "Discover how to set up Wine on Linux to run Windows game servers smoothly on Ubuntu and similar systems → Learn more now"
 sidebar_label: Setup Wine Compatibility Layer
 services:
   - dedicated
@@ -13,7 +13,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Wine is an open-source compatibility layer for Linux which allows software that is originally developed for Windows to run on Linux systems. This is especially important for dedicated game servers that only offer Windows server files and may be required as a prerequisite for our other Linux dedicated game server guides. In this guide, we will explore the first-time setup process for installing Wine to your Linux server. We will be using Ubuntu in the examples, but the process should be very similar for other distributions.
 
-<InlineVoucher />
+
 
 ## Preparation
 
@@ -57,4 +57,4 @@ You have now successfully setup the Wine comaptibility layer, which will allow y
 
 We recommend checking out the other guides in this section which cover installing specific games through the use of SteamCMD and potentially Wine for Windows-based dedicated server files.
 
-<InlineVoucher />
+

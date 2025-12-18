@@ -1,8 +1,8 @@
 ---
 id: dedicated-setup
-title: "Dedicated Server: Ersteinrichtung"
-description: Informationen über die Ersteinrichtung deines dedizierten Servers von ZAP-Hosting - ZAP-Hosting.com Dokumentation
-sidebar_label: Ersteinrichtung
+title: "Dedicated Server: Erste Einrichtung"
+description: "Entdecke, wie du deinen ZAP Dedicated Server ganz easy einrichtest und Zugriff auf verschiedene Betriebssysteme bekommst → Jetzt mehr erfahren"
+sidebar_label: Erste Einrichtung
 services:
   - dedicated
 ---
@@ -10,28 +10,24 @@ services:
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
-Du bist noch neu in diesem Bereich und hast die Befürchtung, dass du der Einrichtung solch eines Dienstes nicht gewachsen bist oder bei der Einrichtung auf Schwierigkeiten stoßen könntest? Keine Sorge! Diese Anleitung und unser Einrichtungsassistent bringen dich einfach durch alle Schritte für die Erstinstallation deines ZAP Dedicated Servers.
-
-<InlineVoucher />
+Bist du noch neu in dem Bereich und hast Bedenken, ob du die Einrichtung so eines Services hinkriegst oder ob es dabei Schwierigkeiten geben könnte? Kein Stress! Diese Anleitung und unser Setup-Assistent führen dich Schritt für Schritt durch die erste Einrichtung deines ZAP Dedicated Servers.
 
 ## Vorbereitung
 
 ### iLO aktivieren
-Für die Ersteinrichtung muss die iLO Verwaltungsoberfläche zunächst aktiviert werden. Dieser Vorgang kann einen Augenblick beanspruchen. Für weitere Informationen und weitere Verwendung der iLO Verwaltungsoberfläche empfehlen wir einen Blick in die [iLO](dedicated-ilo.md) Anleitung zu werfen. 
+Für die erste Einrichtung muss zuerst die iLO-Administrationsoberfläche aktiviert werden. Das kann einen Moment dauern. Für mehr Infos und zur weiteren Nutzung der iLO-Oberfläche empfehlen wir dir einen Blick in die [iLO](dedicated-ilo.md) Anleitung.
 
-![DE](https://screensaver01.zap-hosting.com/index.php/s/tmE6pKr43a4DE2T/preview)
+![EN](https://screensaver01.zap-hosting.com/index.php/s/xmAFAt4CXTt7b7c/preview)
 
-Sobald die iLO aktiviert ist, sollte dir der iLO-Status als **Aktiv** angezeigt werden. Die iLO Session ist standardmäßig immer für drei Stunden aktiviert und muss im Anschluss erneut aktiviert werden, wenn darauf zurückgegriffen werden soll. Es kann nun mit der Auswahl der ISO fortgefahren werden. 
+Sobald iLO aktiviert ist, sollte der iLO-Status als **Aktiv** angezeigt werden. Die iLO-Sitzung ist standardmäßig immer für drei Stunden aktiviert und muss danach erneut aktiviert werden, falls du wieder darauf zugreifen möchtest. Jetzt kannst du mit der Auswahl des ISO weitermachen.
 
 ### ISO auswählen
 
-Als Nächstes muss eine ISO ausgewählt werden, die für die Ersteinrichtung gemountet werden soll. Klicke dazu auf das Drop-down-Menü, wähle eine ISO-Datei aus und klicke auf den Button **Einlegen**.  
+Der nächste Schritt ist, ein ISO auszuwählen, das für die erste Einrichtung gemountet werden soll. Klicke dazu auf das Dropdown-Menü, wähle eine ISO-Datei aus und klicke auf den **Einfügen**-Button.
 
+![EN](https://screensaver01.zap-hosting.com/index.php/s/SfMfrWHpjAGeMgo/preview)
 
-![DE](https://screensaver01.zap-hosting.com/index.php/s/pC7RPXm9Yr3pD4W/preview)
-
-
-Wir stellen standardmäßig eine große Auswahl an ISO-Dateien für die gängigsten Betriebssysteme wie zum Beispiel Debian, Ubuntu, FreeBSD, Windows, CentOS, ArchLinux und Proxmox zur Verfügung. In der folgenden Tabelle findest du eine Übersicht über alle verfügbaren Betriebssysteme und dessen Versionen. 
+Wir stellen dir eine breite Auswahl an ISO-Dateien für die gängigsten Betriebssysteme wie Debian, Ubuntu, FreeBSD, Windows, CentOS, ArchLinux und Proxmox standardmäßig zur Verfügung. In der folgenden Tabelle findest du eine Übersicht aller verfügbaren Betriebssysteme und deren Versionen.
 
 | ISO (Betriebssystem) | Versionen                                              |
 | -------------------- | ------------------------------------------------------ |
@@ -43,24 +39,21 @@ Wir stellen standardmäßig eine große Auswahl an ISO-Dateien für die gängigs
 | ArchLinux            | 2023                                                   |
 | Proxmox              | 8.0-2, 7.4-1, 7.1-1, 7.0-1, 6.4-1, 6.3-1               |
 
-Des Weiteren besteht ebenfalls die Möglichkeit eine eigene individuelle IOS hinzuzufügen und zu mounten. Für mehr Informationen zum mounten einer eigenen ISO Datei empfiehlt sich ein Blick in die **[Eigene ISO](dedicated-iso.md)** Anleitung zu werfen.
-
-
-
+Du kannst auch deine eigene individuelle ISO hinzufügen und mounten. Für mehr Infos, wie du deine eigene ISO-Datei mountest, schau dir am besten die **[Eigene ISO](dedicated-iso.md)** Anleitung an.
 
 ## Installation
 
 ### ISO mounten und booten
 
-Nachdem die ISO-Datei erfolgreich ausgewählt und eingelegt wurde, muss das System nun einmal neu gestartet werden, damit das System die Änderung übernimmt und den Starvorgang über die ISO-Datei durchführt. Klicke dafür auf den **Neustarten** Button. Es kann einen Augenblick dauern, bis der Neustart abgeschlossen wurde. 
+Sobald die ISO-Datei erfolgreich ausgewählt und eingefügt wurde, muss das System einmal neu gestartet werden, damit die Änderung übernommen wird und der Bootvorgang über die ISO-Datei erfolgt. Klicke dafür einfach auf den **Reboot**-Button. Der Neustart kann einen Moment dauern.
 
-![DE](https://screensaver01.zap-hosting.com/index.php/s/G6m3nAkifF367bN/preview)
+![EN](https://screensaver01.zap-hosting.com/index.php/s/zPQagx6yD5nCM7L/preview)
 
-### iLO öffnen und Betriebssystem installieren
+### Betriebssystem mit iLO installieren
 
-Die Grundlage für die Installation deines gewünschten Betriebssystems ist nun erfüllt. Das System hat die ISO gemountet und dementsprechend die Einrichtung eingeleitet. Öffne jetzt die **ILO Verwaltungsoberfläche** deines Servers und klicke auf der Startseite (Overview) direkt auf "Intergraded Remote Console: **HTML 5**", um auf den Bildschirm deines Servers zuzugreifen. Mehr Informationen zu der Verwaltung der Konsole in der iLO Verwaltungsoberfläche kannst du aus unserer [iLO](dedicated-ilo.md) Anleitung entnehmen. 
+Die Grundlage für die Installation deines gewünschten Betriebssystems ist jetzt geschaffen. Das System hat die ISO gemountet und den Setup-Prozess gestartet. Öffne jetzt die **iLO-Administrationsoberfläche** deines Servers und klicke direkt auf „Integrated Remote Console: **HTML 5**“, um auf den Bildschirm deines Servers zuzugreifen. Mehr Infos zur Verwaltung der Konsole in der iLO-Oberfläche findest du in unserer [iLO](dedicated-ilo.md) Anleitung.
 
-In der HTML-Konsole wird nun die Einrichtung des Betriebssystems fortgeführt. Auch dafür bieten wir für die gängigsten Betriebssysteme ebenfalls Anleitungen an. Mehr Informationen zu den weiteren notwendigen Schritten kannst du aus einer der zutreffenden Anleitungen entnehmen:  
+Die Installation des Betriebssystems erfolgt jetzt in der HTML-Konsole. Wir bieten auch Anleitungen für die gängigsten Betriebssysteme an. Für mehr Infos zu den weiteren Schritten schau dir die passenden Anleitungen an:
 
 - [Windows installieren](dedicated-windows.md)
 - [Debian installieren](dedicated-linux-debian.md)
@@ -68,5 +61,3 @@ In der HTML-Konsole wird nun die Einrichtung des Betriebssystems fortgeführt. A
 - [FreeBSD installieren](dedicated-freebsd.md)
 - [CentOS installieren](dedicated-centos.md)
 - [Proxmox installieren](dedicated-proxmox.md)
-
-<InlineVoucher />

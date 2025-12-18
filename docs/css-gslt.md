@@ -1,7 +1,7 @@
 ---
 id: css-gslt
 title: "Counter-Strike: Source: Create a GSLT (Steam Game Server Login Token)"
-description: "Information about the creation and use of GSLT for Counter-Strike: Source server from ZAP-Hosting - ZAP-Hosting.com documentation"
+description: "Understand how to authenticate game servers with Steam's GSLT for public listing and VAC protection → Learn more now"
 sidebar_label: Create GSLT
 services:
   - gameserver-css

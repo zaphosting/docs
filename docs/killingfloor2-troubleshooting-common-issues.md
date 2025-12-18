@@ -1,7 +1,7 @@
 ---
 id: killingfloor2-troubleshooting-common-issues
 title: "Killing Floor 2: Common issues"
-description: "Information on how to resolve common issues on a Killing Floor 2 server from ZAP-Hosting - ZAP-Hosting.com documentation"
+description: "Discover how to troubleshoot and resolve common Killing Floor 2 server issues for a smooth gaming experience → Learn more now"
 sidebar_label: Common issues
 services:
   - gameserver-killingfloor2

@@ -1,7 +1,7 @@
 ---
 id: nienix-firststeps-dashboard
 title: "Nienix: Dashboard overview"
-description: Information about the dashboard of an Nienix server from ZAP-Hosting - ZAP-Hosting.com Documentation
+description: "Explore how to efficiently manage and optimize your Nienix server with a clear overview of features and options → Learn more now"
 sidebar_label: Dashboard
 services:
   - gameserver-nienix

@@ -1,7 +1,7 @@
 ---
 id: dedicated-linux-databases
 title: "Dedicated Server: Installation of Databases"
-description: Information on how to install databases on your Dedicated Server from ZAP-Hosting - ZAP-Hosting.com documentation
+description: "Explore how to install and set up various databases on Ubuntu and other Linux distros for enhanced performance and security → Learn more now"
 sidebar_label: Install Databases
 services:
   - dedicated
@@ -13,7 +13,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 This guide provides steps for the installation of various types of databases. For this example, Ubuntu 20.04 is used as the operating system, however, equivalent commands for other Linux distros that we provide on our website are also specified. These commands must be executed via SSH, if you don't know how to connect to your server via SSH, please have a look here: [Initial access (SSH)](vserver-linux-ssh.md).
 
-<InlineVoucher />
+
 
 ## Preparation
 
@@ -55,7 +55,7 @@ First of all, you need to ensure that the latest MariaDB version is being instal
 curl -sS https://downloads.mariadb.com/MariaDB/mariadb_repo_setup | sudo bash
 ```
 
-After installing the repo, update your package manager cache by following the steps provided in the [preparation step](#preparation) section.
+After installing the repo, update your package manager cache by following the steps provided in the preparation step section.
 
 :::info
 The MariaDB repo installation (step above) can be safely ignored in modern operating systems like Ubuntu 22.04 or Debian 11.
@@ -142,7 +142,7 @@ sudo yum install epel-release
 sudo dnf install https://dl.fedoraproject.org/pub/epel/epel-release-latest-8.noarch.rpm
 ```
 
-After installing the repo, update your package manager cache by following the steps in the [preparation step](#preparation) section.
+After installing the repo, update your package manager cache by following the steps in the preparation step section.
 
 :::info
 If your operating system is not listed above, then you can avoid this step.
@@ -273,4 +273,4 @@ Your MongoDB installation should be working now!
 </TabItem>
 </Tabs>
 
-<InlineVoucher />
+

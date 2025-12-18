@@ -1,7 +1,7 @@
 ---
 id: reignofkings-firststeps-dashboard
 title: "Reign of Kings: Dashboard overview"
-description: Information about the dashboard of an Reign of Kings server from ZAP-Hosting - ZAP-Hosting.com Documentation
+description: "Discover how to efficiently manage and optimize your Reign of Kings server with a clear, structured overview → Learn more now"
 sidebar_label: Dashboard
 services:
   - gameserver-reignofkings

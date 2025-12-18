@@ -1,8 +1,8 @@
 ---
 id: dedicated-linux-steamcmd
-title: "Dedicated Server: SteamCMD Linux Einrichtung"
-description: Informationen zur Einrichtung von SteamCMD auf einem Linux Dedicated Server von ZAP-Hosting - ZAP-Hosting.com Dokumentation
-sidebar_label: SteamCMD einrichten
+title: "Dedicated Server: SteamCMD Linux Setup"
+description: "Entdecke, wie du SteamCMD auf Linux-Servern einrichtest, um Dedicated Gameserver effizient zu installieren → Jetzt mehr erfahren"
+sidebar_label: SteamCMD Setup
 services:
   - dedicated
 ---
@@ -11,19 +11,18 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
 
-SteamCMD ist ein unverzichtbares Tool, das für die Installation von dedizierten Servern für eine Vielzahl von Spielen wie Palworld, Enshrouded und mehr benötigt wird. In diesem Anleitung zeigen wir dir, wie du SteamCMD zum ersten Mal auf deinem Linux-Server installierst. In den Beispielen verwenden wir Ubuntu, aber der Prozess sollte für andere Distributionen sehr ähnlich sein.
-
-<InlineVoucher />
+SteamCMD ist ein unverzichtbares Tool, das du brauchst, um Dedicated Gameserver für eine Vielzahl von Games wie Palworld, Enshrouded und mehr zu installieren. In dieser Anleitung zeigen wir dir, wie du SteamCMD zum ersten Mal auf deinem Linux-Server einrichtest. Wir nutzen Ubuntu als Beispiel, aber der Ablauf ist bei anderen Distributionen ziemlich ähnlich.
 
 ## Vorbereitung
 
-Verbinde dich zunächst über SSH mit deinem Dedicated Server. Verwende unsere Anleitung [Erstzugriff (SSH)](vserver-linux-ssh.md), wenn du dabei Hilfe brauchst.
+Verbinde dich zuerst per SSH mit deinem Dedicated Server. Falls du dabei Hilfe brauchst, schau dir unsere [SSH Initial Access](vserver-linux-ssh.md) Anleitung an.
 
 ## SteamCMD installieren
 
-Sobald du auf deinen Server zugegriffen hast, musst du **SteamCMD** einrichten, damit du die notwendigen Dateien für den Dedicated Server herunterladen kannst. SteamCMD ist die **Befehlszeilenversion (CLI)** des Steam-Clients und das Tool, mit dem du ganz einfach eine Reihe von Dateien für den Steam-Workshop und den dedizierten Server herunterladen kannst.
+Sobald du auf deinem Server bist, musst du **SteamCMD** einrichten, um die nötigen Dedicated Server Dateien runterladen zu können. SteamCMD ist die **Kommandozeilen-Version (CLI)** des Steam-Clients und das Tool, mit dem du ganz easy Steam Workshop- und Dedicated Server-Dateien herunterladen kannst.
 
-Wie bei Linux üblich, ist es am besten, zuerst das System zu aktualisieren, indem du je nach verwendeter Distro Folgendes ausführst:
+Wie bei Linux üblich, solltest du zuerst dein System updaten. Je nach Distribution läuft das so:
+
 ```
 // Debian
 sudo apt-get update
@@ -41,11 +40,11 @@ sudo zypper up
 sudo dnf upgrade --refresh
 ```
 
-Jetzt musst du noch ein paar Pakete installieren. Diese sind wie folgt unterteilt:
+Jetzt musst du ein paar Pakete installieren. Die sind wie folgt aufgeteilt:
 
-- Das Paket **software-properties-common** macht die Verwaltung deiner Distro und unabhängiger Softwarequellen einfach.
-- SteamCMD ist ein 32-Bit-Tool, daher muss die **i386**-Architektur hinzugefügt werden, damit die entsprechende Software auf deinem System installiert wird, die dies unterstützt.
-- Da SteamCMD proprietär ist, bedeutet das auch, dass du je nach Linux-Distro entweder das **multiverse**- oder das **non-free**-Paket benötigst, da diese normalerweise nicht im Standard-Repository enthalten sind.
+- Das Paket **software-properties-common** erleichtert dir die Verwaltung deiner Distro und unabhängiger Softwarequellen.
+- SteamCMD ist ein 32-Bit-Tool, deshalb muss die **i386** Architektur hinzugefügt werden, damit die passenden Pakete installiert werden.
+- Da SteamCMD proprietär ist, brauchst du je nach Linux-Distro entweder das **multiverse** oder **non-free** Paket, da diese normalerweise nicht im Standard-Repository enthalten sind.
 
 ```
 sudo apt install software-properties-common
@@ -54,55 +53,57 @@ sudo dpkg --add-architecture i386
 // Ubuntu
 sudo add-apt-repository multiverse
 
-// Debian & Andere Nicht-Debian-Distros
+// Debian & andere Nicht-Debian-Distros
 sudo apt-add-repository non-free
 ```
 
-Führe nun den Update-Befehl aus, um sicherzustellen, dass deine Paketänderungen gelesen und somit auf deinem System installiert werden:
+Führe jetzt nochmal das Update aus, damit deine Paketquellen aktualisiert werden und die Änderungen greifen:
+
 ```
 sudo apt update
 ```
 
-Zum Schluss kannst du SteamCMD installieren, indem du den folgenden Befehl ausführst. Es kann sein, dass eine Aufforderung zur Lizenzvereinbarung erscheint, die du einfach akzeptieren kannst, um fortzufahren.
+Zum Schluss kannst du SteamCMD installieren. Es kann sein, dass du eine Lizenzvereinbarung bestätigen musst – einfach akzeptieren und weitermachen.
+
 ```
 sudo apt install steamcmd
 ```
 
 :::tip
-Du kannst überprüfen, ob die Installation von SteamCMD erfolgreich war, indem du einfach `steamcmd` ausführst. Sobald er geladen ist, sollte die Eingabeaufforderung `Steam>` anzeigen. Du kannst `quit` ausführen, um das Programm anschließend zu beenden.
+Du kannst prüfen, ob SteamCMD erfolgreich installiert wurde, indem du einfach `steamcmd` eingibst. Wenn es geladen ist, solltest du die Eingabeaufforderung `Steam>` sehen. Mit `quit` kannst du das Programm wieder verlassen.
 :::
 
-Da nun alles vorbereitet und installiert ist, kannst du mit dem nächsten Schritt fortfahren, nämlich der Installation des dedizierten Servers mit Hilfe von SteamCMD.
+Jetzt, wo alles vorbereitet und installiert ist, kannst du mit dem nächsten Schritt weitermachen: dem Installieren des Dedicated Servers über SteamCMD.
 
 ## Benutzer anlegen
 
-Wir empfehlen dringend, einen eigenen Benutzer für SteamCMD anzulegen. Wie bei den meisten Dingen ist es aus verschiedenen Gründen nicht empfehlenswert, mit dem Root-Benutzer zu arbeiten.
+Wir empfehlen dir dringend, einen separaten Benutzer für SteamCMD zu erstellen. SteamCMD als Root auszuführen ist, wie bei den meisten Sachen, aus verschiedenen Gründen keine gute Idee.
 
-Verwende den folgenden Befehl, um einen Benutzer namens `steam` mit einem optionalen Passwort deiner Wahl zu erstellen.
+Erstelle mit folgendem Befehl einen User namens `steam` – ein Passwort kannst du optional vergeben.
 
 ```
 sudo useradd -m steam
 sudo passwd steam # Optionales Passwort
 ```
 
-Sobald der Benutzer erstellt ist, musst du die Datei `.bashrc` anpassen, um den Zugriff auf den Pfad `/usr/games` zu ermöglichen, in dem sich SteamCMD befindet. Dazu fügst du eine zusätzliche Umgebungsvariable path hinzu.
+Nachdem der User erstellt wurde, musst du die `.bashrc` anpassen, damit der Pfad zu `/usr/games`, wo SteamCMD liegt, verfügbar ist. Das machst du, indem du eine zusätzliche PATH-Variable hinzufügst.
 
-Öffne die Datei mit dem nano-Editor, indem du Folgendes ausführst
+Öffne die Datei mit dem Nano-Editor:
+
 ```
 sudo nano /home/steam/.bashrc
 ```
 
-Scrolle nun mit den Pfeiltasten bis zum Ende der Datei und füge die folgende Pfad-Umgebungsvariable hinzu:
+Scroll ans Ende der Datei und füge diese Zeile hinzu:
+
 ```
-export PATH="/usr/games/:$PATH“
+export PATH="/usr/games/:$PATH"
 ```
 
-Speichere die Datei und beende nano mit `CTRL + X`, gefolgt von `Y` zur Bestätigung und schließlich `ENTER`.
+Speichere die Datei und verlasse Nano mit `CTRL + X`, bestätige mit `Y` und drücke `ENTER`.
 
-## Abschluss
+## Fazit
 
-Du hast nun erfolgreich die wichtigsten SteamCMD-Funktionen für deinen Linux-Server eingerichtet. Du kannst nun mit der Installation von Steam-Inhalten über den Benutzer `steam` fortfahren.
+Du hast jetzt die grundlegende SteamCMD-Funktionalität auf deinem Linux-Server erfolgreich eingerichtet. Du kannst jetzt als `steam` User Steam-Inhalte installieren.
 
-Wir empfehlen dir, die anderen Anleitungen in diesem Abschnitt zu lesen, in denen es um die Installation bestimmter Spiele mit Hilfe von SteamCMD geht.
-
-<InlineVoucher />
+Wir empfehlen dir, auch die anderen Anleitungen in diesem Bereich zu checken, die zeigen, wie du mit SteamCMD spezifische Games installierst, die du jetzt eingerichtet hast.

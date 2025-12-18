@@ -1,7 +1,7 @@
 ---
 id: dedicated-linux-plausible
 title: "Dedicated Server: Setup Plausible on OS"
-description: Information on how to setup Plausible on your Linux Dedicated Server from ZAP-Hosting - ZAP-Hosting.com documentation
+description: "Discover how to set up a privacy-focused web analytics platform that delivers key insights with ease and speed → Learn more now"
 sidebar_label: Install Plausible
 services:
   - dedicated
@@ -17,7 +17,7 @@ Plausible is a lightweight, open-source web analytics platform that operates wit
 
 Considering about hosting this service yourself? We’ll walk you through every step on how to set it up and configure it, along with everything you need to keep in mind.
 
-<InlineVoucher />
+
 
 
 
@@ -153,4 +153,3 @@ Got specific questions that aren't covered here? For further questions or assist
 
 
 
-<InlineVoucher />

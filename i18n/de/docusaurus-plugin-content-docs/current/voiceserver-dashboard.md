@@ -1,7 +1,7 @@
 ---
 id: voiceserver-dashboard
 title: "Voiceserver: Dashboard Übersicht"
-description: Informationen über das Dashboard eines Voiceserver-Produkts von ZAP-Hosting - ZAP-Hosting.com Dokumentation
+description: "Entdecke, wie du deinen Voiceserver effizient verwaltest und optimierst – mit einer klaren Übersicht zu Features und Administration → Jetzt mehr erfahren"
 sidebar_label: Dashboard
 services:
   - voiceserver
@@ -10,52 +10,51 @@ services:
 import YouTube from '@site/src/components/YouTube/YouTube';
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
-## Introduction
+## Einführung
 
-Du bist an einer **Voiceserver** interessiert oder besitzt bereits eine, doch dir fehlt noch ein umfassender Überblick über die Verwaltung und die Auffindbarkeit aller notwendigen Optionen? Gerade zu Beginn kann dies eine Herausforderung darstellen. Aber keine Sorge, im Folgenden bieten wir dir eine ausführliche Einführung zur Verwaltung deiner Voiceserver, damit du den optimalen Durchblick hast.
+Du interessierst dich für einen **Voiceserver** oder besitzt bereits einen, hast aber noch keinen umfassenden Überblick über die Administration und die Auffindbarkeit aller nötigen Optionen? Gerade am Anfang kann das eine Herausforderung sein. Keine Sorge, wir geben dir weiter unten eine ausführliche Einführung in die Verwaltung deines Services, damit du den bestmöglichen Überblick bekommst.
 
-Nachdem du diese Anleitung durchgegangen bist, wirst du problemlos in der Lage sein, deine Voiceserver effizient zu verwalten und alle erforderlichen Optionen sowie Features zügig und unkompliziert zu finden. Hier erhältst du einen strukturierten Überblick, der dir Schritt für Schritt hilft, dich mit der Voiceserververwaltung vertraut zu machen und dein Wissen gezielt zu erweitern. So kannst du sicherstellen, dass deine **Voiceserver** optimal auf deine Bedürfnisse abgestimmt ist und du das Beste aus den vorhandenen Möglichkeiten herausholst.
+Nach dem Durcharbeiten dieser Anleitung kannst du deinen Voiceserver ganz easy effizient verwalten und findest alle wichtigen Optionen und Features schnell und unkompliziert. Hier bekommst du eine strukturierte Übersicht, die dir Schritt für Schritt hilft, dich mit der Voiceserver-Administration vertraut zu machen und dein Wissen gezielt zu erweitern. So stellst du sicher, dass dein **Voiceserver** optimal auf deine Bedürfnisse eingestellt ist und du das Maximum aus den verfügbaren Optionen rausholst.
 
 
 
 ## Produktverwaltung
 
-In dem Abschnitt **Produkt Administration** wirst du alle notwendigen Seiten finden, die für die Verwaltung deines Voiceservers notwendig sind. Die Möglichkeiten, wie du deinen Voiceserver verwalten kannst, werden dir im folgenden detailliert aufgelistet.
-
+Im Bereich **Produktverwaltung** findest du alle nötigen Seiten zur Verwaltung deines Voiceservers. Die Optionen zur Steuerung deines Voiceservers sind unten detailliert aufgelistet.
 
 
 
 ### Dashboard
 
-Das Dashboard liefert eine zentrale Übersicht über alle wichtigen Informationen zum Voiceserver. Angezeigt werden unter anderem der aktuelle Status, die Serveradresse, der Servername, die Anzahl der verbundenen Nutzer sowie das gesetzte Serverpasswort. Zusätzlich stehen weitere Details zur Verfügung, die bei der Verwaltung und Überwachung des Servers unterstützen.
+Das Dashboard bietet dir eine zentrale Übersicht aller wichtigen Infos rund um den Voiceserver. Es zeigt den aktuellen Status, die Serveradresse, den Servernamen, die Anzahl der verbundenen Nutzer und das konfigurierte Serverpasswort an. Weitere Details unterstützen dich bei der effektiven Verwaltung und Überwachung des Servers.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/ZryFnMckWetXbTx/preview)
 
 ### Statistiken
 
-Die Statistikseite zeigt Auswertungen zur Nutzung des Servers. Es lässt sich beispielsweise erkennen, wie viele Nutzer sich in den letzten Minuten oder Tagen mit dem Server verbunden haben. Damit aussagekräftige Daten angezeigt werden können, muss der Server für eine gewisse Zeit aktiv gewesen sein. Erst nach ausreichend gesammelten Informationen stehen die Statistiken vollständig zur Verfügung.
+Die Statistik-Seite gibt dir Einblicke in die Nutzung des Servers. Zum Beispiel siehst du, wie viele Nutzer sich in den letzten Minuten oder Tagen mit dem Server verbunden haben. Damit aussagekräftige Daten angezeigt werden, muss der Server eine gewisse Zeit gelaufen sein. Statistiken stehen erst zur Verfügung, wenn genügend Informationen gesammelt wurden.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/zYcyRdeHfaHqXt9/preview)
 
 
 
-### DDoS Manager
+### DDoS-Manager
 
-Zeige dir vergangene DDoS-Angriffe an, um potenzielle Bedrohungen und Muster besser einschätzen zu können. Aktiviere Benachrichtigungen über laufende DDoS-Angriffe auf deinen Server, um schnell zu reagieren, wenn ein Vorfall eintritt.
+Hier kannst du vergangene DDoS-Angriffe einsehen, um potenzielle Bedrohungen und Muster besser einschätzen zu können. Aktiviere Benachrichtigungen für laufende DDoS-Attacken auf deinen Server, um bei einem Vorfall schnell reagieren zu können.
 
-Je nach Serverstandort und dem dort zur Verfügung stehenden DDoS-Schutz kannst du auch aktive Angriffe in Echtzeit überwachen. Dazu gehören detaillierte Einblicke in den Datenverkehr, die sowohl den legitimen Datenverkehr als auch die Menge des von den Schutzsystemen blockierten Datenverkehrs anzeigen. Dieses Maß an Transparenz hilft dir zu verstehen, wie der Schutz funktioniert und ermöglicht es dir, potenzielle Risiken frühzeitig zu erkennen.
+Je nach Serverstandort und dort verfügbarem DDoS-Schutz kannst du auch aktive Angriffe in Echtzeit überwachen. Das beinhaltet detaillierte Traffic-Einblicke, die sowohl legitimen Traffic als auch die Menge an Traffic zeigen, die von den Schutzsystemen geblockt wird. Diese Transparenz hilft dir zu verstehen, wie der Schutz funktioniert und ermöglicht dir, potenzielle Risiken frühzeitig zu erkennen.
 
-:::info DDoS Manager Zugang fehlt?
-Die Nutzung des DDoS Managers erfordert die Zusatzoption "DDoS Manager Overview". Wenn dein aktuelles Paket diese Komponenten nicht enthält, dann kannst du es jederzeit durch ein Upgrade deines Dienstes hinzufügen.
+:::info DDoS-Manager Zugriff fehlt?
+Die Nutzung des DDoS-Managers erfordert die Zusatzoption „DDoS Manager Übersicht“. Falls dein aktuelles Paket diese Komponenten nicht enthält, kannst du sie jederzeit durch ein Upgrade deines Services hinzufügen.
 :::
 
 
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/ScCCCY52CMLgfyE/preview)
 
-### Ereignislog
+### Ereignisprotokoll
 
-Die Ereignislog bietet eine umfassende Übersicht über alle Aktivitäten im Zusammenhang mit der Serververwaltung. Es lässt sich jederzeit nachvollziehen, wann der Server gestartet oder gestoppt wurde, ob ein Absturz aufgetreten ist oder wann ein Update, ein Backup oder eine Neuinstallation durchgeführt wurde. Diese Protokollfunktion unterstützt dabei, Änderungen und Ereignisse lückenlos zu dokumentieren und mögliche Fehlerquellen schneller zu erkennen.
+Das Ereignisprotokoll bietet eine umfassende Übersicht aller Aktivitäten rund um die Serververwaltung. Du kannst jederzeit nachvollziehen, wann der Server gestartet oder gestoppt wurde, ob ein Crash aufgetreten ist oder wann Updates, Backups oder Neuinstallationen durchgeführt wurden. Diese Protokollfunktion sorgt für eine lückenlose Dokumentation von Änderungen und Ereignissen und unterstützt dich dabei, potenzielle Probleme schneller zu identifizieren.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/DRFJR6pnL5XRLa5/preview)
 
@@ -63,35 +62,35 @@ Die Ereignislog bietet eine umfassende Übersicht über alle Aktivitäten im Zus
 
 ## Produktverwaltung
 
-In dem Abschnitt **Produkt Administration** wirst du alle notwendigen Seiten finden, die für die Verwaltung deines Voiceservers notwendig sind. Die Möglichkeiten, wie du deine Voiceserver verwalten kannst, werden dir im folgenden detailliert aufgelistet.
+Im Bereich **Produktverwaltung** findest du alle nötigen Seiten zur Verwaltung deines Voiceservers. Die Optionen zur Steuerung deines Voiceservers sind unten detailliert aufgelistet.
 
 ### Einstellungen
 
-Der Servername und die Willkommensnachricht lassen sich unabhängig von einer aktiven Verbindung zum Server bearbeiten. Zusätzlich können Einstellungen für automatische Bans angepasst werden, etwa bei Fehlversuchen beim Login oder wiederholtem Fehlverhalten. Alle vorgenommenen Änderungen werden sofort nach dem Speichern wirksam.
+Der Servername und die Willkommensnachricht können geändert werden, ohne direkt mit dem Server verbunden zu sein. Einstellungen für automatische Banns lassen sich ebenfalls anpassen, zum Beispiel als Reaktion auf fehlgeschlagene Login-Versuche oder wiederholtes Fehlverhalten. Alle Änderungen werden sofort nach dem Klick auf Speichern wirksam.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/B6W4ftB6TPGms8K/preview)
 
 
 
-### Berechtigungsschlüssel
+### Privilege Keys
 
-Für bestimmte Berechtigungen auf dem TeamSpeak-Server wird ein sogenannter Privilege Key erforderlich. Dieser Schlüssel, auch als Token bezeichnet, wird direkt auf dem Server eingegeben und gewährt Zugriff auf festgelegte Rechteebenen. Solche Schlüssel lassen sich erstellen, verwalten und bei Bedarf wieder entfernen.
+Um bestimmte Berechtigungen auf dem TeamSpeak-Server zu erhalten, wird ein Privilege Key benötigt. Dieser Schlüssel, auch Token genannt, wird direkt auf dem Server eingegeben und gewährt Zugriff auf vordefinierte Berechtigungsstufen. Diese Keys können bei Bedarf erstellt, verwaltet und entfernt werden.
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/6MjdtBmP7BbQ9cZ/preview)
+![img](https://screenserver01.zap-hosting.com/index.php/s/6MjdtBmP7BbQ9cZ/preview)
 
 
 
-### Benutzer
+### Nutzer
 
-Alle TeamSpeak 3 Nutzer, die aktuell mit dem Server verbunden sind oder in der Vergangenheit verbunden waren, werden übersichtlich aufgelistet. Es besteht die Möglichkeit, Nutzer vom Server zu entfernen oder dauerhaft zu sperren.
+Alle TeamSpeak 3 Nutzer, die aktuell mit dem Server verbunden sind oder es zuvor waren, werden übersichtlich aufgelistet. Es ist möglich, Nutzer vom Server zu entfernen oder dauerhaft zu bannen.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/N8J8ApX5HWEgnYR/preview)
 
 
 
-### TSDNS Einträge
+### TSDNS
 
-Das ZAP TSDNS-Modul ermöglicht die Erstellung eigener Verbindungsadressen für den TeamSpeak-Server. Solche TS-DNS-Aliase lassen sich entweder als SubVoiceserver auf einer von ZAP bereitgestellten Voiceserver oder auf einer eigenen Voiceserver einrichten, die über das Webinterface verwaltet wird. Bei der Nutzung eines solchen Alias ist es nicht mehr erforderlich, den Port beim Verbinden anzugeben, da die Adresse direkt zum Server führt.
+Das ZAP TSDNS-Modul ermöglicht die Erstellung eigener Verbindungsadressen für den TeamSpeak-Server. TS DNS-Aliase können als Subdomains auf einer von ZAP bereitgestellten Domain oder auf deiner eigenen, über das Webinterface gehosteten Domain eingerichtet werden. Beim Verbinden über so einen Alias muss der Port nicht mehr manuell eingegeben werden, da die Adresse automatisch zum richtigen Server führt.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/c26gTpzprpky54H/preview)
 
@@ -99,26 +98,28 @@ Das ZAP TSDNS-Modul ermöglicht die Erstellung eigener Verbindungsadressen für 
 
 ## Tools
 
-Der Bereich mit Tools bietet verschiedene Funktionen zur Verwaltung des Servers. Dazu gehört unter anderem die Möglichkeit, Backups in Form von Snapshots zu erstellen.
+Der Tools-Bereich bietet verschiedene Funktionen zur Serververwaltung. Eine davon ist die Möglichkeit, Backups in Form von Snapshots zu erstellen.
 
 ### Snapshots
 
-Backups des TeamSpeak 3 Servers ermöglichen eine vollständige Sicherung des aktuellen Serverzustands. Dabei werden alle bestehenden Channels, registrierten Benutzer sowie sämtliche Berechtigungen zuverlässig gespeichert. Diese Snapshots bieten eine effektive Möglichkeit, den Server bei Bedarf auf einen vorherigen Stand zurückzusetzen. Zum Beispiel nach Änderungen an der Struktur oder ungewollten Konfigurationsfehlern.
+Backups des TeamSpeak 3 Servers erlauben eine komplette Momentaufnahme des aktuellen Serverzustands. Alle bestehenden Channels, registrierten Nutzer und Berechtigungseinstellungen werden zuverlässig gesichert. Diese Snapshots bieten eine effektive Möglichkeit, den Server bei Bedarf auf einen früheren Zustand zurückzusetzen – zum Beispiel nach strukturellen Änderungen oder versehentlichen Konfigurationsfehlern.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/XyT2q647ENeEZNA/preview)
 
 
 
-## Weiterführende Links
-Der Bereich mit weiterführenden Links enthält zusätzliche Verknüpfungen, die für die Nutzung und Verwaltung des Produkts von Bedeutung sind. Diese können unter anderem auf Dokumentationen, Tools oder externe Ressourcen verweisen, die im Zusammenhang mit dem jeweiligen Dienst stehen.
 
-### Fragen und Antworten
-Der Bereich **Fragen und Antworten** bietet einen Überblick über die am häufigsten gestellten Fragen unserer Kunden. Hier findest du hilfreiche Antworten und detaillierte Informationen zu verschiedenen Themen, um dir schnell und effizient zu helfen.
+
+## Weitere Links
+Der Bereich mit weiteren Links bietet zusätzliche Verweise, die für die Nutzung und Verwaltung des Produkts relevant sind. Dazu gehören Dokumentationen, Tools oder externe Ressourcen zum jeweiligen Service.
+
+### Häufig gestellte Fragen
+Der Bereich **Häufig gestellte Fragen** bietet eine Übersicht der am häufigsten gestellten Fragen unserer Kunden. Hier findest du hilfreiche Antworten und detaillierte Infos zu verschiedenen Themen, die dir schnell und effizient weiterhelfen.
 
 ### ZAP-Hosting Dokumentation
+Wir bieten umfangreiche Dokumentationen zu unseren Produkten, die als Wissensdatenbank für die häufigsten Fragen und Anliegen dienen. Dort findest du verschiedene Anleitungen und Hilfen zu unterschiedlichen Themen, die dich bei der Nutzung und Verwaltung deines Produkts unterstützen.
 
-Wir bieten eine umfangreiche Dokumentation zu unseren Produkten an, die als Wissensdatenbank für die am häufigsten gestellten Fragen und Anliegen dient. Dort findest du zahlreiche Anleitungen und Hilfestellungen zu verschiedenen Themen, die dir bei der Nutzung und Verwaltung deines Produktes unterstützen.
+![](https://screensaver01.zap-hosting.com/index.php/s/n48ct6aZBrNq7eT/preview)
 
-![](https://screensaver01.zap-hosting.com/index.php/s/a9ccomokEwYfPbo/preview)
 
 <InlineVoucher />

@@ -1,7 +1,7 @@
 ---
 id: webspace-external-domain
 title: "Webspace: Linking externally hosted Domain"
-description: Information about linking an externally hosted domain to your Webspace product from ZAP-Hosting - ZAP-Hosting.com Documentation
+description: "Learn how to connect your external domain to ZAP-Hosting webspace for seamless website and email functionality → Learn more now"
 sidebar_label: Link external Domain
 services:
   - webspace

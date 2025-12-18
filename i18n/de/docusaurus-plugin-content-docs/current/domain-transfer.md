@@ -1,8 +1,8 @@
 ---
 id: domain-transfer
-title: "Domain: Übertragung einer Domain"
-description: Informationen über den Prozess des Transfers einer bestehenden Domain bei ZAP-Hosting - ZAP-Hosting.com Dokumentation
-sidebar_label: Domain transferieren
+title: "Domain: Domain übertragen"
+description: "Erfahre, wie du deine Domain reibungslos zu oder von ZAP-Hosting transferierst und die Verwaltung deiner Domain ohne Unterbrechung sicherstellst → Jetzt mehr erfahren"
+sidebar_label: Domain übertragen
 services:
   - domain
 ---
@@ -11,40 +11,42 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
 
-Die Verwaltung deiner Domain ist wichtig. Dazu gehört auch die Möglichkeit, deine Domain zwischen verschiedenen Anbietern zu transferieren. In diesem Anleitung zeigen wir dir, wie du deine bestehende Domain zu und von deinem ZAP-Hosting-Konto transferieren kannst.
+Die Verwaltung deiner Domain ist wichtig, inklusive der Möglichkeit, deine Domain zwischen Anbietern zu transferieren. In dieser Anleitung zeigen wir dir, wie du deine bestehende Domain sowohl zu als auch von deinem ZAP-Hosting Account übertragen kannst.
 
-## Domain zu ZAP-Hosting t
+<InlineVoucher />
 
-Der Transfer einer Domain zu deinem ZAP-Hosting-Konto ist ganz einfach. Beginne damit, indem du eingeloggt auf die [Domainkonfigurator-Seite](https://zap-hosting.com/de/shop/product/domain/) gehst und nach deiner bestehenden Domain suchst.
+## Domain zu ZAP-Hosting übertragen
+
+Eine Domain zu deinem ZAP-Hosting Account zu transferieren ist easy. Gehe dazu einfach auf die [Domain-Konfigurator-Seite](https://zap-hosting.com/en/shop/product/domain/) während du eingeloggt bist und suche nach deiner bestehenden Domain.
 
 :::info
-Um eine Domain zu transferieren, musst du sie während des Bestellvorgangs um 1 Jahr verlängern.
+Um eine Domain zu transferieren, musst du sie im Bestellprozess um 1 Jahr verlängern.
 :::
 
-Wenn du die genaue Domain gefunden hast, die du transferieren möchtest, wähle sie in der Liste aus. Es ist normal, dass die Domain als nicht verfügbar angezeigt wird, aber du solltest das Transfersymbol daneben sehen.
+Wenn du die genaue Domain gefunden hast, die du übertragen möchtest, wähle sie aus der Liste aus. Es ist normal, dass die Domain als nicht verfügbar angezeigt wird, aber du solltest das Transfer-Symbol daneben sehen.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/omnaMqXJgarxsqW/preview)
 
-Daraufhin öffnet sich eine neue Eingabeaufforderung, mit der du den Transfer zu deinem ZAP-Hosting-Konto autorisierst.
+Es öffnet sich ein neues Fenster, in dem du den Transfer zu deinem ZAP-Hosting Account autorisieren kannst.
 
-Du musst nun zu deinem bisherigen Registrar gehen und den **Auth Code** für deine Domain beantragen. In der Regel haben gängige Registrare ein automatisches System, mit dem du den Autorisierungscode ganz einfach anfordern kannst, zum Beispiel über ein Formular oder dein Kunden-Dashboard. Im Zweifelsfall solltest du dich an das Support-Team deines Registrars wenden.
+Jetzt musst du zu deinem aktuellen Registrar gehen und den **Auth Code** für deine Domain anfordern. Bei den meisten bekannten Registraren gibt es ein automatisiertes System, mit dem du den Autorisierungscode einfach anfordern kannst, z.B. über ein Formular oder dein Kunden-Dashboard. Wenn du unsicher bist, kontaktiere am besten den Support deines Registrars.
 
-Wenn du den **Auth Code** parat hast, gib ihn in die Eingabeaufforderung ein und bestätige ihn. Fahre wie gewohnt mit dem Bestellvorgang fort.
+Sobald du den **Auth Code** hast, gib ihn im Fenster ein und bestätige. Fahre dann wie gewohnt mit dem Bestellprozess fort.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/y9mca4c3XeTaaHS/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/fXjwGCX7kFtPnTB/preview)
 
-Nachdem du deine Bestellung abgeschickt hast, sollte dein Überweisungsantrag in der Regel innerhalb von 48 Stunden bearbeitet werden. Dieser Prozess kann jedoch manchmal länger dauern, da dein alter Anbieter die Überweisung erst genehmigen muss. Wir bitten dich daher, während dieses Prozesses etwas Geduld zu haben :)
+Nachdem du deine Bestellung abgeschickt hast, wird dein Transfer-Antrag normalerweise innerhalb von 48 Stunden abgeschlossen. Manchmal kann es aber auch länger dauern, da dein alter Anbieter den Transfer erst genehmigen muss. Bitte hab währenddessen etwas Geduld :)
 
-Sollte es ein Problem mit der Bestellung geben, z. B. Probleme mit dem Auth-Code, werden wir dich so schnell wie möglich kontaktieren, damit das Problem umgehend gelöst wird.
+Falls es Probleme mit der Bestellung gibt, z.B. mit dem Auth Code, melden wir uns so schnell wie möglich bei dir, um das schnell zu klären.
 
-## Domain von ZAP-Hosting weg transferieren
+## Domain von ZAP-Hosting weg übertragen
 
-Wir sind traurig, dass du den Umzug deiner Domain von uns weg in Erwägung ziehst, aber wir respektieren unsere Kunden und haben daher den Transfer deiner Domain von uns weg genauso einfach gemacht.
+Wir finden es schade, dass du deine Domain von uns wegziehen möchtest, aber wir respektieren unsere Kunden und haben den Domain-Transfer zu einem anderen Anbieter genauso easy gemacht.
 
-Gehe in den Bereich **Dashboard** im Webinterface deiner Domain. Auf dieser Seite kannst du direkt deinen aktuellen **Auth Code** für die Domain einsehen.
+Gehe in den **Dashboard**-Bereich im Webinterface deiner Domain. Dort kannst du direkt deinen aktuellen aktiven **Auth Code** für die Domain sehen.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/LHjd6i5xwX3rFM2/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/TTHm6qFA9rfgFBn/preview)
 
-Diesen Autorisierungscode solltest du deinem neuen Anbieter bei der Einrichtung mitteilen, um deine Domain umzuziehen.
+Diesen Autorisierungscode gibst du bei deinem neuen Anbieter während der Einrichtung an, um deine Domain zu übertragen.
 
 <InlineVoucher />

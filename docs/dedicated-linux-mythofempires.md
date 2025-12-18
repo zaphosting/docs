@@ -1,7 +1,7 @@
 ---
 id: dedicated-linux-mythofempires
 title: "Dedicated Server: Myth of Empires Dedicated Server Linux Setup"
-description: Information about setting up an Myth of Empires Dedicated Server on a Linux Dedicated Server from ZAP-Hosting - ZAP-Hosting.com documentation
+description: "Discover how to install the Myth of Empires Dedicated Server on Linux and optimize your game hosting setup → Learn more now"
 sidebar_label: Myth of Empires
 services:
   - dedicated
@@ -16,7 +16,7 @@ Do you have a Linux Dedicated Server and you want to install the Myth of Empires
 Did you know that you can install our **ZAP GS/TS3 Interface** directly onto your dedicated server, allowing you to setup game server services, with direct integration to your ZAP-Hosting dashboard, in just a few clicks! Learn more about the [GS/TS3 Interface here](dedicated-linux-gs-interface.md).
 :::
 
-<InlineVoucher />
+
 
 ## Preparation
 
@@ -73,4 +73,4 @@ Congratulations, you have successfully installed and configured the Myth of Empi
 
 If you have any further questions or problems, please contact our support team, who are available to help you every day!
 
-<InlineVoucher />
+

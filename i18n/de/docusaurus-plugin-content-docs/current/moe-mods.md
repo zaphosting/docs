@@ -1,7 +1,7 @@
 ---
 id: moe-mods
-title: "Myth of Empires: Mods installieren"
-description: Informationen zur Installation von Mods bei deinem Myth of Empires Gameserver von ZAP-Hosting - ZAP-Hosting.com Dokumentation
+title: "Myth of Empires: Installation von Mods"
+description: "Entdecke, wie du deinen Gameserver mit beliebten Mods für besseres Gameplay und mehr Anpassung aufwertest → Jetzt mehr erfahren"
 sidebar_label: Mods installieren
 services:
   - gameserver-moe
@@ -13,31 +13,28 @@ import items from '@site/data/lists/moe-mods.json';
 
 ## Einführung
 
-Mit Mods hast du die Möglichkeit, deinen Server noch individueller anzupassen. Im Folgenden wird erklärt, wo du die beliebtesten Servers-Mods finden kannst und wie du diese eingerichtet werden.
+Mods ermöglichen es dir, deinen Gameserver noch individueller zu gestalten. Im Folgenden erfährst du, wo du die beliebtesten Server-Mods findest und wie du sie einrichtest.
 
 <InlineVoucher />
 
 ## Vorbereitung
 
-Über den [Steam Workshop](https://steamcommunity.com/app/221100/workshop/) hast du die Möglichkeit Mods bei deinem Server zu installieren. Der Steam Workshop ist ideal, um neue und spannende Mods zu entdecken und zu managen. Beginne damit, im Steam Workshop nach Mods zu stöbern, die dein Interesse wecken Wenn du einen Mod findest, der dir gefällt, ist es wichtig, dass du die zugehörige Workshop-ID notierst. Die ID kannst du aus der URL entnehmen. Diese Workshop ID ist notwendig für die folgende Installation. 
-
-
+Über den [Steam Workshop](https://steamcommunity.com/app/221100/workshop/) hast du die Möglichkeit, Mods auf deinem Gameserver zu installieren. Der Steam Workshop ist perfekt, um neue und spannende Mods zu entdecken und zu verwalten. Stöbere zuerst im Steam Workshop nach Mods, die dich interessieren. Wenn du eine Mod gefunden hast, ist es wichtig, die zugehörige Workshop-ID zu notieren. Die ID findest du in der URL. Diese Workshop-ID brauchst du für die kommende Installation.
 
 ## Installation
 
-Im nächsten Schritt kann mit der Installation der Mods begonnen werden. Die Installation ist dank der Steam Workshop Option kinderleicht. Rufe die Verwaltung deines Gameservers auf und navigiere zu Steam Workshop. Dort hast du die Möglichkeit die Mods in das vorgegebene Feld einzutragen. Trage nun die Workshop ID's die du im Voraus notiert hast und füge diese dort ein. Solltest du mehrere Mods hinzufügen, so stelle sicher, dass die Mods mit einem Komma Symbol getrennt werden. 
+Jetzt kannst du mit der Installation der Mods starten. Die Installation ist super einfach über die Steam Workshop-Option. Öffne das Management deines Gameservers und navigiere zum Steam Workshop. Dort hast du die Möglichkeit, die Mods in das dafür vorgesehene Feld einzutragen. Gib die zuvor notierten Workshop-IDs ein und füge sie hinzu. Wenn du mehrere Mods hinzufügen möchtest, achte darauf, die Mods mit einem Komma zu trennen.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/cja64fYyx5E85SX/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/MwT4zCxtJ3Jo6Md/preview)
 
 ## Beliebte Mods
 
-Noch auf der Suche nach den perfekten Mods für deinen Server? Durchstöbere unsere sorgfältig zusammengestellte Liste mit den beliebtesten und am häufigsten empfohlenen Mods, um dein Spielerlebnis zu erweitern und deinem Server den letzten Feinschliff zu geben. Lass dich inspirieren und finde genau die Erweiterungen, die zu deinem Projekt passen.
+Du suchst noch nach den perfekten Mods für deinen Gameserver? Stöbere durch unsere sorgfältig zusammengestellte Liste der beliebtesten und am meisten empfohlenen Mods, um dein Gameplay zu verbessern und deinem Server den letzten Schliff zu geben. Lass dich inspirieren und finde genau die Erweiterungen, die zu deinem Projekt passen.
 
 <SearchableItemList items={items} />
 
+## Fazit
 
-## Abschluss
-
-Mit dem nächsten Serverstart werden die Mods automatisch heruntergeladen, installiert und können von dir umgehend verwendet werden! 
+Mit dem nächsten Server-Neustart werden die Mods automatisch heruntergeladen, installiert und stehen dir sofort zur Verfügung!
 
 <InlineVoucher />

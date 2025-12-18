@@ -1,7 +1,7 @@
 ---
 id: battlegrounds3-firststeps-dashboard
 title: "Battle Grounds III: Dashboard overview"
-description: Information about the dashboard of an Battle Grounds III server from ZAP-Hosting - ZAP-Hosting.com Documentation
+description: "Discover how to efficiently manage and optimize your Battle Grounds III server with a clear overview of all essential features → Learn more now"
 sidebar_label: Dashboard
 services:
   - gameserver

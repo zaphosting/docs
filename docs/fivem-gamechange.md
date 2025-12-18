@@ -1,7 +1,7 @@
 ---
 id: fivem-gamechange
 title: "FiveM: Gamechange"
-description: Change your FiveM Version
+description: "Discover how to switch between FiveM versions effortlessly and manage your server setup for optimal gameplay → Learn more now"
 sidebar_label: Gamechange
 services:
   - gameserver-fivem

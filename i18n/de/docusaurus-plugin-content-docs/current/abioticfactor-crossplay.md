@@ -1,7 +1,7 @@
 ---
 id: abioticfactor-crossplay
-title: "Abiotic Factor: Konfiguration der Crossplay-Unterstützung und das Herstellen einer Verbindung über die Konsole"
-description: Informationen über die Konfiguration der Crossplay-Unterstützung für einen Abiotic Factor Gameserver von ZAP-Hosting - ZAP-Hosting.com Dokumentation
+title: "Abiotic Factor: Crossplay Support konfigurieren und Verbindung über Konsole herstellen"
+description: "Entdecke, wie du Crossplay in Abiotic Factor aktivierst und verwaltest, um nahtlos plattformübergreifend auf PC und Konsolen zu zocken → Jetzt mehr erfahren"
 sidebar_label: Crossplay
 services:
   - gameserver-abioticfactor
@@ -11,51 +11,38 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
 
-Mit dem großen **"Cold Fusion"-Update (Version 1.0)** am **22. Juli 2025** hat **Abiotic Factor** offiziell Crossplay eingeführt. Ab sofort können Spieler auf **PC (Steam)**, **PlayStation 5** und **Xbox Series X/S** gemeinsam in die gefährliche Welt des unterirdischen Forschungszentrums eintauchen  plattformübergreifend und ohne technische Umwege.
+Mit dem großen **"Cold Fusion" Update (Version 1.0)**, veröffentlicht am **22. Juli 2025**, unterstützt **Abiotic Factor** jetzt offiziell Crossplay. Spieler auf **PC (Steam)**, **PlayStation 5** und **Xbox Series X/S** können gemeinsam die Tiefen der Forschungseinrichtung erkunden – ganz egal, auf welcher Plattform sie zocken.
 
-Die Crossplay-Funktion ist standardmäßig für alle unterstützten Plattformen aktiviert. Bei Bedarf kann die Plattformauswahl eingeschränkt werden, um beispielsweise nur Spielern auf dem PC oder einer bestimmten Konsole den Zugang zu ermöglichen. 
+Crossplay ist standardmäßig für alle unterstützten Plattformen aktiviert. Falls gewünscht, kannst du den Zugang auf bestimmte Plattformen einschränken, z. B. nur PC-Spieler oder eine einzelne Konsolenart zulassen.
 
 <InlineVoucher />
 
-
-
 ## Crossplay-Einstellungen verwalten
 
-Die Verwaltung der Crossplay-Plattformen erfolgt direkt über das **Webinterface** deines Gameservers. Unter dem Menüpunkt **"Einstellungen"** kannst du festlegen, ob dein Server Verbindungen zwischen allen Plattformen erlaubt oder nur bestimmte Systeme wie **PC** oder **Konsole** zulässt. So hast du jederzeit die volle Kontrolle darüber, wer sich verbinden darf.
-
-
+Die Crossplay-Plattform-Einstellungen kannst du direkt über das **Webinterface** deines Gameservers steuern. Im Bereich **„Einstellungen“** legst du fest, ob Spieler plattformübergreifend connecten dürfen oder nur über bestimmte Systeme wie **PC** oder **Konsole**. So behältst du die volle Kontrolle, welche Plattformen für Crossplay freigegeben sind.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/GbP69ZKBnsQC3J4/preview)
 
+## Verbindung über Konsole herstellen
 
+Da sich PC- und Konsolenspieler nicht als Freunde hinzufügen können, erfolgt der Beitritt zu einem gemeinsamen Server über den Ingame-Serverbrowser. Konsolenspieler müssen sicherstellen, dass Crossplay in den Spieleinstellungen aktiviert ist, damit sie plattformübergreifende Server sehen und verbinden können.
 
-## Verbindung über die Konsole
-
-Da sich Spieler auf PC und Konsole nicht gegenseitig als Freunde hinzufügen können, ist zum Beitreten eines gemeinsamen Servers eine direkte Verbindung über den integrierten Serverbrowser erforderlich. Konsolennutzer müssen sicherstellen, dass **Crossplay** in den Spieleinstellungen aktiviert ist, um plattformübergreifende Server sehen und ihnen beitreten zu können.
-
-Öffne dazu Abiotic Factor auf deiner Konsole und navigiere in das Einstellungsmenü. Vergewissere dich, dass die Option `Crossplay` auf `Aktiviert` gesetzt ist. Nur dann werden Crossplay-Server in der Serverliste angezeigt. In der Regel erscheint beim ersten Start des Spiels ein entsprechender Hinweis mit der Frage, ob die Funktion aktiviert werden soll.
+Starte Abiotic Factor auf deiner Konsole und öffne das Einstellungsmenü. Vergewissere dich, dass die Option `Crossplay` auf `Aktiviert` steht. Das ist wichtig, damit der Server in deiner Serverliste erscheint, wenn du plattformübergreifend suchst. Normalerweise wirst du beim ersten Spielstart gefragt, ob du Crossplay aktivieren möchtest.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/WBZ9bntNTRZ5SRg/preview)
 
-Sobald Crossplay aktiviert ist, kehre ins Hauptmenü zurück und wähle **Enter The Facility**, anschließend **Join A Server**. Nun stehen dir zwei Möglichkeiten zur Verfügung, um dem Server beizutreten. Entweder suchst du nach dem exakten Servernamen im Suchfeld und klickst auf **Apply**, oder du nutzt die Funktion **Direct Connect**, um die IP-Adresse und den Port des Servers manuell einzugeben. Wenn du über die Suche beitrittst, sollte der Server anschließend in der Liste erscheinen. Wähle ihn aus und klicke auf **Join**, um die Verbindung herzustellen.
+Ist Crossplay aktiviert, geh zurück ins Hauptmenü und wähle **Enter The Facility**, dann **Join A Server**. Du hast jetzt zwei Möglichkeiten, dich zu verbinden: Entweder suchst du den Server, indem du den genauen Namen in die Suchleiste eingibst und auf **Apply** klickst, oder du nutzt die **Direktverbindung** und gibst die IP-Adresse des Servers samt Port ein. Bei der Suche sollte der Server dann in der Liste erscheinen. Einfach auswählen und auf **Join** klicken, um beizutreten.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/GDwMiQbxak3bqgd/preview)
 
-Bei einer Verbindung über IP achte darauf, dass sowohl die Adresse als auch der Port korrekt eingegeben sind. Nach erfolgreicher Verbindung wirst du direkt auf dem Server platziert und kannst mit dem Spiel beginnen.
+Wenn du dich per IP verbindest, achte darauf, dass Adresse und Port korrekt eingegeben sind, damit die Verbindung klappt. Danach wirst du direkt auf den Server verbunden und kannst loslegen.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/GEn69G86bEe65zA/preview)
 
+## Fazit
 
+Mit diesen Schritten weißt du jetzt, wie du Crossplay-Einstellungen verwaltest und dich von der Konsole aus mit deinem Server verbindest. Egal ob PC oder Konsole – Crossplay aktivieren und die richtige Verbindungsart nutzen sorgt für ein reibungsloses, gemeinsames Spielerlebnis über alle Plattformen hinweg.
 
-
-
-## Conclusion
-
-Mit diesen Schritten weißt du nun, wie du die Crossplay-Einstellungen verwaltest und dich von einer Konsole aus mit deinem Server verbindest. Egal, ob du auf PC oder Konsole spielst, die Aktivierung von Crossplay und die Verwendung der richtigen Verbindungsmethode sorgen für ein reibungsloses und gemeinsames Erlebnis auf allen Plattformen.
-
-Für weitere Fragen oder Hilfe zögere bitte nicht, unser Support-Team zu kontaktieren, das dir täglich zur Verfügung steht! 🙂
-
-
-
+Bei Fragen oder Problemen steht dir unser Support-Team täglich zur Seite – meld dich einfach! 🙂
 
 <InlineVoucher />

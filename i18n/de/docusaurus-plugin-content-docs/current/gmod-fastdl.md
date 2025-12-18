@@ -1,55 +1,58 @@
 ---
 id: gmod-fastdl
 title: "Garry's Mod: FastDL einrichten"
-description: "Anleitung zur Einrichtung von FastDL mit Webspace für Garry's Mod Server bei ZAP-Hosting - ZAP-Hosting Dokumentation"
+description: "Entdecke, wie du mit FastDL und ZAP-Hosting Webspace die Auslieferung von Game-Content optimierst – für schnellere Downloads und weniger Serverlast → Jetzt mehr erfahren"
 sidebar_label: FastDL
+services:
+  - gameserver-gmod
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
+
 ## Einführung
 
-FastDL (Fast Download) ist eine Methode zur Bereitstellung benutzerdefinierter Inhalte wie Karten, Sounds oder Modelle über einen externen Webserver anstelle des Gameservers. Dadurch verbessern sich die Download-Geschwindigkeiten für Spieler erheblich und der Gameserver wird entlastet.
+FastDL (Fast Download) ist eine Methode, um Custom Content wie Maps, Sounds oder Modelle über einen externen Webserver statt direkt über den Gameserver auszuliefern. Das sorgt für schnellere Downloads bei den Spielern und entlastet deinen Server.
 
-Für die Nutzung von FastDL wird ein öffentlicher HTTP-Webserver benötigt. Eine ideale Lösung hierfür ist das **ZAP-Hosting Webspace-Paket**, das sich hervorragend zur Bereitstellung von Spielinhalten eignet. Diese Anleitung zeigt dir, wie FastDL mit dem ZAP-Webspace eingerichtet wird.
+Um FastDL zu nutzen, brauchst du Zugriff auf einen öffentlichen HTTP-Webserver. Eine super Option dafür ist ein **ZAP-Hosting Webspace-Paket**, das perfekt für die Auslieferung von Game-Content geeignet ist. Diese Anleitung zeigt dir, wie du FastDL mit ZAP Webspace einrichtest.
 
 <InlineVoucher />
 
 ## Voraussetzungen
 
-Du benötigst einen aktiven Garry's Mod Server bei ZAP-Hosting sowie ein zusätzliches Webspace-Paket. Der Zugriff per FTP oder über den integrierten Datei-Manager muss sowohl für den Gameserver als auch für den Webspace möglich sein.
+Du benötigst einen aktiven Garry's Mod Gameserver bei ZAP-Hosting sowie ein zusätzliches Webspace-Paket. Für beide – Gameserver und Webspace – muss FTP-Zugang oder Zugriff auf den File Manager vorhanden sein.
 
-Die Dateien, die du bereitstellen möchtest (z. B. `.bsp` Maps, Sounds oder Models), sollten spielseitig bereits korrekt vorbereitet und strukturiert sein. Die gleiche Struktur muss dann auch auf dem Webspace eingerichtet werden, um eine erfolgreiche Auslieferung über FastDL zu ermöglichen.
+Auf der Gameserver-Seite müssen die Dateien, die du verteilen willst (z.B. `.bsp` Maps, Sounddateien oder Modelle), bereits korrekt organisiert sein. Die gleiche Ordnerstruktur muss dann auch auf dem Webspace angelegt werden, damit FastDL reibungslos funktioniert.
 
-## Vorbereitung des Webspace
+## Webspace vorbereiten
 
-Zur Verwaltung und zum Hochladen deiner FastDL-Dateien empfehlen wir die Nutzung des integrierten **Datei-Managers** im ZAP-Webinterface. Dieser ist über das Menü **Webspace > Datei-Manager** direkt erreichbar.
+Um deine FastDL-Dateien zu verwalten und hochzuladen, empfehlen wir den **File Manager** im ZAP Webspace-Interface. Du findest ihn direkt im Webpanel unter **Webspace > File Manager**.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/dptRwGTgL6bHXrE/preview)
 
-Im Hauptverzeichnis deines Webspace legst du einen Ordner mit dem Namen `fastdl` an. Darin erstellst du Unterordner wie `maps`, `sound` oder `models`, je nach Inhalt, den du bereitstellen möchtest. Die Ordnerstruktur muss exakt mit der deines Garry's Mod-Servers übereinstimmen.
+Lege im Root-Verzeichnis deines Webspaces einen Ordner namens `fastdl` an. Darin erstellst du Unterordner wie `maps`, `sound` oder `models` – je nachdem, welchen Content du ausliefern möchtest. Die Ordnerstruktur muss exakt der entsprechen, die dein Garry's Mod Gameserver nutzt.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/beCCJPFT5si3wRZ/preview)
 
-Bevor du die Dateien hochlädst, achte darauf, dass sie **im Format `.bz2` (bzip2)** komprimiert sind. Die meisten auf Source basierenden Spiele benötigen dieses Format. Eine Map-Datei mit dem Namen `custom_map.bsp` muss daher als `custom_map.bsp.bz2` hochgeladen werden.
+Bevor du die Dateien hochlädst, stelle sicher, dass sie **im `.bz2`-Format (bzip2) komprimiert** sind. Die meisten Source-basierten Engines erwarten die Dateien so. Zum Beispiel sollte eine Map-Datei `custom_map.bsp` als `custom_map.bsp.bz2` hochgeladen werden.
 
 :::info Komprimieren mit 7-Zip
-Zum Vorbereiten deiner Dateien für FastDL kannst du Programme wie **7-Zip** verwenden, um sie ins `.bz2`-Format zu komprimieren. Klicke dazu mit der rechten Maustaste auf die Datei, wähle **7-Zip > Zu Archiv hinzufügen...**, setze das Archivformat auf `bzip2` und bestätige.
+Um deine Dateien für FastDL vorzubereiten, kannst du Tools wie **7-Zip** nutzen, um sie ins `.bz2`-Format zu packen. Einfach Rechtsklick auf die Datei, dann **7-Zip > Zum Archiv hinzufügen...** wählen, als Archivformat `bzip2` auswählen und bestätigen.
 :::
 
-Nach dem Hochladen deiner `.bz2`-Dateien in die entsprechenden Ordner solltest du sicherstellen, dass **alle Ordner und Dateien über die korrekten Lese-Berechtigungen** verfügen. Der integrierte Datei-Manager ermöglicht es dir, die Dateiberechtigungen bei Bedarf anzupassen.
+Nachdem du die komprimierten Dateien in die passenden Ordner hochgeladen hast, achte darauf, dass **alle Verzeichnisse und Dateien die richtigen Leserechte** besitzen, damit sie öffentlich zugänglich sind. Im File Manager kannst du die Berechtigungen anpassen.
 
-Sind die Dateien hochgeladen und korrekt freigegeben, ist dein FastDL-Inhalt über die folgende öffentliche URL erreichbar:
+Sobald alles hochgeladen und die Rechte gesetzt sind, ist dein FastDL-Content über folgende öffentliche URL erreichbar:
 
 ```
 https://[dein-domain-name].zap.cloud/fastdl/
 ```
 
-Diese URL kannst du im Browser testen, um zu prüfen, ob die Dateien korrekt geladen werden.
+Teste die URL am besten im Browser, um sicherzugehen, dass die Dateien erreichbar sind.
 
-## Konfiguration des Gameservers
+## Gameserver konfigurieren
 
-Öffne im ZAP-Interface im Bereich der Gameserververwaltung die Datei `server.cfg` über den Reiter **Konfigurationen** und füge folgende Zeilen hinzu:
+Im ZAP Interface unter der Gameserver-Verwaltung öffnest du die `server.cfg` über die **Configs**-Seite und fügst folgende Zeilen ein:
 
 ```cfg
 sv_downloadurl "https://[dein-domain-name].zap.cloud/fastdl/"
@@ -57,12 +60,12 @@ sv_allowdownload 1
 sv_allowupload 0
 ```
 
-Achte darauf, dass die URL exakt mit der Verzeichnisstruktur auf deinem Webspace übereinstimmt. Speichere die Datei und starte den Server neu.
+Achte darauf, dass die FastDL-URL genau mit der Struktur auf deinem Webspace übereinstimmt. Speichere die Datei und starte deinen Gameserver neu, damit die Einstellungen wirksam werden.
 
-## Abschluss
+## Fazit
 
-Mit Hilfe des ZAP-Webspace lässt sich FastDL für Garry's Mod schnell und zuverlässig einrichten. Das sorgt für eine schnelle und effiziente Bereitstellung benutzerdefinierter Inhalte und verbessert das Spielerlebnis auf deinem Garry's Mod Server.
+FastDL lässt sich mit deinem eigenen ZAP Webspace schnell und zuverlässig einrichten. So lieferst du Custom Content blitzschnell aus und verbesserst das Spielerlebnis auf deinem Garry's Mod Gameserver.
 
-Für weitere Fragen oder Hilfe zögere bitte nicht, unser Support-Team zu kontaktieren, das dir täglich zur Verfügung steht! 🙂
+Bei Fragen oder Support brauchst du nicht lange suchen – unser Team ist täglich für dich da! 🙂
 
 <InlineVoucher />

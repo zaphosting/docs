@@ -1,7 +1,7 @@
 ---
 id: vserver-windows-addip
 title: "VPS: Configure additional IP addresses on Windows"
-description: Information on how to add additional IPs to your Windows VPS from ZAP-Hosting - ZAP-Hosting.com documentation
+description: "Discover how to optimize server performance and security by using multiple IP addresses for better service isolation → Learn more now"
 sidebar_label: Additional IP addresses
 services:
   - vserver

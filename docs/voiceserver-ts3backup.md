@@ -1,7 +1,7 @@
 ---
 id: voiceserver-ts3backup
 title: "Voiceserver: Create, download and import backups"
-description: Information on how to create, download and restore backups for your TeamSpeak server from ZAP-Hosting - ZAP-Hosting.com documentation
+description: "Discover how to easily create and manage backups with free storage and upgrade options for secure data protection → Learn more now"
 sidebar_label: Backups
 services:
   - voiceserver

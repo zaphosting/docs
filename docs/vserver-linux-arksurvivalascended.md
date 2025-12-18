@@ -1,7 +1,7 @@
 ---
 id: vserver-linux-arksurvivalascended
 title: "VPS: ARK Survival Ascended Dedicated Server Linux Setup"
-description: Information about setting up an ARK Survival Ascended Dedicated Server on a Linux VPS from ZAP-Hosting - ZAP-Hosting.com documentation
+description: "Discover how to set up the ARK: Survival Ascended Dedicated server on your Linux VPS for seamless gameplay management → Learn more now"
 sidebar_label: ARK Survival Ascended
 services:
   - vserver

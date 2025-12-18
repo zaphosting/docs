@@ -1,8 +1,8 @@
 ---
 id: minecraft-faultyworld
 title: "Minecraft: Fehlerhafte Chunks aus der Welt entfernen"
-description:  Informationen darüber, wie man fehlerhafte Chunks aus seiner Minecraft-Welt  von ZAP-Hosting entfernt - ZAP-Hosting.com Dokumentation
-sidebar_label: Fehlerhafte World (Chunks)
+description: "Entdecke, wie du Minecraft Chunk-Fehler behebst und flüssiges Gameplay wiederherstellst, indem du beschädigte Weltbereiche entfernst → Jetzt mehr erfahren"
+sidebar_label: Fehlerhafte Welt (Chunks)
 services:
   - gameserver-minecraft
 ---
@@ -11,38 +11,36 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
 
-Deine Welt ist teilweise überladen oder fehlerhaft und das schränkt das Spielgeschehen ein, sodass du nicht mehr richtig spielen kannst? Das kann der Fall sein, wenn es in bestimmten Bereichen deiner Welt zu viele Gegenstände enthält oder wenn sie generell beschädigte Chunks aufweist. Ein Chunk-Fehler ist eine recht häufige Schwierigkeit in Minecraft, die auftritt, wenn ein Chunk nicht korrekt geladen wird.
+Deine Welt ist teilweise überlastet oder fehlerhaft und das limitiert dein Gameplay, sodass du nicht mehr richtig spielen kannst? Das kann passieren, wenn sich zu viele Items in bestimmten Bereichen deiner Welt befinden oder wenn generell beschädigte Chunks vorhanden sind. Ein Chunk-Fehler ist ein relativ häufiger Bug in Minecraft, der auftritt, wenn ein Chunk falsch geladen wird.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/A5bj6posqkTfGK8/preview)
 
 ## Vorbereitung
 
-Es gibt verschiedene Tools, mit denen man Minecraft-Welten bearbeiten kann. Eines der gängigsten Tools ist [MCA Selector] (https://github.com/Querz/mcaselector), welches für diese Anleitung verwendet wird. Lade dazu die Datei `MCA_Selector_Setup.exe` herunter.
+Es gibt verschiedene Tools, mit denen Minecraft-Welten bearbeitet werden können. Eines der bekanntesten Tools ist [MCA Selector](https://github.com/Querz/mcaselector), das wir in dieser Anleitung verwenden. Lade dafür die Datei `MCA_Selector_Setup.exe` herunter.
 
-Außerdem benötigst du die Dateien aus deiner Welt auf deinem Computer. Die Welt kann über FTP heruntergeladen werden. Wenn du mit der Verwendung von FTP nicht vertraut sind, empfehlen wir dir, einen Blick in unsere Anleitung [Zugriff per FTP](gameserver-ftpaccess.md) zu werfen. Lade das Verzeichnis `world` aus dem Verzeichnis des Spieleservers herunter. 
-
-
+Außerdem brauchst du die Dateien deiner Welt auf deinem PC. Die Welt kannst du per FTP herunterladen. Wenn du mit FTP noch nicht vertraut bist, empfehlen wir dir einen Blick in unsere [Anleitung zum FTP-Zugang](gameserver-ftpaccess.md). Lade das Verzeichnis `world` aus dem Gameserver-Verzeichnis herunter.
 
 ## Welt laden
 
-Sobald du das Tool und die Welt heruntergeladen hast, kannst du nun die Welt in das Tool importieren. Klicke dazu im Tool in der Navigation auf `File -> Open World`. Anschließend sollte deine Welt wie im Beispiel zu sehen sein. 
+Sobald du das Tool und die Welt heruntergeladen hast, kannst du die Welt ins Tool importieren. Klicke dazu im Tool in der Navigation auf `Datei -> Welt öffnen`. Danach solltest du deine Welt wie in unserem Beispiel sehen.
 
 :::info
-Je nach Koordinaten kann es sein, dass du erst mit der Maus herauszoomen musst, um den entsprechenden Bereich zu finden. 
+Je nach Koordinaten musst du eventuell erst mit der Maus herauszoomen, um den relevanten Bereich zu finden.
 :::
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/eGY45mKdd4ZEwW4/download)
 
-
-
 ## Chunk(s) entfernen
-Du kannst einzelne Kästchen (Chunks) mit einem Mausklick auswählen. Suche und markiere die Chunks, die für dich problematisch sind und gelöscht werden sollen. Klicke dann in der Navigation auf `Selection -> Delete selected Chunks`.
+
+Du kannst einzelne Kästchen (Chunks) mit einem Mausklick auswählen. Suche und markiere die Chunks, die bei dir Probleme machen und gelöscht werden sollen. Klicke dann in der Navigation auf `Auswahl -> Ausgewählte Chunks löschen`.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/HDCAEX3iWyjjXQm/download)
 
-Damit sind die ausgewählten Chunks gelöscht und du kannst die Welt nun wieder per FTP auf deinen Server hochladen. 
+Die ausgewählten Chunks wurden nun gelöscht und du kannst die Welt wieder per FTP auf deinen Server hochladen.
 
-## Abschluss
-Glückwunsch, du hast die fehlerhaften Chunks erfolgreich entfernt und solltest in der Lage sein, auf dieser Welt wieder richtig spielen zu können. Für weitere Fragen oder Hilfe zögere bitte nicht, unser Support-Team zu kontaktieren, das dir täglich zur Verfügung steht! 🙂
+## Fazit
+
+Glückwunsch, du hast die fehlerhaften Chunks erfolgreich entfernt und solltest diese Welt jetzt wieder problemlos spielen können. Bei weiteren Fragen oder wenn du Hilfe brauchst, steht dir unser Support-Team täglich zur Verfügung! 🙂
 
 <InlineVoucher />

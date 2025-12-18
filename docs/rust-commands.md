@@ -1,7 +1,7 @@
 ---
 id: rust-commands
 title: "Rust: Admin Commands"
-description: Information on Admin commands for Rust from ZAP-Hosting - ZAP-Hosting.com documentation
+description: "Discover essential Rust commands for server management and player control to optimize gameplay and administration → Learn more now"
 sidebar_label: Admin Commands
 services:
   - gameserver-rust

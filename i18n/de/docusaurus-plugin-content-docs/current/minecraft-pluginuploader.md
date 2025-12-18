@@ -1,7 +1,7 @@
 ---
 id: minecraft-pluginuploader
-title: "Minecraft: Server ZAP-Hosting Plugin Uploader verwenden"
-description: Informationen, wie du den Plugin-Uploader verwenden kannst, um Plugins über das Web Interface auf deinen Minecraft-Server von ZAP-Hosting hochzuladen - ZAP-Hosting.com Dokumentation
+title: "Minecraft: Server mit ZAP-Hosting Plugin Uploader"
+description: "Entdecke, wie du Minecraft Server Plugins für Spigot oder Bukkit einfach verwaltest und dein Spielerlebnis verbesserst → Jetzt mehr erfahren"
 sidebar_label: Plugin Uploader
 services:
   - gameserver-minecraft
@@ -13,95 +13,96 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Plugin Uploader
 
-Klicke auf der Serverübersicht auf deinen Minecraft Server. Wähle dann den Reiter Plugins, der sich im Unterpunkt Einstellungen befindet.
+Klick in der Serverübersicht auf deinen Minecraft Gameserver. Wähle dann den Reiter Plugins, der sich im Unterpunkt Einstellungen befindet.
 
 :::info
-Stelle sicher, dass dein aktuelles Spiel Spigot oder Bukkit ist. Nur dort ist der Plugin Uploader verfügbar.
+Stelle sicher, dass dein aktuelles Spiel Spigot oder Bukkit ist. Der Plugin Uploader ist nur dort verfügbar.
 :::
 
-## Plugin installieren / hochladen
+## Plugins installieren/hochladen
 
-Es gibt zwei verschiedene Möglichkeiten, wie du ein Plugin auf deinem Minecraft Server installieren kannst. 
+Es gibt zwei verschiedene Wege, wie du ein Plugin auf deinem Minecraft Gameserver installieren kannst.
 
-- Du kannst dein Plugin aus einer von uns vorgefertigten Auswahl installieren (falls vorhanden)
+- Du kannst dein Plugin aus einer unserer vorgefertigten Listen auswählen (sofern verfügbar)
 - Du kannst deine eigenen Plugins per Drag'n Drop hochladen
 
-### Plugins aus Liste
+### Plugins aus der Liste
 
-Wähle aus der Liste "Alle Plugins" dein Wunschplugin aus und klicke auf den grünen Button "Installieren". Die Installation kann je nach Plugingröße einen Augenblick dauern.
+Wähle dein gewünschtes Plugin aus der Liste „Alle Plugins“ aus und klicke auf den grünen „Installieren“-Button. Die Installation kann je nach Größe des Plugins einen Moment dauern.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/WwJDopFHT9BRQ5b/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/dxrtY8pQwmtfEP9/preview)
 
-###  Eigenes Plugin hochladen 
+### Eigenes Plugin hochladen
 
-Ziehe der gewünschte Plugin .jar Datei in die auf dem Bild markierte Box. Es ist auch möglich, mehrere Plugins gleichzeitig in diesen Bereich zu ziehen und zu installieren.
+Zieh die gewünschte Plugin .jar-Datei in das auf dem Bild markierte Feld. Es ist auch möglich, mehrere Plugins gleichzeitig in diesen Bereich zu ziehen und zu installieren.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/5i46zFN9Ps6PpEP/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/fM2a4AeyspaQzYd/preview)
 
-Hast du das Plugin in das Uploadfeld gezogen, dauert es einen Augenblick, bis sich das Plugin auf dem Server befindet.
+Nachdem du das Plugin in das Upload-Feld gezogen hast, dauert es einen Moment, bis das Plugin auf dem Server ist.
 
-Um das Plugin nun nutzen zu können, musst du deinen Server mit dem Befehl `/rl` oder `/reload` über deine Gameserver Konsole neu laden (oder den gesamten Server neu starten). 
+Damit du das Plugin nutzen kannst, musst du deinen Server mit dem Befehl `/rl` oder `/reload` über die Gameserver-Konsole neu laden (oder den gesamten Server neu starten).
 
 :::info
-In seltenen Fällen muss der Server einmal neu gestartet werden, damit das Plugin reibungslos läuft.
+In seltenen Fällen muss der Server neu gestartet werden, damit das Plugin reibungslos läuft.
 :::
+
 
 ## Plugin deinstallieren
 
-![](https://screensaver01.zap-hosting.com/index.php/s/T2PFJqJ3DeZSXy2/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/dKaeJr8M3jzgMBS/preview)
 
-Um ein Plugin zu deinstallieren, klicke auf die rote Mülltone neben dem Eintrag.
+Um ein Plugin zu deinstallieren, klicke auf den roten Mülleimer neben dem Eintrag.
 
 ## Plugin deaktivieren
 
-Klicke dazu hinter einem installierten Plugin auf den grünen Button mit dem Schloss. Wechselt der Button seine Farbe von grün zu orange, hast du dein Plugin deaktiviert. Andersherum aktivierst du dein Plugin wieder. Die Plugin-Datei befindet sich nach dem Deaktivieren weiterhin auf dem Server, wird jedoch vom Gameserver nicht mehr geladen.
+Klicke dazu auf den grünen Button mit dem Schloss hinter einem installierten Plugin. Wenn der Button von grün auf orange wechselt, hast du dein Plugin deaktiviert. Umgekehrt aktivierst du das Plugin wieder. Die Plugin-Datei bleibt nach der Deaktivierung auf dem Server, wird aber vom Gameserver nicht mehr geladen.
 
 :::info
-Nachdem du dein Plugin deaktiviert hast, musst du den Server einmal reloaden, damit die Änderungen wirksam werden. Verwende dazu einen der beiden folgenden Befehle in deiner Gameserver Konsole oder Ingame: `/rl` oder `/reload`
+Nachdem du dein Plugin deaktiviert hast, musst du den Server einmal neu laden, damit die Änderungen wirksam werden. Nutze dafür einen der beiden Befehle in deiner Gameserver-Konsole oder im Spiel: `/rl` oder `/reload`
 :::
 
 ## Häufige Probleme
 
-**Mein Plugin lässt sich über den "Drag'n Drop"-Bereich nicht hochladen.**
+**Mein Plugin lässt sich nicht über den „Drag'n Drop“-Bereich hochladen.**
 
-Lösungsvorschläge:
+Vorschläge zur Lösung:
 
-- Dein Plugin ist möglicherweise größer als 5 MB und daher ungeeignet für den Upload via Webinterface. Verwende alternativ einfach einen FTP-Client. 
-- Die FTP-Rechte machen möglicherweise Probleme. Klicke zum Beheben des Problems auf den Reiter FTP-Browser im Webinterface und klicke den Button FTP-Rechte neu setzen. Danach sollten sich Plugins wieder hochladen lassen.
-- Dein Plugin ist möglicherweise ungültig und enthält keine gültige plugin.yml. In dem Fall verwende bitte hier auch alternativ einen FTP-Client.
-- Manchmal kann es vorkommen, dass die Liste nicht neu geladen wird. Lade dazu einfach die Seite via. F5, etc. neu.
+- Dein Plugin ist möglicherweise größer als 5 MB und daher ungeeignet für den Upload über die Weboberfläche. Alternativ nutze einfach einen FTP-Client.
+- Die FTP-Rechte könnten Probleme verursachen. Um das zu beheben, klicke im Webinterface auf den FTP-Browser-Tab und dann auf den Button „FTP-Rechte zurücksetzen“. Danach solltest du Plugins wieder hochladen können.
+- Dein Plugin ist eventuell ungültig und enthält keine gültige plugin.yml. In diesem Fall nutze bitte alternativ einen FTP-Client.
+- Manchmal wird die Liste nicht neu geladen. Lade die Seite einfach neu (z.B. mit F5).
 
 ### Mein Plugin lässt sich nicht mehr löschen.
 
 :::info
-Kontaktiere in dem Fall den Support.
+In dem Fall kontaktiere bitte den Support.
 :::
 
-### Mein Plugin lässt sich nicht deaktivieren / aktivieren.
+### Mein Plugin lässt sich nicht deaktivieren/aktivieren.
 
-Lösungsvorschläge:
+Vorschläge zur Lösung:
 
-- Befindet sich dein Plugin noch auf dem Server? Kontrolliere dies, indem du den Refresh Button am Rand der Tabelle klickst. Dadurch wird die angezeigte Liste mit den Plugins auf dem Server neu synchronisiert. Jetzt werden nur noch die Plugins angezeigt, die sich auch wirklich auf dem Server befinden.
+- Ist dein Plugin noch auf dem Server? Prüfe das, indem du auf den Aktualisieren-Button am Rand der Tabelle klickst. Dadurch wird die angezeigte Liste mit den Plugins auf dem Server neu synchronisiert. Es werden dann nur noch die Plugins angezeigt, die tatsächlich auf dem Server sind.
 
-### In der vorgefertigten Liste fehlen Plugins.
+### Plugins fehlen im Bereich „Alle Plugins“.
 
-Lösungsvorschläge:
+Vorschläge zur Lösung:
 
-- Für die aktuell installierte Version deines Gameservers gibt es möglicherweise keine aktuelle Version dieses Plugins. Um dir ein Plugin zu wünschen, benutze den blauen Button "Plugin fehlt?".
+- Für die aktuell installierte Version deines Gameservers gibt es möglicherweise keine aktuelle Version dieses Plugins. Um ein Plugin anzufragen, nutze den blauen Button „Plugin fehlt?“.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/xPHnpr6wRwYRjym/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/DeMjH2s74geaLPq/preview)
 
-### Das Neu-/De-/Installieren in der vorgefertigten Liste scheint nicht zu funktionieren.
+### Die Deinstallation/Installation in der vorgefertigten Liste funktioniert scheinbar nicht.
 
-Lösungsvorschläge:
+Vorschläge zur Lösung:
 
-- Lade zum Lösen des Problems hier einmal die Seite neu.
+- Lade die Seite hier neu, um das Problem zu beheben.
 
-### Es wird ein Plugin angezeigt, welches gar nicht auf dem Server ist.
+### Ein Plugin wird angezeigt, das gar nicht auf dem Server ist.
 
-Lösungsvorschläge:
+Vorschläge zur Lösung:
 
-- In dem Fall kannst du den Plugin Eintrag einfach per Klick auf den Deinstallieren-Button entfernen.
-- Du kannst auch alternativ versuchen, den Button Synchronisieren zu klicken.
+- In dem Fall kannst du den Plugin-Eintrag einfach durch Klick auf den Deinstallieren-Button entfernen.
+- Alternativ kannst du versuchen, auf den Synchronisieren-Button zu klicken.
 
 <InlineVoucher />

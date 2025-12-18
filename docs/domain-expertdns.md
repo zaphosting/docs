@@ -1,7 +1,7 @@
 ---
 id: domain-expertdns
 title: "Domain: ExpertDNS"
-description: Information about the ExpertDNS domain settings at ZAP-Hosting - ZAP-hosting.com documentation
+description: "Discover how to customize your domain's nameservers with ExpertDNS for greater control and flexibility → Learn more now"
 sidebar_label: ExpertDNS
 services:
   - domain
@@ -13,7 +13,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 The **ExpertDNS option** offers the possibility to use external name servers instead of the ones provided by ZAP-Hosting. With just a few clicks you can change the name servers. 
 
-
+<InlineVoucher />
 
 ## Access and use case
 

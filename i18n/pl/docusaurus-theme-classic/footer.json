@@ -1,0 +1,106 @@
+{
+  "link.title.Rent a Server": {
+    "message": "Wynajem serwera",
+    "description": "The title of the footer links column with title=Rent a Server in the footer"
+  },
+  "link.title.Social": {
+    "message": "Społeczność",
+    "description": "The title of the footer links column with title=Social in the footer"
+  },
+  "link.title.Support": {
+    "message": "Wsparcie",
+    "description": "The title of the footer links column with title=Support in the footer"
+  },
+  "link.title.Legal": {
+    "message": "Prawne",
+    "description": "The title of the footer links column with title=Legal in the footer"
+  },
+  "link.item.label.Rent a VPS": {
+    "message": "Wynajmij VPS",
+    "description": "The label of footer link with label=Rent a VPS linking to https://zap-hosting.com/en/rent-a-virtual-server/"
+  },
+  "link.item.label.Rent a RootServer": {
+    "message": "Wynajem serwera dedykowanego",
+    "description": "The label of footer link with label=Rent a RootServer linking to https://zap-hosting.com/en/rent-a-root-server/"
+  },
+  "link.item.label.Rent a Gameserver": {
+    "message": "Wynajem serwera gier",
+    "description": "The label of footer link with label=Rent a Gameserver linking to https://zap-hosting.com/en/rent-a-gameserver/"
+  },
+  "link.item.label.Rent a TeamSpeak server": {
+    "message": "Wynajmij serwer TeamSpeak",
+    "description": "The label of footer link with label=Rent a TeamSpeak server linking to https://zap-hosting.com/en/rent-a-teamspeak-3-server/"
+  },
+  "link.item.label.Rent a Discord Musicbot": {
+    "message": "Wynajem bota muzycznego Discord",
+    "description": "The label of footer link with label=Rent a Discord Musicbot linking to https://zap-hosting.com/en/rent-a-discord-musicbot/"
+  },
+  "link.item.label.Rent a Domain": {
+    "message": "Wynajem domeny",
+    "description": "The label of footer link with label=Rent a Domain linking to https://zap-hosting.com/en/domain-check/"
+  },
+  "link.item.label.Rent a Webspace": {
+    "message": "Wynajem hostingu",
+    "description": "The label of footer link with label=Rent a Webspace linking to https://zap-hosting.com/en/webhosting-rent-a-webspace/"
+  },
+  "link.item.label.X": {
+    "message": "X",
+    "description": "The label of footer link with label=X linking to https://x.com/zaphosting"
+  },
+  "link.item.label.Instagram": {
+    "message": "Instagram",
+    "description": "The label of footer link with label=Instagram linking to https://www.instagram.com/zaphosting/"
+  },
+  "link.item.label.Blog": {
+    "message": "Blog",
+    "description": "The label of footer link with label=Blog linking to https://zap-hosting.com/en/blog/"
+  },
+  "link.item.label.Discord": {
+    "message": "Discord",
+    "description": "The label of footer link with label=Discord linking to https://discord.gg/zaphosting"
+  },
+  "link.item.label.TikTok": {
+    "message": "TikTok",
+    "description": "The label of footer link with label=TikTok linking to https://tiktok.com/@zaphosting"
+  },
+  "link.item.label.YouTube": {
+    "message": "YouTube",
+    "description": "The label of footer link with label=YouTube linking to https://youtube.com/@zaphosting"
+  },
+  "link.item.label.Changelog": {
+    "message": "Lista zmian",
+    "description": "The label of footer link with label=Changelog linking to https://zap-hosting.com/en/changelog/"
+  },
+  "link.item.label.Ticketsupport": {
+    "message": "Wsparcie przez zgłoszenia",
+    "description": "The label of footer link with label=Ticketsupport linking to https://zap-hosting.com/en/customer/support/"
+  },
+  "link.item.label.Server Status": {
+    "message": "Status serwera",
+    "description": "The label of footer link with label=Server Status linking to https://status.zap-hosting.com/"
+  },
+  "link.item.label.Smokeping": {
+    "message": "Smokeping",
+    "description": "The label of footer link with label=Smokeping linking to https://smoky.zap-hosting.com/smokeping/"
+  },
+  "link.item.label.Terms of Service": {
+    "message": "Regulamin świadczenia usług",
+    "description": "The label of footer link with label=Terms of Service linking to https://zap-hosting.com/en/terms/"
+  },
+  "link.item.label.Imprint": {
+    "message": "Stopka",
+    "description": "The label of footer link with label=Imprint linking to https://zap-hosting.com/en/imprint/"
+  },
+  "link.item.label.Privacy Policy": {
+    "message": "Polityka prywatności",
+    "description": "The label of footer link with label=Privacy Policy linking to https://zap-hosting.com/en/privacy-policy/"
+  },
+  "link.item.label.Security": {
+    "message": "Bezpieczeństwo",
+    "description": "The label of footer link with label=Security linking to https://zap-hosting.com/en/security/"
+  },
+  "copyright": {
+    "message": "Copyright © 2025 ZAP-Hosting GmbH",
+    "description": "The footer copyright"
+  }
+}

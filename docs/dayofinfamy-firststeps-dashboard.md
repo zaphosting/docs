@@ -1,7 +1,7 @@
 ---
 id: dayofinfamy-firststeps-dashboard
 title: "Day of Infamy: Dashboard overview"
-description: Information about the dashboard of an Day of Infamy server from ZAP-Hosting - ZAP-Hosting.com Documentation
+description: "Discover how to efficiently manage and optimize your Day of Infamy server for peak performance and control → Learn more now"
 sidebar_label: Dashboard
 services:
   - gameserver-dayofinfamy

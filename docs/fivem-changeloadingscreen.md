@@ -1,7 +1,7 @@
 ---
 id: fivem-changeloadingscreen
 title: "FiveM: Installation of Custom Loading Screen"
-description: Information on how to install a Custom Loading Screen on a FiveM server from ZAP-Hosting - ZAP-Hosting.com documentation
+description: "Discover how to customize your FiveM loading screen for a unique player experience and enhance your server visuals → Learn more now"
 sidebar_label: Install Custom Loading Screen
 services:
   - gameserver-fivem

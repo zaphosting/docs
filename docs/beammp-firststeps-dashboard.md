@@ -1,7 +1,7 @@
 ---
 id: beammp-firststeps-dashboard
 title: "BeamMP: Dashboard Overview"
-description: Information about the dashboard of a BeamMP server from ZAP-Hosting - ZAP-Hosting.com documentation
+description: "Discover how to efficiently manage and optimize your BeamMP server with a clear, step-by-step guide tailored to your needs → Learn more now"
 sidebar_label: Dashboard
 services:
   - gameserver-beammp

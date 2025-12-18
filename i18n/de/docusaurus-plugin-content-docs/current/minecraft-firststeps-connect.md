@@ -1,8 +1,8 @@
 ---
 id: minecraft-firststeps-connect
-title: "Minecraft: Zum Server verbinden"
-description: Informationen über verschiedene Möglichkeiten, wie du dich mit deinem Minecraft Server von ZAP-Hosting verbinden kannst - ZAP-Hosting Dokumentation
-sidebar_label: Zum Server verbinden
+title: "Minecraft: Mit dem Server verbinden"
+description: "Entdecke, wie du dich reibungslos mit deinem Minecraft Gameserver verbindest und welche Tools du für ein nahtloses Spielerlebnis brauchst → Jetzt mehr erfahren"
+sidebar_label: Mit dem Server verbinden
 services:
   - gameserver-minecraft
 ---
@@ -11,74 +11,72 @@ import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
-
 ## Einführung
-
-Unsicher, wie du dich mit deinem **Minecraft** Server verbinden kannst oder was du dafür benötigst? Kein Problem, wir helfen dir weiter! Wir führen dich durch alles, was du benötigst - von den erforderlichen Werkzeugen und Informationen bis hin zum eigentlichen Verbindungsprozess und den wesentlichen Punkten, die für eine reibungslose und störungsfreie Verbindung erforderlich sind. Befolge unsere Anleitung und du wirst in kürzester Zeit verbunden sein!
-
-<InlineVoucher />
+Du bist dir nicht sicher, wie du dich mit deinem **Minecraft** Gameserver verbindest oder was du dafür brauchst? Kein Stress, wir haben alles für dich am Start! Wir führen dich durch alles, was du wissen musst. Von den nötigen Tools und Infos bis hin zum eigentlichen Verbindungsprozess – inklusive wichtiger Tipps, damit alles smooth und ohne Probleme läuft. Folge unserer Anleitung und du bist im Handumdrehen verbunden!
 
 
 
 ## Voraussetzungen
 
-Für dieses Spiel ist möglicherweise zusätzliche Software erforderlich, um sich mit dem Gameserver zu verbinden. Für die Vanilla-Version von Minecraft, d. h. ohne zusätzliche Mods oder Modpacks, ist keine zusätzliche Software erforderlich. Wenn du Mods/Modpacks verwenden möchtest, benötigst du auch den passenden Launcher. Welchen Launcher du für die jeweilige Mod oder das Modpack benötigst, siehst du am Namen des Spiels im Dashboard. 
+Für die Verbindung zum Gameserver kann zusätzliche Software nötig sein. Für die Vanilla-Version von Minecraft, also ohne Mods oder Modpacks, brauchst du keine extra Software. Wenn du Mods oder Modpacks nutzen willst, brauchst du den passenden Launcher. Welchen Launcher du für den jeweiligen Mod oder das Modpack brauchst, siehst du am Namen des Spiels im Dashboard.
 
-| Minecraft Variante                         | Zusätzliche Software erforderlich |
-| ------------------------------------------ | --------------------------------- |
-| Minecraft: Vanilla                         | X                                 |
-| Minecraft: Paper Spigot                    | X                                 |
-| Minecraft: Spigot                          | X                                 |
-| Minecraft: Bukkit                          | X                                 |
-| Minecraft: Forge                           | ✓                                 |
-| Minecraft: Fabric                          | ✓                                 |
-| Minecraft mit Mods/Modpacks im Allgemeinen | ✓                                 |
+| Minecraft-Variante                     | Zusätzliche Software nötig |
+| ------------------------------------- | -------------------------- |
+| Minecraft: Vanilla                    | X                          |
+| Minecraft: Paper Spigot               | X                          |
+| Minecraft: Spigot                    | X                          |
+| Minecraft: Bukkit                    | X                          |
+| Minecraft: Forge                     | ✓                          |
+| Minecraft: Fabric                    | ✓                          |
+| Minecraft mit Mods/Modpacks generell | ✓                          |
 
 
 
 
 #### Mods
-Wenn du Mods verwenden möchtest, dann benötigst du auch den passenden Mod-Loader. Je nachdem, ob du Mods aus Forge oder Fabric verwenden möchtest, benötigst du eines von beiden. 
+Wenn du Mods nutzen willst, brauchst du auch den passenden Mod Loader. Je nachdem, ob du Mods von Forge oder Fabric nutzen willst, brauchst du einen der beiden.
 
-- [Minecraft: Forge](https://files.minecraftforge.net/net/minecraftforge/forge/) - Um Forge-Mods verwenden zu können, musst du Forge herunterladen und installieren.
-- [Minecraft: Fabric](https://fabricmc.net/) - Um Fabric-Mods zu verwenden, musst du Fabric herunterladen und installieren.
+- [Minecraft: Forge](https://files.minecraftforge.net/net/minecraftforge/forge/) – Um Forge-Mods zu nutzen, musst du Forge herunterladen und installieren.
+- [Minecraft: Fabric](https://fabricmc.net/) – Um Fabric-Mods zu nutzen, musst du Fabric herunterladen und installieren.
 
-Forge und auch Fabric Mods müssen sowohl im Spiel als auch in der Serversoftware manuell installiert werden, damit eine Verbindung hergestellt werden kann.
+Forge- und Fabric-Mods müssen sowohl im Spiel als auch in der Server-Software manuell installiert werden, damit die Verbindung klappt.
 
-:::danger Keine Fabric/Forge Mods mischen
-Fabric und Forge sind nicht miteinander kompatibel. Forge-Mods müssen mit Forge laufen, und Fabric-Mods müssen mit Fabric laufen. Eine Kombination kann sowohl zu Client- als auch zu Serverabstürzen führen. 
+:::danger Keine Mischung aus Fabric- und Forge-Mods
+Fabric und Forge sind nicht kompatibel. Forge-Mods laufen nur auf Forge, Fabric-Mods nur auf Fabric. Eine Mischung kann zu Abstürzen beim Client und Server führen.
 :::
 
 
 #### Modpacks
-Wenn du eines der Modpacks benutzen möchtest, dann benötigst du auch den passenden Launcher. Welchen Launcher du für das jeweilige Modpack benötigst, kannst du anhand des Namens des Spiels im Dashboard sehen. 
-- [CurseForge](https://www.curseforge.com/) - Um Modpacks vom Curse / Twitch Launcher zu verwenden, ist es notwendig, diesen herunterzuladen und das Modpack von dort zu installieren. 
-- [Feed The Beast](https://www.feed-the-beast.com/) - Um Modpacks aus dem Feed The Beast Launcher zu verwenden, ist es notwendig, diesen herunterzuladen und das Modpack von dort aus zu installieren. 
-- [Technic Launcher](https://www.technicpack.net/) - Um Modpacks aus dem Technic Launcher zu verwenden, ist es notwendig, diesen herunterzuladen und das Modpack von dort aus zu installieren. 
+Wenn du ein Modpack nutzen willst, brauchst du auch den passenden Launcher. Welchen Launcher du für das jeweilige Modpack brauchst, siehst du am Namen des Spiels im Dashboard.
+- [CurseForge](https://www.curseforge.com/) – Für Modpacks vom Curse / Twitch Launcher musst du diesen herunterladen und das Modpack darüber installieren.
+- [Feed The Beast](https://www.feed-the-beast.com/) – Für Modpacks vom Feed The Beast Launcher musst du diesen herunterladen und das Modpack darüber installieren.
+- [Technic Launcher](https://www.technicpack.net/) – Für Modpacks vom Technic Launcher musst du diesen herunterladen und das Modpack darüber installieren.
 
 
-## Server-Details abrufen
 
-Du benötigst alle relevanten Informationen, um dich mit deinem Server zu verbinden. Die Informationen zu deinem Server findest du im Dashboard des Webinterfaces deines Gameservers. Zu den wichtigen Informationen gehören die folgenden: 
+## Serverdaten besorgen
+
+Du brauchst alle wichtigen Infos, um dich mit deinem Server zu verbinden. Die Infos zu deinem Server findest du im Dashboard deines Gameserver-Webinterface-Panels. Wichtige Infos sind unter anderem:
 
 - IP-Adresse und Port
 
-Anhand der oben genannten Informationen solltest du in der Lage sein, deinen Server zu finden und sicherzustellen, dass du dich mit dem richtigen Server verbindest. 
+Mit den oben genannten Infos kannst du deinen Server finden und sicherstellen, dass du dich mit dem richtigen Server verbindest.
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/RotxFtT3ZMdSWRy/preview)
+![img](https://screensaver01.zap-hosting.com/index.php/s/2orebizt2rz5bBz/preview)
 
 ## Verbindung zum Server herstellen
 
-Die Verbindung zu einem Gameserver kann häufig auf eine oder mehrere Arten hergestellt werden. Die verfügbaren Methoden werden im Folgenden ausführlich beschrieben und erklärt. 
+Die Verbindung zu einem Gameserver kann oft auf verschiedene Arten hergestellt werden. Die verfügbaren Methoden werden hier beschrieben und detailliert erklärt.
 
 <Tabs>
     <TabItem value="connect_solution_server_browser_ingame" label="Server Browser (Im Spiel)" default>
 
-Starte dein Spiel über den Minecraft- oder Mod-Pack-Launcher und navigiere zum Menüpunkt Multiplayer. Klicke dann auf Server hinzufügen. Dort kannst du einen Namen als Platzhalter und die IP-Adresse/Port eingeben.
+Starte dein Spiel über den Minecraft- oder Modpack-Launcher und gehe zum Menüpunkt **Mehrspieler**. Klicke dann auf **Server hinzufügen**. Dort kannst du einen Namen als Platzhalter eingeben sowie die IP-Adresse/den Port.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/4nAK62sXGLySm4D/download)
 
 </TabItem>
+
 
 </Tabs>
 
@@ -86,27 +84,28 @@ Starte dein Spiel über den Minecraft- oder Mod-Pack-Launcher und navigiere zum 
 
 ## Mögliche Probleme und Lösungen
 
-Die Verbindung zum Server kann nicht wie erwartet hergestellt werden? Dies kann in bestimmten Situationen vorkommen, z. B. wenn die Verbindung aufgrund von technischen Problemen fehlschlägt. Im Folgenden haben wir die häufigsten Probleme und ihre Lösungen aufgeführt:
+Die Verbindung zu einem Gameserver kann oft auf verschiedene Arten hergestellt werden. Die verfügbaren Methoden werden hier beschrieben und detailliert erklärt.
 
 #### Nicht sichtbar
 
-Eine fehlende Sichtbarkeit des Servers kann auftreten, wenn die Initialisierung nicht erfolgreich abgeschlossen wurde. Dies kann beispielsweise auf eine fehlerhafte Konfiguration oder beschädigte Dateien zurückzuführen sein. Weitere Informationen können in der Regel in der Serverkonsole oder in den Logdateien nachvollzogen werden.
+Wenn der Server nicht sichtbar ist, kann das daran liegen, dass die Initialisierung nicht erfolgreich abgeschlossen wurde. Das kann z.B. an einer fehlerhaften Konfiguration oder beschädigten Dateien liegen. Weitere Infos findest du meist in der Server-Konsole oder in den Logdateien.
 
-#### Verbindung fehlgeschlagen, Connection timed out.
-Die Fehlermeldung bedeutet, dass eine Verbindung mit dem Server nicht innerhalb des vorgesehenen Zeitfensters aufgebaut werden konnte. Die Ursachen dafür können vielfältig sein. Mehr Informationen dazu lassen sich in der Regel in den Logs oder Live Konsole nachvollziehen.
+#### Verbindung fehlgeschlagen, Zeitüberschreitung
+Diese Fehlermeldung bedeutet, dass innerhalb der vorgegebenen Zeit keine Verbindung zum Server aufgebaut werden konnte. Die Ursachen können vielfältig sein. Mehr Infos findest du meist in den Logs oder der Live-Konsole.
 
-#### Mismatched mod channel list
-Diese Fehlermeldung tritt dann auf, wenn eine Differenz bei den Mods zwischen dem Client und dem Server auftritt. Das kann beispielsweise dann vorkommen, wenn einzelne Mods fehlen oder diese für eine andere Version installiert sind. Die Mods sollten in dem Fall vorzugsweise beim Client und beim Server erneut installiert und kontrolliert werden.
-
-#### Fehlende Lösung oder nicht hilfreich
-
-Hast du nach der Fehlersuche weiterhin Probleme? In diesem Fall steht unser Support-Team täglich zur Verfügung, um dir zu helfen. Erstelle einfach ein **[Ticket](https://zap-hosting.com/en/customer/support/)** auf unserer Website und erkläre uns dein Problem mit so vielen Einzelheiten wie möglich. Wir werden uns so schnell wie möglich darum kümmern und dir bei der Lösung des Problems helfen!
+#### Unterschiedliche Mod-Channel-Liste
+Diese Fehlermeldung erscheint, wenn es Unterschiede bei den Mods zwischen Client und Server gibt. Das kann z.B. passieren, wenn einzelne Mods fehlen oder für eine andere Version installiert sind. In dem Fall sollten die Mods am besten neu installiert und sowohl auf Client als auch Server überprüft werden.
 
 
 
+#### Keine passende Lösung oder keine Hilfe
 
-## Abschluss
+Du hast nach der Fehlersuche immer noch Probleme? Kein Ding, unser Support-Team ist täglich für dich da! Erstelle einfach ein **[Ticket](https://zap-hosting.com/en/customer/support/)** auf unserer Website und beschreibe dein Problem so detailliert wie möglich. Wir schauen uns das schnellstmöglich an und helfen dir, das Problem zu lösen!
 
-Glückwunsch, vorausgesetzt, dass du alle Schritte befolgt hast, solltest du erfolgreich eine Verbindung zum Server hergestellt haben. Für weitere Fragen oder Hilfe zögere bitte nicht, unser Support-Team zu kontaktieren, das dir täglich zur Verfügung steht! 🙂
+
+
+## Fazit
+
+Glückwunsch, wenn du alles erfolgreich befolgt hast, solltest du jetzt mit dem Server verbunden sein. Für weitere Fragen oder Hilfe steht dir unser Support-Team täglich zur Verfügung! 🙂 
 
 <InlineVoucher />

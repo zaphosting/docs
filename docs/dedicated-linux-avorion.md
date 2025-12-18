@@ -1,7 +1,7 @@
 ---
 id: dedicated-linux-avorion
 title: "Dedicated Server: Avorion Dedicated Server Linux Setup"
-description: Information about setting up an Avorion Dedicated Server on a Linux Dedicated Server from ZAP-Hosting - ZAP-Hosting.com documentation
+description: "Learn how to install and configure the Avorion Dedicated server on your Linux VPS for seamless game hosting → Learn more now"
 sidebar_label: Avorion
 services:
   - dedicated
@@ -17,7 +17,7 @@ Do you have a Linux VPS and you want to install the Avorion Dedicated server ser
 Did you know that you can install our **ZAP GS/TS3 Interface** directly onto your VPS, allowing you to setup game server services, with direct integration to your ZAP-Hosting dashboard, in just a few clicks! Learn more about the [GS/TS3 Interface](dedicated-linux-gs-interface.md).
 :::
 
-<InlineVoucher />
+
 
 ## Preparation
 
@@ -73,4 +73,4 @@ Congratulations, you have successfully installed and configured the Avorion serv
 
 If you have any further questions or problems, please contact our support team, who are available to help you every day!
 
-<InlineVoucher />
+

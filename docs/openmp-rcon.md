@@ -1,7 +1,7 @@
 ---
 id: openmp-rcon
 title: "Open.mp: Server Using RCON"
-description: Information on how to use RCON with your Open.mp server from ZAP-Hosting to manage your server - ZAP-Hosting.com documentation
+description: "Discover how to remotely manage game servers using RCON for efficient server control and security → Learn more now"
 sidebar_label: RCON
 services:
   - gameserver-openmp

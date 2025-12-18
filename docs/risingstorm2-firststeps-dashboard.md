@@ -1,7 +1,7 @@
 ---
 id: risingstorm2-firststeps-dashboard
 title: "Rising Storm 2: Vietnam: Dashboard overview"
-description: "Information about the dashboard of an Rising Storm 2: Vietnam server from ZAP-Hosting - ZAP-Hosting.com Documentation"
+description: "Discover how to efficiently manage and optimize your Rising Storm 2: Vietnam server for the best performance and control → Learn more now"
 sidebar_label: Dashboard
 services:
   - gameserver-risingstorm2

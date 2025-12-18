@@ -1,7 +1,7 @@
 ---
 id: dedicated-iso
 title: "Dedicated Server: Own ISO"
-description: Information on how to install your own ISO file on your dedicated server from ZAP-Hosting - ZAP-Hosting.com documentation
+description: "Discover how to mount ISO files easily using iLO or remote console to boot your server efficiently → Learn more now"
 sidebar_label: Own ISO
 services:
   - dedicated
@@ -18,7 +18,7 @@ Are you looking to mount an ISO? Perhaps one of ours or would you prefer your ow
 When using your own ISO (OS), which we do not actively offer, we cannot guarantee functionality in the event of any possible issues. 
 :::
 
-<InlineVoucher />
+
 
 ## Available mounting options
 There are two ways to mount your own iso file. It's always necessary to restart the server, to load the file. There are in general no restrictions on mounting a file, it's important that the ISO file is bootable.
@@ -62,4 +62,4 @@ After you have injected your desired ISO File, a server reboot is required.
 ## Conclusion
 Congratulations, you have successfully selected and mounted your ISO file. For further questions or assistance, please don't hesitate to contact our support team, which is available daily to assist you! 🙂
 
-<InlineVoucher />
+

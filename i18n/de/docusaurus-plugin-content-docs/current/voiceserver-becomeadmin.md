@@ -1,7 +1,7 @@
 ---
 id: voiceserver-becomeadmin
 title: "Voiceserver: Admin werden"
-description: Informationen, wie du Admins für deinen Teamspeak Server von ZAP-Hosting erstellst und zuweist - ZAP-Hosting.com Dokumentation
+description: "Lerne, wie du Administratorrechte auf deinem Teamspeak-Server vergibst und verwaltest, um Nutzer effektiv zu steuern und die Sicherheit zu gewährleisten → Jetzt mehr erfahren"
 sidebar_label: Admin werden
 services:
   - voiceserver
@@ -11,40 +11,34 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
 
-Damit du deinen Teamspeak Server verwalten und konfigurieren kannst, benötigst du Administrator-Berechtigungen. Im Folgenden wird erklärt, wie du Benutzer als Admin hinzufügen kannst. 
+Um deinen Teamspeak-Server zu verwalten und zu konfigurieren, brauchst du Administratorrechte. Im Folgenden erklären wir dir, wie du Nutzer als Admin hinzufügen kannst.
 
 <InlineVoucher />
 
 ## Vorbereitung
 
-Zum Authentifizieren als Admin wird der Berechtigungsschlüssel benötigt. Diesen findest du im Webinterface bei der Teamspeak Server Verwaltung unter Berechtigungsschlüssel. Dort legen wir einen neuen Berechtigungsschlüssel an, falls noch keiner vorhanden ist und kopieren den Schlüssel im Anschluss.
+Für die Authentifizierung als Admin benötigst du den Privilege Key. Diesen findest du im Webinterface unter Teamspeak Server Administration bei **Privilege Keys**. Dort musst du einen neuen Privilege Key erstellen, falls noch keiner vorhanden ist, und anschließend den Key kopieren.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/ZYYEJzgBNKY7xcD/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/EESWRrqm5rXaPit/preview)
 
+## Rechte vergeben
 
+Jetzt musst du dich mit dem Teamspeak-Client mit dem Teamspeak-Server verbinden. Wenn der Teamspeak-Server noch nicht konfiguriert oder genutzt wurde, erscheint beim Verbinden folgendes Popup:
 
-## Berechtigung zuweisen
+![](https://screensaver01.zap-hosting.com/index.php/s/7iwSrfxYKFrGqxT/preview)
 
-Nun muss eine Verbindung zum Teamspeak Server per Teamspeak Client hergestellt werden. Wenn der Teamspeak Server bis dato noch nicht konfiguriert/verwendet wurde, dann wird beim Verbindungsaufbau folgendes Popup-Fenster angezeigt:
+Dort kannst du den Privilege Key eingeben und den Vorgang mit dem **OK**-Button bestätigen. Falls dieses Fenster nicht mehr erscheint, kannst du im Teamspeak-Client in der **Navigationsleiste** auf **Rechte** klicken und dann auf **Privilege Key verwenden**. Es öffnet sich ein Popup, in das du den Privilege Key eingeben kannst.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/B3gyw5Jcy4DipzM/preview)
+Nach dem Drücken von **OK** wird dein Nutzerkonto mit Administratorrechten ausgestattet.
 
+![](https://screensaver01.zap-hosting.com/index.php/s/b4MgfsCMzAc7wD2/preview)
 
+## Weitere Admins hinzufügen
 
-Dort kann jetzt der Berechtigungsschlüssel eingetragen und im Anschluss mit dem **OK** Button der Vorgang bestätigt werden. Sollte dieses Fenster nicht mehr erscheinen, dann kannst du im Teamspeak Client in der **Navigationzeile** auf **Rechte** und dann auf **Berechtigungsschlüssel benutzen** drücken. Es öffnet sich dann ein Popup-Fenster, in dem du dann den Berechtigungsschlüssel eintragen kannst. 
+Wenn du weiteren Nutzern Administratorrechte geben möchtest, kannst du entweder weitere Privilege Keys für die jeweiligen Nutzer erstellen oder die entsprechende Servergruppe direkt im Teamspeak-Client für den jeweiligen Nutzer zuweisen. Dazu einfach mit der rechten Maustaste auf den Nutzer klicken, **Servergruppen** auswählen und dann die passende Servergruppe anklicken.
 
-Nach dem **OK** drücken werden deinem Benutzeraccount dann die Administrator-Berechtigungen zugewiesen. 
+## Fazit
 
-![](https://screensaver01.zap-hosting.com/index.php/s/x7FkztJeqxwimGo/preview)
-
-
-## Weitere Administratoren hinzufügen
-
-Wenn du weiteren Benutzer Administrator-Berechtigungen zuweisen möchtest, dann kannst du für die entsprechenden Benutzer entweder weitere Berechtigungsschlüssel anlegen oder im Teamspeak Client selbst bei dem jeweiligen Benutzer die entsprechende Server-Gruppe zuweisen. Mache dafür einen Rechtsklick bei dem Benutzer, klicke auf Server Gruppen und dann wählst du die Server Gruppe aus. 
-
-
-## Abschluss
-
-Glückwunsch, du hast erfolgreich die Administratorberechtigungen konfiguriert. Für weitere Fragen oder Hilfe zögere bitte nicht, unser Support-Team zu kontaktieren, das dir täglich zur Verfügung steht! 🙂
+Glückwunsch, du hast die Administratorrechte erfolgreich eingerichtet! Bei weiteren Fragen oder wenn du Hilfe brauchst, steht dir unser Support-Team täglich zur Verfügung – melde dich einfach! 🙂
 
 <InlineVoucher />

@@ -1,85 +1,84 @@
 ---
 id: dedicated-linux-ubuntu-2204
 title: "Dedicated Server: Installation von Ubuntu 22.04"
-description: Informationen zur Installation des Betriebssystems Ubuntu 22.04 auf deinem dedizierten Server von ZAP-Hosting - ZAP-Hosting.com Dokumentation
+description: "Entdecke, wie du Ubuntu erfolgreich auf deinem Dedicated Server installierst und konfigurierst – für optimale Performance und langfristigen Support → Jetzt mehr erfahren"
 sidebar_label: Ubuntu 22.04
 services:
   - dedicated
-
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
 
-Im Folgenden wird dir Schritt für Schritt erklärt, wie du das Debian Betriebssystem auf deinem Dedicated Server installieren und konfigurieren kannst. Folge diesen Anweisungen sorgfältig, um sicherzustellen, dass du das Betriebssystem erfolgreich einrichtest und optimal nutzt.
+Im Folgenden erklären wir dir Schritt für Schritt, wie du das Ubuntu-Betriebssystem auf deinem Dedicated Server installierst und konfigurierst. Folge diesen Anweisungen sorgfältig, damit du das Betriebssystem erfolgreich einrichtest und optimal nutzen kannst.
 
 
 
-:::warning Neuere Version verfügbar / EOL Details
+:::warning Neuere Version verfügbar / EOL-Details
 
-Die neueste Version von Ubuntu ist die [24.04](dedicated-linux-ubuntu.md) Version. Wir empfehlen, die neueste Version für langfristige Projekte zu verwenden.
+Die aktuellste Ubuntu-Version ist die [24.04](dedicated-linux-ubuntu.md). Für langfristige Projekte empfehlen wir dir, immer die neueste Version zu verwenden.
 
-Der Support für ältere Ubuntu Versionen wird früher oder später eingestellt werden. Die folgenden Termine sind für Ubuntu 22.04 vorgesehen:
+Der Support für ältere Ubuntu-Versionen wird früher oder später eingestellt. Für die Version 22.04 sind folgende Termine geplant:
 
-- Ende des Standard Support: 01.04.2027
-- Ende des  Ubuntu Pro Support: 01.04.2032
-- Ende des Legacy Support: 01.04.2034
+- Ende des Standard-Supports: 01.04.2027
+- Ende des Ubuntu Pro Supports: 01.04.2032
+- Ende des Legacy-Supports: 01.04.2034
 
-Mehr Informationen können auf der [offiziellen Website](https://ubuntu.com/about/release-cycle) abgerufen werden.
+Mehr Infos findest du auf der [offiziellen Webseite](https://ubuntu.com/about/release-cycle).
 :::
 
-<InlineVoucher />
+
 
 
 ## Vorbereitung
 
-Für die Installation und Konfiguration eines Betriebssystems ist es zunächst wichtig, dass die entsprechende ISO vom Betriebssystem gemountet wird. Für das Mounten gibt es mehrere mögliche Wege: 
+Für die Installation und Konfiguration eines Betriebssystems ist es zunächst wichtig, das passende ISO-Image des Betriebssystems zu mounten. Dafür gibt es mehrere Möglichkeiten:
 
 1. Mounten über die Ersteinrichtung
-2. Mounten über die iLO (Virtual Media)
-3. Mounten über die iLO (Remote Console)
+2. Mounten über iLO (Virtual Media)
+3. Mounten über iLO (Remote Console)
 
-Solltest du mit dem Mounten einer ISO-Datei noch nicht vertraut sein, dann schaue dir am besten unsere [Ersteinrichtung](dedicated-setup.md) oder [Eigene ISO](dedicated-iso.md) Anleitung an.
+Wenn du noch nicht vertraut bist mit dem Mounten einer ISO-Datei, empfehlen wir dir unsere [Ersteinrichtung](dedicated-setup.md) oder die [Eigene ISO](dedicated-iso.md) Anleitung.
 
 
 
 ## Installation
 
-Sobald die ISO-Datei erfolgreich gemountet und geladen wurde, sollte sich der Server im Setup-Prozess befinden. Die Sprache, die du für dein Betriebssystem verwenden möchtest, wird zu Beginn des Setups festgelegt. Wähle eine der verfügbaren Sprachen und bestätige die Auswahl mit der `Enter` Taste. 
+Sobald das ISO erfolgreich gemountet und geladen wurde, sollte sich der Server im Setup-Prozess befinden. Zu Beginn des Setups legst du die Sprache fest, die du für dein OS verwenden möchtest. Wähle eine der verfügbaren Sprachen aus und bestätige mit der `Enter`-Taste.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/yrHMNzstM23XZH6/preview)
 
-Als nächstes muss das passende Tastaturlayout ausgewählt und für die Sprache eingestellt werden. Wähle auch hier die für dich passende Tastaturbelegung. 
+Als Nächstes wird das passende Tastaturlayout für die Sprache ausgewählt und eingestellt. Wähle hier ebenfalls das für dich passende Layout aus.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/x9kYGEWS5fy7Wjp/preview)
 
-Anschließend erfolgt die Netzwerkkonfiguration. Der Server wird standardmäßig über DHCP konfiguriert. Der Standard-Netzwerkadapter ist `eno1`. Bestätige die Standardeinstellungen und fahre fort. 
+Danach erfolgt die Netzwerkkonfiguration. Standardmäßig wird der Server per DHCP konfiguriert. Der Standard-Netzwerkadapter ist `eno1`. Bestätige die Voreinstellungen und fahre fort.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/6mr5kAKJQ39iJt5/preview)
 
-Optional kann ein zusätzlicher Proxy konfiguriert werden. Dies ist jedoch nicht unbedingt erforderlich. Wenn du das nicht benötigst, dann überspringe diesen Schritt einfach. 
+Optional kannst du einen zusätzlichen Proxy konfigurieren. Das ist aber nicht zwingend notwendig. Wenn du keinen brauchst, überspringe diesen Schritt einfach.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/tz97Ee8ZQkxAGGb/preview)
 
-Nun wird der Ubuntu Archive Mirror (Download-Server für Pakete) definiert. Unsere dedizierten Server befinden sich in Deutschland, daher empfehlen wir, den deutschen Mirror-Standort zu wählen, um die bestmögliche Download Geschwindigkeit zu erreichen.
+Jetzt wird der Ubuntu Archive Mirror (Download-Server für Pakete) festgelegt. Unsere Dedicated Server stehen in Deutschland, daher empfehlen wir, den deutschen Mirror auszuwählen, um die bestmöglichen Download-Geschwindigkeiten zu erzielen.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/xNknNyWAbd5DnsZ/preview)
 
-Die Partitionen können nun in der Speicherkonfiguration definiert werden. Du kannst entweder eine große Partition verwenden oder sie bei Bedarf unterteilen. Wenn du nur die gesamte SSD als eine Partition verwenden möchtest, wähle einfach `Use an entire disk` und fahre fort.
+Im nächsten Schritt kannst du die Partitionen in der Speicher-Konfiguration festlegen. Du kannst entweder eine große Partition nutzen oder sie bei Bedarf aufteilen. Wenn du die gesamte SSD als eine Partition verwenden möchtest, wähle einfach `Use an entire disk` und fahre fort.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/2dJ9oeMGjpWn6cZ/preview)
 
-Das Setup erstellt automatisch die Volumes und du kannst fortfahren, indem du die `Done` Option wählst.
+Das Setup erstellt die Volumes automatisch, danach kannst du mit der Option `Done` weitermachen.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/WXfzt57Rtm2SQLD/preview)
 
-Bevor der Vorgang eingeleitet wird, wirst du darauf hingewiesen, dass bei diesem Vorgang alle vorhandenen Daten gelöscht werden. Diese Meldung muss mit der Option `Continue` bestätigt werden. 
+Bevor der Prozess gestartet wird, wirst du darauf hingewiesen, dass dabei alle vorhandenen Daten gelöscht werden. Diese Meldung musst du mit `Continue` bestätigen.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/L3YcGNbYWpMmaDj/preview)
 
-Bitte konfiguriere dein Benutzerkonto nach deinen Wünschen, du kannst auch das Root-Konto verwenden, indem du das Passwort änderst.
-Du kannst mit der Tabulatortaste oder den Pfeiltasten durch die Optionen navigieren. Sobald du fertig bist, kannst du mit einem Klick auf `Done` fortfahren.
+Bitte richte deinen Benutzeraccount nach deinen Wünschen ein. Du kannst am Ende auch den Root-Account nutzen, indem du das Passwort änderst.  
+Mit Tab oder den Pfeiltasten kannst du dich durch die Optionen bewegen. Wenn du fertig bist, bestätige mit `Done`.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/mqrjmF2ZmA2Qj9z/preview)
 
@@ -87,15 +86,15 @@ Du kannst mit der Tabulatortaste oder den Pfeiltasten durch die Optionen navigie
 
 
 
-Die Installation der SSH-Einrichtung wird empfohlen. Wenn du den Server per SSH verwalten willst, wähle die Option zur Installation aus und bestätige den Vorgang.
+Die Installation des SSH-Setups wird empfohlen. Wenn du den Server per SSH verwalten möchtest, wähle die Option zur Installation und bestätige den Vorgang.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/Xz3zzMdZ6C523ip/preview)
 
-Ubuntu bietet dir ein paar Paketsammlungen aus, sofern du etwas davon nutzen möchtest, wähle diese einfach aus.
+Ubuntu bietet einige Standard-Snaps an. Wenn du welche davon nutzen möchtest, setze einfach die Häkchen bei den gewünschten.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/wcGiSwX935jXeex/preview)
 
-Um den Vorgang abzuschließen, muss die ISO-Datei ausgeworfen werden, damit sie beim Neustart des Servers nicht erneut geladen wird. Starte den Server einmal neu, um den Vorgang abzuschließen. 
+Zum Abschluss muss das ISO ausgeworfen werden, damit es beim Neustart des Servers nicht erneut geladen wird. Starte den Server einmal neu, um den Vorgang abzuschließen.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/SzrxCtJTx2S8Nef/preview)
 
@@ -109,19 +108,12 @@ Um den Vorgang abzuschließen, muss die ISO-Datei ausgeworfen werden, damit sie 
 
 
 
-### Passwortänderung des Root Benutzers
+### Passwort des Root-Users ändern
 
-Du kannst das Passwort des Root-Benutzers einfach ändern. Führe `sudo su` aus und gib dein Passwort ein. Führe danach `sudo passwd` aus, um das Passwort zu ändern. Gib nun das neue gewünschte Passwort für den Root-Benutzer ein. Das war's, du kannst dich jetzt mit deinem Benutzeraccount `root` anmelden.
-
-
-
-## Abschluss
-
-Glückwunsch, du hast das Ubuntu 22.04 Betriebssystem erfolgreich installiert. Für weitere Fragen oder Hilfe zögere bitte nicht, unser Support-Team zu kontaktieren, das dir täglich zur Verfügung steht! 🙂
+Du kannst das Passwort des Root-Users ganz einfach ändern. Führe `sudo su` aus und gib dein Passwort ein. Danach führst du `sudo passwd` aus, um das Passwort zu ändern. Gib nun das neue gewünschte Passwort für den Root-User ein. Fertig – du kannst dich jetzt mit dem User `root` anmelden.
 
 
 
+## Fazit
 
-
-
-<InlineVoucher />
+Glückwunsch, du hast Ubuntu 22.04 erfolgreich auf deinem Dedicated Server installiert. Bei weiteren Fragen oder wenn du Hilfe brauchst, steht dir unser Support-Team täglich zur Seite! 🙂

@@ -1,7 +1,7 @@
 ---
 id: dedicated-network-analysis-winmtr
 title: "Dedicated Server: Identifying network issues with WinMTR/MTR"
-description: Information on how to perform a network analysis to identify network problems - ZAP-Hosting.com documentation
+description: "Discover how to diagnose network issues by analyzing outbound and return routes to identify latency and packet loss effectively → Learn more now"
 sidebar_label: Network issues
 services:
   - dedicated
@@ -572,4 +572,4 @@ The evaluation shows that packet loss occurs only on the return route. The losse
 
 Although ZAP-Hosting continuously monitors the network, it is important to contact our support team promptly in case of network issues. To ensure an accurate diagnosis and a quick resolution, we kindly ask you to provide us with the results of your WinMTR/MTR reports for both the outbound and return routes. This information helps us to precisely identify potential problem areas and resolve the issue quickly.
 
-<InlineVoucher />
+

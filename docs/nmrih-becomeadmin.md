@@ -1,7 +1,7 @@
 ---
 id: nmrih-becomeadmin
 title: "No More Room In Hell: Become an admin"
-description: "Information on how to become an admin on your No More Room In Hell server from ZAP-Hosting - ZAP-Hosting.com documentation"
+description: "Discover how to assign administrator permissions for full server control and seamless in-game management → Learn more now"
 sidebar_label: Become admin
 services:
   - gameserver-nmrih

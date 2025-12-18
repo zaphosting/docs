@@ -1,7 +1,7 @@
 ---
 id: dedicated-linux-curl
 title: "Dedicated Server: Setup cURL on Linux"
-description: Information on how to setup cURL on your Linux Dedicated Server from ZAP-Hosting - ZAP-Hosting.com documentation
+description: "Discover how to set up and optimize cURL for efficient data transfers and API testing → Learn more now"
 sidebar_label: Install cURL
 services:
   - dedicated
@@ -17,7 +17,7 @@ cURL  is both a free command-line tool and a software library (libcURL) for tran
 
 Considering about hosting this service yourself? We’ll walk you through every step on how to set it up and configure it, along with everything you need to keep in mind.
 
-<InlineVoucher />
+
 
 
 
@@ -70,4 +70,3 @@ Got specific questions that aren't covered here? For further questions or assist
 
 
 
-<InlineVoucher />

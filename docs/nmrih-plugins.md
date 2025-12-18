@@ -1,7 +1,7 @@
 ---
 id: nmrih-plugins
 title: "No More Room In Hell: Install plugins on your own server"
-description: "Information on how to install plugins on your No More Room In Hell server from ZAP-Hosting - ZAP-Hosting.com documentation"
+description: "Discover how to customize and enhance your game server with Sourcemod and Metamod for better management and features → Learn more now"
 sidebar_label: Install Plugins
 services:
   - gameserver-nmrih

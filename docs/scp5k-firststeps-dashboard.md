@@ -1,7 +1,7 @@
 ---
 id: scp5k-firststeps-dashboard
 title: "SCP 5K: Dashboard Overview"
-description: Information about the dashboard of an SCP 5K server from ZAP-Hosting - ZAP-Hosting.com Documentation
+description: "Discover how to efficiently manage your SCP: 5K server with a clear overview of features and options → Learn more now"
 sidebar_label: Dashboard
 services:
   - gameserver-scp5k

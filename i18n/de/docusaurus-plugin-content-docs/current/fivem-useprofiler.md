@@ -1,8 +1,8 @@
 ---
 id: fivem-useprofiler
-title: "FiveM: Verwendung des Profilers zur Ermittlung von Serverproblemen"
-description: Informationen, wie du den Profiler für deinen FiveM Server on ZAP-Hosting zur Problemidentifizierung benutzt und interpretierst - ZAP-Hosting.com Dokumentation
-sidebar_label: Profiler Benutzen
+title: "FiveM: Profiler nutzen, um Serverprobleme zu erkennen"
+description: "Entdecke, wie du mit dem FiveM Profiler die Server-Performance analysierst und Ressourcenprobleme findest für ein flüssigeres Gameplay → Jetzt mehr erfahren"
+sidebar_label: Profiler nutzen
 services:
   - gameserver-fivem
 ---
@@ -14,27 +14,28 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
 
-Der Profiler ist ein recht nützliches und einfach zu bedienendes Spieltool, um die Leistung des Servers zu messen. Damit lassen sich Codes und Threads überprüfen, die zu möglichen Leistungsproblemen führen. Dies kann zum Beispiel durch schlecht entwickelte Ressourcen oder ähnliches verursacht werden. Der Profiler ist direkt in die Serversoftware integriert. 
+Der Profiler ist ein super nützliches und einfach zu bedienendes Tool, um die Performance deines Servers zu messen. Damit kannst du Codes und Threads checken, die mögliche Performance-Probleme verursachen. Das kann zum Beispiel durch schlecht entwickelte Ressourcen oder Ähnliches passieren. Der Profiler ist direkt in die Server-Software integriert.
 
 <InlineVoucher />
 
-## Verwendung des Profilers
-Die Prozedur zum benutzen vom FiveM Profiler ist relativ einfach. Führe dazu die Befehle `profiler record 100` und `profiler view` in der Live-Konsole aus. Es wird ein Profil mit 100 Frames erstellt, welches dann über den bereitgestellten Link in der Konsole aufgerufen werden kann. ![img](https://screensaver01.zap-hosting.com/index.php/s/ZGFEaFFmgyKn8PK/preview)
+## Profiler verwenden
+Die Nutzung des FiveM Profilers ist ziemlich simpel. Gib dazu einfach die Befehle `profiler record 100` und `profiler view` in der Live-Konsole ein. Es wird ein Profil mit 100 Frames erstellt, das du dann über den Link in der Konsole aufrufen kannst. ![img](https://screensaver01.zap-hosting.com/index.php/s/ZGFEaFFmgyKn8PK/preview)
 
- 
+
 
 
 ## Probleme erkennen
-Der Profiler enthält Informationen zu den einzelnen Aktivitäten (Ticks), die genauer überprüft werden müssen. Wähle einen Tick-Bereich aus und zoomen ihn heran. Anhand des Ticks kann man nun sehen, welche Prozesse ausgeführt wurden und wie lange sie gedauert haben. 
+Der Profiler zeigt dir Infos zu den einzelnen Aktivitäten (Ticks), die du dir genauer anschauen solltest. Wähle einen Tick-Bereich aus und zoome rein. Anhand des Ticks siehst du jetzt, welche Prozesse ausgeführt wurden und wie lange sie gedauert haben.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/6BJozz7abRSHSj5/preview)
 
-So kannst du zum Beispiel auch erkennen, welche Ressourcen viel Zeit in Anspruch nehmen. Ressourcen, die insgesamt mehr als 6 ms verbrauchen, können mögliche Probleme verursachen.
+So erkennst du zum Beispiel auch, welche Ressourcen viel Zeit fressen. Ressourcen, die insgesamt mehr als 6 ms brauchen, können potenzielle Probleme verursachen.
+:::
 
 
 
-## Abschluss
+## Fazit
 
-Glückwunsch, du hast erfolgreich ein FiveM-Profil erstellt, mit dem du potenzielle Probleme erkennen kannst. Für weitere Fragen oder Hilfe zögere bitte nicht, unser Support-Team zu kontaktieren, das dir täglich zur Verfügung steht! 🙂
+Glückwunsch, du hast erfolgreich ein FiveM-Profil erstellt, mit dem du mögliche Probleme identifizieren kannst. Bei weiteren Fragen oder wenn du Hilfe brauchst, steht dir unser Support-Team täglich zur Seite! 🙂
 
 <InlineVoucher />

@@ -1,7 +1,7 @@
 ---
 id: dedicated-linux-plesk
 title: "Dedicated Server: Installation of Plesk"
-description: Information on how to install Plesk on on your Linux Dedicated Server from ZAP-Hosting - ZAP-Hosting.com documentation
+description: "Discover how to manage websites and servers efficiently with Plesk’s versatile platform for all skill levels → Learn more now"
 sidebar_label: Install Plesk
 services:
   - dedicated
@@ -13,7 +13,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Plesk is a comprehensive web hosting and server management platform that allows users to manage websites, servers, email accounts and more through a user-friendly interface. It is a versatile solution that is suitable for beginners as well as experienced web developers and system administrators. 
 
-<InlineVoucher />
+
 
 ## Install Plesk
 
@@ -203,4 +203,4 @@ If the domain is now opened in the browser, it shows its encryption.
 The installation as well as the setup of the first domain with encryption is now completely finished. 
 :::
 
-<InlineVoucher />
+

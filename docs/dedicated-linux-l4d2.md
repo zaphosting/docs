@@ -1,7 +1,7 @@
 ---
 id: dedicated-linux-l4d2
 title: "Dedicated Server: Left 4 Dead 2 Dedicated Server Linux Setup"
-description: "Information about setting up an Left 4 Dead 2 Dedicated Server on a Linux VPS from ZAP-Hosting - ZAP-Hosting.com documentation"
+description: "Discover how to set up a Left 4 Dead 2 dedicated server on your Linux VPS for seamless multiplayer gaming → Learn more now"
 sidebar_label: "Left 4 Dead 2"
 services:
   - vserver
@@ -16,7 +16,7 @@ Do you have a Linux VPS and you want to install the Left 4 Dead 2 Dedicated serv
 Did you know that you can install our **ZAP GS/TS3 Interface** directly onto your VPS, allowing you to setup game server services, with direct integration to your ZAP-Hosting dashboard, in just a few clicks! Learn more about the [GS/TS3 Interface](dedicated-linux-gs-interface.md).
 :::
 
-<InlineVoucher />
+
 
 ## Preparation
 
@@ -68,4 +68,4 @@ Congratulations, you have successfully installed and configured the Left 4 Dead 
 
 For further questions or assistance, please don't hesitate to contact our support team, which is available daily to assist you! 🙂
 
-<InlineVoucher />
+

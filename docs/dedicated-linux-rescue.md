@@ -1,7 +1,7 @@
 ---
 id: dedicated-linux-rescue
 title: "Dedicated Server: Rescue your files using the System Rescue"
-description: Information on how to rescue your files using SystemRescue on your Dedicated Server from ZAP-Hosting. - ZAP-Hosting.com Documentation
+description: "Discover how to recover data and create backups from a non-booting server using SystemRescue ISO and secure file transfer → Learn more now"
 sidebar_label: System Rescue (Backup)
 services:
   - dedicated
@@ -16,7 +16,7 @@ By booting your server with the **SystemRescue ISO**, you can still access your 
 
 To transfer the recovered data securely, you can use **SFTP (Secure File Transfer Protocol)**. This method allows you to copy files from the rescue system to your local computer or to another server over a secure and encrypted connection.
 
-<InlineVoucher />
+
 
 
 
@@ -125,4 +125,4 @@ You have now successfully rescued and backed up your important files.
 
 For further questions or assistance, please don't hesitate to contact our support team, which is available daily to assist you! 🙂
 
-<InlineVoucher />
+

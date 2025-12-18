@@ -1,133 +1,135 @@
 ---
 id: domain-gameserver-srv-link
-title: "Domain: Gameserver Weiterleitung einrichten"
-description: Informationen, wie du eine Weiterleitung von deiner Domain auf einen Gameserver einrichtest - ZAP-Hosting.com Dokumentation
-sidebar_label: Gameserver Weiterleitung
+title: "Domain: Gameserver-Weiterleitung einrichten"
+description: "Entdecke, wie du deine Domain oder Subdomain auf einen Gameserver weiterleitest für einfachen Zugriff und bessere Verbindung → Jetzt mehr erfahren"
+sidebar_label: Gameserver-Weiterleitung
 services:
   - domain
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
-:::info
-Bitte beachte, dass es immer bis zu 24 Stunden dauern kann bis Änderungen an DNS Einträgen aktiv werden!
-:::
-
 ## Einführung
-Du kannst entweder deine Domain vollständig, oder lediglich eine Subdomain auf deinen Gameserver weiterleiten.
-So muss sich niemand die komplizierte IP-Adresse, welche aus Zahlen besteht merken, sondern kann sich einfach mithilfe der Domain auf deinen Gameserver verbinden.
+Du kannst entweder deine komplette Domain oder nur eine Subdomain auf deinen Gameserver weiterleiten. Das ist praktisch, weil Leute so über eine Domain auf deinen Gameserver connecten können, anstatt sich komplizierte IP-Adressen nur aus Zahlen merken zu müssen. In dieser Anleitung zeigen wir dir, wie du deine Domain per DNS-Einträgen auf deinen Gameserver weiterleitest.
+
+<InlineVoucher />
+
+:::info
+Beachte, dass es immer bis zu 24 Stunden dauern kann, bis Änderungen an DNS-Einträgen aktiv werden!
+:::
 
 ## Funktionsweise
 
-Für die Weiterleitung der IP-Adresse wird entweder eine Subdomain erstellt, welche auf die IP-Adresse des Gameservers leitet, oder du leitest die komplette Domain ohne Subdomain weiter.
-Dies würde bereits ausreichen, wenn der Gameserver den Standard Port des jeweiligen Spiels verwendet.
-Verwendet der Gameserver jedoch einen anderen Port als den Standard Port des jeweiligen Spiels, wird zusätzlich noch ein sogenannter **SRV Eintrag**
-benötigt, um die Subdomain auf den richtigen Port weiterleiten zu können.
+Für die Weiterleitung der IP-Adresse wird entweder eine Subdomain erstellt, die auf die IP-Adresse des Gameservers zeigt, oder du leitest die komplette Domain ohne Subdomain weiter. Das reicht aus, wenn der Gameserver den Standard-Port des Spiels nutzt. Wenn der Gameserver einen anderen Port als den Standard-Port verwendet, brauchst du einen zusätzlichen **SRV-Eintrag**, um die Subdomain auf den Gameserver weiterzuleiten.
 
 :::info
-Nicht alle Spiele unterstützen die Weiterleitung einer Domain auf den Spielport per SRV Eintrag, informiere dich daher vorher, ob dein Spiel SRV Einträge unterstützt.
+Nicht alle Spiele unterstützen die Weiterleitung einer Domain auf den Spiele-Port via SRV-Eintrag. Informiere dich also vorher, ob dein Spiel SRV-Einträge unterstützt.
 :::
-
 
 ### SRV Service
-Der Servicename hängt vom jeweiligen Spiel ab und beginnt immer mit einem **Unterstrich**.
-Zum Beispiel lautet der Servicename für einen Minecraft Gameserver immer **_minecraft** und für einen FiveM Gameserver **_cfx**.
 
+Der Service-Name hängt vom Spiel ab und beginnt immer mit einem **Unterstrich**. Zum Beispiel heißt der Service-Name für einen Minecraft-Gameserver immer **_minecraft** und für einen FiveM-Gameserver **_cfx**.
 
 ### SRV Protokoll
-Als Protokoll geben wir das für die Verbindung verwendete Internetprotokoll an. Hier stehen **UDP** und **TCP** zur Verfügung.
-Welches Protokoll hier verwendet wird, hängt ebenfalls vom jeweiligen Spiel ab, die Angabe des Protokolls beginnt ebenfalls immer
-mit einem **Unterstrich** und lautet entweder **_udp** oder **_tcp**.
+
+Als Protokoll geben wir das Internetprotokoll an, das für die Verbindung genutzt wird. Hier stehen **UDP** und **TCP** zur Auswahl. Welches Protokoll verwendet wird, hängt ebenfalls vom jeweiligen Spiel ab. Die Angabe des Protokolls beginnt immer mit einem **Unterstrich** und ist entweder **_udp** oder **_tcp**.
 
 ## Vorbereitung
-Um deine Domain ohne die Erstellung einer Subdomain auf einen Gameserver weiterzuleiten, öffnest du zuerst deine Domain, indem du
-im Dashboard auf diese klickst, anschließend öffnest du die DNS-Verwaltung über das Menü auf der linken Seite.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/ZsaeBe4fWBzAoye/preview)
+Um deine Domain auf einen Gameserver weiterzuleiten, ohne eine Subdomain zu erstellen, öffnest du zuerst deine Domain im Dashboard und dann die DNS-Verwaltung im Menü links.
 
-Dort siehst du nun alle bereits vorhandenen DNS Einträge für deine Domain.
+![](https://screensaver01.zap-hosting.com/index.php/s/X8q3jdigEdZrRaB/preview)
 
-![](https://screensaver01.zap-hosting.com/index.php/s/fTpJgXgz6xYQCRX/preview)
+Dort siehst du alle bestehenden DNS-Einträge für deine Domain.
 
-## Domain Weiterleitung (Minecraft)
-Zunächst muss für die korrekte Weiterleitung auf Minecraft Server sowohl IP und Port von dem Minecraft Server rausgesucht werden auf welchen weitergeleitet werden soll.
-Mit diesen Daten können nun die nachfolgenden Schritte befolgt werden.
+![](https://screensaver01.zap-hosting.com/index.php/s/zRzCnwbqYxaeSiJ/preview)
 
-In unserem Beispiel nutzen wir als Domainnamen die "testserver-domain.de", als Server IP "123.123.123.123" und PORT "25500".
+## Domain-Weiterleitung (Minecraft)
 
-### A-Record anlegen
-Für die Erstellung von einem neuen Record muss der Button "**Neuer Eintrag**" genutzt werden.
+Zuerst musst du die IP und den Port des Minecraft-Servers herausfinden, auf den du weiterleiten möchtest. Mit diesen Infos kannst du die folgenden Schritte durchführen.
 
-Dabei öffnet sich dann ein Fenster mit vier Feldern, welche befüllt werden müssen:
+In unserem Beispiel nutzen wir `testserver-domain.de` als Domain, `123.123.123.123` als Server-IP und `25500` als PORT.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/Y7zfZcNJ7neyGxN/preview)
+### A-Record erstellen
 
-Der "**Name**" ist die Haupt- oder auch Subdomain über welche die Weiterleitung auf die IP erfolgt, dieser Name ist frei wählbar. Der "**Typ**" wird in diesem Schritt auf "**A**" belassen. Bei dem "**Wert**" muss dann nur noch die IP von dem Minecraft Server eingetragen werden, welche vorher herausgesucht wurde.
-In unserem Beispiel sieht es daher wie folgt aus.
+Um einen neuen Eintrag zu erstellen, klickst du auf den Button **Neuer Eintrag**.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/iGNXJewBoP5PJAd/preview)
+Es öffnet sich ein Fenster mit vier Feldern, die ausgefüllt werden müssen:
 
-### SRV-Record anlegen
-Nun muss noch ein SRV Record erstellt werden, dieser dient zur Portweiterleitung welche erforderlich ist, wenn man nicht den Default Port besitzt.
-Dafür also erneut auf den Button "**Neuer Eintrag**". 
+![](https://screensaver01.zap-hosting.com/index.php/s/BYNiFMMwdwjEHwZ/preview)
 
-Hierbei muss bei "**Name**" nun das Protokol als auch die Verbindungsdomain rein. Der Domainname, welcher dort eingetragen wird, wird später für die Verbindung zu dem Server genutzt. Als "**Typ**" wird in diesem Schritt über das Drop Down Menü der Wert "**SRV**" ausgewählt:
+Der **Name** ist die Haupt- oder Subdomain, über die die Weiterleitung auf die IP erfolgt. Dieser Name ist frei wählbar. Der **Typ** bleibt in diesem Schritt auf **A**. Im Feld **Wert** muss nur die IP des Minecraft-Servers eingetragen werden, die du vorher herausgesucht hast. In unserem Beispiel sieht das so aus:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/gsT6B5JqmWRZCe4/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/aRYpxgrySQqzton/preview)
 
-Bei dem "**Wert**" müssen jetzt drei Werte eingetragen werden, erst die Priorität welche standardmäßig auf 0 belassen werden kann, dann als zweites der Port vom Gameserver in unserem Beispiel "25500" und zu guter Letzt den Domainnamen des gerade erstellten "**A-Records**".
+Nach dem Speichern wird der Eintrag so angezeigt:
 
-In unserem Beispiel sieht es dann wie folgt aus:
+![](https://screensaver01.zap-hosting.com/index.php/s/eFLm8oqbo4cLtn8/preview)
 
-![](https://screensaver01.zap-hosting.com/index.php/s/iJpzqdkCKq6dySg/preview)
+### SRV-Eintrag erstellen
 
-### Fehlersuche & Ergebnis
-:::info
-WICHTIG! Am Ende von dem Eintrag muss ein Punkt geschrieben werden, ohne diesen Punkt versucht das System die Domain anzuhängen. 
+Jetzt musst du einen SRV-Eintrag anlegen, der für die Portweiterleitung nötig ist, wenn du nicht den Standard-Port nutzt. Klicke dafür wieder auf **Neuer Eintrag**.
+
+Bei **Name** gibst du das Protokoll und die Verbindungsdomain ein. Der dort eingetragene Domainname wird später für die Verbindung zum Server genutzt. Als **Typ** wählst du im Dropdown-Menü **SRV** aus:
+
+![](https://screensaver01.zap-hosting.com/index.php/s/pH9F5kZins8wHn4/preview)
+
+Im Feld **Wert** müssen jetzt drei Werte eingetragen werden: zuerst die Priorität, die standardmäßig auf 0 bleiben kann, dann als zweites der Port des Gameservers (in unserem Beispiel `25500`) und zuletzt der Domainname des gerade erstellten **A-Records**.
+
+In unserem Beispiel sieht das so aus:
+
+![](https://screensaver01.zap-hosting.com/index.php/s/Gf8kkc5srHEbC2N/preview)
+
+### Fehlerbehebung & Ergebnis
+
+:::important
+Am Ende des Eintrags muss ein Punkt stehen, ohne diesen Punkt versucht das System, die Domain anzuhängen.
 :::
 
-Wird dieser Hinweis nicht beachtet, dann macht das System aus minecraft.testserver-domain.de die Weiterleitung zu minecraft.testserver-domain.de.testserver-domain.de wodurch die Weiterleitung fehlschlägt.
+Wenn du das nicht beachtest, leitet das System `minecraft.testserver-domain.de` auf `minecraft.testserver-domain.de.testserver-domain.de` weiter und die Weiterleitung schlägt fehl.
 
-## Domain Weiterleitung (FiveM)
-Zunächst muss für die korrekte Weiterleitung auf Fivem Server sowohl IP und Port von dem Fivem Server herausgesucht werden auf welchen weitergeleitet werden soll.
-Mit diesen Daten können nun die nachfolgenden Schritte befolgt werden.
+## Domain-Weiterleitung (FiveM)
 
-In unserem Beispiel nutzen wir als Domainnamen die "testserver-domain.de", als Server IP "123.123.123.123" und PORT "30300".
+Zuerst musst du die IP und den Port des FiveM-Servers herausfinden, auf den du weiterleiten möchtest. Mit diesen Daten kannst du die folgenden Schritte durchführen.
 
-### A-Record anlegen
-Für die Erstellung von einem neuen Record muss der Button "**Neuer Eintrag**" genutzt werden.
-Dabei öffnet sich dann ein Fenster mit vier Feldern, welche befüllt werden müssen:
+In unserem Beispiel nutzen wir `testserver-domain.de` als Domain, `123.123.123.123` als Server-IP und PORT `30300`.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/aBTPjJyLxtzwJNy/preview)
+### A-Record erstellen
 
-Der "**Name**" ist die Haupt- oder auch Subdomain über welche die Weiterleitung auf die IP erfolgt, dieser Name ist frei wählbar. Der "**Typ**" wird in diesem Schritt auf "**A**" belassen. Bei dem "**Wert**" muss dann nur noch die IP von dem Fivem Server eingetragen werden, welche vorher herausgesucht wurde.
-In unserem Beispiel sieht es daher wie folgt aus.
+Um einen neuen Eintrag zu erstellen, klickst du auf den Button **Neuer Eintrag**.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/4nYJEe7aPzonpPq/preview)
+Es öffnet sich ein Fenster mit vier Feldern, die ausgefüllt werden müssen:
 
-Sobald gespeichert, wird dieser Eintrag auch korrekt angezeigt:
+![](https://screensaver01.zap-hosting.com/index.php/s/FigmCXEc3eJYz78/preview)
 
-![](https://screensaver01.zap-hosting.com/index.php/s/okrgdHjogQddobB/preview)
+Der **Name** ist die Haupt- oder Subdomain, über die die Weiterleitung auf die IP erfolgt. Dieser Name ist frei wählbar. Der **Typ** bleibt in diesem Schritt auf **A**. Im Feld **Wert** muss nur die IP des FiveM-Servers eingetragen werden, die du vorher herausgesucht hast. In unserem Beispiel sieht das so aus:
 
-### SRV-Record anlegen
-Nun muss noch ein SRV Record erstellt werden, dieser dient zur Portweiterleitung welche erforderlich ist, wenn man nicht den Default Port besitzt.
-Dafür also erneut auf den Button "**Neuer Eintrag**".
+![](https://screensaver01.zap-hosting.com/index.php/s/7dBKaJ4xomTiS9C/preview)
 
-Hierbei muss bei "**Name**" nun das Protokoll als auch die Verbindungsdomain rein. Der Domainname, welcher dort eingetragen wird, wird später für die Verbindung zu dem Server genutzt. Als "**Typ**" wird in diesem Schritt über das Drop Down Menü der Wert "**SRV**" ausgewählt:
+Nach dem Speichern wird der Eintrag so angezeigt:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/t5XRRNLFirMxXis/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/5DppfyXsADTT85t/preview)
 
-Bei dem "**Wert**" müssen jetzt drei Werte eingetragen werden, erst die Priorität welche standardmäßig auf 0 belassen werden kann, dann als zweites der Port vom Gameserver in unserem Beispiel "30300" und zu guter Letzt den Domainnamen des gerade erstellten "**A-Records**".
+### SRV-Eintrag erstellen
 
-In unserem Beispiel sieht es dann wie folgt aus:
+Jetzt musst du einen SRV-Eintrag anlegen, der für die Portweiterleitung nötig ist, wenn du nicht den Standard-Port nutzt. Klicke dafür wieder auf **Neuer Eintrag**.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/ra6sEeqtTzqCgDi/preview)
+Bei **Name** gibst du das Protokoll und die Verbindungsdomain ein. Der dort eingetragene Domainname wird später für die Verbindung zum Server genutzt. Als **Typ** wählst du im Dropdown-Menü **SRV** aus:
 
-### Fehlersuche & Ergebnis
-:::info
-WICHTIG! Am Ende von dem Eintrag muss ein Punkt geschrieben werden, ohne diesen Punkt versucht das System die Domain anzuhängen. 
+![](https://screensaver01.zap-hosting.com/index.php/s/Yab6ksJNJFTLAeB/preview)
+
+Im Feld **Wert** müssen jetzt drei Werte eingetragen werden: zuerst die Priorität, die standardmäßig auf 0 bleiben kann, dann als zweites der Port des Gameservers (in unserem Beispiel `30300`) und zuletzt der Domainname des gerade erstellten **A-Records**.
+
+In unserem Beispiel sieht das so aus:
+
+![](https://screensaver01.zap-hosting.com/index.php/s/te4LJ3yKRpTSi5W/preview)
+
+### Fehlerbehebung & Ergebnis
+
+:::important
+Am Ende des Eintrags muss ein Punkt stehen, ohne diesen Punkt versucht das System, die Domain anzuhängen.
 :::
 
-Wird dieser Hinweis nicht beachtet, dann macht das System aus fivem.testserver-domain.de die Weiterleitung zu fivem.testserver-domain.de.testserver-domain.de wodurch die Weiterleitung fehlschlägt.
+Wenn du das nicht beachtest, leitet das System `fivem.testserver-domain.de` auf `fivem.testserver-domain.de.testserver-domain.de` weiter und die Weiterleitung schlägt fehl.
 
 <InlineVoucher />

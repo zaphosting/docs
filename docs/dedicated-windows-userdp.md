@@ -1,7 +1,7 @@
 ---
 id: dedicated-windows-userdp
 title: "Dedicated Server: Accessing Windows Server via Remote Desktop (RDP)"
-description: Information on accessing your Windows Dedicated Server from ZAP-Hosting using Remote Desktop (RDP) - ZAP-Hosting.com documentation
+description: "Discover how to easily connect to your Windows server remotely using RDP and access it securely from various devices → Learn more now"
 sidebar_label: Initial Access (RDP)
 services:
   - dedicated
@@ -13,7 +13,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Windows OS uses the Remote Desktop (RDP) protocol to easily facilitate connecting remotely to other Windows systems. In this guide, we will go through the simple connection process via RDP to your Windows server.
 
-<InlineVoucher />
+
 
 
 
@@ -53,4 +53,4 @@ In modern times, Microsoft provides an official Remote Desktop (RDP) app for bot
 
 The app can be found here respectively to the platform: [Android](https://play.google.com/store/apps/details?id=com.microsoft.rdc.androidx&hl=en) and [iOS](https://apps.apple.com/us/app/remote-desktop-mobile/id714464092)
 
-<InlineVoucher />
+

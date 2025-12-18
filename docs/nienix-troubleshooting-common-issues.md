@@ -1,7 +1,7 @@
 ---
 id: nienix-troubleshooting-common-issues
 title: "Nienix: Common issues"
-description: "Information on how to resolve common issues on a Nienix server from ZAP-Hosting - ZAP-Hosting.com documentation"
+description: "Discover how to troubleshoot and resolve common Nienix game server issues for a smooth gaming experience → Learn more now"
 sidebar_label: Common issues
 services:
   - gameserver-nienix

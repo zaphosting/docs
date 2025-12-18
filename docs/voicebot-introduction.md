@@ -1,7 +1,7 @@
 ---
 id: voicebot-introduction
 title: "Voicebot: Introduction"
-description: Introduction and information about the Voicebot products from ZAP-Hosting - ZAP-Hosting.com Documentation
+description: "Discover how to enhance your Teamspeak or Discord server with a versatile Voicebot for music and moderation → Learn more now"
 sidebar_label: Introduction
 services:
   - voicebot
@@ -9,7 +9,7 @@ services:
 
 import InlineVoucher from '@site/src/components/InlineVoucher';
 import SearchableAccordion from '@site/src/components/SearchableAccordion/SearchableAccordion';
-import items from '@site/data/faqs/voicebot-introduction-en.json';
+import items from '@site/data/faqs/voicebot-introduction.json';
 
 ## Introduction
 

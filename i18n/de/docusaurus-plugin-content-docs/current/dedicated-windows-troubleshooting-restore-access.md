@@ -1,8 +1,8 @@
 ---
 id: dedicated-windows-troubleshooting-restore-access
-title: "Dedicated Server: Zugang wiederherstellen"
-description: Erfahre, wie du den Zugang zu deinem verlorenen Windows Administrator Account bei einem dedizierten Server von ZAP-Hosting wiederherstellen kannst - ZAP-Hosting.com Documentation
-sidebar_label: Zugang wiederherstellen
+title: "Dedicated Server: Zugriff wiederherstellen"
+description: "Entdecke, wie du nach einer Passwort-Sperre wieder Zugriff auf deinen Windows Dedicated Server bekommst und Ausfallzeiten minimierst → Jetzt mehr erfahren"
+sidebar_label: Zugriff wiederherstellen
 services:
   - dedicated
 ---
@@ -11,34 +11,34 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
 
-Es kann schnell passieren.. Du versuchst, dich bei deinem Windows Server anzumelden, doch dein Passwort wird nicht mehr akzeptiert oder du hast es einfach vergessen. Plötzlich bist du ausgesperrt und der Zugriff auf wichtige Daten und Anwendungen ist nicht mehr möglich. So etwas ist natürlich ärgerlich, aber noch lange nicht das Ende. Mit dem folgenden Weg kannst du den Zugriff zu deinem Windows Server wiederherstellen und deine Arbeit ohne größere Unterbrechungen fortsetzen.
+Es kann schnell passieren... Du versuchst, dich auf deinem Windows Server einzuloggen, aber dein Passwort wird nicht mehr akzeptiert oder du hast es einfach vergessen. Plötzlich bist du ausgesperrt und der Zugriff auf wichtige Daten und Anwendungen ist nicht mehr möglich. Diese Situation ist natürlich frustrierend, aber noch lange nicht das Ende. Wenn du die unten beschriebenen Schritte befolgst, kannst du den Zugriff auf deinen Windows Dedicated Server wiederherstellen und deine Arbeit mit minimalen Unterbrechungen fortsetzen.
 
-<InlineVoucher />
+
 
 ## Vorbereitung
-Das Zurücksetzen des Zugangs vom Administrator Account erfolgt durch die Nutzung einer Windows-ISO-Datei. Es wird dementsprechend die gleiche ISO Datei verwendet, die auch ursprünglich für die Installation des Windows Server Betriebssystems verwendet wurde. 
+Der Zugriff wird über das Administrator-Konto zurückgesetzt, indem eine Windows ISO-Datei verwendet wird. Dabei kommt genau die ISO-Datei zum Einsatz, mit der ursprünglich das Windows Server Betriebssystem installiert wurde.
 
-Dieser Schritt kann entweder über den Weg der [**Erstinstallation**](dedicated-setup.md) oder per **[ISO](dedicated-iso.md)** erfolgen. Wähle beziehungsweise gebe ja nach verwendeter Vorgehensweise die ISO Datei an, die ursprünglich verwendet wurde.
+Dieser Schritt kann entweder über die [**Erstinstallation**](dedicated-setup.md) oder über **[ISO](dedicated-iso.md)** durchgeführt werden. Wähle oder gib die ISO-Datei an, die ursprünglich verwendet wurde, je nachdem, welche Methode du nutzt.
 
-Mounte die ISO und starte das System im Anschluss neu. Es sollte sich nach dem nächsten Startvorgang erneut die Installationsoberfläche von Windows öffnen. Das Ergebnis sollte wie folgt aussehen:
+Binde die ISO ein und starte das System anschließend neu. Die Windows-Installationsoberfläche sollte beim nächsten Start wieder erscheinen. Das Ergebnis sollte so aussehen:
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/XGKfQrwdcmcabY6/preview)
 
 
 
-## Zugang wiederherstellen
+## Zugriff wiederherstellen
 
-Nun geht es darum, den Zugang zum Administrator-Account zurückzusetzen. Befolge dazu die ersten Schritte des Setups erneut. Allerdings musst du nur bis zum Start der Installation gehen und an diesem Punkt dann zu **Repair your computer** navigieren.
+Jetzt geht’s ans Zurücksetzen des Zugriffs für das Administrator-Konto. Folge dazu den ersten Schritten der Installation erneut. Du musst aber nur bis zum Start der Installation vorgehen und dann auf **Computer reparieren** klicken.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/qwPgHyqNaQdsqzm/preview)
 
 
 
-Daraufhin öffnen sich die erweiterten Optionen. Klicke dort auf die Auswahloption **Troubleshoot** und dann auf **Command Prompt**. Es öffnet sich daraufhin die Eingabeaufforderung (cmd.exe).
+Es öffnen sich die erweiterten Optionen. Klicke auf **Problembehandlung** und dann auf **Eingabeaufforderung**. Dadurch öffnet sich die Kommandozeile (cmd.exe).
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/BEan26iNkmzECJ3/download)
 
-In der Eingabeauffoderung angelagt müssen nun die unten aufgelisteten Befehle nacheinander einzeln ausgeführt werden:
+Jetzt müssen die folgenden Befehle nacheinander in der Eingabeaufforderung ausgeführt werden:
 
 ```
 d:
@@ -51,35 +51,34 @@ shutdown -r -t 0
 ```
 :::warning
 
-Das Tastaturlayout kann sich in der iLO HTML Konsole zu deinem eigenen unterscheiden, sodass gewisse Symbole auf anderen Tasten liegen. Berücksichtige dies für eine korrekte Ausführung der Befehle.
+Das Tastaturlayout in der iLO HTML-Konsole kann von deinem eigenen abweichen, sodass bestimmte Zeichen auf anderen Tasten liegen. Beachte das unbedingt, damit die Befehle korrekt ausgeführt werden.
 
 :::
 
-
-
-Nach dem Neustart deines Servers, drücke auf dem Anmeldebildschirm die Tastenkombination **Win+U**. In der Eingabeaufforderung gib anschließend bitte Folgendes ein:
+Nach dem Neustart des Servers drücke auf dem Anmeldebildschirm die Tastenkombination **Win+U**. Im sich öffnenden Eingabeaufforderungsfenster gib bitte Folgendes ein:
 
 ```
-net user Administrator DeinNeuesPassword
+net user Administrator DeinNeuesPasswort
 exit
 ```
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/TiKJZPdg2kj5LG3/download)
 
-Dein Passwort wurde nun geändert. Allerdings musst du deine Änderungen bezüglich der **Utilman Dateien** wieder rückgängig machen. Starte dafür erneut einfach deinen Server neu und folge dieser Anleitung erneut. Führe in der Eingabeaufforderung dann bitte erneut folgende Befehle aus:
+Dein Passwort wurde jetzt geändert. Du musst aber die Änderungen an den **Utilman-Dateien** wieder rückgängig machen. Starte dazu einfach deinen Server neu und wiederhole die Schritte. In der Eingabeaufforderung führe bitte erneut folgende Befehle aus:
 
 ```
 d:
 cd Windows
 cd System32
-del utilman.exe ren utilman.exe.bak utilman.exe
+del utilman.exe
+ren utilman.exe.bak utilman.exe
 shutdown -r -t 0
 ```
 
 
 
-## Abschluss
 
-Nachdem du den Vorgang vollständig durchgeführt hast, solltest du erfolgreich ein neues Passwort für den Administrator Benutzer gesetzt haben. Mit diesem kannst du dich nun wieder per Remotedesktopverbindung einloggen. 
 
-<InlineVoucher />
+## Fazit
+
+Wenn du den Prozess abgeschlossen hast, solltest du erfolgreich ein neues Passwort für den Administrator-User gesetzt haben. Damit kannst du dich jetzt wieder über die Remote-Desktop-Verbindung einloggen.

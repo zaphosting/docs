@@ -1,7 +1,7 @@
 ---
 id: dedicated-linux-java
 title: "Dedicated Server: Installation von Java"
-description: Informationen, wie du Java auf deinem Server von ZAP-Hosting installieren kannst - ZAP-Hosting.com Dokumentation
+description: "Lerne, wie du Java auf verschiedenen Linux-Systemen installierst, um Java-Anwendungen reibungslos auszuführen und deine Umgebung richtig einzurichten → Jetzt mehr erfahren"
 sidebar_label: Java installieren
 services:
   - dedicated
@@ -11,15 +11,13 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
 
-Java ist weltweit eine sehr stark verwendete Programmiersprache, die für zahlreiche Programme und Dienste eingesetzt wird. Damit diese Programme funktionieren ist es zwingend notwendig, dass Java auf dem System installiert ist. Im Folgenden erfährst du, wie du für die angebotenen Linux Betriebssysteme Java auf deinem System installieren kannst. 
-
-<InlineVoucher />
+Java ist eine sehr beliebte Programmiersprache, die weltweit für zahlreiche Programme und Services genutzt wird. Um diese Java-basierten Programme auszuführen, ist es absolut notwendig, dass Java auf dem System installiert ist. Im Folgenden erfährst du, wie du Java auf deinem System für die angebotenen Linux-Betriebssysteme installierst.
 
 ## Vorbereitung
 
-Bevor die eigentliche Java Installation begonnen werden kann, muss sichergestellt werden, dass das System auf dem neusten Stand ist. Dafür verbinden wir uns per SSH mit dem Server. Falls du nicht weißt, was SSH ist und wie du es verwendest, dann schaue dir folgende Anleitung an: [Erstzugriff (SSH)](vserver-linux-ssh.md)
+Bevor du mit der eigentlichen Java-Installation startest, ist es wichtig sicherzustellen, dass das System auf dem neuesten Stand ist. Dafür verbinden wir uns per SSH mit dem Server. Falls du nicht weißt, was SSH ist und wie man es nutzt, schau dir bitte die folgende Anleitung an: [Erstzugang (SSH)](vserver-linux-ssh.md)
 
-Dort angekommen kann das System je nach Betriebssystem mit dem folgenden Befehl aktualisiert werden:
+Dort angekommen, kannst du das System je nach Betriebssystem mit folgendem Befehl aktualisieren:
 
 ```
 // Debian
@@ -38,11 +36,9 @@ sudo zypper up
 sudo dnf upgrade --refresh
 ```
 
-
-
 ## Installation
 
-Nachdem die Vorbereitung abgeschlossen wurde, kann nun die Java Installation begonnen werden. Je nach Betriebssystem müssen dafür folgende Befehle ausgeführt werden:
+Nach Abschluss der Vorbereitung kann die Java-Installation gestartet werden. Je nach Betriebssystem müssen folgende Befehle ausgeführt werden:
 
 **Debian**
 
@@ -68,11 +64,9 @@ sudo yum install java-11-openjdk
 sudo dnf install java-11-openjdk
 ```
 
+## Versions-Check
 
-
-## Version-Check
-
-Nachdem die Installation abgeschlossen wurde, kannst du mit dem **java --version** Befehl prüfen, ob die Installation erfolgreich gewesen ist. Die Ausgabe sollte im etwa wie im Folgenden aussehen:
+Du kannst überprüfen, ob die Installation erfolgreich war, indem du den Befehl **java --version** ausführst. Die Ausgabe sollte ungefähr so aussehen:
 
 ```
 openjdk 11.0.9.1 2020-11-04
@@ -80,6 +74,4 @@ OpenJDK Runtime Environment (build 11.0.9.1+1-Ubuntu-0ubuntu1.20.04)
 OpenJDK 64-Bit Server VM (build 11.0.9.1+1-Ubuntu-0ubuntu1.20.04, mixed mode)
 ```
 
-In dem Fall wurde Java 11 erfolgreich auf dem System eingerichtet. Nun kannst du problemlos Java-Applikationen auf deinem System laufen lassen. 
-
-<InlineVoucher />
+In diesem Fall wurde Java 11 erfolgreich auf deinem System installiert. Jetzt kannst du deine Java-Anwendungen problemlos auf deinem System ausführen.

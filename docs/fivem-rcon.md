@@ -1,7 +1,7 @@
 ---
 id: fivem-rcon
 title: "FiveM: RCON"
-description: "Learn how to use RCON for FiveM - ZAP-Hosting Documentation"
+description: "Discover how to remotely manage FiveM game servers with RCON for flexible server control and monitoring → Learn more now"
 sidebar_label: RCON
 services:
   - gameserver-fivem

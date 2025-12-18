@@ -1,7 +1,7 @@
 ---
 id: css-rcon
 title: "Counter-Strike: Source: RCON"
-description: "Learn how to use RCON for Counter-Strike: Source - ZAP-Hosting Documentation"
+description: "Discover how to remotely manage and control Counter-Strike: Source servers securely and efficiently → Learn more now"
 sidebar_label: RCON
 services:
   - gameserver-css

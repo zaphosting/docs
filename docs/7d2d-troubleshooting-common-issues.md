@@ -1,7 +1,7 @@
 ---
 id: 7d2d-troubleshooting-common-issues
 title: "7 Days to Die: Common issues"
-description: "Information on how to resolve common issues on a 7 Days to Die server from ZAP-Hosting - ZAP-Hosting.com documentation"
+description: "Discover how to troubleshoot and resolve common 7 Days to Die server issues for a smooth gaming experience → Learn more now"
 sidebar_label: Common issues
 services:
   - gameserver-7d2d

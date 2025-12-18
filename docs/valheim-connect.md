@@ -1,7 +1,7 @@
 ---
 id: valheim-connect
 title: "Valheim: Connecting to Valheim servers"
-description: Information on how to connect to your Valheim server from ZAP-Hosting - ZAP-Hosting.com documentation
+description: "Learn how to securely connect and join your Valheim server using the web interface, Valheim client, or Steam → Learn more now"
 sidebar_label: Connect to a Server
 services:
   - gameserver-valheim

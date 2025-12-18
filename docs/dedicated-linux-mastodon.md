@@ -1,7 +1,7 @@
 ---
 id: dedicated-linux-mastodon
 title: "Dedicated Server: Installation of Mastodon"
-description: Information on how to set up Mastodon server on your server from ZAP-Hosting - ZAP-Hosting.com documentation
+description: "Discover how to set up a secure, self-hosted Mastodon social network on Debian-based servers for independent microblogging → Learn more now"
 sidebar_label: Install Mastodon
 services:
   - dedicated
@@ -21,7 +21,7 @@ each with its own code of conduct, terms of service, privacy policy, privacy opt
 This guide focuses the installation on a Debian based Distro. Examples are Debian and Ubuntu. This guide differs depending on what OS you are using.
 :::
 
-<InlineVoucher />
+
 
 ## System prerequisites
 If you want to setup a Mastodon Instance on your Server, you have to meet some prerequisites
@@ -163,4 +163,4 @@ systemctl enable --now mastodon-web mastodon-sidekiq mastodon-streaming
 
 After a reboot you should be finished with your setup. Have fun with your instance!
 
-<InlineVoucher />
+

@@ -1,7 +1,7 @@
 ---
 id: fivem-esx-becomeadminoverdatabase
 title: "FiveM: Become admin using ESX"
-description: Information on how to become admin over database of your FiveM server with ESX from ZAP-Hosting - ZAP-Hosting.com documentation
+description: "Discover how to assign administrator permissions for full server control and enhanced in-game management → Learn more now"
 sidebar_label: Become admin
 services:
   - gameserver-fivem

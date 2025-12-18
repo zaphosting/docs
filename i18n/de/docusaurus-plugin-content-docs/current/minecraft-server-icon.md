@@ -1,8 +1,8 @@
 ---
 id: minecraft-server-icon
-title: "Minecraft: Server Icon hinzufügen oder ändern"
-description: Informationen, wie du ein Server Icon für deinen Minecraft Server von ZAP-Hosting hinzufügen oder ändern kannst - ZAP-Hosting.com Dokumentation
-sidebar_label: Server Icon
+title: "Minecraft: Server-Icon hinzufügen oder ändern"
+description: "Entdecke, wie du dein Minecraft Server-Icon für die Multiplayer-Anzeige anpasst und das Aussehen deines Servers aufpeppst → Jetzt mehr erfahren"
+sidebar_label: Server-Icon
 services:
   - gameserver-minecraft
 ---
@@ -10,41 +10,42 @@ services:
 import YouTube from '@site/src/components/YouTube/YouTube';
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
+
 ## Einführung
-Minecraft bietet die Option an, ein eigenes Servericon hinzuzufügen, das im Multiplayer vor dem Server angezeigt wird, sofern der Server eingespeichert wurde.
+Minecraft bietet die Möglichkeit, dein eigenes Server-Icon hinzuzufügen, das im Multiplayer vor dem Server angezeigt wird, sofern der Server gespeichert wurde.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/zFQLZmRrLWrKN7r/preview)
 
-<YouTube videoId="m5mpKcd9Ur0" imageSrc="https://screensaver01.zap-hosting.com/index.php/s/GcP3wmqDMs9W3aE/preview" title="How to change the ICON on your Minecraft Server " description="Hast du das Gefühl, dass du etwas besser verstehst, wenn du es in Aktion siehst? Wir haben etwas für dich! Tauche ab in unser Video, welches alles für dich zusammenfasst. Egal, ob du es eilig hast oder einfach nur Informationen auf möglichst verständliche Art und Weise aufnehmen möchtest!"/>
+<YouTube videoId="m5mpKcd9Ur0" imageSrc="https://screensaver01.zap-hosting.com/index.php/s/5EzyAm8SzqDemqf/preview" title="Wie du das ICON auf deinem Minecraft Server änderst" description="Du verstehst besser, wenn du Dinge in Aktion siehst? Kein Problem! Schau dir unser Video an, das alles für dich erklärt. Egal ob du es eilig hast oder Infos am liebsten auf die spannendste Art aufsaugst!"/>
 
 <InlineVoucher />
 
-## Hinzufügen des Icons 
+## Icon hinzufügen
 
-Um das Icon hinzuzufügen werden FTP Rechte sowie das Icon selbst benötigt. 
+Um das Icon hinzuzufügen, benötigst du FTP-Rechte und das Icon selbst.
 
->Wichtig: Das Icon muss in der Größe 64x64 Pixel sein und den Namen server-icon.png tragen. 
+>Wichtig: Das Icon muss 64x64 Pixel groß sein und den Namen server-icon.png tragen.
 
-Zuerst wird eine Verbindung via FTP zum Gameserver aufgebaut, wie genau das funktioniert, kann in der [Zugriff per FTP](gameserver-ftpaccess.md) Anleitung eingesehen werden. 
+Zuerst wird eine Verbindung per FTP zum Gameserver hergestellt, wie das genau funktioniert, siehst du hier: [Zugriff via FTP](gameserver-ftpaccess.md)
 
-Sobald die Verbindung besteht, sieht man die Server-Daten, wie z.B.: 
+Sobald die Verbindung steht, siehst du die Serverdaten wie:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/qBtbpR2ELZeRZPx/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/jKDxAfWzgiepiTE/preview)
 
-Das Icon muss nun in das Hauptverzeichnis hochgeladen werden, es darf in keinem Unterverzeichnis hochgeladen werden:
+Das Icon muss jetzt ins Hauptverzeichnis hochgeladen werden, es darf nicht in ein Unterverzeichnis geladen werden:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/MaPBSwXiicyt3xG/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/dNWE4W5KQ8XgsQs/preview)
 
-Ist dies erfolgt, so muss der Server nun gestartet werden über die Buttons im Webinterface oben rechts bei dem jeweiligen Server:
+Ist das erledigt, muss der Server jetzt über die Steuerungsknöpfe im Webinterface oben rechts beim jeweiligen Server gestartet / neu gestartet werden:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/aamwpPpPMQoYBn7/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/D4RGqboisxJoBa9/preview)
 
-## Überprüfung des Icons 
+## Icon überprüfen
 
-Wenn nun Name und Größe gepasst haben, wird es im Multiplayer vor dem Server angezeigt: 
+Wenn Name und Größe jetzt passen, wird es im Multiplayer vor dem Server angezeigt:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/TkoEwZBZz4w7cp2/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/qzoySiJAPReZDfc/preview)
 
-Das Icon kann auf diesem Wege auch jederzeit getauscht oder gelöscht werden.
+Das Icon kann jederzeit auf diese Weise ausgetauscht oder gelöscht werden.
 
 <InlineVoucher />

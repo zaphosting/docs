@@ -1,7 +1,7 @@
 ---
 id: cs2-cstv
 title: "CS2: CSTV "
-description:  Information about CSTV for CS2 Server from ZAP-Hosting - ZAP-Hosting.com documentation
+description: "Discover how to broadcast live game streams with delay and automatic recording for spectators and relive matches anytime → Learn more now"
 sidebar_label: CSTV
 services:
   - gameserver-cs2

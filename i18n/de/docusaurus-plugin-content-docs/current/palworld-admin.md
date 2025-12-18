@@ -1,59 +1,63 @@
 ---
 id: palworld-admin
-title: "Palworld: Setup Admin"
-description: Informationen zum Einrichten und Hinzufügen von Administratoren für einen Palworld-Server von ZAP-Hosting - ZAP-Hosting.com Dokumentation
-sidebar_label: Setup Admin
+title: "Palworld: Admin einrichten"
+description: "Entdecke, wie du deinen Palworld Gameserver mit einem Admin-Passwort sicherst und vertrauenswürdige Spieler effektiv verwaltest → Jetzt mehr erfahren"
+sidebar_label: Admin einrichten
 services:
   - gameserver-palworld
 ---
 
+import YouTube from '@site/src/components/YouTube/YouTube';
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
+
 ## Einführung
-Die Zuweisung von Administratorberechtigungen ermöglicht dir eine einfache und umfangreiche Verwaltung mit voller Kontrolle deines Servers. Als Administrator hast du die Möglichkeit alle verfügbaren Optionen und Funktionen, die das Spiel bereitstellt, direkt im Spiel anzuwenden. 
+In dieser Anleitung zeigen wir dir, wie du deinen Server mit einem Admin-Passwort konfigurierst und dich im Spiel als Admin hinzufügst. Dieses Passwort kannst du mit vertrauenswürdigen Spielern teilen, um ihnen Zugriff auf verschiedene Admin-Befehle zu geben. Mehr zu den Serverbefehlen erfährst du in unserer [Serverbefehle](palworld-server-commands.md) Anleitung.
+<YouTube videoId="SDZC4-FEdNM" imageSrc="https://screensaver01.zap-hosting.com/index.php/s/ramgExKNxeLeDdL/preview" title="Palworld Server in nur EINER MINUTE einrichten!" description="Du verstehst besser, wenn du Dinge in Aktion siehst? Kein Problem! Unser Video erklärt dir alles Schritt für Schritt. Egal ob du es eilig hast oder einfach lieber auf die spannendste Art lernst!"/>
+
 <InlineVoucher />
 
-## Konfiguriere dein Admin-Passwort
+## Admin-Passwort konfigurieren
 
-Als Erstes musst du auf deine Konfigurationseinstellungen zugreifen. Dazu gibt es mehrere Möglichkeiten, die wir im Folgenden auflisten, einschließlich einer Anleitung zum Festlegen des Passworts. Wir empfehlen, die Option **Webinterface** zu verwenden, da diese am benutzerfreundlichsten ist. Sobald du dein Admin-Passwort festgelegt hast, kannst du zum nächsten Abschnitt übergehen.
+Zuerst musst du auf deine Konfigurationseinstellungen zugreifen. Es gibt mehrere Wege, dies zu tun – wir listen sie dir unten mit Anleitungen zum Setzen des Passworts auf. Wir empfehlen die **Webinterface**-Option, da sie am benutzerfreundlichsten ist. Sobald du dein Admin-Passwort gesetzt hast, kannst du zum nächsten Abschnitt weitergehen.
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
 <Tabs>
-<TabItem value="Einstellungen" label="Über Webinterface" default>
+<TabItem value="settings" label="Über Webinterface" default>
 
 #### Über Webinterface
 
-Die benutzerfreundlichste Methode ist es, im Webinterface deines Gameservers in den Bereich **Einstellungen** zu gehen.
+Der benutzerfreundlichste Weg führt dich in den Bereich **Einstellungen** im Webinterface deines Gameservers.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/cGbSnRp5gfbWnnb/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/QDPzFgWRrfB49HB/preview)
 
-Suche im Bereich **Einstellungen** nach der Option **Gameserver Passwort**. Erstelle in diesem Feld ein Passwort, das du verwenden möchtest, und gib es ein.
+Im Bereich **Einstellungen** suchst du nach der Option **Gameserver Passwort**. Dort legst du dein gewünschtes Passwort fest und gibst es ein.
 
-![](https://github.com/zaphosting/docs/assets/42719082/1cd01ae3-1abd-45d5-9bdb-69e63364764d)
+![](https://github.com/zaphosting/docs/assets/42719082/dadbd22b-2fd9-42e1-be71-f6d28a3f2938)
 
 :::info
-Wenn du ein Passwort ausgewählt hast, scrolle nach oben und drücke die grüne Taste **Speichern**, um die Auswahl zu bestätigen.
+Nachdem du dein Passwort ausgewählt hast, scrolle nach oben und drücke unbedingt den grünen **Speichern**-Button, um die Änderung zu bestätigen.
 
-![](https://github.com/zaphosting/docs/assets/42719082/0c314a42-1644-4dcf-9d71-45428059cd53)
+![](https://github.com/zaphosting/docs/assets/42719082/5a4f5ab1-8079-4b20-96a6-36e4aca2e28e)
 :::
 
 </TabItem>
 
-<TabItem value="configs" label="Über die WI-Konfigurationsdatei">
+<TabItem value="configs" label="Über WI Config-Datei">
 
-#### Über die WI-Konfigurationsdatei
+#### Über WI Config-Datei
 
 :::note
-Der Server muss angehalten werden, bevor die Konfiguration bearbeitet werden kann. Wenn du die Konfiguration bearbeitest und den Server neu startest, werden alle Änderungen rückgängig gemacht.
+Der Server muss gestoppt sein, bevor die Config bearbeitet wird. Änderungen werden beim Neustart des Servers sonst zurückgesetzt.
 :::
 
-Wenn du die Rohdatei direkt bearbeiten möchtest, kannst du dies auch tun, indem du im Webinterface deines Gameservers in den Bereich **Configs** gehst und dort auf den blauen Button "Datei bearbeiten" klickst, wie unten zu sehen:
+Alternativ kannst du die Rohdatei direkt bearbeiten, indem du im Webinterface deines Gameservers in den Bereich **Configs** gehst und den blauen Bearbeiten-Button klickst, wie hier gezeigt:
 
-![](https://github.com/zaphosting/docs/assets/42719082/ba2b275b-952f-4a5e-bdc0-5850b4eb5a85)
+![](https://github.com/zaphosting/docs/assets/42719082/53c8acad-7347-4c3e-85bf-5ae0ad423fc6)
 
-Dadurch wird ein Texteditor direkt auf der Seite geöffnet, mit dem du die Datei bearbeiten kannst. Finde die Option **AdminPassword** in der Datei (benutze die Tastenkombination `CTRL+F`, um die Suche zu erleichtern) und gib das gewünschte Admin-Passwort ein. Zum Schluss speicherst du die Datei und kannst dann deinen Server starten.
+Es öffnet sich ein Texteditor direkt auf der Seite, in dem du die Datei bearbeiten kannst. Suche die Option **AdminPassword** (hilfreich ist `STRG+F`) und ändere sie auf dein gewünschtes Admin-Passwort. Speichere die Datei anschließend und starte deinen Server.
 
 ![](https://github.com/zaphosting/docs/assets/42719082/d86376b8-1a41-4fb0-b8cd-8570ddcaa9ae)
 
@@ -64,26 +68,26 @@ Dadurch wird ein Texteditor direkt auf der Seite geöffnet, mit dem du die Datei
 #### Über FTP
 
 :::note
-Der Server muss angehalten werden, bevor die Konfiguration bearbeitet werden kann. Wenn du die Konfiguration bearbeitest und den Server neu startest, werden alle Änderungen rückgängig gemacht.
+Der Server muss gestoppt sein, bevor die Config bearbeitet wird. Änderungen werden beim Neustart des Servers sonst zurückgesetzt.
 :::
 
-Die letzte Methode, um auf die Rohdatei zuzugreifen, ist über FTP. Wenn du dich mit FTP nicht auskennst, empfehlen wir dir, einen Blick in die Anleitung [Zugriff per FTP](gameserver-ftpaccess.md) zu werfen. Diese Methode dauert jedoch länger und wenn du den Inhalt der Datei direkt bearbeiten möchtest, empfehlen wir dir, wie bereits erwähnt, den Bereich **Configs** im Webinterface deines Gameservers zu verwenden.
+Der letzte Weg, auf die Rohdatei zuzugreifen, ist über FTP. Falls du FTP noch nicht kennst, empfehlen wir dir unsere [Zugriff via FTP](gameserver-ftpaccess.md) Anleitung. Diese Methode dauert etwas länger. Wenn du die Datei direkt bearbeiten willst, empfehlen wir dir stattdessen die **Configs**-Sektion im Webinterface deines Gameservers.
 
 </TabItem>
 </Tabs>
 
-## Sich als Admin einstellen
+## Dich als Admin festlegen
 
-Sobald dein Admin-Passwort festgelegt ist, musst du dich selbst als Admin hinzufügen. Starte Palworld und verbinde dich mit deinem Server. Wenn du dabei Hilfe brauchst, wirf einen Blick in unserer [Mit dem Server verbinden](palworld-connect.md) Anleitung.
+Nachdem dein Admin-Passwort gesetzt ist, musst du dich im Spiel als Admin hinzufügen. Starte Palworld und verbinde dich mit deinem Server. Falls du Hilfe brauchst, schau dir unsere [Mit Server verbinden](palworld-connect.md) Anleitung an.
 
-Öffne im Spiel den Chat mit "Enter". Gib dann den folgenden Befehl ein und ersetze dabei "Passwort" durch das Admin-Passwort, das du zuvor festgelegt hast:
+Im Spiel öffnest du den Chat mit `Enter`. Gib dann folgenden Befehl ein, wobei du `[password]` durch dein zuvor gesetztes Admin-Passwort ersetzt:
 
 ```
-/AdminPassword [Passwort]
+/AdminPassword [password]
 ```
 
 ![](https://github.com/zaphosting/docs/assets/42719082/2f6e3ee7-e83f-4b71-87dc-d36f9b8c7340)
 
-Du solltest eine Erfolgsmeldung im Chat erhalten, wenn dies korrekt war. Wenn du eine Fehlermeldung erhältst, vergewissere dich bitte, dass das eingegebene Admin-Passwort korrekt ist und das, das du im vorherigen Schritt festgelegt hast.
+Wenn alles korrekt ist, bekommst du eine Erfolgsmeldung im Chat. Falls eine Fehlermeldung erscheint, überprüfe bitte, ob das eingegebene Admin-Passwort korrekt ist und mit dem in der vorherigen Einstellung übereinstimmt.
 
 <InlineVoucher />

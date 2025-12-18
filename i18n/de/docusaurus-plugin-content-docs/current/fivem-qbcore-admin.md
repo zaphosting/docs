@@ -1,7 +1,7 @@
 ---
 id: fivem-qbcore-admin
 title: "FiveM: Admin werden mit QBCore"
-description: Informationen, wie du auf deinem FiveM QBCore Server admin werden kannst. - ZAP-Hosting.com Dokumentation
+description: "Entdecke, wie du Administratorrechte vergibst für volle Serverkontrolle und verbessertes Ingame-Management → Jetzt mehr erfahren"
 sidebar_label: Admin werden
 services:
   - gameserver-fivem
@@ -10,43 +10,39 @@ services:
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
-Die Zuweisung von Administratorberechtigungen ermöglicht dir eine einfache und umfangreiche Verwaltung mit voller Kontrolle deines Servers. Als Administrator hast du die Möglichkeit alle verfügbaren Optionen und Funktionen, die das Spiel bereitstellt, direkt im Spiel anzuwenden. 
+Die Vergabe von Administratorrechten ermöglicht dir eine einfache und umfassende Administration mit voller Kontrolle über deinen Server. Als Admin kannst du alle verfügbaren Optionen und Funktionen, die das Spiel bietet, direkt im Spiel nutzen. Alle Schritte, die du zur Vergabe von Administratorrechten für deinen Server durchführen musst, werden im Folgenden beschrieben.
+
 <InlineVoucher />
-
-
 
 ## Konfiguration
 
-Die Konfiguration der Administratorberechtigungen erfolgt über die Konfigurationsdatei `server.cfg`. Logge dich dazu in das txAdmin Interface ein und öffne den CFG Editor. Navigiere anschließend zum Ende der Konfigurationsdatei, bis du zu `Permissions` gelangst.
+Die Konfiguration der Administratorrechte erfolgt über die ``server.cfg``-Datei. Melde dich dazu im txAdmin-Interface an und öffne den CFG Editor. Navigiere dann ans Ende der Konfigurationsdatei, bis du zum Abschnitt `Permissions` kommst.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/KPRTmPoYdsCWjGd/preview)
 
-QBCore unterstützt verschiedene Spieleridentifikationen, darunter FiveM IDs (`identifier.fivem:`), Rockstar Lizenzen (`identifier.license:`) und Discord IDs (`identifier.discord:`). Diese Identifikatoren können direkt über die txAdmin-Oberfläche abgefragt werden. Dabei kannst du entscheiden, ob du diesen Personen den Status GOD, Admin oder Mod geben möchtest.
+QBCore unterstützt verschiedene Spieler-IDs, darunter FiveM IDs (`identifier.fivem:`), Rockstar Lizenzen (`identifier.license:`) und Discord IDs (`identifier.discord:`). Diese IDs kannst du direkt aus deinem txAdmin-Interface auslesen. Dabei kannst du entscheiden, ob du ihnen den GOD-, Admin- oder Mod-Status geben möchtest.
 
-Sobald du die Identifikatoren erhalten und dich für einen Status entschieden hast, kannst du den einzelnen Spielern Berechtigungen zuweisen, indem du sie zu deiner `server.cfg` hinzufügst. Füge dazu eine der drei verfügbaren Optionen als neuen Eintrag unter dem Abschnitt Permissions hinzu:
-
-```
-add_principal identifier.license:xxxxxx qbcore.god   # Player Name
-add_principal identifier.license:xxxxxx qbcore.admin # Player Name
-add_principal identifier.license:xxxxxx qbcore.mod   # Player Name
+Hast du die IDs und den gewünschten Status ermittelt, kannst du einzelnen Spielern Rechte zuweisen, indem du sie in deiner `server.cfg` einträgst. Füge dazu eine der drei verfügbaren Optionen als neuen Eintrag unter dem Permissions-Abschnitt hinzu:
 
 ```
+add_principal identifier.license:xxxxxx qbcore.god   # Spielername
+add_principal identifier.license:xxxxxx qbcore.admin # Spielername
+add_principal identifier.license:xxxxxx qbcore.mod   # Spielername
+```
 
-Das Endergebnis könnte zum Beispiel wie folgt aussehen:
+Das Endergebnis könnte zum Beispiel so aussehen:
 
 ```
 ## Permissions ##
-add_ace group.admin command allow # allow all commands
-# Deployer Note: this admin master has no identifiers to be automatically added.
-# add_principal identifier.discord:111111111111111111 group.admin #example
+add_ace group.admin command allow # erlaube alle Befehle
+# Deployer Note: dieser Admin-Master hat keine IDs, um automatisch hinzugefügt zu werden.
+# add_principal identifier.discord:111111111111111111 group.admin # Beispiel
 
-add_principal identifier.fivem:16219250 qbcore.admin # Player Name
+add_principal identifier.fivem:16219250 qbcore.admin # Spielername
 ```
 
+## Fazit
 
-
-## Abschluss
-
-Vorausgesetzt, dass du alle Schritte erfolgreich befolgt hast, bist du nun Admin auf deinem eigenen Server. Für weitere Fragen oder Hilfe zögere bitte nicht, unser Support-Team zu kontaktieren, das dir täglich zur Verfügung steht! 🙂
+Wenn du alle Schritte erfolgreich befolgt hast, bist du jetzt Admin auf deinem eigenen Server. Bei weiteren Fragen oder wenn du Hilfe brauchst, steht dir unser Support-Team täglich zur Seite! 🙂
 
 <InlineVoucher />

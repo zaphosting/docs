@@ -1,7 +1,7 @@
 ---
 id: nstp-troubleshooting-common-issues
 title: "Never Split the Party: Common issues"
-description: "Information on how to resolve common issues on a Never Split the Party server from ZAP-Hosting - ZAP-Hosting.com documentation"
+description: "Discover how to troubleshoot and resolve common Never Split the Party server issues for a smooth gaming experience → Learn more now"
 sidebar_label: Common issues
 services:
   - gameserver-nstp-nstp

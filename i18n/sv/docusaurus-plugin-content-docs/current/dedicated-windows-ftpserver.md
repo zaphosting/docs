@@ -1,0 +1,104 @@
+---
+id: dedicated-windows-ftpserver
+title: "Dedikerad Server: Installation av FTP"
+description: "Upptäck hur du sätter upp och hanterar en FileZilla FTP-server på Windows för säkra filöverföringar och användarhantering → Lär dig mer nu"
+sidebar_label: Installera FTP
+services:
+  - dedicated
+---
+
+import InlineVoucher from '@site/src/components/InlineVoucher';
+
+## Introduktion
+
+**FTP (File Transfer Protocol)** är ett nätverksprotokoll som används för att överföra filer över ett TCP/IP-nätverk. Protokollet utvecklades för att möjliggöra enkel filutbyte mellan system.
+
+Med **FileZilla Server** kan du sätta upp en FTP-server på Windows. FileZilla Server är enkel att installera och konfigurera, och erbjuder massor av funktioner som att skapa användarkonton, hantera åtkomsträttigheter och överföra filer.
+
+
+
+## Förberedelser
+
+### Nedladdning
+
+För att sätta upp en FTP-server behöver du rätt mjukvara. FileZilla Server är en bra lösning för Windows-server. Du kan ladda ner den här: [FileZilla server](https://filezilla-project.org/download.php?type=server).
+
+
+
+### Installation
+
+När du har laddat ner installationsfilen, kör den genom att klicka på den. Följande fönster bör dyka upp: ![](https://screensaver01.zap-hosting.com/index.php/s/a2DEpaR5jD28X23/preview)
+
+
+
+Här kan du välja vilka paket som ska installeras. Det räcker dock att installera de förvalda paketen, så klicka bara på **Next** och välj sedan installationsväg:
+
+![](https://screensaver01.zap-hosting.com/index.php/s/cN7K9Cte9tXFrF2/preview)
+
+I det här exemplet installeras FileZilla Server under **C:\Program Files (x86)\FileZilla Server**. Du kan självklart välja en annan sökväg. Efter att du valt sökväg måste du ange hur FTP-servern ska installeras och startas. Du kan också bestämma port och ange ett administratörslösenord.
+
+
+
+![](https://screensaver01.zap-hosting.com/index.php/s/WopFXcW3teFAyJK/preview)
+
+Klicka sedan på **Next** igen och i nästa steg. Till sist klickar du på **Install** för att starta installationen. FileZilla FTP-serverns administrationsgränssnitt öppnas nu. Klicka på knappen **Connect to FileZilla FTP Server**.
+
+Ett fönster dyker upp där du ser fälten Host, Port och Password. Lämna de två första fälten som de är och skriv in ditt administratörslösenord för FTP-servern. Klicka sedan på **Ok** för att ansluta.
+
+
+
+## Konfiguration
+
+### Skapa användare
+
+För att kunna ansluta till din server via FTP måste du skapa en användare.  
+Klicka på **Server** i menyn ovan och sedan på **Configure**.
+
+![](https://screensaver01.zap-hosting.com/index.php/s/C5WLC8Lp8CjTjQg/preview)
+
+Under menyn Users kan du lägga till en ny användare genom att klicka på **Add**:
+
+![](https://screensaver01.zap-hosting.com/index.php/s/dbCS5yJfwqry8Dq/preview)
+
+I det här exemplet heter användaren **YourUserName**. Du väljer såklart ditt eget användarnamn.
+
+
+
+### Lösenord och behörigheter
+
+När användaren är skapad måste du konfigurera åtkomst och behörigheter. Aktivera användaren och ställ in lösenordsalternativ under **General** i **Credentials**. Vi rekommenderar starkt att använda lösenord för säkerheten. Välj **Require a password to log in** och sätt ditt önskade lösenord.
+
+![](https://screensaver01.zap-hosting.com/index.php/s/z78wpcFbYEAJYeB/preview)
+
+För att ge användaren rätt behörigheter måste du ange vilka mappar användaren får åtkomst till genom att klicka på **Add** under mount points. Du måste ange både en virtuell och en fysisk sökväg. I vårt exempel definierar vi att C-disken ska vara tillgänglig under \.
+
+![](https://screensaver01.zap-hosting.com/index.php/s/iqQrjGByHpkBcJF/preview)
+
+Till höger finns alternativet **Permissions** där du kan ställa in rättigheter för den angivna sökvägen. Vill du kunna läsa och ändra filer rekommenderar vi att du sätter det till **Read+Write**.
+
+::: danger
+Av säkerhetsskäl bör du bara ge användare åtkomst till specifika mappar.
+:::
+
+Klicka på **Apply** för att spara och bekräfta dina ändringar.
+
+
+
+## Undantag i Windows-brandväggen
+
+För att kunna ansluta till din FTP-server måste du tillåta FTP-servern i Windows-brandväggen. Öppna brandväggsinställningarna via **Kontrollpanelen\System och säkerhet\Windows Defender-brandvägg** och klicka på **Tillåt en app eller funktion genom Windows Defender-brandväggen**.  
+I nästa fönster väljer du appen som ska tillåtas:
+
+![](https://screensaver01.zap-hosting.com/index.php/s/xHwQzCKokHTn424/preview)
+
+I det här exemplet är sökvägen **C:\Program Files (x86)\FileZilla Server\FileZilla Server.exe**:
+
+![](https://screensaver01.zap-hosting.com/index.php/s/Laz3HFb7GrLBY9w/preview)
+
+Avsluta med att klicka på **OK**. Nu går det att ansluta till din FTP-server.
+
+
+
+## Avslutning
+
+Grattis, du har nu installerat FTP-servern! Har du fler frågor eller behöver hjälp är du alltid välkommen att kontakta vår support, som finns tillgänglig varje dag för att hjälpa dig! 🙂

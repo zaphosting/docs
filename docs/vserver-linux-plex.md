@@ -1,7 +1,7 @@
 ---
 id: vserver-linux-plex
 title: "VPS: Setup Plex on Linux"
-description: Information on how to setup Plex on your Linux VPS from ZAP-Hosting - ZAP-Hosting.com documentation
+description: "Discover how to manage and stream your personal media library effortlessly with Plex for seamless access across devices → Learn more now"
 sidebar_label: Install Plex
 services:
   - vserver

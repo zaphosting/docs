@@ -1,7 +1,7 @@
 ---
 id: tf2-troubleshooting-common-issues
 title: "Team Fortress 2: Common issues"
-description: "Information on how to resolve common issues on a Team Fortress 2 server from ZAP-Hosting - ZAP-Hosting.com documentation"
+description: "Discover how to troubleshoot common Team Fortress 2 server issues and keep your game running smoothly → Learn more now"
 sidebar_label: Common issues
 services:
   - gameserver-tf2

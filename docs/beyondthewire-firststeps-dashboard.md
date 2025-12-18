@@ -1,7 +1,7 @@
 ---
 id: beyondthewire-firststeps-dashboard
 title: "Beyond the Wire: Dashboard overview"
-description: Information about the dashboard of an Beyond the Wire server from ZAP-Hosting - ZAP-Hosting.com Documentation
+description: "Discover how to efficiently manage and optimize your Beyond the Wire server with a clear overview of all key features → Learn more now"
 sidebar_label: Dashboard
 services:
   - gameserver-beyondthewire

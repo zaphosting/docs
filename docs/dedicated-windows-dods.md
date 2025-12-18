@@ -1,7 +1,7 @@
 ---
 id: dedicated-windows-dods
 title: "Dedicated Server: Day of Defeat: Source Dedicated Server Windows Setup"
-description: "Information about setting up a Day of Defeat: Source Dedicated Server on a Windows VPS from ZAP-Hosting - ZAP-Hosting.com documentation"
+description: "Discover how to set up a Day of Defeat: Source dedicated server on your VPS or server quickly and efficiently → Learn more now"
 sidebar_label: "Day of Defeat: Source"
 services:
   - vserver
@@ -13,7 +13,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 ## Introduction
 Got a VPS or dedicated server and want to install game servers on it? For example an Day of Defeat: Source Dedicated Server? Then you are at the right place! In the following we will explain step by step how you can install such a service on your server.
 
-<InlineVoucher />
+
 
 ## Preparation
 
@@ -76,4 +76,4 @@ You should now see logs appear in your command prompt which signals that the sta
 
 Congratulations, you have successfully installed and configured the Day of Defeat: Source server on your VPS! For further questions or assistance, please don't hesitate to contact our support team, which is available daily to assist you! 🙂
 
-<InlineVoucher />
+

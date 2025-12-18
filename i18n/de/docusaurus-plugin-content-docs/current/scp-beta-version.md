@@ -1,8 +1,8 @@
 ---
 id: scp-beta-version
-title: "SCP Secret Laboratory: Beta Version verwenden"
-description: Informationen, wie du die Beta-Version von SCP Secret Laboratory auswählst und installierst bei ZAP-Hosting - ZAP-Hosting.com Documentation
-sidebar_label: Beta Version
+title: "SCP Secret Laboratory: Nutzung der Beta-Version"
+description: "Entdecke, wie du die SCP: Secret Laboratory Beta-Version auf deinem Game und Gameserver spielst, um die neuesten Features zu testen → Jetzt mehr erfahren"
+sidebar_label: Beta-Version
 services:
   - gameserver-scp
 ---
@@ -12,35 +12,39 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
 
-Du möchtest die Beta Version von **SCP: Secret Laboratory** spielen und fragst dich, wie du das umsetzen kannst? Wir erläutern dir, was es dabei zu beachten gibt und wie du die Version sowohl bei deinem Spiel als auch bei deinem Server erfolgreich installierst!
+Du möchtest die Beta-Version von **SCP: Secret Laboratory** spielen und fragst dich, wie das geht? Wir erklären dir, was du wissen musst und wie du die Version erfolgreich auf deinem Game und deinem Gameserver installierst!
 
 <InlineVoucher />
 
 
-## Spiel
+## Game
 
-Damit du die Beta Version bei deinem Spiel verwendest musst du in deiner Steam Bibliothek bei dem Spiel die Properties auswählen und dann den Reiter **Betas** öffnen. In der Dropdownauswahl unter Betateilnahme muss statt **Keine** die **Beta Version** ausgewählt werden. 
+Um die Beta-Version für dein Game zu nutzen, musst du in deiner Steam-Bibliothek die Eigenschaften des Spiels öffnen und dann den Reiter **Betas** auswählen. Im Dropdown-Menü unter Beta-Teilnahme wählst du statt **Keine** die **Beta-Version** aus.
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/bWRKbCTEEpBDdkX/preview)
+![img](https://screensaver01.zap-hosting.com/index.php/s/BSn8E3D7JBgM6Dy/preview)
 
-## Server
 
-Die Beta Version vom SCP Secret Laboratory Server wird als separates Spiel angeboten. Das bedeutet, dass du das Spiel ändern musst, wenn du diese Version verwendest. Die Opton dazu findest du in der Gameserver Verwaltung unter Spiele. Solltest du dabei Hilfe benötigen, so empfehlen wir zusätzlich einen Blick in unsere [Spielwechsel](gameserver-gameswitch.md) Anleitung zu werfen. 
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/jkkERQGjX47ZrZK/preview)
+## Gameserver
 
-:::warning Plugin Support
-Die Nutzung der Erweiterung Exiled für Plugins wird für die Beta Version nicht unterstützt.  
+Die Beta-Version des SCP Secret Laboratory Servers wird als separates Game angeboten. Das bedeutet, du musst das Game wechseln, wenn du diese Version nutzen möchtest. Die Option dazu findest du in der Gameserver-Verwaltung unter Games. Falls du dabei Hilfe brauchst, empfehlen wir dir auch einen Blick in unsere [Game wechseln](gameserver-gameswitch.md) Anleitung.
+
+![img](https://screensaver01.zap-hosting.com/index.php/s/BZwaxoknbmFKCJB/preview)
+
+
+
+:::warning Plugin-Support
+Die Nutzung der Exiled-Erweiterung für Plugins wird in der Beta-Version nicht unterstützt.
 :::
 
-:::danger Spielwechsel (SCP: EXILED zu SCP: BETA)
-Ein Wechsel des Spiels von **SCP: Exiled** zu **SCP: Beta** setzt aufgrund der unterschiedlichen Bedingungen ein Wechsel des Hostsystems voraus. Während des Vorgangs gehen die bestehenden Daten verloren und es kommt ebenfalls zu einem Wechsel der IP-Adresse, sofern keine eigene gebucht wurde. 
+:::danger Game-Wechsel (SCP: EXILED zu SCP: BETA)
+Der Wechsel vom Game **SCP: Exiled** zu **SCP: Beta** erfordert aufgrund der unterschiedlichen Voraussetzungen einen Wechsel des Host-Systems. Dabei werden die bestehenden Daten gelöscht und es erfolgt auch eine Änderung der IP-Adresse, sofern du keine eigene gebucht hast.
 :::
 
 
-## Abschluss
+## Fazit
 
-Glückwunsch, du hast erfolgreich die Beta Version von SCP ausgewählt und installiert. Für weitere Fragen oder Hilfe zögere bitte nicht, unser Support-Team zu kontaktieren, das dir täglich zur Verfügung steht! 🙂
+Glückwunsch, du hast die Beta-Version von SCP erfolgreich ausgewählt und installiert. Bei weiteren Fragen oder wenn du Unterstützung brauchst, steht dir unser Support-Team täglich zur Verfügung! 🙂
 
 
 

@@ -1,7 +1,7 @@
 ---
 id: ark-mods
 title: "ARK: Installing mods"
-description: Information on how to install mods on your ARK server from ZAP-Hosting - ZAP-Hosting.com documentation
+description: "Discover how to enhance your ARK server with popular Steam Workshop mods and customize your gameplay experience → Learn more now"
 sidebar_label: Install Mods
 services:
   - gameserver-ark

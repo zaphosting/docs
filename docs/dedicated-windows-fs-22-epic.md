@@ -1,7 +1,7 @@
 ---
 id: dedicated-windows-fs-22-epic
 title: "Dedicated Server: Farming Simulator 2022 (Epic Games) Dedicated Server Windows Setup"
-description: Information about setting up a Farming Simulator 2022 Dedicated Server (Epic Games version) on a Windows Dedicated Server from ZAP-Hosting - ZAP-Hosting.com documentation
+description: "Discover how to set up a dedicated server for Farming Simulator 22 Epic Games version with optimized performance and unique requirements → Learn more now"
 sidebar_label: Farming Simulator 2022 (Epic Games)
 services:
   - dedicated
@@ -12,7 +12,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 ## Introduction
 Setting up a server for Farming Simulator 22 Epic Games version differs slightly from the process for a standard server. This guide will walk you through the process, focusing on the unique aspects of the Epic Games version.
 
-<InlineVoucher />
+
 
 ## Preparation
 
@@ -160,4 +160,4 @@ Once you locate the server, click on it to connect. If prompted, enter the passw
 
 You have successfully installed Farming Simulator 22 (Epic Games version) on your Windows Dedicated Server.
 
-<InlineVoucher />
+

@@ -1,7 +1,7 @@
 ---
 id: account-security
 title: Information on securing a ZAP account
-description: How to secure your account at ZAP-Hosting with strong passwords and 2-factor authentication - ZAP-Hosting.com documentation
+description: "Discover how to strengthen your account security with strong, unique passwords and protect your services effectively → Learn more now"
 sidebar_label: Secure ZAP account
 ---
 

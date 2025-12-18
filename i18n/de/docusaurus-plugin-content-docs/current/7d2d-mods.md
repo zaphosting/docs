@@ -1,7 +1,7 @@
 ---
 id: 7d2d-mods
 title: "7 Days to Die: Installation von Mods"
-description: Anleitung, wie du Mods auf einem 7 Days to Die Gameserver installierst - ZAP-Hosting.com Dokumentation 
+description: "Entdecke, wie du deinen Gameserver mit beliebten Mods anpassen und das Gameplay für ein einzigartiges Erlebnis verbessern kannst → Jetzt mehr erfahren"
 sidebar_label: Mods installieren
 services:
   - gameserver-7d2d
@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
 
-Mit Mods hast du die Möglichkeit, deinen Server noch individueller anzupassen. Im Folgenden wird erklärt, wo du die beliebtesten Servers-Mods finden kannst und wie du diese eingerichtet werden. Mit der Einführung von Alpha 17 Experimental wurde das Konzept der Modlets eingeführt. Modlets sind kleinere Mods, die die Vanilla-XML-Dateien nicht überschreiben, sondern aus dem Mods-Ordner geladen werden. 
+Mit Mods hast du die Möglichkeit, deinen Gameserver noch individueller zu gestalten. Im Folgenden erklären wir dir, wo du die beliebtesten Server-Mods findest und wie du sie einrichtest. Mit der Einführung von Alpha 17 Experimental wurde das Konzept der Modlets eingeführt. Modlets sind kleinere Mods, die die Vanilla XML-Dateien nicht überschreiben, sondern aus dem Mods-Ordner geladen werden.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/McQLetfwmEMbo6N/preview)
 
@@ -19,7 +19,7 @@ Mit Mods hast du die Möglichkeit, deinen Server noch individueller anzupassen. 
 
 ## Vorbereitung
 
-Zunächst einmal müssen die Mods heruntergeladen werden, die auf dem Server installiert werden sollen. Eine große Auswahl an Mods findest du unter [7daystodiemods.com](https://7daystodiemods.com/). Dort findest du mehr als 1000 Mods und es kommen regelmäßig weitere dazu. Wenn du einen Mod heruntergeladen hast, dann sollte er in der Regel folgende Dateistruktur aufweisen:
+Als Erstes musst du die Mods herunterladen, die du auf deinem Gameserver installieren möchtest. Eine große Auswahl an Mods findest du auf [7daystodiemods.com](https://7daystodiemods.com/). Dort gibt es über 1000 Mods, und es kommen regelmäßig neue hinzu. Wenn du eine Mod heruntergeladen hast, sollte sie folgende Ordnerstruktur enthalten:
 
 ```
   Config/
@@ -28,28 +28,20 @@ Zunächst einmal müssen die Mods heruntergeladen werden, die auf dem Server ins
   ModInfo.xml
 ```
 
-
-
 ## Installation
 
-Nun wenn die gewünschten Mods heruntergeladen wurden, dann kann mit der eigentlichen Installation der Mods begonnen werden. Die Einrichtung der Mods erfolgt per FTP. Um Dateien auf deinen Server hochladen zu können, benötigst du einen FTP-Client. Falls du noch nicht weißt, was FTP ist und wie es funktioniert, dann schaue dir am besten die folgende Anleitung an: [Zugriff per FTP](gameserver-ftpaccess.md)
+Sobald die gewünschten Mods heruntergeladen sind, kannst du mit der eigentlichen Installation starten. Die Einrichtung der Mods erfolgt über FTP. Du benötigst einen FTP-Client, um Dateien auf deinen Gameserver hochzuladen. Falls du nicht weißt, was FTP ist und wie es funktioniert, schau dir am besten unsere Anleitung an: [Zugriff via FTP](gameserver-ftpaccess.md)
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/9Q86iArComw55cH/preview)
 
-
-
-Unter dem ``/gXXXXX4/7dtd-linux-exp/`` Verzeichnis muss jetzt ein Ordner mit dem Namen **Mods** angelegt werden. Mache dafür einen Rechtsklick und klicke auf Ordner erstellen. 
+Im Verzeichnis ``/gXXXXX4/7dtd-linux-exp/`` musst du einen Ordner namens **Mods** erstellen. Klicke dazu mit der rechten Maustaste und wähle **Verzeichnis erstellen**.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/RE2n6WodsWq38Pr/preview)
 
-
-
-Im Anschluss werden dann die Dateien des Mods in das Mods-Verzeichnis hochgeladen:
+Anschließend müssen die Dateien der Mod in das Mods-Verzeichnis hochgeladen werden:
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/WjNY5tMnAt7jfga/preview)
 
-
-
-Damit ist die Installation des Mods bereits erledigt. Beim nächsten Serverstart sollten die Mods dann automatisch geladen werden. 
+Damit ist die Installation der Mod bereits abgeschlossen. Beim nächsten Start des Gameservers sollten die Mods dann automatisch geladen werden.
 
 <InlineVoucher />

@@ -1,7 +1,7 @@
 ---
 id: assettocorsa-configure
 title: "Assetto Corsa: Configure your server"
-description: Information about the configuration options of your Assetto Corsa server from ZAP-Hosting - ZAP-Hosting.com documentation
+description: "Discover how to configure your Assetto Corsa server with custom maps and cars for optimal gameplay experience → Learn more now"
 sidebar_label: Configure Server
 services:
   - gameserver-assettocorsa

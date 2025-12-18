@@ -1,7 +1,7 @@
 ---
 id: palworld-server-savegames
 title: "Palworld: Managing Palworld Savegames"
-description: Information on how to manage savegames on your Palworld server from ZAP-Hosting - ZAP-Hosting.com Documentation
+description: "Discover how to securely manage and back up your Palworld Gamesaves for seamless gameplay continuity → Learn more now"
 sidebar_label: Manage Savegames
 services:
   - gameserver-palworld
@@ -94,12 +94,12 @@ Firstly, check your Savefiles through your FTP Client by heading to the followin
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/wYQ42Aein5y6Z6j/preview)
 
-At this location you should still see the old Savegame and a new one that was generated. To resolve this, simply edit the configuration file as described in the [Activating Savegame section](#activating-savegame) above, with the correct Savegame folder name.
+At this location you should still see the old Savegame and a new one that was generated. To resolve this, simply edit the configuration file as described in the Activating Savegame section above, with the correct Savegame folder name.
 
 The Savegame should be active again once you have saved the file and restarted your server.
 
 :::info
-We highly recommend activating Automatic Backups as mentioned in the previous [Automatic Backup](#automatic-backup) section, as Palworld is still in Early Access so it is possible for Savegames to be lost or corrupted during updates.
+We highly recommend activating Automatic Backups as mentioned in the previous Automatic Backup section, as Palworld is still in Early Access so it is possible for Savegames to be lost or corrupted during updates.
 :::
 
 <InlineVoucher />

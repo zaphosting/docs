@@ -1,7 +1,7 @@
 ---
 id: conan-rcon
 title: "Conan Exiles: RCON"
-description: "Erfahre, wie du RCON für Conan Exiles verwendest – ZAP-Hosting Dokumentation"
+description: "Entdecke, wie du Conan Exiles Gameserver sicher und remote ohne Ingame-Verbindung verwaltest → Jetzt mehr erfahren"
 sidebar_label: RCON
 services:
   - gameserver-conan
@@ -12,66 +12,61 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
 
-RCON (Remote Console) ist ein Netzwerkprotokoll zur Fernsteuerung von Gameservern. Es ermöglicht den Zugriff auf die Serverkonsole, ohne dass du direkt auf die Serverumgebung zugreifen musst. Dadurch kannst du administrative Befehle ausführen, Konfigurationsparameter anpassen oder den Serverstatus abfragen.
+RCON (Remote Console) ist ein Netzwerkprotokoll, mit dem du Gameserver aus der Ferne steuern kannst. Es ermöglicht den Zugriff auf die Serverkonsole, ohne direkt mit der Serverumgebung interagieren zu müssen. So kannst du administrative Befehle ausführen, Konfigurationsparameter anpassen oder Serverstatusinformationen abrufen.
 
-In Conan Exiles wird RCON verwendet, um serverseitige Befehle auszuführen, zum Beispiel zur Verwaltung von Spielern, zur Änderung von Spieleinstellungen oder zum Abrufen von Diagnosedaten. Die Verbindung ist durch ein Passwort geschützt und erfolgt über einen definierten Port, der über kompatible RCON-Clients erreichbar ist.
+Bei Conan Exiles wird RCON genutzt, um serverseitige Befehle auszuführen, wie z.B. Spieler verwalten, Gameplay-Einstellungen ändern oder Diagnoseausgaben abrufen. Die Verbindung ist durch ein Passwort geschützt und läuft über einen festgelegten Port, der über kompatible RCON-Clients erreichbar ist.
 
-Ein wesentlicher Vorteil von RCON ist, dass du den Server verwalten kannst, **ohne selbst im Spiel verbunden zu sein**. Administratoren können Conan Exiles über externe Tools, Kommandozeilen-Interfaces oder Web-Dashboards überwachen und steuern, flexibel und ortsunabhängig.
+Ein großer Vorteil von RCON ist, dass du den Server **verwaltst, ohne als Spieler im Spiel verbunden sein zu müssen**. Server-Admins können Conan Exiles bequem über externe Tools, Kommandozeilen oder Web-Dashboards überwachen und steuern – super flexibel und praktisch für die Fernverwaltung.
 
 <InlineVoucher />
 
-
-
 ## Konfiguration
 
-Bevor RCON verwendet werden kann, muss es aktiviert und konfiguriert werden. Dies erfolgt über die Konfigurationsdatei, die du in der Gameserververwaltung unter **Configs** findest. In der Datei `game.ini` müssen folgende Einträge ergänzt oder angepasst werden:
+Bevor du RCON nutzen kannst, muss es aktiviert und konfiguriert werden. Das machst du, indem du die Konfigurationsdatei im Bereich **Configs** im Gameserver Control Panel bearbeitest. In der Datei `game.ini` müssen folgende Einträge hinzugefügt oder angepasst werden:
 
 ```cfg
 [RconPlugin]
 RconEnabled=1
-RconPassword=define-your-password
+RconPassword=dein-passwort-hier
 RconPort=XXXXX
 ```
-
-Der zugewiesene RCON-Port ist ebenfalls in der **Portübersicht** unten auf der Einstellungsseite zu finden und muss dort eingetragen sein.
-
+Den zugewiesenen RCON-Port findest du unten auf der Einstellungsseite in der Port-Übersicht, dieser muss dort eingetragen werden.
 
 
-## Verbindung per RCON
 
-Um dich per RCON mit dem Conan Exiles Server zu verbinden, wird das Kommandozeilentool **rcon-cli** verwendet. Du kannst es aus dem offiziellen [GitHub-Repository](https://github.com/gorcon/rcon-cli) herunterladen. Nach dem Download und der lokalen Installation kann die Verbindung mit der IP-Adresse des Servers, dem RCON-Port und dem RCON-Passwort hergestellt werden.
+## Verbindung via RCON
 
-Den zugewiesenen Port findest du in der **Portübersicht** unten auf der Einstellungsseite in der Gameserververwaltung. Passwort und Port müssen mit den Werten übereinstimmen, die im Panel oder in der Konfigurationsdatei eingetragen sind. Verwende folgenden Befehl, um dich zu verbinden und direkt einen Befehl auszuführen:
+Um dich per RCON mit deinem Conan Exiles Gameserver zu verbinden, nutzt du das Kommandozeilen-Tool **rcon-cli**. Du kannst es im offiziellen [GitHub Repository](https://github.com/gorcon/rcon-cli) herunterladen. Nach dem Download und der Installation auf deinem Rechner stellst du die Verbindung mit der Server-IP, dem RCON-Port und dem RCON-Passwort her.
 
-```
+Den zugewiesenen Port findest du in der **Port-Übersicht** ganz unten auf der Einstellungsseite im Gameserver Dashboard. Passwort und Port müssen mit den Werten im Panel oder der Konfigurationsdatei übereinstimmen. Mit folgendem Befehl verbindest du dich und führst direkt einen Befehl aus:
+
+```bash
 rcon-cli -a <IP>:<PORT> -p <PASSWORD> command
 ```
 
 
 
-## RCON-Befehle
+## RCON Befehle
 
-Sobald die Verbindung über RCON besteht, können verschiedene administrative und diagnostische Befehle auf dem Conan Exiles Server ausgeführt werden. Die verfügbaren Befehle hängen von der Game-Engine ab, beinhalten aber typischerweise Aktionen zur Spielersteuerung, Statusabfragen und Serverkontrolle.
+Sobald du per RCON verbunden bist, kannst du verschiedene administrative und diagnostische Befehle auf deinem Conan Exiles Server ausführen. Die verfügbaren Befehle hängen vom Spiel ab, umfassen aber typischerweise Aktionen zur Spielerverwaltung, Statusabfragen und Serversteuerung.
 
-| Befehl                       | Beschreibung                                  |
-| ----------------------------- | --------------------------------------------- |
-| `broadcast <Nachricht>`       | Sendet eine Nachricht an alle Spieler         |
-| `kick <Spielername>`          | Kickt einen Spieler vom Server                |
-| `ban <Spielername>`           | Bannt einen Spieler                           |
-| `unban <Spielername>`         | Hebt den Bann eines Spielers auf              |
-| `restartserver`               | Startet den Server neu                        |
-| `restartserver <Sekunden>`    | Startet den Server nach einer Verzögerung neu |
-| `shutdownserver`              | Fährt den Server herunter                     |
-| `shutdownserver <Sekunden>`   | Fährt den Server verzögert herunter           |
-| `changemap <Kartenname>`      | Lädt eine andere Karte                        |
-| `setpassword <NeuesPasswort>` | Legt ein neues RCON-Passwort fest             |
+| Befehl                      | Beschreibung                      |
+| --------------------------- | -------------------------------- |
+| `broadcast <message>`       | Sendet eine Nachricht an alle Spieler |
+| `kick <playername>`         | Kickt einen Spieler vom Server   |
+| `ban <playername>`          | Bannt einen Spieler               |
+| `unban <playername>`        | Entbannt einen Spieler            |
+| `restartserver`             | Startet den Server neu            |
+| `restartserver <seconds>`   | Startet den Server mit Verzögerung |
+| `shutdownserver`            | Fährt den Server herunter         |
+| `shutdownserver <seconds>`  | Fährt den Server mit Verzögerung herunter |
+| `changemap <mapname>`       | Lädt eine andere Map              |
+| `setpassword <newpassword>` | Setzt ein neues RCON-Passwort    |
 
+## Fazit
 
+RCON ist ein essenzielles Tool für die Remote-Administration von Conan Exiles Gameservern. Es ermöglicht schnellen und direkten Zugriff auf administrative Funktionen und schützt den Zugang durch Passwort-Authentifizierung. Eine korrekte und sichere Konfiguration ist entscheidend, um die Serverstabilität zu gewährleisten und unbefugten Zugriff zu verhindern.
 
-## Abschluss
-
-RCON ist ein zentrales Werkzeug für die Fernadministration von Conan Exiles Gameservern. Es ermöglicht schnellen und direkten Zugriff auf administrative Funktionen und bietet gleichzeitig Zugriffsschutz durch Passwortauthentifizierung. Eine korrekte und sichere Konfiguration ist entscheidend, um die Stabilität des Servers zu gewährleisten und unbefugten Zugriff zu verhindern.
-
-Für weitere Fragen oder Hilfe zögere bitte nicht, unser Support-Team zu kontaktieren, das dir täglich zur Verfügung steht! 🙂
+Bei Fragen oder wenn du Hilfe brauchst, steht dir unser Support-Team täglich zur Seite! 🙂
 
 <InlineVoucher />

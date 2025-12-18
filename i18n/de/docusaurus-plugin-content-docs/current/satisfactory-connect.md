@@ -1,7 +1,8 @@
 ---
 id: satisfactory-connect
-title: "Satisfactory: Zum Server verbinden"
-sidebar_label: Zum Server binden
+title: "Satisfactory: Mit dem Server verbinden"
+description: "Entdecke, wie du dich effektiv mit deinem Satisfactory Gameserver verbindest und ihn verwaltest für ein reibungsloses Spielerlebnis → Jetzt mehr erfahren"
+sidebar_label: Mit dem Server verbinden
 services:
   - gameserver-satisfactory
 ---
@@ -9,80 +10,79 @@ services:
 import YouTube from '@site/src/components/YouTube/YouTube';
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
-<YouTube videoId="EC4FXT5Mwb8" imageSrc="https://screensaver01.zap-hosting.com/index.php/s/wTW9eLPQqEPwz7F/preview" title="How to create a Satisfactory Server at ZAP and upload your own save-game" description="Hast du das Gefühl, dass du etwas besser verstehst, wenn du es in Aktion siehst? Wir haben etwas für dich! Tauche ab in unser Video, welches alles für dich zusammenfasst. Egal, ob du es eilig hast oder einfach nur Informationen auf möglichst verständliche Art und Weise aufnehmen möchtest!"/>
+<YouTube videoId="EC4FXT5Mwb8" imageSrc="https://screensaver01.zap-hosting.com/index.php/s/2tJwRJe9dbfgLBE/preview" title="Wie du bei ZAP einen Satisfactory Server erstellst und dein eigenes Savegame hochlädst" description="Du verstehst besser, wenn du Dinge in Aktion siehst? Kein Problem! Schau dir unser Video an, das alles für dich erklärt. Egal ob du es eilig hast oder Infos am liebsten auf die spannendste Art aufsaugst!"/>
 
 :::info
-Nutzer eines QWERTY Layouts müssen diese Schritte nicht machen, lediglich STRG + SHIFT + L drücken und mit ~ die Console öffnen
+Wenn du bereits ein QWERTY-Tastaturlayout nutzt, musst du diese Schritte nicht machen, drücke einfach CTRL + SHIFT + L und öffne die Konsole mit ~
 :::
 
-Um auf deinen Satisfactory-Gameserver zu verbinden, musst du die Konsole des Spiels öffnen. Hierzu gibt es zwei verschiedene Wege.
+Um dich mit deinem Satisfactory Gameserver zu verbinden, musst du die Konsole im Spiel öffnen. Es gibt zwei Wege, wie du das machen kannst.
 
 <InlineVoucher />
 
-## Das Öffnen der Konsole
+## Konsole öffnen
 
-### Ändern des Tastatur-Layouts
-Mit wenigen Klicks kannst du das Tastatur-Layout verändern.
-Zuerst starte Satisfactory bis du im Hauptmenü bist.
-Drücke nun die Tasten `ALT + Shift`, dein Tastatur-Layout hat sich nun auf EN gewechselt.
-Du kannst ganz einfach kontrollieren ob es funktioniert hat, indem du kurz auf dein Desktop wechselst, rechts unten sollte nun ein `EN` stehen.
+### Tastaturlayout wechseln
+Du kannst dein Tastaturlayout ganz easy in ein paar Schritten wechseln.
+Starte dein Satisfactory bis du im Hauptmenü bist.
+Drücke jetzt `CTRL + Shift` – dein Tastaturlayout sollte jetzt auf `EN` gewechselt haben.
+Du kannst das ganz einfach checken, indem du auf deinen Desktop wechselst und in der Taskleiste unten rechts schaust, ob dort `EN` steht.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/bq9baKmtrA34LXx/preview)
 
-Wenn die Änderung erfolgreich war, kannst du wieder in das Spiel zurück, drücke nun `STRG + SHIFT + L`
-Als Nächstes klicke, sofern du ein QWERTZ Layout auf deiner Tastatur hast, die Taste `^`
+Wenn der Wechsel geklappt hat, kannst du zurück ins Spiel gehen, jetzt `CTRL + SHIFT + L` drücken.
+Drücke jetzt `^` auf deiner Tastatur, damit sollte sich die Konsole öffnen.
 
-Am unteren Bildschirmrand sollte sich nun die Konsole öffnen
-
-### Verändern der Taste, welche die Konsole öffnet
-Drücke `Windows-Taste + R` oder suche im Startmenü nach Ausführen
-Kopiere dort diesen Pfad hinein:
+### Taste zum Öffnen der Konsole ändern
+Drücke `Windows-Taste + R` oder suche im Startmenü nach `Ausführen`
+Füge diesen Pfad ein:
 
 :::info
 %LOCALAPPDATA%\FactoryGame\Saved\Config\WindowsNoEditor\ 
 :::
 
-Und bestätige mit Enter.
+und bestätige mit Enter.
 
-Öffne die Input.ini mit einem Editor deiner Wahl
+Öffne jetzt die Datei Input.ini mit einem Editor deiner Wahl (z.B. Notepad)
 
 :::info
-Falls die Datei nicht existiert, kannst du diese einfach erstellen.
+Falls die Datei noch nicht existiert, erstelle sie einfach neu.
 :::
 
-Füge folgenden Inhalt hinzu:
+Füge diesen Text in die Datei ein:
 
 `[/script/engine.inputsettings]
 ConsoleKey=F6`
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/MkcZMMpmzZHaYcy/preview)
 
-Speichere und starte das Spiel neu - Du kannst ab jetzt die Konsole immer mit `F6` öffnen und schließen.
+Speichere die Datei und starte das Spiel neu – jetzt kannst du die Konsole mit `F6` öffnen.
 
-## Verbinden zu deinem Satisfactory Server
-Kopiere die IP-Adresse deines Servers in deinem Server Dashboard
-![](https://screensaver01.zap-hosting.com/index.php/s/DC9rK9yKfKAHJpW/preview)
+## Mit deinem Satisfactory Gameserver verbinden
+Kopiere die IP-Adresse von deinem Server Dashboard:
 
-Öffne im Spiel die Konsole wie in den vorherigen Schritten beschrieben 
+![](https://screensaver01.zap-hosting.com/index.php/s/7KJPTHTx4NJ8B3M/preview)
 
-Trage in der Konsole `open IP-Adresse-Deines-Servers` ein.
+Öffne die Konsole im Spiel, wie oben beschrieben.
+
+Gib jetzt `open IP-Adresse-deines-Servers` ein.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/8dY8WTsS9ewQSGJ/preview)
 
-und bestätige die Eingabe mit Enter
+Drücke Enter.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/4isZiiDJrDwC7wE/preview)
 
-Du verbindest dich nun zum Server und kannst darauf spielen!
+Du bist jetzt mit deinem Satisfactory Server verbunden!
 
-## Das HUB
-Das HUB steht bereits in deiner Welt, du kannst es auf Wunsch mit `F` abbauen und an einem anderen Platz erneut platzieren.
-Du findest das HUB ganz einfach, in dem du dich an der Markierung im Spiel orientierst.
+## Der HUB
+Der HUB ist schon in der Welt platziert, du kannst ihn zerstören, wenn du willst, indem du `F` drückst, und ihn an einem anderen Ort neu platzieren.
+Den HUB findest du ganz easy, indem du der Markierung folgst.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/EfmqDj78SiTeNtf/preview)
 
 ## Autosave
-Dein Server speichert alle 5 Minuten automatisch, du kannst alle Saves im Savegame-Manager sehen. Es werden immer die letzten 6 Autosaves deines Servers behalten. Wenn du
-deinen Server stoppst, kopiert er das aktuelle Autosave automatisch über dein aktives Savegame, damit beim nächsten Server Start auch der aktuelle Fortschritt geladen wird.
+Der Server speichert deinen Fortschritt alle 5 Minuten, du kannst die Saves im Savegame-Manager in deinem Server Dashboard sehen.
+Es werden immer die letzten 6 Saves (also 30 Minuten) deines Fortschritts behalten.
 
 <InlineVoucher />

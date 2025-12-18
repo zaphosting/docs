@@ -1,7 +1,7 @@
 ---
 id: voiceserver-introduction
 title: "Voiceserver: Introduction"
-description: Introduction and information about the Voiceserver (Teamspeak 3/5) product from ZAP-Hosting - ZAP-Hosting.com Documentation
+description: "Discover how to set up and customize your affordable voiceserver for seamless voice chats with friends and communities → Learn more now"
 sidebar_label: Introduction
 services:
   - voiceserver
@@ -9,7 +9,7 @@ services:
 
 import InlineVoucher from '@site/src/components/InlineVoucher';
 import SearchableAccordion from '@site/src/components/SearchableAccordion/SearchableAccordion';
-import items from '@site/data/faqs/voiceserver-introduction-en.json';
+import items from '@site/data/faqs/voiceserver-introduction.json';
 
 ## Introduction
 Are you looking for your own voiceserver for you and your friends at a fair price? Then you've come to the right place at ZAP-Hosting! At ZAP-Hosting, you can rent or buy your suitable voiceserver. You can customize and configure your voiceserver according to your preferences.

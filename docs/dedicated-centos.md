@@ -1,7 +1,7 @@
 ---
 id: dedicated-centos
 title: "Dedicated Server: Installation of CentOS"
-description: Information about installing the CentOS operating system on your dedicated server from ZAP-Hosting - ZAP-Hosting.com documentation
+description: "Discover how to successfully install and configure CentOS on your dedicated server for optimal performance and security → Learn more now"
 sidebar_label: Install CentOS
 services:
   - dedicated
@@ -19,7 +19,7 @@ The structure of the guide is based on the use of the CentOS 8.3 operating syste
 
 :::
 
-<InlineVoucher />
+
 
 ## Preparation
 
@@ -115,4 +115,4 @@ Your dedicated server should now have a working internet connection.
 
 Congratulations, you have successfully installed the CentOS operating system on your dedicated server. For further questions or assistance, please don't hesitate to contact our support team, which is available daily to assist you! 🙂
 
-<InlineVoucher />
+

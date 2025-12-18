@@ -1,7 +1,7 @@
 ---
 id: dedicated-linux-mythofempires
 title: "Dedicated Server: Myth of Empires Dedicated Server Linux Setup"
-description: Informationen zur Einrichtung eines Myth of Empires Dedicated Servers auf einem Linux Dedicated Server von ZAP-Hosting - ZAP-Hosting.com Dokumentation
+description: "Entdecke, wie du den Myth of Empires Dedicated Server auf Linux installierst und dein Game Server Hosting optimierst → Jetzt mehr erfahren"
 sidebar_label: Myth of Empires
 services:
   - dedicated
@@ -10,68 +10,63 @@ services:
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
-
-Hast du einen Linux Dedicated Server und möchtest den Myth of Empires Dedicated Server Service darauf installieren? Dann bist du hier genau richtig. In dieser Anleitung erklären wir dir Schritt für Schritt, wie du diesen Dienst mit SteamCMD auf deinem Linux-Server installierst. Wir verwenden in den Beispielen Ubuntu, aber der Prozess sollte bei anderen Distributionen sehr ähnlich sein.
+Du hast einen Linux Dedicated Server und möchtest den Myth of Empires Dedicated Server darauf installieren? Dann bist du hier genau richtig. In dieser Anleitung erklären wir dir Schritt für Schritt, wie du diesen Service auf deinem Linux Server mit SteamCMD installierst. Wir nutzen Ubuntu als Beispiel, aber der Prozess ist bei anderen Distributionen ähnlich.
 
 :::tip
-Wusstest du, dass du unser **ZAP GS/TS3 Interface** direkt auf deinem Dedicated Server installieren kannst? Damit kannst du mit nur wenigen Klicks Gameserver-Dienste einrichten, die direkt in dein ZAP-Hosting-Dashboard integriert sind! Erfahre mehr über das [GS/TS3 Interface](dedicated-linux-gs-interface.md).
+Wusstest du, dass du unsere **ZAP GS/TS3 Interface** direkt auf deinem Dedicated Server installieren kannst? Damit richtest du Game Server Services mit direkter Integration in dein ZAP-Hosting Dashboard in nur wenigen Klicks ein! Mehr Infos zur [GS/TS3 Interface findest du hier](dedicated-linux-gs-interface.md).
 :::
-
-<InlineVoucher />
 
 ## Vorbereitung
 
-Verbinde dich zunächst über SSH mit deinem Dedicated Server. Benutze unsere Anleitung [Erstzugriff (SSH)](vserver-linux-ssh.md), wenn du dabei Hilfe benötigst.
+Verbinde dich zuerst per SSH mit deinem Dedicated Server. Falls du Hilfe brauchst, schau dir unsere [SSH Erste Schritte](dedicated-linux-ssh.md) Anleitung an.
 
-Du musst auch eine Ersteinrichtung für SteamCMD vornehmen, wenn du es zum ersten Mal auf deinem Linux-Server verwendest. Bitte benutze unsere [SteamCMD einrichten](dedicated-linux-steamcmd.md) Anleitung und stelle sicher, dass SteamCMD vollständig eingerichtet ist, bevor du fortfährst.
+Falls du SteamCMD zum ersten Mal auf deinem Linux Server nutzt, musst du es erstmal einrichten. Nutze dafür unsere [SteamCMD Linux Setup](dedicated-linux-steamcmd.md) Anleitung und stelle sicher, dass SteamCMD komplett eingerichtet ist, bevor du weitermachst.
 
-:::info Wine-Kompatibilitätsschicht
-Myth of Empires bietet derzeit keinen nativen Linux-basierten Server-Build an. Das bedeutet, dass ein zusätzlicher Vorbereitungsschritt notwendig ist, um den Windows-Server-Build auf Linux auszuführen.
+:::info Wine Kompatibilitätsschicht
+Myth of Empires bietet aktuell keinen nativen Linux-Server Build an. Deshalb ist ein zusätzlicher Schritt nötig, um die Windows-Server-Version auf Linux laufen zu lassen.
 
-Du musst eine einmalige Installation der **Wine**-Kompatibilitätsschicht durchführen, wenn du sie zum ersten Mal auf deinem Linux-Server verwendest. Bitte benutze unsere Kurzanleitung [Wine-Kompatibilitätsschicht einrichten](dedicated-linux-wine.md), um dies einzurichten, bevor du fortfährst.
+Du musst einmalig die **Wine** Kompatibilitätsschicht installieren, falls du das noch nicht auf deinem Linux Server gemacht hast. Nutze unsere schnelle [Wine Kompatibilitätsschicht Setup](dedicated-linux-wine.md) Anleitung, um das einzurichten, bevor du weitermachst.
 :::
 
 ## Installation
 
-Beginne damit, dich als Benutzer `steam` anzumelden und gehe in das Root-Verzeichnis `home/steam`, um für Ordnung zu sorgen.
+Melde dich als `steam` User an und wechsle in das Home-Verzeichnis von `steam`, um alles ordentlich zu halten.
 ```
 sudo -u steam -s
 cd ~
 ```
 
-Wenn du eingeloggt bist, kannst du den Installationsprozess mit folgendem Befehl starten, um die Installation mit Hilfe von SteamCMD direkt in deinem `steam`-Benutzer zu starten. Mit dem Parameter `+@sSteamCmdForcePlatformType windows` stellst du zwangsweise sicher, dass die Windows-Binärdateien installiert werden.
+Sobald du eingeloggt bist, kannst du die Installation mit folgendem Befehl starten. Damit wird SteamCMD genutzt, um die Windows-Binaries zu installieren – dank des Parameters `+@sSteamCmdForcePlatformType windows` wird das erzwungen.
 ```
 steamcmd +@sSteamCmdForcePlatformType windows +force_install_dir '/home/steam/MOE-Server' +login anonymous +app_update 1794810 validate +quit
 ```
 
-Bitte habe etwas Geduld, während der Download abgeschlossen wird, denn bei größeren Spielen kann es einige Zeit dauern. Sobald der Download erfolgreich war, wird eine Erfolgsmeldung angezeigt, die dies bestätigt.
+Hab Geduld, der Download kann je nach Größe des Spiels etwas dauern. Wenn alles erfolgreich war, erscheint eine Bestätigungsmeldung.
 
 ## Konfiguration
 
-Zu diesem Zeitpunkt hast du die Einrichtung deines Myth of Empires-Servers abgeschlossen. Du kannst weitere Serverkonfigurationen über eine Reihe von Konfigurationsdateien vornehmen, die sich im Verzeichnis deines Servers befinden.
+Jetzt hast du die Grundinstallation deines Myth of Empires Servers abgeschlossen. Weitere Einstellungen kannst du über verschiedene Konfigurationsdateien im Serververzeichnis vornehmen.
 
-Du kannst alle Konfigurationsparameter anpassen, indem du die Konfigurationsdateien `.ini` im Ordner Saved aufrufst und bearbeitest. Benutze den Befehl `ls`, um zu sehen, welche Dateien es gibt.
+Alle Konfigurationsparameter findest du in `.ini` Dateien im Saved-Ordner. Mit dem Befehl `ls` kannst du dir die Dateien anzeigen lassen.
 ```
 cd /home/steam/MOE-Server/MOE/Saved/Config/WindowsServer
 ```
 
-Um eine Datei zu bearbeiten, rufe einfach `nano ./[Dateiname].ini` auf, um den nano-Editor zu öffnen.
+Um eine Datei zu bearbeiten, nutze einfach `nano ./[dateiname].ini`, um den Nano Editor zu öffnen.
 
-In unserer [Server Konfiguration](moe-configuration.md) findest du alle verfügbaren Serveroptionen und ihre Funktionen.
+Schau dir unsere Myth of Empires [Server Konfiguration](moe-configuration.md) Anleitung an, um alle verfügbaren Serveroptionen und ihre Funktionen kennenzulernen.
 
-## Starten und Verbinden mit deinem Server
+## Server starten & verbinden
 
-Jetzt ist es an der Zeit, deinen Server zu starten. Gehe in das Hauptverzeichnis des Spiels und führe die ausführbare Datei **MOEServer.exe** mit dem unten stehenden Befehl aus. Vergewissere dich, dass du die Befehle **xvfb-run** und **wine** hinzufügst, um die Datei über die Wine-Kompatibilitätsschicht auszuführen.
+Jetzt geht’s ans Eingemachte: Starte deinen Server. Wechsle ins Hauptspielverzeichnis und starte die **MOEServer.exe** mit folgendem Befehl. Wichtig: Nutze **xvfb-run** und **wine**, um die Windows-Version über die Wine Kompatibilitätsschicht auszuführen.
 ```
 xvfb-run wine /home/steam/MOE-Server/MOE/Binaries/Win64/MOEServer.exe
 ```
 
-In der Eingabeaufforderung sollten nun Protokolle erscheinen, die anzeigen, dass der Start erfolgreich war. Bitte beachte, dass der erste Start einige Zeit dauern kann, da alles eingerichtet wird. Du kannst dich direkt verbinden, indem du auf der Registerkarte **Custom Server** nach den Serverdetails suchst: `[deine_ip_address]:15636`.
+Im Terminal solltest du jetzt Logs sehen, die bestätigen, dass der Server erfolgreich gestartet ist. Beim ersten Start kann es etwas dauern, bis alles eingerichtet ist. Verbinde dich dann direkt über den **Custom Server** Tab mit `[deine_ip_adresse]:15636`.
 
-## Abschluss
+## Fazit
 
-Herzlichen Glückwunsch, du hast den Myth of Empires-Server erfolgreich auf deinem Dedicated Server installiert und konfiguriert! Als nächsten Schritt empfehlen wir dir einen Blick in unsere Anleitung [Linux Dienst einrichten](dedicated-linux-create-gameservice.md), in der du deinen neuen dedizierten Gameserver als Dienst einrichtest. Dies bietet verschiedene Vorteile, wie z. B. den automatischen Start des Servers beim Hochfahren, automatische Server-Updates, einfache Verwaltung und Zugriff auf Logs und vieles mehr!
+Glückwunsch, du hast den Myth of Empires Server erfolgreich auf deinem Dedicated Server installiert und konfiguriert! Als nächstes empfehlen wir dir unsere [Linux Service Setup](dedicated-linux-create-gameservice.md) Anleitung. Damit richtest du deinen neuen Dedicated Gameserver als Service ein – mit Vorteilen wie automatischem Serverstart beim Booten, automatischen Updates, einfacher Verwaltung und Zugriff auf Logs und mehr!
 
-Wenn du weitere Fragen oder Probleme hast, wende dich bitte an unser Support-Team, das dir jeden Tag zur Verfügung steht!
-
-<InlineVoucher />
+Falls du noch Fragen hast oder Probleme auftreten, steht dir unser Support Team täglich zur Seite!

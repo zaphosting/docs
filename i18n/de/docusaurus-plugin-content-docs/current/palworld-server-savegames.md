@@ -1,106 +1,104 @@
 ---
 id: palworld-server-savegames
 title: "Palworld: Palworld Savegames verwalten"
-description: Informationen über die Verwaltung von Savegames auf deinem Palworld-Server von ZAP-Hosting - ZAP-Hosting.com Dokumentation
+description: "Entdecke, wie du deine Palworld Gamesaves sicher verwaltest und sicherst für nahtloses Gameplay → Jetzt mehr erfahren"
 sidebar_label: Savegames verwalten
 services:
   - gameserver-palworld
 ---
 
-
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
-In dieser Anleitung erfahren wir, wie du deine Palworld Gamesaves auf deinem Gameserver verwaltest, einschließlich der Sicherung deiner lokalen und Server-Savegames sowie dem Upload auf deinen Server.
+In dieser Anleitung zeigen wir dir, wie du deine Palworld Gamesaves auf deinem Gameserver verwaltest, inklusive Backup deiner lokalen und Server-Savegames sowie dem Hochladen auf deinen Server.
 
-## Voraussetzungen
+## Vorbereitung
 
-Um auf die Dateien deines Servers zugreifen zu können, benötigst du einen FTP-Client wie [WinSCP](https://winscp.net/eng/index.php) oder [FileZilla](https://filezilla-project.org/), die beide Open-Source sind und kostenlos heruntergeladen werden können.
+Um auf deine Serverdateien zugreifen zu können, benötigst du einen FTP-Client wie [WinSCP](https://winscp.net/eng/index.php) oder [FileZilla](https://filezilla-project.org/), die beide Open-Source und kostenlos sind.
 
-Du musst dich über einen FTP-Client mit deinem Server verbinden, indem du die Zugangsdaten verwendest, die du unter **Werkzeuge->FTP-Broswer** im Webinterface deines Gameservers findest. Bitte benutze unsere [Zugriff per FTP](gameserver-ftpaccess.md) Anleitung als weitere Hilfe, um dich mit deinem Server zu verbinden.
+Du musst dich mit einem FTP-Client über die Zugangsdaten verbinden, die du im Webinterface deines Gameservers unter **Tools->FTP-Browser** findest. Nutze gerne unsere [Zugriff via FTP](gameserver-ftpaccess.md) Anleitung, falls du Hilfe beim Verbinden brauchst.
 
-
-## Backup Savegame
+## Savegame sichern
 
 ### Lokales Savegame
 
-Lokale Savegames sind Savegames, die du erstellt hast, während du ein Multiplayer-Spiel lokal auf deinem Gerät veranstaltet hast. Du findest sie in den Windows AppData, und zwar in folgendem Pfad:
+Lokale Savegames sind die, die du erstellt hast, während du ein Multiplayer-Spiel lokal auf deinem Gerät gehostet hast. Diese findest du im Windows AppData-Ordner, genauer unter folgendem Pfad:
 ```
 ../AppData/Local/Pal/Saved/SaveGames
 ```
 
 :::tip
-Du kannst ganz einfach auf diesen Pfad zugreifen, indem du gleichzeitig `CTRL` + `R` drückst und im Ausführen-Dialog nach dem folgenden Pfad suchst: `%localappdata%/Pal/Saved/SaveGames/`. Drücke einfach **OK** und du wirst zu dem Ordner weitergeleitet.
+Du kannst diesen Pfad ganz einfach direkt öffnen, indem du gleichzeitig `STRG` + `R` drückst und im Ausführen-Dialog folgenden Pfad eingibst: `%localappdata%/Pal/Saved/SaveGames/`. Einfach auf **OK** klicken und du landest im Ordner.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/wtwnsM5rrjFxjis/preview)
+![](https://github.com/zaphosting/docs/assets/42719082/5cdff375-57f8-4699-9985-42bcecf22218)
 :::
 
-An diesem Ort kannst du einen Ordner sehen, der deine SteamID enthält. Öffne diesen Ordner und du kannst alle deine lokalen Savegames an einem Ort sehen.
+An diesem Ort findest du einen Ordner, der deiner SteamID entspricht. Öffne diesen Ordner und du siehst alle deine lokalen Savegames an einem Ort.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/rpaSM3AQsZai6fz/preview)
+![](https://github.com/zaphosting/docs/assets/42719082/8f36715d-7e87-45e1-b859-6ebedd18c8da)
 
-### Zugriff auf das Savegame über FTP
+### Savegame per FTP zugreifen
 
-Es ist ganz einfach, dein Savegame auf dem Server zu sichern. Sobald du dich über einen FTP-Client mit deinem Gameserver verbunden hast, gehst du zu folgendem Pfad:
+Das Backup deines Savegames vom Server ist easy. Sobald du dich mit deinem Gameserver per FTP-Client verbunden hast, navigiere zu folgendem Pfad:
 ```
 ../palworld/Pal/Saved/SaveGames/0
 ```
 
-An diesem Ort solltest du einen Ordner mit einer Reihe zufälliger Zeichen sehen, der dein Savegame ist. Klicke einfach mit der rechten Maustaste auf den Ordner und benutze den Button **Download**, um es lokal auf deinem Gerät zu speichern.
+Dort solltest du einen Ordner mit einer Reihe zufälliger Zeichen sehen – das ist dein Savegame. Rechtsklick auf den Ordner und dann **Download** auswählen, um es lokal auf deinem Gerät zu speichern.
 
 ![](https://github.com/zaphosting/docs/assets/42719082/ca890470-450d-4962-a982-39378dfbb695)
 
-### Automatische Backups
+### Automatisches Backup
 
-Wir bieten auch die Möglichkeit, ein automatisches Backup deines Savegames (und deiner Konfigurationsdatei) direkt über unser Webinterface zu erstellen. Rufe einfach das Webinterface deines Gameservers auf und gehe in den Bereich **Tools->Backups**. Hier kannst du eine Reihe von Optionen konfigurieren, um automatische Backups für deinen Server zu planen. Wir stellen dir 10gb kostenlosen Backup-Speicher zur Verfügung, in dem deine Backups gespeichert werden. Weitere Informationen zu Backups findest du in unserer [Backups](gameserver-backups.md) zu diesem Thema.
+Wir bieten dir auch die Möglichkeit, dein Savegame (und die Konfigurationsdatei) direkt über unser Webinterface automatisch sichern zu lassen. Gehe dazu einfach im Webinterface deines Gameservers auf **Tools->Backups**. Dort kannst du verschiedene Optionen einstellen, um automatische Backups zu planen. Du bekommst 10 GB kostenlosen Backup-Speicher, in dem deine Backups abgelegt werden. Mehr Infos zum Thema Backups findest du in unserer speziellen [Backups](gameserver-backups.md) Anleitung.
 
 ## Savegame hochladen
 
-Ähnlich wie das Sichern ist auch das Hochladen deines Savegames ganz einfach. Stelle zunächst sicher, dass du dich über einen FTP-Client mit deinem Gameserver verbindest. Sobald du bereit bist, gehst du zu folgendem Pfad:
+Ähnlich wie beim Backup ist das Hochladen deines Savegames simpel. Verbinde dich zuerst mit deinem Gameserver per FTP-Client. Navigiere dann zu folgendem Pfad:
 ```
 ../Pal/Saved/SaveGames/0
 ```
 
-![Bild](https://screensaver01.zap-hosting.com/index.php/s/tadxngnRCJDbtTe/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/tadxngnRCJDbtTe/preview)
 
-Ziehe einfach alle deine Savegames mit deinem FTP-Client in diesen Ordner und sie werden auf deinen Server hochgeladen.
+Zieh einfach dein Savegame per Drag & Drop in diesen Ordner im FTP-Client und es wird auf deinen Server hochgeladen.
 
 :::tip
-Es kann nützlich sein, den Namen des hochgeladenen Gamesave-Ordners zu kopieren, da du ihn brauchst, wenn du ihn im nächsten Abschnitt aktivieren willst.
+Es kann hilfreich sein, den Namen des hochgeladenen Savegame-Ordners zu kopieren, da du diesen brauchst, um es im nächsten Schritt zu aktivieren.
 :::
 
 ## Savegame aktivieren
 
-Um ein bestimmtes Savegame zu verwenden, musst du eine Konfigurationsdatei bearbeiten. Gehe zu folgendem Pfad und suche die Datei namens **GameUserSettings.ini**:
+Um ein bestimmtes Savegame zu nutzen, musst du eine Konfigurationsdatei anpassen. Navigiere zu folgendem Pfad und suche die Datei **GameUserSettings.ini**:
 ```
 ../Pal/Saved/Config/WindowsServer/ # Für Windows
 ../Pal/Saved/Config/LinuxServer/ # Für Linux
 ```
 
-In diesem Ordner öffnest du die Datei **GameUserSettings.ini** und suchst den Parameter `DedicatedServerName`.
+Öffne die **GameUserSettings.ini** und finde den Parameter `DedicatedServerName`.
 
-Bearbeite den Inhalt dieser Zeile und ersetze ihn durch den Namen des Savegames (den Namen des Ordners), das du auf deinem Server aktivieren möchtest.
+Bearbeite diese Zeile, indem du den Namen des Savegame-Ordners einträgst, das du auf deinem Server aktivieren möchtest.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/qLG2jtzFkYM6WB7/preview)
 
-Stelle sicher, dass du diese Datei speicherst und deinen Server neu startest, damit die Änderungen wirksam werden. Du hast erfolgreich ein Savegame zu deinem Gameserver hinzugefügt.
+Speichere die Datei und starte deinen Server neu, damit die Änderung wirksam wird. Du hast erfolgreich ein Savegame auf deinem Gameserver hinzugefügt.
 
-## Savegame verschwunden
+## Savegame ist verschwunden
 
-In seltenen Fällen kann es vorkommen, dass der Server beim Starten ein neues Savegame erstellt, anstatt ein bestehendes zu laden.
+In seltenen Fällen kann es passieren, dass der Server beim Start ein neues Savegame erstellt, anstatt ein bestehendes zu laden.
 
-Überprüfe zunächst deine Savegames über deinen FTP-Client, indem du den folgenden Pfad aufrufst:
+Überprüfe zuerst deine Savefiles per FTP-Client unter folgendem Pfad:
 ```
 ../Pal/Saved/SaveGames/0
 ```
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/wYQ42Aein5y6Z6j/preview)
 
-An dieser Stelle solltest du immer noch das alte Savegame sehen und ein neues, das generiert wurde. Um dies zu beheben, bearbeite einfach die Konfigurationsdatei, wie im Abschnitt [Savegame aktivieren](#savegame-aktivieren) oben beschrieben, mit dem richtigen Namen des Savegame-Ordners.
+Dort solltest du dein altes Savegame und ein neu generiertes sehen. Um das zu beheben, bearbeite die Konfigurationsdatei wie im Abschnitt Savegame aktivieren beschrieben und trage den korrekten Savegame-Ordnernamen ein.
 
-Das Savegame sollte wieder aktiv sein, sobald du die Datei gespeichert und deinen Server neu gestartet hast.
+Das Savegame sollte wieder aktiv sein, sobald du die Datei gespeichert und den Server neu gestartet hast.
 
 :::info
-Wir empfehlen dringend, automatische Backups zu aktivieren, wie im vorherigen Abschnitt [Automatisches Backup](#automatische-backups) erwähnt, da sich Palworld noch im Early Access befindet und es daher möglich ist, dass Savegames bei Updates verloren gehen oder beschädigt werden.
+Wir empfehlen dir dringend, die automatischen Backups wie im vorherigen Abschnitt Automatisches Backup beschrieben zu aktivieren, da Palworld sich noch im Early Access befindet und Savegames bei Updates verloren gehen oder beschädigt werden können.
 :::
 
 <InlineVoucher />

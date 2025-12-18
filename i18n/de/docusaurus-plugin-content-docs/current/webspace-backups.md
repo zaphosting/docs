@@ -1,30 +1,32 @@
 ---
 id: webspace-backups
 title: "Webspace: Backups erstellen und verwalten"
-description: Information on how to create a backup of your webspace from ZAP-Hosting - ZAP-Hosting.com Documentation
+description: "Entdecke, wie du deine Website schützt, indem du manuelle oder automatische Backups erstellst und verwaltest, um eine Datenwiederherstellung zu gewährleisten → Jetzt mehr erfahren"
 sidebar_label: Backups
 services:
   - webspace
 ---
 
+
+
 import InlineVoucher from '@site/src/components/InlineVoucher';
+
 
 
 ## Einführung
 
-Backups von einem Webspace sind wie eine Sicherheitskopie deiner Webpräsenz. Wenn mal etwas schiefgeht, zum Beispiel durch einen Fehler, dann kannst du mit einem Backup alles wiederherstellen, ohne dass deine Fortschritte verloren geht. Ein Backup ermöglicht es dir, alle relevanten Bestandteile deiner Webseite, einschließlich wichtiger Konfigurationseinstellungen, E-Mail-Kommunikation, Webseiteninhalte und Datenbanken, zu sichern und bei Bedarf wiederherzustellen.
-
+Backups deines Webspaces sind wie eine Sicherheitskopie deiner Website. Wenn mal was schiefgeht, zum Beispiel durch einen Fehler, kannst du mit einem Backup alles wiederherstellen, ohne deinen Fortschritt zu verlieren. Ein Backup speichert alle wichtigen Komponenten deiner Website, inklusive wichtiger Konfigurationseinstellungen, E-Mail-Kommunikation, Website-Inhalte und Datenbanken, sodass du sie bei Bedarf wiederherstellen kannst.
 
 
 ## Manuelle Backups erstellen
 
-Wähle die Webseite (Domain) aus, von der du ein Backup erstellen möchtest. Navigiere zu dem Punkt Dashboard und klicke auf **Backup und Wiederherstellen**. Bei erstellung des Backups kannst du auswählen was alles gesichert werden soll. Du kannst hierbei zwischen den Optionen **Konfiguration**, **E-Mail-Nachrichten**, **Benutzerdateien** und **Datenbanken** auswählen. 
+Wähle die Website (Domain) aus, von der du ein Backup erstellen möchtest. Navigiere zum Dashboard-Bereich und klicke auf **Backup und Wiederherstellung**. Beim Erstellen des Backups kannst du auswählen, was gesichert werden soll. Du hast die Optionen **Konfiguration**, **E-Mail-Nachrichten**, **Benutzerdateien** und **Datenbanken**.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/KnK6DxndGgwodow/preview)
 
 
 
-Im nächsten Schritt kannst du auswählen, ob das Backup direkt lokal hinterlegt werden soll oder ob du es extern hinterlegen möchtest. Für die externe Abspeicherung wird ein externer Server mit FTP-Zugang benötigt. Dafür könntest du beispielsweise deinen **[Storage Server](https://zap-hosting.com/en/customer/home/storage/)** verwenden. 
+Im nächsten Schritt kannst du auswählen, ob das Backup lokal oder extern gespeichert werden soll. Für die externe Speicherung wird ein externer Server mit FTP-Zugang benötigt. Du könntest dafür zum Beispiel deinen **[Storage Server](https://zap-hosting.com/en/customer/home/storage/)** nutzen.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/gMdpdnqiBWBeZm3/preview)
 
@@ -32,33 +34,34 @@ Im nächsten Schritt kannst du auswählen, ob das Backup direkt lokal hinterlegt
 
 ## Automatische Backups erstellen
 
-Neben der Möglichkeit, manuelle Backups zu erstellen, kannst du auch automatische Backups erstellen. So kann zu bestimmten Zeiten automatisch ein Backup erstellt werden. Wähle zwischen täglichen, wöchentlichen oder monatlichen Backups. Wenn du möchtest, kannst du auch auswählen, ob nur neu veränderte Daten gesichert werden sollen oder ob ein komplettes Backup erstellt werden soll.
+Neben der Möglichkeit, manuelle Backups zu erstellen, kannst du auch automatische Backups anlegen. So wird zu bestimmten Zeiten automatisch ein Backup erstellt. Wähle zwischen täglichen, wöchentlichen oder monatlichen Backups. Optional kannst du auch festlegen, ob nur neu geänderte Daten gesichert werden sollen oder ob ein komplettes Backup erstellt wird.
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/8tt5SWaToyqPNTM/preview)
+![img](https://screensaver01.zap-hosting.com/index.php/s/JngcgyR8JyZ4Qoe/preview)
 
 
 
 ## Backups verwalten
 
-### Import
+### Importieren
 
-Zum Importieren eines Backups musst du beim Backup unter Erstellungsdatum auf den Link klicken. Im nächsten Schritt wirst du in den Import Prozess weitergeleitet. Dort angelangt kannst du nun beim Backup-Inhalt auswählen, was du importieren möchtest. Du hast die Auswahl zwischen **Ausgewählte Objekte** und **Alle Objekte (gesamtes System)**:
+Um ein Backup zu importieren, klicke auf den Link unter Erstellungsdatum im Backup. Im nächsten Schritt gelangst du zum Importprozess. Dort kannst du auswählen, was du aus dem Backup importieren möchtest. Du hast die Wahl zwischen **Ausgewählte Objekte** und **Alle Objekte (gesamtes System)**:
 
-- **Ausgewählte Objekte:** Wähle ein einzelnes Objekt aus, welches du spezifisch importieren möchtest. Zur Auswahl stehen: Datenbank, SSL/TLS-Zertifikate, Websites, DNS-Zone, Dateien von Domains
-- **Alle Objekte (gesamtes System):** Importiert ein vollständige Backups, welches alle Objekte (Datenbank, SSL/TLS-Zertifikate, Websites, DNS-Zone, Dateien von Domains) beinhaltet. 
+- **Ausgewählte Objekte:** Wähle ein einzelnes Objekt, das du gezielt importieren möchtest. Zur Auswahl stehen: Datenbank, SSL/TLS-Zertifikate, Websites, DNS-Zone, Dateien von Domains
+- **Alle Objekte (gesamtes System):** Importiert ein komplettes Backup mit allen Objekten (Datenbank, SSL/TLS-Zertifikate, Websites, DNS-Zone, Domain-Dateien).
 
 
 
 ### Download
 
-Du möchtest dein erstelltes Backups ebenfalls noch lokal sichern? Das ist kein Problem. Du kannst die erstellten Backups auch direkt auf deinen Computer herunterladen. Rufe dazu erneut den Backup-Manager auf und klicke auf den grünen nach unten zeigenden Pfeil bei dem Backup, welches du herunterladen möchtest. 
+Möchtest du dein Backup auch lokal speichern? Kein Problem! Du kannst die erstellten Backups direkt auf deinen Rechner herunterladen. Öffne dazu einfach wieder den Backup-Manager und klicke auf den grünen Pfeil nach unten neben dem Backup, das du herunterladen möchtest.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/zb6agtT5mYeFgiX/preview)
 
 
 
-## Abschluss
+## Fazit
 
-Glückwunsch, du hast erfolgreich ein Backup von deinem Webspace Paket angelegt, welches du bei Bedarf jederzeit wieder importieren kannst. Für weitere Fragen oder Hilfe zögere bitte nicht, unser Support-Team zu kontaktieren, das dir täglich zur Verfügung steht! 🙂
+Glückwunsch, du hast erfolgreich ein Backup deines Webspace-Pakets erstellt, das du bei Bedarf jederzeit wieder importieren kannst. Bei weiteren Fragen oder wenn du Hilfe brauchst, steht dir unser Support-Team täglich zur Seite! 🙂
+
 
 <InlineVoucher />

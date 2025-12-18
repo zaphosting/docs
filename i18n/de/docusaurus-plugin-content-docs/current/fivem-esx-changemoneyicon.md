@@ -1,8 +1,8 @@
 ---
 id: fivem-esx-changemoneyicon
-title: "FiveM: Geldicon Ändern"
-description: Informationen, wie du das Geldicon auf deinem FiveM Server mit ESX von ZAP-Hosting ändern kannst - ZAP-Hosting.com Dokumentation
-sidebar_label: Geldicon ändern
+title: "FiveM: Geldsymbol ändern"
+description: "Entdecke, wie du das Geldsymbol deines Servers für ein personalisiertes Ingame-Erlebnis anpasst → Jetzt mehr erfahren"
+sidebar_label: Geldsymbol ändern
 services:
   - gameserver-fivem
 ---
@@ -10,9 +10,9 @@ services:
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
 :::warning Archivierte Anleitung
-Dieses Dokument wurde archiviert. Dokumente werden archiviert, wenn sie nicht mehr relevant, nicht mehr korrekt oder nicht mehr auf dem neuesten Stand sind. Es wurde aus den folgenden Gründen archiviert:
+Dieses Dokument wurde archiviert. Dokumente werden archiviert, wenn sie nicht mehr relevant, fehlerhaft oder veraltet sind. Es wurde aus folgenden Gründen archiviert:
 
-**Grund**: Die Methode zur Umsetzung ist für eine veraltete ESX-Version. Dieser Ansatz kann nicht für die aktuelle ESX-Version verwendet werden, da sich die Struktur verändert hat. 
+**Grund**: Die Umsetzungs-Methode basiert auf einer veralteten ESX-Version. Dieser Ansatz funktioniert nicht mit der aktuellen ESX-Version, da sich die Struktur geändert hat.
 ::::
 
 
@@ -21,27 +21,29 @@ Dieses Dokument wurde archiviert. Dokumente werden archiviert, wenn sie nicht me
 
 ## Mit FTP verbinden
 
-Zuerst muss der [Zugriff per FTP](gameserver-ftpaccess.md) hergestellt werden.
+Zuerst muss der [Zugang via FTP](gameserver-ftpaccess.md) eingerichtet werden.
 
-Nachdem dieser eingerichtet wurde, kann sich nun verbunden werden und der Server Ordner geöffnet werden.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/kWm34ZRyYrs3dt6/preview)
+Nachdem das erledigt ist, kannst du dich verbinden und den Server-Ordner öffnen.
 
-Hier öffnen wir im `server-data` Ordner die server.cfg Datei
+![](https://screensaver01.zap-hosting.com/index.php/s/pxEfN8qRjRJGWzN/preview)
 
-## Config Editieren
 
-Nun fügen wir über der `start essentialmode` Zeile Folgendes ein:
+Hier öffnen wir die `server.cfg` Datei im Ordner `server-data`.
+
+## Config bearbeiten
+
+Jetzt fügen wir folgendes oberhalb der Zeile `start essentialmode` hinzu:
 
 ```Lua
 set es_moneyIcon "$"
 ```
 
-Hier können wir jetzt das $ mit unserem eigenen Icon ersetzen.
+Hier kannst du das $ durch dein eigenes Symbol ersetzen.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/M6SpD2wiMTWoXCG/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/gYapTyixG98AQo5/preview)
 
 
-Nach einem Serverneustart wird das Geldicon im Spiel sichtbar sein.
+Nach dem Speichern der Datei und einem Neustart des Servers wird das Geldsymbol im Spiel geändert.
 
 <InlineVoucher />

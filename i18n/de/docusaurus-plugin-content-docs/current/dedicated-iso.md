@@ -1,65 +1,63 @@
 ---
 id: dedicated-iso
 title: "Dedicated Server: Eigene ISO"
-description: Informationen, wie du eine eigene ISO-Datei auf deinen Dedicated Server von ZAP-Hosting installieren kannst - ZAP-Hosting.com Dokumentation
+description: "Entdecke, wie du ISO-Dateien einfach per iLO oder Remote-Konsole mountest, um deinen Server effizient zu booten → Jetzt mehr erfahren"
 sidebar_label: Eigene ISO
 services:
   - dedicated
 ---
 
+
+
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
-Du möchtest eine ISO mounten? Eventuell eine von uns oder doch lieber eine eigene? Das ist kein Problem. Wir bieten eine große Auswahl an ISO Dateien an und bieten auch weitere Möglichkeiten an. 
+Willst du eine ISO mounten? Vielleicht eine von uns oder lieber deine eigene? Kein Problem! Wir bieten eine große Auswahl an ISO-Dateien und noch mehr Optionen.
 
-:::warning Auswahl und Verwendung von ISO-Dateien
-Bei der Verwendung einer eigenen ISO (OS), die wir nicht aktiv anbieten, können wir die Funktionalität bei eventuellen Problemen nicht garantieren. 
+:::danger Auswahl und Nutzung von ISO-Dateien
+Wenn du deine eigene ISO (OS) nutzt, die wir nicht aktiv anbieten, können wir bei möglichen Problemen keine Funktionsgarantie übernehmen.
 :::
 
-<InlineVoucher />
 
-## Verfügbare Mounting Optionen
-Es gibt zwei verschiedene Wege, eine eigene ISO einzubinden. Bei allen Wegen ist es erforderlich, dass der Server neu gestartet wird.
-Grundsätzlich gibt es keine Beschränkungen, welche ISOs eingebunden werden können, solange diese bootfähig sind funktionieren sie.
 
-### Einbinden über die iLO
-Öffne deine iLO Verwaltungsoberfläche, navigiere zum Menü "Virtual Media" und öffne dieses.
+## Verfügbare Mount-Optionen
+Es gibt zwei Wege, deine eigene ISO-Datei zu mounten. Ein Neustart des Servers ist immer nötig, damit die Datei geladen wird. Grundsätzlich gibt es keine Einschränkungen beim Mounten, wichtig ist nur, dass die ISO bootfähig ist.
+
+## Mounten über iLO
+Öffne dein iLO Management Interface und gehe zu „Virtual“ Media
 ![](https://screensaver01.zap-hosting.com/index.php/s/myWMSi3GgyLBHXR/preview)
 
-* Trage die URL zu deiner ISO-Datei ein, bitte beachte, dass diese URL zwingend mit .iso enden muss.
-* Klicke auf "Insert Media"
-* Klicke auf "Server Reset" (Startet deinen Server neu)
+* Gib die URL ein, die auf die ISO-Datei zeigt, die du nutzen möchtest. Achte darauf, dass der Link mit .iso endet.
+* Drücke auf „Insert Media“
+* Klicke auf „Server Reset“, damit dein System neu startet.
 
-Deine ausgewählte ISO wird nun geladen.
+Deine ISO-Datei wird jetzt geladen.
 
-### Einbinden über eine Remote Console
+## Mounten über Remote-Konsole
 
-**HTML5 Console**
-Das Einbinden der ISO-Datei erfolgt direkt in der Console selbst:
+**HTML5-Konsole**
+Du kannst die Datei ganz easy direkt in der Remote-Konsole mounten:
 ![](https://screensaver01.zap-hosting.com/index.php/s/x4EDgLZ3e3B6MMC/preview)
 
-* Klicke auf das CD-Symbol
-* Wähle CD/DVD aus
-* Wähle zwischen "Scripted media URL" oder "Local *.iso file"
+* Klick auf das Disc-Symbol
+* Wähle „CD/DVD“
+* Entscheide dich zwischen „Scripted media URL“ oder „Local .iso File“
 
-Der Unterschied zwischen Scripted media URL oder Local *.iso file besteht darin, dass wie bei der vorherigen Variante die ISO Datei auf einen Webspace/Server hochgeladen werden muss.
-Bei der Auswahl "Local *.iso file" kannst du direkt eine Datei von deinem Computer einbinden, ohne weitere Schritte.
+Der Unterschied: Bei „Scripted media URL“ mountest du eine ISO, die auf einem Server/Webspace liegt. Bei „Local *.iso File“ wählst du eine Datei direkt von deinem PC, ohne sie hochladen zu müssen.
 
-Wenn du deine ISO erfolgreich geladen hast, muss der Server neu gestartet werden.
+Nach der Auswahl deiner ISO-Datei musst du den Server neu starten.
 
-**Java Console**
-Wie auch bei der HTML5 Console wird die ISO-Datei auch in der Java Console direkt eingebunden.
+
+**Java-Konsole**
+Wie bei der HTML5-Konsole wird die ISO-Datei auch hier direkt in der Anwendung gemountet.
 ![](https://screensaver01.zap-hosting.com/index.php/s/2CdR5d5AcsG7YdH/preview)
 
-* Öffne "Virtual Drives"
+* Öffne „Virtual Drives“
 
-Der Unterschied zwischen "Image File CD/DVD-ROM" und "URL CD/DVD-ROM" ist wie auch bei der HTML5-Console, dass über "Image File CD/DVD-ROM" direkt eine Datei von deinem Computer hochgeladen werden kann.
+Der Unterschied zwischen „Image File CD/DVD-ROM“ und „URL CD/DVD-ROM“ ist derselbe: Entweder mountest du eine ISO, die auf einem Server/Webspace liegt, oder du wählst eine Datei direkt von deinem PC aus.
 
-Nach erfolgtem Laden der ISO-Datei muss der Server neu gestartet werden.
+Nach dem Einbinden deiner ISO-Datei ist ein Server-Neustart erforderlich.
 
 
-## Abschluss
-
-Glückwunsch, du hast erfolgreich erfolgreich eine ISO Datei ausgewählt und gemountet. Für weitere Fragen oder Hilfe zögere bitte nicht, unser Support-Team zu kontaktieren, das dir täglich zur Verfügung steht! 🙂
-
-<InlineVoucher />
+## Fazit
+Glückwunsch, du hast deine ISO-Datei erfolgreich ausgewählt und gemountet. Bei Fragen oder wenn du Hilfe brauchst, steht dir unser Support-Team täglich zur Seite! 🙂

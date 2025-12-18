@@ -1,8 +1,8 @@
 ---
 id: satisfactory-commands
-title: "Satisfactory: Konsolen-Befehle"
-description: Informationen zu den möglichen Konsolenbefehlen für deinen Satisfactory Server von ZAP-Hosting - ZAP-Hosting.com Dokumentation
-sidebar_label: Konsolen-Befehle
+title: "Satisfactory: Konsolenbefehle"
+description: "Entdecke, wie du dein Satisfactory-Gameplay mit wichtigen Konsolenbefehlen und Keybind-Tipps optimierst → Jetzt mehr erfahren"
+sidebar_label: Konsolenbefehle
 services:
   - gameserver-satisfactory
 ---
@@ -11,66 +11,66 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
 
-In Satisfactory gibt es viele nützliche Befehle, mit denen du die Einstellungen deines Clients anpassen kannst. Auf dieser Seite fassen wir die beliebtesten und nützlichsten Befehle zusammen, die von Spielern in Satisfactory häufig verwendet werden.
+Satisfactory bietet eine Vielzahl nützlicher Befehle, mit denen Spieler ihre Client-Einstellungen anpassen können. Auf dieser Seite fassen wir die beliebten und hilfreichen Befehle zusammen, die von Spielern in Satisfactory häufig genutzt werden.
 
 <InlineVoucher />
 
 ## Zugriff auf die Konsole
-Die Verwendung der Konsole in Satisfactory ist sehr einfach: Drücke einfach die Taste ` (der Akut befindet sich neben der Rücktaste), um zwischen der Sichtbarkeit der Konsole zu wechseln. Die Konsole wird entweder geschlossen, mit einem kleinen Befehlsfenster am unteren Rand geöffnet oder ganz ausgeklappt, wenn du umschaltest.
+Die Konsole in Satisfactory zu öffnen ist super easy: Drücke einfach die `-Taste (Backtick, die über der TAB-Taste liegt), um zwischen der Sichtbarkeit der Konsole zu wechseln. Die Konsole wird entweder geschlossen, als kleines Befehlsfenster unten angezeigt oder komplett aufgeklappt, je nachdem wie oft du die Taste drückst.
 
 :::info
-Wenn die Akut-Taste bei dir nicht funktioniert, befolge die Schritte im folgenden Unterabschnitt, um eine neue Tastenkombination festzulegen und zu aktivieren.
+Falls die Backtick-Taste bei dir nicht funktioniert, folge den Schritten im nächsten Abschnitt, um eine neue Tastenkombination einzurichten und zu aktivieren.
 :::
 
-### Zugriff auf die Konsole nicht möglich
-Aufgrund regionaler Tastaturen kann es vorkommen, dass die Standardtaste für die Aktivierung der Konsole nicht funktioniert, sodass du eine neue Taste einrichten musst. Bevor du dies tust, schließe Satisfactory, falls es noch läuft.
+### Konsole lässt sich nicht öffnen
+Manchmal funktioniert die Standard-Backtick-Taste wegen regionaler Tastaturlayouts nicht. Dann musst du eine neue Taste festlegen. Bevor du das machst, schließe Satisfactory, falls es läuft.
 
-Drücke Windows-Taste + R oder suche in deinem Startmenü nach Ausführen. Kopiere dann den folgenden Pfad hinein:
+Drücke `Windows-Taste + R` oder suche im Startmenü nach `Ausführen`. Kopiere dann folgenden Pfad hinein:
 
 :::info
 %LOCALAPPDATA%\FactoryGame\Saved\Config\WindowsNoEditor
 :::
 
-Öffne die Datei Input.ini mit einem Texteditor (z.B. Notepad)
+Öffne die Datei `Input.ini` mit einem Texteditor (z.B. Notepad).
 
-![Screenshot 2023-02-22 011634](https://screensaver01.zap-hosting.com/index.php/s/qkR8kMtJEWn2SgB/preview)
+![Screenshot 2023-02-22 011634](https://screensaver01.zap-hosting.com/index.php/s/re9wfZLbCosj5K5/preview)
 
-Kopiere nun genau diese Zeilen und füge sie unten ein:
+Füge dann die folgende Zeile ganz unten ein:
 
 `[/script/engine.inputsettings] ConsoleKey=F6`
 
-![Screenshot 2023-02-22 011758](https://screensaver01.zap-hosting.com/index.php/s/5TLf9m9ReGRXXAC/preview)
+![Screenshot 2023-02-22 011758](https://screensaver01.zap-hosting.com/index.php/s/Qta7zsNA9ofo3dp/preview)
 
-Speichere abschließend und starte dein Spiel neu. Nun kannst du die Konsole mit der Tastenkombination `F6` öffnen
+Speichere die Datei und starte dein Spiel neu. Ab jetzt kannst du die Konsole mit der Taste `F6` öffnen.
 
 ## Konsolenbefehle
 
-Die Tabelle besteht aus dem Befehl selbst, den akzeptierten Werten für den Befehl (falls zutreffend) und einer Beschreibung, um es leichter zu verstehen.
+Die Tabelle zeigt den Befehl selbst, die akzeptierten Werte (falls vorhanden) und eine Beschreibung, damit du besser verstehst, was der Befehl macht.
 
-Um die gesamte Liste der Befehle anzuzeigen, verwende `?` in der Konsole, wodurch eine schwebende Liste aller verschiedenen Befehle angezeigt wird. Mit den Pfeiltasten `HOCH` und `RUNTER` kannst du in dieser Liste navigieren.
+Um die komplette Liste aller Befehle anzuzeigen, gib `?` in der Konsole ein. Es erscheint eine schwebende Liste mit allen verfügbaren Befehlen. Du kannst mit den Pfeiltasten `HOCH` und `RUNTER` darin navigieren.
 
-Ein Beispiel für die Verwendung von `?` zur Anzeige aller Befehle ist unten zu sehen.
+Ein Beispiel, wie das mit `?` aussieht, findest du hier:
 
-![Screenshot 2023-02-22 015435](https://screensaver01.zap-hosting.com/index.php/s/ZAp84CYYtysEEq3/preview)
+![Screenshot 2023-02-22 015435](https://screensaver01.zap-hosting.com/index.php/s/gS7bSwCFNngz8yx/preview)
 
 :::info
-Jeder Befehl, der auf dieser Seite erwähnt wird, ist für Vanille Satisfactory.
+Alle hier genannten Befehle gelten für die Vanilla-Version von Satisfactory.
 :::
 
-| Befehlssyntax                   | Akzeptierte Werte | Beschreibung | 
+| Befehlssyntax                  | Akzeptierte Werte | Beschreibung | 
 | ----------------------- | ---------- | --------- | 
-| ?      | -          | Dies zeigt die gesamte Liste der Befehle an         | 
-| Stat FPS      | -          | Schaltet den eingebauten FPS-Zähler im Spiel ein und aus         | 
-| Stat UNIT      | -          | Schaltet eine Anzeige ein, die die Frame-Zeit, die Spieldaten, die Draw-Zeit und einige andere Statistiken anzeigt         | 
-| t.MaxFPS "maxfps"      | Zahl (z.B. 120)          | Legt die maximalen FPS des Spiels fest         | 
-| r.ScreenPercentage "value"      | Zahl (default 100)          | Ändert die Skalierung der Bildschirmauflösung (nur für das Rendering der Welt, nicht der UI)         | 
-| r.ViewDistanceScale "value"      | Zahl (default 1)          | Ändert die Renderdistanz, aus der Objekte wie Felsen oder Bäume gerendert werden         | 
-| Suicide      | -          | Töte deinen eigenen Spieler          | 
-| FOV "value"      | Zahl (z.B. 90)          | Legt das Sichtfeld (FOV) des Spiels fest         | 
-| r.Atmosphere "1 or 0"      | true (1)/false (0)          | Schaltet um, ob die Atmosphäre für das Spiel eingeschaltet ist        | 
-| r.Fog "1 or 0"      | true (1)/false (0)          | Schaltet ein, ob der Nebel für das Spiel eingeschaltet ist         | 
-| Gamma "value"      | Zahl (default 50)          | Legt den Helligkeitsgrad des Spiels fest          | 
+| ?      | -          | Zeigt die komplette Liste aller Befehle an         | 
+| Stat FPS      | -          | Schaltet den eingebauten FPS-Zähler im Spiel an oder aus         | 
+| Stat UNIT      | -          | Zeigt eine Anzeige mit Framezeit, Spieldaten, Renderzeit und weiteren Stats         | 
+| t.MaxFPS "maxfps"      | Ganzzahl (z.B. 120)          | Legt die maximale FPS deines Spiels fest         | 
+| r.ScreenPercentage "value"      | Ganzzahl (Standard 100)          | Ändert die Skalierung der Bildschirmauflösung (nur für die Welt-Renderung, nicht für die UI)         | 
+| r.ViewDistanceScale "value"      | Ganzzahl (Standard 1)          | Ändert die Sichtweite, also wie weit Objekte wie Steine oder Bäume gerendert werden         | 
+| Suicide      | -          | Tötet deinen eigenen Spieler         | 
+| FOV "value"      | Ganzzahl (z.B. 90)          | Legt das Sichtfeld (Field of View) deines Spiels fest         | 
+| r.Atmosphere "1 oder 0"      | true (1)/false (0)          | Schaltet die Atmosphäre im Spiel an oder aus        | 
+| r.Fog "1 oder 0"      | true (1)/false (0)          | Schaltet den Nebel im Spiel an oder aus         | 
+| Gamma "value"      | Ganzzahl (Standard 50)          | Legt die Helligkeit deines Spiels fest         | 
 
-Du findest eine umfassende Liste der Befehle im [Satisfactory wiki](https://satisfactory.fandom.com/wiki/Console). Dort werden verschiedene Befehle ausführlich beschrieben.
+Für eine ausführliche Liste mit noch mehr Befehlen schau am besten auf [die Satisfactory Wiki](https://satisfactory.fandom.com/wiki/Console), die viele technische Befehle detailliert erklärt.
 
 <InlineVoucher />

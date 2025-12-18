@@ -1,7 +1,7 @@
 ---
 id: rimworldtogether-configuration
 title: "RimWorld Together: Server-Konfiguration"
-description: Informationen zur Konfiguration eines RimWorld Together-Spielservers von ZAP-Hosting - ZAP-Hosting.com Dokumentation
+description: "Entdecke die RimWorld Together Server-Einstellungen, um dein Gameplay anzupassen und den Zugang für ein maßgeschneidertes Multiplayer-Erlebnis zu verwalten → Jetzt mehr erfahren"
 sidebar_label: Server-Konfiguration
 services:
   - gameserver
@@ -11,45 +11,45 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
 
-RimWorld Together-Server verfügen über eine Vielzahl von Konfigurationsparametern, die du nach deinen Wünschen anpassen kannst. In dieser Anleitung gehen wir auf alle derzeit verfügbaren Konfigurationsparameter ein und erklären sie genauer.
+RimWorld Together Server bieten eine Vielzahl an Konfigurationsparametern, die du ganz nach deinem Geschmack anpassen kannst. In dieser Anleitung schauen wir uns alle aktuell verfügbaren Konfigurationsoptionen an und erklären sie dir im Detail.
 
 <InlineVoucher />
 
 ## Zugriff auf deine Konfigurationsdatei
 
-Zunächst musst du auf deine Konfigurationsdatei zugreifen, um die Parameter zu bearbeiten. Derzeit kannst du diese Dateien nur bearbeiten, indem du per FTP auf deinen Server zugreifst. Wenn du dich mit der Verwendung von FTP nicht auskennst, empfehlen wir dir, einen Blick in die Anleitung [Zugriff per FTP](gameserver-ftpaccess.md) zu werfen.
+Zuerst musst du auf deine Konfigurationsdatei zugreifen, um irgendwelche Parameter zu bearbeiten. Derzeit ist der einzige Weg, diese Dateien zu editieren, der Zugriff auf deinen Server via FTP. Falls du mit FTP noch nicht vertraut bist, empfehlen wir dir einen Blick in die [Zugriff via FTP](gameserver-ftpaccess.md) Anleitung.
 
 :::note
-Der Server muss gestoppt werden, bevor eine Konfiguration bearbeitet werden kann. Wenn du eine Konfiguration bearbeitest und den Server neu startest, werden alle Änderungen rückgängig gemacht.
+Der Server muss gestoppt sein, bevor du Konfigurationen bearbeiten kannst. Änderungen an der Config und ein anschließender Server-Neustart ohne vorheriges Stoppen führen dazu, dass deine Änderungen nicht übernommen werden.
 :::
 
-Wenn dein FTP-Client nun bereit ist, navigiere in das folgende Verzeichnis:
+Mit deinem FTP-Client bereit, navigiere zu folgendem Verzeichnis:
 ```
 ../rimworld-together/Core
 ```
 
-Dieser Ordner enthält eine Vielzahl von `.json` Konfigurationsdateien für deinen RimWorld Together Server.
+Dieser Ordner enthält eine Vielzahl von `.json` Konfigurationsdateien für deinen RimWorld Together Gameserver.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/76g3TcY9TCLyFsH/preview)
 
 ## Server-Konfigurationsoptionen
 
-In den folgenden Abschnitten findest du Informationen darüber, wie du einige beliebte und gängige Konfigurationsoptionen für deinen RimWorld Together-Server anpassen kannst. Mehr über die einzelnen Dateien erfährst du in der [offiziellen RimWorld Together-Anleitung](https://rimworldtogether.github.io/Guide/selfhosting/getting-started.html#core), in der die Konfigurationsoptionen behandelt werden.
+In den folgenden Abschnitten zeigen wir dir, wie du einige der beliebtesten und häufig genutzten Konfigurationsoptionen für deinen RimWorld Together Server anpassen kannst. Mehr Infos zu den einzelnen Dateien findest du in der [offiziellen RimWorld Together Anleitung](https://rimworldtogether.github.io/Guide/selfhosting/getting-started.html#core), die die Konfigurationsoptionen ausführlich behandelt.
 
 :::tip
-Wir raten davon ab, die Port- oder IP-Einstellungen in der Datei **ServerConfig.json** zu ändern, da diese automatisch vom Spielserver konfiguriert werden. Wenn du diese Werte änderst, kann dein Gameserver kaputt gehen!
+Wir empfehlen nicht, die Port- oder IP-Einstellungen in der **ServerConfig.json** zu ändern, da diese automatisch vom Gameserver konfiguriert werden. Änderungen hier können deinen Gameserver zum Absturz bringen!
 :::
 
 #### Server-Whitelist
 
-Das Umschalten der Server-Whitelist ist ganz einfach. Öffne die Konfigurationsdatei **Whitelist.json** und setze den Parameter `UseWhitelist` auf true.
+Das Aktivieren der Server-Whitelist ist super easy. Öffne die **Whitelist.json** Konfigurationsdatei und setze den Parameter `UseWhitelist` auf true.
 
-Passe nun den Parameter "WhitelistedUsers" an und füge die Benutzernamen der Personen hinzu, die du auf die Liste setzen möchtest. Jeder, der nicht auf dieser Liste steht, kann sich nun nicht mehr verbinden.
+Passe dann den Parameter `WhitelistedUsers` an, indem du die Ingame-Benutzernamen der Leute hinzufügst, die du auf die Liste setzen möchtest. Alle, die nicht auf dieser Liste stehen, können sich nicht mehr verbinden.
 
 #### Gameplay-Einstellungen
 
-Über die Datei **DifficultyValues.json** kannst du eine Vielzahl von Schwierigkeitsparametern für deine RimWorld Together-Server einstellen.
+Du kannst eine breite Palette an Schwierigkeitsparametern für deinen RimWorld Together Server über die **DifficultyValues.json** Datei anpassen.
 
-Auch die Savegame-Einstellungen können über die Datei **WorldConfig.json** angepasst werden. Es wird empfohlen, dass du diese Datei nicht bearbeitest, wenn du schon mitten im Spiel bist, da dies das Spielerlebnis ruinieren könnte.
+Auch die Savegame-Einstellungen lassen sich über die **WorldConfig.json** Datei ändern. Es wird empfohlen, diese nicht mitten im Spielstand zu bearbeiten, da das dein Spielerlebnis negativ beeinflussen kann.
 
 <InlineVoucher />

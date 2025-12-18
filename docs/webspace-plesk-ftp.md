@@ -1,7 +1,7 @@
 ---
 id: webspace-plesk-ftp
 title: "Webspace: Setting up FTP access for webspace"
-description: Information on how to set up FTP access for your webspace from ZAP-Hosting - ZAP-Hosting.com documentation
+description: "Discover how to manage multiple FTP accesses for collaborative web projects and control folder permissions effectively → Learn more now"
 sidebar_label: FTP access
 services:
   - webspace

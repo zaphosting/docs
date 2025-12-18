@@ -1,7 +1,7 @@
 ---
 id: notd-firststeps-dashboard
 title: "Night of the Dead: Dashboard overview"
-description: Information about the dashboard of an Night of the Dead server from ZAP-Hosting - ZAP-Hosting.com Documentation
+description: "Discover how to efficiently manage and optimize your Night of the Dead server for seamless performance and control → Learn more now"
 sidebar_label: Dashboard
 services:
   - gameserver

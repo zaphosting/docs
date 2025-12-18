@@ -1,7 +1,7 @@
 ---
 id: dedicated-linux-standard-notes
 title: "Dedicated Server: Setup Standard Notes on Linux"
-description: Information on how to setup Standard Notes on your Linux Dedicated Server from ZAP-Hosting - ZAP-Hosting.com documentation
+description: "Discover how to securely sync and protect your notes across devices with Standard Notes self-hosting → Learn more now"
 sidebar_label: Install Standard Notes
 services:
   - dedicated
@@ -19,7 +19,7 @@ Standard Notes is an open-source notes app that safeguards your data using audit
 
 Considering about hosting this service yourself? We’ll walk you through every step on how to set it up and configure it, along with everything you need to keep in mind.
 
-<InlineVoucher />
+
 
 
 

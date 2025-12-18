@@ -1,7 +1,7 @@
 ---
 id: dedicated-linux-bitwarden
 title: "Dedicated Server: Setup Bitwarden on Linux"
-description: Information on how to setup Bitwarden on your Linux Product from ZAP-Hosting - ZAP-Hosting.com documentation
+description: "Discover how to securely manage passwords with Bitwarden using end-to-end encryption for cloud or self-hosted setups → Learn more now"
 sidebar_label: Install Bitwarden
 services:
   - dedicated
@@ -19,7 +19,7 @@ Bitwarden is an open source password manager for passwords and passkeys that use
 
 Considering about hosting this service yourself? We’ll walk you through every step on how to set it up and configure it, along with everything you need to keep in mind.
 
-<InlineVoucher />
+
 
 
 

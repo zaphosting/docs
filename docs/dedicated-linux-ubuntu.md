@@ -1,7 +1,7 @@
 ---
 id: dedicated-linux-ubuntu
 title: "Dedicated Server: Installation of Ubuntu 24.04"
-description: Information about installing the Ubuntu 24.04 operating system on your dedicated server from ZAP-Hosting - ZAP-Hosting.com documentation
+description: "Learn how to install and configure Ubuntu on your dedicated server for optimal performance and reliability → Learn more now"
 sidebar_label: Ubuntu 24.04
 services:
   - dedicated
@@ -13,7 +13,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 The following will explain to you step by step how to install and configure the Ubuntu operating system on your dedicated server. Follow these instructions carefully to ensure that you set up the operating system successfully and utilize it optimally.
 
-<InlineVoucher />
+
 
 ## Preparation
 
@@ -107,4 +107,4 @@ Congratulations, you have successfully installed the Ubuntu 24.04 operating syst
 
 
 
-<InlineVoucher />
+

@@ -1,7 +1,7 @@
 ---
 id: fivem-mods-installaddon
-title: "FiveM: Addon Carmods auf Server installieren"
-description: Informationen, wie du Addon Carmods auf deinen FiveM-Server von ZAP-Hosting installieren kannst - ZAP-Hosting.com Dokumentation
+title: "FiveM: Addon Carmods auf dem Server installieren"
+description: "Entdecke, wie du ganz easy Carmods für FiveM runterlädst und konvertierst, um dein Spielerlebnis zu pimpen – mit Schritt-für-Schritt Anleitung → Jetzt mehr erfahren"
 sidebar_label: Addon Carmods installieren
 services:
   - gameserver-fivem
@@ -13,62 +13,58 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Mit FTP verbinden
 
-Zuerst solltest du dich über FTP auf deinen Server verbinden, dazu kannst du unser [Zugriff per FTP](gameserver-ftpaccess.md) Anleitung nutzen.
+Als erstes solltest du dich per FTP mit deinem Server verbinden. Dafür kannst du unseren [Zugang via FTP](gameserver-ftpaccess.md) nutzen.
 
 ## Vorbereitung
 
-Für dieses Tutorial benutzen wir das [rpf2fivem](https://github.com/Avenze/rpf2fivem-repository/releases/latest) Tool, dies vereinfacht den Prozess um einiges, hierzu laden wir uns die "NConvert.zip" und "rpf2fivem.zip" Ordner von der "Releases" Sektion runter:
+Für dieses Tutorial verwenden wir das Tool [rpf2fivem](https://github.com/Avenze/rpf2fivem-repository/releases/latest), das den Prozess mega vereinfacht. Lade dafür die Ordner "NConvert.zip" und "rpf2fivem.zip" aus dem Bereich "Releases" runter:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/cPpXQxMjaqJJ7PN/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/7o2JCm3SdMz5Gga/preview)
 
-Nun entpacken wir zuerst rpf2fivem in einen leeren Ordner:
+Jetzt entpacken wir zuerst rpf2fivem in einen leeren Ordner:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/fjxgM37GafpJSgR/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/czBs5E82SpPa2Px/preview)
 
-Danach öffnen wir die NConvert Zip-Datei und kopieren den "NConvert" Ordner in den gleichen Ordner:
+Dann öffnen wir die NConvert.zip und kopieren den Ordner "NConvert" in denselben Ordner:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/YSzxWqwWTmH9EqK/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/8qNGTCMLjgZNTbK/preview)
 
-
-Nun können wir die `rpf2fivem.exe` öffnen!
-
+Jetzt können wir `rpf2fivem.exe` starten!
 
 ## Mods herunterladen
 
-Um Mods über rpf2fivem zu installieren, müssen wir Direktlinks darin hinzufügen, z. B. von gta5-mods.com, hier suchen wir uns einfach den Carmod aus, den wir haben möchten und klicken auf "Download".
+Um Mods mit rpf2fivem zu installieren, müssen wir direkte Links hinzufügen, z.B. von gta5-mods.com. Dort suchst du dir einfach den Carmod aus, den du willst, und klickst auf "Download".
 
-Nun müssen wir einfach nur auf den Download Button rechts klicken und "Adresse des Links kopieren" drücken, diesen fügen wir dann links oben in rpf2fivem ein:
+Dann machst du einen Rechtsklick auf den Download-Button und wählst "Linkadresse kopieren". Diesen Link fügst du oben links in rpf2fivem ein:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/JgDNZdYHzbB7GjT/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/T6ksM4qmfodiy8s/preview)
 
-![](https://screensaver01.zap-hosting.com/index.php/s/KsJ4oJXw7f9wmyW/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/cdNmSztB69TN74T/preview)
 
-Hier können wir jetzt unseren eigenen Ressource Namen eintippen und "Add to queue" drücken.
+Hier kannst du deinem Resource-Namen einen eigenen Namen geben und auf "Add to queue" klicken.
 
-
-Falls weitere Mods heruntergeladen werden sollen, können diese einfach genauso hinzugefügt werden, es können mehrere carmods gleichzeitig installiert werden:
+Wenn du noch mehr Mods runterladen willst, kannst du sie einfach genauso hinzufügen. So kannst du mehrere Carmods gleichzeitig installieren:
 
 ## Mods konvertieren
 
-Nachdem wir uns jetzt eine Liste von Mods gemacht haben, können wir einfach den "Start" Button drücken.
+Wenn du eine Liste mit Mods hast, drückst du einfach auf den "Start"-Button.
 
 :::info
-Beachte: der `compress/downsize textures` haken sollte immer gesetzt werden, um zu verhindern, dass Carmods Texturfehler in FiveM haben.
+Tipp: Der Haken bei 'compress/downsize textures' sollte immer gesetzt sein, damit die Carmods keine Texture-Fehler in FiveM bekommen.
 :::
 
-![](https://screensaver01.zap-hosting.com/index.php/s/yx5WqG4oQRsQzCf/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/BrFZWJkMaryLrzg/preview)
 
-Jetzt werden die Carmods heruntergeladen und für FiveM vorbereitet.
+Jetzt werden die Carmods runtergeladen und für FiveM vorbereitet.
 
 ## Ressourcen hochladen
 
-Nachdem rpf2fivem fertig ist, können die Carmods im "rpf2fivem" Ordner gefunden werden:
+Wenn rpf2fivem fertig ist, findest du die Carmods im Ordner "rpf2fivem":
 
-![](https://screensaver01.zap-hosting.com/index.php/s/KTiTN89Cdx8etBt/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/yPCK5nwFa9Xscif/preview)
 
-Diese können wir jetzt einfach per [Ressourcen installieren](fivem-installresources.md), ebenfalls wird eine `servercfg.txt` angelegt, welche die Einträge enthält, um die Carmods direkt in die server.cfg einzutragen, diese Einträge können wir einfach in die server.cfg kopieren.
+Diese kannst du jetzt einfach über [Ressourcen installieren](fivem-installresources.md) hochladen. Im rpf2fivem-Ordner wird auch eine `servercfg.txt` erstellt, die alle Einträge enthält, um die Carmods direkt in die server.cfg einzufügen. Diese Einträge kannst du einfach in deine server.cfg kopieren.
 
-
-Fertig! Die Carmods sind nun auf deinem Server installiert, nach einem Neustart des Servers können diese benutzt werden.
+Fertig! Die Carmods sind jetzt auf deinem Server installiert und können nach einem Server-Neustart genutzt werden.
 
 <InlineVoucher />

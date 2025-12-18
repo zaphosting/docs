@@ -1,7 +1,7 @@
 ---
 id: minecraft-timings-report
 title: "Minecraft: Identify server problems with timings report"
-description: Information on how to identify lag problems on your Minecraft server with a timings report - ZAP-Hosting.com documentation
+description: "Discover how to analyze server performance issues using timing reports to identify lags and optimize your server → Learn more now"
 sidebar_label: Timings-Report
 services:
   - gameserver-minecraft

@@ -1,7 +1,7 @@
 ---
 id: dedicated-windows-fivem
 title: "Dedicated Server: FiveM Dedicated Server Setup"
-description: Information on how to set up a FiveM Dedicated Server on a Windows Dedicated Server from ZAP-Hosting - ZAP-Hosting.com Documentation
+description: "Discover how to set up and run your own FiveM Dedicated Server with txAdmin for seamless multiplayer gaming → Learn more now"
 sidebar_label: FiveM
 services:
   - dedicated
@@ -132,4 +132,4 @@ Please use our [Port Forwarding (Firewall)](vserver-windows-port.md) guide if yo
 You have successfully installed and configured a FiveM Dedicated Server service on your dedicated server. For further questions or assistance, please don't hesitate to contact our support team, which is available daily to assist you! 🙂
 
 
-<InlineVoucher />
+

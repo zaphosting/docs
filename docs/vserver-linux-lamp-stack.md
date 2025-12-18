@@ -1,7 +1,7 @@
 ---
 id: vserver-linux-lamp-stack
 title: "VPS: Setup LAMP stack - Linux, Apache, MySQL, PHP"
-description: Information on how to setup a LAMP (Linux, Apache, MySQL, PHP) stack on your Linux VPS from ZAP-Hosting - ZAP-Hosting.com documentation
+description: "Discover how to set up a LAMP stack for hosting dynamic PHP websites on Linux VPS efficiently → Learn more now"
 sidebar_label: Web LAMP stack
 services:
   - vserver
@@ -152,7 +152,7 @@ With the installation of each LAMP dependency now complete, we will now create a
 
 In this example, we will create a small to-do list website via PHP which will fetch and return to-do entries. This will be stored on a MySQL database table and will be served through Apache.
 
-We will also be using a test domain of `zapdocs.example.com` throughout, since in a real-world scenario you would likely utilise a domain. You **must** setup an `A` type DNS record for the domain which points at the IP Address of your server. If you require help with this, please browse our [Domain Records](domain-records.md#a-records) guide.
+We will also be using a test domain of `zapdocs.example.com` throughout, since in a real-world scenario you would likely utilise a domain. You **must** setup an `A` type DNS record for the domain which points at the IP Address of your server. If you require help with this, please browse our [Domain Records](domain-records.md) guide.
 
 :::note
 You can choose not to use a domain and replace mentions of `[your_domain]` with a regular name. You would then access the website via the IP address. However, do note that when creating the virtual host file later on, you should remove the `ServerName` parameter.
@@ -346,7 +346,7 @@ You should now be able to access the website via the domain (using `http`/port 8
 
 ## Conclusion
 
-Congratulations, you have successfully installed and setup the LAMP stack! As the next step, we **highly recommend** setting up a domain and **SSL certificate** to ensure that data is transmitted securely to your websites. Please view our [Certbot guide](vserver-linux-certbot.md#webroot-plugin) with a focus on the **Apache Plugin** and follow the interactive setup to quickly and easily setup a certificate for your chosen domain.
+Congratulations, you have successfully installed and setup the LAMP stack! As the next step, we **highly recommend** setting up a domain and **SSL certificate** to ensure that data is transmitted securely to your websites. Please view our [Certbot guide](vserver-linux-certbot.md) with a focus on the **Apache Plugin** and follow the interactive setup to quickly and easily setup a certificate for your chosen domain.
 
 For further questions or assistance, please don't hesitate to contact our support team, which is available daily to assist you! 🙂
 

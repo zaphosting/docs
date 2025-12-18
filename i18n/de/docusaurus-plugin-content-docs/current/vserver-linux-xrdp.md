@@ -1,7 +1,7 @@
 ---
 id: vserver-linux-xrdp
-title: "vServer: Installation von xRDP (Remotedesktop)"
-description: Informationen, um xRDP (Remotedesktop) auf Linux zu installieren - ZAP-Hosting.com Dokumentation
+title: "vServer: Installation von xRDP (Remote Desktop)"
+description: "Entdecke, wie du Remote-Desktop-Zugriff auf Ubuntu- und Debian-Server einrichtest für einfacheres Management und Kontrolle → Jetzt mehr erfahren"
 sidebar_label: xRDP installieren
 services:
   - vserver
@@ -11,18 +11,17 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
 
-Unter Linux gibt es in der Regel eine SSH Console, um den Server zu verwalten. In manchen Fällen kann es einfacher sein, eine Remote Desktop Verbindung zu nutzen, ähnlich wie bei Windows. 
-Eine nachträgliche Installation ist bei den meisten Linux Distributionen möglich. In dieser Anleitung wird dies für Ubuntu und Debian erklärt. 
-
-:::info
-Wichtig: Es muss mindestens Ubuntu 18.04.X LTS (Bionic Beaver) oder Debian 10 (Buster) genutzt werden als OS. Neuere Versionen sind empfehlenswert. 
-:::
-
+Auf Linux gibt es normalerweise eine Standard-SSH-Konsole zur Verwaltung des Servers. In manchen Fällen ist es aber einfacher, eine Remote-Desktop-Verbindung zu nutzen – ähnlich wie bei Windows.  
+Eine Nachinstallation ist für die meisten Linux-Distributionen möglich. In dieser Anleitung erklären wir das für Ubuntu und Debian.  
 <InlineVoucher />
 
-## Installation von xRDP
+:::info
+Wichtig: Mindestens Ubuntu 18.04.X LTS (Bionic Beaver) oder Debian 10 (Buster) müssen als OS verwendet werden. Neuere Versionen sind empfohlen. 
+:::
 
-Zuerst sollte der Server upgedatet werden: 
+## xRDP installieren
+
+Zuerst sollte der Server aktualisiert werden: 
 ```
 // Debian
 sudo apt update; sudo apt upgrade -y
@@ -40,7 +39,7 @@ sudo apt install xfce4 xfce4-goodies xorg dbus-x11 x11-xserver-utils -y
 sudo apt install ubuntu-desktop -y
 ```
 
-Anschließend kann xRDP installiert werden: 
+Dann kann xRDP installiert werden: 
 ```
 // Debian
 sudo apt install xrdp
@@ -49,7 +48,7 @@ sudo apt install xrdp
 sudo apt install xrdp
 ```
 
-Nach der Installation sollte der Status "aktive" zurückgeben: 
+Nach der Installation sollte der Status „active“ anzeigen: 
 ```
 // Debian
 sudo systemctl status xrdp
@@ -57,9 +56,9 @@ sudo systemctl status xrdp
 // Ubuntu
 sudo systemctl status xrdp
 ```
-![xrdp](https://screensaver01.zap-hosting.com/index.php/s/QNJ732f4SHATeXL/preview)
+![xrdp](https://screensaver01.zap-hosting.com/index.php/s/P3G4ztqbYjZZMGR/preview)
 
-Nachdem der Status okay ist, muss noch ein User erstellt werden. Anschließend wird der xRDP Service neu gestartet: 
+Wenn der Status passt, muss noch ein Benutzer angelegt werden. Danach den xRDP-Service neu starten: 
 ```
 // Debian
 sudo adduser xrdp ssl-cert; sudo systemctl restart xrdp
@@ -68,31 +67,30 @@ sudo adduser xrdp ssl-cert; sudo systemctl restart xrdp
 sudo adduser xrdp ssl-cert; sudo systemctl restart xrdp
 ```
 
-Nach Abschluss der Konfiguration kann man sich mit den Root oder den jeweiligen User Daten des Servers via Remote Desktop verbinden. 
-Der Standard Port lautet: 3389
+Nach der Konfiguration kannst du dich per Remote Desktop mit dem Root- oder dem jeweiligen Benutzerkonto des Servers verbinden.  
+Der Standard-Port ist: 3389
 
-## Verbindung 
+## Verbindung
 
-Die Verbindung kann über jedes RDP Tool erfolgen, verbunden wird mit IP:PORT. 
-Beim Verbinden wird man nach den Logindaten gefragt: 
+Die Verbindung kannst du mit jedem RDP-Client herstellen, verbunden mit IP:PORT.  
+Beim Verbinden wirst du nach den Login-Daten gefragt: 
 
-![xrdp2](https://screensaver01.zap-hosting.com/index.php/s/XTrAwsXajWp7kTP/preview)
+![xrdp2](https://screensaver01.zap-hosting.com/index.php/s/GHzrDz6Ct3TGDN2/preview)
 
-Nach erfolgreicher Anmeldung sieht man den Desktop. 
-Bei Ubuntu sieht es etwas anders aus als bei Debian:
+Nach erfolgreichem Login siehst du den Desktop.  
+Bei Ubuntu sieht das etwas anders aus als bei Debian:
 
 Ubuntu: 
 
-![xrdp3](https://screensaver01.zap-hosting.com/index.php/s/YjGge799SAq7n5E/preview)
+![xrdp3](https://screensaver01.zap-hosting.com/index.php/s/tgkAEyQxXnrk3Qr/preview)
 
 Debian: 
 
-![xrdp4](https://screensaver01.zap-hosting.com/index.php/s/QJ8K34xRXDgi767/preview)
+![xrdp4](https://screensaver01.zap-hosting.com/index.php/s/gtxmQcPACEZJce7/preview)
 
 
+## Fazit
 
-## Abschluss
-
-Glückwunsch, du hast XRDP erfolgreich installiert! Solltest du noch weitere Fragen oder Probleme haben, dann wende dich gerne an unser Support-Team, welches dir jeden Tag zur Verfügung steht! 
+Glückwunsch, du hast xRDP erfolgreich installiert! Falls du noch Fragen oder Probleme hast, steht dir unser Support-Team täglich zur Verfügung und hilft dir gerne weiter! 
 
 <InlineVoucher />

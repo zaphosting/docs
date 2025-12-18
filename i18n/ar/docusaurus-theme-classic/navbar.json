@@ -1,0 +1,34 @@
+{
+  "title": {
+    "message": "وثائق ZAP-Hosting",
+    "description": "The title in the navbar"
+  },
+  "logo.alt": {
+    "message": "ZAP-Hosting",
+    "description": "The alt text of navbar logo"
+  },
+  "item.label.General": {
+    "message": "سيرفرات ألعاب مخصصة",
+    "description": "Navbar item with label General"
+  },
+  "item.label.Gameserver": {
+    "message": "سيرفر ألعاب",
+    "description": "Navbar item with label Gameserver"
+  },
+  "item.label.VPS": {
+    "message": "VPS",
+    "description": "Navbar item with label VPS"
+  },
+  "item.label.Dedicated Server": {
+    "message": "سيرفر مخصص",
+    "description": "Navbar item with label Dedicated Server"
+  },
+  "item.label.Domain & Webspace": {
+    "message": "نطاق واستضافة مواقع",
+    "description": "Navbar item with label Domain & Webspace"
+  },
+  "item.label.Voicebot & Voiceserver": {
+    "message": "بوت صوتي وسيرفر صوتي",
+    "description": "Navbar item with label Voicebot & Voiceserver"
+  }
+}

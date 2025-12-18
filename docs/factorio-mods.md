@@ -1,7 +1,7 @@
 ---
 id: factorio-mods
 title: "Factorio: Installing Mods/DLCs to your Factorio server"
-description: Information on how to install mods and DLCs to your Factorio server from ZAP-Hosting - ZAP-Hosting.com documentation
+description: "Discover how to enhance your Factorio gameplay by enabling DLCs and adding mods for a customized experience → Learn more now"
 sidebar_label: Install Mods/DLCs
 services:
   - gameserver-factorio

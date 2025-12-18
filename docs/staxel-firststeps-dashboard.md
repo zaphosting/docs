@@ -1,7 +1,7 @@
 ---
 id: staxel-firststeps-dashboard
 title: "Staxel: Dashboard overview"
-description: Information about the dashboard of an Staxel server from ZAP-Hosting - ZAP-Hosting.com Documentation
+description: "Discover how to efficiently manage and optimize your Staxel server with a clear overview of all features and options → Learn more now"
 sidebar_label: Dashboard
 services:
   - gameserver-staxel

@@ -1,8 +1,8 @@
 ---
 id: vserver-iso
-title: "vServer: Eine ISO-Datei mounten"
-description: Informationen zum Mounten einer ISO-Datei auf deinem vServer von ZAP-Hosting - ZAP-Hosting.com Dokumentation
-sidebar_label: ISO mounten
+title: "VPS: ISO-Datei mounten"
+description: "Entdecke, wie du deinen VPS mit deinem Wunsch-ISO individuell anpasst und volle Kontrolle über deine Serverumgebung bekommst → Jetzt mehr erfahren"
+sidebar_label: ISO-Datei mounten
 services:
   - vserver
 ---
@@ -11,10 +11,10 @@ services:
 
 import InlineVoucher from '@site/src/components/InlineVoucher';
 import SearchableItemList from '@site/src/components/SearchableItemList/SearchableItemList';
-import items from '@site/data/lists/vserver-iso-files-de.json';
+import items from '@site/data/lists/vserver-iso-files-en.json';
 
 ## Einführung
-Lust auf noch mehr Freiheit bei der Wahl deines Systems? Neben unseren OS-Templates kannst du natürlich auch eigene ISOs mounten. Das ist ganz easy mit unseren vServer-Produkten. So holst du dir genau das Betriebssystem auf den Server, das du wirklich haben willst!
+Willst du noch mehr Freiheit bei der Wahl deines Systems? Neben unseren OS-Vorlagen kannst du natürlich auch deine eigenen ISOs mounten. Das geht super easy mit unseren VPS-Produkten. So bekommst du genau das Betriebssystem auf deinem Server, das du wirklich willst!
 
 <InlineVoucher />
 
@@ -22,14 +22,12 @@ Lust auf noch mehr Freiheit bei der Wahl deines Systems? Neben unseren OS-Templa
 
 ## Verfügbare ISO-Dateien
 
-Neben unseren vorinstallierten Standard-OS-Templates besteht zusätzlich die Möglichkeit, eigene ISO-Dateien zu mounten. Dadurch stehen dir noch mehr Optionen für die Einrichtung und Nutzung deiner Serverumgebung zur Verfügung. Unsere vServer-Produkte unterstützen derzeit folgende ISO-Dateien:
+Neben unseren vorkonfigurierten Standard-OS-Vorlagen bieten wir dir auch die Möglichkeit, zusätzliche ISO-Dateien zu mounten. Das sorgt für noch mehr Flexibilität bei der Einrichtung und Verwaltung deiner Serverumgebung. Unsere VPS-Produkte unterstützen aktuell folgende ISO-Dateien: 
 
 <SearchableItemList items={items} />
 
-
-
-:::info Fehlt dir eine ISO-Datei?
-Du vermisst eine bestimmte ISO, die du gerne nutzen würdest? Dann melde dich einfach bei unserem Support. Wir prüfen gerne, ob wir sie für dich hinzufügen können.
+:::info Fehlt eine ISO-Datei?
+Gibt es eine bestimmte ISO, die du gerne nutzen möchtest, die aber nicht verfügbar ist? Melde dich einfach bei unserem Support-Team, wir prüfen gern, ob wir sie für dich hinzufügen können.
 :::
 
 
@@ -37,25 +35,25 @@ Du vermisst eine bestimmte ISO, die du gerne nutzen würdest? Dann melde dich ei
 
 
 ## ISO-Datei mounten
-Um eine ISO zu mounten, gehst du in deiner vServer-Verwaltung einfach auf **Einstellungen → ISOs**. Dort wählst du die gewünschte ISO-Datei aus, passt anschließend die Boot-Reihenfolge an und startest den Server neu.
+Um eine ISO zu mounten, geh in dein VPS-Management-Panel und öffne **Einstellungen → ISOs**. Wähle die gewünschte ISO-Datei aus, passe die Boot-Reihenfolge an und starte deinen Server neu. 
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/tszMKbqDSa3AaLy/download)
 
-Nach dem Neustart kannst du dich über den **VNC-Client** mit deinem Server verbinden und die Installation sowie Einrichtung des Betriebssystems direkt starten.
+Nach dem Neustart kannst du dich mit dem VNC-Client mit deinem Server verbinden und mit der Installation und Konfiguration des Betriebssystems starten.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/q6WoDMq8pxn72oG/download)
 
-:::warning Kein Online-Status und keine Remote-Verbindungen nach ISO-Mount
+:::warning Online-Status oder Remote-Verbindungen nach ISO-Mount
 
-Nach dem Mounten einer ISO ist dein Server zunächst noch nicht eingerichtet. In der Verwaltung wird deshalb kein **Online-Status** angezeigt und auch **RDP-** sowie **SSH-Verbindungen** sind noch nicht verfügbar. Diese stehen dir erst nach der erfolgreichen Installation und Konfiguration des Betriebssystems zur Verfügung.
+Nach dem Mounten einer ISO ist dein Server noch nicht eingerichtet. Deshalb wird im Panel kein **Online-Status** angezeigt und **RDP** oder **SSH-Verbindungen** sind noch nicht verfügbar. Diese werden erst zugänglich, sobald das Betriebssystem erfolgreich installiert und konfiguriert wurde.
 
 :::
 
 
 
 
-## Abschluss
-Glückwunsch, du hast erfolgreich erfolgreich eine ISO Datei ausgewählt und gemountet. Für weitere Fragen oder Hilfe zögere bitte nicht, unser Support-Team zu kontaktieren, das dir täglich zur Verfügung steht! 🙂
+## Fazit
+Glückwunsch, du hast deine ISO-Datei erfolgreich ausgewählt und gemountet. Bei weiteren Fragen oder wenn du Hilfe brauchst, steht dir unser Support-Team täglich zur Seite! 🙂
 
 
 

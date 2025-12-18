@@ -1,7 +1,7 @@
 ---
 id: vserver-iso
 title: "VPS: Mount an ISO File"
-description: Information on how to mount an ISO file on your VPS from ZAP-Hosting - ZAP-Hosting.com documentation
+description: "Discover how to customize your VPS with your preferred ISO for full control over your server environment → Learn more now"
 sidebar_label: Mount ISO file
 services:
   - vserver
@@ -27,7 +27,7 @@ In addition to our preconfigured standard OS templates, we also offer the option
 <SearchableItemList items={items} />
 
 :::info Missing an ISO file?
-Is there a specific ISO you would like to use that isn’t available? Just reach out to our support team – we’ll be happy to check if we can add it for you.
+Is there a specific ISO you would like to use that isn’t available? Just reach out to our support team, we'll be happy to check if we can add it for you.
 :::
 
 

@@ -6,7 +6,7 @@
     "message": "Warum du uns testen solltest?"
   },
   "inlinevoucher.list-reasons.first": {
-    "message": "DDoS-Protection"
+    "message": "DDoS-Schutz"
   },
   "inlinevoucher.list-reasons.second": {
     "message": "Server online in Minuten"
@@ -77,11 +77,11 @@
     "description": "The default label used for the Danger admonition (:::danger)"
   },
   "theme.admonition.info": {
-    "message": "info",
+    "message": "Info",
     "description": "The default label used for the Info admonition (:::info)"
   },
   "theme.admonition.caution": {
-    "message": "caution",
+    "message": "Vorsicht",
     "description": "The default label used for the Caution admonition (:::caution)"
   },
   "theme.BackToTopButton.buttonAriaLabel": {
@@ -200,11 +200,11 @@
     "description": "Title for link to heading"
   },
   "theme.lastUpdated.atDate": {
-    "message": " am {date}",
+    "message": "am {date}",
     "description": "The words used to describe on which date a page has been last updated"
   },
   "theme.lastUpdated.byUser": {
-    "message": " von {user}",
+    "message": "von {user}",
     "description": "The words used to describe by who the page has been last updated"
   },
   "theme.lastUpdated.lastUpdatedAtBy": {
@@ -240,15 +240,15 @@
     "description": "The copy button label on code blocks"
   },
   "theme.CodeBlock.wordWrapToggle": {
-    "message": "Toggle word wrap",
+    "message": "Zeilenumbruch umschalten",
     "description": "The title attribute for toggle word wrapping button of code block lines"
   },
   "theme.DocSidebarItem.toggleCollapsedCategoryAriaLabel": {
-    "message": "Umschalten der Seitenleiste mit einklappbarer Kategorie '{label}'",
+    "message": "Seitenleiste mit einklappbarer Kategorie '{label}' umschalten",
     "description": "The ARIA label to toggle the collapsible sidebar category"
   },
   "theme.NavBar.navAriaLabel": {
-    "message": "Main",
+    "message": "Haupt",
     "description": "The ARIA label for the main navigation"
   },
   "theme.navbar.mobileLanguageDropdown.label": {
@@ -272,7 +272,7 @@
     "description": "Pluralized label for \"{readingTime} min read\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
   },
   "theme.docs.breadcrumbs.home": {
-    "message": "Home page",
+    "message": "Startseite",
     "description": "The ARIA label for the home page in the breadcrumbs"
   },
   "theme.docs.sidebar.collapseButtonTitle": {
@@ -284,11 +284,11 @@
     "description": "The title attribute for collapse button of doc sidebar"
   },
   "theme.docs.sidebar.navAriaLabel": {
-    "message": "Docs sidebar",
+    "message": "Docs-Seitenleiste",
     "description": "The ARIA label for the sidebar navigation"
   },
   "theme.docs.sidebar.closeSidebarButtonAriaLabel": {
-    "message": "Close navigation bar",
+    "message": "Navigationsleiste schließen",
     "description": "The ARIA label for close button of mobile sidebar"
   },
   "theme.navbar.mobileSidebarSecondaryMenu.backButtonLabel": {
@@ -296,7 +296,7 @@
     "description": "The label of the back button to return to main menu, inside the mobile navbar sidebar secondary menu (notably used to display the docs sidebar)"
   },
   "theme.docs.sidebar.toggleSidebarButtonAriaLabel": {
-    "message": "Toggle navigation bar",
+    "message": "Navigationsleiste umschalten",
     "description": "The ARIA label for hamburger menu button of mobile navigation"
   },
   "theme.docs.sidebar.expandButtonTitle": {
@@ -324,19 +324,19 @@
     "description": "The default label used for the Warning admonition (:::warning)"
   },
   "theme.DocSidebarItem.expandCategoryAriaLabel": {
-    "message": "Expand sidebar category '{label}'",
+    "message": "Seitenleisten-Kategorie '{label}' ausklappen",
     "description": "The ARIA label to expand the sidebar category"
   },
   "theme.DocSidebarItem.collapseCategoryAriaLabel": {
-    "message": "Collapse sidebar category '{label}'",
+    "message": "Seitenleisten-Kategorie '{label}' einklappen",
     "description": "The ARIA label to collapse the sidebar category"
   },
   "theme.unlistedContent.title": {
-    "message": "Unlisted page",
+    "message": "Nicht gelistete Seite",
     "description": "The unlisted content banner title"
   },
   "theme.unlistedContent.message": {
-    "message": "This page is unlisted. Search engines will not index it, and only users having a direct link can access it.",
+    "message": "Diese Seite ist nicht gelistet. Suchmaschinen werden sie nicht indexieren, und nur Benutzer mit einem direkten Link können darauf zugreifen.",
     "description": "The unlisted content banner message"
   },
   "theme.PwaReloadPopup.info": {
@@ -360,7 +360,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.vserver.title": {
-    "message": "VPS",
+    "message": "vServer",
     "description": "Product name for the gameserver product"
   },
   "service.vserver.path": {
@@ -408,7 +408,7 @@
     "description": "URL path for the voicebot product"
   },
   "service.storage.title": {
-    "message": "Premium Storage",
+    "message": "Premium-Speicher",
     "description": "Product name for the storage product"
   },
   "service.storage.path": {
@@ -420,7 +420,7 @@
     "description": "The title of the page for a blog author"
   },
   "theme.blog.authorsList.pageTitle": {
-    "message": "Authoren",
+    "message": "Autoren",
     "description": "The title of the authors page"
   },
   "theme.blog.authorsList.viewAll": {
@@ -428,19 +428,19 @@
     "description": "The label of the link targeting the blog authors page"
   },
   "theme.contentVisibility.unlistedBanner.title": {
-    "message": "Unlisted page",
+    "message": "Nicht gelistete Seite",
     "description": "The unlisted content banner title"
   },
   "theme.contentVisibility.unlistedBanner.message": {
-    "message": "This page is unlisted. Search engines will not index it, and only users having a direct link can access it.",
+    "message": "Diese Seite ist nicht gelistet. Suchmaschinen werden sie nicht indexieren, und nur Benutzer mit einem direkten Link können darauf zugreifen.",
     "description": "The unlisted content banner message"
   },
   "theme.contentVisibility.draftBanner.title": {
-    "message": "Draft page",
+    "message": "Entwurf Seite",
     "description": "The draft content banner title"
   },
   "theme.contentVisibility.draftBanner.message": {
-    "message": "This page is a draft. It will only be visible in dev and be excluded from the production build.",
+    "message": "Diese Seite ist ein Entwurf. Sie ist nur in der Entwicklung sichtbar und wird vom Produktions-Build ausgeschlossen.",
     "description": "The draft content banner message"
   },
   "contributors.title": {
@@ -450,15 +450,15 @@
     "message": "Werde noch heute Teil der ZAP-Hosting-Community! Tritt unserem {contributionLink} bei, um dein Wissen und deine Expertise zu teilen, indem du hochwertige Anleitungen und kreative Inhalte erstellst und gleichzeitig wertvolle Belohnungen (bis zu 130€) erhältst. Fange noch heute an und bewirke etwas! 🙂"
   },
   "theme.blog.author.noPosts": {
-    "message": "This author has not written any posts yet.",
+    "message": "Dieser Autor hat noch keine Beiträge geschrieben.",
     "description": "The text for authors with 0 blog post"
   },
   "service.fivemupvotes.title": {
-    "message": "Discord Bot",
+    "message": "FiveM Upvotes",
     "description": "Product name for the storage product"
   },
   "service.fivemupvotes.path": {
-    "message": "{marketingSite}/{language}/shop/product/cloud-gameserver/discord-bot/",
+    "message": "{marketingSite}/{language}/shop/product/fivem-upvotes/",
     "description": "URL path for the storage product"
   },
   "service.fivemupvotesburst.title": {
@@ -466,15 +466,15 @@
     "description": "Product name for the storage product"
   },
   "theme.colorToggle.ariaLabel.mode.system": {
-    "message": "system mode",
+    "message": "Systemmodus",
     "description": "The name for the system color mode"
   },
   "theme.navbar.mobileDropdown.collapseButton.expandAriaLabel": {
-    "message": "Expand the dropdown",
+    "message": "Dropdown ausklappen",
     "description": "The ARIA label of the button to expand the mobile dropdown navbar item"
   },
   "theme.navbar.mobileDropdown.collapseButton.collapseAriaLabel": {
-    "message": "Collapse the dropdown",
+    "message": "Dropdown einklappen",
     "description": "The ARIA label of the button to collapse the mobile dropdown navbar item"
   },
   "accordion.search.placeholder": {
@@ -1536,8 +1536,12 @@
   "service.gameserver-voyagers-of-nera.path": {
     "message": "{marketingSite}/{language}/voyagers-of-nera-server-hosting/",
     "description": "URL path for the gameserver product"
-   },
+  },
   "footer.cookieSettings": {
     "message": "Cookie Einstellungen"
+  },
+  "theme.IconExternalLink.ariaLabel": {
+    "message": "(öffnet in neuem Tab)",
+    "description": "The ARIA label for the external link icon"
   }
 }

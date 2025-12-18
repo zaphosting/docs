@@ -1,7 +1,7 @@
 ---
 id: account-vouchers
 title: "Vouchers & Coupon Codes: Save money with vouchers"
-description: Information on how to redeem vouchers for money or a price reduction for servers - ZAP-Hosting.com documentation
+description: "Discover how to redeem voucher and discount codes to add ZAP Coins or save on server orders → Learn more now"
 sidebar_label: Coupons & Codes
 ---
 

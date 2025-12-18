@@ -1,7 +1,7 @@
 ---
 id: dedicated-windows-fs-25
 title: "Dedicated Server: Farming Simulator 2025 Dedicated Server Windows Setup"
-description: Information about setting up a Farming Simulator 2025 Dedicated Server on a Windows Dedicated Server from ZAP-Hosting - ZAP-Hosting.com documentation
+description: "Discover how to set up a Farming Simulator 2025 dedicated server on Windows to host multiplayer games smoothly → Learn more now"
 sidebar_label: Farming Simulator 2025
 services:
   - dedicated
@@ -13,7 +13,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Do you have a Windows Dedicated Server and you want to install the Farming Simulator Dedicated Server 2025 service on it? You are in the right place. In this guide, we will explain the step by step process of installing this service on your server.
 
-<InlineVoucher />
+
 
 ## Preparation
 
@@ -32,7 +32,7 @@ You cannot use the same license key as the one you are playing the game on, ther
 :::info Steam Game License
 It is possible to use a Steam game license to host your dedicated server, however this can be very inconvenient as it would mean that you are forced to run the Steam client at all times in the background. This will also mean that you cannot play any other game on any other system using the same Steam account due to the limitations of Steam. Therefore, we highly recommend you purchase a standalone key directly on the website instead to avoid this hassle.
 
-However, if you do plan to use a **Steam** license, you should instead install the files through Steam as usual and skip to the [**Dedicated Server Setup**](#dedicated-server-setup) section of the guide.
+However, if you do plan to use a **Steam** license, you should instead install the files through Steam as usual and skip to the **Dedicated Server Setup** section of the guide.
 :::
 
 Once you have purchased a digital version from the website, you will receive a product code via the email address that you provided during checkout. You will need this license key in the following section to access the game download and also to validate your dedicated server during setup.
@@ -164,4 +164,4 @@ Upon success, the server should start booting and you can confirm this through t
 
 Congratulations, you have successfully installed and configured the Farming Simulator 2025 dedicated server on your Dedicated Server! If you have any further questions or problems, please contact our support team, who are available to help you every day!
 
-<InlineVoucher />
+

@@ -1,8 +1,8 @@
 ---
 id: hl2-plugins
 title: "Half-Life 2: Plugins auf deinem eigenen Server installieren"
-description: "Informationen zur Installation von Plugins auf deinem Half-Life 2 Server von ZAP-Hosting ZAP-Hosting.com Dokumentation"
-sidebar_label: "Plugins installieren"
+description: "Entdecke, wie du deinen Gameserver mit Sourcemod und Metamod anpassen und erweitern kannst für bessere Verwaltung und Features → Jetzt mehr erfahren"
+sidebar_label: Plugins installieren
 services:
   - gameserver-hl2
 ---
@@ -11,11 +11,12 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 import SearchableItemList from '@site/src/components/SearchableItemList/SearchableItemList';
 import items from '@site/data/lists/hl2-plugins.json';
 
-## Einleitung
 
-Erfahre, wie du Sourcemod und Metamod installierst und wie du Plugins für deinen Server verwendest. Beide Erweiterungen ermöglichen es dir, Spiele wie CS:S, CS:GO, DoD:S oder TF2 anzupassen und die verfügbaren Optionen für die Serververwaltung deutlich zu erweitern. 
+## Einführung
 
-Mit Sourcemod und Metamod kannst du Plugins hinzufügen, besondere Funktionen aktivieren und deinen Server genau an deine Vorstellungen anpassen.
+Lerne, wie du Sourcemod und Metamod installierst und Plugins auf deinem Server nutzt. Beide Erweiterungen ermöglichen es dir, Games wie CS:S, CS:GO, DoD:S oder TF2 anzupassen und die verfügbaren Verwaltungsoptionen für deinen Gameserver deutlich zu erweitern.
+
+Mit Sourcemod und Metamod kannst du Plugins hinzufügen, spezielle Features aktivieren und deinen Server genau nach deinen Wünschen gestalten.
 
 <InlineVoucher />
 
@@ -25,19 +26,19 @@ Mit Sourcemod und Metamod kannst du Plugins hinzufügen, besondere Funktionen ak
 
 ### Vorbereitung
 
-Die erforderlichen Erweiterungen können von [Sourcemod](https://sourcemod.net/) und [Metamod](https://www.sourcemm.net/downloads.php?branch=stable) heruntergeladen werden. Verwende immer die neuesten **stabilen** Versionen, um volle Funktionalität und Kompatibilität sicherzustellen.
+Die benötigten Erweiterungen kannst du von [Sourcemod](https://sourcemod.net/) und [Metamod](https://www.sourcemm.net/downloads.php?branch=stable) herunterladen. Nutze immer die aktuellsten **stabilen** Versionen, um volle Funktionalität und Kompatibilität sicherzustellen.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/STp7pRgjYS4c4yg/preview)
 
-Du benötigst die Linux Pakete **Sourcemod** und **Metamod**. Lade diese von den angegebenen Quellen herunter. Nach dem Download solltest du zwei komprimierte Dateien haben. Entpacke diese auf deinem Computer, sodass ein addons Verzeichnis mit den Ordnern `sourcemod` und `metamod` entsteht.
+Du brauchst die Linux-Pakete **Sourcemod** und **Metamod**. Lade sie von den angegebenen Quellen herunter. Nach dem Download solltest du zwei komprimierte Dateien haben. Entpacke sie auf deinem Rechner, sodass du ein addons-Verzeichnis mit den Ordnern `sourcemod` und `metamod` erhältst.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/WbxyRK8FM7GKxqt/preview)
 
 ### Installation
 
-Sobald die oben genannten Schritte abgeschlossen sind, kannst du mit der Installation fortfahren. Lade die Dateien per FTP mit einem FTP Client auf deinen Server hoch. Falls du mit FTP und der Funktionsweise nicht vertraut bist, nutze folgende Anleitung: [Zugriff per FTP](gameserver-ftpaccess.md)
+Wenn du die obigen Schritte abgeschlossen hast, kannst du mit der Installation starten. Lade die Dateien per FTP mit einem FTP-Client auf deinen Server hoch. Falls du FTP noch nicht kennst oder nicht weißt, wie das funktioniert, schau dir unsere Anleitung an: [Zugriff via FTP](gameserver-ftpaccess.md)
 
-Lade anschließend den Ordner **addons** in das Hauptverzeichnis deines Servers hoch. Die Ordnerstruktur sollte dann wie folgt aussehen:
+Lade anschließend den **addons**-Ordner in das Hauptverzeichnis deines Servers hoch. Die Ordnerstruktur sollte dann so aussehen:
 
 ```
 /gxxxxxx/dods/dod/addons
@@ -45,7 +46,7 @@ Lade anschließend den Ordner **addons** in das Hauptverzeichnis deines Servers 
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/JzWxPT3yP4zAsHz/preview)
 
-Die Einrichtung von **Sourcemod** und **Metamod** ist nun abgeschlossen. Du kannst dich im Spiel mit deinem Server verbinden und in der Konsole den Befehl ``sm version`` verwenden, um zu prüfen, ob Sourcemod und Metamod erfolgreich installiert wurden. Die Ausgabe sollte wie folgt aussehen:
+Die Einrichtung von **Sourcemod** und **Metamod** ist jetzt abgeschlossen. Verbinde dich im Spiel mit deinem Server und nutze den Konsolenbefehl ``sm version``, um zu prüfen, ob Sourcemod und Metamod erfolgreich installiert wurden. Die Ausgabe sollte so aussehen:
 
 ```
 SourceMod Version Information:
@@ -68,19 +69,19 @@ Metamod:Source version 1.10.7-dev
          http://www.metamodsource.net/
 ```
 
-Wenn die Meldung **Unknown command** angezeigt wird, ist bei der Installation etwas schiefgelaufen. 
+Wenn die Meldung **Unknown command** erscheint, ist bei der Installation etwas schiefgelaufen.
 
 
 
-## Plugin Installation
+## Plugins Installation
 
 ### Vorbereitung
 
-Sobald Sourcemod und Metamod installiert sind und korrekt funktionieren, kannst du mit dem Hinzufügen von Plugins beginnen. Lade die Plugins, die du auf deinem Server installieren möchtest, von [Sourcemod](https://sourcemod.net/) herunter. Dort findest du eine große und stetig wachsende Sammlung, die über die Jahre veröffentlicht wurde. Achte bei jedem Plugin darauf, die zugehörige .smx Datei zu erhalten.
+Sobald Sourcemod und Metamod installiert und funktionsfähig sind, kannst du mit dem Hinzufügen von Plugins starten. Lade die Plugins, die du auf deinem Server installieren möchtest, von [Sourcemod](https://sourcemod.net/) herunter. Dort findest du eine große und stetig wachsende Sammlung, die über die Jahre veröffentlicht wurde. Für jedes Plugin solltest du die entsprechende .smx-Datei besorgen.
 
 ### Installation
 
-Nachdem du die gewünschten Plugins heruntergeladen hast, kannst du mit der Installation fortfahren. Dies erfolgt per FTP, indem du die Plugin Dateien in folgendes Verzeichnis hochlädst:
+Nachdem du die gewünschten Plugins heruntergeladen hast, kannst du mit der Installation beginnen. Lade die Plugin-Dateien per FTP in folgendes Verzeichnis hoch:
 
 ```
 ../addons/sourcemod/plugins/
@@ -90,14 +91,14 @@ Nachdem du die gewünschten Plugins heruntergeladen hast, kannst du mit der Inst
 ![img](https://screensaver01.zap-hosting.com/index.php/s/A6E4cQCwQnoqTKc/preview)
 
 
+
 ## Beliebte Plugins
-
-Noch auf der Suche nach den perfekten Plugins für deinen Server? Durchstöbere unsere sorgfältig zusammengestellte Liste mit den beliebtesten und am häufigsten empfohlenen Plugins, um dein Spielerlebnis zu erweitern und deinem Server den letzten Feinschliff zu geben. Lass dich inspirieren und finde genau die Erweiterungen, die zu deinem Projekt passen.
-
+Du suchst noch die perfekten Plugins für deinen Server? Stöbere durch unsere sorgfältig kuratierte Liste der beliebtesten und am meisten empfohlenen Plugins, um dein Gameplay zu verbessern und deinem Server den letzten Schliff zu geben. Lass dich inspirieren und finde genau die Addons, die zu deinem Projekt passen.
 <SearchableItemList items={items} />
 
-## Abschluss
 
-Wenn du alle Schritte befolgt hast, solltest du Sourcemod/Metamod und deine gewünschten Plugins erfolgreich installiert haben. Für weitere Fragen oder Hilfe zögere bitte nicht, unser Support-Team zu kontaktieren, das dir täglich zur Verfügung steht! 🙂
+## Fazit
+
+Wenn du alle Schritte befolgt hast, solltest du Sourcemod/Metamod und deine gewünschten Plugins erfolgreich installiert haben. Bei weiteren Fragen oder wenn du Hilfe brauchst, steht dir unser Support-Team täglich zur Verfügung! 🙂 
 
 <InlineVoucher />

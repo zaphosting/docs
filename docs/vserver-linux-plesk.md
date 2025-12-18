@@ -1,7 +1,7 @@
 ---
 id: vserver-linux-plesk
 title: "VPS: Installation of Plesk"
-description: Information on how to install Plesk on your Linux VPS from ZAP-Hosting - ZAP-Hosting.com documentation
+description: "Discover how to manage websites and servers efficiently with Plesk for beginners and experts alike → Learn more now"
 sidebar_label: Install Plesk
 services:
   - vserver

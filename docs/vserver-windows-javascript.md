@@ -1,7 +1,7 @@
 ---
 id: vserver-windows-javascript
 title: 'VPS: Installation of JavaScript'
-description: Information on how to install and run JavaScript on your Windows server from ZAP-Hosting.com - ZAP-Hosting.com documentation
+description: "Discover how to install Node.js, Deno, and Bun on Windows to set up your JavaScript runtime environment efficiently → Learn more now"
 sidebar_label: Install JavaScript
 services:
   - vserver
@@ -69,7 +69,7 @@ Once finished, you can simply press `Finish` on the final page and start using N
 
 ### Update Node.js to latest version
 
-Running `node -v` will show you the installed version of Node.js. From time to time, you should check that you're running the latest LTS version. To update Node.js, you need to follow the provided [install section](vserver-windows-javascript.md#installing-nodejs-runtime) again.
+Running `node -v` will show you the installed version of Node.js. From time to time, you should check that you're running the latest LTS version. To update Node.js, you need to follow the provided [install section](vserver-windows-javascript.md) again.
 
 ### Running Node.js & npm
 

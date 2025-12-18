@@ -1,7 +1,7 @@
 ---
 id: fivem-qbcore-spawnpoints
-title: "FiveM: Verwalten und Anpassen von Spawnpoints mit QbCore"
-description: Verwalten und Anpassen von Spawnpoints mit QbCore bei deinem FiveM Server von ZAP-Hosting - ZAP-Hosting.com Dokumentation
+title: "FiveM: Spawnpoints mit QbCore verwalten und anpassen"
+description: "Entdecke, wie du Spawnpunkte im QBCore Framework anpassen und hinzufügen kannst für ein besseres Spielerlebnis → Jetzt mehr erfahren"
 sidebar_label: Spawnpoints
 services:
   - gameserver-fivem
@@ -11,22 +11,22 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
 
-Möchtest du die Standard-Spawnpoints ändern oder zusätzliche hinzufügen? Die Verwaltung von Spawnpoints im **QBCore-Framework** wird über die Ressource `qb-spawn` definiert. Im Folgenden wird erklärt, wie du diese anpassen kannst. 
+Du willst die Standard-Spawnpoints ändern oder neue hinzufügen? Die Verwaltung der Spawnpoints im **QBCore Framework** läuft über die `qb-spawn` Resource. Im Folgenden erfährst du, wie du diese anpassen kannst.
 
 <InlineVoucher />
 
 ## Konfiguration
 
-Die Spawnpunkte werden über die `config.lua` Konfigurationsdatei der `qb-spawn` Ressource eingestellt. Diese Datei kann per FTP bearbeitet werden. Wenn du noch nicht weißt, wie man FTP benutzt, empfehlen wir dir einen Blick in die [FTP access](gameserver-ftpaccess.md) Anleitung zu werfen. 
+Die Spawnpunkte werden über die `config.lua` Konfigurationsdatei der `qb-spawn` Resource eingestellt. Diese Datei kannst du per FTP bearbeiten. Falls du noch nicht weißt, wie FTP funktioniert, empfehlen wir dir einen Blick in unsere [FTP-Zugang](gameserver-ftpaccess.md) Anleitung.
 
-Die Standardkonfiguration der Spawnpunkte sieht wie folgt aus: 
+Die Standard-Konfiguration der Spawnpunkte sieht so aus:
 
 ```
 QB.Spawns = {
-    ["legion"] = { -- Index for the table
-        coords = vector4(195.17, -933.77, 29.7, 144.5), -- Where player spawns
-        location = "legion", -- this is how the javascript knows which you picked
-        label = "Legion Square", -- What the player sees in the menu
+    ["legion"] = { -- Index für die Tabelle
+        coords = vector4(195.17, -933.77, 29.7, 144.5), -- Wo der Spieler spawnt
+        location = "legion", -- So weiß das Javascript, welchen Spawn du gewählt hast
+        label = "Legion Square", -- Was der Spieler im Menü sieht
     },
 
     ["policedp"] = {
@@ -48,28 +48,29 @@ QB.Spawns = {
     },
 ```
 
-Angenommen, du möchtest weitere Spawnpoints hinzufügen, dann müsstest du einen weiteren Eintrag in die Konfigurationsdatei hinzufügen: 
+Angenommen, du möchtest weitere Spawnpunkte hinzufügen, dann musst du einfach einen weiteren Eintrag in der Konfigurationsdatei ergänzen:
 
 ```
-["new_spawn_name"] = { -- Needs to be unique
-    coords = vector4(1.1, -1.1, 1.1, 180.0), -- Coords player will be spawned
-    location = "new_spawn_name", -- Needs to be unique
-    label = "New spawn name", -- This is the label which will show up in selection menu.
+["new_spawn_name"] = { -- Muss einzigartig sein
+    coords = vector4(1.1, -1.1, 1.1, 180.0), -- Koordinaten, an denen der Spieler spawnt
+    location = "new_spawn_name", -- Muss einzigartig sein
+    label = "New spawn name", -- Das Label, das im Auswahlmenü angezeigt wird
 },
 ```
 
 :::info Koordinaten bestimmen
-Um die aktuellen Koordinaten zu erhalten, wird eine passende Ressource benötigt. Im Internet findest du mehrere zur Auswahl und kannst entscheiden, welche dir am besten passt :)
+Du brauchst eine passende Resource, um die aktuellen Koordinaten zu ermitteln. Im Internet findest du mehrere Tools, such dir einfach das aus, das dir am besten passt. :)
 :::
 
-Das Endergebnis würde dann folgendermaßen aussehen: 
+Das Endergebnis sieht dann so aus:
+
 ```
     QB.Spawns = {
     
-        ["legion"] = { -- Index for the table
-            coords = vector4(195.17, -933.77, 29.7, 144.5), -- Where player spawns
-            location = "legion", -- this is how the javascript knows which you picked
-            label = "Legion Square", -- What the player sees in the menu
+        ["legion"] = { -- Index für die Tabelle
+            coords = vector4(195.17, -933.77, 29.7, 144.5), -- Wo der Spieler spawnt
+            location = "legion", -- So weiß das Javascript, welchen Spawn du gewählt hast
+            label = "Legion Square", -- Was der Spieler im Menü sieht
         },
     
         ["policedp"] = {
@@ -90,10 +91,10 @@ Das Endergebnis würde dann folgendermaßen aussehen:
             label = "Motels",
         },
         
-        ["new_spawn_name"] = { -- Needs to be unique
-        coords = vector4(1.1, -1.1, 1.1, 180.0), -- Coords player will be spawned
-        location = "new_spawn_name", -- Needs to be unique
-        label = "New spawn name", -- This is the label which will show up in selection menu.
+        ["new_spawn_name"] = { -- Muss einzigartig sein
+        coords = vector4(1.1, -1.1, 1.1, 180.0), -- Koordinaten, an denen der Spieler spawnt
+        location = "new_spawn_name", -- Muss einzigartig sein
+        label = "New spawn name", -- Das Label, das im Auswahlmenü angezeigt wird
          },
     }
 ```
@@ -101,9 +102,8 @@ Das Endergebnis würde dann folgendermaßen aussehen:
 
 
 
-## Abschluss
+## Fazit
 
-Mit dieser Methode hast du erfolgreich bestehende Spawnpoints geändert oder neue hinzugefügt. Für weitere Fragen oder Hilfe zögere bitte nicht, unser Support-Team zu kontaktieren, das dir täglich zur Verfügung steht! 🙂
-
+Du hast erfolgreich bestehende Spawnpoints geändert oder neue hinzugefügt, indem du dieser Methode gefolgt bist. Bei weiteren Fragen oder wenn du Hilfe brauchst, steht dir unser Support-Team täglich zur Seite! 🙂
 
 <InlineVoucher />

@@ -1,7 +1,7 @@
 ---
 id: astroneer-troubleshooting-common-issues
 title: "ASTRONEER: Common issues"
-description: "Information on how to resolve common issues on a ASTRONEER server from ZAP-Hosting - ZAP-Hosting.com documentation"
+description: "Discover how to troubleshoot and resolve common ASTRONEER server issues for a smooth gaming experience → Learn more now"
 sidebar_label: Common issues
 services:
   - gameserver-astroneer

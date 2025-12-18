@@ -1,7 +1,7 @@
 ---
 id: dst-firststeps-dashboard
 title: "Don't Starve Together: Dashboard Overview"
-description: Information about the dashboard of an Don't Starve Together server from ZAP-Hosting - ZAP-Hosting.com Documentation
+description: "Discover how to efficiently manage your Don't Starve Together server and optimize its settings for the best gaming experience → Learn more now"
 sidebar_label: Dashboard
 services:
   - gameserver-dst

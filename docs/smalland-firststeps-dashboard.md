@@ -1,7 +1,7 @@
 ---
 id: smalland-firststeps-dashboard
 title: "Smalland: Survive the Wilds: Dashboard overview"
-description: "Information about the dashboard of an Smalland: Survive the Wilds server from ZAP-Hosting - ZAP-Hosting.com Documentation"
+description: "Discover how to efficiently manage and optimize your Smalland: Survive the Wilds server for the best gaming experience → Learn more now"
 sidebar_label: Dashboard
 services:
   - gameserver

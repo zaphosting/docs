@@ -1,7 +1,7 @@
 ---
 id: ddracenetwork-troubleshooting-common-issues
 title: "DDraceNetwork: Common issues"
-description: "Information on how to resolve common issues on a DDraceNetwork server from ZAP-Hosting - ZAP-Hosting.com documentation"
+description: "Discover how to troubleshoot and resolve common DDraceNetwork server issues for smooth gameplay and reliable performance → Learn more now"
 sidebar_label: Common issues
 services:
   - gameserver-ddracenetwork

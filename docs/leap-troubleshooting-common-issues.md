@@ -1,7 +1,7 @@
 ---
 id: leap-troubleshooting-common-issues
 title: "Leap: Common issues"
-description: "Information on how to resolve common issues on a Leap server from ZAP-Hosting - ZAP-Hosting.com documentation"
+description: "Discover how to troubleshoot and resolve common Leap game server issues for a smooth gaming experience → Learn more now"
 sidebar_label: Common issues
 services:
   - gameserver-leap

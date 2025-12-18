@@ -1,7 +1,7 @@
 ---
 id: dst-create-cave
 title: "Don't Starve Together: Creating caves on servers"
-description: Information on how to create and use caves on servers for Don't Starve Together - ZAP-Hosting.com documentation
+description: "Discover how to set up master and slave servers for caves in Don't Starve Together to enhance gameplay experience → Learn more now"
 sidebar_label: Create Caves
 services:
   - gameserver-dst
@@ -76,7 +76,7 @@ shard_enabled = true
 is_master = false
 bind_ip = SLAVEIP
 master_ip = MASTERIP
-name = Cave
+name = Caves
 id=200
 ```
 
@@ -88,7 +88,7 @@ shard_enabled = true
 is_master = false
 master_ip = MASTERIP
 master_port = 27002
-shard_name = Cave
+shard_name = Caves
 cluster_key = deinclusterkey
 ```
 
@@ -97,7 +97,7 @@ cluster_key = deinclusterkey
 If all configs have been set correctly, a new world must be generated for the slave server. A new file is required so that the caves are created correctly.
 
 Use the [Access via FTP](gameserver-ftpaccess.md) guide to navigate to the slave server in the directory: */starve/Save/Cluster_1/Master/*
-A new file with the name  "*worldgenoverwrite.lua*" is now created in this directory.
+A new file with the name  "*worldgenoverride.lua*" is now created in this directory.
 This file is filled with the following content.
 
 ```

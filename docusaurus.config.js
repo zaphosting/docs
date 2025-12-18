@@ -24,9 +24,15 @@ const config = {
   projectName: 'docs', // Usually your repo name.
   
   onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'throw',
   onDuplicateRoutes: 'throw',
-  onBrokenAnchors: 'throw',
+  onBrokenAnchors: 'warn',
+ 
+
+  markdown: {
+    hooks: {
+      onBrokenMarkdownLinks: 'throw',
+    },
+  },
 
   customFields: {
     marketingSite: 'https://zap-hosting.com',
@@ -37,17 +43,58 @@ const config = {
   // to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: 'en',
-    locales: ['en', 'de'],
+    locales: ['en', 'de', 'es', 'fr', 'ar', 'pt', 'th', 'pl', 'ja', 'sv', 'it', 'nl'],
     localeConfigs: {
-      en: {
-        label: 'EN',
-        htmlLang: 'en-US',
-      },
-      de: {
-        label: 'DE',
-        htmlLang: 'de-DE',
-      },
+    ar: {
+      direction: 'rtl',
+      label: 'العربية',
+      htmlLang: 'ar',
     },
+    de: {
+      label: 'Deutsch',
+      htmlLang: 'de-DE',
+    },
+    en: {
+      label: 'English',
+      htmlLang: 'en-US',
+    },
+    es: {
+      label: 'Español',
+      htmlLang: 'es-ES',
+    },
+    fr: {
+      label: 'Français',
+      htmlLang: 'fr-FR',
+    },
+    ja: {
+      label: '日本語',
+      htmlLang: 'ja-JP',
+    },
+    pl: {
+      label: 'Polski',
+      htmlLang: 'pl-PL',
+    },
+    pt: {
+      label: 'Português',
+      htmlLang: 'pt-PT',
+    },
+    th: {
+      label: 'ไทย',
+      htmlLang: 'th-TH',
+    },
+    sv: {
+      label: 'Svenska',
+      htmlLang: 'sv-SV',
+    },
+    it: {
+      label: 'Italiano',
+      htmlLang: 'it-IT',
+    },
+    nl: {
+      label: 'Nederlands',
+      htmlLang: 'nl-NL',
+    },
+  },    
   },
   plugins: [
     [
@@ -148,6 +195,9 @@ const config = {
           },
           {
             to: '/docs/vserver-dedicated-comparison', from: '/docs/vserver-root-difference',
+          },
+          {
+            to: '/docs/welcome', from: '/docs/firststeps-rent-contractorprepaid',
           }
         ],
       },
@@ -196,7 +246,7 @@ const config = {
     image: undefined,
     docs: {
       sidebar: {
-        hideable: true,
+        hideable: false,
         autoCollapseCategories: true,
       },
     },
@@ -252,6 +302,17 @@ const config = {
           value: (() => {
             switch (process.env.DOCUSAURUS_CURRENT_LOCALE) {
               case "de": return '<a href="https://zap-hosting.com/de/server-mieten/">Server mieten</a>';
+              case "en": return '<a href="https://zap-hosting.com/en/server-hosting/">Rent a server</a>';
+              case "es": return '<a href="https://zap-hosting.com/en/server-hosting/">Alquilar servidor</a>';
+              case "fr": return '<a href="https://zap-hosting.com/en/server-hosting/">Louer un serveur</a>';
+              case "ar": return '<a href="https://zap-hosting.com/en/server-hosting/">استئجار خادم</a>';
+              case "pt": return '<a href="https://zap-hosting.com/en/server-hosting/">Alugar servidor</a>';
+              case "th": return '<a href="https://zap-hosting.com/en/server-hosting/">เช่าเซิร์ฟเวอร์</a>';
+              case "pl": return '<a href="https://zap-hosting.com/en/server-hosting/">Wynajmij serwer</a>';
+              case "ja": return '<a href="https://zap-hosting.com/en/server-hosting/">サーバーをレンタル</a>';
+              case "sv": return '<a href="https://zap-hosting.com/en/server-hosting/">Hyr en server</a>';
+              case "it": return '<a href="https://zap-hosting.com/en/server-hosting/">Noleggia un server </a>';
+              case "nl": return '<a href="https://zap-hosting.com/en/server-hosting/">Huur een server</a>';
               default: return '<a href="https://zap-hosting.com/en/server-hosting/">Rent a server</a>';
             }
           })(),

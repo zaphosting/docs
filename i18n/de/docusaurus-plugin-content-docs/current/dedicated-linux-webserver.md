@@ -1,7 +1,7 @@
 ---
 id: dedicated-linux-webserver
-title: "Dedicated Server: Installation eines Webservers"
-description: Informationen wie du Nginx und Apache Webserver auf deinen Linx Dedicated Server von ZAP-Hosting installieren kannst - ZAP-Hosting.com Dokumentation
+title: "Dedicated Server: Installation von Nginx und Apache Webserver"
+description: "Entdecke, wie du Nginx oder Apache Webserver einrichtest und konfigurierst, um deine Website effizient zu hosten → Jetzt mehr erfahren"
 sidebar_label: Webserver installieren
 services:
   - dedicated
@@ -11,15 +11,15 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
 
-Nginx und Apache sind beliebte Webserver, die verwendet werden, um Webseiten an den Browser eines Benutzers zu übermitteln. Im Folgenden zeigen wir dir, wie du einen der Dienste auf deinem System installieren kannst. 
+Nginx und Apache sind beliebte Webservices, die genutzt werden, um Webseiten an den Browser eines Nutzers auszuliefern. Unten zeigen wir dir, wie du einen der Services auf deinem System installierst.
 
-<InlineVoucher />
+
 
 ## Vorbereitung
 
-Bevor die eigentliche Installation eines Webservers begonnen werden kann, muss sichergestellt werden, dass das System auf dem neusten Stand ist. Dafür verbinden wir uns per SSH mit dem Server. Falls du nicht weißt, was SSH ist und wie du es verwendest, dann schaue dir folgende Anleitung an: [Erstzugriff (SSH)](vserver-linux-ssh.md)
+Bevor die eigentliche Installation eines Webservers starten kann, muss sichergestellt werden, dass das System auf dem neuesten Stand ist. Dafür verbinden wir uns per SSH mit dem Server. Falls du nicht weißt, was SSH ist und wie man es nutzt, schau dir unsere Anleitung an: [Erstzugang (SSH)](vserver-linux-ssh.md).
 
-Dort angekommen kann das System je nach Betriebssystem mit dem folgenden Befehl aktualisiert werden:
+Dort kannst du das System je nach Betriebssystem mit folgendem Befehl updaten:
 
 ```
 // Debian
@@ -42,7 +42,7 @@ sudo dnf upgrade --refresh
 
 ## Installation
 
-Nachdem die Vorbereitung abgeschlossen wurde, kann nun mit der Installation des Webservers begonnen werden. Je nach Betriebssystem und Webserver müssen dafür folgende Befehle ausgeführt werden:
+Nachdem die Vorbereitung abgeschlossen ist, kann die Installation des Webservers starten. Je nach Betriebssystem und Webserver müssen folgende Befehle ausgeführt werden:
 
 
 
@@ -65,7 +65,7 @@ sudo zypper install httpd
 sudo dnf install httpd
 ```
 
-Nach dem Installieren des Webservers können die Dateien deiner Website hochgeladen werden. Verbinde dich dazu per FTP/SFTP mit deinem Server, navigiere in das folgende Verzeichnis und lade die Dateien hoch.
+Nach der Installation des Webservers kannst du die Dateien deiner Website hochladen. Verbinde dich per FTP/SFTP mit deinem Server, navigiere in folgendes Verzeichnis und lade die Dateien hoch.
 
 ```
 /var/www/html/
@@ -92,7 +92,7 @@ sudo zypper install nginx
 sudo dnf install nginx
 ```
 
-Nach dem Installieren des Webservers können die Dateien deiner Website hochgeladen werden. Verbinde dich dazu per FTP/SFTP mit deinem Server, navigiere in das folgende Verzeichnis und lade die Dateien hoch.
+Nach der Installation des Webservers kannst du die Dateien deiner Website hochladen. Verbinde dich per FTP/SFTP mit deinem Server, navigiere in folgendes Verzeichnis und lade die Dateien hoch.
 
 ```
 /usr/share/nginx/html
@@ -100,9 +100,9 @@ Nach dem Installieren des Webservers können die Dateien deiner Website hochgela
 
 
 
-## Version-Check
+## Versions-Check
 
-Nachdem die Installation abgeschlossen wurde, kannst du mit den Befehlen  `apache2 -v` (Apache) und `nginx -v` (Nginx)  prüfen, ob die Installation erfolgreich gewesen ist. Die Ausgabe sollte im etwa wie im Folgenden aussehen:
+Nach der Installation kannst du mit den Befehlen `apache2 -v` (Apache) und `nginx -v` (Nginx) prüfen, ob die Installation erfolgreich war. Die Ausgabe sollte ungefähr so aussehen:
 
 
 
@@ -124,6 +124,4 @@ nginx version: nginx/1.2.3
 ...
 ```
 
-Wenn eines der beiden Fälle eintrifft, dann wurde erfolgreich der Webserver installiert. 
-
-<InlineVoucher />
+Wenn einer der beiden Fälle eintritt, wurde der Webserver erfolgreich installiert.

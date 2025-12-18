@@ -1,8 +1,8 @@
 ---
 id: dedicated-windows-manage-users
-title: "Dedicated Server: Verwalten von Benutzern auf Windows Server"
-description: Informationen zum Hinzufügen und Verwalten zusätzlicher Benutzer bei deinem Windows Dedicated Server von ZAP-Hosting - ZAP-Hosting.com-Dokumentation
-sidebar_label: Benutzer hinzufügen und verwalten
+title: "Dedicated Server: Benutzer auf Windows Server verwalten"
+description: "Entdecke, wie du mehrere Windows Server Benutzer für sicheren, gleichzeitigen Remote-Zugriff und personalisierte Umgebungen verwaltest → Jetzt mehr erfahren"
+sidebar_label: Benutzer hinzufügen & verwalten
 services:
   - dedicated
 ---
@@ -11,90 +11,86 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
 
-Das Windows-Betriebssystem bietet eine integrierte Benutzerverwaltung, mit der sich zusätzliche Benutzer einfach verwalten lassen. Zu den Vorteilen der Verwendung einzelner Benutzer gehören der gleichzeitige (bis zu 2) Remote-Desktop-Zugriff über eigene Anmeldeinformationen, der individuelle Desktop- und Dateizugriff sowie ein einfaches Berechtigungssystem. In dieser Anleitung wird der Prozess der Benutzerverwaltung bei deinem Windows-Server behandelt.
+Windows OS bietet eine integrierte Benutzerverwaltung, mit der du ganz einfach zusätzliche Benutzer verwalten kannst. Einige Vorteile von individuellen Benutzern sind gleichzeitiger (bis zu 2) Remote Desktop Zugriff mit eigenen Zugangsdaten, individuelle Desktops und Dateizugriffe sowie ein einfaches Berechtigungssystem. In dieser Anleitung zeigen wir dir, wie du Benutzer auf deinem Windows Server verwaltest.
 
-<InlineVoucher />
+## Vorbereitung
 
-## Voraussetzungen
+Starte, indem du dich per RDP mit deinem Windows Server verbindest. Falls du dabei Hilfe brauchst, schau dir unsere [Erstzugang (RDP)](dedicated-windows-userdp.md) Anleitung an.
 
-Beginne damit, dich über RDP mit deinem Windows-Server zu verbinden. Wenn du dabei Hilfe brauchst, sieh dir bitte unsere [Erstzugang (RDP)](dedicated-windows-userdp.md) an.
-
-:::important Administrative Privilegien
-Stelle sicher, dass du dich mit dem **Administrator**-Benutzer oder einem Benutzer mit Administratorrechten bei deinem Windows-Server anmeldest, da du sonst keine Benutzer verwalten kannst.
+:::important Administrative Rechte
+Stelle sicher, dass du dich mit dem **Administrator**-Benutzer oder einem Benutzer mit administrativen Rechten auf deinem Windows Server anmeldest, sonst kannst du keine Benutzer verwalten.
 :::
 
-Jeder Benutzer, den du auf deinem Windows-Server erstellst, kann seine eigenen Anmeldedaten verwenden, um sich über Remote Desktop mit dem Server zu verbinden. Ebenso hat jeder Benutzer seinen eigenen Desktop, seine eigenen Dateien und Programme, die unabhängig von anderen sind und nur von Benutzern mit Administratorrechten eingesehen werden können. Programme, die speziell für alle Benutzer installiert wurden, sind global zugänglich.
+Jeder Benutzer, den du auf deinem Windows Server anlegst, kann sich mit seinen eigenen Zugangsdaten per Remote Desktop verbinden. Jeder Benutzer hat seinen eigenen Desktop, Dateien und Programme, die unabhängig von anderen sind und nur von Benutzern mit administrativen Rechten eingesehen werden können. Programme, die für alle Benutzer installiert wurden, sind global zugänglich.
 
-Mit der regulären Windows Server-Lizenz können sich **2** Konten gleichzeitig anmelden und den Server nutzen. Wenn diese Anzahl überschritten wird und ein weiterer Benutzer eine Verbindung herstellt, wird die Verbindung des zuerst verbundenen Benutzers zugunsten des sich verbindenden Benutzers getrennt. Ansonsten gibt es keine Begrenzung für die Anzahl der Benutzerkonten, die erstellt werden können.
+Mit der regulären Windows Server Lizenz können **2** Accounts gleichzeitig auf den Server zugreifen. Wird diese Zahl überschritten und ein weiterer Benutzer verbindet sich, wird der zuerst verbundene Benutzer zugunsten des neuen getrennt. Ansonsten gibt es keine Begrenzung, wie viele Benutzerkonten erstellt werden können.
 
 ## Zugriff auf die Benutzerverwaltung
 
-Die Verwaltung von Benutzerkonten erfolgt über die Einstellungen in der Systemsteuerung. Öffne zunächst das Windows-Startmenü auf deinem Windows-Server und wähle **Systemsteuerung** aus. Wähle die Option **Benutzerkonten** aus, um zu einem weiteren Untermenü zu gelangen.
+Die Verwaltung von Benutzerkonten erfolgt über die Einstellungen im Control Panel. Öffne dazu das Windows-Startmenü auf deinem Windows Server und wähle **Systemsteuerung** aus. Wähle dann die Option **Benutzerkonten**, die dich in ein Untermenü führt.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/GmRNfPtKiznTMkz/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/zePaY2rcCwTgaCo/preview)
 
-Wähle erneut die Option **Benutzerkonten** im Menü aus, um zu einem Übersichtsfenster zu gelangen.
+Wähle erneut die Option **Benutzerkonten** im Menü, um zur Übersichtsseite zu gelangen.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/miDS3ykNEd62o7F/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/rafwZP8rDnycjpa/preview)
 
-Wähle auf der Übersichtsseite die Option **Anderes Konto verwalten** aus, um zum Abschnitt **Konten verwalten** zu gelangen, der hauptsächlich für die Verwaltung von Benutzern verwendet wird.
+Auf der Übersichtsseite wähle **Anderes Konto verwalten**, um zum Bereich **Konten verwalten** zu gelangen, der hauptsächlich für die Benutzerverwaltung genutzt wird.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/NSTr8NTELXQGErd/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/iyQ9ZXoFLdMTNSZ/preview)
 
-Jetzt kannst du die Benutzer auf deinem Windows-Server verwalten. Fahre mit einem der folgenden Abschnitte fort, je nachdem, welche Aktion du durchführen möchtest.
+Du bist jetzt bereit, die Benutzer auf deinem Windows Server zu verwalten. Fahre mit einem der folgenden Abschnitte fort, je nachdem, welche Aktion du durchführen möchtest.
 
 ## Neuen Benutzer erstellen
 
-Um mit der Erstellung eines Benutzers zu beginnen, wähle die Option **Benutzerkonto hinzufügen** im Abschnitt **Konten verwalten** aus.
+Um einen neuen Benutzer anzulegen, wähle die Option **Neues Benutzerkonto hinzufügen** im Bereich **Konten verwalten**.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/L8By9aLxyGyZXfK/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/x4EpREF5FJoLycw/preview)
 
-Daraufhin wird eine Eingabeaufforderung auf deinem Bildschirm geöffnet, in der du einige Details für das Konto eingeben musst, darunter den Benutzernamen, das Passwort und einen Passwort-Hinweis. Stelle sicher, dass dein Passwort sicher ist, da du sonst einen Validierungsfehler erhalten könntest.
+Es öffnet sich ein Fenster, in dem du einige Details für das Konto eingeben musst, darunter Benutzername, Passwort und ein Passwort-Hinweis. Achte darauf, ein sicheres Passwort zu wählen, sonst bekommst du eine Fehlermeldung.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/yMSxx2FmeEjpi3C/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/dAyCkyAA2BLwNNe/preview)
 
-Wenn du fertig bist, klicke einfach auf den Button **Weiter**, um deinen neuen Benutzer zu erstellen.
+Wenn alles ausgefüllt ist, klicke auf Weiter und dein neuer Benutzer wird erstellt.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/kbQRXN5fJasJHsj/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/zEZGXQH9ErcCbgD/preview)
 
-Zuletzt musst du den neuen Benutzer zur Liste der Remote-Desktop-Verbindungen hinzufügen, um sicherzustellen, dass der Server RDP-Verbindungen von diesem akzeptiert. Gehe zur **Systemsteuerung** und rufe **System und Sicherheit** auf.
+Zum Schluss musst du den neuen Benutzer zur Remote Desktop Verbindungsliste hinzufügen, damit der Server RDP-Verbindungen von diesem akzeptiert. Gehe dazu ins **Control Panel** und öffne **System und Sicherheit**.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/C4NYJW2Z4eWkL8i/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/NtNg7sRRgDdnffr/preview)
 
-Von hier aus **Remotezugriff zulassen** suchen und auswählen, wodurch ein neues Menü geöffnet wird.
+Dort findest du **Remotezugriff zulassen** – klicke darauf, um ein neues Menü zu öffnen.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/peqDMFkPnNCPAMn/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/diBL57HtffpNAGX/preview)
 
-Im Menü unten auf **Benutzer auswählen...** klicken, wodurch ein neues Menü mit den aktuellen Benutzern mit Remote-Desktop-Zugriff angezeigt wird.
+Im Menü klickst du unten auf **Benutzer auswählen...**, um eine Liste der aktuellen Benutzer mit Remote Desktop Zugriff zu sehen.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/C5DyeACKKo6ZZTS/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/TP7LW2pWboFKixy/preview)
 
-Wähle im Anzeigemenü **Hinzufügen...** aus, um eine neue Benutzerauswahl-Eingabeaufforderung zu öffnen, und wähle dort **Erweitert...** aus.
+Im angezeigten Fenster klickst du auf **Hinzufügen...**, um einen neuen Benutzer auszuwählen, und wählst dann **Erweitert...**.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/Dz8NPjMLmxX7KQE/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/MTinLT9PDA45TAS/preview)
 
-![](https://screensaver01.zap-hosting.com/index.php/s/qyzgkg6qCiamyWn/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/SNd89fxNXKbfBBt/preview)
 
-Dadurch wird das Fenster erweitert, damit der Benutzer leicht zu finden ist. Über den Button **Jetzt suchen** wird eine Liste der Benutzer angezeigt, in der der neue Benutzer gesucht werden kann. In diesem Beispiel ist dies `ZAP-Docs`.
+Das Fenster erweitert sich, sodass du deinen Benutzer leichter findest. Klicke auf **Jetzt suchen**, um eine Liste der Benutzer zu erhalten, und suche deinen neuen Benutzer, in diesem Beispiel `ZAP-Docs`.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/X2KiYYGSKYAcGxx/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/spQL9fTNd778bry/preview)
 
-Wähle den Benutzer aus und verwende die Schaltflächen **OK**, um alle Menüs zu schließen und die Änderungen zu bestätigen.
+Wähle den Benutzer aus und bestätige mit **OK**, um alle Fenster zu schließen und die Änderungen zu speichern.
 
-Du hast erfolgreich einen neuen Benutzer auf deinem Windows-Server mit Zugriff auf den Remote-Desktop erstellt. Du solltest versuchen, über RDP mit den Anmeldedaten des neu erstellten Benutzers auf den Server zuzugreifen, um sicherzustellen, dass alles funktioniert.
+Du hast erfolgreich einen neuen Benutzer auf deinem Windows Server mit Remote Desktop Zugriff erstellt. Teste am besten, ob du dich mit den Zugangsdaten des neuen Benutzers per RDP verbinden kannst, um sicherzugehen, dass alles funktioniert.
 
-## Verwalten von Benutzern
+## Benutzer verwalten
 
-Du kannst alle Benutzer ganz einfach über den Abschnitt **Konten verwalten** verwalten. Wähle einfach einen Benutzer aus, den du verwalten möchtest.
+Du kannst alle Benutzer ganz einfach im Bereich **Konten verwalten** verwalten. Wähle einfach den Benutzer aus, den du bearbeiten möchtest.
 
-:::important Administrative Privilegien
-Um Benutzer verwalten zu können, musst du das Hauptkonto **Administrator** verwenden oder ein Benutzerkonto mit dem Kontotyp Administrator, das über alle erforderlichen Privilegien verfügt.
+:::important Administrative Rechte
+Um Benutzer verwalten zu können, musst du mit dem Haupt-**Administrator**-Konto oder einem Benutzer mit Administratorrechten angemeldet sein, der alle nötigen Berechtigungen dafür hat.
 :::
 
-![](https://screensaver01.zap-hosting.com/index.php/s/o63zy946CM4cCpJ/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/yJPTWKieZNZXifH/preview)
 
-Auf der Seite kannst du nun eine Vielzahl von Funktionen zur Verwaltung des Benutzers nutzen, darunter die Anpassung von Benutzername, Passwort und Kontotyp sowie das Löschen des Benutzers.
+Auf der Seite kannst du verschiedene Funktionen nutzen, um den Benutzer zu verwalten, z.B. Benutzername, Passwort, Kontotyp ändern oder den Benutzer löschen.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/csCHYTH7RLkaPeT/preview)
-
-<InlineVoucher />
+![](https://screensaver01.zap-hosting.com/index.php/s/tkPtbrmfsnK3TcG/preview)

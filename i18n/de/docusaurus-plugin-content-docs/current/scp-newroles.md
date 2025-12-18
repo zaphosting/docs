@@ -1,55 +1,58 @@
 ---
 id: scp-newroles
-title: "SCP Secret Laboratory: Neue Rollen hinzufügen"
-description: Informationen, wie du neue Rollen auf deinen SCP-Server von ZAP-Hosting hinzufügen kannst - ZAP-Hosting.com Dokumentation
+title: "SCP Secret Laboratory: Neue Rollen auf dem Server hinzufügen"
+description: "Lerne, wie du Server-Rollen mit spezifischen Berechtigungen erstellst und anpasst, um das Remote-Admin-Management effektiv zu gestalten → Jetzt mehr erfahren"
 sidebar_label: Neue Rollen hinzufügen
 services:
-  - gameserver-scp
+  - gameserver-scp 
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
 <InlineVoucher />
 
-## Die Config aufrufen
-Neue Rollen werden in der "config_remoteadmin.txt" Datei eingetragen. Diese Config Datei findest du, indem du im Interface von deinem Server auf "Configs" klickst.
+## Config ansehen
+Neue Rollen werden in der Datei „config_remoteadmin.txt“ eingetragen.
+Du findest diese Config-Datei, indem du im Interface deines Servers auf „Configs“ klickst.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/inncMNT4cZn9ptm/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/7JEE5gLDyF29mZR/preview)
 
-Hier dann nach der obigen Config suchen und dann rechts daneben auf den "Stift" klicken, um diese zu öffnen.
+Hier kannst du dann nach der oben genannten Config suchen und rechts auf das „Auge“ klicken, um sie zu öffnen.
 
-## Bestehende Rolle kopieren
-Soweit du die Config offen hast, kannst du nach diesen Einträgen darin suchen:
+## Bestehende Rollen kopieren
+Wenn du die Config geöffnet hast, kannst du nach diesen Einträgen suchen:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/f34PZKctgQ6b3Za/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/tDBFmR5g44gxpp5/preview)
 
-Das sind Beispiel Rollen, welche bereits eingetragen worden sind.
-Wir fügen darunter einen neuen Eintrag ein.
-Dafür kopieren wir den Block von einem der obigen Rollen und fügen diesen Teil unter der letzten Rolle wieder ein.
-In unserem Beispiel haben wir die Rolle "Moderator" kopiert und darunter eingefügt:
+Das sind Beispielrollen, die schon eingetragen sind.
+Wir fügen jetzt einen neuen Eintrag darunter ein.
+Dafür kopieren wir den Block von einer der Rollen oben und fügen diesen Teil unter der letzten Rolle ein.
+In unserem Beispiel haben wir die Rolle „Moderator“ kopiert und darunter eingefügt:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/KzLSNrG3XfxJpPf/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/ELHDZCDcT6WDydJ/preview)
 
-## Eigene Rolle eintragen
-Den gerade eingefügten Block von der bereits existenten Rolle, können wir nun nach Belieben bearbeiten und unsere eigenen gewünschten Werte dort eintragen. In unserem Beispiel haben wir den Namen "ZAP" genutzt:
+## Eigene Rolle hinzufügen
+Jetzt können wir den gerade eingefügten Block der bestehenden Rolle bearbeiten und unsere eigenen Werte eintragen.
+In unserem Beispiel haben wir den Namen „ZAP“ verwendet:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/dznJH8R8s5g5p8K/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/6gtEmbeBjP5A8zy/preview)
 
-Soweit das erfolgt ist, müssen wir die Rolle noch in die Liste der verfügbaren Rollen eintragen.
-Das geht ebenfalls in der identischen Config nur minimal weiter darunter.
+Sobald das erledigt ist, müssen wir die Rolle noch in die Liste der verfügbaren Rollen eintragen.
+Das geht etwas weiter unten in der gleichen Config.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/5YoBQTR5E9t4Py3/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/qNNKnwYaYSjy2XK/preview)
 
-Unsere Rolle tragen wir also unter der "Moderator" Rolle ein.
+Wir tragen unsere Rolle also unter der Rolle „moderator“ ein.
 :::info
-ACHTUNG: Bitte die Leerzeichen vor und nach dem "-" beachten!
+ACHTUNG: Achte bitte auf die Leerzeichen vor und nach dem „-“!
 :::
 
 ## Berechtigungen
-Ganz unten in der "config_remoteadmin.txt" Config Datei können wir die Berechtigungen für die jeweiligen Rollen anpassen.
-Wenn wir unserer Rolle also einer Berechtigung zuweisen wollen, können wir den Namen der Rolle in die Klammern eintragen.
-So wie es in diesem Beispiel zu sehen ist:
+Ganz unten in der Datei „config_remoteadmin.txt“ können wir die Berechtigungen für die jeweiligen Rollen anpassen.
+Wenn wir also einer Rolle eine Berechtigung zuweisen wollen, tragen wir den Rollennamen in die Klammern ein.
+So wie in diesem Beispiel gezeigt:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/Yz764keXiisoBbw/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/kRSiKjYyWsK2RD3/preview)
+
 
 <InlineVoucher />

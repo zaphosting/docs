@@ -1,0 +1,34 @@
+{
+  "title": {
+    "message": "เอกสาร ZAP-Hosting",
+    "description": "The title in the navbar"
+  },
+  "logo.alt": {
+    "message": "ZAP-Hosting",
+    "description": "The alt text of navbar logo"
+  },
+  "item.label.General": {
+    "message": "ทั่วไป",
+    "description": "Navbar item with label General"
+  },
+  "item.label.Gameserver": {
+    "message": "เซิร์ฟเวอร์เกม",
+    "description": "Navbar item with label Gameserver"
+  },
+  "item.label.VPS": {
+    "message": "VPS",
+    "description": "Navbar item with label VPS"
+  },
+  "item.label.Dedicated Server": {
+    "message": "เซิร์ฟเวอร์เฉพาะ",
+    "description": "Navbar item with label Dedicated Server"
+  },
+  "item.label.Domain & Webspace": {
+    "message": "โดเมน & เว็บโฮสติ้ง",
+    "description": "Navbar item with label Domain & Webspace"
+  },
+  "item.label.Voicebot & Voiceserver": {
+    "message": "Voice Bot & เซิร์ฟเวอร์เสียง",
+    "description": "Navbar item with label Voicebot & Voiceserver"
+  }
+}

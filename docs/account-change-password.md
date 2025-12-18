@@ -1,7 +1,7 @@
 ---
 id: account-change-password
 title: Change Your Password
-description: Instructions on how to change your ZAP-Hosting account password - ZAP-Hosting documentation
+description: "Learn how to securely update or reset your ZAP-Hosting account password to protect your access and maintain account security → Learn more now"
 sidebar_label: Change Password
 ---
 

@@ -1,7 +1,7 @@
 ---
 id: hl1-fastdl
 title: "Half-Life 1: Setting up FastDL"
-description: "How to set up FastDL with webspace for Half-Life 1 servers at ZAP-Hosting - ZAP-Hosting Documentation"
+description: "Discover how to optimize game content delivery with FastDL using ZAP-Hosting to improve player download speeds and server performance → Learn more now"
 sidebar_label: FastDL
 services:
   - gameserver-hl1

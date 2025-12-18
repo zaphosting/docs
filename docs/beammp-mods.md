@@ -1,7 +1,7 @@
 ---
 id: beammp-mods
 title: "BeamMP: Install Mods"
-description: Information on how to install mods on your BeamMP server from ZAP-Hosting - ZAP-Hosting.com documentation
+description: "Discover how to access and use BeamMP mods to enhance your gameplay experience with automatic downloads → Learn more now"
 sidebar_label: Install Mods
 services:
   - gameserver-bob-beammp

@@ -1,7 +1,7 @@
 ---
 id: vserver-windows-ark
 title: "VPS: ARK Survival Evolved Dedicated Server Windows Setup"
-description: Information about setting up an ARK Survival Evolved Dedicated Server on a VPS - ZAP-Hosting.com documentation
+description: "Discover how to set up an ARK: Survival Evolved Dedicated Server on your Windows VPS quickly and easily → Learn more now"
 sidebar_label: ARK Survival Evolved Dedicated Server Setup
 services:
   - vserver

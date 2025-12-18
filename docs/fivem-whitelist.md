@@ -1,7 +1,7 @@
 ---
 id: fivem-whitelist
 title: "FiveM: Whitelist"
-description: Information on how to use a whitelist with FiveM Server from ZAP-Hosting - ZAP-Hosting.com documentation
+description: "Discover how to restrict server access using whitelists to enhance security and control player entry → Learn more now"
 sidebar_label: Whitelist
 services:
   - gameserver-fivem

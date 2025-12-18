@@ -1,7 +1,7 @@
 ---
 id: openmp-rcon
-title: "Open.mp: Server mit RCON"
-description: Informationen darüber, wie du RCON mit deinem Open.mp-Server von ZAP-Hosting verwendest, um deinen Server zu verwalten - ZAP-Hosting.com Dokumentation
+title: "Open.mp: Server mit RCON steuern"
+description: "Entdecke, wie du Gameserver per RCON remote verwaltest für effiziente Serversteuerung und Sicherheit → Jetzt mehr erfahren"
 sidebar_label: RCON
 services:
   - gameserver-openmp
@@ -11,35 +11,35 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Was ist RCON?
 
-RCON ist eine Schnittstelle in verschiedenen Programmen, wie z.B. Spieleservern, mit der Fernwartung und Fernadministration durchgeführt werden kann. Mit dieser Schnittstelle können Server verwaltet werden, die bereits laufen und erreicht werden können. Die Schnittstelle kann dann mit einem bestimmten Fernwartungsprogramm aufgerufen und der Server so verwaltet werden.
+RCON ist eine Schnittstelle in verschiedenen Programmen, wie zum Beispiel Gameservern, mit der Fernwartung und Fernadministration durchgeführt werden kann. Über diese Schnittstelle lassen sich bereits laufende und erreichbare Server verwalten. Man greift dann mit einem speziellen Fernwartungsprogramm auf die Schnittstelle zu und kann so den Server steuern.
 
 <InlineVoucher />
 
 ## Zugriff auf deine Konfigurationsdatei
 
-Um RCON nutzen zu können, musst du zunächst auf die Konfiguration deines Servers zugreifen und diese Funktion aktivieren. Du kannst die Konfigurationsdatei entweder über das Webinterface deines Servers oder direkt über FTP bearbeiten.
+Um RCON nutzen zu können, musst du zuerst auf die Serverkonfiguration zugreifen und diese Funktion aktivieren. Die Konfigurationsdatei kannst du entweder über das Webinterface deines Servers oder direkt per FTP bearbeiten.
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
 <Tabs>
-<TabItem value="configs" label="Über die WI-Konfigurationsdatei">
+<TabItem value="configs" label="Via WI Konfig-Datei">
 
-#### Über die Webinterface-Konfigurationsdatei
+#### Über das Webinterface die Konfig-Datei bearbeiten
 
-Wir empfehlen, diese Methode zu verwenden, da sie am einfachsten ist. 
+Wir empfehlen diese Methode, da sie am einfachsten ist.
 
 :::note
-Der Server muss angehalten werden, bevor die Config bearbeitet werden kann. Wenn du die Config bearbeitest und den Server neu startest, werden alle Änderungen rückgängig gemacht.
+Der Server muss gestoppt sein, bevor die Konfiguration bearbeitet wird. Änderungen werden sonst beim Neustart überschrieben.
 :::
 
-Gehe einfach zum Abschnitt **Configs** im Webinterface deines Gameservers und klicke auf den blauen Button Datei bearbeiten, wie unten zu sehen:
+Gehe einfach im Webinterface deines Gameservers zum Bereich **Configs** und klicke auf den blauen Button zum Bearbeiten der Datei, wie hier gezeigt:
 
-![](https://github.com/zaphosting/docs/assets/42719082/60a922ab-0ca3-4248-b936-3ce43ba8bd5f)
+![](https://github.com/zaphosting/docs/assets/42719082/6a147644-8bfb-4e5d-bff5-3e2c5d999e64)
 
-Es öffnet sich ein Texteditor, mit dem du die Datei direkt bearbeiten kannst. Suche in der Datei nach dem Abschnitt "rcon". Setze hier den Parameter `enable` auf `true`, zum Beispiel: `"enable":true`. Wir empfehlen dir, die Suchfunktion deines Browsers mit der Tastenkombination "STRG+F" zu öffnen, um dir dabei zu helfen.
+Es öffnet sich ein Texteditor, in dem du die Datei direkt bearbeiten kannst. Suche in der Datei nach dem Abschnitt `rcon`. Dort setzt du den Parameter `enable` auf `true`, also z.B.: `"enable":true`. Wir empfehlen, mit `STRG+F` die Suchfunktion deines Browsers zu nutzen.
 
-Im selben Abschnitt solltest du auch ein Passwort für den Zugriff auf die RCON-Schnittstelle einrichten, indem du den Parameter `password` anpasst. Dies verhindert unbefugten Zugriff und sollte geheim gehalten werden.
+Im gleichen Abschnitt solltest du auch ein Passwort für den RCON-Zugang festlegen, indem du den Parameter `password` anpasst. So verhinderst du unbefugten Zugriff und das Passwort sollte geheim bleiben.
 
 ![](https://github.com/zaphosting/docs/assets/42719082/d3fbb8ac-b836-4e12-a7cf-d1b4961925d7)
 
@@ -50,41 +50,41 @@ Im selben Abschnitt solltest du auch ein Passwort für den Zugriff auf die RCON-
 #### Über FTP
 
 :::note
-Der Server muss angehalten werden, bevor die Konfiguration bearbeitet werden kann. Wenn du die Konfiguration bearbeitest und den Server neu startest, werden alle Änderungen rückgängig gemacht.
+Der Server muss gestoppt sein, bevor die Konfiguration bearbeitet wird. Änderungen werden sonst beim Neustart überschrieben.
 :::
 
-Eine andere Möglichkeit, deine Konfigurationsdatei zu bearbeiten, ist über FTP. Wenn du dich mit der Verwendung von FTP nicht auskennst, empfehlen wir dir, einen Blick in die Anleitung [Zugriff per FTP](gameserver-ftpaccess.md) zu werfen. Diese Methode dauert jedoch länger und wenn du die Dateiinhalte direkt bearbeiten möchtest, empfehlen wir dir, wie bereits erwähnt, den Bereich **Configs** im Webinterface deines Gameservers zu verwenden.
+Eine weitere Möglichkeit, die Konfigurationsdatei zu bearbeiten, ist über FTP. Falls du FTP noch nicht kennst, schau dir am besten unsere [Anleitung zum FTP-Zugang](gameserver-ftpaccess.md) an. Diese Methode dauert etwas länger und wenn du direkt den Inhalt der Datei bearbeiten willst, empfehlen wir dir das **Configs**-Menü im Webinterface deines Gameservers.
 
-Sobald du dich per FTP mit deinem Server verbunden hast, gehst du in das folgende Verzeichnis:
+Nachdem du dich per FTP mit deinem Server verbunden hast, navigiere zu folgendem Verzeichnis:
 ```
 ..g[zap_id]/gta-openmp/
 ```
 
-Unter diesem Pfad findest du die Datei "config.json" und öffnest sie. Dies ist die Serverkonfigurationsdatei, die du bearbeiten solltest.
+Dort findest du die Datei `config.json`, die du öffnen und bearbeiten solltest.
 
-Suche in der Datei nach dem Abschnitt "rcon". Setze den Parameter `enable` auf `true` und gib mit dem Parameter `password` ein Passwort für deine RCON-Schnittstelle an.
+Suche in der Datei nach dem Abschnitt `rcon`. Setze den Parameter `enable` auf `true` und lege ein Passwort für den RCON-Zugang über den Parameter `password` fest.
 
 </TabItem>
 </Tabs>
 
 :::info
-Stelle sicher, dass du deinen Server neu startest, nachdem du deine Konfigurationsdetails angepasst hast.
+Vergiss nicht, deinen Server neu zu starten, nachdem du die Konfiguration angepasst hast.
 :::
 
-## RCON verwenden
+## RCON nutzen
 
-Nachdem du RCON in der Konfiguration deines Servers aktiviert hast, kannst du über den in der Datei definierten Port auf die RCON-Schnittstelle von Open.mp zugreifen.
+Nachdem du RCON in der Serverkonfiguration aktiviert hast, kannst du über den in der Datei definierten Port auf die Open.mp RCON-Schnittstelle zugreifen.
 
-Du musst ein RCON-Programm verwenden, um dich damit zu verbinden. Wir empfehlen [RCON Console] (https://sourceforge.net/projects/rconconsole/), da es Open-Source ist.
+Dafür brauchst du ein RCON-Programm. Wir empfehlen [RCON Console](https://sourceforge.net/projects/rconconsole/), da es Open-Source ist.
 
-In dem RCON-Programm deiner Wahl musst du die IP-Adresse und den Port deines Servers eingeben. Stelle sicher, dass dein Gameserver online ist und läuft.
+Im RCON-Programm deiner Wahl gibst du die IP-Adresse und den Port deines Servers ein. Achte darauf, dass dein Gameserver online und gestartet ist.
 
-Wenn die Verbindung erfolgreich ist, kannst du nun über das RCON-Konsolenprogramm deiner Wahl Befehle an deinen Palworld-Server senden. 
+Wenn die Verbindung klappt, kannst du jetzt Befehle an deinen Palworld Server über das RCON Console Programm senden.
 
 :::tip
-In unserer [Server-Befehle](openmp-server-commands.md) Anleitung findest du alle derzeit verfügbaren Befehle, die du über RCON ausführen kannst.
+Check unsere [Server Commands](openmp-server-commands.md), um alle aktuell verfügbaren Befehle zu sehen, die du per RCON ausführen kannst.
 :::
 
-Du hast RCON erfolgreich auf deinem Palworld-Server aktiviert.
+Du hast RCON erfolgreich auf deinem Palworld Server aktiviert.
 
 <InlineVoucher />

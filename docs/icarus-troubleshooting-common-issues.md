@@ -1,7 +1,7 @@
 ---
 id: icarus-troubleshooting-common-issues
 title: "Icarus: Common issues"
-description: "Information on how to resolve common issues on a Icarus server from ZAP-Hosting - ZAP-Hosting.com documentation"
+description: "Discover how to troubleshoot and resolve common Icarus game server issues to ensure smooth gameplay and reliable performance → Learn more now"
 sidebar_label: Common issues
 services:
   - gameserver-icarus

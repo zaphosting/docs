@@ -1,7 +1,7 @@
 ---
 id: dedicated-linux-sftp
 title: "Dedicated Server: Connecting to Linux Server via SFTP"
-description: Information on how to connect via SFTP to on your Linux Dedicated Server from ZAP-Hosting - ZAP-Hosting.com documentation
+description: "Learn how to securely connect to your server via SFTP to manage files efficiently and enhance your server access → Learn more now"
 sidebar_label: SFTP Connection
 services:
   - dedicated
@@ -9,7 +9,7 @@ services:
 
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
-<InlineVoucher />
+
 
 ## How do I connect via SFTP?
 
@@ -32,4 +32,4 @@ Now you are connected to your server via SFTP:
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/xA44qPQB6zcFc75/preview)
 
-<InlineVoucher />
+

@@ -1,7 +1,7 @@
 ---
 id: terratech-worlds-firststeps-dashboard
 title: "Terratech Worlds: Dashboard Overview"
-description: Information about the dashboard of an TerraTech Worlds from ZAP-Hosting - ZAP-Hosting.com Documentation
+description: "Discover how to efficiently manage and optimize your TerraTech Worlds server with a clear, step-by-step administration guide → Learn more now"
 sidebar_label: Dashboard
 services:
   - gameserver-terratech-worlds

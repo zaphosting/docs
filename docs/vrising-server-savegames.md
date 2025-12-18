@@ -1,7 +1,7 @@
 ---
 id: vrising-server-savegames
 title: "V Rising: Managing V Rising Savegames"
-description: Information on how to manage savegames on your V Rising server from ZAP-Hosting - ZAP-Hosting.com Documentation
+description: "Discover how to manage and back up your V Rising game saves for secure multiplayer gaming experiences → Learn more now"
 sidebar_label: Manage Savegames
 services:
   - gameserver-vrising

@@ -1,7 +1,7 @@
 ---
 id: vserver-linux-firewall
 title: "VPS: Managing Firewall in Linux"
-description: Information on managing UFW or IPTable rules, including Port Forwarding, on your Linux VPS from ZAP-Hosting - ZAP-Hosting.com documentation
+description: "Learn how to configure a firewall to secure your server and allow necessary external connections → Learn more now"
 sidebar_label: Port Forwarding (Firewall)
 services:
   - vserver

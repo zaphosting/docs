@@ -1,7 +1,7 @@
 ---
 id: projectzomboid-rcon
 title: "Project Zomboid: RCON"
-description: "Learn how to use RCON for Project Zomboid - ZAP-Hosting Documentation"
+description: "Discover how to remotely manage and control Project Zomboid servers securely without in-game access → Learn more now"
 sidebar_label: RCON
 services:
   - gameserver-projectzomboid

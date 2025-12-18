@@ -1,7 +1,7 @@
 ---
 id: vserver-windows-enshrouded
-title: "vServer: Enshrouded Dedicated Server Einrichtung"
-description: Informationen zur Einrichtung eines Enshrouded Dedizierten Servers auf einem vServer - ZAP-Hosting.com Dokumentation
+title: "vServer: Enshrouded Dedicated Server Windows Setup"
+description: "Entdecke, wie du einen Enshrouded Dedicated Server auf deinem Windows VPS einrichtest für nahtloses Gameplay und volle Kontrolle → Jetzt mehr erfahren"
 sidebar_label: Enshrouded
 services:
   - vserver
@@ -11,67 +11,65 @@ import YouTube from '@site/src/components/YouTube/YouTube';
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
+Du hast einen Windows VPS und möchtest den Enshrouded Dedicated Server darauf installieren? Dann bist du hier genau richtig. In dieser Anleitung erklären wir dir Schritt für Schritt, wie du diesen Service auf deinem Server einrichtest.
 
-Hast du einen Windows vServer und möchtest darauf einen Enshrouded Dedicated Server installieren? Dann bist du hier genau richtig. In dieser Anleitung erklären wir dir Schritt für Schritt, wie du diesen Dienst auf deinem Server installierst.
-
-<YouTube videoId="cxhqHt2DYjQ" imageSrc="https://screensaver01.zap-hosting.com/index.php/s/ij7SkeBCPrZGt9J/preview" title="How To Setup Enshrouded Dedicated Server on Windows vServer!" description="Hast du das Gefühl, dass du etwas besser verstehst, wenn du es in Aktion siehst? Wir haben etwas für dich! Tauche ab in unser Video, welches alles für dich zusammenfasst. Egal, ob du es eilig hast oder einfach nur Informationen auf möglichst verständliche Art und Weise aufnehmen möchtest!"/>
-
+<YouTube videoId="cxhqHt2DYjQ" imageSrc="https://screensaver01.zap-hosting.com/index.php/s/qQy4x4cS5Rz8WR4/preview" title="How To Setup Enshrouded Dedicated Server on Windows VPS!" description="Du verstehst besser, wenn du Dinge in Aktion siehst? Kein Problem! Schau dir unser Video an, das alles für dich erklärt. Egal ob du es eilig hast oder lieber auf unterhaltsame Weise lernst!"/>
 <InlineVoucher />
 
 ## Vorbereitung
 
-Verbinde dich zunächst über Remote Desktop (RDP) mit deinem vServer. Verwende unsere Anleitung [Erstzugang (RDP)](vserver-windows-userdp.md), wenn du Hilfe benötigst.
+Verbinde dich zunächst per Remote Desktop (RDP) mit deinem VPS. Falls du dabei Hilfe brauchst, schau dir unsere [Erstzugang (RDP)](vserver-windows-userdp.md) Anleitung an.
 
-Sobald du auf deinen Server zugegriffen hast, musst du **SteamCMD** einrichten, damit du die notwendigen Dateien für den dedizierten Server herunterladen kannst. SteamCMD ist die **Befehlszeilenversion (CLI)** des Steam-Clients und das Tool, mit dem du ganz einfach eine Reihe von Steam-Workshop- und Dedicated Server-Dateien herunterladen kannst. Lade [SteamCMD von der offiziellen Valve-Website](https://developer.valvesoftware.com/wiki/SteamCMD) oder direkt [hier](https://steamcdn-a.akamaihd.net/client/installer/steamcmd.zip) herunter.
+Sobald du auf deinem Server bist, musst du **SteamCMD** einrichten, um die nötigen Dedicated Server Dateien herunterladen zu können. SteamCMD ist die **Kommandozeilen-Version (CLI)** des Steam-Clients und das Tool, mit dem du einfach verschiedene Steam Workshop- und Dedicated Server Dateien herunterladen kannst. Lade [SteamCMD von der offiziellen Valve-Seite](https://developer.valvesoftware.com/wiki/SteamCMD) oder direkt [hier](https://steamcdn-a.akamaihd.net/client/installer/steamcmd.zip) herunter.
 
-Erstelle irgendwo auf deinem Server einen neuen Ordner, in diesem Szenario nennen wir ihn `steamcmd`. Gehe zu deinem Download-Ordner, suche die Datei **steamcmd.zip**, die du gerade heruntergeladen hast, und lege sie in deinem Ordner `steamcmd` ab. Nun musst du die Datei entpacken, indem du mit der rechten Maustaste klickst und die Entpackungsfunktion von Windows oder ein anderes Programm wie .7zip oder Winrar verwendest. Das Ergebnis sollte eine **steamcmd.exe** Datei sein, die entpackt wurde.
+Erstelle irgendwo auf deinem Server einen neuen Ordner, in diesem Beispiel nennen wir ihn `steamcmd`. Gehe in deinen Downloads-Ordner, finde die gerade heruntergeladene **steamcmd.zip** Datei und verschiebe sie in den `steamcmd` Ordner. Entpacke die Datei jetzt per Rechtsklick und Windows-eigener Entpackfunktion oder mit Programmen wie 7zip oder WinRAR. Danach solltest du eine **steamcmd.exe** Datei im Ordner haben.
 
-Führe einfach **steamcmd.exe** aus und warte, bis der Installationsprozess vollständig abgeschlossen ist.
+Starte einfach **steamcmd.exe** und warte, bis der Installationsprozess vollständig abgeschlossen ist.
 
 ![](https://github.com/zaphosting/docs/assets/42719082/ffb8e8a1-26e3-4d16-9baf-938e17ec1613)
 
-Sobald die Meldung **Loading Steam API.... OK** angezeigt wird, ist der Prozess erfolgreich abgeschlossen und du kannst mit der Installation des Enshrouded Dedicated Servers im folgenden Abschnitt fortfahren.
+Sobald die Meldung **Loading Steam API.... OK** erscheint, ist der Prozess erfolgreich abgeschlossen und du kannst mit der Installation des Enshrouded Dedicated Servers im nächsten Abschnitt starten.
 
 ## Installation
 
-Nach der Installation solltest du in der Lage sein, Befehle in der **steamcmd.exe** Eingabeaufforderung auszuführen, die du zuvor ausgeführt hast. Bevor du etwas tun kannst, musst du dich mit dem Benutzer **anonymous** anmelden, indem du den Befehl `login anonymous`
+Nach der Installation solltest du im **steamcmd.exe** Kommandozeilenfenster Befehle ausführen können. Melde dich zuerst mit dem Benutzer **anonymous** an, indem du folgenden Befehl eingibst: `login anonymous`
 
-Sobald du eingeloggt bist, kannst du mit dem Herunterladen der Dateien beginnen. 
+Nach dem Login kannst du mit dem Download der Dateien beginnen.
 
 :::tip
-Optional: Du kannst dein bevorzugtes Installationsverzeichnis festlegen, indem du den Befehl `force_install_dir [path]` verwendest und dabei `[path]` durch den Pfad ersetzst, den du für deinen Server verwenden möchtest. Zum Beispiel: 
+Optional: Du kannst dein bevorzugtes Installationsverzeichnis mit dem Befehl `force_install_dir [Pfad]` festlegen, wobei du `[Pfad]` durch den gewünschten Pfad für deinen Server ersetzt. Beispiel:
 ```
 force_install_dir C:\Enshrouded-Server
 ```
 :::
 
-Führe nun den Befehl `app_update 2278520` aus, um den Download zu starten. Die App ID **2278520** ist die **Enshrouded** Anwendung.
+Starte nun den Download mit dem Befehl `app_update 2278520`. Die App-ID **2278520** steht für die **Enshrouded** Anwendung.
 
 ![](https://github.com/zaphosting/docs/assets/42719082/29931eec-fd19-4806-88dc-69e585e42370)
 
 :::info
-Bitte unterbrich den Vorgang nicht, bevor er abgeschlossen ist, um Fehler zu vermeiden. Es kann einen Moment dauern, aber es lohnt sich, geduldig zu sein! :)
+Bitte unterbrich den Vorgang nicht, bevor er abgeschlossen ist, um Fehler zu vermeiden. Es kann einen Moment dauern, aber Geduld zahlt sich aus! :)
 :::
 
-Sobald der Vorgang erfolgreich abgeschlossen ist, gehst du in das Download-Verzeichnis, in dem alle Serverdateien heruntergeladen wurden. Hier kannst du die **enshrouded_server.exe** verwenden, um den Server zu starten. Wir empfehlen dir jedoch, deinen Server zuerst zu konfigurieren und eine Portweiterleitung einzurichten.
+Nach erfolgreichem Download gehst du in das Verzeichnis, in das alle Serverdateien geladen wurden. Dort kannst du die **enshrouded_server.exe** starten, um den Server zu starten. Wir empfehlen jedoch, vorher das Port Forwarding einzurichten und deinen Server zu konfigurieren.
 
-### Portweiterleitung deines Servers
+### Portfreigabe für deinen Server
 
-Um sicherzustellen, dass dein Server für die Öffentlichkeit zugänglich ist, musst du die Portweiterleitungsregeln für die Ports ändern, die der dedizierte Serverprozess verwendet. Du kannst dies entweder direkt über Powershell-Befehle tun, was einfacher ist, oder regelmäßig über die Windows Defender Firewall-Seite.
+Damit dein Server öffentlich erreichbar ist, musst du Portfreigabe-Regeln für die Ports einrichten, die der Dedicated Server nutzt. Das kannst du entweder direkt über Powershell-Befehle machen, was einfacher ist, oder klassisch über die Windows Defender Firewall.
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
 <Tabs>
-<TabItem value="powershell" label="Über Powershell" default>
+<TabItem value="powershell" label="Via Powershell" default>
 
-Öffne dein Windows-Suchfeld und suche nach **Powershell**. Achte darauf, dass du mit der rechten Maustaste klickst und **Als Administrator ausführen** wählst, damit die Berechtigungen zugänglich sind und alles richtig funktioniert.
+Öffne die Windows-Suche und suche nach **Powershell**. Klicke mit Rechts und wähle **Als Administrator ausführen**, damit die nötigen Berechtigungen vorhanden sind und alles korrekt funktioniert.
 
 :::info
-Vergewissere dich, dass du die Powershell im Administratormodus ausführst, sonst werden die Einstellungen möglicherweise nicht korrekt übernommen.
+Stelle sicher, dass du Powershell im Administrator-Modus startest, sonst werden die Einstellungen nicht richtig übernommen.
 :::
 
-Als nächstes kopierst du die folgenden Befehle und fügst sie in deine Powershell-Eingabeaufforderung ein:
+Füge nun die folgenden Befehle in die Powershell ein:
 ```
 New-NetFirewallRule -DisplayName "Enshrouded Server" -Direction Inbound -LocalPort 15636,15637 -Protocol TCP -Action Allow
 New-NetFirewallRule -DisplayName "Enshrouded Server" -Direction Inbound -LocalPort 15636,15637 -Protocol UDP -Action Allow
@@ -79,50 +77,50 @@ New-NetFirewallRule -DisplayName "Enshrouded Server" -Direction Outbound -LocalP
 New-NetFirewallRule -DisplayName "Enshrouded Server" -Direction Outbound -LocalPort 15636,15637 -Protocol UDP -Action Allow
 ```
 
-Mit diesen Befehlen werden automatisch Firewall-Regeln erstellt, die notwendig sind, damit dein Enshrouded Server für die Öffentlichkeit zugänglich ist.
+Diese Befehle erstellen automatisch die Firewall-Regeln, die dein Enshrouded Server braucht, um öffentlich erreichbar zu sein.
 
 </TabItem>
 
-<TabItem value="windefender" label="Über Windows Defender">
+<TabItem value="windefender" label="Via Windows Defender">
 
-Verwende die Suchfunktion von Windows, um die **Windows Firewall-Einstellungen mit erweiterter Sicherheit** zu öffnen. Es kann sein, dass du auf **Erweiterte Einstellungen** drücken musst, um das entsprechende Fenster zu öffnen, wenn du die Basisseite der Windows Firewall öffnest.
+Öffne über die Windows-Suche die **Windows-Firewall mit erweiterter Sicherheit**. Falls du nur die Basis-Firewall-Seite siehst, klicke auf **Erweiterte Einstellungen**, um das richtige Fenster zu öffnen.
 
 ![](https://github.com/zaphosting/docs/assets/42719082/5fb9f943-7e51-4d8f-9df4-2f5ff60857d3)
 
-Du musst neue Regeln für deinen Enshrouded-Server erstellen. Klicke dazu auf die ein- und ausgehenden Regeln wie unten beschrieben und füge sie für die folgenden Protokolle und Ports hinzu:
+Erstelle neue Regeln für deinen Enshrouded Server. Klicke dazu auf eingehende und ausgehende Regeln und füge folgende Protokolle und Ports hinzu:
 - TCP eingehend und ausgehend: 15636-15637
 - UDP eingehend und ausgehend: 15636-15637
 
-Bitte benutze unsere [Portweiterleitung (Firewall)](vserver-windows-port.md) Anleitung, wenn du weitere Hilfe dabei brauchst.
+Falls du dabei Hilfe brauchst, nutze unsere [Portfreigabe (Firewall)](vserver-windows-port.md) Anleitung.
 
 </TabItem>
 </Tabs>
 
-Wenn du diese Regeln hinzugefügt hast, ist dein Server jetzt erreichbar, d.h. du kannst dich über die IP-Adresse deines Servers mit ihm verbinden. Das kannst du tun, indem du deinen Charakter im Hauptmenü auswählst, zum Reiter **Spiele finden** gehst und auf **Server hinzufügen** drückst. Hier gibst du die IP-Adresse deines Servers sowie den Port (standardmäßig 15636) und dein Server-Passwort ein (falls festgelegt, sonst leer lassen).
+Nachdem du die Regeln hinzugefügt hast, ist dein Server erreichbar. Du kannst dich über die IP-Adresse deines Servers verbinden. Wähle dazu im Hauptmenü deinen Charakter aus, gehe zum Tab **Find Games** und klicke auf **Add Server**. Gib dort deine Server-IP, den Port (standardmäßig 15636) und dein Server-Passwort ein (falls gesetzt, sonst leer lassen).
 
 :::tip
-Sieh dir unsere [Server Konfiguration](enshrouded-configuration.md) an, wenn du ein Passwort für deinen Server aktivieren und die Einstellungen anpassen möchtest.
+Schau dir unsere [Server-Konfiguration](enshrouded-configuration.md) Anleitung an, wenn du ein Passwort für deinen Server aktivieren oder weitere Einstellungen anpassen möchtest.
 :::
 
-Wir empfehlen, dass du deine Servereinstellungen zuerst über den folgenden Abschnitt konfigurierst, bevor du auf deinen Server zugreifst.
+Wir empfehlen, deinen Server zuerst über den nächsten Abschnitt zu konfigurieren, bevor du dich verbindest.
 
 ## Konfiguration
 
-In diesem Stadium hast du die Einrichtung deines Enshrouded-Servers abgeschlossen. Du kannst die weitere Serverkonfiguration über eine Konfigurationsdatei im Verzeichnis deines Servers vornehmen.
+Bis hierhin hast du die Grundinstallation deines Enshrouded Servers abgeschlossen. Weitere Einstellungen kannst du über eine Konfigurationsdatei im Serververzeichnis vornehmen.
 
-Wechsle zunächst in das folgende Verzeichnis:
+Navigiere dazu in folgendes Verzeichnis:
 ```
-..EnshroudedServer/ (Stammverzeichnis)
+..EnshroudedServer/ (Hauptverzeichnis)
 ```
 
-Dort findest du die Konfigurationsdatei **enshrouded_server.json**. In dieser Datei kannst du ein paar Parameter für deinen Server konfigurieren. In unserer [Server Konfiguration](enshrouded-configuration.md) findest du alle verfügbaren Serveroptionen und ihre Funktionen.
+Dort findest du die Datei **enshrouded_server.json**. In dieser Datei kannst du verschiedene Parameter für deinen Server einstellen. Alle verfügbaren Optionen und ihre Funktionen findest du in unserer [Server-Konfiguration](enshrouded-configuration.md) Anleitung.
 
-## Starten und Verbinden mit deinem Server
+## Server starten & verbinden
 
-Jetzt ist es an der Zeit, deinen Server zu starten. Gehe in das Basisverzeichnis deines Enshrouded-Servers und starte **enshrouded_server.exe**, um den Startvorgang zu beginnen. Dadurch wird die Konsole des Servers in einer Eingabeaufforderung geöffnet und der Startvorgang beginnt. Jetzt kannst du dich direkt mit deinem Server verbinden, indem du auf die Registerkarte **Spiele finden** gehst, auf **Server hinzufügen** drückst und deine Server-IP und deinen Port eingibst (Standard ist 15636).
+Jetzt kannst du deinen Server starten. Gehe in das Hauptverzeichnis deines Enshrouded Servers und starte **enshrouded_server.exe**. Dadurch öffnet sich die Server-Konsole in einem Kommandozeilenfenster und der Startvorgang beginnt. Verbinde dich anschließend direkt über den Tab **Find Games**, klicke auf **Add Server** und gib deine Server-IP sowie den Port (Standard: 15636) ein.
 
-## Abschluss
+## Fazit
 
-Glückwunsch, du hast den Enshrouded Server erfolgreich installiert und konfiguriert! Solltest du noch weitere Fragen oder Probleme haben, dann wende dich gerne an unser Support-Team, welches dir jeden Tag zur Verfügung steht!
+Glückwunsch, du hast den Enshrouded Server erfolgreich auf deinem VPS installiert und konfiguriert! Falls du noch Fragen oder Probleme hast, steht dir unser Support-Team täglich zur Verfügung und hilft dir gerne weiter!
 
 <InlineVoucher />

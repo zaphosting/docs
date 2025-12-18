@@ -1,0 +1,302 @@
+[
+  {
+    "title": {
+      "en": "Will my domain be extended when transferring to ZAP?",
+      "de": "Wird meine Domain bei einem Transfer zu ZAP verlängert?",
+      "es": "¿Se extenderá mi dominio al transferirlo a ZAP?",
+      "fr": "Mon domaine sera-t-il prolongé lors du transfert vers ZAP ?",
+      "ar": "هل سيتم تمديد نطاقي عند نقله إلى ZAP؟",
+      "pt": "Meu domínio será estendido ao transferi-lo para a ZAP?",
+      "th": "โดเมนของฉันจะถูกขยายเมื่อโอนย้ายไปยัง ZAP หรือไม่?",
+      "pl": "Czy moja domena zostanie przedłużona podczas transferu do ZAP?",
+      "ja": "ドメインをZAPに移管すると、ドメインは延長されますか？",
+      "sv": "Kommer min domän att förlängas när jag överför den till ZAP?",
+      "it": "Il mio dominio verrà esteso quando verrà trasferito a ZAP?",
+      "nl": "Zal mijn domein worden verlengd wanneer ik het naar ZAP overzet?"
+    },
+    "content": {
+      "en": "Yes. When you transfer a domain to us, it will be renewed for one year starting from the transfer date.",
+      "de": "Ja. Wenn du eine Domain zu uns überträgst, wird sie ab dem Transferdatum um ein Jahr verlängert.",
+      "es": "Sí. Cuando transfieras un dominio a nosotros, se renovará por un año a partir de la fecha de transferencia.",
+      "fr": "Oui. Lorsque vous transférez un domaine vers nous, il sera renouvelé pour une durée d'un an à partir de la date de transfert.",
+      "ar": "نعم. عند نقل نطاق إليك، سيتم تجديده لمدة عام واحد بدءًا من تاريخ النقل.",
+      "pt": "Sim. Quando você transferir um domínio para nós, ele será renovado por um ano a partir da data da transferência.",
+      "th": "ใช่ เมื่อคุณโอนโดเมนมาที่เรา โดเมนจะถูกต่ออายุเป็นระยะเวลา 1 ปี เริ่มตั้งแต่วันที่โอน",
+      "pl": "Tak. Kiedy przeniesiesz domenę do nas, zostanie ona odnowiona na jeden rok, począwszy od daty transferu.",
+      "ja": "はい。ドメインを当社に移管すると、移管日から1年間更新されます。",
+      "sv": "Ja. När du överför en domän till oss kommer den att förnyas i ett år från överföringsdatumet.",
+      "it": "Sì. Quando trasferisci un dominio a noi, verrà rinnovato per un anno a partire dalla data di trasferimento.",
+      "nl": "Ja. Wanneer je een domein naar ons overzet, wordt het voor één jaar verlengd vanaf de datum van overdracht."
+    }
+  },
+  {
+    "title": {
+      "en": "Are domains included in the Webspace XtraXtra Large plan?",
+      "de": "Sind Domains im Webspace XtraXtra Large Tarif enthalten?",
+      "es": "¿Se incluyen dominios en el plan Webspace XtraXtra Large?",
+      "fr": "Les domaines sont-ils inclus dans le plan Webspace XtraXtra Large ?",
+      "ar": "هل النطاقات مشمولة في خطة Webspace XtraXtra Large؟",
+      "pt": "Os domínios estão incluídos no plano Webspace XtraXtra Large?",
+      "th": "โดเมนรวมอยู่ในแผน Webspace XtraXtra Large หรือไม่?",
+      "pl": "Czy domeny są wliczone w plan Webspace XtraXtra Large?",
+      "ja": "Webspace XtraXtra Largeプランにはドメインが含まれていますか？",
+      "sv": "Ingår domäner i Webspace XtraXtra Large-planen?",
+      "it": "I domini sono inclusi nel piano Webspace XtraXtra Large?",
+      "nl": "Zijn domeinen inbegrepen in het Webspace XtraXtra Large plan?"
+    },
+    "content": {
+      "en": "No. Domains are not part of the package and must be purchased separately.",
+      "de": "Nein. Domains sind nicht im Paket enthalten und müssen separat erworben werden.",
+      "es": "No. Los dominios no son parte del paquete y deben comprarse por separado.",
+      "fr": "Non. Les domaines ne font pas partie du forfait et doivent être achetés séparément.",
+      "ar": "لا. النطاقات ليست جزءًا من الحزمة ويجب شراؤها بشكل منفصل.",
+      "pt": "Não. Domínios não fazem parte do pacote e devem ser adquiridos separadamente.",
+      "th": "ไม่. โดเมนไม่รวมอยู่ในแพ็กเกจและต้องซื้อแยกต่างหาก",
+      "pl": "Nie. Domeny nie są częścią pakietu i muszą być zakupione osobno.",
+      "ja": "いいえ。ドメインはパッケージに含まれておらず、別途購入する必要があります。",
+      "sv": "Nej. Domäner ingår inte i paketet och måste köpas separat.",
+      "it": "No. I domini non fanno parte del pacchetto e devono essere acquistati separatamente.",
+      "nl": "Nee. Domeinen maken geen deel uit van het pakket en moeten apart worden aangeschaft."
+    }
+  },
+  {
+    "title": {
+      "en": "How can I protect my WHOIS contact details?",
+      "de": "Wie kann ich meine WHOIS-Kontaktdaten schützen?",
+      "es": "¿Cómo puedo proteger mis detalles de contacto WHOIS?",
+      "fr": "Comment puis-je protéger mes coordonnées WHOIS ?",
+      "ar": "كيف يمكنني حماية تفاصيل الاتصال الخاصة بي في WHOIS؟",
+      "pt": "Como posso proteger meus dados de contato do WHOIS?",
+      "th": "คุณจะปกป้องรายละเอียดการติดต่อ WHOIS ของคุณได้อย่างไร?",
+      "pl": "Jak mogę chronić swoje dane kontaktowe WHOIS?",
+      "ja": "WHOISの連絡先情報を保護するにはどうすればよいですか？",
+      "sv": "Hur kan jag skydda mina WHOIS-kontaktuppgifter?",
+      "it": "Come posso proteggere i miei dettagli di contatto WHOIS?",
+      "nl": "Hoe kan ik mijn WHOIS-contactgegevens beschermen?"
+    },
+    "content": {
+      "en": "You can manage and add alternative contact handles via the 'Handle Management' section in our web interface.",
+      "de": "In der 'Handleverwaltung' im Webinterface kannst du alternative Kontakt-Handles hinzufügen und verwalten.",
+      "es": "Puedes gestionar y añadir contactos alternativos a través de la sección 'Gestión de Contactos' en nuestra interfaz web.",
+      "fr": "Vous pouvez gérer et ajouter des identifiants de contact alternatifs via la section 'Gestion des Identifiants' dans notre interface web.",
+      "ar": "يمكنك إدارة وإضافة وسائل اتصال بديلة من خلال قسم \"إدارة الوسوم\" في واجهتنا على الويب.",
+      "pt": "Você pode gerenciar e adicionar identificadores de contato alternativos na seção 'Gerenciamento de Identificadores' em nossa interface web.",
+      "th": "คุณสามารถจัดการและเพิ่มช่องทางการติดต่อทางเลือกได้ผ่านส่วน 'การจัดการช่องทาง' ในอินเทอร์เฟซเว็บของเรา",
+      "pl": "Możesz zarządzać i dodawać alternatywne kontakty za pośrednictwem sekcji 'Zarządzanie Kontaktami' w naszym interfejsie internetowym.",
+      "ja": "ウェブインターフェースの「ハンドル管理」セクションを通じて、代替の連絡ハンドルを管理および追加することができます。",
+      "sv": "Du kan hantera och lägga till alternativa kontaktadresser via avsnittet 'Hantera adresser' i vårt webbgränssnitt.",
+      "it": "Puoi gestire e aggiungere contatti alternativi tramite la sezione 'Gestione Maniglie' nella nostra interfaccia web.",
+      "nl": "U kunt alternatieve contacthandels beheren en toevoegen via de sectie 'Handlebeheer' in onze webinterface."
+    }
+  },
+  {
+    "title": {
+      "en": "Is there a limit to the number of subdomains I can create?",
+      "de": "Gibt es eine Begrenzung für die Anzahl der Subdomains?",
+      "es": "¿Hay un límite en la cantidad de subdominios que puedo crear?",
+      "fr": "Y a-t-il une limite au nombre de sous-domaines que je peux créer ?",
+      "ar": "هل هناك حد لعدد النطاقات الفرعية التي يمكنني إنشاؤها؟",
+      "pt": "Há um limite para o número de subdomínios que posso criar?",
+      "th": "มีข้อจำกัดในการสร้างซับโดเมนจำนวนเท่าใดหรือไม่?",
+      "pl": "Czy istnieje limit liczby subdomen, które mogę utworzyć?",
+      "ja": "サブドメインを作成できる数に制限はありますか？",
+      "sv": "Finns det en gräns för antalet subdomäner jag kan skapa?",
+      "it": "C'è un limite al numero di sottodomini che posso creare?",
+      "nl": "Is er een limiet aan het aantal subdomeinen dat ik kan aanmaken?"
+    },
+    "content": {
+      "en": "No. There is no restriction from our side on how many subdomains you can set up.",
+      "de": "Nein. Es gibt keine Einschränkung von unserer Seite, wie viele Subdomains du erstellen kannst.",
+      "es": "No. No hay ninguna restricción de nuestra parte sobre cuántos subdominios puedes configurar.",
+      "fr": "Non. Il n'y a aucune restriction de notre part sur le nombre de sous-domaines que vous pouvez configurer.",
+      "ar": "لا. لا توجد قيود من جانبنا على عدد النطاقات الفرعية التي يمكنك إعدادها.",
+      "pt": "Não. Não há restrição da nossa parte sobre quantos subdomínios você pode configurar.",
+      "th": "ไม่ มีข้อจำกัดจากทางเราเกี่ยวกับจำนวนซับโดเมนที่คุณสามารถตั้งค่าได้",
+      "pl": "Nie. Nie ma z naszej strony żadnych ograniczeń dotyczących liczby subdomen, które możesz utworzyć.",
+      "ja": "いいえ。サブドメインの設定に関して、当社からの制限はありません。",
+      "sv": "Nej. Det finns ingen begränsning från vår sida på hur många subdomäner du kan ställa in.",
+      "it": "No. Non ci sono restrizioni da parte nostra su quanti sottodomini puoi configurare.",
+      "nl": "Nee. Er zijn geen beperkingen van onze kant op het aantal subdomeinen dat je kunt instellen."
+    }
+  },
+  {
+    "title": {
+      "en": "How can I connect my domain to my Minecraft server?",
+      "de": "Wie verknüpfe ich meine Domain mit meinem Minecraft-Server?",
+      "es": "¿Cómo puedo conectar mi dominio a mi servidor de Minecraft?",
+      "fr": "Comment puis-je connecter mon domaine à mon serveur Minecraft ?",
+      "ar": "كيف يمكنني ربط نطاقي بخادم Minecraft الخاص بي؟",
+      "pt": "Como posso conectar meu domínio ao meu servidor Minecraft?",
+      "th": "คุณจะเชื่อมต่อโดเมนของคุณกับเซิร์ฟเวอร์ Minecraft ของคุณได้อย่างไร?",
+      "pl": "Jak mogę połączyć moją domenę z moim serwerem Minecraft?",
+      "ja": "Minecraftサーバーにドメインを接続するには、以下の手順を実行してください。\n\n1. **ドメインの取得**: まず、ドメイン名を取得します。これは、GoDaddyやNamecheapなどのドメインレジストラを通じて行うことができます。\n\n2. **DNS設定の変更**: ドメインを取得したら、DNS設定を変更する必要があります。これには、Aレコードを設定して、あなたのMinecraftサーバーのIPアドレスを指すようにします。サーバーがVPSまたはDedicated Serverの場合、そのIPアドレスを使用します。\n\n3. **ポートの設定**: Minecraftサーバーは通常、ポート25565を使用します。ファイアウォールやルーターの設定でこのポートが開いていることを確認してください。\n\n4. **サーバーの設定**: Minecraftサーバーの設定ファイル（server.properties）を開き、`server-ip`フィールドを空白のままにしておくか、必要に応じて設定します。\n\n5. **接続の確認**: DNS設定が反映されるまで数時間かかることがあります。設定が完了したら、Minecraftクライアントを開き、ドメイン名を使用してサーバーに接続できるか確認します。\n\nこれで、あなたのドメインがMinecraftサーバーに接続されるはずです。問題が発生した場合は、DNS設定やサーバーの設定を再確認してください。",
+      "sv": "Hur kan jag koppla min domän till min Minecraft-server?",
+      "it": "Come posso collegare il mio dominio al mio server Minecraft?",
+      "nl": "Hoe kan ik mijn domein verbinden met mijn Minecraft-server?"
+    },
+    "content": {
+      "en": "If your domain is registered with us, you can link it to your Minecraft server using our EasyDNS module. Simply choose your server as the target.",
+      "de": "Wenn deine Domain bei uns registriert ist, kannst du sie über das EasyDNS-Modul direkt mit deinem Minecraft-Server verbinden. Wähle dazu einfach deinen Server als Ziel.",
+      "es": "Si su dominio está registrado con nosotros, puede vincularlo a su servidor de Minecraft utilizando nuestro módulo EasyDNS. Simplemente elija su servidor como el objetivo.",
+      "fr": "Si votre domaine est enregistré chez nous, vous pouvez le lier à votre serveur Minecraft en utilisant notre module EasyDNS. Il vous suffit de choisir votre serveur comme cible.",
+      "ar": "إذا كان نطاقك مسجلاً لدينا، يمكنك ربطه بخادم Minecraft الخاص بك باستخدام وحدة EasyDNS الخاصة بنا. ما عليك سوى اختيار خادمك كهدف.",
+      "pt": "Se o seu domínio estiver registrado conosco, você pode vinculá-lo ao seu servidor Minecraft usando nosso módulo EasyDNS. Basta escolher seu servidor como o destino.",
+      "th": "หากโดเมนของคุณลงทะเบียนกับเรา คุณสามารถเชื่อมโยงมันกับเซิร์ฟเวอร์ Minecraft ของคุณโดยใช้โมดูล EasyDNS ของเรา เพียงเลือกเซิร์ฟเวอร์ของคุณเป็นเป้าหมาย",
+      "pl": "Jeśli Twoja domena jest zarejestrowana u nas, możesz połączyć ją ze swoim serwerem Minecraft, korzystając z naszego modułu EasyDNS. Wystarczy, że wybierzesz swój serwer jako cel.",
+      "ja": "ドメインが当社に登録されている場合、EasyDNSモジュールを使用してMinecraftサーバーにリンクすることができます。ターゲットとしてサーバーを選択するだけです。",
+      "sv": "Om din domän är registrerad hos oss kan du koppla den till din Minecraft-server med hjälp av vår EasyDNS-modul. Välj helt enkelt din server som mål.",
+      "it": "Se il tuo dominio è registrato con noi, puoi collegarlo al tuo server Minecraft utilizzando il nostro modulo EasyDNS. Basta scegliere il tuo server come obiettivo.",
+      "nl": "Als uw domein bij ons is geregistreerd, kunt u het koppelen aan uw Minecraft-server met behulp van onze EasyDNS-module. Kies eenvoudig uw server als doel."
+    }
+  },
+  {
+    "title": {
+      "en": "Which nameservers should I use for an external domain?",
+      "de": "Welche Nameserver muss ich für eine externe Domain nutzen?",
+      "es": "¿Qué servidores de nombres debo usar para un dominio externo?",
+      "fr": "Quels serveurs de noms devrais-je utiliser pour un domaine externe ?",
+      "ar": "ما هي خوادم الأسماء التي يجب أن أستخدمها لنطاق خارجي؟",
+      "pt": "Quais servidores de nomes devo usar para um domínio externo?",
+      "th": "คุณควรใช้ nameserver ใดสำหรับโดเมนภายนอก?",
+      "pl": "Jakie serwery nazw powinienem użyć dla zewnętrznej domeny?",
+      "ja": "外部ドメインにはどのネームサーバーを使用すればよいですか？",
+      "sv": "Vilka namnservrar bör jag använda för en extern domän?",
+      "it": "Quali server DNS dovrei utilizzare per un dominio esterno?",
+      "nl": "Welke nameservers moet ik gebruiken voor een extern domein?"
+    },
+    "content": {
+      "en": "If you manage your domain externally, you should continue to use the nameservers provided by your external host.",
+      "de": "Wenn du deine Domain extern verwaltest, solltest du weiterhin die Nameserver deines externen Anbieters verwenden.",
+      "es": "Si gestionas tu dominio externamente, deberías continuar utilizando los servidores de nombres proporcionados por tu host externo.",
+      "fr": "Si vous gérez votre domaine de manière externe, vous devez continuer à utiliser les serveurs de noms fournis par votre hébergeur externe.",
+      "ar": "إذا كنت تدير نطاقك خارجيًا، يجب عليك الاستمرار في استخدام خوادم الأسماء المقدمة من مضيفك الخارجي.",
+      "pt": "Se você gerencia seu domínio externamente, deve continuar a usar os servidores de nomes fornecidos pelo seu host externo.",
+      "th": "หากคุณจัดการโดเมนของคุณจากภายนอก คุณควรใช้ nameservers ที่ให้โดยโฮสต์ภายนอกของคุณต่อไป",
+      "pl": "Jeśli zarządzasz swoją domeną zewnętrznie, powinieneś nadal korzystać z serwerów nazw dostarczonych przez swojego zewnętrznego hosta.",
+      "ja": "ドメインを外部で管理している場合は、外部ホストが提供するネームサーバーを引き続き使用する必要があります。",
+      "sv": "Om du hanterar din domän externt bör du fortsätta att använda de namnservrar som tillhandahålls av din externa värd.",
+      "it": "Se gestisci il tuo dominio esternamente, dovresti continuare a utilizzare i nameserver forniti dal tuo host esterno.",
+      "nl": "Als je je domein extern beheert, moet je de nameservers blijven gebruiken die door je externe host worden geleverd."
+    }
+  },
+  {
+    "title": {
+      "en": "Is HTTP or frame forwarding supported for domains?",
+      "de": "Unterstützt ihr HTTP- oder Frame-Weiterleitungen für Domains?",
+      "es": "¿Se admite HTTP o reenvío de tramas para dominios?",
+      "fr": "Le transfert HTTP ou de trames est-il pris en charge pour les domaines ?",
+      "ar": "هل يتم دعم HTTP أو توجيه الإطارات للنطاقات؟",
+      "pt": "O HTTP ou o encaminhamento de quadros são suportados para domínios?",
+      "th": "การสนับสนุน HTTP หรือการส่งต่อเฟรมสำหรับโดเมนมีหรือไม่?",
+      "pl": "Czy dla domen obsługiwane są HTTP lub przekazywanie ramek?",
+      "ja": "ドメインに対してHTTPまたはフレーム転送はサポートされていますか？",
+      "sv": "Stöds HTTP eller ramvidarebefordran för domäner?",
+      "it": "È supportato l'HTTP o il forwarding dei frame per i domini?",
+      "nl": "Wordt HTTP of frame forwarding ondersteund voor domeinen?"
+    },
+    "content": {
+      "en": "No. These types of redirects are not supported for domains. You would need a VPS, Root Server, or Dedicated Server to configure such forwarding.",
+      "de": "Nein. Solche Weiterleitungen werden für Domains nicht unterstützt. Dafür benötigst du einen VPS, Rootserver oder Dedicated Server.",
+      "es": "No. Este tipo de redirecciones no son compatibles con dominios. Necesitarías un VPS, un Servidor Raíz o un Servidor Dedicado para configurar dicho reenvío.",
+      "fr": "Non. Ces types de redirections ne sont pas pris en charge pour les domaines. Vous auriez besoin d'un VPS, d'un serveur racine ou d'un serveur dédié pour configurer ce type de redirection.",
+      "ar": "لا. هذه الأنواع من إعادة التوجيه غير مدعومة للنطاقات. ستحتاج إلى VPS أو خادم جذر أو خادم مخصص لتكوين مثل هذا التوجيه.",
+      "pt": "Não. Esses tipos de redirecionamentos não são suportados para domínios. Você precisaria de um VPS, Servidor Root ou Servidor Dedicado para configurar esse tipo de encaminhamento.",
+      "th": "ไม่. การเปลี่ยนเส้นทางประเภทนี้ไม่รองรับสำหรับโดเมน คุณจะต้องมี VPS, Root Server หรือ Dedicated Server เพื่อกำหนดค่าการส่งต่อดังกล่าว",
+      "pl": "Nie. Tego typu przekierowania nie są obsługiwane dla domen. Będziesz potrzebować VPS, serwera root lub serwera dedykowanego, aby skonfigurować takie przekierowanie.",
+      "ja": "いいえ。これらのタイプのリダイレクトはドメインにはサポートされていません。そのような転送を設定するには、VPS、ルートサーバー、または専用サーバーが必要です。",
+      "sv": "Nej. Dessa typer av omdirigeringar stöds inte för domäner. Du skulle behöva en VPS, Root Server eller Dedicated Server för att konfigurera sådan vidarebefordran.",
+      "it": "No. Questi tipi di reindirizzamenti non sono supportati per i domini. Avresti bisogno di un VPS, un Server Root o un Server Dedicato per configurare tale inoltro.",
+      "nl": "Nee. Deze soorten omleidingen worden niet ondersteund voor domeinen. U heeft een VPS, Root Server of Dedicated Server nodig om dergelijke doorsturing te configureren."
+    }
+  },
+  {
+    "title": {
+      "en": "Do webspace packages include DynDNS?",
+      "de": "Ist DynDNS in den Webspace-Paketen enthalten?",
+      "es": "¿Los paquetes de espacio web incluyen DynDNS?",
+      "fr": "Les forfaits d'espace web incluent-ils DynDNS ?",
+      "ar": "هل تشمل حزم مساحة الويب DynDNS؟",
+      "pt": "Os pacotes de espaço na web incluem DynDNS?",
+      "th": "แพ็คเกจพื้นที่เว็บรวม DynDNS หรือไม่?",
+      "pl": "Czy pakiety przestrzeni internetowej zawierają DynDNS?",
+      "ja": "ウェブスペースパッケージにはDynDNSが含まれていますか？",
+      "sv": "Inkluderar webbplatspaket DynDNS?",
+      "it": "I pacchetti di webspace includono DynDNS?",
+      "nl": "Bevatten webhostingpakketten DynDNS?"
+    },
+    "content": {
+      "en": "No. Our webspace is managed with Plesk, which does not support DynDNS.",
+      "de": "Nein. Unser Webspace wird mit Plesk verwaltet, und Plesk unterstützt kein DynDNS.",
+      "es": "No. Nuestro espacio web está gestionado con Plesk, que no soporta DynDNS.",
+      "fr": "Non. Notre espace web est géré avec Plesk, qui ne prend pas en charge DynDNS.",
+      "ar": "لا. يتم إدارة مساحة الويب الخاصة بنا باستخدام Plesk، الذي لا يدعم DynDNS.",
+      "pt": "Não. Nosso espaço na web é gerenciado com Plesk, que não suporta DynDNS.",
+      "th": "ไม่. พื้นที่เว็บของเราถูกจัดการด้วย Plesk ซึ่งไม่รองรับ DynDNS.",
+      "pl": "Nie. Nasza przestrzeń internetowa jest zarządzana za pomocą Plesk, który nie obsługuje DynDNS.",
+      "ja": "いいえ。当社のウェブスペースはPleskで管理されており、DynDNSはサポートされていません。",
+      "sv": "Nej. Vårt webbhotell hanteras med Plesk, som inte stöder DynDNS.",
+      "it": "No. Il nostro spazio web è gestito con Plesk, che non supporta DynDNS.",
+      "nl": "Nee. Onze webruimte wordt beheerd met Plesk, dat DynDNS niet ondersteunt."
+    }
+  },
+  {
+    "title": {
+      "en": "Why does my domain only have 360 days instead of 365?",
+      "de": "Warum hat meine Domain nur 360 Tage statt 365?",
+      "es": "¿Por qué mi dominio solo tiene 360 días en lugar de 365?",
+      "fr": "Pourquoi mon domaine n'a-t-il que 360 jours au lieu de 365 ?",
+      "ar": "لماذا يحتوي نطاقي على 360 يومًا فقط بدلاً من 365؟",
+      "pt": "Por que meu domínio tem apenas 360 dias em vez de 365?",
+      "th": "ทำไมโดเมนของฉันถึงมีอายุเพียง 360 วันแทนที่จะเป็น 365 วัน?",
+      "pl": "Dlaczego moja domena ma tylko 360 dni zamiast 365?",
+      "ja": "なぜ私のドメインは365日ではなく360日しかないのですか？",
+      "sv": "Varför har min domän bara 360 dagar istället för 365?",
+      "it": "Perché il mio dominio ha solo 360 giorni invece di 365?",
+      "nl": "Waarom heeft mijn domein slechts 360 dagen in plaats van 365?"
+    },
+    "content": {
+      "en": "We calculate our annual billing cycle based on the German bank year, which consists of 360 days.",
+      "de": "Wir berechnen den jährlichen Abrechnungszeitraum nach dem deutschen Bankjahr, das 360 Tage umfasst.",
+      "es": "Calculamos nuestro ciclo de facturación anual en base al año bancario alemán, que consta de 360 días.",
+      "fr": "Nous calculons notre cycle de facturation annuel en fonction de l'année bancaire allemande, qui se compose de 360 jours.",
+      "ar": "نحسب دورة الفوترة السنوية لدينا بناءً على السنة المصرفية الألمانية، التي تتكون من 360 يومًا.",
+      "pt": "Calculamos nosso ciclo de faturamento anual com base no ano bancário alemão, que consiste em 360 dias.",
+      "th": "เราคำนวณรอบการเรียกเก็บเงินประจำปีของเราตามปีธนาคารเยอรมัน ซึ่งประกอบด้วย 360 วัน",
+      "pl": "Obliczamy nasz roczny cykl rozliczeniowy na podstawie niemieckiego roku bankowego, który składa się z 360 dni.",
+      "ja": "私たちは、360日から成るドイツの銀行年度に基づいて、年間請求サイクルを計算しています。",
+      "sv": "Vi beräknar vår årliga faktureringscykel baserat på det tyska bankåret, som består av 360 dagar.",
+      "it": "Calcoliamo il nostro ciclo di fatturazione annuale in base all'anno bancario tedesco, che consiste di 360 giorni.",
+      "nl": "Wij berekenen onze jaarlijkse factureringscyclus op basis van het Duitse bankjaar, dat uit 360 dagen bestaat."
+    }
+  },
+  {
+    "title": {
+      "en": "Are email addresses included with my domain?",
+      "de": "Sind E-Mail-Adressen bei einer Domain enthalten?",
+      "es": "¿Se incluyen direcciones de correo electrónico con mi dominio?",
+      "fr": "Les adresses e-mail sont-elles incluses avec mon domaine ?",
+      "ar": "هل تتضمن عناوين البريد الإلكتروني مع نطاقي؟",
+      "pt": "Os endereços de e-mail estão incluídos com meu domínio?",
+      "th": "อีเมลแอดเดรสรวมอยู่กับโดเมนของฉันหรือไม่?",
+      "pl": "Czy adresy e-mail są dołączone do mojej domeny?",
+      "ja": "私のドメインにはメールアドレスが含まれていますか？",
+      "sv": "Ingår e-postadresser med min domän?",
+      "it": "Gli indirizzi email sono inclusi con il mio dominio?",
+      "nl": "Zijn e-mailadressen inbegrepen bij mijn domein?"
+    },
+    "content": {
+      "en": "No. Ordering a domain does not include email services. You need webspace or a server to set up email accounts.",
+      "de": "Nein. Eine Domainbestellung enthält keine E-Mail-Dienste. Für E-Mail-Adressen benötigst du Webspace oder einen Server.",
+      "es": "No. Pedir un dominio no incluye servicios de correo electrónico. Necesitas espacio web o un servidor para configurar cuentas de correo electrónico.",
+      "fr": "Non. La commande d'un domaine n'inclut pas les services de messagerie. Vous avez besoin d'un espace web ou d'un serveur pour configurer des comptes de messagerie.",
+      "ar": "لا. طلب نطاق لا يتضمن خدمات البريد الإلكتروني. تحتاج إلى مساحة ويب أو خادم لإعداد حسابات البريد الإلكتروني.",
+      "pt": "Não. A compra de um domínio não inclui serviços de email. Você precisa de espaço na web ou de um servidor para configurar contas de email.",
+      "th": "ไม่ การสั่งซื้อโดเมนไม่ได้รวมบริการอีเมล คุณต้องมีพื้นที่เว็บหรือเซิร์ฟเวอร์เพื่อสร้างบัญชีอีเมล",
+      "pl": "Nie. Zamówienie domeny nie obejmuje usług e-mailowych. Potrzebujesz przestrzeni na stronie internetowej lub serwera, aby skonfigurować konta e-mailowe.",
+      "ja": "いいえ。ドメインの注文にはメールサービスは含まれていません。メールアカウントを設定するには、ウェブスペースまたはサーバーが必要です。",
+      "sv": "Nej. Beställning av en domän inkluderar inte e-posttjänster. Du behöver webbplatsutrymme eller en server för att ställa in e-postkonton.",
+      "it": "No. Ordinare un dominio non include i servizi email. Hai bisogno di spazio web o di un server per configurare gli account email.",
+      "nl": "Nee. Het bestellen van een domein omvat geen e-maildiensten. U heeft webruimte of een server nodig om e-mailaccounts in te stellen."
+    }
+  }
+]

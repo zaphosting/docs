@@ -1,7 +1,7 @@
 ---
 id: redm-installresources
 title: "RedM: Installation von Ressourcen"
-description: Informationen, wie du Ressourcen auf deinen RedM-Server von ZAP-Hosting installieren kannst - ZAP-Hosting.com Dokumentation
+description: "Entdecke, wie du deinen RedM Gameserver mit beliebten Ressourcen für größere Projekte wie Roleplay-Server aufwertest → Jetzt mehr erfahren"
 sidebar_label: Ressourcen installieren
 services:
   - gameserver-redm
@@ -12,54 +12,54 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
 
-Ressourcen können verwendet werden, um deinen RedM Server um zusätzliche Funktionen zu erweitern. Dies ist gerade dann interessant, wenn du größere Projekte angehen möchtest, wie zum Beispiel einen Roleplay Server oder ähnlichen. Ohne solche zusätzlichen Ressourcen lässt sich das so direkt nicht umsetzen.
+Ressourcen kannst du nutzen, um deinen RedM Gameserver mit zusätzlichen Features zu erweitern. Das ist besonders spannend, wenn du größere Projekte wie einen Roleplay-Server oder Ähnliches planst. So etwas geht nicht ohne solche zusätzlichen Ressourcen.
 
-RedM beziehungsweise dessen Community bietet hierbei eine große Auswahl an Ressourcen an. Eine Übersicht mit den beliebtesten Ressourcen findest du im Cfx.re Forum: https://forum.cfx.re/c/redm-development/54
+RedM und seine Community bieten eine riesige Auswahl an Ressourcen. Eine Übersicht der beliebtesten Ressourcen findest du im Cfx.re Forum: https://forum.cfx.re/c/redm-development/54
+
+
 
 <InlineVoucher />
 
 ## Vorbereitung
 
-Die Installation der Ressourcen erfolgt per FTP. Du benötigst einen FTP-Client, um Dateien auf deinen Server hochzuladen. Falls du nicht mit der Verwendung von FTP vertraut bist, empfehlen wir dir, einen Blick in die [FTP-Zugriff](gameserver-ftpaccess.md) Anleitung zu werfen.
+Die Installation der Ressourcen erfolgt via FTP. Du brauchst also einen FTP-Client, um Dateien auf deinen Server hochzuladen. Falls du noch nicht mit FTP vertraut bist, empfehlen wir dir einen Blick in die [FTP-Zugang](gameserver-ftpaccess.md) Anleitung.
 
-Heruntergeladene Ressourcen werden in der Regel in einem komprimierten Format bereitgestellt. Das bedeutet, dass du die komprimierten Dateien mit einem Entpackungsprogramm wie 7Zip, Winrar oder WinZip entpacken musst. Der entpackte Ressourcenordner sollte mindestens die folgenden Dateien enthalten: `__resource.lua` oder `fxmanifest.lua` sowie die zugehörigen Skriptdateien.
+Heruntergeladene Ressourcen werden meist in komprimierter Form angeboten. Das heißt, du musst die gepackten Dateien mit einem Entpackprogramm wie 7Zip, WinRAR oder WinZip entpacken. Der entpackte Ressourcen-Ordner sollte mindestens folgende Dateien enthalten: `__resource.lua` oder `fxmanifest.lua` sowie die zugehörigen Skriptdateien.
 
 :::info
-Falls diese Dateien nicht vorhanden sind, kann es sein, dass sie sich in einem Unterverzeichnis innerhalb der Ressource befinden.
+Falls diese Dateien nicht direkt sichtbar sind, könnten sie sich in einem Unterordner innerhalb der Ressource befinden.
 :::
-
 
 ## Installation
 
 ### Dateien hochladen
 
-Du musst nun die zuvor unkomprimierten Dateien als einen einzelnen Ordner hochladen (falls noch nicht geschehen). Dein Ordner muss in das `Ressource`-Verzeichnis des Servers hochgeladen werden. Die Verzeichnisstruktur sieht normalerweise wie folgt aus: `/gXXXXXX/redm-txadmin/DEIN_FRAMEWORK/resources`
+Jetzt musst du die zuvor entpackten Dateien als einzelnen Ordner (falls noch nicht geschehen) hochladen. Dein Ordner muss in das `resource`-Verzeichnis deines Servers hochgeladen werden. Die Verzeichnisstruktur sieht typischerweise so aus: `/gXXXXXX/redm-txadmin/YOUR_FRAMEWORK/resources`
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/ofMKfG6rfewsb3o/preview)
 
-Bestimmte Ressourcen kooperieren mit einer Datenbank und enthalten daher oft bereits SQL-Dateien, die in die Datenbank importiert werden müssen. Wenn dies der Fall ist, dann lese unsere Anleitung [SQL-Datei importieren](redm-sql-file-import.md), um mehr darüber zu erfahren, wie du dies tun kannst.
+
+
+Manche Ressourcen arbeiten mit einer Datenbank zusammen und enthalten daher oft schon SQL-Dateien, die in die Datenbank importiert werden müssen. Falls das bei dir der Fall ist, schau dir unsere [SQL-Datei Import](redm-sql-file-import.md) Anleitung an, um zu erfahren, wie das geht.
 
 ### Aktivierung
 
-Um sicherzustellen, dass die installierte Ressource beim Start des Servers geladen wird, musst du sie zunächst in der Datei `server.cfg` für deinen Server aktivieren. Die Aktivierung erfolgt über den Befehl `start [Beispielressource]`. 
+Damit die installierte Ressource beim Serverstart geladen wird, musst du sie zuerst in der `server.cfg` Datei deines Servers aktivieren. Die Aktivierung erfolgt über den Befehl `start [Beispiel Ressource]`.
 
-Wenn du zum Beispiel die Ressource mit dem Ordnernamen `eup-ui` hochgeladen hast, muss der Startbefehl in der Konfiguration wie folgt aussehen: 
+Wenn du zum Beispiel die Ressource mit dem Ordnernamen `eup-ui` hochgeladen hast, muss der Startbefehl in der Config so aussehen:
 ```
 start eup-ui
 ```
 
-Du kannst auf deine `server.cfg` Konfigurationsdatei über den CFG Editor im txAdmin interface zugreifen.
+Auf deine `server.cfg` Datei kannst du über den CFG Editor im txAdmin Interface zugreifen.
 
 :::info
-Bitte vergewissern dich, dass der Name des zuvor erstellten Ordners mit dem Namen übereinstimmt, der im Startbefehl angegeben ist. Dabei ist auch die Groß- und Kleinschreibung zu beachten.
+Achte darauf, dass der Name des zuvor erstellten Ordners exakt mit dem im Startbefehl übereinstimmt – inklusive Groß- und Kleinschreibung.
 :::
 
 
 
-
-
-## Abschluss
-
-Abschließend kannst du deinen Server neu starten. Die installierte Ressource sollte nun geladen werden, wenn dein Server das nächste Mal vollständig gestartet ist. Du hast erfolgreich eine Ressource auf deinem RedM Gameserver installiert.  Für weitere Fragen oder Hilfe zögere bitte nicht, unser Support-Team zu kontaktieren, das dir täglich zur Verfügung steht! 🙂
+## Fazit
+Zum Schluss kannst du deinen Server neu starten. Die installierte Ressource sollte beim nächsten vollständigen Start deines Servers geladen werden. Du hast erfolgreich eine Ressource in deinen RedM Gameserver installiert. Bei weiteren Fragen oder wenn du Hilfe brauchst, steht dir unser Support-Team täglich zur Seite! 🙂
 
 <InlineVoucher />

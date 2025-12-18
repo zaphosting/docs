@@ -1,17 +1,21 @@
 ---
 id: domain-handle-management
 title: "Domain: Handle Management"
-description: Learn how to create or edit a domain handle at ZAP-Hosting.
+description: "Understand how to maintain accurate domain contact details for compliance and reachability by managing your domain handles effectively → Learn more now"
 sidebar_label: Handle Management
 services:
   - domain
 ---
+
+import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introduction
 
 A **domain handle** is a data record containing contact information associated with a domain and used in public WHOIS databases. It identifies the domain owner as well as administrative or technical contacts. To keep this information accurate and up to date, you can manage handles in the domain management under Handle Management by editing existing ones or creating new entries.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/qNEeWEnbtHyxKEe/preview)
+
+<InlineVoucher />
 
 ## Creating or Editing
 

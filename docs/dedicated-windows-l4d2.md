@@ -1,7 +1,7 @@
 ---
 id: dedicated-windows-l4d2
 title: "Dedicated Server: Left 4 Dead 2 Dedicated Server Windows Setup"
-description: "Information about setting up a Left 4 Dead 2 Dedicated Server on a Windows VPS from ZAP-Hosting - ZAP-Hosting.com documentation"
+description: "Learn how to set up a Left 4 Dead 2 dedicated server on your VPS or dedicated server quickly and easily → Learn more now"
 sidebar_label: "Left 4 Dead 2"
 services:
   - vserver
@@ -13,7 +13,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 ## Introduction
 Got a VPS or dedicated server and want to install game servers on it? For example an Left 4 Dead 2 Dedicated Server? Then you are at the right place! In the following we will explain step by step how you can install such a service on your server.
 
-<InlineVoucher />
+
 
 ## Preparation
 
@@ -76,4 +76,4 @@ You should now see logs appear in your command prompt which signals that the sta
 
 Congratulations, you have successfully installed and configured the Left 4 Dead 2 server on your VPS! For further questions or assistance, please don't hesitate to contact our support team, which is available daily to assist you! 🙂
 
-<InlineVoucher />
+

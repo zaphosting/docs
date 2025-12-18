@@ -1,7 +1,7 @@
 ---
 id: vserver-windows-bitwarden
 title: "VPS: Setup Bitwarden on Windows"
-description: Information on how to setup Bitwarden on your Windows VPS from ZAP-Hosting - ZAP-Hosting.com documentation
+description: "Discover how to securely self-host Bitwarden for managing passwords with end-to-end encryption and strong credential features → Learn more now"
 sidebar_label: Install Bitwarden
 services:
   - vserver

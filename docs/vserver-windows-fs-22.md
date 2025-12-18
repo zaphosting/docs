@@ -1,7 +1,7 @@
 ---
 id: vserver-windows-fs-22
 title: "VPS: Farming Simulator 2022 Dedicated Server Windows Setup"
-description: Information about setting up a Farming Simulator 2022 Dedicated Server on a Windows VPS from ZAP-Hosting - ZAP-Hosting.com documentation
+description: "Discover how to set up Farming Simulator Dedicated Server 2022 on your Windows VPS for smooth multiplayer gameplay → Learn more now"
 sidebar_label: Farming Simulator 2022
 services:
   - vserver

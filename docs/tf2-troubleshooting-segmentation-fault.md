@@ -1,7 +1,7 @@
 ---
 id: tf2-troubleshooting-segmentation-fault
 title: "Team Fortress 2: Segmentation Fault"
-description: Information on how to resolve the segmentation fault error on a Team Fortress 2 server from ZAP-Hosting - ZAP-Hosting.com documentation
+description: "Understand the causes of segmentation faults to restore your server's stability and performance quickly → Learn more now"
 sidebar_label: Segmentation Fault
 services:
   - gameserver-tf2

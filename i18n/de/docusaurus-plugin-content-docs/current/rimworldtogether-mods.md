@@ -1,7 +1,7 @@
 ---
 id: rimworldtogether-mods
-title: "RimWorld Together: Installieren von Mods"
-description: Informationen über die Installation von Mods auf deinem RimWorld Together-Server von ZAP-Hosting - ZAP-Hosting.com Dokumentation
+title: "RimWorld Together: Mods installieren"
+description: "Entdecke, wie du deinen RimWorld Together Gameserver mit beliebten Mods für nahtloses Online-Co-op Gameplay aufrüstest → Jetzt mehr erfahren"
 sidebar_label: Mods installieren
 services:
   - gameserver
@@ -11,81 +11,79 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 import SearchableItemList from '@site/src/components/SearchableItemList/SearchableItemList';
 import items from '@site/data/lists/rimworldtogether-mods.json';
 
-
-
 ## Einführung
 
-RimWorld Together ist eine sehr beliebte Open-Source-Multiplayer-Mod, die vollständig von der RimWorld-Community betrieben wird und das Online-CO-OP-Gameplay für das Spiel RimWorld ermöglicht. In dieser Anleitung zeigen wir dir, wie du Mods auf deinem RimWorld Together-Server installierst.
+RimWorld Together ist ein mega beliebter Open-Source-Multiplayer-Mod, der komplett von der RimWorld Community betrieben wird und Online-CO-OP-Gameplay für RimWorld ermöglicht. In dieser Anleitung zeigen wir dir, wie du Mods auf deinem RimWorld Together Gameserver installierst.
 
 <InlineVoucher />
 
-## Mods einsammeln
+## Mods sammeln
 
-Du kannst eine Vielzahl verschiedener RimWorld-Mods auf deinem RimWorld Together-Server installieren.
+Du kannst eine riesige Auswahl an verschiedenen RimWorld Mods auf deinem RimWorld Together Gameserver installieren.
 
-Mods lassen sich in drei verschiedene Typen einteilen:
-- **Erzwungene Mods**: Diese sind erforderlich, d.h. der Client muss sie haben, sonst kann er sich nicht verbinden.
-- **Optional Mods**: Diese sind nicht erforderlich, d.h. der Kunde kann eine Verbindung herstellen, auch wenn er sie nicht hat.
-- **Verbotene Mods**: Diese Mods sind verboten, was bedeutet, dass der Server die Verbindung des Kunden sofort ablehnt.
+Mods lassen sich in drei Typen unterteilen:
+- **Erzwungene Mods**: Diese sind Pflicht, der Client muss sie haben, sonst kann er sich nicht verbinden.
+- **Optionale Mods**: Diese sind nicht zwingend, der Client kann sich auch ohne sie verbinden.
+- **Verbotene Mods**: Diese Mods sind gebannt, der Server lehnt die Verbindung des Clients sofort ab.
 
-Diese drei Typen werden im nächsten Abschnitt zum Hochladen von Mods angezeigt, da die Mods auf drei Ordner aufgeteilt sind.
+Diese drei Typen wirst du im nächsten Abschnitt zum Hochladen der Mods sehen, da die Mods in drei Ordner aufgeteilt sind.
 
-### Kerndateien & DLCs
+### Core-Dateien & DLCs
 
-Mit RimWorld Together kannst du ganz einfach Kerndateien und DLCs herunterladen. Diese werden genauso behandelt wie alle anderen Mods.
+RimWorld Together ermöglicht dir, Core-Dateien & DLCs ganz easy herunterzuladen. Diese werden genau wie andere Mods behandelt.
 
-Du kannst die Kerndateien und DLCs direkt aus dem [RimWorld Together GitHub Repository](https://github.com/RimworldTogether/RimWorld-Together) herunterladen, insbesondere aus dem Ordner **Extras.zip**.
+Du kannst die Core-Dateien und DLCs direkt aus dem [RimWorld Together GitHub Repository](https://github.com/RimworldTogether/RimWorld-Together) herunterladen, speziell den Ordner **Extras.zip**.
 
 ### Andere Mods
 
-Du kannst eine große Auswahl an RimWorld-Mods finden, indem du einfach im Internet suchst. Wir empfehlen, bei der Suche nach Mods die Seite [RimWorld's Steam Workshop](https://steamcommunity.com/app/294100/workshop/) zu verwenden, da sie sehr beliebt ist und daher mehr Mods verfügbar sind.
+Eine große Auswahl an RimWorld Mods findest du einfach durchs Internet suchen. Wir empfehlen dir besonders die [Steam Workshop Seite von RimWorld](https://steamcommunity.com/app/294100/workshop/), da sie mega beliebt ist und dadurch viele Mods bietet.
 
-Wenn du Mods direkt über Steam Workshop abonnierst, werden sie über deinen Steam-Client in das folgende Verzeichnis heruntergeladen: `../steamapps/workshop/content/294100`.
+Wenn du Mods direkt über den Steam Workshop abonnierst, werden sie über deinen Steam-Client in folgendes Verzeichnis geladen: `../steamapps/workshop/content/294100`.
 
 :::tip
-Wenn du RimWorld nicht auf Steam besitzt, kannst du trotzdem Dateien und Mods aus dem Steam Workshop herunterladen, indem du SteamCMD benutzt. Lade dir zunächst [SteamCMD von der offiziellen Valve-Website](https://developer.valvesoftware.com/wiki/SteamCMD) oder direkt [hier](https://steamcdn-a.akamaihd.net/client/installer/steamcmd.zip) herunter. Führe **steamcmd.exe** aus und warte, bis der Installationsprozess abgeschlossen ist. Wenn du fertig bist, gib in der Konsole `login anonymous` ein. 
+Falls du RimWorld nicht über Steam besitzt, kannst du Steam Workshop Dateien und Mods trotzdem mit SteamCMD herunterladen. Lade zuerst [SteamCMD von der offiziellen Valve-Seite](https://developer.valvesoftware.com/wiki/SteamCMD) oder direkt [hier](https://steamcdn-a.akamaihd.net/client/installer/steamcmd.zip) herunter. Starte **steamcmd.exe** und warte, bis die Installation abgeschlossen ist. Gib dann `login anonymous` in die Konsole ein.
 
-Jetzt kannst du anfangen, Mods herunterzuladen, indem du `workshop_download_item 294100 [workshop_id]` ausführst, wobei du `[workshop_id]` durch die ID der Steam Workshop Mod ersetzt. Du findest die ID der Workshop-Mod ganz einfach, indem du die URL analysierst, insbesondere den Endteil, z.B.: `/?id=3230195082`.
+Jetzt kannst du Mods herunterladen, indem du `workshop_download_item 294100 [workshop_id]` ausführst, wobei du `[workshop_id]` durch die ID des Steam Workshop Mods ersetzt. Die ID findest du ganz einfach in der URL, z.B. am Ende: `/?id=3230195082`.
 
-Alle Mods, die du über SteamCMD herunterlädst, werden im folgenden Pfad abgelegt: `../steamapps/workshop/content/294100`.
+Alle Mods, die du via SteamCMD herunterlädst, landen im Pfad: `../steamapps/workshop/content/294100`.
 :::
 
-Sobald du die Mods heruntergeladen hast, kannst du mit dem folgenden Abschnitt fortfahren, in dem es darum geht, sie auf deinen Gameserver hochzuladen.
+Sobald du deine Mods heruntergeladen hast, kannst du im nächsten Abschnitt weiterlesen, wie du sie auf deinen Gameserver hochlädst.
 
 :::note
-Es gibt bestimmte Mods, die garantiert nicht mit RimWorld Together kompatibel sind. Du kannst die Liste der bestätigten [inkompatiblen Mods hier](https://github.com/RimworldTogether/RimWorld-Together/blob/development/IncompatibilityList.md) einsehen.
+Es gibt bestimmte Mods, die definitiv nicht mit RimWorld Together kompatibel sind. Die Liste der bestätigten [inkompatiblen Mods findest du hier](https://github.com/RimworldTogether/RimWorld-Together/blob/development/IncompatibilityList.md).
 
-Außerdem kann es sein, dass andere Mods nicht wie erwartet funktionieren, wenn du versuchst, sie mit RimWorld Together zu verwenden. Du musst also einige Nachforschungen und Tests durchführen, um sicherzustellen, dass die Mods funktionieren.
+Außerdem kann es sein, dass andere Mods nicht wie erwartet funktionieren, wenn du sie mit RimWorld Together nutzt. Du solltest also etwas Zeit in Recherche und Tests investieren, um sicherzugehen, dass die Mods laufen.
 :::
 
 ## Mods hochladen
 
-Wenn du die Mods fertig hast, kannst du damit beginnen, dich per FTP mit deinem Gameserver zu verbinden. Lies unsere [Zugriff per FTP](gameserver-ftpaccess.md) Anleitung, um zu erfahren, wie das geht.
+Jetzt, wo du deine Mods ready hast, verbinde dich per FTP mit deinem Gameserver. Schau dir unsere [Anleitung zum FTP-Zugang](gameserver-ftpaccess.md) an, falls du Hilfe brauchst.
 
-Wenn dein FTP-Client bereit ist, navigiere in das folgende Verzeichnis:
+Im FTP-Client navigierst du zu folgendem Verzeichnis:
 ```
 ../rimworld-together/Mods
 ```
 
-In diesem Verzeichnis siehst du drei separate Ordner für verschiedene Arten von Mods. Damit knüpfen wir an den Anfang des vorherigen Abschnitts an, in dem wir die einzelnen Mod-Typen verglichen haben. Wenn du das noch nicht gelesen hast, empfehlen wir dir, noch einmal nachzulesen, um sicherzustellen, dass du weißt, wo du die einzelnen Mods ablegen musst.
+Hier findest du drei verschiedene Ordner für die unterschiedlichen Mod-Typen. Das entspricht den drei Kategorien aus dem vorherigen Abschnitt. Falls du den noch nicht gelesen hast, empfehlen wir dir, das nachzuholen, damit du weißt, wo du welche Mods reinpackst.
 
-Mit diesem Wissen solltest du jetzt die Dateien der heruntergeladenen Mods aufrufen und die Mod-Ordner nacheinander in den entsprechenden Mod-Kategorie-Ordner auf deinem Gameserver hochladen.
+Jetzt öffnest du die Ordner deiner heruntergeladenen Mods und lädst sie einzeln in den passenden Mod-Ordner auf deinem Gameserver hoch.
 
 :::note
-Der Server muss angehalten werden, bevor du Mods hinzufügst oder bearbeitest, da sonst alle Änderungen rückgängig gemacht werden können.
+Der Server muss gestoppt sein, bevor du Mods hinzufügst oder änderst, sonst gehen deine Änderungen verloren.
 :::
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/3TsB3wYFzoxK3NL/preview)
 
 ## Server starten
 
-Wenn du die gewünschten Plugins hochgeladen hast, starte deinen Server einfach wieder. Wenn dein Server das nächste Mal startet, sollten alle Mods, die du hinzugefügt hast, jetzt zum Server hinzugefügt sein.
+Nachdem du alle gewünschten Mods hochgeladen hast, startest du deinen Server einfach wieder. Beim nächsten Start werden alle hinzugefügten Mods geladen.
 
-Du hast erfolgreich neue Mods auf deinem RimWorld Together Gameserver installiert!
+Herzlichen Glückwunsch, du hast erfolgreich neue Mods auf deinem RimWorld Together Gameserver installiert!
 
 ## Beliebte Mods
 
-Noch auf der Suche nach den perfekten Mods für deinen Server? Durchstöbere unsere sorgfältig zusammengestellte Liste mit den beliebtesten und am häufigsten empfohlenen Mods, um dein Spielerlebnis zu erweitern und deinem Server den letzten Feinschliff zu geben. Lass dich inspirieren und finde genau die Erweiterungen, die zu deinem Projekt passen.
+Du suchst noch nach den perfekten Mods für deinen Server? Stöbere durch unsere sorgfältig zusammengestellte Liste der beliebtesten und am meisten empfohlenen Mods, um dein Gameplay zu verbessern und deinem Server den letzten Schliff zu geben. Lass dich inspirieren und finde genau die Add-ons, die zu deinem Projekt passen.
 
 <SearchableItemList items={items} />
 

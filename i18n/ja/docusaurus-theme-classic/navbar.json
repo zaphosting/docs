@@ -1,0 +1,34 @@
+{
+  "title": {
+    "message": "ZAP-Hosting ドキュメント",
+    "description": "The title in the navbar"
+  },
+  "logo.alt": {
+    "message": "ZAP-Hosting",
+    "description": "The alt text of navbar logo"
+  },
+  "item.label.General": {
+    "message": "一般",
+    "description": "Navbar item with label General"
+  },
+  "item.label.Gameserver": {
+    "message": "ゲームサーバー",
+    "description": "Navbar item with label Gameserver"
+  },
+  "item.label.VPS": {
+    "message": "VPS",
+    "description": "Navbar item with label VPS"
+  },
+  "item.label.Dedicated Server": {
+    "message": "専用サーバー",
+    "description": "Navbar item with label Dedicated Server"
+  },
+  "item.label.Domain & Webspace": {
+    "message": "ドメイン & ホスティング",
+    "description": "Navbar item with label Domain & Webspace"
+  },
+  "item.label.Voicebot & Voiceserver": {
+    "message": "ボイスボット & ボイスサーバー",
+    "description": "Navbar item with label Voicebot & Voiceserver"
+  }
+}

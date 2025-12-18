@@ -1,7 +1,7 @@
 ---
 id: hl1-firststeps-dashboard
 title: "Half-Life 1: Dashboard Overview"
-description: Information about the dashboard of an Half-Life 1 server from ZAP-Hosting - ZAP-Hosting.com Documentation
+description: "Discover how to efficiently manage and optimize your Half-Life 1 server with a clear overview of essential features and controls → Learn more now"
 sidebar_label: Dashboard
 services:
   - gameserver-hl1

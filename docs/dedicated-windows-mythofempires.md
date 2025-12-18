@@ -1,7 +1,7 @@
 ---
 id: dedicated-windows-mythofempires
 title: "Dedicated Server: Myth of Empires Dedicated Server Windows Setup"
-description: Information about setting up a Myth of Empires Dedicated Server on a Windows Dedicated Server from ZAP-Hosting - ZAP-Hosting.com documentation
+description: "Discover how to set up a Myth of Empires dedicated server on your Windows VPS quickly and efficiently → Learn more now"
 sidebar_label: MOE Dedicated Server Setup
 services:
   - dedicated
@@ -15,7 +15,7 @@ Do you have a Windows VPS and want to install a MOE Dedicated server on it? You 
 
 <YouTube videoId="ir3QNvwu7WY" imageSrc="https://screensaver01.zap-hosting.com/index.php/s/T3jP36eWcQgTmNy/preview" title="How To Setup Myth Of Empires Server on Windows VPS!" description="Feel like you understand better when you see things in action? We’ve got you! Dive into our video that breaks it all down for you. Whether you're in a rush or just prefer to soak up information in the most engaging way possible!"/>
 
-<InlineVoucher />
+
 
 ## Preparation
 To begin with, connect to your VPS through Remote Desktop (RDP). Use our [Initial Access (RDP)](vserver-windows-userdp.md) guide if you need help doing this.
@@ -147,4 +147,4 @@ If you are having issues connecting to the server, open your `StartPrivateServer
 
 You have successfully installed Myth of Empires on your Windows Dedicated Server.
 
-<InlineVoucher />
+

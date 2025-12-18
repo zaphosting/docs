@@ -1,7 +1,7 @@
 ---
 id: vserver-linux-enshrouded
 title: "VPS: Enshrouded Dedicated Server Linux Setup"
-description: Information about setting up an Enshrouded Dedicated Server on a Linux VPS from ZAP-Hosting - ZAP-Hosting.com documentation
+description: "Discover how to set up the Enshrouded Dedicated server on your Linux VPS for seamless game hosting and management → Learn more now"
 sidebar_label: Enshrouded
 services:
   - vserver

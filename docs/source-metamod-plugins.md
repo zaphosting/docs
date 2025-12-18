@@ -1,7 +1,7 @@
 ---
 id: source-metamod-plugins
 title: Installing plugins
-description: Information on how to install plugins on your source game server from ZAP-Hosting - ZAP-Hosting.com documentation
+description: "Discover how to manage and troubleshoot Sourcemod plugins effectively for enhanced server performance → Learn more now"
 sidebar_label: Plugins
 services:
   - gameserver

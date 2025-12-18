@@ -1,7 +1,7 @@
 ---
 id: dedicated-linux-javascript
 title: 'Dedicated Server: Installation of JavaScript'
-description: Information on how to install and run JavaScript on your Linux server from ZAP-Hosting.com - ZAP-Hosting.com documentation
+description: "Discover how to install and set up Node.js, Deno, and Bun on your server for efficient JavaScript runtime management → Learn more now"
 sidebar_label: Install JavaScript
 services:
   - dedicated
@@ -13,7 +13,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 This guide provides steps for the installation of Node.js, Deno and Bun. These commands must be executed via SSH, if you don't know how to connect to your server via SSH, please have a look at our [Initial access (SSH)](vserver-linux-ssh.md).
 
-<InlineVoucher />
+
 
 ## Preparation
 
@@ -229,4 +229,4 @@ Now you can run the provided code with the `bun index.ts` command and check the 
 
 By following this guide, you will have successfully installed one of the popular JavaScript runtimes on your Linux server.
 
-<InlineVoucher />
+

@@ -1,7 +1,7 @@
 ---
 id: dedicated-windows-2016
 title: "Dedicated Server: Installation of Windows Server 2016"
-description: Information on how to install the Windows Server 2016 operating system on your dedicated server from ZAP-Hosting - ZAP-Hosting.com documentation
+description: "Discover how to install and configure Windows Server on your dedicated server for optimal performance and security → Learn more now"
 sidebar_label: Windows Server 2016
 services:
   - dedicated
@@ -28,7 +28,7 @@ Support for older Windows Server versions will be discontinued sooner or later. 
 
 :::
 
-<InlineVoucher />
+
 
 ## Preparation
 For the installation and configuration of an operating system, it is initially important to mount the corresponding ISO of the operating system. There are several possible ways to mount it:
@@ -161,4 +161,4 @@ If you have further questions or issues, our support will help you out!
 ## Conclusion
 Congratulations, you have successfully installed the Windows Server 2016 operating system on your dedicated server. For further questions or assistance, please don't hesitate to contact our support team, which is available daily to assist you! 🙂
 
-<InlineVoucher />
+

@@ -1,7 +1,7 @@
 ---
 id: dedicated-ilo
 title: "Dedicated Server: iLO"
-description: Information, about ILO administration for your Dedicated Server from ZAP-Hosting - ZAP-Hosting.com documentation
+description: "Discover how to fully manage your Enterprise Dedicated Server with iLO for seamless control and monitoring → Learn more now"
 sidebar_label: iLO
 services:
   - dedicated
@@ -14,7 +14,7 @@ On our Enterprise Dedicated Servers we use the management interface iLo, it allo
 Its functionalities include server start/stop/reboot, management console via Java or HTML5, mounting of boot media (ISOs).
 You should modify the settings carefully, in case of wrong changes it can cause big problems.
 
-<InlineVoucher />
+
 
 ## iLO access
 Open the server dashboard of your ZAP Dedicated Server with a browser of your choice. There you will already find the most important information about your iLO.
@@ -174,4 +174,4 @@ You can of course disable the iLO again and enable it again. (Wait at least 5 mi
 
 This should make your administration a lot easier once you have read through everything in detail. For further questions or assistance, please don't hesitate to contact our support team, which is available daily to assist you! 🙂
 
-<InlineVoucher />
+

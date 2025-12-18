@@ -1,7 +1,7 @@
 ---
 id: abuse-report
 title: "Report abuse and illegal content - Everything you need to know!"
-description: "How to report abuse and illegal content to ZAP-Hosting - ZAP-Hosting.com documentation"
+description: "Discover how to identify and report online abuse to protect users and services effectively → Learn more now"
 sidebar_label: Report Abuse
 ---
 
@@ -23,7 +23,7 @@ Unsolicited or bulk messages sent through our systems or hosted content that tri
 </details>
 
 <details>
-  <summary>Atacks and DDoS</summary>
+  <summary>Attacks and DDoS</summary>
 
 Hostile traffic intended to disrupt services or probe systems. Common forms are volumetric L3 L4 floods, HTTP layer-7 floods, amplification, brute-force logins, and aggressive port scans. Indicators include spikes in PPS or Mbps, elevated 4xx 5xx rates, and repeated auth failures from rotating sources.
 
@@ -111,7 +111,7 @@ Timestamps (UTC):
 - Last seen: 2025-08-23T10:03:31Z
 
 Description:
-Repeated SSH login attempts with rotating usernames and source IPs. Detected via anomalies in auth.log and elevated connection rate. Password authentication disabled after detection. No successful login observed.
+"Repeated SSH login attempts with rotating usernames and source IPs. Detected via anomalies in auth.log and elevated connection rate. Password authentication disabled after detection. No successful login observed."
 
 Evidence:
 - auth.log excerpt with multiple "Failed password" and "Invalid user" entries

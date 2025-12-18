@@ -1,7 +1,7 @@
 ---
 id: dedicated-linux-git
 title: "Dedicated Server: Setup Git on Linux"
-description: Information on how to setup Git on your Linux Dedicated Server from ZAP-Hosting - ZAP-Hosting.com documentation
+description: "Discover how to set up and configure Git for efficient version control and seamless collaboration in your projects → Learn more now"
 sidebar_label: Install Git
 services:
   - dedicated
@@ -17,7 +17,7 @@ Git is a distributed version control system designed for efficient source code m
 
 Considering about hosting this service yourself? We’ll walk you through every step on how to set it up and configure it, along with everything you need to keep in mind.
 
-<InlineVoucher />
+
 
 
 
@@ -77,4 +77,3 @@ Got specific questions that aren't covered here? For further questions or assist
 
 
 
-<InlineVoucher />

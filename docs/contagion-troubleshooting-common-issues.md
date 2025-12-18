@@ -1,7 +1,7 @@
 ---
 id: contagion-troubleshooting-common-issues
 title: "Contagion: Common issues"
-description: "Information on how to resolve common issues on a Contagion server from ZAP-Hosting - ZAP-Hosting.com documentation"
+description: "Discover how to troubleshoot and resolve common Contagion server issues to keep your game running smoothly and enjoy uninterrupted play → Learn more now"
 sidebar_label: Common issues
 services:
   -   - gameserver-corekeeper-contagion

@@ -1,42 +1,37 @@
 ---
 id: account-change-password
-title: Change Your Password
-description: Instructions on how to change your ZAP-Hosting account password - ZAP-Hosting documentation
-sidebar_label: Change Password
+title: Ändere Dein Passwort
+description: "Lerne, wie du dein ZAP-Hosting Konto-Passwort sicher aktualisierst oder zurücksetzt, um deinen Zugang zu schützen und die Sicherheit deines Accounts zu gewährleisten → Jetzt mehr erfahren"
+sidebar_label: Passwort ändern
 ---
 
 ## Einführung
 
-Wenn du das Passwort deines ZAP-Hosting- Accounts ändern möchtest, dann kannst du das jederzeit über deine Account-Einstellungen tun. Diese Anleitung zeigt dir, wie du dein aktuelles Passwort ändern oder zurücksetzen kannst, wenn du es vergessen hast.
+Wenn du das Passwort deines ZAP-Hosting Accounts ändern möchtest, kannst du das jederzeit über deine Kontoeinstellungen machen. Diese Anleitung zeigt dir, wie du dein aktuelles Passwort änderst oder zurücksetzt, falls du es vergessen hast.
 
-## Passwortänderung
+## Passwort ändern
 
-Wenn du dein aktuelles Passwort noch kennst und es einfach ändern möchtest, kannst du dies direkt in deinen Accounteinstellungen tun. Logge dich zunächst in dein Account bei [ZAP-Hosting](https://zap-hosting.com) ein. Sobald du eingeloggt bist, klicke auf den Pfeil rechts neben deinem Benutzernamen in der oberen rechten Ecke der Webseite. Wähle aus dem Dropdown-Menü die Option **Passwort ändern** aus.
+Wenn du dein aktuelles Passwort noch kennst und es einfach nur ändern möchtest, kannst du das direkt in deinen Kontoeinstellungen tun. Logge dich dazu zuerst in dein Konto bei [ZAP-Hosting](https://zap-hosting.com) ein. Klicke nach dem Login auf den Pfeil rechts neben deinem Benutzernamen oben rechts im Interface. Wähle im Dropdown-Menü **Passwort ändern** aus.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/HYswDxoCDpNwkXs/preview)
 
-Es erscheint ein Pop-up-Fenster, in dem du dein Passwort ändern kannst. Dazu musst du das alte Passwort und dann das neue Passwort eingeben, das du aus Sicherheitsgründen noch einmal bestätigen musst. Schließe den Vorgang ab, indem du auf **Passwort ändern** klickst.
+Es öffnet sich ein Pop-up-Fenster, in dem du dein Passwort ändern kannst. Gib dazu dein altes Passwort ein und anschließend dein neues Passwort, das du zur Sicherheit nochmal bestätigen musst. Schließe den Vorgang ab, indem du auf **Passwort ändern** klickst.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/3SoBqySx9fm7iRP/preview)
 
-:::info Passwort-Anforderungen
-Stelle sicher, dass dein neues Passwort die folgenden Kriterien erfüllt:
-- Mindestens 8 Zeichen
-- Es sollte nicht mit einem zuvor verwendeten Passwort identisch sein.
-- Dringend empfohlen: Verwende eine Kombination aus Buchstaben, Zahlen und Sonderzeichen
+:::info Passwortanforderungen
+Achte darauf, dass dein neues Passwort folgende Kriterien erfüllt:
+- Mindestens 8 Zeichen lang
+- Sollte nicht identisch mit einem zuvor verwendeten Passwort sein
+- Stark empfohlen: Kombination aus Buchstaben, Zahlen und Sonderzeichen verwenden
 :::
 
+## Passwort vergessen zurücksetzen
 
-
-## Vergessenes Passwort zurücksetzen
-
-Wenn du den Zugriff auf dein Passwort verloren hast und dich nicht mehr bei deinem Account anmelden kannst, kannst du ein sicheres Zurücksetzen des Passworts veranlassen. Gehe zunächst auf die Anmeldeseite von [ZAP-Hosting](https://zap-hosting.com/en/customer/login/). Unterhalb des Anmeldeformulars findest du die Option **Passwort vergessen?**. Klicke darauf und dann wirst du aufgefordert, die mit deinem ZAP-Hosting Account verbundene E-Mail-Adresse anzugeben.
+Falls du keinen Zugriff mehr auf dein Passwort hast und dich nicht einloggen kannst, kannst du einen sicheren Passwort-Reset starten. Gehe dazu auf die Login-Seite bei [ZAP-Hosting](https://zap-hosting.com/en/customer/login/). Unter dem Login-Formular findest du die Option **Passwort vergessen?**. Klicke darauf und gib die E-Mail-Adresse ein, die mit deinem ZAP-Hosting Account verknüpft ist.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/oYrXHdGAayb9am9/preview)
 
+## Brauchst du Hilfe?
 
-
-
-## Hilfe benötigt?
-
-Wenn du Schwierigkeiten hast, den Zugang zu deinem Account wiederherzustellen, empfehlen wir dir, einen Blick in unsere Anleitung [Zugang wiederherstellen](account-restore-access) zu werfen. Dort findest du eine ausführliche Beschreibung, wie du dein Account wiederherstellen kannst, wenn du dich nicht anmelden kannst. Für weitere Fragen oder Hilfe zögere bitte nicht, unser Support-Team zu kontaktieren, das dir täglich zur Verfügung steht! 🙂
+Wenn du Probleme hast, wieder Zugriff auf dein Konto zu bekommen, empfehlen wir dir, einen Blick in unsere [Zugang wiederherstellen](account-restore-access) Anleitung zu werfen. Dort findest du detaillierte Schritte, wie du deinen Account wiederherstellen kannst, falls du dich nicht einloggen kannst. Für weitere Fragen oder Unterstützung steht dir unser Support-Team täglich zur Verfügung – wir helfen dir gerne! 🙂
