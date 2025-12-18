@@ -14,7 +14,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 
 ## Introduction
-Vous ne savez pas comment vous connecter à votre **serveur de jeux Broke Protocol** ou ce dont vous avez besoin pour commencer ? Pas de stress, on s’occupe de tout ! On va vous guider pas à pas – des outils et infos nécessaires jusqu’au processus de connexion, en passant par les points clés pour garantir une connexion fluide et sans galère. Suivez notre guide et vous serez connecté en un rien de temps !
+Vous ne savez pas comment vous connecter à votre **serveur Broke Protocol** ou ce dont vous avez besoin pour commencer ? Pas de stress, on s’occupe de tout ! On va vous guider pas à pas. Des outils et infos nécessaires jusqu’au processus de connexion, en passant par les points clés pour garantir une connexion fluide et sans galère. Suivez notre guide et vous serez connecté en un rien de temps !
 
 <InlineVoucher />
 
@@ -23,7 +23,7 @@ Vous ne savez pas comment vous connecter à votre **serveur de jeux Broke Protoc
 ## Obtenir les infos du serveur
 
 
-Vous aurez besoin de toutes les infos nécessaires pour vous connecter à votre serveur. Ces infos se trouvent dans le tableau de bord de votre panneau web du serveur de jeux. Les infos importantes sont les suivantes :
+Vous aurez besoin de toutes les infos nécessaires pour vous connecter à votre serveur. Ces infos se trouvent dans le tableau de bord de votre panneau web du serveur de jeux. Les infos importantes incluent :
 
 - Adresse IP et port
 - Nom du serveur
@@ -41,7 +41,7 @@ La connexion à un serveur de jeux peut souvent se faire de plusieurs façons. L
 <Tabs>
     
 
-<TabItem value="connect_solution_server_browser_ingame" label="Navigateur de serveurs (In game)" default>
+<TabItem value="connect_solution_server_browser_ingame" label="Navigateur de serveurs (en jeu)" default>
 
 Pour vous connecter à votre serveur, ouvrez le jeu et allez dans **Jouer en ligne**. Une fois là, cherchez votre serveur en utilisant le nom du serveur dans la liste. Cliquez sur Rejoindre pour établir la connexion.
 
@@ -49,7 +49,7 @@ Pour vous connecter à votre serveur, ouvrez le jeu et allez dans **Jouer en lig
 
 </TabItem>
 
-<TabItem value="connect_solution_direct_ingame" label="Connexion directe (In game)">
+<TabItem value="connect_solution_direct_ingame" label="Connexion directe (en jeu)">
 
 Pour vous connecter à votre serveur, ouvrez le jeu et allez dans **Jouer en ligne**. Ensuite, cliquez sur **Direct**. Entrez l’adresse IP et le port de votre serveur puis cliquez sur **Connecter**
 
@@ -69,7 +69,7 @@ La connexion à un serveur de jeux peut souvent se faire de plusieurs façons. L
 #### Serveur non visible
 
 
-Le serveur peut ne pas être visible si l’initialisation n’a pas été complétée avec succès. Cela peut être dû par exemple à une mauvaise configuration ou des fichiers corrompus. Plus d’infos peuvent généralement être trouvées dans la console du serveur ou les fichiers logs.
+Le serveur peut ne pas être visible si l’initialisation n’a pas été complétée avec succès. Cela peut être dû par exemple à une mauvaise configuration ou à des fichiers corrompus. Vous trouverez souvent plus d’infos dans la console du serveur ou les fichiers logs.
 
 
 

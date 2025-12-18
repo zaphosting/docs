@@ -14,7 +14,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 
 ## Einführung
-Du bist dir unsicher, wie du dich mit deinem **Afterinfection**-Gameserver verbindest oder was du dafür brauchst? Kein Stress, wir haben alles für dich am Start! Wir zeigen dir Schritt für Schritt, was du brauchst – von den nötigen Tools und Infos bis hin zum eigentlichen Verbindungsprozess. Außerdem geben wir dir wichtige Tipps, damit alles smooth und ohne Probleme klappt. Folge unserer Anleitung und du bist im Handumdrehen verbunden!
+Du bist dir unsicher, wie du dich mit deinem **Afterinfection**-Gameserver verbindest oder was du dafür brauchst? Kein Stress, wir helfen dir! Wir führen dich durch alles, was du wissen musst. Von den nötigen Tools und Infos bis hin zum eigentlichen Verbindungsprozess – inklusive wichtiger Hinweise, damit alles glatt und ohne Probleme läuft. Folge unserer Anleitung und du bist im Handumdrehen verbunden!
 
 <InlineVoucher />
 
@@ -23,14 +23,14 @@ Du bist dir unsicher, wie du dich mit deinem **Afterinfection**-Gameserver verbi
 ## Serverdetails besorgen
 
 
-Du brauchst alle relevanten Infos, um dich mit deinem Server zu verbinden. Diese findest du im Dashboard deines Gameserver-Webinterface-Panels. Wichtige Infos sind unter anderem:
+Du brauchst alle relevanten Infos, um dich mit deinem Gameserver zu verbinden. Diese findest du im Dashboard deines Gameserver-Webinterface-Panels. Wichtige Infos sind unter anderem:
 
 - IP-Adresse und Port
 - Servername
 - Serverpasswort (optional)
 
 
-Mit diesen Infos kannst du deinen Server finden und sicherstellen, dass du dich mit dem richtigen Server verbindest.
+Mit diesen Angaben kannst du deinen Server finden und sicherstellen, dass du dich mit dem richtigen Server verbindest.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/7QRfCLJqS4mQCss/preview)
 
@@ -41,9 +41,9 @@ Die Verbindung zu einem Gameserver kann oft auf verschiedene Arten erfolgen. Die
 
 <Tabs>
 
-<TabItem value="connect_solution_server_browser_ingame" label="Server Browser (Im Spiel)" default>
+<TabItem value="connect_solution_server_browser_ingame" label="Serverbrowser (Im Spiel)" default>
 
-Um dich über den Ingame-Serverbrowser zu verbinden, öffne das Spiel und gehe zu **Multiplayer**. Dort kannst du deinen Server in der Serverliste über den Servernamen suchen.
+Um dich über den integrierten Serverbrowser im Spiel zu verbinden, starte das Spiel und gehe zu **Multiplayer**. Dort kannst du deinen Server in der Serverliste über den Servernamen suchen. 
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/yJpWzbfzD8jTSpc/download)
 
@@ -51,7 +51,7 @@ Um dich über den Ingame-Serverbrowser zu verbinden, öffne das Spiel und gehe z
 
 <TabItem value="connect_solution_direct" label="Direktverbindung (Im Spiel)">
 
-Statt deinen Server in der Liste zu suchen, kannst du auch die Direktverbindung nutzen. Gehe dazu unter **Multiplayer** unten links auf Direktverbindung. Gib einfach die IP-Adresse und den Port deines Servers ein und klicke auf **Beitreten**.
+Statt deinen Server in der Liste zu suchen, kannst du auch die Direktverbindung nutzen. Diese findest du unter **Multiplayer** unten links. Gib einfach die IP-Adresse und den Port deines Servers ein und klicke auf **Beitreten**.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/7ELrrM23ZFxNY3A/download)
 
@@ -77,13 +77,13 @@ Wenn dein Server nicht sichtbar ist, kann das daran liegen, dass die Initialisie
 #### Keine passende Lösung oder keine Hilfe
 
 
-Du hast nach der Fehlerbehebung immer noch Probleme? Kein Ding! Unser Support-Team ist täglich für dich da. Erstelle einfach ein **[Ticket](https://zap-hosting.com/en/customer/support/)** auf unserer Website und beschreibe dein Problem so genau wie möglich. Wir schauen uns das schnellstmöglich an und helfen dir, das Problem zu lösen!
+Du hast nach der Fehlerbehebung immer noch Probleme? Kein Ding! Unser Support-Team steht dir täglich zur Seite. Erstelle einfach ein **[Ticket](https://zap-hosting.com/en/customer/support/)** auf unserer Website und schildere dein Problem so detailliert wie möglich. Wir schauen uns das schnellstmöglich an und helfen dir, die Sache zu lösen!
 
 
 
 ## Fazit
 
-Glückwunsch, wenn du alles befolgt hast, solltest du jetzt erfolgreich mit dem Server verbunden sein. Falls du noch Fragen hast oder Hilfe brauchst, zögere nicht, unseren Support zu kontaktieren – wir sind täglich für dich da! 🙂
+Glückwunsch, wenn du alles befolgt hast, solltest du jetzt erfolgreich mit dem Server verbunden sein. Bei weiteren Fragen oder wenn du Hilfe brauchst, zögere nicht, unseren Support zu kontaktieren – wir sind täglich für dich da! 🙂
 
 
 

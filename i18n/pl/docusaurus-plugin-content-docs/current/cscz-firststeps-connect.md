@@ -13,27 +13,27 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 
 ## Wprowadzenie
-Nie wiesz, jak połączyć się ze swoim **serwerem gier Counter-Strike: 1.6** lub czego potrzebujesz, żeby zacząć? Spokojnie, mamy to ogarnięte! Przeprowadzimy Cię przez wszystko, co potrzebne – od wymaganych narzędzi i informacji, aż po sam proces łączenia, wraz z ważnymi wskazówkami, które zapewnią płynne i bezproblemowe połączenie. Skorzystaj z naszego poradnika i połączysz się w mgnieniu oka!
+Nie wiesz, jak połączyć się ze swoim **Counter-Strike: 1.6** serwerem lub czego potrzebujesz, żeby zacząć? Spokojnie, mamy to ogarnięte! Przeprowadzimy Cię przez wszystko, co potrzebne. Od wymaganych narzędzi i informacji, po sam proces łączenia, wraz z kluczowymi wskazówkami, które zapewnią płynne i bezproblemowe połączenie. Skorzystaj z naszego poradnika i już za chwilę będziesz online!
 
 <InlineVoucher />
 
 
 
-## Uzyskaj dane serwera
+## Zdobycie danych serwera
 
-Będziesz potrzebować wszystkich niezbędnych informacji do połączenia się z serwerem. Dane o Twoim serwerze znajdziesz w panelu głównym swojego serwera gier. Najważniejsze informacje to:
+Będziesz potrzebować wszystkich niezbędnych informacji, aby połączyć się z serwerem. Dane o Twoim serwerze znajdziesz w panelu głównym swojego serwera gier. Najważniejsze informacje to:
 
 - adres IP i port
 - nazwa serwera
 - hasło do serwera (opcjonalnie)
 
-Dzięki powyższym danym łatwo znajdziesz swój serwer i upewnisz się, że łączysz się z właściwym serwerem.
+Dzięki tym danym łatwo znajdziesz swój serwer i upewnisz się, że łączysz się z właściwym serwerem.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/pJjF7eXkfrm5f4j/preview)
 
-## Nawiąż połączenie z serwerem
+## Nawiązywanie połączenia z serwerem
 
-Połączenie z serwerem gier można często nawiązać na kilka sposobów. Dostępne metody opisujemy i wyjaśniamy szczegółowo poniżej.
+Połączenie z serwerem gier można nawiązać na kilka sposobów. Dostępne metody opisujemy i wyjaśniamy szczegółowo poniżej.
 
 <Tabs>
     <TabItem value="connect_solution_server_browser_ingame" label="Przeglądarka serwerów (w grze)" default>
@@ -48,7 +48,7 @@ Aby połączyć się z serwerem przez przeglądarkę serwerów w grze, otwórz j
 
 Aby połączyć się z serwerem przez przeglądarkę serwerów Steam, otwórz ją w Steam. Kliknij `Widok` na górze nawigacji Steam, a następnie wybierz sekcję `Serwery gier`.
 
-Wyszukaj lub dodaj swój serwer przez przeglądarkę Steam, używając `adresu IP` i `portu` serwera gier. W tym celu wybierz zakładkę `Ulubione` na liście serwerów i kliknij plusik na dole. Pojawi się okienko, w którym wpiszesz dane swojego serwera.
+Wyszukaj lub dodaj swój serwer przez przeglądarkę Steam, używając `adresu IP` i `portu` serwera gier. W tym celu wybierz zakładkę `Ulubione` na liście serwerów i kliknij plusik na dole. Pojawi się okno, w którym wpiszesz dane swojego serwera.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/MMsokw2ZyCreeCN/download)
 
@@ -56,7 +56,7 @@ Wyszukaj lub dodaj swój serwer przez przeglądarkę Steam, używając `adresu I
 
 <TabItem value="connect_solution3" label="Konsola (w grze)">
 
-Aby połączyć się z serwerem przez konsolę, otwórz ją klawiszem `^`. Gdy konsola się otworzy, wpisz następującą komendę:
+Aby połączyć się z serwerem przez konsolę, otwórz ją klawiszem `^`. Gdy konsola się otworzy, wpisz polecenie:
 
 ```
 connect IP:Port
@@ -69,7 +69,7 @@ connect IP:Port
 
 ## Możliwe problemy i rozwiązania
 
-Połączenie z serwerem gier można często nawiązać na kilka sposobów. Dostępne metody opisujemy i wyjaśniamy szczegółowo poniżej.
+Połączenie z serwerem gier można nawiązać na kilka sposobów. Dostępne metody opisujemy i wyjaśniamy szczegółowo poniżej.
 
 #### Serwer niewidoczny
 
@@ -79,13 +79,13 @@ Brak widoczności serwera może się zdarzyć, jeśli inicjalizacja nie przebieg
 
 #### Brak rozwiązania lub brak pomocy
 
-Wciąż masz problemy po próbach naprawy? W takim wypadku nasz support jest dostępny codziennie, by Ci pomóc. Po prostu załóż **[Ticket](https://zap-hosting.com/en/customer/support/)** na naszej stronie i opisz problem jak najdokładniej. Sprawdzimy to najszybciej, jak się da i pomożemy rozwiązać problem!
+Wciąż masz problemy mimo prób rozwiązania? W takim razie nasz support jest dostępny codziennie, by Ci pomóc. Po prostu załóż **[Ticket](https://zap-hosting.com/en/customer/support/)** na naszej stronie i opisz problem jak najdokładniej. Sprawdzimy to najszybciej jak się da i pomożemy rozwiązać problem!
 
 
 
 ## Podsumowanie
 
-Gratulacje! Jeśli wykonałeś wszystko zgodnie z poradnikiem, powinieneś już być połączony z serwerem. W razie dalszych pytań lub potrzeby pomocy, śmiało kontaktuj się z naszym supportem, który jest dostępny codziennie i chętnie pomoże! 🙂
+Gratulacje! Jeśli wykonałeś wszystko poprawnie, powinieneś być już połączony z serwerem. W razie dalszych pytań lub potrzeby pomocy, śmiało kontaktuj się z naszym supportem, który jest dostępny codziennie i chętnie pomoże! 🙂
 
 
 

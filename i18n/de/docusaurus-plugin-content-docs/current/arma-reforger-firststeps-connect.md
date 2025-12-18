@@ -1,7 +1,7 @@
 ---
 id: arma-reforger-firststeps-connect
 title: "Arma Reforger: Mit dem Server verbinden"
-description: "Entdecke, wie du dich reibungslos mit deinem Arma Reforger Server verbindest und ohne Stress loslegst → Jetzt mehr erfahren"
+description: "Entdecke, wie du dich problemlos mit deinem Arma Reforger Gameserver verbindest und ohne Stress loslegst → Jetzt mehr erfahren"
 sidebar_label: Mit dem Server verbinden
 services:
   - gameserver-arma-reforger
@@ -13,7 +13,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 
 ## Einführung
-Du bist dir nicht sicher, wie du dich mit deinem **Arma Reforger** Server verbindest oder was du dafür brauchst? Kein Stress, wir haben alles für dich am Start! Wir führen dich durch alles, was du brauchst – von den nötigen Tools und Infos bis hin zum eigentlichen Verbindungsprozess, inklusive wichtiger Tipps, damit alles smooth und ohne Probleme läuft. Folge unserer Anleitung und du bist im Handumdrehen verbunden!
+Du bist dir nicht sicher, wie du dich mit deinem **Arma Reforger** Gameserver verbindest oder was du dafür brauchst? Kein Stress, wir haben alles für dich am Start! Wir führen dich durch alles, was du wissen musst. Von den nötigen Tools und Infos bis hin zum eigentlichen Verbindungsprozess – inklusive wichtiger Tipps, damit alles smooth und ohne Probleme läuft. Folge unserer Anleitung und du bist im Handumdrehen verbunden!
 
 <InlineVoucher />
 
@@ -21,13 +21,13 @@ Du bist dir nicht sicher, wie du dich mit deinem **Arma Reforger** Server verbin
 
 ## Serverdetails besorgen
 
-Du brauchst alle wichtigen Infos, um dich mit deinem Server zu verbinden. Die Infos zu deinem Server findest du im Dashboard deines Gameserver-Webinterface-Panels. Wichtige Infos sind unter anderem:
+Du brauchst alle wichtigen Infos, um dich mit deinem Server zu verbinden. Die Infos zu deinem Server findest du im Dashboard deines Gameserver-Webinterface-Panels. Wichtige Details sind:
 
 - IP-Adresse und Port
 - Servername
 - Serverpasswort (optional)
 
-Mit den oben genannten Infos solltest du deinen Server finden und sicherstellen können, dass du dich mit dem richtigen Server verbindest.
+Mit den oben genannten Infos kannst du deinen Server finden und sicherstellen, dass du dich mit dem richtigen Server verbindest.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/RJb99LD9eMYdGwm/preview)
 
@@ -46,7 +46,7 @@ Um dich über den Ingame-Serverbrowser mit deinem Server zu verbinden, öffne da
 
 <TabItem value="connect_solution_direct_ingame" label="Direkt verbinden (Im Spiel)">
 
-Anstatt den Server über den Namen zu suchen, kannst du auch die Direktverbindung über die `V`-Taste nutzen. Öffne die Direktverbindung und gib die IP-Adresse und den Port deines Servers ein. Bestätige die Eingabe mit der `Enter`-Taste, um die Verbindung herzustellen.
+Statt den Server über den Namen zu suchen, kannst du auch die Direktverbindung über die `V`-Taste nutzen. Öffne die Direktverbindung und gib die IP-Adresse und den Port deines Servers ein. Bestätige die Eingabe mit der `Enter`-Taste, um die Verbindung herzustellen.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/Ng6KMdExbkNQfoA/download)
 

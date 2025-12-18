@@ -11,17 +11,17 @@ import YouTube from '@site/src/components/YouTube/YouTube';
 
 ## Introduzione
 
-Benvenuto nella documentazione completa di ZAP-Hosting, il punto di riferimento centrale per tutto ciò che riguarda i nostri prodotti – dai game server, vRoot server e server dedicati fino a domini & webspace, oltre a voicebot & voice server. Qui troverai istruzioni dettagliate, consigli e trucchi per sfruttare al massimo i tuoi prodotti (servizi) e realizzare con successo i tuoi progetti.
+Benvenuto nella documentazione completa di ZAP-Hosting, il punto di riferimento centrale per tutto ciò che riguarda i nostri prodotti. Dai game server, VPS e server dedicati a domini & webspace, oltre a voicebot & voice server. Qui troverai istruzioni dettagliate, consigli e trucchi per sfruttare al massimo i tuoi prodotti (servizi) e portare a termine con successo i tuoi progetti.
 
-Il nostro obiettivo è rendere la conoscenza accessibile e comprensibile. Per questo abbiamo progettato le nostre guide in modo che siano facili da capire per tutti – indipendentemente dalle conoscenze tecniche pregresse. Che tu stia iniziando a configurare il tuo primo game server, esplorando il mondo dei server dedicati, registrando il tuo primo dominio o configurando il tuo voice server, le nostre guide ti offrono un punto di partenza semplice e chiaro.
+Il nostro obiettivo è rendere la conoscenza accessibile e comprensibile. Per questo abbiamo progettato le nostre guide in modo che siano facili da capire per tutti, indipendentemente dalle conoscenze tecniche pregresse. Che tu stia iniziando a configurare il tuo primo game server, esplorando il mondo dei server dedicati, registrando il tuo primo dominio o configurando il tuo voice server, le nostre guide ti offrono un punto di partenza semplice e chiaro.
 
-Copriamo un’ampia gamma di argomenti e aggiorniamo regolarmente i contenuti per garantirti di essere sempre al passo e poter applicare le best practice. Dalle guide base di setup fino alle tecniche avanzate di configurazione.
+Copriamo una vasta gamma di argomenti e aggiorniamo regolarmente i contenuti per garantirti di essere sempre aggiornato e poter applicare le best practice. Dalle guide base di setup alle tecniche avanzate di configurazione.
 
 <YouTube videoId="-2wJ6ZJ6ZVk" imageSrc="https://screensaver01.zap-hosting.com/index.php/s/kGb9tgzzoNZPZjW/preview" title="Benvenuto su ZAP-Docs!" description="Ti sembra più facile capire quando vedi le cose in azione? Ci pensiamo noi! Tuffati nel nostro video che ti spiega tutto. Che tu sia di fretta o preferisca assorbire le info nel modo più coinvolgente possibile!"/>
 
 ## Game Server
 
-Sfrutta al massimo il tuo game server. Con la nostra esperienza, portiamo il tuo gaming a un livello superiore. Le nostre guide dettagliate per oltre 100 giochi diversi e le loro estensioni/mod ti permettono di acquisire una conoscenza profonda su come configurare e gestire i tuoi server di gioco.
+Sfrutta al massimo il tuo game server. Con la nostra esperienza, portiamo il tuo gaming a un livello superiore. Le nostre guide dettagliate per oltre 100 giochi diversi e le loro estensioni/modifiche ti permettono di acquisire una conoscenza approfondita su come configurare e gestire i tuoi game server.
 
 <Cards>
     <Card title="FiveM" description="Placeholder" link="https://zap-hosting.com/guides/docs/fivem-dashboard" image="https://screensaver01.zap-hosting.com/index.php/s/fA3eHHpGLYo74ra/preview"/>

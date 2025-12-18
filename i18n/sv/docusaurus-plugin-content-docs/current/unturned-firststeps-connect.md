@@ -1,7 +1,7 @@
 ---
 id: unturned-firststeps-connect
 title: "Unturned: Anslut till servern"
-description: "Upptäck hur du smidigt ansluter till din Unturned-server och njut av sömlöst spelande med vår kompletta guide → Läs mer nu"
+description: "Upptäck hur du smidigt ansluter till din Unturned-server och njuter av sömlöst spelande med vår kompletta guide → Läs mer nu"
 sidebar_label: Anslut till servern
 services:
   - gameserver-unturned
@@ -13,7 +13,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 
 ## Introduktion
-Osäker på hur du ansluter till din **Unturned**-server eller vad du behöver för att komma igång? Ingen fara, vi har dig täckt! Vi går igenom allt du behöver – från nödvändiga verktyg och information till själva anslutningsprocessen, plus viktiga saker att tänka på för att säkerställa en smidig och problemfri anslutning. Följ vår guide så är du igång på nolltid!
+Osäker på hur du ansluter till din **Unturned**-server eller vad du behöver för att komma igång? Ingen fara, vi har dig täckt! Vi guidar dig genom allt du behöver. Från nödvändiga verktyg och information till själva anslutningsprocessen, plus viktiga saker att tänka på för att säkerställa en smidig och problemfri anslutning. Följ vår guide så är du uppkopplad på nolltid!
 
 <InlineVoucher />
 
@@ -21,7 +21,7 @@ Osäker på hur du ansluter till din **Unturned**-server eller vad du behöver f
 
 ## Skaffa serveruppgifter
 
-Du behöver all relevant information för att kunna ansluta till din server. Information om din server hittar du på kontrollpanelen i ditt spelserver-webbgränssnitt. Viktig info inkluderar följande:
+Du behöver all relevant information för att kunna ansluta till din server. Informationen om din server hittar du på kontrollpanelen i ditt spelserver-webbgränssnitt. Viktig info inkluderar följande:
 
 - IP-adress och port
 - Servernamn
@@ -77,7 +77,7 @@ Att servern inte syns kan bero på att initieringen inte slutfördes korrekt. De
 
 #### Saknas lösning eller hjälper inte
 
-Har du fortfarande problem efter felsökning? I så fall finns vårt supportteam tillgängligt dagligen för att hjälpa dig. Skapa helt enkelt en **[Ticket](https://zap-hosting.com/en/customer/support/)** på vår webbplats och förklara ditt problem så detaljerat som möjligt. Vi kollar på det så snabbt vi kan och hjälper dig att lösa problemet!
+Har du fortfarande problem efter felsökning? Då finns vårt supportteam tillgängligt varje dag för att hjälpa dig. Skapa helt enkelt en **[Ticket](https://zap-hosting.com/en/customer/support/)** på vår webbplats och förklara ditt problem så detaljerat som möjligt. Vi kollar på det så snabbt vi kan och hjälper dig att lösa det!
 
 
 

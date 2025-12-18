@@ -1,8 +1,8 @@
 ---
 id: arma3-firststeps-connect
 title: "Arma 3: Conecte-se ao servidor"
-description: "Descubra como se conectar ao seu servidor de jogos Arma 3 de forma fácil e obtenha todas as dicas essenciais para uma experiência de jogo sem interrupções → Saiba mais agora"
-sidebar_label: Conecte-se ao servidor
+description: "Descubra como se conectar ao seu servidor de jogos Arma 3 de forma tranquila e obtenha todas as dicas essenciais para uma experiência de jogo sem interrupções → Saiba mais agora"
+sidebar_label: Conectar ao servidor
 services:
   - gameserver-arma3
 ---
@@ -13,7 +13,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 
 ## Introdução
-Não sabe como se conectar ao seu **servidor de jogos Arma 3** ou o que precisa para começar? Relaxa, a gente te ajuda! Vamos te guiar por tudo que você precisa – desde as ferramentas e informações necessárias até o processo real de conexão, junto com dicas importantes para garantir uma conexão tranquila e sem problemas. Siga nosso guia e você estará conectado rapidinho!
+Não sabe como se conectar ao seu **servidor de jogos Arma 3** ou o que precisa para começar? Relaxa, a gente te ajuda! Vamos te guiar por tudo que você precisa. Desde as ferramentas e informações necessárias até o processo real de conexão, junto com pontos importantes para garantir uma conexão suave e sem problemas. Siga nosso guia e você estará conectado rapidinho!
 
 <InlineVoucher />
 
@@ -74,7 +74,7 @@ A falta de visibilidade do servidor pode acontecer se a inicialização não foi
 #### Solução não encontrada ou não ajudou
 
 
-Ainda com problemas depois de tentar resolver? Nesse caso, nosso time de suporte está disponível todos os dias para ajudar. É só criar um **[Ticket](https://zap-hosting.com/en/customer/support/)** no nosso site e explicar seu problema com o máximo de detalhes possível. Vamos analisar rapidinho e te ajudar a resolver o que for preciso!
+Ainda com problemas depois de tentar resolver? Nesse caso, nosso time de suporte está disponível todos os dias para ajudar. É só abrir um **[Ticket](https://zap-hosting.com/en/customer/support/)** no nosso site e explicar seu problema com o máximo de detalhes possível. Vamos analisar rapidinho e te ajudar a resolver o que for preciso!
 
 
 

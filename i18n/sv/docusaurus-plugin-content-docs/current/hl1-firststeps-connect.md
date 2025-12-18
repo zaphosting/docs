@@ -1,7 +1,7 @@
 ---
 id: hl1-firststeps-connect
 title: "Half-Life 1: Anslut till servern"
-description: "Upptäck hur du smidigt ansluter till din Half-Life 1-server och säkerställer en sömlös spelupplevelse → Läs mer nu"
+description: "Upptäck hur du smidigt ansluter till din Half-Life 1-server och säkerställer en sömlös spelupplevelse → Lär dig mer nu"
 sidebar_label: Anslut till servern
 services:
   - gameserver-hl1
@@ -13,7 +13,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 
 ## Introduktion
-Osäker på hur du ansluter till din **Half-Life 1**-server eller vad du behöver för att komma igång? Ingen fara, vi har dig täckt! Vi guidar dig genom allt du behöver – från nödvändiga verktyg och information till själva anslutningsprocessen, plus viktiga saker att tänka på för att säkerställa en smidig och problemfri anslutning. Följ vår guide så är du uppkopplad på nolltid!
+Osäker på hur du ansluter till din **Half-Life 1**-server eller vad du behöver för att komma igång? Ingen fara, vi har dig täckt! Vi guidar dig genom allt du behöver. Från nödvändiga verktyg och information till själva anslutningsprocessen, plus viktiga saker att tänka på för att säkerställa en smidig och problemfri anslutning. Följ vår guide så är du igång på nolltid!
 
 <InlineVoucher />
 
@@ -21,19 +21,19 @@ Osäker på hur du ansluter till din **Half-Life 1**-server eller vad du behöve
 
 ## Skaffa serveruppgifter
 
-Du behöver all relevant info för att ansluta till din server. Information om din server hittar du på kontrollpanelen i ditt spelserver-webbgränssnitt. Viktig info inkluderar:
+Du behöver all relevant info för att ansluta till din server. Informationen om din server hittar du på kontrollpanelen i ditt spelserver-webbgränssnitt. Viktig info inkluderar:
 
 - IP-adress och port
 - Servernamn
 - Serverlösenord (valfritt)
 
-Med info ovan ska du kunna hitta din server och se till att du ansluter till rätt server.
+Med info ovan ska du enkelt kunna hitta din server och se till att du ansluter till rätt server.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/RLEQ9SjzmqKzj8r/preview)
 
 ## Etablera serveranslutning
 
-Anslutningen till en spelserver kan ofta göras på ett eller flera sätt. Tillgängliga metoder beskrivs och förklaras i detalj nedan.
+Anslutningen till en spelserver kan ofta göras på en eller flera sätt. Tillgängliga metoder beskrivs och förklaras i detalj nedan.
 
 <Tabs>
 
@@ -43,7 +43,7 @@ Anslutningen till en spelserver kan ofta göras på ett eller flera sätt. Tillg
 
 För att ansluta till din server via Steam-serverbläddraren, öppna serverbläddraren från Steam. Klicka på `Visa` högst upp i Steam-menyn och sedan på `Spelserver` för att öppna den.
 
-Sök eller lägg till din server via Steam-bläddraren genom att använda `IP-adress` och `Port` för din spelserver. Gör så här: välj fliken `Favoriter` i serverlistan och klicka på plustecknet längst ner. Ett popup-fönster öppnas där du anger din serverinformation.
+Sök eller lägg till din server via Steam-bläddraren genom att använda `IP-adress` och `Port` för din spelserver. För att göra detta, välj fliken `Favoriter` i serverlistan och klicka på plustecknet längst ner. Ett popup-fönster öppnas där du anger din serverinformation.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/MMsokw2ZyCreeCN/download)
 
@@ -56,7 +56,7 @@ Sök eller lägg till din server via Steam-bläddraren genom att använda `IP-ad
 
 ## Vanliga problem och lösningar
 
-Anslutningen till en spelserver kan ofta göras på ett eller flera sätt. Tillgängliga metoder beskrivs och förklaras i detalj nedan.
+Anslutningen till en spelserver kan ofta göras på en eller flera sätt. Tillgängliga metoder beskrivs och förklaras i detalj nedan.
 
 #### Syns inte
 
@@ -70,7 +70,7 @@ Har du fortfarande problem efter felsökning? Då finns vårt supportteam tillg�
 
 
 
-## Sammanfattning
+## Slutsats
 
 Grattis! Om du följt allt rätt borde du nu ha en fungerande anslutning till servern. Har du fler frågor eller behöver hjälp, tveka inte att kontakta vårt supportteam som finns tillgängligt varje dag för att hjälpa dig! 🙂
 

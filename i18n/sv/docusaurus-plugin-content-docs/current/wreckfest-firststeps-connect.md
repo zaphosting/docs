@@ -13,7 +13,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 
 ## Introduktion
-Osäker på hur du ansluter till din **Wreckfest**-server eller vad du behöver för att komma igång? Ingen fara, vi har dig täckt! Vi guidar dig genom allt du behöver – från nödvändiga verktyg och info till själva anslutningsprocessen, plus viktiga saker att tänka på för att säkerställa en smidig och problemfri anslutning. Följ vår guide så är du igång på nolltid!
+Osäker på hur du ansluter till din **Wreckfest**-server eller vad du behöver för att komma igång? Ingen fara, vi har dig täckt! Vi guidar dig genom allt du behöver. Från nödvändiga verktyg och information till själva anslutningsprocessen, plus viktiga saker att tänka på för att säkerställa en smidig och problemfri anslutning. Följ vår guide så är du uppkopplad på nolltid!
 
 <InlineVoucher />
 
@@ -22,24 +22,24 @@ Osäker på hur du ansluter till din **Wreckfest**-server eller vad du behöver 
 ## Skaffa serveruppgifter
 
 
-Du behöver all relevant info för att ansluta till din server. Informationen om din server hittar du på kontrollpanelen i ditt gameservers webbgränssnitt. Viktig info inkluderar bland annat:
+Du behöver all relevant information för att ansluta till din server. Information om din server hittar du på kontrollpanelen i ditt spelserver-webbgränssnitt. Viktig info inkluderar följande:
 
 - Servernamn
 
 
-Med info ovan ska du kunna hitta din server och se till att du ansluter till rätt server.
+Med informationen ovan ska du kunna hitta din server och se till att du ansluter till rätt server.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/PG3CHb4CS5xx4sR/preview)
 
 ## Etablera serveranslutning
 
 
-Anslutningen till en gameserver kan ofta göras på ett eller flera sätt. Tillgängliga metoder beskrivs och förklaras i detalj nedan.
+Anslutningen till en spelserver kan ofta göras på ett eller flera sätt. Tillgängliga metoder beskrivs och förklaras i detalj nedan.
 
 <Tabs>
     <TabItem value="connect_solution_server_browser_ingame" label="Serverbrowser (I spelet)" default>
 
-För att ansluta till din server, öppna serverbrowsern i huvudmenyn. Klicka på **Multiplayer** och navigera till **Serverbrowser**. Sök sedan efter din server med servernamnet.
+För att ansluta till din server, öppna serverbrowsern i huvudmenyn. Klicka på **Multiplayer** och gå till **Serverbrowser**. Sök sedan efter din server med servernamnet.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/EiMyRKBfXTBAfjf/download)
 
@@ -52,25 +52,25 @@ För att ansluta till din server, öppna serverbrowsern i huvudmenyn. Klicka på
 ## Vanliga problem och lösningar
 
 
-Anslutningen till en gameserver kan ofta göras på ett eller flera sätt. Tillgängliga metoder beskrivs och förklaras i detalj nedan.
+Anslutningen till en spelserver kan ofta göras på ett eller flera sätt. Tillgängliga metoder beskrivs och förklaras i detalj nedan.
 
 #### Syns inte
 
 
-Att servern inte syns kan bero på att uppstarten inte slutfördes korrekt. Det kan till exempel bero på felaktig konfiguration eller korrupta filer. Mer info hittar du oftast i serverkonsolen eller loggfilerna.
+Att servern inte syns kan bero på att initieringen inte slutfördes korrekt. Det kan till exempel bero på felaktig konfiguration eller korrupta filer. Mer info hittar du oftast i serverkonsolen eller loggfilerna.
 
 
 
 #### Saknas lösning eller hjälper inte
 
 
-Har du fortfarande problem efter felsökning? Då finns vårt supportteam tillgängligt varje dag för att hjälpa dig. Skapa enkelt ett **[Ticket](https://zap-hosting.com/en/customer/support/)** på vår hemsida och förklara ditt problem så detaljerat som möjligt. Vi kollar på det så snabbt vi kan och hjälper dig att lösa det!
+Har du fortfarande problem efter felsökning? Då finns vårt supportteam tillgängligt varje dag för att hjälpa dig. Skapa helt enkelt en **[Ticket](https://zap-hosting.com/en/customer/support/)** på vår webbplats och förklara ditt problem så detaljerat som möjligt. Vi kollar på det så snabbt vi kan och hjälper dig att lösa det!
 
 
 
 ## Slutsats
 
-Grattis! Om du följt allt rätt borde du nu vara ansluten till servern. Har du fler frågor eller behöver hjälp, tveka inte att kontakta vårt supportteam som finns tillgängligt varje dag för att hjälpa dig! 🙂
+Grattis! Om du följt allt borde du nu ha lyckats ansluta till servern. Har du fler frågor eller behöver hjälp, tveka inte att kontakta vårt supportteam som finns tillgängligt varje dag för att hjälpa dig! 🙂
 
 
 

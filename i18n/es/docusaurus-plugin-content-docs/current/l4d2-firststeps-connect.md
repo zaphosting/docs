@@ -13,7 +13,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 
 ## Introducción
-¿No sabes cómo conectarte a tu **servidor de juegos Left 4 Dead 2** o qué necesitas para empezar? No te preocupes, ¡te tenemos cubierto! Te guiaremos por todo lo que necesitas: desde las herramientas e información necesarias hasta el proceso real de conexión, junto con consideraciones clave para asegurar una conexión fluida y sin problemas. Sigue nuestra guía y estarás conectado en un abrir y cerrar de ojos.
+¿No sabes cómo conectarte a tu **servidor de juegos Left 4 Dead 2** o qué necesitas para empezar? No te preocupes, ¡te tenemos cubierto! Te guiaremos por todo lo que necesitas. Desde las herramientas e información necesarias hasta el proceso real de conexión, junto con consideraciones clave para asegurar una conexión fluida y sin problemas. Sigue nuestra guía y estarás conectado en un abrir y cerrar de ojos.
 
 <InlineVoucher />
 
@@ -21,7 +21,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Obtén los datos del servidor
 
-Vas a necesitar toda la información relevante para conectarte a tu servidor. Los datos de tu servidor los puedes encontrar en el panel web de tu servidor de juegos, en el panel. La información importante incluye lo siguiente:
+Vas a necesitar toda la información relevante para conectarte a tu servidor. La información sobre tu servidor la puedes encontrar en el panel web de tu servidor de juegos. La información importante incluye lo siguiente:
 
 - Dirección IP y puerto
 - Nombre del servidor
@@ -33,13 +33,13 @@ Con la información mencionada arriba, deberías poder localizar tu servidor y a
 
 ## Establece la conexión al servidor
 
-La conexión a un servidor de juegos suele poder establecerse de una o más formas. Los métodos disponibles se describen y explican en detalle a continuación.
+La conexión a un servidor de juegos a menudo se puede establecer de una o más formas. Los métodos disponibles se describen y explican en detalle a continuación.
 
 <Tabs>
 
 <TabItem value="connect_solution3" label="Consola (Dentro del juego)">
 
-En Left 4 Dead 2, la consola de desarrollador está desactivada por defecto. Abre los ajustes, haz clic en Teclado/Mouse y activa la consola ahí. Para conectarte a tu servidor vía consola, abre la consola con la tecla `~`. Una vez abierta, ejecuta el siguiente comando:
+En Left 4 Dead 2, la consola de desarrollador está desactivada por defecto. Abre la configuración, haz clic en Teclado/Mouse y activa la consola ahí. Para conectarte a tu servidor vía consola, abre la consola con la tecla `~`. Una vez abierta la consola, ejecuta el siguiente comando:
 
 ```
 connect IP:Puerto
@@ -54,11 +54,11 @@ connect IP:Puerto
 
 ## Problemas potenciales y soluciones
 
-La conexión a un servidor de juegos suele poder establecerse de una o más formas. Los métodos disponibles se describen y explican en detalle a continuación.
+La conexión a un servidor de juegos a menudo se puede establecer de una o más formas. Los métodos disponibles se describen y explican en detalle a continuación.
 
 #### No visible
 
-La falta de visibilidad del servidor puede ocurrir si la inicialización no se completó con éxito. Esto puede deberse, por ejemplo, a una configuración errónea o archivos corruptos. Normalmente, más información se puede encontrar en la consola del servidor o en los archivos de registro.
+La falta de visibilidad del servidor puede ocurrir si la inicialización no se completó con éxito. Esto puede deberse, por ejemplo, a una configuración errónea o archivos corruptos. Más información generalmente se puede encontrar en la consola del servidor o en los archivos de registro.
 
 
 
@@ -70,7 +70,7 @@ La falta de visibilidad del servidor puede ocurrir si la inicialización no se c
 
 ## Conclusión
 
-¡Felicidades! Si seguiste todo correctamente, deberías haber establecido la conexión con el servidor con éxito. Para más preguntas o ayuda, no dudes en contactar a nuestro equipo de soporte, disponible todos los días para asistirte 🙂
+¡Felicidades! Si seguiste todo correctamente, deberías haber establecido la conexión al servidor con éxito. Para más preguntas o ayuda, no dudes en contactar a nuestro equipo de soporte, que está disponible todos los días para asistirte 🙂
 
 
 

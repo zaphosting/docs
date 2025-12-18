@@ -14,7 +14,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 
 ## Introduktion
-Osäker på hur du ansluter till din **Garry's Mod**-server eller vad du behöver för att komma igång? Ingen fara, vi har dig täckt! Vi guidar dig genom allt du behöver – från nödvändiga verktyg och information till själva anslutningsprocessen, plus viktiga saker att tänka på för att säkerställa en smidig och problemfri anslutning. Följ vår guide så är du igång på nolltid!
+Osäker på hur du ansluter till din **Garry's Mod**-server eller vad du behöver för att komma igång? Ingen fara, vi har dig täckt! Vi guidar dig genom allt du behöver. Från nödvändiga verktyg och information till själva anslutningsprocessen, plus viktiga saker att tänka på för att säkerställa en smidig och problemfri anslutning. Följ vår guide så är du igång på nolltid!
 
 <InlineVoucher />
 
@@ -23,7 +23,7 @@ Osäker på hur du ansluter till din **Garry's Mod**-server eller vad du behöve
 ## Skaffa serveruppgifter
 
 
-Du behöver all relevant information för att kunna ansluta till din server. Information om din server hittar du på kontrollpanelen i ditt spelserver-webbgränssnitt. Viktig info inkluderar:
+Du behöver all relevant information för att kunna ansluta till din server. Information om din server hittar du på kontrollpanelen i ditt spelserver-webbgränssnitt. Viktig info inkluderar följande:
 
 - IP-adress och port
 - Servernamn
@@ -37,12 +37,12 @@ Med informationen ovan ska du kunna hitta din server och se till att du ansluter
 ## Etablera serveranslutning
 
 
-Anslutningen till en spelserver kan ofta göras på en eller flera sätt. Tillgängliga metoder beskrivs och förklaras i detalj nedan.
+Anslutningen till en spelserver kan ofta göras på ett eller flera sätt. Tillgängliga metoder beskrivs och förklaras i detalj nedan.
 
 <Tabs>
     <TabItem value="connect_solution_server_browser_ingame" label="Server Browser (I spelet)" default>
 
-För att ansluta till din server via den inbyggda serverbläddraren i spelet, öppna serverbläddraren i huvudmenyn. Klicka på **Find Multiplayer Game** och öppna sedan **Legacy Browser**. När du är där, sök efter din server med hjälp av **sökfältet** och ditt servernamn, och klicka sedan på **Connect**.
+För att ansluta till din server via den inbyggda serverbläddraren, öppna serverbläddraren i huvudmenyn. Klicka på **Find Multiplayer Game** och öppna sedan **Legacy Browser**. När du är där, sök efter din server med hjälp av **sökfältet** och ditt servernamn, och klicka sedan på **Connect**.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/XFpND5FA4ZAxfHq/download)
 
@@ -52,9 +52,9 @@ För att ansluta till din server via den inbyggda serverbläddraren i spelet, ö
 
 
 
-För att ansluta till din server via Steam-serverbläddraren, öppna serverbläddraren från Steam. Klicka på `View` högst upp i Steam-menyn och sedan på `Game Server`-sektionen för att öppna den.
+För att ansluta till din server via Steam-serverbläddraren, öppna serverbläddraren från Steam. Klicka på `View` högst upp i Steam-menyn och sedan på `Game Server`-sektionen för att öppna den. 
 
-Sök eller lägg till din server via Steam-bläddraren genom att använda `IP-adress` och `Port` för din spelserver. Gör så här: välj fliken `Favorites` i serverlistan och klicka på plustecknet längst ner. Ett popup-fönster öppnas där du anger din serverinformation.
+Sök eller lägg till din server via Steam-bläddraren genom att använda `IP-adress` och `Port` för din spelserver. För att göra detta, välj fliken `Favorites` i serverlistan och klicka på plustecknet längst ner. Ett popup-fönster öppnas där du anger din serverinformation. 
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/MMsokw2ZyCreeCN/download)
 
@@ -62,7 +62,7 @@ Sök eller lägg till din server via Steam-bläddraren genom att använda `IP-ad
 
 <TabItem value="connect_solution3" label="Konsol (I spelet)">
 
-För att ansluta till din server via konsolen, öppna konsolen med `~`-tangenten. När konsolen är öppen, kör följande kommando:
+För att ansluta till din server via konsolen, öppna konsolen med `~`-tangenten. När konsolen är öppen, kör följande kommando: 
 
 ```
 connect IP:Port
@@ -78,7 +78,7 @@ connect IP:Port
 ## Vanliga problem och lösningar
 
 
-Anslutningen till en spelserver kan ofta göras på en eller flera sätt. Tillgängliga metoder beskrivs och förklaras i detalj nedan.
+Anslutningen till en spelserver kan ofta göras på ett eller flera sätt. Tillgängliga metoder beskrivs och förklaras i detalj nedan.
 
 #### Servern syns inte
 
@@ -90,7 +90,7 @@ Att servern inte syns kan bero på att initieringen inte slutfördes korrekt. De
 #### Saknas lösning eller hjälpen räcker inte
 
 
-Har du fortfarande problem efter felsökning? Då finns vårt supportteam tillgängligt varje dag för att hjälpa dig. Skapa helt enkelt en **[Ticket](https://zap-hosting.com/en/customer/support/)** på vår webbplats och förklara ditt problem så detaljerat som möjligt. Vi kollar på det så snabbt vi kan och hjälper dig att lösa det!
+Har du fortfarande problem efter felsökning? Då finns vårt supportteam tillgängligt varje dag för att hjälpa dig. Skapa helt enkelt en **[Ticket](https://zap-hosting.com/en/customer/support/)** på vår webbplats och förklara ditt problem så detaljerat som möjligt. Vi kollar på det så snabbt vi kan och hjälper dig att lösa problemet!
 
 
 

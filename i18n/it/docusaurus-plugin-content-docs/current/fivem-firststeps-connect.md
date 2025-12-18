@@ -13,7 +13,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 
 ## Introduzione
-Non sai come connetterti al tuo server **FiveM** o cosa ti serve per iniziare? Nessun problema, ci pensiamo noi! Ti guideremo passo passo su tutto il necessario – dagli strumenti e informazioni richiesti fino al processo di connessione vero e proprio, con consigli chiave per garantirti una connessione liscia e senza intoppi. Segui la nostra guida e sarai connesso in un attimo!
+Non sai come connetterti al tuo server **FiveM** o cosa ti serve per iniziare? Nessun problema, ci pensiamo noi! Ti guideremo passo passo su tutto il necessario. Dai tool e info richiesti fino al processo di connessione vero e proprio, con i punti chiave per garantirti una connessione liscia e senza intoppi. Segui la nostra guida e sarai connesso in un attimo!
 
 <InlineVoucher />
 
@@ -28,31 +28,31 @@ Verrà scaricato il file `FiveM.exe`. Avvia l’applicazione dopo il download. U
 
 
 
-:::warning Problemi di configurazione
-Hai problemi con la configurazione? Assicurati che il tuo sistema rispetti i [requisiti minimi](https://docs.fivem.net/docs/client-manual/system-requirements/) e leggi il [manuale per problemi client](https://docs.fivem.net/docs/support/client-issues/).
+:::warning Problemi di setup
+Hai problemi con l’installazione? Assicurati che il tuo sistema rispetti i [requisiti minimi](https://docs.fivem.net/docs/client-manual/system-requirements/) e leggi il [manuale per problemi client](https://docs.fivem.net/docs/support/client-issues/).
 :::
 
 
 
 ## Ottieni i dati del server
 
-Ti serviranno tutte le informazioni necessarie per connetterti al tuo server. Puoi trovare i dati del server nella dashboard del pannello web del tuo game server. Le informazioni importanti includono:
+Ti serviranno tutte le info necessarie per connetterti al server. Puoi trovare i dati del tuo server nella dashboard del pannello web del tuo game server. Le info importanti sono:
 
 - Indirizzo IP e porta
 - Nome del server
 
-Con queste informazioni potrai trovare il tuo server e assicurarti di connetterti a quello giusto.
+Con queste info dovresti riuscire a trovare il tuo server e assicurarti di connetterti a quello giusto.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/yRMWxYtmWF7Xwxe/preview)
 
 ## Come connettersi al server
 
-La connessione a un server di gioco può avvenire in uno o più modi. Qui sotto trovi i metodi disponibili spiegati nel dettaglio.
+La connessione a un server di gioco può avvenire in uno o più modi. Qui sotto ti spieghiamo le opzioni disponibili nel dettaglio.
 
 <Tabs>
     <TabItem value="connect_solution_server_browser_ingame" label="Server Browser (In game)" default>
 
-Per connetterti al server tramite il server browser in-game, apri il browser server dal menu principale cliccando su **Play**. Clicca sul campo di ricerca e digita il nome del tuo server. Seleziona il server trovato e poi clicca su **Connect** nella schermata del server.
+Per connetterti tramite il server browser in-game, apri il browser server dal menu principale cliccando su **Play**. Clicca nel campo di ricerca e digita il nome del tuo server. Seleziona il server trovato e clicca su **Connect** nella schermata del server.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/qzW3DkWTjASeXqG/download)
 
@@ -77,23 +77,23 @@ connect IP:Port
 
 ## Problemi comuni e soluzioni
 
-La connessione a un server di gioco può essere fatta in diversi modi. Qui sotto trovi i problemi più comuni e come risolverli.
+La connessione a un server di gioco può avvenire in uno o più modi. Qui sotto ti spieghiamo le opzioni disponibili nel dettaglio.
 
 #### Server non visibile
 
-Se il server non appare, potrebbe essere che l’inizializzazione non sia andata a buon fine. Questo può succedere per configurazioni errate o file corrotti. Controlla la console del server o i log per maggiori dettagli. Inoltre, assicurati di non avere filtri sbagliati nella lista server che potrebbero nascondere il tuo server.
+Se il server non appare, potrebbe essere che l’inizializzazione non sia andata a buon fine. Potrebbe dipendere da una configurazione errata o file corrotti. Di solito puoi trovare info utili nella console del server o nei log. Inoltre, assicurati di non avere filtri sbagliati nella lista server che potrebbero nascondere il tuo server.
 
 
 
-#### Nessuna soluzione o problemi persistenti
+#### Nessuna soluzione o non risolutivo
 
-Ancora problemi dopo aver provato? Nessun problema, il nostro supporto è disponibile ogni giorno per aiutarti. Crea un **[Ticket](https://zap-hosting.com/en/customer/support/)** sul nostro sito e spiegaci il problema con più dettagli possibili. Daremo un’occhiata il prima possibile e ti aiuteremo a risolvere tutto!
+Ancora problemi dopo aver provato? Nessun problema, il nostro supporto è disponibile tutti i giorni per aiutarti. Apri un **[Ticket](https://zap-hosting.com/en/customer/support/)** sul nostro sito e spiegaci il problema con più dettagli possibili. Daremo un’occhiata il prima possibile e ti aiuteremo a risolvere!
 
 
 
 ## Conclusione
 
-Complimenti, se hai seguito tutto correttamente, ora sei connesso al server! Per qualsiasi domanda o supporto, non esitare a contattare il nostro team di assistenza, sempre pronto ad aiutarti ogni giorno! 🙂
+Complimenti, se hai seguito tutto alla lettera, dovresti essere connesso al server senza problemi. Per qualsiasi domanda o supporto, non esitare a contattare il nostro team di supporto, sempre disponibile per darti una mano! 🙂
 
 
 

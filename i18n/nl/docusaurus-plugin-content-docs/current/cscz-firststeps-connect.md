@@ -1,7 +1,7 @@
 ---
 id: cscz-firststeps-connect
 title: "Counter-Strike: Condition Zero: Verbinden met de server"
-description: "Ontdek hoe je soepel verbinding maakt met je Counter-Strike 1.6 server en klaar bent om te spelen zonder gedoe → Leer het nu"
+description: "Ontdek hoe je soepel verbinding maakt met je Counter-Strike 1.6 server en zonder gedoe klaar bent om te spelen → Leer het nu"
 sidebar_label: Verbinden met de server
 services:
   - gameserver-cscz
@@ -13,13 +13,13 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 
 ## Introductie
-Weet je niet zeker hoe je verbinding maakt met je **Counter-Strike: 1.6** server of wat je nodig hebt om te beginnen? Geen zorgen, wij helpen je! We nemen je mee door alles wat je nodig hebt – van de benodigde tools en info tot het daadwerkelijke verbindingsproces, inclusief belangrijke tips voor een soepele en probleemloze verbinding. Volg onze gids en je bent zo verbonden!
+Weet je niet zeker hoe je verbinding maakt met je **Counter-Strike: 1.6** server of wat je nodig hebt om te beginnen? Geen stress, wij fixen het voor je! We nemen je mee door alles wat je nodig hebt. Van de benodigde tools en info tot het daadwerkelijke verbindingsproces, inclusief belangrijke tips voor een soepele en probleemloze connectie. Volg onze gids en je bent zo verbonden!
 
 <InlineVoucher />
 
 
 
-## Servergegevens verkrijgen
+## Servergegevens ophalen
 
 Je hebt alle relevante info nodig om verbinding te maken met je server. De gegevens van je server vind je op het dashboard van het webinterfacepaneel van je gameserver. Belangrijke info is onder andere:
 
@@ -33,7 +33,7 @@ Met bovenstaande info kun je je server vinden en zeker weten dat je met de juist
 
 ## Verbinding maken met de server
 
-De verbinding met een gameserver kan vaak op één of meerdere manieren worden gemaakt. De beschikbare methodes worden hieronder beschreven en uitgelegd.
+De verbinding met een gameserver kan vaak op één of meerdere manieren worden gemaakt. De beschikbare methodes worden hieronder uitgebreid beschreven en uitgelegd.
 
 <Tabs>
     <TabItem value="connect_solution_server_browser_ingame" label="Serverbrowser (In-game)" default>
@@ -46,7 +46,7 @@ Om via de in-game serverbrowser verbinding te maken met je server, open je de se
 
 <TabItem value="connect_solution_server_browser_steam" label="Serverbrowser (Steam)">
 
-Om via de Steam serverbrowser verbinding te maken met je server, open je de serverbrowser vanuit Steam. Klik bovenin de Steam-navigatie op `Beeld` en vervolgens op de sectie `Game Server` om deze te openen.
+Om via de Steam serverbrowser verbinding te maken met je server, open je de serverbrowser vanuit Steam. Klik bovenaan in de Steam-navigatie op `Beeld` en vervolgens op de sectie `Game Server` om deze te openen.
 
 Zoek je server of voeg deze toe via de Steam browser door het `IP-adres` en de `Poort` van je gameserver te gebruiken. Selecteer hiervoor het tabblad `Favorieten` in de serverlijst en klik onderaan op het plus-symbool. Er opent een pop-up waarin je je servergegevens invult.
 
@@ -69,17 +69,17 @@ connect IP:Port
 
 ## Mogelijke problemen en oplossingen
 
-De verbinding met een gameserver kan vaak op één of meerdere manieren worden gemaakt. De beschikbare methodes worden hieronder beschreven en uitgelegd.
+De verbinding met een gameserver kan vaak op één of meerdere manieren worden gemaakt. De beschikbare methodes worden hieronder uitgebreid beschreven en uitgelegd.
 
 #### Niet zichtbaar
 
-Het niet zichtbaar zijn van de server kan voorkomen als de initialisatie niet succesvol is afgerond. Dit kan bijvoorbeeld door een foutieve configuratie of corrupte bestanden komen. Meer info is meestal terug te vinden in de serverconsole of logbestanden.
+Als de server niet zichtbaar is, kan dat komen doordat de initialisatie niet succesvol is afgerond. Dit kan bijvoorbeeld door een foutieve configuratie of corrupte bestanden komen. Meer info vind je meestal in de serverconsole of logbestanden.
 
 
 
-#### Oplossing mist of niet behulpzaam
+#### Oplossing mist of helpt niet
 
-Heb je nog steeds problemen na het oplossen van issues? Geen stress, ons supportteam staat dagelijks voor je klaar om te helpen. Maak gewoon een **[Ticket](https://zap-hosting.com/en/customer/support/)** aan op onze website en leg je probleem zo gedetailleerd mogelijk uit. We kijken er zo snel mogelijk naar en helpen je het probleem op te lossen!
+Heb je na het troubleshooten nog steeds problemen? Geen zorgen, ons supportteam staat dagelijks voor je klaar om te helpen. Maak gewoon een **[Ticket](https://zap-hosting.com/en/customer/support/)** aan op onze website en leg je probleem zo gedetailleerd mogelijk uit. We kijken er zo snel mogelijk naar en helpen je het probleem op te lossen!
 
 
 

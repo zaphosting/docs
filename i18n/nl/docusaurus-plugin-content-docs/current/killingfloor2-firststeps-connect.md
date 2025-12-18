@@ -13,15 +13,15 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 
 ## Introductie
-Weet je niet zeker hoe je verbinding maakt met je **Killing Floor 2**-server of wat je nodig hebt om te beginnen? Geen stress, wij fixen het voor je! We nemen je stap voor stap mee – van de benodigde tools en info tot het daadwerkelijke verbindingsproces, inclusief belangrijke tips voor een soepele en probleemloze connectie. Volg onze gids en je bent zo verbonden!
+Weet je niet zeker hoe je verbinding maakt met je **Killing Floor 2**-server of wat je nodig hebt om te beginnen? Geen zorgen, wij helpen je! We nemen je mee door alles wat je nodig hebt. Van de benodigde tools en info tot het daadwerkelijke verbindingsproces, inclusief belangrijke aandachtspunten voor een soepele en probleemloze verbinding. Volg onze gids en je bent zo verbonden!
 
 <InlineVoucher />
 
 
 
-## Servergegevens ophalen
+## Servergegevens verkrijgen
 
-Je hebt alle relevante info nodig om verbinding te maken met je server. De gegevens van je server vind je op het dashboard van het webinterfacepaneel van je game server. Belangrijke info is onder andere:
+Je hebt alle relevante info nodig om verbinding te maken met je server. De gegevens van je server vind je op het dashboard van het webinterfacepaneel van je game server. Belangrijke info omvat:
 
 - IP-adres en poort
 - Servernaam
@@ -57,19 +57,19 @@ De verbinding met een game server kan vaak op één of meerdere manieren worden 
 
 #### Niet zichtbaar
 
-Als je server niet zichtbaar is, kan dat komen doordat de initialisatie niet succesvol is afgerond. Dit kan bijvoorbeeld door een foutieve configuratie of corrupte bestanden. Meer info vind je meestal in de serverconsole of logbestanden.
+Als de server niet zichtbaar is, kan dat komen doordat de initialisatie niet succesvol is afgerond. Dit kan bijvoorbeeld door een foutieve configuratie of corrupte bestanden komen. Meer info vind je meestal in de serverconsole of logbestanden.
 
 
 
 #### Geen oplossing gevonden of niet geholpen
 
-Heb je nog steeds problemen na het proberen van de oplossingen? Geen zorgen! Ons supportteam staat dagelijks voor je klaar. Maak gewoon een **[Ticket](https://zap-hosting.com/en/customer/support/)** aan op onze website en leg je probleem zo gedetailleerd mogelijk uit. We kijken er zo snel mogelijk naar en helpen je het probleem op te lossen!
+Heb je nog steeds problemen na het oplossen? Geen stress! Ons supportteam staat dagelijks voor je klaar. Maak gewoon een **[Ticket](https://zap-hosting.com/en/customer/support/)** aan op onze website en leg je probleem zo gedetailleerd mogelijk uit. We kijken er zo snel mogelijk naar en helpen je het probleem op te lossen!
 
 
 
 ## Conclusie
 
-Gefeliciteerd! Als je alles goed hebt gevolgd, zou je nu succesvol verbonden moeten zijn met de server. Heb je nog vragen of hulp nodig? Aarzel dan niet om contact op te nemen met ons supportteam, die dagelijks voor je klaarstaat! 🙂
+Gefeliciteerd, als je alles goed hebt gevolgd, heb je nu succesvol verbinding gemaakt met de server. Voor verdere vragen of hulp, aarzel niet om contact op te nemen met ons supportteam, dat dagelijks voor je klaarstaat! 🙂
 
 
 

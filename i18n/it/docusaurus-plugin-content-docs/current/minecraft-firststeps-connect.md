@@ -12,13 +12,13 @@ import TabItem from '@theme/TabItem';
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introduzione
-Non sai come connetterti al tuo server **Minecraft** o cosa ti serve per iniziare? Nessun problema, ci pensiamo noi! Ti guideremo passo passo su tutto il necessario – dagli strumenti e informazioni richieste fino al processo di connessione vero e proprio, con consigli chiave per garantirti una connessione liscia e senza intoppi. Segui la nostra guida e sarai connesso in un attimo!
+Non sai come connetterti al tuo server **Minecraft** o cosa ti serve per iniziare? Nessun problema, ci pensiamo noi! Ti guideremo passo passo su tutto il necessario. Dagli strumenti e informazioni richiesti fino al processo di connessione vero e proprio, con i punti chiave per garantirti una connessione liscia e senza intoppi. Segui la nostra guida e sarai connesso in un attimo!
 
 
 
 ## Requisiti
 
-Potrebbe servirti un software aggiuntivo per connetterti al server di gioco per questo titolo. Per la versione vanilla di Minecraft, cioè senza mod o modpack aggiuntivi, non serve alcun software extra. Se vuoi usare mod o modpack, ti servirà anche il launcher giusto. Puoi vedere quale launcher ti serve per la mod o modpack specifica dal nome del gioco nel tuo dashboard.
+Potrebbe servirti un software aggiuntivo per connetterti al server di gioco per questo titolo. Per la versione vanilla di Minecraft, cioè senza mod o modpack aggiuntivi, non serve nessun software extra. Se vuoi usare mod o modpack, ti servirà anche il launcher giusto. Puoi vedere quale launcher ti serve per la mod o modpack specifica dal nome del gioco nel pannello di controllo.
 
 | Variante di Minecraft                  | Software aggiuntivo richiesto |
 | ------------------------------------ | ----------------------------- |
@@ -34,7 +34,7 @@ Potrebbe servirti un software aggiuntivo per connetterti al server di gioco per 
 
 
 #### Mod
-Se vuoi usare mod, ti serve anche il mod loader giusto. A seconda che tu voglia usare mod Forge o Fabric, ti servirà uno dei due.
+Se vuoi usare mod, ti serve anche il mod loader giusto. A seconda che tu voglia usare mod Forge o Fabric, ti serve uno dei due.
 
 - [Minecraft: Forge](https://files.minecraftforge.net/net/minecraftforge/forge/) - Per usare mod Forge, devi scaricare e installare Forge.
 - [Minecraft: Fabric](https://fabricmc.net/) - Per usare mod Fabric, devi scaricare e installare Fabric.
@@ -47,7 +47,7 @@ Fabric e Forge non sono compatibili tra loro. Le mod Forge devono girare su Forg
 
 
 #### Modpack
-Se vuoi usare un modpack, ti serve anche il launcher giusto. Puoi vedere quale launcher ti serve per il modpack specifico dal nome del gioco nel dashboard.
+Se vuoi usare un modpack, ti serve anche il launcher giusto. Puoi vedere quale launcher ti serve per il modpack specifico dal nome del gioco nel pannello di controllo.
 - [CurseForge](https://www.curseforge.com/) - Per usare modpack dal Curse / Twitch Launcher, devi scaricarlo e installare il modpack da lì.
 - [Feed The Beast](https://www.feed-the-beast.com/) - Per usare modpack dal Feed The Beast Launcher, devi scaricarlo e installare il modpack da lì.
 - [Technic Launcher](https://www.technicpack.net/) - Per usare modpack dal Technic Launcher, devi scaricarlo e installare il modpack da lì.
@@ -56,7 +56,7 @@ Se vuoi usare un modpack, ti serve anche il launcher giusto. Puoi vedere quale l
 
 ## Ottieni i dati del server
 
-Ti serviranno tutte le informazioni necessarie per connetterti al tuo server. Le info sul tuo server le trovi nel dashboard del pannello web del tuo game server. Le info importanti sono:
+Ti serviranno tutte le informazioni necessarie per connetterti al tuo server. Le info sul tuo server le trovi nel pannello di controllo web del tuo game server. Le info importanti includono:
 
 - Indirizzo IP e porta
 
@@ -66,12 +66,12 @@ Con queste info dovresti riuscire a trovare il tuo server e assicurarti di conne
 
 ## Stabilisci la connessione al server
 
-La connessione a un game server può essere fatta in uno o più modi. I metodi disponibili sono descritti e spiegati qui sotto.
+La connessione a un game server può spesso essere fatta in uno o più modi. I metodi disponibili sono descritti e spiegati nel dettaglio qui sotto.
 
 <Tabs>
-    <TabItem value="connect_solution_server_browser_ingame" label="Server Browser (In gioco)" default>
+    <TabItem value="connect_solution_server_browser_ingame" label="Server Browser (In game)" default>
 
-Avvia il gioco tramite il launcher di Minecraft o del modpack e vai nel menu **Multiplayer**. Poi clicca su **Aggiungi Server**. Qui puoi inserire un nome a piacere e l’indirizzo IP/porta.
+Avvia il gioco tramite il launcher di Minecraft o del Mod pack e vai nel menu **Multiplayer**. Poi clicca su **Aggiungi Server**. Qui puoi inserire un nome a piacere e l’indirizzo IP/porta.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/4nAK62sXGLySm4D/download)
 
@@ -84,11 +84,11 @@ Avvia il gioco tramite il launcher di Minecraft o del modpack e vai nel menu **M
 
 ## Problemi comuni e soluzioni
 
-La connessione a un game server può essere fatta in uno o più modi. I metodi disponibili sono descritti e spiegati qui sotto.
+La connessione a un game server può spesso essere fatta in uno o più modi. I metodi disponibili sono descritti e spiegati nel dettaglio qui sotto.
 
 #### Non visibile
 
-Il server potrebbe non essere visibile se l’inizializzazione non è andata a buon fine. Questo può succedere per una configurazione errata o file corrotti. Di solito puoi trovare più info nella console del server o nei log.
+Il server potrebbe non essere visibile se l’inizializzazione non è andata a buon fine. Questo può succedere per una configurazione errata o file corrotti. Di solito puoi trovare più info nella console del server o nei file di log.
 
 #### Connessione fallita, Timeout di connessione.
 Questo messaggio significa che non si è riusciti a connettersi al server entro il tempo previsto. Le cause possono essere diverse. Di solito trovi più info nei log o nella console live.
@@ -106,6 +106,6 @@ Ancora problemi dopo aver provato? Nessun problema, il nostro support è disponi
 
 ## Conclusione
 
-Complimenti, se hai seguito tutto alla lettera, dovresti essere connesso al server senza problemi. Per altre domande o aiuto, non esitare a contattare il nostro support, sempre disponibile ogni giorno per darti una mano! 🙂
+Congratulazioni, se hai seguito tutto correttamente, dovresti essere connesso al server senza problemi. Per altre domande o aiuto, non esitare a contattare il nostro support, disponibile ogni giorno per darti una mano! 🙂
 
 <InlineVoucher />

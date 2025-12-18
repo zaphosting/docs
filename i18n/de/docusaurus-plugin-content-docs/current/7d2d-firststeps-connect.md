@@ -13,7 +13,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 
 ## Einführung
-Du bist dir nicht sicher, wie du dich mit deinem **7 Days To Die** Gameserver verbindest oder was du dafür brauchst? Kein Stress, wir haben alles für dich am Start! Wir zeigen dir Schritt für Schritt, was du brauchst – von den nötigen Tools und Infos bis hin zum eigentlichen Verbindungsprozess, inklusive wichtiger Tipps, damit alles reibungslos läuft. Folge unserer Anleitung und du bist im Handumdrehen verbunden!
+Du bist dir nicht sicher, wie du dich mit deinem **7 Days To Die** Gameserver verbindest oder was du dafür brauchst? Kein Stress, wir haben alles für dich am Start! Wir führen dich durch alles, was du wissen musst. Von den nötigen Tools und Infos bis hin zum eigentlichen Verbindungsprozess – inklusive wichtiger Tipps, damit alles reibungslos und ohne Probleme klappt. Folge unserer Anleitung und du bist im Handumdrehen verbunden!
 
 <InlineVoucher />
 
@@ -21,18 +21,18 @@ Du bist dir nicht sicher, wie du dich mit deinem **7 Days To Die** Gameserver ve
 
 ## Serverdetails besorgen
 
-Du brauchst alle wichtigen Infos, um dich mit deinem Server zu verbinden. Die Infos zu deinem Server findest du im Dashboard deines Gameserver-Webinterface-Panels. Wichtige Details sind unter anderem:
+Du brauchst alle wichtigen Infos, um dich mit deinem Server zu verbinden. Die Infos zu deinem Server findest du im Dashboard deines Gameserver-Webinterface-Panels. Wichtige Infos sind unter anderem:
 
 - IP-Adresse und Port
 - Servername
 
-Mit diesen Infos kannst du deinen Server finden und sicherstellen, dass du dich mit dem richtigen Server verbindest.
+Mit den oben genannten Infos kannst du deinen Server finden und sicherstellen, dass du dich mit dem richtigen Server verbindest.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/dXHjtXr6MGsdJTx/preview)
 
 ## Verbindung zum Server herstellen
 
-Die Verbindung zu einem Gameserver kann oft auf eine oder mehrere Arten hergestellt werden. Die verfügbaren Methoden werden unten beschrieben und ausführlich erklärt.
+Die Verbindung zu einem Gameserver kann oft auf eine oder mehrere Arten hergestellt werden. Die verfügbaren Methoden werden unten detailliert beschrieben und erklärt.
 
 <Tabs>
     <TabItem value="connect_solution_server_direct" label="Direkt verbinden (Im Spiel)" default>
@@ -49,17 +49,17 @@ Um dich mit deinem Server zu verbinden, öffne das Spiel. Klicke im Spiel auf **
 
 ## Mögliche Probleme und Lösungen
 
-Die Verbindung zu einem Gameserver kann oft auf eine oder mehrere Arten hergestellt werden. Die verfügbaren Methoden werden unten beschrieben und ausführlich erklärt.
+Die Verbindung zu einem Gameserver kann oft auf eine oder mehrere Arten hergestellt werden. Die verfügbaren Methoden werden unten detailliert beschrieben und erklärt.
 
 #### Nicht sichtbar
 
-Wenn der Server nicht sichtbar ist, kann das daran liegen, dass die Initialisierung nicht erfolgreich abgeschlossen wurde. Das kann z.B. an einer fehlerhaften Konfiguration oder beschädigten Dateien liegen. Weitere Infos findest du meist in der Serverkonsole oder in den Logdateien.
+Wenn der Server nicht sichtbar ist, kann das daran liegen, dass die Initialisierung nicht erfolgreich abgeschlossen wurde. Das kann zum Beispiel an einer fehlerhaften Konfiguration oder beschädigten Dateien liegen. Weitere Infos findest du meist in der Serverkonsole oder in den Logdateien.
 
 
 
-#### Keine Lösung gefunden oder nicht hilfreich
+#### Keine Lösung oder nicht hilfreich
 
-Du hast nach der Fehlerbehebung immer noch Probleme? Kein Ding, unser Support-Team ist täglich für dich da! Erstelle einfach ein **[Ticket](https://zap-hosting.com/en/customer/support/)** auf unserer Website und beschreibe dein Problem so detailliert wie möglich. Wir schauen uns das schnellstmöglich an und helfen dir, das Problem zu lösen!
+Du hast nach der Fehlerbehebung immer noch Probleme? Kein Ding, unser Support-Team steht dir täglich zur Seite. Erstelle einfach ein **[Ticket](https://zap-hosting.com/en/customer/support/)** auf unserer Website und beschreibe dein Problem so genau wie möglich. Wir schauen uns das schnellstmöglich an und helfen dir, das Problem zu lösen!
 
 
 

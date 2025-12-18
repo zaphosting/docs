@@ -14,13 +14,13 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 
 ## Introducción
-¿No sabes cómo conectarte a tu **servidor de juegos Holdfast: Nations At War** o qué necesitas para empezar? No te preocupes, ¡te tenemos cubierto! Te guiaremos por todo lo que necesitas: desde las herramientas e información necesarias hasta el proceso real de conexión, junto con consideraciones clave para asegurar una experiencia de conexión fluida y sin problemas. Sigue nuestra guía y estarás conectado en un abrir y cerrar de ojos.
+¿No sabes cómo conectarte a tu **servidor de juegos Holdfast: Nations At War** o qué necesitas para empezar? No te preocupes, ¡te tenemos cubierto! Te guiaremos por todo lo que necesitas. Desde las herramientas e información necesarias hasta el proceso real de conexión, junto con consideraciones clave para asegurar una experiencia de conexión fluida y sin problemas. Sigue nuestra guía y estarás conectado en un abrir y cerrar de ojos.
 
 <InlineVoucher />
 
 
 
-## Obtén los detalles del servidor
+## Obtén los datos del servidor
 
 
 Vas a necesitar toda la información relevante para conectarte a tu servidor. La información sobre tu servidor la puedes encontrar en el panel web del panel de control de tu servidor de juegos. La información importante incluye lo siguiente:
@@ -41,7 +41,7 @@ La conexión a un servidor de juegos a menudo se puede establecer de una o más 
 <Tabs>
     <TabItem value="connect_solution_server_browser_ingame" label="Navegador de servidores (En el juego)" default>
 
-Para conectarte a tu servidor a través del navegador de servidores dentro del juego, abre el navegador de servidores en el menú principal. Usa el **campo de búsqueda** en la lista de servidores para buscar tu servidor usando el nombre de tu servidor.
+Para conectarte a tu servidor a través del navegador de servidores dentro del juego, abre el navegador de servidores en el menú principal. Usa el **campo de búsqueda** en la lista de servidores para buscar tu servidor usando el nombre de tu servidor. 
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/3aeFHgMs4bfn7fj/download)
 
@@ -66,13 +66,13 @@ La falta de visibilidad del servidor puede ocurrir si la inicialización no se c
 #### Solución faltante o poco útil
 
 
-¿Sigues teniendo problemas después de intentar solucionarlos? En ese caso, nuestro equipo de soporte está disponible todos los días para ayudarte. Simplemente crea un **[Ticket](https://zap-hosting.com/en/customer/support/)** en nuestra web y explícanos tu problema con la mayor cantidad de detalles posible. Lo revisaremos lo antes posible y te ayudaremos a resolver el problema.
+¿Sigues teniendo problemas después de intentar solucionarlos? En ese caso, nuestro equipo de soporte está disponible a diario para ayudarte. Simplemente crea un **[Ticket](https://zap-hosting.com/en/customer/support/)** en nuestra web y explícanos tu problema con la mayor cantidad de detalles posible. Lo revisaremos lo antes posible y te ayudaremos a resolver el problema.
 
 
 
 ## Conclusión
 
-¡Felicidades! Si seguiste todo al pie de la letra, deberías haber establecido la conexión con el servidor exitosamente. Para más preguntas o ayuda, no dudes en contactar a nuestro equipo de soporte, que está disponible todos los días para asistirte 🙂.
+¡Felicidades! Si has seguido todo, deberías haber establecido con éxito la conexión al servidor. Para más preguntas o asistencia, no dudes en contactar a nuestro equipo de soporte, que está disponible a diario para ayudarte 🙂
 
 
 

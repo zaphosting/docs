@@ -14,7 +14,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 
 ## Introduktion
-Osäker på hur du ansluter till din **DDraceNetwork**-server eller vad du behöver för att komma igång? Ingen fara, vi har dig! Vi guidar dig genom allt du behöver – från nödvändiga verktyg och info till själva anslutningsprocessen, plus viktiga saker att tänka på för en smidig och problemfri anslutning. Följ vår guide så är du igång på nolltid!
+Osäker på hur du ansluter till din **DDraceNetwork**-server eller vad du behöver för att komma igång? Ingen fara, vi har dig! Vi guidar dig genom allt du behöver. Från nödvändiga verktyg och info till själva anslutningsprocessen, plus viktiga saker att tänka på för en smidig och problemfri anslutning. Följ vår guide så är du igång på nolltid!
 
 <InlineVoucher />
 
@@ -23,7 +23,7 @@ Osäker på hur du ansluter till din **DDraceNetwork**-server eller vad du behö
 ## Skaffa serveruppgifter
 
 
-Du behöver all relevant info för att kunna ansluta till din server. Informationen om din server hittar du i kontrollpanelen på din gameservers webbgränssnitt. Viktig info inkluderar:
+Du behöver all relevant info för att ansluta till din server. Serverinformationen hittar du i kontrollpanelen på ditt spelserver-webbgränssnitt. Viktig info inkluderar:
 
 - IP-adress och port
 - Servernamn (sökterm)
@@ -36,7 +36,7 @@ Med info ovan ska du enkelt kunna hitta din server och se till att du ansluter t
 ## Anslut till servern
 
 
-En anslutning till en gameserver kan ofta göras på en eller flera sätt. Tillgängliga metoder beskrivs och förklaras i detalj nedan.
+Anslutningen till en spelserver kan ofta göras på en eller flera sätt. Tillgängliga metoder beskrivs och förklaras i detalj nedan.
 
 <Tabs>
     <TabItem value="connect_solution_server_browser_ingame" label="Server Browser (I spelet)" default>
@@ -55,25 +55,25 @@ För att ansluta till din server via den inbyggda serverbläddraren, öppna serv
 ## Vanliga problem och lösningar
 
 
-En anslutning till en gameserver kan ofta göras på en eller flera sätt. Tillgängliga metoder beskrivs och förklaras i detalj nedan.
+Anslutningen till en spelserver kan ofta göras på en eller flera sätt. Tillgängliga metoder beskrivs och förklaras i detalj nedan.
 
 #### Syns inte
 
 
-Att servern inte syns kan bero på att initieringen inte slutfördes korrekt. Det kan till exempel bero på felaktig konfiguration eller korrupta filer. Mer info hittar du oftast i serverkonsolen eller loggfilerna.
+Att servern inte syns kan bero på att uppstarten inte slutfördes korrekt. Det kan till exempel bero på felaktig konfiguration eller korrupta filer. Mer info hittar du oftast i serverkonsolen eller loggfilerna.
 
 
 
 #### Saknas lösning eller hjälper inte
 
 
-Har du fortfarande problem efter felsökning? Då finns vårt supportteam tillgängligt varje dag för att hjälpa dig. Skapa enkelt en **[Ticket](https://zap-hosting.com/en/customer/support/)** på vår webbplats och förklara ditt problem så detaljerat som möjligt. Vi kollar på det så snabbt vi kan och hjälper dig att lösa det!
+Har du fortfarande problem efter felsökning? Då finns vårt supportteam tillgängligt varje dag för att hjälpa dig. Skapa bara en **[Ticket](https://zap-hosting.com/en/customer/support/)** på vår webbplats och förklara ditt problem så detaljerat som möjligt. Vi kollar på det så snabbt vi kan och hjälper dig att lösa det!
 
 
 
 ## Sammanfattning
 
-Grattis, om du följt allt borde du nu ha lyckats ansluta till servern. Har du fler frågor eller behöver hjälp, tveka inte att kontakta vårt supportteam som finns tillgängligt varje dag för att hjälpa dig! 🙂
+Grattis! Om du följt allt borde du nu vara ansluten till servern. Har du fler frågor eller behöver hjälp, tveka inte att kontakta vårt supportteam som finns tillgängligt varje dag för att hjälpa dig! 🙂
 
 
 

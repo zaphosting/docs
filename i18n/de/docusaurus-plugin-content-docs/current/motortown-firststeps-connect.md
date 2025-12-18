@@ -13,7 +13,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 
 ## Einführung
-Du bist dir unsicher, wie du dich mit deinem **Motor Town: Behind The Wheel** Server verbindest oder was du dafür brauchst? Kein Stress, wir helfen dir! Wir zeigen dir alles, was du brauchst – von den nötigen Tools und Infos bis hin zum eigentlichen Verbindungsprozess, inklusive wichtiger Tipps, damit alles reibungslos läuft. Folge unserer Anleitung und du bist im Handumdrehen verbunden!
+Du bist dir nicht sicher, wie du dich mit deinem **Motor Town: Behind The Wheel** Server verbindest oder was du dafür brauchst? Kein Stress, wir haben alles für dich am Start! Wir zeigen dir Schritt für Schritt, was du brauchst. Von den nötigen Tools und Infos bis hin zum eigentlichen Verbindungsprozess – inklusive wichtiger Tipps, damit alles reibungslos läuft. Folge unserer Anleitung und du bist im Handumdrehen verbunden!
 
 <InlineVoucher />
 
@@ -22,7 +22,7 @@ Du bist dir unsicher, wie du dich mit deinem **Motor Town: Behind The Wheel** Se
 ## Serverdetails besorgen
 
 
-Du brauchst alle wichtigen Infos, um dich mit deinem Server zu verbinden. Diese findest du im Dashboard deines Gameserver-Webinterface-Panels. Wichtige Infos sind unter anderem:
+Du brauchst alle relevanten Infos, um dich mit deinem Server zu verbinden. Die Infos zu deinem Server findest du im Dashboard deines Gameserver-Webinterface-Panels. Wichtige Infos sind unter anderem:
 
 - IP-Adresse und Port
 - Servername
@@ -36,12 +36,12 @@ Mit diesen Infos kannst du deinen Server finden und sicherstellen, dass du dich 
 ## Verbindung zum Server herstellen
 
 
-Die Verbindung zu einem Gameserver kann oft auf verschiedene Arten hergestellt werden. Die verfügbaren Methoden werden hier detailliert beschrieben und erklärt.
+Die Verbindung zu einem Gameserver kann oft auf verschiedene Arten hergestellt werden. Die verfügbaren Methoden werden hier ausführlich beschrieben und erklärt.
 
 <Tabs>
     <TabItem value="connect_solution_server_browser_ingame" label="Server Browser (Im Spiel)" default>
 
-Starte das Spiel und gehe auf **Join**, um die Serverliste zu öffnen. Nutze das Suchfeld, um deinen Server per Servername zu finden. Klicke auf den **Connect**-Button, um die Verbindung herzustellen.
+Starte das Spiel und gehe auf **Join**, um die Serverliste zu öffnen. Nutze das Suchfeld, um deinen Server über den Servernamen zu finden. Klicke auf den **Connect**-Button, um die Verbindung herzustellen.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/BpmSGCSkjgz6X5q/download)
 
@@ -53,7 +53,7 @@ Starte das Spiel und gehe auf **Join**, um die Serverliste zu öffnen. Nutze das
 
 Um dich über den Steam Server Browser zu verbinden, öffne den Server Browser in Steam. Klicke oben in der Steam-Navigation auf `Ansicht` und dann auf den Bereich `Game Server`, um ihn zu öffnen. 
 
-Suche deinen Server oder füge ihn über die IP-Adresse und den Port deines Gameservers hinzu. Wähle dazu den Tab `Favoriten` in der Serverliste und klicke unten auf das Plus-Symbol. Es öffnet sich ein Pop-up, in dem du deine Serverdaten eingibst. 
+Suche deinen Server oder füge ihn über den Steam Browser hinzu, indem du die `IP-Adresse` und den `Port` deines Gameservers eingibst. Wähle dazu den Tab `Favoriten` in der Serverliste und klicke unten auf das Plus-Symbol. Ein Pop-up öffnet sich, in dem du deine Serverdaten eingibst. 
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/MMsokw2ZyCreeCN/download)
 
@@ -67,7 +67,7 @@ Suche deinen Server oder füge ihn über die IP-Adresse und den Port deines Game
 ## Mögliche Probleme und Lösungen
 
 
-Die Verbindung zu einem Gameserver kann oft auf verschiedene Arten hergestellt werden. Die verfügbaren Methoden werden hier detailliert beschrieben und erklärt.
+Die Verbindung zu einem Gameserver kann oft auf verschiedene Arten hergestellt werden. Die verfügbaren Methoden werden hier ausführlich beschrieben und erklärt.
 
 #### Nicht sichtbar
 
@@ -79,7 +79,7 @@ Wenn der Server nicht sichtbar ist, kann das daran liegen, dass die Initialisier
 #### Keine Lösung gefunden oder nicht hilfreich
 
 
-Du hast nach der Fehlerbehebung immer noch Probleme? Kein Ding, unser Support-Team ist täglich für dich da! Erstelle einfach ein **[Ticket](https://zap-hosting.com/en/customer/support/)** auf unserer Website und beschreibe dein Problem so genau wie möglich. Wir schauen uns das schnellstmöglich an und helfen dir, das Problem zu lösen!
+Du hast nach der Fehlerbehebung immer noch Probleme? Kein Ding, unser Support-Team ist täglich für dich da! Erstelle einfach ein **[Ticket](https://zap-hosting.com/en/customer/support/)** auf unserer Website und beschreibe dein Problem so detailliert wie möglich. Wir schauen uns das schnellstmöglich an und helfen dir, das Problem zu lösen!
 
 
 

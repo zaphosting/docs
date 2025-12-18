@@ -14,7 +14,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 
 ## Einführung
-Du bist dir nicht sicher, wie du dich mit deinem **Holdfast: Nations At War** Gameserver verbindest oder was du dafür brauchst? Kein Stress, wir haben alles für dich am Start! Wir führen dich durch alles, was du brauchst – von den nötigen Tools und Infos bis hin zum eigentlichen Verbindungsprozess, inklusive wichtiger Tipps, damit alles smooth und ohne Probleme läuft. Folge unserer Anleitung und du bist im Handumdrehen verbunden!
+Du bist dir nicht sicher, wie du dich mit deinem **Holdfast: Nations At War** Gameserver verbindest oder was du dafür brauchst? Kein Stress, wir haben alles für dich am Start! Wir führen dich durch alles, was du wissen musst. Von den nötigen Tools und Infos bis hin zum eigentlichen Verbindungsprozess – inklusive wichtiger Tipps, damit alles smooth und ohne Probleme läuft. Folge unserer Anleitung und du bist im Handumdrehen verbunden!
 
 <InlineVoucher />
 
@@ -41,7 +41,7 @@ Die Verbindung zu einem Gameserver kann oft auf eine oder mehrere Arten hergeste
 <Tabs>
     <TabItem value="connect_solution_server_browser_ingame" label="Server Browser (Im Spiel)" default>
 
-Um dich über den Ingame-Serverbrowser mit deinem Server zu verbinden, öffne den Serverbrowser im Hauptmenü. Nutze das **Suchfeld** in der Serverliste, um deinen Server anhand des Servernamens zu finden. 
+Um dich über den Ingame-Serverbrowser mit deinem Server zu verbinden, öffne den Serverbrowser im Hauptmenü. Nutze das **Suchfeld** in der Serverliste, um deinen Server anhand des Servernamens zu finden.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/3aeFHgMs4bfn7fj/download)
 
@@ -59,14 +59,14 @@ Die Verbindung zu einem Gameserver kann oft auf eine oder mehrere Arten hergeste
 #### Nicht sichtbar
 
 
-Wenn der Server nicht sichtbar ist, kann das daran liegen, dass die Initialisierung nicht erfolgreich abgeschlossen wurde. Das kann z.B. an einer fehlerhaften Konfiguration oder beschädigten Dateien liegen. Weitere Infos findest du meist in der Serverkonsole oder in den Logdateien.
+Wenn der Server nicht sichtbar ist, kann das daran liegen, dass die Initialisierung nicht erfolgreich abgeschlossen wurde. Das kann zum Beispiel an einer fehlerhaften Konfiguration oder beschädigten Dateien liegen. Weitere Infos findest du meist in der Serverkonsole oder in den Logdateien.
 
 
 
 #### Keine Lösung gefunden oder nicht hilfreich
 
 
-Du hast nach dem Troubleshooting immer noch Probleme? Kein Ding, unser Support-Team ist täglich für dich da! Erstelle einfach ein **[Ticket](https://zap-hosting.com/en/customer/support/)** auf unserer Website und beschreibe dein Problem so detailliert wie möglich. Wir schauen uns das schnellstmöglich an und helfen dir, das Problem zu lösen!
+Du hast nach der Fehlerbehebung immer noch Probleme? Kein Ding, unser Support-Team steht dir täglich zur Seite. Erstelle einfach ein **[Ticket](https://zap-hosting.com/en/customer/support/)** auf unserer Website und schildere dein Problem so detailliert wie möglich. Wir schauen uns das schnellstmöglich an und helfen dir, das Problem zu lösen!
 
 
 

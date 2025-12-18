@@ -13,7 +13,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 
 ## Wprowadzenie
-Nie wiesz, jak połączyć się ze swoim serwerem **No More Room in Hell** lub czego potrzebujesz, żeby zacząć? Spoko, mamy to ogarnięte! Przeprowadzimy Cię przez wszystko, co potrzebne – od niezbędnych narzędzi i informacji, aż po sam proces łączenia, wraz z kluczowymi wskazówkami, które zapewnią płynne i bezproblemowe połączenie. Skorzystaj z naszego poradnika, a połączysz się w mgnieniu oka!
+Nie wiesz, jak połączyć się ze swoim serwerem **No More Room in Hell** lub czego potrzebujesz, by zacząć? Spoko, mamy to ogarnięte! Przeprowadzimy Cię przez wszystko, co potrzebne. Od niezbędnych narzędzi i informacji, po sam proces łączenia, wraz z kluczowymi wskazówkami, które zapewnią płynne i bezproblemowe połączenie. Skorzystaj z naszego poradnika i połączysz się w mgnieniu oka!
 
 <InlineVoucher />
 
@@ -39,9 +39,9 @@ Połączenie z serwerem gier można często nawiązać na kilka sposobów. Dost�
 
 <TabItem value="connect_solution_server_browser_steam" label="Przeglądarka serwerów (Steam)" default>
 
-Aby połączyć się z serwerem przez przeglądarkę serwerów Steam, otwórz ją w Steam. Kliknij `Widok` na górze nawigacji Steam, a następnie wybierz sekcję `Serwery gier`, aby ją otworzyć.
+Aby połączyć się z serwerem przez przeglądarkę serwerów Steam, otwórz ją w Steam. Kliknij `Widok` na górze nawigacji Steam, a następnie wybierz sekcję `Serwery gier`.
 
-Wyszukaj lub dodaj swój serwer przez przeglądarkę Steam, używając `adresu IP` i `portu` swojego serwera gier. W tym celu wybierz zakładkę `Ulubione` na liście serwerów i kliknij plusik na dole. Pojawi się okno, w którym wpiszesz dane swojego serwera.
+Wyszukaj lub dodaj swój serwer przez przeglądarkę Steam, używając `adresu IP` i `portu` serwera gier. W tym celu wybierz zakładkę `Ulubione` na liście serwerów i kliknij plusik na dole. Pojawi się okienko, w którym wpiszesz dane swojego serwera.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/MMsokw2ZyCreeCN/download)
 
@@ -72,13 +72,13 @@ Brak widoczności serwera może się zdarzyć, jeśli inicjalizacja nie zakończ
 
 #### Brak rozwiązania lub brak pomocy
 
-Wciąż masz problemy mimo prób naprawy? W takim razie nasz support jest dostępny codziennie, by Ci pomóc. Po prostu załóż **[Ticket](https://zap-hosting.com/en/customer/support/)** na naszej stronie i opisz problem jak najdokładniej. Sprawdzimy to najszybciej, jak się da, i pomożemy rozwiązać problem!
+Wciąż masz problemy po próbach naprawy? W takim razie nasz support jest do Twojej dyspozycji codziennie. Po prostu załóż **[Ticket](https://zap-hosting.com/en/customer/support/)** na naszej stronie i opisz problem jak najdokładniej. Sprawdzimy to najszybciej, jak się da, i pomożemy rozwiązać problem!
 
 
 
 ## Podsumowanie
 
-Gratulacje! Jeśli wykonałeś wszystko zgodnie z poradnikiem, powinieneś już być połączony z serwerem. W razie dalszych pytań lub potrzeby pomocy, śmiało kontaktuj się z naszym supportem, który jest dostępny codziennie i chętnie pomoże! 🙂
+Gratulacje! Jeśli wszystko poszło zgodnie z planem, powinieneś być już połączony z serwerem. W razie dalszych pytań lub potrzeby pomocy, śmiało kontaktuj się z naszym supportem, który jest dostępny codziennie i chętnie pomoże! 🙂
 
 
 

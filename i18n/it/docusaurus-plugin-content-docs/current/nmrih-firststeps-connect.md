@@ -1,8 +1,8 @@
 ---
 id: nmrih-firststeps-connect
-title: "No More Room in Hell: Connessione al server"
-description: "Scopri come connetterti senza problemi al tuo server No More Room in Hell e goderti il gameplay senza intoppi → Scopri di più ora"
-sidebar_label: Connessione al server
+title: "No More Room in Hell: Collegati al server"
+description: "Scopri come collegarti senza problemi al tuo server No More Room in Hell e goderti un gameplay fluido senza intoppi → Scopri di più ora"
+sidebar_label: Collegati al server
 services:
   - gameserver-nmrih
 ---
@@ -13,7 +13,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 
 ## Introduzione
-Non sai come connetterti al tuo server **No More Room in Hell** o cosa ti serve per iniziare? Nessun problema, ci pensiamo noi! Ti guideremo passo passo su tutto il necessario – dagli strumenti e informazioni richieste fino al processo di connessione vero e proprio, con consigli chiave per garantirti una connessione fluida e senza stress. Segui la nostra guida e sarai connesso in un attimo!
+Non sai come collegarti al tuo server **No More Room in Hell** o cosa ti serve per iniziare? Nessun problema, ci pensiamo noi! Ti guideremo passo passo su tutto il necessario. Dagli strumenti e informazioni richiesti fino al processo di connessione vero e proprio, con tutti i consigli chiave per garantirti un collegamento fluido e senza intoppi. Segui la nostra guida e sarai connesso in un attimo!
 
 <InlineVoucher />
 
@@ -21,27 +21,27 @@ Non sai come connetterti al tuo server **No More Room in Hell** o cosa ti serve 
 
 ## Ottieni i dettagli del server
 
-Ti serviranno tutte le informazioni necessarie per connetterti al tuo server. Puoi trovare i dati del tuo server nella dashboard del pannello web del tuo game server. Le informazioni importanti includono:
+Ti serviranno tutte le informazioni necessarie per collegarti al tuo server. I dati del tuo server li trovi nel pannello web del tuo game server, nella dashboard. Le informazioni importanti includono:
 
 - Indirizzo IP e porta
 - Nome del server
 - Password del server (opzionale)
 
-Con queste info potrai trovare il tuo server e assicurarti di connetterti a quello giusto.
+Con queste informazioni dovresti riuscire a trovare il tuo server e assicurarti di collegarti a quello giusto.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/kMQ9rgXosqSYr83/preview)
 
 ## Stabilire la connessione al server
 
-La connessione a un game server può essere fatta in uno o più modi. Qui sotto trovi i metodi disponibili spiegati nel dettaglio.
+La connessione a un game server può spesso essere fatta in uno o più modi. I metodi disponibili sono descritti e spiegati nel dettaglio qui sotto.
 
 <Tabs>
 
 <TabItem value="connect_solution_server_browser_steam" label="Server Browser (Steam)" default>
 
-Per connetterti al tuo server tramite il server browser di Steam, apri il browser server da Steam. Clicca su `Visualizza` in alto nella navigazione di Steam e poi sulla sezione `Server di gioco` per aprirlo.
+Per collegarti al tuo server tramite il server browser di Steam, apri il server browser da Steam. Clicca su `Visualizza` in alto nella navigazione di Steam e poi sulla sezione `Game Server` per aprirlo.
 
-Cerca o aggiungi il tuo server tramite il browser Steam usando l’`indirizzo IP` e la `porta` del tuo game server. Per farlo, seleziona la scheda `Preferiti` nella lista server e clicca sul simbolo più in basso. Si aprirà una finestra pop-up dove inserire i dati del tuo server.
+Cerca o aggiungi il tuo server tramite il browser di Steam usando l’`indirizzo IP` e la `porta` del tuo game server. Per farlo, seleziona la scheda `Preferiti` nella lista server e clicca sul simbolo più in basso. Si aprirà una finestra pop-up dove inserirai i dati del tuo server.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/MMsokw2ZyCreeCN/download)
 
@@ -49,7 +49,7 @@ Cerca o aggiungi il tuo server tramite il browser Steam usando l’`indirizzo IP
 
 <TabItem value="connect_solution3" label="Console (In game)">
 
-In No More Room in Hell, la console è disabilitata di default. Per abilitarla, **vai su Opzioni → Tastiera e scegli Avanzate**. Per connetterti al server tramite console, apri la console con il tasto `~`. Una volta aperta, esegui questo comando:
+In No More Room in Hell, la console è disabilitata di default. Per abilitarla, **vai su Opzioni → Tastiera e scegli Avanzate**. Per collegarti al server tramite console, apri la console con il tasto `~`. Una volta aperta, esegui questo comando:
 
 ```
 connect IP:Port
@@ -62,23 +62,23 @@ connect IP:Port
 
 ## Problemi comuni e soluzioni
 
-La connessione a un game server può essere fatta in uno o più modi. Qui sotto trovi i metodi disponibili spiegati nel dettaglio.
+La connessione a un game server può spesso essere fatta in uno o più modi. I metodi disponibili sono descritti e spiegati nel dettaglio qui sotto.
 
 #### Non visibile
 
-Il server potrebbe non essere visibile se l’inizializzazione non è andata a buon fine. Questo può succedere per una configurazione errata o file corrotti. Di solito puoi trovare più info nella console del server o nei file di log.
+Il server potrebbe non essere visibile se l’inizializzazione non è andata a buon fine. Questo può succedere per una configurazione errata o file corrotti. Di solito puoi trovare maggiori info nella console del server o nei file di log.
 
 
 
-#### Nessuna soluzione o non utile
+#### Soluzione mancante o non utile
 
-Hai ancora problemi dopo aver provato? Nessun problema, il nostro supporto è disponibile ogni giorno per aiutarti. Basta creare un **[Ticket](https://zap-hosting.com/en/customer/support/)** sul nostro sito e spiegarci il problema con più dettagli possibili. Daremo un’occhiata il prima possibile e ti aiuteremo a risolvere tutto!
+Hai ancora problemi dopo aver provato? Nessun problema, il nostro support è disponibile ogni giorno per aiutarti. Basta aprire un **[Ticket](https://zap-hosting.com/en/customer/support/)** sul nostro sito e spiegarci il problema con più dettagli possibili. Daremo un’occhiata il prima possibile e ti aiuteremo a risolvere tutto!
 
 
 
 ## Conclusione
 
-Complimenti, se hai seguito tutto alla lettera, dovresti essere connesso al server senza problemi. Per altre domande o supporto, non esitare a contattare il nostro team di assistenza, disponibile ogni giorno per darti una mano! 🙂
+Complimenti, se hai seguito tutto correttamente, dovresti essere connesso al server senza problemi. Per altre domande o assistenza, non esitare a contattare il nostro supporto, sempre disponibile ogni giorno per darti una mano! 🙂
 
 
 

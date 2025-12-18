@@ -1,7 +1,7 @@
 ---
 id: exiled-plugins
 title: "SCP EXILED : Installer des plugins"
-description: "Découvrez comment étendre et personnaliser votre serveur avec des plugins fiables pour plus de fonctionnalités et de personnalisation → En savoir plus maintenant"
+description: "Découvrez comment étendre et personnaliser votre serveur avec des plugins fiables pour une fonctionnalité et une personnalisation améliorées → En savoir plus maintenant"
 sidebar_label: Installer des plugins
 services:
   - gameserver
@@ -15,39 +15,39 @@ import items from '@site/data/lists/scp-plugins.json';
 
 ## Introduction
 
-Les plugins te permettent d’étendre et de personnaliser encore plus ton serveur. Dans ce guide, on t’explique où trouver les plugins les plus utilisés et comment les configurer.
+Les plugins vous permettent d’étendre et de personnaliser encore plus votre serveur. Dans ce qui suit, nous vous expliquons où trouver les plugins les plus utilisés et comment les configurer.
 
 <InlineVoucher />
 
 ## Préparation
 
-D’abord, tu dois télécharger les plugins que tu souhaites installer sur ton serveur. Une large sélection de plugins EXILED est dispo sur leur page GitHub officielle. Une fois que tu as choisi un dépôt de plugin, tu trouveras une section releases où tu peux télécharger la dernière version. Les instructions détaillées pour la suite sont expliquées juste en dessous.
+Tout d’abord, vous devez télécharger les plugins que vous souhaitez installer sur votre serveur. Une large gamme de plugins EXILED est disponible sur leur page GitHub officielle. Une fois que vous avez choisi un dépôt de plugin, vous trouverez une section releases où vous pouvez télécharger la dernière version. Des instructions détaillées sur la procédure sont fournies ci-dessous.
 
-Même si les plugins peuvent être téléchargés depuis plusieurs sources, on te conseille de rester sur des plateformes fiables comme le dépôt GitHub officiel, car ce sont généralement les plus sûres. Sois toujours vigilant quand tu ajoutes des plugins à ton serveur – vérifie bien la source, regarde qui sont les développeurs, et comprends parfaitement ce que fait le plugin avant de l’installer.
+Bien que les plugins puissent être téléchargés depuis différentes sources, nous recommandons de rester sur des plateformes fiables comme le dépôt GitHub officiel, car elles sont généralement considérées comme les plus sûres. Soyez toujours prudent lorsque vous ajoutez des plugins à votre serveur. Vérifiez bien la source, les développeurs, et comprenez parfaitement ce que fait le plugin avant de l’installer.
 
-Pour télécharger un plugin depuis GitHub, commence par visiter la page officielle [EXILED GitHub](https://github.com/Exiled-Team) et choisis le dépôt du plugin que tu veux utiliser.  
+Pour télécharger un plugin depuis GitHub, commencez par visiter la [page GitHub officielle d’EXILED](https://github.com/Exiled-Team) et sélectionnez le dépôt du plugin que vous souhaitez utiliser.  
 ![](https://screensaver01.zap-hosting.com/index.php/s/6cCEZGEBKNnJ4o4/preview)  
 
-Une fois dans le dépôt du plugin, cherche la section **Releases**, située à droite.  
+Une fois dans le dépôt du plugin, cherchez la section **Releases**, située sur la droite.  
 ![](https://screensaver01.zap-hosting.com/index.php/s/fteeKrPYmRZknBq/preview)  
 
-Dans la section Releases, tu trouveras un fichier **.dll** téléchargeable. Clique dessus pour lancer le téléchargement.  
+Dans la section Releases, vous trouverez un fichier **.dll** téléchargeable. Cliquez dessus pour lancer le téléchargement.  
 ![](https://screensaver01.zap-hosting.com/index.php/s/WzB3qHEb37kkBKs/preview)  
 
-Voilà ! Une fois téléchargé, tu peux passer aux étapes d’installation plus bas dans ce guide pour apprendre à installer le fichier **.dll** sur ton serveur.
+C’est tout ! Une fois téléchargé, vous pouvez passer aux étapes d’installation plus bas dans ce guide pour apprendre comment installer le fichier **.dll** sur votre serveur.
 
 
 ## Installation
 
-Une fois les plugins souhaités téléchargés, tu peux passer à l’installation. Ça se fait via **FTP**, donc tu auras besoin d’un client FTP pour uploader les fichiers sur ton serveur. Si tu ne connais pas encore FTP et comment ça marche, consulte ce guide : [Accès via FTP](gameserver-ftpaccess.md).
+Une fois les plugins désirés téléchargés, vous pouvez procéder à l’installation. Cela se fait via **FTP**, donc vous aurez besoin d’un client FTP pour uploader les fichiers sur votre serveur. Si vous ne connaissez pas encore FTP et son fonctionnement, consultez ce guide : [Accès via FTP](gameserver-ftpaccess.md).
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/pr5s8ySnpBN7qjC/preview)
 
-Tu trouveras le bon dossier plugins sous : ```/gXXXXXX/.config/EXILED/Plugins```. Il te suffit d’uploader les fichiers **.dll** téléchargés dans ce dossier. Ça devrait ressembler à ça après l’upload :  
+Vous trouverez le bon dossier de plugins sous : ```/gXXXXXX/.config/EXILED/Plugins```. Il suffit d’uploader les fichiers **.dll** des plugins téléchargés dans ce dossier. Cela devrait ressembler à ça après l’upload :  
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/MRJHcdGpwSb2agK/preview)
 
-Une fois cette étape terminée, l’installation du plugin est finie. Pour finir, vérifie la **console en direct** pour confirmer que le plugin a bien été compilé et chargé. La confirmation dans la console devrait ressembler à ça :  
+Une fois cette étape terminée, l’installation du plugin est finie. Enfin, vérifiez la **console en direct** pour confirmer que le plugin a bien été compilé et chargé. La confirmation dans la console devrait ressembler à ça :  
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/NtN6T5fPif3ngEW/preview)
 
@@ -55,13 +55,13 @@ Une fois cette étape terminée, l’installation du plugin est finie. Pour fini
 
 ## Plugins populaires
 
-Tu cherches encore les plugins parfaits pour ton serveur ? Parcours notre liste soigneusement sélectionnée des plugins les plus populaires et recommandés pour booster ton gameplay et donner à ton serveur la touche finale qu’il mérite. Inspire-toi et trouve exactement les ajouts qui collent à ton projet.
+Vous cherchez encore les plugins parfaits pour votre serveur ? Parcourez notre liste soigneusement sélectionnée des plugins les plus populaires et recommandés pour améliorer votre expérience de jeu et donner à votre serveur la touche finale qu’il mérite. Inspirez-vous et trouvez exactement les ajouts qui correspondent à votre projet.
 
 <SearchableItemList items={items} />
 
 
 ## Conclusion
 
-Si tu as suivi toutes les étapes, tu as normalement installé ton plugin avec succès. Pour toute question ou aide, n’hésite pas à contacter notre support, dispo tous les jours pour t’aider ! 🙂
+Si vous avez suivi toutes les étapes, vous devriez avoir installé votre plugin avec succès. Pour toute question ou assistance, n’hésitez pas à contacter notre équipe support, disponible tous les jours pour vous aider ! 🙂
 
 <InlineVoucher />

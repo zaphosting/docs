@@ -1,7 +1,7 @@
 ---
 id: dst-firststeps-connect
 title: "Don't Starve Together: Anslut till servern"
-description: "Upptäck hur du smidigt ansluter till din Don't Starve Together-server och njuter av oavbrutet spelande → Lär dig mer nu"
+description: "Upptäck hur du smidigt ansluter till din Don't Starve Together-server och njuter av oavbrutet spel → Läs mer nu"
 sidebar_label: Anslut till servern
 services:
   - gameserver-dst
@@ -14,7 +14,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 
 ## Introduktion
-Osäker på hur du ansluter till din **Don't Starve Together**-server eller vad du behöver för att komma igång? Ingen fara, vi har dig täckt! Vi guidar dig genom allt du behöver – från nödvändiga verktyg och information till själva anslutningsprocessen, plus viktiga saker att tänka på för att säkerställa en smidig och problemfri anslutning. Följ vår guide så är du uppkopplad på nolltid!
+Osäker på hur du ansluter till din **Don't Starve Together**-server eller vad du behöver för att komma igång? Ingen fara, vi har dig täckt! Vi guidar dig genom allt du behöver. Från nödvändiga verktyg och information till själva anslutningsprocessen, plus viktiga saker att tänka på för att säkerställa en smidig och problemfri anslutning. Följ vår guide så är du igång på nolltid!
 
 <InlineVoucher />
 
@@ -22,23 +22,23 @@ Osäker på hur du ansluter till din **Don't Starve Together**-server eller vad 
 
 
 
-## Skaffa serveruppgifter
+## Skaffa serverinformation
 
 
-Du behöver all relevant information för att kunna ansluta till din server. Information om din server hittar du på kontrollpanelen i ditt spelservers webbgränssnitt. Viktig info inkluderar:
+Du behöver all relevant info för att ansluta till din server. Informationen om din server hittar du på kontrollpanelen i webgränssnittet för din spelserver. Viktig info inkluderar:
 
 - Servernamn
 - Serverlösenord (valfritt)
 
 
-Med informationen ovan ska du kunna hitta din server och se till att du ansluter till rätt server.
+Med info ovan ska du kunna hitta din server och se till att du ansluter till rätt server.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/DspstxzKZ4aicXT/preview)
 
-## Etablera serveranslutning
+## Anslut till servern
 
 
-Anslutningen till en spelserver kan ofta göras på ett eller flera sätt. Tillgängliga metoder beskrivs och förklaras i detalj nedan.
+Anslutningen till en spelserver kan ofta göras på en eller flera sätt. Tillgängliga metoder beskrivs och förklaras i detalj nedan.
 
 <Tabs>
     <TabItem value="connect_solution_server_browser_ingame" label="Server Browser (I spelet)" default>
@@ -57,12 +57,12 @@ För att ansluta till din server via den inbyggda serverbläddraren, öppna serv
 ## Vanliga problem och lösningar
 
 
-Anslutningen till en spelserver kan ofta göras på ett eller flera sätt. Tillgängliga metoder beskrivs och förklaras i detalj nedan.
+Anslutningen till en spelserver kan ofta göras på en eller flera sätt. Tillgängliga metoder beskrivs och förklaras i detalj nedan.
 
-#### Syns inte
+#### Servern syns inte
 
 
-Att servern inte syns kan bero på att initieringen inte slutfördes korrekt. Detta kan till exempel bero på felaktig konfiguration eller korrupta filer. Mer information hittar du oftast i serverkonsolen eller loggfilerna.
+Att servern inte syns kan bero på att initieringen inte slutfördes korrekt. Det kan till exempel bero på felaktig konfiguration eller korrupta filer. Mer info hittar du oftast i serverkonsolen eller loggfilerna.
 
 
 
@@ -73,7 +73,7 @@ Har du fortfarande problem efter felsökning? Då finns vårt supportteam tillg�
 
 
 
-## Avslutning
+## Sammanfattning
 
 Grattis! Om du följt allt borde du nu ha lyckats ansluta till servern. Har du fler frågor eller behöver hjälp, tveka inte att kontakta vårt supportteam som finns tillgängligt varje dag för att hjälpa dig! 🙂
 

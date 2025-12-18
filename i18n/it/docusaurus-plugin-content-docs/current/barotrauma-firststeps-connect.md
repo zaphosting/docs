@@ -1,8 +1,8 @@
 ---
 id: barotrauma-firststeps-connect
-title: "Barotrauma: Collegati al server"
-description: "Scopri come collegarti al tuo server Barotrauma senza intoppi e assicurati un’esperienza di gioco senza problemi → Scopri di più ora"
-sidebar_label: Collegati al server
+title: "Barotrauma: Connessione al server"
+description: "Scopri come connetterti al tuo server Barotrauma senza intoppi e assicurati un'esperienza di gioco senza problemi → Scopri di più ora"
+sidebar_label: Connessione al server
 services:
   - gameserver-barotrauma
 ---
@@ -14,36 +14,36 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 
 ## Introduzione
-Non sai come collegarti al tuo server **Barotrauma** o cosa ti serve per iniziare? Nessun problema, ci pensiamo noi! Ti guideremo passo passo su tutto ciò che ti serve – dagli strumenti e informazioni necessarie fino al processo di connessione vero e proprio, con tutti i consigli per garantirti una connessione fluida e senza intoppi. Segui la nostra guida e sarai connesso in un attimo!
+Non sai come connetterti al tuo server **Barotrauma** o cosa ti serve per iniziare? Nessun problema, ci pensiamo noi! Ti guideremo passo passo su tutto ciò che ti serve. Dagli strumenti e informazioni necessarie fino al processo di connessione vero e proprio, con i punti chiave per garantirti una connessione fluida e senza intoppi. Segui la nostra guida e sarai connesso in un attimo!
 
 <InlineVoucher />
 
 
 
-## Ottieni i dati del server
+## Ottieni i dettagli del server
 
 
-Ti serviranno tutte le informazioni necessarie per collegarti al tuo server. I dati del tuo server li trovi nel pannello web del tuo game server, nella dashboard. Le info importanti sono:
+Ti serviranno tutte le informazioni necessarie per connetterti al tuo server. Le info sul tuo server le trovi nel pannello web del tuo game server, nella dashboard. Le informazioni importanti includono:
 
 - Indirizzo IP e porta
 - Nome del server
 - Password del server (opzionale)
 
 
-Con queste info dovresti riuscire a trovare il tuo server e assicurarti di collegarti a quello giusto.
+Con queste info dovresti riuscire a trovare il tuo server e assicurarti di connetterti a quello giusto.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/HnKL48icqNQsj2p/preview)
 
-## Come collegarti al server
+## Stabilire la connessione al server
 
 
-La connessione a un game server può avvenire in uno o più modi. Qui sotto ti spieghiamo nel dettaglio le opzioni disponibili.
+La connessione a un game server può essere fatta in uno o più modi. Qui sotto ti spieghiamo tutte le opzioni disponibili nel dettaglio.
 
 <Tabs>
 
 <TabItem value="connect_solution_server_browser_ingame" label="Server Browser (In game)" default>
 
-Per collegarti al server tramite il server browser in game, apri il server browser dal menu principale. Una volta lì, cerca il tuo server nella **lista server** usando il nome del server. Selezionalo e clicca su **Join**.
+Per connetterti al tuo server tramite il server browser in-game, apri il server browser dal menu principale. Una volta lì, cerca il tuo server nella **lista server** usando il nome del server. Selezionalo e clicca su **Join**.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/nnsaZwcWzNDGswo/download)
 
@@ -51,7 +51,7 @@ Per collegarti al server tramite il server browser in game, apri il server brows
 
 <TabItem value="connect_solution_direct_ingame" label="Connessione diretta (In game)">
 
-Per collegarti al server tramite connessione diretta in game, apri il server browser dal menu principale. Poi clicca in basso su **Direct Join** e inserisci l’indirizzo IP e la porta del tuo server. Conferma e avvia la connessione cliccando su **Join**.
+Per connetterti al tuo server tramite il server browser in-game, apri il server browser dal menu principale. Una volta lì, clicca in basso su **Direct Join** e inserisci l’indirizzo IP e la porta del tuo server. Conferma e stabilisci la connessione usando il pulsante **Join**.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/inJDnmdzc4FwDz4/download)
 
@@ -64,25 +64,25 @@ Per collegarti al server tramite connessione diretta in game, apri il server bro
 ## Problemi comuni e soluzioni
 
 
-La connessione a un game server può avvenire in uno o più modi. Qui sotto ti spieghiamo nel dettaglio le opzioni disponibili.
+La connessione a un game server può essere fatta in uno o più modi. Qui sotto ti spieghiamo tutte le opzioni disponibili nel dettaglio.
 
 #### Server non visibile
 
 
-Se il server non appare nella lista, potrebbe essere che l’avvio non sia andato a buon fine. Potrebbe dipendere da una configurazione errata o file corrotti. Di solito puoi trovare dettagli utili nella console del server o nei file di log.
+Se il server non è visibile, potrebbe essere perché l’inizializzazione non è andata a buon fine. Questo può succedere per una configurazione errata o file corrotti. Di solito puoi trovare più info nella console del server o nei file di log.
 
 
 
 #### Nessuna soluzione o non utile
 
 
-Se hai ancora problemi dopo aver provato, il nostro supporto è disponibile tutti i giorni per aiutarti. Basta aprire un **[Ticket](https://zap-hosting.com/en/customer/support/)** sul nostro sito e spiegarci il problema con più dettagli possibili. Daremo un’occhiata il prima possibile e ti aiuteremo a risolvere!
+Hai ancora problemi dopo aver provato? Nessun problema, il nostro supporto è disponibile tutti i giorni per aiutarti. Basta aprire un **[Ticket](https://zap-hosting.com/en/customer/support/)** sul nostro sito e spiegarci il problema con più dettagli possibili. Daremo un’occhiata il prima possibile e ti aiuteremo a risolvere tutto!
 
 
 
 ## Conclusione
 
-Complimenti, se hai seguito tutto dovresti essere connesso al server senza problemi. Per qualsiasi altra domanda o supporto, non esitare a contattare il nostro team di supporto, sempre disponibile per darti una mano! 🙂
+Complimenti, se hai seguito tutto dovresti essere connesso al server senza problemi. Per altre domande o aiuto, non esitare a contattare il nostro supporto, sempre disponibile ogni giorno per darti una mano! 🙂
 
 
 

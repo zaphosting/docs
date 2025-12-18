@@ -13,7 +13,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 
 ## Introducción
-¿No sabes cómo conectarte a tu servidor de **Abiotic Factor** o qué necesitas para empezar? ¡No te preocupes, aquí te ayudamos! Te guiaremos por todo lo que necesitas: desde las herramientas e información necesarias hasta el proceso de conexión, junto con consideraciones clave para asegurar una conexión fluida y sin problemas. Sigue nuestra guía y estarás conectado en un abrir y cerrar de ojos.
+¿No sabes cómo conectarte a tu servidor de **Abiotic Factor** o qué necesitas para empezar? ¡No te preocupes, aquí te ayudamos! Te guiaremos por todo lo que necesitas. Desde las herramientas e información necesarias hasta el proceso real de conexión, junto con consideraciones clave para asegurar una experiencia de conexión fluida y sin problemas. Sigue nuestra guía y estarás conectado en un abrir y cerrar de ojos.
 
 <InlineVoucher />
 
@@ -22,7 +22,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 ## Obtén los detalles del servidor
 
 
-Vas a necesitar toda la información relevante para conectarte a tu servidor. La información sobre tu servidor la puedes encontrar en el panel web de tu servidor de juegos, en el dashboard. La información importante incluye lo siguiente:
+Vas a necesitar toda la información relevante para conectarte a tu servidor. La información sobre tu servidor la puedes encontrar en el panel web de tu servidor de juegos, en el panel de control. La información importante incluye lo siguiente:
 
 - Dirección IP y puerto
 - Nombre del servidor
@@ -36,12 +36,12 @@ Con la información mencionada arriba, deberías poder localizar tu servidor y a
 ## Establece la conexión al servidor
 
 
-La conexión a un servidor de juegos suele poder establecerse de una o más formas. Los métodos disponibles se describen y explican en detalle a continuación.
+La conexión a un servidor de juegos a menudo se puede establecer de una o más formas. Los métodos disponibles se describen y explican en detalle a continuación.
 
 <Tabs>
     <TabItem value="connect_solution_server_browser_ingame" label="Navegador de servidores (En el juego)" default>
 
-Para conectarte a tu servidor, inicia el juego y navega a **Enter the Facility** desde el menú principal. Luego haz clic en **Join a Server** para abrir la lista de servidores. Usa el campo de búsqueda para ingresar el nombre de tu servidor y, cuando aparezca, haz clic en **Join** para establecer la conexión.
+Para conectarte a tu servidor, inicia el juego y navega a **Enter the Facility** desde el menú principal. Luego haz clic en **Join a Server** para abrir la lista de servidores. Usa el campo de búsqueda para ingresar el nombre de tu servidor, y una vez que aparezca, haz clic en **Join** para establecer la conexión.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/AScDLr65YwcAwBn/download)
 
@@ -63,12 +63,12 @@ Para conectarte a tu servidor, inicia el juego y navega a **Enter the Facility**
 ## Problemas potenciales y soluciones
 
 
-La conexión a un servidor de juegos suele poder establecerse de una o más formas. Los métodos disponibles se describen y explican en detalle a continuación.
+La conexión a un servidor de juegos a menudo se puede establecer de una o más formas. Los métodos disponibles se describen y explican en detalle a continuación.
 
 #### No visible
 
 
-La falta de visibilidad del servidor puede ocurrir si la inicialización no se completó con éxito. Esto puede deberse, por ejemplo, a una configuración errónea o archivos corruptos. Normalmente, más información se puede encontrar en la consola del servidor o en los archivos de registro.
+La falta de visibilidad del servidor puede ocurrir si la inicialización no se completó con éxito. Esto puede deberse, por ejemplo, a una configuración incorrecta o archivos corruptos. Normalmente, más información se puede encontrar en la consola del servidor o en los archivos de registro.
 
 
 
@@ -81,7 +81,7 @@ La falta de visibilidad del servidor puede ocurrir si la inicialización no se c
 
 ## Conclusión
 
-¡Felicidades! Si seguiste todos los pasos, deberías haber establecido la conexión con el servidor con éxito. Para cualquier otra pregunta o ayuda, no dudes en contactar a nuestro equipo de soporte, que está disponible todos los días para asistirte 🙂
+¡Felicidades! Si seguiste todo al pie de la letra, deberías haber establecido la conexión con el servidor exitosamente. Para cualquier otra pregunta o ayuda, no dudes en contactar a nuestro equipo de soporte, que está disponible todos los días para asistirte 🙂
 
 
 

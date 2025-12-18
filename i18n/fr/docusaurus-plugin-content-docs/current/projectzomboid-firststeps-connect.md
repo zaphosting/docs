@@ -1,7 +1,7 @@
 ---
 id: projectzomboid-firststeps-connect
 title: "Project Zomboid : Se connecter au serveur"
-description: "Découvrez comment vous connecter facilement et en toute sécurité à votre serveur Project Zomboid avec des astuces et étapes essentielles → En savoir plus maintenant"
+description: "Découvrez comment vous connecter facilement et en toute sécurité à votre serveur de jeux Project Zomboid avec des astuces et étapes essentielles → En savoir plus maintenant"
 sidebar_label: Se connecter au serveur
 services:
   - gameserver-projectzomboid
@@ -13,7 +13,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 
 ## Introduction
-Vous ne savez pas comment vous connecter à votre **serveur de jeux Project Zomboid** ou ce dont vous avez besoin pour commencer ? Pas de panique, on s’occupe de tout ! On va vous guider à travers tout ce qu’il faut – des outils et infos nécessaires jusqu’au processus de connexion en lui-même, avec les points clés pour garantir une connexion fluide et sans prise de tête. Suivez notre guide et vous serez connecté en un rien de temps !
+Vous ne savez pas comment vous connecter à votre **serveur de jeux Project Zomboid** ou ce dont vous avez besoin pour commencer ? Pas de souci, on s’occupe de tout ! On va vous guider à travers tout ce qu’il faut. Des outils et infos nécessaires jusqu’au processus de connexion en lui-même, avec les points clés pour garantir une connexion fluide et sans prise de tête. Suivez notre guide et vous serez connecté en un rien de temps !
 
 <InlineVoucher />
 
@@ -22,14 +22,14 @@ Vous ne savez pas comment vous connecter à votre **serveur de jeux Project Zomb
 ## Obtenir les infos du serveur
 
 
-Vous aurez besoin de toutes les infos nécessaires pour vous connecter à votre serveur. Ces infos se trouvent dans le tableau de bord de votre panneau web du serveur de jeux. Les infos importantes incluent :
+Vous aurez besoin de toutes les infos nécessaires pour vous connecter à votre serveur. Ces infos se trouvent dans le tableau de bord de votre panneau web de serveur de jeux. Les infos importantes incluent :
 
 - Adresse IP et port
 - Nom du serveur
 - Mot de passe du serveur (optionnel)
 
 
-Avec ces infos, vous devriez pouvoir localiser votre serveur et vous assurer de vous connecter au bon serveur.
+Avec ces infos, vous devriez pouvoir localiser votre serveur et vous assurer de bien vous connecter au bon serveur.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/9ENCi6gY6H7TY5p/preview)
 
@@ -39,9 +39,9 @@ Avec ces infos, vous devriez pouvoir localiser votre serveur et vous assurer de 
 La connexion à un serveur de jeux peut souvent se faire de plusieurs façons. Les méthodes disponibles sont décrites et expliquées en détail ci-dessous.
 
 <Tabs>
-    <TabItem value="connect_solution_server_browser_ingame" label="Navigateur de serveurs (en jeu)" default>
+    <TabItem value="connect_solution_server_browser_ingame" label="Navigateur de serveurs (dans le jeu)" default>
 
-Pour vous connecter à votre serveur via le navigateur de serveurs en jeu, lancez le jeu et allez dans **Rejoindre**. Une fois dans la liste des serveurs, entrez les infos de votre serveur dans les champs Nom favori, Adresse IP et Port. Vous devez aussi fournir votre nom d’utilisateur et mot de passe de compte. Cliquez ensuite sur **Ajouter** pour ajouter le serveur. 
+Pour vous connecter à votre serveur via le navigateur de serveurs intégré au jeu, ouvrez le jeu et allez dans **Rejoindre**. Une fois dans la liste des serveurs, entrez les infos de votre serveur dans les champs Nom favori, Adresse IP et Port. Vous devez aussi fournir votre nom d’utilisateur et mot de passe de compte. Cliquez ensuite sur **Ajouter** pour ajouter le serveur. 
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/dDgzzbFzr6TwYNP/download)
 
@@ -51,9 +51,9 @@ Pour vous connecter à votre serveur via le navigateur de serveurs en jeu, lance
 
 
 
-Pour vous connecter à votre serveur via le navigateur de serveurs Steam, ouvrez le navigateur de serveurs depuis Steam. Cliquez sur `Affichage` en haut de la navigation Steam, puis sur la section `Serveur de jeux` pour l’ouvrir. 
+Pour vous connecter à votre serveur via le navigateur de serveurs Steam, ouvrez le navigateur de serveurs depuis Steam. Cliquez sur `Affichage` en haut de la navigation Steam puis sur la section `Serveur de jeux` pour l’ouvrir. 
 
-Cherchez ou ajoutez votre serveur via le navigateur Steam en utilisant l’`Adresse IP` et le `Port` de votre serveur de jeux. Pour cela, sélectionnez l’onglet `Favoris` dans la liste des serveurs et cliquez sur le symbole plus en bas. Une fenêtre pop-up s’ouvrira où vous préciserez les infos de votre serveur. 
+Recherchez ou ajoutez votre serveur via le navigateur Steam en utilisant l’`Adresse IP` et le `Port` de votre serveur de jeux. Pour cela, sélectionnez l’onglet `Favoris` dans la liste des serveurs et cliquez sur le symbole plus en bas. Une fenêtre pop-up s’ouvrira où vous préciserez les infos de votre serveur. 
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/MMsokw2ZyCreeCN/download)
 
@@ -72,7 +72,7 @@ La connexion à un serveur de jeux peut souvent se faire de plusieurs façons. L
 #### Serveur non visible
 
 
-Un manque de visibilité du serveur peut arriver si l’initialisation n’a pas été complétée avec succès. Cela peut par exemple venir d’une configuration défectueuse ou de fichiers corrompus. Plus d’infos se trouvent généralement dans la console du serveur ou les fichiers logs.
+Le serveur peut ne pas être visible si l’initialisation n’a pas été complétée avec succès. Cela peut par exemple venir d’une mauvaise configuration ou de fichiers corrompus. Vous trouverez souvent plus d’infos dans la console du serveur ou les fichiers logs.
 
 
 
@@ -83,7 +83,7 @@ Vous avez toujours des soucis après avoir essayé ? Dans ce cas, notre équipe 
 
 ## Conclusion
 
-Félicitations, si vous avez suivi tout ça, vous devriez être connecté avec succès au serveur. Pour toute question ou aide supplémentaire, n’hésitez pas à contacter notre équipe support, disponible tous les jours pour vous filer un coup de main ! 🙂
+Félicitations, si vous avez suivi tout ça, vous devriez être connecté avec succès au serveur. Pour toute question ou aide supplémentaire, n’hésitez pas à contacter notre équipe support, dispo tous les jours pour vous filer un coup de main ! 🙂
 
 
 

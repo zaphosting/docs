@@ -13,33 +13,33 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 
 ## Introduzione
-Non sai come connetterti al tuo server **Wreckfest 2** o cosa ti serve per iniziare? Nessun problema, ci pensiamo noi! Ti guideremo passo passo su tutto il necessario – dagli strumenti e le info richieste fino alla connessione vera e propria, con tutti i consigli per garantirti un collegamento senza intoppi e senza stress. Segui la nostra guida e sarai online in un attimo!
+Non sai come connetterti al tuo server **Wreckfest 2** o cosa ti serve per iniziare? Nessun problema, ci pensiamo noi! Ti guideremo passo passo su tutto il necessario. Dagli strumenti e le info richieste fino al processo di connessione vero e proprio, con i punti chiave per garantirti una connessione liscia e senza intoppi. Segui la nostra guida e sarai connesso in un attimo!
 
 <InlineVoucher />
 
 
 
-## Ottieni i dati del server
+## Ottieni i dettagli del server
 
 
-Ti serviranno tutte le informazioni necessarie per connetterti al tuo server. Puoi trovare i dati del server nella dashboard del pannello web del tuo game server. Le info importanti sono:
+Ti serviranno tutte le informazioni necessarie per connetterti al tuo server. Puoi trovare i dati del tuo server nella dashboard del pannello web del tuo game server. Le info importanti includono:
 
 - Indirizzo IP e porta
 
 
-Con queste info dovresti riuscire a individuare il tuo server e assicurarti di connetterti a quello giusto.
+Con queste info dovresti riuscire a localizzare il tuo server e assicurarti di connetterti a quello giusto.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/woXJxHmSDgc6Tna/preview)
 
-## Effettua la connessione al server
+## Stabilisci la connessione al server
 
 
-La connessione a un game server può essere fatta in uno o più modi. Qui sotto ti spieghiamo nel dettaglio i metodi disponibili.
+La connessione a un game server può spesso essere fatta in uno o più modi. I metodi disponibili sono descritti e spiegati nel dettaglio qui sotto.
 
 <Tabs>
     <TabItem value="connect_solution_direct_ingame" label="Connessione diretta (In game)" default>
 
-Per connetterti al server tramite il browser interno al gioco, apri il server browser dal menu principale. Da lì, clicca su **Connetti all’indirizzo** a sinistra. Inserisci l’indirizzo IP e la porta del tuo server e poi clicca su **Ok** per stabilire la connessione.
+Per connetterti al server tramite il browser server in game, apri il browser server dal menu principale. Una volta lì, clicca su **Connetti all’indirizzo** a sinistra. Inserisci l’indirizzo IP e la porta del tuo server e poi clicca su **Ok** per stabilire la connessione.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/MrQY8DKQKFz2sSn/download)
 
@@ -52,25 +52,25 @@ Per connetterti al server tramite il browser interno al gioco, apri il server br
 ## Problemi comuni e soluzioni
 
 
-La connessione a un game server può essere fatta in uno o più modi. Qui sotto ti spieghiamo nel dettaglio i metodi disponibili.
+La connessione a un game server può spesso essere fatta in uno o più modi. I metodi disponibili sono descritti e spiegati nel dettaglio qui sotto.
 
-#### Server non visibile
-
-
-Se il server non appare, potrebbe essere che l’avvio non sia andato a buon fine. Questo può succedere per una configurazione sbagliata o file corrotti. Di solito puoi trovare più dettagli nella console del server o nei file di log.
+#### Non visibile
 
 
+Il server potrebbe non essere visibile se l’inizializzazione non è stata completata con successo. Questo può succedere ad esempio per una configurazione errata o file corrotti. Ulteriori dettagli si trovano solitamente nella console del server o nei file di log.
 
-#### Nessuna soluzione o non risolve
 
 
-Se hai ancora problemi dopo aver provato, il nostro supporto è qui per te ogni giorno. Basta aprire un **[Ticket](https://zap-hosting.com/en/customer/support/)** sul nostro sito e spiegarci il problema con più dettagli possibili. Daremo un’occhiata il prima possibile e ti aiuteremo a risolvere tutto!
+#### Nessuna soluzione o non utile
+
+
+Hai ancora problemi dopo aver provato a risolverli? In questo caso, il nostro supporto è disponibile tutti i giorni per aiutarti. Crea semplicemente un **[Ticket](https://zap-hosting.com/en/customer/support/)** sul nostro sito e spiegaci il problema con più dettagli possibili. Lo controlleremo il prima possibile e ti aiuteremo a risolverlo!
 
 
 
 ## Conclusione
 
-Complimenti, se hai seguito tutto alla lettera, dovresti essere connesso al server senza problemi. Per qualsiasi altra domanda o supporto, non esitare a contattare il nostro team di assistenza, disponibile ogni giorno per darti una mano! 🙂
+Complimenti, se hai seguito tutto dovresti essere riuscito a connetterti al server senza problemi. Per altre domande o supporto, non esitare a contattare il nostro team di assistenza, disponibile ogni giorno per darti una mano! 🙂
 
 
 

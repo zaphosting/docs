@@ -13,7 +13,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 
 ## Introduzione
-Non sai come connetterti al tuo server di **The Lord of the Rings: Return to Moria** o cosa ti serve per iniziare? Nessun problema, ci pensiamo noi! Ti guideremo passo passo su tutto ciò che ti serve – dagli strumenti e informazioni necessari fino al processo di connessione vero e proprio, con consigli chiave per garantirti un’esperienza fluida e senza intoppi. Segui la nostra guida e sarai connesso in un attimo!
+Non sai come connetterti al tuo server di **The Lord of the Rings: Return to Moria** o cosa ti serve per iniziare? Nessun problema, ci pensiamo noi! Ti guideremo passo passo su tutto ciò che ti serve. Dagli strumenti e informazioni necessari fino al processo di connessione vero e proprio, con tutti i consigli chiave per garantirti una connessione fluida e senza intoppi. Segui la nostra guida e sarai connesso in un attimo!
 
 <InlineVoucher />
 
@@ -27,18 +27,18 @@ Ti serviranno tutte le informazioni necessarie per connetterti al tuo server. Pu
 - Nome del server
 - Password del server (opzionale)
 
-Con queste informazioni potrai trovare il tuo server e assicurarti di connetterti a quello giusto.
+Con queste informazioni potrai individuare il tuo server e assicurarti di connetterti a quello giusto.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/igcm7GkoB8KmsyD/preview)
 
 ## Stabilire la connessione al server
 
-La connessione a un game server può essere stabilita in uno o più modi. I metodi disponibili sono descritti e spiegati nel dettaglio qui sotto.
+La connessione a un game server può essere effettuata in uno o più modi. I metodi disponibili sono descritti e spiegati nel dettaglio qui sotto.
 
 <Tabs>
     <TabItem value="connect_solution_server_browser_ingame" label="Connessione diretta (In game)" default>
 
-Per connetterti al tuo server tramite il server browser in game, apri il gioco. Una volta dentro, clicca su **Play** e crea un Nano (personaggio) se non ne hai già uno. Poi clicca su **Join Other World** e successivamente su **Direct Connect**. Inserisci l’indirizzo IP e la porta del tuo server in **Direct Join** e clicca su **Join server**.
+Per connetterti al tuo server tramite il browser server in-game, apri il gioco. Una volta dentro, clicca su **Play** e crea un Nano (personaggio) se non ne hai già uno. Poi clicca su **Join Other World** e successivamente su **Direct Connect**. Inserisci l’indirizzo IP e la porta del tuo server in **Direct Join** e clicca su **Join server**.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/YWoD5tHWKWbJjrE/download)
 
@@ -50,11 +50,11 @@ Per connetterti al tuo server tramite il server browser in game, apri il gioco. 
 
 ## Problemi comuni e soluzioni
 
-La connessione a un game server può essere stabilita in uno o più modi. I metodi disponibili sono descritti e spiegati nel dettaglio qui sotto.
+La connessione a un game server può essere effettuata in uno o più modi. I metodi disponibili sono descritti e spiegati nel dettaglio qui sotto.
 
 #### Non visibile
 
-Il server potrebbe non essere visibile se l’inizializzazione non è stata completata con successo. Questo può succedere per una configurazione errata o file corrotti. Ulteriori dettagli si trovano solitamente nella console del server o nei file di log.
+Il server potrebbe non essere visibile se l’inizializzazione non è stata completata con successo. Questo può succedere ad esempio per una configurazione errata o file corrotti. Ulteriori dettagli si trovano solitamente nella console del server o nei file di log.
 
 
 

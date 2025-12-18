@@ -1,7 +1,7 @@
 ---
 id: dedicated-introduction
 title: "Serveur dédié : Introduction"
-description: "Découvrez des serveurs dédiés puissants avec un contrôle total du matériel et des performances maximales pour vos applications à des prix justes → En savoir plus maintenant"
+description: "Découvre des serveurs dédiés puissants avec un contrôle total du matériel et des performances maximales pour tes applications à des prix justes → En savoir plus maintenant"
 sidebar_label: Introduction
 services:
   - dedicated
@@ -15,9 +15,9 @@ import Admonition from '@theme/Admonition';
 
 ## Introduction
 
-Tu cherches ton propre serveur avec une config puissante à un prix juste ? Alors ZAP-Hosting est fait pour toi ! Chez ZAP-Hosting, tu peux louer ou acheter ton serveur dédié adapté et profiter d’un matériel au top pour une expérience ultra performante !
+Tu cherches ton propre serveur avec une config puissante à un prix raisonnable ? Alors ZAP-Hosting est fait pour toi ! Chez ZAP-Hosting, tu peux louer ou acheter ton serveur dédié adapté et profiter d’un matériel taillé pour des performances au max !
 
-Contrairement à un serveur virtuel, avec un serveur dédié tu as ton propre matériel physique. Ça veut dire que quand tu loues/achètes un serveur dédié, toute la puissance de chaque composant est uniquement pour toi et tes applis. Les serveurs virtuels, eux, tournent sur un système hôte dont les ressources sont partagées avec d’autres serveurs virtuels.
+Contrairement à un serveur virtuel, tu disposes de ton propre matériel physique avec un serveur dédié. Ça veut dire que quand tu loues/achètes un serveur dédié, toute la puissance de chaque composant est uniquement à toi et à tes applications. Les serveurs virtuels, eux, tournent sur un système hôte dont les ressources sont partagées avec d’autres serveurs virtuels.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/9YMG6QfsNzzjCSQ/preview)
 
@@ -25,7 +25,7 @@ Contrairement à un serveur virtuel, avec un serveur dédié tu as ton propre ma
 
 ## Commande
 
-Le processus de commande est super simple. Choisis la configuration que tu veux pour ton [serveur dédié](https://zap-hosting.com/en/dedicated-server-hosting/). Le temps de mise en place dépend de la dispo. Tu peux vérifier ça grâce au symbole de statut à côté du drapeau pour chaque config. Le statut **Vert** signifie que la config est dispo et sera prête en quelques minutes. Si le statut **Orange** s’affiche, la config n’est pas dispo tout de suite et doit être assemblée. Le délai est d’environ 5 jours ouvrés (lundi-vendredi).
+Le processus de commande est super simple. Choisis la configuration que tu veux pour ton [serveur dédié](https://zap-hosting.com/en/dedicated-server-hosting/). Le temps de mise en place du serveur dédié dépend de sa dispo. Tu peux vérifier ça grâce au symbole de statut à côté du drapeau pour chaque config. Le statut **Vert** signifie que la config est dispo et sera prête en quelques minutes. Si le statut **Orange** s’affiche, la config n’est pas dispo immédiatement et doit être assemblée. Le délai de mise en place est d’environ 5 jours ouvrés (du lundi au vendredi).
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/SD6jF4MENeqaJFZ/preview)
 
@@ -44,8 +44,8 @@ Pour nos serveurs dédiés, on propose plein de variantes de config, donc tu dev
 | Bande passante      | Jusqu’à 25 Gbit/s |
 | Trafic              | 33 To/mois       |
 
-:::danger Tu cherches une config personnalisée ?
-On propose des configs sur-mesure directement via notre page de commande. Il suffit de choisir l’option config personnalisée pour accéder au formulaire et préciser tes besoins.
+:::danger Tu cherches une config sur-mesure ?
+On propose des configs personnalisées directement via notre page de commande. Il suffit de choisir l’option config personnalisée pour accéder au formulaire et préciser tes besoins spécifiques.
 :::
 
 
@@ -60,5 +60,5 @@ Grâce à la puissance, aux permissions complètes et aux possibilités qui en d
 - Virtualisations
 
 ## Questions fréquentes
-Tu as encore des questions sur notre produit Serveur dédié ? Trouve toutes les réponses sur les fonctionnalités, avantages, la mise en place et comment l’utiliser efficacement. Comme ça, tu as toutes les infos pour tirer le meilleur de notre produit Serveur dédié. Et si quelque chose n’est pas clair, contacte-nous, on est là pour t’aider direct.
-<SearchableAccordion items={items} locale="fr" />
+Tu as d’autres questions sur notre produit Serveur dédié ? Trouve toutes les réponses sur les fonctionnalités, avantages, mise en place et comment l’utiliser efficacement. Comme ça, tu as toutes les infos pour tirer le meilleur de notre produit Serveur dédié. Et si quelque chose n’est pas clair, contacte-nous, on est là pour t’aider direct.
+<SearchableAccordion items={items} />

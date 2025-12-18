@@ -13,7 +13,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 
 ## Introduction
-Vous ne savez pas comment vous connecter à votre serveur **Motor Town : Behind The Wheel** ou ce dont vous avez besoin pour commencer ? Pas de panique, on s’occupe de tout ! On va vous guider à travers tout ce qu’il faut – des outils et infos nécessaires jusqu’au processus de connexion, en passant par les points clés pour garantir une connexion fluide et sans galère. Suivez notre guide et vous serez connecté en un rien de temps !
+Vous ne savez pas comment vous connecter à votre serveur **Motor Town : Behind The Wheel** ou ce dont vous avez besoin pour commencer ? Pas de stress, on s’occupe de tout ! On va vous guider pas à pas. Des outils et infos nécessaires jusqu’au processus de connexion, en passant par les points clés pour garantir une connexion fluide et sans galère. Suivez notre guide et vous serez connecté en un rien de temps !
 
 <InlineVoucher />
 
@@ -22,14 +22,14 @@ Vous ne savez pas comment vous connecter à votre serveur **Motor Town : Behind 
 ## Obtenir les infos du serveur
 
 
-Vous aurez besoin de toutes les infos nécessaires pour vous connecter à votre serveur. Ces infos se trouvent sur le tableau de bord de votre panneau web du serveur de jeux. Les infos importantes incluent :
+Vous aurez besoin de toutes les infos nécessaires pour vous connecter à votre serveur. Ces infos se trouvent dans le tableau de bord de votre panneau web du serveur de jeux. Les infos importantes sont les suivantes :
 
 - Adresse IP et port
 - Nom du serveur
 - Mot de passe du serveur
 
 
-Avec ces infos, vous devriez pouvoir localiser votre serveur et vous assurer de vous connecter au bon serveur.
+Avec ces infos, vous pourrez localiser votre serveur et vous assurer de vous connecter au bon serveur.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/JpEweKBDKAE7Dek/preview)
 
@@ -39,9 +39,9 @@ Avec ces infos, vous devriez pouvoir localiser votre serveur et vous assurer de 
 La connexion à un serveur de jeux peut souvent se faire de plusieurs façons. Les méthodes disponibles sont décrites et expliquées en détail ci-dessous.
 
 <Tabs>
-    <TabItem value="connect_solution_server_browser_ingame" label="Navigateur de serveurs (en jeu)" default>
+    <TabItem value="connect_solution_server_browser_ingame" label="Navigateur de serveurs (In game)" default>
 
-Lancez le jeu et allez dans **Rejoindre** pour ouvrir la liste des serveurs. Utilisez le champ de recherche pour trouver votre serveur par son nom. Lancez la connexion en cliquant sur le bouton **Connecter**.
+Lancez le jeu et allez dans **Rejoindre** pour ouvrir la liste des serveurs. Utilisez le champ de recherche pour trouver votre serveur par son nom. Cliquez sur le bouton **Connecter** pour établir la connexion.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/BpmSGCSkjgz6X5q/download)
 
@@ -53,7 +53,7 @@ Lancez le jeu et allez dans **Rejoindre** pour ouvrir la liste des serveurs. Uti
 
 Pour vous connecter à votre serveur via le navigateur de serveurs Steam, ouvrez-le depuis Steam. Cliquez sur `Affichage` en haut de la navigation Steam, puis sur la section `Serveur de jeux` pour l’ouvrir. 
 
-Recherchez ou ajoutez votre serveur via le navigateur Steam en utilisant l’`adresse IP` et le `port` de votre serveur de jeux. Pour cela, sélectionnez l’onglet `Favoris` dans la liste des serveurs et cliquez sur le symbole plus en bas. Une fenêtre pop-up s’ouvrira où vous pourrez spécifier les infos de votre serveur. 
+Recherchez ou ajoutez votre serveur via le navigateur Steam en utilisant l’`Adresse IP` et le `Port` de votre serveur de jeux. Pour cela, sélectionnez l’onglet `Favoris` dans la liste des serveurs et cliquez sur le symbole plus en bas. Une fenêtre pop-up s’ouvrira où vous pourrez renseigner les infos de votre serveur. 
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/MMsokw2ZyCreeCN/download)
 
@@ -72,18 +72,18 @@ La connexion à un serveur de jeux peut souvent se faire de plusieurs façons. L
 #### Serveur non visible
 
 
-Le serveur peut ne pas être visible si l’initialisation n’a pas été complétée avec succès. Cela peut être dû par exemple à une mauvaise configuration ou à des fichiers corrompus. Vous trouverez généralement plus d’infos dans la console du serveur ou les fichiers logs.
+Le serveur peut ne pas être visible si l’initialisation n’a pas été complétée avec succès. Cela peut être dû par exemple à une mauvaise configuration ou à des fichiers corrompus. Vous trouverez souvent plus d’infos dans la console du serveur ou les fichiers logs.
 
 
 
 #### Solution manquante ou pas utile
 
 
-Vous avez toujours des soucis après avoir essayé ? Pas de souci, notre équipe support est dispo tous les jours pour vous aider. Il suffit de créer un **[Ticket](https://zap-hosting.com/en/customer/support/)** sur notre site et de nous expliquer votre problème avec un max de détails. On s’en occupera au plus vite et on vous aidera à régler ça !
+Vous avez toujours des soucis après avoir essayé ? Pas de panique, notre équipe support est dispo tous les jours pour vous aider. Créez simplement un **[Ticket](https://zap-hosting.com/en/customer/support/)** sur notre site et expliquez-nous votre problème avec un max de détails. On s’en occupera au plus vite et on vous aidera à régler ça !
 
 ## Conclusion
 
-Félicitations, si vous avez suivi tout ça, vous devriez être connecté au serveur avec succès. Pour toute question ou aide supplémentaire, n’hésitez pas à contacter notre équipe support, dispo tous les jours pour vous filer un coup de main ! 🙂
+Félicitations, si vous avez suivi tout ça, vous devriez être connecté au serveur sans souci. Pour toute question ou aide supplémentaire, n’hésitez pas à contacter notre équipe support, dispo tous les jours pour vous filer un coup de main ! 🙂
 
 
 

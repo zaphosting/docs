@@ -1,7 +1,7 @@
 ---
 id: necesse-firststeps-connect
 title: "Necesse: Verbinden met de server"
-description: "Ontdek hoe je soepel verbinding maakt met je Necesse-server en veelvoorkomende problemen oplost voor een vlekkeloze game-ervaring → Leer het nu"
+description: "Ontdek hoe je soepel verbinding maakt met je Necesse-server en los veelvoorkomende problemen op voor een vlekkeloze game-ervaring → Leer het nu"
 sidebar_label: Verbinden met de server
 services:
   - gameserver-necesse
@@ -14,7 +14,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 
 ## Introductie
-Weet je niet precies hoe je verbinding maakt met je **Necesse**-server of wat je nodig hebt om te starten? Geen stress, wij fixen het voor je! We nemen je stap voor stap mee – van de benodigde tools en info tot het daadwerkelijke verbindingsproces, inclusief belangrijke tips om alles soepel en zonder gedoe te laten verlopen. Volg onze gids en je bent zo connected!
+Weet je niet precies hoe je verbinding maakt met je **Necesse** server of wat je nodig hebt om te starten? Geen stress, wij fixen het voor je! We nemen je stap voor stap mee. Van de benodigde tools en info tot het daadwerkelijke verbindingsproces, inclusief belangrijke tips om alles soepel en zonder gedoe te laten verlopen. Volg onze gids en je bent zo connected!
 
 <InlineVoucher />
 
@@ -23,25 +23,25 @@ Weet je niet precies hoe je verbinding maakt met je **Necesse**-server of wat je
 ## Servergegevens ophalen
 
 
-Je hebt alle relevante info nodig om verbinding te maken met je server. Deze gegevens vind je op het dashboard van het webinterfacepaneel van je game server. Belangrijke info is onder andere:
+Je hebt alle relevante info nodig om verbinding te maken met je server. Deze info vind je op het dashboard van het webinterfacepaneel van je game server. Belangrijke gegevens zijn onder andere:
 
 - IP-adres en poort
 - Servernaam
 
 
-Met deze info kun je je server vinden en zeker weten dat je met de juiste server verbindt.
+Met bovenstaande info kun je je server vinden en checken dat je met de juiste server verbindt.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/TQTcCFKTsNjwobq/preview)
 
 ## Verbinding maken met de server
 
 
-De verbinding met een game server kan vaak op één of meerdere manieren worden gemaakt. De beschikbare methodes worden hieronder uitgebreid beschreven en uitgelegd.
+De verbinding met een game server kan vaak op één of meerdere manieren worden gemaakt. De beschikbare methodes worden hieronder uitgebreid uitgelegd.
 
 <Tabs>
     <TabItem value="connect_solution_server_browser_ingame" label="Server Browser (In-game)" default>
 
-Om verbinding te maken met je server, open je de game en ga je in het hoofdmenu naar **Multiplayer**. Klik vervolgens op **Server toevoegen** en vul een naam in, samen met het IP-adres en de poort van je server. Bevestig met de knop **Toevoegen**.
+Om verbinding te maken met je server, open je de game en ga je in het hoofdmenu naar **Multiplayer**. Klik vervolgens op **Add Server** en vul een naam in, plus het IP-adres en de poort van je server. Bevestig met de knop **Add**. 
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/RdRbc92X2znNE7q/download)
 
@@ -54,7 +54,7 @@ Om verbinding te maken met je server, open je de game en ga je in het hoofdmenu 
 ## Mogelijke problemen en oplossingen
 
 
-De verbinding met een game server kan vaak op één of meerdere manieren worden gemaakt. De beschikbare methodes worden hieronder uitgebreid beschreven en uitgelegd.
+De verbinding met een game server kan vaak op één of meerdere manieren worden gemaakt. De beschikbare methodes worden hieronder uitgebreid uitgelegd.
 
 #### Niet zichtbaar
 
@@ -66,12 +66,12 @@ Als je server niet zichtbaar is, kan dat komen doordat de initialisatie niet goe
 #### Geen oplossing gevonden of niet geholpen
 
 
-Heb je na het troubleshooten nog steeds problemen? Geen zorgen, ons supportteam staat dagelijks voor je klaar. Maak gewoon een **[Ticket](https://zap-hosting.com/en/customer/support/)** aan op onze website en leg je probleem zo gedetailleerd mogelijk uit. Wij checken het zo snel mogelijk en helpen je om het probleem op te lossen!
+Heb je nog steeds problemen na het proberen van de tips? Geen zorgen, ons supportteam staat dagelijks voor je klaar. Maak gewoon een **[Ticket](https://zap-hosting.com/en/customer/support/)** aan op onze website en leg je probleem zo gedetailleerd mogelijk uit. We checken het zo snel mogelijk en helpen je om het probleem op te lossen!
 
 
 
 ## Conclusie
 
-Gefeliciteerd! Als je alles hebt gevolgd, zou je nu succesvol verbonden moeten zijn met de server. Heb je nog vragen of hulp nodig? Aarzel niet om contact op te nemen met ons supportteam, die dagelijks voor je klaarstaat! 🙂
+Gefeliciteerd, als je alles hebt gevolgd, zou je nu succesvol verbonden moeten zijn met de server. Heb je nog vragen of hulp nodig? Aarzel niet om contact op te nemen met ons supportteam, die dagelijks voor je klaarstaat! 🙂
 
 <InlineVoucher />

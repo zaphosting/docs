@@ -13,7 +13,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 
 ## Einführung
-Du bist dir nicht sicher, wie du dich mit deinem **Deadlock** Gameserver verbindest oder was du dafür brauchst? Kein Stress, wir haben alles für dich am Start! Wir führen dich durch alles, was du brauchst – von den nötigen Tools und Infos bis hin zum eigentlichen Verbindungsprozess, inklusive wichtiger Tipps, damit alles smooth und ohne Probleme läuft. Folge unserer Anleitung und du bist im Handumdrehen verbunden!
+Du bist dir nicht sicher, wie du dich mit deinem **Deadlock**-Server verbindest oder was du dafür brauchst? Kein Stress, wir haben alles für dich am Start! Wir führen dich durch alles, was du brauchst. Von den nötigen Tools und Infos bis hin zum eigentlichen Verbindungsprozess – inklusive wichtiger Tipps, damit alles smooth und ohne Probleme läuft. Folge unserer Anleitung und du bist im Handumdrehen verbunden!
 
 <InlineVoucher />
 
@@ -42,7 +42,7 @@ Die Verbindung zu einem Gameserver kann oft auf eine oder mehrere Arten hergeste
 
 <TabItem value="connect_solution3" label="Konsole (Im Spiel)">
 
-Um dich über die Konsole mit deinem Server zu verbinden, öffne die Konsole mit der Taste `F7`. Sobald die Konsole offen ist, führe folgenden Befehl aus: 
+Um dich über die Konsole mit deinem Server zu verbinden, öffne die Konsole mit der `F7`-Taste. Sobald die Konsole offen ist, führe folgenden Befehl aus: 
 
 ```
 connect <IP:Port>
@@ -63,7 +63,7 @@ Die Verbindung zu einem Gameserver kann oft auf eine oder mehrere Arten hergeste
 #### Nicht sichtbar
 
 
-Wenn der Server nicht sichtbar ist, kann das daran liegen, dass die Initialisierung nicht erfolgreich abgeschlossen wurde. Das kann zum Beispiel an einer fehlerhaften Konfiguration oder beschädigten Dateien liegen. Weitere Infos findest du meist in der Serverkonsole oder in den Logdateien.
+Wenn der Server nicht sichtbar ist, kann das daran liegen, dass die Initialisierung nicht erfolgreich abgeschlossen wurde. Das kann z.B. an einer fehlerhaften Konfiguration oder beschädigten Dateien liegen. Weitere Infos findest du meist in der Serverkonsole oder in den Logdateien.
 
 
 

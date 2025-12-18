@@ -1,7 +1,7 @@
 ---
 id: satisfactory-firststeps-dashboard
 title: "Satisfactory: Dashboard Overview"
-description: "Discover how to efficiently manage your XY server and optimize its features for your needs → Learn more now"
+description: "Discover how to efficiently manage your Satisfactory server and optimize its features for your needs → Learn more now"
 sidebar_label: Dashboard
 services:
   - gameserver-satisfactory
@@ -12,9 +12,9 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introduction
 
-You are interested in an **XY server** or already own one, but you still lack a comprehensive overview of the administration and the findability of all necessary options? Especially at the beginning, this can be a challenge. But don't worry, we'll provide you with a detailed introduction to the administration of your service below, so you'll have the best possible overview.
+You are interested in an **Satisfactory server** or already own one, but you still lack a comprehensive overview of the administration and the findability of all necessary options? Especially at the beginning, this can be a challenge. But don't worry, we'll provide you with a detailed introduction to the administration of your service below, so you'll have the best possible overview.
 
-After going through this guide, you will easily be able to manage your server efficiently and find all the necessary options and features quickly and easily. Here, you will get a structured overview that will help you step by step to get familiar with the server administration and expand your knowledge in a targeted manner. This way, you can ensure that your **XY server** is optimally adapted to your needs and that you get the most out of the available options.
+After going through this guide, you will easily be able to manage your server efficiently and find all the necessary options and features quickly and easily. Here, you will get a structured overview that will help you step by step to get familiar with the server administration and expand your knowledge in a targeted manner. This way, you can ensure that your **Satisfactory server** is optimally adapted to your needs and that you get the most out of the available options.
 
 <YouTube videoId="gzCvVuPv2x8" imageSrc="https://screensaver01.zap-hosting.com/index.php/s/GTizK4YxpS6d878/preview" title="Setup Satisfactory server in just a MINUTE!" description="Feel like you understand better when you see things in action? We’ve got you! Dive into our video that breaks it all down for you. Whether you're in a rush or just prefer to soak up information in the most engaging way possible!"/>
 
@@ -52,7 +52,8 @@ Thanks to this information, you get a good insight into the usage of your server
 ### DDoS Manager
 
 
-View past DDoS attacks to better assess potential threats and patterns. Enable notifications for ongoing DDoS attacks on your server to react quickly when an incident occurs.
+
+View past DDoS attacks to better assess potential threats and patterns. Enable notifications for ongoing DDoS attacks on your server to react quickly when an incident occurs.
 
 Depending on the server location and the DDoS protection available there, you can also monitor active attacks in real time. This includes detailed traffic insights, showing both legitimate traffic and the amount of traffic blocked by the mitigation systems. This level of transparency helps you understand how the protection is working and enables you to identify potential risks early.
 

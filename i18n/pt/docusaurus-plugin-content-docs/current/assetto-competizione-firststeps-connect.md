@@ -1,7 +1,7 @@
 ---
 id: assetto-competizione-firststeps-connect
 title: "Assetto Corsa Competizione: Conecte-se ao servidor"
-description: "Descubra como se conectar ao seu servidor de jogos Assetto Corsa Competizione de forma tranquila e resolva problemas comuns → Saiba mais agora"
+description: "Descubra como se conectar ao seu servidor de Assetto Corsa Competizione de forma fácil e resolva problemas comuns → Saiba mais agora"
 sidebar_label: Conectar ao servidor
 services:
   - gameserver-assetto-competizione
@@ -14,7 +14,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 
 ## Introdução
-Não sabe como se conectar ao seu **servidor de jogos Assetto Corsa Competizione** ou o que precisa para começar? Relaxa, a gente te ajuda! Vamos te guiar por tudo que você precisa – desde as ferramentas e informações necessárias até o processo real de conexão, junto com pontos importantes para garantir uma conexão suave e sem estresse. Siga nosso guia e você estará conectado rapidinho!
+Não sabe como se conectar ao seu **servidor de jogos Assetto Corsa Competizione** ou o que precisa para começar? Relaxa, a gente te ajuda! Vamos te guiar por tudo que você precisa. Desde as ferramentas e informações necessárias até o processo real de conexão, junto com pontos importantes para garantir uma conexão tranquila e sem estresse. Siga nosso guia e você estará conectado rapidinho!
 
 <InlineVoucher />
 
@@ -36,12 +36,12 @@ Com as informações acima, você deve conseguir localizar seu servidor e garant
 ## Estabeleça a conexão com o servidor
 
 
-A conexão com um servidor de jogos pode ser feita de uma ou mais formas. Os métodos disponíveis são descritos e explicados em detalhes abaixo.
+A conexão a um servidor de jogos pode ser feita de uma ou mais formas. Os métodos disponíveis são descritos e explicados em detalhes abaixo.
 
 <Tabs>
     <TabItem value="connect_solution_server_browser_ingame" label="Navegador de Servidores (No jogo)" default>
 
-Para se conectar ao seu servidor via o navegador de servidores dentro do jogo, abra o jogo e clique em **Multiplayer**. Você pode buscar seu servidor na lista usando o nome do servidor.
+Para se conectar ao seu servidor via o navegador de servidores dentro do jogo, abra o jogo e clique em **Multiplayer**. Você pode buscar seu servidor na lista usando o nome do servidor. 
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/xJ7wEraCbnioRqC/download)
 
@@ -55,9 +55,9 @@ Para se conectar ao seu servidor via o navegador de servidores dentro do jogo, a
 ## Problemas comuns e soluções
 
 
-A conexão com um servidor de jogos pode ser feita de uma ou mais formas. Os métodos disponíveis são descritos e explicados em detalhes abaixo.
+A conexão a um servidor de jogos pode ser feita de uma ou mais formas. Os métodos disponíveis são descritos e explicados em detalhes abaixo.
 
-#### Não aparece
+#### Não aparece na lista
 
 
 A falta de visibilidade do servidor pode acontecer se a inicialização não foi concluída com sucesso. Isso pode ser, por exemplo, devido a uma configuração errada ou arquivos corrompidos. Informações adicionais geralmente podem ser encontradas no console do servidor ou nos arquivos de log.
@@ -67,7 +67,7 @@ A falta de visibilidade do servidor pode acontecer se a inicialização não foi
 #### Solução não encontrada ou não ajudou
 
 
-Ainda com problemas depois de tentar resolver? Nesse caso, nosso time de suporte está disponível diariamente para ajudar. É só criar um **[Ticket](https://zap-hosting.com/en/customer/support/)** no nosso site e explicar seu problema com o máximo de detalhes possível. Vamos analisar rapidinho e te ajudar a resolver o problema!
+Ainda com problemas depois de tentar resolver? Nesse caso, nosso time de suporte está disponível diariamente para te ajudar. É só criar um **[Ticket](https://zap-hosting.com/en/customer/support/)** no nosso site e explicar seu problema com o máximo de detalhes possível. Vamos analisar rapidinho e te ajudar a resolver o problema!
 
 
 

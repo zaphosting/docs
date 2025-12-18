@@ -14,7 +14,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 
 ## Introdução
-Não sabe como se conectar ao seu servidor **Afterinfection** ou o que precisa para começar? Relaxa, a gente te ajuda! Vamos te guiar por tudo que você precisa – desde as ferramentas e informações necessárias até o processo real de conexão, junto com pontos importantes para garantir uma experiência tranquila e sem problemas. Siga nosso guia e você estará conectado rapidinho!
+Não sabe como se conectar ao seu servidor **Afterinfection** ou o que precisa para começar? Relaxa, a gente te ajuda! Vamos te guiar por tudo que você precisa. Desde as ferramentas e informações necessárias até o processo real de conexão, junto com pontos importantes para garantir uma experiência tranquila e sem problemas. Siga nosso guia e você estará conectado rapidinho!
 
 <InlineVoucher />
 
@@ -43,7 +43,7 @@ A conexão a um servidor de jogos pode ser feita de uma ou mais formas. Os méto
 
 <TabItem value="connect_solution_server_browser_ingame" label="Navegador de Servidores (No jogo)" default>
 
-Para se conectar ao seu servidor via navegador de servidores dentro do jogo, abra o jogo e vá para **Multiplayer**. Agora você pode buscar seu servidor na lista usando o nome do servidor.
+Para se conectar ao seu servidor via navegador de servidores dentro do jogo, abra o jogo e vá para **Multiplayer**. Agora você pode buscar seu servidor na lista usando o nome do servidor. 
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/yJpWzbfzD8jTSpc/download)
 
@@ -51,7 +51,7 @@ Para se conectar ao seu servidor via navegador de servidores dentro do jogo, abr
 
 <TabItem value="connect_solution_direct" label="Conexão Direta (No jogo)">
 
-Ao invés de procurar seu servidor na lista, você também pode usar a conexão direta em **Multiplayer**, no canto inferior esquerdo. Basta digitar o endereço IP e a porta do seu servidor e clicar em **Entrar**.
+Ao invés de buscar seu servidor na lista, você também pode usar a conexão direta em **Multiplayer** no canto inferior esquerdo. Basta digitar o endereço IP e a porta do seu servidor e clicar em **Entrar**.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/7ELrrM23ZFxNY3A/download)
 
@@ -70,7 +70,7 @@ A conexão a um servidor de jogos pode ser feita de uma ou mais formas. Os méto
 #### Não aparece na lista
 
 
-A falta de visibilidade do servidor pode acontecer se a inicialização não foi concluída com sucesso. Isso pode ser causado, por exemplo, por uma configuração errada ou arquivos corrompidos. Informações adicionais geralmente podem ser encontradas no console do servidor ou nos arquivos de log.
+A falta de visibilidade do servidor pode acontecer se a inicialização não foi concluída com sucesso. Isso pode ser causado, por exemplo, por uma configuração errada ou arquivos corrompidos. Informações mais detalhadas geralmente podem ser encontradas no console do servidor ou nos arquivos de log.
 
 
 
@@ -83,7 +83,7 @@ Ainda com problemas depois de tentar resolver? Nesse caso, nosso time de suporte
 
 ## Conclusão
 
-Parabéns, se você seguiu tudo certinho, já deve estar conectado ao servidor com sucesso. Para dúvidas ou ajuda extra, não hesite em contatar nosso suporte, que está disponível todos os dias para te ajudar! 🙂
+Parabéns, se você seguiu tudo certinho, já deve ter conseguido se conectar ao servidor. Para dúvidas ou ajuda extra, não hesite em contatar nosso suporte, que está disponível todos os dias para te dar uma força! 🙂
 
 
 

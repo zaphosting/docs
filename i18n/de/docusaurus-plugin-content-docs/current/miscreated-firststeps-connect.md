@@ -1,8 +1,8 @@
 ---
 id: miscreated-firststeps-connect
-title: "Miscreated: Verbindung zum Server herstellen"
-description: "Entdecke, wie du dich reibungslos mit deinem Miscreated-Server verbindest und häufige Probleme für ein nahtloses Gaming-Erlebnis behebst → Jetzt mehr erfahren"
-sidebar_label: Verbindung zum Server
+title: "Miscreated: Mit dem Server verbinden"
+description: "Entdecke, wie du dich reibungslos mit deinem Miscreated Gameserver verbindest und häufige Probleme für ein nahtloses Spielerlebnis löst → Jetzt mehr erfahren"
+sidebar_label: Mit dem Server verbinden
 services:
   - gameserver-miscreated
 ---
@@ -14,7 +14,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 
 ## Einführung
-Du bist dir nicht sicher, wie du dich mit deinem **Miscreated** Gameserver verbindest oder was du dafür brauchst? Kein Stress, wir haben alles für dich am Start! Wir führen dich durch alles, was du brauchst – von den nötigen Tools und Infos bis hin zum eigentlichen Verbindungsprozess, inklusive wichtiger Tipps, damit alles smooth und ohne Probleme läuft. Folge unserer Anleitung und du bist im Handumdrehen verbunden!
+Du bist dir nicht sicher, wie du dich mit deinem **Miscreated** Gameserver verbindest oder was du dafür brauchst? Kein Stress, wir haben alles für dich am Start! Wir führen dich durch alles, was du wissen musst. Von den nötigen Tools und Infos bis hin zum eigentlichen Verbindungsprozess – inklusive wichtiger Tipps, damit alles smooth und ohne Probleme läuft. Folge unserer Anleitung und du bist im Handumdrehen verbunden!
 
 <InlineVoucher />
 
@@ -66,7 +66,7 @@ Wenn der Server nicht sichtbar ist, kann das daran liegen, dass die Initialisier
 #### Keine Lösung gefunden oder nicht hilfreich
 
 
-Du hast nach der Fehlerbehebung immer noch Probleme? Kein Ding, unser Support-Team steht dir täglich zur Seite. Erstelle einfach ein **[Ticket](https://zap-hosting.com/en/customer/support/)** auf unserer Website und schildere dein Problem so detailliert wie möglich. Wir schauen uns das schnellstmöglich an und helfen dir, das Problem zu lösen!
+Du hast nach der Fehlerbehebung immer noch Probleme? Kein Ding, unser Support-Team steht dir täglich zur Seite. Erstelle einfach ein **[Ticket](https://zap-hosting.com/en/customer/support/)** auf unserer Website und beschreibe dein Problem so detailliert wie möglich. Wir schauen uns das schnellstmöglich an und helfen dir, das Problem zu lösen!
 
 
 

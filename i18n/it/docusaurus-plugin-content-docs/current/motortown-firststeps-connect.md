@@ -13,7 +13,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 
 ## Introduzione
-Non sai come connetterti al tuo server di **Motor Town: Behind The Wheel** o cosa ti serve per iniziare? Nessun problema, ci pensiamo noi! Ti guideremo passo passo su tutto ciò che ti serve – dagli strumenti e informazioni necessarie fino al processo di connessione vero e proprio, con consigli chiave per garantirti un’esperienza fluida e senza intoppi. Segui la nostra guida e sarai connesso in un attimo!
+Non sai come connetterti al tuo server **Motor Town: Behind The Wheel** o cosa ti serve per iniziare? Nessun problema, ci pensiamo noi! Ti guideremo passo passo. Dai tool necessari e le info fondamentali fino al processo di connessione vero e proprio, con tutti i consigli per un collegamento liscio e senza intoppi. Segui la nostra guida e sarai connesso in un attimo!
 
 <InlineVoucher />
 
@@ -22,26 +22,26 @@ Non sai come connetterti al tuo server di **Motor Town: Behind The Wheel** o cos
 ## Ottieni i dettagli del server
 
 
-Ti serviranno tutte le informazioni necessarie per connetterti al tuo server. Puoi trovare i dati del tuo server nella dashboard del pannello web del tuo game server. Le informazioni importanti includono:
+Ti serviranno tutte le info necessarie per collegarti al tuo server. Puoi trovare i dati del tuo server nella dashboard del pannello web del tuo game server. Le info importanti sono:
 
 - Indirizzo IP e porta
 - Nome del server
 - Password del server
 
 
-Con queste informazioni dovresti riuscire a trovare il tuo server e assicurarti di connetterti a quello giusto.
+Con queste info dovresti riuscire a trovare il tuo server e assicurarti di connetterti a quello giusto.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/JpEweKBDKAE7Dek/preview)
 
 ## Stabilire la connessione al server
 
 
-La connessione a un game server può essere stabilita in uno o più modi. I metodi disponibili sono descritti e spiegati nel dettaglio qui sotto.
+La connessione a un game server può essere fatta in uno o più modi. Qui sotto ti spieghiamo tutte le opzioni disponibili nel dettaglio.
 
 <Tabs>
-    <TabItem value="connect_solution_server_browser_ingame" label="Server Browser (In-game)" default>
+    <TabItem value="connect_solution_server_browser_ingame" label="Server Browser (In gioco)" default>
 
-Avvia il gioco e vai su **Join** per aprire la lista dei server. Usa il campo di ricerca per trovare il tuo server tramite il nome. Clicca sul pulsante **Connect** per stabilire la connessione.
+Avvia il gioco e vai su **Join** per aprire la lista dei server. Usa il campo di ricerca per trovare il tuo server tramite il nome. Clicca su **Connect** per collegarti.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/BpmSGCSkjgz6X5q/download)
 
@@ -51,9 +51,9 @@ Avvia il gioco e vai su **Join** per aprire la lista dei server. Usa il campo di
 
 
 
-Per connetterti al tuo server tramite il server browser di Steam, apri il browser server da Steam. Clicca su `View` in alto nella navigazione di Steam e poi sulla sezione `Game Server` per aprirlo. 
+Per connetterti al server tramite il server browser di Steam, apri il browser server da Steam. Clicca su `View` in alto nella navigazione di Steam e poi sulla sezione `Game Server` per aprirla. 
 
-Cerca o aggiungi il tuo server tramite il browser Steam usando l’`indirizzo IP` e la `porta` del tuo game server. Per farlo, seleziona la scheda `Favorites` nella lista server e clicca sul simbolo più in basso. Si aprirà una finestra pop-up dove inserire i dati del server. 
+Cerca o aggiungi il tuo server usando l’`IP address` e la `Port` del tuo game server. Per farlo, seleziona la tab `Favorites` nella lista server e clicca sul simbolo più in basso. Si aprirà una finestra pop-up dove inserire i dati del server. 
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/MMsokw2ZyCreeCN/download)
 
@@ -67,25 +67,25 @@ Cerca o aggiungi il tuo server tramite il browser Steam usando l’`indirizzo IP
 ## Problemi comuni e soluzioni
 
 
-La connessione a un game server può essere stabilita in uno o più modi. I metodi disponibili sono descritti e spiegati nel dettaglio qui sotto.
+La connessione a un game server può essere fatta in uno o più modi. Qui sotto ti spieghiamo tutte le opzioni disponibili nel dettaglio.
 
-#### Non visibile
+#### Server non visibile
 
 
-Il server potrebbe non essere visibile se l’inizializzazione non è stata completata correttamente. Questo può succedere per una configurazione errata o file corrotti. Ulteriori dettagli si trovano solitamente nella console del server o nei file di log.
+Il server potrebbe non essere visibile se l’inizializzazione non è andata a buon fine. Questo può succedere per una configurazione errata o file corrotti. Di solito puoi trovare più info nella console del server o nei file di log.
 
 
 
 #### Nessuna soluzione o non utile
 
 
-Hai ancora problemi dopo aver provato a risolverli? Nessun problema, il nostro supporto è disponibile ogni giorno per aiutarti. Crea semplicemente un **[Ticket](https://zap-hosting.com/en/customer/support/)** sul nostro sito e spiegaci il problema con più dettagli possibili. Daremo un’occhiata il prima possibile e ti aiuteremo a risolvere tutto!
+Hai ancora problemi dopo aver provato? Nessun problema, il nostro supporto è disponibile tutti i giorni per aiutarti. Crea semplicemente un **[Ticket](https://zap-hosting.com/en/customer/support/)** sul nostro sito e spiegaci il problema con più dettagli possibili. Daremo un’occhiata il prima possibile e ti aiuteremo a risolvere tutto!
 
 
 
 ## Conclusione
 
-Complimenti, se hai seguito tutto dovresti essere connesso al server con successo. Per altre domande o supporto, non esitare a contattare il nostro team di assistenza, disponibile ogni giorno per darti una mano! 🙂
+Complimenti, se hai seguito tutto dovresti essere connesso al server senza problemi. Per altre domande o supporto, non esitare a contattare il nostro team di supporto, sempre disponibile ogni giorno per darti una mano! 🙂
 
 
 

@@ -14,7 +14,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 
 ## Einführung
-Du bist dir nicht sicher, wie du dich mit deinem **Ground Branch** Gameserver verbindest oder was du dafür brauchst? Kein Stress, wir haben alles für dich am Start! Wir führen dich durch alles, was du brauchst – von den nötigen Tools und Infos bis hin zum eigentlichen Verbindungsprozess, inklusive wichtiger Tipps, damit alles smooth und ohne Probleme läuft. Folge unserer Anleitung und du bist im Handumdrehen verbunden!
+Du bist dir nicht sicher, wie du dich mit deinem **Ground Branch** Gameserver verbindest oder was du dafür brauchst? Kein Stress, wir haben alles für dich am Start! Wir führen dich durch alles, was du wissen musst. Von den nötigen Tools und Infos bis hin zum eigentlichen Verbindungsprozess – inklusive wichtiger Tipps, damit alles smooth und ohne Probleme läuft. Folge unserer Anleitung und du bist im Handumdrehen verbunden!
 
 <InlineVoucher />
 
@@ -23,7 +23,7 @@ Du bist dir nicht sicher, wie du dich mit deinem **Ground Branch** Gameserver ve
 ## Serverdetails besorgen
 
 
-Du brauchst alle relevanten Infos, um dich mit deinem Server zu verbinden. Die Infos zu deinem Server findest du im Dashboard deines Gameserver Control Panels. Wichtige Infos sind unter anderem:
+Du brauchst alle relevanten Infos, um dich mit deinem Server zu verbinden. Die Infos zu deinem Server findest du im Dashboard deines Gameserver-Webinterface-Panels. Wichtige Infos sind unter anderem:
 
 - Servername
 
@@ -35,7 +35,7 @@ Mit den oben genannten Infos solltest du deinen Server finden und sicherstellen 
 ## Verbindung zum Server herstellen
 
 
-Die Verbindung zu einem Gameserver kann oft auf eine oder mehrere Arten hergestellt werden. Die verfügbaren Methoden werden unten beschrieben und erklärt.
+Die Verbindung zu einem Gameserver kann oft auf eine oder mehrere Arten hergestellt werden. Die verfügbaren Methoden werden unten detailliert beschrieben und erklärt.
 
 <Tabs>
     <TabItem value="connect_solution_server_browser_ingame" label="Server Browser (Im Spiel)" default>
@@ -53,7 +53,7 @@ Um dich über den Ingame-Serverbrowser mit deinem Server zu verbinden, öffne de
 ## Mögliche Probleme und Lösungen
 
 
-Die Verbindung zu einem Gameserver kann oft auf eine oder mehrere Arten hergestellt werden. Die verfügbaren Methoden werden unten beschrieben und erklärt.
+Die Verbindung zu einem Gameserver kann oft auf eine oder mehrere Arten hergestellt werden. Die verfügbaren Methoden werden unten detailliert beschrieben und erklärt.
 
 #### Nicht sichtbar
 

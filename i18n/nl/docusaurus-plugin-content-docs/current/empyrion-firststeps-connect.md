@@ -13,7 +13,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 
 ## Introductie
-Weet je niet zeker hoe je verbinding maakt met je **Empyrion** server of wat je nodig hebt om te starten? Geen stress, wij fixen het voor je! We nemen je stap voor stap mee – van de benodigde tools en info tot het daadwerkelijke verbindingsproces, inclusief belangrijke tips voor een soepele en probleemloze connectie. Volg onze gids en je bent zo verbonden!
+Weet je niet zeker hoe je verbinding maakt met je **Empyrion** server of wat je nodig hebt om te starten? Geen stress, wij fixen het voor je! We nemen je stap voor stap mee. Van de benodigde tools en info tot het daadwerkelijke verbindingsproces, inclusief belangrijke tips voor een soepele en probleemloze connectie. Volg onze gids en je bent zo verbonden!
 
 <InlineVoucher />
 
@@ -33,12 +33,12 @@ Met bovenstaande info kun je je server vinden en zeker weten dat je met de juist
 ## Verbinding maken met de server
 
 
-De verbinding met een game server kan vaak op één of meerdere manieren worden gemaakt. De beschikbare methodes worden hieronder uitgebreid beschreven en uitgelegd.
+De verbinding met een game server kan vaak op één of meerdere manieren worden gemaakt. De beschikbare methodes worden hieronder beschreven en uitgelegd.
 
 <Tabs>
     <TabItem value="connect_solution_server_browser_ingame" label="Server Browser (In game)" default>
 
-Open de game om verbinding te maken met je server. Roep de **serverlijst** in het spel op en vul het IP-adres en de poort van de server in bij het veld **Direct IP and Port**. Klik daarna op de **Connect** knop om de verbinding te maken. 
+Open de game om verbinding te maken met je server. Open de **serverlijst** in de game en vul het IP-adres en de poort van de server in bij het veld **Direct IP and Port**. Klik daarna op de **Connect** knop om de verbinding te maken.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/kW5KHBS4bLWNk7J/download)
 
@@ -52,25 +52,25 @@ Open de game om verbinding te maken met je server. Roep de **serverlijst** in he
 ## Mogelijke problemen en oplossingen
 
 
-De verbinding met een game server kan vaak op één of meerdere manieren worden gemaakt. De beschikbare methodes worden hieronder uitgebreid beschreven en uitgelegd.
+De verbinding met een game server kan vaak op één of meerdere manieren worden gemaakt. De beschikbare methodes worden hieronder beschreven en uitgelegd.
 
 #### Niet zichtbaar
 
 
-Als de server niet zichtbaar is, kan dat komen doordat de initialisatie niet succesvol is afgerond. Dit kan bijvoorbeeld door een verkeerde configuratie of corrupte bestanden komen. Meer info vind je meestal terug in de serverconsole of logbestanden.
+Als de server niet zichtbaar is, kan dat komen doordat de initialisatie niet succesvol is afgerond. Dit kan bijvoorbeeld door een verkeerde configuratie of corrupte bestanden. Meer info vind je meestal in de serverconsole of logbestanden.
 
 
 
-#### Oplossing mist of helpt niet
+#### Geen oplossing of niet helpend
 
 
-Heb je nog steeds problemen na het proberen van de oplossingen? Geen zorgen, ons supportteam staat dagelijks voor je klaar. Maak gewoon een **[Ticket](https://zap-hosting.com/en/customer/support/)** aan op onze website en leg je probleem zo gedetailleerd mogelijk uit. We checken het zo snel mogelijk en helpen je het probleem op te lossen!
+Heb je nog steeds problemen na het troubleshooten? Geen zorgen, ons supportteam staat dagelijks voor je klaar. Maak gewoon een **[Ticket](https://zap-hosting.com/en/customer/support/)** aan op onze website en leg je probleem zo gedetailleerd mogelijk uit. We checken het zo snel mogelijk en helpen je het probleem op te lossen!
 
 
 
 ## Conclusie
 
-Gefeliciteerd, als je alles gevolgd hebt, zou je nu succesvol verbonden moeten zijn met de server. Voor verdere vragen of hulp, aarzel niet om contact op te nemen met ons supportteam, dat dagelijks voor je klaarstaat! 🙂
+Gefeliciteerd, als je alles hebt gevolgd, zou je nu succesvol verbonden moeten zijn met de server. Voor verdere vragen of hulp, aarzel niet om contact op te nemen met ons supportteam, dat dagelijks voor je klaarstaat! 🙂
 
 
 

@@ -14,7 +14,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 
 ## Introduktion
-Osäker på hur du ansluter till din **ASTRONEER**-server eller vad du behöver för att komma igång? Ingen fara, vi har dig täckt! Vi guidar dig genom allt du behöver – från nödvändiga verktyg och info till själva anslutningsprocessen, plus viktiga saker att tänka på för en smidig och problemfri anslutning. Följ vår guide så är du uppkopplad på nolltid!
+Osäker på hur du ansluter till din **ASTRONEER**-server eller vad du behöver för att komma igång? Ingen fara, vi har dig täckt! Vi guidar dig genom allt du behöver. Från nödvändiga verktyg och information till själva anslutningsprocessen, plus viktiga saker att tänka på för en smidig och problemfri anslutning. Följ vår guide så är du uppkopplad på nolltid!
 
 <InlineVoucher />
 
@@ -23,25 +23,25 @@ Osäker på hur du ansluter till din **ASTRONEER**-server eller vad du behöver 
 ## Skaffa serveruppgifter
 
 
-Du behöver all relevant info för att ansluta till din server. Information om din server hittar du på kontrollpanelen i webgränssnittet för din gameserver. Viktig info inkluderar:
+Du behöver all relevant info för att ansluta till din server. Informationen om din server hittar du på kontrollpanelen i ditt spelserver-webbgränssnitt. Viktig info inkluderar:
 
 - IP-adress och port
 - Servernamn
 
 
-Med info ovan ska du kunna hitta din server och se till att du ansluter till rätt server.
+Med info ovan ska du enkelt kunna hitta din server och se till att du ansluter till rätt server.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/BpWSdmw6dzRPzFk/preview)
 
-## Etablera serveranslutning
+## Upprätta serveranslutning
 
 
-Anslutning till en gameserver kan ofta göras på en eller flera sätt. Tillgängliga metoder beskrivs och förklaras i detalj nedan.
+Anslutningen till en spelserver kan ofta göras på en eller flera sätt. Tillgängliga metoder beskrivs och förklaras i detalj nedan.
 
 <Tabs>
     <TabItem value="connect_solution_server_browser_ingame" label="Server Browser (I spelet)" default>
 
-För att ansluta till din server via den inbyggda serverbläddraren, öppna **serverbläddraren** i huvudmenyn. Klicka på **Add Dedicated Server** i serverlistan för att lägga till din server. Fyll i IP-adressen och porten till din server och ge den ett namn. Klicka sedan på **Add server**, välj den tillagda servern och etablera anslutningen. 
+För att ansluta till din server via den inbyggda serverbläddraren, öppna **serverbläddraren** i huvudmenyn. Klicka på **Lägg till dedikerad server** i serverlistan för att lägga till din server. Fyll i IP-adressen och porten till din server och ge den ett namn. Klicka sedan på **Lägg till server**, välj den tillagda servern och upprätta anslutningen.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/ZWTe3JNSbRPXASd/download)
 
@@ -57,7 +57,7 @@ För att ansluta till din server via den inbyggda serverbläddraren, öppna **se
 ## Vanliga problem och lösningar
 
 
-Anslutning till en gameserver kan ofta göras på en eller flera sätt. Tillgängliga metoder beskrivs och förklaras i detalj nedan.
+Anslutningen till en spelserver kan ofta göras på en eller flera sätt. Tillgängliga metoder beskrivs och förklaras i detalj nedan.
 
 #### Syns inte
 

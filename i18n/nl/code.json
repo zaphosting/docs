@@ -56,11 +56,11 @@
     "description": "URL path for the storage product"
   },
   "service.fivemupvotes.title": {
-    "message": "Discord-bot",
+    "message": "FiveM Upvotes",
     "description": "Product name for the storage product"
   },
   "service.fivemupvotes.path": {
-    "message": "{marketingSite}/{language}/shop/product/cloud-gameserver/discord-bot/",
+    "message": "{marketingSite}/{language}/shop/product/fivem-upvotes/",
     "description": "URL path for the storage product"
   },
   "service.fivemupvotesburst.title": {

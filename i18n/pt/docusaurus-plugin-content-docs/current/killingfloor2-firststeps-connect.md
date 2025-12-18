@@ -13,7 +13,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 
 ## Introdução
-Não sabe como se conectar ao seu **servidor de jogos Killing Floor 2** ou o que precisa para começar? Relaxa, a gente te ajuda! Vamos te guiar por tudo que você precisa – desde as ferramentas e informações necessárias até o processo real de conexão, além de pontos importantes para garantir uma conexão suave e sem problemas. Siga nosso guia e você estará conectado rapidinho!
+Não sabe como se conectar ao seu servidor de jogos **Killing Floor 2** ou o que precisa para começar? Relaxa, a gente te ajuda! Vamos te guiar por tudo que você precisa. Desde as ferramentas e informações necessárias até o processo real de conexão, junto com pontos importantes para garantir uma conexão suave e sem problemas. Siga nosso guia e você estará conectado rapidinho!
 
 <InlineVoucher />
 
@@ -63,13 +63,13 @@ A falta de visibilidade do servidor pode acontecer se a inicialização não foi
 
 #### Solução não encontrada ou não ajudou
 
-Ainda com problemas depois de tentar resolver? Nesse caso, nosso time de suporte está disponível diariamente para ajudar. É só criar um **[Ticket](https://zap-hosting.com/en/customer/support/)** no nosso site e explicar seu problema com o máximo de detalhes possível. Vamos analisar rapidinho e te ajudar a resolver o problema!
+Ainda com problemas depois de tentar resolver? Nesse caso, nosso time de suporte está disponível diariamente para ajudar. É só criar um **[Ticket](https://zap-hosting.com/en/customer/support/)** no nosso site e explicar seu problema com o máximo de detalhes possível. Vamos analisar rapidinho e te ajudar a resolver!
 
 
 
 ## Conclusão
 
-Parabéns, se você seguiu tudo direitinho, já deve ter estabelecido a conexão com o servidor com sucesso. Para dúvidas ou ajuda extra, não hesite em contatar nosso time de suporte, que está disponível todos os dias para te ajudar! 🙂
+Parabéns, se você seguiu tudo direitinho, já deve estar conectado ao servidor com sucesso. Para dúvidas ou ajuda, não hesite em contatar nosso suporte, que está disponível todos os dias para te ajudar! 🙂
 
 
 

@@ -1,68 +1,66 @@
 ---
 id: vserver-linux-ftp
-title: "VPS : Le service FTP ne fonctionne pas - Dépannage"
-description: "Comprends comment dépanner et restaurer l’accès FTP sur ton VPS quand les serveurs de jeux ou Teamspeak sont inaccessibles → Découvre-le maintenant"
-sidebar_label: Le service FTP ne fonctionne pas
+title: "VPS : Service FTP indisponible (Interface GS/TS3)"
+description: "Comprends comment dépanner et restaurer l'accès FTP sur ton VPS quand les serveurs de jeux ou Teamspeak sont inaccessibles → Découvre-le maintenant"
+sidebar_label: Service FTP indisponible
 services:
   - vserver
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
-<InlineVoucher />
+## Introduction
 
-## Que faire si le serveur de jeux ou le serveur Teamspeak n’est pas accessible via FTP ?
+Les services de serveur de jeux et Teamspeak 3 créés via l'interface GS/TS3 sont des services entièrement gérés. L'accès FTP est fourni via l'interface et l'infrastructure sous-jacente. Si l'accès FTP n'est pas possible, la cause est généralement liée à l'état du service, à la configuration interne ou à des problèmes côté infrastructure, plutôt qu'aux réglages locaux du client FTP.
 
-:::info
-Attention : Les étapes suivantes fonctionnent uniquement sur ton propre VPS si l’interface web ZAP a été installée !
+
+
+:::warning Service FTP fourni par l'interface GS/TS3
+Ce guide s'applique uniquement au service FTP qui est automatiquement installé et géré lorsque la fonctionnalité de l'interface GS/TS3 est utilisée. Si l'interface GS/TS3 n'est pas installée, aucun serveur FTP n'est configuré par défaut sur le système. Dans ce cas, l'accès FTP n'est pas disponible à moins qu'un service FTP ne soit installé manuellement.
 :::
 
-Si le serveur créé n’est pas accessible via FTP, c’est souvent parce que le service FTP (ProFTPD) n’est pas actif. Dans de rares cas, cela peut aussi venir d’une mauvaise config ou d’un port occupé, c’est-à-dire que le port FTP 21 est utilisé / bloqué par un autre programme.
+<InlineVoucher />
 
-## Vérifie le problème FTP de plus près :
 
-### Vérifie la disponibilité
-Tu peux facilement faire ça avec le navigateur FTP dans l’interface web. Clique sur « FTP browser » dans le menu sous Outils du serveur concerné.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/GiqyC6G5cLsbSqp/preview)
+## Vérifier le statut de ProFTPD via SSH
 
-Ensuite, appuie une fois sur le bouton « Direct Connection ».
-
-![](https://screensaver01.zap-hosting.com/index.php/s/ZSbrF5raYzdMgzZ/preview)
-
-Tu devrais probablement voir ça :
-
-![](https://screensaver01.zap-hosting.com/index.php/s/GtcCWfqadKGJoY7/preview)
-
-Puisqu’il est clair qu’une connexion via WebFTP ou un outil FTP n’est pas possible, il faut jeter un œil au service FTP sur le VPS.
-
-### Vérifie le statut de ProFTPD
-
-Pour ça, connecte-toi à ton serveur via SSH / Console et tape la commande « service proftpd status ». Le statut s’affiche alors :
-
-![](https://screensaver01.zap-hosting.com/index.php/s/TWqySPM3D5RmgYL/preview)
-
-Ici, tu vois que le statut indique « dead », en gros le service est hors ligne et donc inaccessible.
-
-### Redémarre le service FTP
-Tu peux redémarrer le service FTP avec la commande suivante :
+Connecte-toi au serveur via SSH ou la console et vérifie le statut actuel du service FTP avec la commande suivante :
 
 ```
-service proftpd start
+service proftpd status
 ```
 
-Si aucune réponse ne s’affiche après l’exécution, c’est que le service est généralement de nouveau en ligne/disponible.
+Le résultat indique si le service ProFTPD est en cours d'exécution. Si le service est indiqué comme actif ou en fonctionnement, le service FTP est disponible et devrait accepter les connexions entrantes. Dans ce cas, la cause du problème n'est généralement pas le démon FTP lui-même, mais peut être liée aux données d'accès, aux règles du pare-feu ou à la configuration du client.
 
-Tu peux vérifier ça avec la commande « service proftpd status ». Ça devrait ressembler à ça :
+Si le statut est affiché comme inactif, arrêté ou mort, le service FTP ne tourne pas. Tant que le service est arrêté, aucune connexion FTP ne peut être établie.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/iYxKMLJ2QfgzBKD/preview)
+## Redémarrer le service FTP
 
-Puisque le statut est maintenant « active » et plus « dead », tu peux retenter la connexion FTP via l’outil FTP ou WebFTP.
+Si le service ProFTPD ne fonctionne pas, il peut être démarré manuellement. Pour cela, exécute la commande suivante :
 
-### Vérifie la connexion à nouveau
-Tu devrais maintenant pouvoir te connecter et accéder à tes données.
+```
+service proftpd restart
+```
 
-### Problème résolu
-✅ Le service FTP (ProFTPD) est maintenant démarré/actif et rien ne bloque plus l’échange de données !
+Après avoir démarré ou redémarré le service, il faut toujours vérifier à nouveau le statut pour confirmer que ProFTPD fonctionne correctement. Si le service est affiché comme actif après le redémarrage, l'accès FTP devrait être de nouveau disponible.
+
+
+
+## Causes courantes des problèmes FTP
+
+Les problèmes d'accès FTP sont souvent causés par un service FTP qui ne tourne pas ou qui a été arrêté lors d'un redémarrage système ou d'une mise à jour. Des erreurs de configuration peuvent aussi empêcher ProFTPD de démarrer correctement. Parfois, un autre service utilise déjà le port 21, ce qui empêche le service FTP de se lier au port requis. Des problèmes temporaires au niveau système ou service peuvent aussi provoquer l'arrêt inattendu du service FTP.
+
+Si ProFTPD ne peut pas être démarré ou s'arrête immédiatement après son lancement, une investigation plus poussée est nécessaire. Dans ce cas, il est recommandé de consulter les logs système ou de contacter le support.
+
+
+
+## Conclusion
+
+
+
+L'accès FTP pour les services de serveur de jeux GS/TS3 est géré exclusivement via l'interface GS/TS3. Si les vérifications standards ne résolvent pas le problème, il faut escalader vers le support. Fournir des informations complètes et précises aide à une résolution plus rapide. Pour toute question ou aide, n'hésite pas à contacter notre équipe support, disponible tous les jours pour t'assister ! 🙂
+
+
 
 <InlineVoucher />

@@ -1,7 +1,7 @@
 ---
 id: abioticfactor-firststeps-connect
 title: "Abiotic Factor: Verbindung zum Server herstellen"
-description: "Entdecke, wie du dich nahtlos mit deinem Abiotic Factor Gameserver verbindest und ununterbrochen zockst → Jetzt mehr erfahren"
+description: "Entdecke, wie du dich nahtlos mit deinem Abiotic Factor Server verbindest und ununterbrochen zockst → Jetzt mehr erfahren"
 sidebar_label: Verbindung zum Server
 services:
   - gameserver-abioticfactor
@@ -13,7 +13,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 
 ## Einführung
-Du bist dir nicht sicher, wie du dich mit deinem **Abiotic Factor** Gameserver verbindest oder was du dafür brauchst? Kein Stress, wir haben alles für dich am Start! Wir zeigen dir Schritt für Schritt, was du brauchst – von den nötigen Tools und Infos bis hin zum eigentlichen Verbindungsprozess, inklusive wichtiger Tipps für eine reibungslose und stressfreie Verbindung. Folge unserer Anleitung und du bist im Handumdrehen connected!
+Du bist dir unsicher, wie du dich mit deinem **Abiotic Factor** Server verbindest oder was du dafür brauchst? Kein Stress, wir haben alles für dich am Start! Wir zeigen dir Schritt für Schritt, was du brauchst – von den nötigen Tools und Infos bis hin zum eigentlichen Verbindungsprozess. Außerdem geben wir dir wichtige Tipps, damit alles reibungslos läuft und du ohne Probleme zocken kannst. Folge unserer Anleitung und du bist im Handumdrehen verbunden!
 
 <InlineVoucher />
 
@@ -22,14 +22,14 @@ Du bist dir nicht sicher, wie du dich mit deinem **Abiotic Factor** Gameserver v
 ## Serverdetails besorgen
 
 
-Du brauchst alle wichtigen Infos, um dich mit deinem Server zu verbinden. Die Infos zu deinem Server findest du im Dashboard deines Gameserver-Webinterface-Panels. Wichtige Details sind:
+Du brauchst alle relevanten Infos, um dich mit deinem Server zu verbinden. Diese findest du im Dashboard deines Gameserver-Webinterface-Panels. Wichtige Infos sind unter anderem:
 
 - IP-Adresse und Port
 - Servername
 - Serverpasswort
 
 
-Mit den oben genannten Infos kannst du deinen Server finden und sicherstellen, dass du dich mit dem richtigen Server verbindest.
+Mit diesen Infos kannst du deinen Server finden und sicherstellen, dass du dich mit dem richtigen Server verbindest.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/xTPxqydRCDtFy2e/preview)
 
@@ -41,7 +41,7 @@ Die Verbindung zu einem Gameserver kann oft auf verschiedene Arten erfolgen. Die
 <Tabs>
     <TabItem value="connect_solution_server_browser_ingame" label="Server Browser (Im Spiel)" default>
 
-Um dich mit deinem Server zu verbinden, starte das Spiel und gehe im Hauptmenü auf **Enter the Facility**. Klicke dann auf **Join a Server**, um die Serverliste zu öffnen. Nutze das Suchfeld, um den Namen deines Servers einzugeben, und sobald er erscheint, klicke auf **Join**, um die Verbindung herzustellen.
+Um dich mit deinem Server zu verbinden, starte das Spiel und gehe im Hauptmenü auf **Enter the Facility**. Klicke dann auf **Join a Server**, um die Serverliste zu öffnen. Nutze das Suchfeld, um den Namen deines Servers einzugeben. Sobald dein Server erscheint, klicke auf **Join**, um die Verbindung herzustellen.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/AScDLr65YwcAwBn/download)
 
@@ -68,7 +68,7 @@ Die Verbindung zu einem Gameserver kann oft auf verschiedene Arten erfolgen. Die
 #### Nicht sichtbar
 
 
-Wenn der Server nicht sichtbar ist, kann das daran liegen, dass die Initialisierung nicht erfolgreich abgeschlossen wurde. Das kann zum Beispiel an einer fehlerhaften Konfiguration oder beschädigten Dateien liegen. Weitere Infos findest du meist in der Serverkonsole oder in den Logdateien.
+Wenn der Server nicht sichtbar ist, kann das daran liegen, dass die Initialisierung nicht erfolgreich abgeschlossen wurde. Das kann z.B. an einer fehlerhaften Konfiguration oder beschädigten Dateien liegen. Weitere Infos findest du meist in der Serverkonsole oder in den Logdateien.
 
 
 

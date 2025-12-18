@@ -1,7 +1,7 @@
 ---
 id: arma-reforger-firststeps-connect
 title: "Arma Reforger: Connessione al server"
-description: "Scopri come connetterti al tuo server Arma Reforger senza intoppi e preparati a giocare senza stress → Scopri di più ora"
+description: "Scopri come connetterti senza problemi al tuo server Arma Reforger e preparati a giocare senza intoppi → Scopri di più ora"
 sidebar_label: Connessione al server
 services:
   - gameserver-arma-reforger
@@ -13,7 +13,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 
 ## Introduzione
-Non sai come connetterti al tuo server **Arma Reforger** o cosa ti serve per iniziare? Nessun problema, ci pensiamo noi! Ti guideremo passo passo su tutto ciò che ti serve – dagli strumenti e informazioni necessarie fino al processo di connessione vero e proprio, con consigli chiave per garantirti un’esperienza fluida e senza intoppi. Segui la nostra guida e sarai connesso in un attimo!
+Non sai come connetterti al tuo server **Arma Reforger** o cosa ti serve per iniziare? Nessun problema, ci pensiamo noi! Ti guideremo passo passo su tutto ciò che ti serve. Dagli strumenti e informazioni necessarie fino al processo di connessione vero e proprio, con consigli chiave per garantirti un’esperienza fluida e senza intoppi. Segui la nostra guida e sarai connesso in un attimo!
 
 <InlineVoucher />
 
@@ -27,7 +27,7 @@ Ti serviranno tutte le informazioni necessarie per connetterti al tuo server. Pu
 - Nome del server
 - Password del server (opzionale)
 
-Con queste informazioni potrai trovare il tuo server e assicurarti di connetterti a quello giusto.
+Con queste info potrai trovare il tuo server e assicurarti di connetterti a quello giusto.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/RJb99LD9eMYdGwm/preview)
 
@@ -38,7 +38,7 @@ La connessione a un game server può essere fatta in uno o più modi. I metodi d
 <Tabs>
     <TabItem value="connect_solution_server_browser_ingame" label="Server Browser (In game)" default>
 
-Per connetterti al tuo server tramite il server browser in gioco, apri il gioco. Una volta dentro, clicca su **Multiplayer** per aprire la lista dei server. In alto a destra nella lista, puoi cercare il nome del tuo server nella barra di ricerca, selezionarlo e stabilire la connessione.
+Per connetterti al server tramite il server browser in-game, apri il gioco. Una volta dentro, clicca su **Multiplayer** per aprire la lista dei server. In alto a destra nella lista, puoi cercare il nome del tuo server nella barra di ricerca, selezionarlo e connetterti.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/NfpZo6FgFtxDP7x/download)
 
@@ -46,7 +46,7 @@ Per connetterti al tuo server tramite il server browser in gioco, apri il gioco.
 
 <TabItem value="connect_solution_direct_ingame" label="Connessione diretta (In game)">
 
-Invece di cercare il server per nome, puoi usare la connessione diretta tramite il tasto `V`. Apri la connessione diretta e inserisci l’indirizzo IP e la porta del tuo server. Conferma con `Enter` per connetterti.
+Invece di cercare il server per nome, puoi usare la connessione diretta tramite il tasto `V`. Apri la connessione diretta e inserisci l’indirizzo IP e la porta del tuo server. Conferma con `Enter` per stabilire la connessione.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/Ng6KMdExbkNQfoA/download)
 
@@ -69,7 +69,7 @@ Il server potrebbe non essere visibile se l’inizializzazione non è andata a b
 
 #### Nessuna soluzione o non utile
 
-Ancora problemi dopo aver provato? Nessun problema, il nostro supporto è disponibile ogni giorno per aiutarti. Crea semplicemente un **[Ticket](https://zap-hosting.com/en/customer/support/)** sul nostro sito e spiegaci il problema con più dettagli possibili. Daremo un’occhiata il prima possibile e ti aiuteremo a risolvere tutto!
+Hai ancora problemi dopo aver provato? Nessun problema, il nostro supporto è disponibile ogni giorno per aiutarti. Crea semplicemente un **[Ticket](https://zap-hosting.com/en/customer/support/)** sul nostro sito e spiegaci il problema con più dettagli possibili. Daremo un’occhiata il prima possibile e ti aiuteremo a risolvere tutto!
 
 
 

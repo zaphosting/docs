@@ -1,7 +1,7 @@
 ---
 id: scum-firststeps-connect
 title: "SCUM: Połącz się z serwerem"
-description: "Dowiedz się, jak łatwo połączyć się z Twoim serwerem SCUM dzięki niezbędnym wskazówkom i poradom dotyczącym rozwiązywania problemów → Sprawdź teraz"
+description: "Dowiedz się, jak bezproblemowo połączyć się z serwerem SCUM dzięki niezbędnym wskazówkom i poradom dotyczącym rozwiązywania problemów → Sprawdź teraz"
 sidebar_label: Połącz się z serwerem
 services:
   - gameserver-scum
@@ -13,7 +13,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 
 ## Wprowadzenie
-Nie wiesz, jak połączyć się ze swoim **serwerem gier SCUM** lub czego potrzebujesz, aby zacząć? Spokojnie, mamy to ogarnięte! Przeprowadzimy Cię przez wszystko, co potrzebne – od wymaganych narzędzi i informacji po sam proces łączenia, wraz z kluczowymi wskazówkami, które zapewnią płynne i bezproblemowe połączenie. Skorzystaj z naszego poradnika, a połączysz się w mgnieniu oka!
+Nie wiesz, jak połączyć się ze swoim serwerem **SCUM** lub czego potrzebujesz, żeby zacząć? Spokojnie, mamy to ogarnięte! Przeprowadzimy Cię przez wszystko, co potrzebne. Od niezbędnych narzędzi i informacji, po sam proces łączenia, wraz z kluczowymi wskazówkami, które zapewnią płynne i bezproblemowe połączenie. Skorzystaj z naszego poradnika, a połączysz się w mgnieniu oka!
 
 <InlineVoucher />
 
@@ -22,7 +22,7 @@ Nie wiesz, jak połączyć się ze swoim **serwerem gier SCUM** lub czego potrze
 ## Uzyskaj dane serwera
 
 
-Będziesz potrzebować wszystkich niezbędnych informacji do połączenia się z serwerem. Dane o Twoim serwerze znajdziesz w panelu głównym swojego serwera gier. Najważniejsze informacje to:
+Będziesz potrzebować wszystkich istotnych informacji, które pozwolą Ci połączyć się z serwerem. Dane o Twoim serwerze znajdziesz w panelu głównym swojego serwera gier. Najważniejsze informacje to:
 
 - adres IP i port
 - nazwa serwera
@@ -36,7 +36,7 @@ Dzięki powyższym informacjom powinieneś bez problemu znaleźć swój serwer i
 ## Nawiązywanie połączenia z serwerem
 
 
-Połączenie z serwerem gier można często nawiązać na jeden lub więcej sposobów. Dostępne metody opisujemy i wyjaśniamy szczegółowo poniżej.
+Połączenie z serwerem gier można często nawiązać na jeden lub więcej sposobów. Dostępne metody opisane są szczegółowo poniżej.
 
 <Tabs>
     <TabItem value="connect_solution_server_browser_ingame" label="Przeglądarka serwerów / Bezpośrednie połączenie (w grze)" default>
@@ -54,25 +54,25 @@ Aby połączyć się z serwerem, musisz uruchomić grę. Po wejściu do gry wybi
 ## Możliwe problemy i rozwiązania
 
 
-Połączenie z serwerem gier można często nawiązać na jeden lub więcej sposobów. Dostępne metody opisujemy i wyjaśniamy szczegółowo poniżej.
+Połączenie z serwerem gier można często nawiązać na jeden lub więcej sposobów. Dostępne metody opisane są szczegółowo poniżej.
 
 #### Serwer niewidoczny
 
 
-Brak widoczności serwera może wystąpić, jeśli inicjalizacja nie została poprawnie zakończona. Może to być spowodowane np. błędną konfiguracją lub uszkodzonymi plikami. Więcej informacji zwykle znajdziesz w konsoli serwera lub plikach logów.
+Brak widoczności serwera może wystąpić, jeśli inicjalizacja nie zakończyła się pomyślnie. Może to być spowodowane np. błędną konfiguracją lub uszkodzonymi plikami. Więcej informacji zwykle znajdziesz w konsoli serwera lub plikach logów.
 
 
 
 #### Brak rozwiązania lub brak pomocy
 
 
-Wciąż masz problemy po próbie rozwiązania ich samodzielnie? W takim wypadku nasz zespół wsparcia jest dostępny codziennie, aby Ci pomóc. Po prostu załóż **[Ticket](https://zap-hosting.com/en/customer/support/)** na naszej stronie i opisz swój problem jak najdokładniej. Sprawdzimy to najszybciej, jak się da, i pomożemy rozwiązać problem!
+Wciąż masz problemy po próbie rozwiązania ich samodzielnie? W takim wypadku nasz zespół wsparcia jest dostępny codziennie, by Ci pomóc. Po prostu załóż **[Ticket](https://zap-hosting.com/en/customer/support/)** na naszej stronie i opisz problem jak najdokładniej. Sprawdzimy to najszybciej, jak się da, i pomożemy rozwiązać problem!
 
 
 
 ## Podsumowanie
 
-Gratulacje! Jeśli wykonałeś wszystkie kroki, powinieneś już być połączony z serwerem. W razie dalszych pytań lub potrzeby pomocy, nie wahaj się skontaktować z naszym zespołem wsparcia, który jest dostępny codziennie, by Ci pomóc! 🙂
+Gratulacje! Jeśli wykonałeś wszystko zgodnie z poradnikiem, powinieneś już być połączony z serwerem. W razie dalszych pytań lub potrzeby pomocy, śmiało kontaktuj się z naszym zespołem wsparcia, który jest dostępny codziennie i chętnie pomoże! 🙂
 
 
 

@@ -1,8 +1,8 @@
 ---
 id: animalia-survival-firststeps-connect
-title: "Animalia Survival: Connettiti al server"
+title: "Animalia Survival: Connessione al server"
 description: "Scopri come connetterti senza intoppi al tuo server Animalia Survival e goderti il gioco senza interruzioni → Scopri di più ora"
-sidebar_label: Connettiti al server
+sidebar_label: Connessione al server
 services:
   - gameserver-animalia-survival
 ---
@@ -14,7 +14,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 
 ## Introduzione
-Non sai come connetterti al tuo server **Animalia Survival** o cosa ti serve per iniziare? Nessun problema, ci pensiamo noi! Ti guideremo passo passo su tutto ciò che ti serve – dagli strumenti e informazioni necessarie fino al processo di connessione vero e proprio, con consigli chiave per garantirti un’esperienza fluida e senza intoppi. Segui la nostra guida e sarai connesso in un attimo!
+Non sai come connetterti al tuo server **Animalia Survival** o cosa ti serve per iniziare? Nessun problema, ci pensiamo noi! Ti guideremo passo passo su tutto ciò che ti serve. Dagli strumenti e informazioni necessarie fino al processo di connessione vero e proprio, con consigli chiave per garantirti un’esperienza fluida e senza intoppi. Segui la nostra guida e sarai connesso in un attimo!
 
 <InlineVoucher />
 
@@ -35,7 +35,7 @@ Con queste informazioni dovresti riuscire a trovare il tuo server e assicurarti 
 ## Stabilire la connessione al server
 
 
-La connessione a un game server può spesso essere stabilita in uno o più modi. I metodi disponibili sono descritti e spiegati nel dettaglio qui sotto.
+La connessione a un game server può essere stabilita in uno o più modi. I metodi disponibili sono descritti e spiegati nel dettaglio qui sotto.
 
 <Tabs>
     <TabItem value="connect_solution_server_browser_ingame" label="Server Browser (In gioco)" default>
@@ -53,25 +53,25 @@ Per connetterti al tuo server tramite il server browser in gioco, apri il server
 ## Problemi comuni e soluzioni
 
 
-La connessione a un game server può spesso essere stabilita in uno o più modi. I metodi disponibili sono descritti e spiegati nel dettaglio qui sotto.
+La connessione a un game server può essere stabilita in uno o più modi. I metodi disponibili sono descritti e spiegati nel dettaglio qui sotto.
 
-#### Non visibile
+#### Server non visibile
 
 
-Il server potrebbe non essere visibile se l’inizializzazione non è stata completata con successo. Questo può succedere per esempio a causa di una configurazione errata o file corrotti. Ulteriori informazioni si trovano solitamente nella console del server o nei file di log.
+Il server potrebbe non essere visibile se l’inizializzazione non è stata completata con successo. Questo può succedere per una configurazione errata o file corrotti. Ulteriori dettagli si trovano solitamente nella console del server o nei file di log.
 
 
 
 #### Nessuna soluzione o non utile
 
 
-Hai ancora problemi dopo aver provato a risolverli? In questo caso, il nostro supporto è disponibile tutti i giorni per aiutarti. Crea semplicemente un **[Ticket](https://zap-hosting.com/en/customer/support/)** sul nostro sito e spiegaci il problema con più dettagli possibile. Lo controlleremo il prima possibile e ti aiuteremo a risolverlo!
+Hai ancora problemi dopo aver provato? Nessun problema, il nostro supporto è disponibile ogni giorno per aiutarti. Crea semplicemente un **[Ticket](https://zap-hosting.com/en/customer/support/)** sul nostro sito e spiegaci il problema con più dettagli possibile. Lo controlleremo il prima possibile e ti aiuteremo a risolverlo!
 
 
 
 ## Conclusione
 
-Congratulazioni, se hai seguito tutto correttamente, dovresti essere connesso al server con successo. Per altre domande o assistenza, non esitare a contattare il nostro supporto, disponibile ogni giorno per darti una mano! 🙂
+Complimenti, se hai seguito tutto dovresti essere connesso al server con successo. Per altre domande o assistenza, non esitare a contattare il nostro supporto, disponibile ogni giorno per darti una mano! 🙂
 
 
 

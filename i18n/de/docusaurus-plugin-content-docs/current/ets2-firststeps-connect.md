@@ -1,8 +1,8 @@
 ---
 id: ets2-firststeps-connect
-title: "Euro Truck Simulator 2: Mit dem Server verbinden"
+title: "Euro Truck Simulator 2: Verbindung zum Server herstellen"
 description: "Entdecke, wie du dich nahtlos mit deinem Euro Truck Simulator 2 Gameserver verbindest und ein reibungsloses Spielerlebnis sicherst → Jetzt mehr erfahren"
-sidebar_label: Mit dem Server verbinden
+sidebar_label: Verbindung zum Server
 services:
   - gameserver-ets2
 ---
@@ -14,7 +14,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 
 ## Einführung
-Du bist dir nicht sicher, wie du dich mit deinem **Euro Truck Simulator 2** Gameserver verbindest oder was du dafür brauchst? Kein Stress, wir helfen dir! Wir führen dich durch alles, was du brauchst – von den nötigen Tools und Infos bis hin zum eigentlichen Verbindungsprozess, inklusive wichtiger Tipps, damit alles glatt läuft und du ohne Probleme loslegen kannst. Folge unserer Anleitung und du bist im Handumdrehen verbunden!
+Du bist dir nicht sicher, wie du dich mit deinem **Euro Truck Simulator 2** Gameserver verbindest oder was du dafür brauchst? Kein Stress, wir haben alles für dich am Start! Wir führen dich durch alles, was du wissen musst. Von den nötigen Tools und Infos bis hin zum eigentlichen Verbindungsprozess – inklusive wichtiger Tipps, damit alles smooth und ohne Probleme läuft. Folge unserer Anleitung und du bist im Handumdrehen verbunden!
 
 <InlineVoucher />
 
@@ -64,14 +64,14 @@ Die Verbindung zu einem Gameserver kann oft auf eine oder mehrere Arten hergeste
 #### Nicht sichtbar
 
 
-Dass der Server nicht sichtbar ist, kann passieren, wenn die Initialisierung nicht erfolgreich abgeschlossen wurde. Das kann zum Beispiel an einer fehlerhaften Konfiguration oder beschädigten Dateien liegen. Weitere Infos findest du meist in der Serverkonsole oder in den Logdateien.
+Dass der Server nicht sichtbar ist, kann passieren, wenn die Initialisierung nicht erfolgreich abgeschlossen wurde. Das kann zum Beispiel an einer fehlerhaften Konfiguration oder beschädigten Dateien liegen. Weitere Infos findest du meist in der Server-Konsole oder in den Logdateien.
 
 
 
-#### Keine Lösung oder keine hilfreiche Lösung
+#### Keine Lösung gefunden oder nicht hilfreich
 
 
-Du hast nach der Fehlerbehebung immer noch Probleme? Kein Ding, unser Support-Team steht dir täglich zur Seite. Erstelle einfach ein **[Ticket](https://zap-hosting.com/en/customer/support/)** auf unserer Website und beschreibe dein Problem so detailliert wie möglich. Wir schauen uns das schnellstmöglich an und helfen dir, das Problem zu lösen!
+Du hast nach der Fehlersuche immer noch Probleme? Kein Ding, unser Support-Team steht dir täglich zur Seite. Erstelle einfach ein **[Ticket](https://zap-hosting.com/en/customer/support/)** auf unserer Website und schildere dein Problem so detailliert wie möglich. Wir schauen uns das schnellstmöglich an und helfen dir, das Problem zu lösen!
 
 
 
