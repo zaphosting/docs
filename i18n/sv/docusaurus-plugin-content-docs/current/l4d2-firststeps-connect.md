@@ -13,7 +13,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 
 ## Introduktion
-Osäker på hur du ansluter till din **Left 4 Dead 2**-server eller vad du behöver för att komma igång? Ingen fara, vi har dig täckt! Vi guidar dig genom allt du behöver – från nödvändiga verktyg och information till själva anslutningsprocessen, plus viktiga saker att tänka på för att säkerställa en smidig och problemfri anslutning. Följ vår guide så är du igång på nolltid!
+Osäker på hur du ansluter till din **Left 4 Dead 2**-server eller vad du behöver för att komma igång? Ingen fara, vi har dig täckt! Vi guidar dig genom allt du behöver. Från nödvändiga verktyg och information till själva anslutningsprocessen, plus viktiga saker att tänka på för att säkerställa en smidig och problemfri anslutning. Följ vår guide så är du igång på nolltid!
 
 <InlineVoucher />
 
@@ -21,7 +21,7 @@ Osäker på hur du ansluter till din **Left 4 Dead 2**-server eller vad du behö
 
 ## Skaffa serveruppgifter
 
-Du behöver all relevant info för att ansluta till din server. Informationen om din server hittar du på kontrollpanelen i ditt spelserver-webbgränssnitt. Viktig info inkluderar:
+Du behöver all relevant info för att kunna ansluta till din server. Information om din server hittar du i kontrollpanelen på ditt gameservers webbgränssnitt. Viktig info inkluderar:
 
 - IP-adress och port
 - Servernamn
@@ -33,13 +33,13 @@ Med info ovan ska du enkelt kunna hitta din server och se till att du ansluter t
 
 ## Anslut till servern
 
-Anslutningen till en spelserver kan ofta göras på en eller flera sätt. Tillgängliga metoder beskrivs och förklaras i detalj nedan.
+Anslutning till en gameserver kan ofta göras på ett eller flera sätt. Tillgängliga metoder beskrivs och förklaras i detalj nedan.
 
 <Tabs>
 
-<TabItem value="connect_solution3" label="Konsol (I spelet)">
+<TabItem value="connect_solution3" label="Konsol (In-game)">
 
-I Left 4 Dead 2 är utvecklarkonsolen avstängd som standard. Öppna inställningarna, klicka på Tangentbord/Mus och aktivera konsolen där. För att ansluta till din server via konsolen, öppna konsolen med `~`-tangenten. När konsolen är öppen, kör följande kommando:
+I Left 4 Dead 2 är utvecklarkonsolen avstängd som standard. Gå in i inställningarna, klicka på Tangentbord/Mus och aktivera konsolen där. För att ansluta till din server via konsolen, öppna den med `~`-tangenten. När konsolen är öppen, kör följande kommando:
 
 ```
 connect IP:Port
@@ -54,11 +54,11 @@ connect IP:Port
 
 ## Vanliga problem och lösningar
 
-Anslutningen till en spelserver kan ofta göras på en eller flera sätt. Tillgängliga metoder beskrivs och förklaras i detalj nedan.
+Anslutning till en gameserver kan ofta göras på ett eller flera sätt. Tillgängliga metoder beskrivs och förklaras i detalj nedan.
 
-#### Syns inte
+#### Servern syns inte
 
-Att servern inte syns kan bero på att initieringen inte slutfördes korrekt. Det kan till exempel bero på felaktig konfiguration eller korrupta filer. Mer info hittar du oftast i serverkonsolen eller loggfilerna.
+Om servern inte syns kan det bero på att uppstarten inte slutfördes korrekt. Det kan till exempel bero på felaktig konfiguration eller korrupta filer. Mer info hittar du oftast i serverkonsolen eller loggfilerna.
 
 
 

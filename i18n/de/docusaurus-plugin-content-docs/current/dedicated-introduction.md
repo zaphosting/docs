@@ -15,7 +15,7 @@ import Admonition from '@theme/Admonition';
 
 ## Einführung
 
-Suchst du nach deinem eigenen Server mit starker Ausstattung zu einem fairen Preis? Dann bist du bei ZAP-Hosting genau richtig! Bei ZAP-Hosting kannst du deinen passenden Dedicated Server mieten oder kaufen und bekommst Hardware für ein maximales Performance-Erlebnis!
+Suchst du nach deinem eigenen Server mit starker Konfiguration zu einem fairen Preis? Dann bist du bei ZAP-Hosting genau richtig! Bei ZAP-Hosting kannst du deinen passenden Dedicated Server mieten oder kaufen und bekommst Hardware für ein maximales Performance-Erlebnis!
 
 Im Gegensatz zu einem virtuellen Server hast du bei einem Dedicated Server deine eigene physische Hardware. Das bedeutet, wenn du einen Dedicated Server mietest/kaufst, steht dir die volle Power aller Komponenten exklusiv für dich und deine Anwendungen zur Verfügung. Virtuelle Server laufen dagegen auf einem Host-System, dessen Ressourcen mit anderen virtuellen Servern geteilt werden.
 
@@ -25,7 +25,7 @@ Im Gegensatz zu einem virtuellen Server hast du bei einem Dedicated Server deine
 
 ## Bestellung
 
-Der Bestellprozess ist super einfach. Wähle deine Wunschkonfiguration für deinen [Dedicated Server](https://zap-hosting.com/en/dedicated-server-hosting/). Die Einrichtungszeit des Dedicated Servers hängt von der Verfügbarkeit ab. Du kannst das am Statussymbol neben der Flagge bei jeder Konfiguration erkennen. Der Status **Grün** bedeutet, dass die Konfiguration verfügbar ist und innerhalb weniger Minuten bereitsteht. Wenn der Status **Orange** angezeigt wird, ist die Konfiguration nicht sofort verfügbar und muss erst zusammengebaut werden. Die Einrichtungszeit beträgt dann ca. 5 Werktage (Montag-Freitag).
+Der Bestellprozess ist super einfach. Wähle deine Wunschkonfiguration für deinen [Dedicated Server](https://zap-hosting.com/en/dedicated-server-hosting/). Die Einrichtungszeit des Dedicated Servers hängt von der Verfügbarkeit ab. Du kannst das am Statussymbol neben der Flagge bei jeder Konfiguration sehen. Der Status **Grün** bedeutet, dass die Konfiguration verfügbar ist und innerhalb weniger Minuten bereitsteht. Wenn der Status **Orange** angezeigt wird, ist die Konfiguration nicht sofort verfügbar und muss erst zusammengebaut werden. Die Einrichtungszeit beträgt ca. 5 Werktage (Montag-Freitag).
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/SD6jF4MENeqaJFZ/preview)
 
@@ -33,7 +33,7 @@ Der Bestellprozess ist super einfach. Wähle deine Wunschkonfiguration für dein
 
 ## Konfigurationen
 
-Für unsere Dedicated Server bieten wir zahlreiche Konfigurationsvarianten an, sodass du für jeden Einsatzzweck das passende System findest. Unsere Konfigurationen setzen sich generell aus folgenden Optionen zusammen:
+Für unsere Dedicated Server bieten wir zahlreiche Konfigurationsvarianten an, sodass du für jeden Einsatzzweck das passende System findest. Unsere Konfigurationen setzen sich generell aus folgenden möglichen Optionen zusammen:
 
 | Komponenten | Verfügbare Optionen                                            |
 | ------------------- | ------------------------------------------------------------ |
@@ -45,11 +45,11 @@ Für unsere Dedicated Server bieten wir zahlreiche Konfigurationsvarianten an, s
 | Traffic                      | 33 TB/Monat       |
 
 :::danger Du suchst eine individuelle Konfiguration?
-Wir bieten individuelle Konfigurationen direkt über unsere Bestellseite an. Wähle dort einfach die Option für eine individuelle Konfiguration, um das Formular zu öffnen und deine speziellen Anforderungen anzugeben.
+Wir bieten individuelle Konfigurationen direkt über unsere Bestellseite an. Wähle dort einfach die Option für individuelle Konfiguration, um zum Formular zu gelangen und deine persönlichen Anforderungen anzugeben.
 :::
 
 
-## Einsatzbereiche
+## Anwendungsbereiche
 
 Dank der Performance, der umfassenden Rechte und den daraus resultierenden Möglichkeiten können Dedicated Server in vielen Bereichen eingesetzt werden. Dazu gehören zum Beispiel:
 
@@ -60,5 +60,5 @@ Dank der Performance, der umfassenden Rechte und den daraus resultierenden Mögl
 - Virtualisierungen
 
 ## Häufig gestellte Fragen
-Du hast noch mehr Fragen zu unserem Dedicated Server Produkt? Hier bekommst du Antworten auf alles, was du über Features, Vorteile, Einrichtung und effektive Nutzung wissen willst. So hast du alle Infos, um das Beste aus unserem Dedicated Server herauszuholen. Und falls doch noch was unklar ist, melde dich einfach – wir helfen dir direkt weiter.
-<SearchableAccordion items={items} locale="de" />
+Du hast noch mehr Fragen zu unserem Dedicated Server Produkt? Hier bekommst du Antworten auf alles, was du über Features, Vorteile, Einrichtung und effektive Nutzung wissen willst. So hast du alle Infos, um das Beste aus unserem Dedicated Server Produkt rauszuholen. Und wenn trotzdem noch was unklar ist, melde dich einfach – wir helfen dir direkt weiter.
+<SearchableAccordion items={items} />

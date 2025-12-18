@@ -1,7 +1,7 @@
 ---
 id: 7d2d-firststeps-connect
 title: "7 Days To Die: Verbinden met de server"
-description: "Ontdek hoe je moeiteloos verbinding maakt met je 7 Days To Die-server en los veelvoorkomende problemen op voor ononderbroken gameplay → Leer het nu"
+description: "Ontdek hoe je moeiteloos verbinding maakt met je 7 Days To Die-server en veelvoorkomende problemen oplost voor ononderbroken gameplay → Leer het nu"
 sidebar_label: Verbinden met de server
 services:
   - gameserver-7d2d
@@ -13,7 +13,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 
 ## Introductie
-Weet je niet zeker hoe je verbinding maakt met je **7 Days To Die**-server of wat je nodig hebt om te starten? Geen zorgen, wij fixen het voor je! We nemen je mee door alles wat je nodig hebt – van de benodigde tools en info tot het daadwerkelijke verbindingsproces, inclusief belangrijke tips voor een soepele en probleemloze connectie. Volg onze gids en je bent zo verbonden!
+Weet je niet zeker hoe je verbinding maakt met je **7 Days To Die**-server of wat je nodig hebt om te beginnen? Geen zorgen, wij fixen het voor je! We nemen je stap voor stap mee. Van de benodigde tools en info tot het daadwerkelijke verbindingsproces, inclusief belangrijke tips voor een soepele en probleemloze verbinding. Volg onze gids en je bent zo verbonden!
 
 <InlineVoucher />
 
@@ -53,11 +53,11 @@ De verbinding met een game server kan vaak op één of meerdere manieren worden 
 
 #### Niet zichtbaar
 
-Als de server niet zichtbaar is, kan dat komen doordat de initialisatie niet succesvol is afgerond. Dit kan bijvoorbeeld door een foutieve configuratie of corrupte bestanden. Meer info vind je meestal in de serverconsole of logbestanden.
+Als de server niet zichtbaar is, kan dat komen doordat de initialisatie niet succesvol is afgerond. Dit kan bijvoorbeeld door een verkeerde configuratie of corrupte bestanden. Meer info vind je meestal in de serverconsole of logbestanden.
 
 
 
-#### Geen oplossing gevonden of niet geholpen
+#### Geen oplossing gevonden of niet helpend
 
 Heb je nog steeds problemen na het oplossen? Geen stress! Ons supportteam staat dagelijks voor je klaar. Maak gewoon een **[Ticket](https://zap-hosting.com/en/customer/support/)** aan op onze website en leg je probleem zo gedetailleerd mogelijk uit. We checken het zo snel mogelijk en helpen je het probleem op te lossen!
 
@@ -65,7 +65,7 @@ Heb je nog steeds problemen na het oplossen? Geen stress! Ons supportteam staat 
 
 ## Conclusie
 
-Gefeliciteerd! Als je alles goed hebt gevolgd, heb je nu succesvol verbinding gemaakt met de server. Voor verdere vragen of hulp, aarzel niet om contact op te nemen met ons supportteam, dat dagelijks voor je klaarstaat! 🙂
+Gefeliciteerd! Als je alles goed hebt gevolgd, zou je nu succesvol verbonden moeten zijn met de server. Heb je nog vragen of hulp nodig? Neem gerust contact op met ons supportteam, die dagelijks voor je klaarstaat! 🙂
 
 
 

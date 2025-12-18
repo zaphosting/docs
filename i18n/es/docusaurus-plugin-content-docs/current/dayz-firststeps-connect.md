@@ -1,7 +1,7 @@
 ---
 id: dayz-firststeps-connect
 title: "DayZ: Conéctate al servidor"
-description: "Descubre cómo conectarte a tu servidor de juegos DayZ sin complicaciones y obtén todos los consejos esenciales para una experiencia de juego sin líos → Aprende más ahora"
+description: "Descubre cómo conectarte a tu servidor de DayZ sin problemas y obtén todos los consejos esenciales para una experiencia de juego sin complicaciones → Aprende más ahora"
 sidebar_label: Conéctate al servidor
 services:
   - gameserver-dayz
@@ -13,7 +13,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 
 ## Introducción
-¿No sabes cómo conectarte a tu **servidor de juegos DayZ** o qué necesitas para empezar? ¡No te preocupes, aquí te ayudamos! Te guiaremos por todo lo que necesitas: desde las herramientas e información necesarias hasta el proceso de conexión en sí, junto con consideraciones clave para asegurar una conexión fluida y sin problemas. Sigue nuestra guía y estarás conectado en un abrir y cerrar de ojos.
+¿No sabes cómo conectarte a tu **servidor de juegos** de DayZ o qué necesitas para empezar? ¡No te preocupes, aquí te ayudamos! Te guiaremos por todo lo que necesitas. Desde las herramientas e información necesarias hasta el proceso real de conexión, junto con consideraciones clave para asegurar una experiencia de conexión fluida y sin problemas. Sigue nuestra guía y estarás conectado en un abrir y cerrar de ojos.
 
 <InlineVoucher />
 
@@ -26,7 +26,7 @@ Por defecto, no se usa software adicional para el juego. Sin embargo, si quieres
 
 ## Obtén los datos del servidor
 
-Vas a necesitar toda la información relevante para conectarte a tu servidor. La info sobre tu servidor la puedes encontrar en el panel web del panel de control de tu servidor de juegos. La información importante incluye lo siguiente:
+Vas a necesitar toda la información relevante para conectarte a tu servidor. La información sobre tu servidor la puedes encontrar en el panel web del panel de control de tu servidor de juegos. La información importante incluye lo siguiente:
 
 - Dirección IP y puerto
 - Nombre del servidor
@@ -38,19 +38,19 @@ Con la información mencionada arriba, deberías poder localizar tu servidor y a
 
 ## Establece la conexión al servidor
 
-La conexión a un servidor de juegos a menudo se puede hacer de una o más formas. Los métodos disponibles se describen y explican en detalle a continuación.
+La conexión a un servidor de juegos a menudo se puede establecer de una o más formas. Los métodos disponibles se describen y explican en detalle a continuación.
 
 <Tabs>
     <TabItem value="connect_solution_server_browser_ingame" label="Navegador de servidores (En el juego)">
 
-Para conectarte a tu servidor vía el navegador de servidores dentro del juego, abre el navegador de servidores en el menú principal. Una vez en la lista de servidores, haz clic en **Community**. Usa las opciones de filtro para buscar tu servidor por nombre.
+Para conectarte a tu servidor a través del navegador de servidores dentro del juego, abre el navegador de servidores en el menú principal. Una vez en la lista de servidores, haz clic en **Community**. Usa las opciones de filtro para buscar tu servidor por el nombre del servidor. 
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/Mbb4DFjeEKrZK8M/download)
 
 
 
-:::warning Servidor DayZ no listado
-La lista de servidores dentro del juego es conocida por no ser la más fiable. Puede que tu servidor no aparezca temporalmente. En ese caso, usa un método de conexión alternativo.
+:::warning Servidor de DayZ no listado
+La lista de servidores en el juego es conocida por no ser la más fiable. Puede que tu servidor no aparezca temporalmente. En ese caso, usa un método de conexión alternativo.
 :::
 
 
@@ -61,7 +61,7 @@ La lista de servidores dentro del juego es conocida por no ser la más fiable. P
 
 <TabItem value="connect_solution_server_browser_expext" label="Navegador de servidores (Experimental & Externo)">
 
-Si usas la versión experimental de DayZ, puedes conectarte a tu servidor vía el DayZ Launcher. Para hacerlo, inicia el launcher y abre **Servers**. Haz clic en el botón **Direct connect** e ingresa la dirección IP y el puerto de tu servidor.
+Si estás usando la versión experimental de DayZ, puedes conectarte a tu servidor a través del DayZ Launcher. Para hacerlo, inicia el launcher y abre **Servers**. Haz clic en el botón **Direct connect** e ingresa la dirección IP y el puerto de tu servidor. 
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/ffaPNzmwcwe428c/download)
 
@@ -69,10 +69,10 @@ Si usas la versión experimental de DayZ, puedes conectarte a tu servidor vía e
 
 <TabItem value="connect_solution_dzsa" label="DZSA Launcher (Externo)">
 
-¿La lista oficial de servidores es poco fiable o usas mods? Entonces vale la pena usar el DZSA Launcher. Abre el launcher y usa los filtros a la izquierda para buscar tu servidor por nombre.
+¿La lista oficial de servidores es poco fiable o usas mods? Entonces vale la pena usar el DZSA Launcher. Abre el launcher y usa los filtros a la izquierda para buscar tu servidor usando el nombre del servidor. 
 
 :::warning Registra tu servidor
-Tu servidor no está registrado en el DZSA Launcher por defecto. Generalmente recomendamos registrar el servidor ahí, ya que muchos usuarios usan esta lista de servidores. Presiona [aquí](https://dayzsalauncher.com/#/servercheck) para registrar tu servidor.
+ Tu servidor no está registrado en el DZSA Launcher por defecto. Generalmente recomendamos registrar el servidor allí, ya que muchos usuarios usan esta lista de servidores. Presiona [aquí](https://dayzsalauncher.com/#/servercheck) para registrar tu servidor. 
 :::
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/o5GqcZ4EcWondpn/download)
@@ -84,7 +84,7 @@ Tu servidor no está registrado en el DZSA Launcher por defecto. Generalmente re
 
 ## Problemas potenciales y soluciones
 
-La conexión a un servidor de juegos a menudo se puede hacer de una o más formas. Los métodos disponibles se describen y explican en detalle a continuación.
+La conexión a un servidor de juegos a menudo se puede establecer de una o más formas. Los métodos disponibles se describen y explican en detalle a continuación.
 
 #### No visible
 
@@ -94,13 +94,13 @@ La falta de visibilidad del servidor puede ocurrir si la inicialización no se c
 
 #### Solución faltante o poco útil
 
-¿Sigues con problemas después de intentar solucionarlos? En ese caso, nuestro equipo de soporte está disponible todos los días para ayudarte. Simplemente crea un **[Ticket](https://zap-hosting.com/en/customer/support/)** en nuestra web y explícanos tu problema con la mayor cantidad de detalles posible. Lo revisaremos lo antes posible y te ayudaremos a resolverlo.
+¿Sigues teniendo problemas después de intentar solucionarlos? En ese caso, nuestro equipo de soporte está disponible a diario para ayudarte. Simplemente crea un **[Ticket](https://zap-hosting.com/en/customer/support/)** en nuestra web y explícanos tu problema con la mayor cantidad de detalles posible. Lo revisaremos lo antes posible y te ayudaremos a resolverlo.
 
 
 
 ## Conclusión
 
-¡Felicidades! Si seguiste todo correctamente, deberías haber establecido la conexión con el servidor con éxito. Para más preguntas o ayuda, no dudes en contactar a nuestro equipo de soporte, que está disponible todos los días para asistirte 🙂
+¡Felicidades! Si seguiste todo correctamente, deberías haber establecido la conexión con el servidor exitosamente. Para más preguntas o ayuda, no dudes en contactar a nuestro equipo de soporte, que está disponible a diario para asistirte 🙂
 
 
 

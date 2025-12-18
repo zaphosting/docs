@@ -1,7 +1,7 @@
 ---
 id: bananashooter-firststeps-connect
 title: "Banana Shooter: Połącz się z serwerem"
-description: "Dowiedz się, jak bezproblemowo połączyć się z serwerem Banana Shooter i rozwiązać typowe problemy, aby cieszyć się płynną rozgrywką → Sprawdź teraz"
+description: "Dowiedz się, jak łatwo połączyć się z serwerem Banana Shooter i rozwiązać typowe problemy, aby cieszyć się płynną rozgrywką → Sprawdź teraz"
 sidebar_label: Połącz się z serwerem
 services:
   - gameserver-bananashooter
@@ -14,7 +14,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 
 ## Wprowadzenie
-Nie wiesz, jak połączyć się ze swoim serwerem **Banana Shooter** lub czego potrzebujesz, aby zacząć? Spokojnie, mamy to ogarnięte! Przeprowadzimy Cię przez wszystko, co potrzebne – od wymaganych narzędzi i informacji, aż po sam proces łączenia, wraz z kluczowymi wskazówkami, które zapewnią płynne i bezproblemowe połączenie. Skorzystaj z naszego poradnika, a połączysz się w mgnieniu oka!
+Nie wiesz, jak połączyć się ze swoim serwerem **Banana Shooter** lub czego potrzebujesz, żeby zacząć? Spokojnie, mamy to ogarnięte! Przeprowadzimy Cię przez wszystko, co potrzebne. Od niezbędnych narzędzi i informacji, po sam proces łączenia, wraz z kluczowymi wskazówkami, które zapewnią płynne i bezproblemowe połączenie. Skorzystaj z naszego poradnika i połączysz się w mgnieniu oka!
 
 <InlineVoucher />
 
@@ -23,13 +23,13 @@ Nie wiesz, jak połączyć się ze swoim serwerem **Banana Shooter** lub czego p
 ## Uzyskaj dane serwera
 
 
-Będziesz potrzebować wszystkich niezbędnych informacji do połączenia z serwerem. Dane o Twoim serwerze znajdziesz w panelu głównym swojego serwera gier. Najważniejsze informacje to:
+Będziesz potrzebować wszystkich istotnych informacji, aby połączyć się z serwerem. Dane o Twoim serwerze znajdziesz w panelu głównym swojego serwera gier. Najważniejsze informacje to:
 
 - adres IP i port
 - nazwa serwera
 
 
-Dzięki powyższym danym łatwo znajdziesz swój serwer i upewnisz się, że łączysz się z właściwym serwerem.
+Dzięki tym danym łatwo znajdziesz swój serwer i upewnisz się, że łączysz się z właściwym serwerem.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/KFxSfXTMM3oqsro/preview)
 
@@ -59,20 +59,20 @@ Połączenie z serwerem gier można często nawiązać na kilka sposobów. Dost�
 #### Serwer niewidoczny
 
 
-Brak widoczności serwera może się zdarzyć, jeśli inicjalizacja nie została poprawnie zakończona. Może to być spowodowane np. błędną konfiguracją lub uszkodzonymi plikami. Więcej informacji zwykle znajdziesz w konsoli serwera lub plikach logów.
+Brak widoczności serwera może się zdarzyć, jeśli inicjalizacja nie zakończyła się pomyślnie. Może to być spowodowane np. błędną konfiguracją lub uszkodzonymi plikami. Więcej informacji zwykle znajdziesz w konsoli serwera lub plikach logów.
 
 
 
 #### Brak rozwiązania lub brak pomocy
 
 
-Wciąż masz problemy po próbie rozwiązania? Nasz support jest dostępny codziennie, by Ci pomóc. Po prostu załóż **[Ticket](https://zap-hosting.com/en/customer/support/)** na naszej stronie i opisz problem jak najdokładniej. Sprawdzimy to najszybciej, jak się da i pomożemy rozwiązać problem!
+Wciąż masz problemy po próbach rozwiązania? W takim wypadku nasz support jest dostępny codziennie, by Ci pomóc. Po prostu załóż **[Ticket](https://zap-hosting.com/en/customer/support/)** na naszej stronie i opisz problem jak najdokładniej. Sprawdzimy to najszybciej, jak się da, i pomożemy rozwiązać problem!
 
 
 
 ## Podsumowanie
 
-Gratulacje! Jeśli wykonałeś wszystko zgodnie z poradnikiem, powinieneś już być połączony z serwerem. W razie dalszych pytań lub potrzeby pomocy, śmiało kontaktuj się z naszym supportem, który jest dostępny codziennie i chętnie pomoże! 🙂
+Gratulacje! Jeśli wykonałeś wszystkie kroki, powinieneś już być połączony z serwerem. W razie dalszych pytań lub potrzeby pomocy, śmiało kontaktuj się z naszym supportem, który jest dostępny codziennie i chętnie pomoże! 🙂
 
 
 

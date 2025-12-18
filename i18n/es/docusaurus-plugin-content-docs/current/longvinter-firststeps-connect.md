@@ -13,7 +13,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 
 ## Introducción
-¿No sabes cómo conectarte a tu servidor de **Longvinter** o qué necesitas para empezar? ¡No te preocupes, aquí te ayudamos! Te guiaremos por todo lo que necesitas: desde las herramientas e información necesarias hasta el proceso real de conexión, junto con consideraciones clave para asegurar una experiencia de conexión fluida y sin problemas. Sigue nuestra guía y estarás conectado en un abrir y cerrar de ojos.
+¿No sabes cómo conectarte a tu servidor de **Longvinter** o qué necesitas para empezar? ¡No te preocupes, aquí te ayudamos! Te guiaremos por todo lo que necesitas. Desde las herramientas e información necesarias hasta el proceso real de conexión, junto con consideraciones clave para asegurar una experiencia de conexión fluida y sin problemas. Sigue nuestra guía y estarás conectado en un abrir y cerrar de ojos.
 
 <InlineVoucher />
 
@@ -21,7 +21,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Obtén los datos del servidor
 
-Vas a necesitar toda la información relevante para conectarte a tu servidor. La información sobre tu servidor la puedes encontrar en el panel web de tu servidor de juegos, en el dashboard. La información importante incluye lo siguiente:
+Vas a necesitar toda la información relevante para conectarte a tu servidor. La información sobre tu servidor la puedes encontrar en el panel web de tu servidor de juegos, en el panel de control. La información importante incluye lo siguiente:
 
 - Dirección IP y puerto
 - Nombre del servidor
@@ -38,7 +38,7 @@ La conexión a un servidor de juegos a menudo se puede establecer de una o más 
 <Tabs>
     <TabItem value="connect_solution_server_browser_ingame" label="Navegador de servidores (En el juego)" default>
 
-Para conectarte a tu servidor a través del navegador de servidores dentro del juego, abre el navegador de servidores en el menú principal. Haz clic en **Conectar por IP** en la esquina superior derecha de la lista de servidores e ingresa la dirección IP y el puerto de tu servidor. Confirma la entrada con la tecla `Enter` para establecer la conexión.
+Para conectarte a tu servidor a través del navegador de servidores dentro del juego, abre el navegador de servidores en el menú principal. Haz clic en **Conectar por IP** en la parte superior derecha de la lista de servidores e ingresa la dirección IP y el puerto de tu servidor. Confirma la entrada con la tecla `Enter` para establecer la conexión.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/oWPNgNYRWqwqDzB/download)
 

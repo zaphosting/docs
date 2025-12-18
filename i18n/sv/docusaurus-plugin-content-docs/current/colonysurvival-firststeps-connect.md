@@ -14,7 +14,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 
 ## Introduktion
-Osäker på hur du ansluter till din **Colony Survival**-server eller vad du behöver för att komma igång? Ingen fara, vi har dig täckt! Vi guidar dig genom allt du behöver – från nödvändiga verktyg och information till själva anslutningsprocessen, plus viktiga saker att tänka på för att säkerställa en smidig och problemfri anslutning. Följ vår guide så är du igång på nolltid!
+Osäker på hur du ansluter till din **Colony Survival**-server eller vad du behöver för att komma igång? Ingen fara, vi har dig täckt! Vi guidar dig genom allt du behöver. Från nödvändiga verktyg och information till själva anslutningsprocessen, plus viktiga saker att tänka på för att säkerställa en smidig och problemfri anslutning. Följ vår guide så är du igång på nolltid!
 
 <InlineVoucher />
 
@@ -23,14 +23,14 @@ Osäker på hur du ansluter till din **Colony Survival**-server eller vad du beh
 ## Skaffa serveruppgifter
 
 
-Du behöver all relevant info för att ansluta till din server. Information om din server hittar du på kontrollpanelen för din gameserver. Viktig info inkluderar:
+Du behöver all relevant information för att kunna ansluta till din server. Information om din server hittar du på kontrollpanelen för din gameserver. Viktig info inkluderar:
 
 - IP-adress och port
 - Servernamn
 - Serverlösenord (valfritt)
 
 
-Med info ovan ska du kunna hitta din server och se till att du ansluter till rätt server.
+Med informationen ovan ska du kunna hitta din server och se till att du ansluter till rätt server.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/Hb42XmSjeeCxPEi/preview)
 
@@ -75,7 +75,7 @@ Har du fortfarande problem efter felsökning? Då finns vårt supportteam tillg�
 
 ## Avslutning
 
-Grattis! Om du följt allt borde du nu vara ansluten till servern. Har du fler frågor eller behöver hjälp, tveka inte att kontakta vårt supportteam som finns tillgängligt varje dag för att hjälpa dig! 🙂
+Grattis! Om du följt allt rätt borde du nu vara ansluten till servern. Har du fler frågor eller behöver hjälp, tveka inte att kontakta vårt supportteam som finns tillgängligt varje dag för att hjälpa dig! 🙂
 
 
 

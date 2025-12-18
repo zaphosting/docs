@@ -1,7 +1,7 @@
 ---
 id: vserver-introduction
 title: "VPS: はじめに"
-description: "パワフルで手頃な価格のVPSホスティングを、ウェブサイト、データベース、ゲームなど多用途に柔軟な構成で → 今すぐ詳しくチェック"
+description: "ウェブサイト、データベース、ゲームなどに最適なパワフルで手頃な価格のVPSホスティングを柔軟な構成で → 今すぐ詳しくチェック"
 sidebar_label: はじめに
 services:
   - vserver
@@ -13,7 +13,7 @@ import items from '@site/data/faqs/vserver-introduction.json';
 
 ## はじめに
 
-パワフルな構成で自分だけのサーバーをお得に探してる？それならZAP-Hostingがピッタリ！ZAP-Hostingなら、用途に合わせて最高のパフォーマンスを発揮するVPSをレンタルや購入できるよ！
+パワフルな構成でコスパの良い自分だけのサーバーを探してる？それならZAP-Hostingがピッタリ！ZAP-Hostingなら、用途に合わせて最高のパフォーマンスを発揮するVPSをレンタルまたは購入できるよ！
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/6cCD5TmrwXgtayy/preview)
 
@@ -21,13 +21,13 @@ import items from '@site/data/faqs/vserver-introduction.json';
 
 ## 注文方法
 
-注文は超カンタン。欲しい構成の[VPS](https://zap-hosting.com/en/vps-hosting/)を選ぶだけ。セットアップは数秒で完了。その後すぐに設定を始められるよ。
+注文は超簡単。欲しい構成の[VPS](https://zap-hosting.com/en/vps-hosting/)を選ぶだけ。セットアップは数秒で完了。その後すぐに設定を始められるよ。
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/Lm9HpPkzZQ8NAS6/preview)
 
 ## 構成内容
 
-VPS製品には、あらゆる用途に合うように様々な構成オプションを用意してるよ。基本的には以下のような選択肢があるよ：
+VPS製品には様々な構成オプションがあって、どんな用途にも合うように用意してるよ。基本的に以下のようなオプションから選べるよ：
 
 | コンポーネント | 構成オプション |
 | -------------------------------- | ------------------------- |
@@ -44,16 +44,16 @@ VPS製品には、あらゆる用途に合うように様々な構成オプシ�
 
 ## 利用シーン
 
-お手頃価格で高性能、幅広いアクセス権限と可能性があるから、VPSはこんな用途にピッタリ：
+コスパの良さ、パフォーマンス、幅広いアクセス権限、そして多彩な可能性から、VPSは以下のような用途にピッタリ：
 
 - ウェブサイト
 - データベース
 - クラウドソリューション
 - ゲームサーバーやボイスサーバー
-- などなど！
+- その他いろいろ！
 
 ## よくある質問
-VPSについてもっと知りたい？機能やメリット、セットアップ方法、効果的な使い方まで、気になることは全部ここで解決しよう。必要な情報をゲットして、VPSを最大限に活用しよう。もしまだわからないことがあれば、いつでも気軽に問い合わせてね。すぐにサポートするよ！
-<SearchableAccordion items={items} locale="ja" />
+VPSについてもっと知りたい？機能やメリット、セットアップ方法、使いこなし方まで、気になることは全部ここで解決！わかりやすくまとめてるから、VPSを最大限に活用できるよ。もしまだ疑問があれば、気軽に連絡してね。すぐにサポートするよ！
+<SearchableAccordion items={items} locale="en" />
 
 <InlineVoucher />

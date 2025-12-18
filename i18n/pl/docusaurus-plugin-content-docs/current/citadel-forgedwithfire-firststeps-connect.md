@@ -14,13 +14,13 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 
 ## Wprowadzenie
-Nie wiesz, jak połączyć się ze swoim serwerem **Citadel Forged With Fire** lub czego potrzebujesz, by zacząć? Spokojnie, mamy to ogarnięte! Przeprowadzimy Cię przez wszystko, co potrzebne – od niezbędnych narzędzi i informacji, aż po sam proces łączenia, wraz z kluczowymi wskazówkami, które zapewnią płynne i bezproblemowe połączenie. Skorzystaj z naszego poradnika, a połączysz się w mgnieniu oka!
+Nie wiesz, jak połączyć się ze swoim serwerem **Citadel Forged With Fire** lub czego potrzebujesz, żeby zacząć? Spoko, mamy to ogarnięte! Przeprowadzimy Cię przez wszystko, co potrzebne. Od wymaganych narzędzi i informacji, po sam proces łączenia, wraz z kluczowymi wskazówkami, które zapewnią płynne i bezproblemowe połączenie. Skorzystaj z naszego poradnika, a połączysz się w mgnieniu oka!
 
 <InlineVoucher />
 
 
 
-## Uzyskaj dane serwera
+## Zdobycie danych serwera
 
 
 Będziesz potrzebować wszystkich istotnych informacji niezbędnych do połączenia z serwerem. Dane o Twoim serwerze znajdziesz w panelu głównym swojego serwera gier. Najważniejsze informacje to:
@@ -34,7 +34,7 @@ Dzięki powyższym informacjom łatwo znajdziesz swój serwer i upewnisz się, �
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/FQmGpEFFNb7Snkn/preview)
 
-## Nawiąż połączenie z serwerem
+## Nawiązywanie połączenia z serwerem
 
 
 Połączenie z serwerem gier można często nawiązać na jeden lub kilka sposobów. Dostępne metody opisujemy i wyjaśniamy szczegółowo poniżej.
@@ -42,7 +42,7 @@ Połączenie z serwerem gier można często nawiązać na jeden lub kilka sposob
 <Tabs>
     <TabItem value="connect_solution_server_browser_ingame" label="Przeglądarka serwerów (w grze)" default>
 
-Aby połączyć się z serwerem, uruchom grę i przejdź do **Dołącz do gry**. Następnie wyszukaj swój serwer po nazwie na liście serwerów. Kliknij **Dołącz**, aby nawiązać połączenie.
+Aby połączyć się z serwerem, otwórz grę i przejdź do **Dołącz do gry**. Następnie wyszukaj swój serwer po nazwie na liście serwerów. Kliknij **Dołącz**, aby nawiązać połączenie.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/ELQpi5iMNLpi3LY/download)
 
@@ -60,20 +60,20 @@ Połączenie z serwerem gier można często nawiązać na jeden lub kilka sposob
 #### Serwer niewidoczny
 
 
-Brak widoczności serwera może wystąpić, jeśli inicjalizacja nie zakończyła się pomyślnie. Może to być spowodowane np. błędną konfiguracją lub uszkodzonymi plikami. Więcej informacji zwykle znajdziesz w konsoli serwera lub plikach logów.
+Brak widoczności serwera może się zdarzyć, jeśli inicjalizacja nie zakończyła się pomyślnie. Może to być spowodowane np. błędną konfiguracją lub uszkodzonymi plikami. Więcej informacji zwykle znajdziesz w konsoli serwera lub plikach logów.
 
 
 
 #### Brak rozwiązania lub brak pomocy
 
 
-Wciąż masz problemy po próbie rozwiązania? W takim wypadku nasz zespół wsparcia jest dostępny codziennie, by Ci pomóc. Po prostu załóż **[Ticket](https://zap-hosting.com/en/customer/support/)** na naszej stronie i opisz problem jak najdokładniej. Sprawdzimy to najszybciej, jak się da, i pomożemy rozwiązać problem!
+Wciąż masz problemy po próbie rozwiązania? W takim razie nasz support jest dostępny codziennie, by Ci pomóc. Po prostu załóż **[Ticket](https://zap-hosting.com/en/customer/support/)** na naszej stronie i opisz problem jak najdokładniej. Sprawdzimy to najszybciej, jak się da i pomożemy rozwiązać problem!
 
 
 
 ## Podsumowanie
 
-Gratulacje! Jeśli wykonałeś wszystko zgodnie z poradnikiem, powinieneś już być połączony z serwerem. W razie dalszych pytań lub potrzeby pomocy, śmiało kontaktuj się z naszym zespołem wsparcia, który jest dostępny codziennie i chętnie pomoże! 🙂
+Gratulacje! Jeśli wykonałeś wszystko zgodnie z poradnikiem, powinieneś już być połączony z serwerem. W razie dalszych pytań lub potrzeby pomocy, nie wahaj się skontaktować z naszym supportem, który jest dostępny codziennie i chętnie pomoże! 🙂
 
 
 

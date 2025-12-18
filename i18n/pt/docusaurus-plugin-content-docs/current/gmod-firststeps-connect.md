@@ -14,7 +14,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 
 ## Introdução
-Não sabe como se conectar ao seu **servidor de jogos Garry's Mod** ou o que precisa para começar? Relaxa, a gente te ajuda! Vamos te guiar por tudo que você precisa – desde as ferramentas e informações necessárias até o processo real de conexão, junto com dicas importantes para garantir uma conexão suave e sem problemas. Siga nosso guia e você estará conectado rapidinho!
+Não sabe como se conectar ao seu **servidor de jogos Garry's Mod** ou o que precisa para começar? Relaxa, a gente te ajuda! Vamos te guiar por tudo que você precisa. Desde as ferramentas e informações necessárias até o processo real de conexão, junto com pontos importantes para garantir uma experiência de conexão suave e sem problemas. Siga nosso guia e você estará conectado rapidinho!
 
 <InlineVoucher />
 
@@ -83,7 +83,7 @@ A conexão a um servidor de jogos pode ser feita de uma ou mais formas. Os méto
 #### Não aparece
 
 
-A falta de visibilidade do servidor pode acontecer se a inicialização não foi concluída com sucesso. Isso pode ser, por exemplo, devido a uma configuração errada ou arquivos corrompidos. Informações adicionais geralmente podem ser encontradas no console do servidor ou nos arquivos de log.
+A falta de visibilidade do servidor pode acontecer se a inicialização não foi concluída com sucesso. Isso pode ser, por exemplo, devido a uma configuração errada ou arquivos corrompidos. Mais informações geralmente podem ser encontradas no console do servidor ou nos arquivos de log.
 
 
 
@@ -96,7 +96,7 @@ Ainda com problemas depois de tentar resolver? Nesse caso, nosso time de suporte
 
 ## Conclusão
 
-Parabéns, se você seguiu tudo certinho, já deve ter se conectado ao servidor com sucesso. Para dúvidas ou ajuda extra, não hesite em contatar nosso time de suporte, que está disponível todos os dias para te ajudar! 🙂
+Parabéns, se você seguiu tudo certinho, já deve ter conseguido se conectar ao servidor. Para dúvidas ou ajuda, não hesite em contatar nosso time de suporte, que está disponível todos os dias para te ajudar! 🙂
 
 
 

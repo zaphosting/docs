@@ -12,7 +12,7 @@ import TabItem from '@theme/TabItem';
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introdução
-Não sabe como se conectar ao seu **servidor de jogos Minecraft** ou o que precisa para começar? Relaxa, a gente te ajuda! Vamos te guiar por tudo que você precisa – desde as ferramentas e informações necessárias até o processo real de conexão, além dos pontos importantes para garantir uma conexão suave e sem problemas. Siga nosso guia e você estará conectado rapidinho!
+Não sabe como se conectar ao seu **servidor de jogos Minecraft** ou o que precisa para começar? Relaxa, a gente te ajuda! Vamos te guiar por tudo que você precisa. Desde as ferramentas e informações necessárias até o processo real de conexão, junto com pontos importantes para garantir uma conexão suave e sem problemas. Siga nosso guia e você estará conectado rapidinho!
 
 
 
@@ -21,14 +21,14 @@ Não sabe como se conectar ao seu **servidor de jogos Minecraft** ou o que preci
 Pode ser que você precise de software adicional para se conectar ao servidor de jogos deste game. Para a versão vanilla do Minecraft, ou seja, sem mods ou modpacks adicionais, não é necessário software extra. Se quiser usar mods/modpacks, vai precisar também do launcher correspondente. Você pode ver qual launcher precisa para o mod ou modpack pelo nome do jogo no dashboard. 
 
 | Variante do Minecraft                   | Software adicional necessário |
-| --------------------------------------- | ----------------------------- |
-| Minecraft: Vanilla                      | X                             |
-| Minecraft: Paper Spigot                 | X                             |
-| Minecraft: Spigot                       | X                             |
-| Minecraft: Bukkit                       | X                             |
-| Minecraft: Forge                        | ✓                             |
-| Minecraft: Fabric                       | ✓                             |
-| Minecraft com Mods/Modpacks em geral   | ✓                             |
+| --------------------------------------- | ---------------------------- |
+| Minecraft: Vanilla                      | X                            |
+| Minecraft: Paper Spigot                 | X                            |
+| Minecraft: Spigot                       | X                            |
+| Minecraft: Bukkit                       | X                            |
+| Minecraft: Forge                        | ✓                            |
+| Minecraft: Fabric                       | ✓                            |
+| Minecraft com Mods/Modpacks em geral   | ✓                            |
 
 
 
@@ -42,7 +42,7 @@ Se quiser usar mods, vai precisar também do mod loader correspondente. Dependen
 Mods Forge e Fabric precisam ser instalados manualmente tanto no jogo quanto no software do servidor para que a conexão funcione.
 
 :::danger Não misture mods Fabric/Forge
-Fabric e Forge não são compatíveis entre si. Mods Forge devem rodar no Forge, e mods Fabric no Fabric. Misturar pode causar crashes tanto no cliente quanto no servidor. 
+Fabric e Forge não são compatíveis entre si. Mods Forge devem rodar no Forge, e mods Fabric no Fabric. Misturar pode causar crashes no cliente e no servidor. 
 :::
 
 
@@ -71,7 +71,7 @@ A conexão com um servidor de jogos pode ser feita de uma ou mais formas. Os mé
 <Tabs>
     <TabItem value="connect_solution_server_browser_ingame" label="Navegador de Servidores (No jogo)" default>
 
-Inicie seu jogo pelo launcher do Minecraft ou do Modpack e vá até o menu **Multiplayer**. Depois clique em **Adicionar Servidor**. Lá você pode colocar um nome como referência e o endereço IP/porta.
+Inicie seu jogo pelo launcher do Minecraft ou do Mod pack e vá até a opção **Multiplayer**. Depois clique em **Adicionar Servidor**. Lá você pode colocar um nome como marcador e o endereço IP/porta.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/4nAK62sXGLySm4D/download)
 
@@ -94,7 +94,7 @@ A falta de visibilidade do servidor pode acontecer se a inicialização não foi
 Essa mensagem significa que não foi possível estabelecer conexão com o servidor dentro do tempo previsto. As causas podem ser várias. Mais informações geralmente aparecem nos logs ou no console ao vivo.
 
 #### Lista de mods incompatível
-Essa mensagem aparece quando há diferença nos mods entre o cliente e o servidor. Pode acontecer, por exemplo, se algum mod está faltando ou instalado para uma versão diferente. Nesse caso, o ideal é reinstalar e conferir os mods tanto no cliente quanto no servidor.
+Essa mensagem aparece quando há diferença nos mods entre o cliente e o servidor. Pode acontecer se algum mod está faltando ou instalado para uma versão diferente. Nesse caso, o ideal é reinstalar e conferir os mods tanto no cliente quanto no servidor.
 
 
 
@@ -106,6 +106,6 @@ Ainda com problemas depois de tentar resolver? Nosso time de suporte está dispo
 
 ## Conclusão
 
-Parabéns, se você seguiu tudo direitinho, já deve estar conectado ao servidor com sucesso. Para dúvidas ou ajuda, não hesite em contatar nosso suporte, que está disponível diariamente para te dar aquela força! 🙂
+Parabéns, se você seguiu tudo certinho, já deve estar conectado ao servidor com sucesso. Para dúvidas ou ajuda, não hesite em contatar nosso suporte, que está disponível diariamente para te dar aquela força! 🙂
 
 <InlineVoucher />

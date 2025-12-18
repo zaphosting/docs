@@ -1,7 +1,7 @@
 ---
 id: animalia-survival-firststeps-connect
 title: "Animalia Survival: Połącz się z serwerem"
-description: "Dowiedz się, jak bezproblemowo połączyć się z serwerem Animalia Survival i cieszyć się nieprzerwanym gameplayem → Sprawdź teraz"
+description: "Dowiedz się, jak bezproblemowo połączyć się z serwerem Animalia Survival i ciesz się nieprzerwanym gameplayem → Sprawdź teraz"
 sidebar_label: Połącz się z serwerem
 services:
   - gameserver-animalia-survival
@@ -14,7 +14,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 
 ## Wprowadzenie
-Nie wiesz, jak połączyć się ze swoim serwerem **Animalia Survival** lub czego potrzebujesz, by zacząć? Spokojnie, mamy to ogarnięte! Przeprowadzimy Cię przez wszystko, co potrzebne – od wymaganych narzędzi i informacji, aż po sam proces łączenia, wraz z kluczowymi wskazówkami, które zapewnią płynne i bezproblemowe połączenie. Skorzystaj z naszego poradnika, a połączysz się w mgnieniu oka!
+Nie wiesz, jak połączyć się ze swoim serwerem **Animalia Survival** lub czego potrzebujesz, by zacząć? Spokojnie, mamy to ogarnięte! Przeprowadzimy Cię przez wszystko, co potrzebne. Od niezbędnych narzędzi i informacji, po sam proces łączenia, wraz z kluczowymi wskazówkami, które zapewnią płynne i bezproblemowe połączenie. Skorzystaj z naszego poradnika, a połączysz się w mgnieniu oka!
 
 <InlineVoucher />
 
@@ -23,12 +23,12 @@ Nie wiesz, jak połączyć się ze swoim serwerem **Animalia Survival** lub czeg
 ## Uzyskaj dane serwera
 
 
-Będziesz potrzebować wszystkich niezbędnych informacji do połączenia z serwerem. Dane o Twoim serwerze znajdziesz w panelu głównym swojego serwera gier. Najważniejsze informacje to:
+Będziesz potrzebować wszystkich istotnych informacji, aby połączyć się z serwerem. Dane o Twoim serwerze znajdziesz w panelu głównym swojego serwera gier. Najważniejsze informacje to:
 
 - Nazwa serwera
 
 
-Dzięki powyższym informacjom łatwo znajdziesz swój serwer i upewnisz się, że łączysz się z właściwym serwerem.
+Dzięki powyższym danym łatwo znajdziesz swój serwer i upewnisz się, że łączysz się z właściwym serwerem.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/Ng4Bs8J54E9XJNr/preview)
 
@@ -65,13 +65,13 @@ Brak widoczności serwera może się zdarzyć, jeśli inicjalizacja nie została
 #### Brak rozwiązania lub brak pomocy
 
 
-Wciąż masz problemy po próbie rozwiązania? W takim wypadku nasz support jest dostępny codziennie, by Ci pomóc. Po prostu załóż **[Ticket](https://zap-hosting.com/en/customer/support/)** na naszej stronie i opisz problem jak najdokładniej. Sprawdzimy to najszybciej, jak się da, i pomożemy rozwiązać problem!
+Wciąż masz problemy po próbie rozwiązania ich samodzielnie? W takim wypadku nasz support jest dostępny codziennie, by Ci pomóc. Po prostu załóż **[Ticket](https://zap-hosting.com/en/customer/support/)** na naszej stronie i opisz problem jak najdokładniej. Sprawdzimy to najszybciej, jak się da i pomożemy rozwiązać problem!
 
 
 
 ## Podsumowanie
 
-Gratulacje! Jeśli wykonałeś wszystko zgodnie z poradnikiem, powinieneś już być połączony z serwerem. W razie dalszych pytań lub potrzeby pomocy, nie wahaj się skontaktować z naszym supportem, który jest dostępny codziennie i chętnie Ci pomoże! 🙂
+Gratulacje! Jeśli wykonałeś wszystko zgodnie z poradnikiem, powinieneś już być połączony z serwerem. W razie dalszych pytań lub potrzeby pomocy, nie wahaj się skontaktować z naszym supportem, który jest dostępny codziennie i chętnie pomoże! 🙂
 
 
 

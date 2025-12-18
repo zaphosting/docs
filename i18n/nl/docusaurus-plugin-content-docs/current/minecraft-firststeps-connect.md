@@ -12,13 +12,13 @@ import TabItem from '@theme/TabItem';
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introductie
-Weet je niet precies hoe je verbinding maakt met je **Minecraft**-server of wat je nodig hebt om te beginnen? Geen stress, wij helpen je! We nemen je mee door alles wat je nodig hebt – van de benodigde tools en info tot het daadwerkelijke verbindingsproces, inclusief belangrijke tips om alles soepel en zonder gedoe te laten verlopen. Volg onze gids en je bent zo verbonden!
+Weet je niet zeker hoe je verbinding maakt met je **Minecraft**-server of wat je nodig hebt om te starten? Geen stress, wij fixen het voor je! We nemen je mee door alles wat je nodig hebt. Van de benodigde tools en info tot het daadwerkelijke verbindingsproces, inclusief belangrijke tips voor een soepele en probleemloze connectie. Volg onze gids en je bent zo verbonden!
 
 
 
 ## Vereisten
 
-Voor dit spel kan extra software nodig zijn om verbinding te maken met de game-server. Voor de vanilla versie van Minecraft, dus zonder extra mods of modpacks, is geen extra software nodig. Wil je mods/modpacks gebruiken, dan heb je ook de juiste launcher nodig. Welke launcher je nodig hebt voor de betreffende mod of modpack zie je bij de naam van het spel in het dashboard.
+Voor dit spel kan extra software nodig zijn om verbinding te maken met de game-server. Voor de vanilla versie van Minecraft, dus zonder extra mods of modpacks, is geen extra software nodig. Wil je mods/modpacks gebruiken, dan heb je ook de bijpassende launcher nodig. Welke launcher je nodig hebt voor de betreffende mod of modpack zie je bij de naam van het spel in het dashboard.
 
 | Minecraft variant                       | Extra software nodig         |
 | --------------------------------------- | ---------------------------- |
@@ -60,16 +60,16 @@ Je hebt alle relevante info nodig om verbinding te maken met je server. De gegev
 
 - IP-adres en poort
 
-Met bovenstaande info kun je je server vinden en zeker weten dat je verbinding maakt met de juiste server.
+Met bovenstaande info kun je je server vinden en zeker weten dat je met de juiste server verbindt.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/2orebizt2rz5bBz/preview)
 
 ## Verbinding maken met de server
 
-De verbinding met een game-server kan vaak op één of meerdere manieren worden gemaakt. De beschikbare methodes worden hieronder beschreven en uitgelegd.
+De verbinding met een game server kan vaak op één of meerdere manieren worden gemaakt. De beschikbare methodes worden hieronder beschreven en uitgelegd.
 
 <Tabs>
-    <TabItem value="connect_solution_server_browser_ingame" label="Server Browser (In game)" default>
+    <TabItem value="connect_solution_server_browser_ingame" label="Server Browser (In-game)" default>
 
 Start je game via de Minecraft- of Modpack-launcher en ga naar het menu **Multiplayer**. Klik daarna op **Add Server**. Daar kun je een naam als placeholder invullen en het IP-adres/poort.
 
@@ -84,14 +84,14 @@ Start je game via de Minecraft- of Modpack-launcher en ga naar het menu **Multip
 
 ## Mogelijke problemen en oplossingen
 
-De verbinding met een game-server kan vaak op één of meerdere manieren worden gemaakt. De beschikbare methodes worden hieronder beschreven en uitgelegd.
+De verbinding met een game server kan vaak op één of meerdere manieren worden gemaakt. De beschikbare methodes worden hieronder beschreven en uitgelegd.
 
 #### Niet zichtbaar
 
-Als de server niet zichtbaar is, kan dat komen doordat de initialisatie niet succesvol is afgerond. Dit kan bijvoorbeeld door een foutieve configuratie of corrupte bestanden. Meer info vind je meestal in de serverconsole of logbestanden.
+Als de server niet zichtbaar is, kan dat komen doordat de initialisatie niet goed is afgerond. Dit kan bijvoorbeeld door een foutieve configuratie of corrupte bestanden. Meer info vind je meestal in de serverconsole of logbestanden.
 
-#### Verbinding mislukt, Verbinding time-out.
-Deze foutmelding betekent dat er binnen de geplande tijd geen verbinding met de server kon worden gemaakt. De oorzaken kunnen verschillend zijn. Meer info vind je meestal in de logs of live console.
+#### Verbinding mislukt, verbinding time-out.
+Deze foutmelding betekent dat er binnen de geplande tijd geen verbinding met de server kon worden gemaakt. De oorzaken kunnen divers zijn. Meer info vind je meestal in de logs of live console.
 
 #### Ongelijke mod channel lijst
 Deze foutmelding verschijnt als er verschil is in mods tussen client en server. Dit kan bijvoorbeeld gebeuren als mods ontbreken of voor een andere versie zijn geïnstalleerd. In dat geval kun je het beste de mods opnieuw installeren en controleren op zowel client als server.
@@ -106,6 +106,6 @@ Heb je nog steeds problemen na het troubleshooten? Geen zorgen, ons supportteam 
 
 ## Conclusie
 
-Gefeliciteerd, als je alles goed hebt gevolgd, heb je nu succesvol verbinding gemaakt met de server. Voor verdere vragen of hulp kun je altijd contact opnemen met ons supportteam, dat dagelijks voor je klaarstaat! 🙂
+Gefeliciteerd, als je alles goed hebt gevolgd, heb je nu succesvol verbinding gemaakt met de server. Voor verdere vragen of hulp, aarzel niet om contact op te nemen met ons supportteam, die dagelijks voor je klaarstaat! 🙂
 
 <InlineVoucher />

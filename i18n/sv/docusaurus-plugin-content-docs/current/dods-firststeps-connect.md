@@ -1,7 +1,7 @@
 ---
 id: dods-firststeps-connect
 title: "Day of Defeat Source: Anslut till servern"
-description: "Upptäck hur du smidigt ansluter till din Day of Defeat: Source-server och njuter av en grym spelupplevelse → Läs mer nu"
+description: "Upptäck hur du smidigt ansluter till din Day of Defeat: Source-server och njuter av en stabil spelupplevelse → Läs mer nu"
 sidebar_label: Anslut till servern
 services:
   - gameserver-dods
@@ -13,7 +13,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 
 ## Introduktion
-Osäker på hur du ansluter till din **Day of Defeat: Source**-server eller vad du behöver för att komma igång? Ingen fara, vi har dig! Vi guidar dig genom allt du behöver – från nödvändiga verktyg och info till själva anslutningsprocessen, plus viktiga tips för att allt ska flyta på utan problem. Följ vår guide så är du igång på nolltid!
+Osäker på hur du ansluter till din **Day of Defeat: Source**-server eller vad du behöver för att komma igång? Ingen fara, vi har dig täckt! Vi guidar dig genom allt du behöver. Från nödvändiga verktyg och information till själva anslutningsprocessen, plus viktiga saker att tänka på för att säkerställa en smidig och problemfri anslutning. Följ vår guide så är du igång på nolltid!
 
 <InlineVoucher />
 
@@ -21,24 +21,24 @@ Osäker på hur du ansluter till din **Day of Defeat: Source**-server eller vad 
 
 ## Skaffa serveruppgifter
 
-Du behöver all relevant info för att kunna ansluta till din server. Den hittar du i kontrollpanelen på din gameservers webbgränssnitt. Viktig info inkluderar:
+Du behöver all relevant information för att kunna ansluta till din server. Information om din server hittar du på kontrollpanelen i webgränssnittet för din spelserver. Viktig info inkluderar:
 
 - IP-adress och port
 - Servernamn
 - Serverlösenord (valfritt)
 
-Med info ovan ska du enkelt kunna hitta din server och se till att du ansluter till rätt ställe.
+Med informationen ovan ska du kunna hitta din server och se till att du ansluter till rätt server.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/j34HLtkGoLdwbeo/preview)
 
-## Anslut till servern
+## Etablera serveranslutning
 
-Det finns ofta flera sätt att ansluta till en gameserver. Här nedan förklarar vi de vanligaste metoderna i detalj.
+Anslutning till en spelserver kan ofta göras på en eller flera sätt. Tillgängliga metoder beskrivs och förklaras i detalj nedan.
 
 <Tabs>
-    <TabItem value="connect_solution_server_browser_ingame" label="Server Browser (Ingame)" default>
+    <TabItem value="connect_solution_server_browser_ingame" label="Server Browser (I spelet)" default>
 
-För att ansluta via den inbyggda serverbläddraren i spelet, öppna serverbläddraren i huvudmenyn genom att klicka på **Find servers**. Klicka på **Add a server** och skriv in IP:Port för din server i fältet. Klicka på **Add this address to favorites** för att lägga till servern bland dina favoriter.
+För att ansluta till din server via den inbyggda serverbläddraren i spelet, öppna serverbläddraren i huvudmenyn genom att klicka på **Hitta servrar**-knappen. Klicka på **Lägg till en server** och skriv in IP:Port för din server i fältet. Klicka på **Lägg till denna adress i favoriter** för att lägga till servern bland dina favoriter.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/pQ7HbwYfLP9qQ7a/download)
 
@@ -46,19 +46,17 @@ För att ansluta via den inbyggda serverbläddraren i spelet, öppna serverbläd
 
 <TabItem value="connect_solution_server_browser_steam" label="Server Browser (Steam)">
 
+För att ansluta till din server via Steam-serverbläddraren, öppna serverbläddraren från Steam. Klicka på `Visa` högst upp i Steam-menyn och sedan på `Spelserver`-sektionen för att öppna den.
 
-
-För att ansluta via Steams serverbläddrare, öppna den från Steam. Klicka på `View` högst upp i Steam-menyn och välj sedan `Game Server` för att öppna den.
-
-Sök eller lägg till din server via Steam-bläddraren genom att använda `IP-adress` och `Port` för din gameserver. Gå till fliken `Favorites` i serverlistan och klicka på plus-symbolen längst ner. Ett popup-fönster öppnas där du fyller i serverinformationen.
+Sök eller lägg till din server via Steam-bläddraren genom att använda `IP-adress` och `Port` för din spelserver. Gör så här: välj fliken `Favoriter` i serverlistan och klicka på plustecknet längst ner. Ett popup-fönster öppnas där du anger din serverinformation.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/MMsokw2ZyCreeCN/download)
 
 </TabItem>
 
-<TabItem value="connect_solution3" label="Konsol (Ingame)">
+<TabItem value="connect_solution3" label="Konsol (I spelet)">
 
-I Counter-Strike: Source är konsolen avstängd som standard. För att aktivera den, gå till **Options → Keyboard och välj Advanced**. För att ansluta via konsolen, öppna den med `~`-tangenten. När konsolen är öppen, skriv in följande kommando:
+I Counter-Strike: Source är konsolen avstängd som standard. För att aktivera den, **gå till Alternativ → Tangentbord och välj Avancerat**. För att ansluta till din server via konsolen, öppna konsolen med `~`-tangenten. När konsolen är öppen, kör följande kommando:
 
 ```
 connect IP:Port
@@ -73,21 +71,21 @@ connect IP:Port
 
 ## Vanliga problem och lösningar
 
-Det finns ofta flera sätt att ansluta till en gameserver. Här nedan förklarar vi de vanligaste metoderna i detalj.
+Anslutning till en spelserver kan ofta göras på en eller flera sätt. Tillgängliga metoder beskrivs och förklaras i detalj nedan.
 
 #### Servern syns inte
 
-Om servern inte syns kan det bero på att uppstarten inte gick igenom som den skulle. Det kan till exempel bero på felaktig konfiguration eller korrupta filer. Mer info hittar du oftast i serverkonsolen eller loggfilerna.
+Att servern inte syns kan bero på att initieringen inte slutfördes korrekt. Detta kan till exempel bero på felaktig konfiguration eller korrupta filer. Mer information hittar du oftast i serverkonsolen eller loggfilerna.
 
 
 
-#### Hittar du inte lösningen eller behöver mer hjälp?
+#### Saknas lösning eller hjälper inte
 
-Om du fortfarande har problem efter felsökning finns vårt supportteam tillgängligt varje dag för att hjälpa dig. Skapa bara ett **[Ticket](https://zap-hosting.com/en/customer/support/)** på vår hemsida och beskriv ditt problem så detaljerat som möjligt. Vi kollar på det så snabbt vi kan och hjälper dig att lösa det!
+Har du fortfarande problem efter felsökning? Då finns vårt supportteam tillgängligt varje dag för att hjälpa dig. Skapa enkelt en **[Ticket](https://zap-hosting.com/en/customer/support/)** på vår webbplats och förklara ditt problem så detaljerat som möjligt. Vi kollar på det så snabbt vi kan och hjälper dig att lösa det!
 
 
 
-## Avslutning
+## Sammanfattning
 
 Grattis! Om du följt allt rätt borde du nu vara ansluten till servern. Har du fler frågor eller behöver hjälp, tveka inte att kontakta vårt supportteam som finns tillgängligt varje dag för att hjälpa dig! 🙂
 

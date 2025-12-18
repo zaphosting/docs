@@ -14,7 +14,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 
 ## Einführung
-Du bist dir nicht sicher, wie du dich mit deinem **Beasts of Bermuda** Gameserver verbindest oder was du dafür brauchst? Kein Stress, wir haben alles für dich am Start! Wir führen dich durch alles, was du brauchst – von den nötigen Tools und Infos bis hin zum eigentlichen Verbindungsprozess, inklusive wichtiger Tipps, damit alles smooth und ohne Probleme läuft. Folge unserer Anleitung und du bist im Handumdrehen verbunden!
+Du bist dir nicht sicher, wie du dich mit deinem **Beasts of Bermuda** Gameserver verbindest oder was du dafür brauchst? Kein Stress, wir haben alles für dich am Start! Wir führen dich durch alles, was du wissen musst. Von den nötigen Tools und Infos bis hin zum eigentlichen Verbindungsprozess – inklusive wichtiger Tipps, damit alles smooth und ohne Probleme läuft. Folge unserer Anleitung und du bist im Handumdrehen verbunden!
 
 <InlineVoucher />
 
@@ -23,7 +23,7 @@ Du bist dir nicht sicher, wie du dich mit deinem **Beasts of Bermuda** Gameserve
 ## Serverdetails besorgen
 
 
-Du brauchst alle relevanten Infos, um dich mit deinem Server zu verbinden. Die Infos zu deinem Server findest du im Dashboard deines Gameserver-Webinterface-Panels. Wichtige Infos sind unter anderem:
+Du brauchst alle relevanten Infos, um dich mit deinem Server zu verbinden. Diese findest du im Dashboard deines Gameserver-Webinterface-Panels. Wichtige Infos sind unter anderem:
 
 - Servername
 
@@ -35,7 +35,7 @@ Mit den oben genannten Infos solltest du deinen Server finden und sicherstellen 
 ## Verbindung zum Server herstellen
 
 
-Die Verbindung zu einem Gameserver kann oft auf eine oder mehrere Arten hergestellt werden. Die verfügbaren Methoden werden hier detailliert beschrieben und erklärt.
+Die Verbindung zu einem Gameserver kann oft auf eine oder mehrere Arten hergestellt werden. Die verfügbaren Methoden werden im Folgenden detailliert beschrieben und erklärt.
 
 <Tabs>
     <TabItem value="connect_solution_server_browser_ingame" label="Server Browser (Im Spiel)" default>
@@ -54,7 +54,7 @@ Um dich über den Ingame-Serverbrowser mit deinem Server zu verbinden, öffne de
 ## Mögliche Probleme und Lösungen
 
 
-Die Verbindung zu einem Gameserver kann oft auf eine oder mehrere Arten hergestellt werden. Die verfügbaren Methoden werden hier detailliert beschrieben und erklärt.
+Die Verbindung zu einem Gameserver kann oft auf eine oder mehrere Arten hergestellt werden. Die verfügbaren Methoden werden im Folgenden detailliert beschrieben und erklärt.
 
 #### Nicht sichtbar
 
@@ -66,13 +66,13 @@ Wenn der Server nicht sichtbar ist, kann das daran liegen, dass die Initialisier
 #### Keine Lösung gefunden oder nicht hilfreich
 
 
-Du hast nach der Fehlerbehebung immer noch Probleme? Kein Ding, unser Support-Team ist täglich für dich da! Erstelle einfach ein **[Ticket](https://zap-hosting.com/en/customer/support/)** auf unserer Website und beschreibe dein Problem so detailliert wie möglich. Wir schauen uns das schnellstmöglich an und helfen dir, das Problem zu lösen!
+Du hast nach der Fehlerbehebung immer noch Probleme? Kein Ding, unser Support-Team steht dir täglich zur Seite. Erstelle einfach ein **[Ticket](https://zap-hosting.com/en/customer/support/)** auf unserer Website und beschreibe dein Problem so detailliert wie möglich. Wir schauen uns das schnellstmöglich an und helfen dir, das Problem zu lösen!
 
 
 
 ## Fazit
 
-Glückwunsch, wenn du alles befolgt hast, solltest du jetzt erfolgreich mit dem Server verbunden sein. Bei weiteren Fragen oder wenn du Hilfe brauchst, zögere nicht, unser Support-Team zu kontaktieren – wir sind täglich für dich da! 🙂
+Glückwunsch, wenn du alles befolgt hast, solltest du jetzt erfolgreich mit dem Server verbunden sein. Bei weiteren Fragen oder wenn du Hilfe brauchst, zögere nicht, unseren Support zu kontaktieren – wir sind täglich für dich da! 🙂
 
 
 

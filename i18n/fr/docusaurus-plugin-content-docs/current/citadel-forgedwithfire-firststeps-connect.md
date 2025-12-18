@@ -14,7 +14,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 
 ## Introduction
-Tu ne sais pas comment te connecter à ton **serveur de jeux Citadel Forged With Fire** ou ce qu’il te faut pour commencer ? Pas de stress, on s’occupe de tout ! On va te guider pas à pas – des outils et infos nécessaires jusqu’au processus de connexion, en passant par les points clés pour assurer une connexion fluide et sans galère. Suis notre guide et tu seras connecté en un rien de temps !
+Vous ne savez pas comment vous connecter à votre **serveur de jeux Citadel Forged With Fire** ou ce dont vous avez besoin pour commencer ? Pas de stress, on s’occupe de tout ! On va vous guider pas à pas. Des outils et infos nécessaires jusqu’au processus de connexion, en passant par les points clés pour garantir une connexion fluide et sans prise de tête. Suivez notre guide et vous serez connecté en un rien de temps !
 
 <InlineVoucher />
 
@@ -23,14 +23,14 @@ Tu ne sais pas comment te connecter à ton **serveur de jeux Citadel Forged With
 ## Obtenir les infos du serveur
 
 
-Tu auras besoin de toutes les infos importantes pour te connecter à ton serveur. Ces infos se trouvent dans le tableau de bord de ton panneau web de serveur de jeux. Les infos importantes sont les suivantes :
+Vous aurez besoin de toutes les infos nécessaires pour vous connecter à votre serveur. Ces infos se trouvent dans le tableau de bord de votre panneau web du serveur de jeux. Les infos importantes sont les suivantes :
 
 - Adresse IP et port
 - Nom du serveur
 - Mot de passe du serveur (optionnel)
 
 
-Avec ces infos, tu devrais pouvoir localiser ton serveur et t’assurer de te connecter au bon serveur.
+Avec ces infos, vous devriez pouvoir localiser votre serveur et vous assurer de vous connecter au bon serveur.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/FQmGpEFFNb7Snkn/preview)
 
@@ -42,7 +42,7 @@ La connexion à un serveur de jeux peut souvent se faire de plusieurs façons. L
 <Tabs>
     <TabItem value="connect_solution_server_browser_ingame" label="Navigateur de serveurs (en jeu)" default>
 
-Pour te connecter à ton serveur, ouvre le jeu et va dans **Rejoindre une partie**. Une fois là, cherche ton serveur en utilisant le nom du serveur dans la liste. Clique sur **Rejoindre** pour établir la connexion.
+Pour vous connecter à votre serveur, ouvrez le jeu et allez dans **Rejoindre une partie**. Une fois là, cherchez votre serveur en utilisant le nom du serveur dans la liste. Cliquez sur **Rejoindre** pour établir la connexion.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/ELQpi5iMNLpi3LY/download)
 
@@ -60,18 +60,18 @@ La connexion à un serveur de jeux peut souvent se faire de plusieurs façons. L
 #### Serveur non visible
 
 
-Le serveur peut ne pas être visible si l’initialisation n’a pas été complétée avec succès. Cela peut être dû, par exemple, à une mauvaise configuration ou à des fichiers corrompus. Plus d’infos se trouvent généralement dans la console du serveur ou les fichiers logs.
+Le serveur peut ne pas être visible si l’initialisation n’a pas été complétée avec succès. Cela peut être dû par exemple à une mauvaise configuration ou à des fichiers corrompus. Vous trouverez souvent plus d’infos dans la console du serveur ou les fichiers logs.
 
 
 
 #### Solution manquante ou pas utile
 
 
-Tu as toujours des soucis après avoir essayé ? Pas de panique, notre équipe support est dispo tous les jours pour t’aider. Crée simplement un **[Ticket](https://zap-hosting.com/en/customer/support/)** sur notre site et explique-nous ton problème avec un max de détails. On regardera ça au plus vite et on t’aidera à résoudre le souci !
+Vous avez toujours des soucis après avoir essayé ? Pas de panique, notre équipe support est dispo tous les jours pour vous aider. Il suffit de créer un **[Ticket](https://zap-hosting.com/en/customer/support/)** sur notre site et de nous expliquer votre problème avec un max de détails. On s’en occupera au plus vite et on vous aidera à résoudre ça !
 
 ## Conclusion
 
-Félicitations, si tu as suivi tout ça, tu devrais être connecté à ton serveur sans problème. Pour d’autres questions ou un coup de main, n’hésite pas à contacter notre support, dispo tous les jours pour t’aider ! 🙂
+Félicitations, si vous avez suivi tout ça, vous devriez être connecté au serveur sans problème. Pour toute question ou aide supplémentaire, n’hésitez pas à contacter notre équipe support, dispo tous les jours pour vous filer un coup de main ! 🙂
 
 
 

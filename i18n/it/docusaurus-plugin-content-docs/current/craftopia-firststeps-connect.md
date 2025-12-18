@@ -14,7 +14,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 
 ## Introduzione
-Non sai come connetterti al tuo server **Craftopia** o cosa ti serve per iniziare? Nessun problema, ci pensiamo noi! Ti guideremo passo passo su tutto il necessario – dagli strumenti e le info richieste fino al processo di connessione vero e proprio, con i punti chiave per garantirti una connessione liscia e senza intoppi. Segui la nostra guida e sarai connesso in un attimo!
+Non sai come connetterti al tuo server **Craftopia** o cosa ti serve per iniziare? Nessun problema, ci pensiamo noi! Ti guideremo passo passo su tutto il necessario. Dagli strumenti e informazioni richiesti fino al processo di connessione vero e proprio, con i punti chiave per assicurarti una connessione liscia e senza intoppi. Segui la nostra guida e sarai connesso in un attimo!
 
 <InlineVoucher />
 
@@ -23,12 +23,12 @@ Non sai come connetterti al tuo server **Craftopia** o cosa ti serve per iniziar
 ## Ottieni i dettagli del server
 
 
-Ti serviranno tutte le informazioni necessarie per connetterti al tuo server. Puoi trovare i dati del tuo server nella dashboard del pannello web del tuo game server. Le info importanti includono:
+Ti serviranno tutte le informazioni necessarie per connetterti al tuo server. Puoi trovare i dati del tuo server nella dashboard del pannello web del tuo game server. Le informazioni importanti includono:
 
 - Indirizzo IP e porta
 
 
-Con queste info, dovresti riuscire a trovare il tuo server e assicurarti di connetterti a quello giusto.
+Con queste informazioni, potrai localizzare il tuo server e assicurarti di connetterti a quello giusto.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/4ggffniy3aaDG67/preview)
 
@@ -56,10 +56,10 @@ Per connetterti al tuo server, apri il gioco e vai su **Multiplayer** nel menu p
 
 La connessione a un game server può spesso essere fatta in uno o più modi. I metodi disponibili sono descritti e spiegati nel dettaglio qui sotto.
 
-#### Non visibile
+#### Server non visibile
 
 
-Il server potrebbe non essere visibile se l’inizializzazione non è andata a buon fine. Questo può succedere per una configurazione errata o file corrotti. Di solito puoi trovare più info nella console del server o nei file di log.
+Il server potrebbe non essere visibile se l’inizializzazione non è andata a buon fine. Questo può succedere per una configurazione errata o file corrotti. Di solito puoi trovare maggiori info nella console del server o nei file di log.
 
 
 
@@ -72,7 +72,7 @@ Hai ancora problemi dopo aver provato a risolverli? Nessun problema, il nostro s
 
 ## Conclusione
 
-Complimenti, se hai seguito tutto dovresti essere connesso al server senza problemi. Per altre domande o supporto, non esitare a contattare il nostro team di assistenza, sempre disponibile ogni giorno per darti una mano! 🙂
+Complimenti, se hai seguito tutto alla lettera, dovresti essere connesso al server senza problemi. Per altre domande o supporto, non esitare a contattare il nostro team di supporto, sempre disponibile ogni giorno per darti una mano! 🙂
 
 
 

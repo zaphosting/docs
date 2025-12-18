@@ -14,7 +14,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 
 ## Einführung
-Du bist dir nicht sicher, wie du dich mit deinem **Cryofall** Gameserver verbindest oder was du dafür brauchst? Kein Stress, wir haben alles für dich am Start! Wir zeigen dir Schritt für Schritt, was du brauchst – von den nötigen Tools und Infos bis hin zum eigentlichen Verbindungsprozess. Außerdem geben wir dir wichtige Tipps, damit alles smooth und ohne Probleme läuft. Folge unserer Anleitung und du bist im Handumdrehen verbunden!
+Du bist dir nicht sicher, wie du dich mit deinem **Cryofall**-Server verbindest oder was du dafür brauchst? Kein Stress, wir haben alles für dich am Start! Wir führen dich durch alles, was du wissen musst. Von den nötigen Tools und Infos bis hin zum eigentlichen Verbindungsprozess – inklusive wichtiger Tipps, damit alles smooth und ohne Probleme läuft. Folge unserer Anleitung und du bist im Handumdrehen verbunden!
 
 <InlineVoucher />
 
@@ -35,12 +35,12 @@ Mit den oben genannten Infos kannst du deinen Server finden und sicherstellen, d
 ## Verbindung zum Server herstellen
 
 
-Die Verbindung zu einem Gameserver kann oft auf verschiedene Arten hergestellt werden. Die verfügbaren Methoden werden unten detailliert beschrieben und erklärt.
+Die Verbindung zu einem Gameserver kann oft auf verschiedene Arten hergestellt werden. Die verfügbaren Methoden werden hier detailliert beschrieben und erklärt.
 
 <Tabs>
     <TabItem value="connect_solution_server_browser_ingame" label="Server Browser (Im Spiel)" default>
 
-Um dich über den Ingame-Serverbrowser mit deinem Server zu verbinden, starte das Spiel. Klicke im Spiel auf **Play** und dann auf **Multiplayer**, um die Serverliste zu öffnen. Wähle den Community-Tab und suche deinen Server über den Servernamen.
+Um dich über den Ingame-Serverbrowser mit deinem Server zu verbinden, starte das Spiel. Klicke im Spiel auf **Play** und dann auf **Multiplayer**, um die Serverliste zu öffnen. Wähle den Community-Tab und suche deinen Server mit dem Servernamen.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/HyDYcnTD5Z2Rk8o/download)
 
@@ -53,7 +53,7 @@ Um dich über den Ingame-Serverbrowser mit deinem Server zu verbinden, starte da
 ## Mögliche Probleme und Lösungen
 
 
-Die Verbindung zu einem Gameserver kann oft auf verschiedene Arten hergestellt werden. Die verfügbaren Methoden werden unten detailliert beschrieben und erklärt.
+Die Verbindung zu einem Gameserver kann oft auf verschiedene Arten hergestellt werden. Die verfügbaren Methoden werden hier detailliert beschrieben und erklärt.
 
 #### Nicht sichtbar
 
@@ -65,7 +65,7 @@ Wenn der Server nicht sichtbar ist, kann das daran liegen, dass die Initialisier
 #### Keine Lösung gefunden oder nicht hilfreich
 
 
-Du hast nach der Fehlerbehebung immer noch Probleme? Kein Ding, unser Support-Team steht dir täglich zur Seite. Erstelle einfach ein **[Ticket](https://zap-hosting.com/en/customer/support/)** auf unserer Website und beschreibe dein Problem so detailliert wie möglich. Wir schauen uns das schnellstmöglich an und helfen dir, das Problem zu lösen!
+Du hast nach dem Troubleshooting immer noch Probleme? Kein Ding, unser Support-Team ist täglich für dich da! Erstelle einfach ein **[Ticket](https://zap-hosting.com/en/customer/support/)** auf unserer Website und beschreibe dein Problem so detailliert wie möglich. Wir schauen uns das schnellstmöglich an und helfen dir, das Problem zu lösen!
 
 
 

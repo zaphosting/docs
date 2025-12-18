@@ -13,7 +13,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 
 ## Introducción
-¿No sabes cómo conectarte a tu **servidor de Killing Floor 2** o qué necesitas para empezar? ¡No te preocupes, aquí te ayudamos! Te guiaremos por todo lo que necesitas: desde las herramientas e información necesarias hasta el proceso real de conexión, junto con consideraciones clave para asegurar una conexión fluida y sin problemas. Sigue nuestra guía y estarás conectado en un abrir y cerrar de ojos.
+¿No sabes cómo conectarte a tu **servidor de juegos Killing Floor 2** o qué necesitas para empezar? ¡No te preocupes, aquí te ayudamos! Te guiaremos por todo lo que necesitas. Desde las herramientas e información necesarias hasta el proceso real de conexión, junto con consideraciones clave para asegurar una experiencia de conexión fluida y sin problemas. Sigue nuestra guía y estarás conectado en un abrir y cerrar de ojos.
 
 <InlineVoucher />
 
@@ -21,7 +21,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Obtén los datos del servidor
 
-Vas a necesitar toda la información relevante para conectarte a tu servidor. La información sobre tu servidor la puedes encontrar en el panel web de tu servidor de juegos. La información importante incluye lo siguiente:
+Vas a necesitar toda la información relevante para conectarte a tu servidor. La información sobre tu servidor la puedes encontrar en el panel web de tu servidor de juegos, en el panel. La información importante incluye lo siguiente:
 
 - Dirección IP y puerto
 - Nombre del servidor
@@ -32,7 +32,7 @@ Con la información mencionada arriba, deberías poder localizar tu servidor y a
 
 ## Establece la conexión al servidor
 
-La conexión a un servidor de juegos a menudo se puede hacer de una o más formas. Los métodos disponibles se describen y explican en detalle a continuación.
+La conexión a un servidor de juegos a menudo se puede establecer de una o más formas. Los métodos disponibles se describen y explican en detalle a continuación.
 
 <Tabs>
 
@@ -57,11 +57,11 @@ La conexión a un servidor de juegos a menudo se puede establecer de una o más 
 
 #### No visible
 
-La falta de visibilidad del servidor puede ocurrir si la inicialización no se completó con éxito. Esto puede deberse, por ejemplo, a una configuración incorrecta o archivos corruptos. Más información generalmente se puede encontrar en la consola del servidor o en los archivos de registro.
+La falta de visibilidad del servidor puede ocurrir si la inicialización no se completó con éxito. Esto puede deberse, por ejemplo, a una configuración incorrecta o archivos corruptos. Normalmente, más información se puede encontrar en la consola del servidor o en los archivos de registro.
 
 
 
-#### Solución faltante o poco útil
+#### ¿No encuentras solución o no te ayuda?
 
 ¿Sigues teniendo problemas después de intentar solucionarlos? En ese caso, nuestro equipo de soporte está disponible todos los días para ayudarte. Simplemente crea un **[Ticket](https://zap-hosting.com/en/customer/support/)** en nuestra web y explícanos tu problema con la mayor cantidad de detalles posible. Lo revisaremos lo antes posible y te ayudaremos a resolverlo.
 
@@ -69,7 +69,7 @@ La falta de visibilidad del servidor puede ocurrir si la inicialización no se c
 
 ## Conclusión
 
-¡Felicidades! Si seguiste todo correctamente, deberías haber establecido la conexión al servidor con éxito. Para más preguntas o ayuda, no dudes en contactar a nuestro equipo de soporte, que está disponible todos los días para asistirte 🙂
+¡Felicidades! Si seguiste todo correctamente, deberías haber establecido la conexión con el servidor exitosamente. Para más preguntas o ayuda, no dudes en contactar a nuestro equipo de soporte, que está disponible todos los días para asistirte 🙂
 
 
 

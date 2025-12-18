@@ -13,7 +13,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 
 ## Introdução
-Não sabe como se conectar ao seu **Counter-Strike: Source** ou o que precisa para começar? Relaxa, a gente te ajuda! Vamos te guiar por tudo que você precisa – desde as ferramentas e informações necessárias até o processo real de conexão, junto com dicas importantes para garantir uma conexão tranquila e sem problemas. Siga nosso guia e você estará conectado rapidinho!
+Não sabe como se conectar ao seu **Counter-Strike: Source** ou o que precisa para começar? Relaxa, a gente te ajuda! Vamos te guiar por tudo que você precisa. Desde as ferramentas e informações necessárias até o processo real de conexão, além de dicas importantes para garantir uma conexão suave e sem problemas. Siga nosso guia e você estará conectado rapidinho!
 
 <InlineVoucher />
 
@@ -21,7 +21,7 @@ Não sabe como se conectar ao seu **Counter-Strike: Source** ou o que precisa pa
 
 ## Obtenha os dados do servidor
 
-Você vai precisar de todas as informações relevantes para se conectar ao seu servidor. Os dados do seu servidor podem ser encontrados no dashboard do painel web do seu servidor de jogos. As informações importantes incluem:
+Você vai precisar de todas as informações relevantes para se conectar ao seu servidor. Os dados do seu servidor podem ser encontrados no dashboard do painel web do seu servidor de jogos. Informações importantes incluem:
 
 - Endereço IP e porta
 - Nome do servidor
@@ -48,7 +48,7 @@ Para se conectar ao seu servidor via o navegador de servidores dentro do jogo, a
 
 Para se conectar ao seu servidor via o navegador de servidores do Steam, abra o navegador pelo Steam. Clique em `Visualizar` no topo da navegação do Steam e depois na seção `Servidor de Jogos` para abrir.
 
-Procure ou adicione seu servidor usando o navegador do Steam com o `endereço IP` e a `porta` do seu servidor de jogos. Para isso, selecione a aba `Favoritos` na lista de servidores e clique no símbolo de mais na parte inferior. Uma janela pop-up vai abrir para você especificar as informações do seu servidor.
+Busque ou adicione seu servidor usando o `endereço IP` e a `porta` do seu servidor de jogos. Para isso, selecione a aba `Favoritos` na lista de servidores e clique no símbolo de mais na parte inferior. Uma janela pop-up vai abrir para você especificar as informações do seu servidor.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/MMsokw2ZyCreeCN/download)
 
@@ -75,7 +75,7 @@ A conexão a um servidor de jogos pode ser feita de uma ou mais formas. Os méto
 
 #### Não aparece na lista
 
-A falta de visibilidade do servidor pode acontecer se a inicialização não foi concluída com sucesso. Isso pode ser causado por uma configuração errada ou arquivos corrompidos. Mais informações geralmente podem ser encontradas no console do servidor ou nos arquivos de log.
+A falta de visibilidade do servidor pode acontecer se a inicialização não foi concluída com sucesso. Isso pode ser causado, por exemplo, por uma configuração errada ou arquivos corrompidos. Mais informações geralmente podem ser encontradas no console do servidor ou nos arquivos de log.
 
 
 

@@ -60,5 +60,5 @@ Gracias al rendimiento, los permisos completos y las posibilidades que esto ofre
 - Virtualizaciones
 
 ## Preguntas Frecuentes
-¿Tienes más preguntas sobre nuestro producto de servidor dedicado? Obtén respuestas a todo lo que quieres saber sobre características, beneficios, configuración y cómo usarlo de forma efectiva. Así obtienes la info que necesitas para sacarle el máximo provecho a nuestro producto de servidor dedicado. Y si algo sigue sin quedar claro, solo contáctanos y estamos aquí para ayudarte al instante.
-<SearchableAccordion items={items} locale="es" />
+¿Tienes más preguntas sobre nuestro producto de servidor dedicado? Obtén respuestas a todo lo que quieras saber sobre características, beneficios, configuración y cómo usarlo de forma efectiva. Así tendrás la info que necesitas para sacarle el máximo provecho a nuestro producto de servidor dedicado. Y si algo sigue sin estar claro, solo contáctanos y estaremos aquí para ayudarte al instante.
+<SearchableAccordion items={items} />

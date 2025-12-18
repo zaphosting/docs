@@ -1,7 +1,7 @@
 ---
 id: icarus-firststeps-connect
 title: "Icarus: Conéctate al servidor"
-description: "Descubre cómo conectarte sin problemas a tu servidor de Icarus y asegurar una experiencia de juego fluida → Aprende más ahora"
+description: "Descubre cómo conectarte sin problemas a tu servidor de Icarus y asegura una experiencia de juego fluida → Aprende más ahora"
 sidebar_label: Conéctate al servidor
 services:
   - gameserver-icarus
@@ -13,15 +13,15 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 
 ## Introducción
-¿No sabes cómo conectarte a tu servidor de **Icarus** o qué necesitas para empezar? No te preocupes, ¡te tenemos cubierto! Te guiaremos por todo lo que necesitas: desde las herramientas e información necesarias hasta el proceso real de conexión, junto con consideraciones clave para asegurar una experiencia de conexión fluida y sin problemas. Sigue nuestra guía y estarás conectado en un abrir y cerrar de ojos.
+¿No sabes cómo conectarte a tu servidor de **Icarus** o qué necesitas para empezar? ¡No te preocupes, aquí te ayudamos! Te guiaremos por todo lo que necesitas. Desde las herramientas e información necesarias hasta el proceso real de conexión, junto con consideraciones clave para asegurar una experiencia de conexión fluida y sin problemas. Sigue nuestra guía y estarás conectado en un abrir y cerrar de ojos.
 
 <InlineVoucher />
 
 
 
-## Obtén los detalles del servidor
+## Obtén los datos del servidor
 
-Vas a necesitar toda la información relevante para conectarte a tu servidor. La información sobre tu servidor la puedes encontrar en el panel web de tu servidor de juegos. La información importante incluye lo siguiente:
+Vas a necesitar toda la información relevante para conectarte a tu servidor. Los datos de tu servidor los puedes encontrar en el panel web de tu servidor de juegos, en el panel. La información importante incluye lo siguiente:
 
 - Dirección IP y puerto
 - Nombre del servidor
@@ -64,11 +64,11 @@ La conexión a un servidor de juegos a menudo se puede establecer de una o más 
 
 #### No visible
 
-La falta de visibilidad del servidor puede ocurrir si la inicialización no se completó con éxito. Esto puede deberse, por ejemplo, a una configuración incorrecta o archivos corruptos. Normalmente, más información se puede encontrar en la consola del servidor o en los archivos de registro.
+La falta de visibilidad del servidor puede ocurrir si la inicialización no se completó con éxito. Esto puede deberse, por ejemplo, a una configuración errónea o archivos corruptos. Normalmente, más información se puede encontrar en la consola del servidor o en los archivos de registro.
 
 
 
-#### Solución faltante o no útil
+#### Solución faltante o poco útil
 
 ¿Sigues teniendo problemas después de intentar solucionarlos? En ese caso, nuestro equipo de soporte está disponible todos los días para ayudarte. Simplemente crea un **[Ticket](https://zap-hosting.com/en/customer/support/)** en nuestra web y explícanos tu problema con la mayor cantidad de detalles posible. Lo revisaremos lo antes posible y te ayudaremos a resolverlo.
 

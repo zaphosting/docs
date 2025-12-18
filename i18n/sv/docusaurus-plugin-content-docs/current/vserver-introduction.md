@@ -13,7 +13,7 @@ import items from '@site/data/faqs/vserver-introduction.json';
 
 ## Introduktion
 
-Letar du efter en egen server med kraftfull konfiguration till ett schysst pris? Då är ZAP-Hosting rätt ställe för dig! Hos ZAP-Hosting kan du hyra eller köpa din perfekta VPS för en maxad prestandaupplevelse för många olika användningsområden!
+Letar du efter en egen server med kraftfull konfiguration till ett schysst pris? Då är ZAP-Hosting rätt plats för dig! Hos ZAP-Hosting kan du hyra eller köpa din perfekta VPS för en maxad prestandaupplevelse för många olika användningsområden!
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/6cCD5TmrwXgtayy/preview)
 
@@ -35,7 +35,7 @@ Vi erbjuder olika konfigurationsmöjligheter för vår VPS-produkt som passar al
 | **CPU-kärnor**              | 4-64 kärnor |
 | **Minne**              | 4-128 GB RAM     |
 | **Diskutrymme**               | 25-2000 GB                                   |
-| **Operativsystem** | Debian (11,12,13), Ubuntu (20.04,22.04,24.04), Windows Server 2022/2025 och egna ISO-filer |
+| **Operativsystem** | Debian (11,12,13) Ubuntu (20.04,22.04,24.04), Windows Server 2022/2025 och egna ISO-filer |
 | **IP-adresser** | 1-10 IP-adresser  |
 | **Bandbredd**     | 1.000-5.000 Mbit/s upp/ner |
 | **Trafik**                      | 33 TB/månad       |
@@ -44,16 +44,16 @@ Vi erbjuder olika konfigurationsmöjligheter för vår VPS-produkt som passar al
 
 ## Användningsområden
 
-Tack vare det schyssta priset, prestandan, de omfattande åtkomsträttigheterna och de möjligheter det ger kan en Webspace användas för flera olika ändamål, bland annat:
+Tack vare det schyssta priset, prestandan, de omfattande åtkomsträttigheterna och de möjligheter det ger kan en webspace användas för flera olika ändamål, bland annat:
 
 - Webbplatser
 - Databaser
 - Molnlösningar
-- Spel- och röstservrar
+- Game- och röstservrar
 - och mycket mer!
 
 ## Vanliga frågor
 Har du fler frågor om vår VPS-produkt? Få svar på allt du vill veta om funktioner, fördelar, installation och hur du använder den effektivt. På så sätt får du all info du behöver för att maxa din VPS. Och om något fortfarande är oklart, hör bara av dig så hjälper vi dig direkt.
-<SearchableAccordion items={items} locale="sv" />
+<SearchableAccordion items={items} locale="en" />
 
 <InlineVoucher />

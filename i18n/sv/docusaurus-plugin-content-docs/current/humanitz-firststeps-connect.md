@@ -1,7 +1,7 @@
 ---
 id: humanitz-firststeps-connect
 title: "HumanitZ: Anslut till servern"
-description: "Upptäck hur du smidigt ansluter till din HumanitZ-server och felsöker vanliga problem för en grym spelupplevelse → Läs mer nu"
+description: "Upptäck hur du smidigt ansluter till din HumanitZ-server och felsöker vanliga problem för en grym spelupplevelse → Lär dig mer nu"
 sidebar_label: Anslut till servern
 services:
   - gameserver-humanitz
@@ -14,7 +14,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 
 ## Introduktion
-Osäker på hur du ansluter till din **HumanitZ**-server eller vad du behöver för att komma igång? Ingen fara, vi har dig! Vi guidar dig genom allt du behöver – från nödvändiga verktyg och info till själva anslutningsprocessen, plus viktiga saker att tänka på för en smidig och problemfri anslutning. Följ vår guide så är du igång på nolltid!
+Osäker på hur du ansluter till din **HumanitZ**-server eller vad du behöver för att komma igång? Ingen fara, vi har dig! Vi guidar dig genom allt du behöver. Från nödvändiga verktyg och info till själva anslutningsprocessen, plus viktiga saker att tänka på för en smidig och problemfri anslutning. Följ vår guide så är du igång på nolltid!
 
 <InlineVoucher />
 
@@ -23,7 +23,7 @@ Osäker på hur du ansluter till din **HumanitZ**-server eller vad du behöver f
 ## Skaffa serveruppgifter
 
 
-Du behöver all relevant info för att ansluta till din server. Serverinformationen hittar du i kontrollpanelen för din gameserver. Viktig info inkluderar:
+Du behöver all relevant info för att ansluta till din server. Informationen om din server hittar du på kontrollpanelen i ditt spelserver-webbgränssnitt. Viktig info inkluderar:
 
 - IP-adress och port
 - Servernamn
@@ -37,7 +37,7 @@ Med info ovan ska du enkelt kunna hitta din server och se till att du ansluter t
 ## Anslut till servern
 
 
-En anslutning till en gameserver kan ofta göras på flera sätt. De tillgängliga metoderna beskrivs och förklaras i detalj nedan.
+Anslutningen till en spelserver kan ofta göras på ett eller flera sätt. Tillgängliga metoder beskrivs och förklaras i detalj nedan.
 
 <Tabs>
     <TabItem value="connect_solution_server_browser_ingame" label="Server Browser (I spelet)" default>
@@ -56,9 +56,9 @@ För att ansluta till din server via den inbyggda serverbläddraren i spelet, ö
 ## Vanliga problem och lösningar
 
 
-En anslutning till en gameserver kan ofta göras på flera sätt. De tillgängliga metoderna beskrivs och förklaras i detalj nedan.
+Anslutningen till en spelserver kan ofta göras på ett eller flera sätt. Tillgängliga metoder beskrivs och förklaras i detalj nedan.
 
-#### Servern syns inte
+#### Syns inte
 
 
 Om servern inte syns kan det bero på att uppstarten inte slutfördes korrekt. Det kan till exempel bero på felaktig konfiguration eller korrupta filer. Mer info hittar du oftast i serverkonsolen eller loggfilerna.
@@ -68,7 +68,7 @@ Om servern inte syns kan det bero på att uppstarten inte slutfördes korrekt. D
 #### Saknas lösning eller hjälper inte
 
 
-Har du fortfarande problem efter felsökning? Då finns vårt supportteam tillgängligt varje dag för att hjälpa dig. Skapa enkelt ett **[Ticket](https://zap-hosting.com/en/customer/support/)** på vår webbplats och förklara ditt problem så detaljerat som möjligt. Vi kollar på det så snabbt vi kan och hjälper dig att lösa det!
+Har du fortfarande problem efter felsökning? Då finns vårt supportteam tillgängligt varje dag för att hjälpa dig. Skapa bara en **[Ticket](https://zap-hosting.com/en/customer/support/)** på vår webbplats och förklara ditt problem så detaljerat som möjligt. Vi kollar på det så snabbt vi kan och hjälper dig att lösa det!
 
 
 

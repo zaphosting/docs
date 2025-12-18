@@ -13,7 +13,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 
 ## Introduction
-Tu ne sais pas comment te connecter à ton **serveur de jeux Wreckfest 2** ou ce qu’il te faut pour commencer ? Pas de stress, on est là pour toi ! On va te guider pas à pas – des outils et infos nécessaires jusqu’au processus de connexion, en passant par les points clés pour assurer une connexion fluide et sans galère. Suis notre guide et tu seras connecté en un rien de temps !
+Vous ne savez pas comment vous connecter à votre **serveur de jeux Wreckfest 2** ou ce dont vous avez besoin pour commencer ? Pas de stress, on s’occupe de tout ! On va vous guider pas à pas. Des outils et infos nécessaires jusqu’au processus de connexion, en passant par les points clés pour garantir une connexion fluide et sans galère. Suivez notre guide et vous serez connecté en un rien de temps !
 
 <InlineVoucher />
 
@@ -22,12 +22,12 @@ Tu ne sais pas comment te connecter à ton **serveur de jeux Wreckfest 2** ou ce
 ## Obtenir les infos du serveur
 
 
-Tu auras besoin de toutes les infos importantes pour te connecter à ton serveur. Ces infos se trouvent dans le tableau de bord de ton panneau web du serveur de jeux. Les infos clés sont les suivantes :
+Vous aurez besoin de toutes les infos nécessaires pour vous connecter à votre serveur. Ces infos se trouvent dans le tableau de bord de votre panneau web du serveur de jeux. Les infos importantes incluent :
 
 - Adresse IP et port
 
 
-Avec ces infos, tu devrais pouvoir localiser ton serveur et t’assurer de te connecter au bon serveur.
+Avec ces infos, vous pourrez localiser votre serveur et vous assurer de vous connecter au bon serveur.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/woXJxHmSDgc6Tna/preview)
 
@@ -39,7 +39,7 @@ La connexion à un serveur de jeux peut souvent se faire de plusieurs façons. L
 <Tabs>
     <TabItem value="connect_solution_direct_ingame" label="Connexion directe (In game)" default>
 
-Pour te connecter à ton serveur via le navigateur de serveurs intégré au jeu, ouvre le navigateur de serveurs dans le menu principal. Une fois là, clique sur **Se connecter à une adresse** à gauche. Remplis l’adresse IP et le port de ton serveur, puis clique sur **Ok** pour établir la connexion.
+Pour vous connecter à votre serveur via le navigateur de serveurs intégré au jeu, ouvrez le navigateur de serveurs dans le menu principal. Une fois là, cliquez sur **Se connecter à une adresse** à gauche. Remplissez l’adresse IP et le port de votre serveur, puis cliquez sur **Ok** pour établir la connexion.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/MrQY8DKQKFz2sSn/download)
 
@@ -57,18 +57,18 @@ La connexion à un serveur de jeux peut souvent se faire de plusieurs façons. L
 #### Serveur non visible
 
 
-Le serveur peut ne pas être visible si l’initialisation n’a pas été complétée avec succès. Cela peut par exemple venir d’une mauvaise configuration ou de fichiers corrompus. Plus d’infos peuvent généralement être trouvées dans la console du serveur ou les fichiers logs.
+Le serveur peut ne pas être visible si l’initialisation n’a pas été complétée avec succès. Cela peut être dû, par exemple, à une mauvaise configuration ou à des fichiers corrompus. Vous trouverez généralement plus d’infos dans la console du serveur ou les fichiers logs.
 
 
 
 #### Solution manquante ou pas utile
 
 
-Tu as toujours des soucis après avoir essayé ? Pas de panique, notre équipe support est dispo tous les jours pour t’aider. Crée simplement un **[Ticket](https://zap-hosting.com/en/customer/support/)** sur notre site et explique-nous ton problème avec un max de détails. On regardera ça au plus vite et on t’aidera à résoudre le souci !
+Vous avez toujours des soucis après avoir essayé ? Pas de panique, notre équipe support est dispo tous les jours pour vous aider. Il vous suffit de créer un **[Ticket](https://zap-hosting.com/en/customer/support/)** sur notre site et de nous expliquer votre problème avec un max de détails. On s’en occupera au plus vite et on vous aidera à régler ça !
 
 ## Conclusion
 
-Félicitations, si tu as suivi tout ça, tu devrais être connecté à ton serveur sans problème. Pour toute question ou besoin d’aide, n’hésite pas à contacter notre support, dispo tous les jours pour te filer un coup de main ! 🙂
+Félicitations, si vous avez suivi toutes les étapes, vous devriez être connecté avec succès à votre serveur. Pour toute question ou besoin d’aide, n’hésitez pas à contacter notre équipe support, disponible tous les jours pour vous accompagner ! 🙂
 
 
 

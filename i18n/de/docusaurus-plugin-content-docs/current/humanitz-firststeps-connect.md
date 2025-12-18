@@ -14,7 +14,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 
 ## Einführung
-Du bist dir nicht sicher, wie du dich mit deinem **HumanitZ**-Server verbindest oder was du dafür brauchst? Kein Stress, wir haben alles für dich am Start! Wir führen dich durch alles, was du brauchst – von den nötigen Tools und Infos bis hin zum eigentlichen Verbindungsprozess, inklusive wichtiger Tipps, damit alles smooth und ohne Probleme läuft. Folge unserer Anleitung und du bist im Handumdrehen verbunden!
+Du bist dir nicht sicher, wie du dich mit deinem **HumanitZ**-Server verbindest oder was du dafür brauchst? Kein Stress, wir haben alles für dich am Start! Wir führen dich durch alles, was du wissen musst. Von den nötigen Tools und Infos bis hin zum eigentlichen Verbindungsprozess – inklusive wichtiger Tipps, damit alles smooth und ohne Probleme läuft. Folge unserer Anleitung und du bist im Handumdrehen verbunden!
 
 <InlineVoucher />
 
@@ -23,7 +23,7 @@ Du bist dir nicht sicher, wie du dich mit deinem **HumanitZ**-Server verbindest 
 ## Serverdetails besorgen
 
 
-Du brauchst alle wichtigen Infos, um dich mit deinem Server zu verbinden. Die Infos zu deinem Server findest du im Dashboard deines Gameserver-Webinterface-Panels. Wichtige Details sind:
+Du brauchst alle relevanten Infos, um dich mit deinem Server zu verbinden. Die Infos zu deinem Server findest du im Dashboard deines Gameserver-Webinterface-Panels. Wichtige Infos sind unter anderem:
 
 - IP-Adresse und Port
 - Servername
@@ -40,9 +40,9 @@ Mit den oben genannten Infos solltest du deinen Server finden und sicherstellen 
 Die Verbindung zu einem Gameserver kann oft auf eine oder mehrere Arten hergestellt werden. Die verfügbaren Methoden werden unten detailliert beschrieben und erklärt.
 
 <Tabs>
-    <TabItem value="connect_solution_server_browser_ingame" label="Server Browser (Im Spiel)" default>
+    <TabItem value="connect_solution_server_browser_ingame" label="Serverbrowser (Im Spiel)" default>
 
-Um dich über den Ingame-Serverbrowser mit deinem Server zu verbinden, öffne den Serverbrowser im Hauptmenü. Klicke dazu auf **Spielen**, gehe zu **Multiplayer** und drücke auf **Server finden**. Suche dort nach deinem Server anhand des Servernamens und klicke dann auf **Server beitreten**.
+Um dich über den Serverbrowser im Spiel zu verbinden, öffne den Serverbrowser im Hauptmenü. Klicke dazu auf **Spielen**, gehe zu **Mehrspieler** und drücke auf **Server finden**. Sobald du dort bist, suche deinen Server mit dem Servernamen und klicke dann auf **Server beitreten**.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/LxqpeHckmkrQaYG/download)
 
@@ -74,7 +74,7 @@ Du hast nach der Fehlerbehebung immer noch Probleme? Kein Ding, unser Support-Te
 
 ## Fazit
 
-Glückwunsch, wenn du alles befolgt hast, solltest du jetzt erfolgreich mit dem Server verbunden sein. Bei weiteren Fragen oder wenn du Hilfe brauchst, zögere nicht, unser Support-Team zu kontaktieren – wir sind täglich für dich da! 🙂
+Glückwunsch, wenn du alles befolgt hast, solltest du jetzt erfolgreich mit dem Server verbunden sein. Für weitere Fragen oder Hilfe steht dir unser Support-Team täglich zur Verfügung! 🙂
 
 
 

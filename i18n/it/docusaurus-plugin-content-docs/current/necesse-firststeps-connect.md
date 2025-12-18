@@ -1,8 +1,8 @@
 ---
 id: necesse-firststeps-connect
-title: "Necesse: Connessione al server"
-description: "Scopri come connetterti al tuo server Necesse senza intoppi e risolvi i problemi più comuni per un’esperienza di gioco fluida → Scopri di più ora"
-sidebar_label: Connessione al server
+title: "Necesse: Connettiti al server"
+description: "Scopri come connetterti al tuo server Necesse senza intoppi e risolvi i problemi comuni per un'esperienza di gioco fluida → Scopri di più ora"
+sidebar_label: Connettiti al server
 services:
   - gameserver-necesse
 ---
@@ -14,7 +14,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 
 ## Introduzione
-Non sai come connetterti al tuo server **Necesse** o cosa ti serve per iniziare? Nessun problema, ci pensiamo noi! Ti guideremo passo passo su tutto il necessario – dagli strumenti e le info richieste fino al processo di connessione vero e proprio, con i punti chiave per garantirti una connessione liscia e senza intoppi. Segui la nostra guida e sarai connesso in un attimo!
+Non sai come connetterti al tuo server **Necesse** o cosa ti serve per iniziare? Nessun problema, ci pensiamo noi! Ti guideremo passo passo su tutto il necessario. Dagli strumenti e le info richieste fino al processo di connessione vero e proprio, con i punti chiave per garantirti una connessione liscia e senza intoppi. Segui la nostra guida e sarai connesso in un attimo!
 
 <InlineVoucher />
 
@@ -36,7 +36,7 @@ Con queste info dovresti riuscire a trovare il tuo server e assicurarti di conne
 ## Stabilisci la connessione al server
 
 
-La connessione a un game server può essere fatta in uno o più modi. Qui sotto trovi i metodi disponibili spiegati nel dettaglio.
+La connessione a un game server può spesso essere fatta in uno o più modi. I metodi disponibili sono descritti e spiegati nel dettaglio qui sotto.
 
 <Tabs>
     <TabItem value="connect_solution_server_browser_ingame" label="Server Browser (In game)" default>
@@ -54,24 +54,24 @@ Per connetterti al tuo server, apri il gioco e vai su **Multiplayer** nel menu p
 ## Problemi comuni e soluzioni
 
 
-La connessione a un game server può essere fatta in uno o più modi. Qui sotto trovi i metodi disponibili spiegati nel dettaglio.
+La connessione a un game server può spesso essere fatta in uno o più modi. I metodi disponibili sono descritti e spiegati nel dettaglio qui sotto.
 
 #### Server non visibile
 
 
-Il server potrebbe non essere visibile se l’inizializzazione non è andata a buon fine. Questo può succedere per esempio a causa di una configurazione errata o file corrotti. Di solito puoi trovare maggiori dettagli nella console del server o nei file di log.
+Il server potrebbe non essere visibile se l’inizializzazione non è andata a buon fine. Questo può succedere per una configurazione errata o file corrotti. Di solito puoi trovare più info nella console del server o nei file di log.
 
 
 
 #### Nessuna soluzione o non utile
 
 
-Hai ancora problemi dopo aver provato a risolverli? Nessun problema, il nostro supporto è disponibile tutti i giorni per aiutarti. Basta aprire un **[Ticket](https://zap-hosting.com/en/customer/support/)** sul nostro sito e spiegarci il problema con più dettagli possibile. Daremo un’occhiata il prima possibile e ti aiuteremo a risolvere tutto!
+Hai ancora problemi dopo aver provato a risolverli? Nessun problema, il nostro supporto è disponibile ogni giorno per aiutarti. Basta aprire un **[Ticket](https://zap-hosting.com/en/customer/support/)** sul nostro sito e spiegarci il problema con più dettagli possibili. Daremo un’occhiata il prima possibile e ti aiuteremo a risolvere tutto!
 
 
 
 ## Conclusione
 
-Complimenti, se hai seguito tutto dovresti essere connesso al server senza problemi. Per altre domande o supporto, non esitare a contattare il nostro team di supporto, sempre disponibile ogni giorno per darti una mano! 🙂
+Complimenti, se hai seguito tutto dovresti essere connesso al server senza problemi. Per altre domande o supporto, non esitare a contattare il nostro team di assistenza, sempre disponibile ogni giorno per darti una mano! 🙂
 
 <InlineVoucher />

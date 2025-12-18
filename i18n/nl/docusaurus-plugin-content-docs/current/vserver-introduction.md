@@ -44,7 +44,7 @@ We bieden verschillende configuratie-opties voor ons VPS-product, zodat er voor 
 
 ## Toepassingsgebieden
 
-Door de scherpe prijs, performance, uitgebreide toegangsrechten en de bijbehorende mogelijkheden, kan een Webspace voor verschillende toepassingen worden ingezet, zoals:
+Door de scherpe prijs, performance, uitgebreide toegangsrechten en de bijbehorende mogelijkheden, kan een VPS voor verschillende toepassingen worden ingezet, zoals:
 
 - Websites
 - Databases
@@ -54,6 +54,6 @@ Door de scherpe prijs, performance, uitgebreide toegangsrechten en de bijbehoren
 
 ## Veelgestelde Vragen
 Heb je nog meer vragen over ons VPS-product? Vind hier antwoorden op alles wat je wilt weten over features, voordelen, installatie en hoe je het effectief gebruikt. Zo krijg je alle info die je nodig hebt om het maximale uit onze VPS te halen. En als er toch iets onduidelijk is, neem gewoon contact op, we helpen je direct verder.
-<SearchableAccordion items={items} locale="nl" />
+<SearchableAccordion items={items} locale="en" />
 
 <InlineVoucher />

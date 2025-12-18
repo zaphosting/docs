@@ -2,7 +2,7 @@
 id: humanitz-firststeps-connect
 title: "HumanitZ: Conecte-se ao servidor"
 description: "Descubra como se conectar facilmente ao seu servidor HumanitZ e solucionar problemas comuns para uma experiência de jogo tranquila → Saiba mais agora"
-sidebar_label: Conecte-se ao servidor
+sidebar_label: Conectar ao servidor
 services:
   - gameserver-humanitz
 ---
@@ -14,7 +14,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 
 ## Introdução
-Não sabe como se conectar ao seu servidor **HumanitZ** ou o que precisa para começar? Relaxa, a gente te ajuda! Vamos te guiar por tudo que você precisa – desde as ferramentas e informações necessárias até o processo real de conexão, junto com pontos importantes para garantir uma conexão suave e sem problemas. Siga nosso guia e você estará conectado rapidinho!
+Não sabe como se conectar ao seu servidor **HumanitZ** ou o que precisa para começar? Relaxa, a gente te ajuda! Vamos te guiar por tudo que você precisa. Desde as ferramentas e informações necessárias até o processo real de conexão, junto com pontos importantes para garantir uma conexão tranquila e sem estresse. Siga nosso guia e você estará conectado rapidinho!
 
 <InlineVoucher />
 
@@ -74,7 +74,7 @@ Ainda com problemas depois de tentar resolver? Nesse caso, nosso time de suporte
 
 ## Conclusão
 
-Parabéns, se você seguiu tudo direitinho, já deve ter conseguido se conectar ao servidor. Para dúvidas ou ajuda, não hesite em contatar nosso time de suporte, que está disponível todos os dias para te ajudar! 🙂
+Parabéns, se você seguiu tudo direitinho, já deve ter conseguido se conectar ao servidor. Para mais dúvidas ou ajuda, não hesite em contatar nosso time de suporte, que está disponível diariamente para te ajudar! 🙂
 
 
 

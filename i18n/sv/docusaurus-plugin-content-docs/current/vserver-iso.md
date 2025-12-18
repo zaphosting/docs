@@ -14,7 +14,7 @@ import SearchableItemList from '@site/src/components/SearchableItemList/Searchab
 import items from '@site/data/lists/vserver-iso-files-en.json';
 
 ## Introduktion
-Vill du ha ännu mer frihet när du väljer system? Utöver våra OS-mallar kan du såklart montera dina egna ISO-filer. Det är superenkelt med våra VPS-produkter. På så sätt får du exakt det operativsystem på din server som du verkligen vill ha!
+Vill du ha ännu mer frihet när du väljer system? Utöver våra OS-mallar kan du självklart montera dina egna ISO-filer. Det är superenkelt med våra VPS-produkter. På så sätt får du precis det operativsystem på din server som du verkligen vill ha!
 
 <InlineVoucher />
 
@@ -27,7 +27,7 @@ Utöver våra förkonfigurerade standard-OS-mallar erbjuder vi även möjlighete
 <SearchableItemList items={items} />
 
 :::info Saknas en ISO-fil?
-Finns det en specifik ISO du vill använda som inte finns tillgänglig? Kontakta bara vårt supportteam – vi kollar gärna om vi kan lägga till den åt dig.
+Finns det en specifik ISO du vill använda som inte finns tillgänglig? Kontakta bara vårt supportteam, så kollar vi gärna om vi kan lägga till den åt dig.
 :::
 
 
@@ -45,7 +45,7 @@ Efter omstarten kan du ansluta till din server med VNC-klienten och börja insta
 
 :::warning Online-status eller fjärranslutningar efter ISO-montering
 
-Efter att du monterat en ISO är din server ännu inte konfigurerad. Därför visas ingen **online-status** i panelen, och **RDP** eller **SSH-anslutningar** är inte tillgängliga. Dessa blir tillgängliga först när operativsystemet är installerat och konfigurerat.
+Efter att ha monterat en ISO är din server ännu inte konfigurerad. Därför visas ingen **online-status** i panelen, och **RDP** eller **SSH-anslutningar** är inte tillgängliga. Dessa blir tillgängliga först när operativsystemet har installerats och konfigurerats framgångsrikt.
 
 :::
 

@@ -14,7 +14,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 
 ## Einführung
-Du bist dir nicht sicher, wie du dich mit deinem **Garry's Mod** Gameserver verbindest oder was du dafür brauchst? Kein Stress, wir helfen dir! Wir zeigen dir alles, was du brauchst – von den nötigen Tools und Infos bis hin zum eigentlichen Verbindungsprozess, inklusive wichtiger Tipps, damit alles smooth und ohne Probleme läuft. Folge unserer Anleitung und du bist im Handumdrehen verbunden!
+Du bist dir nicht sicher, wie du dich mit deinem **Garry's Mod** Gameserver verbindest oder was du dafür brauchst? Kein Stress, wir haben alles für dich am Start! Wir zeigen dir Schritt für Schritt, was du brauchst – von den nötigen Tools und Infos bis hin zum eigentlichen Verbindungsprozess. Außerdem geben wir dir wichtige Tipps, damit alles smooth und ohne Probleme läuft. Folge unserer Anleitung und du bist im Handumdrehen verbunden!
 
 <InlineVoucher />
 
@@ -23,14 +23,14 @@ Du bist dir nicht sicher, wie du dich mit deinem **Garry's Mod** Gameserver verb
 ## Serverdetails besorgen
 
 
-Du brauchst alle wichtigen Infos, um dich mit deinem Server zu verbinden. Die Infos zu deinem Server findest du im Dashboard deines Gameserver-Webinterface-Panels. Wichtige Infos sind unter anderem:
+Du brauchst alle relevanten Infos, um dich mit deinem Server zu verbinden. Diese findest du im Dashboard deines Gameserver-Webinterface-Panels. Wichtige Infos sind:
 
 - IP-Adresse und Port
 - Servername
 - Serverpasswort (optional)
 
 
-Mit den oben genannten Infos solltest du deinen Server finden und sicherstellen können, dass du dich mit dem richtigen Server verbindest.
+Mit diesen Infos kannst du deinen Server finden und sicherstellen, dass du dich mit dem richtigen Server verbindest.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/5N3QkkcHneBCai4/preview)
 
@@ -54,7 +54,7 @@ Um dich über den Serverbrowser im Spiel zu verbinden, öffne den Serverbrowser 
 
 Um dich über den Steam-Serverbrowser zu verbinden, öffne den Serverbrowser in Steam. Klicke oben in der Steam-Navigation auf `Ansicht` und dann auf den Bereich `Game Server`, um ihn zu öffnen. 
 
-Suche oder füge deinen Server über den Steam-Browser hinzu, indem du die `IP-Adresse` und den `Port` deines Gameservers nutzt. Wähle dazu den Tab `Favoriten` in der Serverliste und klicke unten auf das Plus-Symbol. Es öffnet sich ein Pop-up, in dem du deine Serverdaten eingibst. 
+Suche oder füge deinen Server über den Steam-Browser hinzu, indem du die `IP-Adresse` und den `Port` deines Gameservers eingibst. Wähle dazu den Tab `Favoriten` in der Serverliste und klicke unten auf das Plus-Symbol. Es öffnet sich ein Pop-up, in dem du deine Serverdaten eingibst. 
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/MMsokw2ZyCreeCN/download)
 
@@ -96,7 +96,7 @@ Du hast nach der Fehlerbehebung immer noch Probleme? Kein Ding, unser Support-Te
 
 ## Fazit
 
-Glückwunsch, wenn du alles befolgt hast, solltest du jetzt erfolgreich mit dem Server verbunden sein. Bei weiteren Fragen oder wenn du Hilfe brauchst, zögere nicht, unser Support-Team zu kontaktieren – wir sind täglich für dich da! 🙂
+Glückwunsch, wenn du alles befolgt hast, solltest du jetzt erfolgreich mit dem Server verbunden sein. Bei weiteren Fragen oder wenn du Hilfe brauchst, zögere nicht, unseren Support zu kontaktieren – wir sind täglich für dich da! 🙂
 
 
 

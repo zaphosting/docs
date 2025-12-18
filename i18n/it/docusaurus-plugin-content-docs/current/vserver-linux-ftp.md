@@ -1,68 +1,66 @@
 ---
 id: vserver-linux-ftp
-title: "VPS: Il servizio FTP non funziona - Risoluzione problemi"
+title: "VPS: Servizio FTP non disponibile (Interfaccia GS/TS3)"
 description: "Scopri come risolvere e ripristinare l'accesso FTP sul tuo VPS quando i server di gioco o Teamspeak non sono raggiungibili → Scopri di più ora"
-sidebar_label: Il servizio FTP non funziona
+sidebar_label: Servizio FTP non disponibile
 services:
   - vserver
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
-<InlineVoucher />
+## Introduzione
 
-## Cosa fare se il server di gioco o Teamspeak non è raggiungibile via FTP?
+I servizi Gameserver e Teamspeak 3 creati tramite l'interfaccia GS/TS3 sono servizi completamente gestiti. L'accesso FTP è fornito tramite l'interfaccia e l'infrastruttura sottostante. Se l'accesso FTP non è possibile, la causa è solitamente legata allo stato del servizio, alla configurazione interna o a problemi lato infrastruttura, piuttosto che alle impostazioni locali del client FTP.
 
-:::info
-Attenzione: i passaggi seguenti funzionano solo sul tuo VPS se è stata installata l'interfaccia web ZAP!
+
+
+:::warning Servizio FTP fornito dall'interfaccia GS/TS3
+Questa guida si applica solo al servizio FTP che viene installato e gestito automaticamente quando si utilizza la funzione dell'interfaccia GS/TS3. Se l'interfaccia GS/TS3 non è installata, di default non viene configurato alcun server FTP sul sistema. In questo caso, l'accesso FTP non è disponibile a meno che non venga installato manualmente un servizio FTP.
 :::
 
-Se il server creato non è raggiungibile via FTP, nella maggior parte dei casi il servizio FTP (ProFTPD) non è attivo. In rari casi può dipendere da una configurazione errata o da una porta occupata, cioè la porta FTP 21 è usata/occupata da un altro programma.
+<InlineVoucher />
 
-## Controlla il problema FTP più nel dettaglio:
 
-### Verifica la disponibilità
-Puoi farlo facilmente usando il browser FTP nell’interfaccia web. Clicca su "FTP browser" nel menu sotto Strumenti del server interessato
 
-![](https://screensaver01.zap-hosting.com/index.php/s/GiqyC6G5cLsbSqp/preview)
+## Controlla lo stato di ProFTPD via SSH
 
-Poi premi una volta il pulsante "Connessione diretta".
-
-![](https://screensaver01.zap-hosting.com/index.php/s/ZSbrF5raYzdMgzZ/preview)
-
-Ora probabilmente vedrai questa schermata:
-
-![](https://screensaver01.zap-hosting.com/index.php/s/GtcCWfqadKGJoY7/preview)
-
-Dato che è chiaro che la connessione tramite WebFTP o tool FTP non funziona, devi dare un’occhiata più da vicino al servizio FTP sul VPS.
-
-### Controlla lo stato di ProFTPD
-
-Per farlo, connettiti al tuo server via SSH / Console e digita il comando "service proftpd status". Lo stato verrà letto e mostrato così:
-
-![](https://screensaver01.zap-hosting.com/index.php/s/TWqySPM3D5RmgYL/preview)
-
-Qui puoi vedere che lo stato è "dead", cioè il servizio è offline e quindi non raggiungibile.
-
-### Riavvia il servizio FTP
-Puoi riavviare il servizio FTP con questo comando:
+Connettiti al server tramite SSH o console e verifica lo stato attuale del servizio FTP con il comando:
 
 ```
-service proftpd start
+service proftpd status
 ```
 
-Se non ricevi risposta dopo aver eseguito il comando, di solito il servizio è di nuovo online/disponibile.
+L'output mostra se il servizio ProFTPD è attualmente attivo. Se il servizio risulta attivo o in esecuzione, il servizio FTP è disponibile e dovrebbe accettare connessioni in ingresso. In questo caso, il problema di solito non riguarda il demone FTP, ma potrebbe essere legato ai dati di accesso, alle regole del firewall o alla configurazione del client.
 
-Puoi verificarlo di nuovo con il comando "service proftpd status". Dovrebbe apparire così:
+Se lo stato è inattivo, terminato o fermo, il servizio FTP non è in esecuzione. Mentre il servizio è fermo, non è possibile stabilire connessioni FTP.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/iYxKMLJ2QfgzBKD/preview)
+## Riavvia il servizio FTP
 
-Ora che lo stato è "active" e non più "dead", puoi riprovare la connessione tramite tool FTP e WebFTP.
+Se il servizio ProFTPD non è in esecuzione, può essere avviato manualmente con il comando:
 
-### Riprova la connessione
-Ora dovresti riuscire a connetterti e vedere i tuoi dati.
+```
+service proftpd restart
+```
 
-### Problema risolto
-✅ Il servizio FTP (ProFTPD) è di nuovo avviato/attivo e nulla ostacola lo scambio dati!
+Dopo aver avviato o riavviato il servizio, verifica sempre di nuovo lo stato per confermare che ProFTPD stia funzionando correttamente. Se il servizio risulta attivo dopo il riavvio, l'accesso FTP dovrebbe essere di nuovo disponibile.
+
+
+
+## Cause comuni di problemi FTP
+
+I problemi di accesso FTP sono spesso causati dal servizio FTP non in esecuzione o fermo dopo un riavvio di sistema o un aggiornamento. Errori di configurazione possono impedire l'avvio corretto di ProFTPD. In alcuni casi, un altro servizio potrebbe già utilizzare la porta 21, impedendo al servizio FTP di legarsi alla porta richiesta. Problemi temporanei a livello di sistema o servizio possono anche causare l'arresto improvviso del servizio FTP.
+
+Se ProFTPD non si avvia o si ferma subito dopo l'avvio, è necessaria un'indagine più approfondita. In questi casi, è consigliato controllare i log di sistema o contattare il supporto.
+
+
+
+## Conclusione
+
+
+
+L'accesso FTP per i servizi gameserver GS/TS3 è gestito esclusivamente tramite l'interfaccia GS/TS3. Se i controlli standard non risolvono il problema, è necessario aprire un ticket di supporto. Fornire informazioni complete e precise aiuta a risolvere più velocemente. Per ulteriori domande o assistenza, non esitare a contattare il nostro team di supporto, disponibile ogni giorno per aiutarti! 🙂
+
+
 
 <InlineVoucher />

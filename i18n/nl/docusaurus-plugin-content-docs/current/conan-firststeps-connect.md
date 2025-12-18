@@ -14,7 +14,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 
 ## Introductie
-Weet je niet zeker hoe je verbinding maakt met je **Conan Exiles**-server of wat je nodig hebt om te starten? Geen zorgen, wij helpen je! We nemen je mee door alles wat je nodig hebt – van de benodigde tools en info tot het daadwerkelijke verbindingsproces, inclusief belangrijke aandachtspunten om een soepele en probleemloze verbinding te garanderen. Volg onze gids en je bent zo verbonden!
+Weet je niet zeker hoe je verbinding maakt met je **Conan Exiles**-server of wat je nodig hebt om te beginnen? Geen zorgen, wij helpen je! We nemen je mee door alles wat je nodig hebt. Van de benodigde tools en info tot het daadwerkelijke verbindingsproces, inclusief belangrijke aandachtspunten om een soepele en probleemloze verbinding te garanderen. Volg onze gids en je bent zo verbonden!
 
 <InlineVoucher />
 
@@ -23,7 +23,7 @@ Weet je niet zeker hoe je verbinding maakt met je **Conan Exiles**-server of wat
 ## Servergegevens ophalen
 
 
-Je hebt alle relevante info nodig om verbinding te maken met je server. De gegevens van je server vind je op het dashboard van het webinterfacepaneel van je game server. Belangrijke info is onder andere:
+Je hebt alle relevante informatie nodig om verbinding te maken met je server. De info over je server vind je op het dashboard van het webinterfacepaneel van je game server. Belangrijke gegevens zijn onder andere:
 
 - IP-adres en poort
 - Servernaam
@@ -41,7 +41,7 @@ De verbinding met een game server kan vaak op één of meerdere manieren worden 
 
 <Tabs>
 
-<TabItem value="connect_solution_server_browser_ingame" label="Server Browser (In-game)" default>
+<TabItem value="connect_solution_server_browser_ingame" label="Serverbrowser (In-game)" default>
 
 Om verbinding te maken met je server, ga je in het spel naar **Play Online**. Dit opent de serverlijst. In de serverlijst kun je zoeken op de naam van je server via het **naamveld**. Selecteer je server en klik op **Join**.
 
@@ -51,7 +51,7 @@ Om verbinding te maken met je server, ga je in het spel naar **Play Online**. Di
 
 <TabItem value="connect_solution_direct_ingame" label="Direct verbinden (In-game)" default>
 
-Om verbinding te maken met je server, ga je in het spel naar **Play Online**. De serverlijst opent. In plaats van te zoeken, kun je linksonder klikken op **Direct Connect** en verbinden met het IP-adres en de poort van je server.
+Om verbinding te maken met je server, ga je in het spel naar **Play Online**. De serverlijst opent. In plaats van te zoeken, kun je linksonder op **Direct Connect** klikken en verbinden via het IP-adres en de poort van je server.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/MHLKXGNaX8fTAge/download)
 
@@ -70,7 +70,7 @@ De verbinding met een game server kan vaak op één of meerdere manieren worden 
 #### Niet zichtbaar
 
 
-Als je server niet zichtbaar is, kan dat komen doordat de initialisatie niet succesvol is afgerond. Dit kan bijvoorbeeld door een verkeerde configuratie of corrupte bestanden. Meer info vind je meestal in de serverconsole of logbestanden.
+Als de server niet zichtbaar is, kan dat komen doordat de initialisatie niet succesvol is afgerond. Dit kan bijvoorbeeld door een verkeerde configuratie of corrupte bestanden komen. Meer info vind je meestal in de serverconsole of logbestanden.
 
 
 
@@ -83,7 +83,7 @@ Heb je nog steeds problemen na het proberen van de oplossingen? Geen stress, ons
 
 ## Conclusie
 
-Gefeliciteerd, als je alles gevolgd hebt, zou je nu succesvol verbonden moeten zijn met de server. Voor verdere vragen of hulp, aarzel niet om contact op te nemen met ons supportteam, dat dagelijks voor je klaarstaat! 🙂
+Gefeliciteerd, als je alles hebt gevolgd, zou je nu succesvol verbonden moeten zijn met de server. Voor verdere vragen of hulp, aarzel niet om contact op te nemen met ons supportteam, dat dagelijks voor je klaarstaat! 🙂
 
 
 

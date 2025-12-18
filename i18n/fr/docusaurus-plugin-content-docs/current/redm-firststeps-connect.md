@@ -13,29 +13,29 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 
 ## Introduction
-Tu ne sais pas comment te connecter à ton **serveur RedM** ou ce qu’il te faut pour commencer ? Pas de stress, on s’occupe de tout ! On va te guider pas à pas – des outils et infos nécessaires jusqu’au processus de connexion, avec les points clés pour assurer une connexion fluide et sans galère. Suis notre guide et tu seras connecté en un rien de temps !
+Vous ne savez pas comment vous connecter à votre **serveur de jeux RedM** ou ce dont vous avez besoin pour commencer ? Pas de stress, on s’occupe de tout ! On va vous guider à travers tout ce qu’il faut. Des outils et infos nécessaires jusqu’au processus de connexion, en passant par les points clés pour assurer une connexion fluide et sans galère. Suivez notre guide et vous serez connecté en un rien de temps !
 
 <InlineVoucher />
 
 
 ## Prérequis
 
-Un logiciel supplémentaire est nécessaire pour se connecter au serveur de jeux pour ce jeu. RedM exige que tu utilises leur client officiel. Pour télécharger le client, rends-toi sur le site officiel [Website](https://redm.net/) de **RedM (Cfx.re)**.
+Un logiciel supplémentaire est nécessaire pour se connecter au serveur de jeux pour ce jeu. RedM exige que vous utilisiez leur Client officiel. Pour télécharger le client, rendez-vous sur le site officiel [Website](https://redm.net/) de **RedM (Cfx.re)**.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/7NRnjo2PdgQPKP3/download)
 
-Le fichier `RedM.exe` sera téléchargé. Lance ensuite l’application. Une fois l’application chargée, l’Explorateur Windows s’ouvrira et tu devras sélectionner le dossier où le jeu `Red Dead Redemption 2` et le fichier `RDR2.exe` sont installés sur ton PC.
+Le fichier `RedM.exe` sera téléchargé. Lancez ensuite l’application. Une fois l’application chargée, l’Explorateur Windows s’ouvrira et vous devrez sélectionner le dossier où le jeu `Red Dead Redemption 2` et le fichier `RDR2.exe` sont installés sur votre PC.
 
 
 
 ## Obtenir les infos du serveur
 
-Tu auras besoin de toutes les infos nécessaires pour te connecter à ton serveur. Les infos sur ton serveur se trouvent dans le tableau de bord de ton panneau web de serveur de jeux. Les infos importantes sont les suivantes :
+Vous aurez besoin de toutes les infos nécessaires pour vous connecter à votre serveur. Ces infos se trouvent dans le tableau de bord de l’interface web de votre serveur de jeux. Les infos importantes incluent :
 
 - Adresse IP et port
 - Nom du serveur
 
-Avec ces infos, tu devrais pouvoir localiser ton serveur et t’assurer de te connecter au bon serveur.
+Avec ces infos, vous devriez pouvoir localiser votre serveur et vous assurer de vous connecter au bon serveur.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/9wWySCZdiHQt8Sj/preview)
 
@@ -46,7 +46,7 @@ La connexion à un serveur de jeux peut souvent se faire de plusieurs façons. L
 <Tabs>
     <TabItem value="connect_solution_server_browser_ingame" label="Navigateur de serveurs (In game)" default>
 
-Pour te connecter à ton serveur via le navigateur de serveurs intégré au jeu, ouvre-le dans le menu principal en cliquant sur l’option **Jouer**. Clique sur le champ de recherche et tape le nom de ton serveur de jeux. Clique sur le serveur trouvé puis sur le bouton **Connecter** dans la vue du serveur.
+Pour vous connecter à votre serveur via le navigateur de serveurs intégré au jeu, ouvrez-le dans le menu principal en cliquant sur l’option **Jouer**. Cliquez dans le champ de recherche et tapez le nom de votre serveur de jeux. Cliquez sur le serveur trouvé puis sur le bouton **Connecter** dans la vue du serveur.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/kZqRygE8m9P9HLJ/download)
 
@@ -56,7 +56,7 @@ Pour te connecter à ton serveur via le navigateur de serveurs intégré au jeu,
 
 <TabItem value="connect_solution3" label="Console (In game)">
 
-Pour te connecter à ton serveur via la console, ouvre la console avec la touche `F8`. Une fois la console ouverte, exécute la commande suivante :
+Pour vous connecter à votre serveur via la console, ouvrez la console avec la touche `F8`. Une fois la console ouverte, tapez la commande suivante : 
 
 ```
 connect IP:Port
@@ -75,15 +75,17 @@ La connexion à un serveur de jeux peut souvent se faire de plusieurs façons. L
 
 #### Serveur non visible
 
-Le serveur peut ne pas être visible si l’initialisation n’a pas été complétée avec succès. Cela peut être dû par exemple à une mauvaise configuration ou des fichiers corrompus. Plus d’infos peuvent généralement être trouvées dans la console du serveur ou les fichiers logs. En plus, vérifie qu’aucun filtre incorrect n’est activé dans la liste des serveurs, ce qui empêcherait l’affichage du serveur.
+Un serveur peut ne pas être visible si l’initialisation n’a pas été complétée avec succès. Cela peut être dû par exemple à une mauvaise configuration ou des fichiers corrompus. Plus d’infos peuvent généralement être trouvées dans la console du serveur ou les fichiers logs. En plus, vérifiez qu’aucun filtre incorrect n’est activé dans la liste des serveurs, ce qui empêcherait l’affichage du serveur.
 
 #### Solution manquante ou pas utile
 
-Tu as toujours des soucis après avoir essayé ? Pas de panique, notre équipe support est dispo tous les jours pour t’aider. Crée simplement un **[Ticket](https://zap-hosting.com/en/customer/support/)** sur notre site et explique-nous ton problème avec un max de détails. On regardera ça au plus vite et on t’aidera à résoudre le souci !
+Vous avez toujours des soucis après avoir essayé ? Pas de panique, notre équipe support est dispo tous les jours pour vous aider. Créez simplement un **[Ticket](https://zap-hosting.com/en/customer/support/)** sur notre site et expliquez-nous votre problème avec un max de détails. On jettera un œil rapidement et on vous aidera à régler ça au plus vite !
+
+
 
 ## Conclusion
 
-Félicitations, si tu as bien suivi tout ça, tu devrais être connecté avec succès au serveur. Pour toute question ou besoin d’aide, n’hésite pas à contacter notre équipe support, dispo tous les jours pour te filer un coup de main ! 🙂
+Félicitations, si vous avez suivi tout ça à la lettre, vous devriez être connecté avec succès au serveur. Pour toute question ou aide supplémentaire, n’hésitez pas à contacter notre équipe support, dispo tous les jours pour vous filer un coup de main ! 🙂
 
 
 

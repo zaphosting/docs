@@ -13,7 +13,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 
 ## Introductie
-Weet je niet zeker hoe je verbinding maakt met je **Longvinter** server of wat je nodig hebt om te starten? Geen stress, wij fixen het voor je! We nemen je stap voor stap mee – van de benodigde tools en info tot het daadwerkelijke verbindingsproces, inclusief belangrijke tips voor een soepele en probleemloze connectie. Volg onze gids en je bent zo verbonden!
+Weet je niet zeker hoe je verbinding maakt met je **Longvinter**-server of wat je nodig hebt om te starten? Geen stress, wij fixen het voor je! We nemen je stap voor stap mee. Van de benodigde tools en info tot het daadwerkelijke verbindingsproces, inclusief belangrijke tips voor een soepele en probleemloze connectie. Volg onze gids en je bent zo verbonden!
 
 <InlineVoucher />
 
@@ -36,9 +36,9 @@ Met bovenstaande info kun je je server vinden en zeker weten dat je met de juist
 De verbinding met een game server kan vaak op één of meerdere manieren worden gemaakt. De beschikbare methodes worden hieronder beschreven en uitgelegd.
 
 <Tabs>
-    <TabItem value="connect_solution_server_browser_ingame" label="Server Browser (In-game)" default>
+    <TabItem value="connect_solution_server_browser_ingame" label="Serverbrowser (In-game)" default>
 
-Om via de in-game server browser verbinding te maken met je server, open je de server browser in het hoofdmenu. Klik rechtsboven in de serverlijst op **Verbinden via IP** en voer het IP-adres en de poort van je server in. Bevestig met de `Enter`-knop om de verbinding tot stand te brengen.
+Om via de in-game serverbrowser verbinding te maken met je server, open je de serverbrowser in het hoofdmenu. Klik rechtsboven in de serverlijst op **Verbinden via IP** en voer het IP-adres en de poort van je server in. Bevestig met de `Enter`-toets om de verbinding tot stand te brengen.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/oWPNgNYRWqwqDzB/download)
 
@@ -55,7 +55,7 @@ De verbinding met een game server kan vaak op één of meerdere manieren worden 
 
 #### Niet zichtbaar
 
-Als je server niet zichtbaar is, kan dat komen doordat de initialisatie niet succesvol is afgerond. Dit kan bijvoorbeeld door een foutieve configuratie of corrupte bestanden. Meer info vind je meestal in de serverconsole of logbestanden.
+Als de server niet zichtbaar is, kan dat komen doordat de initialisatie niet succesvol is afgerond. Dit kan bijvoorbeeld door een foutieve configuratie of corrupte bestanden. Meer info vind je meestal in de serverconsole of logbestanden.
 
 
 
@@ -67,7 +67,7 @@ Heb je na het troubleshooten nog steeds problemen? Geen zorgen, ons supportteam 
 
 ## Conclusie
 
-Gefeliciteerd, als je alles goed hebt gevolgd, heb je nu succesvol verbinding gemaakt met de server. Voor verdere vragen of hulp, aarzel niet om contact op te nemen met ons supportteam, dat dagelijks voor je klaarstaat! 🙂
+Gefeliciteerd! Als je alles goed hebt gevolgd, zou je nu succesvol verbonden moeten zijn met de server. Heb je nog vragen of hulp nodig? Neem dan gerust contact op met ons supportteam, die dagelijks voor je klaarstaat! 🙂
 
 
 

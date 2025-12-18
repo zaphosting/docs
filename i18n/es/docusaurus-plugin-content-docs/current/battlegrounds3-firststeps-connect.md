@@ -1,7 +1,7 @@
 ---
 id: battlegrounds3-firststeps-connect
 title: "Battle Grounds III: Conéctate al servidor"
-description: "Descubre cómo conectarte a tu servidor de Battle Grounds III sin problemas y disfruta de una experiencia de juego ininterrumpida → Aprende más ahora"
+description: "Descubre cómo conectarte a tu servidor de Battle Grounds III sin problemas y disfruta de una jugabilidad ininterrumpida → Aprende más ahora"
 sidebar_label: Conéctate al servidor
 services:
   - gameserver
@@ -14,7 +14,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 
 ## Introducción
-¿No sabes cómo conectarte a tu **Battle Grounds III** o qué necesitas para empezar? No te preocupes, ¡te tenemos cubierto! Te guiaremos por todo lo que necesitas: desde las herramientas e información necesarias hasta el proceso de conexión en sí, junto con consideraciones clave para asegurar una conexión fluida y sin problemas. Sigue nuestra guía y estarás conectado en un abrir y cerrar de ojos.
+¿No sabes cómo conectarte a tu **Battle Grounds III** o qué necesitas para empezar? ¡No te preocupes, aquí te ayudamos! Te guiaremos por todo lo que necesitas. Desde las herramientas e información necesarias hasta el proceso real de conexión, junto con consideraciones clave para asegurar una experiencia de conexión fluida y sin problemas. Sigue nuestra guía y estarás conectado en un abrir y cerrar de ojos.
 
 <InlineVoucher />
 
@@ -23,7 +23,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 ## Obtén los datos del servidor
 
 
-Vas a necesitar toda la información relevante para conectarte a tu servidor. Los datos de tu servidor los puedes encontrar en el panel web del panel de control de tu servidor de juegos. La información importante incluye lo siguiente:
+Vas a necesitar toda la información relevante para conectarte a tu servidor. La información sobre tu servidor la puedes encontrar en el panel web del panel de control de tu servidor de juegos. La información importante incluye lo siguiente:
 
 - Dirección IP y puerto
 - Nombre del servidor
@@ -37,7 +37,7 @@ Con la información mencionada arriba, deberías poder localizar tu servidor y a
 ## Establece la conexión al servidor
 
 
-La conexión a un servidor de juegos a menudo se puede establecer de una o más maneras. Los métodos disponibles se describen y explican en detalle a continuación.
+La conexión a un servidor de juegos a menudo se puede establecer de una o más formas. Los métodos disponibles se describen y explican en detalle a continuación.
 
 <Tabs>
     <TabItem value="connect_solution_server_browser_ingame" label="Navegador de servidores (En el juego)" default>
@@ -54,7 +54,7 @@ Para conectarte a tu servidor a través del navegador de servidores dentro del j
 
 Para conectarte a tu servidor a través del navegador de servidores de Steam, abre el navegador desde Steam. Haz clic en `Ver` en la parte superior de la navegación de Steam y luego en la sección `Servidor de juegos` para abrirlo. 
 
-Busca o añade tu servidor usando el navegador de Steam con la `dirección IP` y el `puerto` de tu servidor de juegos. Para hacerlo, selecciona la pestaña `Favoritos` en la lista de servidores y haz clic en el símbolo de más en la parte inferior. Se abrirá una ventana emergente donde especificarás la información de tu servidor. 
+Busca o añade tu servidor mediante el navegador de Steam usando la `dirección IP` y el `puerto` de tu servidor de juegos. Para ello, selecciona la pestaña `Favoritos` en la lista de servidores y haz clic en el símbolo de más en la parte inferior. Se abrirá una ventana emergente donde especificarás la información de tu servidor. 
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/MMsokw2ZyCreeCN/download)
 
@@ -67,12 +67,12 @@ Busca o añade tu servidor usando el navegador de Steam con la `dirección IP` y
 ## Problemas potenciales y soluciones
 
 
-La conexión a un servidor de juegos a menudo se puede establecer de una o más maneras. Los métodos disponibles se describen y explican en detalle a continuación.
+La conexión a un servidor de juegos a menudo se puede establecer de una o más formas. Los métodos disponibles se describen y explican en detalle a continuación.
 
 #### No visible
 
 
-La falta de visibilidad del servidor puede ocurrir si la inicialización no se completó correctamente. Esto puede deberse, por ejemplo, a una configuración errónea o archivos corruptos. Normalmente, más información se puede encontrar en la consola del servidor o en los archivos de registro.
+La falta de visibilidad del servidor puede ocurrir si la inicialización no se completó con éxito. Esto puede deberse, por ejemplo, a una configuración incorrecta o archivos corruptos. Normalmente, más información se puede encontrar en la consola del servidor o en los archivos de registro.
 
 
 
@@ -85,7 +85,7 @@ La falta de visibilidad del servidor puede ocurrir si la inicialización no se c
 
 ## Conclusión
 
-¡Felicidades! Si seguiste todo al pie de la letra, deberías haber establecido la conexión con el servidor exitosamente. Para más preguntas o ayuda, no dudes en contactar a nuestro equipo de soporte, que está disponible todos los días para asistirte 🙂
+¡Felicidades! Si seguiste todo, deberías haber establecido la conexión con el servidor exitosamente. Para más preguntas o ayuda, no dudes en contactar a nuestro equipo de soporte, que está disponible todos los días para asistirte 🙂
 
 
 

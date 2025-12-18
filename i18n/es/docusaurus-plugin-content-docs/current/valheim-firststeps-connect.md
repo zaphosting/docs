@@ -13,7 +13,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 
 ## Introducción
-¿No sabes cómo conectarte a tu **servidor de juegos** de Valheim o qué necesitas para empezar? ¡Tranquilo, aquí te ayudamos! Te guiaremos por todo lo que necesitas: desde las herramientas e info necesarias hasta el proceso de conexión, junto con puntos clave para asegurar una conexión fluida y sin problemas. Sigue nuestra guía y estarás conectado en un abrir y cerrar de ojos.
+¿No sabes cómo conectarte a tu **servidor de juegos** de Valheim o qué necesitas para empezar? ¡No te preocupes, aquí te ayudamos! Te guiaremos por todo lo que necesitas. Desde las herramientas e información necesarias hasta el proceso real de conexión, junto con puntos clave para asegurar una conexión fluida y sin problemas. Sigue nuestra guía y estarás conectado en un abrir y cerrar de ojos.
 
 <InlineVoucher />
 
@@ -22,18 +22,18 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Requisitos
 
-No necesitas software adicional para usar un servidor vanilla de Valheim de forma normal. Pero si elegiste la variante Valheim Plus o BepInEx para usar plugins, entonces también tienes que instalar esta extensión localmente. Échale un ojo aquí para saber cómo instalar estas extensiones localmente en tu juego:
+No se requiere software adicional para el uso regular de un servidor Valheim vanilla. Sin embargo, si elegiste la variante Valheim Plus o BepInEx para usar plugins, también necesitas instalar esta extensión localmente. Échale un vistazo aquí para saber cómo instalar estas extensiones localmente para tu juego:
 
-| Extensión      | Descarga                                                     |
-| -------------- | ------------------------------------------------------------ |
-| Valheim Plus   | [Link](https://github.com/Grantapher/ValheimPlus)            |
-| Valheim BepInEx| [Link](https://thunderstore.io/c/valheim/p/denikson/BepInExPack_Valheim/) |
+| Extensión       | Descarga                                                     |
+| --------------- | ------------------------------------------------------------ |
+| Valheim Plus    | [Link](https://github.com/Grantapher/ValheimPlus)            |
+| Valheim BepInEx | [Link](https://thunderstore.io/c/valheim/p/denikson/BepInExPack_Valheim/) |
 
 
 
 ## Obtén los datos del servidor
 
-Vas a necesitar toda la info relevante para conectarte a tu servidor. La info sobre tu servidor la encuentras en el panel web del **panel de control** de tu servidor de juegos. La info importante incluye:
+Vas a necesitar toda la información relevante para conectarte a tu servidor. La info sobre tu servidor la encuentras en el panel web del **panel de control** de tu servidor de juegos. La información importante incluye lo siguiente:
 
 - Dirección IP y puerto
 - Nombre del servidor
@@ -50,7 +50,7 @@ La conexión a un servidor de juegos suele poder hacerse de una o más formas. L
 <Tabs>
     <TabItem value="connect_solution_server_browser_ingame" label="Navegador de servidores (En el juego)" default>
 
-Para conectarte a tu servidor vía el navegador de servidores dentro del juego, abre el juego. Haz clic en **Iniciar juego**. Si aún no creaste un personaje, el siguiente paso es crear uno y empezar con él. Ahora haz clic en **Agregar servidor** en la lista de servidores. Introduce la IP:Puerto de tu servidor en la ventana emergente. Una vez agregado el servidor, puedes conectarte con el botón **Conectar**.
+Para conectarte a tu servidor vía el navegador de servidores dentro del juego, abre el juego. Haz clic en **Iniciar juego**. Si aún no has creado un personaje, el siguiente paso es crear uno y empezar con él. Ahora haz clic en **Agregar servidor** en la lista de servidores. Introduce la IP:Puerto de tu servidor en la ventana emergente nueva. Una vez que hayas agregado el servidor, puedes conectarte con el botón **Conectar**.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/2CAiyKEkpYnmgEJ/download)
 
@@ -62,13 +62,13 @@ Para conectarte a tu servidor vía el navegador de servidores dentro del juego, 
 
 
 
-## Problemas comunes y soluciones
+## Problemas potenciales y soluciones
 
 La conexión a un servidor de juegos suele poder hacerse de una o más formas. Los métodos disponibles se describen y explican en detalle a continuación.
 
 #### No visible
 
-Que el servidor no sea visible puede pasar si la inicialización no se completó con éxito. Esto puede deberse, por ejemplo, a una configuración errónea o archivos corruptos. Más info suele encontrarse en la consola del servidor o en los archivos de log.
+La falta de visibilidad del servidor puede ocurrir si la inicialización no se completó con éxito. Esto puede deberse, por ejemplo, a una configuración errónea o archivos corruptos. Más info suele encontrarse en la consola del servidor o en los archivos de registro.
 
 
 
@@ -86,7 +86,7 @@ Valheim Plus/BepInEx: La conexión puede fallar si la extensión necesaria no es
 
 ## Conclusión
 
-¡Felicidades! Si seguiste todo al pie de la letra, deberías haber establecido la conexión con el servidor con éxito. Para más preguntas o ayuda, no dudes en contactar a nuestro equipo de soporte, que está disponible todos los días para asistirte 🙂
+¡Felicidades! Si seguiste todo correctamente, deberías haber establecido la conexión al servidor con éxito. Para más preguntas o ayuda, no dudes en contactar a nuestro equipo de soporte, que está disponible todos los días para asistirte 🙂
 
 
 

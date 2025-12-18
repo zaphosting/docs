@@ -1,8 +1,8 @@
 ---
 id: longvinter-firststeps-connect
-title: "Longvinter : Connecte-toi au serveur"
-description: "Découvre comment te connecter facilement à ton serveur Longvinter et résoudre les problèmes courants pour une expérience de jeu fluide → En savoir plus maintenant"
-sidebar_label: Connecte-toi au serveur
+title: "Longvinter : Connexion au serveur"
+description: "Découvrez comment vous connecter facilement à votre serveur Longvinter et résoudre les problèmes courants pour une expérience de jeu fluide → En savoir plus maintenant"
+sidebar_label: Connexion au serveur
 services:
   - gameserver-longvinter
 ---
@@ -13,32 +13,32 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 
 ## Introduction
-Tu ne sais pas comment te connecter à ton **serveur de jeux Longvinter** ou ce qu’il te faut pour commencer ? Pas de stress, on s’occupe de tout ! On va te guider pas à pas – des outils et infos nécessaires jusqu’au processus de connexion, avec les points clés pour que tout roule sans accroc. Suis notre guide et tu seras connecté en un rien de temps !
+Vous ne savez pas comment vous connecter à votre **serveur Longvinter** ou ce dont vous avez besoin pour commencer ? Pas de stress, on s’occupe de tout ! On va vous guider pas à pas. Des outils et infos nécessaires jusqu’au processus de connexion, en passant par les points clés pour garantir une connexion fluide et sans galère. Suivez notre guide et vous serez connecté en un rien de temps !
 
 <InlineVoucher />
 
 
 
-## Récupère les infos du serveur
+## Obtenir les infos du serveur
 
-Tu auras besoin de toutes les infos importantes pour te connecter à ton serveur. Ces infos se trouvent dans le tableau de bord de ton panneau web de serveur de jeux. Les infos importantes sont :
+Vous aurez besoin de toutes les infos nécessaires pour vous connecter à votre serveur. Ces infos se trouvent dans le tableau de bord de votre panneau web de serveur de jeux. Les infos importantes sont les suivantes :
 
 - Adresse IP et port
 - Nom du serveur
 - Mot de passe du serveur (optionnel)
 
-Avec ces infos, tu pourras localiser ton serveur et t’assurer de bien te connecter au bon.
+Avec ces infos, vous pourrez localiser votre serveur et vous assurer de bien vous connecter au bon serveur.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/2AYEaD2fEcyEqiD/preview)
 
-## Établis la connexion au serveur
+## Établir la connexion au serveur
 
-La connexion à un serveur de jeux peut souvent se faire de plusieurs façons. Les méthodes dispo sont décrites et expliquées en détail ci-dessous.
+La connexion à un serveur de jeux peut souvent se faire de plusieurs façons. Les méthodes disponibles sont décrites et expliquées en détail ci-dessous.
 
 <Tabs>
     <TabItem value="connect_solution_server_browser_ingame" label="Navigateur de serveurs (en jeu)" default>
 
-Pour te connecter via le navigateur de serveurs en jeu, ouvre-le depuis le menu principal. Clique sur **Connexion par IP** en haut à droite de la liste des serveurs et entre l’adresse IP et le port de ton serveur. Valide avec la touche `Entrée` pour établir la connexion.
+Pour vous connecter à votre serveur via le navigateur de serveurs en jeu, ouvrez le navigateur dans le menu principal. Cliquez sur **Connexion par IP** en haut à droite de la liste des serveurs et entrez l’adresse IP et le port de votre serveur. Validez avec la touche `Entrée` pour établir la connexion.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/oWPNgNYRWqwqDzB/download)
 
@@ -49,23 +49,23 @@ Pour te connecter via le navigateur de serveurs en jeu, ouvre-le depuis le menu 
 
 
 
-## Problèmes possibles et solutions
+## Problèmes potentiels et solutions
 
-La connexion à un serveur de jeux peut souvent se faire de plusieurs façons. Les méthodes dispo sont décrites et expliquées en détail ci-dessous.
+La connexion à un serveur de jeux peut souvent se faire de plusieurs façons. Les méthodes disponibles sont décrites et expliquées en détail ci-dessous.
 
 #### Serveur non visible
 
-Si tu ne vois pas ton serveur, c’est peut-être que l’initialisation n’a pas été faite correctement. Ça peut venir d’une mauvaise config ou de fichiers corrompus. Tu peux souvent trouver plus d’infos dans la console du serveur ou les fichiers logs.
+Le serveur peut ne pas apparaître si l’initialisation n’a pas été complétée avec succès. Cela peut être dû par exemple à une mauvaise configuration ou à des fichiers corrompus. Vous trouverez souvent plus d’infos dans la console du serveur ou les fichiers logs.
 
 
 
-#### Pas de solution ou pas utile
+#### Solution manquante ou pas utile
 
-Toujours des soucis après avoir essayé ? Pas de panique, notre support est là tous les jours pour t’aider. Crée simplement un **[Ticket](https://zap-hosting.com/en/customer/support/)** sur notre site et explique-nous ton problème avec un max de détails. On s’en occupe vite fait bien fait et on t’aide à régler ça !
+Vous avez toujours des soucis après avoir essayé ? Pas de panique, notre équipe support est dispo tous les jours pour vous aider. Créez simplement un **[Ticket](https://zap-hosting.com/en/customer/support/)** sur notre site et expliquez-nous votre problème avec un max de détails. On s’en occupera au plus vite et on vous aidera à régler ça !
 
 ## Conclusion
 
-Bravo, si tu as suivi tout ça, tu devrais être connecté à ton serveur sans souci. Pour toute question ou aide, n’hésite pas à contacter notre support, dispo tous les jours pour te filer un coup de main ! 🙂
+Félicitations, si vous avez suivi tout ça, vous devriez être connecté avec succès à votre serveur. Pour toute question ou aide supplémentaire, n’hésitez pas à contacter notre équipe support, dispo tous les jours pour vous filer un coup de main ! 🙂
 
 
 

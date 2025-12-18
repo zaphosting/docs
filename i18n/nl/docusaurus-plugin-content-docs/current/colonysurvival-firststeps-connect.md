@@ -14,7 +14,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 
 ## Introductie
-Weet je niet precies hoe je verbinding maakt met je **Colony Survival**-server of wat je nodig hebt om te starten? Geen stress, wij fixen het voor je! We nemen je stap voor stap mee – van de benodigde tools en info tot het daadwerkelijke verbindingsproces, inclusief belangrijke tips voor een soepele en probleemloze connectie. Volg onze gids en je bent zo verbonden!
+Weet je niet zeker hoe je verbinding maakt met je **Colony Survival**-server of wat je nodig hebt om te beginnen? Geen stress, wij fixen het voor je! We nemen je mee door alles wat je nodig hebt. Van de benodigde tools en info tot het daadwerkelijke verbindingsproces, inclusief belangrijke tips om alles soepel en zonder gedoe te laten verlopen. Volg onze gids en je bent zo verbonden!
 
 <InlineVoucher />
 
@@ -62,14 +62,14 @@ De verbinding met een game server kan vaak op één of meerdere manieren worden 
 #### Niet zichtbaar
 
 
-Als je server niet zichtbaar is, kan dat komen doordat de initialisatie niet goed is afgerond. Dit kan bijvoorbeeld door een verkeerde configuratie of corrupte bestanden. Meer info vind je meestal in de serverconsole of logbestanden.
+Als je server niet zichtbaar is, kan dat komen doordat de initialisatie niet goed is afgerond. Dit kan bijvoorbeeld door een verkeerde configuratie of corrupte bestanden komen. Meer info vind je meestal in de serverconsole of logbestanden.
 
 
 
 #### Geen oplossing gevonden of niet geholpen
 
 
-Heb je nog steeds problemen na het proberen van de oplossingen? Geen zorgen, ons supportteam staat dagelijks voor je klaar. Maak gewoon een **[Ticket](https://zap-hosting.com/en/customer/support/)** aan op onze website en leg je probleem zo gedetailleerd mogelijk uit. We kijken er zo snel mogelijk naar en helpen je het probleem op te lossen!
+Heb je nog steeds problemen na het proberen van de oplossingen? Geen zorgen, ons supportteam staat dagelijks voor je klaar. Maak gewoon een **[Ticket](https://zap-hosting.com/en/customer/support/)** aan op onze website en leg je probleem zo gedetailleerd mogelijk uit. We checken het zo snel mogelijk en helpen je het probleem op te lossen!
 
 
 

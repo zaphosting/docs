@@ -13,14 +13,14 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 
 ## Introdução
-Não sabe como se conectar ao seu servidor de jogos **Mordhau** ou o que precisa para começar? Relaxa, a gente te ajuda! Vamos te guiar por tudo que você precisa – desde as ferramentas e informações necessárias até o processo real de conexão, junto com dicas importantes para garantir uma conexão suave e sem problemas. Siga nosso guia e você estará conectado rapidinho!
+Não sabe como se conectar ao seu servidor de jogos **Mordhau** ou o que precisa para começar? Relaxa, a gente te ajuda! Vamos te guiar por tudo que você precisa. Desde as ferramentas e informações necessárias até o processo real de conexão, junto com pontos importantes para garantir uma conexão suave e sem problemas. Siga nosso guia e você estará conectado rapidinho!
 
 <InlineVoucher />
 
 ## Obtenha os detalhes do servidor
 
 
-Você vai precisar de todas as informações relevantes para se conectar ao seu servidor. Os dados do seu servidor podem ser encontrados no dashboard do painel web do seu servidor de jogos. As informações importantes incluem:
+Você vai precisar de todas as informações relevantes para se conectar ao seu servidor. Os dados do seu servidor podem ser encontrados no dashboard do painel web do seu servidor de jogos. Informações importantes incluem:
 
 - Endereço IP e porta
 - Nome do servidor
@@ -71,7 +71,7 @@ Ainda com problemas depois de tentar resolver? Nesse caso, nosso time de suporte
 
 ## Conclusão
 
-Parabéns, se você seguiu tudo certinho, já deve ter conseguido se conectar ao servidor. Para dúvidas ou ajuda, não hesite em contatar nosso time de suporte, que está disponível todos os dias para te ajudar! 🙂
+Parabéns, se você seguiu tudo certinho, já deve ter se conectado ao servidor com sucesso. Para dúvidas ou ajuda extra, não hesite em contatar nosso time de suporte, que está disponível todos os dias para te ajudar! 🙂
 
 
 

@@ -13,7 +13,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 
 ## Introductie
-Weet je niet zeker hoe je verbinding maakt met je **Arma 3**-server of wat je nodig hebt om te starten? Geen zorgen, wij helpen je! We nemen je mee door alles wat je nodig hebt – van de benodigde tools en info tot het daadwerkelijke verbindingsproces, inclusief belangrijke aandachtspunten om een soepele en probleemloze verbinding te garanderen. Volg onze gids en je bent zo verbonden!
+Weet je niet zeker hoe je verbinding maakt met je **Arma 3**-server of wat je nodig hebt om te beginnen? Geen stress, wij fixen het voor je! We nemen je mee door alles wat je nodig hebt. Van de benodigde tools en info tot het daadwerkelijke verbindingsproces, inclusief belangrijke tips om alles soepel en zonder gedoe te laten verlopen. Volg onze gids en je bent zo verbonden!
 
 <InlineVoucher />
 
@@ -22,7 +22,7 @@ Weet je niet zeker hoe je verbinding maakt met je **Arma 3**-server of wat je no
 ## Servergegevens ophalen
 
 
-Je hebt alle relevante info nodig om verbinding te maken met je server. De gegevens van je server vind je op het dashboard van het webinterfacepaneel van je gameserver. Belangrijke info is onder andere:
+Je hebt alle relevante info nodig om verbinding te maken met je server. De gegevens van je server vind je op het dashboard van het webinterfacepaneel van je game server. Belangrijke info is onder andere:
 
 - IP-adres en poort
 - Servernaam
@@ -36,20 +36,20 @@ Met bovenstaande info kun je je server vinden en zeker weten dat je met de juist
 ## Verbinding maken met de server
 
 
-De verbinding met een gameserver kan vaak op één of meerdere manieren worden gemaakt. De beschikbare methodes worden hieronder beschreven en uitgelegd.
+De verbinding met een game server kan vaak op één of meerdere manieren worden gemaakt. De beschikbare methodes worden hieronder uitgebreid beschreven en uitgelegd.
 
 <Tabs>
-    <TabItem value="connect_solution_server_browser_ingame" label="Serverbrowser" default>
+    <TabItem value="connect_solution_server_browser_ingame" label="Server Browser" default>
 
-Om verbinding te maken met de server, start je het spel of open je de launcher. Ga naar het menu-item **Servers** in de launcher. Selecteer de sectie **Internet** in de serverlijst. Gebruik het **Zoekveld** om je server te zoeken op naam. Selecteer vervolgens je server en klik op de knop **Join**. 
+Om verbinding te maken met de server, start je het spel of open je de launcher. Ga in de launcher naar het menu-item **Servers**. Selecteer de sectie **Internet** in de serverlijst. Gebruik het **Zoekveld** om je server te vinden via de naam van je server. Selecteer vervolgens je server en klik op de knop **Join**. 
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/ogEprRpMdWe7pFn/download)
 
 </TabItem>
 
-<TabItem value="connect_solution_server_browser_direct" label="Direct verbinden" default>
+<TabItem value="connect_solution_server_browser_direct" label="Direct Connect" default>
 
-Om verbinding te maken met de server, start je het spel of open je de launcher. Ga naar het menu-item **Servers** in de launcher. Klik rechtsonder op de knop **Direct Connect**. Vul het IP-adres en de poort van je server in en klik op de knop **Join**. 
+Om verbinding te maken met de server, start je het spel of open je de launcher. Ga in de launcher naar het menu-item **Servers**. Klik rechtsonder op de knop **Direct Connect**. Vul het IP-adres en de poort van je server in en klik op de knop **Join**. 
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/pRHcaR7RcWrym9B/download)
 
@@ -62,25 +62,25 @@ Om verbinding te maken met de server, start je het spel of open je de launcher. 
 ## Mogelijke problemen en oplossingen
 
 
-De verbinding met een gameserver kan vaak op één of meerdere manieren worden gemaakt. De beschikbare methodes worden hieronder beschreven en uitgelegd.
+De verbinding met een game server kan vaak op één of meerdere manieren worden gemaakt. De beschikbare methodes worden hieronder uitgebreid beschreven en uitgelegd.
 
 #### Niet zichtbaar
 
 
-Als de server niet zichtbaar is, kan dat komen doordat de initialisatie niet succesvol is afgerond. Dit kan bijvoorbeeld door een foutieve configuratie of corrupte bestanden komen. Meer info vind je meestal in de serverconsole of logbestanden.
+Als je server niet zichtbaar is, kan dat komen doordat de initialisatie niet succesvol is afgerond. Dit kan bijvoorbeeld door een foutieve configuratie of corrupte bestanden. Meer info vind je meestal terug in de serverconsole of logbestanden.
 
 
 
-#### Geen oplossing of niet geholpen
+#### Geen oplossing gevonden of niet geholpen
 
 
-Heb je nog steeds problemen na het proberen van bovenstaande? Geen stress! Ons supportteam staat dagelijks voor je klaar om je te helpen. Maak gewoon een **[Ticket](https://zap-hosting.com/en/customer/support/)** aan op onze website en leg je probleem zo gedetailleerd mogelijk uit. We kijken er zo snel mogelijk naar en helpen je het probleem op te lossen!
+Heb je nog steeds problemen na het proberen van de oplossingen? Geen zorgen, ons supportteam staat dagelijks voor je klaar om je te helpen. Maak gewoon een **[Ticket](https://zap-hosting.com/en/customer/support/)** aan op onze website en leg je probleem zo gedetailleerd mogelijk uit. We checken het zo snel mogelijk en helpen je het probleem op te lossen!
 
 
 
 ## Conclusie
 
-Gefeliciteerd, als je alles gevolgd hebt, zou je nu succesvol verbonden moeten zijn met de server. Voor verdere vragen of hulp, aarzel niet om contact op te nemen met ons supportteam, dat dagelijks voor je klaarstaat! 🙂
+Gefeliciteerd, als je alles hebt gevolgd, zou je nu succesvol verbonden moeten zijn met de server. Heb je nog vragen of hulp nodig? Aarzel dan niet om contact op te nemen met ons supportteam, die dagelijks voor je klaarstaat! 🙂
 
 
 
