@@ -4659,6 +4659,7 @@ const sidebars = {
       items: [
         'vserver-windows-userdp',
         'vserver-windows-port',
+        'vserver-windows-rdp-port',
         'vserver-windows-addip',
         'vserver-windows-change-language',
         'vserver-windows-manage-users',
