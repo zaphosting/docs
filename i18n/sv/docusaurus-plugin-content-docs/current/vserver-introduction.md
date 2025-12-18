@@ -54,6 +54,6 @@ Tack vare det schyssta priset, prestandan, de omfattande åtkomsträttigheterna 
 
 ## Vanliga frågor
 Har du fler frågor om vår VPS-produkt? Få svar på allt du vill veta om funktioner, fördelar, installation och hur du använder den effektivt. På så sätt får du all info du behöver för att maxa din VPS. Och om något fortfarande är oklart, hör bara av dig så hjälper vi dig direkt.
-<SearchableAccordion items={items} locale="de" />
+<SearchableAccordion items={items} locale="sv" />
 
 <InlineVoucher />

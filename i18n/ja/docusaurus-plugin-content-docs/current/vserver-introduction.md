@@ -54,6 +54,6 @@ VPS製品には、あらゆる用途に合うように様々な構成オプシ�
 
 ## よくある質問
 VPSについてもっと知りたい？機能やメリット、セットアップ方法、効果的な使い方まで、気になることは全部ここで解決しよう。必要な情報をゲットして、VPSを最大限に活用しよう。もしまだわからないことがあれば、いつでも気軽に問い合わせてね。すぐにサポートするよ！
-<SearchableAccordion items={items} locale="de" />
+<SearchableAccordion items={items} locale="ja" />
 
 <InlineVoucher />

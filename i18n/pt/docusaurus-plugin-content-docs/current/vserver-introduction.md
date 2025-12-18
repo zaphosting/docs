@@ -54,6 +54,6 @@ Devido ao preço acessível, desempenho, permissões de acesso extensas e as pos
 
 ## Perguntas Frequentes
 Tem mais dúvidas sobre nosso produto VPS? Encontre respostas para tudo que você quer saber sobre recursos, benefícios, configuração e como usar de forma eficaz. Assim você pega todas as infos que precisa para aproveitar ao máximo nosso VPS. E se ainda ficar alguma dúvida, é só chamar que estamos aqui pra ajudar na hora.
-<SearchableAccordion items={items} locale="de" />
+<SearchableAccordion items={items} locale="pt" />
 
 <InlineVoucher />
