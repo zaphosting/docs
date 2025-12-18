@@ -7,7 +7,7 @@ sidebar_label: Change E-Mail
 
 ## Introduction
 
-If you wish to update the email address linked to your ZAP-Hosting account, you can do so at any time through your account settings. This guide will walk you through the necessary steps.
+If you wish to update the email address linked to your ZAP-Hosting account, you can do so at any time through your account settings. This guide will walk you through the necessary steps. This is just a test
 
 ## Change E-Mail-Address
 
