@@ -7,7 +7,7 @@ sidebar_label: Changer l’e-mail
 
 ## Introduction
 
-Si tu souhaites mettre à jour l’adresse e-mail liée à ton compte ZAP-Hosting, tu peux le faire à tout moment via les paramètres de ton compte. Ce guide te montre les étapes à suivre.
+Si tu souhaites mettre à jour l’adresse e-mail liée à ton compte ZAP-Hosting, tu peux le faire à tout moment via les paramètres de ton compte. Ce guide te montre toutes les étapes nécessaires. Ceci est juste un test
 
 ## Changer l’adresse e-mail
 
@@ -15,7 +15,7 @@ Ouvre les [paramètres du compte](https://zap-hosting.com/en/customer/home/profi
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/8GwqRZTTfYdAakm/preview)
 
-Une fenêtre pop-up s’ouvrira où tu devras entrer ta nouvelle adresse e-mail. Renseigne l’adresse dans le champ et confirme en cliquant sur **Envoyer**.
+Une fenêtre pop-up s’ouvrira où tu devras entrer ta nouvelle adresse e-mail. Saisis l’adresse dans le champ et confirme en cliquant sur **Envoyer**.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/G5dezAKHmKtkoGJ/preview)
 
