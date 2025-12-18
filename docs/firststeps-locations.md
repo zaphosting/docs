@@ -1,170 +1,150 @@
 ---
 id: firststeps-locations
-title: Locations
+title: Our Locations – Always Close, Always Fast!
 description: ZAP-Hosting Locations Information - ZAP-Hosting.com documentation
 sidebar_label: Locations
 ---
 
 
+import LocationPingCheck from '@site/src/components/LocationPingCheck/LocationPingCheck';
+
 
 ## Introduction
 
-More locations, faster connections and more enjoyment with the server. This is the goal of ZAP-Hosting, which was founded in 2010 in Germany where it also offered its first server location. More locations have been added steadily since then to provide the best possible experience for all of our customers. 
+Our mission is to provide the best possible availability and accessibility of our server products worldwide. Since our founding in 2010, we have continuously expanded and refined our services to deliver the optimal server experience to customers everywhere no matter where they are located.  
 
-Due to the great international interest and growth of the company, additional locations in Europe, North and South America, Asia and Australia have been added over the years. We are currently offering our server products in **FFM / Eygelshoven, DE, London, UK, Helsinki, Finland, Los Angeles, USA (West), Dallas, USA (Central), Ashburn, USA (East), Montreal, Canada, Sydney, Australia, Singapore, Asia**. 
+Through steady growth and close collaboration with our community, we have built a truly global network. We consistently take customer feedback into account, regularly assess demand for new regions, and tailor our offerings to ensure top performance and quality.  
 
-We have and will continue to take feedback from our customers into consideration and check to what extent demand exists in certain locations and which products are wanted in order to be able to offer our available products in the best possible way there as well. 
+For us, this means state-of-the-art infrastructure, reliable connectivity, and rapid response times combined with the clear goal of delivering a stable, powerful, and compelling hosting experience to users around the globe.
 
 
 
 ## Availability of locations
 
-As briefly mentioned in advance, we are continuously developing and expanding the scope of our products. However, this is not necessarily always easy and uncomplicated to implement. For that reason, it can happen that we are not able to offer every product at every location from the beginning. You will find an overview of the availability of the server products at the respective locations below. 
+We are constantly working on developing and expanding our product range to provide you with the best possible server experience. Sometimes, however, it is not possible to make every product available at every location right from the start. To give you clarity, you will find an overview below showing which products are currently available at each location.  
 
-| Locations               | Gameserver | Teamspeak | VPS | Dedicated Server |
-| ----------------------- | ---------- | --------- | ----------- | ---------------- |
-| FFM / Eygelshoven, DE   | ✓          | ✓         | ✓           | ✓                |
-| London, UK              | ✓          | ✓         | X           | X                |
-| Helsinki, Finland       | ✓          | ✓         | ✓           | X                |
-| Los Angeles, USA (West) | ✓          | ✓         | ✓           | X                |
-| Dallas, USA (Central)   | ✓          | ✓         | ✓           | X                |
-| Ashburn, USA (East)     | ✓          | ✓         | ✓           | X                |
-| Montreal, Canada        | ✓          | ✓         | X           | X                |
-| Sydney, Australia       | ✓          | ✓         | X           | X                |
-| Singapore, Asia         | ✓          | ✓         | X           | X                |
+Not sure which location suits you best? No worries! With our integrated ping check, you can easily test the connection from your location to our data centers. At a glance, you’ll receive all results and can then choose the server location that guarantees you the best possible performance.
+
+<LocationPingCheck />
 
 
 
-## Connection quality to the locations
-
-You are unsure which location is the best for you? That's no problem! We have developed a ping check for our server products, which allows you to test the connection from you to the locations. This way you will get an overview of all ping results at a glance and you can choose the best location for you. 
-
-You will find the ping check option during the order process at the location selection. Click there on the **Ping-Check 🚀** button. The result of the respective location will then be displayed to you. 
-
-![](https://screensaver01.zap-hosting.com/index.php/s/9q9X3tFrjbWkitD/preview)
 
 
 
-## More details about our locations
+
+## More details about each location
+
+Each of our locations is characterized by its specific infrastructure and setup. For every site, you will find detailed information about the data center, the hardware in use, and the DDoS protection measures implemented. This gives you a clear overview of the technical foundation, security standards, and performance capabilities provided at each location.
+
+#### Europe
+
+<details>
+  <summary>FFM / Eygelshoven, DE</summary>
+
+Brief description of the location, partner data center, and regional advantages (e.g., proximity to DE-CIX, London, NY-IX). Mention certifications (ISO 27001, Tier-level) or specific location benefits (low latency, reliable power supply). 
+
+**Hardware & Infrastructure**
+
+Our infrastructure is based on modern, high-performance hardware designed to deliver maximum stability, efficiency, and responsiveness across all product lines. Each product is powered by the processor architecture best suited to its purpose. 
+
+Game servers in the standard edition run on AMD EPYC 7000 Series processors optimized for high concurrency, while the premium edition uses AMD Ryzen 9 9950X CPUs with high clock speeds for exceptional single-core performance. 
+
+Virtual private servers (VPS) also rely on AMD EPYC 7000 Series processors, offering robust multi-core capabilities ideal for virtualized environments.
+
+All systems are equipped exclusively with NVMe SSD storage for ultra-fast read and write speeds, ensuring minimal latency and maximum responsiveness. Combined with redundant networking and optimized configurations, this hardware foundation guarantees a smooth and reliable hosting experience for every use case.
 
 
 
-### FFM / Eygelshoven, DE
 
-We offer an **own server infrastructure** with our own network and dedicated hardware at our main location Frankfurt am Main, Germany. The company "ZAP-Hosting" was built on this location in 2010.
+**Network & Latency**
 
-As a "branch" of our data center in Frankfurt, the **Tier III data center "SkyLink"** in Eygelshoven (near Aachen, directly on the Dutch border) was introduced in March 2020. All traffic is routed via Frankfurt, so that our customers benefit from an optimal connection and DDoS Protection.
+The data center is connected through multiple redundant fiber links to international carriers and backbone providers. This ensures extremely high transmission capacity, ranging from Gbit/s up to Tbit/s, providing stable connectivity even during peak traffic periods.  
 
+With direct peering agreements and connections to major internet exchanges such as DE-CIX, LINX, or AMS-IX, the data center achieves the shortest possible routes across the global network. As a result, it delivers very low latency to key regions and ensures fast, reliable connectivity for all applications.
 
+**Power Supply & Redundancy**
 
-**Hardware:**
-Especially HP C7000 G3 ProLiant blade systems with 16x HP G8/G9 blades with 2x E5-2690v2/v4 CPUs each are used. Each with DDR3 and DDR4 ECC memory with up to 3000 MHz speed. We rely on and Juniper switches. Our coreswitch has 48x 10G SFP+ ports, over which the entire uplink of our infrastructure is obtained. Through this switch we provide all other switches with uplinks.
+Details on power infrastructure (multiple feeds, UPS systems, diesel generators), cooling (N+1 or higher redundancy, free cooling), and energy efficiency or sustainability (e.g., 100% renewable energy).  
 
+**DDoS Protection**
 
+The DDoS protection in place at this location is powered by **Name of the Protection**. It ensures that attacks are automatically detected and mitigated in real time. With high mitigation capacities – depending on the infrastructure, ranging from several hundred Gbit/s up to multiple Tbit/s – even large-scale attacks are reliably neutralized. 
 
-**DDoS Protection:**
-Since December 2019, we have been using the **Aurologic** DDoS Protection with **Corebackbone** pre-filtering in Frankfurt and Eygelshoven. Customers benefit from a dynamic and highly optimized DDoS protection, especially for services like "Gameserver" and "Teamspeak Server". We also offer a **DDoS Manager** for each server at this location.
-
-
-
-**On-site personnel:**
-Our technicians are available around the clock in case of problems and will be informed fully automatically by our monitoring system whenever intervention is necessary. This allows immediate intervention of a technician on site.
+Advanced filtering and analysis technologies are in place to block both simple and sophisticated attack types effectively. For our customers, this results in consistent availability, stable performance, and uninterrupted operations even during ongoing attacks. Learn more about how we keep your services safe in our detailed [DDoS Protection](ddos-protection.md) document!
 
 
+**Support & Monitoring**
 
-**IP networks**
+Our entire infrastructure is monitored 24/7 by an automated system that immediately detects any disruptions or irregularities. In such cases, our technicians are instantly notified and can intervene. Our support team is available every day from early morning until late at night, ensuring that customer requests are handled quickly and reliably.
 
-We have our own IP networks at this location as an official RIPE member **and therefore offer the booking of own IP addresses.**
+</details>
 
-
-
-### London, UK
+<details>
+  <summary>London, UK</summary>
 
 With our location in **London** (UK) in the **OVH** data center, we are expanding our coverage in Europe. In addition to our main location "Frankfurt am Main", customers from **UK** specifically benefit from our location in London. Other European countries on the mainland already have excellent latency to Frankfurt, so there is no need here to offer additional locations on the mainland.
 
+**Hardware**
 
-
-**Hardware:**
 Rented Intel server processors and Intel OC gaming CPUs with high clock rates are used. Only NVMe SSD hard disks are used.
 
+**DDoS Protection**
 
-
-**DDoS Protection:**
 The DDoS Protection in the data center is very strong and withstands even heavy attacks without losses.
 
+**On-site personnel**
 
-
-**On-site personnel:**
 Our technicians are available around the clock in case of problems and will be informed fully automatically by our monitoring system whenever intervention is necessary. This allows immediate intervention of a technician on site.
 
+</details>
 
+#### North America
 
-### Helsinki, Finland
-
-Our data center in Helsinki, Finland convinces with short intervention times in case of problems. Especially players and users from the Baltic States (**Estonia, Latvia, Lithuania**), as well as from parts of **Russia**, **Belarus** and **Sweden** benefit from the location of the data center.
-
-
-
-**Hardware:**
-We rely on over-clocked CPUs, 64 GB for our game-server host server with DDR4 regECC memory and fast NVMe SSDs. VPS are hosted on server CPUs with at least 14 cores.
-
-
-
-**DDoS Protection:**
-The site in Helsinki, Finland offers optimal DDoS protection with a possible mitigation of up to **2 Tbit/s**.
-
-
-
-**On-site personnel:**
-Our technicians are available around the clock in case of problems and will be informed fully automatically by our monitoring system whenever intervention is necessary. This allows immediate intervention of a technician on site.
-
-
-
-### Los Angeles, USA (West)
+<details>
+  <summary>Los Angeles, US</summary>
 
 At the **PsychZ data center** in the **state of California**, we have moved to a location with our own hardware and network technology.
 
-
-
-**Hardware:**
+**Hardware**
 We use our own network hardware (Juniper QFX5100 switches) with 40G QSFP+ uplinks. In this location we mainly use HP C7000 Bladecenter servers with powerful XEON CPUs at clock rates between 2.8 and 3.8 GHz.
 
-
-
-**DDoS Protection:**
+**DDoS Protection**
 
 Since December 2019, we have been using the **Aurologic** DDoS Protection with **Corebackbone** pre-filtering in Frankfurt and Eygelshoven. Customers benefit from a dynamic and highly optimized DDoS protection, especially for services like "Gameserver" and "Teamspeak Server". We also offer a **DDoS Manager** for each server at this location.
 
+**On-site personnel**
 
-
-**On-site personnel:**
 Our technicians are available around the clock in case of problems and will be informed fully automatically by our monitoring system whenever intervention is necessary. This allows immediate intervention of a technician on site.
-
-
 
 **IP networks**
 
 We have our own IP networks at this location as an official RIPE member **and therefore offer the booking of own IP addresses.**
 
 
+</details>
 
-### Dallas, USA (Central)
+<details>
+  <summary>Dallas, US</summary>
 
 At the **PsychZ Data Center** in the **State of Texas** we have moved into a location with our own hardware and network technology.
 
 
 
-**Hardware:**
+**Hardware**
+
 We use our own network hardware (Juniper EX3300 switches) with 4x 10G SFP+ uplinks. At this location we rely on Dell R720 servers with powerful XEON CPUs at clock speeds between 3 and 3.4 GHz.
 
 
 
-**DDoS Protection:**
+**DDoS Protection**
+
 The location is equipped with a **strong DDoS Protection** protected, that offers **optimal protection and performance** against stronger DDoS attacks, **optimized for Gameservers**.
 
 
 
-**On-site personnel:**
+**On-site personnel**
+
 Our technicians are available around the clock in case of problems and will be informed fully automatically by our monitoring system whenever intervention is necessary. This allows immediate intervention of a technician on site.
 
 
@@ -173,9 +153,10 @@ Our technicians are available around the clock in case of problems and will be i
 
 We have our own IP networks at this location as an official RIPE member **and therefore offer the booking of own IP addresses.**
 
+</details>
 
-
-### Ashburn, USA (East)
+<details>
+  <summary>Ashburn, US</summary>
 
 In the **PsychZ data center** in the **state of Virginia**, we have a location with our own hardware and network technology. 
 
@@ -201,9 +182,10 @@ Our technicians are available around the clock in case of problems and will be i
 
 We have our own IP networks at this location as an official RIPE member **and therefore offer the booking of own IP addresses.**
 
+</details>
 
-
-### Montreal, Canada
+<details>
+  <summary>Montreal, CA</summary>
 
 With the location **Montreal (more precisely: Beauharnois)** at the **OVH Data Center** in Canada we do not only cover the east coast of Canada, but also the east coast of America, especially American metropolises like New York, Philadelphia, Pittsburgh, etc., so for the northern US east coast **optimal pings** are to be expected.
 
@@ -222,11 +204,14 @@ The DDoS Protection in the data center is well-engineered and can withstand stro
 **On-site personnel:**
 Our technicians are available around the clock in case of problems and will be informed fully automatically by our monitoring system whenever intervention is necessary. This allows immediate intervention of a technician on site.
 
+</details>
 
+#### Australia
 
-### Sydney, Australia
+<details>
+  <summary>Sydney, AU</summary>
 
-Location **Sydney** in **OVH data center** in Australia covers the entire Australian area **(OCE)**, as well as New Zealand. Players from this room benefit from **extremely short ping times** and no longer have to switch to American or South Asian servers.
+  Location **Sydney** in **OVH data center** in Australia covers the entire Australian area **(OCE)**, as well as New Zealand. Players from this room benefit from **extremely short ping times** and no longer have to switch to American or South Asian servers.
 
 
 
@@ -243,9 +228,13 @@ The DDoS Protection in the data center is well-engineered and can withstand stro
 **On-site personnel:**
 Our technicians are available around the clock in case of problems and will be informed fully automatically by our monitoring system whenever intervention is necessary. This allows immediate intervention of a technician on site.
 
+</details>
 
 
-### Singapore, Asia
+#### Asia
+
+<details>
+  <summary>Singapore, SI</summary>
 
 With the Singapore location in the **OVH data center** in Asia, we cover the entire Southeast-Asian region (SEA). Particularly players from metropolitan areas and countries like Malaysia, Singapore, Indonesia, Philippines, Thailand, Cambodia and Vietnam benefit from this location.
 
@@ -259,7 +248,34 @@ Rented Intel server processors and Intel OC gaming CPUs with high clock rates ar
 **DDoS Protection:**
 The DDoS Protection in the data center is well-engineered and can withstand stronger attacks without major loss problems.
 
-
-
 **On-site personnel:**
 Our technicians are available around the clock in case of problems and will be informed fully automatically by our monitoring system whenever intervention is necessary. This allows immediate intervention of a technician on site.
+
+</details>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,170 @@
+.wrapper { width: 100%; }
+
+.continentBlock { margin-bottom: 32px; }
+
+.locationRow { display: flex; flex-wrap: wrap; gap: 16px; }
+
+.locationBox {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  border: 1px solid #e0e0e0;
+  box-shadow: inset 0 0 0 1px #f6f6f6;
+  background:#fff;
+  min-width: 200px;
+  border-radius: 3px;
+}
+
+[data-theme='dark'] .locationBox {
+  background-color: rgb(38 38 38);
+}
+
+.innerBox {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 8px;
+  width: 100%;
+}
+
+.locationRowContent { display: flex; flex-direction: row; align-items: center; gap: 10px; }
+
+.flagWrapper { flex-shrink: 0; }
+
+.labelWrapper { display: flex; flex-direction: column; justify-content: center; }
+
+.labelText { font-weight: 500; color: #444; font-size: 13px; display: flex; align-items: center; }
+[data-theme='dark'] .labelText { font-weight: 500; color: white; font-size: 13px; display: flex; align-items: center; }
+
+
+.flag { border-radius: 3px; }
+
+.pingNormal { font-size: 0.65rem; color: #10b981; line-height: 1.1; }
+.pingHigh { font-size: 0.65rem; color: #dc2626; line-height: 1.1; }
+.pingUnreachable { font-size: 0.65rem; color: #777777; line-height: 1.1; }
+.pingFailed { font-size: 0.65rem; color: #dc2626; line-height: 1.1; }
+[data-theme='dark'] .pingUnreachable { font-size: 0.65rem; color: white; line-height: 1.1; }
+
+.buttonWrapper { width: 100%; margin-top: 24px; }
+
+.button {
+  width: 100%;
+  padding: 12px 20px;
+  border-radius: 3px;
+  font-size: 12px;
+  font-weight: bold;
+  background-color: var(--ifm-color-primary);
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: transform 0.1s ease, box-shadow 0.1s ease;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.button:active {
+  transform: scale(0.97);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.button:hover {
+  filter: brightness(1.1);
+}
+
+/* Produkt-Icons-Zeile und FA-ähnliche Baseline für Inline-SVG */
+.productIcons {
+  display: flex;
+  gap: 8px;
+  font-size: 16px;
+  color: #555;
+  padding: 6px 8px;
+  width: 100%;
+}
+.productIcons svg { display: block; }
+
+/* Divider für Kontinent-Überschrift */
+.divider {
+  font-size: 16px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  margin: 20px 0;
+
+  text-transform: uppercase;
+}
+.divider::after {
+  flex: 1;
+  content: '';
+  height: 2px;
+  background-color: #e0e0e0;
+  margin: 0 10px;
+}
+
+.productIcons svg {
+  display: block;
+}
+
+.productIcons .active {
+    color: var(--ifm-color-primary);
+    opacity: 1;
+}
+
+[data-theme='dark'] .productIcons {
+    color: white
+}
+
+.productLegend {
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.legendColors,
+.legendProducts {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.legendColorItem,
+.legendProductItem {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+  font-size: 0.75rem;
+}
+
+.legendProductIcon {
+  width: 14px;
+  height: 14px;
+  fill: #555;
+}
+
+.legendProductLabel {
+  font-size: 0.75rem;
+}
+
+.legendColorBoxAvailable,
+.legendColorBoxUnavailable {
+  width: 12px;
+  height: 12px;
+  border: 1px solid #ccc;
+  display: inline-block;
+}
+
+.legendColorBoxAvailable {
+  border-radius: 3px;
+  background-color: var(--ifm-color-primary);
+}
+
+.legendColorBoxUnavailable {
+  border-radius: 3px;
+  background-color: #555;
+}
+
+@media (max-width: 768px) {
+  .locationBox {
+    width: 100%;
+  }
+}
