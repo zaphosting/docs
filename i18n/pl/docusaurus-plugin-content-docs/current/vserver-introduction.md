@@ -27,14 +27,14 @@ Proces zamawiania jest bardzo prosty. Wybierz wymarzoną konfigurację swojego [
 
 ## Konfiguracje
 
-Oferujemy różne opcje konfiguracji naszego VPS, które powinny pasować do każdego zastosowania. Nasze konfiguracje zazwyczaj składają się z następujących możliwych opcji:
+Oferujemy różne opcje konfiguracji naszego VPS, które powinny pasować do każdego zastosowania. Nasze konfiguracje zazwyczaj składają się z następujących opcji:
 
 | Komponenty | Opcje konfiguracji |
 | -------------------------------- | ------------------------- |
 | **CPU** | AMD EPYC serii 7000 |
 | **Rdzenie CPU**              | 4-64 rdzeni |
 | **Pamięć RAM**              | 4-128 GB RAM     |
-| **Dysk**               | 25-600 GB                                      |
+| **Miejsce na dysku**               | 25-2000 GB                                   |
 | **System operacyjny** | Debian (11,12,13), Ubuntu (20.04,22.04,24.04), Windows Server 2022/2025 oraz własne ISO |
 | **Adresy IP** | 1-10 adresów IP  |
 | **Przepustowość**     | 1.000-5.000 Mbit/s upload/download |
@@ -44,7 +44,7 @@ Oferujemy różne opcje konfiguracji naszego VPS, które powinny pasować do ka�
 
 ## Obszary zastosowań
 
-Dzięki korzystnej cenie, wydajności, rozbudowanym uprawnieniom dostępu i związanym z tym możliwościom, hosting VPS może być wykorzystywany w wielu obszarach, m.in.:
+Dzięki korzystnej cenie, wydajności, szerokim uprawnieniom dostępu i związanym z tym możliwościom, hosting VPS może być wykorzystywany w wielu obszarach, m.in.:
 
 - Strony internetowe
 - Bazy danych
@@ -53,7 +53,7 @@ Dzięki korzystnej cenie, wydajności, rozbudowanym uprawnieniom dostępu i zwi�
 - i wiele więcej!
 
 ## Najczęściej zadawane pytania
-Masz więcej pytań o nasz produkt VPS? Znajdź odpowiedzi na wszystko, co chcesz wiedzieć o funkcjach, zaletach, konfiguracji i efektywnym użytkowaniu. Dzięki temu zdobędziesz potrzebne info, by w pełni wykorzystać nasz VPS. A jeśli coś nadal jest niejasne, po prostu napisz do nas – jesteśmy tu, żeby Ci pomóc od razu.
-<SearchableAccordion items={items} locale="pl" />
+Masz więcej pytań o nasz produkt VPS? Znajdź odpowiedzi na wszystko, co chcesz wiedzieć o funkcjach, zaletach, konfiguracji i efektywnym użytkowaniu. Dzięki temu zdobędziesz potrzebne info, by w pełni wykorzystać nasz VPS. A jeśli coś nadal jest niejasne, po prostu napisz do nas – pomożemy Ci od razu.
+<SearchableAccordion items={items} locale="de" />
 
 <InlineVoucher />

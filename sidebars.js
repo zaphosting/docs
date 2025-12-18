@@ -88,7 +88,8 @@ const sidebars = {
           key: "general-security",
           items: [
             "account-security",
-            "account-2factor"
+            "account-2factor",
+            "account-hardware-authentication"
           ]
         },
       ]
@@ -4766,6 +4767,7 @@ const sidebars = {
     'dedicated-dashboard',
     'dedicated-setup',
     'dedicated-ilo',
+    'dedicated-ipmi',
     'dedicated-iso',
     'dedicated-raid',
     'dedicated-reset',		

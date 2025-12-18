@@ -27,14 +27,14 @@ Le processus de commande est super simple. Choisis la configuration que tu veux 
 
 ## Configurations
 
-On propose plusieurs options de configuration pour notre produit VPS, pour coller à tous les besoins. Nos configs comprennent généralement les options suivantes :
+On propose plusieurs options de configuration pour notre produit VPS, qui conviennent à tous les usages. Nos configs comprennent généralement les options suivantes :
 
 | Composants | Options de configuration |
 | -------------------------------- | ------------------------- |
 | **CPU** | AMD EPYC série 7000 |
 | **Cœurs CPU**              | 4-64 cœurs |
-| **Mémoire**              | 4-128 Go RAM     |
-| **Espace disque**               | 25-600 Go                                      |
+| **RAM**              | 4-128 Go RAM     |
+| **Espace disque**               | 25-2000 Go                                   |
 | **Système d’exploitation** | Debian (11,12,13), Ubuntu (20.04,22.04,24.04), Windows Server 2022/2025 et ISOs personnalisées |
 | **Adresses IP** | 1-10 adresses IP  |
 | **Bande passante**     | 1.000-5.000 Mbit/s en up/down |
@@ -44,7 +44,7 @@ On propose plusieurs options de configuration pour notre produit VPS, pour colle
 
 ## Domaines d’application
 
-Grâce au prix avantageux, à la performance, aux accès étendus, et aux possibilités associées, un VPS peut être utilisé pour plusieurs domaines, notamment :
+Grâce au prix avantageux, à la performance, aux accès étendus et aux possibilités associées, un VPS peut être utilisé pour plusieurs domaines, notamment :
 
 - Sites web
 - Bases de données
@@ -54,6 +54,6 @@ Grâce au prix avantageux, à la performance, aux accès étendus, et aux possib
 
 ## Questions fréquentes
 Tu as d’autres questions sur notre produit VPS ? Trouve toutes les réponses sur les fonctionnalités, avantages, la mise en place et comment l’utiliser efficacement. Comme ça, tu as toutes les infos pour tirer le meilleur de notre VPS. Et si quelque chose n’est pas clair, contacte-nous, on est là pour t’aider direct.
-<SearchableAccordion items={items} locale="fr" />
+<SearchableAccordion items={items} locale="de" />
 
 <InlineVoucher />

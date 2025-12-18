@@ -46,7 +46,7 @@ function buildSystemPrompt(targetLang) {
 
 function getChangedMarkdownFiles() {
   try {
-    const output = execSync('git diff --name-only HEAD~1 HEAD', { encoding: 'utf8' });
+    const output = execSync('git diff --name-only origin/master...HEAD', { encoding: 'utf8' });
     return output
       .split('\n')
       .filter(file => file.startsWith(SOURCE_DIR) && file.endsWith('.md') && fs.existsSync(file));

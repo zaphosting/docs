@@ -26,6 +26,9 @@ jobs:
         with:
           node-version: '20'
 
+      - name: Fetch master branch for diff
+        run: git fetch origin master
+
       - name: Install dependencies
         run: npm install
         working-directory: ${{ github.workspace }}
