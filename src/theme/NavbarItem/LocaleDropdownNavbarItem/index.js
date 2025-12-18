@@ -30,10 +30,19 @@ export default function LocaleDropdownNavbarItemWrapper(props) {
 
     const addFlags = () => {
       try {
-        const dropdownMenu = document.querySelector('.navbar__item .dropdown__menu');
-        if (!dropdownMenu) {
+        // Globe-Icons mit iconLanguage_nlXk Klasse ausblenden (Desktop + Mobile)
+        document.querySelectorAll('.iconLanguage_nlXk').forEach((icon) => {
+          icon.style.display = 'none';
+        });
+
+        // Desktop: .navbar__item .dropdown__menu
+        // Mobile: Nur die Sprachauswahl-Links (haben locale im href wie /de/, /fr/, etc.)
+        const dropdownMenus = document.querySelectorAll('.navbar__item .dropdown__menu');
+        if (dropdownMenus.length === 0) {
           return;
         }
+
+        dropdownMenus.forEach((dropdownMenu) => {
 
         // Globe-Icon verstecken
         const globeIcons = dropdownMenu.querySelectorAll('svg[viewBox="0 0 24 24"]');
@@ -92,8 +101,51 @@ export default function LocaleDropdownNavbarItemWrapper(props) {
           }
         });
 
-        // Aktiven Button behandeln
-        const navbarItem = dropdownMenu.closest('.navbar__item');
+        }); // Ende dropdownMenus.forEach
+
+        // Mobile: Locale-Links in der Sidebar behandeln
+        const mobileSidebar = document.querySelector('.navbar-sidebar');
+        if (mobileSidebar) {
+          // Finde alle Links und filtere nach bekannten Sprachnamen
+          const localeMap = {
+            'English': 'en', 'Deutsch': 'de', 'Español': 'es', 'Français': 'fr',
+            'العربية': 'ar', 'Português': 'pt', 'ไทย': 'th', 'Polski': 'pl',
+            '日本語': 'ja', 'Svenska': 'sv', 'Italiano': 'it', 'Nederlands': 'nl',
+          };
+          const languageNames = Object.keys(localeMap);
+          
+          const allLinks = mobileSidebar.querySelectorAll('a[href], .menu__link');
+          allLinks.forEach((link) => {
+            if (link.querySelector('img[src*="/flags/"]')) return;
+            
+            const text = link.textContent?.trim() || '';
+            const locale = localeMap[text];
+            
+            if (!locale || !flagPaths[locale]) return;
+            
+            const flagPath = baseUrl.replace(/\/$/, '') + flagPaths[locale];
+            const flagImg = document.createElement('img');
+            flagImg.src = flagPath;
+            flagImg.alt = '';
+            flagImg.setAttribute('aria-hidden', 'true');
+            flagImg.style.cssText = `width: 20px; height: 15px; margin-right: 6px; margin-left: 0 !important; flex-shrink: 0; object-fit: cover; border-radius: 2px;`;
+            
+            // Globe-Icon verstecken falls vorhanden
+            const globeIcon = link.querySelector('svg');
+            if (globeIcon) globeIcon.style.display = 'none';
+            
+            // Link-Inhalt ersetzen mit Flagge + Text
+            link.innerHTML = '';
+            link.appendChild(flagImg);
+            
+            const textSpan = document.createElement('span');
+            textSpan.textContent = text;
+            link.appendChild(textSpan);
+          });
+        }
+
+        // Aktiven Button behandeln (Desktop)
+        const navbarItem = document.querySelector('.navbar__item.dropdown');
         if (navbarItem) {
           const activeButton = navbarItem.querySelector('.navbar__link:not(.dropdown__link)');
           if (activeButton && !activeButton.querySelector('img[src*="/flags/"]')) {
@@ -161,6 +213,7 @@ export default function LocaleDropdownNavbarItemWrapper(props) {
       setTimeout(addFlags, 50);
     });
     
+    // Desktop navbar beobachten
     const navbar = document.querySelector('.navbar__items');
     if (navbar) {
       observer.observe(navbar, {
@@ -171,9 +224,22 @@ export default function LocaleDropdownNavbarItemWrapper(props) {
       });
     }
 
+    // Mobile sidebar beobachten
+    const observeBody = new MutationObserver(() => {
+      const sidebar = document.querySelector('.navbar-sidebar');
+      if (sidebar) {
+        setTimeout(addFlags, 50);
+      }
+    });
+    observeBody.observe(document.body, {
+      childList: true,
+      subtree: true,
+    });
+
     return () => {
       clearTimeout(timeoutId);
       observer.disconnect();
+      observeBody.disconnect();
     };
   }, [isBrowser, baseUrl]);
 
