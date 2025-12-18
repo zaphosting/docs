@@ -4767,6 +4767,7 @@ const sidebars = {
     'dedicated-dashboard',
     'dedicated-setup',
     'dedicated-ilo',
+    'dedicated-ipmi',
     'dedicated-iso',
     'dedicated-raid',
     'dedicated-reset',		
