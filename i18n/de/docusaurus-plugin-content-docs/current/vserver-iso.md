@@ -1,6 +1,6 @@
 ---
 id: vserver-iso
-title: "vServer: ISO-Datei mounten"
+title: "VPS: ISO-Datei mounten"
 description: "Entdecke, wie du deinen VPS mit deinem Wunsch-ISO individuell anpasst und volle Kontrolle über deine Serverumgebung bekommst → Jetzt mehr erfahren"
 sidebar_label: ISO-Datei mounten
 services:
@@ -14,7 +14,7 @@ import SearchableItemList from '@site/src/components/SearchableItemList/Searchab
 import items from '@site/data/lists/vserver-iso-files-en.json';
 
 ## Einführung
-Willst du noch mehr Freiheit bei der Wahl deines Systems? Neben unseren OS-Vorlagen kannst du natürlich auch deine eigenen ISOs mounten. Das geht super easy mit unseren VPS-Produkten. So bekommst du genau das Betriebssystem auf deinen Server, das du wirklich willst!
+Willst du noch mehr Freiheit bei der Wahl deines Systems? Neben unseren OS-Vorlagen kannst du natürlich auch deine eigenen ISOs mounten. Das geht super easy mit unseren VPS-Produkten. So bekommst du genau das Betriebssystem auf deinem Server, das du wirklich willst!
 
 <InlineVoucher />
 
@@ -22,12 +22,12 @@ Willst du noch mehr Freiheit bei der Wahl deines Systems? Neben unseren OS-Vorla
 
 ## Verfügbare ISO-Dateien
 
-Neben unseren vorkonfigurierten Standard-OS-Vorlagen bieten wir auch die Möglichkeit, zusätzliche ISO-Dateien zu mounten. Das sorgt für noch mehr Flexibilität bei der Einrichtung und Verwaltung deiner Serverumgebung. Unsere VPS-Produkte unterstützen aktuell folgende ISO-Dateien: 
+Neben unseren vorkonfigurierten Standard-OS-Vorlagen bieten wir dir auch die Möglichkeit, zusätzliche ISO-Dateien zu mounten. Das sorgt für noch mehr Flexibilität bei der Einrichtung und Verwaltung deiner Serverumgebung. Unsere VPS-Produkte unterstützen aktuell folgende ISO-Dateien: 
 
 <SearchableItemList items={items} />
 
-:::info Fehlende ISO-Datei?
-Gibt es eine bestimmte ISO, die du gerne nutzen möchtest, die aber nicht verfügbar ist? Melde dich einfach bei unserem Support – wir prüfen gern, ob wir sie für dich hinzufügen können.
+:::info Fehlt eine ISO-Datei?
+Gibt es eine bestimmte ISO, die du gerne nutzen möchtest, die aber nicht verfügbar ist? Melde dich einfach bei unserem Support-Team, wir prüfen gern, ob wir sie für dich hinzufügen können.
 :::
 
 

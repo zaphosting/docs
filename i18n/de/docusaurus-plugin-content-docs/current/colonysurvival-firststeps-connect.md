@@ -14,7 +14,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 
 ## Einführung
-Du bist dir nicht sicher, wie du dich mit deinem **Colony Survival** Gameserver verbindest oder was du dafür brauchst? Kein Stress, wir haben alles für dich am Start! Wir zeigen dir Schritt für Schritt, was du brauchst – von den nötigen Tools und Infos bis hin zum eigentlichen Verbindungsprozess, inklusive wichtiger Tipps, damit alles glatt läuft und du ohne Probleme zocken kannst. Folge unserer Anleitung und du bist im Handumdrehen verbunden!
+Du bist dir nicht sicher, wie du dich mit deinem **Colony Survival** Gameserver verbindest oder was du dafür brauchst? Kein Stress, wir haben alles für dich am Start! Wir zeigen dir Schritt für Schritt, was du brauchst – von den nötigen Tools und Infos bis hin zum eigentlichen Verbindungsprozess. Außerdem geben wir dir wichtige Tipps, damit alles smooth läuft und du ohne Probleme zocken kannst. Folge unserer Anleitung und du bist im Handumdrehen verbunden!
 
 <InlineVoucher />
 
@@ -23,7 +23,7 @@ Du bist dir nicht sicher, wie du dich mit deinem **Colony Survival** Gameserver 
 ## Serverdetails besorgen
 
 
-Du brauchst alle wichtigen Infos, um dich mit deinem Server zu verbinden. Diese findest du im Dashboard deines Gameserver-Webinterface-Panels. Wichtige Infos sind unter anderem:
+Du brauchst alle wichtigen Infos, um dich mit deinem Server zu verbinden. Diese findest du im Dashboard deines Gameserver-Webinterface-Panels. Wichtige Infos sind zum Beispiel:
 
 - IP-Adresse und Port
 - Servername
@@ -37,7 +37,7 @@ Mit diesen Infos kannst du deinen Server finden und sicherstellen, dass du dich 
 ## Verbindung zum Server herstellen
 
 
-Die Verbindung zu einem Gameserver kann oft auf verschiedene Arten hergestellt werden. Die verfügbaren Methoden werden hier detailliert beschrieben und erklärt.
+Die Verbindung zu einem Gameserver kann oft auf verschiedene Arten hergestellt werden. Die verfügbaren Methoden werden hier detailliert erklärt.
 
 <Tabs>
 
@@ -57,7 +57,7 @@ Um dich mit deinem Server zu verbinden, öffne das Spiel und gehe zu **Multiplay
 ## Mögliche Probleme und Lösungen
 
 
-Die Verbindung zu einem Gameserver kann oft auf verschiedene Arten hergestellt werden. Die verfügbaren Methoden werden hier detailliert beschrieben und erklärt.
+Die Verbindung zu einem Gameserver kann oft auf verschiedene Arten hergestellt werden. Die verfügbaren Methoden werden hier detailliert erklärt.
 
 #### Server nicht sichtbar
 
@@ -69,13 +69,13 @@ Wenn der Server nicht sichtbar ist, kann das daran liegen, dass die Initialisier
 #### Keine passende Lösung oder keine Hilfe
 
 
-Du hast nach der Fehlerbehebung immer noch Probleme? Kein Ding, unser Support-Team ist täglich für dich da! Erstelle einfach ein **[Ticket](https://zap-hosting.com/en/customer/support/)** auf unserer Website und beschreibe dein Problem so genau wie möglich. Wir schauen uns das schnellstmöglich an und helfen dir, das Problem zu lösen!
+Du hast nach der Fehlerbehebung immer noch Probleme? Kein Ding! Unser Support-Team ist täglich für dich da. Erstelle einfach ein **[Ticket](https://zap-hosting.com/en/customer/support/)** auf unserer Website und beschreibe dein Problem so genau wie möglich. Wir schauen uns das schnellstmöglich an und helfen dir, das Problem zu lösen!
 
 
 
 ## Fazit
 
-Glückwunsch, wenn du alles befolgt hast, solltest du jetzt erfolgreich mit dem Server verbunden sein. Bei weiteren Fragen oder wenn du Hilfe brauchst, zögere nicht, unseren Support zu kontaktieren – wir sind täglich für dich da! 🙂
+Glückwunsch! Wenn du alles befolgt hast, solltest du jetzt erfolgreich mit dem Server verbunden sein. Falls du noch Fragen hast oder Hilfe brauchst, zögere nicht, unseren Support zu kontaktieren – wir sind täglich für dich da! 🙂
 
 
 

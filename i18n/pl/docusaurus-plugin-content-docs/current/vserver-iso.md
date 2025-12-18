@@ -1,7 +1,7 @@
 ---
 id: vserver-iso
-title: "VPS: Podłącz plik ISO"
-description: "Dowiedz się, jak spersonalizować swój VPS, montując ulubiony plik ISO i zyskać pełną kontrolę nad środowiskiem serwera → Sprawdź teraz"
+title: "VPS: Podłączanie pliku ISO"
+description: "Dowiedz się, jak dostosować swój VPS, montując wybrane ISO, aby mieć pełną kontrolę nad środowiskiem serwera → Sprawdź teraz"
 sidebar_label: Podłącz plik ISO
 services:
   - vserver
@@ -27,15 +27,15 @@ Oprócz naszych prekonfigurowanych standardowych szablonów systemów operacyjny
 <SearchableItemList items={items} />
 
 :::info Brakuje pliku ISO?
-Szukasz konkretnego pliku ISO, którego nie ma na liście? Skontaktuj się z naszym supportem – chętnie sprawdzimy, czy możemy go dla Ciebie dodać.
+Chcesz użyć konkretnego ISO, którego nie ma na liście? Skontaktuj się z naszym supportem, chętnie sprawdzimy, czy możemy je dla Ciebie dodać.
 :::
 
 
 
 
 
-## Montowanie pliku ISO
-Aby podłączyć plik ISO, przejdź do panelu zarządzania VPS i otwórz **Ustawienia → ISO**. Wybierz plik ISO, ustaw kolejność bootowania, a następnie zrestartuj serwer. 
+## Podłączanie pliku ISO
+Aby podłączyć ISO, przejdź do panelu zarządzania VPS i otwórz **Ustawienia → ISO**. Wybierz plik ISO, ustaw kolejność bootowania, a następnie zrestartuj serwer. 
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/tszMKbqDSa3AaLy/download)
 
@@ -45,7 +45,7 @@ Po restarcie możesz połączyć się z serwerem przez klienta VNC i rozpocząć
 
 :::warning Status online i połączenia zdalne po podłączeniu ISO
 
-Po podłączeniu pliku ISO serwer nie jest jeszcze skonfigurowany. W panelu nie będzie widoczny **status online**, a połączenia **RDP** lub **SSH** nie będą dostępne. Będą one możliwe dopiero po pomyślnej instalacji i konfiguracji systemu operacyjnego.
+Po podłączeniu ISO serwer nie jest jeszcze skonfigurowany. W efekcie w panelu nie będzie widoczny **status online**, a połączenia **RDP** lub **SSH** nie będą dostępne. Będą one możliwe dopiero po pomyślnej instalacji i konfiguracji systemu operacyjnego.
 
 :::
 

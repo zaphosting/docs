@@ -1,7 +1,7 @@
 ---
 id: moe-firststeps-connect
 title: "Myth of Empires：サーバーへの接続方法"
-description: "Myth of Empiresサーバーへのスムーズな接続方法を解説。途切れないゲームプレイを楽しもう → 今すぐチェック"
+description: "Myth of Empiresサーバーへのスムーズな接続方法を発見して、途切れないゲームプレイを楽しもう → 今すぐチェック"
 sidebar_label: サーバーへの接続
 services:
   - gameserver-moe
@@ -14,7 +14,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 
 ## はじめに
-**Myth of Empires**のゲームサーバーへの接続方法や準備に何が必要か分からない？心配無用！必要なツールや情報から実際の接続手順、スムーズでトラブルフリーな接続を実現するためのポイントまで、全部しっかりサポートします。ガイドに沿って進めれば、すぐに接続完了です！
+**Myth of Empires**のゲームサーバーへの接続方法や、始めるために必要なものがわからない？心配無用！必要なことを全部サポートします。必要なツールや情報から実際の接続手順、スムーズでトラブルフリーな接続を実現するためのポイントまで、しっかりガイド。これを読めばすぐに接続完了！
 
 <InlineVoucher />
 
@@ -42,7 +42,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 <Tabs>
     <TabItem value="connect_solution_server_browser_ingame" label="ゲーム内サーバーブラウザ" default>
 
-ゲーム内のサーバーブラウザから接続するには、メインメニューでサーバーブラウザを開きます。**カスタムサーバー**をクリックしてください。サーバー名を使って検索フィールドでサーバーを探します。サーバーを選択したら、**接続**をクリックして接続を確立しましょう。
+ゲーム内のサーバーブラウザから接続するには、メインメニューでサーバーブラウザを開きます。**カスタムサーバー**をクリックしてください。検索欄にサーバー名を入力してサーバーを探します。サーバーを選択したら、**接続**をクリックして接続を確立しましょう。
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/Yo8YfRbtHS2cAnF/download)
 
@@ -53,10 +53,10 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 
 
-## よくある問題と対処法
+## よくある問題と解決策
 
 
-ゲームサーバーへの接続は複数の方法で可能ですが、問題が起きることもあります。以下に代表的な問題と解決策を紹介します。
+ゲームサーバーへの接続は複数の方法で可能ですが、問題が起きることもあります。以下に代表的な問題と対処法を紹介します。
 
 #### サーバーが見えない
 
@@ -68,7 +68,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 #### 解決策が見つからない・役に立たない
 
 
-トラブルシューティングを試しても問題が解決しない？そんな時は、サポートチームが毎日対応中！ウェブサイトから**[チケット](https://zap-hosting.com/en/customer/support/)**を作成して、できるだけ詳しく問題を説明してください。できるだけ早く確認して、解決までしっかりサポートします！
+トラブルシューティングを試しても問題が解決しない？そんな時は、サポートチームが毎日対応中！ウェブサイトから**[チケット](https://zap-hosting.com/en/customer/support/)**を作成して、できるだけ詳しく問題を説明してください。できるだけ早く確認して、問題解決をサポートします！
 
 
 

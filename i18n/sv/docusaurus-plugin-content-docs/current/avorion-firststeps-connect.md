@@ -1,7 +1,7 @@
 ---
 id: avorion-firststeps-connect
 title: "Avorion: Anslut till servern"
-description: "Upptäck hur du smidigt och säkert ansluter till din Avorion-server för oavbrutet spelande → Läs mer nu"
+description: "Upptäck hur du smidigt och säkert ansluter till din Avorion-server för oavbrutet spelande → Lär dig mer nu"
 sidebar_label: Anslut till servern
 services:
   - gameserver-avorion
@@ -14,7 +14,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 
 ## Introduktion
-Osäker på hur du ansluter till din **Avorion**-server eller vad du behöver för att komma igång? Ingen fara, vi har dig täckt! Vi guidar dig genom allt du behöver – från nödvändiga verktyg och info till själva anslutningsprocessen, plus viktiga saker att tänka på för en smidig och problemfri anslutning. Följ vår guide så är du igång på nolltid!
+Osäker på hur du ansluter till din **Avorion**-server eller vad du behöver för att komma igång? Ingen fara, vi har dig täckt! Vi guidar dig genom allt du behöver. Från nödvändiga verktyg och info till själva anslutningsprocessen, plus viktiga saker att tänka på för en smidig och problemfri anslutning. Följ vår guide så är du uppkopplad på nolltid!
 
 <InlineVoucher />
 
@@ -23,7 +23,7 @@ Osäker på hur du ansluter till din **Avorion**-server eller vad du behöver f�
 ## Skaffa serveruppgifter
 
 
-Du behöver all relevant info för att ansluta till din server. Informationen om din server hittar du i kontrollpanelen på ditt spelservers webbgränssnitt. Viktig info inkluderar:
+Du behöver all relevant info för att ansluta till din server. Informationen om din server hittar du på dashboarden i ditt spelservers webbpanel. Viktig info inkluderar:
 
 - IP-adress och port
 - Servernamn
@@ -42,7 +42,7 @@ Anslutningen till en spelserver kan ofta göras på en eller flera sätt. Tillg�
 <Tabs>
     <TabItem value="connect_solution_server_browser_ingame" label="Server Browser (I spelet)" default>
 
-För att ansluta till din server via den inbyggda serverbläddraren, öppna serverbläddraren i huvudmenyn. Klicka på **Multiplayer** och välj sedan **Browse Servers**. Du kan använda **sökfältet** för att leta upp din server i serverlistan med servernamnet och sedan ansluta via **Join**-knappen.
+För att ansluta till din server via den inbyggda serverbläddraren, öppna serverbläddraren i huvudmenyn. Klicka på **Multiplayer** och välj sedan **Browse Servers**. Du kan använda **sökfältet** för att hitta din server i serverlistan med servernamnet och sedan ansluta via **Join**-knappen.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/8gXjXqijtWiXJoZ/download)
 
@@ -52,7 +52,7 @@ För att ansluta till din server via den inbyggda serverbläddraren, öppna serv
 
 <TabItem value="connect_solution_direct" label="Direktanslutning (I spelet)" default>
 
-Istället för att söka efter servern i listan kan du också ansluta direkt med IP-adress och port. Klicka på **Multiplayer** och välj sedan **Join via IP**. Ett fönster öppnas där du fyller i din serverinfo i IP/Port-fältet. Du måste även ange ett namn för servern. Klicka sedan på **Add server** för att lägga till servern och ansluta.
+Istället för att söka i serverlistan kan du också ansluta direkt med IP-adress och port. Klicka på **Multiplayer** och välj sedan **Join via IP**. Ett fönster öppnas där du fyller i din serverinfo i IP/Port-fältet. Du måste även ange ett namn för servern. Klicka sedan på **Add server** för att lägga till servern och ansluta.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/sAiEYyaBbRKTACA/download)
 
@@ -67,21 +67,23 @@ Istället för att söka efter servern i listan kan du också ansluta direkt med
 
 Anslutningen till en spelserver kan ofta göras på en eller flera sätt. Tillgängliga metoder beskrivs och förklaras i detalj nedan.
 
-#### Servern syns inte
+#### Syns inte
 
 
-Om servern inte syns kan det bero på att initieringen inte slutfördes korrekt. Det kan till exempel bero på felaktig konfiguration eller korrupta filer. Mer info hittar du oftast i serverkonsolen eller loggfilerna.
+Att servern inte syns kan bero på att initieringen inte slutfördes korrekt. Det kan till exempel bero på felaktig konfiguration eller korrupta filer. Mer info hittar du oftast i serverkonsolen eller loggfilerna.
 
 
 
-#### Saknas lösning eller inget hjälpte
+#### Saknas lösning eller hjälper inte
 
 
-Har du fortfarande problem efter felsökning? Då finns vårt supportteam tillgängligt varje dag för att hjälpa dig. Skapa enkelt ett **[Ticket](https://zap-hosting.com/en/customer/support/)** på vår webbplats och förklara ditt problem så detaljerat som möjligt. Vi kollar på det så snabbt vi kan och hjälper dig att lösa det!
+Har du fortfarande problem efter felsökning? Då finns vårt supportteam tillgängligt varje dag för att hjälpa dig. Skapa enkelt en **[Ticket](https://zap-hosting.com/en/customer/support/)** på vår webbplats och förklara ditt problem så detaljerat som möjligt. Vi kollar på det så snabbt vi kan och hjälper dig att lösa det!
 
-## Avslutning
 
-Grattis, om du följt allt borde du nu ha lyckats ansluta till servern. Har du fler frågor eller behöver hjälp, tveka inte att kontakta vårt supportteam som finns tillgängligt varje dag för att hjälpa dig! 🙂
+
+## Slutsats
+
+Grattis! Om du följt allt borde du nu ha lyckats ansluta till servern. Har du fler frågor eller behöver hjälp, tveka inte att kontakta vårt supportteam som finns tillgängligt varje dag för att hjälpa dig! 🙂
 
 
 

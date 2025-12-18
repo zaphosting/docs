@@ -454,11 +454,11 @@
     "description": "The text for authors with 0 blog post"
   },
   "service.fivemupvotes.title": {
-    "message": "Discord Bot",
+    "message": "FiveM Upvotes",
     "description": "Product name for the storage product"
   },
   "service.fivemupvotes.path": {
-    "message": "{marketingSite}/{language}/shop/product/cloud-gameserver/discord-bot/",
+    "message": "{marketingSite}/{language}/shop/product/fivem-upvotes/",
     "description": "URL path for the storage product"
   },
   "service.fivemupvotesburst.title": {

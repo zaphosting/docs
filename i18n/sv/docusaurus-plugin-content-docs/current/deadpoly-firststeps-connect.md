@@ -13,7 +13,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 
 ## Introduktion
-Osäker på hur du ansluter till din **DeadPoly**-server eller vad du behöver för att komma igång? Ingen fara, vi har dig täckt! Vi guidar dig genom allt du behöver – från nödvändiga verktyg och information till själva anslutningsprocessen, plus viktiga saker att tänka på för att säkerställa en smidig och problemfri anslutning. Följ vår guide så är du igång på nolltid!
+Osäker på hur du ansluter till din **DeadPoly**-server eller vad du behöver för att komma igång? Ingen fara, vi har dig täckt! Vi guidar dig genom allt du behöver. Från nödvändiga verktyg och information till själva anslutningsprocessen, plus viktiga saker att tänka på för att säkerställa en smidig och problemfri anslutning. Följ vår guide så är du igång på nolltid!
 
 <InlineVoucher />
 
@@ -22,7 +22,7 @@ Osäker på hur du ansluter till din **DeadPoly**-server eller vad du behöver f
 ## Skaffa serveruppgifter
 
 
-Du behöver all relevant information för att kunna ansluta till din server. Informationen om din server hittar du på kontrollpanelen för din gameserver. Viktig info inkluderar följande:
+Du behöver all relevant information för att ansluta till din server. Information om din server hittar du på kontrollpanelen i ditt spelserver-webbgränssnitt. Viktig info inkluderar:
 
 - IP-adress och port
 - Servernamn
@@ -35,12 +35,12 @@ Med informationen ovan ska du kunna hitta din server och se till att du ansluter
 ## Etablera serveranslutning
 
 
-Anslutningen till en gameserver kan ofta göras på ett eller flera sätt. Tillgängliga metoder beskrivs och förklaras i detalj nedan.
+Anslutningen till en spelserver kan ofta göras på ett eller flera sätt. Tillgängliga metoder beskrivs och förklaras i detalj nedan.
 
 <Tabs>
 <TabItem value="connect_solution_server_browser_ingame" label="Server Browser (I spelet)" default>
 
-Starta spelet för att ansluta till din server. Klicka på **Play** i spelet och navigera sedan till **Find Game**. Du kommer nu se serverlistan där du kan söka efter din server via dess namn. Välj din server och klicka på **Connect** för att etablera anslutningen.
+Starta spelet för att ansluta till din server. Klicka på **Play** i spelet och navigera sedan till **Find Game**. Du kommer nu att se serverlistan där du kan söka efter din server via dess namn. Välj din server och klicka på **Connect** för att etablera anslutningen.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/a9BFqWkMzgwoagY/download)
 
@@ -63,25 +63,25 @@ Starta spelet för att ansluta till din server. Klicka på **Play** i spelet och
 ## Vanliga problem och lösningar
 
 
-Anslutningen till en gameserver kan ofta göras på ett eller flera sätt. Tillgängliga metoder beskrivs och förklaras i detalj nedan.
+Anslutningen till en spelserver kan ofta göras på ett eller flera sätt. Tillgängliga metoder beskrivs och förklaras i detalj nedan.
 
 #### Syns inte
 
 
-Att servern inte syns kan bero på att initialiseringen inte slutfördes korrekt. Detta kan till exempel bero på felaktig konfiguration eller korrupta filer. Mer info hittar du oftast i serverkonsolen eller loggfilerna.
+Att servern inte syns kan bero på att initialiseringen inte slutfördes korrekt. Det kan till exempel bero på felaktig konfiguration eller korrupta filer. Mer info hittar du oftast i serverkonsolen eller loggfilerna.
 
 
 
 #### Saknas lösning eller hjälper inte
 
 
-Har du fortfarande problem efter felsökning? Då finns vårt supportteam tillgängligt varje dag för att hjälpa dig. Skapa helt enkelt en **[Ticket](https://zap-hosting.com/en/customer/support/)** på vår webbplats och förklara ditt problem så detaljerat som möjligt. Vi kollar på det så snabbt vi kan och hjälper dig att lösa det!
+Har du fortfarande problem efter felsökning? Då finns vårt supportteam tillgängligt varje dag för att hjälpa dig. Skapa enkelt en **[Ticket](https://zap-hosting.com/en/customer/support/)** på vår webbplats och förklara ditt problem så detaljerat som möjligt. Vi kollar på det så snabbt vi kan och hjälper dig att lösa det!
 
 
 
-## Avslutning
+## Slutsats
 
-Grattis, om du följt allt borde du nu ha lyckats ansluta till servern. Har du fler frågor eller behöver hjälp, tveka inte att kontakta vårt supportteam som finns tillgängligt varje dag för att hjälpa dig! 🙂
+Grattis! Om du följt allt borde du nu ha lyckats ansluta till servern. Har du fler frågor eller behöver hjälp, tveka inte att kontakta vårt supportteam som finns tillgängligt varje dag för att hjälpa dig! 🙂
 
 
 

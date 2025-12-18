@@ -13,7 +13,7 @@ import items from '@site/data/faqs/vserver-introduction.json';
 
 ## Introdução
 
-Está procurando seu próprio servidor com uma configuração poderosa por um preço justo? Então a ZAP-Hosting é o lugar certo pra você! Na ZAP-Hosting você pode alugar ou comprar seu VPS ideal para uma experiência de máximo desempenho em vários usos!
+Está procurando seu próprio servidor com uma configuração poderosa por um preço justo? Então a ZAP-Hosting é o lugar certo pra você! Na ZAP-Hosting você pode alugar ou comprar seu VPS ideal para uma experiência de máxima performance em vários usos!
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/6cCD5TmrwXgtayy/preview)
 
@@ -21,7 +21,7 @@ Está procurando seu próprio servidor com uma configuração poderosa por um pr
 
 ## Pedido
 
-O processo de pedido é super simples. Escolha a configuração desejada para o seu [VPS](https://zap-hosting.com/en/vps-hosting/). O tempo de setup leva apenas alguns segundos. Depois disso, você já pode começar a configurar na hora.
+O processo de pedido é super simples. Escolha a configuração desejada para o seu [VPS](https://zap-hosting.com/en/vps-hosting/). O tempo de setup leva só alguns segundos. Depois disso, você já pode começar a configurar na hora.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/Lm9HpPkzZQ8NAS6/preview)
 
@@ -44,7 +44,7 @@ Oferecemos várias opções de configuração para nosso produto VPS, que devem 
 
 ## Áreas de aplicação
 
-Devido ao preço acessível, desempenho, permissões de acesso extensas e as possibilidades associadas, um VPS pode ser usado para várias áreas de aplicação, incluindo as seguintes:
+Devido ao preço acessível, performance, permissões de acesso extensas e as possibilidades associadas, um VPS pode ser usado para várias áreas de aplicação, incluindo as seguintes:
 
 - Sites
 - Bancos de dados
@@ -53,7 +53,7 @@ Devido ao preço acessível, desempenho, permissões de acesso extensas e as pos
 - e muito mais!
 
 ## Perguntas Frequentes
-Tem mais dúvidas sobre nosso produto VPS? Encontre respostas para tudo que você quer saber sobre recursos, benefícios, configuração e como usar de forma eficaz. Assim você pega todas as infos que precisa para aproveitar ao máximo nosso VPS. E se ainda ficar alguma dúvida, é só chamar que estamos aqui pra ajudar na hora.
-<SearchableAccordion items={items} locale="de" />
+Quer saber mais sobre nosso produto VPS? Tire todas as suas dúvidas sobre recursos, benefícios, configuração e como usar de forma eficaz. Assim você pega todas as infos que precisa para aproveitar ao máximo nosso VPS. E se ainda ficar alguma dúvida, é só chamar que estamos aqui pra te ajudar na hora.
+<SearchableAccordion items={items} locale="en" />
 
 <InlineVoucher />

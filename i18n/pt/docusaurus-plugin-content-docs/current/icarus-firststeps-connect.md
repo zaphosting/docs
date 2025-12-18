@@ -13,7 +13,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 
 ## Introdução
-Não sabe como se conectar ao seu servidor de jogos **Icarus** ou o que precisa para começar? Relaxa, a gente te ajuda! Vamos te guiar por tudo que você precisa – desde as ferramentas e informações necessárias até o processo real de conexão, junto com dicas importantes para garantir uma conexão suave e sem problemas. Siga nosso guia e você estará conectado rapidinho!
+Não sabe como se conectar ao seu servidor de jogos **Icarus** ou o que precisa para começar? Relaxa, a gente te ajuda! Vamos te guiar por tudo que você precisa. Desde as ferramentas e informações necessárias até o processo real de conexão, além de pontos importantes para garantir uma conexão suave e sem problemas. Siga nosso guia e você estará conectado rapidinho!
 
 <InlineVoucher />
 
@@ -46,9 +46,9 @@ Para se conectar ao seu servidor via o navegador de servidores dentro do jogo, a
 
 </TabItem>
 
-<TabItem value="connect_solution_server_browser_direct" label="Conexão Direta pelo Navegador (No jogo)" default>
+<TabItem value="connect_solution_server_browser_direct" label="Conexão Direta no Navegador (No jogo)" default>
 
-Ao invés de buscar o servidor na lista, você também pode adicionar o servidor usando o endereço IP e a porta e estabelecer a conexão. Para isso, clique em **Conexão Direta** na lista de servidores e insira as informações.
+Ao invés de buscar o servidor na lista, você também pode adicionar o servidor usando o endereço IP e a porta do servidor para estabelecer a conexão. Para isso, clique em **Conexão Direta** na lista de servidores e insira as informações.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/Fmf5m4iK79La3JW/download)
 
@@ -70,13 +70,13 @@ A falta de visibilidade do servidor pode acontecer se a inicialização não foi
 
 #### Solução não encontrada ou não ajudou
 
-Ainda com problemas depois de tentar resolver? Nesse caso, nosso time de suporte está disponível diariamente para te ajudar. É só abrir um **[Ticket](https://zap-hosting.com/en/customer/support/)** no nosso site e explicar seu problema com o máximo de detalhes possível. Vamos analisar rapidinho e te ajudar a resolver o que for preciso!
+Ainda com problemas depois de tentar resolver? Nesse caso, nosso time de suporte está disponível diariamente para te ajudar. É só criar um **[Ticket](https://zap-hosting.com/en/customer/support/)** no nosso site e explicar seu problema com o máximo de detalhes possível. Vamos analisar rapidinho e te ajudar a resolver o que for preciso!
 
 
 
 ## Conclusão
 
-Parabéns, se você seguiu tudo direitinho, já deve estar conectado ao servidor com sucesso. Para dúvidas ou ajuda extra, não hesite em contatar nosso suporte, que está disponível todos os dias para te dar uma força! 🙂
+Parabéns, se você seguiu tudo direitinho, já deve ter conseguido se conectar ao servidor. Para dúvidas ou ajuda extra, não hesite em contatar nosso time de suporte, que está disponível todos os dias para te dar aquela força! 🙂
 
 
 

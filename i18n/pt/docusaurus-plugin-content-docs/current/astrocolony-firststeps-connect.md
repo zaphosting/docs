@@ -1,7 +1,7 @@
 ---
 id: astrocolony-firststeps-connect
 title: "Astro Colony: Conecte-se ao servidor"
-description: "Descubra como se conectar ao seu servidor de jogos Astro Colony de forma fácil e comece a jogar sem complicações → Saiba mais agora"
+description: "Descubra como se conectar ao seu servidor Astro Colony de forma fácil e comece a jogar sem complicações → Saiba mais agora"
 sidebar_label: Conectar ao servidor
 services:
   - gameserver-astrocolony
@@ -13,7 +13,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 
 ## Introdução
-Não sabe como se conectar ao seu servidor de jogos **Astro Colony** ou o que precisa para começar? Relaxa, a gente te ajuda! Vamos te guiar por tudo que você precisa – desde as ferramentas e informações necessárias até o processo real de conexão, além de dicas importantes para garantir uma conexão tranquila e sem estresse. Siga nosso guia e você estará conectado rapidinho!
+Não sabe como se conectar ao seu **servidor de jogos Astro Colony** ou o que precisa para começar? Relaxa, a gente te ajuda! Vamos te guiar por tudo que você precisa. Desde as ferramentas e informações necessárias até o processo real de conexão, junto com dicas importantes para garantir uma conexão tranquila e sem estresse. Siga nosso guia e você estará conectado rapidinho!
 
 <InlineVoucher />
 
@@ -53,7 +53,7 @@ Inicie o jogo e vá para **Multiplayer** para abrir a lista de servidores. Use o
 
 Para se conectar ao seu servidor via navegador de servidores do Steam, abra o navegador de servidores pelo Steam. Clique em `Visualizar` no topo da navegação do Steam e depois na seção `Servidor de Jogos` para abrir.
 
-Procure ou adicione seu servidor pelo navegador do Steam usando o `endereço IP` e a `porta` do seu servidor de jogos. Para isso, selecione a aba `Favoritos` na lista de servidores e clique no símbolo de mais na parte inferior. Uma janela pop-up vai abrir para você especificar as informações do seu servidor.
+Procure ou adicione seu servidor pelo navegador do Steam usando o `endereço IP` e a `porta` do seu servidor de jogos. Para isso, selecione a aba `Favoritos` na lista de servidores e clique no símbolo de mais na parte inferior. Uma janela pop-up vai abrir onde você deve especificar as informações do seu servidor.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/MMsokw2ZyCreeCN/download)
 
@@ -72,20 +72,20 @@ A conexão a um servidor de jogos pode ser feita de uma ou mais formas. Os méto
 #### Não aparece na lista
 
 
-A falta de visibilidade do servidor pode acontecer se a inicialização não foi concluída com sucesso. Isso pode ser causado, por exemplo, por uma configuração errada ou arquivos corrompidos. Informações mais detalhadas geralmente podem ser encontradas no console do servidor ou nos arquivos de log.
+A falta de visibilidade do servidor pode acontecer se a inicialização não foi concluída com sucesso. Isso pode ser, por exemplo, devido a uma configuração errada ou arquivos corrompidos. Informações mais detalhadas geralmente podem ser encontradas no console do servidor ou nos arquivos de log.
 
 
 
 #### Solução não encontrada ou não ajudou
 
 
-Ainda com problemas depois de tentar resolver? Nesse caso, nosso time de suporte está disponível todos os dias para ajudar. É só abrir um **[Ticket](https://zap-hosting.com/en/customer/support/)** no nosso site e explicar seu problema com o máximo de detalhes possível. Vamos analisar rapidinho e te ajudar a resolver o que for preciso!
+Ainda com problemas depois de tentar as soluções? Nesse caso, nosso time de suporte está disponível diariamente para te ajudar. É só abrir um **[Ticket](https://zap-hosting.com/en/customer/support/)** no nosso site e explicar seu problema com o máximo de detalhes possível. Vamos analisar rapidinho e te ajudar a resolver o que for preciso!
 
 
 
 ## Conclusão
 
-Parabéns, se você seguiu tudo direitinho, já deve estar conectado ao servidor com sucesso. Para dúvidas ou ajuda extra, não hesite em contatar nosso suporte, que está disponível diariamente para te dar aquela força! 🙂
+Parabéns, se você seguiu tudo certinho, já deve estar conectado ao servidor com sucesso. Para dúvidas ou ajuda extra, não hesite em contatar nosso suporte, que está disponível todos os dias para te dar aquela força! 🙂
 
 
 

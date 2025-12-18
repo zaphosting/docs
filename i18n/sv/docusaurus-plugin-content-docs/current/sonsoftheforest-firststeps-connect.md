@@ -1,7 +1,7 @@
 ---
 id: sonsoftheforest-firststeps-connect
 title: "Sons of the Forest: Anslut till servern"
-description: "Upptäck hur du smidigt ansluter till din Sons of the Forest-server och felsöker vanliga problem för oavbrutet spelande → Lär dig mer nu"
+description: "Upptäck hur du smidigt ansluter till din Sons of the Forest-server och felsöker vanliga problem för oavbrutet spelande → Läs mer nu"
 sidebar_label: Anslut till servern
 services:
   - gameserver-sonsoftheforest
@@ -13,7 +13,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 
 ## Introduktion
-Osäker på hur du ansluter till din **Sons of the Forest**-server eller vad du behöver för att komma igång? Ingen fara, vi har dig täckt! Vi guidar dig genom allt du behöver – från nödvändiga verktyg och information till själva anslutningsprocessen, plus viktiga saker att tänka på för en smidig och problemfri anslutning. Följ vår guide så är du uppkopplad på nolltid!
+Osäker på hur du ansluter till din **Sons of the Forest**-server eller vad du behöver för att komma igång? Ingen fara, vi har dig täckt! Vi guidar dig genom allt du behöver. Från nödvändiga verktyg och information till själva anslutningsprocessen, plus viktiga saker att tänka på för en smidig och problemfri anslutning. Följ vår guide så är du uppkopplad på nolltid!
 
 <InlineVoucher />
 
@@ -21,7 +21,7 @@ Osäker på hur du ansluter till din **Sons of the Forest**-server eller vad du 
 
 ## Skaffa serveruppgifter
 
-Du behöver all relevant information för att kunna ansluta till din server. Information om din server hittar du på kontrollpanelen i ditt spelserver-webbgränssnitt. Viktig info inkluderar följande:
+Du behöver all relevant information för att ansluta till din server. Information om din server hittar du på kontrollpanelen i ditt spelserver-webbgränssnitt. Viktig info inkluderar följande:
 
 - IP-adress och port
 - Servernamn
@@ -67,7 +67,7 @@ Har du fortfarande problem efter felsökning? I så fall finns vårt supportteam
 
 ## Slutsats
 
-Grattis, om du följt allt korrekt borde du nu ha lyckats ansluta till servern. Har du fler frågor eller behöver hjälp, tveka inte att kontakta vårt supportteam som finns tillgängligt dagligen för att hjälpa dig! 🙂
+Grattis! Om du följt allt korrekt borde du nu ha etablerat en anslutning till servern. Har du fler frågor eller behöver hjälp, tveka inte att kontakta vårt supportteam som finns tillgängligt varje dag för att hjälpa dig! 🙂
 
 
 

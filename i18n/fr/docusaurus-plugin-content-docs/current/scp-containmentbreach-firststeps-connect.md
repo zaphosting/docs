@@ -1,8 +1,8 @@
 ---
 id: scp-containmentbreach-firststeps-connect
-title: "SCP: Containment Breach : Connexion au serveur"
-description: "Découvrez comment vous connecter facilement à votre serveur SCP: Containment Breach et garantir une expérience de jeu fluide → En savoir plus maintenant"
-sidebar_label: Connexion au serveur
+title: "SCP: Containment Breach : Connecte-toi au serveur"
+description: "Découvre comment te connecter facilement à ton serveur SCP: Containment Breach et profite d’une expérience de jeu fluide → En savoir plus maintenant"
+sidebar_label: Connecte-toi au serveur
 services:
   - gameserver-scp-containmentbreach
 ---
@@ -13,27 +13,27 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 
 ## Introduction
-Vous ne savez pas comment vous connecter à votre **serveur de jeux SCP: Containment Breach** ou ce dont vous avez besoin pour commencer ? Pas de panique, on s’occupe de tout ! On va vous guider pas à pas – des outils et infos nécessaires jusqu’au processus de connexion, en passant par les points clés pour assurer une connexion fluide et sans galère. Suivez notre guide et vous serez connecté en un rien de temps !
+Tu ne sais pas comment te connecter à ton **serveur de jeux SCP: Containment Breach** ou ce qu’il te faut pour commencer ? Pas de stress, on est là pour toi ! On va te guider à travers tout ce dont tu as besoin. Des outils et infos indispensables jusqu’au processus de connexion en lui-même, avec les points clés pour assurer une connexion fluide et sans galère. Suis notre guide et tu seras connecté en un rien de temps !
 
 <InlineVoucher />
 
 
 
-## Obtenir les infos du serveur
+## Récupère les infos du serveur
 
 
-Vous aurez besoin de toutes les infos nécessaires pour vous connecter à votre serveur. Ces infos se trouvent sur le tableau de bord de votre panneau web du serveur de jeux. Les infos importantes incluent :
+Tu auras besoin de toutes les infos nécessaires pour te connecter à ton serveur. Ces infos se trouvent dans le tableau de bord de ton panneau web de serveur de jeux. Les infos importantes sont les suivantes :
 
 - Adresse IP et port
 - Nom du serveur
 - Mot de passe du serveur
 
 
-Avec ces infos, vous pourrez localiser votre serveur et vous assurer de vous connecter au bon serveur.
+Avec ces infos, tu devrais pouvoir localiser ton serveur et t’assurer de te connecter au bon serveur.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/m6LCTXfYe9nnXsB/preview)
 
-## Établir la connexion au serveur
+## Établis la connexion au serveur
 
 
 La connexion à un serveur de jeux peut souvent se faire de plusieurs façons. Les méthodes disponibles sont décrites et expliquées en détail ci-dessous.
@@ -41,7 +41,7 @@ La connexion à un serveur de jeux peut souvent se faire de plusieurs façons. L
 <Tabs>
     <TabItem value="connect_solution_server_browser_ingame" label="Navigateur de serveurs Connexion directe (En jeu)" default>
 
-Lancez le jeu et allez dans le menu **Multijoueur**. Sélectionnez l’option **Connexion directe** dans la liste des serveurs et remplissez l’adresse IP et le port de votre serveur. Ensuite, établissez la connexion en cliquant sur le bouton **Connecter**.
+Lance le jeu et va dans le menu **Multijoueur**. Sélectionne l’option **Connexion directe** dans la liste des serveurs et remplis l’adresse IP et le port de ton serveur. Ensuite, établis la connexion en cliquant sur le bouton **Connecter**.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/6wZCFoKKiG4DEaj/download)
 
@@ -59,18 +59,20 @@ La connexion à un serveur de jeux peut souvent se faire de plusieurs façons. L
 #### Serveur non visible
 
 
-Le serveur peut ne pas être visible si l’initialisation n’a pas été complétée avec succès. Cela peut être dû par exemple à une mauvaise configuration ou à des fichiers corrompus. Vous trouverez souvent plus d’infos dans la console du serveur ou les fichiers logs.
+Le serveur peut ne pas être visible si l’initialisation n’a pas été complétée avec succès. Cela peut être dû par exemple à une mauvaise configuration ou à des fichiers corrompus. Tu peux généralement trouver plus d’infos dans la console du serveur ou les fichiers logs.
 
 
 
-#### Pas de solution ou pas utile
+#### Solution manquante ou pas utile
 
 
-Vous avez toujours des soucis après avoir essayé ? Pas de souci, notre équipe support est dispo tous les jours pour vous aider. Créez simplement un **[Ticket](https://zap-hosting.com/en/customer/support/)** sur notre site et expliquez-nous votre problème avec un max de détails. On s’en occupera au plus vite et on vous aidera à résoudre ça !
+Tu as toujours des soucis après avoir essayé ? Pas de panique, notre équipe support est dispo tous les jours pour t’aider. Crée simplement un **[Ticket](https://zap-hosting.com/en/customer/support/)** sur notre site et explique-nous ton problème avec un max de détails. On va jeter un œil rapidement et t’aider à résoudre ça au plus vite !
+
+
 
 ## Conclusion
 
-Félicitations, si vous avez suivi toutes les étapes, vous devriez être connecté au serveur sans problème. Pour toute question ou aide supplémentaire, n’hésitez pas à contacter notre support, disponible tous les jours pour vous filer un coup de main ! 🙂
+Félicitations, si tu as suivi tout ça, tu devrais être connecté au serveur sans problème. Pour toute question ou besoin d’aide, n’hésite pas à contacter notre équipe support, dispo tous les jours pour te filer un coup de main ! 🙂
 
 
 

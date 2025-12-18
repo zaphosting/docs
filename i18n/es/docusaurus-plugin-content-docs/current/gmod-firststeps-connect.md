@@ -14,7 +14,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 
 ## Introducción
-¿No sabes cómo conectarte a tu **servidor de juegos Garry's Mod** o qué necesitas para empezar? No te preocupes, ¡te tenemos cubierto! Te guiaremos por todo lo que necesitas: desde las herramientas e información necesarias hasta el proceso real de conexión, junto con consideraciones clave para asegurar una conexión fluida y sin problemas. Sigue nuestra guía y estarás conectado en un abrir y cerrar de ojos.
+¿No sabes cómo conectarte a tu **servidor de juegos Garry's Mod** o qué necesitas para empezar? ¡No te preocupes, aquí te ayudamos! Te guiaremos por todo lo que necesitas. Desde las herramientas e información necesarias hasta el proceso real de conexión, junto con consideraciones clave para asegurar una conexión fluida y sin problemas. Sigue nuestra guía y estarás conectado en un abrir y cerrar de ojos.
 
 <InlineVoucher />
 
@@ -23,7 +23,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 ## Obtén los datos del servidor
 
 
-Vas a necesitar toda la información relevante para conectarte a tu servidor. La información sobre tu servidor la puedes encontrar en el panel web de tu servidor de juegos, en el panel de control. La información importante incluye lo siguiente:
+Vas a necesitar toda la información relevante para conectarte a tu servidor. La información sobre tu servidor la puedes encontrar en el panel web del panel de control de tu servidor de juegos. La información importante incluye lo siguiente:
 
 - Dirección IP y puerto
 - Nombre del servidor
@@ -42,7 +42,7 @@ La conexión a un servidor de juegos suele poder establecerse de una o más form
 <Tabs>
     <TabItem value="connect_solution_server_browser_ingame" label="Navegador de servidores (En el juego)" default>
 
-Para conectarte a tu servidor a través del navegador de servidores dentro del juego, abre el navegador de servidores en el menú principal. Para ello, haz clic en **Buscar juego multijugador** y luego abre el **Navegador Legacy**. Una vez allí, busca tu servidor usando el **campo de búsqueda** y el nombre de tu servidor, y luego haz clic en **Conectar**.
+Para conectarte a tu servidor a través del navegador de servidores dentro del juego, abre el navegador de servidores en el menú principal. Para ello, haz clic en **Buscar juego multijugador** y luego abre el **Navegador Legacy**. Una vez allí, busca tu servidor usando el **campo de búsqueda** y el nombre de tu servidor y luego haz clic en **Conectar**.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/XFpND5FA4ZAxfHq/download)
 
@@ -54,7 +54,7 @@ Para conectarte a tu servidor a través del navegador de servidores dentro del j
 
 Para conectarte a tu servidor a través del navegador de servidores de Steam, abre el navegador desde Steam. Haz clic en `Ver` en la parte superior de la navegación de Steam y luego en la sección `Servidor de juegos` para abrirlo. 
 
-Busca o añade tu servidor usando el navegador de Steam con la `dirección IP` y el `puerto` de tu servidor de juegos. Para ello, selecciona la pestaña `Favoritos` en la lista de servidores y haz clic en el símbolo de más en la parte inferior. Se abrirá una ventana emergente donde especificarás la información de tu servidor. 
+Busca o añade tu servidor mediante el navegador de Steam usando la `dirección IP` y el `puerto` de tu servidor de juegos. Para ello, selecciona la pestaña `Favoritos` en la lista de servidores y haz clic en el símbolo de más en la parte inferior. Se abrirá una ventana emergente donde especificarás la información de tu servidor. 
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/MMsokw2ZyCreeCN/download)
 

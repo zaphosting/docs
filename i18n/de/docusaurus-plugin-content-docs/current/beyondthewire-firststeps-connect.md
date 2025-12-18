@@ -1,6 +1,6 @@
 ---
 id: beyondthewire-firststeps-connect
-title: "Beyond the Wire: Verbindung zum Server herstellen"
+title: "Beyond the Wire: Verbindung zum Server"
 description: "Entdecke, wie du dich nahtlos mit deinem Beyond the Wire Gameserver verbindest und häufige Probleme für ein reibungsloses Spielerlebnis löst → Jetzt mehr erfahren"
 sidebar_label: Verbindung zum Server
 services:
@@ -14,7 +14,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 
 ## Einführung
-Du bist dir nicht sicher, wie du dich mit deinem **Beyond the Wire** Gameserver verbindest oder was du dafür brauchst? Kein Stress, wir haben alles für dich am Start! Wir führen dich durch alles, was du brauchst – von den nötigen Tools und Infos bis hin zum eigentlichen Verbindungsprozess, inklusive wichtiger Tipps, damit alles smooth und ohne Probleme läuft. Folge unserer Anleitung und du bist im Handumdrehen verbunden!
+Du bist dir nicht sicher, wie du dich mit deinem **Beyond the Wire** Gameserver verbindest oder was du dafür brauchst? Kein Stress, wir haben alles für dich am Start! Wir führen dich durch alles, was du wissen musst. Von den nötigen Tools und Infos bis hin zum eigentlichen Verbindungsprozess – inklusive wichtiger Tipps, damit alles smooth und ohne Probleme läuft. Folge unserer Anleitung und du bist im Handumdrehen verbunden!
 
 <InlineVoucher />
 
@@ -23,7 +23,7 @@ Du bist dir nicht sicher, wie du dich mit deinem **Beyond the Wire** Gameserver 
 ## Serverdetails besorgen
 
 
-Du brauchst alle relevanten Infos, um dich mit deinem Server zu verbinden. Die Infos zu deinem Server findest du im Dashboard deines Gameserver-Webinterface-Panels. Wichtige Infos sind unter anderem:
+Du brauchst alle relevanten Infos, um dich mit deinem Server zu verbinden. Die Infos zu deinem Server findest du im Dashboard deines Gameserver-Webinterface-Panels. Wichtige Details sind unter anderem:
 
 - Servername
 
@@ -35,7 +35,7 @@ Mit den oben genannten Infos solltest du deinen Server finden und sicherstellen 
 ## Verbindung zum Server herstellen
 
 
-Die Verbindung zu einem Gameserver kann oft auf eine oder mehrere Arten hergestellt werden. Verfügbare Methoden werden unten beschrieben und detailliert erklärt.
+Die Verbindung zu einem Gameserver kann oft auf eine oder mehrere Arten hergestellt werden. Die verfügbaren Methoden werden im Folgenden detailliert beschrieben und erklärt.
 
 <Tabs>
     <TabItem value="connect_solution_server_browser_ingame" label="Server Browser (Im Spiel)" default>
@@ -53,7 +53,7 @@ Um dich mit deinem Server zu verbinden, öffne das Spiel und gehe zu **Multiplay
 ## Mögliche Probleme und Lösungen
 
 
-Die Verbindung zu einem Gameserver kann oft auf eine oder mehrere Arten hergestellt werden. Verfügbare Methoden werden unten beschrieben und detailliert erklärt.
+Die Verbindung zu einem Gameserver kann oft auf eine oder mehrere Arten hergestellt werden. Die verfügbaren Methoden werden im Folgenden detailliert beschrieben und erklärt.
 
 #### Nicht sichtbar
 
@@ -71,7 +71,7 @@ Du hast nach der Fehlerbehebung immer noch Probleme? Kein Ding, unser Support-Te
 
 ## Fazit
 
-Glückwunsch, wenn du alles befolgt hast, solltest du jetzt erfolgreich mit dem Server verbunden sein. Bei weiteren Fragen oder wenn du Hilfe brauchst, zögere nicht, unser Support-Team zu kontaktieren – wir sind täglich für dich da! 🙂
+Glückwunsch, wenn du alles befolgt hast, solltest du jetzt erfolgreich mit dem Server verbunden sein. Für weitere Fragen oder Hilfe steht dir unser Support-Team täglich zur Verfügung! 🙂
 
 
 

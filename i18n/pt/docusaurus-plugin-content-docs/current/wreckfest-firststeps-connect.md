@@ -1,7 +1,7 @@
 ---
 id: wreckfest-firststeps-connect
 title: "Wreckfest: Conecte-se ao servidor"
-description: "Descubra como se conectar ao seu servidor de jogos Wreckfest de forma tranquila e resolva problemas comuns para uma experiência de jogo sem interrupções → Saiba mais agora"
+description: "Descubra como se conectar ao seu servidor de jogos Wreckfest de forma fácil e resolva problemas comuns para uma experiência de jogo sem interrupções → Saiba mais agora"
 sidebar_label: Conectar ao servidor
 services:
   - gameserver-wreckfest
@@ -13,7 +13,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 
 ## Introdução
-Não sabe como se conectar ao seu servidor de jogos **Wreckfest** ou o que precisa para começar? Relaxa, a gente te ajuda! Vamos te guiar por tudo que você precisa – desde as ferramentas e informações necessárias até o processo real de conexão, junto com pontos importantes para garantir uma conexão suave e sem problemas. Siga nosso guia e você estará conectado rapidinho!
+Não sabe como se conectar ao seu servidor de jogos **Wreckfest** ou o que precisa para começar? Relaxa, a gente te ajuda! Vamos te guiar por tudo que você precisa. Desde as ferramentas e informações necessárias até o processo real de conexão, junto com pontos importantes para garantir uma conexão tranquila e sem problemas. Siga nosso guia e você estará conectado rapidinho!
 
 <InlineVoucher />
 
@@ -39,7 +39,7 @@ A conexão a um servidor de jogos pode ser feita de uma ou mais formas. Os méto
 <Tabs>
     <TabItem value="connect_solution_server_browser_ingame" label="Navegador de servidores (No jogo)" default>
 
-Para se conectar ao seu servidor, abra o navegador de servidores no menu principal. Para isso, clique em **Multiplayer** e navegue até **Navegador de servidores**. Uma vez lá, busque seu servidor usando o nome do servidor.
+Para se conectar ao seu servidor, abra o navegador de servidores no menu principal. Para isso, clique em **Multiplayer** e navegue até **Navegador de servidores**. Uma vez lá, procure seu servidor usando o nome do servidor.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/EiMyRKBfXTBAfjf/download)
 
@@ -61,7 +61,7 @@ A falta de visibilidade do servidor pode acontecer se a inicialização não foi
 
 
 
-#### Solução não encontrada ou não ajudou
+#### Solução ausente ou não útil
 
 
 Ainda com problemas depois de tentar resolver? Nesse caso, nosso time de suporte está disponível diariamente para ajudar. É só criar um **[Ticket](https://zap-hosting.com/en/customer/support/)** no nosso site e explicar seu problema com o máximo de detalhes possível. Vamos analisar rapidinho e te ajudar a resolver o problema!

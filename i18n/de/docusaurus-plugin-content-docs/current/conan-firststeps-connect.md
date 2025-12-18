@@ -1,7 +1,7 @@
 ---
 id: conan-firststeps-connect
 title: "Conan Exiles: Verbindung zum Server herstellen"
-description: "Entdecke, wie du dich reibungslos mit deinem Conan Exiles Gameserver verbindest und ununterbrochen zocken kannst → Jetzt mehr erfahren"
+description: "Entdecke, wie du dich reibungslos mit deinem Conan Exiles Gameserver verbindest und ununterbrochen zockst → Jetzt mehr erfahren"
 sidebar_label: Verbindung zum Server
 services:
   - gameserver-conan
@@ -14,7 +14,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 
 ## Einführung
-Du bist dir nicht sicher, wie du dich mit deinem **Conan Exiles** Gameserver verbindest oder was du dafür brauchst? Kein Stress, wir helfen dir! Wir zeigen dir alles, was du brauchst – von den nötigen Tools und Infos bis hin zum eigentlichen Verbindungsprozess, inklusive wichtiger Tipps, damit alles glatt läuft und du ohne Probleme zocken kannst. Folge unserer Anleitung und du bist im Handumdrehen verbunden!
+Du bist dir nicht sicher, wie du dich mit deinem **Conan Exiles** Gameserver verbindest oder was du dafür brauchst? Kein Stress, wir helfen dir! Wir zeigen dir alles, was du wissen musst. Von den nötigen Tools und Infos bis hin zum eigentlichen Verbindungsprozess – inklusive wichtiger Tipps, damit alles glatt läuft und du ohne Probleme zocken kannst. Folge unserer Anleitung und du bist im Handumdrehen verbunden!
 
 <InlineVoucher />
 
@@ -23,21 +23,21 @@ Du bist dir nicht sicher, wie du dich mit deinem **Conan Exiles** Gameserver ver
 ## Serverdetails besorgen
 
 
-Du brauchst alle wichtigen Infos, um dich mit deinem Server zu verbinden. Diese findest du im Dashboard deines Gameserver-Webinterface-Panels. Wichtige Infos sind unter anderem:
+Du brauchst alle relevanten Infos, um dich mit deinem Server zu verbinden. Diese findest du im Dashboard deines Gameserver-Webinterface-Panels. Wichtige Infos sind unter anderem:
 
 - IP-Adresse und Port
 - Servername
 - Serverpasswort (optional)
 
 
-Mit diesen Infos kannst du deinen Server finden und sicherstellen, dass du dich mit dem richtigen Server verbindest.
+Mit diesen Angaben kannst du deinen Server finden und sicherstellen, dass du dich mit dem richtigen Server verbindest.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/bfY3jXxMbyr5zAG/preview)
 
 ## Verbindung zum Server herstellen
 
 
-Die Verbindung zu einem Gameserver kann oft auf verschiedene Arten erfolgen. Die verfügbaren Methoden werden hier beschrieben und erklärt.
+Die Verbindung zu einem Gameserver kann oft auf verschiedene Arten erfolgen. Die verfügbaren Methoden werden hier detailliert beschrieben und erklärt.
 
 <Tabs>
 
@@ -65,7 +65,7 @@ Um dich mit deinem Server zu verbinden, geh im Spiel auf **Online spielen**. Die
 ## Mögliche Probleme und Lösungen
 
 
-Die Verbindung zu einem Gameserver kann oft auf verschiedene Arten erfolgen. Die verfügbaren Methoden werden hier beschrieben und erklärt.
+Die Verbindung zu einem Gameserver kann oft auf verschiedene Arten erfolgen. Die verfügbaren Methoden werden hier detailliert beschrieben und erklärt.
 
 #### Nicht sichtbar
 
@@ -83,7 +83,7 @@ Du hast nach der Fehlerbehebung immer noch Probleme? Kein Ding, unser Support-Te
 
 ## Fazit
 
-Glückwunsch, wenn du alles befolgt hast, solltest du jetzt erfolgreich mit dem Server verbunden sein. Bei weiteren Fragen oder wenn du Hilfe brauchst, steht dir unser Support-Team täglich zur Seite! 🙂
+Glückwunsch, wenn du alles befolgt hast, solltest du jetzt erfolgreich mit dem Server verbunden sein. Bei weiteren Fragen oder wenn du Hilfe brauchst, steht dir unser Support-Team täglich zur Verfügung! 🙂
 
 
 

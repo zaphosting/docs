@@ -1,7 +1,7 @@
 ---
 id: vserver-iso
 title: "VPS: Montar un archivo ISO"
-description: "Descubre cómo personalizar tu VPS con tu ISO favorita para tener control total sobre tu entorno de servidor → Aprende más ahora"
+description: "Descubre cómo personalizar tu VPS con tu ISO preferida para tener control total sobre tu entorno de servidor → Aprende más ahora"
 sidebar_label: Montar archivo ISO
 services:
   - vserver
@@ -22,12 +22,12 @@ import items from '@site/data/lists/vserver-iso-files-en.json';
 
 ## Archivos ISO disponibles
 
-Además de nuestras plantillas estándar de SO preconfiguradas, también ofrecemos la opción de montar archivos ISO adicionales. Esto te da aún más flexibilidad al configurar y gestionar tu entorno de servidor. Nuestros productos VPS actualmente soportan los siguientes archivos ISO: 
+Además de nuestras plantillas estándar de SO preconfiguradas, también ofrecemos la opción de montar archivos ISO adicionales. Esto te brinda aún más flexibilidad al configurar y gestionar tu entorno de servidor. Actualmente, nuestros productos VPS soportan los siguientes archivos ISO: 
 
 <SearchableItemList items={items} />
 
 :::info ¿Falta algún archivo ISO?
-¿Hay algún ISO específico que te gustaría usar y no está disponible? Solo contacta a nuestro equipo de soporte – con gusto revisaremos si podemos añadirlo para ti.
+¿Hay alguna ISO específica que te gustaría usar y que no esté disponible? Solo contacta a nuestro equipo de soporte, con gusto verificaremos si podemos añadirla para ti.
 :::
 
 
@@ -45,7 +45,7 @@ Después del reinicio, puedes conectarte a tu servidor usando el cliente VNC y c
 
 :::warning Estado en línea o conexiones remotas después de montar el ISO
 
-Después de montar un ISO, tu servidor aún no está configurado. Por eso, no se mostrará ningún **estado en línea** en el panel, y las conexiones **RDP** o **SSH** no estarán disponibles. Estas solo serán accesibles una vez que el sistema operativo haya sido instalado y configurado correctamente.
+Después de montar un ISO, tu servidor aún no está configurado. Por lo tanto, no se mostrará ningún **estado en línea** en el panel, y las conexiones **RDP** o **SSH** no estarán disponibles. Estas solo serán accesibles una vez que el sistema operativo haya sido instalado y configurado correctamente.
 
 :::
 

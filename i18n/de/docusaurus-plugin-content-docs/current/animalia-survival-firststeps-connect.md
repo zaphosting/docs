@@ -1,7 +1,7 @@
 ---
 id: animalia-survival-firststeps-connect
 title: "Animalia Survival: Mit dem Server verbinden"
-description: "Entdecke, wie du dich reibungslos mit deinem Animalia Survival Server verbindest und ununterbrochen zocken kannst → Jetzt mehr erfahren"
+description: "Entdecke, wie du dich reibungslos mit deinem Animalia Survival Server verbindest und ununterbrochen zockst → Jetzt mehr erfahren"
 sidebar_label: Mit dem Server verbinden
 services:
   - gameserver-animalia-survival
@@ -14,7 +14,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 
 ## Einführung
-Du bist dir nicht sicher, wie du dich mit deinem **Animalia Survival** Server verbindest oder was du dafür brauchst? Kein Stress, wir haben alles für dich am Start! Wir zeigen dir Schritt für Schritt, was du brauchst – von den nötigen Tools und Infos bis hin zum eigentlichen Verbindungsprozess, inklusive wichtiger Tipps, damit alles smooth und ohne Probleme läuft. Folge unserer Anleitung und du bist im Handumdrehen verbunden!
+Du bist dir nicht sicher, wie du dich mit deinem **Animalia Survival** Server verbindest oder was du dafür brauchst? Kein Stress, wir haben alles für dich am Start! Wir zeigen dir Schritt für Schritt, was du brauchst – von den nötigen Tools und Infos bis hin zum eigentlichen Verbindungsprozess. Außerdem geben wir dir wichtige Tipps, damit alles smooth und ohne Probleme läuft. Folge unserer Anleitung und du bist im Handumdrehen verbunden!
 
 <InlineVoucher />
 
@@ -35,12 +35,12 @@ Mit diesen Infos kannst du deinen Server finden und sicherstellen, dass du dich 
 ## Verbindung zum Server herstellen
 
 
-Die Verbindung zu einem Gameserver kann oft auf verschiedene Arten hergestellt werden. Die verfügbaren Methoden werden hier detailliert beschrieben und erklärt.
+Die Verbindung zu einem Gameserver kann oft auf verschiedene Arten hergestellt werden. Die verfügbaren Methoden werden hier detailliert erklärt.
 
 <Tabs>
-    <TabItem value="connect_solution_server_browser_ingame" label="Server Browser (Im Spiel)" default>
+    <TabItem value="connect_solution_server_browser_ingame" label="Serverbrowser (Im Spiel)" default>
 
-Um dich über den Ingame-Serverbrowser mit deinem Server zu verbinden, öffne den Serverbrowser im Hauptmenü. Klicke dazu auf **Multiplayer**, suche deinen Server in der Liste mit dem Servernamen. Wähle den Server aus und klicke auf **Verbinden**. Dann wähle einen Slot und ein Tier, um zu starten.
+Um dich über den Serverbrowser im Spiel zu verbinden, öffne den Serverbrowser im Hauptmenü. Klicke dazu auf **Multiplayer**, suche deinen Server in der Liste über den Servernamen. Wähle den Server aus und klicke auf **Verbinden**. Dann wählst du einen Slot und ein Tier aus, um zu starten.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/NYkC7PBLm8zFo7E/download)
 
@@ -53,7 +53,7 @@ Um dich über den Ingame-Serverbrowser mit deinem Server zu verbinden, öffne de
 ## Mögliche Probleme und Lösungen
 
 
-Die Verbindung zu einem Gameserver kann oft auf verschiedene Arten hergestellt werden. Die verfügbaren Methoden werden hier detailliert beschrieben und erklärt.
+Die Verbindung zu einem Gameserver kann oft auf verschiedene Arten hergestellt werden. Die verfügbaren Methoden werden hier detailliert erklärt.
 
 #### Nicht sichtbar
 
@@ -65,13 +65,13 @@ Wenn der Server nicht sichtbar ist, kann das daran liegen, dass die Initialisier
 #### Keine Lösung gefunden oder nicht hilfreich
 
 
-Du hast nach der Fehlerbehebung immer noch Probleme? Kein Ding, unser Support-Team ist täglich für dich da! Erstelle einfach ein **[Ticket](https://zap-hosting.com/en/customer/support/)** auf unserer Website und beschreibe dein Problem so genau wie möglich. Wir schauen uns das schnellstmöglich an und helfen dir, das Problem zu lösen!
+Du hast nach der Fehlersuche immer noch Probleme? Kein Ding, unser Support-Team ist täglich für dich da! Erstelle einfach ein **[Ticket](https://zap-hosting.com/en/customer/support/)** auf unserer Website und beschreibe dein Problem so genau wie möglich. Wir schauen uns das schnellstmöglich an und helfen dir, das Problem zu lösen!
 
 
 
 ## Fazit
 
-Glückwunsch, wenn du alles befolgt hast, solltest du jetzt erfolgreich mit dem Server verbunden sein. Bei weiteren Fragen oder wenn du Hilfe brauchst, steht dir unser Support-Team täglich zur Verfügung! 🙂
+Glückwunsch, wenn du alles befolgt hast, solltest du jetzt erfolgreich mit dem Server verbunden sein. Bei weiteren Fragen oder wenn du Hilfe brauchst, zögere nicht, unser Support-Team zu kontaktieren – wir sind täglich für dich da! 🙂
 
 
 

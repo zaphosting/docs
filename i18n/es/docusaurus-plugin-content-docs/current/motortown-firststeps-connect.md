@@ -13,16 +13,16 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 
 ## Introducción
-¿No sabes cómo conectarte a tu servidor de **Motor Town: Behind The Wheel** o qué necesitas para empezar? ¡No te preocupes, aquí te ayudamos! Te guiaremos por todo lo que necesitas: desde las herramientas e información necesarias hasta el proceso de conexión, junto con consideraciones clave para asegurar una experiencia fluida y sin problemas. Sigue nuestra guía y estarás conectado en un abrir y cerrar de ojos.
+¿No sabes cómo conectarte a tu servidor de **Motor Town: Behind The Wheel** o qué necesitas para empezar? ¡No te preocupes, aquí te ayudamos! Te guiaremos por todo lo que necesitas. Desde las herramientas e información necesarias hasta el proceso real de conexión, junto con consideraciones clave para asegurar una experiencia de conexión fluida y sin problemas. Sigue nuestra guía y estarás conectado en un abrir y cerrar de ojos.
 
 <InlineVoucher />
 
 
 
-## Obtén los detalles del servidor
+## Obtén los datos del servidor
 
 
-Vas a necesitar toda la información relevante para conectarte a tu servidor. La información sobre tu servidor la puedes encontrar en el panel web de tu servidor de juegos. La información importante incluye lo siguiente:
+Vas a necesitar toda la información relevante para conectarte a tu servidor. La información sobre tu servidor la puedes encontrar en el panel web del panel de control de tu servidor de juegos. La información importante incluye lo siguiente:
 
 - Dirección IP y puerto
 - Nombre del servidor
@@ -39,7 +39,7 @@ Con la información mencionada arriba, deberías poder localizar tu servidor y a
 La conexión a un servidor de juegos a menudo se puede establecer de una o más formas. Los métodos disponibles se describen y explican en detalle a continuación.
 
 <Tabs>
-    <TabItem value="connect_solution_server_browser_ingame" label="Navegador de servidores (En el juego)" default>
+    <TabItem value="connect_solution_server_browser_ingame" label="Navegador de servidores (Dentro del juego)" default>
 
 Inicia el juego y navega a **Unirse** para abrir la lista de servidores. Usa el campo de búsqueda para buscar tu servidor por nombre. Establece la conexión haciendo clic en el botón **Conectar**.
 
@@ -51,7 +51,7 @@ Inicia el juego y navega a **Unirse** para abrir la lista de servidores. Usa el 
 
 
 
-Para conectarte a tu servidor a través del navegador de servidores de Steam, abre el navegador desde Steam. Haz clic en `Ver` en la parte superior de la navegación de Steam y luego en la sección `Servidor de juegos` para abrirlo. 
+Para conectarte a tu servidor a través del navegador de servidores de Steam, abre el navegador de servidores desde Steam. Haz clic en `Ver` en la parte superior de la navegación de Steam y luego en la sección `Servidor de juegos` para abrirlo. 
 
 Busca o añade tu servidor usando el navegador de Steam con la `dirección IP` y el `puerto` de tu servidor de juegos. Para hacerlo, selecciona la pestaña `Favoritos` en la lista de servidores y haz clic en el símbolo de más en la parte inferior. Se abrirá una ventana emergente donde especificarás la información de tu servidor. 
 
@@ -85,7 +85,7 @@ La falta de visibilidad del servidor puede ocurrir si la inicialización no se c
 
 ## Conclusión
 
-¡Felicidades! Si seguiste todo al pie de la letra, deberías haber establecido la conexión con el servidor exitosamente. Para más preguntas o ayuda, no dudes en contactar a nuestro equipo de soporte, que está disponible todos los días para asistirte 🙂
+¡Felicidades! Si seguiste todo, deberías haber establecido la conexión al servidor con éxito. Para más preguntas o ayuda, no dudes en contactar a nuestro equipo de soporte, que está disponible todos los días para asistirte 🙂
 
 
 

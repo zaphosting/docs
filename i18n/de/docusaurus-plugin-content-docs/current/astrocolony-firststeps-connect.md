@@ -1,7 +1,7 @@
 ---
 id: astrocolony-firststeps-connect
 title: "Astro Colony: Mit dem Server verbinden"
-description: "Entdecke, wie du dich problemlos mit deinem Astro Colony Gameserver verbindest und direkt loslegst → Jetzt mehr erfahren"
+description: "Entdecke, wie du dich reibungslos mit deinem Astro Colony Server verbindest und ohne Stress loslegst → Jetzt mehr erfahren"
 sidebar_label: Mit dem Server verbinden
 services:
   - gameserver-astrocolony
@@ -13,7 +13,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 
 ## Einführung
-Du bist dir nicht sicher, wie du dich mit deinem **Astro Colony** Gameserver verbindest oder was du dafür brauchst? Kein Stress, wir haben alles für dich am Start! Wir führen dich durch alles, was du brauchst – von den nötigen Tools und Infos bis hin zum eigentlichen Verbindungsprozess, inklusive wichtiger Tipps für eine reibungslose und stressfreie Verbindung. Folge unserer Anleitung und du bist im Handumdrehen verbunden!
+Du bist dir nicht sicher, wie du dich mit deinem **Astro Colony** Gameserver verbindest oder was du dafür brauchst? Kein Stress, wir haben alles für dich am Start! Wir führen dich durch alles, was du wissen musst. Von den nötigen Tools und Infos bis hin zum eigentlichen Verbindungsprozess – inklusive wichtiger Tipps, damit alles smooth und ohne Probleme klappt. Folge unserer Anleitung und du bist im Handumdrehen verbunden!
 
 <InlineVoucher />
 
@@ -53,7 +53,7 @@ Starte das Spiel und gehe zu **Multiplayer**, um die Serverliste zu öffnen. Nut
 
 Um dich über den Steam Server Browser mit deinem Server zu verbinden, öffne den Server Browser in Steam. Klicke oben in der Steam-Navigation auf `Ansicht` und dann auf den Bereich `Game Server`, um ihn zu öffnen. 
 
-Suche oder füge deinen Server über den Steam Browser hinzu, indem du die `IP-Adresse` und den `Port` deines Gameservers nutzt. Wähle dazu den Tab `Favoriten` in der Serverliste und klicke unten auf das Plus-Symbol. Ein Pop-up-Fenster öffnet sich, in dem du deine Serverdaten eingibst. 
+Suche oder füge deinen Server über den Steam Browser hinzu, indem du die `IP-Adresse` und den `Port` deines Gameservers nutzt. Wähle dazu den Tab `Favoriten` in der Serverliste und klicke unten auf das Plus-Symbol. Es öffnet sich ein Pop-up, in dem du deine Serverdaten eingibst. 
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/MMsokw2ZyCreeCN/download)
 
@@ -76,10 +76,10 @@ Wenn der Server nicht sichtbar ist, kann das daran liegen, dass die Initialisier
 
 
 
-#### Keine Lösung gefunden oder nicht hilfreich
+#### Keine Lösung gefunden oder keine Hilfe
 
 
-Du hast nach der Fehlerbehebung immer noch Probleme? Kein Ding, unser Support-Team ist täglich für dich da! Erstelle einfach ein **[Ticket](https://zap-hosting.com/en/customer/support/)** auf unserer Website und beschreibe dein Problem so detailliert wie möglich. Wir schauen uns das schnellstmöglich an und helfen dir, das Problem zu lösen!
+Du hast nach der Fehlerbehebung immer noch Probleme? Kein Ding, unser Support-Team steht dir täglich zur Seite. Erstelle einfach ein **[Ticket](https://zap-hosting.com/en/customer/support/)** auf unserer Website und beschreibe dein Problem so detailliert wie möglich. Wir schauen uns das schnellstmöglich an und helfen dir, das Problem zu lösen!
 
 
 

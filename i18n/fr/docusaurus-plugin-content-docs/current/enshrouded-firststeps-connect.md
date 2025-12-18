@@ -13,21 +13,21 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 
 ## Introduction
-Vous ne savez pas comment vous connecter à votre **serveur de jeux Enshrouded** ou ce dont vous avez besoin pour commencer ? Pas de souci, on s’occupe de tout ! On va vous guider à travers tout ce qu’il faut – des outils et infos nécessaires jusqu’au processus de connexion en lui-même, avec les points clés pour assurer une connexion fluide et sans galère. Suivez notre guide et vous serez connecté en un rien de temps !
+Vous ne savez pas comment vous connecter à votre **serveur de jeux Enshrouded** ou ce dont vous avez besoin pour commencer ? Pas de souci, on s’occupe de tout ! On va vous guider à travers tout ce qu’il faut. Des outils et infos nécessaires jusqu’au processus de connexion, en passant par les points clés pour assurer une connexion fluide et sans prise de tête. Suivez notre guide et vous serez connecté en un rien de temps !
 
 <InlineVoucher />
 
 
 
-## Obtenez les infos du serveur
+## Obtenir les infos du serveur
 
-Vous aurez besoin de toutes les infos nécessaires pour vous connecter à votre serveur. Ces infos se trouvent dans le tableau de bord de votre panneau web du serveur de jeux. Les infos importantes sont les suivantes :
+Vous aurez besoin de toutes les infos nécessaires pour vous connecter à votre serveur. Ces infos se trouvent dans le tableau de bord de votre panneau web du serveur de jeux. Les infos importantes incluent :
 
 - Adresse IP et port
 - Nom du serveur
 - Mot de passe du serveur (optionnel)
 
-Avec ces infos, vous devriez pouvoir localiser votre serveur et vous assurer de vous connecter au bon serveur.
+Avec ces infos, vous devriez pouvoir localiser votre serveur et vous assurer de bien vous connecter au bon serveur.
 
 ![img](https://github.com/zaphosting/docs/assets/42719082/aaeee832-8cd0-4ac0-9769-f498eace4892)
 
@@ -40,7 +40,7 @@ La connexion à un serveur de jeux peut souvent se faire de plusieurs façons. L
 <Tabs>
     <TabItem value="connect_solution_server_browser_ingame" label="Navigateur de serveurs (en jeu)" default>
 
-Pour vous connecter à votre serveur via le navigateur de serveurs en jeu, ouvrez le jeu. Ensuite, cliquez sur **Jouer**, sélectionnez **Rejoindre** dans le menu de jeu, puis cliquez sur **Rechercher le nom du serveur** à droite. Une fenêtre pop-up s’ouvrira où vous devrez taper le nom de votre serveur puis cliquer sur rechercher. Votre serveur devrait alors apparaître.
+Pour vous connecter à votre serveur via le navigateur de serveurs en jeu, ouvrez le jeu. Cliquez ensuite sur **Jouer**, sélectionnez **Rejoindre** dans le menu de jeu, puis cliquez sur **Rechercher nom du serveur** à droite. Une fenêtre pop-up s’ouvrira où vous devrez taper le nom de votre serveur puis cliquer sur rechercher. Votre serveur devrait alors apparaître.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/8A9mAPabKRszQtK/download)
 
@@ -73,11 +73,11 @@ Le serveur peut ne pas être visible si l’initialisation n’a pas été compl
 
 #### Solution manquante ou pas utile
 
-Vous avez toujours des soucis après avoir essayé ? Pas de panique, notre équipe support est dispo tous les jours pour vous aider. Il suffit de créer un **[Ticket](https://zap-hosting.com/en/customer/support/)** sur notre site et de nous expliquer votre problème avec un max de détails. On regardera ça au plus vite et on vous aidera à résoudre le souci !
+Vous avez toujours des soucis après avoir essayé de résoudre le problème ? Pas de panique, notre équipe support est dispo tous les jours pour vous aider. Il vous suffit de créer un **[Ticket](https://zap-hosting.com/en/customer/support/)** sur notre site et de nous expliquer votre problème avec un max de détails. On regardera ça au plus vite et on vous aidera à régler ça !
 
 ## Conclusion
 
-Félicitations, si vous avez bien suivi tout ça, vous devriez être connecté avec succès à votre serveur. Pour toute question ou aide supplémentaire, n’hésitez pas à contacter notre équipe support, dispo tous les jours pour vous filer un coup de main ! 🙂
+Félicitations, si vous avez bien suivi tout ça, vous devriez être connecté avec succès à votre serveur. Pour toute autre question ou aide, n’hésitez pas à contacter notre équipe support, dispo tous les jours pour vous filer un coup de main ! 🙂
 
 
 

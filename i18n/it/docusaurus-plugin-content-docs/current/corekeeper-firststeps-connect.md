@@ -1,8 +1,8 @@
 ---
 id: corekeeper-firststeps-connect
-title: "Core Keeper: Connettiti al server"
+title: "Core Keeper: Connessione al server"
 description: "Scopri come connetterti al tuo server Core Keeper senza intoppi e risolvi i problemi comuni per un'esperienza di gioco fluida → Scopri di più ora"
-sidebar_label: Connettiti al server
+sidebar_label: Connessione al server
 services:
   -   - gameserver-corekeeper
 ---
@@ -13,7 +13,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 
 ## Introduzione
-Non sai come connetterti al tuo server **Core Keeper** o cosa ti serve per iniziare? Nessun problema, ci pensiamo noi! Ti guideremo passo passo su tutto ciò che ti serve – dagli strumenti e informazioni necessarie fino al processo di connessione vero e proprio, con i punti chiave per assicurarti una connessione liscia e senza intoppi. Segui la nostra guida e sarai connesso in un attimo!
+Non sai come connetterti al tuo server **Core Keeper** o cosa ti serve per iniziare? Nessun problema, ci pensiamo noi! Ti guideremo passo passo su tutto ciò che ti serve. Dai tool necessari e le info fondamentali fino al processo di connessione vero e proprio, con tutti i consigli per assicurarti una connessione liscia e senza intoppi. Segui la nostra guida e sarai connesso in un attimo!
 
 <InlineVoucher />
 
@@ -22,12 +22,12 @@ Non sai come connetterti al tuo server **Core Keeper** o cosa ti serve per inizi
 ## Ottieni i dettagli del server
 
 
-Ti serviranno tutte le informazioni rilevanti per connetterti al tuo server. Le info sul tuo server le trovi nel pannello web del tuo game server, nella dashboard. Le informazioni importanti includono:
+Ti serviranno tutte le informazioni necessarie per connetterti al tuo server. Puoi trovare i dati del tuo server nella dashboard del pannello web del tuo game server. Le info importanti includono:
 
 - Game ID
 
 
-Con le info sopra, dovresti riuscire a trovare il tuo server e assicurarti di connetterti a quello giusto.
+Con queste informazioni dovresti riuscire a individuare il tuo server e assicurarti di connetterti a quello giusto.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/wJdLedrzKeKCB4F/download)
 
@@ -39,7 +39,7 @@ La connessione a un game server può spesso essere fatta in uno o più modi. I m
 <Tabs>
     <TabItem value="connect_solution_server_joine" label="Entra nel gioco" default>
 
-Clicca su **Entra nel gioco** nel gioco e inserisci il **Game ID** copiato dal file di configurazione `Game ID` nel campo dedicato.
+Clicca su **Entra nel gioco** nel gioco e inserisci il **Game ID** copiato dal file di configurazione `Game ID` nel campo apposito.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/TNPSnD8YRKSoxsx/download)
 
@@ -64,13 +64,13 @@ Il server potrebbe non essere visibile se l’inizializzazione non è stata comp
 #### Nessuna soluzione o non utile
 
 
-Hai ancora problemi dopo aver provato a risolverli? Nessun problema, il nostro supporto è disponibile tutti i giorni per aiutarti. Crea semplicemente un **[Ticket](https://zap-hosting.com/en/customer/support/)** sul nostro sito e spiegaci il problema con più dettagli possibili. Daremo un’occhiata il prima possibile e ti aiuteremo a risolvere tutto!
+Hai ancora problemi dopo aver provato a risolverli? In questo caso, il nostro supporto è disponibile ogni giorno per darti una mano. Basta aprire un **[Ticket](https://zap-hosting.com/en/customer/support/)** sul nostro sito e spiegarci il problema con più dettagli possibili. Daremo un’occhiata il prima possibile e ti aiuteremo a risolvere tutto!
 
 
 
 ## Conclusione
 
-Complimenti, se hai seguito tutto dovresti essere connesso al server con successo. Per altre domande o supporto, non esitare a contattare il nostro team di supporto, disponibile ogni giorno per darti una mano! 🙂
+Complimenti, se hai seguito tutto dovresti essere connesso al server senza problemi. Per altre domande o supporto, non esitare a contattare il nostro team di supporto, sempre disponibile ogni giorno per aiutarti! 🙂
 
 
 

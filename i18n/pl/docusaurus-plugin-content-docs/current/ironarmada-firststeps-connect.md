@@ -14,7 +14,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 
 ## Wprowadzenie
-Nie wiesz, jak połączyć się ze swoim serwerem **Iron Armada** lub czego potrzebujesz, aby zacząć? Spokojnie, mamy to ogarnięte! Przeprowadzimy Cię przez wszystko, co potrzebne – od wymaganych narzędzi i informacji, po sam proces łączenia, wraz z kluczowymi wskazówkami, które zapewnią płynne i bezproblemowe połączenie. Skorzystaj z naszego poradnika, a połączysz się w mgnieniu oka!
+Nie wiesz, jak połączyć się ze swoim serwerem **Iron Armada** lub czego potrzebujesz, aby zacząć? Spokojnie, mamy to ogarnięte! Przeprowadzimy Cię przez wszystko, co potrzebne. Od wymaganych narzędzi i informacji, po sam proces łączenia, wraz z kluczowymi wskazówkami, które zapewnią płynne i bezproblemowe połączenie. Skorzystaj z naszego poradnika, a połączysz się w mgnieniu oka!
 
 <InlineVoucher />
 
@@ -23,7 +23,7 @@ Nie wiesz, jak połączyć się ze swoim serwerem **Iron Armada** lub czego potr
 ## Uzyskaj dane serwera
 
 
-Będziesz potrzebować wszystkich niezbędnych informacji, aby połączyć się z serwerem. Dane o Twoim serwerze znajdziesz w panelu głównym swojego serwera gier. Najważniejsze informacje to:
+Będziesz potrzebować wszystkich niezbędnych informacji do połączenia z serwerem. Dane o Twoim serwerze znajdziesz na panelu głównym swojego serwera gier. Najważniejsze informacje to:
 
 - Nazwa serwera
 - Adres IP i port
@@ -36,12 +36,12 @@ Dzięki powyższym informacjom łatwo znajdziesz swój serwer i upewnisz się, �
 ## Nawiąż połączenie z serwerem
 
 
-Połączenie z serwerem gier można często nawiązać na jeden lub kilka sposobów. Dostępne metody opisujemy i wyjaśniamy szczegółowo poniżej.
+Połączenie z serwerem gier można często nawiązać na jeden lub więcej sposobów. Dostępne metody opisujemy i wyjaśniamy szczegółowo poniżej.
 
 <Tabs>
     <TabItem value="connect_solution_server_browser_ingame" label="Przeglądarka serwerów (w grze)" default>
 
-Aby połączyć się z serwerem przez wbudowaną przeglądarkę serwerów w grze, otwórz ją klikając **Multiplayer** w menu głównym. Połączenie możesz nawiązać na liście serwerów, wybierając nazwę serwera lub przez **bezpośrednie połączenie** podając adres IP i port serwera. 
+Aby połączyć się z serwerem przez wbudowaną przeglądarkę serwerów w grze, otwórz ją klikając **Multiplayer** w menu głównym. Połączenie możesz nawiązać na liście serwerów, wybierając nazwę serwera lub przez **bezpośrednie połączenie** wpisując adres IP i port serwera. 
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/CsGzPijeayJQi8S/download)
 
@@ -55,7 +55,7 @@ Aby połączyć się z serwerem przez wbudowaną przeglądarkę serwerów w grze
 ## Możliwe problemy i rozwiązania
 
 
-Połączenie z serwerem gier można często nawiązać na jeden lub kilka sposobów. Dostępne metody opisujemy i wyjaśniamy szczegółowo poniżej.
+Połączenie z serwerem gier można często nawiązać na jeden lub więcej sposobów. Dostępne metody opisujemy i wyjaśniamy szczegółowo poniżej.
 
 #### Serwer niewidoczny
 
@@ -67,13 +67,13 @@ Brak widoczności serwera może się zdarzyć, jeśli inicjalizacja nie została
 #### Brak rozwiązania lub brak pomocy
 
 
-Wciąż masz problemy po próbie rozwiązania? W takim wypadku nasz zespół wsparcia jest dostępny codziennie, by Ci pomóc. Po prostu załóż **[Ticket](https://zap-hosting.com/en/customer/support/)** na naszej stronie i opisz swój problem jak najdokładniej. Sprawdzimy to najszybciej jak się da i pomożemy rozwiązać problem!
+Wciąż masz problemy po próbie rozwiązania? W takim wypadku nasz zespół wsparcia jest dostępny codziennie, aby Ci pomóc. Po prostu załóż **[Ticket](https://zap-hosting.com/en/customer/support/)** na naszej stronie i opisz problem jak najdokładniej. Sprawdzimy to najszybciej jak się da i pomożemy rozwiązać problem!
 
 
 
 ## Podsumowanie
 
-Gratulacje! Jeśli wykonałeś wszystko zgodnie z poradnikiem, powinieneś już być połączony z serwerem. W razie dalszych pytań lub potrzeby pomocy, nie wahaj się skontaktować z naszym zespołem wsparcia, który jest dostępny codziennie, by Ci pomóc! 🙂
+Gratulacje, jeśli wykonałeś wszystko zgodnie z poradnikiem, powinieneś już być połączony z serwerem. W razie dalszych pytań lub potrzeby pomocy, nie wahaj się skontaktować z naszym zespołem wsparcia, który jest dostępny codziennie, by Ci pomóc! 🙂
 
 
 

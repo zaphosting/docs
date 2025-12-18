@@ -13,7 +13,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 
 ## Introductie
-Weet je niet zeker hoe je verbinding maakt met je **RedM**-server of wat je nodig hebt om te starten? Geen stress, wij fixen het voor je! We nemen je mee door alles wat je nodig hebt – van de benodigde tools en info tot het daadwerkelijke verbindingsproces, inclusief belangrijke tips om alles soepel en zonder gedoe te laten verlopen. Volg onze gids en je bent zo verbonden!
+Weet je niet precies hoe je verbinding maakt met je **RedM** server of wat je nodig hebt om te starten? Geen stress, wij fixen het voor je! We nemen je stap voor stap mee. Van de benodigde tools en info tot het daadwerkelijke verbindingsproces, inclusief belangrijke tips voor een soepele en probleemloze connectie. Volg onze gids en je bent zo verbonden!
 
 <InlineVoucher />
 
@@ -46,7 +46,7 @@ De verbinding met een game server kan vaak op één of meerdere manieren worden 
 <Tabs>
     <TabItem value="connect_solution_server_browser_ingame" label="Server Browser (In-game)" default>
 
-Om via de in-game server browser verbinding te maken met je server, open je de server browser in het hoofdmenu door op **Play** te klikken. Klik in het zoekveld en typ de naam van je game server. Klik op de gevonden server en klik daarna op de knop **Connect** in het serveroverzicht.
+Om via de in-game server browser verbinding te maken met je server, open je de server browser in het hoofdmenu door op **Play** te klikken. Klik in het zoekveld en typ de naam van je game server. Klik op de server die je hebt gevonden en klik vervolgens op de **Connect** knop in het serveroverzicht.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/kZqRygE8m9P9HLJ/download)
 
@@ -56,7 +56,7 @@ Om via de in-game server browser verbinding te maken met je server, open je de s
 
 <TabItem value="connect_solution3" label="Console (In-game)">
 
-Om via de console verbinding te maken met je server, open je de console met de `F8`-toets. Zodra de console open is, voer je het volgende commando uit:
+Om via de console verbinding te maken met je server, open je de console met de `F8` toets. Zodra de console open is, voer je het volgende commando uit:
 
 ```
 connect IP:Port
@@ -79,13 +79,13 @@ Als de server niet zichtbaar is, kan dat komen doordat de initialisatie niet suc
 
 #### Oplossing mist of helpt niet
 
-Heb je nog steeds problemen na het troubleshooten? Geen zorgen, ons supportteam staat dagelijks voor je klaar. Maak gewoon een **[Ticket](https://zap-hosting.com/en/customer/support/)** aan op onze website en leg je probleem zo gedetailleerd mogelijk uit. Wij kijken er zo snel mogelijk naar en helpen je het probleem op te lossen!
+Heb je nog steeds problemen na het troubleshooten? Geen zorgen, ons supportteam staat dagelijks voor je klaar. Maak gewoon een **[Ticket](https://zap-hosting.com/en/customer/support/)** aan op onze website en leg je probleem zo gedetailleerd mogelijk uit. We kijken er zo snel mogelijk naar en helpen je het probleem op te lossen!
 
 
 
 ## Conclusie
 
-Gefeliciteerd, als je alles goed hebt gevolgd, ben je nu succesvol verbonden met de server. Heb je nog vragen of hulp nodig? Neem dan gerust contact op met ons supportteam, die dagelijks voor je klaarstaat! 🙂
+Gefeliciteerd, als je alles goed hebt gevolgd, ben je nu succesvol verbonden met de server. Voor verdere vragen of hulp, aarzel niet om contact op te nemen met ons supportteam, dat dagelijks voor je klaarstaat! 🙂
 
 
 

@@ -27,7 +27,7 @@ Le processus de commande est super simple. Choisis la configuration que tu veux 
 
 ## Configurations
 
-On propose plusieurs options de configuration pour notre produit VPS, qui conviennent à tous les usages. Nos configs comprennent généralement les options suivantes :
+On propose plusieurs options de configuration pour notre produit VPS, qui conviennent à tous les usages. Nos configs se composent généralement des options suivantes :
 
 | Composants | Options de configuration |
 | -------------------------------- | ------------------------- |
@@ -44,7 +44,7 @@ On propose plusieurs options de configuration pour notre produit VPS, qui convie
 
 ## Domaines d’application
 
-Grâce au prix avantageux, à la performance, aux accès étendus et aux possibilités associées, un VPS peut être utilisé pour plusieurs domaines, notamment :
+Grâce au prix avantageux, à la performance, aux accès étendus et aux possibilités associées, un VPS peut être utilisé pour plusieurs domaines d’application, notamment :
 
 - Sites web
 - Bases de données
@@ -54,6 +54,6 @@ Grâce au prix avantageux, à la performance, aux accès étendus et aux possibi
 
 ## Questions fréquentes
 Tu as d’autres questions sur notre produit VPS ? Trouve toutes les réponses sur les fonctionnalités, avantages, la mise en place et comment l’utiliser efficacement. Comme ça, tu as toutes les infos pour tirer le meilleur de notre VPS. Et si quelque chose n’est pas clair, contacte-nous, on est là pour t’aider direct.
-<SearchableAccordion items={items} locale="de" />
+<SearchableAccordion items={items} locale="en" />
 
 <InlineVoucher />

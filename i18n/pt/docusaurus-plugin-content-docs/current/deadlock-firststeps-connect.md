@@ -13,7 +13,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 
 ## Introdução
-Não sabe como se conectar ao seu servidor **Deadlock** ou o que precisa para começar? Relaxa, a gente te ajuda! Vamos te guiar por tudo que você precisa – desde as ferramentas e informações necessárias até o processo real de conexão, além de pontos importantes para garantir uma conexão suave e sem problemas. Siga nosso guia e você estará conectado rapidinho!
+Não sabe como se conectar ao seu servidor **Deadlock** ou o que precisa para começar? Relaxa, a gente te ajuda! Vamos te guiar por tudo que você precisa. Desde as ferramentas e informações necessárias até o processo real de conexão, além dos pontos importantes para garantir uma conexão suave e sem problemas. Siga nosso guia e você estará conectado rapidinho!
 
 <InlineVoucher />
 
@@ -35,7 +35,7 @@ Com as informações acima, você deve conseguir localizar seu servidor e garant
 ## Estabeleça a conexão com o servidor
 
 
-A conexão a um servidor de jogos pode ser feita de uma ou mais formas. Os métodos disponíveis são descritos e explicados em detalhes abaixo.
+A conexão com um servidor de jogos pode ser feita de uma ou mais formas. Os métodos disponíveis são descritos e explicados em detalhes abaixo.
 
 <Tabs>
     
@@ -45,7 +45,7 @@ A conexão a um servidor de jogos pode ser feita de uma ou mais formas. Os méto
 Para se conectar ao seu servidor via console, abra o console com a tecla `F7`. Com o console aberto, execute o seguinte comando: 
 
 ```
-connect <IP:Porta>
+connect <IP:Port>
 ```
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/Mdm4w6eGQg7ng8c/download)
@@ -58,7 +58,7 @@ connect <IP:Porta>
 ## Problemas comuns e soluções
 
 
-A conexão a um servidor de jogos pode ser feita de uma ou mais formas. Os métodos disponíveis são descritos e explicados em detalhes abaixo.
+A conexão com um servidor de jogos pode ser feita de uma ou mais formas. Os métodos disponíveis são descritos e explicados em detalhes abaixo.
 
 #### Não aparece
 
@@ -70,7 +70,7 @@ A falta de visibilidade do servidor pode acontecer se a inicialização não foi
 #### Solução faltando ou não ajudou
 
 
-Ainda com problemas depois de tentar resolver? Nesse caso, nosso time de suporte está disponível diariamente para ajudar. É só criar um **[Ticket](https://zap-hosting.com/en/customer/support/)** no nosso site e explicar seu problema com o máximo de detalhes possível. Vamos analisar rapidinho e te ajudar a resolver o problema!
+Ainda com problemas depois de tentar resolver? Nesse caso, nosso time de suporte está disponível diariamente para te ajudar. É só criar um **[Ticket](https://zap-hosting.com/en/customer/support/)** no nosso site e explicar seu problema com o máximo de detalhes possível. Vamos analisar rapidinho e te ajudar a resolver o problema!
 
 
 

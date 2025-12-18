@@ -13,7 +13,7 @@ import items from '@site/data/faqs/vserver-introduction.json';
 
 ## Wprowadzenie
 
-Szukasz własnego serwera z mocną konfiguracją w uczciwej cenie? To ZAP-Hosting jest miejscem dla Ciebie! U nas możesz wynająć lub kupić idealny VPS, który zapewni maksymalną wydajność do wielu zastosowań!
+Szukasz własnego serwera z mocną konfiguracją w uczciwej cenie? W takim razie ZAP-Hosting to miejsce dla Ciebie! U nas możesz wynająć lub kupić idealny VPS, który zapewni maksymalną wydajność do wielu zastosowań!
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/6cCD5TmrwXgtayy/preview)
 
@@ -27,7 +27,7 @@ Proces zamawiania jest bardzo prosty. Wybierz wymarzoną konfigurację swojego [
 
 ## Konfiguracje
 
-Oferujemy różne opcje konfiguracji naszego VPS, które powinny pasować do każdego zastosowania. Nasze konfiguracje zazwyczaj składają się z następujących opcji:
+Oferujemy różne opcje konfiguracji naszego VPS, które powinny pasować do każdego zastosowania. Nasze konfiguracje zazwyczaj składają się z następujących możliwych opcji:
 
 | Komponenty | Opcje konfiguracji |
 | -------------------------------- | ------------------------- |
@@ -35,7 +35,7 @@ Oferujemy różne opcje konfiguracji naszego VPS, które powinny pasować do ka�
 | **Rdzenie CPU**              | 4-64 rdzeni |
 | **Pamięć RAM**              | 4-128 GB RAM     |
 | **Miejsce na dysku**               | 25-2000 GB                                   |
-| **System operacyjny** | Debian (11,12,13), Ubuntu (20.04,22.04,24.04), Windows Server 2022/2025 oraz własne ISO |
+| **System operacyjny** | Debian (11,12,13), Ubuntu (20.04,22.04,24.04), Windows Server 2022/2025 oraz własne obrazy ISO |
 | **Adresy IP** | 1-10 adresów IP  |
 | **Przepustowość**     | 1.000-5.000 Mbit/s upload/download |
 | **Ruch**                      | 33 TB/miesiąc       |
@@ -44,7 +44,7 @@ Oferujemy różne opcje konfiguracji naszego VPS, które powinny pasować do ka�
 
 ## Obszary zastosowań
 
-Dzięki korzystnej cenie, wydajności, szerokim uprawnieniom dostępu i związanym z tym możliwościom, hosting VPS może być wykorzystywany w wielu obszarach, m.in.:
+Dzięki korzystnej cenie, wydajności, szerokim uprawnieniom dostępu i związanym z tym możliwościom, hosting VPS może być wykorzystywany w wielu obszarach, w tym:
 
 - Strony internetowe
 - Bazy danych
@@ -53,7 +53,7 @@ Dzięki korzystnej cenie, wydajności, szerokim uprawnieniom dostępu i związan
 - i wiele więcej!
 
 ## Najczęściej zadawane pytania
-Masz więcej pytań o nasz produkt VPS? Znajdź odpowiedzi na wszystko, co chcesz wiedzieć o funkcjach, zaletach, konfiguracji i efektywnym użytkowaniu. Dzięki temu zdobędziesz potrzebne info, by w pełni wykorzystać nasz VPS. A jeśli coś nadal jest niejasne, po prostu napisz do nas – pomożemy Ci od razu.
-<SearchableAccordion items={items} locale="de" />
+Masz więcej pytań o nasz produkt VPS? Znajdź odpowiedzi na wszystko, co chcesz wiedzieć o funkcjach, korzyściach, konfiguracji i efektywnym użytkowaniu. Dzięki temu zdobędziesz wszystkie potrzebne info, by w pełni wykorzystać nasz VPS. A jeśli coś nadal będzie niejasne, po prostu napisz do nas – jesteśmy tu, żeby Ci pomóc od razu.
+<SearchableAccordion items={items} locale="en" />
 
 <InlineVoucher />

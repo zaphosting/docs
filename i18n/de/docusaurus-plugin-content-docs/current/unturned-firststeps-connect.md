@@ -1,7 +1,7 @@
 ---
 id: unturned-firststeps-connect
 title: "Unturned: Mit dem Server verbinden"
-description: "Entdecke, wie du dich reibungslos mit deinem Unturned Gameserver verbindest und nahtlos spielst – mit unserer umfassenden Anleitung → Jetzt mehr erfahren"
+description: "Entdecke, wie du dich reibungslos mit deinem Unturned Gameserver verbindest und nahtloses Gameplay genießt – mit unserer umfassenden Anleitung → Jetzt mehr erfahren"
 sidebar_label: Mit dem Server verbinden
 services:
   - gameserver-unturned
@@ -13,7 +13,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 
 ## Einführung
-Du bist dir nicht sicher, wie du dich mit deinem **Unturned** Gameserver verbindest oder was du dafür brauchst? Kein Stress, wir haben alles für dich am Start! Wir zeigen dir Schritt für Schritt, was du brauchst – von den nötigen Tools und Infos bis hin zum eigentlichen Verbindungsprozess, inklusive wichtiger Tipps, damit alles smooth und ohne Probleme läuft. Folge unserer Anleitung und du bist im Handumdrehen verbunden!
+Du bist dir nicht sicher, wie du dich mit deinem **Unturned** Gameserver verbindest oder was du dafür brauchst? Kein Stress, wir haben alles für dich am Start! Wir führen dich durch alles, was du brauchst. Von den nötigen Tools und Infos bis hin zum eigentlichen Verbindungsprozess – inklusive wichtiger Tipps, damit alles smooth und ohne Probleme läuft. Folge unserer Anleitung und du bist im Handumdrehen verbunden!
 
 <InlineVoucher />
 
@@ -21,13 +21,13 @@ Du bist dir nicht sicher, wie du dich mit deinem **Unturned** Gameserver verbind
 
 ## Serverdetails besorgen
 
-Du brauchst alle wichtigen Infos, um dich mit deinem Server zu verbinden. Die Infos zu deinem Server findest du im Dashboard deines Gameserver-Webinterface-Panels. Wichtige Details sind unter anderem:
+Du brauchst alle wichtigen Infos, um dich mit deinem Server zu verbinden. Die Infos zu deinem Server findest du im Dashboard deines Gameserver-Webinterface-Panels. Wichtige Infos sind unter anderem:
 
 - IP-Adresse und Port
 - Servername
 - Serverpasswort (optional)
 
-Mit den oben genannten Infos kannst du deinen Server finden und sicherstellen, dass du dich mit dem richtigen Server verbindest.
+Mit den oben genannten Infos solltest du deinen Server finden und sicherstellen können, dass du dich mit dem richtigen Server verbindest.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/4B7txnzM4smaHsA/preview)
 
@@ -36,25 +36,25 @@ Mit den oben genannten Infos kannst du deinen Server finden und sicherstellen, d
 Die Verbindung zu einem Gameserver kann oft auf verschiedene Arten hergestellt werden. Die verfügbaren Methoden werden hier detailliert beschrieben und erklärt.
 
 <Tabs>
-    <TabItem value="connect_solution_server_browser_ingame" label="Serverbrowser (Im Spiel)" default>
+    <TabItem value="connect_solution_server_browser_ingame" label="Server Browser (Im Spiel)" default>
 
-Starte das Spiel, um dich über den integrierten Serverbrowser zu verbinden. Sobald du im Spiel bist, klick auf **Play** und dann auf **Multiplayer**. Klicke anschließend auf die Filteroptionen in der Serverliste und nutze das Namensfeld, um deinen Server über den Servernamen zu suchen. ![img](https://screensaver01.zap-hosting.com/index.php/s/6cbF7Gp3kyfMc4E/download)
+Starte das Spiel, um dich über den integrierten Server Browser mit deinem Server zu verbinden. Sobald du im Spiel bist, klicke auf **Play** und gehe zu **Multiplayer**. Klicke dann auf die Filteroptionen in der Serverliste und nutze das Namensfeld, um deinen Server über den Servernamen zu suchen. ![img](https://screensaver01.zap-hosting.com/index.php/s/6cbF7Gp3kyfMc4E/download)
 
 </TabItem>
 
 <TabItem value="connect_solutiion_direct" label="Direkt verbinden (Im Spiel)">
 
-Starte das Spiel, um dich per Direktverbindung zu verbinden. Sobald du im Spiel bist, klick auf **Play** und dann auf **Direkt verbinden**. Gib dort die IP-Adresse und den Port deines Servers ein und klick auf **Verbinden**. 
+Starte das Spiel, um dich per Direktverbindung zu verbinden. Sobald du im Spiel bist, klicke auf **Play** und dann auf **Direkt verbinden**. Gib dort die IP-Adresse und den Port deines Servers ein und klicke auf **Verbinden**. 
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/ekRiz5ArmtDJ57Q/download)
 
 </TabItem>
 
-<TabItem value="connect_solution_server_browser_steam" label="Serverbrowser (Steam)">
+<TabItem value="connect_solution_server_browser_steam" label="Server Browser (Steam)">
 
-Um dich über den Steam-Serverbrowser zu verbinden, öffne den Serverbrowser in Steam. Klick oben in der Steam-Navigation auf `Ansicht` und dann auf den Bereich `Game Server`, um ihn zu öffnen. 
+Um dich über den Steam Server Browser mit deinem Server zu verbinden, öffne den Server Browser in Steam. Klicke oben in der Steam-Navigation auf `Ansicht` und dann auf den Bereich `Game Server`, um ihn zu öffnen. 
 
-Suche oder füge deinen Server im Steam-Browser hinzu, indem du die `IP-Adresse` und den `Port` deines Gameservers nutzt. Wähle dazu den Tab `Favoriten` in der Serverliste und klick unten auf das Plus-Symbol. Ein Pop-up öffnet sich, in dem du deine Serverdaten eingibst. 
+Suche oder füge deinen Server über den Steam Browser hinzu, indem du die `IP-Adresse` und den `Port` deines Gameservers nutzt. Wähle dazu den Tab `Favoriten` in der Serverliste und klicke unten auf das Plus-Symbol. Es öffnet sich ein Pop-up, in dem du deine Serverdaten eingibst. 
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/MMsokw2ZyCreeCN/download)
 

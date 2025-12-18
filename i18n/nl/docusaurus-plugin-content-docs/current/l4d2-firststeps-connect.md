@@ -13,7 +13,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 
 ## Introductie
-Weet je niet precies hoe je verbinding maakt met je **Left 4 Dead 2**-server of wat je nodig hebt om te starten? Geen stress, wij fixen het voor je! We nemen je stap voor stap mee – van de benodigde tools en info tot het daadwerkelijke verbindingsproces, inclusief belangrijke tips om alles soepel en zonder gedoe te laten verlopen. Volg onze gids en je bent zo verbonden!
+Weet je niet precies hoe je verbinding maakt met je **Left 4 Dead 2**-server of wat je nodig hebt om te starten? Geen stress, wij fixen het voor je! We nemen je stap voor stap mee. Van de benodigde tools en info tot het daadwerkelijke verbindingsproces, inclusief belangrijke tips voor een soepele en probleemloze connectie. Volg onze gids en je bent zo verbonden!
 
 <InlineVoucher />
 
@@ -21,7 +21,7 @@ Weet je niet precies hoe je verbinding maakt met je **Left 4 Dead 2**-server of 
 
 ## Servergegevens ophalen
 
-Je hebt alle relevante info nodig om verbinding te maken met je server. Deze info vind je op het dashboard van het webinterfacepaneel van je game server. Belangrijke gegevens zijn onder andere:
+Je hebt alle relevante info nodig om verbinding te maken met je server. De gegevens van je server vind je in het dashboard van het webinterfacepaneel van je game server. Belangrijke info is onder andere:
 
 - IP-adres en poort
 - Servernaam
@@ -39,7 +39,7 @@ De verbinding met een game server kan vaak op één of meerdere manieren worden 
 
 <TabItem value="connect_solution3" label="Console (In-game)">
 
-Bij Left 4 Dead 2 staat de ontwikkelaarsconsole standaard uit. Open de instellingen, ga naar Toetsenbord/Muis en activeer daar de console. Om via de console verbinding te maken met je server, open je de console met de `~` toets. Zodra de console open is, voer je het volgende commando in:
+Bij Left 4 Dead 2 staat de ontwikkelaarsconsole standaard uit. Open de instellingen, ga naar Toetsenbord/Muis en activeer daar de console. Om via de console verbinding te maken met je server, open je de console met de `~` toets. Zodra de console open is, voer je het volgende commando uit:
 
 ```
 connect IP:Port
@@ -64,13 +64,13 @@ Als je server niet zichtbaar is, kan dat komen doordat de initialisatie niet goe
 
 #### Oplossing mist of helpt niet
 
-Heb je na het proberen van de oplossingen nog steeds problemen? Geen zorgen! Ons supportteam staat dagelijks voor je klaar. Maak gewoon een **[Ticket](https://zap-hosting.com/en/customer/support/)** aan op onze website en leg je probleem zo gedetailleerd mogelijk uit. Wij checken het zo snel mogelijk en helpen je om het probleem op te lossen!
+Heb je nog steeds problemen na het proberen van de tips? Geen zorgen, ons supportteam staat dagelijks voor je klaar. Maak gewoon een **[Ticket](https://zap-hosting.com/en/customer/support/)** aan op onze website en leg je probleem zo gedetailleerd mogelijk uit. We checken het zo snel mogelijk en helpen je het probleem op te lossen!
 
 
 
 ## Conclusie
 
-Gefeliciteerd! Als je alles goed hebt gevolgd, zou je nu succesvol verbonden moeten zijn met de server. Heb je nog vragen of hulp nodig? Aarzel niet om contact op te nemen met ons supportteam, die dagelijks voor je klaarstaat! 🙂
+Gefeliciteerd! Als je alles goed hebt gevolgd, heb je nu succesvol verbinding gemaakt met de server. Voor verdere vragen of hulp, aarzel niet om contact op te nemen met ons supportteam, die dagelijks voor je klaarstaat! 🙂
 
 
 

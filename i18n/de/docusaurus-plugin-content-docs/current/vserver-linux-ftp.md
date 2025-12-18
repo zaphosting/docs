@@ -1,68 +1,66 @@
 ---
 id: vserver-linux-ftp
-title: "vServer: FTP-Service funktioniert nicht – Fehlerbehebung"
-description: "Check, wie du den FTP-Zugang auf deinem VPS wiederherstellst, wenn dein Gameserver oder Teamspeak-Server nicht erreichbar ist → Jetzt mehr erfahren"
-sidebar_label: FTP-Service funktioniert nicht
+title: "VPS: FTP-Dienst nicht verfügbar (GS/TS3 Interface)"
+description: "Verstehe, wie du den FTP-Zugang auf deinem VPS wiederherstellst, wenn Gameserver oder Teamspeak-Server nicht erreichbar sind → Jetzt mehr erfahren"
+sidebar_label: FTP-Dienst nicht verfügbar
 services:
   - vserver
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
-<InlineVoucher />
+## Einführung
 
-## Was kannst du tun, wenn der Gameserver oder Teamspeak-Server nicht per FTP erreichbar ist?
+Gameserver- und Teamspeak 3-Dienste, die über das GS/TS3 Interface erstellt werden, sind voll verwaltete Services. Der FTP-Zugang wird über das Interface und die zugrundeliegende Infrastruktur bereitgestellt. Wenn der FTP-Zugang nicht möglich ist, liegt die Ursache meist am Service-Status, internen Konfigurationen oder Problemen auf der Infrastruktur-Seite – und nicht an den lokalen FTP-Client-Einstellungen.
 
-:::info
-Achtung: Die folgenden Schritte funktionieren nur auf deinem eigenen VPS, wenn die ZAP-Weboberfläche installiert ist!
+
+
+:::warning FTP-Dienst über das GS/TS3 Interface
+Diese Anleitung gilt nur für den FTP-Dienst, der automatisch installiert und verwaltet wird, wenn die GS/TS3 Interface-Funktion genutzt wird. Wenn das GS/TS3 Interface nicht installiert ist, wird standardmäßig kein FTP-Server auf dem System eingerichtet. In diesem Fall ist FTP-Zugang nur verfügbar, wenn ein FTP-Dienst manuell installiert wurde.
 :::
 
-Wenn dein erstellter Server nicht per FTP erreichbar ist, ist der FTP-Service (ProFTPD) meistens nicht aktiv. In seltenen Fällen kann das auch an einer falschen Konfiguration oder einem belegten Port liegen, also wenn der FTP-Port 21 von einem anderen Programm genutzt wird.
+<InlineVoucher />
 
-## FTP-Problem genauer checken:
 
-### Verfügbarkeit prüfen
-Das kannst du ganz easy mit dem FTP-Browser im Webinterface machen. Klick im Menü unter „Tools“ beim jeweiligen Server auf „FTP-Browser“.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/GiqyC6G5cLsbSqp/preview)
+## ProFTPD-Status via SSH prüfen
 
-Drück dann einmal auf den Button „Direktverbindung“.
-
-![](https://screensaver01.zap-hosting.com/index.php/s/ZSbrF5raYzdMgzZ/preview)
-
-Wahrscheinlich siehst du jetzt folgendes Bild:
-
-![](https://screensaver01.zap-hosting.com/index.php/s/GtcCWfqadKGJoY7/preview)
-
-Da jetzt klar ist, dass eine Verbindung über WebFTP oder ein FTP-Tool nicht möglich ist, musst du den FTP-Service auf dem VPS genauer unter die Lupe nehmen.
-
-### ProFTPD-Status prüfen
-
-Verbinde dich dazu per SSH/Console mit deinem Server und gib den Befehl „service proftpd status“ ein. Der Status wird jetzt ausgelesen und entsprechend angezeigt:
-
-![](https://screensaver01.zap-hosting.com/index.php/s/TWqySPM3D5RmgYL/preview)
-
-Hier siehst du, dass der Status „dead“ meldet – der Service ist also offline und somit nicht erreichbar.
-
-### FTP-Service neu starten
-Den FTP-Service kannst du mit folgendem Befehl neu starten:
+Verbinde dich per SSH oder Konsole mit dem Server und überprüfe den aktuellen Status des FTP-Dienstes mit folgendem Befehl:
 
 ```
-service proftpd start
+service proftpd status
 ```
 
-Wenn nach Ausführung des Befehls keine Meldung kommt, ist der Service meistens wieder online/verfügbar.
+Die Ausgabe zeigt, ob der ProFTPD-Dienst aktuell läuft. Wenn der Dienst als aktiv oder running angezeigt wird, ist der FTP-Dienst verfügbar und sollte eingehende Verbindungen akzeptieren. In diesem Fall liegt das Problem meist nicht am FTP-Daemon selbst, sondern kann mit Zugangsdaten, Firewall-Regeln oder der Client-Konfiguration zusammenhängen.
 
-Das kannst du dann nochmal mit dem Befehl „service proftpd status“ überprüfen. Es sollte so aussehen:
+Wenn der Status als inactive, dead oder stopped angezeigt wird, läuft der FTP-Dienst nicht. Solange der Dienst gestoppt ist, können keine FTP-Verbindungen aufgebaut werden.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/iYxKMLJ2QfgzBKD/preview)
+## FTP-Dienst neu starten
 
-Da der Status jetzt wieder „active“ und nicht mehr „dead“ ist, kannst du die FTP-Verbindung nochmal mit dem FTP-Tool oder WebFTP testen.
+Wenn der ProFTPD-Dienst nicht läuft, kannst du ihn manuell starten. Führe dazu folgenden Befehl aus:
 
-### Verbindung nochmal prüfen
-Jetzt solltest du dich verbinden und deine Daten sehen können.
+```
+service proftpd restart
+```
 
-### Problem gelöst
-✅ Der FTP-Service (ProFTPD) läuft jetzt wieder und dem Datenaustausch steht nichts mehr im Weg!
+Nach dem Start oder Neustart solltest du den Status erneut prüfen, um sicherzustellen, dass ProFTPD korrekt läuft. Wenn der Dienst nach dem Neustart als aktiv angezeigt wird, sollte der FTP-Zugang wieder verfügbar sein.
+
+
+
+## Häufige Ursachen für FTP-Probleme
+
+FTP-Zugangsprobleme entstehen oft, weil der FTP-Dienst nicht läuft oder während eines Systemneustarts oder Updates gestoppt wurde. Konfigurationsfehler können ebenfalls verhindern, dass ProFTPD erfolgreich startet. In manchen Fällen nutzt ein anderer Dienst bereits Port 21, wodurch der FTP-Dienst den benötigten Port nicht binden kann. Temporäre System- oder Service-Probleme können ebenfalls dazu führen, dass der FTP-Dienst unerwartet stoppt.
+
+Wenn ProFTPD sich nicht starten lässt oder direkt nach dem Start wieder stoppt, ist eine genauere Untersuchung nötig. In solchen Fällen empfiehlt sich ein Blick in die System-Logs oder die Kontaktaufnahme mit dem Support.
+
+
+
+## Fazit
+
+
+
+Der FTP-Zugang für GS/TS3 Gameserver-Services wird ausschließlich über das GS/TS3 Interface verwaltet. Wenn die Standard-Checks das Problem nicht lösen, ist eine Eskalation an den Support notwendig. Vollständige und genaue Angaben helfen, die Lösung schneller zu finden. Bei weiteren Fragen oder wenn du Hilfe brauchst, steht dir unser Support-Team täglich zur Seite! 🙂
+
+
 
 <InlineVoucher />

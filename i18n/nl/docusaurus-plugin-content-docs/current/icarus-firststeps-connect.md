@@ -13,7 +13,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 
 ## Introductie
-Weet je niet zeker hoe je verbinding maakt met je **Icarus**-server of wat je nodig hebt om te beginnen? Geen zorgen, wij helpen je! We nemen je mee door alles wat je nodig hebt – van de benodigde tools en info tot het daadwerkelijke verbindingsproces, inclusief belangrijke tips voor een soepele en probleemloze connectie. Volg onze gids en je bent zo verbonden!
+Weet je niet precies hoe je verbinding maakt met je **Icarus**-server of wat je nodig hebt om te starten? Geen stress, wij fixen het voor je! We nemen je stap voor stap mee. Van de benodigde tools en info tot het daadwerkelijke verbindingsproces, inclusief belangrijke tips voor een soepele en probleemloze connectie. Volg onze gids en je bent zo verbonden!
 
 <InlineVoucher />
 
@@ -40,15 +40,15 @@ De verbinding met een game server kan vaak op één of meerdere manieren worden 
 
 <TabItem value="connect_solution_server_browser_ingame" label="Serverbrowser (In-game)" default>
 
-Om via de in-game serverbrowser verbinding te maken met je server, open je de **Serverbrowser**. Klik op **Play**, maak een character aan als je dat nog niet hebt gedaan. Zodra je in de serverbrowser bent, kun je zoeken op servernaam via het zoekveld bovenaan. Selecteer je server en maak verbinding.
+Om via de in-game serverbrowser verbinding te maken met je server, open je de **Serverbrowser**. Klik op **Play**, maak een character aan als je dat nog niet hebt gedaan. Zodra je in de serverbrowser bent, kun je je server zoeken op naam via het zoekveld bovenaan. Selecteer je server en maak verbinding.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/43JboZPQY756SYi/download)
 
 </TabItem>
 
-<TabItem value="connect_solution_server_browser_direct" label="Serverbrowser Direct connect (In-game)" default>
+<TabItem value="connect_solution_server_browser_direct" label="Serverbrowser Direct verbinden (In-game)" default>
 
-In plaats van te zoeken in de serverlijst, kun je ook direct verbinding maken door het IP-adres en de poort van de server in te voeren. Klik hiervoor op **Direct connect** in de serverlijst en vul de gegevens in.
+In plaats van te zoeken in de serverlijst, kun je ook direct verbinding maken door het IP-adres en de poort van de server in te voeren. Klik hiervoor op **Direct verbinden** in de serverlijst en vul de gegevens in.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/Fmf5m4iK79La3JW/download)
 
@@ -64,19 +64,19 @@ De verbinding met een game server kan vaak op één of meerdere manieren worden 
 
 #### Niet zichtbaar
 
-Als je server niet zichtbaar is, kan dat komen doordat de initialisatie niet succesvol is afgerond. Dit kan bijvoorbeeld door een verkeerde configuratie of corrupte bestanden. Meer info vind je meestal in de serverconsole of logbestanden.
+Als je server niet zichtbaar is, kan dat komen doordat de initialisatie niet goed is afgerond. Dit kan bijvoorbeeld door een foutieve configuratie of corrupte bestanden. Meer info vind je meestal in de serverconsole of logbestanden.
 
 
 
 #### Geen oplossing gevonden of niet geholpen
 
-Heb je nog steeds problemen na het proberen van de oplossingen? Geen stress! Ons supportteam staat dagelijks voor je klaar. Maak gewoon een **[Ticket](https://zap-hosting.com/en/customer/support/)** aan op onze website en leg je probleem zo gedetailleerd mogelijk uit. We checken het zo snel mogelijk en helpen je het probleem op te lossen!
+Heb je na het proberen van de oplossingen nog steeds problemen? Geen zorgen, ons supportteam staat dagelijks voor je klaar. Maak gewoon een **[Ticket](https://zap-hosting.com/en/customer/support/)** aan op onze website en leg je probleem zo gedetailleerd mogelijk uit. We checken het zo snel mogelijk en helpen je het probleem op te lossen!
 
 
 
 ## Conclusie
 
-Gefeliciteerd! Als je alles goed hebt gevolgd, heb je nu succesvol verbinding gemaakt met de server. Heb je nog vragen of hulp nodig? Neem gerust contact op met ons supportteam, die dagelijks voor je klaarstaat! 🙂
+Gefeliciteerd! Als je alles goed hebt gevolgd, ben je nu succesvol verbonden met de server. Heb je nog vragen of hulp nodig? Aarzel niet om contact op te nemen met ons supportteam, die dagelijks voor je klaarstaat! 🙂
 
 
 

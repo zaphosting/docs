@@ -13,7 +13,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 
 ## Introducción
-¿No sabes cómo conectarte a tu servidor de **El Señor de los Anillos: Return to Moria** o qué necesitas para empezar? No te preocupes, ¡te tenemos cubierto! Te guiaremos por todo lo que necesitas: desde las herramientas e información necesarias hasta el proceso de conexión en sí, junto con consideraciones clave para asegurar una experiencia de conexión fluida y sin problemas. Sigue nuestra guía y estarás conectado en un abrir y cerrar de ojos.
+¿No sabes cómo conectarte a tu servidor de **El Señor de los Anillos: Return to Moria** o qué necesitas para empezar? ¡No te preocupes, aquí te ayudamos! Te guiaremos por todo lo que necesitas. Desde las herramientas e información necesarias hasta el proceso real de conexión, junto con consideraciones clave para asegurar una experiencia de conexión fluida y sin problemas. Sigue nuestra guía y estarás conectado en un abrir y cerrar de ojos.
 
 <InlineVoucher />
 
@@ -21,7 +21,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Obtén los datos del servidor
 
-Vas a necesitar toda la información relevante para conectarte a tu servidor. La información sobre tu servidor la encontrarás en el panel del panel de control web de tu servidor de juegos. La información importante incluye lo siguiente:
+Vas a necesitar toda la información relevante para conectarte a tu servidor. La información sobre tu servidor la puedes encontrar en el panel web del panel de control de tu servidor de juegos. La información importante incluye lo siguiente:
 
 - Dirección IP y puerto
 - Nombre del servidor
@@ -38,7 +38,7 @@ La conexión a un servidor de juegos a menudo se puede establecer de una o más 
 <Tabs>
     <TabItem value="connect_solution_server_browser_ingame" label="Conexión directa (En el juego)" default>
 
-Para conectarte a tu servidor a través del navegador de servidores dentro del juego, abre tu juego. Una vez dentro, haz clic en **Jugar** y crea un Enano (personaje) si aún no tienes uno. Luego, haz clic en **Unirse a Otro Mundo** y después en **Conexión Directa**. Introduce la dirección IP y el puerto de tu servidor en **Unirse Directamente** y haz clic en **Unirse al servidor**.
+Para conectarte a tu servidor a través del navegador de servidores dentro del juego, abre tu juego. Una vez dentro, haz clic en **Jugar** y crea un Enano (personaje) si aún no tienes uno. Luego, haz clic en **Unirse a Otro Mundo** y después en **Conexión Directa**. Ingresa la dirección IP y el puerto de tu servidor en **Unirse Directamente** y haz clic en **Unirse al servidor**.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/YWoD5tHWKWbJjrE/download)
 
@@ -66,7 +66,7 @@ La falta de visibilidad del servidor puede ocurrir si la inicialización no se c
 
 ## Conclusión
 
-¡Felicidades! Si seguiste todo correctamente, deberías haber establecido la conexión con el servidor con éxito. Para cualquier pregunta o ayuda adicional, no dudes en contactar a nuestro equipo de soporte, que está disponible todos los días para asistirte 🙂
+¡Felicidades! Si seguiste todo correctamente, deberías haber establecido la conexión con el servidor exitosamente. Para más preguntas o ayuda, no dudes en contactar a nuestro equipo de soporte, que está disponible todos los días para asistirte 🙂
 
 
 

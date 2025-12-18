@@ -25,7 +25,7 @@ Till skillnad från en virtuell server får du med en dedikerad server din egen 
 
 ## Beställning
 
-Beställningsprocessen är superenkel. Välj din önskade konfiguration för din [Dedikerade Server](https://zap-hosting.com/en/dedicated-server-hosting/). Uppstartstiden för den dedikerade servern beror på tillgängligheten. Du kan kolla detta genom att titta på statusikonen bredvid flaggan för varje konfiguration. Status **Grön** betyder att konfigurationen är tillgänglig och klar inom några minuter. Om status **Orange** visas för konfigurationen är den inte omedelbart tillgänglig och måste byggas ihop. Uppstartstiden är ungefär 5 arbetsdagar (måndag-fredag).
+Beställningsprocessen är superenkel. Välj din önskade konfiguration för din [Dedikerade Server](https://zap-hosting.com/en/dedicated-server-hosting/). Uppstartstiden för den dedikerade servern beror på tillgängligheten. Du kan kolla detta genom att titta på statusikonen bredvid flaggan för varje konfiguration. Status **Grön** betyder att konfigurationen finns tillgänglig och är redo inom några minuter. Om status **Orange** visas för konfigurationen är den inte omedelbart tillgänglig och måste byggas ihop. Uppstartstiden är ungefär 5 arbetsdagar (måndag-fredag).
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/SD6jF4MENeqaJFZ/preview)
 
@@ -60,5 +60,5 @@ Tack vare prestandan, de omfattande rättigheterna och de möjligheter det ger k
 - Virtualiseringar
 
 ## Vanliga frågor
-Har du fler frågor om vår produkt Dedikerad Server? Få svar på allt du vill veta om funktioner, fördelar, uppstart och hur du använder den effektivt. På så sätt får du all info du behöver för att maxa din upplevelse med vår dedikerade server. Och om något fortfarande är oklart, hör bara av dig så hjälper vi dig direkt.
-<SearchableAccordion items={items} locale="sv" />
+Har du fler frågor om vår dedikerade server? Få svar på allt du vill veta om funktioner, fördelar, uppstart och hur du använder den effektivt. Så får du all info du behöver för att maxa din upplevelse med vår dedikerade server. Och om något fortfarande är oklart, hör bara av dig så hjälper vi dig direkt.
+<SearchableAccordion items={items} />

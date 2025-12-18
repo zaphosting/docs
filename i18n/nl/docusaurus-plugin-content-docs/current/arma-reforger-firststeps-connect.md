@@ -1,7 +1,7 @@
 ---
 id: arma-reforger-firststeps-connect
 title: "Arma Reforger: Verbinden met de server"
-description: "Ontdek hoe je soepel verbinding maakt met je Arma Reforger-server en zonder gedoe klaar bent om te spelen → Leer het nu"
+description: "Ontdek hoe je soepel verbinding maakt met je Arma Reforger-server en direct klaar bent om te spelen zonder gedoe → Leer het nu"
 sidebar_label: Verbinden met de server
 services:
   - gameserver-arma-reforger
@@ -13,7 +13,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 
 ## Introductie
-Weet je niet zeker hoe je verbinding maakt met je **Arma Reforger**-server of wat je nodig hebt om te beginnen? Geen stress, wij fixen het voor je! We nemen je mee door alles wat je nodig hebt – van de benodigde tools en info tot het daadwerkelijke verbindingsproces, inclusief belangrijke tips voor een soepele en probleemloze verbinding. Volg onze gids en je bent zo verbonden!
+Weet je niet zeker hoe je verbinding maakt met je **Arma Reforger**-server of wat je nodig hebt om te beginnen? Geen zorgen, wij helpen je! We nemen je stap voor stap mee. Van de benodigde tools en info tot het daadwerkelijke verbindingsproces, inclusief belangrijke tips voor een soepele en probleemloze verbinding. Volg onze gids en je bent zo verbonden!
 
 <InlineVoucher />
 
@@ -27,7 +27,7 @@ Je hebt alle relevante info nodig om verbinding te maken met je server. De gegev
 - Servernaam
 - Serverwachtwoord (optioneel)
 
-Met deze info kun je je server vinden en zeker weten dat je met de juiste server verbindt.
+Met bovenstaande info kun je je server vinden en zeker weten dat je met de juiste server verbindt.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/RJb99LD9eMYdGwm/preview)
 
@@ -63,19 +63,19 @@ De verbinding met een game server kan vaak op één of meerdere manieren worden 
 
 #### Niet zichtbaar
 
-Als je server niet zichtbaar is, kan dat komen doordat de initialisatie niet goed is afgerond. Dit kan bijvoorbeeld door een verkeerde configuratie of corrupte bestanden. Meer info vind je meestal in de serverconsole of logbestanden.
+Als je server niet zichtbaar is, kan dat komen doordat de initialisatie niet succesvol was. Dit kan bijvoorbeeld door een foutieve configuratie of corrupte bestanden. Meer info vind je meestal in de serverconsole of logbestanden.
 
 
 
 #### Geen oplossing gevonden of niet geholpen
 
-Heb je nog steeds problemen na het proberen van deze tips? Geen zorgen, ons supportteam staat dagelijks voor je klaar. Maak gewoon een **[Ticket](https://zap-hosting.com/en/customer/support/)** aan op onze website en leg je probleem zo gedetailleerd mogelijk uit. We checken het zo snel mogelijk en helpen je het probleem op te lossen!
+Heb je nog steeds problemen na het oplossen van de meest voorkomende issues? Geen stress! Ons supportteam staat dagelijks voor je klaar. Maak gewoon een **[Ticket](https://zap-hosting.com/en/customer/support/)** aan op onze website en leg je probleem zo gedetailleerd mogelijk uit. We kijken er zo snel mogelijk naar en helpen je het probleem op te lossen!
 
 
 
 ## Conclusie
 
-Gefeliciteerd! Als je alles goed hebt gevolgd, ben je nu succesvol verbonden met de server. Voor verdere vragen of hulp kun je altijd contact opnemen met ons supportteam, dat dagelijks voor je klaarstaat! 🙂
+Gefeliciteerd! Als je alles goed hebt gevolgd, ben je nu succesvol verbonden met de server. Heb je nog vragen of hulp nodig? Neem gerust contact op met ons supportteam, die dagelijks voor je klaarstaat! 🙂
 
 
 

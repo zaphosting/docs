@@ -13,7 +13,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 
 ## Einführung
-Du bist dir nicht sicher, wie du dich mit deinem **Day of Defeat: Source** Gameserver verbindest oder was du dafür brauchst? Kein Stress, wir haben alles für dich am Start! Wir führen dich durch alles, was du brauchst – von den nötigen Tools und Infos bis hin zum eigentlichen Verbindungsprozess, inklusive wichtiger Tipps, damit alles reibungslos läuft. Folge unserer Anleitung und du bist im Handumdrehen verbunden!
+Du bist dir nicht sicher, wie du dich mit deinem **Day of Defeat: Source** Gameserver verbindest oder was du dafür brauchst? Kein Stress, wir haben alles für dich am Start! Wir führen dich durch alles, was du wissen musst. Von den nötigen Tools und Infos bis hin zum eigentlichen Verbindungsprozess – inklusive wichtiger Tipps, damit alles smooth und ohne Probleme läuft. Folge unserer Anleitung und du bist im Handumdrehen verbunden!
 
 <InlineVoucher />
 
@@ -33,12 +33,12 @@ Mit den oben genannten Infos solltest du deinen Server finden und sicherstellen 
 
 ## Verbindung zum Server herstellen
 
-Die Verbindung zu einem Gameserver kann oft auf eine oder mehrere Arten hergestellt werden. Die verfügbaren Methoden werden im Folgenden detailliert beschrieben und erklärt.
+Die Verbindung zu einem Gameserver kann oft auf verschiedene Arten hergestellt werden. Die verfügbaren Methoden werden hier detailliert beschrieben und erklärt.
 
 <Tabs>
     <TabItem value="connect_solution_server_browser_ingame" label="Serverbrowser (Im Spiel)" default>
 
-Um dich über den im Spiel integrierten Serverbrowser mit deinem Server zu verbinden, öffne im Hauptmenü den Serverbrowser, indem du auf den Button **Server finden** klickst. Klicke auf **Server hinzufügen** und gib die IP:Port deines Servers in das Feld ein. Klicke auf **Diese Adresse zu Favoriten hinzufügen**, um den Server zu deinen Favoriten hinzuzufügen.
+Um dich über den Serverbrowser im Spiel zu verbinden, öffne den Serverbrowser im Hauptmenü, indem du auf den Button **Server finden** klickst. Klicke auf **Server hinzufügen** und gib die IP:Port deines Servers in das Feld ein. Klicke auf **Diese Adresse zu Favoriten hinzufügen**, um den Server zu deinen Favoriten hinzuzufügen.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/pQ7HbwYfLP9qQ7a/download)
 
@@ -46,9 +46,9 @@ Um dich über den im Spiel integrierten Serverbrowser mit deinem Server zu verbi
 
 <TabItem value="connect_solution_server_browser_steam" label="Serverbrowser (Steam)">
 
-Um dich über den Steam-Serverbrowser mit deinem Server zu verbinden, öffne den Serverbrowser in Steam. Klicke oben in der Steam-Navigation auf `Ansicht` und dann auf den Bereich `Game Server`, um ihn zu öffnen.
+Um dich über den Steam-Serverbrowser zu verbinden, öffne den Serverbrowser in Steam. Klicke oben in der Steam-Navigation auf `Ansicht` und dann auf den Bereich `Game Server`, um ihn zu öffnen.
 
-Suche oder füge deinen Server über den Steam-Browser hinzu, indem du die `IP-Adresse` und den `Port` deines Gameservers nutzt. Wähle dazu den Tab `Favoriten` in der Serverliste und klicke unten auf das Plus-Symbol. Es öffnet sich ein Pop-up, in dem du deine Serverdaten eingibst.
+Suche oder füge deinen Server über den Steam-Browser hinzu, indem du die `IP-Adresse` und den `Port` deines Gameservers nutzt. Wähle dazu den Tab `Favoriten` in der Serverliste und klicke unten auf das Plus-Symbol. Ein Pop-up-Fenster öffnet sich, in dem du deine Serverdaten eingibst.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/MMsokw2ZyCreeCN/download)
 
@@ -71,17 +71,17 @@ connect IP:Port
 
 ## Mögliche Probleme und Lösungen
 
-Die Verbindung zu einem Gameserver kann oft auf eine oder mehrere Arten hergestellt werden. Die verfügbaren Methoden werden im Folgenden detailliert beschrieben und erklärt.
+Die Verbindung zu einem Gameserver kann oft auf verschiedene Arten hergestellt werden. Die verfügbaren Methoden werden hier detailliert beschrieben und erklärt.
 
 #### Nicht sichtbar
 
-Wenn der Server nicht sichtbar ist, kann das daran liegen, dass die Initialisierung nicht erfolgreich abgeschlossen wurde. Das kann z.B. an einer fehlerhaften Konfiguration oder beschädigten Dateien liegen. Weitere Infos findest du meist in der Serverkonsole oder in den Logdateien.
+Wenn der Server nicht sichtbar ist, kann das daran liegen, dass die Initialisierung nicht erfolgreich abgeschlossen wurde. Das kann z.B. an einer fehlerhaften Konfiguration oder beschädigten Dateien liegen. Weitere Infos findest du meist in der Serverkonsole oder in Logdateien.
 
 
 
 #### Keine passende Lösung oder keine Hilfe
 
-Du hast nach der Fehlerbehebung immer noch Probleme? Kein Ding, unser Support-Team steht dir täglich zur Seite. Erstelle einfach ein **[Ticket](https://zap-hosting.com/en/customer/support/)** auf unserer Website und beschreibe dein Problem so detailliert wie möglich. Wir schauen uns das schnellstmöglich an und helfen dir, das Problem zu lösen!
+Du hast nach dem Troubleshooting immer noch Probleme? Kein Ding, unser Support-Team steht dir täglich zur Seite. Erstelle einfach ein **[Ticket](https://zap-hosting.com/en/customer/support/)** auf unserer Website und beschreibe dein Problem so detailliert wie möglich. Wir schauen uns das schnellstmöglich an und helfen dir, das Problem zu lösen!
 
 
 

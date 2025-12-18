@@ -27,7 +27,7 @@ In addition to our preconfigured standard OS templates, we also offer the option
 <SearchableItemList items={items} />
 
 :::info Missing an ISO file?
-Is there a specific ISO you would like to use that isn’t available? Just reach out to our support team – we’ll be happy to check if we can add it for you.
+Is there a specific ISO you would like to use that isn’t available? Just reach out to our support team, we'll be happy to check if we can add it for you.
 :::
 
 

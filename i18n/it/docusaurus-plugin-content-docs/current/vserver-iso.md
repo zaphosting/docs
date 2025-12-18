@@ -27,7 +27,7 @@ Oltre ai nostri template OS preconfigurati, offriamo anche la possibilità di mo
 <SearchableItemList items={items} />
 
 :::info Ti manca un file ISO?
-C’è un ISO specifico che vorresti usare ma non è disponibile? Contatta pure il nostro supporto – saremo felici di verificare se possiamo aggiungerlo per te.
+C’è una ISO specifica che vorresti usare ma non è disponibile? Contatta pure il nostro supporto, saremo felici di verificare se possiamo aggiungerla per te.
 :::
 
 
@@ -35,17 +35,17 @@ C’è un ISO specifico che vorresti usare ma non è disponibile? Contatta pure 
 
 
 ## Come montare un file ISO
-Per montare un ISO, vai al pannello di gestione del tuo VPS e apri **Impostazioni → ISO**. Seleziona il file ISO che vuoi, regola l’ordine di boot e poi riavvia il server.
+Per montare un ISO, vai al pannello di gestione del tuo VPS e apri **Impostazioni → ISO**. Seleziona il file ISO che vuoi, regola l’ordine di boot e poi riavvia il server. 
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/tszMKbqDSa3AaLy/download)
 
-Dopo il riavvio, puoi connetterti al server tramite il client VNC e iniziare a installare e configurare il sistema operativo.
+Dopo il reboot, puoi connetterti al server tramite il client VNC e iniziare a installare e configurare il sistema operativo.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/q6WoDMq8pxn72oG/download)
 
-:::warning Stato Online o Connessioni Remote dopo il montaggio ISO
+:::warning Stato online o connessioni remote dopo il montaggio ISO
 
-Dopo aver montato un ISO, il server non è ancora configurato. Di conseguenza, nel pannello non verrà mostrato alcuno **stato online** e non saranno disponibili connessioni **RDP** o **SSH**. Queste diventeranno accessibili solo dopo che il sistema operativo sarà stato installato e configurato correttamente.
+Dopo aver montato un ISO, il server non è ancora configurato. Di conseguenza, nel pannello non verrà mostrato alcun **stato online** e non saranno disponibili connessioni **RDP** o **SSH**. Queste saranno accessibili solo una volta che il sistema operativo sarà stato installato e configurato correttamente.
 
 :::
 

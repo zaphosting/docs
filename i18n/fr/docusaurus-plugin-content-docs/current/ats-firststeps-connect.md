@@ -14,7 +14,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 
 ## Introduction
-Vous ne savez pas comment vous connecter à votre **serveur de jeux American Truck Simulator** ou ce dont vous avez besoin pour commencer ? Pas de stress, on s’occupe de tout ! On va vous guider pas à pas – des outils et infos nécessaires jusqu’au processus de connexion, en passant par les points clés pour garantir une connexion fluide et sans galère. Suivez notre guide et vous serez connecté en un rien de temps !
+Vous ne savez pas comment vous connecter à votre **serveur de jeux American Truck Simulator** ou ce dont vous avez besoin pour commencer ? Pas de stress, on s’occupe de tout ! On va vous guider pas à pas. Des outils et infos nécessaires jusqu’au processus de connexion, en passant par les points clés pour garantir une connexion fluide et sans souci. Suivez notre guide et vous serez connecté en un rien de temps !
 
 <InlineVoucher />
 
@@ -29,7 +29,7 @@ Vous aurez besoin de toutes les infos nécessaires pour vous connecter à votre 
 - ID de session de recherche (Console en direct)
 
 
-Avec ces infos, vous pourrez localiser votre serveur et vous assurer de vous connecter au bon serveur.
+Avec ces infos, vous devriez pouvoir localiser votre serveur et vous assurer de vous connecter au bon serveur.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/nt6QERDL64wpwcs/preview)
 
@@ -39,12 +39,12 @@ Avec ces infos, vous pourrez localiser votre serveur et vous assurer de vous con
 La connexion à un serveur de jeux peut souvent se faire de plusieurs façons. Les méthodes disponibles sont décrites et expliquées en détail ci-dessous.
 
 <Tabs>
-    <TabItem value="connect_solution_server_browser_ingame" label="Navigateur de serveurs (dans le jeu)" default>
+    <TabItem value="connect_solution_server_browser_ingame" label="Navigateur de serveurs (en jeu)" default>
 
-Pour vous connecter à un serveur, vous devez démarrer ou continuer votre **Carrière** dans le jeu. Ensuite, cliquez sur **Convoi** et ouvrez le **Lobby Convoi**. La liste des serveurs s’ouvrira, où vous pourrez chercher votre serveur via son nom. 
+Pour vous connecter à un serveur, vous devez démarrer ou continuer votre **Carrière** dans le jeu. Ensuite, cliquez sur **Convoi** et ouvrez le **Lobby Convoi**. La liste des serveurs s’ouvrira, où vous pourrez chercher votre serveur via son nom.
 
 :::warning Serveur non visible ?
-Si vous ne trouvez pas votre serveur avec le nom, vous pouvez aussi chercher l’ID de session dans la console en direct et l’utiliser pour trouver votre serveur. Copiez l’ID de session sans la partie “/101”. 
+Si vous ne trouvez pas votre serveur avec son nom, vous pouvez aussi chercher l’ID de session dans la console en direct et l’utiliser pour trouver votre serveur. Copiez l’ID de session sans la partie “/101”. 
 :::
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/DEFXR75KxXAybxG/download)
@@ -67,14 +67,16 @@ Un serveur peut ne pas être visible si l’initialisation n’a pas été compl
 
 
 
-#### Pas de solution ou pas utile
+#### Pas de solution ou pas d’aide
 
 
 Vous avez toujours des soucis après avoir essayé ? Pas de panique, notre support est dispo tous les jours pour vous aider. Créez simplement un **[Ticket](https://zap-hosting.com/en/customer/support/)** sur notre site et expliquez-nous votre problème avec un max de détails. On s’en occupera au plus vite et on vous aidera à régler ça !
 
+
+
 ## Conclusion
 
-Félicitations, si vous avez suivi toutes les étapes, vous devriez être connecté à votre serveur sans souci. Pour toute question ou aide supplémentaire, n’hésitez pas à contacter notre support, disponible tous les jours pour vous filer un coup de main ! 🙂
+Félicitations, si vous avez suivi toutes les étapes, vous devriez être connecté au serveur avec succès. Pour toute question ou aide supplémentaire, n’hésitez pas à contacter notre support, dispo tous les jours pour vous filer un coup de main ! 🙂
 
 
 

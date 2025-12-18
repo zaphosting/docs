@@ -13,7 +13,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 
 ## Einführung
-Du bist dir nicht sicher, wie du dich mit deinem **Killing Floor 2** Gameserver verbindest oder was du dafür brauchst? Kein Stress, wir haben alles für dich am Start! Wir führen dich durch alles, was du brauchst – von den nötigen Tools und Infos bis hin zum eigentlichen Verbindungsprozess, inklusive wichtiger Tipps, damit alles smooth und ohne Probleme läuft. Folge unserer Anleitung und du bist im Handumdrehen verbunden!
+Du bist dir nicht sicher, wie du dich mit deinem **Killing Floor 2** Gameserver verbindest oder was du dafür brauchst? Kein Stress, wir haben alles für dich am Start! Wir führen dich durch alles, was du wissen musst. Von den nötigen Tools und Infos bis hin zum eigentlichen Verbindungsprozess – inklusive wichtiger Tipps, damit alles smooth und ohne Probleme läuft. Folge unserer Anleitung und du bist im Handumdrehen verbunden!
 
 <InlineVoucher />
 
@@ -32,7 +32,7 @@ Mit den oben genannten Infos solltest du deinen Server finden und sicherstellen 
 
 ## Verbindung zum Server herstellen
 
-Die Verbindung zu einem Gameserver kann oft auf eine oder mehrere Arten hergestellt werden. Die verfügbaren Methoden werden unten detailliert beschrieben und erklärt.
+Die Verbindung zu einem Gameserver kann oft auf eine oder mehrere Arten hergestellt werden. Die verfügbaren Methoden werden im Folgenden detailliert beschrieben und erklärt.
 
 <Tabs>
 
@@ -53,7 +53,7 @@ open IP:port
 
 ## Mögliche Probleme und Lösungen
 
-Die Verbindung zu einem Gameserver kann oft auf eine oder mehrere Arten hergestellt werden. Die verfügbaren Methoden werden unten detailliert beschrieben und erklärt.
+Die Verbindung zu einem Gameserver kann oft auf eine oder mehrere Arten hergestellt werden. Die verfügbaren Methoden werden im Folgenden detailliert beschrieben und erklärt.
 
 #### Nicht sichtbar
 
@@ -69,7 +69,7 @@ Du hast nach der Fehlerbehebung immer noch Probleme? Kein Ding, unser Support-Te
 
 ## Fazit
 
-Glückwunsch, wenn du alles erfolgreich befolgt hast, solltest du jetzt mit dem Server verbunden sein. Bei weiteren Fragen oder wenn du Hilfe brauchst, zögere nicht, unser Support-Team zu kontaktieren – wir sind täglich für dich da! 🙂
+Glückwunsch, wenn du alles erfolgreich befolgt hast, solltest du jetzt mit dem Server verbunden sein. Für weitere Fragen oder Hilfe zögere nicht, unseren Support zu kontaktieren – wir sind täglich für dich da! 🙂
 
 
 

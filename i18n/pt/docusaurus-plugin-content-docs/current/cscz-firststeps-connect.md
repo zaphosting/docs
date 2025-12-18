@@ -1,7 +1,7 @@
 ---
 id: cscz-firststeps-connect
 title: "Counter-Strike: Condition Zero: Conecte-se ao servidor"
-description: "Descubra como se conectar ao seu servidor de jogos Counter-Strike 1.6 sem complicações e prepare-se para jogar → Saiba mais agora"
+description: "Descubra como se conectar ao seu servidor de jogos Counter-Strike 1.6 de forma fácil e prepare-se para jogar sem complicações → Saiba mais agora"
 sidebar_label: Conectar ao servidor
 services:
   - gameserver-cscz
@@ -13,7 +13,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 
 ## Introdução
-Não sabe como se conectar ao seu **Counter-Strike: 1.6** ou o que precisa para começar? Relaxa, a gente te ajuda! Vamos te guiar por tudo que você precisa – desde as ferramentas e informações necessárias até o processo real de conexão, além de dicas importantes para garantir uma conexão tranquila e sem estresse. Siga nosso guia e você vai estar conectado rapidinho!
+Não sabe como se conectar ao seu **Counter-Strike: 1.6** ou o que precisa para começar? Relaxa, a gente te ajuda! Vamos te guiar por tudo que você precisa. Desde as ferramentas e informações necessárias até o processo real de conexão, além dos pontos importantes para garantir uma conexão tranquila e sem estresse. Siga nosso guia e você estará conectado rapidinho!
 
 <InlineVoucher />
 
@@ -33,7 +33,7 @@ Com as informações acima, você deve conseguir localizar seu servidor e garant
 
 ## Estabeleça a conexão com o servidor
 
-A conexão a um servidor de jogos pode ser feita de uma ou mais formas. Os métodos disponíveis são descritos e explicados em detalhes abaixo.
+A conexão com um servidor de jogos pode ser feita de uma ou mais formas. Os métodos disponíveis são descritos e explicados em detalhes abaixo.
 
 <Tabs>
     <TabItem value="connect_solution_server_browser_ingame" label="Navegador de Servidores (No jogo)" default>
@@ -69,7 +69,7 @@ connect IP:Port
 
 ## Problemas comuns e soluções
 
-A conexão a um servidor de jogos pode ser feita de uma ou mais formas. Os métodos disponíveis são descritos e explicados em detalhes abaixo.
+A conexão com um servidor de jogos pode ser feita de uma ou mais formas. Os métodos disponíveis são descritos e explicados em detalhes abaixo.
 
 #### Não aparece
 

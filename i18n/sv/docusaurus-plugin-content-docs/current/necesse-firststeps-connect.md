@@ -14,7 +14,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 
 ## Introduktion
-Osäker på hur du ansluter till din **Necesse**-server eller vad du behöver för att komma igång? Ingen fara, vi har dig täckt! Vi guidar dig genom allt du behöver – från nödvändiga verktyg och information till själva anslutningsprocessen, plus viktiga saker att tänka på för att säkerställa en smidig och problemfri anslutning. Följ vår guide så är du uppkopplad på nolltid!
+Osäker på hur du ansluter till din **Necesse**-server eller vad du behöver för att komma igång? Ingen fara, vi har dig täckt! Vi guidar dig genom allt du behöver. Från nödvändiga verktyg och information till själva anslutningsprocessen, plus viktiga saker att tänka på för att säkerställa en smidig och problemfri anslutning. Följ vår guide så är du uppkopplad på nolltid!
 
 <InlineVoucher />
 
@@ -23,7 +23,7 @@ Osäker på hur du ansluter till din **Necesse**-server eller vad du behöver f�
 ## Skaffa serveruppgifter
 
 
-Du behöver all relevant information för att kunna ansluta till din server. Information om din server hittar du i kontrollpanelen för din gameserver på webben. Viktig info inkluderar följande:
+Du behöver all relevant information för att kunna ansluta till din server. Information om din server hittar du på kontrollpanelen i ditt gameservers webbgränssnitt. Viktig info inkluderar:
 
 - IP-adress och port
 - Servernamn
@@ -36,12 +36,12 @@ Med informationen ovan ska du kunna hitta din server och se till att du ansluter
 ## Etablera serveranslutning
 
 
-Anslutningen till en gameserver kan ofta göras på ett eller flera sätt. Tillgängliga metoder beskrivs och förklaras i detalj nedan.
+En anslutning till en gameserver kan ofta göras på en eller flera sätt. Tillgängliga metoder beskrivs och förklaras i detalj nedan.
 
 <Tabs>
     <TabItem value="connect_solution_server_browser_ingame" label="Server Browser (I spelet)" default>
 
-För att ansluta till din server, öppna spelet och gå till **Multiplayer** i huvudmenyn. Klicka sedan på **Add Server** och fyll i ett namn samt IP-adressen och porten till din server. Bekräfta med knappen **Add**.
+För att ansluta till din server, öppna spelet och gå till **Multiplayer** i huvudmenyn. Klicka sedan på **Add Server** och fyll i ett namn samt IP-adressen och porten till din server. Bekräfta med **Add**-knappen. 
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/RdRbc92X2znNE7q/download)
 
@@ -54,19 +54,19 @@ För att ansluta till din server, öppna spelet och gå till **Multiplayer** i h
 ## Vanliga problem och lösningar
 
 
-Anslutningen till en gameserver kan ofta göras på ett eller flera sätt. Tillgängliga metoder beskrivs och förklaras i detalj nedan.
+En anslutning till en gameserver kan ofta göras på en eller flera sätt. Tillgängliga metoder beskrivs och förklaras i detalj nedan.
 
 #### Syns inte
 
 
-Att servern inte syns kan bero på att initieringen inte slutfördes korrekt. Detta kan till exempel bero på felaktig konfiguration eller korrupta filer. Mer info hittar du oftast i serverkonsolen eller loggfilerna.
+Att servern inte syns kan bero på att initieringen inte slutfördes korrekt. Det kan till exempel bero på felaktig konfiguration eller korrupta filer. Mer info hittar du oftast i serverkonsolen eller loggfilerna.
 
 
 
 #### Saknas lösning eller hjälper inte
 
 
-Har du fortfarande problem efter felsökning? Då finns vårt supportteam tillgängligt varje dag för att hjälpa dig. Skapa enkelt en **[Ticket](https://zap-hosting.com/en/customer/support/)** på vår webbplats och förklara ditt problem så detaljerat som möjligt. Vi kollar på det så snabbt vi kan och hjälper dig att lösa det!
+Har du fortfarande problem efter felsökning? Då finns vårt supportteam tillgängligt varje dag för att hjälpa dig. Skapa enkelt ett **[Ticket](https://zap-hosting.com/en/customer/support/)** på vår webbplats och förklara ditt problem så detaljerat som möjligt. Vi kollar på det så snabbt vi kan och hjälper dig att lösa det!
 
 
 

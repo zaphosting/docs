@@ -1,8 +1,8 @@
 ---
 id: cs16-firststeps-connect
-title: "Counter Strike 1.6 : Connexion au serveur"
-description: "Découvrez comment vous connecter facilement à votre serveur de jeux Counter-Strike 1.6 et profitez d’une expérience de jeu sans interruption → En savoir plus maintenant"
-sidebar_label: Connexion au serveur
+title: "Counter Strike 1.6 : Se connecter au serveur"
+description: "Découvrez comment vous connecter facilement à votre serveur de jeux Counter-Strike 1.6 et profitez d’une partie sans interruption → En savoir plus maintenant"
+sidebar_label: Se connecter au serveur
 services:
   - gameserver-cs16
 ---
@@ -13,7 +13,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 
 ## Introduction
-Vous ne savez pas comment vous connecter à votre **serveur de jeux Counter-Strike : 1.6** ou ce dont vous avez besoin pour commencer ? Pas de stress, on s’occupe de tout ! On va vous guider à travers tout ce qu’il faut – des outils et infos nécessaires jusqu’au processus de connexion en lui-même, avec les points clés pour garantir une connexion fluide et sans galère. Suivez notre guide et vous serez connecté en un rien de temps !
+Vous ne savez pas comment vous connecter à votre serveur **Counter-Strike : 1.6** ou ce dont vous avez besoin pour commencer ? Pas de stress, on s’occupe de tout ! On va vous guider pas à pas. Des outils et infos nécessaires jusqu’au processus de connexion en lui-même, en passant par les points clés pour garantir une connexion fluide et sans galère. Suivez notre guide et vous serez connecté en un rien de temps !
 
 <InlineVoucher />
 
@@ -27,7 +27,7 @@ Vous aurez besoin de toutes les infos nécessaires pour vous connecter à votre 
 - Nom du serveur
 - Mot de passe du serveur (optionnel)
 
-Avec ces infos, vous devriez pouvoir localiser votre serveur et vous assurer de bien vous connecter au bon serveur.
+Avec ces infos, vous pourrez localiser votre serveur et vous assurer de bien vous connecter au bon serveur.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/qmpPEpGNpfGSAHs/preview)
 
@@ -38,7 +38,7 @@ La connexion à un serveur de jeux peut souvent se faire de plusieurs façons. L
 <Tabs>
     <TabItem value="connect_solution_server_browser_ingame" label="Navigateur de serveurs (In game)" default>
 
-Pour vous connecter à votre serveur via le navigateur de serveurs intégré au jeu, ouvrez-le dans le menu principal en cliquant sur le bouton **Trouver des serveurs**. Cliquez sur **Ajouter un serveur** et entrez l’IP:Port de votre serveur dans le champ. Cliquez sur **Ajouter cette adresse aux favoris** pour ajouter le serveur à vos favoris.
+Pour vous connecter à votre serveur via le navigateur de serveurs intégré au jeu, ouvrez-le depuis le menu principal en cliquant sur le bouton **Trouver des serveurs**. Cliquez sur **Ajouter un serveur** et entrez l’IP:Port de votre serveur dans le champ. Cliquez sur **Ajouter cette adresse aux favoris** pour ajouter le serveur à vos favoris.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/pp6qGyipy6NKd9P/download)
 
@@ -75,17 +75,17 @@ La connexion à un serveur de jeux peut souvent se faire de plusieurs façons. L
 
 #### Serveur non visible
 
-Le serveur peut ne pas être visible si l’initialisation n’a pas été complétée avec succès. Cela peut par exemple venir d’une mauvaise configuration ou de fichiers corrompus. Vous trouverez souvent plus d’infos dans la console du serveur ou les fichiers logs.
+Le serveur peut ne pas être visible si l’initialisation n’a pas été complétée avec succès. Cela peut par exemple venir d’une mauvaise configuration ou de fichiers corrompus. Vous trouverez généralement plus d’infos dans la console du serveur ou les fichiers logs.
 
 
 
 #### Solution manquante ou pas utile
 
-Vous avez toujours des soucis après avoir essayé ? Pas de panique, notre équipe support est dispo tous les jours pour vous aider. Il vous suffit de créer un **[Ticket](https://zap-hosting.com/en/customer/support/)** sur notre site et de nous expliquer votre problème avec un max de détails. On regardera ça au plus vite et on vous aidera à résoudre le souci !
+Vous avez toujours des soucis après avoir essayé ? Pas de panique, notre équipe support est dispo tous les jours pour vous aider. Créez simplement un **[Ticket](https://zap-hosting.com/en/customer/support/)** sur notre site et expliquez-nous votre problème avec un max de détails. On regardera ça au plus vite et on vous aidera à résoudre le souci !
 
 ## Conclusion
 
-Félicitations, si vous avez bien suivi tout ça, vous devriez être connecté avec succès à votre serveur. Pour toute question ou aide supplémentaire, n’hésitez pas à contacter notre équipe support, dispo tous les jours pour vous filer un coup de main ! 🙂
+Félicitations, si vous avez bien suivi tout ça, vous devriez être connecté avec succès au serveur. Pour toute autre question ou besoin d’aide, n’hésitez pas à contacter notre équipe support, dispo tous les jours pour vous filer un coup de main ! 🙂
 
 
 

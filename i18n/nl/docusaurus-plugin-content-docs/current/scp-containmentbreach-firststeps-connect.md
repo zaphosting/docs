@@ -13,7 +13,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 
 ## Introductie
-Weet je niet precies hoe je verbinding maakt met je **SCP: Containment Breach** server of wat je nodig hebt om te starten? Geen stress, wij fixen het voor je! We nemen je stap voor stap mee – van de benodigde tools en info tot het daadwerkelijke verbindingsproces, inclusief belangrijke tips voor een soepele en probleemloze connectie. Volg onze gids en je bent zo verbonden!
+Weet je niet precies hoe je verbinding maakt met je **SCP: Containment Breach**-server of wat je nodig hebt om te starten? Geen stress, wij helpen je! We nemen je stap voor stap mee. Van de benodigde tools en info tot het daadwerkelijke verbindingsproces, inclusief belangrijke tips voor een soepele en probleemloze connectie. Volg onze gids en je bent zo verbonden!
 
 <InlineVoucher />
 
@@ -41,7 +41,7 @@ De verbinding met een game server kan vaak op één of meerdere manieren worden 
 <Tabs>
     <TabItem value="connect_solution_server_browser_ingame" label="Server Browser Direct connect (In game)" default>
 
-Start de game en ga naar het **Multiplayer** menu. Kies de optie **Direct connect** in de serverlijst en vul het IP-adres en de poort van je server in. Maak vervolgens verbinding door op de **Connect** knop te klikken.
+Start het spel en ga naar het **Multiplayer** menu. Kies de optie **Direct connect** in de serverlijst en vul het IP-adres en de poort van je server in. Maak daarna verbinding door op de **Connect** knop te klikken.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/6wZCFoKKiG4DEaj/download)
 
@@ -66,7 +66,7 @@ Als je server niet zichtbaar is, kan dat komen doordat de initialisatie niet goe
 #### Geen oplossing gevonden of niet geholpen
 
 
-Heb je nog steeds problemen na het proberen van de tips? Geen zorgen, ons supportteam staat dagelijks voor je klaar. Maak gewoon een **[Ticket](https://zap-hosting.com/en/customer/support/)** aan op onze website en leg je probleem zo gedetailleerd mogelijk uit. We checken het zo snel mogelijk en helpen je het probleem op te lossen!
+Heb je nog steeds problemen na het proberen van de tips? Geen zorgen, ons supportteam staat dagelijks voor je klaar. Maak gewoon een **[Ticket](https://zap-hosting.com/en/customer/support/)** aan op onze website en leg je probleem zo gedetailleerd mogelijk uit. We kijken er zo snel mogelijk naar en helpen je het probleem op te lossen!
 
 
 

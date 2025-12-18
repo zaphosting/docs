@@ -13,7 +13,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 
 ## Introduktion
-Osäker på hur du ansluter till din **DayZ**-server eller vad du behöver för att komma igång? Ingen fara, vi har dig täckt! Vi guidar dig genom allt du behöver – från nödvändiga verktyg och information till själva anslutningsprocessen, plus viktiga saker att tänka på för att säkerställa en smidig och problemfri anslutning. Följ vår guide så är du igång på nolltid!
+Osäker på hur du ansluter till din **DayZ**-server eller vad du behöver för att komma igång? Ingen fara, vi har dig täckt! Vi guidar dig genom allt du behöver. Från nödvändiga verktyg och information till själva anslutningsprocessen, plus viktiga saker att tänka på för att säkerställa en smidig och problemfri anslutning. Följ vår guide så är du uppkopplad på nolltid!
 
 <InlineVoucher />
 
@@ -26,7 +26,7 @@ Ingen extra mjukvara används för spelet som standard. Men om du vill använda 
 
 ## Skaffa serveruppgifter
 
-Du behöver all relevant information för att ansluta till din server. Information om din server hittar du på kontrollpanelen i webgränssnittet för din spelserver. Viktig info inkluderar följande:
+Du behöver all relevant information för att ansluta till din server. Informationen om din server hittar du på kontrollpanelen i webbgränssnittet för din spelserver. Viktig info inkluderar följande:
 
 - IP-adress och port
 - Servernamn
@@ -38,7 +38,7 @@ Med informationen ovan ska du kunna hitta din server och se till att du ansluter
 
 ## Etablera serveranslutning
 
-Anslutningen till en spelserver kan ofta göras på ett eller flera sätt. Tillgängliga metoder beskrivs och förklaras i detalj nedan.
+Anslutning till en spelserver kan ofta göras på ett eller flera sätt. Tillgängliga metoder beskrivs och förklaras i detalj nedan.
 
 <Tabs>
     <TabItem value="connect_solution_server_browser_ingame" label="Server Browser (I spelet)">
@@ -59,7 +59,7 @@ Serverlistan i spelet är känd för att inte alltid vara helt pålitlig. Det ka
 
 
 
-<TabItem value="connect_solution_server_browser_expext" label="Server Browser (Experimentell & Extern)">
+<TabItem value="connect_solution_server_browser_expext" label="Server Browser (Experimental & Extern)">
 
 Om du använder den experimentella versionen av DayZ kan du ansluta till din server via DayZ Launcher. Starta launchern och öppna **Servers**. Klicka på knappen **Direct connect** och skriv in IP-adressen och porten till din server. 
 
@@ -69,7 +69,7 @@ Om du använder den experimentella versionen av DayZ kan du ansluta till din ser
 
 <TabItem value="connect_solution_dzsa" label="DZSA Launcher (Extern)">
 
-Den officiella serverlistan är opålitlig eller du använder mods? Då är det värt att använda DZSA Launcher istället. Öppna launchern och använd filtren till vänster för att söka efter din server med servernamnet. 
+Den officiella serverlistan är opålitlig eller du använder mods? Då är det värt att använda DZSA Launcher istället. Öppna launchern och använd filtren till vänster för att söka efter din server via servernamnet. 
 
 :::warning Registrera din server
  Din server är inte registrerad i DZSA Launcher som standard. Vi rekommenderar generellt att registrera servern där, eftersom många användare använder denna serverlista istället. Klicka [här](https://dayzsalauncher.com/#/servercheck) för att registrera din server. 
@@ -84,15 +84,15 @@ Den officiella serverlistan är opålitlig eller du använder mods? Då är det 
 
 ## Vanliga problem och lösningar
 
-Anslutningen till en spelserver kan ofta göras på ett eller flera sätt. Tillgängliga metoder beskrivs och förklaras i detalj nedan.
+Anslutning till en spelserver kan ofta göras på ett eller flera sätt. Tillgängliga metoder beskrivs och förklaras i detalj nedan.
 
 #### Syns inte
 
-Att servern inte syns kan bero på att initieringen inte slutfördes korrekt. Detta kan till exempel bero på felaktig konfiguration eller korrupta filer. Mer information kan oftast hittas i serverkonsolen eller loggfilerna.
+Att servern inte syns kan bero på att initieringen inte slutfördes korrekt. Detta kan till exempel bero på felaktig konfiguration eller korrupta filer. Mer information hittar du oftast i serverkonsolen eller loggfilerna.
 
 
 
-#### Saknas lösning eller hjälper inte
+#### Saknas lösning eller ej hjälpsam
 
 Har du fortfarande problem efter felsökning? Då finns vårt supportteam tillgängligt dagligen för att hjälpa dig. Skapa helt enkelt en **[Ticket](https://zap-hosting.com/en/customer/support/)** på vår webbplats och förklara ditt problem så detaljerat som möjligt. Vi kollar på det så snabbt vi kan och hjälper dig att lösa problemet!
 

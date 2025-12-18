@@ -13,7 +13,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 
 ## Einführung
-Du bist dir nicht sicher, wie du dich mit deinem **Icarus** Gameserver verbindest oder was du dafür brauchst? Kein Stress, wir haben alles für dich am Start! Wir zeigen dir Schritt für Schritt, was du brauchst – von den nötigen Tools und Infos bis hin zum eigentlichen Verbindungsprozess, inklusive wichtiger Tipps für eine reibungslose und problemfreie Verbindung. Folge unserer Anleitung und du bist im Handumdrehen verbunden!
+Du bist dir nicht sicher, wie du dich mit deinem **Icarus** Gameserver verbindest oder was du dafür brauchst? Kein Stress, wir haben alles für dich am Start! Wir führen dich durch alles, was du wissen musst. Von den nötigen Tools und Infos bis hin zum eigentlichen Verbindungsprozess – inklusive wichtiger Tipps, damit alles smooth und ohne Probleme läuft. Folge unserer Anleitung und du bist im Handumdrehen verbunden!
 
 <InlineVoucher />
 
@@ -40,15 +40,15 @@ Die Verbindung zu einem Gameserver kann oft auf verschiedene Arten hergestellt w
 
 <TabItem value="connect_solution_server_browser_ingame" label="Server Browser (Im Spiel)" default>
 
-Um dich über den Ingame-Serverbrowser mit deinem Server zu verbinden, öffne den **Server Browser**. Klicke auf **Spielen** und erstelle einen Charakter, falls du noch keinen hast. Sobald du im Serverbrowser bist, kannst du deinen Server über das Suchfeld oben nach Namen suchen. Wähle deinen Server aus und verbinde dich.
+Um dich über den Ingame-Serverbrowser mit deinem Server zu verbinden, öffne den **Server Browser**. Klicke auf **Play** und erstelle einen Charakter, falls du noch keinen hast. Sobald du im Serverbrowser bist, kannst du deinen Server über das Suchfeld oben nach Namen suchen. Wähle deinen Server aus und verbinde dich.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/43JboZPQY756SYi/download)
 
 </TabItem>
 
-<TabItem value="connect_solution_server_browser_direct" label="Server Browser Direkte Verbindung (Im Spiel)" default>
+<TabItem value="connect_solution_server_browser_direct" label="Server Browser Direktverbindung (Im Spiel)" default>
 
-Anstatt den Server in der Serverliste zu suchen, kannst du ihn auch direkt über die IP-Adresse und den Port hinzufügen und so die Verbindung herstellen. Klicke dazu in der Serverliste auf **Direkt verbinden** und gib die Daten ein.
+Anstatt den Server in der Serverliste zu suchen, kannst du ihn auch direkt über die IP-Adresse und den Port hinzufügen und dich verbinden. Klicke dazu in der Serverliste auf **Direkt verbinden** und gib die Daten ein.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/Fmf5m4iK79La3JW/download)
 

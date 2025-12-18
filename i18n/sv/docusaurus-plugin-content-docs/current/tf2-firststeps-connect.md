@@ -1,7 +1,7 @@
 ---
 id: tf2-firststeps-connect
 title: "Team Fortress 2: Anslut till servern"
-description: "Upptäck hur du smidigt ansluter till din Team Fortress 2-server och njuter av oavbrutet spelande → Lär dig mer nu"
+description: "Upptäck hur du smidigt ansluter till din Team Fortress 2-server och njuter av oavbrutet spel → Lär dig mer nu"
 sidebar_label: Anslut till servern
 services:
   - gameserver-tf2
@@ -13,7 +13,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 
 ## Introduktion
-Osäker på hur du ansluter till din **Team Fortress 2**-server eller vad du behöver för att komma igång? Ingen fara, vi har dig täckt! Vi guidar dig genom allt du behöver – från nödvändiga verktyg och information till själva anslutningsprocessen, plus viktiga saker att tänka på för att säkerställa en smidig och problemfri anslutning. Följ vår guide så är du igång på nolltid!
+Osäker på hur du ansluter till din **Team Fortress 2**-server eller vad du behöver för att komma igång? Ingen fara, vi har dig täckt! Vi guidar dig genom allt du behöver. Från nödvändiga verktyg och information till själva anslutningsprocessen, plus viktiga saker att tänka på för att säkerställa en smidig och problemfri anslutning. Följ vår guide så är du uppkopplad på nolltid!
 
 <InlineVoucher />
 
@@ -21,7 +21,7 @@ Osäker på hur du ansluter till din **Team Fortress 2**-server eller vad du beh
 
 ## Skaffa serveruppgifter
 
-Du behöver all relevant info för att ansluta till din server. Informationen om din server hittar du på kontrollpanelen i ditt spelserver-webbgränssnitt. Viktig info inkluderar:
+Du behöver all relevant info för att ansluta till din server. Informationen om din server hittar du på kontrollpanelen i webgränssnittet för din spelserver. Viktig info inkluderar:
 
 - IP-adress och port
 - Servernamn
@@ -39,17 +39,15 @@ Anslutningen till en spelserver kan ofta göras på en eller flera sätt. Tillg�
 
 <TabItem value="connect_solution_server_browser_steam" label="Server Browser (Steam)" default>
 
-
-
 För att ansluta till din server via Steam-serverbläddraren, öppna serverbläddraren från Steam. Klicka på `Visa` högst upp i Steam-menyn och sedan på `Spelserver` för att öppna den.
 
-Sök eller lägg till din server via Steam-bläddraren genom att använda `IP-adress` och `Port` för din spelserver. För att göra detta, välj fliken `Favoriter` i serverlistan och klicka på plustecknet längst ner. Ett popup-fönster öppnas där du anger din serverinformation.
+Sök eller lägg till din server via Steam-bläddraren genom att använda `IP-adress` och `Port` för din spelserver. Gör så här: välj fliken `Favoriter` i serverlistan och klicka på plustecknet längst ner. Ett popup-fönster öppnas där du anger din serverinformation.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/MMsokw2ZyCreeCN/download)
 
 </TabItem>
 
-<TabItem value="connect_solution3" label="Konsol (I spelet)">
+<TabItem value="connect_solution3" label="Konsol (In-game)">
 
 För att ansluta till din server via konsolen, öppna konsolen med `~`-tangenten. När konsolen är öppen, kör följande kommando:
 
@@ -68,13 +66,13 @@ Anslutningen till en spelserver kan ofta göras på en eller flera sätt. Tillg�
 
 #### Syns inte
 
-Att servern inte syns kan bero på att initieringen inte slutfördes korrekt. Detta kan till exempel bero på felaktig konfiguration eller korrupta filer. Mer info kan oftast hittas i serverkonsolen eller loggfilerna.
+Att servern inte syns kan bero på att initieringen inte slutfördes korrekt. Detta kan till exempel bero på felaktig konfiguration eller korrupta filer. Mer info hittar du oftast i serverkonsolen eller loggfilerna.
 
 
 
 #### Saknas lösning eller hjälper inte
 
-Har du fortfarande problem efter felsökning? Då finns vårt supportteam tillgängligt dagligen för att hjälpa dig. Skapa helt enkelt en **[Ticket](https://zap-hosting.com/en/customer/support/)** på vår webbplats och förklara ditt problem så detaljerat som möjligt. Vi kollar på det så snabbt vi kan och hjälper dig att lösa problemet!
+Har du fortfarande problem efter felsökning? Då finns vårt supportteam tillgängligt varje dag för att hjälpa dig. Skapa helt enkelt en **[Ticket](https://zap-hosting.com/en/customer/support/)** på vår hemsida och förklara ditt problem så detaljerat som möjligt. Vi kollar på det så snabbt vi kan och hjälper dig att lösa det!
 
 
 

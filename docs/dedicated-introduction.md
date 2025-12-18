@@ -21,7 +21,7 @@ Unlike a virtual server, you will have your own physical hardware with a dedicat
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/9YMG6QfsNzzjCSQ/preview)
 
-<InlineVoucher />
+
 
 ## Ordering
 

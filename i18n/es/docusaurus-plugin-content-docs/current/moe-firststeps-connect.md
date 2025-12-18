@@ -14,7 +14,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 
 ## Introducción
-¿No sabes cómo conectarte a tu servidor de **Myth of Empires** o qué necesitas para empezar? No te preocupes, ¡te tenemos cubierto! Te guiaremos por todo lo que necesitas: desde las herramientas e información necesarias hasta el proceso de conexión, junto con consideraciones clave para asegurar una conexión fluida y sin problemas. Sigue nuestra guía y estarás conectado en un abrir y cerrar de ojos.
+¿No sabes cómo conectarte a tu servidor de **Myth of Empires** o qué necesitas para empezar? ¡No te preocupes, aquí te ayudamos! Te guiaremos por todo lo que necesitas. Desde las herramientas e información necesarias hasta el proceso real de conexión, junto con consideraciones clave para asegurar una experiencia de conexión fluida y sin problemas. Sigue nuestra guía y estarás conectado en un abrir y cerrar de ojos.
 
 <InlineVoucher />
 
@@ -23,7 +23,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 ## Obtén los datos del servidor
 
 
-Vas a necesitar toda la información relevante para conectarte a tu servidor. Los datos de tu servidor los puedes encontrar en el panel web del panel de control de tu servidor de juegos. La información importante incluye lo siguiente:
+Vas a necesitar toda la información relevante para conectarte a tu servidor. La información sobre tu servidor la puedes encontrar en el panel web de tu servidor de juegos, en el panel de control. La información importante incluye lo siguiente:
 
 - Dirección IP y puerto
 - Nombre del servidor
@@ -68,7 +68,7 @@ La falta de visibilidad del servidor puede ocurrir si la inicialización no se c
 #### Solución faltante o poco útil
 
 
-¿Sigues teniendo problemas después de intentar solucionarlos? En ese caso, nuestro equipo de soporte está disponible todos los días para ayudarte. Simplemente crea un **[Ticket](https://zap-hosting.com/en/customer/support/)** en nuestra web y explícanos tu problema con la mayor cantidad de detalles posible. Lo revisaremos lo antes posible y te ayudaremos a resolverlo.
+¿Sigues teniendo problemas después de intentar solucionarlos? En ese caso, nuestro equipo de soporte está disponible todos los días para ayudarte. Simplemente crea un **[Ticket](https://zap-hosting.com/en/customer/support/)** en nuestra web y explícanos tu problema con la mayor cantidad de detalles posible. Lo revisaremos lo antes posible y te ayudaremos a resolver el problema.
 
 
 

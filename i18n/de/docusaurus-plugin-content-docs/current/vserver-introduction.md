@@ -13,7 +13,7 @@ import items from '@site/data/faqs/vserver-introduction.json';
 
 ## Einführung
 
-Du suchst deinen eigenen Server mit starker Ausstattung zu einem fairen Preis? Dann bist du bei ZAP-Hosting genau richtig! Bei ZAP-Hosting kannst du deinen passenden VPS mieten oder kaufen und erlebst maximale Performance für viele Anwendungsbereiche!
+Suchst du nach deinem eigenen Server mit starker Ausstattung zu einem fairen Preis? Dann bist du bei ZAP-Hosting genau richtig! Bei ZAP-Hosting kannst du deinen passenden VPS mieten oder kaufen und so ein Maximum an Performance für viele Anwendungsbereiche erleben!
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/6cCD5TmrwXgtayy/preview)
 
@@ -21,7 +21,7 @@ Du suchst deinen eigenen Server mit starker Ausstattung zu einem fairen Preis? D
 
 ## Bestellung
 
-Der Bestellprozess ist super easy. Wähle deine Wunschkonfiguration für deinen [VPS](https://zap-hosting.com/en/vps-hosting/). Die Einrichtung dauert nur wenige Sekunden. Danach kannst du direkt mit der Konfiguration starten.
+Der Bestellprozess ist super easy. Wähle einfach deine Wunschkonfiguration für deinen [VPS](https://zap-hosting.com/en/vps-hosting/). Die Einrichtung dauert nur wenige Sekunden. Danach kannst du sofort mit der Konfiguration loslegen.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/Lm9HpPkzZQ8NAS6/preview)
 
@@ -44,7 +44,7 @@ Wir bieten verschiedene Konfigurationsmöglichkeiten für unser VPS-Produkt, die
 
 ## Anwendungsbereiche
 
-Dank des günstigen Preises, der starken Performance, umfangreichen Zugriffsrechte und den damit verbundenen Möglichkeiten eignet sich ein VPS für viele Einsatzgebiete, unter anderem:
+Dank des günstigen Preises, der starken Performance, umfangreichen Zugriffsrechte und den damit verbundenen Möglichkeiten, eignet sich ein VPS für viele Einsatzgebiete, unter anderem:
 
 - Websites
 - Datenbanken
@@ -53,7 +53,7 @@ Dank des günstigen Preises, der starken Performance, umfangreichen Zugriffsrech
 - und mehr!
 
 ## Häufig gestellte Fragen
-Du hast noch mehr Fragen zu unserem VPS-Produkt? Hier bekommst du Antworten auf alles, was du über Features, Vorteile, Einrichtung und effektive Nutzung wissen willst. So hast du alle Infos, um das Maximum aus deinem VPS rauszuholen. Und falls doch noch was unklar ist, melde dich einfach – wir helfen dir sofort weiter.
-<SearchableAccordion items={items} locale="de" />
+Du hast noch mehr Fragen zu unserem VPS-Produkt? Hier bekommst du Antworten auf alles, was du über Features, Vorteile, Einrichtung und effektive Nutzung wissen willst. So hast du alle Infos, um das Maximum aus deinem VPS rauszuholen. Und falls doch noch was unklar ist, melde dich einfach – wir helfen dir direkt weiter.
+<SearchableAccordion items={items} locale="en" />
 
 <InlineVoucher />
