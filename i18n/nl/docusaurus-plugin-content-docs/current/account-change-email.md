@@ -1,30 +1,30 @@
 ---
 id: account-change-email
-title: Verändere deine E-Mail-Adresse
-description: "Erfahre, wie du deine ZAP-Hosting Account-E-Mail sicher aktualisierst und deine Kontaktinfos immer up to date hältst → Jetzt mehr erfahren"
-sidebar_label: E-Mail ändern
+title: Verander je e-mailadres
+description: "Leer hoe je je ZAP-Hosting account e-mail veilig bijwerkt en je contactgegevens up-to-date houdt → Ontdek het nu"
+sidebar_label: E-mail wijzigen
 ---
 
-## Einführung
+## Intro
 
-Wenn du die E-Mail-Adresse ändern möchtest, die mit deinem ZAP-Hosting Account verknüpft ist, kannst du das jederzeit in deinen Account-Einstellungen machen. Diese Anleitung zeigt dir Schritt für Schritt, wie das geht.
+Wil je het e-mailadres dat aan je ZAP-Hosting account gekoppeld is aanpassen? Dat kan altijd via je accountinstellingen. In deze gids leggen we je stap voor stap uit hoe je dat doet. Dit is slechts een test
 
-## E-Mail-Adresse ändern
+## E-mailadres wijzigen
 
-Öffne die [Account-Einstellungen](https://zap-hosting.com/en/customer/home/profile/) deines ZAP-Hosting Accounts und scrolle runter, bis du den Bereich **E-Mail-Adresse ändern** findest. Klick dort auf den passenden Button, um weiterzumachen.
+Open de [accountinstellingen](https://zap-hosting.com/en/customer/home/profile/) van je ZAP-Hosting account en scroll naar beneden tot je de sectie **E-mailadres wijzigen** ziet. Klik op de bijbehorende knop om verder te gaan.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/8GwqRZTTfYdAakm/preview)
 
-Es öffnet sich ein Pop-up, in das du deine neue E-Mail-Adresse eingibst. Trage die neue Adresse ein und bestätige mit **Absenden**.
+Er opent een pop-up waarin je je nieuwe e-mailadres moet invullen. Vul het e-mailadres in het veld in en bevestig door op **Verzenden** te klikken.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/G5dezAKHmKtkoGJ/preview)
 
-Du bekommst eine E-Mail an deine aktuelle Adresse mit dem Betreff „Änderung deiner E-Mail-Adresse bei ZAP-Hosting“, in der du die Änderung bestätigen musst.
+Je ontvangt een e-mail op je huidige e-mailadres met als onderwerp “Wijziging van je e-mailadres bij ZAP-Hosting”, waarin je deze wijziging moet bevestigen.
 
-Um die Änderung abzuschließen, klickst du auf den Link in dieser E-Mail. Erst nach dieser Bestätigung wird deine neue E-Mail-Adresse in deinem Account hinterlegt.
+Om de update af te ronden, moet je de wijziging bevestigen door op de link in die e-mail te klikken. Pas na deze bevestiging wordt je nieuwe e-mailadres aan je account gekoppeld.
 
-## Brauchst du Hilfe?
+## Hulp nodig?
 
-Falls du keinen Zugriff mehr auf deinen Account hast oder die Bestätigungs-E-Mail nicht angekommen ist, schau dir am besten unseren Guide [Zugang wiederherstellen](account-restore-access) an. Dort findest du alle Schritte, um wieder Zugriff auf deinen Account zu bekommen.
+Kun je niet inloggen op je account of heb je de bevestigingsmail niet ontvangen? Check dan onze [Toegang herstellen](account-restore-access) gids. Daarin vind je duidelijke stappen om weer toegang te krijgen als je bent buitengesloten.
 
-Bei weiteren Fragen oder wenn du Unterstützung brauchst, steht dir unser Support-Team täglich zur Seite! 🙂
+Heb je nog vragen of wil je hulp? Neem gerust contact op met onze support, die dagelijks voor je klaarstaat! 🙂
