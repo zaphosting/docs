@@ -13,3 +13,5 @@ Det är superenkelt! Gå in på vår hemsida och gå till startsidan. Där hitta
 :::info
 Efter registreringen kan du logga in direkt, men du bör bekräfta aktiveringsmailet för att kunna använda alla funktioner fullt ut.
 :::
+
+This is just a test 3213 1232131231231231

@@ -11,5 +11,7 @@ C’est super simple ! Va sur notre site et rends-toi sur la page d’accueil. L
 ![](https://screensaver01.zap-hosting.com/index.php/s/bLBnpoAWESigiK7/preview)
 
 :::info
-Après l’inscription, tu peux te connecter tout de suite, mais tu devrais confirmer l’email d’activation pour pouvoir profiter de toutes les fonctionnalités.
+Après l’inscription, tu peux te connecter immédiatement, mais tu devrais confirmer l’email d’activation pour pouvoir profiter de toutes les fonctionnalités.
 :::
+
+Ceci est juste un test 3213 1232131231231231

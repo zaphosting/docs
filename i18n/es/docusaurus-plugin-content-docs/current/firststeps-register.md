@@ -2,7 +2,7 @@
 id: firststeps-register
 title: Registro
 description: "Descubre cómo crear tu cuenta en ZAP-Hosting rápido y acceder a todas las funciones con facilidad → Aprende más ahora"
-sidebar_label: Registro
+sidebar_label: Registrarse
 ---
 
 ## 🔐 Regístrate en ZAP-Hosting
@@ -11,5 +11,7 @@ sidebar_label: Registro
 ![](https://screensaver01.zap-hosting.com/index.php/s/bLBnpoAWESigiK7/preview)
 
 :::info
-Después del registro puedes iniciar sesión de inmediato, pero deberías confirmar el correo de activación para poder usar todas las funciones al máximo.
+Después de registrarte puedes iniciar sesión de inmediato, pero deberías confirmar el correo de activación para poder usar todas las funciones al máximo.
 :::
+
+Esto es solo una prueba 3213 1232131231231231

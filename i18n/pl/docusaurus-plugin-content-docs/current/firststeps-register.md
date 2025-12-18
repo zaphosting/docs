@@ -1,7 +1,7 @@
 ---
 id: firststeps-register
 title: Rejestracja
-description: "Dowiedz się, jak szybko założyć konto w ZAP-Hosting i z łatwością korzystać ze wszystkich funkcji → Sprawdź teraz"
+description: "Dowiedz się, jak szybko założyć konto w ZAP-Hosting i łatwo korzystać ze wszystkich funkcji → Sprawdź teraz"
 sidebar_label: Rejestracja
 ---
 
@@ -13,3 +13,5 @@ To mega proste! Wejdź na naszą stronę i przejdź do strony startowej. Tam zna
 :::info
 Po rejestracji możesz się od razu zalogować, ale warto potwierdzić mail aktywacyjny, żeby mieć dostęp do pełnej funkcjonalności.
 :::
+
+This is just a test 3213 1232131231231231

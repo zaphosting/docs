@@ -1,13 +1,13 @@
 ---
 id: account-change-email
-title: Verander je e-mailadres
+title: Verander je E-mailadres
 description: "Leer hoe je je ZAP-Hosting account e-mail veilig bijwerkt en je contactgegevens up-to-date houdt → Ontdek het nu"
 sidebar_label: E-mail wijzigen
 ---
 
 ## Intro
 
-Wil je het e-mailadres dat aan je ZAP-Hosting account gekoppeld is aanpassen? Dat kan altijd via je accountinstellingen. In deze gids leggen we je stap voor stap uit hoe je dat doet. Dit is slechts een test
+Wil je het e-mailadres dat aan je ZAP-Hosting account gekoppeld is aanpassen? Dat kan altijd via je accountinstellingen. In deze gids leggen we je stap voor stap uit hoe je dat doet. Dit is gewoon een test 21321312312
 
 ## E-mailadres wijzigen
 
@@ -15,7 +15,7 @@ Open de [accountinstellingen](https://zap-hosting.com/en/customer/home/profile/)
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/8GwqRZTTfYdAakm/preview)
 
-Er opent een pop-up waarin je je nieuwe e-mailadres moet invullen. Vul het e-mailadres in het veld in en bevestig door op **Verzenden** te klikken.
+Er opent een pop-up waarin je je nieuwe e-mailadres moet invullen. Vul het e-mailadres in en bevestig door op **Verzenden** te klikken.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/G5dezAKHmKtkoGJ/preview)
 

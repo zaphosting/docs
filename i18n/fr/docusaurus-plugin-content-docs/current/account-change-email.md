@@ -7,7 +7,7 @@ sidebar_label: Changer l’e-mail
 
 ## Introduction
 
-Si tu souhaites mettre à jour l’adresse e-mail liée à ton compte ZAP-Hosting, tu peux le faire à tout moment via les paramètres de ton compte. Ce guide te montre toutes les étapes nécessaires. Ceci est juste un test
+Si tu souhaites mettre à jour l’adresse e-mail liée à ton compte ZAP-Hosting, tu peux le faire à tout moment via les paramètres de ton compte. Ce guide te montre toutes les étapes nécessaires. Ceci est juste un test 21321312312
 
 ## Changer l’adresse e-mail
 
@@ -15,7 +15,7 @@ Ouvre les [paramètres du compte](https://zap-hosting.com/en/customer/home/profi
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/8GwqRZTTfYdAakm/preview)
 
-Une fenêtre pop-up s’ouvrira où tu devras entrer ta nouvelle adresse e-mail. Saisis l’adresse dans le champ et confirme en cliquant sur **Envoyer**.
+Une fenêtre pop-up va s’ouvrir où tu devras entrer ta nouvelle adresse e-mail. Saisis l’adresse dans le champ et confirme en cliquant sur **Envoyer**.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/G5dezAKHmKtkoGJ/preview)
 
@@ -25,6 +25,6 @@ Pour finaliser la mise à jour, tu dois confirmer le changement en cliquant sur 
 
 ## Besoin d’aide ?
 
-Si tu n’arrives pas à accéder à ton compte ou si tu n’as pas reçu l’e-mail de confirmation, on te conseille de jeter un œil à notre [guide de restauration d’accès](account-restore-access). Il explique en détail comment récupérer l’accès si tu es bloqué.
+Si tu n’arrives pas à accéder à ton compte ou si tu n’as pas reçu l’e-mail de confirmation, on te conseille de consulter notre [guide de restauration d’accès](account-restore-access). Il explique en détail comment récupérer l’accès si tu es bloqué.
 
-Pour toute autre question ou si tu as besoin d’aide, n’hésite pas à contacter notre support, dispo tous les jours pour te filer un coup de main ! 🙂
+Pour toute autre question ou aide, n’hésite pas à contacter notre équipe support, dispo tous les jours pour t’aider ! 🙂
