@@ -7,13 +7,13 @@ sidebar_label: Ogólne
 
 ## Wprowadzenie
 
-Ataki DDoS (Distributed Denial of Service) to złośliwe próby zakłócenia normalnego ruchu na docelowym serwerze, usłudze lub sieci poprzez zalanie ich ogromnym ruchem internetowym. Aby zapewnić nieprzerwaną usługę naszym klientom, ZAP-Hosting korzysta ze sprawdzonych rozwiązań ochrony DDoS, dopasowanych do lokalizacji centrum danych.
+Ataki DDoS (Distributed Denial of Service) to złośliwe próby zakłócenia normalnego ruchu na wybranym serwerze, usłudze lub sieci poprzez zalanie ich ogromnym ruchem internetowym. Aby zapewnić nieprzerwaną usługę naszym klientom, ZAP-Hosting korzysta ze sprawdzonych rozwiązań ochrony DDoS, dopasowanych do lokalizacji centrum danych.
 
 Nasze systemy ochrony DDoS działają automatycznie i w czasie rzeczywistym, filtrując złośliwy ruch zanim wpłynie na wydajność lub dostępność serwera.
 
 ## Rozwiązania ochrony DDoS
 
-W ZAP-Hosting stosujemy różne systemy ochrony DDoS w zależności od lokalizacji geograficznej i infrastruktury sieciowej danego centrum danych. Każda lokalizacja jest wyposażona w rozwiązanie do łagodzenia ataków, które zostało specjalnie dobrane, aby zapewnić najlepszą równowagę między wydajnością, niezawodnością i szybkością reakcji na typowe wzorce ataków.
+W ZAP-Hosting stosujemy różne systemy ochrony DDoS w zależności od lokalizacji geograficznej i infrastruktury sieciowej danego centrum danych. Każda lokalizacja jest wyposażona w rozwiązanie do łagodzenia ataków, które zostało specjalnie wybrane, aby zapewnić najlepszą równowagę między wydajnością, niezawodnością i szybkością reakcji na typowe wzorce ataków.
 <details>
   <summary>PletX</summary>
 
@@ -26,7 +26,7 @@ PletX to niemiecki dostawca sieci skoncentrowany na wysokowydajnej infrastruktur
 <details>
   <summary>OVH</summary>
 
-OVH to jeden z największych europejskich dostawców infrastruktury, który zarządza własnym globalnym systemem ochrony DDoS z ciągłym monitoringiem. Ochrona realizowana jest przez rozproszoną sieć filtrującą ruch na wczesnym etapie.
+OVH to jeden z największych europejskich dostawców infrastruktury, który operuje własnym globalnym systemem ochrony DDoS z ciągłym monitoringiem. Ochrona realizowana jest przez rozproszoną sieć filtrującą ruch na wczesnym etapie.
 
 **Dostępne lokalizacje:** Londyn, UK / Singapur, SG
 
@@ -38,7 +38,7 @@ Choć wszyscy dostawcy oferują solidną ochronę bazową, różnią się zakres
 
 | Funkcja ochrony                                   | PletX | OVH  |
 | ------------------------------------------------ | :---: | :--: |
-| Ochrona zawsze aktywna                            |   ✓   |  ✓   |
+| Ochrona zawsze włączona                           |   ✓   |  ✓   |
 | Ochrona bazowa dla wszystkich usług               |   ✓   |  ✓   |
 | Filtrowanie na poziomie sieci i aplikacji         |   ✓   |  ✓   |
 | Dodatkowe filtrowanie specyficzne dla gier        |   ✓   |  ✓   |

@@ -1,58 +1,62 @@
 ---
 id: account-backup-storage
-title: Backupopslag
-description: "Ontdek hoe je je backups veilig opslaat en beheert met schaalbare opslagopties voor makkelijke herstel en toegang → Leer nu meer"
+title: "Backupopslag: Backups opslaan, herstellen en downloaden"
+description: "Ontdek hoe je je backups veilig opslaat en beheert met schaalbare opslagopties voor eenvoudige herstel en toegang → Leer nu meer"
 sidebar_label: Backupopslag
 ---
 
-## Wat is backupopslag?
-Backupopslag biedt onze klanten de mogelijkheid om backups te maken via hun services. Elke klant heeft gratis 10GB ruimte op zijn backupopslag, die volledig gebruikt kan worden. Voor een kleine meerprijs kan de opslag uitgebreid worden tot 200GB.
+## Introductie
 
-## Hoe krijg ik toegang tot mijn backupbestanden?
-Backupbestanden worden op de backupopslag geplaatst zodra er een backup wordt gemaakt via de webinterface. De bestanden kunnen daarna ofwel hersteld worden naar de betreffende service via de backupfunctie van die service, of gedownload worden van de backupopslag via een FTP-verbinding.
+De Backupopslag biedt een centrale plek om backups van je diensten op te slaan. Hiermee kun je backupbestanden veilig bewaren, ze direct terugzetten naar je diensten of downloaden voor lokaal gebruik.
 
-### Verbinden met de backupopslag via FTP
-Om verbinding te maken met de Backupopslag via FTP, download en installeer je het programma [FileZilla](http://www.filezilla.de/download.htm) voor jouw besturingssysteem. Als de installatie klaar is, open je het programma.
-Je ziet nu de FileZilla interface:
+Elk account krijgt 10 GB gratis Backupopslag. Heb je meer ruimte nodig? Dan kun je de opslag uitbreiden tot 200 GB tegen een kleine meerprijs.
 
-![2022-04-08_04-41](https://screensaver01.zap-hosting.com/index.php/s/XHa7gfPBKcGgYj4/preview)
+![img](https://screensaver01.zap-hosting.com/index.php/s/ZBy57k2pbTcteKg/preview)
 
-Om verbinding te maken met je backupopslag, vul je de verbindingsgegevens in de tekstvelden bovenin in.
-Je vindt deze gegevens op de pagina van je backupopslag in de webinterface.
-Klik op dit icoon bovenaan de menubalk:
+
+
+## Functionaliteit van de backupopslag
+
+Backups maak je direct via de webinterface van de betreffende dienst. Zodra een backup is aangemaakt, wordt deze automatisch opgeslagen in de Backupopslag. De opgeslagen backups kun je op twee manieren gebruiken:
+
+- Direct terugzetten naar de bijbehorende dienst via de backupfunctie
+- Downloaden vanuit de Backupopslag voor lokaal gebruik
+
+
+
+## Toegang tot backupbestanden
+
+Backupbestanden zijn direct na het aanmaken beschikbaar in de Backupopslag. Naast het terugzetten via de dienstinterface, kun je de bestanden ook benaderen via een FTP-verbinding.
+
+
+
+## Verbinden met Backupopslag via FTP
+
+Om toegang te krijgen tot de Backupopslag via FTP, installeer je een FTP-client zoals FileZilla voor jouw besturingssysteem en open je de applicatie na installatie. Zodra je FileZilla opent, zie je de volgende interface:
+
+![img](https://screensaver01.zap-hosting.com/index.php/s/4CrofjFEe7TxYCR/preview)
+
+Om verbinding te maken, vul je de FTP-gegevens in de velden bovenin FileZilla in. De benodigde gegevens vind je in de webinterface op de Backupopslag-pagina. Open de Backupopslag-sectie en klik op het icoon bovenin de menubalk.
 
 ![2022-04-08_05-27](https://screensaver01.zap-hosting.com/index.php/s/dFRCTXK48qxbcJb/preview)
 
-Op de Backupopslag-pagina vind je vervolgens je toeganggegevens voor de FTP-verbinding in het vak dat op de afbeelding gemarkeerd is:
+Op de Backupopslag-pagina zie je de FTP-toegangsgegevens in het gemarkeerde gedeelte hieronder. Vul in FileZilla het volgende in:
 
-![2022-04-08_04-39](https://screensaver01.zap-hosting.com/index.php/s/pziwNeT9jmFC5Ax/preview)
+- **Server**: IP-adres
+- **Gebruikersnaam**: FTP-gebruikersnaam
+- **Wachtwoord**: FTP-wachtwoord
 
-Vul het IP-adres in FileZilla in bij het veld **Server**, de gebruikersnaam bij **Gebruikersnaam** en het wachtwoord bij **Wachtwoord**. Je hoeft de poort niet in te vullen als deze gelijk is aan *21*. Klik nu op **Verbinden**.
-Als de verbinding succesvol is, vind je de backups die door je services zijn gemaakt in de respectievelijke mappen.
+De poort hoef je niet in te vullen als deze op **21** staat. Klik op **Verbinden** om de verbinding te maken. Na een succesvolle verbinding zie je de backups die door jouw diensten zijn aangemaakt in de bijbehorende mappen.
 
-![2022-04-08_04-41_1](https://screensaver01.zap-hosting.com/index.php/s/K9MZHf8napDMCjT/preview)
+Vul in FileZilla het IP-adres in bij **Server**, de gebruiker bij **Gebruikersnaam** en het wachtwoord bij **Wachtwoord**. De poort hoef je niet in te vullen als deze *21* is. Klik daarna op **Verbinden**. 
+Als de verbinding lukt, vind je de backups van je diensten in de juiste mappen.
 
-![2022-04-08_04-41_2](https://screensaver01.zap-hosting.com/index.php/s/ca7DkJ2T6DpxTFH/preview)
+![img](https://screensaver01.zap-hosting.com/index.php/s/9PAFpxWHiJx9LnT/preview)
 
-De backups zijn verpakt als **\*.tar.gz** bestanden in de respectievelijke mappen en kunnen uitgepakt worden met programma’s zoals WinRAR of 7-Zip.
 
-## Foutmelding "Transfer connection interrupted"
 
-Als tijdens de verbinding of overdracht de foutmelding "Transfer connection interrupted: ECCONABORTED - Connection aborted" verschijnt, kan de overdrachtmodus gewijzigd worden van "**Passief**" naar "**Actief**".
-De volgende stappen laten zien hoe je dit kunt aanpassen in de FileZilla-instellingen.
+## Backupmeldingen en logs
 
-Klik in je FileZilla-client op "**Bewerken**" en open direct "**Instellingen...**":
+In het menu onder **Berichten** vind je een logboek van alle backup-gerelateerde acties. Hier zie je welke backup-events zijn uitgevoerd, voor welke dienst of pakket en op welk tijdstip.
 
-![2022-04-08_05-16](https://screensaver01.zap-hosting.com/index.php/s/AgrmP6i5aAEr2kr/preview)
-
-Er opent nu een "**Instellingen**" venster. Klik daar op "**FTP**" om de FTP-instellingen te zien.
-Bij "**FTP**" staat de standaard overdrachtmodus op "**Passief**", hier kun je de optie "**Actief**" selecteren en de wijziging bevestigen met "**OK**".
-
-![2022-04-08_05-17](https://screensaver01.zap-hosting.com/index.php/s/REPQieY3Zbm8arM/preview)
-
-Als dit gedaan is, kun je de FTP-verbinding opnieuw testen.
-
-## Berichten
-In de sidebar onder het submenu *Berichten* wordt het logboek weergegeven, waarin je kunt zien welke actie bij welke trigger/reden is uitgevoerd tijdens de backups voor welk pakket en wanneer.
-
-![2022-04-08_04-42](https://screensaver01.zap-hosting.com/index.php/s/GwtGHoDL7d9r3Ds/preview)
+![img](https://screensaver01.zap-hosting.com/index.php/s/nFfDMfQBNeE4Jt4/preview)

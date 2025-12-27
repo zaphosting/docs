@@ -1,7 +1,7 @@
 ---
 id: ddos-protection
 title: ZAP-Hosting DDoS-Schutz
-description: "Entdecke, wie ZAP-Hosting mit maßgeschneiderten, Echtzeit-DDoS-Schutzlösungen für globale Rechenzentren einen unterbrechungsfreien Service garantiert → Jetzt mehr erfahren"
+description: "Entdecke, wie ZAP-Hosting mit maßgeschneiderten, Echtzeit-DDoS-Schutzlösungen für globale Rechenzentren unterbrechungsfreien Service garantiert → Jetzt mehr erfahren"
 sidebar_label: Allgemein
 ---
 
@@ -9,7 +9,7 @@ sidebar_label: Allgemein
 
 DDoS (Distributed Denial of Service) Angriffe sind bösartige Versuche, den normalen Traffic eines gezielten Servers, Dienstes oder Netzwerks zu stören, indem sie ihn mit einer Flut von Internetverkehr überlasten. Um unseren Kunden einen unterbrechungsfreien Service zu gewährleisten, setzt ZAP-Hosting bewährte DDoS-Schutzlösungen ein, die auf den jeweiligen Serverstandort im Rechenzentrum abgestimmt sind.
 
-Unsere DDoS-Schutzsysteme arbeiten automatisch und in Echtzeit, filtern bösartigen Traffic heraus, bevor er die Serverleistung oder Verfügbarkeit beeinträchtigen kann.
+Unsere DDoS-Schutzsysteme arbeiten automatisch und in Echtzeit, filtern bösartigen Traffic heraus, bevor dieser die Serverleistung oder Verfügbarkeit beeinträchtigen kann.
 
 ## DDoS-Schutzlösungen
 
@@ -33,8 +33,8 @@ OVH ist einer der größten europäischen Infrastruktur-Anbieter und betreibt ei
 </details>
 
 ## DDoS-Schutz Vergleich
-Die folgende Tabelle gibt einen vereinfachten Überblick über die Hauptmerkmale der eingesetzten DDoS-Schutzsysteme. Dieser Vergleich hilft dir zu verstehen, welche Art von Schutz an jedem Serverstandort angewendet wird.  
-Während alle Anbieter einen starken Basisschutz bieten, gibt es Unterschiede im Umfang und in den Methoden, abhängig von der Infrastruktur.
+Die folgende Tabelle gibt einen vereinfachten Überblick über die Hauptmerkmale der eingesetzten DDoS-Schutzsysteme. Dieser Vergleich hilft dir zu verstehen, welche Art von Schutz an welchem Serverstandort angewendet wird.  
+Während alle Anbieter starken Basisschutz bieten, gibt es je nach Infrastruktur Unterschiede im Umfang und den Methoden.
 
 | Schutzmerkmal                                      | PletX | OVH  |
 | ------------------------------------------------- | :---: | :--: |
@@ -46,8 +46,8 @@ Während alle Anbieter einen starken Basisschutz bieten, gibt es Unterschiede im
 | Echtzeit-Monitoring Visualisierung im DDoS Manager |   ✓   |  X   |
 
 <div style={{ textAlign: 'center', fontSize: '0.7em', color: '#666' }}>
-  ✓ = Feature wird voll unterstützt &nbsp;|&nbsp; X = Feature nicht verfügbar &nbsp;|&nbsp; * = Feature je nach Konfiguration nicht oder nur teilweise verfügbar
+  ✓ = Feature wird vollständig unterstützt &nbsp;|&nbsp; X = Feature nicht verfügbar &nbsp;|&nbsp; * = Feature je nach Konfiguration nicht oder nur teilweise verfügbar
 </div>
-## Erfahre Mehr Über Unsere DDoS-Schutzlösungen
+## Mehr erfahren zu unseren DDoS-Schutzlösungen
 
-Für detaillierte Infos zu den spezifischen Schutzsystemen an jedem Standort kannst du unsere dedizierten Anleitungen nutzen. Die [PletX DDoS-Schutz](ddos-protection-pletx.md) Dokumentation erklärt die Filterlogik, die in unseren deutschen und bald US-Regionen verwendet wird, während die [OVH DDoS-Schutz](ddos-protection-pletx.md) Dokumentation den Schutz an unseren Standorten in UK, Asien und Australien abdeckt.
+Für detaillierte Infos zu den spezifischen Schutzsystemen an jedem Standort kannst du unsere dedizierten Anleitungen nutzen. Die [PletX DDoS-Schutz](ddos-protection-pletx.md) Dokumentation erklärt die Filterlogik für unsere deutschen und bald US-Regionen, während die [OVH DDoS-Schutz](ddos-protection-pletx.md) Dokumentation den Schutz für unsere UK-, Asien- und Australien-Standorte abdeckt.

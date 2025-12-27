@@ -13,7 +13,7 @@ Våra DDoS-skyddssystem arbetar automatiskt och i realtid, och filtrerar bort sk
 
 ## DDoS-skyddslösningar
 
-Olika DDoS-skyddssystem används hos ZAP-Hosting beroende på geografisk plats och nätverksinfrastruktur för respektive datacenter. Varje plats är utrustad med en mitigationslösning som är noga utvald för att ge bästa möjliga balans mellan prestanda, pålitlighet och snabb respons mot vanliga attackmönster.
+Olika DDoS-skyddssystem används hos ZAP-Hosting beroende på den geografiska platsen och nätverksinfrastrukturen för respektive datacenter. Varje plats är utrustad med en mitigationslösning som är noga utvald för att ge bästa möjliga balans mellan prestanda, pålitlighet och snabb respons mot vanliga attackmönster.
 <details>
   <summary>PletX</summary>
 
@@ -28,12 +28,12 @@ PletX är en tysk nätverksleverantör med fokus på högpresterande hostinginfr
 
 OVH är en av Europas största infrastrukturleverantörer och driver sitt eget globala DDoS-skyddssystem med ständig övervakning. Skyddet levereras via ett distribuerat scrubbing-nätverk som filtrerar trafiken tidigt.
 
-**Tillgängliga platser:** London, UK / Singapore, SG
+**Tillgängliga platser:** London, Storbritannien / Singapore, SG
 
 </details>
 
 ## Jämförelse av DDoS-skydd
-Följande tabell ger en förenklad översikt över huvudfunktionerna i de DDoS-skyddssystem som används. Den här jämförelsen hjälper dig att förstå vilken typ av skydd som finns på varje serverplats.  
+Följande tabell ger en förenklad översikt över huvudfunktionerna i de DDoS-skyddssystem som används. Den hjälper dig att förstå vilken typ av skydd som gäller på varje serverplats. 
 Alla leverantörer erbjuder starkt grundskydd, men det finns skillnader i omfattning och metoder beroende på infrastrukturen.
 
 | Skyddsfunktion                                    | PletX | OVH  |
@@ -50,4 +50,4 @@ Alla leverantörer erbjuder starkt grundskydd, men det finns skillnader i omfatt
 </div>
 ## Läs Mer Om Våra DDoS-skyddslösningar
 
-För detaljerad info om de specifika skyddssystemen som används på varje plats kan du kolla in våra dedikerade guider. Dokumentationen för [PletX DDoS-skydd](ddos-protection-pletx.md) förklarar filtreringslogiken som används i våra tyska och kommande amerikanska regioner, medan dokumentationen för [OVH DDoS-skydd](ddos-protection-pletx.md) täcker skyddet som används i våra UK-, Asien- och Australien-platser.
+För detaljerad info om de specifika skyddssystem som används på varje plats kan du kolla in våra dedikerade guider. Dokumentationen för [PletX DDoS-skydd](ddos-protection-pletx.md) förklarar filtreringslogiken som används i våra tyska och kommande amerikanska regioner, medan dokumentationen för [OVH DDoS-skydd](ddos-protection-pletx.md) täcker skyddet som används i våra UK-, Asien- och Australien-platser.

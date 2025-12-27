@@ -1,48 +1,56 @@
 ---
 id: account-cashbox
-title: "Cashbox: Doładuj konto"
+title: "Cashbox: Doładuj konto, zarządzaj saldem i śledź płatności"
 description: "Dowiedz się, jak zarządzać doładowaniami, zapisywać karty kredytowe, aktywować automatyczne płatności, realizować vouchery i śledzić wpisy na koncie → Sprawdź teraz"
 sidebar_label: Cashbox
 ---
 
-## Co możesz zrobić w cashboxie?
+## Wprowadzenie
 
-Cashbox służy do doładowywania konta. Oferujemy Ci kilka opcji. Oto aktualne możliwości:
-
-![](https://screensaver01.zap-hosting.com/index.php/s/tEYsKsmkJj4Pw39/preview)
-
-Opcję tę otworzysz klikając na **Doładuj konto**:
-
-![](https://screensaver01.zap-hosting.com/index.php/s/D2WZgLy2M5LeMaB/preview)
+Cashbox to centralne miejsce do zarządzania Twoim saldem konta. Pozwala na doładowanie środków, zarządzanie zapisanymi metodami płatności, konfigurację automatycznych doładowań, realizację voucherów oraz przegląd wszystkich wpisów związanych z saldem w jednym miejscu.
 
 
-## Jak zapisać kartę kredytową?
 
-Aby zapisać kartę kredytową do przyszłych lub automatycznych doładowań, po prostu kliknij na **Dodaj kartę kredytową**:
+## Dostępne opcje doładowania
 
-![](https://screensaver01.zap-hosting.com/index.php/s/TH6CBPZJWM3atyY/preview)
+Cashbox oferuje różne metody doładowania konta. Wszystkie aktualnie dostępne metody płatności są widoczne bezpośrednio w tej sekcji. Aby rozpocząć doładowanie, kliknij **Doładuj konto**.
 
-Następnie otworzy się okno, w którym musisz wpisać swoje dane:
+![img](https://screensaver01.zap-hosting.com/index.php/s/sqwjs4DkT4BBQxP/preview)
+
+
+
+
+
+## Zapisywanie karty kredytowej
+
+Możesz zapisać kartę kredytową do przyszłych płatności lub do automatycznych doładowań. Dzięki temu doładowania będą szybsze, bez konieczności ponownego wpisywania danych karty. Aby dodać kartę kredytową, kliknij **Dodaj kartę kredytową**. Otworzy się nowe okno, w którym wpiszesz dane karty. Wypełnij wszystkie wymagane pola i potwierdź, aby zapisać kartę.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/mLQGYd69pKaS63y/preview)
 
 
-## Jak aktywować automatyczne doładowanie?
 
-Aby aktywować automatyczne doładowanie, wystarczy kliknąć na **Automatyczne doładowanie**. Potem możesz ustawić kwotę, od której i ile chcesz doładowywać:
+## Aktywacja automatycznych płatności
+
+Automatyczne płatności pozwalają na automatyczne doładowanie salda, gdy spadnie ono poniżej określonego progu. Aby włączyć tę funkcję, kliknij **Automatyczne doładowanie**. Następnie ustaw minimalne saldo, przy którym doładowanie zostanie uruchomione oraz kwotę, która zostanie dodana do konta.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/qFRi5rJypmdMM58/preview)
 
 
-## Jak zrealizować voucher na pieniądze (ZAP Coins)?
-
-Aby zrealizować voucher, wystarczy kliknąć przycisk **Użyj vouchera**:
-
-![](https://screensaver01.zap-hosting.com/index.php/s/emB22L3PzxXwZwN/preview)
 
 
-## Gdzie zobaczę moje wpisy na koncie?
 
-Twoje wpisy na koncie znajdziesz na dole strony Cashbox. Możesz tam też sortować według miesiąca:
+## Realizacja voucherów i ZAP Coins
 
-![](https://screensaver01.zap-hosting.com/index.php/s/eQQp8ie3K3SAWkf/preview)
+Vouchery możesz zrealizować bezpośrednio w Cashbox, a środki zostaną dodane do Twojego konta jako ZAP Coins. Aby zrealizować voucher, kliknij **Użyj vouchera** i wpisz kod w odpowiednie pole.
+
+![img](https://screensaver01.zap-hosting.com/index.php/s/TrRACJwJB8jkW8Z/preview)
+
+
+
+## Przeglądanie wpisów na koncie
+
+Wszystkie transakcje na koncie, takie jak doładowania, obciążenia i realizacje voucherów, są wyświetlane na dole strony Cashbox.
+
+Możesz filtrować i sortować wpisy według miesiąca, aby mieć przejrzysty przegląd historii konta.
+
+![img](https://screensaver01.zap-hosting.com/index.php/s/2gjfYHtTZBAjBb4/preview)

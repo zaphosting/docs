@@ -1,58 +1,62 @@
 ---
 id: account-backup-storage
-title: Stockage des sauvegardes
+title: "Stockage des Sauvegardes : Stocker, Restaurer et Télécharger vos Sauvegardes"
 description: "Découvrez comment stocker et gérer vos sauvegardes en toute sécurité avec des options de stockage évolutives pour une restauration et un accès faciles → En savoir plus maintenant"
-sidebar_label: Stockage des sauvegardes
+sidebar_label: Stockage des Sauvegardes
 ---
 
-## Qu’est-ce que le stockage des sauvegardes ?
-Le stockage des sauvegardes offre à nos clients la possibilité de créer des sauvegardes via leurs services. Chaque client dispose d’un espace gratuit de 10 Go sur son stockage de sauvegardes, qu’il peut utiliser entièrement. Cependant, pour un petit supplément, une extension du stockage jusqu’à 200 Go peut être réservée.
+## Introduction
 
-## Comment accéder à mes fichiers de sauvegarde ?
-Les fichiers de sauvegarde sont placés sur le stockage des sauvegardes dès qu’une sauvegarde est créée via l’interface web. Les fichiers peuvent ensuite être restaurés sur le service concerné en utilisant la fonction de sauvegarde de ce service ou téléchargés depuis le stockage des sauvegardes via une connexion FTP.
+Le Stockage des Sauvegardes offre un emplacement centralisé pour stocker les sauvegardes créées à partir de vos services. Il vous permet de conserver en toute sécurité les fichiers de sauvegarde, de les restaurer directement sur vos services, ou de les télécharger pour un stockage local.
 
-### Se connecter au stockage des sauvegardes via FTP
-Pour vous connecter au stockage des sauvegardes via FTP, téléchargez et installez le programme [FileZilla](http://www.filezilla.de/download.htm) pour votre système d’exploitation. Une fois l’installation terminée, ouvrez le programme.
-Vous devriez maintenant voir l’interface de FileZilla :
+Chaque compte inclut 10 Go d’espace de Stockage des Sauvegardes gratuit. Si vous avez besoin de plus de capacité, le stockage peut être étendu jusqu’à 200 Go moyennant un coût supplémentaire.
 
-![2022-04-08_04-41](https://screensaver01.zap-hosting.com/index.php/s/XHa7gfPBKcGgYj4/preview)
+![img](https://screensaver01.zap-hosting.com/index.php/s/ZBy57k2pbTcteKg/preview)
 
-Pour vous connecter à votre stockage des sauvegardes, saisissez les données de connexion dans les champs de texte en haut.
-Vous trouverez ces données en allant sur la page de votre stockage des sauvegardes dans l’interface web.
-Cliquez sur cette icône en haut de la barre de menu :
+
+
+## Fonctionnalités du stockage des sauvegardes
+
+Les sauvegardes sont créées directement via l’interface web du service concerné. Une fois une sauvegarde générée, elle est automatiquement stockée dans le Stockage des Sauvegardes. Les sauvegardes stockées peuvent être utilisées de deux façons :
+
+- Restaurées directement sur le service correspondant via sa fonction de sauvegarde
+- Téléchargées depuis le Stockage des Sauvegardes pour une utilisation locale
+
+
+
+## Accéder aux fichiers de sauvegarde
+
+Les fichiers de sauvegarde deviennent disponibles dans le Stockage des Sauvegardes immédiatement après leur création. En plus de la restauration via l’interface du service, les fichiers peuvent aussi être accessibles via une connexion FTP.
+
+
+
+## Connexion au Stockage des Sauvegardes via FTP
+
+Pour accéder au Stockage des Sauvegardes via FTP, installez un client FTP comme FileZilla pour votre système d’exploitation et ouvrez l’application après l’installation. Une fois ouverte, l’interface de FileZilla s’affichera :
+
+![img](https://screensaver01.zap-hosting.com/index.php/s/4CrofjFEe7TxYCR/preview)
+
+Pour établir la connexion, saisissez les données d’accès FTP dans les champs en haut de FileZilla. Les détails de connexion nécessaires se trouvent dans l’interface web, sur la page du Stockage des Sauvegardes. Ouvrez la section Stockage des Sauvegardes et cliquez sur l’icône située en haut de la barre de menu.
 
 ![2022-04-08_05-27](https://screensaver01.zap-hosting.com/index.php/s/dFRCTXK48qxbcJb/preview)
 
-Sur la page du stockage des sauvegardes, vous trouverez alors vos données d’accès pour la connexion FTP dans la boîte marquée sur l’image :
+Sur la page du Stockage des Sauvegardes, les données d’accès FTP sont affichées dans la section mise en surbrillance ci-dessous. Saisissez les informations suivantes dans FileZilla :
 
-![2022-04-08_04-39](https://screensaver01.zap-hosting.com/index.php/s/pziwNeT9jmFC5Ax/preview)
+- **Serveur** : adresse IP
+- **Nom d’utilisateur** : nom d’utilisateur FTP
+- **Mot de passe** : mot de passe FTP
 
-Saisissez l’adresse IP dans FileZilla dans le champ **Serveur**, l’utilisateur dans le champ **Nom d’utilisateur** et le mot de passe dans le champ **Mot de passe**. Vous n’avez pas besoin d’indiquer le port s’il est égal à *21*. Cliquez maintenant sur **Connexion**.
+Le port n’a pas besoin d’être spécifié s’il est réglé sur **21**. Cliquez sur **Connexion** pour établir la connexion. Après une connexion réussie, les sauvegardes créées par vos services seront visibles dans les répertoires correspondants.
+
+Saisissez l’adresse IP dans FileZilla dans le champ **Serveur**, le nom d’utilisateur dans le champ **Nom d’utilisateur** et le mot de passe dans le champ **Mot de passe**. Vous n’avez pas besoin d’indiquer le port s’il est égal à *21*. Cliquez maintenant sur **Connexion**.  
 Si la connexion réussit, vous trouverez les sauvegardes créées par vos services dans les dossiers respectifs.
 
-![2022-04-08_04-41_1](https://screensaver01.zap-hosting.com/index.php/s/K9MZHf8napDMCjT/preview)
+![img](https://screensaver01.zap-hosting.com/index.php/s/9PAFpxWHiJx9LnT/preview)
 
-![2022-04-08_04-41_2](https://screensaver01.zap-hosting.com/index.php/s/ca7DkJ2T6DpxTFH/preview)
 
-Les sauvegardes sont sous forme compressée en fichiers **\*.tar.gz** dans les dossiers respectifs et peuvent être décompressées avec des programmes comme WinRAR ou 7-Zip.
 
-## Message d’erreur "Transfert de connexion interrompu"
+## Messages et journaux de sauvegarde
 
-Si le message d’erreur "Transfert de connexion interrompu : ECCONABORTED - Connexion interrompue" apparaît lors de la connexion ou du transfert, le mode de transfert peut être changé de "**Passif**" à "**Actif**".
-Les étapes suivantes montrent comment modifier cela dans les paramètres de FileZilla.
+La section **Messages** dans la barre latérale affiche un journal des actions liées aux sauvegardes. Elle montre quels événements de sauvegarde ont été déclenchés, pour quel service ou package, et à quelle heure.
 
-Cliquez sur "**Édition**" dans votre client FileZilla, puis ouvrez directement les "**Paramètres...**" :
-
-![2022-04-08_05-16](https://screensaver01.zap-hosting.com/index.php/s/AgrmP6i5aAEr2kr/preview)
-
-Ensuite, la fenêtre "**Paramètres**" s’ouvre. Là, cliquez sur "**FTP**" pour voir les paramètres de la connexion FTP.
-Par défaut, le mode de transfert est réglé sur "**Passif**", vous pouvez sélectionner le bouton radio "**Actif**" et confirmer le changement avec "**OK**".
-
-![2022-04-08_05-17](https://screensaver01.zap-hosting.com/index.php/s/REPQieY3Zbm8arM/preview)
-
-Dès que c’est fait, vous pouvez retenter la connexion FTP.
-
-## Messages
-Dans la barre latérale, dans le sous-élément *Messages*, le journal s’affiche, montrant sous quel déclencheur/raison quelle action a été exécutée pendant les sauvegardes pour quel package et quand.
-
-![2022-04-08_04-42](https://screensaver01.zap-hosting.com/index.php/s/GwtGHoDL7d9r3Ds/preview)
+![img](https://screensaver01.zap-hosting.com/index.php/s/nFfDMfQBNeE4Jt4/preview)
