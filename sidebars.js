@@ -41,6 +41,7 @@ const sidebars = {
     'welcome',
     'firststeps-register',
     'firststeps-locations',
+    "account-backup-storage",
     {
         type: "category",
         label: "DDoS Protection",
@@ -51,8 +52,6 @@ const sidebars = {
          'ddos-protection-ovh'
         ]
     },
-    'preorders',
-    'firststeps-rent-or-purchase',
     'community-info',
     'suggestions',
     {
@@ -65,34 +64,62 @@ const sidebars = {
       ]
     },
     {
+      type: 'html',
+      className: 'sidebar-title',
+      value: (() => {
+        switch (process.env.DOCUSAURUS_CURRENT_LOCALE) {
+          case "de": return "Erste Schritte";
+          case "es": return "Primeros pasos";
+          case "fr": return "Premiers pas";
+          case "ar": return "الخطوات الأولى";
+          case "pt": return "Primeiros passos";
+          case "th": return "เริ่มต้นใช้งาน";
+          case "pl": return "Pierwsze kroki";
+          case "ja": return "はじめに";
+          case "sv": return "Kom igång";
+          case "it": return "Primi passi";
+          case "nl": return "Eerste stappen";
+          default: return "Account";
+        }
+      })(),
+      defaultStyle: true,
+    },
+    {
       type: 'category',
-      label: 'Account',
+      label: 'Administration',
       items: [
         "account-restore-access",
         "account-change-password",
         "account-change-email",
         "account-change-language",
         "account-data-information",
-        "account-termination-and-cancellation-period",
-        "account-paymentoptions",
-        "account-backup-storage",
-        "account-cashbox",
+
         "account-usermanagement",
-        "account-vouchers",
-        "account-donations",
-        "account-community-ads",
-        {
-          type: "category",
-          label: "Security",
-          key: "general-security",
-          items: [
-            "account-security",
-            "account-2factor",
-            "account-hardware-authentication"
-          ]
-        },
       ]
     },
+    {
+      type: 'category',
+      label: 'Billing',
+      items: [
+        'preorders',
+        "account-paymentoptions",
+        'firststeps-rent-or-purchase',
+        "account-termination-and-cancellation-period",
+        "account-cashbox",
+        "account-vouchers",
+        "account-donations",
+      ]
+    },
+    {
+      type: 'category',
+      label: 'Security',
+      items: [
+        "account-security",
+        "account-2factor",
+        "account-hardware-authentication"
+      ]
+    },
+
     {
       type: 'html',
       className: 'sidebar-title',
@@ -120,6 +147,7 @@ const sidebars = {
       items: [
         "account-affiliate",
         "affiliate-minecraft-mod",
+        "account-community-ads",
       ]
     },
     {
