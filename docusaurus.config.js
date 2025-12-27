@@ -198,6 +198,12 @@ const config = {
           },
           {
             to: '/docs/welcome', from: '/docs/firststeps-rent-contractorprepaid',
+          },
+          {
+            to: '/docs/gameserver-scheduled-tasks', from: '/docs/gameserver-restartplaner',
+          },
+          {
+            to: '/docs/welcome', from: '/docs/account-contractsandprepaid',
           }
         ],
       },
