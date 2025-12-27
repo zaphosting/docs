@@ -1,48 +1,56 @@
 ---
 id: account-cashbox
-title: "Cashbox: Sätt in pengar"
-description: "Upptäck hur du hanterar insättningar, sparar kreditkort, aktiverar automatisk betalning, löser in vouchers och följer kontoinföranden → Lär dig mer nu"
+title: "Cashbox: Sätt in pengar, hantera saldo och följ betalningsaktivitet"
+description: "Upptäck hur du hanterar insättningar, sparar kreditkort, aktiverar autobetalingar, löser in vouchers och följer kontoinföranden → Lär dig mer nu"
 sidebar_label: Cashbox
 ---
 
-## Vad kan du göra i cashboxen?
+## Introduktion
 
-Cashboxen är för att sätta in pengar. Vi erbjuder flera alternativ för detta. Här är de aktuella möjligheterna:
-
-![](https://screensaver01.zap-hosting.com/index.php/s/tEYsKsmkJj4Pw39/preview)
-
-Det här alternativet öppnas genom att klicka på **Sätt in pengar**: 
-
-![](https://screensaver01.zap-hosting.com/index.php/s/D2WZgLy2M5LeMaB/preview)
+Cashbox är den centrala platsen för att hantera ditt kontosaldo. Här kan du sätta in pengar, hantera sparade betalningsmetoder, konfigurera automatiska insättningar, lösa in vouchers och granska alla saldo-relaterade kontoinföranden på ett och samma ställe.
 
 
-## Hur sparar jag ett kreditkort?
 
-För att spara ett kreditkort för framtida eller automatisk påfyllning, klicka bara på **Lägg till kreditkort**: 
+## Tillgängliga insättningsalternativ
 
-![](https://screensaver01.zap-hosting.com/index.php/s/TH6CBPZJWM3atyY/preview)
+Cashbox erbjuder flera sätt att sätta in pengar på ditt konto. Alla tillgängliga betalningsmetoder visas direkt i den här sektionen. För att starta en insättning, klicka på **Sätt in pengar**.
 
-Därefter öppnas följande fönster där du fyller i dina uppgifter: 
+![img](https://screensaver01.zap-hosting.com/index.php/s/sqwjs4DkT4BBQxP/preview)
+
+
+
+
+
+## Spara ett kreditkort
+
+Du kan spara ett kreditkort för framtida betalningar eller för att använda vid automatiska insättningar. Det gör att du kan sätta in pengar snabbare utan att behöva skriva in dina betalningsuppgifter varje gång. För att lägga till ett kreditkort, klicka på **Lägg till kreditkort**. Ett nytt fönster öppnas där du kan fylla i dina kreditkortsuppgifter. Fyll i alla obligatoriska fält och bekräfta för att spara kortet.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/mLQGYd69pKaS63y/preview)
 
 
-## Hur aktiverar jag automatisk betalning?
 
-För att aktivera automatisk betalning klickar du bara på **Automatisk påfyllning**. Då kan du definiera från vilken summa och hur mycket du vill fylla på:
+## Aktivera automatiska betalningar
+
+Automatiska betalningar fyller på ditt kontosaldo automatiskt när det sjunker under en definierad gräns. För att aktivera denna funktion, klicka på **Sätt in automatiskt**. Du kan sedan ställa in minsta saldo som triggar insättningen och beloppet som ska fyllas på ditt konto.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/qFRi5rJypmdMM58/preview)
 
 
-## Hur löser jag in en voucher för pengar (ZAP Coins)?
-
-För att lösa in en voucher trycker du bara på knappen **Använd voucher**: 
-
-![](https://screensaver01.zap-hosting.com/index.php/s/emB22L3PzxXwZwN/preview)
 
 
-## Var ser jag mina kontoinföranden?
 
-Dina kontobokningar listas längst ner på Cashbox-sidan. Där kan du också sortera per månad:
+## Lösa in vouchers och ZAP Coins
 
-![](https://screensaver01.zap-hosting.com/index.php/s/eQQp8ie3K3SAWkf/preview)
+Vouchers kan lösas in direkt i Cashbox och krediteras till ditt konto som ZAP Coins. För att lösa in en voucher, klicka på **Använd voucher** och skriv in voucherkoden i fältet som visas.
+
+![img](https://screensaver01.zap-hosting.com/index.php/s/TrRACJwJB8jkW8Z/preview)
+
+
+
+## Visa kontoinföranden
+
+Alla kontotransaktioner som insättningar, avgifter och voucherinlösen listas längst ner på Cashbox-sidan.
+
+Du kan filtrera och sortera posterna per månad för att få en tydlig översikt över din kontohistorik.
+
+![img](https://screensaver01.zap-hosting.com/index.php/s/2gjfYHtTZBAjBb4/preview)

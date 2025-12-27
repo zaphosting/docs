@@ -1,58 +1,62 @@
 ---
 id: account-backup-storage
-title: Przechowywanie kopii zapasowych
-description: "Dowiedz się, jak bezpiecznie przechowywać i zarządzać kopiami zapasowymi dzięki skalowalnym opcjom storage, które ułatwiają przywracanie i dostęp → Sprawdź teraz"
-sidebar_label: Przechowywanie kopii zapasowych
+title: "Backup Storage: Przechowuj, Przywracaj i Pobieraj Kopie Zapasowe"
+description: "Dowiedz się, jak bezpiecznie przechowywać i zarządzać kopiami zapasowymi dzięki skalowalnym opcjom storage’u, które ułatwiają przywracanie i dostęp → Sprawdź teraz"
+sidebar_label: Backup Storage
 ---
 
-## Co to jest przechowywanie kopii zapasowych?
-Przechowywanie kopii zapasowych daje naszym klientom możliwość tworzenia backupów przez ich usługi. Każdy klient ma darmowe 10GB miejsca na swoim storage na kopie zapasowe, które może w pełni wykorzystać. Za niewielką dopłatą można rozszerzyć storage aż do 200GB.
+## Wprowadzenie
 
-## Jak uzyskać dostęp do moich plików backupu?
-Pliki backupu są umieszczane na storage kopii zapasowych zaraz po utworzeniu backupu przez interfejs webowy. Pliki można następnie albo przywrócić do odpowiedniej usługi za pomocą funkcji backupu tej usługi, albo pobrać ze storage kopii zapasowych przez połączenie FTP.
+Backup Storage to centralne miejsce do przechowywania kopii zapasowych tworzonych z Twoich usług. Pozwala bezpiecznie trzymać pliki backupu, przywracać je bezpośrednio do usług lub pobierać na lokalny dysk.
 
-### Połącz się ze storage kopii zapasowych przez FTP
-Aby połączyć się ze storage kopii zapasowych przez FTP, pobierz i zainstaluj program [FileZilla](http://www.filezilla.de/download.htm) dla swojego systemu operacyjnego. Po zakończeniu instalacji otwórz program.
-Powinieneś teraz zobaczyć interfejs FileZilla:
+Każde konto zawiera 10 GB darmowego miejsca w Backup Storage. Jeśli potrzebujesz więcej przestrzeni, możesz ją rozszerzyć do 200 GB za dodatkową opłatą.
 
-![2022-04-08_04-41](https://screensaver01.zap-hosting.com/index.php/s/XHa7gfPBKcGgYj4/preview)
+![img](https://screensaver01.zap-hosting.com/index.php/s/ZBy57k2pbTcteKg/preview)
 
-Aby połączyć się ze swoim storage kopii zapasowych, wpisz dane połączenia w pola tekstowe powyżej.
-Znajdziesz te dane, gdy wejdziesz na stronę swojego storage kopii zapasowych w panelu administracyjnym.
-Kliknij na tę ikonę na górze paska menu:
+
+
+## Funkcje Backup Storage
+
+Kopie zapasowe tworzy się bezpośrednio przez webowy interfejs danej usługi. Po wygenerowaniu backup jest automatycznie zapisywany w Backup Storage. Przechowywane kopie możesz wykorzystać na dwa sposoby:
+
+- Przywrócić bezpośrednio do odpowiedniej usługi przez jej funkcję backupu
+- Pobierać z Backup Storage na lokalny dysk
+
+
+
+## Dostęp do plików kopii zapasowych
+
+Pliki backupu są dostępne w Backup Storage zaraz po ich utworzeniu. Oprócz przywracania przez interfejs usługi, możesz też uzyskać do nich dostęp przez połączenie FTP.
+
+
+
+## Łączenie się z Backup Storage przez FTP
+
+Aby dostać się do Backup Storage przez FTP, zainstaluj klienta FTP, np. FileZilla, dla swojego systemu operacyjnego i uruchom aplikację po instalacji. Po otwarciu zobaczysz interfejs FileZilla:
+
+![img](https://screensaver01.zap-hosting.com/index.php/s/4CrofjFEe7TxYCR/preview)
+
+Aby nawiązać połączenie, wpisz dane dostępu FTP w pola u góry FileZilla. Wymagane dane znajdziesz w panelu administracyjnym na stronie Backup Storage. Otwórz sekcję Backup Storage i kliknij ikonę na górze paska menu.
 
 ![2022-04-08_05-27](https://screensaver01.zap-hosting.com/index.php/s/dFRCTXK48qxbcJb/preview)
 
-Na stronie storage kopii zapasowych znajdziesz swoje dane dostępowe do połączenia FTP w polu oznaczonym na obrazku:
+Na stronie Backup Storage dane dostępu FTP są pokazane w podświetlonym obszarze, jak poniżej. Wprowadź w FileZilla:
 
-![2022-04-08_04-39](https://screensaver01.zap-hosting.com/index.php/s/pziwNeT9jmFC5Ax/preview)
+- **Serwer**: adres IP
+- **Nazwa użytkownika**: nazwa użytkownika FTP
+- **Hasło**: hasło FTP
 
-Wpisz adres IP w FileZilla w pole **Serwer**, użytkownika w pole **Nazwa użytkownika** oraz hasło w pole **Hasło**. Nie musisz podawać portu, jeśli jest równy *21*. Teraz kliknij **Połącz**.
-Jeśli połączenie się powiedzie, znajdziesz backupy utworzone przez swoje usługi w odpowiednich folderach.
+Port nie musi być podawany, jeśli jest ustawiony na **21**. Kliknij **Połącz**, aby nawiązać połączenie. Po udanym połączeniu zobaczysz kopie zapasowe utworzone przez Twoje usługi w odpowiednich folderach.
 
-![2022-04-08_04-41_1](https://screensaver01.zap-hosting.com/index.php/s/K9MZHf8napDMCjT/preview)
+Wpisz adres IP w polu **Serwer**, użytkownika w polu **Nazwa użytkownika** i hasło w polu **Hasło**. Nie musisz podawać portu, jeśli jest równy *21*. Teraz kliknij **Połącz**. 
+Jeśli połączenie się powiedzie, znajdziesz kopie zapasowe swoich usług w odpowiednich folderach.
 
-![2022-04-08_04-41_2](https://screensaver01.zap-hosting.com/index.php/s/ca7DkJ2T6DpxTFH/preview)
+![img](https://screensaver01.zap-hosting.com/index.php/s/9PAFpxWHiJx9LnT/preview)
 
-Backupy są spakowane w pliki **\*.tar.gz** w odpowiednich folderach i można je rozpakować programami takimi jak WinRAR lub 7-Zip.
 
-## Komunikat o błędzie "Transfer connection interrupted"
 
-Jeśli podczas łączenia lub transferu pojawi się komunikat o błędzie "Transfer connection interrupted: ECCONABORTED - Connection aborted", można zmienić tryb transferu z "**Pasywnego**" na "**Aktywny**".
-Poniższe kroki pokazują, jak zmienić to w ustawieniach FileZilla.
+## Komunikaty i logi backupu
 
-W FileZilla kliknij "**Edycja**", a następnie otwórz bezpośrednio "**Ustawienia...**":
+Sekcja **Wiadomości** w pasku bocznym pokazuje log działań związanych z kopiami zapasowymi. Widać tam, które zdarzenia backupu zostały wywołane, dla jakiej usługi lub pakietu oraz o jakiej godzinie.
 
-![2022-04-08_05-16](https://screensaver01.zap-hosting.com/index.php/s/AgrmP6i5aAEr2kr/preview)
-
-Otworzy się okno "**Ustawienia**". Tam kliknij na "**FTP**", aby zobaczyć ustawienia połączenia FTP.
-Domyślny tryb transferu przy "**FTP**" jest ustawiony na "**Pasywny**", tam możesz zaznaczyć przycisk radiowy "**Aktywny**" i zatwierdzić zmianę klikając "**OK**".
-
-![2022-04-08_05-17](https://screensaver01.zap-hosting.com/index.php/s/REPQieY3Zbm8arM/preview)
-
-Po wykonaniu tej zmiany możesz ponownie przetestować połączenie FTP.
-
-## Komunikaty
-W sidebarze, w podpunkcie *Komunikaty*, wyświetlany jest log, który pokazuje, pod jakim wyzwalaczem/powodem jaka akcja została wykonana podczas backupów dla którego pakietu i kiedy.
-
-![2022-04-08_04-42](https://screensaver01.zap-hosting.com/index.php/s/GwtGHoDL7d9r3Ds/preview)
+![img](https://screensaver01.zap-hosting.com/index.php/s/nFfDMfQBNeE4Jt4/preview)

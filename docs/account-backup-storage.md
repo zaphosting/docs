@@ -1,58 +1,62 @@
 ---
 id: account-backup-storage
-title: Backup Storage
+title: "Backup Storage: Store, Restore and Download Backups"
 description: "Discover how to securely store and manage your backups with scalable storage options for easy restoration and access → Learn more now"
 sidebar_label: Backup Storage
 ---
 
-## What is backup storage?
-Backup Storage offers our customers a possibility to create backups via their services. Every customer has a free space of 10GB on his backup storage, which he can use fully. However, for a small surcharge an extension of the storage up to 200GB can be booked.
+## Introduction
 
-## How do I access my backup files?
-Backup files are placed on the backup storage as soon as a backup is created via the web interface. The files can then either be restored to the respective service using the backup function of that service or downloaded from the backup storage via FTP connection.
+The Backup Storage provides a centralized location for storing backups created from your services. It allows you to securely keep backup files, restore them directly to services, or download them for local storage.
 
-### Connect to the backup storage via FTP
-To connect to the Backup Storage via FTP, download and install the program [FileZilla](http://www.filezilla.de/download.htm) for your operating system. When the installation is complete, please open the program.
-You should now see the FileZilla interface:
+Each account includes 10 GB of free Backup Storage space. If additional capacity is required, the storage can be expanded up to 200 GB for an additional fee.
 
-![2022-04-08_04-41](https://screensaver01.zap-hosting.com/index.php/s/XHa7gfPBKcGgYj4/preview)
+![img](https://screensaver01.zap-hosting.com/index.php/s/ZBy57k2pbTcteKg/preview)
 
-To connect to your backup storage, enter the connection data in the text fields above.
-You can find the data for this when you go to the page of your backup storage in the web interface. 
-Click on this icon at the top of the menu bar:
+
+
+## Backup storage functionality
+
+Backups are created directly through the web interface of the respective service. Once a backup is generated, it is automatically stored in the Backup Storage. Stored backups can be used in two ways:
+
+- Restored directly to the corresponding service via its backup function
+- Downloaded from the Backup Storage for local use
+
+
+
+## Accessing backup files
+
+Backup files become available in the Backup Storage immediately after creation. In addition to restoring backups through the service interface, files can also be accessed via an FTP connection.
+
+
+
+## Connecting to Backup Storage via FTP
+
+To access the Backup Storage via FTP, install an FTP client such as FileZilla for your operating system and open the application after installation. Once opened, the FileZilla interface will be displayed:
+
+![img](https://screensaver01.zap-hosting.com/index.php/s/4CrofjFEe7TxYCR/preview)
+
+To establish a connection, enter the FTP access data into the fields at the top of FileZilla. The required connection details can be found in the web interface on the Backup Storage page. Open the Backup Storage section and click the icon located at the top of the menu bar.
 
 ![2022-04-08_05-27](https://screensaver01.zap-hosting.com/index.php/s/dFRCTXK48qxbcJb/preview)
 
-On the Backup Storage page you will then find your access data for the FTP connection in the box marked in the picture:
+On the Backup Storage page, the FTP access data is displayed in the highlighted section shown below. Enter the following information in FileZilla:
 
-![2022-04-08_04-39](https://screensaver01.zap-hosting.com/index.php/s/pziwNeT9jmFC5Ax/preview)
+- **Server**: IP address
+- **User name**: FTP username
+- **Password**: FTP password
+
+The port does not need to be specified if it is set to **21**. Click **Connect** to establish the connection. After a successful connection, the backups created by your services will be visible in the corresponding directories.
 
 Enter the IP address in FileZilla into the field **Server**, the user into the field **User name** and the password into the field **Password**. You don't need to include the port if it is equal to *21*. Now click on **Connect**. 
 If the connection is successful, you will find the backups created by your services in the respective folders.
 
-![2022-04-08_04-41_1](https://screensaver01.zap-hosting.com/index.php/s/K9MZHf8napDMCjT/preview)
+![img](https://screensaver01.zap-hosting.com/index.php/s/9PAFpxWHiJx9LnT/preview)
 
-![2022-04-08_04-41_2](https://screensaver01.zap-hosting.com/index.php/s/ca7DkJ2T6DpxTFH/preview)
 
-The backups are in packed form as **\*.tar.gz** files in the respective folders and can be unpacked with programs like WinRAR or 7-Zip.
 
-## "Transfer connection interrupted" Error Message
+## Backup messages and logs
 
-If the error message "Transfer connection interrupted: ECCONABORTED - Connection aborted" appears during the connection or transfer, the transfer mode can be changed from "**Passive**" to "**Active**".
-The following steps show how this can be changed in the Filezilla settings.
+The **Messages** section in the sidebar displays a log of backup related actions. It shows which backup events were triggered, for which service or package, and at what time.
 
-Press "**Edit**" in your Filezilla client, then open the "**Settings...**" directly:
-
-![2022-04-08_05-16](https://screensaver01.zap-hosting.com/index.php/s/AgrmP6i5aAEr2kr/preview)
-
-After that the "**Settings**" window opens. There you can click on "**FTP**" to see the settings for the FTP connection.
-At "**FTP**" the default transfer mode will be set to "**Passive**", there you can select the radio button "**Active**" and confirm the change with "**OK**".
-
-![2022-04-08_05-17](https://screensaver01.zap-hosting.com/index.php/s/REPQieY3Zbm8arM/preview)
-
-As soon as this is done, the FTP connection can be tested again.
-
-## Messages
-In the sidebar in the sub-item *Messages* the log is displayed, which shows under which trigger/reason which action was executed during the backups for which package and when.
-
-![2022-04-08_04-42](https://screensaver01.zap-hosting.com/index.php/s/GwtGHoDL7d9r3Ds/preview)
+![img](https://screensaver01.zap-hosting.com/index.php/s/nFfDMfQBNeE4Jt4/preview)

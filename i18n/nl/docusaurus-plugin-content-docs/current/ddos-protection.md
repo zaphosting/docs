@@ -13,11 +13,11 @@ Onze DDoS-beschermingssystemen werken automatisch en in realtime, waarbij kwaada
 
 ## DDoS Beschermingsoplossingen
 
-Bij ZAP-Hosting worden verschillende DDoS-beschermingssystemen ingezet, afhankelijk van de geografische locatie en netwerkstructuur van het betreffende datacenter. Elke locatie is uitgerust met een mitigatieoplossing die specifiek is gekozen om de beste balans te bieden tussen performance, betrouwbaarheid en reactievermogen tegen veelvoorkomende aanvalspatronen.
+Bij ZAP-Hosting worden verschillende DDoS-beschermingssystemen ingezet, afhankelijk van de geografische locatie en netwerkstructuur van het betreffende datacenter. Elke locatie is uitgerust met een mitigatie-oplossing die specifiek is gekozen om de beste balans te bieden tussen prestaties, betrouwbaarheid en reactievermogen tegen veelvoorkomende aanvalspatronen.
 <details>
   <summary>PletX</summary>
 
-PletX is een Duitse netwerkprovider die zich richt op high-performance hostinginfrastructuur. Ze bieden native filtering op netwerkniveau en werken samen met gespecialiseerde mitigatiepartners.
+PletX is een Duitse netwerkprovider die zich richt op high-performance hostinginfrastructuur. Ze bieden native filtering op netwerkniveau en werken samen met gespecialiseerde mitigatieproviders.
 
 **Beschikbare Locaties:** FFM / Eygelshoven, GER
 
@@ -33,8 +33,8 @@ OVH is een van de grootste Europese infrastructuurproviders en beheert een eigen
 </details>
 
 ## DDoS Bescherming Vergelijking
-De volgende tabel geeft een vereenvoudigd overzicht van de belangrijkste features van de gebruikte DDoS-beschermingssystemen. Deze vergelijking helpt je te begrijpen welke bescherming op elke serverlocatie wordt toegepast.  
-Hoewel alle providers sterke basisbescherming bieden, zijn er verschillen in scope en methodes afhankelijk van de infrastructuur.
+De onderstaande tabel geeft een vereenvoudigd overzicht van de belangrijkste features van de gebruikte DDoS-beschermingssystemen. Deze vergelijking helpt je te begrijpen welke bescherming op elke serverlocatie wordt toegepast.  
+Hoewel alle providers sterke basisbescherming bieden, zijn er verschillen in scope en methoden afhankelijk van de infrastructuur.
 
 | Beschermingsfeature                              | PletX | OVH  |
 | ------------------------------------------------ | :---: | :--: |
@@ -50,4 +50,4 @@ Hoewel alle providers sterke basisbescherming bieden, zijn er verschillen in sco
 </div>
 ## Meer Weten Over Onze DDoS Beschermingsoplossingen
 
-Voor gedetailleerde info over de specifieke beschermingssystemen per locatie kun je onze speciale handleidingen raadplegen. De [PletX DDoS Bescherming](ddos-protection-pletx.md) documentatie legt de filterlogica uit die we gebruiken in onze Duitse en aankomende Amerikaanse regio’s, terwijl de [OVH DDoS Bescherming](ddos-protection-pletx.md) documentatie de bescherming behandelt die we inzetten in onze UK-, Azië- en Australië-locaties.
+Voor gedetailleerde info over de specifieke beschermingssystemen die op elke locatie worden gebruikt, kun je onze speciale handleidingen raadplegen. De [PletX DDoS Bescherming](ddos-protection-pletx.md) documentatie legt de filterlogica uit die we gebruiken in onze Duitse en aankomende Amerikaanse regio’s, terwijl de [OVH DDoS Bescherming](ddos-protection-pletx.md) documentatie de bescherming behandelt die we inzetten in onze UK-, Azië- en Australië-locaties.

@@ -1,53 +1,53 @@
 ---
 id: ddos-protection
-title: ZAP-Hosting DDoS-Schutz
-description: "Entdecke, wie ZAP-Hosting mit maßgeschneiderten, Echtzeit-DDoS-Schutzlösungen für globale Rechenzentren einen unterbrechungsfreien Service garantiert → Jetzt mehr erfahren"
-sidebar_label: Allgemein
+title: Protezione DDoS di ZAP-Hosting
+description: "Scopri come ZAP-Hosting garantisce un servizio senza interruzioni con soluzioni di protezione DDoS su misura e in tempo reale per data center globali → Scopri di più ora"
+sidebar_label: Generale
 ---
 
-## Einführung
+## Introduzione
 
-DDoS (Distributed Denial of Service) Angriffe sind bösartige Versuche, den normalen Traffic eines gezielten Servers, Dienstes oder Netzwerks zu stören, indem sie ihn mit einer Flut von Internetverkehr überlasten. Um unseren Kunden einen unterbrechungsfreien Service zu garantieren, setzt ZAP-Hosting bewährte DDoS-Schutzlösungen ein, die auf den jeweiligen Standort des Rechenzentrums zugeschnitten sind.
+Gli attacchi DDoS (Distributed Denial of Service) sono tentativi malevoli di interrompere il traffico normale di un server, servizio o rete bersaglio, sommergendolo con un flusso massiccio di traffico internet. Per garantire un servizio senza interruzioni ai nostri clienti, ZAP-Hosting utilizza soluzioni di protezione DDoS collaudate e personalizzate in base alla posizione del data center.
 
-Unsere DDoS-Schutzsysteme arbeiten automatisch und in Echtzeit, filtern bösartigen Traffic heraus, bevor er die Serverleistung oder Verfügbarkeit beeinträchtigen kann.
+I nostri sistemi di protezione DDoS operano automaticamente e in tempo reale, filtrando il traffico malevolo prima che possa influire sulle prestazioni o sulla disponibilità del server.
 
-## DDoS-Schutzlösungen
+## Soluzioni di Protezione DDoS
 
-Je nach geografischem Standort und Netzwerk-Infrastruktur des jeweiligen Rechenzentrums setzt ZAP-Hosting unterschiedliche DDoS-Schutzsysteme ein. Jeder Standort ist mit einer Mitigation-Lösung ausgestattet, die speziell ausgewählt wurde, um das beste Gleichgewicht aus Performance, Zuverlässigkeit und Reaktionsfähigkeit gegen gängige Angriffsmuster zu bieten.
+A ZAP-Hosting vengono implementati diversi sistemi di protezione DDoS a seconda della posizione geografica e dell’infrastruttura di rete del rispettivo data center. Ogni sito è dotato di una soluzione di mitigazione scelta appositamente per offrire il miglior equilibrio tra prestazioni, affidabilità e reattività contro i tipi di attacco più comuni.
 <details>
   <summary>PletX</summary>
 
-PletX ist ein deutscher Netzwerkanbieter mit Fokus auf hochperformante Hosting-Infrastruktur. Es bietet natives Netzwerk-Level-Filtering und arbeitet mit spezialisierten Mitigation-Anbietern zusammen.
+PletX è un provider di rete tedesco focalizzato su infrastrutture hosting ad alte prestazioni. Offre un filtraggio nativo a livello di rete e collabora con fornitori specializzati in mitigazione.
 
-**Verfügbare Standorte:** FFM / Eygelshoven, GER
+**Location Disponibili:** FFM / Eygelshoven, GER
 
 </details>
 
 <details>
   <summary>OVH</summary>
 
-OVH ist einer der größten europäischen Infrastruktur-Anbieter und betreibt ein eigenes globales DDoS-Schutzsystem mit permanenter Überwachung. Der Schutz erfolgt über ein verteiltes Scrubbing-Netzwerk, das den Traffic frühzeitig filtert.
+OVH è uno dei maggiori provider infrastrutturali europei e gestisce un proprio sistema globale di protezione DDoS con monitoraggio permanente. La protezione viene fornita tramite una rete distribuita di scrubbing che filtra il traffico in anticipo.
 
-**Verfügbare Standorte:** London, UK / Singapur, SG
+**Location Disponibili:** Londra, UK / Singapore, SG
 
 </details>
 
-## DDoS-Schutz im Vergleich
-Die folgende Tabelle gibt einen vereinfachten Überblick über die Hauptfeatures der eingesetzten DDoS-Schutzsysteme. Der Vergleich hilft dir zu verstehen, welche Art von Schutz an welchem Serverstandort zum Einsatz kommt.  
-Alle Anbieter bieten starken Basisschutz, es gibt jedoch Unterschiede im Umfang und in den Methoden, abhängig von der Infrastruktur.
+## Confronto Protezione DDoS
+La tabella seguente offre una panoramica semplificata delle principali caratteristiche dei sistemi di protezione DDoS in uso. Questo confronto ti aiuta a capire che tipo di protezione è applicata in ogni location server.  
+Tutti i provider offrono una protezione di base solida, ma ci sono differenze in termini di portata e metodi a seconda dell’infrastruttura.
 
-| Schutz-Feature                                     | PletX | OVH  |
-| ------------------------------------------------- | :---: | :--: |
-| Always-on Schutz                                  |   ✓   |  ✓   |
-| Basisschutz für alle Services                      |   ✓   |  ✓   |
-| Netzwerk- und Applikationsfilterung                |   ✓   |  ✓   |
-| Zusätzliche spielespezifische Filterung            |   ✓   |  ✓   |
-| Keine Downtime während der Mitigation              |   ✓   |  ✓   |
-| Echtzeit-Monitoring Visualisierung im DDoS Manager |   ✓   |  X   |
+| Caratteristica di Protezione                        | PletX | OVH  |
+| -------------------------------------------------- | :---: | :--: |
+| Protezione Always-on                                |   ✓   |  ✓   |
+| Protezione base per tutti i servizi                 |   ✓   |  ✓   |
+| Filtraggio a livello di rete e applicazione         |   ✓   |  ✓   |
+| Filtraggio aggiuntivo specifico per giochi          |   ✓   |  ✓   |
+| Nessun downtime durante la mitigazione              |   ✓   |  ✓   |
+| Visualizzazione monitoraggio in tempo reale nel DDoS Manager |   ✓   |  X   |
 
 <div style={{ textAlign: 'center', fontSize: '0.7em', color: '#666' }}>
-  ✓ = Feature wird voll unterstützt &nbsp;|&nbsp; X = Feature nicht verfügbar &nbsp;|&nbsp; * = Feature je nach Konfiguration nicht oder nur teilweise verfügbar
+  ✓ = Funzionalità completamente supportata &nbsp;|&nbsp; X = Funzionalità non disponibile &nbsp;|&nbsp; * = Funzionalità non disponibile o solo parzialmente disponibile a seconda della configurazione
 </div>
-## Mehr erfahren zu unseren DDoS-Schutzlösungen
+## Scopri di Più sulle Nostre Soluzioni di Protezione DDoS
 
-Für detaillierte Infos zu den spezifischen Schutzsystemen an jedem Standort kannst du unsere speziellen Guides checken. Die [PletX DDoS Protection](ddos-protection-pletx.md) Dokumentation erklärt die Filter-Logik für unsere deutschen und bald US-Regionen, während die [OVH DDoS Protection](ddos-protection-pletx.md) Dokumentation den Schutz für unsere UK-, Asien- und Australien-Standorte abdeckt.
+Per informazioni dettagliate sui sistemi di protezione specifici usati in ogni location, puoi consultare le nostre guide dedicate. La documentazione su [Protezione DDoS PletX](ddos-protection-pletx.md) spiega la logica di filtraggio usata nelle nostre regioni tedesche e prossimamente USA, mentre la documentazione su [Protezione DDoS OVH](ddos-protection-pletx.md) copre la protezione usata nelle nostre sedi UK, Asia e Australia.

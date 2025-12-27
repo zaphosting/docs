@@ -1,48 +1,56 @@
 ---
 id: account-cashbox
-title: "Cashbox: Depositar dinheiro"
-description: "Descubra como gerenciar depósitos, salvar cartões de crédito, ativar pagamentos automáticos, resgatar vouchers e acompanhar entradas na conta → Saiba mais agora"
+title: "Cashbox: Depositar Dinheiro, Gerenciar Saldo e Acompanhar Atividades de Pagamento"
+description: "Descubra como gerenciar depósitos, salvar cartões de crédito, ativar pagamentos automáticos, resgatar vouchers e acompanhar entradas da conta → Saiba mais agora"
 sidebar_label: Cashbox
 ---
 
-## O que você pode fazer no cashbox?
+## Introdução
 
-O Cashbox é para depositar dinheiro. A gente oferece várias opções pra isso. Essas são as possibilidades atuais:
-
-![](https://screensaver01.zap-hosting.com/index.php/s/tEYsKsmkJj4Pw39/preview)
-
-Essa opção pode ser aberta clicando em **Depositar**: 
-
-![](https://screensaver01.zap-hosting.com/index.php/s/D2WZgLy2M5LeMaB/preview)
+O Cashbox é a área central para gerenciar o saldo da sua conta. Ele permite que você deposite dinheiro, gerencie métodos de pagamento salvos, configure depósitos automáticos, resgate vouchers e revise todas as entradas relacionadas ao saldo em um só lugar.
 
 
-## Como salvo um cartão de crédito?
 
-Pra salvar um cartão de crédito para recargas futuras ou automáticas, é só clicar em **Adicionar cartão de crédito**: 
+## Opções disponíveis para depósito
 
-![](https://screensaver01.zap-hosting.com/index.php/s/TH6CBPZJWM3atyY/preview)
+O Cashbox oferece várias opções para depositar dinheiro na sua conta. Todos os métodos de pagamento disponíveis são exibidos diretamente nesta seção. Para iniciar um depósito, clique em **Depositar**.
 
-Depois disso, vai abrir a janela abaixo, onde você deve inserir seus dados: 
+![img](https://screensaver01.zap-hosting.com/index.php/s/sqwjs4DkT4BBQxP/preview)
+
+
+
+
+
+## Salvando um cartão de crédito
+
+Você pode salvar um cartão de crédito para pagamentos futuros ou para usar com depósitos automáticos. Isso permite depósitos mais rápidos sem precisar digitar seus dados de pagamento toda vez. Para adicionar um cartão de crédito, clique em **Adicionar cartão de crédito**. Uma nova janela será aberta onde você poderá inserir os dados do seu cartão. Preencha todos os campos obrigatórios e confirme para salvar o cartão.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/mLQGYd69pKaS63y/preview)
 
 
-## Como ativo o pagamento automático?
 
-Pra ativar o pagamento automático, basta clicar em **Depósito automático**. Aí você define a partir de qual valor e quanto quer recarregar:
+## Ativando pagamentos automáticos
+
+Os pagamentos automáticos permitem que o saldo da sua conta seja recarregado automaticamente quando cair abaixo de um limite definido. Para ativar essa função, clique em **Depositar automaticamente**. Você poderá definir o saldo mínimo que acionará o depósito automático e o valor que será creditado na sua conta.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/qFRi5rJypmdMM58/preview)
 
 
-## Como resgato um voucher de dinheiro (ZAP Coins)?
-
-Pra resgatar um voucher, é só apertar o botão **Usar Voucher**: 
-
-![](https://screensaver01.zap-hosting.com/index.php/s/emB22L3PzxXwZwN/preview)
 
 
-## Onde vejo as entradas da minha conta?
 
-As movimentações da sua conta ficam listadas no final da página do Cashbox. Lá você também pode filtrar por mês:
+## Resgatando vouchers e ZAP Coins
 
-![](https://screensaver01.zap-hosting.com/index.php/s/eQQp8ie3K3SAWkf/preview)
+Vouchers podem ser resgatados diretamente no Cashbox e são creditados na sua conta como ZAP Coins. Para resgatar um voucher, clique em **Usar Voucher** e insira o código do voucher no campo indicado.
+
+![img](https://screensaver01.zap-hosting.com/index.php/s/TrRACJwJB8jkW8Z/preview)
+
+
+
+## Visualizando entradas da conta
+
+Todas as transações da conta, como depósitos, cobranças e resgates de vouchers, são listadas na parte inferior da página do Cashbox.
+
+Você pode filtrar e ordenar as entradas por mês para ter uma visão clara do histórico da sua conta.
+
+![img](https://screensaver01.zap-hosting.com/index.php/s/2gjfYHtTZBAjBb4/preview)

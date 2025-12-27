@@ -1,7 +1,7 @@
 ---
 id: account-paymentoptions
 title: "Betalningsalternativ: Vilka betalningsalternativ finns"
-description: "Upptäck snabb serveruthyrning med flera betalningsalternativ inklusive ZAP Coins, kreditkort, PayPal, Bitcoin och mer → Läs mer nu"
+description: "Upptäck snabb serveruthyrning med flera betalningsalternativ inklusive ZAP Coins, kreditkort, PayPal, Bitcoin och mer → Lär dig mer nu"
 sidebar_label: Betalningsalternativ
 ---
 
@@ -14,22 +14,22 @@ ZAP-Hosting erbjuder en mängd olika betalningsalternativ för att hyra och star
 * **Bitcoin:** Betala med Bitcoin. Transaktionen hanteras av leverantören Coinify.
 * **Banköverföring:** Endast tillgängligt för insättning av ZAP Coins. Efter mottagen betalning aktiveras ZAP Coins.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/Wksp562L6HABL5J/preview)
+![img](https://screensaver01.zap-hosting.com/index.php/s/sqwjs4DkT4BBQxP/preview)
 
 
 ## Betalningsprocess
-Betalningsprocessen är enkel: serverkonfigurationen sätts ihop på konfigurationssidan, längst ner på sidan väljs önskat betalningsalternativ. Efter ett klick på "Köp nu" sker en eventuell omdirigering till den valda betalningsleverantören där betalningen kan genomföras. Efter mottagen betalning sätts servern upp inom några sekunder.
+Betalningsprocessen är enkel: serverkonfigurationen sätts ihop på konfigurationssidan, längst ner på sidan väljs önskat betalningsalternativ. Efter ett klick på "Köp nu" sker en omdirigering till den valda betalningstjänsten om det behövs, där betalningen kan genomföras. Efter mottagen betalning sätts servern upp inom några sekunder.
 
 ## ZAP Coins: Insättning
-Du kan sätta in pengar på ZAP Coins via din Cashbox med något av de betalningsalternativ som erbjuds. Kontraktsservrar kan också betalas med ZAP Coins. I webbgränssnittet kan du sätta in ZAP Coins under punkten **Sätt in pengar** i din Cashbox.
+Du kan sätta in pengar som ZAP Coins via din Cashbox med något av de betalningsalternativ som erbjuds. Kontraktsservrar kan också betalas med ZAP Coins. I webbgränssnittet kan du sätta in ZAP Coins under punkten **Sätt in pengar** i din Cashbox.
 
 :::info
-Delbetalning med ZAP Coins är inte tillåtet. Om du redan har ZAP Coins, till exempel via en ZAP Coins-kod, kan du lägga till kredit som du vill. Tips: Om du betalar med ZAP Coins, håll koll på våra Cash In Deals: Om Cash In Deal är aktiverad får du extra kredit när du ökar din insättning.
+Delbetalning med ZAP Coins är inte tillåtet. Om du redan har ZAP Coins, till exempel via en ZAP Coins-kod, kan du lägga till kredit hur mycket du vill. Tips: Om du betalar med ZAP Coins, håll koll på våra Cash In Deals: Om Cash In Deal är aktiverad får du extra kredit när du ökar din insättning.
 
-Överföringar kan användas för att sätta in ZAP Coins. Så snart vi mottagit överföringen aktiveras krediten och kan användas.
+Överföringar kan användas för att sätta in ZAP Coins. Så fort vi mottagit överföringen aktiveras krediten och kan användas.
 :::
 
-![](https://screensaver01.zap-hosting.com/index.php/s/wwbxA7PCe45ofzf/preview)
+![img](https://screensaver01.zap-hosting.com/index.php/s/sqwjs4DkT4BBQxP/preview)
 
 ## Cashbox
 Cashbox nås via webbgränssnittet under menyalternativet **Cashbox**. Förutom möjligheten att sätta in pengar erbjuder Cashbox följande funktioner:
@@ -37,6 +37,6 @@ Cashbox nås via webbgränssnittet under menyalternativet **Cashbox**. Förutom 
 * **Sätt in pengar:** Insättningsfunktionen kan också användas via Cashbox.
 * **Lös in voucher:** Vouchers som ger ZAP Coins kan lösas in här. Efter inlösen krediteras ZAP Coins direkt på kontot.
 * **Automatisk påfyllning av ZAP Coins:** ZAP Coins kan fyllas på automatiskt. Detta är smidigt om du har beställt en kontraktsserver. För att kunna fylla på kredit automatiskt måste PayPal användas.
-* **Transaktionsöversikt:** En översikt över alla genomförda transaktioner.
+* **Transaktionsöversikt:** En översikt över alla gjorda transaktioner.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/JS9BW7p39tMiatL/preview) 

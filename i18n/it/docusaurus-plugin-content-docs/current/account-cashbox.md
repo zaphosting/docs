@@ -1,48 +1,56 @@
 ---
 id: account-cashbox
-title: "Cashbox: Deposita soldi"
-description: "Scopri come gestire i depositi, salvare le carte di credito, attivare i pagamenti automatici, riscattare voucher e monitorare le entrate del conto → Scopri di più ora"
+title: "Cashbox: Deposita Soldi, Gestisci il Saldo e Monitora le Transazioni"
+description: "Scopri come gestire i depositi, salvare carte di credito, attivare i pagamenti automatici, riscattare voucher e monitorare le entrate del conto → Scopri di più ora"
 sidebar_label: Cashbox
 ---
 
-## Cosa puoi fare nella cashbox?
+## Introduzione
 
-La Cashbox serve per depositare soldi. Ti offriamo diverse opzioni per farlo. Queste sono le possibilità attuali:
-
-![](https://screensaver01.zap-hosting.com/index.php/s/tEYsKsmkJj4Pw39/preview)
-
-Questa opzione si apre cliccando su **Cash in**: 
-
-![](https://screensaver01.zap-hosting.com/index.php/s/D2WZgLy2M5LeMaB/preview)
+La Cashbox è l’area centrale per gestire il saldo del tuo account. Ti permette di depositare soldi, gestire i metodi di pagamento salvati, configurare i ricarichi automatici, riscattare voucher e rivedere tutte le transazioni legate al saldo in un unico posto.
 
 
-## Come salvo una carta di credito?
 
-Per salvare una carta di credito per ricariche future o automatiche, clicca semplicemente su **Aggiungi carta di credito**: 
+## Opzioni disponibili per il deposito
 
-![](https://screensaver01.zap-hosting.com/index.php/s/TH6CBPZJWM3atyY/preview)
+La Cashbox offre diverse opzioni per depositare soldi sul tuo account. Tutti i metodi di pagamento disponibili sono mostrati direttamente in questa sezione. Per iniziare un deposito, clicca su **Cash in**.
 
-Si aprirà poi questa finestra, dove dovrai inserire i tuoi dati: 
+![img](https://screensaver01.zap-hosting.com/index.php/s/sqwjs4DkT4BBQxP/preview)
+
+
+
+
+
+## Salvare una carta di credito
+
+Puoi salvare una carta di credito per pagamenti futuri o per usarla con i ricarichi automatici. Così puoi depositare più velocemente senza dover reinserire i dati ogni volta. Per aggiungere una carta di credito, clicca su **Add credit card**. Si aprirà una nuova finestra dove potrai inserire i dati della carta. Completa tutti i campi richiesti e conferma per salvare la carta.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/mLQGYd69pKaS63y/preview)
 
 
-## Come attivo il pagamento automatico?
 
-Per attivare il pagamento automatico, ti basta cliccare su **Ricarica automatica**. Poi puoi definire da quale importo e quanto vuoi ricaricare:
+## Attivare i pagamenti automatici
+
+I pagamenti automatici ricaricano il saldo del tuo account automaticamente quando scende sotto una soglia da te definita. Per attivare questa funzione, clicca su **Cash in automatically**. Potrai impostare il saldo minimo che fa scattare il ricarico e l’importo che verrà accreditato sul tuo account.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/qFRi5rJypmdMM58/preview)
 
 
-## Come riscattare un voucher per soldi (ZAP Coins)?
-
-Per riscattare un voucher ti basta premere il pulsante **Usa Voucher**: 
-
-![](https://screensaver01.zap-hosting.com/index.php/s/emB22L3PzxXwZwN/preview)
 
 
-## Dove vedo le mie entrate sul conto?
 
-Le tue registrazioni sul conto sono elencate in fondo alla pagina della Cashbox. Qui puoi anche ordinare per mese:
+## Riscattare voucher e ZAP Coins
 
-![](https://screensaver01.zap-hosting.com/index.php/s/eQQp8ie3K3SAWkf/preview)
+I voucher possono essere riscattati direttamente nella Cashbox e vengono accreditati come ZAP Coins sul tuo account. Per riscattare un voucher, clicca su **Use Voucher** e inserisci il codice voucher nel campo dedicato.
+
+![img](https://screensaver01.zap-hosting.com/index.php/s/TrRACJwJB8jkW8Z/preview)
+
+
+
+## Visualizzare le transazioni del conto
+
+Tutte le transazioni del conto come depositi, addebiti e riscatti voucher sono elencate in fondo alla pagina della Cashbox.
+
+Puoi filtrare e ordinare le transazioni per mese per avere una panoramica chiara della tua cronologia account.
+
+![img](https://screensaver01.zap-hosting.com/index.php/s/2gjfYHtTZBAjBb4/preview)
