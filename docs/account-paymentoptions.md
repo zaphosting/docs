@@ -14,7 +14,7 @@ ZAP-Hosting offers a large number of different payment options with which server
 * **Bitcoin:** Pay with Bitcoin. The transaction will be processed by the provider Coinify.
 * **Bank transfer:** Only available for depositing ZAP Coins. After receipt of payment the ZAP Coins will be activated.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/Wksp562L6HABL5J/preview)
+![img](https://screensaver01.zap-hosting.com/index.php/s/sqwjs4DkT4BBQxP/preview)
 
 
 ## Payment process
@@ -29,7 +29,7 @@ Partial payment using ZAP Coins is not allowed. If you already have ZAP Coins, f
 Transfers can be used to deposit ZAP Coins. As soon as we have received the transfer, the credit will be activated and can be used.
 :::
 
-![](https://screensaver01.zap-hosting.com/index.php/s/wwbxA7PCe45ofzf/preview)
+![img](https://screensaver01.zap-hosting.com/index.php/s/sqwjs4DkT4BBQxP/preview)
 
 ## Cashbox
 The Cashbox can be accessed via the web interface under the item **Cashbox**. In addition to the possibility of depositing money, the Cashbox offers the following additional functions:
