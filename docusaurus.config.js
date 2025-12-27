@@ -201,6 +201,9 @@ const config = {
           },
           {
             to: '/docs/gameserver-scheduled-tasks', from: '/docs/gameserver-restartplaner',
+          },
+          {
+            to: '/docs/welcome', from: '/docs/account-contractsandprepaid',
           }
         ],
       },

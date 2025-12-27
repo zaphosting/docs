@@ -73,7 +73,6 @@ const sidebars = {
         "account-change-email",
         "account-change-language",
         "account-data-information",
-        "account-contractsandprepaid",
         "account-termination-and-cancellation-period",
         "account-paymentoptions",
         "account-backup-storage",
