@@ -214,7 +214,6 @@ const sidebars = {
     "gameserver-resourcelimit",
     "gameserver-gameswitch",
     "gameserver-upgrade",
-    "gameserver-restartplaner",
     "gameserver-server-down-what-now",
     "gameserver-subdomain",
     "gameserver-tebex",
