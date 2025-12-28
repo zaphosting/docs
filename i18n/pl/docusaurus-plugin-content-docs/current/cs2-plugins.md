@@ -1,37 +1,89 @@
 ---
 id: cs2-plugins
 title: "CS2: Instalacja pluginów"
-description: "Odkryj rozwijający się świat pluginów i projektów społecznościowych do CS2, które wzbogacą Twoje doświadczenie w Counter-Strike → Sprawdź teraz"
+description: "Odkryj rozwijający się świat pluginów i projektów społecznościowych dla CS2, które wzbogacą Twoje doświadczenie w Counter-Strike → Dowiedz się więcej już teraz"
 sidebar_label: Instalacja pluginów
 services:
   - gameserver-cs2
 ---
 
+import Button from '@site/src/components/Button';
 import InlineVoucher from '@site/src/components/InlineVoucher';
 import SearchableItemList from '@site/src/components/SearchableItemList/SearchableItemList';
 import items from '@site/data/lists/cs2-plugins.json';
 
+
+
 ## Wprowadzenie
 
-Od czasów powstania Counter-Strike, gra przeszła drogę od prostego moda do Half-Life’a do jednego z najbardziej znanych i najdłużej działających FPS-ów na świecie. Jednak to, co czyni Counter-Strike wyjątkowym i wszechstronnym, to nie tylko oficjalne tryby gry, ale też niezliczone niestandardowe tryby stworzone i możliwe dzięki globalnej społeczności poprzez pluginy.
+Counter-Strike 2 kontynuuje długą tradycję serwerowej personalizacji napędzanej przez społeczność. Pluginy pozwalają właścicielom serwerów gier rozszerzać rozgrywkę, dodawać funkcje poprawiające komfort, wdrażać niestandardowe zasady lub tworzyć całkowicie nowe tryby gry.
+
+Wraz z przejściem na Source 2, ekosystem pluginów uległ znacznym zmianom. Dla CS2 **CounterStrikeSharp** stał się głównym i aktywnie rozwijanym frameworkiem do tworzenia pluginów po stronie serwera.
 
 <InlineVoucher />
 
-## Aktualna sytuacja
 
-Wraz z CS2 i przejściem na silnik Source2, zaszło wiele zmian. Nowości mogą przynieść zarówno pozytywy, jak i negatywy. Jedną z wad tej zmiany jest obecna sytuacja z pluginami w CS2. Na ten moment praktycznie nie ma publicznych projektów do tworzenia pluginów.
 
-Poprzedni projekt rozwojowy dla CS:GO, oparty na [Metamod](https://www.sourcemm.net/) i [Sourcemod](https://www.sourcemod.net/), nie jest tak naprawdę przystosowany do użytku z CS2. Metamod działa przynajmniej częściowo. Obecnie nie jest pewne, czy i kiedy pojawi się dalszy rozwój dla CS2.
+## Instalacja Metamod:Source
 
-Informacje na ten temat są teraz bardzo ograniczone i niejasne. Obecną sytuację można śledzić tutaj:
+Metamod musi być zainstalowany jako pierwszy, ponieważ CounterStrikeSharp od niego zależy. Po pobraniu [Metamod:Source 2.x Dev Build](https://www.metamodsource.net/downloads.php?branch=dev), rozpakuj archiwum. W środku znajdziesz katalog `addons`. Ten katalog należy przesłać bezpośrednio do katalogu gry CS2 przez [FTP](gameserver-ftpaccess.md).
 
-- https://forums.alliedmods.net/showthread.php?t=342020
-- https://wiki.alliedmods.net/Introduction_to_SourceMod_Plugins#Will_SourceMod_support_Source_2.3F_Will_plugins_for_existing_games_continue_to_work_if_they_are_ported.3F
+```
+../game/csgo/
+```
 
-Poza Sourcemod/Metamod, obecnie rozwijane są też inne projekty. Jednym z nich jest na przykład [ResourceMod](https://resourcemod.net/), który niedawno został zaprezentowany na Reddicie. Projekt jest jednak wciąż w fazie rozwoju i na razie nie można go używać.
+Po skopiowaniu plików, znajdź plik `gameinfo.gi` w `/game/csgo/`. Otwórz go w edytorze tekstu. W pliku znajdź linię zawierającą `Game_LowViolence csgo_lv`. Bezpośrednio pod nią dodaj następujący wpis:
+
+```
+Game csgo/addons/metamod
+```
+
+<Button label="Pobierz Metamod:Source" link="https://www.metamodsource.net/downloads.php?branch=dev" block />
+
+
+
+
+
+## Instalacja CounterStrikeSharp
+
+Gdy Metamod jest już uruchomiony, możesz zainstalować CounterStrikeSharp. CounterStrikeSharp jest dystrybuowany przez oficjalne repozytorium na GitHub i dostępny jako gotowy do użycia pakiet. Pobierz wersję CounterStrikeSharp zawierającą runtime. Rozpakuj archiwum i skopiuj zawarty katalog `addons` do tego samego katalogu gry CS2 przez [FTP](gameserver-ftpaccess.md).
+
+```
+/game/csgo/
+```
+
+Nie łącz ani nie zmieniaj nazw katalogów ręcznie. Struktura dostarczona przez archiwum musi pozostać nienaruszona. Po przesłaniu plików zrestartuj serwer. Podczas startu Metamod automatycznie załaduje CounterStrikeSharp. Aby zweryfikować instalację, otwórz konsolę serwera i wpisz:
+
+```
+meta list
+Listing 1 plugin:
+  [01] CounterStrikeSharp (0.1.0) by Roflmuffin
+```
+
+<Button label="Pobierz CounterStrikeSharp" link="https://github.com/roflmuffin/CounterStrikeSharp/releases/tag/v1.0.354" block />
+
+
+
+## Instalacja pluginów
+
+Pluginy dla CounterStrikeSharp dostarczane są jako skompilowane pliki `.dll`. Pliki te umieszcza się w katalogu `plugins` w ścieżce instalacji CounterStrikeSharp.
+
+Po skopiowaniu pluginu do tego katalogu i restarcie serwera, CounterStrikeSharp automatycznie załaduje wszystkie dostępne pluginy. Jeśli jakiś plugin nie załaduje się poprawnie, sprawdź logi serwera pod kątem błędów związanych z CounterStrikeSharp lub samym pluginem.
+
+
+
 
 ## Popularne pluginy
 
 <SearchableItemList items={items} />
+
+
+
+## Podsumowanie
+
+Jeśli wykonałeś wszystkie kroki, powinieneś mieć poprawnie zainstalowane Metamod/CounterStrikeSharp oraz wybrane pluginy. W razie pytań lub potrzeby pomocy, śmiało kontaktuj się z naszym supportem, który jest dostępny codziennie, by Ci pomóc! 🙂
+
+
+
 
 <InlineVoucher />

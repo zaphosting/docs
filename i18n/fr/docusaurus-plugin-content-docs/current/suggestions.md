@@ -1,53 +1,87 @@
 ---
 id: suggestions
-title: Soumettre des Suggestions
+title: Retour d’expérience, Feuille de route et Journal des modifications
 description: "Découvrez comment influencer les améliorations des services ZAP-Hosting en soumettant et votant pour les suggestions de la communauté → En savoir plus maintenant"
-sidebar_label: Soumettre des Suggestions
+sidebar_label: Retour & Feuille de route
 ---
 
-
+import Button from '@site/src/components/Button';
 
 ## Introduction
-Chez ZAP-Hosting, on cherche toujours à faire de notre mieux, donc on accueille à bras ouverts tous vos retours et suggestions. Vous pouvez facilement nous faire part de vos idées directement via notre [Page de Suggestions](https://zap-hosting.com/en/suggestion/) sur le site.
 
-Grâce à cette page, la communauté ZAP peut voter pour les suggestions les plus importantes et demandées, ce qui nous permet de prioriser le développement en fonction des suggestions les plus plébiscitées. En général, plus l’intérêt est grand, plus la suggestion devient prioritaire.
+Chez ZAP-Hosting, on cherche toujours à faire au mieux, c’est pourquoi on accueille à bras ouverts tous vos retours et suggestions. On utilise **[Featurebase](https://roadmap.zap-hosting.com/)** comme plateforme centrale pour les retours de la communauté et la transparence produit.
 
-## Page de Suggestions
-Vous pouvez accéder aux suggestions directement via notre [Page de Suggestions](https://zap-hosting.com/en/suggestion/) sur le site ou via ce lien : https://zap-hosting.com/en/suggestion/
+![img](https://screensaver01.zap-hosting.com/index.php/s/6xwigzT6LyyZfDJ/preview)
 
-Sur la page, vous verrez en haut les suggestions **En cours** regroupées pour un accès rapide. Ce sont des suggestions qui ont été examinées et sur lesquelles notre équipe travaille activement. En descendant, vous trouverez les suggestions **Soumises**, celles qu’un client a proposées et qui ont été approuvées, mais qui ne sont pas encore en cours de développement.
+Grâce à Featurebase, nos clients peuvent soumettre des idées, voter pour des suggestions existantes, consulter la feuille de route actuelle et suivre les journaux des modifications publiés. Ce système remplace complètement l’ancienne solution Suggestions et offre une vision plus claire de la progression des retours, de l’idée à la mise en œuvre.
 
-Vous pouvez aussi filtrer par catégorie pour afficher les suggestions correspondantes et activer l’affichage des suggestions terminées via le toggle.
+<Button label="Visiter Featurebase" link="https://roadmap.zap-hosting.com/" block />
 
-### Suggestions Acceptables
-En général, tout type de suggestion concernant nos services peut être soumis. En particulier, on accueille avec plaisir les nouvelles demandes de jeux ainsi que les fonctionnalités pour l’interface web.
 
-Si vous avez une suggestion concernant d’autres domaines comme notre communauté ZAP ou des événements, qui ne sont pas directement liés à nos services, n’hésitez pas à nous en parler sur notre [serveur Discord ZAP-Hosting](https://discord.com/invite/zaphosting).
 
-#### Points à considérer pour les nouvelles suggestions de jeux
-Quand vous soumettez une nouvelle suggestion de jeu, on l’examine pour décider si ça vaut le coup d’ajouter ce jeu en serveur de jeux, en se basant sur plusieurs critères. En général, tout jeu ou modpack que nous ne proposons pas encore comme serveur de jeux peut être proposé et sera étudié.
+## Connecte ton compte ZAP Hosting avec Featurebase
 
-:::info
-Pour suggérer un jeu, il suffit d’indiquer le nom du jeu ou du modpack ainsi qu’un lien vers le site officiel du jeu ou du modpack.
-:::
+Pour participer activement à Featurebase, il suffit de lier ton compte ZAP Hosting en quelques clics. Après avoir ouvert cette page et confirmé la connexion, ton compte ZAP Hosting est sécurisé et lié à Featurebase. Pas besoin d’inscription séparée ni d’identifiants supplémentaires.
 
-Parmi les critères qu’on prend en compte, il y a la demande minimale pour le jeu, son ancienneté, et s’il est encore populaire et activement maintenu/mis à jour.
+Une fois connecté, tu peux directement soumettre des retours, voter pour des idées et interagir avec la feuille de route. Toutes tes actions sont associées à ton compte ZAP Hosting, pour une expérience fluide et cohérente entre les plateformes.
 
-#### Points à considérer pour les nouvelles fonctionnalités d’interface web
-Quand vous proposez une nouvelle fonctionnalité pour l’interface web, assurez-vous qu’elle concerne notre site ZAP-Hosting ou les panneaux d’interface web comme celui de votre serveur de jeux.
+<Button label="Lier le compte (connexion requise)" link="https://zap-hosting.com/interface/featurebase/" block />
 
-Toutes les idées sont les bienvenues, que ce soit une petite amélioration ou une toute nouvelle fonctionnalité que vous pensez utile pour notre site et nos panneaux d’interface web.
 
-### Créer une Suggestion
-Avant de soumettre une nouvelle suggestion, on vous conseille vivement d’utiliser la fonction recherche de votre navigateur avec `CTRL+F` pour vérifier si votre suggestion n’a pas déjà été postée. Si c’est le cas, vous pouvez simplement liker la suggestion existante au lieu d’en créer une doublon.
 
-Vous pouvez créer une nouvelle suggestion en cliquant sur le bouton vert **Suggérer une fonctionnalité** sur la [Page de Suggestions](https://zap-hosting.com/en/suggestion/). Un formulaire s’ouvrira, où vous pourrez remplir les détails et choisir la catégorie appropriée. Vous pouvez être aussi précis que vous voulez dans la description, tant que le point est bien expliqué.
+## Aperçu de la plateforme Featurebase
 
-On recommande d’être connecté pour faire ça, ou sinon vous pouvez remplir la section email si vous n’êtes pas connecté à votre compte ZAP-Hosting au moment de la soumission.
+Featurebase est divisée en plusieurs sections qui fonctionnent ensemble pour offrir une vue complète du développement produit.
 
-![](https://github.com/zaphosting/docs/assets/42719082/3cb61b1b-b922-4145-8081-a52d0040bdaf)
+### Retours et Idées
 
-### Après la Soumission de la Suggestion
-Une fois votre suggestion soumise avec succès, on vérifie régulièrement les nouvelles suggestions pour décider si on les approuve, ou parfois on peut même les implémenter directement.
+La section Retours sert à collecter les idées et suggestions d’amélioration de la communauté. Les utilisateurs peuvent soumettre de nouvelles propositions et soutenir celles déjà existantes en votant. Ça permet de mettre en avant les sujets qui comptent le plus pour la communauté et méritent qu’on s’y attarde.
 
-Comme dit en intro, les membres de la communauté ZAP peuvent liker votre suggestion pour montrer son importance. Plus une suggestion reçoit de likes, plus elle a de chances d’être prise en compte et développée à l’avenir.
+![img](https://screensaver01.zap-hosting.com/index.php/s/HZofXdr4ByRHBY7/preview)
+
+### Feuille de route
+
+La Feuille de route montre l’état actuel de la planification des fonctionnalités et idées. Elle donne de la visibilité sur ce qui est prévu, ce qui est en cours de développement, et ce qui a déjà été livré. Chaque entrée affiche un statut clair pour suivre l’avancement à tout moment.
+
+![img](https://screensaver01.zap-hosting.com/index.php/s/jaJiMNfGzXwcCSM/preview)
+
+### Journal des modifications
+
+Le Journal des modifications documente les travaux terminés de manière transparente et chronologique. Il liste les nouvelles fonctionnalités, améliorations et changements importants, pour que tu puisses voir quelles idées ont déjà été mises en place et quand elles sont devenues dispo.
+
+![img](https://screensaver01.zap-hosting.com/index.php/s/rbQbZs6gQcNCpy4/preview)
+
+
+
+## Soumettre des retours et idées
+
+Avant de proposer une nouvelle idée, vérifie si une suggestion similaire n’existe pas déjà. Utiliser la recherche intégrée évite les doublons et garde les retours bien organisés. Si une idée correspond déjà à ta demande, il vaut mieux voter pour celle-ci.
+
+Les nouvelles idées se soumettent via le bouton **Submit feedback** dans Featurebase. Chaque proposition doit avoir un titre clair et une description bien expliquée qui détaille le problème ou l’amélioration souhaitée. Choisir la bonne catégorie aide à ce que l’idée soit examinée dans le bon contexte.
+
+![img](https://screensaver01.zap-hosting.com/index.php/s/4b5NZ67gzECFxmk/download)
+
+
+
+
+## Vote et priorisation
+
+Toutes les idées sur Featurebase peuvent être votées par la communauté. Plus une idée a de votes, plus la demande est forte et plus elle a de chances d’être priorisée. Les décisions finales prennent aussi en compte la faisabilité technique et la stratégie globale du produit.
+
+
+
+## Statuts de la feuille de route
+
+Les entrées de la feuille de route passent généralement par plusieurs étapes. Les éléments planifiés ont été revus et programmés, ceux marqués En cours sont en train d’être développés, et les éléments Terminés ont déjà été livrés. Ces statuts facilitent la compréhension de l’état actuel de chaque fonctionnalité.
+
+
+
+## Journal des modifications
+
+Le Journal des modifications offre un aperçu fiable de ce qui a changé dans le produit. Il inclut les fonctionnalités récemment sorties, les améliorations et autres mises à jour importantes, pour garantir une transparence totale et un suivi clair.
+
+
+
+## Types de retours adaptés
+
+Cette fonctionnalité est destinée aux retours liés au produit comme les demandes de nouveaux serveurs de jeux, les améliorations de l’interface web ou des panneaux, les idées de fonctionnalités pour les services, et les optimisations des fonctionnalités existantes. Les demandes de support individuelles ou problèmes techniques doivent continuer à être traités via les canaux officiels de support.
