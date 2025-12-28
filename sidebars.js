@@ -4690,6 +4690,7 @@ const sidebars = {
         'vserver-windows-change-language',
         'vserver-windows-manage-users',
         'vserver-windows-expand-disk',
+        'vserver-windows-eval-to-full'
       ]
     },
     {
