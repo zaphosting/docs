@@ -185,7 +185,7 @@ const sidebars = {
         },
       ]
     },
-        {
+    {
       type: 'html',
       className: 'sidebar-title',
       value: (() => {
