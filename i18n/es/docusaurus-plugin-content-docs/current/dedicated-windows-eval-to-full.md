@@ -1,6 +1,6 @@
 ---
 id: dedicated-windows-eval-to-full
-title: "Servidor Dedicado: Convierte Windows Server Evaluation a Versión Completa"
+title: "Servidor dedicado: Convierte Windows Server Evaluation a Versión Completa"
 description: "Descubre cómo convertir Windows Server Evaluation a Versión Completa → Aprende más ahora"
 sidebar_label: Convertir Eval a Completo
 services:
@@ -13,7 +13,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introducción
 
-Las ediciones Windows Server Evaluation están diseñadas para pruebas y tienen un tiempo limitado. Para seguir usando la misma instalación en producción, la edición de evaluación puede convertirse en una versión completamente licenciada sin reinstalar el sistema operativo.
+Las ediciones Windows Server Evaluation están diseñadas para pruebas y tienen un límite de tiempo. Para seguir usando la misma instalación en producción, la edición de evaluación puede convertirse en una versión completamente licenciada sin necesidad de reinstalar el sistema operativo.
 
 Microsoft soporta esta conversión in situ usando la herramienta DISM, siempre que tengas una clave de producto válida para la edición destino.
 
@@ -29,19 +29,19 @@ Antes de empezar la conversión, asegúrate de tener una clave de producto váli
 
 ## Obtener la edición actual
 
-Para verificar qué edición está instalada, abre un Símbolo del sistema o PowerShell con permisos elevados y ejecuta el siguiente comando:
+Para verificar qué edición está instalada, abre un Símbolo del sistema o PowerShell con permisos de administrador y ejecuta el siguiente comando:
 
 ```powershell
 DISM /Online /Get-CurrentEdition
 ```
 
-La salida mostrará el identificador de la edición activa. Las instalaciones de evaluación suelen aparecer como `ServerStandardEval` o `ServerDatacenterEval`.
+El resultado mostrará el identificador de la edición activa. Las instalaciones de evaluación suelen aparecer como `ServerStandardEval` o `ServerDatacenterEval`.
 
 
 
 ## Comprobar ediciones destino soportadas
 
-No todas las ediciones pueden convertirse a cualquier otra edición. Para ver qué ediciones licenciadas son compatibles con tu instalación actual, ejecuta este comando:
+No todas las ediciones pueden convertirse en cualquier otra edición. Para ver qué ediciones licenciadas son compatibles con tu instalación actual, ejecuta este comando:
 
 ```
 DISM /Online /Get-TargetEditions
@@ -53,7 +53,7 @@ Las ediciones listadas representan los destinos válidos para la conversión.
 
 ## Actualizar de Evaluation a Versión Completa
 
-Una vez que sabes la edición destino y tienes una clave válida, puedes iniciar la actualización. El valor `<TargetEdition>` debe coincidir con una de las ediciones soportadas que devolvió el comando anterior.
+Una vez que conozcas la edición destino y tengas una clave de producto válida, puedes iniciar la actualización. El valor `<TargetEdition>` debe coincidir con una de las ediciones soportadas que devuelve el comando anterior.
 
 Las ediciones destino comunes incluyen:
 - `ServerStandard`
@@ -73,27 +73,27 @@ DISM /Online /Set-Edition:<TargetEdition> /ProductKey:<ProductKey> /AcceptEula
 | Windows Server 2022 Standard       | VDYBN-27WPP-V4HQT-9VMD4-VMK7H             |
 | Windows Server 2022 Datacenter     | WX4NM-KYWYW-QJJR4-XV3QB-6VM33             |
 
-Durante el proceso, el progreso puede parecer que se detiene por un momento. Esto es normal. Al finalizar la conversión, se requiere reiniciar para completar el cambio de edición.
+Durante el proceso, puede parecer que el progreso se detiene por un momento. Esto es normal. Cuando la conversión termine, será necesario reiniciar para finalizar el cambio de edición.
 
 
 
 ## Verificar la versión de Windows Server
 
-Una vez que el servidor haya reiniciado, abre un Símbolo del sistema o PowerShell con permisos elevados y ejecuta:
+Después de reiniciar el servidor, abre un Símbolo del sistema o PowerShell con permisos de administrador y ejecuta:
 
 ```powershell
 DISM /Online /Get-CurrentEdition
 ```
 
-La salida debería mostrar ahora la edición licenciada, como `ServerStandard` o `ServerDatacenter`, confirmando que la edición de evaluación se convirtió con éxito.
+El resultado debería mostrar ahora la edición licenciada, como `ServerStandard` o `ServerDatacenter`, confirmando que la edición de evaluación se convirtió correctamente.
 
-En esta etapa, verás la marca de agua **Activar Windows** en la esquina inferior derecha de la pantalla. Ahora puedes usar tu licencia de Windows Server comprada para activar la edición Standard o Datacenter.
+En esta etapa, verás la marca de agua **Activar Windows** en la esquina inferior derecha. Ahora puedes usar la licencia de Windows Server que compraste para activar la edición Standard o Datacenter.
 
 
 
 ## Conclusión
 
-¡Felicidades! Ahora has cambiado con éxito tu versión de Windows Server de EVAL a Completa. Si tienes más preguntas o necesitas ayuda, no dudes en contactar con nuestro equipo de soporte, disponible todos los días para asistirte 🙂
+¡Felicidades! Has cambiado con éxito tu versión de Windows Server de EVAL a Completa. Si tienes más preguntas o necesitas ayuda, no dudes en contactar a nuestro equipo de soporte, disponible todos los días para asistirte 🙂
 
 
 

@@ -2,7 +2,7 @@
 id: vserver-windows-eval-to-full
 title: "VPS: Convierte Windows Server Evaluation a Versión Completa"
 description: "Descubre cómo convertir Windows Server Evaluation a Versión Completa → Aprende más ahora"
-sidebar_label: Convertir Eval a Completo
+sidebar_label: Convertir Eval a Completa
 services:
   - vserver
 ---
@@ -13,7 +13,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introducción
 
-Las ediciones Windows Server Evaluation están diseñadas para pruebas y tienen un límite de tiempo. Para seguir usando la misma instalación en producción, la edición de evaluación puede convertirse en una versión completamente licenciada sin necesidad de reinstalar el sistema operativo.
+Las ediciones Windows Server Evaluation están diseñadas para pruebas y tienen una duración limitada. Para seguir usando la misma instalación en producción, la edición de evaluación puede convertirse en una versión completamente licenciada sin necesidad de reinstalar el sistema operativo.
 
 Microsoft soporta esta conversión in situ usando la herramienta DISM, siempre que tengas una clave de producto válida para la edición destino.
 
@@ -23,13 +23,13 @@ Microsoft soporta esta conversión in situ usando la herramienta DISM, siempre q
 
 ## Requisitos previos
 
-Antes de comenzar la conversión, asegúrate de tener una clave de producto válida para la edición de Windows Server a la que quieres cambiar, como Standard o Datacenter. La clave debe coincidir exactamente con la edición destino.
+Antes de empezar la conversión, asegúrate de tener una clave de producto válida para la edición de Windows Server a la que quieres cambiar, como Standard o Datacenter. La clave debe coincidir exactamente con la edición destino.
 
 
 
 ## Obtener la edición actual
 
-Para verificar qué edición está instalada actualmente, abre un Símbolo del sistema o PowerShell con permisos de administrador y ejecuta el siguiente comando:
+Para verificar qué edición está instalada actualmente, abre un símbolo del sistema o PowerShell con permisos elevados y ejecuta el siguiente comando:
 
 ```powershell
 DISM /Online /Get-CurrentEdition
@@ -41,7 +41,7 @@ La salida mostrará el identificador de la edición activa. Las instalaciones de
 
 ## Comprobar ediciones destino soportadas
 
-No todas las ediciones pueden convertirse a cualquier otra edición. Para ver qué ediciones licenciadas son compatibles con tu instalación actual, ejecuta el siguiente comando:
+No todas las ediciones pueden convertirse a cualquier otra edición. Para ver qué ediciones licenciadas son compatibles con tu instalación actual, ejecuta este comando:
 
 ```
 DISM /Online /Get-TargetEditions
@@ -73,13 +73,13 @@ DISM /Online /Set-Edition:<TargetEdition> /ProductKey:<ProductKey> /AcceptEula
 | Windows Server 2022 Standard       | VDYBN-27WPP-V4HQT-9VMD4-VMK7H             |
 | Windows Server 2022 Datacenter     | WX4NM-KYWYW-QJJR4-XV3QB-6VM33             |
 
-Durante el proceso, el progreso puede parecer que se detiene por un momento. Esto es normal. Al finalizar la conversión, será necesario reiniciar para completar el cambio de edición.
+Durante el proceso, el progreso puede parecer que se detiene por un momento. Esto es normal. Cuando la conversión termine, será necesario reiniciar para finalizar el cambio de edición.
 
 
 
 ## Verificar la versión de Windows Server
 
-Una vez que el servidor haya reiniciado, abre un Símbolo del sistema o PowerShell con permisos de administrador y ejecuta:
+Una vez que el servidor se haya reiniciado, abre un símbolo del sistema o PowerShell con permisos elevados y ejecuta:
 
 ```powershell
 DISM /Online /Get-CurrentEdition
@@ -93,7 +93,7 @@ En esta etapa, verás la marca de agua **Activar Windows** en la esquina inferio
 
 ## Conclusión
 
-¡Felicidades! Has cambiado con éxito tu versión de Windows Server de EVAL a Completa. Si tienes más preguntas o necesitas ayuda, no dudes en contactar a nuestro equipo de soporte, disponible todos los días para asistirte 🙂
+¡Felicidades! Ahora has cambiado con éxito tu versión de Windows Server de EVAL a Completa. Si tienes más preguntas o necesitas ayuda, no dudes en contactar con nuestro equipo de soporte, disponible todos los días para asistirte 🙂
 
 
 

@@ -13,7 +13,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introduktion
 
-Windows Server Evaluation-versioner är designade för teständamål och är tidsbegränsade. För att fortsätta använda samma installation i produktion kan evaluation-versionen konverteras till en fullt licensierad version utan att installera om operativsystemet.
+Windows Server Evaluation-versioner är designade för testning och är tidsbegränsade. För att fortsätta använda samma installation i produktion kan du konvertera evaluation-versionen till en fullt licensierad version utan att installera om operativsystemet.
 
 Microsoft stödjer denna konvertering på plats med hjälp av DISM-verktyget, förutsatt att du har en giltig produktnyckel för målversionen.
 
@@ -23,7 +23,7 @@ Microsoft stödjer denna konvertering på plats med hjälp av DISM-verktyget, f�
 
 ## Förutsättningar
 
-Innan du startar konverteringen, se till att du har en giltig produktnyckel för den Windows Server-version du vill byta till, som Standard eller Datacenter. Produktnyckeln måste exakt matcha målversionen.
+Innan du börjar konverteringen, se till att du har en giltig produktnyckel för den Windows Server-version du vill byta till, som Standard eller Datacenter. Produktnyckeln måste exakt matcha målversionen.
 
 
 
@@ -35,7 +35,7 @@ För att kontrollera vilken version som är installerad, öppna ett förhöjt Ko
 DISM /Online /Get-CurrentEdition
 ```
 
-Resultatet visar den aktiva versionens identifierare. Evaluation-installationer visas vanligtvis som `ServerStandardEval` eller `ServerDatacenterEval`.
+Resultatet visar den aktiva versionsidentifieraren. Evaluation-installationer visas vanligtvis som `ServerStandardEval` eller `ServerDatacenterEval`.
 
 
 
@@ -53,7 +53,7 @@ De listade versionerna är giltiga mål som kan användas för konverteringen.
 
 ## Uppgradera Evaluation till Full Version
 
-När målversionen är känd och en giltig produktnyckel finns tillgänglig kan uppgraderingen startas. Värdet `<TargetEdition>` måste matcha en av de stödda versionerna som DISM-kommandot för målversioner returnerar.
+När målversionen är känd och en giltig produktnyckel finns tillgänglig kan uppgraderingen startas. Värdet `<TargetEdition>` måste matcha en av de stödda versionerna som DISM-kommandot returnerade.
 
 Vanliga målversioner inkluderar:
 - `ServerStandard`
@@ -73,7 +73,7 @@ DISM /Online /Set-Edition:<TargetEdition> /ProductKey:<ProductKey> /AcceptEula
 | Windows Server 2022 Standard  | VDYBN-27WPP-V4HQT-9VMD4-VMK7H |
 | Windows Server 2022 Datacenter| WX4NM-KYWYW-QJJR4-XV3QB-6VM33 |
 
-Under processen kan det se ut som att den står stilla en stund. Det är helt normalt. När konverteringen är klar krävs en omstart för att slutföra versionsbytet.
+Under processen kan det se ut som att det står still en stund. Det är helt normalt. När konverteringen är klar krävs en omstart för att slutföra versionsbytet.
 
 
 
@@ -85,15 +85,15 @@ När servern har startat om, öppna ett förhöjt Kommandotolks- eller PowerShel
 DISM /Online /Get-CurrentEdition
 ```
 
-Resultatet bör nu visa den licensierade versionen, som `ServerStandard` eller `ServerDatacenter`, vilket bekräftar att evaluation-versionen konverterats framgångsrikt.
+Resultatet ska nu visa den licensierade versionen, som `ServerStandard` eller `ServerDatacenter`, vilket bekräftar att evaluation-versionen konverterades framgångsrikt.
 
-Vid det här laget kommer du att se **Aktivera Windows**-vattenstämpeln nere i högra hörnet på skärmen. Nu kan du använda din köpta Windows Server-licens för att aktivera Windows Server Standard eller Datacenter.
+Vid det här laget ser du **Aktivera Windows**-vattenstämpeln nere i högra hörnet. Nu kan du använda din köpta Windows Server-licens för att aktivera Windows Server Standard eller Datacenter.
 
 
 
-## Slutsats
+## Avslutning
 
-Grattis! Du har nu framgångsrikt bytt din Windows Server-version från EVAL till Full. Har du fler frågor eller behöver hjälp, tveka inte att kontakta vårt supportteam som finns tillgängligt varje dag för att hjälpa dig! 🙂
+Grattis! Du har nu lyckats byta din Windows Server-version från EVAL till Full. Har du fler frågor eller behöver hjälp, tveka inte att kontakta vår support som finns tillgänglig varje dag för att hjälpa dig! 🙂
 
 
 

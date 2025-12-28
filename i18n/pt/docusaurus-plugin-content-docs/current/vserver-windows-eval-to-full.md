@@ -15,7 +15,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 As edições Windows Server Evaluation são feitas para testes e têm tempo limitado. Para continuar usando a mesma instalação em produção, a edição de avaliação pode ser convertida para uma versão totalmente licenciada sem precisar reinstalar o sistema operacional.
 
-A Microsoft oferece suporte para essa conversão direta usando a ferramenta DISM, desde que você tenha uma chave de produto válida para a edição desejada.
+A Microsoft suporta essa conversão direta usando a ferramenta DISM, desde que você tenha uma chave de produto válida para a edição desejada.
 
 <InlineVoucher />
 
@@ -29,7 +29,7 @@ Antes de começar a conversão, certifique-se de ter uma chave de produto válid
 
 ## Obtendo a edição atual
 
-Para verificar qual edição está instalada, abra o Prompt de Comando ou PowerShell como administrador e execute o comando:
+Para verificar qual edição está instalada, abra um Prompt de Comando ou PowerShell com privilégios elevados e execute o comando:
 
 ```powershell
 DISM /Online /Get-CurrentEdition
@@ -41,7 +41,7 @@ O resultado mostrará o identificador da edição ativa. Instalações de avalia
 
 ## Verificando edições alvo suportadas
 
-Nem toda edição pode ser convertida para qualquer outra. Para ver quais edições licenciadas são suportadas para sua instalação atual, rode:
+Nem toda edição pode ser convertida para qualquer outra. Para ver quais edições licenciadas são suportadas para sua instalação atual, rode o comando:
 
 ```
 DISM /Online /Get-TargetEditions
@@ -53,7 +53,7 @@ As edições listadas são os alvos válidos para a conversão.
 
 ## Atualizando da versão Evaluation para a Completa
 
-Com a edição alvo definida e a chave de produto em mãos, você pode iniciar a atualização. O valor `<TargetEdition>` deve ser uma das edições suportadas listadas pelo comando anterior.
+Com a edição alvo definida e a chave de produto válida em mãos, você pode iniciar a atualização. O valor `<TargetEdition>` deve ser uma das edições suportadas retornadas pelo comando anterior.
 
 Edições alvo comuns incluem:
 - `ServerStandard`
@@ -67,33 +67,33 @@ DISM /Online /Set-Edition:<TargetEdition> /ProductKey:<ProductKey> /AcceptEula
 ```
 
 | Edição do sistema operacional | Chave Genérica de Licença por Volume |
-| ----------------------------- | ----------------------------------- |
+| ------------------------------ | ------------------------------------ |
 | Windows Server 2025 Standard   | TVRH6-WHNXV-R9WG3-9XRFY-MY832       |
 | Windows Server 2025 Datacenter | D764K-2NDRG-47T6Q-P8T8W-YP6DF       |
 | Windows Server 2022 Standard   | VDYBN-27WPP-V4HQT-9VMD4-VMK7H       |
 | Windows Server 2022 Datacenter | WX4NM-KYWYW-QJJR4-XV3QB-6VM33       |
 
-Durante o processo, o progresso pode parecer travar por um momento. Isso é normal. Após a conversão, será necessário reiniciar o servidor para finalizar a mudança da edição.
+Durante o processo, o progresso pode parecer travar por um momento. Isso é normal. Após a conversão, será necessário reiniciar para finalizar a troca da edição.
 
 
 
 ## Verificando a versão do Windows Server
 
-Depois do reboot, abra o Prompt de Comando ou PowerShell como administrador e execute:
+Depois do reinício, abra um Prompt de Comando ou PowerShell com privilégios elevados e execute:
 
 ```powershell
 DISM /Online /Get-CurrentEdition
 ```
 
-Agora o resultado deve mostrar a edição licenciada, como `ServerStandard` ou `ServerDatacenter`, confirmando que a conversão da avaliação foi um sucesso.
+O resultado deve mostrar a edição licenciada, como `ServerStandard` ou `ServerDatacenter`, confirmando que a conversão da edição de avaliação foi feita com sucesso.
 
-Neste ponto, você verá a marca d’água **Ativar o Windows** no canto inferior direito da tela. Agora você pode usar sua licença comprada do Windows Server para ativar a edição Standard ou Datacenter.
+Neste momento, você verá a marca d’água **Ativar o Windows** no canto inferior direito da tela. Agora você pode usar sua licença do Windows Server comprada para ativar a edição Standard ou Datacenter.
 
 
 
 ## Conclusão
 
-Parabéns! Você acabou de converter sua versão do Windows Server de EVAL para Completa. Se tiver dúvidas ou precisar de ajuda, nosso time de suporte está disponível todos os dias para te dar aquela força! 🙂
+Parabéns! Você acabou de converter sua versão do Windows Server de EVAL para Completa. Se tiver dúvidas ou precisar de ajuda, não hesite em contatar nosso time de suporte, disponível diariamente para te ajudar! 🙂
 
 
 

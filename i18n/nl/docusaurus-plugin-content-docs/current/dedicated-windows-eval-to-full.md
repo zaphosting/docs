@@ -13,7 +13,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introductie
 
-Windows Server Evaluation-edities zijn bedoeld voor testdoeleinden en zijn tijdgebonden. Om dezelfde installatie in productie te blijven gebruiken, kan de evaluation editie worden omgezet naar een volledig gelicentieerde versie zonder het besturingssysteem opnieuw te installeren.
+Windows Server Evaluation-edities zijn bedoeld voor testdoeleinden en zijn tijdelijk beperkt. Om dezelfde installatie in productie te blijven gebruiken, kun je de evaluatieversie omzetten naar een volledig gelicentieerde versie zonder het besturingssysteem opnieuw te installeren.
 
 Microsoft ondersteunt deze conversie ter plaatse via de DISM-tool, mits je een geldige productcode hebt voor de gewenste editie.
 
@@ -23,7 +23,7 @@ Microsoft ondersteunt deze conversie ter plaatse via de DISM-tool, mits je een g
 
 ## Vereisten
 
-Voordat je begint met de conversie, zorg dat je een geldige productcode hebt voor de Windows Server-editie waar je naartoe wilt, zoals Standard of Datacenter. De productcode moet exact overeenkomen met de doeleditie.
+Voordat je begint met de conversie, zorg dat je een geldige productcode hebt voor de Windows Server-editie waar je naartoe wilt, zoals Standard of Datacenter. De productcode moet exact overeenkomen met de doelversie.
 
 
 
@@ -35,7 +35,7 @@ Om te controleren welke editie momenteel geïnstalleerd is, open je een Command 
 DISM /Online /Get-CurrentEdition
 ```
 
-De output toont de actieve editie-identificatie. Evaluation-installaties worden meestal weergegeven als `ServerStandardEval` of `ServerDatacenterEval`.
+De output toont de actieve editie. Evaluatie-installaties worden meestal weergegeven als `ServerStandardEval` of `ServerDatacenterEval`.
 
 
 
@@ -51,9 +51,9 @@ De getoonde edities zijn de geldige opties die je kunt gebruiken voor de convers
 
 
 
-## Evaluation upgraden naar Volledige Versie
+## Upgrade van Evaluation naar Volledige Versie
 
-Zodra je de doeleditie weet en een geldige productcode hebt, kun je de upgrade starten. De waarde `<TargetEdition>` moet overeenkomen met een van de ondersteunde edities die DISM teruggeeft.
+Als je de doelversie weet en een geldige productcode hebt, kun je de upgrade starten. De waarde `<TargetEdition>` moet overeenkomen met een van de ondersteunde edities die DISM teruggeeft.
 
 Veelvoorkomende doel-edities zijn:
 - `ServerStandard`
@@ -73,19 +73,19 @@ DISM /Online /Set-Edition:<TargetEdition> /ProductKey:<ProductKey> /AcceptEula
 | Windows Server 2022 Standard   | VDYBN-27WPP-V4HQT-9VMD4-VMK7H  |
 | Windows Server 2022 Datacenter | WX4NM-KYWYW-QJJR4-XV3QB-6VM33  |
 
-Tijdens het proces lijkt de voortgang soms even stil te staan. Dit is normaal. Na afronding van de conversie is een herstart nodig om de editie-wijziging definitief te maken.
+Tijdens het proces lijkt de voortgang soms even stil te staan. Dit is normaal. Na afronding van de conversie is een herstart nodig om de wijziging definitief door te voeren.
 
 
 
 ## Windows Server versie verifiëren
 
-Zodra de server opnieuw is opgestart, open je een Command Prompt of PowerShell met administratorrechten en voer je uit:
+Na het herstarten open je weer een Command Prompt of PowerShell met adminrechten en voer je uit:
 
 ```powershell
 DISM /Online /Get-CurrentEdition
 ```
 
-De output zou nu de gelicentieerde editie moeten tonen, zoals `ServerStandard` of `ServerDatacenter`, wat bevestigt dat de evaluation editie succesvol is omgezet.
+De output zou nu de gelicentieerde editie moeten tonen, zoals `ServerStandard` of `ServerDatacenter`, wat bevestigt dat de evaluatieversie succesvol is omgezet.
 
 Op dit moment zie je de **Activeer Windows**-watermerk rechtsonder in beeld. Je kunt nu je aangekochte Windows Server-licentie gebruiken om de Windows Server Standard of Datacenter editie te activeren.
 

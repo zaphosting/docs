@@ -15,7 +15,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Edycje Windows Server Evaluation są przeznaczone do testów i mają ograniczony czas działania. Aby dalej korzystać z tej samej instalacji w środowisku produkcyjnym, edycję testową można przekonwertować na pełną wersję z licencją, bez konieczności reinstalacji systemu operacyjnego.
 
-Microsoft umożliwia taką konwersję na miejscu za pomocą narzędzia DISM, pod warunkiem posiadania ważnego klucza produktu dla docelowej edycji.
+Microsoft wspiera taką konwersję na miejscu za pomocą narzędzia DISM, pod warunkiem posiadania ważnego klucza produktu dla docelowej edycji.
 
 <InlineVoucher />
 
@@ -29,7 +29,7 @@ Przed rozpoczęciem konwersji upewnij się, że masz ważny klucz produktu dla e
 
 ## Sprawdzenie aktualnej edycji
 
-Aby zweryfikować, która edycja jest aktualnie zainstalowana, otwórz w trybie administratora Wiersz polecenia lub PowerShell i wykonaj następujące polecenie:
+Aby zweryfikować, która edycja jest aktualnie zainstalowana, otwórz podniesioną sesję Wiersza Poleceń lub PowerShell i wykonaj następujące polecenie:
 
 ```powershell
 DISM /Online /Get-CurrentEdition
@@ -47,7 +47,7 @@ Nie każdą edycję można przekonwertować na dowolną inną. Aby zobaczyć, kt
 DISM /Online /Get-TargetEditions
 ```
 
-Wyświetlone edycje to poprawne cele, na które można dokonać konwersji.
+Wyświetlone edycje to ważne cele, które można wykorzystać do konwersji.
 
 
 
@@ -73,13 +73,13 @@ DISM /Online /Set-Edition:<TargetEdition> /ProductKey:<ProductKey> /AcceptEula
 | Windows Server 2022 Standard   | VDYBN-27WPP-V4HQT-9VMD4-VMK7H |
 | Windows Server 2022 Datacenter | WX4NM-KYWYW-QJJR4-XV3QB-6VM33 |
 
-Podczas procesu postęp może chwilowo się zatrzymać — to normalne zachowanie. Po zakończeniu konwersji wymagany jest restart, aby sfinalizować zmianę edycji.
+W trakcie procesu postęp może chwilowo się zatrzymać — to normalne zachowanie. Po zakończeniu konwersji wymagany jest restart, aby sfinalizować zmianę edycji.
 
 
 
 ## Weryfikacja wersji Windows Server
 
-Po restarcie serwera otwórz ponownie Wiersz polecenia lub PowerShell w trybie administratora i wpisz:
+Po restarcie serwera otwórz podniesioną sesję Wiersza Poleceń lub PowerShell i uruchom:
 
 ```powershell
 DISM /Online /Get-CurrentEdition
@@ -93,7 +93,7 @@ Na tym etapie zobaczysz znak wodny **Aktywuj Windows** w prawym dolnym rogu ekra
 
 ## Podsumowanie
 
-Gratulacje! Właśnie pomyślnie zmieniłeś wersję Windows Server z EVAL na Pełną. Jeśli masz pytania lub potrzebujesz pomocy, śmiało kontaktuj się z naszym supportem, który jest dostępny codziennie, by Ci pomóc! 🙂
+Gratulacje! Właśnie pomyślnie zmieniłeś wersję Windows Server z EVAL na Pełną. Jeśli masz pytania lub potrzebujesz pomocy, śmiało kontaktuj się z naszym zespołem wsparcia, który jest dostępny codziennie, by Ci pomóc! 🙂
 
 
 
