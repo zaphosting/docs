@@ -1,53 +1,87 @@
 ---
 id: suggestions
-title: Vorschläge einreichen
-description: "Entdecke, wie du die Service-Verbesserungen von ZAP-Hosting mitgestalten kannst, indem du Community-Vorschläge einreichst und dafür abstimmst → Jetzt mehr erfahren"
-sidebar_label: Vorschläge einreichen
+title: Feedback, Roadmap und Changelog
+description: "Entdecke, wie du ZAP-Hostings Serviceverbesserungen mitgestalten kannst, indem du Community-Vorschläge einreichst und abstimmst → Jetzt mehr erfahren"
+sidebar_label: Feedback & Roadmap
 ---
 
-
+import Button from '@site/src/components/Button';
 
 ## Einführung
-Bei ZAP-Hosting geben wir immer unser Bestes, deshalb freuen wir uns über jedes Feedback und jeden Vorschlag aus unserer Community. Du kannst das ganz einfach direkt über unsere [Vorschlagsseite](https://zap-hosting.com/en/suggestion/) auf der Website machen.
 
-Über unsere Vorschlagsseite kann die ZAP-Community abstimmen, welche Vorschläge am wichtigsten und beliebtesten sind, damit wir die Entwicklung nach den meistgewählten Vorschlägen priorisieren können. In den meisten Fällen gilt: Je größer das Interesse, desto höher die Priorität des Vorschlags.
+Bei ZAP-Hosting geben wir immer unser Bestes und freuen uns deshalb über jedes Feedback und jede Anregung aus unserer Community. Wir nutzen **[Featurebase](https://roadmap.zap-hosting.com/)** als zentrale Plattform für Community-Feedback und Produkttransparenz.
 
-## Vorschlagsseite
-Du kannst Vorschläge direkt über unsere [Vorschlagsseite](https://zap-hosting.com/en/suggestion/) auf unserer Website oder über diesen Link aufrufen: https://zap-hosting.com/en/suggestion/
+![img](https://screensaver01.zap-hosting.com/index.php/s/6xwigzT6LyyZfDJ/preview)
 
-Auf der Seite findest du aktuell **In Arbeit** befindliche Vorschläge oben gruppiert für schnellen Zugriff. Das sind Vorschläge, die geprüft wurden und an denen unser Team gerade aktiv arbeitet. Weiter unten findest du **Eingereichte** Vorschläge, also solche, die von Kunden eingereicht und genehmigt wurden, aber aktuell nicht bearbeitet werden.
+Über Featurebase können unsere Kunden Ideen einreichen, für bestehende Vorschläge abstimmen, die aktuelle Produkt-Roadmap einsehen und veröffentlichte Changelogs verfolgen. Dieses System ersetzt die frühere Suggestions-Lösung komplett und bietet einen klareren Einblick, wie Feedback vom Vorschlag bis zur Umsetzung läuft.
 
-Du kannst außerdem eine bestimmte Kategorie auswählen, um Vorschläge gefiltert anzuzeigen, und über den Toggle auch abgeschlossene Vorschläge einblenden.
+<Button label="Featurebase besuchen" link="https://roadmap.zap-hosting.com/" block />
 
-### Akzeptierte Vorschläge
-Grundsätzlich kann jeder Vorschlag zu unseren Services eingereicht werden. Besonders freuen wir uns über neue Vorschläge für Gameserver und Webinterface-Features.
 
-Wenn du einen Vorschlag zu anderen Bereichen hast, wie unserer ZAP-Community oder Events, die nicht direkt mit unseren Services zu tun haben, freuen wir uns über dein Feedback auf unserem [ZAP-Hosting Discord Server](https://discord.com/invite/zaphosting).
 
-#### Überlegungen zu neuen Game-Vorschlägen
-Wenn du einen neuen Game-Vorschlag einreichst, prüfen wir diesen und entscheiden, ob es Sinn macht, das Spiel ins Angebot aufzunehmen – basierend auf einigen Faktoren. Grundsätzlich kann jedes Spiel oder Modpack vorgeschlagen werden, das wir aktuell nicht als Gameserver anbieten, und wird von uns geprüft.
+## Verbinde dein ZAP-Hosting-Konto mit Featurebase
 
-:::info
-Beim Vorschlagen eines Spiels reicht es aus, den Namen des Spiels oder Modpacks sowie einen Link zur passenden Spiel- oder Modpack-Seite anzugeben.
-:::
+Um aktiv bei Featurebase mitzumachen, kannst du dein ZAP-Hosting-Konto mit nur wenigen Klicks verknüpfen. Nach dem Öffnen dieser Seite und der Bestätigung der Verbindung ist dein ZAP-Hosting-Konto sicher mit Featurebase verbunden. Eine separate Registrierung oder zusätzliche Zugangsdaten sind nicht nötig.
 
-Einige Faktoren, die wir bei neuen Game- oder Modpack-Vorschlägen prüfen, sind zum Beispiel, ob eine gewisse Mindestnachfrage für das Spiel besteht, wie alt das Spiel ist und ob es noch beliebt sowie aktiv gepflegt und aktualisiert wird.
+Sobald die Verbindung steht, kannst du sofort Feedback einreichen, für Ideen abstimmen und mit der Roadmap interagieren. Alle Aktionen sind mit deinem ZAP-Hosting-Konto verknüpft, was dir eine nahtlose und konsistente Erfahrung über beide Plattformen hinweg bietet.
 
-#### Überlegungen zu neuen Webinterface-Features
-Wenn du ein neues Webinterface-Feature vorschlägst, achte darauf, dass es sich auf unsere ZAP-Hosting Website oder die Webinterface-Panels bezieht, wie z. B. das Webinterface deines Gameservers.
+<Button label="Konto verknüpfen (eingeloggt sein erforderlich)" link="https://zap-hosting.com/interface/featurebase/" block />
 
-Hier sind alle Ideen willkommen, egal ob kleine Verbesserungen oder komplett neue Features, die du auf unserer Website und in den Webinterface-Panels gerne sehen würdest.
 
-### Einen Vorschlag erstellen
-Bevor du einen neuen Vorschlag einreichst, empfehlen wir dir, mit der Suchfunktion deines Browsers (`STRG+F`) zu prüfen, ob dein Vorschlag nicht schon mal gepostet wurde. Falls ja, kannst du den bestehenden Vorschlag liken, statt einen Doppelpost zu erstellen.
 
-Einen neuen Vorschlag kannst du über den grünen **Feature vorschlagen**-Button auf der [Vorschlagsseite](https://zap-hosting.com/en/suggestion/) erstellen. Dort öffnet sich ein Formular, in dem du Details eintragen und die passende Kategorie auswählen kannst. Du kannst deine Beschreibung so ausführlich gestalten, wie du möchtest, solange der Punkt klar rüberkommt.
+## Featurebase Plattform-Übersicht
 
-Wir empfehlen, dafür eingeloggt zu sein. Alternativ kannst du beim Einreichen auch deine E-Mail-Adresse angeben, falls du nicht in deinem ZAP-Hosting Account angemeldet bist.
+Featurebase ist in mehrere Bereiche unterteilt, die zusammen einen vollständigen Überblick über die Produktentwicklung bieten.
 
-![](https://github.com/zaphosting/docs/assets/42719082/3cb61b1b-b922-4145-8081-a52d0040bdaf)
+### Feedback und Ideen
 
-### Nach der Vorschlagseinreichung
-Sobald du deinen Vorschlag erfolgreich eingereicht hast, prüfen wir regelmäßig neue Vorschläge und entscheiden, ob wir sie akzeptieren oder in manchen Fällen sogar direkt umsetzen.
+Der Feedback-Bereich sammelt Ideen und Verbesserungsvorschläge aus der Community. Nutzer können neue Vorschläge einreichen und bestehende durch Abstimmungen unterstützen. So wird sichtbar, welche Themen der Community am wichtigsten sind und besondere Aufmerksamkeit verdienen.
 
-Wie in der Einführung erwähnt, können andere Mitglieder der ZAP-Community deinen Vorschlag liken, um die Wichtigkeit zu zeigen. Je mehr Likes ein Vorschlag bekommt, desto wahrscheinlicher ist es, dass er in Zukunft berücksichtigt und umgesetzt wird.
+![img](https://screensaver01.zap-hosting.com/index.php/s/HZofXdr4ByRHBY7/preview)
+
+### Roadmap
+
+Die Roadmap zeigt den aktuellen Planungsstand von Features und Ideen. Sie gibt Einblick, was geplant ist, woran gerade gearbeitet wird und was bereits abgeschlossen wurde. Jeder Eintrag hat einen klaren Status, sodass du den Fortschritt jederzeit verfolgen kannst.
+
+![img](https://screensaver01.zap-hosting.com/index.php/s/jaJiMNfGzXwcCSM/preview)
+
+### Changelog
+
+Der Changelog dokumentiert abgeschlossene Arbeiten transparent und chronologisch. Er listet neue Features, Verbesserungen und relevante Änderungen auf, damit du sehen kannst, welche Ideen schon umgesetzt wurden und wann sie live gegangen sind.
+
+![img](https://screensaver01.zap-hosting.com/index.php/s/rbQbZs6gQcNCpy4/preview)
+
+
+
+## Feedback und Ideen einreichen
+
+Bevor du eine neue Idee einreichst, solltest du prüfen, ob ein ähnlicher Vorschlag schon existiert. Die integrierte Suche hilft, Doppelungen zu vermeiden und Feedback zu bündeln. Wenn ein passender Vorschlag gefunden wird, ist es besser, für diesen abzustimmen.
+
+Neue Ideen kannst du über den **Submit feedback** Button in Featurebase einreichen. Jede Einreichung sollte einen klaren Titel und eine gut erklärte Beschreibung enthalten, die das Problem oder die gewünschte Verbesserung beschreibt. Die richtige Kategorie auszuwählen sorgt dafür, dass die Idee im passenden Kontext geprüft wird.
+
+![img](https://screensaver01.zap-hosting.com/index.php/s/4b5NZ67gzECFxmk/download)
+
+
+
+
+## Abstimmung und Priorisierung
+
+Alle Ideen in Featurebase können von der Community bewertet werden. Eine höhere Anzahl an Stimmen zeigt in der Regel eine stärkere Nachfrage und erhöht die Wahrscheinlichkeit, dass eine Idee priorisiert wird. Die finalen Entscheidungen berücksichtigen außerdem technische Machbarkeit und die Gesamtstrategie des Produkts.
+
+
+
+## Roadmap-Status
+
+Roadmap-Einträge durchlaufen normalerweise mehrere Phasen. Geplante Items wurden geprüft und terminiert, Items mit dem Status In Progress werden gerade umgesetzt, und Completed Items sind bereits veröffentlicht. Diese Status machen es einfach, den aktuellen Stand jedes Features zu verstehen.
+
+
+
+## Changelog
+
+Der Changelog bietet eine verlässliche Übersicht darüber, was sich im Produkt geändert hat. Er enthält neu veröffentlichte Features, Verbesserungen und andere relevante Updates, damit der Fortschritt transparent und nachvollziehbar bleibt.
+
+
+
+## Geeignete Feedback-Arten
+
+Dieses Feature ist für produktbezogenes Feedback gedacht, wie neue Gameserver-Anfragen, Verbesserungen der Weboberfläche oder Panels, Feature-Ideen für Services und Optimierungen bestehender Funktionen. Individuelle Support-Anfragen oder technische Probleme sollten weiterhin über die offiziellen Support-Kanäle abgewickelt werden.

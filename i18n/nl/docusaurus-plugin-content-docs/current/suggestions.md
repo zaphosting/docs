@@ -1,51 +1,87 @@
 ---
 id: suggestions
-title: Suggesties Indienen
-description: "Ontdek hoe jij ZAP-Hosting’s serviceverbeteringen kunt beïnvloeden door suggesties in te dienen en te stemmen op community-ideeën → Leer nu meer"
-sidebar_label: Suggesties Indienen
+title: Feedback, Roadmap en Changelog
+description: "Ontdek hoe jij ZAP-Hosting’s service kunt verbeteren door suggesties in te dienen en te stemmen → Leer er nu meer over"
+sidebar_label: Feedback & Roadmap
 ---
 
-## Introductie
-Bij ZAP-Hosting doen we altijd ons best om het beste te leveren, daarom staan we open voor feedback en suggesties van onze community. Je kunt dit makkelijk doen via onze [Suggestiepagina](https://zap-hosting.com/en/suggestion/) op de site.
+import Button from '@site/src/components/Button';
 
-Via onze Suggestiepagina kan de ZAP Community stemmen op welke suggesties het belangrijkst en meest gewenst zijn, zodat wij de ontwikkeling kunnen prioriteren op basis van de meest gestemde ideeën. Hoe meer interesse, hoe hoger de prioriteit meestal wordt.
+## Intro
 
-## Suggestiepagina
-Je kunt suggesties direct bekijken via onze [Suggestiepagina](https://zap-hosting.com/en/suggestion/) op de site of via deze link: https://zap-hosting.com/en/suggestion/
+Bij ZAP-Hosting willen we altijd het beste leveren, dus we staan open voor alle feedback en suggesties uit onze community. We gebruiken **[Featurebase](https://roadmap.zap-hosting.com/)** als het centrale platform voor community feedback en producttransparantie.
 
-Op de pagina zie je bovenaan de suggesties die **In behandeling** zijn, zodat je die makkelijk kunt vinden. Dit zijn suggesties die al beoordeeld zijn en waar ons team actief aan werkt. Scroll je naar beneden, dan vind je **Ingediende** suggesties: dit zijn ideeën die door klanten zijn ingediend en goedgekeurd, maar waar nog niet aan gewerkt wordt.
+![img](https://screensaver01.zap-hosting.com/index.php/s/6xwigzT6LyyZfDJ/preview)
 
-Je kunt ook een specifieke categorie kiezen om suggesties binnen die categorie te bekijken en via de toggle ook afgeronde suggesties tonen.
+Via Featurebase kunnen onze klanten ideeën indienen, stemmen op bestaande suggesties, de actuele product roadmap bekijken en gepubliceerde changelogs volgen. Dit systeem vervangt volledig de oude Suggesties-oplossing en geeft een duidelijker beeld van hoe feedback van idee naar uitvoering gaat.
 
-### Toegestane Suggesties
-In principe kun je elk soort suggestie over onze diensten indienen. We zijn vooral blij met nieuwe suggesties voor games en webinterface-functies.
+<Button label="Bezoek Featurebase" link="https://roadmap.zap-hosting.com/" block />
 
-Heb je een idee over andere onderwerpen zoals onze ZAP Community of events, die minder direct met onze diensten te maken hebben? Dan horen we je feedback graag op onze [ZAP-Hosting Discord Server](https://discord.com/invite/zaphosting).
 
-#### Overwegingen voor nieuwe gamesuggesties
-Als je een nieuwe game suggereert, bekijken we of het zinvol is om die toe te voegen op basis van een paar factoren. In principe kun je elke game of modpack voorstellen die wij nog niet als game server aanbieden, en die wordt dan beoordeeld.
 
-:::info
-Bij het suggereren van een game is het voldoende om de naam van de game of modpack te vermelden en een link naar de officiële site of modpack-pagina toe te voegen.
-:::
+## Koppel je ZAP Hosting-account met Featurebase
 
-We kijken onder andere naar de minimale vraag naar de game, de leeftijd van de game en of deze nog populair en actief onderhouden wordt.
+Wil je actief meedoen op Featurebase? Dan kun je je ZAP Hosting-account met een paar klikken koppelen. Na het openen van deze pagina en het bevestigen van de koppeling, is je account veilig verbonden met Featurebase. Geen aparte registratie of extra inloggegevens nodig.
 
-#### Overwegingen voor nieuwe webinterface-functies
-Als je een nieuwe webinterface-functie voorstelt, zorg er dan voor dat het te maken heeft met onze ZAP-Hosting website of de webinterface panels, zoals die van jouw game server.
+Zodra de koppeling staat, kun je direct feedback indienen, stemmen en interactie hebben met de roadmap. Alle acties worden gekoppeld aan je ZAP Hosting-account voor een soepele en consistente ervaring.
 
-Alle ideeën zijn welkom, of het nu een kleine verbetering is of een compleet nieuwe feature die volgens jou op onze website en webinterface panels moet komen.
+<Button label="Account koppelen (inlog vereist)" link="https://zap-hosting.com/interface/featurebase/" block />
 
-### Een Suggestie Maken
-Voordat je een nieuwe suggestie indient, raden we je aan om met `CTRL+F` in je browser te zoeken of jouw idee niet al eerder is geplaatst. Zo voorkom je dubbele suggesties en kun je bestaande posts liken.
 
-Je kunt een nieuwe suggestie maken via de groene **Suggestie indienen** knop op de [Suggestiepagina](https://zap-hosting.com/en/suggestion/). Er opent dan een formulier waarin je details invult en de juiste categorie kiest. Je mag zo uitgebreid zijn als je wilt, zolang je je punt maar duidelijk uitlegt.
 
-We raden aan om ingelogd te zijn, maar als je niet bent ingelogd kun je ook je e-mailadres invullen bij het indienen.
+## Overzicht Featurebase Platform
 
-![](https://github.com/zaphosting/docs/assets/42719082/3cb61b1b-b922-4145-8081-a52d0040bdaf)
+Featurebase is opgedeeld in verschillende secties die samen een compleet overzicht van productontwikkeling bieden.
 
-### Na het Indienen van een Suggestie
-Zodra je suggestie is ingediend, checken wij regelmatig nieuwe ideeën en beslissen we of we ze goedkeuren als ze acceptabel zijn, of soms implementeren we ze zelfs direct.
+### Feedback en Ideeën
 
-Zoals in de intro genoemd, kunnen andere ZAP Community leden jouw suggestie liken om het belang ervan te tonen. Hoe meer likes een suggestie krijgt, hoe groter de kans dat we ermee aan de slag gaan in de toekomst.
+In de Feedback-sectie verzamelen we ideeën en verbetersuggesties van de community. Je kunt nieuwe voorstellen indienen en bestaande ondersteunen door erop te stemmen. Zo zien we welke onderwerpen het belangrijkst zijn voor de community en extra aandacht verdienen.
+
+![img](https://screensaver01.zap-hosting.com/index.php/s/HZofXdr4ByRHBY7/preview)
+
+### Roadmap
+
+De Roadmap toont de actuele planning van features en ideeën. Je ziet wat gepland is, waar actief aan gewerkt wordt en wat al afgerond is. Elke entry heeft een duidelijke status zodat je de voortgang altijd kunt volgen.
+
+![img](https://screensaver01.zap-hosting.com/index.php/s/jaJiMNfGzXwcCSM/preview)
+
+### Changelog
+
+De Changelog documenteert afgeronde werkzaamheden op een transparante en chronologische manier. Hier vind je nieuwe features, verbeteringen en relevante wijzigingen, zodat je kunt zien welke ideeën al live zijn en wanneer.
+
+![img](https://screensaver01.zap-hosting.com/index.php/s/rbQbZs6gQcNCpy4/preview)
+
+
+
+## Feedback en Ideeën Indienen
+
+Check eerst even of jouw idee niet al bestaat. Gebruik de ingebouwde zoekfunctie om dubbele suggesties te voorkomen en feedback overzichtelijk te houden. Als er al een vergelijkbaar idee is, stem dan liever daarop.
+
+Nieuwe ideeën kun je indienen via de **Submit feedback** knop in Featurebase. Zorg voor een duidelijke titel en een goed uitgelegde beschrijving waarin je het probleem of de gewenste verbetering uitlegt. Kies de juiste categorie zodat je idee in de juiste context wordt beoordeeld.
+
+![img](https://screensaver01.zap-hosting.com/index.php/s/4b5NZ67gzECFxmk/download)
+
+
+
+
+## Stemmen en Prioriteren
+
+Alle ideeën in Featurebase kunnen door de community worden beoordeeld met stemmen. Hoe meer stemmen, hoe groter de vraag en hoe groter de kans dat een idee prioriteit krijgt. Bij de uiteindelijke beslissing wordt ook gekeken naar technische haalbaarheid en de algemene productstrategie.
+
+
+
+## Roadmap Statussen
+
+Roadmap-items doorlopen meestal meerdere fases. Geplande items zijn beoordeeld en ingepland, items met de status In Progress worden actief ontwikkeld, en Completed items zijn al uitgebracht. Deze statussen maken het makkelijk om te zien waar een feature staat.
+
+
+
+## Changelog
+
+De Changelog geeft een betrouwbaar overzicht van wat er veranderd is in het product. Hier vind je nieuwe releases, verbeteringen en andere updates, zodat alles transparant en traceerbaar blijft.
+
+
+
+## Geschikte Feedbacktypes
+
+Deze feature is bedoeld voor product-gerelateerde feedback zoals nieuwe game server verzoeken, verbeteringen aan de webinterface of panelen, feature ideeën voor services en optimalisaties van bestaande functionaliteit. Individuele supportvragen of technische problemen blijven via de officiële supportkanalen lopen.

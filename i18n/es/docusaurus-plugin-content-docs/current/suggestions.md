@@ -1,53 +1,87 @@
 ---
 id: suggestions
-title: Enviar Sugerencias
-description: "Descubre cómo influir en las mejoras de servicio de ZAP-Hosting enviando y votando sugerencias de la comunidad → Aprende más ahora"
-sidebar_label: Enviar Sugerencias
+title: Feedback, Hoja de Ruta y Registro de Cambios
+description: "Descubre cómo influir en las mejoras de los servicios de ZAP-Hosting enviando y votando sugerencias de la comunidad → Aprende más ahora"
+sidebar_label: Feedback & Hoja de Ruta
 ---
 
-
+import Button from '@site/src/components/Button';
 
 ## Introducción
-En ZAP-Hosting siempre nos esforzamos por dar lo mejor de nosotros, por eso valoramos cualquier feedback y sugerencia de nuestra Comunidad. Te damos la posibilidad de hacerlo fácilmente directamente a través de nuestra [Página de Sugerencias](https://zap-hosting.com/en/suggestion/) en el sitio.
 
-A través de nuestra Página de Sugerencias, la Comunidad ZAP puede votar cuáles sugerencias son las más importantes y deseadas, para que podamos priorizar el desarrollo según las sugerencias con más votos. En la mayoría de los casos, a mayor interés, mayor prioridad tiene la sugerencia.
+En ZAP-Hosting siempre nos esforzamos por dar lo mejor de nosotros, por eso valoramos cualquier feedback y sugerencia de nuestra Comunidad. Usamos **[Featurebase](https://roadmap.zap-hosting.com/)** como la plataforma central para el feedback de la comunidad y la transparencia del producto.
 
-## Página de Sugerencias
-Puedes acceder a las sugerencias directamente a través de nuestra [Página de Sugerencias](https://zap-hosting.com/en/suggestion/) en nuestro sitio o mediante el siguiente enlace: https://zap-hosting.com/en/suggestion/
+![img](https://screensaver01.zap-hosting.com/index.php/s/6xwigzT6LyyZfDJ/preview)
 
-En la página, verás las sugerencias **En progreso** agrupadas en la parte superior para un acceso fácil. Estas son sugerencias que han sido revisadas y en las que nuestro equipo está trabajando activamente. Más abajo, encontrarás las sugerencias **Enviadas**, que son las que un cliente ha enviado y que han sido aprobadas, pero que actualmente no están siendo trabajadas.
+A través de Featurebase, nuestros clientes pueden enviar ideas, votar sugerencias existentes, ver la hoja de ruta actual del producto y seguir los registros de cambios publicados. Este sistema reemplaza por completo la antigua solución de Sugerencias y ofrece una visión más clara de cómo el feedback pasa de idea a implementación.
 
-También puedes elegir una categoría específica para mostrar sugerencias y ver las sugerencias finalizadas mediante el interruptor.
+<Button label="Visitar Featurebase" link="https://roadmap.zap-hosting.com/" block />
 
-### Sugerencias Aceptables
-En general, cualquier tipo de sugerencia relacionada con nuestros servicios puede ser enviada. En particular, damos la bienvenida a nuevas sugerencias para solicitudes de juegos así como para funciones del webinterface.
 
-Si tienes una sugerencia sobre otras áreas como nuestra Comunidad ZAP o eventos, que no estén directamente relacionadas con nuestros servicios, siempre agradecemos tu feedback en nuestro [Servidor de Discord de ZAP-Hosting](https://discord.com/invite/zaphosting).
 
-#### Consideraciones para nuevas sugerencias de juegos
-Al enviar una nueva sugerencia de juego, la revisamos y decidimos si tiene sentido añadir ese juego en base a varios factores. Generalmente, cualquier juego o modpack que no ofrezcamos actualmente como servidor de juegos puede ser propuesto y será revisado.
+## Conecta tu cuenta de ZAP Hosting con Featurebase
 
-:::info
-Al sugerir un juego, basta con ingresar el nombre del juego o modpack y también un enlace al sitio oficial del juego o modpack.
-:::
+Para participar activamente en Featurebase, tu cuenta de ZAP Hosting puede vincularse en solo unos clics. Tras abrir esta página y confirmar la conexión, tu cuenta de ZAP Hosting queda vinculada de forma segura con Featurebase. No se requiere registro adicional ni credenciales extra.
 
-Algunos de los factores que revisamos para nuevas sugerencias de juegos o modpacks incluyen si existe una demanda mínima para el juego, la antigüedad del juego y si sigue siendo popular y está activamente mantenido/actualizado.
+Una vez establecida la conexión, puedes enviar feedback, votar ideas e interactuar con la hoja de ruta de inmediato. Todas las acciones se asocian con tu cuenta de ZAP Hosting, brindando una experiencia fluida y consistente entre plataformas.
 
-#### Consideraciones para nuevas funciones del webinterface
-Al enviar una nueva función para el webinterface, asegúrate de que esté relacionada con nuestro sitio web de ZAP-Hosting y los paneles del webinterface, como el webinterface de tu servidor de juegos.
+<Button label="Vincular cuenta (requiere sesión iniciada)" link="https://zap-hosting.com/interface/featurebase/" block />
 
-Aquí son bienvenidas todas las ideas, ya sea una pequeña sugerencia de mejora o una función completamente nueva que creas que debería incluirse en nuestro sitio web y paneles del webinterface.
 
-### Crear una Sugerencia
-Antes de enviar una nueva sugerencia, te recomendamos usar la función de búsqueda de tu navegador con `CTRL+F` para comprobar si tu sugerencia exacta ya fue publicada anteriormente. Si es así, puedes darle like a esa publicación en lugar de crear un duplicado.
 
-Puedes crear una nueva sugerencia usando el botón verde **Sugerir función** en la [Página de Sugerencias](https://zap-hosting.com/en/suggestion/). Esto abrirá un formulario donde podrás completar los detalles y colocarla en la categoría adecuada. Puedes ser tan detallado como quieras en la descripción de tu sugerencia, siempre que explique bien el punto.
+## Vista general de la plataforma Featurebase
 
-Recomendamos estar logueado para hacerlo, o alternativamente puedes rellenar el campo de correo electrónico si no estás logueado en tu cuenta de ZAP-Hosting al momento de enviar tu sugerencia.
+Featurebase está dividida en varias secciones que trabajan juntas para ofrecer una visión completa del desarrollo del producto.
 
-![](https://github.com/zaphosting/docs/assets/42719082/3cb61b1b-b922-4145-8081-a52d0040bdaf)
+### Feedback e Ideas
 
-### Después de Enviar la Sugerencia
-Una vez que hayas enviado tu sugerencia con éxito, revisamos regularmente las nuevas sugerencias y decidimos si aprobarla si es aceptable, o en ocasiones incluso podemos implementarla directamente.
+La sección de Feedback se usa para recopilar ideas y sugerencias de mejora de la comunidad. Los usuarios pueden enviar nuevas propuestas y apoyar las existentes votando por ellas. Esto ayuda a destacar qué temas son más relevantes para la comunidad y merecen atención prioritaria.
 
-Como mencionamos en la introducción, otros miembros de la Comunidad ZAP pueden darle like a tu sugerencia para mostrar la importancia del ítem sugerido. Cuantos más likes reciba la sugerencia, más probable es que sea considerada y trabajada en el futuro.
+![img](https://screensaver01.zap-hosting.com/index.php/s/HZofXdr4ByRHBY7/preview)
+
+### Hoja de Ruta
+
+La Hoja de Ruta muestra el estado actual de planificación de funciones e ideas. Ofrece visibilidad sobre qué está planeado, qué se está desarrollando activamente y qué ya se ha completado. Cada entrada incluye un estado claro para seguir el progreso en cualquier momento.
+
+![img](https://screensaver01.zap-hosting.com/index.php/s/jaJiMNfGzXwcCSM/preview)
+
+### Registro de Cambios
+
+El Registro de Cambios documenta el trabajo completado de forma transparente y cronológica. Lista nuevas funciones, mejoras y cambios relevantes, permitiendo a los usuarios ver qué ideas ya se han implementado y cuándo se lanzaron.
+
+![img](https://screensaver01.zap-hosting.com/index.php/s/rbQbZs6gQcNCpy4/preview)
+
+
+
+## Enviar Feedback e Ideas
+
+Antes de enviar una nueva idea, los usuarios deberían comprobar si ya existe una propuesta similar. Usar la búsqueda integrada ayuda a evitar duplicados y mantiene el feedback consolidado. Si una idea existente coincide con la solicitud, es preferible votar esa entrada.
+
+Las nuevas ideas pueden enviarse usando el botón **Enviar feedback** en Featurebase. Cada envío debe tener un título claro y una descripción bien explicada que detalle el problema o la mejora deseada. Seleccionar la categoría correcta ayuda a que la idea sea revisada en el contexto adecuado.
+
+![img](https://screensaver01.zap-hosting.com/index.php/s/4b5NZ67gzECFxmk/download)
+
+
+
+
+## Votación y Priorización
+
+Todas las ideas en Featurebase pueden ser votadas por la comunidad. Un mayor número de votos generalmente indica una demanda más fuerte y aumenta la probabilidad de que una idea sea priorizada. Las decisiones finales también consideran la viabilidad técnica y la estrategia general del producto.
+
+
+
+## Estados de la Hoja de Ruta
+
+Las entradas de la Hoja de Ruta suelen pasar por varias etapas. Los ítems Planificados han sido revisados y programados, los marcados como En Progreso están siendo implementados activamente, y los Completados ya han sido lanzados. Estos estados facilitan entender el estado actual de cada función.
+
+
+
+## Registro de Cambios
+
+El Registro de Cambios ofrece una visión confiable de lo que ha cambiado en el producto. Incluye funciones recién lanzadas, mejoras y otras actualizaciones relevantes, asegurando que el progreso sea transparente y rastreable.
+
+
+
+## Tipos de Feedback Adecuados
+
+Esta función está pensada para feedback relacionado con el producto, como solicitudes de nuevos servidores de juegos, mejoras en la interfaz web o paneles, ideas para funciones de servicios y optimizaciones de funcionalidades existentes. Las solicitudes individuales de soporte o problemas técnicos deben seguir gestionándose a través de los canales oficiales de soporte.
