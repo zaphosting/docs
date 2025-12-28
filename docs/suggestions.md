@@ -1,87 +1,53 @@
 ---
 id: suggestions
-title: Feedback, Roadmap and Changelog
+title: Submit Suggestions
 description: "Discover how to influence ZAP-Hosting’s service improvements by submitting and voting on community suggestions → Learn more now"
-sidebar_label: Feedback & Roadmap
+sidebar_label: Submit Suggestions
 ---
 
-import Button from '@site/src/components/Button';
+
 
 ## Introduction
+At ZAP-Hosting we always thrive to do the best that we can, thus we welcome any feedback and suggestions from our Community. We provide the ability to do this easily directly through our [Suggestions Page](https://zap-hosting.com/en/suggestion/) on the site.
 
-At ZAP-Hosting we always thrive to do the best that we can, thus we welcome any feedback and suggestions from our Community. We use **[Featurebase](https://roadmap.zap-hosting.com/)** as the central platform for community feedback and product transparency. 
+Through our Suggestion Page, the ZAP Community can vote on which suggestions are the most important and wanted, so that we can prioritise development based on the most voted suggestions. In most cases, the higher the interest, the higher priority the suggestion becomes.
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/6xwigzT6LyyZfDJ/preview)
+## Suggestions Page
+You can access suggestions directly through our [Suggestions Page](https://zap-hosting.com/en/suggestion/) on our site or the following link: https://zap-hosting.com/en/suggestion/
 
-Through Featurebase, our customers can submit ideas, vote on existing suggestions, view the current product roadmap and follow published changelogs. This system fully replaces the former Suggestions solution and provides a clearer view of how feedback moves from idea to implementation.
+On the page, you will see currently **Work in progress** suggestions grouped at the top for easy access. These are suggestions that have been reviewed and are actively being worked on by our team. Scrolling down, you will find **Submitted** suggestions which are ones that a customer has submitted which has been approved, but which is not being worked on currently.
 
-<Button label="Visit Featurebase" link="https://roadmap.zap-hosting.com/" block />
+You are also able to pick a certain category to display suggestions under and also view finished suggestions throught the toggle.
 
+### Acceptable Suggestions
+In general, any type of suggestion regarding our services can be submited. In particular, we welcome new suggestions for game requests as well as webinterface features.
 
+If you have a suggestion regarding other areas such as our ZAP Community or events, which are not fully relevant to our services, we always welcome your feedback on our [ZAP-Hosting Discord Server](https://discord.com/invite/zaphosting).
 
-## Connect Your ZAP Hosting Account with Featurebase
+#### Considerations for new game suggestions
+When submiting a new game suggestion, we review it and decide whether it makes sense to add a particular game based on a few factors. Generally, any game or modpack that we do not offer as a game server currently can be proposed and it will be reviewed.
 
-To actively participate in Featurebase, your ZAP Hosting account can be linked in just a few clicks. After opening this page and confirming the connection, your ZAP Hosting account is securely linked with Featurebase. No separate registration or additional credentials are required.
+:::info
+When suggesting a game, it is sufficient enough to enter the game or modpack name and also a link to the appropriate game or modpack site.
+:::
 
-Once the connection is established, you can immediately submit feedback, vote on ideas, and interact with the roadmap. All actions are associated with your ZAP Hosting account, providing a seamless and consistent experience across platforms.
+Some of the factors that we review for new game or modpack suggestions include whether there is a certain minimum demand for the game, the age of the game and whether it is still popular and actively maintained/updated.
 
-<Button label="Link account (logged in status required)" link="https://zap-hosting.com/interface/featurebase/" block />
+#### Considerations for new webinterface features
+When submitting a new webinterface feature, ensure that it relates to our ZAP-Hosting website and the webinterface panels such as your game server's webinterface.
 
+Any ideas are welcome here, whether it is a small suggestion for improvement or an entirely new feature that you believe should be included on our website and webinterface panels.
 
+### Creating a Suggestion
+Before submitting a new suggestion, we highly encourage you to use your browser's search function via `CTRL+F` to search whether your exact suggestion has already been posted previously. If so, you can like the existing post rather than creating a duplicate.
 
-## Featurebase Platform Overview
+You can create a new suggestion using the green **Suggest feature** button on the [Suggestions Page](https://zap-hosting.com/en/suggestion/). This will open up a form, where you can fill out details and place it into the appropriate category. You can be as detailed as you wish in your suggestion description, as long as it describes the point well.
 
-Featurebase is divided into several sections that work together to provide a complete overview of product development.
+We recommend being logged in to do this, or alternatively you can fill in the email section if you are not logged in to your ZAP-Hosting account at the time of submitting your suggestion.
 
-### Feedback and Ideas
+![](https://github.com/zaphosting/docs/assets/42719082/3cb61b1b-b922-4145-8081-a52d0040bdaf)
 
-The Feedback section is used to collect ideas and improvement suggestions from the community. Users can submit new proposals and support existing ones by voting on them. This helps highlight which topics are most relevant to the community and deserve closer attention.
+### After Suggestion Sumbission
+Once you have submitted your suggestion successfully, we regularly check for new suggestions and make a decision whether to approve it if it is acceptable, or occasionally we may even implement it directly.
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/HZofXdr4ByRHBY7/preview)
-
-### Roadmap
-
-The Roadmap shows the current planning state of features and ideas. It provides visibility into what is planned, what is actively being worked on, and what has already been completed. Each entry includes a clear status so progress can be followed at any time.
-
-![img](https://screensaver01.zap-hosting.com/index.php/s/jaJiMNfGzXwcCSM/preview)
-
-### Changelog
-
-The Changelog documents completed work in a transparent and chronological way. It lists new features, improvements, and relevant changes, allowing users to see which ideas have already been delivered and when they went live.
-
-![img](https://screensaver01.zap-hosting.com/index.php/s/rbQbZs6gQcNCpy4/preview)
-
-
-
-## Submitting Feedback and Ideas
-
-Before submitting a new idea, users should check whether a similar proposal already exists. Using the built in search helps avoid duplicates and keeps feedback consolidated. If an existing idea matches the request, voting on that entry is preferred.
-
-New ideas can be submitted using the **Submit feedback** button in Featurebase. Each submission should have a clear title and a well explained description that outlines the problem or desired improvement. Selecting the correct category helps ensure the idea is reviewed in the right context.
-
-![img](https://screensaver01.zap-hosting.com/index.php/s/4b5NZ67gzECFxmk/download)
-
-
-
-
-## Voting and Prioritization
-
-All ideas in Featurebase can be voted on by the community. A higher number of votes generally indicates stronger demand and increases the likelihood that an idea will be prioritized. Final decisions also take technical feasibility and overall product strategy into account.
-
-
-
-##  Roadmap Statuses
-
-Roadmap entries usually move through several stages. Planned items have been reviewed and scheduled, items marked as In Progress are actively being implemented, and Completed items have already been released. These statuses make it easy to understand the current state of each feature.
-
-
-
-## Changelog
-
-The Changelog provides a reliable overview of what has changed in the product. It includes newly released features, improvements, and other relevant updates, ensuring that progress is transparent and traceable.
-
-
-
-## Suitable Types of Feedback
-
-This feature is intended for product related feedback such as new game server requests, improvements to the web interface or panels, feature ideas for services, and optimizations of existing functionality. Individual support requests or technical issues should continue to be handled through the official support channels.
+As mentioned in the introduction, fellow members of the ZAP Community can like your suggestion to show the importance of the suggested item. The more likes that the suggesiton receives, the more likely it is that the suggestion will be considered and worked on in the future.
