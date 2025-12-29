@@ -4,7 +4,7 @@ title: "VPS: Restore access"
 description: "Discover how to regain access to your Windows VPS after a password lockout and minimize downtime → Learn more now"
 sidebar_label: Restore access
 services:
-  - dedicated
+  - vserver
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';
@@ -80,5 +80,5 @@ shutdown -r -t 0
 
 ## Conclusion
 
-Once you have completed the process, you should have successfully set a new password for the administrator user. You can now use this to log in again via the remote desktop connection. 
+Once you have completed the process, you should have successfully set a new password for the administrator user. You can now use this to log in again via the remote desktop connection. For further questions or assistance, please don’t hesitate to contact our support team, which is available daily to assist you! 🙂
 

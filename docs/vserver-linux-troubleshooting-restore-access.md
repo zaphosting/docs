@@ -51,5 +51,5 @@ Replace `username` with the actual account name. Enter the new password and conf
 
 ## Conclusion
 
-Once you have completed the process, you should have successfully set a new password for the desired user. You can now use this to log in again via the remote desktop connection. 
+Once you have completed the process, you should have successfully set a new password for the desired user. You can now use this to log in again via the remote desktop connection. For further questions or assistance, please don’t hesitate to contact our support team, which is available daily to assist you! 🙂
 
