@@ -26,9 +26,23 @@ In addition to our preconfigured standard OS templates, we also offer the option
 
 <SearchableItemList items={items} />
 
-:::info Missing an ISO file?
-Is there a specific ISO you would like to use that isn’t available? Just reach out to our support team, we'll be happy to check if we can add it for you.
-:::
+
+
+
+
+## Uploading a Custom ISO
+
+If the required ISO image is not available in the default list, a custom ISO can be provided using a public source URL. The URL must be accessible via HTTP or HTTPS and must not require authentication or time limited download links.
+
+After entering the URL in the **Add custom ISO** field and clicking **Upload ISO**, the ISO is imported automatically and becomes available for server installation.
+
+![img](https://screensaver01.zap-hosting.com/index.php/s/E93dLjnpnBPFiH7/preview)
+
+A maximum of three custom ISO images can be stored at the same time. Each uploaded ISO is only kept for 72 hours and is deleted automatically afterwards. If the ISO is still required after this period, it must be uploaded again. The customer is responsible for the content, licensing, and security of the provided ISO.
+
+
+
+
 
 
 
