@@ -11,13 +11,13 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Wprowadzenie
 
-To może zdarzyć się błyskawicznie... Próbujesz zalogować się do swojego Windows Serwera, ale hasło przestaje być akceptowane lub po prostu je zapomniałeś. Nagle zostajesz zablokowany i dostęp do ważnych danych oraz aplikacji staje się niemożliwy. Ta sytuacja jest oczywiście frustrująca, ale to jeszcze nie koniec świata. Postępując zgodnie z poniższymi krokami, odzyskasz dostęp do swojego Windows Serwera dedykowanego i będziesz mógł kontynuować pracę z minimalnymi przerwami.
+To może zdarzyć się błyskawicznie... Próbujesz zalogować się do swojego Windows Serwera, ale hasło przestało być akceptowane lub po prostu je zapomniałeś. Nagle zostajesz zablokowany i dostęp do ważnych danych oraz aplikacji staje się niemożliwy. Ta sytuacja jest oczywiście frustrująca, ale to jeszcze nie koniec świata. Postępując zgodnie z poniższymi krokami, odzyskasz dostęp do swojego Windows Serwera dedykowanego i będziesz mógł kontynuować pracę z minimalnymi przerwami.
 
 ## Przygotowanie
 
-Reset dostępu z konta administratora wykonuje się za pomocą pliku ISO Windows. W związku z tym używamy tego samego pliku ISO, który był pierwotnie użyty do instalacji systemu operacyjnego Windows Server.
+Reset dostępu do konta administratora wykonuje się za pomocą pliku ISO Windows. W związku z tym używamy tego samego pliku ISO, który był pierwotnie użyty do instalacji systemu operacyjnego Windows Server.
 
-Ten krok możesz wykonać albo przez [**pierwszą instalację**](dedicated-setup.md), albo przez **[ISO](dedicated-iso.md)**. Wybierz lub wskaż plik ISO, który był użyty podczas instalacji, w zależności od wybranej metody.
+Ten krok możesz wykonać albo przez [**Pierwszą instalację**](dedicated-setup.md), albo przez **[ISO](dedicated-iso.md)**. Wybierz lub wskaż plik ISO, który był użyty podczas instalacji, w zależności od wybranej metody.
 
 Zamontuj ISO i zrestartuj system. Przy następnym uruchomieniu powinna pojawić się ponownie instalacja Windows. Powinno to wyglądać tak:
 
@@ -25,7 +25,7 @@ Zamontuj ISO i zrestartuj system. Przy następnym uruchomieniu powinna pojawić 
 
 ## Przywracanie dostępu
 
-Teraz czas na reset dostępu konta administratora. Wykonaj ponownie pierwsze kroki instalacji, ale zatrzymaj się na ekranie startu instalacji i wybierz **Napraw swój komputer**.
+Teraz czas na reset dostępu do konta administratora. Wykonaj ponownie pierwsze kroki instalacji, ale zatrzymaj się na ekranie startu instalacji i wybierz **Napraw swój komputer**.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/qwPgHyqNaQdsqzm/preview)
 
@@ -46,7 +46,7 @@ shutdown -r -t 0
 ```
 :::warning
 
-Układ klawiatury w konsoli iLO HTML może różnić się od Twojego, przez co niektóre znaki mogą znajdować się na innych klawiszach. Weź to pod uwagę, aby poprawnie wykonać polecenia.
+Układ klawiatury w konsoli iLO HTML może różnić się od Twojego, przez co niektóre znaki znajdują się na innych klawiszach. Weź to pod uwagę, aby poprawnie wpisać komendy.
 
 :::
 
@@ -59,7 +59,7 @@ exit
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/TiKJZPdg2kj5LG3/download)
 
-Twoje hasło zostało zmienione. Teraz musisz cofnąć zmiany w plikach **Utilman**. Wystarczy, że ponownie zrestartujesz serwer i wykonasz te kroki jeszcze raz. W wierszu polecenia wpisz:
+Twoje hasło zostało zmienione. Teraz musisz cofnąć zmiany w plikach **Utilman**. Wystarczy ponownie zrestartować serwer i powtórzyć poniższe kroki w wierszu polecenia:
 
 ```
 d:
@@ -72,4 +72,4 @@ shutdown -r -t 0
 
 ## Podsumowanie
 
-Po wykonaniu tych kroków powinieneś mieć ustawione nowe hasło dla użytkownika administratora. Teraz możesz ponownie zalogować się przez zdalny pulpit (Remote Desktop).
+Po wykonaniu tych kroków powinieneś mieć ustawione nowe hasło dla użytkownika administratora. Teraz możesz zalogować się ponownie przez zdalny pulpit. W razie pytań lub potrzeby pomocy, śmiało kontaktuj się z naszym supportem, który jest do Twojej dyspozycji codziennie! 🙂

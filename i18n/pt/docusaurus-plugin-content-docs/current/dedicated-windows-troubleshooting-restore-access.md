@@ -38,7 +38,7 @@ Isso abrirá as opções avançadas. Clique em **Solução de Problemas** e depo
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/BEan26iNkmzECJ3/download)
 
-Agora, execute os comandos listados abaixo, um por um, no prompt de comando:
+Agora, execute os comandos abaixo um por um no prompt de comando:
 
 ```
 d:
@@ -51,7 +51,7 @@ shutdown -r -t 0
 ```
 :::warning
 
-O layout do teclado para o console HTML iLO pode ser diferente do seu, fazendo com que certos símbolos estejam em teclas diferentes. Fique atento para executar os comandos corretamente.
+O layout do teclado para o console iLO HTML pode ser diferente do seu, fazendo com que certos símbolos estejam em teclas diferentes. Fique atento para executar os comandos corretamente.
 
 :::
 
@@ -64,7 +64,7 @@ exit
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/TiKJZPdg2kj5LG3/download)
 
-Sua senha foi alterada. Porém, você precisa desfazer as alterações nos arquivos **Utilman**. Para isso, basta reiniciar seu servidor e repetir os passos. No prompt de comando, execute novamente os comandos:
+Sua senha foi alterada. Porém, você precisa desfazer as alterações nos arquivos **Utilman**. Para isso, basta reiniciar o servidor e repetir os passos. No prompt de comando, execute novamente:
 
 ```
 d:
@@ -80,6 +80,4 @@ shutdown -r -t 0
 
 ## Conclusão
 
-Depois de concluir o processo, você terá configurado com sucesso uma nova senha para o usuário administrador. Agora, pode usar essa senha para fazer login novamente via conexão de área de trabalho remota. 
-
-
+Depois de completar o processo, você terá configurado com sucesso uma nova senha para o usuário administrador. Agora, pode usar essa senha para fazer login novamente via conexão de área de trabalho remota. Para dúvidas ou ajuda, não hesite em contatar nosso time de suporte, disponível todos os dias para te ajudar! 🙂

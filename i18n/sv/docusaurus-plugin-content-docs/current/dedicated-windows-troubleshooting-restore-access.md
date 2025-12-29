@@ -11,16 +11,16 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introduktion
 
-Det kan gå snabbt... Du försöker logga in på din Windows Server, men ditt lösenord accepteras inte längre eller så har du helt enkelt glömt det. Plötsligt är du utelåst och åtkomst till viktig data och applikationer är inte längre möjlig. Den här situationen är såklart frustrerande, men det är långt ifrån slutet. Genom att följa stegen nedan kan du återfå åtkomst till din Windows Dedikerade Server och fortsätta jobba med minimal störning.
+Det kan gå snabbt... Du försöker logga in på din Windows Server, men ditt lösenord accepteras inte längre eller så har du helt enkelt glömt det. Plötsligt är du utelåst och åtkomst till viktig data och applikationer är inte längre möjlig. Denna situation är såklart frustrerande, men det är långt ifrån slutet. Genom att följa stegen nedan kan du återfå åtkomst till din Windows Dedikerade Server och fortsätta ditt arbete med minimal störning.
 
 
 
 ## Förberedelse
 Återställning av åtkomst från administratörskontot görs med hjälp av en Windows ISO-fil. Det är alltså samma ISO-fil som användes vid den ursprungliga installationen av Windows Server-operativsystemet. 
 
-Det här steget kan göras antingen via [**Första installationen**](dedicated-setup.md) eller via **[ISO](dedicated-iso.md)**. Välj eller ange den ISO-fil som användes från början, beroende på vilken metod du använder.
+Detta steg kan utföras antingen via [**Första installationen**](dedicated-setup.md) eller via **[ISO](dedicated-iso.md)**. Välj eller ange den ISO-fil som användes från början, beroende på vilken metod du använder.
 
-Montera ISO-filen och starta om systemet efteråt. Windows installationsgränssnitt ska öppnas igen vid nästa uppstart. Resultatet bör se ut så här:
+Montera ISO-filen och starta om systemet efteråt. Windows installationsgränssnitt bör öppnas igen nästa gång systemet startas. Resultatet bör se ut så här:
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/XGKfQrwdcmcabY6/preview)
 
@@ -28,13 +28,13 @@ Montera ISO-filen och starta om systemet efteråt. Windows installationsgränssn
 
 ## Återställ åtkomst
 
-Nu är det dags att återställa åtkomsten för administratörskontot. Följ de första stegen i installationen igen, men du behöver bara gå fram till start av installationen och sedan klicka på **Reparera din dator**.
+Nu är det dags att återställa åtkomsten för administratörskontot. Följ de första stegen i installationen igen. Du behöver dock bara gå fram till starten av installationen och sedan navigera till **Reparera din dator**.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/qwPgHyqNaQdsqzm/preview)
 
 
 
-Detta öppnar avancerade alternativ. Klicka på **Felsök** och sedan på **Kommandotolken**. Då öppnas kommandotolken (cmd.exe).
+Detta öppnar avancerade alternativ. Klicka på **Felsök** och sedan på **Kommandotolken**. Detta öppnar kommandotolken (cmd.exe).
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/BEan26iNkmzECJ3/download)
 
@@ -64,7 +64,7 @@ exit
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/TiKJZPdg2kj5LG3/download)
 
-Ditt lösenord är nu ändrat. Men du måste återställa ändringarna i **Utilman-filerna**. Starta helt enkelt om servern och gör om stegen igen. I kommandotolken kör du följande kommandon:
+Ditt lösenord är nu ändrat. Men du måste återställa ändringarna i **Utilman-filerna**. Starta helt enkelt om servern och följ stegen igen. I kommandotolken kör du följande kommandon:
 
 ```
 d:
@@ -80,4 +80,4 @@ shutdown -r -t 0
 
 ## Avslutning
 
-När du är klar med processen ska du ha lyckats sätta ett nytt lösenord för administratörsanvändaren. Du kan nu logga in igen via fjärrskrivbordsanslutningen. 
+När du har slutfört processen ska du ha lyckats sätta ett nytt lösenord för administratörsanvändaren. Du kan nu logga in igen via fjärrskrivbordsanslutningen. Har du fler frågor eller behöver hjälp, tveka inte att kontakta vår support som finns tillgänglig varje dag för att hjälpa dig! 🙂

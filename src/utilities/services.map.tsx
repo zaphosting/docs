@@ -1342,6 +1342,18 @@ const servicesMap: serviceMap = {
             description: 'URL path for the gameserver product',
         }),
     },
+    'gameserver-skyrim-together-reborn': {
+        title: translate({
+            message: 'Skyrim Together Reborn Gameserver',
+            id: 'service.gameserver-skyrim-together-reborn.title',
+            description: 'Product name for the gameserver product',
+        }),
+        url: translate({
+            message: '{marketingSite}/{language}/skyrim-together-reborn-server-hosting/',
+            id: 'service.gameserver-skyrim-together-reborn.path',
+            description: 'URL path for the gameserver product',
+        }),
+    },
     'gameserver-soldat': {
         title: translate({
             message: 'Soldat Gameserver',

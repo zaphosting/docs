@@ -1650,15 +1650,8 @@ const sidebars = {
             "cs2-configuration",
             "cs2-cstv",
             "cs2-becomeadmin",
+            "cs2-plugins",
             "cs2-fastdl"
-          ]
-        },
-        {
-          type: "category",
-          label: "Plugins / Mods",
-          key: "gameserver-plugins-mods-counter-strike-2",
-          items: [
-            "cs2-plugins"
           ]
         },
         {
@@ -3324,6 +3317,29 @@ const sidebars = {
     },
     {
       type: "category",
+      label: "Renown",
+      key: "renown-reign-of-kings",
+      items: [
+        {
+          type: "category",
+          label: "First Steps",
+          key: "gameserver-first-steps-renown",
+          items: [
+            "renown-firststeps-dashboard",
+          ]
+        },
+        {
+          type: "category",
+          label: "Troubleshooting",
+          key: "gameserver-troubleshooting-renown",
+          items: [
+            "renown-troubleshooting-common-issues",
+          ]
+        },
+      ],
+    },
+    {
+      type: "category",
       label: "RimWorld Together",
       key: "gameserver-rimworld-together",
       items: [
@@ -3634,7 +3650,6 @@ const sidebars = {
         },
       ],
     },
-
     {
       type: "category",
       label: "SCUM",
@@ -3663,6 +3678,30 @@ const sidebars = {
           key: "gameserver-troubleshooting-scum",
           items: [
             "scum-troubleshooting-common-issues",
+          ]
+        },   
+      ],
+    },
+    {
+      type: "category",
+      label: "Skyrim Together Reborn",
+      key: "gameserver-skyrim-together-reborn",
+      items: [
+        {
+          type: "category",
+          label: "First Steps",
+          key: "gameserver-first-steps-skyrim-together-reborn",
+          items: [
+            'skyrim-together-reborn-firststeps-dashboard',
+            'skyrim-together-reborn-firststeps-connect',
+          ]
+        },      
+        {
+          type: "category",
+          label: "Troubleshooting",
+          key: "gameserver-troubleshooting-skyrim-together-reborn",
+          items: [
+            "skyrim-together-reborn-troubleshooting-common-issues",
           ]
         },   
       ],
@@ -4658,6 +4697,7 @@ const sidebars = {
       key: "vserver-linux-troubleshooting",
       items: [
         'vserver-linux-ftp',
+        'vserver-linux-troubleshooting-restore-access',
       ]
     },	
     {
@@ -4764,6 +4804,7 @@ const sidebars = {
       items: [
         'vserver-windows-rdp-freeze',
         'vserver-windows-nointernet',
+        'vserver-windows-troubleshooting-restore-access',
       ]
     },	
   ],
@@ -4979,6 +5020,14 @@ const sidebars = {
       ]
     },
     {
+      type: "category",
+      label: "Troubleshooting",
+      key: "dedicated-server-linux-troubleshooting",
+      items: [
+        'dedicated-linux-troubleshooting-restore-access',
+      ]
+    },	
+    {
       type: 'html',
       className: 'sidebar-title',
       value: (() => {
@@ -5005,7 +5054,8 @@ const sidebars = {
       'dedicated-windows-port',
       'dedicated-windows-addip',
       'dedicated-windows-manage-users',
-      'dedicated-linux-rescue'
+      'dedicated-windows-rescue',
+      'dedicated-windows-eval-to-full'
       ]
     },
     {
