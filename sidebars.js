@@ -3324,6 +3324,29 @@ const sidebars = {
     },
     {
       type: "category",
+      label: "Renown",
+      key: "renown-reign-of-kings",
+      items: [
+        {
+          type: "category",
+          label: "First Steps",
+          key: "gameserver-first-steps-renown",
+          items: [
+            "renown-firststeps-dashboard",
+          ]
+        },
+        {
+          type: "category",
+          label: "Troubleshooting",
+          key: "gameserver-troubleshooting-renown",
+          items: [
+            "renown-troubleshooting-common-issues",
+          ]
+        },
+      ],
+    },
+    {
+      type: "category",
       label: "RimWorld Together",
       key: "gameserver-rimworld-together",
       items: [
@@ -3634,7 +3657,6 @@ const sidebars = {
         },
       ],
     },
-
     {
       type: "category",
       label: "SCUM",
@@ -3663,6 +3685,30 @@ const sidebars = {
           key: "gameserver-troubleshooting-scum",
           items: [
             "scum-troubleshooting-common-issues",
+          ]
+        },   
+      ],
+    },
+    {
+      type: "category",
+      label: "Skyrim Together Reborn",
+      key: "gameserver-skyrim-together-reborn",
+      items: [
+        {
+          type: "category",
+          label: "First Steps",
+          key: "gameserver-first-steps-skyrim-together-reborn",
+          items: [
+            'skyrim-together-reborn-firststeps-dashboard',
+            'skyrim-together-reborn-firststeps-connect',
+          ]
+        },      
+        {
+          type: "category",
+          label: "Troubleshooting",
+          key: "gameserver-troubleshooting-skyrim-together-reborn",
+          items: [
+            "skyrim-together-reborn-troubleshooting-common-issues",
           ]
         },   
       ],
@@ -5005,7 +5051,8 @@ const sidebars = {
       'dedicated-windows-port',
       'dedicated-windows-addip',
       'dedicated-windows-manage-users',
-      'dedicated-linux-rescue'
+      'dedicated-windows-rescue',
+      'dedicated-windows-eval-to-full'
       ]
     },
     {
