@@ -4704,6 +4704,7 @@ const sidebars = {
       key: "vserver-linux-troubleshooting",
       items: [
         'vserver-linux-ftp',
+        'vserver-linux-troubleshooting-restore-access',
       ]
     },	
     {
@@ -4810,6 +4811,7 @@ const sidebars = {
       items: [
         'vserver-windows-rdp-freeze',
         'vserver-windows-nointernet',
+        'vserver-windows-troubleshooting-restore-access',
       ]
     },	
   ],
@@ -5024,6 +5026,14 @@ const sidebars = {
         'dedicated-linux-security-tips',
       ]
     },
+    {
+      type: "category",
+      label: "Troubleshooting",
+      key: "dedicated-server-linux-troubleshooting",
+      items: [
+        'dedicated-linux-troubleshooting-restore-access',
+      ]
+    },	
     {
       type: 'html',
       className: 'sidebar-title',
