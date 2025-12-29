@@ -1650,15 +1650,8 @@ const sidebars = {
             "cs2-configuration",
             "cs2-cstv",
             "cs2-becomeadmin",
+            "cs2-plugins",
             "cs2-fastdl"
-          ]
-        },
-        {
-          type: "category",
-          label: "Plugins / Mods",
-          key: "gameserver-plugins-mods-counter-strike-2",
-          items: [
-            "cs2-plugins"
           ]
         },
         {
