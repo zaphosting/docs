@@ -14,7 +14,7 @@ import SearchableItemList from '@site/src/components/SearchableItemList/Searchab
 import items from '@site/data/lists/vserver-iso-files-en.json';
 
 ## Einführung
-Willst du noch mehr Freiheit bei der Wahl deines Systems? Neben unseren OS-Vorlagen kannst du natürlich auch deine eigenen ISOs mounten. Das geht super easy mit unseren VPS-Produkten. So bekommst du genau das Betriebssystem auf deinem Server, das du wirklich willst!
+Willst du noch mehr Freiheit bei der Wahl deines Systems? Neben unseren OS-Vorlagen kannst du natürlich auch eigene ISOs mounten. Das geht super easy mit unseren VPS-Produkten. So bekommst du genau das Betriebssystem auf deinen Server, das du wirklich willst!
 
 <InlineVoucher />
 
@@ -22,24 +22,36 @@ Willst du noch mehr Freiheit bei der Wahl deines Systems? Neben unseren OS-Vorla
 
 ## Verfügbare ISO-Dateien
 
-Neben unseren vorkonfigurierten Standard-OS-Vorlagen bieten wir dir auch die Möglichkeit, zusätzliche ISO-Dateien zu mounten. Das sorgt für noch mehr Flexibilität bei der Einrichtung und Verwaltung deiner Serverumgebung. Unsere VPS-Produkte unterstützen aktuell folgende ISO-Dateien: 
+Neben unseren vorkonfigurierten Standard-OS-Vorlagen bieten wir auch die Möglichkeit, zusätzliche ISO-Dateien zu mounten. Das sorgt für noch mehr Flexibilität bei der Einrichtung und Verwaltung deiner Serverumgebung. Unsere VPS-Produkte unterstützen aktuell folgende ISO-Dateien: 
 
 <SearchableItemList items={items} />
 
-:::info Fehlt eine ISO-Datei?
-Gibt es eine bestimmte ISO, die du gerne nutzen möchtest, die aber nicht verfügbar ist? Melde dich einfach bei unserem Support-Team, wir prüfen gern, ob wir sie für dich hinzufügen können.
-:::
+
+
+
+
+## Eigene ISO hochladen
+
+Wenn das benötigte ISO-Image nicht in der Standardliste verfügbar ist, kannst du eine eigene ISO über eine öffentliche URL bereitstellen. Die URL muss per HTTP oder HTTPS erreichbar sein und darf keine Authentifizierung oder zeitlich begrenzte Download-Links erfordern.
+
+Nach Eingabe der URL im Feld **Custom ISO hinzufügen** und Klick auf **ISO hochladen** wird die ISO automatisch importiert und steht für die Serverinstallation bereit.
+
+![img](https://screensaver01.zap-hosting.com/index.php/s/E93dLjnpnBPFiH7/preview)
+
+Maximal drei eigene ISO-Images können gleichzeitig gespeichert werden. Jede hochgeladene ISO wird nur 72 Stunden vorgehalten und danach automatisch gelöscht. Wird die ISO danach noch benötigt, muss sie erneut hochgeladen werden. Für den Inhalt, die Lizenzierung und Sicherheit der bereitgestellten ISO ist der Kunde verantwortlich.
+
+
 
 
 
 
 
 ## ISO-Datei mounten
-Um eine ISO zu mounten, geh in dein VPS-Management-Panel und öffne **Einstellungen → ISOs**. Wähle die gewünschte ISO-Datei aus, passe die Boot-Reihenfolge an und starte deinen Server neu. 
+Um eine ISO zu mounten, geh in dein VPS-Management-Panel und öffne **Einstellungen → ISOs**. Wähle die gewünschte ISO-Datei aus, passe die Boot-Reihenfolge an und starte deinen Server neu.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/tszMKbqDSa3AaLy/download)
 
-Nach dem Neustart kannst du dich mit dem VNC-Client mit deinem Server verbinden und mit der Installation und Konfiguration des Betriebssystems starten.
+Nach dem Neustart kannst du dich per VNC-Client mit deinem Server verbinden und mit der Installation und Konfiguration des Betriebssystems starten.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/q6WoDMq8pxn72oG/download)
 

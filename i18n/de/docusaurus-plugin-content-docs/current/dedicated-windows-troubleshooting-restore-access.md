@@ -11,12 +11,12 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
 
-Es kann schnell passieren... Du versuchst, dich auf deinem Windows Server einzuloggen, aber dein Passwort wird nicht mehr akzeptiert oder du hast es einfach vergessen. Plötzlich bist du ausgesperrt und der Zugriff auf wichtige Daten und Anwendungen ist nicht mehr möglich. Diese Situation ist natürlich frustrierend, aber noch lange nicht das Ende. Wenn du die unten beschriebenen Schritte befolgst, kannst du den Zugriff auf deinen Windows Dedicated Server wiederherstellen und deine Arbeit mit minimalen Unterbrechungen fortsetzen.
+Das kann schnell passieren... Du versuchst, dich auf deinem Windows Server einzuloggen, aber dein Passwort wird nicht mehr akzeptiert oder du hast es einfach vergessen. Plötzlich bist du ausgesperrt und der Zugriff auf wichtige Daten und Anwendungen ist nicht mehr möglich. Diese Situation ist natürlich frustrierend, aber noch lange nicht das Ende. Wenn du die unten beschriebenen Schritte befolgst, kannst du den Zugriff auf deinen Windows Dedicated Server wiederherstellen und deine Arbeit mit minimalen Unterbrechungen fortsetzen.
 
 
 
 ## Vorbereitung
-Der Zugriff wird über das Administrator-Konto zurückgesetzt, indem eine Windows ISO-Datei verwendet wird. Dabei kommt genau die ISO-Datei zum Einsatz, mit der ursprünglich das Windows Server Betriebssystem installiert wurde.
+Der Zugriff wird über das Administrator-Konto zurückgesetzt, indem eine Windows ISO-Datei verwendet wird. Dabei kommt genau die ISO-Datei zum Einsatz, die ursprünglich für die Installation des Windows Server Betriebssystems genutzt wurde.
 
 Dieser Schritt kann entweder über die [**Erstinstallation**](dedicated-setup.md) oder über **[ISO](dedicated-iso.md)** durchgeführt werden. Wähle oder gib die ISO-Datei an, die ursprünglich verwendet wurde, je nachdem, welche Methode du nutzt.
 
@@ -34,7 +34,7 @@ Jetzt geht’s ans Zurücksetzen des Zugriffs für das Administrator-Konto. Folg
 
 
 
-Es öffnen sich die erweiterten Optionen. Klicke auf **Problembehandlung** und dann auf **Eingabeaufforderung**. Dadurch öffnet sich die Kommandozeile (cmd.exe).
+Dadurch öffnen sich die erweiterten Optionen. Klicke auf **Problembehandlung** und dann auf **Eingabeaufforderung**. Damit öffnet sich die Kommandozeile (cmd.exe).
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/BEan26iNkmzECJ3/download)
 
@@ -55,7 +55,7 @@ Das Tastaturlayout in der iLO HTML-Konsole kann von deinem eigenen abweichen, so
 
 :::
 
-Nach dem Neustart des Servers drücke auf dem Anmeldebildschirm die Tastenkombination **Win+U**. Im sich öffnenden Eingabeaufforderungsfenster gib bitte Folgendes ein:
+Nach dem Neustart des Servers drücke auf dem Anmeldebildschirm bitte die Tastenkombination **Win+U**. Im sich öffnenden Eingabeaufforderungsfenster gib bitte Folgendes ein:
 
 ```
 net user Administrator DeinNeuesPasswort
@@ -64,7 +64,7 @@ exit
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/TiKJZPdg2kj5LG3/download)
 
-Dein Passwort wurde jetzt geändert. Du musst aber die Änderungen an den **Utilman-Dateien** wieder rückgängig machen. Starte dazu einfach deinen Server neu und wiederhole die Schritte. In der Eingabeaufforderung führe bitte erneut folgende Befehle aus:
+Dein Passwort wurde jetzt geändert. Du musst aber die Änderungen an den **Utilman-Dateien** wieder rückgängig machen. Starte dazu einfach deinen Server neu und wiederhole die folgenden Schritte in der Eingabeaufforderung:
 
 ```
 d:
@@ -81,4 +81,4 @@ shutdown -r -t 0
 
 ## Fazit
 
-Wenn du den Prozess abgeschlossen hast, solltest du erfolgreich ein neues Passwort für den Administrator-User gesetzt haben. Damit kannst du dich jetzt wieder über die Remote-Desktop-Verbindung einloggen.
+Wenn du den Prozess abgeschlossen hast, solltest du erfolgreich ein neues Passwort für den Administrator-User gesetzt haben. Damit kannst du dich jetzt wieder per Remote Desktop Verbindung einloggen. Bei weiteren Fragen oder wenn du Hilfe brauchst, steht dir unser Support-Team täglich zur Seite! 🙂

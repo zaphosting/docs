@@ -11,14 +11,14 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introduzione
 
-Può succedere in un attimo... Provi ad accedere al tuo Windows Server, ma la password non viene più accettata o semplicemente te la sei dimenticata. All’improvviso, sei bloccato fuori e non puoi più accedere a dati e applicazioni importanti. Ovviamente è frustrante, ma non è certo la fine. Seguendo i passaggi qui sotto, potrai riottenere l’accesso al tuo Windows Dedicated Server e continuare a lavorare con il minimo downtime.
+Succede in un attimo... Provi ad accedere al tuo Windows Server, ma la password non viene più accettata o semplicemente l’hai dimenticata. All’improvviso sei bloccato fuori e non puoi più accedere a dati e applicazioni importanti. Questa situazione è ovviamente frustrante, ma non è affatto la fine. Seguendo i passaggi qui sotto, puoi riottenere l’accesso al tuo Windows Dedicated Server e continuare a lavorare con il minimo disturbo.
 
 
 
 ## Preparazione
-Il reset dell’accesso dall’account amministratore si fa usando un file ISO di Windows. Quindi, si usa lo stesso file ISO che è stato usato originariamente per installare il sistema operativo Windows Server.
+Il reset dell’accesso dall’account amministratore si fa usando un file ISO di Windows. Quindi, si utilizza lo stesso file ISO che è stato usato originariamente per installare il sistema operativo Windows Server.
 
-Questo passaggio può essere fatto tramite la [**Prima installazione**](dedicated-setup.md) oppure tramite **[ISO](dedicated-iso.md)**. Seleziona o specifica il file ISO usato originariamente, a seconda del metodo scelto.
+Questo passaggio può essere fatto tramite la [**Prima installazione**](dedicated-setup.md) oppure tramite **[ISO](dedicated-iso.md)**. Seleziona o indica il file ISO usato originariamente, a seconda del metodo scelto.
 
 Monta l’ISO e riavvia il sistema. Al prossimo avvio dovrebbe aprirsi di nuovo l’interfaccia di installazione di Windows. Il risultato dovrebbe essere così:
 
@@ -51,11 +51,11 @@ shutdown -r -t 0
 ```
 :::warning
 
-La tastiera della console iLO HTML potrebbe avere un layout diverso dal tuo, quindi alcuni simboli potrebbero trovarsi su tasti differenti. Tienilo a mente per eseguire correttamente i comandi.
+La tastiera della console iLO HTML potrebbe avere una disposizione diversa dalla tua, quindi certi simboli potrebbero trovarsi su tasti differenti. Tienilo a mente per eseguire correttamente i comandi.
 
 :::
 
-Dopo il riavvio del server, nella schermata di login premi la combinazione di tasti **Win+U**. Nella finestra del Prompt dei comandi, digita:
+Dopo il riavvio del server, nella schermata di login premi la combinazione di tasti **Win+U**. Nella finestra del Prompt dei comandi, digita quanto segue:
 
 ```
 net user Administrator YourNewPassword
@@ -64,7 +64,7 @@ exit
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/TiKJZPdg2kj5LG3/download)
 
-La tua password è stata cambiata. Ora però devi annullare le modifiche ai file **Utilman**. Per farlo, riavvia il server e ripeti questi passaggi. Nel prompt dei comandi esegui di nuovo:
+La tua password è stata cambiata. Però devi annullare le modifiche ai file **Utilman**. Per farlo, riavvia semplicemente il server e ripeti questi passaggi. Nel prompt dei comandi, esegui di nuovo questi comandi:
 
 ```
 d:
@@ -80,4 +80,4 @@ shutdown -r -t 0
 
 ## Conclusione
 
-Una volta completata la procedura, avrai impostato con successo una nuova password per l’utente amministratore. Ora puoi usarla per accedere di nuovo tramite la connessione desktop remoto.
+Una volta completata la procedura, avrai impostato con successo una nuova password per l’utente amministratore. Ora puoi usarla per accedere di nuovo tramite la connessione desktop remoto. Per qualsiasi domanda o supporto, non esitare a contattare il nostro team di assistenza, disponibile ogni giorno per aiutarti! 🙂

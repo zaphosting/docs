@@ -1,7 +1,7 @@
 ---
 id: dedicated-windows-troubleshooting-restore-access
-title: "Servidor dedicado: Restaurar acceso"
-description: "Descubre cómo recuperar el acceso a tu Servidor dedicado Windows tras un bloqueo por contraseña y minimizar el tiempo de inactividad → Aprende más ahora"
+title: "Servidor Dedicado: Restaurar acceso"
+description: "Descubre cómo recuperar el acceso a tu Servidor Dedicado Windows tras un bloqueo por contraseña y minimizar el tiempo de inactividad → Aprende más ahora"
 sidebar_label: Restaurar acceso
 services:
   - dedicated
@@ -11,16 +11,16 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introducción
 
-Puede pasar rápido... Intentas iniciar sesión en tu Servidor Windows, pero tu contraseña ya no es aceptada o simplemente la olvidaste. De repente, estás bloqueado y el acceso a datos y aplicaciones importantes ya no es posible. Esta situación es obviamente frustrante, pero está lejos de ser el fin. Siguiendo los pasos que te mostramos a continuación, podrás recuperar el acceso a tu Servidor dedicado Windows y continuar tu trabajo con la mínima interrupción.
+Puede pasar rápido... Intentas iniciar sesión en tu Servidor Windows, pero tu contraseña ya no es aceptada o simplemente la olvidaste. De repente, estás bloqueado y el acceso a datos y aplicaciones importantes ya no es posible. Esta situación es obviamente frustrante, pero está lejos de ser el fin. Siguiendo los pasos que te mostramos a continuación, podrás recuperar el acceso a tu Servidor Dedicado Windows y continuar tu trabajo con la mínima interrupción.
 
 
 
 ## Preparación
-Restablecer el acceso desde la cuenta de administrador se hace usando un archivo ISO de Windows. Por lo tanto, se utiliza el mismo archivo ISO que se usó originalmente para la instalación del sistema operativo Windows Server.
+Restablecer el acceso desde la cuenta de administrador se hace usando un archivo ISO de Windows. Por lo tanto, se usa el mismo archivo ISO que se utilizó originalmente para la instalación del sistema operativo Windows Server.
 
-Este paso puede realizarse ya sea a través de la [**Primera instalación**](dedicated-setup.md) o mediante **[ISO](dedicated-iso.md)**. Selecciona o especifica el archivo ISO que se usó originalmente, dependiendo del método que uses.
+Este paso se puede realizar ya sea a través de la [**Primera instalación**](dedicated-setup.md) o mediante **[ISO](dedicated-iso.md)**. Selecciona o especifica el archivo ISO que se usó originalmente, según el método que uses.
 
-Monta el ISO y reinicia el sistema después. La interfaz de instalación de Windows debería abrirse nuevamente la próxima vez que inicies el sistema. El resultado debería verse así:
+Monta el ISO y reinicia el sistema después. La interfaz de instalación de Windows debería abrirse nuevamente la próxima vez que se inicie el sistema. El resultado debería verse así:
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/XGKfQrwdcmcabY6/preview)
 
@@ -51,7 +51,7 @@ shutdown -r -t 0
 ```
 :::warning
 
-El layout del teclado para la consola iLO HTML puede diferir del tuyo, por lo que ciertos símbolos pueden estar en teclas diferentes. Ten esto en cuenta para ejecutar correctamente los comandos.
+El layout del teclado para la consola iLO HTML puede diferir del tuyo, por lo que ciertos símbolos pueden estar en teclas diferentes. Ten esto en cuenta para ejecutar los comandos correctamente.
 
 :::
 
@@ -64,7 +64,7 @@ exit
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/TiKJZPdg2kj5LG3/download)
 
-Tu contraseña ya ha sido cambiada. Sin embargo, debes deshacer los cambios en los archivos de **Utilman**. Para ello, simplemente reinicia tu servidor y sigue estos pasos nuevamente. En la consola, ejecuta los siguientes comandos otra vez:
+Tu contraseña ya ha sido cambiada. Sin embargo, debes deshacer los cambios en los archivos **Utilman**. Para ello, simplemente reinicia tu servidor y sigue estos pasos nuevamente. En la consola, ejecuta los siguientes comandos otra vez:
 
 ```
 d:
@@ -80,4 +80,4 @@ shutdown -r -t 0
 
 ## Conclusión
 
-Una vez completado el proceso, deberías haber establecido con éxito una nueva contraseña para el usuario administrador. Ahora puedes usarla para iniciar sesión nuevamente vía conexión de escritorio remoto.
+Una vez completado el proceso, deberías haber establecido exitosamente una nueva contraseña para el usuario administrador. Ahora puedes usarla para iniciar sesión nuevamente vía conexión de escritorio remoto. Para cualquier duda o ayuda, no dudes en contactar a nuestro equipo de soporte, ¡disponible todos los días para ayudarte! 🙂
