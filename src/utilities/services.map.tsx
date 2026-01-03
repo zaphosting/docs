@@ -1018,6 +1018,18 @@ const servicesMap: serviceMap = {
             description: 'URL path for the gameserver product',
         }),
     },
+    'gameserver-nightingale': {
+        title: translate({
+            message: 'Nightingale Gameserver',
+            id: 'service.gameserver-nightingale.title',
+            description: 'Product name for the gameserver product',
+        }),
+        url: translate({
+            message: '{marketingSite}/{language}/nightingale-server-hosting/',
+            id: 'service.gameserver-nightingale.path',
+            description: 'URL path for the gameserver product',
+        }),
+    },
     'gameserver-nmrih': {
         title: translate({
             message: 'No More Room In Hell Gameserver',
