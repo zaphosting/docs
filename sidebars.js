@@ -2909,6 +2909,29 @@ const sidebars = {
     },
     {
       type: "category",
+      label: "Nightingale",
+      key: "gameserver-nightingale",
+      items: [
+        {
+          type: "category",
+          label: "First Steps",
+          key: "gameserver-first-steps-nightingale",
+          items: [
+            "nightingale-firststeps-dashboard",
+          ]
+        },
+        {
+          type: "category",
+          label: "Troubleshooting",
+          key: "gameserver-troubleshooting-nightingale",
+          items: [
+            "nightingale-troubleshooting-common-issues",
+          ]
+        },
+      ],
+    },
+    {
+      type: "category",
       label: "No More Room In Hell",
       key: "gameserver-no-more-room-in-hell",
       items: [

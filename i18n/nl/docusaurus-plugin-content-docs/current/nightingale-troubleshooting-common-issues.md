@@ -1,0 +1,165 @@
+---
+id: nightingale-troubleshooting-common-issues
+title: "Nightingale: Veelvoorkomende problemen"
+description: "Ontdek hoe je veelvoorkomende Nightingale serverproblemen kunt oplossen voor een soepele game-ervaring → Leer het nu"
+sidebar_label: Veelvoorkomende problemen
+services:
+  - gameserver-skyrim-together-reborn
+---
+
+import InlineVoucher from '@site/src/components/InlineVoucher';
+import Button from '@site/src/components/Button';
+
+## Introductie
+
+Je eigen Nightingale game server opzetten en draaien kan supertof en leuk zijn. Het is een geweldige manier om een custom game-omgeving en community te bouwen, maar het betekent ook dat je verantwoordelijk bent als er iets misgaat. Crashes, lag en configuratieproblemen zijn veelvoorkomende issues waar elke server-eigenaar vroeg of laat mee te maken krijgt.
+
+Om ervoor te zorgen dat je minder tijd kwijt bent aan fixen en meer tijd hebt om te gamen, belicht deze sectie de meest voorkomende problemen waar server-eigenaren tegenaan lopen en geeft het oplossingen om ze snel en effectief op te lossen.
+
+
+<InlineVoucher />
+
+
+
+## Problemen en oplossingen
+
+De oorzaak van serverproblemen kan verschillen en is vaak niet meteen duidelijk. Leer stap voor stap hoe je typische issues kunt troubleshooten en houd alles soepel draaiende.
+
+### Algemeen
+Algemene problemen kunnen allerlei onverwachte issues zijn die niet in een specifieke categorie passen. Vaak hebben ze te maken met basisinstellingen, ontbrekende bestanden of simpele misconfiguraties. Deze zijn meestal snel te fixen met een paar checks en aanpassingen.
+
+<details>
+  <summary>Server niet zichtbaar</summary>
+
+Als je server niet zichtbaar is, kan dat komen doordat de initialisatie niet goed is afgerond. Dit kan bijvoorbeeld door een foutieve configuratie of corrupte bestanden komen. Meestal vind je meer info terug in de serverconsole of logbestanden. Daarnaast moet je checken of er geen verkeerde filterinstellingen in de serverlijst staan, waardoor de server niet wordt weergegeven.
+
+</details>
+
+
+### Crashes
+
+Niets verpest een goede sessie sneller dan een onverwachte crash. Crashes kunnen veroorzaakt worden door foutieve serversoftware, kapotte of incompatibele extensies (zoals plugins, mods, resources of frameworks), systeemoverbelasting of misconfiguraties.
+
+<details>
+  <summary>Je server up-to-date houden</summary>
+
+Je game server draaien op de nieuwste versie is essentieel voor stabiliteit, veiligheid en compatibiliteit. Game-updates, framework-wijzigingen of aanpassingen aan tools van derden kunnen serieuze problemen veroorzaken als je serverversie verouderd is.
+
+Een verouderde game server kan crashes krijgen, onverwacht gedrag vertonen of zelfs helemaal niet meer starten.
+
+![img](https://screensaver01.zap-hosting.com/index.php/s/JXLHyHeMJqErHLJ/preview)
+
+
+</details>
+
+<details>
+  <summary>Foutieve/problematische extensies (Frameworks, Plugins, Mods, Resources)</summary>
+
+Crashes worden vaak veroorzaakt door foutieve of verouderde extensies. Of het nu een framework, plugin, mod of resource is, problemen ontstaan als een extensie niet compatibel is met de nieuwste gameversie of bugs bevat.
+
+Dit kan leiden tot onverwachte servercrashes, vastlopers of fouten, vooral als meerdere problematische extensies samenkomen. Als je vermoedt dat een extensie de oorzaak is, probeer deze dan tijdelijk uit te schakelen en kijk of je server stabiel blijft. Zo kun je makkelijk achterhalen welke extensie problemen geeft.
+
+Zorg dat alle extensies die je gebruikt up-to-date zijn, actief onderhouden worden en getest zijn op compatibiliteit met de huidige gameversie om crashes en downtime te voorkomen.
+
+Om de oorzaak van crashproblemen te isoleren, is het vaak handig om extra content tijdelijk uit te schakelen. Begin met een minimale setup en check of het probleem blijft. Als het weg is, voeg dan stap voor stap extensies, mods of resources weer toe en test na elke stap. Deze aanpak helpt je precies te vinden welk onderdeel de problemen veroorzaakt. Zo werk je efficiënt en op basis van bewijs, niet op aannames.
+
+</details>
+
+### Performance
+
+Een soepele serverperformance is cruciaal voor een goede game-ervaring. Problemen zoals lag, vertragingen of plotselinge crashes ontstaan vaak als de server niet optimaal is ingesteld, de hardware niet voldoet aan de game-eisen of geïnstalleerde extensies het systeem overbelasten.
+
+Typische oorzaken zijn een slechte configuratie, ontbrekende resources of niet-geoptimaliseerde plugins en mods. Checken en aanpassen van deze punten helpt de meeste performanceproblemen te fixen en houdt je game stabiel en responsief.
+
+<details>
+  <summary>Slechte serverconfiguratie</summary>
+
+Verkeerde of slecht ingestelde serverinstellingen kunnen leiden tot hoger resourcegebruik en performanceproblemen zoals lag of haperingen. Zorg dat je configuratiewaarden overeenkomen met de aanbevolen instellingen voor jouw game en servergrootte. Bekijk ze goed en pas aan waar nodig om je server zo efficiënt mogelijk te laten draaien.
+
+Je kunt je configuratie aanpassen via de beschikbare instellingen in de **Instellingen** sectie of direct in de configuratiebestanden onder **Configs** in je webinterface.
+
+</details>
+
+<details>
+  <summary>Niet voldoen aan de game-eisen</summary>
+
+Om je game server soepel en betrouwbaar te laten draaien, is het essentieel om een configuratie te kiezen die past bij de behoeften van je project. De eisen kunnen sterk verschillen afhankelijk van de game, het gebruik van extensies zoals mods, plugins of resources, en het verwachte aantal spelers.
+
+ZAP-Hosting geeft tijdens het bestelproces een aanbevolen minimumconfiguratie. Deze suggesties zijn gebaseerd op typische gebruikssituaties en helpen je om veelvoorkomende performanceproblemen zoals lag, crashes of lange laadtijden te voorkomen.
+
+![img](https://screensaver01.zap-hosting.com/index.php/s/87ADJdwNAXxXxdk/preview)
+
+Volg deze aanbevelingen of schaal op waar nodig om optimale stabiliteit en de beste ervaring voor jou en je spelers te garanderen. Dit is een minimumadvies.
+
+Afhankelijk van de omvang van je project en de hoeveelheid extra content kunnen de benodigde resources vanaf het begin al hoger zijn of in de loop van de tijd toenemen. In zulke gevallen is het upgraden van je game server pakket een makkelijke manier om performance en stabiliteit te blijven garanderen.
+
+</details>
+
+<details>
+  <summary>Niet-geoptimaliseerde extensies (Frameworks, Plugins, Mods, Resources)</summary>
+
+Niet alle extensies zijn gemaakt met performance in gedachten. Of het nu een framework, plugin, mod of resource is, een slechte implementatie kan flinke performanceproblemen veroorzaken op je server. Vaak werkt de functionaliteit wel, maar is de uitvoering inefficiënt, te complex of zorgt het voor onnodige belasting van serverresources.
+
+Dit kan resulteren in hoge CPU-belasting, geheugenlekken, lag of zelfs crashes, vooral als meerdere niet-geoptimaliseerde componenten samenkomen. Zorg altijd dat extensies actief onderhouden worden, goed gedocumenteerd zijn en getest zijn op performance. Raadpleeg bij twijfel feedback uit de community of monitor de serverperformance om problematische onderdelen te vinden.
+
+Om de oorzaak van performanceproblemen te isoleren, is het vaak handig om extra content tijdelijk uit te schakelen. Begin met een minimale setup en check of het probleem blijft. Als het weg is, voeg dan stap voor stap extensies, mods of resources weer toe en test na elke stap. Zo vind je snel welk onderdeel de problemen veroorzaakt, of het nu een conflict, geheugenlek of te hoog resourcegebruik is.
+
+Deze methode helpt je efficiënt de mogelijke boosdoeners te beperken en zorgt dat je troubleshooting op feiten gebaseerd is, niet op aannames.
+
+</details>
+
+
+
+### Netwerk
+Netwerkproblemen kunnen leiden tot lag, vertragingen of verbindingsverlies. Deze issues kunnen verschillende oorzaken hebben, maar zijn meestal op te lossen met de juiste instellingen en beveiligingsmaatregelen.
+
+<details>
+  <summary>Ping spikes, lag en netwerkvertraging</summary>
+
+Ping spikes, lag en netwerkvertraging ontstaan meestal door beperkte serverresources, zoals onvoldoende CPU-kracht, RAM of bandbreedte.
+
+Ze kunnen ook optreden als de server overbelast is door veel spelers of resource-intensieve scripts en plugins. Netwerkgerelateerde problemen zoals slechte routing, externe overbelasting of een server die ver weg staat van de spelers kunnen de latency verder verhogen.
+
+Daarnaast kunnen achtergrondprocessen, instabiele internetverbindingen, packet loss en verouderde of verkeerd geconfigureerde serversoftware allemaal bijdragen aan merkbare performanceproblemen tijdens het gamen.
+
+Als je lag of hoge ping ervaart op je server, zijn er een paar simpele stappen om de performance te verbeteren. Zorg eerst dat je server voldoet aan of beter is dan de aanbevolen specificaties voor jouw game en project. Kies ook een serverlocatie dicht bij je spelers om latency te verminderen.
+
+Als je vermoedt dat routingproblemen of externe netwerkissues vertragingen veroorzaken, neem dan gerust contact op met onze support. Zij helpen je de situatie te analyseren en de beste oplossing te vinden.
+
+
+</details>
+
+<details>
+  <summary>DDoS en andere netwerkdreigingen</summary>
+
+Gameservers kunnen soms het doelwit zijn van kwaadaardige netwerkactiviteiten, vooral Distributed Denial of Service (DDoS) aanvallen. Deze aanvallen overspoelen de server met teveel verkeer, wat lag, verbindingsverlies of zelfs volledige downtime veroorzaakt. Soms proberen aanvallers ook netwerkzwaktes te misbruiken of de serverstabiliteit te verstoren via herhaalde verbindingen of ongebruikelijke datapatronen.
+
+Hoewel de meeste van deze dreigingen buiten de controle van de gemiddelde gebruiker vallen, biedt ZAP-Hosting ingebouwde bescherming en mitigatiesystemen om je server te beschermen tegen gangbare en geavanceerde aanvallen. Als je vermoedt dat je server wordt aangevallen en dit problemen veroorzaakt, neem dan contact op met onze support voor hulp en advies.
+
+</details>
+
+
+
+
+
+
+## Preventieve maatregelen
+
+Regelmatige backups besparen je veel stress en zorgen. Maak regelmatig backups zodat je bij problemen altijd een oudere versie hebt waar alles nog werkte. Wij bieden een [backup oplossing](gameserver-backups.md) voor onze Nightingale game servers, waarmee je handmatig of automatisch geplande backups kunt maken.
+
+
+
+<Button label="Toegang tot ZAP-Storage" link="https://zap-hosting.com/en/customer/home/storage/" block/>
+
+
+
+
+
+
+## Conclusie
+
+Met deze stappen zou je het probleem moeten kunnen oplossen. Als je jouw issue hier terugvindt, wijst de bijbehorende oplossing je meestal al in de juiste richting en helpt het je weer aan de slag te gaan.
+
+Lukt het niet? Aarzel dan niet om contact op te nemen met onze support voor verdere vragen of hulp, ze staan dagelijks voor je klaar! 🙂
+
+<InlineVoucher />
