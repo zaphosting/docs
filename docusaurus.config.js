@@ -204,6 +204,12 @@ const config = {
           },
           {
             to: '/docs/welcome', from: '/docs/account-contractsandprepaid',
+          },
+          {
+            to: '/docs/welcome', from: '/docs/dayofinfamy-firststeps-dashboard',
+          },
+          {
+            to: '/docs/welcome', from: '/docs/dayofinfamy-troubleshooting-common-issues',
           }
         ],
       },

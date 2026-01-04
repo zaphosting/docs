@@ -1704,29 +1704,6 @@ const sidebars = {
     },
     {
       type: "category",
-      label: "Day of Infamy",
-      key: "gameserver-day-of-infamy",
-      items: [
-        {
-          type: "category",
-          label: "First Steps",
-          key: "gameserver-first-steps-day-of-infamy",
-          items: [
-            "dayofinfamy-firststeps-dashboard",
-          ]
-        },
-        {
-          type: "category",
-          label: "Troubleshooting",
-          key: "gameserver-troubleshooting-day-of-infamy",
-          items: [
-            "dayofinfamy-troubleshooting-common-issues",
-          ]
-        },
-      ],
-    },
-    {
-      type: "category",
       label: "DayZ",
       key: "gameserver-dayz",
       items: [
