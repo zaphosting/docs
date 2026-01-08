@@ -1,7 +1,7 @@
 ---
 id: eco-whitelist
-title: "ECO: Activate Whitelist"
-description: "Discover how to secure your server by managing player access with ECO's whitelist feature → Learn more now"
+title: "ECO: Whitelist"
+description: "Information about how to whitelist your ECO server from ZAP-Hosting - ZAP-Hosting.com Documentation
 sidebar_label: Whitelist
 services:
   - gameserver
@@ -9,71 +9,45 @@ services:
 
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
-
-
 ## Introduction
 
-ECO's whitelist allows you to protect your server by only allowing selected players on the list to connect to the server.
+A whitelist is an access list that limits who can connect to your server. In ECO the whitelist is stored in the `Users.eco` configuration and becomes active automatically once at least one SteamID64 is present.
 
-<InlineVoucher />
+## Activating the Whitelist
 
-### Activation (Config)
+Connect to your server via FTP and locate the file `Users.eco`. Open it and find the `WhiteList` section. Add SteamID64 values inside `$values`.
 
-The activation of the whitelist is done automatically. It becomes active as soon as at least one player has been added to the list. The players must be added to the **Users.eco** config file. 
-
-```
-  "WhiteList": {
-    "System.String": {
-      "$type": "System.Collections.Generic.List`1[[System.String, System.Private.CoreLib]], System.Private.CoreLib",
-      "$values": []
-    }
-```
-
-
-
-The field **$values** contains the SteamIDs of the players that should be added to the whitelist. You can find them by first opening your Steam profile and then right-clicking somewhere in it. There you can copy the Steam URL of the profile. 
-
-
-
-![](https://screensaver01.zap-hosting.com/index.php/s/BoY3ZapTkQfyKKX/preview)
-
-
-Afterwards open one of the following pages and paste the URL of your profile there: 
-
-- https://steamrep.com/
-- https://steamidfinder.com/
-- https://steamid.io/
-
-
-![](https://screensaver01.zap-hosting.com/index.php/s/trfGtL9obL4WRkp/preview)
-
-This will provide you with general information as well as the Steam ID of your account. In this case we only need the SteamID64. The SteamID64 will then be set at **$values**. This will look like this:
-
-```
-  "WhiteList": {
-    "System.String": {
-      "$type": "System.Collections.Generic.List`1[[System.String, System.Private.CoreLib]], System.Private.CoreLib",
-      "$values": [
-            "123456789",
-            "weitereSteamID"      
-      ]
-    }
+```json
+"WhiteList": {
+  "System.String": {
+"$type": "System.Collections.Generic.List`1[[System.String, System.Private.CoreLib]], System.Private.CoreLib",
+"$values": [
+  "76561198000000000"
+]
+  }
+}
 ```
 
+Save the file and restart the server to ensure the new access list is applied.
 
+## Managing Whitelisted Players
 
-### Activation (Chat)
+Adding players can also be done through the Live Console in the ZAP-Hosting gameserver management if you have the required in game permission. Use the whitelist command with the player name.
 
-Alternatively, it is also possible to add more players to the whitelist with in-game administrator permissions. Adding players to the whitelist is done via chat/console with the following command:
-
+```text
+/whitelist PlayerName
 ```
-/whitelist [player]
-```
 
+Removing players is done by editing `Users.eco`. Delete the SteamID64 from `$values`, save, and restart the server since there is no server command to remove entries.
 
+## Verifying Whitelist Functionality
 
-## Manage Whitelist
+After the restart, attempt to connect with an account not included in `$values`. Access should be blocked. Then connect with a whitelisted account.
 
-The management of the whitelist can only be done in the **Users.eco** config file, because there is no server command to remove a player from the whitelist. If you would like to remove a player, then all you have to do is to remove him from the config file. Also a restart of the server is necessary for the change to take effect. 
+If access is still open, confirm that at least one SteamID64 is present and that the `Users.eco` file you edited matches the active server instance.
+
+## Conclusion
+
+If all sections above were followed correctly, your whitelist is now active and you can control exactly who is allowed to join the server. If access still does not work as expected, restart the server once and recheck the file or command output to confirm the change was applied.
 
 <InlineVoucher />
