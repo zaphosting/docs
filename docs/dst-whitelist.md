@@ -1,7 +1,7 @@
 ---
 id: dst-whitelist
 title: "Don't Starve Together: Whitelist"
-description: "Information about how to whitelist your Don't Starve Together server from ZAP-Hosting - ZAP-Hosting.com Documentation
+description: "Information about how to whitelist your Don't Starve Together server from ZAP-Hosting → Learn more now"
 sidebar_label: Whitelist
 services:
   - gameserver-dst

@@ -1,7 +1,7 @@
 ---
 id: eco-whitelist
 title: "ECO: Whitelist"
-description: "Information about how to whitelist your ECO server from ZAP-Hosting - ZAP-Hosting.com Documentation
+description: "Information about how to whitelist your ECO server from ZAP-Hosting→ Learn more now"
 sidebar_label: Whitelist
 services:
   - gameserver
