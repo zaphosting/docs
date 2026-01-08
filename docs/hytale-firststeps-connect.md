@@ -4,7 +4,7 @@ title: "Hytale: Connect to the server"
 description: "Discover how to connect smoothly to your Hytale server and troubleshoot common issues for a seamless gaming experience → Learn more now"
 sidebar_label: Connect to the server
 services:
-  - gameserver-skyrim-together-reborn
+  - gameserver-hytale
 ---
 
 import Tabs from '@theme/Tabs';
