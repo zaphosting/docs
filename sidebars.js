@@ -746,6 +746,7 @@ const sidebars = {
             "7d2d-mods",
             "7d2d-commands",
             "7d2d-rcon",
+            "7d2d-whitelist",
           ]
         },
         {
@@ -944,7 +945,7 @@ const sidebars = {
             "ark-mods",
             "ark-configuration",
             "ark-savegame",
-            "7d2d-rcon",
+            "ark-rcon",
           ]
         },
         {
@@ -1756,6 +1757,7 @@ const sidebars = {
             "dayz-becomeadmin",
             "dayz-mods",
             "dayz-rcon",
+            "dayz-whitelist",
           ]
         },
         {
@@ -1859,7 +1861,8 @@ const sidebars = {
           label: "Configuration",
           key: "gameserver-configuration-don-t-starve-together",
           items: [
-            "dst-create-cave"
+            "dst-create-cave",
+            "dst-whitelist",
           ]
         },
         {
@@ -2025,6 +2028,7 @@ const sidebars = {
             "factorio-becomeadmin",
             "factorio-mods",
             "factorio-rcon",
+            "factorio-whitelist",
           ]
         },
         {
@@ -3289,6 +3293,7 @@ const sidebars = {
           key: "gameserver-configuration-project-zomboid",
           items: [
             "projectzomboid-rcon",
+            "projectzomboid-whitelist",
           ]
         },
         {
@@ -3527,7 +3532,8 @@ const sidebars = {
             "rust-connectrcon",
             "rust-commands",
             "rust-plugins",
-            "rust-decay"
+            "rust-decay",
+            "rust-whitelist",
           ]
         },
         {
@@ -3868,7 +3874,8 @@ const sidebars = {
           key: "gameserver-configuration-space-engineers",
           items: [
             "spaceengineers-becomeadmin",
-            "spaceengineers-addmods"
+            "spaceengineers-addmods",
+            "spaceengineers-whitelist",
           ]
         },
         {
@@ -3939,6 +3946,14 @@ const sidebars = {
           key: "gameserver-first-steps-starmade",
           items: [
             "starmade-firststeps-dashboard",
+          ]
+        },
+        {
+          type: "category",
+          label: "Configuration",
+          key: "gameserver-configuration-starmade",
+          items: [
+            "starmade-whitelist",
           ]
         },
         {
@@ -4131,7 +4146,8 @@ const sidebars = {
           key: "gameserver-configuration-terraria",
           items: [
             "terraria-tshock-add-admin",
-            "terraria-tmodloader-installmod"
+            "terraria-tmodloader-installmod",
+            "terraria-whitelist",
           ]
         },
         {
@@ -4422,6 +4438,14 @@ const sidebars = {
           key: "gameserver-first-steps-vintage-story",
           items: [
             "vintagestory-firststeps-dashboard",
+          ]
+        },
+        {
+          type: "category",
+          label: "Configuration",
+          key: "gameserver-configuration-vintage-story",
+          items: [
+            "vintagestory-whitelist",
           ]
         },
         {
