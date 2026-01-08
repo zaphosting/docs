@@ -1,7 +1,7 @@
 ---
 id: eco-whitelist
 title: "ECO: Whitelist"
-description: "Informatie over hoe je je ECO-server whitelist bij ZAP-Hosting - ZAP-Hosting.com Documentatie"
+description: "Informatie over hoe je jouw ECO-server whitelist bij ZAP-Hosting→ Leer er nu meer over"
 sidebar_label: Whitelist
 services:
   - gameserver
@@ -11,11 +11,11 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introductie
 
-Een whitelist is een toegangs lijst die bepaalt wie er verbinding kan maken met je server. In ECO wordt de whitelist opgeslagen in de `Users.eco` configuratie en wordt automatisch actief zodra er minimaal één SteamID64 is toegevoegd.
+Een whitelist is een toegangs lijst die bepaalt wie er verbinding kan maken met jouw server. In ECO wordt de whitelist opgeslagen in de `Users.eco` configuratie en wordt automatisch actief zodra er minimaal één SteamID64 is toegevoegd.
 
 ## Whitelist activeren
 
-Verbind via FTP met je server en zoek het bestand `Users.eco`. Open het en zoek de sectie `WhiteList`. Voeg hier de SteamID64 waardes toe binnen `$values`.
+Verbind met je server via FTP en zoek het bestand `Users.eco`. Open het en zoek de sectie `WhiteList`. Voeg SteamID64 waardes toe binnen `$values`.
 
 ```json
 "WhiteList": {
@@ -28,11 +28,11 @@ Verbind via FTP met je server en zoek het bestand `Users.eco`. Open het en zoek 
 }
 ```
 
-Sla het bestand op en herstart de server zodat de nieuwe toegangs lijst wordt toegepast.
+Sla het bestand op en herstart de server om ervoor te zorgen dat de nieuwe toegangs lijst wordt toegepast.
 
 ## Whitelisted spelers beheren
 
-Spelers toevoegen kan ook via de Live Console in het ZAP-Hosting gameserver beheer, mits je de benodigde in-game permissie hebt. Gebruik het whitelist-commando met de spelersnaam.
+Spelers toevoegen kan ook via de Live Console in het ZAP-Hosting gameserver beheer, mits je de benodigde in-game permissies hebt. Gebruik het whitelist-commando met de spelersnaam.
 
 ```text
 /whitelist PlayerName
@@ -48,6 +48,6 @@ Als toegang nog steeds open is, check dan of er minimaal één SteamID64 aanwezi
 
 ## Conclusie
 
-Als je alle stappen hierboven hebt gevolgd, is je whitelist nu actief en bepaal jij precies wie er op de server mag joinen. Werkt de toegang nog niet zoals verwacht? Herstart de server dan nogmaals en controleer het bestand of de command output om zeker te weten dat de wijziging is doorgevoerd.
+Als je alle stappen hierboven goed hebt gevolgd, is je whitelist nu actief en bepaal jij precies wie er op de server mag joinen. Werkt de toegang nog niet zoals verwacht? Herstart de server dan nogmaals en controleer het bestand of de command output om zeker te zijn dat de wijziging is doorgevoerd.
 
 <InlineVoucher />

@@ -1,7 +1,7 @@
 ---
 id: eco-whitelist
 title: "ECO: Whitelist"
-description: "Info su come mettere in whitelist il tuo server ECO da ZAP-Hosting - Documentazione ZAP-Hosting.com"
+description: "Info su come mettere in whitelist il tuo server ECO su ZAP-Hosting→ Scopri di più ora"
 sidebar_label: Whitelist
 services:
   - gameserver
@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introduzione
 
-La whitelist è una lista di accesso che limita chi può connettersi al tuo server. In ECO la whitelist è salvata nella configurazione `Users.eco` e si attiva automaticamente non appena è presente almeno un SteamID64.
+La whitelist è una lista di accesso che limita chi può connettersi al tuo server. In ECO la whitelist è salvata nella configurazione `Users.eco` e si attiva automaticamente appena c’è almeno un SteamID64 presente.
 
 ## Attivare la Whitelist
 
@@ -32,19 +32,19 @@ Salva il file e riavvia il server per applicare la nuova lista di accesso.
 
 ## Gestire i Giocatori in Whitelist
 
-Puoi aggiungere giocatori anche tramite la Live Console nella gestione del gameserver ZAP-Hosting, se hai il permesso in-game necessario. Usa il comando whitelist con il nome del giocatore.
+Puoi aggiungere giocatori anche tramite la Live Console nella gestione del gameserver ZAP-Hosting, se hai il permesso in game necessario. Usa il comando whitelist con il nome del giocatore.
 
 ```text
 /whitelist PlayerName
 ```
 
-Per rimuovere giocatori devi modificare `Users.eco`. Cancella lo SteamID64 da `$values`, salva e riavvia il server, perché non esiste un comando server per rimuovere voci.
+Per rimuovere giocatori devi modificare `Users.eco`. Cancella lo SteamID64 da `$values`, salva e riavvia il server perché non esiste un comando in game per rimuovere voci.
 
-## Verificare il Funzionamento della Whitelist
+## Verificare che la Whitelist Funzioni
 
 Dopo il riavvio, prova a connetterti con un account non presente in `$values`. L’accesso dovrebbe essere bloccato. Poi prova con un account in whitelist.
 
-Se l’accesso è ancora aperto, verifica che ci sia almeno un SteamID64 e che il file `Users.eco` modificato corrisponda all’istanza server attiva.
+Se l’accesso è ancora aperto, controlla che ci sia almeno un SteamID64 e che il file `Users.eco` modificato sia quello attivo sul server.
 
 ## Conclusione
 

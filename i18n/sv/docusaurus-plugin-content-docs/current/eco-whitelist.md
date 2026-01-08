@@ -1,7 +1,7 @@
 ---
 id: eco-whitelist
 title: "ECO: Whitelist"
-description: "Information about how to whitelist your ECO server from ZAP-Hosting - ZAP-Hosting.com Documentation
+description: "Info om hur du whitelistar din ECO-server från ZAP-Hosting→ Lär dig mer nu"
 sidebar_label: Whitelist
 services:
   - gameserver
@@ -28,7 +28,7 @@ Anslut till din server via FTP och hitta filen `Users.eco`. Öppna den och leta 
 }
 ```
 
-Spara filen och starta om servern för att säkerställa att den nya accesslistan träder i kraft.
+Spara filen och starta om servern för att den nya accesslistan ska börja gälla.
 
 ## Hantera Whitelistade Spelare
 
@@ -44,10 +44,10 @@ För att ta bort spelare måste du redigera `Users.eco`. Ta bort SteamID64 från
 
 Efter omstart, försök ansluta med ett konto som inte finns i `$values`. Access ska nekas. Testa sedan att ansluta med ett konto som finns på whitelist.
 
-Om access fortfarande är öppen, kontrollera att minst en SteamID64 finns och att den `Users.eco`-fil du redigerade är samma som den aktiva serverinstansen.
+Om access fortfarande är öppen, dubbelkolla att minst en SteamID64 finns och att `Users.eco`-filen du redigerade är den som används av den aktiva serverinstansen.
 
 ## Sammanfattning
 
-Om du följt alla steg ovan korrekt är din whitelist nu aktiv och du kan styra exakt vilka som får gå med på servern. Om access fortfarande inte fungerar som förväntat, starta om servern en gång till och dubbelkolla filen eller kommandoutdata för att bekräfta att ändringen har tillämpats.
+Om du följt alla steg ovan korrekt är din whitelist nu aktiv och du kan styra exakt vilka som får gå med på servern. Om access fortfarande inte funkar som den ska, starta om servern en gång till och dubbelkolla filen eller kommandoutdata för att bekräfta att ändringen har trätt i kraft.
 
 <InlineVoucher />
