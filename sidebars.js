@@ -671,6 +671,38 @@ const sidebars = {
       ],
     },
     {
+      type: "category",
+      label: "Hytale",
+      key: "gameserver-hytale-popular",
+      items: [
+        {
+          type: "category",
+          label: "First Steps",
+          key: "gameserver-first-steps-hytale-popular",
+          items: [
+            'hytale-firststeps-dashboard',
+            'hytale-firststeps-connect',
+          ]
+        },
+        {
+          type: "category",
+          label: "Configuration",
+          key: "gameserver-configuration-hytale-popular",
+          items: [
+            'hytale-mods',
+          ]
+        },
+        {
+          type: "category",
+          label: "Troubleshooting",
+          key: "gameserver-troubleshooting-hytale-popular",
+          items: [
+            "hytale-troubleshooting-common-issues",
+          ]
+        },          
+      ],
+    },
+    {
       type: 'html',
       className: 'sidebar-title',
       value: (() => {
@@ -2332,6 +2364,38 @@ const sidebars = {
             "hurtworld-troubleshooting-common-issues",
           ]
         },
+      ],
+    },
+    {
+      type: "category",
+      label: "Hytale",
+      key: "gameserver-hytale",
+      items: [
+        {
+          type: "category",
+          label: "First Steps",
+          key: "gameserver-first-steps-hytale",
+          items: [
+            'hytale-firststeps-dashboard',
+            'hytale-firststeps-connect',
+          ]
+        },
+        {
+          type: "category",
+          label: "Configuration",
+          key: "gameserver-configuration-hytale",
+          items: [
+            'hytale-mods',
+          ]
+        },
+        {
+          type: "category",
+          label: "Troubleshooting",
+          key: "gameserver-troubleshooting-hytale",
+          items: [
+            "hytale-troubleshooting-common-issues",
+          ]
+        },          
       ],
     },
     {

@@ -790,6 +790,18 @@ const servicesMap: serviceMap = {
             description: 'URL path for the gameserver product',
         }),
     },
+    'gameserver-hytale': {
+        title: translate({
+            message: 'Hytale Gameserver',
+            id: 'service.gameserver-hytale.title',
+            description: 'Product name for the gameserver product',
+        }),
+        url: translate({
+            message: '{marketingSite}/{language}/hytale-server-hosting/',
+            id: 'service.gameserver-hytale.path',
+            description: 'URL path for the gameserver product',
+        }),
+    },
     'gameserver-icarus': {
         title: translate({
             message: 'Icarus Gameserver',
