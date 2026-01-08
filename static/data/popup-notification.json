@@ -1,0 +1,24 @@
+[
+  {
+    "id": "hytale-preorder",
+    "label": "Hytale Pre-Order Promotion",
+    "enabled": true,
+    "documentIds": [
+      "hytale-firststeps-dashboard",
+      "hytale-firststeps-connect",
+      "hytale-mods",
+      "hytale-troubleshooting-common-issues"
+    ],
+    "dateRange": {
+      "start": "2026-01-01T00:00:00+01:00",
+      "end": "2026-01-13T06:00:00+01:00"
+    },
+    "title": "Hytale x ZAP-Hosting is coming soon!",
+    "imageUrl": "https://screensaver01.zap-hosting.com/index.php/s/fX4yXoAdjyQ9Ec6/preview",
+    "description": "The world of Hytale awaits. Prepare your server early and save 50% with the pre-order code <code>HYTALE50</code>",
+    "buttonLabel": "Pre-order your server here!",
+    "buttonLink": "https://zap-hosting.com/en/shop/product/cloud-gameserver/hytale/?voucher=HYTALE50",
+    "showExternalLinkIcon": true
+  }
+]
+
