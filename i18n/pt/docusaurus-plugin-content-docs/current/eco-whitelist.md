@@ -1,7 +1,7 @@
 ---
 id: eco-whitelist
-title: "ECO: Ativar Whitelist"
-description: "Descubra como proteger seu servidor gerenciando o acesso dos jogadores com o recurso de whitelist do ECO → Saiba mais agora"
+title: "ECO: Whitelist"
+description: "Informações sobre como colocar seu servidor ECO na whitelist na ZAP-Hosting - Documentação ZAP-Hosting.com"
 sidebar_label: Whitelist
 services:
   - gameserver
@@ -9,61 +9,45 @@ services:
 
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
-
-
 ## Introdução
 
-A whitelist do ECO permite que você proteja seu servidor permitindo que apenas jogadores selecionados na lista se conectem ao servidor.
+Uma whitelist é uma lista de acesso que limita quem pode se conectar ao seu servidor. No ECO, a whitelist fica armazenada na configuração `Users.eco` e fica ativa automaticamente assim que pelo menos um SteamID64 estiver presente.
 
-<InlineVoucher />
+## Ativando a Whitelist
 
-### Ativação (Config)
+Conecte-se ao seu servidor via FTP e localize o arquivo `Users.eco`. Abra-o e encontre a seção `WhiteList`. Adicione os valores SteamID64 dentro de `$values`.
 
-A ativação da whitelist é feita automaticamente. Ela fica ativa assim que pelo menos um jogador for adicionado à lista. Os jogadores devem ser adicionados no arquivo de configuração **Users.eco**.
-
-```
-  "WhiteList": {
-    "System.String": {
-      "$type": "System.Collections.Generic.List`1[[System.String, System.Private.CoreLib]], System.Private.CoreLib",
-      "$values": []
-    }
-```
-
-O campo **$values** contém os SteamIDs dos jogadores que devem ser adicionados à whitelist. Você pode encontrá-los abrindo seu perfil Steam e clicando com o botão direito em algum lugar do perfil. Lá você pode copiar a URL do perfil Steam.
-
-![](https://screensaver01.zap-hosting.com/index.php/s/BoY3ZapTkQfyKKX/preview)
-
-Depois, abra uma das seguintes páginas e cole a URL do seu perfil lá:
-
-- https://steamrep.com/
-- https://steamidfinder.com/
-- https://steamid.io/
-
-![](https://screensaver01.zap-hosting.com/index.php/s/trfGtL9obL4WRkp/preview)
-
-Isso vai te fornecer informações gerais, assim como o Steam ID da sua conta. Nesse caso, só precisamos do SteamID64. O SteamID64 será então inserido em **$values**. Vai ficar assim:
-
-```
-  "WhiteList": {
-    "System.String": {
-      "$type": "System.Collections.Generic.List`1[[System.String, System.Private.CoreLib]], System.Private.CoreLib",
-      "$values": [
-            "123456789",
-            "outraSteamID"      
-      ]
-    }
+```json
+"WhiteList": {
+  "System.String": {
+"$type": "System.Collections.Generic.List`1[[System.String, System.Private.CoreLib]], System.Private.CoreLib",
+"$values": [
+  "76561198000000000"
+]
+  }
+}
 ```
 
-### Ativação (Chat)
+Salve o arquivo e reinicie o servidor para garantir que a nova lista de acesso seja aplicada.
 
-Alternativamente, também é possível adicionar mais jogadores à whitelist com permissões de administrador dentro do jogo. Adicionar jogadores à whitelist é feito via chat/console com o seguinte comando:
+## Gerenciando Jogadores na Whitelist
 
+Adicionar jogadores também pode ser feito pelo Console ao Vivo no gerenciamento do servidor de jogos da ZAP-Hosting, se você tiver a permissão necessária no jogo. Use o comando whitelist com o nome do jogador.
+
+```text
+/whitelist PlayerName
 ```
-/whitelist [player]
-```
 
-## Gerenciar Whitelist
+Remover jogadores é feito editando o `Users.eco`. Apague o SteamID64 de `$values`, salve e reinicie o servidor, já que não existe comando no servidor para remover entradas.
 
-A gestão da whitelist só pode ser feita no arquivo de configuração **Users.eco**, pois não existe comando no servidor para remover um jogador da whitelist. Se quiser remover um jogador, basta removê-lo do arquivo de configuração. Também é necessário reiniciar o servidor para que a alteração tenha efeito.
+## Verificando o Funcionamento da Whitelist
+
+Após o restart, tente conectar com uma conta que não esteja incluída em `$values`. O acesso deve ser bloqueado. Depois conecte com uma conta que esteja na whitelist.
+
+Se o acesso ainda estiver liberado, confirme que pelo menos um SteamID64 está presente e que o arquivo `Users.eco` que você editou é o mesmo da instância ativa do servidor.
+
+## Conclusão
+
+Se todos os passos acima foram seguidos corretamente, sua whitelist está ativa e você pode controlar exatamente quem pode entrar no servidor. Se o acesso ainda não funcionar como esperado, reinicie o servidor mais uma vez e verifique o arquivo ou a saída do comando para confirmar que a alteração foi aplicada.
 
 <InlineVoucher />

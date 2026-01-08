@@ -1,7 +1,7 @@
 ---
 id: eco-whitelist
-title: "ECO: Whitelist activeren"
-description: "Ontdek hoe je jouw server beveiligt door spelers toegang te geven via de whitelist-functie van ECO → Leer het nu"
+title: "ECO: Whitelist"
+description: "Informatie over hoe je je ECO-server whitelist bij ZAP-Hosting - ZAP-Hosting.com Documentatie"
 sidebar_label: Whitelist
 services:
   - gameserver
@@ -9,71 +9,45 @@ services:
 
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
-
-
 ## Introductie
 
-Met de whitelist van ECO bescherm je jouw server door alleen geselecteerde spelers toe te staan verbinding te maken.
+Een whitelist is een toegangs lijst die bepaalt wie er verbinding kan maken met je server. In ECO wordt de whitelist opgeslagen in de `Users.eco` configuratie en wordt automatisch actief zodra er minimaal één SteamID64 is toegevoegd.
 
-<InlineVoucher />
+## Whitelist activeren
 
-### Activeren (Config)
+Verbind via FTP met je server en zoek het bestand `Users.eco`. Open het en zoek de sectie `WhiteList`. Voeg hier de SteamID64 waardes toe binnen `$values`.
 
-De whitelist wordt automatisch geactiveerd zodra er minimaal één speler aan de lijst is toegevoegd. Spelers moeten worden toegevoegd in het **Users.eco** configbestand.
-
-```
-  "WhiteList": {
-    "System.String": {
-      "$type": "System.Collections.Generic.List`1[[System.String, System.Private.CoreLib]], System.Private.CoreLib",
-      "$values": []
-    }
-```
-
-
-
-Het veld **$values** bevat de SteamIDs van de spelers die op de whitelist moeten komen. Je vindt deze door eerst je Steam-profiel te openen en ergens met de rechtermuisknop te klikken. Zo kopieer je de Steam URL van je profiel.
-
-
-
-![](https://screensaver01.zap-hosting.com/index.php/s/BoY3ZapTkQfyKKX/preview)
-
-
-Vervolgens open je één van de volgende sites en plak je daar de URL van je profiel:
-
-- https://steamrep.com/
-- https://steamidfinder.com/
-- https://steamid.io/
-
-
-![](https://screensaver01.zap-hosting.com/index.php/s/trfGtL9obL4WRkp/preview)
-
-Je krijgt dan algemene info plus de Steam ID van je account. We hebben hier alleen de SteamID64 nodig. Die zet je vervolgens in **$values**. Dat ziet er zo uit:
-
-```
-  "WhiteList": {
-    "System.String": {
-      "$type": "System.Collections.Generic.List`1[[System.String, System.Private.CoreLib]], System.Private.CoreLib",
-      "$values": [
-            "123456789",
-            "andereSteamID"      
-      ]
-    }
+```json
+"WhiteList": {
+  "System.String": {
+"$type": "System.Collections.Generic.List`1[[System.String, System.Private.CoreLib]], System.Private.CoreLib",
+"$values": [
+  "76561198000000000"
+]
+  }
+}
 ```
 
+Sla het bestand op en herstart de server zodat de nieuwe toegangs lijst wordt toegepast.
 
+## Whitelisted spelers beheren
 
-### Activeren (Chat)
+Spelers toevoegen kan ook via de Live Console in het ZAP-Hosting gameserver beheer, mits je de benodigde in-game permissie hebt. Gebruik het whitelist-commando met de spelersnaam.
 
-Je kunt ook spelers aan de whitelist toevoegen via de in-game chat of console, mits je adminrechten hebt. Gebruik hiervoor het volgende commando:
-
+```text
+/whitelist PlayerName
 ```
-/whitelist [speler]
-```
 
+Spelers verwijderen doe je door `Users.eco` te bewerken. Verwijder de SteamID64 uit `$values`, sla op en herstart de server, want er is geen servercommando om entries te verwijderen.
 
+## Controleren of de whitelist werkt
 
-## Whitelist beheren
+Probeer na de herstart in te loggen met een account dat niet in `$values` staat. Toegang moet geweigerd worden. Log daarna in met een whitelisted account.
 
-De whitelist beheer je alleen via het **Users.eco** configbestand, want er is geen servercommando om een speler van de whitelist te verwijderen. Wil je iemand verwijderen? Verwijder die speler dan uit het configbestand. Vergeet niet de server te herstarten zodat de wijziging actief wordt.
+Als toegang nog steeds open is, check dan of er minimaal één SteamID64 aanwezig is en of het `Users.eco` bestand dat je hebt aangepast overeenkomt met de actieve server instance.
+
+## Conclusie
+
+Als je alle stappen hierboven hebt gevolgd, is je whitelist nu actief en bepaal jij precies wie er op de server mag joinen. Werkt de toegang nog niet zoals verwacht? Herstart de server dan nogmaals en controleer het bestand of de command output om zeker te weten dat de wijziging is doorgevoerd.
 
 <InlineVoucher />

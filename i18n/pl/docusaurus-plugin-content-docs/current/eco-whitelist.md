@@ -1,7 +1,7 @@
 ---
 id: eco-whitelist
-title: "ECO: Aktywacja Whitelist"
-description: "Dowiedz się, jak zabezpieczyć swój serwer, zarządzając dostępem graczy za pomocą funkcji whitelist w ECO → Sprawdź teraz"
+title: "ECO: Whitelist"
+description: "Informacje o tym, jak dodać serwer ECO do whitelisty na ZAP-Hosting - Dokumentacja ZAP-Hosting.com"
 sidebar_label: Whitelist
 services:
   - gameserver
@@ -9,71 +9,45 @@ services:
 
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
-
-
 ## Wprowadzenie
 
-Whitelist w ECO pozwala zabezpieczyć serwer, dopuszczając do niego tylko wybranych graczy znajdujących się na liście.
+Whitelist to lista dostępu, która ogranicza, kto może połączyć się z Twoim serwerem. W ECO whitelist jest zapisana w pliku konfiguracyjnym `Users.eco` i aktywuje się automatycznie, gdy znajdzie się tam przynajmniej jeden SteamID64.
 
-<InlineVoucher />
+## Aktywacja Whitelisty
 
-### Aktywacja (Konfiguracja)
+Połącz się z serwerem przez FTP i znajdź plik `Users.eco`. Otwórz go i znajdź sekcję `WhiteList`. Dodaj wartości SteamID64 wewnątrz `$values`.
 
-Aktywacja whitelist odbywa się automatycznie. Staje się aktywna, gdy na liście znajdzie się przynajmniej jeden gracz. Gracze muszą zostać dodani do pliku konfiguracyjnego **Users.eco**.
-
-```
-  "WhiteList": {
-    "System.String": {
-      "$type": "System.Collections.Generic.List`1[[System.String, System.Private.CoreLib]], System.Private.CoreLib",
-      "$values": []
-    }
-```
-
-
-
-Pole **$values** zawiera SteamID graczy, którzy mają zostać dodani do whitelisty. Znajdziesz je, otwierając najpierw swój profil Steam, a następnie klikając prawym przyciskiem myszy gdziekolwiek w profilu. Możesz tam skopiować URL profilu Steam.
-
-
-
-![](https://screensaver01.zap-hosting.com/index.php/s/BoY3ZapTkQfyKKX/preview)
-
-
-Następnie otwórz jedną z poniższych stron i wklej tam URL swojego profilu:
-
-- https://steamrep.com/
-- https://steamidfinder.com/
-- https://steamid.io/
-
-
-![](https://screensaver01.zap-hosting.com/index.php/s/trfGtL9obL4WRkp/preview)
-
-Strony te pokażą Ci ogólne informacje oraz Steam ID Twojego konta. Potrzebujemy tylko SteamID64. SteamID64 wpisujesz w pole **$values**. Wygląda to tak:
-
-```
-  "WhiteList": {
-    "System.String": {
-      "$type": "System.Collections.Generic.List`1[[System.String, System.Private.CoreLib]], System.Private.CoreLib",
-      "$values": [
-            "123456789",
-            "kolejneSteamID"      
-      ]
-    }
+```json
+"WhiteList": {
+  "System.String": {
+"$type": "System.Collections.Generic.List`1[[System.String, System.Private.CoreLib]], System.Private.CoreLib",
+"$values": [
+  "76561198000000000"
+]
+  }
+}
 ```
 
+Zapisz plik i zrestartuj serwer, aby nowa lista dostępu została zastosowana.
 
+## Zarządzanie Graczami na Whitelist
 
-### Aktywacja (Chat)
+Dodawanie graczy możesz też zrobić przez Live Console w panelu zarządzania serwerem gier ZAP-Hosting, jeśli masz odpowiednie uprawnienia w grze. Użyj komendy whitelist z nazwą gracza.
 
-Alternatywnie możesz dodać graczy do whitelisty z uprawnieniami administratora w grze. Dodawanie graczy do whitelisty odbywa się przez chat/konsolę za pomocą komendy:
-
+```text
+/whitelist PlayerName
 ```
-/whitelist [gracz]
-```
 
+Usuwanie graczy odbywa się przez edycję pliku `Users.eco`. Usuń SteamID64 z `$values`, zapisz plik i zrestartuj serwer, ponieważ nie ma komendy serwerowej do usuwania wpisów.
 
+## Sprawdzanie Działania Whitelisty
 
-## Zarządzanie Whitelistą
+Po restarcie spróbuj połączyć się kontem, które nie jest na liście `$values`. Dostęp powinien być zablokowany. Następnie połącz się kontem z whitelisty.
 
-Zarządzanie whitelistą możliwe jest tylko w pliku konfiguracyjnym **Users.eco**, ponieważ nie ma komendy serwerowej do usunięcia gracza z whitelisty. Jeśli chcesz usunąć gracza, wystarczy, że usuniesz go z pliku konfiguracyjnego. Po zmianie konieczny jest restart serwera, aby zmiany weszły w życie.
+Jeśli dostęp nadal jest otwarty, upewnij się, że w pliku jest przynajmniej jeden SteamID64 i że edytowany plik `Users.eco` jest tym, który jest aktywny na serwerze.
+
+## Podsumowanie
+
+Jeśli wszystkie powyższe kroki zostały wykonane poprawnie, whitelist jest aktywna i możesz kontrolować, kto dokładnie może dołączyć do serwera. Jeśli dostęp nadal nie działa jak należy, zrestartuj serwer jeszcze raz i sprawdź plik lub wynik komendy, by potwierdzić, że zmiany zostały zastosowane.
 
 <InlineVoucher />

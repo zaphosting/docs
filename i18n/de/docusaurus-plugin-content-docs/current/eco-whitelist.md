@@ -1,7 +1,7 @@
 ---
 id: eco-whitelist
-title: "ECO: Whitelist aktivieren"
-description: "Entdecke, wie du deinen Gameserver mit der Whitelist-Funktion von ECO absicherst und den Spielerzugang kontrollierst → Jetzt mehr erfahren"
+title: "ECO: Whitelist"
+description: "Informationen dazu, wie du deinen ECO Gameserver bei ZAP-Hosting auf die Whitelist setzt - ZAP-Hosting.com Dokumentation"
 sidebar_label: Whitelist
 services:
   - gameserver
@@ -9,71 +9,45 @@ services:
 
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
-
-
 ## Einführung
 
-Die Whitelist von ECO ermöglicht es dir, deinen Gameserver zu schützen, indem nur ausgewählte Spieler auf der Liste eine Verbindung zum Server herstellen dürfen.
+Eine Whitelist ist eine Zugangsliste, die einschränkt, wer sich mit deinem Server verbinden kann. In ECO wird die Whitelist in der `Users.eco` Konfiguration gespeichert und wird automatisch aktiv, sobald mindestens eine SteamID64 eingetragen ist.
 
-<InlineVoucher />
+## Whitelist aktivieren
 
-### Aktivierung (Config)
+Verbinde dich per FTP mit deinem Server und suche die Datei `Users.eco`. Öffne sie und finde den Abschnitt `WhiteList`. Füge dort die SteamID64 Werte innerhalb von `$values` hinzu.
 
-Die Whitelist wird automatisch aktiviert. Sie wird aktiv, sobald mindestens ein Spieler zur Liste hinzugefügt wurde. Die Spieler müssen in der **Users.eco** Konfigurationsdatei eingetragen werden. 
-
-```
-  "WhiteList": {
-    "System.String": {
-      "$type": "System.Collections.Generic.List`1[[System.String, System.Private.CoreLib]], System.Private.CoreLib",
-      "$values": []
-    }
-```
-
-
-
-Das Feld **$values** enthält die SteamIDs der Spieler, die auf die Whitelist gesetzt werden sollen. Du findest diese, indem du zuerst dein Steam-Profil öffnest und dann irgendwo mit der rechten Maustaste klickst. Dort kannst du die Steam-URL deines Profils kopieren. 
-
-
-
-![](https://screensaver01.zap-hosting.com/index.php/s/BoY3ZapTkQfyKKX/preview)
-
-
-Anschließend öffnest du eine der folgenden Seiten und fügst die URL deines Profils dort ein: 
-
-- https://steamrep.com/
-- https://steamidfinder.com/
-- https://steamid.io/
-
-
-![](https://screensaver01.zap-hosting.com/index.php/s/trfGtL9obL4WRkp/preview)
-
-Dort erhältst du allgemeine Infos sowie die Steam ID deines Accounts. Für die Whitelist brauchst du nur die SteamID64. Diese wird dann im Feld **$values** eingetragen. Das sieht dann so aus:
-
-```
-  "WhiteList": {
-    "System.String": {
-      "$type": "System.Collections.Generic.List`1[[System.String, System.Private.CoreLib]], System.Private.CoreLib",
-      "$values": [
-            "123456789",
-            "weitereSteamID"      
-      ]
-    }
+```json
+"WhiteList": {
+  "System.String": {
+"$type": "System.Collections.Generic.List`1[[System.String, System.Private.CoreLib]], System.Private.CoreLib",
+"$values": [
+  "76561198000000000"
+]
+  }
+}
 ```
 
+Speichere die Datei und starte den Server neu, damit die neue Zugangsliste angewendet wird.
 
+## Whitelist-Spieler verwalten
 
-### Aktivierung (Chat)
+Spieler hinzufügen kannst du auch über die Live-Konsole im ZAP-Hosting Gameserver-Management, wenn du die nötigen Ingame-Rechte hast. Nutze den Whitelist-Befehl mit dem Spielernamen.
 
-Alternativ kannst du auch weitere Spieler mit Administratorrechten im Spiel zur Whitelist hinzufügen. Das Hinzufügen erfolgt über den Chat bzw. die Konsole mit folgendem Befehl:
-
+```text
+/whitelist PlayerName
 ```
-/whitelist [Spieler]
-```
 
+Spieler entfernen geht nur über das Bearbeiten der `Users.eco`. Lösche die SteamID64 aus `$values`, speichere und starte den Server neu, da es keinen Server-Befehl zum Entfernen von Einträgen gibt.
 
+## Whitelist-Funktion überprüfen
 
-## Whitelist verwalten
+Nach dem Neustart versuche dich mit einem Account zu verbinden, der nicht in `$values` steht. Der Zugang sollte blockiert sein. Verbinde dich danach mit einem whitelisted Account.
 
-Die Verwaltung der Whitelist ist nur über die **Users.eco** Konfigurationsdatei möglich, da es keinen Serverbefehl gibt, um einen Spieler von der Whitelist zu entfernen. Möchtest du einen Spieler entfernen, lösche ihn einfach aus der Config-Datei. Ein Neustart des Servers ist erforderlich, damit die Änderung wirksam wird. 
+Wenn der Zugang noch offen ist, überprüfe, ob mindestens eine SteamID64 eingetragen ist und ob die bearbeitete `Users.eco` Datei zur aktiven Server-Instanz gehört.
+
+## Fazit
+
+Wenn du alle Schritte oben korrekt befolgt hast, ist deine Whitelist jetzt aktiv und du kannst genau steuern, wer auf den Server darf. Falls der Zugang trotzdem nicht wie erwartet funktioniert, starte den Server nochmal neu und überprüfe die Datei oder die Konsolenausgabe, um sicherzugehen, dass die Änderung übernommen wurde.
 
 <InlineVoucher />

@@ -1,7 +1,7 @@
 ---
 id: eco-whitelist
-title: "ECO: Aktivera Whitelist"
-description: "Lär dig hur du skyddar din server genom att hantera spelartillgång med ECO:s whitelist-funktion → Läs mer nu"
+title: "ECO: Whitelist"
+description: "Information about how to whitelist your ECO server from ZAP-Hosting - ZAP-Hosting.com Documentation
 sidebar_label: Whitelist
 services:
   - gameserver
@@ -9,71 +9,45 @@ services:
 
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
-
-
 ## Introduktion
 
-ECO:s whitelist låter dig skydda din server genom att endast tillåta utvalda spelare på listan att ansluta till servern.
+En whitelist är en accesslista som begränsar vem som kan ansluta till din server. I ECO sparas whitelist i konfigurationsfilen `Users.eco` och aktiveras automatiskt så fort minst en SteamID64 finns med.
 
-<InlineVoucher />
+## Aktivera Whitelist
 
-### Aktivering (Konfiguration)
+Anslut till din server via FTP och hitta filen `Users.eco`. Öppna den och leta upp sektionen `WhiteList`. Lägg till SteamID64-värden inuti `$values`.
 
-Aktiveringen av whitelist sker automatiskt. Den blir aktiv så fort minst en spelare har lagts till på listan. Spelarna måste läggas till i **Users.eco** konfigurationsfilen. 
-
-```
-  "WhiteList": {
-    "System.String": {
-      "$type": "System.Collections.Generic.List`1[[System.String, System.Private.CoreLib]], System.Private.CoreLib",
-      "$values": []
-    }
-```
-
-
-
-Fältet **$values** innehåller SteamID:n för de spelare som ska läggas till på whitelist. Du hittar dem genom att först öppna din Steam-profil och sedan högerklicka någonstans i den. Där kan du kopiera Steam-URL:en för profilen. 
-
-
-
-![](https://screensaver01.zap-hosting.com/index.php/s/BoY3ZapTkQfyKKX/preview)
-
-
-Öppna sedan någon av följande sidor och klistra in URL:en till din profil där: 
-
-- https://steamrep.com/
-- https://steamidfinder.com/
-- https://steamid.io/
-
-
-![](https://screensaver01.zap-hosting.com/index.php/s/trfGtL9obL4WRkp/preview)
-
-Detta ger dig allmän information samt Steam ID för ditt konto. Här behöver vi bara SteamID64. SteamID64 ska sedan sättas in i **$values**. Det kommer se ut så här:
-
-```
-  "WhiteList": {
-    "System.String": {
-      "$type": "System.Collections.Generic.List`1[[System.String, System.Private.CoreLib]], System.Private.CoreLib",
-      "$values": [
-            "123456789",
-            "ytterligareSteamID"      
-      ]
-    }
+```json
+"WhiteList": {
+  "System.String": {
+"$type": "System.Collections.Generic.List`1[[System.String, System.Private.CoreLib]], System.Private.CoreLib",
+"$values": [
+  "76561198000000000"
+]
+  }
+}
 ```
 
+Spara filen och starta om servern för att säkerställa att den nya accesslistan träder i kraft.
 
+## Hantera Whitelistade Spelare
 
-### Aktivering (Chat)
+Du kan också lägga till spelare via Live Console i ZAP-Hostings gameserverhantering om du har rätt behörighet i spelet. Använd whitelist-kommandot med spelarens namn.
 
-Alternativt går det också att lägga till fler spelare i whitelist med administratörsrättigheter i spelet. Att lägga till spelare i whitelist görs via chatten/konsolen med följande kommando:
-
+```text
+/whitelist PlayerName
 ```
-/whitelist [spelare]
-```
 
+För att ta bort spelare måste du redigera `Users.eco`. Ta bort SteamID64 från `$values`, spara och starta om servern eftersom det inte finns något serverkommando för att ta bort poster.
 
+## Kontrollera att Whitelist Fungerar
 
-## Hantera Whitelist
+Efter omstart, försök ansluta med ett konto som inte finns i `$values`. Access ska nekas. Testa sedan att ansluta med ett konto som finns på whitelist.
 
-Hantera whitelist kan endast göras i **Users.eco** konfigurationsfilen, eftersom det inte finns något serverkommando för att ta bort en spelare från whitelist. Vill du ta bort en spelare behöver du helt enkelt ta bort hen från konfigurationsfilen. En omstart av servern krävs också för att ändringen ska träda i kraft. 
+Om access fortfarande är öppen, kontrollera att minst en SteamID64 finns och att den `Users.eco`-fil du redigerade är samma som den aktiva serverinstansen.
+
+## Sammanfattning
+
+Om du följt alla steg ovan korrekt är din whitelist nu aktiv och du kan styra exakt vilka som får gå med på servern. Om access fortfarande inte fungerar som förväntat, starta om servern en gång till och dubbelkolla filen eller kommandoutdata för att bekräfta att ändringen har tillämpats.
 
 <InlineVoucher />

@@ -1,7 +1,7 @@
 ---
 id: eco-whitelist
-title: "ECO: ホワイトリストを有効化する"
-description: "ECOのホワイトリスト機能でプレイヤーのアクセスを管理し、サーバーを安全に守る方法をチェック → 今すぐ詳しく見る"
+title: "ECO: ホワイトリスト"
+description: "ZAP-HostingのECOサーバーでホワイトリストを設定する方法 - ZAP-Hosting.com ドキュメント"
 sidebar_label: ホワイトリスト
 services:
   - gameserver
@@ -9,71 +9,45 @@ services:
 
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
-
-
 ## はじめに
 
-ECOのホワイトリスト機能を使えば、リストに登録された選ばれたプレイヤーだけがサーバーに接続できるようにして、サーバーを守れます。
+ホワイトリストは、サーバーに接続できるユーザーを制限するアクセスリストです。ECOではホワイトリストは `Users.eco` 設定ファイルに保存され、少なくとも1つのSteamID64が存在すると自動的に有効になります。
 
-<InlineVoucher />
+## ホワイトリストの有効化
 
-### 有効化（設定）
+FTPでサーバーに接続し、`Users.eco` ファイルを見つけて開きます。`WhiteList` セクションを探し、`$values` 内にSteamID64を追加してください。
 
-ホワイトリストの有効化は自動で行われます。リストに少なくとも1人のプレイヤーが追加されると有効になります。プレイヤーは**Users.eco**の設定ファイルに追加する必要があります。 
-
-```
-  "WhiteList": {
-    "System.String": {
-      "$type": "System.Collections.Generic.List`1[[System.String, System.Private.CoreLib]], System.Private.CoreLib",
-      "$values": []
-    }
-```
-
-
-
-**$values** フィールドにはホワイトリストに追加したいプレイヤーのSteamIDを入れます。Steamプロフィールを開いて、どこかで右クリックすると、プロフィールのSteam URLをコピーできます。 
-
-
-
-![](https://screensaver01.zap-hosting.com/index.php/s/BoY3ZapTkQfyKKX/preview)
-
-
-その後、以下のいずれかのサイトを開いて、コピーしたプロフィールのURLを貼り付けてください。 
-
-- https://steamrep.com/
-- https://steamidfinder.com/
-- https://steamid.io/
-
-
-![](https://screensaver01.zap-hosting.com/index.php/s/trfGtL9obL4WRkp/preview)
-
-これでアカウントの一般情報とSteam IDが表示されます。ここで必要なのはSteamID64だけです。SteamID64を**$values**にセットします。例はこんな感じです：
-
-```
-  "WhiteList": {
-    "System.String": {
-      "$type": "System.Collections.Generic.List`1[[System.String, System.Private.CoreLib]], System.Private.CoreLib",
-      "$values": [
-            "123456789",
-            "weitereSteamID"      
-      ]
-    }
+```json
+"WhiteList": {
+  "System.String": {
+"$type": "System.Collections.Generic.List`1[[System.String, System.Private.CoreLib]], System.Private.CoreLib",
+"$values": [
+  "76561198000000000"
+]
+  }
+}
 ```
 
+ファイルを保存し、サーバーを再起動して新しいアクセスリストを適用します。
 
+## ホワイトリストプレイヤーの管理
 
-### 有効化（チャット）
+プレイヤーの追加は、ゲーム内で必要な権限があればZAP-Hostingのゲームサーバー管理のライブコンソールからも可能です。以下のコマンドをプレイヤー名と一緒に使います。
 
-また、ゲーム内の管理者権限を持つプレイヤーはチャットコマンドでホワイトリストにプレイヤーを追加することも可能です。追加は以下のコマンドで行います：
-
+```text
+/whitelist PlayerName
 ```
-/whitelist [player]
-```
 
+プレイヤーの削除は `Users.eco` を編集して行います。`$values` から該当のSteamID64を削除し、保存後にサーバーを再起動してください。削除用のサーバーコマンドはありません。
 
+## ホワイトリスト機能の確認
 
-## ホワイトリストの管理
+再起動後、`$values` に含まれていないアカウントで接続を試みてください。アクセスがブロックされるはずです。その後、ホワイトリストに登録されたアカウントで接続を試みます。
 
-ホワイトリストの管理は**Users.eco**の設定ファイルでしかできません。サーバーコマンドでプレイヤーをホワイトリストから削除することはできないためです。プレイヤーを削除したい場合は、設定ファイルから該当プレイヤーを削除してください。変更を反映させるにはサーバーの再起動も必要です。 
+もしアクセスがまだ許可されている場合は、少なくとも1つのSteamID64が存在しているか、編集した `Users.eco` ファイルが現在稼働中のサーバーインスタンスと一致しているかを確認してください。
+
+## まとめ
+
+上記の手順を正しく行えば、ホワイトリストが有効になり、サーバーに参加できるユーザーを正確に管理できます。もしアクセスに問題がある場合は、サーバーをもう一度再起動し、ファイルやコマンドの出力を再確認して変更が適用されているか確認しましょう。
 
 <InlineVoucher />
