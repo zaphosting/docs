@@ -1,7 +1,7 @@
 ---
 id: eco-whitelist
 title: "ECO: Lista blanca"
-description: "Información sobre cómo poner en lista blanca tu servidor ECO desde ZAP-Hosting - Documentación de ZAP-Hosting.com"
+description: "Información sobre cómo poner en lista blanca tu servidor ECO desde ZAP-Hosting→ Aprende más ahora"
 sidebar_label: Lista blanca
 services:
   - gameserver
@@ -32,13 +32,13 @@ Guarda el archivo y reinicia el servidor para asegurarte de que la nueva lista d
 
 ## Gestionar jugadores en la lista blanca
 
-También puedes añadir jugadores a través de la Consola en vivo en la gestión del servidor de juegos de ZAP-Hosting si tienes el permiso requerido dentro del juego. Usa el comando whitelist con el nombre del jugador.
+Agregar jugadores también se puede hacer a través de la Consola en vivo en la gestión del servidor de juegos de ZAP-Hosting si tienes el permiso requerido dentro del juego. Usa el comando whitelist con el nombre del jugador.
 
 ```text
 /whitelist PlayerName
 ```
 
-Para eliminar jugadores, edita el archivo `Users.eco`. Borra el SteamID64 de `$values`, guarda y reinicia el servidor, ya que no existe un comando en el servidor para eliminar entradas.
+Para eliminar jugadores, edita el archivo `Users.eco`. Borra el SteamID64 de `$values`, guarda y reinicia el servidor ya que no hay comando en el servidor para eliminar entradas.
 
 ## Verificar el funcionamiento de la lista blanca
 

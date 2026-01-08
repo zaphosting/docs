@@ -1,7 +1,7 @@
 ---
 id: eco-whitelist
 title: "ECO: Whitelist"
-description: "Informacje o tym, jak dodać serwer ECO do whitelisty na ZAP-Hosting - Dokumentacja ZAP-Hosting.com"
+description: "Informacje o tym, jak dodać serwer ECO do whitelisty na ZAP-Hosting → Sprawdź teraz"
 sidebar_label: Whitelist
 services:
   - gameserver
@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Wprowadzenie
 
-Whitelist to lista dostępu, która ogranicza, kto może połączyć się z Twoim serwerem. W ECO whitelist jest zapisana w pliku konfiguracyjnym `Users.eco` i aktywuje się automatycznie, gdy znajdzie się tam przynajmniej jeden SteamID64.
+Whitelist to lista dostępu, która ogranicza, kto może połączyć się z Twoim serwerem. W ECO whitelist jest zapisana w pliku konfiguracyjnym `Users.eco` i aktywuje się automatycznie, gdy przynajmniej jeden SteamID64 zostanie dodany.
 
 ## Aktywacja Whitelisty
 
@@ -42,12 +42,12 @@ Usuwanie graczy odbywa się przez edycję pliku `Users.eco`. Usuń SteamID64 z `
 
 ## Sprawdzanie Działania Whitelisty
 
-Po restarcie spróbuj połączyć się kontem, które nie jest na liście `$values`. Dostęp powinien być zablokowany. Następnie połącz się kontem z whitelisty.
+Po restarcie spróbuj połączyć się kontem, które nie jest na liście `$values`. Dostęp powinien być zablokowany. Następnie połącz się kontem dodanym do whitelisty.
 
-Jeśli dostęp nadal jest otwarty, upewnij się, że w pliku jest przynajmniej jeden SteamID64 i że edytowany plik `Users.eco` jest tym, który jest aktywny na serwerze.
+Jeśli dostęp nadal jest otwarty, upewnij się, że przynajmniej jeden SteamID64 jest obecny i że edytowany plik `Users.eco` jest tym, który jest aktywny na serwerze.
 
 ## Podsumowanie
 
-Jeśli wszystkie powyższe kroki zostały wykonane poprawnie, whitelist jest aktywna i możesz kontrolować, kto dokładnie może dołączyć do serwera. Jeśli dostęp nadal nie działa jak należy, zrestartuj serwer jeszcze raz i sprawdź plik lub wynik komendy, by potwierdzić, że zmiany zostały zastosowane.
+Jeśli wszystkie powyższe kroki zostały wykonane poprawnie, whitelist jest aktywna i masz pełną kontrolę nad tym, kto może dołączyć do serwera. Jeśli dostęp nadal nie działa jak powinien, zrestartuj serwer jeszcze raz i sprawdź plik lub wynik komendy, aby potwierdzić, że zmiany zostały zastosowane.
 
 <InlineVoucher />

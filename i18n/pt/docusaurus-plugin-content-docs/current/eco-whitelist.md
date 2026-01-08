@@ -1,7 +1,7 @@
 ---
 id: eco-whitelist
 title: "ECO: Whitelist"
-description: "Informações sobre como colocar seu servidor ECO na whitelist na ZAP-Hosting - Documentação ZAP-Hosting.com"
+description: "Informações sobre como colocar seu servidor ECO na whitelist com a ZAP-Hosting→ Saiba mais agora"
 sidebar_label: Whitelist
 services:
   - gameserver
@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introdução
 
-Uma whitelist é uma lista de acesso que limita quem pode se conectar ao seu servidor. No ECO, a whitelist fica armazenada na configuração `Users.eco` e fica ativa automaticamente assim que pelo menos um SteamID64 estiver presente.
+Uma whitelist é uma lista de acesso que limita quem pode se conectar ao seu servidor. No ECO, a whitelist fica armazenada na configuração `Users.eco` e é ativada automaticamente assim que pelo menos um SteamID64 estiver presente.
 
 ## Ativando a Whitelist
 
@@ -42,12 +42,12 @@ Remover jogadores é feito editando o `Users.eco`. Apague o SteamID64 de `$value
 
 ## Verificando o Funcionamento da Whitelist
 
-Após o restart, tente conectar com uma conta que não esteja incluída em `$values`. O acesso deve ser bloqueado. Depois conecte com uma conta que esteja na whitelist.
+Após o reinício, tente conectar com uma conta que não esteja incluída em `$values`. O acesso deve ser bloqueado. Depois, conecte com uma conta que esteja na whitelist.
 
-Se o acesso ainda estiver liberado, confirme que pelo menos um SteamID64 está presente e que o arquivo `Users.eco` que você editou é o mesmo da instância ativa do servidor.
+Se o acesso ainda estiver liberado, confirme que pelo menos um SteamID64 está presente e que o arquivo `Users.eco` que você editou corresponde à instância ativa do servidor.
 
 ## Conclusão
 
-Se todos os passos acima foram seguidos corretamente, sua whitelist está ativa e você pode controlar exatamente quem pode entrar no servidor. Se o acesso ainda não funcionar como esperado, reinicie o servidor mais uma vez e verifique o arquivo ou a saída do comando para confirmar que a alteração foi aplicada.
+Se todas as etapas acima foram seguidas corretamente, sua whitelist está ativa e você pode controlar exatamente quem pode entrar no servidor. Se o acesso ainda não funcionar como esperado, reinicie o servidor mais uma vez e verifique o arquivo ou a saída do comando para confirmar que a alteração foi aplicada.
 
 <InlineVoucher />

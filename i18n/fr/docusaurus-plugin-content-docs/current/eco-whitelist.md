@@ -1,7 +1,7 @@
 ---
 id: eco-whitelist
 title: "ECO : Liste blanche"
-description: "Infos pour mettre ton serveur ECO en liste blanche chez ZAP-Hosting - Documentation ZAP-Hosting.com"
+description: "Infos pour mettre ton serveur ECO en liste blanche chez ZAP-Hosting → Découvre ça maintenant"
 sidebar_label: Liste blanche
 services:
   - gameserver
@@ -28,7 +28,7 @@ Connecte-toi à ton serveur via FTP et trouve le fichier `Users.eco`. Ouvre-le e
 }
 ```
 
-Sauvegarde le fichier et redémarre le serveur pour que la nouvelle liste d’accès soit prise en compte.
+Sauvegarde le fichier et redémarre le serveur pour appliquer la nouvelle liste d’accès.
 
 ## Gérer les joueurs en liste blanche
 
@@ -38,7 +38,7 @@ Tu peux aussi ajouter des joueurs via la console live dans la gestion de ton ser
 /whitelist PlayerName
 ```
 
-Pour retirer un joueur, modifie le fichier `Users.eco`. Supprime le SteamID64 de `$values`, sauvegarde, puis redémarre le serveur, car il n’y a pas de commande serveur pour supprimer une entrée.
+Pour retirer un joueur, modifie `Users.eco`. Supprime le SteamID64 de `$values`, sauvegarde, et redémarre le serveur, car il n’y a pas de commande serveur pour supprimer une entrée.
 
 ## Vérifier que la liste blanche fonctionne
 
@@ -48,6 +48,6 @@ Si l’accès est toujours ouvert, vérifie qu’au moins un SteamID64 est bien 
 
 ## Conclusion
 
-Si tu as suivi toutes les étapes, ta liste blanche est maintenant active et tu contrôles exactement qui peut rejoindre le serveur. Si l’accès ne fonctionne toujours pas comme prévu, redémarre une fois de plus le serveur et vérifie le fichier ou la sortie des commandes pour confirmer que le changement a bien été appliqué.
+Si tu as suivi toutes les étapes, ta liste blanche est active et tu contrôles exactement qui peut rejoindre le serveur. Si l’accès ne fonctionne toujours pas comme prévu, redémarre une fois de plus le serveur et vérifie le fichier ou la sortie de commande pour confirmer que le changement a bien été pris en compte.
 
 <InlineVoucher />
