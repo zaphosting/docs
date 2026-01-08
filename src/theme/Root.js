@@ -2,6 +2,7 @@ import React, { useEffect } from 'react';
 import mediumZoom from 'medium-zoom';
 import { useLocation } from '@docusaurus/router';
 import { VoucherProvider } from '../utilities/contexts/VoucherContext';
+import PopupNotification from '../components/PopupNotification';
 
 export default function Root({ children }) {
   const location = useLocation();
@@ -29,6 +30,7 @@ export default function Root({ children }) {
   return (
     <VoucherProvider>
       {children}
+      <PopupNotification />
     </VoucherProvider>
   );
 }
