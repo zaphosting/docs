@@ -1,7 +1,7 @@
 ---
 id: 7d2d-whitelist
 title: "7 Days To Die: Whitelist"
-description: Information about how to whitelist your 7 Days To Die server from ZAP-Hosting → Learn more now"
+description: "Information om hur du whitelistar din 7 Days To Die-server från ZAP-Hosting → Lär dig mer nu"
 sidebar_label: Whitelist
 services:
   - gameserver-7d2d
@@ -32,15 +32,15 @@ Spara filen och starta om servern så att den nya whitelist laddas. Om din fil b
 
 ## Hantera Whitelistade Spelare
 
-För att lägga till en till spelare, gör samma ändring i `serveradmin.xml` genom att lägga till en ny `<user ... />`-post inom `<whitelist>`. Använd spelarens SteamID64 för `steamID`.
+För att lägga till en spelare, gör samma ändring i `serveradmin.xml` genom att lägga till en ny `<user ... />`-post inom `<whitelist>`. Använd spelarens SteamID64 för `steamID`.
 
-För att ta bort en spelare, ta bort motsvarande `<user ... />`-rad från `<whitelist>`-sektionen, spara och starta om servern.
+För att ta bort en spelare, ta bort motsvarande `<user ... />`-rad från `<whitelist>`, spara och starta om servern.
 
-Vill du hellre använda kommandon, öppna Live Console i ZAP-Hostings gameserverhantering och använd de inbyggda whitelist-kommandona för att lägga till eller ta bort spelare. Ändringar via kommandon speglas ändå i samma whitelist-data som servern använder vid omstart.
+Vill du köra via kommandon, öppna Live Console i ZAP-Hostings gameserverhantering och använd de inbyggda whitelist-kommandona för att lägga till eller ta bort spelare. Ändringar via kommandon synkas ändå tillbaka till samma whitelist-data som servern använder vid omstart.
 
 ## Kontrollera att Whitelist Fungerar
 
-Efter omstart, försök ansluta med ett konto som inte finns på whitelist. Anslutningsförsöket ska nekas. Testa sedan med ett whitelistat konto för att bekräfta att åtkomsten funkar.
+Efter omstart, testa att ansluta med ett konto som inte finns på whitelist. Anslutningsförsöket ska nekas. Testa sedan med ett whitelistat konto för att bekräfta att åtkomsten funkar.
 
 Om servern fortfarande släpper in icke-whitelistade spelare, dubbelkolla att dina whitelist-poster inte är kommenterade och att du redigerade rätt `serveradmin.xml` för den aktiva sparfilen.
 

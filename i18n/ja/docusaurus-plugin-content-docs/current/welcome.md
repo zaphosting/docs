@@ -1,7 +1,7 @@
 ---
 id: welcome
-title: ZAP-Hostingドキュメントへようこそ！
-description: "ゲーム、サーバー、ドメインでZAP-Hosting製品を最大限に活用する方法を、わかりやすくプロが解説 → 今すぐチェック"
+title: "ZAP-Hostingドキュメントへようこそ！"
+description: "ゲーム、サーバー、ドメインでZAP-Hosting製品を最大限に活用するためのわかりやすいエキスパートガイド → 今すぐチェック"
 sidebar_label: ようこそ！
 ---
 
@@ -11,17 +11,17 @@ import YouTube from '@site/src/components/YouTube/YouTube';
 
 ## はじめに
 
-ZAP-Hostingの総合ドキュメントへようこそ！ここは当社製品に関するすべての情報の中心地です。ゲームサーバー、VPS、専用サーバーからドメイン＆ホスティング、さらにボイスボット＆ボイスサーバーまで。製品（サービス）を最大限に活用し、プロジェクトを成功させるための詳細な手順やコツが満載です。
+ZAP-Hostingの包括的なドキュメントへようこそ！ここは、ゲームサーバー、VPS、専用サーバーからドメイン＆ホスティング、ボイスボット＆ボイスサーバーまで、当社製品に関するすべての情報の中心地です。製品（サービス）を最大限に活用し、プロジェクトを成功させるための詳細な手順、ヒント、コツが満載です。
 
-知識を誰でもアクセスしやすく、理解しやすいものにするのが私たちの目標。だからこそ、技術的な前提知識がなくてもわかりやすいガイドを作っています。初めてのゲームサーバーの立ち上げから、専用サーバーの世界への挑戦、初めてのドメイン登録、ボイスサーバーの設定まで、簡単でクリアなスタートをサポートします。
+私たちの目標は、知識を誰でもアクセスしやすく、理解しやすいものにすること。だからこそ、技術的な前提知識がなくてもわかりやすいガイドを作成しています。初めてのゲームサーバーのセットアップ、専用サーバーの世界への挑戦、初めてのドメイン登録、ボイスサーバーの設定など、どんな方でも簡単でクリアなスタートが切れるようにしています。
 
-幅広いトピックをカバーし、常に最新の情報とベストプラクティスを提供できるよう定期的に更新しています。基本的なセットアップから高度な設定テクニックまで。
+幅広いトピックをカバーし、常に最新の情報とベストプラクティスを提供できるよう定期的に更新しています。基本的なセットアップから高度な設定テクニックまで、あなたのニーズに応えます。
 
-<YouTube videoId="-2wJ6ZJ6ZVk" imageSrc="https://screensaver01.zap-hosting.com/index.php/s/kGb9tgzzoNZPZjW/preview" title="ZAP-Docsへようこそ！" description="実際の動きを見たほうが理解しやすい？そんなあなたにピッタリの動画です！急いでいる時も、じっくり楽しみたい時も、最高の情報収集方法をお届けします！"/>
+<YouTube videoId="-2wJ6ZJ6ZVk" imageSrc="https://screensaver01.zap-hosting.com/index.php/s/kGb9tgzzoNZPZjW/preview" title="ZAP-Docsへようこそ！" description="実際に動いているところを見ると理解が深まる？そんなあなたにピッタリの動画です！忙しい時も、楽しく情報を吸収したい時も、ぜひご覧ください！"/>
 
 ## ゲームサーバー
 
-ゲームサーバーを完璧に使いこなそう。私たちのノウハウでゲーム体験をワンランクアップ！100以上のゲームや拡張・MODの詳細ガイドで、ゲームサーバーの設定や管理を深く理解できます。
+あなたのゲームサーバーを完璧に使いこなそう。私たちのノウハウでゲーム体験をワンランクアップ！100以上のゲームや拡張・MODの詳細なガイドで、ゲームサーバーの設定や管理を深く理解できます。
 
 <Cards>
     <Card title="FiveM" description="Placeholder" link="https://zap-hosting.com/guides/docs/fivem-dashboard" image="https://screensaver01.zap-hosting.com/index.php/s/fA3eHHpGLYo74ra/preview"/>
@@ -155,7 +155,7 @@ VPSをフル活用しよう！LinuxでもWindowsでも、効率的なセット�
 </Cards>
 
 ## ドメイン＆ホスティング
-オンラインプロジェクトをしっかり支えるドメイン登録とホスティング管理のわかりやすいガイド。セットアップからウェブサイト公開まで、ステップごとにナビゲートします。
+オンラインプロジェクトをしっかり支える基盤作り。ドメイン登録からホスティング管理まで、わかりやすいガイドでサイト公開までしっかりサポート。
 
 <Cards>
     <Card title="ドメイン" description="Placeholder" link="https://zap-hosting.com/guides/docs/domain-introduction" image="https://screensaver01.zap-hosting.com/index.php/s/SPaNk8LSP57s83z/preview" type="product-categories"/>
@@ -163,7 +163,7 @@ VPSをフル活用しよう！LinuxでもWindowsでも、効率的なセット�
 </Cards>
 
 ## ボイスボット＆ボイスサーバー
-ボイスボットとボイスサーバーでオンライン交流をもっと楽しく。設定も簡単だから、ゲームやミーティングでコミュニティと過ごす時間を増やせます。
+ボイスボットとボイスサーバーでオンライン交流をもっと楽しく。セットアップも簡単だから、ゲームやミーティングでコミュニティと過ごす時間を増やせます。
 
 <Cards>
     <Card title="ボイスボット" description="Placeholder" link="https://zap-hosting.com/guides/docs/voiceserver-voicebot-connection" image="https://screensaver01.zap-hosting.com/index.php/s/zZ73fps5Eq93foK/preview" type="product-categories"/>

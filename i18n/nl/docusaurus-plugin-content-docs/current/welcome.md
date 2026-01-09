@@ -1,6 +1,6 @@
 ---
 id: welcome
-title: Welkom bij de ZAP-Hosting Documentatie!
+title: "Welkom bij de ZAP-Hosting Documentatie!"
 description: "Ontdek hoe je het maximale uit je ZAP-Hosting producten haalt voor gaming, servers en domeinen met duidelijke, deskundige handleidingen → Leer nu meer"
 sidebar_label: Welkom!
 ---
@@ -11,13 +11,13 @@ import YouTube from '@site/src/components/YouTube/YouTube';
 
 ## Introductie
 
-Welkom bij de uitgebreide documentatie van ZAP-Hosting, jouw centrale plek voor alles wat met onze producten te maken heeft. Van game servers, VPS en dedicated servers tot domeinen & webspace, en ook voicebot & voice server. Hier vind je gedetailleerde instructies, tips en tricks om het beste uit je producten (diensten) te halen en je projecten succesvol te realiseren.
+Welkom bij de uitgebreide documentatie van ZAP-Hosting, jouw centrale plek voor alles rondom onze producten. Van game servers, VPS en dedicated servers tot domeinen & webspace, en ook voicebot & voice server. Hier vind je gedetailleerde instructies, tips en tricks om het beste uit jouw producten (diensten) te halen en je projecten succesvol te realiseren.
 
-Ons doel is kennis toegankelijk en begrijpelijk te maken. Daarom zijn onze handleidingen zo geschreven dat ze voor iedereen makkelijk te volgen zijn, ongeacht je technische voorkennis. Of je nu net begint met het opzetten van je eerste game server, de wereld van dedicated servers induikt, je eerste domein registreert of je voice server instelt, onze gidsen bieden je een eenvoudige en duidelijke instap.
+Ons doel is kennis toegankelijk en begrijpelijk te maken. Daarom zijn onze handleidingen zo geschreven dat iedereen ze makkelijk kan volgen, ongeacht technische voorkennis. Of je nu net begint met het opzetten van je eerste game server, de wereld van dedicated servers induikt, je eerste domein registreert of je voice server instelt, onze gidsen bieden je een eenvoudige en heldere instap.
 
-We behandelen een breed scala aan onderwerpen en updaten onze content regelmatig, zodat jij altijd up-to-date bent en de beste methodes kunt toepassen. Van basisinstallaties tot geavanceerde configuratietechnieken.
+We behandelen een breed scala aan onderwerpen en updaten onze content regelmatig zodat jij altijd up-to-date bent en de beste praktijken kunt toepassen. Van basisinstallaties tot geavanceerde configuratietechnieken.
 
-<YouTube videoId="-2wJ6ZJ6ZVk" imageSrc="https://screensaver01.zap-hosting.com/index.php/s/kGb9tgzzoNZPZjW/preview" title="Welkom bij ZAP-Docs!" description="Snap je dingen beter als je ze in actie ziet? Wij fixen het! Duik in onze video die alles voor je uitlegt. Of je nu haast hebt of gewoon liever info op de meest toffe manier opneemt!"/>
+<YouTube videoId="-2wJ6ZJ6ZVk" imageSrc="https://screensaver01.zap-hosting.com/index.php/s/kGb9tgzzoNZPZjW/preview" title="Welkom bij ZAP-Docs!" description="Snap je dingen beter als je ze in actie ziet? Wij hebben je gedekt! Duik in onze video die alles voor je uitlegt. Of je nu haast hebt of gewoon liever info opneemt op de meest toffe manier!"/>
 
 ## Gameserver
 
@@ -140,7 +140,7 @@ Haal het maximale uit je game server. Met onze knowhow tillen we jouw gaming naa
 </Cards>
 
 ## VPS
-Haal het maximale uit je VPS met onze uitgebreide handleidingen. Of je nu voor Linux of Windows gaat, onze gidsen helpen je om je server efficiënt op te zetten en te beheren.
+Haal het maximale uit je VPS met onze uitgebreide handleidingen. Of je nu Linux of Windows prefereert, onze gidsen helpen je om je server efficiënt op te zetten en te beheren.
 
 <Cards>
     <Card title="VPS (Linux/Windows)" description="Placeholder" link="https://zap-hosting.com/guides/docs/vserver-introduction" image="https://screensaver01.zap-hosting.com/index.php/s/XmJGtYkc7d9rBai/preview" type="product-categories"/>
@@ -155,7 +155,7 @@ Onze dedicated servers bieden power voor veeleisende projecten. Ontdek in onze g
 </Cards>
 
 ## Domein & Webspace
-Start je online project op een stevige basis met makkelijk te begrijpen handleidingen over domeinregistratie en webspace beheer. We begeleiden je bij elke stap, van setup tot het live zetten van je website.
+Start je online project op een stevige basis met makkelijk te begrijpen handleidingen over domeinregistratie en webspacebeheer. We begeleiden je bij elke stap, van setup tot het live zetten van je website.
 
 <Cards>
     <Card title="Domein" description="Placeholder" link="https://zap-hosting.com/guides/docs/domain-introduction" image="https://screensaver01.zap-hosting.com/index.php/s/SPaNk8LSP57s83z/preview" type="product-categories"/>
@@ -163,7 +163,7 @@ Start je online project op een stevige basis met makkelijk te begrijpen handleid
 </Cards>
 
 ## Voicebot & Voiceserver
-Boost je online interacties met onze voicebots en voice servers. Onze gidsen maken het instellen easy, zodat jij meer tijd hebt voor je community, of het nu gaming is of meetings.
+Boost je online interacties met onze voicebots en voice servers. Onze gidsen maken de setup easy, zodat jij meer tijd hebt voor je community, of het nu gamen is of meetings.
 
 <Cards>
     <Card title="Voicebot" description="Placeholder" link="https://zap-hosting.com/guides/docs/voiceserver-voicebot-connection" image="https://screensaver01.zap-hosting.com/index.php/s/zZ73fps5Eq93foK/preview" type="product-categories"/>

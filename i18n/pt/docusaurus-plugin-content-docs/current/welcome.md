@@ -1,6 +1,6 @@
 ---
 id: welcome
-title: Bem-vindo à Documentação da ZAP-Hosting!
+title: "Bem-vindo à Documentação da ZAP-Hosting!"
 description: "Descubra como tirar o máximo dos seus produtos ZAP-Hosting para jogos, servidores e domínios com guias claros e especializados → Saiba mais agora"
 sidebar_label: Bem-vindo!
 ---
@@ -11,17 +11,17 @@ import YouTube from '@site/src/components/YouTube/YouTube';
 
 ## Introdução
 
-Bem-vindo à documentação completa da ZAP-Hosting, seu ponto central para tudo relacionado aos nossos produtos. De servidores de jogos, VPS e servidores dedicados a domínio & hospedagem de sites, além de bot de voz & servidor de voz. Aqui você encontra instruções detalhadas, dicas e truques para aproveitar ao máximo seus produtos (serviços) e implementar seus projetos com sucesso.
+Bem-vindo à documentação completa da ZAP-Hosting, seu ponto central para tudo relacionado aos nossos produtos. Desde servidores de jogos, VPS e servidores dedicados até domínio & hospedagem de sites, além de bot de voz & servidor de voz. Aqui você encontra instruções detalhadas, dicas e truques para aproveitar ao máximo seus produtos (serviços) e implementar seus projetos com sucesso.
 
-Nosso objetivo é tornar o conhecimento acessível e fácil de entender. Por isso, criamos nossos guias para serem simples para todos, independente do conhecimento técnico prévio. Seja você um iniciante configurando seu primeiro servidor de jogos, explorando o mundo dos servidores dedicados, registrando seu primeiro domínio ou configurando seu servidor de voz, nossos guias oferecem uma entrada fácil e clara.
+Nosso objetivo é tornar o conhecimento acessível e fácil de entender. Por isso, criamos nossos guias para serem simples para todo mundo, independente do conhecimento técnico prévio. Seja você iniciante configurando seu primeiro servidor de jogos, entrando no mundo dos servidores dedicados, registrando seu primeiro domínio ou configurando seu servidor de voz, nossos guias são feitos para te dar uma entrada fácil e clara.
 
 Cobrimos uma ampla variedade de temas e atualizamos nosso conteúdo regularmente para garantir que você esteja sempre por dentro e possa aplicar as melhores práticas. Desde guias básicos de configuração até técnicas avançadas.
 
-<YouTube videoId="-2wJ6ZJ6ZVk" imageSrc="https://screensaver01.zap-hosting.com/index.php/s/kGb9tgzzoNZPZjW/preview" title="Bem-vindo ao ZAP-Docs!" description="Prefere entender vendo as coisas em ação? Temos o que você precisa! Mergulhe no nosso vídeo que explica tudo para você. Seja na correria ou querendo absorver informação da forma mais envolvente possível!"/>
+<YouTube videoId="-2wJ6ZJ6ZVk" imageSrc="https://screensaver01.zap-hosting.com/index.php/s/kGb9tgzzoNZPZjW/preview" title="Bem-vindo ao ZAP-Docs!" description="Prefere entender melhor vendo as coisas na prática? A gente te entende! Mergulhe no nosso vídeo que explica tudo pra você. Seja na correria ou se você curte absorver informação do jeito mais envolvente possível!"/>
 
 ## Servidor de Jogos
 
-Aproveite ao máximo seu servidor de jogos. Com nossa expertise, levamos seu game para outro nível. Nossos guias detalhados para mais de 100 jogos diferentes e suas extensões/modificações permitem que você entenda profundamente como configurar e gerenciar seus servidores de jogos.
+Aproveite e explore todo o potencial do seu servidor de jogos. Com nossa expertise, levamos seu game para outro nível. Nossos guias detalhados para mais de 100 jogos diferentes e suas extensões/modificações te ajudam a entender profundamente como configurar e gerenciar seus servidores de jogos.
 
 <Cards>
     <Card title="FiveM" description="Placeholder" link="https://zap-hosting.com/guides/docs/fivem-dashboard" image="https://screensaver01.zap-hosting.com/index.php/s/fA3eHHpGLYo74ra/preview"/>
@@ -140,7 +140,7 @@ Aproveite ao máximo seu servidor de jogos. Com nossa expertise, levamos seu gam
 </Cards>
 
 ## VPS
-Aproveite ao máximo seu VPS com nossos guias completos. Seja Linux ou Windows, nossos guias ajudam você a configurar e gerenciar seu servidor de forma eficiente.
+Tire o máximo do seu VPS com nossos guias completos. Seja Linux ou Windows, nossos guias te ajudam a configurar e gerenciar seu servidor de forma eficiente.
 
 <Cards>
     <Card title="VPS (Linux/Windows)" description="Placeholder" link="https://zap-hosting.com/guides/docs/vserver-introduction" image="https://screensaver01.zap-hosting.com/index.php/s/XmJGtYkc7d9rBai/preview" type="product-categories"/>
@@ -155,7 +155,7 @@ Nossos servidores dedicados oferecem performance para projetos exigentes. Descub
 </Cards>
 
 ## Domínio & Hospedagem de Sites
-Comece seu projeto online com uma base sólida com guias fáceis sobre registro de domínio e gestão de hospedagem de sites. Acompanhamos você em cada passo, da configuração à publicação do seu site.
+Comece seu projeto online com uma base sólida com guias fáceis de entender sobre registro de domínio e gerenciamento de hospedagem de sites. A gente te guia em cada passo, desde a configuração até a publicação do seu site.
 
 <Cards>
     <Card title="Domínio" description="Placeholder" link="https://zap-hosting.com/guides/docs/domain-introduction" image="https://screensaver01.zap-hosting.com/index.php/s/SPaNk8LSP57s83z/preview" type="product-categories"/>
