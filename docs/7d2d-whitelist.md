@@ -1,7 +1,7 @@
 ---
 id: 7d2d-whitelist
 title: "7 Days To Die: Whitelist"
-description: Information about how to whitelist your 7 Days To Die server from ZAP-Hosting → Learn more now"
+description: "Information about how to whitelist your 7 Days To Die server from ZAP-Hosting → Learn more now"
 sidebar_label: Whitelist
 services:
   - gameserver-7d2d
