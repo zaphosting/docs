@@ -27,7 +27,7 @@ Erstelle irgendwo auf deinem Server einen neuen Ordner, wir nennen ihn hier `ste
 
 Starte einfach **steamcmd.exe** und warte, bis die Installation komplett durchgelaufen ist.
 
-![](https://github.com/zaphosting/docs/assets/42719082/ffb8e8a1-26e3-4d16-9baf-938e17ec1613)
+![](https://screensaver01.zap-hosting.com/index.php/s/nGsEGWDrSG7gBZs/preview)
 
 Sobald die Meldung **Loading Steam API.... OK** erscheint, ist alles erfolgreich abgeschlossen und du kannst mit der Installation des Palworld Dedicated Servers im nächsten Abschnitt starten.
 
@@ -46,7 +46,7 @@ force_install_dir C:\Palworld-Server
 
 Starte jetzt den Download mit dem Befehl `app_update 2394010`. Die App-ID **2394010** steht für die **Palworld** Anwendung.
 
-![](https://github.com/zaphosting/docs/assets/42719082/b265a784-cf9a-43dc-b100-376f080e18f3)
+![](https://screensaver01.zap-hosting.com/index.php/s/5wtdbQbZoj6WbTN/preview)
 
 :::info
 Bitte unterbrich den Prozess nicht, bevor er abgeschlossen ist, um Fehler zu vermeiden. Es kann einen Moment dauern, aber Geduld zahlt sich aus! :)
@@ -86,7 +86,7 @@ Diese Befehle erstellen automatisch die Firewall-Regeln, die dein Palworld Serve
 
 Öffne über die Windows-Suche die **Windows-Firewall mit erweiterter Sicherheit**. Falls du nur die Basis-Firewall siehst, klicke auf **Erweiterte Einstellungen**, um das richtige Fenster zu öffnen.
 
-![](https://github.com/zaphosting/docs/assets/42719082/5fb9f943-7e51-4d8f-9df4-2f5ff60857d3)
+![](https://screensaver01.zap-hosting.com/index.php/s/ZT2WzELZSBPrFsB/preview)
 
 Erstelle neue Regeln für deinen Palworld Server. Klicke dazu auf eingehende und ausgehende Regeln und füge folgende Protokolle und Ports hinzu:
 - TCP eingehend und ausgehend: 8211

@@ -29,12 +29,12 @@ Lokale savegames zijn die je hebt gemaakt tijdens het hosten van een multiplayer
 :::tip
 Je kunt deze map makkelijk openen door tegelijk `CTRL` + `R` te drukken en in het run-venster het volgende pad in te voeren: `%localappdata%/Pal/Saved/SaveGames/`. Druk op **OK** en je wordt direct naar de map gebracht.
 
-![](https://github.com/zaphosting/docs/assets/42719082/5cdff375-57f8-4699-9985-42bcecf22218)
+![](https://screensaver01.zap-hosting.com/index.php/s/gWL9gtAZ8JE2ENP/preview)
 :::
 
 Op deze plek zie je een map met je SteamID als naam. Open deze map en je ziet al je lokale savegames op één plek.
 
-![](https://github.com/zaphosting/docs/assets/42719082/8f36715d-7e87-45e1-b859-6ebedd18c8da)
+![](https://screensaver01.zap-hosting.com/index.php/s/aaeRXfs5cFjA6fN/preview)
 
 ### Savegame Toegang via FTP
 
@@ -45,7 +45,7 @@ Een back-up maken van je savegame op de server is simpel. Zodra je verbonden ben
 
 Hier zie je een map met een reeks willekeurige tekens, dat is je savegame. Klik met de rechtermuisknop op de map en kies **Download** om deze lokaal op je apparaat op te slaan.
 
-![](https://github.com/zaphosting/docs/assets/42719082/ca890470-450d-4962-a982-39378dfbb695)
+![](https://screensaver01.zap-hosting.com/index.php/s/pmrmNHS5NAfXpY3/preview)
 
 ### Automatische Back-up
 

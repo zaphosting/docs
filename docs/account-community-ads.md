@@ -41,7 +41,7 @@ Now press the green **+** to open up a menu where you can submit your link. Once
 The link must point to the advertisement created for this purpose. If the link does not contain any advertising, then it will be declined.
 :::
 
-![](https://github.com/zaphosting/docs/assets/42719082/d94273e7-3c97-4d62-a77a-7901d0293c7f)
+![](https://screensaver01.zap-hosting.com/index.php/s/keEHsk3E5jfxWEP/preview)
 
 
 
@@ -49,7 +49,7 @@ The link must point to the advertisement created for this purpose. If the link d
 
 You can transfer out your Community Advertisement balance either into your cashbox (ZAP Coins) or into real money. Head over to the [Community Advertising](https://zap-hosting.com/en/customer/communityads/) page again and press the blue **Payment/Transfer** button.
 
-![](https://github.com/zaphosting/docs/assets/42719082/076c45aa-2851-4a0d-b5ed-27ca57102b15)
+![](https://screensaver01.zap-hosting.com/index.php/s/cMKXcgtQXs48Xs2/preview)
 
 
 
@@ -63,7 +63,7 @@ Once you have your credits transferred into ZAP Coins, you can no longer cash ou
 
 On the menu prompt, select **ZAP Coin balance** as the option. Choose whether you wish to transfer the entire balance or only a specific part of it. Once ready, simply press the green **Transfer** button to confirm.
 
-![](https://github.com/zaphosting/docs/assets/42719082/27807ca4-4ee7-4e70-92f8-23b887bfef90)
+![](https://screensaver01.zap-hosting.com/index.php/s/cpMSzbJaDzGRTi8/preview)
 
 
 

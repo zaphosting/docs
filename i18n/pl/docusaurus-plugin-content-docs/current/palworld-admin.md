@@ -35,12 +35,12 @@ Najwygodniejszą metodą jest przejście do sekcji **Ustawienia** w panelu admin
 
 W obszarze **Ustawienia** znajdź opcję **Hasło serwera gier**. W tym polu wpisz hasło, którego chcesz używać.
 
-![](https://github.com/zaphosting/docs/assets/42719082/dadbd22b-2fd9-42e1-be71-f6d28a3f2938)
+![](https://screensaver01.zap-hosting.com/index.php/s/aQYQDYMP34NnNXr/preview)
 
 :::info
 Po wybraniu hasła, przewiń do góry i koniecznie kliknij zielony przycisk **Zapisz**, aby potwierdzić zmiany.
 
-![](https://github.com/zaphosting/docs/assets/42719082/5a4f5ab1-8079-4b20-96a6-36e4aca2e28e)
+![](https://screensaver01.zap-hosting.com/index.php/s/YG5MZ6Jt8SdFy4A/preview)
 :::
 
 </TabItem>
@@ -55,11 +55,11 @@ Serwer musi być zatrzymany, zanim edytujesz plik konfiguracyjny. Edycja pliku i
 
 Alternatywnie, jeśli chcesz edytować plik bezpośrednio, przejdź do sekcji **Konfiguracje** w panelu administracyjnym serwera gier i kliknij niebieski przycisk edycji pliku, jak na obrazku poniżej:
 
-![](https://github.com/zaphosting/docs/assets/42719082/53c8acad-7347-4c3e-85bf-5ae0ad423fc6)
+![](https://screensaver01.zap-hosting.com/index.php/s/2fNGG7jBdGRekKP/preview)
 
 Otworzy się edytor tekstu na stronie, gdzie możesz dokonać zmian. Znajdź opcję **AdminPassword** w pliku (pomocne będzie `CTRL+F`) i wpisz tam hasło admina, które chcesz ustawić. Na koniec zapisz plik i uruchom serwer.
 
-![](https://github.com/zaphosting/docs/assets/42719082/d86376b8-1a41-4fb0-b8cd-8570ddcaa9ae)
+![](https://screensaver01.zap-hosting.com/index.php/s/gpBjxxmdsWKD4t2/preview)
 
 </TabItem>
 
@@ -86,7 +86,7 @@ W grze otwórz czat klawiszem `Enter`. Następnie wpisz poniższą komendę, zam
 /AdminPassword [password]
 ```
 
-![](https://github.com/zaphosting/docs/assets/42719082/2f6e3ee7-e83f-4b71-87dc-d36f9b8c7340)
+![](https://screensaver01.zap-hosting.com/index.php/s/75D5ejaWNM6oYNX/preview)
 
 Jeśli wszystko poszło dobrze, w czacie pojawi się komunikat o sukcesie. Jeśli pojawił się błąd, upewnij się, że wpisałeś poprawne hasło admina, takie jak to, które ustawiłeś wcześniej.
 

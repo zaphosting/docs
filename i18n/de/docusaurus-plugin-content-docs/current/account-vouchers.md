@@ -10,7 +10,7 @@ Hast du einen Gutscheincode gefunden, den du als Guthaben für deine Cashbox (ZA
 
 Zuerst solltest du dich auf unserer Website einloggen oder registrieren, um Codes verwenden zu können. Das geht super schnell und easy über das Login-Panel oben.
 
-![](https://github.com/zaphosting/docs/assets/42719082/f81bcb46-2129-47c9-ab98-90b746e01fd0)
+![](https://screensaver01.zap-hosting.com/index.php/s/29dLjP5BNJpncbR/preview)
 
 
 
@@ -23,17 +23,17 @@ Es gibt zwei verschiedene Arten von Gutscheincodes:
 ## Gutschein ZAP Coin Codes
 Gutschein ZAP Coin Codes kannst du ganz easy über dein Webinterface einlösen. Geh einfach auf deine **Cashbox**, indem du oben im Webinterface auf den Text „ZAP Coins“ klickst.
 
-![](https://github.com/zaphosting/docs/assets/42719082/e436f9d9-ad85-482a-90fa-03fe6cd6836e)
+![](https://screensaver01.zap-hosting.com/index.php/s/32XQmojExTifqiS/preview)
 
 Auf deiner **Cashbox**-Seite scrollst du runter zum blauen Button **Gutschein einlösen**. Klick den Button, um ein Menü zu öffnen.
 
-![](https://github.com/zaphosting/docs/assets/42719082/cee125ff-06b1-460b-a4d9-8c71157c50c4)
+![](https://screensaver01.zap-hosting.com/index.php/s/FkZqyf3GWor8Hj7/preview)
 
 
 
 Hier kannst du den Gutscheincode eingeben, den du erhalten hast. Wenn du fertig bist, drück den grünen Button **Gutschein einlösen**, um ihn abzuschicken.
 
-![](https://github.com/zaphosting/docs/assets/42719082/0daa73de-00a6-4079-9e93-c12d9df8f222)
+![](https://screensaver01.zap-hosting.com/index.php/s/SQGk7gBDmGcgYjb/preview)
 
 
 
@@ -53,15 +53,15 @@ Rabattcodes funktionieren ähnlich wie Guthabencodes, werden aber an anderer Ste
 
 Such dir zuerst das Produkt aus, das du bestellen willst, und konfiguriere es nach deinen Wünschen in unserem Server-Konfigurator.
 
-![](https://github.com/zaphosting/docs/assets/42719082/93fce0a9-1ff6-4878-9625-6581361324ef)
+![](https://screensaver01.zap-hosting.com/index.php/s/CntHbTsxGw5qQfK/preview)
 
 
 
 Wenn alles richtig eingestellt ist, kannst du deinen Code im Bestellprozess verwenden. Scroll runter bis ganz unten, wähle deine Zahlungsmethode aus und klick einfach auf den Text **Gutschein einlösen** unter der Bestellsumme.
 
-![](https://github.com/zaphosting/docs/assets/42719082/8e27371d-a9db-4dae-bc52-6861fcbc5598)
+![](https://screensaver01.zap-hosting.com/index.php/s/mNXf8wodCaELzxt/preview)
 
-![](https://github.com/zaphosting/docs/assets/42719082/6502ef6a-16bf-4066-a25d-58d312caa0f1)
+![](https://screensaver01.zap-hosting.com/index.php/s/rd4LXJAooCSaaC9/preview)
 
 
 

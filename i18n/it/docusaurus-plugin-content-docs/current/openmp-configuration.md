@@ -45,7 +45,7 @@ Il server deve essere spento prima di poter modificare il file di configurazione
 
 Per chi vuole modificare direttamente il file e tutte le opzioni di configurazione, puoi accedere andando nella sezione **Configs** del webinterface del tuo game server e cliccando sul pulsante blu per modificare il file, come mostrato qui sotto:
 
-![](https://github.com/zaphosting/docs/assets/42719082/6a147644-8bfb-4e5d-bff5-3e2c5d999e64)
+![](https://screensaver01.zap-hosting.com/index.php/s/izzL3f9FaGdc9ay/preview)
 
 Questo aprirà un editor di testo direttamente sul sito per permetterti di modificarlo.
 

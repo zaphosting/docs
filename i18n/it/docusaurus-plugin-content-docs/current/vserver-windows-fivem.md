@@ -109,7 +109,7 @@ Questi comandi creeranno automaticamente le regole firewall necessarie per rende
 
 Usa la ricerca di Windows per aprire **Impostazioni firewall di Windows con sicurezza avanzata**. Potresti dover cliccare su **Impostazioni avanzate** per aprire la finestra giusta se apri la pagina base del firewall.
 
-![](https://github.com/zaphosting/docs/assets/42719082/5fb9f943-7e51-4d8f-9df4-2f5ff60857d3)
+![](https://screensaver01.zap-hosting.com/index.php/s/ZT2WzELZSBPrFsB/preview)
 
 Devi creare nuove regole per il tuo server FiveM. Clicca sulle regole in entrata e in uscita come spiegato qui sotto e aggiungi le porte e protocolli:
 - TCP in entrata e uscita: 30120

@@ -26,7 +26,7 @@ Agora temos uma versão separada do jogo **Palworld (Xbox)** disponível nos nos
 
 Primeiro, você precisa saber o endereço IP e a porta do seu servidor Palworld para conseguir conectar direto. É só acessar seu [painel da ZAP-Hosting](https://zap-hosting.com/en/customer/) no site e pegar o IP completo e a porta.
 
-![](https://github.com/zaphosting/docs/assets/42719082/62bcad5b-064c-45cd-a7f0-406a1148b15c)
+![](https://screensaver01.zap-hosting.com/index.php/s/DRxKHE7bP3FbFMo/preview)
 
 Se você estiver rodando seu servidor Palworld em um servidor dedicado externo, o IP será o da máquina host e a porta será a que você configurou no arquivo de configuração (por padrão é 8211). Veja mais detalhes no nosso [Guia de Configuração do Servidor](palworld-configuration.md).
 
@@ -34,7 +34,7 @@ Se você estiver rodando seu servidor Palworld em um servidor dedicado externo, 
 
 Comece abrindo o Palworld pelo seu launcher. No menu principal, selecione **Entrar em Jogo Multiplayer**.
 
-![](https://github.com/zaphosting/docs/assets/42719082/fefc7ead-5098-4bdb-aa56-c9d78673d7e8)
+![](https://screensaver01.zap-hosting.com/index.php/s/TZzLAS29rnpPmi6/preview)
 
 No navegador de servidores dedicados, vá até o final da página. Digite seu IP e a porta na caixa de busca inferior. Quando estiver pronto, clique no botão **Conectar** e você entrará no seu servidor.
 
@@ -42,7 +42,7 @@ No navegador de servidores dedicados, vá até o final da página. Digite seu IP
 Use a caixa de busca inferior, não a superior. A superior serve para buscar servidores pelo nome na lista.
 :::
 
-![](https://github.com/zaphosting/docs/assets/42719082/ae31ddee-8992-486a-aef3-e6e4d115f018)
+![](https://screensaver01.zap-hosting.com/index.php/s/CG5gARbSxC3RpTb/preview)
 
 Se não conseguir entrar no servidor e receber um erro de timeout, confira se o IP e a porta estão corretos e se o servidor está online. Você pode usar a seção de console no seu painel para ajudar a debugar seu servidor Palworld.
 

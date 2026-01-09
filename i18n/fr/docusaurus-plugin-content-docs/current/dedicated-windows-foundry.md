@@ -28,7 +28,7 @@ Créez un nouveau dossier quelque part sur votre serveur, dans cet exemple nous 
 
 Lancez simplement **steamcmd.exe** et attendez que le processus d’installation soit complètement terminé.
 
-![](https://github.com/zaphosting/docs/assets/42719082/ffb8e8a1-26e3-4d16-9baf-938e17ec1613)
+![](https://screensaver01.zap-hosting.com/index.php/s/nGsEGWDrSG7gBZs/preview)
 
 Dès que le message **Loading Steam API.... OK** s’affiche, le processus est terminé avec succès et vous pouvez commencer l’installation du serveur dédié Foundry dans la section suivante.
 
@@ -47,7 +47,7 @@ force_install_dir C:\Foundry-Server
 
 Lancez maintenant la commande `app_update 2915550` qui va démarrer le téléchargement. L’ID de l’application **2915550** correspond à l’application **Foundry**.
 
-![](https://github.com/zaphosting/docs/assets/42719082/b265a784-cf9a-43dc-b100-376f080e18f3)
+![](https://screensaver01.zap-hosting.com/index.php/s/5wtdbQbZoj6WbTN/preview)
 
 :::info
 Merci de ne pas interrompre le processus avant sa fin pour éviter les erreurs. Cela peut prendre un moment, mais ça vaut le coup d’être patient ! :)
@@ -87,7 +87,7 @@ Ces commandes vont automatiquement créer les règles de pare-feu nécessaires p
 
 Utilisez la fonction de recherche Windows pour ouvrir les **Paramètres du pare-feu Windows avec sécurité avancée**. Vous devrez peut-être cliquer sur **Paramètres avancés** pour ouvrir la fenêtre nécessaire si vous ouvrez la page de base du pare-feu Windows.
 
-![](https://github.com/zaphosting/docs/assets/42719082/5fb9f943-7e51-4d8f-9df4-2f5ff60857d3)
+![](https://screensaver01.zap-hosting.com/index.php/s/ZT2WzELZSBPrFsB/preview)
 
 Vous devez créer de nouvelles règles pour votre serveur Foundry. Pour cela, cliquez sur les règles entrantes et sortantes comme décrit ci-dessous et ajoutez-les pour les protocoles et ports suivants :
 - TCP entrant et sortant : 3724, 27015

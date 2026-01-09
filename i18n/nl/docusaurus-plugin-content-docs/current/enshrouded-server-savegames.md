@@ -36,7 +36,7 @@ Bij een standaard installatie staat de Steam map op je OS-schijf, op het pad: `C
 
 Als je deze map bereikt, zie je een characters-bestand samen met al je lokale savegames op één plek.
 
-![](https://github.com/zaphosting/docs/assets/42719082/31022018-3072-4b40-85f0-77f9da992ccc)
+![](https://screensaver01.zap-hosting.com/index.php/s/dyydLNzQt7ZWRPx/preview)
 
 :::note
 Als je expliciet **geen** gebruik maakt van Steam Cloud om op te slaan, vind je je save map in de volgende directory: `C://Users/[jouwgebruikersnaam]/Saved Games/Enshrouded`.
@@ -51,7 +51,7 @@ Je savegame back-uppen vanaf de server is simpel. Zodra je verbonden bent met je
 
 Hier zie je een bestand met willekeurige tekens, dat is je savegame. Klik er met de rechtermuisknop op en gebruik de **Download** knop om het lokaal op je apparaat op te slaan.
 
-![](https://github.com/zaphosting/docs/assets/42719082/e7c230a3-a2cb-4ae0-a0dc-6d2211edd06c)
+![](https://screensaver01.zap-hosting.com/index.php/s/wTcodeKXYq3RBfY/preview)
 
 ### Automatische Back-up
 
@@ -64,7 +64,7 @@ Net als bij back-uppen is het uploaden van je savegame makkelijk. Zorg eerst dat
 ../enshrouded/savegame/
 ```
 
-![](https://github.com/zaphosting/docs/assets/42719082/e465680f-65bc-456d-bd99-fbdff755defb)
+![](https://screensaver01.zap-hosting.com/index.php/s/gJW8wSapi4Bo2gw/preview)
 
 Sleep simpelweg je savegames in deze map via je FTP-client en ze worden geüpload naar je server.
 

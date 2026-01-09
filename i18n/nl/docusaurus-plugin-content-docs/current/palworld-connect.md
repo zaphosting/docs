@@ -26,7 +26,7 @@ We hebben nu ook een aparte **Palworld (Xbox)** gameversie beschikbaar op onze G
 
 Eerst moet je het IP en de poort van je Palworld server weten om direct te kunnen verbinden. Ga simpelweg naar je [ZAP-Hosting webinterface](https://zap-hosting.com/en/customer/) en houd het volledige IP en de poort bij de hand.
 
-![](https://github.com/zaphosting/docs/assets/42719082/62bcad5b-064c-45cd-a7f0-406a1148b15c)
+![](https://screensaver01.zap-hosting.com/index.php/s/DRxKHE7bP3FbFMo/preview)
 
 Als je je Palworld server als een externe dedicated server runt, is het IP dat van de hostmachine en de poort is degene die je in je configuratiebestand hebt ingesteld (standaard is dit 8211). Check onze [Server Configuratie](palworld-configuration.md) gids voor meer info over de poort.
 
@@ -34,7 +34,7 @@ Als je je Palworld server als een externe dedicated server runt, is het IP dat v
 
 Start Palworld via je game launcher. Kies in het hoofdmenu voor **Join Multiplayer Game**.
 
-![](https://github.com/zaphosting/docs/assets/42719082/fefc7ead-5098-4bdb-aa56-c9d78673d7e8)
+![](https://screensaver01.zap-hosting.com/index.php/s/TZzLAS29rnpPmi6/preview)
 
 In de dedicated server browser scroll je naar beneden. Vul je IP en poort in het onderste zoekveld in. Druk op **Connect** en je bent in je server.
 
@@ -42,7 +42,7 @@ In de dedicated server browser scroll je naar beneden. Vul je IP en poort in het
 Gebruik het onderste zoekveld, niet het bovenste. Het bovenste zoekveld zoekt servers op naam in de serverlijst.
 :::
 
-![](https://github.com/zaphosting/docs/assets/42719082/ae31ddee-8992-486a-aef3-e6e4d115f018)
+![](https://screensaver01.zap-hosting.com/index.php/s/CG5gARbSxC3RpTb/preview)
 
 Lukt het niet om verbinding te maken en krijg je een timeout? Check dan of het IP en de poort kloppen en of je server online is. Gebruik de console in je webinterface van je Palworld server om te debuggen.
 

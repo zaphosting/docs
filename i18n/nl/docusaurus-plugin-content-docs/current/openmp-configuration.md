@@ -45,7 +45,7 @@ De server moet gestopt zijn voordat je het config-bestand kunt bewerken. Als je 
 
 Voor gebruikers die het bestand en alle configuratie-opties direct willen aanpassen, kun je dit doen via de **Configs** sectie in de webinterface van je game server door op de blauwe bewerkknop te klikken, zoals hieronder te zien is:
 
-![](https://github.com/zaphosting/docs/assets/42719082/6a147644-8bfb-4e5d-bff5-3e2c5d999e64)
+![](https://screensaver01.zap-hosting.com/index.php/s/izzL3f9FaGdc9ay/preview)
 
 Er opent dan een teksteditor direct op de site waarmee je het bestand kunt aanpassen.
 

@@ -24,11 +24,11 @@ Per iniziare, devi montare e avviare il server dedicato dall’installer ISO di 
 ### Montare l’ISO tramite il pannello web
 Vai alla sezione **Installazione Iniziale** nel pannello web del tuo server dedicato. Qui devi prima cliccare il pulsante verde **abilita iLO**. Aspetta qualche secondo finché le sezioni nascoste non diventano visibili. Potrebbe essere necessario aggiornare la pagina per caricarla completamente.
 
-![](https://github.com/zaphosting/docs/assets/42719082/b457f17a-0bc6-42db-91ec-a553fd456936)
+![](https://screensaver01.zap-hosting.com/index.php/s/r6XNqDqQeEec7wW/preview)
 
 Poi seleziona un ISO **Proxmox VE** dal menu a tendina. Ti consigliamo di usare sempre l’ultima versione per restare aggiornato con le novità. Ora clicca il pulsante verde **Inserisci**.
 
-![](https://github.com/zaphosting/docs/assets/42719082/2b0baf71-d683-46ad-a34a-bfda9d71939d)
+![](https://screensaver01.zap-hosting.com/index.php/s/xXfWzqtE6JMG9Ka/preview)
 
 Infine devi riavviare il server dedicato per poter avviare il boot dall’ISO. Puoi farlo tramite il pulsante di riavvio sotto il passo 3.
 
@@ -53,25 +53,25 @@ Il browser potrebbe mostrarti un avviso di rischio sicurezza, ignoralo e accetta
 
 Una volta loggato, nella sezione **Panoramica** trova e clicca sul link **HTML5** sotto `Console remota integrata`. Si aprirà una finestra overlay.
 
-![](https://github.com/zaphosting/docs/assets/42719082/3b9ce97e-f974-439b-8e57-ced05f248ef9)
+![](https://screensaver01.zap-hosting.com/index.php/s/HPWJ3oksyo3SdW6/preview)
 
 Dovresti vedere l’installazione di Proxmox in corso. Usa le frecce direzionali, `enter` e `esc` per navigare. Ti consigliamo di scegliere la versione **Grafica** di Proxmox, che è quella seguita in questa guida.
 
-![](https://github.com/zaphosting/docs/assets/42719082/614218f2-df12-43ad-95fe-39026b900141)
+![](https://screensaver01.zap-hosting.com/index.php/s/MGqm3EAxYc8EBQw/preview)
 
 Aspetta qualche secondo che l’installazione prosegua. Devi accettare il contratto EULA di Proxmox cliccando il pulsante **Accetto** in basso a destra. Nella pagina successiva seleziona il disco di destinazione per l’installazione. Se usi un singolo disco, le impostazioni di default sono già ottimizzate, quindi puoi continuare cliccando **Avanti**.
 
-![](https://github.com/zaphosting/docs/assets/42719082/090c1f2e-20fe-48f3-b4b4-070c197f4825)
+![](https://screensaver01.zap-hosting.com/index.php/s/pZ8FiFJT6tJKFsS/preview)
 
 :::note
 Se vuoi configurare un RAID (alcuni server dedicati hanno due dischi), usa il pulsante **Opzioni** per scegliere la modalità `RAID`. Consigliamo `RAID1` che fa il mirror dei due dischi.
 
-![](https://github.com/zaphosting/docs/assets/42719082/44e3b6ba-07f3-4313-8d36-b185a6da8089)
+![](https://screensaver01.zap-hosting.com/index.php/s/WqiYPowiLttzoeZ/preview)
 :::
 
 Nella sezione successiva imposta lingua e tastiera, che dovrebbero essere rilevate automaticamente. Compila e continua.
 
-![](https://github.com/zaphosting/docs/assets/42719082/931e066c-9868-48d9-a638-f07c932579d2)
+![](https://screensaver01.zap-hosting.com/index.php/s/As4J4NzytcZFrHp/preview)
 
 Ora devi impostare una password forte e un indirizzo email. L’email servirà al pannello per inviarti notifiche e alert importanti.
 
@@ -79,15 +79,15 @@ Ora devi impostare una password forte e un indirizzo email. L’email servirà a
 Ricordati la password, ti servirà per il primo accesso al pannello dopo l’installazione!
 :::
 
-![](https://github.com/zaphosting/docs/assets/42719082/617a504c-9520-4b89-93c3-81fba06e5fdc)
+![](https://screensaver01.zap-hosting.com/index.php/s/QAEaygacSXNfgot/preview)
 
 Ultimo step: configura la rete. Seleziona l’interfaccia di gestione disponibile e un hostname per il server.
 
-![](https://github.com/zaphosting/docs/assets/42719082/d694a5af-20e2-4c1b-9cdb-c1a8ca684cde)
+![](https://screensaver01.zap-hosting.com/index.php/s/EZDzsaq4aXpP4we/preview)
 
 Ora vai nella sezione **Indirizzi IP** nel pannello web del server dedicato per trovare un IP libero.
 
-![](https://github.com/zaphosting/docs/assets/42719082/e358f264-8535-4280-a1c5-0a15f4b99ed9)
+![](https://screensaver01.zap-hosting.com/index.php/s/KQC4DLj6LxTX4io/preview)
 
 Scegli un indirizzo IP da usare per il pannello Proxmox. Inserisci IP, Netmask e Gateway nell’installer usando i dati del pannello web. Per il DNS puoi mettere `8.8.8.8`, il DNS pubblico di Google.
 
@@ -106,7 +106,7 @@ Se il link non funziona, probabilmente hai fatto qualche errore nella configuraz
 
 Ora che sei nel pannello, fai il login con username `root` e la password che hai impostato durante l’installazione. Assicurati che il **Realm** sia impostato su `Linux PAM standard authentication`.
 
-![](https://github.com/zaphosting/docs/assets/42719082/4072c2ac-6f5c-4350-a5df-0635b1f433c0)
+![](https://screensaver01.zap-hosting.com/index.php/s/iKcErA9Bx5LpB3n/preview)
 
 Dopo il login, puoi ignorare il messaggio di sottoscrizione cliccando **OK**. E voilà, hai installato Proxmox VE sul tuo server dedicato e sei dentro al pannello!
 
@@ -115,33 +115,33 @@ Dopo il login, puoi ignorare il messaggio di sottoscrizione cliccando **OK**. E 
 ## Crea la tua prima VM
 Qui ti spieghiamo i passi base per creare la tua prima Virtual Machine (VM) dal pannello Proxmox. Vai su `local (panel)` e seleziona la sezione **ISO Images**. Qui puoi caricare manualmente un file `.iso` oppure far scaricare a Proxmox l’ISO fornendo l’URL diretto.
 
-![](https://github.com/zaphosting/docs/assets/42719082/8182bd73-690f-434f-8394-5fdca6889a74)
+![](https://screensaver01.zap-hosting.com/index.php/s/GJjxxkPAkiRM7Fw/preview)
 
 Dopo aver caricato l’ISO, clicca in alto a destra su **Crea VM**. Si aprirà un menu con tante opzioni.
 
 Prima configura le impostazioni generali. Di default il `Node` sarà quello predefinito (qui `panel`). Devi inserire un ID VM unico, che di default parte da `100` o si incrementa se hai già VM attive. Dai un nome alla VM, può essere qualsiasi cosa.
 
-![](https://github.com/zaphosting/docs/assets/42719082/bcd2eb41-a8fc-4a44-9abb-072f9e408d10)
+![](https://screensaver01.zap-hosting.com/index.php/s/6LmXZ26bnNY46yS/preview)
 
 Passa alle impostazioni OS. Qui seleziona l’immagine ISO che hai caricato prima. Imposta anche tipo e versione del sistema operativo.
 
-![](https://github.com/zaphosting/docs/assets/42719082/05d51c46-5a69-4cd7-b2e6-c3472437caf9)
+![](https://screensaver01.zap-hosting.com/index.php/s/QWjGQ7grR8ttaqZ/preview)
 
 Consigliamo di lasciare le impostazioni di sistema di default, sono già ottimizzate. Vai alla sezione disco, dove puoi scegliere la dimensione del disco per la VM e il pool di storage (di default `local-lvm`). Le altre impostazioni vanno bene così.
 
-![](https://github.com/zaphosting/docs/assets/42719082/26f11d42-8884-4bb5-b0fe-d7b4df7885a5)
+![](https://screensaver01.zap-hosting.com/index.php/s/2XJyydoZwaEMDeZ/preview)
 
 Poi la sezione CPU, dove puoi definire socket e numero di core da assegnare. Configura come preferisci.
 
-![](https://github.com/zaphosting/docs/assets/42719082/91103b8d-dadc-4305-a3fe-bf4c8f96fc27)
+![](https://screensaver01.zap-hosting.com/index.php/s/RrWWT2wMRaQzde7/preview)
 
 Anche nella sezione Memoria puoi scegliere quanta RAM dare alla VM e lo stato del ballooning.
 
-![](https://github.com/zaphosting/docs/assets/42719082/ac0048cb-0bd4-4791-9a9f-857e5037955d)
+![](https://screensaver01.zap-hosting.com/index.php/s/DaXCsYLwWeMr9aJ/preview)
 
 Consigliamo di lasciare le impostazioni di rete di default per ora. Infine rivedi tutte le impostazioni della VM. Ti consigliamo di attivare l’opzione `Avvia dopo creazione` così la VM parte subito. Se tutto ok, clicca **Fine** per creare la VM.
 
-![](https://github.com/zaphosting/docs/assets/42719082/d14a8b3d-e9bb-4feb-8049-428e84c1e917)
+![](https://screensaver01.zap-hosting.com/index.php/s/EfNAZ4idcxizDsa/preview)
 
 Ecco fatto, hai creato la tua prima VM nel pannello Proxmox! La vedrai nella lista server a sinistra nel pannello.
 

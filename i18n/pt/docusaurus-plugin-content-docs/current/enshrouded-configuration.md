@@ -46,7 +46,7 @@ O servidor precisa estar parado antes de editar o arquivo de configuração; edi
 
 Alternativamente, para quem quer editar o arquivo cru diretamente, você pode acessar isso indo na seção **Configs** no webinterface do seu servidor de jogos e clicando no botão azul de editar arquivo, como mostrado abaixo:
 
-![](https://github.com/zaphosting/docs/assets/42719082/dc4699bc-33fa-447d-ac59-2960b3b080f9)
+![](https://screensaver01.zap-hosting.com/index.php/s/jPep5HzYtWnJTxT/preview)
 
 Isso vai abrir um editor de texto direto no site para você editar.
 

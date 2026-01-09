@@ -137,7 +137,7 @@ Te komendy automatycznie utworzą reguły zapory, które pozwolą na dostęp do 
 
 Wyszukaj w Windows **Ustawienia Zapory Windows z Zaawansowanym Bezpieczeństwem**. Jeśli otworzy się podstawowa zapora, kliknij **Ustawienia Zaawansowane**, aby przejść do właściwego okna.
 
-![](https://github.com/zaphosting/docs/assets/42719082/5fb9f943-7e51-4d8f-9df4-2f5ff60857d3)
+![](https://screensaver01.zap-hosting.com/index.php/s/ZT2WzELZSBPrFsB/preview)
 
 Musisz utworzyć nowe reguły przychodzące i wychodzące dla serwera FS2025. Dodaj je dla następujących protokołów i portów:
 - TCP przychodzące i wychodzące: 8080, 10823

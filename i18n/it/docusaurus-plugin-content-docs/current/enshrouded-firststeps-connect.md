@@ -29,7 +29,7 @@ Ti serviranno tutte le informazioni necessarie per collegarti al tuo server. Puo
 
 Con queste informazioni dovresti riuscire a trovare il tuo server e assicurarti di collegarti a quello giusto.
 
-![img](https://github.com/zaphosting/docs/assets/42719082/aaeee832-8cd0-4ac0-9769-f498eace4892)
+![img](https://screensaver01.zap-hosting.com/index.php/s/32ftNaw9rjA27a3/preview)
 
 
 

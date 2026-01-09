@@ -23,15 +23,15 @@ APIキーをリクエストするには、制限のないSteamアカウントが
 
 Steamアカウントが準備できたら、自分のSteam Web APIキーをリクエストできます。Steamアカウント名とパスワードで[Steamの公式サイト](https://steamcommunity.com/dev/apikey)にログインしてください。
 
-![](https://github.com/zaphosting/docs/assets/42719082/56be5337-a458-425b-86b0-e0c5fa94abab)
+![](https://screensaver01.zap-hosting.com/index.php/s/Wm8rdwwFPbt7D5W/preview)
 
 ログイン後、ドメイン名を入力し、Steam Web APIの利用規約に同意して、**Register**ボタンをクリックします。ドメインは**サーバーのIPアドレス**（ポートなし）を設定してください。
 
-![](https://github.com/zaphosting/docs/assets/42719082/334e89a9-0eef-4ea5-b100-5a1e4b8cdc31)
+![](https://screensaver01.zap-hosting.com/index.php/s/GNmZXzTn9JJ8cBo/preview)
 
 成功すると、以下のように自分のSteam Web APIキーが表示されます。
 
-![](https://github.com/zaphosting/docs/assets/42719082/a99f463b-93ae-408b-b038-29e366b30256)
+![](https://screensaver01.zap-hosting.com/index.php/s/m8WoXg3WcjeaQrW/preview)
 
 ## APIキーの有効化
 

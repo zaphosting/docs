@@ -37,7 +37,7 @@ import modpacks from '@site/data/lists/minecraft-modpacks.json';
 
 روح لصفحة المود أو المودباك اللي اخترته واضغط على تبويب "Files".
 
-![](https://github.com/Yoshlix/docs/assets/26007280/cc528cf6-9fc8-4524-aca0-b954e24716f8)
+![](https://screensaver01.zap-hosting.com/index.php/s/abryep5KdQcqpAi/preview)
 
 
 دور على النسخة اللي تبيها واضغط عليها عشان تروح لقسم "تفاصيل الملف".
@@ -45,7 +45,7 @@ import modpacks from '@site/data/lists/minecraft-modpacks.json';
 :::tip
 تقدر تصفي حسب النسخة ومودلودر باستخدام القائمة المنسدلة في أعلى تبويب "Files" المختار.
 
-![](https://github.com/Yoshlix/docs/assets/26007280/6867b2f2-e9db-4a4c-be88-b9b22b800e72)
+![](https://screensaver01.zap-hosting.com/index.php/s/HoJYzW7bkC4Z6oL/preview)
 
 :::
 
@@ -56,14 +56,14 @@ import TabItem from '@theme/TabItem';
 <TabItem value="Mods" label="للمودات" default>
 في قسم "تفاصيل الملف"، اضغط على زر "Download". احفظ الملف في مكان تعرفه، راح تحتاجه لاحقًا.
 
-![](https://github.com/Yoshlix/docs/assets/26007280/7b84ae33-1bef-4568-80d7-ef651a654b08)
+![](https://screensaver01.zap-hosting.com/index.php/s/7ZcEHsmmqZWdZB5/preview)
 
 </TabItem>
 
 <TabItem value="Modpacks" label="للمودباكات">
 في قسم "تفاصيل الملف"، انزل تحت حتى تشوف "ملفات إضافية" واضغط على الثلاث نقاط، اختار "Download file". احفظ الملف في مكان تعرفه، راح تحتاجه لاحقًا.
 
-![](https://github.com/Yoshlix/docs/assets/26007280/49fb9317-fdd3-474e-8140-b78b102c5f3d)
+![](https://screensaver01.zap-hosting.com/index.php/s/YzH5Gz4w3yJZjx3/preview)
 
 </TabItem>
 </Tabs>
@@ -72,7 +72,7 @@ import TabItem from '@theme/TabItem';
 
 دور على الملف اللي حملته على جهازك واضغط عليه بالزر اليمين، اختار "Extract All...". اختار مجلد تحب تفك فيه الملفات. احفظ مكانه!
 
-![](https://github.com/Yoshlix/docs/assets/26007280/edbc753d-1906-4d81-9f05-354ff48ceebb)
+![](https://screensaver01.zap-hosting.com/index.php/s/y9SWDpX2HYgekbQ/preview)
 
 ![extract the file german version](https://screensaver01.zap-hosting.com/index.php/s/iE9XFMmrjj7b7ST/preview)
 
@@ -87,28 +87,28 @@ import TabItem from '@theme/TabItem';
 
 في واجهة الويب الخاصة بـ Zap-Hosting، اختار سيرفر الألعاب الخاص فيك وروح لـ "الألعاب" في قسم الإعدادات.
 
-![](https://github.com/Yoshlix/docs/assets/26007280/47e88856-0120-408a-8bec-41e54e3b0738)
+![](https://screensaver01.zap-hosting.com/index.php/s/Ne5B9CnHrbwgmfW/preview)
 
 وسع قسم "الألعاب المتاحة" وابحث عن مودلودر اللي تحتاجه (Forge لمودات / مودباكات Forge، Fabric لمودات / مودباكات Fabric). اضغط على زر التحميل الأخضر.
 
-![](https://github.com/Yoshlix/docs/assets/26007280/e3b4e5d3-11c9-4f09-ae46-27cea93a58a3)
+![](https://screensaver01.zap-hosting.com/index.php/s/dnBCddmXGAMpMj8/preview)
 
 
 اضغط على القائمة المنسدلة تحت "نسخة اللعبة" واختر نسخة ماينكرافت اللي تناسب نسخة المود أو المودباك. بالنسبة لـ Forge، تقدر تختار أحدث نسخة أو النسخة الموصى بها. جرب أحدث نسخة أول، وإذا ما اشتغل السيرفر مثل ما تتوقع، ارجع وجرب النسخة الموصى بها. اضغط على زر "قبول وتثبيت".
 
-![](https://github.com/Yoshlix/docs/assets/26007280/3530466f-bd58-4d0e-9ca3-8d964ac76d80)
+![](https://screensaver01.zap-hosting.com/index.php/s/gCdcwLzc4Hxptqp/preview)
 
 
 :::tip
 لو ما تعرف أي نسخة ماينكرافت تحتاج، ارجع لصفحة "تفاصيل الملف" على CurseForge. جنب أيقونة يد التحكم تقدر تشوف النسخة.
 
-![](https://github.com/Yoshlix/docs/assets/26007280/89f751c1-7179-4107-b8bc-7c4381a7d94c)
+![](https://screensaver01.zap-hosting.com/index.php/s/9TsCBRP9PGQL2fC/preview)
 
 :::
 
 بعد ما يخلص تثبيت اللعبة، راح تشوف زر أزرق جنب اسم لعبتك (مثلاً Forge، Fabric). اضغط على الزر هذا لتفعيل اللعبة.
 
-![](https://github.com/Yoshlix/docs/assets/26007280/53cf9569-3529-42fb-9a7d-6ae636ca4f9c)
+![](https://screensaver01.zap-hosting.com/index.php/s/YzzBzSJjnsaqKS2/preview)
 ![activate the game german version](https://screensaver01.zap-hosting.com/index.php/s/GiFsA7JmGPd4LCB/preview)
 
 
@@ -119,7 +119,7 @@ import TabItem from '@theme/TabItem';
 ### رفع مود
 
 بعد ما تتصل، ادخل لمجلد لعبتك (مثلاً minecraft-forge، minecraft-fabric). افتح مجلد mods وبس اسحب ملفات المود اللي حملتها وحطها داخل المجلد.
-![](https://github.com/Yoshlix/docs/assets/26007280/8619fc4f-4fab-415a-9692-f74f8930da3f)
+![](https://screensaver01.zap-hosting.com/index.php/s/Zwm9SYdgK6MKBdz/preview)
 
 بعد ما يخلص الرفع، تقدر تشغل سيرفرك.
 
@@ -127,7 +127,7 @@ import TabItem from '@theme/TabItem';
 
 بعد ما تتصل، ادخل لمجلد لعبتك (مثلاً minecraft-forge، minecraft-fabric). احذف مجلدات world و mods و config و defaultconfig من سيرفرك. الحين ارفع كل المجلدات من المجلد المفكوك اللي حملته قبل، ما عدا مجلدات jre و libraries. بس اختار كل المجلدات واسحبها لمجلد السيرفر.
 
-![](https://github.com/Yoshlix/docs/assets/26007280/1424a94d-aa96-40ca-8b30-7c1905e67c21)
+![](https://screensaver01.zap-hosting.com/index.php/s/PEyqrSES4xPGaFz/preview)
 
 بعد ما يخلص الرفع، تقدر تشغل سيرفرك.
 

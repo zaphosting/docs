@@ -68,7 +68,7 @@ No painel, você pode usar o botão **Conexão Direta**. Isso deve abrir seu pro
 
 Alternativamente, use as credenciais fornecidas na página FTP-Browser para conectar manualmente pelo seu cliente FTP.
 
-![](https://github.com/zaphosting/docs/assets/42719082/af255f46-3371-441e-b6db-4348e6be2e54)
+![](https://screensaver01.zap-hosting.com/index.php/s/nWYPNMRbnrDbDLF/preview)
 
 Agora faça o upload dos arquivos PAK do mod que você preparou. Eles devem ser enviados para o seguinte diretório:
 ```

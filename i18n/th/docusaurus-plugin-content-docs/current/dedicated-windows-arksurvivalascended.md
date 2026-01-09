@@ -27,7 +27,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 แค่รัน **steamcmd.exe** แล้วรอจนกระบวนการติดตั้งเสร็จสมบูรณ์
 
-![](https://github.com/zaphosting/docs/assets/42719082/ffb8e8a1-26e3-4d16-9baf-938e17ec1613)
+![](https://screensaver01.zap-hosting.com/index.php/s/nGsEGWDrSG7gBZs/preview)
 
 เมื่อข้อความ **Loading Steam API.... OK** ปรากฏขึ้น แสดงว่ากระบวนการเสร็จสมบูรณ์แล้ว คุณสามารถเริ่มติดตั้ง ARK: Survival Ascended dedicated server ในส่วนถัดไปได้เลย
 
@@ -46,7 +46,7 @@ force_install_dir C:\ARK-Survival-Ascended-Server
 
 ตอนนี้รันคำสั่ง `app_update 2430930` เพื่อเริ่มดาวน์โหลด App ID **2430930** คือแอปพลิเคชัน **ARK: Survival Ascended Dedicated Server**
 
-![](https://github.com/zaphosting/docs/assets/42719082/98d7c643-04be-488b-8831-86606363f98c)
+![](https://screensaver01.zap-hosting.com/index.php/s/DSMpETJYtkciNHT/preview)
 
 :::info
 อย่าขัดจังหวะกระบวนการจนกว่าจะเสร็จสมบูรณ์เพื่อหลีกเลี่ยงข้อผิดพลาด อาจใช้เวลาสักครู่ แต่คุ้มค่าที่จะรอ! :)
@@ -115,7 +115,7 @@ New-NetFirewallRule -DisplayName "ARKSA Server" -Direction Outbound -LocalPort 7
 
 ใช้ฟังก์ชันค้นหาของ Windows เพื่อเปิด **การตั้งค่าไฟร์วอลล์ Windows พร้อมความปลอดภัยขั้นสูง** คุณอาจต้องกด **Advanced Settings** เพื่อเปิดหน้าต่างที่จำเป็นหากเปิดหน้าไฟร์วอลล์ Windows ปกติ
 
-![](https://github.com/zaphosting/docs/assets/42719082/5fb9f943-7e51-4d8f-9df4-2f5ff60857d3)
+![](https://screensaver01.zap-hosting.com/index.php/s/ZT2WzELZSBPrFsB/preview)
 
 คุณต้องสร้างกฎใหม่สำหรับเซิร์ฟเวอร์ Ark: Survival Ascended ของคุณ ทำได้โดยคลิกที่กฎขาเข้าและขาออกตามที่อธิบายด้านล่าง และเพิ่มกฎสำหรับโปรโตคอลและพอร์ตดังนี้:
 - TCP ขาเข้าและขาออก: 27020

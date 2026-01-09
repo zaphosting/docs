@@ -35,13 +35,13 @@ De server moet gestopt zijn voordat je de config kunt aanpassen. Als je de confi
 
 Ga simpelweg naar de **Configs** sectie in de webinterface van je game server en klik op de blauwe knop om het bestand te bewerken, zoals hieronder:
 
-![](https://github.com/zaphosting/docs/assets/42719082/6a147644-8bfb-4e5d-bff5-3e2c5d999e64)
+![](https://screensaver01.zap-hosting.com/index.php/s/izzL3f9FaGdc9ay/preview)
 
 Er opent een teksteditor waarin je het bestand direct kunt aanpassen. Zoek in het bestand naar de `rcon` sectie. Zet hier de `enable` parameter op `true`, bijvoorbeeld: `"enable":true`. Gebruik `CTRL+F` om de zoekfunctie van je browser te openen, dat helpt bij het vinden.
 
 In dezelfde sectie stel je ook een wachtwoord in voor je RCON toegang door de `password` parameter aan te passen. Dit voorkomt ongeautoriseerde toegang en moet privé blijven.
 
-![](https://github.com/zaphosting/docs/assets/42719082/d3fbb8ac-b836-4e12-a7cf-d1b4961925d7)
+![](https://screensaver01.zap-hosting.com/index.php/s/WPPbd6C7k6m5Ja7/preview)
 
 </TabItem>
 

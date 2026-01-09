@@ -68,7 +68,7 @@ In het webinterface kun je de **Directe Verbinding** knop gebruiken. Dit opent j
 
 Of gebruik de inloggegevens die op de FTP-Browser pagina staan om handmatig in te loggen in je FTP-client.
 
-![](https://github.com/zaphosting/docs/assets/42719082/af255f46-3371-441e-b6db-4348e6be2e54)
+![](https://screensaver01.zap-hosting.com/index.php/s/nWYPNMRbnrDbDLF/preview)
 
 Upload nu de PAK-bestanden van de mod die je hebt klaargezet naar de volgende map:
 ```

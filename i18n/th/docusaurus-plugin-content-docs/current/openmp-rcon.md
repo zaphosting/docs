@@ -35,13 +35,13 @@ import TabItem from '@theme/TabItem';
 
 แค่ไปที่ส่วน **Configs** ในเว็บอินเทอร์เฟซของเซิร์ฟเวอร์เกมของคุณ แล้วกดปุ่มแก้ไขไฟล์สีน้ำเงิน ตามภาพด้านล่างนี้:
 
-![](https://github.com/zaphosting/docs/assets/42719082/6a147644-8bfb-4e5d-bff5-3e2c5d999e64)
+![](https://screensaver01.zap-hosting.com/index.php/s/izzL3f9FaGdc9ay/preview)
 
 จะมีตัวแก้ไขข้อความเปิดขึ้นมาให้คุณแก้ไขไฟล์โดยตรง ในไฟล์ให้ค้นหาส่วน `rcon` แล้วตั้งค่าพารามิเตอร์ `enable` เป็น `true` เช่น `"enable":true` เราแนะนำให้ใช้ `CTRL+F` เพื่อเปิดเครื่องมือค้นหาในเบราว์เซอร์ช่วยหาได้ง่ายขึ้น
 
 ในส่วนเดียวกันนี้ คุณควรกำหนดรหัสผ่านสำหรับการเข้าถึงอินเทอร์เฟซ RCON โดยปรับพารามิเตอร์ `password` เพื่อป้องกันการเข้าถึงโดยไม่ได้รับอนุญาตและเก็บให้เป็นความลับ
 
-![](https://github.com/zaphosting/docs/assets/42719082/d3fbb8ac-b836-4e12-a7cf-d1b4961925d7)
+![](https://screensaver01.zap-hosting.com/index.php/s/WPPbd6C7k6m5Ja7/preview)
 
 </TabItem>
 

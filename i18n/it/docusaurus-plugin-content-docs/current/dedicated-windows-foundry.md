@@ -28,7 +28,7 @@ Crea una nuova cartella da qualche parte sul server, in questo esempio la chiame
 
 Lancia semplicemente **steamcmd.exe** e aspetta che l’installazione sia completata.
 
-![](https://github.com/zaphosting/docs/assets/42719082/ffb8e8a1-26e3-4d16-9baf-938e17ec1613)
+![](https://screensaver01.zap-hosting.com/index.php/s/nGsEGWDrSG7gBZs/preview)
 
 Quando vedi il messaggio **Loading Steam API.... OK**, il processo è finito con successo e puoi passare all’installazione del server Foundry nella sezione successiva.
 
@@ -47,7 +47,7 @@ force_install_dir C:\Foundry-Server
 
 Ora esegui il comando `app_update 2915550` per iniziare il download. L’App ID **2915550** è l’applicazione **Foundry**.
 
-![](https://github.com/zaphosting/docs/assets/42719082/b265a784-cf9a-43dc-b100-376f080e18f3)
+![](https://screensaver01.zap-hosting.com/index.php/s/5wtdbQbZoj6WbTN/preview)
 
 :::info
 Non interrompere il processo prima che sia completato per evitare errori. Può richiedere un po’ di tempo, ma ne vale la pena! :)
@@ -87,7 +87,7 @@ Questi comandi creeranno automaticamente le regole firewall necessarie per rende
 
 Usa la ricerca di Windows per aprire **Impostazioni Windows Firewall con sicurezza avanzata**. Potresti dover cliccare su **Impostazioni avanzate** per aprire la finestra corretta se apri la pagina base del firewall.
 
-![](https://github.com/zaphosting/docs/assets/42719082/5fb9f943-7e51-4d8f-9df4-2f5ff60857d3)
+![](https://screensaver01.zap-hosting.com/index.php/s/ZT2WzELZSBPrFsB/preview)
 
 Devi creare nuove regole per il tuo server Foundry. Per farlo, clicca sulle regole in entrata e in uscita come descritto e aggiungi le porte e protocolli seguenti:
 - TCP in entrata e uscita: 3724, 27015

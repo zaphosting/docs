@@ -92,7 +92,7 @@ New-NetFirewallRule -DisplayName "RageMP Server" -Direction Outbound -LocalPort 
 
 Windowsの検索で**Windows Defender ファイアウォールの詳細設定**を開こう。基本のファイアウォール画面からは**詳細設定**をクリックして開く必要があるかも。
 
-![image](https://github.com/zaphosting/docs/assets/42719082/5fb9f943-7e51-4d8f-9df4-2f5ff60857d3)
+![image](https://screensaver01.zap-hosting.com/index.php/s/ZT2WzELZSBPrFsB/preview)
 
 RageMPサーバー用に新しいルールを作成しよう。以下のプロトコルとポートで、受信ルールと送信ルールの両方を追加してね：
 

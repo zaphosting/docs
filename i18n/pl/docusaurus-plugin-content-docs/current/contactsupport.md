@@ -21,7 +21,7 @@ Aktualny status wszystkich naszych usług, w tym Twojego serwera gier, znajdzies
 :::tip
 Na stronie statusu możesz nawet zapisać się na powiadomienia e-mail o stanie dowolnej usługi w naszej sieci! Wystarczy kliknąć strzałkę w prawym górnym rogu, wybrać zakres i podać adres e-mail, na który chcesz otrzymywać powiadomienia.
 
-![](https://github.com/zaphosting/docs/assets/42719082/2758b2b4-29e1-433f-9e40-76ca70fc90b0)
+![](https://screensaver01.zap-hosting.com/index.php/s/fjFET6mF4XCrBSX/preview)
 :::
 
 Jeśli produkt, z którym masz problem, jest obecnie dotknięty awarią, radzimy poczekać na jej rozwiązanie. Nasi technicy są automatycznie powiadamiani o wszelkich przerwach i pracują nad naprawą najszybciej, jak to możliwe.
@@ -41,7 +41,7 @@ Do systemu ticketów dostaniesz się przez ikonę ticketu na górnym pasku nawig
 
 Na stronie możesz przeglądać swoje aktywne i poprzednie tickety oraz tworzyć nowe.
 
-![](https://github.com/zaphosting/docs/assets/42719082/be474363-21b1-4e7c-8f55-d7fd1e70ceed)
+![](https://screensaver01.zap-hosting.com/index.php/s/7E5xtP3oZpGyr79/preview)
 
 ## Tworzenie nowego ticketu
 
@@ -49,7 +49,7 @@ Jeśli nadal potrzebujesz wsparcia, skontaktuj się z naszym oficjalnym supporte
 
 Zacznij od kliknięcia przycisku **Utwórz ticket**. Możesz wybrać zwykły ticket lub ticket **Speed-UP**.
 
-![](https://github.com/zaphosting/docs/assets/42719082/22af5076-bcfc-453f-b4e2-510c2133ef09)
+![](https://screensaver01.zap-hosting.com/index.php/s/K2xxDEYkJFPN5C2/preview)
 
 Następnie wypełnij formularz wszystkimi niezbędnymi szczegółami dotyczącymi problemu i podjętych kroków rozwiązywania.
 
@@ -59,7 +59,7 @@ Oto lista przydatnych informacji, które możesz podać:
 - Szczegółowy opis problemu. Zadaj sobie pytania: Kiedy problem się zaczął? Jak często występuje? Czy próbowałeś już jakichś rozwiązań przed zgłoszeniem?
 - Dodatkowe informacje, np. zrzuty ekranu błędów, logi i wszystko, co może być pomocne.
 
-![](https://github.com/zaphosting/docs/assets/42719082/361732b1-2ac9-45db-be6e-81e20951c498)
+![](https://screensaver01.zap-hosting.com/index.php/s/mL5Zsi7EmqQiLnC/preview)
 
 Po wypełnieniu formularza kliknij **Wyślij ticket do supportu**, aby przesłać zgłoszenie do naszego zespołu!
 

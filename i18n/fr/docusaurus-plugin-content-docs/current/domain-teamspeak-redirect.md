@@ -37,7 +37,7 @@ Pour cette fonction de configuration rapide, tu dois [acheter un domaine parfait
 
 Dans notre exemple, on crée un nouveau sous-domaine avec le domaine `.zap.cloud`, qui nous redirigera vers notre serveur TeamSpeak 3 quand on l’utilise.
 
-![](https://github.com/zaphosting/docs/assets/42719082/5b311ff1-625c-4f6d-82b8-6847d432beb9)
+![](https://screensaver01.zap-hosting.com/index.php/s/Mi3wK7cY639Rp3x/preview)
 
 :::note
 Note que la propagation du domaine peut prendre jusqu’à 3 heures avant de fonctionner.

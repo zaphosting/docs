@@ -36,7 +36,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 เมื่อคุณเข้าไปถึงโฟลเดอร์นี้ คุณจะเห็นไฟล์ตัวละครพร้อมกับเซฟเกมในเครื่องทั้งหมดของคุณรวมอยู่ในที่เดียว
 
-![](https://github.com/zaphosting/docs/assets/42719082/31022018-3072-4b40-85f0-77f9da992ccc)
+![](https://screensaver01.zap-hosting.com/index.php/s/dyydLNzQt7ZWRPx/preview)
 
 :::note
 ถ้าคุณ **ไม่ได้** ใช้ Steam Cloud ในการบันทึก คุณจะพบโฟลเดอร์เซฟเกมของคุณที่ไดเรกทอรีนี้: `C://Users/[youruser]/Saved Games/Enshrouded`
@@ -51,7 +51,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ที่นี่คุณจะเห็นไฟล์ที่มีชื่อเป็นตัวอักษรสุ่ม ซึ่งก็คือเซฟเกมของคุณ แค่คลิกขวาที่ไฟล์แล้วเลือกปุ่ม **ดาวน์โหลด** เพื่อบันทึกไฟล์ลงเครื่องของคุณ
 
-![](https://github.com/zaphosting/docs/assets/42719082/e7c230a3-a2cb-4ae0-a0dc-6d2211edd06c)
+![](https://screensaver01.zap-hosting.com/index.php/s/wTcodeKXYq3RBfY/preview)
 
 ### การสำรองข้อมูลอัตโนมัติ
 
@@ -64,7 +64,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 ../enshrouded/savegame/
 ```
 
-![](https://github.com/zaphosting/docs/assets/42719082/e465680f-65bc-456d-bd99-fbdff755defb)
+![](https://screensaver01.zap-hosting.com/index.php/s/gJW8wSapi4Bo2gw/preview)
 
 แค่ลากและวางเซฟเกมของคุณลงในโฟลเดอร์นี้ผ่าน FTP Client แล้วไฟล์จะถูกอัปโหลดไปยังเซิร์ฟเวอร์ของคุณทันที
 

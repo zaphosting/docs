@@ -41,7 +41,7 @@ Agora clique no botão verde **+** para abrir o menu onde você pode enviar seu 
 O link deve apontar para o anúncio criado para esse propósito. Se o link não contiver nenhuma publicidade, ele será recusado.
 :::
 
-![](https://github.com/zaphosting/docs/assets/42719082/d94273e7-3c97-4d62-a77a-7901d0293c7f)
+![](https://screensaver01.zap-hosting.com/index.php/s/keEHsk3E5jfxWEP/preview)
 
 
 
@@ -49,7 +49,7 @@ O link deve apontar para o anúncio criado para esse propósito. Se o link não 
 
 Você pode transferir seu saldo de Publicidade Comunitária para sua caixa de dinheiro (ZAP Coins) ou para dinheiro real. Volte para a página de [Publicidade Comunitária](https://zap-hosting.com/en/customer/communityads/) e clique no botão azul **Pagamento/Transferência**.
 
-![](https://github.com/zaphosting/docs/assets/42719082/076c45aa-2851-4a0d-b5ed-27ca57102b15)
+![](https://screensaver01.zap-hosting.com/index.php/s/cMKXcgtQXs48Xs2/preview)
 
 
 
@@ -63,7 +63,7 @@ Depois que seus créditos forem transferidos para ZAP Coins, você não poderá 
 
 No menu, selecione a opção **Saldo ZAP Coin**. Escolha se quer transferir o saldo inteiro ou só uma parte. Quando estiver pronto, aperte o botão verde **Transferir** para confirmar.
 
-![](https://github.com/zaphosting/docs/assets/42719082/27807ca4-4ee7-4e70-92f8-23b887bfef90)
+![](https://screensaver01.zap-hosting.com/index.php/s/cpMSzbJaDzGRTi8/preview)
 
 
 

@@ -41,7 +41,7 @@ Klik op de groene **+** om het menu te openen waar je je link kunt indienen. Kla
 De link moet verwijzen naar de advertentie die je voor dit doel hebt gemaakt. Als de link geen reclame bevat, wordt deze afgewezen.
 :::
 
-![](https://github.com/zaphosting/docs/assets/42719082/d94273e7-3c97-4d62-a77a-7901d0293c7f)
+![](https://screensaver01.zap-hosting.com/index.php/s/keEHsk3E5jfxWEP/preview)
 
 
 
@@ -49,7 +49,7 @@ De link moet verwijzen naar de advertentie die je voor dit doel hebt gemaakt. Al
 
 Je kunt je Community Advertentie saldo overboeken naar je cashbox (ZAP Coins) of naar echt geld. Ga weer naar de [Community Advertising](https://zap-hosting.com/en/customer/communityads/) pagina en klik op de blauwe **Betaling/Overboeking** knop.
 
-![](https://github.com/zaphosting/docs/assets/42719082/076c45aa-2851-4a0d-b5ed-27ca57102b15)
+![](https://screensaver01.zap-hosting.com/index.php/s/cMKXcgtQXs48Xs2/preview)
 
 
 
@@ -63,7 +63,7 @@ Zodra je je credits hebt omgezet naar ZAP Coins, kun je ze niet meer uitbetalen!
 
 Selecteer in het menu de optie **ZAP Coin saldo**. Kies of je het hele saldo of een deel ervan wilt overboeken. Druk daarna op de groene **Overboeken** knop om te bevestigen.
 
-![](https://github.com/zaphosting/docs/assets/42719082/27807ca4-4ee7-4e70-92f8-23b887bfef90)
+![](https://screensaver01.zap-hosting.com/index.php/s/cpMSzbJaDzGRTi8/preview)
 
 
 

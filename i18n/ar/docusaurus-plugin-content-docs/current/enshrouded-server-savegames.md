@@ -36,7 +36,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 بمجرد وصولك إلى هذا المجلد، ستتمكن من رؤية ملف الشخصيات إلى جانب جميع ملفات الحفظ المحلية الخاصة بك في مكان واحد.
 
-![](https://github.com/zaphosting/docs/assets/42719082/31022018-3072-4b40-85f0-77f9da992ccc)
+![](https://screensaver01.zap-hosting.com/index.php/s/dyydLNzQt7ZWRPx/preview)
 
 :::note
 إذا كنت **لا تستخدم** Steam Cloud للحفظ، فستجد مجلد الحفظ الخاص بك في الدليل التالي: `C://Users/[youruser]/Saved Games/Enshrouded`.
@@ -51,7 +51,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 في هذا الموقع، يجب أن ترى ملفًا بأحرف عشوائية وهو ملف الحفظ الخاص بك. فقط انقر بزر الفأرة الأيمن على الملف واختر زر **تنزيل** لتحفظه محليًا على جهازك.
 
-![](https://github.com/zaphosting/docs/assets/42719082/e7c230a3-a2cb-4ae0-a0dc-6d2211edd06c)
+![](https://screensaver01.zap-hosting.com/index.php/s/wTcodeKXYq3RBfY/preview)
 
 ### النسخ الاحتياطي التلقائي
 
@@ -64,7 +64,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 ../enshrouded/savegame/
 ```
 
-![](https://github.com/zaphosting/docs/assets/42719082/e465680f-65bc-456d-bd99-fbdff755defb)
+![](https://screensaver01.zap-hosting.com/index.php/s/gJW8wSapi4Bo2gw/preview)
 
 فقط اسحب وأفلت أي من ملفات الحفظ الخاصة بك في هذا المجلد عبر برنامج FTP وسيتم رفعه إلى سيرفرك.
 

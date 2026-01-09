@@ -41,7 +41,7 @@ sidebar_label: コミュニティ広告
 リンクは必ずこの目的で作成した広告ページを指している必要があります。広告が含まれていないリンクは却下されます。
 :::
 
-![](https://github.com/zaphosting/docs/assets/42719082/d94273e7-3c97-4d62-a77a-7901d0293c7f)
+![](https://screensaver01.zap-hosting.com/index.php/s/keEHsk3E5jfxWEP/preview)
 
 
 
@@ -49,7 +49,7 @@ sidebar_label: コミュニティ広告
 
 コミュニティ広告の残高は、キャッシュボックス（ZAPコイン）か現金に振替可能です。再度[コミュニティ広告](https://zap-hosting.com/en/customer/communityads/)ページにアクセスし、青い**Payment/Transfer**ボタンを押してください。
 
-![](https://github.com/zaphosting/docs/assets/42719082/076c45aa-2851-4a0d-b5ed-27ca57102b15)
+![](https://screensaver01.zap-hosting.com/index.php/s/cMKXcgtQXs48Xs2/preview)
 
 
 
@@ -63,7 +63,7 @@ sidebar_label: コミュニティ広告
 
 メニューで**ZAP Coin balance**を選択し、全額か一部かを選びます。準備ができたら緑色の**Transfer**ボタンを押して確定してください。
 
-![](https://github.com/zaphosting/docs/assets/42719082/27807ca4-4ee7-4e70-92f8-23b887bfef90)
+![](https://screensaver01.zap-hosting.com/index.php/s/cpMSzbJaDzGRTi8/preview)
 
 
 

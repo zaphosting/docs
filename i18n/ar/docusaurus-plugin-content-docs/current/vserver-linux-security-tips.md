@@ -65,7 +65,7 @@ sudo nano /etc/ssh/sshd_config
 
 أضف المنفذ الذي تريده بعد `Port`. إذا كان `Port` معلقًا (أي `#Port 22`)، قم بإزالة الـ "#" واستبدل 22 بالمنفذ الذي تريده. الآن احفظ الملف (في Nano باستخدام Ctrl + o) وأغلقه (Nano: Ctrl + x).
 
-![Port sshd](https://github.com/zaphosting/docs/assets/42719082/0adec0a9-f1b3-4428-9ce2-f78497cf1818)
+![Port sshd](https://screensaver01.zap-hosting.com/index.php/s/F4Z4SDjLW4y2iDp/preview)
 
 يجب الآن إعادة تشغيل خدمة SSH لتطبيق التغييرات.
 ```
@@ -92,7 +92,7 @@ find / -name "proftpd.conf" 2>/dev/null
 ```
 nano /etc/proftpd/proftpd.conf
 ```
-![Port proftpd](https://github.com/zaphosting/docs/assets/42719082/b6f1d33e-8409-4fd7-9f32-5e2d641275c9)
+![Port proftpd](https://screensaver01.zap-hosting.com/index.php/s/qw3a88EwfDCMKXS/preview)
 
 ## استخدام جدار ناري
 
@@ -202,7 +202,7 @@ Fail2Ban هي خدمة تحظر عناوين IP التي تحاول الاتصا
 يمكن إضافة خدمات إضافية ببساطة باستخدام تعبيرات منتظمة (RegEx) وتحديد ملف السجل المطلوب.
 
 كمثال، لننظر إلى مدخل في `/var/log/auth.log`. هذا الملف يحتوي على كل محاولات تسجيل الدخول عبر SSH، سواء الناجحة أو الفاشلة.
-![/var/log/auth.log](https://github.com/zaphosting/docs/assets/42719082/2758141d-c2dd-4d24-9aee-876aab5d27e7)
+![/var/log/auth.log](https://screensaver01.zap-hosting.com/index.php/s/XzpxrWZRkpFJseo/preview)
 
 هنا يمكنك رؤية السطر:
 ```
@@ -376,7 +376,7 @@ bantime.maxtime = 5w
 
 سنفترض بدايةً أن نطاقك مُدار بالفعل عبر Cloudflare، إذا لم يكن كذلك يمكنك اتباع [دليلهم](https://developers.cloudflare.com/fundamentals/get-started/setup/add-site/) لنقل نطاقك. اذهب إلى تبويب سجلات DNS من لوحة معلومات Cloudflare، وتأكد أن السجل الخاص بسيرفر الويب لديك يحتوي على السحابة البرتقالية ويقول "Proxied".
 
-![](https://github.com/zaphosting/docs/assets/42719082/a3572480-75df-4c43-bbba-e60ddedf9316)
+![](https://screensaver01.zap-hosting.com/index.php/s/wptKPBTLwmKxx8F/preview)
 
 الآن، كل حركة المرور التي تمر عبر نطاقك ستذهب عبر Cloudflare ومن ثم إلى سيرفرك، مع كونها حركة شرعية.
 لكن سيرفرك لا يزال متاحًا من خارج Cloudflare، لذلك يجب عليك تقييد الوصول إلى المنافذ 80 و443 لبروتوكول TCP على سيرفر لينكس الخاص بك، والسماح بالوصول فقط إذا كانت الحركة تأتي من Cloudflare الشرعية.

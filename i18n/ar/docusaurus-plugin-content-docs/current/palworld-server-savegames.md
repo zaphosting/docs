@@ -29,12 +29,12 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 :::tip
 يمكنك الوصول إلى هذا المسار بسهولة بالضغط على `CTRL` + `R` معًا ثم كتابة المسار التالي في مربع التشغيل: `%localappdata%/Pal/Saved/SaveGames/`. اضغط **موافق** وسيتم توجيهك مباشرة إلى المجلد.
 
-![](https://github.com/zaphosting/docs/assets/42719082/5cdff375-57f8-4699-9985-42bcecf22218)
+![](https://screensaver01.zap-hosting.com/index.php/s/gWL9gtAZ8JE2ENP/preview)
 :::
 
 في هذا الموقع، سترى مجلدًا يحمل اسم SteamID الخاص بك. افتح هذا المجلد وستجد جميع ملفات الحفظ المحلية الخاصة بك في مكان واحد.
 
-![](https://github.com/zaphosting/docs/assets/42719082/8f36715d-7e87-45e1-b859-6ebedd18c8da)
+![](https://screensaver01.zap-hosting.com/index.php/s/aaeRXfs5cFjA6fN/preview)
 
 ### الوصول إلى ملف الحفظ عبر FTP
 
@@ -45,7 +45,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 في هذا الموقع، يجب أن ترى مجلدًا يحتوي على مجموعة من الأحرف العشوائية وهو ملف الحفظ الخاص بك. فقط انقر بزر الفأرة الأيمن على المجلد واختر زر **تنزيل** لتحفظه محليًا على جهازك.
 
-![](https://github.com/zaphosting/docs/assets/42719082/ca890470-450d-4962-a982-39378dfbb695)
+![](https://screensaver01.zap-hosting.com/index.php/s/pmrmNHS5NAfXpY3/preview)
 
 ### النسخ الاحتياطي التلقائي
 

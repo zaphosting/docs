@@ -43,7 +43,7 @@ El servidor debe estar detenido antes de editar la configuración, editar el arc
 
 Alternativamente, para usuarios que quieran editar el archivo directamente, pueden acceder a él yendo a la sección **Configs** en el panel web de tu servidor de juegos y pulsando el botón azul de editar archivo, como se ve aquí:
 
-![](https://github.com/zaphosting/docs/assets/42719082/53c8acad-7347-4c3e-85bf-5ae0ad423fc6)
+![](https://screensaver01.zap-hosting.com/index.php/s/2fNGG7jBdGRekKP/preview)
 
 Esto abrirá un editor de texto directamente en la web para que puedas modificarlo.
 

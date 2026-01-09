@@ -41,7 +41,7 @@ Naciśnij zielony przycisk **+**, aby otworzyć menu, gdzie możesz przesłać s
 Link musi prowadzić do reklamy stworzonej specjalnie w tym celu. Jeśli link nie zawiera żadnej reklamy, zostanie odrzucony.
 :::
 
-![](https://github.com/zaphosting/docs/assets/42719082/d94273e7-3c97-4d62-a77a-7901d0293c7f)
+![](https://screensaver01.zap-hosting.com/index.php/s/keEHsk3E5jfxWEP/preview)
 
 
 
@@ -49,7 +49,7 @@ Link musi prowadzić do reklamy stworzonej specjalnie w tym celu. Jeśli link ni
 
 Możesz przelać saldo z Reklam Społecznościowych na swoją kasę (ZAP Coins) lub na prawdziwe pieniądze. Wróć na stronę [Reklama Społecznościowa](https://zap-hosting.com/en/customer/communityads/) i kliknij niebieski przycisk **Wypłata/Transfer**.
 
-![](https://github.com/zaphosting/docs/assets/42719082/076c45aa-2851-4a0d-b5ed-27ca57102b15)
+![](https://screensaver01.zap-hosting.com/index.php/s/cMKXcgtQXs48Xs2/preview)
 
 
 
@@ -63,7 +63,7 @@ Po przelaniu środków na ZAP Coins nie możesz ich już wypłacić!
 
 W menu wybierz opcję **Saldo ZAP Coin**. Wybierz, czy chcesz przelać całe saldo, czy tylko jego część. Gdy będziesz gotowy, kliknij zielony przycisk **Transfer**, aby potwierdzić.
 
-![](https://github.com/zaphosting/docs/assets/42719082/27807ca4-4ee7-4e70-92f8-23b887bfef90)
+![](https://screensaver01.zap-hosting.com/index.php/s/cpMSzbJaDzGRTi8/preview)
 
 
 

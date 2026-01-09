@@ -36,7 +36,7 @@ Do tej funkcji szybkiej konfiguracji potrzebujesz [zakupić idealną domenę bez
 
 Na przykładzie tworzymy nową subdomenę na domenie `.zap.cloud`, która będzie prowadzić do naszego serwera TeamSpeak 3 po użyciu.
 
-![](https://github.com/zaphosting/docs/assets/42719082/5b311ff1-625c-4f6d-82b8-6847d432beb9)
+![](https://screensaver01.zap-hosting.com/index.php/s/Mi3wK7cY639Rp3x/preview)
 
 :::note
 Pamiętaj, że propagacja domeny i jej działanie może potrwać do 3 godzin.

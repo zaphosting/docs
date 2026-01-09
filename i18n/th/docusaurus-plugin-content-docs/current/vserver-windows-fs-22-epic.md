@@ -141,7 +141,7 @@ New-NetFirewallRule -DisplayName "FS22 Server" -Direction Outbound -LocalPort 10
 
 ใช้ฟังก์ชันค้นหาใน Windows เพื่อเปิด **Windows Firewall Settings with Advanced Security** คุณอาจต้องกด **Advanced Settings** เพื่อเปิดหน้าต่างที่ต้องการถ้าเปิดจากหน้า Windows Firewall ปกติ
 
-![](https://github.com/zaphosting/docs/assets/42719082/5fb9f943-7e51-4d8f-9df4-2f5ff60857d3)
+![](https://screensaver01.zap-hosting.com/index.php/s/ZT2WzELZSBPrFsB/preview)
 
 คุณต้องสร้างกฎใหม่สำหรับเซิร์ฟเวอร์ Farming Simulator 22 โดยคลิกที่กฎขาเข้าและขาออกตามนี้ และเพิ่มพอร์ตและโปรโตคอลดังนี้:
 - TCP ขาเข้าและขาออก: 3724, 27015

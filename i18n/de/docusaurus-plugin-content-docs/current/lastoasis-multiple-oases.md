@@ -22,7 +22,7 @@ Starte, indem du die [offizielle Last Oasis](https://myrealm.lastoasis.gg/) Webs
 ## Multi-Hosting aktivieren
 Auf der Webseite gehst du zum Bereich **Realms**. Bei deinem aktuellen Realm klickst du auf den **Ändern**-Button und wechselst den Hosting-Modus von **Single -> Multiple**.
 
-![](https://github.com/zaphosting/docs/assets/42719082/9f06547a-f23f-4542-bcd7-e69d0bbfbf19)
+![](https://screensaver01.zap-hosting.com/index.php/s/qDgwQ5D6YwptWER/preview)
 
 :::info
 Um mehrere Oasen gleichzeitig betreiben zu können, musst du für jede Oasis einen eigenen Gameserver mieten. Verwende für jeden neuen Server denselben Provider-Key wie beim Originalserver. Vergiss nicht, deinen Server nach Änderungen neu zu starten.

@@ -33,7 +33,7 @@ Dostępne są dwie migawki: pierwsza z 25 sierpnia 2023, a druga z 30 września 
 :::note
 Użycie własnej oficjalnej kopii zapasowej jest możliwe tylko z wariantem serwera gier **ARK - SE (kompatybilny z oficjalnymi kopiami zapasowymi)**. Jeśli korzystasz z innej wersji serwera, możesz zmienić wersję w sekcji **gry** w panelu administracyjnym swojego serwera lub skorzystać z naszego [poradnika zmiany gry](gameserver-gameswitch.md).
 
-![](https://github.com/zaphosting/docs/assets/42719082/8f2ac8fa-2b23-4738-8d95-87c289e9d98a)
+![](https://screensaver01.zap-hosting.com/index.php/s/Kwjyx4sDSHLTFZJ/preview)
 :::
 
 
@@ -45,7 +45,7 @@ Aby zaimportować własny plik zapisu (nieoficjalny), potrzebujesz wszystkich pl
 :::note
 Do tego celu powinieneś użyć zwykłego wariantu serwera gier **Ark: SE** (bez wsparcia oficjalnych kopii zapasowych), ponieważ importujesz zwykły plik zapisu, który nie jest oficjalny.
 
-![](https://github.com/zaphosting/docs/assets/42719082/43a6f039-778b-471f-82c8-91f1b8644a33)
+![](https://screensaver01.zap-hosting.com/index.php/s/FCMPjApJBjZxdR2/preview)
 :::
 
 
@@ -61,7 +61,7 @@ Po otwarciu klienta FTP przejdź do następującego podkatalogu na swoim serwerz
 /gxxxxx/ark/ShooterGame/Saved/SavedArks
 ```
 
-![](https://github.com/zaphosting/docs/assets/42719082/92ca6e48-346e-4f3c-80e2-972421d1f73f)
+![](https://screensaver01.zap-hosting.com/index.php/s/YXFcNPMgtbmRJJj/preview)
 
 Usuń wszystkie pliki obecnego zapisu (lub zrób ich kopię zapasową, jeśli chcesz w przyszłości grać na tym zapisie). Następnie przeciągnij i wgraj wszystkie rozpakowane pliki do tego katalogu (w tym pliki .ark, .arktribe i .arkprofile). Bądź cierpliwy, bo przesyłanie może chwilę potrwać, w zależności od rozmiaru całej zawartości zapisu.
 

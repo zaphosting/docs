@@ -15,7 +15,7 @@ Sommige producten kun je bij ZAP-Hosting.com als pre-order bestellen. Dit beteke
 
 Pre-orders zijn op de productpagina duidelijk gemarkeerd. Ze hebben een stopwatch-icoon om dit aan te geven.
 
-![](https://github.com/zaphosting/docs/assets/42719082/6af93b92-69bc-49ef-adbd-2b858f3b6c01)
+![](https://screensaver01.zap-hosting.com/index.php/s/Wx9nEXzees3Bx3B/preview)
 
 ## Levering van pre-orders
 

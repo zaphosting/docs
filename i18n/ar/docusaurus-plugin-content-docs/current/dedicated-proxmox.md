@@ -20,11 +20,11 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 ### تركيب ISO عبر واجهة الويب
 توجه إلى قسم **التثبيت الأولي** في لوحة واجهة الويب لسيرفرك المخصص. هنا يجب أولاً الضغط على زر **تفعيل iLO** الأخضر. انتظر قليلاً حتى تظهر الأقسام المخفية. قد تحتاج إلى تحديث الصفحة لضمان تحميلها بالكامل.
 
-![](https://github.com/zaphosting/docs/assets/42719082/b457f17a-0bc6-42db-91ec-a553fd456936)
+![](https://screensaver01.zap-hosting.com/index.php/s/r6XNqDqQeEec7wW/preview)
 
 بعدها، اختر ملف **Proxmox VE** ISO من القائمة المنسدلة. نوصي باستخدام أحدث إصدار للبقاء محدثًا بأحدث التغييرات. الآن استخدم زر **إدخال** الأخضر.
 
-![](https://github.com/zaphosting/docs/assets/42719082/2b0baf71-d683-46ad-a34a-bfda9d71939d)
+![](https://screensaver01.zap-hosting.com/index.php/s/xXfWzqtE6JMG9Ka/preview)
 
 أخيرًا، يجب إعادة تشغيل سيرفرك المخصص لتتمكن من الإقلاع من ملف ISO. يمكنك فعل ذلك عبر زر إعادة التشغيل تحت الخطوة 3.
 
@@ -45,25 +45,25 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 بعد تسجيل الدخول، تحت قسم **نظرة عامة** يجب أن تجد رابط **HTML5** تحت قسم `وحدة التحكم عن بعد المدمجة`. هذا سيفتح لك نافذة تراكب.
 
-![](https://github.com/zaphosting/docs/assets/42719082/3b9ce97e-f974-439b-8e57-ced05f248ef9)
+![](https://screensaver01.zap-hosting.com/index.php/s/HPWJ3oksyo3SdW6/preview)
 
 يجب أن يبدأ Proxmox بعملية الإعداد. استخدم مفاتيح الأسهم، Enter و Esc للتنقل، وننصح باختيار النسخة **الرسومية** من Proxmox لأن هذا ما سيتبعه الدليل.
 
-![](https://github.com/zaphosting/docs/assets/42719082/614218f2-df12-43ad-95fe-39026b900141)
+![](https://screensaver01.zap-hosting.com/index.php/s/MGqm3EAxYc8EBQw/preview)
 
 انتظر بضع ثوانٍ حتى تستمر عملية الإعداد. يجب عليك قبول اتفاقية ترخيص Proxmox عبر زر **أوافق** في الأسفل يمين الشاشة. الصفحة التالية تطلب منك اختيار القرص الهدف لبيئتك. إذا كنت تستخدم قرصًا واحدًا، الإعدادات الافتراضية مناسبة لك، لذا يمكنك المتابعة عبر زر **التالي**.
 
-![](https://github.com/zaphosting/docs/assets/42719082/090c1f2e-20fe-48f3-b4b4-070c197f4825)
+![](https://screensaver01.zap-hosting.com/index.php/s/pZ8FiFJT6tJKFsS/preview)
 
 :::note
 إذا أردت إعداد RAID حيث أن بعض سيرفراتنا المخصصة تقدم قرصين، يجب عليك استخدام زر **خيارات** لاختيار وضع `RAID` الذي تفضله. نوصي بـ `RAID1` الذي يعكس البيانات على القرصين.
 
-![](https://github.com/zaphosting/docs/assets/42719082/44e3b6ba-07f3-4313-8d36-b185a6da8089)
+![](https://screensaver01.zap-hosting.com/index.php/s/WqiYPowiLttzoeZ/preview)
 :::
 
 القسم التالي يتضمن إعدادات عامة مثل اختيار اللغة ولوحة المفاتيح والتي يجب أن تُكتشف تلقائيًا. املأ هذه المعلومات ثم تابع.
 
-![](https://github.com/zaphosting/docs/assets/42719082/931e066c-9868-48d9-a638-f07c932579d2)
+![](https://screensaver01.zap-hosting.com/index.php/s/As4J4NzytcZFrHp/preview)
 
 الآن يجب عليك إعداد كلمة مرور قوية وعنوان بريد إلكتروني. سيتم استخدام البريد الإلكتروني من قبل اللوحة لإرسال التنبيهات والإشعارات المهمة.
 
@@ -71,15 +71,15 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 تذكر كلمة المرور، لأنها ما ستستخدمه لتسجيل الدخول إلى اللوحة لأول مرة بعد التثبيت!
 :::
 
-![](https://github.com/zaphosting/docs/assets/42719082/617a504c-9520-4b89-93c3-81fba06e5fdc)
+![](https://screensaver01.zap-hosting.com/index.php/s/QAEaygacSXNfgot/preview)
 
 الخطوة الأخيرة هي إعداد تكوين الشبكة. اختر واجهة الإدارة المتاحة واسم مضيف لسيرفرك.
 
-![](https://github.com/zaphosting/docs/assets/42719082/d694a5af-20e2-4c1b-9cdb-c1a8ca684cde)
+![](https://screensaver01.zap-hosting.com/index.php/s/EZDzsaq4aXpP4we/preview)
 
 توجه الآن إلى قسم **عناوين IP** في واجهة الويب لسيرفرك المخصص للعثور على عنوان IP متاح.
 
-![](https://github.com/zaphosting/docs/assets/42719082/e358f264-8535-4280-a1c5-0a15f4b99ed9)
+![](https://screensaver01.zap-hosting.com/index.php/s/KQC4DLj6LxTX4io/preview)
 
 اختر عنوان IP تريد استخدامه للوصول إلى لوحة Proxmox. املأ عنوان IP، قناع الشبكة والبوابة في المثبت باستخدام التفاصيل من واجهة الويب. أخيرًا، لخادم DNS يمكنك إدخال `8.8.8.8` وهو خادم DNS العام لجوجل.
 
@@ -96,40 +96,40 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 الآن بعد أن وصلت إلى اللوحة، يجب عليك تسجيل الدخول. يمكنك فعل ذلك باستخدام اسم المستخدم `root` وكلمة المرور التي وضعتها أثناء التثبيت. تأكد من أن **النطاق** مضبوط على `Linux PAM standard authentication`.
 
-![](https://github.com/zaphosting/docs/assets/42719082/4072c2ac-6f5c-4350-a5df-0635b1f433c0)
+![](https://screensaver01.zap-hosting.com/index.php/s/iKcErA9Bx5LpB3n/preview)
 
 بعد تسجيل الدخول، يمكنك تجاهل رسالة الاشتراك بالضغط على زر **موافق** للاعتراف بها. وهكذا، لقد قمت بتثبيت Proxmox VE بنجاح على سيرفرك المخصص وتسجيل الدخول إلى لوحتك!
 
 ## إنشاء أول جهاز افتراضي (VM)
 هذا القسم يشرح الخطوات الأساسية لإنشاء أول جهاز افتراضي (VM) عبر لوحة Proxmox الخاصة بك. توجه إلى `local (panel)` واختر قسم **صور ISO**. هنا يمكنك إما رفع ملف `.iso` يدويًا، أو جعل Proxmox يقوم بتحميله عبر توفير رابط التنزيل المباشر لملف ISO.
 
-![](https://github.com/zaphosting/docs/assets/42719082/8182bd73-690f-434f-8394-5fdca6889a74)
+![](https://screensaver01.zap-hosting.com/index.php/s/GJjxxkPAkiRM7Fw/preview)
 
 بعد الانتهاء، يمكنك المتابعة لإنشاء جهازك الافتراضي. انظر إلى الأعلى يمين واضغط على زر **إنشاء جهاز افتراضي**. سيفتح لك قائمة جديدة مع مجموعة خيارات رائعة.
 
 أولًا، عليك تكوين قسم الإعدادات العامة. بشكل افتراضي، سيكون `Node` مضبوطًا على الافتراضي (في هذه الحالة `panel`). يجب أن توفر معرّف VM فريد، والذي سيكون افتراضيًا `100` أو يزيد إذا كان لديك أجهزة افتراضية موجودة. الآن أضف اسمًا لجهازك الافتراضي، يمكن أن يكون أي شيء.
 
-![](https://github.com/zaphosting/docs/assets/42719082/bcd2eb41-a8fc-4a44-9abb-072f9e408d10)
+![](https://screensaver01.zap-hosting.com/index.php/s/6LmXZ26bnNY46yS/preview)
 
 انتقل بسرعة إلى قسم إعدادات نظام التشغيل. هنا يجب اختيار صورة ISO التي تريد استخدامها، وهي التي رفعتها في الخطوة السابقة. تأكد أيضًا من تحديد نوع وإصدار نظام التشغيل الذي تستخدمه.
 
-![](https://github.com/zaphosting/docs/assets/42719082/05d51c46-5a69-4cd7-b2e6-c3472437caf9)
+![](https://screensaver01.zap-hosting.com/index.php/s/QWjGQ7grR8ttaqZ/preview)
 
 ننصح بترك قسم إعدادات النظام كما هو لأنه مضبوط بشكل مناسب. انتقل إلى قسم إعدادات القرص حيث يمكنك تحديد حجم القرص الذي تريد استخدامه لجهازك الافتراضي. يمكنك أيضًا اختيار تجمع التخزين الذي تريد استخدامه، على الرغم من أن الافتراضي سيكون `local-lvm`. بقية الإعدادات تعمل بشكل جيد افتراضيًا.
 
-![](https://github.com/zaphosting/docs/assets/42719082/26f11d42-8884-4bb5-b0fe-d7b4df7885a5)
+![](https://screensaver01.zap-hosting.com/index.php/s/2XJyydoZwaEMDeZ/preview)
 
 بعدها تصل إلى قسم إعدادات CPU حيث يمكنك تحديد خيارات مثل المقبس وعدد الأنوية التي يجب استخدامها. يمكن تكوين هذا حسب رغبتك لجهازك الافتراضي.
 
-![](https://github.com/zaphosting/docs/assets/42719082/91103b8d-dadc-4305-a3fe-bf4c8f96fc27)
+![](https://screensaver01.zap-hosting.com/index.php/s/RrWWT2wMRaQzde7/preview)
 
 بنفس الطريقة في قسم إعدادات الذاكرة، يمكنك تحديد مقدار الذاكرة التي تريد توفيرها للجهاز الافتراضي واختيار حالة البالون.
 
-![](https://github.com/zaphosting/docs/assets/42719082/ac0048cb-0bd4-4791-9a9f-857e5037955d)
+![](https://screensaver01.zap-hosting.com/index.php/s/DaXCsYLwWeMr9aJ/preview)
 
 ننصح أيضًا بترك قسم إعدادات الشبكة كما هو لأنه مضبوط بشكل مناسب الآن. أخيرًا، يمكنك مراجعة جميع الإعدادات التي قمت بتكوينها خلال إعداد الجهاز الافتراضي. نوصي بتفعيل خيار `ابدأ بعد الإنشاء` ليبدأ جهازك تلقائيًا. إذا كنت راضيًا عن كل شيء، تابع بإنشاء الجهاز بالضغط على زر **إنهاء**.
 
-![](https://github.com/zaphosting/docs/assets/42719082/d14a8b3d-e9bb-4feb-8049-428e84c1e917)
+![](https://screensaver01.zap-hosting.com/index.php/s/EfNAZ4idcxizDsa/preview)
 
 وهكذا تكون قد أنشأت أول جهاز افتراضي لك على لوحة Proxmox! يجب أن تتمكن من رؤيته في قسم عرض السيرفر على الجانب الأيسر من اللوحة.
 

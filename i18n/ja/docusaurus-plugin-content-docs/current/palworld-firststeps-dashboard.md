@@ -32,7 +32,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 サーバーの**ダッシュボード**は管理の中心。サービスの基本情報や重要な情報がわかりやすく表示されている。例えば、サーバー所在地、状態、IPアドレス:ポート、使用中のメモリ、プレイ中のゲーム、サーバー名、マップ、利用可能なスロット数など。また、CPU、メモリ、RAMの使用率も確認できるよ。
 
-![](https://github.com/zaphosting/docs/assets/42719082/d0090c65-ec60-4963-a483-69235ba24a6c)
+![](https://screensaver01.zap-hosting.com/index.php/s/qo7zwFkwwt3ot3b/preview)
 
 ダッシュボードからはサービスの開始、停止、再起動もできて、運用を完全にコントロール可能。さらにライブコンソールにアクセスして、リアルタイムでサーバーの状態を確認し、必要に応じて直接操作もできるよ。
 

@@ -67,7 +67,7 @@ Estos comandos crearán automáticamente las reglas de firewall necesarias para 
 
 Usa la búsqueda de Windows para abrir **Configuración del Firewall de Windows con Seguridad Avanzada**. Puede que tengas que hacer clic en **Configuración avanzada** para abrir la ventana correcta si entraste primero en la página básica del firewall.
 
-![image](https://github.com/zaphosting/docs/assets/42719082/5fb9f943-7e51-4d8f-9df4-2f5ff60857d3)
+![image](https://screensaver01.zap-hosting.com/index.php/s/ZT2WzELZSBPrFsB/preview)
 
 Debes crear nuevas reglas para tu servidor open.mp. Para ello, crea reglas entrantes y salientes para los siguientes protocolos y puertos:
 - TCP entrante y saliente: 7777

@@ -31,7 +31,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 แค่รัน **steamcmd.exe** แล้วรอจนกระบวนการติดตั้งเสร็จสมบูรณ์
 
-![](https://github.com/zaphosting/docs/assets/42719082/ffb8e8a1-26e3-4d16-9baf-938e17ec1613)
+![](https://screensaver01.zap-hosting.com/index.php/s/nGsEGWDrSG7gBZs/preview)
 
 เมื่อข้อความ **Loading Steam API.... OK** ปรากฏขึ้น แสดงว่ากระบวนการเสร็จสมบูรณ์แล้ว และคุณสามารถเริ่มติดตั้งเซิร์ฟเวอร์เฉพาะ Conan Exiles ในส่วนถัดไปได้เลย
 
@@ -50,7 +50,7 @@ force_install_dir C:\Conan-Server
 
 ตอนนี้รันคำสั่ง `app_update 443030` เพื่อเริ่มดาวน์โหลด รหัสแอป **443030** คือแอปพลิเคชัน **Conan Exiles**
 
-![](https://github.com/zaphosting/docs/assets/42719082/29931eec-fd19-4806-88dc-69e585e42370)
+![](https://screensaver01.zap-hosting.com/index.php/s/TQCbwxE8xe7TfPn/preview)
 
 :::info
 โปรดอย่าขัดจังหวะกระบวนการจนกว่าจะเสร็จสมบูรณ์เพื่อหลีกเลี่ยงข้อผิดพลาด อาจใช้เวลาสักครู่ แต่คุ้มค่าที่จะรอ! :)
@@ -90,7 +90,7 @@ New-NetFirewallRule -DisplayName "Conan Exiles Server" -Direction Outbound -Loca
 
 ใช้ฟังก์ชันค้นหาของ Windows เพื่อเปิด **การตั้งค่าไฟร์วอลล์ Windows พร้อมความปลอดภัยขั้นสูง** คุณอาจต้องกด **Advanced Settings** เพื่อเปิดหน้าต่างที่จำเป็นหากเปิดหน้าไฟร์วอลล์ Windows ปกติ
 
-![](https://github.com/zaphosting/docs/assets/42719082/5fb9f943-7e51-4d8f-9df4-2f5ff60857d3)
+![](https://screensaver01.zap-hosting.com/index.php/s/ZT2WzELZSBPrFsB/preview)
 
 คุณต้องสร้างกฎใหม่สำหรับเซิร์ฟเวอร์ Conan Exiles ของคุณ โดยคลิกที่กฎขาเข้าและขาออกตามที่อธิบายไว้ด้านล่าง และเพิ่มกฎสำหรับโปรโตคอลและพอร์ตดังนี้:
 - TCP ขาเข้าและขาออก: 7777, 25575

@@ -37,7 +37,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 このフォルダにたどり着くと、キャラクターファイルとすべてのローカルセーブデータが一箇所にまとまっています。
 
-![](https://github.com/zaphosting/docs/assets/42719082/31022018-3072-4b40-85f0-77f9da992ccc)
+![](https://screensaver01.zap-hosting.com/index.php/s/dyydLNzQt7ZWRPx/preview)
 
 :::note
 もしSteam Cloudを使わずにセーブしている場合は、セーブフォルダは以下のディレクトリにあります：`C://Users/[youruser]/Saved Games/Enshrouded`。
@@ -52,7 +52,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ここにランダムな文字列のファイルがあり、それがセーブデータです。ファイルを右クリックして **ダウンロード** を選択すれば、ローカルに保存できます。
 
-![](https://github.com/zaphosting/docs/assets/42719082/e7c230a3-a2cb-4ae0-a0dc-6d2211edd06c)
+![](https://screensaver01.zap-hosting.com/index.php/s/wTcodeKXYq3RBfY/preview)
 
 ### 自動バックアップ
 
@@ -65,7 +65,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 ../enshrouded/savegame/
 ```
 
-![](https://github.com/zaphosting/docs/assets/42719082/e465680f-65bc-456d-bd99-fbdff755defb)
+![](https://screensaver01.zap-hosting.com/index.php/s/gJW8wSapi4Bo2gw/preview)
 
 FTPクライアント上でセーブデータをこのフォルダにドラッグ＆ドロップすれば、サーバーにアップロードされます。
 

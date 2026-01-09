@@ -46,7 +46,7 @@ The Server must be stopped before the config can be edited, editing the config a
 
 Alternatively, for users who wish to directly edit the raw file, you can access this by heading over to the **Configs** section on your game server's webinterface and pressing the blue edit file button, as seen below:
 
-![](https://github.com/zaphosting/docs/assets/42719082/dc4699bc-33fa-447d-ac59-2960b3b080f9)
+![](https://screensaver01.zap-hosting.com/index.php/s/jPep5HzYtWnJTxT/preview)
 
 This will open up a text editor directly on the site to enable you to edit it.
 

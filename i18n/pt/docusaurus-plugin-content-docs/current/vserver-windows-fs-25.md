@@ -139,7 +139,7 @@ Esses comandos vão criar automaticamente as regras de firewall necessárias par
 
 Use a busca do Windows para abrir as **Configurações do Firewall do Windows com Segurança Avançada**. Pode ser que você precise clicar em **Configurações Avançadas** para abrir a janela correta, caso tenha aberto a página básica do Firewall.
 
-![](https://github.com/zaphosting/docs/assets/42719082/5fb9f943-7e51-4d8f-9df4-2f5ff60857d3)
+![](https://screensaver01.zap-hosting.com/index.php/s/ZT2WzELZSBPrFsB/preview)
 
 Você deve criar novas regras para o seu servidor FS2025. Para isso, clique nas regras de entrada e saída conforme descrito abaixo e adicione as seguintes portas e protocolos:
 - TCP entrada e saída: 8080, 10823

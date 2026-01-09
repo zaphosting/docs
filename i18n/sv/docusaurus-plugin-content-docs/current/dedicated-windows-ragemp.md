@@ -94,7 +94,7 @@ Dessa kommandon skapar automatiskt brandväggsregler som krävs för att din Rag
 
 Använd Windows sökfunktion för att öppna **Windows Firewall Settings with Advanced Security**. Du kan behöva klicka på **Advanced Settings** för att öppna rätt fönster om du först öppnar den vanliga brandväggssidan.
 
-![image](https://github.com/zaphosting/docs/assets/42719082/5fb9f943-7e51-4d8f-9df4-2f5ff60857d3)
+![image](https://screensaver01.zap-hosting.com/index.php/s/ZT2WzELZSBPrFsB/preview)
 
 Skapa nya regler för din RageMP-server. Klicka på inkommande och utgående regler som nedan och lägg till följande protokoll och portar:
 

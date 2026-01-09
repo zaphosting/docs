@@ -28,7 +28,7 @@ Erstelle irgendwo auf deinem Server einen neuen Ordner, wir nennen ihn hier `ste
 
 Starte einfach **steamcmd.exe** und warte, bis die Installation komplett durchgelaufen ist.
 
-![](https://github.com/zaphosting/docs/assets/42719082/ffb8e8a1-26e3-4d16-9baf-938e17ec1613)
+![](https://screensaver01.zap-hosting.com/index.php/s/nGsEGWDrSG7gBZs/preview)
 
 Sobald die Meldung **Loading Steam API.... OK** erscheint, ist alles erfolgreich abgeschlossen und du kannst mit der Foundry Dedicated Server Installation im nächsten Abschnitt starten.
 
@@ -47,7 +47,7 @@ force_install_dir C:\Foundry-Server
 
 Starte jetzt den Download mit dem Befehl `app_update 2915550`. Die App-ID **2915550** steht für die **Foundry** Anwendung.
 
-![](https://github.com/zaphosting/docs/assets/42719082/b265a784-cf9a-43dc-b100-376f080e18f3)
+![](https://screensaver01.zap-hosting.com/index.php/s/5wtdbQbZoj6WbTN/preview)
 
 :::info
 Bitte unterbrich den Prozess nicht vor Abschluss, um Fehler zu vermeiden. Es dauert einen Moment, aber Geduld zahlt sich aus! :)
@@ -87,7 +87,7 @@ Diese Befehle erstellen automatisch die Firewall-Regeln, die dein Foundry Server
 
 Öffne über die Windows-Suche die **Windows-Firewall mit erweiterter Sicherheit**. Falls du nur die Basis-Firewall siehst, klicke auf **Erweiterte Einstellungen**, um das richtige Fenster zu öffnen.
 
-![](https://github.com/zaphosting/docs/assets/42719082/5fb9f943-7e51-4d8f-9df4-2f5ff60857d3)
+![](https://screensaver01.zap-hosting.com/index.php/s/ZT2WzELZSBPrFsB/preview)
 
 Erstelle neue Regeln für deinen Foundry Server. Klicke dazu auf eingehende und ausgehende Regeln und füge folgende Protokolle und Ports hinzu:
 - TCP eingehend und ausgehend: 3724, 27015

@@ -43,7 +43,7 @@ import TabItem from '@theme/TabItem';
 
 また、直接ファイルを編集したい場合は、ゲームサーバーのWebインターフェースの**Configs**セクションに行き、青い「ファイル編集」ボタンを押してください。以下のように表示されます：
 
-![](https://github.com/zaphosting/docs/assets/42719082/53c8acad-7347-4c3e-85bf-5ae0ad423fc6)
+![](https://screensaver01.zap-hosting.com/index.php/s/2fNGG7jBdGRekKP/preview)
 
 これでサイト上で直接テキストエディタが開き、編集が可能です。
 

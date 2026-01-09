@@ -68,7 +68,7 @@ ZAP-Hosting غير مسؤولة عن أي تعديلات/أضرار محتملة
 
 بدلاً من ذلك، استخدم بيانات الدخول الموجودة في صفحة متصفح FTP لإدخالها يدوياً في عميل FTP والاتصال.
 
-![](https://github.com/zaphosting/docs/assets/42719082/af255f46-3371-441e-b6db-4348e6be2e54)
+![](https://screensaver01.zap-hosting.com/index.php/s/nWYPNMRbnrDbDLF/preview)
 
 بعدها، عليك رفع ملفات PAK الخاصة بالمود التي جهزتها سابقاً. يجب رفعها إلى الدليل التالي:
 ```

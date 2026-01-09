@@ -23,15 +23,15 @@ Uma Steam Web API key tem usos importantes para RedM. Isso inclui autenticação
 
 Assim que sua conta Steam estiver pronta, você poderá solicitar sua própria Steam Web API key. Você pode fazer isso se cadastrando [no site do Steam](https://steamcommunity.com/dev/apikey) com seu nome de usuário e senha Steam.
 
-![](https://github.com/zaphosting/docs/assets/42719082/56be5337-a458-425b-86b0-e0c5fa94abab)
+![](https://screensaver01.zap-hosting.com/index.php/s/Wm8rdwwFPbt7D5W/preview)
 
 Depois de logar, você deverá inserir um nome de domínio, confirmar os termos de uso da Steam Web API e clicar no botão **Register**. O domínio deve ser configurado com o **endereço IP do seu servidor** *(sem porta)*, então insira ele ali.
 
-![](https://github.com/zaphosting/docs/assets/42719082/334e89a9-0eef-4ea5-b100-5a1e4b8cdc31)
+![](https://screensaver01.zap-hosting.com/index.php/s/GNmZXzTn9JJ8cBo/preview)
 
 Se tudo der certo, você verá sua própria Steam Web API Key, como mostrado abaixo.
 
-![](https://github.com/zaphosting/docs/assets/42719082/a99f463b-93ae-408b-b038-29e366b30256)
+![](https://screensaver01.zap-hosting.com/index.php/s/m8WoXg3WcjeaQrW/preview)
 
 ## Ativação da API key
 

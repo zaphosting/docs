@@ -41,7 +41,7 @@ Drück jetzt auf das grüne **+**, um ein Menü zu öffnen, in dem du deinen Lin
 Der Link muss auf die dafür erstellte Werbung zeigen. Wenn der Link keine Werbung enthält, wird er abgelehnt.
 :::
 
-![](https://github.com/zaphosting/docs/assets/42719082/d94273e7-3c97-4d62-a77a-7901d0293c7f)
+![](https://screensaver01.zap-hosting.com/index.php/s/keEHsk3E5jfxWEP/preview)
 
 
 
@@ -49,7 +49,7 @@ Der Link muss auf die dafür erstellte Werbung zeigen. Wenn der Link keine Werbu
 
 Du kannst dein Community-Werbe-Guthaben entweder in deine Cashbox (ZAP Coins) oder in echtes Geld auszahlen lassen. Geh dazu nochmal auf die [Community Werbung](https://zap-hosting.com/en/customer/communityads/) Seite und klick auf den blauen **Auszahlung/Überweisung** Button.
 
-![](https://github.com/zaphosting/docs/assets/42719082/076c45aa-2851-4a0d-b5ed-27ca57102b15)
+![](https://screensaver01.zap-hosting.com/index.php/s/cMKXcgtQXs48Xs2/preview)
 
 
 
@@ -63,7 +63,7 @@ Sobald du dein Guthaben in ZAP Coins umgewandelt hast, kannst du es nicht mehr a
 
 Im Menü wählst du die Option **ZAP Coin Guthaben** aus. Entscheide, ob du das gesamte Guthaben oder nur einen Teil davon übertragen möchtest. Wenn alles passt, drück einfach den grünen **Überweisen** Button zur Bestätigung.
 
-![](https://github.com/zaphosting/docs/assets/42719082/27807ca4-4ee7-4e70-92f8-23b887bfef90)
+![](https://screensaver01.zap-hosting.com/index.php/s/cpMSzbJaDzGRTi8/preview)
 
 
 

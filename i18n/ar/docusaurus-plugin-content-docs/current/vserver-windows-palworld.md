@@ -27,7 +27,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 شغّل ببساطة **steamcmd.exe** وانتظر حتى تكتمل عملية التثبيت بالكامل.
 
-![](https://github.com/zaphosting/docs/assets/42719082/ffb8e8a1-26e3-4d16-9baf-938e17ec1613)
+![](https://screensaver01.zap-hosting.com/index.php/s/nGsEGWDrSG7gBZs/preview)
 
 بمجرد ظهور رسالة **Loading Steam API.... OK**، تكون العملية قد اكتملت بنجاح ويمكنك البدء في تثبيت سيرفر Palworld المخصص في القسم التالي.
 
@@ -46,7 +46,7 @@ force_install_dir C:\Palworld-Server
 
 الآن شغّل الأمر `app_update 2394010` الذي سيبدأ عملية التحميل. معرف التطبيق **2394010** هو تطبيق **Palworld**.
 
-![](https://github.com/zaphosting/docs/assets/42719082/b265a784-cf9a-43dc-b100-376f080e18f3)
+![](https://screensaver01.zap-hosting.com/index.php/s/5wtdbQbZoj6WbTN/preview)
 
 :::info
 يرجى عدم مقاطعة العملية قبل اكتمالها لتجنب الأخطاء. قد يستغرق الأمر بعض الوقت، لكن الصبر يستحق! :)
@@ -86,7 +86,7 @@ New-NetFirewallRule -DisplayName "Palworld Server" -Direction Outbound -LocalPor
 
 استخدم وظيفة البحث في ويندوز لفتح **إعدادات جدار الحماية مع الأمان المتقدم**. قد تحتاج للضغط على **الإعدادات المتقدمة** لفتح النافذة المطلوبة إذا فتحت صفحة جدار الحماية الأساسية.
 
-![](https://github.com/zaphosting/docs/assets/42719082/5fb9f943-7e51-4d8f-9df4-2f5ff60857d3)
+![](https://screensaver01.zap-hosting.com/index.php/s/ZT2WzELZSBPrFsB/preview)
 
 يجب عليك إنشاء قواعد جديدة لسيرفر Palworld الخاص بك. للقيام بذلك، انقر على قواعد الوارد والصادر كما هو موضح أدناه وأضفها للبروتوكولات والمنافذ التالية:
 - TCP وارد وصادر: 8211

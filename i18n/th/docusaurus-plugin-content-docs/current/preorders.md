@@ -15,7 +15,7 @@ sidebar_label: การสั่งจองล่วงหน้า
 
 การสั่งจองล่วงหน้าจะถูกทำเครื่องหมายไว้บนหน้าสินค้า โดยจะมีไอคอนนาฬิกาจับเวลามาแสดงเพื่อบ่งบอก
 
-![](https://github.com/zaphosting/docs/assets/42719082/6af93b92-69bc-49ef-adbd-2b858f3b6c01)
+![](https://screensaver01.zap-hosting.com/index.php/s/Wx9nEXzees3Bx3B/preview)
 
 ## การจัดเตรียมเซิร์ฟเวอร์ที่สั่งจองล่วงหน้า
 

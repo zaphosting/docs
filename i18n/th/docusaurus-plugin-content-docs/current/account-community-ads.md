@@ -41,7 +41,7 @@ sidebar_label: โฆษณาชุมชน
 ลิงก์ต้องชี้ไปยังโฆษณาที่สร้างขึ้นสำหรับวัตถุประสงค์นี้เท่านั้น หากลิงก์ไม่มีเนื้อหาโฆษณา จะถูกปฏิเสธทันที
 :::
 
-![](https://github.com/zaphosting/docs/assets/42719082/d94273e7-3c97-4d62-a77a-7901d0293c7f)
+![](https://screensaver01.zap-hosting.com/index.php/s/keEHsk3E5jfxWEP/preview)
 
 
 
@@ -49,7 +49,7 @@ sidebar_label: โฆษณาชุมชน
 
 คุณสามารถโอนยอดเงินจากโฆษณาชุมชนไปยังกระเป๋าเงิน (ZAP Coins) หรือเป็นเงินสดได้ ไปที่หน้า [โฆษณาชุมชน](https://zap-hosting.com/en/customer/communityads/) อีกครั้งแล้วกดปุ่มสีน้ำเงิน **ชำระเงิน/โอน**
 
-![](https://github.com/zaphosting/docs/assets/42719082/076c45aa-2851-4a0d-b5ed-27ca57102b15)
+![](https://screensaver01.zap-hosting.com/index.php/s/cMKXcgtQXs48Xs2/preview)
 
 
 
@@ -63,7 +63,7 @@ sidebar_label: โฆษณาชุมชน
 
 ในเมนู เลือกตัวเลือก **ยอดคงเหลือ ZAP Coin** เลือกว่าจะโอนยอดทั้งหมดหรือเฉพาะบางส่วน เมื่อพร้อมกดปุ่มสีเขียว **โอน** เพื่อยืนยัน
 
-![](https://github.com/zaphosting/docs/assets/42719082/27807ca4-4ee7-4e70-92f8-23b887bfef90)
+![](https://screensaver01.zap-hosting.com/index.php/s/cpMSzbJaDzGRTi8/preview)
 
 
 

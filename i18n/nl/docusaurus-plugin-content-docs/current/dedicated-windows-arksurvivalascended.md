@@ -27,7 +27,7 @@ Maak ergens op je server een nieuwe map aan, in dit voorbeeld noemen we die `ste
 
 Start simpelweg **steamcmd.exe** en wacht tot de installatie helemaal klaar is.
 
-![](https://github.com/zaphosting/docs/assets/42719082/ffb8e8a1-26e3-4d16-9baf-938e17ec1613)
+![](https://screensaver01.zap-hosting.com/index.php/s/nGsEGWDrSG7gBZs/preview)
 
 Zodra de melding **Loading Steam API.... OK** verschijnt, is het proces succesvol afgerond en kun je doorgaan met het installeren van de ARK: Survival Ascended dedicated server in de volgende stap.
 
@@ -46,7 +46,7 @@ force_install_dir C:\ARK-Survival-Ascended-Server
 
 Voer nu het commando `app_update 2430930` uit om de download te starten. De App ID **2430930** is de **ARK: Survival Ascended Dedicated Server** applicatie.
 
-![](https://github.com/zaphosting/docs/assets/42719082/98d7c643-04be-488b-8831-86606363f98c)
+![](https://screensaver01.zap-hosting.com/index.php/s/DSMpETJYtkciNHT/preview)
 
 :::info
 Onderbreek het proces niet voordat het klaar is om fouten te voorkomen. Het kan even duren, maar het is het wachten waard! :)
@@ -115,7 +115,7 @@ Deze regels maken automatisch de firewallregels aan die nodig zijn om je Ark: Su
 
 Open via de zoekfunctie van Windows **Windows Firewall met geavanceerde beveiliging**. Mogelijk moet je eerst op **Geavanceerde instellingen** klikken om het juiste venster te openen.
 
-![](https://github.com/zaphosting/docs/assets/42719082/5fb9f943-7e51-4d8f-9df4-2f5ff60857d3)
+![](https://screensaver01.zap-hosting.com/index.php/s/ZT2WzELZSBPrFsB/preview)
 
 Maak nieuwe regels aan voor je Ark: Survival Ascended server. Voeg deze toe voor de volgende protocollen en poorten:
 - TCP inkomend en uitgaand: 27020

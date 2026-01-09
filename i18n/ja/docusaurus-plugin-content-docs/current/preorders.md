@@ -15,7 +15,7 @@ ZAP-Hosting.comでは、一部の商品を予約注文として購入できま�
 
 予約注文の商品ページには、予約注文であることを示すストップウォッチのアイコンが表示されます。
 
-![](https://github.com/zaphosting/docs/assets/42719082/6af93b92-69bc-49ef-adbd-2b858f3b6c01)
+![](https://screensaver01.zap-hosting.com/index.php/s/Wx9nEXzees3Bx3B/preview)
 
 ## 予約注文の提供
 

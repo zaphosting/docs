@@ -35,13 +35,13 @@ import TabItem from '@theme/TabItem';
 
 ببساطة توجه إلى قسم **Configs** في واجهة الويب لسيرفر الألعاب واضغط على زر تعديل الملف الأزرق، كما هو موضح أدناه:
 
-![](https://github.com/zaphosting/docs/assets/42719082/6a147644-8bfb-4e5d-bff5-3e2c5d999e64)
+![](https://screensaver01.zap-hosting.com/index.php/s/izzL3f9FaGdc9ay/preview)
 
 سيفتح محرر نصوص يسمح لك بتعديل الملف مباشرة. في الملف، ابحث عن قسم `rcon`. هنا، قم بضبط المعامل `enable` إلى `true`، مثلاً: `"enable":true`. ننصح باستخدام `CTRL+F` لفتح أداة البحث في متصفحك لتسهيل ذلك.
 
 في نفس القسم، يجب عليك أيضًا تعيين كلمة مرور للوصول إلى واجهة RCON عبر تعديل المعامل `password`. هذا يمنع الوصول غير المصرح به ويجب أن تبقى كلمة المرور خاصة.
 
-![](https://github.com/zaphosting/docs/assets/42719082/d3fbb8ac-b836-4e12-a7cf-d1b4961925d7)
+![](https://screensaver01.zap-hosting.com/index.php/s/WPPbd6C7k6m5Ja7/preview)
 
 </TabItem>
 

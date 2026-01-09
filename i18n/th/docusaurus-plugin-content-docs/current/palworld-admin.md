@@ -35,12 +35,12 @@ import TabItem from '@theme/TabItem';
 
 ในส่วน **Settings** ให้ค้นหาตัวเลือก **Game server password** ในช่องนี้ ให้สร้างรหัสผ่านที่คุณต้องการใช้และกรอกลงไป
 
-![](https://github.com/zaphosting/docs/assets/42719082/dadbd22b-2fd9-42e1-be71-f6d28a3f2938)
+![](https://screensaver01.zap-hosting.com/index.php/s/aQYQDYMP34NnNXr/preview)
 
 :::info
 เมื่อคุณตั้งรหัสผ่านเรียบร้อยแล้ว เลื่อนขึ้นไปด้านบนและกดปุ่มสีเขียว **Save** เพื่อยืนยันการตั้งค่า
 
-![](https://github.com/zaphosting/docs/assets/42719082/5a4f5ab1-8079-4b20-96a6-36e4aca2e28e)
+![](https://screensaver01.zap-hosting.com/index.php/s/YG5MZ6Jt8SdFy4A/preview)
 :::
 
 </TabItem>
@@ -55,11 +55,11 @@ import TabItem from '@theme/TabItem';
 
 อีกทางเลือกสำหรับผู้ที่ต้องการแก้ไขไฟล์ดิบโดยตรง คุณสามารถเข้าไปที่ส่วน **Configs** บนเว็บอินเทอร์เฟซของเซิร์ฟเวอร์เกมของคุณแล้วกดปุ่มแก้ไขไฟล์สีน้ำเงินตามภาพด้านล่างนี้:
 
-![](https://github.com/zaphosting/docs/assets/42719082/53c8acad-7347-4c3e-85bf-5ae0ad423fc6)
+![](https://screensaver01.zap-hosting.com/index.php/s/2fNGG7jBdGRekKP/preview)
 
 จะเปิดตัวแก้ไขข้อความบนเว็บไซต์ให้คุณแก้ไขได้เลย ค้นหาตัวเลือก **AdminPassword** ในไฟล์ (ใช้ `CTRL+F` เพื่อช่วยค้นหา) แล้วแก้ไขเป็นรหัสผ่านแอดมินที่คุณต้องการตั้ง สุดท้ายบันทึกไฟล์แล้วเริ่มเซิร์ฟเวอร์ของคุณได้เลย
 
-![](https://github.com/zaphosting/docs/assets/42719082/d86376b8-1a41-4fb0-b8cd-8570ddcaa9ae)
+![](https://screensaver01.zap-hosting.com/index.php/s/gpBjxxmdsWKD4t2/preview)
 
 </TabItem>
 
@@ -86,7 +86,7 @@ import TabItem from '@theme/TabItem';
 /AdminPassword [password]
 ```
 
-![](https://github.com/zaphosting/docs/assets/42719082/2f6e3ee7-e83f-4b71-87dc-d36f9b8c7340)
+![](https://screensaver01.zap-hosting.com/index.php/s/75D5ejaWNM6oYNX/preview)
 
 คุณจะได้รับข้อความยืนยันในแชทหากถูกต้อง หากได้รับข้อความผิดพลาด กรุณาตรวจสอบว่ารหัสผ่านแอดมินที่คุณพิมพ์นั้นถูกต้องและตรงกับที่ตั้งไว้ในขั้นตอนก่อนหน้า
 

@@ -27,7 +27,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 شغّل ببساطة **steamcmd.exe** وانتظر حتى تكتمل عملية التثبيت بالكامل.
 
-![](https://github.com/zaphosting/docs/assets/42719082/ffb8e8a1-26e3-4d16-9baf-938e17ec1613)
+![](https://screensaver01.zap-hosting.com/index.php/s/nGsEGWDrSG7gBZs/preview)
 
 بمجرد ظهور رسالة **Loading Steam API.... OK**، تكون العملية قد اكتملت بنجاح ويمكنك البدء بتثبيت سيرفر ARK: Survival Ascended المخصص في القسم التالي.
 
@@ -46,7 +46,7 @@ force_install_dir C:\ARK-Survival-Ascended-Server
 
 الآن شغّل الأمر `app_update 2430930` الذي سيبدأ التحميل. معرف التطبيق **2430930** هو تطبيق **سيرفر ARK: Survival Ascended المخصص**.
 
-![](https://github.com/zaphosting/docs/assets/42719082/98d7c643-04be-488b-8831-86606363f98c)
+![](https://screensaver01.zap-hosting.com/index.php/s/DSMpETJYtkciNHT/preview)
 
 :::info
 يرجى عدم مقاطعة العملية قبل اكتمالها لتجنب الأخطاء. قد يستغرق الأمر بعض الوقت، لكن الصبر يستحق! :)
@@ -115,7 +115,7 @@ New-NetFirewallRule -DisplayName "ARKSA Server" -Direction Outbound -LocalPort 7
 
 استخدم وظيفة البحث في ويندوز لفتح **إعدادات جدار حماية ويندوز مع الأمان المتقدم**. قد تحتاج للضغط على **الإعدادات المتقدمة** لفتح النافذة المطلوبة إذا فتحت صفحة جدار الحماية الأساسية.
 
-![](https://github.com/zaphosting/docs/assets/42719082/5fb9f943-7e51-4d8f-9df4-2f5ff60857d3)
+![](https://screensaver01.zap-hosting.com/index.php/s/ZT2WzELZSBPrFsB/preview)
 
 يجب عليك إنشاء قواعد جديدة لسيرفر Ark: Survival Ascended. للقيام بذلك، اضغط على قواعد الوارد والصادر كما هو موضح أدناه وأضفها للبروتوكولات والمنافذ التالية:
 - TCP وارد وصادر: 27020

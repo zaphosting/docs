@@ -27,7 +27,7 @@ Utwórz nowy folder gdzieś na serwerze, w tym przykładzie nazwij go `steamcmd`
 
 Uruchom **steamcmd.exe** i poczekaj, aż proces instalacji zostanie w pełni zakończony.
 
-![](https://github.com/zaphosting/docs/assets/42719082/ffb8e8a1-26e3-4d16-9baf-938e17ec1613)
+![](https://screensaver01.zap-hosting.com/index.php/s/nGsEGWDrSG7gBZs/preview)
 
 Gdy pojawi się komunikat **Loading Steam API.... OK**, proces zakończył się pomyślnie i możesz przejść do instalacji Foundry serwera dedykowanego w kolejnej sekcji.
 
@@ -46,7 +46,7 @@ force_install_dir C:\Foundry-Server
 
 Teraz wpisz komendę `app_update 2915550`, która rozpocznie pobieranie. App ID **2915550** to aplikacja **Foundry**.
 
-![](https://github.com/zaphosting/docs/assets/42719082/b265a784-cf9a-43dc-b100-376f080e18f3)
+![](https://screensaver01.zap-hosting.com/index.php/s/5wtdbQbZoj6WbTN/preview)
 
 :::info
 Nie przerywaj procesu przed jego zakończeniem, aby uniknąć błędów. Może to chwilę potrwać, ale warto być cierpliwym! :)
@@ -86,7 +86,7 @@ Te polecenia automatycznie utworzą reguły zapory sieciowej, które są niezbę
 
 Użyj wyszukiwarki Windows, aby otworzyć **Ustawienia Zapory Windows z Zaawansowanym Bezpieczeństwem**. Jeśli otworzysz podstawową stronę Zapory Windows, kliknij **Zaawansowane ustawienia**, aby przejść do właściwego okna.
 
-![](https://github.com/zaphosting/docs/assets/42719082/5fb9f943-7e51-4d8f-9df4-2f5ff60857d3)
+![](https://screensaver01.zap-hosting.com/index.php/s/ZT2WzELZSBPrFsB/preview)
 
 Musisz utworzyć nowe reguły dla swojego serwera Foundry. Kliknij kolejno na reguły przychodzące i wychodzące i dodaj je dla następujących protokołów i portów:
 - TCP przychodzące i wychodzące: 3724, 27015

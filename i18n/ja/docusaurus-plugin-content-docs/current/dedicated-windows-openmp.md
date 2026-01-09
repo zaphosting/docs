@@ -65,7 +65,7 @@ New-NetFirewallRule -DisplayName "open.mp Server" -Direction Outbound -LocalPort
 
 Windowsの検索で**Windows Defender ファイアウォール 高度なセキュリティ**を開こう。基本画面からは**詳細設定**をクリックして開く必要があるかも。
 
-![image](https://github.com/zaphosting/docs/assets/42719082/5fb9f943-7e51-4d8f-9df4-2f5ff60857d3)
+![image](https://screensaver01.zap-hosting.com/index.php/s/ZT2WzELZSBPrFsB/preview)
 
 open.mpサーバー用に新しいルールを作成しよう。以下のプロトコルとポートで、受信と送信の両方のルールを追加する必要があるよ：
 - TCP 受信・送信: 7777

@@ -65,7 +65,7 @@ sudo nano /etc/ssh/sshd_config
 
 Aggiungi la tua porta desiderata dopo `Port`. Se `Port` è commentato (es. `#Port 22`), togli il "#" e sostituisci 22 con la porta che vuoi. Ora salva il file (in Nano con Ctrl + o) e chiudilo (Nano: Ctrl + x).
 
-![Port sshd](https://github.com/zaphosting/docs/assets/42719082/0adec0a9-f1b3-4428-9ce2-f78497cf1818)
+![Port sshd](https://screensaver01.zap-hosting.com/index.php/s/F4Z4SDjLW4y2iDp/preview)
 
 Ora devi riavviare il servizio SSH per applicare le modifiche.
 ```
@@ -92,7 +92,7 @@ Usa Ctrl + W per cercare in nano.
 ```
 nano /etc/proftpd/proftpd.conf
 ```
-![Port proftpd](https://github.com/zaphosting/docs/assets/42719082/b6f1d33e-8409-4fd7-9f32-5e2d641275c9)
+![Port proftpd](https://screensaver01.zap-hosting.com/index.php/s/qw3a88EwfDCMKXS/preview)
 
 ## Uso di un firewall
 
@@ -202,7 +202,7 @@ Dopo l’installazione, Fail2Ban ha già configurazioni predefinite per servizi 
 Altri servizi si possono aggiungere con espressioni regolari (RegEx) e specificando il file di log.
 
 Ad esempio, guarda un’entrata in `/var/log/auth.log`. Questo file contiene tutti i tentativi di login SSH, riusciti o falliti.
-![/var/log/auth.log](https://github.com/zaphosting/docs/assets/42719082/2758141d-c2dd-4d24-9aee-876aab5d27e7)
+![/var/log/auth.log](https://screensaver01.zap-hosting.com/index.php/s/XzpxrWZRkpFJseo/preview)
 
 Qui vedi l’entrata:
 ```
@@ -376,7 +376,7 @@ In questa guida vedrai come proteggere il tuo webserver dagli attacchi.
 
 Partiamo dal presupposto che il tuo dominio sia già gestito da Cloudflare, altrimenti puoi seguire [la loro guida](https://developers.cloudflare.com/fundamentals/get-started/setup/add-site/) per trasferirlo. Vai alla scheda DNS nel pannello Cloudflare e assicurati che il record verso il tuo webserver abbia la nuvola arancione e dica "Proxied".
 
-![](https://github.com/zaphosting/docs/assets/42719082/a3572480-75df-4c43-bbba-e60ddedf9316)
+![](https://screensaver01.zap-hosting.com/index.php/s/wptKPBTLwmKxx8F/preview)
 
 Così tutto il traffico verso il tuo dominio passa da Cloudflare e poi al server, essendo traffico legittimo.
 Tuttavia, il server è ancora accessibile dall’esterno di Cloudflare, quindi devi limitare l’accesso alle porte 80 e 443 TCP del tuo server Linux, permettendo solo traffico legittimo da Cloudflare.

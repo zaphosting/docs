@@ -41,7 +41,7 @@ Ora clicca sul pulsante verde **+** per aprire il menu dove puoi inviare il tuo 
 Il link deve puntare all’annuncio creato per questo scopo. Se il link non contiene pubblicità, verrà rifiutato.
 :::
 
-![](https://github.com/zaphosting/docs/assets/42719082/d94273e7-3c97-4d62-a77a-7901d0293c7f)
+![](https://screensaver01.zap-hosting.com/index.php/s/keEHsk3E5jfxWEP/preview)
 
 
 
@@ -49,7 +49,7 @@ Il link deve puntare all’annuncio creato per questo scopo. Se il link non cont
 
 Puoi trasferire il saldo della tua Pubblicità Community sia nel tuo cashbox (ZAP Coins) sia in soldi veri. Torna alla pagina [Pubblicità Community](https://zap-hosting.com/en/customer/communityads/) e clicca sul pulsante blu **Pagamento/Trasferimento**.
 
-![](https://github.com/zaphosting/docs/assets/42719082/076c45aa-2851-4a0d-b5ed-27ca57102b15)
+![](https://screensaver01.zap-hosting.com/index.php/s/cMKXcgtQXs48Xs2/preview)
 
 
 
@@ -63,7 +63,7 @@ Una volta trasferiti i crediti in ZAP Coins, non potrai più prelevarli in denar
 
 Nel menu, seleziona l’opzione **Saldo ZAP Coin**. Scegli se trasferire l’intero saldo o solo una parte. Quando sei pronto, premi il pulsante verde **Trasferisci** per confermare.
 
-![](https://github.com/zaphosting/docs/assets/42719082/27807ca4-4ee7-4e70-92f8-23b887bfef90)
+![](https://screensaver01.zap-hosting.com/index.php/s/cpMSzbJaDzGRTi8/preview)
 
 
 

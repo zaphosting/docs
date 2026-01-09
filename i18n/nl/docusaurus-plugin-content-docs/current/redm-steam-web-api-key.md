@@ -23,15 +23,15 @@ Je hebt een Steam-account zonder beperkingen nodig om een API key aan te vragen.
 
 Als je Steam-account klaar is, kun je je eigen Steam Web API key aanvragen. Dit doe je door in te loggen [op de Steam-website](https://steamcommunity.com/dev/apikey) met je Steam-accountnaam en wachtwoord.
 
-![](https://github.com/zaphosting/docs/assets/42719082/56be5337-a458-425b-86b0-e0c5fa94abab)
+![](https://screensaver01.zap-hosting.com/index.php/s/Wm8rdwwFPbt7D5W/preview)
 
 Eenmaal ingelogd, moet je een domeinnaam invullen, de gebruiksvoorwaarden van de Steam Web API accepteren en op de **Register** knop klikken. Het domein moet je **Server IP** zijn *(zonder poort)*, dus vul dat daar in.
 
-![](https://github.com/zaphosting/docs/assets/42719082/334e89a9-0eef-4ea5-b100-5a1e4b8cdc31)
+![](https://screensaver01.zap-hosting.com/index.php/s/GNmZXzTn9JJ8cBo/preview)
 
 Als alles goed gaat, zie je jouw eigen Steam Web API Key, zoals hieronder.
 
-![](https://github.com/zaphosting/docs/assets/42719082/a99f463b-93ae-408b-b038-29e366b30256)
+![](https://screensaver01.zap-hosting.com/index.php/s/m8WoXg3WcjeaQrW/preview)
 
 ## API key activeren
 

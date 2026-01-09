@@ -26,7 +26,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 شغّل ببساطة **steamcmd.exe** وانتظر حتى تكتمل عملية التثبيت بالكامل.
 
-![](https://github.com/zaphosting/docs/assets/42719082/ffb8e8a1-26e3-4d16-9baf-938e17ec1613)
+![](https://screensaver01.zap-hosting.com/index.php/s/nGsEGWDrSG7gBZs/preview)
 
 بمجرد ظهور رسالة **Loading Steam API.... OK**، تكون العملية اكتملت بنجاح وتقدر تبدأ بتثبيت سيرفر Enshrouded المخصص في القسم التالي.
 
@@ -45,7 +45,7 @@ force_install_dir C:\Enshrouded-Server
 
 الآن شغّل الأمر `app_update 2278520` اللي راح يبدأ تحميل الملفات. رقم التطبيق **2278520** هو تطبيق **Enshrouded**.
 
-![](https://github.com/zaphosting/docs/assets/42719082/29931eec-fd19-4806-88dc-69e585e42370)
+![](https://screensaver01.zap-hosting.com/index.php/s/TQCbwxE8xe7TfPn/preview)
 
 :::info
 لا توقف العملية قبل ما تكتمل عشان تتجنب الأخطاء. ممكن تاخذ شوية وقت، بس الصبر يستاهل! :)
@@ -85,7 +85,7 @@ New-NetFirewallRule -DisplayName "Enshrouded Server" -Direction Outbound -LocalP
 
 استخدم البحث في ويندوز وافتح **إعدادات جدار الحماية مع الأمان المتقدم**. ممكن تحتاج تضغط على **الإعدادات المتقدمة** عشان تفتح النافذة المطلوبة إذا فتحت صفحة جدار الحماية الأساسية.
 
-![](https://github.com/zaphosting/docs/assets/42719082/5fb9f943-7e51-4d8f-9df4-2f5ff60857d3)
+![](https://screensaver01.zap-hosting.com/index.php/s/ZT2WzELZSBPrFsB/preview)
 
 لازم تنشئ قواعد جديدة لسيرفر Enshrouded. للقيام بذلك، اضغط على قواعد الواردة والصادرة كما هو موضح وأضف القواعد للبروتوكولات والمنافذ التالية:
 - TCP وارد وصادر: 15636-15637

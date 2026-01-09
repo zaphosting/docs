@@ -63,7 +63,7 @@ sudo nano /etc/ssh/sshd_config
 
 Añade tu puerto deseado después de `Port`. Si `Port` está comentado (es decir, `#Port 22`), elimina el "#" y reemplaza el 22 con tu puerto deseado. Ahora debes guardar el archivo (en Nano con Ctrl + o) y cerrarlo (Nano: Ctrl + x).
 
-![Puerto sshd](https://github.com/zaphosting/docs/assets/42719082/0adec0a9-f1b3-4428-9ce2-f78497cf1818)
+![Puerto sshd](https://screensaver01.zap-hosting.com/index.php/s/F4Z4SDjLW4y2iDp/preview)
 
 El servicio SSH debe reiniciarse para que los cambios tengan efecto.
 ```
@@ -90,7 +90,7 @@ Usa Ctrl + W para buscar en nano.
 ```
 nano /etc/proftpd/proftpd.conf
 ```
-![Puerto proftpd](https://github.com/zaphosting/docs/assets/42719082/b6f1d33e-8409-4fd7-9f32-5e2d641275c9)
+![Puerto proftpd](https://screensaver01.zap-hosting.com/index.php/s/qw3a88EwfDCMKXS/preview)
 
 ## Uso de un firewall
 
@@ -200,7 +200,7 @@ Después de la instalación, Fail2Ban ya viene con configuraciones predefinidas 
 Servicios adicionales pueden añadirse simplemente usando una expresión regular (RegEx) y especificando el archivo de log deseado.
 
 Como ejemplo, veamos una entrada en `/var/log/auth.log`. Este archivo contiene todos los intentos de inicio de sesión SSH, exitosos o fallidos.
-![/var/log/auth.log](https://github.com/zaphosting/docs/assets/42719082/2758141d-c2dd-4d24-9aee-876aab5d27e7)
+![/var/log/auth.log](https://screensaver01.zap-hosting.com/index.php/s/XzpxrWZRkpFJseo/preview)
 
 Aquí puedes ver la entrada:
 ```
@@ -374,7 +374,7 @@ En esta guía aprenderás cómo proteger tu servidor web de ataques.
 
 Partiremos de la base de que tu dominio ya está gestionado por Cloudflare, si no es así puedes seguir [su guía](https://developers.cloudflare.com/fundamentals/get-started/setup/add-site/) para mover tu dominio. Ve a la pestaña de Registros DNS desde el panel de Cloudflare, y asegúrate de que el registro hacia tu servidor web tenga la nube naranja y diga "Proxied".
 
-![](https://github.com/zaphosting/docs/assets/42719082/a3572480-75df-4c43-bbba-e60ddedf9316)
+![](https://screensaver01.zap-hosting.com/index.php/s/wptKPBTLwmKxx8F/preview)
 
 Entonces, todo el tráfico que pase por tu dominio irá a través de Cloudflare y de ahí a tu servidor, siendo tráfico legítimo.
 Sin embargo, tu servidor sigue siendo accesible desde fuera de Cloudflare, para esto debes limitar el acceso a los puertos 80 y 443 del protocolo TCP de tu servidor Linux, y solo permitir acceso si proviene de tráfico legítimo de Cloudflare.

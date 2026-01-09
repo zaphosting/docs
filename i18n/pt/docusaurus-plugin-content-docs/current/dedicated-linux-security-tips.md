@@ -63,7 +63,7 @@ sudo nano /etc/ssh/sshd_config
 
 Adicione a porta desejada após `Port`. Se `Port` estiver comentado (ex: `#Port 22`), remova o "#" e substitua o 22 pela porta que você quer. Salve o arquivo (no Nano: Ctrl + o) e feche (Ctrl + x).
 
-![Port sshd](https://github.com/zaphosting/docs/assets/42719082/0adec0a9-f1b3-4428-9ce2-f78497cf1818)
+![Port sshd](https://screensaver01.zap-hosting.com/index.php/s/F4Z4SDjLW4y2iDp/preview)
 
 Agora reinicie o serviço SSH para aplicar as mudanças.
 ```
@@ -90,7 +90,7 @@ Use Ctrl + W para buscar no nano.
 ```
 nano /etc/proftpd/proftpd.conf
 ```
-![Port proftpd](https://github.com/zaphosting/docs/assets/42719082/b6f1d33e-8409-4fd7-9f32-5e2d641275c9)
+![Port proftpd](https://screensaver01.zap-hosting.com/index.php/s/qw3a88EwfDCMKXS/preview)
 
 ## Uso de firewall
 
@@ -200,7 +200,7 @@ Depois de instalado, o Fail2Ban já vem com configurações para vários serviç
 Você pode adicionar outros serviços usando expressões regulares (RegEx) e especificando o arquivo de log.
 
 Por exemplo, veja uma entrada em `/var/log/auth.log`. Esse arquivo registra todas as tentativas de login SSH, sucesso ou falha.
-![/var/log/auth.log](https://github.com/zaphosting/docs/assets/42719082/2758141d-c2dd-4d24-9aee-876aab5d27e7)
+![/var/log/auth.log](https://screensaver01.zap-hosting.com/index.php/s/XzpxrWZRkpFJseo/preview)
 
 Aqui temos a linha:
 ```
@@ -375,7 +375,7 @@ Neste guia, você vai aprender a proteger seu webserver desses ataques.
 
 Vamos partir do princípio que seu domínio já está gerenciado pelo Cloudflare. Se não, siga [o guia deles](https://developers.cloudflare.com/fundamentals/get-started/setup/add-site/) para migrar seu domínio. Vá na aba DNS Records do dashboard do Cloudflare e certifique-se que o registro para seu webserver tem a nuvem laranja e diz "Proxied".
 
-![](https://github.com/zaphosting/docs/assets/42719082/a3572480-75df-4c43-bbba-e60ddedf9316)
+![](https://screensaver01.zap-hosting.com/index.php/s/wptKPBTLwmKxx8F/preview)
 
 Assim, todo o tráfego que passa pelo seu domínio vai pelo Cloudflare e depois para seu servidor, sendo tráfego legítimo.
 

@@ -23,15 +23,15 @@ Ett Steam-konto utan begränsningar krävs för att kunna begära en API-nyckel.
 
 När ditt Steam-konto är redo kan du begära din egen Steam Web API-nyckel. Det gör du genom att logga in [på Steams webbplats](https://steamcommunity.com/dev/apikey) med ditt Steam-kontonamn och lösenord.
 
-![](https://github.com/zaphosting/docs/assets/42719082/56be5337-a458-425b-86b0-e0c5fa94abab)
+![](https://screensaver01.zap-hosting.com/index.php/s/Wm8rdwwFPbt7D5W/preview)
 
 När du är inloggad måste du ange ett domännamn, godkänna användarvillkoren för Steam Web API och klicka på **Register**-knappen. Domänen ska sättas till din **Server IP** *(utan port)*, så skriv in den där.
 
-![](https://github.com/zaphosting/docs/assets/42719082/334e89a9-0eef-4ea5-b100-5a1e4b8cdc31)
+![](https://screensaver01.zap-hosting.com/index.php/s/GNmZXzTn9JJ8cBo/preview)
 
 Om allt går bra ska du kunna se din egen Steam Web API-nyckel, som visas nedan.
 
-![](https://github.com/zaphosting/docs/assets/42719082/a99f463b-93ae-408b-b038-29e366b30256)
+![](https://screensaver01.zap-hosting.com/index.php/s/m8WoXg3WcjeaQrW/preview)
 
 ## Aktivering av API-nyckel
 

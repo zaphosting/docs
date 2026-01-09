@@ -26,7 +26,7 @@ Mamy teraz osobną wersję gry **Palworld (Xbox)** dostępną na naszych serwera
 
 Na początek musisz znać adres IP i port swojego serwera Palworld, aby móc połączyć się bezpośrednio. Po prostu zaloguj się do swojego [panelu głównego ZAP-Hosting](https://zap-hosting.com/en/customer/) na stronie i miej pod ręką pełny adres IP oraz port.
 
-![](https://github.com/zaphosting/docs/assets/42719082/62bcad5b-064c-45cd-a7f0-406a1148b15c)
+![](https://screensaver01.zap-hosting.com/index.php/s/DRxKHE7bP3FbFMo/preview)
 
 Jeśli uruchamiasz swój serwer Palworld na zewnętrznym serwerze dedykowanym, adres IP będzie adresem maszyny hostującej, a port to ten, który ustawiłeś w pliku konfiguracyjnym (domyślnie jest to 8211). Więcej informacji o porcie znajdziesz w naszym [poradniku Konfiguracja serwera](palworld-configuration.md).
 
@@ -34,7 +34,7 @@ Jeśli uruchamiasz swój serwer Palworld na zewnętrznym serwerze dedykowanym, a
 
 Najpierw uruchom Palworld z launcher’a gry. W menu głównym wybierz **Dołącz do gry multiplayer**.
 
-![](https://github.com/zaphosting/docs/assets/42719082/fefc7ead-5098-4bdb-aa56-c9d78673d7e8)
+![](https://screensaver01.zap-hosting.com/index.php/s/TZzLAS29rnpPmi6/preview)
 
 W przeglądarce serwerów dedykowanych przewiń na dół strony. Wprowadź swój adres IP i port w dolnym polu wyszukiwania. Gdy będziesz gotowy, kliknij przycisk **Połącz** i dołączysz do swojego serwera.
 
@@ -42,7 +42,7 @@ W przeglądarce serwerów dedykowanych przewiń na dół strony. Wprowadź swój
 Upewnij się, że korzystasz z dolnego pola wyszukiwania, a nie górnego. Górne służy do wyszukiwania serwerów po nazwie na liście serwerów.
 :::
 
-![](https://github.com/zaphosting/docs/assets/42719082/ae31ddee-8992-486a-aef3-e6e4d115f018)
+![](https://screensaver01.zap-hosting.com/index.php/s/CG5gARbSxC3RpTb/preview)
 
 Jeśli nie możesz dołączyć do serwera i pojawia się błąd timeout, sprawdź, czy wpisany adres IP i port są poprawne oraz czy Twój serwer jest online. Możesz skorzystać z konsoli w panelu głównym swojego serwera Palworld, aby pomóc w debugowaniu.
 

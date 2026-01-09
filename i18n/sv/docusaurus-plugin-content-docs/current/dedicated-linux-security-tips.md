@@ -63,7 +63,7 @@ sudo nano /etc/ssh/sshd_config
 
 Lägg till din önskade port efter `Port`. Om `Port` är kommenterad (dvs `#Port 22`), ta bort "#" och ersätt 22 med din önskade port. Spara sedan filen (i Nano med Ctrl + o) och stäng den (Nano: Ctrl + x).
 
-![Port sshd](https://github.com/zaphosting/docs/assets/42719082/0adec0a9-f1b3-4428-9ce2-f78497cf1818)
+![Port sshd](https://screensaver01.zap-hosting.com/index.php/s/F4Z4SDjLW4y2iDp/preview)
 
 SSH-tjänsten måste nu startas om för att ändringarna ska träda i kraft.
 ```
@@ -90,7 +90,7 @@ Använd Ctrl + W för att söka i nano.
 ```
 nano /etc/proftpd/proftpd.conf
 ```
-![Port proftpd](https://github.com/zaphosting/docs/assets/42719082/b6f1d33e-8409-4fd7-9f32-5e2d641275c9)
+![Port proftpd](https://screensaver01.zap-hosting.com/index.php/s/qw3a88EwfDCMKXS/preview)
 
 ## Användning av brandvägg
 
@@ -200,7 +200,7 @@ Efter installation kommer Fail2Ban med förkonfigurerade inställningar för van
 Fler tjänster kan läggas till med reguljära uttryck (RegEx) och önskad loggfil.
 
 Som exempel, titta på en rad i `/var/log/auth.log`. Denna fil innehåller alla SSH-inloggningsförsök, både lyckade och misslyckade.
-![/var/log/auth.log](https://github.com/zaphosting/docs/assets/42719082/2758141d-c2dd-4d24-9aee-876aab5d27e7)
+![/var/log/auth.log](https://screensaver01.zap-hosting.com/index.php/s/XzpxrWZRkpFJseo/preview)
 
 Här ser du raden:
 ```
@@ -375,7 +375,7 @@ I den här guiden lär du dig hur du skyddar din webbserver från attacker.
 
 Vi utgår från att din domän redan hanteras av Cloudflare, annars kan du följa [deras guide](https://developers.cloudflare.com/fundamentals/get-started/setup/add-site/) för att flytta din domän. Gå till DNS Records-fliken i Cloudflares dashboard och se till att din post till webbservern har orange moln och står som "Proxied".
 
-![](https://github.com/zaphosting/docs/assets/42719082/a3572480-75df-4c43-bbba-e60ddedf9316)
+![](https://screensaver01.zap-hosting.com/index.php/s/wptKPBTLwmKxx8F/preview)
 
 All trafik som går via din domän passerar nu Cloudflare och vidare till din server, som legitima förfrågningar.
 

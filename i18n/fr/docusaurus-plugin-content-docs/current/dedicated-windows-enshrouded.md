@@ -27,7 +27,7 @@ Crée un nouveau dossier quelque part sur ton serveur, ici on l’appellera `ste
 
 Lance simplement **steamcmd.exe** et attends que l’installation soit complètement terminée.
 
-![](https://github.com/zaphosting/docs/assets/42719082/ffb8e8a1-26e3-4d16-9baf-938e17ec1613)
+![](https://screensaver01.zap-hosting.com/index.php/s/nGsEGWDrSG7gBZs/preview)
 
 Dès que le message **Loading Steam API.... OK** s’affiche, le processus est terminé avec succès et tu peux passer à l’installation du serveur dédié Enshrouded dans la section suivante.
 
@@ -46,7 +46,7 @@ force_install_dir C:\Enshrouded-Server
 
 Lance maintenant la commande `app_update 2278520` qui va démarrer le téléchargement. L’ID de l’application **2278520** correspond à **Enshrouded**.
 
-![](https://github.com/zaphosting/docs/assets/42719082/29931eec-fd19-4806-88dc-69e585e42370)
+![](https://screensaver01.zap-hosting.com/index.php/s/TQCbwxE8xe7TfPn/preview)
 
 :::info
 Ne coupe pas le processus avant qu’il soit terminé pour éviter les erreurs. Ça peut prendre un peu de temps, mais ça vaut le coup d’être patient ! :)
@@ -86,7 +86,7 @@ Ces commandes vont automatiquement créer les règles de pare-feu nécessaires p
 
 Utilise la recherche Windows pour ouvrir les **Paramètres du Pare-feu Windows avec sécurité avancée**. Tu devras peut-être cliquer sur **Paramètres avancés** pour ouvrir la fenêtre complète si tu ouvres la page de base du Pare-feu Windows.
 
-![](https://github.com/zaphosting/docs/assets/42719082/5fb9f943-7e51-4d8f-9df4-2f5ff60857d3)
+![](https://screensaver01.zap-hosting.com/index.php/s/ZT2WzELZSBPrFsB/preview)
 
 Tu dois créer de nouvelles règles pour ton serveur Enshrouded. Pour ça, clique sur les règles entrantes et sortantes comme expliqué ci-dessous et ajoute-les pour les protocoles et ports suivants :
 - TCP entrant et sortant : 15636-15637

@@ -29,7 +29,7 @@ You will require all the relevant information necessary to connect to your serve
 
 Using the information mentioned above, you should be able to locate your server and ensure that you connect to the correct server.
 
-![img](https://github.com/zaphosting/docs/assets/42719082/aaeee832-8cd0-4ac0-9769-f498eace4892)
+![img](https://screensaver01.zap-hosting.com/index.php/s/xaBYEZXr5wPWjnG/preview)
 
 
 

@@ -137,7 +137,7 @@ New-NetFirewallRule -DisplayName "FS2025 Server" -Direction Outbound -LocalPort 
 
 ใช้ฟังก์ชันค้นหาของ Windows เปิด **Windows Firewall Settings with Advanced Security** คุณอาจต้องกด **Advanced Settings** เพื่อเปิดหน้าต่างที่จำเป็นหากเปิดหน้า Windows Firewall ปกติ
 
-![](https://github.com/zaphosting/docs/assets/42719082/5fb9f943-7e51-4d8f-9df4-2f5ff60857d3)
+![](https://screensaver01.zap-hosting.com/index.php/s/ZT2WzELZSBPrFsB/preview)
 
 คุณต้องสร้างกฎใหม่สำหรับเซิร์ฟเวอร์ FS2025 ของคุณ โดยคลิกที่กฎขาเข้าและขาออกตามนี้และเพิ่มพอร์ตและโปรโตคอลดังนี้:
 - TCP ขาเข้าและขาออก: 8080, 10823

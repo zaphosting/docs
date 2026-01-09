@@ -37,7 +37,7 @@ Mods werken alleen met een specifieke versie van de modloader. Check de modpagin
 
 Ga naar de pagina van je gekozen mod / modpack en klik op het tabblad "Files".
 
-![](https://github.com/Yoshlix/docs/assets/26007280/cc528cf6-9fc8-4524-aca0-b954e24716f8)
+![](https://screensaver01.zap-hosting.com/index.php/s/abryep5KdQcqpAi/preview)
 
 
 Zoek de versie die je wilt en klik erop om naar de sectie "File Details" te gaan.
@@ -45,7 +45,7 @@ Zoek de versie die je wilt en klik erop om naar de sectie "File Details" te gaan
 :::tip
 Je kunt filteren op versie en modloader via het dropdown-menu bovenaan het geselecteerde "Files" tabblad.
 
-![](https://github.com/Yoshlix/docs/assets/26007280/6867b2f2-e9db-4a4c-be88-b9b22b800e72)
+![](https://screensaver01.zap-hosting.com/index.php/s/HoJYzW7bkC4Z6oL/preview)
 
 :::
 
@@ -56,14 +56,14 @@ import TabItem from '@theme/TabItem';
 <TabItem value="Mods" label="Voor Mods" default>
 In de sectie "File Details" klik je op de knop "Download". Sla dit bestand ergens op, je hebt het later nodig.
 
-![](https://github.com/Yoshlix/docs/assets/26007280/7b84ae33-1bef-4568-80d7-ef651a654b08)
+![](https://screensaver01.zap-hosting.com/index.php/s/7ZcEHsmmqZWdZB5/preview)
 
 </TabItem>
 
 <TabItem value="Modpacks" label="Voor Modpacks">
 In de sectie "File Details" scroll je naar beneden tot je "Additional Files" ziet, klik op de drie puntjes en kies "Download file". Sla dit bestand ergens op, je hebt het later nodig.
 
-![](https://github.com/Yoshlix/docs/assets/26007280/49fb9317-fdd3-474e-8140-b78b102c5f3d)
+![](https://screensaver01.zap-hosting.com/index.php/s/YzH5Gz4w3yJZjx3/preview)
 
 </TabItem>
 </Tabs>
@@ -72,7 +72,7 @@ In de sectie "File Details" scroll je naar beneden tot je "Additional Files" zie
 
 Zoek het gedownloade bestand op je pc, klik er met rechts op en kies "Alles uitpakken...". Kies een map waar je de uitgepakte bestanden wilt opslaan. Onthoud deze locatie!
 
-![](https://github.com/Yoshlix/docs/assets/26007280/edbc753d-1906-4d81-9f05-354ff48ceebb)
+![](https://screensaver01.zap-hosting.com/index.php/s/y9SWDpX2HYgekbQ/preview)
 
 ![extract the file german version](https://screensaver01.zap-hosting.com/index.php/s/iE9XFMmrjj7b7ST/preview)
 
@@ -87,28 +87,28 @@ Sommige modpacks vereisen extra stappen, zoals AllOfFabric6. Bij AllOfFabric6 mo
 
 In het Zap-Hosting webinterface selecteer je je Gameserver en ga je naar "Games" in de instellingen.
 
-![](https://github.com/Yoshlix/docs/assets/26007280/47e88856-0120-408a-8bec-41e54e3b0738)
+![](https://screensaver01.zap-hosting.com/index.php/s/Ne5B9CnHrbwgmfW/preview)
 
 Vouw de sectie "Available Games" uit en zoek je modloader (Forge voor Forge mods / modpacks, Fabric voor Fabric mods / modpacks). Klik op de groene downloadknop.
 
-![](https://github.com/Yoshlix/docs/assets/26007280/e3b4e5d3-11c9-4f09-ae46-27cea93a58a3)
+![](https://screensaver01.zap-hosting.com/index.php/s/dnBCddmXGAMpMj8/preview)
 
 
 Klik op het dropdown-menu onder "Game version" en selecteer je Minecraft-versie die overeenkomt met de juiste versie voor je mod/modpack. Voor Forge kun je kiezen tussen de nieuwste versie of de aanbevolen versie. Probeer eerst de nieuwste versie, en als je server niet werkt zoals verwacht, probeer dan de aanbevolen versie. Klik op "Accept and Install".
 
-![](https://github.com/Yoshlix/docs/assets/26007280/3530466f-bd58-4d0e-9ca3-8d964ac76d80)
+![](https://screensaver01.zap-hosting.com/index.php/s/gCdcwLzc4Hxptqp/preview)
 
 
 :::tip
 Weet je niet welke Minecraft-versie je nodig hebt? Ga terug naar de "File Details" pagina op CurseForge. Naast het gamecontroller-icoon zie je de versie.
 
-![](https://github.com/Yoshlix/docs/assets/26007280/89f751c1-7179-4107-b8bc-7c4381a7d94c)
+![](https://screensaver01.zap-hosting.com/index.php/s/9TsCBRP9PGQL2fC/preview)
 
 :::
 
 Als de installatie klaar is, zie je een blauwe knop naast de naam van je game (bijv. Forge, Fabric). Klik hierop om de game te activeren.
 
-![](https://github.com/Yoshlix/docs/assets/26007280/53cf9569-3529-42fb-9a7d-6ae636ca4f9c)
+![](https://screensaver01.zap-hosting.com/index.php/s/YzzBzSJjnsaqKS2/preview)
 ![activate the game german version](https://screensaver01.zap-hosting.com/index.php/s/GiFsA7JmGPd4LCB/preview)
 
 
@@ -120,7 +120,7 @@ Verbind met je server via je gekozen FTP-client. Zorg dat je server gestopt is.
 
 Als je verbonden bent, navigeer je naar je game map (bijv. minecraft-forge, minecraft-fabric). Open de mods map en sleep je gedownloade mod-bestanden erin.
 
-![](https://github.com/Yoshlix/docs/assets/26007280/8619fc4f-4fab-415a-9692-f74f8930da3f)
+![](https://screensaver01.zap-hosting.com/index.php/s/Zwm9SYdgK6MKBdz/preview)
 
 Als het uploaden klaar is, kun je je server starten.
 
@@ -128,7 +128,7 @@ Als het uploaden klaar is, kun je je server starten.
 
 Als je verbonden bent, navigeer je naar je game map (bijv. minecraft-forge, minecraft-fabric). Verwijder de world, mods, config en defaultconfig mappen op je server. Upload nu alle mappen uit de eerder uitgepakte map, behalve de jre en libraries mappen. Selecteer gewoon alle mappen en sleep ze naar je server directory.
 
-![](https://github.com/Yoshlix/docs/assets/26007280/1424a94d-aa96-40ca-8b30-7c1905e67c21)
+![](https://screensaver01.zap-hosting.com/index.php/s/PEyqrSES4xPGaFz/preview)
 
 Als het uploaden klaar is, kun je je server starten.
 

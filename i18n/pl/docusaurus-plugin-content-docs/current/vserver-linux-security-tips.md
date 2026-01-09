@@ -65,7 +65,7 @@ sudo nano /etc/ssh/sshd_config
 
 Dodaj swój wybrany port po `Port`. Jeśli `Port` jest zakomentowany (np. `#Port 22`), usuń "#" i zamień 22 na swój port. Następnie zapisz plik (w Nano Ctrl + o) i zamknij go (Nano: Ctrl + x).
 
-![Port sshd](https://github.com/zaphosting/docs/assets/42719082/0adec0a9-f1b3-4428-9ce2-f78497cf1818)
+![Port sshd](https://screensaver01.zap-hosting.com/index.php/s/F4Z4SDjLW4y2iDp/preview)
 
 Teraz musisz zrestartować usługę SSH, aby zmiany zaczęły działać.
 ```
@@ -92,7 +92,7 @@ W nano użyj Ctrl + W, aby wyszukać.
 ```
 nano /etc/proftpd/proftpd.conf
 ```
-![Port proftpd](https://github.com/zaphosting/docs/assets/42719082/b6f1d33e-8409-4fd7-9f32-5e2d641275c9)
+![Port proftpd](https://screensaver01.zap-hosting.com/index.php/s/qw3a88EwfDCMKXS/preview)
 
 ## Użycie zapory sieciowej (firewall)
 
@@ -202,7 +202,7 @@ Po instalacji Fail2Ban ma gotowe konfiguracje dla popularnych usług, m.in.:
 Dodatkowe usługi można dodać, definiując wyrażenia regularne (RegEx) i wskazując odpowiednie pliki logów.
 
 Przykład: wpis w `/var/log/auth.log`. Ten plik zawiera wszystkie próby logowania SSH, zarówno udane, jak i nieudane.
-![/var/log/auth.log](https://github.com/zaphosting/docs/assets/42719082/2758141d-c2dd-4d24-9aee-876aab5d27e7)
+![/var/log/auth.log](https://screensaver01.zap-hosting.com/index.php/s/XzpxrWZRkpFJseo/preview)
 
 Widzisz wpis:
 ```
@@ -377,7 +377,7 @@ W tym poradniku dowiesz się, jak chronić swój serwer WWW przed atakami.
 
 Zakładamy, że Twoja domena jest już zarządzana przez Cloudflare. Jeśli nie, możesz skorzystać z [ich poradnika](https://developers.cloudflare.com/fundamentals/get-started/setup/add-site/) jak przenieść domenę. Przejdź do zakładki DNS Records w panelu Cloudflare i upewnij się, że rekord do Twojego serwera WWW ma pomarańczową chmurkę i status "Proxied".
 
-![](https://github.com/zaphosting/docs/assets/42719082/a3572480-75df-4c43-bbba-e60ddedf9316)
+![](https://screensaver01.zap-hosting.com/index.php/s/wptKPBTLwmKxx8F/preview)
 
 Wszystkie połączenia przez Twoją domenę będą przechodzić przez Cloudflare, a następnie do Twojego serwera, będąc legalnym ruchem.
 Twój serwer jest jednak nadal dostępny spoza Cloudflare, dlatego musisz ograniczyć dostęp do portów 80 i 443 protokołu TCP na serwerze Linux i zezwolić tylko na ruch pochodzący z legalnych adresów Cloudflare.

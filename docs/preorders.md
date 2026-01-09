@@ -15,7 +15,7 @@ Some products can be ordered at ZAP-Hosting.com as pre-orders. This means that t
 
 Pre-orders are marked as pre-orders on the product page. They will have an stopwatch icon to represent this.
 
-![](https://github.com/zaphosting/docs/assets/42719082/6af93b92-69bc-49ef-adbd-2b858f3b6c01)
+![](https://screensaver01.zap-hosting.com/index.php/s/Wx9nEXzees3Bx3B/preview)
 
 ## Provision of pre-orders
 

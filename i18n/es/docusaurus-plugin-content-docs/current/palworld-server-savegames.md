@@ -29,12 +29,12 @@ Las partidas guardadas locales son las que creas mientras alojas una partida mul
 :::tip
 Puedes acceder fácilmente a esta ruta presionando `CTRL` + `R` al mismo tiempo y buscando la siguiente ruta en el cuadro de diálogo Ejecutar: `%localappdata%/Pal/Saved/SaveGames/`. Simplemente presiona **OK** y serás llevado a la carpeta.
 
-![](https://github.com/zaphosting/docs/assets/42719082/5cdff375-57f8-4699-9985-42bcecf22218)
+![](https://screensaver01.zap-hosting.com/index.php/s/gWL9gtAZ8JE2ENP/preview)
 :::
 
 En esta ubicación, verás una carpeta que será tu SteamID. Ábrela y podrás ver todas tus partidas guardadas locales en un solo lugar.
 
-![](https://github.com/zaphosting/docs/assets/42719082/8f36715d-7e87-45e1-b859-6ebedd18c8da)
+![](https://screensaver01.zap-hosting.com/index.php/s/aaeRXfs5cFjA6fN/preview)
 
 ### Accediendo a la partida guardada vía FTP
 
@@ -45,7 +45,7 @@ Hacer una copia de seguridad de tu partida guardada desde el servidor es sencill
 
 En esta ubicación, deberías ver una carpeta con una serie de caracteres aleatorios que corresponde a tu partida guardada. Simplemente haz clic derecho sobre la carpeta y usa el botón **Descargar** para guardarla localmente en tu dispositivo.
 
-![](https://github.com/zaphosting/docs/assets/42719082/ca890470-450d-4962-a982-39378dfbb695)
+![](https://screensaver01.zap-hosting.com/index.php/s/pmrmNHS5NAfXpY3/preview)
 
 ### Copia de seguridad automática
 

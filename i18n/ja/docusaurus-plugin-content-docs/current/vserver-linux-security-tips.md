@@ -65,7 +65,7 @@ sudo nano /etc/ssh/sshd_config
 
 `Port`の行を探し、コメントアウト（`#Port 22`）されていたら`#`を外して22を希望のポートに変更。保存はCtrl + o、終了はCtrl + x。
 
-![Port sshd](https://github.com/zaphosting/docs/assets/42719082/0adec0a9-f1b3-4428-9ce2-f78497cf1818)
+![Port sshd](https://screensaver01.zap-hosting.com/index.php/s/F4Z4SDjLW4y2iDp/preview)
 
 変更を反映させるためSSHサービスを再起動します。
 ```
@@ -91,7 +91,7 @@ nanoで検索はCtrl + Wを使おう。
 ```
 nano /etc/proftpd/proftpd.conf
 ```
-![Port proftpd](https://github.com/zaphosting/docs/assets/42719082/b6f1d33e-8409-4fd7-9f32-5e2d641275c9)
+![Port proftpd](https://screensaver01.zap-hosting.com/index.php/s/qw3a88EwfDCMKXS/preview)
 
 ## ファイアウォールの活用
 
@@ -199,7 +199,7 @@ Fail2Banは、不正な接続を試みるIPアドレスを自動でブロック�
 追加サービスも正規表現（RegEx）とログファイル指定で簡単に追加可能。
 
 例として`/var/log/auth.log`を見てみましょう。ここにはSSHのログイン試行（成功・失敗）が記録されています。
-![/var/log/auth.log](https://github.com/zaphosting/docs/assets/42719082/2758141d-c2dd-4d24-9aee-876aab5d27e7)
+![/var/log/auth.log](https://screensaver01.zap-hosting.com/index.php/s/XzpxrWZRkpFJseo/preview)
 
 こんなログが見えます：
 ```
@@ -372,7 +372,7 @@ bantime.maxtime = 5w
 
 まず、ドメインがすでにCloudflareで管理されている前提です。まだなら[こちらのガイド](https://developers.cloudflare.com/fundamentals/get-started/setup/add-site/)を参考に移行してください。CloudflareのダッシュボードのDNSレコードタブで、ウェブサーバーのレコードがオレンジの雲アイコンで「Proxied」になっていることを確認。
 
-![](https://github.com/zaphosting/docs/assets/42719082/a3572480-75df-4c43-bbba-e60ddedf9316)
+![](https://screensaver01.zap-hosting.com/index.php/s/wptKPBTLwmKxx8F/preview)
 
 これでドメインへのトラフィックはCloudflare経由でサーバーに届き、正当なトラフィックだけが通ります。
 

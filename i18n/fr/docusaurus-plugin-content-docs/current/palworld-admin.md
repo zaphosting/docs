@@ -35,12 +35,12 @@ La méthode la plus simple, c’est d’aller dans la section **Settings** sur l
 
 Dans la zone **Settings**, cherchez l’option **Game server password**. Dans ce champ, créez le mot de passe que vous voulez utiliser et saisissez-le.
 
-![](https://github.com/zaphosting/docs/assets/42719082/dadbd22b-2fd9-42e1-be71-f6d28a3f2938)
+![](https://screensaver01.zap-hosting.com/index.php/s/aQYQDYMP34NnNXr/preview)
 
 :::info
 Une fois que vous avez choisi un mot de passe, remontez en haut et n’oubliez pas de cliquer sur le bouton vert **Save** pour valider.
 
-![](https://github.com/zaphosting/docs/assets/42719082/5a4f5ab1-8079-4b20-96a6-36e4aca2e28e)
+![](https://screensaver01.zap-hosting.com/index.php/s/YG5MZ6Jt8SdFy4A/preview)
 :::
 
 </TabItem>
@@ -55,11 +55,11 @@ Le serveur doit être arrêté avant de modifier la config, sinon les changement
 
 Sinon, pour ceux qui préfèrent éditer directement le fichier brut, vous pouvez y accéder via la section **Configs** sur le webinterface de votre serveur de jeux et cliquer sur le bouton bleu d’édition, comme ci-dessous :
 
-![](https://github.com/zaphosting/docs/assets/42719082/53c8acad-7347-4c3e-85bf-5ae0ad423fc6)
+![](https://screensaver01.zap-hosting.com/index.php/s/2fNGG7jBdGRekKP/preview)
 
 Cela ouvrira un éditeur de texte directement sur le site pour que vous puissiez modifier le fichier. Trouvez l’option **AdminPassword** dans le fichier (utilisez `CTRL+F` pour chercher) et remplacez-la par le mot de passe admin que vous voulez définir. Enfin, sauvegardez le fichier puis démarrez votre serveur.
 
-![](https://github.com/zaphosting/docs/assets/42719082/d86376b8-1a41-4fb0-b8cd-8570ddcaa9ae)
+![](https://screensaver01.zap-hosting.com/index.php/s/gpBjxxmdsWKD4t2/preview)
 
 </TabItem>
 
@@ -86,7 +86,7 @@ En jeu, ouvrez le chat avec `Entrée`. Ensuite, tapez la commande suivante en re
 /AdminPassword [password]
 ```
 
-![](https://github.com/zaphosting/docs/assets/42719082/2f6e3ee7-e83f-4b71-87dc-d36f9b8c7340)
+![](https://screensaver01.zap-hosting.com/index.php/s/75D5ejaWNM6oYNX/preview)
 
 Vous devriez recevoir un message de succès dans le chat si c’est bon. Si vous avez une erreur, vérifiez bien que le mot de passe admin que vous avez saisi est correct et correspond à celui que vous avez défini à l’étape précédente.
 

@@ -26,7 +26,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 อันดับแรก คุณต้องรู้ที่อยู่ IP และพอร์ตของเซิร์ฟเวอร์ Palworld ของคุณเพื่อเชื่อมต่อโดยตรง แค่เข้าไปที่ [เว็บอินเทอร์เฟซ ZAP-Hosting](https://zap-hosting.com/en/customer/) บนเว็บไซต์ แล้วเตรียมที่อยู่ IP และพอร์ตให้พร้อม
 
-![](https://github.com/zaphosting/docs/assets/42719082/62bcad5b-064c-45cd-a7f0-406a1148b15c)
+![](https://screensaver01.zap-hosting.com/index.php/s/DRxKHE7bP3FbFMo/preview)
 
 ถ้าคุณรันเซิร์ฟเวอร์ Palworld เป็นเซิร์ฟเวอร์เฉพาะภายนอก ที่อยู่ IP จะเป็นของเครื่องโฮสต์ และพอร์ตจะเป็นพอร์ตที่คุณตั้งค่าไว้ในไฟล์คอนฟิก (โดยปกติคือ 8211) ดูข้อมูลเพิ่มเติมเกี่ยวกับพอร์ตได้ใน [คู่มือการตั้งค่าเซิร์ฟเวอร์](palworld-configuration.md)
 
@@ -34,7 +34,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 เริ่มจากเปิดเกม Palworld ผ่านตัวเปิดเกมของคุณ ในเมนูหลัก เลือก **Join Multiplayer Game**
 
-![](https://github.com/zaphosting/docs/assets/42719082/fefc7ead-5098-4bdb-aa56-c9d78673d7e8)
+![](https://screensaver01.zap-hosting.com/index.php/s/TZzLAS29rnpPmi6/preview)
 
 ในเบราว์เซอร์เซิร์ฟเวอร์เฉพาะ เลื่อนลงมาด้านล่างของหน้า ใส่ที่อยู่ IP และพอร์ตของคุณในช่องค้นหาด้านล่าง เมื่อพร้อมแล้ว กดปุ่ม **Connect** เพื่อเข้าร่วมเซิร์ฟเวอร์ของคุณ
 
@@ -42,7 +42,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 อย่าลืมใช้ช่องค้นหาด้านล่างนะ ห้ามใช้ช่องบน ช่องบนใช้สำหรับค้นหาเซิร์ฟเวอร์ตามชื่อในรายชื่อเซิร์ฟเวอร์
 :::
 
-![](https://github.com/zaphosting/docs/assets/42719082/ae31ddee-8992-486a-aef3-e6e4d115f018)
+![](https://screensaver01.zap-hosting.com/index.php/s/CG5gARbSxC3RpTb/preview)
 
 ถ้าเข้าร่วมเซิร์ฟเวอร์ไม่ได้และเจอข้อผิดพลาด timeout ให้ตรวจสอบว่าที่อยู่ IP และพอร์ตที่ใส่ถูกต้อง และเซิร์ฟเวอร์ของคุณออนไลน์อยู่ คุณสามารถใช้ส่วนคอนโซลในเว็บอินเทอร์เฟซของเซิร์ฟเวอร์ Palworld เพื่อช่วยดีบักได้
 

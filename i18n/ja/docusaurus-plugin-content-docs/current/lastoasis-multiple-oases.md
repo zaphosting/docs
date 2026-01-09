@@ -22,7 +22,7 @@ Last Oasisでは、同じRealm内で複数のオアシスを同時に接続す�
 ## マルチホスティングの有効化
 サイト内の**Realms**セクションに移動します。現在のRealmの**Change**ボタンを押して、ホスティングモードを**Single -> Multiple**に切り替えましょう。
 
-![](https://github.com/zaphosting/docs/assets/42719082/9f06547a-f23f-4542-bcd7-e69d0bbfbf19)
+![](https://screensaver01.zap-hosting.com/index.php/s/qDgwQ5D6YwptWER/preview)
 
 :::info
 複数のオアシスを同時に稼働させるには、オアシスごとに1つずつゲームサーバーをレンタルする必要があります。新しいサーバーも元のサーバーと同じプロバイダーキーを使ってください。変更後は必ずサーバーを再起動しましょう。

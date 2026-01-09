@@ -94,7 +94,7 @@ Esses comandos vão criar automaticamente as regras no firewall necessárias par
 
 Use a busca do Windows para abrir as **Configurações do Firewall do Windows com Segurança Avançada**. Talvez precise clicar em **Configurações Avançadas** para abrir a janela correta, caso abra a página básica do firewall.
 
-![image](https://github.com/zaphosting/docs/assets/42719082/5fb9f943-7e51-4d8f-9df4-2f5ff60857d3)
+![image](https://screensaver01.zap-hosting.com/index.php/s/ZT2WzELZSBPrFsB/preview)
 
 Você precisa criar novas regras para o seu servidor RageMP. Para isso, clique nas regras de entrada e saída conforme descrito abaixo e adicione para os seguintes protocolos e portas:
 

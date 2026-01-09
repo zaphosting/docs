@@ -41,7 +41,7 @@ Clique sur le **+** vert pour ouvrir un menu où tu peux soumettre ton lien. Qua
 Le lien doit pointer vers la pub créée pour cet usage. Si le lien ne contient pas de pub, il sera refusé.
 :::
 
-![](https://github.com/zaphosting/docs/assets/42719082/d94273e7-3c97-4d62-a77a-7901d0293c7f)
+![](https://screensaver01.zap-hosting.com/index.php/s/keEHsk3E5jfxWEP/preview)
 
 
 
@@ -49,7 +49,7 @@ Le lien doit pointer vers la pub créée pour cet usage. Si le lien ne contient 
 
 Tu peux transférer ton solde de publicité communautaire soit dans ta caisse (ZAP Coins), soit en argent réel. Retourne sur la page [Publicité Communautaire](https://zap-hosting.com/en/customer/communityads/) et clique sur le bouton bleu **Paiement/Transfert**.
 
-![](https://github.com/zaphosting/docs/assets/42719082/076c45aa-2851-4a0d-b5ed-27ca57102b15)
+![](https://screensaver01.zap-hosting.com/index.php/s/cMKXcgtQXs48Xs2/preview)
 
 
 
@@ -63,7 +63,7 @@ Une fois tes crédits transférés en ZAP Coins, tu ne pourras plus les retirer 
 
 Dans le menu, choisis l’option **Solde ZAP Coin**. Sélectionne si tu veux transférer tout le solde ou juste une partie. Quand c’est bon, clique sur le bouton vert **Transférer** pour valider.
 
-![](https://github.com/zaphosting/docs/assets/42719082/27807ca4-4ee7-4e70-92f8-23b887bfef90)
+![](https://screensaver01.zap-hosting.com/index.php/s/cpMSzbJaDzGRTi8/preview)
 
 
 

@@ -29,12 +29,12 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 :::tip
 `CTRL` + `R` を同時に押して、実行ダイアログに `%localappdata%/Pal/Saved/SaveGames/` と入力すると、直接このフォルダにアクセスできます。**OK**を押すだけでフォルダが開きます。
 
-![](https://github.com/zaphosting/docs/assets/42719082/5cdff375-57f8-4699-9985-42bcecf22218)
+![](https://screensaver01.zap-hosting.com/index.php/s/gWL9gtAZ8JE2ENP/preview)
 :::
 
 この場所にはSteamIDの名前のフォルダがあり、その中にすべてのローカルセーブゲームがまとめられています。
 
-![](https://github.com/zaphosting/docs/assets/42719082/8f36715d-7e87-45e1-b859-6ebedd18c8da)
+![](https://screensaver01.zap-hosting.com/index.php/s/aaeRXfs5cFjA6fN/preview)
 
 ### FTP経由でのセーブゲームアクセス
 
@@ -45,7 +45,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ここにランダムな文字列のフォルダがあり、それがセーブゲームです。フォルダを右クリックして **ダウンロード** を選択すれば、ローカルに保存できます。
 
-![](https://github.com/zaphosting/docs/assets/42719082/ca890470-450d-4962-a982-39378dfbb695)
+![](https://screensaver01.zap-hosting.com/index.php/s/pmrmNHS5NAfXpY3/preview)
 
 ### 自動バックアップ
 

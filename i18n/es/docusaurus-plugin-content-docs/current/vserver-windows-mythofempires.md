@@ -24,7 +24,7 @@ Crea una carpeta nueva en tu servidor, en este caso la llamaremos `steamcmd`. Ve
 
 Simplemente ejecuta **steamcmd.exe** y espera hasta que el proceso de instalación termine por completo.
 
-![](https://github.com/zaphosting/docs/assets/42719082/ffb8e8a1-26e3-4d16-9baf-938e17ec1613)
+![](https://screensaver01.zap-hosting.com/index.php/s/nGsEGWDrSG7gBZs/preview)
 
 Cuando aparezca el mensaje **Loading Steam API.... OK**, el proceso se ha completado con éxito y puedes continuar con la instalación del servidor dedicado MOE en la siguiente sección.
 
@@ -43,7 +43,7 @@ force_install_dir C:\MOE-Server
 
 Ahora ejecuta el comando `app_update 1794810` que comenzará la descarga. El App ID **1794810** corresponde a la aplicación **MOE**.
 
-![](https://github.com/zaphosting/docs/assets/42719082/29931eec-fd19-4806-88dc-69e585e42370)
+![](https://screensaver01.zap-hosting.com/index.php/s/TQCbwxE8xe7TfPn/preview)
 
 :::info
 No interrumpas el proceso antes de que termine para evitar errores. Puede tardar un poco, ¡pero vale la pena ser paciente! :)
@@ -97,7 +97,7 @@ Estos comandos crearán automáticamente las reglas de firewall necesarias para 
 
 Usa la búsqueda de Windows para abrir **Configuración avanzada de Firewall de Windows**. Puede que tengas que hacer clic en **Configuración avanzada** para abrir la ventana correcta si solo abres la página base del Firewall.
 
-![](https://github.com/zaphosting/docs/assets/42719082/5fb9f943-7e51-4d8f-9df4-2f5ff60857d3)
+![](https://screensaver01.zap-hosting.com/index.php/s/ZT2WzELZSBPrFsB/preview)
 
 Debes crear nuevas reglas para tu servidor MOE. Para ello, crea reglas entrantes y salientes para los siguientes protocolos y puertos:
 - TCP entrante y saliente: 11888, 12888

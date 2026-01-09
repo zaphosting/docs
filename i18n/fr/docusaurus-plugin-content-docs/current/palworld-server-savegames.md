@@ -29,12 +29,12 @@ Les sauvegardes locales sont celles que vous avez créées en hébergeant une pa
 :::tip
 Vous pouvez accéder facilement à ce chemin en appuyant simultanément sur `CTRL` + `R` et en collant ce chemin dans la fenêtre d’exécution : `%localappdata%/Pal/Saved/SaveGames/`. Cliquez sur **OK** et vous serez directement dans le dossier.
 
-![](https://github.com/zaphosting/docs/assets/42719082/5cdff375-57f8-4699-9985-42bcecf22218)
+![](https://screensaver01.zap-hosting.com/index.php/s/gWL9gtAZ8JE2ENP/preview)
 :::
 
 Dans ce dossier, vous verrez un dossier nommé avec votre SteamID. Ouvrez-le pour retrouver toutes vos sauvegardes locales au même endroit.
 
-![](https://github.com/zaphosting/docs/assets/42719082/8f36715d-7e87-45e1-b859-6ebedd18c8da)
+![](https://screensaver01.zap-hosting.com/index.php/s/aaeRXfs5cFjA6fN/preview)
 
 ### Accéder à la sauvegarde via FTP
 
@@ -45,7 +45,7 @@ Sauvegarder votre partie depuis le serveur est simple. Une fois connecté à vot
 
 Vous devriez voir un dossier avec une série de caractères aléatoires, c’est votre sauvegarde. Faites un clic droit dessus et choisissez **Télécharger** pour la sauvegarder localement.
 
-![](https://github.com/zaphosting/docs/assets/42719082/ca890470-450d-4962-a982-39378dfbb695)
+![](https://screensaver01.zap-hosting.com/index.php/s/pmrmNHS5NAfXpY3/preview)
 
 ### Sauvegarde automatique
 

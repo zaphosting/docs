@@ -68,7 +68,7 @@ PAKファイルの準備ができたら、ゲームサーバーのウェブイ�
 
 または、FTPブラウザページに表示されている認証情報を使ってFTPクライアントに手動で入力し接続してください。
 
-![](https://github.com/zaphosting/docs/assets/42719082/af255f46-3371-441e-b6db-4348e6be2e54)
+![](https://screensaver01.zap-hosting.com/index.php/s/nWYPNMRbnrDbDLF/preview)
 
 次に、先ほど準備したMODのPAKファイルを以下のディレクトリにアップロードします：
 ```

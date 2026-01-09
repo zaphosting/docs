@@ -36,7 +36,7 @@ Teraz możesz zmienić nazwę swojego serwera, otwierając edytor CFG w txAdmin,
 sv_hostname "^2ZAP-Hosting ^0| ^4Oficjalny Serwer Społeczności ^0- ^1Nadchodzą ^8wydarzenia^1!"
 ```
 
-![](https://github.com/zaphosting/docs/assets/42719082/32bbf492-9ee0-4c78-a391-9c44120369c2)
+![](https://screensaver01.zap-hosting.com/index.php/s/F5TYfEGQkGjXger/preview)
 
 
 
@@ -69,7 +69,7 @@ Ustawienie opisu serwera jest przydatne, aby krótko i na temat przedstawić sw�
 sets sv_projectDesc "Dołącz do naszego Discorda, aby być na bieżąco z najnowszymi wydarzeniami! discord.gg/zaphosting"
 ```
 
-![](https://github.com/zaphosting/docs/assets/42719082/32bbf492-9ee0-4c78-a391-9c44120369c2)
+![](https://screensaver01.zap-hosting.com/index.php/s/F5TYfEGQkGjXger/preview)
 
 ### Tagowanie serwera
 
@@ -79,7 +79,7 @@ Ustawienie tagów serwera pomaga określić, czym jest Twój serwer, i pozwala p
 sets tags "zap, zap-hosting, oficjalny, społeczność, zap-społeczność, zap-serwer-społeczności"
 ```
 
-![](https://github.com/zaphosting/docs/assets/42719082/33407e9f-9e28-4264-9b13-e946ed5b434a)
+![](https://screensaver01.zap-hosting.com/index.php/s/oS2Y3dbPZDFDJPj/preview)
 
 ### Inne szczegóły
 

@@ -37,7 +37,7 @@ Nelle installazioni standard, la cartella Steam si trova sul disco di sistema, a
 
 Una volta dentro questa cartella, vedrai un file dei personaggi insieme a tutti i tuoi savegame locali in un unico posto.
 
-![](https://github.com/zaphosting/docs/assets/42719082/31022018-3072-4b40-85f0-77f9da992ccc)
+![](https://screensaver01.zap-hosting.com/index.php/s/dyydLNzQt7ZWRPx/preview)
 
 :::note
 Se **non** usi Steam Cloud per salvare, troverai la cartella dei salvataggi in: `C://Users/[tuo_utente]/Saved Games/Enshrouded`.
@@ -52,7 +52,7 @@ Fare il backup del savegame dal server è semplice. Dopo esserti connesso al ser
 
 Qui troverai un file con caratteri casuali che è il tuo savegame. Basta cliccare col tasto destro sul file e usare il pulsante **Download** per salvarlo localmente sul tuo dispositivo.
 
-![](https://github.com/zaphosting/docs/assets/42719082/e7c230a3-a2cb-4ae0-a0dc-6d2211edd06c)
+![](https://screensaver01.zap-hosting.com/index.php/s/wTcodeKXYq3RBfY/preview)
 
 ### Backup Automatico
 
@@ -65,7 +65,7 @@ Come per il backup, caricare il savegame è facile. Prima assicurati di essere c
 ../enshrouded/savegame/
 ```
 
-![](https://github.com/zaphosting/docs/assets/42719082/e465680f-65bc-456d-bd99-fbdff755defb)
+![](https://screensaver01.zap-hosting.com/index.php/s/gJW8wSapi4Bo2gw/preview)
 
 Trascina semplicemente i tuoi savegame in questa cartella tramite il client FTP e verranno caricati sul server.
 

@@ -35,13 +35,13 @@ O servidor deve estar parado antes de editar a configuração; editar o arquivo 
 
 Basta ir até a seção **Configs** no webinterface do seu servidor de jogos e clicar no botão azul de editar arquivo, como mostrado abaixo:
 
-![](https://github.com/zaphosting/docs/assets/42719082/6a147644-8bfb-4e5d-bff5-3e2c5d999e64)
+![](https://screensaver01.zap-hosting.com/index.php/s/izzL3f9FaGdc9ay/preview)
 
 Um editor de texto será aberto permitindo que você edite o arquivo diretamente. No arquivo, procure pela seção `rcon`. Nela, defina o parâmetro `enable` como `true`, por exemplo: `"enable":true`. Recomendamos usar `CTRL+F` para abrir a busca do navegador e facilitar essa tarefa.
 
 Na mesma seção, você também deve configurar uma senha para o acesso à interface RCON ajustando o parâmetro `password`. Isso evita acessos não autorizados e deve ser mantido em sigilo.
 
-![](https://github.com/zaphosting/docs/assets/42719082/d3fbb8ac-b836-4e12-a7cf-d1b4961925d7)
+![](https://screensaver01.zap-hosting.com/index.php/s/WPPbd6C7k6m5Ja7/preview)
 
 </TabItem>
 

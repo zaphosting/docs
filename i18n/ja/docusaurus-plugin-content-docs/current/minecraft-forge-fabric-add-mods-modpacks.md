@@ -37,7 +37,7 @@ Modsは特定のModローダーのバージョンでしか動作しません。�
 
 お好みのMod / Modpackのページに行き、「Files」タブをクリック。
 
-![](https://github.com/Yoshlix/docs/assets/26007280/cc528cf6-9fc8-4524-aca0-b954e24716f8)
+![](https://screensaver01.zap-hosting.com/index.php/s/abryep5KdQcqpAi/preview)
 
 
 欲しいバージョンを見つけてクリックし、「File Details」セクションへ進みます。
@@ -45,7 +45,7 @@ Modsは特定のModローダーのバージョンでしか動作しません。�
 :::tip
 「Files」タブの上部にあるドロップダウンメニューでバージョンやModローダーで絞り込みができます。
 
-![](https://github.com/Yoshlix/docs/assets/26007280/6867b2f2-e9db-4a4c-be88-b9b22b800e72)
+![](https://screensaver01.zap-hosting.com/index.php/s/HoJYzW7bkC4Z6oL/preview)
 
 :::
 
@@ -56,14 +56,14 @@ import TabItem from '@theme/TabItem';
 <TabItem value="Mods" label="Mods向け" default>
 「File Details」セクションで「Download」ボタンを押します。ファイルをどこかに保存してください。後で使います。
 
-![](https://github.com/Yoshlix/docs/assets/26007280/7b84ae33-1bef-4568-80d7-ef651a654b08)
+![](https://screensaver01.zap-hosting.com/index.php/s/7ZcEHsmmqZWdZB5/preview)
 
 </TabItem>
 
 <TabItem value="Modpacks" label="Modpacks向け">
 「File Details」セクションをスクロールして「Additional Files」を見つけ、三点リーダーをクリックし「Download file」を選択。ファイルをどこかに保存してください。後で使います。
 
-![](https://github.com/Yoshlix/docs/assets/26007280/49fb9317-fdd3-474e-8140-b78b102c5f3d)
+![](https://screensaver01.zap-hosting.com/index.php/s/YzH5Gz4w3yJZjx3/preview)
 
 </TabItem>
 </Tabs>
@@ -72,7 +72,7 @@ import TabItem from '@theme/TabItem';
 
 PCでダウンロードしたファイルを見つけて右クリック、「すべて展開...」を選択。解凍先のフォルダを指定して覚えておいてください！
 
-![](https://github.com/Yoshlix/docs/assets/26007280/edbc753d-1906-4d81-9f05-354ff48ceebb)
+![](https://screensaver01.zap-hosting.com/index.php/s/y9SWDpX2HYgekbQ/preview)
 
 ![extract the file german version](https://screensaver01.zap-hosting.com/index.php/s/iE9XFMmrjj7b7ST/preview)
 
@@ -87,28 +87,28 @@ AllOfFabric6のように追加の手順が必要なModpackもあります。AllO
 
 Zap-Hostingのウェブインターフェースで、対象のゲームサーバーを選択し、設定の「Games」へ進みます。
 
-![](https://github.com/Yoshlix/docs/assets/26007280/47e88856-0120-408a-8bec-41e54e3b0738)
+![](https://screensaver01.zap-hosting.com/index.php/s/Ne5B9CnHrbwgmfW/preview)
 
 「Available Games」を展開し、Modローダー（ForgeはForge Mods / Modpacks用、FabricはFabric Mods / Modpacks用）を探して、緑のダウンロードボタンをクリック。
 
-![](https://github.com/Yoshlix/docs/assets/26007280/e3b4e5d3-11c9-4f09-ae46-27cea93a58a3)
+![](https://screensaver01.zap-hosting.com/index.php/s/dnBCddmXGAMpMj8/preview)
 
 
 「Game version」のドロップダウンメニューから、Mod / Modpackに対応したMinecraftバージョンを選択。Forgeの場合は最新バージョンか推奨バージョンを選べます。まずは最新バージョンを試して、うまく動かなければ推奨バージョンを試してみてください。「Accept and Install」をクリック。
 
-![](https://github.com/Yoshlix/docs/assets/26007280/3530466f-bd58-4d0e-9ca3-8d964ac76d80)
+![](https://screensaver01.zap-hosting.com/index.php/s/gCdcwLzc4Hxptqp/preview)
 
 
 :::tip
 どのMinecraftバージョンが必要かわからない場合は、CurseForgeの「File Details」ページに戻ってください。ゲームコントローラーアイコンの横にバージョンが表示されています。
 
-![](https://github.com/Yoshlix/docs/assets/26007280/89f751c1-7179-4107-b8bc-7c4381a7d94c)
+![](https://screensaver01.zap-hosting.com/index.php/s/9TsCBRP9PGQL2fC/preview)
 
 :::
 
 インストールが完了すると、ゲーム名（例：Forge、Fabric）の横に青いボタンが表示されます。このボタンをクリックしてゲームを有効化しましょう。
 
-![](https://github.com/Yoshlix/docs/assets/26007280/53cf9569-3529-42fb-9a7d-6ae636ca4f9c)
+![](https://screensaver01.zap-hosting.com/index.php/s/YzzBzSJjnsaqKS2/preview)
 ![activate the game german version](https://screensaver01.zap-hosting.com/index.php/s/GiFsA7JmGPd4LCB/preview)
 
 
@@ -120,7 +120,7 @@ Zap-Hostingのウェブインターフェースで、対象のゲームサーバ
 
 接続したら、ゲームフォルダ（例：minecraft-forge、minecraft-fabric）に移動。modsフォルダを開き、ダウンロードしたModファイルをドラッグ＆ドロップでアップロード。
 
-![](https://github.com/Yoshlix/docs/assets/26007280/8619fc4f-4fab-415a-9692-f74f8930da3f)
+![](https://screensaver01.zap-hosting.com/index.php/s/Zwm9SYdgK6MKBdz/preview)
 
 アップロードが終わったらサーバーを起動できます。
 
@@ -128,7 +128,7 @@ Zap-Hostingのウェブインターフェースで、対象のゲームサーバ
 
 接続したら、ゲームフォルダ（例：minecraft-forge、minecraft-fabric）に移動。サーバー上のworld、mods、config、defaultconfigフォルダを削除します。次に、先ほど解凍したフォルダ内のjre、librariesフォルダ以外のすべてのフォルダを選択してサーバーディレクトリにドラッグ＆ドロップでアップロード。
 
-![](https://github.com/Yoshlix/docs/assets/26007280/1424a94d-aa96-40ca-8b30-7c1905e67c21)
+![](https://screensaver01.zap-hosting.com/index.php/s/PEyqrSES4xPGaFz/preview)
 
 アップロードが完了したらサーバーを起動しましょう。
 

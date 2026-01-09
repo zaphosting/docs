@@ -36,7 +36,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 sv_hostname "^2ZAP-Hosting ^0| ^4Official Community Server ^0- ^1Events coming ^8soon^1!"
 ```
 
-![](https://github.com/zaphosting/docs/assets/42719082/32bbf492-9ee0-4c78-a391-9c44120369c2)
+![](https://screensaver01.zap-hosting.com/index.php/s/F5TYfEGQkGjXger/preview)
 
 
 
@@ -69,7 +69,7 @@ sv_hostname "^2ZAP-Hosting ^0| ^4Official Community Server ^0- ^1Events coming ^
 sets sv_projectDesc "انضم لديسكوردنا لتبقى على اطلاع بأحدث الفعاليات! discord.gg/zaphosting"
 ```
 
-![](https://github.com/zaphosting/docs/assets/42719082/32bbf492-9ee0-4c78-a391-9c44120369c2)
+![](https://screensaver01.zap-hosting.com/index.php/s/F5TYfEGQkGjXger/preview)
 
 ### وسوم السيرفر
 
@@ -79,7 +79,7 @@ sets sv_projectDesc "انضم لديسكوردنا لتبقى على اطلاع 
 sets tags "zap, zap-hosting, official, community, zap-community, zap-community-server"
 ```
 
-![](https://github.com/zaphosting/docs/assets/42719082/33407e9f-9e28-4264-9b13-e946ed5b434a)
+![](https://screensaver01.zap-hosting.com/index.php/s/oS2Y3dbPZDFDJPj/preview)
 
 ### تفاصيل أخرى متنوعة
 

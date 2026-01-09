@@ -26,7 +26,7 @@ Utwórz nowy folder gdzieś na serwerze, w tym przykładzie nazwaliśmy go `stea
 
 Uruchom **steamcmd.exe** i poczekaj, aż proces instalacji zostanie w pełni zakończony.
 
-![](https://github.com/zaphosting/docs/assets/42719082/ffb8e8a1-26e3-4d16-9baf-938e17ec1613)
+![](https://screensaver01.zap-hosting.com/index.php/s/nGsEGWDrSG7gBZs/preview)
 
 Gdy pojawi się komunikat **Loading Steam API.... OK**, proces zakończył się pomyślnie i możesz przejść do instalacji serwera dedykowanego Enshrouded w kolejnej sekcji.
 
@@ -45,7 +45,7 @@ force_install_dir C:\Enshrouded-Server
 
 Teraz wpisz komendę `app_update 2278520`, która rozpocznie pobieranie. App ID **2278520** to aplikacja **Enshrouded**.
 
-![](https://github.com/zaphosting/docs/assets/42719082/29931eec-fd19-4806-88dc-69e585e42370)
+![](https://screensaver01.zap-hosting.com/index.php/s/TQCbwxE8xe7TfPn/preview)
 
 :::info
 Nie przerywaj procesu przed jego zakończeniem, aby uniknąć błędów. Może to chwilę potrwać, ale warto być cierpliwym! :)
@@ -85,7 +85,7 @@ Te polecenia automatycznie utworzą reguły zapory sieciowej, które są niezbę
 
 Użyj wyszukiwarki Windows, aby otworzyć **Ustawienia Zapory Windows z Zaawansowanym Bezpieczeństwem**. Jeśli otworzysz podstawową stronę Zapory Windows, kliknij **Ustawienia Zaawansowane**, aby przejść do właściwego panelu.
 
-![](https://github.com/zaphosting/docs/assets/42719082/5fb9f943-7e51-4d8f-9df4-2f5ff60857d3)
+![](https://screensaver01.zap-hosting.com/index.php/s/ZT2WzELZSBPrFsB/preview)
 
 Musisz utworzyć nowe reguły dla swojego serwera Enshrouded. Kliknij kolejno na reguły przychodzące i wychodzące i dodaj je dla następujących protokołów i portów:
 - TCP przychodzące i wychodzące: 15636-15637

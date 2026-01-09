@@ -65,7 +65,7 @@ Ces commandes créent automatiquement les règles de pare-feu nécessaires pour 
 
 Utilise la recherche Windows pour ouvrir les **Paramètres du pare-feu Windows avec sécurité avancée**. Si tu ouvres la page de base du pare-feu, clique sur **Paramètres avancés** pour accéder à la bonne fenêtre.
 
-![image](https://github.com/zaphosting/docs/assets/42719082/5fb9f943-7e51-4d8f-9df4-2f5ff60857d3)
+![image](https://screensaver01.zap-hosting.com/index.php/s/ZT2WzELZSBPrFsB/preview)
 
 Tu dois créer de nouvelles règles pour ton serveur open.mp. Pour cela, ajoute des règles entrantes et sortantes pour les protocoles et ports suivants :
 - TCP entrant et sortant : 7777

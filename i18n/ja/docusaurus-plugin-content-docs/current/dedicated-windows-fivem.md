@@ -116,7 +116,7 @@ New-NetFirewallRule -DisplayName "FiveM Server" -Direction Outbound -LocalPort 3
 
 Windowsの検索から**Windowsファイアウォールの詳細設定**を開きます。基本画面からは**詳細設定**を押して必要なウィンドウを開く必要があるかもしれません。
 
-![](https://github.com/zaphosting/docs/assets/42719082/5fb9f943-7e51-4d8f-9df4-2f5ff60857d3)
+![](https://screensaver01.zap-hosting.com/index.php/s/ZT2WzELZSBPrFsB/preview)
 
 FiveMサーバー用に新しいルールを作成します。以下のプロトコルとポートで、受信と送信の両方のルールを追加してください：
 - TCP 受信・送信：30120

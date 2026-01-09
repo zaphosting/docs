@@ -15,7 +15,7 @@ Certains produits peuvent être commandés en précommande sur ZAP-Hosting.com. 
 
 Les précommandes sont indiquées comme telles sur la page produit. Elles sont identifiées par une icône de chronomètre.
 
-![](https://github.com/zaphosting/docs/assets/42719082/6af93b92-69bc-49ef-adbd-2b858f3b6c01)
+![](https://screensaver01.zap-hosting.com/index.php/s/Wx9nEXzees3Bx3B/preview)
 
 ## Mise à disposition des précommandes
 

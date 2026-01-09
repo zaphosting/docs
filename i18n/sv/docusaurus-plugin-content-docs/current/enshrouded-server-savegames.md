@@ -36,7 +36,7 @@ I vanliga installationer ligger Steam-mappen på din OS-enhet, under sökvägen:
 
 När du kommer till den här mappen ser du en fil för karaktärer tillsammans med alla dina lokala Savegames samlade på ett ställe.
 
-![](https://github.com/zaphosting/docs/assets/42719082/31022018-3072-4b40-85f0-77f9da992ccc)
+![](https://screensaver01.zap-hosting.com/index.php/s/dyydLNzQt7ZWRPx/preview)
 
 :::note
 Om du **inte** använder Steam Cloud för sparande hittar du din sparmapp i följande katalog: `C://Users/[dittanvändarnamn]/Saved Games/Enshrouded`.
@@ -51,7 +51,7 @@ Att säkerhetskopiera ditt Savegame från servern är enkelt. När du är anslut
 
 Här bör du se en fil med slumpmässiga tecken som är ditt Savegame. Högerklicka på filen och välj **Download** för att spara den lokalt på din dator.
 
-![](https://github.com/zaphosting/docs/assets/42719082/e7c230a3-a2cb-4ae0-a0dc-6d2211edd06c)
+![](https://screensaver01.zap-hosting.com/index.php/s/wTcodeKXYq3RBfY/preview)
 
 ### Automatisk Säkerhetskopiering
 
@@ -64,7 +64,7 @@ Precis som med säkerhetskopiering är det enkelt att ladda upp ditt Savegame. S
 ../enshrouded/savegame/
 ```
 
-![](https://github.com/zaphosting/docs/assets/42719082/e465680f-65bc-456d-bd99-fbdff755defb)
+![](https://screensaver01.zap-hosting.com/index.php/s/gJW8wSapi4Bo2gw/preview)
 
 Dra och släpp helt enkelt dina Savegames i den här mappen via FTP-klienten så laddas de upp till din server.
 

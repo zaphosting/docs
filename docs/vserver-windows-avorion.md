@@ -27,7 +27,7 @@ Create a new folder somewhere on your server, in this scenario we will name it `
 
 Simply run **steamcmd.exe** and await until the installation process is fully completed.
 
-![](https://github.com/zaphosting/docs/assets/42719082/ffb8e8a1-26e3-4d16-9baf-938e17ec1613)
+![](https://screensaver01.zap-hosting.com/index.php/s/ip9LBB5FLryC8d8/preview)
 
 As soon as the message **Loading Steam API.... OK** is displayed, the process has been completed successfully and you can being with the installation of the Avorion dedicated server in the following section.
 
@@ -46,7 +46,7 @@ force_install_dir C:\Avorion-Server
 
 Now run the command `app_update 565060` which will begin the download. The App ID **565060** is the **Avorion** application.
 
-![](https://github.com/zaphosting/docs/assets/42719082/29931eec-fd19-4806-88dc-69e585e42370)
+![](https://screensaver01.zap-hosting.com/index.php/s/sPoyqTf375tHFCg/preview)
 
 :::info
 Please do not interrupt the process before it is completed to avoid mistakes. It may take a moment, but it's worth being patient! :)
@@ -86,7 +86,7 @@ These commands will automatically create firewall rules which are necessary for 
 
 Use the search function on Windows to open up **Windows Firewall Settings with Advanced Security**. You may have to press **Advanced Settings** to open up the necessary window if you open up the base Windows Firewall page.
 
-![](https://github.com/zaphosting/docs/assets/42719082/5fb9f943-7e51-4d8f-9df4-2f5ff60857d3)
+![](https://screensaver01.zap-hosting.com/index.php/s/ELdjaBQjdxSBz4J/preview)
 
 You must create new rules for your Avorion server. To do this, click on the incoming and outgoing rules as described below and add them for the following protocols and ports:
 - TCP incoming and outgoing: 27000

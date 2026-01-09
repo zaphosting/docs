@@ -37,7 +37,7 @@ Mods fungerar bara med en specifik version av modloadern. Du måste kolla på mo
 
 Gå till sidan för ditt valda mod / modpack och klicka på fliken "Files".
 
-![](https://github.com/Yoshlix/docs/assets/26007280/cc528cf6-9fc8-4524-aca0-b954e24716f8)
+![](https://screensaver01.zap-hosting.com/index.php/s/abryep5KdQcqpAi/preview)
 
 
 Hitta den version du vill ha och klicka på den för att komma till avsnittet "File Details".
@@ -45,7 +45,7 @@ Hitta den version du vill ha och klicka på den för att komma till avsnittet "F
 :::tip
 Du kan filtrera efter version och modloader med hjälp av dropdown-menyn högst upp på den valda "Files"-fliken.
 
-![](https://github.com/Yoshlix/docs/assets/26007280/6867b2f2-e9db-4a4c-be88-b9b22b800e72)
+![](https://screensaver01.zap-hosting.com/index.php/s/HoJYzW7bkC4Z6oL/preview)
 
 :::
 
@@ -56,14 +56,14 @@ import TabItem from '@theme/TabItem';
 <TabItem value="Mods" label="För Mods" default>
 I avsnittet "File Details", tryck på knappen "Download". Spara filen någonstans, du kommer behöva den senare.
 
-![](https://github.com/Yoshlix/docs/assets/26007280/7b84ae33-1bef-4568-80d7-ef651a654b08)
+![](https://screensaver01.zap-hosting.com/index.php/s/7ZcEHsmmqZWdZB5/preview)
 
 </TabItem>
 
 <TabItem value="Modpacks" label="För Modpacks">
 I avsnittet "File Details", scrolla ner tills du ser "Additional Files" och klicka på de tre prickarna, välj "Download file". Spara filen någonstans, du kommer behöva den senare.
 
-![](https://github.com/Yoshlix/docs/assets/26007280/49fb9317-fdd3-474e-8140-b78b102c5f3d)
+![](https://screensaver01.zap-hosting.com/index.php/s/YzH5Gz4w3yJZjx3/preview)
 
 </TabItem>
 </Tabs>
@@ -72,7 +72,7 @@ I avsnittet "File Details", scrolla ner tills du ser "Additional Files" och klic
 
 Hitta den nedladdade filen på din dator och högerklicka på den, välj "Extract All...". Välj en mapp där du vill extrahera filerna. Kom ihåg den!
 
-![](https://github.com/Yoshlix/docs/assets/26007280/edbc753d-1906-4d81-9f05-354ff48ceebb)
+![](https://screensaver01.zap-hosting.com/index.php/s/y9SWDpX2HYgekbQ/preview)
 
 ![extract the file german version](https://screensaver01.zap-hosting.com/index.php/s/iE9XFMmrjj7b7ST/preview)
 
@@ -87,28 +87,28 @@ Vissa modpacks kräver extra steg, som AllOfFabric6. För AllOfFabric6 måste du
 
 I Zap-Hostings webbgränssnitt, välj din Gameserver och gå till "Games" i inställningssektionen.
 
-![](https://github.com/Yoshlix/docs/assets/26007280/47e88856-0120-408a-8bec-41e54e3b0738)
+![](https://screensaver01.zap-hosting.com/index.php/s/Ne5B9CnHrbwgmfW/preview)
 
 Expandera sektionen "Available Games" och sök efter din modloader (Forge för Forge mods / modpacks, Fabric för Fabric mods / modpacks). Klicka på den gröna nedladdningsknappen.
 
-![](https://github.com/Yoshlix/docs/assets/26007280/e3b4e5d3-11c9-4f09-ae46-27cea93a58a3)
+![](https://screensaver01.zap-hosting.com/index.php/s/dnBCddmXGAMpMj8/preview)
 
 
 Klicka på dropdown-menyn under "Game version" och välj din Minecraft-version som motsvarar rätt version för ditt mod/modpack. För Forge kan du välja mellan senaste versionen eller rekommenderad version. Testa senaste versionen först och om din server inte fungerar som förväntat, gå tillbaka och prova den rekommenderade versionen. Klicka på "Accept and Install".
 
-![](https://github.com/Yoshlix/docs/assets/26007280/3530466f-bd58-4d0e-9ca3-8d964ac76d80)
+![](https://screensaver01.zap-hosting.com/index.php/s/gCdcwLzc4Hxptqp/preview)
 
 
 :::tip
 Om du inte vet vilken Minecraft-version du behöver, gå tillbaka till "File Details"-sidan på CurseForge. Bredvid gamecontroller-ikonen ser du versionen.
 
-![](https://github.com/Yoshlix/docs/assets/26007280/89f751c1-7179-4107-b8bc-7c4381a7d94c)
+![](https://screensaver01.zap-hosting.com/index.php/s/9TsCBRP9PGQL2fC/preview)
 
 :::
 
 När installationen är klar ser du en blå knapp bredvid namnet på ditt spel (t.ex. Forge, Fabric). Klicka på den knappen för att aktivera spelet.
 
-![](https://github.com/Yoshlix/docs/assets/26007280/53cf9569-3529-42fb-9a7d-6ae636ca4f9c)
+![](https://screensaver01.zap-hosting.com/index.php/s/YzzBzSJjnsaqKS2/preview)
 ![activate the game german version](https://screensaver01.zap-hosting.com/index.php/s/GiFsA7JmGPd4LCB/preview)
 
 
@@ -119,7 +119,7 @@ Anslut till din server med din valda FTP-klient. Se till att din server är stop
 ### Ladda upp en mod
 
 När du är ansluten, navigera till din game-mapp (t.ex. minecraft-forge, minecraft-fabric). Öppna mods-mappen och dra och släpp dina nedladdade mod-filer direkt in i mappen.
-![](https://github.com/Yoshlix/docs/assets/26007280/8619fc4f-4fab-415a-9692-f74f8930da3f)
+![](https://screensaver01.zap-hosting.com/index.php/s/Zwm9SYdgK6MKBdz/preview)
 
 När uppladdningen är klar kan du starta din server.
 
@@ -127,7 +127,7 @@ När uppladdningen är klar kan du starta din server.
 
 När du är ansluten, navigera till din game-mapp (t.ex. minecraft-forge, minecraft-fabric). Radera mapparna world, mods, config och defaultconfig på din server. Ladda nu upp alla mappar från den uppackade mappen du laddade ner tidigare, förutom jre och libraries mapparna. Markera alla mappar och dra dem till din serverkatalog.
 
-![](https://github.com/Yoshlix/docs/assets/26007280/1424a94d-aa96-40ca-8b30-7c1905e67c21)
+![](https://screensaver01.zap-hosting.com/index.php/s/PEyqrSES4xPGaFz/preview)
 
 När uppladdningen är klar kan du starta din server.
 

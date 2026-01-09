@@ -137,7 +137,7 @@ Dessa kommandon skapar automatiskt brandväggsregler som behövs för att din Fa
 
 Använd sökfunktionen i Windows för att öppna **Windows Firewall Settings with Advanced Security**. Du kan behöva klicka på **Advanced Settings** för att öppna rätt fönster om du startar från grundläggande brandväggsinställningar.
 
-![](https://github.com/zaphosting/docs/assets/42719082/5fb9f943-7e51-4d8f-9df4-2f5ff60857d3)
+![](https://screensaver01.zap-hosting.com/index.php/s/ZT2WzELZSBPrFsB/preview)
 
 Skapa nya regler för din FS2025-server. Gör detta genom att lägga till inkommande och utgående regler för följande protokoll och portar:
 - TCP inkommande och utgående: 8080, 10823

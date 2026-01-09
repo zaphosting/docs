@@ -23,15 +23,15 @@ Il te faut un compte Steam non limité pour demander une clé API. Les comptes S
 
 Une fois ton compte Steam prêt, tu peux demander ta propre clé Steam Web API. Pour ça, connecte-toi [sur le site de Steam](https://steamcommunity.com/dev/apikey) avec ton nom de compte et ton mot de passe Steam.
 
-![](https://github.com/zaphosting/docs/assets/42719082/56be5337-a458-425b-86b0-e0c5fa94abab)
+![](https://screensaver01.zap-hosting.com/index.php/s/Wm8rdwwFPbt7D5W/preview)
 
 Une fois connecté, tu devras entrer un nom de domaine, confirmer les conditions d’utilisation de la Steam Web API et cliquer sur le bouton **Register**. Le domaine doit être ton **IP du serveur** *(sans le port)*, donc entre-le ici.
 
-![](https://github.com/zaphosting/docs/assets/42719082/334e89a9-0eef-4ea5-b100-5a1e4b8cdc31)
+![](https://screensaver01.zap-hosting.com/index.php/s/GNmZXzTn9JJ8cBo/preview)
 
 Si tout se passe bien, tu verras ta clé Steam Web API, comme montré ci-dessous.
 
-![](https://github.com/zaphosting/docs/assets/42719082/a99f463b-93ae-408b-b038-29e366b30256)
+![](https://screensaver01.zap-hosting.com/index.php/s/m8WoXg3WcjeaQrW/preview)
 
 ## Activation de la clé API
 

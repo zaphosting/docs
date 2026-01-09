@@ -15,7 +15,7 @@ sidebar_label: الطلبات المسبقة
 
 الطلبات المسبقة مُعلّمة كطلبات مسبقة في صفحة المنتج. سيكون لها أيقونة ساعة توقيت لتمثيل ذلك.
 
-![](https://github.com/zaphosting/docs/assets/42719082/6af93b92-69bc-49ef-adbd-2b858f3b6c01)
+![](https://screensaver01.zap-hosting.com/index.php/s/Wx9nEXzees3Bx3B/preview)
 
 ## توفير الطلبات المسبقة
 

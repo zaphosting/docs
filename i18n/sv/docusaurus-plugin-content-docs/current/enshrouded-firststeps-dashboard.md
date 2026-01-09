@@ -26,7 +26,7 @@ I avsnittet **Produktadministration** hittar du alla nödvändiga sidor för att
 
 **Dashboarden** för din server är hjärtat i administrationen. All grundläggande och viktig information om din tjänst presenteras tydligt här. Det inkluderar till exempel information om plats, status, IP: Port, använd minne, pågående spel, servernamn, karta och antal tillgängliga slots. Dessutom visas även belastningen på CPU, minne och RAM.
 
-![](https://github.com/zaphosting/docs/assets/42719082/aaeee832-8cd0-4ac0-9769-f498eace4892)
+![](https://screensaver01.zap-hosting.com/index.php/s/32ftNaw9rjA27a3/preview)
 
 I dashboarden kan du också starta, stoppa eller starta om din tjänst för att ha full kontroll över dess drift. Dessutom kan du komma åt livekonsolen för att få realtidsinformation om serverns status och agera direkt vid behov.
 

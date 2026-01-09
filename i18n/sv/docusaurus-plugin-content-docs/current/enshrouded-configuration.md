@@ -46,7 +46,7 @@ Servern måste vara stoppad innan konfigurationen kan redigeras, om du redigerar
 
 Alternativt, för dig som vill redigera råfilen direkt, kan du göra detta genom att gå till **Konfigurationer** på ditt spelservers webbgränssnitt och klicka på den blå knappen för att redigera filen, som visas nedan:
 
-![](https://github.com/zaphosting/docs/assets/42719082/dc4699bc-33fa-447d-ac59-2960b3b080f9)
+![](https://screensaver01.zap-hosting.com/index.php/s/jPep5HzYtWnJTxT/preview)
 
 Detta öppnar en textredigerare direkt på sidan så att du kan göra dina ändringar.
 

@@ -32,7 +32,7 @@ In het onderdeel **Productbeheer** vind je alle benodigde pagina’s om jouw ser
 
 Het **Dashboard** van je server is het kloppende hart van het beheer. Alle basis- en essentiële info over jouw service wordt hier overzichtelijk weergegeven. Denk aan locatie, status, IP: Poort, gebruikt geheugen, lopend spel, servernaam, map en het aantal beschikbare slots. Ook het gebruik van CPU, geheugen en RAM wordt getoond.
 
-![](https://github.com/zaphosting/docs/assets/42719082/d0090c65-ec60-4963-a483-69235ba24a6c)
+![](https://screensaver01.zap-hosting.com/index.php/s/qo7zwFkwwt3ot3b/preview)
 
 In het dashboard kun je ook je service starten, stoppen of herstarten, zodat je volledige controle hebt over de werking. Daarnaast heb je toegang tot de live console voor realtime info over de serverstatus en kun je direct ingrijpen als dat nodig is.
 

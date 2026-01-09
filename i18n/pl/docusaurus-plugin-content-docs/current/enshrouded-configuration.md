@@ -46,7 +46,7 @@ Serwer musi być zatrzymany, zanim będzie można edytować plik konfiguracyjny.
 
 Alternatywnie, jeśli chcesz bezpośrednio edytować surowy plik, możesz to zrobić w sekcji **Konfiguracje** w panelu administracyjnym serwera gier, klikając niebieski przycisk edycji pliku, jak na obrazku poniżej:
 
-![](https://github.com/zaphosting/docs/assets/42719082/dc4699bc-33fa-447d-ac59-2960b3b080f9)
+![](https://screensaver01.zap-hosting.com/index.php/s/jPep5HzYtWnJTxT/preview)
 
 Otworzy się wtedy edytor tekstu bezpośrednio na stronie, umożliwiający edycję.
 

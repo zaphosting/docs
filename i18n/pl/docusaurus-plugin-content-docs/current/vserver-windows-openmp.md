@@ -67,7 +67,7 @@ Te polecenia automatycznie utworzą reguły zapory niezbędne, aby Twój serwer 
 
 Wyszukaj w Windows **Ustawienia zapory Windows z zaawansowanym zabezpieczeniem**. Jeśli otworzy się podstawowa strona zapory, kliknij **Ustawienia zaawansowane**, aby przejść do właściwego panelu.
 
-![image](https://github.com/zaphosting/docs/assets/42719082/5fb9f943-7e51-4d8f-9df4-2f5ff60857d3)
+![image](https://screensaver01.zap-hosting.com/index.php/s/ZT2WzELZSBPrFsB/preview)
 
 Musisz utworzyć nowe reguły dla swojego serwera open.mp. Kliknij kolejno na reguły przychodzące i wychodzące i dodaj je dla następujących protokołów i portów:
 - TCP przychodzące i wychodzące: 7777

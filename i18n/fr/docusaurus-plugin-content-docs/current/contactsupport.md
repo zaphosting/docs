@@ -22,7 +22,7 @@ Vous pouvez facilement consulter le statut actuel de tous nos services, y compri
 :::tip
 Sur notre site de statut, vous pouvez même vous abonner par email aux notifications pour n’importe quel service de notre réseau ! Pour cela, cliquez sur la flèche en haut à droite, choisissez la portée et entrez l’email où vous souhaitez recevoir les notifications.
 
-![](https://github.com/zaphosting/docs/assets/42719082/2758b2b4-29e1-433f-9e40-76ca70fc90b0)
+![](https://screensaver01.zap-hosting.com/index.php/s/fjFET6mF4XCrBSX/preview)
 :::
 
 Si le produit avec lequel vous avez des soucis est actuellement impacté, nous vous conseillons d’attendre que le problème soit résolu. Nos techniciens sont automatiquement alertés de toute interruption et travaillent à résoudre le souci au plus vite.
@@ -43,7 +43,7 @@ Vous pouvez accéder à notre système de tickets via l’icône ticket dans la 
 
 Sur cette page, vous pourrez voir vos tickets actifs et précédents, ainsi que créer un nouveau ticket.
 
-![](https://github.com/zaphosting/docs/assets/42719082/be474363-21b1-4e7c-8f55-d7fd1e70ceed)
+![](https://screensaver01.zap-hosting.com/index.php/s/7E5xtP3oZpGyr79/preview)
 
 ## Créer un nouveau ticket
 
@@ -51,7 +51,7 @@ Si vous avez toujours besoin d’aide, contactez notre support officiel en accé
 
 Commencez par cliquer sur le bouton **Créer un ticket**. Ici, vous pouvez choisir entre un ticket classique ou un ticket **Speed-UP**.
 
-![](https://github.com/zaphosting/docs/assets/42719082/22af5076-bcfc-453f-b4e2-510c2133ef09)
+![](https://screensaver01.zap-hosting.com/index.php/s/K2xxDEYkJFPN5C2/preview)
 
 Ensuite, remplissez simplement le formulaire avec tous les détails nécessaires sur votre problème et les étapes de dépannage que vous avez déjà effectuées.
 
@@ -61,7 +61,7 @@ Voici un résumé des infos utiles à fournir :
 - Une description détaillée du problème. Posez-vous des questions comme : Quand cela a-t-il commencé ? À quelle fréquence cela se produit-il ? Avez-vous essayé des étapes de dépannage avant de créer le ticket ?
 - Des infos supplémentaires, comme des captures d’écran d’erreurs, des logs, ou tout autre élément utile.
 
-![](https://github.com/zaphosting/docs/assets/42719082/361732b1-2ac9-45db-be6e-81e20951c498)
+![](https://screensaver01.zap-hosting.com/index.php/s/mL5Zsi7EmqQiLnC/preview)
 
 Une fois le formulaire rempli, cliquez sur le bouton **Envoyer le ticket support** pour transmettre votre demande à notre équipe support !
 

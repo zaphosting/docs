@@ -116,7 +116,7 @@ New-NetFirewallRule -DisplayName "FiveM Server" -Direction Outbound -LocalPort 3
 
 ใช้ฟังก์ชันค้นหาของ Windows เพื่อเปิด **การตั้งค่าไฟร์วอลล์ Windows พร้อมความปลอดภัยขั้นสูง** คุณอาจต้องกด **Advanced Settings** เพื่อเปิดหน้าต่างที่จำเป็นหากเปิดจากหน้าไฟร์วอลล์พื้นฐานของ Windows
 
-![](https://github.com/zaphosting/docs/assets/42719082/5fb9f943-7e51-4d8f-9df4-2f5ff60857d3)
+![](https://screensaver01.zap-hosting.com/index.php/s/ZT2WzELZSBPrFsB/preview)
 
 คุณต้องสร้างกฎใหม่สำหรับเซิร์ฟเวอร์ FiveM ของคุณ โดยคลิกที่กฎขาเข้าและขาออกตามที่อธิบายไว้ด้านล่าง และเพิ่มกฎสำหรับโปรโตคอลและพอร์ตดังนี้:
 - TCP ขาเข้าและขาออก: 30120

@@ -42,7 +42,7 @@ Verbind eerst met je server via een FTP-client met de inloggegevens die je vindt
 Eenmaal verbonden, ga naar de Sunkenland map, open de "AppData" map en daarna de "Worlds" map. Selecteer de savegame van de vorige stap en upload deze naar deze map.
 
 De mappenstructuur zou er nu zo uit moeten zien, waarbij `Marvin's World~cef76ff5-447a-48df-b3a8-74b9ea5b7a86` jouw eigen savegame is.
-![](https://github.com/zaphosting/docs/assets/13604413/40aecc3b-4a8a-4477-8c09-d56ec412883e)
+![](https://screensaver01.zap-hosting.com/index.php/s/eFg6Ek3giFM3DLs/preview)
 
 :::important
 Kopieer op dit punt de GUID die achteraan de naam van de savegame wereld staat. Je hebt deze nodig in de volgende stap om je server werkend te krijgen.

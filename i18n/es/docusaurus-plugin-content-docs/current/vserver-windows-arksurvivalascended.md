@@ -25,7 +25,7 @@ Crea una carpeta nueva en algún lugar de tu servidor, en este caso la llamaremo
 
 Simplemente ejecuta **steamcmd.exe** y espera hasta que el proceso de instalación se complete por completo.
 
-![](https://github.com/zaphosting/docs/assets/42719082/ffb8e8a1-26e3-4d16-9baf-938e17ec1613)
+![](https://screensaver01.zap-hosting.com/index.php/s/nGsEGWDrSG7gBZs/preview)
 
 Tan pronto como aparezca el mensaje **Loading Steam API.... OK**, el proceso se ha completado con éxito y puedes comenzar con la instalación del servidor dedicado de ARK: Survival Ascended en la siguiente sección.
 
@@ -44,7 +44,7 @@ force_install_dir C:\ARK-Survival-Ascended-Server
 
 Ahora ejecuta el comando `app_update 2430930` que iniciará la descarga. El ID de la aplicación **2430930** corresponde a la aplicación **Servidor Dedicado ARK: Survival Ascended**.
 
-![](https://github.com/zaphosting/docs/assets/42719082/98d7c643-04be-488b-8831-86606363f98c)
+![](https://screensaver01.zap-hosting.com/index.php/s/DSMpETJYtkciNHT/preview)
 
 :::info
 Por favor, no interrumpas el proceso antes de que termine para evitar errores. Puede tardar un momento, ¡pero vale la pena ser paciente! :)
@@ -113,7 +113,7 @@ Estos comandos crearán automáticamente las reglas de firewall necesarias para 
 
 Usa la función de búsqueda de Windows para abrir **Configuración del Firewall de Windows con Seguridad Avanzada**. Puede que tengas que pulsar en **Configuración avanzada** para abrir la ventana necesaria si entras en la página base del Firewall de Windows.
 
-![](https://github.com/zaphosting/docs/assets/42719082/5fb9f943-7e51-4d8f-9df4-2f5ff60857d3)
+![](https://screensaver01.zap-hosting.com/index.php/s/ZT2WzELZSBPrFsB/preview)
 
 Debes crear nuevas reglas para tu servidor de Ark: Survival Ascended. Para ello, haz clic en las reglas entrantes y salientes como se describe a continuación y añádelas para los siguientes protocolos y puertos:
 - TCP entrante y saliente: 27020

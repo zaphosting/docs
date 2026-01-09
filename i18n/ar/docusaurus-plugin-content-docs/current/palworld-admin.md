@@ -35,12 +35,12 @@ import TabItem from '@theme/TabItem';
 
 في قسم **الإعدادات**، ابحث عن خيار **كلمة مرور سيرفر الألعاب**. في هذا الحقل، أنشئ كلمة المرور التي تريد استخدامها وأدخلها.
 
-![](https://github.com/zaphosting/docs/assets/42719082/dadbd22b-2fd9-42e1-be71-f6d28a3f2938)
+![](https://screensaver01.zap-hosting.com/index.php/s/aQYQDYMP34NnNXr/preview)
 
 :::info
 بعد اختيار كلمة المرور، تأكد من الضغط على زر **حفظ** الأخضر في الأعلى لتأكيد التغييرات.
 
-![](https://github.com/zaphosting/docs/assets/42719082/5a4f5ab1-8079-4b20-96a6-36e4aca2e28e)
+![](https://screensaver01.zap-hosting.com/index.php/s/YG5MZ6Jt8SdFy4A/preview)
 :::
 
 </TabItem>
@@ -55,11 +55,11 @@ import TabItem from '@theme/TabItem';
 
 بدلاً من ذلك، للمستخدمين الذين يفضلون تعديل الملف الخام مباشرة، يمكنكم الوصول إليه من خلال قسم **التكوينات** في واجهة الويب الخاصة بسيرفر الألعاب والضغط على زر تعديل الملف الأزرق كما هو موضح أدناه:
 
-![](https://github.com/zaphosting/docs/assets/42719082/53c8acad-7347-4c3e-85bf-5ae0ad423fc6)
+![](https://screensaver01.zap-hosting.com/index.php/s/2fNGG7jBdGRekKP/preview)
 
 سيفتح محرر نصوص داخل الموقع لتتمكن من التعديل. ابحث عن خيار **AdminPassword** داخل الملف (استخدم `CTRL+F` للمساعدة في البحث) وعدّلها إلى كلمة مرور الأدمن التي تريد تعيينها. وأخيراً، احفظ الملف ثم شغّل السيرفر.
 
-![](https://github.com/zaphosting/docs/assets/42719082/d86376b8-1a41-4fb0-b8cd-8570ddcaa9ae)
+![](https://screensaver01.zap-hosting.com/index.php/s/gpBjxxmdsWKD4t2/preview)
 
 </TabItem>
 
@@ -86,7 +86,7 @@ import TabItem from '@theme/TabItem';
 /AdminPassword [password]
 ```
 
-![](https://github.com/zaphosting/docs/assets/42719082/2f6e3ee7-e83f-4b71-87dc-d36f9b8c7340)
+![](https://screensaver01.zap-hosting.com/index.php/s/75D5ejaWNM6oYNX/preview)
 
 لازم تستلم رسالة نجاح في الدردشة إذا كان الأمر صحيح. إذا ظهرت لك رسالة خطأ، تأكد من أن كلمة مرور الأدمن التي أدخلتها صحيحة ومطابقة للكلمة التي عينتها في الخطوة السابقة.
 

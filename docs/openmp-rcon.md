@@ -35,13 +35,13 @@ The Server must be stopped before the config can be edited, editing the config a
 
 Simply head over to the **Configs** section on your game server's webinterface and press the blue edit file button, as seen below:
 
-![](https://github.com/zaphosting/docs/assets/42719082/6a147644-8bfb-4e5d-bff5-3e2c5d999e64)
+![](https://screensaver01.zap-hosting.com/index.php/s/izzL3f9FaGdc9ay/preview)
 
 A text editor will open up allowing you to directly edit the file. In the file, search for the `rcon` section. In here, set the `enable` parameter to `true`, for example: `"enable":true`. We recommend using `CTRL+F` to open your browser's search tool to help with this.
 
 In the same section, you should also setup a password for your RCON interface access by adjusting the `password` parameter. This prevents unauthorized access and should be kept private.
 
-![](https://github.com/zaphosting/docs/assets/42719082/d3fbb8ac-b836-4e12-a7cf-d1b4961925d7)
+![](https://screensaver01.zap-hosting.com/index.php/s/WPPbd6C7k6m5Ja7/preview)
 
 </TabItem>
 

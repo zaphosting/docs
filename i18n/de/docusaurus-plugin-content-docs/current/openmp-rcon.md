@@ -35,13 +35,13 @@ Der Server muss gestoppt sein, bevor die Konfiguration bearbeitet wird. Änderun
 
 Gehe einfach im Webinterface deines Gameservers zum Bereich **Configs** und klicke auf den blauen Button zum Bearbeiten der Datei, wie hier gezeigt:
 
-![](https://github.com/zaphosting/docs/assets/42719082/6a147644-8bfb-4e5d-bff5-3e2c5d999e64)
+![](https://screensaver01.zap-hosting.com/index.php/s/izzL3f9FaGdc9ay/preview)
 
 Es öffnet sich ein Texteditor, in dem du die Datei direkt bearbeiten kannst. Suche in der Datei nach dem Abschnitt `rcon`. Dort setzt du den Parameter `enable` auf `true`, also z.B.: `"enable":true`. Wir empfehlen, mit `STRG+F` die Suchfunktion deines Browsers zu nutzen.
 
 Im gleichen Abschnitt solltest du auch ein Passwort für den RCON-Zugang festlegen, indem du den Parameter `password` anpasst. So verhinderst du unbefugten Zugriff und das Passwort sollte geheim bleiben.
 
-![](https://github.com/zaphosting/docs/assets/42719082/d3fbb8ac-b836-4e12-a7cf-d1b4961925d7)
+![](https://screensaver01.zap-hosting.com/index.php/s/WPPbd6C7k6m5Ja7/preview)
 
 </TabItem>
 

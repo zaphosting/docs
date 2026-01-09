@@ -35,13 +35,13 @@ Servern måste vara stoppad innan konfigurationen kan redigeras, om du redigerar
 
 Gå helt enkelt till **Configs**-sektionen i ditt spelservers webbgränssnitt och klicka på den blå knappen för att redigera filen, som visas nedan:
 
-![](https://github.com/zaphosting/docs/assets/42719082/6a147644-8bfb-4e5d-bff5-3e2c5d999e64)
+![](https://screensaver01.zap-hosting.com/index.php/s/izzL3f9FaGdc9ay/preview)
 
 En textredigerare öppnas där du kan redigera filen direkt. Leta upp `rcon`-sektionen i filen. Sätt `enable`-parametern till `true`, till exempel: `"enable":true`. Vi rekommenderar att använda `CTRL+F` för att öppna din browsers sökfunktion för att hitta rätt.
 
 I samma sektion ska du också sätta ett lösenord för din RCON-access genom att ändra `password`-parametern. Detta förhindrar obehörig åtkomst och bör hållas hemligt.
 
-![](https://github.com/zaphosting/docs/assets/42719082/d3fbb8ac-b836-4e12-a7cf-d1b4961925d7)
+![](https://screensaver01.zap-hosting.com/index.php/s/WPPbd6C7k6m5Ja7/preview)
 
 </TabItem>
 

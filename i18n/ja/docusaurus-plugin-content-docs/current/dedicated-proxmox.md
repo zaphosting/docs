@@ -24,11 +24,11 @@ Proxmox Virtual Environmentは、企業向け仮想化のための完全なオ�
 ### ウェブインターフェースからISOをマウントする
 専用サーバーのウェブインターフェースの**初期インストール**セクションにアクセスしてください。まずは緑色の**iLOを有効にする**ボタンを押します。しばらく待つとセクションが表示されるので、ページをリロードして完全に読み込まれるのを確認してください。
 
-![](https://github.com/zaphosting/docs/assets/42719082/b457f17a-0bc6-42db-91ec-a553fd456936)
+![](https://screensaver01.zap-hosting.com/index.php/s/r6XNqDqQeEec7wW/preview)
 
 次に、ドロップダウンメニューから**Proxmox VE**のISOを選択します。最新バージョンを使うことをおすすめします。選択したら緑色の**挿入**ボタンを押しましょう。
 
-![](https://github.com/zaphosting/docs/assets/42719082/2b0baf71-d683-46ad-a34a-bfda9d71939d)
+![](https://screensaver01.zap-hosting.com/index.php/s/xXfWzqtE6JMG9Ka/preview)
 
 最後に、ISOから起動できるように専用サーバーを再起動します。ステップ3の下にある再起動ボタンから行えます。
 
@@ -53,25 +53,25 @@ ISOをマウントしたら、そこから起動する必要があります。iL
 
 ログイン後、**概要**セクションの`統合リモートコンソール`にある**HTML5**リンクをクリックするとパネルのオーバーレイが開きます。
 
-![](https://github.com/zaphosting/docs/assets/42719082/3b9ce97e-f974-439b-8e57-ced05f248ef9)
+![](https://screensaver01.zap-hosting.com/index.php/s/HPWJ3oksyo3SdW6/preview)
 
 Proxmoxのセットアップ画面が表示されます。`矢印キー`、`Enter`、`Esc`で操作可能です。ガイドでは**グラフィカル**版のProxmoxを選ぶことをおすすめします。
 
-![](https://github.com/zaphosting/docs/assets/42719082/614218f2-df12-43ad-95fe-39026b900141)
+![](https://screensaver01.zap-hosting.com/index.php/s/MGqm3EAxYc8EBQw/preview)
 
 数秒待つとセットアップが進みます。ProxmoxのEULAに同意するため、右下の**同意します**ボタンを押してください。次の画面では環境をインストールするターゲットドライブを選択します。単一ドライブの場合はデフォルト設定で問題ないので、**次へ**を押して進みましょう。
 
-![](https://github.com/zaphosting/docs/assets/42719082/090c1f2e-20fe-48f3-b4b4-070c197f4825)
+![](https://screensaver01.zap-hosting.com/index.php/s/pZ8FiFJT6tJKFsS/preview)
 
 :::note
 専用サーバーによっては2台ドライブがある場合があり、その場合は**オプション**ボタンから`RAID`モードを選択できます。`RAID1`（ミラーリング）がおすすめです。
 
-![](https://github.com/zaphosting/docs/assets/42719082/44e3b6ba-07f3-4313-8d36-b185a6da8089)
+![](https://screensaver01.zap-hosting.com/index.php/s/WqiYPowiLttzoeZ/preview)
 :::
 
 次は言語やキーボードの設定です。通常は自動検出されるので、そのまま進めてください。
 
-![](https://github.com/zaphosting/docs/assets/42719082/931e066c-9868-48d9-a638-f07c932579d2)
+![](https://screensaver01.zap-hosting.com/index.php/s/As4J4NzytcZFrHp/preview)
 
 続いて強力なパスワードとメールアドレスを設定します。メールアドレスはパネルからの重要な通知やアラート送信に使われます。
 
@@ -79,15 +79,15 @@ Proxmoxのセットアップ画面が表示されます。`矢印キー`、`Ente
 パスワードは忘れないように！インストール後の初回ログイン時に必要です！
 :::
 
-![](https://github.com/zaphosting/docs/assets/42719082/617a504c-9520-4b89-93c3-81fba06e5fdc)
+![](https://screensaver01.zap-hosting.com/index.php/s/QAEaygacSXNfgot/preview)
 
 最後にネットワーク設定です。管理用インターフェースとサーバーのホスト名を選択してください。
 
-![](https://github.com/zaphosting/docs/assets/42719082/d694a5af-20e2-4c1b-9cdb-c1a8ca684cde)
+![](https://screensaver01.zap-hosting.com/index.php/s/EZDzsaq4aXpP4we/preview)
 
 専用サーバーのウェブインターフェースの**IPアドレス**セクションに移動し、利用可能なIPを確認しましょう。
 
-![](https://github.com/zaphosting/docs/assets/42719082/e358f264-8535-4280-a1c5-0a15f4b99ed9)
+![](https://screensaver01.zap-hosting.com/index.php/s/KQC4DLj6LxTX4io/preview)
 
 Proxmoxパネルで使いたいIPアドレスを選び、インストーラーにIPアドレス、ネットマスク、ゲートウェイを入力します。DNSサーバーにはGoogleのパブリックDNSである`8.8.8.8`を入れてOKです。
 
@@ -104,7 +104,7 @@ Proxmoxパネルで使いたいIPアドレスを選び、インストーラー�
 
 パネルにアクセスできたらログインしましょう。ユーザー名は`root`、パスワードはインストール時に設定したものを使います。**Realm**は`Linux PAM standard authentication`に設定してください。
 
-![](https://github.com/zaphosting/docs/assets/42719082/4072c2ac-6f5c-4350-a5df-0635b1f433c0)
+![](https://screensaver01.zap-hosting.com/index.php/s/iKcErA9Bx5LpB3n/preview)
 
 ログイン後、サブスクリプションメッセージは**OK**ボタンで無視できます。これで専用サーバーにProxmox VEを無事インストールし、パネルにログインできました！
 
@@ -113,33 +113,33 @@ Proxmoxパネルで使いたいIPアドレスを選び、インストーラー�
 ## 最初のVMを作成しよう
 ここではProxmoxパネルから最初の仮想マシン（VM）を作成する基本ステップを紹介します。`local (panel)`の**ISOイメージ**セクションに移動し、`.iso`ファイルを手動でアップロードするか、直接ダウンロードURLを指定してProxmoxに取得させることができます。
 
-![](https://github.com/zaphosting/docs/assets/42719082/8182bd73-690f-434f-8394-5fdca6889a74)
+![](https://screensaver01.zap-hosting.com/index.php/s/GJjxxkPAkiRM7Fw/preview)
 
 アップロードが完了したら、右上の**VMを作成**ボタンを押して新規作成メニューを開きます。豊富なオプションが用意されています。
 
 まずは一般設定です。`Node`はデフォルトのまま（この場合は`panel`）でOK。ユニークなVM IDを入力します。デフォルトは`100`で、既存のVMがあれば自動でインクリメントされます。VMの名前は自由に決めてください。
 
-![](https://github.com/zaphosting/docs/assets/42719082/bcd2eb41-a8fc-4a44-9abb-072f9e408d10)
+![](https://screensaver01.zap-hosting.com/index.php/s/6LmXZ26bnNY46yS/preview)
 
 次にOS設定です。先ほどアップロードしたISOイメージを選択し、使用するOSの種類とバージョンも指定します。
 
-![](https://github.com/zaphosting/docs/assets/42719082/05d51c46-5a69-4cd7-b2e6-c3472437caf9)
+![](https://screensaver01.zap-hosting.com/index.php/s/QWjGQ7grR8ttaqZ/preview)
 
 システム設定はデフォルトのままで問題ありません。ディスク設定ではVMに割り当てるディスクサイズを指定できます。ストレージプールも選べますが、デフォルトは`local-lvm`です。その他の設定も基本的にデフォルトでOKです。
 
-![](https://github.com/zaphosting/docs/assets/42719082/26f11d42-8884-4bb5-b0fe-d7b4df7885a5)
+![](https://screensaver01.zap-hosting.com/index.php/s/2XJyydoZwaEMDeZ/preview)
 
 CPU設定ではソケット数やコア数を自由に設定可能です。
 
-![](https://github.com/zaphosting/docs/assets/42719082/91103b8d-dadc-4305-a3fe-bf4c8f96fc27)
+![](https://screensaver01.zap-hosting.com/index.php/s/RrWWT2wMRaQzde7/preview)
 
 メモリ設定ではVMに割り当てるRAM容量とバルーニングの状態を指定できます。
 
-![](https://github.com/zaphosting/docs/assets/42719082/ac0048cb-0bd4-4791-9a9f-857e5037955d)
+![](https://screensaver01.zap-hosting.com/index.php/s/DaXCsYLwWeMr9aJ/preview)
 
 ネットワーク設定も基本的にデフォルトのままで問題ありません。最後にこれまでの設定をすべて確認し、`作成後に起動`オプションをオンにしておくとVMが自動で起動します。問題なければ**完了**ボタンを押してVMを作成しましょう。
 
-![](https://github.com/zaphosting/docs/assets/42719082/d14a8b3d-e9bb-4feb-8049-428e84c1e917)
+![](https://screensaver01.zap-hosting.com/index.php/s/EfNAZ4idcxizDsa/preview)
 
 これでProxmoxパネル上に最初のVMが作成されました！パネル左側のサーバービューで確認できます。
 

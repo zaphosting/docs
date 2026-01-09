@@ -33,7 +33,7 @@ Det finns två snapshots som gjordes, den första från 25 augusti 2023 och den 
 :::note
 Användning av din egen officiella backup-save är endast möjlig med **ARK - SE (Official backupsave compatible)** spelservervariant. Om du använder en annan version för din server kan du ändra version under **games**-sektionen på din spelservers webbgränssnitt eller använda vår [Game Change](gameserver-gameswitch.md)-guide.
 
-![](https://github.com/zaphosting/docs/assets/42719082/8f2ac8fa-2b23-4738-8d95-87c289e9d98a)
+![](https://screensaver01.zap-hosting.com/index.php/s/Kwjyx4sDSHLTFZJ/preview)
 :::
 
 
@@ -45,7 +45,7 @@ För att importera din egen savefil (icke-officiell) krävs alla filer från sav
 :::note
 För detta bör du använda den vanliga **Ark: SE** spelservervarianten (utan officiellt backupsave-stöd) eftersom du importerar en vanlig savefil som inte är officiell.
 
-![](https://github.com/zaphosting/docs/assets/42719082/43a6f039-778b-471f-82c8-91f1b8644a33)
+![](https://screensaver01.zap-hosting.com/index.php/s/FCMPjApJBjZxdR2/preview)
 :::
 
 
@@ -61,7 +61,7 @@ Med din FTP-klient öppen, navigera till följande undermapp på din spelserver:
 /gxxxxx/ark/ShooterGame/Saved/SavedArks
 ```
 
-![](https://github.com/zaphosting/docs/assets/42719082/92ca6e48-346e-4f3c-80e2-972421d1f73f)
+![](https://screensaver01.zap-hosting.com/index.php/s/YXFcNPMgtbmRJJj/preview)
 
 Radera alla filer från den nuvarande savefilen (eller säkerhetskopiera dem först om du vill spela på den savefilen i framtiden). Dra sedan in och ladda upp alla de uppackade filerna till denna mapp (inklusive .ark, .arktribe och .arkprofile-filer). Ha tålamod då det kan ta lite tid att ladda upp allt beroende på storleken på din savefil.
 

@@ -68,7 +68,7 @@ W panelu administracyjnym możesz użyć przycisku **Bezpośrednie Połączenie*
 
 Alternatywnie, użyj danych dostępowych podanych na stronie FTP-Browser, aby ręcznie wpisać je w kliencie FTP i połączyć się.
 
-![](https://github.com/zaphosting/docs/assets/42719082/af255f46-3371-441e-b6db-4348e6be2e54)
+![](https://screensaver01.zap-hosting.com/index.php/s/nWYPNMRbnrDbDLF/preview)
 
 Następnie musisz wgrać pliki PAK z modem, które przygotowałeś wcześniej. Musisz je umieścić w następującym katalogu:
 ```

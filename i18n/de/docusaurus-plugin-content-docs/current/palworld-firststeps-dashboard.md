@@ -32,7 +32,7 @@ Im Bereich **Produktverwaltung** findest du alle notwendigen Seiten zur Verwaltu
 
 Das **Dashboard** deines Servers ist das Herzstück der Administration. Hier werden alle grundlegenden und wichtigen Infos zu deinem Service übersichtlich dargestellt. Dazu gehören zum Beispiel Angaben zum Serverstandort, Status, IP: Port, genutztem Speicher, laufendem Spiel, Servername, Map und der Anzahl verfügbarer Slots. Außerdem wird die Auslastung von CPU, Speicher und RAM angezeigt.
 
-![](https://github.com/zaphosting/docs/assets/42719082/d0090c65-ec60-4963-a483-69235ba24a6c)
+![](https://screensaver01.zap-hosting.com/index.php/s/qo7zwFkwwt3ot3b/preview)
 
 Im Dashboard kannst du deinen Service auch starten, stoppen oder neu starten, um volle Kontrolle über den Betrieb zu haben. Außerdem hast du Zugriff auf die Live-Konsole, um Echtzeit-Infos zum Serverstatus zu erhalten und bei Bedarf direkt eingreifen zu können.
 

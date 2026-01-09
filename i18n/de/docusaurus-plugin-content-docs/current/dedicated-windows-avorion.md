@@ -27,7 +27,7 @@ Erstelle irgendwo auf deinem Server einen neuen Ordner, wir nennen ihn hier `ste
 
 Starte einfach **steamcmd.exe** und warte, bis die Installation komplett durchgelaufen ist.
 
-![](https://github.com/zaphosting/docs/assets/42719082/ffb8e8a1-26e3-4d16-9baf-938e17ec1613)
+![](https://screensaver01.zap-hosting.com/index.php/s/nGsEGWDrSG7gBZs/preview)
 
 Sobald die Meldung **Loading Steam API.... OK** erscheint, ist alles erfolgreich abgeschlossen und du kannst mit der Installation des Avorion Dedicated Servers im nächsten Abschnitt weitermachen.
 
@@ -46,7 +46,7 @@ force_install_dir C:\Avorion-Server
 
 Starte jetzt den Download mit dem Befehl `app_update 565060`. Die App-ID **565060** steht für die **Avorion** Anwendung.
 
-![](https://github.com/zaphosting/docs/assets/42719082/29931eec-fd19-4806-88dc-69e585e42370)
+![](https://screensaver01.zap-hosting.com/index.php/s/TQCbwxE8xe7TfPn/preview)
 
 :::info
 Bitte unterbrich den Vorgang nicht, bevor er abgeschlossen ist, um Fehler zu vermeiden. Es kann einen Moment dauern, aber Geduld zahlt sich aus! :)
@@ -86,7 +86,7 @@ Diese Befehle erstellen automatisch die Firewall-Regeln, die dein Avorion Server
 
 Öffne über die Windows-Suche die **Windows-Firewall mit erweiterter Sicherheit**. Falls du nur die Basis-Firewall-Seite siehst, klicke auf **Erweiterte Einstellungen**, um das richtige Fenster zu öffnen.
 
-![](https://github.com/zaphosting/docs/assets/42719082/5fb9f943-7e51-4d8f-9df4-2f5ff60857d3)
+![](https://screensaver01.zap-hosting.com/index.php/s/ZT2WzELZSBPrFsB/preview)
 
 Erstelle neue Regeln für deinen Avorion Server. Klicke dazu auf eingehende und ausgehende Regeln und füge folgende Protokolle und Ports hinzu:
 - TCP eingehend und ausgehend: 27000

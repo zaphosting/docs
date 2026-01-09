@@ -46,7 +46,7 @@ import TabItem from '@theme/TabItem';
 
 بديلًا عن ذلك، للمستخدمين اللي يحبون يعدلون الملف الخام مباشرة، تقدر توصل له عن طريق التوجه لقسم **Configs** في واجهة الويب الخاصة بسيرفر الألعاب والضغط على زر تعديل الملف الأزرق، مثل ما هو موضح بالأسفل:
 
-![](https://github.com/zaphosting/docs/assets/42719082/dc4699bc-33fa-447d-ac59-2960b3b080f9)
+![](https://screensaver01.zap-hosting.com/index.php/s/jPep5HzYtWnJTxT/preview)
 
 هذا راح يفتح لك محرر نصوص مباشر على الموقع عشان تقدر تعدل الملف.
 

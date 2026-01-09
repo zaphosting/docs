@@ -63,7 +63,7 @@ sudo nano /etc/ssh/sshd_config
 
 Ajoutez votre port désiré après `Port`. Si `Port` est commenté (ex. `#Port 22`), enlevez le "#" et remplacez le 22 par votre port. Sauvegardez ensuite le fichier (dans Nano avec Ctrl + o) et fermez-le (Nano : Ctrl + x).
 
-![Port sshd](https://github.com/zaphosting/docs/assets/42719082/0adec0a9-f1b3-4428-9ce2-f78497cf1818)
+![Port sshd](https://screensaver01.zap-hosting.com/index.php/s/F4Z4SDjLW4y2iDp/preview)
 
 Le service SSH doit maintenant être redémarré pour que les changements prennent effet.
 ```
@@ -90,7 +90,7 @@ Utilisez Ctrl + W pour chercher dans nano.
 ```
 nano /etc/proftpd/proftpd.conf
 ```
-![Port proftpd](https://github.com/zaphosting/docs/assets/42719082/b6f1d33e-8409-4fd7-9f32-5e2d641275c9)
+![Port proftpd](https://screensaver01.zap-hosting.com/index.php/s/qw3a88EwfDCMKXS/preview)
 
 ## Utilisation d’un pare-feu
 
@@ -200,7 +200,7 @@ Après installation, Fail2Ban propose déjà des configurations préconstruites 
 D’autres services peuvent être ajoutés simplement via une expression régulière (RegEx) et en spécifiant le fichier log voulu.
 
 Par exemple, regardons une entrée dans `/var/log/auth.log`. Ce fichier contient toutes les tentatives de connexion SSH, réussies ou échouées.
-![/var/log/auth.log](https://github.com/zaphosting/docs/assets/42719082/2758141d-c2dd-4d24-9aee-876aab5d27e7)
+![/var/log/auth.log](https://screensaver01.zap-hosting.com/index.php/s/XzpxrWZRkpFJseo/preview)
 
 Voici une entrée :
 ```
@@ -375,7 +375,7 @@ Dans ce guide, vous apprendrez comment protéger votre serveur web des attaques.
 
 On part du principe que votre domaine est déjà géré par Cloudflare, sinon vous pouvez suivre [leur guide](https://developers.cloudflare.com/fundamentals/get-started/setup/add-site/) pour migrer votre domaine. Allez dans l’onglet DNS Records du tableau de bord Cloudflare, et assurez-vous que votre enregistrement vers votre serveur web a le nuage orange et indique "Proxied".
 
-![](https://github.com/zaphosting/docs/assets/42719082/a3572480-75df-4c43-bbba-e60ddedf9316)
+![](https://screensaver01.zap-hosting.com/index.php/s/wptKPBTLwmKxx8F/preview)
 
 Ainsi, tout le trafic passant par votre domaine transite par Cloudflare avant d’arriver sur votre serveur, ce qui garantit un trafic légitime.
 
