@@ -1,4 +1,4 @@
-[
+﻿[
   {
     "title": {
       "en": "What is the difference between the TeamSpeak MyMusicBot and a Discord Bot Server?",
@@ -12,7 +12,8 @@
       "ja": "TeamSpeakのMyMusicBotとDiscord Bot Serverの違いは何ですか？",
       "sv": "Vad är skillnaden mellan TeamSpeak MyMusicBot och en Discord Bot Server?",
       "it": "Qual è la differenza tra il TeamSpeak MyMusicBot e un server bot Discord?",
-      "nl": "Wat is het verschil tussen de TeamSpeak MyMusicBot en een Discord Bot Server?"
+      "nl": "Wat is het verschil tussen de TeamSpeak MyMusicBot en een Discord Bot Server?",
+      "zh": "TeamSpeak MyMusicBot和Discord Bot服务器之间有什么区别？"
     },
     "content": {
       "en": "The TeamSpeak MyMusicBot is a specialized voice bot that plays music within TS3/Discord with features like YouTube browsing, Shoutcast support, text-to-speech, and welcome messages, all managed via an intuitive web interface. A Discord Bot Server, by contrast, provides you with a full host environment (Node.js, Java or Python) to run your own Discord bots continuously, with full FTP access and DDoS protection.",
@@ -26,7 +27,8 @@
       "ja": "TeamSpeak MyMusicBotは、TS3/Discord内で音楽を再生するための専門的なボイスボットで、YouTubeブラウジング、Shoutcastサポート、テキスト読み上げ、ウェルカムメッセージなどの機能を備えており、直感的なウェブインターフェースを通じて管理されます。一方、Discord Bot Serverは、Node.js、Java、またはPythonを使用して独自のDiscordボットを継続的に実行するための完全なホスティング環境を提供し、完全なFTPアクセスとDDoS保護を備えています。",
       "sv": "TeamSpeak MyMusicBot är en specialiserad röstbot som spelar musik inom TS3/Discord med funktioner som YouTube-sökning, Shoutcast-stöd, text-till-tal och välkomstmeddelanden, allt hanterat via ett intuitivt webbgränssnitt. En Discord Bot Server, å sin sida, ger dig en fullständig värdmiljö (Node.js, Java eller Python) för att kontinuerligt köra dina egna Discord-botar, med full FTP-åtkomst och DDoS-skydd.",
       "it": "Il TeamSpeak MyMusicBot è un bot vocale specializzato che riproduce musica all'interno di TS3/Discord con funzionalità come la navigazione su YouTube, supporto Shoutcast, sintesi vocale e messaggi di benvenuto, il tutto gestito tramite un'interfaccia web intuitiva. Un server bot Discord, al contrario, ti offre un ambiente di hosting completo (Node.js, Java o Python) per eseguire continuamente i tuoi bot Discord, con accesso FTP completo e protezione DDoS.",
-      "nl": "De TeamSpeak MyMusicBot is een gespecialiseerde voice bot die muziek afspeelt binnen TS3/Discord met functies zoals YouTube-browsing, Shoutcast-ondersteuning, tekst-naar-spraak en welkomstberichten, allemaal beheerd via een intuïtieve webinterface. Een Discord Bot Server daarentegen biedt je een volledige hostomgeving (Node.js, Java of Python) om je eigen Discord-bots continu te draaien, met volledige FTP-toegang en DDoS-bescherming."
+      "nl": "De TeamSpeak MyMusicBot is een gespecialiseerde voice bot die muziek afspeelt binnen TS3/Discord met functies zoals YouTube-browsing, Shoutcast-ondersteuning, tekst-naar-spraak en welkomstberichten, allemaal beheerd via een intuïtieve webinterface. Een Discord Bot Server daarentegen biedt je een volledige hostomgeving (Node.js, Java of Python) om je eigen Discord-bots continu te draaien, met volledige FTP-toegang en DDoS-bescherming.",
+      "zh": "TeamSpeak MyMusicBot 是一个专门的语音机器人，可以在 TS3/Discord 中播放音乐，具有 YouTube 浏览、Shoutcast 支持、文本转语音和欢迎消息等功能，所有这些都通过直观的网页界面进行管理。相比之下，Discord Bot 服务器为您提供一个完整的主机环境（Node.js、Java 或 Python），以持续运行您自己的 Discord 机器人，具有完整的 FTP 访问权限和 DDoS 保护。"
     }
   },
   {
@@ -42,7 +44,8 @@
       "ja": "MusicBotに自分の音楽やプレイリストをアップロードできますか？",
       "sv": "Kan jag ladda upp min musik och mina spellistor till MusicBot?",
       "it": "Posso caricare la mia musica e le mie playlist su MusicBot?",
-      "nl": "Kan ik mijn muziek en afspeellijsten uploaden naar de MusicBot?"
+      "nl": "Kan ik mijn muziek en afspeellijsten uploaden naar de MusicBot?",
+      "zh": "我可以将我的音乐和播放列表上传到 MusicBot 吗？"
     },
     "content": {
       "en": "Yes. You get up to 50 GB SSD storage space to upload your desired music. You can browse YouTube or Shoutcast directly in the interface, and also manage playlists, welcome messages, or TTS—all via a simple and elegant GUI.",
@@ -56,7 +59,8 @@
       "ja": "はい。最大50 GBのSSDストレージスペースが提供され、希望する音楽をアップロードできます。インターフェース内でYouTubeやShoutcastを直接ブラウズでき、プレイリスト、ウェルカムメッセージ、TTSの管理もすべてシンプルでエレガントなGUIを通じて行えます。",
       "sv": "Ja. Du får upp till 50 GB SSD-lagringsutrymme för att ladda upp din önskade musik. Du kan bläddra på YouTube eller Shoutcast direkt i gränssnittet, och även hantera spellistor, välkomstmeddelanden eller TTS—allt via en enkel och elegant GUI.",
       "it": "Sì. Hai a disposizione fino a 50 GB di spazio di archiviazione SSD per caricare la musica desiderata. Puoi navigare su YouTube o Shoutcast direttamente nell'interfaccia e gestire anche le playlist, i messaggi di benvenuto o il TTS, il tutto tramite un'interfaccia grafica semplice ed elegante.",
-      "nl": "Ja. Je krijgt tot 50 GB SSD-opslagruimte om je gewenste muziek te uploaden. Je kunt YouTube of Shoutcast rechtstreeks in de interface doorbladeren en ook afspeellijsten, welkomstberichten of TTS beheren - allemaal via een eenvoudige en elegante GUI."
+      "nl": "Ja. Je krijgt tot 50 GB SSD-opslagruimte om je gewenste muziek te uploaden. Je kunt YouTube of Shoutcast rechtstreeks in de interface doorbladeren en ook afspeellijsten, welkomstberichten of TTS beheren - allemaal via een eenvoudige en elegante GUI.",
+      "zh": "是的。您可以获得高达 50 GB 的 SSD 存储空间来上传您想要的音乐。您可以直接在界面中浏览 YouTube 或 Shoutcast，还可以管理播放列表、欢迎消息或 TTS——所有这些都通过一个简单而优雅的 GUI 完成。"
     }
   },
   {
@@ -72,7 +76,8 @@
       "ja": "Discord Bot Serverでサポートされているプログラミング言語は何ですか？",
       "sv": "Vilka programmeringsspråk stöds på Discord Bot Server?",
       "it": "Quali linguaggi di programmazione sono supportati sul Server Bot di Discord?",
-      "nl": "Welke programmeertalen worden ondersteund op de Discord Bot Server?"
+      "nl": "Welke programmeertalen worden ondersteund op de Discord Bot Server?",
+      "zh": "Discord Bot 服务器支持哪些编程语言？"
     },
     "content": {
       "en": "The Discord Bot Server supports Node.js, Java, and Python. You select the language in the web interface, upload your bot files via FTP, and run your bot continuously with full DDoS protection.",
@@ -86,7 +91,8 @@
       "ja": "Discordボットサーバーは、Node.js、Java、およびPythonをサポートしています。ウェブインターフェースで言語を選択し、FTPを介してボットファイルをアップロードし、完全なDDoS保護を備えてボットを継続的に実行します。",
       "sv": "Discord Bot-servern stöder Node.js, Java och Python. Du väljer språket i webbgränssnittet, laddar upp dina botfiler via FTP och kör din bot kontinuerligt med full DDoS-skydd.",
       "it": "Il server del bot Discord supporta Node.js, Java e Python. Puoi selezionare il linguaggio nell'interfaccia web, caricare i file del tuo bot tramite FTP e far funzionare il tuo bot in modo continuo con piena protezione DDoS.",
-      "nl": "De Discord Bot Server ondersteunt Node.js, Java en Python. Je selecteert de programmeertaal in de webinterface, uploadt je botbestanden via FTP en draait je bot continu met volledige DDoS-bescherming."
+      "nl": "De Discord Bot Server ondersteunt Node.js, Java en Python. Je selecteert de programmeertaal in de webinterface, uploadt je botbestanden via FTP en draait je bot continu met volledige DDoS-bescherming.",
+      "zh": "Discord 机器人服务器支持 Node.js、Java 和 Python。您可以在网页界面中选择语言，通过 FTP 上传您的机器人文件，并在全面的 DDoS 保护下持续运行您的机器人。"
     }
   },
   {
@@ -102,7 +108,8 @@
       "ja": "VoiceBot製品の注文後、どのくらいの速さでセットアップされますか？",
       "sv": "Hur snabbt sätts min VoiceBot-produkt upp efter beställning?",
       "it": "Quanto tempo ci vuole per configurare il mio prodotto VoiceBot dopo aver effettuato l'ordine?",
-      "nl": "Hoe snel wordt mijn VoiceBot-product ingesteld na bestelling?"
+      "nl": "Hoe snel wordt mijn VoiceBot-product ingesteld na bestelling?",
+      "zh": "我的VoiceBot产品在下单后多久可以设置完成？"
     },
     "content": {
       "en": "Setup is fully automatic. After ordering and payment, your VoiceBot (MyMusicBot or Discord Bot Server) is configured and ready to go within just a few minutes.",
@@ -116,7 +123,8 @@
       "ja": "セットアップは完全に自動化されています。注文と支払いが完了すると、あなたのVoiceBot（MyMusicBotまたはDiscord Bot Server）が数分以内に設定され、すぐに使用可能になります。",
       "sv": "Installationen är helt automatisk. Efter beställning och betalning konfigureras din VoiceBot (MyMusicBot eller Discord Bot Server) och är redo att användas inom bara några minuter.",
       "it": "L'installazione è completamente automatica. Dopo aver effettuato l'ordine e il pagamento, il tuo VoiceBot (MyMusicBot o Discord Bot Server) viene configurato e pronto all'uso in pochi minuti.",
-      "nl": "De setup is volledig automatisch. Na het bestellen en betalen wordt je VoiceBot (MyMusicBot of Discord Bot Server) geconfigureerd en is deze binnen enkele minuten klaar voor gebruik."
+      "nl": "De setup is volledig automatisch. Na het bestellen en betalen wordt je VoiceBot (MyMusicBot of Discord Bot Server) geconfigureerd en is deze binnen enkele minuten klaar voor gebruik.",
+      "zh": "设置是完全自动的。在下单和付款后，您的语音机器人（MyMusicBot 或 Discord Bot Server）将在几分钟内配置完成并准备就绪。"
     }
   },
   {
@@ -132,7 +140,8 @@
       "ja": "VoiceBotはDDoS攻撃から保護されていますか？",
       "sv": "Är VoiceBot skyddad mot DDoS-attacker?",
       "it": "Il VoiceBot è protetto contro gli attacchi DDoS?",
-      "nl": "Is de VoiceBot beschermd tegen DDoS-aanvallen?"
+      "nl": "Is de VoiceBot beschermd tegen DDoS-aanvallen?",
+      "zh": "VoiceBot是否受到DDoS攻击的保护？"
     },
     "content": {
       "en": "Absolutely. All VoiceBot services from ZAP-Hosting, including MyMusicBot and Discord Bot Servers, are shielded by robust DDoS protection to ensure constant uptime and stability.",
@@ -146,7 +155,8 @@
       "ja": "もちろんです。ZAP-HostingのすべてのVoiceBotサービス、MyMusicBotやDiscord Botサーバーを含むは、常時稼働と安定性を確保するために強力なDDoS保護によって守られています。",
       "sv": "Absolut. Alla VoiceBot-tjänster från ZAP-Hosting, inklusive MyMusicBot och Discord Bot-servrar, skyddas av robust DDoS-skydd för att säkerställa konstant drifttid och stabilitet.",
       "it": "Assolutamente. Tutti i servizi VoiceBot di ZAP-Hosting, inclusi MyMusicBot e i server Discord Bot, sono protetti da una robusta protezione DDoS per garantire un uptime e una stabilità costanti.",
-      "nl": "Absoluut. Alle VoiceBot-diensten van ZAP-Hosting, inclusief MyMusicBot en Discord Bot Servers, zijn beschermd door robuuste DDoS-bescherming om constante uptime en stabiliteit te waarborgen."
+      "nl": "Absoluut. Alle VoiceBot-diensten van ZAP-Hosting, inclusief MyMusicBot en Discord Bot Servers, zijn beschermd door robuuste DDoS-bescherming om constante uptime en stabiliteit te waarborgen.",
+      "zh": "绝对是的。ZAP-Hosting 提供的所有 VoiceBot 服务，包括 MyMusicBot 和 Discord Bot 服务器，都受到强大的 DDoS 保护，以确保持续的正常运行时间和稳定性。"
     }
   },
   {
@@ -162,7 +172,8 @@
       "ja": "プリペイドと契約請求のどちらかを選ぶことはできますか？",
       "sv": "Kan jag välja mellan förbetald och avtalsbaserad fakturering?",
       "it": "Posso scegliere tra fatturazione prepagata e a contratto?",
-      "nl": "Kan ik kiezen tussen prepaid en contractfacturering?"
+      "nl": "Kan ik kiezen tussen prepaid en contractfacturering?",
+      "zh": "我可以选择预付费和合同计费吗？"
     },
     "content": {
       "en": "Yes. You can opt for prepaid billing (one-time payment) or a contract model. Prepaid services expire if not renewed manually, whereas contract options renew automatically.",
@@ -176,7 +187,8 @@
       "ja": "はい。プリペイド請求（ワンタイムペイメント）または契約モデルを選択できます。プリペイドサービスは手動で更新しない限り期限切れになりますが、契約オプションは自動的に更新されます。",
       "sv": "Ja. Du kan välja förbetald fakturering (engångsbetalning) eller en kontraktsmodell. Förbetalda tjänster upphör om de inte förnyas manuellt, medan kontraktsalternativ förnyas automatiskt.",
       "it": "Sì. Puoi scegliere tra la fatturazione prepagata (pagamento una tantum) o un modello contrattuale. I servizi prepagati scadono se non vengono rinnovati manualmente, mentre le opzioni contrattuali si rinnovano automaticamente.",
-      "nl": "Ja. U kunt kiezen voor prepaid facturering (eenmalige betaling) of een contractmodel. Prepaid diensten vervallen als ze niet handmatig worden verlengd, terwijl contractopties automatisch worden verlengd."
+      "nl": "Ja. U kunt kiezen voor prepaid facturering (eenmalige betaling) of een contractmodel. Prepaid diensten vervallen als ze niet handmatig worden verlengd, terwijl contractopties automatisch worden verlengd.",
+      "zh": "是的。您可以选择预付费计费（一次性付款）或合同模式。预付费服务如果不手动续订将会过期，而合同选项会自动续订。"
     }
   },
   {
@@ -192,7 +204,8 @@
       "ja": "ボットや音楽ファイルをどのようにアップロードしますか？",
       "sv": "Hur laddar jag upp min bot eller musikfiler?",
       "it": "Come posso caricare il mio bot o i file musicali?",
-      "nl": "Hoe upload ik mijn bot of muziekbestanden?"
+      "nl": "Hoe upload ik mijn bot of muziekbestanden?",
+      "zh": "我该如何上传我的机器人或音乐文件？"
     },
     "content": {
       "en": "You can upload your files via FTP. For Discord Bot Servers, upload your bot's scripts and dependencies. For MyMusicBot, upload music files into the available storage. Full FTP access is provided with both products.",
@@ -206,7 +219,8 @@
       "ja": "ファイルはFTPを介してアップロードできます。Discordボットサーバーの場合は、ボットのスクリプトと依存関係をアップロードしてください。MyMusicBotの場合は、音楽ファイルを利用可能なストレージにアップロードします。両方の製品で完全なFTPアクセスが提供されています。",
       "sv": "Du kan ladda upp dina filer via FTP. För Discord Bot-servrar, ladda upp din bots skript och beroenden. För MyMusicBot, ladda upp musikfiler till det tillgängliga lagringsutrymmet. Full FTP-åtkomst tillhandahålls med båda produkterna.",
       "it": "Puoi caricare i tuoi file tramite FTP. Per i server di bot Discord, carica gli script e le dipendenze del tuo bot. Per MyMusicBot, carica i file musicali nello spazio di archiviazione disponibile. L'accesso FTP completo è fornito con entrambi i prodotti.",
-      "nl": "Je kunt je bestanden uploaden via FTP. Voor Discord Bot Servers, upload de scripts en afhankelijkheden van je bot. Voor MyMusicBot, upload muziekbestanden in de beschikbare opslag. Volledige FTP-toegang wordt geboden met beide producten."
+      "nl": "Je kunt je bestanden uploaden via FTP. Voor Discord Bot Servers, upload de scripts en afhankelijkheden van je bot. Voor MyMusicBot, upload muziekbestanden in de beschikbare opslag. Volledige FTP-toegang wordt geboden met beide producten.",
+      "zh": "您可以通过 FTP 上传您的文件。对于 Discord 机器人服务器，上传您机器人的脚本和依赖项。对于 MyMusicBot，将音乐文件上传到可用存储中。两个产品都提供完整的 FTP 访问权限。"
     }
   },
   {
@@ -222,7 +236,8 @@
       "ja": "後でリソース（RAMやストレージ）をアップグレードできますか？",
       "sv": "Kan jag uppgradera mina resurser (RAM eller lagring) senare?",
       "it": "Posso aggiornare le mie risorse (RAM o spazio di archiviazione) in seguito?",
-      "nl": "Kan ik mijn middelen (RAM of opslag) later upgraden?"
+      "nl": "Kan ik mijn middelen (RAM of opslag) later upgraden?",
+      "zh": "我可以稍后升级我的资源（RAM或存储）吗？"
     },
     "content": {
       "en": "Yes, upgrades are possible and can be performed at any time through the web interface. If your bot needs more memory or storage, you can add it just a few clicks away.",
@@ -236,7 +251,8 @@
       "ja": "はい、アップグレードは可能であり、ウェブインターフェースを通じていつでも実行できます。ボットがより多くのメモリやストレージを必要とする場合は、数回のクリックで追加できます。",
       "sv": "Ja, uppgraderingar är möjliga och kan utföras när som helst via webbgränssnittet. Om din bot behöver mer minne eller lagring kan du lägga till det med bara några klick.",
       "it": "Sì, gli aggiornamenti sono possibili e possono essere eseguiti in qualsiasi momento tramite l'interfaccia web. Se il tuo bot ha bisogno di più memoria o spazio di archiviazione, puoi aggiungerli con pochi clic.",
-      "nl": "Ja, upgrades zijn mogelijk en kunnen op elk moment via de webinterface worden uitgevoerd. Als je bot meer geheugen of opslag nodig heeft, kun je dit met slechts een paar klikken toevoegen."
+      "nl": "Ja, upgrades zijn mogelijk en kunnen op elk moment via de webinterface worden uitgevoerd. Als je bot meer geheugen of opslag nodig heeft, kun je dit met slechts een paar klikken toevoegen.",
+      "zh": "是的，升级是可能的，可以通过网页界面随时进行。如果您的机器人需要更多内存或存储，您只需点击几下即可添加。"
     }
   },
   {
@@ -252,7 +268,8 @@
       "ja": "MusicBotはテキスト読み上げ機能とウェルカムメッセージをサポートしていますか？",
       "sv": "Stöder MusicBot text-till-tal och välkomstmeddelanden?",
       "it": "Il MusicBot supporta la sintesi vocale e i messaggi di benvenuto?",
-      "nl": "Ondersteunt de MusicBot tekst-naar-spraak en welkomstberichten?"
+      "nl": "Ondersteunt de MusicBot tekst-naar-spraak en welkomstberichten?",
+      "zh": "MusicBot 是否支持文本转语音和欢迎消息？"
     },
     "content": {
       "en": "Yes. The MyMusicBot features text-to-speech, customizable welcome messages, YouTube browsing, Shoutcast integration, and more.",
@@ -266,7 +283,8 @@
       "ja": "はい。MyMusicBotは、テキスト読み上げ機能、カスタマイズ可能なウェルカムメッセージ、YouTubeブラウジング、Shoutcast統合などの機能を備えています。",
       "sv": "Ja. MyMusicBot har text-till-tal, anpassningsbara välkomstmeddelanden, YouTube-sökning, Shoutcast-integration och mer.",
       "it": "Sì. MyMusicBot offre funzionalità di sintesi vocale, messaggi di benvenuto personalizzabili, navigazione su YouTube, integrazione con Shoutcast e altro ancora.",
-      "nl": "Ja. De MyMusicBot heeft tekst-naar-spraak, aanpasbare welkomstberichten, YouTube-browsing, Shoutcast-integratie en meer."
+      "nl": "Ja. De MyMusicBot heeft tekst-naar-spraak, aanpasbare welkomstberichten, YouTube-browsing, Shoutcast-integratie en meer.",
+      "zh": "是的。MyMusicBot 具有文本转语音、自定义欢迎消息、YouTube 浏览、Shoutcast 集成等功能。"
     }
   },
   {
@@ -282,7 +300,8 @@
       "ja": "VoiceBotのSSDストレージや帯域幅に制限はありますか？",
       "sv": "Finns det en gräns för SSD-lagring eller bandbredd för VoiceBot?",
       "it": "C'è un limite allo spazio di archiviazione SSD o alla larghezza di banda per il VoiceBot?",
-      "nl": "Is er een limiet aan SSD-opslag of bandbreedte voor de VoiceBot?"
+      "nl": "Is er een limiet aan SSD-opslag of bandbreedte voor de VoiceBot?",
+      "zh": "SSD存储或VoiceBot的带宽是否有限制？"
     },
     "content": {
       "en": "MusicBot offers up to 50 GB SSD storage. Discord Bot Servers do not have storage limits within the fair-use policy, and disk space is generally unrestricted unless you choose to upgrade.",
@@ -296,7 +315,8 @@
       "ja": "MusicBotは最大50 GBのSSDストレージを提供します。Discord Botサーバーはフェアユースポリシー内でストレージ制限がなく、ディスクスペースは一般的に制限されていませんが、アップグレードを選択した場合は別です。",
       "sv": "MusicBot erbjuder upp till 50 GB SSD-lagring. Discord Bot-servrar har inga lagringsgränser inom ramen för rättvis användning, och diskutrymme är generellt sett obegränsat om du inte väljer att uppgradera.",
       "it": "MusicBot offre fino a 50 GB di spazio di archiviazione SSD. I server per bot Discord non hanno limiti di archiviazione all'interno della politica di uso corretto, e lo spazio su disco è generalmente illimitato a meno che tu non scelga di eseguire un upgrade.",
-      "nl": "MusicBot biedt tot 50 GB SSD-opslag. Discord Bot Servers hebben geen opslaglimieten binnen het beleid voor eerlijk gebruik, en schijfruimte is over het algemeen onbeperkt, tenzij je ervoor kiest om te upgraden."
+      "nl": "MusicBot biedt tot 50 GB SSD-opslag. Discord Bot Servers hebben geen opslaglimieten binnen het beleid voor eerlijk gebruik, en schijfruimte is over het algemeen onbeperkt, tenzij je ervoor kiest om te upgraden.",
+      "zh": "MusicBot 提供高达 50 GB 的 SSD 存储。Discord 机器人服务器在合理使用政策内没有存储限制，磁盘空间通常没有限制，除非您选择升级。"
     }
   }
 ]

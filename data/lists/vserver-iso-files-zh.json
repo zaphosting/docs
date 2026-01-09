@@ -1,0 +1,171 @@
+[
+  {
+    "title": "Ubuntu Desktop",
+    "description": "Ubuntu桌面是一个用户友好的Linux发行版，广泛用于桌面和笔记本电脑。它提供现代化的界面和广泛的软件支持。",
+    "category": "Linux",
+    "tags": [
+      "22.04",
+      "24.04",
+      "25.04"
+    ],
+    "link": ""
+  },
+  {
+    "title": "Ubuntu Server",
+    "description": "Ubuntu Server 是一个针对服务器优化的 Linux 发行版。由于其稳定性和可扩展性，它在云环境和数据中心中被广泛使用。",
+    "category": "Linux",
+    "tags": [
+      "22.04",
+      "24.04",
+      "25.04"
+    ],
+    "link": ""
+  },
+  {
+    "title": "Debian",
+    "description": "Debian 是一个稳定且多功能的 Linux 发行版，以其可靠性和庞大的软件库而闻名。它是许多其他发行版的基础，包括 Ubuntu。",
+    "category": "Linux",
+    "tags": [
+      "11.6",
+      "12.11",
+      "13.0"
+    ],
+    "link": ""
+  },
+  {
+    "title": "AlmaLinux",
+    "description": "AlmaLinux 是一个免费的开源 Linux 发行版，旨在作为 CentOS 的社区驱动替代品，提供企业级的稳定性。",
+    "category": "Linux",
+    "tags": [
+      "8.10",
+      "9.6",
+      "10.0"
+    ],
+    "link": ""
+  },
+  {
+    "title": "CentOS Stream",
+    "description": "CentOS Stream 是一个 Linux 发行版，提供 Red Hat Enterprise Linux 下一个版本的滚动预览，位于 Fedora 和 RHEL 之间。",
+    "category": "Linux",
+    "tags": [
+      "9",
+      "10"
+    ],
+    "link": ""
+  },
+  {
+    "title": "Rocky Linux Stream",
+    "description": "Rocky Linux 是一个社区驱动的企业级 Linux 发行版，旨在成为 RHEL 的下游、二进制兼容替代品，因 CentOS 改变了方向。",
+    "category": "Linux",
+    "tags": [
+      "8.10",
+      "9.6",
+      "10.0"
+    ],
+    "link": ""
+  },
+  {
+    "title": "Windows Server",
+    "description": "Windows Server 是一个微软操作系统，专为企业使用而设计，提供服务器管理、虚拟化和网络功能。",
+    "category": "Windows",
+    "tags": [
+      "WS 2019",
+      "WS 2022",
+      "WS 2025"
+    ],
+    "link": ""
+  },
+  {
+    "title": "Fedora",
+    "description": "Fedora 是一个由红帽赞助的前沿 Linux 发行版，以整合 Linux 生态系统中的最新技术和创新而闻名。",
+    "category": "Linux",
+    "tags": [
+      "42.1-1"
+    ],
+    "link": ""
+  },
+  {
+    "title": "OpenSUSE",
+    "description": "openSUSE 是一个以社区为驱动的 Linux 发行版，以其稳定性和强大的管理工具（如 YaST）而闻名。它适用于服务器和桌面。",
+    "category": "Linux",
+    "tags": [
+      "Tumbleweed",
+      "15.6"
+    ],
+    "link": ""
+  },
+  {
+    "title": "Arch Linux",
+    "description": "Arch Linux 是一个轻量级且灵活的 Linux 发行版，采用滚动更新模型，面向希望完全控制其系统的高级用户。",
+    "category": "Linux",
+    "tags": [
+      "2025.08.01"
+    ],
+    "link": ""
+  },
+  {
+    "title": "Windows Desktop",
+    "description": "Windows桌面是指微软的桌面操作系统，包括Windows 10和Windows 11，广泛用于个人和专业计算。",
+    "category": "Windows",
+    "tags": [
+      "W10 24H2",
+      "W11 24H2"
+    ],
+    "link": ""
+  },
+  {
+    "title": "Proxmox Backup Server",
+    "description": "Proxmox Backup Server 是一个企业级备份解决方案，适用于虚拟机、容器和物理主机，提供去重和高效的数据管理。",
+    "category": "Virtualization",
+    "tags": [
+      "3.4-1",
+      "4.0-1"
+    ],
+    "link": ""
+  },
+  {
+    "title": "SystemRescue",
+    "description": "SystemRescue是一个基于Linux的救援系统，旨在修复无法启动的计算机和执行管理任务。",
+    "category": "Rescue",
+    "tags": [
+      "12.01"
+    ],
+    "link": ""
+  },
+  {
+    "title": "Gparted",
+    "description": "GParted 是一个免费的分区编辑器，用于管理磁盘分区，允许在不丢失数据的情况下调整大小、复制和移动分区。",
+    "category": "Utilities",
+    "tags": [
+      "1.7.0-8"
+    ],
+    "link": ""
+  },
+  {
+    "title": "Windows VirtIO Drivers",
+    "description": "Windows VirtIO 驱动程序是针对在基于 KVM 的虚拟机监控程序上运行 Windows 虚拟机而优化的驱动程序，提升了性能和兼容性。",
+    "category": "Utilities",
+    "tags": [
+      "0.1.271-1"
+    ],
+    "link": ""
+  },
+  {
+    "title": "TrueNAS SCALE Fangtooth",
+    "description": "TrueNAS SCALE Fangtooth 是 TrueNAS SCALE NAS 操作系统的一个版本，提供先进的存储、虚拟化和容器化功能。",
+    "category": "NAS",
+    "tags": [
+      "25.04.2.1"
+    ],
+    "link": ""
+  },
+  {
+    "title": "TrueNAS SCALE ElectricEel",
+    "description": "TrueNAS SCALE ElectricEel 是 TrueNAS SCALE NAS 操作系统的另一个版本，专注于现代存储和云集成。",
+    "category": "NAS",
+    "tags": [
+      "24.10.2.4"
+    ],
+    "link": ""
+  }
+]

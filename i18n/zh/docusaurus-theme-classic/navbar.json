@@ -1,0 +1,34 @@
+{
+  "title": {
+    "message": "ZAP-Hosting 文档",
+    "description": "The title in the navbar"
+  },
+  "logo.alt": {
+    "message": "ZAP-Hosting",
+    "description": "The alt text of navbar logo"
+  },
+  "item.label.General": {
+    "message": "常规",
+    "description": "Navbar item with label General"
+  },
+  "item.label.Gameserver": {
+    "message": "游戏服务器",
+    "description": "Navbar item with label Gameserver"
+  },
+  "item.label.VPS": {
+    "message": "VPS",
+    "description": "Navbar item with label VPS"
+  },
+  "item.label.Dedicated Server": {
+    "message": "专用服务器",
+    "description": "Navbar item with label Dedicated Server"
+  },
+  "item.label.Domain & Webspace": {
+    "message": "域名与网络空间",
+    "description": "Navbar item with label Domain & Webspace"
+  },
+  "item.label.Voicebot & Voiceserver": {
+    "message": "语音机器人 & 语音服务器",
+    "description": "Navbar item with label Voicebot & Voiceserver"
+  }
+}
