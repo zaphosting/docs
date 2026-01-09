@@ -26,7 +26,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 まずはPalworldサーバーのIPアドレスとポート番号を知る必要があります。直接接続するために、[ZAP-Hostingのウェブインターフェース](https://zap-hosting.com/en/customer/)にアクセスして、IPとポートを確認しておこう。
 
-![](https://github.com/zaphosting/docs/assets/42719082/62bcad5b-064c-45cd-a7f0-406a1148b15c)
+![](https://screensaver01.zap-hosting.com/index.php/s/DRxKHE7bP3FbFMo/preview)
 
 もし外部の専用サーバーでPalworldサーバーを運用している場合は、ホストマシンのIPアドレスと設定ファイルで指定したポート番号（デフォルトは8211）を使ってね。ポートについては[サーバー設定](palworld-configuration.md)ガイドも参考にしてみて。
 
@@ -34,7 +34,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 まずはゲームランチャーからPalworldを起動し、メインメニューで**マルチプレイヤーゲームに参加**を選択。
 
-![](https://github.com/zaphosting/docs/assets/42719082/fefc7ead-5098-4bdb-aa56-c9d78673d7e8)
+![](https://screensaver01.zap-hosting.com/index.php/s/TZzLAS29rnpPmi6/preview)
 
 専用サーバーブラウザの画面下部にある検索ボックスに、先ほど確認したIPアドレスとポート番号を入力。準備ができたら**接続**ボタンを押してサーバーに参加しよう。
 
@@ -42,7 +42,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 必ず画面下の検索ボックスを使ってね。上の検索ボックスはサーバー名で検索するためのものだよ。
 :::
 
-![](https://github.com/zaphosting/docs/assets/42719082/ae31ddee-8992-486a-aef3-e6e4d115f018)
+![](https://screensaver01.zap-hosting.com/index.php/s/CG5gARbSxC3RpTb/preview)
 
 もし接続できずタイムアウトエラーが出る場合は、入力したIPとポートが正しいか、サーバーがオンラインかどうかを確認してね。Palworldサーバーのウェブインターフェースのコンソール機能もデバッグに役立つよ。
 

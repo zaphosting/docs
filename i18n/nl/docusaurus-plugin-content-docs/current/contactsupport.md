@@ -21,7 +21,7 @@ Je kunt makkelijk de actuele status van al onze diensten, inclusief jouw server,
 :::tip
 Op onze statuspagina kun je je zelfs aanmelden voor e-mailmeldingen voor elke dienst in ons netwerk! Klik op het pijltje rechtsboven, kies de scope en vul je e-mailadres in waar je meldingen op wilt ontvangen.
 
-![](https://github.com/zaphosting/docs/assets/42719082/2758b2b4-29e1-433f-9e40-76ca70fc90b0)
+![](https://screensaver01.zap-hosting.com/index.php/s/fjFET6mF4XCrBSX/preview)
 :::
 
 Als het product waar je problemen mee hebt momenteel een storing heeft, raden we je aan te wachten tot dit is opgelost. Onze techneuten krijgen automatisch een melding van storingen en gaan zo snel mogelijk aan de slag.
@@ -41,7 +41,7 @@ Je opent ons ticketsysteem via het ticket-icoon in de bovenste navigatiebalk of 
 
 Op de pagina zie je je actieve en eerdere tickets en kun je een nieuw ticket aanmaken.
 
-![](https://github.com/zaphosting/docs/assets/42719082/be474363-21b1-4e7c-8f55-d7fd1e70ceed)
+![](https://screensaver01.zap-hosting.com/index.php/s/7E5xtP3oZpGyr79/preview)
 
 ## Een nieuw ticket aanmaken
 
@@ -49,7 +49,7 @@ Heb je nog steeds support nodig? Neem dan contact op met onze officiële support
 
 Klik op de **Ticket aanmaken** knop. Je kunt kiezen tussen een regulier ticket of een **Speed-UP** ticket.
 
-![](https://github.com/zaphosting/docs/assets/42719082/22af5076-bcfc-453f-b4e2-510c2133ef09)
+![](https://screensaver01.zap-hosting.com/index.php/s/K2xxDEYkJFPN5C2/preview)
 
 Vul daarna het formulier in met alle belangrijke details over je probleem en welke stappen je al hebt geprobeerd.
 
@@ -59,7 +59,7 @@ Hier een overzicht van nuttige info die je kunt geven:
 - Een gedetailleerde omschrijving van het probleem. Denk aan vragen als: Wanneer begon het? Hoe vaak gebeurt het? Welke stappen heb je al geprobeerd?
 - Extra info, zoals screenshots van foutmeldingen, logs of andere dingen die kunnen helpen.
 
-![](https://github.com/zaphosting/docs/assets/42719082/361732b1-2ac9-45db-be6e-81e20951c498)
+![](https://screensaver01.zap-hosting.com/index.php/s/mL5Zsi7EmqQiLnC/preview)
 
 Als je klaar bent met invullen, klik je op **Supportticket versturen** om het ticket naar ons supportteam te sturen!
 

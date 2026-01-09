@@ -33,7 +33,7 @@ Existem dois snapshots disponíveis, um de 25 de agosto de 2023 e outro de 30 de
 :::note
 O uso do seu próprio backup oficial só é possível com a variante de servidor de jogos **ARK - SE (compatível com backup oficial)**. Se você estiver usando outra versão no seu servidor, pode trocar a versão na seção **games** no painel de controle do seu servidor ou seguir nosso [guia de troca de jogo](gameserver-gameswitch.md).
 
-![](https://github.com/zaphosting/docs/assets/42719082/8f2ac8fa-2b23-4738-8d95-87c289e9d98a)
+![](https://screensaver01.zap-hosting.com/index.php/s/Kwjyx4sDSHLTFZJ/preview)
 :::
 
 
@@ -45,7 +45,7 @@ Para importar seu próprio arquivo de save (não oficial), você precisa de todo
 :::note
 Para isso, use a variante regular do servidor de jogos **Ark: SE** (sem suporte a backup oficial), já que você está importando um save normal, não oficial.
 
-![](https://github.com/zaphosting/docs/assets/42719082/43a6f039-778b-471f-82c8-91f1b8644a33)
+![](https://screensaver01.zap-hosting.com/index.php/s/FCMPjApJBjZxdR2/preview)
 :::
 
 
@@ -61,7 +61,7 @@ Com seu cliente FTP aberto, navegue até o seguinte subdiretório dentro do seu 
 /gxxxxx/ark/ShooterGame/Saved/SavedArks
 ```
 
-![](https://github.com/zaphosting/docs/assets/42719082/92ca6e48-346e-4f3c-80e2-972421d1f73f)
+![](https://screensaver01.zap-hosting.com/index.php/s/YXFcNPMgtbmRJJj/preview)
 
 Apague todos os arquivos do save atual (ou faça backup deles antes, caso queira jogar nesse save depois). Depois, arraste e envie todos os arquivos extraídos para essa pasta (incluindo os arquivos .ark, .arktribe e .arkprofile). Tenha paciência, pois o upload pode demorar dependendo do tamanho do seu save.
 

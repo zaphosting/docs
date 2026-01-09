@@ -36,7 +36,7 @@ För den här snabbsetup-funktionen behöver du [köpa en perfekt domän direkt 
 
 I vårt exempel ser du hur vi skapar en ny subdomän med `.zap.cloud`-domänen, som leder oss till vår TeamSpeak 3-server när den används.
 
-![](https://github.com/zaphosting/docs/assets/42719082/5b311ff1-625c-4f6d-82b8-6847d432beb9)
+![](https://screensaver01.zap-hosting.com/index.php/s/Mi3wK7cY639Rp3x/preview)
 
 :::note
 Observera att det kan ta upp till 3 timmar för domänen att spridas och börja fungera.

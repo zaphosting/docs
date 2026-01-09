@@ -24,7 +24,7 @@ Erstelle irgendwo auf deinem Server einen neuen Ordner, in diesem Beispiel nenne
 
 Starte einfach **steamcmd.exe** und warte, bis der Installationsprozess vollständig abgeschlossen ist.
 
-![](https://github.com/zaphosting/docs/assets/42719082/ffb8e8a1-26e3-4d16-9baf-938e17ec1613)
+![](https://screensaver01.zap-hosting.com/index.php/s/nGsEGWDrSG7gBZs/preview)
 
 Sobald die Meldung **Loading Steam API.... OK** erscheint, ist der Prozess erfolgreich abgeschlossen und du kannst mit der Installation des Soulmask Dedicated Servers im nächsten Abschnitt starten.
 
@@ -43,7 +43,7 @@ force_install_dir C:\Soulmask-Server
 
 Starte nun den Download mit dem Befehl `app_update 3017310`. Die App-ID **3017310** steht für die **Soulmask** Anwendung.
 
-![](https://github.com/zaphosting/docs/assets/42719082/b265a784-cf9a-43dc-b100-376f080e18f3)
+![](https://screensaver01.zap-hosting.com/index.php/s/5wtdbQbZoj6WbTN/preview)
 
 :::info
 Bitte unterbrich den Prozess nicht vorzeitig, um Fehler zu vermeiden. Es kann einen Moment dauern, aber Geduld zahlt sich aus! :)
@@ -83,7 +83,7 @@ Diese Befehle erstellen automatisch die Firewall-Regeln, die dein Soulmask Serve
 
 Öffne über die Windows-Suche die **Windows-Firewall mit erweiterter Sicherheit**. Falls du nur die Basis-Firewall-Seite siehst, klicke auf **Erweiterte Einstellungen**, um das richtige Fenster zu öffnen.
 
-![](https://github.com/zaphosting/docs/assets/42719082/5fb9f943-7e51-4d8f-9df4-2f5ff60857d3)
+![](https://screensaver01.zap-hosting.com/index.php/s/ZT2WzELZSBPrFsB/preview)
 
 Du musst neue Regeln für deinen Soulmask Server anlegen. Klicke dazu auf eingehende und ausgehende Regeln und füge folgende Protokolle und Ports hinzu:
 - TCP eingehend und ausgehend: 8777, 27015

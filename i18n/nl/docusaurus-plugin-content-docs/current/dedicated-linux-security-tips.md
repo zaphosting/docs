@@ -63,7 +63,7 @@ sudo nano /etc/ssh/sshd_config
 
 Voeg je gewenste poort toe achter `Port`. Staat `Port` uitcommentarieerd (bijv. `#Port 22`), haal dan het "#" weg en vervang 22 door je nieuwe poort. Sla het bestand op (in Nano met Ctrl + o) en sluit af (Nano: Ctrl + x).
 
-![Port sshd](https://github.com/zaphosting/docs/assets/42719082/0adec0a9-f1b3-4428-9ce2-f78497cf1818)
+![Port sshd](https://screensaver01.zap-hosting.com/index.php/s/F4Z4SDjLW4y2iDp/preview)
 
 Herstart de SSH-service zodat de wijziging actief wordt:
 ```
@@ -90,7 +90,7 @@ Gebruik Ctrl + W om te zoeken in nano.
 ```
 nano /etc/proftpd/proftpd.conf
 ```
-![Port proftpd](https://github.com/zaphosting/docs/assets/42719082/b6f1d33e-8409-4fd7-9f32-5e2d641275c9)
+![Port proftpd](https://screensaver01.zap-hosting.com/index.php/s/qw3a88EwfDCMKXS/preview)
 
 ## Gebruik van een firewall
 
@@ -200,7 +200,7 @@ Na installatie heeft Fail2Ban al configuraties voor veelgebruikte services zoals
 Extra services kun je toevoegen met reguliere expressies (RegEx) en het gewenste logbestand.
 
 Als voorbeeld: in `/var/log/auth.log` staan alle SSH-loginpogingen, geslaagd of mislukt.
-![/var/log/auth.log](https://github.com/zaphosting/docs/assets/42719082/2758141d-c2dd-4d24-9aee-876aab5d27e7)
+![/var/log/auth.log](https://screensaver01.zap-hosting.com/index.php/s/XzpxrWZRkpFJseo/preview)
 
 Hier zie je bijvoorbeeld:
 ```
@@ -375,7 +375,7 @@ In deze gids leer je hoe je je webserver tegen aanvallen beschermt.
 
 We gaan ervan uit dat je domein al via Cloudflare wordt beheerd. Zo niet, volg dan [deze handleiding](https://developers.cloudflare.com/fundamentals/get-started/setup/add-site/) om je domein over te zetten. Ga in het Cloudflare-dashboard naar het tabblad DNS Records en zorg dat je record naar je webserver een oranje wolkje heeft en “Proxied” zegt.
 
-![](https://github.com/zaphosting/docs/assets/42719082/a3572480-75df-4c43-bbba-e60ddedf9316)
+![](https://screensaver01.zap-hosting.com/index.php/s/wptKPBTLwmKxx8F/preview)
 
 Al het verkeer via je domein gaat nu door Cloudflare naar je server, en is legitiem verkeer.
 Je server is echter nog steeds rechtstreeks bereikbaar buiten Cloudflare om. Daarom moet je de toegang tot poorten 80 en 443 (TCP) op je Linux-server beperken en alleen verkeer toestaan dat van Cloudflare komt.

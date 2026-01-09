@@ -36,7 +36,7 @@ Jetzt kannst du den Namen deines Servers über eine der drei Methoden aus dem Ab
 sv_hostname "^2ZAP-Hosting ^0| ^4Official Community Server ^0- ^1Events coming ^8soon^1!"
 ```
 
-![](https://github.com/zaphosting/docs/assets/42719082/32bbf492-9ee0-4c78-a391-9c44120369c2)
+![](https://screensaver01.zap-hosting.com/index.php/s/F5TYfEGQkGjXger/preview)
 
 
 
@@ -69,7 +69,7 @@ Eine Serverbeschreibung ist super, um kurz und knapp zu zeigen, worum es bei dei
 sets sv_projectDesc "Join our Discord to stay updated on latest events! discord.gg/zaphosting"
 ```
 
-![](https://github.com/zaphosting/docs/assets/42719082/32bbf492-9ee0-4c78-a391-9c44120369c2)
+![](https://screensaver01.zap-hosting.com/index.php/s/F5TYfEGQkGjXger/preview)
 
 ### Server-Tags
 
@@ -79,7 +79,7 @@ Server-Tags helfen dabei, deinen Server genauer zu beschreiben und potenziellen 
 sets tags "zap, zap-hosting, official, community, zap-community, zap-community-server"
 ```
 
-![](https://github.com/zaphosting/docs/assets/42719082/33407e9f-9e28-4264-9b13-e946ed5b434a)
+![](https://screensaver01.zap-hosting.com/index.php/s/oS2Y3dbPZDFDJPj/preview)
 
 ### Weitere Details
 

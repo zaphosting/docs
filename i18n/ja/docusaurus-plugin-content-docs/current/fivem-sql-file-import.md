@@ -25,12 +25,12 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ここでは例として**ESX**のSQLファイルをインポートします。インポートしたいリソースのSQLファイルを準備してください。データベースが必要なリソースのフォルダを開き、**.sql**拡張子のファイルを探しましょう。
 
-![](https://github.com/zaphosting/docs/assets/42719082/3d2b4cd2-d98e-4b25-b606-9f451164edc9)
+![](https://screensaver01.zap-hosting.com/index.php/s/3YMrCZ29pc87aW8/preview)
 
 :::info
 インポートを進める前に、.sqlファイルをテキストエディタで開き、以下のような行が含まれていないか確認してください：
 
-![](https://github.com/zaphosting/docs/assets/42719082/dfc43c55-9918-45e7-99eb-1f70193c0be1)
+![](https://screensaver01.zap-hosting.com/index.php/s/wXLmBpmiwYp3Zzo/preview)
 
 もしこれらがあれば、`CREATE` と `USE` のデータベース指定行を削除してファイルを保存してください。そうしないとSQLファイルはインポートできません。
 
@@ -41,7 +41,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ゲームサーバーのウェブインターフェースで**データベース**セクションにアクセスしましょう。
 
-![](https://github.com/zaphosting/docs/assets/42719082/83ba522a-929e-4a90-8c9e-0badc2d779d4)
+![](https://screensaver01.zap-hosting.com/index.php/s/jk6BBm4d5dDtNcd/preview)
 
 データベースページでは、バックアップ作成や作成、管理など様々な機能が使えます。ここではデータベースへのアクセスにフォーカスしますが、もっと詳しく知りたい場合は他のデータベースガイドもチェックしてください：[外部データベースアクセス](gameserver-database-external-access.md)。
 
@@ -49,17 +49,17 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ページに入ったら、左側のリストからデータベースを選択します。データベース名は必ず `zap` で始まります。
 
-![](https://github.com/zaphosting/docs/assets/42719082/30fa6041-b94e-4ac8-a3cd-286cca226dba)
+![](https://screensaver01.zap-hosting.com/index.php/s/Qx37APa9233B7zt/preview)
 
 まだ使っていなければ、データベースは空の状態です。ここでいよいよ.sqlファイルをインポートします。
 
 phpmyadminの上部ナビゲーションバーにある**インポート**ボタンを押してインポートメニューを開きましょう。
 
-![](https://github.com/zaphosting/docs/assets/42719082/c0ca30f0-c520-4a71-843a-296064ba5761)
+![](https://screensaver01.zap-hosting.com/index.php/s/McfzS8DraJsXPTZ/preview)
 
 次に**参照...**ボタンを押すとファイルエクスプローラーが開くので、最初にインポートしたい.sqlファイルを選択します。
 
-![](https://github.com/zaphosting/docs/assets/42719082/83ba22fb-fc6c-4dbb-9c47-ad42d3a9fa66)
+![](https://screensaver01.zap-hosting.com/index.php/s/cfTYGYfFGMEyQbA/preview)
 
 :::note
 最大ファイルサイズは2MBです。もしそれ以上の大きなSQLファイルがある場合は、SQLスプリッターを使ってファイルを分割しましょう。おすすめは[Pinetools SQL-Splitter](https://pinetools.com/split-files)です。分割後は通常通りSQLファイルをインポートできます。
@@ -67,7 +67,7 @@ phpmyadminの上部ナビゲーションバーにある**インポート**ボタ
 
 最後にページ下部の**インポート**ボタンを押してインポートを開始します。問題なく完了すれば成功メッセージが表示され、左側に新しいテーブルが作成されているのが確認できます。
 
-![](https://github.com/zaphosting/docs/assets/42719082/5fef5d58-78f1-4b59-bc3e-1e0af2ff981b)
+![](https://screensaver01.zap-hosting.com/index.php/s/iyobgkNtQpnNjoH/preview)
 
 ## まとめ
 

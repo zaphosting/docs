@@ -28,7 +28,7 @@ Maak ergens op je server een nieuwe map aan, in dit voorbeeld noemen we die `ste
 
 Start simpelweg **steamcmd.exe** en wacht tot de installatie helemaal klaar is.
 
-![](https://github.com/zaphosting/docs/assets/42719082/ffb8e8a1-26e3-4d16-9baf-938e17ec1613)
+![](https://screensaver01.zap-hosting.com/index.php/s/nGsEGWDrSG7gBZs/preview)
 
 Zodra de melding **Loading Steam API.... OK** verschijnt, is het proces succesvol afgerond en kun je verder met de installatie van de Palworld dedicated server in de volgende sectie.
 
@@ -47,7 +47,7 @@ force_install_dir C:\Palworld-Server
 
 Voer nu het commando `app_update 2394010` uit om de download te starten. De App ID **2394010** is de **Palworld** applicatie.
 
-![](https://github.com/zaphosting/docs/assets/42719082/b265a784-cf9a-43dc-b100-376f080e18f3)
+![](https://screensaver01.zap-hosting.com/index.php/s/5wtdbQbZoj6WbTN/preview)
 
 :::info
 Onderbreek het proces niet voordat het klaar is om fouten te voorkomen. Het kan even duren, maar het is het wachten waard! :)
@@ -87,7 +87,7 @@ Deze regels maken automatisch firewallregels aan die nodig zijn om je Palworld s
 
 Gebruik de zoekfunctie van Windows om **Windows Firewall Instellingen met Geavanceerde Beveiliging** te openen. Mogelijk moet je op **Geavanceerde instellingen** klikken om het juiste venster te openen als je de basis Windows Firewall pagina opent.
 
-![](https://github.com/zaphosting/docs/assets/42719082/5fb9f943-7e51-4d8f-9df4-2f5ff60857d3)
+![](https://screensaver01.zap-hosting.com/index.php/s/ZT2WzELZSBPrFsB/preview)
 
 Je moet nieuwe regels aanmaken voor je Palworld server. Klik hiervoor op binnenkomende en uitgaande regels zoals hieronder beschreven en voeg ze toe voor de volgende protocollen en poorten:
 - TCP binnenkomend en uitgaand: 8211

@@ -46,7 +46,7 @@ De server moet uitstaan voordat je het configbestand kunt bewerken. Als je het c
 
 Als alternatief, voor gebruikers die het ruwe bestand direct willen aanpassen, kun je dit doen via de **Configs** sectie in de webinterface van je game server door op de blauwe 'bestand bewerken' knop te klikken, zoals hieronder te zien is:
 
-![](https://github.com/zaphosting/docs/assets/42719082/dc4699bc-33fa-447d-ac59-2960b3b080f9)
+![](https://screensaver01.zap-hosting.com/index.php/s/jPep5HzYtWnJTxT/preview)
 
 Dit opent een teksteditor direct op de site zodat je het bestand kunt aanpassen.
 

@@ -15,7 +15,7 @@ Alcuni prodotti possono essere ordinati su ZAP-Hosting.com come pre-ordini. Ques
 
 I pre-ordini sono contrassegnati come tali nella pagina prodotto. Avranno un'icona a forma di cronometro per rappresentarlo.
 
-![](https://github.com/zaphosting/docs/assets/42719082/6af93b92-69bc-49ef-adbd-2b858f3b6c01)
+![](https://screensaver01.zap-hosting.com/index.php/s/Wx9nEXzees3Bx3B/preview)
 
 ## Attivazione dei pre-ordini
 

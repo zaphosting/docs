@@ -35,12 +35,12 @@ El método más sencillo es ir a la sección **Settings** en el webinterface de 
 
 En el área de **Settings**, busca la opción **Game server password**. En este campo, crea la contraseña que quieras usar e introdúcela.
 
-![](https://github.com/zaphosting/docs/assets/42719082/dadbd22b-2fd9-42e1-be71-f6d28a3f2938)
+![](https://screensaver01.zap-hosting.com/index.php/s/aQYQDYMP34NnNXr/preview)
 
 :::info
 Una vez que tengas la contraseña, desplázate hacia arriba y asegúrate de presionar el botón verde **Save** para confirmar la selección.
 
-![](https://github.com/zaphosting/docs/assets/42719082/5a4f5ab1-8079-4b20-96a6-36e4aca2e28e)
+![](https://screensaver01.zap-hosting.com/index.php/s/YG5MZ6Jt8SdFy4A/preview)
 :::
 
 </TabItem>
@@ -55,11 +55,11 @@ El servidor debe estar detenido antes de editar la configuración; editar el arc
 
 Alternativamente, para quienes prefieran editar el archivo directamente, pueden acceder a él yendo a la sección **Configs** en el webinterface de tu servidor de juegos y pulsando el botón azul de editar archivo, como se muestra a continuación:
 
-![](https://github.com/zaphosting/docs/assets/42719082/53c8acad-7347-4c3e-85bf-5ae0ad423fc6)
+![](https://screensaver01.zap-hosting.com/index.php/s/2fNGG7jBdGRekKP/preview)
 
 Esto abrirá un editor de texto directamente en el sitio para que puedas modificarlo. Busca la opción **AdminPassword** dentro del archivo (usa `CTRL+F` para facilitar la búsqueda) y edítala con la contraseña de admin que quieras establecer. Por último, guarda el archivo y luego puedes iniciar tu servidor.
 
-![](https://github.com/zaphosting/docs/assets/42719082/d86376b8-1a41-4fb0-b8cd-8570ddcaa9ae)
+![](https://screensaver01.zap-hosting.com/index.php/s/gpBjxxmdsWKD4t2/preview)
 
 </TabItem>
 
@@ -86,7 +86,7 @@ Dentro del juego, abre el chat con `Enter`. Luego, introduce el siguiente comand
 /AdminPassword [password]
 ```
 
-![](https://github.com/zaphosting/docs/assets/42719082/2f6e3ee7-e83f-4b71-87dc-d36f9b8c7340)
+![](https://screensaver01.zap-hosting.com/index.php/s/75D5ejaWNM6oYNX/preview)
 
 Deberías recibir un mensaje de éxito en el chat si fue correcto. Si recibes un error, asegúrate de que la contraseña de admin que ingresaste es la correcta y coincide con la que configuraste en el paso anterior.
 

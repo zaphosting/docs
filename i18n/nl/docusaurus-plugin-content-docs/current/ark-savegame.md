@@ -33,7 +33,7 @@ Er zijn twee snapshots beschikbaar: eentje van 25 augustus 2023 en eentje van 30
 :::note
 Je eigen officiële backup save gebruiken kan alleen met de **ARK - SE (Official backupsave compatible)** game server variant. Gebruik je een andere versie? Pas dan de versie aan onder de **games** sectie in je game server webinterface of check onze [Game Change](gameserver-gameswitch.md) gids.
 
-![](https://github.com/zaphosting/docs/assets/42719082/8f2ac8fa-2b23-4738-8d95-87c289e9d98a)
+![](https://screensaver01.zap-hosting.com/index.php/s/Kwjyx4sDSHLTFZJ/preview)
 :::
 
 ### Eigen reguliere save
@@ -43,7 +43,7 @@ Wil je je eigen save importeren (niet-officieel), dan heb je alle bestanden uit 
 :::note
 Gebruik hiervoor de reguliere **Ark: SE** game server variant (zonder officiële backupsave support), want je importeert een gewone save die niet officieel is.
 
-![](https://github.com/zaphosting/docs/assets/42719082/43a6f039-778b-471f-82c8-91f1b8644a33)
+![](https://screensaver01.zap-hosting.com/index.php/s/FCMPjApJBjZxdR2/preview)
 :::
 
 ## Save uploaden naar je server
@@ -57,7 +57,7 @@ Open je FTP client en ga naar deze map op je game server:
 /gxxxxx/ark/ShooterGame/Saved/SavedArks
 ```
 
-![](https://github.com/zaphosting/docs/assets/42719082/92ca6e48-346e-4f3c-80e2-972421d1f73f)
+![](https://screensaver01.zap-hosting.com/index.php/s/YXFcNPMgtbmRJJj/preview)
 
 Verwijder alle bestanden van de huidige save (of maak eerst een backup als je die save later nog wil spelen). Sleep daarna alle uitgepakte bestanden (inclusief .ark, .arktribe en .arkprofile bestanden) naar deze map. Heb geduld, het uploaden kan even duren afhankelijk van de grootte van je save.
 

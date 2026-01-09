@@ -29,12 +29,12 @@ Lokale Savegames sind die, die du erstellt hast, während du ein Multiplayer-Spi
 :::tip
 Du kannst diesen Pfad ganz einfach direkt öffnen, indem du gleichzeitig `STRG` + `R` drückst und im Ausführen-Dialog folgenden Pfad eingibst: `%localappdata%/Pal/Saved/SaveGames/`. Einfach auf **OK** klicken und du landest im Ordner.
 
-![](https://github.com/zaphosting/docs/assets/42719082/5cdff375-57f8-4699-9985-42bcecf22218)
+![](https://screensaver01.zap-hosting.com/index.php/s/gWL9gtAZ8JE2ENP/preview)
 :::
 
 An diesem Ort findest du einen Ordner, der deiner SteamID entspricht. Öffne diesen Ordner und du siehst alle deine lokalen Savegames an einem Ort.
 
-![](https://github.com/zaphosting/docs/assets/42719082/8f36715d-7e87-45e1-b859-6ebedd18c8da)
+![](https://screensaver01.zap-hosting.com/index.php/s/aaeRXfs5cFjA6fN/preview)
 
 ### Savegame per FTP zugreifen
 
@@ -45,7 +45,7 @@ Das Backup deines Savegames vom Server ist easy. Sobald du dich mit deinem Games
 
 Dort solltest du einen Ordner mit einer Reihe zufälliger Zeichen sehen – das ist dein Savegame. Rechtsklick auf den Ordner und dann **Download** auswählen, um es lokal auf deinem Gerät zu speichern.
 
-![](https://github.com/zaphosting/docs/assets/42719082/ca890470-450d-4962-a982-39378dfbb695)
+![](https://screensaver01.zap-hosting.com/index.php/s/pmrmNHS5NAfXpY3/preview)
 
 ### Automatisches Backup
 

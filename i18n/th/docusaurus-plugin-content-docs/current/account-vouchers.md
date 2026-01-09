@@ -10,7 +10,7 @@ sidebar_label: คูปอง & รหัส
 
 ก่อนอื่น คุณต้องล็อกอินหรือสมัครสมาชิกบนเว็บไซต์ของเราเพื่อที่จะใช้รหัสได้ ซึ่งทำได้ง่ายและรวดเร็วผ่านแผงล็อกอินด้านบน
 
-![](https://github.com/zaphosting/docs/assets/42719082/f81bcb46-2129-47c9-ab98-90b746e01fd0)
+![](https://screensaver01.zap-hosting.com/index.php/s/29dLjP5BNJpncbR/preview)
 
 
 
@@ -23,17 +23,17 @@ sidebar_label: คูปอง & รหัส
 ## รหัสบัตรกำนัล ZAP Coin
 รหัสบัตรกำนัล ZAP Coin แลกได้ง่ายมากผ่านแผงควบคุมเว็บอินเทอร์เฟซของคุณ แค่ไปที่ **Cashbox** โดยกดที่ข้อความ ZAP Coins ด้านบนของเว็บอินเทอร์เฟซ
 
-![](https://github.com/zaphosting/docs/assets/42719082/e436f9d9-ad85-482a-90fa-03fe6cd6836e)
+![](https://screensaver01.zap-hosting.com/index.php/s/32XQmojExTifqiS/preview)
 
 เมื่ออยู่ในหน้า **Cashbox** ให้เลื่อนลงมาที่ปุ่มสีน้ำเงิน **ใช้บัตรกำนัล** กดปุ่มเพื่อเปิดเมนู
 
-![](https://github.com/zaphosting/docs/assets/42719082/cee125ff-06b1-460b-a4d9-8c71157c50c4)
+![](https://screensaver01.zap-hosting.com/index.php/s/FkZqyf3GWor8Hj7/preview)
 
 
 
 ที่นี่คุณสามารถกรอกรหัสบัตรกำนัลที่ได้รับ เมื่อพร้อมแล้ว กดปุ่มสีเขียว **ใช้บัตรกำนัล** เพื่อส่งรหัส
 
-![](https://github.com/zaphosting/docs/assets/42719082/0daa73de-00a6-4079-9e93-c12d9df8f222)
+![](https://screensaver01.zap-hosting.com/index.php/s/SQGk7gBDmGcgYjb/preview)
 
 
 
@@ -53,15 +53,15 @@ sidebar_label: คูปอง & รหัส
 
 ก่อนอื่น หาโปรดักต์ที่คุณอยากสั่งซื้อบนเว็บไซต์ของเราและตั้งค่าตามที่ชอบในตัวตั้งค่าเซิร์ฟเวอร์
 
-![](https://github.com/zaphosting/docs/assets/42719082/93fce0a9-1ff6-4878-9625-6581361324ef)
+![](https://screensaver01.zap-hosting.com/index.php/s/CntHbTsxGw5qQfK/preview)
 
 
 
 เมื่อทุกอย่างตั้งค่าเรียบร้อย คุณก็สามารถใช้รหัสในขั้นตอนการสั่งซื้อได้ เลื่อนลงมาด้านล่าง เลือกวิธีชำระเงิน แล้วกดที่ข้อความ **แลกรหัสบัตรกำนัล** ใต้ยอดรวมคำสั่งซื้อ
 
-![](https://github.com/zaphosting/docs/assets/42719082/8e27371d-a9db-4dae-bc52-6861fcbc5598)
+![](https://screensaver01.zap-hosting.com/index.php/s/mNXf8wodCaELzxt/preview)
 
-![](https://github.com/zaphosting/docs/assets/42719082/6502ef6a-16bf-4066-a25d-58d312caa0f1)
+![](https://screensaver01.zap-hosting.com/index.php/s/rd4LXJAooCSaaC9/preview)
 
 
 

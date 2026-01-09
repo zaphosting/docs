@@ -68,7 +68,7 @@ Im Webinterface kannst du den Button **Direktverbindung** nutzen. Damit öffnet 
 
 Alternativ kannst du die auf der FTP-Browser-Seite angezeigten Zugangsdaten manuell in deinen FTP-Client eingeben und dich verbinden.
 
-![](https://github.com/zaphosting/docs/assets/42719082/af255f46-3371-441e-b6db-4348e6be2e54)
+![](https://screensaver01.zap-hosting.com/index.php/s/nWYPNMRbnrDbDLF/preview)
 
 Jetzt musst du die vorbereiteten PAK-Dateien in folgendes Verzeichnis hochladen:
 ```

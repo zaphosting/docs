@@ -25,12 +25,12 @@ In veel gevallen zit er één of meerdere bestanden met de extensie **.sql** in 
 
 In dit voorbeeld importeren we het SQL-bestand voor **ESX**. Jij moet het SQL-bestand klaarmaken voor de resource die jij wilt importeren. Dit doe je door de map van je resource te openen die een database nodig heeft en een bestand met de extensie **.sql** te zoeken.
 
-![](https://github.com/zaphosting/docs/assets/42719082/3d2b4cd2-d98e-4b25-b606-9f451164edc9)
+![](https://screensaver01.zap-hosting.com/index.php/s/3YMrCZ29pc87aW8/preview)
 
 :::info
 Voordat je gaat importeren, open je het .sql-bestand met een teksteditor en check je of de volgende regels erin staan:
 
-![](https://github.com/zaphosting/docs/assets/42719082/dfc43c55-9918-45e7-99eb-1f70193c0be1)
+![](https://screensaver01.zap-hosting.com/index.php/s/wXLmBpmiwYp3Zzo/preview)
 
 Als deze regels erin staan, verwijder dan de `CREATE` en `USE` database regels en sla het bestand op. Anders kan het SQL-bestand niet geïmporteerd worden.
 
@@ -41,7 +41,7 @@ Dit komt omdat de eerste regel aangeeft dat er een nieuwe database moet worden a
 
 Ga nu naar de **Database** sectie in je game server webinterface.
 
-![](https://github.com/zaphosting/docs/assets/42719082/83ba522a-929e-4a90-8c9e-0badc2d779d4)
+![](https://screensaver01.zap-hosting.com/index.php/s/jk6BBm4d5dDtNcd/preview)
 
 Op de databasepagina vind je allerlei functies om je database te beheren, zoals back-ups maken, aanmaken, beheren en meer. Wij focussen ons nu op het openen van je database, maar check zeker ook onze andere database guides als je meer wilt weten: [Externe database toegang](gameserver-database-external-access.md).
 
@@ -49,17 +49,17 @@ Klik op het blauwe redirect-icoon om naar **phpmyadmin** te gaan, waar je makkel
 
 Eenmaal ingelogd, selecteer je je database in de lijst links. De naam van je database begint **altijd** met `zap` als prefix.
 
-![](https://github.com/zaphosting/docs/assets/42719082/30fa6041-b94e-4ac8-a3cd-286cca226dba)
+![](https://screensaver01.zap-hosting.com/index.php/s/Qx37APa9233B7zt/preview)
 
 Als je de database nog niet gebruikt hebt, is die nu leeg. Nu kun je eindelijk het .sql-bestand importeren.
 
 Klik bovenin op de knop **Importeren** om het importmenu te openen.
 
-![](https://github.com/zaphosting/docs/assets/42719082/c0ca30f0-c520-4a71-843a-296064ba5761)
+![](https://screensaver01.zap-hosting.com/index.php/s/McfzS8DraJsXPTZ/preview)
 
 Klik daarna op de knop **Bladeren...** om een bestandsverkenner te openen. Selecteer het **.sql** bestand dat je wilt importeren.
 
-![](https://github.com/zaphosting/docs/assets/42719082/83ba22fb-fc6c-4dbb-9c47-ad42d3a9fa66)
+![](https://screensaver01.zap-hosting.com/index.php/s/cfTYGYfFGMEyQbA/preview)
 
 :::note
 De maximale bestandsgrootte is 2MB. Heb je een groter SQL-bestand? Gebruik dan een SQL splitter om het grote bestand op te splitsen in kleinere delen. Wij raden de tool [Pinetools SQL-Splitter](https://pinetools.com/split-files) aan die dit makkelijk voor je doet. Daarna kun je de SQL-bestanden gewoon importeren.
@@ -67,7 +67,7 @@ De maximale bestandsgrootte is 2MB. Heb je een groter SQL-bestand? Gebruik dan e
 
 Klik tot slot onderaan op de knop **Importeren** om het importproces te starten. Als alles goed gaat, zie je een succesmelding en wordt er een nieuwe tabel aangemaakt in je database die je links kunt zien.
 
-![](https://github.com/zaphosting/docs/assets/42719082/5fef5d58-78f1-4b59-bc3e-1e0af2ff981b)
+![](https://screensaver01.zap-hosting.com/index.php/s/iyobgkNtQpnNjoH/preview)
 
 ## Conclusie
 

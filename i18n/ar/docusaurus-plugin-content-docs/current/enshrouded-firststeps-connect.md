@@ -29,7 +29,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 باستخدام المعلومات دي، هتقدر تحدد سيرفرك وتتأكد إنك بتتصل بالسيرفر الصح.
 
-![img](https://github.com/zaphosting/docs/assets/42719082/aaeee832-8cd0-4ac0-9769-f498eace4892)
+![img](https://screensaver01.zap-hosting.com/index.php/s/32ftNaw9rjA27a3/preview)
 
 
 

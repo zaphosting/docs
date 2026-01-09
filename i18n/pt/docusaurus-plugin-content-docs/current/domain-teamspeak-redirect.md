@@ -36,7 +36,7 @@ Para usar esse recurso de configuração rápida, você precisa [comprar um dom�
 
 No nosso exemplo, criamos um novo subdomínio usando o domínio `.zap.cloud`, que vai direcionar para o nosso servidor de TeamSpeak 3 quando usado.
 
-![](https://github.com/zaphosting/docs/assets/42719082/5b311ff1-625c-4f6d-82b8-6847d432beb9)
+![](https://screensaver01.zap-hosting.com/index.php/s/Mi3wK7cY639Rp3x/preview)
 
 :::note
 Lembre-se que pode levar até 3 horas para o domínio propagar e começar a funcionar.

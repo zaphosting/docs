@@ -15,7 +15,7 @@ Niektóre produkty można zamówić na ZAP-Hosting.com jako przedsprzedaże. Ozn
 
 Przedsprzedaże są oznaczone jako przedsprzedaże na stronie produktu. Będą miały ikonę stopera, która to symbolizuje.
 
-![](https://github.com/zaphosting/docs/assets/42719082/6af93b92-69bc-49ef-adbd-2b858f3b6c01)
+![](https://screensaver01.zap-hosting.com/index.php/s/Wx9nEXzees3Bx3B/preview)
 
 ## Realizacja przedsprzedaży
 

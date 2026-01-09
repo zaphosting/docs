@@ -22,7 +22,7 @@ Börja med att gå till [den officiella Last Oasis](https://myrealm.lastoasis.gg
 ## Aktivera multi hosting
 På webbplatsen, gå till **Realms**-sektionen. På ditt nuvarande Realm, klicka på **Change** och byt hosting-läget från **Single -> Multiple**.
 
-![](https://github.com/zaphosting/docs/assets/42719082/9f06547a-f23f-4542-bcd7-e69d0bbfbf19)
+![](https://screensaver01.zap-hosting.com/index.php/s/qDgwQ5D6YwptWER/preview)
 
 :::info
 För att kunna köra flera Oaser samtidigt måste du hyra en egen gameserver per Oasis. Använd samma provider-nyckel som på din ursprungliga server för varje ny server. Glöm inte att starta om servern efter ändringar.

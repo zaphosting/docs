@@ -24,7 +24,7 @@ Windows VPS または専用サーバーを持っていて、そこに Soulmask �
 
 あとは **steamcmd.exe** を実行して、インストールが完了するまで待とう。
 
-![](https://github.com/zaphosting/docs/assets/42719082/ffb8e8a1-26e3-4d16-9baf-938e17ec1613)
+![](https://screensaver01.zap-hosting.com/index.php/s/nGsEGWDrSG7gBZs/preview)
 
 **Loading Steam API.... OK** のメッセージが表示されたら、インストール完了！次のセクションで Soulmask 専用サーバーのインストールに進もう。
 
@@ -43,7 +43,7 @@ force_install_dir C:\Soulmask-Server
 
 次に、`app_update 3017310` コマンドを実行するとダウンロードが始まるよ。App ID **3017310** は **Soulmask** のアプリケーションIDだよ。
 
-![](https://github.com/zaphosting/docs/assets/42719082/b265a784-cf9a-43dc-b100-376f080e18f3)
+![](https://screensaver01.zap-hosting.com/index.php/s/5wtdbQbZoj6WbTN/preview)
 
 :::info
 ダウンロードが完了するまで中断しないでね。少し時間がかかるけど、我慢する価値あり！ :)
@@ -83,7 +83,7 @@ New-NetFirewallRule -DisplayName "Soulmask Server" -Direction Outbound -LocalPor
 
 Windowsの検索で **Windows Firewall Settings with Advanced Security** を開こう。基本の Windows ファイアウォール画面が開いたら、**詳細設定** をクリックして必要なウィンドウを開く必要があるかも。
 
-![](https://github.com/zaphosting/docs/assets/42719082/5fb9f943-7e51-4d8f-9df4-2f5ff60857d3)
+![](https://screensaver01.zap-hosting.com/index.php/s/ZT2WzELZSBPrFsB/preview)
 
 Soulmask サーバー用に新しいルールを作成しよう。受信と送信のルールをそれぞれ以下のプロトコルとポートで追加してね：
 - TCP 受信・送信：8777, 27015

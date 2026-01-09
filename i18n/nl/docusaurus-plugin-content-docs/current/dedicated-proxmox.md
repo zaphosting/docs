@@ -24,11 +24,11 @@ Om te beginnen moet je de Proxmox VE (Virtual Environment) ISO installer mounten
 ### ISO mounten via de webinterface
 Ga naar de **Initial Installation** sectie in het webinterface paneel van je dedicated server. Druk hier eerst op de groene **enable iLO** knop. Wacht even tot de secties zichtbaar worden. Je moet mogelijk de pagina verversen om alles goed te laten laden.
 
-![](https://github.com/zaphosting/docs/assets/42719082/b457f17a-0bc6-42db-91ec-a553fd456936)
+![](https://screensaver01.zap-hosting.com/index.php/s/r6XNqDqQeEec7wW/preview)
 
 Selecteer vervolgens een **Proxmox VE** ISO uit het dropdownmenu. We raden aan de nieuwste versie te gebruiken om up-to-date te blijven. Klik daarna op de groene **Insert** knop.
 
-![](https://github.com/zaphosting/docs/assets/42719082/2b0baf71-d683-46ad-a34a-bfda9d71939d)
+![](https://screensaver01.zap-hosting.com/index.php/s/xXfWzqtE6JMG9Ka/preview)
 
 Tot slot moet je je dedicated server herstarten om vanaf de ISO te kunnen booten. Dit doe je via de restart knop onder stap 3.
 
@@ -53,25 +53,25 @@ Je browser kan een beveiligingswaarschuwing tonen, negeer deze en accepteer om d
 
 Eenmaal ingelogd, vind je onder de **Overview** sectie de **HTML5** link onder `Integrated Remote Console`. Klik hierop om een overlay paneel te openen.
 
-![](https://github.com/zaphosting/docs/assets/42719082/3b9ce97e-f974-439b-8e57-ced05f248ef9)
+![](https://screensaver01.zap-hosting.com/index.php/s/HPWJ3oksyo3SdW6/preview)
 
 Je Proxmox setup start nu. Navigeer met de `pijltjestoetsen`, `enter` en `esc`. We raden aan de **Graphical** versie te kiezen, want deze handleiding volgt die.
 
-![](https://github.com/zaphosting/docs/assets/42719082/614218f2-df12-43ad-95fe-39026b900141)
+![](https://screensaver01.zap-hosting.com/index.php/s/MGqm3EAxYc8EBQw/preview)
 
 Wacht een paar seconden tot het installatieproces verder gaat. Accepteer de Proxmox EULA via de **I agree** knop rechtsonder. Op de volgende pagina kies je de doel-schijf voor je omgeving. Gebruik je één schijf, dan zijn de standaardinstellingen prima en klik je op **Next**.
 
-![](https://github.com/zaphosting/docs/assets/42719082/090c1f2e-20fe-48f3-b4b4-070c197f4825)
+![](https://screensaver01.zap-hosting.com/index.php/s/pZ8FiFJT6tJKFsS/preview)
 
 :::note
 Wil je RAID instellen (sommige dedicated servers hebben twee schijven), gebruik dan de **Options** knop om je gewenste `RAID` modus te kiezen. Wij raden `RAID1` aan, dat beide schijven spiegelt.
 
-![](https://github.com/zaphosting/docs/assets/42719082/44e3b6ba-07f3-4313-8d36-b185a6da8089)
+![](https://screensaver01.zap-hosting.com/index.php/s/WqiYPowiLttzoeZ/preview)
 :::
 
 Vul daarna algemene zaken in zoals taal en toetsenbordindeling, die meestal automatisch worden gedetecteerd. Klik op verder.
 
-![](https://github.com/zaphosting/docs/assets/42719082/931e066c-9868-48d9-a638-f07c932579d2)
+![](https://screensaver01.zap-hosting.com/index.php/s/As4J4NzytcZFrHp/preview)
 
 Stel nu een sterk wachtwoord en een e-mailadres in. Het e-mailadres wordt gebruikt voor belangrijke meldingen vanuit je panel.
 
@@ -79,15 +79,15 @@ Stel nu een sterk wachtwoord en een e-mailadres in. Het e-mailadres wordt gebrui
 Onthoud het wachtwoord goed, want hiermee log je na installatie voor het eerst in op het panel!
 :::
 
-![](https://github.com/zaphosting/docs/assets/42719082/617a504c-9520-4b89-93c3-81fba06e5fdc)
+![](https://screensaver01.zap-hosting.com/index.php/s/QAEaygacSXNfgot/preview)
 
 De laatste stap is het instellen van de netwerkconfiguratie. Kies de beschikbare management interface en een hostname voor je server.
 
-![](https://github.com/zaphosting/docs/assets/42719082/d694a5af-20e2-4c1b-9cdb-c1a8ca684cde)
+![](https://screensaver01.zap-hosting.com/index.php/s/EZDzsaq4aXpP4we/preview)
 
 Ga nu naar de **IP-Addresses** sectie in de webinterface van je dedicated server om een beschikbare IP te vinden.
 
-![](https://github.com/zaphosting/docs/assets/42719082/e358f264-8535-4280-a1c5-0a15f4b99ed9)
+![](https://screensaver01.zap-hosting.com/index.php/s/KQC4DLj6LxTX4io/preview)
 
 Kies een IP-adres dat je wilt gebruiken voor je Proxmox panel. Vul het IP-adres, Netmask en Gateway in de installer in met de gegevens uit de webinterface. Voor de DNS-server kun je `8.8.8.8` invullen, dat is de publieke DNS van Google.
 
@@ -104,7 +104,7 @@ Als de link niet werkt, is er waarschijnlijk iets misgegaan met de netwerkconfig
 
 Log in op het panel met de gebruikersnaam `root` en het wachtwoord dat je tijdens de installatie hebt ingesteld. Zorg dat **Realm** staat op `Linux PAM standard authentication`.
 
-![](https://github.com/zaphosting/docs/assets/42719082/4072c2ac-6f5c-4350-a5df-0635b1f433c0)
+![](https://screensaver01.zap-hosting.com/index.php/s/iKcErA9Bx5LpB3n/preview)
 
 Na het inloggen kun je het abonnementsbericht negeren door op **OK** te klikken. Gefeliciteerd, je hebt Proxmox VE succesvol geïnstalleerd en bent ingelogd op je panel!
 
@@ -113,33 +113,33 @@ Na het inloggen kun je het abonnementsbericht negeren door op **OK** te klikken.
 ## Maak je eerste VM aan
 Hier leggen we de basisstappen uit om je eerste Virtual Machine (VM) te maken via het Proxmox panel. Ga naar `local (panel)` en kies de sectie **ISO Images**. Hier kun je een `.iso` bestand handmatig uploaden, of Proxmox het direct laten downloaden via een directe URL.
 
-![](https://github.com/zaphosting/docs/assets/42719082/8182bd73-690f-434f-8394-5fdca6889a74)
+![](https://screensaver01.zap-hosting.com/index.php/s/GJjxxkPAkiRM7Fw/preview)
 
 Daarna klik je rechtsboven op **Create VM**. Er opent een menu met veel opties.
 
 Begin met de algemene instellingen. Standaard staat de `Node` op de default (hier `panel`). Geef een unieke VM ID op, standaard is dat `100` of een hoger nummer als je al VM's hebt. Geef je VM een naam, dat kan alles zijn.
 
-![](https://github.com/zaphosting/docs/assets/42719082/bcd2eb41-a8fc-4a44-9abb-072f9e408d10)
+![](https://screensaver01.zap-hosting.com/index.php/s/6LmXZ26bnNY46yS/preview)
 
 Ga door naar de OS instellingen. Kies hier de ISO die je eerder hebt geüpload. Selecteer ook het type en de versie van het OS dat je gaat gebruiken.
 
-![](https://github.com/zaphosting/docs/assets/42719082/05d51c46-5a69-4cd7-b2e6-c3472437caf9)
+![](https://screensaver01.zap-hosting.com/index.php/s/QWjGQ7grR8ttaqZ/preview)
 
 We raden aan de standaard instellingen bij System te laten staan, die zijn meestal goed. Bij Disk kun je de grootte van de schijf instellen en de opslagpool kiezen, standaard is dat `local-lvm`. De rest van de instellingen kun je ook standaard laten.
 
-![](https://github.com/zaphosting/docs/assets/42719082/26f11d42-8884-4bb5-b0fe-d7b4df7885a5)
+![](https://screensaver01.zap-hosting.com/index.php/s/2XJyydoZwaEMDeZ/preview)
 
 Bij CPU instellingen bepaal je het aantal sockets en cores voor je VM. Pas dit aan naar wens.
 
-![](https://github.com/zaphosting/docs/assets/42719082/91103b8d-dadc-4305-a3fe-bf4c8f96fc27)
+![](https://screensaver01.zap-hosting.com/index.php/s/RrWWT2wMRaQzde7/preview)
 
 Ook bij Memory kun je instellen hoeveel RAM je VM krijgt en de ballooning status.
 
-![](https://github.com/zaphosting/docs/assets/42719082/ac0048cb-0bd4-4791-9a9f-857e5037955d)
+![](https://screensaver01.zap-hosting.com/index.php/s/DaXCsYLwWeMr9aJ/preview)
 
 Laat de Network instellingen voorlopig op standaard staan, die zijn meestal prima. Tot slot kun je alles nog eens controleren. Zet de optie `Start after created` aan zodat je VM meteen opstart. Ben je tevreden? Klik dan op **Finish** om de VM aan te maken.
 
-![](https://github.com/zaphosting/docs/assets/42719082/d14a8b3d-e9bb-4feb-8049-428e84c1e917)
+![](https://screensaver01.zap-hosting.com/index.php/s/EfNAZ4idcxizDsa/preview)
 
 En zo heb je je eerste VM gemaakt in je Proxmox panel! Je ziet ‘m terug in de serverlijst links in het panel.
 

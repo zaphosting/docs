@@ -140,7 +140,7 @@ Deze regels zorgen ervoor dat de firewall de benodigde poorten openzet zodat je 
 
 Open via zoeken **Windows Firewall met geavanceerde beveiliging**. Soms moet je eerst op **Geavanceerde instellingen** klikken om het juiste venster te openen.
 
-![](https://github.com/zaphosting/docs/assets/42719082/5fb9f943-7e51-4d8f-9df4-2f5ff60857d3)
+![](https://screensaver01.zap-hosting.com/index.php/s/ZT2WzELZSBPrFsB/preview)
 
 Maak nieuwe regels aan voor inkomend en uitgaand verkeer met de volgende protocollen en poorten:
 - TCP inkomend en uitgaand: 3724, 27015

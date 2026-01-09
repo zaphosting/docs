@@ -140,7 +140,7 @@ Estos comandos crearán automáticamente las reglas de firewall necesarias para 
 
 Usa la función de búsqueda de Windows para abrir **Configuración de Firewall de Windows con Seguridad Avanzada**. Puede que tengas que presionar **Configuración avanzada** para abrir la ventana necesaria si abres la página base del Firewall de Windows.
 
-![](https://github.com/zaphosting/docs/assets/42719082/5fb9f943-7e51-4d8f-9df4-2f5ff60857d3)
+![](https://screensaver01.zap-hosting.com/index.php/s/ZT2WzELZSBPrFsB/preview)
 
 Debes crear nuevas reglas para tu servidor de Farming Simulator 22. Para ello, haz clic en las reglas entrantes y salientes como se describe a continuación y añádelas para los siguientes protocolos y puertos:
 - TCP entrante y saliente: 3724, 27015

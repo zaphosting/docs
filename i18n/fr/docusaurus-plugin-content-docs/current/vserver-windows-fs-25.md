@@ -137,7 +137,7 @@ Ces commandes créent automatiquement les règles pare-feu nécessaires pour que
 
 Ouvrez la recherche Windows et lancez **Paramètres du pare-feu Windows avec sécurité avancée**. Si vous ouvrez la page de base du pare-feu, cliquez sur **Paramètres avancés** pour accéder à la bonne fenêtre.
 
-![](https://github.com/zaphosting/docs/assets/42719082/5fb9f943-7e51-4d8f-9df4-2f5ff60857d3)
+![](https://screensaver01.zap-hosting.com/index.php/s/ZT2WzELZSBPrFsB/preview)
 
 Créez de nouvelles règles pour votre serveur FS2025. Ajoutez-les dans les règles entrantes et sortantes pour les protocoles et ports suivants :
 - TCP entrant et sortant : 8080, 10823

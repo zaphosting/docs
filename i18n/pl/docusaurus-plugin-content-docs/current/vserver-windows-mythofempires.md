@@ -24,7 +24,7 @@ Utwórz nowy folder gdzieś na serwerze, w tym przykładzie nazwaliśmy go `stea
 
 Po prostu uruchom **steamcmd.exe** i poczekaj, aż instalacja zakończy się w 100%.
 
-![](https://github.com/zaphosting/docs/assets/42719082/ffb8e8a1-26e3-4d16-9baf-938e17ec1613)
+![](https://screensaver01.zap-hosting.com/index.php/s/nGsEGWDrSG7gBZs/preview)
 
 Gdy zobaczysz komunikat **Loading Steam API.... OK**, proces zakończył się sukcesem i możesz przejść do instalacji dedykowanego serwera MOE w kolejnej sekcji.
 
@@ -43,7 +43,7 @@ force_install_dir C:\MOE-Server
 
 Teraz wpisz komendę `app_update 1794810`, która rozpocznie pobieranie. App ID **1794810** to aplikacja **MOE**.
 
-![](https://github.com/zaphosting/docs/assets/42719082/29931eec-fd19-4806-88dc-69e585e42370)
+![](https://screensaver01.zap-hosting.com/index.php/s/TQCbwxE8xe7TfPn/preview)
 
 :::info
 Nie przerywaj procesu przed zakończeniem, żeby uniknąć błędów. Może to chwilę potrwać, ale warto być cierpliwym! :)
@@ -97,7 +97,7 @@ Te komendy automatycznie utworzą reguły zapory, które są niezbędne, aby Tw�
 
 Wyszukaj w Windows **Ustawienia zapory Windows z zaawansowanym zabezpieczeniem**. Jeśli otworzy się podstawowy panel zapory, kliknij **Ustawienia zaawansowane**, aby otworzyć właściwe okno.
 
-![](https://github.com/zaphosting/docs/assets/42719082/5fb9f943-7e51-4d8f-9df4-2f5ff60857d3)
+![](https://screensaver01.zap-hosting.com/index.php/s/ZT2WzELZSBPrFsB/preview)
 
 Musisz utworzyć nowe reguły dla swojego serwera MOE. Kliknij na reguły przychodzące i wychodzące i dodaj je dla następujących protokołów i portów:
 - TCP przychodzące i wychodzące: 11888, 12888

@@ -29,12 +29,12 @@ Savegames locais são aqueles criados enquanto você hospeda um jogo multiplayer
 :::tip
 Você pode acessar esse caminho direto pressionando `CTRL` + `R` ao mesmo tempo e digitando o seguinte caminho na caixa de execução: `%localappdata%/Pal/Saved/SaveGames/`. É só clicar em **OK** e você será levado para a pasta.
 
-![](https://github.com/zaphosting/docs/assets/42719082/5cdff375-57f8-4699-9985-42bcecf22218)
+![](https://screensaver01.zap-hosting.com/index.php/s/gWL9gtAZ8JE2ENP/preview)
 :::
 
 Nesse local, você verá uma pasta com seu SteamID. Abra essa pasta para ver todos os seus savegames locais em um só lugar.
 
-![](https://github.com/zaphosting/docs/assets/42719082/8f36715d-7e87-45e1-b859-6ebedd18c8da)
+![](https://screensaver01.zap-hosting.com/index.php/s/aaeRXfs5cFjA6fN/preview)
 
 ### Acessando Savegame via FTP
 
@@ -45,7 +45,7 @@ Fazer backup do savegame no servidor é fácil. Depois de conectar ao seu servid
 
 Lá você verá uma pasta com uma sequência de caracteres aleatórios, que é o seu savegame. Clique com o botão direito na pasta e use o botão **Download** para salvar localmente no seu dispositivo.
 
-![](https://github.com/zaphosting/docs/assets/42719082/ca890470-450d-4962-a982-39378dfbb695)
+![](https://screensaver01.zap-hosting.com/index.php/s/pmrmNHS5NAfXpY3/preview)
 
 ### Backup Automático
 

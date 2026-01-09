@@ -141,7 +141,7 @@ Ces commandes créent automatiquement les règles nécessaires dans le pare-feu 
 
 Utilisez la recherche Windows pour ouvrir **Paramètres du pare-feu Windows avec sécurité avancée**. Vous devrez peut-être cliquer sur **Paramètres avancés** pour accéder à la fenêtre complète.
 
-![](https://github.com/zaphosting/docs/assets/42719082/5fb9f943-7e51-4d8f-9df4-2f5ff60857d3)
+![](https://screensaver01.zap-hosting.com/index.php/s/ZT2WzELZSBPrFsB/preview)
 
 Créez de nouvelles règles pour votre serveur Farming Simulator 22. Pour cela, ajoutez des règles entrantes et sortantes pour les protocoles et ports suivants :
 - TCP entrant et sortant : 3724, 27015

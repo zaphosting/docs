@@ -109,7 +109,7 @@ Diese Befehle erstellen automatisch die Firewall-Regeln, die dein FiveM Server b
 
 Nutze die Windows-Suche, um die **Windows-Firewall mit erweiterter Sicherheit** zu öffnen. Falls du nur die Basis-Firewall-Seite öffnest, musst du eventuell auf **Erweiterte Einstellungen** klicken, um das richtige Fenster zu öffnen.
 
-![](https://github.com/zaphosting/docs/assets/42719082/5fb9f943-7e51-4d8f-9df4-2f5ff60857d3)
+![](https://screensaver01.zap-hosting.com/index.php/s/ZT2WzELZSBPrFsB/preview)
 
 Du musst neue Regeln für deinen FiveM Server anlegen. Klicke dazu auf die eingehenden und ausgehenden Regeln wie unten beschrieben und füge sie für folgende Protokolle und Ports hinzu:
 - TCP eingehend und ausgehend: 30120

@@ -92,7 +92,7 @@ Te polecenia automatycznie utworzą reguły zapory, które pozwolą na publiczny
 
 Wyszukaj w Windows **Windows Firewall Settings with Advanced Security**. Jeśli otworzy się podstawowy panel zapory, kliknij **Advanced Settings**, aby przejść do zaawansowanych ustawień.
 
-![image](https://github.com/zaphosting/docs/assets/42719082/5fb9f943-7e51-4d8f-9df4-2f5ff60857d3)
+![image](https://screensaver01.zap-hosting.com/index.php/s/ZT2WzELZSBPrFsB/preview)
 
 Musisz utworzyć nowe reguły dla swojego serwera RageMP. Dodaj je zarówno dla reguł przychodzących, jak i wychodzących, dla następujących protokołów i portów:
 

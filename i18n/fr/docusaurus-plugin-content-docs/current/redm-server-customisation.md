@@ -32,7 +32,7 @@ Maintenant, tu peux changer le nom de ton serveur via une des trois méthodes d�
 sv_hostname "^2ZAP-Hosting ^0| ^4Serveur Communautaire Officiel ^0- ^1Événements à venir ^8bientôt^1 !"
 ```
 
-![](https://github.com/zaphosting/docs/assets/42719082/32bbf492-9ee0-4c78-a391-9c44120369c2)
+![](https://screensaver01.zap-hosting.com/index.php/s/F5TYfEGQkGjXger/preview)
 
 | Code | Couleur    | Code Hex |
 | ---- | ---------- | -------- |
@@ -61,7 +61,7 @@ Mettre une description serveur, c’est top pour donner un aperçu rapide et cla
 sets sv_projectDesc "Rejoins notre Discord pour rester à jour sur les derniers événements ! discord.gg/zaphosting"
 ```
 
-![](https://github.com/zaphosting/docs/assets/42719082/32bbf492-9ee0-4c78-a391-9c44120369c2)
+![](https://screensaver01.zap-hosting.com/index.php/s/F5TYfEGQkGjXger/preview)
 
 ### Tags du serveur
 
@@ -71,7 +71,7 @@ Mettre des tags serveur aide à préciser le style de ton serveur et permet aux 
 sets tags "zap, zap-hosting, officiel, communauté, zap-communauté, serveur-communauté-zap"
 ```
 
-![](https://github.com/zaphosting/docs/assets/42719082/33407e9f-9e28-4264-9b13-e946ed5b434a)
+![](https://screensaver01.zap-hosting.com/index.php/s/oS2Y3dbPZDFDJPj/preview)
 
 ### Autres détails divers
 

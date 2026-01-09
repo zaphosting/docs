@@ -45,7 +45,7 @@ El servidor debe estar detenido antes de que se pueda editar la configuración; 
 
 Para los usuarios que desean editar directamente el archivo y todas las opciones de configuración, pueden acceder a esto yendo a la sección **Configs** en el webinterface de tu servidor de juegos y presionando el botón azul de editar archivo, como se muestra a continuación:
 
-![](https://github.com/zaphosting/docs/assets/42719082/6a147644-8bfb-4e5d-bff5-3e2c5d999e64)
+![](https://screensaver01.zap-hosting.com/index.php/s/izzL3f9FaGdc9ay/preview)
 
 Esto abrirá un editor de texto directamente en el sitio para que puedas editarlo.
 

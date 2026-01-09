@@ -41,7 +41,7 @@ Tryck på den gröna **+** för att öppna en meny där du kan skicka in din lä
 Länken måste peka på annonsen som skapats för detta ändamål. Om länken inte innehåller någon reklam så kommer den att nekas.
 :::
 
-![](https://github.com/zaphosting/docs/assets/42719082/d94273e7-3c97-4d62-a77a-7901d0293c7f)
+![](https://screensaver01.zap-hosting.com/index.php/s/keEHsk3E5jfxWEP/preview)
 
 
 
@@ -49,7 +49,7 @@ Länken måste peka på annonsen som skapats för detta ändamål. Om länken in
 
 Du kan föra över din Communityannonsbalans antingen till din cashbox (ZAP Coins) eller till riktiga pengar. Gå tillbaka till sidan [Community Advertising](https://zap-hosting.com/en/customer/communityads/) och tryck på den blå **Payment/Transfer**-knappen.
 
-![](https://github.com/zaphosting/docs/assets/42719082/076c45aa-2851-4a0d-b5ed-27ca57102b15)
+![](https://screensaver01.zap-hosting.com/index.php/s/cMKXcgtQXs48Xs2/preview)
 
 
 
@@ -63,7 +63,7 @@ När du har fört över dina credits till ZAP Coins kan du inte ta ut dem som ca
 
 I menyn, välj alternativet **ZAP Coin balance**. Välj om du vill föra över hela saldot eller bara en del av det. När du är redo, tryck på den gröna **Transfer**-knappen för att bekräfta.
 
-![](https://github.com/zaphosting/docs/assets/42719082/27807ca4-4ee7-4e70-92f8-23b887bfef90)
+![](https://screensaver01.zap-hosting.com/index.php/s/cpMSzbJaDzGRTi8/preview)
 
 
 

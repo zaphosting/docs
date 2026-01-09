@@ -42,7 +42,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 بمجرد الاتصال، توجه إلى مجلد Sunkenland وافتح مجلد "AppData" ثم مجلد "Worlds"، اختر ملف الحفظ من الخطوة السابقة وارفعه إلى هذا المجلد.
 
 يجب أن يكون هيكل المجلدات الآن كما يلي، حيث أن `Marvin's World~cef76ff5-447a-48df-b3a8-74b9ea5b7a86` هو ملف الحفظ الخاص بك.
-![](https://github.com/zaphosting/docs/assets/13604413/40aecc3b-4a8a-4477-8c09-d56ec412883e)
+![](https://screensaver01.zap-hosting.com/index.php/s/eFg6Ek3giFM3DLs/preview)
 
 :::important
 في هذه المرحلة، يرجى نسخ الـ GUID الموجود في نهاية اسم ملف حفظ العالم. ستحتاج هذا في الخطوة التالية لجعل السيرفر يعمل.

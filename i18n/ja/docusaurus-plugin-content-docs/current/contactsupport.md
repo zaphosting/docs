@@ -21,7 +21,7 @@ SNSでの直接的なアカウント関連サポートは行っていません�
 :::tip
 ステータスサイトでは、ネットワーク上の任意のサービスの通知をメールで受け取るよう登録もできるよ！右上の矢印ボタンを押して、通知したいサービスを選び、メールアドレスを入力するだけ。
 
-![](https://github.com/zaphosting/docs/assets/42719082/2758b2b4-29e1-433f-9e40-76ca70fc90b0)
+![](https://screensaver01.zap-hosting.com/index.php/s/fjFET6mF4XCrBSX/preview)
 :::
 
 もし問題のある商品が現在影響を受けている場合は、解決されるまで待つことをおすすめするよ。技術スタッフは障害を自動的に検知していて、できるだけ早く問題解決に取り組んでいるからね。
@@ -41,7 +41,7 @@ SNSでの直接的なアカウント関連サポートは行っていません�
 
 このページでは、現在のチケットや過去のチケットを確認したり、新しいチケットを作成したりできるよ。
 
-![](https://github.com/zaphosting/docs/assets/42719082/be474363-21b1-4e7c-8f55-d7fd1e70ceed)
+![](https://screensaver01.zap-hosting.com/index.php/s/7E5xtP3oZpGyr79/preview)
 
 ## 新しいチケットの作成
 
@@ -49,7 +49,7 @@ SNSでの直接的なアカウント関連サポートは行っていません�
 
 まずは**チケット作成**ボタンを押そう。通常のチケットか、優先対応の**Speed-UP**チケットを選べるよ。
 
-![](https://github.com/zaphosting/docs/assets/42719082/22af5076-bcfc-453f-b4e2-510c2133ef09)
+![](https://screensaver01.zap-hosting.com/index.php/s/K2xxDEYkJFPN5C2/preview)
 
 次に、問題の詳細や試したトラブルシューティング内容をフォームに記入しよう。
 
@@ -59,7 +59,7 @@ SNSでの直接的なアカウント関連サポートは行っていません�
 - 問題の詳細な説明。いつから起きている？どのくらいの頻度？チケット作成前に試したことは？
 - スクリーンショットやログなど、役立ちそうな追加情報。
 
-![](https://github.com/zaphosting/docs/assets/42719082/361732b1-2ac9-45db-be6e-81e20951c498)
+![](https://screensaver01.zap-hosting.com/index.php/s/mL5Zsi7EmqQiLnC/preview)
 
 記入が終わったら、**サポートチケットを送信**ボタンを押してチケットをサポートチームに送ろう！
 

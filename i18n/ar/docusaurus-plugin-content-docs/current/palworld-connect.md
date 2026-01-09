@@ -26,7 +26,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 أولًا، تحتاج تعرف عنوان IP والمنفذ الخاص بسيرفر Palworld عشان تقدر تتصل مباشرة. ببساطة ادخل على [لوحة المعلومات الخاصة بـ ZAP-Hosting](https://zap-hosting.com/en/customer/) على الموقع، وخذ معك عنوان IP والمنفذ كاملين.
 
-![](https://github.com/zaphosting/docs/assets/42719082/62bcad5b-064c-45cd-a7f0-406a1148b15c)
+![](https://screensaver01.zap-hosting.com/index.php/s/DRxKHE7bP3FbFMo/preview)
 
 لو كنت تشغل سيرفر Palworld كسيرفر مخصص خارجي، عنوان IP سيكون لجهاز الاستضافة والمنفذ هو اللي ضبطته في ملف الإعدادات (افتراضيًا 8211). اطلع على دليلنا [تكوين السيرفر](palworld-configuration.md) لمزيد من المعلومات عن المنفذ.
 
@@ -34,7 +34,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ابدأ بتشغيل Palworld من مشغل اللعبة الخاص بك. في القائمة الرئيسية، اختر **انضم إلى لعبة متعددة اللاعبين**.
 
-![](https://github.com/zaphosting/docs/assets/42719082/fefc7ead-5098-4bdb-aa56-c9d78673d7e8)
+![](https://screensaver01.zap-hosting.com/index.php/s/TZzLAS29rnpPmi6/preview)
 
 داخل متصفح السيرفر المخصص، اذهب إلى أسفل الصفحة. أدخل عنوان IP والمنفذ في مربع البحث السفلي. لما تكون جاهز، اضغط على زر **اتصال** وستنضم إلى سيرفرك.
 
@@ -42,7 +42,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 تأكد من استخدام مربع البحث السفلي، مش العلوي. العلوي يستخدم للبحث عن السيرفرات بالاسم في قائمة السيرفرات.
 :::
 
-![](https://github.com/zaphosting/docs/assets/42719082/ae31ddee-8992-486a-aef3-e6e4d115f018)
+![](https://screensaver01.zap-hosting.com/index.php/s/CG5gARbSxC3RpTb/preview)
 
 لو ما قدرت تنضم للسيرفر وطلعت لك رسالة انتهاء المهلة، تأكد من صحة عنوان IP والمنفذ اللي دخلتهم وأن السيرفر شغال أونلاين. تقدر تستخدم قسم الكونسول في لوحة المعلومات الخاصة بسيرفر Palworld للمساعدة في التصحيح.
 

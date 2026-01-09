@@ -26,7 +26,7 @@ Create a new folder somewhere on your server, in this scenario we will name it `
 
 Simply run **steamcmd.exe** and await until the installation process is fully completed.
 
-![](https://github.com/zaphosting/docs/assets/42719082/ffb8e8a1-26e3-4d16-9baf-938e17ec1613)
+![](https://screensaver01.zap-hosting.com/index.php/s/tnMJpp3jEtkB3Zf/preview)
 
 As soon as the message **Loading Steam API.... OK** is displayed, the process has been completed successfully and you can being with the installation of the Soulmask dedicated server in the following section.
 
@@ -45,7 +45,7 @@ force_install_dir C:\Soulmask-Server
 
 Now run the command `app_update 3017310` which will begin the download. The App ID **3017310** is the **Soulmask** application.
 
-![](https://github.com/zaphosting/docs/assets/42719082/b265a784-cf9a-43dc-b100-376f080e18f3)
+![](https://screensaver01.zap-hosting.com/index.php/s/aw4oE7cWPeXLdTa/preview)
 
 :::info
 Please do not interrupt the process before it is completed to avoid mistakes. It may take a moment, but it's worth being patient! :)
@@ -85,7 +85,7 @@ These commands will automatically create firewall rules which are necessary for 
 
 Use the search function on Windows to open up **Windows Firewall Settings with Advanced Security**. You may have to press **Advanced Settings** to open up the necessary window if you open up the base Windows Firewall page.
 
-![](https://github.com/zaphosting/docs/assets/42719082/5fb9f943-7e51-4d8f-9df4-2f5ff60857d3)
+![](https://screensaver01.zap-hosting.com/index.php/s/3PKQDAa9oF2WFj7/preview)
 
 You must create new rules for your Soulmask server. To do this, click on the incoming and outgoing rules as described below and add them for the following protocols and ports:
 - TCP incoming and outgoing: 8777, 27015

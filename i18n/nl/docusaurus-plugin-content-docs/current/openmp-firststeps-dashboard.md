@@ -27,7 +27,7 @@ In het onderdeel **Productbeheer** vind je alle benodigde pagina’s om jouw ser
 
 Het **Dashboard** van je server is het hart van het beheer. Hier worden alle basis- en essentiële informatie over jouw service overzichtelijk weergegeven. Denk aan info over de locatie, status, IP: Poort, gebruikt geheugen, lopend spel, servernaam, map en het aantal beschikbare slots. Daarnaast zie je ook het gebruik van CPU, geheugen en RAM.
 
-![](https://github.com/zaphosting/docs/assets/42719082/b518433e-d93c-49d8-9a03-d35df9bb3d83)
+![](https://screensaver01.zap-hosting.com/index.php/s/zLM2rEzAx5WYD3X/preview)
 
 In het dashboard kun je ook je service starten, stoppen of herstarten, zodat je volledige controle hebt over de werking. Verder heb je toegang tot de live console om realtime info over de serverstatus te krijgen en direct actie te ondernemen indien nodig.
 
@@ -39,7 +39,8 @@ In het dashboard kun je ook je service starten, stoppen of herstarten, zodat je 
 ### DDoS Manager
 
 
-Bekijk eerdere DDoS-aanvallen om bedreigingen en patronen beter in te schatten. Schakel notificaties in voor lopende DDoS-aanvallen op jouw server, zodat je snel kunt reageren bij een incident.
+
+Bekijk eerdere DDoS-aanvallen om bedreigingen en patronen beter in te schatten. Schakel notificaties in voor lopende DDoS-aanvallen op jouw server, zodat je snel kunt reageren bij een incident.
 
 Afhankelijk van de serverlocatie en de beschikbare DDoS-bescherming kun je ook actieve aanvallen in realtime monitoren. Dit omvat gedetailleerde verkeersinzichten, waarbij zowel legitiem verkeer als het door mitigatiesystemen geblokkeerde verkeer wordt getoond. Deze transparantie helpt je te begrijpen hoe de bescherming werkt en stelt je in staat potentiële risico’s vroegtijdig te herkennen.
 

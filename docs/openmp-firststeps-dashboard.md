@@ -27,7 +27,7 @@ In the **Product Administration** section, you will find all the necessary pages
 
 The **Dashboard** of your server is the heart of the administration. All basic and essential information about your service is clearly presented here. This includes, for example, information about the location, status, IP: Port, used memory, game in progress, server name, map and the number of available slots. In addition, the utilization of the CPU, memory and RAM is also displayed.
 
-![](https://github.com/zaphosting/docs/assets/42719082/b518433e-d93c-49d8-9a03-d35df9bb3d83)
+![](https://screensaver01.zap-hosting.com/index.php/s/zLM2rEzAx5WYD3X/preview)
 
 In the dashboard you also have the option of starting, stopping or restarting your service, to have full control over its operation. Furthermore, you can access the live console to get real-time information about the server's state and take direct action if necessary.
 
@@ -39,7 +39,8 @@ In the dashboard you also have the option of starting, stopping or restarting yo
 ### DDoS Manager
 
 
-View past DDoS attacks to better assess potential threats and patterns. Enable notifications for ongoing DDoS attacks on your server to react quickly when an incident occurs.
+
+View past DDoS attacks to better assess potential threats and patterns. Enable notifications for ongoing DDoS attacks on your server to react quickly when an incident occurs.
 
 Depending on the server location and the DDoS protection available there, you can also monitor active attacks in real time. This includes detailed traffic insights, showing both legitimate traffic and the amount of traffic blocked by the mitigation systems. This level of transparency helps you understand how the protection is working and enables you to identify potential risks early.
 

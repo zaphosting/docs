@@ -36,7 +36,7 @@ Dans une installation classique, le dossier Steam se trouve sur votre disque sys
 
 Une fois dans ce dossier, vous verrez un fichier de personnages ainsi que toutes vos sauvegardes locales regroupées.
 
-![](https://github.com/zaphosting/docs/assets/42719082/31022018-3072-4b40-85f0-77f9da992ccc)
+![](https://screensaver01.zap-hosting.com/index.php/s/dyydLNzQt7ZWRPx/preview)
 
 :::note
 Si vous **n’utilisez pas** Steam Cloud pour sauvegarder, vous trouverez votre dossier de sauvegarde ici : `C://Users/[votre_utilisateur]/Saved Games/Enshrouded`.
@@ -51,7 +51,7 @@ Sauvegarder votre partie depuis le serveur est simple. Une fois connecté à vot
 
 Vous devriez voir un fichier avec des caractères aléatoires, c’est votre sauvegarde. Faites un clic droit dessus et cliquez sur **Télécharger** pour la sauvegarder localement sur votre appareil.
 
-![](https://github.com/zaphosting/docs/assets/42719082/e7c230a3-a2cb-4ae0-a0dc-6d2211edd06c)
+![](https://screensaver01.zap-hosting.com/index.php/s/wTcodeKXYq3RBfY/preview)
 
 ### Sauvegarde automatique
 
@@ -64,7 +64,7 @@ Comme pour la sauvegarde, uploader votre partie est simple. Assurez-vous d’êt
 ../enshrouded/savegame/
 ```
 
-![](https://github.com/zaphosting/docs/assets/42719082/e465680f-65bc-456d-bd99-fbdff755defb)
+![](https://screensaver01.zap-hosting.com/index.php/s/gJW8wSapi4Bo2gw/preview)
 
 Glissez-déposez simplement vos fichiers de sauvegarde dans ce dossier via votre client FTP, ils seront uploadés sur votre serveur.
 

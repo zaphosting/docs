@@ -35,12 +35,12 @@ Det mest användarvänliga sättet är att gå till **Settings**-sektionen i dit
 
 I **Settings**-området, leta upp alternativet **Game server password**. Här skapar du ett lösenord som du vill använda och skriver in det.
 
-![](https://github.com/zaphosting/docs/assets/42719082/dadbd22b-2fd9-42e1-be71-f6d28a3f2938)
+![](https://screensaver01.zap-hosting.com/index.php/s/aQYQDYMP34NnNXr/preview)
 
 :::info
 När du har valt ett lösenord, scrolla upp och se till att trycka på den gröna **Save**-knappen för att bekräfta valet.
 
-![](https://github.com/zaphosting/docs/assets/42719082/5a4f5ab1-8079-4b20-96a6-36e4aca2e28e)
+![](https://screensaver01.zap-hosting.com/index.php/s/YG5MZ6Jt8SdFy4A/preview)
 :::
 
 </TabItem>
@@ -55,11 +55,11 @@ Servern måste vara stoppad innan config-filen kan redigeras, att redigera confi
 
 Alternativt, för dig som vill redigera filen direkt, kan du gå till **Configs**-sektionen i ditt spelservers webinterface och klicka på den blå redigeringsknappen, som visas nedan:
 
-![](https://github.com/zaphosting/docs/assets/42719082/53c8acad-7347-4c3e-85bf-5ae0ad423fc6)
+![](https://screensaver01.zap-hosting.com/index.php/s/2fNGG7jBdGRekKP/preview)
 
 Detta öppnar en textredigerare direkt på sidan så att du kan redigera filen. Leta upp alternativet **AdminPassword** i filen (använd `CTRL+F` för att söka) och ändra det till det admin-lösenord du vill sätta. Spara sedan filen och starta servern.
 
-![](https://github.com/zaphosting/docs/assets/42719082/d86376b8-1a41-4fb0-b8cd-8570ddcaa9ae)
+![](https://screensaver01.zap-hosting.com/index.php/s/gpBjxxmdsWKD4t2/preview)
 
 </TabItem>
 
@@ -86,7 +86,7 @@ I spelet, öppna chatten med `Enter`. Skriv sedan in följande kommando, byt ut 
 /AdminPassword [password]
 ```
 
-![](https://github.com/zaphosting/docs/assets/42719082/2f6e3ee7-e83f-4b71-87dc-d36f9b8c7340)
+![](https://screensaver01.zap-hosting.com/index.php/s/75D5ejaWNM6oYNX/preview)
 
 Du ska få ett bekräftelsemeddelande i chatten om det var rätt. Får du ett felmeddelande, dubbelkolla att admin-lösenordet du skrev in är korrekt och det du satte i föregående steg.
 

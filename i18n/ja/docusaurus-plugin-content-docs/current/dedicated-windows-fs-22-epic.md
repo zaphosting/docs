@@ -140,7 +140,7 @@ New-NetFirewallRule -DisplayName "FS22 Server" -Direction Outbound -LocalPort 10
 
 Windowsの検索から **Windows Defender ファイアウォール 高度なセキュリティ** を開きます。基本画面からは **詳細設定** を押して開く必要があります。
 
-![](https://github.com/zaphosting/docs/assets/42719082/5fb9f943-7e51-4d8f-9df4-2f5ff60857d3)
+![](https://screensaver01.zap-hosting.com/index.php/s/ZT2WzELZSBPrFsB/preview)
 
 Farming Simulator 22用に新しい受信・送信ルールを作成します。以下のプロトコルとポートを設定してください：
 - TCP 受信・送信: 3724, 27015

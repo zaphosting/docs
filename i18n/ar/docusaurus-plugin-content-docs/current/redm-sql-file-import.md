@@ -25,12 +25,12 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 في هذا المثال، سنقوم باستيراد ملف SQL لإطار العمل RP **RedEM**. يجب أن تحضر ملف SQL الخاص بالمورد الذي تريد استيراده. يمكنك فعل ذلك بفتح مجلد المورد الذي يتطلب قاعدة بيانات والبحث عن ملف بامتداد **.sql**.
 
-![](https://github.com/zaphosting/docs/assets/42719082/331d2a3d-0d81-4b39-8ad6-d0aba84ff19c)
+![](https://screensaver01.zap-hosting.com/index.php/s/QTeYKS3MrXTPi76/preview)
 
 :::info
 قبل المتابعة في الاستيراد، يجب أن تفتح ملف .sql بأي محرر نصوص وتتحقق من وجود الأسطر التالية:
 
-![](https://github.com/zaphosting/docs/assets/42719082/dfc43c55-9918-45e7-99eb-1f70193c0be1)
+![](https://screensaver01.zap-hosting.com/index.php/s/wXLmBpmiwYp3Zzo/preview)
 
 إذا وجدت هذه الأسطر في ملف .sql الخاص بك، تأكد من إزالة أسطر `CREATE` و `USE` الخاصة بقاعدة البيانات وحفظ الملف، وإلا فلن تتمكن من استيراد ملف SQL.
 
@@ -41,7 +41,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 الآن يجب أن تدخل إلى قسم **قاعدة البيانات** في واجهة الويب الخاصة بسيرفر الألعاب.
 
-![](https://github.com/zaphosting/docs/assets/42719082/5f0f81ec-832b-4b9e-a39a-8ec78fd10890)
+![](https://screensaver01.zap-hosting.com/index.php/s/mq2JdMmfiaqjtND/preview)
 
 في صفحة قاعدة البيانات، ستجد مجموعة من الوظائف المختلفة لإدارة قاعدة البيانات مثل النسخ الاحتياطي، الإنشاء، الإدارة والمزيد. سنركز على الوصول إلى قاعدة البيانات، لكن يمكنك الاطلاع على أدلتنا الأخرى إذا أردت معلومات أكثر: [الوصول الخارجي لقاعدة البيانات](gameserver-database-external-access.md).
 
@@ -49,17 +49,17 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 بمجرد دخولك الصفحة، اختر قاعدة البيانات الخاصة بك من القائمة على اليسار. اسم قاعدة البيانات **دائمًا** يبدأ بـ `zap` كبادئة.
 
-![](https://github.com/zaphosting/docs/assets/42719082/30fa6041-b94e-4ac8-a3cd-286cca226dba)
+![](https://screensaver01.zap-hosting.com/index.php/s/Qx37APa9233B7zt/preview)
 
 في الوقت الحالي، ستكون قاعدة البيانات فارغة إذا لم تستخدمها من قبل. الآن يمكنك أخيرًا استيراد ملف .sql.
 
 اضغط على زر **استيراد** في شريط التنقل العلوي في phpmyadmin لفتح قائمة الاستيراد.
 
-![](https://github.com/zaphosting/docs/assets/42719082/c0ca30f0-c520-4a71-843a-296064ba5761)
+![](https://screensaver01.zap-hosting.com/index.php/s/McfzS8DraJsXPTZ/preview)
 
 بعدها، اضغط على زر **تصفح...** الذي سيفتح نافذة مستعرض الملفات. اختر ملف **.sql** الذي أردت استيراده أصلاً.
 
-![](https://github.com/zaphosting/docs/assets/42719082/02d09225-a68d-498b-a2bd-df57386ce242)
+![](https://screensaver01.zap-hosting.com/index.php/s/Dk2Q2QgHzYEMCsa/preview)
 
 :::note
 الحد الأقصى لحجم الملف هو 2 ميجابايت. إذا كان ملف SQL أكبر من ذلك، يجب عليك استخدام أداة تقسيم SQL لتقسيم الملف الكبير إلى أجزاء أصغر. نوصي باستخدام الأداة [Pinetools SQL-Splitter](https://pinetools.com/split-files) التي تقوم بذلك نيابة عنك. بعد الانتهاء، يمكنك استيراد ملفات SQL كما هو معتاد.
@@ -67,7 +67,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 أخيرًا، اضغط على زر **استيراد** في أسفل الصفحة لبدء عملية الاستيراد. إذا تم كل شيء بشكل صحيح، سترى رسالة نجاح وسيتم إنشاء جدول جديد داخل قاعدة البيانات يمكنك مشاهدته على الجانب الأيسر.
 
-![](https://github.com/zaphosting/docs/assets/42719082/5fef5d58-78f1-4b59-bc3e-1e0af2ff981b)
+![](https://screensaver01.zap-hosting.com/index.php/s/iyobgkNtQpnNjoH/preview)
 
 لقد نجحت في استيراد ملف SQL إلى قاعدة بيانات سيرفر ألعابك!
 

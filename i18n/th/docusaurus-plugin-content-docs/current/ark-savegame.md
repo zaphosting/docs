@@ -33,7 +33,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 :::note
 การใช้ไฟล์สำรองอย่างเป็นทางการของคุณเองทำได้เฉพาะกับเซิร์ฟเวอร์เกม **ARK - SE (รองรับไฟล์สำรองอย่างเป็นทางการ)** เท่านั้น หากคุณใช้เวอร์ชันอื่นสำหรับเซิร์ฟเวอร์ของคุณ คุณสามารถเปลี่ยนเวอร์ชันได้ในส่วน **games** บนเว็บอินเทอร์เฟซของเซิร์ฟเวอร์เกม หรือใช้ [คู่มือเปลี่ยนเกม](gameserver-gameswitch.md) ของเรา
 
-![](https://github.com/zaphosting/docs/assets/42719082/8f2ac8fa-2b23-4738-8d95-87c289e9d98a)
+![](https://screensaver01.zap-hosting.com/index.php/s/Kwjyx4sDSHLTFZJ/preview)
 :::
 
 
@@ -45,7 +45,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 :::note
 สำหรับกรณีนี้ คุณควรใช้เซิร์ฟเวอร์เกมเวอร์ชันปกติ **Ark: SE** (ไม่มีการรองรับไฟล์สำรองอย่างเป็นทางการ) เพราะคุณกำลังนำเข้าไฟล์เซฟปกติที่ไม่ใช่ไฟล์สำรองอย่างเป็นทางการ
 
-![](https://github.com/zaphosting/docs/assets/42719082/43a6f039-778b-471f-82c8-91f1b8644a33)
+![](https://screensaver01.zap-hosting.com/index.php/s/FCMPjApJBjZxdR2/preview)
 :::
 
 
@@ -61,7 +61,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 /gxxxxx/ark/ShooterGame/Saved/SavedArks
 ```
 
-![](https://github.com/zaphosting/docs/assets/42719082/92ca6e48-346e-4f3c-80e2-972421d1f73f)
+![](https://screensaver01.zap-hosting.com/index.php/s/YXFcNPMgtbmRJJj/preview)
 
 ลบไฟล์ทั้งหมดของไฟล์เซฟปัจจุบันออก (หรือสำรองข้อมูลไว้ก่อนถ้าคุณอยากเล่นไฟล์เซฟนี้ในอนาคต) จากนั้นลากและอัปโหลดไฟล์ทั้งหมดที่แตกออกมาไปยังโฟลเดอร์นี้ (รวมถึงไฟล์ .ark, .arktribe และ .arkprofile) กรุณารออย่างใจเย็นเพราะอาจใช้เวลานานขึ้นอยู่กับขนาดของไฟล์เซฟทั้งหมดของคุณ
 

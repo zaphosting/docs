@@ -35,13 +35,13 @@ Serwer musi być zatrzymany, zanim będzie można edytować konfigurację. Edycj
 
 Po prostu przejdź do sekcji **Configs** w webinterface swojego serwera gier i kliknij niebieski przycisk edycji pliku, jak na obrazku poniżej:
 
-![](https://github.com/zaphosting/docs/assets/42719082/6a147644-8bfb-4e5d-bff5-3e2c5d999e64)
+![](https://screensaver01.zap-hosting.com/index.php/s/izzL3f9FaGdc9ay/preview)
 
 Otworzy się edytor tekstu, w którym możesz bezpośrednio edytować plik. W pliku wyszukaj sekcję `rcon`. Tam ustaw parametr `enable` na `true`, np. `"enable":true`. Polecamy użyć `CTRL+F`, aby szybko znaleźć tę sekcję.
 
 W tej samej sekcji ustaw też hasło do dostępu do interfejsu RCON, zmieniając parametr `password`. To zabezpieczy dostęp i powinno pozostać prywatne.
 
-![](https://github.com/zaphosting/docs/assets/42719082/d3fbb8ac-b836-4e12-a7cf-d1b4961925d7)
+![](https://screensaver01.zap-hosting.com/index.php/s/WPPbd6C7k6m5Ja7/preview)
 
 </TabItem>
 

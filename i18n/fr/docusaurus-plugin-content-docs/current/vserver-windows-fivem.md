@@ -109,7 +109,7 @@ Ces commandes vont créer automatiquement les règles de pare-feu nécessaires p
 
 Utilise la recherche Windows pour ouvrir les **Paramètres du pare-feu Windows avec sécurité avancée**. Tu devras peut-être cliquer sur **Paramètres avancés** pour ouvrir la fenêtre nécessaire si tu ouvres la page de base du pare-feu Windows.
 
-![](https://github.com/zaphosting/docs/assets/42719082/5fb9f943-7e51-4d8f-9df4-2f5ff60857d3)
+![](https://screensaver01.zap-hosting.com/index.php/s/ZT2WzELZSBPrFsB/preview)
 
 Tu dois créer de nouvelles règles pour ton serveur FiveM. Pour ça, clique sur les règles entrantes et sortantes comme expliqué ci-dessous et ajoute-les pour les protocoles et ports suivants :
 - TCP entrant et sortant : 30120

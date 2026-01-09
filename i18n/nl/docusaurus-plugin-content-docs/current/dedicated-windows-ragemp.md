@@ -92,7 +92,7 @@ Deze regels maken automatisch firewallregels aan die nodig zijn om je RageMP ser
 
 Open via de zoekfunctie van Windows **Windows Firewall-instellingen met Geavanceerde Beveiliging**. Mogelijk moet je eerst op **Geavanceerde instellingen** klikken om het juiste venster te openen als je alleen de basis Windows Firewall pagina ziet.
 
-![image](https://github.com/zaphosting/docs/assets/42719082/5fb9f943-7e51-4d8f-9df4-2f5ff60857d3)
+![image](https://screensaver01.zap-hosting.com/index.php/s/ZT2WzELZSBPrFsB/preview)
 
 Je moet nieuwe regels aanmaken voor je RageMP server. Klik hiervoor op binnenkomende en uitgaande regels en voeg ze toe voor de volgende protocollen en poorten:
 

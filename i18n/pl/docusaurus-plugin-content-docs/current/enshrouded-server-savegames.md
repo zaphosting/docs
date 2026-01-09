@@ -36,7 +36,7 @@ W standardowej instalacji folder Steam znajduje się na dysku systemowym, pod ś
 
 Po dotarciu do tego folderu zobaczysz plik postaci oraz wszystkie lokalne zapisy gry w jednym miejscu.
 
-![](https://github.com/zaphosting/docs/assets/42719082/31022018-3072-4b40-85f0-77f9da992ccc)
+![](https://screensaver01.zap-hosting.com/index.php/s/dyydLNzQt7ZWRPx/preview)
 
 :::note
 Jeśli **nie** korzystasz ze Steam Cloud do zapisu, folder z zapisami znajdziesz pod ścieżką: `C://Users/[twoj_uzytkownik]/Saved Games/Enshrouded`.
@@ -51,7 +51,7 @@ Tworzenie kopii zapasowej zapisu z serwera jest proste. Po połączeniu się z s
 
 W tym miejscu powinieneś zobaczyć plik z losowymi znakami, który jest Twoim zapisem gry. Kliknij na niego prawym przyciskiem i wybierz **Pobierz**, aby zapisać go lokalnie na swoim urządzeniu.
 
-![](https://github.com/zaphosting/docs/assets/42719082/e7c230a3-a2cb-4ae0-a0dc-6d2211edd06c)
+![](https://screensaver01.zap-hosting.com/index.php/s/wTcodeKXYq3RBfY/preview)
 
 ### Automatyczna kopia zapasowa
 
@@ -64,7 +64,7 @@ Podobnie jak przy tworzeniu kopii, wgrywanie zapisu jest proste. Najpierw połą
 ../enshrouded/savegame/
 ```
 
-![](https://github.com/zaphosting/docs/assets/42719082/e465680f-65bc-456d-bd99-fbdff755defb)
+![](https://screensaver01.zap-hosting.com/index.php/s/gJW8wSapi4Bo2gw/preview)
 
 Po prostu przeciągnij i upuść swój zapis gry do tego folderu przez klienta FTP, a zostanie on przesłany na serwer.
 

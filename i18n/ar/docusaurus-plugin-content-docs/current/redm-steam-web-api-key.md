@@ -23,15 +23,15 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 بمجرد أن يكون لديك حساب Steam جاهز، يمكنك طلب مفتاح Steam Web API الخاص بك. يمكنك القيام بذلك بالتسجيل [على موقع Steam](https://steamcommunity.com/dev/apikey) باستخدام اسم حساب Steam وكلمة المرور الخاصة بك.
 
-![](https://github.com/zaphosting/docs/assets/42719082/56be5337-a458-425b-86b0-e0c5fa94abab)
+![](https://screensaver01.zap-hosting.com/index.php/s/Wm8rdwwFPbt7D5W/preview)
 
 بعد تسجيل الدخول، يجب عليك إدخال اسم نطاق، وتأكيد شروط استخدام Steam Web API، ثم الضغط على زر **Register**. يجب تعيين النطاق إلى **عنوان IP الخاص بسيرفرك** *(بدون المنفذ)*، لذا أدخله هناك.
 
-![](https://github.com/zaphosting/docs/assets/42719082/334e89a9-0eef-4ea5-b100-5a1e4b8cdc31)
+![](https://screensaver01.zap-hosting.com/index.php/s/GNmZXzTn9JJ8cBo/preview)
 
 إذا تم كل شيء بنجاح، ستتمكن من رؤية مفتاح Steam Web API الخاص بك، كما هو موضح أدناه.
 
-![](https://github.com/zaphosting/docs/assets/42719082/a99f463b-93ae-408b-b038-29e366b30256)
+![](https://screensaver01.zap-hosting.com/index.php/s/m8WoXg3WcjeaQrW/preview)
 
 ## تفعيل مفتاح API
 

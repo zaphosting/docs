@@ -26,7 +26,7 @@ Ahora tenemos una versión separada del juego **Palworld (Xbox)** disponible en 
 
 Primero, necesitas saber la dirección IP y el puerto de tu servidor de Palworld para poder conectarte directamente. Simplemente entra a tu [panel web de ZAP-Hosting](https://zap-hosting.com/en/customer/) en el sitio, y ten a mano la IP completa y el puerto.
 
-![](https://github.com/zaphosting/docs/assets/42719082/62bcad5b-064c-45cd-a7f0-406a1148b15c)
+![](https://screensaver01.zap-hosting.com/index.php/s/DRxKHE7bP3FbFMo/preview)
 
 Si estás ejecutando tu servidor de Palworld en un servidor dedicado externo, la IP será la de la máquina anfitriona y el puerto será el que hayas configurado en tu archivo de configuración (por defecto es 8211). Consulta nuestra [Guía de Configuración del Servidor](palworld-configuration.md) para más información sobre el puerto.
 
@@ -34,7 +34,7 @@ Si estás ejecutando tu servidor de Palworld en un servidor dedicado externo, la
 
 Comienza lanzando Palworld desde tu lanzador de juegos. En el menú principal, selecciona **Unirse a partida multijugador**.
 
-![](https://github.com/zaphosting/docs/assets/42719082/fefc7ead-5098-4bdb-aa56-c9d78673d7e8)
+![](https://screensaver01.zap-hosting.com/index.php/s/TZzLAS29rnpPmi6/preview)
 
 Dentro del navegador de servidores dedicados, ve hasta la parte inferior de la página. Introduce los datos de tu IP y puerto en la caja de búsqueda inferior. Cuando estés listo, pulsa el botón **Conectar** y entrarás a tu servidor.
 
@@ -42,7 +42,7 @@ Dentro del navegador de servidores dedicados, ve hasta la parte inferior de la p
 Asegúrate de usar la caja de búsqueda inferior, no la superior. La superior se usa para buscar servidores por nombre en la lista de servidores.
 :::
 
-![](https://github.com/zaphosting/docs/assets/42719082/ae31ddee-8992-486a-aef3-e6e4d115f018)
+![](https://screensaver01.zap-hosting.com/index.php/s/CG5gARbSxC3RpTb/preview)
 
 Si no puedes unirte al servidor y recibes un error de tiempo de espera, verifica que la IP y el puerto introducidos sean correctos y que tu servidor esté en línea. Puedes usar la sección de consola de tu panel web para tu servidor de Palworld para ayudarte a depurar.
 

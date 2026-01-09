@@ -94,7 +94,7 @@ Te polecenia automatycznie utworzą reguły zapory, które są niezbędne, aby T
 
 Użyj wyszukiwarki Windows, aby otworzyć **Ustawienia zapory Windows z zaawansowanym zabezpieczeniem**. Jeśli otworzysz podstawową stronę zapory, kliknij **Ustawienia zaawansowane**, aby otworzyć właściwe okno.
 
-![image](https://github.com/zaphosting/docs/assets/42719082/5fb9f943-7e51-4d8f-9df4-2f5ff60857d3)
+![image](https://screensaver01.zap-hosting.com/index.php/s/ZT2WzELZSBPrFsB/preview)
 
 Musisz utworzyć nowe reguły dla swojego serwera RageMP. Kliknij na reguły przychodzące i wychodzące i dodaj je dla następujących protokołów i portów:
 

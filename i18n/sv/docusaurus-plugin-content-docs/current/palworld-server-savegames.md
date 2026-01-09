@@ -29,12 +29,12 @@ Lokala savegames är de du skapat när du har hostat ett multiplayer-spel lokalt
 :::tip
 Du kan enkelt komma åt den här sökvägen direkt genom att trycka `CTRL` + `R` samtidigt och skriva in följande sökväg i kör-dialogrutan: `%localappdata%/Pal/Saved/SaveGames/`. Tryck bara på **OK** så öppnas mappen.
 
-![](https://github.com/zaphosting/docs/assets/42719082/5cdff375-57f8-4699-9985-42bcecf22218)
+![](https://screensaver01.zap-hosting.com/index.php/s/gWL9gtAZ8JE2ENP/preview)
 :::
 
 På den här platsen ser du en mapp som är din SteamID. Öppna den mappen så hittar du alla dina lokala savegames samlade på ett ställe.
 
-![](https://github.com/zaphosting/docs/assets/42719082/8f36715d-7e87-45e1-b859-6ebedd18c8da)
+![](https://screensaver01.zap-hosting.com/index.php/s/aaeRXfs5cFjA6fN/preview)
 
 ### Åtkomst till Savegame via FTP
 
@@ -45,7 +45,7 @@ Att säkerhetskopiera ditt savegame från servern är enkelt. När du har anslut
 
 Här bör du se en mapp med en rad slumpmässiga tecken som är ditt savegame. Högerklicka på mappen och välj **Download** för att spara den lokalt på din dator.
 
-![](https://github.com/zaphosting/docs/assets/42719082/ca890470-450d-4962-a982-39378dfbb695)
+![](https://screensaver01.zap-hosting.com/index.php/s/pmrmNHS5NAfXpY3/preview)
 
 ### Automatisk Säkerhetskopiering
 

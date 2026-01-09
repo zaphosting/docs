@@ -36,7 +36,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ในตัวอย่างนี้ คุณจะเห็นเราสร้างซับโดเมนใหม่โดยใช้โดเมน `.zap.cloud` ซึ่งจะนำคุณไปยังเซิร์ฟเวอร์ TeamSpeak 3 ของเราเมื่อใช้งาน
 
-![](https://github.com/zaphosting/docs/assets/42719082/5b311ff1-625c-4f6d-82b8-6847d432beb9)
+![](https://screensaver01.zap-hosting.com/index.php/s/Mi3wK7cY639Rp3x/preview)
 
 :::note
 โปรดทราบว่าอาจใช้เวลาถึง 3 ชั่วโมงสำหรับโดเมนในการแพร่กระจายและเริ่มทำงาน

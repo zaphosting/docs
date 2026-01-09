@@ -27,7 +27,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 شغّل ببساطة **steamcmd.exe** وانتظر حتى تكتمل عملية التثبيت بالكامل.
 
-![](https://github.com/zaphosting/docs/assets/42719082/ffb8e8a1-26e3-4d16-9baf-938e17ec1613)
+![](https://screensaver01.zap-hosting.com/index.php/s/nGsEGWDrSG7gBZs/preview)
 
 بمجرد ظهور رسالة **Loading Steam API.... OK**، تكون العملية قد اكتملت بنجاح ويمكنك البدء في تثبيت سيرفر Avorion المخصص في القسم التالي.
 
@@ -46,7 +46,7 @@ force_install_dir C:\Avorion-Server
 
 الآن شغّل الأمر `app_update 565060` الذي سيبدأ عملية التحميل. معرف التطبيق **565060** هو تطبيق **Avorion**.
 
-![](https://github.com/zaphosting/docs/assets/42719082/29931eec-fd19-4806-88dc-69e585e42370)
+![](https://screensaver01.zap-hosting.com/index.php/s/TQCbwxE8xe7TfPn/preview)
 
 :::info
 يرجى عدم مقاطعة العملية قبل اكتمالها لتجنب الأخطاء. قد يستغرق الأمر بعض الوقت، لكن الصبر يستحق! :)
@@ -86,7 +86,7 @@ New-NetFirewallRule -DisplayName "Avorion Server" -Direction Outbound -LocalPort
 
 استخدم وظيفة البحث في ويندوز لفتح **إعدادات جدار الحماية مع الأمان المتقدم**. قد تحتاج للضغط على **الإعدادات المتقدمة** لفتح النافذة المطلوبة إذا فتحت صفحة جدار الحماية الأساسية.
 
-![](https://github.com/zaphosting/docs/assets/42719082/5fb9f943-7e51-4d8f-9df4-2f5ff60857d3)
+![](https://screensaver01.zap-hosting.com/index.php/s/ZT2WzELZSBPrFsB/preview)
 
 يجب عليك إنشاء قواعد جديدة لسيرفر Avorion. للقيام بذلك، انقر على قواعد الوارد والصادر كما هو موضح أدناه وأضفها للبروتوكولات والمنافذ التالية:
 - TCP وارد وصادر: 27000

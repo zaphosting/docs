@@ -29,7 +29,7 @@ Crea una nuova cartella da qualche parte sul server, in questo esempio la chiame
 
 Lancia semplicemente **steamcmd.exe** e aspetta che l’installazione sia completata.
 
-![](https://github.com/zaphosting/docs/assets/42719082/ffb8e8a1-26e3-4d16-9baf-938e17ec1613)
+![](https://screensaver01.zap-hosting.com/index.php/s/nGsEGWDrSG7gBZs/preview)
 
 Quando vedi il messaggio **Loading Steam API.... OK**, significa che tutto è andato a buon fine e puoi passare all’installazione del server dedicato di Conan Exiles nella sezione successiva.
 
@@ -48,7 +48,7 @@ force_install_dir C:\Conan-Server
 
 Ora esegui il comando `app_update 443030` per iniziare il download. L’App ID **443030** è l’applicazione di **Conan Exiles**.
 
-![](https://github.com/zaphosting/docs/assets/42719082/29931eec-fd19-4806-88dc-69e585e42370)
+![](https://screensaver01.zap-hosting.com/index.php/s/TQCbwxE8xe7TfPn/preview)
 
 :::info
 Non interrompere il processo prima che sia finito per evitare errori. Potrebbe volerci un po’, ma ne vale la pena! :)
@@ -88,7 +88,7 @@ Questi comandi creeranno automaticamente le regole firewall necessarie per rende
 
 Usa la ricerca di Windows per aprire **Impostazioni Firewall di Windows con sicurezza avanzata**. Potrebbe servirti cliccare su **Impostazioni avanzate** per aprire la finestra giusta se apri la pagina base del firewall.
 
-![](https://github.com/zaphosting/docs/assets/42719082/5fb9f943-7e51-4d8f-9df4-2f5ff60857d3)
+![](https://screensaver01.zap-hosting.com/index.php/s/ZT2WzELZSBPrFsB/preview)
 
 Devi creare nuove regole per il tuo server Conan Exiles. Clicca su regole in entrata e in uscita e aggiungi le porte e protocolli seguenti:
 - TCP in entrata e uscita: 7777, 25575

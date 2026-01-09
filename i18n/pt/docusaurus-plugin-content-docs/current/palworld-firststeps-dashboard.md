@@ -32,7 +32,7 @@ Na seção **Administração do Produto**, você vai encontrar todas as páginas
 
 O **Dashboard** do seu servidor é o coração da administração. Todas as informações básicas e essenciais sobre seu serviço são apresentadas de forma clara aqui. Isso inclui, por exemplo, informações sobre a localização, status, IP: Porta, memória usada, jogo em andamento, nome do servidor, mapa e o número de slots disponíveis. Além disso, também é exibido o uso da CPU, memória e RAM.
 
-![](https://github.com/zaphosting/docs/assets/42719082/d0090c65-ec60-4963-a483-69235ba24a6c)
+![](https://screensaver01.zap-hosting.com/index.php/s/qo7zwFkwwt3ot3b/preview)
 
 No dashboard, você também pode iniciar, parar ou reiniciar seu serviço, para ter controle total sobre seu funcionamento. Além disso, pode acessar o console ao vivo para obter informações em tempo real sobre o estado do servidor e agir diretamente se necessário.
 

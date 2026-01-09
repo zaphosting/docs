@@ -31,7 +31,7 @@ Utwórz nowy folder na serwerze, w tym przykładzie nazwij go `steamcmd`. Przejd
 
 Uruchom **steamcmd.exe** i poczekaj, aż instalacja zostanie zakończona.
 
-![](https://github.com/zaphosting/docs/assets/42719082/ffb8e8a1-26e3-4d16-9baf-938e17ec1613)
+![](https://screensaver01.zap-hosting.com/index.php/s/nGsEGWDrSG7gBZs/preview)
 
 Gdy pojawi się komunikat **Loading Steam API.... OK**, instalacja zakończyła się sukcesem i możesz przejść do instalacji dedykowanego serwera Conan Exiles w kolejnej sekcji.
 
@@ -50,7 +50,7 @@ force_install_dir C:\Conan-Server
 
 Teraz wpisz komendę `app_update 443030`, która rozpocznie pobieranie. ID aplikacji **443030** to **Conan Exiles**.
 
-![](https://github.com/zaphosting/docs/assets/42719082/29931eec-fd19-4806-88dc-69e585e42370)
+![](https://screensaver01.zap-hosting.com/index.php/s/TQCbwxE8xe7TfPn/preview)
 
 :::info
 Nie przerywaj procesu przed jego zakończeniem, aby uniknąć błędów. Może to chwilę potrwać, ale warto być cierpliwym! :)
@@ -90,7 +90,7 @@ Te polecenia automatycznie utworzą reguły zapory sieciowej, które są niezbę
 
 Wyszukaj w Windows **Ustawienia zapory Windows z zaawansowanym zabezpieczeniem**. Jeśli otworzy się podstawowy panel zapory, kliknij **Ustawienia zaawansowane**, aby przejść do właściwego okna.
 
-![](https://github.com/zaphosting/docs/assets/42719082/5fb9f943-7e51-4d8f-9df4-2f5ff60857d3)
+![](https://screensaver01.zap-hosting.com/index.php/s/ZT2WzELZSBPrFsB/preview)
 
 Musisz utworzyć nowe reguły dla swojego serwera Conan Exiles. Dodaj je dla następujących protokołów i portów:
 - TCP przychodzące i wychodzące: 7777, 25575

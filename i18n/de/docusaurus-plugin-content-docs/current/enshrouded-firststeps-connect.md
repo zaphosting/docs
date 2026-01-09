@@ -29,7 +29,7 @@ Du brauchst alle relevanten Infos, um dich mit deinem Server zu verbinden. Die I
 
 Mit den oben genannten Infos kannst du deinen Server finden und sicherstellen, dass du dich mit dem richtigen Server verbindest.
 
-![img](https://github.com/zaphosting/docs/assets/42719082/aaeee832-8cd0-4ac0-9769-f498eace4892)
+![img](https://screensaver01.zap-hosting.com/index.php/s/32ftNaw9rjA27a3/preview)
 
 
 

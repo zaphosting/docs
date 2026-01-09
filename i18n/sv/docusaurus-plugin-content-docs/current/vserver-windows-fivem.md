@@ -109,7 +109,7 @@ Dessa kommandon skapar automatiskt brandväggsregler som krävs för att din Fiv
 
 Använd Windows sökfunktion för att öppna **Windows Firewall Settings with Advanced Security**. Du kan behöva klicka på **Advanced Settings** för att öppna rätt fönster om du startar från grundinställningarna för Windows-brandväggen.
 
-![](https://github.com/zaphosting/docs/assets/42719082/5fb9f943-7e51-4d8f-9df4-2f5ff60857d3)
+![](https://screensaver01.zap-hosting.com/index.php/s/ZT2WzELZSBPrFsB/preview)
 
 Du måste skapa nya regler för din FiveM-server. Klicka på inkommande och utgående regler som nedan och lägg till regler för följande protokoll och portar:
 - TCP inkommande och utgående: 30120

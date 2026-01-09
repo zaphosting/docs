@@ -33,7 +33,7 @@ XboxやPlaystationのプレイヤーは、残念ながら公式サーバーフ�
 :::note
 公式バックアップセーブの利用は、**ARK - SE（公式バックアップセーブ対応）**のゲームサーバーバリアントのみ可能です。別のバージョンを使っている場合は、ゲームサーバーのウェブインターフェースの**games**セクションでバージョンを変更するか、[ゲーム変更](gameserver-gameswitch.md)ガイドを参考にしてください。
 
-![](https://github.com/zaphosting/docs/assets/42719082/8f2ac8fa-2b23-4738-8d95-87c289e9d98a)
+![](https://screensaver01.zap-hosting.com/index.php/s/Kwjyx4sDSHLTFZJ/preview)
 :::
 
 ### 自分の通常セーブファイル
@@ -43,7 +43,7 @@ XboxやPlaystationのプレイヤーは、残念ながら公式サーバーフ�
 :::note
 この場合は、通常の**Ark: SE**ゲームサーバーバリアント（公式バックアップセーブ非対応）を使うのがおすすめです。公式ではない通常のセーブファイルをインポートするためです。
 
-![](https://github.com/zaphosting/docs/assets/42719082/43a6f039-778b-471f-82c8-91f1b8644a33)
+![](https://screensaver01.zap-hosting.com/index.php/s/FCMPjApJBjZxdR2/preview)
 :::
 
 ## セーブファイルをサーバーにアップロードする
@@ -57,7 +57,7 @@ FTPクライアントで接続したら、ゲームサーバー内の以下の�
 /gxxxxx/ark/ShooterGame/Saved/SavedArks
 ```
 
-![](https://github.com/zaphosting/docs/assets/42719082/92ca6e48-346e-4f3c-80e2-972421d1f73f)
+![](https://screensaver01.zap-hosting.com/index.php/s/YXFcNPMgtbmRJJj/preview)
 
 現在のセーブファイルのすべてのファイルを削除（または将来プレイしたい場合はバックアップ）し、展開したすべてのファイル（.ark、.arktribe、.arkprofileファイルを含む）をこのディレクトリにドラッグ＆アップロードしてください。アップロードにはセーブファイルのサイズによって時間がかかることがありますので、気長に待ちましょう。
 

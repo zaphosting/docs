@@ -42,7 +42,7 @@ Połącz się z serwerem za pomocą klienta FTP, używając danych dostępowych 
 Po połączeniu przejdź do folderu Sunkenland, otwórz folder "AppData", a następnie "Worlds". Wgraj tam wybrany wcześniej zapis gry.
 
 Struktura folderów powinna wyglądać teraz tak, gdzie `Marvin's World~cef76ff5-447a-48df-b3a8-74b9ea5b7a86` to Twój własny zapis gry.
-![](https://github.com/zaphosting/docs/assets/13604413/40aecc3b-4a8a-4477-8c09-d56ec412883e)
+![](https://screensaver01.zap-hosting.com/index.php/s/eFg6Ek3giFM3DLs/preview)
 
 :::important
 Na tym etapie skopiuj GUID, który znajduje się na końcu nazwy zapisu świata. Będzie Ci potrzebny w kolejnym kroku, aby serwer działał poprawnie.

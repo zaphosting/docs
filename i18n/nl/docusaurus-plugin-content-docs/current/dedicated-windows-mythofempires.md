@@ -26,7 +26,7 @@ Maak ergens op je server een nieuwe map aan, in dit voorbeeld noemen we die `ste
 
 Start simpelweg **steamcmd.exe** en wacht tot het installatieproces helemaal klaar is.
 
-![](https://github.com/zaphosting/docs/assets/42719082/ffb8e8a1-26e3-4d16-9baf-938e17ec1613)
+![](https://screensaver01.zap-hosting.com/index.php/s/nGsEGWDrSG7gBZs/preview)
 
 Zodra de melding **Loading Steam API.... OK** verschijnt, is het proces succesvol afgerond en kun je beginnen met het installeren van de MOE dedicated server in de volgende sectie.
 
@@ -45,7 +45,7 @@ force_install_dir C:\MOE-Server
 
 Voer nu het commando `app_update 1794810` uit om de download te starten. De App ID **1794810** is de **MOE** applicatie.
 
-![](https://github.com/zaphosting/docs/assets/42719082/29931eec-fd19-4806-88dc-69e585e42370)
+![](https://screensaver01.zap-hosting.com/index.php/s/TQCbwxE8xe7TfPn/preview)
 
 :::info
 Onderbreek het proces niet voordat het klaar is om fouten te voorkomen. Het kan even duren, maar het is het wachten waard! :)
@@ -99,7 +99,7 @@ Deze regels maken automatisch de firewallregels aan die nodig zijn om je MOE ser
 
 Gebruik de zoekfunctie in Windows om **Windows Firewall Settings with Advanced Security** te openen. Mogelijk moet je op **Advanced Settings** klikken om het juiste venster te openen als je de basis Windows Firewall pagina opent.
 
-![](https://github.com/zaphosting/docs/assets/42719082/5fb9f943-7e51-4d8f-9df4-2f5ff60857d3)
+![](https://screensaver01.zap-hosting.com/index.php/s/ZT2WzELZSBPrFsB/preview)
 
 Je moet nieuwe regels aanmaken voor je MOE server. Klik hiervoor op inkomende en uitgaande regels zoals hieronder beschreven en voeg ze toe voor de volgende protocollen en poorten:
 - TCP inkomend en uitgaand: 11888, 12888

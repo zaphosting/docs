@@ -27,7 +27,7 @@ Windows VPS または専用サーバーを持っていて、そこに ARK: Survi
 
 **steamcmd.exe** を実行して、インストールが完了するまで待とう。
 
-![](https://github.com/zaphosting/docs/assets/42719082/ffb8e8a1-26e3-4d16-9baf-938e17ec1613)
+![](https://screensaver01.zap-hosting.com/index.php/s/nGsEGWDrSG7gBZs/preview)
 
 **Loading Steam API.... OK** のメッセージが出たらインストール完了！次のセクションで ARK: Survival Ascended 専用サーバーのインストールに進もう。
 
@@ -46,7 +46,7 @@ force_install_dir C:\ARK-Survival-Ascended-Server
 
 次に、`app_update 2430930` コマンドを実行するとダウンロードが始まるよ。App ID **2430930** は **ARK: Survival Ascended 専用サーバー** のアプリケーションIDだよ。
 
-![](https://github.com/zaphosting/docs/assets/42719082/98d7c643-04be-488b-8831-86606363f98c)
+![](https://screensaver01.zap-hosting.com/index.php/s/DSMpETJYtkciNHT/preview)
 
 :::info
 ダウンロードが完了するまで中断しないでね。少し時間がかかるけど、焦らず待とう！ :)
@@ -115,7 +115,7 @@ New-NetFirewallRule -DisplayName "ARKSA Server" -Direction Outbound -LocalPort 7
 
 Windowsの検索で **Windows ファイアウォールの詳細設定** を開こう。基本のファイアウォール画面からは **詳細設定** をクリックして開く必要があるかも。
 
-![](https://github.com/zaphosting/docs/assets/42719082/5fb9f943-7e51-4d8f-9df4-2f5ff60857d3)
+![](https://screensaver01.zap-hosting.com/index.php/s/ZT2WzELZSBPrFsB/preview)
 
 Ark: Survival Ascended サーバー用に新しいルールを作成しよう。以下のプロトコルとポートで、受信と送信の両方にルールを追加してね：
 - TCP 受信・送信: 27020

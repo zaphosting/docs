@@ -45,7 +45,7 @@ Le serveur doit être arrêté avant de pouvoir modifier la config, modifier la 
 
 Pour les utilisateurs qui souhaitent éditer directement le fichier et toutes les options de configuration, vous pouvez y accéder en allant dans la section **Configs** de l’interface web de votre serveur de jeux et en cliquant sur le bouton bleu d’édition du fichier, comme montré ci-dessous :
 
-![](https://github.com/zaphosting/docs/assets/42719082/6a147644-8bfb-4e5d-bff5-3e2c5d999e64)
+![](https://screensaver01.zap-hosting.com/index.php/s/izzL3f9FaGdc9ay/preview)
 
 Cela ouvrira un éditeur de texte directement sur le site pour vous permettre de modifier le fichier.
 

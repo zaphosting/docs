@@ -25,12 +25,12 @@ I många fall kommer en eller flera filer med filändelsen **.sql** att finnas m
 
 I det här exemplet kommer vi att importera SQL-filen för **ESX**. Du bör förbereda SQL-filen för den resurs du vill importera. Det gör du genom att öppna mappen för din resurs som kräver en databas och hitta en fil med filändelsen **.sql**.
 
-![](https://github.com/zaphosting/docs/assets/42719082/3d2b4cd2-d98e-4b25-b606-9f451164edc9)
+![](https://screensaver01.zap-hosting.com/index.php/s/3YMrCZ29pc87aW8/preview)
 
 :::info
 Innan du fortsätter med importen bör du öppna .sql-filen i en valfri textredigerare och kontrollera om följande rader finns med:
 
-![](https://github.com/zaphosting/docs/assets/42719082/dfc43c55-9918-45e7-99eb-1f70193c0be1)
+![](https://screensaver01.zap-hosting.com/index.php/s/wXLmBpmiwYp3Zzo/preview)
 
 Om dessa finns i din .sql-fil, se till att ta bort raderna med `CREATE` och `USE` för databasen och spara filen, annars går det inte att importera SQL-filen.
 
@@ -41,7 +41,7 @@ Detta beror på att första raden deklarerar att en ny databas ska skapas, vilke
 
 Nu ska du gå till **Databas**-sektionen i din spelservers webbgränssnitt.
 
-![](https://github.com/zaphosting/docs/assets/42719082/83ba522a-929e-4a90-8c9e-0badc2d779d4)
+![](https://screensaver01.zap-hosting.com/index.php/s/jk6BBm4d5dDtNcd/preview)
 
 På databas-sidan får du tillgång till flera funktioner för att hantera din databas, inklusive möjligheter att säkerhetskopiera, skapa, hantera och mer. Vi fokuserar på att komma åt din databas, men kolla gärna in våra andra guider om databaser om du vill veta mer: [Extern databasåtkomst](gameserver-database-external-access.md).
 
@@ -49,17 +49,17 @@ Tryck på den blå omdirigeringsikonen som tar dig till verktyget **phpmyadmin**
 
 När du är inne, välj din databas från listan till vänster. Namnet på din databas börjar **alltid** med prefixet `zap`.
 
-![](https://github.com/zaphosting/docs/assets/42719082/30fa6041-b94e-4ac8-a3cd-286cca226dba)
+![](https://screensaver01.zap-hosting.com/index.php/s/Qx37APa9233B7zt/preview)
 
 Just nu är din databas tom om du inte använt den tidigare. Nu är det dags att importera .sql-filen.
 
 Tryck på **Importera**-knappen i den övre navigeringsmenyn i phpmyadmin för att öppna importmenyn.
 
-![](https://github.com/zaphosting/docs/assets/42719082/c0ca30f0-c520-4a71-843a-296064ba5761)
+![](https://screensaver01.zap-hosting.com/index.php/s/McfzS8DraJsXPTZ/preview)
 
 Tryck sedan på **Bläddra...**-knappen som öppnar en filutforskare. Välj den **.sql**-fil du vill importera.
 
-![](https://github.com/zaphosting/docs/assets/42719082/83ba22fb-fc6c-4dbb-9c47-ad42d3a9fa66)
+![](https://screensaver01.zap-hosting.com/index.php/s/cfTYGYfFGMEyQbA/preview)
 
 :::note
 Maximal filstorlek är 2MB. Om din SQL-fil är större än så bör du använda en SQL-splitter för att dela upp den i mindre delar. Vi rekommenderar verktyget [Pinetools SQL-Splitter](https://pinetools.com/split-files) som gör detta åt dig. När du är klar kan du importera SQL-filerna som vanligt.
@@ -67,7 +67,7 @@ Maximal filstorlek är 2MB. Om din SQL-fil är större än så bör du använda 
 
 Till sist, tryck på **Importera**-knappen längst ner på sidan för att starta importen. Om allt gick rätt till får du ett lyckat meddelande och en ny tabell skapas i din databas som du kan se till vänster.
 
-![](https://github.com/zaphosting/docs/assets/42719082/5fef5d58-78f1-4b59-bc3e-1e0af2ff981b)
+![](https://screensaver01.zap-hosting.com/index.php/s/iyobgkNtQpnNjoH/preview)
 
 ## Sammanfattning
 

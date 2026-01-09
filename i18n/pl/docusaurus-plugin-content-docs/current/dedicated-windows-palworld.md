@@ -28,7 +28,7 @@ Utwórz nowy folder gdzieś na serwerze, w tym przykładzie nazwij go `steamcmd`
 
 Po prostu uruchom **steamcmd.exe** i poczekaj, aż proces instalacji zostanie w pełni zakończony.
 
-![](https://github.com/zaphosting/docs/assets/42719082/ffb8e8a1-26e3-4d16-9baf-938e17ec1613)
+![](https://screensaver01.zap-hosting.com/index.php/s/nGsEGWDrSG7gBZs/preview)
 
 Gdy pojawi się komunikat **Loading Steam API.... OK**, proces zakończył się pomyślnie i możesz przejść do instalacji serwera dedykowanego Palworld w kolejnej sekcji.
 
@@ -47,7 +47,7 @@ force_install_dir C:\Palworld-Server
 
 Teraz wpisz komendę `app_update 2394010`, która rozpocznie pobieranie. App ID **2394010** to aplikacja **Palworld**.
 
-![](https://github.com/zaphosting/docs/assets/42719082/b265a784-cf9a-43dc-b100-376f080e18f3)
+![](https://screensaver01.zap-hosting.com/index.php/s/5wtdbQbZoj6WbTN/preview)
 
 :::info
 Nie przerywaj procesu przed jego zakończeniem, aby uniknąć błędów. Może to chwilę potrwać, ale warto być cierpliwym! :)
@@ -87,7 +87,7 @@ Te polecenia automatycznie utworzą reguły zapory sieciowej, które są niezbę
 
 Użyj wyszukiwarki Windows, aby otworzyć **Ustawienia zapory Windows z zaawansowanym zabezpieczeniem**. Może być konieczne kliknięcie **Zaawansowane ustawienia**, aby otworzyć odpowiednie okno, jeśli otworzysz tylko podstawową stronę zapory.
 
-![](https://github.com/zaphosting/docs/assets/42719082/5fb9f943-7e51-4d8f-9df4-2f5ff60857d3)
+![](https://screensaver01.zap-hosting.com/index.php/s/ZT2WzELZSBPrFsB/preview)
 
 Musisz utworzyć nowe reguły dla swojego serwera Palworld. Zrób to, klikając na reguły przychodzące i wychodzące, jak opisano poniżej, i dodaj je dla następujących protokołów i portów:
 - TCP przychodzące i wychodzące: 8211

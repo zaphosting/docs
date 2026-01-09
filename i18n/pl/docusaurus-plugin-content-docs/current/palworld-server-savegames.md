@@ -29,12 +29,12 @@ Lokalne save'y to te, które stworzyłeś, grając w trybie multiplayer na swoim
 :::tip
 Możesz szybko przejść do tego folderu, naciskając jednocześnie `CTRL` + `R` i wpisując w oknie uruchamiania następującą ścieżkę: `%localappdata%/Pal/Saved/SaveGames/`. Kliknij **OK**, a zostaniesz przeniesiony do folderu.
 
-![](https://github.com/zaphosting/docs/assets/42719082/5cdff375-57f8-4699-9985-42bcecf22218)
+![](https://screensaver01.zap-hosting.com/index.php/s/gWL9gtAZ8JE2ENP/preview)
 :::
 
 W tym miejscu zobaczysz folder o nazwie odpowiadającej Twojemu SteamID. Otwórz go, aby zobaczyć wszystkie swoje lokalne save'y w jednym miejscu.
 
-![](https://github.com/zaphosting/docs/assets/42719082/8f36715d-7e87-45e1-b859-6ebedd18c8da)
+![](https://screensaver01.zap-hosting.com/index.php/s/aaeRXfs5cFjA6fN/preview)
 
 ### Dostęp do Savegame przez FTP
 
@@ -45,7 +45,7 @@ Tworzenie kopii zapasowej save'a z serwera jest proste. Po połączeniu się z s
 
 W tym miejscu powinieneś zobaczyć folder z losowymi znakami, który jest Twoim save'em. Kliknij na niego prawym przyciskiem myszy i wybierz **Pobierz**, aby zapisać go lokalnie na swoim urządzeniu.
 
-![](https://github.com/zaphosting/docs/assets/42719082/ca890470-450d-4962-a982-39378dfbb695)
+![](https://screensaver01.zap-hosting.com/index.php/s/pmrmNHS5NAfXpY3/preview)
 
 ### Automatyczna kopia zapasowa
 

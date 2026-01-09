@@ -141,7 +141,7 @@ Te polecenia automatycznie utworzą reguły zapory sieciowej, które są niezbę
 
 Użyj wyszukiwarki Windows, aby otworzyć **Ustawienia zapory Windows z zaawansowanym zabezpieczeniem**. Możesz potrzebować kliknąć **Ustawienia zaawansowane**, aby otworzyć właściwe okno, jeśli otworzysz podstawową stronę zapory.
 
-![](https://github.com/zaphosting/docs/assets/42719082/5fb9f943-7e51-4d8f-9df4-2f5ff60857d3)
+![](https://screensaver01.zap-hosting.com/index.php/s/ZT2WzELZSBPrFsB/preview)
 
 Musisz utworzyć nowe reguły dla swojego serwera Farming Simulator 22. Kliknij na reguły przychodzące i wychodzące i dodaj je dla następujących protokołów i portów:
 - TCP przychodzące i wychodzące: 3724, 27015

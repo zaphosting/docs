@@ -36,7 +36,7 @@ TeamSpeak 3サーバー向けに新しいTSDNSシステムを導入しました�
 
 例として、`.zap.cloud` ドメインを使って新しいサブドメインを作成し、それをTeamSpeak 3サーバーに接続する様子を示しています。
 
-![](https://github.com/zaphosting/docs/assets/42719082/5b311ff1-625c-4f6d-82b8-6847d432beb9)
+![](https://screensaver01.zap-hosting.com/index.php/s/Mi3wK7cY639Rp3x/preview)
 
 :::note
 ドメインの反映には最大3時間かかる場合がありますのでご注意ください。

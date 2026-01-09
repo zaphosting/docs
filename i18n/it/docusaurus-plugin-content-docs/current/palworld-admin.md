@@ -35,12 +35,12 @@ Der einfachste Weg führt über den Bereich **Einstellungen** im Webinterface de
 
 Im Bereich **Einstellungen** suchst du nach der Option **Game server password**. Dort gibst du dein gewünschtes Passwort ein.
 
-![](https://github.com/zaphosting/docs/assets/42719082/dadbd22b-2fd9-42e1-be71-f6d28a3f2938)
+![](https://screensaver01.zap-hosting.com/index.php/s/aQYQDYMP34NnNXr/preview)
 
 :::info
 Hast du dein Passwort eingegeben, scroll nach oben und klick unbedingt auf den grünen **Speichern**-Button, um die Änderung zu sichern.
 
-![](https://github.com/zaphosting/docs/assets/42719082/5a4f5ab1-8079-4b20-96a6-36e4aca2e28e)
+![](https://screensaver01.zap-hosting.com/index.php/s/YG5MZ6Jt8SdFy4A/preview)
 :::
 
 </TabItem>
@@ -55,11 +55,11 @@ Der Server muss gestoppt sein, bevor du die Config bearbeiten kannst. Änderunge
 
 Alternativ kannst du die Config auch direkt bearbeiten. Geh dazu im Webinterface auf den Bereich **Configs** und klick auf den blauen Button zum Bearbeiten der Datei, wie hier gezeigt:
 
-![](https://github.com/zaphosting/docs/assets/42719082/53c8acad-7347-4c3e-85bf-5ae0ad423fc6)
+![](https://screensaver01.zap-hosting.com/index.php/s/2fNGG7jBdGRekKP/preview)
 
 Es öffnet sich ein Texteditor direkt auf der Seite. Such die Zeile mit **AdminPassword** (Tipp: `STRG+F` zum Suchen) und trag dort dein gewünschtes Admin-Passwort ein. Speichere die Datei ab und starte dann deinen Server.
 
-![](https://github.com/zaphosting/docs/assets/42719082/d86376b8-1a41-4fb0-b8cd-8570ddcaa9ae)
+![](https://screensaver01.zap-hosting.com/index.php/s/gpBjxxmdsWKD4t2/preview)
 
 </TabItem>
 
@@ -86,7 +86,7 @@ Im Spiel öffnest du den Chat mit `Enter`. Gib dann folgenden Befehl ein, wobei 
 /AdminPassword [password]
 ```
 
-![](https://github.com/zaphosting/docs/assets/42719082/2f6e3ee7-e83f-4b71-87dc-d36f9b8c7340)
+![](https://screensaver01.zap-hosting.com/index.php/s/75D5ejaWNM6oYNX/preview)
 
 Wenn alles richtig war, bekommst du eine Erfolgsmeldung im Chat. Falls nicht, überprüfe nochmal, ob du das korrekte Admin-Passwort eingegeben hast, das du vorher gesetzt hast.
 

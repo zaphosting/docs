@@ -25,12 +25,12 @@ Dans pas mal de cas, un ou plusieurs fichiers avec l’extension **.sql** seront
 
 Dans cet exemple, on va importer le fichier SQL pour **ESX**. Tu dois préparer le fichier SQL pour la ressource que tu veux importer. Pour ça, ouvre le dossier de ta ressource qui nécessite une base de données et trouve un fichier avec l’extension **.sql**.
 
-![](https://github.com/zaphosting/docs/assets/42719082/3d2b4cd2-d98e-4b25-b606-9f451164edc9)
+![](https://screensaver01.zap-hosting.com/index.php/s/3YMrCZ29pc87aW8/preview)
 
 :::info
 Avant de lancer l’import, ouvre le fichier .sql avec un éditeur de texte et vérifie si les lignes suivantes sont présentes :
 
-![](https://github.com/zaphosting/docs/assets/42719082/dfc43c55-9918-45e7-99eb-1f70193c0be1)
+![](https://screensaver01.zap-hosting.com/index.php/s/wXLmBpmiwYp3Zzo/preview)
 
 Si c’est le cas, pense à supprimer les lignes `CREATE` et `USE` de la base de données puis sauvegarde le fichier, sinon le fichier SQL ne pourra pas être importé.
 
@@ -41,7 +41,7 @@ Pourquoi ? Parce que la première ligne indique qu’il faut créer une nouvelle
 
 Maintenant, rends-toi dans la section **Base de données** sur le webinterface de ton serveur de jeux.
 
-![](https://github.com/zaphosting/docs/assets/42719082/83ba522a-929e-4a90-8c9e-0badc2d779d4)
+![](https://screensaver01.zap-hosting.com/index.php/s/jk6BBm4d5dDtNcd/preview)
 
 Sur la page base de données, tu trouveras plein de fonctions pour gérer ta base, comme faire des sauvegardes, créer, gérer, etc. Ici on va se concentrer sur l’accès à ta base, mais n’hésite pas à jeter un œil à nos autres guides base de données si tu veux plus d’infos : [Accès externe à la base de données](gameserver-database-external-access.md).
 
@@ -49,17 +49,17 @@ Clique sur l’icône bleue de redirection qui te mènera à l’outil **phpmyad
 
 Une fois sur la page, sélectionne ta base de données dans la liste à gauche. Le nom de ta base commencera **toujours** par `zap` en préfixe.
 
-![](https://github.com/zaphosting/docs/assets/42719082/30fa6041-b94e-4ac8-a3cd-286cca226dba)
+![](https://screensaver01.zap-hosting.com/index.php/s/Qx37APa9233B7zt/preview)
 
 Si tu n’as jamais utilisé ta base, elle sera vide pour l’instant. C’est le moment d’importer le fichier .sql.
 
 Clique sur le bouton **Importer** dans la barre de navigation en haut de phpmyadmin pour ouvrir le menu d’import.
 
-![](https://github.com/zaphosting/docs/assets/42719082/c0ca30f0-c520-4a71-843a-296064ba5761)
+![](https://screensaver01.zap-hosting.com/index.php/s/McfzS8DraJsXPTZ/preview)
 
 Ensuite, clique sur le bouton **Parcourir...** qui ouvrira une fenêtre d’explorateur de fichiers. Sélectionne le fichier **.sql** que tu voulais importer à la base.
 
-![](https://github.com/zaphosting/docs/assets/42719082/83ba22fb-fc6c-4dbb-9c47-ad42d3a9fa66)
+![](https://screensaver01.zap-hosting.com/index.php/s/cfTYGYfFGMEyQbA/preview)
 
 :::note
 La taille max du fichier est de 2 Mo. Si ton fichier SQL est plus gros, utilise un splitter SQL pour découper ton fichier en plusieurs parties plus petites. On recommande l’outil [Pinetools SQL-Splitter](https://pinetools.com/split-files) qui fait ça pour toi. Une fois découpé, tu peux importer les fichiers SQL normalement.
@@ -67,7 +67,7 @@ La taille max du fichier est de 2 Mo. Si ton fichier SQL est plus gros, utilise 
 
 Enfin, clique sur le bouton **Importer** en bas de la page pour lancer l’import. Si tout s’est bien passé, tu verras un message de succès et une nouvelle table sera créée dans ta base, visible à gauche.
 
-![](https://github.com/zaphosting/docs/assets/42719082/5fef5d58-78f1-4b59-bc3e-1e0af2ff981b)
+![](https://screensaver01.zap-hosting.com/index.php/s/iyobgkNtQpnNjoH/preview)
 
 ## Conclusion
 

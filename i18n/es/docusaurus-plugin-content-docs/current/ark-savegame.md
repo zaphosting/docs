@@ -33,7 +33,7 @@ Hay dos snapshots disponibles, el primero del 25 de agosto de 2023 y el segundo 
 :::note
 El uso de tu propia copia oficial solo es posible con la variante de servidor de juegos **ARK - SE (compatible con copias oficiales)**. Si usas otra versión para tu servidor, puedes cambiarla en la sección **juegos** del panel web de tu servidor o usando nuestra [guía de cambio de juego](gameserver-gameswitch.md).
 
-![](https://github.com/zaphosting/docs/assets/42719082/8f2ac8fa-2b23-4738-8d95-87c289e9d98a)
+![](https://screensaver01.zap-hosting.com/index.php/s/Kwjyx4sDSHLTFZJ/preview)
 :::
 
 
@@ -45,7 +45,7 @@ Para importar tu propio archivo de guardado (no oficial), necesitas todos los ar
 :::note
 Para esto, deberías usar la variante regular de servidor de juegos **Ark: SE** (sin soporte para copias oficiales), ya que estás importando un archivo de guardado normal que no es oficial.
 
-![](https://github.com/zaphosting/docs/assets/42719082/43a6f039-778b-471f-82c8-91f1b8644a33)
+![](https://screensaver01.zap-hosting.com/index.php/s/FCMPjApJBjZxdR2/preview)
 :::
 
 
@@ -61,7 +61,7 @@ Con tu cliente FTP abierto, ve al siguiente subdirectorio dentro de tu servidor 
 /gxxxxx/ark/ShooterGame/Saved/SavedArks
 ```
 
-![](https://github.com/zaphosting/docs/assets/42719082/92ca6e48-346e-4f3c-80e2-972421d1f73f)
+![](https://screensaver01.zap-hosting.com/index.php/s/YXFcNPMgtbmRJJj/preview)
 
 Borra todos los archivos del guardado actual (o haz una copia de seguridad antes si quieres seguir jugando en ese guardado en el futuro). Luego, arrastra y sube todos los archivos extraídos a este directorio (incluyendo los archivos .ark, .arktribe y .arkprofile). Ten paciencia, puede tardar un poco dependiendo del tamaño total de tu guardado.
 

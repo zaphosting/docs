@@ -35,12 +35,12 @@ Der benutzerfreundlichste Weg führt dich in den Bereich **Einstellungen** im We
 
 Im Bereich **Einstellungen** suchst du nach der Option **Gameserver Passwort**. Dort legst du dein gewünschtes Passwort fest und gibst es ein.
 
-![](https://github.com/zaphosting/docs/assets/42719082/dadbd22b-2fd9-42e1-be71-f6d28a3f2938)
+![](https://screensaver01.zap-hosting.com/index.php/s/aQYQDYMP34NnNXr/preview)
 
 :::info
 Nachdem du dein Passwort ausgewählt hast, scrolle nach oben und drücke unbedingt den grünen **Speichern**-Button, um die Änderung zu bestätigen.
 
-![](https://github.com/zaphosting/docs/assets/42719082/5a4f5ab1-8079-4b20-96a6-36e4aca2e28e)
+![](https://screensaver01.zap-hosting.com/index.php/s/YG5MZ6Jt8SdFy4A/preview)
 :::
 
 </TabItem>
@@ -55,11 +55,11 @@ Der Server muss gestoppt sein, bevor die Config bearbeitet wird. Änderungen wer
 
 Alternativ kannst du die Rohdatei direkt bearbeiten, indem du im Webinterface deines Gameservers in den Bereich **Configs** gehst und den blauen Bearbeiten-Button klickst, wie hier gezeigt:
 
-![](https://github.com/zaphosting/docs/assets/42719082/53c8acad-7347-4c3e-85bf-5ae0ad423fc6)
+![](https://screensaver01.zap-hosting.com/index.php/s/2fNGG7jBdGRekKP/preview)
 
 Es öffnet sich ein Texteditor direkt auf der Seite, in dem du die Datei bearbeiten kannst. Suche die Option **AdminPassword** (hilfreich ist `STRG+F`) und ändere sie auf dein gewünschtes Admin-Passwort. Speichere die Datei anschließend und starte deinen Server.
 
-![](https://github.com/zaphosting/docs/assets/42719082/d86376b8-1a41-4fb0-b8cd-8570ddcaa9ae)
+![](https://screensaver01.zap-hosting.com/index.php/s/gpBjxxmdsWKD4t2/preview)
 
 </TabItem>
 
@@ -86,7 +86,7 @@ Im Spiel öffnest du den Chat mit `Enter`. Gib dann folgenden Befehl ein, wobei 
 /AdminPassword [password]
 ```
 
-![](https://github.com/zaphosting/docs/assets/42719082/2f6e3ee7-e83f-4b71-87dc-d36f9b8c7340)
+![](https://screensaver01.zap-hosting.com/index.php/s/75D5ejaWNM6oYNX/preview)
 
 Wenn alles korrekt ist, bekommst du eine Erfolgsmeldung im Chat. Falls eine Fehlermeldung erscheint, überprüfe bitte, ob das eingegebene Admin-Passwort korrekt ist und mit dem in der vorherigen Einstellung übereinstimmt.
 

@@ -26,7 +26,7 @@ Créez un nouveau dossier quelque part sur votre serveur, dans cet exemple nous 
 
 Lancez simplement **steamcmd.exe** et attendez que le processus d’installation soit complètement terminé.
 
-![](https://github.com/zaphosting/docs/assets/42719082/ffb8e8a1-26e3-4d16-9baf-938e17ec1613)
+![](https://screensaver01.zap-hosting.com/index.php/s/nGsEGWDrSG7gBZs/preview)
 
 Dès que le message **Loading Steam API.... OK** s’affiche, le processus est terminé avec succès et vous pouvez passer à l’installation du serveur dédié MOE dans la section suivante.
 
@@ -45,7 +45,7 @@ force_install_dir C:\MOE-Server
  
 Lancez maintenant la commande `app_update 1794810` qui va démarrer le téléchargement. L’ID de l’application **1794810** correspond à **MOE**.
 
-![](https://github.com/zaphosting/docs/assets/42719082/29931eec-fd19-4806-88dc-69e585e42370)
+![](https://screensaver01.zap-hosting.com/index.php/s/TQCbwxE8xe7TfPn/preview)
 
 :::info
 Merci de ne pas interrompre le processus avant sa fin pour éviter les erreurs. Cela peut prendre un moment, mais ça vaut le coup d’être patient ! :)
@@ -99,7 +99,7 @@ Ces commandes vont automatiquement créer les règles de pare-feu nécessaires p
 
 Utilisez la recherche Windows pour ouvrir les **Paramètres du Pare-feu Windows avec sécurité avancée**. Vous devrez peut-être cliquer sur **Paramètres avancés** pour ouvrir la fenêtre nécessaire si vous ouvrez la page de base du Pare-feu Windows.
 
-![](https://github.com/zaphosting/docs/assets/42719082/5fb9f943-7e51-4d8f-9df4-2f5ff60857d3)
+![](https://screensaver01.zap-hosting.com/index.php/s/ZT2WzELZSBPrFsB/preview)
 
 Vous devez créer de nouvelles règles pour votre serveur MOE. Pour cela, cliquez sur les règles entrantes et sortantes comme décrit ci-dessous et ajoutez-les pour les protocoles et ports suivants :
 - TCP entrant et sortant : 11888, 12888

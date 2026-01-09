@@ -33,7 +33,7 @@ Es gibt zwei Snapshots, die erstellt wurden: der erste vom 25. August 2023 und d
 :::note
 Die Nutzung deiner eigenen offiziellen Backup-Save-Datei ist nur mit der **ARK - SE (Official backupsave kompatibel)** Gameserver-Variante möglich. Wenn du eine andere Version für deinen Server nutzt, kannst du die Version im **Games**-Bereich deines Gameserver-Webinterfaces entsprechend ändern oder unsere [Game Change](gameserver-gameswitch.md) Anleitung nutzen.
 
-![](https://github.com/zaphosting/docs/assets/42719082/8f2ac8fa-2b23-4738-8d95-87c289e9d98a)
+![](https://screensaver01.zap-hosting.com/index.php/s/Kwjyx4sDSHLTFZJ/preview)
 :::
 
 
@@ -45,7 +45,7 @@ Um deine eigene Save-Datei (nicht offiziell) zu importieren, benötigst du alle 
 :::note
 Dafür solltest du die reguläre **Ark: SE** Gameserver-Variante (ohne offiziellen Backupsave-Support) verwenden, da du eine reguläre Save-Datei importierst, die nicht offiziell ist.
 
-![](https://github.com/zaphosting/docs/assets/42719082/43a6f039-778b-471f-82c8-91f1b8644a33)
+![](https://screensaver01.zap-hosting.com/index.php/s/FCMPjApJBjZxdR2/preview)
 :::
 
 
@@ -61,7 +61,7 @@ Jetzt musst du per FTP auf deinen Server zugreifen, um die Save-Dateien hochzula
 /gxxxxx/ark/ShooterGame/Saved/SavedArks
 ```
 
-![](https://github.com/zaphosting/docs/assets/42719082/92ca6e48-346e-4f3c-80e2-972421d1f73f)
+![](https://screensaver01.zap-hosting.com/index.php/s/YXFcNPMgtbmRJJj/preview)
 
 Lösche alle Dateien des aktuellen Save-Files (oder sichere sie vorher, falls du später noch auf diesem Save spielen möchtest). Ziehe dann alle entpackten Dateien in dieses Verzeichnis (inklusive .ark, .arktribe und .arkprofile Dateien). Bitte hab Geduld, das Hochladen kann je nach Größe deiner Save-Datei eine Weile dauern.
 

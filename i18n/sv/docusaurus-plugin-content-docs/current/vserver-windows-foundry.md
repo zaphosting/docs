@@ -27,7 +27,7 @@ Skapa en ny mapp någonstans på servern, vi kallar den `steamcmd` i det här ex
 
 Kör helt enkelt **steamcmd.exe** och vänta tills installationen är klar.
 
-![](https://github.com/zaphosting/docs/assets/42719082/ffb8e8a1-26e3-4d16-9baf-938e17ec1613)
+![](https://screensaver01.zap-hosting.com/index.php/s/nGsEGWDrSG7gBZs/preview)
 
 När meddelandet **Loading Steam API.... OK** visas är installationen klar och du kan gå vidare till nästa steg med Foundry-serverinstallationen.
 
@@ -46,7 +46,7 @@ force_install_dir C:\Foundry-Server
 
 Kör sedan kommandot `app_update 2915550` för att starta nedladdningen. App-ID **2915550** är Foundry.
 
-![](https://github.com/zaphosting/docs/assets/42719082/b265a784-cf9a-43dc-b100-376f080e18f3)
+![](https://screensaver01.zap-hosting.com/index.php/s/5wtdbQbZoj6WbTN/preview)
 
 :::info
 Avbryt inte processen innan den är klar för att undvika fel. Det kan ta en stund, men det är värt att ha tålamod! :)
@@ -86,7 +86,7 @@ Dessa kommandon skapar automatiskt brandväggsregler som behövs för att din Fo
 
 Sök efter **Windows Firewall Settings with Advanced Security** i Windows och öppna det. Om du bara kommer till grundinställningarna, klicka på **Advanced Settings** för att öppna rätt fönster.
 
-![](https://github.com/zaphosting/docs/assets/42719082/5fb9f943-7e51-4d8f-9df4-2f5ff60857d3)
+![](https://screensaver01.zap-hosting.com/index.php/s/ZT2WzELZSBPrFsB/preview)
 
 Skapa nya regler för din Foundry-server. Lägg till regler för inkommande och utgående trafik med följande protokoll och portar:
 - TCP inkommande och utgående: 3724, 27015

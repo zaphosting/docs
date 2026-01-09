@@ -36,7 +36,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 في مثالنا، يمكنك رؤية إنشاء نطاق فرعي جديد باستخدام نطاق `.zap.cloud`، والذي سيقودنا إلى سيرفر TeamSpeak 3 الخاص بنا عند استخدامه.
 
-![](https://github.com/zaphosting/docs/assets/42719082/5b311ff1-625c-4f6d-82b8-6847d432beb9)
+![](https://screensaver01.zap-hosting.com/index.php/s/Mi3wK7cY639Rp3x/preview)
 
 :::note
 يرجى ملاحظة أنه قد يستغرق الأمر حتى 3 ساعات لانتشار النطاق وبدء عمله.

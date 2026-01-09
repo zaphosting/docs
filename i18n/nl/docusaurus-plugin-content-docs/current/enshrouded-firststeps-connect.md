@@ -29,7 +29,7 @@ Je hebt alle relevante info nodig om verbinding te maken met je server. Deze inf
 
 Met bovenstaande info kun je je server vinden en zeker weten dat je met de juiste server verbindt.
 
-![img](https://github.com/zaphosting/docs/assets/42719082/aaeee832-8cd0-4ac0-9769-f498eace4892)
+![img](https://screensaver01.zap-hosting.com/index.php/s/32ftNaw9rjA27a3/preview)
 
 
 

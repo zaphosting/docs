@@ -29,7 +29,7 @@ Du behöver all relevant info för att kunna ansluta till din server. Informatio
 
 Med info ovan ska du enkelt kunna hitta din server och se till att du ansluter till rätt server.
 
-![img](https://github.com/zaphosting/docs/assets/42719082/aaeee832-8cd0-4ac0-9769-f498eace4892)
+![img](https://screensaver01.zap-hosting.com/index.php/s/32ftNaw9rjA27a3/preview)
 
 
 

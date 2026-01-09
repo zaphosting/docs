@@ -68,7 +68,7 @@ I webbgränssnittet kan du använda knappen **Direktanslutning**. Detta öppnar 
 
 Alternativt kan du använda de inloggningsuppgifter som visas på FTP-Browser-sidan för att manuellt ansluta via din FTP-klient.
 
-![](https://github.com/zaphosting/docs/assets/42719082/af255f46-3371-441e-b6db-4348e6be2e54)
+![](https://screensaver01.zap-hosting.com/index.php/s/nWYPNMRbnrDbDLF/preview)
 
 Nu måste du ladda upp PAK-filerna för modden du förberedde tidigare. Du måste ladda upp dem till följande mapp:
 ```

@@ -92,7 +92,7 @@ Ces commandes vont créer automatiquement les règles de pare-feu nécessaires p
 
 Utilise la recherche Windows pour ouvrir les **Paramètres du pare-feu Windows avec sécurité avancée**. Tu devras peut-être cliquer sur **Paramètres avancés** pour ouvrir la fenêtre complète si tu es sur la page de base du pare-feu.
 
-![image](https://github.com/zaphosting/docs/assets/42719082/5fb9f943-7e51-4d8f-9df4-2f5ff60857d3)
+![image](https://screensaver01.zap-hosting.com/index.php/s/ZT2WzELZSBPrFsB/preview)
 
 Tu dois créer de nouvelles règles pour ton serveur RageMP. Pour ça, clique sur les règles entrantes et sortantes comme décrit ci-dessous et ajoute-les pour les protocoles et ports suivants :
 

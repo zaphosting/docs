@@ -137,7 +137,7 @@ Deze regels maken automatisch firewallregels aan die nodig zijn om je Farming Si
 
 Open via de zoekfunctie in Windows **Windows Firewall instellingen met geavanceerde beveiliging**. Mogelijk moet je eerst op **Geavanceerde instellingen** klikken om het juiste venster te openen.
 
-![](https://github.com/zaphosting/docs/assets/42719082/5fb9f943-7e51-4d8f-9df4-2f5ff60857d3)
+![](https://screensaver01.zap-hosting.com/index.php/s/ZT2WzELZSBPrFsB/preview)
 
 Maak nieuwe regels aan voor je FS2025 Server. Voeg deze toe voor de volgende protocollen en poorten:
 - TCP inkomend en uitgaand: 8080, 10823

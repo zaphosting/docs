@@ -34,7 +34,7 @@ Nella sezione **Amministrazione del Prodotto** trovi tutte le pagine necessarie 
 
 La **Dashboard** del tuo server è il cuore dell’amministrazione. Qui trovi tutte le info base ed essenziali sul tuo servizio in modo chiaro. Per esempio, informazioni sulla posizione, stato, IP: Porta, memoria usata, gioco in corso, nome del server, mappa e numero di slot disponibili. Inoltre, viene mostrato anche l’utilizzo di CPU, memoria e RAM.
 
-![](https://github.com/zaphosting/docs/assets/42719082/d0090c65-ec60-4963-a483-69235ba24a6c)
+![](https://screensaver01.zap-hosting.com/index.php/s/qo7zwFkwwt3ot3b/preview)
 
 Dal dashboard puoi anche avviare, fermare o riavviare il servizio per avere il pieno controllo del suo funzionamento. Inoltre, puoi accedere alla console live per avere info in tempo reale sullo stato del server e intervenire subito se serve.
 
@@ -46,7 +46,8 @@ Dal dashboard puoi anche avviare, fermare o riavviare il servizio per avere il p
 ### DDoS Manager
 
 
-Visualizza gli attacchi DDoS passati per valutare meglio potenziali minacce e pattern. Attiva le notifiche per attacchi DDoS in corso sul tuo server così da reagire velocemente in caso di problemi.
+
+Visualizza gli attacchi DDoS passati per valutare meglio potenziali minacce e pattern. Attiva le notifiche per attacchi DDoS in corso sul tuo server così da reagire velocemente in caso di problemi.
 
 A seconda della posizione del server e della protezione DDoS disponibile, puoi anche monitorare gli attacchi attivi in tempo reale. Questo include dettagli sul traffico, mostrando sia il traffico legittimo che quello bloccato dai sistemi di mitigazione. Questo livello di trasparenza ti aiuta a capire come funziona la protezione e a identificare rischi potenziali in anticipo.
 

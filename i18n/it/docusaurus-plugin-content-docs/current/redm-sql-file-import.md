@@ -25,12 +25,12 @@ Spesso, nei file scaricati per la risorsa, troverai uno o più file con estensio
 
 In questo esempio importeremo il file SQL per il framework RP **RedEM**. Dovresti preparare il file SQL per la risorsa che vuoi importare. Puoi farlo aprendo la cartella della risorsa che richiede un database e cercando un file con estensione **.sql**.
 
-![](https://github.com/zaphosting/docs/assets/42719082/331d2a3d-0d81-4b39-8ad6-d0aba84ff19c)
+![](https://screensaver01.zap-hosting.com/index.php/s/QTeYKS3MrXTPi76/preview)
 
 :::info
 Prima di procedere con l'importazione, apri il file .sql con un editor di testo e verifica se sono presenti queste righe:
 
-![](https://github.com/zaphosting/docs/assets/42719082/dfc43c55-9918-45e7-99eb-1f70193c0be1)
+![](https://screensaver01.zap-hosting.com/index.php/s/wXLmBpmiwYp3Zzo/preview)
 
 Se ci sono, assicurati di rimuovere le righe `CREATE` e `USE` del database e salva il file, altrimenti il file SQL non potrà essere importato.
 
@@ -41,7 +41,7 @@ Questo perché la prima riga dichiara la creazione di un nuovo database, ma non 
 
 Ora accedi alla sezione **Database** nel pannello web del tuo game server.
 
-![](https://github.com/zaphosting/docs/assets/42719082/5f0f81ec-832b-4b9e-a39a-8ec78fd10890)
+![](https://screensaver01.zap-hosting.com/index.php/s/mq2JdMmfiaqjtND/preview)
 
 Nella pagina del database troverai varie funzioni per gestire il database, come backup, creazione, gestione e altro. Qui ci concentreremo sull’accesso al database, ma dai un’occhiata alle nostre altre guide se vuoi approfondire: [Accesso esterno al database](gameserver-database-external-access.md).
 
@@ -49,17 +49,17 @@ Clicca sull’icona blu di reindirizzamento che ti porterà allo strumento **php
 
 Una volta dentro, seleziona il tuo database dalla lista a sinistra. Il nome del database **inizierà sempre** con il prefisso `zap`.
 
-![](https://github.com/zaphosting/docs/assets/42719082/30fa6041-b94e-4ac8-a3cd-286cca226dba)
+![](https://screensaver01.zap-hosting.com/index.php/s/Qx37APa9233B7zt/preview)
 
 Se non hai mai usato il database, sarà vuoto. Ora puoi finalmente importare il file .sql.
 
 Clicca sul pulsante **Importa** nella barra di navigazione in alto su phpmyadmin per aprire il menu di importazione.
 
-![](https://github.com/zaphosting/docs/assets/42719082/c0ca30f0-c520-4a71-843a-296064ba5761)
+![](https://screensaver01.zap-hosting.com/index.php/s/McfzS8DraJsXPTZ/preview)
 
 Poi clicca su **Sfoglia...** per aprire l’esplora file. Seleziona il file **.sql** che vuoi importare.
 
-![](https://github.com/zaphosting/docs/assets/42719082/02d09225-a68d-498b-a2bd-df57386ce242)
+![](https://screensaver01.zap-hosting.com/index.php/s/Dk2Q2QgHzYEMCsa/preview)
 
 :::note
 La dimensione massima del file è 2MB. Se il tuo file SQL è più grande, usa uno splitter SQL per dividerlo in parti più piccole. Ti consigliamo lo strumento [Pinetools SQL-Splitter](https://pinetools.com/split-files) che fa tutto per te. Poi potrai importare i file SQL normalmente.
@@ -67,7 +67,7 @@ La dimensione massima del file è 2MB. Se il tuo file SQL è più grande, usa un
 
 Infine, clicca su **Importa** in fondo alla pagina per avviare l’importazione. Se tutto è andato bene, vedrai un messaggio di successo e una nuova tabella sarà creata nel database, visibile a sinistra.
 
-![](https://github.com/zaphosting/docs/assets/42719082/5fef5d58-78f1-4b59-bc3e-1e0af2ff981b)
+![](https://screensaver01.zap-hosting.com/index.php/s/iyobgkNtQpnNjoH/preview)
 
 Hai importato con successo un file SQL nel database del tuo game server!
 

@@ -41,7 +41,7 @@ sidebar_label: الإعلان المجتمعي
 يجب أن يشير الرابط إلى الإعلان الذي تم إنشاؤه لهذا الغرض. إذا لم يحتوي الرابط على أي إعلان، فسيتم رفضه.
 :::
 
-![](https://github.com/zaphosting/docs/assets/42719082/d94273e7-3c97-4d62-a77a-7901d0293c7f)
+![](https://screensaver01.zap-hosting.com/index.php/s/keEHsk3E5jfxWEP/preview)
 
 
 
@@ -49,7 +49,7 @@ sidebar_label: الإعلان المجتمعي
 
 يمكنك تحويل رصيد إعلانك المجتمعي إما إلى صندوق النقود الخاص بك (ZAP Coins) أو إلى أموال حقيقية. عد إلى صفحة [الإعلان المجتمعي](https://zap-hosting.com/en/customer/communityads/) واضغط على زر **الدفع/التحويل** الأزرق.
 
-![](https://github.com/zaphosting/docs/assets/42719082/076c45aa-2851-4a0d-b5ed-27ca57102b15)
+![](https://screensaver01.zap-hosting.com/index.php/s/cMKXcgtQXs48Xs2/preview)
 
 
 
@@ -63,7 +63,7 @@ sidebar_label: الإعلان المجتمعي
 
 في قائمة الخيارات، اختر **رصيد ZAP Coin** كخيار. اختر ما إذا كنت تريد تحويل الرصيد بالكامل أو جزءًا معينًا منه. بمجرد الانتهاء، اضغط على زر **تحويل** الأخضر للتأكيد.
 
-![](https://github.com/zaphosting/docs/assets/42719082/27807ca4-4ee7-4e70-92f8-23b887bfef90)
+![](https://screensaver01.zap-hosting.com/index.php/s/cpMSzbJaDzGRTi8/preview)
 
 
 

@@ -25,12 +25,12 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ในตัวอย่างนี้ เราจะนำเข้าไฟล์ SQL สำหรับ **ESX** คุณควรเตรียมไฟล์ SQL สำหรับทรัพยากรที่คุณต้องการนำเข้า โดยการเปิดโฟลเดอร์ของทรัพยากรที่ต้องใช้ฐานข้อมูลและค้นหาไฟล์ที่มีนามสกุล **.sql**
 
-![](https://github.com/zaphosting/docs/assets/42719082/3d2b4cd2-d98e-4b25-b606-9f451164edc9)
+![](https://screensaver01.zap-hosting.com/index.php/s/3YMrCZ29pc87aW8/preview)
 
 :::info
 ก่อนดำเนินการนำเข้า คุณควรเปิดไฟล์ .sql ด้วยโปรแกรมแก้ไขข้อความใดก็ได้และตรวจสอบว่ามีบรรทัดต่อไปนี้หรือไม่:
 
-![](https://github.com/zaphosting/docs/assets/42719082/dfc43c55-9918-45e7-99eb-1f70193c0be1)
+![](https://screensaver01.zap-hosting.com/index.php/s/wXLmBpmiwYp3Zzo/preview)
 
 ถ้าพบบรรทัดเหล่านี้ในไฟล์ .sql ของคุณ ให้ลบบรรทัด `CREATE` และ `USE` ของฐานข้อมูลออกและบันทึกไฟล์ใหม่ มิฉะนั้นไฟล์ SQL จะไม่สามารถนำเข้าได้
 
@@ -41,7 +41,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ตอนนี้คุณควรเข้าไปที่ส่วน **Database** ในเว็บอินเทอร์เฟซของเซิร์ฟเวอร์เกมของคุณ
 
-![](https://github.com/zaphosting/docs/assets/42719082/83ba522a-929e-4a90-8c9e-0badc2d779d4)
+![](https://screensaver01.zap-hosting.com/index.php/s/jk6BBm4d5dDtNcd/preview)
 
 ในหน้าฐานข้อมูล คุณจะเห็นฟังก์ชันต่าง ๆ สำหรับจัดการฐานข้อมูลของคุณ รวมถึงตัวเลือกในการสำรองข้อมูล สร้าง จัดการ และอื่น ๆ เราจะเน้นที่การเข้าถึงฐานข้อมูลของคุณเป็นหลัก แต่ถ้าคุณต้องการข้อมูลเพิ่มเติม ลองดูคู่มือฐานข้อมูลอื่น ๆ ของเราได้ที่: [การเข้าถึงฐานข้อมูลภายนอก](gameserver-database-external-access.md)
 
@@ -49,17 +49,17 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 เมื่ออยู่ในหน้านั้น ให้เลือกฐานข้อมูลของคุณจากรายการทางซ้าย ชื่อฐานข้อมูลของคุณจะ **เริ่มต้นเสมอ** ด้วย `zap` เป็นคำนำหน้า
 
-![](https://github.com/zaphosting/docs/assets/42719082/30fa6041-b94e-4ac8-a3cd-286cca226dba)
+![](https://screensaver01.zap-hosting.com/index.php/s/Qx37APa9233B7zt/preview)
 
 ในตอนนี้ ฐานข้อมูลของคุณจะยังว่างเปล่าหากคุณยังไม่เคยใช้งานมาก่อน ตอนนี้คุณก็พร้อมที่จะนำเข้าไฟล์ .sql แล้ว
 
 กดปุ่ม **Import** ที่แถบนำทางด้านบนของ phpmyadmin เพื่อเปิดเมนูนำเข้า
 
-![](https://github.com/zaphosting/docs/assets/42719082/c0ca30f0-c520-4a71-843a-296064ba5761)
+![](https://screensaver01.zap-hosting.com/index.php/s/McfzS8DraJsXPTZ/preview)
 
 ถัดไป ให้กดปุ่ม **Browse...** ซึ่งจะเปิดหน้าต่างตัวเลือกไฟล์ เลือกไฟล์ **.sql** ที่คุณต้องการนำเข้า
 
-![](https://github.com/zaphosting/docs/assets/42719082/83ba22fb-fc6c-4dbb-9c47-ad42d3a9fa66)
+![](https://screensaver01.zap-hosting.com/index.php/s/cfTYGYfFGMEyQbA/preview)
 
 :::note
 ขนาดไฟล์สูงสุดคือ 2MB หากไฟล์ SQL ของคุณใหญ่กว่านี้ คุณควรใช้โปรแกรมแบ่งไฟล์ SQL เพื่อแยกไฟล์ SQL ขนาดใหญ่เป็นส่วนเล็ก ๆ เราแนะนำเครื่องมือ [Pinetools SQL-Splitter](https://pinetools.com/split-files) ที่ช่วยทำให้คุณได้ง่าย ๆ เมื่อเสร็จแล้ว คุณก็สามารถนำเข้าไฟล์ SQL เหล่านั้นได้ตามปกติ
@@ -67,7 +67,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 สุดท้าย กดปุ่ม **Import** ที่ด้านล่างของหน้าเพื่อเริ่มกระบวนการนำเข้า หากทุกอย่างถูกต้อง คุณจะเห็นข้อความยืนยันความสำเร็จและตารางใหม่จะถูกสร้างขึ้นในฐานข้อมูลของคุณ ซึ่งคุณสามารถดูได้ทางด้านซ้าย
 
-![](https://github.com/zaphosting/docs/assets/42719082/5fef5d58-78f1-4b59-bc3e-1e0af2ff981b)
+![](https://screensaver01.zap-hosting.com/index.php/s/iyobgkNtQpnNjoH/preview)
 
 ## สรุป
 

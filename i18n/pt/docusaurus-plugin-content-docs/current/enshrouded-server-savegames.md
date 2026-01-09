@@ -36,7 +36,7 @@ Em instalações padrão, a pasta Steam estará no seu drive do sistema operacio
 
 Quando chegar nessa pasta, você verá um arquivo de personagens junto com todos os seus savegames locais em um só lugar.
 
-![](https://github.com/zaphosting/docs/assets/42719082/31022018-3072-4b40-85f0-77f9da992ccc)
+![](https://screensaver01.zap-hosting.com/index.php/s/dyydLNzQt7ZWRPx/preview)
 
 :::note
 Se você **não** estiver usando o Steam Cloud para salvar, poderá encontrar sua pasta de save no seguinte diretório: `C://Users/[seuusuario]/Saved Games/Enshrouded`.
@@ -51,7 +51,7 @@ Fazer backup do seu savegame no servidor é fácil. Depois de se conectar ao seu
 
 Nesse local, você verá um arquivo com caracteres aleatórios que é o seu savegame. Basta clicar com o botão direito no arquivo e usar o botão **Download** para salvar localmente no seu dispositivo.
 
-![](https://github.com/zaphosting/docs/assets/42719082/e7c230a3-a2cb-4ae0-a0dc-6d2211edd06c)
+![](https://screensaver01.zap-hosting.com/index.php/s/wTcodeKXYq3RBfY/preview)
 
 ### Backup Automático
 
@@ -64,7 +64,7 @@ Assim como fazer backup, enviar seu savegame é simples. Primeiro, conecte-se ao
 ../enshrouded/savegame/
 ```
 
-![](https://github.com/zaphosting/docs/assets/42719082/e465680f-65bc-456d-bd99-fbdff755defb)
+![](https://screensaver01.zap-hosting.com/index.php/s/gJW8wSapi4Bo2gw/preview)
 
 Basta arrastar e soltar qualquer um dos seus savegames nessa pasta pelo Cliente FTP que ele será enviado para o seu servidor.
 

@@ -26,7 +26,7 @@ Crie uma nova pasta em algum lugar no seu servidor, neste exemplo vamos chamar d
 
 Basta executar o **steamcmd.exe** e aguardar até que o processo de instalação seja concluído.
 
-![](https://github.com/zaphosting/docs/assets/42719082/ffb8e8a1-26e3-4d16-9baf-938e17ec1613)
+![](https://screensaver01.zap-hosting.com/index.php/s/nGsEGWDrSG7gBZs/preview)
 
 Assim que a mensagem **Loading Steam API.... OK** aparecer, o processo foi concluído com sucesso e você pode começar a instalação do servidor dedicado Enshrouded na próxima seção.
 
@@ -45,7 +45,7 @@ force_install_dir C:\Enshrouded-Server
 
 Agora execute o comando `app_update 2278520` que iniciará o download. O App ID **2278520** é o aplicativo **Enshrouded**.
 
-![](https://github.com/zaphosting/docs/assets/42719082/29931eec-fd19-4806-88dc-69e585e42370)
+![](https://screensaver01.zap-hosting.com/index.php/s/TQCbwxE8xe7TfPn/preview)
 
 :::info
 Por favor, não interrompa o processo antes de terminar para evitar erros. Pode demorar um pouco, mas vale a pena ter paciência! :)
@@ -85,7 +85,7 @@ Esses comandos vão criar automaticamente as regras de firewall necessárias par
 
 Use a busca do Windows para abrir as **Configurações do Firewall do Windows com Segurança Avançada**. Talvez precise clicar em **Configurações Avançadas** para abrir a janela correta se abrir a página básica do Firewall.
 
-![](https://github.com/zaphosting/docs/assets/42719082/5fb9f943-7e51-4d8f-9df4-2f5ff60857d3)
+![](https://screensaver01.zap-hosting.com/index.php/s/ZT2WzELZSBPrFsB/preview)
 
 Você precisa criar novas regras para seu servidor Enshrouded. Para isso, clique nas regras de entrada e saída conforme descrito abaixo e adicione para os seguintes protocolos e portas:
 - TCP entrada e saída: 15636-15637

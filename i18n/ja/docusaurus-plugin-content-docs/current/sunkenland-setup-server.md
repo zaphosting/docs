@@ -42,7 +42,7 @@ Sunkenlandサーバーは正しく動作させるために、初回に簡単な�
 接続したら、Sunkenlandフォルダ内の「AppData」フォルダ、その中の「Worlds」フォルダを開き、先ほどのセーブゲームをアップロードします。
 
 フォルダ構成は以下のようになります。`Marvin's World~cef76ff5-447a-48df-b3a8-74b9ea5b7a86` はあなたのセーブゲーム名です。
-![](https://github.com/zaphosting/docs/assets/13604413/40aecc3b-4a8a-4477-8c09-d56ec412883e)
+![](https://screensaver01.zap-hosting.com/index.php/s/eFg6Ek3giFM3DLs/preview)
 
 :::important
 この段階で、セーブゲーム名の末尾にあるGUIDをコピーしてください。次のステップでサーバーを動かすのに必要です。

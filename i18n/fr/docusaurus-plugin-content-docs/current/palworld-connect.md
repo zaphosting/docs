@@ -26,7 +26,7 @@ On a maintenant une version de jeu **Palworld (Xbox)** dispo sur nos serveurs de
 
 D’abord, il vous faut connaître l’adresse IP et le port de votre serveur Palworld pour pouvoir vous connecter directement. Allez simplement sur votre [interface web ZAP-Hosting](https://zap-hosting.com/en/customer/) et récupérez l’IP complète et le port.
 
-![](https://github.com/zaphosting/docs/assets/42719082/62bcad5b-064c-45cd-a7f0-406a1148b15c)
+![](https://screensaver01.zap-hosting.com/index.php/s/DRxKHE7bP3FbFMo/preview)
 
 Si vous hébergez votre serveur Palworld sur un serveur dédié externe, l’IP sera celle de la machine hôte et le port celui que vous avez configuré dans votre fichier de config (par défaut c’est 8211). Pour plus d’infos sur le port, consultez notre [guide de configuration du serveur](palworld-configuration.md).
 
@@ -34,7 +34,7 @@ Si vous hébergez votre serveur Palworld sur un serveur dédié externe, l’IP 
 
 Lancez Palworld depuis votre launcher de jeu. Dans le menu principal, choisissez **Rejoindre une partie multijoueur**.
 
-![](https://github.com/zaphosting/docs/assets/42719082/fefc7ead-5098-4bdb-aa56-c9d78673d7e8)
+![](https://screensaver01.zap-hosting.com/index.php/s/TZzLAS29rnpPmi6/preview)
 
 Dans le navigateur de serveurs dédiés, descendez tout en bas de la page. Entrez votre IP et votre port dans la barre de recherche en bas. Quand c’est prêt, cliquez sur le bouton **Connexion** et vous rejoindrez votre serveur.
 
@@ -42,7 +42,7 @@ Dans le navigateur de serveurs dédiés, descendez tout en bas de la page. Entre
 Assurez-vous d’utiliser la barre de recherche en bas, pas celle en haut. Celle du haut sert à chercher des serveurs par nom dans la liste.
 :::
 
-![](https://github.com/zaphosting/docs/assets/42719082/ae31ddee-8992-486a-aef3-e6e4d115f018)
+![](https://screensaver01.zap-hosting.com/index.php/s/CG5gARbSxC3RpTb/preview)
 
 Si vous n’arrivez pas à rejoindre le serveur et que vous avez une erreur de timeout, vérifiez que l’IP et le port sont corrects et que votre serveur est bien en ligne. Vous pouvez utiliser la console dans votre interface web pour votre serveur Palworld pour vous aider à débugger.
 

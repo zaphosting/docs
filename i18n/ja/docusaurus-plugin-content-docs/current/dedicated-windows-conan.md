@@ -29,7 +29,7 @@ SteamCMDの代わりに、Conan Exilesの開発者がWindowsで使える便利�
 
 **steamcmd.exe**を実行して、インストールが完了するまで待とう。
 
-![](https://github.com/zaphosting/docs/assets/42719082/ffb8e8a1-26e3-4d16-9baf-938e17ec1613)
+![](https://screensaver01.zap-hosting.com/index.php/s/nGsEGWDrSG7gBZs/preview)
 
 「**Loading Steam API.... OK**」のメッセージが出たら、インストール完了。次のセクションでConan Exiles専用サーバーのインストールに進もう。
 
@@ -48,7 +48,7 @@ force_install_dir C:\Conan-Server
 
 次に、`app_update 443030`コマンドを実行するとダウンロードが始まるよ。App ID **443030**は**Conan Exiles**のIDだよ。
 
-![](https://github.com/zaphosting/docs/assets/42719082/29931eec-fd19-4806-88dc-69e585e42370)
+![](https://screensaver01.zap-hosting.com/index.php/s/TQCbwxE8xe7TfPn/preview)
 
 :::info
 ダウンロードが完了するまで中断しないでね。少し時間がかかるけど、焦らず待とう！ :)
@@ -88,7 +88,7 @@ New-NetFirewallRule -DisplayName "Conan Exiles Server" -Direction Outbound -Loca
 
 Windowsの検索で**Windows Firewall Settings with Advanced Security**を開こう。基本のWindowsファイアウォール画面からは、**詳細設定**をクリックして必要な画面を開く必要があるかも。
 
-![](https://github.com/zaphosting/docs/assets/42719082/5fb9f943-7e51-4d8f-9df4-2f5ff60857d3)
+![](https://screensaver01.zap-hosting.com/index.php/s/ZT2WzELZSBPrFsB/preview)
 
 Conan Exilesサーバー用に新しいルールを作成しよう。以下のプロトコルとポートで、受信と送信の両方のルールを追加してね：
 - TCP 受信・送信: 7777, 25575

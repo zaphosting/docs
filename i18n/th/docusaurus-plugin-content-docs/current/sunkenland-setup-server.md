@@ -42,7 +42,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 เมื่อเชื่อมต่อแล้ว ให้ไปที่โฟลเดอร์ Sunkenland แล้วเปิดโฟลเดอร์ "AppData" จากนั้นเข้าโฟลเดอร์ "Worlds" เลือกไฟล์บันทึกเกมจากขั้นตอนก่อนหน้าและอัปโหลดไปยังโฟลเดอร์นี้
 
 โครงสร้างโฟลเดอร์ควรจะเป็นแบบนี้ โดยที่ `Marvin's World~cef76ff5-447a-48df-b3a8-74b9ea5b7a86` คือไฟล์บันทึกเกมของคุณเอง
-![](https://github.com/zaphosting/docs/assets/13604413/40aecc3b-4a8a-4477-8c09-d56ec412883e)
+![](https://screensaver01.zap-hosting.com/index.php/s/eFg6Ek3giFM3DLs/preview)
 
 :::important
 ในขั้นตอนนี้ กรุณาคัดลอก GUID ที่อยู่ท้ายชื่อไฟล์บันทึกโลก คุณจะต้องใช้ในขั้นตอนถัดไปเพื่อให้เซิร์ฟเวอร์ทำงานได้

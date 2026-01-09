@@ -42,7 +42,7 @@ Börja med att ansluta till din server via en FTP-klient med de inloggningsuppgi
 När du är ansluten, gå till Sunkenland-mappen, öppna "AppData" och sedan "Worlds". Välj sparfilen från föregående steg och ladda upp den hit.
 
 Mappstrukturen ska nu se ut så här, där `Marvin's World~cef76ff5-447a-48df-b3a8-74b9ea5b7a86` är din sparfil.
-![](https://github.com/zaphosting/docs/assets/13604413/40aecc3b-4a8a-4477-8c09-d56ec412883e)
+![](https://screensaver01.zap-hosting.com/index.php/s/eFg6Ek3giFM3DLs/preview)
 
 :::important
 Kopiera GUID:en som står i slutet av världens namn i sparfilen. Du behöver den i nästa steg för att få servern att fungera.

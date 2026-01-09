@@ -26,7 +26,7 @@ Vi har nu en separat **Palworld (Xbox)**-version tillgänglig på våra Gameserv
 
 Först och främst behöver du veta IP och Port till din Palworld-server för att kunna ansluta direkt. Gå helt enkelt till ditt [ZAP-Hosting webbgränssnitt](https://zap-hosting.com/en/customer/) på sajten och ha IP och Port redo.
 
-![](https://github.com/zaphosting/docs/assets/42719082/62bcad5b-064c-45cd-a7f0-406a1148b15c)
+![](https://screensaver01.zap-hosting.com/index.php/s/DRxKHE7bP3FbFMo/preview)
 
 Om du kör din Palworld-server som en extern dedikerad server är IP:t den hostande maskinens och Porten den du satt i din konfigurationsfil (standard är 8211). Kolla in vår [Serverkonfiguration](palworld-configuration.md)-guide för mer info om porten.
 
@@ -34,7 +34,7 @@ Om du kör din Palworld-server som en extern dedikerad server är IP:t den hosta
 
 Börja med att starta Palworld från din spelklient. I huvudmenyn väljer du **Join Multiplayer Game**.
 
-![](https://github.com/zaphosting/docs/assets/42719082/fefc7ead-5098-4bdb-aa56-c9d78673d7e8)
+![](https://screensaver01.zap-hosting.com/index.php/s/TZzLAS29rnpPmi6/preview)
 
 I den dedikerade serverbläddraren scrollar du ner till botten av sidan. Skriv in din IP och Port i sökrutan längst ner. När du är redo, klicka på **Connect** och du ansluts till din server.
 
@@ -42,7 +42,7 @@ I den dedikerade serverbläddraren scrollar du ner till botten av sidan. Skriv i
 Se till att använda sökrutan längst ner, inte den överst. Den översta används för att söka efter servrar via namn i serverlistan.
 :::
 
-![](https://github.com/zaphosting/docs/assets/42719082/ae31ddee-8992-486a-aef3-e6e4d115f018)
+![](https://screensaver01.zap-hosting.com/index.php/s/CG5gARbSxC3RpTb/preview)
 
 Om du inte kan ansluta och får ett timeout-fel, dubbelkolla att IP och Port är korrekta och att din server är online. Du kan använda konsolsektionen i ditt webbgränssnitt för Palworld-servern för att felsöka.
 

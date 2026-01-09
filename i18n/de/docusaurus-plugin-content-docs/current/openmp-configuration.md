@@ -45,7 +45,7 @@ Der Server muss gestoppt sein, bevor die Config bearbeitet wird. Änderungen geh
 
 Für Nutzer, die die Datei und alle Konfigurationsoptionen direkt bearbeiten wollen, kannst du das über den Bereich **Configs** im Webinterface deines Gameservers machen. Drücke dort den blauen Button zum Bearbeiten der Datei, wie hier gezeigt:
 
-![](https://github.com/zaphosting/docs/assets/42719082/6a147644-8bfb-4e5d-bff5-3e2c5d999e64)
+![](https://screensaver01.zap-hosting.com/index.php/s/izzL3f9FaGdc9ay/preview)
 
 Das öffnet einen Texteditor direkt auf der Seite, mit dem du die Datei bearbeiten kannst.
 

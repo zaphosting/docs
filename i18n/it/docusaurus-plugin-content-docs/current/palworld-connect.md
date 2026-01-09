@@ -26,7 +26,7 @@ Ora abbiamo una versione di gioco separata **Palworld (Xbox)** disponibile sui n
 
 Prima di tutto, devi conoscere l’IP e la Porta del tuo server Palworld per poterti connettere direttamente. Vai semplicemente al tuo [webinterface ZAP-Hosting](https://zap-hosting.com/en/customer/) sul sito e prendi nota dell’IP completo e della Porta.
 
-![](https://github.com/zaphosting/docs/assets/42719082/62bcad5b-064c-45cd-a7f0-406a1148b15c)
+![](https://screensaver01.zap-hosting.com/index.php/s/DRxKHE7bP3FbFMo/preview)
 
 Se stai gestendo il tuo server Palworld come server dedicato esterno, l’IP sarà quello della macchina host e la Porta sarà quella che hai impostato nel file di configurazione (di default è 8211). Dai un’occhiata alla nostra guida [Configurazione Server](palworld-configuration.md) per maggiori dettagli sulla porta.
 
@@ -34,7 +34,7 @@ Se stai gestendo il tuo server Palworld come server dedicato esterno, l’IP sar
 
 Inizia avviando Palworld dal tuo launcher di gioco. Nel menu principale, seleziona **Join Multiplayer Game**.
 
-![](https://github.com/zaphosting/docs/assets/42719082/fefc7ead-5098-4bdb-aa56-c9d78673d7e8)
+![](https://screensaver01.zap-hosting.com/index.php/s/TZzLAS29rnpPmi6/preview)
 
 Nel browser dei server dedicati, scorri fino in fondo alla pagina. Inserisci i dati di IP e Porta nella casella di ricerca in basso. Quando sei pronto, premi il pulsante **Connect** e sarai dentro al tuo server.
 
@@ -42,7 +42,7 @@ Nel browser dei server dedicati, scorri fino in fondo alla pagina. Inserisci i d
 Assicurati di usare la casella di ricerca in basso, non quella in alto. Quella in alto serve per cercare server per nome nella lista.
 :::
 
-![](https://github.com/zaphosting/docs/assets/42719082/ae31ddee-8992-486a-aef3-e6e4d115f018)
+![](https://screensaver01.zap-hosting.com/index.php/s/CG5gARbSxC3RpTb/preview)
 
 Se non riesci a entrare nel server e ricevi un errore di timeout, controlla che IP e Porta inseriti siano corretti e che il server sia online. Puoi usare la sezione console del tuo webinterface per il server Palworld per aiutarti nel debug.
 

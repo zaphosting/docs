@@ -37,7 +37,7 @@ Mods só funcionam com uma versão específica do modloader. Você precisa confe
 
 Vá para a página do mod / modpack que escolheu e clique na aba "Files".
 
-![](https://github.com/Yoshlix/docs/assets/26007280/cc528cf6-9fc8-4524-aca0-b954e24716f8)
+![](https://screensaver01.zap-hosting.com/index.php/s/abryep5KdQcqpAi/preview)
 
 
 Encontre a versão que quer e clique nela para ir para a seção "File Details".
@@ -45,7 +45,7 @@ Encontre a versão que quer e clique nela para ir para a seção "File Details".
 :::tip
 Você pode filtrar por versão e modloader usando o menu suspenso no topo da aba "Files" selecionada.
 
-![](https://github.com/Yoshlix/docs/assets/26007280/6867b2f2-e9db-4a4c-be88-b9b22b800e72)
+![](https://screensaver01.zap-hosting.com/index.php/s/HoJYzW7bkC4Z6oL/preview)
 
 :::
 
@@ -56,14 +56,14 @@ import TabItem from '@theme/TabItem';
 <TabItem value="Mods" label="Para Mods" default>
 Na seção "File Details", clique no botão "Download". Salve esse arquivo em algum lugar, você vai precisar dele depois.
 
-![](https://github.com/Yoshlix/docs/assets/26007280/7b84ae33-1bef-4568-80d7-ef651a654b08)
+![](https://screensaver01.zap-hosting.com/index.php/s/7ZcEHsmmqZWdZB5/preview)
 
 </TabItem>
 
 <TabItem value="Modpacks" label="Para Modpacks">
 Na seção "File Details", desça até ver "Additional Files" e clique nos três pontos, selecione "Download file". Salve esse arquivo em algum lugar, você vai precisar dele depois.
 
-![](https://github.com/Yoshlix/docs/assets/26007280/49fb9317-fdd3-474e-8140-b78b102c5f3d)
+![](https://screensaver01.zap-hosting.com/index.php/s/YzH5Gz4w3yJZjx3/preview)
 
 </TabItem>
 </Tabs>
@@ -72,7 +72,7 @@ Na seção "File Details", desça até ver "Additional Files" e clique nos três
 
 Encontre o arquivo baixado no seu PC, clique com o botão direito e selecione "Extrair Tudo...". Escolha uma pasta para os arquivos extraídos. Lembre-se dela!
 
-![](https://github.com/Yoshlix/docs/assets/26007280/edbc753d-1906-4d81-9f05-354ff48ceebb)
+![](https://screensaver01.zap-hosting.com/index.php/s/y9SWDpX2HYgekbQ/preview)
 
 ![extrair o arquivo versão alemã](https://screensaver01.zap-hosting.com/index.php/s/iE9XFMmrjj7b7ST/preview)
 
@@ -87,28 +87,28 @@ Alguns modpacks exigem passos extras, como o AllOfFabric6. No caso do AllOfFabri
 
 No webinterface da Zap-Hosting, selecione seu servidor de jogos e vá em "Games" na seção de configurações.
 
-![](https://github.com/Yoshlix/docs/assets/26007280/47e88856-0120-408a-8bec-41e54e3b0738)
+![](https://screensaver01.zap-hosting.com/index.php/s/Ne5B9CnHrbwgmfW/preview)
 
 Expanda a seção "Available Games" e procure pelo seu modloader (Forge para mods / modpacks Forge, Fabric para mods / modpacks Fabric). Clique no botão verde de download.
 
-![](https://github.com/Yoshlix/docs/assets/26007280/e3b4e5d3-11c9-4f09-ae46-27cea93a58a3)
+![](https://screensaver01.zap-hosting.com/index.php/s/dnBCddmXGAMpMj8/preview)
 
 
 Clique no menu suspenso em "Game version" e selecione a versão do Minecraft que corresponde à versão correta para seu mod/modpack. Para Forge, você pode usar a versão mais recente ou a recomendada. Tente a mais recente primeiro e se seu servidor não funcionar direito, volte e tente a recomendada. Clique em "Accept and Install".
 
-![](https://github.com/Yoshlix/docs/assets/26007280/3530466f-bd58-4d0e-9ca3-8d964ac76d80)
+![](https://screensaver01.zap-hosting.com/index.php/s/gCdcwLzc4Hxptqp/preview)
 
 
 :::tip
 Se não souber qual versão do Minecraft precisa, volte para a página "File Details" no CurseForge. Ao lado do ícone do controle do jogo você vê a versão.
 
-![](https://github.com/Yoshlix/docs/assets/26007280/89f751c1-7179-4107-b8bc-7c4381a7d94c)
+![](https://screensaver01.zap-hosting.com/index.php/s/9TsCBRP9PGQL2fC/preview)
 
 :::
 
 Quando a instalação do jogo terminar, você verá um botão azul ao lado do nome do seu jogo (ex: Forge, Fabric). Clique nesse botão para ativar o jogo.
 
-![](https://github.com/Yoshlix/docs/assets/26007280/53cf9569-3529-42fb-9a7d-6ae636ca4f9c)
+![](https://screensaver01.zap-hosting.com/index.php/s/YzzBzSJjnsaqKS2/preview)
 ![ativar o jogo versão alemã](https://screensaver01.zap-hosting.com/index.php/s/GiFsA7JmGPd4LCB/preview)
 
 
@@ -119,7 +119,7 @@ Conecte-se ao seu servidor usando o cliente FTP que escolheu. Certifique-se que 
 ### Enviando um mod
 
 Quando estiver conectado, navegue até a pasta do seu jogo (ex: minecraft-forge, minecraft-fabric). Abra a pasta mods e simplesmente arraste e solte os arquivos do mod que você baixou para dentro dela.
-![](https://github.com/Yoshlix/docs/assets/26007280/8619fc4f-4fab-415a-9692-f74f8930da3f)
+![](https://screensaver01.zap-hosting.com/index.php/s/Zwm9SYdgK6MKBdz/preview)
 
 Quando o upload terminar, você pode iniciar seu servidor.
 
@@ -127,7 +127,7 @@ Quando o upload terminar, você pode iniciar seu servidor.
 
 Quando estiver conectado, navegue até a pasta do seu jogo (ex: minecraft-forge, minecraft-fabric). Delete as pastas world, mods, config e defaultconfig no seu servidor. Agora envie todas as pastas da pasta descompactada que você baixou antes, exceto as pastas jre e libraries. Selecione todas as pastas e arraste para o diretório do seu servidor.
 
-![](https://github.com/Yoshlix/docs/assets/26007280/1424a94d-aa96-40ca-8b30-7c1905e67c21)
+![](https://screensaver01.zap-hosting.com/index.php/s/PEyqrSES4xPGaFz/preview)
 
 Quando o upload terminar, você pode iniciar seu servidor.
 

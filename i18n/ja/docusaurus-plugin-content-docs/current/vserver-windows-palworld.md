@@ -27,7 +27,7 @@ Windows VPSを持っていて、そこにPalworld専用サーバーをインス�
 
 あとは**steamcmd.exe**を実行して、インストールが完了するまで待とう。
 
-![](https://github.com/zaphosting/docs/assets/42719082/ffb8e8a1-26e3-4d16-9baf-938e17ec1613)
+![](https://screensaver01.zap-hosting.com/index.php/s/nGsEGWDrSG7gBZs/preview)
 
 **Loading Steam API.... OK**のメッセージが表示されたら、インストールは成功。次のセクションでPalworld専用サーバーのインストールに進もう。
 
@@ -53,7 +53,7 @@ app_update 2394010
 ```
 App ID **2394010**は**Palworld**のアプリケーションIDだよ。
 
-![](https://github.com/zaphosting/docs/assets/42719082/b265a784-cf9a-43dc-b100-376f080e18f3)
+![](https://screensaver01.zap-hosting.com/index.php/s/5wtdbQbZoj6WbTN/preview)
 
 :::info
 ダウンロードが完了するまで中断しないでね。少し時間がかかるけど、焦らず待とう！ :)
@@ -93,7 +93,7 @@ New-NetFirewallRule -DisplayName "Palworld Server" -Direction Outbound -LocalPor
 
 Windowsの検索で**Windows ファイアウォールの詳細設定**を開こう。基本のWindowsファイアウォール画面を開いた場合は、**詳細設定**をクリックして必要なウィンドウを表示してね。
 
-![](https://github.com/zaphosting/docs/assets/42719082/5fb9f943-7e51-4d8f-9df4-2f5ff60857d3)
+![](https://screensaver01.zap-hosting.com/index.php/s/ZT2WzELZSBPrFsB/preview)
 
 Palworldサーバー用に新しいルールを作成しよう。以下のプロトコルとポートで、受信と送信の両方にルールを追加してね：
 - TCP 受信・送信：8211

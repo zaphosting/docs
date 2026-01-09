@@ -36,7 +36,7 @@ Bei normalen Installationen findest du den Steam-Ordner auf deinem Systemlaufwer
 
 Sobald du diesen Ordner erreicht hast, siehst du eine Datei mit Charakterdaten sowie alle deine lokalen Savegames an einem Ort.
 
-![](https://github.com/zaphosting/docs/assets/42719082/31022018-3072-4b40-85f0-77f9da992ccc)
+![](https://screensaver01.zap-hosting.com/index.php/s/dyydLNzQt7ZWRPx/preview)
 
 :::note
 Falls du explizit **nicht** Steam Cloud zum Speichern nutzt, findest du deinen Savegame-Ordner unter: `C://Users/[deinuser]/Saved Games/Enshrouded`.
@@ -51,7 +51,7 @@ Das Backup deines Savegames vom Server ist easy. Sobald du dich mit deinem FTP-C
 
 Dort findest du eine Datei mit zufälligen Zeichen – das ist dein Savegame. Rechtsklick drauf und **Download** auswählen, um es lokal auf deinem Gerät zu speichern.
 
-![](https://github.com/zaphosting/docs/assets/42719082/e7c230a3-a2cb-4ae0-a0dc-6d2211edd06c)
+![](https://screensaver01.zap-hosting.com/index.php/s/wTcodeKXYq3RBfY/preview)
 
 ### Automatisches Backup
 
@@ -64,7 +64,7 @@ Das Hochladen deines Savegames ist genauso easy wie das Backup. Verbinde dich zu
 ../enshrouded/savegame/
 ```
 
-![](https://github.com/zaphosting/docs/assets/42719082/e465680f-65bc-456d-bd99-fbdff755defb)
+![](https://screensaver01.zap-hosting.com/index.php/s/gJW8wSapi4Bo2gw/preview)
 
 Zieh einfach dein Savegame per Drag & Drop in diesen Ordner im FTP-Client und es wird auf deinen Server hochgeladen.
 

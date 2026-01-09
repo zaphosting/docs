@@ -43,7 +43,7 @@ import TabItem from '@theme/TabItem';
 
 อีกทางเลือกสำหรับผู้ใช้ที่ต้องการแก้ไขไฟล์ดิบโดยตรง คุณสามารถเข้าถึงได้โดยไปที่ส่วน **Configs** บนเว็บอินเทอร์เฟซของเซิร์ฟเวอร์เกมของคุณแล้วกดปุ่มแก้ไขไฟล์สีน้ำเงินตามภาพด้านล่าง:
 
-![](https://github.com/zaphosting/docs/assets/42719082/53c8acad-7347-4c3e-85bf-5ae0ad423fc6)
+![](https://screensaver01.zap-hosting.com/index.php/s/2fNGG7jBdGRekKP/preview)
 
 จะเปิดตัวแก้ไขข้อความบนเว็บไซต์ให้คุณแก้ไขไฟล์ได้ทันที
 

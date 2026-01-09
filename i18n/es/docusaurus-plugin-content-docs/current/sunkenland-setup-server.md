@@ -42,7 +42,7 @@ Comienza conectándote a tu servidor mediante un cliente FTP usando las credenci
 Una vez conectado, dirígete a la carpeta Sunkenland, abre la carpeta "AppData" y luego la carpeta "Worlds", selecciona el archivo de guardado del paso anterior y súbelo a esta carpeta.
 
 La estructura de carpetas debería verse así, donde `Marvin's World~cef76ff5-447a-48df-b3a8-74b9ea5b7a86` es tu archivo de guardado.
-![](https://github.com/zaphosting/docs/assets/13604413/40aecc3b-4a8a-4477-8c09-d56ec412883e)
+![](https://screensaver01.zap-hosting.com/index.php/s/eFg6Ek3giFM3DLs/preview)
 
 :::important
 En esta etapa, por favor copia el GUID que aparece al final del nombre del mundo guardado. Lo necesitarás en el siguiente paso para que tu servidor funcione.

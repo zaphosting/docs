@@ -36,7 +36,7 @@ En instalaciones normales, la carpeta Steam estará en la unidad de tu sistema o
 
 Una vez en esta carpeta, podrás ver un archivo de personajes junto con todas tus partidas guardadas locales en un solo lugar.
 
-![](https://github.com/zaphosting/docs/assets/42719082/31022018-3072-4b40-85f0-77f9da992ccc)
+![](https://screensaver01.zap-hosting.com/index.php/s/dyydLNzQt7ZWRPx/preview)
 
 :::note
 Si explícitamente **no** usas Steam Cloud para guardar, podrás encontrar tu carpeta de guardado en el siguiente directorio: `C://Users/[tuusuario]/Saved Games/Enshrouded`.
@@ -51,7 +51,7 @@ Hacer copia de seguridad de tu partida guardada desde el servidor es sencillo. U
 
 En esta ubicación, deberías ver un archivo con caracteres aleatorios que es tu partida guardada. Simplemente haz clic derecho sobre el archivo y usa el botón **Descargar** para guardarlo localmente en tu dispositivo.
 
-![](https://github.com/zaphosting/docs/assets/42719082/e7c230a3-a2cb-4ae0-a0dc-6d2211edd06c)
+![](https://screensaver01.zap-hosting.com/index.php/s/wTcodeKXYq3RBfY/preview)
 
 ### Copia de seguridad automática
 
@@ -64,7 +64,7 @@ Al igual que hacer copias, subir tu partida guardada es fácil. Primero asegúra
 ../enshrouded/savegame/
 ```
 
-![](https://github.com/zaphosting/docs/assets/42719082/e465680f-65bc-456d-bd99-fbdff755defb)
+![](https://screensaver01.zap-hosting.com/index.php/s/gJW8wSapi4Bo2gw/preview)
 
 Simplemente arrastra y suelta cualquiera de tus partidas guardadas en esta carpeta a través del cliente FTP y se subirá a tu servidor.
 

@@ -109,7 +109,7 @@ Deze commando’s maken automatisch firewallregels aan die nodig zijn om je Five
 
 Gebruik de zoekfunctie van Windows om **Windows Firewall instellingen met geavanceerde beveiliging** te openen. Mogelijk moet je eerst op **Geavanceerde instellingen** klikken om het juiste venster te openen als je de basis Windows Firewall pagina opent.
 
-![](https://github.com/zaphosting/docs/assets/42719082/5fb9f943-7e51-4d8f-9df4-2f5ff60857d3)
+![](https://screensaver01.zap-hosting.com/index.php/s/ZT2WzELZSBPrFsB/preview)
 
 Je moet nieuwe regels aanmaken voor je FiveM server. Klik hiervoor op binnenkomende en uitgaande regels zoals hieronder beschreven en voeg ze toe voor de volgende protocollen en poorten:
 - TCP binnenkomend en uitgaand: 30120

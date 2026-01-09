@@ -25,7 +25,7 @@ Dans la section **Administration du Produit**, vous trouverez toutes les pages n
 
 Le **Tableau de Bord** de votre serveur est le cœur de l’administration. Toutes les informations de base et essentielles concernant votre service y sont présentées clairement. Cela inclut, par exemple, des infos sur l’emplacement, le statut, l’IP : Port, la mémoire utilisée, le jeu en cours, le nom du serveur, la map et le nombre de slots disponibles. De plus, l’utilisation du CPU, de la mémoire et de la RAM est également affichée.
 
-![](https://github.com/zaphosting/docs/assets/42719082/b518433e-d93c-49d8-9a03-d35df9bb3d83)
+![](https://screensaver01.zap-hosting.com/index.php/s/zLM2rEzAx5WYD3X/preview)
 
 Dans le tableau de bord, vous avez aussi la possibilité de démarrer, arrêter ou redémarrer votre service, pour garder un contrôle total sur son fonctionnement. En outre, vous pouvez accéder à la console live pour obtenir des infos en temps réel sur l’état du serveur et agir directement si besoin.
 

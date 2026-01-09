@@ -26,7 +26,7 @@ W sekcji **Administracja produktu** znajdziesz wszystkie niezbędne strony do za
 
 **Panel główny** Twojego serwera to serce administracji. Wszystkie podstawowe i kluczowe informacje o Twojej usłudze są tu przejrzyście przedstawione. Znajdziesz tu na przykład informacje o lokalizacji, statusie, adresie IP: porcie, używanej pamięci, aktualnej grze, nazwie serwera, mapie oraz liczbie dostępnych slotów. Dodatkowo wyświetlane jest wykorzystanie CPU, pamięci i RAM.
 
-![](https://github.com/zaphosting/docs/assets/42719082/aaeee832-8cd0-4ac0-9769-f498eace4892)
+![](https://screensaver01.zap-hosting.com/index.php/s/32ftNaw9rjA27a3/preview)
 
 W panelu głównym masz też możliwość uruchomienia, zatrzymania lub restartu usługi, aby mieć pełną kontrolę nad jej działaniem. Ponadto możesz uzyskać dostęp do konsoli na żywo, by otrzymywać informacje o stanie serwera w czasie rzeczywistym i w razie potrzeby podejmować bezpośrednie działania.
 

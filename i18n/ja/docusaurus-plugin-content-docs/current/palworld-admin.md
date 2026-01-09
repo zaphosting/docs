@@ -35,12 +35,12 @@ import TabItem from '@theme/TabItem';
 
 **設定**内で**ゲームサーバーパスワード**の項目を探し、使いたいパスワードを入力してください。
 
-![](https://github.com/zaphosting/docs/assets/42719082/dadbd22b-2fd9-42e1-be71-f6d28a3f2938)
+![](https://screensaver01.zap-hosting.com/index.php/s/aQYQDYMP34NnNXr/preview)
 
 :::info
 パスワードを入力したら、画面上部までスクロールして緑色の**保存**ボタンを必ず押して設定を確定してください。
 
-![](https://github.com/zaphosting/docs/assets/42719082/5a4f5ab1-8079-4b20-96a6-36e4aca2e28e)
+![](https://screensaver01.zap-hosting.com/index.php/s/YG5MZ6Jt8SdFy4A/preview)
 :::
 
 </TabItem>
@@ -55,11 +55,11 @@ import TabItem from '@theme/TabItem';
 
 直接ファイルを編集したい場合は、ゲームサーバーのWebインターフェースの**設定ファイル**セクションに行き、青い編集ボタンを押します。
 
-![](https://github.com/zaphosting/docs/assets/42719082/53c8acad-7347-4c3e-85bf-5ae0ad423fc6)
+![](https://screensaver01.zap-hosting.com/index.php/s/2fNGG7jBdGRekKP/preview)
 
 サイト上でテキストエディタが開くので、`CTRL+F`で**AdminPassword**を検索し、設定したい管理者パスワードに書き換えます。最後にファイルを保存してサーバーを起動してください。
 
-![](https://github.com/zaphosting/docs/assets/42719082/d86376b8-1a41-4fb0-b8cd-8570ddcaa9ae)
+![](https://screensaver01.zap-hosting.com/index.php/s/gpBjxxmdsWKD4t2/preview)
 
 </TabItem>
 
@@ -86,7 +86,7 @@ import TabItem from '@theme/TabItem';
 /AdminPassword [password]
 ```
 
-![](https://github.com/zaphosting/docs/assets/42719082/2f6e3ee7-e83f-4b71-87dc-d36f9b8c7340)
+![](https://screensaver01.zap-hosting.com/index.php/s/75D5ejaWNM6oYNX/preview)
 
 正しく入力できていればチャットに成功メッセージが表示されます。エラーが出た場合は、入力した管理者パスワードが正しいか、前のステップで設定したものと一致しているかを確認してください。
 

@@ -10,7 +10,7 @@ sidebar_label: クーポン＆コード
 
 まずは、コードを使うためにウェブサイトにログインまたは登録しよう。トップのログインパネルから簡単にできるよ。
 
-![](https://github.com/zaphosting/docs/assets/42719082/f81bcb46-2129-47c9-ab98-90b746e01fd0)
+![](https://screensaver01.zap-hosting.com/index.php/s/29dLjP5BNJpncbR/preview)
 
 ログインすると、自動的にウェブインターフェースに入るよ。コードを使うには、まずどんなコードを使いたいか確認しよう。
 
@@ -21,15 +21,15 @@ sidebar_label: クーポン＆コード
 ## バウチャーZAPコインコード
 バウチャーZAPコインコードはウェブインターフェースのパネルから簡単に使えるよ。まずはウェブインターフェース上部のZAPコインの文字をクリックして**現金箱**に行こう。
 
-![](https://github.com/zaphosting/docs/assets/42719082/e436f9d9-ad85-482a-90fa-03fe6cd6836e)
+![](https://screensaver01.zap-hosting.com/index.php/s/32XQmojExTifqiS/preview)
 
 **現金箱**ページに入ったら、下にスクロールして青い**バウチャーを使う**ボタンを押そう。メニューが開くよ。
 
-![](https://github.com/zaphosting/docs/assets/42719082/cee125ff-06b1-460b-a4d9-8c71157c50c4)
+![](https://screensaver01.zap-hosting.com/index.php/s/FkZqyf3GWor8Hj7/preview)
 
 ここに受け取ったバウチャーコードを入力して、準備ができたら緑の**バウチャーを使う**ボタンを押して送信しよう。
 
-![](https://github.com/zaphosting/docs/assets/42719082/0daa73de-00a6-4079-9e93-c12d9df8f222)
+![](https://screensaver01.zap-hosting.com/index.php/s/SQGk7gBDmGcgYjb/preview)
 
 コードが有効で正しければ、成功メッセージが表示されて使えたことがわかるよ。
 
@@ -44,13 +44,13 @@ sidebar_label: クーポン＆コード
 
 まずは注文したい商品をウェブサイトで見つけて、サーバー構成ツールで好みに合わせて設定しよう。
 
-![](https://github.com/zaphosting/docs/assets/42719082/93fce0a9-1ff6-4878-9625-6581361324ef)
+![](https://screensaver01.zap-hosting.com/index.php/s/CntHbTsxGw5qQfK/preview)
 
 設定が完了したら、注文手続きでコードを使えるよ。下にスクロールして支払い方法を選び、注文合計の下にある**バウチャーを使う**テキストをクリックしよう。
 
-![](https://github.com/zaphosting/docs/assets/42719082/8e27371d-a9db-4dae-bc52-6861fcbc5598)
+![](https://screensaver01.zap-hosting.com/index.php/s/mNXf8wodCaELzxt/preview)
 
-![](https://github.com/zaphosting/docs/assets/42719082/6502ef6a-16bf-4066-a25d-58d312caa0f1)
+![](https://screensaver01.zap-hosting.com/index.php/s/rd4LXJAooCSaaC9/preview)
 
 バウチャーを使うと新しい割引後の価格が表示されるよ。ただしエラーが出る場合もある。その場合は、使用回数の上限に達している、期限切れ、特定の商品や支払い方法でしか使えないなどの理由が考えられる。エラーメッセージで原因がわかるよ。
 

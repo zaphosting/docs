@@ -36,7 +36,7 @@ For this quick setup feature, you would need to [purchase a perfect domain direc
 
 In our example, you can see us create a new subdomain using the `.zap.cloud` domain, which will lead us to our TeamSpeak 3 server when used.
 
-![](https://github.com/zaphosting/docs/assets/42719082/5b311ff1-625c-4f6d-82b8-6847d432beb9)
+![](https://screensaver01.zap-hosting.com/index.php/s/Mi3wK7cY639Rp3x/preview)
 
 :::note
 Please note, it can take up to 3 hours for the domain to propagate and start functioning.

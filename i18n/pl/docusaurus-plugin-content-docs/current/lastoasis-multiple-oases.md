@@ -22,7 +22,7 @@ Zacznij od wejścia na [oficjalną stronę Last Oasis](https://myrealm.lastoasis
 ## Włączanie multi hostingu
 Na stronie przejdź do sekcji **Realms**. Przy swoim aktualnym Realmie kliknij przycisk **Change** i zmień tryb hostingu z **Single -> Multiple**.
 
-![](https://github.com/zaphosting/docs/assets/42719082/9f06547a-f23f-4542-bcd7-e69d0bbfbf19)
+![](https://screensaver01.zap-hosting.com/index.php/s/qDgwQ5D6YwptWER/preview)
 
 :::info
 Aby móc uruchomić wiele Oaz jednocześnie, musisz wynająć jeden serwer gier na każdą Oazę. Dla każdego nowego serwera użyj tego samego klucza dostawcy, co oryginalny serwer. Pamiętaj, aby po zmianach zrestartować serwer.

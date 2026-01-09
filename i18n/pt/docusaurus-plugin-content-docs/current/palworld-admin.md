@@ -35,12 +35,12 @@ O método mais fácil é acessar a seção **Settings** no webinterface do seu s
 
 Na área de **Settings**, procure a opção **Game server password**. Nesse campo, crie a senha que deseja usar e digite ela.
 
-![](https://github.com/zaphosting/docs/assets/42719082/dadbd22b-2fd9-42e1-be71-f6d28a3f2938)
+![](https://screensaver01.zap-hosting.com/index.php/s/aQYQDYMP34NnNXr/preview)
 
 :::info
 Depois de escolher a senha, role a página para cima e clique no botão verde **Save** para confirmar a escolha.
 
-![](https://github.com/zaphosting/docs/assets/42719082/5a4f5ab1-8079-4b20-96a6-36e4aca2e28e)
+![](https://screensaver01.zap-hosting.com/index.php/s/YG5MZ6Jt8SdFy4A/preview)
 :::
 
 </TabItem>
@@ -55,11 +55,11 @@ O servidor deve estar parado antes de editar o arquivo de configuração, editar
 
 Alternativamente, para quem prefere editar o arquivo diretamente, você pode acessar a seção **Configs** no webinterface do seu servidor de jogos e clicar no botão azul de editar arquivo, como mostrado abaixo:
 
-![](https://github.com/zaphosting/docs/assets/42719082/53c8acad-7347-4c3e-85bf-5ae0ad423fc6)
+![](https://screensaver01.zap-hosting.com/index.php/s/2fNGG7jBdGRekKP/preview)
 
 Isso abrirá um editor de texto no site para você editar. Encontre a opção **AdminPassword** dentro do arquivo (use `CTRL+F` para facilitar a busca) e altere para a senha de admin que deseja definir. Por fim, salve o arquivo e então pode iniciar seu servidor.
 
-![](https://github.com/zaphosting/docs/assets/42719082/d86376b8-1a41-4fb0-b8cd-8570ddcaa9ae)
+![](https://screensaver01.zap-hosting.com/index.php/s/gpBjxxmdsWKD4t2/preview)
 
 </TabItem>
 
@@ -86,7 +86,7 @@ Dentro do jogo, abra o chat apertando `Enter`. Depois, digite o comando abaixo, 
 /AdminPassword [password]
 ```
 
-![](https://github.com/zaphosting/docs/assets/42719082/2f6e3ee7-e83f-4b71-87dc-d36f9b8c7340)
+![](https://screensaver01.zap-hosting.com/index.php/s/75D5ejaWNM6oYNX/preview)
 
 Você deve receber uma mensagem de sucesso no chat se tudo estiver correto. Se aparecer um erro, confira se a senha de admin que você digitou está correta e é a mesma que definiu no passo anterior.
 

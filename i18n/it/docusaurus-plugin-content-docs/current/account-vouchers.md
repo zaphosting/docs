@@ -10,7 +10,7 @@ Hai trovato un codice voucher che vuoi riscattare come credito nella tua cassa (
 
 Per cominciare, devi fare il login o registrarti sul nostro sito per poter usare i codici. Puoi farlo in modo super veloce e semplice tramite il pannello di login in alto.
 
-![](https://github.com/zaphosting/docs/assets/42719082/f81bcb46-2129-47c9-ab98-90b746e01fd0)
+![](https://screensaver01.zap-hosting.com/index.php/s/29dLjP5BNJpncbR/preview)
 
 Appena sei loggato, atterrerai automaticamente nella tua webinterface. Per poter usare un codice, devi prima capire che tipo di codice vuoi riscattare.
 
@@ -21,15 +21,15 @@ Ci sono due tipi diversi di codici coupon:
 ## Codici Voucher ZAP Coin
 I codici voucher per ZAP Coins si riscattano facilmente dal pannello della tua webinterface. Vai semplicemente alla tua **Cassa** cliccando sul testo ZAP Coins in alto nella tua webinterface.
 
-![](https://github.com/zaphosting/docs/assets/42719082/e436f9d9-ad85-482a-90fa-03fe6cd6836e)
+![](https://screensaver01.zap-hosting.com/index.php/s/32XQmojExTifqiS/preview)
 
 Una volta nella pagina della tua **Cassa**, scorri verso il basso fino al pulsante blu **Usa Voucher**. Clicca il pulsante per aprire il menu.
 
-![](https://github.com/zaphosting/docs/assets/42719082/cee125ff-06b1-460b-a4d9-8c71157c50c4)
+![](https://screensaver01.zap-hosting.com/index.php/s/FkZqyf3GWor8Hj7/preview)
 
 Qui puoi inserire il codice voucher che hai ricevuto. Quando sei pronto, premi il pulsante verde **Usa voucher** per inviarlo.
 
-![](https://github.com/zaphosting/docs/assets/42719082/0daa73de-00a6-4079-9e93-c12d9df8f222)
+![](https://screensaver01.zap-hosting.com/index.php/s/SQGk7gBDmGcgYjb/preview)
 
 Se il voucher è valido e corretto, riceverai un messaggio di successo che ti conferma l’avvenuto riscatto.
 
@@ -44,13 +44,13 @@ I codici sconto funzionano in modo simile ai codici credito, ma si usano in un�
 
 Prima di tutto, trova il prodotto che vuoi ordinare sul nostro sito e configurarlo come preferisci nel nostro configuratore server.
 
-![](https://github.com/zaphosting/docs/assets/42719082/93fce0a9-1ff6-4878-9625-6581361324ef)
+![](https://screensaver01.zap-hosting.com/index.php/s/CntHbTsxGw5qQfK/preview)
 
 Quando hai configurato tutto correttamente, puoi usare il tuo codice durante l’ordine. Scorri fino in fondo, scegli il metodo di pagamento e clicca semplicemente sul testo **Riscatta voucher** sotto il totale dell’ordine.
 
-![](https://github.com/zaphosting/docs/assets/42719082/8e27371d-a9db-4dae-bc52-6861fcbc5598)
+![](https://screensaver01.zap-hosting.com/index.php/s/mNXf8wodCaELzxt/preview)
 
-![](https://github.com/zaphosting/docs/assets/42719082/6502ef6a-16bf-4066-a25d-58d312caa0f1)
+![](https://screensaver01.zap-hosting.com/index.php/s/rd4LXJAooCSaaC9/preview)
 
 Appena usi il voucher, vedrai il prezzo aggiornato. Se invece ricevi un errore, ci possono essere diversi motivi: il codice ha raggiunto il limite massimo di utilizzi, è scaduto o può essere usato solo su certi prodotti o metodi di pagamento. Il messaggio di errore ti spiegherà il problema.
 

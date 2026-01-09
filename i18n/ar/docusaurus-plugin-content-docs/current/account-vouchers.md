@@ -10,7 +10,7 @@ sidebar_label: القسائم والكودات
 
 أول شيء، لازم تسجل دخول أو تسوي حساب في موقعنا عشان تقدر تستخدم الكودات. الموضوع سهل وسريع من خلال لوحة تسجيل الدخول في الأعلى.
 
-![](https://github.com/zaphosting/docs/assets/42719082/f81bcb46-2129-47c9-ab98-90b746e01fd0)
+![](https://screensaver01.zap-hosting.com/index.php/s/29dLjP5BNJpncbR/preview)
 
 بمجرد ما تسجل دخول، بتوصل تلقائيًا للوحة المعلومات الخاصة فيك. عشان تقدر تستخدم كود، لازم تعرف أولًا نوع الكود اللي حابب تسترده.
 
@@ -21,15 +21,15 @@ sidebar_label: القسائم والكودات
 ## كودات قسائم ZAP Coins
 كودات قسائم ZAP Coins تقدر تستردها بسهولة من خلال لوحة المعلومات. بس روح على **محفظتك** بالضغط على نص ZAP Coins في أعلى واجهة الويب.
 
-![](https://github.com/zaphosting/docs/assets/42719082/e436f9d9-ad85-482a-90fa-03fe6cd6836e)
+![](https://screensaver01.zap-hosting.com/index.php/s/32XQmojExTifqiS/preview)
 
 لما توصل لصفحة **محفظتك**، انزل تحت على زر **استخدام القسيمة** الأزرق. اضغط الزر عشان يفتح لك قائمة.
 
-![](https://github.com/zaphosting/docs/assets/42719082/cee125ff-06b1-460b-a4d9-8c71157c50c4)
+![](https://screensaver01.zap-hosting.com/index.php/s/FkZqyf3GWor8Hj7/preview)
 
 هنا تقدر تدخل كود القسيمة اللي استلمته. لما تخلص، اضغط زر **استخدام القسيمة** الأخضر عشان ترسل الكود.
 
-![](https://github.com/zaphosting/docs/assets/42719082/0daa73de-00a6-4079-9e93-c12d9df8f222)
+![](https://screensaver01.zap-hosting.com/index.php/s/SQGk7gBDmGcgYjb/preview)
 
 لو القسيمة كانت صحيحة وصالحة، بتشوف رسالة نجاح تخبرك إنه تم التطبيق.
 
@@ -44,13 +44,13 @@ sidebar_label: القسائم والكودات
 
 أول شيء، دور على المنتج اللي حابب تطلبه في موقعنا وضبطه حسب رغبتك في أداة تكوين السيرفر.
 
-![](https://github.com/zaphosting/docs/assets/42719082/93fce0a9-1ff6-4878-9625-6581361324ef)
+![](https://screensaver01.zap-hosting.com/index.php/s/CntHbTsxGw5qQfK/preview)
 
 بعد ما تظبط كل شيء صح، تقدر تستخدم كود الخصم في عملية الطلب. انزل تحت، اختار طريقة الدفع، وبعدين اضغط على نص **استرداد القسيمة** تحت إجمالي الطلب.
 
-![](https://github.com/zaphosting/docs/assets/42719082/8e27371d-a9db-4dae-bc52-6861fcbc5598)
+![](https://screensaver01.zap-hosting.com/index.php/s/mNXf8wodCaELzxt/preview)
 
-![](https://github.com/zaphosting/docs/assets/42719082/6502ef6a-16bf-4066-a25d-58d312caa0f1)
+![](https://screensaver01.zap-hosting.com/index.php/s/rd4LXJAooCSaaC9/preview)
 
 بمجرد ما تستخدم القسيمة، بتشوف السعر الجديد المحدث. لو طلع لك خطأ، ممكن يكون السبب إن الكود وصل لحد الاستخدام الأقصى، أو انتهت صلاحيته، أو إنه يشتغل بس على منتجات أو طرق دفع معينة. رسالة الخطأ بتوضح السبب.
 

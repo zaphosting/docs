@@ -137,7 +137,7 @@ Deze regels maken automatisch de firewall open voor de benodigde poorten zodat j
 
 Open via de zoekfunctie in Windows **Windows Firewall met geavanceerde beveiliging**. Soms moet je eerst op **Geavanceerde instellingen** klikken om het juiste venster te openen.
 
-![](https://github.com/zaphosting/docs/assets/42719082/5fb9f943-7e51-4d8f-9df4-2f5ff60857d3)
+![](https://screensaver01.zap-hosting.com/index.php/s/ZT2WzELZSBPrFsB/preview)
 
 Maak nieuwe regels aan voor je FS2025 Server. Doe dit voor inkomend en uitgaand verkeer met de volgende protocollen en poorten:
 - TCP inkomend en uitgaand: 8080, 10823

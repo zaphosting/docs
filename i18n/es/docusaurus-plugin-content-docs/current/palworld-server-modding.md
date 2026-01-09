@@ -68,7 +68,7 @@ Dentro del panel web, puedes usar el botón **Conexión Directa**. Esto debería
 
 Alternativamente, usa las credenciales que aparecen en la página FTP-Browser para introducirlas manualmente en tu cliente FTP y conectarte.
 
-![](https://github.com/zaphosting/docs/assets/42719082/af255f46-3371-441e-b6db-4348e6be2e54)
+![](https://screensaver01.zap-hosting.com/index.php/s/nWYPNMRbnrDbDLF/preview)
 
 Luego, tendrás que subir los archivos PAK del mod que preparaste antes. Debes subirlos a la siguiente carpeta:
 ```

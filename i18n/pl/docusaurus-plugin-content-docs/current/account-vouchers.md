@@ -10,7 +10,7 @@ Znalazłeś kod vouchera, który chcesz zrealizować jako pieniądze na swoją k
 
 Na początek powinieneś się zalogować lub zarejestrować na naszej stronie, aby móc korzystać z kodów. Możesz to zrobić bardzo szybko i łatwo przez górny panel logowania.
 
-![](https://github.com/zaphosting/docs/assets/42719082/f81bcb46-2129-47c9-ab98-90b746e01fd0)
+![](https://screensaver01.zap-hosting.com/index.php/s/29dLjP5BNJpncbR/preview)
 
 Gdy już jesteś zalogowany, automatycznie trafisz do swojego panelu głównego. Aby móc użyć kodu, najpierw dowiedz się, jakiego typu kod chcesz zrealizować.
 
@@ -21,15 +21,15 @@ Są dwa różne typy kodów kuponów:
 ## Kody voucherów ZAP Coins
 Kody voucherów ZAP Coins możesz bardzo łatwo zrealizować przez swój panel administracyjny. Po prostu przejdź do swojej **Kasy** klikając tekst ZAP Coins na górze panelu.
 
-![](https://github.com/zaphosting/docs/assets/42719082/e436f9d9-ad85-482a-90fa-03fe6cd6836e)
+![](https://screensaver01.zap-hosting.com/index.php/s/32XQmojExTifqiS/preview)
 
 Gdy jesteś na stronie **Kasy**, przewiń w dół do niebieskiego przycisku **Użyj vouchera**. Kliknij go, aby otworzyć menu.
 
-![](https://github.com/zaphosting/docs/assets/42719082/cee125ff-06b1-460b-a4d9-8c71157c50c4)
+![](https://screensaver01.zap-hosting.com/index.php/s/FkZqyf3GWor8Hj7/preview)
 
 Tutaj wpisz kod vouchera, który otrzymałeś. Gdy będziesz gotowy, kliknij zielony przycisk **Użyj vouchera**, aby go zatwierdzić.
 
-![](https://github.com/zaphosting/docs/assets/42719082/0daa73de-00a6-4079-9e93-c12d9df8f222)
+![](https://screensaver01.zap-hosting.com/index.php/s/SQGk7gBDmGcgYjb/preview)
 
 Jeśli voucher jest ważny i poprawny, pojawi się komunikat o sukcesie potwierdzający realizację.
 
@@ -44,13 +44,13 @@ Kody rabatowe działają podobnie do kodów kredytowych, ale używa się ich w i
 
 Najpierw znajdź produkt, który chcesz zamówić na naszej stronie i skonfiguruj go według swoich preferencji w naszym konfiguratorze serwerów.
 
-![](https://github.com/zaphosting/docs/assets/42719082/93fce0a9-1ff6-4878-9625-6581361324ef)
+![](https://screensaver01.zap-hosting.com/index.php/s/CntHbTsxGw5qQfK/preview)
 
 Gdy wszystko jest poprawnie skonfigurowane, możesz użyć swojego kodu podczas składania zamówienia. Przewiń na dół, wybierz metodę płatności i kliknij tekst **Zrealizuj voucher** pod sumą zamówienia.
 
-![](https://github.com/zaphosting/docs/assets/42719082/8e27371d-a9db-4dae-bc52-6861fcbc5598)
+![](https://screensaver01.zap-hosting.com/index.php/s/mNXf8wodCaELzxt/preview)
 
-![](https://github.com/zaphosting/docs/assets/42719082/6502ef6a-16bf-4066-a25d-58d312caa0f1)
+![](https://screensaver01.zap-hosting.com/index.php/s/rd4LXJAooCSaaC9/preview)
 
 Po użyciu vouchera zobaczysz zaktualizowaną cenę. Jeśli pojawi się błąd, może to być spowodowane kilkoma rzeczami: kod osiągnął limit użyć, wygasł lub można go użyć tylko na wybrane produkty albo metody płatności. Komunikat o błędzie powinien wyjaśnić problem.
 

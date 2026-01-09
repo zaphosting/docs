@@ -29,12 +29,12 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 :::tip
 คุณสามารถเข้าถึงเส้นทางนี้ได้ง่ายๆ โดยกด `CTRL` + `R` พร้อมกัน แล้วพิมพ์เส้นทางนี้ในหน้าต่างรัน: `%localappdata%/Pal/Saved/SaveGames/` กด **ตกลง** แล้วคุณจะถูกพาไปยังโฟลเดอร์นั้นทันที
 
-![](https://github.com/zaphosting/docs/assets/42719082/5cdff375-57f8-4699-9985-42bcecf22218)
+![](https://screensaver01.zap-hosting.com/index.php/s/gWL9gtAZ8JE2ENP/preview)
 :::
 
 ที่นี่คุณจะเห็นโฟลเดอร์ที่ชื่อเป็น SteamID ของคุณ เปิดโฟลเดอร์นี้แล้วคุณจะเห็นเซฟเกมในเครื่องทั้งหมดของคุณรวมอยู่ในที่เดียว
 
-![](https://github.com/zaphosting/docs/assets/42719082/8f36715d-7e87-45e1-b859-6ebedd18c8da)
+![](https://screensaver01.zap-hosting.com/index.php/s/aaeRXfs5cFjA6fN/preview)
 
 ### การเข้าถึงเซฟเกมผ่าน FTP
 
@@ -45,7 +45,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ที่นี่คุณจะเห็นโฟลเดอร์ที่มีชื่อเป็นตัวอักษรสุ่ม ซึ่งก็คือเซฟเกมของคุณ คลิกขวาที่โฟลเดอร์แล้วเลือก **ดาวน์โหลด** เพื่อบันทึกเซฟเกมลงเครื่องของคุณ
 
-![](https://github.com/zaphosting/docs/assets/42719082/ca890470-450d-4962-a982-39378dfbb695)
+![](https://screensaver01.zap-hosting.com/index.php/s/pmrmNHS5NAfXpY3/preview)
 
 ### การสำรองข้อมูลอัตโนมัติ
 
