@@ -16,6 +16,7 @@ const flagPaths = {
   sv: '/img/flags/sv.svg',
   it: '/img/flags/it.svg',
   nl: '/img/flags/nl.svg',
+  zh: '/img/flags/zh.svg',
 };
 
 export default function LocaleDropdownNavbarItemWrapper(props) {
@@ -69,7 +70,7 @@ export default function LocaleDropdownNavbarItemWrapper(props) {
           } else {
             // Fallback für Standard-Sprache (en)
             if (link.classList.contains('dropdown__link--active') || 
-                (href.includes('/docs/') && !href.match(/\/(de|es|fr|ar|pt|th|pl|ja|sv|it|nl)\//))) {
+                (href.includes('/docs/') && !href.match(/\/(de|es|fr|ar|pt|th|pl|ja|sv|it|nl|zh)\//))) {
               locale = 'en';
             } else {
               return;

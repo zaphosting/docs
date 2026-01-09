@@ -33,6 +33,7 @@ const sidebars = {
           case "sv": return "Kom igång";
           case "it": return "Primi passi";
           case "nl": return "Eerste stappen";
+          case "zh": return "第一步";
           default: return "First steps";
         }
       })(),
@@ -79,6 +80,7 @@ const sidebars = {
           case "sv": return "Kom igång";
           case "it": return "Primi passi";
           case "nl": return "Eerste stappen";
+          case "zh": return "账户";
           default: return "Account";
         }
       })(),
@@ -136,6 +138,7 @@ const sidebars = {
           case "sv": return "Program";
           case "it": return "Programmi";
           case "nl": return "Programma's";
+          case "zh": return "程序";
           default: return "Programs";
         }
       })(),
@@ -201,6 +204,7 @@ const sidebars = {
           case "sv": return "Övrigt";
           case "it": return "Altro";
           case "nl": return "Overig";
+          case "zh": return "其他";
           default: return "Other";
         }
       })(),
@@ -228,6 +232,7 @@ const sidebars = {
           case "sv": return "Kom igång";
           case "it": return "Primi passi";
           case "nl": return "Eerste stappen";
+          case "zh": return "第一步";
           default: return "First steps";
         }
       })(),
@@ -270,6 +275,7 @@ const sidebars = {
           case "sv": return "Populära spel";
           case "it": return "Giochi popolari";
           case "nl": return "Populaire spellen";
+          case "zh": return "热门游戏";
           default: return "Popular Games";
         }
       })(),
@@ -718,6 +724,7 @@ const sidebars = {
           case "sv": return "Alla spel (A-Z)";
           case "it": return "Tutti i giochi (A-Z)";
           case "nl": return "Alle spellen (A-Z)";
+          case "zh": return "所有游戏（A-Z）";
           default: return "All Games (A-Z)";
         }
       })(),
@@ -4610,6 +4617,7 @@ const sidebars = {
           case "sv": return "Kom igång";
           case "it": return "Primi passi";
           case "nl": return "Eerste stappen";
+          case "zh": return "第一步";
           default: return "First steps";
         }
       })(),
@@ -4646,6 +4654,7 @@ const sidebars = {
           case "sv": return "Anpassade ISOs";
           case "it": return "ISO personalizzate";
           case "nl": return "Aangepaste ISO's";
+          case "zh": return "自定义ISO文件";
           default: return "Custom ISOs";
         }
       })(),
@@ -4669,6 +4678,7 @@ const sidebars = {
           case "sv": return "Linux";
           case "it": return "Linux";
           case "nl": return "Linux";
+          case "zh": return "Linux";
           default: return "Linux";
         }
       })(),
@@ -4915,6 +4925,7 @@ const sidebars = {
           case "sv": return "Kom igång";
           case "it": return "Primi passi";
           case "nl": return "Eerste stappen";
+          case "zh": return "第一步";
           default: return "First steps";
         }
       })(),
@@ -4952,6 +4963,7 @@ const sidebars = {
           case "sv": return "Operativsystem";
           case "it": return "Sistemi operativi";
           case "nl": return "Besturingssystemen";
+          case "zh": return "操作系统";
           default: return "Operating systems";
         }
       })(),
@@ -5239,6 +5251,7 @@ const sidebars = {
           case "sv": return "Domän";
           case "it": return "Dominio";
           case "nl": return "Domein";
+          case "zh": return "域名";
           default: return "Domain";
         }
       })(),
@@ -5286,6 +5299,7 @@ const sidebars = {
           case "sv": return "Webbhotell";
           case "it": return "Spazio web";
           case "nl": return "Webhosting";
+          case "zh": return "网络空间";
           default: return "Webspace";
         }
       })(),
@@ -5348,6 +5362,7 @@ const sidebars = {
           case "sv": return "Voicebot";
           case "it": return "Voicebot";
           case "nl": return "Voicebot";
+          case "zh": return "语音机器人";
           default: return "Voicebot";
         }
       })(),
@@ -5387,6 +5402,7 @@ const sidebars = {
           case "sv": return "Röstserver";
           case "it": return "Server vocale";
           case "nl": return "Voiceserver";
+          case "zh": return "语音服务器";
           default: return "Voiceserver";
         }
       })(),
