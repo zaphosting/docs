@@ -1,6 +1,6 @@
 ---
 id: welcome
-title: ¡Bienvenido a la Documentación de ZAP-Hosting!
+title: "¡Bienvenido a la Documentación de ZAP-Hosting!"
 description: "Descubre cómo sacar el máximo provecho a tus productos ZAP-Hosting para gaming, servidores y dominios con guías claras y expertas → Aprende más ahora"
 sidebar_label: ¡Bienvenido!
 ---
@@ -11,17 +11,17 @@ import YouTube from '@site/src/components/YouTube/YouTube';
 
 ## Introducción
 
-Bienvenido a la documentación completa de ZAP-Hosting, que sirve como el centro neurálgico para todo lo relacionado con nuestros productos. Desde servidores de juegos, VPS y servidores dedicados hasta dominios y hosting web, así como bot de voz y servidor de voz. Aquí encontrarás instrucciones detalladas, consejos y trucos para ayudarte a aprovechar al máximo tus productos (servicios) y llevar a cabo tus proyectos con éxito.
+Bienvenido a la documentación completa de ZAP-Hosting, que sirve como el centro principal para todo lo relacionado con nuestros productos. Desde servidores de juegos, VPS y servidores dedicados hasta dominio y hosting web, así como bot de voz y servidor de voz. Aquí encontrarás instrucciones detalladas, consejos y trucos para ayudarte a aprovechar al máximo tus productos (servicios) y llevar a cabo tus proyectos con éxito.
 
-Nuestro objetivo es hacer que el conocimiento sea accesible y fácil de entender. Por eso hemos diseñado nuestras guías para que sean comprensibles para todos, sin importar el nivel técnico previo. Ya sea que estés empezando con la configuración de tu primer servidor de juegos, adentrándote en el mundo de los servidores dedicados, registrando tu primer dominio o configurando tu servidor de voz, nuestras guías están pensadas para ofrecerte una entrada sencilla y clara.
+Nuestro objetivo es hacer que el conocimiento sea accesible y fácil de entender. Por eso hemos diseñado nuestras guías para que sean comprensibles para todos, sin importar el nivel técnico previo. Ya sea que estés comenzando con la configuración de tu primer servidor de juegos, explorando el mundo de los servidores dedicados, registrando tu primer dominio o configurando tu servidor de voz, nuestras guías están pensadas para ofrecerte una entrada sencilla y clara.
 
 Cubriendo una amplia variedad de temas, actualizamos regularmente nuestro contenido para que siempre estés al día y puedas aplicar las mejores prácticas. Desde guías básicas de configuración hasta técnicas avanzadas de configuración.
 
-<YouTube videoId="-2wJ6ZJ6ZVk" imageSrc="https://screensaver01.zap-hosting.com/index.php/s/kGb9tgzzoNZPZjW/preview" title="¡Bienvenido a ZAP-Docs!" description="¿Sientes que entiendes mejor cuando ves las cosas en acción? ¡Tenemos justo lo que necesitas! Sumérgete en nuestro video que te lo explica todo. Ya sea que tengas prisa o prefieras absorber la información de la forma más entretenida posible."/>
+<YouTube videoId="-2wJ6ZJ6ZVk" imageSrc="https://screensaver01.zap-hosting.com/index.php/s/kGb9tgzzoNZPZjW/preview" title="¡Bienvenido a ZAP-Docs!" description="¿Sientes que entiendes mejor cuando ves las cosas en acción? ¡Lo tenemos cubierto! Sumérgete en nuestro video que te lo explica todo. Ya sea que tengas prisa o prefieras absorber la información de la forma más entretenida posible."/>
 
 ## Servidor de juegos
 
-Sácale el máximo partido a tu servidor de juegos. Con nuestra experiencia, llevamos tu gaming a otro nivel. Nuestras guías detalladas para más de 100 juegos diferentes y sus extensiones/modificaciones te permiten desarrollar un conocimiento profundo sobre cómo configurar y gestionar tus servidores de juegos.
+Sácale el máximo provecho a tu servidor de juegos. Con nuestra experiencia, llevamos tu gaming a otro nivel. Nuestras guías detalladas para más de 100 juegos diferentes y sus extensiones/modificaciones te permiten desarrollar un conocimiento profundo sobre cómo configurar y gestionar tus servidores de juegos.
 
 <Cards>
     <Card title="FiveM" description="Placeholder" link="https://zap-hosting.com/guides/docs/fivem-dashboard" image="https://screensaver01.zap-hosting.com/index.php/s/fA3eHHpGLYo74ra/preview"/>
@@ -140,7 +140,7 @@ Sácale el máximo partido a tu servidor de juegos. Con nuestra experiencia, lle
 </Cards>
 
 ## VPS
-Sácale todo el jugo a tu VPS con nuestras guías completas. Ya prefieras Linux o Windows, nuestras guías te ayudan a configurar y gestionar tu servidor de forma eficiente.
+Sácale el máximo provecho a tu VPS con nuestras guías completas. Ya prefieras Linux o Windows, nuestras guías te ayudan a configurar y gestionar tu servidor de forma eficiente.
 
 <Cards>
     <Card title="VPS (Linux/Windows)" description="Placeholder" link="https://zap-hosting.com/guides/docs/vserver-introduction" image="https://screensaver01.zap-hosting.com/index.php/s/XmJGtYkc7d9rBai/preview" type="product-categories"/>
@@ -155,7 +155,7 @@ Nuestros servidores dedicados ofrecen rendimiento para proyectos exigentes. Desc
 </Cards>
 
 ## Dominio & Hosting web
-Arranca tu proyecto online sobre una base sólida con guías fáciles de entender sobre registro de dominios y gestión de hosting web. Te acompañamos en cada paso, desde la configuración hasta la publicación de tu web.
+Comienza tu proyecto online sobre una base sólida con guías fáciles de entender sobre registro de dominio y gestión de hosting web. Te acompañamos en cada paso, desde la configuración hasta la publicación de tu sitio web.
 
 <Cards>
     <Card title="Dominio" description="Placeholder" link="https://zap-hosting.com/guides/docs/domain-introduction" image="https://screensaver01.zap-hosting.com/index.php/s/SPaNk8LSP57s83z/preview" type="product-categories"/>
@@ -163,7 +163,7 @@ Arranca tu proyecto online sobre una base sólida con guías fáciles de entende
 </Cards>
 
 ## Bot de voz & Servidor de voz
-Mejora tus interacciones online con nuestros bots de voz y servidores de voz. Nuestras guías hacen que la configuración sea sencilla, para que puedas dedicar más tiempo a tu comunidad, ya sea jugando o en reuniones.
+Mejora tus interacciones online con nuestros bots de voz y servidores de voz. Nuestras guías hacen que la configuración sea sencilla, para que puedas dedicar más tiempo a tu comunidad, ya sea en gaming o en reuniones.
 
 <Cards>
     <Card title="Bot de voz" description="Placeholder" link="https://zap-hosting.com/guides/docs/voiceserver-voicebot-connection" image="https://screensaver01.zap-hosting.com/index.php/s/zZ73fps5Eq93foK/preview" type="product-categories"/>

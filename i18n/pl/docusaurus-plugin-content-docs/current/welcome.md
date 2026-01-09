@@ -1,6 +1,6 @@
 ---
 id: welcome
-title: Witamy w dokumentacji ZAP-Hosting!
+title: "Witamy w dokumentacji ZAP-Hosting!"
 description: "Odkryj, jak maksymalnie wykorzystać produkty ZAP-Hosting do gier, serwerów i domen dzięki jasnym, eksperckim poradnikom → Dowiedz się więcej już teraz"
 sidebar_label: Witamy!
 ---
@@ -11,15 +11,15 @@ import YouTube from '@site/src/components/YouTube/YouTube';
 
 ## Wprowadzenie
 
-Witamy w kompleksowej dokumentacji ZAP-Hosting, która jest centralnym miejscem dla wszystkiego, co związane z naszymi produktami. Od serwerów gier, VPS i serwerów dedykowanych po domeny i hosting, a także boty głosowe i serwery głosowe. Znajdziesz tu szczegółowe instrukcje, wskazówki i triki, które pomogą Ci w pełni wykorzystać Twoje produkty (usługi) i z sukcesem realizować swoje projekty.
+Witamy w kompleksowej dokumentacji ZAP-Hosting, która jest centralnym miejscem wszystkiego, co związane z naszymi produktami. Od serwerów gier, VPS i serwerów dedykowanych, po domeny i hosting, a także boty głosowe i serwery głosowe. Znajdziesz tu szczegółowe instrukcje, wskazówki i triki, które pomogą Ci w pełni wykorzystać Twoje produkty (usługi) i z sukcesem realizować swoje projekty.
 
-Naszym celem jest, aby wiedza była dostępna i zrozumiała. Dlatego nasze poradniki zostały zaprojektowane tak, aby każdy mógł je łatwo przyswoić, niezależnie od poziomu wiedzy technicznej. Niezależnie od tego, czy dopiero zaczynasz z konfiguracją pierwszego serwera gier, zagłębiasz się w świat serwerów dedykowanych, rejestrujesz swoją pierwszą domenę, czy konfigurujesz serwer głosowy, nasze poradniki zapewnią Ci prosty i przejrzysty start.
+Naszym celem jest, aby wiedza była dostępna i zrozumiała. Dlatego nasze poradniki zostały zaprojektowane tak, aby każdy mógł je łatwo przyswoić, niezależnie od wcześniejszej wiedzy technicznej. Niezależnie od tego, czy dopiero zaczynasz z konfiguracją pierwszego serwera gier, zanurzasz się w świat serwerów dedykowanych, rejestrujesz swoją pierwszą domenę, czy konfigurujesz serwer głosowy, nasze poradniki mają na celu zapewnić Ci prosty i przejrzysty start.
 
-Poruszamy szeroki zakres tematów i regularnie aktualizujemy nasze treści, abyś zawsze był na bieżąco i mógł stosować najlepsze praktyki. Od podstawowych poradników konfiguracji po zaawansowane techniki ustawień.
+Poruszamy szeroki zakres tematów i regularnie aktualizujemy nasze treści, abyś zawsze był na bieżąco i mógł stosować najlepsze praktyki. Od podstawowych poradników konfiguracji po zaawansowane techniki.
 
-<YouTube videoId="-2wJ6ZJ6ZVk" imageSrc="https://screensaver01.zap-hosting.com/index.php/s/kGb9tgzzoNZPZjW/preview" title="Witamy w ZAP-Docs!" description="Wolisz lepiej zrozumieć, gdy widzisz wszystko w akcji? Mamy to! Zanurz się w naszym wideo, które wszystko Ci wyjaśni. Niezależnie, czy się spieszysz, czy po prostu wolisz chłonąć informacje w najbardziej angażujący sposób!"/>
+<YouTube videoId="-2wJ6ZJ6ZVk" imageSrc="https://screensaver01.zap-hosting.com/index.php/s/kGb9tgzzoNZPZjW/preview" title="Witamy w ZAP-Docs!" description="Wolisz lepiej zrozumieć, gdy widzisz wszystko w akcji? Mamy to! Zanurz się w naszym wideo, które wszystko Ci wyjaśni. Niezależnie czy się spieszysz, czy po prostu wolisz chłonąć informacje w najbardziej angażujący sposób!"/>
 
-## Serwery gier
+## Serwer gier
 
 Wykorzystaj w pełni możliwości swojego serwera gier. Dzięki naszej wiedzy przeniesiemy Twoją rozgrywkę na wyższy poziom. Nasze szczegółowe poradniki dla ponad 100 różnych gier oraz ich rozszerzeń/modyfikacji pozwolą Ci zdobyć głęboką wiedzę na temat konfiguracji i zarządzania serwerami gier.
 
@@ -140,7 +140,7 @@ Wykorzystaj w pełni możliwości swojego serwera gier. Dzięki naszej wiedzy pr
 </Cards>
 
 ## VPS
-Wykorzystaj pełnię możliwości swojego VPS dzięki naszym kompleksowym poradnikom. Niezależnie od tego, czy wolisz Linuxa czy Windowsa, nasze poradniki pomogą Ci efektywnie skonfigurować i zarządzać serwerem.
+Wykorzystaj w pełni możliwości swojego VPS dzięki naszym kompleksowym poradnikom. Niezależnie od tego, czy wolisz Linuxa czy Windowsa, nasze poradniki pomogą Ci efektywnie skonfigurować i zarządzać serwerem.
 
 <Cards>
     <Card title="VPS (Linux/Windows)" description="Placeholder" link="https://zap-hosting.com/guides/docs/vserver-introduction" image="https://screensaver01.zap-hosting.com/index.php/s/XmJGtYkc7d9rBai/preview" type="product-categories"/>
@@ -148,21 +148,21 @@ Wykorzystaj pełnię możliwości swojego VPS dzięki naszym kompleksowym poradn
 
 ## Serwer dedykowany
 
-Nasze serwery dedykowane oferują wydajność dla wymagających projektów. Odkryj w naszych poradnikach, jak skonfigurować sprzęt i systemy operacyjne zgodnie z Twoimi potrzebami i zapewnić optymalne działanie aplikacji.
+Nasze serwery dedykowane oferują wydajność dla wymagających projektów. Odkryj w naszych poradnikach, jak skonfigurować sprzęt i systemy operacyjne zgodnie z Twoimi potrzebami i zapewnić optymalne działanie Twoich aplikacji.
 
 <Cards>
     <Card title="Serwer dedykowany" description="Placeholder" link="https://zap-hosting.com/guides/docs/dedicated-introduction" image="https://screensaver01.zap-hosting.com/index.php/s/o5kTJsSdwGY69m8/preview" type="product-categories"/>
 </Cards>
 
-## Domeny i hosting
-Rozpocznij swój projekt online na solidnych podstawach dzięki łatwym do zrozumienia poradnikom o rejestracji domen i zarządzaniu hostingiem. Przeprowadzimy Cię przez każdy krok, od konfiguracji po publikację strony.
+## Domena & Hosting
+Rozpocznij swój projekt online na solidnych podstawach dzięki łatwym do zrozumienia poradnikom o rejestracji domen i zarządzaniu hostingiem. Przeprowadzimy Cię przez każdy krok, od konfiguracji po publikację Twojej strony.
 
 <Cards>
     <Card title="Domena" description="Placeholder" link="https://zap-hosting.com/guides/docs/domain-introduction" image="https://screensaver01.zap-hosting.com/index.php/s/SPaNk8LSP57s83z/preview" type="product-categories"/>
     <Card title="Hosting" description="Placeholder" link="https://zap-hosting.com/guides/docs/webspace-adddomain" image="https://screensaver01.zap-hosting.com/index.php/s/SPaNk8LSP57s83z/preview" type="product-categories"/>
 </Cards>
 
-## Bot głosowy i serwer głosowy
+## Bot głosowy & Serwer głosowy
 Ulepsz swoje interakcje online dzięki naszym botom głosowym i serwerom głosowym. Nasze poradniki ułatwiają konfigurację, dzięki czemu możesz spędzać więcej czasu ze swoją społecznością, czy to podczas grania, czy spotkań.
 
 <Cards>

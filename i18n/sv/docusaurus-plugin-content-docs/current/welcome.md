@@ -1,6 +1,6 @@
 ---
 id: welcome
-title: Välkommen till ZAP-Hosting Dokumentation!
+title: "Välkommen till ZAP-Hosting Dokumentation!"
 description: "Upptäck hur du maxar dina ZAP-Hosting-produkter för gaming, servrar och domäner med tydliga, proffsiga guider → Lär dig mer nu"
 sidebar_label: Välkommen!
 ---
@@ -11,17 +11,17 @@ import YouTube from '@site/src/components/YouTube/YouTube';
 
 ## Introduktion
 
-Välkommen till den kompletta dokumentationen för ZAP-Hosting, din centrala hubb för allt som rör våra produkter. Från gameservers, VPS och dedikerade servrar till domäner & webbspace, samt voicebot & voiceserver. Här hittar du detaljerade instruktioner, tips och tricks för att du ska få ut max av dina produkter (tjänster) och lyckas med dina projekt.
+Välkommen till den kompletta dokumentationen för ZAP-Hosting, din centrala hubb för allt som rör våra produkter. Från gameservrar, VPS och dedikerade servrar till domäner & webbspace, samt voicebot & voiceserver. Här hittar du detaljerade instruktioner, tips och tricks som hjälper dig att få ut max av dina produkter (tjänster) och lyckas med dina projekt.
 
-Vårt mål är att göra kunskap tillgänglig och lättförståelig. Därför har vi designat våra guider så att alla kan hänga med, oavsett teknisk bakgrund. Oavsett om du precis startar med att sätta upp din första gameserver, dyker ner i dedikerade servrar, registrerar din första domän eller konfigurerar din voiceserver, så ger våra guider dig en enkel och tydlig start.
+Vårt mål är att göra kunskap tillgänglig och lättförståelig. Därför har vi designat våra guider så att alla kan hänga med, oavsett teknisk bakgrund. Oavsett om du precis börjat med att sätta upp din första gameserver, dyker ner i dedikerade servrar, registrerar din första domän eller konfigurerar din voiceserver, så är våra guider skapade för att ge dig en enkel och tydlig start.
 
-Vi täcker ett brett spektrum av ämnen och uppdaterar regelbundet innehållet så att du alltid är uppdaterad och kan använda bästa praxis. Från grundläggande installationsguider till avancerade konfigurationstekniker.
+Vi täcker ett brett spektrum av ämnen och uppdaterar regelbundet innehållet för att du alltid ska vara uppdaterad och kunna använda bästa praxis. Från grundläggande installationsguider till avancerade konfigurationstekniker.
 
-<YouTube videoId="-2wJ6ZJ6ZVk" imageSrc="https://screensaver01.zap-hosting.com/index.php/s/kGb9tgzzoNZPZjW/preview" title="Välkommen till ZAP-Docs!" description="Känns det lättare att förstå när du ser saker i action? Vi fixar det! Kolla in vår video som bryter ner allt för dig. Oavsett om du har bråttom eller bara gillar att ta in info på det mest engagerande sättet!"/>
+<YouTube videoId="-2wJ6ZJ6ZVk" imageSrc="https://screensaver01.zap-hosting.com/index.php/s/kGb9tgzzoNZPZjW/preview" title="Välkommen till ZAP-Docs!" description="Känns det lättare att förstå när du ser saker i praktiken? Vi fixar det! Kolla in vår video som bryter ner allt för dig. Oavsett om du har bråttom eller bara gillar att ta in info på det mest engagerande sättet!"/>
 
 ## Gameserver
 
-Få ut det bästa av din gameserver. Med vår expertis tar vi ditt gaming till nästa nivå. Våra detaljerade guider för över 100 olika spel och deras tillägg/mods ger dig djup kunskap om hur du konfigurerar och hanterar dina gameservers.
+Perfektionera och utnyttja hela potentialen i din gameserver. Med vår expertis tar vi ditt gaming till nästa nivå. Våra detaljerade guider för över 100 olika spel och deras tillägg/mods ger dig djup kunskap om hur du konfigurerar och hanterar dina gameservrar.
 
 <Cards>
     <Card title="FiveM" description="Placeholder" link="https://zap-hosting.com/guides/docs/fivem-dashboard" image="https://screensaver01.zap-hosting.com/index.php/s/fA3eHHpGLYo74ra/preview"/>
@@ -140,7 +140,7 @@ Få ut det bästa av din gameserver. Med vår expertis tar vi ditt gaming till n
 </Cards>
 
 ## VPS
-Maxa din VPS med våra kompletta guider. Oavsett om du kör Linux eller Windows hjälper våra guider dig att snabbt och smidigt sätta upp och sköta din server.
+Utnyttja hela potentialen i din VPS med våra omfattande guider. Oavsett om du föredrar Linux eller Windows hjälper våra guider dig att snabbt och smidigt sätta upp och hantera din server.
 
 <Cards>
     <Card title="VPS (Linux/Windows)" description="Placeholder" link="https://zap-hosting.com/guides/docs/vserver-introduction" image="https://screensaver01.zap-hosting.com/index.php/s/XmJGtYkc7d9rBai/preview" type="product-categories"/>
@@ -148,14 +148,14 @@ Maxa din VPS med våra kompletta guider. Oavsett om du kör Linux eller Windows 
 
 ## Dedikerad Server
 
-Våra dedikerade servrar levererar prestanda för krävande projekt. Upptäck i våra guider hur du konfigurerar hårdvara och operativsystem efter dina behov och ser till att dina applikationer flyter på optimalt.
+Våra dedikerade servrar levererar prestanda för krävande projekt. Upptäck i våra guider hur du konfigurerar hårdvara och operativsystem efter dina behov och ser till att dina applikationer körs optimalt.
 
 <Cards>
     <Card title="Dedikerad Server" description="Placeholder" link="https://zap-hosting.com/guides/docs/dedicated-introduction" image="https://screensaver01.zap-hosting.com/index.php/s/o5kTJsSdwGY69m8/preview" type="product-categories"/>
 </Cards>
 
 ## Domän & Webbspace
-Starta ditt onlineprojekt på en stabil grund med lättförståeliga guider om domänregistrering och webbspace-hantering. Vi guidar dig genom varje steg, från setup till att publicera din hemsida.
+Starta ditt onlineprojekt på en stabil grund med lättförståeliga guider om domänregistrering och webbspace-hantering. Vi guidar dig genom varje steg, från setup till publicering av din webbplats.
 
 <Cards>
     <Card title="Domän" description="Placeholder" link="https://zap-hosting.com/guides/docs/domain-introduction" image="https://screensaver01.zap-hosting.com/index.php/s/SPaNk8LSP57s83z/preview" type="product-categories"/>
@@ -163,7 +163,7 @@ Starta ditt onlineprojekt på en stabil grund med lättförståeliga guider om d
 </Cards>
 
 ## Voicebot & Voiceserver
-Lyft dina online-interaktioner med våra voicebots och voiceservrar. Våra guider gör setupen enkel så du kan hänga mer med din community, vare sig det är gaming eller möten.
+Lyft dina online-interaktioner med våra voicebots och voiceservrar. Våra guider gör setupen enkel, så du kan spendera mer tid med din community, vare sig det är gaming eller möten.
 
 <Cards>
     <Card title="Voicebot" description="Placeholder" link="https://zap-hosting.com/guides/docs/voiceserver-voicebot-connection" image="https://screensaver01.zap-hosting.com/index.php/s/zZ73fps5Eq93foK/preview" type="product-categories"/>

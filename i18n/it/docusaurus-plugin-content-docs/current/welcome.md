@@ -1,6 +1,6 @@
 ---
 id: welcome
-title: Benvenuto nella Documentazione di ZAP-Hosting!
+title: "Benvenuto nella Documentazione di ZAP-Hosting!"
 description: "Scopri come sfruttare al massimo i tuoi prodotti ZAP-Hosting per gaming, server e domini con guide chiare ed esperte → Scopri di più ora"
 sidebar_label: Benvenuto!
 ---
@@ -11,11 +11,11 @@ import YouTube from '@site/src/components/YouTube/YouTube';
 
 ## Introduzione
 
-Benvenuto nella documentazione completa di ZAP-Hosting, il punto di riferimento centrale per tutto ciò che riguarda i nostri prodotti. Dai game server, VPS e server dedicati a domini & webspace, oltre a voicebot & voice server. Qui troverai istruzioni dettagliate, consigli e trucchi per sfruttare al massimo i tuoi prodotti (servizi) e portare a termine con successo i tuoi progetti.
+Benvenuto nella documentazione completa di ZAP-Hosting, il punto di riferimento centrale per tutto ciò che riguarda i nostri prodotti. Dai game server, VPS e server dedicati fino a domini & webspace, oltre a voicebot & voice server. Qui troverai istruzioni dettagliate, consigli e trucchi per sfruttare al massimo i tuoi prodotti (servizi) e realizzare con successo i tuoi progetti.
 
 Il nostro obiettivo è rendere la conoscenza accessibile e comprensibile. Per questo abbiamo progettato le nostre guide in modo che siano facili da capire per tutti, indipendentemente dalle conoscenze tecniche pregresse. Che tu stia iniziando a configurare il tuo primo game server, esplorando il mondo dei server dedicati, registrando il tuo primo dominio o configurando il tuo voice server, le nostre guide ti offrono un punto di partenza semplice e chiaro.
 
-Copriamo una vasta gamma di argomenti e aggiorniamo regolarmente i contenuti per garantirti di essere sempre aggiornato e poter applicare le best practice. Dalle guide base di setup alle tecniche avanzate di configurazione.
+Copriamo un’ampia gamma di argomenti e aggiorniamo regolarmente i contenuti per garantirti di essere sempre al passo e poter applicare le best practice. Dalle guide base alle tecniche di configurazione avanzate.
 
 <YouTube videoId="-2wJ6ZJ6ZVk" imageSrc="https://screensaver01.zap-hosting.com/index.php/s/kGb9tgzzoNZPZjW/preview" title="Benvenuto su ZAP-Docs!" description="Ti sembra più facile capire quando vedi le cose in azione? Ci pensiamo noi! Tuffati nel nostro video che ti spiega tutto. Che tu sia di fretta o preferisca assorbire le info nel modo più coinvolgente possibile!"/>
 
@@ -140,7 +140,7 @@ Sfrutta al massimo il tuo game server. Con la nostra esperienza, portiamo il tuo
 </Cards>
 
 ## VPS
-Sfrutta al massimo il tuo VPS con le nostre guide complete. Che tu preferisca Linux o Windows, le nostre guide ti aiutano a configurare e gestire il tuo server in modo efficiente.
+Sfrutta al massimo il tuo VPS con le nostre guide complete. Che tu preferisca Linux o Windows, le nostre guide ti aiutano a configurare e gestire il server in modo efficiente.
 
 <Cards>
     <Card title="VPS (Linux/Windows)" description="Placeholder" link="https://zap-hosting.com/guides/docs/vserver-introduction" image="https://screensaver01.zap-hosting.com/index.php/s/XmJGtYkc7d9rBai/preview" type="product-categories"/>
@@ -155,7 +155,7 @@ I nostri server dedicati offrono prestazioni per progetti esigenti. Scopri nelle
 </Cards>
 
 ## Dominio & Webspace
-Avvia il tuo progetto online su basi solide con guide facili da capire su registrazione dominio e gestione webspace. Ti accompagniamo in ogni passo, dal setup alla pubblicazione del tuo sito.
+Avvia il tuo progetto online su basi solide con guide facili da capire su registrazione dominio e gestione webspace. Ti accompagniamo in ogni passo, dalla configurazione alla pubblicazione del sito.
 
 <Cards>
     <Card title="Dominio" description="Placeholder" link="https://zap-hosting.com/guides/docs/domain-introduction" image="https://screensaver01.zap-hosting.com/index.php/s/SPaNk8LSP57s83z/preview" type="product-categories"/>
@@ -163,7 +163,7 @@ Avvia il tuo progetto online su basi solide con guide facili da capire su regist
 </Cards>
 
 ## Voicebot & Voiceserver
-Potenzia le tue interazioni online con i nostri voicebot e voice server. Le nostre guide rendono il setup semplice, così puoi passare più tempo con la tua community, sia che si tratti di gaming o meeting.
+Potenzia le tue interazioni online con i nostri voicebot e voice server. Le nostre guide rendono la configurazione semplice, così puoi passare più tempo con la tua community, sia in game che in meeting.
 
 <Cards>
     <Card title="Voicebot" description="Placeholder" link="https://zap-hosting.com/guides/docs/voiceserver-voicebot-connection" image="https://screensaver01.zap-hosting.com/index.php/s/zZ73fps5Eq93foK/preview" type="product-categories"/>

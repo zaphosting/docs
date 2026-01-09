@@ -47,7 +47,8 @@
   },
   "devDependencies": {
     "@docusaurus/module-type-aliases": "^3.9.2",
-    "@docusaurus/types": "^3.9.2"
+    "@docusaurus/types": "^3.9.2",
+    "baseline-browser-mapping": "^2.9.13"
   },
   "browserslist": {
     "production": [
