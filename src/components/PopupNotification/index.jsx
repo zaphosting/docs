@@ -151,7 +151,21 @@ function PopupNotificationWithDoc({ config }) {
   const { siteConfig } = useDocusaurusContext();
   const isBrowser = useIsBrowser();
   const location = useLocation();
-  const docData = useDoc();
+  
+  if (!isBrowser) {
+    return <PopupNotificationBase config={config} frontMatter={null} docId={null} />;
+  }
+  
+  let docData = null;
+  try {
+    docData = useDoc();
+  } catch (error) {
+    // useDoc() throws an error if not on a doc page
+    if (process.env.NODE_ENV === 'development') {
+      console.log('PopupNotification - useDoc() failed:', error.message);
+    }
+  }
+  
   const frontMatter = docData?.frontMatter || null;
   const docId = docData?.metadata?.id || null;
   
@@ -535,6 +549,11 @@ class PopupErrorBoundary extends React.Component {
 
 export default function PopupNotification({ config }) {
   const location = useLocation();
+  const isBrowser = useIsBrowser();
+  
+  if (!isBrowser) {
+    return <PopupNotificationBase config={config} frontMatter={null} docId={null} />;
+  }
   
   const isDocPage = location.pathname.includes('/docs/') && 
                     !location.pathname.endsWith('/docs/') &&
