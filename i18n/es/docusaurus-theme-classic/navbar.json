@@ -23,12 +23,16 @@
     "message": "Servidor dedicado",
     "description": "Navbar item with label Dedicated Server"
   },
-  "item.label.Domain & Webspace": {
-    "message": "Dominio y hosting web",
-    "description": "Navbar item with label Domain & Webspace"
-  },
   "item.label.Voicebot & Voiceserver": {
     "message": "Bot de voz y servidor de voz",
     "description": "Navbar item with label Voicebot & Voiceserver"
+  },
+  "item.label.Domain": {
+    "message": "Domain",
+    "description": "Navbar item with label Domain"
+  },
+  "item.label.Webspace": {
+    "message": "Webspace",
+    "description": "Navbar item with label Webspace"
   }
 }

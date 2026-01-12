@@ -23,12 +23,16 @@
     "message": "专用服务器",
     "description": "Navbar item with label Dedicated Server"
   },
-  "item.label.Domain & Webspace": {
-    "message": "域名与网络空间",
-    "description": "Navbar item with label Domain & Webspace"
-  },
   "item.label.Voicebot & Voiceserver": {
     "message": "语音机器人 & 语音服务器",
     "description": "Navbar item with label Voicebot & Voiceserver"
+  },
+  "item.label.Domain": {
+    "message": "Domain",
+    "description": "Navbar item with label Domain"
+  },
+  "item.label.Webspace": {
+    "message": "Webspace",
+    "description": "Navbar item with label Webspace"
   }
 }

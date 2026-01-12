@@ -2191,26 +2191,6 @@
     "message": "故障排除",
     "description": "The label for category 'Troubleshooting' in sidebar 'dedicatedserverSidebar'"
   },
-  "sidebar.domainwebspaceSidebar.category.domain-domain-forwarding": {
-    "message": "域名转发",
-    "description": "The label for category 'Domain forwarding' in sidebar 'domainwebspaceSidebar'"
-  },
-  "sidebar.domainwebspaceSidebar.category.domain-cloudflare": {
-    "message": "Cloudflare",
-    "description": "The label for category 'Cloudflare' in sidebar 'domainwebspaceSidebar'"
-  },
-  "sidebar.domainwebspaceSidebar.category.domain-e-mails": {
-    "message": "电子邮件",
-    "description": "The label for category 'E-Mails' in sidebar 'domainwebspaceSidebar'"
-  },
-  "sidebar.domainwebspaceSidebar.category.domain-mybb": {
-    "message": "MyBB",
-    "description": "The label for category 'MyBB' in sidebar 'domainwebspaceSidebar'"
-  },
-  "sidebar.domainwebspaceSidebar.category.domain-wordpress": {
-    "message": "WordPress",
-    "description": "The label for category 'WordPress' in sidebar 'domainwebspaceSidebar'"
-  },
   "sidebar.voiceserverbotSidebar.category.domain-discord-bot": {
     "message": "Discord 机器人",
     "description": "The label for category 'Discord Bot' in sidebar 'voiceserverbotSidebar'"
@@ -2218,5 +2198,25 @@
   "sidebar.voiceserverbotSidebar.category.domain-ts3musicbot": {
     "message": "TS3MusicBot",
     "description": "The label for category 'TS3MusicBot' in sidebar 'voiceserverbotSidebar'"
+  },
+  "sidebar.domainSidebar.category.domain-domain-forwarding": {
+    "message": "Domain forwarding",
+    "description": "The label for category 'Domain forwarding' in sidebar 'domainSidebar'"
+  },
+  "sidebar.domainSidebar.category.domain-cloudflare": {
+    "message": "Cloudflare",
+    "description": "The label for category 'Cloudflare' in sidebar 'domainSidebar'"
+  },
+  "sidebar.webspaceSidebar.category.domain-e-mails": {
+    "message": "E-Mails",
+    "description": "The label for category 'E-Mails' in sidebar 'webspaceSidebar'"
+  },
+  "sidebar.webspaceSidebar.category.domain-mybb": {
+    "message": "MyBB",
+    "description": "The label for category 'MyBB' in sidebar 'webspaceSidebar'"
+  },
+  "sidebar.webspaceSidebar.category.domain-wordpress": {
+    "message": "WordPress",
+    "description": "The label for category 'WordPress' in sidebar 'webspaceSidebar'"
   }
 }

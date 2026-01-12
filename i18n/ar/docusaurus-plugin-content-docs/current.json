@@ -7,14 +7,6 @@
     "message": "الدعم",
     "description": "The label for category 'Support' in sidebar 'guidesSidebar'"
   },
-  "sidebar.guidesSidebar.category.Account": {
-    "message": "الحساب",
-    "description": "The label for category 'Account' in sidebar 'guidesSidebar'"
-  },
-  "sidebar.guidesSidebar.category.general-security": {
-    "message": "الأمان",
-    "description": "The label for category 'Security' in sidebar 'guidesSidebar'"
-  },
   "sidebar.guidesSidebar.category.Affiliate Program": {
     "message": "برنامج الشركاء",
     "description": "The label for category 'Affiliate Program' in sidebar 'guidesSidebar'"
@@ -667,10 +659,6 @@
     "message": "التكوين",
     "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
   },
-  "sidebar.gameserverSidebar.category.gameserver-plugins-mods-counter-strike-2": {
-    "message": "الإضافات / التعديلات",
-    "description": "The label for category 'Plugins / Mods' in sidebar 'gameserverSidebar'"
-  },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-counter-strike-2": {
     "message": "استكشاف الأخطاء وإصلاحها",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
@@ -688,18 +676,6 @@
     "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-day-of-defeat-source": {
-    "message": "استكشاف الأخطاء وإصلاحها",
-    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
-  },
-  "sidebar.gameserverSidebar.category.gameserver-day-of-infamy": {
-    "message": "Day of Infamy",
-    "description": "The label for category 'Day of Infamy' in sidebar 'gameserverSidebar'"
-  },
-  "sidebar.gameserverSidebar.category.gameserver-first-steps-day-of-infamy": {
-    "message": "الخطوات الأولى",
-    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
-  },
-  "sidebar.gameserverSidebar.category.gameserver-troubleshooting-day-of-infamy": {
     "message": "استكشاف الأخطاء وإصلاحها",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
@@ -2103,26 +2079,6 @@
     "message": "استكشاف الأخطاء وإصلاحها",
     "description": "The label for category 'Troubleshooting' in sidebar 'dedicatedserverSidebar'"
   },
-  "sidebar.domainwebspaceSidebar.category.domain-domain-forwarding": {
-    "message": "MyBB",
-    "description": "The label for category 'Domain forwarding' in sidebar 'domainwebspaceSidebar'"
-  },
-  "sidebar.domainwebspaceSidebar.category.domain-cloudflare": {
-    "message": "WordPress",
-    "description": "The label for category 'Cloudflare' in sidebar 'domainwebspaceSidebar'"
-  },
-  "sidebar.domainwebspaceSidebar.category.domain-e-mails": {
-    "message": "TS3MusicBot",
-    "description": "The label for category 'E-Mails' in sidebar 'domainwebspaceSidebar'"
-  },
-  "sidebar.domainwebspaceSidebar.category.domain-mybb": {
-    "message": "تأجير VPS",
-    "description": "The label for category 'MyBB' in sidebar 'domainwebspaceSidebar'"
-  },
-  "sidebar.domainwebspaceSidebar.category.domain-wordpress": {
-    "message": "تأجير سيرفر مخصص",
-    "description": "The label for category 'WordPress' in sidebar 'domainwebspaceSidebar'"
-  },
   "sidebar.voiceserverbotSidebar.category.domain-discord-bot": {
     "message": "بوت ديسكورد",
     "description": "The label for category 'Discord Bot' in sidebar 'voiceserverbotSidebar'"
@@ -2150,5 +2106,117 @@
   "sidebar.dedicatedserverSidebar.category.dedicated-windows-dedicated-game-servers-general": {
     "message": "سيرفرات ألعاب مخصصة",
     "description": "The label for category 'General' in sidebar 'dedicatedserverSidebar'"
+  },
+  "sidebar.guidesSidebar.category.Administration": {
+    "message": "Administration",
+    "description": "The label for category 'Administration' in sidebar 'guidesSidebar'"
+  },
+  "sidebar.guidesSidebar.category.Billing": {
+    "message": "Billing",
+    "description": "The label for category 'Billing' in sidebar 'guidesSidebar'"
+  },
+  "sidebar.guidesSidebar.category.Security": {
+    "message": "Security",
+    "description": "The label for category 'Security' in sidebar 'guidesSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-hytale-popular": {
+    "message": "Hytale",
+    "description": "The label for category 'Hytale' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-first-steps-hytale-popular": {
+    "message": "First Steps",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-configuration-hytale-popular": {
+    "message": "Configuration",
+    "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-troubleshooting-hytale-popular": {
+    "message": "Troubleshooting",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-hytale": {
+    "message": "Hytale",
+    "description": "The label for category 'Hytale' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-first-steps-hytale": {
+    "message": "First Steps",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-configuration-hytale": {
+    "message": "Configuration",
+    "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-troubleshooting-hytale": {
+    "message": "Troubleshooting",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-nightingale": {
+    "message": "Nightingale",
+    "description": "The label for category 'Nightingale' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-first-steps-nightingale": {
+    "message": "First Steps",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-troubleshooting-nightingale": {
+    "message": "Troubleshooting",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.renown-reign-of-kings": {
+    "message": "Renown",
+    "description": "The label for category 'Renown' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-first-steps-renown": {
+    "message": "First Steps",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-troubleshooting-renown": {
+    "message": "Troubleshooting",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-skyrim-together-reborn": {
+    "message": "Skyrim Together Reborn",
+    "description": "The label for category 'Skyrim Together Reborn' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-first-steps-skyrim-together-reborn": {
+    "message": "First Steps",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-troubleshooting-skyrim-together-reborn": {
+    "message": "Troubleshooting",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-configuration-starmade": {
+    "message": "Configuration",
+    "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-configuration-vintage-story": {
+    "message": "Configuration",
+    "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.dedicatedserverSidebar.category.dedicated-server-linux-troubleshooting": {
+    "message": "Troubleshooting",
+    "description": "The label for category 'Troubleshooting' in sidebar 'dedicatedserverSidebar'"
+  },
+  "sidebar.domainSidebar.category.domain-domain-forwarding": {
+    "message": "Domain forwarding",
+    "description": "The label for category 'Domain forwarding' in sidebar 'domainSidebar'"
+  },
+  "sidebar.domainSidebar.category.domain-cloudflare": {
+    "message": "Cloudflare",
+    "description": "The label for category 'Cloudflare' in sidebar 'domainSidebar'"
+  },
+  "sidebar.webspaceSidebar.category.domain-e-mails": {
+    "message": "E-Mails",
+    "description": "The label for category 'E-Mails' in sidebar 'webspaceSidebar'"
+  },
+  "sidebar.webspaceSidebar.category.domain-mybb": {
+    "message": "MyBB",
+    "description": "The label for category 'MyBB' in sidebar 'webspaceSidebar'"
+  },
+  "sidebar.webspaceSidebar.category.domain-wordpress": {
+    "message": "WordPress",
+    "description": "The label for category 'WordPress' in sidebar 'webspaceSidebar'"
   }
 }
