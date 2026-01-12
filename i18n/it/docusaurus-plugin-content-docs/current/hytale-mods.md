@@ -29,11 +29,13 @@ Die Seite wird aktualisiert, sobald bestätigte und stabile Infos zu Mod-Support
 
 ## Mods installieren
 
-Solange die offiziellen Server-Dateien und der Modding-Workflow nicht komplett dokumentiert sind, können sich genaue Installationsdetails noch ändern. Grundsätzlich kommen Mods in den Mods-Ordner deines Servers. Verbinde dich mit deinem Server, öffne den Mods-Ordner im Serververzeichnis und lade deine Mod-Dateien dort hoch.
+Mods kannst du installieren, indem du sie direkt in deine Server-Dateien packst. Lade die gewünschten Mods im `.zip` oder `.jar` Format von vertrauenswürdigen Quellen wie CurseForge herunter.
+
+Verbinde dich danach mit deinem Server und öffne das Verzeichnis `mods/` im Server-Root. Lade die Mod-Dateien in diesen Ordner hoch, ohne sie zu entpacken oder zu verändern. Sobald alle Mods drin sind, starte den Server neu, damit sie geladen und aktiviert werden.
 
 ## Beliebte Mods
 
-Du suchst noch die perfekten Mods für deinen Server? Stöbere durch unsere sorgfältig kuratierte Liste der beliebtesten und am meisten empfohlenen Mods, um dein Gameplay zu pimpen und deinem Server den letzten Schliff zu geben. Lass dich inspirieren und finde genau die Addons, die zu deinem Projekt passen.
+Du suchst noch die perfekten Mods für deinen Server? Stöbere durch unsere sorgfältig zusammengestellte Liste der beliebtesten und am meisten empfohlenen Mods, um dein Gameplay zu pimpen und deinem Server den letzten Schliff zu geben. Lass dich inspirieren und finde genau die Addons, die zu deinem Projekt passen.
 
 <SearchableItemList items={items} />
 

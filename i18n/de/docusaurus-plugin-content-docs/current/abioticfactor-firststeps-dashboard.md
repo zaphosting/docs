@@ -1,7 +1,7 @@
 ---
 id: abioticfactor-firststeps-dashboard
-title: "Abiotic Factor: Dashboard Überblick"
-description: "Entdecke, wie du deinen Abiotic Factor Gameserver effizient verwaltest und optimierst – mit einem klaren Überblick über alle wichtigen Features und Optionen → Jetzt mehr erfahren"
+title: "Abiotic Factor: Dashboard Übersicht"
+description: "Entdecke, wie du deinen Abiotic Factor Gameserver effizient verwaltest und optimierst – mit einer klaren Übersicht aller wichtigen Features und Optionen → Jetzt mehr erfahren"
 sidebar_label: Dashboard
 services:
   - gameserver-abioticfactor
@@ -13,11 +13,11 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
 
-Du interessierst dich für einen **Abiotic Factor Gameserver** oder besitzt bereits einen, hast aber noch keinen umfassenden Überblick über die Administration und die Auffindbarkeit aller notwendigen Optionen? Gerade am Anfang kann das eine Herausforderung sein. Aber keine Sorge, wir geben dir weiter unten eine detaillierte Einführung in die Verwaltung deines Services, damit du den bestmöglichen Überblick bekommst.
+Du interessierst dich für einen **Abiotic Factor Gameserver** oder besitzt bereits einen, hast aber noch keinen umfassenden Überblick über die Administration und die Auffindbarkeit aller notwendigen Optionen? Gerade am Anfang kann das eine Herausforderung sein. Aber keine Sorge, wir geben dir weiter unten eine detaillierte Einführung in die Verwaltung deines Services, damit du die bestmögliche Übersicht bekommst.
 
-Nach dem Durcharbeiten dieser Anleitung kannst du deinen Server ganz easy effizient verwalten und findest alle wichtigen Optionen und Features schnell und unkompliziert. Hier bekommst du eine strukturierte Übersicht, die dir Schritt für Schritt hilft, dich mit der Serververwaltung vertraut zu machen und dein Wissen gezielt zu erweitern. So stellst du sicher, dass dein **Abiotic Factor Gameserver** optimal auf deine Bedürfnisse angepasst ist und du das Maximum aus den verfügbaren Optionen rausholst.
+Nach dem Durcharbeiten dieser Anleitung kannst du deinen Server ganz easy effizient verwalten und findest alle nötigen Optionen und Features schnell und unkompliziert. Hier bekommst du eine strukturierte Übersicht, die dir Schritt für Schritt hilft, dich mit der Serververwaltung vertraut zu machen und dein Wissen gezielt zu erweitern. So stellst du sicher, dass dein **Abiotic Factor Gameserver** optimal auf deine Bedürfnisse angepasst ist und du das Maximum aus den verfügbaren Optionen rausholst.
 
-<YouTube videoId="BLebXE9BmlA" imageSrc="https://screensaver01.zap-hosting.com/index.php/s/6w225s66rNQkTRR/preview" title="Abiotic Factor Server in nur EINER MINUTE einrichten!" description="Lernst du besser, wenn du Dinge in Aktion siehst? Kein Problem! Tauche ein in unser Video, das alles für dich erklärt. Egal ob du es eilig hast oder Infos am liebsten auf die spannendste Art aufsaugst!"/>
+<YouTube videoId="BLebXE9BmlA" imageSrc="https://screensaver01.zap-hosting.com/index.php/s/6w225s66rNQkTRR/preview" title="Abiotic Factor Server in nur EINER MINUTE einrichten!" description="Lernst du besser, wenn du Dinge in Aktion siehst? Kein Problem! Tauche ein in unser Video, das alles für dich erklärt. Egal ob du es eilig hast oder einfach lieber auf die spannendste Art und Weise Infos aufsaugst!"/>
 
 <InlineVoucher />
 
@@ -27,17 +27,17 @@ Im Bereich **Produktverwaltung** findest du alle notwendigen Seiten zur Verwaltu
 
 ### Dashboard
 
-Das **Dashboard** deines Servers ist das Herzstück der Administration. Hier werden alle grundlegenden und wichtigen Infos zu deinem Service übersichtlich dargestellt. Dazu gehören zum Beispiel Angaben zum Serverstandort, Status, IP: Port, genutztem Speicher, laufendem Spiel, Servername, Map und der Anzahl verfügbarer Slots. Außerdem wird die Auslastung von CPU, Speicher und RAM angezeigt.
+Das **Dashboard** deines Servers ist das Herzstück der Administration. Hier werden alle grundlegenden und wichtigen Informationen zu deinem Service übersichtlich dargestellt. Dazu gehören zum Beispiel Infos zum Serverstandort, Status, IP: Port, genutztem Speicher, laufendem Spiel, Servername, Map und die Anzahl der verfügbaren Slots. Außerdem wird die Auslastung von CPU, Speicher und RAM angezeigt.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/jR6dsMezHzFotmM/preview)
 
-Im Dashboard kannst du deinen Service auch starten, stoppen oder neu starten, um die volle Kontrolle über den Betrieb zu haben. Außerdem hast du Zugriff auf die Live-Konsole, um Echtzeit-Infos zum Serverstatus zu erhalten und bei Bedarf direkt eingreifen zu können.
+Im Dashboard kannst du deinen Service auch starten, stoppen oder neu starten, um die volle Kontrolle über den Betrieb zu haben. Außerdem hast du Zugriff auf die Live-Konsole, um Echtzeit-Infos zum Serverstatus zu erhalten und bei Bedarf direkt einzugreifen.
 
 ### DDoS Manager
 
-Behalte vergangene DDoS-Angriffe im Blick, um potenzielle Bedrohungen und Muster besser einschätzen zu können. Aktiviere Benachrichtigungen für laufende DDoS-Attacken auf deinen Server, um schnell reagieren zu können, wenn ein Vorfall auftritt.
+Behalte vergangene DDoS-Angriffe im Blick, um potenzielle Bedrohungen und Muster besser einschätzen zu können. Aktiviere Benachrichtigungen für laufende DDoS-Attacken auf deinen Server, um schnell reagieren zu können, wenn ein Vorfall eintritt.
 
-Je nach Serverstandort und dort verfügbarem DDoS-Schutz kannst du aktive Angriffe auch in Echtzeit überwachen. Das beinhaltet detaillierte Traffic-Einblicke, die sowohl legitimen Traffic als auch die Menge an Traffic zeigen, die von den Schutzsystemen blockiert wird. Dieses Maß an Transparenz hilft dir zu verstehen, wie der Schutz funktioniert und ermöglicht es dir, potenzielle Risiken frühzeitig zu erkennen.
+Je nach Serverstandort und dort verfügbarem DDoS-Schutz kannst du aktive Angriffe auch in Echtzeit überwachen. Dazu gehören detaillierte Traffic-Insights, die sowohl legitimen Traffic als auch die Menge an Traffic zeigen, die von den Schutzsystemen blockiert wird. Dieses Maß an Transparenz hilft dir zu verstehen, wie der Schutz funktioniert und ermöglicht es dir, potenzielle Risiken frühzeitig zu erkennen.
 
 :::info DDoS Manager Zugriff fehlt?
 Die Nutzung des DDoS Managers erfordert entweder eine dedizierte IP-Adresse oder die Zusatzoption „DDoS Manager Übersicht“. Falls dein aktuelles Paket diese Komponenten nicht enthält, kannst du sie jederzeit durch ein Upgrade deines Services hinzufügen.
@@ -47,25 +47,25 @@ Die Nutzung des DDoS Managers erfordert entweder eine dedizierte IP-Adresse oder
 
 ### Logdateien
 
-Tritt ein technisches Problem auf und du bist dir unsicher, woran es liegt? Eine erste mögliche Lösung ist das Prüfen der **Logdateien**. Diese Dateien enthalten viele Infos zum Server, wie aktuelle Ereignisse, Hinweise oder Fehlermeldungen.
+Tritt ein technisches Problem auf und du bist dir unsicher, woran es liegt? Eine erste mögliche Lösungsstrategie ist das Prüfen der **Logdateien**. Diese Dateien enthalten viele Infos zum Server, wie aktuelle Ereignisse, Hinweise oder Fehlermeldungen.
 
 Gerade Fehlermeldungen können helfen, die Ursache eines Problems zu identifizieren und besser zu verstehen. Oft lassen sich Schwierigkeiten durch einen gezielten Blick in die Logdateien aufdecken und beheben.
 
 :::info
-Die gefundenen Infos helfen dir nicht weiter oder du verstehst sie nicht? Kein Stress! In dem Fall sind wir auch täglich im Support für dich da. Erstelle einfach ein **[Ticket](https://zap-hosting.com/en/customer/support/)** und schildere uns dein Problem. Wir schauen uns das so schnell wie möglich an und helfen dir bei der Lösung! :)
+Die Infos dort helfen dir nicht weiter oder du verstehst sie nicht? Kein Stress! In dem Fall sind wir auch täglich im Support für dich da. Erstelle einfach ein **[Ticket](https://zap-hosting.com/en/customer/support/)** und schildere uns dein Problem. Wir schauen uns das so schnell wie möglich an und helfen dir, das Problem zu lösen! :)
 :::
 
 ### Ereignisprotokoll
 
-Das **Ereignisprotokoll** gibt dir einen umfassenden Überblick über alle Aktivitäten rund um die Serververwaltung. Hier kannst du jederzeit nachvollziehen, wann ein Server gestartet, gestoppt oder abgestürzt ist sowie wann Updates, Backups oder Neuinstallationen durchgeführt wurden.
+Das **Ereignisprotokoll** gibt dir eine umfassende Übersicht über alle Aktivitäten rund um die Serververwaltung. Hier kannst du jederzeit nachvollziehen, wann ein Server gestartet, gestoppt oder abgestürzt ist, sowie wann Updates, Backups oder Neuinstallationen durchgeführt wurden.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/xNzsaMbW5BS5KJC/preview)
 
 ### Live-Konsole
 
-Die **Live-Konsole** bietet dir eine Echtzeit-Ansicht aller aktuellen Ereignisse auf deinem Server. Hier siehst du Infos zu den Aktivitäten der Spieler sowie mögliche Fehlermeldungen und Systemnachrichten. Diese Übersicht ermöglicht dir, einen umfassenden Eindruck davon zu bekommen, was auf deinem Server passiert, und mögliche Probleme frühzeitig zu erkennen.
+Die **Live-Konsole** bietet dir eine Echtzeitansicht aller aktuellen Ereignisse auf deinem Server. Hier siehst du Infos zu den Aktivitäten der Spieler sowie mögliche Fehlermeldungen und Systemnachrichten. Diese Übersicht ermöglicht dir, einen umfassenden Blick darauf zu bekommen, was auf deinem Server passiert, und mögliche Probleme frühzeitig zu erkennen.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/dktDADkq3bzG3F6/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/J9SsmSrPXnG7P9w/preview)
 
 Neben der Überwachung der Ereignisse kannst du in der **Live-Konsole** auch direkt Befehle an den Server senden. Das ist praktisch, um Einstellungen anzupassen, bestimmte Aktionen auszuführen oder schnell auf auftretende Probleme zu reagieren.
 
@@ -75,7 +75,7 @@ Dein Server war zeitweise offline und du kannst dir nicht erklären warum? Ein B
 
 Wenn unser Monitoring-System eine allgemeine Unterbrechung erkennt, werden unsere Techniker automatisch benachrichtigt und kümmern sich so schnell wie möglich um das Problem.
 
-In diesem Bereich findest du eine Übersicht über die Unterbrechungshistorie des Hostsystems, auf dem dein Gameserver-Service läuft. Mehr Infos und die aktuellste Version unseres Service-Status findest du auf unserer neuen [Statusseite](https://status.zap-hosting.com/).
+In diesem Bereich findest du eine Übersicht über die Unterbrechungshistorie des Hostsystems, auf dem dein Gameserver-Service läuft. Mehr Infos und den aktuellen Stand unseres Service-Status findest du auf unserer neuen [Statusseite](https://status.zap-hosting.com/).
 
 ## Einstellungen
 
@@ -83,29 +83,29 @@ Im Bereich **Einstellungen** findest du alle notwendigen Seiten zur Konfiguratio
 
 ### Einstellungen
 
-Unter den Einstellungen findest du eine Übersicht der gängigsten Einstellungsmöglichkeiten für deinen Server. Dazu gibt es auch kurze Erklärungen. Die Nutzung der Einstellungsseite empfehlen wir besonders Einsteigern in die Serververwaltung.
+Unter den Einstellungen findest du eine Übersicht der gängigsten Einstellungsmöglichkeiten für deinen Server. Diese beinhalten auch eine kurze Erklärung. Die Nutzung der Einstellungsseite empfehlen wir besonders Einsteigern in die Serververwaltung.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/Y3e6G2io6KaPBZe/preview)
 
 Hier kannst du zum Beispiel folgende Anpassungen vornehmen:
 
-- Grundeinstellungen: Spielname, Servername, Serverbeschreibung, Admin-Passwort
+- Grundeinstellungen: Sagegame-Name, Servername, Serverbeschreibung, Admin-Passwort
 
 Wenn du dich sicherer fühlst und präzisere Änderungen vornehmen möchtest, empfehlen wir dir stattdessen den Config Editor. Mehr Infos dazu findest du in der Kategorie **Configs**.
 
 ### Configs
 
-Der Config-Datei-Editor ermöglicht dir, die Konfigurationsdateien direkt auf der Webseite klassisch zu bearbeiten – ohne vereinfachte Ansicht. So kannst du die Einstellungen deines Servers individuell anpassen und nach deinen persönlichen Vorlieben konfigurieren.
+Der Config-Datei-Editor ermöglicht dir, die Konfigurationsdateien direkt auf der Webseite klassisch zu bearbeiten, ohne die vereinfachte Ansicht. Mit dieser Option kannst du die Einstellungen deines Servers individuell anpassen und nach deinen persönlichen Vorlieben konfigurieren.
 
-Mit dem Editor hast du direkten Zugriff auf alle verfügbaren Optionen und kannst sie genau anpassen. Das ist besonders praktisch für fortgeschrittene Nutzer, die volle Kontrolle über ihre Servereinstellungen wollen und genau wissen, welche Änderungen sie vornehmen möchten.
+Durch die Nutzung des Editors hast du direkten Zugriff auf alle verfügbaren Optionen und kannst diese genau anpassen. Das ist besonders nützlich für fortgeschrittene Nutzer, die volle Kontrolle über ihre Servereinstellungen wollen und genau wissen, welche Änderungen sie vornehmen möchten.
 
 :::info
-Hast du bemerkt, dass einige deiner Änderungen teilweise überschrieben werden? Bitte beachte, dass bestimmte Optionswerte von der Einstellungsseite übernommen werden. Wenn du diese Änderungen direkt in der Config vornehmen willst, musst du die entsprechenden Optionen auf der Einstellungsseite zuerst deaktivieren.
+Hast du bemerkt, dass einige deiner Änderungen teilweise überschrieben werden? Bitte beachte, dass bestimmte Optionswerte von der Einstellungsseite übernommen werden. Wenn du diese Änderungen direkt in der Config vornehmen möchtest, musst du die entsprechenden Optionen auf der Einstellungsseite zuerst deaktivieren.
 :::
 
 ### Spiele
 
-Unter **Spiele** hast du jederzeit die Möglichkeit, die Spielvariante deines bestehenden Spiels zu ändern oder generell ein anderes Spiel zu installieren. Spiele mit dem gleichen Slot-Preis kannst du direkt unter **Verfügbare Spiele** auswählen. Für alle anderen Spiele ist vorher eine Anpassung des Slot-Preises erforderlich. Mehr Infos dazu findest du in der [Spielwechsel](gameserver-gameswitch.md) Anleitung.
+Unter **Games** hast du jederzeit die Möglichkeit, die Spielvariante deines bestehenden Spiels zu wechseln oder generell ein anderes Spiel zu installieren. Spiele mit dem gleichen Slot-Preis kannst du direkt unter **Verfügbare Spiele** auswählen. Für alle anderen Spiele ist vorher eine Anpassung des Slot-Preises nötig. Mehr Infos dazu findest du in der [Game Change](gameserver-gameswitch.md) Anleitung.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/QB82f3CSKmJgwqk/preview)
 
@@ -115,17 +115,17 @@ Unter **Versionen** kannst du die aktuelle Version deines Gameservers einsehen u
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/BH2JzyRHTeLdKHz/preview)
 
-Außerdem kannst du die E-Mail-Benachrichtigung für automatische Updates aktivieren, um immer über Updates informiert zu sein und auf dem Laufenden zu bleiben.
+Außerdem kannst du die E-Mail-Benachrichtigung für automatische Updates aktivieren, um immer informiert zu bleiben und sicherzustellen, dass du up-to-date bist.
 
 ### Geplante Aufgaben
 
-Erstelle geplante Aufgaben, die automatisch zu definierten Zeiten ausgeführt werden, um verschiedene Prozesse auf deinem Server zu automatisieren. Du kannst einstellen, ob eine Aufgabe einmalig oder wiederholt ausgeführt werden soll. Unterstützte Aufgabenarten sind z.B. Starten, Stoppen oder Neustarten von Services, Neustart des Servers wenn er online ist, Backups erstellen oder benutzerdefinierte Befehle ausführen.
+Erstelle geplante Aufgaben, die automatisch zu definierten Zeiten ausgeführt werden, um verschiedene Prozesse auf deinem Server zu automatisieren. Du kannst einstellen, ob eine Aufgabe einmalig oder wiederholt ausgeführt werden soll. Unterstützte Aufgabenarten sind z.B. das Starten, Stoppen oder Neustarten von Services, Neustart des Servers wenn er online ist, Backups erstellen oder benutzerdefinierte Befehle ausführen.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/P6DeWiRC3tDqG2z/preview)
 
 ### Neustart-Planer
 
-Willst du Server-Neustarts zu bestimmten Zeiten planen? Der Neustart-Planer ermöglicht dir, automatische Neustarts deines Gameservers zeitgesteuert einzurichten. Damit kannst du Neustarts zu festen Zeiten oder in regelmäßigen Abständen planen.
+Willst du Server-Neustarts zu bestimmten Zeiten planen? Der Neustart-Planer ermöglicht dir, automatische Neustarts deines Gameservers zeitgesteuert einzurichten. Mit dieser Funktion kannst du Neustarts zu bestimmten Uhrzeiten oder in regelmäßigen Abständen festlegen.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/Y6WciDS7YP98P4m/preview)
 
@@ -141,11 +141,11 @@ Im Bereich **Tools** deines Navigationspanels findest du verschiedene Unterpunkt
 
 ### FTP-Browser
 
-Mit dem **FTP-Browser** bekommst du alle nötigen Infos, um eine Verbindung zum FTP-Zugang herzustellen. Der FTP-Zugang ermöglicht dir direkten Zugriff auf die Dateien deines Gameservers. Für die optimale Nutzung empfehlen wir ein externes FTP-Programm wie **FileZilla** oder **WinSCP**. Wenn du noch nicht weißt, wie FTP funktioniert, hilft dir vielleicht ein Blick in die [Zugriff via FTP](gameserver-ftpaccess.md) Anleitung.
+Mit dem **FTP-Browser** bekommst du alle nötigen Infos, um eine Verbindung zum FTP-Zugang herzustellen. Der FTP-Zugang ermöglicht dir direkten Zugriff auf die Dateien deines Gameservers. Für die optimale Nutzung empfehlen wir ein externes FTP-Programm wie **FileZilla** oder **WinSCP**. Wenn du noch nicht vertraut bist mit FTP, kann dir ein Blick in die [Zugriff via FTP](gameserver-ftpaccess.md) Anleitung weiterhelfen.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/fZSYpSi4KwPos5P/preview)
 
-**FileZilla:** FileZilla ist der einfachste und bekannteste FTP-Client. Einfach installieren, starten und deine Zugangsdaten in der oberen Leiste eingeben, die du auf dieser Seite etwas weiter oben findest. Nach einem Klick auf „Verbinden“ bist du direkt auf dem Server eingeloggt und kannst die Dateien verwalten.
+**FileZilla:** FileZilla ist der einfachste und bekannteste FTP-Client. Einfach installieren, starten und deine Zugangsdaten in der oberen Leiste eingeben, die du auf dieser Seite etwas weiter oben findest. Nach einem schnellen Klick auf „Verbinden“ bist du direkt auf dem Server eingeloggt und kannst die Dateien verwalten.
 
 **WinSCP:** WinSCP ist eigentlich für SCP und SFTP (die verschlüsselten Nachfolger des FTP-Protokolls) gedacht, kann aber auch FTP. Das Programm ist umfangreicher als FileZilla und eignet sich für fortgeschrittene Nutzer.
 
@@ -159,7 +159,7 @@ Neben unseren Gameserver-Produkten bieten wir auch 10 inklusive Datenbanken an. 
 
 Unter **Backups** kannst du sowohl manuelle als auch automatische Backups für deinen Server und die zugehörige Datenbank erstellen. So kannst du deine Daten im Falle von Problemen oder Datenverlust leichter wiederherstellen.
 
-In den Einstellungen kannst du festlegen, ob Backups automatisch erstellt werden sollen und ob das täglich oder wöchentlich passieren soll. Zusätzlich kannst du entscheiden, ob bei Bedarf die ältesten Backups gelöscht werden sollen, z.B. wenn der verfügbare Speicherplatz knapp wird.
+In den Einstellungen kannst du festlegen, ob Backups automatisch erstellt werden sollen und ob das täglich oder wöchentlich passieren soll. Zusätzlich kannst du entscheiden, ob die ältesten Backups bei Bedarf gelöscht werden sollen, z.B. wenn der verfügbare Speicherplatz knapp wird.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/nm9za5LTMEcNsga/preview)
 
@@ -181,7 +181,7 @@ Wir bieten umfangreiche Dokumentationen zu unseren Produkten, die als Wissensdat
 
 ### News
 
-Die **News** geben dir einen umfassenden Überblick über alle Ankündigungen und Neuigkeiten rund um deinen Service. Hier findest du wichtige Infos zu verschiedenen Aspekten wie:
+Die **News** geben dir eine umfassende Übersicht über alle Ankündigungen und Neuigkeiten rund um deinen Service. Hier findest du wichtige Infos zu verschiedenen Aspekten wie:
 
 - Änderungen am Service, z.B. durch Updates oder neue Features
 - Ankündigungen zu möglichen Wartungen oder technischen Problemen

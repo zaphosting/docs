@@ -17,20 +17,16 @@ Um servidor MySQL é necessário para várias aplicações e pode conter dados i
 
 ## Instalação
 
-No começo, conecte-se via conexão de área de trabalho remota ao seu servidor e baixe a versão mais recente do MariaDB, que é usada para o servidor de banco de dados: [Download do MariaDB](https://mariadb.org/download/?t=mariadb). 
-
-Descompacte o arquivo baixado com WinRAR ou 7Zip e inicie o arquivo de instalação com um duplo clique: 
-
-![](https://screensaver01.zap-hosting.com/index.php/s/aPZn6jmLK5NZybW/preview)
+No começo, conecte-se via conexão de área de trabalho remota ao seu servidor e baixe a versão mais recente do MariaDB, que é usada para o servidor de banco de dados: [Download do MariaDB](https://mariadb.org/download/?t=mariadb). Descompacte o arquivo baixado com WinRAR ou 7Zip e inicie o arquivo de instalação com um duplo clique.
 
 Depois, navegue pelo processo de instalação clicando em **Next** até que seja solicitado que você digite a senha root:
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/gMrr8aHEM2eAG22/preview)
 
-Lá você pode definir a senha mestre para o acesso ao seu servidor de banco de dados. Por favor, certifique-se de usar uma senha segura que ninguém mais saiba!
+Lá você pode definir a senha mestre para o acesso ao seu servidor de banco de dados. Por favor, certifique-se de usar uma senha segura que ninguém mais conheça!
 
 :::info
-IMPORTANTE! Se você quiser acessar o banco de dados externamente via Navicat, HeidiSQL ou qualquer outra ferramenta, você precisa ativar a opção **Enable access from remote machines for root user**! Por questões de segurança, isso geralmente não é recomendado.
+IMPORTANTE! Se você quiser acessar o banco de dados externamente via Navicat, HeidiSQL ou qualquer outra ferramenta, você deve ativar a opção **Enable access from remote machines for root user**! Por questões de segurança, isso geralmente não é recomendado.
 :::
 
 Depois, clique em **Next** até chegar ao final da instalação, onde você deve clicar em **Install**:
@@ -52,6 +48,6 @@ Agora você pode acessar seu servidor MySQL externamente!
 
 ## Conclusão
 
-Parabéns, você instalou e configurou com sucesso o servidor MySQL no seu VPS! Se tiver mais dúvidas ou problemas, entre em contato com nosso time de suporte, que está disponível para te ajudar todos os dias! 
+Parabéns, você instalou e configurou com sucesso o servidor MySQL no seu VPS! Se tiver mais dúvidas ou problemas, entre em contato com nosso time de suporte, que está disponível para te ajudar todos os dias!
 
 <InlineVoucher />

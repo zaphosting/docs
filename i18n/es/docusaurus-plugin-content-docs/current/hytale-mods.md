@@ -20,7 +20,7 @@ Los mods convierten tu servidor de juegos Hytale en algo realmente tuyo. Pueden 
 Ya sea que quieras una progresión más rápida, elementos de supervivencia más profundos, más opciones de construcción, eventos personalizados o reglas únicas para el servidor, los mods te dan las herramientas para moldear la experiencia y hacer que tu mundo destaque.
 
 :::info 
-Hytale está programado para lanzarse el 13 de enero de 2026. Dado que los archivos oficiales del servidor, las herramientas de modding y los flujos de instalación pueden cambiar durante la fase inicial post lanzamiento, algunas partes de esta guía podrían quedar desactualizadas.
+Hytale tiene previsto su lanzamiento el 13 de enero de 2026. Como los archivos oficiales del servidor, las herramientas de modding y los procesos de instalación pueden cambiar durante la fase inicial post lanzamiento, algunas partes de esta guía podrían quedar desactualizadas.
 
 La página se actualizará tan pronto como haya información confirmada y estable sobre soporte de mods, formatos de archivos y requisitos de configuración.
 :::
@@ -29,9 +29,9 @@ La página se actualizará tan pronto como haya información confirmada y establ
 
 ## Instalar Mods
 
-Mientras los archivos oficiales del servidor y el flujo de trabajo de modding no estén completamente documentados, los detalles exactos de instalación pueden cambiar. En general, los mods se colocan en el directorio de mods de tu servidor. Puedes conectarte a tu servidor, abrir la carpeta mods en el directorio del servidor y subir tus archivos de mod ahí.
+Los mods se pueden instalar añadiéndolos directamente a los archivos de tu servidor. Empieza descargando los mods deseados en formato `.zip` o `.jar` desde fuentes confiables como CurseForge.
 
-
+Una vez descargados, conéctate a tu servidor y abre el directorio `mods/` en la raíz del servidor. Sube los archivos de los mods a esta carpeta sin extraerlos ni modificarlos. Cuando todos los mods estén en su lugar, reinicia el servidor para que se carguen y activen.
 
 ## Mods Populares
 

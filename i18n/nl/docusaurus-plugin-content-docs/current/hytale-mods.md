@@ -13,14 +13,14 @@ import SearchableItemList from '@site/src/components/SearchableItemList/Searchab
 import items from '@site/data/lists/hytale-mods.json';
 
 
-## Introductie
+## Intro
 
-Mods maken van jouw Hytale-server echt iets unieks. Ze kunnen nieuwe mechanics toevoegen, bestaande systemen uitbreiden, frisse uitdagingen introduceren en compleet nieuwe manieren van spelen creëren, van kleine quality of life verbeteringen tot volledige gameplay-overhauls.
+Mods maken van jouw Hytale-server echt iets unieks. Ze kunnen nieuwe mechanics toevoegen, bestaande systemen uitbreiden, frisse uitdagingen brengen en compleet nieuwe manieren van spelen creëren, van kleine quality of life verbeteringen tot volledige gameplay-overhauls.
 
 Of je nu snellere progressie wilt, diepere survival-elementen, meer bouwopties, custom events of unieke serverregels, mods geven je de tools om de ervaring vorm te geven en jouw wereld te onderscheiden.
 
 :::info 
-Hytale staat gepland voor release op 13 januari 2026. Omdat officiële serverbestanden, modding tools en installatieprocessen in de vroege post-launch fase nog kunnen veranderen, kunnen delen van deze gids verouderd raken.
+Hytale staat gepland voor release op 13 januari 2026. Omdat officiële serverbestanden, modding tools en installatieprocessen in de vroege post-launch fase nog kunnen veranderen, kan een deel van deze gids verouderd raken.
 
 De pagina wordt bijgewerkt zodra er bevestigde en stabiele info beschikbaar is over mod-ondersteuning, bestandsformaten en setup-eisen.
 :::
@@ -29,9 +29,9 @@ De pagina wordt bijgewerkt zodra er bevestigde en stabiele info beschikbaar is o
 
 ## Mods Installeren
 
-Zolang de officiële serverbestanden en het moddingproces nog niet volledig gedocumenteerd zijn, kunnen exacte installatie-instructies nog veranderen. Over het algemeen plaats je mods in de mods-map van je server. Je kunt verbinden met je server, de mods-folder openen in je serverdirectory en daar je modbestanden uploaden.
+Mods installeer je door ze direct toe te voegen aan je serverbestanden. Begin met het downloaden van de gewenste mods in `.zip` of `.jar` formaat van betrouwbare bronnen zoals CurseForge.
 
-
+Als je ze hebt gedownload, maak dan verbinding met je server en open de `mods/` map in de server root. Upload de mod-bestanden naar deze map zonder ze uit te pakken of aan te passen. Zodra alle mods erop staan, herstart je de server zodat ze geladen en geactiveerd worden.
 
 ## Populaire Mods
 
