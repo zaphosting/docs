@@ -23,12 +23,16 @@
     "message": "เซิร์ฟเวอร์เฉพาะ",
     "description": "Navbar item with label Dedicated Server"
   },
-  "item.label.Domain & Webspace": {
-    "message": "โดเมน & เว็บโฮสติ้ง",
-    "description": "Navbar item with label Domain & Webspace"
-  },
   "item.label.Voicebot & Voiceserver": {
     "message": "Voice Bot & เซิร์ฟเวอร์เสียง",
     "description": "Navbar item with label Voicebot & Voiceserver"
+  },
+  "item.label.Domain": {
+    "message": "โดเมน",
+    "description": "Navbar item with label Domain"
+  },
+  "item.label.Webspace": {
+    "message": "เว็บโฮสติ้ง",
+    "description": "Navbar item with label Webspace"
   }
 }
