@@ -5236,75 +5236,79 @@ const sidebars = {
       ]
     },	
   ],
+
+    //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    domainSidebar: [
+      {
+        type: 'html',
+        className: 'sidebar-title',
+        value: (() => {
+          switch (process.env.DOCUSAURUS_CURRENT_LOCALE) {
+            case "de": return "Erste Schritte";
+            case "es": return "Primeros pasos";
+            case "fr": return "Premiers pas";
+            case "ar": return "الخطوات الأولى";
+            case "pt": return "Primeiros passos";
+            case "th": return "เริ่มต้นใช้งาน";
+            case "pl": return "Pierwsze kroki";
+            case "ja": return "はじめに";
+            case "sv": return "Kom igång";
+            case "it": return "Primi passi";
+            case "nl": return "Eerste stappen";
+            case "zh": return "第一步";
+            default: return "First steps";
+          }
+        })(),
+        defaultStyle: true,
+      },
+      'domain-introduction',
+      'domain-dashboard',
+      'domain-order',
+      'domain-transfer',
+      'domain-handle-management',
+      'domain-easydns',
+      'domain-profidns',
+      'domain-expertdns',
+      'domain-records',
+      {
+        type: "category",
+        label: "Domain forwarding",
+        key: "domain-domain-forwarding",
+        items: [
+          'domain-gameserver-srv-link',
+          'domain-teamspeak-redirect',
+        ],
+      },
+      {
+        type: "category",
+        label: "Cloudflare",
+        key: "domain-cloudflare",
+        items: [
+          'domain-cloudflare-setup',
+        ],
+      },
+    ],
   
   //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-  domainwebspaceSidebar: [
+  webspaceSidebar: [
     {
       type: 'html',
       className: 'sidebar-title',
       value: (() => {
         switch (process.env.DOCUSAURUS_CURRENT_LOCALE) {
-          case "de": return "Domain";
-          case "es": return "Dominio";
-          case "fr": return "Domaine";
-          case "ar": return "النطاق";
-          case "pt": return "Domínio";
-          case "th": return "โดเมน";
-          case "pl": return "Domena";
-          case "ja": return "ドメイン";
-          case "sv": return "Domän";
-          case "it": return "Dominio";
-          case "nl": return "Domein";
-          case "zh": return "域名";
-          default: return "Domain";
-        }
-      })(),
-      defaultStyle: true,
-    },
-    'domain-introduction',
-    'domain-dashboard',
-    'domain-order',
-    'domain-transfer',
-    'domain-handle-management',
-    'domain-easydns',
-    'domain-profidns',
-    'domain-expertdns',
-    'domain-records',
-    {
-      type: "category",
-      label: "Domain forwarding",
-      key: "domain-domain-forwarding",
-      items: [
-        'domain-gameserver-srv-link',
-        'domain-teamspeak-redirect',
-      ],
-    },
-    {
-      type: "category",
-      label: "Cloudflare",
-      key: "domain-cloudflare",
-      items: [
-        'domain-cloudflare-setup',
-      ],
-    },
-    {
-      type: 'html',
-      className: 'sidebar-title',
-      value: (() => {
-        switch (process.env.DOCUSAURUS_CURRENT_LOCALE) {
-          case "de": return "Webspace";
-          case "es": return "Alojamiento web";
-          case "fr": return "Espace web";
-          case "ar": return "استضافة الويب";
-          case "pt": return "Hospedagem web";
-          case "th": return "เว็บสเปซ";
-          case "pl": return "Przestrzeń WWW";
-          case "ja": return "ウェブスペース";
-          case "sv": return "Webbhotell";
-          case "it": return "Spazio web";
-          case "nl": return "Webhosting";
-          case "zh": return "网络空间";
-          default: return "Webspace";
+          case "de": return "Erste Schritte";
+          case "es": return "Primeros pasos";
+          case "fr": return "Premiers pas";
+          case "ar": return "الخطوات الأولى";
+          case "pt": return "Primeiros passos";
+          case "th": return "เริ่มต้นใช้งาน";
+          case "pl": return "Pierwsze kroki";
+          case "ja": return "はじめに";
+          case "sv": return "Kom igång";
+          case "it": return "Primi passi";
+          case "nl": return "Eerste stappen";
+          case "zh": return "第一步";
+          default: return "First steps";
         }
       })(),
       defaultStyle: true,
