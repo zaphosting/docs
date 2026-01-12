@@ -12,8 +12,6 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 ## Introduction
 Do you have a Linux Dedicated Server and you want to install the Hytale on it? You are in the right place. In this guide, we will explain the step by step process of installing this service on your Linux server.
 
-<InlineVoucher />
-
 ## Preparation
 
 To run a Hytale server, your system must meet a few basic requirements. The server runs on Java 25 and requires at least 4 GB of RAM. Both x64 and arm64 architectures are supported. Actual resource usage depends on player count, view distance, and world activity, so additional resources may be necessary for larger servers.
@@ -123,4 +121,3 @@ Congratulations, you now have a functional Hytale server running on your system.
 
 For further questions or assistance, please don't hesitate to contact our support team, which is available daily to assist you! 🙂
 
-<InlineVoucher />

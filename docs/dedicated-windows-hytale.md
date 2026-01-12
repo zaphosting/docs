@@ -12,8 +12,6 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 ## Introduction
 Do you have a Dedicated Server and want to host your own Hytale server on it? In this guide, we explain the step by step process of installing and running the Hytale dedicated server on a Windows system.
 
-<InlineVoucher />
-
 ## Preparation
 
 To run a Hytale server, your system must meet a few basic requirements. The server runs on Java 25 and requires at least 4 GB of RAM. Both x64 and arm64 architectures are supported. Actual resource usage depends on player count, view distance, and world activity, so additional resources may be necessary for larger servers.
@@ -120,4 +118,3 @@ Congratulations, you now have a functional Hytale server running on your system.
 
 For further questions or assistance, please don't hesitate to contact our support team, which is available daily to assist you! 🙂
 
-<InlineVoucher />
