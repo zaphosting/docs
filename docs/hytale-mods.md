@@ -29,9 +29,9 @@ The page  will be updated as soon as confirmed and stable information about mod 
 
 ## Install Mods
 
-As long as the official server files and the modding workflow are not fully documented, exact installation details may still change. In general, mods are placed in your server’s mods directory. You can connect to your server via  open the mods folder in your server directory, and upload your mod files there. 
+Mods can be installed by adding them directly to your server files. Start by downloading the desired mods in `.zip` or `.jar` format from trusted sources such as CurseForge.
 
-
+Once downloaded, connect to your server and open the `mods/` directory in the server root. Upload the mod files into this folder without extracting or modifying them. After all mods are in place, restart the server so they are loaded and activated.
 
 ## Popular Mods
 

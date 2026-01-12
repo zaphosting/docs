@@ -26,7 +26,7 @@ I avsnittet **Produktadministration** hittar du alla nödvändiga sidor för att
 
 ### Kontrollpanel
 
-**Kontrollpanelen** för din server är hjärtat i administrationen. All grundläggande och viktig information om din tjänst presenteras tydligt här. Det inkluderar till exempel information om plats, status, IP:Port, använd minne, pågående spel, servernamn, karta och antal tillgängliga slots. Dessutom visas även belastningen på CPU, minne och RAM.
+**Kontrollpanelen** för din server är hjärtat i administrationen. All grundläggande och viktig information om din tjänst presenteras tydligt här. Det inkluderar till exempel information om plats, status, IP: Port, använd minne, pågående spel, servernamn, karta och antal tillgängliga platser. Dessutom visas även belastningen på CPU, minne och RAM.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/MXDcgCwCYT93zrz/preview)
 
@@ -36,7 +36,7 @@ I kontrollpanelen kan du också starta, stoppa eller starta om din tjänst för 
 
 Se tidigare DDoS-attacker för att bättre bedöma potentiella hot och mönster. Aktivera notiser för pågående DDoS-attacker på din server för att snabbt kunna reagera när en incident inträffar.
 
-Beroende på serverns plats och den DDoS-skydd som finns där kan du även övervaka aktiva attacker i realtid. Detta inkluderar detaljerad trafikinsikt som visar både legitim trafik och mängden trafik som blockeras av skyddssystemen. Denna transparens hjälper dig att förstå hur skyddet fungerar och gör det möjligt att tidigt identifiera potentiella risker.
+Beroende på serverns plats och den DDoS-skydd som finns där kan du även övervaka aktiva attacker i realtid. Detta inkluderar detaljerad trafikinsikt, som visar både legitim trafik och mängden trafik som blockeras av skyddssystemen. Denna transparens hjälper dig att förstå hur skyddet fungerar och gör det möjligt att tidigt identifiera potentiella risker.
 
 :::info Saknas åtkomst till DDoS Manager?
 Användning av DDoS Manager kräver antingen en dedikerad IP-adress eller tilläggsoptionen "DDoS Manager Översikt". Om ditt nuvarande paket inte inkluderar dessa komponenter kan du när som helst lägga till dem genom att uppgradera din tjänst.
@@ -46,17 +46,17 @@ Användning av DDoS Manager kräver antingen en dedikerad IP-adress eller tillä
 
 ### Loggfiler
 
-Har du ett tekniskt problem och är osäker på orsaken? Ett första steg kan vara att kolla **Loggfilerna**. Dessa filer innehåller mycket information om servern, som aktuella händelser, ledtrådar eller felmeddelanden.
+Har du ett tekniskt problem och är osäker på orsaken? En första möjlig lösning är att kolla **Loggfilerna**. Dessa filer innehåller mycket information om servern, som aktuella händelser, ledtrådar eller felmeddelanden.
 
-Felmeddelanden kan särskilt hjälpa till att identifiera och förstå orsaken till ett problem. Ofta kan svårigheter upptäckas och lösas genom att noggrant granska loggfilerna.
+Felmeddelanden kan särskilt hjälpa till att identifiera och förstå orsaken till ett problem bättre. Ofta kan svårigheter upptäckas och lösas genom att noggrant granska loggfilerna.
 
 :::info
-Hittar du ingen hjälp i informationen eller förstår du den inte? Ingen fara! Vi finns tillgängliga i supporten varje dag. Skapa bara ett **[Ticket](https://zap-hosting.com/en/customer/support/)** och förklara ditt problem för oss. Vi kollar på det så snabbt vi kan och hjälper dig att lösa problemet! :)
+Hittar du ingen hjälp i informationen eller förstår du den inte? Ingen fara! Vi finns tillgängliga i supporten varje dag. Skapa bara en **[Ticket](https://zap-hosting.com/en/customer/support/)** och förklara ditt problem för oss. Vi kollar på det så snabbt som möjligt och hjälper dig att lösa problemet! :)
 :::
 
 ### Händelselogg
 
-**Händelseloggen** ger dig en komplett översikt över alla aktiviteter relaterade till serveradministrationen. Här kan du när som helst se när en server startade, stoppade eller kraschade, samt när uppdateringar, backuper eller nya installationer genomfördes.
+**Händelseloggen** ger dig en komplett översikt över alla aktiviteter kopplade till serveradministrationen. Här kan du när som helst se när en server startade, stoppade eller kraschade, samt när uppdateringar, backuper eller nya installationer gjordes.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/xNzsaMbW5BS5KJC/preview)
 
@@ -64,9 +64,9 @@ Hittar du ingen hjälp i informationen eller förstår du den inte? Ingen fara! 
 
 **Livekonsolen** ger dig en realtidsvy över alla aktuella händelser på din server. Här kan du se information om spelarnas aktiviteter samt eventuella fel- och systemmeddelanden. Denna översikt låter dig få en helhetsbild av vad som händer på din server och upptäcka eventuella problem i ett tidigt skede.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/dktDADkq3bzG3F6/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/J9SsmSrPXnG7P9w/preview)
 
-Utöver att övervaka händelser kan du även skicka kommandon direkt till servern i **Livekonsolen**. Det kan vara användbart för att justera inställningar, utföra specifika åtgärder eller snabbt reagera på problem som uppstår.
+Utöver att övervaka händelser kan du även skicka kommandon direkt till servern i **Livekonsolen**. Det kan vara användbart för att justera inställningar, utföra vissa åtgärder eller snabbt reagera på problem som uppstår.
 
 ### Driftstörningar
 
@@ -86,11 +86,11 @@ Under inställningar hittar du en översikt över de vanligaste inställningsalt
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/Y3e6G2io6KaPBZe/preview)
 
-Här kan du exempelvis göra följande justeringar:
+Här kan du till exempel göra följande justeringar:
 
-- Grundinställningar: Spelnamn, Servernamn, Serverbeskrivning, Admin-lösenord
+- Grundläggande inställningar: Spelnamn, Servernamn, Serverbeskrivning, Admin-lösenord
 
-Om du känner dig mer säker och vill göra mer precisa ändringar rekommenderar vi att du använder Config Editor istället. Mer info om detta hittar du under kategorin **Configs**.
+Om du känner dig mer säker och vill göra mer precisa ändringar rekommenderar vi att använda Config Editor istället. Mer info om detta hittar du under kategorin **Configs**.
 
 ### Configs
 
@@ -104,19 +104,19 @@ Har du märkt att vissa av dina ändringar delvis skrivs över? Var medveten om 
 
 ### Spel
 
-Under **Spel** kan du alltid byta spelvariant på ditt befintliga spel eller installera ett annat spel helt och hållet. Spel med samma slotpris kan väljas direkt under **Tillgängliga Spel**. För alla andra spel krävs först en justering av slotpriset. Mer info om detta finns i guiden [Spelbyte](gameserver-gameswitch.md).
+Under **Spel** kan du alltid byta spelvariant på ditt befintliga spel eller installera ett annat spel helt och hållet. Spel med samma slotpris kan väljas direkt under **Tillgängliga spel**. För alla andra spel krävs först en justering av slotpriset. Mer info om detta finns i guiden [Spelbyte](gameserver-gameswitch.md).
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/QB82f3CSKmJgwqk/preview)
 
 ### Versioner
 
-Under **Versioner** kan du se och hantera den aktuella versionen av din spelserver. Här kan du när som helst uppdatera till senaste versionen eller aktivera automatiska uppdateringar för att säkerställa att din server alltid är uppdaterad.
+Under **Versioner** kan du se och hantera den aktuella versionen av din spelserver. Här kan du när som helst uppdatera till den senaste versionen eller aktivera automatiska uppdateringar för att säkerställa att din server alltid är uppdaterad.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/BH2JzyRHTeLdKHz/preview)
 
-Dessutom kan du aktivera e-postnotiser för automatiska uppdateringar för att hålla dig informerad och alltid vara uppdaterad.
+Dessutom kan du aktivera e-postnotiser för automatiska uppdateringar för att hålla dig informerad om uppdateringar och alltid vara uppdaterad.
 
-### Schemalagda Uppgifter
+### Schemalagda uppgifter
 
 Skapa schemalagda uppgifter som körs automatiskt vid definierade tider för att automatisera olika processer på din server. Du kan ställa in om en uppgift ska köras en gång eller upprepas vid behov. Stödda uppgiftstyper inkluderar att starta, stoppa eller starta om tjänster, starta om servern om den är online, skapa backuper eller köra egna kommandon.
 
@@ -124,13 +124,13 @@ Skapa schemalagda uppgifter som körs automatiskt vid definierade tider för att
 
 ### Omstartsschema
 
-Vill du schemalägga serveromstarter vid specifika tider? Omstartsschemat låter dig ställa in automatiska omstarter av din spelserver vid bestämda tider eller med jämna mellanrum.
+Vill du schemalägga serveromstarter vid specifika tider? Omstartsschemat låter dig ställa in automatiska omstarter av din spelserver. Med denna funktion kan du planera omstarter vid specifika tider eller med jämna mellanrum.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/Y6WciDS7YP98P4m/preview)
 
 ### DNS-inställningar
 
-Med ZAP DNS-inställningar kan du skapa lättare adresser för din tjänst. Du kan antingen använda en subdomän från någon av våra domäner eller skapa en DNS-post på dina egna domäner och därmed få en adress som är bättre kopplad till dig som person.
+Med ZAP DNS-inställningar kan du skapa lättare adresser för din tjänst. Du kan antingen använda en subdomän av någon av våra domäner eller skapa en DNS-post på dina egna domäner och därmed få en adress som är bättre kopplad till dig som person.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/tM5FGTHRSbZA5rN/preview)
 
@@ -140,11 +140,11 @@ I avsnittet **Verktyg** i din navigationspanel hittar du flera underavsnitt som 
 
 ### FTP-Browser
 
-Med **FTP Browser** får du all nödvändig information för att upprätta en anslutning till FTP-accessen. FTP-accessen ger dig direkt tillgång till filerna på din spelserver. Vi rekommenderar att du använder ett externt FTP-program som **Filezilla** eller **WinSCP** för bästa användarupplevelse. Om du är ovan vid FTP kan guiden [Access via FTP](gameserver-ftpaccess.md) vara till hjälp.
+Med **FTP Browser** får du all nödvändig information för att ansluta till FTP-accessen. FTP-accessen ger dig direkt tillgång till filerna på din spelserver. Vi rekommenderar att använda ett externt FTP-program som **Filezilla** eller **WinSCP** för bästa användarupplevelse. Om du är osäker på hur FTP används kan guiden [Access via FTP](gameserver-ftpaccess.md) vara till hjälp.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/fZSYpSi4KwPos5P/preview)
 
-**FileZilla:** FileZilla är den enklaste och mest välkända FTP-klienten. Installera, starta och skriv in dina inloggningsuppgifter i den övre raden som du hittar lite längre upp på denna sida. Efter ett snabbt klick på "Anslut" loggas du direkt in på servern och kan hantera filerna.
+**FileZilla:** FileZilla är den enklaste och mest kända FTP-klienten. Installera, starta och skriv in dina inloggningsuppgifter i den övre raden, som du hittar lite längre upp på denna sida. Efter ett snabbt klick på "Anslut" loggas du direkt in på servern och kan hantera filerna.
 
 **WinSCP:** WinSCP är egentligen avsett för SCP och SFTP (de krypterade varianterna av FTP) men kan hantera FTP på samma sätt. Programmet är mer omfattande än FileZilla och passar avancerade användare.
 
@@ -164,15 +164,15 @@ I inställningarna kan du ange om backuper ska skapas automatiskt och om det ska
 
 Vi erbjuder som standard 10 GB lagringsutrymme på lagringsservern för backuper för våra spelserverprodukter. Behöver du mer utrymme kan det uppgraderas mot en avgift. På så sätt säkerställer du att du alltid har tillräckligt med plats för dina backuper och kan fortfarande komma åt äldre backuper vid behov.
 
-## Fler Länkar
+## Fler länkar
 
-I avsnittet **Fler Länkar** hittar du ytterligare länkar som är relevanta för din produkt.
+I avsnittet **Fler länkar** hittar du ytterligare länkar som är relevanta för din produkt.
 
-### Vanliga Frågor
+### Vanliga frågor
 
-Avsnittet **Vanliga Frågor** ger en översikt över de vanligaste frågorna från våra kunder. Här hittar du hjälpsamma svar och detaljerad information om olika ämnen för att snabbt och effektivt hjälpa dig.
+Avsnittet **Vanliga frågor** ger en översikt över de vanligaste frågorna från våra kunder. Här hittar du hjälpsamma svar och detaljerad information om olika ämnen för att hjälpa dig snabbt och effektivt.
 
-### ZAP-Hosting Dokumentation
+### ZAP-Hostings dokumentation
 
 Vi erbjuder omfattande dokumentation för våra produkter som fungerar som en kunskapsbas för de vanligaste frågorna och funderingarna. Där hittar du olika guider och hjälp inom olika områden som hjälper dig att använda och hantera din produkt.
 

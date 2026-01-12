@@ -15,23 +15,23 @@ import items from '@site/data/lists/hytale-mods.json';
 
 ## Introdução
 
-Mods transformam seu servidor de jogos Hytale em algo realmente seu. Eles podem adicionar novas mecânicas, expandir sistemas existentes, introduzir desafios fresquinhos e criar formas totalmente novas de jogar, desde pequenas melhorias de qualidade de vida até reformulações completas da jogabilidade.
+Mods transformam seu servidor de jogos Hytale em algo realmente seu. Eles podem adicionar novas mecânicas, expandir sistemas existentes, introduzir desafios fresquinhos e criar jeitos totalmente novos de jogar, desde pequenas melhorias na qualidade de vida até reformulações completas da jogabilidade.
 
-Seja para uma progressão mais rápida, elementos de sobrevivência mais profundos, mais opções de construção, eventos customizados ou regras únicas para o servidor, os mods te dão as ferramentas para moldar a experiência e deixar seu mundo com a sua cara.
+Quer progressão mais rápida, elementos de sobrevivência mais profundos, mais opções de construção, eventos customizados ou regras únicas para o servidor? Os mods te dão as ferramentas para moldar a experiência e deixar seu mundo com a sua cara.
 
 :::info 
 Hytale tem lançamento previsto para 13 de janeiro de 2026. Como os arquivos oficiais do servidor, ferramentas de modding e fluxos de instalação ainda podem mudar na fase inicial pós-lançamento, partes deste guia podem ficar desatualizadas.
 
-A página será atualizada assim que informações confirmadas e estáveis sobre suporte a mods, formatos de arquivos e requisitos de configuração estiverem disponíveis.
+A página será atualizada assim que informações confirmadas e estáveis sobre suporte a mods, formatos de arquivo e requisitos de configuração estiverem disponíveis.
 :::
 
 <InlineVoucher />
 
 ## Instalar Mods
 
-Enquanto os arquivos oficiais do servidor e o fluxo de modding não estiverem totalmente documentados, os detalhes exatos de instalação podem mudar. Em geral, os mods são colocados na pasta mods do seu servidor. Você pode conectar ao seu servidor, abrir a pasta mods no diretório do servidor e fazer o upload dos arquivos do mod lá.
+Mods podem ser instalados adicionando-os diretamente aos arquivos do seu servidor. Comece baixando os mods desejados em formato `.zip` ou `.jar` de fontes confiáveis como CurseForge.
 
-
+Depois de baixar, conecte-se ao seu servidor e abra o diretório `mods/` na raiz do servidor. Faça o upload dos arquivos dos mods nessa pasta sem extrair ou modificar nada. Quando todos os mods estiverem no lugar, reinicie o servidor para que eles sejam carregados e ativados.
 
 ## Mods Populares
 

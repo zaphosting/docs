@@ -1,7 +1,7 @@
 ---
 id: risingworld-firststeps-dashboard
 title: "Rising World: Visão Geral do Dashboard"
-description: "Descubra como gerenciar seu servidor Rising World de forma eficiente e otimizar suas configurações para o melhor desempenho → Saiba mais agora"
+description: "Descubra como gerenciar seu servidor de jogos Rising World de forma eficiente e otimizar suas configurações para o melhor desempenho → Saiba mais agora"
 sidebar_label: Dashboard
 services:
   - gameserver
@@ -12,7 +12,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introdução
 
-Você está interessado em um **servidor de jogos Rising World** ou já possui um, mas ainda não tem uma visão completa da administração e da localização de todas as opções necessárias? Especialmente no começo, isso pode ser um desafio. Mas relaxa, vamos te dar uma introdução detalhada à administração do seu serviço aqui embaixo, para que você tenha a melhor visão possível.
+Você está interessado em um **servidor de jogos Rising World** ou já possui um, mas ainda sente falta de uma visão geral completa da administração e da localização de todas as opções necessárias? Especialmente no começo, isso pode ser um desafio. Mas relaxa, vamos te dar uma introdução detalhada sobre a administração do seu serviço aqui embaixo, para que você tenha a melhor visão possível.
 
 Depois de passar por este guia, você vai conseguir gerenciar seu servidor de forma eficiente e encontrar todas as opções e funcionalidades necessárias de forma rápida e fácil. Aqui, você terá uma visão estruturada que vai te ajudar passo a passo a se familiarizar com a administração do servidor e expandir seu conhecimento de forma direcionada. Assim, você garante que seu **servidor de jogos Rising World** esteja otimizado para suas necessidades e que você aproveite ao máximo as opções disponíveis.
 
@@ -20,7 +20,7 @@ Depois de passar por este guia, você vai conseguir gerenciar seu servidor de fo
 
 ## Administração do Produto
 
-Na seção **Administração do Produto**, você encontra todas as páginas necessárias para gerenciar seu servidor. As opções para administrar seu servidor estão listadas em detalhes logo abaixo.
+Na seção **Administração do Produto**, você encontra todas as páginas necessárias para gerenciar seu servidor. As opções para gerenciar seu servidor estão listadas em detalhes abaixo.
 
 ### Dashboard
 
@@ -34,9 +34,9 @@ No dashboard, você também tem a opção de iniciar, parar ou reiniciar seu ser
 
 Veja ataques DDoS passados para avaliar melhor possíveis ameaças e padrões. Ative notificações para ataques DDoS em andamento no seu servidor para reagir rápido quando um incidente ocorrer.
 
-Dependendo da localização do servidor e da proteção DDoS disponível, você também pode monitorar ataques ativos em tempo real. Isso inclui insights detalhados do tráfego, mostrando tanto o tráfego legítimo quanto a quantidade bloqueada pelos sistemas de mitigação. Esse nível de transparência ajuda você a entender como a proteção está funcionando e permite identificar riscos potenciais cedo.
+Dependendo da localização do servidor e da proteção DDoS disponível, você também pode monitorar ataques ativos em tempo real. Isso inclui insights detalhados de tráfego, mostrando tanto o tráfego legítimo quanto a quantidade de tráfego bloqueado pelos sistemas de mitigação. Esse nível de transparência ajuda você a entender como a proteção está funcionando e permite identificar riscos potenciais cedo.
 
-:::info Acesso ao Gerenciador de DDoS faltando?
+:::info Acesso ao gerenciador de DDoS faltando?
 O uso do Gerenciador de DDoS requer um endereço IP dedicado ou a opção adicional "Visão Geral do Gerenciador de DDoS". Se seu pacote atual não inclui esses componentes, você pode adicioná-los a qualquer momento fazendo um upgrade do seu serviço.
 :::
 
@@ -50,7 +50,7 @@ O uso do Gerenciador de DDoS só é possível se um IP próprio ou a opção "Vi
 
 Está rolando um problema técnico e você não sabe qual é a causa? Uma primeira estratégia possível é conferir os **Arquivos de Log**. Esses arquivos contêm muitas informações sobre o servidor, como eventos atuais, dicas ou mensagens de erro.
 
-Mensagens de erro, em especial, podem ajudar a identificar e entender melhor a causa do problema. Muitas vezes, dificuldades podem ser descobertas e resolvidas ao analisar os arquivos de log de forma direcionada.
+Mensagens de erro, em especial, podem ajudar a identificar e entender melhor a causa do problema. Muitas vezes, dificuldades podem ser descobertas e resolvidas ao dar uma olhada direcionada nos arquivos de log.
 
 :::warning
 As informações encontradas não ajudam ou você não entende? Relaxa! Nesse caso, nosso suporte está disponível diariamente. É só abrir um **[Ticket](https://zap-hosting.com/en/customer/support/)** e explicar seu problema pra gente. Vamos analisar o quanto antes e ajudar você a resolver! :)
@@ -64,19 +64,19 @@ O **Registro de Eventos** te dá uma visão completa de todas as atividades rela
 
 ### Console ao Vivo
 
-O **Console ao Vivo** oferece uma visão em tempo real de todos os eventos atuais no seu servidor. Aqui você vê informações sobre as atividades dos jogadores, além de possíveis mensagens de erro e mensagens do sistema. Essa visão permite que você tenha um panorama completo do que está rolando no seu servidor e detecte problemas cedo.
+O **Console ao Vivo** oferece uma visão em tempo real de todos os eventos atuais no seu servidor. Aqui você vê informações sobre as atividades dos jogadores, além de possíveis mensagens de erro e mensagens do sistema. Essa visão permite que você tenha um panorama completo do que está rolando no seu servidor e detecte problemas logo no começo.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/dktDADkq3bzG3F6/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/J9SsmSrPXnG7P9w/preview)
 
 Além de monitorar os eventos, você também pode enviar comandos diretamente para o servidor no **Console ao Vivo**. Isso é útil para ajustar configurações, executar ações específicas ou responder rápido a problemas que surgirem.
 
 ### Interrupções do Serviço
 
-Seu servidor ficou offline temporariamente e você não sabe o motivo? O registro de eventos e os arquivos de log não deram nenhuma pista? Pode ser que a causa do problema não esteja diretamente no seu servidor, mas no sistema host onde ele está rodando.
+Seu servidor ficou offline temporariamente e você não sabe o motivo? Olhar o registro de eventos e os arquivos de log não ajudou? Pode ser que a causa do problema não esteja diretamente no seu servidor, mas no sistema host onde ele está rodando.
 
 Se nosso sistema de monitoramento detectar uma interrupção geral, nossos técnicos são automaticamente avisados e cuidam do problema o quanto antes.
 
-Nesta seção, você encontra um histórico das interrupções do sistema host onde seu servidor de jogos está hospedado. Para mais informações e a versão mais atual do status do nosso serviço, confira nossa nova [página de status](https://status.zap-hosting.com/).
+Nesta seção, você encontra um histórico das interrupções do sistema host onde seu servidor de jogos está hospedado. Para mais informações e a versão mais atual do status dos nossos serviços, confira nossa nova [página de status](https://status.zap-hosting.com/).
 
 ## Configurações
 
@@ -86,21 +86,21 @@ Na seção **Configurações**, você encontra todas as páginas necessárias pa
 
 Nas configurações, você encontra uma visão geral das opções mais comuns para seu servidor, com uma explicação rápida. O uso da página de configurações é especialmente recomendado para quem está começando na administração de servidores.
 
-Se você já está mais confiante e quer fazer ajustes mais precisos, recomendamos usar o Editor de Configs. Mais informações sobre isso estão na categoria **Configs**.
+Se você já tem mais experiência e quer fazer ajustes mais precisos, recomendamos usar o Editor de Configs. Mais informações sobre isso estão na categoria **Configs**.
 
 ### Configs
 
-O editor de arquivos de configuração permite editar os arquivos diretamente pelo site, do jeito clássico, sem a visão simplificada. Essa opção permite personalizar as configurações do seu servidor conforme suas preferências.
+O editor de arquivos de configuração permite editar os arquivos diretamente pelo site, no modo clássico, sem a visão simplificada. Essa opção permite personalizar as configurações do seu servidor conforme suas preferências.
 
-Usando o editor, você tem acesso direto a todas as opções disponíveis e pode customizá-las com precisão. Isso é especialmente útil para usuários avançados que querem controle total sobre as configurações do servidor e sabem exatamente o que querem mudar.
+Usando o editor, você tem acesso direto a todas as opções disponíveis e pode customizá-las com precisão. Isso é ideal para usuários avançados que querem controle total sobre as configurações do servidor e sabem exatamente o que querem mudar.
 
 :::warning
-Percebeu que algumas mudanças suas são parcialmente sobrescritas? Fique ligado que certos valores são puxados da página de configurações. Se quiser alterar direto no config, primeiro desative as opções correspondentes na página de configurações.
+Percebeu que algumas mudanças suas são parcialmente sobrescritas? Fique ligado que certos valores são puxados da página de configurações. Se quiser fazer essas mudanças direto no config, primeiro desative as opções correspondentes na página de configurações.
 :::
 
 ### Jogos
 
-Em **Jogos**, você sempre pode mudar a variante do jogo atual ou instalar outro jogo no geral. Jogos com o mesmo preço de slot podem ser selecionados diretamente em **Jogos Disponíveis**. Para todos os outros jogos, é necessário ajustar o preço do slot primeiro. Mais informações sobre isso estão no guia [Mudança de Jogo](gameserver-gameswitch.md).
+Em **Jogos**, você sempre pode mudar a variante do jogo atual ou instalar outro jogo. Jogos com o mesmo preço de slot podem ser selecionados diretamente em **Jogos Disponíveis**. Para todos os outros jogos, é necessário ajustar o preço do slot antes. Mais informações sobre isso estão no guia [Mudança de Jogo](gameserver-gameswitch.md).
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/xkkECw7o52fAMWk/preview)
 
@@ -110,7 +110,7 @@ Em **Versões**, você pode ver e gerenciar a versão atual do seu servidor de j
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/BH2JzyRHTeLdKHz/preview)
 
-Além disso, você pode ativar notificações por e-mail para atualizações automáticas, para ficar sempre informado e garantir que está por dentro das novidades.
+Além disso, você pode ativar notificações por e-mail para atualizações automáticas, mantendo-se informado sobre as novidades e garantindo que esteja sempre na última versão.
 
 ### Tarefas Agendadas
 
@@ -120,7 +120,7 @@ Crie tarefas agendadas que rodam automaticamente em horários definidos para aut
 
 ### Planejador de Reinício
 
-Quer agendar reinícios do servidor em horários específicos? O Planejador de Reinício permite configurar reinícios automáticos agendados do seu servidor de jogos. Com essa função, você pode definir reinícios em horários específicos ou em intervalos regulares.
+Quer agendar reinícios do servidor em horários específicos? O Planejador de Reinício permite configurar reinícios automáticos agendados do seu servidor de jogos. Com essa função, você pode definir reinícios em horários fixos ou em intervalos regulares.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/Y6WciDS7YP98P4m/preview)
 
@@ -136,23 +136,23 @@ Na seção **Ferramentas** do seu painel de navegação, você encontra vários 
 
 ### Navegador FTP
 
-Usando o **Navegador FTP**, você obtém todas as informações necessárias para estabelecer uma conexão via acesso FTP. O acesso FTP permite acesso direto aos arquivos do seu servidor de jogos. Recomendamos usar um programa FTP externo como **Filezilla** ou **WinSCP** para melhor uso. Se você não está familiarizado com FTP, dar uma olhada no guia [Acesso via FTP](gameserver-ftpaccess.md) pode ajudar.
+Usando o **Navegador FTP**, você obtém todas as informações necessárias para estabelecer uma conexão via FTP. O acesso FTP permite acesso direto aos arquivos do seu servidor de jogos. Recomendamos usar um programa FTP externo como **Filezilla** ou **WinSCP** para melhor uso. Se você não está familiarizado com FTP, dar uma olhada no guia [Acesso via FTP](gameserver-ftpaccess.md) pode ajudar.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/sX85i9HyzR9wmAM/preview)
 
-**FileZilla:** FileZilla é provavelmente o cliente FTP mais simples e conhecido. É só instalar, abrir e inserir seus dados de acesso na barra superior, que você encontra um pouco acima nesta página. Depois de clicar em "Conectar", você já estará logado no servidor e pode gerenciar os arquivos.
+**FileZilla:** FileZilla é provavelmente o cliente FTP mais simples e conhecido. Basta instalar, abrir e inserir seus dados de acesso na barra superior, que você encontra um pouco acima nesta página. Com um clique rápido em "Conectar", você já estará logado no servidor e pode gerenciar os arquivos.
 
-**WinSCP:** WinSCP é feito para SCP e SFTP (as versões criptografadas do protocolo FTP), mas também funciona bem com FTP normal. O programa é um pouco mais completo que o FileZilla e é mais indicado para usuários avançados.
+**WinSCP:** WinSCP é originalmente para SCP e SFTP (as versões criptografadas do protocolo FTP), mas também funciona bem com FTP normal. O programa é um pouco mais completo que o FileZilla e é mais indicado para usuários avançados.
 
 ### Bancos de Dados
 
-Além dos nossos produtos de servidor de jogos, oferecemos também 10 bancos de dados incluídos. Esses bancos são necessários, por exemplo, quando dados precisam ser armazenados em um banco. Em **Bancos de Dados**, você pode criar um banco e ver as credenciais de acesso. Também pode ativar a opção de backup e importar backups existentes do banco.
+Além dos nossos produtos de servidor de jogos, também oferecemos 10 bancos de dados incluídos. Esses bancos são necessários, por exemplo, quando dados precisam ser armazenados em um banco. Em **Bancos de Dados**, você pode criar um banco e ver as credenciais de acesso. Também pode ativar a opção de backup e importar backups existentes.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/WFLwCbZSQfYjrmD/preview)
 
 ### Backups
 
-Em **Backups**, você pode criar backups manuais e automáticos para seu servidor e seu banco de dados associado. Isso facilita recuperar seus dados em caso de problemas ou perda.
+Em **Backups**, você pode criar backups manuais e automáticos para seu servidor e seu banco de dados associado. Isso facilita a recuperação dos seus dados em caso de problemas ou perda.
 
 Nas configurações, você pode definir se os backups devem ser criados automaticamente e se isso deve ser diário ou semanal. Além disso, pode decidir se os backups mais antigos devem ser deletados quando o espaço disponível ficar limitado.
 
@@ -160,17 +160,17 @@ Nas configurações, você pode definir se os backups devem ser criados automati
 
 Oferecemos 10 GB de espaço para backups no servidor de armazenamento para nossos produtos de servidor de jogos por padrão. Se precisar de mais espaço, pode fazer upgrade pagando uma taxa. Assim, você garante espaço suficiente para seus backups e ainda pode acessar backups antigos se precisar.
 
-## Links Úteis
+## Links Adicionais
 
-Na seção **Links Úteis**, você encontra links relevantes para seu produto.
+Na seção **Links Adicionais**, você encontra links relevantes para seu produto.
 
 ### Perguntas Frequentes
 
-A seção **Perguntas Frequentes** traz uma visão geral das dúvidas mais comuns dos nossos clientes. Aqui você encontra respostas úteis e informações detalhadas sobre vários temas para ajudar rápido e fácil.
+A seção **Perguntas Frequentes** oferece uma visão geral das dúvidas mais comuns dos nossos clientes. Aqui você encontra respostas úteis e informações detalhadas sobre vários temas para ajudar você de forma rápida e eficiente.
 
 ### Documentação ZAP-Hosting
 
-Oferecemos documentação extensa para nossos produtos, que serve como base de conhecimento para as dúvidas e questões mais frequentes. Lá você encontra vários guias e ajudas sobre diferentes temas que vão te ajudar a usar e administrar seu produto.
+Oferecemos uma documentação extensa para nossos produtos, que serve como base de conhecimento para as dúvidas e questões mais frequentes. Lá você encontra vários guias e ajudas sobre diferentes assuntos que vão te ajudar a usar e gerenciar seu produto.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/n48ct6aZBrNq7eT/preview)
 
@@ -180,9 +180,9 @@ A seção **Notícias** te dá uma visão completa de todos os anúncios e novid
 
 - Mudanças no serviço, por exemplo, por atualizações ou novas funcionalidades
 - Avisos sobre manutenções ou problemas técnicos
-- Ofertas especiais e promoções que trazem benefícios ou descontos exclusivos
+- Ofertas especiais e promoções que te dão benefícios ou descontos exclusivos
 - Outras informações relevantes para o uso do seu serviço
 
-Ficando de olho nas **Notícias** regularmente, você fica informado e pode ajustar seu serviço para aproveitar ao máximo seu servidor.
+Acompanhando as **Notícias** regularmente, você fica sempre informado e pode ajustar seu serviço para aproveitar ao máximo seu servidor.
 
 <InlineVoucher />

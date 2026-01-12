@@ -12,7 +12,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introducción
 
-¿Estás interesado en un servidor de **Voyagers of Nera** o ya tienes uno, pero aún te falta una visión completa de la administración y la localización de todas las opciones necesarias? Especialmente al principio, esto puede ser un reto. Pero no te preocupes, aquí te damos una introducción detallada a la administración de tu servicio para que tengas la mejor visión posible.
+¿Estás interesado en un servidor de **Voyagers of Nera** o ya tienes uno, pero aún te falta una visión completa de la administración y la localización de todas las opciones necesarias? Especialmente al principio, esto puede ser un desafío. Pero no te preocupes, aquí te damos una introducción detallada a la administración de tu servicio para que tengas la mejor visión posible.
 
 Después de seguir esta guía, podrás gestionar tu servidor de forma eficiente y encontrar todas las opciones y funciones necesarias rápida y fácilmente. Aquí obtendrás una visión estructurada que te ayudará paso a paso a familiarizarte con la administración del servidor y ampliar tus conocimientos de forma dirigida. Así, podrás asegurarte de que tu servidor de **Voyagers of Nera** esté adaptado óptimamente a tus necesidades y sacar el máximo provecho de las opciones disponibles.
 
@@ -43,20 +43,20 @@ En **Estadísticas** obtienes una visión completa de los valores de carga de tu
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/N8jcmdqqG2Xt4Bk/preview)
 
-Gracias a esta información, obtienes una buena perspectiva del uso de tu servidor. Además, estas estadísticas suelen ser útiles para identificar posibles problemas de rendimiento y acotar sus causas. Por ejemplo, puedes rastrear cuándo aumentó la utilización y si esto está relacionado con ciertos eventos o cambios. Esto es especialmente importante cuando surgen problemas repentinos, ya que te permite tomar medidas específicas para solucionar y analizar sistemáticamente posibles causas.
+Gracias a esta información, obtienes una buena perspectiva del uso de tu servidor. Además, estas estadísticas suelen ser útiles para identificar posibles problemas de rendimiento y acotar sus causas. Por ejemplo, puedes rastrear cuándo aumentó la utilización y si esto está relacionado con ciertos eventos o cambios. Esto es especialmente importante cuando surgen problemas repentinos, ya que te permite tomar medidas específicas para solucionar y analizar sistemáticamente las posibles causas.
 
 
 
-### Gestor DDoS
+### Gestor de DDoS
 
 
 
-Consulta ataques DDoS pasados para evaluar mejor amenazas y patrones potenciales. Activa notificaciones para ataques DDoS en curso en tu servidor y así reaccionar rápido cuando ocurra un incidente.
+Consulta ataques DDoS pasados para evaluar mejor posibles amenazas y patrones. Activa notificaciones para ataques DDoS en curso en tu servidor y reaccionar rápido cuando ocurra un incidente.
 
 Dependiendo de la ubicación del servidor y la protección DDoS disponible allí, también puedes monitorear ataques activos en tiempo real. Esto incluye detalles del tráfico, mostrando tanto el tráfico legítimo como la cantidad bloqueada por los sistemas de mitigación. Este nivel de transparencia te ayuda a entender cómo funciona la protección y te permite identificar riesgos potenciales temprano.
 
-:::info ¿No tienes acceso al Gestor DDoS?
-El uso del Gestor DDoS requiere una dirección IP propia o la opción adicional "Vista General del Gestor DDoS". Si tu paquete actual no incluye estos componentes, puedes añadirlos en cualquier momento actualizando tu servicio.
+:::info ¿No tienes acceso al Gestor de DDoS?
+El uso del Gestor de DDoS requiere una dirección IP propia o la opción adicional "Vista General del Gestor de DDoS". Si tu paquete actual no incluye estos componentes, puedes añadirlos en cualquier momento actualizando tu servicio.
 :::
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/ScCCCY52CMLgfyE/preview)
@@ -66,7 +66,7 @@ El uso del Gestor DDoS requiere una dirección IP propia o la opción adicional 
 
 
 :::warning
-El uso del Gestor DDoS solo es posible si se ha contratado una IP propia o la opción adicional "Vista General del Gestor DDoS". Si estos componentes faltan en tu paquete actual, puedes añadirlos en cualquier momento mediante una actualización.
+El uso del Gestor de DDoS solo es posible si se ha reservado una IP propia o la opción "Vista General del Gestor de DDoS" como opción adicional. Si estos componentes faltan en tu paquete actual, puedes añadirlos en cualquier momento actualizando.
 :::
 
 
@@ -92,9 +92,9 @@ El **Registro de eventos** te ofrece una visión completa de todas las actividad
 
 ### Consola en vivo
 
-La **Consola en vivo** te ofrece una vista en tiempo real de todos los eventos actuales en tu servidor. Aquí puedes ver información sobre las actividades de los jugadores, así como posibles mensajes de error y mensajes del sistema. Esta visión te permite tener un panorama completo de lo que está pasando en tu servidor y detectar posibles problemas a tiempo.
+La **Consola en vivo** te ofrece una vista en tiempo real de todos los eventos actuales en tu servidor. Aquí puedes ver información sobre las actividades de los jugadores, así como posibles mensajes de error y mensajes del sistema. Esta vista te permite tener una visión completa de lo que está pasando en tu servidor y detectar posibles problemas a tiempo.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/dktDADkq3bzG3F6/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/J9SsmSrPXnG7P9w/preview)
 
 Además de monitorear los eventos, también puedes enviar comandos directamente al servidor desde la **Consola en vivo**. Esto puede ser útil para ajustar configuraciones, realizar ciertas acciones o responder rápido a problemas que surjan.
 
@@ -102,11 +102,11 @@ Además de monitorear los eventos, también puedes enviar comandos directamente 
 
 ### Interrupciones del servicio
 
-¿Tu servidor estuvo temporalmente offline y no sabes por qué? ¿Mirar el registro de eventos y los archivos de registro no dio información? Podría ser que la causa del problema no esté directamente en tu servidor, sino en el sistema anfitrión donde se ejecuta tu servidor.
+¿Tu servidor estuvo temporalmente offline y no sabes por qué? ¿Mirar el registro de eventos y los archivos de registro no te dio información? Puede que la causa del problema no esté directamente en tu servidor, sino en el sistema anfitrión donde se ejecuta tu servidor.
 
 Si nuestro sistema de monitoreo detecta una interrupción general, nuestros técnicos son notificados automáticamente y se encargan del problema lo antes posible.
 
-En esta sección encontrarás un historial de interrupciones del sistema anfitrión donde corre tu servidor de juegos. Más información y la versión más actualizada del estado de nuestros servicios la encuentras en nuestra nueva [página de estado](https://status.zap-hosting.com/).
+En esta sección encontrarás un historial de interrupciones del sistema anfitrión donde corre tu servicio de servidor de juegos. Más información y la versión más reciente del estado de nuestros servicios la encuentras en nuestra nueva [página de estado](https://status.zap-hosting.com/).
 
 
 
@@ -127,9 +127,9 @@ En la sección de **Configuraciones** encontrarás todas las páginas necesarias
 
 ### Configuraciones
 
-En configuraciones encontrarás un resumen de las opciones más comunes para tu servidor. Estas incluyen también una breve explicación. El uso de la página de configuraciones es especialmente recomendado para quienes recién empiezan en la administración de servidores.
+En configuraciones encontrarás un resumen de las opciones de configuración más comunes para tu servidor. Estas incluyen también una breve explicación. El uso de la página de configuraciones es especialmente recomendado para quienes recién empiezan en la administración de servidores.
 
-Si tienes más confianza y quieres hacer cambios más precisos, te recomendamos usar el Editor de Configs. Más información sobre esto la encuentras en la categoría **Configs**.
+Si ya tienes más confianza y quieres hacer cambios más precisos, te recomendamos usar el Editor de Configs. Más información sobre esto la encuentras en la categoría **Configs**.
 
 
 
@@ -137,7 +137,7 @@ Si tienes más confianza y quieres hacer cambios más precisos, te recomendamos 
 
 El editor de archivos de configuración te permite editar los archivos de configuración directamente desde la web de forma clásica, sin la vista simplificada. Esta opción te permite personalizar los ajustes de tu servidor y configurarlos según tus preferencias personales.
 
-Al usar el editor, tienes acceso directo a todas las opciones disponibles y puedes personalizarlas con precisión. Esto es especialmente útil para usuarios avanzados que quieren control total sobre la configuración de su servidor y saben exactamente qué cambios desean hacer.
+Al usar el editor, tienes acceso directo a todas las opciones disponibles y puedes personalizarlas con precisión. Esto es especialmente útil para usuarios avanzados que quieren control total sobre la configuración de su servidor y saben exactamente qué cambios quieren hacer.
 
 :::warning
 ¿Has notado que algunos de tus cambios se sobrescriben parcialmente? Ten en cuenta que ciertos valores de opciones se toman de la página de configuraciones. Si quieres hacer estos cambios directamente en el config, primero debes desactivar las opciones relevantes en la página de configuraciones.
@@ -146,7 +146,7 @@ Al usar el editor, tienes acceso directo a todas las opciones disponibles y pued
 
 ### Juegos
 
-En **Juegos** siempre tienes la posibilidad de cambiar la variante del juego de tu juego existente o instalar otro juego en general. Los juegos con el mismo precio por slot pueden seleccionarse directamente en **Juegos Disponibles**. Para todos los demás juegos, primero se requiere un ajuste del precio por slot. Más información sobre esto la encuentras en la guía de [Cambio de Juego](gameserver-gameswitch.md).
+En **Juegos** siempre tienes la posibilidad de cambiar la variante del juego de tu juego existente o instalar otro juego en general. Los juegos con el mismo precio por slot pueden seleccionarse directamente bajo **Juegos Disponibles**. Para todos los demás juegos se requiere primero un ajuste del precio por slot. Más información sobre esto la encuentras en la guía de [Cambio de Juego](gameserver-gameswitch.md).
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/xkkECw7o52fAMWk/preview)
 
@@ -186,11 +186,11 @@ En la sección de **Herramientas** de tu panel de navegación encontrarás vario
 
 ### Explorador FTP
 
-Con el **Explorador FTP** obtendrás toda la información necesaria para establecer una conexión al acceso FTP. El acceso FTP te permite acceso directo a los archivos de tu servidor de juegos. Recomendamos usar un programa FTP externo como **Filezilla** o **WinSCP** para un uso óptimo. Si no estás familiarizado con el uso de FTP, puede ayudarte echar un vistazo a la guía de [Acceso vía FTP](gameserver-ftpaccess.md).
+Con el **Explorador FTP** obtendrás toda la información necesaria para establecer una conexión al acceso FTP. El acceso FTP te permite acceso directo a los archivos de tu servidor de juegos. Recomendamos usar un programa FTP externo como **Filezilla** o **WinSCP** para un uso óptimo. Si no estás familiarizado con cómo usar FTP, puede ayudarte echar un vistazo a la guía de [Acceso vía FTP](gameserver-ftpaccess.md).
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/sX85i9HyzR9wmAM/preview)
 
-**FileZilla:** FileZilla es probablemente el cliente FTP más sencillo y conocido. Solo instálalo, ábrelo y en la barra superior introduce tus datos de acceso que encontrarás un poco más arriba en esta página. Tras un clic rápido en "Conectar" estarás directamente conectado al servidor y podrás gestionar los archivos.
+**FileZilla:** FileZilla es probablemente el cliente FTP más sencillo y conocido. Solo instálalo, ábrelo y en la barra superior ingresa tus datos de acceso que encontrarás un poco más arriba en esta página. Tras un clic rápido en "Conectar" estarás directamente conectado al servidor y podrás gestionar los archivos.
 
 **WinSCP:** WinSCP está pensado principalmente para SCP y SFTP (las versiones cifradas del protocolo FTP), pero también funciona perfectamente con FTP normal. El programa es un poco más completo que FileZilla y es más adecuado para usuarios avanzados.
 
@@ -198,7 +198,7 @@ Con el **Explorador FTP** obtendrás toda la información necesaria para estable
 
 ### Bases de datos
 
-Además de nuestros productos de servidor de juegos, también ofrecemos 10 bases de datos incluidas. Estas bases de datos son necesarias, por ejemplo, cuando se deben almacenar datos en una base de datos. En **Bases de datos** puedes crear una base de datos y ver las credenciales de acceso. También tienes la opción de activar la copia de seguridad y de importar copias de seguridad existentes de bases de datos.
+Además de nuestros productos de servidor de juegos, también ofrecemos 10 bases de datos incluidas. Estas bases de datos son necesarias, por ejemplo, cuando se deben almacenar datos en una base de datos. Bajo **Bases de datos**, puedes crear una base de datos y ver las credenciales de acceso. También tienes la opción de activar la copia de seguridad y de importar copias de seguridad existentes de bases de datos.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/WFLwCbZSQfYjrmD/preview)
 
@@ -212,7 +212,7 @@ En la configuración puedes especificar si las copias de seguridad deben crearse
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/nm9za5LTMEcNsga/preview)
 
-Por defecto, ofrecemos 10 GB de espacio de almacenamiento en el servidor de almacenamiento para copias de seguridad en nuestros productos de servidor de juegos. Si necesitas más espacio, puede ampliarse por un costo adicional. Así te aseguras de tener siempre suficiente espacio para tus copias y poder acceder a copias antiguas si es necesario.
+Por defecto, proporcionamos 10 GB de espacio de almacenamiento en el servidor de almacenamiento para copias de seguridad en nuestros productos de servidor de juegos. Si necesitas más espacio, puedes ampliarlo por un costo adicional. Así te aseguras de tener siempre suficiente espacio para tus copias y poder acceder a copias antiguas si es necesario.
 
 ## Enlaces adicionales
 En la sección de **Enlaces adicionales** encontrarás más enlaces relevantes para tu producto.
@@ -228,9 +228,9 @@ Ofrecemos documentación extensa para nuestros productos, que sirve como base de
 ### Noticias
 La sección de **Noticias** te ofrece una visión completa de todos los anuncios y novedades relacionadas con tu servicio. Aquí encontrarás información importante sobre varios aspectos como:
 
-- Cambios en el servicio, por ejemplo, por actualizaciones o nuevas funciones
+- Cambios en el servicio, por ejemplo por actualizaciones o nuevas funciones
 - Anuncios sobre posibles mantenimientos o problemas técnicos
-- Ofertas especiales y promociones que te dan beneficios o descuentos exclusivos
+- Ofertas especiales y promociones que te brindan beneficios o descuentos exclusivos
 - Otra información relevante que pueda afectar el uso de tu servicio
 
 Revisando las **Noticias** regularmente, estarás informado y podrás ajustar tu servicio para sacar el máximo provecho de tu servidor.

@@ -15,12 +15,12 @@ import items from '@site/data/lists/hytale-mods.json';
 
 ## Introduktion
 
-Mods gör din Hytale-server till något helt unikt. De kan lägga till nya mekaniker, utöka befintliga system, introducera nya utmaningar och skapa helt nya sätt att spela på – från små förbättringar för bättre spelupplevelse till kompletta gameplay-översyner.
+Mods förvandlar din Hytale-server till något helt unikt. De kan lägga till nya mekaniker, utöka befintliga system, introducera nya utmaningar och skapa helt nya sätt att spela på – från små förbättringar för bättre spelupplevelse till kompletta gameplay-översyner.
 
-Oavsett om du vill ha snabbare progression, djupare survival-element, fler byggmöjligheter, custom events eller unika serverregler, ger mods dig verktygen för att forma upplevelsen och göra din värld helt egen.
+Oavsett om du vill ha snabbare progression, djupare survival-element, fler byggmöjligheter, egna events eller unika serverregler, ger mods dig verktygen för att forma upplevelsen och göra din värld helt egen.
 
 :::info 
-Hytale är planerad att släppas den 13 januari 2026. Eftersom officiella serverfiler, modding-verktyg och installationsflöden fortfarande kan ändras under den tidiga perioden efter lansering kan delar av denna guide bli inaktuella.
+Hytale är planerad att släppas den 13 januari 2026. Eftersom officiella serverfiler, modding-verktyg och installationsflöden kan komma att ändras under den tidiga perioden efter lansering kan delar av denna guide bli inaktuella.
 
 Sidan kommer att uppdateras så fort bekräftad och stabil information om modstöd, filformat och installationskrav finns tillgänglig.
 :::
@@ -29,13 +29,13 @@ Sidan kommer att uppdateras så fort bekräftad och stabil information om modst�
 
 ## Installera Mods
 
-Så länge de officiella serverfilerna och modding-flödet inte är helt dokumenterade kan exakta installationsdetaljer fortfarande ändras. Generellt placeras mods i din servers mods-mapp. Du kan ansluta till din server, öppna mods-mappen i serverkatalogen och ladda upp dina modfiler där.
+Mods installeras genom att lägga till dem direkt i dina serverfiler. Börja med att ladda ner önskade mods i `.zip` eller `.jar` format från pålitliga källor som CurseForge.
 
-
+När du laddat ner dem, anslut till din server och öppna mappen `mods/` i serverns root. Ladda upp mod-filerna till den här mappen utan att packa upp eller ändra dem. När alla mods är på plats, starta om servern så att de laddas och aktiveras.
 
 ## Populära Mods
 
-Letar du fortfarande efter de perfekta modsen till din server? Bläddra igenom vår noggrant utvalda lista med de mest populära och rekommenderade modsen för att förbättra din spelupplevelse och ge din server den där sista touchen den förtjänar. Bli inspirerad och hitta precis de tillägg som passar ditt projekt.
+Letar du fortfarande efter de perfekta modsen till din server? Bläddra igenom vår noggrant utvalda lista med de mest populära och rekommenderade modsen för att förbättra din spelupplevelse och ge din server den där sista touchen den förtjänar. Hitta inspiration och precis de tilläggen som passar ditt projekt.
 
 <SearchableItemList items={items} />
 

@@ -32,7 +32,7 @@ El **Panel** de tu servidor es el corazón de la administración. Aquí se prese
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/mrmTDbDfnqg95Qn/preview)
 
-En el panel también tienes la opción de iniciar, detener o reiniciar tu servicio, para tener control total sobre su funcionamiento. Además, puedes acceder a la consola en vivo para obtener información en tiempo real sobre el estado del servidor y tomar acciones directas si es necesario.
+En el panel también tienes la opción de iniciar, detener o reiniciar tu servicio para tener control total sobre su funcionamiento. Además, puedes acceder a la consola en vivo para obtener información en tiempo real sobre el estado del servidor y tomar acciones directas si es necesario.
 
 
 
@@ -43,13 +43,13 @@ En **Estadísticas** obtienes una visión completa de los valores de carga de tu
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/N8jcmdqqG2Xt4Bk/preview)
 
-Gracias a esta información, obtienes una buena visión del uso de tu servidor. Además, estas estadísticas son útiles para identificar posibles problemas de rendimiento y acotar sus causas. Por ejemplo, puedes rastrear cuándo aumentó la utilización y si esto está relacionado con ciertos eventos o cambios. Esto es especialmente importante cuando surgen problemas repentinos, ya que te permite tomar medidas específicas para solucionar y analizar sistemáticamente las posibles causas.
+Gracias a esta información, obtienes una buena perspectiva del uso de tu servidor. Además, estas estadísticas suelen ser útiles para identificar posibles problemas de rendimiento y acotar sus causas. Por ejemplo, puedes rastrear cuándo aumentó la utilización y si esto está relacionado con ciertos eventos o cambios. Esto es especialmente importante cuando surgen problemas repentinos, ya que te permite tomar medidas específicas para solucionar y analizar sistemáticamente las posibles causas.
 
 
 
 ### Gestor de DDoS
 
-Consulta ataques DDoS pasados para evaluar mejor posibles amenazas y patrones. Activa notificaciones para ataques DDoS en curso en tu servidor y así reaccionar rápido cuando ocurra un incidente.
+Consulta ataques DDoS pasados para evaluar mejor amenazas y patrones potenciales. Activa notificaciones para ataques DDoS en curso en tu servidor y así reaccionar rápido cuando ocurra un incidente.
 
 Dependiendo de la ubicación del servidor y la protección DDoS disponible allí, también puedes monitorear ataques activos en tiempo real. Esto incluye detalles del tráfico, mostrando tanto el tráfico legítimo como la cantidad bloqueada por los sistemas de mitigación. Este nivel de transparencia te ayuda a entender cómo funciona la protección y te permite identificar riesgos potenciales temprano.
 
@@ -64,7 +64,7 @@ El uso del Gestor de DDoS requiere una dirección IP propia o la opción adicion
 
 
 :::warning
-El uso del Gestor de DDoS solo es posible si se ha contratado una IP propia o la opción adicional "Vista General del Gestor de DDoS". Si estos componentes faltan en tu paquete actual, puedes añadirlos en cualquier momento mediante una actualización.
+El uso del Gestor de DDoS solo es posible si se ha contratado una IP propia o la opción "Vista General del Gestor de DDoS" como adicional. Si estos componentes faltan en tu paquete actual, puedes añadirlos en cualquier momento actualizando.
 :::
 
 
@@ -76,13 +76,13 @@ El uso del Gestor de DDoS solo es posible si se ha contratado una IP propia o la
 Los mensajes de error en particular pueden ayudar a identificar y entender mejor la causa de un problema. A menudo, las dificultades se pueden descubrir y resolver con una mirada dirigida a los archivos de registro.
 
 :::warning
-¿La información encontrada no ayuda o no la entiendes? ¡No te preocupes! En ese caso, nuestro soporte está disponible a diario. Solo crea un **[Ticket](https://zap-hosting.com/en/customer/support/)** y explícanos tu problema. Lo revisaremos lo antes posible y te ayudaremos a solucionarlo. :)
+¿La información encontrada no ayuda o no la entiendes? ¡No te preocupes! En ese caso, también estamos disponibles diariamente en soporte. Solo crea un **[Ticket](https://zap-hosting.com/en/customer/support/)** y explícanos tu problema. Lo revisaremos lo antes posible y te ayudaremos a resolverlo :) 
 :::
 
 
 ### Registro de eventos
 
-El **Registro de eventos** te ofrece una visión completa de todas las actividades relacionadas con la administración del servidor. Aquí puedes ver en cualquier momento cuándo un servidor arrancó, se detuvo o se bloqueó, así como cuándo se realizaron actualizaciones, copias de seguridad o nuevas instalaciones.
+El **Registro de eventos** te ofrece una visión completa de todas las actividades relacionadas con la administración del servidor. Aquí puedes seguir en cualquier momento cuándo un servidor arrancó, se detuvo o se bloqueó, así como cuándo se realizaron actualizaciones, copias de seguridad o nuevas instalaciones.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/xNzsaMbW5BS5KJC/preview)
 
@@ -92,7 +92,7 @@ El **Registro de eventos** te ofrece una visión completa de todas las actividad
 
 La **Consola en vivo** te ofrece una vista en tiempo real de todos los eventos actuales en tu servidor. Aquí puedes ver información sobre las actividades de los jugadores, así como posibles mensajes de error y mensajes del sistema. Esta visión te permite tener un panorama completo de lo que está pasando en tu servidor y detectar posibles problemas a tiempo.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/dktDADkq3bzG3F6/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/J9SsmSrPXnG7P9w/preview)
 
 Además de monitorear los eventos, también puedes enviar comandos directamente al servidor desde la **Consola en vivo**. Esto puede ser útil para ajustar configuraciones, realizar ciertas acciones o responder rápido a problemas que surjan.
 
@@ -100,11 +100,11 @@ Además de monitorear los eventos, también puedes enviar comandos directamente 
 
 ### Interrupciones del servicio
 
-¿Tu servidor estuvo temporalmente offline y no sabes por qué? ¿Mirar el registro de eventos y los archivos de registro no dio información? Podría ser que la causa del problema no esté directamente en tu servidor, sino en el sistema anfitrión donde se ejecuta tu servidor.
+¿Tu servidor estuvo temporalmente offline y no sabes por qué? ¿Mirar el registro de eventos y los archivos de registro no dio información? Podría ser que la causa del problema no esté directamente en tu servidor, sino en el sistema host donde se ejecuta tu servidor.
 
 Si nuestro sistema de monitoreo detecta una interrupción general, nuestros técnicos son notificados automáticamente y se encargan del problema lo antes posible.
 
-En esta sección encontrarás un historial de interrupciones del sistema anfitrión donde corre tu servidor de juegos. Más información y la versión más reciente del estado de nuestros servicios la tienes en nuestra nueva [página de estado](https://status.zap-hosting.com/).
+En esta sección encontrarás un historial de interrupciones del sistema host donde corre tu servicio de servidor de juegos. Más información y la versión más reciente del estado de nuestros servicios la encuentras en nuestra nueva [página de estado](https://status.zap-hosting.com/).
 
 
 
@@ -133,9 +133,9 @@ Si tienes más confianza y quieres hacer cambios más precisos, te recomendamos 
 
 ### Configs
 
-El editor de archivos de configuración te permite editar los archivos de configuración directamente desde la web de forma clásica, sin la vista simplificada. Esta opción te permite personalizar los ajustes de tu servidor y configurarlos según tus preferencias personales.
+El editor de archivos de configuración te permite editar los archivos de configuración directamente desde la web de forma clásica, sin la vista simplificada. Esta opción te permite personalizar las configuraciones de tu servidor y ajustarlas según tus preferencias personales.
 
-Al usar el editor, tienes acceso directo a todas las opciones disponibles y puedes personalizarlas con precisión. Esto es especialmente útil para usuarios avanzados que quieren control total sobre la configuración de su servidor y saben exactamente qué cambios desean hacer.
+Al usar el editor, tienes acceso directo a todas las opciones disponibles y puedes personalizarlas con precisión. Esto es especialmente útil para usuarios avanzados que quieren control total sobre las configuraciones de su servidor y saben exactamente qué cambios desean hacer.
 
 :::warning
 ¿Has notado que algunos de tus cambios se sobrescriben parcialmente? Ten en cuenta que ciertos valores de opciones se toman de la página de configuraciones. Si quieres hacer estos cambios directamente en el config, primero debes desactivar las opciones relevantes en la página de configuraciones.
@@ -162,7 +162,7 @@ Además, puedes activar la función de notificación por correo electrónico par
 
 ### Tareas programadas
 
-Crea tareas programadas que se ejecuten automáticamente en horarios definidos para automatizar varios procesos en tu servidor. Puedes configurar si una tarea debe ejecutarse una vez o repetirse según sea necesario. Los tipos de tareas soportados incluyen iniciar, detener o reiniciar servicios, reiniciar el servidor si está en línea, crear copias de seguridad o ejecutar comandos personalizados.
+Crea tareas programadas que se ejecutan automáticamente en horarios definidos para automatizar varios procesos en tu servidor. Puedes configurar si una tarea debe ejecutarse una vez o repetirse según sea necesario. Los tipos de tareas soportados incluyen iniciar, detener o reiniciar servicios, reiniciar el servidor si está online, crear copias de seguridad o ejecutar comandos personalizados.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/P6DeWiRC3tDqG2z/preview)
 
@@ -178,7 +178,7 @@ Con la configuración DNS de ZAP puedes crear direcciones fáciles de recordar p
 
 ## Herramientas
 
-En la sección **Herramientas** de tu panel de navegación encontrarás varios subítems que te ayudarán a gestionar tu servidor. Estos incluyen **Explorador FTP**, **Bases de datos** y **Copias de seguridad**. A continuación, recibirás una introducción detallada a estas áreas.
+En la sección de **Herramientas** de tu panel de navegación encontrarás varios subítems que te ayudarán a gestionar tu servidor. Estos incluyen **Explorador FTP**, **Bases de datos** y **Copias de seguridad**. A continuación, recibirás una introducción detallada a estas áreas.
 
 
 
@@ -190,13 +190,13 @@ Con el **Explorador FTP** obtendrás toda la información necesaria para estable
 
 **FileZilla:** FileZilla es probablemente el cliente FTP más sencillo y conocido. Simplemente instálalo, ábrelo y en la barra superior introduce tus datos de acceso que encontrarás un poco más arriba en esta página. Tras un clic rápido en "Conectar" estarás directamente conectado al servidor y podrás gestionar los archivos.
 
-**WinSCP:** WinSCP está pensado principalmente para SCP y SFTP (las versiones cifradas del protocolo FTP), pero también funciona perfectamente con FTP normal. El programa es un poco más completo que FileZilla y es más adecuado para usuarios avanzados.
+**WinSCP:** WinSCP está pensado principalmente para SCP y SFTP (las versiones cifradas del protocolo FTP), pero también puede manejar FTP normal. El programa es un poco más completo que FileZilla y es más adecuado para usuarios avanzados.
 
 
 
 ### Bases de datos
 
-Además de nuestros productos de servidor de juegos, también ofrecemos 10 bases de datos incluidas. Estas bases de datos son necesarias, por ejemplo, cuando se deben almacenar datos en una base de datos. En **Bases de datos** puedes crear una base de datos y ver las credenciales de acceso. También tienes la opción de activar la copia de seguridad y de importar copias de seguridad existentes de bases de datos.
+Además de nuestros productos de servidor de juegos, también ofrecemos 10 bases de datos incluidas. Estas bases de datos son necesarias, por ejemplo, cuando se deben almacenar datos en una base de datos. En **Bases de datos**, puedes crear una base de datos y ver las credenciales de acceso. También tienes la opción de activar la copia de seguridad y de importar copias de seguridad de bases de datos existentes.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/WFLwCbZSQfYjrmD/preview)
 
@@ -206,20 +206,20 @@ Además de nuestros productos de servidor de juegos, también ofrecemos 10 bases
 
 En **Copias de seguridad** tienes la opción de crear copias de seguridad manuales y automáticas para tu servidor y su base de datos asociada. Esto facilita la recuperación de tus datos en caso de problemas o pérdida de datos.
 
-En la configuración puedes especificar si las copias de seguridad deben crearse automáticamente y si esto debe hacerse diariamente o semanalmente. Además, puedes decidir si se deben eliminar las copias más antiguas si es necesario, por ejemplo, cuando el espacio de almacenamiento disponible se vuelve limitado.
+En la configuración puedes especificar si las copias de seguridad deben crearse automáticamente y si esto debe hacerse diariamente o semanalmente. Además, puedes decidir si las copias más antiguas deben eliminarse si es necesario, por ejemplo, cuando el espacio de almacenamiento disponible se vuelve limitado.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/nm9za5LTMEcNsga/preview)
 
-Por defecto, proporcionamos 10 GB de espacio de almacenamiento en el servidor de almacenamiento para copias de seguridad en nuestros productos de servidor de juegos. Si necesitas más espacio, puedes ampliarlo por un costo adicional. Así te aseguras de tener siempre suficiente espacio para tus copias y poder acceder a copias antiguas si es necesario.
+Por defecto, proporcionamos 10 GB de espacio de almacenamiento en el servidor de almacenamiento para copias de seguridad en nuestros productos de servidor de juegos. Si necesitas más espacio, puede ampliarse por una tarifa. Así te aseguras de tener siempre suficiente espacio para tus copias y poder acceder a copias antiguas si es necesario.
 
 ## Enlaces adicionales
-En la sección **Enlaces adicionales** encontrarás más enlaces relevantes para tu producto.
+En la sección de **Enlaces adicionales** encontrarás más enlaces relevantes para tu producto.
 
 ### Preguntas frecuentes
 La sección de **Preguntas frecuentes** ofrece un resumen de las preguntas más comunes de nuestros clientes. Aquí encontrarás respuestas útiles e información detallada sobre varios temas para ayudarte rápida y eficientemente.
 
 ### Documentación de ZAP-Hosting
-Ofrecemos documentación extensa para nuestros productos, que sirve como base de conocimientos para las preguntas y dudas más frecuentes. Allí encontrarás varias guías y ayudas sobre diferentes temas que te asistirán en el uso y gestión de tu producto.
+Ofrecemos documentación extensa para nuestros productos, que sirve como base de conocimiento para las preguntas y dudas más frecuentes. Allí encontrarás diversas guías y ayudas sobre diferentes temas que te asistirán en el uso y gestión de tu producto.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/n48ct6aZBrNq7eT/preview)
 
@@ -231,6 +231,6 @@ La sección de **Noticias** te ofrece una visión completa de todos los anuncios
 - Ofertas especiales y promociones que te brindan beneficios o descuentos exclusivos
 - Otra información relevante que pueda afectar el uso de tu servicio
 
-Revisando las **Noticias** regularmente, estarás informado y podrás ajustar tu servicio para sacar el máximo provecho de tu servidor.
+Al revisar las **Noticias** regularmente, estarás informado y podrás ajustar tu servicio para sacar el máximo provecho de tu servidor.
 
 <InlineVoucher />

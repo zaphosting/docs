@@ -1,7 +1,7 @@
 ---
 id: gmod-firststeps-dashboard
 title: "Garry's Mod : Aperçu du Tableau de Bord"
-description: "Découvre comment gérer et optimiser efficacement ton serveur Garry's Mod avec un aperçu clair et structuré → Apprends-en plus maintenant"
+description: "Découvrez comment gérer et optimiser efficacement votre serveur de jeux Garry's Mod avec un aperçu clair et structuré → En savoir plus maintenant"
 sidebar_label: Tableau de Bord
 services:
   - gameserver-gmod
@@ -12,201 +12,239 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introduction
 
-Tu es intéressé par un **serveur de jeux Garry's Mod** ou tu en possèdes déjà un, mais tu manques encore d’une vue d’ensemble complète de l’administration et de la localisation de toutes les options nécessaires ? Surtout au début, ça peut être un vrai défi. Mais t’inquiète, on te propose ci-dessous une introduction détaillée à l’administration de ton service, pour que tu aies la meilleure vue d’ensemble possible.
+Vous êtes intéressé par un **serveur de jeux Garry's Mod** ou vous en possédez déjà un, mais vous manquez encore d’une vue d’ensemble complète de l’administration et de la localisation de toutes les options nécessaires ? Surtout au début, cela peut être un vrai défi. Pas de panique, nous vous proposons ci-dessous une introduction détaillée à l’administration de votre service, pour que vous ayez la meilleure vue d’ensemble possible.
 
-Après avoir parcouru ce guide, tu pourras gérer ton serveur facilement et trouver toutes les options et fonctionnalités nécessaires rapidement et sans prise de tête. Ici, tu auras un aperçu structuré qui t’aidera étape par étape à te familiariser avec l’administration du serveur et à approfondir tes connaissances de manière ciblée. Comme ça, tu pourras t’assurer que ton **serveur de jeux Garry's Mod** est parfaitement adapté à tes besoins et que tu tires le meilleur parti des options disponibles.
+Après avoir parcouru ce guide, vous serez capable de gérer votre serveur efficacement et de trouver rapidement et facilement toutes les options et fonctionnalités nécessaires. Ici, vous aurez un aperçu structuré qui vous aidera étape par étape à vous familiariser avec l’administration du serveur et à approfondir vos connaissances de manière ciblée. Ainsi, vous pourrez vous assurer que votre **serveur de jeux Garry's Mod** est parfaitement adapté à vos besoins et que vous tirez le meilleur parti des options disponibles.
 
-<YouTube videoId="3uvwx1XM2B8" imageSrc="https://screensaver01.zap-hosting.com/index.php/s/NqPPmLQpN9joXpX/preview" title="Configure ton serveur Garry's Mod en juste une MINUTE !" description="Tu préfères comprendre en voyant les choses en action ? On a ce qu’il te faut ! Plonge dans notre vidéo qui te décompose tout. Que tu sois pressé ou que tu préfères apprendre de façon plus fun et visuelle !" />
+<YouTube videoId="3uvwx1XM2B8" imageSrc="https://screensaver01.zap-hosting.com/index.php/s/NqPPmLQpN9joXpX/preview" title="Configurez votre serveur Garry's Mod en seulement UNE MINUTE !" description="Vous comprenez mieux en voyant les choses en action ? On a ce qu’il vous faut ! Plongez dans notre vidéo qui vous explique tout. Que vous soyez pressé ou que vous préfériez apprendre de manière super engageante !"/>
 
 <InlineVoucher />
 
 ## Administration du Produit
 
-Dans la section **Administration du Produit**, tu trouveras toutes les pages nécessaires pour gérer ton serveur. Les options pour gérer ton serveur sont listées en détail ci-dessous.
+Dans la section **Administration du Produit**, vous trouverez toutes les pages nécessaires à la gestion de votre serveur. Les options pour gérer votre serveur sont listées en détail ci-dessous.
+
+
 
 ### Tableau de Bord
 
-Le **Tableau de Bord** de ton serveur est le cœur de l’administration. Toutes les infos de base et essentielles sur ton service y sont présentées clairement. Ça inclut par exemple des infos sur l’emplacement du serveur, le statut, l’adresse IP : port, la mémoire utilisée, le jeu en cours, le nom du serveur, la map et le nombre de slots disponibles. En plus, l’utilisation du CPU, de la mémoire et de la RAM est aussi affichée.
+Le **Tableau de Bord** de votre serveur est le cœur de l’administration. Toutes les informations de base et essentielles concernant votre service y sont présentées clairement. Cela inclut, par exemple, des infos sur l’emplacement du serveur, son statut, l’IP : Port, la mémoire utilisée, le jeu en cours, le nom du serveur, la map et le nombre de slots disponibles. En plus, l’utilisation du CPU, de la mémoire et de la RAM est aussi affichée.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/b4Qqqt5dFbzpRzy/preview)
 
-Dans le tableau de bord, tu peux aussi démarrer, arrêter ou redémarrer ton service, pour garder un contrôle total sur son fonctionnement. En plus, tu as accès à la console live pour obtenir des infos en temps réel sur l’état du serveur et agir directement si besoin.
+Dans le tableau de bord, vous avez aussi la possibilité de démarrer, arrêter ou redémarrer votre service, pour garder un contrôle total sur son fonctionnement. En outre, vous pouvez accéder à la console en direct pour obtenir des infos en temps réel sur l’état du serveur et agir directement si besoin.
+
+
 
 ### Statistiques
 
-Dans les **Statistiques**, tu as un aperçu complet des valeurs de charge de ton serveur. Tu y trouveras des infos sur différents aspects comme la charge des slots disponibles, du CPU et de la mémoire. Tu peux consulter ces données sur différentes périodes, par exemple les **60 dernières minutes, 24 heures, 3 jours, 7 jours** ou **30 jours**.
+Dans la section **Statistiques**, vous obtenez un aperçu complet des valeurs de charge de votre serveur. Vous y trouverez des infos sur différents aspects comme la charge des slots disponibles, du CPU et de la mémoire. Vous pouvez consulter ces données pour différentes périodes, par exemple les dernières **60 minutes, 24 heures, 3 jours, 7 jours** ou **30 jours**.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/N8jcmdqqG2Xt4Bk/preview)
 
-Grâce à ces infos, tu as une bonne vision de l’utilisation de ton serveur. Ces statistiques sont aussi souvent utiles pour détecter d’éventuels problèmes de performance et en cerner les causes. Par exemple, tu peux retracer quand la charge a augmenté et si ça correspond à certains événements ou changements. C’est super important quand des soucis soudains arrivent, car ça te permet de prendre des mesures ciblées pour dépanner et analyser méthodiquement les causes possibles.
+Grâce à ces infos, vous avez une bonne vision de l’utilisation de votre serveur. Ces statistiques sont aussi souvent utiles pour identifier d’éventuels problèmes de performance et en cerner les causes. Par exemple, vous pouvez retracer quand l’utilisation a augmenté et si cela est lié à certains événements ou changements. C’est particulièrement important en cas de problèmes soudains, car cela vous permet de prendre des mesures ciblées pour dépanner et analyser systématiquement les causes possibles.
+
+
 
 ### Gestionnaire DDoS
 
-Consulte les attaques DDoS passées pour mieux évaluer les menaces potentielles et les schémas récurrents. Active les notifications pour les attaques DDoS en cours sur ton serveur afin de réagir vite en cas d’incident.
+Consultez les attaques DDoS passées pour mieux évaluer les menaces potentielles et les schémas récurrents. Activez les notifications pour les attaques DDoS en cours sur votre serveur afin de réagir rapidement en cas d’incident.
 
-Selon l’emplacement du serveur et la protection DDoS disponible, tu peux aussi surveiller les attaques actives en temps réel. Ça inclut des infos détaillées sur le trafic, montrant à la fois le trafic légitime et la quantité bloquée par les systèmes de mitigation. Ce niveau de transparence t’aide à comprendre comment la protection fonctionne et te permet d’identifier rapidement les risques potentiels.
+Selon l’emplacement du serveur et la protection DDoS disponible, vous pouvez aussi surveiller les attaques actives en temps réel. Cela inclut des analyses détaillées du trafic, montrant à la fois le trafic légitime et la quantité de trafic bloquée par les systèmes de mitigation. Ce niveau de transparence vous aide à comprendre comment la protection fonctionne et vous permet d’identifier rapidement les risques potentiels.
 
 :::info Accès au gestionnaire DDoS manquant ?
-L’utilisation du Gestionnaire DDoS nécessite soit une adresse IP dédiée, soit l’option supplémentaire "Aperçu Gestionnaire DDoS". Si ton pack actuel ne comprend pas ces composants, tu peux les ajouter à tout moment en upgradeant ton service.
+L’utilisation du Gestionnaire DDoS nécessite soit une adresse IP dédiée, soit l’option supplémentaire "Aperçu Gestionnaire DDoS". Si votre forfait actuel ne comprend pas ces composants, vous pouvez les ajouter à tout moment en améliorant votre service.
 :::
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/ScCCCY52CMLgfyE/preview)
 
 :::warning
-L’utilisation du Gestionnaire DDoS n’est possible que si une adresse IP propre ou l’option "Aperçu Gestionnaire DDoS" a été réservée en option supplémentaire. Si ces composants manquent dans ton pack actuel, tu peux les ajouter à tout moment via un upgrade.
+L’utilisation du Gestionnaire DDoS n’est possible que si une adresse IP propre ou l’option "Aperçu Gestionnaire DDoS" a été réservée en option supplémentaire. Si ces composants manquent dans votre forfait actuel, vous pouvez les ajouter à tout moment en effectuant une montée en gamme.
 :::
+
+
 
 ### Boutique Tebex
 
-Avec Tebex, tu peux transformer ton serveur de jeux en source de revenus en vendant des biens virtuels et des grades contre de l’argent réel. C’est un outil puissant et fiable, conçu spécialement pour les admins de serveurs de jeux qui veulent offrir une meilleure expérience à leurs joueurs.
+Avec Tebex, vous avez la possibilité de monétiser votre serveur de jeux en vendant des biens virtuels et des grades contre de l’argent réel. C’est un outil puissant et fiable conçu spécialement pour les administrateurs de serveurs de jeux qui veulent offrir une meilleure expérience à leurs joueurs.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/TbwafKd3Kmq4WrS/preview)
 
-Tebex est simple à utiliser et propose plein de fonctionnalités pour personnaliser et optimiser ta boutique. Tu peux modifier la mise en page, ajouter des options de paiement, et même lancer des campagnes marketing pour toucher plus de joueurs.
+Tebex est facile à utiliser et propose de nombreuses fonctionnalités pour personnaliser et optimiser votre boutique. Vous pouvez personnaliser la mise en page, ajouter des options de paiement, et même lancer des campagnes marketing pour toucher plus de joueurs.
 
-En cliquant sur l’image, tu peux créer ta propre boutique de serveur de jeux avec Tebex. La configuration est rapide et facile, tu seras prêt à vendre tes biens virtuels en un rien de temps.
+En cliquant sur l’image, vous pouvez créer votre propre boutique de serveur de jeux avec Tebex. La configuration est rapide et simple, vous serez prêt à vendre vos biens virtuels en un rien de temps.
 
-### Fichiers Logs
 
-Un problème technique survient et tu ne sais pas d’où ça vient ? Une première piste est de vérifier les **fichiers logs**. Ces fichiers contiennent plein d’infos sur le serveur, comme les événements en cours, des indices ou des messages d’erreur.
 
-Les messages d’erreur en particulier peuvent aider à identifier et mieux comprendre la cause d’un souci. Souvent, en jetant un œil ciblé aux logs, on peut dénicher et résoudre les difficultés.
+### Fichiers journaux
 
-> ⚠️ Tu ne comprends pas les infos trouvées ou elles ne t’aident pas ? Pas de panique ! Dans ce cas, notre support est dispo tous les jours. Crée simplement un **[ticket](https://zap-hosting.com/en/customer/support/)** et explique-nous ton problème. On le regardera au plus vite et t’aidera à le résoudre ! :)
+Un problème technique survient et vous ne savez pas d’où il vient ? Une première stratégie possible est de vérifier les **fichiers journaux**. Ces fichiers contiennent beaucoup d’informations sur le serveur, comme les événements en cours, des indices ou des messages d’erreur.
 
-### Journal des Événements
+Les messages d’erreur en particulier peuvent aider à identifier et mieux comprendre la cause d’un problème. Souvent, les difficultés peuvent être découvertes et résolues en regardant attentivement les fichiers journaux.
 
-Le **Journal des Événements** te donne un aperçu complet de toutes les activités liées à l’administration du serveur. Tu peux suivre à tout moment quand un serveur a démarré, arrêté ou planté, ainsi que quand des mises à jour, sauvegardes ou nouvelles installations ont été faites.
+> ⚠️ Les infos trouvées ne vous aident pas ou vous ne les comprenez pas ? Pas de souci ! Dans ce cas, notre support est disponible tous les jours. Il vous suffit de créer un **[Ticket](https://zap-hosting.com/en/customer/support/)** et de nous expliquer votre problème. Nous le traiterons au plus vite et vous aiderons à résoudre le souci ! :)
+
+
+
+### Journal des événements
+
+Le **Journal des événements** vous offre un aperçu complet de toutes les activités liées à l’administration du serveur. Vous pouvez y suivre à tout moment quand un serveur a démarré, arrêté ou planté, ainsi que quand des mises à jour, sauvegardes ou nouvelles installations ont été effectuées.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/xNzsaMbW5BS5KJC/preview)
 
-### Console Live
 
-La **Console Live** t’offre une vue en temps réel de tous les événements actuels sur ton serveur. Tu peux y voir les activités des joueurs ainsi que d’éventuels messages d’erreur et messages système. Cet aperçu te permet d’avoir une vision globale de ce qui se passe sur ton serveur et de détecter rapidement les problèmes.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/dktDADkq3bzG3F6/preview)
+### Console en direct
 
-En plus de surveiller les événements, tu peux aussi envoyer des commandes directement au serveur via la **Console Live**. C’est super pratique pour ajuster des réglages, effectuer certaines actions ou réagir vite à un souci.
+La **Console en direct** vous propose une vue en temps réel de tous les événements actuels sur votre serveur. Vous y voyez les activités des joueurs ainsi que d’éventuels messages d’erreur et messages système. Cet aperçu vous permet d’avoir une vision complète de ce qui se passe sur votre serveur et de détecter rapidement d’éventuels problèmes.
 
-### Interruptions de Service
+![](https://screensaver01.zap-hosting.com/index.php/s/J9SsmSrPXnG7P9w/preview)
 
-Ton serveur a été hors ligne temporairement et tu ne comprends pas pourquoi ? Un coup d’œil dans le journal des événements et les fichiers logs n’a rien donné ? Il se peut que la cause ne vienne pas directement de ton serveur, mais du système hôte sur lequel il tourne.
+En plus de surveiller les événements, vous pouvez aussi envoyer des commandes directement au serveur via la **Console en direct**. Cela peut être utile pour ajuster des paramètres, effectuer certaines actions ou réagir rapidement à des problèmes.
 
-Si notre système de monitoring détecte une interruption générale, nos techniciens sont automatiquement alertés et s’occupent du problème au plus vite.
 
-Dans cette section, tu trouveras un historique des interruptions du système hôte sur lequel ton service de serveur de jeux est hébergé. Plus d’infos et la dernière version de notre statut de service sont dispo sur notre nouvelle [page de statut](https://status.zap-hosting.com/).
+
+### Interruptions de service
+
+Votre serveur a été temporairement hors ligne et vous ne comprenez pas pourquoi ? Un coup d’œil dans le journal des événements et les fichiers journaux n’a rien donné non plus ? Il se peut que la cause du problème ne vienne pas directement de votre serveur, mais du système hôte sur lequel il est exploité.
+
+Si notre système de monitoring détecte une interruption générale, nos techniciens sont automatiquement alertés et prennent en charge le problème au plus vite.
+
+Dans cette section, vous trouverez un historique des interruptions du système hôte sur lequel votre service de serveur de jeux est hébergé. Plus d’infos et la dernière version de notre statut de service sont disponibles sur notre nouvelle [page de statut](https://status.zap-hosting.com/).
+
+
+
+
 
 ## Paramètres
 
-Dans la section **Paramètres**, tu trouveras toutes les pages nécessaires pour configurer ton serveur. Les options disponibles pour la configuration sont listées en détail ci-dessous.
+Dans la section **Paramètres**, vous trouverez toutes les pages nécessaires à la configuration de votre serveur. Les options disponibles pour configurer votre serveur sont listées en détail ci-dessous.
+
+
 
 ### Paramètres
 
-Dans les paramètres, tu as un aperçu des options de réglages les plus courantes pour ton serveur. Elles sont accompagnées d’une courte explication. La page des paramètres est particulièrement recommandée aux débutants en administration de serveur.
+Dans les paramètres, vous trouverez un aperçu des options de configuration les plus courantes pour votre serveur. Elles sont accompagnées d’une courte explication. L’utilisation de la page des paramètres est particulièrement recommandée aux débutants en administration de serveur.
 
-Si tu es plus à l’aise et que tu veux faire des modifications plus précises, on te conseille d’utiliser plutôt l’Éditeur de Configs. Tu trouveras plus d’infos à ce sujet dans la catégorie **Configs**.
+Si vous êtes plus à l’aise et souhaitez faire des modifications plus précises, nous vous conseillons d’utiliser plutôt l’Éditeur de Configs. Vous trouverez plus d’infos à ce sujet dans la catégorie **Configs**.
+
+
 
 ### Configs
 
-L’éditeur de fichiers de config te permet de modifier directement les fichiers de configuration depuis le site, à l’ancienne, sans la vue simplifiée. Cette option te donne la liberté de personnaliser les réglages de ton serveur selon tes préférences.
+L’éditeur de fichiers de config vous permet de modifier directement les fichiers de configuration depuis le site web, à l’ancienne, sans la vue simplifiée. Cette option vous permet de personnaliser les réglages de votre serveur selon vos préférences.
 
-Avec l’éditeur, tu as un accès direct à toutes les options disponibles et tu peux les ajuster précisément. C’est parfait pour les utilisateurs avancés qui veulent un contrôle total sur les réglages de leur serveur et savent exactement ce qu’ils veulent modifier.
+En utilisant l’éditeur, vous avez un accès direct à toutes les options disponibles et pouvez les ajuster précisément. C’est particulièrement utile pour les utilisateurs avancés qui veulent un contrôle total sur les paramètres de leur serveur et savent exactement ce qu’ils veulent modifier.
 
 :::warning
-Tu as remarqué que certaines de tes modifications sont partiellement écrasées ? Sache que certaines valeurs d’options sont prises depuis la page des paramètres. Si tu veux modifier ces options directement dans la config, il faut d’abord désactiver les options correspondantes dans la page des paramètres.
+Vous avez remarqué que certaines de vos modifications sont partiellement écrasées ? Sachez que certaines valeurs d’options sont prises depuis la page des paramètres. Si vous souhaitez modifier ces options directement dans la config, vous devez d’abord désactiver les options correspondantes dans la page des paramètres.
 :::
+
+
 
 ### Jeux
 
-Dans **Jeux**, tu peux toujours changer la variante de jeu de ton serveur existant ou installer un autre jeu en général. Les jeux avec le même prix par slot peuvent être sélectionnés directement sous **Jeux Disponibles**. Pour tous les autres jeux, un ajustement du prix par slot est nécessaire avant. Plus d’infos à ce sujet dans le guide [Changement de Jeu](gameserver-gameswitch.md).
+Sous **Jeux**, vous avez toujours la possibilité de changer la variante de jeu de votre jeu existant ou d’installer un autre jeu en général. Les jeux avec le même prix par slot peuvent être sélectionnés directement sous **Jeux Disponibles**. Pour tous les autres jeux, un ajustement du prix par slot est nécessaire au préalable. Plus d’infos à ce sujet dans le guide [Changement de Jeu](gameserver-gameswitch.md).
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/xkkECw7o52fAMWk/preview)
 
+
+
 ### Versions
 
-Dans **Versions**, tu peux voir et gérer la version actuelle de ton serveur de jeux. Tu peux mettre à jour vers la dernière version à tout moment ou activer les mises à jour automatiques pour que ton serveur soit toujours à jour.
+Sous **Versions**, vous pouvez consulter et gérer la version actuelle de votre serveur de jeux. Vous pouvez y mettre à jour vers la dernière version à tout moment ou activer les mises à jour automatiques pour garantir que votre serveur soit toujours à jour.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/BH2JzyRHTeLdKHz/preview)
 
-Tu peux aussi activer la notification par email pour les mises à jour automatiques, afin d’être informé et toujours à la page.
+De plus, vous pouvez aussi activer la notification par email pour les mises à jour automatiques afin de rester informé et toujours à jour.
+
+
 
 ### Steam Workshop
 
-Si tu cherches du nouveau contenu pour booster ton expérience de jeu, le Steam Workshop propose une large sélection de mods et maps pour plein de jeux. Pour utiliser une collection de mods ou maps dans ton jeu, il suffit d’entrer l’ID de la collection Steam Workshop. Ensuite, tu devras redémarrer ton serveur pour que le nouveau contenu soit chargé. Une fois fait, tu pourras profiter du contenu sur ton serveur et ajouter plus de fun et de variété à ton jeu.
+Si vous cherchez du nouveau contenu pour enrichir votre expérience de jeu, le Steam Workshop propose une large sélection de mods et maps pour plusieurs jeux. Pour utiliser une collection de mods ou maps dans votre jeu, il vous suffit d’entrer l’ID de la collection Steam Workshop. Ensuite, vous devrez redémarrer votre serveur pour que le nouveau contenu soit chargé. Une fois fait, vous pourrez utiliser ce contenu sur votre serveur et ajouter plus de variété et de fun à votre jeu.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/AaL9sQeye5gKzWQ/preview)
 
-### Tâches Planifiées
 
-Crée des tâches planifiées qui s’exécutent automatiquement à des moments définis pour automatiser différents processus sur ton serveur. Tu peux choisir si une tâche doit s’exécuter une seule fois ou se répéter selon tes besoins. Les types de tâches supportés incluent démarrer, arrêter ou redémarrer des services, redémarrer le serveur s’il est en ligne, créer des sauvegardes ou exécuter des commandes personnalisées.
+
+### Tâches planifiées
+
+Créez des tâches planifiées qui s’exécutent automatiquement à des moments définis pour automatiser divers processus sur votre serveur. Vous pouvez définir si une tâche doit s’exécuter une seule fois ou se répéter selon vos besoins. Les types de tâches supportés incluent démarrer, arrêter ou redémarrer des services, redémarrer le serveur s’il est en ligne, créer des sauvegardes ou exécuter des commandes personnalisées.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/P6DeWiRC3tDqG2z/preview)
 
-### Planificateur de Redémarrage
+### Planificateur de redémarrage
 
-Tu veux programmer des redémarrages du serveur à des heures précises ? Le Planificateur de Redémarrage te permet de configurer des redémarrages automatiques planifiés de ton serveur de jeux. Avec cette fonction, tu peux définir des redémarrages à des heures spécifiques ou à intervalles réguliers.
+Vous voulez programmer des redémarrages du serveur à des heures précises ? Le Planificateur de redémarrage vous permet de configurer des redémarrages automatiques planifiés de votre serveur de jeux. Avec cette fonction, vous pouvez programmer des redémarrages à des heures spécifiques ou à intervalles réguliers.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/Y6WciDS7YP98P4m/preview)
 
 ### Paramètres DNS
 
-Avec les paramètres DNS ZAP, tu peux créer des adresses faciles à retenir pour ton service. Tu peux utiliser un sous-domaine de nos domaines ou créer une entrée DNS sur tes propres domaines pour avoir une adresse qui te correspond mieux.
+Avec les paramètres DNS ZAP, vous pouvez créer des adresses faciles à retenir pour votre service. Vous pouvez soit utiliser un sous-domaine de l’un de nos domaines, soit créer une entrée DNS sur vos propres domaines et ainsi avoir une adresse mieux associée à vous en tant que personne.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/tM5FGTHRSbZA5rN/preview)
 
 ## Outils
 
-Dans la section **Outils** de ton panneau de navigation, tu trouveras plusieurs sous-menus qui t’aideront à gérer ton serveur. Ça inclut **Navigateur FTP**, **Bases de données** et **Sauvegardes**. Voici une introduction détaillée à ces différents domaines.
+Dans la section **Outils** de votre panneau de navigation, vous trouverez plusieurs sous-éléments qui vous aideront à gérer votre serveur. Cela inclut **Navigateur FTP**, **Bases de données** et **Sauvegardes**. Vous recevrez ci-dessous une introduction détaillée à ces différents domaines.
+
+
 
 ### Navigateur FTP
 
-Avec le **Navigateur FTP**, tu obtiens toutes les infos nécessaires pour te connecter à l’accès FTP. L’accès FTP te donne un accès direct aux fichiers de ton serveur de jeux. On recommande d’utiliser un programme FTP externe comme **Filezilla** ou **WinSCP** pour une utilisation optimale. Si tu ne connais pas encore FTP, jeter un œil au guide [Accès via FTP](gameserver-ftpaccess.md) peut t’aider.
+Avec le **Navigateur FTP**, vous obtenez toutes les infos nécessaires pour établir une connexion à l’accès FTP. L’accès FTP vous permet un accès direct aux fichiers de votre serveur de jeux. Nous recommandons d’utiliser un programme FTP externe comme **Filezilla** ou **WinSCP** pour une utilisation optimale. Si vous ne connaissez pas encore FTP, jeter un œil au guide [Accès via FTP](gameserver-ftpaccess.md) peut vous aider.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/sX85i9HyzR9wmAM/preview)
 
-**FileZilla :** FileZilla est probablement le client FTP le plus simple et connu. Installe-le, lance-le, et entre tes identifiants en haut, que tu trouveras un peu plus haut sur cette page. Un clic rapide sur "Connecter" et tu es directement connecté au serveur pour gérer les fichiers.
+**FileZilla :** FileZilla est probablement le client FTP le plus simple et le plus connu. Installez-le, lancez-le et entrez vos identifiants dans la barre en haut, que vous trouverez un peu plus haut sur cette page. Après un clic rapide sur "Connexion", vous êtes directement connecté au serveur et pouvez gérer les fichiers.
 
-**WinSCP :** WinSCP est à la base prévu pour SCP et SFTP (les versions sécurisées du protocole FTP), mais il gère aussi très bien le FTP classique. Le programme est un peu plus complet que FileZilla et est plutôt destiné aux utilisateurs avancés.
+**WinSCP :** WinSCP est en fait conçu pour SCP et SFTP (les versions sécurisées du protocole FTP), mais il gère aussi très bien le FTP classique. Le programme est un peu plus complet que FileZilla et convient plutôt aux utilisateurs avancés.
+
+
 
 ### Bases de données
 
-En plus de nos produits serveurs de jeux, on propose aussi 10 bases de données incluses. Ces bases sont nécessaires par exemple quand des données doivent être stockées dans une base. Sous **Bases de données**, tu peux créer une base, voir les identifiants d’accès, activer l’option de sauvegarde et importer des sauvegardes existantes.
+En plus de nos produits de serveurs de jeux, nous proposons aussi 10 bases de données incluses. Ces bases sont nécessaires, par exemple, lorsque des données doivent être stockées dans une base. Sous **Bases de données**, vous pouvez créer une base et consulter les identifiants d’accès. Vous avez aussi la possibilité d’activer l’option de sauvegarde et d’importer des sauvegardes de bases existantes.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/WFLwCbZSQfYjrmD/preview)
 
+
+
 ### Sauvegardes
 
-Sous **Sauvegardes**, tu peux créer des sauvegardes manuelles ou automatiques pour ton serveur et sa base de données associée. Ça facilite la récupération de tes données en cas de problème ou de perte.
+Sous **Sauvegardes**, vous pouvez créer des sauvegardes manuelles et automatiques pour votre serveur et sa base de données associée. Cela facilite la récupération de vos données en cas de problème ou de perte.
 
-Dans les paramètres, tu peux définir si les sauvegardes doivent être créées automatiquement et si c’est quotidiennement ou hebdomadairement. Tu peux aussi décider si les sauvegardes les plus anciennes doivent être supprimées si l’espace de stockage vient à manquer.
+Dans les paramètres, vous pouvez définir si les sauvegardes doivent être créées automatiquement et si cela doit se faire quotidiennement ou hebdomadairement. Vous pouvez aussi décider si les sauvegardes les plus anciennes doivent être supprimées si nécessaire, par exemple lorsque l’espace de stockage disponible devient limité.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/nm9za5LTMEcNsga/preview)
 
-On fournit par défaut 10 Go d’espace de stockage sur le serveur de stockage pour les sauvegardes de nos produits serveurs de jeux. Si tu as besoin de plus d’espace, tu peux l’upgrader contre un supplément. Comme ça, tu es sûr d’avoir toujours assez de place pour tes sauvegardes et d’accéder aux plus anciennes si besoin.
+Nous fournissons par défaut 10 Go d’espace de stockage sur le serveur de stockage pour les sauvegardes de nos produits de serveurs de jeux. Si vous avez besoin de plus d’espace, vous pouvez l’augmenter moyennant un supplément. Ainsi, vous vous assurez d’avoir toujours assez de place pour vos sauvegardes et de pouvoir accéder aux plus anciennes si besoin.
 
-## Liens Utiles
+## Liens complémentaires
 
-Dans la section **Liens Utiles**, tu trouveras d’autres liens pertinents pour ton produit.
+Dans la section **Liens complémentaires**, vous trouverez d’autres liens pertinents pour votre produit.
 
-### Questions Fréquentes
+### Questions fréquentes
 
-La section **Questions Fréquentes** donne un aperçu des questions les plus posées par nos clients. Tu y trouveras des réponses utiles et des infos détaillées sur différents sujets pour t’aider rapidement et efficacement.
+La section **Questions fréquentes** offre un aperçu des questions les plus posées par nos clients. Vous y trouverez des réponses utiles et des infos détaillées sur divers sujets pour vous aider rapidement et efficacement.
 
 ### Documentation ZAP-Hosting
 
-On propose une documentation complète pour nos produits, qui sert de base de connaissances pour les questions et soucis les plus fréquents. Tu y trouveras divers guides et aides sur différents sujets pour t’accompagner dans l’utilisation et la gestion de ton produit.
+Nous proposons une documentation complète pour nos produits, qui sert de base de connaissances pour les questions et préoccupations les plus fréquentes. Vous y trouverez divers guides et aides sur différents sujets qui vous assisteront dans l’utilisation et la gestion de votre produit.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/n48ct6aZBrNq7eT/preview)
 
-### News
+### Actualités
 
-La section **News** te donne un aperçu complet de toutes les annonces et nouveautés liées à ton service. Tu y trouveras des infos importantes sur différents aspects comme :
+La section **Actualités** vous donne un aperçu complet de toutes les annonces et nouveautés liées à votre service. Vous y trouverez des infos importantes sur divers aspects tels que :
 
 - Les changements du service, par exemple via des mises à jour ou nouvelles fonctionnalités
-- Les annonces concernant des maintenances ou problèmes techniques
-- Les offres spéciales et promotions qui te donnent des avantages ou réductions exclusives
-- D’autres infos pertinentes pour l’utilisation de ton service
+- Les annonces concernant d’éventuelles maintenances ou problèmes techniques
+- Les offres spéciales et promotions qui vous donnent des avantages ou réductions exclusifs
+- D’autres infos pertinentes pouvant impacter l’utilisation de votre service
 
-En consultant régulièrement les **News**, tu restes informé et peux ajuster ton service pour tirer le meilleur de ton serveur.
+En consultant régulièrement les **Actualités**, vous restez informé et pouvez ajuster votre service pour tirer le meilleur parti de votre serveur.
 
 <InlineVoucher />

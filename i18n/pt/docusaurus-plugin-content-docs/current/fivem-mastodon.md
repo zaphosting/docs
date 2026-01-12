@@ -1,6 +1,6 @@
 ---
 id: fivem-mastodon
-title: "FiveM: Configurando um feed de atividades para o seu servidor"
+title: "FiveM: Configurando um feed de atividades usando Mastodon"
 description: "Descubra como integrar um feed de atividades do Mastodon no seu servidor para atualizações em tempo real e maior engajamento da comunidade → Saiba mais agora"
 sidebar_label: Configurar Feed de Atividades
 services:
@@ -9,29 +9,49 @@ services:
 
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
-<InlineVoucher />
+
+
+## Introdução
+
+Um feed de atividades ajuda a manter os jogadores informados diretamente dentro do seu servidor FiveM. Ao conectar uma conta Mastodon, atualizações do servidor, anúncios e mensagens curtas podem ser exibidos em tempo real, sem que os jogadores precisem checar plataformas externas.
+
+Essa integração cria um canal de comunicação claro entre o servidor e sua comunidade, garantindo que informações importantes estejam sempre visíveis em um único lugar centralizado.
 
 ## Preparação
 
-Para configurar um feed de atividades no nosso servidor, primeiro precisamos registrar uma conta no Mastodon.
+Antes de configurar o feed de atividades, é necessário ter uma conta Mastodon. Essa conta será usada para publicar atualizações que depois aparecerão no servidor.
+
+Se ainda não tiver uma conta, registre-se em uma instância do [Mastodon](https://joinmastodon.org/) de sua preferência. Após o registro, certifique-se de que o perfil está acessível e pronto para postar atualizações, pois essas postagens serão exibidas no feed de atividades.
+
+
 
 ## Configuração
 
-Agora abrimos nosso Perfil no Mastodon e copiamos nosso nome de usuário, no nosso caso é `zaphosting@mstdn.instance`
+Abra seu perfil Mastodon e copie seu nome de usuário completo.  
+O nome de usuário geralmente segue este formato:
 
-Agora podemos abrir as "Configs" no nosso servidor FiveM e editar o server.cfg.
+```
+username@instance.domain
+```
 
-Inserimos a seguinte linha no final do arquivo:
+Neste exemplo, o nome de usuário é `zaphosting@mstdn.instance`. Em seguida, abra a seção **Configs** do seu servidor FiveM e edite o arquivo `server.cfg`. Vá até o final do arquivo e adicione a seguinte linha:
 
 ```
 sets activitypubFeed username
 ```
 
-"username" deve ser substituído pelo seu nome de usuário do Mastodon.
+Substitua `username` pelo seu próprio nome de usuário Mastodon.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/oQWC9pxrweM8FsY/preview)
 
-Agora salvamos o arquivo e reiniciamos nosso servidor, após cerca de 20 minutos a aba "Feed" estará disponível depois que seu servidor for iniciado.
+Salve o arquivo e reinicie o servidor. Após o reinício, pode levar até 20 minutos para que o feed de atividades fique disponível. Uma vez ativo, uma nova aba **Feed** aparecerá ao abrir o servidor, mostrando as postagens da conta Mastodon vinculada.
 
 
-<InlineVoucher />
+
+## Conclusão
+
+Com o feed de atividades configurado, atualizações e anúncios do servidor são exibidos diretamente para os jogadores de forma clara e acessível. Essa configuração melhora a transparência, fortalece a interação da comunidade e oferece um método eficiente para compartilhar notícias e informações sem depender de links ou plataformas externas.
+
+
+
+Para dúvidas ou ajuda, não hesite em contatar nosso time de suporte, disponível diariamente para te ajudar! 🙂
