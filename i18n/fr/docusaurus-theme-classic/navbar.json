@@ -28,11 +28,11 @@
     "description": "Navbar item with label Voicebot & Voiceserver"
   },
   "item.label.Domain": {
-    "message": "Domain",
+    "message": "Domaine",
     "description": "Navbar item with label Domain"
   },
   "item.label.Webspace": {
-    "message": "Webspace",
+    "message": "Hébergement web",
     "description": "Navbar item with label Webspace"
   }
 }

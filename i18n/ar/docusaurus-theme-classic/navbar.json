@@ -16,7 +16,7 @@
     "description": "Navbar item with label Gameserver"
   },
   "item.label.VPS": {
-    "message": "VPS",
+    "message": "خادم افتراضي",
     "description": "Navbar item with label VPS"
   },
   "item.label.Dedicated Server": {
@@ -28,11 +28,11 @@
     "description": "Navbar item with label Voicebot & Voiceserver"
   },
   "item.label.Domain": {
-    "message": "Domain",
+    "message": "نطاق",
     "description": "Navbar item with label Domain"
   },
   "item.label.Webspace": {
-    "message": "Webspace",
+    "message": "استضافة ويب",
     "description": "Navbar item with label Webspace"
   }
 }

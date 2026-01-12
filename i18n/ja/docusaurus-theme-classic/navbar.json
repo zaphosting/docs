@@ -16,7 +16,7 @@
     "description": "Navbar item with label Gameserver"
   },
   "item.label.VPS": {
-    "message": "VPS",
+    "message": "仮想専用サーバー",
     "description": "Navbar item with label VPS"
   },
   "item.label.Dedicated Server": {
@@ -28,11 +28,11 @@
     "description": "Navbar item with label Voicebot & Voiceserver"
   },
   "item.label.Domain": {
-    "message": "Domain",
+    "message": "ドメイン",
     "description": "Navbar item with label Domain"
   },
   "item.label.Webspace": {
-    "message": "Webspace",
+    "message": "ホスティング",
     "description": "Navbar item with label Webspace"
   }
 }
