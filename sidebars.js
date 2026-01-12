@@ -5236,75 +5236,124 @@ const sidebars = {
       ]
     },	
   ],
+
+    //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    domainSidebar: [
+      {
+        type: 'html',
+        className: 'sidebar-title',
+        value: (() => {
+          switch (process.env.DOCUSAURUS_CURRENT_LOCALE) {
+            case "de": return "Erste Schritte";
+            case "es": return "Primeros pasos";
+            case "fr": return "Premiers pas";
+            case "ar": return "الخطوات الأولى";
+            case "pt": return "Primeiros passos";
+            case "th": return "เริ่มต้นใช้งาน";
+            case "pl": return "Pierwsze kroki";
+            case "ja": return "はじめに";
+            case "sv": return "Kom igång";
+            case "it": return "Primi passi";
+            case "nl": return "Eerste stappen";
+            case "zh": return "第一步";
+            default: return "First steps";
+          }
+        })(),
+        defaultStyle: true,
+      },
+      'domain-introduction',
+      'domain-dashboard',
+      'domain-order',
+      'domain-transfer',
+      'domain-handle-management',
+      'domain-life-cycle',
+      {
+        type: 'html',
+        className: 'sidebar-title',
+        value: (() => {
+          switch (process.env.DOCUSAURUS_CURRENT_LOCALE) {
+            case "de": return "DNS Verwaltung";
+            case "es": return "Gestión de DNS";
+            case "fr": return "Gestion DNS";
+            case "ar": return "إدارة DNS";
+            case "pt": return "Gestão de DNS";
+            case "th": return "การจัดการ DNS";
+            case "pl": return "Zarządzanie DNS";
+            case "ja": return "DNS 管理";
+            case "sv": return "DNS hantering";
+            case "it": return "Gestione DNS";
+            case "nl": return "DNS beheer";
+            case "zh": return "DNS 管理";
+            default: return "DNS management";
+          }          
+        })(),
+        defaultStyle: true,
+      },
+      'domain-easydns',
+      'domain-profidns',
+      'domain-expertdns',
+      'domain-records',
+      {
+        type: "category",
+        label: "Domain forwarding",
+        key: "domain-domain-forwarding",
+        items: [
+          'domain-gameserver-srv-link',
+          'domain-teamspeak-redirect',
+        ],
+      },
+      {
+        type: 'html',
+        className: 'sidebar-title',
+        value: (() => {
+          switch (process.env.DOCUSAURUS_CURRENT_LOCALE) {
+            case "de": return "Externe Dienste";
+            case "es": return "Servicios externos";
+            case "fr": return "Services externes";
+            case "ar": return "الخدمات الخارجية";
+            case "pt": return "Serviços externos";
+            case "th": return "บริการภายนอก";
+            case "pl": return "Usługi zewnętrzne";
+            case "ja": return "外部サービス";
+            case "sv": return "Externa tjänster";
+            case "it": return "Servizi esterni";
+            case "nl": return "Externe diensten";
+            case "zh": return "外部服务";
+            default: return "External services";
+          }        
+        })(),
+        defaultStyle: true,
+      },
+      {
+        type: "category",
+        label: "Cloudflare",
+        key: "domain-cloudflare",
+        items: [
+          'domain-cloudflare-setup',
+        ],
+      },
+    ],
   
   //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-  domainwebspaceSidebar: [
+  webspaceSidebar: [
     {
       type: 'html',
       className: 'sidebar-title',
       value: (() => {
         switch (process.env.DOCUSAURUS_CURRENT_LOCALE) {
-          case "de": return "Domain";
-          case "es": return "Dominio";
-          case "fr": return "Domaine";
-          case "ar": return "النطاق";
-          case "pt": return "Domínio";
-          case "th": return "โดเมน";
-          case "pl": return "Domena";
-          case "ja": return "ドメイン";
-          case "sv": return "Domän";
-          case "it": return "Dominio";
-          case "nl": return "Domein";
-          case "zh": return "域名";
-          default: return "Domain";
-        }
-      })(),
-      defaultStyle: true,
-    },
-    'domain-introduction',
-    'domain-dashboard',
-    'domain-order',
-    'domain-transfer',
-    'domain-handle-management',
-    'domain-easydns',
-    'domain-profidns',
-    'domain-expertdns',
-    'domain-records',
-    {
-      type: "category",
-      label: "Domain forwarding",
-      key: "domain-domain-forwarding",
-      items: [
-        'domain-gameserver-srv-link',
-        'domain-teamspeak-redirect',
-      ],
-    },
-    {
-      type: "category",
-      label: "Cloudflare",
-      key: "domain-cloudflare",
-      items: [
-        'domain-cloudflare-setup',
-      ],
-    },
-    {
-      type: 'html',
-      className: 'sidebar-title',
-      value: (() => {
-        switch (process.env.DOCUSAURUS_CURRENT_LOCALE) {
-          case "de": return "Webspace";
-          case "es": return "Alojamiento web";
-          case "fr": return "Espace web";
-          case "ar": return "استضافة الويب";
-          case "pt": return "Hospedagem web";
-          case "th": return "เว็บสเปซ";
-          case "pl": return "Przestrzeń WWW";
-          case "ja": return "ウェブスペース";
-          case "sv": return "Webbhotell";
-          case "it": return "Spazio web";
-          case "nl": return "Webhosting";
-          case "zh": return "网络空间";
-          default: return "Webspace";
+          case "de": return "Erste Schritte";
+          case "es": return "Primeros pasos";
+          case "fr": return "Premiers pas";
+          case "ar": return "الخطوات الأولى";
+          case "pt": return "Primeiros passos";
+          case "th": return "เริ่มต้นใช้งาน";
+          case "pl": return "Pierwsze kroki";
+          case "ja": return "はじめに";
+          case "sv": return "Kom igång";
+          case "it": return "Primi passi";
+          case "nl": return "Eerste stappen";
+          case "zh": return "第一步";
+          default: return "First steps";
         }
       })(),
       defaultStyle: true,
@@ -5327,6 +5376,28 @@ const sidebars = {
     },
     'webspace-plesk-ssl',
     'webspace-htaccess-discord',
+    {
+      type: 'html',
+      className: 'sidebar-title',
+      value: (() => {
+        switch (process.env.DOCUSAURUS_CURRENT_LOCALE) {
+          case "de": return "Anwendungen";
+          case "es": return "Aplicaciones";
+          case "fr": return "Applications";
+          case "ar": return "التطبيقات";
+          case "pt": return "Aplicações";
+          case "th": return "แอปพลิเคชัน";
+          case "pl": return "Aplikacje";
+          case "ja": return "アプリケーション";
+          case "sv": return "Applikationer";
+          case "it": return "Applicazioni";
+          case "nl": return "Applicaties";
+          case "zh": return "应用程序";
+          default: return "Applications";
+        }
+      })(),
+      defaultStyle: true,
+    },    
     {
       type: "category",
       label: "MyBB",

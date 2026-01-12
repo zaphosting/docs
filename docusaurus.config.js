@@ -301,9 +301,15 @@ const config = {
         },
         {
           type: 'docSidebar',
-          sidebarId: 'domainwebspaceSidebar',
+          sidebarId: 'domainSidebar',
           position: 'left',
-          label: 'Domain & Webspace',
+          label: 'Domain',
+        },
+        {
+          type: 'docSidebar',
+          sidebarId: 'webspaceSidebar',
+          position: 'left',
+          label: 'Webspace',
         },
         {
           type: 'docSidebar',
