@@ -5266,6 +5266,29 @@ const sidebars = {
       'domain-order',
       'domain-transfer',
       'domain-handle-management',
+      'domain-life-cycle',
+      {
+        type: 'html',
+        className: 'sidebar-title',
+        value: (() => {
+          switch (process.env.DOCUSAURUS_CURRENT_LOCALE) {
+            case "de": return "DNS Verwaltung";
+            case "es": return "Gestión de DNS";
+            case "fr": return "Gestion DNS";
+            case "ar": return "إدارة DNS";
+            case "pt": return "Gestão de DNS";
+            case "th": return "การจัดการ DNS";
+            case "pl": return "Zarządzanie DNS";
+            case "ja": return "DNS 管理";
+            case "sv": return "DNS hantering";
+            case "it": return "Gestione DNS";
+            case "nl": return "DNS beheer";
+            case "zh": return "DNS 管理";
+            default: return "DNS management";
+          }          
+        })(),
+        defaultStyle: true,
+      },
       'domain-easydns',
       'domain-profidns',
       'domain-expertdns',
@@ -5278,6 +5301,28 @@ const sidebars = {
           'domain-gameserver-srv-link',
           'domain-teamspeak-redirect',
         ],
+      },
+      {
+        type: 'html',
+        className: 'sidebar-title',
+        value: (() => {
+          switch (process.env.DOCUSAURUS_CURRENT_LOCALE) {
+            case "de": return "Externe Dienste";
+            case "es": return "Servicios externos";
+            case "fr": return "Services externes";
+            case "ar": return "الخدمات الخارجية";
+            case "pt": return "Serviços externos";
+            case "th": return "บริการภายนอก";
+            case "pl": return "Usługi zewnętrzne";
+            case "ja": return "外部サービス";
+            case "sv": return "Externa tjänster";
+            case "it": return "Servizi esterni";
+            case "nl": return "Externe diensten";
+            case "zh": return "外部服务";
+            default: return "External services";
+          }        
+        })(),
+        defaultStyle: true,
       },
       {
         type: "category",
@@ -5331,6 +5376,28 @@ const sidebars = {
     },
     'webspace-plesk-ssl',
     'webspace-htaccess-discord',
+    {
+      type: 'html',
+      className: 'sidebar-title',
+      value: (() => {
+        switch (process.env.DOCUSAURUS_CURRENT_LOCALE) {
+          case "de": return "Anwendungen";
+          case "es": return "Aplicaciones";
+          case "fr": return "Applications";
+          case "ar": return "التطبيقات";
+          case "pt": return "Aplicações";
+          case "th": return "แอปพลิเคชัน";
+          case "pl": return "Aplikacje";
+          case "ja": return "アプリケーション";
+          case "sv": return "Applikationer";
+          case "it": return "Applicazioni";
+          case "nl": return "Applicaties";
+          case "zh": return "应用程序";
+          default: return "Applications";
+        }
+      })(),
+      defaultStyle: true,
+    },    
     {
       type: "category",
       label: "MyBB",
