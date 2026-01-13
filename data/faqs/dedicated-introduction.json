@@ -1,4 +1,4 @@
-﻿[
+[
   {
     "title": {
       "en": "What happens if the server hardware fails?",
@@ -12,8 +12,7 @@
       "ja": "サーバーハードウェアが故障した場合、どのようなことが起こりますか？",
       "sv": "Vad händer om serverhårdvaran går sönder?",
       "it": "Cosa succede se l'hardware del server si guasta?",
-      "nl": "Wat gebeurt er als de serverhardware faalt?",
-      "zh": "如果服务器硬件故障，会发生什么？"
+      "nl": "Wat gebeurt er als de serverhardware faalt?"
     },
     "content": {
       "en": "In the event of hardware failure, we will replace the defective component at no cost.",
@@ -27,8 +26,7 @@
       "ja": "ハードウェアの故障が発生した場合、故障したコンポーネントを無償で交換いたします。",
       "sv": "Vid hårdvarufel kommer vi att ersätta den defekta komponenten utan kostnad.",
       "it": "In caso di guasto hardware, sostituiremo il componente difettoso senza alcun costo.",
-      "nl": "In het geval van hardwarestoringen zullen we de defecte component kosteloos vervangen.",
-      "zh": "在硬件故障的情况下，我们将免费更换有缺陷的组件。"
+      "nl": "In het geval van hardwarestoringen zullen we de defecte component kosteloos vervangen."
     }
   },
   {
@@ -44,8 +42,7 @@
       "ja": "ライフタイム専用サーバーとレンタル専用サーバーの違いはありますか？",
       "sv": "Finns det skillnader mellan livstids- och hyrda dedikerade servrar?",
       "it": "Ci sono differenze tra i Server Dedicati a Vita e i Server Dedicati in Affitto?",
-      "nl": "Zijn er verschillen tussen Lifetime en gehuurde Dedicated Servers?",
-      "zh": "终身专用服务器和租用专用服务器之间是否存在差异？"
+      "nl": "Zijn er verschillen tussen Lifetime en gehuurde Dedicated Servers?"
     },
     "content": {
       "en": "There are no technical differences. However, if a Lifetime Server remains inactive for an extended period (no access via the web interface), it may be stopped or blocked according to our terms.",
@@ -59,8 +56,7 @@
       "ja": "技術的な違いはありません。ただし、ライフタイムサーバーが長期間（ウェブインターフェース経由でのアクセスがない場合）非アクティブな状態が続くと、当社の規約に従って停止またはブロックされる可能性があります。",
       "sv": "Det finns inga tekniska skillnader. Om en Lifetime Server dock förblir inaktiv under en längre period (ingen åtkomst via webbgränssnittet), kan den stoppas eller blockeras enligt våra villkor.",
       "it": "Non ci sono differenze tecniche. Tuttavia, se un Server Lifetime rimane inattivo per un lungo periodo (senza accesso tramite l'interfaccia web), potrebbe essere fermato o bloccato secondo i nostri termini.",
-      "nl": "Er zijn geen technische verschillen. Echter, als een Lifetime Server gedurende een langere periode inactief blijft (geen toegang via de webinterface), kan deze worden gestopt of geblokkeerd volgens onze voorwaarden.",
-      "zh": "没有技术上的差异。然而，如果一个终身服务器长时间处于非活动状态（没有通过网页界面访问），则可能会根据我们的条款被停止或阻止。"
+      "nl": "Er zijn geen technische verschillen. Echter, als een Lifetime Server gedurende een langere periode inactief blijft (geen toegang via de webinterface), kan deze worden gestopt of geblokkeerd volgens onze voorwaarden."
     }
   },
   {
@@ -76,8 +72,7 @@
       "ja": "後でライフタイムサーバーに追加のIPアドレスを追加できますか？",
       "sv": "Kan jag lägga till fler IP-adresser till min Lifetime Server senare?",
       "it": "Posso aggiungere ulteriori indirizzi IP al mio Server Lifetime in seguito?",
-      "nl": "Kan ik later meer IP-adressen aan mijn Lifetime Server toevoegen?",
-      "zh": "我可以在以后为我的终身服务器添加更多IP地址吗？"
+      "nl": "Kan ik later meer IP-adressen aan mijn Lifetime Server toevoegen?"
     },
     "content": {
       "en": "Yes, you can add IP addresses later via the upgrade function, but downgrades are not possible.",
@@ -91,8 +86,7 @@
       "ja": "はい、アップグレード機能を使用して後でIPアドレスを追加することは可能ですが、ダウングレードはできません。",
       "sv": "Ja, du kan lägga till IP-adresser senare via uppgraderingsfunktionen, men nedgraderingar är inte möjliga.",
       "it": "Sì, puoi aggiungere indirizzi IP in seguito tramite la funzione di aggiornamento, ma i downgrade non sono possibili.",
-      "nl": "Ja, je kunt IP-adressen later toevoegen via de upgradefunctie, maar downgrades zijn niet mogelijk.",
-      "zh": "是的，您可以通过升级功能稍后添加 IP 地址，但无法降级。"
+      "nl": "Ja, je kunt IP-adressen later toevoegen via de upgradefunctie, maar downgrades zijn niet mogelijk."
     }
   },
   {
@@ -108,8 +102,7 @@
       "ja": "ライフタイムサーバーのハードウェア交換に料金は発生しますか？",
       "sv": "Måste jag betala för hårdvaruersättning på en Livstidsserver?",
       "it": "Devo pagare per la sostituzione dell'hardware su un Server a Vita?",
-      "nl": "Moet ik betalen voor hardwarevervanging op een Lifetime Server?",
-      "zh": "我需要为终身服务器的硬件更换付费吗？"
+      "nl": "Moet ik betalen voor hardwarevervanging op een Lifetime Server?"
     },
     "content": {
       "en": "No. Any defective hardware components will be replaced free of charge.",
@@ -123,8 +116,7 @@
       "ja": "いいえ。欠陥のあるハードウェアコンポーネントは、無償で交換されます。",
       "sv": "Nej. Eventuella defekta hårdvarukomponenter kommer att bytas ut kostnadsfritt.",
       "it": "No. Qualsiasi componente hardware difettoso sarà sostituito gratuitamente.",
-      "nl": "Nee. Defecte hardwarecomponenten worden kosteloos vervangen.",
-      "zh": "不。任何有缺陷的硬件组件将免费更换。"
+      "nl": "Nee. Defecte hardwarecomponenten worden kosteloos vervangen."
     }
   },
   {
@@ -140,8 +132,7 @@
       "ja": "カスタムサーバー構成を注文できますか？",
       "sv": "Kan jag beställa en anpassad serverkonfiguration?",
       "it": "Posso ordinare una configurazione server personalizzata?",
-      "nl": "Kan ik een aangepaste serverconfiguratie bestellen?",
-      "zh": "我可以订购自定义服务器配置吗？"
+      "nl": "Kan ik een aangepaste serverconfiguratie bestellen?"
     },
     "content": {
       "en": "If your desired configuration is not available, we can assemble it for you as a dedicated server for rental. Hardware upgrades for existing systems are currently not possible.",
@@ -155,8 +146,7 @@
       "ja": "ご希望の構成が利用できない場合は、専用サーバーとしてレンタル用に組み立てることができます。既存システムのハードウェアアップグレードは現在のところ不可能です。",
       "sv": "Om din önskade konfiguration inte är tillgänglig kan vi sätta ihop den åt dig som en dedikerad server för uthyrning. Hårdvaruuppgraderingar för befintliga system är för närvarande inte möjliga.",
       "it": "Se la configurazione desiderata non è disponibile, possiamo assemblarla per te come server dedicato in affitto. Gli aggiornamenti hardware per i sistemi esistenti attualmente non sono possibili.",
-      "nl": "Als uw gewenste configuratie niet beschikbaar is, kunnen we deze voor u samenstellen als een dedicated server voor verhuur. Hardware-upgrades voor bestaande systemen zijn momenteel niet mogelijk.",
-      "zh": "如果您所需的配置不可用，我们可以为您组装一个专用服务器进行租赁。当前无法对现有系统进行硬件升级。"
+      "nl": "Als uw gewenste configuratie niet beschikbaar is, kunnen we deze voor u samenstellen als een dedicated server voor verhuur. Hardware-upgrades voor bestaande systemen zijn momenteel niet mogelijk."
     }
   },
   {
@@ -172,8 +162,7 @@
       "ja": "専用サーバー用のフローティングIPは提供していますか？",
       "sv": "Erbjuder ni flytande IP-adresser för dedikerade servrar?",
       "it": "Offrite IP flottanti per i Server Dedicati?",
-      "nl": "Biedt u drijvende IP's aan voor Dedicated Servers?",
-      "zh": "您是否为专用服务器提供浮动IP？"
+      "nl": "Biedt u drijvende IP's aan voor Dedicated Servers?"
     },
     "content": {
       "en": "No, floating IPs are currently not available for dedicated server rentals.",
@@ -187,8 +176,7 @@
       "ja": "いいえ、現在、専用サーバーのレンタルにはフローティングIPは利用できません。",
       "sv": "Nej, flytande IP-adresser är för närvarande inte tillgängliga för uthyrning av dedikerade servrar.",
       "it": "No, gli IP flottanti attualmente non sono disponibili per il noleggio di server dedicati.",
-      "nl": "Nee, drijvende IP-adressen zijn momenteel niet beschikbaar voor de verhuur van dedicated servers.",
-      "zh": "不，目前专用服务器租赁不提供浮动IP。"
+      "nl": "Nee, drijvende IP-adressen zijn momenteel niet beschikbaar voor de verhuur van dedicated servers."
     }
   },
   {
@@ -204,8 +192,7 @@
       "ja": "後で専用サーバーをアップグレードできますか？",
       "sv": "Kan jag uppgradera min dedikerade server senare?",
       "it": "Posso aggiornare il mio server dedicato in seguito?",
-      "nl": "Kan ik mijn dedicated server later upgraden?",
-      "zh": "我可以稍后升级我的专用服务器吗？"
+      "nl": "Kan ik mijn dedicated server later upgraden?"
     },
     "content": {
       "en": "Upgrades of existing hardware are currently not possible. If the desired configuration is not available, we can build it for you as a rental.",
@@ -219,8 +206,7 @@
       "ja": "既存のハードウェアのアップグレードは現在不可能です。希望する構成が利用できない場合は、レンタルとして構築することができます。",
       "sv": "Uppgraderingar av befintlig hårdvara är för närvarande inte möjliga. Om den önskade konfigurationen inte är tillgänglig kan vi bygga den åt dig som en hyra.",
       "it": "Gli aggiornamenti dell'hardware esistente non sono attualmente possibili. Se la configurazione desiderata non è disponibile, possiamo costruirla per te come noleggio.",
-      "nl": "Upgrades van bestaande hardware zijn momenteel niet mogelijk. Als de gewenste configuratie niet beschikbaar is, kunnen we deze voor u bouwen als een huur.",
-      "zh": "现有硬件的升级目前不可行。如果所需的配置不可用，我们可以为您定制租赁。"
+      "nl": "Upgrades van bestaande hardware zijn momenteel niet mogelijk. Als de gewenste configuratie niet beschikbaar is, kunnen we deze voor u bouwen als een huur."
     }
   },
   {
@@ -236,8 +222,7 @@
       "ja": "専用サーバーのセットアップにはどれくらいの時間がかかりますか？",
       "sv": "Hur lång tid tar det att ställa in en dedikerad server?",
       "it": "Quanto tempo ci vuole per configurare un server dedicato?",
-      "nl": "Hoe lang duurt het om een dedicated server in te stellen?",
-      "zh": "设置专用服务器需要多长时间？"
+      "nl": "Hoe lang duurt het om een dedicated server in te stellen?"
     },
     "content": {
       "en": "If the server is in stock, it is usually ready within minutes. If it needs to be assembled, it may take up to 5 days.",
@@ -251,8 +236,7 @@
       "ja": "サーバーが在庫にある場合、通常は数分以内に準備が整います。組み立てが必要な場合は、最大で5日かかることがあります。",
       "sv": "Om servern finns i lager är den vanligtvis redo inom några minuter. Om den behöver monteras kan det ta upp till 5 dagar.",
       "it": "Se il server è disponibile, di solito è pronto entro pochi minuti. Se deve essere assemblato, potrebbe richiedere fino a 5 giorni.",
-      "nl": "Als de server op voorraad is, is deze meestal binnen enkele minuten klaar. Als deze geassembleerd moet worden, kan het tot 5 dagen duren.",
-      "zh": "如果服务器有现货，通常几分钟内就可以准备好。如果需要组装，可能需要最多5天。"
+      "nl": "Als de server op voorraad is, is deze meestal binnen enkele minuten klaar. Als deze geassembleerd moet worden, kan het tot 5 dagen duren."
     }
   },
   {
@@ -268,8 +252,7 @@
       "ja": "専用サーバーにはどれくらいのトラフィックが含まれていますか？",
       "sv": "Hur mycket trafik ingår med dedikerade servrar?",
       "it": "Quanta di traffico è inclusa con i server dedicati?",
-      "nl": "Hoeveel verkeer is inbegrepen bij dedicated servers?",
-      "zh": "专用服务器包含多少流量？"
+      "nl": "Hoeveel verkeer is inbegrepen bij dedicated servers?"
     },
     "content": {
       "en": "Dedicated servers include 5 TB of monthly traffic under fair use. Additional traffic resets cost €9.99.",
@@ -283,8 +266,7 @@
       "ja": "専用サーバーには、フェアユースの下で月間5TBのトラフィックが含まれています。追加のトラフィックリセットは€9.99の費用がかかります。",
       "sv": "Dedikerade servrar inkluderar 5 TB månatlig trafik under rimlig användning. Ytterligare trafikåterställningar kostar 9,99 €.",
       "it": "I server dedicati includono 5 TB di traffico mensile sotto uso equo. I costi per il ripristino del traffico aggiuntivo sono di €9,99.",
-      "nl": "Dedicated servers omvatten 5 TB maandelijk verkeer onder eerlijke gebruiksvoorwaarden. Extra verkeersresetkosten bedragen €9,99.",
-      "zh": "专用服务器每月包含 5 TB 的流量，遵循公平使用政策。额外流量重置费用为 €9.99。"
+      "nl": "Dedicated servers omvatten 5 TB maandelijk verkeer onder eerlijke gebruiksvoorwaarden. Extra verkeersresetkosten bedragen €9,99."
     }
   },
   {
@@ -300,8 +282,7 @@
       "ja": "サーバーに完全なアクセス権がありますか？また、サーバーを再販することはできますか？",
       "sv": "Har jag fullständig åtkomst och kan jag återförsälja min server?",
       "it": "Ho accesso completo e posso rivendere il mio server?",
-      "nl": "Heb ik volledige toegang en kan ik mijn server doorverkopen?",
-      "zh": "我是否拥有完全访问权限，并且可以转售我的服务器？"
+      "nl": "Heb ik volledige toegang en kan ik mijn server doorverkopen?"
     },
     "content": {
       "en": "You have access via the iLO interface to install your preferred OS. OS licenses must be purchased separately if needed. Account sharing is not allowed, but additional users can be added for management and commercial use such as reselling virtual servers is permitted.",
@@ -315,8 +296,7 @@
       "ja": "iLOインターフェースを介して、好みのOSをインストールすることができます。必要な場合、OSライセンスは別途購入する必要があります。アカウントの共有は許可されていませんが、管理や商業利用（例えば、仮想サーバーの再販など）のために追加のユーザーを追加することは許可されています。",
       "sv": "Du har tillgång via iLO-gränssnittet för att installera ditt föredragna operativsystem. Licenser för operativsystemet måste köpas separat om det behövs. Kontodelning är inte tillåten, men ytterligare användare kan läggas till för hantering och kommersiellt bruk, såsom att återförsälja virtuella servrar, vilket är tillåtet.",
       "it": "Hai accesso tramite l'interfaccia iLO per installare il tuo sistema operativo preferito. Le licenze del sistema operativo devono essere acquistate separatamente, se necessario. La condivisione dell'account non è consentita, ma è possibile aggiungere utenti aggiuntivi per la gestione e l'uso commerciale, come la rivendita di server virtuali.",
-      "nl": "U heeft toegang via de iLO-interface om uw voorkeur besturingssysteem (OS) te installeren. OS-licenties moeten indien nodig apart worden aangeschaft. Het delen van accounts is niet toegestaan, maar extra gebruikers kunnen worden toegevoegd voor beheer en commercieel gebruik, zoals het doorverkopen van virtuele servers, is toegestaan.",
-      "zh": "您可以通过 iLO 界面安装您首选的操作系统。如果需要，操作系统许可证必须单独购买。禁止账户共享，但可以添加额外用户以进行管理和商业用途，例如转售虚拟服务器是允许的。"
+      "nl": "U heeft toegang via de iLO-interface om uw voorkeur besturingssysteem (OS) te installeren. OS-licenties moeten indien nodig apart worden aangeschaft. Het delen van accounts is niet toegestaan, maar extra gebruikers kunnen worden toegevoegd voor beheer en commercieel gebruik, zoals het doorverkopen van virtuele servers, is toegestaan."
     }
   }
 ]

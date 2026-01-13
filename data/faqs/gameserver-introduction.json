@@ -1,4 +1,4 @@
-﻿[
+[
   {
     "title": {
       "en": "Why should I book a dedicated IPv4 address for my game server?",
@@ -12,8 +12,7 @@
       "ja": "ゲームサーバーのために専用のIPv4アドレスを予約する理由は何ですか？",
       "sv": "Varför bör jag boka en dedikerad IPv4-adress för min spelserver?",
       "it": "Perché dovrei prenotare un indirizzo IPv4 dedicato per il mio server di gioco?",
-      "nl": "Waarom zou ik een dedicated IPv4-adres voor mijn game server moeten reserveren?",
-      "zh": "为什么我应该为我的游戏服务器预订一个专用的IPv4地址？"
+      "nl": "Waarom zou ik een dedicated IPv4-adres voor mijn game server moeten reserveren?"
     },
     "content": {
       "en": "A dedicated IPv4 address allows you to use the default port, provides direct access to the DDoS manager, and can offer advantages during certain types of DDoS attacks.",
@@ -27,8 +26,7 @@
       "ja": "専用のIPv4アドレスを使用すると、デフォルトポートを利用でき、DDoSマネージャーへの直接アクセスが可能になり、特定の種類のDDoS攻撃において利点を提供することができます。",
       "sv": "En dedikerad IPv4-adress gör att du kan använda standardporten, ger direkt åtkomst till DDoS-hanteraren och kan erbjuda fördelar under vissa typer av DDoS-attacker.",
       "it": "Un indirizzo IPv4 dedicato ti consente di utilizzare la porta predefinita, fornisce accesso diretto al gestore DDoS e può offrire vantaggi durante determinati tipi di attacchi DDoS.",
-      "nl": "Een dedicated IPv4-adres stelt je in staat om de standaardpoort te gebruiken, biedt directe toegang tot de DDoS-manager en kan voordelen bieden tijdens bepaalde soorten DDoS-aanvallen.",
-      "zh": "专用IPv4地址允许您使用默认端口，提供对DDoS管理器的直接访问，并且在某些类型的DDoS攻击中可以提供优势。"
+      "nl": "Een dedicated IPv4-adres stelt je in staat om de standaardpoort te gebruiken, biedt directe toegang tot de DDoS-manager en kan voordelen bieden tijdens bepaalde soorten DDoS-aanvallen."
     }
   },
   {
@@ -44,8 +42,7 @@
       "ja": "異なるサーバーの場所を選択すると、私のピングに影響しますか？",
       "sv": "Kommer valet av en annan serverplats att påverka min ping?",
       "it": "La scelta di una posizione del server diversa influenzerà il mio ping?",
-      "nl": "Zal het kiezen van een andere serverlocatie mijn ping beïnvloeden?",
-      "zh": "选择不同的服务器位置会影响我的延迟吗？"
+      "nl": "Zal het kiezen van een andere serverlocatie mijn ping beïnvloeden?"
     },
     "content": {
       "en": "Use the Ping Check tool to see your connection latency to each server location. This helps you choose the best location for minimal ping.",
@@ -59,8 +56,7 @@
       "ja": "Pingチェックツールを使用して、各サーバーロケーションへの接続遅延を確認してください。これにより、最小のピングのために最適なロケーションを選択するのに役立ちます。",
       "sv": "Använd Ping Check-verktyget för att se din anslutningslatens till varje serverplats. Detta hjälper dig att välja den bästa platsen för minimal ping.",
       "it": "Utilizza lo strumento di Ping Check per verificare la latenza della tua connessione verso ciascuna posizione del server. Questo ti aiuta a scegliere la posizione migliore per una latenza minima.",
-      "nl": "Gebruik de Ping Check-tool om de latentie van je verbinding naar elke serverlocatie te bekijken. Dit helpt je de beste locatie te kiezen voor minimale ping.",
-      "zh": "使用 Ping 检查工具查看您与每个服务器位置的连接延迟。这可以帮助您选择最佳位置以实现最小的延迟。"
+      "nl": "Gebruik de Ping Check-tool om de latentie van je verbinding naar elke serverlocatie te bekijken. Dit helpt je de beste locatie te kiezen voor minimale ping."
     }
   },
   {
@@ -76,8 +72,7 @@
       "ja": "私のサーバーにはすべてのGTA 5モッドが含まれていますか？",
       "sv": "Ingår alla GTA 5-mods i min server?",
       "it": "Il mio server include tutti i mod di GTA 5?",
-      "nl": "Bevat mijn server alle GTA 5-mods?",
-      "zh": "我的服务器包含所有GTA 5模组吗？"
+      "nl": "Bevat mijn server alle GTA 5-mods?"
     },
     "content": {
       "en": "No, but you can upload compatible mods via FTP, ensuring they match the platform you use (FiveM, RageMP, Alt:V).",
@@ -91,8 +86,7 @@
       "ja": "いいえ、しかし、FTPを介して互換性のあるモッドをアップロードすることができます。これらのモッドは、使用しているプラットフォーム（FiveM、RageMP、Alt:V）に一致していることを確認してください。",
       "sv": "Nej, men du kan ladda upp kompatibla mods via FTP, och se till att de matchar plattformen du använder (FiveM, RageMP, Alt:V).",
       "it": "No, ma puoi caricare mod compatibili tramite FTP, assicurandoti che corrispondano alla piattaforma che utilizzi (FiveM, RageMP, Alt:V).",
-      "nl": "Nee, maar je kunt compatibele mods uploaden via FTP, waarbij je ervoor zorgt dat ze overeenkomen met het platform dat je gebruikt (FiveM, RageMP, Alt:V).",
-      "zh": "不，但您可以通过FTP上传兼容的mod，确保它们与您使用的平台（FiveM、RageMP、Alt:V）匹配。"
+      "nl": "Nee, maar je kunt compatibele mods uploaden via FTP, waarbij je ervoor zorgt dat ze overeenkomen met het platform dat je gebruikt (FiveM, RageMP, Alt:V)."
     }
   },
   {
@@ -108,8 +102,7 @@
       "ja": "ゲームサーバーのセットアップはどれくらい迅速に行われますか？",
       "sv": "Hur snabbt sätts min spelserver upp?",
       "it": "Quanto velocemente viene configurato il mio server di gioco?",
-      "nl": "Hoe snel wordt mijn game server opgezet?",
-      "zh": "我的游戏服务器设置得多快？"
+      "nl": "Hoe snel wordt mijn game server opgezet?"
     },
     "content": {
       "en": "Most servers are ready within minutes of ordering.",
@@ -123,8 +116,7 @@
       "ja": "ほとんどのサーバーは、注文から数分以内に準備が整います。",
       "sv": "De flesta servrar är klara inom några minuter efter beställning.",
       "it": "La maggior parte dei server è pronta entro pochi minuti dall'ordine.",
-      "nl": "De meeste servers zijn binnen enkele minuten na bestelling klaar.",
-      "zh": "大多数服务器在下单后几分钟内即可准备好。"
+      "nl": "De meeste servers zijn binnen enkele minuten na bestelling klaar."
     }
   },
   {
@@ -140,8 +132,7 @@
       "ja": "あなたのDDoS保護はどれほど効果的ですか？",
       "sv": "Hur effektiv är er DDoS-skydd?",
       "it": "Quanto è efficace la vostra protezione DDoS?",
-      "nl": "Hoe effectief is uw DDoS-bescherming?",
-      "zh": "您的DDoS保护效果如何？"
+      "nl": "Hoe effectief is uw DDoS-bescherming?"
     },
     "content": {
       "en": "All servers at our Eygelshoven location use advanced DDoS protection from PletX. You can see a live demonstration here: https://www.twitch.tv/videos/2509694036",
@@ -155,8 +146,7 @@
       "ja": "私たちのエイゲルスホーフェンのロケーションにあるすべてのサーバーは、PletXによる高度なDDoS保護を使用しています。こちらでライブデモをご覧いただけます: https://www.twitch.tv/videos/2509694036",
       "sv": "Alla servrar på vår plats i Eygelshoven använder avancerat DDoS-skydd från PletX. Du kan se en live-demonstration här: https://www.twitch.tv/videos/2509694036",
       "it": "Tutti i server presso la nostra sede di Eygelshoven utilizzano una protezione avanzata DDoS fornita da PletX. Puoi vedere una dimostrazione dal vivo qui: https://www.twitch.tv/videos/2509694036",
-      "nl": "Alle servers op onze locatie in Eygelshoven maken gebruik van geavanceerde DDoS-bescherming van PletX. Je kunt hier een live demonstratie bekijken: https://www.twitch.tv/videos/2509694036",
-      "zh": "我们Eygelshoven地点的所有服务器都使用PletX的高级DDoS保护。您可以在这里查看实时演示：https://www.twitch.tv/videos/2509694036"
+      "nl": "Alle servers op onze locatie in Eygelshoven maken gebruik van geavanceerde DDoS-bescherming van PletX. Je kunt hier een live demonstratie bekijken: https://www.twitch.tv/videos/2509694036"
     }
   },
   {
@@ -172,8 +162,7 @@
       "ja": "Foundry VTTをサポートしていますか？",
       "sv": "Stöder ni Foundry VTT?",
       "it": "Supportate Foundry VTT?",
-      "nl": "Ondersteunen jullie Foundry VTT?",
-      "zh": "您支持 Foundry VTT 吗？"
+      "nl": "Ondersteunen jullie Foundry VTT?"
     },
     "content": {
       "en": "We currently only offer Foundry via Steam as a pre-installed game server. Foundry VTT can be installed on VPS, root, or dedicated servers.",
@@ -187,8 +176,7 @@
       "ja": "現在、FoundryはSteamを通じてプリインストールされたゲームサーバーとしてのみ提供しています。Foundry VTTは、VPS、ルートサーバー、または専用サーバーにインストールすることができます。",
       "sv": "Vi erbjuder för närvarande endast Foundry via Steam som en förinstallerad spelserver. Foundry VTT kan installeras på VPS, root- eller dedikerade servrar.",
       "it": "Attualmente offriamo Foundry solo tramite Steam come server di gioco preinstallato. Foundry VTT può essere installato su VPS, server root o server dedicati.",
-      "nl": "We bieden momenteel alleen Foundry aan via Steam als een voorgeïnstalleerde game server. Foundry VTT kan worden geïnstalleerd op VPS, root- of dedicated servers.",
-      "zh": "我们目前仅通过Steam提供预装的Foundry游戏服务器。Foundry VTT可以安装在VPS、root或专用服务器上。"
+      "nl": "We bieden momenteel alleen Foundry aan via Steam als een voorgeïnstalleerde game server. Foundry VTT kan worden geïnstalleerd op VPS, root- of dedicated servers."
     }
   },
   {
@@ -204,8 +192,7 @@
       "ja": "Insurgencyにはどのオペレーティングシステムを使用していますか？",
       "sv": "Vilket operativsystem använder du för Insurgency?",
       "it": "Quale sistema operativo utilizzi per Insurgency?",
-      "nl": "Welk besturingssysteem gebruik je voor Insurgency?",
-      "zh": "您使用哪个操作系统来运行《叛乱》？"
+      "nl": "Welk besturingssysteem gebruik je voor Insurgency?"
     },
     "content": {
       "en": "Insurgency runs on Linux. Insurgency: Sandstorm runs on Windows.",
@@ -219,8 +206,7 @@
       "ja": "InsurgencyはLinuxで動作します。Insurgency: SandstormはWindowsで動作します。",
       "sv": "Insurgency körs på Linux. Insurgency: Sandstorm körs på Windows.",
       "it": "Insurgency funziona su Linux. Insurgency: Sandstorm funziona su Windows.",
-      "nl": "Insurgency draait op Linux. Insurgency: Sandstorm draait op Windows.",
-      "zh": "叛乱运行在Linux上。叛乱：沙暴运行在Windows上。"
+      "nl": "Insurgency draait op Linux. Insurgency: Sandstorm draait op Windows."
     }
   },
   {
@@ -236,8 +222,7 @@
       "ja": "推奨されるプレミアムサーバーの代わりに標準サーバーを選択した場合、いくつかの影響があります。標準サーバーは、パフォーマンスやリソースの面で制限があるため、特に高負荷のアプリケーションやサービスを運用する際に、応答速度や処理能力が低下する可能性があります。また、標準サーバーでは、VPSやDedicated Serverに比べてカスタマイズの自由度が制限されることがあります。\n\nさらに、APIの呼び出しやFTPの転送速度が遅くなることも考えられます。Dockerコンテナの管理やSpigotサーバーの運用においても、プレミアムサーバーの方がより安定した環境を提供するため、パフォーマンスの向上が期待できます。ZAP Coinsの利用に関しても、標準サーバーでは制限がある場合があります。\n\n総じて、標準サーバーを選択することで、コストを抑えることはできますが、パフォーマンスや機能において妥協が必要になることを理解しておくことが重要です。",
       "sv": "Vad händer om jag väljer en standardserver istället för den rekommenderade premiumservern?",
       "it": "Cosa succede se scelgo un server standard invece di quello premium raccomandato?",
-      "nl": "Wat gebeurt er als ik een standaardserver kies in plaats van de aanbevolen premiumserver?",
-      "zh": "如果我选择标准服务器而不是推荐的高级服务器，会发生什么？"
+      "nl": "Wat gebeurt er als ik een standaardserver kies in plaats van de aanbevolen premiumserver?"
     },
     "content": {
       "en": "Performance may be lower, depending on the game. If a premium server or higher RAM is recommended, using less may cause lag.",
@@ -251,8 +236,7 @@
       "ja": "ゲームによってはパフォーマンスが低下する場合があります。プレミアムサーバーやより高いRAMが推奨される場合、少ないリソースを使用するとラグが発生する可能性があります。",
       "sv": "Prestandan kan vara lägre, beroende på spelet. Om en premiumserver eller högre RAM rekommenderas kan användning av mindre orsaka lagg.",
       "it": "Le prestazioni possono essere inferiori, a seconda del gioco. Se si consiglia un server premium o una RAM superiore, utilizzare meno potrebbe causare lag.",
-      "nl": "De prestaties kunnen lager zijn, afhankelijk van het spel. Als een premium server of meer RAM wordt aanbevolen, kan het gebruik van minder leiden tot lag.",
-      "zh": "性能可能会较低，具体取决于游戏。如果推荐使用高级服务器或更高的RAM，使用较少可能会导致延迟。"
+      "nl": "De prestaties kunnen lager zijn, afhankelijk van het spel. Als een premium server of meer RAM wordt aanbevolen, kan het gebruik van minder leiden tot lag."
     }
   },
   {
@@ -268,8 +252,7 @@
       "ja": "FjordurマップはARK: Survival Evolvedで利用可能ですか？",
       "sv": "Är Fjordur-kartan tillgänglig för ARK: Survival Evolved?",
       "it": "La mappa Fjordur è disponibile per ARK: Survival Evolved?",
-      "nl": "Is de Fjordur-kaart beschikbaar voor ARK: Survival Evolved?",
-      "zh": "Fjordur地图是否可用于ARK: Survival Evolved？"
+      "nl": "Is de Fjordur-kaart beschikbaar voor ARK: Survival Evolved?"
     },
     "content": {
       "en": "Yes, it is available and can be selected under 'Settings' in the web interface.",
@@ -283,8 +266,7 @@
       "ja": "はい、それは利用可能であり、ウェブインターフェースの「設定」から選択できます。",
       "sv": "Ja, det är tillgängligt och kan väljas under 'Inställningar' i webbgränssnittet.",
       "it": "Sì, è disponibile e può essere selezionato sotto 'Impostazioni' nell'interfaccia web.",
-      "nl": "Ja, het is beschikbaar en kan worden geselecteerd onder 'Instellingen' in de webinterface.",
-      "zh": "是的，它可以在网页界面的“设置”中选择。"
+      "nl": "Ja, het is beschikbaar en kan worden geselecteerd onder 'Instellingen' in de webinterface."
     }
   },
   {
@@ -300,8 +282,7 @@
       "ja": "FiveMサーバーにはどれくらいのストレージが利用可能ですか？",
       "sv": "Hur mycket lagring finns tillgänglig för FiveM-servrar?",
       "it": "Quanto spazio di archiviazione è disponibile per i server FiveM?",
-      "nl": "Hoeveel opslagruimte is er beschikbaar voor FiveM-servers?",
-      "zh": "FiveM 服务器可用的存储空间是多少？"
+      "nl": "Hoeveel opslagruimte is er beschikbaar voor FiveM-servers?"
     },
     "content": {
       "en": "Each game server has a soft limit of 50 GB. You will receive a warning when exceeding this and have 3 days to reduce usage.",
@@ -315,8 +296,7 @@
       "ja": "各ゲームサーバーには、ソフトリミットとして50 GBがあります。この制限を超えると警告が表示され、使用量を減らすための猶予が3日間与えられます。",
       "sv": "Varje spelserver har en mjuk gräns på 50 GB. Du kommer att få en varning när du överskrider detta och har 3 dagar på dig att minska användningen.",
       "it": "Ogni server di gioco ha un limite soft di 50 GB. Riceverai un avviso quando superi questo limite e avrai 3 giorni per ridurre l'utilizzo.",
-      "nl": "Elke game server heeft een zachte limiet van 50 GB. U ontvangt een waarschuwing wanneer u deze limiet overschrijdt en heeft 3 dagen de tijd om het gebruik te verminderen.",
-      "zh": "每个游戏服务器的软限制为50 GB。当超过此限制时，您将收到警告，并有3天的时间来减少使用量。"
+      "nl": "Elke game server heeft een zachte limiet van 50 GB. U ontvangt een waarschuwing wanneer u deze limiet overschrijdt en heeft 3 dagen de tijd om het gebruik te verminderen."
     }
   },
   {
@@ -332,8 +312,7 @@
       "ja": "Team Fortress Classicサーバーは提供していますか？",
       "sv": "Erbjuder ni Team Fortress Classic-servrar?",
       "it": "Offrite server per Team Fortress Classic?",
-      "nl": "Biedt u Team Fortress Classic-servers aan?",
-      "zh": "您提供 Team Fortress Classic 服务器吗？"
+      "nl": "Biedt u Team Fortress Classic-servers aan?"
     },
     "content": {
       "en": "Currently, it's not available, but you can suggest it here: https://zap-hosting.com/guides/docs/en/suggestions/",
@@ -347,8 +326,7 @@
       "ja": "現在は利用できませんが、こちらで提案することができます: https://zap-hosting.com/guides/docs/en/suggestions/",
       "sv": "För närvarande är det inte tillgängligt, men du kan föreslå det här: https://zap-hosting.com/guides/docs/sv/suggestions/",
       "it": "Attualmente, non è disponibile, ma puoi suggerirlo qui: https://zap-hosting.com/guides/docs/en/suggestions/",
-      "nl": "Momenteel is het niet beschikbaar, maar je kunt het hier voorstellen: https://zap-hosting.com/guides/docs/nl/suggestions/",
-      "zh": "目前，它不可用，但您可以在这里提出建议： https://zap-hosting.com/guides/docs/en/suggestions/"
+      "nl": "Momenteel is het niet beschikbaar, maar je kunt het hier voorstellen: https://zap-hosting.com/guides/docs/nl/suggestions/"
     }
   },
   {
@@ -364,8 +342,7 @@
       "ja": "PC上でサーバーを設定する必要がありますか？",
       "sv": "Behöver jag konfigurera min server på min PC?",
       "it": "Devo configurare il mio server sul mio PC?",
-      "nl": "Moet ik mijn server op mijn pc configureren?",
-      "zh": "我需要在我的电脑上配置服务器吗？"
+      "nl": "Moet ik mijn server op mijn pc configureren?"
     },
     "content": {
       "en": "No. All settings are managed via our web interface. We do not offer servers for PS4.",
@@ -379,8 +356,7 @@
       "ja": "いいえ。すべての設定は当社のウェブインターフェースを通じて管理されます。PS4用のサーバーは提供しておりません。",
       "sv": "Nej. Alla inställningar hanteras via vårt webbgränssnitt. Vi erbjuder inte servrar för PS4.",
       "it": "No. Tutte le impostazioni sono gestite tramite la nostra interfaccia web. Non offriamo server per PS4.",
-      "nl": "Nee. Alle instellingen worden beheerd via onze webinterface. We bieden geen servers voor PS4 aan.",
-      "zh": "不。所有设置都通过我们的网页界面进行管理。我们不提供 PS4 的服务器。"
+      "nl": "Nee. Alle instellingen worden beheerd via onze webinterface. We bieden geen servers voor PS4 aan."
     }
   },
   {
@@ -396,8 +372,7 @@
       "ja": "ARKのWindowsプラグインはXboxと互換性がありますか？",
       "sv": "Är Windows-pluginet för ARK kompatibelt med Xbox?",
       "it": "Il plugin per Windows di ARK è compatibile con Xbox?",
-      "nl": "Is de Windows-plugin voor ARK compatibel met Xbox?",
-      "zh": "Windows插件是否与Xbox兼容？"
+      "nl": "Is de Windows-plugin voor ARK compatibel met Xbox?"
     },
     "content": {
       "en": "No. The Windows servers are for the Steam version and are not compatible with Xbox.",
@@ -411,8 +386,7 @@
       "ja": "いいえ。WindowsサーバーはSteam版用であり、Xboxとは互換性がありません。",
       "sv": "Nej. Windows-servrarna är för Steam-versionen och är inte kompatibla med Xbox.",
       "it": "No. I server Windows sono per la versione Steam e non sono compatibili con Xbox.",
-      "nl": "Nee. De Windows-servers zijn voor de Steam-versie en zijn niet compatibel met Xbox.",
-      "zh": "不。Windows 服务器是为 Steam 版本而设，不兼容 Xbox。"
+      "nl": "Nee. De Windows-servers zijn voor de Steam-versie en zijn niet compatibel met Xbox."
     }
   },
   {
@@ -428,8 +402,7 @@
       "ja": "Minecraftサーバーのアドレスはどこで見つけることができますか？",
       "sv": "Var kan jag hitta min Minecraft-serveradress?",
       "it": "Dove posso trovare l'indirizzo del mio server Minecraft?",
-      "nl": "Waar kan ik mijn Minecraft serveradres vinden?",
-      "zh": "我在哪里可以找到我的Minecraft服务器地址？"
+      "nl": "Waar kan ik mijn Minecraft serveradres vinden?"
     },
     "content": {
       "en": "The IP address and port are displayed in your server's web interface.",
@@ -443,8 +416,7 @@
       "ja": "IPアドレスとポートは、サーバーのウェブインターフェースに表示されます。",
       "sv": "IP-adressen och porten visas i din servers webbgränssnitt.",
       "it": "L'indirizzo IP e la porta sono visualizzati nell'interfaccia web del tuo server.",
-      "nl": "Het IP-adres en de poort worden weergegeven in de webinterface van uw server.",
-      "zh": "IP 地址和端口在您服务器的网页界面中显示。"
+      "nl": "Het IP-adres en de poort worden weergegeven in de webinterface van uw server."
     }
   },
   {
@@ -460,8 +432,7 @@
       "ja": "購入したサーバーにMinecraftのセーブデータを転送できますか？",
       "sv": "Kan jag överföra min Minecraft-sparfil till en köpt server?",
       "it": "Posso trasferire il mio salvataggio di Minecraft a un server acquistato?",
-      "nl": "Kan ik mijn Minecraft-save overzetten naar een aangeschafte server?",
-      "zh": "我可以将我的Minecraft存档转移到购买的服务器上吗？"
+      "nl": "Kan ik mijn Minecraft-save overzetten naar een aangeschafte server?"
     },
     "content": {
       "en": "Yes, via FTP or our backup function.",
@@ -475,8 +446,7 @@
       "ja": "はい、FTPまたは当社のバックアップ機能を使用して行えます。",
       "sv": "Ja, via FTP eller vår backup-funktion.",
       "it": "Sì, tramite FTP o la nostra funzione di backup.",
-      "nl": "Ja, via FTP of onze back-upfunctie.",
-      "zh": "是的，通过FTP或我们的备份功能。"
+      "nl": "Ja, via FTP of onze back-upfunctie."
     }
   },
   {
@@ -492,8 +462,7 @@
       "ja": "なぜ私のFiveMサーバーのセットアップに時間がかかったのですか？",
       "sv": "Varför tog min FiveM-serverinstallation längre tid?",
       "it": "Perché la mia configurazione del server FiveM ha impiegato più tempo?",
-      "nl": "Waarom heeft mijn FiveM-serveropstelling langer geduurd?",
-      "zh": "为什么我的FiveM服务器设置花了更长时间？"
+      "nl": "Waarom heeft mijn FiveM-serveropstelling langer geduurd?"
     },
     "content": {
       "en": "Usually setup takes under a minute, but in rare cases it may take longer to ensure performance.",
@@ -507,8 +476,7 @@
       "ja": "通常、セットアップは1分以内で完了しますが、パフォーマンスを確保するために稀に長くかかることがあります。",
       "sv": "Vanligtvis tar installationen under en minut, men i sällsynta fall kan det ta längre tid för att säkerställa prestanda.",
       "it": "Di solito, la configurazione richiede meno di un minuto, ma in rari casi potrebbe richiedere più tempo per garantire le prestazioni.",
-      "nl": "De setup duurt meestal minder dan een minuut, maar in zeldzame gevallen kan het langer duren om de prestaties te waarborgen.",
-      "zh": "通常设置在一分钟内完成，但在少数情况下，为了确保性能，可能需要更长时间。"
+      "nl": "De setup duurt meestal minder dan een minuut, maar in zeldzame gevallen kan het langer duren om de prestaties te waarborgen."
     }
   },
   {
@@ -524,8 +492,7 @@
       "ja": "FiveMのモッドをインストールしてもらえますか？",
       "sv": "Installerar du FiveM-mods åt mig?",
       "it": "Installi mod di FiveM per me?",
-      "nl": "Installeert u FiveM-mods voor mij?",
-      "zh": "你能为我安装FiveM模组吗？"
+      "nl": "Installeert u FiveM-mods voor mij?"
     },
     "content": {
       "en": "We offer one-click installation for popular mods, but do not manually install custom ones.",
@@ -539,8 +506,7 @@
       "ja": "人気のあるモッドについてはワンクリックインストールを提供していますが、カスタムモッドの手動インストールは行っていません。",
       "sv": "Vi erbjuder installation med ett klick för populära moddar, men installerar inte manuellt anpassade moddar.",
       "it": "Offriamo un'installazione con un clic per i mod popolari, ma non installiamo manualmente quelli personalizzati.",
-      "nl": "We bieden een installatie met één klik voor populaire mods, maar installeren geen aangepaste mods handmatig.",
-      "zh": "我们提供热门模组的一键安装，但不手动安装自定义模组。"
+      "nl": "We bieden een installatie met één klik voor populaire mods, maar installeren geen aangepaste mods handmatig."
     }
   },
   {
@@ -556,8 +522,7 @@
       "ja": "FiveMサーバーにはどれくらいのRAMが含まれていますか？",
       "sv": "Hur mycket RAM ingår för FiveM-servrar?",
       "it": "Quanta RAM è inclusa per i server FiveM?",
-      "nl": "Hoeveel RAM is inbegrepen voor FiveM-servers?",
-      "zh": "FiveM 服务器包含多少 RAM？"
+      "nl": "Hoeveel RAM is inbegrepen voor FiveM-servers?"
     },
     "content": {
       "en": "It depends on the number of slots. RAM details are shown in the shop.",
@@ -571,8 +536,7 @@
       "ja": "スロットの数によります。RAMの詳細はショップに表示されています。",
       "sv": "Det beror på antalet platser. RAM-detaljer visas i butiken.",
       "it": "Dipende dal numero di slot. I dettagli della RAM sono mostrati nel negozio.",
-      "nl": "Het hangt af van het aantal slots. RAM-gegevens worden weergegeven in de winkel.",
-      "zh": "这取决于插槽的数量。RAM 详情在商店中显示。"
+      "nl": "Het hangt af van het aantal slots. RAM-gegevens worden weergegeven in de winkel."
     }
   },
   {
@@ -588,8 +552,7 @@
       "ja": "サーバーのセットアップが遅れた場合はどうなりますか？",
       "sv": "Vad händer om min serverinstallation blir försenad?",
       "it": "Cosa succede se la configurazione del mio server è in ritardo?",
-      "nl": "Wat als de opzet van mijn server vertraging oploopt?",
-      "zh": "如果我的服务器设置延迟怎么办？"
+      "nl": "Wat als de opzet van mijn server vertraging oploopt?"
     },
     "content": {
       "en": "In rare cases it may take a few minutes longer. You will be notified by email once setup is complete.",
@@ -603,8 +566,7 @@
       "ja": "稀に、数分長くかかることがあります。セットアップが完了すると、メールで通知されます。",
       "sv": "I sällsynta fall kan det ta några minuter längre. Du kommer att meddelas via e-post när installationen är klar.",
       "it": "In rari casi, potrebbe richiedere qualche minuto in più. Sarai notificato via email una volta completata la configurazione.",
-      "nl": "In zeldzame gevallen kan het enkele minuten langer duren. U ontvangt een e-mail zodra de installatie is voltooid.",
-      "zh": "在少数情况下，可能需要多花几分钟。设置完成后，您将通过电子邮件收到通知。"
+      "nl": "In zeldzame gevallen kan het enkele minuten langer duren. U ontvangt een e-mail zodra de installatie is voltooid."
     }
   },
   {
@@ -620,8 +582,7 @@
       "ja": "新しいMinecraftのモッドパックをリクエストできますか？",
       "sv": "Kan jag begära nya Minecraft-modpaket?",
       "it": "Posso richiedere nuovi modpack per Minecraft?",
-      "nl": "Kan ik nieuwe Minecraft modpacks aanvragen?",
-      "zh": "我可以请求新的Minecraft模组包吗？"
+      "nl": "Kan ik nieuwe Minecraft modpacks aanvragen?"
     },
     "content": {
       "en": "Yes, via https://zap-hosting.com/en/suggestion/ under 'Game request'.",
@@ -635,8 +596,7 @@
       "ja": "はい、https://zap-hosting.com/en/suggestion/ の「ゲームリクエスト」から可能です。",
       "sv": "Ja, via https://zap-hosting.com/sv/forslag/ under 'Spelförfrågan'.",
       "it": "Sì, tramite https://zap-hosting.com/en/suggestion/ sotto 'Richiesta di gioco'.",
-      "nl": "Ja, via https://zap-hosting.com/nl/suggestion/ onder 'Game aanvraag'.",
-      "zh": "是的，通过 https://zap-hosting.com/en/suggestion/ 在“游戏请求”下。"
+      "nl": "Ja, via https://zap-hosting.com/nl/suggestion/ onder 'Game aanvraag'."
     }
   }
 ]
