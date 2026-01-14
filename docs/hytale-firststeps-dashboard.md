@@ -18,11 +18,9 @@ After going through this guide, you will easily be able to manage your server ef
 
 
 
-:::info 
+:::info Early Access Notice
 
-Hytale is scheduled to release on January 13th, 2026. Since official server files, modding tools, and installation workflows may still change in the early post launch phase, parts of this guide might become outdated. 
-
-The page  will be updated as soon as confirmed and stable information about mod support, file formats and setup requirements is available
+Hytale released on January 13th, 2026 and is currently available in Early Access. As the game is still in an active development phase, server software, configuration files, modding support, and installation workflows may continue to change over time.
 
 :::
 

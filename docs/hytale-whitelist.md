@@ -13,6 +13,12 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 ## Introduction
 The whitelist is a security and access control feature that allows you to limit who can join your Hytale server. When enabled, only players that are explicitly listed on the whitelist are permitted to connect. This is especially useful for private servers, community servers, development environments, or testing phases where access should be restricted to trusted players only.
 
+:::info Early Access Notice
+
+Hytale released on January 13th, 2026 and is currently available in Early Access. As the game is still in an active development phase, server software, configuration files, modding support, and installation workflows may continue to change over time.
+
+:::
+
 ![img](https://screensaver01.zap-hosting.com/index.php/s/mMjZWsYdmbnwQkQ/preview)
 
 

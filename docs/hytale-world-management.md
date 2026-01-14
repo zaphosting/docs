@@ -14,7 +14,11 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 World management on a Hytale server involves controlling the persistent game environment in which players explore, build, and interact. A world consists of all terrain data, structures, player progress, and settings that define the shared experience.  Being able to create, rename, reset, or organize worlds is a core part of maintaining a server for both private and public communities.
 
+:::info Early Access Notice
 
+Hytale released on January 13th, 2026 and is currently available in Early Access. As the game is still in an active development phase, server software, configuration files, modding support, and installation workflows may continue to change over time.
+
+:::
 
 ## New world creation
 

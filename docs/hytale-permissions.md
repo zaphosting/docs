@@ -17,6 +17,12 @@ Managing permissions on a Hytale server allows you to control what players can a
 
 Hytale’s server software supports hierarchical permission levels that determine which commands and actions each player can execute.  These can be managed via the live console or through configuration settings depending on your server setup.
 
+:::info Early Access Notice
+
+Hytale released on January 13th, 2026 and is currently available in Early Access. As the game is still in an active development phase, server software, configuration files, modding support, and installation workflows may continue to change over time.
+
+:::
+
 <InlineVoucher />
 
 

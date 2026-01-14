@@ -14,6 +14,12 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Hytale servers allow you to configure gameplay settings such as the game mode that defines the player experience.  Changing the game mode lets you tailor your server to a specific playstyle or community preference.
 
+:::info Early Access Notice
+
+Hytale released on January 13th, 2026 and is currently available in Early Access. As the game is still in an active development phase, server software, configuration files, modding support, and installation workflows may continue to change over time.
+
+:::
+
 ![img](https://screensaver01.zap-hosting.com/index.php/s/KsesqALHY3AgKHF/preview)
 
 

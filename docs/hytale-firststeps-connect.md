@@ -15,12 +15,11 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 ## Introduction
 Not sure how to connect to your **Hytale** server or what you need to get started? No worries, we’ve got you covered! We will walk you through everything you need. From the required tools and information to the actual connection process, along with key considerations to ensure a smooth and trouble-free connection experience. Follow our guide and you'll be connected in no time!
 
-:::info 
-Hytale is scheduled to release on January 13th, 2026. Since official server files, modding tools, and installation workflows may still change in the early post launch phase, parts of this guide might become outdated. 
+:::info Early Access Notice
 
-The page  will be updated as soon as confirmed and stable information about mod support, file formats and setup requirements is available
+Hytale released on January 13th, 2026 and is currently available in Early Access. As the game is still in an active development phase, server software, configuration files, modding support, and installation workflows may continue to change over time.
+
 :::
-
 <InlineVoucher />
 
 

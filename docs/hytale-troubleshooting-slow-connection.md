@@ -16,6 +16,12 @@ These problems are often assumed to be server-related at first glance. However, 
 
 In many cases, the server itself is running correctly, while the client struggles to properly establish or maintain the connection required to receive world data. Understanding this distinction is important before attempting further troubleshooting.
 
+:::info Early Access Notice
+
+Hytale released on January 13th, 2026 and is currently available in Early Access. As the game is still in an active development phase, server software, configuration files, modding support, and installation workflows may continue to change over time.
+
+:::
+
 <InlineVoucher />
 
 ## Symptoms

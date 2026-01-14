@@ -12,6 +12,12 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 ## Introduction
 Assigning admin permissions on a Hytale server allows trusted players to help manage the server. Admins, also referred to as operators, can execute server commands, manage players, and assist with server moderation.  This makes delegation of routine tasks easier for server owners and helps maintain a smooth gameplay experience.
 
+:::info Early Access Notice
+
+Hytale released on January 13th, 2026 and is currently available in Early Access. As the game is still in an active development phase, server software, configuration files, modding support, and installation workflows may continue to change over time.
+
+:::
+
 ![img](https://screensaver01.zap-hosting.com/index.php/s/2NnFBkPdsDoBYZj/preview)
 
 <InlineVoucher />
