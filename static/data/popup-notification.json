@@ -1,5 +1,7 @@
 [
   {
+    "id": "hytale-order",
+    "label": "Hytale Relase Promotion",
     "enabled": true,
     "documentIds": [
       "*"
