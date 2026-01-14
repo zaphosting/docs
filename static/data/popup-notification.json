@@ -4,21 +4,88 @@
     "label": "Hytale Pre-Order Promotion",
     "enabled": true,
     "documentIds": [
-      "hytale-firststeps-dashboard",
-      "hytale-firststeps-connect",
-      "hytale-mods",
-      "hytale-troubleshooting-common-issues"
+      "*"
     ],
     "dateRange": {
-      "start": "2026-01-01T00:00:00+01:00",
-      "end": "2026-01-13T06:00:00+01:00"
+      "start": "2026-01-14T00:00:00+01:00",
+      "end": "2026-01-21T00:00:00+01:00"
     },
-    "title": "Hytale x ZAP-Hosting is coming soon!",
-    "imageUrl": "https://screensaver01.zap-hosting.com/index.php/s/fX4yXoAdjyQ9Ec6/preview",
-    "description": "The world of Hytale awaits. Prepare your server early and save 50% with the pre-order code <code>HYTALE50</code>",
-    "buttonLabel": "Pre-order your server here!",
-    "buttonLink": "https://zap-hosting.com/en/shop/product/cloud-gameserver/hytale/?voucher=HYTALE50",
-    "showExternalLinkIcon": true
+    "imageUrl": "https://screensaver01.zap-hosting.com/index.php/s/AQ25Gf9LsiobA8G/preview",
+    "showExternalLinkIcon": true,
+    "locales": {
+      "en": {
+        "title": "Hytale available now! 🔥",
+        "description": "Create your own server and experience epic adventures with your friends. Use the code <code>HYTALE50</code> to save 50% on your next order!",
+        "buttonLabel": "Order your server now!",
+        "buttonLink": "https://zap-hosting.com/en/shop/product/cloud-gameserver/hytale/?voucher=HYTALE50"
+      },
+      "de": {
+        "title": "Hytale jetzt verfügbar! 🔥",
+        "description": "Erstelle deinen eigenen Server und erlebe epische Abenteuer mit deinen Freunden. Nutze den Code <code>HYTALE50</code> und spare 50% bei deiner nächsten Bestellung!",
+        "buttonLabel": "Jetzt Server bestellen!",
+        "buttonLink": "https://zap-hosting.com/de/server-mieten/cloud-gameserver/hytale/?voucher=HYTALE50"
+      },
+      "es": {
+        "title": "¡Hytale ya disponible! 🔥",
+        "description": "Crea tu propio servidor y vive aventuras épicas con tus amigos. ¡Usa el código <code>HYTALE50</code> para ahorrar un 50% en tu próximo pedido!",
+        "buttonLabel": "¡Pide tu servidor ahora!",
+        "buttonLink": "https://zap-hosting.com/en/shop/product/cloud-gameserver/hytale/?voucher=HYTALE50"
+      },
+      "fr": {
+        "title": "Hytale disponible maintenant ! 🔥",
+        "description": "Créez votre propre serveur et vivez des aventures épiques avec vos amis. Utilisez le code <code>HYTALE50</code> pour économiser 50% sur votre prochaine commande !",
+        "buttonLabel": "Commandez votre serveur maintenant !",
+        "buttonLink": "https://zap-hosting.com/en/shop/product/cloud-gameserver/hytale/?voucher=HYTALE50"
+      },
+      "ar": {
+        "title": "Hytale متاح الآن! 🔥",
+        "description": "أنشئ خادمك الخاص واستمتع بمغامرات ملحمية مع أصدقائك. استخدم الرمز <code>HYTALE50</code> لتوفير 50% على طلبك التالي!",
+        "buttonLabel": "اطلب خادمك الآن!",
+        "buttonLink": "https://zap-hosting.com/en/shop/product/cloud-gameserver/hytale/?voucher=HYTALE50"
+      },
+      "pt": {
+        "title": "Hytale disponível agora! 🔥",
+        "description": "Crie o seu próprio servidor e viva aventuras épicas com os seus amigos. Use o código <code>HYTALE50</code> para poupar 50% no seu próximo pedido!",
+        "buttonLabel": "Encomende o seu servidor agora!",
+        "buttonLink": "https://zap-hosting.com/en/shop/product/cloud-gameserver/hytale/?voucher=HYTALE50"
+      },
+      "th": {
+        "title": "Hytale พร้อมให้บริการแล้ว! 🔥",
+        "description": "สร้างเซิร์ฟเวอร์ของคุณเองและสัมผัสการผจญภัยสุดมันส์กับเพื่อนๆ ใช้โค้ด <code>HYTALE50</code> เพื่อประหยัด 50% ในคำสั่งซื้อครั้งต่อไป!",
+        "buttonLabel": "สั่งซื้อเซิร์ฟเวอร์ตอนนี้!",
+        "buttonLink": "https://zap-hosting.com/en/shop/product/cloud-gameserver/hytale/?voucher=HYTALE50"
+      },
+      "pl": {
+        "title": "Hytale już dostępny! 🔥",
+        "description": "Stwórz własny serwer i przeżyj epickie przygody ze swoimi przyjaciółmi. Użyj kodu <code>HYTALE50</code>, aby zaoszczędzić 50% na następnym zamówieniu!",
+        "buttonLabel": "Zamów swój serwer teraz!",
+        "buttonLink": "https://zap-hosting.com/en/shop/product/cloud-gameserver/hytale/?voucher=HYTALE50"
+      },
+      "ja": {
+        "title": "Hytaleがついに登場！🔥",
+        "description": "自分だけのサーバーを作成して、友達と壮大な冒険を楽しもう。コード<code>HYTALE50</code>を使用すると、次回のご注文が50%オフになります！",
+        "buttonLabel": "今すぐサーバーを注文！",
+        "buttonLink": "https://zap-hosting.com/en/shop/product/cloud-gameserver/hytale/?voucher=HYTALE50"
+      },
+      "sv": {
+        "title": "Hytale tillgängligt nu! 🔥",
+        "description": "Skapa din egen server och upplev episka äventyr med dina vänner. Använd koden <code>HYTALE50</code> för att spara 50% på din nästa beställning!",
+        "buttonLabel": "Beställ din server nu!",
+        "buttonLink": "https://zap-hosting.com/en/shop/product/cloud-gameserver/hytale/?voucher=HYTALE50"
+      },
+      "it": {
+        "title": "Hytale disponibile ora! 🔥",
+        "description": "Crea il tuo server e vivi avventure epiche con i tuoi amici. Usa il codice <code>HYTALE50</code> per risparmiare il 50% sul tuo prossimo ordine!",
+        "buttonLabel": "Ordina il tuo server ora!",
+        "buttonLink": "https://zap-hosting.com/en/shop/product/cloud-gameserver/hytale/?voucher=HYTALE50"
+      },
+      "nl": {
+        "title": "Hytale nu beschikbaar! 🔥",
+        "description": "Maak je eigen server en beleef epische avonturen met je vrienden. Gebruik de code <code>HYTALE50</code> om 50% korting te krijgen op je volgende bestelling!",
+        "buttonLabel": "Bestel nu je server!",
+        "buttonLink": "https://zap-hosting.com/en/shop/product/cloud-gameserver/hytale/?voucher=HYTALE50"
+      }
+    }
   }
 ]
 

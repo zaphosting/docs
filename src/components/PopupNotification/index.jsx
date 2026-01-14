@@ -14,6 +14,64 @@ function getDocIdFromPath(pathname) {
   return match ? match[1] : null;
 }
 
+function matchesDocumentId(currentDocId, documentIds) {
+  if (!currentDocId || !documentIds || documentIds.length === 0) {
+    return false;
+  }
+  
+  return documentIds.some(pattern => {
+    // Wildcard support: "hytale-*" matches anything starting with "hytale-"
+    if (pattern.endsWith('*')) {
+      const prefix = pattern.slice(0, -1);
+      return currentDocId.startsWith(prefix);
+    }
+    // Exact match
+    return currentDocId === pattern;
+  });
+}
+
+function getLocalizedPopup(popup, locale, defaultLocale = 'en') {
+  // Get localized content from the popup's locales object
+  const localeData = popup.locales?.[locale] || popup.locales?.[defaultLocale] || popup.locales?.en;
+  
+  if (!localeData) {
+    // Fallback to old structure if locales object doesn't exist
+    if (process.env.NODE_ENV === 'development') {
+      console.warn('PopupNotification - No locales object found, using legacy structure');
+    }
+    return popup;
+  }
+  
+  // Return popup with localized fields
+  return {
+    ...popup,
+    title: localeData.title,
+    description: localeData.description,
+    buttonLabel: localeData.buttonLabel,
+    buttonLink: localeData.buttonLink
+  };
+}
+
+async function fetchPopupConfig(baseUrl) {
+  const cleanBaseUrl = baseUrl.endsWith('/') ? baseUrl.slice(0, -1) : baseUrl;
+  const cacheBuster = `?v=${Date.now()}`;
+  const url = `${cleanBaseUrl}/data/popup-notification.json${cacheBuster}`;
+  
+  const res = await fetch(url, {
+    cache: 'no-store',
+    headers: {
+      'Cache-Control': 'no-cache, no-store, must-revalidate',
+      'Pragma': 'no-cache'
+    }
+  });
+  
+  if (!res.ok) {
+    throw new Error('Failed to fetch popup config');
+  }
+  
+  return await res.json();
+}
+
 function isPopupDismissed(dismissedKey) {
   if (typeof window === 'undefined' || !window.localStorage) {
     return false;
@@ -177,7 +235,7 @@ function PopupNotificationWithDoc({ config }) {
 }
 
 function PopupNotificationBase({ config, frontMatter, docId: providedDocId }) {
-  const { siteConfig } = useDocusaurusContext();
+  const { siteConfig, i18n } = useDocusaurusContext();
   const isBrowser = useIsBrowser();
   const location = useLocation();
   const [popupConfigs, setPopupConfigs] = useState(config ? [config] : []);
@@ -185,6 +243,7 @@ function PopupNotificationBase({ config, frontMatter, docId: providedDocId }) {
   const [dismissedPopups, setDismissedPopups] = useState(new Set());
 
   const docId = providedDocId || getDocIdFromPath(location.pathname);
+  const currentLocale = i18n.currentLocale;
 
   useEffect(() => {
     if (!isBrowser) return;
@@ -202,19 +261,9 @@ function PopupNotificationBase({ config, frontMatter, docId: providedDocId }) {
       activeConfigs = [docPopupConfig];
     } else {
       const baseUrl = siteConfig.baseUrl || '/';
-      const cleanBaseUrl = baseUrl.endsWith('/') ? baseUrl.slice(0, -1) : baseUrl;
-      const cacheBuster = `?v=${Date.now()}`;
-      fetch(`${cleanBaseUrl}/data/popup-notification.json${cacheBuster}`, {
-        cache: 'no-store',
-        headers: {
-          'Cache-Control': 'no-cache, no-store, must-revalidate',
-          'Pragma': 'no-cache'
-        }
-      })
-        .then((res) => {
-          if (!res.ok) throw new Error('Failed to fetch popup config');
-          return res.json();
-        })
+      const defaultLocale = siteConfig.i18n?.defaultLocale || 'en';
+      
+      fetchPopupConfig(baseUrl)
         .then((data) => {
           const currentDocId = docId || getDocIdFromPath(location.pathname);
           const popups = Array.isArray(data) ? data : [data];
@@ -222,6 +271,7 @@ function PopupNotificationBase({ config, frontMatter, docId: providedDocId }) {
           if (process.env.NODE_ENV === 'development') {
             console.log('PopupNotification - Config loaded:', popups);
             console.log('PopupNotification - Current docId:', currentDocId);
+            console.log('PopupNotification - Current locale:', currentLocale);
             console.log('PopupNotification - Pathname:', location.pathname);
           }
           
@@ -234,7 +284,7 @@ function PopupNotificationBase({ config, frontMatter, docId: providedDocId }) {
             }
             
             if (popup.documentIds && popup.documentIds.length > 0) {
-              if (!currentDocId || !popup.documentIds.includes(currentDocId)) {
+              if (!matchesDocumentId(currentDocId, popup.documentIds)) {
                 continue;
               }
             } else {
@@ -245,7 +295,9 @@ function PopupNotificationBase({ config, frontMatter, docId: providedDocId }) {
               continue;
             }
             
-            matchingPopups.push(popup);
+            // Localize the popup before adding it
+            const localizedPopup = getLocalizedPopup(popup, currentLocale, defaultLocale);
+            matchingPopups.push(localizedPopup);
           }
           
           if (matchingPopups.length === 0) {
@@ -292,11 +344,12 @@ function PopupNotificationBase({ config, frontMatter, docId: providedDocId }) {
     
     if (activeConfigs.length > 0) {
       const matchingConfigs = [];
+      const defaultLocale = siteConfig.i18n?.defaultLocale || 'en';
       
       for (let i = 0; i < activeConfigs.length; i++) {
         const activeConfig = activeConfigs[i];
         if (activeConfig.documentIds && activeConfig.documentIds.length > 0) {
-          if (!docId || !activeConfig.documentIds.includes(docId)) {
+          if (!matchesDocumentId(docId, activeConfig.documentIds)) {
             continue;
           }
         } else {
@@ -307,7 +360,9 @@ function PopupNotificationBase({ config, frontMatter, docId: providedDocId }) {
           continue;
         }
         
-        matchingConfigs.push(activeConfig);
+        // Localize the config before adding it
+        const localizedConfig = getLocalizedPopup(activeConfig, currentLocale, defaultLocale);
+        matchingConfigs.push(localizedConfig);
       }
       
       if (matchingConfigs.length === 0) {
@@ -339,7 +394,7 @@ function PopupNotificationBase({ config, frontMatter, docId: providedDocId }) {
       
       setDismissedPopups(newDismissedPopups);
     }
-  }, [config, isBrowser, siteConfig.baseUrl, frontMatter, location.pathname, docId]);
+  }, [config, isBrowser, siteConfig.baseUrl, frontMatter, location.pathname, docId, currentLocale]);
 
   useEffect(() => {
     if (!isBrowser) return;
@@ -347,20 +402,9 @@ function PopupNotificationBase({ config, frontMatter, docId: providedDocId }) {
 
     const pollInterval = setInterval(() => {
       const baseUrl = siteConfig.baseUrl || '/';
-      const cleanBaseUrl = baseUrl.endsWith('/') ? baseUrl.slice(0, -1) : baseUrl;
-      const cacheBuster = `?v=${Date.now()}`;
+      const defaultLocale = siteConfig.i18n?.defaultLocale || 'en';
       
-      fetch(`${cleanBaseUrl}/data/popup-notification.json${cacheBuster}`, {
-        cache: 'no-store',
-        headers: {
-          'Cache-Control': 'no-cache, no-store, must-revalidate',
-          'Pragma': 'no-cache'
-        }
-      })
-        .then((res) => {
-          if (!res.ok) throw new Error('Failed to fetch popup config');
-          return res.json();
-        })
+      fetchPopupConfig(baseUrl)
         .then((data) => {
           const popups = Array.isArray(data) ? data : [data];
           const currentDocId = docId || getDocIdFromPath(location.pathname);
@@ -370,12 +414,15 @@ function PopupNotificationBase({ config, frontMatter, docId: providedDocId }) {
             const popup = popups[i];
             if (!popup.enabled) continue;
             if (popup.documentIds && popup.documentIds.length > 0) {
-              if (!currentDocId || !popup.documentIds.includes(currentDocId)) continue;
+              if (!matchesDocumentId(currentDocId, popup.documentIds)) continue;
             } else {
               continue;
             }
             if (!isWithinDateRange(popup.dateRange)) continue;
-            matchingPopups.push(popup);
+            
+            // Localize the popup before adding it
+            const localizedPopup = getLocalizedPopup(popup, currentLocale, defaultLocale);
+            matchingPopups.push(localizedPopup);
           }
           
           const currentConfigsStr = JSON.stringify(popupConfigs);
@@ -417,7 +464,7 @@ function PopupNotificationBase({ config, frontMatter, docId: providedDocId }) {
     return () => {
       clearInterval(pollInterval);
     };
-  }, [isBrowser, siteConfig.baseUrl, location.pathname, docId, config, frontMatter, popupConfigs]);
+  }, [isBrowser, siteConfig.baseUrl, location.pathname, docId, config, frontMatter, popupConfigs, currentLocale]);
 
   const handleDismiss = (popup, popupId) => {
     setVisiblePopups(prev => {
