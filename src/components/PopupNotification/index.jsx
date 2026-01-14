@@ -85,7 +85,9 @@ function isPopupDismissed(dismissedKey) {
   try {
     const dismissedTimestamp = parseInt(dismissedValue, 10);
     if (isNaN(dismissedTimestamp)) {
-      return true;
+      // Ungültiger Wert im LocalStorage, bereinigen
+      localStorage.removeItem(dismissedKey);
+      return false;
     }
     
     const now = Date.now();
@@ -319,9 +321,7 @@ function PopupNotificationBase({ config, frontMatter, docId: providedDocId }) {
           
           matchingPopups.forEach((popup, index) => {
             const popupId = getPopupId(popup, index);
-            const dismissedKey = currentDocId 
-              ? `popup-notification-dismissed-${currentDocId}-${popupId}`
-              : `popup-notification-dismissed-${popupId}`;
+            const dismissedKey = `popup-notification-dismissed-${popupId}`;
             
             const wasDismissed = isPopupDismissed(dismissedKey);
             
@@ -377,9 +377,7 @@ function PopupNotificationBase({ config, frontMatter, docId: providedDocId }) {
       
       matchingConfigs.forEach((popup, index) => {
         const popupId = getPopupId(popup, index);
-        const dismissedKey = docId 
-          ? `popup-notification-dismissed-${docId}-${popupId}`
-          : `popup-notification-dismissed-${popupId}`;
+        const dismissedKey = `popup-notification-dismissed-${popupId}`;
         
         const wasDismissed = isPopupDismissed(dismissedKey);
         
@@ -440,9 +438,7 @@ function PopupNotificationBase({ config, frontMatter, docId: providedDocId }) {
             
             matchingPopups.forEach((popup, index) => {
               const popupId = getPopupId(popup, index);
-              const dismissedKey = currentDocId 
-                ? `popup-notification-dismissed-${currentDocId}-${popupId}`
-                : `popup-notification-dismissed-${popupId}`;
+              const dismissedKey = `popup-notification-dismissed-${popupId}`;
               const wasDismissed = isPopupDismissed(dismissedKey);
               
               if (wasDismissed) {
@@ -474,9 +470,7 @@ function PopupNotificationBase({ config, frontMatter, docId: providedDocId }) {
     });
     setDismissedPopups(prev => new Set(prev).add(popupId));
     if (isBrowser) {
-      const dismissedKey = docId 
-        ? `popup-notification-dismissed-${docId}-${popupId}`
-        : `popup-notification-dismissed-${popupId}`;
+      const dismissedKey = `popup-notification-dismissed-${popupId}`;
       const timestamp = Date.now();
       localStorage.setItem(dismissedKey, timestamp.toString());
     }

@@ -1,7 +1,5 @@
 [
   {
-    "id": "hytale-preorder",
-    "label": "Hytale Pre-Order Promotion",
     "enabled": true,
     "documentIds": [
       "*"
