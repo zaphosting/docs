@@ -1,7 +1,7 @@
 ---
 id: hytale-mods
 title: "Hytale : Installer des Mods"
-description: "Découvrez comment gérer et optimiser efficacement votre serveur de jeux Hytale pour des performances et un contrôle au top → En savoir plus maintenant"
+description: "Découvrez comment gérer et optimiser efficacement votre serveur Hytale pour des performances et un contrôle au top → En savoir plus maintenant"
 sidebar_label: Installer des Mods
 services:
   - gameserver-hytale
@@ -15,14 +15,14 @@ import items from '@site/data/lists/hytale-mods.json';
 
 ## Introduction
 
-Les mods transforment votre serveur de jeux Hytale en quelque chose de vraiment unique. Ils peuvent ajouter de nouvelles mécaniques, étendre les systèmes existants, introduire des défis inédits, et créer des façons totalement nouvelles de jouer, allant de petites améliorations de qualité de vie à des refontes complètes du gameplay.
+Les mods transforment votre serveur Hytale en quelque chose de vraiment unique. Ils peuvent ajouter de nouvelles mécaniques, étendre les systèmes existants, introduire des défis inédits, et créer des façons totalement nouvelles de jouer, allant de petites améliorations de qualité de vie à des refontes complètes du gameplay.
 
-Que vous cherchiez une progression plus rapide, des éléments de survie plus profonds, plus d’options de construction, des événements personnalisés ou des règles uniques pour votre serveur, les mods vous donnent les outils pour façonner l’expérience et démarquer votre monde.
+Que vous cherchiez une progression plus rapide, des éléments de survie plus profonds, plus d’options de construction, des événements personnalisés ou des règles de serveur uniques, les mods vous donnent les outils pour façonner l’expérience et démarquer votre monde.
 
-:::info 
-Hytale est prévu pour sortir le 13 janvier 2026. Comme les fichiers officiels du serveur, les outils de modding et les processus d’installation peuvent encore évoluer dans la phase post-lancement, certaines parties de ce guide pourraient devenir obsolètes.
+:::info Avis Early Access
 
-La page sera mise à jour dès que des infos confirmées et stables sur le support des mods, les formats de fichiers et les exigences d’installation seront disponibles.
+Hytale est sorti le 13 janvier 2026 et est actuellement en Early Access. Comme le jeu est encore en phase de développement actif, les logiciels serveur, fichiers de configuration, support du modding et processus d’installation peuvent continuer à évoluer avec le temps.
+
 :::
 
 <InlineVoucher />
@@ -35,7 +35,7 @@ Une fois téléchargés, connectez-vous à votre serveur et ouvrez le dossier `m
 
 ## Mods Populaires
 
-Vous cherchez encore les mods parfaits pour votre serveur ? Parcourez notre liste soigneusement sélectionnée des mods les plus populaires et recommandés pour booster votre gameplay et donner à votre serveur la touche finale qu’il mérite. Trouvez l’inspiration et dénichez exactement les ajouts qui collent à votre projet.
+Vous cherchez encore les mods parfaits pour votre serveur ? Parcourez notre liste soigneusement sélectionnée des mods les plus populaires et recommandés pour booster votre gameplay et donner à votre serveur la touche finale qu’il mérite. Inspirez-vous et trouvez exactement les ajouts qui collent à votre projet.
 
 <SearchableItemList items={items} />
 

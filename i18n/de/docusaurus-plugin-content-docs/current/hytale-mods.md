@@ -17,25 +17,25 @@ import items from '@site/data/lists/hytale-mods.json';
 
 Mods machen deinen Hytale Gameserver zu etwas ganz Eigenem. Sie können neue Mechaniken hinzufügen, bestehende Systeme erweitern, frische Herausforderungen bringen und komplett neue Spielweisen ermöglichen – von kleinen Quality-of-Life-Verbesserungen bis hin zu kompletten Gameplay-Überarbeitungen.
 
-Egal ob du schnellere Progression, tiefere Survival-Elemente, mehr Baumöglichkeiten, individuelle Events oder einzigartige Server-Regeln willst – Mods geben dir die Tools, um das Erlebnis zu formen und deine Welt einzigartig zu machen.
+Egal ob du schnellere Progression, tiefere Survival-Elemente, mehr Baumöglichkeiten, individuelle Events oder einzigartige Server-Regeln willst – Mods geben dir die Tools, um das Erlebnis zu gestalten und deine Welt einzigartig zu machen.
 
-:::info 
-Hytale soll am 13. Januar 2026 erscheinen. Da offizielle Serverdateien, Modding-Tools und Installationsabläufe in der frühen Post-Launch-Phase noch Änderungen unterliegen können, könnten Teile dieser Anleitung veraltet sein.
+:::info Early Access Hinweis
 
-Die Seite wird aktualisiert, sobald bestätigte und stabile Infos zu Mod-Support, Dateiformaten und Setup-Anforderungen vorliegen.
+Hytale wurde am 13. Januar 2026 veröffentlicht und befindet sich aktuell im Early Access. Da das Spiel sich noch in aktiver Entwicklung befindet, können sich Server-Software, Konfigurationsdateien, Modding-Support und Installationsabläufe weiterhin ändern.
+
 :::
 
 <InlineVoucher />
 
 ## Mods installieren
 
-Mods kannst du installieren, indem du sie direkt in deine Serverdateien hochlädst. Lade die gewünschten Mods im `.zip` oder `.jar` Format von vertrauenswürdigen Quellen wie CurseForge herunter.
+Mods kannst du installieren, indem du sie direkt in deine Server-Dateien hochlädst. Lade die gewünschten Mods im `.zip` oder `.jar` Format von vertrauenswürdigen Quellen wie CurseForge herunter.
 
 Verbinde dich danach mit deinem Gameserver und öffne das Verzeichnis `mods/` im Server-Root. Lade die Mod-Dateien in diesen Ordner hoch, ohne sie zu entpacken oder zu verändern. Sobald alle Mods drin sind, starte den Server neu, damit sie geladen und aktiviert werden.
 
 ## Beliebte Mods
 
-Du suchst noch die perfekten Mods für deinen Server? Stöbere durch unsere sorgfältig kuratierte Liste der beliebtesten und am meisten empfohlenen Mods, um dein Gameplay zu verbessern und deinem Server den letzten Schliff zu geben. Lass dich inspirieren und finde genau die Erweiterungen, die zu deinem Projekt passen.
+Du suchst noch nach den perfekten Mods für deinen Server? Stöbere durch unsere sorgfältig kuratierte Liste der beliebtesten und am meisten empfohlenen Mods, um dein Gameplay zu verbessern und deinem Server den letzten Schliff zu geben. Lass dich inspirieren und finde genau die Erweiterungen, die zu deinem Projekt passen.
 
 <SearchableItemList items={items} />
 

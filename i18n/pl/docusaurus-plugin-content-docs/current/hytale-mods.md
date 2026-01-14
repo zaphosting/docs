@@ -17,12 +17,12 @@ import items from '@site/data/lists/hytale-mods.json';
 
 Mody zamieniają Twój serwer Hytale w coś naprawdę Twojego. Mogą dodać nowe mechaniki, rozbudować istniejące systemy, wprowadzić świeże wyzwania i stworzyć całkowicie nowe sposoby gry — od drobnych usprawnień jakości życia po kompletne przeróbki rozgrywki.
 
-Niezależnie od tego, czy chcesz szybszy progres, głębsze elementy survivalu, więcej opcji budowania, niestandardowe eventy czy unikalne zasady serwera, mody dają Ci narzędzia, by kształtować doświadczenie i wyróżnić swój świat.
+Niezależnie od tego, czy chcesz szybszy progres, głębsze elementy survivalowe, więcej opcji budowania, niestandardowe eventy czy unikalne zasady serwera, mody dają Ci narzędzia, by kształtować doświadczenie i wyróżnić swój świat.
 
-:::info 
-Premiera Hytale jest zaplanowana na 13 stycznia 2026. Ponieważ oficjalne pliki serwera, narzędzia moddingowe i procesy instalacji mogą się jeszcze zmieniać w początkowej fazie po premierze, niektóre części tego poradnika mogą się zdezaktualizować.
+:::info Informacja o Wczesnym Dostępie
 
-Strona będzie aktualizowana, gdy tylko pojawią się potwierdzone i stabilne informacje o wsparciu modów, formatach plików i wymaganiach instalacyjnych.
+Hytale został wydany 13 stycznia 2026 i jest obecnie dostępny we Wczesnym Dostępie. Ponieważ gra jest nadal w aktywnej fazie rozwoju, oprogramowanie serwera, pliki konfiguracyjne, wsparcie modów i procesy instalacji mogą się z czasem zmieniać.
+
 :::
 
 <InlineVoucher />

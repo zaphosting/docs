@@ -1,8 +1,8 @@
 ---
 id: hytale-mods
-title: "Hytale: Mods installieren"
-description: "Entdecke, wie du deinen Hytale-Server effizient verwaltest und optimierst für beste Performance und volle Kontrolle → Jetzt mehr erfahren"
-sidebar_label: Mods installieren
+title: "Hytale: Installa Mod"
+description: "Scopri come gestire e ottimizzare al meglio il tuo server Hytale per prestazioni top e massimo controllo → Scopri di più ora"
+sidebar_label: Installa Mod
 services:
   - gameserver-hytale
 ---
@@ -13,29 +13,29 @@ import SearchableItemList from '@site/src/components/SearchableItemList/Searchab
 import items from '@site/data/lists/hytale-mods.json';
 
 
-## Einführung
+## Introduzione
 
-Mods machen deinen Hytale-Server zu etwas ganz Eigenem. Sie können neue Mechaniken hinzufügen, bestehende Systeme erweitern, frische Herausforderungen bringen und komplett neue Spielweisen ermöglichen – von kleinen Quality-of-Life-Verbesserungen bis hin zu kompletten Gameplay-Overhauls.
+I mod trasformano il tuo server Hytale in qualcosa di veramente tuo. Possono aggiungere nuove meccaniche, espandere sistemi esistenti, introdurre sfide fresche e creare modi completamente nuovi di giocare, da piccoli miglioramenti alla qualità della vita a rivoluzioni totali del gameplay.
 
-Egal ob du schnellere Progression, tiefere Survival-Elemente, mehr Bauoptionen, individuelle Events oder einzigartige Server-Regeln willst – Mods geben dir die Tools, um das Erlebnis zu formen und deine Welt einzigartig zu machen.
+Che tu voglia una progressione più veloce, elementi survival più profondi, più opzioni di costruzione, eventi personalizzati o regole uniche per il server, i mod ti danno gli strumenti per modellare l’esperienza e rendere il tuo mondo unico.
 
-:::info 
-Hytale erscheint voraussichtlich am 13. Januar 2026. Da offizielle Server-Dateien, Modding-Tools und Installationsprozesse in der frühen Post-Launch-Phase noch Änderungen unterliegen können, könnten Teile dieses Guides veraltet sein.
+:::info Avviso Early Access
 
-Die Seite wird aktualisiert, sobald bestätigte und stabile Infos zu Mod-Support, Dateiformaten und Setup-Anforderungen vorliegen.
+Hytale è uscito il 13 gennaio 2026 ed è attualmente in Early Access. Siccome il gioco è ancora in fase di sviluppo attivo, il software del server, i file di configurazione, il supporto ai mod e i processi di installazione potrebbero continuare a cambiare nel tempo.
+
 :::
 
 <InlineVoucher />
 
-## Mods installieren
+## Installa Mod
 
-Mods kannst du installieren, indem du sie direkt in deine Server-Dateien packst. Lade die gewünschten Mods im `.zip` oder `.jar` Format von vertrauenswürdigen Quellen wie CurseForge herunter.
+I mod si installano aggiungendoli direttamente ai file del server. Parti scaricando i mod desiderati in formato `.zip` o `.jar` da fonti affidabili come CurseForge.
 
-Verbinde dich danach mit deinem Server und öffne das Verzeichnis `mods/` im Server-Root. Lade die Mod-Dateien in diesen Ordner hoch, ohne sie zu entpacken oder zu verändern. Sobald alle Mods drin sind, starte den Server neu, damit sie geladen und aktiviert werden.
+Una volta scaricati, connettiti al tuo server e apri la cartella `mods/` nella root del server. Carica i file dei mod in questa cartella senza estrarli o modificarli. Quando tutti i mod sono al loro posto, riavvia il server così vengono caricati e attivati.
 
-## Beliebte Mods
+## Mod Popolari
 
-Du suchst noch die perfekten Mods für deinen Server? Stöbere durch unsere sorgfältig zusammengestellte Liste der beliebtesten und am meisten empfohlenen Mods, um dein Gameplay zu pimpen und deinem Server den letzten Schliff zu geben. Lass dich inspirieren und finde genau die Addons, die zu deinem Projekt passen.
+Ancora alla ricerca dei mod perfetti per il tuo server? Dai un’occhiata alla nostra lista selezionata dei mod più popolari e consigliati per migliorare il gameplay e dare al tuo server quel tocco finale che merita. Lasciati ispirare e trova esattamente le aggiunte che fanno al caso tuo.
 
 <SearchableItemList items={items} />
 

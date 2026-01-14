@@ -1,8 +1,8 @@
 ---
 id: hytale-firststeps-connect
-title: "Hytale: Collegati al server"
-description: "Scopri come collegarti senza problemi al tuo server Hytale e risolvere i problemi comuni per un'esperienza di gioco fluida → Scopri di più ora"
-sidebar_label: Collegati al server
+title: "Hytale: Connettiti al server"
+description: "Scopri come connetterti facilmente al tuo server Hytale e risolvere i problemi comuni per un'esperienza di gioco senza intoppi → Scopri di più ora"
+sidebar_label: Connettiti al server
 services:
   - gameserver-hytale
 ---
@@ -13,14 +13,13 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 
 ## Introduzione
-Non sai come collegarti al tuo server **Hytale** o cosa ti serve per iniziare? Nessun problema, ci pensiamo noi! Ti guideremo passo passo su tutto ciò che ti serve. Dagli strumenti e informazioni necessari fino al processo di connessione vero e proprio, con tutti i dettagli per garantirti una connessione liscia e senza intoppi. Segui la nostra guida e sarai connesso in un attimo!
+Non sai come connetterti al tuo server **Hytale** o cosa ti serve per iniziare? Nessun problema, ci pensiamo noi! Ti guideremo passo passo su tutto ciò che ti serve. Dai tool e le info necessarie fino al processo di connessione vero e proprio, con tutti i consigli per assicurarti una connessione fluida e senza intoppi. Segui la nostra guida e sarai connesso in un attimo!
 
-:::info 
-Hytale è previsto in uscita il 13 gennaio 2026. Poiché i file ufficiali del server, gli strumenti per il modding e i processi di installazione potrebbero ancora cambiare nella fase iniziale post-lancio, alcune parti di questa guida potrebbero diventare obsolete.
+:::info Avviso Early Access
 
-La pagina verrà aggiornata non appena saranno disponibili informazioni confermate e stabili sul supporto mod, formati dei file e requisiti di setup.
+Hytale è uscito il 13 gennaio 2026 ed è attualmente in Early Access. Essendo ancora in fase di sviluppo attivo, il software del server, i file di configurazione, il supporto alle mod e i processi di installazione potrebbero continuare a cambiare nel tempo.
+
 :::
-
 <InlineVoucher />
 
 
@@ -28,48 +27,48 @@ La pagina verrà aggiornata non appena saranno disponibili informazioni conferma
 ## Ottieni i dettagli del server
 
 
-Ti serviranno tutte le informazioni necessarie per collegarti al tuo server. I dati del tuo server li trovi nel pannello web del tuo game server, nella dashboard. Le informazioni importanti includono:
+Ti serviranno tutte le info necessarie per connetterti al tuo server. Puoi trovare i dati del tuo server nel pannello web del tuo game server. Le info importanti sono:
 
 - Indirizzo IP e porta
 - Nome del server
 - Password del server
 
 
-Con queste informazioni dovresti riuscire a trovare il tuo server e assicurarti di collegarti a quello giusto.
+Con queste info dovresti riuscire a trovare il tuo server e assicurarti di connetterti a quello giusto.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/x9f7brkqDKjsEz5/preview)
 
 ## Stabilisci la connessione al server
 
 
-La connessione a un game server può essere stabilita in uno o più modi. I metodi disponibili sono descritti e spiegati nel dettaglio qui sotto.
+La connessione a un game server può essere fatta in uno o più modi. Qui sotto ti spieghiamo nel dettaglio le opzioni disponibili.
 
-Di solito la connessione al server si fa tramite indirizzo IP e porta, e opzionalmente una password. La procedura esatta per collegarti sarà documentata qui non appena sarà confermata l’implementazione finale per il rilascio ufficiale.
+Di solito la connessione si fa usando l’indirizzo IP del server e la porta, e opzionalmente una password. La procedura esatta per connettersi sarà documentata qui non appena sarà confermata la versione finale per il rilascio ufficiale.
 
 
 
 ## Problemi comuni e soluzioni
 
 
-La connessione a un game server può essere stabilita in uno o più modi. I metodi disponibili sono descritti e spiegati nel dettaglio qui sotto.
+La connessione a un game server può essere fatta in uno o più modi. Qui sotto ti spieghiamo nel dettaglio le opzioni disponibili.
 
 #### Server non visibile
 
 
-Se il server non è visibile, potrebbe essere perché l’inizializzazione non è andata a buon fine. Questo può succedere per una configurazione errata o file corrotti. Di solito puoi trovare maggiori dettagli nella console del server o nei file di log.
+Se non vedi il server, potrebbe essere perché l’avvio non è andato a buon fine. Può dipendere da una configurazione sbagliata o file corrotti. Di solito puoi trovare più info nella console del server o nei file di log.
 
 
 
-#### Nessuna soluzione trovata o poco utile
+#### Nessuna soluzione trovata o non utile
 
 
-Hai ancora problemi dopo aver provato a risolverli? Nessun problema, il nostro supporto è disponibile tutti i giorni per aiutarti. Crea semplicemente un **[Ticket](https://zap-hosting.com/en/customer/support/)** sul nostro sito e spiegaci il problema con più dettagli possibili. Daremo un’occhiata il prima possibile e ti aiuteremo a risolvere tutto!
+Hai ancora problemi dopo aver provato? Nessun problema, il nostro supporto è disponibile tutti i giorni per aiutarti. Apri semplicemente un **[Ticket](https://zap-hosting.com/en/customer/support/)** sul nostro sito e spiegaci il problema con più dettagli possibili. Daremo un’occhiata il prima possibile e ti aiuteremo a risolvere!
 
 
 
 ## Conclusione
 
-Complimenti, se hai seguito tutto dovresti essere riuscito a collegarti al server senza problemi. Per qualsiasi altra domanda o supporto, non esitare a contattare il nostro team di assistenza, sempre disponibile ogni giorno per darti una mano! 🙂
+Complimenti, se hai seguito tutto dovresti essere connesso al server senza problemi. Per altre domande o aiuto, non esitare a contattare il nostro supporto, sempre disponibile per darti una mano! 🙂
 
 
 
