@@ -1,3 +1,2069 @@
 [
-
+  {
+    "title": "Advanced Item Info",
+    "description": "Adds a searchable GUI that displays all the items and the game and displays extra properties they have",
+    "tags": [
+      "Miscellaneous",
+      "Quality of Life"
+    ],
+    "link": "https://www.curseforge.com/hytale/mods/advanced-item-info",
+    "category": "Miscellaneous"
+  },
+  {
+    "title": "Pixel Paintings",
+    "description": "Adds a wide range of new paintings from talented artists to Hytale!",
+    "tags": [
+      "Furniture"
+    ],
+    "link": "https://www.curseforge.com/hytale/mods/pixel-paintings",
+    "category": "Furniture"
+  },
+  {
+    "title": "Lucky Mining",
+    "description": "Get more ores from mining, the more you mine in a row, the more ores you get.",
+    "tags": [
+      "Gameplay",
+      "Quality of Life"
+    ],
+    "link": "https://www.curseforge.com/hytale/mods/lucky-mining",
+    "category": "Gameplay"
+  },
+  {
+    "title": "Shimmer Shrubs",
+    "description": "Farm resources using magic berry bushes!",
+    "tags": [
+      "Food\\Farming",
+      "Utility"
+    ],
+    "link": "https://www.curseforge.com/hytale/mods/shimmer-shrubs",
+    "category": "Food\\Farming"
+  },
+  {
+    "title": "Vector Runes",
+    "description": "Blocks that push mobs around!",
+    "tags": [
+      "Utility"
+    ],
+    "link": "https://www.curseforge.com/hytale/mods/vector-runes",
+    "category": "Utility"
+  },
+  {
+    "title": "Ymmersive Statues",
+    "description": "Adds craftable statues of monsters, animals, and bosses in various materials.",
+    "tags": [
+      "Furniture",
+      "Furniture",
+      "Blocks"
+    ],
+    "link": "https://www.curseforge.com/hytale/mods/ymmersive-statues",
+    "category": "Furniture"
+  },
+  {
+    "title": "Books and Papers",
+    "description": "Various writable books, a mail system, and hidden lore across the world.",
+    "tags": [
+      "Gameplay",
+      "Quality of Life",
+      "Utility",
+      "Miscellaneous"
+    ],
+    "link": "https://www.curseforge.com/hytale/mods/books-and-papers",
+    "category": "Gameplay"
+  },
+  {
+    "title": "Wayback Charm",
+    "description": "A charm to help you find your way back home.",
+    "tags": [
+      "Utility"
+    ],
+    "link": "https://www.curseforge.com/hytale/mods/wayback-charm",
+    "category": "Utility"
+  },
+  {
+    "title": "Ymmersive Foliage",
+    "description": "An overhaul of foliage density and color",
+    "tags": [
+      "Miscellaneous",
+      "Quality of Life",
+      "Blocks"
+    ],
+    "link": "https://www.curseforge.com/hytale/mods/ymmersive-foliage",
+    "category": "Miscellaneous"
+  },
+  {
+    "title": "Ymmersive Masonry",
+    "description": "Many masonry and stonework variants",
+    "tags": [
+      "Furniture",
+      "Blocks"
+    ],
+    "link": "https://www.curseforge.com/hytale/mods/ymmersive-masonry",
+    "category": "Furniture"
+  },
+  {
+    "title": "Violet's Furnishings",
+    "description": "Expands on Hytale's existing furniture library",
+    "tags": [
+      "Furniture"
+    ],
+    "link": "https://www.curseforge.com/hytale/mods/violets-furnishings",
+    "category": "Furniture"
+  },
+  {
+    "title": "Ymmersive Melodies",
+    "description": "Upload and play MIDI files in-game on various instruments to annoy your friends with custom melodies!",
+    "tags": [
+      "Miscellaneous",
+      "Gameplay",
+      "Quality of Life",
+      "Utility"
+    ],
+    "link": "https://www.curseforge.com/hytale/mods/ymmersive-melodies",
+    "category": "Miscellaneous"
+  },
+  {
+    "title": "Overstacked",
+    "description": "Increases the maximum stack size of items.",
+    "tags": [
+      "Quality of Life",
+      "Gameplay"
+    ],
+    "link": "https://www.curseforge.com/hytale/mods/overstacked",
+    "category": "Quality of Life"
+  },
+  {
+    "title": "Cobble Generators",
+    "description": "Machines that passively generate cobblestone over time!",
+    "tags": [
+      "Gameplay"
+    ],
+    "link": "https://www.curseforge.com/hytale/mods/cobble-generators",
+    "category": "Gameplay"
+  },
+  {
+    "title": "Hybrid",
+    "description": "🏛️ A Hytale mod library that contains common code for all of Serilum's mods.",
+    "tags": [
+      "Utility",
+      "Library"
+    ],
+    "link": "https://www.curseforge.com/hytale/mods/hybrid",
+    "category": "Utility"
+  },
+  {
+    "title": "AdminUI",
+    "description": "Manage your server with multiple interactive GUIs. Using and interface is much better than commands.",
+    "tags": [
+      "Quality of Life"
+    ],
+    "link": "https://www.curseforge.com/hytale/mods/adminui",
+    "category": "Quality of Life"
+  },
+  {
+    "title": "Hyxin",
+    "description": "Brings the Mixin trait/mixin framework for Java to Hytale!",
+    "tags": [
+      "Gameplay"
+    ],
+    "link": "https://www.curseforge.com/hytale/mods/hyxin",
+    "category": "Gameplay"
+  },
+  {
+    "title": "Spellbook",
+    "description": "Powering your favorite mods with clean, reusable helpers and utilities. ",
+    "tags": [
+      "Gameplay"
+    ],
+    "link": "https://www.curseforge.com/hytale/mods/spellbook",
+    "category": "Gameplay"
+  },
+  {
+    "title": "Soulstones",
+    "description": "Harness the power of souls!",
+    "tags": [
+      "Mobs\\Characters",
+      "Miscellaneous",
+      "Food\\Farming"
+    ],
+    "link": "https://www.curseforge.com/hytale/mods/soulstones",
+    "category": "Mobs\\Characters"
+  },
+  {
+    "title": "Ymmersive Carpentry",
+    "description": "Many wooden pattern and floor variants",
+    "tags": [
+      "Furniture",
+      "Blocks"
+    ],
+    "link": "https://www.curseforge.com/hytale/mods/ymmersive-carpentry",
+    "category": "Furniture"
+  },
+  {
+    "title": "AutoHammer",
+    "description": "Randomize blocks on placement for faster building",
+    "tags": [
+      "Quality of Life",
+      "Utility"
+    ],
+    "link": "https://www.curseforge.com/hytale/mods/autohammer",
+    "category": "Quality of Life"
+  },
+  {
+    "title": "[NoCube's] Undead Warriors",
+    "description": "Adds enemy skeletons with random equipment.",
+    "tags": [
+      "Mobs\\Characters",
+      "Mobs\\Characters",
+      "Miscellaneous",
+      "Miscellaneous",
+      "Gameplay",
+      "Gameplay"
+    ],
+    "link": "https://www.curseforge.com/hytale/mods/nocubes-undead-warriors",
+    "category": "Mobs\\Characters"
+  },
+  {
+    "title": "Welcome Message",
+    "description": "💬 Sends players joining the server a configurable Message of the Day!",
+    "tags": [
+      "Utility"
+    ],
+    "link": "https://www.curseforge.com/hytale/mods/welcome-message",
+    "category": "Utility"
+  },
+  {
+    "title": "Macaw's Hy Carpets",
+    "description": "Adds carpets! Currently in 3 sizes and a block variant.",
+    "tags": [
+      "Blocks"
+    ],
+    "link": "https://www.curseforge.com/hytale/mods/macaws-hy-carpets",
+    "category": "Blocks"
+  },
+  {
+    "title": "The Pickaxes Place Torches",
+    "description": "Makes all pickaxes place torches by right clicking when having torches selected in the utility slot",
+    "tags": [
+      "Gameplay",
+      "Quality of Life"
+    ],
+    "link": "https://www.curseforge.com/hytale/mods/the-pickaxes-place-torches",
+    "category": "Gameplay"
+  },
+  {
+    "title": "Macaw's Hy Paintings",
+    "description": "Adds over 90 hand drawn paintings which can be cycled!",
+    "tags": [
+      "Furniture",
+      "Gameplay"
+    ],
+    "link": "https://www.curseforge.com/hytale/mods/macaws-hy-paintings",
+    "category": "Furniture"
+  },
+  {
+    "title": "[NoCube's] Neon Blocks",
+    "description": "Solid-color blocks that glow in the dark! Good for illuminating buildings or using as a green-screen.",
+    "tags": [
+      "Miscellaneous",
+      "Furniture",
+      "Quality of Life",
+      "Utility",
+      "Blocks"
+    ],
+    "link": "https://www.curseforge.com/hytale/mods/nocubes-neon-blocks-hytale",
+    "category": "Miscellaneous"
+  },
+  {
+    "title": "YUNG's HyDungeons",
+    "description": "Adds new procedurally generated dungeon instances!",
+    "tags": [
+      "World Gen",
+      "Gameplay",
+      "Prefab"
+    ],
+    "link": "https://www.curseforge.com/hytale/mods/yungs-hydungeons",
+    "category": "World Gen"
+  },
+  {
+    "title": "MultipleHUD",
+    "description": "A simple mod that allows you to have multiple HUDs present at once.",
+    "tags": [
+      "Library",
+      "Utility"
+    ],
+    "link": "https://www.curseforge.com/hytale/mods/multiplehud",
+    "category": "Library"
+  },
+  {
+    "title": "Infinite Mana",
+    "description": "♾️ All players in the server have infinite mana and can use spells endlessly.",
+    "tags": [
+      "Gameplay",
+      "Utility"
+    ],
+    "link": "https://www.curseforge.com/hytale/mods/infinite-mana",
+    "category": "Gameplay"
+  },
+  {
+    "title": "Violet's Music Players",
+    "description": "Adds interactive music players & music tracks composed by a variety of artists!",
+    "tags": [
+      "Furniture",
+      "Quality of Life"
+    ],
+    "link": "https://www.curseforge.com/hytale/mods/violets-music-players",
+    "category": "Furniture"
+  },
+  {
+    "title": "'Dustrial Decor",
+    "description": "Adds a bunch of metallic building blocks to the game!",
+    "tags": [
+      "Furniture"
+    ],
+    "link": "https://www.curseforge.com/hytale/mods/dustrial-decor",
+    "category": "Furniture"
+  },
+  {
+    "title": "Aspect",
+    "description": "Shared library for all of Up's Hytale mods",
+    "tags": [
+      "Library"
+    ],
+    "link": "https://www.curseforge.com/hytale/mods/aspect",
+    "category": "Library"
+  },
+  {
+    "title": "Violet's Plushies",
+    "description": "Adds several plushies, some with unique SFX!",
+    "tags": [
+      "Furniture"
+    ],
+    "link": "https://www.curseforge.com/hytale/mods/violets-plushies",
+    "category": "Furniture"
+  },
+  {
+    "title": "[NoCube's] Tavern",
+    "description": "Adds hops, brewing, and new decorations! Hytale style.",
+    "tags": [
+      "Food\\Farming",
+      "Furniture",
+      "Quality of Life",
+      "Utility",
+      "Blocks"
+    ],
+    "link": "https://www.curseforge.com/hytale/mods/nocubes-tavern-hytale",
+    "category": "Food\\Farming"
+  },
+  {
+    "title": "SchematicImporter",
+    "description": "A simple and powerful Hytale mod that conveniently converts your .litematic and .schem files to Hytale builds. Allows selecting custom mappings from MC to Hytale Blocks",
+    "tags": [
+      "Quality of Life",
+      "Utility",
+      "Blocks",
+      "Prefab",
+      "Miscellaneous"
+    ],
+    "link": "https://www.curseforge.com/hytale/mods/schematicimporter",
+    "category": "Quality of Life"
+  },
+  {
+    "title": "Simply Trash",
+    "description": "Adds a trash can to easily destroy items!",
+    "tags": [
+      "Blocks",
+      "Quality of Life"
+    ],
+    "link": "https://www.curseforge.com/hytale/mods/simply-trash",
+    "category": "Blocks"
+  },
+  {
+    "title": "Economy",
+    "description": "An economy system for Hytale that adds player wallets, balance checking, and secure money transfers.",
+    "tags": [
+      "Miscellaneous",
+      "Gameplay",
+      "Library",
+      "Utility"
+    ],
+    "link": "https://www.curseforge.com/hytale/mods/economy",
+    "category": "Miscellaneous"
+  },
+  {
+    "title": "Disabled Durability",
+    "description": "❌ Disables durability on all breakable tools, weapons and armour.",
+    "tags": [
+      "Miscellaneous",
+      "Miscellaneous",
+      "Gameplay",
+      "Gameplay"
+    ],
+    "link": "https://www.curseforge.com/hytale/mods/disabled-durability",
+    "category": "Miscellaneous"
+  },
+  {
+    "title": "Ore Crusher",
+    "description": "Adds a Crusher to turn ores into powders",
+    "tags": [
+      "Gameplay"
+    ],
+    "link": "https://www.curseforge.com/hytale/mods/ore-crusher",
+    "category": "Gameplay"
+  },
+  {
+    "title": "Aures - Horse Skins",
+    "description": "Adds a random variations for horses! Also slightly changes the model and animations of horses.",
+    "tags": [
+      "Mobs\\Characters",
+      "Miscellaneous"
+    ],
+    "link": "https://www.curseforge.com/hytale/mods/aures-horse-skins",
+    "category": "Mobs\\Characters"
+  },
+  {
+    "title": "Thorium Furnaces",
+    "description": "Faster Furnaces!",
+    "tags": [
+      "Gameplay",
+      "Blocks",
+      "Utility"
+    ],
+    "link": "https://www.curseforge.com/hytale/mods/thorium-furnaces",
+    "category": "Gameplay"
+  },
+  {
+    "title": "Daily Dad",
+    "description": "A dad joke whenever you log in to a server",
+    "tags": [
+      "Quality of Life"
+    ],
+    "link": "https://www.curseforge.com/hytale/mods/daily-dad",
+    "category": "Quality of Life"
+  },
+  {
+    "title": "First Join Message",
+    "description": "💬 Sends a configurable message to players when they first join a world.",
+    "tags": [
+      "Utility",
+      "Miscellaneous"
+    ],
+    "link": "https://www.curseforge.com/hytale/mods/first-join-message",
+    "category": "Utility"
+  },
+  {
+    "title": "Macaw's Hy Furniture",
+    "description": "Adds Storage Wardrobes, Drawers, Tables, Desks, Chairs..!",
+    "tags": [
+      "Furniture",
+      "Blocks"
+    ],
+    "link": "https://www.curseforge.com/hytale/mods/macaws-hy-furniture",
+    "category": "Furniture"
+  },
+  {
+    "title": "Chat History",
+    "description": "📜 Saves chat history per-player on the server, and sends those on login!",
+    "tags": [
+      "Quality of Life",
+      "Utility"
+    ],
+    "link": "https://www.curseforge.com/hytale/mods/chat-history",
+    "category": "Quality of Life"
+  },
+  {
+    "title": "Eldritch Tales",
+    "description": "Eerie Lovecraftian Biomes & Monsters. ",
+    "tags": [
+      "World Gen",
+      "Mobs\\Characters",
+      "Gameplay",
+      "Blocks"
+    ],
+    "link": "https://www.curseforge.com/hytale/mods/eldritch-tales",
+    "category": "World Gen"
+  },
+  {
+    "title": "DiscordBridge",
+    "description": "Link your Hytale ingame chat to a Discord channel",
+    "tags": [
+      "Quality of Life"
+    ],
+    "link": "https://www.curseforge.com/hytale/mods/discord-bridge",
+    "category": "Quality of Life"
+  },
+  {
+    "title": "[NoCube's] Cultivation",
+    "description": "Make farming more comfortable than ever before!",
+    "tags": [
+      "Food\\Farming",
+      "Food\\Farming",
+      "Quality of Life",
+      "Utility",
+      "Utility",
+      "Miscellaneous",
+      "Miscellaneous",
+      "Gameplay",
+      "Gameplay",
+      "Quality of Life"
+    ],
+    "link": "https://www.curseforge.com/hytale/mods/nocubes-cultivation-hytale",
+    "category": "Food\\Farming"
+  },
+  {
+    "title": "Macaw's Hy Paths",
+    "description": "Adds Paths, Pavings, Blocks, Slabs and Stairs..!",
+    "tags": [
+      "Miscellaneous",
+      "Blocks"
+    ],
+    "link": "https://www.curseforge.com/hytale/mods/macaws-hy-paths",
+    "category": "Miscellaneous"
+  },
+  {
+    "title": "Macaw's Hy Lights and Lamps",
+    "description": "Adds Lamps, Tiki Torches, Candle Holders, Ceiling Lights, Street Lights and more...!",
+    "tags": [
+      "Blocks",
+      "Furniture"
+    ],
+    "link": "https://www.curseforge.com/hytale/mods/macaws-hy-lights-and-lamps",
+    "category": "Blocks"
+  },
+  {
+    "title": "Durability Notifier",
+    "description": "Durability Notifier is a mod that notifies you when your tool hits a configured percentage of durability.",
+    "tags": [
+      "Quality of Life"
+    ],
+    "link": "https://www.curseforge.com/hytale/mods/durability-notifier",
+    "category": "Quality of Life"
+  },
+  {
+    "title": "[NoCube's] Simple Bags",
+    "description": "Adds bags that you can put anything in!",
+    "tags": [
+      "Miscellaneous",
+      "Miscellaneous",
+      "Gameplay",
+      "Gameplay",
+      "Quality of Life",
+      "Utility",
+      "Utility"
+    ],
+    "link": "https://www.curseforge.com/hytale/mods/nocubes-bags",
+    "category": "Miscellaneous"
+  },
+  {
+    "title": "Starter Kit",
+    "description": "📦 Gives players joining the world for the first time configurable starter gear.",
+    "tags": [
+      "Utility",
+      "Gameplay",
+      "Quality of Life"
+    ],
+    "link": "https://www.curseforge.com/hytale/mods/starter-kit",
+    "category": "Utility"
+  },
+  {
+    "title": "Violet's Wardrobe",
+    "description": "Adds more customisation options in the form of craftable cosmetics",
+    "tags": [
+      "Quality of Life"
+    ],
+    "link": "https://www.curseforge.com/hytale/mods/violets-wardrobe",
+    "category": "Quality of Life"
+  },
+  {
+    "title": "One Handed Lanterns",
+    "description": "Makes lanterns one handed and equippable in the off hand slot.",
+    "tags": [
+      "Gameplay",
+      "Quality of Life",
+      "Utility"
+    ],
+    "link": "https://www.curseforge.com/hytale/mods/one-handed-lanterns",
+    "category": "Gameplay"
+  },
+  {
+    "title": "Item Magnet",
+    "description": "Adds a magnet that attracts items towards the player.",
+    "tags": [
+      "Quality of Life",
+      "Gameplay"
+    ],
+    "link": "https://www.curseforge.com/hytale/mods/item-magnet",
+    "category": "Quality of Life"
+  },
+  {
+    "title": "Restored Ruins",
+    "description": "Adds prefabs inspired by the ruins in the game",
+    "tags": [
+      "Prefab",
+      "World Gen"
+    ],
+    "link": "https://www.curseforge.com/hytale/mods/restored-ruins",
+    "category": "Prefab"
+  },
+  {
+    "title": "Landmark",
+    "description": "Server Waypoints that unlock quicktravel locations and explorable points of interest",
+    "tags": [
+      "Gameplay",
+      "Quality of Life",
+      "Utility"
+    ],
+    "link": "https://www.curseforge.com/hytale/mods/landmark",
+    "category": "Gameplay"
+  },
+  {
+    "title": "Ore Harvester",
+    "description": "⛏️ Allows breaking entire ore veins instantly by crouching.",
+    "tags": [
+      "Gameplay",
+      "Quality of Life"
+    ],
+    "link": "https://www.curseforge.com/hytale/mods/ore-harvester",
+    "category": "Gameplay"
+  },
+  {
+    "title": "Where this at?",
+    "description": "Easily find items in all of your chests and get them into your inventory without needing to search 50 chests",
+    "tags": [
+      "Gameplay",
+      "Quality of Life"
+    ],
+    "link": "https://www.curseforge.com/hytale/mods/where-this-at",
+    "category": "Gameplay"
+  },
+  {
+    "title": "EyeSpy",
+    "description": "Adds a HUD that displays information about what you're looking at!",
+    "tags": [
+      "Miscellaneous",
+      "Quality of Life",
+      "Utility"
+    ],
+    "link": "https://www.curseforge.com/hytale/mods/eyespy",
+    "category": "Miscellaneous"
+  },
+  {
+    "title": "Cycle Paintings",
+    "description": "🖼️ Easily cycle through painting variants from all mods!",
+    "tags": [
+      "Quality of Life",
+      "Utility"
+    ],
+    "link": "https://www.curseforge.com/hytale/mods/cycle-paintings",
+    "category": "Quality of Life"
+  },
+  {
+    "title": "Not Enough Poops",
+    "description": "If the classic poop is just not enough.",
+    "tags": [
+      "Miscellaneous"
+    ],
+    "link": "https://www.curseforge.com/hytale/mods/not-enough-poops",
+    "category": "Miscellaneous"
+  },
+  {
+    "title": "Miners Helmet",
+    "description": "Adds a helmet that provides a light source around the player",
+    "tags": [
+      "Gameplay"
+    ],
+    "link": "https://www.curseforge.com/hytale/mods/miners-helmet",
+    "category": "Gameplay"
+  },
+  {
+    "title": "Tree Harvester",
+    "description": "🌲 Cut down trees quickly, including roots. Fill in root holes, replace sapling.",
+    "tags": [
+      "Gameplay",
+      "Quality of Life"
+    ],
+    "link": "https://www.curseforge.com/hytale/mods/tree-harvester",
+    "category": "Gameplay"
+  },
+  {
+    "title": "Recipe Wisdom",
+    "description": "📃 Teaches new players all available recipes when logging into a server.",
+    "tags": [
+      "Miscellaneous",
+      "Gameplay",
+      "Quality of Life",
+      "Quality of Life"
+    ],
+    "link": "https://www.curseforge.com/hytale/mods/recipe-wisdom",
+    "category": "Miscellaneous"
+  },
+  {
+    "title": "Macaw's Hy Windows",
+    "description": "Adds openable Windows, Blinds, Curtains, Shutters, Glass..",
+    "tags": [
+      "Furniture",
+      "Blocks"
+    ],
+    "link": "https://www.curseforge.com/hytale/mods/macaws-hy-windows",
+    "category": "Furniture"
+  },
+  {
+    "title": "[NoCube's] Orchard",
+    "description": "New fruit trees, workstations & artisan products!",
+    "tags": [
+      "Miscellaneous",
+      "Food\\Farming",
+      "Quality of Life",
+      "Utility",
+      "Blocks"
+    ],
+    "link": "https://www.curseforge.com/hytale/mods/nocubes-orchard-hytale",
+    "category": "Miscellaneous"
+  },
+  {
+    "title": "Macaw's Hy Doors",
+    "description": "Adds more doors to fit in your builds!",
+    "tags": [
+      "Blocks"
+    ],
+    "link": "https://www.curseforge.com/hytale/mods/macaws-hy-doors",
+    "category": "Blocks"
+  },
+  {
+    "title": "Infinite Stamina",
+    "description": "♾️ Gives all players in the server an endless supply of stamina.",
+    "tags": [
+      "Gameplay",
+      "Utility"
+    ],
+    "link": "https://www.curseforge.com/hytale/mods/infinite-stamina",
+    "category": "Gameplay"
+  },
+  {
+    "title": "Skyblock by Cinderstone Studios",
+    "description": "Hop through multiple islands in Cinderstone Studios' take on Skyblock for Hytale!",
+    "tags": [
+      "Adventure",
+      "Survival"
+    ],
+    "link": "https://www.curseforge.com/hytale/worlds/skyblock",
+    "category": "Adventure"
+  },
+  {
+    "title": "Quick Crafting",
+    "description": "Allows you to change the crafting time of recipes!",
+    "tags": [
+      "Quality of Life"
+    ],
+    "link": "https://www.curseforge.com/hytale/mods/quick-crafting",
+    "category": "Quality of Life"
+  },
+  {
+    "title": "[NoCube's] Bakehouse",
+    "description": "Grinding flour, baking bread in the oven, and making pastries!",
+    "tags": [
+      "Food\\Farming",
+      "Furniture",
+      "Quality of Life",
+      "Utility",
+      "Blocks"
+    ],
+    "link": "https://www.curseforge.com/hytale/mods/nocubes-bakehouse-hytale",
+    "category": "Food\\Farming"
+  },
+  {
+    "title": "Tales of Borders & Nations",
+    "description": "A simple world protection plugin/mod, whether for a large server or small friend group.",
+    "tags": [
+      "Miscellaneous",
+      "Gameplay",
+      "Utility",
+      "Library"
+    ],
+    "link": "https://www.curseforge.com/hytale/mods/borders-and-nations",
+    "category": "Miscellaneous"
+  },
+  {
+    "title": "LevelingCore",
+    "description": "A modern, flexible leveling system for Hytale",
+    "tags": [
+      "Gameplay",
+      "Quality of Life"
+    ],
+    "link": "https://www.curseforge.com/hytale/mods/levelingcore",
+    "category": "Gameplay"
+  },
+  {
+    "title": "HYKEA",
+    "description": "Add some furniture from far away lands",
+    "tags": [
+      "Furniture"
+    ],
+    "link": "https://www.curseforge.com/hytale/mods/hykea",
+    "category": "Furniture"
+  },
+  {
+    "title": "MOTD",
+    "description": "Adds a message of the day when joining a world/server",
+    "tags": [
+      "Miscellaneous"
+    ],
+    "link": "https://www.curseforge.com/hytale/mods/motd",
+    "category": "Miscellaneous"
+  },
+  {
+    "title": "Thorium Chests",
+    "description": "Bigger chests!",
+    "tags": [
+      "Gameplay",
+      "Quality of Life"
+    ],
+    "link": "https://www.curseforge.com/hytale/mods/thorium-chests",
+    "category": "Gameplay"
+  },
+  {
+    "title": "Better Modlist",
+    "description": "Adds a better modlist to the game, with improved features like searching and logos.",
+    "tags": [
+      "Utility"
+    ],
+    "link": "https://www.curseforge.com/hytale/mods/better-modlist",
+    "category": "Utility"
+  },
+  {
+    "title": "Gone Fishing",
+    "description": "Adds fishing to Hytale",
+    "tags": [
+      "Gameplay",
+      "Food\\Farming"
+    ],
+    "link": "https://www.curseforge.com/hytale/mods/gone-fishing",
+    "category": "Gameplay"
+  },
+  {
+    "title": "Aures Paintings with Dragons",
+    "description": "Paintings with dragons by Black Aures in your world! ",
+    "tags": [
+      "Blocks",
+      "Miscellaneous",
+      "Furniture"
+    ],
+    "link": "https://www.curseforge.com/hytale/mods/aures-paintings-with-dragons",
+    "category": "Blocks"
+  },
+  {
+    "title": "[NoCube's] Culinary",
+    "description": "Adds new foods",
+    "tags": [
+      "Food\\Farming"
+    ],
+    "link": "https://www.curseforge.com/hytale/mods/nocubes-culinary-hytale",
+    "category": "Food\\Farming"
+  },
+  {
+    "title": "Macaw's Hy Stairs",
+    "description": "Adds Stairs with Handrails, and Balcony Railings!",
+    "tags": [
+      "Blocks"
+    ],
+    "link": "https://www.curseforge.com/hytale/mods/macaws-hy-stairs",
+    "category": "Blocks"
+  },
+  {
+    "title": "Simple Claims",
+    "description": "Adds a chunk claim and protection system.",
+    "tags": [
+      "Gameplay",
+      "Utility",
+      "Utility"
+    ],
+    "link": "https://www.curseforge.com/hytale/mods/simple-claims",
+    "category": "Gameplay"
+  },
+  {
+    "title": "[NoCube's] Resource Bags",
+    "description": "Carry more items in special bags & think less about inventory management!",
+    "tags": [
+      "Miscellaneous",
+      "Gameplay",
+      "Quality of Life",
+      "Utility"
+    ],
+    "link": "https://www.curseforge.com/hytale/mods/nocubes-resource-bags",
+    "category": "Miscellaneous"
+  },
+  {
+    "title": "Werchat",
+    "description": "A fully featured chat channel system for Hytale servers. Organize player communication with customizable channels, private messaging, and moderation tools.",
+    "tags": [
+      "Miscellaneous",
+      "Quality of Life",
+      "Utility"
+    ],
+    "link": "https://www.curseforge.com/hytale/mods/werchat",
+    "category": "Miscellaneous"
+  },
+  {
+    "title": "WelcomeTale",
+    "description": "A Hytale server plugin that disables the default join message broadcast and displays custom welcome messages when players join your server.",
+    "tags": [
+      "Utility",
+      "Miscellaneous"
+    ],
+    "link": "https://www.curseforge.com/hytale/mods/welcometale",
+    "category": "Utility"
+  },
+  {
+    "title": "Votifier",
+    "description": "A Votifier-style plugin for Hytale that receives vote notifications from voting websites via webserver and fires events for other plugins to handle rewards.",
+    "tags": [
+      "Miscellaneous",
+      "Utility"
+    ],
+    "link": "https://www.curseforge.com/hytale/mods/votifier",
+    "category": "Miscellaneous"
+  },
+  {
+    "title": "VoteListener",
+    "description": "A vote reward plugin for Hytale servers. Listens for votes from HytaleVotifier and rewards players with configurable commands.",
+    "tags": [
+      "Miscellaneous",
+      "Utility"
+    ],
+    "link": "https://www.curseforge.com/hytale/mods/votelistener",
+    "category": "Miscellaneous"
+  },
+  {
+    "title": "VeinMining",
+    "description": "Instantly mine connected ores and blocks by holding the Walk key (LEFT ALT) while breaking a single block.",
+    "tags": [
+      "Miscellaneous",
+      "Gameplay",
+      "Quality of Life",
+      "Utility"
+    ],
+    "link": "https://www.curseforge.com/hytale/mods/veinmining",
+    "category": "Miscellaneous"
+  },
+  {
+    "title": "Ultimate Veinminer",
+    "description": "Mine entire veins of ores at once!",
+    "tags": [
+      "Gameplay",
+      "Quality of Life",
+      "Utility"
+    ],
+    "link": "https://www.curseforge.com/hytale/mods/ultimate-veinminer",
+    "category": "Gameplay"
+  },
+  {
+    "title": "Traxel's Berserk",
+    "description": "A mod that brings Berserk's vision into Hytale with your favorite weapons. We are open to suggestions. W.I.P",
+    "tags": [
+      "Gameplay",
+      "Miscellaneous"
+    ],
+    "link": "https://www.curseforge.com/hytale/mods/traxels-berserk",
+    "category": "Gameplay"
+  },
+  {
+    "title": "Timers-B-Gone!",
+    "description": "Removes all timers from the current list of craftable items!",
+    "tags": [
+      "Gameplay",
+      "Quality of Life",
+      "Utility"
+    ],
+    "link": "https://www.curseforge.com/hytale/mods/timers-b-gone",
+    "category": "Gameplay"
+  },
+  {
+    "title": "TickSpeed",
+    "description": "Quickly modify the in-game tickspeed with a command.",
+    "tags": [
+      "Miscellaneous",
+      "Quality of Life",
+      "Utility"
+    ],
+    "link": "https://www.curseforge.com/hytale/mods/tickspeed",
+    "category": "Miscellaneous"
+  },
+  {
+    "title": "Throwable Explosives",
+    "description": "Hytale mod adding 3 throwable and craftable explosives - The Explosive Bomb, Dynamite Stick and Nuclear Grenade, each dealing damage to blocks and entities",
+    "tags": [
+      "Miscellaneous",
+      "Gameplay"
+    ],
+    "link": "https://www.curseforge.com/hytale/mods/throwable-explosives",
+    "category": "Miscellaneous"
+  },
+  {
+    "title": "Telegram Chain",
+    "description": "Two-way integration with Telegram",
+    "tags": [
+      "Utility",
+      "Quality of Life"
+    ],
+    "link": "https://www.curseforge.com/hytale/mods/telegram-chain",
+    "category": "Utility"
+  },
+  {
+    "title": "Storage Range Override",
+    "description": "Overrides the range of storage blocks for benches.",
+    "tags": [
+      "Gameplay",
+      "Quality of Life",
+      "Utility"
+    ],
+    "link": "https://www.curseforge.com/hytale/mods/storage-range-override",
+    "category": "Gameplay"
+  },
+  {
+    "title": "SouzaPlot",
+    "description": "SouzaPlot brings the classic PlotMe/PlotSquared experience to Hytale. Create a dedicated plot world where players can claim their own land, build freely, and protect their creations from others",
+    "tags": [
+      "Miscellaneous",
+      "Utility"
+    ],
+    "link": "https://www.curseforge.com/hytale/mods/souzaplot",
+    "category": "Miscellaneous"
+  },
+  {
+    "title": "Sound Control Panel",
+    "description": "Allows individual control over every sound in Hytale.",
+    "tags": [
+      "Gameplay",
+      "Quality of Life",
+      "Utility"
+    ],
+    "link": "https://www.curseforge.com/hytale/mods/sound-control-panel",
+    "category": "Gameplay"
+  },
+  {
+    "title": "Smart Targeting - PVP Fix",
+    "description": "Smart Targeting prevents players from hitting mobs and other players at the same time, which made fighting the same the enemy with PVP on unbareable.",
+    "tags": [
+      "Gameplay",
+      "Quality of Life"
+    ],
+    "link": "https://www.curseforge.com/hytale/mods/smart-targeting-pvp-fix",
+    "category": "Gameplay"
+  },
+  {
+    "title": "Small village",
+    "description": "Small survival starter village",
+    "tags": [
+      "Adventure"
+    ],
+    "link": "https://www.curseforge.com/hytale/worlds/small-village",
+    "category": "Adventure"
+  },
+  {
+    "title": "Sleepy",
+    "description": "Modifies sleep behavior to allow sleeping when at least 50% of players are in bed",
+    "tags": [
+      "Gameplay",
+      "Quality of Life",
+      "Utility",
+      "Miscellaneous"
+    ],
+    "link": "https://www.curseforge.com/hytale/mods/sleepy",
+    "category": "Gameplay"
+  },
+  {
+    "title": "Sleep Regeneration",
+    "description": "Regenerate full life when you sleep.",
+    "tags": [
+      "Quality of Life",
+      "Utility"
+    ],
+    "link": "https://www.curseforge.com/hytale/mods/sleep-regeneration",
+    "category": "Quality of Life"
+  },
+  {
+    "title": "Sleep Percentage - Set Players Needed To Sleep",
+    "description": "Set the percentage of players that must be in bed for night to pass",
+    "tags": [
+      "Quality of Life",
+      "Gameplay"
+    ],
+    "link": "https://www.curseforge.com/hytale/mods/sleep-percentage-set-players-needed-to-sleep",
+    "category": "Quality of Life"
+  },
+  {
+    "title": "Sleep Percentage",
+    "description": "Allows night to be skipped when a percentage of players are sleeping instead of requiring all players to be asleep",
+    "tags": [
+      "Quality of Life",
+      "Utility"
+    ],
+    "link": "https://www.curseforge.com/hytale/mods/sleep-percentage",
+    "category": "Quality of Life"
+  },
+  {
+    "title": "Simple Starter Kit",
+    "description": "Spawn with a some starter food and gear to get straight into Hytale!",
+    "tags": [
+      "Quality of Life",
+      "Utility"
+    ],
+    "link": "https://www.curseforge.com/hytale/mods/simple-starter-kit",
+    "category": "Quality of Life"
+  },
+  {
+    "title": "Simple Spawn Protection",
+    "description": "Adds a 100 block radius spawn protection with perms for OP.",
+    "tags": [
+      "Utility"
+    ],
+    "link": "https://www.curseforge.com/hytale/mods/simple-spawn-protection",
+    "category": "Utility"
+  },
+  {
+    "title": "Simple Glass Block",
+    "description": "A simple block of glass",
+    "tags": [
+      "Blocks"
+    ],
+    "link": "https://www.curseforge.com/hytale/mods/simple-glass",
+    "category": "Blocks"
+  },
+  {
+    "title": "Shovel Digs One Block",
+    "description": "Change shovel mechanic to dig only 1 block instead of multiples. Adjust Digging speed and durability. Add Crude Shovel crafting recipe",
+    "tags": [
+      "Quality of Life",
+      "Gameplay"
+    ],
+    "link": "https://www.curseforge.com/hytale/mods/shovel-digs-one-block",
+    "category": "Quality of Life"
+  },
+  {
+    "title": "Shared Structures",
+    "description": "Allows asset packs to generate structures in existing zones and biomes",
+    "tags": [
+      "World Gen",
+      "Utility",
+      "Library",
+      "Prefab"
+    ],
+    "link": "https://www.curseforge.com/hytale/mods/shared-structures",
+    "category": "World Gen"
+  },
+  {
+    "title": "Server Utils - TPA",
+    "description": "Adds the /tpa and /tpaccept. I will also be adding more utility commands into this mod so it adds a lot of QOL commands for players to enjoy!",
+    "tags": [
+      "Quality of Life",
+      "Miscellaneous",
+      "Gameplay",
+      "Utility"
+    ],
+    "link": "https://www.curseforge.com/hytale/mods/server-utils-tpa",
+    "category": "Quality of Life"
+  },
+  {
+    "title": "Server Plugin | OPMarker | Simple OP chat prefix for server operators",
+    "description": "Mark Operator players as [OP] playerName: {message}",
+    "tags": [
+      "Miscellaneous",
+      "Utility"
+    ],
+    "link": "https://www.curseforge.com/hytale/mods/server-plugin-opmarker-simple-op-chat-prefix-for",
+    "category": "Miscellaneous"
+  },
+  {
+    "title": "Secret Chests - Core Addition",
+    "description": "Functional hidden chests disguised as regular building blocks.",
+    "tags": [
+      "Furniture",
+      "Miscellaneous",
+      "Quality of Life",
+      "Utility",
+      "Blocks"
+    ],
+    "link": "https://www.curseforge.com/hytale/mods/secret-chests-core-addition",
+    "category": "Furniture"
+  },
+  {
+    "title": "Scaled Sleep 25% Of Players",
+    "description": "Scaled Sleep lets a configurable percentage of players sleeping skip the night on a Hytale server, scaling with online player count",
+    "tags": [
+      "Quality of Life",
+      "Utility",
+      "Miscellaneous"
+    ],
+    "link": "https://www.curseforge.com/hytale/mods/scaled-sleep",
+    "category": "Quality of Life"
+  },
+  {
+    "title": "Saplings on Logs",
+    "description": "Allow saplings to be place on logs, allowing you to replant saplings without clearing the wood below ground",
+    "tags": [
+      "Quality of Life"
+    ],
+    "link": "https://www.curseforge.com/hytale/mods/saplings-on-logs",
+    "category": "Quality of Life"
+  },
+  {
+    "title": "Saplings From Trees",
+    "description": "Makes some saplings drop from their respective trees",
+    "tags": [
+      "Quality of Life"
+    ],
+    "link": "https://www.curseforge.com/hytale/mods/saplings-from-trees",
+    "category": "Quality of Life"
+  },
+  {
+    "title": "Random Teleport",
+    "description": "The Random Teleport plugin for Hytale is a utility designed to enhance world exploration by instantly transporting players to uncharted locations across the map.",
+    "tags": [
+      "Miscellaneous",
+      "Utility"
+    ],
+    "link": "https://www.curseforge.com/hytale/mods/random-teleport",
+    "category": "Miscellaneous"
+  },
+  {
+    "title": "Private Messaging",
+    "description": "Simple commands allowing users to privately message each other on Hytale",
+    "tags": [
+      "Utility",
+      "Gameplay",
+      "Quality of Life"
+    ],
+    "link": "https://www.curseforge.com/hytale/mods/private-messaging",
+    "category": "Utility"
+  },
+  {
+    "title": "Perfect Parries",
+    "description": "Adds a souls-like/RPG combat mechanic where if you block at the instant where you are supposed to take damage, you don't lose stamina and deflect some damage back.",
+    "tags": [
+      "Gameplay"
+    ],
+    "link": "https://www.curseforge.com/hytale/mods/perfect-parries",
+    "category": "Gameplay"
+  },
+  {
+    "title": "Party System",
+    "description": "A simple party system that you can create and invite your friends to adventure the universe and dont hit each other",
+    "tags": [
+      "Gameplay"
+    ],
+    "link": "https://www.curseforge.com/hytale/mods/party-system",
+    "category": "Gameplay"
+  },
+  {
+    "title": "Parkour Trials - One Step",
+    "description": "A challenging parkour course exploring Hytale's movement mechanics.",
+    "tags": [
+      "Parkour"
+    ],
+    "link": "https://www.curseforge.com/hytale/worlds/parkour-trials-one-step",
+    "category": "Parkour"
+  },
+  {
+    "title": "OP Pickaxe",
+    "description": "This mod adds an overpowered wooden pickaxe to the game.",
+    "tags": [
+      "Miscellaneous"
+    ],
+    "link": "https://www.curseforge.com/hytale/mods/op-pickaxe",
+    "category": "Miscellaneous"
+  },
+  {
+    "title": "nui's Invisible Armors",
+    "description": "Adds invisible variants for every armor set in the game! Let your fancy cosmetics be seen!",
+    "tags": [
+      "Mobs\\Characters",
+      "Gameplay",
+      "Quality of Life"
+    ],
+    "link": "https://www.curseforge.com/hytale/mods/nuis-invisible-armors",
+    "category": "Mobs\\Characters"
+  },
+  {
+    "title": "Noel's Whitelist Manager",
+    "description": "A simple utility to manage your Hytale server whitelist with a GUI.",
+    "tags": [
+      "Utility",
+      "Library"
+    ],
+    "link": "https://www.curseforge.com/hytale/mods/noels-whitelist-manager",
+    "category": "Utility"
+  },
+  {
+    "title": "No Drop",
+    "description": "Simple Mod to prevent players from dropping ANY items from their inventory!",
+    "tags": [
+      "Utility"
+    ],
+    "link": "https://www.curseforge.com/hytale/mods/no-drop",
+    "category": "Utility"
+  },
+  {
+    "title": "NickNameMod",
+    "description": "Change nickname in game",
+    "tags": [
+      "Utility"
+    ],
+    "link": "https://www.curseforge.com/hytale/mods/nicknamemod",
+    "category": "Utility"
+  },
+  {
+    "title": "MyTpa",
+    "description": "A simple tpa plugin for your Hytale server! ",
+    "tags": [
+      "Miscellaneous",
+      "Quality of Life",
+      "Utility"
+    ],
+    "link": "https://www.curseforge.com/hytale/mods/mytpa",
+    "category": "Miscellaneous"
+  },
+  {
+    "title": "Multitools",
+    "description": "Adds a pickaxe–hatchet multitools!",
+    "tags": [
+      "Gameplay",
+      "Quality of Life"
+    ],
+    "link": "https://www.curseforge.com/hytale/mods/multitools",
+    "category": "Gameplay"
+  },
+  {
+    "title": "MovementCommands",
+    "description": "Collection of commands for modifying player movement properties,toggle fly, change speeds, invert gravity and more!",
+    "tags": [
+      "Utility",
+      "Miscellaneous",
+      "Quality of Life",
+      "Library"
+    ],
+    "link": "https://www.curseforge.com/hytale/mods/movementcommands",
+    "category": "Utility"
+  },
+  {
+    "title": "More Essence of Water Drops",
+    "description": "Makes it so every single swimming mob drops Essence of Water.",
+    "tags": [
+      "Mobs\\Characters",
+      "Miscellaneous",
+      "Quality of Life"
+    ],
+    "link": "https://www.curseforge.com/hytale/mods/more-essence-of-water-drops",
+    "category": "Mobs\\Characters"
+  },
+  {
+    "title": "Moon of Equestria",
+    "description": "This mod replaces Hytale’s full moon with Princess Luna’s moon from My Little Pony",
+    "tags": [
+      "Miscellaneous"
+    ],
+    "link": "https://www.curseforge.com/hytale/mods/moon-of-equestria",
+    "category": "Miscellaneous"
+  },
+  {
+    "title": "MiningAlerts",
+    "description": "Announces when players find ores in your server!",
+    "tags": [
+      "Utility",
+      "Miscellaneous",
+      "Quality of Life"
+    ],
+    "link": "https://www.curseforge.com/hytale/mods/miningalerts",
+    "category": "Utility"
+  },
+  {
+    "title": "Lumenia",
+    "description": "Lumenia: JEI and other QoL a comprehensive utility and enhancement mod designed to streamline the player experience. You can see how to craft and where is it used a searched item",
+    "tags": [
+      "Miscellaneous",
+      "Quality of Life"
+    ],
+    "link": "https://www.curseforge.com/hytale/mods/lumenia",
+    "category": "Miscellaneous"
+  },
+  {
+    "title": "Lightsabers of Orbis!",
+    "description": "Adds 5 Lightsabers to Hytale! Just colour swaps at the moment. Although one is Dual Wield :)",
+    "tags": [
+      "Gameplay",
+      "Miscellaneous"
+    ],
+    "link": "https://www.curseforge.com/hytale/mods/orbis-lightsabers",
+    "category": "Gameplay"
+  },
+  {
+    "title": "Lendills Stack Size",
+    "description": "Stack sizes changed!",
+    "tags": [
+      "Gameplay",
+      "Quality of Life"
+    ],
+    "link": "https://www.curseforge.com/hytale/mods/lendills-stack-size",
+    "category": "Gameplay"
+  },
+  {
+    "title": "Kyv Vanish",
+    "description": "Toggle player invisibility and hide map markers in Hytale with /vanish command.",
+    "tags": [
+      "Mobs\\Characters",
+      "Gameplay",
+      "Utility"
+    ],
+    "link": "https://www.curseforge.com/hytale/mods/kyv-vanish",
+    "category": "Mobs\\Characters"
+  },
+  {
+    "title": "Kotale Kotlin Libraries",
+    "description": "Provides shaded Kotlin libraries for hytale",
+    "tags": [
+      "Library",
+      "Utility"
+    ],
+    "link": "https://www.curseforge.com/hytale/mods/kotale-kotlin-libraries",
+    "category": "Library"
+  },
+  {
+    "title": "Keep Inventory",
+    "description": "Keep your entire inventory on death!",
+    "tags": [
+      "Quality of Life",
+      "Utility",
+      "Gameplay"
+    ],
+    "link": "https://www.curseforge.com/hytale/mods/keep-inventory",
+    "category": "Quality of Life"
+  },
+  {
+    "title": "Iron Mining Hammer",
+    "description": "An iron mining hammer that somewhat mines in a 3x3",
+    "tags": [
+      "Gameplay",
+      "Quality of Life"
+    ],
+    "link": "https://www.curseforge.com/hytale/mods/ironmininghammer",
+    "category": "Gameplay"
+  },
+  {
+    "title": "Invisible Armors",
+    "description": "Makes the six crafted armor types have invisible variants so you can see your player customization!",
+    "tags": [
+      "Mobs\\Characters",
+      "Miscellaneous"
+    ],
+    "link": "https://www.curseforge.com/hytale/mods/invisible-armors",
+    "category": "Mobs\\Characters"
+  },
+  {
+    "title": "Increase Crafting Inventory Radius",
+    "description": "Adds a GUI that allows you to change the horizontal, vertical and number of chests used in workbenches for crafting inventory.",
+    "tags": [
+      "Quality of Life",
+      "Gameplay"
+    ],
+    "link": "https://www.curseforge.com/hytale/mods/increase-crafting-inventory-radius",
+    "category": "Quality of Life"
+  },
+  {
+    "title": "HyVault",
+    "description": "Economy API for Hytale plugins - Similar to Vault for Minecraft.",
+    "tags": [
+      "Miscellaneous",
+      "Utility",
+      "Library"
+    ],
+    "link": "https://www.curseforge.com/hytale/mods/hyvault",
+    "category": "Miscellaneous"
+  },
+  {
+    "title": "HyConomy",
+    "description": "A simple Economy plugin for Hytale.",
+    "tags": [
+      "Gameplay",
+      "Quality of Life",
+      "Utility"
+    ],
+    "link": "https://www.curseforge.com/hytale/mods/hyconomy",
+    "category": "Gameplay"
+  },
+  {
+    "title": "HyCommands",
+    "description": "A server side mod that adds /home /sethome /spawn /homes and much more ...",
+    "tags": [
+      "Miscellaneous",
+      "Quality of Life",
+      "Quality of Life",
+      "Utility",
+      "Utility",
+      "Miscellaneous"
+    ],
+    "link": "https://www.curseforge.com/hytale/mods/hycommands",
+    "category": "Miscellaneous"
+  },
+  {
+    "title": "HyBroadcaster",
+    "description": "A powerful administration tool for broadcasting custom toast notifications and screen titles.",
+    "tags": [
+      "Miscellaneous",
+      "Quality of Life",
+      "Utility"
+    ],
+    "link": "https://www.curseforge.com/hytale/mods/hybroadcaster",
+    "category": "Miscellaneous"
+  },
+  {
+    "title": "HomesPlus",
+    "description": "A fully configurable home teleportation plugin that lets players set, manage, and teleport to multiple named homes with rank-based limits and delays. Teleports will also cancel on move or damage. Fully customizable config.",
+    "tags": [
+      "Quality of Life",
+      "Miscellaneous",
+      "Gameplay",
+      "Utility"
+    ],
+    "link": "https://www.curseforge.com/hytale/mods/homesplus",
+    "category": "Quality of Life"
+  },
+  {
+    "title": "Home Manager",
+    "description": "A lightweight home teleportation plugin with persistent storage, configurable limits, and a 5-second warmup system. No permissions required for players.",
+    "tags": [
+      "Miscellaneous",
+      "Gameplay",
+      "Utility"
+    ],
+    "link": "https://www.curseforge.com/hytale/mods/homemanager",
+    "category": "Miscellaneous"
+  },
+  {
+    "title": "Hola",
+    "description": "Greets new players on chat!",
+    "tags": [
+      "Quality of Life",
+      "Utility",
+      "Miscellaneous"
+    ],
+    "link": "https://www.curseforge.com/hytale/mods/hola",
+    "category": "Quality of Life"
+  },
+  {
+    "title": "Hidden Armor!",
+    "description": "Show Off That Avatar!",
+    "tags": [
+      "Mobs\\Characters",
+      "Miscellaneous",
+      "Gameplay",
+      "Quality of Life",
+      "Utility"
+    ],
+    "link": "https://www.curseforge.com/hytale/mods/hidden-armor",
+    "category": "Mobs\\Characters"
+  },
+  {
+    "title": "Havenstale Ranks",
+    "description": "Add ranks to your server! If you want to have colored chat, permissions and more. this is the plugin for you",
+    "tags": [
+      "Library",
+      "Utility"
+    ],
+    "link": "https://www.curseforge.com/hytale/mods/havenstale-ranks",
+    "category": "Library"
+  },
+  {
+    "title": "Go AFK",
+    "description": "A simple AFK status plugin for Hytale servers.",
+    "tags": [
+      "Gameplay",
+      "Quality of Life",
+      "Utility"
+    ],
+    "link": "https://www.curseforge.com/hytale/mods/go-afk",
+    "category": "Gameplay"
+  },
+  {
+    "title": "German Translation",
+    "description": "A german language translation for Hytale Eearly Access",
+    "tags": [
+      "Gameplay",
+      "Quality of Life"
+    ],
+    "link": "https://www.curseforge.com/hytale/mods/german-translation",
+    "category": "Gameplay"
+  },
+  {
+    "title": "Explosive Mines - Core Addition",
+    "description": "Adds plenty of explosive mines, normal looking blocks but very explosive! To troll or defend your base. ",
+    "tags": [
+      "Furniture",
+      "Gameplay",
+      "Utility",
+      "Blocks"
+    ],
+    "link": "https://www.curseforge.com/hytale/mods/explosive-mines-core-addition",
+    "category": "Furniture"
+  },
+  {
+    "title": "Epics Potion Trader",
+    "description": "[Epics] Potion Trader",
+    "tags": [
+      "Quality of Life",
+      "Gameplay",
+      "Miscellaneous"
+    ],
+    "link": "https://www.curseforge.com/hytale/mods/epics-potion-trader",
+    "category": "Quality of Life"
+  },
+  {
+    "title": "Entity Spawn Eggs",
+    "description": "Adds spawn eggs for all the entities in the game",
+    "tags": [
+      "Quality of Life",
+      "Food\\Farming"
+    ],
+    "link": "https://www.curseforge.com/hytale/mods/entity-spawn-eggs",
+    "category": "Quality of Life"
+  },
+  {
+    "title": "Economies",
+    "description": "A simple library to implements economies on server",
+    "tags": [
+      "Gameplay",
+      "Library"
+    ],
+    "link": "https://www.curseforge.com/hytale/mods/economies",
+    "category": "Gameplay"
+  },
+  {
+    "title": "EasyWebMap",
+    "description": "Live web map for Hytale servers. View your world in a browser with real-time player tracking, direction arrows, and click-to-locate. Embed on your website with iframe or build custom tools with the REST API. Uses Hytale's native map rendering.",
+    "tags": [
+      "Quality of Life",
+      "Utility"
+    ],
+    "link": "https://www.curseforge.com/hytale/mods/easywebmap",
+    "category": "Quality of Life"
+  },
+  {
+    "title": "EasyTPA",
+    "description": "Let players teleport to each other! Use /tpa to request, /tpaccept to accept. Includes warmup timer, cooldowns, and /tpatoggle to block requests. Simple setup - just drop in your mods folder.",
+    "tags": [
+      "Quality of Life",
+      "Gameplay",
+      "Miscellaneous",
+      "Utility"
+    ],
+    "link": "https://www.curseforge.com/hytale/mods/easytpa",
+    "category": "Quality of Life"
+  },
+  {
+    "title": "Duondurila's Wooden Sword Asset Pack",
+    "description": "Adds a wooden sword in the pocket crafting and workbench",
+    "tags": [
+      "Miscellaneous",
+      "Gameplay",
+      "Utility"
+    ],
+    "link": "https://www.curseforge.com/hytale/mods/duondurilas-wooden-sword-asset-pack",
+    "category": "Miscellaneous"
+  },
+  {
+    "title": "DisTale",
+    "description": "A simple but complete Hytale <> Discord chat bridge.",
+    "tags": [
+      "Utility"
+    ],
+    "link": "https://www.curseforge.com/hytale/mods/distale",
+    "category": "Utility"
+  },
+  {
+    "title": "Discord Link",
+    "description": "Connect your in-game chat to your Discord server for bi-directional communication!",
+    "tags": [
+      "Quality of Life",
+      "Utility"
+    ],
+    "link": "https://www.curseforge.com/hytale/mods/hytale-discord-link",
+    "category": "Quality of Life"
+  },
+  {
+    "title": "Discord Integration",
+    "description": "Two way chat bridge between Hytale server and Discord with player data tracking.",
+    "tags": [
+      "Utility"
+    ],
+    "link": "https://www.curseforge.com/hytale/mods/discord-integration",
+    "category": "Utility"
+  },
+  {
+    "title": "Death Return",
+    "description": "Adds a simple command to return back to your latest death point /tpDeath to return",
+    "tags": [
+      "Gameplay",
+      "Quality of Life"
+    ],
+    "link": "https://www.curseforge.com/hytale/mods/death-stones",
+    "category": "Gameplay"
+  },
+  {
+    "title": "Custom Welcome Messages",
+    "description": "A simple Hytale plugin that sends custom welcome messages when players join your server.",
+    "tags": [
+      "Gameplay",
+      "Quality of Life",
+      "Utility"
+    ],
+    "link": "https://www.curseforge.com/hytale/mods/custom-welcome-messages",
+    "category": "Gameplay"
+  },
+  {
+    "title": "Cubia's Floating Candles",
+    "description": "Adds floating animated candles to Hytale.",
+    "tags": [
+      "Furniture"
+    ],
+    "link": "https://www.curseforge.com/hytale/mods/cubias-floating-candles",
+    "category": "Furniture"
+  },
+  {
+    "title": "Complete Campfires",
+    "description": "Allows you to use naturally spawning campfires as, well, campfires.",
+    "tags": [
+      "Gameplay",
+      "Quality of Life",
+      "Blocks"
+    ],
+    "link": "https://www.curseforge.com/hytale/mods/complete-campfires",
+    "category": "Gameplay"
+  },
+  {
+    "title": "Command Abbreviation Config",
+    "description": "Create abbreviations for commands you frequently use.",
+    "tags": [
+      "Miscellaneous",
+      "Quality of Life",
+      "Utility"
+    ],
+    "link": "https://www.curseforge.com/hytale/mods/command-abbreviation-config",
+    "category": "Miscellaneous"
+  },
+  {
+    "title": "Clearity",
+    "description": "Clearity is a lightweight Hytale plugin that automatically clears dropped items on a configurable timer to reduce server lag and improve performance.",
+    "tags": [
+      "Quality of Life",
+      "Utility"
+    ],
+    "link": "https://www.curseforge.com/hytale/mods/clearity",
+    "category": "Quality of Life"
+  },
+  {
+    "title": "ClearChat",
+    "description": "A lightweight Hytale plugin to instantly clear the global chat for all players. Simple, efficient, and easy to use.",
+    "tags": [
+      "Utility"
+    ],
+    "link": "https://www.curseforge.com/hytale/mods/clearchat",
+    "category": "Utility"
+  },
+  {
+    "title": "ChestRangeMod",
+    "description": "Allows configuring horizontal/vertical search radius and chest limit via config.json",
+    "tags": [
+      "Gameplay",
+      "Quality of Life",
+      "Miscellaneous"
+    ],
+    "link": "https://www.curseforge.com/hytale/mods/chestrangemod",
+    "category": "Gameplay"
+  },
+  {
+    "title": "Chest Terminal",
+    "description": "The mod adds a block that automatically distributes items into chests within a radius of 50 blocks.",
+    "tags": [
+      "Utility"
+    ],
+    "link": "https://www.curseforge.com/hytale/mods/chest-terminal",
+    "category": "Utility"
+  },
+  {
+    "title": "Brazilian Portuguese Translation",
+    "description": "Brazilian Portuguese (PT-BR) translation pack for Hytale. Includes translated menus, UI elements, and interface. Work in progress - not 100% complete or fully reviewed.",
+    "tags": [
+      "Miscellaneous",
+      "Quality of Life"
+    ],
+    "link": "https://www.curseforge.com/hytale/mods/brazilian-portuguese-translation",
+    "category": "Miscellaneous"
+  },
+  {
+    "title": "Blahaj Plushie",
+    "description": "Bring Blahaj into your home!",
+    "tags": [
+      "Blocks",
+      "Furniture"
+    ],
+    "link": "https://www.curseforge.com/hytale/mods/blahaj-plushie",
+    "category": "Blocks"
+  },
+  {
+    "title": "Blackbox",
+    "description": "Your server’s “what just happened?” button. An incident recorder that turns mystery lag into a tidy zip you can actually act on.",
+    "tags": [
+      "Quality of Life",
+      "Utility"
+    ],
+    "link": "https://www.curseforge.com/hytale/mods/blackbox",
+    "category": "Quality of Life"
+  },
+  {
+    "title": "Bigger ore stacks",
+    "description": "This mod makes the ore stacks bigger (100)",
+    "tags": [
+      "Quality of Life"
+    ],
+    "link": "https://www.curseforge.com/hytale/mods/bigger-ore-stacks",
+    "category": "Quality of Life"
+  },
+  {
+    "title": "Bettertale",
+    "description": "Enhances stuff that did not feel right in the vanilla game without feeling out of place, overhauls the Zone1 sun/moon and weather to be more realistic for example!",
+    "tags": [
+      "Gameplay",
+      "Quality of Life"
+    ],
+    "link": "https://www.curseforge.com/hytale/mods/bettertale",
+    "category": "Gameplay"
+  },
+  {
+    "title": "Better Item Viewer",
+    "description": "Adds an item viewer with a bunch of extra information about tools, weapons and other items that are not visible in the base game",
+    "tags": [
+      "Quality of Life",
+      "Miscellaneous",
+      "Utility"
+    ],
+    "link": "https://www.curseforge.com/hytale/mods/better-item-viewer",
+    "category": "Quality of Life"
+  },
+  {
+    "title": "Auto Announce",
+    "description": "Auto Announcer Mod for everyone to see in your server. Supports colors, delays, and multiple messages!",
+    "tags": [
+      "Utility"
+    ],
+    "link": "https://www.curseforge.com/hytale/mods/auto-announce",
+    "category": "Utility"
+  },
+  {
+    "title": "Anti Spam",
+    "description": "Set a configurable delay before players can chat again!",
+    "tags": [
+      "Utility"
+    ],
+    "link": "https://www.curseforge.com/hytale/mods/anti-spam",
+    "category": "Utility"
+  },
+  {
+    "title": "AlertServer",
+    "description": "A simple Hytale server plugin that displays customizable in-game alert titles to players.",
+    "tags": [
+      "Survival"
+    ],
+    "link": "https://www.curseforge.com/hytale/worlds/alertserver",
+    "category": "Survival"
+  },
+  {
+    "title": "Advanced Crafting",
+    "description": "Adjust crafting costs, speed, and prerequisites; toggle item crafting on or off; and modify recipe ingredients and results.",
+    "tags": [
+      "Gameplay",
+      "Quality of Life"
+    ],
+    "link": "https://www.curseforge.com/hytale/mods/advanced-crafting",
+    "category": "Gameplay"
+  },
+  {
+    "title": "[Moonlight] Unify",
+    "description": "A Discord Chat bridge for Hytale Servers.",
+    "tags": [
+      "Quality of Life"
+    ],
+    "link": "https://www.curseforge.com/hytale/mods/moonlight-unify",
+    "category": "Quality of Life"
+  },
+  {
+    "title": "Zard's Sick Glowys",
+    "description": "Adds simple colored glowy blocks.",
+    "tags": [
+      "Miscellaneous",
+      "Blocks"
+    ],
+    "link": "https://www.curseforge.com/hytale/mods/glowys",
+    "category": "Miscellaneous"
+  },
+  {
+    "title": "Warps",
+    "description": "Warps is a server-wide teleportation plugin that lets admins create named warp points",
+    "tags": [
+      "Utility"
+    ],
+    "link": "https://www.curseforge.com/hytale/mods/warps",
+    "category": "Utility"
+  },
+  {
+    "title": "Wan's Wonder Weapons",
+    "description": "A collection of unique weapons for Hytale, new \"relics\" blending elemental power, dark magic, and a touch of absurdity!",
+    "tags": [
+      "Gameplay",
+      "Miscellaneous",
+      "Utility"
+    ],
+    "link": "https://www.curseforge.com/hytale/mods/wans-wonder-weapons",
+    "category": "Gameplay"
+  },
+  {
+    "title": "Wan's Farting Wonders",
+    "description": "Most awaited Hytale mod! Fart with friends!",
+    "tags": [
+      "Miscellaneous",
+      "Gameplay",
+      "Quality of Life",
+      "Utility"
+    ],
+    "link": "https://www.curseforge.com/hytale/mods/wans-farting-wonders",
+    "category": "Miscellaneous"
+  },
+  {
+    "title": "Vein Miner",
+    "description": "Automatically mines connected ores when a block is broken. Supports all ore types identified by group or naming convention.",
+    "tags": [
+      "Miscellaneous",
+      "Gameplay",
+      "Utility",
+      "Quality of Life",
+      "Blocks"
+    ],
+    "link": "https://www.curseforge.com/hytale/mods/vein-miner",
+    "category": "Miscellaneous"
+  },
+  {
+    "title": "Useful Sticks",
+    "description": "Repurpose Sticks into Wood Logs or Planks and the other way around!",
+    "tags": [
+      "Quality of Life",
+      "Miscellaneous"
+    ],
+    "link": "https://www.curseforge.com/hytale/mods/useful-sticks",
+    "category": "Quality of Life"
+  },
+  {
+    "title": "Tradução Brasileira",
+    "description": "A translation for the game Hytale in Brazilian Portuguese.",
+    "tags": [
+      "Utility",
+      "Quality of Life"
+    ],
+    "link": "https://www.curseforge.com/hytale/mods/traducao-brasileira",
+    "category": "Utility"
+  },
+  {
+    "title": "Stamina Rebalance",
+    "description": "Rebalances stamina consumption and regeneration.",
+    "tags": [
+      "Miscellaneous"
+    ],
+    "link": "https://www.curseforge.com/hytale/mods/stamina-rebalance",
+    "category": "Miscellaneous"
+  },
+  {
+    "title": "spark",
+    "description": "spark is a performance profiler mod for Hytale.",
+    "tags": [
+      "Utility"
+    ],
+    "link": "https://www.curseforge.com/hytale/mods/spark",
+    "category": "Utility"
+  },
+  {
+    "title": "Spanish Translation",
+    "description": "Add a Spanish translation of the game. --- Añade una traducción del juego al español.",
+    "tags": [
+      "Miscellaneous",
+      "Quality of Life"
+    ],
+    "link": "https://www.curseforge.com/hytale/mods/hytale-spanish-translation",
+    "category": "Miscellaneous"
+  },
+  {
+    "title": "Skull Arena PVP/PVE",
+    "description": "Skull Arena PVP/PVE   Epic mob battles, player battles with chests full of weapons, staffs and bows included!",
+    "tags": [
+      "Adventure",
+      "Minigames"
+    ],
+    "link": "https://www.curseforge.com/hytale/worlds/skull-arena-pvp-pve",
+    "category": "Adventure"
+  },
+  {
+    "title": "SimpleHomes",
+    "description": "A basic /home plugin",
+    "tags": [
+      "Quality of Life",
+      "Utility"
+    ],
+    "link": "https://www.curseforge.com/hytale/mods/simplehomes",
+    "category": "Quality of Life"
+  },
+  {
+    "title": "SimpleEssentials",
+    "description": "Adds useful commands for players",
+    "tags": [
+      "Quality of Life",
+      "Utility"
+    ],
+    "link": "https://www.curseforge.com/hytale/mods/simpleessentials",
+    "category": "Quality of Life"
+  },
+  {
+    "title": "Safezones",
+    "description": "Command-based safezones. Simply use /safezone for all commands!",
+    "tags": [
+      "Quality of Life"
+    ],
+    "link": "https://www.curseforge.com/hytale/mods/safezones",
+    "category": "Quality of Life"
+  },
+  {
+    "title": "Re:Zero Return By Death (Respawn Sound)",
+    "description": "Replace the respawn sounds effect with the Return By Death sound effect from the anime Re:Zero",
+    "tags": [
+      "Miscellaneous"
+    ],
+    "link": "https://www.curseforge.com/hytale/mods/re-zero-return-by-death-respawn-sound",
+    "category": "Miscellaneous"
+  },
+  {
+    "title": "Quickstacker",
+    "description": "Adds a command to quick stack to nearby chests",
+    "tags": [
+      "Quality of Life",
+      "Gameplay",
+      "Utility",
+      "Mobs\\Characters"
+    ],
+    "link": "https://www.curseforge.com/hytale/mods/quickstacker",
+    "category": "Quality of Life"
+  },
+  {
+    "title": "QuickSleep",
+    "description": "Skip the night when a configurable percentage of players are sleeping.",
+    "tags": [
+      "Gameplay",
+      "Quality of Life",
+      "Utility"
+    ],
+    "link": "https://www.curseforge.com/hytale/mods/quicksleep",
+    "category": "Gameplay"
+  }
 ]
