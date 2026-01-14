@@ -13,14 +13,13 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 
 ## Introdução
-Não sabe como se conectar ao seu servidor de jogos **Hytale** ou o que precisa para começar? Relaxa, a gente te ajuda! Vamos te guiar por tudo que você precisa. Desde as ferramentas e informações necessárias até o processo real de conexão, além dos pontos-chave para garantir uma conexão tranquila e sem problemas. Siga nosso guia e você estará conectado rapidinho!
+Não sabe como se conectar ao seu **servidor de jogos Hytale** ou o que precisa para começar? Relaxa, a gente te ajuda! Vamos te guiar por tudo que você precisa. Desde as ferramentas e informações necessárias até o processo real de conexão, além dos pontos importantes para garantir uma conexão tranquila e sem estresse. Siga nosso guia e você estará conectado rapidinho!
 
-:::info 
-Hytale tem lançamento previsto para 13 de janeiro de 2026. Como os arquivos oficiais do servidor, ferramentas de modding e fluxos de instalação ainda podem mudar na fase inicial pós-lançamento, partes deste guia podem ficar desatualizadas.
+:::info Aviso de Acesso Antecipado
 
-A página será atualizada assim que informações confirmadas e estáveis sobre suporte a mods, formatos de arquivos e requisitos de configuração estiverem disponíveis.
+Hytale foi lançado em 13 de janeiro de 2026 e está disponível atualmente em Acesso Antecipado. Como o jogo ainda está em fase ativa de desenvolvimento, o software do servidor, arquivos de configuração, suporte a mods e fluxos de instalação podem continuar mudando com o tempo.
+
 :::
-
 <InlineVoucher />
 
 
@@ -42,16 +41,16 @@ Com as informações acima, você deve conseguir localizar seu servidor e garant
 ## Estabeleça a conexão com o servidor
 
 
-A conexão a um servidor de jogos pode ser feita de uma ou mais formas. Os métodos disponíveis são descritos e explicados em detalhes abaixo.
+A conexão com um servidor de jogos pode ser feita de uma ou mais formas. Os métodos disponíveis são descritos e explicados em detalhes abaixo.
 
-A conexão ao servidor geralmente é feita usando o endereço IP e a porta do servidor e, opcionalmente, uma senha. O procedimento exato para conectar ao servidor será documentado aqui assim que a implementação final para o lançamento oficial for confirmada.
+A conexão ao servidor geralmente é feita usando o endereço IP e a porta do servidor e, opcionalmente, uma senha. O procedimento exato para se conectar ao servidor será documentado aqui assim que a implementação final para o lançamento oficial for confirmada.
 
 
 
 ## Problemas comuns e soluções
 
 
-A conexão a um servidor de jogos pode ser feita de uma ou mais formas. Os métodos disponíveis são descritos e explicados em detalhes abaixo.
+A conexão com um servidor de jogos pode ser feita de uma ou mais formas. Os métodos disponíveis são descritos e explicados em detalhes abaixo.
 
 #### Não aparece
 
@@ -60,16 +59,16 @@ A falta de visibilidade do servidor pode acontecer se a inicialização não foi
 
 
 
-#### Solução não encontrada ou não útil
+#### Solução não encontrada ou não ajudou
 
 
-Ainda com problemas depois de tentar resolver? Nesse caso, nosso time de suporte está disponível diariamente para ajudar. É só criar um **[Ticket](https://zap-hosting.com/en/customer/support/)** no nosso site e explicar seu problema com o máximo de detalhes possível. Vamos analisar rapidinho e te ajudar a resolver o problema!
+Ainda com problemas depois de tentar resolver? Nesse caso, nosso time de suporte está disponível todos os dias para ajudar. É só criar um **[Ticket](https://zap-hosting.com/en/customer/support/)** no nosso site e explicar seu problema com o máximo de detalhes possível. Vamos analisar rapidinho e te ajudar a resolver o problema!
 
 
 
 ## Conclusão
 
-Parabéns, se você seguiu tudo certinho, já deve ter conseguido se conectar ao servidor. Para dúvidas ou ajuda, não hesite em contatar nosso time de suporte, que está disponível todos os dias para te ajudar! 🙂
+Parabéns, se você seguiu tudo certinho, já deve ter conseguido se conectar ao servidor. Para dúvidas ou ajuda extra, não hesite em contatar nosso time de suporte, que está disponível diariamente para te ajudar! 🙂
 
 
 

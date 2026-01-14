@@ -695,7 +695,12 @@ const sidebars = {
           label: "Configuration",
           key: "gameserver-configuration-hytale-popular",
           items: [
+            'hytale-becomeadmin',
+            'hytale-permissions',
+            'hytale-whitelist',
             'hytale-mods',
+            'hytale-gamemode'
+
           ]
         },
         {
@@ -704,6 +709,7 @@ const sidebars = {
           key: "gameserver-troubleshooting-hytale-popular",
           items: [
             "hytale-troubleshooting-common-issues",
+            "hytale-troubleshooting-slow-connection"
           ]
         },          
       ],
@@ -2396,7 +2402,12 @@ const sidebars = {
           label: "Configuration",
           key: "gameserver-configuration-hytale",
           items: [
+            'hytale-becomeadmin',
+            'hytale-permissions',
+            'hytale-whitelist',
             'hytale-mods',
+            'hytale-gamemode'
+
           ]
         },
         {
@@ -2405,6 +2416,7 @@ const sidebars = {
           key: "gameserver-troubleshooting-hytale",
           items: [
             "hytale-troubleshooting-common-issues",
+            "hytale-troubleshooting-slow-connection"
           ]
         },          
       ],

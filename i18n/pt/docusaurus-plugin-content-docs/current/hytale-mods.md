@@ -15,14 +15,14 @@ import items from '@site/data/lists/hytale-mods.json';
 
 ## Introdução
 
-Mods transformam seu servidor de jogos Hytale em algo realmente seu. Eles podem adicionar novas mecânicas, expandir sistemas existentes, introduzir desafios fresquinhos e criar jeitos totalmente novos de jogar, desde pequenas melhorias na qualidade de vida até reformulações completas da jogabilidade.
+Mods transformam seu servidor de jogos Hytale em algo realmente seu. Eles podem adicionar novas mecânicas, expandir sistemas existentes, introduzir desafios fresquinhos e criar formas totalmente novas de jogar, desde pequenas melhorias na qualidade de vida até reformulações completas da jogabilidade.
 
 Quer progressão mais rápida, elementos de sobrevivência mais profundos, mais opções de construção, eventos customizados ou regras únicas para o servidor? Os mods te dão as ferramentas para moldar a experiência e deixar seu mundo com a sua cara.
 
-:::info 
-Hytale tem lançamento previsto para 13 de janeiro de 2026. Como os arquivos oficiais do servidor, ferramentas de modding e fluxos de instalação ainda podem mudar na fase inicial pós-lançamento, partes deste guia podem ficar desatualizadas.
+:::info Aviso de Acesso Antecipado
 
-A página será atualizada assim que informações confirmadas e estáveis sobre suporte a mods, formatos de arquivo e requisitos de configuração estiverem disponíveis.
+Hytale foi lançado em 13 de janeiro de 2026 e está disponível em Acesso Antecipado. Como o jogo ainda está em fase ativa de desenvolvimento, o software do servidor, arquivos de configuração, suporte a mods e fluxos de instalação podem continuar mudando com o tempo.
+
 :::
 
 <InlineVoucher />
@@ -31,7 +31,7 @@ A página será atualizada assim que informações confirmadas e estáveis sobre
 
 Mods podem ser instalados adicionando-os diretamente aos arquivos do seu servidor. Comece baixando os mods desejados em formato `.zip` ou `.jar` de fontes confiáveis como CurseForge.
 
-Depois de baixar, conecte-se ao seu servidor e abra o diretório `mods/` na raiz do servidor. Faça o upload dos arquivos dos mods nessa pasta sem extrair ou modificar nada. Quando todos os mods estiverem no lugar, reinicie o servidor para que eles sejam carregados e ativados.
+Depois de baixar, conecte-se ao seu servidor e abra o diretório `mods/` na raiz do servidor. Faça o upload dos arquivos dos mods nessa pasta sem extrair ou modificar nada. Depois que todos os mods estiverem no lugar, reinicie o servidor para que eles sejam carregados e ativados.
 
 ## Mods Populares
 

@@ -19,10 +19,10 @@ Mods turn your Hytale server into something truly your own. They can add new mec
 
 Whether you want faster progression, deeper survival elements, more building options, custom events, or unique server rules, mods give you the tools to shape the experience and set your world apart.
 
-:::info 
-Hytale is scheduled to release on January 13th, 2026. Since official server files, modding tools, and installation workflows may still change in the early post launch phase, parts of this guide might become outdated. 
+:::info Early Access Notice
 
-The page  will be updated as soon as confirmed and stable information about mod support, file formats and setup requirements is available
+Hytale released on January 13th, 2026 and is currently available in Early Access. As the game is still in an active development phase, server software, configuration files, modding support, and installation workflows may continue to change over time.
+
 :::
 
 <InlineVoucher />

@@ -1,7 +1,7 @@
 ---
 id: hytale-firststeps-connect
 title: "Hytale: Conéctate al servidor"
-description: "Descubre cómo conectarte fácilmente a tu servidor de Hytale y solucionar problemas comunes para una experiencia de juego sin interrupciones → Aprende más ahora"
+description: "Descubre cómo conectarte sin problemas a tu servidor de Hytale y solucionar problemas comunes para una experiencia de juego fluida → Aprende más ahora"
 sidebar_label: Conéctate al servidor
 services:
   - gameserver-hytale
@@ -13,14 +13,13 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 
 ## Introducción
-¿No sabes cómo conectarte a tu **servidor de juegos Hytale** o qué necesitas para empezar? ¡No te preocupes, aquí te ayudamos! Te guiaremos por todo lo que necesitas. Desde las herramientas e información necesarias hasta el proceso real de conexión, junto con consideraciones clave para asegurar una conexión fluida y sin problemas. Sigue nuestra guía y estarás conectado en un abrir y cerrar de ojos.
+¿No sabes cómo conectarte a tu **servidor de juegos Hytale** o qué necesitas para empezar? ¡No te preocupes, aquí te ayudamos! Te guiaremos por todo lo que necesitas. Desde las herramientas e información necesarias hasta el proceso real de conexión, junto con consideraciones clave para asegurar una experiencia de conexión fluida y sin problemas. Sigue nuestra guía y estarás conectado en un abrir y cerrar de ojos.
 
-:::info 
-Hytale está programado para lanzarse el 13 de enero de 2026. Dado que los archivos oficiales del servidor, herramientas de modding y flujos de instalación pueden cambiar en la fase inicial post lanzamiento, algunas partes de esta guía podrían quedar desactualizadas.
+:::info Aviso de Acceso Anticipado
 
-La página se actualizará tan pronto como haya información confirmada y estable sobre soporte de mods, formatos de archivos y requisitos de configuración.
+Hytale se lanzó el 13 de enero de 2026 y actualmente está disponible en Acceso Anticipado. Como el juego aún está en fase activa de desarrollo, el software del servidor, archivos de configuración, soporte para mods y flujos de instalación pueden seguir cambiando con el tiempo.
+
 :::
-
 <InlineVoucher />
 
 
@@ -28,7 +27,7 @@ La página se actualizará tan pronto como haya información confirmada y establ
 ## Obtén los detalles del servidor
 
 
-Vas a necesitar toda la información relevante para conectarte a tu servidor. La información sobre tu servidor la puedes encontrar en el panel web del panel de control de tu servidor de juegos. La información importante incluye lo siguiente:
+Vas a necesitar toda la información relevante para conectarte a tu servidor. La información sobre tu servidor la encontrarás en el panel web del panel de control de tu servidor de juegos. La información importante incluye lo siguiente:
 
 - Dirección IP y puerto
 - Nombre del servidor
@@ -56,7 +55,7 @@ La conexión a un servidor de juegos a menudo se puede establecer de una o más 
 #### No visible
 
 
-La falta de visibilidad del servidor puede ocurrir si la inicialización no se completó con éxito. Esto puede deberse, por ejemplo, a una configuración incorrecta o archivos corruptos. Normalmente, más información se puede encontrar en la consola del servidor o en los archivos de registro.
+La falta de visibilidad del servidor puede ocurrir si la inicialización no se completó con éxito. Esto puede deberse, por ejemplo, a una configuración defectuosa o archivos corruptos. Normalmente, más información se puede rastrear en la consola del servidor o en los archivos de registro.
 
 
 
@@ -69,7 +68,7 @@ La falta de visibilidad del servidor puede ocurrir si la inicialización no se c
 
 ## Conclusión
 
-¡Felicidades! Si seguiste todo, deberías haber establecido la conexión con el servidor exitosamente. Para más preguntas o ayuda, no dudes en contactar a nuestro equipo de soporte, que está disponible todos los días para asistirte 🙂
+¡Felicidades! Si seguiste todo, deberías haber establecido la conexión con el servidor exitosamente. Para más preguntas o ayuda, no dudes en contactar a nuestro equipo de soporte, que está disponible todos los días para asistirte 🙂.
 
 
 

@@ -19,10 +19,10 @@ Mods maken van jouw Hytale-server echt iets unieks. Ze kunnen nieuwe mechanics t
 
 Of je nu snellere progressie wilt, diepere survival-elementen, meer bouwopties, custom events of unieke serverregels, mods geven je de tools om de ervaring vorm te geven en jouw wereld te onderscheiden.
 
-:::info 
-Hytale staat gepland voor release op 13 januari 2026. Omdat officiële serverbestanden, modding tools en installatieprocessen in de vroege post-launch fase nog kunnen veranderen, kan een deel van deze gids verouderd raken.
+:::info Early Access Notice
 
-De pagina wordt bijgewerkt zodra er bevestigde en stabiele info beschikbaar is over mod-ondersteuning, bestandsformaten en setup-eisen.
+Hytale is uitgebracht op 13 januari 2026 en is momenteel beschikbaar in Early Access. Omdat het spel nog in actieve ontwikkeling is, kunnen serversoftware, configuratiebestanden, modding-ondersteuning en installatieprocessen in de loop van de tijd blijven veranderen.
+
 :::
 
 <InlineVoucher />
@@ -31,7 +31,7 @@ De pagina wordt bijgewerkt zodra er bevestigde en stabiele info beschikbaar is o
 
 Mods installeer je door ze direct toe te voegen aan je serverbestanden. Begin met het downloaden van de gewenste mods in `.zip` of `.jar` formaat van betrouwbare bronnen zoals CurseForge.
 
-Als je ze hebt gedownload, maak dan verbinding met je server en open de `mods/` map in de server root. Upload de mod-bestanden naar deze map zonder ze uit te pakken of aan te passen. Zodra alle mods erop staan, herstart je de server zodat ze geladen en geactiveerd worden.
+Als je ze hebt gedownload, maak je verbinding met je server en open je de `mods/` map in de server root. Upload de mod-bestanden naar deze map zonder ze uit te pakken of aan te passen. Zodra alle mods erin staan, herstart je de server zodat ze geladen en geactiveerd worden.
 
 ## Populaire Mods
 
