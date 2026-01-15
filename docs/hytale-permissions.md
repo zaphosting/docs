@@ -1,8 +1,8 @@
 ---
-id: "hytale-permissions"
+id: hytale-permissions
 title: "Hytale: Managing User and Group Permissions"
 description: "Manage user and group permissions on your Hytale server → Learn more now"
-sidebar_label: Slow Connection / World Not Loading
+sidebar_label: Permissions
 services:
 - gameserver-hytale
 ---
