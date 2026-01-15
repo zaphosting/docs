@@ -2395,6 +2395,7 @@ const sidebars = {
           items: [
             'hytale-firststeps-dashboard',
             'hytale-firststeps-connect',
+            'hytale-obtain-uuid'
           ]
         },
         {
@@ -2406,7 +2407,10 @@ const sidebars = {
             'hytale-permissions',
             'hytale-whitelist',
             'hytale-mods',
-            'hytale-gamemode'
+            'hytale-gamemode',
+            'hytale-death-penalty',
+            'hytale-pvp-management',
+            'hytale-commands',
 
           ]
         },

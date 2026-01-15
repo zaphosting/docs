@@ -1,8 +1,8 @@
 ---
-id: "hytale-permissions"
+id: hytale-permissions
 title: "Hytale: Gestione dei Permessi per Utenti e Gruppi"
 description: "Gestisci i permessi di utenti e gruppi sul tuo server Hytale → Scopri di più ora"
-sidebar_label: Connessione Lenta / Mondo Non Carica
+sidebar_label: Permessi
 services:
 - gameserver-hytale
 ---
@@ -19,7 +19,7 @@ Il software del server di Hytale supporta livelli gerarchici di permessi che det
 
 :::info Avviso Early Access
 
-Hytale è stato rilasciato il 13 gennaio 2026 ed è attualmente disponibile in Early Access. Poiché il gioco è ancora in fase di sviluppo attivo, il software del server, i file di configurazione, il supporto per modding e i flussi di installazione potrebbero continuare a cambiare nel tempo.
+Hytale è stato rilasciato il 13 gennaio 2026 ed è attualmente disponibile in Early Access. Poiché il gioco è ancora in fase di sviluppo attivo, il software del server, i file di configurazione, il supporto per modding e i flussi di installazione potrebbero continuare a evolversi nel tempo.
 
 :::
 
@@ -56,7 +56,7 @@ Per mostrare tutti i permessi assegnati direttamente a un utente. Questo comando
 
 ### Aggiungere permessi a un utente
 
-Per concedere uno o più permessi direttamente a un utente. I permessi specificati verranno aggiunti immediatamente e avranno effetto senza bisogno di riavviare il server.
+Per concedere uno o più permessi direttamente a un utente. I permessi specificati saranno aggiunti immediatamente e avranno effetto senza bisogno di riavviare il server.
 
 ```
 /perm user add <uuid> <permissions>
@@ -74,7 +74,7 @@ Per revocare permessi da un utente. Questo rimuove solo i permessi specificati l
 
 
 
-## Gestione delle assegnazioni di gruppo per utenti
+## Gestione delle assegnazioni ai gruppi utente
 
 Oltre ai permessi diretti, gli utenti possono ereditare permessi tramite i gruppi.
 

@@ -27,7 +27,7 @@ Hytale se lanzó el 13 de enero de 2026 y actualmente está disponible en Acceso
 ## Obtén los detalles del servidor
 
 
-Vas a necesitar toda la información relevante para conectarte a tu servidor. La información sobre tu servidor la encontrarás en el panel web del panel de control de tu servidor de juegos. La información importante incluye lo siguiente:
+Vas a necesitar toda la información relevante para conectarte a tu servidor. La información sobre tu servidor la puedes encontrar en el panel web del panel de control de tu servidor de juegos. La información importante incluye lo siguiente:
 
 - Dirección IP y puerto
 - Nombre del servidor
@@ -40,10 +40,9 @@ Con la información mencionada arriba, deberías poder localizar tu servidor y a
 
 ## Establece la conexión al servidor
 
+La conexión al servidor se establece usando la **dirección IP** y el **puerto** del servidor. También puede ser necesaria una contraseña opcional. Para hacerlo, abre **Servidores** en el menú principal y haz clic en **Agregar servidores** en la esquina inferior derecha de la lista de servidores. Ingresa la dirección IP y el puerto de tu servidor y asigna un nombre o descripción. Luego haz clic en el servidor recién agregado para establecer la conexión. Si el servidor tiene contraseña, se te pedirá que la ingreses durante el proceso de conexión.
 
-La conexión a un servidor de juegos a menudo se puede establecer de una o más formas. Los métodos disponibles se describen y explican en detalle a continuación.
-
-La conexión al servidor normalmente se establece usando la dirección IP del servidor y el puerto, y opcionalmente una contraseña. El procedimiento exacto para conectarse al servidor se documentará aquí una vez que se confirme la implementación final para el lanzamiento oficial.
+![img](https://screensaver01.zap-hosting.com/index.php/s/Q6cqdsF3ofXpnid/download)
 
 
 
@@ -55,7 +54,7 @@ La conexión a un servidor de juegos a menudo se puede establecer de una o más 
 #### No visible
 
 
-La falta de visibilidad del servidor puede ocurrir si la inicialización no se completó con éxito. Esto puede deberse, por ejemplo, a una configuración defectuosa o archivos corruptos. Normalmente, más información se puede rastrear en la consola del servidor o en los archivos de registro.
+La falta de visibilidad del servidor puede ocurrir si la inicialización no se completó con éxito. Esto puede deberse, por ejemplo, a una configuración defectuosa o archivos corruptos. Normalmente, más información se puede encontrar en la consola del servidor o en los archivos de registro.
 
 
 
@@ -68,7 +67,7 @@ La falta de visibilidad del servidor puede ocurrir si la inicialización no se c
 
 ## Conclusión
 
-¡Felicidades! Si seguiste todo, deberías haber establecido la conexión con el servidor exitosamente. Para más preguntas o ayuda, no dudes en contactar a nuestro equipo de soporte, que está disponible todos los días para asistirte 🙂.
+¡Felicidades! Si seguiste todo, deberías haber establecido la conexión al servidor con éxito. Para más preguntas o ayuda, no dudes en contactar a nuestro equipo de soporte, que está disponible todos los días para asistirte 🙂.
 
 
 

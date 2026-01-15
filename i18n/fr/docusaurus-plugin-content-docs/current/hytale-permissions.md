@@ -1,8 +1,8 @@
 ---
-id: "hytale-permissions"
+id: hytale-permissions
 title: "Hytale : Gérer les permissions des utilisateurs et des groupes"
 description: "Gérez les permissions des utilisateurs et des groupes sur votre serveur Hytale → En savoir plus maintenant"
-sidebar_label: Connexion lente / Monde ne charge pas
+sidebar_label: Permissions
 services:
 - gameserver-hytale
 ---
@@ -13,13 +13,13 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introduction
 
-Gérer les permissions sur un serveur Hytale te permet de contrôler ce que les joueurs peuvent ou ne peuvent pas faire. Cela inclut l’attribution de différents niveaux d’accès aux joueurs de confiance, modérateurs et administrateurs. Configurer correctement les permissions est essentiel pour maintenir un environnement de serveur équilibré et sécurisé où les joueurs peuvent profiter du jeu sans exploits ou abus non désirés.
+Gérer les permissions sur un serveur Hytale te permet de contrôler ce que les joueurs peuvent ou ne peuvent pas faire. Ça inclut d’attribuer différents niveaux d’accès aux joueurs de confiance, modérateurs et admins. Configurer correctement les permissions est essentiel pour maintenir un environnement serveur équilibré et sécurisé où les joueurs peuvent kiffer le jeu sans exploits ou abus non voulus.
 
-Le logiciel serveur de Hytale supporte des niveaux de permissions hiérarchiques qui déterminent quelles commandes et actions chaque joueur peut exécuter. Ceux-ci peuvent être gérés via la console en direct ou via les paramètres de configuration selon la configuration de ton serveur.
+Le logiciel serveur de Hytale supporte des niveaux de permissions hiérarchiques qui déterminent quelles commandes et actions chaque joueur peut exécuter. Tu peux gérer ça via la console live ou par les fichiers de config selon ton setup serveur.
 
-:::info Avis Early Access
+:::info Early Access Notice
 
-Hytale est sorti le 13 janvier 2026 et est actuellement disponible en Early Access. Comme le jeu est encore en phase de développement active, le logiciel serveur, les fichiers de configuration, le support du modding et les workflows d’installation peuvent continuer à évoluer avec le temps.
+Hytale est sorti le 13 janvier 2026 et est actuellement en Early Access. Comme le jeu est encore en phase de développement active, le logiciel serveur, les fichiers de config, le support modding et les workflows d’installation peuvent encore évoluer avec le temps.
 
 :::
 
@@ -29,12 +29,12 @@ Hytale est sorti le 13 janvier 2026 et est actuellement disponible en Early Acce
 
 ## Aperçu des niveaux de permissions
 
-Les permissions définissent quelles actions un joueur est autorisé à effectuer sur le serveur. Au niveau le plus basique, les joueurs normaux ont uniquement les permissions standards de gameplay, comme se déplacer, interagir avec le monde et discuter. Les niveaux de permissions supérieurs comme opérateur ou admin donnent accès aux commandes serveur qui affectent le gameplay, les autres joueurs, la configuration du serveur et les outils de modération.
+Les permissions définissent quelles actions un joueur est autorisé à faire sur le serveur. Au niveau basique, les joueurs normaux ont seulement les permissions standards de gameplay, comme se déplacer, interagir avec le monde et discuter. Les niveaux supérieurs comme opérateur ou admin donnent accès aux commandes serveur qui impactent le gameplay, les autres joueurs, la config serveur et les outils de modération.
 
-Le système de permissions se compose de deux composants principaux :
+Le système de permissions se compose de deux éléments principaux :
 
 - **Permissions utilisateur** qui s’appliquent directement à un joueur spécifique
-- **Permissions de groupe** qui permettent de regrouper des permissions et de les attribuer à plusieurs joueurs en même temps
+- **Permissions de groupe** qui permettent de regrouper des permissions et de les assigner à plusieurs joueurs en même temps
 
 Chaque joueur est identifié en interne par un UUID, nécessaire pour gérer les permissions via les commandes.
 
@@ -56,7 +56,7 @@ Pour afficher toutes les permissions attribuées directement à un utilisateur. 
 
 ### Ajouter des permissions à un utilisateur
 
-Pour accorder une ou plusieurs permissions directement à un utilisateur. Les permissions spécifiées seront ajoutées immédiatement et prendront effet sans nécessiter de redémarrage du serveur.
+Pour accorder une ou plusieurs permissions directement à un utilisateur. Les permissions spécifiées seront ajoutées immédiatement et prendront effet sans redémarrage du serveur.
 
 ```
 /perm user add <uuid> <permissions>
@@ -66,7 +66,7 @@ Pour accorder une ou plusieurs permissions directement à un utilisateur. Les pe
 
 ### Retirer des permissions à un utilisateur
 
-Pour révoquer des permissions d’un utilisateur. Cela supprime uniquement les permissions spécifiées tout en laissant les autres permissions inchangées.
+Pour révoquer des permissions d’un utilisateur. Cela supprime uniquement les permissions spécifiées tout en laissant les autres permissions intactes.
 
 ```
 /perm user remove <uuid> <permissions>
@@ -74,13 +74,13 @@ Pour révoquer des permissions d’un utilisateur. Cela supprime uniquement les 
 
 
 
-## Gérer les affectations de groupes utilisateur
+## Gérer l’appartenance aux groupes utilisateur
 
 En plus des permissions directes, les utilisateurs peuvent hériter des permissions via des groupes.
 
-### Voir les groupes de permissions d’un utilisateur
+### Voir les groupes d’un utilisateur
 
-Cette commande montre à quels groupes de permissions l’utilisateur appartient actuellement.
+Cette commande affiche les groupes de permissions dont l’utilisateur est actuellement membre.
 
 ```
 /perm user group list <uuid>
@@ -108,7 +108,7 @@ Pour retirer un utilisateur d’un groupe de permissions. Après retrait, l’ut
 
 
 
-## Gérer les permissions de groupe
+## Gérer les permissions des groupes
 
 Les groupes permettent de gérer les permissions de manière centralisée et de les réutiliser pour plusieurs utilisateurs.
 

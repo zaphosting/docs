@@ -1,8 +1,8 @@
 ---
-id: "hytale-permissions"
+id: hytale-permissions
 title: "Hytale: Zarządzanie uprawnieniami użytkowników i grup"
-description: "Zarządzaj uprawnieniami użytkowników i grup na swoim serwerze Hytale → Dowiedz się więcej"
-sidebar_label: Wolne Połączenie / Świat się nie ładuje
+description: "Zarządzaj uprawnieniami użytkowników i grup na swoim serwerze Hytale → Dowiedz się więcej już teraz"
+sidebar_label: Uprawnienia
 services:
 - gameserver-hytale
 ---
@@ -13,13 +13,13 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Wprowadzenie
 
-Zarządzanie uprawnieniami na serwerze Hytale pozwala kontrolować, co gracze mogą, a czego nie mogą robić. Obejmuje to przypisywanie różnych poziomów dostępu zaufanym graczom, moderatorom i administratorom. Prawidłowa konfiguracja uprawnień jest kluczowa dla utrzymania zrównoważonego i bezpiecznego środowiska serwera, gdzie gracze mogą cieszyć się grą bez niezamierzonych exploitów czy nadużyć.
+Zarządzanie uprawnieniami na serwerze Hytale pozwala kontrolować, co gracze mogą, a czego nie mogą robić. Obejmuje to przydzielanie różnych poziomów dostępu zaufanym graczom, moderatorom i administratorom. Prawidłowa konfiguracja uprawnień jest kluczowa dla utrzymania zrównoważonego i bezpiecznego środowiska serwera, gdzie gracze mogą cieszyć się grą bez niezamierzonych exploitów czy nadużyć.
 
-Oprogramowanie serwera Hytale obsługuje hierarchiczne poziomy uprawnień, które określają, jakie komendy i akcje może wykonać każdy gracz. Można nimi zarządzać przez konsolę na żywo lub poprzez ustawienia konfiguracyjne, w zależności od konfiguracji serwera.
+Oprogramowanie serwera Hytale obsługuje hierarchiczne poziomy uprawnień, które określają, jakie komendy i akcje może wykonać każdy gracz. Można nimi zarządzać przez konsolę na żywo lub za pomocą ustawień konfiguracyjnych, w zależności od konfiguracji serwera.
 
 :::info Informacja o Wczesnym Dostępie
 
-Hytale zostało wydane 13 stycznia 2026 i jest obecnie dostępne we Wczesnym Dostępie. Ponieważ gra jest wciąż w aktywnej fazie rozwoju, oprogramowanie serwera, pliki konfiguracyjne, wsparcie modów oraz procesy instalacji mogą się z czasem zmieniać.
+Hytale zostało wydane 13 stycznia 2026 i jest obecnie dostępne we Wczesnym Dostępie. Ponieważ gra jest nadal w aktywnej fazie rozwoju, oprogramowanie serwera, pliki konfiguracyjne, wsparcie modów oraz procesy instalacji mogą się z czasem zmieniać.
 
 :::
 
@@ -29,14 +29,14 @@ Hytale zostało wydane 13 stycznia 2026 i jest obecnie dostępne we Wczesnym Dos
 
 ## Przegląd poziomów uprawnień
 
-Uprawnienia definiują, jakie działania gracz może wykonywać na serwerze. Na najniższym poziomie zwykli gracze mają standardowe uprawnienia do rozgrywki, takie jak poruszanie się, interakcja ze światem i czatowanie. Wyższe poziomy uprawnień, takie jak operator czy administrator, dają dostęp do komend serwera wpływających na rozgrywkę, innych graczy, konfigurację serwera oraz narzędzia moderacji.
+Uprawnienia definiują, jakie działania gracz może wykonywać na serwerze. Na najniższym poziomie zwykli gracze mają tylko standardowe uprawnienia do rozgrywki, takie jak poruszanie się, interakcja ze światem i czatowanie. Wyższe poziomy uprawnień, takie jak operator czy administrator, dają dostęp do komend serwera wpływających na rozgrywkę, innych graczy, konfigurację serwera oraz narzędzia moderacji.
 
 System uprawnień składa się z dwóch głównych elementów:
 
 - **Uprawnienia użytkownika**, które dotyczą bezpośrednio konkretnego gracza
-- **Uprawnienia grupy**, które pozwalają na grupowanie uprawnień i przypisywanie ich wielu graczom jednocześnie
+- **Uprawnienia grupowe**, które pozwalają na grupowanie uprawnień i przypisywanie ich wielu graczom jednocześnie
 
-Każdy gracz jest identyfikowany wewnętrznie przez UUID, który jest wymagany przy zarządzaniu uprawnieniami za pomocą komend.
+Każdy gracz jest wewnętrznie identyfikowany przez UUID, który jest wymagany podczas zarządzania uprawnieniami za pomocą komend.
 
 
 
@@ -56,7 +56,7 @@ Aby wyświetlić wszystkie uprawnienia przypisane bezpośrednio do użytkownika.
 
 ### Dodawanie uprawnień użytkownikowi
 
-Aby przyznać jednemu lub więcej uprawnień bezpośrednio użytkownikowi. Wskazane uprawnienia zostaną dodane natychmiast i zaczną działać bez konieczności restartu serwera.
+Aby przyznać jednemu lub więcej uprawnień bezpośrednio użytkownikowi. Wskazane uprawnienia zostaną dodane natychmiast i zaczną działać bez potrzeby restartu serwera.
 
 ```
 /perm user add <uuid> <permissions>
@@ -64,7 +64,7 @@ Aby przyznać jednemu lub więcej uprawnień bezpośrednio użytkownikowi. Wskaz
 
 
 
-### Usuwanie uprawnień użytkownika
+### Usuwanie uprawnień od użytkownika
 
 Aby odebrać uprawnienia użytkownikowi. Usuwa tylko wskazane uprawnienia, pozostawiając pozostałe bez zmian.
 
@@ -74,7 +74,7 @@ Aby odebrać uprawnienia użytkownikowi. Usuwa tylko wskazane uprawnienia, pozos
 
 
 
-## Zarządzanie przypisaniami użytkowników do grup
+## Zarządzanie przypisaniami użytkownika do grup
 
 Oprócz uprawnień bezpośrednich, użytkownicy mogą dziedziczyć uprawnienia przez grupy.
 
@@ -90,7 +90,7 @@ Ta komenda pokazuje, do jakich grup uprawnień należy aktualnie użytkownik.
 
 ### Dodawanie użytkownika do grupy
 
-Aby przypisać użytkownika do grupy uprawnień. Po dodaniu użytkownik dziedziczy wszystkie uprawnienia przypisane do tej grupy.
+Aby przypisać użytkownika do grupy uprawnień. Po dodaniu użytkownik dziedziczy wszystkie uprawnienia zdefiniowane dla tej grupy.
 
 ```
 /perm user group add <uuid> <group>
@@ -134,7 +134,7 @@ Aby dodać jedno lub więcej uprawnień do grupy. Wszyscy użytkownicy przypisan
 
 ### Usuwanie uprawnień z grupy
 
-Usuwa tylko wskazane uprawnienia z grupy, nie wpływając na pozostałe uprawnienia.
+Usuwa tylko wskazane uprawnienia z grupy, nie wpływając na pozostałe.
 
 ```
 /perm group remove <group> <permissions>

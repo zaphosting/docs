@@ -1,8 +1,8 @@
 ---
-id: "hytale-permissions"
+id: hytale-permissions
 title: "Hytale: Gestión de Permisos para Usuarios y Grupos"
 description: "Gestiona los permisos de usuarios y grupos en tu servidor de Hytale → Aprende más ahora"
-sidebar_label: Conexión Lenta / Mundo No Carga
+sidebar_label: Permisos
 services:
 - gameserver-hytale
 ---
@@ -13,7 +13,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introducción
 
-Gestionar los permisos en un servidor de Hytale te permite controlar qué pueden y no pueden hacer los jugadores. Esto incluye asignar diferentes niveles de acceso a jugadores de confianza, moderadores y administradores. Configurar los permisos correctamente es esencial para mantener un entorno de servidor equilibrado y seguro donde los jugadores puedan disfrutar del juego sin exploits o abusos no deseados.
+Gestionar los permisos en un servidor de Hytale te permite controlar qué pueden y qué no pueden hacer los jugadores. Esto incluye asignar diferentes niveles de acceso a jugadores de confianza, moderadores y administradores. Configurar los permisos correctamente es esencial para mantener un entorno de servidor equilibrado y seguro donde los jugadores puedan disfrutar del juego sin exploits o abusos no deseados.
 
 El software del servidor de Hytale soporta niveles jerárquicos de permisos que determinan qué comandos y acciones puede ejecutar cada jugador. Estos pueden gestionarse a través de la consola en vivo o mediante configuraciones, dependiendo de cómo tengas montado tu servidor.
 
@@ -42,7 +42,7 @@ Cada jugador se identifica internamente por un UUID, que es necesario para gesti
 
 ## Gestión de permisos de usuario
 
-Los permisos de usuario te permiten otorgar o revocar permisos específicos para un solo jugador.
+Los permisos de usuario te permiten otorgar o revocar permisos específicos a un solo jugador.
 
 ### Ver permisos de usuario
 
@@ -56,7 +56,7 @@ Para mostrar todos los permisos asignados directamente a un usuario. Este comand
 
 ### Añadir permisos a un usuario
 
-Para otorgar uno o más permisos directamente a un usuario. Los permisos especificados se añadirán de inmediato y tendrán efecto sin necesidad de reiniciar el servidor.
+Para otorgar uno o más permisos directamente a un usuario. Los permisos especificados se añadirán inmediatamente y tendrán efecto sin necesidad de reiniciar el servidor.
 
 ```
 /perm user add <uuid> <permissions>
@@ -66,7 +66,7 @@ Para otorgar uno o más permisos directamente a un usuario. Los permisos especif
 
 ### Quitar permisos a un usuario
 
-Para revocar permisos de un usuario. Esto elimina solo los permisos especificados, dejando los demás sin cambios.
+Para revocar permisos a un usuario. Esto elimina solo los permisos especificados, dejando los demás sin cambios.
 
 ```
 /perm user remove <uuid> <permissions>
@@ -74,11 +74,11 @@ Para revocar permisos de un usuario. Esto elimina solo los permisos especificado
 
 
 
-## Gestión de asignaciones de grupo de usuario
+## Gestión de asignaciones de grupos de usuario
 
 Además de los permisos directos, los usuarios pueden heredar permisos a través de grupos.
 
-### Ver permisos de grupo de usuario
+### Ver permisos de grupos de usuario
 
 Este comando muestra a qué grupos de permisos pertenece actualmente el usuario.
 
@@ -132,7 +132,7 @@ Para añadir uno o más permisos a un grupo. Todos los usuarios asignados a este
 
 
 
-### Quitar permisos a un grupo
+### Quitar permisos de un grupo
 
 Esto elimina solo los permisos especificados del grupo sin afectar a los demás permisos.
 

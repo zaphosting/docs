@@ -1,8 +1,8 @@
 ---
 id: hytale-gamemode
 title: "Hytale : Configuration du mode de jeu"
-description: "Découvrez comment sécuriser votre serveur Hytale en gérant l'accès des joueurs avec les fonctionnalités de whitelist et protégez votre expérience de jeu → En savoir plus maintenant"
-sidebar_label: Whitelist
+description: "Découvrez comment sécuriser votre serveur Hytale en gérant l'accès des joueurs avec les fonctionnalités de liste blanche et protégez votre expérience de jeu → En savoir plus maintenant"
+sidebar_label: Mode de jeu
 services:
   - gameserver-hytale
 ---
@@ -12,7 +12,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introduction
 
-Les serveurs Hytale vous permettent de configurer les paramètres de jeu comme le mode de jeu qui définit l’expérience des joueurs. Changer le mode de jeu vous permet d’adapter votre serveur à un style de jeu spécifique ou aux préférences de votre communauté.
+Les serveurs Hytale vous permettent de configurer les paramètres de jeu comme le mode de jeu qui définit l'expérience des joueurs. Changer le mode de jeu vous permet d’adapter votre serveur à un style de jeu spécifique ou aux préférences de votre communauté.
 
 :::info Avis Early Access
 
@@ -27,17 +27,17 @@ Hytale est sorti le 13 janvier 2026 et est actuellement disponible en Early Acce
 ## Changer le mode de jeu
 
 ### Console live
-Le mode de jeu peut être changé pendant que le serveur tourne en utilisant la console live ou les commandes en jeu, à condition d’avoir les permissions nécessaires. Cette méthode permet aux admins de switcher le mode de jeu sans modifier les fichiers de configuration.
+Le mode de jeu peut être changé pendant que le serveur tourne en utilisant la console live ou les commandes en jeu, à condition d’avoir les permissions nécessaires. Cette méthode permet aux admins de changer le mode de jeu sans modifier les fichiers de configuration.
 
-Utiliser la commande console met à jour immédiatement le mode de jeu actif pour la session serveur. Selon la configuration du serveur, le changement peut persister jusqu’au prochain redémarrage ou revenir à la valeur définie dans le fichier de configuration.
+La commande console met à jour immédiatement le mode de jeu actif pour la session serveur. Selon la configuration du serveur, le changement peut persister jusqu’au prochain redémarrage ou revenir à la valeur définie dans le fichier de configuration.
 
 ```
-/gamemode <gamemode>
+/gamemode <gamemode> <playername>
 ```
 
-La valeur de `GameMode` détermine quel mode de jeu est appliqué au démarrage du serveur. Selon l’expérience de jeu souhaitée, cette valeur peut être ajustée en conséquence.
+La valeur de `GameMode` détermine quel mode de jeu est appliqué au démarrage du serveur. Selon l’expérience de jeu souhaitée, cette valeur peut être ajustée.
 
-Les valeurs de mode de jeu couramment utilisées sont :
+Les modes de jeu couramment utilisés sont :
 
 - `Creative` pour une construction et création de contenu sans restrictions
 - `Adventure` pour un gameplay structuré avec progression et règles d’interaction définies
@@ -60,9 +60,9 @@ Le fichier de configuration est accessible via votre panneau de contrôle d’h�
 },
 ```
 
-La valeur de `GameMode` détermine quel mode de jeu est appliqué au démarrage du serveur. Selon l’expérience de jeu souhaitée, cette valeur peut être ajustée en conséquence.
+La valeur de `GameMode` détermine quel mode de jeu est appliqué au démarrage du serveur. Selon l’expérience de jeu souhaitée, cette valeur peut être ajustée.
 
-Les valeurs de mode de jeu couramment utilisées sont :
+Les modes de jeu couramment utilisés sont :
 
 - `Creative` pour une construction et création de contenu sans restrictions
 - `Adventure` pour un gameplay structuré avec progression et règles d’interaction définies

@@ -1,8 +1,8 @@
 ---
-id: "hytale-permissions"
+id: hytale-permissions
 title: "Hytale: Benutzer- und Gruppenrechte verwalten"
 description: "Verwalte Benutzer- und Gruppenrechte auf deinem Hytale Gameserver → Jetzt mehr erfahren"
-sidebar_label: Langsame Verbindung / Welt lädt nicht
+sidebar_label: Rechte
 services:
 - gameserver-hytale
 ---
@@ -13,13 +13,13 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
 
-Das Verwalten von Rechten auf deinem Hytale Gameserver ermöglicht dir, zu kontrollieren, was Spieler dürfen und was nicht. Dazu gehört, verschiedenen Spielern, Moderatoren und Admins unterschiedliche Zugriffslevel zuzuweisen. Die korrekte Einrichtung der Rechte ist essenziell, um eine ausgewogene und sichere Server-Umgebung zu schaffen, in der alle ohne unerwünschte Exploits oder Missbrauch Spaß haben können.
+Das Verwalten von Rechten auf einem Hytale Gameserver ermöglicht dir, zu steuern, was Spieler dürfen und was nicht. Dazu gehört, verschiedenen vertrauenswürdigen Spielern, Moderatoren und Admins unterschiedliche Zugriffslevel zuzuweisen. Die korrekte Einrichtung der Rechte ist essenziell, um eine ausgewogene und sichere Server-Umgebung zu schaffen, in der alle ohne unerwünschte Exploits oder Missbrauch Spaß haben können.
 
-Die Server-Software von Hytale unterstützt hierarchische Rechteebenen, die bestimmen, welche Befehle und Aktionen jeder Spieler ausführen darf. Diese kannst du je nach Server-Setup entweder über die Live-Konsole oder über Konfigurationsdateien verwalten.
+Die Server-Software von Hytale unterstützt hierarchische Rechteebenen, die bestimmen, welche Befehle und Aktionen jeder Spieler ausführen darf. Diese können je nach Server-Setup über die Live-Konsole oder Konfigurationsdateien verwaltet werden.
 
 :::info Early Access Hinweis
 
-Hytale wurde am 13. Januar 2026 veröffentlicht und befindet sich aktuell im Early Access. Da sich das Spiel noch in aktiver Entwicklung befindet, können sich Server-Software, Konfigurationsdateien, Modding-Support und Installationsabläufe weiterhin ändern.
+Hytale wurde am 13. Januar 2026 veröffentlicht und befindet sich aktuell im Early Access. Da sich das Spiel noch in aktiver Entwicklung befindet, können sich Server-Software, Konfigurationsdateien, Modding-Support und Installationsprozesse weiterhin ändern.
 
 :::
 
@@ -29,7 +29,7 @@ Hytale wurde am 13. Januar 2026 veröffentlicht und befindet sich aktuell im Ear
 
 ## Überblick über die Rechteebenen
 
-Rechte definieren, welche Aktionen ein Spieler auf dem Server ausführen darf. Auf der grundlegendsten Ebene haben normale Spieler nur Standard-Spielrechte, wie sich bewegen, mit der Welt interagieren und chatten. Höhere Rechteebenen wie Operator oder Admin gewähren Zugriff auf Server-Befehle, die das Gameplay, andere Spieler, Server-Konfiguration und Moderationstools beeinflussen.
+Rechte definieren, welche Aktionen ein Spieler auf dem Server ausführen darf. Auf der grundlegendsten Ebene haben normale Spieler nur Standard-Spielrechte, wie sich bewegen, mit der Welt interagieren und chatten. Höhere Rechte-Stufen wie Operator oder Admin gewähren Zugriff auf Server-Befehle, die das Gameplay, andere Spieler, Server-Konfiguration und Moderations-Tools beeinflussen.
 
 Das Rechtesystem besteht aus zwei Hauptkomponenten:
 
@@ -46,7 +46,7 @@ Benutzerrechte erlauben es dir, einem einzelnen Spieler bestimmte Rechte zu gebe
 
 ### Benutzerrechte anzeigen
 
-Zeigt alle Rechte an, die direkt einem Benutzer zugewiesen sind. Dieser Befehl listet alle aktuell für den angegebenen Benutzer aktiven Rechte.
+Zeigt alle Rechte an, die direkt einem Benutzer zugewiesen sind. Dieser Befehl listet alle aktuell für den angegebenen Benutzer geltenden Rechte auf.
 
 ```
 /perm user list <uuid>
@@ -56,7 +56,7 @@ Zeigt alle Rechte an, die direkt einem Benutzer zugewiesen sind. Dieser Befehl l
 
 ### Rechte einem Benutzer hinzufügen
 
-Ermöglicht es, einem Benutzer direkt ein oder mehrere Rechte zu vergeben. Die angegebenen Rechte werden sofort hinzugefügt und sind ohne Server-Neustart aktiv.
+Um einem Benutzer direkt ein oder mehrere Rechte zu vergeben. Die angegebenen Rechte werden sofort hinzugefügt und sind ohne Server-Neustart aktiv.
 
 ```
 /perm user add <uuid> <permissions>
@@ -66,7 +66,7 @@ Ermöglicht es, einem Benutzer direkt ein oder mehrere Rechte zu vergeben. Die a
 
 ### Rechte von einem Benutzer entfernen
 
-Entzieht einem Benutzer bestimmte Rechte. Dabei werden nur die angegebenen Rechte entfernt, alle anderen bleiben erhalten.
+Um einem Benutzer bestimmte Rechte zu entziehen. Dabei werden nur die angegebenen Rechte entfernt, alle anderen bleiben erhalten.
 
 ```
 /perm user remove <uuid> <permissions>
@@ -80,7 +80,7 @@ Neben direkten Rechten können Benutzer Rechte auch über Gruppen erben.
 
 ### Benutzer-Gruppen anzeigen
 
-Zeigt an, in welchen Berechtigungsgruppen der Benutzer aktuell Mitglied ist.
+Dieser Befehl zeigt, in welchen Berechtigungsgruppen der Benutzer aktuell Mitglied ist.
 
 ```
 /perm user group list <uuid>
@@ -90,7 +90,7 @@ Zeigt an, in welchen Berechtigungsgruppen der Benutzer aktuell Mitglied ist.
 
 ### Benutzer zu einer Gruppe hinzufügen
 
-Weist einen Benutzer einer Berechtigungsgruppe zu. Nach der Zuweisung erbt der Benutzer alle Rechte, die für diese Gruppe definiert sind.
+Um einen Benutzer einer Berechtigungsgruppe zuzuweisen. Nach der Zuweisung erbt der Benutzer alle Rechte, die für diese Gruppe definiert sind.
 
 ```
 /perm user group add <uuid> <group>
@@ -100,7 +100,7 @@ Weist einen Benutzer einer Berechtigungsgruppe zu. Nach der Zuweisung erbt der B
 
 ### Benutzer aus einer Gruppe entfernen
 
-Entfernt einen Benutzer aus einer Berechtigungsgruppe. Danach erhält der Benutzer keine Rechte mehr aus dieser Gruppe.
+Um einen Benutzer aus einer Berechtigungsgruppe zu entfernen. Danach erhält der Benutzer keine Rechte mehr aus dieser Gruppe.
 
 ```
 /perm user group remove <uuid> <group>
@@ -124,7 +124,7 @@ Zeigt alle Rechte an, die einer Gruppe zugewiesen sind. Dieser Befehl gibt einen
 
 ### Rechte zu einer Gruppe hinzufügen
 
-Fügt einer Gruppe ein oder mehrere Rechte hinzu. Alle Benutzer, die dieser Gruppe zugewiesen sind, erben die neuen Rechte sofort.
+Um einer Gruppe ein oder mehrere Rechte hinzuzufügen. Alle Benutzer, die dieser Gruppe zugewiesen sind, erben die neuen Rechte sofort.
 
 ```
 /perm group add <group> <permissions>

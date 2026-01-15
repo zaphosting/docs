@@ -2,7 +2,7 @@
 id: hytale-gamemode
 title: "Hytale: Configuración del Modo de Juego"
 description: "Descubre cómo asegurar tu servidor de Hytale gestionando el acceso de jugadores con funciones de whitelist y protege tu experiencia de juego → Aprende más ahora"
-sidebar_label: Whitelist
+sidebar_label: Modo de Juego
 services:
   - gameserver-hytale
 ---
@@ -27,20 +27,20 @@ Hytale se lanzó el 13 de enero de 2026 y actualmente está disponible en Acceso
 ## Cambiar modo de juego
 
 ### Consola en vivo
-El modo de juego se puede cambiar mientras el servidor está en funcionamiento usando la consola en vivo o comandos dentro del juego, siempre que se tengan los permisos necesarios. Este método permite a los administradores cambiar el modo de juego sin editar archivos de configuración.
+El modo de juego puede cambiarse mientras el servidor está en funcionamiento usando la consola en vivo o comandos dentro del juego, siempre que se tengan los permisos necesarios. Este método permite a los administradores cambiar el modo de juego sin editar archivos de configuración.
 
 Usar el comando en consola actualiza el modo de juego activo inmediatamente para la sesión del servidor. Dependiendo de la configuración del servidor, el cambio puede persistir hasta el próximo reinicio o revertir al valor definido en el archivo de configuración.
 
 ```
-/gamemode <gamemode>
+/gamemode <gamemode> <playername>
 ```
 
-El valor de `GameMode` determina qué modo de juego se aplica cuando el servidor arranca. Según la experiencia de juego que quieras, este valor puede ajustarse en consecuencia.
+El valor de `GameMode` determina qué modo de juego se aplica cuando el servidor arranca. Según la experiencia de juego que desees, este valor puede ajustarse en consecuencia.
 
 Los valores de modo de juego más comunes incluyen:
 
 - `Creative` para construcción y creación de contenido sin restricciones
-- `Adventure` para un juego estructurado con progresión definida y reglas de interacción
+- `Adventure` para una jugabilidad estructurada con progresión definida y reglas de interacción
 
 Después de cambiar el valor del modo de juego, es necesario reiniciar el servidor para que el nuevo ajuste tenga efecto.
 
@@ -60,12 +60,12 @@ El archivo de configuración es accesible a través de tu panel de control de ho
 },
 ```
 
-El valor de `GameMode` determina qué modo de juego se aplica cuando el servidor arranca. Según la experiencia de juego que quieras, este valor puede ajustarse en consecuencia.
+El valor de `GameMode` determina qué modo de juego se aplica cuando el servidor arranca. Según la experiencia de juego que desees, este valor puede ajustarse en consecuencia.
 
 Los valores de modo de juego más comunes incluyen:
 
 - `Creative` para construcción y creación de contenido sin restricciones
-- `Adventure` para un juego estructurado con progresión definida y reglas de interacción
+- `Adventure` para una jugabilidad estructurada con progresión definida y reglas de interacción
 
 Después de cambiar el valor del modo de juego, es necesario reiniciar el servidor para que el nuevo ajuste tenga efecto.
 
@@ -73,4 +73,4 @@ Después de cambiar el valor del modo de juego, es necesario reiniciar el servid
 
 ## Conclusión
 
-Configurando el modo de juego ya sea a través del archivo de configuración del servidor o la consola en vivo, puedes controlar con precisión la experiencia de juego en tu servidor de Hytale. Para cualquier duda o ayuda, no dudes en contactar a nuestro equipo de soporte, ¡estamos disponibles todos los días para ayudarte! 🙂
+Configurando el modo de juego ya sea a través del archivo de configuración del servidor o la consola en vivo, puedes controlar con precisión la experiencia de juego en tu servidor de Hytale. Para más preguntas o ayuda, no dudes en contactar a nuestro equipo de soporte, ¡disponible todos los días para asistirte! 🙂

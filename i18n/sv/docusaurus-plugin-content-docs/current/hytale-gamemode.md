@@ -2,7 +2,7 @@
 id: hytale-gamemode
 title: "Hytale: Spellägesinställningar"
 description: "Lär dig hur du säkrar din Hytale-server genom att hantera spelartillgång med whitelist-funktioner och skydda ditt spel → Läs mer nu"
-sidebar_label: Whitelist
+sidebar_label: Spelläge
 services:
   - gameserver-hytale
 ---
@@ -12,11 +12,11 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introduktion
 
-Hytale-servrar låter dig konfigurera spellägen som definierar spelupplevelsen. Att byta spelläge gör att du kan anpassa din server efter en specifik spelstil eller community-preferens.
+Hytale-servrar låter dig konfigurera spelinställningar som spelläget som definierar spelarupplevelsen. Att byta spelläge gör att du kan anpassa din server efter en specifik spelstil eller communitypreferens.
 
-:::info Early Access Notice
+:::info Early Access-meddelande
 
-Hytale släpptes den 13 januari 2026 och finns just nu i Early Access. Eftersom spelet fortfarande är under aktiv utveckling kan serverprogramvara, konfigurationsfiler, moddsupport och installationsflöden fortsätta att ändras över tid.
+Hytale släpptes den 13 januari 2026 och finns just nu i Early Access. Eftersom spelet fortfarande är under aktiv utveckling kan serverprogramvara, konfigurationsfiler, moddsupport och installationsflöden fortsätta att förändras över tid.
 
 :::
 
@@ -32,7 +32,7 @@ Spelläget kan ändras medan servern körs via live-konsolen eller in-game-komma
 Att använda konsolkommandot uppdaterar det aktiva spelläget direkt för server-sessionen. Beroende på serverns setup kan ändringen gälla tills nästa omstart eller återgå till värdet i konfigurationsfilen.
 
 ```
-/gamemode <gamemode>
+/gamemode <gamemode> <playername>
 ```
 
 Värdet på `GameMode` bestämmer vilket spelläge som används när servern startar. Beroende på vilken spelupplevelse du vill ha kan detta värde justeras.
@@ -49,7 +49,7 @@ Efter att ha ändrat spelläget måste servern startas om för att den nya inst�
 ### Konfigurationsfil
 
 Spelläget kan också sättas direkt i serverns konfigurationsfil.  
-Den här metoden rekommenderas om du vill att servern alltid ska starta med ett specifikt spelläge eller när du förbereder en helt ny server.
+Den här metoden rekommenderas om du vill att servern alltid ska starta med ett specifikt spelläge eller när du förbereder en ny server.
 
 Konfigurationsfilen nås via ditt kontrollpanel eller filhanterare. I filen finns en inställning som styr vilket spelläge som används vid serverstart. Efter att ha ändrat värdet måste servern startas om för att ändringen ska slå igenom.
 
@@ -71,6 +71,6 @@ Efter att ha ändrat spelläget måste servern startas om för att den nya inst�
 
 
 
-## Slutsats
+## Sammanfattning
 
 Genom att konfigurera spelläget antingen via serverns konfigurationsfil eller live-konsolen kan du styra spelupplevelsen på din Hytale-server exakt som du vill. Har du fler frågor eller behöver hjälp? Tveka inte att kontakta vår support, vi finns här för dig varje dag! 🙂

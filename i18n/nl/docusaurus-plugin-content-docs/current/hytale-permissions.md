@@ -1,8 +1,8 @@
 ---
-id: "hytale-permissions"
+id: hytale-permissions
 title: "Hytale: Gebruikers- en Groepsrechten Beheren"
 description: "Beheer gebruikers- en groepsrechten op je Hytale-server → Leer er nu meer over"
-sidebar_label: Trage Verbinding / Wereld Laadt Niet
+sidebar_label: Rechten
 services:
 - gameserver-hytale
 ---
@@ -13,13 +13,13 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introductie
 
-Het beheren van rechten op een Hytale-server geeft je controle over wat spelers wel en niet kunnen doen. Dit betekent dat je verschillende toegangsniveaus kunt toewijzen aan vertrouwde spelers, moderators en beheerders. Het correct instellen van rechten is essentieel om een gebalanceerde en veilige serveromgeving te behouden, waar spelers zonder ongewenste exploits of misbruik van het spel kunnen genieten.
+Het beheren van rechten op een Hytale-server geeft je controle over wat spelers wel en niet kunnen doen. Dit betekent dat je verschillende toegangsniveaus kunt toewijzen aan vertrouwde spelers, moderators en admins. Het correct instellen van rechten is essentieel om een gebalanceerde en veilige serveromgeving te behouden, waar spelers kunnen genieten zonder ongewenste exploits of misbruik.
 
-De serversoftware van Hytale ondersteunt hiërarchische permissieniveaus die bepalen welke commando’s en acties elke speler mag uitvoeren. Deze kunnen worden beheerd via de live console of via configuratie-instellingen, afhankelijk van je server setup.
+De serversoftware van Hytale ondersteunt hiërarchische rechten die bepalen welke commando’s en acties elke speler mag uitvoeren. Deze kun je beheren via de live console of via configuratiebestanden, afhankelijk van je server setup.
 
 :::info Early Access Notice
 
-Hytale is uitgebracht op 13 januari 2026 en is momenteel beschikbaar in Early Access. Omdat het spel zich nog in een actieve ontwikkelingsfase bevindt, kunnen serversoftware, configuratiebestanden, modding-ondersteuning en installatieprocessen in de loop van de tijd blijven veranderen.
+Hytale is uitgebracht op 13 januari 2026 en is momenteel beschikbaar in Early Access. Omdat het spel nog in actieve ontwikkeling is, kunnen serversoftware, configuratiebestanden, modding-ondersteuning en installatieprocessen in de loop van de tijd blijven veranderen.
 
 :::
 
@@ -27,26 +27,26 @@ Hytale is uitgebracht op 13 januari 2026 en is momenteel beschikbaar in Early Ac
 
 
 
-## Overzicht van permissieniveaus
+## Overzicht van rechten-niveaus
 
-Rechten bepalen welke acties een speler op de server mag uitvoeren. Op het meest basale niveau hebben normale spelers alleen standaard gameplay-rechten, zoals bewegen, interactie met de wereld en chatten. Hogere permissieniveaus zoals operator of admin geven toegang tot servercommando’s die gameplay, andere spelers, serverconfiguratie en moderatietools beïnvloeden.
+Rechten bepalen welke acties een speler op de server mag uitvoeren. Op het meest basale niveau hebben normale spelers alleen standaard gameplayrechten, zoals bewegen, interactie met de wereld en chatten. Hogere rechten zoals operator of admin geven toegang tot servercommando’s die gameplay, andere spelers, serverconfiguratie en moderatietools beïnvloeden.
 
-Het permissiesysteem bestaat uit twee hoofdcomponenten:
+Het rechten-systeem bestaat uit twee hoofdcomponenten:
 
 - **Gebruikersrechten** die direct op een specifieke speler van toepassing zijn
-- **Groepsrechten** waarmee rechten worden gebundeld en aan meerdere spelers tegelijk kunnen worden toegewezen
+- **Groepsrechten** waarmee je rechten kunt bundelen en aan meerdere spelers tegelijk kunt toewijzen
 
-Elke speler wordt intern geïdentificeerd door een UUID, wat nodig is bij het beheren van rechten via commando’s.
+Elke speler wordt intern geïdentificeerd met een UUID, wat nodig is bij het beheren van rechten via commando’s.
 
 
 
 ## Gebruikersrechten beheren
 
-Gebruikersrechten stellen je in staat om specifieke rechten toe te kennen of in te trekken voor één enkele speler.
+Met gebruikersrechten kun je specifieke rechten aan een enkele speler geven of intrekken.
 
 ### Gebruikersrechten bekijken
 
-Toont alle rechten die direct aan een gebruiker zijn toegewezen. Dit commando laat elke permissie zien die momenteel op de opgegeven gebruiker van toepassing is.
+Toont alle rechten die direct aan een gebruiker zijn toegewezen. Dit commando laat elke recht zien die momenteel op de opgegeven gebruiker van toepassing is.
 
 ```
 /perm user list <uuid>
@@ -56,7 +56,7 @@ Toont alle rechten die direct aan een gebruiker zijn toegewezen. Dit commando la
 
 ### Rechten toevoegen aan een gebruiker
 
-Om één of meerdere rechten direct aan een gebruiker toe te kennen. De opgegeven rechten worden meteen toegevoegd en zijn direct actief zonder dat de server opnieuw gestart hoeft te worden.
+Om één of meerdere rechten direct aan een gebruiker toe te kennen. De opgegeven rechten worden meteen toegevoegd en zijn direct actief, zonder dat de server opnieuw gestart hoeft te worden.
 
 ```
 /perm user add <uuid> <permissions>
@@ -64,7 +64,7 @@ Om één of meerdere rechten direct aan een gebruiker toe te kennen. De opgegeve
 
 
 
-### Rechten verwijderen van een gebruiker
+### Rechten verwijderen bij een gebruiker
 
 Om rechten van een gebruiker in te trekken. Dit verwijdert alleen de opgegeven rechten, terwijl alle andere rechten ongewijzigd blijven.
 
@@ -132,9 +132,9 @@ Om één of meerdere rechten aan een groep toe te voegen. Alle gebruikers die aa
 
 
 
-### Rechten verwijderen van een groep
+### Rechten verwijderen bij een groep
 
-Dit verwijdert alleen de opgegeven rechten van de groep zonder andere rechten te beïnvloeden.
+Dit verwijdert alleen de opgegeven rechten uit de groep zonder andere rechten te beïnvloeden.
 
 ```
 /perm group remove <group> <permissions>
