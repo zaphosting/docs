@@ -1,5 +1,5 @@
 ---
-id: hytale-commands-list
+id: hytale-commands
 title: "Hytale: Commands List"
 description: "Overview of available console and in-game commands for Hytale servers → Learn more now"
 sidebar_label: Commands List
