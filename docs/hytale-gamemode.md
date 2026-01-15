@@ -32,7 +32,7 @@ The game mode can  be changed while the server is running by using the live cons
 Using the console command updates the active game mode immediately for the server session. Depending on the server setup, the change may persist until the next restart or revert to the value defined in the configuration file.
 
 ```
-/gamemode <gamemode>
+/gamemode <gamemode> <playername>
 ```
 
 The value of `GameMode` determines which game mode is applied when the server starts. Depending on your desired gameplay experience, this value can be adjusted accordingly.
