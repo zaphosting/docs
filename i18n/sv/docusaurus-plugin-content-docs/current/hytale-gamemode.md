@@ -2,7 +2,7 @@
 id: hytale-gamemode
 title: "Hytale: Spellägesinställningar"
 description: "Lär dig hur du säkrar din Hytale-server genom att hantera spelartillgång med whitelist-funktioner och skydda ditt spel → Läs mer nu"
-sidebar_label: Whitelist
+sidebar_label: Spellägesinställningar
 services:
   - gameserver-hytale
 ---
@@ -12,11 +12,11 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introduktion
 
-Hytale-servrar låter dig konfigurera spellägen som definierar spelupplevelsen. Att byta spelläge gör att du kan anpassa din server efter en specifik spelstil eller community-preferens.
+Hytale-servrar låter dig konfigurera spelinställningar som spelläget som definierar spelarupplevelsen. Att ändra spelläge gör att du kan anpassa din server efter en specifik spelstil eller communitypreferens.
 
-:::info Early Access Notice
+:::info Early Access-meddelande
 
-Hytale släpptes den 13 januari 2026 och finns just nu i Early Access. Eftersom spelet fortfarande är under aktiv utveckling kan serverprogramvara, konfigurationsfiler, moddsupport och installationsflöden fortsätta att ändras över tid.
+Hytale släpptes den 13 januari 2026 och finns just nu i Early Access. Eftersom spelet fortfarande är under aktiv utveckling kan serverprogramvara, konfigurationsfiler, moddstöd och installationsflöden fortsätta att förändras över tid.
 
 :::
 
@@ -24,22 +24,22 @@ Hytale släpptes den 13 januari 2026 och finns just nu i Early Access. Eftersom 
 
 
 
-## Byt spelläge
+## Ändra spelläge
 
 ### Live-konsol
-Spelläget kan ändras medan servern körs via live-konsolen eller in-game-kommandon, förutsatt att rätt behörigheter finns. Den här metoden låter admins byta spelläge utan att redigera konfigurationsfiler.
+Spelläget kan ändras medan servern körs genom att använda live-konsolen eller kommandon i spelet, förutsatt att rätt behörigheter finns. Den här metoden låter administratörer byta spelläge utan att redigera konfigurationsfiler.
 
-Att använda konsolkommandot uppdaterar det aktiva spelläget direkt för server-sessionen. Beroende på serverns setup kan ändringen gälla tills nästa omstart eller återgå till värdet i konfigurationsfilen.
+Att använda konsolkommandot uppdaterar det aktiva spelläget direkt för serversessionen. Beroende på serverinställning kan ändringen gälla tills nästa omstart eller återgå till värdet som definieras i konfigurationsfilen.
 
 ```
-/gamemode <gamemode>
+/gamemode <gamemode> <playername>
 ```
 
 Värdet på `GameMode` bestämmer vilket spelläge som används när servern startar. Beroende på vilken spelupplevelse du vill ha kan detta värde justeras.
 
 Vanliga spellägen är:
 
-- `Creative` för fri byggnation och skapande
+- `Creative` för fri byggnation och skapande av innehåll
 - `Adventure` för strukturerat spel med definierad progression och interaktionsregler
 
 Efter att ha ändrat spelläget måste servern startas om för att den nya inställningen ska börja gälla.
@@ -48,10 +48,10 @@ Efter att ha ändrat spelläget måste servern startas om för att den nya inst�
 
 ### Konfigurationsfil
 
-Spelläget kan också sättas direkt i serverns konfigurationsfil.  
-Den här metoden rekommenderas om du vill att servern alltid ska starta med ett specifikt spelläge eller när du förbereder en helt ny server.
+Spelläget kan definieras direkt i serverns konfigurationsfil.  
+Den här metoden rekommenderas när du vill att servern alltid ska starta med ett specifikt spelläge eller när du förbereder en ny server.
 
-Konfigurationsfilen nås via ditt kontrollpanel eller filhanterare. I filen finns en inställning som styr vilket spelläge som används vid serverstart. Efter att ha ändrat värdet måste servern startas om för att ändringen ska slå igenom.
+Konfigurationsfilen nås via din hostingkontrollpanel eller filhanterare. I filen finns en inställning som styr vilket spelläge som används när servern startar. Efter att ha ändrat detta värde måste servern startas om för att ändringen ska träda i kraft.
 
 ```
 "Defaults": {
@@ -64,7 +64,7 @@ Värdet på `GameMode` bestämmer vilket spelläge som används när servern sta
 
 Vanliga spellägen är:
 
-- `Creative` för fri byggnation och skapande
+- `Creative` för fri byggnation och skapande av innehåll
 - `Adventure` för strukturerat spel med definierad progression och interaktionsregler
 
 Efter att ha ändrat spelläget måste servern startas om för att den nya inställningen ska börja gälla.
@@ -73,4 +73,4 @@ Efter att ha ändrat spelläget måste servern startas om för att den nya inst�
 
 ## Slutsats
 
-Genom att konfigurera spelläget antingen via serverns konfigurationsfil eller live-konsolen kan du styra spelupplevelsen på din Hytale-server exakt som du vill. Har du fler frågor eller behöver hjälp? Tveka inte att kontakta vår support, vi finns här för dig varje dag! 🙂
+Genom att konfigurera spelläget antingen via serverns konfigurationsfil eller live-konsolen kan du styra spelupplevelsen på din Hytale-server exakt. Har du fler frågor eller behöver hjälp, tveka inte att kontakta vår support som finns tillgänglig varje dag för att hjälpa dig! 🙂

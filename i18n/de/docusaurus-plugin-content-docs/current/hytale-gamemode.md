@@ -2,7 +2,7 @@
 id: hytale-gamemode
 title: "Hytale: Spielmodus-Konfiguration"
 description: "Entdecke, wie du deinen Hytale-Server absicherst, indem du den Spielerzugang mit Whitelist-Funktionen verwaltest und dein Gameplay schützt → Jetzt mehr erfahren"
-sidebar_label: Whitelist
+sidebar_label: Spielmodus
 services:
   - gameserver-hytale
 ---
@@ -12,7 +12,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
 
-Hytale-Server erlauben dir, Gameplay-Einstellungen wie den Spielmodus zu konfigurieren, der das Spielerlebnis definiert. Durch das Ändern des Spielmodus kannst du deinen Server auf einen bestimmten Spielstil oder Community-Vorlieben anpassen.
+Hytale-Gameserver erlauben dir, Gameplay-Einstellungen wie den Spielmodus zu konfigurieren, der das Spielerlebnis definiert. Durch das Ändern des Spielmodus kannst du deinen Server auf einen bestimmten Spielstil oder Community-Vorlieben anpassen.
 
 :::info Early Access Hinweis
 
@@ -32,7 +32,7 @@ Der Spielmodus kann während des laufenden Servers über die Live-Konsole oder I
 Der Konsolenbefehl aktualisiert den aktiven Spielmodus sofort für die aktuelle Server-Session. Je nach Server-Setup bleibt die Änderung bis zum nächsten Neustart bestehen oder wird auf den Wert aus der Konfigurationsdatei zurückgesetzt.
 
 ```
-/gamemode <gamemode>
+/gamemode <spielmodus> <spielername>
 ```
 
 Der Wert von `GameMode` bestimmt, welcher Spielmodus beim Serverstart angewendet wird. Je nach gewünschtem Spielerlebnis kann dieser Wert entsprechend angepasst werden.
@@ -49,9 +49,9 @@ Nach dem Ändern des Spielmodus-Werts muss der Server neu gestartet werden, dami
 ### Konfigurationsdatei
 
 Der Spielmodus kann direkt in der Server-Konfigurationsdatei festgelegt werden.  
-Diese Methode empfiehlt sich, wenn der Server immer mit einem bestimmten Spielmodus starten soll oder bei der Vorbereitung eines frischen Server-Setups.
+Diese Methode empfiehlt sich, wenn dein Server immer mit einem bestimmten Spielmodus starten soll oder du eine frische Servereinrichtung vorbereitest.
 
-Die Konfigurationsdatei ist über dein Hosting Control Panel oder den Dateimanager zugänglich. In dieser Datei gibt es eine Einstellung, die den aktiven Spielmodus beim Serverstart steuert. Nach der Änderung dieses Werts muss der Server neu gestartet werden, damit die Änderung wirksam wird.
+Die Konfigurationsdatei ist über dein Hosting Control Panel oder den Dateimanager zugänglich. In dieser Datei gibt es eine Einstellung, die den aktiven Spielmodus beim Serverstart steuert. Nach der Änderung dieses Werts muss der Server neu gestartet werden, damit die Änderung greift.
 
 ```
 "Defaults": {
@@ -73,4 +73,4 @@ Nach dem Ändern des Spielmodus-Werts muss der Server neu gestartet werden, dami
 
 ## Fazit
 
-Indem du den Spielmodus entweder über die Server-Konfigurationsdatei oder die Live-Konsole einstellst, kannst du das Gameplay auf deinem Hytale-Server genau steuern. Bei weiteren Fragen oder wenn du Hilfe brauchst, steht dir unser Support-Team täglich zur Seite! 🙂
+Indem du den Spielmodus entweder über die Server-Konfigurationsdatei oder die Live-Konsole einstellst, kannst du das Gameplay auf deinem Hytale-Gameserver genau steuern. Bei weiteren Fragen oder wenn du Hilfe brauchst, steht dir unser Support-Team täglich zur Seite! 🙂
