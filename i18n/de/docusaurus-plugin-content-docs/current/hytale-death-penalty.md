@@ -25,28 +25,28 @@ Hytale wurde am 13. Januar 2026 veröffentlicht und befindet sich aktuell im Ear
 
 
 ## Verfügbare Einstellungen zur Todesstrafe
-Die Einstellungen zur Todesstrafe regeln, wie sich der Tod eines Spielers auf den Inventarinhalt und die Haltbarkeit von Items auswirkt. Diese Optionen erlauben dir zu definieren, ob Items behalten, teilweise verloren oder komplett fallen gelassen werden, sowie wie stark Items beim Tod an Haltbarkeit verlieren.
+Die Einstellungen zur Todesstrafe regeln, wie sich der Tod eines Spielers auf Inventarinhalt und Item-Haltbarkeit auswirkt. Diese Optionen erlauben dir zu definieren, ob Items behalten, teilweise verloren oder komplett fallen gelassen werden, sowie wie stark Items beim Tod an Haltbarkeit verlieren.
 
 Folgende Konfigurationsoptionen stehen zur Verfügung:
 
 **ItemsLossMode**  
-Diese Einstellung definiert das generelle Verhalten beim Itemverlust nach dem Tod eines Spielers.  
+Diese Einstellung definiert das generelle Verhalten beim Item-Verlust nach dem Tod eines Spielers.  
 Folgende Werte sind möglich:
 
 - `None` – Spieler behalten ihr gesamtes Inventar nach dem Tod
 - `All` – Alle Items werden beim Tod fallen gelassen
-- `Configured` – Itemverlust wird durch prozentuale Einstellungen bestimmt
+- `Configured` – Item-Verlust wird durch prozentuale Einstellungen bestimmt
 
 **ItemsAmountLossPercentage**  
 Dieser Wert wird nur angewendet, wenn `ItemsLossMode` auf `Configured` gesetzt ist.  
-Er definiert, wie viel Prozent jedes Item-Stapels beim Tod entfernt werden.  
+Er definiert, wie viel Prozent von jedem Item-Stapel beim Tod entfernt werden.  
 Beispiel: Ein Wert von `50.0` bedeutet, dass die Hälfte jedes Stapels verloren geht.
 
 **ItemsDurabilityLossPercentage**  
 Diese Einstellung steuert, wie viel Haltbarkeit Items beim Tod eines Spielers verlieren.  
 Der Wert wird als Prozentsatz der aktuellen Haltbarkeit definiert und ermöglicht es, dass der Tod Konsequenzen hat, ohne Items komplett zu entfernen.
 
-Zusammen bieten diese Einstellungen eine feine Kontrolle darüber, wie gnädig oder hart die Todesstrafe auf dem Server sein soll.  
+Zusammen bieten diese Einstellungen eine feine Kontrolle darüber, wie gnädig oder hart der Tod auf dem Server sein soll.  
 Eine sorgfältige Anpassung sorgt für ein ausgewogenes Erlebnis, das zur gewünschten Schwierigkeit und Spielweise des Servers passt.
 
 
@@ -55,13 +55,13 @@ Eine sorgfältige Anpassung sorgt für ein ausgewogenes Erlebnis, das zur gewün
 
 Die Einstellungen zur Todesstrafe findest du in der Haupt-`config.json` deines Servers. Diese Werte werden beim Serverstart geladen und gelten global für alle Spieler.
 
-Innerhalb der Konfigurationsdatei sind die todesbezogenen Einstellungen Teil der Gameplay-Konfiguration. Um die Todesstrafe hinzuzufügen oder zu ändern, suche folgende Zeile in der `config.json`:
+Innerhalb der Konfigurationsdatei sind die todesbezogenen Einstellungen Teil der Gameplay-Konfiguration. Um die Todesstrafe hinzuzufügen oder zu ändern, suche die folgende Zeile in der `config.json`:
 
 ```
 "GameplayConfig": "Default",
 ```
 
-Dieser Eintrag definiert das aktive Gameplay-Konfigurationsprofil. Die Konfiguration der Todesstrafe wird direkt unter dieser Zeile als neuer Block eingefügt. Sobald du die Zeile gefunden hast, füge den Death-Konfigurationsblock hinzu, um festzulegen, wie Respawn und Itemverlust gehandhabt werden:
+Dieser Eintrag definiert das aktive Gameplay-Konfigurationsprofil. Die Todesstrafe-Konfiguration wird direkt unter dieser Zeile als neuer Block eingefügt. Sobald du die Zeile gefunden hast, füge den Death-Konfigurationsblock hinzu, um festzulegen, wie Respawn und Item-Verlust gehandhabt werden:
 
 ```
 "Death": {
@@ -74,7 +74,7 @@ Dieser Eintrag definiert das aktive Gameplay-Konfigurationsprofil. Die Konfigura
  },
 ```
 
-Das folgende Beispiel zeigt eine typische Konfiguration, bei der Itemverlust und Haltbarkeitsverlust teilweise beim Tod angewendet werden:
+Das folgende Beispiel zeigt eine typische Konfiguration, bei der Item-Verlust und Haltbarkeitsverlust teilweise beim Tod angewendet werden:
 
 ```
 {
@@ -84,10 +84,10 @@ Das folgende Beispiel zeigt eine typische Konfiguration, bei der Itemverlust und
 }
 ```
 
-In dieser Konfiguration verwendet der Server den Modus `Configured`, was bedeutet, dass der Itemverlust prozentual gesteuert wird.  
+In dieser Konfiguration verwendet der Server den Verlustmodus `Configured`, was bedeutet, dass der Item-Verlust prozentual gesteuert wird.  
 Wenn ein Spieler stirbt, wird die Hälfte jedes Item-Stapels entfernt und die Items verlieren 25 Prozent ihrer aktuellen Haltbarkeit.
 
-Soll überhaupt kein Itemverlust stattfinden, kann der Modus auf `None` gesetzt werden, dann werden die Prozentwerte ignoriert:
+Soll überhaupt kein Item-Verlust stattfinden, kann der Verlustmodus auf `None` gesetzt werden, wobei die Prozentwerte ignoriert werden:
 
 ```
 {
@@ -104,13 +104,13 @@ Für ein härteres Erlebnis, bei dem alle Items beim Tod fallen gelassen werden,
 ```
 
 Nach der Änderung der `config.json` muss der Server neu gestartet werden, damit die Änderungen wirksam werden.  
-Es empfiehlt sich, das Verhalten nach dem Neustart im Spiel zu überprüfen, um sicherzugehen, dass die Todesstrafe der gewünschten Schwierigkeit entspricht.
+Es empfiehlt sich, das Verhalten nach dem Neustart im Spiel zu überprüfen, um sicherzustellen, dass die Todesstrafe der gewünschten Schwierigkeit entspricht.
 
 
 
 ## Fazit
 
-Mit der konfigurierten Todesstrafe hast du jetzt einen klaren Überblick darüber, wie Spieler-Tode auf deinem Hytale Gameserver gehandhabt werden. Bei weiteren Fragen oder wenn du Hilfe brauchst, steht dir unser Support-Team täglich zur Verfügung! 🙂
+Mit der konfigurierten Todesstrafe hast du jetzt einen klaren Überblick darüber, wie Spieler-Tode auf deinem Hytale Gameserver gehandhabt werden. Für weitere Fragen oder Unterstützung steht dir unser Support-Team täglich zur Verfügung – zögere nicht, uns zu kontaktieren! 🙂
 
 
 

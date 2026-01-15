@@ -1,5 +1,5 @@
 ---
-id: hytale-commands-list
+id: hytale-commands
 title: "Hytale: Lista de Comandos"
 description: "Resumen de comandos disponibles en consola y en el juego para servidores Hytale → Aprende más ahora"
 sidebar_label: Lista de Comandos
@@ -41,7 +41,7 @@ Estos comandos controlan el acceso administrativo y la asignación detallada de 
 | Comando                                   | Descripción                                             |
 | ----- | - |
 | `/op add <PlayerName>`                    | Otorga privilegios de operador al jugador especificado.     |
-| `/op remove <PlayerName>`                 | Revoca privilegios de operador al jugador especificado.  |
+| `/op remove <PlayerName>`                 | Revoca los privilegios de operador del jugador especificado.  |
 | `/perm user list <uuid>`                  | Muestra todos los permisos asignados directamente al usuario. |
 | `/perm user add <uuid> <permission>`      | Asigna uno o más permisos directamente al usuario.   |
 | `/perm user remove <uuid> <permission>`   | Elimina permisos específicos del usuario.             |
@@ -54,7 +54,7 @@ Estos comandos controlan el acceso administrativo y la asignación detallada de 
 
 
 
-## Lista Blanca (Whitelist)
+## Lista blanca
 
 Los comandos de lista blanca restringen el acceso al servidor solo a jugadores aprobados.
 
@@ -69,7 +69,7 @@ Los comandos de lista blanca restringen el acceso al servidor solo a jugadores a
 
 
 
-## Gestión de Mundos
+## Gestión de mundos
 
 Los comandos de mundo controlan la creación, carga, descarga y eliminación de mundos.
 
@@ -107,7 +107,7 @@ Comandos usados para gestionar posiciones y visibilidad de jugadores.
 
 
 
-## Utilidades y ayuda
+## Utilidad y ayuda
 
 Los comandos de utilidad ofrecen ayuda e información del servidor.
 
@@ -115,15 +115,15 @@ Los comandos de utilidad ofrecen ayuda e información del servidor.
 | ----- | ---- |
 | `/help`           | Muestra una lista de comandos disponibles.               |
 | `/help <command>` | Muestra ayuda detallada para un comando específico.       |
-| `/status`         | Muestra el estado actual del servidor e información de ejecución. |
+| `/status`         | Muestra el estado actual del servidor y datos de ejecución. |
 
 
 
 ## Conclusión
 
-El sistema de comandos de Hytale ofrece herramientas potentes para gestionar servidores, jugadores y la jugabilidad. Entendiendo y usando los comandos disponibles, los administradores pueden operar y personalizar su entorno de servidor Hytale de forma eficiente.
+El sistema de comandos de Hytale ofrece herramientas potentes para gestionar servidores, jugadores y el comportamiento del juego. Entendiendo y usando los comandos disponibles, los administradores pueden operar y personalizar su entorno de servidor Hytale de forma eficiente.
 
-Para cualquier duda o asistencia, no dudes en contactar con nuestro equipo de soporte, ¡disponible a diario para ayudarte! 🙂
+Para cualquier duda o ayuda, no dudes en contactar con nuestro equipo de soporte, ¡disponible todos los días para ayudarte! 🙂
 
 
 

@@ -25,7 +25,7 @@ Hytale est sorti le 13 janvier 2026 et est actuellement disponible en Early Acce
 
 
 ## Paramètres disponibles pour la pénalité de mort
-Les paramètres de pénalité de mort contrôlent comment les morts des joueurs affectent le contenu de l’inventaire et la durabilité des objets. Ces options vous permettent de définir si les objets sont conservés, partiellement perdus ou entièrement lâchés, ainsi que la quantité d’usure que les objets subissent à la mort.
+Les paramètres de pénalité de mort contrôlent comment les décès des joueurs affectent le contenu de l’inventaire et la durabilité des objets. Ces options vous permettent de définir si les objets sont conservés, partiellement perdus ou entièrement lâchés, ainsi que la quantité d’usure que les objets subissent à la mort.
 
 Les options de configuration suivantes sont disponibles :
 
@@ -39,12 +39,12 @@ Il supporte les valeurs suivantes :
 
 **ItemsAmountLossPercentage**  
 Cette valeur s’applique uniquement lorsque `ItemsLossMode` est réglé sur `Configured`.  
-Elle définit la quantité de chaque pile d’objets retirée à la mort, exprimée en pourcentage.  
+Elle définit la quantité de chaque pile d’objets qui est retirée à la mort, exprimée en pourcentage.  
 Par exemple, une valeur de `50.0` signifie que la moitié de chaque pile est perdue.
 
 **ItemsDurabilityLossPercentage**  
-Ce paramètre contrôle la quantité de durabilité que les objets perdent lorsqu’un joueur meurt.  
-La valeur est définie en pourcentage de la durabilité actuelle de l’objet et permet à la mort d’avoir des conséquences sans retirer complètement les objets.
+Ce paramètre contrôle la quantité de durabilité que les objets perdent quand un joueur meurt.  
+La valeur est définie en pourcentage de la durabilité actuelle de l’objet et permet à la mort d’avoir des conséquences sans supprimer complètement les objets.
 
 Ensemble, ces paramètres offrent un contrôle précis sur le niveau de sévérité ou de clémence de la mort sur le serveur.  
 Un réglage soigné garantit une expérience équilibrée qui correspond à la difficulté et au style de jeu souhaités sur le serveur.
@@ -85,7 +85,7 @@ L’exemple suivant montre une configuration typique où la perte d’objets et 
 ```
 
 Dans cette configuration, le serveur utilise le mode de perte `Configured`, ce qui signifie que la perte d’objets est contrôlée par des pourcentages.  
-Lorsqu’un joueur meurt, la moitié de chaque pile d’objets est retirée et les objets perdent 25 % de leur durabilité actuelle.
+Quand un joueur meurt, la moitié de chaque pile d’objets est retirée et les objets perdent 25 % de leur durabilité actuelle.
 
 Si aucune perte d’objets ne doit se produire, le mode de perte peut être réglé sur `None`, auquel cas les valeurs en pourcentage sont ignorées :
 
@@ -110,7 +110,7 @@ Il est recommandé de vérifier le comportement en jeu après le redémarrage po
 
 ## Conclusion
 
-Avec la pénalité de mort configurée, vous avez maintenant une vision claire de la gestion des morts des joueurs sur votre serveur de jeux Hytale. Pour toute question ou assistance, n’hésitez pas à contacter notre équipe support, disponible tous les jours pour vous aider ! 🙂
+Avec la pénalité de mort configurée, vous avez maintenant une vision claire de la gestion des morts des joueurs sur votre serveur de jeux Hytale. Pour toute question ou aide supplémentaire, n’hésitez pas à contacter notre équipe support, disponible tous les jours pour vous assister ! 🙂
 
 
 

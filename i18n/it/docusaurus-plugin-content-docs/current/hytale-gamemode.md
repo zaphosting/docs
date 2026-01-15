@@ -29,7 +29,7 @@ Hytale è stato rilasciato il 13 gennaio 2026 ed è attualmente disponibile in E
 ### Console live
 La modalità di gioco può essere cambiata mentre il server è attivo usando la console live o i comandi in-game, a patto di avere i permessi necessari. Questo metodo permette agli admin di cambiare la modalità senza dover modificare i file di configurazione.
 
-Usando il comando in console, la modalità di gioco attiva viene aggiornata immediatamente per la sessione del server. A seconda della configurazione del server, la modifica può rimanere attiva fino al prossimo riavvio o tornare al valore definito nel file di configurazione.
+Usando il comando in console la modalità di gioco attiva viene aggiornata immediatamente per la sessione del server. A seconda della configurazione del server, la modifica può rimanere attiva fino al prossimo riavvio o tornare al valore definito nel file di configurazione.
 
 ```
 /gamemode <modalità> <nomegiocatore>
@@ -42,7 +42,7 @@ Le modalità di gioco più comuni sono:
 - `Creative` per costruzioni e creazioni senza limiti
 - `Adventure` per un gameplay strutturato con progressione e regole di interazione definite
 
-Dopo aver cambiato il valore della modalità di gioco, è necessario riavviare il server perché la nuova impostazione abbia effetto.
+Dopo aver cambiato il valore della modalità di gioco, è necessario riavviare il server perché la nuova impostazione entri in vigore.
 
 
 
@@ -51,7 +51,7 @@ Dopo aver cambiato il valore della modalità di gioco, è necessario riavviare i
 La modalità di gioco può essere definita direttamente nel file di configurazione del server.  
 Questo metodo è consigliato se vuoi che il server parta sempre con una modalità specifica o se stai preparando un setup nuovo.
 
-Il file di configurazione è accessibile tramite il pannello di controllo del tuo hosting o il file manager. All’interno di questo file c’è un’impostazione che controlla la modalità di gioco attiva all’avvio del server. Dopo aver modificato questo valore, devi riavviare il server per applicare la modifica.
+Il file di configurazione è accessibile dal pannello di controllo del tuo hosting o dal file manager. All’interno di questo file c’è un’impostazione che controlla la modalità di gioco attiva all’avvio del server. Dopo aver modificato questo valore, devi riavviare il server per applicare la modifica.
 
 ```
 "Defaults": {
@@ -67,7 +67,7 @@ Le modalità di gioco più comuni sono:
 - `Creative` per costruzioni e creazioni senza limiti
 - `Adventure` per un gameplay strutturato con progressione e regole di interazione definite
 
-Dopo aver cambiato il valore della modalità di gioco, è necessario riavviare il server perché la nuova impostazione abbia effetto.
+Dopo aver cambiato il valore della modalità di gioco, è necessario riavviare il server perché la nuova impostazione entri in vigore.
 
 
 

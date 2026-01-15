@@ -24,7 +24,7 @@ Il comportamento del PvP viene definito per ogni singolo mondo e configurato tra
 /gXXXXXXX/hytale/universe/worlds/default/config.json
 ```
 
-Questa impostazione determina come il server gestisce i danni tra giocatori e se il PvP è consentito nel mondo attivo. Le modifiche alle impostazioni PvP si applicano globalmente al mondo interessato e richiedono un riavvio del server per entrare in vigore.
+Questa impostazione determina come il server gestisce i danni tra giocatori e se il PvP è permesso nel mondo attivo. Le modifiche alle impostazioni PvP si applicano globalmente al mondo interessato e richiedono un riavvio del server per entrare in vigore.
 
 Ecco un esempio di configurazione in cui il PvP è disabilitato per un mondo:
 
@@ -34,7 +34,7 @@ Ecco un esempio di configurazione in cui il PvP è disabilitato per un mondo:
 }
 ```
 
-Con questa configurazione, i giocatori non possono più danneggiarsi a vicenda in quel mondo, creando di fatto un ambiente focalizzato sul PvE.
+Con questa configurazione, i giocatori non possono più danneggiarsi tra loro in quel mondo, creando di fatto un ambiente focalizzato sul PvE.
 
 Per abilitare il PvP e permettere il combattimento tra giocatori, la configurazione può essere impostata così:
 
@@ -46,6 +46,6 @@ Per abilitare il PvP e permettere il combattimento tra giocatori, la configurazi
 
 ## Conclusione
 
-Una volta configurato, avrai una panoramica chiara di come viene gestito il PvP e potrai facilmente adattare la configurazione per supportare gameplay cooperativo, ambienti competitivi o una combinazione di entrambi. Per qualsiasi domanda o supporto, non esitare a contattare il nostro team di assistenza, disponibile ogni giorno per aiutarti! 🙂
+Una volta configurato, hai una panoramica chiara di come viene gestito il PvP e puoi facilmente adattare la configurazione per supportare gameplay cooperativo, ambienti competitivi o una combinazione di entrambi. Per qualsiasi domanda o supporto, non esitare a contattare il nostro team di assistenza, disponibile ogni giorno per aiutarti! 🙂
 
 <InlineVoucher />

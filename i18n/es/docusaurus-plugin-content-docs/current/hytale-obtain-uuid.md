@@ -45,7 +45,7 @@ Después de ejecutar el comando, el servidor responde directamente en el chat co
 
 ## Conclusión
 
-Obtener el UUID de un jugador es un paso esencial en tareas avanzadas de gestión de servidores en un servidor de Hytale. Para más preguntas o ayuda, no dudes en contactar con nuestro equipo de soporte, ¡que está disponible todos los días para ayudarte! 🙂
+Obtener el UUID de un jugador es un paso esencial en tareas avanzadas de gestión en un servidor de Hytale. Para más preguntas o ayuda, no dudes en contactar con nuestro equipo de soporte, ¡estamos disponibles todos los días para ayudarte! 🙂
 
 
 <InlineVoucher />

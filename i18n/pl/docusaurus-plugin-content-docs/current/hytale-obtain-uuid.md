@@ -18,7 +18,7 @@ UUID są niezbędne do różnych zadań administracyjnych, takich jak zarządzan
 
 :::info Informacja o Wczesnym Dostępie
 
-Hytale zostało wydane 13 stycznia 2026 i jest obecnie dostępne we Wczesnym Dostępie. Ponieważ gra jest nadal w aktywnej fazie rozwoju, oprogramowanie serwera, pliki konfiguracyjne, wsparcie modów oraz procesy instalacyjne mogą się z czasem zmieniać.
+Hytale zostało wydane 13 stycznia 2026 i jest obecnie dostępne we Wczesnym Dostępie. Ponieważ gra jest nadal w aktywnej fazie rozwoju, oprogramowanie serwera, pliki konfiguracyjne, wsparcie modów oraz procesy instalacji mogą się z czasem zmieniać.
 
 :::
 
@@ -27,12 +27,12 @@ Hytale zostało wydane 13 stycznia 2026 i jest obecnie dostępne we Wczesnym Dos
 
 ## Jak zdobyć UUID
 
-UUID gracza można uzyskać bezpośrednio w grze, korzystając z wbudowanej komendy czatu serwera. Ta metoda jest szczególnie przydatna, gdy gracz jest już online i UUID jest potrzebny od razu.
+UUID gracza można zdobyć bezpośrednio w grze, korzystając z wbudowanej komendy czatu serwera. Ta metoda jest szczególnie przydatna, gdy gracz jest już online i UUID jest potrzebny od razu.
 
 Będąc zalogowanym z odpowiednimi uprawnieniami, otwórz czat w grze i wykonaj komendę wyszukiwania UUID dla wybranego gracza:
 
 ```
-/whoami <nazwa_gracza>
+/whoami <playername>
 ```
 
 Po wykonaniu komendy serwer odpowie bezpośrednio na czacie, podając UUID powiązany z określonym graczem. Zwrócony UUID jednoznacznie identyfikuje tego gracza i można go skopiować do zarządzania uprawnieniami, przypisywania grup, wpisów na whitelistę lub innych operacji po stronie serwera.

@@ -74,11 +74,11 @@ Para revogar permissões de um usuário. Isso remove apenas as permissões espec
 
 
 
-## Gerenciando atribuições de grupo de usuário
+## Gerenciando atribuições de grupos de usuário
 
 Além das permissões diretas, usuários podem herdar permissões através de grupos.
 
-### Visualizar permissões de grupo do usuário
+### Visualizar grupos de usuário
 
 Esse comando mostra a quais grupos de permissão o usuário pertence atualmente.
 
@@ -114,7 +114,7 @@ Grupos permitem gerenciar permissões centralmente e reutilizá-las em vários u
 
 ### Visualizar permissões de grupo
 
-Para exibir todas as permissões atribuídas a um grupo. Esse comando fornece uma visão geral de todas as permissões associadas ao grupo especificado.
+Para exibir todas as permissões atribuídas a um grupo. Esse comando oferece uma visão geral de todas as permissões associadas ao grupo especificado.
 
 ```
 /perm group list <group>

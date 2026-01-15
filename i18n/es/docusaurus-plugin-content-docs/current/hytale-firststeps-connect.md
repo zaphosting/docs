@@ -1,7 +1,7 @@
 ---
 id: hytale-firststeps-connect
 title: "Hytale: Conéctate al servidor"
-description: "Descubre cómo conectarte fácilmente a tu servidor de Hytale y solucionar problemas comunes para una experiencia de juego sin interrupciones → Aprende más ahora"
+description: "Descubre cómo conectarte sin problemas a tu servidor de Hytale y solucionar problemas comunes para una experiencia de juego fluida → Aprende más ahora"
 sidebar_label: Conéctate al servidor
 services:
   - gameserver-hytale
@@ -13,7 +13,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 
 ## Introducción
-¿No sabes cómo conectarte a tu **servidor de juegos** de Hytale o qué necesitas para empezar? ¡No te preocupes, aquí te ayudamos! Te guiaremos por todo lo que necesitas. Desde las herramientas e información necesarias hasta el proceso real de conexión, junto con consideraciones clave para asegurar una experiencia de conexión fluida y sin problemas. Sigue nuestra guía y estarás conectado en un abrir y cerrar de ojos.
+¿No sabes cómo conectarte a tu **servidor de juegos Hytale** o qué necesitas para empezar? ¡No te preocupes, aquí te ayudamos! Te guiaremos por todo lo que necesitas. Desde las herramientas e información necesarias hasta el proceso real de conexión, junto con consideraciones clave para asegurar una experiencia de conexión fluida y sin problemas. Sigue nuestra guía y estarás conectado en un abrir y cerrar de ojos.
 
 :::info Aviso de Acceso Anticipado
 
@@ -27,7 +27,7 @@ Hytale se lanzó el 13 de enero de 2026 y actualmente está disponible en Acceso
 ## Obtén los detalles del servidor
 
 
-Vas a necesitar toda la información relevante para conectarte a tu servidor. La información sobre tu servidor la puedes encontrar en el panel web del **panel de control** de tu servidor de juegos. La información importante incluye lo siguiente:
+Vas a necesitar toda la información relevante para conectarte a tu servidor. La información sobre tu servidor la puedes encontrar en el panel web del panel de control de tu servidor de juegos. La información importante incluye lo siguiente:
 
 - Dirección IP y puerto
 - Nombre del servidor
@@ -40,7 +40,7 @@ Con la información mencionada arriba, deberías poder localizar tu servidor y a
 
 ## Establece la conexión al servidor
 
-La conexión al servidor se establece usando la **dirección IP** y el **puerto** del servidor. También puede ser necesaria una contraseña opcional. Para hacerlo, abre **Servidores** en el menú principal y haz clic en **Agregar servidores** en la parte inferior derecha de la lista de servidores. Ingresa la dirección IP y el puerto de tu servidor y asigna un nombre o descripción. Luego haz clic en el servidor recién agregado para establecer la conexión. Si el servidor tiene contraseña, se te pedirá que la ingreses durante el proceso de conexión.
+La conexión al servidor se establece usando la **dirección IP** y el **puerto** del servidor. También puede ser necesaria una contraseña opcional. Para hacerlo, abre **Servidores** en el menú principal y haz clic en **Agregar servidores** en la esquina inferior derecha de la lista de servidores. Ingresa la dirección IP y el puerto de tu servidor y asigna un nombre o descripción. Luego haz clic en el servidor recién agregado para establecer la conexión. Si el servidor tiene contraseña, se te pedirá que la ingreses durante el proceso de conexión.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/Q6cqdsF3ofXpnid/download)
 
@@ -54,7 +54,7 @@ La conexión a un servidor de juegos a menudo se puede establecer de una o más 
 #### No visible
 
 
-La falta de visibilidad del servidor puede ocurrir si la inicialización no se completó con éxito. Esto puede deberse, por ejemplo, a una configuración incorrecta o archivos corruptos. Normalmente, más información se puede encontrar en la consola del servidor o en los archivos de registro.
+La falta de visibilidad del servidor puede ocurrir si la inicialización no se completó con éxito. Esto puede deberse, por ejemplo, a una configuración defectuosa o archivos corruptos. Normalmente, más información se puede encontrar en la consola del servidor o en los archivos de registro.
 
 
 
@@ -67,7 +67,7 @@ La falta de visibilidad del servidor puede ocurrir si la inicialización no se c
 
 ## Conclusión
 
-¡Felicidades! Si seguiste todo al pie de la letra, deberías haber establecido la conexión con el servidor exitosamente. Para más preguntas o ayuda, no dudes en contactar a nuestro equipo de soporte, que está disponible todos los días para asistirte 🙂.
+¡Felicidades! Si seguiste todo, deberías haber establecido la conexión al servidor con éxito. Para más preguntas o ayuda, no dudes en contactar a nuestro equipo de soporte, que está disponible todos los días para asistirte 🙂.
 
 
 

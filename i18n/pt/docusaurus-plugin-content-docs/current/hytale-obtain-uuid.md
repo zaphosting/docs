@@ -14,7 +14,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Cada jogador em um servidor de Hytale é identificado internamente por um UUID, também conhecido como Identificador Universalmente Único. Esse identificador é permanente e não muda, mesmo que o jogador altere seu nome de usuário depois.
 
-UUIDs são necessários para várias tarefas administrativas, como gerenciar permissões, atribuir grupos ou referenciar jogadores em comandos do servidor e arquivos de configuração.
+Os UUIDs são necessários para várias tarefas administrativas, como gerenciar permissões, atribuir grupos ou referenciar jogadores em comandos do servidor e arquivos de configuração.
 
 :::info Aviso de Acesso Antecipado
 
@@ -29,7 +29,7 @@ Hytale foi lançado em 13 de janeiro de 2026 e está atualmente disponível em A
 
 O UUID de um jogador pode ser obtido diretamente dentro do jogo usando o comando de chat embutido no servidor. Esse método é especialmente útil quando o jogador já está online e o UUID é necessário imediatamente.
 
-Com permissões suficientes, abra o chat dentro do jogo e execute o comando de busca de UUID para o jogador desejado:
+Com permissões suficientes, abra o chat dentro do jogo e execute o comando de consulta de UUID para o jogador desejado:
 
 ```
 /whoami <nome_do_jogador>

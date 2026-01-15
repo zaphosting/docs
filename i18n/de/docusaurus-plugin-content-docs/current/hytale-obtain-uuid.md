@@ -12,7 +12,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
 
-Jeder Spieler auf einem Hytale-Gameserver wird intern durch eine UUID identifiziert, auch bekannt als Universally Unique Identifier. Diese ID ist dauerhaft und ändert sich nicht, selbst wenn der Spieler später seinen Benutzernamen ändert.
+Jeder Spieler auf einem Hytale-Gameserver wird intern durch eine UUID identifiziert, auch bekannt als Universally Unique Identifier. Diese Kennung ist dauerhaft und ändert sich nicht, selbst wenn der Spieler später seinen Benutzernamen ändert.
 
 UUIDs werden für verschiedene administrative Aufgaben benötigt, wie z.B. das Verwalten von Berechtigungen, das Zuweisen von Gruppen oder das Referenzieren von Spielern in Serverbefehlen und Konfigurationsdateien.
 
@@ -35,7 +35,7 @@ Melde dich mit ausreichenden Berechtigungen an, öffne den Ingame-Chat und führ
 /whoami <Spielername>
 ```
 
-Nach Ausführung des Befehls antwortet der Server direkt im Chat mit der UUID des angegebenen Spielers. Die zurückgegebene UUID identifiziert den Spieler eindeutig und kann für Berechtigungsverwaltung, Gruppenzuweisungen, Whitelist-Einträge oder andere serverseitige Aktionen kopiert werden.
+Nach Ausführung des Befehls antwortet der Server direkt im Chat mit der UUID des angegebenen Spielers. Die zurückgegebene UUID identifiziert diesen Spieler eindeutig und kann für die Verwaltung von Berechtigungen, Gruppen-Zuweisungen, Whitelist-Einträgen oder andere serverseitige Aktionen kopiert werden.
 
 
 
@@ -45,7 +45,7 @@ Nach Ausführung des Befehls antwortet der Server direkt im Chat mit der UUID de
 
 ## Fazit
 
-Das Erhalten der UUID eines Spielers ist ein wichtiger Schritt bei fortgeschrittenen Servermanagement-Aufgaben auf einem Hytale-Gameserver. Bei weiteren Fragen oder wenn du Hilfe brauchst, steht dir unser Support-Team täglich zur Seite! 🙂
+Das Erhalten der UUID eines Spielers ist ein wichtiger Schritt bei fortgeschrittenen Serververwaltungsaufgaben auf einem Hytale-Gameserver. Bei weiteren Fragen oder wenn du Hilfe brauchst, steht dir unser Support-Team täglich zur Seite! 🙂
 
 
 <InlineVoucher />

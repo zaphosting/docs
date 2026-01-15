@@ -17,7 +17,7 @@ Na serwerze Hytale **kara za śmierć** określa, jak gracze są dotknięci po z
 
 :::info Informacja o Wczesnym Dostępie
 
-Hytale zostało wydane 13 stycznia 2026 i jest obecnie dostępne we Wczesnym Dostępie. Ponieważ gra jest wciąż w aktywnej fazie rozwoju, oprogramowanie serwera, pliki konfiguracyjne, wsparcie modów oraz procesy instalacji mogą się dalej zmieniać.
+Hytale zostało wydane 13 stycznia 2026 i jest obecnie dostępne we Wczesnym Dostępie. Ponieważ gra jest wciąż w aktywnej fazie rozwoju, oprogramowanie serwera, pliki konfiguracyjne, wsparcie modów oraz procesy instalacji mogą się zmieniać z czasem.
 
 :::
 
@@ -44,7 +44,7 @@ Na przykład wartość `50.0` oznacza, że połowa każdego stosu zostaje utraco
 
 **ItemsDurabilityLossPercentage**  
 To ustawienie kontroluje, ile wytrzymałości tracą przedmioty po śmierci gracza.  
-Wartość jest wyrażona jako procent aktualnej wytrzymałości przedmiotu i pozwala na konsekwencje śmierci bez całkowitego usuwania przedmiotów.
+Wartość jest wyrażona jako procent aktualnej wytrzymałości przedmiotu i pozwala, by śmierć miała konsekwencje bez całkowitego usuwania przedmiotów.
 
 Razem te ustawienia dają precyzyjną kontrolę nad tym, jak surowa lub łagodna ma być kara za śmierć na serwerze.  
 Dobrze dobrane wartości zapewniają zbalansowane doświadczenie, dopasowane do zamierzonego poziomu trudności i stylu gry na serwerze.
@@ -53,7 +53,7 @@ Dobrze dobrane wartości zapewniają zbalansowane doświadczenie, dopasowane do 
 
 ## Konfiguracja kary za śmierć
 
-Ustawienia kary za śmierć znajdują się w głównym pliku `config.json` Twojego serwera. Wartości te są odczytywane podczas uruchamiania serwera i obowiązują globalnie dla wszystkich graczy.
+Ustawienia kary za śmierć znajdują się w głównym pliku `config.json` Twojego serwera. Wartości te są odczytywane podczas startu serwera i mają zastosowanie globalne dla wszystkich graczy.
 
 W pliku konfiguracyjnym ustawienia związane ze śmiercią są częścią konfiguracji rozgrywki. Aby dodać lub zmodyfikować karę za śmierć, znajdź następującą linię w `config.json`:
 
@@ -61,7 +61,7 @@ W pliku konfiguracyjnym ustawienia związane ze śmiercią są częścią konfig
 "GameplayConfig": "Default",
 ```
 
-Ten wpis definiuje aktywny profil konfiguracji rozgrywki. Konfiguracja kary za śmierć jest umieszczona bezpośrednio pod tą linią jako nowy blok. Po znalezieniu dodaj blok konfiguracji śmierci, aby określić, jak obsługiwane są respawny i utrata przedmiotów:
+Ten wpis definiuje aktywny profil konfiguracji rozgrywki. Konfiguracja kary za śmierć jest umieszczona bezpośrednio pod tą linią jako nowy blok. Po znalezieniu dodaj blok konfiguracyjny kary za śmierć, aby określić, jak działa respawn i utrata przedmiotów:
 
 ```
 "Death": {

@@ -11,15 +11,15 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 
 
-## Intro
+## Introductie
 
-Rechten beheren op een Hytale-server geeft je controle over wat spelers wel en niet kunnen doen. Dit betekent dat je verschillende toegangsniveaus kunt toewijzen aan vertrouwde spelers, moderators en admins. De juiste rechten instellen is super belangrijk om een gebalanceerde en veilige serveromgeving te houden, waar spelers lekker kunnen gamen zonder ongewenste exploits of misbruik.
+Het beheren van rechten op een Hytale-server geeft je controle over wat spelers wel en niet kunnen doen. Dit betekent dat je verschillende toegangsniveaus kunt toewijzen aan vertrouwde spelers, moderators en admins. Het correct instellen van rechten is essentieel om een gebalanceerde en veilige serveromgeving te behouden, waar spelers kunnen genieten zonder ongewenste exploits of misbruik.
 
-De serversoftware van Hytale ondersteunt hiërarchische rechten die bepalen welke commando’s en acties elke speler mag uitvoeren. Je kunt deze beheren via de live console of via configuratiebestanden, afhankelijk van hoe jouw server is opgezet.
+De serversoftware van Hytale ondersteunt hiërarchische rechten die bepalen welke commando’s en acties elke speler mag uitvoeren. Deze kun je beheren via de live console of via configuratiebestanden, afhankelijk van je server setup.
 
 :::info Early Access Notice
 
-Hytale is uitgebracht op 13 januari 2026 en zit momenteel in Early Access. Omdat het spel nog volop in ontwikkeling is, kunnen serversoftware, configuratiebestanden, modding-ondersteuning en installatieprocessen in de loop van de tijd veranderen.
+Hytale is uitgebracht op 13 januari 2026 en is momenteel beschikbaar in Early Access. Omdat het spel nog in actieve ontwikkeling is, kunnen serversoftware, configuratiebestanden, modding-ondersteuning en installatieprocessen in de loop van de tijd blijven veranderen.
 
 :::
 
@@ -27,26 +27,26 @@ Hytale is uitgebracht op 13 januari 2026 en zit momenteel in Early Access. Omdat
 
 
 
-## Overzicht van rechten
+## Overzicht van rechten-niveaus
 
-Rechten bepalen welke acties een speler op de server mag uitvoeren. Op het laagste niveau hebben normale spelers alleen standaard gameplayrechten, zoals bewegen, de wereld interactief gebruiken en chatten. Hogere rechten zoals operator of admin geven toegang tot servercommando’s die gameplay, andere spelers, serverconfiguratie en moderatietools beïnvloeden.
+Rechten bepalen welke acties een speler op de server mag uitvoeren. Op het meest basale niveau hebben normale spelers alleen standaard gameplayrechten, zoals bewegen, interactie met de wereld en chatten. Hogere rechten zoals operator of admin geven toegang tot servercommando’s die gameplay, andere spelers, serverconfiguratie en moderatietools beïnvloeden.
 
-Het rechten-systeem bestaat uit twee hoofdonderdelen:
+Het rechten-systeem bestaat uit twee hoofdcomponenten:
 
-- **Gebruikersrechten** die direct aan een specifieke speler worden toegekend
+- **Gebruikersrechten** die direct op een specifieke speler van toepassing zijn
 - **Groepsrechten** waarmee je rechten kunt bundelen en aan meerdere spelers tegelijk kunt toewijzen
 
-Elke speler wordt intern geïdentificeerd met een UUID, die je nodig hebt om rechten via commando’s te beheren.
+Elke speler wordt intern geïdentificeerd met een UUID, wat nodig is bij het beheren van rechten via commando’s.
 
 
 
 ## Gebruikersrechten beheren
 
-Met gebruikersrechten kun je specifieke rechten aan één speler geven of intrekken.
+Met gebruikersrechten kun je specifieke rechten aan een enkele speler geven of intrekken.
 
 ### Gebruikersrechten bekijken
 
-Toont alle rechten die direct aan een gebruiker zijn toegekend. Dit commando laat elke recht zien die momenteel op de opgegeven gebruiker van toepassing is.
+Toont alle rechten die direct aan een gebruiker zijn toegewezen. Dit commando laat elke recht zien die momenteel op de opgegeven gebruiker van toepassing is.
 
 ```
 /perm user list <uuid>
@@ -56,7 +56,7 @@ Toont alle rechten die direct aan een gebruiker zijn toegekend. Dit commando laa
 
 ### Rechten toevoegen aan een gebruiker
 
-Geeft één of meerdere rechten direct aan een gebruiker. De opgegeven rechten worden meteen toegevoegd en zijn direct actief, zonder dat de server opnieuw gestart hoeft te worden.
+Om één of meerdere rechten direct aan een gebruiker toe te kennen. De opgegeven rechten worden meteen toegevoegd en zijn direct actief, zonder dat de server opnieuw gestart hoeft te worden.
 
 ```
 /perm user add <uuid> <permissions>
@@ -66,7 +66,7 @@ Geeft één of meerdere rechten direct aan een gebruiker. De opgegeven rechten w
 
 ### Rechten verwijderen bij een gebruiker
 
-Neemt rechten weg bij een gebruiker. Dit verwijdert alleen de opgegeven rechten, alle andere rechten blijven behouden.
+Om rechten van een gebruiker in te trekken. Dit verwijdert alleen de opgegeven rechten, terwijl alle andere rechten ongewijzigd blijven.
 
 ```
 /perm user remove <uuid> <permissions>
@@ -74,13 +74,13 @@ Neemt rechten weg bij een gebruiker. Dit verwijdert alleen de opgegeven rechten,
 
 
 
-## Gebruikersgroepen beheren
+## Gebruikersgroep-toewijzingen beheren
 
 Naast directe rechten kunnen gebruikers ook rechten erven via groepen.
 
-### Groepsrechten van een gebruiker bekijken
+### Gebruikersgroep-rechten bekijken
 
-Toont van welke permissiegroepen de gebruiker lid is.
+Dit commando toont van welke permissiegroepen de gebruiker momenteel lid is.
 
 ```
 /perm user group list <uuid>
@@ -88,9 +88,9 @@ Toont van welke permissiegroepen de gebruiker lid is.
 
 
 
-### Gebruiker aan een groep toevoegen
+### Een gebruiker aan een groep toevoegen
 
-Voegt een gebruiker toe aan een permissiegroep. De gebruiker erft dan automatisch alle rechten die voor die groep gelden.
+Om een gebruiker toe te wijzen aan een permissiegroep. Zodra toegevoegd, erft de gebruiker alle rechten die voor die groep zijn gedefinieerd.
 
 ```
 /perm user group add <uuid> <group>
@@ -98,9 +98,9 @@ Voegt een gebruiker toe aan een permissiegroep. De gebruiker erft dan automatisc
 
 
 
-### Gebruiker uit een groep verwijderen
+### Een gebruiker uit een groep verwijderen
 
-Verwijdert een gebruiker uit een permissiegroep. Na verwijdering ontvangt de gebruiker geen rechten meer vanuit die groep.
+Om een gebruiker uit een permissiegroep te verwijderen. Na verwijdering ontvangt de gebruiker geen rechten meer vanuit die groep.
 
 ```
 /perm user group remove <uuid> <group>
@@ -114,7 +114,7 @@ Groepen maken het mogelijk om rechten centraal te beheren en te hergebruiken voo
 
 ### Groepsrechten bekijken
 
-Toont alle rechten die aan een groep zijn toegekend. Dit commando geeft een overzicht van alle rechten die bij de opgegeven groep horen.
+Toont alle rechten die aan een groep zijn toegewezen. Dit commando geeft een overzicht van elke permissie die bij de opgegeven groep hoort.
 
 ```
 /perm group list <group>
@@ -124,7 +124,7 @@ Toont alle rechten die aan een groep zijn toegekend. Dit commando geeft een over
 
 ### Rechten toevoegen aan een groep
 
-Voegt één of meerdere rechten toe aan een groep. Alle gebruikers in deze groep krijgen direct de nieuwe rechten.
+Om één of meerdere rechten aan een groep toe te voegen. Alle gebruikers die aan deze groep zijn toegewezen, erven direct de nieuwe rechten.
 
 ```
 /perm group add <group> <permissions>
@@ -132,9 +132,9 @@ Voegt één of meerdere rechten toe aan een groep. Alle gebruikers in deze groep
 
 
 
-### Rechten verwijderen uit een groep
+### Rechten verwijderen bij een groep
 
-Verwijdert alleen de opgegeven rechten uit de groep, zonder andere rechten te beïnvloeden.
+Dit verwijdert alleen de opgegeven rechten uit de groep zonder andere rechten te beïnvloeden.
 
 ```
 /perm group remove <group> <permissions>

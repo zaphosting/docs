@@ -12,7 +12,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introducción
 
-La gestión de PvP en un servidor de Hytale controla si los jugadores pueden dañarse o pelear entre sí dentro de un mundo. Ajustando las configuraciones de PvP, los propietarios del servidor pueden definir si el combate entre jugadores está completamente habilitado, totalmente desactivado o restringido a situaciones específicas.
+La gestión de PvP en un servidor de Hytale controla si los jugadores pueden dañarse o pelear entre sí dentro de un mundo. Ajustando las opciones de PvP, los propietarios del servidor pueden definir si el combate entre jugadores está completamente habilitado, totalmente desactivado o restringido a situaciones específicas.
 
 <InlineVoucher />
 
@@ -24,7 +24,7 @@ El comportamiento de PvP se define por mundo y se configura a través del archiv
 /gXXXXXXX/hytale/universe/worlds/default/config.json
 ```
 
-Esta configuración determina cómo el servidor maneja el daño entre jugadores y si el PvP está permitido dentro del mundo activo. Los cambios en las configuraciones de PvP se aplican globalmente al mundo afectado y requieren reiniciar el servidor para que tengan efecto.
+Esta opción determina cómo el servidor maneja el daño entre jugadores y si el PvP está permitido dentro del mundo activo. Los cambios en la configuración de PvP se aplican globalmente al mundo afectado y requieren reiniciar el servidor para que tengan efecto.
 
 El siguiente ejemplo muestra una configuración donde el PvP está desactivado para un mundo:
 
@@ -34,9 +34,9 @@ El siguiente ejemplo muestra una configuración donde el PvP está desactivado p
 }
 ```
 
-Con esta configuración aplicada, los jugadores ya no pueden dañarse entre sí dentro de ese mundo, creando efectivamente un entorno enfocado en PvE.
+Con esta configuración aplicada, los jugadores ya no pueden dañarse entre sí dentro de ese mundo, creando un entorno enfocado en PvE.
 
-Para habilitar el PvP y permitir el combate jugador contra jugador, la configuración puede establecerse así:
+Para habilitar el PvP y permitir el combate jugador contra jugador, la configuración puede ser así:
 
 ```
 "WorldConfig": {
@@ -46,6 +46,6 @@ Para habilitar el PvP y permitir el combate jugador contra jugador, la configura
 
 ## Conclusión
 
-Una vez configurado, tienes una visión clara de cómo se gestiona el PvP y puedes ajustar fácilmente la configuración para apoyar el juego cooperativo, entornos competitivos o una combinación de ambos. Para más preguntas o ayuda, no dudes en contactar a nuestro equipo de soporte, ¡disponible todos los días para ayudarte! 🙂
+Una vez configurado, tienes una visión clara de cómo se gestiona el PvP y puedes ajustar fácilmente la configuración para apoyar el juego cooperativo, entornos competitivos o una combinación de ambos. Para cualquier duda o ayuda, no dudes en contactar a nuestro equipo de soporte, ¡disponible todos los días para ayudarte! 🙂
 
 <InlineVoucher />

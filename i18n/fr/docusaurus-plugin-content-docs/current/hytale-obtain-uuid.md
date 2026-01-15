@@ -14,11 +14,11 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Chaque joueur sur un serveur Hytale est identifié en interne par un UUID, aussi appelé Identifiant Unique Universel. Cet identifiant est permanent et ne change pas, même si le joueur modifie ensuite son pseudo.
 
-Les UUID sont nécessaires pour diverses tâches administratives comme gérer les permissions, attribuer des groupes, ou référencer des joueurs dans les commandes serveur et fichiers de configuration.
+Les UUID sont nécessaires pour diverses tâches administratives comme la gestion des permissions, l’attribution de groupes, ou la référence aux joueurs dans les commandes serveur et fichiers de configuration.
 
 :::info Avis Early Access
 
-Hytale est sorti le 13 janvier 2026 et est actuellement en Early Access. Comme le jeu est encore en phase de développement actif, les logiciels serveur, fichiers de configuration, support des mods et processus d’installation peuvent continuer à évoluer avec le temps.
+Hytale est sorti le 13 janvier 2026 et est actuellement disponible en Early Access. Comme le jeu est encore en phase de développement actif, les logiciels serveur, fichiers de configuration, support du modding et processus d’installation peuvent continuer à évoluer avec le temps.
 
 :::
 
@@ -27,7 +27,7 @@ Hytale est sorti le 13 janvier 2026 et est actuellement en Early Access. Comme l
 
 ## Obtenir l’UUID
 
-L’UUID d’un joueur peut être obtenu directement depuis le jeu via la commande chat intégrée du serveur. Cette méthode est particulièrement pratique quand le joueur est déjà en ligne et que l’UUID est nécessaire immédiatement.
+L’UUID d’un joueur peut être obtenu directement depuis le jeu en utilisant la commande chat intégrée du serveur. Cette méthode est particulièrement pratique quand le joueur est déjà en ligne et que l’UUID est nécessaire immédiatement.
 
 Connecté avec les permissions suffisantes, ouvre le chat en jeu et exécute la commande de recherche d’UUID pour le joueur souhaité :
 
@@ -35,7 +35,7 @@ Connecté avec les permissions suffisantes, ouvre le chat en jeu et exécute la 
 /whoami <nomdujoueur>
 ```
 
-Après exécution, le serveur répond directement dans le chat avec l’UUID associé au joueur spécifié. L’UUID retourné identifie de manière unique ce joueur et peut être copié pour gérer les permissions, assigner des groupes, ajouter à la whitelist ou pour d’autres opérations côté serveur.
+Après exécution, le serveur répond directement dans le chat avec l’UUID associé au joueur spécifié. L’UUID retourné identifie de manière unique ce joueur et peut être copié pour la gestion des permissions, l’attribution de groupes, les entrées whitelist, ou d’autres opérations côté serveur.
 
 
 

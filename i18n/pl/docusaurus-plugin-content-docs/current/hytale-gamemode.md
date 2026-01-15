@@ -29,18 +29,18 @@ Hytale zostało wydane 13 stycznia 2026 i jest obecnie dostępne we Wczesnym Dos
 ### Konsola na żywo
 Tryb gry można zmienić podczas działania serwera, korzystając z konsoli na żywo lub komend w grze, pod warunkiem posiadania odpowiednich uprawnień. Ta metoda pozwala administratorom na zmianę trybu gry bez edytowania plików konfiguracyjnych.
 
-Użycie komendy w konsoli natychmiast aktualizuje aktywny tryb gry dla sesji serwera. W zależności od konfiguracji serwera, zmiana może utrzymać się do następnego restartu lub wrócić do wartości zdefiniowanej w pliku konfiguracyjnym.
+Użycie komendy w konsoli natychmiast aktualizuje aktywny tryb gry dla bieżącej sesji serwera. W zależności od konfiguracji serwera, zmiana może utrzymać się do następnego restartu lub wrócić do wartości zdefiniowanej w pliku konfiguracyjnym.
 
 ```
 /gamemode <tryb_gry> <nazwa_gracza>
 ```
 
-Wartość `GameMode` określa, jaki tryb gry jest stosowany przy starcie serwera. W zależności od preferowanego stylu rozgrywki, tę wartość można odpowiednio dostosować.
+Wartość `GameMode` określa, jaki tryb gry jest stosowany podczas uruchamiania serwera. W zależności od preferowanego stylu rozgrywki, tę wartość można odpowiednio dostosować.
 
 Najczęściej używane wartości trybu gry to:
 
-- `Creative` — swobodne budowanie i tworzenie zawartości bez ograniczeń
-- `Adventure` — ustrukturyzowana rozgrywka z określonym postępem i zasadami interakcji
+- `Creative` – nieograniczone budowanie i tworzenie zawartości
+- `Adventure` – ustrukturyzowana rozgrywka z określonym postępem i zasadami interakcji
 
 Po zmianie wartości trybu gry serwer musi zostać zrestartowany, aby nowe ustawienie zaczęło działać.
 
@@ -48,10 +48,10 @@ Po zmianie wartości trybu gry serwer musi zostać zrestartowany, aby nowe ustaw
 
 ### Plik konfiguracyjny
 
-Tryb gry można zdefiniować bezpośrednio w pliku konfiguracyjnym serwera.  
+Tryb gry można ustawić bezpośrednio w pliku konfiguracyjnym serwera.  
 Ta metoda jest zalecana, gdy chcesz, aby serwer zawsze startował z określonym trybem gry lub przygotowujesz świeżą konfigurację serwera.
 
-Plik konfiguracyjny jest dostępny przez panel administracyjny hostingu lub menedżera plików. W tym pliku znajduje się ustawienie kontrolujące aktywny tryb gry używany przy starcie serwera. Po zmianie tej wartości serwer musi zostać zrestartowany, aby zmiana weszła w życie.
+Plik konfiguracyjny jest dostępny przez panel administracyjny hostingu lub menedżer plików. W tym pliku znajduje się ustawienie kontrolujące aktywny tryb gry używany podczas startu serwera. Po zmianie tej wartości serwer musi zostać zrestartowany, aby zmiana weszła w życie.
 
 ```
 "Defaults": {
@@ -60,12 +60,12 @@ Plik konfiguracyjny jest dostępny przez panel administracyjny hostingu lub mene
 },
 ```
 
-Wartość `GameMode` określa, jaki tryb gry jest stosowany przy starcie serwera. W zależności od preferowanego stylu rozgrywki, tę wartość można odpowiednio dostosować.
+Wartość `GameMode` określa, jaki tryb gry jest stosowany podczas uruchamiania serwera. W zależności od preferowanego stylu rozgrywki, tę wartość można odpowiednio dostosować.
 
 Najczęściej używane wartości trybu gry to:
 
-- `Creative` — swobodne budowanie i tworzenie zawartości bez ograniczeń
-- `Adventure` — ustrukturyzowana rozgrywka z określonym postępem i zasadami interakcji
+- `Creative` – nieograniczone budowanie i tworzenie zawartości
+- `Adventure` – ustrukturyzowana rozgrywka z określonym postępem i zasadami interakcji
 
 Po zmianie wartości trybu gry serwer musi zostać zrestartowany, aby nowe ustawienie zaczęło działać.
 

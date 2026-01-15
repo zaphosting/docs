@@ -12,19 +12,19 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introdução
 
-O gerenciamento de PvP em um servidor de Hytale controla se os jogadores podem causar dano ou lutar entre si dentro de um mundo. Ajustando as configurações de PvP, os donos do servidor podem definir se o combate entre jogadores está totalmente ativado, completamente desativado ou restrito a situações específicas.
+O gerenciamento de PvP em um servidor de Hytale controla se os jogadores podem ou não se atacar ou lutar entre si dentro de um mundo. Ajustando as configurações de PvP, os donos do servidor podem definir se o combate entre jogadores está totalmente ativado, completamente desativado ou restrito a situações específicas.
 
 <InlineVoucher />
 
 ## Configuração
 
-O comportamento do PvP é definido por mundo e configurado através do arquivo de configuração do servidor:
+O comportamento do PvP é definido para cada mundo e configurado através do arquivo de configuração do servidor:
 
 ```
 /gXXXXXXX/hytale/universe/worlds/default/config.json
 ```
 
-Essa configuração determina como o servidor lida com o dano entre jogadores e se o PvP é permitido dentro do mundo ativo. Alterações nas configurações de PvP se aplicam globalmente ao mundo afetado e exigem reinício do servidor para entrarem em vigor.
+Essa configuração determina como o servidor lida com o dano entre jogadores e se o PvP é permitido dentro do mundo ativo. Alterações nas configurações de PvP se aplicam globalmente ao mundo afetado e exigem um reinício do servidor para entrarem em vigor.
 
 O exemplo a seguir mostra uma configuração onde o PvP está desativado para um mundo:
 
@@ -34,7 +34,7 @@ O exemplo a seguir mostra uma configuração onde o PvP está desativado para um
 }
 ```
 
-Com essa configuração aplicada, os jogadores não poderão mais causar dano uns aos outros dentro daquele mundo, criando efetivamente um ambiente focado em PvE.
+Com essa configuração aplicada, os jogadores não poderão mais se causar dano dentro daquele mundo, criando efetivamente um ambiente focado em PvE.
 
 Para ativar o PvP e permitir o combate entre jogadores, a configuração pode ser definida assim:
 

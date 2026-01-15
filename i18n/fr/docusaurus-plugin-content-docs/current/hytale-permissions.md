@@ -15,11 +15,11 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Gérer les permissions sur un serveur Hytale te permet de contrôler ce que les joueurs peuvent ou ne peuvent pas faire. Ça inclut d’attribuer différents niveaux d’accès aux joueurs de confiance, modérateurs et admins. Configurer correctement les permissions est essentiel pour maintenir un environnement serveur équilibré et sécurisé où les joueurs peuvent kiffer le jeu sans exploits ou abus non voulus.
 
-Le logiciel serveur de Hytale supporte des niveaux de permissions hiérarchiques qui déterminent quelles commandes et actions chaque joueur peut exécuter. Tu peux gérer ça via la console live ou les fichiers de config selon ton setup serveur.
+Le logiciel serveur de Hytale supporte des niveaux de permissions hiérarchiques qui déterminent quelles commandes et actions chaque joueur peut exécuter. Tu peux gérer ça via la console live ou par les fichiers de config selon ton setup serveur.
 
 :::info Early Access Notice
 
-Hytale est sorti le 13 janvier 2026 et est actuellement en Early Access. Comme le jeu est encore en phase de développement active, le logiciel serveur, les fichiers de config, le support modding et les workflows d’installation peuvent continuer à évoluer avec le temps.
+Hytale est sorti le 13 janvier 2026 et est actuellement en Early Access. Comme le jeu est encore en phase de développement active, le logiciel serveur, les fichiers de config, le support modding et les workflows d’installation peuvent encore évoluer avec le temps.
 
 :::
 
@@ -29,7 +29,7 @@ Hytale est sorti le 13 janvier 2026 et est actuellement en Early Access. Comme l
 
 ## Aperçu des niveaux de permissions
 
-Les permissions définissent quelles actions un joueur est autorisé à faire sur le serveur. Au niveau basique, les joueurs normaux ont juste les permissions standard du gameplay, comme se déplacer, interagir avec le monde et discuter. Les niveaux supérieurs comme opérateur ou admin donnent accès aux commandes serveur qui impactent le gameplay, les autres joueurs, la config serveur et les outils de modération.
+Les permissions définissent quelles actions un joueur est autorisé à faire sur le serveur. Au niveau basique, les joueurs normaux ont seulement les permissions standards de gameplay, comme se déplacer, interagir avec le monde et discuter. Les niveaux supérieurs comme opérateur ou admin donnent accès aux commandes serveur qui impactent le gameplay, les autres joueurs, la config serveur et les outils de modération.
 
 Le système de permissions se compose de deux éléments principaux :
 
@@ -66,7 +66,7 @@ Pour accorder une ou plusieurs permissions directement à un utilisateur. Les pe
 
 ### Retirer des permissions à un utilisateur
 
-Pour révoquer des permissions d’un utilisateur. Cela supprime uniquement les permissions spécifiées tout en laissant les autres intactes.
+Pour révoquer des permissions d’un utilisateur. Cela supprime uniquement les permissions spécifiées tout en laissant les autres permissions intactes.
 
 ```
 /perm user remove <uuid> <permissions>
@@ -108,7 +108,7 @@ Pour retirer un utilisateur d’un groupe de permissions. Après retrait, l’ut
 
 
 
-## Gérer les permissions de groupe
+## Gérer les permissions des groupes
 
 Les groupes permettent de gérer les permissions de manière centralisée et de les réutiliser pour plusieurs utilisateurs.
 
@@ -132,7 +132,7 @@ Pour ajouter une ou plusieurs permissions à un groupe. Tous les utilisateurs as
 
 
 
-### Retirer des permissions d’un groupe
+### Retirer des permissions à un groupe
 
 Cela supprime uniquement les permissions spécifiées du groupe sans affecter les autres permissions.
 

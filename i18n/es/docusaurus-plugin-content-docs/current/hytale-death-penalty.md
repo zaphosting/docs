@@ -2,7 +2,7 @@
 id: hytale-death-penalty
 title: "Hytale: Cambiar la Penalización por Muerte"
 description: "Descubre cómo funcionan las penalizaciones por muerte en tu servidor de Hytale → Aprende más ahora"
-sidebar_label: Cambiar Penalización por Muerte
+sidebar_label: Cambiar la Penalización por Muerte
 services:
 - gameserver-hytale
 ---
@@ -25,7 +25,7 @@ Hytale se lanzó el 13 de enero de 2026 y actualmente está disponible en Acceso
 
 
 ## Configuraciones Disponibles para la Penalización por Muerte
-Las configuraciones de penalización por muerte controlan cómo las muertes de los jugadores afectan el contenido del inventario y la durabilidad de los objetos. Estas opciones te permiten definir si los objetos se conservan, se pierden parcialmente o se sueltan completamente, así como cuánto desgaste reciben los objetos al morir.
+Las configuraciones de penalización por muerte controlan cómo las muertes de los jugadores afectan el contenido del inventario y la durabilidad de los objetos. Estas opciones te permiten definir si los objetos se conservan, se pierden parcialmente o se sueltan por completo, así como cuánto desgaste reciben los objetos al morir.
 
 Las siguientes opciones de configuración están disponibles:
 
@@ -35,7 +35,7 @@ Soporta los siguientes valores:
 
 - `None` – Los jugadores conservan todo su inventario tras morir  
 - `All` – Todos los objetos se sueltan al morir  
-- `Configured` – La pérdida de objetos se determina mediante configuraciones basadas en porcentajes
+- `Configured` – La pérdida de objetos se determina mediante configuraciones basadas en porcentaje
 
 **ItemsAmountLossPercentage**  
 Este valor solo se aplica cuando `ItemsLossMode` está configurado en `Configured`.  
@@ -55,7 +55,7 @@ Ajustes cuidadosos aseguran una experiencia equilibrada que se alinea con la dif
 
 Las configuraciones de penalización por muerte se encuentran dentro del archivo principal `config.json` de tu servidor. Estos valores se leen al iniciar el servidor y se aplican globalmente a todos los jugadores.
 
-Dentro del archivo de configuración, las opciones relacionadas con la muerte forman parte de la configuración de gameplay. Para agregar o modificar la penalización por muerte, localiza la siguiente línea dentro de `config.json`:
+Dentro del archivo de configuración, los ajustes relacionados con la muerte forman parte de la configuración de gameplay. Para agregar o modificar la penalización por muerte, localiza la siguiente línea dentro de `config.json`:
 
 ```
 "GameplayConfig": "Default",
@@ -74,7 +74,7 @@ Esta entrada define el perfil activo de configuración de gameplay. La configura
  },
 ```
 
-El siguiente ejemplo muestra una configuración típica donde la pérdida de objetos y la pérdida de durabilidad se aplican parcialmente al morir:
+El siguiente ejemplo muestra una configuración típica donde la pérdida de objetos y durabilidad se aplican parcialmente al morir:
 
 ```
 {
@@ -85,7 +85,7 @@ El siguiente ejemplo muestra una configuración típica donde la pérdida de obj
 ```
 
 En esta configuración, el servidor usa el modo de pérdida `Configured`, lo que significa que la pérdida de objetos se controla por porcentajes.  
-Cuando un jugador muere, se elimina la mitad de cada pila de objetos y los objetos pierden el 25% de su durabilidad actual.
+Cuando un jugador muere, se elimina la mitad de cada pila de objetos y los objetos pierden un 25% de su durabilidad actual.
 
 Si no se desea que ocurra ninguna pérdida de objetos, el modo de pérdida puede configurarse en `None`, en cuyo caso los valores porcentuales se ignoran:
 
@@ -104,13 +104,13 @@ Para una experiencia más punitiva donde todos los objetos se sueltan al morir, 
 ```
 
 Después de modificar el `config.json`, es necesario reiniciar el servidor para que los cambios tengan efecto.  
-Se recomienda verificar el comportamiento en el juego tras el reinicio para asegurarse de que la penalización por muerte coincida con la dificultad deseada.
+Se recomienda verificar el comportamiento dentro del juego tras el reinicio para asegurarse de que la penalización por muerte coincida con la dificultad deseada.
 
 
 
 ## Conclusión
 
-Con la penalización por muerte configurada, ahora tienes una visión clara de cómo se manejan las muertes de los jugadores en tu servidor de Hytale. Para cualquier duda o ayuda, no dudes en contactar a nuestro equipo de soporte, ¡estamos disponibles todos los días para ayudarte! 🙂
+Con la penalización por muerte configurada, ahora tienes una visión clara de cómo se manejan las muertes de los jugadores en tu servidor de Hytale. Para más preguntas o ayuda, no dudes en contactar a nuestro equipo de soporte, ¡disponible todos los días para ayudarte! 🙂
 
 
 

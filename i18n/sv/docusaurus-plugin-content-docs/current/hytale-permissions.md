@@ -17,9 +17,9 @@ Att hantera behörigheter på en Hytale-server låter dig kontrollera vad spelar
 
 Hytales serverprogramvara stödjer hierarkiska behörighetsnivåer som bestämmer vilka kommandon och åtgärder varje spelare kan utföra. Dessa kan hanteras via live-konsolen eller genom konfigurationsinställningar beroende på din serversetup.
 
-:::info Tidig Access-Notis
+:::info Early Access Notice
 
-Hytale släpptes den 13 januari 2026 och finns just nu i Early Access. Eftersom spelet fortfarande är under aktiv utveckling kan serverprogramvara, konfigurationsfiler, moddstöd och installationsflöden fortsätta att ändras över tid.
+Hytale släpptes den 13 januari 2026 och finns just nu i Early Access. Eftersom spelet fortfarande är under aktiv utveckling kan serverprogramvara, konfigurationsfiler, moddstöd och installationsflöden fortsätta att förändras över tid.
 
 :::
 
@@ -29,7 +29,7 @@ Hytale släpptes den 13 januari 2026 och finns just nu i Early Access. Eftersom 
 
 ## Översikt över behörighetsnivåer
 
-Behörigheter definierar vilka åtgärder en spelare får göra på servern. På den mest grundläggande nivån har vanliga spelare bara standardspel-behörigheter, som att röra sig, interagera med världen och chatta. Högre behörighetsnivåer som operatör eller admin ger tillgång till serverkommandon som påverkar gameplay, andra spelare, serverkonfiguration och moderationsverktyg.
+Behörigheter definierar vilka åtgärder en spelare får göra på servern. På den mest grundläggande nivån har vanliga spelare bara standardspelbehörigheter, som att röra sig, interagera med världen och chatta. Högre behörighetsnivåer som operatör eller admin ger tillgång till serverkommandon som påverkar gameplay, andra spelare, serverkonfiguration och moderationsverktyg.
 
 Behörighetssystemet består av två huvuddelar:
 
@@ -110,7 +110,7 @@ För att ta bort en användare från en behörighetsgrupp. Efter borttagning få
 
 ## Hantera gruppbehörigheter
 
-Grupper låter dig hantera behörigheter centralt och återanvända dem för flera användare.
+Grupper gör det möjligt att hantera behörigheter centralt och återanvända dem för flera användare.
 
 ### Visa gruppbehörigheter
 
@@ -143,3 +143,4 @@ Detta tar bara bort de angivna behörigheterna från gruppen utan att påverka a
 
 
 <InlineVoucher />
+

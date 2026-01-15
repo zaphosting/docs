@@ -18,7 +18,7 @@ La gestion du PvP sur un serveur Hytale contrôle si les joueurs peuvent s’inf
 
 ## Configuration
 
-Le comportement du PvP est défini pour chaque monde et configuré via le fichier de configuration du serveur :
+Le comportement PvP est défini pour chaque monde et configuré via le fichier de configuration du serveur :
 
 ```
 /gXXXXXXX/hytale/universe/worlds/default/config.json
@@ -46,6 +46,6 @@ Pour activer le PvP et permettre le combat joueur contre joueur, la configuratio
 
 ## Conclusion
 
-Une fois configuré, tu as une vue claire de la gestion du PvP et peux facilement ajuster la configuration pour soutenir un gameplay coopératif, des environnements compétitifs ou un mix des deux. Pour toute question ou aide, n’hésite pas à contacter notre équipe support, disponible tous les jours pour t’aider ! 🙂
+Une fois configuré, tu as une vue claire de la gestion du PvP et peux facilement ajuster la configuration pour favoriser un gameplay coopératif, des environnements compétitifs ou un mix des deux. Pour toute question ou aide, n’hésite pas à contacter notre équipe support, disponible tous les jours pour t’aider ! 🙂
 
 <InlineVoucher />

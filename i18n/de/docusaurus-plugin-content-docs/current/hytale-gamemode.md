@@ -35,7 +35,7 @@ Der Konsolenbefehl aktualisiert den aktiven Spielmodus sofort für die aktuelle 
 /gamemode <spielmodus> <spielername>
 ```
 
-Der Wert von `GameMode` bestimmt, welcher Spielmodus beim Serverstart angewendet wird. Je nach gewünschtem Spielerlebnis kann dieser Wert entsprechend angepasst werden.
+Der Wert von `GameMode` bestimmt, welcher Spielmodus beim Serverstart angewendet wird. Je nach gewünschtem Gameplay-Erlebnis kann dieser Wert entsprechend angepasst werden.
 
 Gängige Spielmodus-Werte sind:
 
@@ -49,9 +49,9 @@ Nach dem Ändern des Spielmodus-Werts muss der Server neu gestartet werden, dami
 ### Konfigurationsdatei
 
 Der Spielmodus kann direkt in der Server-Konfigurationsdatei festgelegt werden.  
-Diese Methode empfiehlt sich, wenn dein Server immer mit einem bestimmten Spielmodus starten soll oder du eine frische Servereinrichtung vorbereitest.
+Diese Methode empfiehlt sich, wenn dein Server immer mit einem bestimmten Spielmodus starten soll oder du eine frische Server-Installation vorbereitest.
 
-Die Konfigurationsdatei ist über dein Hosting Control Panel oder den Dateimanager zugänglich. In dieser Datei gibt es eine Einstellung, die den aktiven Spielmodus beim Serverstart steuert. Nach der Änderung dieses Werts muss der Server neu gestartet werden, damit die Änderung greift.
+Die Konfigurationsdatei ist über dein Hosting Control Panel oder den Dateimanager zugänglich. In dieser Datei gibt es eine Einstellung, die den aktiven Spielmodus beim Serverstart steuert. Nach der Änderung dieses Werts muss der Server neu gestartet werden, damit die Änderung wirksam wird.
 
 ```
 "Defaults": {
@@ -60,7 +60,7 @@ Die Konfigurationsdatei ist über dein Hosting Control Panel oder den Dateimanag
 },
 ```
 
-Der Wert von `GameMode` bestimmt, welcher Spielmodus beim Serverstart angewendet wird. Je nach gewünschtem Spielerlebnis kann dieser Wert entsprechend angepasst werden.
+Der Wert von `GameMode` bestimmt, welcher Spielmodus beim Serverstart angewendet wird. Je nach gewünschtem Gameplay-Erlebnis kann dieser Wert entsprechend angepasst werden.
 
 Gängige Spielmodus-Werte sind:
 

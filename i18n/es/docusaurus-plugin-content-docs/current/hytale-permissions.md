@@ -13,7 +13,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introducción
 
-Gestionar los permisos en un servidor de Hytale te permite controlar qué pueden y no pueden hacer los jugadores. Esto incluye asignar diferentes niveles de acceso a jugadores de confianza, moderadores y administradores. Configurar los permisos correctamente es esencial para mantener un entorno de servidor equilibrado y seguro donde los jugadores puedan disfrutar del juego sin exploits o abusos no deseados.
+Gestionar los permisos en un servidor de Hytale te permite controlar qué pueden y qué no pueden hacer los jugadores. Esto incluye asignar diferentes niveles de acceso a jugadores de confianza, moderadores y administradores. Configurar los permisos correctamente es esencial para mantener un entorno de servidor equilibrado y seguro donde los jugadores puedan disfrutar del juego sin exploits o abusos no deseados.
 
 El software del servidor de Hytale soporta niveles jerárquicos de permisos que determinan qué comandos y acciones puede ejecutar cada jugador. Estos pueden gestionarse a través de la consola en vivo o mediante configuraciones, dependiendo de cómo tengas montado tu servidor.
 
@@ -29,7 +29,7 @@ Hytale se lanzó el 13 de enero de 2026 y actualmente está disponible en Acceso
 
 ## Resumen de niveles de permiso
 
-Los permisos definen qué acciones puede realizar un jugador en el servidor. En el nivel más básico, los jugadores normales solo tienen permisos estándar de juego, como moverse, interactuar con el mundo y chatear. Los niveles de permiso más altos, como operador o administrador, otorgan acceso a comandos del servidor que afectan la jugabilidad, otros jugadores, la configuración del servidor y herramientas de moderación.
+Los permisos definen qué acciones puede realizar un jugador en el servidor. En el nivel más básico, los jugadores normales solo tienen permisos estándar de juego, como moverse, interactuar con el mundo y chatear. Los niveles de permiso más altos, como operador o administrador, otorgan acceso a comandos del servidor que afectan la jugabilidad, otros jugadores, la configuración del servidor y las herramientas de moderación.
 
 El sistema de permisos consta de dos componentes principales:
 
@@ -42,7 +42,7 @@ Cada jugador se identifica internamente por un UUID, que es necesario para gesti
 
 ## Gestión de permisos de usuario
 
-Los permisos de usuario te permiten otorgar o revocar permisos específicos para un solo jugador.
+Los permisos de usuario te permiten otorgar o revocar permisos específicos a un solo jugador.
 
 ### Ver permisos de usuario
 
@@ -66,7 +66,7 @@ Para otorgar uno o más permisos directamente a un usuario. Los permisos especif
 
 ### Quitar permisos a un usuario
 
-Para revocar permisos de un usuario. Esto elimina solo los permisos especificados, dejando los demás sin cambios.
+Para revocar permisos a un usuario. Esto elimina solo los permisos especificados, dejando los demás sin cambios.
 
 ```
 /perm user remove <uuid> <permissions>

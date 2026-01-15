@@ -19,7 +19,7 @@ Il software del server di Hytale supporta livelli gerarchici di permessi che det
 
 :::info Avviso Early Access
 
-Hytale è stato rilasciato il 13 gennaio 2026 ed è attualmente disponibile in Early Access. Poiché il gioco è ancora in fase di sviluppo attivo, il software del server, i file di configurazione, il supporto per modding e i flussi di installazione potrebbero continuare a cambiare nel tempo.
+Hytale è stato rilasciato il 13 gennaio 2026 ed è attualmente disponibile in Early Access. Poiché il gioco è ancora in fase di sviluppo attivo, il software del server, i file di configurazione, il supporto per modding e i flussi di installazione potrebbero continuare a evolversi nel tempo.
 
 :::
 
@@ -90,7 +90,7 @@ Questo comando mostra a quali gruppi di permessi l’utente appartiene attualmen
 
 ### Aggiungere un utente a un gruppo
 
-Per assegnare un utente a un gruppo di permessi. Una volta aggiunto, l’utente erediterà tutti i permessi definiti per quel gruppo.
+Per assegnare un utente a un gruppo di permessi. Una volta aggiunto, l’utente eredita tutti i permessi definiti per quel gruppo.
 
 ```
 /perm user group add <uuid> <group>

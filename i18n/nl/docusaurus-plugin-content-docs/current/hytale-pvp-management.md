@@ -12,7 +12,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Intro
 
-PvP beheer op een Hytale server bepaalt of spelers elkaar kunnen beschadigen of bevechten binnen een wereld. Door de PvP-instellingen aan te passen, kunnen servereigenaren bepalen of gevechten tussen spelers volledig aanstaan, helemaal uitgeschakeld zijn, of beperkt worden tot specifieke situaties.
+PvP beheer op een Hytale server bepaalt of spelers elkaar kunnen aanvallen of schade kunnen toebrengen binnen een wereld. Door de PvP-instellingen aan te passen, kunnen servereigenaren bepalen of gevechten tussen spelers volledig aanstaan, helemaal uitgeschakeld zijn, of beperkt worden tot specifieke situaties.
 
 <InlineVoucher />
 
@@ -24,7 +24,7 @@ Het PvP-gedrag wordt per wereld ingesteld en geconfigureerd via het configuratie
 /gXXXXXXX/hytale/universe/worlds/default/config.json
 ```
 
-Deze instelling bepaalt hoe de server omgaat met schade tussen spelers en of PvP is toegestaan in de actieve wereld. Wijzigingen in de PvP-instellingen gelden wereldwijd voor de betreffende wereld en vereisen een server restart om actief te worden.
+Deze instelling bepaalt hoe de server omgaat met schade tussen spelers en of PvP is toegestaan in de actieve wereld. Wijzigingen in de PvP-instellingen gelden wereldwijd voor de betreffende wereld en vereisen een serverherstart om actief te worden.
 
 Het volgende voorbeeld toont een configuratie waarbij PvP is uitgeschakeld voor een wereld:
 
@@ -46,6 +46,6 @@ Om PvP in te schakelen en speler-tegen-speler gevechten toe te staan, kan de con
 
 ## Conclusie
 
-Als dit eenmaal is ingesteld, heb je een duidelijk overzicht van hoe PvP wordt beheerd en kun je de configuratie makkelijk aanpassen om coöperatief gamen, competitieve omgevingen of een mix van beide te ondersteunen. Voor verdere vragen of hulp kun je altijd contact opnemen met onze support, die dagelijks voor je klaarstaat! 🙂
+Als dit eenmaal is ingesteld, heb je een duidelijk overzicht van hoe PvP wordt beheerd en kun je de configuratie makkelijk aanpassen om coöperatief spelen, competitieve omgevingen of een mix van beide te ondersteunen. Heb je nog vragen of hulp nodig? Neem dan vooral contact op met onze support, die dagelijks voor je klaarstaat! 🙂
 
 <InlineVoucher />

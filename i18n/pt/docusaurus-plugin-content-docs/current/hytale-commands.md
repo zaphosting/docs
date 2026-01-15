@@ -1,5 +1,5 @@
 ---
-id: hytale-commands-list
+id: hytale-commands
 title: "Hytale: Lista de Comandos"
 description: "Visão geral dos comandos disponíveis no console e no jogo para servidores Hytale → Saiba mais agora"
 sidebar_label: Lista de Comandos
@@ -27,10 +27,10 @@ Comandos de autenticação são necessários para autorizar o servidor a aceitar
 
 | Comando               | Descrição                                                  |
 | --------------------- | ------------------------------------------------------------ |
-| `/auth login device`  | Inicia o fluxo de autenticação baseado em dispositivo. O servidor gera uma URL e um código de dispositivo que devem ser confirmados usando uma conta Hytale. |
-| `/auth login browser` | Inicia um fluxo de autenticação via navegador. Requer ambiente gráfico no servidor. |
-| `/auth status`        | Exibe o status atual de autenticação do servidor.           |
-| `/auth logout`        | Desloga o servidor e remove a sessão ativa de autenticação. |
+| `/auth login device`  | Inicia o fluxo de autenticação via dispositivo. O servidor gera uma URL e um código de dispositivo que devem ser confirmados usando uma conta Hytale. |
+| `/auth login browser` | Inicia o fluxo de autenticação via navegador. Requer ambiente gráfico no servidor. |
+| `/auth status`        | Exibe o status atual da autenticação do servidor.           |
+| `/auth logout`        | Desloga o servidor e remove a sessão de autenticação ativa. |
 
 
 
@@ -42,7 +42,7 @@ Esses comandos controlam o acesso administrativo e a atribuição detalhada de p
 | ----- | - |
 | `/op add <PlayerName>`                    | Concede privilégios de operador ao jogador especificado.     |
 | `/op remove <PlayerName>`                 | Revoga privilégios de operador do jogador especificado.  |
-| `/perm user list <uuid>`                  | Exibe todas as permissões diretamente atribuídas ao usuário. |
+| `/perm user list <uuid>`                  | Exibe todas as permissões atribuídas diretamente ao usuário. |
 | `/perm user add <uuid> <permission>`      | Atribui uma ou mais permissões diretamente ao usuário.   |
 | `/perm user remove <uuid> <permission>`   | Remove permissões específicas do usuário.             |
 | `/perm user group list <uuid>`            | Mostra todos os grupos de permissão aos quais o usuário pertence.    |
@@ -78,8 +78,8 @@ Comandos de mundo controlam a criação, carregamento, descarregamento e exclus�
 | `/world create <name>`     | Cria um novo mundo com o nome especificado.       |
 | `/world load <name>`       | Carrega um mundo existente e o torna ativo.       |
 | `/world unload <name>`     | Descarrega um mundo sem apagar seus dados.         |
-| `/world remove <name>`     | Exclui um mundo e todos os dados associados.           |
-| `/world setdefault <name>` | Define o mundo padrão que carrega ao iniciar o servidor. |
+| `/world remove <name>`     | Apaga um mundo e todos os dados associados.           |
+| `/world setdefault <name>` | Define o mundo padrão que carrega na inicialização do servidor. |
 
 
 
@@ -107,7 +107,7 @@ Comandos usados para gerenciar posições e visibilidade dos jogadores.
 
 
 
-## Utilitários e ajuda
+## Utilitários e Ajuda
 
 Comandos utilitários fornecem ajuda e informações do servidor.
 
@@ -121,9 +121,9 @@ Comandos utilitários fornecem ajuda e informações do servidor.
 
 ## Conclusão
 
-O sistema de comandos do Hytale oferece ferramentas poderosas para gerenciar servidores, jogadores e o comportamento do gameplay. Entendendo e usando os comandos disponíveis, administradores podem operar e personalizar seu ambiente de servidor Hytale de forma eficiente.
+O sistema de comandos do Hytale oferece ferramentas poderosas para gerenciar servidores, jogadores e o comportamento do gameplay. Entendendo e usando os comandos disponíveis, administradores podem operar e personalizar seu ambiente de servidor Hytale com eficiência.
 
-Para dúvidas ou suporte, não hesite em contatar nossa equipe de suporte, disponível diariamente para te ajudar! 🙂
+Para dúvidas ou ajuda, não hesite em contatar nosso time de suporte, disponível diariamente para te ajudar! 🙂
 
 
 

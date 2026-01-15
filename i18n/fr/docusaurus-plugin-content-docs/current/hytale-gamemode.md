@@ -12,7 +12,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introduction
 
-Les serveurs Hytale vous permettent de configurer les paramètres de jeu comme le mode de jeu qui définit l’expérience des joueurs. Changer le mode de jeu vous permet d’adapter votre serveur à un style de jeu spécifique ou aux préférences de votre communauté.
+Les serveurs Hytale vous permettent de configurer les paramètres de jeu comme le mode de jeu qui définit l'expérience des joueurs. Changer le mode de jeu vous permet d’adapter votre serveur à un style de jeu spécifique ou aux préférences de votre communauté.
 
 :::info Avis Early Access
 
@@ -27,7 +27,7 @@ Hytale est sorti le 13 janvier 2026 et est actuellement disponible en Early Acce
 ## Changer le mode de jeu
 
 ### Console live
-Le mode de jeu peut être changé pendant que le serveur tourne en utilisant la console live ou des commandes en jeu, à condition d’avoir les permissions nécessaires. Cette méthode permet aux admins de changer le mode de jeu sans modifier les fichiers de configuration.
+Le mode de jeu peut être changé pendant que le serveur tourne en utilisant la console live ou les commandes en jeu, à condition d’avoir les permissions nécessaires. Cette méthode permet aux admins de changer le mode de jeu sans modifier les fichiers de configuration.
 
 La commande console met à jour immédiatement le mode de jeu actif pour la session serveur. Selon la configuration du serveur, le changement peut persister jusqu’au prochain redémarrage ou revenir à la valeur définie dans le fichier de configuration.
 
@@ -39,19 +39,19 @@ La valeur de `GameMode` détermine quel mode de jeu est appliqué au démarrage 
 
 Les modes de jeu couramment utilisés sont :
 
-- `Creative` pour construire librement et créer du contenu sans restrictions
+- `Creative` pour une construction et création de contenu sans restrictions
 - `Adventure` pour un gameplay structuré avec progression et règles d’interaction définies
 
-Après avoir changé la valeur du mode de jeu, il faut redémarrer le serveur pour que le nouveau réglage soit pris en compte.
+Après avoir changé la valeur du mode de jeu, le serveur doit être redémarré pour que le nouveau paramètre soit pris en compte.
 
 
 
 ### Fichier de configuration
 
 Le mode de jeu peut être défini directement dans le fichier de configuration du serveur.  
-Cette méthode est recommandée si vous voulez que le serveur démarre toujours avec un mode de jeu spécifique ou pour préparer une nouvelle installation serveur.
+Cette méthode est recommandée si vous voulez que le serveur démarre toujours avec un mode de jeu spécifique ou lors de la préparation d’une nouvelle installation serveur.
 
-Le fichier de configuration est accessible via votre panneau de contrôle d’hébergement ou gestionnaire de fichiers. Dans ce fichier, un paramètre contrôle le mode de jeu actif utilisé au démarrage du serveur. Après modification, un redémarrage du serveur est nécessaire pour appliquer le changement.
+Le fichier de configuration est accessible via votre panneau de contrôle d’hébergement ou gestionnaire de fichiers. Dans ce fichier, un paramètre contrôle le mode de jeu actif utilisé au démarrage du serveur. Après modification, le serveur doit être redémarré pour appliquer le changement.
 
 ```
 "Defaults": {
@@ -64,13 +64,13 @@ La valeur de `GameMode` détermine quel mode de jeu est appliqué au démarrage 
 
 Les modes de jeu couramment utilisés sont :
 
-- `Creative` pour construire librement et créer du contenu sans restrictions
+- `Creative` pour une construction et création de contenu sans restrictions
 - `Adventure` pour un gameplay structuré avec progression et règles d’interaction définies
 
-Après avoir changé la valeur du mode de jeu, il faut redémarrer le serveur pour que le nouveau réglage soit pris en compte.
+Après avoir changé la valeur du mode de jeu, le serveur doit être redémarré pour que le nouveau paramètre soit pris en compte.
 
 
 
 ## Conclusion
 
-En configurant le mode de jeu via le fichier de configuration serveur ou la console live, vous pouvez contrôler précisément l’expérience de jeu sur votre serveur Hytale. Pour toute question ou aide, n’hésitez pas à contacter notre support, disponible tous les jours pour vous accompagner ! 🙂
+En configurant le mode de jeu via le fichier de configuration serveur ou la console live, vous pouvez contrôler précisément l’expérience de jeu sur votre serveur Hytale. Pour toute question ou aide, n’hésitez pas à contacter notre support, disponible tous les jours pour vous assister ! 🙂

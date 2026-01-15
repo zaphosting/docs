@@ -25,29 +25,29 @@ Hytale släpptes den 13 januari 2026 och finns just nu i Early Access. Eftersom 
 
 
 ## Tillgängliga inställningar för dödsstraff
-Dödsstraffsinställningarna styr hur spelarens död påverkar inventariets innehåll och föremålens hållbarhet. Dessa alternativ låter dig bestämma om föremål behålls, delvis förloras eller helt tappas, samt hur mycket slit föremålen får vid döden.
+Dödsstraffsinställningarna styr hur spelarens död påverkar inventariets innehåll och föremålens hållbarhet. Dessa alternativ låter dig bestämma om föremål ska behållas, delvis förloras eller helt tappas, samt hur mycket slitaget på föremålen ökar vid döden.
 
 Följande konfigurationsalternativ finns:
 
 **ItemsLossMode**  
-Denna inställning definierar det övergripande beteendet för föremålsförlust när en spelare dör.  
-Stöder följande värden:
+ Denna inställning definierar det övergripande beteendet för föremålsförlust när en spelare dör.  
+ Stöder följande värden:
 
 - `None` – Spelare behåller hela sitt inventarium efter döden  
 - `All` – Alla föremål tappas vid döden  
 - `Configured` – Föremålsförlust styrs av procentbaserade inställningar
 
 **ItemsAmountLossPercentage**  
-Detta värde används endast när `ItemsLossMode` är satt till `Configured`.  
-Det definierar hur mycket av varje föremålsstack som tas bort vid döden, uttryckt i procent.  
-Till exempel betyder värdet `50.0` att hälften av varje stack förloras.
+ Detta värde används endast när `ItemsLossMode` är satt till `Configured`.  
+ Det definierar hur stor del av varje föremålsstack som tas bort vid döden, uttryckt i procent.  
+ Exempelvis betyder värdet `50.0` att hälften av varje stack förloras.
 
 **ItemsDurabilityLossPercentage**  
-Denna inställning styr hur mycket hållbarhet föremål förlorar när en spelare dör.  
-Värdet anges som en procentandel av föremålets nuvarande hållbarhet och gör att döden får konsekvenser utan att föremålen försvinner helt.
+ Denna inställning styr hur mycket hållbarhet föremål förlorar när en spelare dör.  
+ Värdet anges som en procentandel av föremålets nuvarande hållbarhet och gör att döden får konsekvenser utan att föremålen försvinner helt.
 
 Tillsammans ger dessa inställningar dig finjusterad kontroll över hur förlåtande eller straffande döden ska vara på servern.  
-Noggrann justering säkerställer en balanserad upplevelse som matchar serverns önskade svårighetsgrad och spelstil.
+Noggrann justering säkerställer en balanserad upplevelse som matchar serverns tänkta svårighetsgrad och spelstil.
 
 
 
@@ -61,7 +61,7 @@ I konfigurationsfilen är dödsrelaterade inställningar en del av gameplay-konf
 "GameplayConfig": "Default",
 ```
 
-Denna rad definierar den aktiva gameplay-konfigurationsprofilen. Dödsstraffskonfigurationen placeras direkt under denna rad som ett nytt block. När du hittat den, lägg till dödsstraffskonfigurationsblocket för att definiera hur respawn och föremålsförlust hanteras:
+Denna rad definierar den aktiva gameplay-konfigurationsprofilen. Dödsstraffskonfigurationen placeras direkt under denna rad som ett nytt block. När du hittat den, lägg till dödsstraffsblocket för att definiera hur respawn och föremålsförlust hanteras:
 
 ```
 "Death": {
@@ -110,7 +110,7 @@ Det rekommenderas att verifiera beteendet i spelet efter omstart för att säker
 
 ## Slutsats
 
-Med dödsstraffet konfigurerat har du nu en tydlig översikt över hur spelarens död hanteras på din Hytale-server. Vid fler frågor eller behov av hjälp, tveka inte att kontakta vårt supportteam som finns tillgängligt varje dag för att hjälpa dig! 🙂
+Med dödsstraffet konfigurerat har du nu en tydlig översikt över hur spelarens död hanteras på din Hytale-server. Vid fler frågor eller hjälp, tveka inte att kontakta vårt supportteam som finns tillgängligt varje dag för att hjälpa dig! 🙂
 
 
 

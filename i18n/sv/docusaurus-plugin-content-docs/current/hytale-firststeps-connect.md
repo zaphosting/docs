@@ -27,20 +27,20 @@ Hytale släpptes den 13 januari 2026 och finns just nu i Early Access. Eftersom 
 ## Skaffa serveruppgifter
 
 
-Du behöver all relevant information för att ansluta till din server. Informationen om din server hittar du på kontrollpanelen i webgränssnittet för din gameserver. Viktig info inkluderar:
+Du behöver all relevant info för att ansluta till din server. Informationen om din server hittar du på kontrollpanelen i webgränssnittet för din gameserver. Viktig info inkluderar:
 
 - IP-adress och port
 - Servernamn
 - Serverlösenord
 
 
-Med informationen ovan ska du kunna hitta din server och se till att du ansluter till rätt server.
+Med info ovan ska du kunna hitta din server och se till att du ansluter till rätt server.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/x9f7brkqDKjsEz5/preview)
 
 ## Etablera serveranslutning
 
-Anslutningen till servern görs med serverns **IP-adress** och **port**. Ett lösenord kan också krävas. Öppna **Servers** i huvudmenyn och klicka på **Add Servers** nere till höger i serverlistan. Fyll i IP-adressen och porten till din server och ge den ett namn eller en beskrivning. Klicka sedan på den nyss tillagda servern för att ansluta. Om ett lösenord är satt för servern kommer du bli ombedd att ange det under anslutningen.
+Anslutningen till servern görs med serverns **IP-adress** och **port**. Ett lösenord kan också krävas. Öppna **Servers** i huvudmenyn och klicka på **Add Servers** nere till höger i serverlistan. Fyll i IP-adress och port för din server och ge den ett namn eller en beskrivning. Klicka sedan på den nya servern för att ansluta. Om ett lösenord är satt för servern kommer du bli ombedd att ange det under anslutningen.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/Q6cqdsF3ofXpnid/download)
 
@@ -61,13 +61,13 @@ Om servern inte syns kan det bero på att initieringen inte slutfördes korrekt.
 #### Saknas lösning eller inget hjälpte
 
 
-Fortfarande problem efter felsökning? Då finns vårt supportteam tillgängligt varje dag för att hjälpa dig. Skapa enkelt en **[Ticket](https://zap-hosting.com/en/customer/support/)** på vår webbplats och förklara ditt problem så detaljerat som möjligt. Vi kollar på det så snabbt vi kan och hjälper dig att lösa det!
+Fortfarande problem efter felsökning? Vårt supportteam finns tillgängligt varje dag för att hjälpa dig. Skapa bara en **[Ticket](https://zap-hosting.com/en/customer/support/)** på vår webbplats och förklara ditt problem så detaljerat som möjligt. Vi kollar på det så snabbt vi kan och hjälper dig att lösa det!
 
 
 
 ## Avslutning
 
-Grattis! Om du följt allt rätt borde du nu ha en fungerande anslutning till servern. Har du fler frågor eller behöver hjälp, tveka inte att kontakta vårt supportteam som finns tillgängligt varje dag för att hjälpa dig! 🙂
+Grattis! Om du följt allt borde du nu ha en fungerande anslutning till servern. Har du fler frågor eller behöver hjälp, tveka inte att kontakta vårt supportteam som finns tillgängligt varje dag för att hjälpa dig! 🙂
 
 
 
