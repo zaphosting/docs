@@ -2,7 +2,7 @@
 id: hytale-gamemode
 title: "Hytale: Game Mode Configuration"
 description: "Discover how to secure your Hytale server by managing player access with whitelist features and protect your gameplay → Learn more now"
-sidebar_label: Whitelist
+sidebar_label: Gamemode
 services:
   - gameserver-hytale
 ---
