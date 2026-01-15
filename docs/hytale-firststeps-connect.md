@@ -40,10 +40,9 @@ Using the information mentioned above, you should be able to locate your server 
 
 ## Establish server connection
 
+The connection to the server is established using the server **IP address** and **Port**. An optional password may also be required. To do this, open **Servers** in the main menu and click **Add Servers** in the bottom right of the server list. Enter the IP address and port of your server and assign a name or description. Then click on the newly added server to establish the connection. If a password is set for the server, you will be prompted to enter it during the connection process.
 
-The connection to a game server can often be established in one or more ways. Available methods are described and explained in detail below.
-
-The server connection is typically established using the server IP address and port and optionally a password. The exact procedure for connecting to the server will be documented here once the final implementation for the official release is confirmed.
+![img](https://screensaver01.zap-hosting.com/index.php/s/Q6cqdsF3ofXpnid/download)
 
 
 
