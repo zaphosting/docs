@@ -1,8 +1,8 @@
 ---
-id: "hytale-permissions"
+id: hytale-permissions
 title: "Hytale: Hantera användar- och gruppbehörigheter"
 description: "Hantera användar- och gruppbehörigheter på din Hytale-server → Lär dig mer nu"
-sidebar_label: Långsam anslutning / Värld laddas inte
+sidebar_label: Behörigheter
 services:
 - gameserver-hytale
 ---
@@ -13,13 +13,13 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introduktion
 
-Att hantera behörigheter på en Hytale-server låter dig styra vad spelare kan och inte kan göra. Det inkluderar att ge olika nivåer av åtkomst till betrodda spelare, moderatorer och administratörer. Att sätta upp behörigheter rätt är avgörande för att hålla en balanserad och säker servermiljö där spelare kan njuta av spelet utan oönskade fusk eller missbruk.
+Att hantera behörigheter på en Hytale-server låter dig kontrollera vad spelare kan och inte kan göra. Det inkluderar att ge olika nivåer av åtkomst till betrodda spelare, moderatorer och administratörer. Att sätta upp behörigheter rätt är avgörande för att hålla en balanserad och säker servermiljö där spelare kan njuta av spelet utan oönskade exploits eller missbruk.
 
-Hytales serversoftware stödjer hierarkiska behörighetsnivåer som bestämmer vilka kommandon och åtgärder varje spelare kan utföra. Dessa kan hanteras via live-konsolen eller genom konfigurationsinställningar beroende på din serversetup.
+Hytales serverprogramvara stödjer hierarkiska behörighetsnivåer som bestämmer vilka kommandon och åtgärder varje spelare kan utföra. Dessa kan hanteras via live-konsolen eller genom konfigurationsinställningar beroende på din serversetup.
 
-:::info Tidig Access-info
+:::info Tidig Access-Notis
 
-Hytale släpptes den 13 januari 2026 och finns just nu i Early Access. Eftersom spelet fortfarande är under aktiv utveckling kan serversoftware, konfigurationsfiler, modstöd och installationsflöden fortsätta att förändras över tid.
+Hytale släpptes den 13 januari 2026 och finns just nu i Early Access. Eftersom spelet fortfarande är under aktiv utveckling kan serverprogramvara, konfigurationsfiler, moddstöd och installationsflöden fortsätta att ändras över tid.
 
 :::
 
@@ -29,7 +29,7 @@ Hytale släpptes den 13 januari 2026 och finns just nu i Early Access. Eftersom 
 
 ## Översikt över behörighetsnivåer
 
-Behörigheter definierar vilka åtgärder en spelare får göra på servern. På den mest grundläggande nivån har vanliga spelare bara standardspelbehörigheter, som att röra sig, interagera med världen och chatta. Högre behörighetsnivåer som operatör eller admin ger tillgång till serverkommandon som påverkar gameplay, andra spelare, serverkonfiguration och moderationsverktyg.
+Behörigheter definierar vilka åtgärder en spelare får göra på servern. På den mest grundläggande nivån har vanliga spelare bara standardspel-behörigheter, som att röra sig, interagera med världen och chatta. Högre behörighetsnivåer som operatör eller admin ger tillgång till serverkommandon som påverkar gameplay, andra spelare, serverkonfiguration och moderationsverktyg.
 
 Behörighetssystemet består av två huvuddelar:
 
@@ -66,7 +66,7 @@ För att ge en eller flera behörigheter direkt till en användare. De angivna b
 
 ### Ta bort behörigheter från en användare
 
-För att ta bort behörigheter från en användare. Detta tar bara bort de angivna behörigheterna och lämnar övriga behörigheter orörda.
+För att ta bort behörigheter från en användare. Detta tar bara bort de angivna behörigheterna och lämnar alla andra behörigheter oförändrade.
 
 ```
 /perm user remove <uuid> <permissions>
@@ -90,7 +90,7 @@ Det här kommandot visar vilka behörighetsgrupper användaren för närvarande 
 
 ### Lägg till en användare i en grupp
 
-För att tilldela en användare till en behörighetsgrupp. När användaren lagts till ärver hen alla behörigheter som definierats för den gruppen.
+För att tilldela en användare till en behörighetsgrupp. När användaren lagts till ärver hen alla behörigheter som definieras för den gruppen.
 
 ```
 /perm user group add <uuid> <group>
@@ -110,7 +110,7 @@ För att ta bort en användare från en behörighetsgrupp. Efter borttagning få
 
 ## Hantera gruppbehörigheter
 
-Grupper gör det möjligt att hantera behörigheter centralt och återanvända dem för flera användare.
+Grupper låter dig hantera behörigheter centralt och återanvända dem för flera användare.
 
 ### Visa gruppbehörigheter
 
@@ -143,4 +143,3 @@ Detta tar bara bort de angivna behörigheterna från gruppen utan att påverka a
 
 
 <InlineVoucher />
-

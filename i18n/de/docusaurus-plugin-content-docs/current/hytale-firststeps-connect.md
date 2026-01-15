@@ -1,7 +1,7 @@
 ---
 id: hytale-firststeps-connect
 title: "Hytale: Verbindung zum Server herstellen"
-description: "Entdecke, wie du dich problemlos mit deinem Hytale-Server verbindest und häufige Probleme löst – für ein reibungsloses Gaming-Erlebnis → Jetzt mehr erfahren"
+description: "Entdecke, wie du dich problemlos mit deinem Hytale-Server verbindest und häufige Probleme für ein reibungsloses Spielerlebnis löst → Jetzt mehr erfahren"
 sidebar_label: Verbindung zum Server
 services:
   - gameserver-hytale
@@ -13,7 +13,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 
 ## Einführung
-Du bist dir nicht sicher, wie du dich mit deinem **Hytale** Gameserver verbindest oder was du dafür brauchst? Kein Stress, wir helfen dir! Wir zeigen dir alles, was du wissen musst. Von den nötigen Tools und Infos bis hin zum eigentlichen Verbindungsprozess – inklusive wichtiger Tipps, damit alles glatt läuft und du ohne Probleme zocken kannst. Folge unserer Anleitung und du bist im Handumdrehen verbunden!
+Du bist dir nicht sicher, wie du dich mit deinem **Hytale**-Server verbindest oder was du dafür brauchst? Kein Stress, wir haben alles für dich am Start! Wir führen dich durch alles, was du wissen musst. Von den nötigen Tools und Infos bis hin zum eigentlichen Verbindungsprozess – inklusive wichtiger Tipps, damit alles smooth und ohne Probleme läuft. Folge unserer Anleitung und du bist im Handumdrehen verbunden!
 
 :::info Early Access Hinweis
 
@@ -27,48 +27,47 @@ Hytale wurde am 13. Januar 2026 veröffentlicht und befindet sich aktuell im Ear
 ## Serverdetails besorgen
 
 
-Du brauchst alle wichtigen Infos, um dich mit deinem Server zu verbinden. Diese findest du im Dashboard deines Gameservers im Webinterface. Wichtige Infos sind zum Beispiel:
+Du brauchst alle relevanten Infos, um dich mit deinem Server zu verbinden. Die Infos zu deinem Server findest du im Dashboard des Webinterface-Panels deines Gameservers. Wichtige Infos sind unter anderem:
 
 - IP-Adresse und Port
 - Servername
 - Serverpasswort
 
 
-Mit diesen Angaben kannst du deinen Server finden und sicherstellen, dass du dich mit dem richtigen Server verbindest.
+Mit den oben genannten Infos solltest du deinen Server finden und sicherstellen können, dass du dich mit dem richtigen Server verbindest.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/x9f7brkqDKjsEz5/preview)
 
 ## Verbindung zum Server herstellen
 
+Die Verbindung zum Server wird über die Server-**IP-Adresse** und den **Port** hergestellt. Optional kann auch ein Passwort erforderlich sein. Öffne dazu im Hauptmenü **Server** und klicke unten rechts in der Serverliste auf **Server hinzufügen**. Gib die IP-Adresse und den Port deines Servers ein und vergebe einen Namen oder eine Beschreibung. Klicke dann auf den neu hinzugefügten Server, um die Verbindung herzustellen. Falls ein Passwort für den Server gesetzt ist, wirst du während des Verbindungsprozesses dazu aufgefordert, es einzugeben.
 
-Die Verbindung zu einem Gameserver kann oft auf verschiedene Arten erfolgen. Die verfügbaren Methoden werden hier ausführlich beschrieben und erklärt.
-
-In der Regel wird die Verbindung über die IP-Adresse und den Port des Servers sowie optional ein Passwort hergestellt. Die genaue Vorgehensweise zur Verbindung wird hier dokumentiert, sobald die finale Umsetzung für den offiziellen Release bestätigt ist.
+![img](https://screensaver01.zap-hosting.com/index.php/s/Q6cqdsF3ofXpnid/download)
 
 
 
 ## Mögliche Probleme und Lösungen
 
 
-Die Verbindung zu einem Gameserver kann oft auf verschiedene Arten erfolgen. Die verfügbaren Methoden werden hier ausführlich beschrieben und erklärt.
+Die Verbindung zu einem Gameserver kann oft auf verschiedene Arten hergestellt werden. Verfügbare Methoden werden im Folgenden detailliert beschrieben und erklärt.
 
-#### Server nicht sichtbar
-
-
-Wenn der Server nicht sichtbar ist, kann das daran liegen, dass die Initialisierung nicht erfolgreich abgeschlossen wurde. Das kann zum Beispiel an einer fehlerhaften Konfiguration oder beschädigten Dateien liegen. Weitere Infos findest du meist in der Server-Konsole oder in den Logdateien.
+#### Nicht sichtbar
 
 
+Wenn der Server nicht sichtbar ist, kann das daran liegen, dass die Initialisierung nicht erfolgreich abgeschlossen wurde. Das kann z.B. an einer fehlerhaften Konfiguration oder beschädigten Dateien liegen. Weitere Infos findest du meist in der Serverkonsole oder in den Logdateien.
 
-#### Keine Lösung gefunden oder unklar
 
 
-Du hast nach der Fehlerbehebung immer noch Probleme? Kein Ding! Unser Support-Team ist täglich für dich da und hilft dir weiter. Erstelle einfach ein **[Ticket](https://zap-hosting.com/en/customer/support/)** auf unserer Website und beschreibe dein Problem so genau wie möglich. Wir schauen uns das schnellstmöglich an und unterstützen dich bei der Lösung!
+#### Keine Lösung gefunden oder nicht hilfreich
+
+
+Du hast nach der Fehlerbehebung immer noch Probleme? Kein Ding, unser Support-Team steht dir täglich zur Seite. Erstelle einfach ein **[Ticket](https://zap-hosting.com/en/customer/support/)** auf unserer Website und schildere dein Problem so detailliert wie möglich. Wir schauen uns das schnellstmöglich an und helfen dir, das Problem zu lösen!
 
 
 
 ## Fazit
 
-Glückwunsch, wenn du alles befolgt hast, solltest du jetzt erfolgreich mit dem Server verbunden sein. Falls du noch Fragen hast oder Hilfe brauchst, zögere nicht, unseren Support zu kontaktieren – wir sind täglich für dich da! 🙂
+Glückwunsch, wenn du alles befolgt hast, solltest du jetzt erfolgreich mit dem Server verbunden sein. Für weitere Fragen oder Hilfe steht dir unser Support-Team täglich zur Verfügung! 🙂
 
 
 

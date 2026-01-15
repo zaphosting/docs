@@ -1,8 +1,8 @@
 ---
-id: "hytale-permissions"
-title: "Hytale: Gerenciando Permissões de Usuários e Grupos"
-description: "Gerencie as permissões de usuários e grupos no seu servidor de jogos Hytale → Saiba mais agora"
-sidebar_label: Conexão Lenta / Mundo Não Carregando
+id: hytale-permissions
+title: "Hytale: Gerenciando Permissões de Usuário e Grupo"
+description: "Gerencie permissões de usuários e grupos no seu servidor de jogos Hytale → Saiba mais agora"
+sidebar_label: Permissões
 services:
 - gameserver-hytale
 ---
@@ -15,7 +15,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Gerenciar permissões em um servidor de jogos Hytale permite controlar o que os jogadores podem ou não fazer. Isso inclui atribuir diferentes níveis de acesso para jogadores confiáveis, moderadores e administradores. Configurar as permissões corretamente é essencial para manter um ambiente de servidor equilibrado e seguro, onde os jogadores possam curtir o jogo sem exploits ou abusos indesejados.
 
-O software do servidor Hytale suporta níveis hierárquicos de permissão que determinam quais comandos e ações cada jogador pode executar. Eles podem ser gerenciados via console ao vivo ou através das configurações, dependendo da sua configuração de servidor.
+O software do servidor de Hytale suporta níveis hierárquicos de permissão que determinam quais comandos e ações cada jogador pode executar. Eles podem ser gerenciados via console ao vivo ou através das configurações, dependendo da sua configuração do servidor.
 
 :::info Aviso de Acesso Antecipado
 
@@ -34,7 +34,7 @@ Permissões definem quais ações um jogador pode realizar no servidor. No níve
 O sistema de permissões consiste em dois componentes principais:
 
 - **Permissões de usuário**, que se aplicam diretamente a um jogador específico
-- **Permissões de grupo**, que permitem agrupar permissões e atribuí-las a vários jogadores de uma vez
+- **Permissões de grupo**, que permitem agrupar permissões e atribuí-las a vários jogadores ao mesmo tempo
 
 Cada jogador é identificado internamente por um UUID, que é necessário para gerenciar permissões via comandos.
 
@@ -66,7 +66,7 @@ Para conceder uma ou mais permissões diretamente a um usuário. As permissões 
 
 ### Remover permissões de um usuário
 
-Para revogar permissões de um usuário. Isso remove apenas as permissões especificadas, mantendo todas as outras inalteradas.
+Para revogar permissões de um usuário. Isso remove apenas as permissões especificadas, deixando as demais inalteradas.
 
 ```
 /perm user remove <uuid> <permissions>
@@ -74,11 +74,11 @@ Para revogar permissões de um usuário. Isso remove apenas as permissões espec
 
 
 
-## Gerenciando atribuições de grupos de usuários
+## Gerenciando atribuições de grupo de usuário
 
-Além das permissões diretas, os usuários podem herdar permissões através de grupos.
+Além das permissões diretas, usuários podem herdar permissões através de grupos.
 
-### Visualizar permissões de grupos de usuário
+### Visualizar permissões de grupo do usuário
 
 Esse comando mostra a quais grupos de permissão o usuário pertence atualmente.
 
@@ -90,7 +90,7 @@ Esse comando mostra a quais grupos de permissão o usuário pertence atualmente.
 
 ### Adicionar um usuário a um grupo
 
-Para atribuir um usuário a um grupo de permissões. Uma vez adicionado, o usuário herda todas as permissões definidas para aquele grupo.
+Para atribuir um usuário a um grupo de permissão. Uma vez adicionado, o usuário herda todas as permissões definidas para aquele grupo.
 
 ```
 /perm user group add <uuid> <group>
@@ -100,7 +100,7 @@ Para atribuir um usuário a um grupo de permissões. Uma vez adicionado, o usuá
 
 ### Remover um usuário de um grupo
 
-Para remover um usuário de um grupo de permissões. Após a remoção, o usuário não receberá mais permissões daquele grupo.
+Para remover um usuário de um grupo de permissão. Após a remoção, o usuário não receberá mais permissões daquele grupo.
 
 ```
 /perm user group remove <uuid> <group>
@@ -108,13 +108,13 @@ Para remover um usuário de um grupo de permissões. Após a remoção, o usuár
 
 
 
-## Gerenciando permissões de grupos
+## Gerenciando permissões de grupo
 
-Grupos permitem gerenciar permissões de forma centralizada e reutilizá-las para vários usuários.
+Grupos permitem gerenciar permissões centralmente e reutilizá-las em vários usuários.
 
 ### Visualizar permissões de grupo
 
-Para exibir todas as permissões atribuídas a um grupo. Esse comando oferece uma visão geral de todas as permissões associadas ao grupo especificado.
+Para exibir todas as permissões atribuídas a um grupo. Esse comando fornece uma visão geral de todas as permissões associadas ao grupo especificado.
 
 ```
 /perm group list <group>

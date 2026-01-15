@@ -1,8 +1,8 @@
 ---
-id: "hytale-permissions"
+id: hytale-permissions
 title: "Hytale: Gestión de Permisos para Usuarios y Grupos"
 description: "Gestiona los permisos de usuarios y grupos en tu servidor de Hytale → Aprende más ahora"
-sidebar_label: Conexión Lenta / Mundo No Carga
+sidebar_label: Permisos
 services:
 - gameserver-hytale
 ---
@@ -29,7 +29,7 @@ Hytale se lanzó el 13 de enero de 2026 y actualmente está disponible en Acceso
 
 ## Resumen de niveles de permiso
 
-Los permisos definen qué acciones puede realizar un jugador en el servidor. En el nivel más básico, los jugadores normales solo tienen permisos estándar de juego, como moverse, interactuar con el mundo y chatear. Los niveles de permiso más altos, como operador o administrador, otorgan acceso a comandos del servidor que afectan la jugabilidad, otros jugadores, la configuración del servidor y las herramientas de moderación.
+Los permisos definen qué acciones puede realizar un jugador en el servidor. En el nivel más básico, los jugadores normales solo tienen permisos estándar de juego, como moverse, interactuar con el mundo y chatear. Los niveles de permiso más altos, como operador o administrador, otorgan acceso a comandos del servidor que afectan la jugabilidad, otros jugadores, la configuración del servidor y herramientas de moderación.
 
 El sistema de permisos consta de dos componentes principales:
 
@@ -56,7 +56,7 @@ Para mostrar todos los permisos asignados directamente a un usuario. Este comand
 
 ### Añadir permisos a un usuario
 
-Para otorgar uno o más permisos directamente a un usuario. Los permisos especificados se añadirán de inmediato y tendrán efecto sin necesidad de reiniciar el servidor.
+Para otorgar uno o más permisos directamente a un usuario. Los permisos especificados se añadirán inmediatamente y tendrán efecto sin necesidad de reiniciar el servidor.
 
 ```
 /perm user add <uuid> <permissions>
@@ -74,11 +74,11 @@ Para revocar permisos de un usuario. Esto elimina solo los permisos especificado
 
 
 
-## Gestión de asignaciones de grupo de usuario
+## Gestión de asignaciones de grupos de usuario
 
 Además de los permisos directos, los usuarios pueden heredar permisos a través de grupos.
 
-### Ver permisos de grupo de usuario
+### Ver permisos de grupos de usuario
 
 Este comando muestra a qué grupos de permisos pertenece actualmente el usuario.
 
@@ -132,7 +132,7 @@ Para añadir uno o más permisos a un grupo. Todos los usuarios asignados a este
 
 
 
-### Quitar permisos a un grupo
+### Quitar permisos de un grupo
 
 Esto elimina solo los permisos especificados del grupo sin afectar a los demás permisos.
 

@@ -2,7 +2,7 @@
 id: hytale-gamemode
 title: "Hytale: Configuração do Modo de Jogo"
 description: "Descubra como proteger seu servidor de Hytale gerenciando o acesso dos jogadores com recursos de whitelist e proteja sua jogabilidade → Saiba mais agora"
-sidebar_label: Whitelist
+sidebar_label: Modo de Jogo
 services:
   - gameserver-hytale
 ---
@@ -12,7 +12,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introdução
 
-Servidores de Hytale permitem configurar as opções de jogabilidade, como o modo de jogo que define a experiência do jogador. Mudar o modo de jogo te permite personalizar seu servidor para um estilo de jogo específico ou preferência da comunidade.
+Servidores de Hytale permitem que você configure as opções de jogabilidade, como o modo de jogo que define a experiência do jogador. Mudar o modo de jogo permite que você personalize seu servidor para um estilo de jogo específico ou preferência da comunidade.
 
 :::info Aviso de Acesso Antecipado
 
@@ -32,7 +32,7 @@ O modo de jogo pode ser alterado enquanto o servidor está rodando usando o cons
 Usar o comando no console atualiza o modo de jogo ativo imediatamente para a sessão do servidor. Dependendo da configuração do servidor, a mudança pode persistir até o próximo reinício ou voltar ao valor definido no arquivo de configuração.
 
 ```
-/gamemode <gamemode>
+/gamemode <gamemode> <playername>
 ```
 
 O valor de `GameMode` determina qual modo de jogo será aplicado quando o servidor iniciar. Dependendo da experiência de jogo desejada, esse valor pode ser ajustado conforme necessário.
@@ -42,7 +42,7 @@ Valores comuns para o modo de jogo incluem:
 - `Creative` para construção e criação de conteúdo sem restrições
 - `Adventure` para jogabilidade estruturada com progressão e regras de interação definidas
 
-Após alterar o valor do modo de jogo, o servidor precisa ser reiniciado para que a nova configuração tenha efeito.
+Após alterar o valor do modo de jogo, o servidor deve ser reiniciado para que a nova configuração entre em vigor.
 
 
 
@@ -51,7 +51,7 @@ Após alterar o valor do modo de jogo, o servidor precisa ser reiniciado para qu
 O modo de jogo pode ser definido diretamente no arquivo de configuração do servidor.  
 Esse método é recomendado quando você quer que o servidor sempre inicie com um modo de jogo específico ou ao preparar uma configuração nova do servidor.
 
-O arquivo de configuração é acessível pelo seu painel de controle de hospedagem ou gerenciador de arquivos. Dentro desse arquivo, uma configuração controla o modo de jogo ativo usado quando o servidor inicia. Após modificar esse valor, o servidor deve ser reiniciado para que a mudança tenha efeito.
+O arquivo de configuração é acessível pelo seu painel de controle de hospedagem ou gerenciador de arquivos. Dentro desse arquivo, uma configuração controla o modo de jogo ativo usado quando o servidor inicia. Após modificar esse valor, o servidor deve ser reiniciado para que a alteração tenha efeito.
 
 ```
 "Defaults": {
@@ -67,7 +67,7 @@ Valores comuns para o modo de jogo incluem:
 - `Creative` para construção e criação de conteúdo sem restrições
 - `Adventure` para jogabilidade estruturada com progressão e regras de interação definidas
 
-Após alterar o valor do modo de jogo, o servidor precisa ser reiniciado para que a nova configuração tenha efeito.
+Após alterar o valor do modo de jogo, o servidor deve ser reiniciado para que a nova configuração entre em vigor.
 
 
 
