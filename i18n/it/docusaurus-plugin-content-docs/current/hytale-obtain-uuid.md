@@ -2,7 +2,7 @@
 id: hytale-obtain-uuid
 title: "Hytale: UUID bekommen"
 description: "Finde heraus, wie du die UUID eines Spielers findest oder bekommst, um sie für Server-Konfiguration und Permissions zu nutzen → Jetzt mehr erfahren"
-sidebar_label: Mods installieren
+sidebar_label: UUID bekommen
 services:
   - gameserver-hytale
 ---
@@ -18,7 +18,7 @@ UUIDs werden für verschiedene Admin-Aufgaben benötigt, wie z.B. das Verwalten 
 
 :::info Early Access Hinweis
 
-Hytale wurde am 13. Januar 2026 veröffentlicht und ist aktuell im Early Access. Da das Spiel sich noch in aktiver Entwicklung befindet, können Server-Software, Konfigurationsdateien, Modding-Support und Installationsprozesse sich weiterhin ändern.
+Hytale wurde am 13. Januar 2026 veröffentlicht und befindet sich aktuell im Early Access. Da das Spiel noch aktiv weiterentwickelt wird, können sich Server-Software, Konfigurationsdateien, Modding-Support und Installationsprozesse weiterhin ändern.
 
 :::
 
@@ -35,7 +35,7 @@ Logge dich mit den nötigen Rechten ein, öffne den Ingame-Chat und führe den U
 /whoami <playername>
 ```
 
-Nach Ausführung des Befehls antwortet der Server direkt im Chat mit der UUID des angegebenen Spielers. Die zurückgegebene UUID identifiziert den Spieler eindeutig und kann für Permissions, Gruppen-Zuweisungen, Whitelist-Einträge oder andere serverseitige Aktionen kopiert werden.
+Nach Ausführung des Befehls antwortet der Server direkt im Chat mit der UUID des angegebenen Spielers. Die zurückgegebene UUID identifiziert den Spieler eindeutig und kann für Permissions, Gruppen-Zuweisungen, Whitelist-Einträge oder andere serverseitige Aktionen kopiert und genutzt werden.
 
 
 

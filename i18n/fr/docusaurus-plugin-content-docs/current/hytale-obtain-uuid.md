@@ -2,7 +2,7 @@
 id: hytale-obtain-uuid
 title: "Hytale : Obtenir l’UUID"
 description: "Découvrez comment trouver ou obtenir l’UUID d’un joueur pour la configuration du serveur et les permissions → En savoir plus maintenant"
-sidebar_label: Installer des Mods
+sidebar_label: Obtenir l’UUID
 services:
   - gameserver-hytale
 ---
@@ -14,11 +14,11 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Chaque joueur sur un serveur Hytale est identifié en interne par un UUID, aussi appelé Identifiant Unique Universel. Cet identifiant est permanent et ne change pas, même si le joueur modifie ensuite son pseudo.
 
-Les UUID sont nécessaires pour diverses tâches administratives comme la gestion des permissions, l’attribution de groupes, ou la référence aux joueurs dans les commandes serveur et fichiers de configuration.
+Les UUID sont indispensables pour diverses tâches d’administration comme la gestion des permissions, l’attribution de groupes, ou la référence aux joueurs dans les commandes serveur et fichiers de configuration.
 
 :::info Avis Early Access
 
-Hytale est sorti le 13 janvier 2026 et est actuellement disponible en Early Access. Comme le jeu est encore en phase de développement actif, les logiciels serveur, fichiers de configuration, support du modding et processus d’installation peuvent continuer à évoluer avec le temps.
+Hytale est sorti le 13 janvier 2026 et est actuellement disponible en Early Access. Comme le jeu est encore en phase de développement actif, les logiciels serveur, fichiers de configuration, support du modding et processus d’installation peuvent continuer d’évoluer avec le temps.
 
 :::
 
@@ -27,7 +27,7 @@ Hytale est sorti le 13 janvier 2026 et est actuellement disponible en Early Acce
 
 ## Obtenir l’UUID
 
-L’UUID d’un joueur peut être obtenu directement depuis le jeu en utilisant la commande chat intégrée du serveur. Cette méthode est particulièrement pratique quand le joueur est déjà en ligne et que l’UUID est nécessaire immédiatement.
+L’UUID d’un joueur peut être obtenu directement depuis le jeu via la commande chat intégrée au serveur. Cette méthode est particulièrement pratique quand le joueur est déjà en ligne et que l’UUID est nécessaire immédiatement.
 
 Connecté avec les permissions suffisantes, ouvre le chat en jeu et exécute la commande de recherche d’UUID pour le joueur souhaité :
 
@@ -45,7 +45,7 @@ Après exécution, le serveur répond directement dans le chat avec l’UUID ass
 
 ## Conclusion
 
-Obtenir l’UUID d’un joueur est une étape essentielle pour les tâches avancées de gestion sur un serveur Hytale. Pour toute question ou aide, n’hésite pas à contacter notre support, disponible tous les jours pour t’aider ! 🙂
+Obtenir l’UUID d’un joueur est une étape clé pour les tâches avancées de gestion sur un serveur Hytale. Pour toute question ou aide, n’hésite pas à contacter notre support, disponible tous les jours pour t’accompagner ! 🙂
 
 
 <InlineVoucher />

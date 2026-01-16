@@ -2,7 +2,7 @@
 id: hytale-obtain-uuid
 title: "Hytale: UUID erhalten"
 description: "Finde heraus, wie du die UUID eines Spielers für die Serverkonfiguration und Berechtigungen bekommst → Jetzt mehr erfahren"
-sidebar_label: Mods installieren
+sidebar_label: UUID erhalten
 services:
   - gameserver-hytale
 ---
@@ -27,7 +27,7 @@ Hytale wurde am 13. Januar 2026 veröffentlicht und befindet sich aktuell im Ear
 
 ## UUID erhalten
 
-Die UUID eines Spielers kannst du direkt im Spiel über den integrierten Chat-Befehl des Servers abrufen. Diese Methode ist besonders praktisch, wenn der Spieler bereits online ist und die UUID sofort benötigt wird.
+Die UUID eines Spielers kann direkt im Spiel über den eingebauten Chat-Befehl des Servers abgefragt werden. Diese Methode ist besonders praktisch, wenn der Spieler bereits online ist und die UUID sofort benötigt wird.
 
 Melde dich mit ausreichenden Berechtigungen an, öffne den Ingame-Chat und führe den UUID-Abfragebefehl für den gewünschten Spieler aus:
 
