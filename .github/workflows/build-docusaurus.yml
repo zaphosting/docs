@@ -1,44 +1,66 @@
-name: Build Docusaurus
-
-on: 
+name: Build Docusaurus Documentation
+on:
+  pull_request:
+    types: [labeled]
   push:
     branches: ["master", "main"]
 
 permissions:
   checks: write
   contents: write
+  pull-requests: write
 
 jobs:
   build-docusaurus:
+    if: github.event_name == 'push' || github.event.label.name == 'BUILD DOCUSAURUS'
+    timeout-minutes: 1440
     runs-on: self-hosted
     steps:
-      - name: Check out Git repository
+      - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          path: 'docusaurus'
           fetch-depth: 0
-          ref: ${{github.event.pull_request.head.ref}}
-          repository: ${{github.event.pull_request.head.repo.full_name}}
-      - name: Set up Node.js
+
+      - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: 20
-      - name: Install Docusaurus
-        run: |
-          cd docusaurus
-          npm install
+          node-version: '20'
+
+      - name: Install dependencies
+        run: npm install
+
       - name: Build Docusaurus
         run: |
-          cd docusaurus
+          npm run write-translations -- --locale de
+          npm run write-translations -- --locale es
+          npm run write-translations -- --locale fr
+          npm run write-translations -- --locale ar
+          npm run write-translations -- --locale pt
+          npm run write-translations -- --locale th
+          npm run write-translations -- --locale pl
+          npm run write-translations -- --locale ja   
+
           rm -rf build
           npm run docusaurus clear
           rm -f build.tar
           npm run build
           tar cf build.tar -C build --transform 's~^\./~~' .
+
       - name: Upload Artifacts
         uses: actions/upload-artifact@v4
         with: 
-              name: build
-              path: docusaurus/build.tar
-              retention-days: 90
-        
+          name: build
+          path: build.tar
+          retention-days: 90
+
+      - name: Remove label
+        if: always() && github.event_name == 'pull_request'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            github.rest.issues.removeLabel({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.issue.number,
+              name: 'BUILD DOCUSAURUS'
+            })
