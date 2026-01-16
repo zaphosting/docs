@@ -1,50 +1,50 @@
 {
   "version.label": {
-    "message": "Spigot & Bukkit (Plugins)",
+    "message": "Siguiente",
     "description": "The label for version current"
   },
   "sidebar.guidesSidebar.category.dedicated-linux-dedicated-game-servers-general": {
-    "message": "protección DDoS",
+    "message": "Protección DDoS",
     "description": "The label for category 'DDoS Protection' in sidebar 'guidesSidebar'"
   },
   "sidebar.guidesSidebar.category.Support": {
-    "message": "SCP: Secret Laboratory",
+    "message": "Soporte",
     "description": "The label for category 'Support' in sidebar 'guidesSidebar'"
   },
   "sidebar.guidesSidebar.category.Affiliate Program": {
-    "message": "Ark: Survival Evolved",
+    "message": "Programa de afiliados",
     "description": "The label for category 'Affiliate Program' in sidebar 'guidesSidebar'"
   },
   "sidebar.guidesSidebar.category.Partner Program": {
-    "message": "Palworld",
+    "message": "Programa de socios",
     "description": "The label for category 'Partner Program' in sidebar 'guidesSidebar'"
   },
   "sidebar.guidesSidebar.category.Contribution Program": {
-    "message": "Enshrouded",
+    "message": "Programa de contribución",
     "description": "The label for category 'Contribution Program' in sidebar 'guidesSidebar'"
   },
   "sidebar.guidesSidebar.category.general-contribution-program-guides": {
-    "message": "SCUM",
+    "message": "Guías",
     "description": "The label for category 'Guides' in sidebar 'guidesSidebar'"
   },
   "sidebar.guidesSidebar.category.general-contribution-program-blogs": {
-    "message": "7 Days to Die",
+    "message": "Blogs",
     "description": "The label for category 'Blogs' in sidebar 'guidesSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-databases": {
-    "message": "Abiotic Factor",
+    "message": "Bases de datos",
     "description": "The label for category 'Databases' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-fivem-popular": {
-    "message": "Afterinfection",
+    "message": "FiveM",
     "description": "The label for category 'FiveM' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-fivem-popular": {
-    "message": "American Truck Simulator",
+    "message": "Primeros pasos",
     "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-configuration-fivem-popular": {
-    "message": "Among Us",
+    "message": "Configuración",
     "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-resources-fivem-popular": {
@@ -72,11 +72,11 @@
     "description": "The label for category 'Minecraft' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-minecraft-popular": {
-    "message": "American Truck Simulator",
+    "message": "Primeros pasos",
     "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-configuration-minecraft-popular": {
-    "message": "Among Us",
+    "message": "Configuración",
     "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-bedrock-minecraft-popular": {
@@ -104,11 +104,11 @@
     "description": "The label for category 'SCP: Secret Laboratory' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-scp-secret-laboratory-popular": {
-    "message": "American Truck Simulator",
+    "message": "Primeros pasos",
     "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-configuration-scp-secret-laboratory-popular": {
-    "message": "Among Us",
+    "message": "Configuración",
     "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-exiled-scp-secret-laboratory-popular": {
@@ -124,11 +124,11 @@
     "description": "The label for category 'Valheim' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-valheim-popular": {
-    "message": "American Truck Simulator",
+    "message": "Primeros pasos",
     "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-configuration-valheim-popular": {
-    "message": "Among Us",
+    "message": "Configuración",
     "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-valheim-popular": {
@@ -140,11 +140,11 @@
     "description": "The label for category 'Ark: Survival Evolved' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-ark-survival-evolved-popular": {
-    "message": "American Truck Simulator",
+    "message": "Primeros pasos",
     "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-configuration-ark-survival-evolved-popular": {
-    "message": "Among Us",
+    "message": "Configuración",
     "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-ark-survival-evolved-popular": {
@@ -156,11 +156,11 @@
     "description": "The label for category 'Palworld' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-palworld-popular": {
-    "message": "American Truck Simulator",
+    "message": "Primeros pasos",
     "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-configuration-palworld-popular": {
-    "message": "Among Us",
+    "message": "Configuración",
     "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-palworld-popular": {
@@ -172,11 +172,11 @@
     "description": "The label for category 'Enshrouded' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-enshrouded-popular": {
-    "message": "American Truck Simulator",
+    "message": "Primeros pasos",
     "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-configuration-enshrouded-popular": {
-    "message": "Among Us",
+    "message": "Configuración",
     "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-enshrouded-popular": {
@@ -188,11 +188,11 @@
     "description": "The label for category 'SCUM' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-scum-popular": {
-    "message": "American Truck Simulator",
+    "message": "Primeros pasos",
     "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-configuration-scum-popular": {
-    "message": "Among Us",
+    "message": "Configuración",
     "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-scum-popular": {
@@ -204,11 +204,11 @@
     "description": "The label for category '7 Days to Die' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-7-days-to-die": {
-    "message": "American Truck Simulator",
+    "message": "Primeros pasos",
     "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-configuration-7-days-to-die": {
-    "message": "Among Us",
+    "message": "Configuración",
     "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-7-days-to-die": {
@@ -220,11 +220,11 @@
     "description": "The label for category 'Abiotic Factor' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-abiotic-factor": {
-    "message": "American Truck Simulator",
+    "message": "Primeros pasos",
     "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-configuration-abiotic-factor": {
-    "message": "Among Us",
+    "message": "Configuración",
     "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-abiotic-factor": {
@@ -236,7 +236,7 @@
     "description": "The label for category 'Afterinfection' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-afterinfection": {
-    "message": "American Truck Simulator",
+    "message": "Primeros pasos",
     "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-afterinfection": {
@@ -248,11 +248,11 @@
     "description": "The label for category 'American Truck Simulator' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-american-truck-simulator": {
-    "message": "American Truck Simulator",
+    "message": "Primeros pasos",
     "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-configuration-american-truck-simulator": {
-    "message": "Among Us",
+    "message": "Configuración",
     "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-american-truck-simulator": {
@@ -264,7 +264,7 @@
     "description": "The label for category 'Among Us' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-among-us": {
-    "message": "American Truck Simulator",
+    "message": "Primeros pasos",
     "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-among-us": {
@@ -276,7 +276,7 @@
     "description": "The label for category 'Animalia Survival' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-animalia-survival": {
-    "message": "American Truck Simulator",
+    "message": "Primeros pasos",
     "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-animalia-survival": {
@@ -288,7 +288,7 @@
     "description": "The label for category 'Argo' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-argo": {
-    "message": "American Truck Simulator",
+    "message": "Primeros pasos",
     "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-argo": {
@@ -300,11 +300,11 @@
     "description": "The label for category 'Ark: Survival Evolved' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-ark-survival-evolved": {
-    "message": "American Truck Simulator",
+    "message": "Primeros pasos",
     "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-configuration-ark-survival-evolved": {
-    "message": "Among Us",
+    "message": "Configuración",
     "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-ark-survival-evolved": {
@@ -316,11 +316,11 @@
     "description": "The label for category 'Arma 3' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-arma-3": {
-    "message": "American Truck Simulator",
+    "message": "Primeros pasos",
     "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-configuration-arma-3": {
-    "message": "Among Us",
+    "message": "Configuración",
     "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-arma-3": {
@@ -332,11 +332,11 @@
     "description": "The label for category 'Arma Reforger' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-arma-reforger": {
-    "message": "American Truck Simulator",
+    "message": "Primeros pasos",
     "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-configuration-arma-reforger": {
-    "message": "Among Us",
+    "message": "Configuración",
     "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-arma-reforger": {
@@ -348,11 +348,11 @@
     "description": "The label for category 'Assetto Corsa' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-assetto-corsa": {
-    "message": "American Truck Simulator",
+    "message": "Primeros pasos",
     "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-configuration-assetto-corsa": {
-    "message": "Among Us",
+    "message": "Configuración",
     "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-assetto-corsa": {
@@ -364,11 +364,11 @@
     "description": "The label for category 'Assetto Corsa Competizione' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-assetto-corsa-competizione": {
-    "message": "American Truck Simulator",
+    "message": "Primeros pasos",
     "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-configuration-assetto-corsa-competizione": {
-    "message": "Among Us",
+    "message": "Configuración",
     "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-assetto-corsa-competizione": {
@@ -380,7 +380,7 @@
     "description": "The label for category 'Astro Colony' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-astro-colony": {
-    "message": "American Truck Simulator",
+    "message": "Primeros pasos",
     "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-astro-colony": {
@@ -392,7 +392,7 @@
     "description": "The label for category 'ASTRONEER' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-astroneer": {
-    "message": "American Truck Simulator",
+    "message": "Primeros pasos",
     "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-astroneer": {
@@ -404,11 +404,11 @@
     "description": "The label for category 'Avorion' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-avorion": {
-    "message": "American Truck Simulator",
+    "message": "Primeros pasos",
     "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-configuration-avorion": {
-    "message": "Among Us",
+    "message": "Configuración",
     "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-avorion": {
@@ -420,7 +420,7 @@
     "description": "The label for category 'Banana Shooter' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-banana-shooter": {
-    "message": "American Truck Simulator",
+    "message": "Primeros pasos",
     "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-banana-shooter": {
@@ -432,11 +432,11 @@
     "description": "The label for category 'Barotrauma' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-barotrauma": {
-    "message": "American Truck Simulator",
+    "message": "Primeros pasos",
     "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-configuration-barotrauma": {
-    "message": "Among Us",
+    "message": "Configuración",
     "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-barotrauma": {
@@ -448,7 +448,7 @@
     "description": "The label for category 'Battalion 1944' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-battalion-1944": {
-    "message": "American Truck Simulator",
+    "message": "Primeros pasos",
     "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-battalion-1944": {
@@ -460,7 +460,7 @@
     "description": "The label for category 'Battle Grounds III' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-battle-grounds-iii": {
-    "message": "American Truck Simulator",
+    "message": "Primeros pasos",
     "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-battle-grounds-iii": {
@@ -472,11 +472,11 @@
     "description": "The label for category 'BeamMP' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-beammp": {
-    "message": "American Truck Simulator",
+    "message": "Primeros pasos",
     "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-configuration-beammp": {
-    "message": "Among Us",
+    "message": "Configuración",
     "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-beammp": {
@@ -488,7 +488,7 @@
     "description": "The label for category 'Beasts of Bermuda' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-beasts-of-bermuda": {
-    "message": "American Truck Simulator",
+    "message": "Primeros pasos",
     "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-beasts-of-bermuda": {
@@ -500,7 +500,7 @@
     "description": "The label for category 'Beyond the Wire' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-beyond-the-wire": {
-    "message": "American Truck Simulator",
+    "message": "Primeros pasos",
     "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-beyond-the-wire": {
@@ -512,7 +512,7 @@
     "description": "The label for category 'Broke Protocol' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-broke-protocol": {
-    "message": "American Truck Simulator",
+    "message": "Primeros pasos",
     "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-broke-protocol": {
@@ -524,7 +524,7 @@
     "description": "The label for category 'Citadel: Forged With Fire' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-citadel-forged-with-fire": {
-    "message": "American Truck Simulator",
+    "message": "Primeros pasos",
     "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-citadel-forged-with-fire": {
@@ -536,7 +536,7 @@
     "description": "The label for category 'Colony Survival' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-colony-survival": {
-    "message": "American Truck Simulator",
+    "message": "Primeros pasos",
     "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-colony-survival": {
@@ -548,11 +548,11 @@
     "description": "The label for category 'Conan Exiles' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-conan-exiles": {
-    "message": "American Truck Simulator",
+    "message": "Primeros pasos",
     "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-configuration-conan-exiles": {
-    "message": "Among Us",
+    "message": "Configuración",
     "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-conan-exiles": {
@@ -564,7 +564,7 @@
     "description": "The label for category 'Contagion' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-contagion": {
-    "message": "American Truck Simulator",
+    "message": "Primeros pasos",
     "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-contagion": {
@@ -576,7 +576,7 @@
     "description": "The label for category 'Core Keeper' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-core-keeper": {
-    "message": "American Truck Simulator",
+    "message": "Primeros pasos",
     "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-core-keeper": {
@@ -588,7 +588,7 @@
     "description": "The label for category 'Craftopia' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-craftopia": {
-    "message": "American Truck Simulator",
+    "message": "Primeros pasos",
     "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-craftopia": {
@@ -600,7 +600,7 @@
     "description": "The label for category 'Cryofall' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-cryofall": {
-    "message": "American Truck Simulator",
+    "message": "Primeros pasos",
     "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-cryofall": {
@@ -612,11 +612,11 @@
     "description": "The label for category 'Counter-Strike 1.6' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-counter-strike-1-6": {
-    "message": "American Truck Simulator",
+    "message": "Primeros pasos",
     "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-configuration-counter-strike-1-6": {
-    "message": "Among Us",
+    "message": "Configuración",
     "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-counter-strike-1-6": {
@@ -628,7 +628,7 @@
     "description": "The label for category 'Counter-Strike: Condition Zero' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-counter-strike-condition-zero": {
-    "message": "American Truck Simulator",
+    "message": "Primeros pasos",
     "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-counter-strike-condition-zero": {
@@ -640,11 +640,11 @@
     "description": "The label for category 'Counter-Strike: Source' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-counter-strike-source": {
-    "message": "American Truck Simulator",
+    "message": "Primeros pasos",
     "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-configuration-counter-strike-source": {
-    "message": "Among Us",
+    "message": "Configuración",
     "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-counter-strike-source": {
@@ -656,11 +656,11 @@
     "description": "The label for category 'Counter-Strike 2' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-counter-strike-2": {
-    "message": "American Truck Simulator",
+    "message": "Primeros pasos",
     "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-configuration-counter-strike-2": {
-    "message": "Among Us",
+    "message": "Configuración",
     "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-counter-strike-2": {
@@ -672,11 +672,11 @@
     "description": "The label for category 'Day of Defeat: Source' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-day-of-defeat-source": {
-    "message": "American Truck Simulator",
+    "message": "Primeros pasos",
     "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-configuration-day-of-defeat-source": {
-    "message": "Among Us",
+    "message": "Configuración",
     "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-day-of-defeat-source": {
@@ -688,11 +688,11 @@
     "description": "The label for category 'DayZ' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-dayz": {
-    "message": "American Truck Simulator",
+    "message": "Primeros pasos",
     "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-configuration-dayz": {
-    "message": "Among Us",
+    "message": "Configuración",
     "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-dayz": {
@@ -704,7 +704,7 @@
     "description": "The label for category 'DDraceNetwork' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-ddracenetwork": {
-    "message": "American Truck Simulator",
+    "message": "Primeros pasos",
     "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-ddracenetwork": {
@@ -716,7 +716,7 @@
     "description": "The label for category 'Deadlock' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-deadlock": {
-    "message": "American Truck Simulator",
+    "message": "Primeros pasos",
     "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-deadlock": {
@@ -728,7 +728,7 @@
     "description": "The label for category 'DeadPoly' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-deadpoly": {
-    "message": "American Truck Simulator",
+    "message": "Primeros pasos",
     "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-deadpoly": {
@@ -740,11 +740,11 @@
     "description": "The label for category 'Don't Starve Together' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-don-t-starve-together": {
-    "message": "American Truck Simulator",
+    "message": "Primeros pasos",
     "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-configuration-don-t-starve-together": {
-    "message": "Among Us",
+    "message": "Configuración",
     "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-don-t-starve-together": {
@@ -756,11 +756,11 @@
     "description": "The label for category 'ECO' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-eco": {
-    "message": "American Truck Simulator",
+    "message": "Primeros pasos",
     "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-configuration-eco": {
-    "message": "Among Us",
+    "message": "Configuración",
     "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-eco": {
@@ -772,11 +772,11 @@
     "description": "The label for category 'Empyrion' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-empyrion": {
-    "message": "American Truck Simulator",
+    "message": "Primeros pasos",
     "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-configuration-empyrion": {
-    "message": "Among Us",
+    "message": "Configuración",
     "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-empyrion": {
@@ -788,11 +788,11 @@
     "description": "The label for category 'Enshrouded' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-enshrouded": {
-    "message": "American Truck Simulator",
+    "message": "Primeros pasos",
     "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-configuration-enshrouded": {
-    "message": "Among Us",
+    "message": "Configuración",
     "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-enshrouded": {
@@ -804,11 +804,11 @@
     "description": "The label for category 'Euro Truck Simulator 2' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-euro-truck-simulator-2": {
-    "message": "American Truck Simulator",
+    "message": "Primeros pasos",
     "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-configuration-euro-truck-simulator-2": {
-    "message": "Among Us",
+    "message": "Configuración",
     "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-euro-truck-simulator-2": {
@@ -820,11 +820,11 @@
     "description": "The label for category 'Factorio' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-factorio": {
-    "message": "American Truck Simulator",
+    "message": "Primeros pasos",
     "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-configuration-factorio": {
-    "message": "Among Us",
+    "message": "Configuración",
     "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-factorio": {
@@ -836,11 +836,11 @@
     "description": "The label for category 'FiveM' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-fivem": {
-    "message": "American Truck Simulator",
+    "message": "Primeros pasos",
     "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-configuration-fivem": {
-    "message": "Among Us",
+    "message": "Configuración",
     "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-resources-fivem": {
@@ -868,11 +868,11 @@
     "description": "The label for category 'Foundry' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-foundry": {
-    "message": "American Truck Simulator",
+    "message": "Primeros pasos",
     "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-configuration-foundry": {
-    "message": "Among Us",
+    "message": "Configuración",
     "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-foundry": {
@@ -884,11 +884,11 @@
     "description": "The label for category 'Garry's Mod' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-garry-s-mod": {
-    "message": "American Truck Simulator",
+    "message": "Primeros pasos",
     "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-configuration-garry-s-mod": {
-    "message": "Among Us",
+    "message": "Configuración",
     "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-garry-s-mod": {
@@ -900,7 +900,7 @@
     "description": "The label for category 'Ground Branch' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-ground-branch": {
-    "message": "American Truck Simulator",
+    "message": "Primeros pasos",
     "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-ground-branch": {
@@ -912,11 +912,11 @@
     "description": "The label for category 'Half-Life 1' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-half-life-1": {
-    "message": "American Truck Simulator",
+    "message": "Primeros pasos",
     "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-configuration-half-life-1": {
-    "message": "Among Us",
+    "message": "Configuración",
     "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-half-life-1": {
@@ -928,11 +928,11 @@
     "description": "The label for category 'Half-Life 2' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-half-life-2": {
-    "message": "American Truck Simulator",
+    "message": "Primeros pasos",
     "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-configuration-half-life-2": {
-    "message": "Among Us",
+    "message": "Configuración",
     "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-half-life-2": {
@@ -944,7 +944,7 @@
     "description": "The label for category 'Holdfast: Nations At War' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-holdfast-nations-at-war": {
-    "message": "American Truck Simulator",
+    "message": "Primeros pasos",
     "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-holdfast-nations-at-war": {
@@ -956,7 +956,7 @@
     "description": "The label for category 'HumanitZ' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-humanitz": {
-    "message": "American Truck Simulator",
+    "message": "Primeros pasos",
     "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-humanitz": {
@@ -968,7 +968,7 @@
     "description": "The label for category 'Hurtworld' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-hurtworld": {
-    "message": "American Truck Simulator",
+    "message": "Primeros pasos",
     "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-hurtworld": {
@@ -980,7 +980,7 @@
     "description": "The label for category 'Icarus' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-icarus": {
-    "message": "American Truck Simulator",
+    "message": "Primeros pasos",
     "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-icarus": {
@@ -992,7 +992,7 @@
     "description": "The label for category 'Insurgency: Sandstorm' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-insurgency-sandstorm": {
-    "message": "American Truck Simulator",
+    "message": "Primeros pasos",
     "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-insurgency-sandstorm": {
@@ -1004,7 +1004,7 @@
     "description": "The label for category 'Iron Armada' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-iron-armada": {
-    "message": "American Truck Simulator",
+    "message": "Primeros pasos",
     "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-iron-armada": {
@@ -1016,7 +1016,7 @@
     "description": "The label for category 'Journey of Life' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-journey-of-life": {
-    "message": "American Truck Simulator",
+    "message": "Primeros pasos",
     "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-journey-of-life": {
@@ -1028,7 +1028,7 @@
     "description": "The label for category 'Killing Floor 2' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-killing-floor-2": {
-    "message": "American Truck Simulator",
+    "message": "Primeros pasos",
     "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-killing-floor-2": {
@@ -1040,11 +1040,11 @@
     "description": "The label for category 'Last Oasis' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-last-oasis": {
-    "message": "American Truck Simulator",
+    "message": "Primeros pasos",
     "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-configuration-last-oasis": {
-    "message": "Among Us",
+    "message": "Configuración",
     "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-last-oasis": {
@@ -1056,7 +1056,7 @@
     "description": "The label for category 'Leap' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-leap": {
-    "message": "American Truck Simulator",
+    "message": "Primeros pasos",
     "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-leap": {
@@ -1068,11 +1068,11 @@
     "description": "The label for category 'Left 4 Dead 2' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-left-4-dead-2": {
-    "message": "American Truck Simulator",
+    "message": "Primeros pasos",
     "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-configuration-left-4-dead-2": {
-    "message": "Among Us",
+    "message": "Configuración",
     "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-left-4-dead-2": {
@@ -1084,7 +1084,7 @@
     "description": "The label for category 'Longvinter' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-longvinter": {
-    "message": "American Truck Simulator",
+    "message": "Primeros pasos",
     "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-longvinter": {
@@ -1096,11 +1096,11 @@
     "description": "The label for category 'Minecraft' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-minecraft": {
-    "message": "American Truck Simulator",
+    "message": "Primeros pasos",
     "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-configuration-minecraft": {
-    "message": "Among Us",
+    "message": "Configuración",
     "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-bedrock-minecraft": {
@@ -1128,7 +1128,7 @@
     "description": "The label for category 'Minetest' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-minetest": {
-    "message": "American Truck Simulator",
+    "message": "Primeros pasos",
     "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-minetest": {
@@ -1140,7 +1140,7 @@
     "description": "The label for category 'Miscreated' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-miscreated": {
-    "message": "American Truck Simulator",
+    "message": "Primeros pasos",
     "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-mordhau": {
@@ -1148,7 +1148,7 @@
     "description": "The label for category 'Mordhau' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-mordhau": {
-    "message": "American Truck Simulator",
+    "message": "Primeros pasos",
     "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-motor-town-behind-the-wheel": {
@@ -1156,7 +1156,7 @@
     "description": "The label for category 'Motor Town: Behind The Wheel' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-motor-town-behind-the-wheel": {
-    "message": "American Truck Simulator",
+    "message": "Primeros pasos",
     "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-motor-town-behind-the-wheel": {
@@ -1168,7 +1168,7 @@
     "description": "The label for category 'Mount & Blade' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-mount-blade": {
-    "message": "American Truck Simulator",
+    "message": "Primeros pasos",
     "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-mount-blade": {
@@ -1180,11 +1180,11 @@
     "description": "The label for category 'Multi Theft Auto' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-multi-theft-auto": {
-    "message": "American Truck Simulator",
+    "message": "Primeros pasos",
     "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-configuration-multi-theft-auto": {
-    "message": "Among Us",
+    "message": "Configuración",
     "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-multi-theft-auto": {
@@ -1196,11 +1196,11 @@
     "description": "The label for category 'Myth of Empires' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-myth-of-empires": {
-    "message": "American Truck Simulator",
+    "message": "Primeros pasos",
     "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-configuration-myth-of-empires": {
-    "message": "Among Us",
+    "message": "Configuración",
     "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-myth-of-empires": {
@@ -1212,7 +1212,7 @@
     "description": "The label for category 'Necesse' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-necesse": {
-    "message": "American Truck Simulator",
+    "message": "Primeros pasos",
     "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-necesse": {
@@ -1224,7 +1224,7 @@
     "description": "The label for category 'Never Split the Party' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-never-split-the-party": {
-    "message": "American Truck Simulator",
+    "message": "Primeros pasos",
     "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-never-split-the-party": {
@@ -1236,7 +1236,7 @@
     "description": "The label for category 'Nienix' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-nienix": {
-    "message": "American Truck Simulator",
+    "message": "Primeros pasos",
     "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-nienix": {
@@ -1248,11 +1248,11 @@
     "description": "The label for category 'No More Room In Hell' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-no-more-room-in-hell": {
-    "message": "American Truck Simulator",
+    "message": "Primeros pasos",
     "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-configuration-no-more-room-in-hell": {
-    "message": "Among Us",
+    "message": "Configuración",
     "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-no-more-room-in-hell": {
@@ -1264,7 +1264,7 @@
     "description": "The label for category 'No One Survived' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-no-one-survived": {
-    "message": "American Truck Simulator",
+    "message": "Primeros pasos",
     "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-no-one-survived": {
@@ -1276,7 +1276,7 @@
     "description": "The label for category 'One Hour One Life' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-one-hour-one-life": {
-    "message": "American Truck Simulator",
+    "message": "Primeros pasos",
     "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-one-hour-one-life": {
@@ -1288,11 +1288,11 @@
     "description": "The label for category 'Open.mp' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-open-mp": {
-    "message": "American Truck Simulator",
+    "message": "Primeros pasos",
     "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-configuration-open-mp": {
-    "message": "Among Us",
+    "message": "Configuración",
     "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-open-mp": {
@@ -1304,7 +1304,7 @@
     "description": "The label for category 'OpenTTD' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-openttd": {
-    "message": "American Truck Simulator",
+    "message": "Primeros pasos",
     "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-openttd": {
@@ -1316,7 +1316,7 @@
     "description": "The label for category 'Operation: Harsh Doorstop' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-operation-harsh-doorstop": {
-    "message": "American Truck Simulator",
+    "message": "Primeros pasos",
     "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-operation-harsh-doorstop": {
@@ -1328,7 +1328,7 @@
     "description": "The label for category 'Outlaws of the Old West' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-outlaws-of-the-old-west": {
-    "message": "American Truck Simulator",
+    "message": "Primeros pasos",
     "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-outlaws-of-the-old-west": {
@@ -1340,11 +1340,11 @@
     "description": "The label for category 'Palworld' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-palworld": {
-    "message": "American Truck Simulator",
+    "message": "Primeros pasos",
     "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-configuration-palworld": {
-    "message": "Among Us",
+    "message": "Configuración",
     "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-palworld": {
@@ -1356,11 +1356,11 @@
     "description": "The label for category 'Path of Titans' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-path-of-titans": {
-    "message": "American Truck Simulator",
+    "message": "Primeros pasos",
     "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-configuration-path-of-titans": {
-    "message": "Among Us",
+    "message": "Configuración",
     "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-path-of-titans": {
@@ -1372,7 +1372,7 @@
     "description": "The label for category 'PixARK' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-pixark": {
-    "message": "American Truck Simulator",
+    "message": "Primeros pasos",
     "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-pixark": {
@@ -1384,7 +1384,7 @@
     "description": "The label for category 'Portal Knights' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-portal-knights": {
-    "message": "American Truck Simulator",
+    "message": "Primeros pasos",
     "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-portal-knights": {
@@ -1396,11 +1396,11 @@
     "description": "The label for category 'Project Zomboid' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-project-zomboid": {
-    "message": "American Truck Simulator",
+    "message": "Primeros pasos",
     "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-configuration-project-zomboid": {
-    "message": "Among Us",
+    "message": "Configuración",
     "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-project-zomboid": {
@@ -1412,11 +1412,11 @@
     "description": "The label for category 'RedM' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-redm": {
-    "message": "American Truck Simulator",
+    "message": "Primeros pasos",
     "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-configuration-redm": {
-    "message": "Among Us",
+    "message": "Configuración",
     "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-resources-redm": {
@@ -1432,7 +1432,7 @@
     "description": "The label for category 'Reign of Kings' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-reign-of-kings": {
-    "message": "American Truck Simulator",
+    "message": "Primeros pasos",
     "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-reign-of-kings": {
@@ -1444,11 +1444,11 @@
     "description": "The label for category 'RimWorld Together' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-rimworld-together": {
-    "message": "American Truck Simulator",
+    "message": "Primeros pasos",
     "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-configuration-rimworld-together": {
-    "message": "Among Us",
+    "message": "Configuración",
     "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-rimworld-together": {
@@ -1460,7 +1460,7 @@
     "description": "The label for category 'Rising Storm 2' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-rising-storm-2": {
-    "message": "American Truck Simulator",
+    "message": "Primeros pasos",
     "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-rising-storm-2": {
@@ -1472,7 +1472,7 @@
     "description": "The label for category 'Risk of Rain 2' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-risk-of-rain-2": {
-    "message": "American Truck Simulator",
+    "message": "Primeros pasos",
     "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-risk-of-rain-2": {
@@ -1484,7 +1484,7 @@
     "description": "The label for category 'Rising World' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-rising-world": {
-    "message": "American Truck Simulator",
+    "message": "Primeros pasos",
     "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-rising-world": {
@@ -1496,11 +1496,11 @@
     "description": "The label for category 'Rust' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-rust": {
-    "message": "American Truck Simulator",
+    "message": "Primeros pasos",
     "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-configuration-rust": {
-    "message": "Among Us",
+    "message": "Configuración",
     "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-rust": {
@@ -1512,7 +1512,7 @@
     "description": "The label for category 'Sanctuary Island' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-sanctuary-island": {
-    "message": "American Truck Simulator",
+    "message": "Primeros pasos",
     "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-sanctuary-island": {
@@ -1524,11 +1524,11 @@
     "description": "The label for category 'Satisfactory' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-satisfactory": {
-    "message": "American Truck Simulator",
+    "message": "Primeros pasos",
     "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-configuration-satisfactory": {
-    "message": "Among Us",
+    "message": "Configuración",
     "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-satisfactory": {
@@ -1540,7 +1540,7 @@
     "description": "The label for category 'SCP: 5K' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-scp-5k": {
-    "message": "American Truck Simulator",
+    "message": "Primeros pasos",
     "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-scp-5k": {
@@ -1552,7 +1552,7 @@
     "description": "The label for category 'SCP: Containment Breach' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-scp-containment-breach": {
-    "message": "American Truck Simulator",
+    "message": "Primeros pasos",
     "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-scp-containment-breach": {
@@ -1564,7 +1564,7 @@
     "description": "The label for category 'SCP: Escape Together' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-scp-escape-together": {
-    "message": "American Truck Simulator",
+    "message": "Primeros pasos",
     "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-scp-escape-together": {
@@ -1576,11 +1576,11 @@
     "description": "The label for category 'SCP: Secret Laboratory' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-scp-secret-laboratory": {
-    "message": "American Truck Simulator",
+    "message": "Primeros pasos",
     "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-configuration-scp-secret-laboratory": {
-    "message": "Among Us",
+    "message": "Configuración",
     "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-exiled-scp-secret-laboratory": {
@@ -1596,11 +1596,11 @@
     "description": "The label for category 'SCUM' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-scum": {
-    "message": "American Truck Simulator",
+    "message": "Primeros pasos",
     "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-configuration-scum": {
-    "message": "Among Us",
+    "message": "Configuración",
     "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-scum": {
@@ -1612,7 +1612,7 @@
     "description": "The label for category 'Soldat' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-soldat": {
-    "message": "American Truck Simulator",
+    "message": "Primeros pasos",
     "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-soldat": {
@@ -1624,7 +1624,7 @@
     "description": "The label for category 'Sons of the Forest' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-sons-of-the-forest": {
-    "message": "American Truck Simulator",
+    "message": "Primeros pasos",
     "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-sons-of-the-forest": {
@@ -1636,11 +1636,11 @@
     "description": "The label for category 'Soulmask' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-soulmask": {
-    "message": "American Truck Simulator",
+    "message": "Primeros pasos",
     "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-configuration-soulmask": {
-    "message": "Among Us",
+    "message": "Configuración",
     "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-soulmask": {
@@ -1652,11 +1652,11 @@
     "description": "The label for category 'Space Engineers' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-space-engineers": {
-    "message": "American Truck Simulator",
+    "message": "Primeros pasos",
     "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-configuration-space-engineers": {
-    "message": "Among Us",
+    "message": "Configuración",
     "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-space-engineers": {
@@ -1668,7 +1668,7 @@
     "description": "The label for category 'Squad' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-squad": {
-    "message": "American Truck Simulator",
+    "message": "Primeros pasos",
     "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-squad": {
@@ -1680,7 +1680,7 @@
     "description": "The label for category 'Starbound' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-starbound": {
-    "message": "American Truck Simulator",
+    "message": "Primeros pasos",
     "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-starbound": {
@@ -1692,7 +1692,7 @@
     "description": "The label for category 'Starmade' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-starmade": {
-    "message": "American Truck Simulator",
+    "message": "Primeros pasos",
     "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-starmade": {
@@ -1704,7 +1704,7 @@
     "description": "The label for category 'Staxel' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-staxel": {
-    "message": "American Truck Simulator",
+    "message": "Primeros pasos",
     "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-staxel": {
@@ -1716,11 +1716,11 @@
     "description": "The label for category 'Stormworks' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-stormworks": {
-    "message": "American Truck Simulator",
+    "message": "Primeros pasos",
     "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-configuration-stormworks": {
-    "message": "Among Us",
+    "message": "Configuración",
     "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-stormworks": {
@@ -1732,7 +1732,7 @@
     "description": "The label for category 'Subsistence' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-subsistence": {
-    "message": "American Truck Simulator",
+    "message": "Primeros pasos",
     "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-subsistence": {
@@ -1744,7 +1744,7 @@
     "description": "The label for category 'Sunkenland' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-sunkenland": {
-    "message": "American Truck Simulator",
+    "message": "Primeros pasos",
     "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-sunkenland": {
@@ -1756,11 +1756,11 @@
     "description": "The label for category 'Team Fortress 2' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-team-fortress-2": {
-    "message": "American Truck Simulator",
+    "message": "Primeros pasos",
     "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-configuration-team-fortress-2": {
-    "message": "Among Us",
+    "message": "Configuración",
     "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-team-fortress-2": {
@@ -1772,7 +1772,7 @@
     "description": "The label for category 'Teeworlds' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-teeworlds": {
-    "message": "American Truck Simulator",
+    "message": "Primeros pasos",
     "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-teeworlds": {
@@ -1784,11 +1784,11 @@
     "description": "The label for category 'Terraria' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-terraria": {
-    "message": "American Truck Simulator",
+    "message": "Primeros pasos",
     "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-configuration-terraria": {
-    "message": "Among Us",
+    "message": "Configuración",
     "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-terraria": {
@@ -1800,7 +1800,7 @@
     "description": "The label for category 'Terratech Worlds' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-terratech-worlds": {
-    "message": "American Truck Simulator",
+    "message": "Primeros pasos",
     "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-terratech-worlds": {
@@ -1812,7 +1812,7 @@
     "description": "The label for category 'The Bus' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-the-bus": {
-    "message": "American Truck Simulator",
+    "message": "Primeros pasos",
     "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-the-bus": {
@@ -1824,7 +1824,7 @@
     "description": "The label for category 'The Front' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-the-front": {
-    "message": "American Truck Simulator",
+    "message": "Primeros pasos",
     "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-the-front": {
@@ -1836,7 +1836,7 @@
     "description": "The label for category 'The Isle' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-the-isle": {
-    "message": "American Truck Simulator",
+    "message": "Primeros pasos",
     "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-the-isle": {
@@ -1848,7 +1848,7 @@
     "description": "The label for category 'The Lord of the Rings: RTM' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-the-lord-of-the-rings-rtm": {
-    "message": "American Truck Simulator",
+    "message": "Primeros pasos",
     "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-the-lord-of-the-rings-rtm": {
@@ -1860,7 +1860,7 @@
     "description": "The label for category 'Unfortunate Spacemen' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-unfortunate-spacemen": {
-    "message": "American Truck Simulator",
+    "message": "Primeros pasos",
     "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-unfortunate-spacemen": {
@@ -1872,11 +1872,11 @@
     "description": "The label for category 'Unturned' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-unturned": {
-    "message": "American Truck Simulator",
+    "message": "Primeros pasos",
     "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-configuration-unturned": {
-    "message": "Among Us",
+    "message": "Configuración",
     "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-rocketmod-unturned": {
@@ -1892,11 +1892,11 @@
     "description": "The label for category 'Valheim' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-valheim": {
-    "message": "American Truck Simulator",
+    "message": "Primeros pasos",
     "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-configuration-valheim": {
-    "message": "Among Us",
+    "message": "Configuración",
     "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-valheim": {
@@ -1908,7 +1908,7 @@
     "description": "The label for category 'Vein' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-vein": {
-    "message": "American Truck Simulator",
+    "message": "Primeros pasos",
     "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-vein": {
@@ -1920,7 +1920,7 @@
     "description": "The label for category 'Veloren' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-veloren": {
-    "message": "American Truck Simulator",
+    "message": "Primeros pasos",
     "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-veloren": {
@@ -1932,7 +1932,7 @@
     "description": "The label for category 'Vintage Story' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-vintage-story": {
-    "message": "American Truck Simulator",
+    "message": "Primeros pasos",
     "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-vintage-story": {
@@ -1944,7 +1944,7 @@
     "description": "The label for category 'Voyagers of Nera' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-voyagers-of-nera": {
-    "message": "American Truck Simulator",
+    "message": "Primeros pasos",
     "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-voyagers-of-nera": {
@@ -1956,11 +1956,11 @@
     "description": "The label for category 'V Rising' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-v-rising": {
-    "message": "American Truck Simulator",
+    "message": "Primeros pasos",
     "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-configuration-v-rising": {
-    "message": "Among Us",
+    "message": "Configuración",
     "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-v-rising": {
@@ -1972,7 +1972,7 @@
     "description": "The label for category 'Wreckfest' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-wreckfest": {
-    "message": "American Truck Simulator",
+    "message": "Primeros pasos",
     "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-wreckfest": {
@@ -1984,7 +1984,7 @@
     "description": "The label for category 'Wreckfest 2' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-wreckfest-2": {
-    "message": "American Truck Simulator",
+    "message": "Primeros pasos",
     "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-wreckfest-2": {
@@ -1996,7 +1996,7 @@
     "description": "The label for category 'Wurm Unlimited' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-wurm-unlimited": {
-    "message": "American Truck Simulator",
+    "message": "Primeros pasos",
     "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-wurm-unlimited": {
@@ -2108,15 +2108,15 @@
     "description": "The label for category 'TS3MusicBot' in sidebar 'voiceserverbotSidebar'"
   },
   "sidebar.guidesSidebar.category.Administration": {
-    "message": "Administration",
+    "message": "Administración",
     "description": "The label for category 'Administration' in sidebar 'guidesSidebar'"
   },
   "sidebar.guidesSidebar.category.Billing": {
-    "message": "Billing",
+    "message": "Facturación",
     "description": "The label for category 'Billing' in sidebar 'guidesSidebar'"
   },
   "sidebar.guidesSidebar.category.Security": {
-    "message": "Security",
+    "message": "Seguridad",
     "description": "The label for category 'Security' in sidebar 'guidesSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-hytale-popular": {
@@ -2124,15 +2124,15 @@
     "description": "The label for category 'Hytale' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-hytale-popular": {
-    "message": "First Steps",
+    "message": "Primeros pasos",
     "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-configuration-hytale-popular": {
-    "message": "Configuration",
+    "message": "Configuración",
     "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-hytale-popular": {
-    "message": "Troubleshooting",
+    "message": "Solución de problemas",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-hytale": {
@@ -2140,15 +2140,15 @@
     "description": "The label for category 'Hytale' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-hytale": {
-    "message": "First Steps",
+    "message": "Primeros pasos",
     "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-configuration-hytale": {
-    "message": "Configuration",
+    "message": "Configuración",
     "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-hytale": {
-    "message": "Troubleshooting",
+    "message": "Solución de problemas",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-nightingale": {
@@ -2156,11 +2156,11 @@
     "description": "The label for category 'Nightingale' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-nightingale": {
-    "message": "First Steps",
+    "message": "Primeros pasos",
     "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-nightingale": {
-    "message": "Troubleshooting",
+    "message": "Solución de problemas",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.renown-reign-of-kings": {
@@ -2168,11 +2168,11 @@
     "description": "The label for category 'Renown' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-renown": {
-    "message": "First Steps",
+    "message": "Primeros pasos",
     "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-renown": {
-    "message": "Troubleshooting",
+    "message": "Solución de problemas",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-skyrim-together-reborn": {
@@ -2180,23 +2180,23 @@
     "description": "The label for category 'Skyrim Together Reborn' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-skyrim-together-reborn": {
-    "message": "First Steps",
+    "message": "Primeros pasos",
     "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-skyrim-together-reborn": {
-    "message": "Troubleshooting",
+    "message": "Solución de problemas",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-configuration-starmade": {
-    "message": "Configuration",
+    "message": "Configuración",
     "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-configuration-vintage-story": {
-    "message": "Configuration",
+    "message": "Configuración",
     "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
   },
   "sidebar.dedicatedserverSidebar.category.dedicated-server-linux-troubleshooting": {
-    "message": "Troubleshooting",
+    "message": "Solución de problemas",
     "description": "The label for category 'Troubleshooting' in sidebar 'dedicatedserverSidebar'"
   },
   "sidebar.domainSidebar.category.domain-domain-forwarding": {
