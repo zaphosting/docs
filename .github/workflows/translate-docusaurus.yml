@@ -1,17 +1,17 @@
-name: PR Build Docusaurus
+name: Translate Docusaurus Documentation
+
 on:
   pull_request:
     types: [labeled]
-    paths:
-      - 'docs/**/*.md'
 
 permissions:
   checks: write
-  contents: write   
+  contents: write
+  pull-requests: write
 
 jobs:
-  build-docusaurus:
-    if: github.event.label.name == 'BUILD PERMISSION'
+  translate-docs:
+    if: github.event.label.name == 'TRANSLATE DOCUSAURUS'
     timeout-minutes: 1440
     runs-on: self-hosted
     steps:
@@ -40,6 +40,7 @@ jobs:
           TRANSLATION_PROMPT: ${{ secrets.TRANSLATION_PROMPT }}
           TRANSLATION_GLOSSARY: ${{ secrets.TRANSLATION_GLOSSARY }}
         run: node translate.js
+
       - name: Commit translations
         run: |
           git config --local user.name "github-actions"
@@ -52,20 +53,14 @@ jobs:
             echo "No translation changes to commit"
           fi
 
-      - name: Build Docusaurus
-        run: |
-          npm run write-translations -- --locale de
-          npm run write-translations -- --locale es
-          npm run write-translations -- --locale fr
-          npm run write-translations -- --locale ar
-          npm run write-translations -- --locale pt
-          npm run write-translations -- --locale th
-          npm run write-translations -- --locale pl
-          npm run write-translations -- --locale ja   
-
-          rm -rf build
-          npm run docusaurus clear
-          rm -f build.tar
-          npm run build
-          tar cf build.tar -C build --transform 's~^\./~~' .
-        working-directory: ${{ github.workspace }}
+      - name: Remove label
+        if: always()
+        uses: actions/github-script@v7
+        with:
+          script: |
+            github.rest.issues.removeLabel({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.issue.number,
+              name: 'TRANSLATE DOCUSAURUS'
+            })
