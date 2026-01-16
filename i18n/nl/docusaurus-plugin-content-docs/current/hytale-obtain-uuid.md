@@ -2,7 +2,7 @@
 id: hytale-obtain-uuid
 title: "Hytale: UUID verkrijgen"
 description: "Ontdek hoe je de UUID van een speler vindt of verkrijgt voor gebruik in serverconfiguratie en permissies → Leer het nu"
-sidebar_label: Mods installeren
+sidebar_label: UUID verkrijgen
 services:
   - gameserver-hytale
 ---
@@ -35,7 +35,7 @@ Log in met voldoende rechten, open de in-game chat en voer het UUID-opzoekcomman
 /whoami <spelernaam>
 ```
 
-Na het uitvoeren van het commando reageert de server direct in de chat met de UUID die hoort bij die speler. De teruggegeven UUID identificeert die speler uniek en kan gekopieerd worden voor gebruik bij permissiebeheer, groepsindelingen, whitelist-vermeldingen of andere server-side acties.
+Na het uitvoeren van het commando reageert de server direct in de chat met de UUID die hoort bij de opgegeven speler. De teruggegeven UUID identificeert die speler uniek en kan gekopieerd worden voor gebruik bij permissiebeheer, groepsindelingen, whitelist-vermeldingen of andere server-side acties.
 
 
 
@@ -45,7 +45,7 @@ Na het uitvoeren van het commando reageert de server direct in de chat met de UU
 
 ## Conclusie
 
-Het verkrijgen van de UUID van een speler is een essentiële stap bij geavanceerd serverbeheer op een Hytale-server. Heb je nog vragen of hulp nodig? Neem dan vooral contact op met onze support, die dagelijks voor je klaarstaat! 🙂
+Het verkrijgen van de UUID van een speler is een essentiële stap bij geavanceerd serverbeheer op een Hytale-server. Heb je nog vragen of hulp nodig? Neem dan gerust contact op met onze support, die dagelijks voor je klaarstaat! 🙂
 
 
 <InlineVoucher />

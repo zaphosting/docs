@@ -688,6 +688,7 @@ const sidebars = {
           items: [
             'hytale-firststeps-dashboard',
             'hytale-firststeps-connect',
+            'hytale-obtain-uuid'
           ]
         },
         {
@@ -699,8 +700,11 @@ const sidebars = {
             'hytale-permissions',
             'hytale-whitelist',
             'hytale-mods',
-            'hytale-gamemode'
-
+            'hytale-gamemode',
+            'hytale-death-penalty',
+            'hytale-pvp-management',
+            'hytale-commands',
+            'hytale-disable-world-fall-damage',
           ]
         },
         {
@@ -2411,7 +2415,7 @@ const sidebars = {
             'hytale-death-penalty',
             'hytale-pvp-management',
             'hytale-commands',
-
+            'hytale-disable-world-fall-damage',
           ]
         },
         {
@@ -5318,6 +5322,7 @@ const sidebars = {
           'domain-teamspeak-redirect',
         ],
       },
+      
       {
         type: 'html',
         className: 'sidebar-title',
