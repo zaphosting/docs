@@ -26,7 +26,12 @@ const config = {
   onBrokenLinks: 'throw',
   onDuplicateRoutes: 'throw',
   onBrokenAnchors: 'warn',
-  onBrokenMarkdownLinks: 'throw',
+
+  markdown: {
+    hooks: {
+      onBrokenMarkdownLinks: 'throw',
+    },
+  },
 
   customFields: {
     marketingSite: 'https://zap-hosting.com',
