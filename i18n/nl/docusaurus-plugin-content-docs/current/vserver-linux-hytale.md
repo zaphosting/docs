@@ -1,4 +1,4 @@
----
+﻿---
 id: vserver-linux-hytale
 title: "VPS: Hytale Dedicated Server Setup"
 description: "Ontdek hoe je de Hytale Dedicated server installeert op je Linux VPS voor soepel gamebeheer → Leer het nu"
@@ -16,9 +16,9 @@ Heb je een Linux VPS en wil je Hytale daarop installeren? Dan ben je hier aan he
 
 ## Voorbereiding
 
-Om een Hytale-server te draaien, moet je systeem aan een paar basisvereisten voldoen. De server draait op Java 25 en heeft minimaal 4 GB RAM nodig. Zowel x64 als arm64 architecturen worden ondersteund. Het daadwerkelijke resourcegebruik hangt af van het aantal spelers, de zichtafstand en de wereldactiviteit, dus voor grotere servers kunnen extra resources nodig zijn.
+Om een Hytale-server te draaien, moet je systeem aan een paar basisvereisten voldoen. De server draait op Java 25 en heeft minimaal 4 GB RAM nodig. Zowel x64 als arm64 architecturen worden ondersteund. Het daadwerkelijke resourcegebruik hangt af van het aantal spelers, zichtafstand en wereldactiviteit, dus voor grotere servers kunnen extra resources nodig zijn.
 
-Controleer voordat je verder gaat of Java 25 op je systeem geïnstalleerd is. Dat doe je met:
+Zorg voordat je verder gaat dat Java 25 op je systeem geïnstalleerd is. Controleer dit met:
 
 ```
 java --version
@@ -40,13 +40,13 @@ cd /opt/hytale
 
 De server heeft twee hoofdcomponenten nodig: de serverapplicatie zelf en de game-assets. Deze bestanden haal je binnen met de Hytale command line downloader, bedoeld voor serverdeployments en makkelijkere updates.
 
-De CLI downloader biedt een gestructureerde manier om de Hytale-serverbestanden te downloaden en updaten. Na het downloaden van het downloader-archief, pak je het uit in een tijdelijke map. In het archief vind je een QUICKSTART.md bestand dat de basisgebruikershandleiding van de tool beschrijft.
+De CLI downloader biedt een gestructureerde manier om de Hytale-serverbestanden te downloaden en updaten. Na het downloaden van het downloader-archief, pak je het uit in een tijdelijke map. In het archief vind je een QUICKSTART.md bestand dat de basisgebruik van de tool uitlegt.
 
-Start de downloader via de command line en volg de instructies om de nieuwste serverversie te downloaden. Als het klaar is, kopieer je de gedownloade serverbestanden en het assets-archief naar je servermap. Na deze stap zou de map de server JAR en een assets-archief zoals Assets.zip moeten bevatten.
+Start de downloader via de command line en volg de instructies om de nieuwste serverversie te downloaden. Zodra dat klaar is, kopieer je de gedownloade serverbestanden en het assets-archief naar je servermap. Na deze stap zou de map de server JAR en een assets-archief zoals Assets.zip moeten bevatten.
 
 | **Command**                                   | **Omschrijving**                     |
 | :-------------------------------------------- | :---------------------------------- |
-| `./hytale-downloader`                         | Download de nieuwste release         |
+| `./hytale-downloader`                         | Download nieuwste release            |
 | `./hytale-downloader -print-version`          | Toon gameversie zonder te downloaden |
 | `./hytale-downloader -version`                | Toon hytale-downloader versie        |
 | `./hytale-downloader -check-update`           | Check op updates voor downloader     |
@@ -109,18 +109,18 @@ sudo ufw allow 5520/udp
 
 ## Performance tips
 
-De zichtafstand is een van de belangrijkste factoren die het geheugenverbruik beïnvloeden. Hogere waarden verhogen het RAM-gebruik omdat er meer werelddata tegelijk actief moet zijn.
+De zichtafstand is een van de belangrijkste factoren voor geheugengebruik. Hogere waarden verhogen het RAM-verbruik omdat er meer werelddata tegelijk actief moet zijn.
 
-Voor de meeste setups is een maximale zichtafstand van 12 chunks (384 blokken) een goede balans tussen serverperformance en gameplay-ervaring.
+Voor de meeste setups is een maximale zichtafstand van 12 chunks (384 blokken) een goede balans tussen serverperformance en gameplay.
 
-Ter vergelijking: Minecraft-servers gebruiken standaard een zichtafstand van 10 chunks (160 blokken). Hytale’s standaard van 384 blokken komt ongeveer overeen met 24 Minecraft-chunks, wat de hogere geheugenbehoefte verklaart. Pas deze waarde aan op basis van het verwachte aantal spelers en beschikbare systeemresources.
+Ter vergelijking: Minecraft-servers gebruiken standaard 10 chunks (160 blokken). Hytale’s standaard van 384 blokken komt ongeveer overeen met 24 Minecraft-chunks, wat de hogere geheugeneisen verklaart. Pas deze waarde aan op basis van het verwachte aantal spelers en beschikbare systeemresources.
 
 
 
 ## Conclusie
 
-Gefeliciteerd, je hebt nu een werkende Hytale-server draaien op je systeem. Vanaf hier kun je de setup uitbreiden met mods, wereldinstellingen aanpassen en performance-tuning doen om het perfect af te stemmen op je spelers. Regelmatig je resourcegebruik monitoren is aan te raden om stabiele werking te garanderen naarmate de server groeit.
+Gefeliciteerd, je hebt nu een werkende Hytale-server draaien op je systeem. Vanaf hier kun je de setup uitbreiden met mods, wereldinstellingen aanpassen en performance tunen voor jouw spelers. Houd het resourcegebruik goed in de gaten om stabiele werking te garanderen naarmate de server groeit.
 
-Heb je vragen of hulp nodig? Neem gerust contact op met onze support, die dagelijks voor je klaarstaat! 🙂
+Heb je vragen of hulp nodig? Neem gerust contact op met onze support, we staan dagelijks voor je klaar! 🙂
 
 <InlineVoucher />

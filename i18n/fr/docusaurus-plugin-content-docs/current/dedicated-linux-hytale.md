@@ -1,4 +1,4 @@
----
+﻿---
 id: dedicated-linux-hytale
 title: "Serveur dédié : Configuration du serveur dédié Hytale"
 description: "Découvrez comment configurer le serveur dédié Hytale sur votre serveur dédié Linux pour une gestion de jeu fluide → En savoir plus maintenant"
@@ -14,7 +14,7 @@ Vous avez un serveur dédié Linux et vous voulez y installer Hytale ? Vous ête
 
 ## Préparation
 
-Pour faire tourner un serveur Hytale, votre système doit répondre à quelques exigences de base. Le serveur fonctionne avec Java 25 et nécessite au minimum 4 Go de RAM. Les architectures x64 et arm64 sont supportées. La consommation réelle dépend du nombre de joueurs, de la distance de vue et de l’activité dans le monde, donc des ressources supplémentaires peuvent être nécessaires pour les serveurs plus gros.
+Pour faire tourner un serveur Hytale, votre système doit répondre à quelques exigences de base. Le serveur fonctionne avec Java 25 et nécessite au moins 4 Go de RAM. Les architectures x64 et arm64 sont supportées. La consommation réelle dépend du nombre de joueurs, de la distance de vue et de l’activité dans le monde, donc des ressources supplémentaires peuvent être nécessaires pour les serveurs plus gros.
 
 Avant de continuer, assurez-vous que Java 25 est installé sur votre système. Vous pouvez vérifier l’installation avec :
 
@@ -22,13 +22,13 @@ Avant de continuer, assurez-vous que Java 25 est installé sur votre système. V
 java --version
 ```
 
-Si Java n’est pas encore installé sur votre système, suivez notre guide dédié [Installer Java](vserver-linux-java) pour serveurs Linux. Ce guide explique comment installer et configurer Java correctement dans votre environnement.
+Si Java n’est pas encore installé sur votre système, suivez notre [guide Installer Java](vserver-linux-java) dédié aux serveurs Linux. Ce guide explique comment installer et configurer Java correctement dans votre environnement.
 
 
 
 ## Installation
 
-Commencez par créer un répertoire dédié pour le serveur Hytale. Cela permet de garder tous les fichiers du serveur bien organisés au même endroit.
+Commencez par créer un dossier dédié pour le serveur Hytale. Ça permet de garder tous les fichiers du serveur bien organisés au même endroit.
 
 ```
 sudo mkdir -p /opt/hytale
@@ -38,9 +38,9 @@ cd /opt/hytale
 
 Le serveur nécessite deux composants principaux : l’application serveur elle-même et les assets du jeu. Ces fichiers peuvent être obtenus via le téléchargeur en ligne de commande Hytale, conçu pour les déploiements serveurs et les mises à jour simplifiées.
 
-Le téléchargeur CLI offre une méthode structurée pour télécharger et mettre à jour les fichiers du serveur Hytale. Après avoir téléchargé l’archive du téléchargeur, extrayez-la dans un répertoire temporaire. Dans l’archive, vous trouverez un fichier QUICKSTART.md qui décrit l’utilisation basique de l’outil.
+Le téléchargeur CLI offre une méthode structurée pour télécharger et mettre à jour les fichiers du serveur Hytale. Après avoir téléchargé l’archive du téléchargeur, extrayez-la dans un dossier temporaire. Dans l’archive, vous trouverez un fichier QUICKSTART.md qui décrit l’utilisation basique de l’outil.
 
-Lancez le téléchargeur depuis la ligne de commande et suivez les instructions pour télécharger la dernière version du serveur. Une fois le processus terminé, copiez les fichiers serveur téléchargés ainsi que l’archive des assets dans votre répertoire serveur. Après cette étape, le dossier doit contenir le fichier JAR du serveur et une archive d’assets comme Assets.zip.
+Lancez le téléchargeur depuis la ligne de commande et suivez les instructions pour télécharger la dernière version du serveur. Une fois terminé, copiez les fichiers serveur téléchargés ainsi que l’archive des assets dans votre dossier serveur. Après cette étape, le dossier doit contenir le fichier JAR du serveur et une archive d’assets comme Assets.zip.
 
 | **Commande**                                   | **Description**                       |
 | :-------------------------------------------- | :------------------------------------ |
@@ -56,7 +56,7 @@ Lancez le téléchargeur depuis la ligne de commande et suivez les instructions 
 
 ## Configuration
 
-### Démarrage du serveur
+### Démarrer le serveur
 
 Le serveur se lance en exécutant le fichier JAR et en spécifiant le chemin vers l’archive des assets. Adaptez le chemin si vos assets sont stockés ailleurs.
 
@@ -66,13 +66,13 @@ java -jar HytaleServer.jar --assets /opt/hytale/Assets.zip --bind 0.0.0.0:5520
 
 ### Authentification
 
-Au premier démarrage, le serveur doit être authentifié avant que les joueurs puissent se connecter. Cela se fait directement via la console du serveur avec un processus de connexion basé sur un appareil. Suivez les instructions affichées dans la console pour finaliser l’authentification.
+Au premier démarrage, le serveur doit être authentifié avant que les joueurs puissent se connecter. Cela se fait directement via la console du serveur avec un processus de connexion par appareil. Suivez les instructions affichées dans la console pour finaliser l’authentification.
 
 ```
 /auth login device
 ```
 
-La sortie ressemblera à ceci :
+La sortie ressemblera à ça :
 
 ```
 > /auth login device
@@ -90,13 +90,13 @@ En attente d’autorisation (expire dans 900 secondes)...
 > Authentification réussie ! Mode : OAUTH_DEVICE
 ```
 
-Une fois authentifié, votre serveur peut accepter les connexions des joueurs.
+Une fois authentifié, votre serveur pourra accepter les connexions des joueurs.
 
 
 
 ### Configuration du pare-feu
 
-Par défaut, le serveur écoute sur le port UDP 5520 et se lie à toutes les interfaces disponibles. Vous pouvez changer l’adresse et le port si besoin. Le serveur communique via UDP en utilisant QUIC. Assurez-vous que votre pare-feu autorise le trafic UDP entrant sur le port choisi, que ce soit avec Iptables ou UFW.
+Par défaut, le serveur écoute sur le port UDP 5520 et se lie à toutes les interfaces disponibles. Vous pouvez changer l’adresse et le port si besoin. Le serveur communique en UDP via QUIC. Assurez-vous que votre pare-feu autorise le trafic UDP entrant sur le port choisi, que ce soit avec Iptables ou UFW.
 
 ```
 sudo iptables -A INPUT -p udp --dport 5520 -j ACCEPT
@@ -107,16 +107,16 @@ sudo ufw allow 5520/udp
 
 ## Notes sur les performances
 
-La distance de vue est l’un des facteurs les plus importants qui influencent la consommation de mémoire. Des valeurs plus élevées augmentent l’utilisation de la RAM car plus de données du monde doivent rester actives en même temps.
+La distance de vue est un des facteurs les plus importants qui influencent la consommation mémoire. Des valeurs plus élevées augmentent l’utilisation de la RAM car plus de données du monde doivent rester actives en même temps.
 
-Pour la plupart des configurations, une distance de vue maximale de 12 chunks (384 blocs) offre un bon équilibre entre performance du serveur et expérience de jeu.
+Pour la plupart des configurations, une distance de vue maximale de 12 chunks (384 blocs) offre un bon équilibre entre performance serveur et expérience de jeu.
 
-Pour comparaison, les serveurs Minecraft utilisent une distance de vue par défaut de 10 chunks (160 blocs). La valeur par défaut de Hytale de 384 blocs équivaut à environ 24 chunks Minecraft, ce qui explique les besoins mémoire plus élevés. Cette valeur doit être ajustée selon le nombre de joueurs attendu et les ressources système disponibles.
+Pour comparer, les serveurs Minecraft utilisent une distance de vue par défaut de 10 chunks (160 blocs). La valeur par défaut de Hytale de 384 blocs équivaut à environ 24 chunks Minecraft, ce qui explique les besoins mémoire plus élevés. Cette valeur doit être ajustée selon le nombre de joueurs attendu et les ressources système disponibles.
 
 
 
 ## Conclusion
 
-Félicitations, vous avez maintenant un serveur Hytale fonctionnel sur votre système. À partir de là, vous pouvez étendre la configuration en installant des mods, en ajustant les paramètres du monde et en optimisant les performances pour correspondre à votre communauté de joueurs. Une surveillance régulière de l’utilisation des ressources est recommandée pour garantir une stabilité optimale à mesure que le serveur grandit.
+Félicitations, vous avez maintenant un serveur Hytale fonctionnel sur votre système. À partir de là, vous pouvez étendre la configuration en installant des mods, en ajustant les paramètres du monde et en optimisant les performances pour votre communauté de joueurs. On recommande de surveiller régulièrement l’utilisation des ressources pour garantir une stabilité optimale à mesure que le serveur grandit.
 
-Pour toute question ou assistance, n’hésitez pas à contacter notre équipe support, disponible tous les jours pour vous aider ! 🙂
+Pour toute question ou aide, n’hésitez pas à contacter notre équipe support, disponible tous les jours pour vous accompagner ! 🙂

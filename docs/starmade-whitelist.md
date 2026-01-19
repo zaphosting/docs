@@ -1,4 +1,4 @@
----
+﻿---
 id: starmade-whitelist
 title: "StarMade: Whitelist"
 description: "Information about how to whitelist your StarMade server from ZAP-Hosting → Learn more now"

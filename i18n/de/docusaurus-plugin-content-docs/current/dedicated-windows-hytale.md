@@ -1,7 +1,7 @@
----
+﻿---
 id: dedicated-windows-hytale
 title: "Dedicated Server: Hytale Dedicated Server Setup"
-description: "Entdecke, wie du den Hytale Dedicated Server auf deinem Windows Dedicated Server einrichtest für ein reibungsloses Gameplay-Management → Jetzt mehr erfahren"
+description: "Entdecke, wie du den Hytale Dedicated Server auf deinem Windows Dedicated Server einrichtest für nahtloses Gameplay-Management → Jetzt mehr erfahren"
 sidebar_label: Hytale
 services:
   - dedicated
@@ -10,11 +10,11 @@ services:
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
-Du hast einen Dedicated Server und möchtest deinen eigenen Hytale Server darauf hosten? In dieser Anleitung erklären wir dir Schritt für Schritt, wie du den Hytale Dedicated Server auf einem Windows-System installierst und betreibst.
+Du hast einen Dedicated Server und willst deinen eigenen Hytale Server darauf hosten? In dieser Anleitung erklären wir dir Schritt für Schritt, wie du den Hytale Dedicated Server auf einem Windows-System installierst und betreibst.
 
 ## Vorbereitung
 
-Um einen Hytale Server zu betreiben, muss dein System ein paar grundlegende Anforderungen erfüllen. Der Server läuft auf Java 25 und benötigt mindestens 4 GB RAM. Sowohl x64 als auch arm64 Architekturen werden unterstützt. Der tatsächliche Ressourcenverbrauch hängt von der Spieleranzahl, der Sichtweite und der Weltaktivität ab, daher können für größere Server zusätzliche Ressourcen nötig sein.
+Um einen Hytale Server zu betreiben, muss dein System ein paar Grundvoraussetzungen erfüllen. Der Server läuft auf Java 25 und benötigt mindestens 4 GB RAM. Sowohl x64 als auch arm64 Architekturen werden unterstützt. Der tatsächliche Ressourcenverbrauch hängt von der Spieleranzahl, der Sichtweite und der Weltaktivität ab, daher sind für größere Server eventuell zusätzliche Ressourcen nötig.
 
 Bevor du weitermachst, stelle sicher, dass Java 25 auf deinem Windows-System installiert ist. Du kannst die Installation überprüfen, indem du eine Eingabeaufforderung öffnest und folgenden Befehl ausführst:
 
@@ -22,13 +22,13 @@ Bevor du weitermachst, stelle sicher, dass Java 25 auf deinem Windows-System ins
 java --version
 ```
 
-Falls Java noch nicht installiert ist, folge unserer speziellen Install Java Anleitung für Windows Server. Diese Anleitung zeigt dir, wie du Java richtig auf deinem System installierst und konfigurierst.
+Falls Java noch nicht installiert ist, folge unserer speziellen Install Java Anleitung für Windows Server. Diese erklärt dir, wie du Java richtig auf deinem System installierst und konfigurierst.
 
 
 
 ## Installation
 
-Starte damit, ein eigenes Verzeichnis für den Hytale Server anzulegen. So bleiben alle Serverdateien übersichtlich an einem Ort. Zum Beispiel:
+Starte damit, ein eigenes Verzeichnis für den Hytale Server anzulegen. So bleiben alle Serverdateien ordentlich an einem Ort. Zum Beispiel:
 
 ```
 C:\Hytale
@@ -36,7 +36,7 @@ C:\Hytale
 
 Der Server benötigt zwei Hauptkomponenten: die Server-Anwendung selbst und die Game-Assets. Diese Dateien kannst du mit dem Hytale Kommandozeilen-Downloader beziehen, der für Server-Deployments und einfachere Updates gedacht ist.
 
-Der CLI-Downloader bietet eine strukturierte Möglichkeit, die Hytale Serverdateien herunterzuladen und zu aktualisieren. Nach dem Download des Downloader-Archivs entpackst du es in ein temporäres Verzeichnis. Im Archiv findest du eine QUICKSTART.md Datei, die die Grundfunktionen des Tools erklärt.
+Der CLI-Downloader bietet eine strukturierte Möglichkeit, die Hytale Serverdateien herunterzuladen und zu aktualisieren. Nachdem du das Downloader-Archiv geladen hast, entpacke es in ein temporäres Verzeichnis. Im Archiv findest du eine QUICKSTART.md Datei, die die Grundfunktionen des Tools erklärt.
 
 Starte den Downloader über die Kommandozeile und folge den Anweisungen, um die neueste Server-Version herunterzuladen. Nach Abschluss kopierst du die heruntergeladenen Serverdateien und das Assets-Archiv in dein Serververzeichnis. Danach sollte das Verzeichnis die Server-JAR-Datei und ein Assets-Archiv wie Assets.zip enthalten.
 
@@ -46,8 +46,8 @@ Starte den Downloader über die Kommandozeile und folge den Anweisungen, um die 
 | `./hytale-downloader -print-version`          | Spielversion anzeigen ohne Download   |
 | `./hytale-downloader -version`                | Version des hytale-downloader anzeigen|
 | `./hytale-downloader -check-update`           | Nach Updates für hytale-downloader suchen |
-| `./hytale-downloader -download-path game.zip` | In bestimmte Datei herunterladen      |
-| `./hytale-downloader -patchline pre-release`  | Aus dem Pre-Release-Kanal herunterladen |
+| `./hytale-downloader -download-path game.zip` | Download in eine bestimmte Datei      |
+| `./hytale-downloader -patchline pre-release`  | Download aus dem Pre-Release-Kanal    |
 | `./hytale-downloader -skip-update-check`      | Automatische Update-Prüfung überspringen |
 
 
@@ -56,7 +56,7 @@ Starte den Downloader über die Kommandozeile und folge den Anweisungen, um die 
 
 ### Server starten
 
-Der Server wird gestartet, indem die JAR-Datei ausgeführt und der Pfad zum Assets-Archiv angegeben wird. Passe den Pfad an, falls deine Assets an einem anderen Ort liegen. Öffne die Eingabeaufforderung im Serververzeichnis und führe aus:
+Der Server wird gestartet, indem du die JAR-Datei ausführst und den Pfad zum Assets-Archiv angibst. Passe den Pfad an, falls deine Assets an einem anderen Ort liegen. Öffne die Eingabeaufforderung im Serververzeichnis und führe aus:
 
 ```
 java -jar HytaleServer.jar --assets C:\Hytale\Assets.zip --bind 0.0.0.0:5520
@@ -64,13 +64,13 @@ java -jar HytaleServer.jar --assets C:\Hytale\Assets.zip --bind 0.0.0.0:5520
 
 ### Authentifizierung
 
-Beim ersten Start muss der Server authentifiziert werden, bevor Spieler sich verbinden können. Das erfolgt direkt über die Server-Konsole mittels eines gerätebasierten Login-Prozesses. Folge den Anweisungen in der Konsole, um die Authentifizierung abzuschließen.
+Beim ersten Start muss der Server authentifiziert werden, bevor Spieler sich verbinden können. Das erfolgt direkt über die Server-Konsole mit einem gerätebasierten Login-Prozess. Folge den Anweisungen in der Konsole, um die Authentifizierung abzuschließen.
 
 ```
 /auth login device
 ```
 
-Die Ausgabe sieht etwa so aus:
+Die Ausgabe sieht dann so aus:
 
 ```
 > /auth login device
@@ -114,6 +114,6 @@ Zum Vergleich: Minecraft Server nutzen standardmäßig eine Sichtweite von 10 Ch
 
 ## Fazit
 
-Glückwunsch, du hast jetzt einen funktionierenden Hytale Server auf deinem System am Start. Von hier aus kannst du das Setup erweitern, indem du Mods installierst, Welteinstellungen anpasst und Performance-Parameter auf deine Spielerbasis abstimmst. Eine regelmäßige Überwachung der Ressourcennutzung ist empfehlenswert, um einen stabilen Betrieb sicherzustellen, wenn der Server wächst.
+Glückwunsch, du hast jetzt einen funktionierenden Hytale Server auf deinem System am Start. Von hier aus kannst du das Setup erweitern, indem du Mods installierst, Welteinstellungen anpasst und Performance-Parameter auf deine Spielerbasis abstimmst. Eine regelmäßige Überwachung der Ressourcennutzung empfiehlt sich, um einen stabilen Betrieb sicherzustellen, wenn der Server wächst.
 
-Bei weiteren Fragen oder Support brauchst du nur unser Support-Team zu kontaktieren, das täglich für dich da ist! 🙂
+Bei Fragen oder Support brauchst du nur unser Team zu kontaktieren – wir sind täglich für dich da! 🙂

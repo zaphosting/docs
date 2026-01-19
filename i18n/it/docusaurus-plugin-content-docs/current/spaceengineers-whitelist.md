@@ -1,7 +1,7 @@
----
+﻿---
 id: spaceengineers-whitelist
 title: "Space Engineers: Whitelist"
-description: Informazioni su come mettere in whitelist il tuo server Space Engineers da ZAP-Hosting → Scopri di più ora"
+description: Information about how to whitelist your Space Engineers server from ZAP-Hosting → Learn more now"
 sidebar_label: Whitelist
 services:
   - gameserver-spaceengineers
@@ -9,41 +9,41 @@ services:
 
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
-## Introduzione
+## Introduction
 
-Una whitelist è una lista di accesso che limita chi può entrare nel tuo server. Space Engineers usa comunemente una whitelist basata su un gruppo Steam, dove solo i membri di un gruppo Steam specifico possono connettersi.
+Eine Whitelist ist eine Zugriffsliste, die einschränkt, wer auf deinen Server joinen darf. Bei Space Engineers wird oft eine Steam-Gruppen-Whitelist genutzt, bei der nur Mitglieder einer bestimmten Steam-Gruppe connecten können.
 
 <InlineVoucher />
 
-## Attivare la Whitelist
+## Whitelist aktivieren
 
-Crea un gruppo Steam per il tuo server e aggiungi i giocatori che vuoi autorizzare. Poi connettiti al tuo server via FTP e apri `SpaceEngineers-Dedicated.cfg`.
+Erstelle eine Steam-Gruppe für deinen Server und füge die Spieler hinzu, die du erlauben möchtest. Verbinde dich dann per FTP mit deinem Server und öffne die Datei `SpaceEngineers-Dedicated.cfg`.
 
-Assicurati che il server sia configurato in modalità privata e imposta l’ID del gruppo alla fine della configurazione.
+Stelle sicher, dass der Server auf den privaten Modus eingestellt ist und setze die Gruppen-ID am Ende der Konfiguration.
 
 ```xml
 <ServerType>PRIVATE</ServerType>
 <GroupID>XXXXXXXXXXXXXXXXXX</GroupID>
 ```
 
-Sostituisci l’ID del gruppo con il tuo ID del gruppo Steam. Salva il file e riavvia il server.
+Ersetze die Gruppen-ID durch deine eigene Steam-Gruppen-ID. Speichere die Datei und starte den Server neu.
 
-## Gestire i Giocatori in Whitelist
+## Whitelist-Spieler verwalten
 
-Per aggiungere qualcuno alla whitelist, invitalo al gruppo Steam e assicurati che abbia accettato l’invito. Potrà connettersi appena sarà membro del gruppo.
+Um jemanden zur Whitelist hinzuzufügen, lade ihn in die Steam-Gruppe ein und stelle sicher, dass er beigetreten ist. Sobald er Mitglied ist, kann er connecten.
 
-Per rimuovere qualcuno, toglilo dal gruppo Steam. Una volta che non sarà più membro, non potrà più connettersi. Se vuoi cambiare la whitelist su un gruppo diverso, modifica il valore `<GroupID>` e riavvia il server.
+Um jemanden zu entfernen, entferne ihn aus der Steam-Gruppe. Sobald er kein Mitglied mehr ist, kann er nicht mehr connecten. Wenn du die Whitelist auf eine andere Gruppe umstellen möchtest, ändere den Wert von `<GroupID>` und starte den Server neu.
 
-## Verificare il Funzionamento della Whitelist
+## Whitelist-Funktion prüfen
 
-Dopo il riavvio, prova a connetterti con un account Steam che non fa parte del gruppo Steam. Il server dovrebbe rifiutare la connessione. Poi prova con un account membro del gruppo.
+Nach dem Neustart versuche, dich mit einem Steam-Account zu verbinden, der nicht in der Steam-Gruppe ist. Der Server sollte die Verbindung ablehnen. Teste danach mit einem Gruppenmitglied.
 
-Se l’accesso è ancora aperto, controlla che il server sia in modalità privata e che la voce `<GroupID>` sia presente nel file `SpaceEngineers-Dedicated.cfg` attivo.
+Wenn der Zugriff noch offen ist, überprüfe, ob der Server wirklich im privaten Modus läuft und der Eintrag `<GroupID>` in der aktiven `SpaceEngineers-Dedicated.cfg` vorhanden ist.
 
-## Conclusione
+## Fazit
 
-Se hai seguito tutto correttamente, la tua whitelist è attiva e puoi controllare esattamente chi può entrare nel server. Se l’accesso non funziona come previsto, riavvia il server una volta e ricontrolla il file o l’output dei comandi per confermare che la modifica sia stata applicata.
+Wenn du alle Schritte korrekt befolgt hast, ist deine Whitelist jetzt aktiv und du kannst genau steuern, wer auf den Server darf. Falls der Zugriff noch nicht wie gewünscht funktioniert, starte den Server nochmal neu und überprüfe die Datei oder die Konsolenausgabe, um sicherzugehen, dass die Änderung übernommen wurde.
 
-Per altre domande o supporto, non esitare a contattare il nostro team di assistenza, disponibile ogni giorno per aiutarti! 🙂
+Bei weiteren Fragen oder Problemen steht dir unser Support-Team täglich zur Seite! 🙂
 
 <InlineVoucher />

@@ -1,4 +1,4 @@
----
+﻿---
 id: vserver-windows-hytale
 title: "VPS: Hytale Dedikerad Server Setup"
 description: "Upptäck hur du sätter upp en Hytale dedikerad server på din Windows VPS för smidig spelhantering → Läs mer nu"
@@ -16,7 +16,7 @@ Har du en Windows VPS och vill köra din egen Hytale-server på den? I den här 
 
 ## Förberedelser
 
-För att köra en Hytale-server måste ditt system uppfylla några grundläggande krav. Servern körs på Java 25 och kräver minst 4 GB RAM. Både x64 och arm64 arkitekturer stöds. Den faktiska resursanvändningen beror på antal spelare, renderingsavstånd och världens aktivitet, så extra resurser kan behövas för större servrar.
+För att köra en Hytale-server måste ditt system uppfylla några grundläggande krav. Servern körs på Java 25 och kräver minst 4 GB RAM. Både x64 och arm64-arkitekturer stöds. Den faktiska resursanvändningen beror på antal spelare, renderingsavstånd och världens aktivitet, så extra resurser kan behövas för större servrar.
 
 Innan du fortsätter, se till att Java 25 är installerat på ditt Windows-system. Du kan kontrollera installationen genom att öppna en kommandoprompt och köra:
 
@@ -24,7 +24,7 @@ Innan du fortsätter, se till att Java 25 är installerat på ditt Windows-syste
 java --version
 ```
 
-Om Java inte är installerat än, följ vår dedikerade guide för att installera Java på Windows-servrar. Den förklarar hur du installerar och konfigurerar Java korrekt i din miljö.
+Om Java inte är installerat än, följ vår dedikerade Installera Java-guide för Windows-servrar. Den förklarar hur du installerar och konfigurerar Java korrekt i din miljö.
 
 
 
@@ -36,7 +36,7 @@ Börja med att skapa en dedikerad mapp för Hytale-servern. Det håller alla ser
 C:\Hytale
 ```
 
-Servern kräver två huvudkomponenter: själva serverapplikationen och spelassets. Dessa filer kan hämtas med hjälp av Hytales kommandorads-downloader, som är avsedd för serverinstallationer och enklare uppdateringar.
+Servern kräver två huvudkomponenter: själva serverapplikationen och spelassets. Dessa filer kan du få genom att använda Hytales kommandorads-downloader, som är gjord för serverdistributioner och enklare uppdateringar.
 
 CLI-downloadern ger ett strukturerat sätt att ladda ner och uppdatera Hytale-serverfilerna. Efter att ha laddat ner arkivet för downloadern, packa upp det i en temporär mapp. Inuti arkivet hittar du en QUICKSTART.md-fil som beskriver grundläggande användning av verktyget.
 
@@ -47,7 +47,7 @@ Kör downloadern från kommandoraden och följ instruktionerna för att ladda ne
 | `./hytale-downloader`                         | Ladda ner senaste releasen            |
 | `./hytale-downloader -print-version`          | Visa spelversion utan nedladdning     |
 | `./hytale-downloader -version`                | Visa version av hytale-downloader     |
-| `./hytale-downloader -check-update`           | Kolla efter uppdateringar för downloader |
+| `./hytale-downloader -check-update`           | Kolla efter uppdateringar för downloadern |
 | `./hytale-downloader -download-path game.zip` | Ladda ner till specifik fil           |
 | `./hytale-downloader -patchline pre-release`  | Ladda ner från pre-release-kanal      |
 | `./hytale-downloader -skip-update-check`      | Hoppa över automatisk uppdateringskontroll |
@@ -104,19 +104,19 @@ New-NetFirewallRule -DisplayName "Hytale Server" -Direction Inbound -Protocol UD
 
 
 
-## Prestandanoter
+## Prestandatips
 
-Renderingsavstånd är en av de viktigaste faktorerna som påverkar minnesanvändningen. Högre värden ökar RAM-användningen eftersom mer världdata måste hållas aktiv samtidigt.
+Renderingsavstånd är en av de viktigaste faktorerna som påverkar minnesanvändningen. Högre värden ökar RAM-användningen eftersom mer världdata måste vara aktiv samtidigt.
 
 För de flesta setup är ett max renderingsavstånd på 12 chunks (384 block) en bra balans mellan serverprestanda och spelupplevelse.
 
-Som jämförelse använder Minecraft-servrar standard 10 chunks (160 block). Hytales standard på 384 block motsvarar ungefär 24 Minecraft-chunks, vilket förklarar de högre minneskraven. Detta värde bör justeras baserat på förväntat antal spelare och tillgängliga systemresurser.
+Som jämförelse använder Minecraft-servrar standard 10 chunks (160 block). Hytales standard på 384 block motsvarar ungefär 24 Minecraft-chunks, vilket förklarar de högre minneskraven. Detta värde bör justeras efter förväntat antal spelare och tillgängliga resurser.
 
 
 
-## Slutsats
+## Avslutning
 
-Grattis, du har nu en fungerande Hytale-server igång på ditt system. Härifrån kan du bygga vidare genom att installera mods, justera världens inställningar och finjustera prestanda för att passa din spelarskara. Vi rekommenderar att du regelbundet övervakar resursanvändningen för att säkerställa stabil drift när servern växer.
+Grattis, du har nu en fungerande Hytale-server igång på ditt system. Härifrån kan du bygga ut setupen genom att installera mods, justera världens inställningar och finjustera prestanda för att passa din spelarskara. Vi rekommenderar att du regelbundet övervakar resursanvändningen för att säkerställa stabil drift när servern växer.
 
 Har du fler frågor eller behöver hjälp? Tveka inte att kontakta vårt supportteam som finns tillgängligt varje dag för att hjälpa dig! 🙂
 

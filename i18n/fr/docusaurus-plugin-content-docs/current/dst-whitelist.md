@@ -1,4 +1,4 @@
----
+﻿---
 id: dst-whitelist
 title: "Don't Starve Together : Liste blanche"
 description: "Infos sur comment mettre votre serveur Don't Starve Together en liste blanche chez ZAP-Hosting → En savoir plus maintenant"
@@ -11,14 +11,14 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introduction
 
-Une liste blanche est une liste d’accès qui limite qui peut rejoindre ton serveur. Dans Don't Starve Together, c’est implémenté comme une allowlist basée sur les IDs utilisateur Klei. La config classique, c’est un fichier `whitelist.txt` plus `whitelist_slots` dans `cluster.ini`.
+Une liste blanche est une liste d’accès qui limite qui peut rejoindre ton serveur. Dans Don't Starve Together, c’est une allowlist basée sur les IDs utilisateur Klei. La config classique, c’est un fichier `whitelist.txt` plus `whitelist_slots` dans `cluster.ini`.
 
 <InlineVoucher />
 
 
 ## Activer la liste blanche
 
-Connecte-toi à ton serveur via FTP et trouve ton dossier cluster, souvent du genre `DoNotStarveTogether/Cluster_1/` ou un chemin spécifique à ton fournisseur qui contient `cluster.ini`. Ouvre `cluster.ini` et dans la section `[NETWORK]` règle `whitelist_slots`.
+Connecte-toi à ton serveur via FTP et trouve ton dossier cluster, souvent du genre `DoNotStarveTogether/Cluster_1/` ou un chemin spécifique à ton fournisseur qui contient `cluster.ini`. Ouvre `cluster.ini` et dans la section `[NETWORK]`, règle `whitelist_slots`.
 
 Pour que le serveur soit vraiment en mode liste blanche uniquement, mets `whitelist_slots` égal à la valeur de `max_players`.
 
@@ -39,9 +39,9 @@ Sauvegarde les fichiers et redémarre le serveur. L’allowlist est lue au déma
 
 ## Gérer les joueurs en liste blanche
 
-Pour ajouter un joueur, ajoute son ID KU_ dans `whitelist.txt`, sauvegarde, puis redémarre.
+Pour ajouter un joueur, ajoute son ID KU_ dans `whitelist.txt`, sauvegarde, et redémarre.
 
-Pour retirer un joueur, supprime son ID KU_ de `whitelist.txt`, sauvegarde, puis redémarre.
+Pour retirer un joueur, supprime son ID KU_ de `whitelist.txt`, sauvegarde, et redémarre.
 
 Garde toujours au moins autant d’IDs dans `whitelist.txt` que la valeur de `whitelist_slots` pour éviter les problèmes d’accès quand les slots réservés dépassent le nombre d’utilisateurs listés.
 
@@ -53,6 +53,6 @@ Si le serveur laisse encore passer des joueurs non listés, vérifie que tu as b
 
 ## Conclusion
 
-Si tu as suivi toutes les étapes ci-dessus, ta liste blanche est maintenant active et tu peux contrôler exactement qui peut rejoindre ton serveur. Si l’accès ne fonctionne toujours pas comme prévu, redémarre le serveur une fois de plus et vérifie les fichiers ou la sortie des commandes pour confirmer que le changement a bien été pris en compte.
+Si tu as suivi toutes les étapes ci-dessus, ta liste blanche est maintenant active et tu contrôles exactement qui peut rejoindre le serveur. Si l’accès ne fonctionne toujours pas comme prévu, redémarre une fois de plus le serveur et vérifie les fichiers ou la sortie des commandes pour confirmer que le changement a bien été pris en compte.
 
 <InlineVoucher />

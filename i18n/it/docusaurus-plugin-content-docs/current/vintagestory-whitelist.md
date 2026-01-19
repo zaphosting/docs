@@ -1,4 +1,4 @@
----
+﻿---
 id: vintagestory-whitelist
 title: "Vintage Story: Whitelist"
 description: "Info su come mettere in whitelist il tuo server Vintage Story su ZAP-Hosting → Scopri di più ora"
@@ -50,7 +50,7 @@ Se tutti riescono ancora a entrare, assicurati che `whitelistmode` sia impostato
 
 ## Conclusione
 
-Se hai seguito tutto alla lettera, la tua whitelist è attiva e puoi controllare esattamente chi può entrare nel server. Se l’accesso non funziona come previsto, riavvia il server e ricontrolla i file o l’output dei comandi per confermare che la modifica sia stata applicata.
+Se hai seguito tutto alla lettera, la tua whitelist è attiva e puoi controllare esattamente chi può entrare nel server. Se l’accesso non funziona ancora come previsto, riavvia il server e ricontrolla i file o l’output dei comandi per confermare che la modifica sia stata applicata.
 
 Per altre domande o supporto, non esitare a contattare il nostro team di assistenza, disponibile ogni giorno per aiutarti! 🙂
 

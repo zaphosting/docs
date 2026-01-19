@@ -1,4 +1,4 @@
----
+﻿---
 id: hytale-pvp-management
 title: "Hytale: Gerenciamento de PvP"
 description: "Gerencie e configure o combate jogador contra jogador (PvP) no seu servidor de Hytale → Saiba mais agora"
@@ -12,7 +12,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introdução
 
-O gerenciamento de PvP em um servidor de Hytale controla se os jogadores podem ou não se atacar ou lutar entre si dentro de um mundo. Ajustando as configurações de PvP, os donos do servidor podem definir se o combate entre jogadores está totalmente ativado, completamente desativado ou restrito a situações específicas.
+O gerenciamento de PvP em um servidor de Hytale controla se os jogadores podem se atacar ou lutar entre si dentro de um mundo. Ajustando as configurações de PvP, os donos do servidor podem definir se o combate entre jogadores está totalmente ativado, completamente desativado ou restrito a situações específicas.
 
 <InlineVoucher />
 
@@ -24,7 +24,7 @@ O comportamento do PvP é definido para cada mundo e configurado através do arq
 /gXXXXXXX/hytale/universe/worlds/default/config.json
 ```
 
-Essa configuração determina como o servidor lida com o dano entre jogadores e se o PvP é permitido dentro do mundo ativo. Alterações nas configurações de PvP se aplicam globalmente ao mundo afetado e exigem um reinício do servidor para entrarem em vigor.
+Essa configuração determina como o servidor lida com o dano entre jogadores e se o PvP é permitido dentro do mundo ativo. Alterações nas configurações de PvP se aplicam globalmente ao mundo afetado e exigem reinício do servidor para entrarem em vigor.
 
 O exemplo a seguir mostra uma configuração onde o PvP está desativado para um mundo:
 
@@ -46,6 +46,6 @@ Para ativar o PvP e permitir o combate entre jogadores, a configuração pode se
 
 ## Conclusão
 
-Depois de configurado, você terá uma visão clara de como o PvP é gerenciado e poderá ajustar facilmente a configuração para suportar jogabilidade cooperativa, ambientes competitivos ou uma combinação dos dois. Para dúvidas ou ajuda, não hesite em contatar nosso time de suporte, que está disponível diariamente para te ajudar! 🙂
+Depois de configurado, você terá uma visão clara de como o PvP é gerenciado e poderá ajustar facilmente a configuração para suportar jogabilidade cooperativa, ambientes competitivos ou uma combinação dos dois. Para dúvidas ou ajuda, não hesite em contatar nosso time de suporte, disponível diariamente para te ajudar! 🙂
 
 <InlineVoucher />

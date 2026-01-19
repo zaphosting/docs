@@ -1,7 +1,7 @@
----
+﻿---
 id: spaceengineers-whitelist
 title: "Space Engineers : Liste blanche"
-description: Informations sur la façon d'ajouter votre serveur Space Engineers à la liste blanche chez ZAP-Hosting → En savoir plus maintenant"
+description: Informations sur la façon d’ajouter votre serveur Space Engineers à la liste blanche chez ZAP-Hosting → En savoir plus maintenant"
 sidebar_label: Liste blanche
 services:
   - gameserver-spaceengineers
@@ -11,39 +11,39 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introduction
 
-Une liste blanche est une liste d’accès qui limite qui peut rejoindre ton serveur. Space Engineers utilise souvent une liste blanche basée sur un groupe Steam, où seuls les membres d’un groupe Steam spécifique peuvent se connecter.
+Une liste blanche est une liste d’accès qui restreint qui peut rejoindre votre serveur. Space Engineers utilise couramment une liste blanche basée sur un groupe Steam, où seuls les membres d’un groupe Steam spécifique peuvent se connecter.
 
 <InlineVoucher />
 
 ## Activation de la liste blanche
 
-Crée un groupe Steam pour ton serveur et ajoute les joueurs que tu souhaites autoriser. Ensuite, connecte-toi à ton serveur via FTP et ouvre `SpaceEngineers-Dedicated.cfg`.
+Créez un groupe Steam pour votre serveur et ajoutez les joueurs que vous souhaitez autoriser. Ensuite, connectez-vous à votre serveur via FTP et ouvrez `SpaceEngineers-Dedicated.cfg`.
 
-Assure-toi que le serveur est configuré en mode privé et définis l’ID du groupe à la fin de la configuration.
+Assurez-vous que le serveur est configuré en mode privé et définissez l’ID du groupe à la fin de la configuration.
 
 ```xml
 <ServerType>PRIVATE</ServerType>
 <GroupID>XXXXXXXXXXXXXXXXXX</GroupID>
 ```
 
-Remplace l’ID du groupe par celui de ton groupe Steam. Sauvegarde le fichier et redémarre le serveur.
+Remplacez l’ID du groupe par celui de votre groupe Steam. Enregistrez le fichier et redémarrez le serveur.
 
-## Gestion des joueurs sur la liste blanche
+## Gestion des joueurs sur liste blanche
 
-Pour ajouter quelqu’un à la liste blanche, invite-le dans le groupe Steam et assure-toi qu’il a bien rejoint le groupe. Il pourra se connecter dès qu’il sera membre.
+Pour ajouter quelqu’un à la liste blanche, invitez-le dans le groupe Steam et assurez-vous qu’il l’a rejoint. Il pourra se connecter une fois membre du groupe.
 
-Pour retirer quelqu’un, supprime-le du groupe Steam. Une fois qu’il n’est plus membre, il ne pourra plus se connecter. Si tu veux changer la liste blanche pour un autre groupe, modifie la valeur `<GroupID>` et redémarre le serveur.
+Pour retirer quelqu’un, supprimez-le du groupe Steam. Une fois qu’il n’en est plus membre, il ne pourra plus se connecter. Si vous souhaitez changer la liste blanche pour un autre groupe, modifiez la valeur `<GroupID>` et redémarrez le serveur.
 
 ## Vérification du fonctionnement de la liste blanche
 
-Après le redémarrage, essaie de te connecter avec un compte Steam qui n’est pas dans le groupe Steam. Le serveur devrait refuser la connexion. Puis teste avec un compte membre du groupe.
+Après le redémarrage, essayez de vous connecter avec un compte Steam qui n’est pas dans le groupe Steam. Le serveur devrait refuser la connexion. Puis essayez avec un compte membre du groupe.
 
-Si l’accès est toujours ouvert, vérifie que le serveur tourne bien en mode privé et que l’entrée `<GroupID>` est présente dans le fichier actif `SpaceEngineers-Dedicated.cfg`.
+Si l’accès est toujours ouvert, vérifiez que le serveur fonctionne en mode privé et que l’entrée `<GroupID>` est bien présente dans le fichier actif `SpaceEngineers-Dedicated.cfg`.
 
 ## Conclusion
 
-Si toutes les étapes ci-dessus ont été suivies correctement, ta liste blanche est maintenant active et tu peux contrôler exactement qui est autorisé à rejoindre le serveur. Si l’accès ne fonctionne toujours pas comme prévu, redémarre le serveur une fois de plus et vérifie le fichier ou la sortie des commandes pour confirmer que le changement a bien été appliqué.
+Si toutes les étapes ci-dessus ont été suivies correctement, votre liste blanche est maintenant active et vous pouvez contrôler précisément qui est autorisé à rejoindre le serveur. Si l’accès ne fonctionne toujours pas comme prévu, redémarrez le serveur une fois de plus et revérifiez le fichier ou la sortie de commande pour confirmer que le changement a bien été appliqué.
 
-Pour toute question ou aide supplémentaire, n’hésite pas à contacter notre équipe support, disponible tous les jours pour t’aider ! 🙂
+Pour toute question ou assistance, n’hésitez pas à contacter notre équipe support, disponible tous les jours pour vous aider ! 🙂
 
 <InlineVoucher />

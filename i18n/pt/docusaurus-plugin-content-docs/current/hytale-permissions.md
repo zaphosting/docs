@@ -1,7 +1,7 @@
----
+﻿---
 id: hytale-permissions
 title: "Hytale: Gerenciando Permissões de Usuário e Grupo"
-description: "Gerencie permissões de usuários e grupos no seu servidor de jogos Hytale → Saiba mais agora"
+description: "Gerencie as permissões de usuários e grupos no seu servidor de jogos Hytale → Saiba mais agora"
 sidebar_label: Permissões
 services:
 - gameserver-hytale
@@ -34,7 +34,7 @@ Permissões definem quais ações um jogador pode realizar no servidor. No níve
 O sistema de permissões consiste em dois componentes principais:
 
 - **Permissões de usuário**, que se aplicam diretamente a um jogador específico
-- **Permissões de grupo**, que permitem agrupar permissões e atribuí-las a vários jogadores ao mesmo tempo
+- **Permissões de grupo**, que permitem agrupar permissões e atribuí-las a vários jogadores de uma vez
 
 Cada jogador é identificado internamente por um UUID, que é necessário para gerenciar permissões via comandos.
 
@@ -74,11 +74,11 @@ Para revogar permissões de um usuário. Isso remove apenas as permissões espec
 
 
 
-## Gerenciando atribuições de grupos de usuário
+## Gerenciando atribuições de grupo de usuário
 
 Além das permissões diretas, usuários podem herdar permissões através de grupos.
 
-### Visualizar grupos de usuário
+### Visualizar grupos de permissões do usuário
 
 Esse comando mostra a quais grupos de permissão o usuário pertence atualmente.
 
@@ -90,7 +90,7 @@ Esse comando mostra a quais grupos de permissão o usuário pertence atualmente.
 
 ### Adicionar um usuário a um grupo
 
-Para atribuir um usuário a um grupo de permissão. Uma vez adicionado, o usuário herda todas as permissões definidas para aquele grupo.
+Para atribuir um usuário a um grupo de permissões. Uma vez adicionado, o usuário herda todas as permissões definidas para aquele grupo.
 
 ```
 /perm user group add <uuid> <group>
@@ -100,7 +100,7 @@ Para atribuir um usuário a um grupo de permissão. Uma vez adicionado, o usuár
 
 ### Remover um usuário de um grupo
 
-Para remover um usuário de um grupo de permissão. Após a remoção, o usuário não receberá mais permissões daquele grupo.
+Para remover um usuário de um grupo de permissões. Após a remoção, o usuário não receberá mais permissões daquele grupo.
 
 ```
 /perm user group remove <uuid> <group>
@@ -110,7 +110,7 @@ Para remover um usuário de um grupo de permissão. Após a remoção, o usuári
 
 ## Gerenciando permissões de grupo
 
-Grupos permitem gerenciar permissões centralmente e reutilizá-las em vários usuários.
+Grupos permitem gerenciar permissões de forma centralizada e reutilizá-las para vários usuários.
 
 ### Visualizar permissões de grupo
 
@@ -143,3 +143,4 @@ Remove apenas as permissões especificadas do grupo, sem afetar as demais permis
 
 
 <InlineVoucher />
+

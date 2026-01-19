@@ -1,4 +1,4 @@
----
+﻿---
 id: dedicated-linux-hytale
 title: "Dedicated Server: Hytale Dedicated Server Setup"
 description: "Discover how to set up the Hytale Dedicated server on your Linux Dedicated Server for seamless gameplay management → Learn more now"

@@ -1,4 +1,4 @@
----
+﻿---
 id: hytale-gamemode
 title: "Hytale: Game Mode Configuratie"
 description: "Ontdek hoe je jouw Hytale-server beveiligt door spelers toegang te geven via whitelist-functies en bescherm je gameplay → Leer nu meer"
@@ -12,11 +12,11 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introductie
 
-Hytale-servers laten je gameplay-instellingen aanpassen, zoals de game mode die de speelervaring bepaalt. Door de game mode te veranderen, kun je je server afstemmen op een specifieke speelstijl of community voorkeur.
+Hytale-servers laten je gameplay-instellingen aanpassen, zoals de gamemode die de spelerservaring bepaalt. Het veranderen van de gamemode maakt het mogelijk om je server af te stemmen op een specifieke speelstijl of community voorkeur.
 
 :::info Early Access Notice
 
-Hytale is uitgebracht op 13 januari 2026 en is momenteel beschikbaar in Early Access. Omdat het spel nog in actieve ontwikkeling is, kunnen server software, configuratiebestanden, modding-ondersteuning en installatieprocessen in de loop van de tijd blijven veranderen.
+Hytale is uitgebracht op 13 januari 2026 en is momenteel beschikbaar in Early Access. Omdat het spel zich nog in een actieve ontwikkelingsfase bevindt, kunnen serversoftware, configuratiebestanden, modding-ondersteuning en installatieprocessen in de loop van de tijd blijven veranderen.
 
 :::
 
@@ -24,34 +24,34 @@ Hytale is uitgebracht op 13 januari 2026 en is momenteel beschikbaar in Early Ac
 
 
 
-## Game mode veranderen
+## Gamemode veranderen
 
 ### Live console
-De game mode kan worden aangepast terwijl de server draait via de live console of in-game commands, mits je de juiste permissies hebt. Met deze methode kunnen admins de game mode wisselen zonder configuratiebestanden te hoeven aanpassen.
+De gamemode kan worden aangepast terwijl de server draait via de live console of in-game commands, mits je de benodigde permissies hebt. Met deze methode kunnen admins de gamemode wisselen zonder configuratiebestanden te hoeven aanpassen.
 
-Met het console-commando wordt de actieve game mode direct bijgewerkt voor de huidige server sessie. Afhankelijk van de server setup blijft de wijziging actief tot de volgende herstart of wordt deze teruggezet naar de waarde in het configuratiebestand.
+Met het console-commando wordt de actieve gamemode direct bijgewerkt voor de huidige serversessie. Afhankelijk van de serverinstellingen blijft de wijziging actief tot de volgende herstart, of wordt deze teruggezet naar de waarde in het configuratiebestand.
 
 ```
-/gamemode <gamemode> <playername>
+/gamemode <gamemode> <spelernaam>
 ```
 
-De waarde van `GameMode` bepaalt welke game mode wordt toegepast bij het opstarten van de server. Afhankelijk van de gewenste gameplay ervaring kun je deze waarde aanpassen.
+De waarde van `GameMode` bepaalt welke gamemode wordt toegepast bij het opstarten van de server. Afhankelijk van de gewenste gameplay-ervaring kun je deze waarde aanpassen.
 
-Veelgebruikte game mode waarden zijn:
+Veelgebruikte gamemode-waarden zijn:
 
 - `Creative` voor onbeperkt bouwen en content creëren
 - `Adventure` voor gestructureerde gameplay met vaste progressie en interactieregels
 
-Na het aanpassen van de game mode waarde moet de server opnieuw worden gestart om de wijziging door te voeren.
+Na het aanpassen van de gamemode-waarde moet de server opnieuw worden gestart om de nieuwe instelling te activeren.
 
 
 
 ### Configuratiebestand
 
-De game mode kan ook direct in het server configuratiebestand worden ingesteld.  
-Deze methode is aan te raden als je wilt dat de server altijd met een specifieke game mode start of bij het opzetten van een nieuwe server.
+De gamemode kan ook direct worden ingesteld in het serverconfiguratiebestand.  
+Deze methode is aan te raden als je wilt dat de server altijd met een specifieke gamemode start of bij het opzetten van een verse server.
 
-Het configuratiebestand is toegankelijk via je hosting control panel of file manager. In dit bestand staat een instelling die de actieve game mode bepaalt bij het opstarten van de server. Na het aanpassen van deze waarde moet de server opnieuw worden gestart om de wijziging door te voeren.
+Het configuratiebestand is toegankelijk via je hosting control panel of bestandsbeheer. In dit bestand staat een instelling die de actieve gamemode bepaalt bij het opstarten van de server. Na het wijzigen van deze waarde moet de server opnieuw worden gestart om de wijziging door te voeren.
 
 ```
 "Defaults": {
@@ -60,17 +60,17 @@ Het configuratiebestand is toegankelijk via je hosting control panel of file man
 },
 ```
 
-De waarde van `GameMode` bepaalt welke game mode wordt toegepast bij het opstarten van de server. Afhankelijk van de gewenste gameplay ervaring kun je deze waarde aanpassen.
+De waarde van `GameMode` bepaalt welke gamemode wordt toegepast bij het opstarten van de server. Afhankelijk van de gewenste gameplay-ervaring kun je deze waarde aanpassen.
 
-Veelgebruikte game mode waarden zijn:
+Veelgebruikte gamemode-waarden zijn:
 
 - `Creative` voor onbeperkt bouwen en content creëren
 - `Adventure` voor gestructureerde gameplay met vaste progressie en interactieregels
 
-Na het aanpassen van de game mode waarde moet de server opnieuw worden gestart om de wijziging door te voeren.
+Na het aanpassen van de gamemode-waarde moet de server opnieuw worden gestart om de nieuwe instelling te activeren.
 
 
 
 ## Conclusie
 
-Door de game mode te configureren via het server configuratiebestand of de live console, heb je volledige controle over de gameplay ervaring op jouw Hytale-server. Heb je nog vragen of hulp nodig? Neem gerust contact op met onze support, die dagelijks voor je klaarstaat! 🙂
+Door de gamemode te configureren via het serverconfiguratiebestand of de live console, heb je volledige controle over de gameplay-ervaring op jouw Hytale-server. Heb je nog vragen of hulp nodig? Neem gerust contact op met onze support, die dagelijks voor je klaarstaat! 🙂

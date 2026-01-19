@@ -1,7 +1,7 @@
----
+﻿---
 id: rust-whitelist
 title: "Rust : Whitelist"
-description: "Infos sur comment whitelist ton serveur Rust chez ZAP-Hosting → Découvre tout maintenant"
+description: "Infos sur comment mettre en whitelist ton serveur Rust chez ZAP-Hosting → Découvre tout maintenant"
 sidebar_label: Whitelist
 services:
   - gameserver-rust
@@ -11,18 +11,18 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introduction
 
-Une whitelist est un mécanisme de contrôle d’accès qui limite qui peut rejoindre ton serveur. Les serveurs dédiés Rust n’ont pas de fonction whitelist intégrée, donc la méthode la plus courante chez les hébergeurs est d’installer uMod Oxide avec un plugin whitelist qui bloque les connexions sauf si un joueur est explicitement autorisé.
+Une whitelist est un mécanisme de contrôle d’accès qui limite qui peut rejoindre ton serveur. Les serveurs dédiés Rust n’ont pas de fonction whitelist intégrée, donc la méthode courante chez les hébergeurs est d’installer uMod Oxide avec un plugin whitelist qui bloque les connexions sauf si un joueur est explicitement autorisé.
 
 <InlineVoucher />
 
 
 ## Activer la Whitelist
 
-Connecte-toi à ton serveur via FTP et installe uMod Oxide si ce n’est pas déjà fait. Une fois uMod installé, upload le fichier du plugin whitelist `Whitelist.cs` dans le dossier plugins, généralement `oxide/plugins/Whitelist.cs`.
+Connecte-toi à ton serveur via FTP et installe uMod Oxide s’il n’est pas déjà présent. Une fois uMod installé, upload le fichier plugin whitelist `Whitelist.cs` dans le dossier plugins, généralement `oxide/plugins/Whitelist.cs`.
 
 Quand le plugin est en place, redémarre le serveur ou recharge les plugins pour qu’il soit pris en compte. Le plugin whitelist fonctionne généralement en demandant une permission spécifique avant qu’un joueur puisse se connecter.
 
-## Gérer les joueurs whitelistés
+## Gérer les joueurs en Whitelist
 
 Ouvre la console live dans la gestion de ton serveur de jeux ZAP-Hosting et donne la permission whitelist à un joueur via son SteamID64.
 
@@ -50,7 +50,7 @@ Si tout le monde peut encore rejoindre, vérifie que le plugin est bien chargé 
 
 ## Conclusion
 
-Si tu as suivi toutes les étapes ci-dessus, ta whitelist est maintenant active et tu peux contrôler précisément qui peut rejoindre le serveur. Si l’accès ne fonctionne toujours pas comme prévu, redémarre une fois le serveur et vérifie les fichiers ou la sortie des commandes pour confirmer que le changement a bien été appliqué.
+Si tu as suivi toutes les étapes ci-dessus, ta whitelist est maintenant active et tu peux contrôler exactement qui peut rejoindre le serveur. Si l’accès ne fonctionne toujours pas comme prévu, redémarre une fois le serveur et vérifie les fichiers ou la sortie des commandes pour confirmer que le changement a bien été appliqué.
 
 Pour toute question ou aide, n’hésite pas à contacter notre support, dispo tous les jours pour t’aider ! 🙂
 

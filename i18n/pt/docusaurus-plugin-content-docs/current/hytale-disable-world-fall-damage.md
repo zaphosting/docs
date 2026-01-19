@@ -1,4 +1,4 @@
----
+﻿---
 id: hytale-disable-world-fall-damage
 title: "Hytale: Desativar Dano por Queda no Mundo"
 description: "Descubra como desativar o dano por queda no seu servidor de jogos Hytale → Saiba mais agora"
@@ -23,7 +23,7 @@ Em um servidor de jogos Hytale, a gravidade e o dano por queda fazem parte da me
 
 O dano por queda é controlado individualmente para cada mundo, usando o arquivo de configuração do mundo. Cada mundo no universo do servidor tem seu próprio `config.json`, e dentro desse arquivo há uma configuração que determina se o dano por queda é aplicado.
 
-Para desativar o dano por queda, abra o `config.json` do mundo localizado na pasta correspondente em `universe/worlds/<nome_do_mundo>/config.json`. Encontre a configuração que controla o dano por queda, normalmente representada por uma flag booleana como `IsFallDamageEnabled`, e defina-a como `false`:
+Para desativar o dano por queda, abra o `config.json` do mundo localizado na pasta correspondente em `universe/worlds/<nome_do_mundo>/config.json`. Encontre a configuração que controla o dano por queda, geralmente representada por uma flag booleana como `IsFallDamageEnabled`, e defina-a como `false`:
 
 ```
 {
@@ -31,7 +31,7 @@ Para desativar o dano por queda, abra o `config.json` do mundo localizado na pas
 }
 ```
 
-Quando esse valor está definido como `false`, os jogadores não sofrerão mais dano ao cair. Se o dano por queda deve permanecer ativado, o valor deve ser `true`:
+Quando esse valor está definido como `false`, os jogadores não sofrerão mais dano ao cair. Se o dano por queda deve permanecer ativado, o valor deve ser definido como `true`:
 
 ```
 {
@@ -39,12 +39,12 @@ Quando esse valor está definido como `false`, os jogadores não sofrerão mais 
 }
 ```
 
-Após atualizar o arquivo, salve as alterações e **reinicie o servidor**. As mudanças na configuração só são aplicadas quando o servidor recarrega o mundo, então é necessário reiniciar para que a nova configuração entre em vigor.
+Após atualizar o arquivo, salve as alterações e **reinicie o servidor**. As mudanças na configuração só são aplicadas quando o servidor recarrega o mundo, então é necessário reiniciar para que a nova configuração tenha efeito.
 
 
 
 ## Conclusão
 
-Configurando a flag de dano por queda no arquivo de configuração do mundo, você tem controle total sobre se os jogadores recebem dano ao cair. Para dúvidas ou ajuda, não hesite em contatar nossa equipe de suporte, que está disponível diariamente para te ajudar! 🙂
+Configurando a flag de dano por queda no arquivo de configuração do mundo, você tem controle total sobre se os jogadores recebem dano ao cair. Para dúvidas ou ajuda, não hesite em contatar nosso time de suporte, disponível diariamente para te ajudar! 🙂
 
 <InlineVoucher />

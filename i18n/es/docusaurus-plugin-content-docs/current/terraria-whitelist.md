@@ -1,4 +1,4 @@
----
+﻿---
 id: terraria-whitelist
 title: "Terraria: Lista blanca"
 description: "Información sobre cómo poner en lista blanca tu servidor de Terraria en ZAP-Hosting → Aprende más ahora"
@@ -15,7 +15,7 @@ Una lista blanca es una lista de acceso que restringe quién puede unirse a tu s
 
 <InlineVoucher />
 
-## Activar la lista blanca
+## Activando la lista blanca
 
 Conéctate a tu servidor vía FTP y confirma que tu servidor está corriendo TShock. Luego localiza el archivo de configuración de TShock `tshock/config.json` y activa la opción de lista blanca:
 
@@ -25,7 +25,7 @@ Conéctate a tu servidor vía FTP y confirma que tu servidor está corriendo TSh
 
 Guarda el archivo y reinicia el servidor. TShock ahora requerirá aprobación en la lista blanca para las conexiones entrantes.
 
-## Gestionar jugadores en la lista blanca
+## Gestionando jugadores en la lista blanca
 
 Para añadir una entrada, abre la Consola en Vivo en el panel de gestión del servidor de juegos de ZAP-Hosting y usa el comando whitelist con la dirección IP del jugador.
 
@@ -40,7 +40,7 @@ TShock guarda la lista en `tshock/whitelist.txt`. Para eliminar una entrada, con
 198.51.100.10
 ```
 
-## Verificar que la lista blanca funciona
+## Verificando la funcionalidad de la lista blanca
 
 Después del reinicio, intenta conectarte desde una dirección IP que no esté en la lista. El acceso debería estar bloqueado. Luego conéctate desde una IP que sí esté en la lista blanca.
 

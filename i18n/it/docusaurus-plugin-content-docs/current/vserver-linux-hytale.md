@@ -1,4 +1,4 @@
----
+﻿---
 id: vserver-linux-hytale
 title: "VPS: Configurazione Server Dedicato Hytale"
 description: "Scopri come configurare il server dedicato Hytale sul tuo VPS Linux per una gestione di gioco senza intoppi → Scopri di più ora"
@@ -10,13 +10,13 @@ services:
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introduzione
-Hai un VPS Linux e vuoi installare Hytale su di esso? Sei nel posto giusto. In questa guida ti spieghiamo passo passo come installare questo servizio sul tuo server Linux.
+Hai un VPS Linux e vuoi installare Hytale su di esso? Sei nel posto giusto. In questa guida ti spiegheremo passo dopo passo come installare questo servizio sul tuo server Linux.
 
 <InlineVoucher />
 
 ## Preparazione
 
-Per far girare un server Hytale, il tuo sistema deve soddisfare alcuni requisiti base. Il server funziona con Java 25 e richiede almeno 4 GB di RAM. Sono supportate sia architetture x64 che arm64. L’uso effettivo delle risorse dipende dal numero di giocatori, dalla distanza di visuale e dall’attività nel mondo, quindi potrebbero servire risorse extra per server più grandi.
+Per far girare un server Hytale, il tuo sistema deve soddisfare alcuni requisiti base. Il server gira su Java 25 e richiede almeno 4 GB di RAM. Sono supportate sia architetture x64 che arm64. L’uso effettivo delle risorse dipende dal numero di giocatori, dalla distanza di visuale e dall’attività nel mondo, quindi potrebbero servire risorse extra per server più grandi.
 
 Prima di continuare, assicurati che Java 25 sia installato sul tuo sistema. Puoi verificarlo con:
 
@@ -38,20 +38,20 @@ sudo chown -R $(whoami):$(whoami) /opt/hytale
 cd /opt/hytale
 ```
 
-Il server richiede due componenti principali: l’applicazione server e gli asset di gioco. Questi file si ottengono usando il downloader da linea di comando di Hytale, pensato per deploy server e aggiornamenti più semplici.
+Il server richiede due componenti principali: l’applicazione server vera e propria e gli asset di gioco. Questi file si ottengono usando il downloader da linea di comando di Hytale, pensato per deployment server e aggiornamenti più semplici.
 
-Il downloader CLI offre un modo strutturato per scaricare e aggiornare i file del server Hytale. Dopo aver scaricato l’archivio del downloader, estrailo in una cartella temporanea. Dentro troverai un file QUICKSTART.md che spiega come usare lo strumento.
+Il downloader CLI offre un modo strutturato per scaricare e aggiornare i file del server Hytale. Dopo aver scaricato l’archivio del downloader, estrailo in una cartella temporanea. Dentro l’archivio troverai un file QUICKSTART.md che spiega come usare lo strumento.
 
-Avvia il downloader da terminale e segui le istruzioni per scaricare l’ultima versione del server. Quando finisce, copia i file del server scaricati e l’archivio degli asset nella tua cartella server. A questo punto, la cartella dovrebbe contenere il file JAR del server e un archivio asset come Assets.zip.
+Esegui il downloader da terminale e segui le istruzioni per scaricare l’ultima versione del server. Quando finisce, copia i file del server scaricati e l’archivio degli asset nella tua cartella server. Dopo questo passaggio, la cartella dovrebbe contenere il file JAR del server e un archivio asset come Assets.zip.
 
 | **Comando**                                   | **Descrizione**                       |
 | :-------------------------------------------- | :------------------------------------ |
 | `./hytale-downloader`                         | Scarica l’ultima release              |
 | `./hytale-downloader -print-version`          | Mostra la versione del gioco senza scaricare |
 | `./hytale-downloader -version`                | Mostra la versione del downloader Hytale |
-| `./hytale-downloader -check-update`           | Controlla aggiornamenti del downloader |
+| `./hytale-downloader -check-update`           | Controlla aggiornamenti per il downloader |
 | `./hytale-downloader -download-path game.zip` | Scarica in un file specifico          |
-| `./hytale-downloader -patchline pre-release`  | Scarica dal canale pre-release        |
+| `./hytale-downloader -patchline pre-release`  | Scarica dalla release pre-release     |
 | `./hytale-downloader -skip-update-check`      | Salta il controllo automatico aggiornamenti |
 
 
@@ -60,7 +60,7 @@ Avvia il downloader da terminale e segui le istruzioni per scaricare l’ultima 
 
 ### Avvio del server
 
-Il server si avvia lanciando il file JAR e specificando il percorso dell’archivio asset. Modifica il percorso se i tuoi asset sono in un’altra posizione.
+Il server si avvia lanciando il file JAR e specificando il percorso all’archivio degli asset. Modifica il percorso se i tuoi asset sono in una posizione diversa.
 
 ```
 java -jar HytaleServer.jar --assets /opt/hytale/Assets.zip --bind 0.0.0.0:5520
@@ -119,8 +119,8 @@ Per confronto, i server Minecraft usano una distanza di visuale di default di 10
 
 ## Conclusione
 
-Congratulazioni, ora hai un server Hytale funzionante sul tuo sistema. Da qui puoi espandere la configurazione installando mod, modificando le impostazioni del mondo e ottimizzando i parametri di performance per la tua community. Ti consigliamo di monitorare regolarmente l’uso delle risorse per garantire stabilità man mano che il server cresce.
+Congratulazioni, ora hai un server Hytale funzionante sul tuo sistema. Da qui puoi espandere la configurazione installando mod, regolando le impostazioni del mondo e ottimizzando i parametri di performance per il tuo pubblico. Ti consigliamo di monitorare regolarmente l’uso delle risorse per garantire stabilità man mano che il server cresce.
 
-Per qualsiasi domanda o supporto, non esitare a contattare il nostro team di assistenza, disponibile ogni giorno per aiutarti! 🙂
+Per domande o supporto, non esitare a contattare il nostro team di assistenza, disponibile ogni giorno per aiutarti! 🙂
 
 <InlineVoucher />

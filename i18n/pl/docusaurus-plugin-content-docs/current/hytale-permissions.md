@@ -1,7 +1,7 @@
----
+﻿---
 id: hytale-permissions
 title: "Hytale: Zarządzanie uprawnieniami użytkowników i grup"
-description: "Zarządzaj uprawnieniami użytkowników i grup na swoim serwerze Hytale → Dowiedz się więcej już teraz"
+description: "Zarządzaj uprawnieniami użytkowników i grup na swoim serwerze Hytale → Dowiedz się więcej"
 sidebar_label: Uprawnienia
 services:
 - gameserver-hytale
@@ -13,13 +13,13 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Wprowadzenie
 
-Zarządzanie uprawnieniami na serwerze Hytale pozwala kontrolować, co gracze mogą, a czego nie mogą robić. Obejmuje to przydzielanie różnych poziomów dostępu zaufanym graczom, moderatorom i administratorom. Prawidłowa konfiguracja uprawnień jest kluczowa dla utrzymania zrównoważonego i bezpiecznego środowiska serwera, gdzie gracze mogą cieszyć się grą bez niezamierzonych exploitów czy nadużyć.
+Zarządzanie uprawnieniami na serwerze Hytale pozwala kontrolować, co gracze mogą, a czego nie mogą robić. Obejmuje to przypisywanie różnych poziomów dostępu zaufanym graczom, moderatorom i administratorom. Poprawne ustawienie uprawnień jest kluczowe dla utrzymania zrównoważonego i bezpiecznego środowiska serwera, gdzie gracze mogą cieszyć się grą bez niezamierzonych exploitów czy nadużyć.
 
 Oprogramowanie serwera Hytale obsługuje hierarchiczne poziomy uprawnień, które określają, jakie komendy i akcje może wykonać każdy gracz. Można nimi zarządzać przez konsolę na żywo lub za pomocą ustawień konfiguracyjnych, w zależności od konfiguracji serwera.
 
 :::info Informacja o Wczesnym Dostępie
 
-Hytale zostało wydane 13 stycznia 2026 i jest obecnie dostępne we Wczesnym Dostępie. Ponieważ gra jest nadal w aktywnej fazie rozwoju, oprogramowanie serwera, pliki konfiguracyjne, wsparcie modów oraz procesy instalacji mogą się z czasem zmieniać.
+Hytale zostało wydane 13 stycznia 2026 i jest obecnie dostępne we Wczesnym Dostępie. Ponieważ gra jest wciąż w aktywnej fazie rozwoju, oprogramowanie serwera, pliki konfiguracyjne, wsparcie modów oraz procesy instalacji mogą się z czasem zmieniać.
 
 :::
 
@@ -34,9 +34,9 @@ Uprawnienia definiują, jakie działania gracz może wykonywać na serwerze. Na 
 System uprawnień składa się z dwóch głównych elementów:
 
 - **Uprawnienia użytkownika**, które dotyczą bezpośrednio konkretnego gracza
-- **Uprawnienia grupowe**, które pozwalają na grupowanie uprawnień i przypisywanie ich wielu graczom jednocześnie
+- **Uprawnienia grupowe**, które pozwalają grupować uprawnienia i przypisywać je wielu graczom jednocześnie
 
-Każdy gracz jest wewnętrznie identyfikowany przez UUID, który jest wymagany podczas zarządzania uprawnieniami za pomocą komend.
+Każdy gracz jest identyfikowany wewnętrznie przez UUID, który jest wymagany przy zarządzaniu uprawnieniami za pomocą komend.
 
 
 
@@ -64,7 +64,7 @@ Aby przyznać jednemu lub więcej uprawnień bezpośrednio użytkownikowi. Wskaz
 
 
 
-### Usuwanie uprawnień od użytkownika
+### Usuwanie uprawnień użytkownika
 
 Aby odebrać uprawnienia użytkownikowi. Usuwa tylko wskazane uprawnienia, pozostawiając pozostałe bez zmian.
 

@@ -1,4 +1,4 @@
----
+﻿---
 id: projectzomboid-whitelist
 title: "Project Zomboid: Whitelist"
 description: "Informatie over hoe je jouw Project Zomboid-server whitelist bij ZAP-Hosting → Leer het nu"
@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introductie
 
-Een whitelist is een toegangscontrole waarbij je expliciet gebruikersaccounts moet aanmaken voordat ze kunnen joinen. In Project Zomboid doe je dit meestal door open registratie uit te schakelen in de serverconfig en daarna gebruikers toe te voegen via console-commando’s.
+Een whitelist is een toegangscontrole waarbij je expliciet gebruikersaccounts moet aanmaken voordat ze kunnen joinen. In Project Zomboid doe je dit meestal door open registratie uit te schakelen in de serverconfig en vervolgens gebruikers toe te voegen via console-commando’s.
 
 <InlineVoucher />
 
@@ -34,27 +34,27 @@ Open de Live Console in het ZAP-Hosting gameserverbeheer en maak accounts aan vo
 /adduser "username" "password"
 ```
 
-Om toegang voor een gebruiker te verwijderen, haal je hem van de whitelist met het daarvoor bestemde commando.
+Wil je iemand toegang ontzeggen? Verwijder diegene dan van de whitelist met het speciale commando.
 
 ```text
 /removeuserfromwhitelist "username"
 ```
 
-Als je eerder open registratie had toegestaan en bestaande verbonden accounts wilt omzetten naar whitelisted entries, gebruik dan het commando dat alle momenteel verbonden gebruikers aan de whitelist toevoegt.
+Als je eerder open registratie had en bestaande verbonden accounts wilt omzetten naar whitelist-accounts, gebruik dan het commando dat alle momenteel verbonden gebruikers aan de whitelist toevoegt.
 
 ```text
 /addalltowhitelist
 ```
 
-## Whitelist functionaliteit controleren
+## Controleren of de whitelist werkt
 
-Nadat `Open=false` actief is, zou een nieuwe gebruiker die niet met `/adduser` is toegevoegd niet moeten kunnen joinen. Test met een whitelisted account om toegang te bevestigen.
+Na het activeren van `Open=false` zou een nieuwe gebruiker die niet met `/adduser` is toegevoegd niet moeten kunnen joinen. Test dit met een whitelisted account om toegang te bevestigen.
 
-Als niet-geliste gebruikers toch kunnen joinen, check dan of je het actieve `<ServerName>.ini` bestand hebt aangepast en de server hebt herstart.
+Kunnen niet-whitelisted gebruikers toch joinen? Check dan of je het juiste actieve `<ServerName>.ini` bestand hebt aangepast en de server hebt herstart.
 
 ## Conclusie
 
-Als je alle stappen hierboven goed hebt gevolgd, is je whitelist nu actief en bepaal jij precies wie er op de server mag. Werkt toegang nog niet zoals verwacht? Herstart de server dan nog eens en controleer het bestand of de command output om zeker te zijn dat de wijziging is doorgevoerd.
+Als je alle stappen hierboven hebt gevolgd, is je whitelist nu actief en bepaal jij precies wie er op de server mag. Werkt toegang toch niet zoals verwacht? Herstart de server nogmaals en controleer het bestand of de command output om zeker te zijn dat de wijziging is doorgevoerd.
 
 Heb je nog vragen of hulp nodig? Neem gerust contact op met onze support, die dagelijks voor je klaarstaat! 🙂
 

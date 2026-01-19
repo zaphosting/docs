@@ -1,4 +1,4 @@
----
+﻿---
 id: hytale-death-penalty
 title: "Hytale : Modifier la pénalité de mort"
 description: "Découvrez comment fonctionnent les pénalités de mort sur votre serveur de jeux Hytale → En savoir plus maintenant"
@@ -13,11 +13,11 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introduction
 
-Sur un serveur de jeux Hytale, la **pénalité de mort** détermine comment les joueurs sont impactés lorsqu’ils meurent. Ce réglage contrôle dans quelle mesure la progression du joueur, les objets, la durabilité ou d’autres conséquences de gameplay sont appliquées après un événement de mort.
+Sur un serveur de jeux Hytale, la **pénalité de mort** détermine comment les joueurs sont impactés lorsqu’ils meurent. Ce réglage contrôle dans quelle mesure la progression du joueur, les objets, la durabilité ou d’autres conséquences de gameplay sont appliqués après un événement de mort.
 
 :::info Avis Early Access
 
-Hytale est sorti le 13 janvier 2026 et est actuellement disponible en Early Access. Comme le jeu est encore en phase de développement active, les logiciels serveur, fichiers de configuration, support du modding et processus d’installation peuvent continuer à évoluer avec le temps.
+Hytale est sorti le 13 janvier 2026 et est actuellement disponible en Early Access. Comme le jeu est encore en phase de développement actif, les logiciels serveur, fichiers de configuration, support du modding et processus d’installation peuvent continuer à évoluer avec le temps.
 
 :::
 
@@ -25,7 +25,7 @@ Hytale est sorti le 13 janvier 2026 et est actuellement disponible en Early Acce
 
 
 ## Paramètres disponibles pour la pénalité de mort
-Les paramètres de pénalité de mort contrôlent comment les décès des joueurs affectent le contenu de l’inventaire et la durabilité des objets. Ces options vous permettent de définir si les objets sont conservés, partiellement perdus ou entièrement lâchés, ainsi que la quantité d’usure que les objets subissent à la mort.
+Les paramètres de pénalité de mort contrôlent comment les morts des joueurs affectent le contenu de l’inventaire et la durabilité des objets. Ces options vous permettent de définir si les objets sont conservés, partiellement perdus ou entièrement lâchés, ainsi que la quantité d’usure que les objets subissent à la mort.
 
 Les options de configuration suivantes sont disponibles :
 
@@ -39,15 +39,15 @@ Il supporte les valeurs suivantes :
 
 **ItemsAmountLossPercentage**  
 Cette valeur s’applique uniquement lorsque `ItemsLossMode` est réglé sur `Configured`.  
-Elle définit la quantité de chaque pile d’objets qui est retirée à la mort, exprimée en pourcentage.  
+Elle définit combien de chaque pile d’objets est retirée à la mort, exprimée en pourcentage.  
 Par exemple, une valeur de `50.0` signifie que la moitié de chaque pile est perdue.
 
 **ItemsDurabilityLossPercentage**  
-Ce paramètre contrôle la quantité de durabilité que les objets perdent quand un joueur meurt.  
+Ce paramètre contrôle combien de durabilité les objets perdent quand un joueur meurt.  
 La valeur est définie en pourcentage de la durabilité actuelle de l’objet et permet à la mort d’avoir des conséquences sans supprimer complètement les objets.
 
-Ensemble, ces paramètres offrent un contrôle précis sur le niveau de sévérité ou de clémence de la mort sur le serveur.  
-Un réglage soigné garantit une expérience équilibrée qui correspond à la difficulté et au style de jeu souhaités sur le serveur.
+Ensemble, ces réglages offrent un contrôle précis sur le niveau de sévérité ou de clémence de la mort sur le serveur.  
+Un ajustement soigneux garantit une expérience équilibrée qui correspond à la difficulté et au style de jeu souhaités sur le serveur.
 
 
 
@@ -61,7 +61,7 @@ Dans le fichier de configuration, les paramètres liés à la mort font partie d
 "GameplayConfig": "Default",
 ```
 
-Cette entrée définit le profil de configuration gameplay actif. La configuration de la pénalité de mort se place directement sous cette ligne en tant que nouveau bloc. Une fois localisé, ajoutez le bloc de configuration de la mort pour définir comment le respawn et la perte d’objets sont gérés :
+Cette entrée définit le profil de configuration gameplay actif. La configuration de la pénalité de mort se place directement sous cette ligne sous forme d’un nouveau bloc. Une fois localisé, ajoutez le bloc de configuration de la mort pour définir comment le respawn et la perte d’objets sont gérés :
 
 ```
 "Death": {
@@ -110,7 +110,7 @@ Il est recommandé de vérifier le comportement en jeu après le redémarrage po
 
 ## Conclusion
 
-Avec la pénalité de mort configurée, vous avez maintenant une vision claire de la gestion des morts des joueurs sur votre serveur de jeux Hytale. Pour toute question ou aide supplémentaire, n’hésitez pas à contacter notre équipe support, disponible tous les jours pour vous assister ! 🙂
+Avec la pénalité de mort configurée, vous avez maintenant une vue claire de la gestion des morts des joueurs sur votre serveur de jeux Hytale. Pour toute question ou assistance, n’hésitez pas à contacter notre équipe support, disponible tous les jours pour vous aider ! 🙂
 
 
 

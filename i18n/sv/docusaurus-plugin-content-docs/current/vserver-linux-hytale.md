@@ -1,6 +1,6 @@
----
+﻿---
 id: vserver-linux-hytale
-title: "VPS: Hytale Dedicated Server Setup"
+title: "VPS: Hytale Dedikerad Server Setup"
 description: "Upptäck hur du sätter upp Hytale Dedicated-servern på din Linux VPS för smidig spelhantering → Läs mer nu"
 sidebar_label: Hytale
 services:
@@ -38,9 +38,9 @@ sudo chown -R $(whoami):$(whoami) /opt/hytale
 cd /opt/hytale
 ```
 
-Servern kräver två huvudkomponenter: själva serverapplikationen och spelassets. Dessa filer kan hämtas med Hytales kommandorads-downloader, som är gjord för serverdistributioner och enklare uppdateringar.
+Servern kräver två huvudkomponenter: själva serverapplikationen och spelassets. Dessa filer hämtas via Hytales kommandorads-downloader, som är gjord för serverinstallationer och enklare uppdateringar.
 
-CLI-downloadern ger ett strukturerat sätt att ladda ner och uppdatera Hytale-serverfilerna. Efter att ha laddat ner arkivet, packa upp det i en temporär mapp. Inuti arkivet finns en QUICKSTART.md-fil som beskriver grundläggande användning av verktyget.
+CLI-downloadern ger ett strukturerat sätt att ladda ner och uppdatera Hytale-serverfilerna. Efter att ha laddat ner arkivet, packa upp det i en temporär mapp. Inuti arkivet finns en QUICKSTART.md-fil som beskriver hur verktyget används.
 
 Kör downloadern från kommandoraden och följ instruktionerna för att ladda ner senaste serverversionen. När processen är klar, kopiera de nedladdade serverfilerna och assets-arkivet till din servermapp. Efter detta steg ska mappen innehålla serverns JAR-fil och ett assets-arkiv som Assets.zip.
 
@@ -79,7 +79,7 @@ Utdata ser ut så här:
 ```
 > /auth login device
 ===================================================================
-DEVICE AUTHORIZATION
+ENHETSAUTORISERING
 ===================================================================
 Besök: https://accounts.hytale.com/device
 Ange kod: ABCD-1234
@@ -98,7 +98,7 @@ När autentiseringen är klar kan din server ta emot spelarkopplingar.
 
 ### Brandväggskonfiguration
 
-Som standard lyssnar servern på UDP-port 5520 och binder till alla tillgängliga nätverksgränssnitt. Du kan ändra adress och port vid behov. Servern kommunicerar över UDP med QUIC-protokollet. Se till att din brandvägg tillåter inkommande UDP-trafik på vald port, antingen via Iptables eller UFW.
+Som standard lyssnar servern på UDP-port 5520 och binder till alla tillgängliga nätverksgränssnitt. Du kan ändra adress och port vid behov. Servern kommunicerar över UDP med QUIC. Se till att din brandvägg tillåter inkommande UDP-trafik på vald port, antingen via Iptables eller UFW.
 
 ```
 sudo iptables -A INPUT -p udp --dport 5520 -j ACCEPT
@@ -107,7 +107,7 @@ sudo ufw allow 5520/udp
 
 
 
-## Prestandanoter
+## Prestandatips
 
 Renderingsavstånd är en av de viktigaste faktorerna som påverkar minnesanvändningen. Högre värden ökar RAM-användningen eftersom mer världdata måste vara aktiv samtidigt.
 
@@ -117,9 +117,9 @@ Som jämförelse använder Minecraft-servrar standard 10 chunks (160 block). Hyt
 
 
 
-## Slutsats
+## Avslutning
 
-Grattis, du har nu en fungerande Hytale-server på ditt system. Härifrån kan du bygga vidare genom att installera mods, justera världens inställningar och finjustera prestanda för att passa din spelarskara. Vi rekommenderar att du regelbundet övervakar resursanvändningen för att säkerställa stabil drift när servern växer.
+Grattis, nu har du en fullt fungerande Hytale-server på ditt system. Härifrån kan du bygga vidare genom att installera mods, justera världens inställningar och finjustera prestanda för din spelarskara. Vi rekommenderar att du regelbundet övervakar resursanvändningen för att säkerställa stabil drift när servern växer.
 
 Har du fler frågor eller behöver hjälp? Tveka inte att kontakta vårt supportteam som finns tillgängligt varje dag för att hjälpa dig! 🙂
 

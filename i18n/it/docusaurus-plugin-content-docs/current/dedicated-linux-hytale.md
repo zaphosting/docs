@@ -1,4 +1,4 @@
----
+﻿---
 id: dedicated-linux-hytale
 title: "Server Dedicato: Configurazione Server Dedicato Hytale"
 description: "Scopri come configurare il server dedicato Hytale sul tuo Server Dedicato Linux per una gestione di gioco senza intoppi → Scopri di più ora"
@@ -40,7 +40,7 @@ Il server richiede due componenti principali: l’applicazione server e gli asse
 
 Il downloader CLI offre un modo strutturato per scaricare e aggiornare i file del server Hytale. Dopo aver scaricato l’archivio del downloader, estrailo in una cartella temporanea. Dentro troverai un file QUICKSTART.md che spiega come usare lo strumento.
 
-Avvia il downloader da terminale e segui le istruzioni per scaricare l’ultima versione del server. Quando finisce, copia i file del server scaricati e l’archivio degli asset nella tua cartella server. Dopo questo passaggio, la directory dovrebbe contenere il file JAR del server e un archivio asset come Assets.zip.
+Esegui il downloader da terminale e segui le istruzioni per scaricare l’ultima versione del server. Quando finisce, copia i file del server scaricati e l’archivio degli asset nella tua cartella server. A questo punto, la cartella dovrebbe contenere il file JAR del server e un archivio asset come Assets.zip.
 
 | **Comando**                                   | **Descrizione**                       |
 | :-------------------------------------------- | :------------------------------------ |
@@ -49,7 +49,7 @@ Avvia il downloader da terminale e segui le istruzioni per scaricare l’ultima 
 | `./hytale-downloader -version`                | Mostra la versione del downloader Hytale |
 | `./hytale-downloader -check-update`           | Controlla aggiornamenti del downloader |
 | `./hytale-downloader -download-path game.zip` | Scarica in un file specifico          |
-| `./hytale-downloader -patchline pre-release`  | Scarica dal canale pre-release        |
+| `./hytale-downloader -patchline pre-release`  | Scarica dalla release pre-release     |
 | `./hytale-downloader -skip-update-check`      | Salta il controllo automatico aggiornamenti |
 
 
@@ -90,13 +90,13 @@ In attesa di autorizzazione (scade in 900 secondi)...
 > Autenticazione riuscita! Modalità: OAUTH_DEVICE
 ```
 
-Una volta autenticato, il server può accettare connessioni dei giocatori.
+Una volta autenticato, il tuo server può accettare connessioni di giocatori.
 
 
 
 ### Configurazione firewall
 
-Di default, il server ascolta sulla porta UDP 5520 e si lega a tutte le interfacce disponibili. Puoi cambiare indirizzo e porta se vuoi. Il server comunica via UDP usando QUIC. Assicurati che il firewall permetta traffico UDP in ingresso sulla porta scelta, usando Iptables o UFW.
+Di default, il server ascolta sulla porta UDP 5520 e si lega a tutte le interfacce disponibili. Puoi cambiare indirizzo e porta se vuoi. Il server comunica via UDP usando QUIC. Assicurati che il firewall permetta traffico UDP in entrata sulla porta scelta, usando Iptables o UFW.
 
 ```
 sudo iptables -A INPUT -p udp --dport 5520 -j ACCEPT
@@ -111,7 +111,7 @@ La distanza di visuale è uno dei fattori più importanti che influenzano il con
 
 Per la maggior parte delle configurazioni, una distanza di visuale massima di 12 chunk (384 blocchi) offre un buon equilibrio tra prestazioni server e esperienza di gioco.
 
-Per confronto, i server Minecraft usano una distanza di visuale di default di 10 chunk (160 blocchi). Il default di Hytale di 384 blocchi è circa equivalente a 24 chunk Minecraft, il che spiega i requisiti di memoria più alti. Questo valore va regolato in base al numero previsto di giocatori e alle risorse disponibili.
+Per confronto, i server Minecraft usano una distanza di visuale di default di 10 chunk (160 blocchi). Il default di Hytale di 384 blocchi è circa equivalente a 24 chunk Minecraft, il che spiega i requisiti di memoria più alti. Questo valore va regolato in base al numero previsto di giocatori e alle risorse di sistema disponibili.
 
 
 

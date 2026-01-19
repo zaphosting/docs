@@ -1,7 +1,7 @@
----
+﻿---
 id: factorio-whitelist
 title: "Factorio: Whitelist"
-description: "Informações sobre como colocar seu servidor de jogos Factorio na whitelist na ZAP-Hosting → Saiba mais agora"
+description: "Informações sobre como colocar seu servidor de jogos Factorio na whitelist com a ZAP-Hosting → Saiba mais agora"
 sidebar_label: Whitelist
 services:
   - gameserver-factorio
@@ -17,7 +17,7 @@ Uma whitelist é uma lista de acesso que restringe o acesso ao servidor apenas p
 
 ## Ativando a Whitelist
 
-Abra o Console ao Vivo no gerenciamento do servidor de jogos da ZAP-Hosting e adicione o primeiro jogador na whitelist. Adicionar o primeiro nome geralmente ativa a whitelist imediatamente.
+Abra o Console ao Vivo no gerenciamento do servidor de jogos da ZAP-Hosting e adicione o primeiro jogador à whitelist. Adicionar o primeiro nome geralmente ativa a whitelist imediatamente.
 
 ```text
 /whitelist add PlayerName
@@ -53,7 +53,7 @@ Para mostrar a whitelist atual, use o comando get.
 
 ## Verificando o Funcionamento da Whitelist
 
-Depois de adicionar pelo menos um jogador, tente entrar com uma conta que não esteja listada. A conexão deve ser rejeitada. Depois, entre com uma conta que esteja na whitelist para confirmar que funciona.
+Depois de adicionar pelo menos um jogador, tente entrar com uma conta que não esteja na lista. A conexão deve ser rejeitada. Depois, entre com uma conta que esteja na whitelist para confirmar que funciona.
 
 Se o servidor ainda permitir que todos entrem, verifique se os comandos foram executados no servidor correto e reinicie uma vez para garantir que o arquivo da whitelist seja carregado na inicialização.
 

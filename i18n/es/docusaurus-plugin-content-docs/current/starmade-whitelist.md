@@ -1,7 +1,7 @@
----
+﻿---
 id: starmade-whitelist
 title: "StarMade: Lista blanca"
-description: "Información sobre cómo poner en lista blanca tu servidor de StarMade desde ZAP-Hosting → Aprende más ahora"
+description: "Información sobre cómo poner en lista blanca tu servidor de StarMade en ZAP-Hosting → Aprende más ahora"
 sidebar_label: Lista blanca
 services:
   - gameserver-starmade
@@ -40,15 +40,15 @@ Para añadir un jugador, agrega una nueva línea en `whitelist.txt` usando el mi
 
 Si los nombres contienen caracteres especiales, usa el nombre exacto del juego tal como aparece al iniciar sesión para evitar errores.
 
-## Verificar el funcionamiento de la lista blanca
+## Verificar que la lista blanca funciona
 
-Después del reinicio, intenta conectarte con una cuenta que no esté en `whitelist.txt`. El acceso debería ser denegado. Luego conéctate con un nombre de jugador listado.
+Después del reinicio, intenta conectarte con una cuenta que no esté en `whitelist.txt`. El acceso debería ser denegado. Luego conéctate con un nombre listado.
 
 Si los jugadores listados no pueden unirse, confirma que la autenticación de StarMade esté activada y requerida, de lo contrario los nombres podrían no coincidir correctamente.
 
 ## Conclusión
 
-Si seguiste correctamente todos los pasos anteriores, tu lista blanca ya está activa y puedes controlar exactamente quién puede unirse al servidor. Si el acceso sigue sin funcionar como esperas, reinicia el servidor una vez más y revisa el archivo o la salida de comandos para confirmar que el cambio se aplicó.
+Si seguiste todos los pasos anteriores correctamente, tu lista blanca ya está activa y puedes controlar exactamente quién puede unirse al servidor. Si el acceso sigue sin funcionar como esperas, reinicia el servidor una vez más y revisa el archivo o la salida de comandos para confirmar que el cambio se aplicó.
 
 Para más preguntas o ayuda, no dudes en contactar a nuestro equipo de soporte, ¡estamos disponibles todos los días para ayudarte! 🙂
 

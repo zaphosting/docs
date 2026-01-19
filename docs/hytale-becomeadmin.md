@@ -1,4 +1,4 @@
----
+﻿---
 id: hytale-becomeadmin
 title: "Hytale: Become an Admin (Operator) on your server"
 description: "Discover how to assign administrator permissions for full server control and manage game functions effectively → Learn more now"

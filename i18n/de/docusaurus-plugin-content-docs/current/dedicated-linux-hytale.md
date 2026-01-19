@@ -1,4 +1,4 @@
----
+﻿---
 id: dedicated-linux-hytale
 title: "Dedicated Server: Hytale Dedicated Server Setup"
 description: "Entdecke, wie du den Hytale Dedicated Server auf deinem Linux Dedicated Server für nahtloses Gameplay-Management einrichtest → Jetzt mehr erfahren"
@@ -10,11 +10,11 @@ services:
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
-Du hast einen Linux Dedicated Server und möchtest Hytale darauf installieren? Dann bist du hier genau richtig. In dieser Anleitung erklären wir dir Schritt für Schritt, wie du diesen Service auf deinem Linux-Server installierst.
+Du hast einen Linux Dedicated Server und möchtest Hytale darauf installieren? Dann bist du hier genau richtig. In dieser Anleitung erklären wir dir Schritt für Schritt, wie du diesen Service auf deinem Linux Server installierst.
 
 ## Vorbereitung
 
-Um einen Hytale-Server zu betreiben, muss dein System ein paar grundlegende Anforderungen erfüllen. Der Server läuft auf Java 25 und benötigt mindestens 4 GB RAM. Sowohl x64 als auch arm64 Architekturen werden unterstützt. Der tatsächliche Ressourcenverbrauch hängt von der Spieleranzahl, der Sichtweite und der Weltaktivität ab, daher können für größere Server zusätzliche Ressourcen nötig sein.
+Um einen Hytale Server zu betreiben, muss dein System ein paar Grundvoraussetzungen erfüllen. Der Server läuft auf Java 25 und benötigt mindestens 4 GB RAM. Sowohl x64- als auch arm64-Architekturen werden unterstützt. Der tatsächliche Ressourcenverbrauch hängt von der Spieleranzahl, der Sichtweite und der Weltaktivität ab, daher können für größere Server zusätzliche Ressourcen nötig sein.
 
 Bevor du weitermachst, stelle sicher, dass Java 25 auf deinem System installiert ist. Du kannst die Installation mit folgendem Befehl überprüfen:
 
@@ -22,13 +22,13 @@ Bevor du weitermachst, stelle sicher, dass Java 25 auf deinem System installiert
 java --version
 ```
 
-Falls Java noch nicht installiert ist, folge unserer dedizierten [Java Installation](vserver-linux-java) Anleitung für Linux-Server. Diese Anleitung erklärt, wie du Java richtig auf deiner Umgebung installierst und konfigurierst.
+Falls Java noch nicht installiert ist, folge unserer dedizierten [Java Installation](vserver-linux-java) Anleitung für Linux Server. Diese Anleitung erklärt, wie du Java richtig auf deiner Umgebung installierst und konfigurierst.
 
 
 
 ## Installation
 
-Starte damit, ein eigenes Verzeichnis für den Hytale-Server anzulegen. So bleiben alle Serverdateien an einem Ort organisiert.
+Starte damit, ein eigenes Verzeichnis für den Hytale Server anzulegen. So bleiben alle Serverdateien an einem Ort organisiert.
 
 ```
 sudo mkdir -p /opt/hytale
@@ -36,9 +36,9 @@ sudo chown -R $(whoami):$(whoami) /opt/hytale
 cd /opt/hytale
 ```
 
-Der Server benötigt zwei Hauptkomponenten: die Serveranwendung selbst und die Game-Assets. Diese Dateien kannst du mit dem Hytale Kommandozeilen-Downloader beziehen, der für Server-Deployments und einfachere Updates gedacht ist.
+Der Server benötigt zwei Hauptkomponenten: die Serveranwendung selbst und die Spiel-Assets. Diese Dateien kannst du mit dem Hytale Kommandozeilen-Downloader beziehen, der für Server-Deployments und einfachere Updates gedacht ist.
 
-Der CLI-Downloader bietet eine strukturierte Möglichkeit, die Hytale-Serverdateien herunterzuladen und zu aktualisieren. Nach dem Herunterladen des Downloader-Archivs entpackst du es in ein temporäres Verzeichnis. Im Archiv findest du eine QUICKSTART.md Datei, die die Grundfunktionen des Tools beschreibt.
+Der CLI-Downloader bietet eine strukturierte Möglichkeit, die Hytale Serverdateien herunterzuladen und zu aktualisieren. Nach dem Download des Downloader-Archivs entpackst du es in ein temporäres Verzeichnis. Im Archiv findest du eine QUICKSTART.md Datei, die die Grundfunktionen des Tools beschreibt.
 
 Starte den Downloader über die Kommandozeile und folge den Anweisungen, um die neueste Server-Version herunterzuladen. Nach Abschluss kopierst du die heruntergeladenen Serverdateien und das Assets-Archiv in dein Serververzeichnis. Danach sollte das Verzeichnis die Server-JAR-Datei und ein Assets-Archiv wie Assets.zip enthalten.
 
@@ -58,7 +58,7 @@ Starte den Downloader über die Kommandozeile und folge den Anweisungen, um die 
 
 ### Server starten
 
-Der Server wird gestartet, indem du die JAR-Datei ausführst und den Pfad zum Assets-Archiv angibst. Passe den Pfad an, falls deine Assets an einem anderen Ort liegen.
+Der Server wird gestartet, indem die JAR-Datei ausgeführt und der Pfad zum Assets-Archiv angegeben wird. Passe den Pfad an, falls deine Assets an einem anderen Ort liegen.
 
 ```
 java -jar HytaleServer.jar --assets /opt/hytale/Assets.zip --bind 0.0.0.0:5520
@@ -72,7 +72,7 @@ Beim ersten Start muss der Server authentifiziert werden, bevor Spieler sich ver
 /auth login device
 ```
 
-Die Ausgabe sieht etwa so aus:
+Die Ausgabe sieht so aus:
 
 ```
 > /auth login device
@@ -96,7 +96,7 @@ Nach der Authentifizierung kann dein Server Spieler-Verbindungen akzeptieren.
 
 ### Firewall-Konfiguration
 
-Standardmäßig hört der Server auf UDP-Port 5520 und bindet an alle verfügbaren Schnittstellen. Du kannst Adresse und Port bei Bedarf anpassen. Der Server kommuniziert über UDP mit QUIC. Stelle sicher, dass deine Firewall eingehenden UDP-Traffic auf dem gewählten Port erlaubt, z.B. mit Iptables oder UFW.
+Standardmäßig hört der Server auf UDP-Port 5520 und bindet an alle verfügbaren Schnittstellen. Du kannst Adresse und Port bei Bedarf ändern. Der Server kommuniziert über UDP mit QUIC. Stelle sicher, dass deine Firewall eingehenden UDP-Traffic auf dem gewählten Port erlaubt, z.B. mit Iptables oder UFW.
 
 ```
 sudo iptables -A INPUT -p udp --dport 5520 -j ACCEPT
@@ -111,12 +111,12 @@ Die Sichtweite ist einer der wichtigsten Faktoren für den Speicherverbrauch. H�
 
 Für die meisten Setups bietet eine maximale Sichtweite von 12 Chunks (384 Blöcke) einen guten Kompromiss zwischen Server-Performance und Spielerlebnis.
 
-Zum Vergleich: Minecraft-Server nutzen standardmäßig eine Sichtweite von 10 Chunks (160 Blöcke). Hytales Standard von 384 Blöcken entspricht ungefähr 24 Minecraft-Chunks, was die höheren Speicheranforderungen erklärt. Dieser Wert sollte je nach erwarteter Spielerzahl und verfügbaren Systemressourcen angepasst werden.
+Zum Vergleich: Minecraft Server nutzen standardmäßig eine Sichtweite von 10 Chunks (160 Blöcke). Hytales Standard von 384 Blöcken entspricht ungefähr 24 Minecraft Chunks, was die höheren Speicheranforderungen erklärt. Dieser Wert sollte je nach erwarteter Spielerzahl und verfügbaren Systemressourcen angepasst werden.
 
 
 
 ## Fazit
 
-Glückwunsch, du hast jetzt einen funktionierenden Hytale-Server auf deinem System am Laufen. Von hier aus kannst du das Setup erweitern, indem du Mods installierst, Welteinstellungen anpasst und Performance-Parameter auf deine Spielerbasis abstimmst. Eine regelmäßige Überwachung der Ressourcennutzung wird empfohlen, um einen stabilen Betrieb bei wachsendem Server sicherzustellen.
+Glückwunsch, du hast jetzt einen funktionierenden Hytale Server auf deinem System am Start. Von hier aus kannst du das Setup erweitern, indem du Mods installierst, Welteinstellungen anpasst und Performance-Parameter auf deine Spielerbasis abstimmst. Eine regelmäßige Überwachung der Ressourcennutzung wird empfohlen, um einen stabilen Betrieb sicherzustellen, während der Server wächst.
 
-Bei weiteren Fragen oder wenn du Hilfe brauchst, steht dir unser Support-Team täglich zur Verfügung! 🙂
+Bei weiteren Fragen oder Support brauchst du nur unser Support-Team zu kontaktieren – wir sind täglich für dich da! 🙂

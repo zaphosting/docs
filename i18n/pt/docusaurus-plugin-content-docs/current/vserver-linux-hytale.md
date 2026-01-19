@@ -1,4 +1,4 @@
----
+﻿---
 id: vserver-linux-hytale
 title: "VPS: Configuração do Servidor Dedicado Hytale"
 description: "Descubra como configurar o servidor dedicado Hytale no seu VPS Linux para uma gestão de gameplay sem complicações → Saiba mais agora"
@@ -10,13 +10,13 @@ services:
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introdução
-Você tem um VPS Linux e quer instalar o Hytale nele? Você está no lugar certo. Neste guia, vamos explicar o passo a passo para instalar esse serviço no seu servidor Linux.
+Você tem um VPS Linux e quer instalar o Hytale nele? Você está no lugar certo. Neste guia, vamos explicar passo a passo como instalar esse serviço no seu servidor Linux.
 
 <InlineVoucher />
 
 ## Preparação
 
-Para rodar um servidor de jogos Hytale, seu sistema precisa atender a alguns requisitos básicos. O servidor roda em Java 25 e requer pelo menos 4 GB de RAM. As arquiteturas x64 e arm64 são suportadas. O uso real de recursos depende do número de jogadores, distância de visão e atividade no mundo, então recursos adicionais podem ser necessários para servidores maiores.
+Para rodar um servidor de jogos Hytale, seu sistema precisa atender a alguns requisitos básicos. O servidor roda com Java 25 e requer pelo menos 4 GB de RAM. As arquiteturas x64 e arm64 são suportadas. O uso real de recursos depende do número de jogadores, distância de visão e atividade no mundo, então recursos adicionais podem ser necessários para servidores maiores.
 
 Antes de continuar, certifique-se de que o Java 25 está instalado no seu sistema. Você pode verificar a instalação com:
 
@@ -24,7 +24,7 @@ Antes de continuar, certifique-se de que o Java 25 está instalado no seu sistem
 java --version
 ```
 
-Se o Java ainda não estiver instalado no seu sistema, siga nosso [guia Instalar Java](vserver-linux-java) dedicado para servidores Linux. Esse guia explica como instalar e configurar o Java corretamente no seu ambiente.
+Se o Java ainda não estiver instalado no seu sistema, siga nosso guia dedicado [Instalar Java](vserver-linux-java) para servidores Linux. Esse guia explica como instalar e configurar o Java corretamente no seu ambiente.
 
 
 
@@ -42,7 +42,7 @@ O servidor precisa de dois componentes principais: o aplicativo do servidor em s
 
 O downloader CLI oferece uma forma estruturada de baixar e atualizar os arquivos do servidor Hytale. Depois de baixar o arquivo do downloader, extraia-o em um diretório temporário. Dentro do arquivo, você encontrará um arquivo QUICKSTART.md que descreve o uso básico da ferramenta.
 
-Execute o downloader pelo terminal e siga as instruções para baixar a versão mais recente do servidor. Quando o processo terminar, copie os arquivos do servidor baixados e o arquivo de assets para o seu diretório do servidor. Após essa etapa, o diretório deve conter o arquivo JAR do servidor e um arquivo de assets como o Assets.zip.
+Execute o downloader pelo terminal e siga as instruções para baixar a versão mais recente do servidor. Quando o processo terminar, copie os arquivos do servidor baixados e o arquivo de assets para o diretório do seu servidor. Após essa etapa, o diretório deve conter o arquivo JAR do servidor e um arquivo de assets como o Assets.zip.
 
 | **Comando**                                   | **Descrição**                       |
 | :-------------------------------------------- | :------------------------------------ |
@@ -113,7 +113,7 @@ A distância de visão é um dos fatores mais importantes que influenciam o cons
 
 Para a maioria das configurações, uma distância máxima de visão de 12 chunks (384 blocos) oferece um bom equilíbrio entre desempenho do servidor e experiência de jogo.
 
-Para comparação, servidores de Minecraft usam uma distância padrão de visão de 10 chunks (160 blocos). O padrão do Hytale de 384 blocos é aproximadamente equivalente a 24 chunks de Minecraft, o que explica os requisitos maiores de memória. Esse valor deve ser ajustado com base no número esperado de jogadores e nos recursos disponíveis do sistema.
+Para comparação, servidores Minecraft usam uma distância padrão de visão de 10 chunks (160 blocos). O padrão do Hytale de 384 blocos é aproximadamente equivalente a 24 chunks do Minecraft, o que explica os requisitos maiores de memória. Esse valor deve ser ajustado com base no número esperado de jogadores e nos recursos disponíveis do sistema.
 
 
 

@@ -1,6 +1,6 @@
----
+﻿---
 id: vserver-windows-hytale
-title: "VPS : Configuration du serveur dédié Hytale"
+title: "VPS : Configuration d’un serveur dédié Hytale"
 description: "Découvrez comment configurer le serveur dédié Hytale sur votre VPS Windows pour une gestion de jeu fluide → En savoir plus maintenant"
 sidebar_label: Hytale
 services:
@@ -16,7 +16,7 @@ Vous avez un VPS Windows et vous voulez héberger votre propre serveur Hytale de
 
 ## Préparation
 
-Pour faire tourner un serveur Hytale, votre système doit répondre à quelques exigences de base. Le serveur fonctionne avec Java 25 et nécessite au moins 4 Go de RAM. Les architectures x64 et arm64 sont supportées. La consommation réelle dépend du nombre de joueurs, de la distance de vue et de l’activité dans le monde, donc des ressources supplémentaires peuvent être nécessaires pour les serveurs plus gros.
+Pour faire tourner un serveur Hytale, votre système doit répondre à quelques exigences de base. Le serveur fonctionne avec Java 25 et nécessite au minimum 4 Go de RAM. Les architectures x64 et arm64 sont toutes deux supportées. La consommation réelle dépend du nombre de joueurs, de la distance de vue et de l’activité dans le monde, donc des ressources supplémentaires peuvent être nécessaires pour les serveurs plus gros.
 
 Avant de continuer, assurez-vous que Java 25 est installé sur votre système Windows. Vous pouvez vérifier l’installation en ouvrant une invite de commandes et en lançant :
 
@@ -30,7 +30,7 @@ Si Java n’est pas encore installé sur votre système, suivez notre guide déd
 
 ## Installation
 
-Commencez par créer un dossier dédié pour le serveur Hytale. Ça permet de garder tous les fichiers du serveur bien organisés au même endroit. Par exemple :
+Commencez par créer un dossier dédié pour le serveur Hytale. Cela permet de garder tous les fichiers du serveur bien organisés au même endroit. Par exemple :
 
 ```
 C:\Hytale
@@ -40,7 +40,7 @@ Le serveur nécessite deux composants principaux : l’application serveur elle-
 
 Le téléchargeur CLI offre une méthode structurée pour télécharger et mettre à jour les fichiers du serveur Hytale. Après avoir téléchargé l’archive du téléchargeur, extrayez-la dans un dossier temporaire. Dans l’archive, vous trouverez un fichier QUICKSTART.md qui décrit l’utilisation basique de l’outil.
 
-Lancez le téléchargeur depuis la ligne de commande et suivez les instructions pour télécharger la dernière version du serveur. Une fois terminé, copiez les fichiers serveur téléchargés ainsi que l’archive des assets dans votre dossier serveur. Après cette étape, le dossier doit contenir le fichier JAR du serveur et une archive d’assets comme Assets.zip.
+Lancez le téléchargeur depuis la ligne de commande et suivez les instructions pour télécharger la dernière version du serveur. Une fois le processus terminé, copiez les fichiers serveur téléchargés ainsi que l’archive des assets dans votre dossier serveur. Après cette étape, le dossier doit contenir le fichier JAR du serveur et une archive d’assets comme Assets.zip.
 
 | **Commande**                                   | **Description**                       |
 | :-------------------------------------------- | :------------------------------------ |
@@ -72,7 +72,7 @@ Au premier démarrage, le serveur doit être authentifié avant que les joueurs 
 /auth login device
 ```
 
-La sortie ressemblera à ça :
+La sortie ressemblera à ceci :
 
 ```
 > /auth login device
@@ -85,7 +85,7 @@ Ou visitez : https://accounts.hytale.com/device?user_code=ABCD-1234
 ===================================================================
 En attente d’autorisation (expire dans 900 secondes)...
 
-[Utilisateur complète l’autorisation dans le navigateur]
+[L’utilisateur complète l’autorisation dans le navigateur]
 
 > Authentification réussie ! Mode : OAUTH_DEVICE
 ```
@@ -96,7 +96,7 @@ Une fois authentifié, votre serveur peut accepter les connexions des joueurs.
 
 ### Configuration du pare-feu
 
-Par défaut, le serveur écoute sur le port UDP 5520 et se lie à toutes les interfaces disponibles. Vous pouvez changer l’adresse et le port si besoin. Le serveur communique via UDP en utilisant QUIC. Assurez-vous que votre pare-feu autorise le trafic UDP entrant sur le port choisi, soit avec Iptables, soit avec UFW. Lancez cette commande dans PowerShell pour appliquer facilement cette règle de pare-feu :
+Par défaut, le serveur écoute sur le port UDP 5520 et se lie à toutes les interfaces disponibles. Vous pouvez changer l’adresse et le port si besoin. Le serveur communique via UDP en utilisant QUIC. Assurez-vous que votre pare-feu autorise le trafic UDP entrant sur le port choisi, soit avec Iptables, soit avec UFW. Exécutez la commande suivante dans PowerShell pour appliquer facilement cette règle de pare-feu :
 
 ```
 New-NetFirewallRule -DisplayName "Hytale Server" -Direction Inbound -Protocol UDP -LocalPort 5520 -Action Allow
@@ -104,9 +104,9 @@ New-NetFirewallRule -DisplayName "Hytale Server" -Direction Inbound -Protocol UD
 
 
 
-## Notes sur la performance
+## Notes sur les performances
 
-La distance de vue est un des facteurs les plus importants qui influencent la consommation mémoire. Des valeurs plus élevées augmentent l’utilisation de la RAM car plus de données du monde doivent rester actives en même temps.
+La distance de vue est l’un des facteurs les plus importants qui influencent la consommation mémoire. Des valeurs plus élevées augmentent l’utilisation de la RAM car plus de données du monde doivent rester actives simultanément.
 
 Pour la plupart des configurations, une distance de vue maximale de 12 chunks (384 blocs) offre un bon équilibre entre performance serveur et expérience de jeu.
 

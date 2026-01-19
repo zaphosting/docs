@@ -1,4 +1,4 @@
----
+﻿---
 id: dedicated-linux-hytale
 title: "Servidor Dedicado: Configuração do Servidor Dedicado Hytale"
 description: "Descubra como configurar o servidor dedicado Hytale no seu Servidor Dedicado Linux para uma gestão de gameplay sem complicações → Saiba mais agora"
@@ -40,7 +40,7 @@ O servidor precisa de dois componentes principais: o aplicativo do servidor em s
 
 O downloader CLI oferece uma forma estruturada de baixar e atualizar os arquivos do servidor Hytale. Depois de baixar o arquivo do downloader, extraia-o em um diretório temporário. Dentro do arquivo, você encontrará um arquivo QUICKSTART.md que descreve o uso básico da ferramenta.
 
-Execute o downloader pelo terminal e siga as instruções para baixar a versão mais recente do servidor. Quando o processo terminar, copie os arquivos do servidor baixados e o arquivo de assets para o seu diretório do servidor. Após essa etapa, o diretório deve conter o arquivo JAR do servidor e um arquivo de assets como o Assets.zip.
+Execute o downloader pelo terminal e siga as instruções para baixar a versão mais recente do servidor. Quando o processo terminar, copie os arquivos do servidor baixados e o arquivo de assets para o diretório do seu servidor. Após essa etapa, o diretório deve conter o arquivo JAR do servidor e um arquivo de assets como o Assets.zip.
 
 | **Comando**                                   | **Descrição**                       |
 | :-------------------------------------------- | :------------------------------------ |
@@ -66,7 +66,7 @@ java -jar HytaleServer.jar --assets /opt/hytale/Assets.zip --bind 0.0.0.0:5520
 
 ### Autenticação
 
-Na primeira inicialização, o servidor precisa ser autenticado antes que os jogadores possam se conectar. Isso é feito diretamente pelo console do servidor usando um processo de login via dispositivo. Siga as instruções mostradas no console para completar a autenticação.
+Na primeira inicialização, o servidor precisa ser autenticado antes que os jogadores possam se conectar. Isso é feito diretamente pelo console do servidor usando um processo de login baseado em dispositivo. Siga as instruções mostradas no console para completar a autenticação.
 
 ```
 /auth login device
@@ -85,7 +85,7 @@ Ou acesse: https://accounts.hytale.com/device?user_code=ABCD-1234
 ===================================================================
 Aguardando autorização (expira em 900 segundos)...
 
-[Usuário completa autorização no navegador]
+[Usuário completa a autorização no navegador]
 
 > Autenticação bem-sucedida! Modo: OAUTH_DEVICE
 ```
@@ -96,7 +96,7 @@ Depois de autenticado, seu servidor pode aceitar conexões de jogadores.
 
 ### Configuração do firewall
 
-Por padrão, o servidor escuta na porta UDP 5520 e se conecta a todas as interfaces disponíveis. Você pode mudar o endereço e a porta se precisar. O servidor se comunica via UDP usando QUIC. Garanta que seu firewall permita tráfego UDP de entrada na porta escolhida, usando Iptables ou UFW.
+Por padrão, o servidor escuta na porta UDP 5520 e se conecta a todas as interfaces disponíveis. Você pode mudar o endereço e a porta se precisar. O servidor se comunica via UDP usando QUIC. Certifique-se de que seu firewall permita tráfego UDP de entrada na porta escolhida, usando Iptables ou UFW.
 
 ```
 sudo iptables -A INPUT -p udp --dport 5520 -j ACCEPT
@@ -111,12 +111,12 @@ A distância de visão é um dos fatores mais importantes que influenciam o cons
 
 Para a maioria das configurações, uma distância máxima de visão de 12 chunks (384 blocos) oferece um bom equilíbrio entre desempenho do servidor e experiência de jogo.
 
-Para comparação, servidores Minecraft usam uma distância padrão de visão de 10 chunks (160 blocos). O padrão do Hytale de 384 blocos é aproximadamente equivalente a 24 chunks de Minecraft, o que explica os requisitos maiores de memória. Esse valor deve ser ajustado com base no número esperado de jogadores e nos recursos disponíveis do sistema.
+Para comparação, servidores de Minecraft usam uma distância padrão de visão de 10 chunks (160 blocos). O padrão do Hytale de 384 blocos é aproximadamente equivalente a 24 chunks de Minecraft, o que explica os requisitos maiores de memória. Esse valor deve ser ajustado com base no número esperado de jogadores e nos recursos disponíveis do sistema.
 
 
 
 ## Conclusão
 
-Parabéns, agora você tem um servidor Hytale funcional rodando no seu sistema. A partir daqui, você pode expandir a configuração instalando mods, ajustando as configurações do mundo e otimizando parâmetros de desempenho para sua base de jogadores. Recomendamos monitorar regularmente o uso de recursos para garantir operação estável conforme o servidor cresce.
+Parabéns, agora você tem um servidor Hytale funcional rodando no seu sistema. A partir daqui, você pode expandir a configuração instalando mods, ajustando as configurações do mundo e otimizando parâmetros de desempenho para o seu público. Recomendamos monitorar regularmente o uso de recursos para garantir operação estável conforme o servidor cresce.
 
 Para dúvidas ou ajuda, não hesite em contatar nosso time de suporte, disponível diariamente para te ajudar! 🙂

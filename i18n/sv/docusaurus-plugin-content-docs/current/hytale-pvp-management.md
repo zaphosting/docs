@@ -1,4 +1,4 @@
----
+﻿---
 id: hytale-pvp-management
 title: "Hytale: PvP-hantering"
 description: "Hantera och konfigurera spelare mot spelare-strider (PvP) på din Hytale-server → Lär dig mer nu"
@@ -24,7 +24,7 @@ PvP-beteendet definieras per värld och konfigureras via serverns konfigurations
 /gXXXXXXX/hytale/universe/worlds/default/config.json
 ```
 
-Den här inställningen avgör hur servern hanterar skada mellan spelare och om PvP är tillåtet i den aktiva världen. Ändringar i PvP-inställningarna gäller globalt för den berörda världen och kräver en serveromstart för att träda i kraft.
+Denna inställning avgör hur servern hanterar skada mellan spelare och om PvP är tillåtet i den aktiva världen. Ändringar i PvP-inställningarna gäller globalt för den berörda världen och kräver en serveromstart för att träda i kraft.
 
 Följande exempel visar en konfiguration där PvP är avstängt för en värld:
 
@@ -34,7 +34,7 @@ Följande exempel visar en konfiguration där PvP är avstängt för en värld:
 }
 ```
 
-Med den här konfigurationen kan spelare inte längre skada varandra i den världen, vilket skapar en PvE-fokuserad miljö.
+Med denna konfiguration kan spelare inte längre skada varandra i den världen, vilket skapar en PvE-fokuserad miljö.
 
 För att aktivera PvP och tillåta spelare att slåss mot varandra kan konfigurationen sättas så här:
 

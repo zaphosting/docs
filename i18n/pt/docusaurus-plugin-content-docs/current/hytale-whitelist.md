@@ -1,4 +1,4 @@
----
+﻿---
 id: hytale-whitelist
 title: "Hytale: Configuração e Gerenciamento da Whitelist"
 description: "Descubra como proteger seu servidor de jogos Hytale gerenciando o acesso dos jogadores com recursos de whitelist e garanta uma jogabilidade segura → Saiba mais agora"
@@ -11,7 +11,7 @@ import YouTube from '@site/src/components/YouTube/YouTube';
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introdução
-A whitelist é um recurso de segurança e controle de acesso que permite limitar quem pode entrar no seu servidor de jogos Hytale. Quando ativada, apenas os jogadores explicitamente listados na whitelist podem se conectar. Isso é especialmente útil para servidores privados, servidores comunitários, ambientes de desenvolvimento ou fases de teste onde o acesso deve ser restrito apenas a jogadores confiáveis.
+A whitelist é um recurso de segurança e controle de acesso que permite limitar quem pode entrar no seu servidor de jogos Hytale. Quando ativada, somente os jogadores explicitamente listados na whitelist podem se conectar. Isso é especialmente útil para servidores privados, servidores comunitários, ambientes de desenvolvimento ou fases de teste onde o acesso deve ser restrito apenas a jogadores confiáveis.
 
 :::info Aviso de Acesso Antecipado
 
@@ -27,7 +27,7 @@ Hytale foi lançado em 13 de janeiro de 2026 e está atualmente disponível em A
 
 ## Ativar whitelist
 
-A whitelist pode ser ativada via console do servidor ou diretamente no jogo. Certifique-se de ter as permissões necessárias, como direitos de operador, antes de executar esses comandos.
+A whitelist pode ser ativada tanto pelo console do servidor quanto diretamente no jogo. Certifique-se de ter as permissões necessárias, como direitos de operador, antes de executar esses comandos.
 
 Para ativar a whitelist, execute o seguinte comando:
 
@@ -49,7 +49,7 @@ Esse comando retorna o estado atual da whitelist e ajuda a confirmar que a confi
 
 ## Desativar whitelist
 
-Se quiser permitir que todos os jogadores entrem no servidor novamente, a whitelist pode ser desativada a qualquer momento. Use o comando abaixo para desativá-la:
+Se quiser permitir que todos os jogadores entrem no servidor novamente, a whitelist pode ser desativada a qualquer momento. Use o seguinte comando para desativá-la:
 
 ```
 /whitelist disable
@@ -97,7 +97,7 @@ Para ver todos os jogadores que atualmente têm permissão para entrar no servid
 /whitelist list
 ```
 
-Esse comando mostra a lista completa dos nomes dos jogadores na whitelist.
+Esse comando exibe a lista completa dos nomes dos jogadores na whitelist.
 
 
 
@@ -115,7 +115,7 @@ Isso apagará todas as entradas existentes na whitelist, mas não desativa a whi
 
 ## Gerenciar whitelist via arquivo
 
-Além dos comandos, a whitelist também pode ser gerenciada diretamente por um arquivo de configuração. Esse método é útil para mudanças em massa ou para preparar a whitelist antes de iniciar o servidor. O arquivo responsável por essa configuração se chama `whitelist.json` e fica localizado no diretório do servidor.
+Além dos comandos, a whitelist também pode ser gerenciada diretamente por um arquivo de configuração. Esse método é útil para mudanças em massa ou para preparar uma whitelist antes de iniciar o servidor. O arquivo responsável por essa configuração se chama `whitelist.json` e fica localizado no diretório do servidor.
 
 ````
 {

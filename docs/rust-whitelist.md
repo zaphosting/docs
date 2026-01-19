@@ -1,4 +1,4 @@
----
+﻿---
 id: rust-whitelist
 title: "Rust: Whitelist"
 description: "Information about how to whitelist your Rust server from ZAP-Hosting → Learn more now"

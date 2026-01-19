@@ -1,4 +1,4 @@
----
+﻿---
 id: terraria-whitelist
 title: "Terraria: Whitelist"
 description: "Info su come mettere in whitelist il tuo server Terraria su ZAP-Hosting → Scopri di più ora"
@@ -27,7 +27,7 @@ Salva il file e riavvia il server. Ora TShock richiederà l’approvazione trami
 
 ## Gestire i Giocatori in Whitelist
 
-Per aggiungere un IP, apri la Live Console nel pannello di gestione ZAP-Hosting e usa il comando whitelist con l’indirizzo IP del giocatore.
+Per aggiungere un giocatore, apri la Live Console nel pannello di gestione del gameserver ZAP-Hosting e usa il comando whitelist seguito dall’indirizzo IP del giocatore.
 
 ```text
 whitelist 203.0.113.25
@@ -42,13 +42,13 @@ TShock salva la lista in `tshock/whitelist.txt`. Per rimuovere un IP, connettiti
 
 ## Verificare che la Whitelist Funzioni
 
-Dopo il riavvio, prova a connetterti da un IP non in lista: l’accesso dovrebbe essere bloccato. Poi prova da un IP che è in whitelist.
+Dopo il riavvio, prova a connetterti da un IP non presente nella lista: l’accesso dovrebbe essere bloccato. Poi prova da un IP che è in whitelist.
 
 Se i giocatori riescono ancora a entrare senza essere in lista, ricontrolla che `EnableWhitelist` sia impostato su true in `config.json` e che il server sia effettivamente partito come TShock.
 
 ## Conclusione
 
-Se hai seguito tutto alla lettera, la tua whitelist è attiva e puoi controllare chi può entrare nel server. Se l’accesso non funziona come previsto, riavvia il server un’altra volta e ricontrolla file e output comandi per assicurarti che la modifica sia stata applicata.
+Se hai seguito tutto alla lettera, la tua whitelist è attiva e puoi controllare chi può entrare nel server. Se l’accesso non funziona ancora come previsto, riavvia il server un’altra volta e ricontrolla file e output dei comandi per assicurarti che la modifica sia stata applicata.
 
 Per qualsiasi domanda o supporto, il nostro team è sempre pronto ad aiutarti, tutti i giorni! 🙂
 

@@ -1,4 +1,4 @@
----
+﻿---
 id: starmade-whitelist
 title: "StarMade: Whitelist"
 description: "Informacje o tym, jak dodać serwer StarMade do whitelisty na ZAP-Hosting → Dowiedz się więcej"
@@ -17,7 +17,7 @@ Whitelist to lista dostępu, która ogranicza, kto może dołączyć do Twojego 
 
 ## Aktywacja Whitelisty
 
-Połącz się z serwerem przez FTP i otwórz `server.cfg`. Włącz uwierzytelnianie i whitelistę.
+Połącz się z serwerem przez FTP i otwórz `server.cfg`. Włącz uwierzytelnianie oraz whitelistę.
 
 ```cfg
 USE_STARMADE_AUTHENTICATION=true

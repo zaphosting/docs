@@ -1,7 +1,7 @@
----
+﻿---
 id: hytale-world-management
 title: "Hytale: Gestione dei Mondi"
-description: "Scopri come mettere al sicuro il tuo server Hytale gestendo l’accesso dei giocatori con le whitelist e proteggi il tuo gameplay → Scopri di più ora"
+description: "Scopri come proteggere il tuo server Hytale gestendo l'accesso dei giocatori con le funzionalità di whitelist e proteggi il tuo gameplay → Scopri di più ora"
 sidebar_label: Whitelist
 services:
   - gameserver-hytale
@@ -12,53 +12,47 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introduzione
 
-La gestione dei mondi su un server Hytale significa controllare l’ambiente di gioco persistente in cui i giocatori esplorano, costruiscono e interagiscono. Un mondo comprende tutti i dati del terreno, le strutture, i progressi dei giocatori e le impostazioni che definiscono l’esperienza condivisa. Saper creare, rinominare, resettare o organizzare i mondi è fondamentale per mantenere un server sia per community private che pubbliche.
+La gestione dei mondi su un server Hytale riguarda il controllo dell'ambiente di gioco persistente in cui i giocatori esplorano, costruiscono e interagiscono. Un mondo comprende tutti i dati del terreno, le strutture, i progressi dei giocatori e le impostazioni che definiscono l'esperienza condivisa. Essere in grado di creare, rinominare, resettare o organizzare i mondi è una parte fondamentale per mantenere un server sia per comunità private che pubbliche.
 
 :::info Avviso Early Access
 
-Hytale è stato rilasciato il 13 gennaio 2026 ed è attualmente disponibile in Early Access. Poiché il gioco è ancora in fase di sviluppo attivo, il software del server, i file di configurazione, il supporto alle mod e i processi di installazione potrebbero continuare a evolversi nel tempo.
+Hytale è stato rilasciato il 13 gennaio 2026 ed è attualmente disponibile in Early Access. Poiché il gioco è ancora in fase di sviluppo attivo, il software del server, i file di configurazione, il supporto per le mod e i flussi di installazione potrebbero continuare a cambiare nel tempo.
 
 :::
 
 ## Creazione di un nuovo mondo
 
-Creare un nuovo mondo dà al tuo server un ambiente fresco dove generare terreno, strutture e progressione di gioco da zero. Usando la console live, puoi creare o cambiare mondo con i comandi dedicati.  
-Quando specifichi un nuovo nome per il mondo, il server caricherà un mondo esistente con quel nome oppure ne genererà uno nuovo se non trova dati corrispondenti.
+Creare un nuovo mondo dà al tuo server un ambiente fresco per generare terreno, strutture e progressione di gioco da zero. Usando la console live, i mondi possono essere creati o cambiati eseguendo i comandi relativi al mondo.  
+Quando viene specificato un nuovo nome di mondo, il server caricherà un mondo esistente con quel nome o ne genererà uno nuovo se non trova dati corrispondenti.
 
 ```
-/world create <nome-mondo>
+/world create <worldname>
 ```
 
-Questo comando crea un nuovo mondo chiamato `<nome-mondo>`. Se non esistono dati per quel nome, il server genera un ambiente di gioco completamente nuovo.
-
-
+Questo comando crea un nuovo mondo chiamato `<worldname>`. Se non esistono dati di un mondo con quel nome, il server genera un ambiente di gioco nuovo di zecca.
 
 ## Impostare un mondo come predefinito
 
-Puoi segnare un mondo specifico come predefinito, così verrà caricato automaticamente all’avvio del server. Impostare un mondo predefinito è utile quando ci sono più mondi e vuoi che uno di questi sia sempre l’ambiente principale.
+Un mondo specifico può essere impostato come mondo predefinito così da essere caricato automaticamente all'avvio del server. Impostare un mondo predefinito è utile quando ci sono più mondi e uno di questi deve sempre essere usato come ambiente principale.
 
-Con la console live puoi aggiornare il mondo predefinito senza dover modificare manualmente i file di configurazione. Una volta impostato, il server darà priorità a quel mondo al prossimo riavvio.
+Usando la console live, il mondo predefinito può essere aggiornato senza modificare manualmente i file di configurazione. Una volta impostato, il server darà priorità a questo mondo al prossimo riavvio.
 
 ```
-/world setdefault <nome-mondo>
+/world setdefault <worldname>
 ```
 
-Questo comando imposta il mondo chiamato `mainworld` come predefinito. Dopo il riavvio del server, questo mondo verrà caricato automaticamente.
-
-
+Questo comando imposta il mondo chiamato `mainworld` come mondo predefinito. Dopo il riavvio del server, questo mondo verrà caricato automaticamente.
 
 ## Rimuovere un mondo esistente
 
-Oltre a creare e caricare mondi, la console live ti permette anche di rimuovere mondi esistenti dal server. È utile quando mondi vecchi, inutilizzati o di test non servono più. Rimuovere un mondo elimina definitivamente i dati associati dal server. Questa azione è irreversibile a meno che non ci sia un backup.
+Oltre a creare e caricare mondi, la console live può essere usata anche per rimuovere mondi esistenti dal server. Questo è utile quando mondi obsoleti, inutilizzati o di test non servono più. Rimuovere un mondo elimina i dati associati a quel mondo dal server. Questa azione è permanente e non può essere annullata a meno che non esista un backup.
 
 ```
-/world remove <nome-mondo>
+/world remove <worldname>
 ```
 
-Questo comando elimina il mondo chiamato `nome-mondo` dal server. Se il mondo è attivo, deve essere prima scaricato, altrimenti il server potrebbe rifiutare il comando a seconda dell’implementazione.
-
-
+Questo comando rimuove il mondo chiamato `worldname` dal server. Se il mondo è attivo, deve essere prima scaricato o il server potrebbe rifiutare il comando a seconda dell’implementazione.
 
 ## Conclusione
 
-Gestire i mondi tramite la console live è un modo rapido e flessibile per controllare l’ambiente attivo su un server Hytale. Per qualsiasi domanda o supporto, non esitare a contattare il nostro team di assistenza, disponibile ogni giorno per aiutarti! 🙂
+Gestire i mondi tramite la console live offre un modo rapido e flessibile per controllare l’ambiente attivo su un server Hytale. Per ulteriori domande o assistenza, non esitare a contattare il nostro supporto, disponibile ogni giorno per aiutarti! 🙂

@@ -1,4 +1,4 @@
----
+﻿---
 id: vserver-linux-hytale
 title: "VPS: Hytale Dedicated Server Setup"
 description: "Discover how to set up the Hytale Dedicated server on your Linux VPS for seamless gameplay management → Learn more now"

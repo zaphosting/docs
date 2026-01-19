@@ -1,7 +1,7 @@
----
+﻿---
 id: dayz-whitelist
 title: "DayZ: Whitelist"
-description: "Informações sobre como colocar seu servidor DayZ na whitelist com a ZAP-Hosting → Saiba mais agora"
+description: "Informações sobre como colocar seu servidor de jogos DayZ na whitelist com a ZAP-Hosting → Saiba mais agora"
 sidebar_label: Whitelist
 services:
   - gameserver-dayz
@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introdução
 
-Uma whitelist é uma lista de acesso que restringe quem pode entrar no seu servidor. O DayZ oferece um modo de whitelist embutido que você pode ativar e depois gerenciar jogador por jogador.
+Uma whitelist é uma lista de acesso que restringe quem pode entrar no seu servidor. O DayZ oferece um modo de whitelist integrado que você pode ativar e depois gerenciar jogador por jogador.
 
 <InlineVoucher />
 
@@ -35,11 +35,11 @@ Salve todos os arquivos e reinicie o servidor para que a whitelist seja aplicada
 
 ## Gerenciando Jogadores na Whitelist
 
-Para adicionar um jogador, acrescente o SteamID64 dele no `whitelist.txt`, salve e reinicie o servidor. Para remover um jogador, apague a linha dele do `whitelist.txt`, salve e reinicie o servidor.
+Para adicionar um jogador, acrescente o SteamID64 dele no `whitelist.txt`, salve e reinicie o servidor. Para remover um jogador, apague a linha dele no `whitelist.txt`, salve e reinicie o servidor.
 
-Mantenha o arquivo limpo, com um ID por linha. Comentários não são suportados universalmente, então evite texto extra na mesma linha a menos que tenha certeza que seu servidor aceita.
+Mantenha o arquivo limpo, com um ID por linha. Comentários não são suportados universalmente, então evite texto extra na mesma linha, a menos que tenha certeza que seu servidor aceita.
 
-## Verificando a Funcionalidade da Whitelist
+## Verificando o Funcionamento da Whitelist
 
 Após o reinício, tente conectar com uma conta que não esteja listada no `whitelist.txt`. O acesso deve ser negado. Depois, conecte com uma conta listada para confirmar que funciona.
 
