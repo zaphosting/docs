@@ -1,7 +1,7 @@
----
+﻿---
 id: dayz-whitelist
 title: "DayZ: Whitelist"
-description: "Informatie over hoe je jouw DayZ-server whitelist bij ZAP-Hosting → Leer het nu"
+description: "Informatie over hoe je jouw DayZ-server whitelist bij ZAP-Hosting → Leer nu meer"
 sidebar_label: Whitelist
 services:
   - gameserver-dayz
@@ -18,7 +18,7 @@ Een whitelist is een toegangs lijst die bepaalt wie er op jouw server kan joinen
 
 ## Whitelist activeren
 
-Verbind met je server via FTP en open het hoofdconfiguratiebestand `serverDZ.cfg`. Zoek de whitelist-instelling en zet deze aan.
+Verbind via FTP met je server en open het hoofdconfiguratiebestand `serverDZ.cfg`. Zoek de whitelist-instelling en zet deze aan.
 
 ```cfg
 enableWhitelist = 1;
@@ -37,17 +37,17 @@ Sla alle bestanden op en herstart de server zodat de whitelist wordt toegepast.
 
 Om een speler toe te voegen, voeg je zijn SteamID64 toe aan `whitelist.txt`, sla je op en herstart je de server. Om een speler te verwijderen, verwijder je zijn regel uit `whitelist.txt`, sla je op en herstart je de server.
 
-Houd het bestand netjes met één ID per regel. Comments worden niet overal ondersteund, dus vermijd extra tekst op dezelfde regel tenzij je zeker weet dat je server dit accepteert.
+Houd het bestand netjes met één ID per regel. Comments worden niet overal ondersteund, dus vermijd extra tekst op dezelfde regel tenzij je zeker weet dat jouw server dit accepteert.
 
 ## Whitelist functionaliteit controleren
 
-Na de herstart probeer je in te loggen met een account dat niet in `whitelist.txt` staat. Toegang moet geweigerd worden. Log daarna in met een account dat wel op de lijst staat om te bevestigen dat het werkt.
+Probeer na de herstart in te loggen met een account dat niet in `whitelist.txt` staat. Toegang moet geweigerd worden. Log daarna in met een account dat wel op de lijst staat om te bevestigen dat het werkt.
 
 Als whitelisted spelers niet kunnen joinen, controleer dan of je SteamID64 gebruikt hebt en dat de server hetzelfde `whitelist.txt` bestand laadt dat jij hebt aangepast.
 
 ## Conclusie
 
-Als je alle stappen hierboven hebt gevolgd, is je whitelist nu actief en bepaal jij precies wie er op de server mag joinen. Werkt de toegang toch niet zoals verwacht? Herstart de server nogmaals en controleer het bestand of de command output om te bevestigen dat de wijziging is doorgevoerd.
+Als je alle stappen hierboven hebt gevolgd, is je whitelist nu actief en bepaal jij precies wie er op de server mag komen. Werkt toegang nog niet zoals verwacht? Herstart de server nogmaals en controleer het bestand of de command output om zeker te zijn dat de wijziging is doorgevoerd.
 
 Heb je nog vragen of hulp nodig? Neem gerust contact op met onze support, die dagelijks voor je klaarstaat! 🙂
 

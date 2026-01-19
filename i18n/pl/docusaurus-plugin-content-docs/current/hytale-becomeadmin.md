@@ -1,7 +1,7 @@
----
+﻿---
 id: hytale-becomeadmin
 title: "Hytale: Zostań Adminem (Operatorem) na swoim serwerze"
-description: "Dowiedz się, jak przyznać uprawnienia administratora, aby mieć pełną kontrolę nad serwerem i skutecznie zarządzać funkcjami gry → Sprawdź teraz"
+description: "Dowiedz się, jak przyznać uprawnienia administratora, by mieć pełną kontrolę nad serwerem i sprawnie zarządzać funkcjami gry → Sprawdź teraz"
 sidebar_label: Zostań adminem
 services:
   - gameserver-hytale
@@ -10,11 +10,11 @@ services:
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Wprowadzenie
-Przyznanie uprawnień admina na serwerze Hytale pozwala zaufanym graczom pomagać w zarządzaniu serwerem. Admini, zwani też operatorami, mogą wykonywać komendy serwera, zarządzać graczami i wspierać moderację serwera. Dzięki temu właściciele serwerów mogą łatwiej delegować rutynowe zadania i utrzymać płynność rozgrywki.
+Przyznanie uprawnień admina na serwerze Hytale pozwala zaufanym graczom pomagać w zarządzaniu serwerem. Admini, zwani też operatorami, mogą wykonywać komendy serwera, zarządzać graczami i wspierać moderację. Dzięki temu właściciele serwerów mogą łatwiej delegować rutynowe zadania i zapewnić płynne doświadczenie z gry.
 
 :::info Informacja o Wczesnym Dostępie
 
-Hytale zostało wydane 13 stycznia 2026 i jest obecnie dostępne we Wczesnym Dostępie. Ponieważ gra jest wciąż aktywnie rozwijana, oprogramowanie serwera, pliki konfiguracyjne, wsparcie modów oraz procesy instalacji mogą się z czasem zmieniać.
+Hytale zostało wydane 13 stycznia 2026 i jest obecnie dostępne we Wczesnym Dostępie. Ponieważ gra jest wciąż aktywnie rozwijana, oprogramowanie serwera, pliki konfiguracyjne, wsparcie modów oraz procesy instalacji mogą się zmieniać z czasem.
 
 :::
 
@@ -38,7 +38,7 @@ Admini na serwerze Hytale otrzymują status operatora, który daje im rozszerzon
 
 ## Usuwanie uprawnień
 
-Jeśli gracz nie potrzebuje już dostępu admina lub nie powinien mieć podwyższonych uprawnień, jego status operatora można w każdej chwili usunąć:
+Jeśli gracz nie potrzebuje już dostępu admina lub nie powinien mieć podwyższonych uprawnień, jego status operatora można w każdej chwili cofnąć:
 
 ```
 /op remove <playername>
@@ -50,4 +50,4 @@ Po usunięciu gracz wraca do standardowych uprawnień i nie będzie mógł korzy
 
 ## Podsumowanie
 
-Zostanie adminem na serwerze Hytale poprzez uprawnienia operatora to kluczowy element zarządzania serwerem, pozwalający zaufanym graczom pomagać w moderacji i zadaniach administracyjnych. W razie pytań lub potrzeby pomocy, śmiało kontaktuj się z naszym supportem, który jest dostępny codziennie, by Ci pomóc! 🙂
+Zostanie adminem na serwerze Hytale poprzez uprawnienia operatora to kluczowy element zarządzania serwerem, pozwalający zaufanym graczom pomagać w moderacji i zadaniach administracyjnych. Jeśli masz pytania lub potrzebujesz pomocy, śmiało skontaktuj się z naszym supportem, który jest dostępny codziennie, by Ci pomóc! 🙂

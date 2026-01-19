@@ -1,4 +1,4 @@
----
+﻿---
 id: hytale-gamemode
 title: "Hytale: Spielmodus-Konfiguration"
 description: "Entdecke, wie du deinen Hytale-Server absicherst, indem du den Spielerzugang mit Whitelist-Funktionen verwaltest und dein Gameplay schützt → Jetzt mehr erfahren"
@@ -27,7 +27,7 @@ Hytale wurde am 13. Januar 2026 veröffentlicht und befindet sich aktuell im Ear
 ## Spielmodus ändern
 
 ### Live-Konsole
-Der Spielmodus kann während des laufenden Servers über die Live-Konsole oder Ingame-Befehle geändert werden, sofern die erforderlichen Berechtigungen vorhanden sind. Diese Methode ermöglicht es Admins, den Spielmodus zu wechseln, ohne Konfigurationsdateien bearbeiten zu müssen.
+Der Spielmodus kann während des laufenden Servers über die Live-Konsole oder Ingame-Befehle geändert werden, sofern die erforderlichen Berechtigungen vorhanden sind. Diese Methode ermöglicht es Admins, den Spielmodus zu wechseln, ohne Konfigurationsdateien zu bearbeiten.
 
 Der Konsolenbefehl aktualisiert den aktiven Spielmodus sofort für die aktuelle Server-Session. Je nach Server-Setup bleibt die Änderung bis zum nächsten Neustart bestehen oder wird auf den Wert aus der Konfigurationsdatei zurückgesetzt.
 
@@ -35,7 +35,7 @@ Der Konsolenbefehl aktualisiert den aktiven Spielmodus sofort für die aktuelle 
 /gamemode <spielmodus> <spielername>
 ```
 
-Der Wert von `GameMode` bestimmt, welcher Spielmodus beim Serverstart angewendet wird. Je nach gewünschtem Gameplay-Erlebnis kann dieser Wert entsprechend angepasst werden.
+Der Wert von `GameMode` bestimmt, welcher Spielmodus beim Serverstart angewendet wird. Je nach gewünschtem Spielerlebnis kann dieser Wert entsprechend angepasst werden.
 
 Gängige Spielmodus-Werte sind:
 
@@ -49,9 +49,9 @@ Nach dem Ändern des Spielmodus-Werts muss der Server neu gestartet werden, dami
 ### Konfigurationsdatei
 
 Der Spielmodus kann direkt in der Server-Konfigurationsdatei festgelegt werden.  
-Diese Methode empfiehlt sich, wenn dein Server immer mit einem bestimmten Spielmodus starten soll oder du eine frische Server-Installation vorbereitest.
+Diese Methode empfiehlt sich, wenn dein Server immer mit einem bestimmten Spielmodus starten soll oder du eine frische Servereinrichtung vorbereitest.
 
-Die Konfigurationsdatei ist über dein Hosting Control Panel oder den Dateimanager zugänglich. In dieser Datei gibt es eine Einstellung, die den aktiven Spielmodus beim Serverstart steuert. Nach der Änderung dieses Werts muss der Server neu gestartet werden, damit die Änderung wirksam wird.
+Die Konfigurationsdatei ist über dein Hosting Control Panel oder den Dateimanager zugänglich. In dieser Datei steuert eine Einstellung den aktiven Spielmodus, der beim Serverstart verwendet wird. Nach der Änderung dieses Werts muss der Server neu gestartet werden, damit die Änderung greift.
 
 ```
 "Defaults": {
@@ -60,7 +60,7 @@ Die Konfigurationsdatei ist über dein Hosting Control Panel oder den Dateimanag
 },
 ```
 
-Der Wert von `GameMode` bestimmt, welcher Spielmodus beim Serverstart angewendet wird. Je nach gewünschtem Gameplay-Erlebnis kann dieser Wert entsprechend angepasst werden.
+Der Wert von `GameMode` bestimmt, welcher Spielmodus beim Serverstart angewendet wird. Je nach gewünschtem Spielerlebnis kann dieser Wert entsprechend angepasst werden.
 
 Gängige Spielmodus-Werte sind:
 

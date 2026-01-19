@@ -1,8 +1,8 @@
----
+﻿---
 id: domain-domain-vs-subdomain
-title: "Dominio: Dominio vs Sottodominio"
+title: "Domain: Domain vs Subdomain"
 description: "Scopri come semplificare la connessione al tuo server TeamSpeak 3 usando domini personalizzati o sottodomini per un accesso facile → Scopri di più ora"
-sidebar_label: Dominio vs Sottodominio
+sidebar_label: Domain vs Subdomain
 services:
   - domain
 ---
@@ -13,56 +13,54 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introduzione
 
-Quando configuri servizi online come siti web, server di gioco o pannelli di controllo, i termini **dominio** e **sottodominio** vengono spesso usati come sinonimi. Anche se sono strettamente collegati, hanno scopi diversi e sono adatti a casi d’uso differenti.
+Quando configuri servizi online come siti web, server di gioco o pannelli, i termini **domain** e **subdomain** vengono spesso usati in modo intercambiabile. Anche se sono strettamente collegati, hanno scopi diversi e sono adatti a casi d’uso differenti.
 
-Capire la differenza tra un dominio e un sottodominio ti aiuta a scegliere la struttura giusta per il tuo progetto ed evitare complicazioni inutili nella configurazione più avanti.
-
-
+Capire la differenza tra un domain e un subdomain ti aiuta a scegliere la struttura giusta per il tuo progetto ed evitare configurazioni complicate inutili in futuro.
 
 <InlineVoucher />
 
 
 
-## Cos’è un dominio
+## Cos’è un domain
 
-Un dominio è l’indirizzo principale e unico che identifica un servizio o progetto su internet. Rappresenta il livello più alto di naming sotto un dominio di primo livello ed è solitamente registrato tramite un registrar di domini. Per esempio, nell’indirizzo:
+Un domain è l’indirizzo principale e unico che identifica un servizio o progetto su internet. Rappresenta il livello più alto di naming sotto un top-level domain ed è solitamente registrato tramite un registrar di domini. Per esempio, nell’indirizzo:
 
 ```
 server.example.com
 panel.example.com
 ```
 
-In questi casi, `server` e `panel` sono sottodomini di `example.com`. I sottodomini vengono spesso usati per separare servizi, ambienti o applicazioni mantenendoli però logicamente collegati al dominio principale.
+In questi casi, `server` e `panel` sono sottodomini di `example.com`. I sottodomini vengono spesso usati per separare servizi, ambienti o applicazioni mantenendoli però logicamente collegati al domain principale.
 
 
 
-## Differenze chiave tra dominio e sottodominio
+## Differenze chiave tra domain e subdomain
 
-Un dominio è un indirizzo indipendente che deve essere registrato separatamente e rappresenta solitamente l’identità principale di un progetto. Un sottodominio, invece, dipende da un dominio esistente e non può esistere da solo.
+Un domain è un indirizzo indipendente che deve essere registrato separatamente e rappresenta di solito l’identità principale di un progetto. Un subdomain, invece, dipende da un domain esistente e non può esistere da solo.
 
-I domini sono generalmente associati a contenuti o servizi principali, mentre i sottodomini servono a organizzare o delegare funzioni specifiche, come server di gioco, pannelli di controllo, API o ambienti di test.
+I domain sono generalmente associati a contenuti o servizi principali, mentre i subdomain servono a organizzare o delegare funzioni specifiche, come server di gioco, pannelli di controllo, API o ambienti di test.
 
-Dal punto di vista tecnico, i sottodomini possono essere configurati in modo indipendente nel DNS e possono puntare a server o servizi completamente diversi rispetto al dominio principale.
-
-
-
-## Quando usare un dominio
-
-Usa un dominio quando vuoi un indirizzo centrale e facile da ricordare per il tuo progetto o servizio. I domini sono ideali per siti web principali, servizi ufficiali o situazioni in cui branding e semplicità sono fondamentali.
-
-Un dominio dedicato ha senso anche quando un servizio deve essere chiaramente separato dagli altri o rappresenta il punto di accesso principale per gli utenti.
+Dal punto di vista tecnico, i subdomain possono essere configurati in modo indipendente nel DNS e possono puntare a server o servizi completamente diversi rispetto al domain principale.
 
 
 
-## Quando usare un sottodominio
+## Quando usare un domain
 
-I sottodomini sono perfetti quando vuoi organizzare più servizi sotto un unico dominio. Sono comunemente usati per server di gioco, pannelli admin, interfacce web, API o ambienti diversi come test e staging. Usare sottodomini ti permette di mantenere i servizi correlati raggruppati, garantendo però separazione chiara e flessibilità nella configurazione.
+Usa un domain quando vuoi un indirizzo centrale e facile da ricordare per il tuo progetto o servizio. I domain sono ideali per siti web principali, servizi ufficiali o situazioni dove branding e semplicità sono importanti.
+
+Un domain dedicato ha senso anche quando un servizio deve essere chiaramente separato dagli altri o rappresenta il punto di accesso principale per gli utenti.
+
+
+
+## Quando usare un subdomain
+
+I subdomain sono perfetti quando vuoi organizzare più servizi sotto un unico domain. Sono comunemente usati per server di gioco, pannelli admin, interfacce web, API o ambienti diversi come test e staging. Usare subdomain ti permette di mantenere i servizi correlati raggruppati ma con separazione chiara e flessibilità nella configurazione.
 
 
 
 ## Conclusione
 
-Domini e sottodomini hanno ruoli diversi ma lavorano insieme per strutturare i servizi su internet. Un dominio rappresenta l’identità principale di un progetto, mentre i sottodomini ti permettono di estendere e organizzare i servizi sotto quell’identità.
+Domain e subdomain hanno ruoli diversi ma lavorano insieme per strutturare i servizi su internet. Un domain rappresenta l’identità principale di un progetto, mentre i subdomain ti permettono di estendere e organizzare i servizi sotto quell’identità.
 
 Scegliendo l’approccio giusto, puoi creare una configurazione pulita, scalabile e facile da gestire che si adatta alle tue esigenze tecniche e organizzative.
 

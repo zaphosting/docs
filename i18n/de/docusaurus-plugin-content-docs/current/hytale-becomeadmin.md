@@ -1,6 +1,6 @@
----
+﻿---
 id: hytale-becomeadmin
-title: "Hytale: Admin (Operator) auf deinem Server werden"
+title: "Hytale: Werde Admin (Operator) auf deinem Server"
 description: "Entdecke, wie du Administratorrechte vergibst, um volle Kontrolle über deinen Server zu haben und Spiel-Funktionen effektiv zu managen → Jetzt mehr erfahren"
 sidebar_label: Admin werden
 services:

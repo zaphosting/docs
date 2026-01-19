@@ -1,4 +1,4 @@
----
+﻿---
 id: hytale-permissions
 title: "Hytale: Gestione dei Permessi per Utenti e Gruppi"
 description: "Gestisci i permessi di utenti e gruppi sul tuo server Hytale → Scopri di più ora"
@@ -15,7 +15,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Gestire i permessi su un server Hytale ti permette di controllare cosa i giocatori possono o non possono fare. Questo include assegnare diversi livelli di accesso a giocatori fidati, moderatori e amministratori. Configurare correttamente i permessi è fondamentale per mantenere un ambiente di gioco equilibrato e sicuro, dove i giocatori possono divertirsi senza exploit o abusi indesiderati.
 
-Il software del server di Hytale supporta livelli gerarchici di permessi che determinano quali comandi e azioni ogni giocatore può eseguire. Questi possono essere gestiti tramite la console live o attraverso le impostazioni di configurazione, a seconda della tua configurazione server.
+Il software del server di Hytale supporta livelli gerarchici di permessi che determinano quali comandi e azioni ogni giocatore può eseguire. Questi possono essere gestiti tramite la console live o attraverso le impostazioni di configurazione, a seconda della configurazione del tuo server.
 
 :::info Avviso Early Access
 

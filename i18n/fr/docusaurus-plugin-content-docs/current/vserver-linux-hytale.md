@@ -1,7 +1,7 @@
----
+﻿---
 id: vserver-linux-hytale
 title: "VPS : Installation d’un serveur dédié Hytale"
-description: "Découvrez comment installer le serveur dédié Hytale sur votre VPS Linux pour une gestion de jeu fluide → En savoir plus maintenant"
+description: "Découvrez comment configurer le serveur dédié Hytale sur votre VPS Linux pour une gestion de jeu fluide → En savoir plus maintenant"
 sidebar_label: Hytale
 services:
   - vserver
@@ -38,18 +38,18 @@ sudo chown -R $(whoami):$(whoami) /opt/hytale
 cd /opt/hytale
 ```
 
-Le serveur nécessite deux composants principaux : l’application serveur elle-même et les assets du jeu. Ces fichiers s’obtiennent via le downloader en ligne de commande Hytale, prévu pour les déploiements serveurs et les mises à jour simplifiées.
+Le serveur nécessite deux composants principaux : l’application serveur elle-même et les assets du jeu. Ces fichiers s’obtiennent via le téléchargeur en ligne de commande Hytale, conçu pour les déploiements serveurs et les mises à jour simplifiées.
 
-Le downloader CLI offre un moyen structuré de télécharger et mettre à jour les fichiers du serveur Hytale. Après avoir téléchargé l’archive du downloader, extrayez-la dans un dossier temporaire. Dans l’archive, vous trouverez un fichier QUICKSTART.md qui décrit l’utilisation basique de l’outil.
+Le téléchargeur CLI offre une méthode structurée pour récupérer et mettre à jour les fichiers du serveur Hytale. Après avoir téléchargé l’archive du téléchargeur, extrayez-la dans un dossier temporaire. Dans l’archive, vous trouverez un fichier QUICKSTART.md qui décrit l’utilisation basique de l’outil.
 
-Lancez le downloader en ligne de commande et suivez les instructions pour télécharger la dernière version du serveur. Une fois terminé, copiez les fichiers serveur téléchargés et l’archive des assets dans votre dossier serveur. Après cette étape, le dossier doit contenir le fichier JAR du serveur et une archive d’assets comme Assets.zip.
+Lancez le téléchargeur en ligne de commande et suivez les instructions pour télécharger la dernière version du serveur. Une fois terminé, copiez les fichiers serveur téléchargés ainsi que l’archive des assets dans votre dossier serveur. Après cette étape, le dossier doit contenir le fichier JAR du serveur et une archive d’assets comme Assets.zip.
 
 | **Commande**                                   | **Description**                       |
 | :-------------------------------------------- | :------------------------------------ |
 | `./hytale-downloader`                         | Télécharger la dernière version       |
 | `./hytale-downloader -print-version`          | Afficher la version du jeu sans télécharger |
-| `./hytale-downloader -version`                | Afficher la version du downloader Hytale |
-| `./hytale-downloader -check-update`           | Vérifier les mises à jour du downloader |
+| `./hytale-downloader -version`                | Afficher la version du téléchargeur Hytale |
+| `./hytale-downloader -check-update`           | Vérifier les mises à jour du téléchargeur |
 | `./hytale-downloader -download-path game.zip` | Télécharger dans un fichier spécifique |
 | `./hytale-downloader -patchline pre-release`  | Télécharger depuis le canal pré-release |
 | `./hytale-downloader -skip-update-check`      | Ignorer la vérification automatique des mises à jour |
@@ -60,7 +60,7 @@ Lancez le downloader en ligne de commande et suivez les instructions pour télé
 
 ### Démarrage du serveur
 
-Le serveur se lance en exécutant le fichier JAR et en précisant le chemin vers l’archive des assets. Adaptez le chemin si vos assets sont stockés ailleurs.
+Le serveur se lance en exécutant le fichier JAR et en spécifiant le chemin vers l’archive des assets. Adaptez le chemin si vos assets sont stockés ailleurs.
 
 ```
 java -jar HytaleServer.jar --assets /opt/hytale/Assets.zip --bind 0.0.0.0:5520
@@ -98,7 +98,7 @@ Une fois authentifié, votre serveur peut accepter les connexions des joueurs.
 
 ### Configuration du pare-feu
 
-Par défaut, le serveur écoute sur le port UDP 5520 et se lie à toutes les interfaces disponibles. Vous pouvez changer l’adresse et le port si besoin. Le serveur communique via UDP en utilisant QUIC. Assurez-vous que votre pare-feu autorise le trafic UDP entrant sur le port choisi, que ce soit avec Iptables ou UFW.
+Par défaut, le serveur écoute sur le port UDP 5520 et se lie à toutes les interfaces disponibles. Vous pouvez changer l’adresse et le port si besoin. Le serveur communique en UDP via QUIC. Assurez-vous que votre pare-feu autorise le trafic UDP entrant sur le port choisi, que ce soit avec Iptables ou UFW.
 
 ```
 sudo iptables -A INPUT -p udp --dport 5520 -j ACCEPT
@@ -119,8 +119,8 @@ Pour comparer, les serveurs Minecraft utilisent une distance de vue par défaut 
 
 ## Conclusion
 
-Félicitations, vous avez maintenant un serveur Hytale fonctionnel sur votre système. À partir d’ici, vous pouvez étendre la configuration en installant des mods, en ajustant les paramètres du monde et en optimisant les performances pour votre communauté de joueurs. On recommande de surveiller régulièrement l’utilisation des ressources pour garantir une stabilité optimale à mesure que le serveur grandit.
+Félicitations, vous avez maintenant un serveur Hytale fonctionnel sur votre système. À partir d’ici, vous pouvez étendre la configuration en installant des mods, en ajustant les paramètres du monde et en optimisant les performances selon votre communauté de joueurs. Il est recommandé de surveiller régulièrement l’utilisation des ressources pour garantir une stabilité optimale à mesure que le serveur grandit.
 
-Pour toute question ou aide, n’hésitez pas à contacter notre support, disponible tous les jours pour vous accompagner ! 🙂
+Pour toute question ou aide, n’hésitez pas à contacter notre équipe support, disponible tous les jours pour vous assister ! 🙂
 
 <InlineVoucher />

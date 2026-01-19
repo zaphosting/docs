@@ -1,4 +1,4 @@
----
+﻿---
 id: factorio-whitelist
 title: "Factorio: Whitelist"
 description: "Info su come mettere in whitelist il tuo server Factorio su ZAP-Hosting → Scopri di più ora"
@@ -17,13 +17,13 @@ La whitelist è una lista di accesso che limita l’accesso al server solo agli 
 
 ## Attivare la Whitelist
 
-Apri la Live Console nella gestione del gameserver ZAP-Hosting e aggiungi il primo giocatore alla whitelist. Aggiungere il primo nome di solito attiva subito la whitelist.
+Apri la Live Console nella gestione del tuo gameserver ZAP-Hosting e aggiungi il primo giocatore alla whitelist. Aggiungere il primo nome di solito attiva subito la whitelist.
 
 ```text
 /whitelist add PlayerName
 ```
 
-Se il tuo host offre un comando esplicito per attivarla, puoi eseguirlo prima di aggiungere gli utenti.
+Se il tuo host offre un comando esplicito per attivare la whitelist, puoi eseguirlo prima di aggiungere gli utenti.
 
 ```text
 /whitelist enable
@@ -55,11 +55,11 @@ Per vedere la whitelist attuale, usa il comando get.
 
 Dopo aver aggiunto almeno un giocatore, prova a connetterti con un account non in lista. La connessione dovrebbe essere rifiutata. Poi prova con un account in whitelist per confermare che funzioni.
 
-Se il server lascia entrare tutti, verifica che i comandi siano stati eseguiti sul server giusto e fai un riavvio per assicurarti che il file whitelist venga caricato all’avvio.
+Se il server lascia ancora entrare tutti, controlla che i comandi siano stati eseguiti sul server giusto e fai un riavvio per assicurarti che il file whitelist venga caricato all’avvio.
 
 ## Conclusione
 
-Se hai seguito tutto correttamente, la tua whitelist è attiva e puoi controllare esattamente chi può entrare nel server. Se l’accesso non funziona ancora come previsto, riavvia il server e ricontrolla file o output dei comandi per confermare che la modifica sia stata applicata.
+Se hai seguito tutto correttamente, la tua whitelist è attiva e puoi controllare esattamente chi può entrare nel server. Se l’accesso non funziona ancora come previsto, riavvia il server e ricontrolla il file o l’output dei comandi per confermare che la modifica sia stata applicata.
 
 Per altre domande o supporto, non esitare a contattare il nostro team di assistenza, disponibile ogni giorno per aiutarti! 🙂
 

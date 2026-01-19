@@ -1,4 +1,4 @@
----
+﻿---
 id: 7d2d-whitelist
 title: "7 Days To Die: Whitelist"
 description: "Informacje o tym, jak dodać serwer 7 Days To Die do whitelisty na ZAP-Hosting → Dowiedz się więcej"
@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Wprowadzenie
 
-Whitelist to lista dostępu, która ogranicza, kto może dołączyć do Twojego serwera. W 7 Days To Die jest to zazwyczaj zarządzane w pliku serveradmin.xml, który przechowuje zaufane konta Steam. Po włączeniu, tylko gracze znajdujący się na tej liście mogą się połączyć.
+Whitelist to lista dostępu, która ogranicza, kto może dołączyć do Twojego serwera. W 7 Days To Die jest to zazwyczaj zarządzane w pliku serveradmin.xml, który przechowuje konta Steam dodane do whitelisty. Po włączeniu, tylko gracze znajdujący się na tej liście mogą się połączyć.
 
 <InlineVoucher />
 
@@ -30,24 +30,24 @@ Dodaj przynajmniej jedno SteamID64 do whitelisty. Poniższy format odpowiada dom
 
 Zapisz plik i zrestartuj serwer, aby nowa whitelist została załadowana. Jeśli Twój plik zawiera tylko zakomentowane przykłady, upewnij się, że linia `<user ... />` nie jest wewnątrz komentarza XML.
 
-## Zarządzanie Graczami na Whitelistcie
+## Zarządzanie Graczami na Whitelist
 
 Aby dodać kolejnego gracza, powtórz tę samą zmianę w `serveradmin.xml`, dodając kolejny wpis `<user ... />` w sekcji `<whitelist>`. Użyj SteamID64 gracza jako `steamID`.
 
 Aby usunąć gracza, usuń odpowiednią linię `<user ... />` z sekcji `<whitelist>`, zapisz plik i zrestartuj serwer.
 
-Jeśli wolisz komendy, otwórz Live Console w panelu zarządzania serwerem gier ZAP-Hosting i użyj wbudowanych komend whitelisty, aby dodać lub usunąć graczy. Zmiany wykonane przez komendy zostaną również zapisane w tej samej liście whitelisty, której serwer używa po restarcie.
+Jeśli wolisz komendy, otwórz Live Console w panelu zarządzania serwerem gier ZAP-Hosting i użyj wbudowanych komend whitelist, aby dodać lub usunąć graczy. Zmiany wykonane przez komendy zostaną również zapisane w tych samych danych whitelist, które serwer ładuje po restarcie.
 
-## Sprawdzanie Działania Whitelisty
+## Sprawdzenie Działania Whitelisty
 
-Po restarcie spróbuj połączyć się kontem, które nie znajduje się na whitelistcie. Próba dołączenia powinna zostać odrzucona. Następnie spróbuj z kontem znajdującym się na whitelistcie, aby potwierdzić, że dostęp działa.
+Po restarcie spróbuj połączyć się kontem, które nie znajduje się na whitelist. Próba dołączenia powinna zostać odrzucona. Następnie spróbuj z kontem dodanym do whitelisty, aby potwierdzić, że dostęp działa.
 
-Jeśli serwer nadal pozwala na dołączenie graczom spoza whitelisty, sprawdź ponownie, czy wpisy whitelisty nie są zakomentowane i czy edytowałeś właściwy plik `serveradmin.xml` dla aktywnego zapisu.
+Jeśli serwer nadal pozwala na wejście graczom spoza whitelisty, sprawdź ponownie, czy wpisy whitelisty nie są zakomentowane oraz czy edytowałeś właściwy plik `serveradmin.xml` dla aktywnego zapisu.
 
 ## Podsumowanie
 
 Jeśli wszystkie powyższe kroki zostały wykonane poprawnie, Twoja whitelist jest teraz aktywna i możesz dokładnie kontrolować, kto może dołączyć do serwera. Jeśli dostęp nadal nie działa zgodnie z oczekiwaniami, zrestartuj serwer jeszcze raz i sprawdź plik lub wyjście komend, aby potwierdzić, że zmiana została zastosowana.
 
-W razie dalszych pytań lub potrzeby pomocy, śmiało kontaktuj się z naszym zespołem wsparcia, który jest dostępny codziennie, by Ci pomóc! 🙂
+W razie dalszych pytań lub potrzeby pomocy, śmiało kontaktuj się z naszym supportem, który jest dostępny codziennie, by Ci pomóc! 🙂
 
 <InlineVoucher />

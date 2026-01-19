@@ -1,4 +1,4 @@
----
+﻿---
 id: starmade-whitelist
 title: "StarMade：白名单"
 description: "关于如何为你的 StarMade 服务器设置白名单的详细信息，来自 ZAP-Hosting → 立即了解更多"
@@ -11,13 +11,13 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## 介绍
 
-白名单是一份限制谁能加入你服务器的访问列表。StarMade 支持内置白名单，配置在 `server.cfg` 中，并通过 `whitelist.txt` 来填充。
+白名单是一种访问列表，用来限制谁可以加入你的服务器。StarMade 支持内置白名单，配置在 `server.cfg` 中，并通过 `whitelist.txt` 进行管理。
 
 <InlineVoucher />
 
 ## 启用白名单
 
-通过 FTP 连接到你的服务器，打开 `server.cfg`。启用认证和白名单功能。
+通过 FTP 连接到你的服务器，打开 `server.cfg`。启用身份验证和白名单功能。
 
 ```cfg
 USE_STARMADE_AUTHENTICATION=true
@@ -25,7 +25,7 @@ REQUIRE_STARMADE_AUTHENTICATION=true
 USE_WHITELIST=true
 ```
 
-保存文件。然后在同一服务器目录下打开或创建 `whitelist.txt`。按照 StarMade 使用的格式添加玩家，每行一个。
+保存文件。然后在同一服务器目录下打开或创建 `whitelist.txt`。按照 StarMade 的格式添加玩家，每行一个。
 
 ```txt
 act:-1:PlayerName
@@ -36,15 +36,15 @@ act:-1:AnotherPlayer
 
 ## 管理白名单玩家
 
-要添加玩家，向 `whitelist.txt` 追加一行，使用相同格式，保存后重启。要移除玩家，删除对应行，保存并重启。
+要添加玩家，向 `whitelist.txt` 追加一行，使用相同格式，保存并重启。要移除玩家，删除对应行，保存并重启。
 
-如果名字包含特殊字符，请使用登录时显示的游戏内名字，避免匹配错误。
+如果名字包含特殊字符，请确保使用登录时显示的准确游戏名，避免匹配错误。
 
 ## 验证白名单功能
 
-重启后，尝试用不在 `whitelist.txt` 中的账号连接，应该会被拒绝。然后用白名单内的玩家名连接。
+重启后，尝试用未在 `whitelist.txt` 中的账号连接，应该会被拒绝。然后用白名单中的玩家名连接。
 
-如果白名单玩家无法加入，确认 StarMade 认证已启用且必需，否则名字匹配可能不准确。
+如果白名单玩家无法加入，请确认 StarMade 身份验证已启用且必需，否则名字匹配可能不准确。
 
 ## 总结
 

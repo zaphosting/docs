@@ -1,4 +1,4 @@
----
+﻿---
 id: vintagestory-whitelist
 title: "Vintage Story: Lista blanca"
 description: "Información sobre cómo poner en lista blanca tu servidor de Vintage Story en ZAP-Hosting → Aprende más ahora"
@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introducción
 
-Una lista blanca es una lista de acceso que restringe quién puede unirse a tu servidor. Vintage Story ofrece un modo de lista blanca incorporado que puedes activar y luego alternar por jugador.
+Una lista blanca es una lista de acceso que restringe quién puede unirse a tu servidor. Vintage Story ofrece un modo de lista blanca integrado que puedes activar y luego alternar por jugador.
 
 <InlineVoucher />
 
@@ -46,11 +46,11 @@ Si necesitas verificar la configuración actual del servidor, imprime la configu
 
 Intenta conectarte con un jugador que no esté en la lista blanca. La conexión debería ser rechazada. Luego conecta con un jugador para quien activaste `whitelist on`.
 
-Si todos aún pueden unirse, confirma que `whitelistmode` está en 1 y que ejecutaste los comandos en el servidor correcto.
+Si todos aún pueden unirse, confirma que `whitelistmode` esté en 1 y que ejecutaste los comandos en el servidor correcto.
 
 ## Conclusión
 
-Si seguiste correctamente todos los pasos anteriores, tu lista blanca ya está activa y puedes controlar exactamente quién puede unirse al servidor. Si el acceso sigue sin funcionar como esperas, reinicia el servidor una vez y vuelve a revisar el archivo o la salida del comando para confirmar que el cambio se aplicó.
+Si seguiste correctamente todos los pasos anteriores, tu lista blanca ya está activa y puedes controlar exactamente quién puede unirse al servidor. Si el acceso sigue sin funcionar como esperas, reinicia el servidor una vez más y revisa el archivo o la salida del comando para confirmar que el cambio se aplicó.
 
 Para más preguntas o ayuda, no dudes en contactar a nuestro equipo de soporte, ¡disponible todos los días para ayudarte! 🙂
 

@@ -1,4 +1,4 @@
----
+﻿---
 id: hytale-pvp-management
 title: "Hytale: Gestione PvP"
 description: "Gestisci e configura il combattimento player versus player (PvP) sul tuo server Hytale → Scopri di più ora"
@@ -12,7 +12,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introduzione
 
-La gestione del PvP su un server Hytale controlla se i giocatori possono danneggiarsi o combattere tra loro all’interno di un mondo. Modificando le impostazioni PvP, i proprietari del server possono decidere se il combattimento tra giocatori è completamente attivo, totalmente disabilitato o limitato a situazioni specifiche.
+La gestione del PvP su un server Hytale controlla se i giocatori possono danneggiarsi o combattere tra loro all’interno di un mondo. Modificando le impostazioni PvP, i proprietari del server possono decidere se il combattimento tra giocatori è completamente abilitato, totalmente disabilitato o limitato a situazioni specifiche.
 
 <InlineVoucher />
 
@@ -24,7 +24,7 @@ Il comportamento del PvP viene definito per ogni singolo mondo e configurato tra
 /gXXXXXXX/hytale/universe/worlds/default/config.json
 ```
 
-Questa impostazione determina come il server gestisce i danni tra giocatori e se il PvP è permesso nel mondo attivo. Le modifiche alle impostazioni PvP si applicano globalmente al mondo interessato e richiedono un riavvio del server per entrare in vigore.
+Questa impostazione determina come il server gestisce i danni tra giocatori e se il PvP è consentito nel mondo attivo. Le modifiche alle impostazioni PvP si applicano globalmente al mondo interessato e richiedono un riavvio del server per entrare in vigore.
 
 Ecco un esempio di configurazione in cui il PvP è disabilitato per un mondo:
 
@@ -34,7 +34,7 @@ Ecco un esempio di configurazione in cui il PvP è disabilitato per un mondo:
 }
 ```
 
-Con questa configurazione, i giocatori non possono più danneggiarsi tra loro in quel mondo, creando di fatto un ambiente focalizzato sul PvE.
+Con questa configurazione, i giocatori non possono più danneggiarsi a vicenda in quel mondo, creando di fatto un ambiente focalizzato sul PvE.
 
 Per abilitare il PvP e permettere il combattimento tra giocatori, la configurazione può essere impostata così:
 

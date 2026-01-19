@@ -1,4 +1,4 @@
----
+﻿---
 id: hytale-world-management
 title: "Hytale: Gestión de Mundos"
 description: "Descubre cómo asegurar tu servidor de Hytale gestionando el acceso de jugadores con funciones de whitelist y protege tu experiencia de juego → Aprende más ahora"
@@ -12,7 +12,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introducción
 
-La gestión de mundos en un servidor de Hytale implica controlar el entorno persistente del juego en el que los jugadores exploran, construyen e interactúan. Un mundo consiste en todos los datos del terreno, estructuras, progreso de los jugadores y configuraciones que definen la experiencia compartida. Poder crear, renombrar, reiniciar u organizar mundos es una parte fundamental para mantener un servidor tanto para comunidades privadas como públicas.
+La gestión de mundos en un servidor de Hytale implica controlar el entorno persistente del juego en el que los jugadores exploran, construyen e interactúan. Un mundo consiste en todos los datos del terreno, estructuras, progreso de los jugadores y configuraciones que definen la experiencia compartida. Poder crear, renombrar, reiniciar u organizar mundos es una parte clave para mantener un servidor tanto para comunidades privadas como públicas.
 
 :::info Aviso de Acceso Anticipado
 
@@ -35,9 +35,9 @@ Este comando crea un nuevo mundo llamado `<worldname>`. Si no hay datos de mundo
 
 ## Establecer un mundo como predeterminado
 
-Un mundo específico puede marcarse como el mundo predeterminado para que se cargue automáticamente cuando el servidor se inicie. Establecer un mundo predeterminado es útil cuando existen varios mundos y uno de ellos debe usarse siempre como el entorno principal.
+Se puede marcar un mundo específico como el mundo predeterminado para que se cargue automáticamente cuando el servidor arranque. Establecer un mundo predeterminado es útil cuando existen varios mundos y uno de ellos debe usarse siempre como el entorno principal.
 
-Usando la consola en vivo, el mundo predeterminado puede actualizarse sin editar manualmente archivos de configuración. Una vez establecido, el servidor priorizará este mundo en el próximo reinicio.
+Usando la consola en vivo, el mundo predeterminado se puede actualizar sin editar manualmente archivos de configuración. Una vez establecido, el servidor priorizará este mundo en el próximo reinicio.
 
 ```
 /world setdefault <worldname>
@@ -49,16 +49,16 @@ Este comando establece el mundo llamado `mainworld` como el mundo predeterminado
 
 ## Eliminar un mundo existente
 
-Además de crear y cargar mundos, la consola en vivo también puede usarse para eliminar mundos existentes del servidor. Esto es útil cuando los mundos están desactualizados, sin uso o son de prueba y ya no se necesitan. Eliminar un mundo borra sus datos asociados del servidor. Esta acción es permanente y no se puede deshacer a menos que exista una copia de seguridad.
+Además de crear y cargar mundos, la consola en vivo también puede usarse para eliminar mundos existentes del servidor. Esto es útil cuando mundos obsoletos, sin uso o de prueba ya no son necesarios. Eliminar un mundo borra sus datos asociados del servidor. Esta acción es permanente y no se puede deshacer a menos que exista una copia de seguridad.
 
 ```
 /world remove <worldname>
 ```
 
-Este comando elimina el mundo llamado `worldname` del servidor. Si el mundo está activo, debe descargarse o el servidor podría rechazar el comando dependiendo de la implementación del servidor.
+Este comando elimina el mundo llamado `worldname` del servidor. Si el mundo está activo, debe descargarse o el servidor podría rechazar el comando según la implementación del servidor.
 
 
 
 ## Conclusión
 
-Gestionar mundos a través de la consola en vivo ofrece una forma rápida y flexible de controlar el entorno activo en un servidor de Hytale. Para más preguntas o ayuda, no dudes en contactar a nuestro equipo de soporte, ¡disponible todos los días para asistirte! 🙂
+Gestionar mundos a través de la consola en vivo ofrece una forma rápida y flexible de controlar el entorno activo en un servidor de Hytale. Para más preguntas o ayuda, no dudes en contactar a nuestro equipo de soporte, ¡disponible a diario para asistirte! 🙂

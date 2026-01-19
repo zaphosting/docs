@@ -1,7 +1,7 @@
----
+﻿---
 id: hytale-whitelist
 title: "Hytale: Konfiguracja i zarządzanie whitelistą"
-description: "Dowiedz się, jak zabezpieczyć swój serwer Hytale, zarządzając dostępem graczy za pomocą funkcji whitelisty i chronić swoją rozgrywkę → Sprawdź teraz"
+description: "Dowiedz się, jak zabezpieczyć swój serwer gier Hytale, zarządzając dostępem graczy za pomocą funkcji whitelisty i chronić swoją rozgrywkę → Sprawdź teraz"
 sidebar_label: Whitelist
 services:
   - gameserver-hytale
@@ -11,11 +11,11 @@ import YouTube from '@site/src/components/YouTube/YouTube';
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Wprowadzenie
-Whitelist to funkcja bezpieczeństwa i kontroli dostępu, która pozwala ograniczyć, kto może dołączyć do Twojego serwera Hytale. Po włączeniu, tylko gracze wyraźnie wymienieni na liście whitelisty mogą się połączyć. To szczególnie przydatne na serwerach prywatnych, społecznościowych, środowiskach deweloperskich lub podczas faz testowych, gdzie dostęp powinien mieć wyłącznie zaufany team.
+Whitelist to funkcja bezpieczeństwa i kontroli dostępu, która pozwala ograniczyć, kto może dołączyć do Twojego serwera gier Hytale. Po włączeniu, dostęp mają tylko gracze wyraźnie wymienieni na liście whitelisty. To szczególnie przydatne na prywatnych serwerach, serwerach społecznościowych, środowiskach deweloperskich lub podczas faz testowych, gdzie dostęp powinien mieć tylko zaufany gracz.
 
 :::info Informacja o Wczesnym Dostępie
 
-Hytale zostało wydane 13 stycznia 2026 i jest obecnie dostępne we Wczesnym Dostępie. Ponieważ gra jest wciąż aktywnie rozwijana, oprogramowanie serwera, pliki konfiguracyjne, wsparcie modów oraz procesy instalacji mogą się zmieniać z czasem.
+Hytale zostało wydane 13 stycznia 2026 i jest obecnie dostępne we Wczesnym Dostępie. Ponieważ gra jest wciąż w aktywnej fazie rozwoju, oprogramowanie serwera, pliki konfiguracyjne, wsparcie modów oraz procesy instalacji mogą się dalej zmieniać.
 
 :::
 
@@ -25,11 +25,11 @@ Hytale zostało wydane 13 stycznia 2026 i jest obecnie dostępne we Wczesnym Dos
 
 <InlineVoucher />
 
-## Aktywuj whitelistę
+## Aktywacja whitelisty
 
-Whitelistę możesz włączyć przez konsolę serwera lub bezpośrednio w grze. Upewnij się, że masz odpowiednie uprawnienia, np. prawa operatora, zanim wykonasz te komendy.
+Whitelistę można włączyć przez konsolę serwera lub bezpośrednio w grze. Upewnij się, że masz odpowiednie uprawnienia, np. prawa operatora, zanim wykonasz te komendy.
 
-Aby włączyć whitelistę, wpisz:
+Aby włączyć whitelistę, wpisz następujące polecenie:
 
 ```
 /whitelist enable
@@ -37,55 +37,55 @@ Aby włączyć whitelistę, wpisz:
 
 
 
-Po włączeniu, każdy gracz, który nie znajduje się na liście whitelisty, zostanie zablokowany przy próbie dołączenia do serwera. Aby sprawdzić, czy whitelist jest aktywna, użyj:
+Po włączeniu, każdy gracz, który nie znajduje się na whitelistcie, nie będzie mógł dołączyć do serwera. Aby sprawdzić, czy whitelist jest aktywna, użyj:
 
 ```
 /whitelist status
 ```
 
-Ta komenda pokaże aktualny stan whitelisty i potwierdzi, że konfiguracja została poprawnie zastosowana.
+To polecenie pokaże aktualny stan whitelisty i potwierdzi, że konfiguracja została poprawnie zastosowana.
 
 
 
-## Dezaktywuj whitelistę
+## Dezaktywacja whitelisty
 
-Jeśli chcesz ponownie pozwolić wszystkim graczom dołączać do serwera, whitelistę możesz wyłączyć w dowolnym momencie. Użyj komendy:
+Jeśli chcesz ponownie pozwolić wszystkim graczom na dołączenie do serwera, whitelistę można wyłączyć w dowolnym momencie. Użyj poniższego polecenia, aby ją dezaktywować:
 
 ```
 /whitelist disable
 ```
 
-Po wyłączeniu whitelisty serwer przestanie ograniczać dostęp na jej podstawie i wszyscy gracze będą mogli się połączyć.
+Po wyłączeniu whitelisty serwer nie będzie już ograniczał dostępu na jej podstawie i wszyscy gracze będą mogli się połączyć.
 
 
 
-## Zarządzaj whitelistą
+## Zarządzanie whitelistą
 
-Whitelista może być zarządzana dynamicznie podczas działania serwera. Graczy można dodawać lub usuwać w dowolnym momencie bez potrzeby restartu serwera, korzystając z komend.
+Whitelistę można zarządzać dynamicznie podczas działania serwera. Graczy można dodawać lub usuwać w dowolnym momencie bez konieczności restartu serwera, korzystając z komend.
 
 
 
 ### Dodaj gracza do whitelisty
 
-Aby dać konkretnemu graczowi dostęp do serwera, dodaj go do whitelisty:
+Aby dać konkretnemu graczowi dostęp do serwera, dodaj go do whitelisty za pomocą:
 
 ```
 /whitelist add <playername>
 ```
 
-Wybrany gracz od razu będzie mógł dołączyć do serwera, pod warunkiem, że whitelist jest włączona.
+Wskazany gracz od razu będzie mógł dołączyć do serwera, pod warunkiem, że whitelist jest włączona.
 
 
 
 ### Usuń gracza z whitelisty
 
-Aby cofnąć dostęp gracza, usuń go z whitelisty:
+Aby odebrać dostęp graczowi, usuń go z whitelisty:
 
 ```
 /whitelist remove <playername>
 ```
 
-Po usunięciu gracz nie będzie mógł dołączyć, jeśli whitelist jest aktywna.
+Po usunięciu gracz nie będzie mógł dołączyć, gdy whitelist jest aktywna.
 
 
 
@@ -97,7 +97,7 @@ Aby zobaczyć wszystkich graczy, którzy mają aktualnie dostęp do serwera, wpi
 /whitelist list
 ```
 
-Ta komenda wyświetli pełną listę nazw graczy na whitelistcie.
+To polecenie wyświetli pełną listę nazw graczy na whitelistcie.
 
 
 
@@ -115,7 +115,7 @@ To usunie wszystkie wpisy z whitelisty, ale nie wyłączy samej whitelisty.
 
 ## Zarządzanie whitelistą przez plik
 
-Oprócz komend, whitelistę można też zarządzać bezpośrednio przez plik konfiguracyjny. Ta metoda jest przydatna przy masowych zmianach lub przygotowywaniu whitelisty przed startem serwera. Plik odpowiedzialny za tę konfigurację to `whitelist.json` i znajduje się w katalogu serwera.
+Oprócz komend, whitelistę można też zarządzać bezpośrednio przez plik konfiguracyjny. Ta metoda jest przydatna przy masowych zmianach lub przygotowywaniu whitelisty przed uruchomieniem serwera. Plik odpowiedzialny za tę konfigurację to `whitelist.json` i znajduje się w katalogu serwera.
 
 ````
 {
@@ -131,6 +131,6 @@ Oprócz komend, whitelistę można też zarządzać bezpośrednio przez plik kon
 
 ## Podsumowanie
 
-Gratulacje, pomyślnie skonfigurowałeś whitelistę na swoim serwerze Hytale. Twój serwer jest teraz ograniczony tylko do zatwierdzonych graczy, co pomaga Ci zachować kontrolę, prywatność i bezpieczniejsze środowisko multiplayer.
+Gratulacje, pomyślnie skonfigurowałeś whitelistę na swoim serwerze gier Hytale. Twój serwer jest teraz ograniczony tylko do zatwierdzonych graczy, co pomaga Ci zachować kontrolę, prywatność i bezpieczniejsze środowisko multiplayer.
 
-W razie pytań lub potrzeby pomocy, śmiało kontaktuj się z naszym zespołem wsparcia, który jest dostępny codziennie, by Ci pomóc! 🙂
+W razie dalszych pytań lub potrzeby pomocy, śmiało kontaktuj się z naszym zespołem wsparcia, który jest dostępny codziennie, by Ci pomóc! 🙂

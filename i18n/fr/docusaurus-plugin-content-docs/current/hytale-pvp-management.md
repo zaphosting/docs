@@ -1,4 +1,4 @@
----
+﻿---
 id: hytale-pvp-management
 title: "Hytale : Gestion du PvP"
 description: "Gère et configure le combat joueur contre joueur (PvP) sur ton serveur Hytale → Découvre-en plus maintenant"
@@ -12,13 +12,13 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introduction
 
-La gestion du PvP sur un serveur Hytale contrôle si les joueurs peuvent s’infliger des dégâts ou se battre entre eux dans un monde. En ajustant les paramètres PvP, les propriétaires de serveur peuvent définir si le combat entre joueurs est totalement activé, complètement désactivé, ou limité à des situations spécifiques.
+La gestion du PvP sur un serveur Hytale contrôle si les joueurs peuvent s’infliger des dégâts ou s’affronter dans un monde. En ajustant les paramètres PvP, les propriétaires de serveur peuvent définir si le combat entre joueurs est totalement activé, complètement désactivé, ou limité à des situations spécifiques.
 
 <InlineVoucher />
 
 ## Configuration
 
-Le comportement PvP est défini pour chaque monde et configuré via le fichier de configuration du serveur :
+Le comportement du PvP est défini pour chaque monde et configuré via le fichier de configuration du serveur :
 
 ```
 /gXXXXXXX/hytale/universe/worlds/default/config.json
@@ -46,6 +46,6 @@ Pour activer le PvP et permettre le combat joueur contre joueur, la configuratio
 
 ## Conclusion
 
-Une fois configuré, tu as une vue claire de la gestion du PvP et peux facilement ajuster la configuration pour favoriser un gameplay coopératif, des environnements compétitifs ou un mix des deux. Pour toute question ou aide, n’hésite pas à contacter notre équipe support, disponible tous les jours pour t’aider ! 🙂
+Une fois configuré, tu as une vue claire de la gestion du PvP et peux facilement ajuster la configuration pour favoriser un gameplay coopératif, des environnements compétitifs ou un mix des deux. Pour toute question ou aide, n’hésite pas à contacter notre support, disponible tous les jours pour t’assister ! 🙂
 
 <InlineVoucher />

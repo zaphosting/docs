@@ -1,4 +1,4 @@
----
+﻿---
 id: vserver-windows-hytale
 title: "VPS: Configuración del Servidor Dedicado de Hytale"
 description: "Descubre cómo configurar el servidor dedicado de Hytale en tu VPS Windows para una gestión de juego sin interrupciones → Aprende más ahora"
@@ -36,20 +36,20 @@ Comienza creando un directorio dedicado para el servidor de Hytale. Esto mantien
 C:\Hytale
 ```
 
-El servidor requiere dos componentes principales: la aplicación del servidor y los assets del juego. Estos archivos se pueden obtener usando el descargador de línea de comandos de Hytale, que está pensado para despliegues de servidores y actualizaciones más fáciles.
+El servidor requiere dos componentes principales: la aplicación del servidor y los assets del juego. Estos archivos se pueden obtener usando el descargador por línea de comandos de Hytale, que está pensado para despliegues de servidores y actualizaciones más fáciles.
 
 El descargador CLI ofrece una forma estructurada de descargar y actualizar los archivos del servidor de Hytale. Después de descargar el archivo del descargador, extráelo en un directorio temporal. Dentro del archivo encontrarás un archivo QUICKSTART.md que describe el uso básico de la herramienta.
 
-Ejecuta el descargador desde la línea de comandos y sigue las indicaciones para descargar la última versión del servidor. Una vez completado el proceso, copia los archivos descargados del servidor y el archivo de assets en tu directorio del servidor. Después de este paso, el directorio debería contener el archivo JAR del servidor y un archivo de assets como Assets.zip.
+Ejecuta el descargador desde la línea de comandos y sigue las indicaciones para descargar la última versión del servidor. Una vez completado el proceso, copia los archivos del servidor descargados y el archivo de assets en tu directorio del servidor. Después de este paso, el directorio debería contener el archivo JAR del servidor y un archivo de assets como Assets.zip.
 
 | **Comando**                                   | **Descripción**                       |
 | :-------------------------------------------- | :------------------------------------ |
 | `./hytale-downloader`                         | Descargar la última versión           |
 | `./hytale-downloader -print-version`          | Mostrar versión del juego sin descargar |
 | `./hytale-downloader -version`                | Mostrar versión del hytale-downloader |
-| `./hytale-downloader -check-update`           | Comprobar actualizaciones del descargador |
+| `./hytale-downloader -check-update`           | Comprobar actualizaciones del hytale-downloader |
 | `./hytale-downloader -download-path game.zip` | Descargar a un archivo específico     |
-| `./hytale-downloader -patchline pre-release`  | Descargar desde canal pre-release      |
+| `./hytale-downloader -patchline pre-release`  | Descargar desde canal pre-release     |
 | `./hytale-downloader -skip-update-check`      | Omitir comprobación automática de actualizaciones |
 
 
@@ -66,7 +66,7 @@ java -jar HytaleServer.jar --assets C:\Hytale\Assets.zip --bind 0.0.0.0:5520
 
 ### Autenticación
 
-En el primer inicio, el servidor debe autenticarse antes de que los jugadores puedan conectarse. Esto se hace directamente desde la consola del servidor usando un proceso de login basado en dispositivo. Sigue las instrucciones que aparecen en la consola para completar la autenticación.
+En el primer inicio, el servidor debe autenticarse antes de que los jugadores puedan conectarse. Esto se hace directamente desde la consola del servidor usando un proceso de inicio de sesión basado en dispositivo. Sigue las instrucciones que aparecen en la consola para completar la autenticación.
 
 ```
 /auth login device
@@ -77,7 +77,7 @@ La salida será algo así:
 ```
 > /auth login device
 ===================================================================
-AUTORIZACIÓN DE DISPOSITIVO
+AUTORIZACIÓN DEL DISPOSITIVO
 ===================================================================
 Visita: https://accounts.hytale.com/device
 Introduce el código: ABCD-1234
@@ -106,7 +106,7 @@ New-NetFirewallRule -DisplayName "Hytale Server" -Direction Inbound -Protocol UD
 
 ## Notas de rendimiento
 
-La distancia de visión es uno de los factores más importantes que influyen en el consumo de memoria. Valores más altos aumentan el uso de RAM porque más datos del mundo deben permanecer activos simultáneamente.
+La distancia de visión es uno de los factores más importantes que influyen en el consumo de memoria. Valores más altos aumentan el uso de RAM porque más datos del mundo deben mantenerse activos simultáneamente.
 
 Para la mayoría de configuraciones, una distancia máxima de visión de 12 chunks (384 bloques) ofrece un buen equilibrio entre rendimiento del servidor y experiencia de juego.
 
@@ -116,8 +116,8 @@ Para comparar, los servidores de Minecraft usan una distancia de visión por def
 
 ## Conclusión
 
-¡Felicidades, ahora tienes un servidor funcional de Hytale corriendo en tu sistema! Desde aquí, puedes ampliar la configuración instalando mods, ajustando la configuración del mundo y afinando parámetros de rendimiento para tu base de jugadores. Se recomienda monitorear regularmente el uso de recursos para asegurar una operación estable a medida que el servidor crece.
+¡Felicidades, ahora tienes un servidor funcional de Hytale corriendo en tu sistema! Desde aquí, puedes ampliar la configuración instalando mods, ajustando las configuraciones del mundo y afinando parámetros de rendimiento para adaptarte a tu base de jugadores. Se recomienda monitorear regularmente el uso de recursos para asegurar una operación estable a medida que el servidor crece.
 
-Para más preguntas o ayuda, no dudes en contactar a nuestro equipo de soporte, ¡estamos disponibles todos los días para ayudarte! 🙂
+Si tienes más preguntas o necesitas ayuda, no dudes en contactar a nuestro equipo de soporte, ¡estamos disponibles todos los días para ayudarte! 🙂
 
 <InlineVoucher />

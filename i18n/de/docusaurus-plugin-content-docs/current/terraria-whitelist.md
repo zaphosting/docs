@@ -1,4 +1,4 @@
----
+﻿---
 id: terraria-whitelist
 title: "Terraria: Whitelist"
 description: "Infos, wie du deinen Terraria-Server bei ZAP-Hosting auf die Whitelist setzt → Jetzt mehr erfahren"
@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
 
-Eine Whitelist ist eine Zugangsliste, die einschränkt, wer auf deinen Server joinen darf. Beim Terraria-Hosting läuft das üblicherweise über einen TShock-Server, bei dem du die Whitelist-Funktion aktivierst. Diese wird über eine Whitelist-Datei und Befehle verwaltet.
+Eine Whitelist ist eine Zugangsliste, die einschränkt, wer auf deinen Server joinen darf. Beim Terraria-Hosting läuft das meistens über einen TShock-Server, bei dem du die Whitelist-Funktion aktivierst. Diese wird über eine Whitelist-Datei und Befehle verwaltet.
 
 <InlineVoucher />
 
@@ -40,7 +40,7 @@ TShock speichert die Liste in `tshock/whitelist.txt`. Um einen Eintrag zu entfer
 198.51.100.10
 ```
 
-## Whitelist-Funktion prüfen
+## Whitelist-Funktion überprüfen
 
 Nach dem Neustart versuchst du, dich von einer IP-Adresse zu verbinden, die nicht auf der Liste steht. Der Zugang sollte blockiert sein. Dann verbinde dich von einer IP, die auf der Whitelist steht.
 
@@ -48,7 +48,7 @@ Falls Spieler trotzdem joinen können, obwohl sie nicht gelistet sind, überprü
 
 ## Fazit
 
-Wenn du alle Schritte richtig befolgt hast, ist deine Whitelist jetzt aktiv und du kannst genau steuern, wer auf deinen Server darf. Falls der Zugang trotzdem nicht wie erwartet funktioniert, starte den Server nochmal neu und prüfe die Datei oder die Konsolenausgabe, um sicherzugehen, dass die Änderung übernommen wurde.
+Wenn du alle Schritte richtig befolgt hast, ist deine Whitelist jetzt aktiv und du kannst genau steuern, wer auf deinen Server darf. Falls der Zugang trotzdem nicht wie gewünscht funktioniert, starte den Server nochmal neu und prüfe die Datei oder die Konsolenausgabe, um sicherzugehen, dass die Änderung übernommen wurde.
 
 Bei weiteren Fragen oder Problemen steht dir unser Support-Team täglich zur Seite! 🙂
 

@@ -1,7 +1,7 @@
----
+﻿---
 id: starmade-whitelist
 title: "StarMade: Whitelist"
-description: "Information om hur du whitelistar din StarMade-server från ZAP-Hosting → Lär dig mer nu"
+description: "Information about how to whitelist your StarMade server from ZAP-Hosting → Learn more now"
 sidebar_label: Whitelist
 services:
   - gameserver-starmade
@@ -25,7 +25,7 @@ REQUIRE_STARMADE_AUTHENTICATION=true
 USE_WHITELIST=true
 ```
 
-Spara filen. Öppna eller skapa sedan `whitelist.txt` i samma serverkatalog. Lägg till spelare i det format som StarMade använder, en rad per spelare.
+Spara filen. Öppna eller skapa sedan `whitelist.txt` i samma servermapp. Lägg till spelare i det format som StarMade använder, en rad per spelare.
 
 ```txt
 act:-1:PlayerName
@@ -36,19 +36,19 @@ Starta om servern för att ladda den uppdaterade whitelisten.
 
 ## Hantera Whitelistade Spelare
 
-För att lägga till en spelare, lägg till en ny rad i `whitelist.txt` med samma format, spara och starta om. För att ta bort en spelare, ta bort deras rad från `whitelist.txt`, spara och starta om.
+För att lägga till en spelare, lägg till en ny rad i `whitelist.txt` med samma format, spara och starta om. För att ta bort en spelare, ta bort raden från `whitelist.txt`, spara och starta om.
 
 Om namn innehåller specialtecken, använd exakt det in-game-namn som visas vid inloggning för att undvika felmatchningar.
 
 ## Kontrollera att Whitelisten Fungerar
 
-Efter omstart, försök ansluta med ett konto som inte finns i `whitelist.txt`. Access ska nekas. Anslut sedan med ett namn som finns med på listan.
+Efter omstart, försök ansluta med ett konto som inte finns i `whitelist.txt`. Access ska nekas. Testa sedan att ansluta med ett namn som finns på listan.
 
-Om listade spelare inte kan gå med, dubbelkolla att StarMade-autentisering är aktiverad och obligatorisk, annars kan namn inte matchas korrekt.
+Om listade spelare inte kan ansluta, kontrollera att StarMade-autentisering är aktiverad och obligatorisk, annars kan namn inte matchas korrekt.
 
 ## Sammanfattning
 
-Om alla steg ovan följdes rätt är din whitelist nu aktiv och du kan styra exakt vilka som får gå med på servern. Om access fortfarande inte fungerar som förväntat, starta om servern en gång till och dubbelkolla filen eller kommandoutdata för att bekräfta att ändringen har tillämpats.
+Om du följt alla steg ovan korrekt är din whitelist nu aktiv och du kan styra exakt vilka som får gå med på servern. Om access fortfarande inte fungerar som förväntat, starta om servern en gång till och dubbelkolla filen eller kommandoutdata för att bekräfta att ändringen har tillämpats.
 
 Har du fler frågor eller behöver hjälp? Tveka inte att kontakta vår support, som finns tillgänglig varje dag för att hjälpa dig! 🙂
 

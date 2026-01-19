@@ -1,4 +1,4 @@
----
+﻿---
 id: hytale-commands
 title: "Hytale: Lista Comandi"
 description: "Panoramica dei comandi disponibili per console e in-game per server Hytale → Scopri di più ora"
@@ -15,7 +15,7 @@ I server Hytale offrono una vasta gamma di comandi che permettono agli admin di 
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/2yJ6G3AWCDfAHMj/download)
 
-Questa pagina fornisce una panoramica dei comandi Hytale più usati e ufficialmente documentati per i server.
+Questa pagina fornisce una panoramica dei comandi per server Hytale più usati e ufficialmente documentati.
 
 <InlineVoucher />
 
@@ -23,12 +23,12 @@ Questa pagina fornisce una panoramica dei comandi Hytale più usati e ufficialme
 
 ## Autenticazione
 
-I comandi di autenticazione servono ad autorizzare il server così da poter accettare connessioni di giocatori e interagire con i servizi online di Hytale.
+I comandi di autenticazione sono necessari per autorizzare il server, così da poter accettare connessioni dei giocatori e interagire con i servizi online di Hytale.
 
 | Comando               | Descrizione                                                  |
 | --------------------- | ------------------------------------------------------------ |
 | `/auth login device`  | Avvia il flusso di autenticazione basato su dispositivo. Il server mostra un URL e un codice dispositivo da confermare con un account Hytale. |
-| `/auth login browser` | Avvia il flusso di autenticazione via browser. Richiede un ambiente grafico sul server. |
+| `/auth login browser` | Avvia il flusso di autenticazione tramite browser. Richiede un ambiente grafico sul server. |
 | `/auth status`        | Mostra lo stato attuale di autenticazione del server.        |
 | `/auth logout`        | Disconnette il server e rimuove la sessione di autenticazione attiva. |
 
@@ -71,7 +71,7 @@ I comandi whitelist limitano l’accesso al server solo ai giocatori approvati.
 
 ## Gestione del mondo
 
-I comandi mondo gestiscono la creazione, il caricamento, lo scaricamento e la cancellazione dei mondi.
+I comandi per i mondi gestiscono creazione, caricamento, scaricamento e cancellazione dei mondi.
 
 | Comando                    | Descrizione                                        |
 | -- | -- |
@@ -97,7 +97,7 @@ Questi comandi influenzano direttamente le regole di gioco e il comportamento de
 
 ## Teletrasporto & Posizionamento
 
-Comandi per gestire la posizione e la visibilità dei giocatori.
+Comandi per gestire posizioni e visibilità dei giocatori.
 
 | Comando                    | Descrizione                                 |
 | -- | - |
@@ -121,9 +121,9 @@ I comandi utility offrono aiuto e informazioni sul server.
 
 ## Conclusione
 
-Il sistema comandi di Hytale offre strumenti potenti per gestire server, giocatori e il gameplay. Capendo e usando i comandi disponibili, gli admin possono gestire e personalizzare al meglio il loro server Hytale.
+Il sistema di comandi di Hytale offre strumenti potenti per gestire server, giocatori e il comportamento del gameplay. Capendo e usando i comandi disponibili, gli admin possono gestire e personalizzare al meglio il loro ambiente server Hytale.
 
-Per qualsiasi domanda o supporto, non esitare a contattare il nostro team di assistenza, sempre pronto ad aiutarti ogni giorno! 🙂
+Per qualsiasi domanda o supporto, non esitare a contattare il nostro team di assistenza, disponibile ogni giorno per aiutarti! 🙂
 
 
 

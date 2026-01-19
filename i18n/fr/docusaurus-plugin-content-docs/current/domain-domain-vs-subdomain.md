@@ -1,7 +1,7 @@
----
+﻿---
 id: domain-domain-vs-subdomain
 title: "Domaine : Domaine vs Sous-domaine"
-description: "Découvrez comment simplifier la connexion à votre serveur TeamSpeak 3 en utilisant des domaines ou sous-domaines personnalisés pour un accès facile → En savoir plus maintenant"
+description: "Découvrez comment simplifier la connexion à votre serveur TeamSpeak 3 en utilisant des domaines personnalisés ou des sous-domaines pour un accès facile → En savoir plus maintenant"
 sidebar_label: Domaine vs Sous-domaine
 services:
   - domain
@@ -13,7 +13,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introduction
 
-Lors de la mise en place de services en ligne comme des sites web, des serveurs de jeux ou des panneaux, les termes **domaine** et **sous-domaine** sont souvent utilisés de manière interchangeable. Bien qu’ils soient étroitement liés, ils ont des rôles différents et conviennent à des cas d’usage distincts.
+Lors de la mise en place de services en ligne comme des sites web, des serveurs de jeux ou des panneaux de contrôle, les termes **domaine** et **sous-domaine** sont souvent utilisés de manière interchangeable. Bien qu’ils soient étroitement liés, ils ont des usages différents et conviennent à des cas d’utilisation distincts.
 
 Comprendre la différence entre un domaine et un sous-domaine vous aide à choisir la bonne structure pour votre projet et à éviter une complexité inutile dans la configuration plus tard.
 
@@ -32,7 +32,7 @@ server.example.com
 panel.example.com
 ```
 
-Ici, `server` et `panel` sont des sous-domaines de `example.com`. Les sous-domaines sont souvent utilisés pour séparer des services, environnements ou applications tout en les gardant liés logiquement au domaine principal.
+Dans ces cas, `server` et `panel` sont des sous-domaines de `example.com`. Les sous-domaines sont souvent utilisés pour séparer des services, des environnements ou des applications tout en les gardant logiquement liés au domaine principal.
 
 
 
@@ -42,13 +42,13 @@ Un domaine est une adresse autonome qui doit être enregistrée séparément et 
 
 Les domaines sont généralement associés au contenu ou aux services principaux, tandis que les sous-domaines servent à organiser ou déléguer des fonctions spécifiques, comme des serveurs de jeux, des panneaux de contrôle, des API ou des environnements de test.
 
-Techniquement, les sous-domaines peuvent être configurés indépendamment dans la zone DNS et peuvent pointer vers des serveurs ou services complètement différents du domaine principal.
+D’un point de vue technique, les sous-domaines peuvent être configurés indépendamment dans le DNS et peuvent pointer vers des serveurs ou services totalement différents du domaine principal.
 
 
 
 ## Quand utiliser un domaine
 
-Utiliser un domaine est recommandé lorsque vous souhaitez une adresse centrale et facile à retenir pour votre projet ou service. Les domaines sont idéaux pour les sites web principaux, les services officiels ou les situations où la marque et la simplicité sont importantes.
+Utiliser un domaine est recommandé lorsque vous souhaitez une adresse centrale et facile à retenir pour votre projet ou service. Les domaines sont idéaux pour les sites web principaux, les services officiels ou les situations où l’image de marque et la simplicité sont importantes.
 
 Un domaine dédié a aussi du sens lorsqu’un service doit être clairement séparé des autres ou lorsqu’il représente le point d’entrée principal pour les utilisateurs.
 
@@ -56,13 +56,13 @@ Un domaine dédié a aussi du sens lorsqu’un service doit être clairement sé
 
 ## Quand utiliser un sous-domaine
 
-Les sous-domaines sont parfaits pour organiser plusieurs services sous un même domaine. Ils sont couramment utilisés pour des serveurs de jeux, des panneaux d’administration, des interfaces web, des API ou différents environnements comme les tests et la préproduction. Utiliser des sous-domaines vous permet de regrouper des services liés tout en gardant une séparation claire et une flexibilité dans la configuration.
+Les sous-domaines sont parfaits lorsque vous voulez organiser plusieurs services sous un même domaine. Ils sont couramment utilisés pour les serveurs de jeux, les panneaux d’administration, les interfaces web, les API ou différents environnements comme les tests et la préproduction. Utiliser des sous-domaines vous permet de regrouper des services liés tout en gardant une séparation claire et une flexibilité dans la configuration.
 
 
 
 ## Conclusion
 
-Les domaines et sous-domaines ont des rôles différents mais fonctionnent ensemble pour structurer les services sur internet. Un domaine représente l’identité principale d’un projet, tandis que les sous-domaines permettent d’étendre et d’organiser les services sous cette identité.
+Les domaines et sous-domaines ont des rôles différents mais fonctionnent ensemble pour structurer les services sur internet. Un domaine représente l’identité principale d’un projet, tandis que les sous-domaines vous permettent d’étendre et d’organiser les services sous cette identité.
 
 En choisissant la bonne approche, vous pouvez créer une configuration propre, évolutive et facile à gérer qui correspond à vos besoins techniques et organisationnels.
 

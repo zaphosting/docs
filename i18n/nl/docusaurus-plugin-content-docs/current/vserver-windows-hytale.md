@@ -1,7 +1,7 @@
----
+﻿---
 id: vserver-windows-hytale
 title: "VPS: Hytale Dedicated Server Setup"
-description: "Ontdek hoe je de Hytale Dedicated server instelt op je Windows VPS voor soepel gamebeheer → Leer het nu"
+description: "Ontdek hoe je de Hytale Dedicated server op je Windows VPS installeert voor soepel gamebeheer → Leer het nu"
 sidebar_label: Hytale
 services:
   - vserver
@@ -10,7 +10,7 @@ services:
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introductie
-Heb je een Windows VPS en wil je je eigen Hytale server hosten? In deze gids leggen we stap voor stap uit hoe je de Hytale dedicated server installeert en runt op een Windows systeem.
+Heb je een Windows VPS en wil je je eigen Hytale server erop hosten? In deze gids leggen we stap voor stap uit hoe je de Hytale dedicated server installeert en draait op een Windows systeem.
 
 <InlineVoucher />
 
@@ -40,14 +40,14 @@ De server heeft twee hoofdcomponenten nodig: de server applicatie zelf en de gam
 
 De CLI downloader biedt een gestructureerde manier om de Hytale serverbestanden te downloaden en updaten. Na het downloaden van het downloader-archief, pak je het uit in een tijdelijke map. In het archief vind je een QUICKSTART.md bestand dat de basisgebruik van de tool uitlegt.
 
-Start de downloader via de command line en volg de instructies om de nieuwste serverversie te downloaden. Als het downloaden klaar is, kopieer je de serverbestanden en het assets-archief naar je servermap. Na deze stap zou de map het server JAR-bestand en een assets-archief zoals Assets.zip moeten bevatten.
+Start de downloader via de command line en volg de instructies om de nieuwste serverversie te downloaden. Als het downloaden klaar is, kopieer je de serverbestanden en het assets-archief naar je servermap. Na deze stap zou de map de server JAR en een assets-archief zoals Assets.zip moeten bevatten.
 
 | **Command**                                   | **Omschrijving**                     |
 | :-------------------------------------------- | :---------------------------------- |
-| `./hytale-downloader`                         | Download nieuwste release            |
+| `./hytale-downloader`                         | Download de nieuwste release         |
 | `./hytale-downloader -print-version`          | Toon gameversie zonder te downloaden |
-| `./hytale-downloader -version`                | Toon hytale-downloader versie        |
-| `./hytale-downloader -check-update`           | Check op updates voor downloader     |
+| `./hytale-downloader -version`                | Toon versie van hytale-downloader    |
+| `./hytale-downloader -check-update`           | Check op updates voor hytale-downloader |
 | `./hytale-downloader -download-path game.zip` | Download naar specifiek bestand      |
 | `./hytale-downloader -patchline pre-release`  | Download van pre-release kanaal      |
 | `./hytale-downloader -skip-update-check`      | Sla automatische updatecheck over    |
@@ -58,7 +58,7 @@ Start de downloader via de command line en volg de instructies om de nieuwste se
 
 ### Server starten
 
-De server start je door het JAR-bestand te lanceren en het pad naar het assets-archief op te geven. Pas het pad aan als je assets ergens anders staan. Open de command prompt in de servermap en voer uit:
+De server start je door het JAR-bestand te draaien en het pad naar het assets-archief op te geven. Pas het pad aan als je assets ergens anders staan. Open de command prompt in de servermap en voer uit:
 
 ```
 java -jar HytaleServer.jar --assets C:\Hytale\Assets.zip --bind 0.0.0.0:5520
@@ -66,7 +66,7 @@ java -jar HytaleServer.jar --assets C:\Hytale\Assets.zip --bind 0.0.0.0:5520
 
 ### Authenticatie
 
-Bij de eerste start moet de server geauthenticeerd worden voordat spelers kunnen verbinden. Dit doe je direct via de serverconsole met een device-based login. Volg de instructies in de console om de authenticatie te voltooien.
+Bij de eerste keer opstarten moet de server geauthenticeerd worden voordat spelers kunnen verbinden. Dit doe je direct via de serverconsole met een device-based login. Volg de instructies in de console om de authenticatie af te ronden.
 
 ```
 /auth login device
@@ -90,13 +90,13 @@ Wachten op autorisatie (verloopt over 900 seconden)...
 > Authenticatie geslaagd! Modus: OAUTH_DEVICE
 ```
 
-Na authenticatie kan je server verbindingen van spelers accepteren.
+Na authenticatie kan je server spelers accepteren.
 
 
 
 ### Firewall configuratie
 
-Standaard luistert de server op UDP poort 5520 en bindt aan alle beschikbare interfaces. Je kunt het adres en poort aanpassen indien nodig. De server communiceert via UDP met QUIC. Zorg dat je firewall inkomend UDP verkeer op de gekozen poort toestaat, bijvoorbeeld via Iptables of UFW. Voer deze PowerShell opdracht uit om de firewallregel makkelijk toe te voegen:
+Standaard luistert de server op UDP poort 5520 en bindt aan alle beschikbare interfaces. Je kunt adres en poort aanpassen indien nodig. De server communiceert via UDP met QUIC. Zorg dat je firewall inkomend UDP verkeer op de gekozen poort toestaat, bijvoorbeeld via Iptables of UFW. Gebruik deze PowerShell opdracht om de firewallregel snel toe te voegen:
 
 ```
 New-NetFirewallRule -DisplayName "Hytale Server" -Direction Inbound -Protocol UDP -LocalPort 5520 -Action Allow
@@ -106,7 +106,7 @@ New-NetFirewallRule -DisplayName "Hytale Server" -Direction Inbound -Protocol UD
 
 ## Performance tips
 
-De zichtafstand is een van de belangrijkste factoren die het geheugenverbruik beïnvloeden. Hogere waarden verhogen het RAM-gebruik omdat er meer werelddata tegelijk actief moet blijven.
+De zichtafstand is een van de belangrijkste factoren die het geheugenverbruik beïnvloeden. Hogere waarden verhogen het RAM-gebruik omdat er meer werelddata tegelijk actief moet zijn.
 
 Voor de meeste setups is een maximale zichtafstand van 12 chunks (384 blokken) een goede balans tussen serverperformance en gameplay ervaring.
 
@@ -116,7 +116,7 @@ Ter vergelijking: Minecraft servers gebruiken standaard een zichtafstand van 10 
 
 ## Conclusie
 
-Gefeliciteerd, je hebt nu een werkende Hytale server draaien op je systeem. Vanaf hier kun je de setup uitbreiden met mods, wereldinstellingen aanpassen en performance parameters finetunen voor jouw spelers. Het is slim om regelmatig het resourcegebruik te monitoren zodat je server stabiel blijft draaien naarmate hij groeit.
+Gefeliciteerd, je hebt nu een werkende Hytale server draaien op je systeem. Vanaf hier kun je de setup uitbreiden met mods, wereldinstellingen aanpassen en performance parameters finetunen voor jouw spelers. Houd het resourcegebruik regelmatig in de gaten om een stabiele werking te garanderen naarmate de server groeit.
 
 Heb je vragen of hulp nodig? Neem gerust contact op met onze support, die dagelijks voor je klaarstaat! 🙂
 

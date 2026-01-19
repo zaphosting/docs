@@ -1,7 +1,7 @@
----
+﻿---
 id: vintagestory-whitelist
 title: "Vintage Story: Whitelist"
-description: "Informacje o tym, jak dodać serwer Vintage Story do whitelisty na ZAP-Hosting → Dowiedz się więcej"
+description: "Informacje o tym, jak dodać serwer Vintage Story do whitelisty na ZAP-Hosting → Dowiedz się więcej teraz"
 sidebar_label: Whitelist
 services:
   - gameserver-vintagestory
@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Wprowadzenie
 
-Whitelist to lista dostępu, która ogranicza, kto może dołączyć do Twojego serwera. Vintage Story ma wbudowany tryb whitelisty, który możesz włączyć i przełączać dla poszczególnych graczy.
+Whitelist to lista dostępu, która ogranicza, kto może dołączyć do Twojego serwera. Vintage Story oferuje wbudowany tryb whitelisty, który możesz włączyć i przełączać dla poszczególnych graczy.
 
 <InlineVoucher />
 
@@ -28,7 +28,7 @@ Po włączeniu trybu zrestartuj serwer, aby ustawienie zostało zapisane i popra
 
 ## Zarządzanie Graczami na Whitelistcie
 
-Aby dodać gracza, dodaj go do whitelisty za pomocą komendy dla gracza.
+Aby dodać gracza, dodaj go do whitelisty za pomocą komendy gracza.
 
 ```text
 /player PlayerName whitelist on
@@ -44,7 +44,7 @@ Jeśli chcesz sprawdzić aktualne ustawienie serwera, wyświetl konfigurację se
 
 ## Sprawdzanie Działania Whitelisty
 
-Spróbuj połączyć się jako gracz, który nie jest na whitelistcie. Połączenie powinno zostać odrzucone. Następnie połącz się jako gracz, dla którego ustawiłeś `whitelist on`.
+Spróbuj połączyć się z serwerem jako gracz, który nie jest na whitelistcie. Połączenie powinno zostać odrzucone. Następnie połącz się jako gracz, dla którego ustawiłeś `whitelist on`.
 
 Jeśli wszyscy nadal mogą dołączyć, upewnij się, że `whitelistmode` jest ustawione na 1 i że wykonałeś komendy na właściwym serwerze.
 

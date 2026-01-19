@@ -1,4 +1,4 @@
----
+﻿---
 id: hytale-death-penalty
 title: "Hytale: Zmiana kary za śmierć"
 description: "Dowiedz się, jak działa kara za śmierć na Twoim serwerze Hytale → Sprawdź teraz"
@@ -17,7 +17,7 @@ Na serwerze Hytale **kara za śmierć** określa, jak gracze są dotknięci po z
 
 :::info Informacja o Wczesnym Dostępie
 
-Hytale zostało wydane 13 stycznia 2026 i jest obecnie dostępne we Wczesnym Dostępie. Ponieważ gra jest wciąż w aktywnej fazie rozwoju, oprogramowanie serwera, pliki konfiguracyjne, wsparcie modów oraz procesy instalacji mogą się zmieniać z czasem.
+Hytale został wydany 13 stycznia 2026 i jest obecnie dostępny we Wczesnym Dostępie. Ponieważ gra jest wciąż w aktywnej fazie rozwoju, oprogramowanie serwera, pliki konfiguracyjne, wsparcie modów oraz procesy instalacji mogą się zmieniać z czasem.
 
 :::
 
@@ -39,12 +39,12 @@ Obsługuje następujące wartości:
 
 **ItemsAmountLossPercentage**  
 Ta wartość jest stosowana tylko, gdy `ItemsLossMode` jest ustawione na `Configured`.  
-Określa, jaki procent każdego stosu przedmiotów jest usuwany po śmierci.  
+Określa, jaka część każdego stosu przedmiotów jest usuwana po śmierci, wyrażona w procentach.  
 Na przykład wartość `50.0` oznacza, że połowa każdego stosu zostaje utracona.
 
 **ItemsDurabilityLossPercentage**  
 To ustawienie kontroluje, ile wytrzymałości tracą przedmioty po śmierci gracza.  
-Wartość jest wyrażona jako procent aktualnej wytrzymałości przedmiotu i pozwala, by śmierć miała konsekwencje bez całkowitego usuwania przedmiotów.
+Wartość jest podana jako procent aktualnej wytrzymałości przedmiotu i pozwala, by śmierć miała konsekwencje bez całkowitego usuwania przedmiotów.
 
 Razem te ustawienia dają precyzyjną kontrolę nad tym, jak surowa lub łagodna ma być kara za śmierć na serwerze.  
 Dobrze dobrane wartości zapewniają zbalansowane doświadczenie, dopasowane do zamierzonego poziomu trudności i stylu gry na serwerze.
@@ -61,7 +61,7 @@ W pliku konfiguracyjnym ustawienia związane ze śmiercią są częścią konfig
 "GameplayConfig": "Default",
 ```
 
-Ten wpis definiuje aktywny profil konfiguracji rozgrywki. Konfiguracja kary za śmierć jest umieszczona bezpośrednio pod tą linią jako nowy blok. Po znalezieniu dodaj blok konfiguracyjny kary za śmierć, aby określić, jak działa respawn i utrata przedmiotów:
+Ten wpis definiuje aktywny profil konfiguracji rozgrywki. Konfiguracja kary za śmierć jest umieszczana bezpośrednio pod tą linią jako nowy blok. Po znalezieniu, dodaj blok konfiguracji śmierci, aby określić, jak obsługiwane są respawny i utrata przedmiotów:
 
 ```
 "Death": {
@@ -95,7 +95,7 @@ Jeśli nie chcesz, aby w ogóle następowała utrata przedmiotów, tryb utraty m
 }
 ```
 
-Dla bardziej surowego doświadczenia, gdzie wszystkie przedmioty są upuszczane po śmierci, konfigurację można ustawić tak:
+Dla bardziej surowego doświadczenia, gdzie wszystkie przedmioty są upuszczane po śmierci, konfiguracja może wyglądać tak:
 
 ```
 {

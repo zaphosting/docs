@@ -1,7 +1,7 @@
----
+﻿---
 id: projectzomboid-whitelist
 title: "Project Zomboid: Whitelist"
-description: "Info om hur du whitelistar din Project Zomboid-server hos ZAP-Hosting → Lär dig mer nu"
+description: "Info om hur du whitelistar din Project Zomboid-server hos ZAP-Hosting → Läs mer nu"
 sidebar_label: Whitelist
 services:
   - gameserver-projectzomboid
@@ -34,7 +34,7 @@ Spara filen och starta om servern. Med öppen registrering avstängd kan bara ko
 /adduser "username" "password"
 ```
 
-För att ta bort en användares åtkomst, ta bort dem från whitelist med det dedikerade kommandot.
+Vill du ta bort en användares åtkomst, ta bort dem från whitelist med det dedikerade kommandot.
 
 ```text
 /removeuserfromwhitelist "username"
@@ -50,11 +50,11 @@ Om du tidigare tillät öppen registrering och vill konvertera redan anslutna ko
 
 När `Open=false` är aktivt ska en ny användare som inte lagts till med `/adduser` inte kunna ansluta. Testa med ett whitelistat konto för att bekräfta åtkomst.
 
-Om icke-listade användare fortfarande kan ansluta, dubbelkolla att du redigerade rätt `<ServerName>.ini`-fil och startade om servern.
+Om användare som inte finns på listan ändå kan ansluta, dubbelkolla att du redigerade rätt `<ServerName>.ini`-fil och startade om servern.
 
 ## Sammanfattning
 
-Om du följt alla steg ovan korrekt är din whitelist nu aktiv och du kan styra exakt vilka som får ansluta till servern. Om åtkomsten fortfarande inte fungerar som den ska, starta om servern en gång till och kontrollera filen eller kommandoutdata för att säkerställa att ändringen har trätt i kraft.
+Om du följt alla steg ovan korrekt är din whitelist nu aktiv och du kan styra exakt vilka som får ansluta till servern. Om åtkomsten fortfarande inte funkar som den ska, starta om servern en gång till och dubbelkolla filen eller kommandoutdata för att säkerställa att ändringen trätt i kraft.
 
 Har du fler frågor eller behöver hjälp, tveka inte att kontakta vår support som finns tillgänglig varje dag för att hjälpa dig! 🙂
 

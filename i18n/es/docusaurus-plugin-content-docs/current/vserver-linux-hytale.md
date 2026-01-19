@@ -1,6 +1,6 @@
----
+﻿---
 id: vserver-linux-hytale
-title: "VPS: Configuración del Servidor Dedicado Hytale"
+title: "VPS: Configuración del Servidor Dedicado de Hytale"
 description: "Descubre cómo configurar el servidor dedicado de Hytale en tu VPS Linux para una gestión de juego sin interrupciones → Aprende más ahora"
 sidebar_label: Hytale
 services:
@@ -24,7 +24,7 @@ Antes de continuar, asegúrate de que Java 25 esté instalado en tu sistema. Pue
 java --version
 ```
 
-Si Java aún no está instalado en tu sistema, sigue nuestra [guía Instalar Java](vserver-linux-java) dedicada para servidores Linux. Esta guía explica cómo instalar y configurar Java correctamente en tu entorno.
+Si Java aún no está instalado en tu sistema, sigue nuestra guía dedicada [Instalar Java](vserver-linux-java) para servidores Linux. Esta guía explica cómo instalar y configurar Java correctamente en tu entorno.
 
 
 
@@ -38,7 +38,7 @@ sudo chown -R $(whoami):$(whoami) /opt/hytale
 cd /opt/hytale
 ```
 
-El servidor requiere dos componentes principales: la aplicación del servidor y los assets del juego. Estos archivos se pueden obtener usando el descargador de línea de comandos de Hytale, diseñado para despliegues de servidor y actualizaciones más fáciles.
+El servidor requiere dos componentes principales: la aplicación del servidor y los assets del juego. Estos archivos se pueden obtener usando el descargador de línea de comandos de Hytale, que está pensado para despliegues de servidor y actualizaciones más fáciles.
 
 El descargador CLI ofrece una forma estructurada de descargar y actualizar los archivos del servidor de Hytale. Después de descargar el archivo del descargador, extráelo en un directorio temporal. Dentro del archivo encontrarás un archivo QUICKSTART.md que describe el uso básico de la herramienta.
 
@@ -51,7 +51,7 @@ Ejecuta el descargador desde la línea de comandos y sigue las indicaciones para
 | `./hytale-downloader -version`                | Mostrar versión del hytale-downloader |
 | `./hytale-downloader -check-update`           | Comprobar actualizaciones del descargador |
 | `./hytale-downloader -download-path game.zip` | Descargar a un archivo específico     |
-| `./hytale-downloader -patchline pre-release`  | Descargar desde canal pre-release      |
+| `./hytale-downloader -patchline pre-release`  | Descargar desde canal pre-release     |
 | `./hytale-downloader -skip-update-check`      | Omitir comprobación automática de actualizaciones |
 
 
@@ -60,7 +60,7 @@ Ejecuta el descargador desde la línea de comandos y sigue las indicaciones para
 
 ### Iniciar el servidor
 
-El servidor se inicia lanzando el archivo JAR y especificando la ruta al archivo de assets. Ajusta la ruta si tus assets están almacenados en otra ubicación.
+El servidor se inicia lanzando el archivo JAR y especificando la ruta al archivo de assets. Ajusta la ruta si tus assets están en una ubicación diferente.
 
 ```
 java -jar HytaleServer.jar --assets /opt/hytale/Assets.zip --bind 0.0.0.0:5520
@@ -98,7 +98,7 @@ Una vez autenticado, tu servidor podrá aceptar conexiones de jugadores.
 
 ### Configuración del firewall
 
-Por defecto, el servidor escucha en el puerto UDP 5520 y se enlaza a todas las interfaces disponibles. Puedes cambiar la dirección y el puerto si es necesario. El servidor se comunica por UDP usando QUIC. Asegúrate de que tu firewall permita tráfico UDP entrante en el puerto elegido usando Iptables o UFW.
+Por defecto, el servidor escucha en el puerto UDP 5520 y se enlaza a todas las interfaces disponibles. Puedes cambiar la dirección y el puerto si es necesario. El servidor se comunica por UDP usando QUIC. Asegúrate de que tu firewall permita tráfico UDP entrante en el puerto elegido, ya sea usando Iptables o UFW.
 
 ```
 sudo iptables -A INPUT -p udp --dport 5520 -j ACCEPT
@@ -109,18 +109,18 @@ sudo ufw allow 5520/udp
 
 ## Notas de rendimiento
 
-La distancia de visión es uno de los factores más importantes que influyen en el consumo de memoria. Valores más altos aumentan el uso de RAM porque más datos del mundo deben permanecer activos al mismo tiempo.
+La distancia de visión es uno de los factores más importantes que influyen en el consumo de memoria. Valores más altos aumentan el uso de RAM porque más datos del mundo deben mantenerse activos al mismo tiempo.
 
 Para la mayoría de configuraciones, una distancia máxima de visión de 12 chunks (384 bloques) ofrece un buen equilibrio entre rendimiento del servidor y experiencia de juego.
 
-Para comparar, los servidores de Minecraft usan una distancia de visión por defecto de 10 chunks (160 bloques). El valor por defecto de Hytale de 384 bloques es aproximadamente equivalente a 24 chunks de Minecraft, lo que explica los mayores requisitos de memoria. Este valor debe ajustarse según el número esperado de jugadores y los recursos disponibles del sistema.
+Para comparar, los servidores de Minecraft usan una distancia de visión por defecto de 10 chunks (160 bloques). El valor por defecto de Hytale de 384 bloques es aproximadamente equivalente a 24 chunks de Minecraft, lo que explica los mayores requisitos de memoria. Este valor debe ajustarse según el número esperado de jugadores y los recursos del sistema disponibles.
 
 
 
 ## Conclusión
 
-¡Felicidades, ahora tienes un servidor funcional de Hytale corriendo en tu sistema! Desde aquí, puedes ampliar la configuración instalando mods, ajustando las configuraciones del mundo y afinando parámetros de rendimiento para adaptarte a tu base de jugadores. Se recomienda monitorear regularmente el uso de recursos para asegurar una operación estable a medida que el servidor crece.
+¡Felicidades, ahora tienes un servidor funcional de Hytale corriendo en tu sistema! Desde aquí, puedes ampliar la configuración instalando mods, ajustando la configuración del mundo y afinando parámetros de rendimiento para adaptarte a tu base de jugadores. Se recomienda monitorear regularmente el uso de recursos para asegurar una operación estable a medida que el servidor crece.
 
-Para más preguntas o ayuda, no dudes en contactar a nuestro equipo de soporte, ¡disponible todos los días para ayudarte! 🙂
+Para más preguntas o ayuda, no dudes en contactar a nuestro equipo de soporte, ¡estamos disponibles todos los días para ayudarte! 🙂
 
 <InlineVoucher />

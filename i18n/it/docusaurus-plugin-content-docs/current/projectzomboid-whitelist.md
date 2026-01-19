@@ -1,4 +1,4 @@
----
+﻿---
 id: projectzomboid-whitelist
 title: "Project Zomboid: Whitelist"
 description: "Info su come mettere in whitelist il tuo server Project Zomboid su ZAP-Hosting → Scopri di più ora"
@@ -18,7 +18,7 @@ La whitelist è una modalità di controllo accessi che richiede di creare esplic
 
 ## Attivare la Whitelist
 
-Connettiti al tuo server via FTP e apri il file di configurazione del server. Di solito si trova in `Zomboid/Server/` ed è chiamato come il tuo server, per esempio `servertest.ini` o `<ServerName>.ini`. Trova la voce `Open` e impostala su false.
+Connettiti al tuo server via FTP e apri il file di configurazione del server. Di solito si trova in `Zomboid/Server/` ed è chiamato come il tuo server, ad esempio `servertest.ini` o `<ServerName>.ini`. Trova la voce `Open` e impostala su false.
 
 ```ini
 Open=false
@@ -40,7 +40,7 @@ Per togliere l’accesso a un utente, rimuovilo dalla whitelist con il comando d
 /removeuserfromwhitelist "username"
 ```
 
-Se prima avevi la registrazione aperta e vuoi convertire gli account già connessi in voci whitelist, usa il comando che aggiunge tutti gli utenti connessi alla whitelist.
+Se prima avevi la registrazione aperta e vuoi convertire gli account già connessi in whitelist, usa il comando che aggiunge tutti gli utenti attualmente connessi alla whitelist.
 
 ```text
 /addalltowhitelist

@@ -1,4 +1,4 @@
----
+﻿---
 id: "hytale-troubleshooting-slow-connection"
 title: "Hytale: Långsam anslutning / Värld laddas inte"
 description: "Felsök långsamma anslutningar och världar som inte laddas på Hytale-servrar → Läs mer nu"
@@ -12,9 +12,9 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 ## Introduktion
 
 När du ansluter till en Hytale-server kan problem som extremt långsamma anslutningar eller världar som aldrig laddas helt vara riktigt frustrerande.  
-Dessa problem antas ofta vara serverrelaterade vid första anblick. Men i praktiken kan de komma både från serverns sida och från klientens nätverksbeteende.
+Dessa problem antas ofta vara serverrelaterade vid första anblick. Men i praktiken kan de komma från både serverns sida och klientens nätverksbeteende.
 
-I många fall fungerar servern som den ska, medan klienten har svårt att etablera eller behålla den anslutning som krävs för att ta emot världens data. Det är viktigt att förstå den skillnaden innan du går vidare med felsökningen.
+I många fall fungerar servern som den ska, medan klienten har svårt att etablera eller behålla den anslutning som krävs för att ta emot världens data. Att förstå den här skillnaden är viktigt innan du går vidare med felsökningen.
 
 :::info Early Access-meddelande
 
@@ -27,7 +27,7 @@ Hytale släpptes den 13 januari 2026 och finns just nu i Early Access. Eftersom 
 ## Symptom
 
 Påverkade spelare rapporterar oftast att deras internetanslutning verkar stabil och snabb i allmänhet. Att streama video, surfa på webben eller ladda ner filer fungerar utan märkbara problem.  
-Singleplayer-världar i Hytale laddas och fungerar också normalt.
+Singleplayer-världar i Hytale laddas och fungerar också som vanligt.
 
 Problemet märks först när man ansluter till en multiplayer-server.  
 Anslutningen kan ta ovanligt lång tid och världen kanske aldrig blir helt laddad.  
@@ -38,8 +38,8 @@ I vissa situationer kan andra spelare på servern se den påverkade spelaren rö
 Även om beteendet kan likna serverprestandaproblem visar undersökningar att en vanlig orsak finns på klientsidan.  
 Vissa nätverkskort, särskilt med Intel- och Realtek-chipset, har sällsynta drivrutinsinkompatibiliteter med det nätverksprotokoll som Hytale använder.
 
-Hytale förlitar sig på QUIC-protokollet, en modern nätverksteknik.  
-Inte alla nätverksdrivrutiner stödjer detta protokoll fullt ut, vilket kan leda till att en anslutning tekniskt sett är etablerad, men världens data inte överförs korrekt. Detta kan hända både via Wi-Fi och Ethernet.
+Hytale förlitar sig på QUIC-protokollet, en modern nätverksteknologi.  
+Inte alla nätverksdrivrutiner stödjer detta protokoll fullt ut, vilket kan leda till situationer där en anslutning tekniskt sett är etablerad, men världens data inte överförs korrekt. Detta kan hända både på Wi-Fi och Ethernet.
 
 ## Verifiera orsaken
 
@@ -48,14 +48,14 @@ Genom att ansluta via denna adapter och försöka gå med i servern igen kan man
 
 Om anslutningen fungerar korrekt med USB-adaptern kan problemet härledas till det ursprungliga nätverkskortet eller dess drivrutinsinställningar.
 
-## Lösning
+## Åtgärda problemet
 
-I bekräftade fall löser justering av avancerade nätverkskortinställningar på klientsystemet problemet.  
+I bekräftade fall löser justeringar av avancerade nätverkskortinställningar på klientsystemet problemet.  
 Dessa justeringar fokuserar på att stänga av vissa optimerings-, energispar- och offload-funktioner som stör moderna nätverksprotokoll.
 
 Typiska ändringar inkluderar att stänga av Prioritering och VLAN-hantering, Receive Segment Coalescing för IPv4 och IPv6, samt olika energirelaterade funktioner som Energy-Efficient Ethernet och Green Ethernet.
 
-Om dessa ändringar inte löser problemet kan en mer omfattande konfiguration tillämpas som ändrar en bred uppsättning avancerade adapterinställningar.  
+Om dessa ändringar inte löser problemet kan en mer omfattande konfiguration appliceras som ändrar en bred uppsättning avancerade adapterinställningar.  
 På grund av dess invasiva karaktär och svårigheten att återställa alla värden bör detta endast användas som sista utväg.
 
 ### Stäng av Prioritering och VLAN
@@ -77,26 +77,26 @@ När funktionen är avstängd bör nätverksanslutningen testas igen för att ve
 
 ### Stäng av energisparfunktioner
 
-Många nätverkskort har aggressiva energispar- och energieffektivitetsfunktioner som kan påverka anslutningens stabilitet negativt. Dessa funktioner kan avbryta eller fördröja nätverkstrafik när kontinuerligt dataflöde krävs. Att stänga av alternativ som Advanced EEE, Energy-Efficient Ethernet, Green Ethernet, ARP Offload och Flow Control kan förbättra anslutningens pålitlighet rejält.
+Många nätverkskort har aggressiva energispar- och energieffektivitetsfunktioner som kan påverka anslutningsstabiliteten negativt. Dessa funktioner kan avbryta eller fördröja nätverkstrafik när kontinuerlig dataöverföring krävs. Att stänga av alternativ som Advanced EEE, Energy-Efficient Ethernet, Green Ethernet, ARP Offload och Flow Control kan förbättra anslutningens pålitlighet rejält.
 
 Denna lösning är särskilt relevant för system där problemet uppstår inkonsekvent eller först efter en stund ansluten till servern. Efter ändringarna kommer nätverkskortet att fungera mer stabilt men med mindre energisparläge.
 
 ### Avancerad adapterkonfiguration (sista utväg)
 
-Om inget av ovanstående löser problemet kan en mer omfattande konfiguration av nätverkskortet göras. Denna metod stänger av en mängd offload-, optimerings- och energihanteringsfunktioner samtidigt som buffertstorlekar och köhantering justeras.
+Om ingen av de tidigare lösningarna hjälper kan en mer omfattande konfiguration av nätverkskortet appliceras. Denna metod stänger av en mängd offload-, optimerings- och energihanteringsfunktioner samtidigt som buffertstorlekar och köhantering justeras.
 
-Eftersom dessa ändringar kraftigt påverkar kortets beteende och kan vara svåra att återställa utan ominstallation av drivrutinen bör detta endast användas som sista utväg när allt annat misslyckats.
+Eftersom dessa ändringar påverkar adapterns beteende kraftigt och kan vara svåra att återställa utan att installera om drivrutinen bör detta endast användas som sista utväg när allt annat misslyckats.
 
-Det är starkt rekommenderat att dokumentera alla ursprungliga inställningar innan du applicerar denna konfiguration.
+Det är starkt rekommenderat att dokumentera alla ursprungliga adapterinställningar innan du applicerar denna konfiguration.
 
 ## Slutsats
 
 Långsamma anslutningar och världar som inte laddas när du går med i en Hytale-server kan bero på både server- och klientsidan.  
 När serverproblem uteslutits är inkompatibiliteter i klientens nätverksdrivrutiner en känd orsak.
 
-Genom att justera specifika nätverkskortinställningar kan påverkade spelare återfå korrekt anslutning och framgångsrikt ladda multiplayer-världar utan att behöva ändra något på servern.
+Genom att justera specifika nätverkskortinställningar kan påverkade spelare återfå korrekt anslutning och ladda multiplayer-världar utan att behöva ändra något på servern.
 
-Har du fler frågor eller behöver hjälp? Tveka inte att kontakta vår support, vi finns här för dig varje dag! 🙂
+Har du fler frågor eller behöver hjälp? Tveka inte att kontakta vårt supportteam som finns tillgängligt varje dag för att hjälpa dig! 🙂
 
 
 

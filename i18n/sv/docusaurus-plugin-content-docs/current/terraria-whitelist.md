@@ -1,7 +1,7 @@
----
+﻿---
 id: terraria-whitelist
 title: "Terraria: Whitelist"
-description: "Info om hur du whitelistar din Terraria-server från ZAP-Hosting → Lär dig mer nu"
+description: "Information about how to whitelist your Terraria server from ZAP-Hosting → Learn more now"
 sidebar_label: Whitelist
 services:
   - gameserver-terraria
@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introduktion
 
-En whitelist är en accesslista som begränsar vem som kan ansluta till din server. För Terraria-hosting är det vanligaste sättet att köra en TShock-server och aktivera dess whitelist-funktion, som hanteras via en whitelist-fil och kommandon.
+En whitelist är en accesslista som begränsar vem som kan gå med på din server. För Terraria-hosting är det vanligaste sättet att köra en TShock-server och aktivera dess whitelist-funktion, som hanteras via en whitelist-fil och kommandon.
 
 <InlineVoucher />
 
@@ -27,30 +27,30 @@ Spara filen och starta om servern. TShock kommer nu kräva whitelist-godkännand
 
 ## Hantera Whitelistade Spelare
 
-För att lägga till en spelare, öppna Live Console i ZAP-Hostings gameserver-hantering och använd whitelist-kommandot med spelarens IP-adress.
+För att lägga till en post, öppna Live Console i ZAP-Hostings gameserver-hantering och använd whitelist-kommandot med spelarens IP-adress.
 
 ```text
 whitelist 203.0.113.25
 ```
 
-TShock sparar listan i `tshock/whitelist.txt`. För att ta bort en spelare, anslut via FTP, öppna filen, ta bort IP-raden, spara och starta om servern.
+TShock sparar listan i `tshock/whitelist.txt`. För att ta bort en post, anslut via FTP, öppna filen, ta bort IP-raden, spara och starta om servern.
 
 ```txt
 203.0.113.25
 198.51.100.10
 ```
 
-## Kontrollera att Whitelist Fungerar
+## Verifiera Whitelist-funktionen
 
-Efter omstart, försök ansluta från en IP-adress som inte finns med i listan. Access ska nekas. Testa sedan att ansluta från en whitelistad IP.
+Efter omstart, försök ansluta från en IP-adress som inte finns med i listan. Åtkomst ska blockeras. Anslut sedan från en whitelistad IP-adress.
 
-Om spelare fortfarande kan ansluta utan att vara listade, dubbelkolla att `EnableWhitelist` är satt till true i `config.json` och att servern verkligen startade som TShock.
+Om spelare fortfarande kan gå med utan att vara listade, dubbelkolla att `EnableWhitelist` är satt till true i `config.json` och att servern verkligen startade som TShock.
 
-## Sammanfattning
+## Slutsats
 
-Om du följt alla steg ovan korrekt är din whitelist nu aktiv och du kan styra exakt vilka som får ansluta till servern. Om access fortfarande inte fungerar som förväntat, starta om servern en gång till och dubbelkolla filen eller kommandoutdata för att bekräfta att ändringen har trätt i kraft.
+Om alla steg ovan följdes korrekt är din whitelist nu aktiv och du kan styra exakt vem som får gå med på servern. Om åtkomsten fortfarande inte fungerar som förväntat, starta om servern en gång till och kontrollera filen eller kommandoutdata för att bekräfta att ändringen har tillämpats.
 
-Har du fler frågor eller behöver hjälp? Tveka inte att kontakta vår support, som finns tillgänglig varje dag för att hjälpa dig! 🙂
+För fler frågor eller hjälp, tveka inte att kontakta vårt supportteam som finns tillgängligt varje dag för att hjälpa dig! 🙂
 
 
 
