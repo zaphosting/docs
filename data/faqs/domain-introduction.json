@@ -1,4 +1,4 @@
-[
+﻿[
   {
     "title": {
       "en": "Will my domain be extended when transferring to ZAP?",
@@ -12,7 +12,8 @@
       "ja": "ドメインをZAPに移管すると、ドメインは延長されますか？",
       "sv": "Kommer min domän att förlängas när jag överför den till ZAP?",
       "it": "Il mio dominio verrà esteso quando verrà trasferito a ZAP?",
-      "nl": "Zal mijn domein worden verlengd wanneer ik het naar ZAP overzet?"
+      "nl": "Zal mijn domein worden verlengd wanneer ik het naar ZAP overzet?",
+      "zh": "当转移到 ZAP 时，我的域名会被延长吗？"
     },
     "content": {
       "en": "Yes. When you transfer a domain to us, it will be renewed for one year starting from the transfer date.",
@@ -26,7 +27,8 @@
       "ja": "はい。ドメインを当社に移管すると、移管日から1年間更新されます。",
       "sv": "Ja. När du överför en domän till oss kommer den att förnyas i ett år från överföringsdatumet.",
       "it": "Sì. Quando trasferisci un dominio a noi, verrà rinnovato per un anno a partire dalla data di trasferimento.",
-      "nl": "Ja. Wanneer je een domein naar ons overzet, wordt het voor één jaar verlengd vanaf de datum van overdracht."
+      "nl": "Ja. Wanneer je een domein naar ons overzet, wordt het voor één jaar verlengd vanaf de datum van overdracht.",
+      "zh": "是的。当您将域名转移到我们这里时，它将从转移日期起续订一年。"
     }
   },
   {
@@ -42,7 +44,8 @@
       "ja": "Webspace XtraXtra Largeプランにはドメインが含まれていますか？",
       "sv": "Ingår domäner i Webspace XtraXtra Large-planen?",
       "it": "I domini sono inclusi nel piano Webspace XtraXtra Large?",
-      "nl": "Zijn domeinen inbegrepen in het Webspace XtraXtra Large plan?"
+      "nl": "Zijn domeinen inbegrepen in het Webspace XtraXtra Large plan?",
+      "zh": "域名包含在 Webspace XtraXtra Large 计划中吗？"
     },
     "content": {
       "en": "No. Domains are not part of the package and must be purchased separately.",
@@ -56,7 +59,8 @@
       "ja": "いいえ。ドメインはパッケージに含まれておらず、別途購入する必要があります。",
       "sv": "Nej. Domäner ingår inte i paketet och måste köpas separat.",
       "it": "No. I domini non fanno parte del pacchetto e devono essere acquistati separatamente.",
-      "nl": "Nee. Domeinen maken geen deel uit van het pakket en moeten apart worden aangeschaft."
+      "nl": "Nee. Domeinen maken geen deel uit van het pakket en moeten apart worden aangeschaft.",
+      "zh": "不，域名不包含在套餐内，必须单独购买。"
     }
   },
   {
@@ -72,7 +76,8 @@
       "ja": "WHOISの連絡先情報を保護するにはどうすればよいですか？",
       "sv": "Hur kan jag skydda mina WHOIS-kontaktuppgifter?",
       "it": "Come posso proteggere i miei dettagli di contatto WHOIS?",
-      "nl": "Hoe kan ik mijn WHOIS-contactgegevens beschermen?"
+      "nl": "Hoe kan ik mijn WHOIS-contactgegevens beschermen?",
+      "zh": "我如何保护我的WHOIS联系信息？"
     },
     "content": {
       "en": "You can manage and add alternative contact handles via the 'Handle Management' section in our web interface.",
@@ -86,7 +91,8 @@
       "ja": "ウェブインターフェースの「ハンドル管理」セクションを通じて、代替の連絡ハンドルを管理および追加することができます。",
       "sv": "Du kan hantera och lägga till alternativa kontaktadresser via avsnittet 'Hantera adresser' i vårt webbgränssnitt.",
       "it": "Puoi gestire e aggiungere contatti alternativi tramite la sezione 'Gestione Maniglie' nella nostra interfaccia web.",
-      "nl": "U kunt alternatieve contacthandels beheren en toevoegen via de sectie 'Handlebeheer' in onze webinterface."
+      "nl": "U kunt alternatieve contacthandels beheren en toevoegen via de sectie 'Handlebeheer' in onze webinterface.",
+      "zh": "您可以通过我们网页界面中的“处理管理”部分管理和添加替代联系处理方式。"
     }
   },
   {
@@ -102,7 +108,8 @@
       "ja": "サブドメインを作成できる数に制限はありますか？",
       "sv": "Finns det en gräns för antalet subdomäner jag kan skapa?",
       "it": "C'è un limite al numero di sottodomini che posso creare?",
-      "nl": "Is er een limiet aan het aantal subdomeinen dat ik kan aanmaken?"
+      "nl": "Is er een limiet aan het aantal subdomeinen dat ik kan aanmaken?",
+      "zh": "我可以创建的子域名数量有限制吗？"
     },
     "content": {
       "en": "No. There is no restriction from our side on how many subdomains you can set up.",
@@ -116,7 +123,8 @@
       "ja": "いいえ。サブドメインの設定に関して、当社からの制限はありません。",
       "sv": "Nej. Det finns ingen begränsning från vår sida på hur många subdomäner du kan ställa in.",
       "it": "No. Non ci sono restrizioni da parte nostra su quanti sottodomini puoi configurare.",
-      "nl": "Nee. Er zijn geen beperkingen van onze kant op het aantal subdomeinen dat je kunt instellen."
+      "nl": "Nee. Er zijn geen beperkingen van onze kant op het aantal subdomeinen dat je kunt instellen.",
+      "zh": "不。我们这边对您可以设置多少个子域名没有任何限制。"
     }
   },
   {
@@ -132,7 +140,8 @@
       "ja": "Minecraftサーバーにドメインを接続するには、以下の手順を実行してください。\n\n1. **ドメインの取得**: まず、ドメイン名を取得します。これは、GoDaddyやNamecheapなどのドメインレジストラを通じて行うことができます。\n\n2. **DNS設定の変更**: ドメインを取得したら、DNS設定を変更する必要があります。これには、Aレコードを設定して、あなたのMinecraftサーバーのIPアドレスを指すようにします。サーバーがVPSまたはDedicated Serverの場合、そのIPアドレスを使用します。\n\n3. **ポートの設定**: Minecraftサーバーは通常、ポート25565を使用します。ファイアウォールやルーターの設定でこのポートが開いていることを確認してください。\n\n4. **サーバーの設定**: Minecraftサーバーの設定ファイル（server.properties）を開き、`server-ip`フィールドを空白のままにしておくか、必要に応じて設定します。\n\n5. **接続の確認**: DNS設定が反映されるまで数時間かかることがあります。設定が完了したら、Minecraftクライアントを開き、ドメイン名を使用してサーバーに接続できるか確認します。\n\nこれで、あなたのドメインがMinecraftサーバーに接続されるはずです。問題が発生した場合は、DNS設定やサーバーの設定を再確認してください。",
       "sv": "Hur kan jag koppla min domän till min Minecraft-server?",
       "it": "Come posso collegare il mio dominio al mio server Minecraft?",
-      "nl": "Hoe kan ik mijn domein verbinden met mijn Minecraft-server?"
+      "nl": "Hoe kan ik mijn domein verbinden met mijn Minecraft-server?",
+      "zh": "如何将我的域名连接到我的Minecraft服务器？"
     },
     "content": {
       "en": "If your domain is registered with us, you can link it to your Minecraft server using our EasyDNS module. Simply choose your server as the target.",
@@ -146,7 +155,8 @@
       "ja": "ドメインが当社に登録されている場合、EasyDNSモジュールを使用してMinecraftサーバーにリンクすることができます。ターゲットとしてサーバーを選択するだけです。",
       "sv": "Om din domän är registrerad hos oss kan du koppla den till din Minecraft-server med hjälp av vår EasyDNS-modul. Välj helt enkelt din server som mål.",
       "it": "Se il tuo dominio è registrato con noi, puoi collegarlo al tuo server Minecraft utilizzando il nostro modulo EasyDNS. Basta scegliere il tuo server come obiettivo.",
-      "nl": "Als uw domein bij ons is geregistreerd, kunt u het koppelen aan uw Minecraft-server met behulp van onze EasyDNS-module. Kies eenvoudig uw server als doel."
+      "nl": "Als uw domein bij ons is geregistreerd, kunt u het koppelen aan uw Minecraft-server met behulp van onze EasyDNS-module. Kies eenvoudig uw server als doel.",
+      "zh": "如果您的域名在我们这里注册，您可以使用我们的 EasyDNS 模块将其链接到您的 Minecraft 服务器。只需选择您的服务器作为目标即可。"
     }
   },
   {
@@ -162,7 +172,8 @@
       "ja": "外部ドメインにはどのネームサーバーを使用すればよいですか？",
       "sv": "Vilka namnservrar bör jag använda för en extern domän?",
       "it": "Quali server DNS dovrei utilizzare per un dominio esterno?",
-      "nl": "Welke nameservers moet ik gebruiken voor een extern domein?"
+      "nl": "Welke nameservers moet ik gebruiken voor een extern domein?",
+      "zh": "我应该使用哪些名称服务器来处理外部域名？"
     },
     "content": {
       "en": "If you manage your domain externally, you should continue to use the nameservers provided by your external host.",
@@ -176,7 +187,8 @@
       "ja": "ドメインを外部で管理している場合は、外部ホストが提供するネームサーバーを引き続き使用する必要があります。",
       "sv": "Om du hanterar din domän externt bör du fortsätta att använda de namnservrar som tillhandahålls av din externa värd.",
       "it": "Se gestisci il tuo dominio esternamente, dovresti continuare a utilizzare i nameserver forniti dal tuo host esterno.",
-      "nl": "Als je je domein extern beheert, moet je de nameservers blijven gebruiken die door je externe host worden geleverd."
+      "nl": "Als je je domein extern beheert, moet je de nameservers blijven gebruiken die door je externe host worden geleverd.",
+      "zh": "如果您在外部管理您的域名，您应该继续使用外部主机提供的名称服务器。"
     }
   },
   {
@@ -192,7 +204,8 @@
       "ja": "ドメインに対してHTTPまたはフレーム転送はサポートされていますか？",
       "sv": "Stöds HTTP eller ramvidarebefordran för domäner?",
       "it": "È supportato l'HTTP o il forwarding dei frame per i domini?",
-      "nl": "Wordt HTTP of frame forwarding ondersteund voor domeinen?"
+      "nl": "Wordt HTTP of frame forwarding ondersteund voor domeinen?",
+      "zh": "域名是否支持HTTP或帧转发？"
     },
     "content": {
       "en": "No. These types of redirects are not supported for domains. You would need a VPS, Root Server, or Dedicated Server to configure such forwarding.",
@@ -206,7 +219,8 @@
       "ja": "いいえ。これらのタイプのリダイレクトはドメインにはサポートされていません。そのような転送を設定するには、VPS、ルートサーバー、または専用サーバーが必要です。",
       "sv": "Nej. Dessa typer av omdirigeringar stöds inte för domäner. Du skulle behöva en VPS, Root Server eller Dedicated Server för att konfigurera sådan vidarebefordran.",
       "it": "No. Questi tipi di reindirizzamenti non sono supportati per i domini. Avresti bisogno di un VPS, un Server Root o un Server Dedicato per configurare tale inoltro.",
-      "nl": "Nee. Deze soorten omleidingen worden niet ondersteund voor domeinen. U heeft een VPS, Root Server of Dedicated Server nodig om dergelijke doorsturing te configureren."
+      "nl": "Nee. Deze soorten omleidingen worden niet ondersteund voor domeinen. U heeft een VPS, Root Server of Dedicated Server nodig om dergelijke doorsturing te configureren.",
+      "zh": "不。这些类型的重定向不支持域名。您需要一个 VPS、根服务器或专用服务器来配置这样的转发。"
     }
   },
   {
@@ -222,7 +236,8 @@
       "ja": "ウェブスペースパッケージにはDynDNSが含まれていますか？",
       "sv": "Inkluderar webbplatspaket DynDNS?",
       "it": "I pacchetti di webspace includono DynDNS?",
-      "nl": "Bevatten webhostingpakketten DynDNS?"
+      "nl": "Bevatten webhostingpakketten DynDNS?",
+      "zh": "网络空间套餐包括DynDNS吗？"
     },
     "content": {
       "en": "No. Our webspace is managed with Plesk, which does not support DynDNS.",
@@ -236,7 +251,8 @@
       "ja": "いいえ。当社のウェブスペースはPleskで管理されており、DynDNSはサポートされていません。",
       "sv": "Nej. Vårt webbhotell hanteras med Plesk, som inte stöder DynDNS.",
       "it": "No. Il nostro spazio web è gestito con Plesk, che non supporta DynDNS.",
-      "nl": "Nee. Onze webruimte wordt beheerd met Plesk, dat DynDNS niet ondersteunt."
+      "nl": "Nee. Onze webruimte wordt beheerd met Plesk, dat DynDNS niet ondersteunt.",
+      "zh": "不。我们的网络空间是通过 Plesk 管理的，Plesk 不支持 DynDNS。"
     }
   },
   {
@@ -252,7 +268,8 @@
       "ja": "なぜ私のドメインは365日ではなく360日しかないのですか？",
       "sv": "Varför har min domän bara 360 dagar istället för 365?",
       "it": "Perché il mio dominio ha solo 360 giorni invece di 365?",
-      "nl": "Waarom heeft mijn domein slechts 360 dagen in plaats van 365?"
+      "nl": "Waarom heeft mijn domein slechts 360 dagen in plaats van 365?",
+      "zh": "为什么我的域名只有360天而不是365天？"
     },
     "content": {
       "en": "We calculate our annual billing cycle based on the German bank year, which consists of 360 days.",
@@ -266,7 +283,8 @@
       "ja": "私たちは、360日から成るドイツの銀行年度に基づいて、年間請求サイクルを計算しています。",
       "sv": "Vi beräknar vår årliga faktureringscykel baserat på det tyska bankåret, som består av 360 dagar.",
       "it": "Calcoliamo il nostro ciclo di fatturazione annuale in base all'anno bancario tedesco, che consiste di 360 giorni.",
-      "nl": "Wij berekenen onze jaarlijkse factureringscyclus op basis van het Duitse bankjaar, dat uit 360 dagen bestaat."
+      "nl": "Wij berekenen onze jaarlijkse factureringscyclus op basis van het Duitse bankjaar, dat uit 360 dagen bestaat.",
+      "zh": "我们根据德国银行年度计算我们的年度账单周期，该年度由360天组成。"
     }
   },
   {
@@ -282,7 +300,8 @@
       "ja": "私のドメインにはメールアドレスが含まれていますか？",
       "sv": "Ingår e-postadresser med min domän?",
       "it": "Gli indirizzi email sono inclusi con il mio dominio?",
-      "nl": "Zijn e-mailadressen inbegrepen bij mijn domein?"
+      "nl": "Zijn e-mailadressen inbegrepen bij mijn domein?",
+      "zh": "我的域名中包含电子邮件地址吗？"
     },
     "content": {
       "en": "No. Ordering a domain does not include email services. You need webspace or a server to set up email accounts.",
@@ -296,7 +315,8 @@
       "ja": "いいえ。ドメインの注文にはメールサービスは含まれていません。メールアカウントを設定するには、ウェブスペースまたはサーバーが必要です。",
       "sv": "Nej. Beställning av en domän inkluderar inte e-posttjänster. Du behöver webbplatsutrymme eller en server för att ställa in e-postkonton.",
       "it": "No. Ordinare un dominio non include i servizi email. Hai bisogno di spazio web o di un server per configurare gli account email.",
-      "nl": "Nee. Het bestellen van een domein omvat geen e-maildiensten. U heeft webruimte of een server nodig om e-mailaccounts in te stellen."
+      "nl": "Nee. Het bestellen van een domein omvat geen e-maildiensten. U heeft webruimte of een server nodig om e-mailaccounts in te stellen.",
+      "zh": "不。订购域名不包括电子邮件服务。您需要网络空间或服务器来设置电子邮件帐户。"
     }
   }
 ]
