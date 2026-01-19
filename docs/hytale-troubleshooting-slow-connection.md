@@ -1,4 +1,4 @@
----
+﻿---
 id: "hytale-troubleshooting-slow-connection"
 title: "Hytale: Slow Connection / World Not Loading"
 description: "Troubleshoot slow connections and worlds not loading on Hytale servers → Learn more now"

@@ -1,4 +1,4 @@
----
+﻿---
 id: hytale-pvp-management
 title: "Hytale: PvP Management"
 description: "Manage and configure player versus player combat (PVP) on your Hytale server → Learn more now"

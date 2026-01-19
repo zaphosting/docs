@@ -1,4 +1,4 @@
----
+﻿---
 id: vserver-windows-hytale
 title: "VPS: Hytale Dedicated Server Setup"
 description: "Discover how to set up the Hytale Dedicated server on your Windows VPS for seamless gameplay management → Learn more now"
