@@ -2096,15 +2096,15 @@
     "description": "The label for category 'Troubleshooting' in sidebar 'vpsrootSidebar'"
   },
   "sidebar.vpsrootSidebar.category.vserver-general": {
-    "message": "General",
+    "message": "一般",
     "description": "The label for category 'General' in sidebar 'vpsrootSidebar'"
   },
   "sidebar.vpsrootSidebar.category.vserver-linux-services": {
-    "message": "Services",
+    "message": "服务",
     "description": "The label for category 'Services' in sidebar 'vpsrootSidebar'"
   },
   "sidebar.vpsrootSidebar.category.vserver-linux-dedicated-game-servers": {
-    "message": "Dedicated Game Servers",
+    "message": "专用游戏服务器",
     "description": "The label for category 'Dedicated Game Servers' in sidebar 'vpsrootSidebar'"
   },
   "sidebar.vpsrootSidebar.category.vserver-linux-dedicated-game-servers-general": {
@@ -2116,19 +2116,19 @@
     "description": "The label for category 'Troubleshooting' in sidebar 'vpsrootSidebar'"
   },
   "sidebar.vpsrootSidebar.category.vserver-windows-general": {
-    "message": "General",
+    "message": "一般",
     "description": "The label for category 'General' in sidebar 'vpsrootSidebar'"
   },
   "sidebar.vpsrootSidebar.category.vserver-windows-services": {
-    "message": "Services",
+    "message": "服务",
     "description": "The label for category 'Services' in sidebar 'vpsrootSidebar'"
   },
   "sidebar.vpsrootSidebar.category.vserver-windows-dedicated-game-servers": {
-    "message": "Dedicated Game Servers",
+    "message": "专用游戏服务器",
     "description": "The label for category 'Dedicated Game Servers' in sidebar 'vpsrootSidebar'"
   },
   "sidebar.vpsrootSidebar.category.vserver-windows-dedicated-game-servers-general": {
-    "message": "General",
+    "message": "一般",
     "description": "The label for category 'General' in sidebar 'vpsrootSidebar'"
   },
   "sidebar.vpsrootSidebar.category.vserver-windows-troubleshooting": {
@@ -2148,19 +2148,19 @@
     "description": "The label for category 'Install Ubuntu' in sidebar 'dedicatedserverSidebar'"
   },
   "sidebar.dedicatedserverSidebar.category.dedicated-server-linux-general": {
-    "message": "General",
+    "message": "一般",
     "description": "The label for category 'General' in sidebar 'dedicatedserverSidebar'"
   },
   "sidebar.dedicatedserverSidebar.category.dedicated-server-linux-services": {
-    "message": "Services",
+    "message": "服务",
     "description": "The label for category 'Services' in sidebar 'dedicatedserverSidebar'"
   },
   "sidebar.dedicatedserverSidebar.category.dedicated-server-linux-dedicated-game-servers": {
-    "message": "Dedicated Game Servers",
+    "message": "专用游戏服务器",
     "description": "The label for category 'Dedicated Game Servers' in sidebar 'dedicatedserverSidebar'"
   },
   "sidebar.dedicatedserverSidebar.category.dedicated-linux-dedicated-game-servers-general": {
-    "message": "General",
+    "message": "一般",
     "description": "The label for category 'General' in sidebar 'dedicatedserverSidebar'"
   },
   "sidebar.dedicatedserverSidebar.category.dedicated-server-linux-security": {
@@ -2172,19 +2172,19 @@
     "description": "The label for category 'Troubleshooting' in sidebar 'dedicatedserverSidebar'"
   },
   "sidebar.dedicatedserverSidebar.category.dedicated-server-windows-general": {
-    "message": "General",
+    "message": "一般",
     "description": "The label for category 'General' in sidebar 'dedicatedserverSidebar'"
   },
   "sidebar.dedicatedserverSidebar.category.dedicated-server-windows-services": {
-    "message": "Services",
+    "message": "服务",
     "description": "The label for category 'Services' in sidebar 'dedicatedserverSidebar'"
   },
   "sidebar.dedicatedserverSidebar.category.dedicated-server-windows-dedicated-game-servers": {
-    "message": "Dedicated Game Servers",
+    "message": "专用游戏服务器",
     "description": "The label for category 'Dedicated Game Servers' in sidebar 'dedicatedserverSidebar'"
   },
   "sidebar.dedicatedserverSidebar.category.dedicated-windows-dedicated-game-servers-general": {
-    "message": "General",
+    "message": "一般",
     "description": "The label for category 'General' in sidebar 'dedicatedserverSidebar'"
   },
   "sidebar.dedicatedserverSidebar.category.dedicated-server-windows-troubleshooting": {
@@ -2200,7 +2200,7 @@
     "description": "The label for category 'TS3MusicBot' in sidebar 'voiceserverbotSidebar'"
   },
   "sidebar.domainSidebar.category.domain-domain-forwarding": {
-    "message": "Domain forwarding",
+    "message": "域名转发",
     "description": "The label for category 'Domain forwarding' in sidebar 'domainSidebar'"
   },
   "sidebar.domainSidebar.category.domain-cloudflare": {
@@ -2208,7 +2208,7 @@
     "description": "The label for category 'Cloudflare' in sidebar 'domainSidebar'"
   },
   "sidebar.webspaceSidebar.category.domain-e-mails": {
-    "message": "E-Mails",
+    "message": "电子邮件",
     "description": "The label for category 'E-Mails' in sidebar 'webspaceSidebar'"
   },
   "sidebar.webspaceSidebar.category.domain-mybb": {

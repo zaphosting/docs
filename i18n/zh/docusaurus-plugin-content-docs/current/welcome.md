@@ -139,7 +139,7 @@ import YouTube from '@site/src/components/YouTube/YouTube';
     <Card title="Wurm Unlimited" description="占位符" link="https://zap-hosting.com/guides/zh/docs/wurmunlimited-firststeps-dashboard" image="https://screensaver01.zap-hosting.com/index.php/s/BzbDjJWySW4LjtX/preview"/>
 </Cards>
 
-## VPS
+## 虚拟专用服务器
 用我们的全方位指南，充分发挥你的 VPS 潜力。不管你喜欢 Linux 还是 Windows，我们的指南都帮你高效搭建和管理服务器。
 
 <Cards>
