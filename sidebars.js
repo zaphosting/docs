@@ -5312,7 +5312,7 @@ const sidebars = {
             case "sv": return "DNS hantering";
             case "it": return "Gestione DNS";
             case "nl": return "DNS beheer";
-            case "zh": return "DNS 管理";
+            case "zh": return "域名系统的管理";
             default: return "DNS management";
           }          
         })(),
