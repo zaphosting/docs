@@ -705,6 +705,10 @@ const sidebars = {
             "hytale-pvp-management",
             "hytale-commands",
             "hytale-disable-world-fall-damage",
+            "hytale-teleport-between-worlds",
+            "hytale-change-day-night-duration",
+            "hytale-advanced-item-info",
+            "hytale-change-language"
           ]
         },
         {
@@ -713,7 +717,8 @@ const sidebars = {
           key: "gameserver-troubleshooting-hytale-popular",
           items: [
             "hytale-troubleshooting-common-issues",
-            "hytale-troubleshooting-slow-connection"
+            "hytale-troubleshooting-slow-connection",
+            "hytale-troubleshooting-hyfixes"
           ]
         },          
       ],
@@ -2416,6 +2421,10 @@ const sidebars = {
             "hytale-pvp-management",
             "hytale-commands",
             "hytale-disable-world-fall-damage",
+            "hytale-teleport-between-worlds",
+            "hytale-change-day-night-duration",
+            "hytale-advanced-item-info",
+            "hytale-change-language"
           ]
         },
         {
