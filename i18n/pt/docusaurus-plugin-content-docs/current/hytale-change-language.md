@@ -12,7 +12,7 @@ import YouTube from '@site/src/components/YouTube/YouTube';
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
 import SearchableItemList from '@site/src/components/SearchableItemList/SearchableItemList';
-import items from '@site/src/data/lists/hytale-language-packs.json';
+import items from '@site/data/lists/hytale-language-packs.json';
 
 ## Introdução
 
