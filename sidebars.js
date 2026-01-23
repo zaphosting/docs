@@ -4018,6 +4018,14 @@ const sidebars = {
         },
         {
           type: "category",
+          label: "Configuration",
+          key: "gameserver-configuration-starrupture",
+          items: [
+            "starrupture-change-autosave-interval",
+          ]
+        },
+        {
+          type: "category",
           label: "Troubleshooting",
           key: "gameserver-troubleshooting-rupture",
           items: [
