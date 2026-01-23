@@ -1462,6 +1462,18 @@ const servicesMap: serviceMap = {
             description: 'URL path for the gameserver product',
         }),
     },
+    'gameserver-starrupture': {
+        title: translate({
+            message: 'StarRupture Gameserver',
+            id: 'service.gameserver-starrupture.title',
+            description: 'Product name for the gameserver product',
+        }),
+        url: translate({
+            message: '{marketingSite}/{language}/starrupture-server-hosting/',
+            id: 'service.gameserver-starrupture.path',
+            description: 'URL path for the gameserver product',
+        }),
+    },
     'gameserver-staxel': {
         title: translate({
             message: 'Staxel Gameserver',
