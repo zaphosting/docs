@@ -17,15 +17,6 @@ You are interested in an **StarRupture** server or already own one, but you stil
 After going through this guide, you will easily be able to manage your server efficiently and find all the necessary options and features quickly and easily. Here, you will get a structured overview that will help you step by step to get familiar with the server administration and expand your knowledge in a targeted manner. This way, you can ensure that your **StarRupture** server is optimally adapted to your needs and that you get the most out of the available options.
 
 
-
-:::info Early Access Notice
-
-StarRupture released on January 13th, 2026 and is currently available in Early Access. As the game is still in an active development phase, server software, configuration files, modding support, and installation workflows may continue to change over time.
-
-:::
-
-
-
 <InlineVoucher />
 
 ## Product Administration

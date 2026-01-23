@@ -16,12 +16,6 @@ Setting up and running your own StarRupture game server can be an exciting and a
 
 To make sure you spend less time fixing and more time enjoying your server, this section highlights the most common issues server owners face and provides solutions to help you resolve them quickly and effectively.
 
-:::info Early Access Notice
-
-StarRupture released on January 13th, 2026 and is currently available in Early Access. As the game is still in an active development phase, server software, configuration files, modding support, and installation workflows may continue to change over time.
-
-:::
-
 <InlineVoucher />
 
 
