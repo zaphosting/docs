@@ -4004,6 +4004,38 @@ const sidebars = {
     },
     {
       type: "category",
+      label: "StarRupture",
+      key: "gameserver-starrupture",
+      items: [
+        {
+          type: "category",
+          label: "First Steps",
+          key: "gameserver-first-steps-starrupture",
+          items: [
+            "starrupture-firststeps-dashboard",
+            "starrupture-firststeps-connect",
+          ]
+        },
+        {
+          type: "category",
+          label: "Configuration",
+          key: "gameserver-configuration-starrupture",
+          items: [
+            "starrupture-change-autosave-interval",
+          ]
+        },
+        {
+          type: "category",
+          label: "Troubleshooting",
+          key: "gameserver-troubleshooting-rupture",
+          items: [
+            "starrupture-troubleshooting-common-issues",
+          ]
+        },
+      ],
+    },
+    {
+      type: "category",
       label: "Staxel",
       key: "gameserver-staxel",
       items: [
