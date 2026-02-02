@@ -457,6 +457,53 @@ const sidebars = {
     },
     {
       type: "category",
+      label: "Hytale",
+      key: "gameserver-hytale-popular",
+      items: [
+        {
+          type: "category",
+          label: "First Steps",
+          key: "gameserver-first-steps-hytale-popular",
+          items: [
+            "hytale-firststeps-dashboard",
+            "hytale-firststeps-connect",
+            "hytale-obtain-uuid"
+          ]
+        },
+        {
+          type: "category",
+          label: "Configuration",
+          key: "gameserver-configuration-hytale-popular",
+          items: [
+            "hytale-becomeadmin",
+            "hytale-permissions",
+            "hytale-whitelist",
+            "hytale-mods",
+            "hytale-gamemode",
+            "hytale-death-penalty",
+            "hytale-pvp-management",
+            "hytale-commands",
+            "hytale-disable-world-fall-damage",
+            "hytale-teleport-between-worlds",
+            "hytale-change-day-night-duration",
+            "hytale-advanced-item-info",
+            "hytale-change-language"
+          ]
+        },
+        {
+          type: "category",
+          label: "Troubleshooting",
+          key: "gameserver-troubleshooting-hytale-popular",
+          items: [
+            "hytale-troubleshooting-common-issues",
+            "hytale-troubleshooting-slow-connection",
+            "hytale-troubleshooting-hyfixes"
+          ]
+        },          
+      ],
+    },
+    {
+      type: "category",
       label: "SCP: Secret Laboratory",
       key: "gameserver-scp-secret-laboratory-popular",
       items: [
@@ -672,53 +719,6 @@ const sidebars = {
           key: "gameserver-troubleshooting-scum-popular",
           items: [
             "scum-troubleshooting-common-issues",
-          ]
-        },          
-      ],
-    },
-    {
-      type: "category",
-      label: "Hytale",
-      key: "gameserver-hytale-popular",
-      items: [
-        {
-          type: "category",
-          label: "First Steps",
-          key: "gameserver-first-steps-hytale-popular",
-          items: [
-            "hytale-firststeps-dashboard",
-            "hytale-firststeps-connect",
-            "hytale-obtain-uuid"
-          ]
-        },
-        {
-          type: "category",
-          label: "Configuration",
-          key: "gameserver-configuration-hytale-popular",
-          items: [
-            "hytale-becomeadmin",
-            "hytale-permissions",
-            "hytale-whitelist",
-            "hytale-mods",
-            "hytale-gamemode",
-            "hytale-death-penalty",
-            "hytale-pvp-management",
-            "hytale-commands",
-            "hytale-disable-world-fall-damage",
-            "hytale-teleport-between-worlds",
-            "hytale-change-day-night-duration",
-            "hytale-advanced-item-info",
-            "hytale-change-language"
-          ]
-        },
-        {
-          type: "category",
-          label: "Troubleshooting",
-          key: "gameserver-troubleshooting-hytale-popular",
-          items: [
-            "hytale-troubleshooting-common-issues",
-            "hytale-troubleshooting-slow-connection",
-            "hytale-troubleshooting-hyfixes"
           ]
         },          
       ],
