@@ -487,7 +487,9 @@ const sidebars = {
             "hytale-teleport-between-worlds",
             "hytale-change-day-night-duration",
             "hytale-advanced-item-info",
-            "hytale-change-language"
+            "hytale-change-language",
+            "hytale-become-invisible",
+            "hytale-advanced-permissions-luckperms"
           ]
         },
         {
@@ -2424,7 +2426,9 @@ const sidebars = {
             "hytale-teleport-between-worlds",
             "hytale-change-day-night-duration",
             "hytale-advanced-item-info",
-            "hytale-change-language"
+            "hytale-change-language",
+            "hytale-become-invisible",
+            "hytale-advanced-permissions-luckperms"
           ]
         },
         {
@@ -4790,6 +4794,7 @@ const sidebars = {
         "vserver-linux-nodejs",
         "vserver-linux-notepad++",
         "vserver-linux-odoo",
+        "vserver-linux-openclaw",
         "vserver-linux-openvpn",
         "vserver-linux-php",
         "vserver-linux-phpmyadmin",
@@ -5112,6 +5117,7 @@ const sidebars = {
         "dedicated-linux-nextcloud",
         "dedicated-linux-nodejs",
         "dedicated-linux-notepad++",
+        "dedicated-linux-openclaw",
         "dedicated-linux-openvpn",
         "dedicated-linux-php",
         "dedicated-linux-phpmyadmin",
@@ -5129,6 +5135,7 @@ const sidebars = {
         "dedicated-linux-webserver",
         "dedicated-linux-wordpress",
         "dedicated-linux-xrdp",
+
       ],
     },
     {
