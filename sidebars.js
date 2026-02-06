@@ -489,7 +489,9 @@ const sidebars = {
             "hytale-advanced-item-info",
             "hytale-change-language",
             "hytale-become-invisible",
-            "hytale-advanced-permissions-luckperms"
+            "hytale-advanced-permissions-luckperms",
+            "hytale-bettermap",
+            "hytale-profiler-spark"
           ]
         },
         {
@@ -1901,6 +1903,30 @@ const sidebars = {
     },
     {
       type: "category",
+      label: "Echoes of Elysium",
+      key: "gameserver-echoes-of-elysium",
+      items: [
+        {
+          type: "category",
+          label: "First Steps",
+          key: "gameserver-first-steps-echoes-of-elysium",
+          items: [
+            "echoes-of-elysium-firststeps-dashboard",
+            "echoes-of-elysium-firststeps-connect"
+          ]
+        },
+        {
+          type: "category",
+          label: "Troubleshooting",
+          key: "gameserver-troubleshooting-echoes-of-elysium",
+          items: [
+            "echoes-of-elysium-troubleshooting-common-issues",
+          ]
+        },
+      ],
+    },
+    {
+      type: "category",
       label: "ECO",
       key: "gameserver-eco",
       items: [
@@ -2428,7 +2454,9 @@ const sidebars = {
             "hytale-advanced-item-info",
             "hytale-change-language",
             "hytale-become-invisible",
-            "hytale-advanced-permissions-luckperms"
+            "hytale-advanced-permissions-luckperms",
+            "hytale-bettermap",
+            "hytale-profiler-spark"
           ]
         },
         {

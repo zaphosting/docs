@@ -622,6 +622,18 @@ const servicesMap: serviceMap = {
             description: 'URL path for the gameserver product',
         }),
     },
+    'gameserver-echoes-of-elysium': {
+        title: translate({
+            message: 'Echoes of Elysium Gameserver',
+            id: 'service.gameserver-echoes-of-elysium.title',
+            description: 'Product name for the gameserver product',
+        }),
+        url: translate({
+            message: '{marketingSite}/{language}/echoes-of-elysium-server-hosting/',
+            id: 'service.gameserver-echoes-of-elysium.path',
+            description: 'URL path for the gameserver product',
+        }),
+    },
     'gameserver-eco': {
         title: translate({
             message: 'ECO Gameserver',
