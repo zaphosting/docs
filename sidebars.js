@@ -320,7 +320,8 @@ const sidebars = {
             "fivem-whitelist",
             "fivem-locale",
             "fivem-optimize-textures",
-            "fivem-proxy"
+            "fivem-proxy",
+            "fivem-automated-messages"
           ]
         },
         {
@@ -409,6 +410,7 @@ const sidebars = {
             "minecraft-whitelist",
             "minecraft-timings-report",
             "minecraft-server-optimize",
+            "minecraft-automated-messages"
           ]
         },
         {
@@ -489,7 +491,8 @@ const sidebars = {
             "hytale-advanced-item-info",
             "hytale-change-language",
             "hytale-become-invisible",
-            "hytale-advanced-permissions-luckperms"
+            "hytale-advanced-permissions-luckperms",
+            "hytale-automated-messages"
           ]
         },
         {
@@ -712,7 +715,8 @@ const sidebars = {
           key: "gameserver-configuration-scum-popular",
           items: [
             "scum-becomeadmin",
-            "scum-server-wipe"
+            "scum-server-wipe",
+            "scum-automated-messages"
           ]
         },
         {
@@ -862,7 +866,8 @@ const sidebars = {
           label: "Configuration",
           key: "gameserver-configuration-american-truck-simulator",
           items: [
-            "ats-server-modding"
+            "ats-server-modding",
+            "ats-automated-messages"
           ]
         },
         {
@@ -1135,6 +1140,14 @@ const sidebars = {
         },
         {
           type: "category",
+          label: "Configuration",
+          key: "gameserver-configuration-astro-colony",
+          items: [
+            "astrocolony-automated-messages"
+          ]
+        },
+        {
+          type: "category",
           label: "Troubleshooting",
           key: "gameserver-troubleshooting-astro-colony",
           items: [
@@ -1213,6 +1226,14 @@ const sidebars = {
             "bananashooter-firststeps-dashboard",
             "bananashooter-firststeps-connect",
             "bananashooter-gslt"
+          ]
+        },
+        {
+          type: "category",
+          label: "Configuration",
+          key: "gameserver-configuration-banana-shooter",
+          items: [
+            "bananashooter-automated-messages"
           ]
         },
         {
@@ -1297,6 +1318,14 @@ const sidebars = {
         },
         {
           type: "category",
+          label: "Configuration",
+          key: "gameserver-configuration-battle-grounds-iii",
+          items: [
+            "battlegrounds3-automated-messages"
+          ]
+        },
+        {
+          type: "category",
           label: "Troubleshooting",
           key: "gameserver-troubleshooting-battle-grounds-iii",
           items: [
@@ -1325,7 +1354,8 @@ const sidebars = {
           items: [
             "beammp-authkey",
             "beammp-mods",
-            "beammp-addon-map"
+            "beammp-addon-map",
+            "beammp-automated-messages"
           ]
         },
         {
@@ -1446,6 +1476,14 @@ const sidebars = {
           items: [
             "colonysurvival-firststeps-dashboard",
             "colonysurvival-firststeps-connect",
+          ]
+        },
+        {
+          type: "category",
+          label: "Configuration",
+          key: "gameserver-configuration-colony-survival",
+          items: [
+            "colonysurvival-automated-messages"
           ]
         },
         {
@@ -1608,7 +1646,8 @@ const sidebars = {
           items: [
             "cs16-becomeadmin",
             "cs16-plugins",
-            "cs16-fastdl"
+            "cs16-fastdl",
+            "cs16-automated-messages"
           ]
         },
                 {
@@ -1671,6 +1710,7 @@ const sidebars = {
             "css-rcon",
             "css-becomeadmin",
             "css-plugins",
+            "css-automated-messages"
           ]
         },
         {
@@ -1708,7 +1748,8 @@ const sidebars = {
             "cs2-cstv",
             "cs2-becomeadmin",
             "cs2-plugins",
-            "cs2-fastdl"
+            "cs2-fastdl",
+            "cs2-automated-messages"
           ]
         },
         {
@@ -1746,6 +1787,7 @@ const sidebars = {
             "dods-rcon",
             "dods-becomeadmin",
             "dods-plugins",
+            "dods-automated-messages"
           ]
         },
         {
@@ -1830,6 +1872,14 @@ const sidebars = {
           items: [
             "deadlock-firststeps-dashboard",
             "deadlock-firststeps-connect",
+          ]
+        },
+        {
+          type: "category",
+          label: "Configuration",
+          key: "gameserver-configuration-deadlock",
+          items: [
+            "deadlock-automated-messages"
           ]
         },
         {
@@ -2017,7 +2067,8 @@ const sidebars = {
           label: "Configuration",
           key: "gameserver-configuration-euro-truck-simulator-2",
           items: [
-            "ets2-server-modding"
+            "ets2-server-modding",
+            "ets2-automated-messages"
           ]
         },
         {
@@ -2104,7 +2155,8 @@ const sidebars = {
             "fivem-whitelist",
             "fivem-locale",
             "fivem-optimize-textures",
-            "fivem-proxy"
+            "fivem-proxy",
+            "fivem-automated-messages"
           ]
         },
         {
@@ -2219,6 +2271,7 @@ const sidebars = {
             "gmod-ttt",
             "gmod-fastdl",
             "gmod-rcon",
+            "gmod-automated-messages"
           ]
         },
         {
@@ -2311,6 +2364,7 @@ const sidebars = {
             "hl2-rcon",
             "hl2-becomeadmin",
             "hl2-plugins",
+            "hl2-automated-messages"
           ]
         },
         {
@@ -2359,6 +2413,14 @@ const sidebars = {
           items: [
             "humanitz-firststeps-dashboard",
             "humanitz-firststeps-connect",
+          ]
+        },
+        {
+          type: "category",
+          label: "Configuration",
+          key: "gameserver-configuration-humanitz",
+          items: [
+            "humanitz-automated-messages"
           ]
         },
         {
@@ -2428,7 +2490,8 @@ const sidebars = {
             "hytale-advanced-item-info",
             "hytale-change-language",
             "hytale-become-invisible",
-            "hytale-advanced-permissions-luckperms"
+            "hytale-advanced-permissions-luckperms",
+            "hytale-automated-messages"
           ]
         },
         {
@@ -2553,6 +2616,14 @@ const sidebars = {
         },
         {
           type: "category",
+          label: "Configuration",
+          key: "gameserver-configuration-killing-floor-2",
+          items: [
+            "killingfloor2-automated-messages"
+          ]
+        },
+        {
+          type: "category",
           label: "Troubleshooting",
           key: "gameserver-troubleshooting-killing-floor-2",
           items: [
@@ -2640,6 +2711,7 @@ const sidebars = {
             "l4d2-rcon",
             "l4d2-becomeadmin",
             "l4d2-plugins",
+            "l4d2-automated-messages"
           ]
         },
         {
@@ -2709,6 +2781,7 @@ const sidebars = {
             "minecraft-whitelist",
             "minecraft-timings-report",
             "minecraft-server-optimize",
+            "minecraft-automated-messages"
           ]
         },
         {
@@ -2766,6 +2839,14 @@ const sidebars = {
           key: "gameserver-first-steps-minetest",
           items: [
             "minetest-firststeps-dashboard",
+          ]
+        },
+        {
+          type: "category",
+          label: "Configuration",
+          key: "gameserver-configuration-minetest",
+          items: [
+            "minetest-automated-messages"
           ]
         },
         {
@@ -2875,7 +2956,8 @@ const sidebars = {
           label: "Configuration",
           key: "gameserver-configuration-multi-theft-auto",
           items: [
-            "mta-becomeadmin"
+            "mta-becomeadmin",
+            "mta-automated-messages"
           ]
         },
         {
@@ -2984,6 +3066,14 @@ const sidebars = {
         },
         {
           type: "category",
+          label: "Configuration",
+          key: "gameserver-configuration-nienix",
+          items: [
+            "nienix-automated-messages"
+          ]
+        },
+        {
+          type: "category",
           label: "Troubleshooting",
           key: "gameserver-troubleshooting-nienix",
           items: [
@@ -3003,6 +3093,14 @@ const sidebars = {
           key: "gameserver-first-steps-nightingale",
           items: [
             "nightingale-firststeps-dashboard",
+          ]
+        },
+        {
+          type: "category",
+          label: "Configuration",
+          key: "gameserver-configuration-nightingale",
+          items: [
+            "nightingale-automated-messages"
           ]
         },
         {
@@ -3038,6 +3136,7 @@ const sidebars = {
             "nmrih-rcon",
             "nmrih-becomeadmin",
             "nmrih-plugins",
+            "nmrih-automated-messages"
           ]
         },
         {
@@ -3117,7 +3216,8 @@ const sidebars = {
           items: [
             "openmp-configuration",
             "openmp-server-commands",
-            "openmp-rcon"
+            "openmp-rcon",
+            "openmp-automated-messages"
           ]
         },
         {
@@ -3164,6 +3264,14 @@ const sidebars = {
           key: "gameserver-first-steps-operation-harsh-doorstop",
           items: [
             "ohd-firststeps-dashboard",
+          ]
+        },
+        {
+          type: "category",
+          label: "Configuration",
+          key: "gameserver-configuration-operation-harsh-doorstop",
+          items: [
+            "ohd-automated-messages"
           ]
         },
         {
@@ -3334,6 +3442,7 @@ const sidebars = {
           items: [
             "projectzomboid-rcon",
             "projectzomboid-whitelist",
+            "projectzomboid-automated-messages"
           ]
         },
         {
@@ -3379,6 +3488,7 @@ const sidebars = {
             "redm-steam-web-api-key",
             "redm-locale",
             "redm-devtools",
+            "redm-automated-messages"
           ]
         },
         {
@@ -3439,6 +3549,14 @@ const sidebars = {
         },
         {
           type: "category",
+          label: "Configuration",
+          key: "gameserver-configuration-renown",
+          items: [
+            "renown-automated-messages"
+          ]
+        },
+        {
+          type: "category",
           label: "Troubleshooting",
           key: "gameserver-troubleshooting-renown",
           items: [
@@ -3467,7 +3585,8 @@ const sidebars = {
           items: [
             "rimworldtogether-configuration",
             "rimworldtogether-server-savegames",
-            "rimworldtogether-mods"
+            "rimworldtogether-mods",
+            "rimworldtogether-automated-messages"
           ]
         },
         {
@@ -3537,6 +3656,14 @@ const sidebars = {
           key: "gameserver-first-steps-rising-world",
           items: [
             "risingworld-firststeps-dashboard",
+          ]
+        },
+        {
+          type: "category",
+          label: "Configuration",
+          key: "gameserver-configuration-rising-world",
+          items: [
+            "risingworld-automated-messages"
           ]
         },
         {
@@ -3684,6 +3811,14 @@ const sidebars = {
         },
         {
           type: "category",
+          label: "Configuration",
+          key: "gameserver-configuration-scp-containment-breach",
+          items: [
+            "scp-containmentbreach-automated-messages"
+          ]
+        },
+        {
+          type: "category",
           label: "Troubleshooting",
           key: "gameserver-troubleshooting-scp-containment-breach",
           items: [
@@ -3704,6 +3839,14 @@ const sidebars = {
           items: [
             "scp-escapetogether-firststeps-dashboard",       
             "scp-escapetogether-firststeps-connect",      
+          ]
+        },
+        {
+          type: "category",
+          label: "Configuration",
+          key: "gameserver-configuration-scp-escape-together",
+          items: [
+            "scp-escapetogether-automated-messages"
           ]
         },
         {
@@ -3780,6 +3923,7 @@ const sidebars = {
           key: "gameserver-configuration-scum",
           items: [
             "scum-becomeadmin",
+            "scum-automated-messages"
           ]
         },     
         {
@@ -3805,7 +3949,15 @@ const sidebars = {
             "skyrim-together-reborn-firststeps-dashboard",
             "skyrim-together-reborn-firststeps-connect",
           ]
-        },      
+        },
+        {
+          type: "category",
+          label: "Configuration",
+          key: "gameserver-configuration-skyrim-together-reborn",
+          items: [
+            "skyrim-together-reborn-automated-messages"
+          ]
+        },
         {
           type: "category",
           label: "Troubleshooting",
@@ -3851,6 +4003,14 @@ const sidebars = {
           items: [
             "sonsoftheforest-firststeps-dashboard",
             "sonsoftheforest-firststeps-connect",
+          ]
+        },
+        {
+          type: "category",
+          label: "Configuration",
+          key: "gameserver-configuration-sons-of-the-forest",
+          items: [
+            "sonsoftheforest-automated-messages"
           ]
         },
         {
@@ -4131,6 +4291,14 @@ const sidebars = {
         },
         {
           type: "category",
+          label: "Configuration",
+          key: "gameserver-configuration-sunkenland",
+          items: [
+            "sunkenland-automated-messages"
+          ]
+        },
+        {
+          type: "category",
           label: "Troubleshooting",
           key: "gameserver-troubleshooting-sunkenland",
           items: [
@@ -4163,6 +4331,7 @@ const sidebars = {
             "tf2-rcon",
             "tf2-becomeadmin",
             "tf2-plugins",
+            "tf2-automated-messages"
           ]
         },
         {
@@ -4220,6 +4389,7 @@ const sidebars = {
             "terraria-tshock-add-admin",
             "terraria-tmodloader-installmod",
             "terraria-whitelist",
+            "terraria-automated-messages"
           ]
         },
         {
@@ -4267,6 +4437,14 @@ const sidebars = {
           items: [
             "thebus-firststeps-dashboard",
             "thebus-firststeps-connect"
+          ]
+        },
+        {
+          type: "category",
+          label: "Configuration",
+          key: "gameserver-configuration-the-bus",
+          items: [
+            "thebus-automated-messages"
           ]
         },
         {
@@ -4395,6 +4573,7 @@ const sidebars = {
             "unturned-workshop",
             "unturned-firstthirdperson",
             "unturned-whitelist",
+            "unturned-automated-messages"
           ]
         },
         {
@@ -4491,6 +4670,14 @@ const sidebars = {
         },
         {
           type: "category",
+          label: "Configuration",
+          key: "gameserver-configuration-veloren",
+          items: [
+            "veloren-automated-messages"
+          ]
+        },
+        {
+          type: "category",
           label: "Troubleshooting",
           key: "gameserver-troubleshooting-veloren",
           items: [
@@ -4518,6 +4705,7 @@ const sidebars = {
           key: "gameserver-configuration-vintage-story",
           items: [
             "vintagestory-whitelist",
+            "vintagestory-automated-messages"
           ]
         },
         {
@@ -4542,6 +4730,14 @@ const sidebars = {
           items: [
             "voyagers-of-nera-firststeps-dashboard",
             "voyagers-of-nera-firststeps-connect",
+          ]
+        },
+        {
+          type: "category",
+          label: "Configuration",
+          key: "gameserver-configuration-voyagers-of-nera",
+          items: [
+            "voyagers-of-nera-automated-messages"
           ]
         },
         {
@@ -4627,7 +4823,15 @@ const sidebars = {
             "wreckfest2-firststeps-connect",
           ]
         },
-                {
+        {
+          type: "category",
+          label: "Configuration",
+          key: "gameserver-configuration-wreckfest-2",
+          items: [
+            "wreckfest2-automated-messages"
+          ]
+        },
+        {
           type: "category",
           label: "Troubleshooting",
           key: "gameserver-troubleshooting-wreckfest-2",
@@ -4650,7 +4854,15 @@ const sidebars = {
             "wurmunlimited-firststeps-dashboard",
           ]
         },
-                {
+        {
+          type: "category",
+          label: "Configuration",
+          key: "gameserver-configuration-wurm-unlimited",
+          items: [
+            "wurmunlimited-automated-messages"
+          ]
+        },
+        {
           type: "category",
           label: "Troubleshooting",
           key: "gameserver-troubleshooting-wurm-unlimited",
