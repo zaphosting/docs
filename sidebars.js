@@ -5034,7 +5034,6 @@ const sidebars = {
         "vserver-linux-nodejs",
         "vserver-linux-notepad++",
         "vserver-linux-odoo",
-        "vserver-linux-openclaw",
         "vserver-linux-openvpn",
         "vserver-linux-php",
         "vserver-linux-phpmyadmin",

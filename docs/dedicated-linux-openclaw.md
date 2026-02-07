@@ -1,12 +1,14 @@
 ---
 id: dedicated-linux-openclaw
-title: "Dedicated Server: Setup OpenClaw on Linux - Build Your Personal AI Assistant!"
+title: "Setup OpenClaw on a Linux Server - Build Your Personal AI Assistant!"
 description: "Discover how to set up and configure OpenClaw for self-hosting to build a personal and powerful open-source AI assistant → Learn more now"
 sidebar_label: Install OpenClaw
 services:
-  - dedicated
+  - vserver-service-openclaw
+  - dedicated-service-openclaw
 ---
 
+import Button from '@site/src/components/Button';
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 import InlineVoucher from '@site/src/components/InlineVoucher';
@@ -17,9 +19,13 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/XQkk46EnKzxxWrK/preview)
 
-What makes OpenClaw especially revolutionary is that it enables a modern “control layer” for applications and systems. Rather than being tied to a local desktop session, OpenClaw can run on a remote machine such as a Dedicated Server and still be fully manageable from anywhere. This makes it a powerful tool for users who want reliable automation, remote control, and centralized management without needing to keep a computer running locally.
+What makes OpenClaw especially revolutionary is that it enables a modern “control layer” for applications and systems. Rather than being tied to a local desktop session, OpenClaw can run on a remote machine such as a VPS or Dedicated Server and still be fully manageable from anywhere. This makes it a powerful tool for users who want reliable automation, remote control, and centralized management without needing to keep a computer running locally.
 
 Considering about hosting this service yourself? We’ll walk you through every step on how to set it up and configure it, along with everything you need to keep in mind.
+
+<Button label="Order your own Server with OpenClaw now!" link="https://zap-hosting.com/en/vps-for-openclaw/" block style={{backgroundColor: '#ECFCCB', color: '#27272A', border: '1px solid lightgrey' }} />
+
+<InlineVoucher />
 
 ## Use cases of OpenClaw
 
@@ -46,7 +52,7 @@ Depending on how you plan to use **OpenClaw**, resource usage can increase quick
 | RAM        | 4 GB         | 16 GB                      |
 | Disk space | 25 GB        | 50 GB                      |
 
-
+<Button label="Order your own Server with OpenClaw now!" link="https://zap-hosting.com/en/vps-for-openclaw/" block style={{backgroundColor: '#ECFCCB', color: '#27272A', border: '1px solid lightgrey' }} />
 
 
 ## Installation
@@ -59,7 +65,6 @@ curl -fsSL https://openclaw.ai/install.sh | bash
 After running the command, an interactive installation script will launch automatically and guide you through the setup. The installer checks your environment, installs missing dependencies and then starts the OpenClaw onboarding process. 
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/DJcT4NrJ7ts8Gqn/download)
-
 
 
 ### Platform detection and dependency check
@@ -139,12 +144,12 @@ After that, the onboarding will be marked as completed.  At the end of the setup
 ![img](https://screensaver01.zap-hosting.com/index.php/s/xWNpjYj2XeKgK4J/preview)
 
 
-
+<InlineVoucher />
 
 
 ## Configuration
 
-Our Dedicated Server servers are shipped without a graphical user interface by default. Because of this, OpenClaw runs in headless mode and exposes its Control UI only locally on the server on port `18789`.
+Our VPS and Dedicated Server servers are shipped without a graphical user interface by default. Because of this, OpenClaw runs in headless mode and exposes its Control UI only locally on the server on port `18789`.
 
 Once the installation and onboarding has been completed, OpenClaw prints the dashboard information in the console output:
 
@@ -161,7 +166,7 @@ http://localhost:18789/
 http://127.0.0.1:18789/?token=XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 ```
 
-Since the web interface is bound to `127.0.0.1`, it cannot be accessed directly from the internet.  To securely access it from your PC, create an SSH tunnel that forwards the OpenClaw port from the Dedicated Server to your local machine. 
+Since the web interface is bound to `127.0.0.1`, it cannot be accessed directly from the internet.  To securely access it from your PC, create an SSH tunnel that forwards the OpenClaw port from the VPS/Dedicated Server to your local machine. 
 
 On your PC, open a terminal and run:
 
@@ -185,7 +190,7 @@ http://127.0.0.1:18789/?token=XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 
 :::tip Use a GUI (Desktop Environment)
 
-If you prefer using OpenClaw with a graphical interface, you can install a desktop environment on your Dedicated Server, for example **XFCE**.  After installing a GUI (and a remote desktop solution like RDP or VNC), you can access and control OpenClaw directly through the Dedicated Server desktop instead of using SSH port forwarding.
+If you prefer using OpenClaw with a graphical interface, you can install a desktop environment on your VPS/Dedicated Server, for example **XFCE**.  After installing a GUI (and a remote desktop solution like RDP or VNC), you can access and control OpenClaw directly through the Dedicated Server desktop instead of using SSH port forwarding.
 
 :::
 
@@ -240,7 +245,7 @@ It is recommended to keep OpenClaw protected behind a firewall and avoid exposin
 
 ## Conclusion and more Resources
 
-Congratulations! You have now successfully installed and configured OpenClaw on your Dedicated Server. We also recommend taking a look at the following resources, which could provide you with additional help and guidance during your server configuration process
+Congratulations! You have now successfully installed and configured OpenClaw on your VPS or Dedicated Server. We also recommend taking a look at the following resources, which could provide you with additional help and guidance during your server configuration process
 
 - [openclaw.ai](https://https://openclaw.ai/) - Official Website
 - [docs.openclaw.ai](https://docs.openclaw.ai/start/getting-started) - OpenClaw Documentation
@@ -248,5 +253,4 @@ Congratulations! You have now successfully installed and configured OpenClaw on 
 
 Got specific questions that aren't covered here? For further questions or assistance, please don’t hesitate to contact our support team, which is available daily to assist you! 🙂
 
-
-
+<InlineVoucher />
