@@ -22,11 +22,35 @@ const servicesMap: serviceMap = {
             description: 'URL path for the VPS product',
         }),
     },
+    'vserver-service-openclaw': {
+        title: translate({
+            message: 'VPS for OpenClaw',
+            id: 'service.vserver-service-openclaw.title',
+            description: 'Product name for the OpenClaw product',
+        }),
+        url: translate({
+            message: '{marketingSite}/{language}/vps-hosting/',
+            id: 'service.vserver-service-openclaw.path',
+            description: 'URL path for the VPS product',
+        }),
+    },
     'dedicated': {
         title: translate({
             message: 'Dedicated Server',
             id: 'service.dedicated.title',
             description: 'Product name for the dedicated server product',
+        }),
+        url: translate({
+            message: '{marketingSite}/{language}/dedicated-server-hosting/',
+            id: 'service.dedicated.path',
+            description: 'URL path for the dedicated server product',
+        }),
+    },
+    'dedicated-service-openclaw': {
+        title: translate({
+            message: 'Dedicated Server for OpenClaw',
+            id: 'service.dedicated-service-openclaw.title',
+            description: 'Product name for the OpenClaw product',
         }),
         url: translate({
             message: '{marketingSite}/{language}/dedicated-server-hosting/',

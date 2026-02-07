@@ -214,6 +214,9 @@ const config = {
           },
           {
             to: '/docs/welcome', from: '/docs/dayofinfamy-troubleshooting-common-issues',
+          },
+          {
+            to: '/docs/dedicated-linux-openclawn', from: '/docs/vserver-linux-openclaw',
           }
         ],
       },
