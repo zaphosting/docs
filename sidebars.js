@@ -492,7 +492,7 @@ const sidebars = {
             "hytale-change-language",
             "hytale-become-invisible",
             "hytale-advanced-permissions-luckperms",
-            "hytale-automated-messages"
+            "hytale-automated-messages",
             "hytale-bettermap",
             "hytale-profiler-spark"
           ]
@@ -2517,7 +2517,7 @@ const sidebars = {
             "hytale-change-language",
             "hytale-become-invisible",
             "hytale-advanced-permissions-luckperms",
-            "hytale-automated-messages"
+            "hytale-automated-messages",
             "hytale-bettermap",
             "hytale-profiler-spark"
           ]
