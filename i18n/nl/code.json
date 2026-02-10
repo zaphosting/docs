@@ -1183,12 +1183,6 @@
   "voucherbox.title": {
     "message": "HOSTING KORTING"
   },
-  "contributors.title": {
-    "message": "Handleiding bijdrager(s)"
-  },
-  "contributors.description": {
-    "message": "Word vandaag nog onderdeel van de ZAP-Hosting Community! Doe mee aan onze {contributionLink} om je kennis en expertise te delen door hoogwaardige handleidingen en creatieve content te maken en verdien waardevolle beloningen tot 130€. Begin vandaag en maak het verschil! 🙂"
-  },
   "theme.ErrorPageContent.title": {
     "message": "Deze pagina is gecrasht.",
     "description": "The title of the fallback page when the page crashed"
@@ -1515,5 +1509,98 @@
   "theme.tags.tagsPageTitle": {
     "message": "Tags",
     "description": "The title of the tag list page"
+  },
+  "service.vserver-service-openclaw.title": {
+    "message": "VPS for OpenClaw",
+    "description": "Product name for the OpenClaw product"
+  },
+  "service.vserver-service-openclaw.path": {
+    "message": "{marketingSite}/{language}/vps-hosting/",
+    "description": "URL path for the VPS product"
+  },
+  "service.dedicated-service-openclaw.title": {
+    "message": "Dedicated Server for OpenClaw",
+    "description": "Product name for the OpenClaw product"
+  },
+  "service.gameserver-echoes-of-elysium.title": {
+    "message": "Echoes of Elysium Gameserver",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-echoes-of-elysium.path": {
+    "message": "{marketingSite}/{language}/echoes-of-elysium-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-hytale.title": {
+    "message": "Hytale Gameserver",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-hytale.path": {
+    "message": "{marketingSite}/{language}/hytale-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-nightingale.title": {
+    "message": "Nightingale Gameserver",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-nightingale.path": {
+    "message": "{marketingSite}/{language}/nightingale-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-renown.title": {
+    "message": "Renown Gameserver",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-renown.path": {
+    "message": "{marketingSite}/{language}/renown-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-skyrim-together-reborn.title": {
+    "message": "Skyrim Together Reborn Gameserver",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-skyrim-together-reborn.path": {
+    "message": "{marketingSite}/{language}/skyrim-together-reborn-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-starrupture.title": {
+    "message": "StarRupture Gameserver",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-starrupture.path": {
+    "message": "{marketingSite}/{language}/starrupture-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "contributors.cta.title": {
+    "message": "Word een ZAP-Hosting Contributor!"
+  },
+  "contributors.cta.description": {
+    "message": "Sluit je aan bij ons {contributionLink} en deel je expertise met de community! Creëer inhoud en verdien beloningen. Jouw kennis helpt duizenden gebruikers. Begin vandaag nog met bijdragen!"
+  },
+  "contributors.timeline.step1.title": {
+    "message": "Suggestie"
+  },
+  "contributors.timeline.step1.description": {
+    "message": "Deel je gids-idee via het GitHub Suggestieformulier."
+  },
+  "contributors.timeline.step2.title": {
+    "message": "Goedkeuring"
+  },
+  "contributors.timeline.step2.description": {
+    "message": "Ontvang feedback en goedkeuring voor je suggestie binnen enkele dagen"
+  },
+  "contributors.timeline.step3.title": {
+    "message": "Inhoud maken"
+  },
+  "contributors.timeline.step3.description": {
+    "message": "Maak hoogwaardige inhoud volgens onze richtlijnen"
+  },
+  "contributors.timeline.step4.title": {
+    "message": "Beloningen verdienen"
+  },
+  "contributors.timeline.step4.description": {
+    "message": "Ontvang betaling voor je goedgekeurde bijdrage. Verdien tot 130€!"
+  },
+  "contributors.document.title": {
+    "message": "Bijdragers aan deze inhoud"
   }
 }

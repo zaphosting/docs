@@ -1172,12 +1172,6 @@
   "voucherbox.title": {
     "message": "ホスティング割引"
   },
-  "contributors.title": {
-    "message": "ガイド寄稿者"
-  },
-  "contributors.description": {
-    "message": "今日からZAP-Hostingコミュニティの一員になりましょう！{contributionLink}に参加して、高品質なガイドやクリエイティブなコンテンツを制作しながら、最大130€の貴重な報酬を獲得して知識と専門知識を共有しましょう。今すぐ始めて、違いを生み出しましょう！🙂"
-  },
   "theme.ErrorPageContent.title": {
     "message": "エラーが発生しました",
     "description": "The title of the fallback page when the page crashed"
@@ -1547,5 +1541,66 @@
   "service.gameserver-skyrim-together-reborn.path": {
     "message": "{marketingSite}/{language}/skyrim-together-reborn-server-hosting/",
     "description": "URL path for the gameserver product"
+  },
+  "service.vserver-service-openclaw.title": {
+    "message": "VPS for OpenClaw",
+    "description": "Product name for the OpenClaw product"
+  },
+  "service.vserver-service-openclaw.path": {
+    "message": "{marketingSite}/{language}/vps-hosting/",
+    "description": "URL path for the VPS product"
+  },
+  "service.dedicated-service-openclaw.title": {
+    "message": "Dedicated Server for OpenClaw",
+    "description": "Product name for the OpenClaw product"
+  },
+  "service.gameserver-echoes-of-elysium.title": {
+    "message": "Echoes of Elysium Gameserver",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-echoes-of-elysium.path": {
+    "message": "{marketingSite}/{language}/echoes-of-elysium-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-starrupture.title": {
+    "message": "StarRupture Gameserver",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-starrupture.path": {
+    "message": "{marketingSite}/{language}/starrupture-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "contributors.cta.title": {
+    "message": "ZAP-Hostingコントリビューターになろう！"
+  },
+  "contributors.cta.description": {
+    "message": "{contributionLink}に参加して、コミュニティと専門知識を共有しましょう！コンテンツを作成して報酬を獲得できます。あなたの知識が何千ものユーザーの役に立ちます。今すぐ貢献を始めましょう！"
+  },
+  "contributors.timeline.step1.title": {
+    "message": "提案"
+  },
+  "contributors.timeline.step1.description": {
+    "message": "GitHubの提案フォームからガイドのアイデアを共有してください。"
+  },
+  "contributors.timeline.step2.title": {
+    "message": "承認"
+  },
+  "contributors.timeline.step2.description": {
+    "message": "数日以内に提案へのフィードバックと承認を受け取ります"
+  },
+  "contributors.timeline.step3.title": {
+    "message": "コンテンツ作成"
+  },
+  "contributors.timeline.step3.description": {
+    "message": "ガイドラインに従って高品質なコンテンツを作成します"
+  },
+  "contributors.timeline.step4.title": {
+    "message": "報酬を獲得"
+  },
+  "contributors.timeline.step4.description": {
+    "message": "承認された貢献に対して報酬を受け取ります。最大130€を獲得！"
+  },
+  "contributors.document.title": {
+    "message": "このコンテンツの貢献者"
   }
 }

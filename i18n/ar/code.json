@@ -1183,12 +1183,6 @@
   "voucherbox.title": {
     "message": "خصم التأجير"
   },
-  "contributors.title": {
-    "message": "مساهم(ون) في الدليل"
-  },
-  "contributors.description": {
-    "message": "كن جزءًا من مجتمع ZAP-Hosting اليوم! انضم إلى {contributionLink} لمشاركة معرفتك وخبرتك من خلال إنتاج أدلة عالية الجودة ومحتوى إبداعي مع كسب مكافآت قيمة تصل إلى 130€. ابدأ اليوم واصنع الفرق! 🙂"
-  },
   "theme.ErrorPageContent.title": {
     "message": "تعطلت هذه الصفحة.",
     "description": "The title of the fallback page when the page crashed"
@@ -1547,5 +1541,66 @@
   "service.gameserver-skyrim-together-reborn.path": {
     "message": "{marketingSite}/{language}/skyrim-together-reborn-server-hosting/",
     "description": "URL path for the gameserver product"
+  },
+  "service.vserver-service-openclaw.title": {
+    "message": "VPS for OpenClaw",
+    "description": "Product name for the OpenClaw product"
+  },
+  "service.vserver-service-openclaw.path": {
+    "message": "{marketingSite}/{language}/vps-hosting/",
+    "description": "URL path for the VPS product"
+  },
+  "service.dedicated-service-openclaw.title": {
+    "message": "Dedicated Server for OpenClaw",
+    "description": "Product name for the OpenClaw product"
+  },
+  "service.gameserver-echoes-of-elysium.title": {
+    "message": "Echoes of Elysium Gameserver",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-echoes-of-elysium.path": {
+    "message": "{marketingSite}/{language}/echoes-of-elysium-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-starrupture.title": {
+    "message": "StarRupture Gameserver",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-starrupture.path": {
+    "message": "{marketingSite}/{language}/starrupture-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "contributors.cta.title": {
+    "message": "كن مساهمًا في ZAP-Hosting!"
+  },
+  "contributors.cta.description": {
+    "message": "انضم إلى {contributionLink} الخاص بنا وشارك خبرتك مع المجتمع! أنشئ محتوى واحصل على مكافآت. معرفتك تساعد آلاف المستخدمين. ابدأ المساهمة اليوم!"
+  },
+  "contributors.timeline.step1.title": {
+    "message": "اقتراح"
+  },
+  "contributors.timeline.step1.description": {
+    "message": "شارك فكرة الدليل الخاصة بك عبر نموذج الاقتراحات على GitHub."
+  },
+  "contributors.timeline.step2.title": {
+    "message": "موافقة"
+  },
+  "contributors.timeline.step2.description": {
+    "message": "احصل على تعليقات وموافقة على اقتراحك في غضون أيام قليلة"
+  },
+  "contributors.timeline.step3.title": {
+    "message": "إنشاء المحتوى"
+  },
+  "contributors.timeline.step3.description": {
+    "message": "أنشئ محتوى عالي الجودة وفقًا لإرشاداتنا"
+  },
+  "contributors.timeline.step4.title": {
+    "message": "كسب المكافآت"
+  },
+  "contributors.timeline.step4.description": {
+    "message": "احصل على أجر مقابل مساهمتك المعتمدة. اكسب حتى 130 يورو!"
+  },
+  "contributors.document.title": {
+    "message": "المساهمون في هذا المحتوى"
   }
 }
