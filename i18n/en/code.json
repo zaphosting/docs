@@ -1172,6 +1172,12 @@
   "voucherbox.title": {
     "message": "HOSTING DISCOUNT"
   },
+  "contributors.title": {
+    "message": "Guide Contributor(s)"
+  },
+  "contributors.description": {
+    "message": "Become a part of the ZAP-Hosting Community today! Join our {contributionLink} to share your knowledge and expertise by producing high-quality guides & creative content whilst earning valuable rewards up to 130€. Begin today and make a difference! 🙂"
+  },
   "theme.ErrorPageContent.title": {
     "message": "This page crashed.",
     "description": "The title of the fallback page when the page crashed"

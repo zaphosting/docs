@@ -443,6 +443,12 @@
     "message": "Diese Seite ist ein Entwurf. Sie ist nur in der Entwicklung sichtbar und wird vom Produktions-Build ausgeschlossen.",
     "description": "The draft content banner message"
   },
+  "contributors.title": {
+    "message": "Anleitung Mitwirkende(r)"
+  },
+  "contributors.description": {
+    "message": "Werde noch heute Teil der ZAP-Hosting-Community! Tritt unserem {contributionLink} bei, um dein Wissen und deine Expertise zu teilen, indem du hochwertige Anleitungen und kreative Inhalte erstellst und gleichzeitig wertvolle Belohnungen (bis zu 130€) erhältst. Fange noch heute an und bewirke etwas! 🙂"
+  },
   "theme.blog.author.noPosts": {
     "message": "Dieser Autor hat noch keine Beiträge geschrieben.",
     "description": "The text for authors with 0 blog post"
@@ -1569,66 +1575,5 @@
   "service.gameserver-skyrim-together-reborn.path": {
     "message": "{marketingSite}/{language}/skyrim-together-reborn-server-hosting/",
     "description": "URL path for the gameserver product"
-  },
-  "service.vserver-service-openclaw.title": {
-    "message": "VPS for OpenClaw",
-    "description": "Product name for the OpenClaw product"
-  },
-  "service.vserver-service-openclaw.path": {
-    "message": "{marketingSite}/{language}/vps-hosting/",
-    "description": "URL path for the VPS product"
-  },
-  "service.dedicated-service-openclaw.title": {
-    "message": "Dedicated Server for OpenClaw",
-    "description": "Product name for the OpenClaw product"
-  },
-  "service.gameserver-echoes-of-elysium.title": {
-    "message": "Echoes of Elysium Gameserver",
-    "description": "Product name for the gameserver product"
-  },
-  "service.gameserver-echoes-of-elysium.path": {
-    "message": "{marketingSite}/{language}/echoes-of-elysium-server-hosting/",
-    "description": "URL path for the gameserver product"
-  },
-  "service.gameserver-starrupture.title": {
-    "message": "StarRupture Gameserver",
-    "description": "Product name for the gameserver product"
-  },
-  "service.gameserver-starrupture.path": {
-    "message": "{marketingSite}/{language}/starrupture-server-hosting/",
-    "description": "URL path for the gameserver product"
-  },
-  "contributors.cta.title": {
-    "message": "Werde ein ZAP-Hosting Contributor!"
-  },
-  "contributors.cta.description": {
-    "message": "Tritt unserem {contributionLink} bei und teile dein Fachwissen mit der Community! Erstelle Inhalte und verdiene Belohnungen. Dein Wissen hilft Tausenden von Nutzern. Starte noch heute!"
-  },
-  "contributors.timeline.step1.title": {
-    "message": "Vorschlag"
-  },
-  "contributors.timeline.step1.description": {
-    "message": "Teile deine Guide-Idee über das GitHub Vorschlagsformular."
-  },
-  "contributors.timeline.step2.title": {
-    "message": "Genehmigung"
-  },
-  "contributors.timeline.step2.description": {
-    "message": "Erhalte Feedback & Genehmigung zu deinem Vorschlag innerhalb weniger Tage"
-  },
-  "contributors.timeline.step3.title": {
-    "message": "Inhalt erstellen"
-  },
-  "contributors.timeline.step3.description": {
-    "message": "Erstelle hochwertige Inhalte nach unseren Richtlinien"
-  },
-  "contributors.timeline.step4.title": {
-    "message": "Belohnungen verdienen"
-  },
-  "contributors.timeline.step4.description": {
-    "message": "Werde für deinen genehmigten Beitrag bezahlt. Verdiene bis zu 130€!"
-  },
-  "contributors.document.title": {
-    "message": "Mitwirkende an diesem Inhalt"
   }
 }

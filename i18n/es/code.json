@@ -1172,6 +1172,12 @@
   "voucherbox.title": {
     "message": "Frameworks"
   },
+  "contributors.title": {
+    "message": "ESX"
+  },
+  "contributors.description": {
+    "message": "¡Forma parte de la Comunidad de ZAP-Hosting hoy mismo! Únete a nuestro {contributionLink} para compartir tu conocimiento y experiencia produciendo guías de alta calidad y contenido creativo mientras ganas valiosas recompensas de hasta 130€. ¡Comienza hoy y marca la diferencia! 🙂"
+  },
   "theme.ErrorPageContent.title": {
     "message": "QBCore",
     "description": "The title of the fallback page when the page crashed"
@@ -1541,66 +1547,5 @@
   "service.gameserver-skyrim-together-reborn.path": {
     "message": "{marketingSite}/{language}/skyrim-together-reborn-server-hosting/",
     "description": "URL path for the gameserver product"
-  },
-  "service.vserver-service-openclaw.title": {
-    "message": "VPS for OpenClaw",
-    "description": "Product name for the OpenClaw product"
-  },
-  "service.vserver-service-openclaw.path": {
-    "message": "{marketingSite}/{language}/vps-hosting/",
-    "description": "URL path for the VPS product"
-  },
-  "service.dedicated-service-openclaw.title": {
-    "message": "Dedicated Server for OpenClaw",
-    "description": "Product name for the OpenClaw product"
-  },
-  "service.gameserver-echoes-of-elysium.title": {
-    "message": "Echoes of Elysium Gameserver",
-    "description": "Product name for the gameserver product"
-  },
-  "service.gameserver-echoes-of-elysium.path": {
-    "message": "{marketingSite}/{language}/echoes-of-elysium-server-hosting/",
-    "description": "URL path for the gameserver product"
-  },
-  "service.gameserver-starrupture.title": {
-    "message": "StarRupture Gameserver",
-    "description": "Product name for the gameserver product"
-  },
-  "service.gameserver-starrupture.path": {
-    "message": "{marketingSite}/{language}/starrupture-server-hosting/",
-    "description": "URL path for the gameserver product"
-  },
-  "contributors.cta.title": {
-    "message": "¡Conviértete en un Contributor de ZAP-Hosting!"
-  },
-  "contributors.cta.description": {
-    "message": "¡Únete a nuestro {contributionLink} y comparte tu experiencia con la comunidad! Crea contenido y gana recompensas. Tu conocimiento ayuda a miles de usuarios. ¡Comienza a contribuir hoy!"
-  },
-  "contributors.timeline.step1.title": {
-    "message": "Sugerencia"
-  },
-  "contributors.timeline.step1.description": {
-    "message": "Comparte tu idea de guía a través del formulario de sugerencias de GitHub."
-  },
-  "contributors.timeline.step2.title": {
-    "message": "Aprobación"
-  },
-  "contributors.timeline.step2.description": {
-    "message": "Recibe comentarios y aprobación de tu sugerencia en pocos días"
-  },
-  "contributors.timeline.step3.title": {
-    "message": "Crear contenido"
-  },
-  "contributors.timeline.step3.description": {
-    "message": "Crea contenido de alta calidad siguiendo nuestras pautas"
-  },
-  "contributors.timeline.step4.title": {
-    "message": "Ganar recompensas"
-  },
-  "contributors.timeline.step4.description": {
-    "message": "Recibe pago por tu contribución aprobada. ¡Gana hasta 130€!"
-  },
-  "contributors.document.title": {
-    "message": "Colaboradores de este contenido"
   }
 }

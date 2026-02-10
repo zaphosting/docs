@@ -30,13 +30,5 @@
   "item.label.Voicebot & Voiceserver": {
     "message": "Voicebot & Voiceserver",
     "description": "Navbar item with label Voicebot & Voiceserver"
-  },
-  "item.label.Domain": {
-    "message": "Domain",
-    "description": "Navbar item with label Domain"
-  },
-  "item.label.Webspace": {
-    "message": "Webspace",
-    "description": "Navbar item with label Webspace"
   }
 }
