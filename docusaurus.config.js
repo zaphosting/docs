@@ -36,6 +36,7 @@ const config = {
 
   customFields: {
     marketingSite: 'https://zap-hosting.com',
+    searchSite: 'https://zap-hosting.com'
   },
 
   // Even if you don't use internalization, you can use this field to set useful
@@ -227,12 +228,6 @@ const config = {
       containerId: 'GTM-5R9FLS69',
     },
     ],
-    [ 
-      require.resolve('docusaurus-lunr-search'),
-      {
-        languages: ['en', 'de'] // language codes
-      }
-    ]
   ],
   
   presets: [
