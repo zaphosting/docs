@@ -1215,12 +1215,6 @@
   "voucherbox.title": {
     "message": "主机折扣"
   },
-  "contributors.title": {
-    "message": "指南贡献者"
-  },
-  "contributors.description": {
-    "message": "Become a part of the ZAP-Hosting Community today! Join our {contributionLink} to share your knowledge and expertise by producing high-quality guides & creative content whilst earning valuable rewards up to 130€. Begin today and make a difference! 🙂"
-  },
   "theme.ErrorPageContent.title": {
     "message": "页面已崩溃。",
     "description": "The title of the fallback page when the page crashed"
@@ -1547,5 +1541,66 @@
   "theme.tags.tagsPageTitle": {
     "message": "标签",
     "description": "The title of the tag list page"
+  },
+  "service.vserver-service-openclaw.title": {
+    "message": "VPS for OpenClaw",
+    "description": "Product name for the OpenClaw product"
+  },
+  "service.vserver-service-openclaw.path": {
+    "message": "{marketingSite}/{language}/vps-hosting/",
+    "description": "URL path for the VPS product"
+  },
+  "service.dedicated-service-openclaw.title": {
+    "message": "Dedicated Server for OpenClaw",
+    "description": "Product name for the OpenClaw product"
+  },
+  "service.gameserver-echoes-of-elysium.title": {
+    "message": "Echoes of Elysium Gameserver",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-echoes-of-elysium.path": {
+    "message": "{marketingSite}/{language}/echoes-of-elysium-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-starrupture.title": {
+    "message": "StarRupture Gameserver",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-starrupture.path": {
+    "message": "{marketingSite}/{language}/starrupture-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "contributors.cta.title": {
+    "message": "成为ZAP-Hosting贡献者！"
+  },
+  "contributors.cta.description": {
+    "message": "加入我们的{contributionLink}，与社区分享您的专业知识！创作内容并获得奖励。您的知识帮助了成千上万的用户。今天就开始贡献吧！"
+  },
+  "contributors.timeline.step1.title": {
+    "message": "建议"
+  },
+  "contributors.timeline.step1.description": {
+    "message": "通过GitHub建议表单分享您的指南想法。"
+  },
+  "contributors.timeline.step2.title": {
+    "message": "审批"
+  },
+  "contributors.timeline.step2.description": {
+    "message": "在几天内收到对您建议的反馈和批准"
+  },
+  "contributors.timeline.step3.title": {
+    "message": "创作内容"
+  },
+  "contributors.timeline.step3.description": {
+    "message": "按照我们的指导方针创作高质量内容"
+  },
+  "contributors.timeline.step4.title": {
+    "message": "获得奖励"
+  },
+  "contributors.timeline.step4.description": {
+    "message": "为您批准的贡献获得报酬。赚取高达130欧元！"
+  },
+  "contributors.document.title": {
+    "message": "此内容的贡献者"
   }
 }
