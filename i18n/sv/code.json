@@ -1183,12 +1183,6 @@
   "voucherbox.title": {
     "message": "HOSTING-RABATT"
   },
-  "contributors.title": {
-    "message": "Guidebidragsgivare"
-  },
-  "contributors.description": {
-    "message": "Bli en del av ZAP-Hosting Community idag! Gå med i vår {contributionLink} för att dela din kunskap och expertis genom att producera högkvalitativa guider och kreativt innehåll samtidigt som du tjänar värdefulla belöningar upp till 130€. Börja idag och gör skillnad! 🙂"
-  },
   "theme.ErrorPageContent.title": {
     "message": "Denna sida har kraschat.",
     "description": "The title of the fallback page when the page crashed"
@@ -1515,5 +1509,98 @@
   "theme.tags.tagsPageTitle": {
     "message": "Taggar",
     "description": "The title of the tag list page"
+  },
+  "service.vserver-service-openclaw.title": {
+    "message": "VPS for OpenClaw",
+    "description": "Product name for the OpenClaw product"
+  },
+  "service.vserver-service-openclaw.path": {
+    "message": "{marketingSite}/{language}/vps-hosting/",
+    "description": "URL path for the VPS product"
+  },
+  "service.dedicated-service-openclaw.title": {
+    "message": "Dedicated Server for OpenClaw",
+    "description": "Product name for the OpenClaw product"
+  },
+  "service.gameserver-echoes-of-elysium.title": {
+    "message": "Echoes of Elysium Gameserver",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-echoes-of-elysium.path": {
+    "message": "{marketingSite}/{language}/echoes-of-elysium-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-hytale.title": {
+    "message": "Hytale Gameserver",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-hytale.path": {
+    "message": "{marketingSite}/{language}/hytale-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-nightingale.title": {
+    "message": "Nightingale Gameserver",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-nightingale.path": {
+    "message": "{marketingSite}/{language}/nightingale-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-renown.title": {
+    "message": "Renown Gameserver",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-renown.path": {
+    "message": "{marketingSite}/{language}/renown-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-skyrim-together-reborn.title": {
+    "message": "Skyrim Together Reborn Gameserver",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-skyrim-together-reborn.path": {
+    "message": "{marketingSite}/{language}/skyrim-together-reborn-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-starrupture.title": {
+    "message": "StarRupture Gameserver",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-starrupture.path": {
+    "message": "{marketingSite}/{language}/starrupture-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "contributors.cta.title": {
+    "message": "Bli en ZAP-Hosting Contributor!"
+  },
+  "contributors.cta.description": {
+    "message": "Gå med i vårt {contributionLink} och dela din expertis med communityn! Skapa innehåll och tjäna belöningar. Din kunskap hjälper tusentals användare. Börja bidra idag!"
+  },
+  "contributors.timeline.step1.title": {
+    "message": "Förslag"
+  },
+  "contributors.timeline.step1.description": {
+    "message": "Dela din guide-idé via GitHub-förslagsformuläret."
+  },
+  "contributors.timeline.step2.title": {
+    "message": "Godkännande"
+  },
+  "contributors.timeline.step2.description": {
+    "message": "Få feedback och godkännande av ditt förslag inom några dagar"
+  },
+  "contributors.timeline.step3.title": {
+    "message": "Skapa innehåll"
+  },
+  "contributors.timeline.step3.description": {
+    "message": "Skapa högkvalitativt innehåll enligt våra riktlinjer"
+  },
+  "contributors.timeline.step4.title": {
+    "message": "Tjäna belöningar"
+  },
+  "contributors.timeline.step4.description": {
+    "message": "Få betalt för ditt godkända bidrag. Tjäna upp till 130€!"
+  },
+  "contributors.document.title": {
+    "message": "Bidragsgivare till detta innehåll"
   }
 }

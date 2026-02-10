@@ -1172,12 +1172,6 @@
   "voucherbox.title": {
     "message": "บล็อก"
   },
-  "contributors.title": {
-    "message": "ฐานข้อมูล"
-  },
-  "contributors.description": {
-    "message": "เข้าร่วมเป็นส่วนหนึ่งของชุมชน ZAP-Hosting วันนี้! เข้าร่วม {contributionLink} ของเราเพื่อแบ่งปันความรู้และความเชี่ยวชาญของคุณโดยการสร้างคู่มือคุณภาพสูงและเนื้อหาสร้างสรรค์ พร้อมรับรางวัลสุดคุ้มสูงสุดถึง 130€ เริ่มต้นวันนี้และสร้างความเปลี่ยนแปลง! 🙂"
-  },
   "theme.ErrorPageContent.title": {
     "message": "FiveM",
     "description": "The title of the fallback page when the page crashed"
@@ -1547,5 +1541,66 @@
   "service.gameserver-skyrim-together-reborn.path": {
     "message": "{marketingSite}/{language}/skyrim-together-reborn-server-hosting/",
     "description": "URL path for the gameserver product"
+  },
+  "service.vserver-service-openclaw.title": {
+    "message": "VPS for OpenClaw",
+    "description": "Product name for the OpenClaw product"
+  },
+  "service.vserver-service-openclaw.path": {
+    "message": "{marketingSite}/{language}/vps-hosting/",
+    "description": "URL path for the VPS product"
+  },
+  "service.dedicated-service-openclaw.title": {
+    "message": "Dedicated Server for OpenClaw",
+    "description": "Product name for the OpenClaw product"
+  },
+  "service.gameserver-echoes-of-elysium.title": {
+    "message": "Echoes of Elysium Gameserver",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-echoes-of-elysium.path": {
+    "message": "{marketingSite}/{language}/echoes-of-elysium-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-starrupture.title": {
+    "message": "StarRupture Gameserver",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-starrupture.path": {
+    "message": "{marketingSite}/{language}/starrupture-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "contributors.cta.title": {
+    "message": "เป็นผู้สนับสนุน ZAP-Hosting!"
+  },
+  "contributors.cta.description": {
+    "message": "เข้าร่วม {contributionLink} ของเราและแบ่งปันความเชี่ยวชาญของคุณกับชุมชน! สร้างเนื้อหาและรับรางวัล ความรู้ของคุณช่วยเหลือผู้ใช้หลายพันคน เริ่มมีส่วนร่วมวันนี้!"
+  },
+  "contributors.timeline.step1.title": {
+    "message": "ข้อเสนอแนะ"
+  },
+  "contributors.timeline.step1.description": {
+    "message": "แบ่งปันไอเดียคู่มือของคุณผ่านแบบฟอร์มข้อเสนอแนะ GitHub"
+  },
+  "contributors.timeline.step2.title": {
+    "message": "การอนุมัติ"
+  },
+  "contributors.timeline.step2.description": {
+    "message": "รับคำติชมและการอนุมัติข้อเสนอแนะของคุณภายในไม่กี่วัน"
+  },
+  "contributors.timeline.step3.title": {
+    "message": "สร้างเนื้อหา"
+  },
+  "contributors.timeline.step3.description": {
+    "message": "สร้างเนื้อหาคุณภาพสูงตามแนวทางของเรา"
+  },
+  "contributors.timeline.step4.title": {
+    "message": "รับรางวัล"
+  },
+  "contributors.timeline.step4.description": {
+    "message": "รับค่าตอบแทนสำหรับการมีส่วนร่วมที่ได้รับการอนุมัติ รับได้ถึง 130€!"
+  },
+  "contributors.document.title": {
+    "message": "ผู้มีส่วนร่วมในเนื้อหานี้"
   }
 }
