@@ -1,10 +1,11 @@
 ---
 id: vserver-windows-bitwarden
-title: "VPS: Setup Bitwarden on Windows"
+title: "Setup Bitwarden on Windows"
 description: "Discover how to securely self-host Bitwarden for managing passwords with end-to-end encryption and strong credential features → Learn more now"
 sidebar_label: Install Bitwarden
 services:
   - vserver
+  - dedicated
 ---
 
 import Tabs from '@theme/Tabs';
@@ -131,7 +132,7 @@ Finally start the instance with `.\bitwarden.ps1 -start`. The first run may take
 
 ## Conclusion and more Resources
 
-Congratulations! You have now successfully installed and configured Bitwarden on your VPS. We also recommend taking a look at the following resources, which could provide you with additional help and guidance during your server configuration process
+Congratulations! You have now successfully installed and configured Bitwarden on your VPS/Dedicated Server. We also recommend taking a look at the following resources, which could provide you with additional help and guidance during your server configuration process
 
 - [bitwarden.com](https://bitwarden.com/) - Official Website
 - https://bitwarden.com/help/ - Bitwarden Help Center (Documentation)

@@ -1,9 +1,10 @@
 ---
 id: dedicated-linux-mastodon
-title: "Dedicated Server: Installation of Mastodon"
+title: "Installation of Mastodon"
 description: "Discover how to set up a secure, self-hosted Mastodon social network on Debian-based servers for independent microblogging → Learn more now"
 sidebar_label: Install Mastodon
 services:
+  - vserver
   - dedicated
 ---
 

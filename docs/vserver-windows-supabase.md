@@ -1,10 +1,11 @@
 ---
 id: vserver-windows-supabase
-title: "VPS: Setup Supabase on Windows"
+title: "Setup Supabase on Windows"
 description: "Discover how to set up and configure Supabase for a reliable open-source Postgres platform with authentication and realtime features → Learn more now"
 sidebar_label: Install Supabase
 services:
   - vserver
+  - dedicated
 ---
 
 import Tabs from '@theme/Tabs';
@@ -143,7 +144,7 @@ docker compose up -d
 
 ## Conclusion and more Resources
 
-Congratulations! You have now successfully installed and configured Supabase on your VPS. We also recommend taking a look at the following resources, which could provide you with additional help and guidance during your server configuration process
+Congratulations! You have now successfully installed and configured Supabase on your VPS/Dedicated Server. We also recommend taking a look at the following resources, which could provide you with additional help and guidance during your server configuration process
 
 - [Supabase.com](https://Supabase.com/) - Official Website
 - [Supabase.com/docs/guides/self-hosting](https://supabase.com/docs/guides/self-hosting) - Supabase Documentation
