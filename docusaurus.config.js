@@ -362,6 +362,177 @@ const config = {
           {
             to: '/docs/dedicated-windows-python', from: '/docs/vserver-windows-python',
           },
+          // vserver-linux gameserver → dedicated-linux gameserver redirects
+          {
+            to: '/docs/dedicated-linux-steamcmd', from: '/docs/vserver-linux-steamcmd',
+          },
+          {
+            to: '/docs/dedicated-linux-wine', from: '/docs/vserver-linux-wine',
+          },
+          {
+            to: '/docs/dedicated-linux-create-gameservice', from: '/docs/vserver-linux-create-gameservice',
+          },
+          {
+            to: '/docs/dedicated-linux-arksurvivalascended', from: '/docs/vserver-linux-arksurvivalascended',
+          },
+          {
+            to: '/docs/dedicated-linux-avorion', from: '/docs/vserver-linux-avorion',
+          },
+          {
+            to: '/docs/dedicated-linux-conan', from: '/docs/vserver-linux-conan',
+          },
+          {
+            to: '/docs/dedicated-linux-enshrouded', from: '/docs/vserver-linux-enshrouded',
+          },
+          {
+            to: '/docs/dedicated-linux-fivem', from: '/docs/vserver-linux-fivem',
+          },
+          {
+            to: '/docs/dedicated-linux-foundry', from: '/docs/vserver-linux-foundry',
+          },
+          {
+            to: '/docs/dedicated-linux-hytale', from: '/docs/vserver-linux-hytale',
+          },
+          {
+            to: '/docs/dedicated-linux-mythofempires', from: '/docs/vserver-linux-mythofempires',
+          },
+          {
+            to: '/docs/dedicated-linux-openmp', from: '/docs/vserver-linux-openmp',
+          },
+          {
+            to: '/docs/dedicated-linux-palworld', from: '/docs/vserver-linux-palworld',
+          },
+          {
+            to: '/docs/dedicated-linux-ragemp', from: '/docs/vserver-linux-ragemp',
+          },
+          {
+            to: '/docs/dedicated-linux-rust', from: '/docs/vserver-linux-rust',
+          },
+          {
+            to: '/docs/dedicated-linux-satisfactory', from: '/docs/vserver-linux-satisfactory',
+          },
+          {
+            to: '/docs/dedicated-linux-soulmask', from: '/docs/vserver-linux-soulmask',
+          },
+          {
+            to: '/docs/dedicated-linux-valheim', from: '/docs/vserver-linux-valheim',
+          },
+          {
+            to: '/docs/dedicated-linux-vrising', from: '/docs/vserver-linux-vrising',
+          },
+          {
+            to: '/docs/dedicated-linux-cs16', from: '/docs/vserver-linux-cs16',
+          },
+          {
+            to: '/docs/dedicated-linux-cscz', from: '/docs/vserver-linux-cscz',
+          },
+          {
+            to: '/docs/dedicated-linux-css', from: '/docs/vserver-linux-css',
+          },
+          {
+            to: '/docs/dedicated-linux-cs2', from: '/docs/vserver-linux-cs2',
+          },
+          {
+            to: '/docs/dedicated-linux-tf2', from: '/docs/vserver-linux-tf2',
+          },
+          {
+            to: '/docs/dedicated-linux-dods', from: '/docs/vserver-linux-dods',
+          },
+          {
+            to: '/docs/dedicated-linux-l4d2', from: '/docs/vserver-linux-l4d2',
+          },
+          {
+            to: '/docs/dedicated-linux-nmrih', from: '/docs/vserver-linux-nmrih',
+          },
+          {
+            to: '/docs/dedicated-linux-hl2', from: '/docs/vserver-linux-hl2',
+          },
+          // dedicated-windows gameserver → vserver-windows gameserver redirects
+          {
+            to: '/docs/vserver-windows-arksurvivalascended', from: '/docs/dedicated-windows-arksurvivalascended',
+          },
+          {
+            to: '/docs/vserver-windows-enshrouded', from: '/docs/dedicated-windows-enshrouded',
+          },
+          {
+            to: '/docs/vserver-windows-fs-19', from: '/docs/dedicated-windows-fs-19',
+          },
+          {
+            to: '/docs/vserver-windows-fs-22', from: '/docs/dedicated-windows-fs-22',
+          },
+          {
+            to: '/docs/vserver-windows-openmp', from: '/docs/dedicated-windows-openmp',
+          },
+          {
+            to: '/docs/vserver-windows-valheim', from: '/docs/dedicated-windows-valheim',
+          },
+          {
+            to: '/docs/vserver-windows-vrising', from: '/docs/dedicated-windows-vrising',
+          },
+          // vserver-windows gameserver → dedicated-windows gameserver redirects
+          {
+            to: '/docs/dedicated-windows-avorion', from: '/docs/vserver-windows-avorion',
+          },
+          {
+            to: '/docs/dedicated-windows-conan', from: '/docs/vserver-windows-conan',
+          },
+          {
+            to: '/docs/dedicated-windows-fivem', from: '/docs/vserver-windows-fivem',
+          },
+          {
+            to: '/docs/dedicated-windows-foundry', from: '/docs/vserver-windows-foundry',
+          },
+          {
+            to: '/docs/dedicated-windows-fs-22-epic', from: '/docs/vserver-windows-fs-22-epic',
+          },
+          {
+            to: '/docs/dedicated-windows-fs-25', from: '/docs/vserver-windows-fs-25',
+          },
+          {
+            to: '/docs/dedicated-windows-hytale', from: '/docs/vserver-windows-hytale',
+          },
+          {
+            to: '/docs/dedicated-windows-mythofempires', from: '/docs/vserver-windows-mythofempires',
+          },
+          {
+            to: '/docs/dedicated-windows-palworld', from: '/docs/vserver-windows-palworld',
+          },
+          {
+            to: '/docs/dedicated-windows-ragemp', from: '/docs/vserver-windows-ragemp',
+          },
+          {
+            to: '/docs/dedicated-windows-satisfactory', from: '/docs/vserver-windows-satisfactory',
+          },
+          {
+            to: '/docs/dedicated-windows-soulmask', from: '/docs/vserver-windows-soulmask',
+          },
+          {
+            to: '/docs/dedicated-windows-cs16', from: '/docs/vserver-windows-cs16',
+          },
+          {
+            to: '/docs/dedicated-windows-cscz', from: '/docs/vserver-windows-cscz',
+          },
+          {
+            to: '/docs/dedicated-windows-css', from: '/docs/vserver-windows-css',
+          },
+          {
+            to: '/docs/dedicated-windows-cs2', from: '/docs/vserver-windows-cs2',
+          },
+          {
+            to: '/docs/dedicated-windows-tf2', from: '/docs/vserver-windows-tf2',
+          },
+          {
+            to: '/docs/dedicated-windows-dods', from: '/docs/vserver-windows-dods',
+          },
+          {
+            to: '/docs/dedicated-windows-l4d2', from: '/docs/vserver-windows-l4d2',
+          },
+          {
+            to: '/docs/dedicated-windows-nmrih', from: '/docs/vserver-windows-nmrih',
+          },
+          {
+            to: '/docs/dedicated-windows-hl2', from: '/docs/vserver-windows-hl2',
+          },
         ],
       },
     ],
