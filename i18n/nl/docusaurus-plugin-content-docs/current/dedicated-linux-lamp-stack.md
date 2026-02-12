@@ -356,6 +356,6 @@ Je kunt de site bereiken via het domein (http/poort 80) dat je eerder hebt inges
 
 ## Conclusie
 
-Gefeliciteerd, je hebt de LAMP stack succesvol geïnstalleerd en opgezet! Als volgende stap raden we **sterk aan** om een domein en een **SSL-certificaat** te regelen zodat data veilig wordt verzonden. Bekijk onze [Certbot gids](vserver-linux-certbot.md) met focus op de **Apache Plugin** en volg de interactieve setup om snel een certificaat voor je domein te installeren.
+Gefeliciteerd, je hebt de LAMP stack succesvol geïnstalleerd en opgezet! Als volgende stap raden we **sterk aan** om een domein en een **SSL-certificaat** te regelen zodat data veilig wordt verzonden. Bekijk onze [Certbot gids](dedicated-linux-certbot.md) met focus op de **Apache Plugin** en volg de interactieve setup om snel een certificaat voor je domein te installeren.
 
 Heb je vragen of hulp nodig? Neem gerust contact op met onze support, dagelijks beschikbaar om je te helpen! 🙂

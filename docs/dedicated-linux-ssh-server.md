@@ -1,9 +1,10 @@
 ---
 id: dedicated-linux-ssh-server
-title: "Dedicated Server: Installation of SSH"
-description: "Discover how to securely install and manage SSH servers on Linux VPS to ensure safe remote access and enhanced server protection → Learn more now"
+title: "Installation of SSH"
+description: "Discover how to securely install and manage SSH servers on Linux server to ensure safe remote access and enhanced server protection → Learn more now"
 sidebar_label: Install SSH
 services:
+  - vserver
   - dedicated
 ---
 
@@ -13,7 +14,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Secure Shell (SSH) is a secure protocol that enables safe and encrypted access to remote systems. It ensures the confidentiality and integrity of data transmitted across networks.
 
-In this guide, you will understand how to install or reinstall the SSH Server for a range of Linux Distributions that we currently offer across our VPS servers. Most Linux Distros offered through our VPS servers, are equipped with an SSH Server by default which means you can easily manage it through the product's webinterface. You can view how to do this via our guide: [Initial access (SSH)](vserver-linux-ssh.md)
+In this guide, you will understand how to install or reinstall the SSH Server for a range of Linux Distributions that we currently offer across our VPS/Dedicated Server servers. Most Linux Distros offered through our VPS/Dedicated Server servers, are equipped with an SSH Server by default which means you can easily manage it through the product's webinterface. You can view how to do this via our guide: [Initial access (SSH)](vserver-linux-ssh.md)
 
 If you wish to learn more about improving your security on your server, we highly recommend viewing our [Security Tips](vserver-linux-security-tips.md) guide which promotes a range of tools and services that can help secure your server further.
 

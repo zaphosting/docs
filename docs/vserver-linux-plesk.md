@@ -1,10 +1,11 @@
 ---
 id: vserver-linux-plesk
-title: "VPS: Installation of Plesk"
+title: "Installation of Plesk"
 description: "Discover how to manage websites and servers efficiently with Plesk for beginners and experts alike → Learn more now"
 sidebar_label: Install Plesk
 services:
   - vserver
+  - dedicated
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

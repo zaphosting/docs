@@ -59,7 +59,7 @@ curl -fsSL https://get.docker.com -o get-docker.sh
 sh get-docker.sh
 ```
 
-دليل كامل لعملية التثبيت وكيفية استخدام Docker متوفر في دليلنا [Docker](vserver-linux-docker.md).
+دليل كامل لعملية التثبيت وكيفية استخدام Docker متوفر في دليلنا [Docker](dedicated-linux-docker.md).
 
 ## التثبيت
 الآن بعد أن تم استيفاء جميع المتطلبات وتم الانتهاء من التحضيرات اللازمة، يمكنك المتابعة بتثبيت تطبيق Standard Notes.

@@ -69,7 +69,7 @@ curl -fsSL https://get.docker.com -o get-docker.sh
 sh get-docker.sh
 ```
 
-شرح كامل لعملية التثبيت وكيفية استخدام Docker متوفر في [دليل Docker](vserver-linux-docker.md) الخاص بنا.
+شرح كامل لعملية التثبيت وكيفية استخدام Docker متوفر في [دليل Docker](dedicated-linux-docker.md) الخاص بنا.
 
 ## التثبيت
 الآن بعد ما تم استيفاء كل المتطلبات واكتمال التحضيرات، تقدر تبدأ بتثبيت تطبيق Supabase.

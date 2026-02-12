@@ -1,10 +1,11 @@
 ---
 id: vserver-linux-nodejs
-title: "VPS: Setup Node.js on Linux"
+title: "Setup Node.js on Linux"
 description: "Discover how to set up a stable Node.js environment for scalable, real-time applications using Docker and system preparation → Learn more now"
 sidebar_label: Install Node.js
 services:
   - vserver
+  - dedicated
 ---
 
 import Tabs from '@theme/Tabs';
@@ -44,7 +45,7 @@ curl -fsSL https://get.docker.com -o get-docker.sh
 sh get-docker.sh
 ```
 
-A complete walkthrough of the installation process and how to use Docker is available in our [Docker](vserver-linux-docker.md) guide.
+A complete walkthrough of the installation process and how to use Docker is available in our [Docker](dedicated-linux-docker.md) guide.
 
 
 
@@ -99,7 +100,7 @@ For more advanced setups, Node.js can be customized using `.npmrc` or `.nvmrc` f
 
 ## Conclusion and more Resources
 
-Congratulations! You have now successfully installed and configured Node.js on your VPS. We also recommend taking a look at the following resources, which could provide you with additional help and guidance during your server configuration process
+Congratulations! You have now successfully installed and configured Node.js on your VPS/Dedicated Server. We also recommend taking a look at the following resources, which could provide you with additional help and guidance during your server configuration process
 
 - [Node.js.com](https://Node.js.com/) - Official Website
 - https://Node.js.com/help/ - Node.js Help Center (Documentation)

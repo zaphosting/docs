@@ -41,7 +41,7 @@ curl -fsSL https://get.docker.com -o get-docker.sh
 sh get-docker.sh
 ```
 
-Dockerのインストール手順や使い方の詳細は、[Docker](vserver-linux-docker.md)ガイドで確認できます。
+Dockerのインストール手順や使い方の詳細は、[Docker](dedicated-linux-docker.md)ガイドで確認できます。
 
 
 

@@ -349,7 +349,7 @@ Ora puoi accedere al sito tramite il dominio (porta 80/http) che hai configurato
 
 ## Conclusione
 
-Congratulazioni, hai installato e configurato con successo lo stack LAMP! Il prossimo passo è **fortemente consigliato** configurare un dominio e un **certificato SSL** per trasmettere i dati in modo sicuro. Dai un’occhiata alla nostra guida [Certbot](vserver-linux-certbot.md) con focus sul **plugin Apache** e segui la procedura interattiva per configurare facilmente un certificato per il tuo dominio.
+Congratulazioni, hai installato e configurato con successo lo stack LAMP! Il prossimo passo è **fortemente consigliato** configurare un dominio e un **certificato SSL** per trasmettere i dati in modo sicuro. Dai un’occhiata alla nostra guida [Certbot](dedicated-linux-certbot.md) con focus sul **plugin Apache** e segui la procedura interattiva per configurare facilmente un certificato per il tuo dominio.
 
 Per domande o supporto, non esitare a contattare il nostro team di assistenza, disponibile ogni giorno per aiutarti! 🙂
 

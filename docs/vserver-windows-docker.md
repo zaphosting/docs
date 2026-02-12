@@ -1,10 +1,11 @@
 ---
 id: vserver-windows-docker
-title: "VPS: Setup Docker on Windows"
+title: "Setup Docker on Windows"
 description: "Discover how to deploy and manage applications efficiently with Docker containers for seamless scaling and updates → Learn more now"
 sidebar_label: Install Docker
 services:
   - vserver
+  - dedicated
 ---
 
 import Tabs from '@theme/Tabs';
@@ -112,7 +113,7 @@ docker stats            # Live CPU/RAM/IO
 
 ## Conclusion and more Resources
 
-Congratulations! You have now successfully installed and configured Docker on your VPS. We also recommend taking a look at the following resources, which could provide you with additional help and guidance during your server configuration process
+Congratulations! You have now successfully installed and configured Docker on your VPS/Dedicated Server. We also recommend taking a look at the following resources, which could provide you with additional help and guidance during your server configuration process
 
 - [Docker.com](https://Docker.com/) - Official Website
 - [docs.docker.com](https://docs.docker.com/) - Docker Documentation

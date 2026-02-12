@@ -1,9 +1,10 @@
 ---
 id: dedicated-linux-java
-title: "Dedicated Server: Installation of Java"
+title: "Installation of Java"
 description: "Learn how to install Java on various Linux systems to run Java applications smoothly and ensure your environment is properly set up → Learn more now"
 sidebar_label: Install Java
 services:
+  - vserver
   - dedicated
 ---
 

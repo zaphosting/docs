@@ -1,9 +1,10 @@
 ---
 id: dedicated-linux-ftp-install
-title: "Dedicated Server: Installation of a FTP server"
+title: "Installation of a FTP server"
 description: "Discover how to set up and manage a secure FTP server on Linux with FileZilla Server to streamline file transfers and user access → Learn more now"
 sidebar_label: Install FTP server
 services:
+  - vserver
   - dedicated
 ---
 

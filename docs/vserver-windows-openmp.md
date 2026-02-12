@@ -1,23 +1,24 @@
 ---
 id: vserver-windows-openmp
-title: "VPS: Open.mp Dedicated Server Windows Setup"
-description: "Learn how to set up and configure an open.mp Dedicated server on your Windows VPS for seamless multiplayer gaming → Learn more now"
+title: "Open.mp Dedicated Server Windows Setup"
+description: "Learn how to set up and configure an open.mp Dedicated server on your Windows server for seamless multiplayer gaming → Learn more now"
 sidebar_label: Open.mp
 services:
   - vserver
+  - dedicated
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introduction
 
-Do you have a Windows VPS and you want to install the open.mp Dedicated server service on it? You are in the right place. In this guide, we will explain the step by step process of installing this service on your server.
+Do you have a Windows VPS/Dedicated Server and you want to install the open.mp Dedicated server service on it? You are in the right place. In this guide, we will explain the step by step process of installing this service on your server.
 
 <InlineVoucher />
 
 ## Preparation
 
-To begin with, connect to your VPS through Remote Desktop (RDP). Use our [Initial Access (RDP)](vserver-windows-userdp.md) guide if you need help doing this.
+To begin with, connect to your VPS/Dedicated Server through Remote Desktop (RDP). Use our [Initial Access (RDP)](vserver-windows-userdp.md) guide if you need help doing this.
 
 Once you have accessed your server, download the latest release from the [open.mp GitHub Repository](https://github.com/openmultiplayer/open.mp/releases). Ensure that you select the **win-x86** version.
 
@@ -33,7 +34,7 @@ To start the server, simply run **omp-server.exe** and the server will start boo
 
 ### Port Forwarding your server
 
-In order to ensure that your server is accessible to the public, you must alter port forwarding rules for the ports that the dedicated server process is using. You can do this either through PowerShell commands directly, which is easier, or regularly through the Windows Defender Firewall page.
+In order to ensure that your server is accessible to the public, you must alter port forwarding rules for the ports that the VPS/Dedicated Server process is using. You can do this either through PowerShell commands directly, which is easier, or regularly through the Windows Defender Firewall page.
 
 :::tip
 Launching the server for the first time should display a UAC prompt. If you accept this, your firewall rules will be automatically setup, meaning you can proceed with the next section. Otherwise, follow one of the methods below.
@@ -105,6 +106,6 @@ You will now be able to direct connect to your server in-game via the open.mp la
 
 ## Conclusion
 
-Congratulations, you have successfully installed and configured the open.mp server on your VPS! If you have any further questions or problems, please contact our support team, who are available to help you every day! 
+Congratulations, you have successfully installed and configured the open.mp server on your VPS/Dedicated Server! If you have any further questions or problems, please contact our support team, who are available to help you every day! 
 
 <InlineVoucher />

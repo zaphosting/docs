@@ -358,7 +358,7 @@ Teraz powinieneś mieć możliwość wejścia na stronę przez domenę (port 80/
 
 ## Podsumowanie
 
-Gratulacje, pomyślnie zainstalowałeś i skonfigurowałeś stos LAMP! Następnym krokiem **gorąco polecamy** skonfigurowanie domeny i **certyfikatu SSL**, aby zapewnić bezpieczne przesyłanie danych do Twoich stron. Sprawdź nasz [Poradnik Certbot](vserver-linux-certbot.md) z naciskiem na **wtyczkę Apache** i przejdź interaktywną konfigurację, aby szybko i łatwo ustawić certyfikat dla wybranej domeny.
+Gratulacje, pomyślnie zainstalowałeś i skonfigurowałeś stos LAMP! Następnym krokiem **gorąco polecamy** skonfigurowanie domeny i **certyfikatu SSL**, aby zapewnić bezpieczne przesyłanie danych do Twoich stron. Sprawdź nasz [Poradnik Certbot](dedicated-linux-certbot.md) z naciskiem na **wtyczkę Apache** i przejdź interaktywną konfigurację, aby szybko i łatwo ustawić certyfikat dla wybranej domeny.
 
 W razie pytań lub potrzeby pomocy, śmiało kontaktuj się z naszym supportem, który jest dostępny codziennie, by Ci pomóc! 🙂
 

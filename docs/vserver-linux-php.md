@@ -5,6 +5,7 @@ description: "Learn how to install PHP on your Linux server for web development 
 sidebar_label: Install PHP
 services:
   - vserver
+  - dedicated
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

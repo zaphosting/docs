@@ -24,7 +24,7 @@ sudo apt update -y
 sudo apt upgrade -y
 ```
 
-同时，你还需要确认系统中已安装 PHP，这是使用 phpMyAdmin 的必要条件。关于如何安装 PHP，请参考我们的[安装 PHP](dedicated-linux-php.md)教程。
+同时，你还需要确认系统中已安装 PHP，这是使用 phpMyAdmin 的必要条件。关于如何安装 PHP，请参考我们的[安装 PHP](vserver-linux-php.md)教程。
 
 :::warning 缺少 PHP 组件
 如果缺少必要的 PHP 组件，phpMyAdmin 的 PHP 文件将无法正确处理和显示。

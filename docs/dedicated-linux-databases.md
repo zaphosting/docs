@@ -1,9 +1,10 @@
 ---
 id: dedicated-linux-databases
-title: "Dedicated Server: Installation of Databases"
+title: "Installation of Databases"
 description: "Explore how to install and set up various databases on Ubuntu and other Linux distros for enhanced performance and security → Learn more now"
 sidebar_label: Install Databases
 services:
+  - vserver
   - dedicated
 ---
 

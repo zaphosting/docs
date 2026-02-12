@@ -1,10 +1,11 @@
 ---
 id: vserver-linux-curl
-title: "VPS: Setup cURL on Linux"
+title: "Setup cURL on Linux"
 description: "Discover how to set up and optimize cURL for efficient data transfers and API testing → Learn more now"
 sidebar_label: Install cURL
 services:
   - vserver
+  - dedicated
 ---
 
 import Tabs from '@theme/Tabs';
@@ -61,7 +62,7 @@ In addition, environment variables like `HTTP_PROXY` or `HTTPS_PROXY` can be set
 
 ## Conclusion and more Resources
 
-Congratulations! You have now successfully installed and configured cURL on your VPS. We also recommend taking a look at the following resources, which could provide you with additional help and guidance during your server configuration process
+Congratulations! You have now successfully installed and configured cURL on your VPS/Dedicated Server. We also recommend taking a look at the following resources, which could provide you with additional help and guidance during your server configuration process
 
 - [curl.se](https://curl.se/) – Official Website
 - [curl.se/docs/](https://curl.se/docs/) cURL‑Documentation

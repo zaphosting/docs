@@ -357,6 +357,6 @@ Agora deve conseguir acessar o site pelo domínio (usando `http`/porta 80) que d
 
 ## Conclusão
 
-Parabéns, você instalou e configurou o stack LEMP com sucesso! Como próximo passo, **recomendamos muito** configurar um domínio e um **certificado SSL** para garantir que os dados sejam transmitidos com segurança para seus sites. Veja nosso [guia Certbot](vserver-linux-certbot.md) focado no **Plugin Nginx** e siga a configuração interativa para criar um certificado para seu domínio.
+Parabéns, você instalou e configurou o stack LEMP com sucesso! Como próximo passo, **recomendamos muito** configurar um domínio e um **certificado SSL** para garantir que os dados sejam transmitidos com segurança para seus sites. Veja nosso [guia Certbot](dedicated-linux-certbot.md) focado no **Plugin Nginx** e siga a configuração interativa para criar um certificado para seu domínio.
 
 Se tiver dúvidas ou precisar de ajuda, não hesite em contatar nosso time de suporte, disponível diariamente para te ajudar! 🙂

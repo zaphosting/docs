@@ -67,7 +67,7 @@ curl -fsSL https://get.docker.com -o get-docker.sh
 sh get-docker.sh
 ```
 
-لدينا دليل كامل لعملية التثبيت وكيفية استخدام Docker في [دليل Docker](vserver-linux-docker.md).
+لدينا دليل كامل لعملية التثبيت وكيفية استخدام Docker في [دليل Docker](dedicated-linux-docker.md).
 
 ## التثبيت
 الآن بعد أن تم استيفاء جميع المتطلبات واكتمال التحضيرات اللازمة، يمكنك المتابعة بتثبيت تطبيق Plausible.

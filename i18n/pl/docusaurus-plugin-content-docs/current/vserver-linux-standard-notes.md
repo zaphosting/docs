@@ -60,7 +60,7 @@ curl -fsSL https://get.docker.com -o get-docker.sh
 sh get-docker.sh
 ```
 
-Pełny poradnik instalacji i obsługi Dockera znajdziesz w naszym [poradniku Docker](vserver-linux-docker.md).
+Pełny poradnik instalacji i obsługi Dockera znajdziesz w naszym [poradniku Docker](dedicated-linux-docker.md).
 
 ## Instalacja
 Gdy spełnisz wszystkie wymagania i przygotujesz system, możesz przejść do instalacji Standard Notes.

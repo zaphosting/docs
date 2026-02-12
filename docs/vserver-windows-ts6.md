@@ -1,10 +1,11 @@
 ---
 id: vserver-windows-ts6
-title: "VPS: Setup Teamspeak 6 Server on your Windows VPS"
+title: "Setup Teamspeak 6 Server on your Windows VPS"
 description: "Discover how to set up and optimize the TeamSpeak 6 Server beta for seamless hosting and performance → Learn more now"
 sidebar_label: Install Teamspeak 6 Server
 services:
   - vserver
+  - dedicated
 ---
 
 import Tabs from '@theme/Tabs';
@@ -83,7 +84,7 @@ Once the TeamSpeak 6 Server is up and running, you can connect using the TeamSpe
 
 ## Conclusion and more Resources
 
-Congratulations! You have now successfully installed and configured Teamspeak 6 Server on your VPS. We also recommend taking a look at the following resources, which could provide you with additional help and guidance during your server configuration process
+Congratulations! You have now successfully installed and configured Teamspeak 6 Server on your VPS/Dedicated Server. We also recommend taking a look at the following resources, which could provide you with additional help and guidance during your server configuration process
 
 - [Official Website](https://teamspeak.com/en/) - Information and downloads for TeamSpeak 6
 - [Community Forum](https://community.teamspeak.com/) - User support and discussions

@@ -347,6 +347,6 @@ Du ska nu kunna nå webbplatsen via domänen (med `http`/port 80) som du definie
 
 ## Avslutning
 
-Grattis, du har nu installerat och konfigurerat LAMP-stacken! Nästa steg är att **starkt rekommendera** att du sätter upp en domän och ett **SSL-certifikat** för att säkerställa att data skickas säkert till dina webbplatser. Kolla in vår [Certbot-guide](vserver-linux-certbot.md) med fokus på **Apache-plugin** och följ den interaktiva installationen för att snabbt och enkelt få ett certifikat för din domän.
+Grattis, du har nu installerat och konfigurerat LAMP-stacken! Nästa steg är att **starkt rekommendera** att du sätter upp en domän och ett **SSL-certifikat** för att säkerställa att data skickas säkert till dina webbplatser. Kolla in vår [Certbot-guide](dedicated-linux-certbot.md) med fokus på **Apache-plugin** och följ den interaktiva installationen för att snabbt och enkelt få ett certifikat för din domän.
 
 Har du fler frågor eller behöver hjälp, tveka inte att kontakta vår support som finns tillgänglig varje dag för att hjälpa dig! 🙂

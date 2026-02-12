@@ -1,10 +1,11 @@
 ---
 id: vserver-windows-joplin
-title: "VPS: Setup Joplin on Windows"
+title: "Setup Joplin on Windows"
 description: "Discover how to organize and sync encrypted Markdown notes across devices with Joplin for secure, flexible note-taking → Learn more now"
 sidebar_label: Install Joplin
 services:
-- vserver
+  - vserver
+  - dedicated
 ---
 
 import Tabs from '@theme/Tabs';
@@ -75,7 +76,7 @@ With these core settings, Joplin is ready for use in a variety of scenarios, suc
 
 ## Conclusion and more Resources
 
-Congratulations! You have now successfully installed and configured Joplin on your VPS. We also recommend taking a look at the following resources, which could provide you with additional help and guidance during your server configuration process
+Congratulations! You have now successfully installed and configured Joplin on your VPS/Dedicated Server. We also recommend taking a look at the following resources, which could provide you with additional help and guidance during your server configuration process
 
 - [Joplinapp.org](https://joplin.org/) - Official Website
 - [Joplinapp.org/help/](https://joplinapp.org/help/) - Joplin Help Center

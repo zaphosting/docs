@@ -362,6 +362,6 @@ Je kunt de website bezoeken via het domein (http/poort 80) dat je hebt ingesteld
 
 ## Conclusie
 
-Gefeliciteerd, je hebt de LEMP stack succesvol geïnstalleerd en ingesteld! Als volgende stap raden we **sterk aan** om een domein en een **SSL-certificaat** te regelen zodat data veilig wordt verzonden naar je websites. Bekijk onze [Certbot gids](vserver-linux-certbot.md) met focus op de **Nginx Plugin** en volg de interactieve setup om snel een certificaat voor je domein te installeren.
+Gefeliciteerd, je hebt de LEMP stack succesvol geïnstalleerd en ingesteld! Als volgende stap raden we **sterk aan** om een domein en een **SSL-certificaat** te regelen zodat data veilig wordt verzonden naar je websites. Bekijk onze [Certbot gids](dedicated-linux-certbot.md) met focus op de **Nginx Plugin** en volg de interactieve setup om snel een certificaat voor je domein te installeren.
 
 Heb je vragen of hulp nodig? Neem gerust contact op met onze support, dagelijks beschikbaar om je te helpen! 🙂

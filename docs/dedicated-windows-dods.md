@@ -1,23 +1,24 @@
 ---
 id: dedicated-windows-dods
-title: "Dedicated Server: Day of Defeat: Source Dedicated Server Windows Setup"
-description: "Discover how to set up a Day of Defeat: Source dedicated server on your VPS or server quickly and efficiently → Learn more now"
+title: "Day of Defeat: Source Dedicated Server Windows Setup"
+description: "Discover how to set up a Day of Defeat: Source dedicated server on your server or server quickly and efficiently → Learn more now"
 sidebar_label: "Day of Defeat: Source"
 services:
   - vserver
+  - dedicated
 ---
 
 import YouTube from '@site/src/components/YouTube/YouTube';
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introduction
-Got a VPS or dedicated server and want to install game servers on it? For example an Day of Defeat: Source Dedicated Server? Then you are at the right place! In the following we will explain step by step how you can install such a service on your server.
+Got a VPS/Dedicated Server and want to install game servers on it? For example an Day of Defeat: Source Dedicated Server? Then you are at the right place! In the following we will explain step by step how you can install such a service on your server.
 
 
 
 ## Preparation
 
-For the setup of a Day of Defeat: Source server the SteamCMD is needed. The SteamCMD is the **command line edition of the Steam client**. This tool can be used to quickly and easily download the dedicated server applications of popular Steam games. You will find the SteamCMD on the official Valve developer website: https://developer.valvesoftware.com/wiki/SteamCMD. 
+For the setup of a Day of Defeat: Source server the SteamCMD is needed. The SteamCMD is the **command line edition of the Steam client**. This tool can be used to quickly and easily download the VPS/Dedicated Server applications of popular Steam games. You will find the SteamCMD on the official Valve developer website: https://developer.valvesoftware.com/wiki/SteamCMD. 
 
 Following this, the download takes place. This will contain the **steamcmd.zip** file, which must first be unpacked. It is recommended to create a separate folder, where the file can be unzipped. You should see the **steamcmd.exe** as a result. Execute it and wait until the installation process has been completed.
 
@@ -74,6 +75,6 @@ You should now see logs appear in your command prompt which signals that the sta
 
 ## Conclusion
 
-Congratulations, you have successfully installed and configured the Day of Defeat: Source server on your VPS! For further questions or assistance, please don't hesitate to contact our support team, which is available daily to assist you! 🙂
+Congratulations, you have successfully installed and configured the Day of Defeat: Source server on your VPS/Dedicated Server! For further questions or assistance, please don't hesitate to contact our support team, which is available daily to assist you! 🙂
 
 

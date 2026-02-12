@@ -217,7 +217,322 @@ const config = {
           },
           {
             to: '/docs/dedicated-linux-openclaw', from: '/docs/vserver-linux-openclaw',
-          }
+          },
+          {
+            to: '/docs/vserver-linux-bitwarden', from: '/docs/dedicated-linux-bitwarden',
+          },
+          {
+            to: '/docs/vserver-linux-cockpit', from: '/docs/dedicated-linux-cockpit',
+          },
+          {
+            to: '/docs/vserver-linux-curl', from: '/docs/dedicated-linux-curl',
+          },
+          {
+            to: '/docs/vserver-linux-gitlab', from: '/docs/dedicated-linux-gitlab',
+          },
+          {
+            to: '/docs/vserver-linux-joplin', from: '/docs/dedicated-linux-joplin',
+          },
+          {
+            to: '/docs/vserver-linux-nextcloud', from: '/docs/dedicated-linux-nextcloud',
+          },
+          {
+            to: '/docs/vserver-linux-nodejs', from: '/docs/dedicated-linux-nodejs',
+          },
+          {
+            to: '/docs/vserver-linux-php', from: '/docs/dedicated-linux-php',
+          },
+          {
+            to: '/docs/vserver-linux-plausible', from: '/docs/dedicated-linux-plausible',
+          },
+          {
+            to: '/docs/vserver-linux-plesk', from: '/docs/dedicated-linux-plesk',
+          },
+          {
+            to: '/docs/vserver-linux-python', from: '/docs/dedicated-linux-python',
+          },
+          {
+            to: '/docs/vserver-linux-speedtest-cli', from: '/docs/dedicated-linux-speedtest-cli',
+          },
+          {
+            to: '/docs/vserver-linux-standard-notes', from: '/docs/dedicated-linux-standard-notes',
+          },
+          {
+            to: '/docs/vserver-linux-supabase', from: '/docs/dedicated-linux-supabase',
+          },
+          {
+            to: '/docs/vserver-linux-ts6', from: '/docs/dedicated-linux-ts6',
+          },
+          // vserver-linux → dedicated-linux redirects
+          {
+            to: '/docs/dedicated-linux-certbot', from: '/docs/vserver-linux-certbot',
+          },
+          {
+            to: '/docs/dedicated-linux-databases', from: '/docs/vserver-linux-databases',
+          },
+          {
+            to: '/docs/dedicated-linux-docker', from: '/docs/vserver-linux-docker',
+          },
+          {
+            to: '/docs/dedicated-linux-ftp-install', from: '/docs/vserver-linux-ftp-install',
+          },
+          {
+            to: '/docs/dedicated-linux-git', from: '/docs/vserver-linux-git',
+          },
+          {
+            to: '/docs/dedicated-linux-java', from: '/docs/vserver-linux-java',
+          },
+          {
+            to: '/docs/dedicated-linux-javascript', from: '/docs/vserver-linux-javascript',
+          },
+          {
+            to: '/docs/dedicated-linux-jitsi', from: '/docs/vserver-linux-jitsi',
+          },
+          {
+            to: '/docs/dedicated-linux-mastodon', from: '/docs/vserver-linux-mastodon',
+          },
+          {
+            to: '/docs/dedicated-linux-odoo', from: '/docs/vserver-linux-odoo',
+          },
+          {
+            to: '/docs/dedicated-linux-openvpn', from: '/docs/vserver-linux-openvpn',
+          },
+          {
+            to: '/docs/dedicated-linux-phpmyadmin', from: '/docs/vserver-linux-phpmyadmin',
+          },
+          {
+            to: '/docs/dedicated-linux-plex', from: '/docs/vserver-linux-plex',
+          },
+          {
+            to: '/docs/dedicated-linux-screen', from: '/docs/vserver-linux-screen',
+          },
+          {
+            to: '/docs/dedicated-linux-ssh-server', from: '/docs/vserver-linux-ssh-server',
+          },
+          {
+            to: '/docs/dedicated-linux-webserver', from: '/docs/vserver-linux-webserver',
+          },
+          {
+            to: '/docs/dedicated-linux-wordpress', from: '/docs/vserver-linux-wordpress',
+          },
+          {
+            to: '/docs/dedicated-linux-xrdp', from: '/docs/vserver-linux-xrdp',
+          },
+          // dedicated-windows → vserver-windows redirects
+          {
+            to: '/docs/vserver-windows-bitwarden', from: '/docs/dedicated-windows-bitwarden',
+          },
+          {
+            to: '/docs/vserver-windows-docker', from: '/docs/dedicated-windows-docker',
+          },
+          {
+            to: '/docs/vserver-windows-joplin', from: '/docs/dedicated-windows-joplin',
+          },
+          {
+            to: '/docs/vserver-windows-plesk', from: '/docs/dedicated-windows-plesk',
+          },
+          {
+            to: '/docs/vserver-windows-speedtest-cli', from: '/docs/dedicated-windows-speedtest-cli',
+          },
+          {
+            to: '/docs/vserver-windows-supabase', from: '/docs/dedicated-windows-supabase',
+          },
+          {
+            to: '/docs/vserver-windows-ts6', from: '/docs/dedicated-windows-ts6',
+          },
+          // vserver-windows → dedicated-windows redirects
+          {
+            to: '/docs/dedicated-windows-ftpserver', from: '/docs/vserver-windows-ftpserver',
+          },
+          {
+            to: '/docs/dedicated-windows-git', from: '/docs/vserver-windows-git',
+          },
+          {
+            to: '/docs/dedicated-windows-installmysql', from: '/docs/vserver-windows-installmysql',
+          },
+          {
+            to: '/docs/dedicated-windows-javascript', from: '/docs/vserver-windows-javascript',
+          },
+          {
+            to: '/docs/dedicated-windows-nodejs', from: '/docs/vserver-windows-nodejs',
+          },
+          {
+            to: '/docs/dedicated-windows-plex', from: '/docs/vserver-windows-plex',
+          },
+          {
+            to: '/docs/dedicated-windows-python', from: '/docs/vserver-windows-python',
+          },
+          // vserver-linux gameserver → dedicated-linux gameserver redirects
+          {
+            to: '/docs/dedicated-linux-steamcmd', from: '/docs/vserver-linux-steamcmd',
+          },
+          {
+            to: '/docs/dedicated-linux-wine', from: '/docs/vserver-linux-wine',
+          },
+          {
+            to: '/docs/dedicated-linux-create-gameservice', from: '/docs/vserver-linux-create-gameservice',
+          },
+          {
+            to: '/docs/dedicated-linux-arksurvivalascended', from: '/docs/vserver-linux-arksurvivalascended',
+          },
+          {
+            to: '/docs/dedicated-linux-avorion', from: '/docs/vserver-linux-avorion',
+          },
+          {
+            to: '/docs/dedicated-linux-conan', from: '/docs/vserver-linux-conan',
+          },
+          {
+            to: '/docs/dedicated-linux-enshrouded', from: '/docs/vserver-linux-enshrouded',
+          },
+          {
+            to: '/docs/dedicated-linux-fivem', from: '/docs/vserver-linux-fivem',
+          },
+          {
+            to: '/docs/dedicated-linux-foundry', from: '/docs/vserver-linux-foundry',
+          },
+          {
+            to: '/docs/dedicated-linux-hytale', from: '/docs/vserver-linux-hytale',
+          },
+          {
+            to: '/docs/dedicated-linux-mythofempires', from: '/docs/vserver-linux-mythofempires',
+          },
+          {
+            to: '/docs/dedicated-linux-openmp', from: '/docs/vserver-linux-openmp',
+          },
+          {
+            to: '/docs/dedicated-linux-palworld', from: '/docs/vserver-linux-palworld',
+          },
+          {
+            to: '/docs/dedicated-linux-ragemp', from: '/docs/vserver-linux-ragemp',
+          },
+          {
+            to: '/docs/dedicated-linux-rust', from: '/docs/vserver-linux-rust',
+          },
+          {
+            to: '/docs/dedicated-linux-satisfactory', from: '/docs/vserver-linux-satisfactory',
+          },
+          {
+            to: '/docs/dedicated-linux-soulmask', from: '/docs/vserver-linux-soulmask',
+          },
+          {
+            to: '/docs/dedicated-linux-valheim', from: '/docs/vserver-linux-valheim',
+          },
+          {
+            to: '/docs/dedicated-linux-vrising', from: '/docs/vserver-linux-vrising',
+          },
+          {
+            to: '/docs/dedicated-linux-cs16', from: '/docs/vserver-linux-cs16',
+          },
+          {
+            to: '/docs/dedicated-linux-cscz', from: '/docs/vserver-linux-cscz',
+          },
+          {
+            to: '/docs/dedicated-linux-css', from: '/docs/vserver-linux-css',
+          },
+          {
+            to: '/docs/dedicated-linux-cs2', from: '/docs/vserver-linux-cs2',
+          },
+          {
+            to: '/docs/dedicated-linux-tf2', from: '/docs/vserver-linux-tf2',
+          },
+          {
+            to: '/docs/dedicated-linux-dods', from: '/docs/vserver-linux-dods',
+          },
+          {
+            to: '/docs/dedicated-linux-l4d2', from: '/docs/vserver-linux-l4d2',
+          },
+          {
+            to: '/docs/dedicated-linux-nmrih', from: '/docs/vserver-linux-nmrih',
+          },
+          {
+            to: '/docs/dedicated-linux-hl2', from: '/docs/vserver-linux-hl2',
+          },
+          // dedicated-windows gameserver → vserver-windows gameserver redirects
+          {
+            to: '/docs/vserver-windows-arksurvivalascended', from: '/docs/dedicated-windows-arksurvivalascended',
+          },
+          {
+            to: '/docs/vserver-windows-enshrouded', from: '/docs/dedicated-windows-enshrouded',
+          },
+          {
+            to: '/docs/vserver-windows-fs-19', from: '/docs/dedicated-windows-fs-19',
+          },
+          {
+            to: '/docs/vserver-windows-fs-22', from: '/docs/dedicated-windows-fs-22',
+          },
+          {
+            to: '/docs/vserver-windows-openmp', from: '/docs/dedicated-windows-openmp',
+          },
+          {
+            to: '/docs/vserver-windows-valheim', from: '/docs/dedicated-windows-valheim',
+          },
+          {
+            to: '/docs/vserver-windows-vrising', from: '/docs/dedicated-windows-vrising',
+          },
+          // vserver-windows gameserver → dedicated-windows gameserver redirects
+          {
+            to: '/docs/dedicated-windows-avorion', from: '/docs/vserver-windows-avorion',
+          },
+          {
+            to: '/docs/dedicated-windows-conan', from: '/docs/vserver-windows-conan',
+          },
+          {
+            to: '/docs/dedicated-windows-fivem', from: '/docs/vserver-windows-fivem',
+          },
+          {
+            to: '/docs/dedicated-windows-foundry', from: '/docs/vserver-windows-foundry',
+          },
+          {
+            to: '/docs/dedicated-windows-fs-22-epic', from: '/docs/vserver-windows-fs-22-epic',
+          },
+          {
+            to: '/docs/dedicated-windows-fs-25', from: '/docs/vserver-windows-fs-25',
+          },
+          {
+            to: '/docs/dedicated-windows-hytale', from: '/docs/vserver-windows-hytale',
+          },
+          {
+            to: '/docs/dedicated-windows-mythofempires', from: '/docs/vserver-windows-mythofempires',
+          },
+          {
+            to: '/docs/dedicated-windows-palworld', from: '/docs/vserver-windows-palworld',
+          },
+          {
+            to: '/docs/dedicated-windows-ragemp', from: '/docs/vserver-windows-ragemp',
+          },
+          {
+            to: '/docs/dedicated-windows-satisfactory', from: '/docs/vserver-windows-satisfactory',
+          },
+          {
+            to: '/docs/dedicated-windows-soulmask', from: '/docs/vserver-windows-soulmask',
+          },
+          {
+            to: '/docs/dedicated-windows-cs16', from: '/docs/vserver-windows-cs16',
+          },
+          {
+            to: '/docs/dedicated-windows-cscz', from: '/docs/vserver-windows-cscz',
+          },
+          {
+            to: '/docs/dedicated-windows-css', from: '/docs/vserver-windows-css',
+          },
+          {
+            to: '/docs/dedicated-windows-cs2', from: '/docs/vserver-windows-cs2',
+          },
+          {
+            to: '/docs/dedicated-windows-tf2', from: '/docs/vserver-windows-tf2',
+          },
+          {
+            to: '/docs/dedicated-windows-dods', from: '/docs/vserver-windows-dods',
+          },
+          {
+            to: '/docs/dedicated-windows-l4d2', from: '/docs/vserver-windows-l4d2',
+          },
+          {
+            to: '/docs/dedicated-windows-nmrih', from: '/docs/vserver-windows-nmrih',
+          },
+          {
+            to: '/docs/dedicated-windows-hl2', from: '/docs/vserver-windows-hl2',
+          },
         ],
       },
     ],
@@ -285,22 +600,31 @@ const config = {
           label: 'General',
         },
         {
-          type: 'docSidebar',
-          sidebarId: 'gameserverSidebar',
-          position: 'left',
+          type: 'dropdown',
           label: 'Gameserver',
+          position: 'left',
+          className: 'custom-dropdown-gameserver',
+          items: [
+            { type: 'docSidebar', sidebarId: 'gameserverSidebar', label: 'Gameserver' },
+          ],
         },
         {
-          type: 'docSidebar',
-          sidebarId: 'vpsrootSidebar',
-          position: 'left',
+          type: 'dropdown',
           label: 'VPS',
+          position: 'left',
+          className: 'custom-dropdown-vps',
+          items: [
+            { type: 'docSidebar', sidebarId: 'vpsrootSidebar', label: 'VPS' },
+          ],
         },
         {
-          type: 'docSidebar',
-          sidebarId: 'dedicatedserverSidebar',
-          position: 'left',
+          type: 'dropdown',
           label: 'Dedicated Server',
+          position: 'left',
+          className: 'custom-dropdown-dedicated',
+          items: [
+            { type: 'docSidebar', sidebarId: 'dedicatedserverSidebar', label: 'Dedicated Server' },
+          ],
         },
         {
           type: 'docSidebar',
@@ -321,27 +645,22 @@ const config = {
           label: 'Voicebot & Voiceserver',
         },
         {
-          type: 'html',
+          type: 'dropdown',
+          label: 'Software',
+          position: 'left',
+          className: 'custom-dropdown-software',
+          items: [
+            { type: 'docSidebar', sidebarId: 'softwareSidebar', label: 'Software' },
+          ],
+        },
+        {
+          type: 'dropdown',
+          label: 'Rent a Server',
           position: 'right',
-          className: 'externalLink',
-          value: (() => {
-            switch (process.env.DOCUSAURUS_CURRENT_LOCALE) {
-              case "de": return '<a href="https://zap-hosting.com/de/server-mieten/">Server mieten</a>';
-              case "en": return '<a href="https://zap-hosting.com/en/server-hosting/">Rent a server</a>';
-              case "es": return '<a href="https://zap-hosting.com/en/server-hosting/">Alquilar servidor</a>';
-              case "fr": return '<a href="https://zap-hosting.com/en/server-hosting/">Louer un serveur</a>';
-              case "ar": return '<a href="https://zap-hosting.com/en/server-hosting/">استئجار خادم</a>';
-              case "pt": return '<a href="https://zap-hosting.com/en/server-hosting/">Alugar servidor</a>';
-              case "th": return '<a href="https://zap-hosting.com/en/server-hosting/">เช่าเซิร์ฟเวอร์</a>';
-              case "pl": return '<a href="https://zap-hosting.com/en/server-hosting/">Wynajmij serwer</a>';
-              case "ja": return '<a href="https://zap-hosting.com/en/server-hosting/">サーバーをレンタル</a>';
-              case "sv": return '<a href="https://zap-hosting.com/en/server-hosting/">Hyr en server</a>';
-              case "it": return '<a href="https://zap-hosting.com/en/server-hosting/">Noleggia un server </a>';
-              case "nl": return '<a href="https://zap-hosting.com/en/server-hosting/">Huur een server</a>';
-              case "zh": return '<a href="https://zap-hosting.com/en/server-hosting/">租用服务器</a>';
-              default: return '<a href="https://zap-hosting.com/en/server-hosting/">Rent a server</a>';
-            }
-          })(),
+          className: 'custom-dropdown-rent',
+          items: [
+            { label: 'ZAP-Hosting', href: 'https://zap-hosting.com/en/server-hosting/' },
+          ],
         },
         {
           type: 'localeDropdown',

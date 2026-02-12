@@ -1,23 +1,24 @@
 ---
 id: dedicated-windows-l4d2
-title: "Dedicated Server: Left 4 Dead 2 Dedicated Server Windows Setup"
-description: "Learn how to set up a Left 4 Dead 2 dedicated server on your VPS or dedicated server quickly and easily → Learn more now"
+title: "Left 4 Dead 2 Dedicated Server Windows Setup"
+description: "Learn how to set up a Left 4 Dead 2 dedicated server on your server quickly and easily → Learn more now"
 sidebar_label: "Left 4 Dead 2"
 services:
   - vserver
+  - dedicated
 ---
 
 import YouTube from '@site/src/components/YouTube/YouTube';
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introduction
-Got a VPS or dedicated server and want to install game servers on it? For example an Left 4 Dead 2 Dedicated Server? Then you are at the right place! In the following we will explain step by step how you can install such a service on your server.
+Got a VPS/Dedicated Server and want to install game servers on it? For example an Left 4 Dead 2 Dedicated Server? Then you are at the right place! In the following we will explain step by step how you can install such a service on your server.
 
 
 
 ## Preparation
 
-For the setup of a Left 4 Dead 2 server the SteamCMD is needed. The SteamCMD is the **command line edition of the Steam client**. This tool can be used to quickly and easily download the dedicated server applications of popular Steam games. You will find the SteamCMD on the official Valve developer website: https://developer.valvesoftware.com/wiki/SteamCMD. 
+For the setup of a Left 4 Dead 2 server the SteamCMD is needed. The SteamCMD is the **command line edition of the Steam client**. This tool can be used to quickly and easily download the VPS/Dedicated Server applications of popular Steam games. You will find the SteamCMD on the official Valve developer website: https://developer.valvesoftware.com/wiki/SteamCMD. 
 
 Following this, the download takes place. This will contain the **steamcmd.zip** file, which must first be unpacked. It is recommended to create a separate folder, where the file can be unzipped. You should see the **steamcmd.exe** as a result. Execute it and wait until the installation process has been completed.
 
@@ -74,6 +75,6 @@ You should now see logs appear in your command prompt which signals that the sta
 
 ## Conclusion
 
-Congratulations, you have successfully installed and configured the Left 4 Dead 2 server on your VPS! For further questions or assistance, please don't hesitate to contact our support team, which is available daily to assist you! 🙂
+Congratulations, you have successfully installed and configured the Left 4 Dead 2 server on your VPS/Dedicated Server! For further questions or assistance, please don't hesitate to contact our support team, which is available daily to assist you! 🙂
 
 

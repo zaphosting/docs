@@ -71,7 +71,7 @@ curl -fsSL https://get.docker.com -o get-docker.sh
 sh get-docker.sh
 ```
 
-Dockerのインストール手順や使い方の詳細は、当社の[Docker](vserver-linux-docker.md)ガイドをご覧ください。
+Dockerのインストール手順や使い方の詳細は、当社の[Docker](dedicated-linux-docker.md)ガイドをご覧ください。
 
 ## インストール
 すべての要件を満たし、準備が整ったらSupabaseのインストールに進みましょう。

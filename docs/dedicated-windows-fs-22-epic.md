@@ -1,9 +1,10 @@
 ---
 id: dedicated-windows-fs-22-epic
-title: "Dedicated Server: Farming Simulator 2022 (Epic Games) Dedicated Server Windows Setup"
+title: "Farming Simulator 2022 (Epic Games) Dedicated Server Windows Setup"
 description: "Discover how to set up a dedicated server for Farming Simulator 22 Epic Games version with optimized performance and unique requirements → Learn more now"
 sidebar_label: Farming Simulator 2022 (Epic Games)
 services:
+  - vserver
   - dedicated
 ---
 
@@ -112,7 +113,7 @@ It is important that you run the server **first** and the web interface **afterw
 
 ## Step 6: Port Forwarding
 
-In order to ensure that your server is accessible to the public, you must alter port forwarding rules for the ports that the dedicated server process is using. You can do this either through PowerShell commands directly, which is easier, or regularly through the Windows Defender Firewall page.
+In order to ensure that your server is accessible to the public, you must alter port forwarding rules for the ports that the VPS/Dedicated Server process is using. You can do this either through PowerShell commands directly, which is easier, or regularly through the Windows Defender Firewall page.
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';

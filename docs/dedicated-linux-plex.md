@@ -1,9 +1,10 @@
 ---
 id: dedicated-linux-plex
-title: "Dedicated Server: Setup Plex on Linux"
+title: "Setup Plex on Linux"
 description: "Discover how to manage and stream your personal media library seamlessly with Plex for easy access across devices → Learn more now"
 sidebar_label: Install Plex
 services:
+  - vserver
   - dedicated
 ---
 
@@ -73,7 +74,7 @@ Once the address is reached, you will be redirected to the Plex login page and c
 
 ## Conclusion and more Resources
 
-Congratulations! You have now successfully installed and configured Plex on your Dedicated Server. We also recommend taking a look at the following resources, which could provide you with additional help and guidance during your server configuration process
+Congratulations! You have now successfully installed and configured Plex on your VPS/Dedicated Server. We also recommend taking a look at the following resources, which could provide you with additional help and guidance during your server configuration process
 
 - [Plex.com](https://Plex.com/) - Official Website
 - [support.plex.tv/articles/](https://support.plex.tv/articles/) - Plex Help Center (Documentation)

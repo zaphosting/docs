@@ -221,7 +221,7 @@ Você pode verificar isso analisando o endereço IP dos jogadores, que deverá s
 
 Com seu reverse proxy FiveM configurado, recomendamos fortemente adicionar um Certificado SSL aos seus domínios usados para garantir que o site transmita dados de forma segura via HTTPS.
 
-Confira nosso guia [Instalar Certbot](vserver-linux-certbot.md), que cobre todo o processo de solicitação e renovação automática de Certificados SSL para seu(s) domínio(s).
+Confira nosso guia [Instalar Certbot](dedicated-linux-certbot.md), que cobre todo o processo de solicitação e renovação automática de Certificados SSL para seu(s) domínio(s).
 
 ## Conclusão
 

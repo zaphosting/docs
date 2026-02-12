@@ -361,6 +361,6 @@ Rufe die Website über deine Domain (HTTP/Port 80) auf, z.B. `zapdocs.example.co
 
 ## Fazit
 
-Glückwunsch, du hast den LAMP-Stack erfolgreich installiert und eingerichtet! Als nächsten Schritt empfehlen wir dir **dringend**, eine Domain und ein **SSL-Zertifikat** einzurichten, damit deine Daten sicher übertragen werden. Schau dir dazu unsere [Certbot-Anleitung](vserver-linux-certbot.md) mit Fokus auf das **Apache Plugin** an und folge der interaktiven Einrichtung, um schnell und einfach ein Zertifikat für deine Domain zu bekommen.
+Glückwunsch, du hast den LAMP-Stack erfolgreich installiert und eingerichtet! Als nächsten Schritt empfehlen wir dir **dringend**, eine Domain und ein **SSL-Zertifikat** einzurichten, damit deine Daten sicher übertragen werden. Schau dir dazu unsere [Certbot-Anleitung](dedicated-linux-certbot.md) mit Fokus auf das **Apache Plugin** an und folge der interaktiven Einrichtung, um schnell und einfach ein Zertifikat für deine Domain zu bekommen.
 
 Bei Fragen oder Problemen steht dir unser Support-Team täglich zur Seite – meld dich einfach! 🙂

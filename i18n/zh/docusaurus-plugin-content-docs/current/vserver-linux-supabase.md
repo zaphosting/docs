@@ -70,7 +70,7 @@ curl -fsSL https://get.docker.com -o get-docker.sh
 sh get-docker.sh
 ```
 
-关于 Docker 的完整安装流程和使用方法，请参考我们的 [Docker](vserver-linux-docker.md) 指南。
+关于 Docker 的完整安装流程和使用方法，请参考我们的 [Docker](dedicated-linux-docker.md) 指南。
 
 ## 安装
 满足所有要求并完成准备后，就可以开始安装 Supabase 了。

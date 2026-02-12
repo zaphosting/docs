@@ -59,7 +59,7 @@ curl -fsSL https://get.docker.com -o get-docker.sh
 sh get-docker.sh
 ```
 
-关于 Docker 的完整安装流程和使用说明，请参考我们的 [Docker](vserver-linux-docker.md) 指南。
+关于 Docker 的完整安装流程和使用说明，请参考我们的 [Docker](dedicated-linux-docker.md) 指南。
 
 ### 创建用户和目录
 

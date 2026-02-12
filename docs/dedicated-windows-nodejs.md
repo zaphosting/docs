@@ -1,9 +1,10 @@
 ---
 id: dedicated-windows-nodejs
-title: "Dedicated Server: Setup Node.js on Windows"
+title: "Setup Node.js on Windows"
 description: "Discover how to set up Node.js for scalable, real-time applications using a streamlined environment → Learn more now"
 sidebar_label: Install Node.js
 services:
+  - vserver
   - dedicated
 ---
 
@@ -97,7 +98,7 @@ For more advanced setups, Node.js can be customized using `.npmrc` or `.nvmrc` f
 
 ## Conclusion and more Resources
 
-Congratulations! You have now successfully installed and configured Node.js on your Dedicated Server. We also recommend taking a look at the following resources, which could provide you with additional help and guidance during your server configuration process
+Congratulations! You have now successfully installed and configured Node.js on your VPS/Dedicated Server. We also recommend taking a look at the following resources, which could provide you with additional help and guidance during your server configuration process
 
 - [Node.js.com](https://Node.js.com/) - Official Website
 - https://Node.js.com/help/ - Node.js Help Center (Documentation)

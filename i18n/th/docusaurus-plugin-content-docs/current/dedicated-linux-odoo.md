@@ -65,7 +65,7 @@ curl -fsSL https://get.docker.com -o get-docker.sh
 sh get-docker.sh
 ```
 
-คู่มือการติดตั้งและใช้งาน Docker แบบละเอียดมีให้ใน [คู่มือ Docker](vserver-linux-docker.md)
+คู่มือการติดตั้งและใช้งาน Docker แบบละเอียดมีให้ใน [คู่มือ Docker](dedicated-linux-docker.md)
 
 
 
