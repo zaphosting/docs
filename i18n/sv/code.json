@@ -1995,5 +1995,38 @@
   },
   "localeDropdown.description": {
     "message": "Välj ditt föredragna språk."
+  },
+  "contributors.cta.title": {
+    "message": "Bli en ZAP-Hosting Contributor!"
+  },
+  "contributors.cta.description": {
+    "message": "Gå med i vårt {contributionLink} och dela din expertis med communityn! Skapa innehåll och tjäna belöningar. Din kunskap hjälper tusentals användare. Börja bidra idag!"
+  },
+  "contributors.timeline.step1.title": {
+    "message": "Förslag"
+  },
+  "contributors.timeline.step1.description": {
+    "message": "Dela din guide-idé via GitHub-förslagsformuläret."
+  },
+  "contributors.timeline.step2.title": {
+    "message": "Godkännande"
+  },
+  "contributors.timeline.step2.description": {
+    "message": "Få feedback och godkännande av ditt förslag inom några dagar"
+  },
+  "contributors.timeline.step3.title": {
+    "message": "Skapa innehåll"
+  },
+  "contributors.timeline.step3.description": {
+    "message": "Skapa högkvalitativt innehåll enligt våra riktlinjer"
+  },
+  "contributors.timeline.step4.title": {
+    "message": "Tjäna belöningar"
+  },
+  "contributors.timeline.step4.description": {
+    "message": "Få betalt för ditt godkända bidrag. Tjäna upp till 130€!"
+  },
+  "contributors.document.title": {
+    "message": "Bidragsgivare till detta innehåll"
   }
 }

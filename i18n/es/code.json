@@ -1995,5 +1995,38 @@
   },
   "localeDropdown.description": {
     "message": "Selecciona tu idioma preferido."
+  },
+  "contributors.cta.title": {
+    "message": "¡Conviértete en un Contributor de ZAP-Hosting!"
+  },
+  "contributors.cta.description": {
+    "message": "¡Únete a nuestro {contributionLink} y comparte tu experiencia con la comunidad! Crea contenido y gana recompensas. Tu conocimiento ayuda a miles de usuarios. ¡Comienza a contribuir hoy!"
+  },
+  "contributors.timeline.step1.title": {
+    "message": "Sugerencia"
+  },
+  "contributors.timeline.step1.description": {
+    "message": "Comparte tu idea de guía a través del formulario de sugerencias de GitHub."
+  },
+  "contributors.timeline.step2.title": {
+    "message": "Aprobación"
+  },
+  "contributors.timeline.step2.description": {
+    "message": "Recibe comentarios y aprobación de tu sugerencia en pocos días"
+  },
+  "contributors.timeline.step3.title": {
+    "message": "Crear contenido"
+  },
+  "contributors.timeline.step3.description": {
+    "message": "Crea contenido de alta calidad siguiendo nuestras pautas"
+  },
+  "contributors.timeline.step4.title": {
+    "message": "Ganar recompensas"
+  },
+  "contributors.timeline.step4.description": {
+    "message": "Recibe pago por tu contribución aprobada. ¡Gana hasta 130€!"
+  },
+  "contributors.document.title": {
+    "message": "Colaboradores de este contenido"
   }
 }

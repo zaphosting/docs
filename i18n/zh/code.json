@@ -1995,5 +1995,38 @@
   },
   "localeDropdown.description": {
     "message": "选择你的首选语言。"
+  },
+  "contributors.cta.title": {
+    "message": "成为ZAP-Hosting贡献者！"
+  },
+  "contributors.cta.description": {
+    "message": "加入我们的{contributionLink}，与社区分享您的专业知识！创作内容并获得奖励。您的知识帮助了成千上万的用户。今天就开始贡献吧！"
+  },
+  "contributors.timeline.step1.title": {
+    "message": "建议"
+  },
+  "contributors.timeline.step1.description": {
+    "message": "通过GitHub建议表单分享您的指南想法。"
+  },
+  "contributors.timeline.step2.title": {
+    "message": "审批"
+  },
+  "contributors.timeline.step2.description": {
+    "message": "在几天内收到对您建议的反馈和批准"
+  },
+  "contributors.timeline.step3.title": {
+    "message": "创作内容"
+  },
+  "contributors.timeline.step3.description": {
+    "message": "按照我们的指导方针创作高质量内容"
+  },
+  "contributors.timeline.step4.title": {
+    "message": "获得奖励"
+  },
+  "contributors.timeline.step4.description": {
+    "message": "为您批准的贡献获得报酬。赚取高达130欧元！"
+  },
+  "contributors.document.title": {
+    "message": "此内容的贡献者"
   }
 }

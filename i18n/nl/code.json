@@ -1995,5 +1995,38 @@
   },
   "localeDropdown.description": {
     "message": "Selecteer je voorkeurstaal."
+  },
+  "contributors.cta.title": {
+    "message": "Word een ZAP-Hosting Contributor!"
+  },
+  "contributors.cta.description": {
+    "message": "Sluit je aan bij ons {contributionLink} en deel je expertise met de community! Creëer inhoud en verdien beloningen. Jouw kennis helpt duizenden gebruikers. Begin vandaag nog met bijdragen!"
+  },
+  "contributors.timeline.step1.title": {
+    "message": "Suggestie"
+  },
+  "contributors.timeline.step1.description": {
+    "message": "Deel je gids-idee via het GitHub Suggestieformulier."
+  },
+  "contributors.timeline.step2.title": {
+    "message": "Goedkeuring"
+  },
+  "contributors.timeline.step2.description": {
+    "message": "Ontvang feedback en goedkeuring voor je suggestie binnen enkele dagen"
+  },
+  "contributors.timeline.step3.title": {
+    "message": "Inhoud maken"
+  },
+  "contributors.timeline.step3.description": {
+    "message": "Maak hoogwaardige inhoud volgens onze richtlijnen"
+  },
+  "contributors.timeline.step4.title": {
+    "message": "Beloningen verdienen"
+  },
+  "contributors.timeline.step4.description": {
+    "message": "Ontvang betaling voor je goedgekeurde bijdrage. Verdien tot 130€!"
+  },
+  "contributors.document.title": {
+    "message": "Bijdragers aan deze inhoud"
   }
 }

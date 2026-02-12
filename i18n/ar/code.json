@@ -1995,5 +1995,38 @@
   },
   "localeDropdown.description": {
     "message": "اختر لغتك المفضلة."
+  },
+  "contributors.cta.title": {
+    "message": "كن مساهمًا في ZAP-Hosting!"
+  },
+  "contributors.cta.description": {
+    "message": "انضم إلى {contributionLink} الخاص بنا وشارك خبرتك مع المجتمع! أنشئ محتوى واحصل على مكافآت. معرفتك تساعد آلاف المستخدمين. ابدأ المساهمة اليوم!"
+  },
+  "contributors.timeline.step1.title": {
+    "message": "اقتراح"
+  },
+  "contributors.timeline.step1.description": {
+    "message": "شارك فكرة الدليل الخاصة بك عبر نموذج الاقتراحات على GitHub."
+  },
+  "contributors.timeline.step2.title": {
+    "message": "موافقة"
+  },
+  "contributors.timeline.step2.description": {
+    "message": "احصل على تعليقات وموافقة على اقتراحك في غضون أيام قليلة"
+  },
+  "contributors.timeline.step3.title": {
+    "message": "إنشاء المحتوى"
+  },
+  "contributors.timeline.step3.description": {
+    "message": "أنشئ محتوى عالي الجودة وفقًا لإرشاداتنا"
+  },
+  "contributors.timeline.step4.title": {
+    "message": "كسب المكافآت"
+  },
+  "contributors.timeline.step4.description": {
+    "message": "احصل على أجر مقابل مساهمتك المعتمدة. اكسب حتى 130 يورو!"
+  },
+  "contributors.document.title": {
+    "message": "المساهمون في هذا المحتوى"
   }
 }

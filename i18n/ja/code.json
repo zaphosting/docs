@@ -1995,5 +1995,38 @@
   },
   "localeDropdown.description": {
     "message": "お好みの言語を選択してください。"
+  },
+  "contributors.cta.title": {
+    "message": "ZAP-Hostingコントリビューターになろう！"
+  },
+  "contributors.cta.description": {
+    "message": "{contributionLink}に参加して、コミュニティと専門知識を共有しましょう！コンテンツを作成して報酬を獲得できます。あなたの知識が何千ものユーザーの役に立ちます。今すぐ貢献を始めましょう！"
+  },
+  "contributors.timeline.step1.title": {
+    "message": "提案"
+  },
+  "contributors.timeline.step1.description": {
+    "message": "GitHubの提案フォームからガイドのアイデアを共有してください。"
+  },
+  "contributors.timeline.step2.title": {
+    "message": "承認"
+  },
+  "contributors.timeline.step2.description": {
+    "message": "数日以内に提案へのフィードバックと承認を受け取ります"
+  },
+  "contributors.timeline.step3.title": {
+    "message": "コンテンツ作成"
+  },
+  "contributors.timeline.step3.description": {
+    "message": "ガイドラインに従って高品質なコンテンツを作成します"
+  },
+  "contributors.timeline.step4.title": {
+    "message": "報酬を獲得"
+  },
+  "contributors.timeline.step4.description": {
+    "message": "承認された貢献に対して報酬を受け取ります。最大130€を獲得！"
+  },
+  "contributors.document.title": {
+    "message": "このコンテンツの貢献者"
   }
 }

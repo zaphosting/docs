@@ -4242,5 +4242,125 @@
   "sidebar.dedicatedserverSidebar.link.dedicated-windows-services": {
     "message": "Services",
     "description": "The label for link 'Services' in sidebar 'dedicatedserverSidebar', linking to '/docs/dedicated-windows-bitwarden'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-configuration-astro-colony": {
+    "message": "Configuration",
+    "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-configuration-banana-shooter": {
+    "message": "Configuration",
+    "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-configuration-battle-grounds-iii": {
+    "message": "Configuration",
+    "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-configuration-colony-survival": {
+    "message": "Configuration",
+    "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-configuration-deadlock": {
+    "message": "Configuration",
+    "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-echoes-of-elysium": {
+    "message": "Echoes of Elysium",
+    "description": "The label for category 'Echoes of Elysium' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-first-steps-echoes-of-elysium": {
+    "message": "First Steps",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-troubleshooting-echoes-of-elysium": {
+    "message": "Troubleshooting",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-configuration-humanitz": {
+    "message": "Configuration",
+    "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-configuration-killing-floor-2": {
+    "message": "Configuration",
+    "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-configuration-minetest": {
+    "message": "Configuration",
+    "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-configuration-nienix": {
+    "message": "Configuration",
+    "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-configuration-nightingale": {
+    "message": "Configuration",
+    "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-configuration-operation-harsh-doorstop": {
+    "message": "Configuration",
+    "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-configuration-renown": {
+    "message": "Configuration",
+    "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-configuration-rising-world": {
+    "message": "Configuration",
+    "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-configuration-scp-containment-breach": {
+    "message": "Configuration",
+    "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-configuration-scp-escape-together": {
+    "message": "Configuration",
+    "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-configuration-skyrim-together-reborn": {
+    "message": "Configuration",
+    "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-configuration-sons-of-the-forest": {
+    "message": "Configuration",
+    "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-starrupture": {
+    "message": "StarRupture",
+    "description": "The label for category 'StarRupture' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-first-steps-starrupture": {
+    "message": "First Steps",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-configuration-starrupture": {
+    "message": "Configuration",
+    "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-troubleshooting-rupture": {
+    "message": "Troubleshooting",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-configuration-sunkenland": {
+    "message": "Configuration",
+    "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-configuration-the-bus": {
+    "message": "Configuration",
+    "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-configuration-veloren": {
+    "message": "Configuration",
+    "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-configuration-voyagers-of-nera": {
+    "message": "Configuration",
+    "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-configuration-wreckfest-2": {
+    "message": "Configuration",
+    "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-configuration-wurm-unlimited": {
+    "message": "Configuration",
+    "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
   }
 }

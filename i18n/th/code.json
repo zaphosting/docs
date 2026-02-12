@@ -1995,5 +1995,38 @@
   },
   "localeDropdown.description": {
     "message": "เลือกภาษาที่คุณต้องการ"
+  },
+  "contributors.cta.title": {
+    "message": "เป็นผู้สนับสนุน ZAP-Hosting!"
+  },
+  "contributors.cta.description": {
+    "message": "เข้าร่วม {contributionLink} ของเราและแบ่งปันความเชี่ยวชาญของคุณกับชุมชน! สร้างเนื้อหาและรับรางวัล ความรู้ของคุณช่วยเหลือผู้ใช้หลายพันคน เริ่มมีส่วนร่วมวันนี้!"
+  },
+  "contributors.timeline.step1.title": {
+    "message": "ข้อเสนอแนะ"
+  },
+  "contributors.timeline.step1.description": {
+    "message": "แบ่งปันไอเดียคู่มือของคุณผ่านแบบฟอร์มข้อเสนอแนะ GitHub"
+  },
+  "contributors.timeline.step2.title": {
+    "message": "การอนุมัติ"
+  },
+  "contributors.timeline.step2.description": {
+    "message": "รับคำติชมและการอนุมัติข้อเสนอแนะของคุณภายในไม่กี่วัน"
+  },
+  "contributors.timeline.step3.title": {
+    "message": "สร้างเนื้อหา"
+  },
+  "contributors.timeline.step3.description": {
+    "message": "สร้างเนื้อหาคุณภาพสูงตามแนวทางของเรา"
+  },
+  "contributors.timeline.step4.title": {
+    "message": "รับรางวัล"
+  },
+  "contributors.timeline.step4.description": {
+    "message": "รับค่าตอบแทนสำหรับการมีส่วนร่วมที่ได้รับการอนุมัติ รับได้ถึง 130€!"
+  },
+  "contributors.document.title": {
+    "message": "ผู้มีส่วนร่วมในเนื้อหานี้"
   }
 }
