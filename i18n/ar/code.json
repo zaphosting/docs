@@ -1547,5 +1547,453 @@
   "service.gameserver-skyrim-together-reborn.path": {
     "message": "{marketingSite}/{language}/skyrim-together-reborn-server-hosting/",
     "description": "URL path for the gameserver product"
+  },
+  "dropdown.vps.gettingStarted": {
+    "message": "الخطوات الأولى"
+  },
+  "dropdown.vps.introduction": {
+    "message": "المقدمة"
+  },
+  "dropdown.vps.dashboard": {
+    "message": "لوحة التحكم"
+  },
+  "dropdown.vps.customIsos": {
+    "message": "صور ISO مخصصة"
+  },
+  "dropdown.vps.software": {
+    "message": "البرامج"
+  },
+  "dropdown.vps.linux": {
+    "message": "لينكس"
+  },
+  "dropdown.vps.windows": {
+    "message": "ويندوز"
+  },
+  "dropdown.vps.general": {
+    "message": "عام"
+  },
+  "dropdown.vps.services": {
+    "message": "خدمات"
+  },
+  "dropdown.vps.gameServers": {
+    "message": "خوادم الألعاب"
+  },
+  "dropdown.gameserver.gettingStarted": {
+    "message": "الخطوات الأولى"
+  },
+  "dropdown.gameserver.introduction": {
+    "message": "المقدمة"
+  },
+  "dropdown.gameserver.ftpAccess": {
+    "message": "وصول FTP"
+  },
+  "dropdown.gameserver.backups": {
+    "message": "النسخ الاحتياطية"
+  },
+  "dropdown.gameserver.popularGames": {
+    "message": "الألعاب الشائعة"
+  },
+  "dropdown.gameserver.moreGames": {
+    "message": "المزيد من الألعاب"
+  },
+  "dropdown.gameserver.allGames": {
+    "message": "كل الألعاب (A-Z)"
+  },
+  "dropdown.gameserver.scheduledTasks": {
+    "message": "المهام المجدولة"
+  },
+  "dropdown.gameserver.gameSwitch": {
+    "message": "تبديل اللعبة"
+  },
+  "dropdown.gameserver.databases": {
+    "message": "قواعد البيانات"
+  },
+  "dropdown.gameserver.more": {
+    "message": "المزيد..."
+  },
+  "dropdown.vps.vncConsole": {
+    "message": "وحدة تحكم VNC"
+  },
+  "dropdown.vps.rescueMode": {
+    "message": "وضع الإنقاذ"
+  },
+  "dropdown.vps.more": {
+    "message": "المزيد..."
+  },
+  "dropdown.dedicated.gettingStarted": {
+    "message": "الخطوات الأولى"
+  },
+  "dropdown.dedicated.introduction": {
+    "message": "مقدمة"
+  },
+  "dropdown.dedicated.dashboard": {
+    "message": "لوحة التحكم"
+  },
+  "dropdown.dedicated.setup": {
+    "message": "الإعداد"
+  },
+  "dropdown.dedicated.ilo": {
+    "message": "iLO"
+  },
+  "dropdown.dedicated.customIsos": {
+    "message": "ملفات ISO مخصصة"
+  },
+  "dropdown.dedicated.raid": {
+    "message": "RAID"
+  },
+  "dropdown.dedicated.more": {
+    "message": "المزيد..."
+  },
+  "dropdown.dedicated.linux": {
+    "message": "لينكس"
+  },
+  "dropdown.dedicated.windows": {
+    "message": "ويندوز"
+  },
+  "dropdown.dedicated.general": {
+    "message": "عام"
+  },
+  "dropdown.dedicated.services": {
+    "message": "الخدمات"
+  },
+  "dropdown.dedicated.gameServers": {
+    "message": "خوادم الألعاب"
+  },
+  "dropdown.dedicated.software": {
+    "message": "البرمجيات"
+  },
+  "dropdown.vps.gettingStartedDesc": {
+    "message": "ابدأ مع خادمك الافتراضي الخاص."
+  },
+  "dropdown.vps.linuxDesc": {
+    "message": "أدلة لخوادم لينكس."
+  },
+  "dropdown.vps.windowsDesc": {
+    "message": "أدلة لخوادم ويندوز."
+  },
+  "dropdown.gameserver.gettingStartedDesc": {
+    "message": "إدارة وتكوين خادم الألعاب الخاص بك."
+  },
+  "dropdown.gameserver.popularGamesDesc": {
+    "message": "أدلة إعداد لأكثر الألعاب شعبية."
+  },
+  "dropdown.dedicated.gettingStartedDesc": {
+    "message": "ابدأ مع خادمك المخصص."
+  },
+  "dropdown.dedicated.linuxDesc": {
+    "message": "أدلة لخوادم لينكس."
+  },
+  "dropdown.dedicated.windowsDesc": {
+    "message": "أدلة لخوادم ويندوز."
+  },
+  "dropdown.dedicated.initialSetup": {
+    "message": "الإعداد الأولي"
+  },
+  "dropdown.dedicated.ipmi": {
+    "message": "IPMI"
+  },
+  "dropdown.dedicated.ownIso": {
+    "message": "ملف ISO خاص"
+  },
+  "dropdown.dedicated.configureRaid": {
+    "message": "تكوين RAID"
+  },
+  "dropdown.dedicated.serverReset": {
+    "message": "إعادة تعيين الخادم"
+  },
+  "dropdown.vps.serverReset": {
+    "message": "إعادة تعيين الخادم"
+  },
+  "dropdown.vps.systemRescue": {
+    "message": "إنقاذ النظام (نسخ احتياطي)"
+  },
+  "dropdown.vps.vpsComparison": {
+    "message": "مقارنة VPS/مخصص"
+  },
+  "dropdown.vps.ballooning": {
+    "message": "Ballooning"
+  },
+  "dropdown.vps.troubleshooting": {
+    "message": "استكشاف الأخطاء"
+  },
+  "dropdown.gameserver.serverReset": {
+    "message": "إعادة تعيين الخادم"
+  },
+  "dropdown.gameserver.resourceLimit": {
+    "message": "حد الموارد"
+  },
+  "dropdown.gameserver.switchGame": {
+    "message": "تبديل اللعبة"
+  },
+  "dropdown.gameserver.upDowngrade": {
+    "message": "ترقية/تخفيض"
+  },
+  "dropdown.gameserver.serverCrash": {
+    "message": "تعطل الخادم - ماذا تفعل؟"
+  },
+  "dropdown.gameserver.subdomain": {
+    "message": "نطاق فرعي للخادم"
+  },
+  "dropdown.gameserver.tebex": {
+    "message": "تسييل Tebex"
+  },
+  "dropdown.rent.gameHosting": {
+    "message": "استضافة الألعاب"
+  },
+  "dropdown.rent.gameHostingDesc": {
+    "message": "استأجر خوادم ألعاب لألعابك المفضلة."
+  },
+  "dropdown.rent.gameserver": {
+    "message": "خادم ألعاب"
+  },
+  "dropdown.rent.teamspeak": {
+    "message": "خادم TeamSpeak"
+  },
+  "dropdown.rent.musicbot": {
+    "message": "بوت موسيقى Discord"
+  },
+  "dropdown.rent.serverHosting": {
+    "message": "استضافة الخوادم"
+  },
+  "dropdown.rent.serverHostingDesc": {
+    "message": "حلول خوادم افتراضية ومخصصة."
+  },
+  "dropdown.rent.vps": {
+    "message": "VPS (خادم افتراضي)"
+  },
+  "dropdown.rent.dedicated": {
+    "message": "خادم مخصص"
+  },
+  "dropdown.rent.webServices": {
+    "message": "خدمات الويب"
+  },
+  "dropdown.rent.webServicesDesc": {
+    "message": "نطاقات، استضافة ويب والمزيد."
+  },
+  "dropdown.rent.domain": {
+    "message": "نطاق"
+  },
+  "dropdown.rent.webspace": {
+    "message": "استضافة ويب"
+  },
+  "service.vserver-service-openclaw.title": {
+    "message": "VPS for OpenClaw",
+    "description": "Product name for the OpenClaw product"
+  },
+  "service.vserver-service-openclaw.path": {
+    "message": "{marketingSite}/{language}/vps-hosting/",
+    "description": "URL path for the VPS product"
+  },
+  "service.dedicated-service-openclaw.title": {
+    "message": "Dedicated Server for OpenClaw",
+    "description": "Product name for the OpenClaw product"
+  },
+  "service.gameserver-echoes-of-elysium.title": {
+    "message": "Echoes of Elysium Gameserver",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-echoes-of-elysium.path": {
+    "message": "{marketingSite}/{language}/echoes-of-elysium-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-starrupture.title": {
+    "message": "StarRupture Gameserver",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-starrupture.path": {
+    "message": "{marketingSite}/{language}/starrupture-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "dropdown.software.linuxServices": {
+    "message": "لينكس - خدمات"
+  },
+  "dropdown.software.linuxServicesDesc": {
+    "message": "تطبيقات مستضافة ذاتياً لـ Linux."
+  },
+  "dropdown.software.linuxDevelopment": {
+    "message": "لينكس - تطوير"
+  },
+  "dropdown.software.linuxDevelopmentDesc": {
+    "message": "أدوات التطوير وبيئات التشغيل."
+  },
+  "dropdown.software.windowsServices": {
+    "message": "ويندوز - خدمات"
+  },
+  "dropdown.software.windowsServicesDesc": {
+    "message": "تطبيقات مستضافة ذاتياً لـ Windows."
+  },
+  "dropdown.software.windowsDevelopment": {
+    "message": "ويندوز - تطوير"
+  },
+  "dropdown.software.windowsDevelopmentDesc": {
+    "message": "أدوات التطوير وبيئات التشغيل."
+  },
+  "dropdown.software.bitwarden": {
+    "message": "Bitwarden"
+  },
+  "dropdown.software.nextcloud": {
+    "message": "Nextcloud"
+  },
+  "dropdown.software.plex": {
+    "message": "Plex"
+  },
+  "dropdown.software.jitsi": {
+    "message": "Jitsi Meet"
+  },
+  "dropdown.software.openvpn": {
+    "message": "OpenVPN"
+  },
+  "dropdown.software.wordpress": {
+    "message": "WordPress"
+  },
+  "dropdown.software.mastodon": {
+    "message": "Mastodon"
+  },
+  "dropdown.software.docker": {
+    "message": "Docker"
+  },
+  "dropdown.software.git": {
+    "message": "Git"
+  },
+  "dropdown.software.python": {
+    "message": "Python"
+  },
+  "dropdown.software.nodejs": {
+    "message": "Node.js"
+  },
+  "dropdown.software.php": {
+    "message": "PHP"
+  },
+  "dropdown.software.databases": {
+    "message": "قواعد البيانات"
+  },
+  "dropdown.software.webserver": {
+    "message": "خادم ويب"
+  },
+  "dropdown.software.plesk": {
+    "message": "Plesk"
+  },
+  "dropdown.software.ftpServer": {
+    "message": "خادم FTP"
+  },
+  "dropdown.software.teamspeak": {
+    "message": "TeamSpeak"
+  },
+  "dropdown.software.mysql": {
+    "message": "MySQL"
+  },
+  "dropdown.software.allSoftware": {
+    "message": "جميع البرامج"
+  },
+  "dropdown.software.linuxDedicatedGames": {
+    "message": "لينكس - ألعاب مخصصة"
+  },
+  "dropdown.software.linuxDedicatedGamesDesc": {
+    "message": "استضافة خوادم ألعاب على Linux."
+  },
+  "dropdown.software.windowsDedicatedGames": {
+    "message": "ويندوز - ألعاب مخصصة"
+  },
+  "dropdown.software.windowsDedicatedGamesDesc": {
+    "message": "استضافة خوادم ألعاب على Windows."
+  },
+  "dropdown.software.fivem": {
+    "message": "FiveM"
+  },
+  "dropdown.software.palworld": {
+    "message": "Palworld"
+  },
+  "dropdown.software.enshrouded": {
+    "message": "Enshrouded"
+  },
+  "dropdown.software.valheim": {
+    "message": "Valheim"
+  },
+  "dropdown.software.cs2": {
+    "message": "CS2"
+  },
+  "dropdown.software.rust": {
+    "message": "Rust"
+  },
+  "dropdown.software.satisfactory": {
+    "message": "Satisfactory"
+  },
+  "dropdown.software.arkSa": {
+    "message": "Ark: SA"
+  },
+  "dropdown.software.allServices": {
+    "message": "جميع الخدمات"
+  },
+  "dropdown.software.allDedicatedGames": {
+    "message": "جميع الألعاب المخصصة"
+  },
+  "dropdown.rent.voiceHosting": {
+    "message": "استضافة صوتية"
+  },
+  "dropdown.rent.voiceHostingDesc": {
+    "message": "خوادم صوتية وبوتات."
+  },
+  "dropdown.rent.webHosting": {
+    "message": "استضافة ويب"
+  },
+  "dropdown.rent.webHostingDesc": {
+    "message": "نطاقات، استضافة ويب والمزيد."
+  },
+  "dropdown.rent.fivem": {
+    "message": "FiveM"
+  },
+  "dropdown.rent.minecraft": {
+    "message": "Minecraft"
+  },
+  "dropdown.rent.hytale": {
+    "message": "Hytale"
+  },
+  "dropdown.rent.scp": {
+    "message": "SCP: Secret Laboratory"
+  },
+  "dropdown.rent.valheim": {
+    "message": "Valheim"
+  },
+  "dropdown.rent.ark": {
+    "message": "Ark: Survival Evolved"
+  },
+  "dropdown.rent.palworld": {
+    "message": "Palworld"
+  },
+  "dropdown.rent.enshrouded": {
+    "message": "Enshrouded"
+  },
+  "dropdown.rent.scum": {
+    "message": "SCUM"
+  },
+  "dropdown.rent.discordBot": {
+    "message": "خادم بوت Discord"
+  },
+  "dropdown.rent.lifetime": {
+    "message": "Lifetime"
+  },
+  "dropdown.rent.lifetimeDesc": {
+    "message": "ادفع مرة واحدة، استخدم للأبد."
+  },
+  "dropdown.rent.lifetimeGameserver": {
+    "message": "Lifetime Gameserver"
+  },
+  "dropdown.rent.lifetimeDedicated": {
+    "message": "Lifetime Dedicated Server"
+  },
+  "dropdown.rent.lifetimeVps": {
+    "message": "Lifetime VPS"
+  },
+  "dropdown.rent.lifetimeTeamspeak": {
+    "message": "Lifetime TeamSpeak 3"
+  },
+  "dropdown.rent.lifetimeWebspace": {
+    "message": "Lifetime Webspace"
+  },
+  "localeDropdown.title": {
+    "message": "اللغة"
+  },
+  "localeDropdown.description": {
+    "message": "اختر لغتك المفضلة."
   }
 }

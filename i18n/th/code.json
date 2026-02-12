@@ -1547,5 +1547,453 @@
   "service.gameserver-skyrim-together-reborn.path": {
     "message": "{marketingSite}/{language}/skyrim-together-reborn-server-hosting/",
     "description": "URL path for the gameserver product"
+  },
+  "dropdown.vps.gettingStarted": {
+    "message": "เริ่มต้นใช้งาน"
+  },
+  "dropdown.vps.introduction": {
+    "message": "แนะนำ"
+  },
+  "dropdown.vps.dashboard": {
+    "message": "แดชบอร์ด"
+  },
+  "dropdown.vps.customIsos": {
+    "message": "ISO แบบกำหนดเอง"
+  },
+  "dropdown.vps.software": {
+    "message": "ซอฟต์แวร์"
+  },
+  "dropdown.vps.linux": {
+    "message": "ลินุกซ์"
+  },
+  "dropdown.vps.windows": {
+    "message": "วินโดวส์"
+  },
+  "dropdown.vps.general": {
+    "message": "ทั่วไป"
+  },
+  "dropdown.vps.services": {
+    "message": "บริการ"
+  },
+  "dropdown.vps.gameServers": {
+    "message": "เซิร์ฟเวอร์เกม"
+  },
+  "dropdown.gameserver.gettingStarted": {
+    "message": "เริ่มต้นใช้งาน"
+  },
+  "dropdown.gameserver.introduction": {
+    "message": "แนะนำ"
+  },
+  "dropdown.gameserver.ftpAccess": {
+    "message": "การเข้าถึง FTP"
+  },
+  "dropdown.gameserver.backups": {
+    "message": "สำรองข้อมูล"
+  },
+  "dropdown.gameserver.popularGames": {
+    "message": "เกมยอดนิยม"
+  },
+  "dropdown.gameserver.moreGames": {
+    "message": "เกมเพิ่มเติม"
+  },
+  "dropdown.gameserver.allGames": {
+    "message": "เกมทั้งหมด (A-Z)"
+  },
+  "dropdown.gameserver.scheduledTasks": {
+    "message": "งานตามกำหนดเวลา"
+  },
+  "dropdown.gameserver.gameSwitch": {
+    "message": "เปลี่ยนเกม"
+  },
+  "dropdown.gameserver.databases": {
+    "message": "ฐานข้อมูล"
+  },
+  "dropdown.gameserver.more": {
+    "message": "เพิ่มเติม..."
+  },
+  "dropdown.vps.vncConsole": {
+    "message": "คอนโซล VNC"
+  },
+  "dropdown.vps.rescueMode": {
+    "message": "โหมดกู้คืน"
+  },
+  "dropdown.vps.more": {
+    "message": "เพิ่มเติม..."
+  },
+  "dropdown.dedicated.gettingStarted": {
+    "message": "เริ่มต้นใช้งาน"
+  },
+  "dropdown.dedicated.introduction": {
+    "message": "แนะนำ"
+  },
+  "dropdown.dedicated.dashboard": {
+    "message": "แดชบอร์ด"
+  },
+  "dropdown.dedicated.setup": {
+    "message": "การตั้งค่า"
+  },
+  "dropdown.dedicated.ilo": {
+    "message": "iLO"
+  },
+  "dropdown.dedicated.customIsos": {
+    "message": "ISO แบบกำหนดเอง"
+  },
+  "dropdown.dedicated.raid": {
+    "message": "RAID"
+  },
+  "dropdown.dedicated.more": {
+    "message": "เพิ่มเติม..."
+  },
+  "dropdown.dedicated.linux": {
+    "message": "ลินุกซ์"
+  },
+  "dropdown.dedicated.windows": {
+    "message": "วินโดวส์"
+  },
+  "dropdown.dedicated.general": {
+    "message": "ทั่วไป"
+  },
+  "dropdown.dedicated.services": {
+    "message": "บริการ"
+  },
+  "dropdown.dedicated.gameServers": {
+    "message": "เซิร์ฟเวอร์เกม"
+  },
+  "dropdown.dedicated.software": {
+    "message": "ซอฟต์แวร์"
+  },
+  "dropdown.vps.gettingStartedDesc": {
+    "message": "เริ่มต้นกับเซิร์ฟเวอร์ส่วนตัวเสมือนของคุณ"
+  },
+  "dropdown.vps.linuxDesc": {
+    "message": "คู่มือสำหรับเซิร์ฟเวอร์ Linux"
+  },
+  "dropdown.vps.windowsDesc": {
+    "message": "คู่มือสำหรับเซิร์ฟเวอร์ Windows"
+  },
+  "dropdown.gameserver.gettingStartedDesc": {
+    "message": "จัดการและกำหนดค่าเซิร์ฟเวอร์เกมของคุณ"
+  },
+  "dropdown.gameserver.popularGamesDesc": {
+    "message": "คู่มือการตั้งค่าสำหรับเกมยอดนิยม"
+  },
+  "dropdown.dedicated.gettingStartedDesc": {
+    "message": "เริ่มต้นกับเซิร์ฟเวอร์เฉพาะของคุณ"
+  },
+  "dropdown.dedicated.linuxDesc": {
+    "message": "คู่มือสำหรับเซิร์ฟเวอร์ Linux"
+  },
+  "dropdown.dedicated.windowsDesc": {
+    "message": "คู่มือสำหรับเซิร์ฟเวอร์ Windows"
+  },
+  "dropdown.dedicated.initialSetup": {
+    "message": "การตั้งค่าเริ่มต้น"
+  },
+  "dropdown.dedicated.ipmi": {
+    "message": "IPMI"
+  },
+  "dropdown.dedicated.ownIso": {
+    "message": "ISO ของคุณ"
+  },
+  "dropdown.dedicated.configureRaid": {
+    "message": "กำหนดค่า RAID"
+  },
+  "dropdown.dedicated.serverReset": {
+    "message": "รีเซ็ตเซิร์ฟเวอร์"
+  },
+  "dropdown.vps.serverReset": {
+    "message": "รีเซ็ตเซิร์ฟเวอร์"
+  },
+  "dropdown.vps.systemRescue": {
+    "message": "ระบบกู้คืน (สำรองข้อมูล)"
+  },
+  "dropdown.vps.vpsComparison": {
+    "message": "เปรียบเทียบ VPS/Dedicated"
+  },
+  "dropdown.vps.ballooning": {
+    "message": "Ballooning"
+  },
+  "dropdown.vps.troubleshooting": {
+    "message": "การแก้ไขปัญหา"
+  },
+  "dropdown.gameserver.serverReset": {
+    "message": "รีเซ็ตเซิร์ฟเวอร์"
+  },
+  "dropdown.gameserver.resourceLimit": {
+    "message": "ขีดจำกัดทรัพยากร"
+  },
+  "dropdown.gameserver.switchGame": {
+    "message": "เปลี่ยนเกม"
+  },
+  "dropdown.gameserver.upDowngrade": {
+    "message": "อัพ-/ดาวน์เกรด"
+  },
+  "dropdown.gameserver.serverCrash": {
+    "message": "เซิร์ฟเวอร์ล่ม - ทำอย่างไร?"
+  },
+  "dropdown.gameserver.subdomain": {
+    "message": "ซับโดเมนเกมเซิร์ฟเวอร์"
+  },
+  "dropdown.gameserver.tebex": {
+    "message": "Tebex การสร้างรายได้"
+  },
+  "dropdown.rent.gameHosting": {
+    "message": "โฮสติ้งเกม"
+  },
+  "dropdown.rent.gameHostingDesc": {
+    "message": "เช่าเซิร์ฟเวอร์เกมสำหรับเกมโปรดของคุณ"
+  },
+  "dropdown.rent.gameserver": {
+    "message": "เกมเซิร์ฟเวอร์"
+  },
+  "dropdown.rent.teamspeak": {
+    "message": "เซิร์ฟเวอร์ TeamSpeak"
+  },
+  "dropdown.rent.musicbot": {
+    "message": "Discord Musicbot"
+  },
+  "dropdown.rent.serverHosting": {
+    "message": "โฮสติ้งเซิร์ฟเวอร์"
+  },
+  "dropdown.rent.serverHostingDesc": {
+    "message": "โซลูชันเซิร์ฟเวอร์เสมือนและเฉพาะ"
+  },
+  "dropdown.rent.vps": {
+    "message": "VPS (เซิร์ฟเวอร์เสมือน)"
+  },
+  "dropdown.rent.dedicated": {
+    "message": "เซิร์ฟเวอร์เฉพาะ"
+  },
+  "dropdown.rent.webServices": {
+    "message": "บริการเว็บ"
+  },
+  "dropdown.rent.webServicesDesc": {
+    "message": "โดเมน, เว็บสเปซ และอื่นๆ"
+  },
+  "dropdown.rent.domain": {
+    "message": "โดเมน"
+  },
+  "dropdown.rent.webspace": {
+    "message": "เว็บสเปซ"
+  },
+  "service.vserver-service-openclaw.title": {
+    "message": "VPS for OpenClaw",
+    "description": "Product name for the OpenClaw product"
+  },
+  "service.vserver-service-openclaw.path": {
+    "message": "{marketingSite}/{language}/vps-hosting/",
+    "description": "URL path for the VPS product"
+  },
+  "service.dedicated-service-openclaw.title": {
+    "message": "Dedicated Server for OpenClaw",
+    "description": "Product name for the OpenClaw product"
+  },
+  "service.gameserver-echoes-of-elysium.title": {
+    "message": "Echoes of Elysium Gameserver",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-echoes-of-elysium.path": {
+    "message": "{marketingSite}/{language}/echoes-of-elysium-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-starrupture.title": {
+    "message": "StarRupture Gameserver",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-starrupture.path": {
+    "message": "{marketingSite}/{language}/starrupture-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "dropdown.software.linuxServices": {
+    "message": "Linux - บริการ"
+  },
+  "dropdown.software.linuxServicesDesc": {
+    "message": "แอปพลิเคชันโฮสต์เองสำหรับ Linux"
+  },
+  "dropdown.software.linuxDevelopment": {
+    "message": "Linux - การพัฒนา"
+  },
+  "dropdown.software.linuxDevelopmentDesc": {
+    "message": "เครื่องมือพัฒนาและรันไทม์"
+  },
+  "dropdown.software.windowsServices": {
+    "message": "Windows - บริการ"
+  },
+  "dropdown.software.windowsServicesDesc": {
+    "message": "แอปพลิเคชันโฮสต์เองสำหรับ Windows"
+  },
+  "dropdown.software.windowsDevelopment": {
+    "message": "Windows - การพัฒนา"
+  },
+  "dropdown.software.windowsDevelopmentDesc": {
+    "message": "เครื่องมือพัฒนาและรันไทม์"
+  },
+  "dropdown.software.bitwarden": {
+    "message": "Bitwarden"
+  },
+  "dropdown.software.nextcloud": {
+    "message": "Nextcloud"
+  },
+  "dropdown.software.plex": {
+    "message": "Plex"
+  },
+  "dropdown.software.jitsi": {
+    "message": "Jitsi Meet"
+  },
+  "dropdown.software.openvpn": {
+    "message": "OpenVPN"
+  },
+  "dropdown.software.wordpress": {
+    "message": "WordPress"
+  },
+  "dropdown.software.mastodon": {
+    "message": "Mastodon"
+  },
+  "dropdown.software.docker": {
+    "message": "Docker"
+  },
+  "dropdown.software.git": {
+    "message": "Git"
+  },
+  "dropdown.software.python": {
+    "message": "Python"
+  },
+  "dropdown.software.nodejs": {
+    "message": "Node.js"
+  },
+  "dropdown.software.php": {
+    "message": "PHP"
+  },
+  "dropdown.software.databases": {
+    "message": "ฐานข้อมูล"
+  },
+  "dropdown.software.webserver": {
+    "message": "เว็บเซิร์ฟเวอร์"
+  },
+  "dropdown.software.plesk": {
+    "message": "Plesk"
+  },
+  "dropdown.software.ftpServer": {
+    "message": "เซิร์ฟเวอร์ FTP"
+  },
+  "dropdown.software.teamspeak": {
+    "message": "TeamSpeak"
+  },
+  "dropdown.software.mysql": {
+    "message": "MySQL"
+  },
+  "dropdown.software.allSoftware": {
+    "message": "ซอฟต์แวร์ทั้งหมด"
+  },
+  "dropdown.software.linuxDedicatedGames": {
+    "message": "Linux - เกม Dedicated"
+  },
+  "dropdown.software.linuxDedicatedGamesDesc": {
+    "message": "โฮสต์เกมเซิร์ฟเวอร์บน Linux"
+  },
+  "dropdown.software.windowsDedicatedGames": {
+    "message": "Windows - เกม Dedicated"
+  },
+  "dropdown.software.windowsDedicatedGamesDesc": {
+    "message": "โฮสต์เกมเซิร์ฟเวอร์บน Windows"
+  },
+  "dropdown.software.fivem": {
+    "message": "FiveM"
+  },
+  "dropdown.software.palworld": {
+    "message": "Palworld"
+  },
+  "dropdown.software.enshrouded": {
+    "message": "Enshrouded"
+  },
+  "dropdown.software.valheim": {
+    "message": "Valheim"
+  },
+  "dropdown.software.cs2": {
+    "message": "CS2"
+  },
+  "dropdown.software.rust": {
+    "message": "Rust"
+  },
+  "dropdown.software.satisfactory": {
+    "message": "Satisfactory"
+  },
+  "dropdown.software.arkSa": {
+    "message": "Ark: SA"
+  },
+  "dropdown.software.allServices": {
+    "message": "บริการทั้งหมด"
+  },
+  "dropdown.software.allDedicatedGames": {
+    "message": "เกม Dedicated ทั้งหมด"
+  },
+  "dropdown.rent.voiceHosting": {
+    "message": "โฮสติ้งเสียง"
+  },
+  "dropdown.rent.voiceHostingDesc": {
+    "message": "เซิร์ฟเวอร์เสียงและบอท"
+  },
+  "dropdown.rent.webHosting": {
+    "message": "เว็บโฮสติ้ง"
+  },
+  "dropdown.rent.webHostingDesc": {
+    "message": "โดเมน, เว็บสเปซ และอื่นๆ"
+  },
+  "dropdown.rent.fivem": {
+    "message": "FiveM"
+  },
+  "dropdown.rent.minecraft": {
+    "message": "Minecraft"
+  },
+  "dropdown.rent.hytale": {
+    "message": "Hytale"
+  },
+  "dropdown.rent.scp": {
+    "message": "SCP: Secret Laboratory"
+  },
+  "dropdown.rent.valheim": {
+    "message": "Valheim"
+  },
+  "dropdown.rent.ark": {
+    "message": "Ark: Survival Evolved"
+  },
+  "dropdown.rent.palworld": {
+    "message": "Palworld"
+  },
+  "dropdown.rent.enshrouded": {
+    "message": "Enshrouded"
+  },
+  "dropdown.rent.scum": {
+    "message": "SCUM"
+  },
+  "dropdown.rent.discordBot": {
+    "message": "เซิร์ฟเวอร์ Discord Bot"
+  },
+  "dropdown.rent.lifetime": {
+    "message": "Lifetime"
+  },
+  "dropdown.rent.lifetimeDesc": {
+    "message": "จ่ายครั้งเดียว ใช้ตลอดไป"
+  },
+  "dropdown.rent.lifetimeGameserver": {
+    "message": "Lifetime Gameserver"
+  },
+  "dropdown.rent.lifetimeDedicated": {
+    "message": "Lifetime Dedicated Server"
+  },
+  "dropdown.rent.lifetimeVps": {
+    "message": "Lifetime VPS"
+  },
+  "dropdown.rent.lifetimeTeamspeak": {
+    "message": "Lifetime TeamSpeak 3"
+  },
+  "dropdown.rent.lifetimeWebspace": {
+    "message": "Lifetime Webspace"
+  },
+  "localeDropdown.title": {
+    "message": "ภาษา"
+  },
+  "localeDropdown.description": {
+    "message": "เลือกภาษาที่คุณต้องการ"
   }
 }

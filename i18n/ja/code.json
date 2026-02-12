@@ -1547,5 +1547,453 @@
   "service.gameserver-skyrim-together-reborn.path": {
     "message": "{marketingSite}/{language}/skyrim-together-reborn-server-hosting/",
     "description": "URL path for the gameserver product"
+  },
+  "dropdown.vps.gettingStarted": {
+    "message": "はじめに"
+  },
+  "dropdown.vps.introduction": {
+    "message": "紹介"
+  },
+  "dropdown.vps.dashboard": {
+    "message": "ダッシュボード"
+  },
+  "dropdown.vps.customIsos": {
+    "message": "カスタムISO"
+  },
+  "dropdown.vps.software": {
+    "message": "ソフトウェア"
+  },
+  "dropdown.vps.linux": {
+    "message": "Linux"
+  },
+  "dropdown.vps.windows": {
+    "message": "Windows"
+  },
+  "dropdown.vps.general": {
+    "message": "一般"
+  },
+  "dropdown.vps.services": {
+    "message": "サービス"
+  },
+  "dropdown.vps.gameServers": {
+    "message": "ゲームサーバー"
+  },
+  "dropdown.gameserver.gettingStarted": {
+    "message": "はじめに"
+  },
+  "dropdown.gameserver.introduction": {
+    "message": "紹介"
+  },
+  "dropdown.gameserver.ftpAccess": {
+    "message": "FTPアクセス"
+  },
+  "dropdown.gameserver.backups": {
+    "message": "バックアップ"
+  },
+  "dropdown.gameserver.popularGames": {
+    "message": "人気のゲーム"
+  },
+  "dropdown.gameserver.moreGames": {
+    "message": "その他のゲーム"
+  },
+  "dropdown.gameserver.allGames": {
+    "message": "すべてのゲーム (A-Z)"
+  },
+  "dropdown.gameserver.scheduledTasks": {
+    "message": "スケジュールタスク"
+  },
+  "dropdown.gameserver.gameSwitch": {
+    "message": "ゲーム切替"
+  },
+  "dropdown.gameserver.databases": {
+    "message": "データベース"
+  },
+  "dropdown.gameserver.more": {
+    "message": "もっと見る..."
+  },
+  "dropdown.vps.vncConsole": {
+    "message": "VNCコンソール"
+  },
+  "dropdown.vps.rescueMode": {
+    "message": "レスキューモード"
+  },
+  "dropdown.vps.more": {
+    "message": "もっと見る..."
+  },
+  "dropdown.dedicated.gettingStarted": {
+    "message": "はじめに"
+  },
+  "dropdown.dedicated.introduction": {
+    "message": "紹介"
+  },
+  "dropdown.dedicated.dashboard": {
+    "message": "ダッシュボード"
+  },
+  "dropdown.dedicated.setup": {
+    "message": "セットアップ"
+  },
+  "dropdown.dedicated.ilo": {
+    "message": "iLO"
+  },
+  "dropdown.dedicated.customIsos": {
+    "message": "カスタムISO"
+  },
+  "dropdown.dedicated.raid": {
+    "message": "RAID"
+  },
+  "dropdown.dedicated.more": {
+    "message": "もっと見る..."
+  },
+  "dropdown.dedicated.linux": {
+    "message": "Linux"
+  },
+  "dropdown.dedicated.windows": {
+    "message": "Windows"
+  },
+  "dropdown.dedicated.general": {
+    "message": "一般"
+  },
+  "dropdown.dedicated.services": {
+    "message": "サービス"
+  },
+  "dropdown.dedicated.gameServers": {
+    "message": "ゲームサーバー"
+  },
+  "dropdown.dedicated.software": {
+    "message": "ソフトウェア"
+  },
+  "dropdown.vps.gettingStartedDesc": {
+    "message": "仮想プライベートサーバーを始めましょう。"
+  },
+  "dropdown.vps.linuxDesc": {
+    "message": "Linuxサーバーのガイド。"
+  },
+  "dropdown.vps.windowsDesc": {
+    "message": "Windowsサーバーのガイド。"
+  },
+  "dropdown.gameserver.gettingStartedDesc": {
+    "message": "ゲームサーバーの管理と設定。"
+  },
+  "dropdown.gameserver.popularGamesDesc": {
+    "message": "人気ゲームのセットアップガイド。"
+  },
+  "dropdown.dedicated.gettingStartedDesc": {
+    "message": "専用サーバーを始めましょう。"
+  },
+  "dropdown.dedicated.linuxDesc": {
+    "message": "Linuxサーバーのガイド。"
+  },
+  "dropdown.dedicated.windowsDesc": {
+    "message": "Windowsサーバーのガイド。"
+  },
+  "dropdown.dedicated.initialSetup": {
+    "message": "初期設定"
+  },
+  "dropdown.dedicated.ipmi": {
+    "message": "IPMI"
+  },
+  "dropdown.dedicated.ownIso": {
+    "message": "独自のISO"
+  },
+  "dropdown.dedicated.configureRaid": {
+    "message": "RAID設定"
+  },
+  "dropdown.dedicated.serverReset": {
+    "message": "サーバーリセット"
+  },
+  "dropdown.vps.serverReset": {
+    "message": "サーバーリセット"
+  },
+  "dropdown.vps.systemRescue": {
+    "message": "System Rescue (バックアップ)"
+  },
+  "dropdown.vps.vpsComparison": {
+    "message": "VPS/専用サーバー比較"
+  },
+  "dropdown.vps.ballooning": {
+    "message": "Ballooning"
+  },
+  "dropdown.vps.troubleshooting": {
+    "message": "トラブルシューティング"
+  },
+  "dropdown.gameserver.serverReset": {
+    "message": "サーバーリセット"
+  },
+  "dropdown.gameserver.resourceLimit": {
+    "message": "リソース制限"
+  },
+  "dropdown.gameserver.switchGame": {
+    "message": "ゲーム変更"
+  },
+  "dropdown.gameserver.upDowngrade": {
+    "message": "アップ/ダウングレード"
+  },
+  "dropdown.gameserver.serverCrash": {
+    "message": "サーバークラッシュ - どうする？"
+  },
+  "dropdown.gameserver.subdomain": {
+    "message": "ゲームサーバー サブドメイン"
+  },
+  "dropdown.gameserver.tebex": {
+    "message": "Tebex マネタイゼーション"
+  },
+  "dropdown.rent.gameHosting": {
+    "message": "ゲームホスティング"
+  },
+  "dropdown.rent.gameHostingDesc": {
+    "message": "お気に入りのゲーム用サーバーをレンタル。"
+  },
+  "dropdown.rent.gameserver": {
+    "message": "ゲームサーバー"
+  },
+  "dropdown.rent.teamspeak": {
+    "message": "TeamSpeak サーバー"
+  },
+  "dropdown.rent.musicbot": {
+    "message": "Discord Musicbot"
+  },
+  "dropdown.rent.serverHosting": {
+    "message": "サーバーホスティング"
+  },
+  "dropdown.rent.serverHostingDesc": {
+    "message": "仮想および専用サーバーソリューション。"
+  },
+  "dropdown.rent.vps": {
+    "message": "VPS（仮想サーバー）"
+  },
+  "dropdown.rent.dedicated": {
+    "message": "専用サーバー"
+  },
+  "dropdown.rent.webServices": {
+    "message": "Webサービス"
+  },
+  "dropdown.rent.webServicesDesc": {
+    "message": "ドメイン、ウェブスペース等。"
+  },
+  "dropdown.rent.domain": {
+    "message": "ドメイン"
+  },
+  "dropdown.rent.webspace": {
+    "message": "ウェブスペース"
+  },
+  "service.vserver-service-openclaw.title": {
+    "message": "VPS for OpenClaw",
+    "description": "Product name for the OpenClaw product"
+  },
+  "service.vserver-service-openclaw.path": {
+    "message": "{marketingSite}/{language}/vps-hosting/",
+    "description": "URL path for the VPS product"
+  },
+  "service.dedicated-service-openclaw.title": {
+    "message": "Dedicated Server for OpenClaw",
+    "description": "Product name for the OpenClaw product"
+  },
+  "service.gameserver-echoes-of-elysium.title": {
+    "message": "Echoes of Elysium Gameserver",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-echoes-of-elysium.path": {
+    "message": "{marketingSite}/{language}/echoes-of-elysium-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-starrupture.title": {
+    "message": "StarRupture Gameserver",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-starrupture.path": {
+    "message": "{marketingSite}/{language}/starrupture-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "dropdown.software.linuxServices": {
+    "message": "Linux - サービス"
+  },
+  "dropdown.software.linuxServicesDesc": {
+    "message": "Linux向けセルフホスト型アプリ。"
+  },
+  "dropdown.software.linuxDevelopment": {
+    "message": "Linux - 開発"
+  },
+  "dropdown.software.linuxDevelopmentDesc": {
+    "message": "開発ツールとランタイム。"
+  },
+  "dropdown.software.windowsServices": {
+    "message": "Windows - サービス"
+  },
+  "dropdown.software.windowsServicesDesc": {
+    "message": "Windows向けセルフホスト型アプリ。"
+  },
+  "dropdown.software.windowsDevelopment": {
+    "message": "Windows - 開発"
+  },
+  "dropdown.software.windowsDevelopmentDesc": {
+    "message": "開発ツールとランタイム。"
+  },
+  "dropdown.software.bitwarden": {
+    "message": "Bitwarden"
+  },
+  "dropdown.software.nextcloud": {
+    "message": "Nextcloud"
+  },
+  "dropdown.software.plex": {
+    "message": "Plex"
+  },
+  "dropdown.software.jitsi": {
+    "message": "Jitsi Meet"
+  },
+  "dropdown.software.openvpn": {
+    "message": "OpenVPN"
+  },
+  "dropdown.software.wordpress": {
+    "message": "WordPress"
+  },
+  "dropdown.software.mastodon": {
+    "message": "Mastodon"
+  },
+  "dropdown.software.docker": {
+    "message": "Docker"
+  },
+  "dropdown.software.git": {
+    "message": "Git"
+  },
+  "dropdown.software.python": {
+    "message": "Python"
+  },
+  "dropdown.software.nodejs": {
+    "message": "Node.js"
+  },
+  "dropdown.software.php": {
+    "message": "PHP"
+  },
+  "dropdown.software.databases": {
+    "message": "データベース"
+  },
+  "dropdown.software.webserver": {
+    "message": "Webサーバー"
+  },
+  "dropdown.software.plesk": {
+    "message": "Plesk"
+  },
+  "dropdown.software.ftpServer": {
+    "message": "FTPサーバー"
+  },
+  "dropdown.software.teamspeak": {
+    "message": "TeamSpeak"
+  },
+  "dropdown.software.mysql": {
+    "message": "MySQL"
+  },
+  "dropdown.software.allSoftware": {
+    "message": "すべてのソフトウェア"
+  },
+  "dropdown.software.linuxDedicatedGames": {
+    "message": "Linux - 専用ゲーム"
+  },
+  "dropdown.software.linuxDedicatedGamesDesc": {
+    "message": "Linuxでゲームサーバーをホスト。"
+  },
+  "dropdown.software.windowsDedicatedGames": {
+    "message": "Windows - 専用ゲーム"
+  },
+  "dropdown.software.windowsDedicatedGamesDesc": {
+    "message": "Windowsでゲームサーバーをホスト。"
+  },
+  "dropdown.software.fivem": {
+    "message": "FiveM"
+  },
+  "dropdown.software.palworld": {
+    "message": "Palworld"
+  },
+  "dropdown.software.enshrouded": {
+    "message": "Enshrouded"
+  },
+  "dropdown.software.valheim": {
+    "message": "Valheim"
+  },
+  "dropdown.software.cs2": {
+    "message": "CS2"
+  },
+  "dropdown.software.rust": {
+    "message": "Rust"
+  },
+  "dropdown.software.satisfactory": {
+    "message": "Satisfactory"
+  },
+  "dropdown.software.arkSa": {
+    "message": "Ark: SA"
+  },
+  "dropdown.software.allServices": {
+    "message": "すべてのサービス"
+  },
+  "dropdown.software.allDedicatedGames": {
+    "message": "すべての専用ゲーム"
+  },
+  "dropdown.rent.voiceHosting": {
+    "message": "ボイスホスティング"
+  },
+  "dropdown.rent.voiceHostingDesc": {
+    "message": "ボイスサーバーとボット。"
+  },
+  "dropdown.rent.webHosting": {
+    "message": "Webホスティング"
+  },
+  "dropdown.rent.webHostingDesc": {
+    "message": "ドメイン、ウェブスペース等。"
+  },
+  "dropdown.rent.fivem": {
+    "message": "FiveM"
+  },
+  "dropdown.rent.minecraft": {
+    "message": "Minecraft"
+  },
+  "dropdown.rent.hytale": {
+    "message": "Hytale"
+  },
+  "dropdown.rent.scp": {
+    "message": "SCP: Secret Laboratory"
+  },
+  "dropdown.rent.valheim": {
+    "message": "Valheim"
+  },
+  "dropdown.rent.ark": {
+    "message": "Ark: Survival Evolved"
+  },
+  "dropdown.rent.palworld": {
+    "message": "Palworld"
+  },
+  "dropdown.rent.enshrouded": {
+    "message": "Enshrouded"
+  },
+  "dropdown.rent.scum": {
+    "message": "SCUM"
+  },
+  "dropdown.rent.discordBot": {
+    "message": "Discord Bot サーバー"
+  },
+  "dropdown.rent.lifetime": {
+    "message": "Lifetime"
+  },
+  "dropdown.rent.lifetimeDesc": {
+    "message": "一度支払えば、永久に利用可能。"
+  },
+  "dropdown.rent.lifetimeGameserver": {
+    "message": "Lifetime Gameserver"
+  },
+  "dropdown.rent.lifetimeDedicated": {
+    "message": "Lifetime Dedicated Server"
+  },
+  "dropdown.rent.lifetimeVps": {
+    "message": "Lifetime VPS"
+  },
+  "dropdown.rent.lifetimeTeamspeak": {
+    "message": "Lifetime TeamSpeak 3"
+  },
+  "dropdown.rent.lifetimeWebspace": {
+    "message": "Lifetime Webspace"
+  },
+  "localeDropdown.title": {
+    "message": "言語"
+  },
+  "localeDropdown.description": {
+    "message": "お好みの言語を選択してください。"
   }
 }

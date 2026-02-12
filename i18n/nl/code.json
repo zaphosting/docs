@@ -1515,5 +1515,485 @@
   "theme.tags.tagsPageTitle": {
     "message": "Tags",
     "description": "The title of the tag list page"
+  },
+  "dropdown.vps.gettingStarted": {
+    "message": "Eerste stappen"
+  },
+  "dropdown.vps.introduction": {
+    "message": "Introductie"
+  },
+  "dropdown.vps.dashboard": {
+    "message": "Dashboard"
+  },
+  "dropdown.vps.customIsos": {
+    "message": "Aangepaste ISO's"
+  },
+  "dropdown.vps.software": {
+    "message": "Software"
+  },
+  "dropdown.vps.linux": {
+    "message": "Linux"
+  },
+  "dropdown.vps.windows": {
+    "message": "Windows"
+  },
+  "dropdown.vps.general": {
+    "message": "Algemeen"
+  },
+  "dropdown.vps.services": {
+    "message": "Diensten"
+  },
+  "dropdown.vps.gameServers": {
+    "message": "Gameservers"
+  },
+  "dropdown.gameserver.gettingStarted": {
+    "message": "Eerste stappen"
+  },
+  "dropdown.gameserver.introduction": {
+    "message": "Introductie"
+  },
+  "dropdown.gameserver.ftpAccess": {
+    "message": "FTP-toegang"
+  },
+  "dropdown.gameserver.backups": {
+    "message": "Back-ups"
+  },
+  "dropdown.gameserver.popularGames": {
+    "message": "Populaire spellen"
+  },
+  "dropdown.gameserver.moreGames": {
+    "message": "Meer spellen"
+  },
+  "dropdown.gameserver.allGames": {
+    "message": "Alle spellen (A-Z)"
+  },
+  "dropdown.gameserver.scheduledTasks": {
+    "message": "Geplande taken"
+  },
+  "dropdown.gameserver.gameSwitch": {
+    "message": "Spelwissel"
+  },
+  "dropdown.gameserver.databases": {
+    "message": "Databases"
+  },
+  "dropdown.gameserver.more": {
+    "message": "Meer..."
+  },
+  "dropdown.vps.vncConsole": {
+    "message": "VNC-console"
+  },
+  "dropdown.vps.rescueMode": {
+    "message": "Reddingsmodus"
+  },
+  "dropdown.vps.more": {
+    "message": "Meer..."
+  },
+  "dropdown.dedicated.gettingStarted": {
+    "message": "Eerste stappen"
+  },
+  "dropdown.dedicated.introduction": {
+    "message": "Introductie"
+  },
+  "dropdown.dedicated.dashboard": {
+    "message": "Dashboard"
+  },
+  "dropdown.dedicated.setup": {
+    "message": "Installatie"
+  },
+  "dropdown.dedicated.ilo": {
+    "message": "iLO"
+  },
+  "dropdown.dedicated.customIsos": {
+    "message": "Aangepaste ISOs"
+  },
+  "dropdown.dedicated.raid": {
+    "message": "RAID"
+  },
+  "dropdown.dedicated.more": {
+    "message": "Meer..."
+  },
+  "dropdown.dedicated.linux": {
+    "message": "Linux"
+  },
+  "dropdown.dedicated.windows": {
+    "message": "Windows"
+  },
+  "dropdown.dedicated.general": {
+    "message": "Algemeen"
+  },
+  "dropdown.dedicated.services": {
+    "message": "Diensten"
+  },
+  "dropdown.dedicated.gameServers": {
+    "message": "Gameservers"
+  },
+  "dropdown.dedicated.software": {
+    "message": "Software"
+  },
+  "dropdown.vps.gettingStartedDesc": {
+    "message": "Ga aan de slag met je virtuele privéserver."
+  },
+  "dropdown.vps.linuxDesc": {
+    "message": "Handleidingen voor Linux-servers."
+  },
+  "dropdown.vps.windowsDesc": {
+    "message": "Handleidingen voor Windows-servers."
+  },
+  "dropdown.gameserver.gettingStartedDesc": {
+    "message": "Beheer en configureer je gameserver."
+  },
+  "dropdown.gameserver.popularGamesDesc": {
+    "message": "Installatiehandleidingen voor de populairste games."
+  },
+  "dropdown.dedicated.gettingStartedDesc": {
+    "message": "Ga aan de slag met je dedicated server."
+  },
+  "dropdown.dedicated.linuxDesc": {
+    "message": "Handleidingen voor Linux-servers."
+  },
+  "dropdown.dedicated.windowsDesc": {
+    "message": "Handleidingen voor Windows-servers."
+  },
+  "dropdown.dedicated.initialSetup": {
+    "message": "Eerste installatie"
+  },
+  "dropdown.dedicated.ipmi": {
+    "message": "IPMI"
+  },
+  "dropdown.dedicated.ownIso": {
+    "message": "Eigen ISO"
+  },
+  "dropdown.dedicated.configureRaid": {
+    "message": "RAID configureren"
+  },
+  "dropdown.dedicated.serverReset": {
+    "message": "Server resetten"
+  },
+  "dropdown.vps.serverReset": {
+    "message": "Server resetten"
+  },
+  "dropdown.vps.systemRescue": {
+    "message": "System Rescue (Backup)"
+  },
+  "dropdown.vps.vpsComparison": {
+    "message": "VPS/Dedicated vergelijking"
+  },
+  "dropdown.vps.ballooning": {
+    "message": "Ballooning"
+  },
+  "dropdown.vps.troubleshooting": {
+    "message": "Probleemoplossing"
+  },
+  "dropdown.gameserver.serverReset": {
+    "message": "Server resetten"
+  },
+  "dropdown.gameserver.resourceLimit": {
+    "message": "Resourcelimiet"
+  },
+  "dropdown.gameserver.switchGame": {
+    "message": "Game wisselen"
+  },
+  "dropdown.gameserver.upDowngrade": {
+    "message": "Up-/Downgrade"
+  },
+  "dropdown.gameserver.serverCrash": {
+    "message": "Server crash - Wat nu?"
+  },
+  "dropdown.gameserver.subdomain": {
+    "message": "Gameserver subdomein"
+  },
+  "dropdown.gameserver.tebex": {
+    "message": "Tebex monetisatie"
+  },
+  "dropdown.rent.gameHosting": {
+    "message": "Game Hosting"
+  },
+  "dropdown.rent.gameHostingDesc": {
+    "message": "Huur servers voor je favoriete games."
+  },
+  "dropdown.rent.gameserver": {
+    "message": "Gameserver"
+  },
+  "dropdown.rent.teamspeak": {
+    "message": "TeamSpeak Server"
+  },
+  "dropdown.rent.musicbot": {
+    "message": "Discord Musicbot"
+  },
+  "dropdown.rent.serverHosting": {
+    "message": "Server Hosting"
+  },
+  "dropdown.rent.serverHostingDesc": {
+    "message": "Virtuele en dedicated serveroplossingen."
+  },
+  "dropdown.rent.vps": {
+    "message": "VPS (Virtuele Server)"
+  },
+  "dropdown.rent.dedicated": {
+    "message": "Dedicated Server"
+  },
+  "dropdown.rent.webServices": {
+    "message": "Webdiensten"
+  },
+  "dropdown.rent.webServicesDesc": {
+    "message": "Domeinen, webspace & meer."
+  },
+  "dropdown.rent.domain": {
+    "message": "Domein"
+  },
+  "dropdown.rent.webspace": {
+    "message": "Webspace"
+  },
+  "service.vserver-service-openclaw.title": {
+    "message": "VPS for OpenClaw",
+    "description": "Product name for the OpenClaw product"
+  },
+  "service.vserver-service-openclaw.path": {
+    "message": "{marketingSite}/{language}/vps-hosting/",
+    "description": "URL path for the VPS product"
+  },
+  "service.dedicated-service-openclaw.title": {
+    "message": "Dedicated Server for OpenClaw",
+    "description": "Product name for the OpenClaw product"
+  },
+  "service.gameserver-echoes-of-elysium.title": {
+    "message": "Echoes of Elysium Gameserver",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-echoes-of-elysium.path": {
+    "message": "{marketingSite}/{language}/echoes-of-elysium-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-hytale.title": {
+    "message": "Hytale Gameserver",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-hytale.path": {
+    "message": "{marketingSite}/{language}/hytale-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-nightingale.title": {
+    "message": "Nightingale Gameserver",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-nightingale.path": {
+    "message": "{marketingSite}/{language}/nightingale-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-renown.title": {
+    "message": "Renown Gameserver",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-renown.path": {
+    "message": "{marketingSite}/{language}/renown-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-skyrim-together-reborn.title": {
+    "message": "Skyrim Together Reborn Gameserver",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-skyrim-together-reborn.path": {
+    "message": "{marketingSite}/{language}/skyrim-together-reborn-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-starrupture.title": {
+    "message": "StarRupture Gameserver",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-starrupture.path": {
+    "message": "{marketingSite}/{language}/starrupture-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "dropdown.software.linuxServices": {
+    "message": "Linux - Diensten"
+  },
+  "dropdown.software.linuxServicesDesc": {
+    "message": "Self-hosted applicaties voor Linux."
+  },
+  "dropdown.software.linuxDevelopment": {
+    "message": "Linux - Ontwikkeling"
+  },
+  "dropdown.software.linuxDevelopmentDesc": {
+    "message": "Ontwikkeltools en runtimes."
+  },
+  "dropdown.software.windowsServices": {
+    "message": "Windows - Diensten"
+  },
+  "dropdown.software.windowsServicesDesc": {
+    "message": "Self-hosted applicaties voor Windows."
+  },
+  "dropdown.software.windowsDevelopment": {
+    "message": "Windows - Ontwikkeling"
+  },
+  "dropdown.software.windowsDevelopmentDesc": {
+    "message": "Ontwikkeltools en runtimes."
+  },
+  "dropdown.software.bitwarden": {
+    "message": "Bitwarden"
+  },
+  "dropdown.software.nextcloud": {
+    "message": "Nextcloud"
+  },
+  "dropdown.software.plex": {
+    "message": "Plex"
+  },
+  "dropdown.software.jitsi": {
+    "message": "Jitsi Meet"
+  },
+  "dropdown.software.openvpn": {
+    "message": "OpenVPN"
+  },
+  "dropdown.software.wordpress": {
+    "message": "WordPress"
+  },
+  "dropdown.software.mastodon": {
+    "message": "Mastodon"
+  },
+  "dropdown.software.docker": {
+    "message": "Docker"
+  },
+  "dropdown.software.git": {
+    "message": "Git"
+  },
+  "dropdown.software.python": {
+    "message": "Python"
+  },
+  "dropdown.software.nodejs": {
+    "message": "Node.js"
+  },
+  "dropdown.software.php": {
+    "message": "PHP"
+  },
+  "dropdown.software.databases": {
+    "message": "Databases"
+  },
+  "dropdown.software.webserver": {
+    "message": "Webserver"
+  },
+  "dropdown.software.plesk": {
+    "message": "Plesk"
+  },
+  "dropdown.software.ftpServer": {
+    "message": "FTP Server"
+  },
+  "dropdown.software.teamspeak": {
+    "message": "TeamSpeak"
+  },
+  "dropdown.software.mysql": {
+    "message": "MySQL"
+  },
+  "dropdown.software.allSoftware": {
+    "message": "Alle software"
+  },
+  "dropdown.software.linuxDedicatedGames": {
+    "message": "Linux - Dedicated Games"
+  },
+  "dropdown.software.linuxDedicatedGamesDesc": {
+    "message": "Game servers hosten op Linux."
+  },
+  "dropdown.software.windowsDedicatedGames": {
+    "message": "Windows - Dedicated Games"
+  },
+  "dropdown.software.windowsDedicatedGamesDesc": {
+    "message": "Game servers hosten op Windows."
+  },
+  "dropdown.software.fivem": {
+    "message": "FiveM"
+  },
+  "dropdown.software.palworld": {
+    "message": "Palworld"
+  },
+  "dropdown.software.enshrouded": {
+    "message": "Enshrouded"
+  },
+  "dropdown.software.valheim": {
+    "message": "Valheim"
+  },
+  "dropdown.software.cs2": {
+    "message": "CS2"
+  },
+  "dropdown.software.rust": {
+    "message": "Rust"
+  },
+  "dropdown.software.satisfactory": {
+    "message": "Satisfactory"
+  },
+  "dropdown.software.arkSa": {
+    "message": "Ark: SA"
+  },
+  "dropdown.software.allServices": {
+    "message": "Alle diensten"
+  },
+  "dropdown.software.allDedicatedGames": {
+    "message": "Alle dedicated games"
+  },
+  "dropdown.rent.voiceHosting": {
+    "message": "Voice Hosting"
+  },
+  "dropdown.rent.voiceHostingDesc": {
+    "message": "Voice servers en bots."
+  },
+  "dropdown.rent.webHosting": {
+    "message": "Web Hosting"
+  },
+  "dropdown.rent.webHostingDesc": {
+    "message": "Domeinen, webspace & meer."
+  },
+  "dropdown.rent.fivem": {
+    "message": "FiveM"
+  },
+  "dropdown.rent.minecraft": {
+    "message": "Minecraft"
+  },
+  "dropdown.rent.hytale": {
+    "message": "Hytale"
+  },
+  "dropdown.rent.scp": {
+    "message": "SCP: Secret Laboratory"
+  },
+  "dropdown.rent.valheim": {
+    "message": "Valheim"
+  },
+  "dropdown.rent.ark": {
+    "message": "Ark: Survival Evolved"
+  },
+  "dropdown.rent.palworld": {
+    "message": "Palworld"
+  },
+  "dropdown.rent.enshrouded": {
+    "message": "Enshrouded"
+  },
+  "dropdown.rent.scum": {
+    "message": "SCUM"
+  },
+  "dropdown.rent.discordBot": {
+    "message": "Discord Bot Server"
+  },
+  "dropdown.rent.lifetime": {
+    "message": "Lifetime"
+  },
+  "dropdown.rent.lifetimeDesc": {
+    "message": "Eenmaal betalen, voor altijd gebruiken."
+  },
+  "dropdown.rent.lifetimeGameserver": {
+    "message": "Lifetime Gameserver"
+  },
+  "dropdown.rent.lifetimeDedicated": {
+    "message": "Lifetime Dedicated Server"
+  },
+  "dropdown.rent.lifetimeVps": {
+    "message": "Lifetime VPS"
+  },
+  "dropdown.rent.lifetimeTeamspeak": {
+    "message": "Lifetime TeamSpeak 3"
+  },
+  "dropdown.rent.lifetimeWebspace": {
+    "message": "Lifetime Webspace"
+  },
+  "localeDropdown.title": {
+    "message": "Taal"
+  },
+  "localeDropdown.description": {
+    "message": "Selecteer je voorkeurstaal."
   }
 }

@@ -1515,5 +1515,485 @@
   "theme.tags.tagsPageTitle": {
     "message": "Etichette",
     "description": "The title of the tag list page"
+  },
+  "dropdown.vps.gettingStarted": {
+    "message": "Primi passi"
+  },
+  "dropdown.vps.introduction": {
+    "message": "Introduzione"
+  },
+  "dropdown.vps.dashboard": {
+    "message": "Dashboard"
+  },
+  "dropdown.vps.customIsos": {
+    "message": "ISO personalizzate"
+  },
+  "dropdown.vps.software": {
+    "message": "Software"
+  },
+  "dropdown.vps.linux": {
+    "message": "Linux"
+  },
+  "dropdown.vps.windows": {
+    "message": "Windows"
+  },
+  "dropdown.vps.general": {
+    "message": "Generale"
+  },
+  "dropdown.vps.services": {
+    "message": "Servizi"
+  },
+  "dropdown.vps.gameServers": {
+    "message": "Server di gioco"
+  },
+  "dropdown.gameserver.gettingStarted": {
+    "message": "Primi passi"
+  },
+  "dropdown.gameserver.introduction": {
+    "message": "Introduzione"
+  },
+  "dropdown.gameserver.ftpAccess": {
+    "message": "Accesso FTP"
+  },
+  "dropdown.gameserver.backups": {
+    "message": "Backup"
+  },
+  "dropdown.gameserver.popularGames": {
+    "message": "Giochi popolari"
+  },
+  "dropdown.gameserver.moreGames": {
+    "message": "Altri giochi"
+  },
+  "dropdown.gameserver.allGames": {
+    "message": "Tutti i giochi (A-Z)"
+  },
+  "dropdown.gameserver.scheduledTasks": {
+    "message": "Attività pianificate"
+  },
+  "dropdown.gameserver.gameSwitch": {
+    "message": "Cambio gioco"
+  },
+  "dropdown.gameserver.databases": {
+    "message": "Database"
+  },
+  "dropdown.gameserver.more": {
+    "message": "Altro..."
+  },
+  "dropdown.vps.vncConsole": {
+    "message": "Console VNC"
+  },
+  "dropdown.vps.rescueMode": {
+    "message": "Modalità di ripristino"
+  },
+  "dropdown.vps.more": {
+    "message": "Altro..."
+  },
+  "dropdown.dedicated.gettingStarted": {
+    "message": "Primi passi"
+  },
+  "dropdown.dedicated.introduction": {
+    "message": "Introduzione"
+  },
+  "dropdown.dedicated.dashboard": {
+    "message": "Pannello di controllo"
+  },
+  "dropdown.dedicated.setup": {
+    "message": "Configurazione"
+  },
+  "dropdown.dedicated.ilo": {
+    "message": "iLO"
+  },
+  "dropdown.dedicated.customIsos": {
+    "message": "ISO personalizzate"
+  },
+  "dropdown.dedicated.raid": {
+    "message": "RAID"
+  },
+  "dropdown.dedicated.more": {
+    "message": "Altro..."
+  },
+  "dropdown.dedicated.linux": {
+    "message": "Linux"
+  },
+  "dropdown.dedicated.windows": {
+    "message": "Windows"
+  },
+  "dropdown.dedicated.general": {
+    "message": "Generale"
+  },
+  "dropdown.dedicated.services": {
+    "message": "Servizi"
+  },
+  "dropdown.dedicated.gameServers": {
+    "message": "Server di gioco"
+  },
+  "dropdown.dedicated.software": {
+    "message": "Software"
+  },
+  "dropdown.vps.gettingStartedDesc": {
+    "message": "Inizia con il tuo server privato virtuale."
+  },
+  "dropdown.vps.linuxDesc": {
+    "message": "Guide per server basati su Linux."
+  },
+  "dropdown.vps.windowsDesc": {
+    "message": "Guide per server basati su Windows."
+  },
+  "dropdown.gameserver.gettingStartedDesc": {
+    "message": "Gestisci e configura il tuo server di gioco."
+  },
+  "dropdown.gameserver.popularGamesDesc": {
+    "message": "Guide di installazione per i giochi più popolari."
+  },
+  "dropdown.dedicated.gettingStartedDesc": {
+    "message": "Inizia con il tuo server dedicato."
+  },
+  "dropdown.dedicated.linuxDesc": {
+    "message": "Guide per server basati su Linux."
+  },
+  "dropdown.dedicated.windowsDesc": {
+    "message": "Guide per server basati su Windows."
+  },
+  "dropdown.dedicated.initialSetup": {
+    "message": "Configurazione iniziale"
+  },
+  "dropdown.dedicated.ipmi": {
+    "message": "IPMI"
+  },
+  "dropdown.dedicated.ownIso": {
+    "message": "ISO personalizzata"
+  },
+  "dropdown.dedicated.configureRaid": {
+    "message": "Configurare RAID"
+  },
+  "dropdown.dedicated.serverReset": {
+    "message": "Ripristino server"
+  },
+  "dropdown.vps.serverReset": {
+    "message": "Reset del server"
+  },
+  "dropdown.vps.systemRescue": {
+    "message": "System Rescue (Backup)"
+  },
+  "dropdown.vps.vpsComparison": {
+    "message": "Confronto VPS/Dedicato"
+  },
+  "dropdown.vps.ballooning": {
+    "message": "Ballooning"
+  },
+  "dropdown.vps.troubleshooting": {
+    "message": "Risoluzione dei problemi"
+  },
+  "dropdown.gameserver.serverReset": {
+    "message": "Reset del server"
+  },
+  "dropdown.gameserver.resourceLimit": {
+    "message": "Limite risorse"
+  },
+  "dropdown.gameserver.switchGame": {
+    "message": "Cambia gioco"
+  },
+  "dropdown.gameserver.upDowngrade": {
+    "message": "Up-/Downgrade"
+  },
+  "dropdown.gameserver.serverCrash": {
+    "message": "Crash del server - Cosa fare?"
+  },
+  "dropdown.gameserver.subdomain": {
+    "message": "Sottodominio del server"
+  },
+  "dropdown.gameserver.tebex": {
+    "message": "Monetizzazione Tebex"
+  },
+  "dropdown.rent.gameHosting": {
+    "message": "Game Hosting"
+  },
+  "dropdown.rent.gameHostingDesc": {
+    "message": "Noleggia server per i tuoi giochi preferiti."
+  },
+  "dropdown.rent.gameserver": {
+    "message": "Server di gioco"
+  },
+  "dropdown.rent.teamspeak": {
+    "message": "Server TeamSpeak"
+  },
+  "dropdown.rent.musicbot": {
+    "message": "Discord Musicbot"
+  },
+  "dropdown.rent.serverHosting": {
+    "message": "Server Hosting"
+  },
+  "dropdown.rent.serverHostingDesc": {
+    "message": "Soluzioni server virtuali e dedicati."
+  },
+  "dropdown.rent.vps": {
+    "message": "VPS (Server Virtuale)"
+  },
+  "dropdown.rent.dedicated": {
+    "message": "Server Dedicato"
+  },
+  "dropdown.rent.webServices": {
+    "message": "Servizi Web"
+  },
+  "dropdown.rent.webServicesDesc": {
+    "message": "Domini, webspace e altro."
+  },
+  "dropdown.rent.domain": {
+    "message": "Dominio"
+  },
+  "dropdown.rent.webspace": {
+    "message": "Webspace"
+  },
+  "service.vserver-service-openclaw.title": {
+    "message": "VPS for OpenClaw",
+    "description": "Product name for the OpenClaw product"
+  },
+  "service.vserver-service-openclaw.path": {
+    "message": "{marketingSite}/{language}/vps-hosting/",
+    "description": "URL path for the VPS product"
+  },
+  "service.dedicated-service-openclaw.title": {
+    "message": "Dedicated Server for OpenClaw",
+    "description": "Product name for the OpenClaw product"
+  },
+  "service.gameserver-echoes-of-elysium.title": {
+    "message": "Echoes of Elysium Gameserver",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-echoes-of-elysium.path": {
+    "message": "{marketingSite}/{language}/echoes-of-elysium-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-hytale.title": {
+    "message": "Hytale Gameserver",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-hytale.path": {
+    "message": "{marketingSite}/{language}/hytale-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-nightingale.title": {
+    "message": "Nightingale Gameserver",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-nightingale.path": {
+    "message": "{marketingSite}/{language}/nightingale-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-renown.title": {
+    "message": "Renown Gameserver",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-renown.path": {
+    "message": "{marketingSite}/{language}/renown-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-skyrim-together-reborn.title": {
+    "message": "Skyrim Together Reborn Gameserver",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-skyrim-together-reborn.path": {
+    "message": "{marketingSite}/{language}/skyrim-together-reborn-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-starrupture.title": {
+    "message": "StarRupture Gameserver",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-starrupture.path": {
+    "message": "{marketingSite}/{language}/starrupture-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "dropdown.software.linuxServices": {
+    "message": "Linux - Servizi"
+  },
+  "dropdown.software.linuxServicesDesc": {
+    "message": "Applicazioni self-hosted per Linux."
+  },
+  "dropdown.software.linuxDevelopment": {
+    "message": "Linux - Sviluppo"
+  },
+  "dropdown.software.linuxDevelopmentDesc": {
+    "message": "Strumenti di sviluppo e runtime."
+  },
+  "dropdown.software.windowsServices": {
+    "message": "Windows - Servizi"
+  },
+  "dropdown.software.windowsServicesDesc": {
+    "message": "Applicazioni self-hosted per Windows."
+  },
+  "dropdown.software.windowsDevelopment": {
+    "message": "Windows - Sviluppo"
+  },
+  "dropdown.software.windowsDevelopmentDesc": {
+    "message": "Strumenti di sviluppo e runtime."
+  },
+  "dropdown.software.bitwarden": {
+    "message": "Bitwarden"
+  },
+  "dropdown.software.nextcloud": {
+    "message": "Nextcloud"
+  },
+  "dropdown.software.plex": {
+    "message": "Plex"
+  },
+  "dropdown.software.jitsi": {
+    "message": "Jitsi Meet"
+  },
+  "dropdown.software.openvpn": {
+    "message": "OpenVPN"
+  },
+  "dropdown.software.wordpress": {
+    "message": "WordPress"
+  },
+  "dropdown.software.mastodon": {
+    "message": "Mastodon"
+  },
+  "dropdown.software.docker": {
+    "message": "Docker"
+  },
+  "dropdown.software.git": {
+    "message": "Git"
+  },
+  "dropdown.software.python": {
+    "message": "Python"
+  },
+  "dropdown.software.nodejs": {
+    "message": "Node.js"
+  },
+  "dropdown.software.php": {
+    "message": "PHP"
+  },
+  "dropdown.software.databases": {
+    "message": "Database"
+  },
+  "dropdown.software.webserver": {
+    "message": "Web Server"
+  },
+  "dropdown.software.plesk": {
+    "message": "Plesk"
+  },
+  "dropdown.software.ftpServer": {
+    "message": "Server FTP"
+  },
+  "dropdown.software.teamspeak": {
+    "message": "TeamSpeak"
+  },
+  "dropdown.software.mysql": {
+    "message": "MySQL"
+  },
+  "dropdown.software.allSoftware": {
+    "message": "Tutti i software"
+  },
+  "dropdown.software.linuxDedicatedGames": {
+    "message": "Linux - Giochi dedicati"
+  },
+  "dropdown.software.linuxDedicatedGamesDesc": {
+    "message": "Ospitare server di gioco su Linux."
+  },
+  "dropdown.software.windowsDedicatedGames": {
+    "message": "Windows - Giochi dedicati"
+  },
+  "dropdown.software.windowsDedicatedGamesDesc": {
+    "message": "Ospitare server di gioco su Windows."
+  },
+  "dropdown.software.fivem": {
+    "message": "FiveM"
+  },
+  "dropdown.software.palworld": {
+    "message": "Palworld"
+  },
+  "dropdown.software.enshrouded": {
+    "message": "Enshrouded"
+  },
+  "dropdown.software.valheim": {
+    "message": "Valheim"
+  },
+  "dropdown.software.cs2": {
+    "message": "CS2"
+  },
+  "dropdown.software.rust": {
+    "message": "Rust"
+  },
+  "dropdown.software.satisfactory": {
+    "message": "Satisfactory"
+  },
+  "dropdown.software.arkSa": {
+    "message": "Ark: SA"
+  },
+  "dropdown.software.allServices": {
+    "message": "Tutti i servizi"
+  },
+  "dropdown.software.allDedicatedGames": {
+    "message": "Tutti i giochi dedicati"
+  },
+  "dropdown.rent.voiceHosting": {
+    "message": "Voice Hosting"
+  },
+  "dropdown.rent.voiceHostingDesc": {
+    "message": "Server vocali e bot."
+  },
+  "dropdown.rent.webHosting": {
+    "message": "Web Hosting"
+  },
+  "dropdown.rent.webHostingDesc": {
+    "message": "Domini, webspace e altro."
+  },
+  "dropdown.rent.fivem": {
+    "message": "FiveM"
+  },
+  "dropdown.rent.minecraft": {
+    "message": "Minecraft"
+  },
+  "dropdown.rent.hytale": {
+    "message": "Hytale"
+  },
+  "dropdown.rent.scp": {
+    "message": "SCP: Secret Laboratory"
+  },
+  "dropdown.rent.valheim": {
+    "message": "Valheim"
+  },
+  "dropdown.rent.ark": {
+    "message": "Ark: Survival Evolved"
+  },
+  "dropdown.rent.palworld": {
+    "message": "Palworld"
+  },
+  "dropdown.rent.enshrouded": {
+    "message": "Enshrouded"
+  },
+  "dropdown.rent.scum": {
+    "message": "SCUM"
+  },
+  "dropdown.rent.discordBot": {
+    "message": "Server Discord Bot"
+  },
+  "dropdown.rent.lifetime": {
+    "message": "Lifetime"
+  },
+  "dropdown.rent.lifetimeDesc": {
+    "message": "Paga una volta, usa per sempre."
+  },
+  "dropdown.rent.lifetimeGameserver": {
+    "message": "Lifetime Gameserver"
+  },
+  "dropdown.rent.lifetimeDedicated": {
+    "message": "Lifetime Dedicated Server"
+  },
+  "dropdown.rent.lifetimeVps": {
+    "message": "Lifetime VPS"
+  },
+  "dropdown.rent.lifetimeTeamspeak": {
+    "message": "Lifetime TeamSpeak 3"
+  },
+  "dropdown.rent.lifetimeWebspace": {
+    "message": "Lifetime Webspace"
+  },
+  "localeDropdown.title": {
+    "message": "Lingua"
+  },
+  "localeDropdown.description": {
+    "message": "Seleziona la tua lingua preferita."
   }
 }

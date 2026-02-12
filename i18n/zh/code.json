@@ -1547,5 +1547,453 @@
   "theme.tags.tagsPageTitle": {
     "message": "标签",
     "description": "The title of the tag list page"
+  },
+  "dropdown.vps.gettingStarted": {
+    "message": "第一步"
+  },
+  "dropdown.vps.introduction": {
+    "message": "介绍"
+  },
+  "dropdown.vps.dashboard": {
+    "message": "仪表盘"
+  },
+  "dropdown.vps.customIsos": {
+    "message": "自定义ISO"
+  },
+  "dropdown.vps.software": {
+    "message": "软件"
+  },
+  "dropdown.vps.linux": {
+    "message": "Linux"
+  },
+  "dropdown.vps.windows": {
+    "message": "Windows"
+  },
+  "dropdown.vps.general": {
+    "message": "通用"
+  },
+  "dropdown.vps.services": {
+    "message": "服务"
+  },
+  "dropdown.vps.gameServers": {
+    "message": "游戏服务器"
+  },
+  "dropdown.gameserver.gettingStarted": {
+    "message": "第一步"
+  },
+  "dropdown.gameserver.introduction": {
+    "message": "介绍"
+  },
+  "dropdown.gameserver.ftpAccess": {
+    "message": "FTP 访问"
+  },
+  "dropdown.gameserver.backups": {
+    "message": "备份"
+  },
+  "dropdown.gameserver.popularGames": {
+    "message": "热门游戏"
+  },
+  "dropdown.gameserver.moreGames": {
+    "message": "更多游戏"
+  },
+  "dropdown.gameserver.allGames": {
+    "message": "所有游戏 (A-Z)"
+  },
+  "dropdown.gameserver.scheduledTasks": {
+    "message": "计划任务"
+  },
+  "dropdown.gameserver.gameSwitch": {
+    "message": "游戏切换"
+  },
+  "dropdown.gameserver.databases": {
+    "message": "数据库"
+  },
+  "dropdown.gameserver.more": {
+    "message": "更多..."
+  },
+  "dropdown.vps.vncConsole": {
+    "message": "VNC 控制台"
+  },
+  "dropdown.vps.rescueMode": {
+    "message": "救援模式"
+  },
+  "dropdown.vps.more": {
+    "message": "更多..."
+  },
+  "dropdown.dedicated.gettingStarted": {
+    "message": "第一步"
+  },
+  "dropdown.dedicated.introduction": {
+    "message": "介绍"
+  },
+  "dropdown.dedicated.dashboard": {
+    "message": "仪表板"
+  },
+  "dropdown.dedicated.setup": {
+    "message": "设置"
+  },
+  "dropdown.dedicated.ilo": {
+    "message": "iLO"
+  },
+  "dropdown.dedicated.customIsos": {
+    "message": "自定义ISO"
+  },
+  "dropdown.dedicated.raid": {
+    "message": "RAID"
+  },
+  "dropdown.dedicated.more": {
+    "message": "更多..."
+  },
+  "dropdown.dedicated.linux": {
+    "message": "Linux"
+  },
+  "dropdown.dedicated.windows": {
+    "message": "Windows"
+  },
+  "dropdown.dedicated.general": {
+    "message": "常规"
+  },
+  "dropdown.dedicated.services": {
+    "message": "服务"
+  },
+  "dropdown.dedicated.gameServers": {
+    "message": "游戏服务器"
+  },
+  "dropdown.dedicated.software": {
+    "message": "软件"
+  },
+  "dropdown.vps.gettingStartedDesc": {
+    "message": "开始使用您的虚拟专用服务器。"
+  },
+  "dropdown.vps.linuxDesc": {
+    "message": "Linux 服务器指南。"
+  },
+  "dropdown.vps.windowsDesc": {
+    "message": "Windows 服务器指南。"
+  },
+  "dropdown.gameserver.gettingStartedDesc": {
+    "message": "管理和配置您的游戏服务器。"
+  },
+  "dropdown.gameserver.popularGamesDesc": {
+    "message": "热门游戏的设置指南。"
+  },
+  "dropdown.dedicated.gettingStartedDesc": {
+    "message": "开始使用您的专用服务器。"
+  },
+  "dropdown.dedicated.linuxDesc": {
+    "message": "Linux 服务器指南。"
+  },
+  "dropdown.dedicated.windowsDesc": {
+    "message": "Windows 服务器指南。"
+  },
+  "dropdown.dedicated.initialSetup": {
+    "message": "初始设置"
+  },
+  "dropdown.dedicated.ipmi": {
+    "message": "IPMI"
+  },
+  "dropdown.dedicated.ownIso": {
+    "message": "自定义ISO"
+  },
+  "dropdown.dedicated.configureRaid": {
+    "message": "配置RAID"
+  },
+  "dropdown.dedicated.serverReset": {
+    "message": "重置服务器"
+  },
+  "dropdown.vps.serverReset": {
+    "message": "服务器重置"
+  },
+  "dropdown.vps.systemRescue": {
+    "message": "System Rescue (备份)"
+  },
+  "dropdown.vps.vpsComparison": {
+    "message": "VPS/独立服务器比较"
+  },
+  "dropdown.vps.ballooning": {
+    "message": "Ballooning"
+  },
+  "dropdown.vps.troubleshooting": {
+    "message": "故障排除"
+  },
+  "dropdown.gameserver.serverReset": {
+    "message": "服务器重置"
+  },
+  "dropdown.gameserver.resourceLimit": {
+    "message": "资源限制"
+  },
+  "dropdown.gameserver.switchGame": {
+    "message": "切换游戏"
+  },
+  "dropdown.gameserver.upDowngrade": {
+    "message": "升级/降级"
+  },
+  "dropdown.gameserver.serverCrash": {
+    "message": "服务器崩溃 - 怎么办？"
+  },
+  "dropdown.gameserver.subdomain": {
+    "message": "游戏服务器子域名"
+  },
+  "dropdown.gameserver.tebex": {
+    "message": "Tebex 变现"
+  },
+  "dropdown.rent.gameHosting": {
+    "message": "游戏托管"
+  },
+  "dropdown.rent.gameHostingDesc": {
+    "message": "为你喜欢的游戏租用服务器。"
+  },
+  "dropdown.rent.gameserver": {
+    "message": "游戏服务器"
+  },
+  "dropdown.rent.teamspeak": {
+    "message": "TeamSpeak 服务器"
+  },
+  "dropdown.rent.musicbot": {
+    "message": "Discord 音乐机器人"
+  },
+  "dropdown.rent.serverHosting": {
+    "message": "服务器托管"
+  },
+  "dropdown.rent.serverHostingDesc": {
+    "message": "虚拟和独立服务器解决方案。"
+  },
+  "dropdown.rent.vps": {
+    "message": "VPS（虚拟服务器）"
+  },
+  "dropdown.rent.dedicated": {
+    "message": "独立服务器"
+  },
+  "dropdown.rent.webServices": {
+    "message": "Web 服务"
+  },
+  "dropdown.rent.webServicesDesc": {
+    "message": "域名、网站空间等。"
+  },
+  "dropdown.rent.domain": {
+    "message": "域名"
+  },
+  "dropdown.rent.webspace": {
+    "message": "网站空间"
+  },
+  "service.vserver-service-openclaw.title": {
+    "message": "VPS for OpenClaw",
+    "description": "Product name for the OpenClaw product"
+  },
+  "service.vserver-service-openclaw.path": {
+    "message": "{marketingSite}/{language}/vps-hosting/",
+    "description": "URL path for the VPS product"
+  },
+  "service.dedicated-service-openclaw.title": {
+    "message": "Dedicated Server for OpenClaw",
+    "description": "Product name for the OpenClaw product"
+  },
+  "service.gameserver-echoes-of-elysium.title": {
+    "message": "Echoes of Elysium Gameserver",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-echoes-of-elysium.path": {
+    "message": "{marketingSite}/{language}/echoes-of-elysium-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-starrupture.title": {
+    "message": "StarRupture Gameserver",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-starrupture.path": {
+    "message": "{marketingSite}/{language}/starrupture-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "dropdown.software.linuxServices": {
+    "message": "Linux - 服务"
+  },
+  "dropdown.software.linuxServicesDesc": {
+    "message": "Linux 自托管应用。"
+  },
+  "dropdown.software.linuxDevelopment": {
+    "message": "Linux - 开发"
+  },
+  "dropdown.software.linuxDevelopmentDesc": {
+    "message": "开发工具和运行时。"
+  },
+  "dropdown.software.windowsServices": {
+    "message": "Windows - 服务"
+  },
+  "dropdown.software.windowsServicesDesc": {
+    "message": "Windows 自托管应用。"
+  },
+  "dropdown.software.windowsDevelopment": {
+    "message": "Windows - 开发"
+  },
+  "dropdown.software.windowsDevelopmentDesc": {
+    "message": "开发工具和运行时。"
+  },
+  "dropdown.software.bitwarden": {
+    "message": "Bitwarden"
+  },
+  "dropdown.software.nextcloud": {
+    "message": "Nextcloud"
+  },
+  "dropdown.software.plex": {
+    "message": "Plex"
+  },
+  "dropdown.software.jitsi": {
+    "message": "Jitsi Meet"
+  },
+  "dropdown.software.openvpn": {
+    "message": "OpenVPN"
+  },
+  "dropdown.software.wordpress": {
+    "message": "WordPress"
+  },
+  "dropdown.software.mastodon": {
+    "message": "Mastodon"
+  },
+  "dropdown.software.docker": {
+    "message": "Docker"
+  },
+  "dropdown.software.git": {
+    "message": "Git"
+  },
+  "dropdown.software.python": {
+    "message": "Python"
+  },
+  "dropdown.software.nodejs": {
+    "message": "Node.js"
+  },
+  "dropdown.software.php": {
+    "message": "PHP"
+  },
+  "dropdown.software.databases": {
+    "message": "数据库"
+  },
+  "dropdown.software.webserver": {
+    "message": "Web 服务器"
+  },
+  "dropdown.software.plesk": {
+    "message": "Plesk"
+  },
+  "dropdown.software.ftpServer": {
+    "message": "FTP 服务器"
+  },
+  "dropdown.software.teamspeak": {
+    "message": "TeamSpeak"
+  },
+  "dropdown.software.mysql": {
+    "message": "MySQL"
+  },
+  "dropdown.software.allSoftware": {
+    "message": "所有软件"
+  },
+  "dropdown.software.linuxDedicatedGames": {
+    "message": "Linux - 独立游戏服务器"
+  },
+  "dropdown.software.linuxDedicatedGamesDesc": {
+    "message": "在 Linux 上托管游戏服务器。"
+  },
+  "dropdown.software.windowsDedicatedGames": {
+    "message": "Windows - 独立游戏服务器"
+  },
+  "dropdown.software.windowsDedicatedGamesDesc": {
+    "message": "在 Windows 上托管游戏服务器。"
+  },
+  "dropdown.software.fivem": {
+    "message": "FiveM"
+  },
+  "dropdown.software.palworld": {
+    "message": "Palworld"
+  },
+  "dropdown.software.enshrouded": {
+    "message": "Enshrouded"
+  },
+  "dropdown.software.valheim": {
+    "message": "Valheim"
+  },
+  "dropdown.software.cs2": {
+    "message": "CS2"
+  },
+  "dropdown.software.rust": {
+    "message": "Rust"
+  },
+  "dropdown.software.satisfactory": {
+    "message": "Satisfactory"
+  },
+  "dropdown.software.arkSa": {
+    "message": "Ark: SA"
+  },
+  "dropdown.software.allServices": {
+    "message": "所有服务"
+  },
+  "dropdown.software.allDedicatedGames": {
+    "message": "所有独立游戏服务器"
+  },
+  "dropdown.rent.voiceHosting": {
+    "message": "语音托管"
+  },
+  "dropdown.rent.voiceHostingDesc": {
+    "message": "语音服务器和机器人。"
+  },
+  "dropdown.rent.webHosting": {
+    "message": "Web 托管"
+  },
+  "dropdown.rent.webHostingDesc": {
+    "message": "域名、网站空间等。"
+  },
+  "dropdown.rent.fivem": {
+    "message": "FiveM"
+  },
+  "dropdown.rent.minecraft": {
+    "message": "Minecraft"
+  },
+  "dropdown.rent.hytale": {
+    "message": "Hytale"
+  },
+  "dropdown.rent.scp": {
+    "message": "SCP: Secret Laboratory"
+  },
+  "dropdown.rent.valheim": {
+    "message": "Valheim"
+  },
+  "dropdown.rent.ark": {
+    "message": "Ark: Survival Evolved"
+  },
+  "dropdown.rent.palworld": {
+    "message": "Palworld"
+  },
+  "dropdown.rent.enshrouded": {
+    "message": "Enshrouded"
+  },
+  "dropdown.rent.scum": {
+    "message": "SCUM"
+  },
+  "dropdown.rent.discordBot": {
+    "message": "Discord Bot 服务器"
+  },
+  "dropdown.rent.lifetime": {
+    "message": "Lifetime"
+  },
+  "dropdown.rent.lifetimeDesc": {
+    "message": "一次付费，永久使用。"
+  },
+  "dropdown.rent.lifetimeGameserver": {
+    "message": "Lifetime Gameserver"
+  },
+  "dropdown.rent.lifetimeDedicated": {
+    "message": "Lifetime Dedicated Server"
+  },
+  "dropdown.rent.lifetimeVps": {
+    "message": "Lifetime VPS"
+  },
+  "dropdown.rent.lifetimeTeamspeak": {
+    "message": "Lifetime TeamSpeak 3"
+  },
+  "dropdown.rent.lifetimeWebspace": {
+    "message": "Lifetime Webspace"
+  },
+  "localeDropdown.title": {
+    "message": "语言"
+  },
+  "localeDropdown.description": {
+    "message": "选择你的首选语言。"
   }
 }
