@@ -74,7 +74,7 @@ curl -fsSL https://get.docker.com -o get-docker.sh
 sh get-docker.sh
 ```
 
-Een volledige walkthrough van het installatieproces en hoe je Docker gebruikt, vind je in onze [Docker](vserver-linux-docker.md) gids.
+Een volledige walkthrough van het installatieproces en hoe je Docker gebruikt, vind je in onze [Docker](dedicated-linux-docker.md) gids.
 
 
 ## Installatie

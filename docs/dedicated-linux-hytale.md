@@ -23,7 +23,7 @@ Before continuing, ensure that Java 25 is installed on your system. You can veri
 java --version
 ```
 
-If Java is not yet installed on your system, follow our dedicated [Install Java](vserver-linux-java) guide for Linux servers. This guide explains how to install and configure Java properly on your environment.
+If Java is not yet installed on your system, follow our dedicated [Install Java](dedicated-linux-java) guide for Linux servers. This guide explains how to install and configure Java properly on your environment.
 
 
 

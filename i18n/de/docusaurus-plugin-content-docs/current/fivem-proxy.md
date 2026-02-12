@@ -221,7 +221,7 @@ Du kannst das überprüfen, indem du die IP-Adressen der Spieler analysierst –
 
 Nachdem dein FiveM Reverse Proxy läuft, empfehlen wir dringend, ein SSL-Zertifikat für deine Domains zu installieren, damit die Daten sicher via HTTPS übertragen werden.
 
-Schau dir dazu unsere [Certbot Installation](vserver-linux-certbot.md) Anleitung an, die den kompletten Prozess zum Anfordern und automatischen Erneuern von SSL-Zertifikaten für deine Domain(s) erklärt.
+Schau dir dazu unsere [Certbot Installation](dedicated-linux-certbot.md) Anleitung an, die den kompletten Prozess zum Anfordern und automatischen Erneuern von SSL-Zertifikaten für deine Domain(s) erklärt.
 
 ## Fazit
 

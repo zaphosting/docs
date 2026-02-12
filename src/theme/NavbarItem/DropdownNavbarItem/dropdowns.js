@@ -415,7 +415,7 @@ export const dropdowns = {
         items: [
           { to: '/docs/vserver-linux-ssh', icon: 'gear', label: 'General', labelKey: 'general' },
           { to: '/docs/vserver-linux-bitwarden', icon: 'cube', label: 'Services', labelKey: 'services' },
-          { to: '/docs/vserver-linux-steamcmd', icon: 'gamepad', label: 'Game Servers', labelKey: 'gameServers' },
+          { to: '/docs/dedicated-linux-steamcmd', icon: 'gamepad', label: 'Game Servers', labelKey: 'gameServers' },
           { to: '/docs/vserver-linux-ftp', icon: 'alertTriangle', label: 'Troubleshooting', labelKey: 'troubleshooting' },
         ],
       },
@@ -436,7 +436,7 @@ export const dropdowns = {
 
     bottomRow: {
       items: [
-        { to: '/docs/software-overview', icon: 'list', label: 'Software', labelKey: 'software' },
+        { to: '/docs/software-overview-services', icon: 'list', label: 'Software', labelKey: 'software' },
       ],
     },
   },
@@ -478,7 +478,7 @@ export const dropdowns = {
         icon: 'linux',
         items: [
           { to: '/docs/dedicated-linux-gs-interface', icon: 'gear', label: 'General', labelKey: 'general' },
-          { to: '/docs/dedicated-linux-bitwarden', icon: 'cube', label: 'Services', labelKey: 'services' },
+          { to: '/docs/vserver-linux-bitwarden', icon: 'cube', label: 'Services', labelKey: 'services' },
           { to: '/docs/dedicated-linux-steamcmd', icon: 'gamepad', label: 'Game Servers', labelKey: 'gameServers' },
           { to: '/docs/dedicated-linux-ubuntu', icon: 'cube', label: 'Operating Systems', labelKey: 'operating-systems-linux' },
           { to: '/docs/dedicated-linux-troubleshooting-restore-access', icon: 'alertTriangle', label: 'Troubleshooting', labelKey: 'troubleshooting' },
@@ -493,8 +493,8 @@ export const dropdowns = {
         icon: 'windows',
         items: [
           { to: '/docs/dedicated-windows-userdp', icon: 'gear', label: 'General', labelKey: 'general' },
-          { to: '/docs/dedicated-windows-bitwarden', icon: 'cube', label: 'Services', labelKey: 'services' },
-          { to: '/docs/dedicated-windows-arksurvivalascended', icon: 'gamepad', label: 'Game Servers', labelKey: 'gameServers' },
+          { to: '/docs/vserver-windows-bitwarden', icon: 'cube', label: 'Services', labelKey: 'services' },
+          { to: '/docs/vserver-windows-arksurvivalascended', icon: 'gamepad', label: 'Game Servers', labelKey: 'gameServers' },
           { to: '/docs/dedicated-windows', icon: 'cube', label: 'Operating Systems', labelKey: 'operating-systems-windows' },
           { to: '/docs/dedicated-windows-troubleshooting-restore-access', icon: 'alertTriangle', label: 'Troubleshooting', labelKey: 'troubleshooting' },
 
@@ -504,7 +504,7 @@ export const dropdowns = {
 
     bottomRow: {
       items: [
-        { to: '/docs/software-overview', icon: 'list', label: 'Software', labelKey: 'software' },
+        { to: '/docs/software-overview-services', icon: 'list', label: 'Software', labelKey: 'software' },
       ],
     },
   },
@@ -593,7 +593,6 @@ export const dropdowns = {
   // Software
   // -------------------------------------------------------------------
   software: {
-    mainLink: '/docs/software-overview',
     activePathMatch: '/vserver-linux-|/vserver-windows-',
 
     columns: [
@@ -604,13 +603,13 @@ export const dropdowns = {
         descriptionKey: 'linuxServicesDesc',
         icon: 'linux',
         items: [
-          { to: '/docs/dedicated-linux-openclaw', icon: 'bot', label: 'OpenClaw', labelKey: 'openclaw', badge: 'Trending', badgeKey: 'badgeTrending' },
+          { to: '/docs/dedicated-linux-openclaw', icon: 'bot', label: 'OpenClaw', labelKey: 'openclaw', badge: '🔥Trending', badgeKey: 'badgeTrending' },
           { to: '/docs/vserver-linux-bitwarden', icon: 'shield', label: 'Bitwarden', labelKey: 'bitwarden' },
           { to: '/docs/vserver-linux-nextcloud', icon: 'cube', label: 'Nextcloud', labelKey: 'nextcloud' },
-          { to: '/docs/vserver-linux-plex', icon: 'cube', label: 'Plex', labelKey: 'plex' },
-          { to: '/docs/vserver-linux-jitsi', icon: 'headphones', label: 'Jitsi Meet', labelKey: 'jitsi' },
-          { to: '/docs/vserver-linux-openvpn', icon: 'shield', label: 'OpenVPN', labelKey: 'openvpn' },
-          { to: '/docs/vserver-linux-wordpress', icon: 'globe', label: 'WordPress', labelKey: 'wordpress', },
+          { to: '/docs/dedicated-linux-plex', icon: 'cube', label: 'Plex', labelKey: 'plex' },
+          { to: '/docs/dedicated-linux-jitsi', icon: 'headphones', label: 'Jitsi Meet', labelKey: 'jitsi' },
+          { to: '/docs/dedicated-linux-openvpn', icon: 'shield', label: 'OpenVPN', labelKey: 'openvpn' },
+          { to: '/docs/dedicated-linux-wordpress', icon: 'globe', label: 'WordPress', labelKey: 'wordpress', },
         ],
       },
       {
@@ -621,12 +620,12 @@ export const dropdowns = {
         icon: 'windows',
         items: [
           { to: '/docs/vserver-windows-bitwarden', icon: 'shield', label: 'Bitwarden', labelKey: 'bitwarden' },
-          { to: '/docs/vserver-windows-plex', icon: 'cube', label: 'Plex', labelKey: 'plex' },
+          { to: '/docs/dedicated-windows-plex', icon: 'cube', label: 'Plex', labelKey: 'plex' },
           { to: '/docs/vserver-windows-plesk', icon: 'dashboard', label: 'Plesk', labelKey: 'plesk' },
-          { to: '/docs/vserver-windows-ftpserver', icon: 'upload', label: 'FTP Server', labelKey: 'ftpServer' },
+          { to: '/docs/dedicated-windows-ftpserver', icon: 'upload', label: 'FTP Server', labelKey: 'ftpServer' },
           { to: '/docs/vserver-windows-docker', icon: 'cube', label: 'Docker', labelKey: 'docker' },
           { to: '/docs/vserver-windows-ts6', icon: 'headphones', label: 'TeamSpeak', labelKey: 'teamspeak' },
-          { to: '/docs/vserver-windows-installmysql', icon: 'database', label: 'MySQL', labelKey: 'mysql' },
+          { to: '/docs/dedicated-windows-installmysql', icon: 'database', label: 'MySQL', labelKey: 'mysql' },
         ],
       },
       {
@@ -655,10 +654,10 @@ export const dropdowns = {
           { to: '/docs/dedicated-windows-fivem', icon: 'gamepad', label: 'FiveM', labelKey: 'fivem' },
           { to: '/docs/dedicated-windows-hytale', icon: 'gamepad', label: 'Hytale', labelKey: 'hytale' },
           { to: '/docs/dedicated-windows-cs2', icon: 'gamepad', label: 'CS2', labelKey: 'cs2' },
-          { to: '/docs/dedicated-windows-vrising', icon: 'gamepad', label: 'V-Rising', labelKey: 'vrising' },
-          { to: '/docs/dedicated-windows-arksurvivalascended', icon: 'gamepad', label: 'Ark: SA', labelKey: 'arkSa' },
-          { to: '/docs/dedicated-windows-enshrouded', icon: 'gamepad', label: 'Enshrouded', labelKey: 'enshrouded' },
-          { to: '/docs/dedicated-windows-valheim', icon: 'gamepad', label: 'Valheim', labelKey: 'valheim' },
+          { to: '/docs/vserver-windows-vrising', icon: 'gamepad', label: 'V-Rising', labelKey: 'vrising' },
+          { to: '/docs/vserver-windows-arksurvivalascended', icon: 'gamepad', label: 'Ark: SA', labelKey: 'arkSa' },
+          { to: '/docs/vserver-windows-enshrouded', icon: 'gamepad', label: 'Enshrouded', labelKey: 'enshrouded' },
+          { to: '/docs/vserver-windows-valheim', icon: 'gamepad', label: 'Valheim', labelKey: 'valheim' },
 
         ],
       },

@@ -1,7 +1,7 @@
-﻿---
+---
 id: dedicated-linux-hytale
 title: "Dedicated Server: Hytale Dedicated Server Setup"
-description: "Ontdek hoe je de Hytale Dedicated server instelt op jouw Linux Dedicated Server voor soepel gameplaybeheer → Leer het nu"
+description: "Ontdek hoe je de Hytale Dedicated server instelt op jouw Linux Dedicated Server voor soepel gameplaybeheer ? Leer het nu"
 sidebar_label: Hytale
 services:
   - dedicated
@@ -16,13 +16,13 @@ Heb je een Linux Dedicated Server en wil je Hytale daarop installeren? Dan ben j
 
 Om een Hytale-server te draaien, moet je systeem aan een paar basisvereisten voldoen. De server draait op Java 25 en heeft minimaal 4 GB RAM nodig. Zowel x64 als arm64 architecturen worden ondersteund. Het daadwerkelijke resourcegebruik hangt af van het aantal spelers, zichtafstand en wereldactiviteit, dus voor grotere servers kunnen extra resources nodig zijn.
 
-Controleer voordat je verder gaat of Java 25 op je systeem geïnstalleerd is. Dat doe je met:
+Controleer voordat je verder gaat of Java 25 op je systeem ge�nstalleerd is. Dat doe je met:
 
 ```
 java --version
 ```
 
-Als Java nog niet geïnstalleerd is, volg dan onze speciale [Java Installatie](vserver-linux-java) gids voor Linux-servers. Deze gids legt uit hoe je Java correct installeert en configureert in jouw omgeving.
+Als Java nog niet ge�nstalleerd is, volg dan onze speciale [Java Installatie](dedicated-linux-java) gids voor Linux-servers. Deze gids legt uit hoe je Java correct installeert en configureert in jouw omgeving.
 
 
 
@@ -111,7 +111,7 @@ De zichtafstand is een van de belangrijkste factoren voor geheugengebruik. Hoger
 
 Voor de meeste setups is een maximale zichtafstand van 12 chunks (384 blokken) een goede balans tussen serverperformance en gameplay-ervaring.
 
-Ter vergelijking: Minecraft-servers gebruiken standaard 10 chunks (160 blokken). Hytale’s standaard van 384 blokken komt ongeveer overeen met 24 Minecraft-chunks, wat de hogere geheugeneisen verklaart. Pas deze waarde aan op basis van het verwachte aantal spelers en beschikbare systeemresources.
+Ter vergelijking: Minecraft-servers gebruiken standaard 10 chunks (160 blokken). Hytale�s standaard van 384 blokken komt ongeveer overeen met 24 Minecraft-chunks, wat de hogere geheugeneisen verklaart. Pas deze waarde aan op basis van het verwachte aantal spelers en beschikbare systeemresources.
 
 
 
@@ -119,4 +119,4 @@ Ter vergelijking: Minecraft-servers gebruiken standaard 10 chunks (160 blokken).
 
 Gefeliciteerd, je hebt nu een werkende Hytale-server draaien op je systeem. Vanaf hier kun je de setup uitbreiden met mods, wereldinstellingen aanpassen en performance-tuning doen om het perfect af te stemmen op je spelers. Houd het resourcegebruik goed in de gaten om stabiele prestaties te garanderen naarmate je server groeit.
 
-Heb je vragen of hulp nodig? Neem gerust contact op met onze support, we staan dagelijks voor je klaar! 🙂
+Heb je vragen of hulp nodig? Neem gerust contact op met onze support, we staan dagelijks voor je klaar! ??

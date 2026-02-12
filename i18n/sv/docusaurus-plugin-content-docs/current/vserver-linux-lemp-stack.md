@@ -356,7 +356,7 @@ Du bör nu kunna nå webbplatsen via domänen (med `http`/port 80) som du defini
 
 ## Avslutning
 
-Grattis, du har framgångsrikt installerat och satt upp LEMP-stacken! Nästa steg är att vi **starkt rekommenderar** att du sätter upp en domän och ett **SSL-certifikat** för att säkerställa att data skickas säkert till dina webbplatser. Kolla in vår [Certbot-guide](vserver-linux-certbot.md) med fokus på **Nginx-pluginet** och följ den interaktiva setupen för att snabbt och enkelt sätta upp ett certifikat för din valda domän.
+Grattis, du har framgångsrikt installerat och satt upp LEMP-stacken! Nästa steg är att vi **starkt rekommenderar** att du sätter upp en domän och ett **SSL-certifikat** för att säkerställa att data skickas säkert till dina webbplatser. Kolla in vår [Certbot-guide](dedicated-linux-certbot.md) med fokus på **Nginx-pluginet** och följ den interaktiva setupen för att snabbt och enkelt sätta upp ett certifikat för din valda domän.
 
 För fler frågor eller hjälp, tveka inte att kontakta vår support, som finns tillgänglig varje dag för att hjälpa dig! 🙂
 

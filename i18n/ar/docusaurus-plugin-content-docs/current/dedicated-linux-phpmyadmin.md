@@ -22,7 +22,7 @@ sudo apt update -y
 sudo apt upgrade -y
 ```
 
-يجب أيضًا التأكد من تثبيت PHP على نظامك، فهو ضروري لاستخدام phpMyAdmin. لمعرفة كيفية تثبيت PHP، يرجى مراجعة [دليل تثبيت PHP](dedicated-linux-php.md).
+يجب أيضًا التأكد من تثبيت PHP على نظامك، فهو ضروري لاستخدام phpMyAdmin. لمعرفة كيفية تثبيت PHP، يرجى مراجعة [دليل تثبيت PHP](vserver-linux-php.md).
 
 :::warning نقص حزم PHP
 إذا كانت حزم PHP اللازمة مفقودة، فلن تتم معالجة وعرض ملفات PHP الخاصة بـ phpMyAdmin بشكل صحيح.
