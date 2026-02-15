@@ -26,7 +26,7 @@ To begin, you must connect to your Linux server via SSH. Please have a look at o
 Now that you are connected to your Linux server, you can proceed with the installation methods. Select from one of the Linux repositories below to view the relevant installation steps.
 
 <Tabs>
-<TabItem value="ubuntu/debian" label="Ubuntu & Debian" default>
+<TabItem value="ubuntu" label="Ubuntu" default>
 
 To begin, you will have to add Docker's package through the use of `apt` and set it up. This will allow you to easily install and update Docker from the repository in the future.
 
@@ -43,6 +43,39 @@ Once these have been setup, you will have to add the repository to the `apt` sou
 ```
 echo \
   "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.asc] https://download.docker.com/linux/ubuntu \
+  $(. /etc/os-release && echo "$VERSION_CODENAME") stable" | \
+  sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+```
+
+Now that you have added the Docker repository to your sources, run the `apt-get` update command to fetch the changes.
+```
+sudo apt-get update
+```
+
+By this stage, you have successfully setup the Docker `apt` repository. As the final step, you will have to install the Docker pacakages. You can install the latest version using the following command.
+```
+sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
+```
+
+</TabItem>
+
+<TabItem value="debian" label="Debian" default>
+
+To begin, you will have to add Docker's package through the use of `apt` and set it up. This will allow you to easily install and update Docker from the repository in the future.
+
+Use the following commands to add Docker's official GPG key to your repository list.
+```
+sudo apt-get update
+sudo apt-get install ca-certificates curl
+sudo install -m 0755 -d /etc/apt/keyrings
+sudo curl -fsSL https://download.docker.com/linux/debian/gpg -o /etc/apt/keyrings/docker.asc
+sudo chmod a+r /etc/apt/keyrings/docker.asc
+```
+
+Once these have been setup, you will have to add the repository to the `apt` sources, through the following command.
+```
+echo \
+  "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.asc] https://download.docker.com/linux/debian \
   $(. /etc/os-release && echo "$VERSION_CODENAME") stable" | \
   sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
 ```
