@@ -1,34 +1,5 @@
 import React from 'react';
 
-/**
- * Custom Dropdown Konfiguration
- * ==============================
- * Dies ist die EINZIGE Datei, die du bearbeiten musst, um Dropdowns
- * zu erstellen oder anzupassen.
- *
- * Übersetzungen laufen über das Docusaurus i18n System (code.json).
- * Translation-IDs werden automatisch generiert:
- *   dropdown.<key>.<titleKey|labelKey>
- * z.B. dropdown.vps.gettingStarted, dropdown.gameserver.allGames
- *
- * Neues Dropdown hinzufügen:
- *   1. Icons unten bei "icons" ergänzen (falls nötig)
- *   2. Neuen Eintrag bei "dropdowns" anlegen
- *   3. In docusaurus.config.js:
- *        {
- *          type: 'dropdown',
- *          label: 'Mein Label',
- *          className: 'custom-dropdown-<key>',
- *          items: [{ type: 'docSidebar', sidebarId: '...' }],
- *        }
- *   4. Übersetzungen in i18n/<locale>/code.json ergänzen
- */
-
-// =====================================================================
-// Icons
-// =====================================================================
-// Neue Icons hier anlegen. Der Key wird in den Dropdown-Items verwendet.
-
 export const icons = {
   book: (
     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
@@ -295,21 +266,6 @@ export const icons = {
   ),
 };
 
-// =====================================================================
-// Dropdowns
-// =====================================================================
-// Jeder Key entspricht className 'custom-dropdown-<key>' in docusaurus.config.js
-//
-// Aufbau:
-//   mainLink        – Hauptlink (Klick auf den Navbar-Text)
-//   activePathMatch – URL-Fragment, das den "aktiv"-Zustand auslöst
-//   topRow          – Optionale obere Reihe mit Karten
-//     title         – Default-Text (EN), Translation-ID: dropdown.<key>.<titleKey>
-//     titleKey      – Schlüssel für die Translation-ID
-//     items[]       – { to, icon, label (Default-EN), labelKey (für Translation-ID) }
-//   columns[]       – Spalten unterhalb der topRow
-//   translations    – Nicht nötig! Läuft über i18n/code.json
-
 export const dropdowns = {
 
 // -------------------------------------------------------------------
@@ -415,7 +371,7 @@ export const dropdowns = {
         items: [
           { to: '/docs/vserver-linux-ssh', icon: 'gear', label: 'General', labelKey: 'general' },
           { to: '/docs/vserver-linux-bitwarden', icon: 'cube', label: 'Services', labelKey: 'services' },
-          { to: '/docs/dedicated-linux-steamcmd', icon: 'gamepad', label: 'Game Servers', labelKey: 'gameServers' },
+          { to: '/docs/software-overview-dedicated-game-server', icon: 'gamepad', label: 'Game Servers', labelKey: 'gameServers' },
           { to: '/docs/vserver-linux-ftp', icon: 'alertTriangle', label: 'Troubleshooting', labelKey: 'troubleshooting' },
         ],
       },
@@ -428,7 +384,7 @@ export const dropdowns = {
         items: [
           { to: '/docs/vserver-windows-userdp', icon: 'gear', label: 'General', labelKey: 'general' },
           { to: '/docs/vserver-windows-bitwarden', icon: 'cube', label: 'Services', labelKey: 'services' },
-          { to: '/docs/vserver-windows-arksurvivalascended', icon: 'gamepad', label: 'Game Servers', labelKey: 'gameServers' },
+          { to: '/docs/software-overview-dedicated-game-server', icon: 'gamepad', label: 'Game Servers', labelKey: 'gameServers' },
           { to: '/docs/vserver-windows-rdp-freeze', icon: 'alertTriangle', label: 'Troubleshooting', labelKey: 'troubleshooting' },
         ],
       },
@@ -439,9 +395,7 @@ export const dropdowns = {
         { to: '/docs/software-overview-services', icon: 'list', label: 'Software', labelKey: 'software' },
       ],
     },
-  },
-
-  
+  },  
 
   // -------------------------------------------------------------------
   // Dedicated Server
@@ -478,11 +432,10 @@ export const dropdowns = {
         icon: 'linux',
         items: [
           { to: '/docs/dedicated-linux-gs-interface', icon: 'gear', label: 'General', labelKey: 'general' },
-          { to: '/docs/vserver-linux-bitwarden', icon: 'cube', label: 'Services', labelKey: 'services' },
-          { to: '/docs/dedicated-linux-steamcmd', icon: 'gamepad', label: 'Game Servers', labelKey: 'gameServers' },
+          { to: '/docs/software-overview-services', icon: 'cube', label: 'Services', labelKey: 'services' },
+          { to: '/docs/software-overview-dedicated-game-server', icon: 'gamepad', label: 'Game Servers', labelKey: 'gameServers' },
           { to: '/docs/dedicated-linux-ubuntu', icon: 'cube', label: 'Operating Systems', labelKey: 'operating-systems-linux' },
           { to: '/docs/dedicated-linux-troubleshooting-restore-access', icon: 'alertTriangle', label: 'Troubleshooting', labelKey: 'troubleshooting' },
-
         ],
       },
       {
@@ -493,11 +446,10 @@ export const dropdowns = {
         icon: 'windows',
         items: [
           { to: '/docs/dedicated-windows-userdp', icon: 'gear', label: 'General', labelKey: 'general' },
-          { to: '/docs/vserver-windows-bitwarden', icon: 'cube', label: 'Services', labelKey: 'services' },
-          { to: '/docs/vserver-windows-arksurvivalascended', icon: 'gamepad', label: 'Game Servers', labelKey: 'gameServers' },
+          { to: '/docs/software-overview-services', icon: 'cube', label: 'Services', labelKey: 'services' },
+          { to: '/docs/software-overview-dedicated-game-server', icon: 'gamepad', label: 'Game Servers', labelKey: 'gameServers' },
           { to: '/docs/dedicated-windows', icon: 'cube', label: 'Operating Systems', labelKey: 'operating-systems-windows' },
           { to: '/docs/dedicated-windows-troubleshooting-restore-access', icon: 'alertTriangle', label: 'Troubleshooting', labelKey: 'troubleshooting' },
-
         ],
       },
     ],
@@ -519,7 +471,7 @@ export const dropdowns = {
     topRow: {
       title: 'Game Hosting',
       titleKey: 'gameHosting',
-      description: 'Rent a game server for your favorite title. Instant setup, DDoS protection, and full mod support included.',
+      description: 'Rent a game server for your favorite title. Instant setup, DDoS protection and many more features included!',
       descriptionKey: 'gameHostingDesc',
       icon: 'gamepad',
       items: [
@@ -574,7 +526,7 @@ export const dropdowns = {
       {
         title: 'Lifetime',
         titleKey: 'lifetime',
-        description: 'Pay once, keep it forever. No recurring fees — your server runs as long as you want.',
+        description: 'Enjoying ZAP-Hosting? Pay once, skip subscriptions and plan for the long run!',
         descriptionKey: 'lifetimeDesc',
         icon: 'zap',
         items: [
@@ -666,7 +618,7 @@ export const dropdowns = {
     bottomRow: {
       items: [
         { to: '/docs/vserver-linux-bitwarden', icon: 'list', label: 'All Services', labelKey: 'allServices' },
-        { to: '/docs/dedicated-linux-steamcmd', icon: 'list', label: 'All Dedicated Games', labelKey: 'allDedicatedGames' },
+        { to: '/docs/software-overview-dedicated-game-server', icon: 'list', label: 'All Dedicated Games', labelKey: 'allDedicatedGames' },
       ],
     },
   },

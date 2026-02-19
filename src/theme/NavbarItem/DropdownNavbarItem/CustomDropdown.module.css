@@ -1,8 +1,3 @@
-/* ===================================================================
-   CustomDropdown styles
-   =================================================================== */
-
-/* --- Desktop: container & trigger ---------------------------------- */
 
 .container {
   position: relative;
@@ -27,8 +22,6 @@
 .arrowOpen {
   transform: rotate(180deg);
 }
-
-/* --- Desktop: dropdown panel --------------------------------------- */
 
 .panel {
   position: fixed;
@@ -63,8 +56,6 @@
   box-shadow: 0 12px 40px -4px rgba(0, 0, 0, 0.35);
 }
 
-/* Inner wrapper – constrains content width & adds fade-in */
-
 .panelInner {
   max-width: 1200px;
   margin: 0 auto;
@@ -86,8 +77,6 @@
     opacity 0.25s ease 0.1s,
     transform 0.25s ease 0.1s;
 }
-
-/* --- Desktop: sections & layout ------------------------------------ */
 
 .section {
   margin-bottom: 0;
@@ -162,7 +151,6 @@
   row-gap: 10px;
 }
 
-/* When columnsHeader is used, columns don't need subgrid alignment */
 .columns:has(.columnPlain) {
   grid-template-rows: none;
 }
@@ -184,8 +172,6 @@
   flex-direction: column;
   gap: 8px;
 }
-
-/* --- Desktop: card ------------------------------------------------- */
 
 .card {
   display: flex;
@@ -242,8 +228,6 @@
   line-height: 1.2;
 }
 
-/* --- Desktop: badge ------------------------------------------------- */
-
 .badge {
   margin-left: auto;
   padding: 2px 8px;
@@ -271,8 +255,6 @@
   background: rgba(24, 232, 136, 0.16);
 }
 
-/* --- Desktop: bottom row (full width) ------------------------------ */
-
 .bottomRow {
   display: flex;
   gap: 8px;
@@ -283,8 +265,6 @@
   justify-content: center;
   font-weight: 600;
 }
-
-/* --- Desktop: responsive ------------------------------------------- */
 
 @media (max-width: 1100px) {
   .panelInner {
@@ -305,8 +285,6 @@
     display: none;
   }
 }
-
-/* --- Mobile: section labels ---------------------------------------- */
 
 .mobileSectionLabel {
   display: block;

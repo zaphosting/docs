@@ -5035,11 +5035,11 @@ const sidebars = {
           default: return "Services";
         }
       })(),
-      href: "/docs/vserver-linux-bitwarden",
+      href: "/docs/software-overview-services",
     },
     {
       type: "link",
-      key: "dedicated-game-servers",
+      key: "dedicated-linux-game-servers",
       label: (() => {
         switch (process.env.DOCUSAURUS_CURRENT_LOCALE) {
           case "de": return "Dedicated Gameserver";
@@ -5058,50 +5058,6 @@ const sidebars = {
         }
       })(),
       href: "/docs/software-overview-dedicated-game-server",
-    },
-    
-    {
-      type: "category",
-      label: "Dedicated Game Servers",
-      key: "vserver-linux-dedicated-game-servers",
-      items: [
-        {
-        type: "category",
-        label: "General",
-        key: "vserver-linux-dedicated-game-servers-general",
-        items: [
-          "vserver-linux-fivem-txAdmin-cloudflare-tunnel",
-          ]
-        },
-        "dedicated-linux-steamcmd",
-        "dedicated-linux-wine",
-        "dedicated-linux-create-gameservice",
-        "dedicated-linux-arksurvivalascended",
-        "dedicated-linux-avorion",
-        "dedicated-linux-conan",
-        "dedicated-linux-enshrouded",
-        "dedicated-linux-fivem",
-        "dedicated-linux-foundry",
-        "dedicated-linux-hytale",
-        "dedicated-linux-mythofempires",
-        "dedicated-linux-openmp",
-        "dedicated-linux-palworld",
-        "dedicated-linux-ragemp",
-        "dedicated-linux-rust",
-        "dedicated-linux-satisfactory",
-        "dedicated-linux-soulmask",
-        "dedicated-linux-valheim",
-        "dedicated-linux-vrising",
-        "dedicated-linux-cs16",
-        "dedicated-linux-cscz",
-        "dedicated-linux-css",
-        "dedicated-linux-cs2",
-        "dedicated-linux-tf2",
-        "dedicated-linux-dods",
-        "dedicated-linux-l4d2",
-        "dedicated-linux-nmrih",
-        "dedicated-linux-hl2",        
-      ]
     },
     {
       type: "category",
@@ -5165,50 +5121,29 @@ const sidebars = {
           default: return "Services";
         }
       })(),
-      href: "/docs/vserver-windows-bitwarden",
+      href: "/docs/software-overview-services",
     },
     {
-      type: "category",
-      label: "Dedicated Game Servers",
-      key: "vserver-windows-dedicated-game-servers",
-      items: [
-        {
-        type: "category",
-        label: "General",
-        key: "vserver-windows-dedicated-game-servers-general",
-        items: [
-          "vserver-windows-fivem-txAdmin-cloudflare-tunnel",
-          ]
-        },
-        "vserver-windows-arksurvivalascended",
-        "dedicated-windows-avorion",
-        "dedicated-windows-conan",
-        "vserver-windows-enshrouded",
-        "dedicated-windows-fivem",
-        "dedicated-windows-foundry",
-        "dedicated-windows-hytale",
-        "vserver-windows-fs-19",
-        "vserver-windows-fs-22",
-        "dedicated-windows-fs-22-epic",
-        "dedicated-windows-fs-25",
-        "dedicated-windows-mythofempires",
-        "vserver-windows-openmp",
-        "dedicated-windows-palworld",
-        "dedicated-windows-ragemp",
-        "dedicated-windows-satisfactory",
-        "dedicated-windows-soulmask",
-        "vserver-windows-valheim",
-        "vserver-windows-vrising",
-        "dedicated-windows-cs16",
-        "dedicated-windows-cscz",
-        "dedicated-windows-css",
-        "dedicated-windows-cs2",
-        "dedicated-windows-tf2",
-        "dedicated-windows-dods",
-        "dedicated-windows-l4d2",
-        "dedicated-windows-nmrih",
-        "dedicated-windows-hl2",
-      ]
+      type: "link",
+      key: "dedicated-windows-game-servers",
+      label: (() => {
+        switch (process.env.DOCUSAURUS_CURRENT_LOCALE) {
+          case "de": return "Dedicated Gameserver";
+          case "es": return "Servidores de Juegos Dedicados";
+          case "fr": return "Serveurs de Jeux Dédiés";
+          case "ar": return "خوادم ألعاب مخصصة";
+          case "pt": return "Servidores de Jogos Dedicados";
+          case "th": return "เซิร์ฟเวอร์เกมเฉพาะ";
+          case "pl": return "Dedykowane Serwery Gier";
+          case "ja": return "専用ゲームサーバー";
+          case "sv": return "Dedikerade Spelservrar";
+          case "it": return "Server di Gioco Dedicati";
+          case "nl": return "Dedicated Game Servers";
+          case "zh": return "专用游戏服务器";
+          default: return "Dedicated Game Servers";
+        }
+      })(),
+      href: "/docs/software-overview-dedicated-game-server",
     },
     {
       type: "category",
@@ -5253,8 +5188,17 @@ const sidebars = {
       value: (() => {
         switch (process.env.DOCUSAURUS_CURRENT_LOCALE) {
           case "de": return "Linux";
+          case "es": return "Linux";
+          case "fr": return "Linux";
           case "ar": return "لينكس";
-          case "th": return "ลينุกซ์";
+          case "pt": return "Linux";
+          case "th": return "ลินุกซ์";
+          case "pl": return "Linux";
+          case "ja": return "Linux";
+          case "sv": return "Linux";
+          case "it": return "Linux";
+          case "nl": return "Linux";
+          case "zh": return "Linux";
           default: return "Linux";
         }
       })(),
@@ -5270,6 +5214,7 @@ const sidebars = {
     "dedicated-linux-jitsi",
     "dedicated-linux-mastodon",
     "dedicated-linux-odoo",
+    "dedicated-linux-openclaw",
     "dedicated-linux-openvpn",
     "dedicated-linux-phpmyadmin",
     "dedicated-linux-plex",
@@ -5326,62 +5271,107 @@ const sidebars = {
   ],
 
   sidebarSoftwareDedicatedGameServers: [
+    "software-overview-dedicated-game-server",
+    {
+      type: "html",
+      className: "sidebar-title",
+      value: (() => {
+        switch (process.env.DOCUSAURUS_CURRENT_LOCALE) {
+          case "de": return "Linux";
+          case "es": return "Linux";
+          case "fr": return "Linux";
+          case "ar": return "لينكس";
+          case "pt": return "Linux";
+          case "th": return "ลินุกซ์";
+          case "pl": return "Linux";
+          case "ja": return "Linux";
+          case "sv": return "Linux";
+          case "it": return "Linux";
+          case "nl": return "Linux";
+          case "zh": return "Linux";
+          default: return "Linux";
+        }
+      })(),
+      defaultStyle: true,
+    },    
     {
       type: "category",
-      label: "Dedicated Game Servers",
-      key: "dedicated-server-linux-dedicated-game-servers",
+      label: "General",
+      key: "software-overview-dedicated-linux-game-server-general",
       items: [
-        {
-        type: "category",
-        label: "General",
-        key: "dedicated-linux-dedicated-game-servers-general",
-        items: [
           "dedicated-linux-fivem-txAdmin-cloudflare-tunnel",
-          ]
-        },
-        "dedicated-linux-steamcmd",
-        "dedicated-linux-wine",
-        "dedicated-linux-create-gameservice",
-        "dedicated-linux-arksurvivalascended",
-        "dedicated-linux-avorion",
-        "dedicated-linux-conan",
-        "dedicated-linux-enshrouded",
-        "dedicated-linux-fivem",
-        "dedicated-linux-foundry",
-        "dedicated-linux-hytale",
-        "dedicated-linux-mythofempires",
-        "dedicated-linux-openmp",
-        "dedicated-linux-palworld",
-        "dedicated-linux-ragemp",
-        "dedicated-linux-rust",
-        "dedicated-linux-satisfactory",
-        "dedicated-linux-soulmask",
-        "dedicated-linux-valheim",
-        "dedicated-linux-vrising",
-        "dedicated-linux-cs16",
-        "dedicated-linux-cscz",
-        "dedicated-linux-css",
-        "dedicated-linux-cs2",
-        "dedicated-linux-tf2",
-        "dedicated-linux-dods",
-        "dedicated-linux-l4d2",
-        "dedicated-linux-nmrih",
-        "dedicated-linux-hl2",
+          "dedicated-linux-steamcmd",
+          "dedicated-linux-wine",
+          "dedicated-linux-create-gameservice",
       ]
     },
     {
       type: "category",
-      label: "Dedicated Game Servers",
-      key: "dedicated-server-windows-dedicated-game-servers",
+      label: "Games",
+      key: "software-overview-dedicated-linux-game-server-games",
       items: [
-        {
-        type: "category",
-        label: "General",
-        key: "dedicated-windows-dedicated-game-servers-general",
-        items: [
+          "dedicated-linux-arksurvivalascended",
+          "dedicated-linux-avorion",
+          "dedicated-linux-conan",
+          "dedicated-linux-enshrouded",
+          "dedicated-linux-fivem",
+          "dedicated-linux-foundry",
+          "dedicated-linux-hytale",
+          "dedicated-linux-mythofempires",
+          "dedicated-linux-openmp",
+          "dedicated-linux-palworld",
+          "dedicated-linux-ragemp",
+          "dedicated-linux-rust",
+          "dedicated-linux-satisfactory",
+          "dedicated-linux-soulmask",
+          "dedicated-linux-valheim",
+          "dedicated-linux-vrising",
+          "dedicated-linux-cs16",
+          "dedicated-linux-cscz",
+          "dedicated-linux-css",
+          "dedicated-linux-cs2",
+          "dedicated-linux-tf2",
+          "dedicated-linux-dods",
+          "dedicated-linux-l4d2",
+          "dedicated-linux-nmrih",
+          "dedicated-linux-hl2",
+      ]
+    },
+    {
+      type: "html",
+      className: "sidebar-title",
+      value: (() => {
+        switch (process.env.DOCUSAURUS_CURRENT_LOCALE) {
+          case "de": return "Windows";
+          case "es": return "Windows";
+          case "fr": return "Windows";
+          case "ar": return "ويندوز";
+          case "pt": return "Windows";
+          case "th": return "วินโดวส์";
+          case "pl": return "Windows";
+          case "ja": return "Windows";
+          case "sv": return "Windows";
+          case "it": return "Windows";
+          case "nl": return "Windows";
+          case "zh": return "Windows";
+          default: return "Windows";
+        }
+      })(),
+      defaultStyle: true,
+    },    
+    {
+      type: "category",
+      label: "General",
+      key: "software-overview-dedicated-windows-game-server-general",
+      items: [
           "dedicated-windows-fivem-txAdmin-cloudflare-tunnel",
-          ]
-        },
+        ]
+    },
+    {
+      type: "category",
+      label: "Games",
+      key: "software-overview-dedicated-windows-game-server-games",
+      items: [
         "vserver-windows-arksurvivalascended",
         "dedicated-windows-avorion",
         "dedicated-windows-conan",
@@ -5412,15 +5402,6 @@ const sidebars = {
         "dedicated-windows-hl2",
       ]
     },
-    {
-      type: "category",
-      label: "Troubleshooting",
-      key: "dedicated-server-windows-troubleshooting",
-      items: [
-        "dedicated-windows-troubleshooting-restore-access",
-        "dedicated-windows-rdp-freeze",
-      ]
-    },	
   ],
 
   //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -5562,50 +5543,29 @@ const sidebars = {
           default: return "Services";
         }
       })(),
-      href: "/docs/vserver-linux-bitwarden",
+      href: "/docs/software-overview-services",
     },
     {
-      type: "category",
-      label: "Dedicated Game Servers",
-      key: "dedicated-server-linux-dedicated-game-servers",
-      items: [
-        {
-        type: "category",
-        label: "General",
-        key: "dedicated-linux-dedicated-game-servers-general",
-        items: [
-          "dedicated-linux-fivem-txAdmin-cloudflare-tunnel",
-          ]
-        },
-        "dedicated-linux-steamcmd",
-        "dedicated-linux-wine",
-        "dedicated-linux-create-gameservice",
-        "dedicated-linux-arksurvivalascended",
-        "dedicated-linux-avorion",
-        "dedicated-linux-conan",
-        "dedicated-linux-enshrouded",
-        "dedicated-linux-fivem",
-        "dedicated-linux-foundry",
-        "dedicated-linux-hytale",
-        "dedicated-linux-mythofempires",
-        "dedicated-linux-openmp",
-        "dedicated-linux-palworld",
-        "dedicated-linux-ragemp",
-        "dedicated-linux-rust",
-        "dedicated-linux-satisfactory",
-        "dedicated-linux-soulmask",
-        "dedicated-linux-valheim",
-        "dedicated-linux-vrising",
-        "dedicated-linux-cs16",
-        "dedicated-linux-cscz",
-        "dedicated-linux-css",
-        "dedicated-linux-cs2",
-        "dedicated-linux-tf2",
-        "dedicated-linux-dods",
-        "dedicated-linux-l4d2",
-        "dedicated-linux-nmrih",
-        "dedicated-linux-hl2",
-      ]
+      type: "link",
+      key: "dedicated-linux-dedicated-game-servers",
+      label: (() => {
+        switch (process.env.DOCUSAURUS_CURRENT_LOCALE) {
+          case "de": return "Dedizierte Gameserver";
+          case "es": return "Servidores de juegos dedicados";
+          case "fr": return "Serveurs de jeux dédiés";
+          case "ar": return "خوادم ألعاب مخصصة";
+          case "pt": return "Servidores de jogos dedicados";
+          case "th": return "เซิร์ฟเวอร์เกมเฉพาะ";
+          case "pl": return "Dedykowane serwery gier";
+          case "ja": return "専用ゲームサーバー";
+          case "sv": return "Dedikerade spelservrar";
+          case "it": return "Server di gioco dedicati";
+          case "nl": return "Dedicated gameservers";
+          case "zh": return "专用游戏服务器";
+          default: return "Dedicated Game Servers";
+        }
+      })(),      
+      href: "/docs/software-overview-dedicated-game-server",
     },
     {
       type: "category",
@@ -5675,50 +5635,29 @@ const sidebars = {
           default: return "Services";
         }
       })(),
-      href: "/docs/vserver-windows-bitwarden",
+      href: "/docs/software-overview-services",
     },
     {
-      type: "category",
-      label: "Dedicated Game Servers",
-      key: "dedicated-server-windows-dedicated-game-servers",
-      items: [
-        {
-        type: "category",
-        label: "General",
-        key: "dedicated-windows-dedicated-game-servers-general",
-        items: [
-          "dedicated-windows-fivem-txAdmin-cloudflare-tunnel",
-          ]
-        },
-        "vserver-windows-arksurvivalascended",
-        "dedicated-windows-avorion",
-        "dedicated-windows-conan",
-        "vserver-windows-enshrouded",
-        "dedicated-windows-fivem",
-        "dedicated-windows-foundry",
-        "vserver-windows-fs-19",
-        "vserver-windows-fs-22",
-        "dedicated-windows-fs-22-epic",
-        "dedicated-windows-fs-25",
-        "dedicated-windows-hytale",
-        "dedicated-windows-mythofempires",
-        "vserver-windows-openmp",
-        "dedicated-windows-palworld",
-        "dedicated-windows-ragemp",
-        "dedicated-windows-satisfactory",
-        "dedicated-windows-soulmask",
-        "vserver-windows-valheim",
-        "vserver-windows-vrising",
-        "dedicated-windows-cs16",
-        "dedicated-windows-cscz",
-        "dedicated-windows-css",
-        "dedicated-windows-cs2",
-        "dedicated-windows-tf2",
-        "dedicated-windows-dods",
-        "dedicated-windows-l4d2",
-        "dedicated-windows-nmrih",
-        "dedicated-windows-hl2",
-      ]
+      type: "link",
+      key: "dedicated-windows-dedicated-game-servers",
+      label: (() => {
+        switch (process.env.DOCUSAURUS_CURRENT_LOCALE) {
+          case "de": return "Dedizierte Gameserver";
+          case "es": return "Servidores de juegos dedicados";
+          case "fr": return "Serveurs de jeux dédiés";
+          case "ar": return "خوادم ألعاب مخصصة";
+          case "pt": return "Servidores de jogos dedicados";
+          case "th": return "เซิร์ฟเวอร์เกมเฉพาะ";
+          case "pl": return "Dedykowane serwery gier";
+          case "ja": return "専用ゲームサーバー";
+          case "sv": return "Dedikerade spelservrar";
+          case "it": return "Server di gioco dedicati";
+          case "nl": return "Dedicated gameservers";
+          case "zh": return "专用游戏服务器";
+          default: return "Dedicated Game Servers";
+        }
+      })(),      
+      href: "/docs/software-overview-dedicated-game-server",
     },
     {
       type: "category",
