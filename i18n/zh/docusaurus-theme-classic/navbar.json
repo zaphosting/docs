@@ -36,11 +36,11 @@
     "description": "Navbar item with label Webspace"
   },
   "item.label.Software": {
-    "message": "Software",
+    "message": "软件",
     "description": "Navbar item with label Software"
   },
   "item.label.Rent a Server": {
-    "message": "Rent a Server",
+    "message": "租用服务器",
     "description": "Navbar item with label Rent a Server"
   },
   "item.label.ZAP-Hosting": {

@@ -1,6 +1,6 @@
 {
   "title": {
-    "message": "เอกสาร ZAP-Hosting",
+    "message": "Документация ZAP-Hosting",
     "description": "The title in the navbar"
   },
   "logo.alt": {
@@ -8,39 +8,39 @@
     "description": "The alt text of navbar logo"
   },
   "item.label.General": {
-    "message": "ทั่วไป",
+    "message": "Общее",
     "description": "Navbar item with label General"
   },
   "item.label.Gameserver": {
-    "message": "เซิร์ฟเวอร์เกม",
+    "message": "Игровой сервер",
     "description": "Navbar item with label Gameserver"
+  },
+  "item.label.Dedicated Server": {
+    "message": "Выделенный сервер",
+    "description": "Navbar item with label Dedicated Server"
+  },
+  "item.label.Voicebot & Voiceserver": {
+    "message": "Голосовой бот и сервер",
+    "description": "Navbar item with label Voicebot & Voiceserver"
   },
   "item.label.VPS": {
     "message": "VPS",
     "description": "Navbar item with label VPS"
   },
-  "item.label.Dedicated Server": {
-    "message": "เซิร์ฟเวอร์เฉพาะ",
-    "description": "Navbar item with label Dedicated Server"
-  },
-  "item.label.Voicebot & Voiceserver": {
-    "message": "Voice Bot & เซิร์ฟเวอร์เสียง",
-    "description": "Navbar item with label Voicebot & Voiceserver"
-  },
   "item.label.Domain": {
-    "message": "โดเมน",
+    "message": "Домен",
     "description": "Navbar item with label Domain"
   },
   "item.label.Webspace": {
-    "message": "เว็บโฮสติ้ง",
+    "message": "Веб-хостинг",
     "description": "Navbar item with label Webspace"
   },
   "item.label.Software": {
-    "message": "ซอฟต์แวร์",
+    "message": "Программы",
     "description": "Navbar item with label Software"
   },
   "item.label.Rent a Server": {
-    "message": "เช่าเซิร์ฟเวอร์",
+    "message": "Арендовать сервер",
     "description": "Navbar item with label Rent a Server"
   },
   "item.label.ZAP-Hosting": {

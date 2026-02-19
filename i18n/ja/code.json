@@ -1552,13 +1552,10 @@
     "message": "はじめに"
   },
   "dropdown.vps.introduction": {
-    "message": "紹介"
+    "message": "はじめに"
   },
   "dropdown.vps.dashboard": {
     "message": "ダッシュボード"
-  },
-  "dropdown.vps.customIsos": {
-    "message": "カスタムISO"
   },
   "dropdown.vps.software": {
     "message": "ソフトウェア"
@@ -1582,7 +1579,7 @@
     "message": "はじめに"
   },
   "dropdown.gameserver.introduction": {
-    "message": "紹介"
+    "message": "はじめに"
   },
   "dropdown.gameserver.ftpAccess": {
     "message": "FTPアクセス"
@@ -1591,19 +1588,13 @@
     "message": "バックアップ"
   },
   "dropdown.gameserver.popularGames": {
-    "message": "人気のゲーム"
-  },
-  "dropdown.gameserver.moreGames": {
-    "message": "その他のゲーム"
+    "message": "人気ゲーム"
   },
   "dropdown.gameserver.allGames": {
-    "message": "すべてのゲーム (A-Z)"
+    "message": "全ゲーム (A-Z)"
   },
   "dropdown.gameserver.scheduledTasks": {
     "message": "スケジュールタスク"
-  },
-  "dropdown.gameserver.gameSwitch": {
-    "message": "ゲーム切替"
   },
   "dropdown.gameserver.databases": {
     "message": "データベース"
@@ -1614,9 +1605,6 @@
   "dropdown.vps.vncConsole": {
     "message": "VNCコンソール"
   },
-  "dropdown.vps.rescueMode": {
-    "message": "レスキューモード"
-  },
   "dropdown.vps.more": {
     "message": "もっと見る..."
   },
@@ -1624,22 +1612,13 @@
     "message": "はじめに"
   },
   "dropdown.dedicated.introduction": {
-    "message": "紹介"
+    "message": "はじめに"
   },
   "dropdown.dedicated.dashboard": {
     "message": "ダッシュボード"
   },
-  "dropdown.dedicated.setup": {
-    "message": "セットアップ"
-  },
   "dropdown.dedicated.ilo": {
     "message": "iLO"
-  },
-  "dropdown.dedicated.customIsos": {
-    "message": "カスタムISO"
-  },
-  "dropdown.dedicated.raid": {
-    "message": "RAID"
   },
   "dropdown.dedicated.more": {
     "message": "もっと見る..."
@@ -1663,28 +1642,28 @@
     "message": "ソフトウェア"
   },
   "dropdown.vps.gettingStartedDesc": {
-    "message": "仮想プライベートサーバーを始めましょう。"
+    "message": "仮想プライベートサーバーを稼働させましょう。ダッシュボードアクセス、サーバーリセット、VNC、バックアップ、トラブルシューティング。"
   },
   "dropdown.vps.linuxDesc": {
-    "message": "Linuxサーバーのガイド。"
+    "message": "SSH、サービス、ゲームサーバーなど。LinuxベースのVPS管理ガイド。"
   },
   "dropdown.vps.windowsDesc": {
-    "message": "Windowsサーバーのガイド。"
+    "message": "リモートデスクトップ、サービス、ゲームサーバー、トラブルシューティング。WindowsベースのVPSのすべて。"
   },
   "dropdown.gameserver.gettingStartedDesc": {
-    "message": "ゲームサーバーの管理と設定。"
+    "message": "ゲームサーバーのセットアップ、管理、最適化方法を学びましょう。バックアップやFTPアクセスからデータベースや収益化まで。"
   },
   "dropdown.gameserver.popularGamesDesc": {
-    "message": "人気ゲームのセットアップガイド。"
+    "message": "最も人気のあるゲームのセットアップガイドを見つけましょう。タイトルを選んですぐにサーバーを稼働させましょう。"
   },
   "dropdown.dedicated.gettingStartedDesc": {
-    "message": "専用サーバーを始めましょう。"
+    "message": "専用サーバーをステップバイステップでセットアップ。初期設定やiLO/IPMIからRAID構成やカスタムISOまで。"
   },
   "dropdown.dedicated.linuxDesc": {
-    "message": "Linuxサーバーのガイド。"
+    "message": "フルrootアクセス、サービス、ゲームサーバー、OS管理。Linux専用サーバーのガイド。"
   },
   "dropdown.dedicated.windowsDesc": {
-    "message": "Windowsサーバーのガイド。"
+    "message": "リモートデスクトップ、サービス、ゲームサーバー、OS管理。Windows専用サーバーのガイド。"
   },
   "dropdown.dedicated.initialSetup": {
     "message": "初期設定"
@@ -1693,10 +1672,10 @@
     "message": "IPMI"
   },
   "dropdown.dedicated.ownIso": {
-    "message": "独自のISO"
+    "message": "カスタムISO"
   },
   "dropdown.dedicated.configureRaid": {
-    "message": "RAID設定"
+    "message": "RAID構成"
   },
   "dropdown.dedicated.serverReset": {
     "message": "サーバーリセット"
@@ -1705,7 +1684,7 @@
     "message": "サーバーリセット"
   },
   "dropdown.vps.systemRescue": {
-    "message": "System Rescue (バックアップ)"
+    "message": "システムレスキュー（バックアップ）"
   },
   "dropdown.vps.vpsComparison": {
     "message": "VPS/専用サーバー比較"
@@ -1716,12 +1695,6 @@
   "dropdown.vps.troubleshooting": {
     "message": "トラブルシューティング"
   },
-  "dropdown.gameserver.serverReset": {
-    "message": "サーバーリセット"
-  },
-  "dropdown.gameserver.resourceLimit": {
-    "message": "リソース制限"
-  },
   "dropdown.gameserver.switchGame": {
     "message": "ゲーム変更"
   },
@@ -1729,25 +1702,19 @@
     "message": "アップ/ダウングレード"
   },
   "dropdown.gameserver.serverCrash": {
-    "message": "サーバークラッシュ - どうする？"
-  },
-  "dropdown.gameserver.subdomain": {
-    "message": "ゲームサーバー サブドメイン"
+    "message": "サーバークラッシュ - 対処法"
   },
   "dropdown.gameserver.tebex": {
-    "message": "Tebex マネタイゼーション"
+    "message": "Tebex収益化"
   },
   "dropdown.rent.gameHosting": {
     "message": "ゲームホスティング"
   },
   "dropdown.rent.gameHostingDesc": {
-    "message": "お気に入りのゲーム用サーバーをレンタル。"
-  },
-  "dropdown.rent.gameserver": {
-    "message": "ゲームサーバー"
+    "message": "お気に入りのタイトルのゲームサーバーをレンタル。即時セットアップ、DDoS保護など多くの機能が含まれています！"
   },
   "dropdown.rent.teamspeak": {
-    "message": "TeamSpeak サーバー"
+    "message": "TeamSpeak 3 サーバー"
   },
   "dropdown.rent.musicbot": {
     "message": "Discord Musicbot"
@@ -1756,19 +1723,13 @@
     "message": "サーバーホスティング"
   },
   "dropdown.rent.serverHostingDesc": {
-    "message": "仮想および専用サーバーソリューション。"
+    "message": "フルrootアクセスの仮想サーバーと専用サーバー。あらゆるプロジェクトにスケーラブルなリソース。"
   },
   "dropdown.rent.vps": {
     "message": "VPS（仮想サーバー）"
   },
   "dropdown.rent.dedicated": {
     "message": "専用サーバー"
-  },
-  "dropdown.rent.webServices": {
-    "message": "Webサービス"
-  },
-  "dropdown.rent.webServicesDesc": {
-    "message": "ドメイン、ウェブスペース等。"
   },
   "dropdown.rent.domain": {
     "message": "ドメイン"
@@ -1808,25 +1769,13 @@
     "message": "Linux - サービス"
   },
   "dropdown.software.linuxServicesDesc": {
-    "message": "Linux向けセルフホスト型アプリ。"
-  },
-  "dropdown.software.linuxDevelopment": {
-    "message": "Linux - 開発"
-  },
-  "dropdown.software.linuxDevelopmentDesc": {
-    "message": "開発ツールとランタイム。"
+    "message": "Linuxでセルフホストサービスをインストール・設定。OpenClaw、Bitwardenなど。"
   },
   "dropdown.software.windowsServices": {
     "message": "Windows - サービス"
   },
   "dropdown.software.windowsServicesDesc": {
-    "message": "Windows向けセルフホスト型アプリ。"
-  },
-  "dropdown.software.windowsDevelopment": {
-    "message": "Windows - 開発"
-  },
-  "dropdown.software.windowsDevelopmentDesc": {
-    "message": "開発ツールとランタイム。"
+    "message": "Windowsでセルフホストサービスをインストール・設定。Docker、Plexなど。"
   },
   "dropdown.software.bitwarden": {
     "message": "Bitwarden"
@@ -1846,29 +1795,8 @@
   "dropdown.software.wordpress": {
     "message": "WordPress"
   },
-  "dropdown.software.mastodon": {
-    "message": "Mastodon"
-  },
   "dropdown.software.docker": {
     "message": "Docker"
-  },
-  "dropdown.software.git": {
-    "message": "Git"
-  },
-  "dropdown.software.python": {
-    "message": "Python"
-  },
-  "dropdown.software.nodejs": {
-    "message": "Node.js"
-  },
-  "dropdown.software.php": {
-    "message": "PHP"
-  },
-  "dropdown.software.databases": {
-    "message": "データベース"
-  },
-  "dropdown.software.webserver": {
-    "message": "Webサーバー"
   },
   "dropdown.software.plesk": {
     "message": "Plesk"
@@ -1882,20 +1810,17 @@
   "dropdown.software.mysql": {
     "message": "MySQL"
   },
-  "dropdown.software.allSoftware": {
-    "message": "すべてのソフトウェア"
-  },
   "dropdown.software.linuxDedicatedGames": {
     "message": "Linux - 専用ゲーム"
   },
   "dropdown.software.linuxDedicatedGamesDesc": {
-    "message": "Linuxでゲームサーバーをホスト。"
+    "message": "Linuxマシンで最も人気のある専用ゲームサーバーを実行。"
   },
   "dropdown.software.windowsDedicatedGames": {
     "message": "Windows - 専用ゲーム"
   },
   "dropdown.software.windowsDedicatedGamesDesc": {
-    "message": "Windowsでゲームサーバーをホスト。"
+    "message": "Windowsマシンで最も人気のある専用ゲームサーバーを実行。"
   },
   "dropdown.software.fivem": {
     "message": "FiveM"
@@ -1912,32 +1837,26 @@
   "dropdown.software.cs2": {
     "message": "CS2"
   },
-  "dropdown.software.rust": {
-    "message": "Rust"
-  },
-  "dropdown.software.satisfactory": {
-    "message": "Satisfactory"
-  },
   "dropdown.software.arkSa": {
     "message": "Ark: SA"
   },
   "dropdown.software.allServices": {
-    "message": "すべてのサービス"
+    "message": "全サービス"
   },
   "dropdown.software.allDedicatedGames": {
-    "message": "すべての専用ゲーム"
+    "message": "全専用ゲーム"
   },
   "dropdown.rent.voiceHosting": {
     "message": "ボイスホスティング"
   },
   "dropdown.rent.voiceHostingDesc": {
-    "message": "ボイスサーバーとボット。"
+    "message": "TeamSpakサーバー、ミュージックボット、Discord Botホスティング。コミュニティをつなげましょう。"
   },
   "dropdown.rent.webHosting": {
-    "message": "Webホスティング"
+    "message": "ウェブホスティング"
   },
   "dropdown.rent.webHostingDesc": {
-    "message": "ドメイン、ウェブスペース等。"
+    "message": "ドメインを登録してウェブサイトをホスト。簡単管理の信頼性の高いウェブスペース。"
   },
   "dropdown.rent.fivem": {
     "message": "FiveM"
@@ -1973,7 +1892,7 @@
     "message": "Lifetime"
   },
   "dropdown.rent.lifetimeDesc": {
-    "message": "一度支払えば、永久に利用可能。"
+    "message": "ZAP-Hostingを気に入っていますか？一度支払って、サブスクリプションなしで長期的に計画しましょう！"
   },
   "dropdown.rent.lifetimeGameserver": {
     "message": "Lifetime Gameserver"
@@ -2028,5 +1947,77 @@
   },
   "contributors.document.title": {
     "message": "このコンテンツの貢献者"
+  },
+  "dropdown.gameserver.badgeMostPopular": {
+    "message": "最も人気"
+  },
+  "dropdown.gameserver.badgePopular": {
+    "message": "人気"
+  },
+  "dropdown.gameserver.badgeTrending": {
+    "message": "トレンド"
+  },
+  "dropdown.gameserver.fivem": {
+    "message": "FiveM"
+  },
+  "dropdown.gameserver.minecraft": {
+    "message": "Minecraft"
+  },
+  "dropdown.gameserver.hytale": {
+    "message": "Hytale"
+  },
+  "dropdown.gameserver.scp": {
+    "message": "SCP: Secret Laboratory"
+  },
+  "dropdown.gameserver.valheim": {
+    "message": "Valheim"
+  },
+  "dropdown.gameserver.ark": {
+    "message": "Ark: Survival Evolved"
+  },
+  "dropdown.gameserver.palworld": {
+    "message": "Palworld"
+  },
+  "dropdown.gameserver.enshrouded": {
+    "message": "Enshrouded"
+  },
+  "dropdown.gameserver.scum": {
+    "message": "SCUM"
+  },
+  "dropdown.vps.ownIso": {
+    "message": "ISOファイルのマウント"
+  },
+  "dropdown.dedicated.operating-systems-linux": {
+    "message": "オペレーティングシステム"
+  },
+  "dropdown.dedicated.operating-systems-windows": {
+    "message": "オペレーティングシステム"
+  },
+  "dropdown.dedicated.troubleshooting": {
+    "message": "トラブルシューティング"
+  },
+  "dropdown.rent.badgeMostPopular": {
+    "message": "最も人気"
+  },
+  "dropdown.rent.badgePopular": {
+    "message": "人気"
+  },
+  "dropdown.rent.badgeTrending": {
+    "message": "トレンド"
+  },
+  "dropdown.rent.more": {
+    "message": "100以上のゲームを見る"
+  },
+  "dropdown.software.openclaw": {
+    "message": "OpenClaw"
+  },
+  "dropdown.software.badgeTrending": {
+    "message": "🔥Trending"
+  },
+  "dropdown.software.hytale": {
+    "message": "Hytale"
+  },
+  "dropdown.software.vrising": {
+    "message": "V-Rising"
   }
 }

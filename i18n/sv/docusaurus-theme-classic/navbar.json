@@ -32,19 +32,19 @@
     "description": "Navbar item with label Voicebot & Voiceserver"
   },
   "item.label.Domain": {
-    "message": "Domain",
+    "message": "Domän",
     "description": "Navbar item with label Domain"
   },
   "item.label.Webspace": {
-    "message": "Webspace",
+    "message": "Webbhotell",
     "description": "Navbar item with label Webspace"
   },
   "item.label.Software": {
-    "message": "Software",
+    "message": "Programvara",
     "description": "Navbar item with label Software"
   },
   "item.label.Rent a Server": {
-    "message": "Rent a Server",
+    "message": "Hyr en server",
     "description": "Navbar item with label Rent a Server"
   },
   "item.label.ZAP-Hosting": {

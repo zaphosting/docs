@@ -40,7 +40,7 @@
     "description": "Navbar item with label Software"
   },
   "item.label.Rent a Server": {
-    "message": "Rent a Server",
+    "message": "Alugar um servidor",
     "description": "Navbar item with label Rent a Server"
   },
   "item.label.ZAP-Hosting": {

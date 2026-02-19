@@ -1517,16 +1517,13 @@
     "description": "The title of the tag list page"
   },
   "dropdown.vps.gettingStarted": {
-    "message": "Kom igång"
+    "message": "Första stegen"
   },
   "dropdown.vps.introduction": {
     "message": "Introduktion"
   },
   "dropdown.vps.dashboard": {
-    "message": "Instrumentpanel"
-  },
-  "dropdown.vps.customIsos": {
-    "message": "Anpassade ISOs"
+    "message": "Kontrollpanel"
   },
   "dropdown.vps.software": {
     "message": "Programvara"
@@ -1547,7 +1544,7 @@
     "message": "Spelservrar"
   },
   "dropdown.gameserver.gettingStarted": {
-    "message": "Kom igång"
+    "message": "Första stegen"
   },
   "dropdown.gameserver.introduction": {
     "message": "Introduktion"
@@ -1561,17 +1558,11 @@
   "dropdown.gameserver.popularGames": {
     "message": "Populära spel"
   },
-  "dropdown.gameserver.moreGames": {
-    "message": "Fler spel"
-  },
   "dropdown.gameserver.allGames": {
     "message": "Alla spel (A-Z)"
   },
   "dropdown.gameserver.scheduledTasks": {
     "message": "Schemalagda uppgifter"
-  },
-  "dropdown.gameserver.gameSwitch": {
-    "message": "Spelbyte"
   },
   "dropdown.gameserver.databases": {
     "message": "Databaser"
@@ -1582,32 +1573,20 @@
   "dropdown.vps.vncConsole": {
     "message": "VNC-konsol"
   },
-  "dropdown.vps.rescueMode": {
-    "message": "Räddningsläge"
-  },
   "dropdown.vps.more": {
     "message": "Mer..."
   },
   "dropdown.dedicated.gettingStarted": {
-    "message": "Kom igång"
+    "message": "Första stegen"
   },
   "dropdown.dedicated.introduction": {
     "message": "Introduktion"
   },
   "dropdown.dedicated.dashboard": {
-    "message": "Instrumentpanel"
-  },
-  "dropdown.dedicated.setup": {
-    "message": "Installation"
+    "message": "Kontrollpanel"
   },
   "dropdown.dedicated.ilo": {
     "message": "iLO"
-  },
-  "dropdown.dedicated.customIsos": {
-    "message": "Anpassade ISOs"
-  },
-  "dropdown.dedicated.raid": {
-    "message": "RAID"
   },
   "dropdown.dedicated.more": {
     "message": "Mer..."
@@ -1631,28 +1610,28 @@
     "message": "Programvara"
   },
   "dropdown.vps.gettingStartedDesc": {
-    "message": "Kom igång med din virtuella privata server."
+    "message": "Kom igång med din virtuella privata server. Panelåtkomst, serveråterställningar, VNC, säkerhetskopior och felsökning."
   },
   "dropdown.vps.linuxDesc": {
-    "message": "Guider för Linux-baserade servrar."
+    "message": "SSH, tjänster, spelservrar och mer. Guider för att hantera din Linux-baserade VPS."
   },
   "dropdown.vps.windowsDesc": {
-    "message": "Guider för Windows-baserade servrar."
+    "message": "Fjärrskrivbord, tjänster, spelservrar och felsökning. Allt för din Windows-baserade VPS."
   },
   "dropdown.gameserver.gettingStartedDesc": {
-    "message": "Hantera och konfigurera din spelserver."
+    "message": "Lär dig hur du konfigurerar, hanterar och optimerar din spelserver. Från säkerhetskopior och FTP-åtkomst till databaser och monetisering."
   },
   "dropdown.gameserver.popularGamesDesc": {
-    "message": "Installationsguider för de mest populära spelen."
+    "message": "Hitta installationsguider för de mest populära spelen. Välj din titel och få igång din server på nolltid."
   },
   "dropdown.dedicated.gettingStartedDesc": {
-    "message": "Kom igång med din dedikerade server."
+    "message": "Konfigurera din dedikerade server steg för steg. Från grundinstallation och iLO/IPMI till RAID-konfiguration och anpassade ISO-filer."
   },
   "dropdown.dedicated.linuxDesc": {
-    "message": "Guider för Linux-baserade servrar."
+    "message": "Full root-åtkomst, tjänster, spelservrar och OS-hantering. Guider för din dedikerade Linux-server."
   },
   "dropdown.dedicated.windowsDesc": {
-    "message": "Guider för Windows-baserade servrar."
+    "message": "Fjärrskrivbord, tjänster, spelservrar och OS-hantering. Guider för din dedikerade Windows-server."
   },
   "dropdown.dedicated.initialSetup": {
     "message": "Grundinstallation"
@@ -1661,34 +1640,28 @@
     "message": "IPMI"
   },
   "dropdown.dedicated.ownIso": {
-    "message": "Egen ISO"
+    "message": "Eget ISO"
   },
   "dropdown.dedicated.configureRaid": {
     "message": "Konfigurera RAID"
   },
   "dropdown.dedicated.serverReset": {
-    "message": "Återställ server"
+    "message": "Serveråterställning"
   },
   "dropdown.vps.serverReset": {
     "message": "Serveråterställning"
   },
   "dropdown.vps.systemRescue": {
-    "message": "System Rescue (Backup)"
+    "message": "Systemräddning (Backup)"
   },
   "dropdown.vps.vpsComparison": {
-    "message": "VPS/Dedikerad jämförelse"
+    "message": "VPS/Dedicated-jämförelse"
   },
   "dropdown.vps.ballooning": {
     "message": "Ballooning"
   },
   "dropdown.vps.troubleshooting": {
     "message": "Felsökning"
-  },
-  "dropdown.gameserver.serverReset": {
-    "message": "Serveråterställning"
-  },
-  "dropdown.gameserver.resourceLimit": {
-    "message": "Resursgräns"
   },
   "dropdown.gameserver.switchGame": {
     "message": "Byt spel"
@@ -1699,23 +1672,17 @@
   "dropdown.gameserver.serverCrash": {
     "message": "Serverkrasch - Vad göra?"
   },
-  "dropdown.gameserver.subdomain": {
-    "message": "Gameserver subdomän"
-  },
   "dropdown.gameserver.tebex": {
-    "message": "Tebex monetisering"
+    "message": "Tebex-monetisering"
   },
   "dropdown.rent.gameHosting": {
     "message": "Spelhosting"
   },
   "dropdown.rent.gameHostingDesc": {
-    "message": "Hyr servrar för dina favoritspel."
-  },
-  "dropdown.rent.gameserver": {
-    "message": "Spelserver"
+    "message": "Hyr en spelserver för din favorittitel. Omedelbar installation, DDoS-skydd och många fler funktioner inkluderade!"
   },
   "dropdown.rent.teamspeak": {
-    "message": "TeamSpeak-server"
+    "message": "TeamSpeak 3-server"
   },
   "dropdown.rent.musicbot": {
     "message": "Discord Musicbot"
@@ -1724,19 +1691,13 @@
     "message": "Serverhosting"
   },
   "dropdown.rent.serverHostingDesc": {
-    "message": "Virtuella och dedikerade serverlösningar."
+    "message": "Virtuella och dedikerade servrar med full root-åtkomst. Skalbara resurser för alla projekt."
   },
   "dropdown.rent.vps": {
     "message": "VPS (Virtuell Server)"
   },
   "dropdown.rent.dedicated": {
-    "message": "Dedikerad Server"
-  },
-  "dropdown.rent.webServices": {
-    "message": "Webbtjänster"
-  },
-  "dropdown.rent.webServicesDesc": {
-    "message": "Domäner, webbhotell & mer."
+    "message": "Dedikerad server"
   },
   "dropdown.rent.domain": {
     "message": "Domän"
@@ -1808,25 +1769,13 @@
     "message": "Linux - Tjänster"
   },
   "dropdown.software.linuxServicesDesc": {
-    "message": "Självhostade applikationer för Linux."
-  },
-  "dropdown.software.linuxDevelopment": {
-    "message": "Linux - Utveckling"
-  },
-  "dropdown.software.linuxDevelopmentDesc": {
-    "message": "Utvecklingsverktyg och körmiljöer."
+    "message": "Installera och konfigurera self-hosted tjänster på Linux. OpenClaw, Bitwarden och mer."
   },
   "dropdown.software.windowsServices": {
     "message": "Windows - Tjänster"
   },
   "dropdown.software.windowsServicesDesc": {
-    "message": "Självhostade applikationer för Windows."
-  },
-  "dropdown.software.windowsDevelopment": {
-    "message": "Windows - Utveckling"
-  },
-  "dropdown.software.windowsDevelopmentDesc": {
-    "message": "Utvecklingsverktyg och körmiljöer."
+    "message": "Installera och konfigurera self-hosted tjänster på Windows. Docker, Plex och mer."
   },
   "dropdown.software.bitwarden": {
     "message": "Bitwarden"
@@ -1846,29 +1795,8 @@
   "dropdown.software.wordpress": {
     "message": "WordPress"
   },
-  "dropdown.software.mastodon": {
-    "message": "Mastodon"
-  },
   "dropdown.software.docker": {
     "message": "Docker"
-  },
-  "dropdown.software.git": {
-    "message": "Git"
-  },
-  "dropdown.software.python": {
-    "message": "Python"
-  },
-  "dropdown.software.nodejs": {
-    "message": "Node.js"
-  },
-  "dropdown.software.php": {
-    "message": "PHP"
-  },
-  "dropdown.software.databases": {
-    "message": "Databaser"
-  },
-  "dropdown.software.webserver": {
-    "message": "Webbserver"
   },
   "dropdown.software.plesk": {
     "message": "Plesk"
@@ -1882,20 +1810,17 @@
   "dropdown.software.mysql": {
     "message": "MySQL"
   },
-  "dropdown.software.allSoftware": {
-    "message": "All programvara"
-  },
   "dropdown.software.linuxDedicatedGames": {
     "message": "Linux - Dedikerade spel"
   },
   "dropdown.software.linuxDedicatedGamesDesc": {
-    "message": "Hosta spelservrar på Linux."
+    "message": "Kör de mest populära dedikerade spelservrarna på din Linux-maskin."
   },
   "dropdown.software.windowsDedicatedGames": {
     "message": "Windows - Dedikerade spel"
   },
   "dropdown.software.windowsDedicatedGamesDesc": {
-    "message": "Hosta spelservrar på Windows."
+    "message": "Kör de mest populära dedikerade spelservrarna på din Windows-maskin."
   },
   "dropdown.software.fivem": {
     "message": "FiveM"
@@ -1912,12 +1837,6 @@
   "dropdown.software.cs2": {
     "message": "CS2"
   },
-  "dropdown.software.rust": {
-    "message": "Rust"
-  },
-  "dropdown.software.satisfactory": {
-    "message": "Satisfactory"
-  },
   "dropdown.software.arkSa": {
     "message": "Ark: SA"
   },
@@ -1931,13 +1850,13 @@
     "message": "Rösthosting"
   },
   "dropdown.rent.voiceHostingDesc": {
-    "message": "Röstservrar och botar."
+    "message": "TeamSpeak-servrar, musikbottar och Discord-bothosting. Håll din community uppkopplad."
   },
   "dropdown.rent.webHosting": {
     "message": "Webbhosting"
   },
   "dropdown.rent.webHostingDesc": {
-    "message": "Domäner, webbhotell & mer."
+    "message": "Registrera domäner och hosta din webbplats. Tillförlitligt webbspace med enkel hantering."
   },
   "dropdown.rent.fivem": {
     "message": "FiveM"
@@ -1973,7 +1892,7 @@
     "message": "Lifetime"
   },
   "dropdown.rent.lifetimeDesc": {
-    "message": "Betala en gång, använd för alltid."
+    "message": "Gillar du ZAP-Hosting? Betala en gång, skippa prenumerationer och planera för lång sikt!"
   },
   "dropdown.rent.lifetimeGameserver": {
     "message": "Lifetime Gameserver"
@@ -2028,5 +1947,77 @@
   },
   "contributors.document.title": {
     "message": "Bidragsgivare till detta innehåll"
+  },
+  "dropdown.gameserver.badgeMostPopular": {
+    "message": "Mest populärt"
+  },
+  "dropdown.gameserver.badgePopular": {
+    "message": "Populärt"
+  },
+  "dropdown.gameserver.badgeTrending": {
+    "message": "Trendande"
+  },
+  "dropdown.gameserver.fivem": {
+    "message": "FiveM"
+  },
+  "dropdown.gameserver.minecraft": {
+    "message": "Minecraft"
+  },
+  "dropdown.gameserver.hytale": {
+    "message": "Hytale"
+  },
+  "dropdown.gameserver.scp": {
+    "message": "SCP: Secret Laboratory"
+  },
+  "dropdown.gameserver.valheim": {
+    "message": "Valheim"
+  },
+  "dropdown.gameserver.ark": {
+    "message": "Ark: Survival Evolved"
+  },
+  "dropdown.gameserver.palworld": {
+    "message": "Palworld"
+  },
+  "dropdown.gameserver.enshrouded": {
+    "message": "Enshrouded"
+  },
+  "dropdown.gameserver.scum": {
+    "message": "SCUM"
+  },
+  "dropdown.vps.ownIso": {
+    "message": "Montera ISO-fil"
+  },
+  "dropdown.dedicated.operating-systems-linux": {
+    "message": "Operativsystem"
+  },
+  "dropdown.dedicated.operating-systems-windows": {
+    "message": "Operativsystem"
+  },
+  "dropdown.dedicated.troubleshooting": {
+    "message": "Felsökning"
+  },
+  "dropdown.rent.badgeMostPopular": {
+    "message": "Mest populärt"
+  },
+  "dropdown.rent.badgePopular": {
+    "message": "Populärt"
+  },
+  "dropdown.rent.badgeTrending": {
+    "message": "Trendande"
+  },
+  "dropdown.rent.more": {
+    "message": "Utforska våra 100+ spel"
+  },
+  "dropdown.software.openclaw": {
+    "message": "OpenClaw"
+  },
+  "dropdown.software.badgeTrending": {
+    "message": "🔥Trending"
+  },
+  "dropdown.software.hytale": {
+    "message": "Hytale"
+  },
+  "dropdown.software.vrising": {
+    "message": "V-Rising"
   }
 }

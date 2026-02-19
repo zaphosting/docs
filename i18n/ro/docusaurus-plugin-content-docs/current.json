@@ -1,38 +1,50 @@
 {
   "version.label": {
-    "message": "Weiter",
+    "message": "Next",
     "description": "The label for version current"
   },
+  "sidebar.guidesSidebar.category.dedicated-linux-dedicated-game-servers-general": {
+    "message": "Protecție DDoS",
+    "description": "The label for category 'DDoS Protection' in sidebar 'guidesSidebar'"
+  },
   "sidebar.guidesSidebar.category.Support": {
-    "message": "Support",
+    "message": "Suport",
     "description": "The label for category 'Support' in sidebar 'guidesSidebar'"
   },
+  "sidebar.guidesSidebar.category.Administration": {
+    "message": "Administrare",
+    "description": "The label for category 'Administration' in sidebar 'guidesSidebar'"
+  },
+  "sidebar.guidesSidebar.category.Billing": {
+    "message": "Facturare",
+    "description": "The label for category 'Billing' in sidebar 'guidesSidebar'"
+  },
   "sidebar.guidesSidebar.category.Security": {
-    "message": "Sicherheit",
+    "message": "Securitate",
     "description": "The label for category 'Security' in sidebar 'guidesSidebar'"
   },
-  "sidebar.guidesSidebar.category.Contribution Program": {
-    "message": "Mitwirkungsprogramm",
-    "description": "The label for category 'Contribution Program' in sidebar 'guidesSidebar'"
-  },
-  "sidebar.guidesSidebar.category.Partner Program": {
-    "message": "Partnerprogramm",
-    "description": "The label for category 'Partner Program' in sidebar 'guidesSidebar'"
-  },
   "sidebar.guidesSidebar.category.Affiliate Program": {
-    "message": "Affiliate-Programm",
+    "message": "Program de afiliere",
     "description": "The label for category 'Affiliate Program' in sidebar 'guidesSidebar'"
   },
+  "sidebar.guidesSidebar.category.Partner Program": {
+    "message": "Program partener",
+    "description": "The label for category 'Partner Program' in sidebar 'guidesSidebar'"
+  },
+  "sidebar.guidesSidebar.category.Contribution Program": {
+    "message": "Program de contribuție",
+    "description": "The label for category 'Contribution Program' in sidebar 'guidesSidebar'"
+  },
   "sidebar.guidesSidebar.category.general-contribution-program-guides": {
-    "message": "Anleitungen",
+    "message": "Ghiduri",
     "description": "The label for category 'Guides' in sidebar 'guidesSidebar'"
   },
   "sidebar.guidesSidebar.category.general-contribution-program-blogs": {
-    "message": "Blogs",
+    "message": "Bloguri",
     "description": "The label for category 'Blogs' in sidebar 'guidesSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-databases": {
-    "message": "Datenbanken",
+    "message": "Baze de date",
     "description": "The label for category 'Databases' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-fivem-popular": {
@@ -40,19 +52,19 @@
     "description": "The label for category 'FiveM' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-fivem-popular": {
-    "message": "Erste Schritte",
+    "message": "Primi pași",
     "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-configuration-fivem-popular": {
-    "message": "Konfiguration",
+    "message": "Configurare",
     "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-resources-fivem-popular": {
-    "message": "Ressourcen",
+    "message": "Resurse",
     "description": "The label for category 'Resources' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-frameworks-fivem-popular": {
-    "message": "Frameworks",
+    "message": "Framework-uri",
     "description": "The label for category 'Frameworks' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-esx-frameworks-popular": {
@@ -64,7 +76,7 @@
     "description": "The label for category 'QBCore' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-fivem-popular": {
-    "message": "Fehlerbehebung",
+    "message": "Depanare",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-minecraft-popular": {
@@ -72,11 +84,11 @@
     "description": "The label for category 'Minecraft' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-minecraft-popular": {
-    "message": "Erste Schritte",
+    "message": "Primi pași",
     "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-configuration-minecraft-popular": {
-    "message": "Konfiguration",
+    "message": "Configurare",
     "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-bedrock-minecraft-popular": {
@@ -88,15 +100,31 @@
     "description": "The label for category 'Bungeecord' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-forge-fabric-mods-minecraft-popular": {
-    "message": "Forge & Fabric (Mods)",
+    "message": "Forge & Fabric (Moduri)",
     "description": "The label for category 'Forge & Fabric (Mods)' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-spigot-bukkit-plugins-minecraft-popular": {
-    "message": "Spigot & Bukkit (Plugins)",
+    "message": "Spigot & Bukkit (Pluginuri)",
     "description": "The label for category 'Spigot & Bukkit (Plugins)' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-minecraft-popular": {
-    "message": "Fehlerbehebung",
+    "message": "Depanare",
+    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-hytale-popular": {
+    "message": "Hytale",
+    "description": "The label for category 'Hytale' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-first-steps-hytale-popular": {
+    "message": "Primi pași",
+    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-configuration-hytale-popular": {
+    "message": "Configurare",
+    "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
+  },
+  "sidebar.gameserverSidebar.category.gameserver-troubleshooting-hytale-popular": {
+    "message": "Depanare",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-scp-secret-laboratory-popular": {
@@ -104,11 +132,11 @@
     "description": "The label for category 'SCP: Secret Laboratory' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-scp-secret-laboratory-popular": {
-    "message": "Erste Schritte",
+    "message": "Primi pași",
     "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-configuration-scp-secret-laboratory-popular": {
-    "message": "Konfiguration",
+    "message": "Configurare",
     "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-exiled-scp-secret-laboratory-popular": {
@@ -116,7 +144,7 @@
     "description": "The label for category 'Exiled' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-scp-secret-laboratory-popular": {
-    "message": "Fehlerbehebung",
+    "message": "Depanare",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-valheim-popular": {
@@ -124,15 +152,15 @@
     "description": "The label for category 'Valheim' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-valheim-popular": {
-    "message": "Erste Schritte",
+    "message": "Primi pași",
     "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-configuration-valheim-popular": {
-    "message": "Konfiguration",
+    "message": "Configurare",
     "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-valheim-popular": {
-    "message": "Fehlerbehebung",
+    "message": "Depanare",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-ark-survival-evolved-popular": {
@@ -140,15 +168,15 @@
     "description": "The label for category 'Ark: Survival Evolved' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-ark-survival-evolved-popular": {
-    "message": "Erste Schritte",
+    "message": "Primi pași",
     "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-configuration-ark-survival-evolved-popular": {
-    "message": "Konfiguration",
+    "message": "Configurare",
     "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-ark-survival-evolved-popular": {
-    "message": "Fehlerbehebung",
+    "message": "Depanare",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-palworld-popular": {
@@ -156,15 +184,15 @@
     "description": "The label for category 'Palworld' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-palworld-popular": {
-    "message": "Erste Schritte",
+    "message": "Primi pași",
     "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-configuration-palworld-popular": {
-    "message": "Konfiguration",
+    "message": "Configurare",
     "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-palworld-popular": {
-    "message": "Fehlerbehebung",
+    "message": "Depanare",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-enshrouded-popular": {
@@ -172,15 +200,15 @@
     "description": "The label for category 'Enshrouded' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-enshrouded-popular": {
-    "message": "Erste Schritte",
+    "message": "Primi pași",
     "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-configuration-enshrouded-popular": {
-    "message": "Konfiguration",
+    "message": "Configurare",
     "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-enshrouded-popular": {
-    "message": "Fehlerbehebung",
+    "message": "Depanare",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-scum-popular": {
@@ -188,139 +216,35 @@
     "description": "The label for category 'SCUM' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-first-steps-scum-popular": {
-    "message": "Erste Schritte",
+    "message": "Primi pași",
     "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-configuration-scum-popular": {
-    "message": "Konfiguration",
+    "message": "Configurare",
     "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
   },
   "sidebar.gameserverSidebar.category.gameserver-troubleshooting-scum-popular": {
-    "message": "Fehlerbehebung",
+    "message": "Depanare",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
   },
-  "sidebar.vpsrootSidebar.category.vserver-troubleshooting": {
-    "message": "Fehlerbehebung",
-    "description": "The label for category 'Troubleshooting' in sidebar 'vpsrootSidebar'"
-  },
-  "sidebar.vpsrootSidebar.category.vserver-general": {
-    "message": "Allgemein",
-    "description": "The label for category 'General' in sidebar 'vpsrootSidebar'"
-  },
-  "sidebar.vpsrootSidebar.category.vserver-linux-troubleshooting": {
-    "message": "Fehlerbehebung",
-    "description": "The label for category 'Troubleshooting' in sidebar 'vpsrootSidebar'"
-  },
-  "sidebar.vpsrootSidebar.category.vserver-windows-general": {
-    "message": "Allgemein",
-    "description": "The label for category 'General' in sidebar 'vpsrootSidebar'"
-  },
-  "sidebar.vpsrootSidebar.category.vserver-windows-troubleshooting": {
-    "message": "Fehlerbehebung",
-    "description": "The label for category 'Troubleshooting' in sidebar 'vpsrootSidebar'"
-  },
-  "sidebar.dedicatedserverSidebar.category.dedicated-server-troubleshooting": {
-    "message": "Fehlerbehebung",
-    "description": "The label for category 'Troubleshooting' in sidebar 'dedicatedserverSidebar'"
-  },
-  "sidebar.dedicatedserverSidebar.category.dedicated-server-install-windows": {
-    "message": "Windows installieren",
-    "description": "The label for category 'Install Windows' in sidebar 'dedicatedserverSidebar'"
-  },
-  "sidebar.dedicatedserverSidebar.category.dedicated-server-install-ubuntu": {
-    "message": "Ubuntu installieren",
-    "description": "The label for category 'Install Ubuntu' in sidebar 'dedicatedserverSidebar'"
-  },
-  "sidebar.dedicatedserverSidebar.category.dedicated-server-linux-general": {
-    "message": "Allgemein",
-    "description": "The label for category 'General' in sidebar 'dedicatedserverSidebar'"
-  },
-  "sidebar.dedicatedserverSidebar.category.dedicated-server-linux-security": {
-    "message": "Sicherheit",
-    "description": "The label for category 'Security' in sidebar 'dedicatedserverSidebar'"
-  },
-  "sidebar.dedicatedserverSidebar.category.dedicated-server-windows-general": {
-    "message": "Allgemein",
-    "description": "The label for category 'General' in sidebar 'dedicatedserverSidebar'"
-  },
-  "sidebar.dedicatedserverSidebar.category.dedicated-server-windows-troubleshooting": {
-    "message": "Fehlerbehebung",
-    "description": "The label for category 'Troubleshooting' in sidebar 'dedicatedserverSidebar'"
-  },
-  "sidebar.voiceserverbotSidebar.category.domain-discord-bot": {
-    "message": "Discord Bot",
-    "description": "The label for category 'Discord Bot' in sidebar 'voiceserverbotSidebar'"
-  },
-  "sidebar.voiceserverbotSidebar.category.domain-ts3musicbot": {
-    "message": "TS3MusicBot",
-    "description": "The label for category 'TS3MusicBot' in sidebar 'voiceserverbotSidebar'"
-  },
-  "sidebar.guidesSidebar.category.dedicated-linux-dedicated-game-servers-general": {
-    "message": "DDoS-Schutz",
-    "description": "The label for category 'DDoS Protection' in sidebar 'guidesSidebar'"
-  },
-  "sidebar.guidesSidebar.category.Administration": {
-    "message": "Verwaltung",
-    "description": "The label for category 'Administration' in sidebar 'guidesSidebar'"
-  },
-  "sidebar.guidesSidebar.category.Billing": {
-    "message": "Abrechnung",
-    "description": "The label for category 'Billing' in sidebar 'guidesSidebar'"
-  },
-  "sidebar.gameserverSidebar.category.gameserver-hytale-popular": {
-    "message": "Hytale",
-    "description": "The label for category 'Hytale' in sidebar 'gameserverSidebar'"
-  },
-  "sidebar.gameserverSidebar.category.gameserver-first-steps-hytale-popular": {
-    "message": "Erste Schritte",
-    "description": "The label for category 'First Steps' in sidebar 'gameserverSidebar'"
-  },
-  "sidebar.gameserverSidebar.category.gameserver-configuration-hytale-popular": {
-    "message": "Konfiguration",
-    "description": "The label for category 'Configuration' in sidebar 'gameserverSidebar'"
-  },
-  "sidebar.gameserverSidebar.category.gameserver-troubleshooting-hytale-popular": {
-    "message": "Fehlerbehebung",
-    "description": "The label for category 'Troubleshooting' in sidebar 'gameserverSidebar'"
-  },
-  "sidebar.dedicatedserverSidebar.category.dedicated-server-linux-troubleshooting": {
-    "message": "Fehlerbehebung",
-    "description": "The label for category 'Troubleshooting' in sidebar 'dedicatedserverSidebar'"
-  },
-  "sidebar.domainSidebar.category.domain-domain-forwarding": {
-    "message": "Domainweiterleitung",
-    "description": "The label for category 'Domain forwarding' in sidebar 'domainSidebar'"
-  },
-  "sidebar.domainSidebar.category.domain-cloudflare": {
-    "message": "Cloudflare",
-    "description": "The label for category 'Cloudflare' in sidebar 'domainSidebar'"
-  },
-  "sidebar.webspaceSidebar.category.domain-e-mails": {
-    "message": "E-Mails",
-    "description": "The label for category 'E-Mails' in sidebar 'webspaceSidebar'"
-  },
-  "sidebar.webspaceSidebar.category.domain-mybb": {
-    "message": "MyBB",
-    "description": "The label for category 'MyBB' in sidebar 'webspaceSidebar'"
-  },
-  "sidebar.webspaceSidebar.category.domain-wordpress": {
-    "message": "WordPress",
-    "description": "The label for category 'WordPress' in sidebar 'webspaceSidebar'"
+  "sidebar.gameserverSidebar.link.All Games (A-Z)": {
+    "message": "All Games (A-Z)",
+    "description": "The label for link 'All Games (A-Z)' in sidebar 'gameserverSidebar', linking to '/docs/7d2d-firststeps-dashboard'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-7-days-to-die": {
     "message": "7 Days to Die",
     "description": "The label for category '7 Days to Die' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-first-steps-7-days-to-die": {
-    "message": "Erste Schritte",
+    "message": "Primi pași",
     "description": "The label for category 'First Steps' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-configuration-7-days-to-die": {
-    "message": "Konfiguration",
+    "message": "Configurare",
     "description": "The label for category 'Configuration' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-troubleshooting-7-days-to-die": {
-    "message": "Fehlerbehebung",
+    "message": "Depanare",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-abiotic-factor": {
@@ -328,15 +252,15 @@
     "description": "The label for category 'Abiotic Factor' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-first-steps-abiotic-factor": {
-    "message": "Erste Schritte",
+    "message": "Primi pași",
     "description": "The label for category 'First Steps' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-configuration-abiotic-factor": {
-    "message": "Konfiguration",
+    "message": "Configurare",
     "description": "The label for category 'Configuration' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-troubleshooting-abiotic-factor": {
-    "message": "Fehlerbehebung",
+    "message": "Depanare",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-afterinfection": {
@@ -344,11 +268,11 @@
     "description": "The label for category 'Afterinfection' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-first-steps-afterinfection": {
-    "message": "Erste Schritte",
+    "message": "Primi pași",
     "description": "The label for category 'First Steps' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-troubleshooting-afterinfection": {
-    "message": "Fehlerbehebung",
+    "message": "Depanare",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-american-truck-simulator": {
@@ -356,15 +280,15 @@
     "description": "The label for category 'American Truck Simulator' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-first-steps-american-truck-simulator": {
-    "message": "Erste Schritte",
+    "message": "Primi pași",
     "description": "The label for category 'First Steps' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-configuration-american-truck-simulator": {
-    "message": "Konfiguration",
+    "message": "Configurare",
     "description": "The label for category 'Configuration' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-troubleshooting-american-truck-simulator": {
-    "message": "Fehlerbehebung",
+    "message": "Depanare",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-among-us": {
@@ -372,11 +296,11 @@
     "description": "The label for category 'Among Us' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-first-steps-among-us": {
-    "message": "Erste Schritte",
+    "message": "Primi pași",
     "description": "The label for category 'First Steps' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-troubleshooting-among-us": {
-    "message": "Fehlerbehebung",
+    "message": "Depanare",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-animalia-survival": {
@@ -384,11 +308,11 @@
     "description": "The label for category 'Animalia Survival' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-first-steps-animalia-survival": {
-    "message": "Erste Schritte",
+    "message": "Primi pași",
     "description": "The label for category 'First Steps' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-troubleshooting-animalia-survival": {
-    "message": "Fehlerbehebung",
+    "message": "Depanare",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-argo": {
@@ -396,11 +320,11 @@
     "description": "The label for category 'Argo' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-first-steps-argo": {
-    "message": "Erste Schritte",
+    "message": "Primi pași",
     "description": "The label for category 'First Steps' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-troubleshooting-argo": {
-    "message": "Fehlerbehebung",
+    "message": "Depanare",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-ark-survival-evolved": {
@@ -408,15 +332,15 @@
     "description": "The label for category 'Ark: Survival Evolved' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-first-steps-ark-survival-evolved": {
-    "message": "Erste Schritte",
+    "message": "Primi pași",
     "description": "The label for category 'First Steps' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-configuration-ark-survival-evolved": {
-    "message": "Konfiguration",
+    "message": "Configurare",
     "description": "The label for category 'Configuration' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-troubleshooting-ark-survival-evolved": {
-    "message": "Fehlerbehebung",
+    "message": "Depanare",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-arma-3": {
@@ -424,15 +348,15 @@
     "description": "The label for category 'Arma 3' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-first-steps-arma-3": {
-    "message": "Erste Schritte",
+    "message": "Primi pași",
     "description": "The label for category 'First Steps' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-configuration-arma-3": {
-    "message": "Konfiguration",
+    "message": "Configurare",
     "description": "The label for category 'Configuration' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-troubleshooting-arma-3": {
-    "message": "Fehlerbehebung",
+    "message": "Depanare",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-arma-reforger": {
@@ -440,15 +364,15 @@
     "description": "The label for category 'Arma Reforger' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-first-steps-arma-reforger": {
-    "message": "Erste Schritte",
+    "message": "Primi pași",
     "description": "The label for category 'First Steps' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-configuration-arma-reforger": {
-    "message": "Konfiguration",
+    "message": "Configurare",
     "description": "The label for category 'Configuration' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-troubleshooting-arma-reforger": {
-    "message": "Fehlerbehebung",
+    "message": "Depanare",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-assetto-corsa": {
@@ -456,15 +380,15 @@
     "description": "The label for category 'Assetto Corsa' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-first-steps-assetto-corsa": {
-    "message": "Erste Schritte",
+    "message": "Primi pași",
     "description": "The label for category 'First Steps' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-configuration-assetto-corsa": {
-    "message": "Konfiguration",
+    "message": "Configurare",
     "description": "The label for category 'Configuration' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-troubleshooting-assetto-corsa": {
-    "message": "Fehlerbehebung",
+    "message": "Depanare",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-assetto-corsa-competizione": {
@@ -472,15 +396,15 @@
     "description": "The label for category 'Assetto Corsa Competizione' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-first-steps-assetto-corsa-competizione": {
-    "message": "Erste Schritte",
+    "message": "Primi pași",
     "description": "The label for category 'First Steps' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-configuration-assetto-corsa-competizione": {
-    "message": "Konfiguration",
+    "message": "Configurare",
     "description": "The label for category 'Configuration' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-troubleshooting-assetto-corsa-competizione": {
-    "message": "Fehlerbehebung",
+    "message": "Depanare",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-astro-colony": {
@@ -488,15 +412,15 @@
     "description": "The label for category 'Astro Colony' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-first-steps-astro-colony": {
-    "message": "Erste Schritte",
+    "message": "Primi pași",
     "description": "The label for category 'First Steps' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-configuration-astro-colony": {
-    "message": "Konfiguration",
+    "message": "Configurare",
     "description": "The label for category 'Configuration' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-troubleshooting-astro-colony": {
-    "message": "Fehlerbehebung",
+    "message": "Depanare",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-astroneer": {
@@ -504,11 +428,11 @@
     "description": "The label for category 'ASTRONEER' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-first-steps-astroneer": {
-    "message": "Erste Schritte",
+    "message": "Primi pași",
     "description": "The label for category 'First Steps' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-troubleshooting-astroneer": {
-    "message": "Fehlerbehebung",
+    "message": "Depanare",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-avorion": {
@@ -516,15 +440,15 @@
     "description": "The label for category 'Avorion' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-first-steps-avorion": {
-    "message": "Erste Schritte",
+    "message": "Primi pași",
     "description": "The label for category 'First Steps' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-configuration-avorion": {
-    "message": "Konfiguration",
+    "message": "Configurare",
     "description": "The label for category 'Configuration' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-troubleshooting-avorion": {
-    "message": "Fehlerbehebung",
+    "message": "Depanare",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-banana-shooter": {
@@ -532,15 +456,15 @@
     "description": "The label for category 'Banana Shooter' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-first-steps-banana-shooter": {
-    "message": "Erste Schritte",
+    "message": "Primi pași",
     "description": "The label for category 'First Steps' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-configuration-banana-shooter": {
-    "message": "Konfiguration",
+    "message": "Configurare",
     "description": "The label for category 'Configuration' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-troubleshooting-banana-shooter": {
-    "message": "Fehlerbehebung",
+    "message": "Depanare",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-barotrauma": {
@@ -548,15 +472,15 @@
     "description": "The label for category 'Barotrauma' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-first-steps-barotrauma": {
-    "message": "Erste Schritte",
+    "message": "Primi pași",
     "description": "The label for category 'First Steps' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-configuration-barotrauma": {
-    "message": "Konfiguration",
+    "message": "Configurare",
     "description": "The label for category 'Configuration' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-troubleshooting-barotrauma": {
-    "message": "Fehlerbehebung",
+    "message": "Depanare",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-battalion-1944": {
@@ -564,11 +488,11 @@
     "description": "The label for category 'Battalion 1944' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-first-steps-battalion-1944": {
-    "message": "Erste Schritte",
+    "message": "Primi pași",
     "description": "The label for category 'First Steps' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-troubleshooting-battalion-1944": {
-    "message": "Fehlerbehebung",
+    "message": "Depanare",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-battle-grounds-iii": {
@@ -576,15 +500,15 @@
     "description": "The label for category 'Battle Grounds III' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-first-steps-battle-grounds-iii": {
-    "message": "Erste Schritte",
+    "message": "Primi pași",
     "description": "The label for category 'First Steps' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-configuration-battle-grounds-iii": {
-    "message": "Konfiguration",
+    "message": "Configurare",
     "description": "The label for category 'Configuration' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-troubleshooting-battle-grounds-iii": {
-    "message": "Fehlerbehebung",
+    "message": "Depanare",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-beammp": {
@@ -592,15 +516,15 @@
     "description": "The label for category 'BeamMP' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-first-steps-beammp": {
-    "message": "Erste Schritte",
+    "message": "Primi pași",
     "description": "The label for category 'First Steps' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-configuration-beammp": {
-    "message": "Konfiguration",
+    "message": "Configurare",
     "description": "The label for category 'Configuration' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-troubleshooting-beammp": {
-    "message": "Fehlerbehebung",
+    "message": "Depanare",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-beasts-of-bermuda": {
@@ -608,11 +532,11 @@
     "description": "The label for category 'Beasts of Bermuda' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-first-steps-beasts-of-bermuda": {
-    "message": "Erste Schritte",
+    "message": "Primi pași",
     "description": "The label for category 'First Steps' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-troubleshooting-beasts-of-bermuda": {
-    "message": "Fehlerbehebung",
+    "message": "Depanare",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-beyond-the-wire": {
@@ -620,11 +544,11 @@
     "description": "The label for category 'Beyond the Wire' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-first-steps-beyond-the-wire": {
-    "message": "Erste Schritte",
+    "message": "Primi pași",
     "description": "The label for category 'First Steps' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-troubleshooting-beyond-the-wire": {
-    "message": "Fehlerbehebung",
+    "message": "Depanare",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-broke-protocol": {
@@ -632,11 +556,11 @@
     "description": "The label for category 'Broke Protocol' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-first-steps-broke-protocol": {
-    "message": "Erste Schritte",
+    "message": "Primi pași",
     "description": "The label for category 'First Steps' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-troubleshooting-broke-protocol": {
-    "message": "Fehlerbehebung",
+    "message": "Depanare",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-citadel-forged-with-fire": {
@@ -644,11 +568,11 @@
     "description": "The label for category 'Citadel: Forged With Fire' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-first-steps-citadel-forged-with-fire": {
-    "message": "Erste Schritte",
+    "message": "Primi pași",
     "description": "The label for category 'First Steps' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-troubleshooting-citadel-forged-with-fire": {
-    "message": "Fehlerbehebung",
+    "message": "Depanare",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-colony-survival": {
@@ -656,15 +580,15 @@
     "description": "The label for category 'Colony Survival' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-first-steps-colony-survival": {
-    "message": "Erste Schritte",
+    "message": "Primi pași",
     "description": "The label for category 'First Steps' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-configuration-colony-survival": {
-    "message": "Konfiguration",
+    "message": "Configurare",
     "description": "The label for category 'Configuration' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-troubleshooting-colony-survival": {
-    "message": "Fehlerbehebung",
+    "message": "Depanare",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-conan-exiles": {
@@ -672,15 +596,15 @@
     "description": "The label for category 'Conan Exiles' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-first-steps-conan-exiles": {
-    "message": "Erste Schritte",
+    "message": "Primi pași",
     "description": "The label for category 'First Steps' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-configuration-conan-exiles": {
-    "message": "Konfiguration",
+    "message": "Configurare",
     "description": "The label for category 'Configuration' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-troubleshooting-conan-exiles": {
-    "message": "Fehlerbehebung",
+    "message": "Depanare",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-contagion": {
@@ -688,11 +612,11 @@
     "description": "The label for category 'Contagion' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-first-steps-contagion": {
-    "message": "Erste Schritte",
+    "message": "Primi pași",
     "description": "The label for category 'First Steps' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-troubleshooting-contagion": {
-    "message": "Fehlerbehebung",
+    "message": "Depanare",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-core-keeper": {
@@ -700,11 +624,11 @@
     "description": "The label for category 'Core Keeper' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-first-steps-core-keeper": {
-    "message": "Erste Schritte",
+    "message": "Primi pași",
     "description": "The label for category 'First Steps' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-troubleshooting-core-keeper": {
-    "message": "Fehlerbehebung",
+    "message": "Depanare",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-craftopia": {
@@ -712,11 +636,11 @@
     "description": "The label for category 'Craftopia' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-first-steps-craftopia": {
-    "message": "Erste Schritte",
+    "message": "Primi pași",
     "description": "The label for category 'First Steps' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-troubleshooting-craftopia": {
-    "message": "Fehlerbehebung",
+    "message": "Depanare",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-cryofall": {
@@ -724,11 +648,11 @@
     "description": "The label for category 'Cryofall' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-first-steps-cryofall": {
-    "message": "Erste Schritte",
+    "message": "Primi pași",
     "description": "The label for category 'First Steps' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-troubleshooting-cryofall": {
-    "message": "Fehlerbehebung",
+    "message": "Depanare",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-counter-strike-1-6": {
@@ -736,15 +660,15 @@
     "description": "The label for category 'Counter-Strike 1.6' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-first-steps-counter-strike-1-6": {
-    "message": "Erste Schritte",
+    "message": "Primi pași",
     "description": "The label for category 'First Steps' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-configuration-counter-strike-1-6": {
-    "message": "Konfiguration",
+    "message": "Configurare",
     "description": "The label for category 'Configuration' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-troubleshooting-counter-strike-1-6": {
-    "message": "Fehlerbehebung",
+    "message": "Depanare",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-counter-strike-condition-zero": {
@@ -752,11 +676,11 @@
     "description": "The label for category 'Counter-Strike: Condition Zero' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-first-steps-counter-strike-condition-zero": {
-    "message": "Erste Schritte",
+    "message": "Primi pași",
     "description": "The label for category 'First Steps' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-troubleshooting-counter-strike-condition-zero": {
-    "message": "Fehlerbehebung",
+    "message": "Depanare",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-counter-strike-source": {
@@ -764,15 +688,15 @@
     "description": "The label for category 'Counter-Strike: Source' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-first-steps-counter-strike-source": {
-    "message": "Erste Schritte",
+    "message": "Primi pași",
     "description": "The label for category 'First Steps' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-configuration-counter-strike-source": {
-    "message": "Konfiguration",
+    "message": "Configurare",
     "description": "The label for category 'Configuration' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-troubleshooting-counter-strike-source": {
-    "message": "Fehlerbehebung",
+    "message": "Depanare",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-counter-strike-2": {
@@ -780,15 +704,15 @@
     "description": "The label for category 'Counter-Strike 2' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-first-steps-counter-strike-2": {
-    "message": "Erste Schritte",
+    "message": "Primi pași",
     "description": "The label for category 'First Steps' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-configuration-counter-strike-2": {
-    "message": "Konfiguration",
+    "message": "Configurare",
     "description": "The label for category 'Configuration' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-troubleshooting-counter-strike-2": {
-    "message": "Fehlerbehebung",
+    "message": "Depanare",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-day-of-defeat-source": {
@@ -796,15 +720,15 @@
     "description": "The label for category 'Day of Defeat: Source' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-first-steps-day-of-defeat-source": {
-    "message": "Erste Schritte",
+    "message": "Primi pași",
     "description": "The label for category 'First Steps' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-configuration-day-of-defeat-source": {
-    "message": "Konfiguration",
+    "message": "Configurare",
     "description": "The label for category 'Configuration' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-troubleshooting-day-of-defeat-source": {
-    "message": "Fehlerbehebung",
+    "message": "Depanare",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-dayz": {
@@ -812,15 +736,15 @@
     "description": "The label for category 'DayZ' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-first-steps-dayz": {
-    "message": "Erste Schritte",
+    "message": "Primi pași",
     "description": "The label for category 'First Steps' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-configuration-dayz": {
-    "message": "Konfiguration",
+    "message": "Configurare",
     "description": "The label for category 'Configuration' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-troubleshooting-dayz": {
-    "message": "Fehlerbehebung",
+    "message": "Depanare",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-ddracenetwork": {
@@ -828,11 +752,11 @@
     "description": "The label for category 'DDraceNetwork' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-first-steps-ddracenetwork": {
-    "message": "Erste Schritte",
+    "message": "Primi pași",
     "description": "The label for category 'First Steps' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-troubleshooting-ddracenetwork": {
-    "message": "Fehlerbehebung",
+    "message": "Depanare",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-deadlock": {
@@ -840,15 +764,15 @@
     "description": "The label for category 'Deadlock' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-first-steps-deadlock": {
-    "message": "Erste Schritte",
+    "message": "Primi pași",
     "description": "The label for category 'First Steps' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-configuration-deadlock": {
-    "message": "Konfiguration",
+    "message": "Configurare",
     "description": "The label for category 'Configuration' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-troubleshooting-deadlock": {
-    "message": "Fehlerbehebung",
+    "message": "Depanare",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-deadpoly": {
@@ -856,11 +780,11 @@
     "description": "The label for category 'DeadPoly' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-first-steps-deadpoly": {
-    "message": "Erste Schritte",
+    "message": "Primi pași",
     "description": "The label for category 'First Steps' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-troubleshooting-deadpoly": {
-    "message": "Fehlerbehebung",
+    "message": "Depanare",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-don-t-starve-together": {
@@ -868,15 +792,15 @@
     "description": "The label for category 'Don't Starve Together' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-first-steps-don-t-starve-together": {
-    "message": "Erste Schritte",
+    "message": "Primi pași",
     "description": "The label for category 'First Steps' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-configuration-don-t-starve-together": {
-    "message": "Konfiguration",
+    "message": "Configurare",
     "description": "The label for category 'Configuration' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-troubleshooting-don-t-starve-together": {
-    "message": "Fehlerbehebung",
+    "message": "Depanare",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-echoes-of-elysium": {
@@ -884,11 +808,11 @@
     "description": "The label for category 'Echoes of Elysium' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-first-steps-echoes-of-elysium": {
-    "message": "Erste Schritte",
+    "message": "Primi pași",
     "description": "The label for category 'First Steps' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-troubleshooting-echoes-of-elysium": {
-    "message": "Fehlerbehebung",
+    "message": "Depanare",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-eco": {
@@ -896,15 +820,15 @@
     "description": "The label for category 'ECO' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-first-steps-eco": {
-    "message": "Erste Schritte",
+    "message": "Primi pași",
     "description": "The label for category 'First Steps' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-configuration-eco": {
-    "message": "Konfiguration",
+    "message": "Configurare",
     "description": "The label for category 'Configuration' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-troubleshooting-eco": {
-    "message": "Fehlerbehebung",
+    "message": "Depanare",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-empyrion": {
@@ -912,15 +836,15 @@
     "description": "The label for category 'Empyrion' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-first-steps-empyrion": {
-    "message": "Erste Schritte",
+    "message": "Primi pași",
     "description": "The label for category 'First Steps' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-configuration-empyrion": {
-    "message": "Konfiguration",
+    "message": "Configurare",
     "description": "The label for category 'Configuration' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-troubleshooting-empyrion": {
-    "message": "Fehlerbehebung",
+    "message": "Depanare",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-enshrouded": {
@@ -928,15 +852,15 @@
     "description": "The label for category 'Enshrouded' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-first-steps-enshrouded": {
-    "message": "Erste Schritte",
+    "message": "Primi pași",
     "description": "The label for category 'First Steps' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-configuration-enshrouded": {
-    "message": "Konfiguration",
+    "message": "Configurare",
     "description": "The label for category 'Configuration' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-troubleshooting-enshrouded": {
-    "message": "Fehlerbehebung",
+    "message": "Depanare",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-euro-truck-simulator-2": {
@@ -944,15 +868,15 @@
     "description": "The label for category 'Euro Truck Simulator 2' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-first-steps-euro-truck-simulator-2": {
-    "message": "Erste Schritte",
+    "message": "Primi pași",
     "description": "The label for category 'First Steps' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-configuration-euro-truck-simulator-2": {
-    "message": "Konfiguration",
+    "message": "Configurare",
     "description": "The label for category 'Configuration' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-troubleshooting-euro-truck-simulator-2": {
-    "message": "Fehlerbehebung",
+    "message": "Depanare",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-factorio": {
@@ -960,15 +884,15 @@
     "description": "The label for category 'Factorio' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-first-steps-factorio": {
-    "message": "Erste Schritte",
+    "message": "Primi pași",
     "description": "The label for category 'First Steps' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-configuration-factorio": {
-    "message": "Konfiguration",
+    "message": "Configurare",
     "description": "The label for category 'Configuration' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-troubleshooting-factorio": {
-    "message": "Fehlerbehebung",
+    "message": "Depanare",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-fivem": {
@@ -976,19 +900,19 @@
     "description": "The label for category 'FiveM' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-first-steps-fivem": {
-    "message": "Erste Schritte",
+    "message": "Primi pași",
     "description": "The label for category 'First Steps' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-configuration-fivem": {
-    "message": "Konfiguration",
+    "message": "Configurare",
     "description": "The label for category 'Configuration' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-resources-fivem": {
-    "message": "Ressourcen",
+    "message": "Resurse",
     "description": "The label for category 'Resources' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-frameworks-fivem": {
-    "message": "Frameworks",
+    "message": "Framework-uri",
     "description": "The label for category 'Frameworks' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-esx-frameworks": {
@@ -1000,7 +924,7 @@
     "description": "The label for category 'QBCore' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-troubleshooting-fivem": {
-    "message": "Fehlerbehebung",
+    "message": "Depanare",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-foundry": {
@@ -1008,15 +932,15 @@
     "description": "The label for category 'Foundry' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-first-steps-foundry": {
-    "message": "Erste Schritte",
+    "message": "Primi pași",
     "description": "The label for category 'First Steps' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-configuration-foundry": {
-    "message": "Konfiguration",
+    "message": "Configurare",
     "description": "The label for category 'Configuration' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-troubleshooting-foundry": {
-    "message": "Fehlerbehebung",
+    "message": "Depanare",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-garry-s-mod": {
@@ -1024,15 +948,15 @@
     "description": "The label for category 'Garry's Mod' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-first-steps-garry-s-mod": {
-    "message": "Erste Schritte",
+    "message": "Primi pași",
     "description": "The label for category 'First Steps' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-configuration-garry-s-mod": {
-    "message": "Konfiguration",
+    "message": "Configurare",
     "description": "The label for category 'Configuration' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-troubleshooting-garry-s-mod": {
-    "message": "Fehlerbehebung",
+    "message": "Depanare",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-ground-branch": {
@@ -1040,11 +964,11 @@
     "description": "The label for category 'Ground Branch' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-first-steps-ground-branch": {
-    "message": "Erste Schritte",
+    "message": "Primi pași",
     "description": "The label for category 'First Steps' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-troubleshooting-ground-branch": {
-    "message": "Fehlerbehebung",
+    "message": "Depanare",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-half-life-1": {
@@ -1052,15 +976,15 @@
     "description": "The label for category 'Half-Life 1' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-first-steps-half-life-1": {
-    "message": "Erste Schritte",
+    "message": "Primi pași",
     "description": "The label for category 'First Steps' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-configuration-half-life-1": {
-    "message": "Konfiguration",
+    "message": "Configurare",
     "description": "The label for category 'Configuration' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-troubleshooting-half-life-1": {
-    "message": "Fehlerbehebung",
+    "message": "Depanare",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-half-life-2": {
@@ -1068,15 +992,15 @@
     "description": "The label for category 'Half-Life 2' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-first-steps-half-life-2": {
-    "message": "Erste Schritte",
+    "message": "Primi pași",
     "description": "The label for category 'First Steps' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-configuration-half-life-2": {
-    "message": "Konfiguration",
+    "message": "Configurare",
     "description": "The label for category 'Configuration' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-troubleshooting-half-life-2": {
-    "message": "Fehlerbehebung",
+    "message": "Depanare",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-holdfast-nations-at-war": {
@@ -1084,11 +1008,11 @@
     "description": "The label for category 'Holdfast: Nations At War' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-first-steps-holdfast-nations-at-war": {
-    "message": "Erste Schritte",
+    "message": "Primi pași",
     "description": "The label for category 'First Steps' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-troubleshooting-holdfast-nations-at-war": {
-    "message": "Fehlerbehebung",
+    "message": "Depanare",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-humanitz": {
@@ -1096,15 +1020,15 @@
     "description": "The label for category 'HumanitZ' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-first-steps-humanitz": {
-    "message": "Erste Schritte",
+    "message": "Primi pași",
     "description": "The label for category 'First Steps' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-configuration-humanitz": {
-    "message": "Konfiguration",
+    "message": "Configurare",
     "description": "The label for category 'Configuration' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-troubleshooting-humanitz": {
-    "message": "Fehlerbehebung",
+    "message": "Depanare",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-hurtworld": {
@@ -1112,11 +1036,11 @@
     "description": "The label for category 'Hurtworld' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-first-steps-hurtworld": {
-    "message": "Erste Schritte",
+    "message": "Primi pași",
     "description": "The label for category 'First Steps' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-troubleshooting-hurtworld": {
-    "message": "Fehlerbehebung",
+    "message": "Depanare",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-hytale": {
@@ -1124,15 +1048,15 @@
     "description": "The label for category 'Hytale' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-first-steps-hytale": {
-    "message": "Erste Schritte",
+    "message": "Primi pași",
     "description": "The label for category 'First Steps' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-configuration-hytale": {
-    "message": "Konfiguration",
+    "message": "Configurare",
     "description": "The label for category 'Configuration' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-troubleshooting-hytale": {
-    "message": "Fehlerbehebung",
+    "message": "Depanare",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-icarus": {
@@ -1140,11 +1064,11 @@
     "description": "The label for category 'Icarus' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-first-steps-icarus": {
-    "message": "Erste Schritte",
+    "message": "Primi pași",
     "description": "The label for category 'First Steps' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-troubleshooting-icarus": {
-    "message": "Fehlerbehebung",
+    "message": "Depanare",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-insurgency-sandstorm": {
@@ -1152,11 +1076,11 @@
     "description": "The label for category 'Insurgency: Sandstorm' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-first-steps-insurgency-sandstorm": {
-    "message": "Erste Schritte",
+    "message": "Primi pași",
     "description": "The label for category 'First Steps' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-troubleshooting-insurgency-sandstorm": {
-    "message": "Fehlerbehebung",
+    "message": "Depanare",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-iron-armada": {
@@ -1164,11 +1088,11 @@
     "description": "The label for category 'Iron Armada' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-first-steps-iron-armada": {
-    "message": "Erste Schritte",
+    "message": "Primi pași",
     "description": "The label for category 'First Steps' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-troubleshooting-iron-armada": {
-    "message": "Fehlerbehebung",
+    "message": "Depanare",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-journey-of-life": {
@@ -1176,11 +1100,11 @@
     "description": "The label for category 'Journey of Life' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-first-steps-journey-of-life": {
-    "message": "Erste Schritte",
+    "message": "Primi pași",
     "description": "The label for category 'First Steps' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-troubleshooting-journey-of-life": {
-    "message": "Fehlerbehebung",
+    "message": "Depanare",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-killing-floor-2": {
@@ -1188,15 +1112,15 @@
     "description": "The label for category 'Killing Floor 2' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-first-steps-killing-floor-2": {
-    "message": "Erste Schritte",
+    "message": "Primi pași",
     "description": "The label for category 'First Steps' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-configuration-killing-floor-2": {
-    "message": "Konfiguration",
+    "message": "Configurare",
     "description": "The label for category 'Configuration' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-troubleshooting-killing-floor-2": {
-    "message": "Fehlerbehebung",
+    "message": "Depanare",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-last-oasis": {
@@ -1204,15 +1128,15 @@
     "description": "The label for category 'Last Oasis' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-first-steps-last-oasis": {
-    "message": "Erste Schritte",
+    "message": "Primi pași",
     "description": "The label for category 'First Steps' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-configuration-last-oasis": {
-    "message": "Konfiguration",
+    "message": "Configurare",
     "description": "The label for category 'Configuration' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-troubleshooting-last-oasis": {
-    "message": "Fehlerbehebung",
+    "message": "Depanare",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-leap": {
@@ -1220,11 +1144,11 @@
     "description": "The label for category 'Leap' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-first-steps-leap": {
-    "message": "Erste Schritte",
+    "message": "Primi pași",
     "description": "The label for category 'First Steps' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-troubleshooting-leap": {
-    "message": "Fehlerbehebung",
+    "message": "Depanare",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-left-4-dead-2": {
@@ -1232,15 +1156,15 @@
     "description": "The label for category 'Left 4 Dead 2' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-first-steps-left-4-dead-2": {
-    "message": "Erste Schritte",
+    "message": "Primi pași",
     "description": "The label for category 'First Steps' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-configuration-left-4-dead-2": {
-    "message": "Konfiguration",
+    "message": "Configurare",
     "description": "The label for category 'Configuration' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-troubleshooting-left-4-dead-2": {
-    "message": "Fehlerbehebung",
+    "message": "Depanare",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-longvinter": {
@@ -1248,11 +1172,11 @@
     "description": "The label for category 'Longvinter' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-first-steps-longvinter": {
-    "message": "Erste Schritte",
+    "message": "Primi pași",
     "description": "The label for category 'First Steps' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-troubleshooting-longvinter": {
-    "message": "Fehlerbehebung",
+    "message": "Depanare",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-minecraft": {
@@ -1260,11 +1184,11 @@
     "description": "The label for category 'Minecraft' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-first-steps-minecraft": {
-    "message": "Erste Schritte",
+    "message": "Primi pași",
     "description": "The label for category 'First Steps' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-configuration-minecraft": {
-    "message": "Konfiguration",
+    "message": "Configurare",
     "description": "The label for category 'Configuration' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-bedrock-minecraft": {
@@ -1276,15 +1200,15 @@
     "description": "The label for category 'Bungeecord' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-forge-fabric-mods-minecraft": {
-    "message": "Forge & Fabric (Mods)",
+    "message": "Forge & Fabric (Moduri)",
     "description": "The label for category 'Forge & Fabric (Mods)' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-spigot-bukkit-plugins-minecraft": {
-    "message": "Spigot & Bukkit (Plugins)",
+    "message": "Spigot & Bukkit (Pluginuri)",
     "description": "The label for category 'Spigot & Bukkit (Plugins)' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-troubleshooting-minecraft": {
-    "message": "Fehlerbehebung",
+    "message": "Depanare",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-minetest": {
@@ -1292,15 +1216,15 @@
     "description": "The label for category 'Minetest' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-first-steps-minetest": {
-    "message": "Erste Schritte",
+    "message": "Primi pași",
     "description": "The label for category 'First Steps' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-configuration-minetest": {
-    "message": "Konfiguration",
+    "message": "Configurare",
     "description": "The label for category 'Configuration' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-troubleshooting-minetest": {
-    "message": "Fehlerbehebung",
+    "message": "Depanare",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-miscreated": {
@@ -1308,7 +1232,7 @@
     "description": "The label for category 'Miscreated' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-first-steps-miscreated": {
-    "message": "Erste Schritte",
+    "message": "Primi pași",
     "description": "The label for category 'First Steps' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-mordhau": {
@@ -1316,7 +1240,7 @@
     "description": "The label for category 'Mordhau' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-first-steps-mordhau": {
-    "message": "Erste Schritte",
+    "message": "Primi pași",
     "description": "The label for category 'First Steps' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-motor-town-behind-the-wheel": {
@@ -1324,11 +1248,11 @@
     "description": "The label for category 'Motor Town: Behind The Wheel' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-first-steps-motor-town-behind-the-wheel": {
-    "message": "Erste Schritte",
+    "message": "Primi pași",
     "description": "The label for category 'First Steps' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-troubleshooting-motor-town-behind-the-wheel": {
-    "message": "Fehlerbehebung",
+    "message": "Depanare",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-mount-blade": {
@@ -1336,11 +1260,11 @@
     "description": "The label for category 'Mount & Blade' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-first-steps-mount-blade": {
-    "message": "Erste Schritte",
+    "message": "Primi pași",
     "description": "The label for category 'First Steps' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-troubleshooting-mount-blade": {
-    "message": "Fehlerbehebung",
+    "message": "Depanare",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-multi-theft-auto": {
@@ -1348,15 +1272,15 @@
     "description": "The label for category 'Multi Theft Auto' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-first-steps-multi-theft-auto": {
-    "message": "Erste Schritte",
+    "message": "Primi pași",
     "description": "The label for category 'First Steps' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-configuration-multi-theft-auto": {
-    "message": "Konfiguration",
+    "message": "Configurare",
     "description": "The label for category 'Configuration' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-troubleshooting-multi-theft-auto": {
-    "message": "Fehlerbehebung",
+    "message": "Depanare",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-myth-of-empires": {
@@ -1364,15 +1288,15 @@
     "description": "The label for category 'Myth of Empires' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-first-steps-myth-of-empires": {
-    "message": "Erste Schritte",
+    "message": "Primi pași",
     "description": "The label for category 'First Steps' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-configuration-myth-of-empires": {
-    "message": "Konfiguration",
+    "message": "Configurare",
     "description": "The label for category 'Configuration' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-troubleshooting-myth-of-empires": {
-    "message": "Fehlerbehebung",
+    "message": "Depanare",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-necesse": {
@@ -1380,11 +1304,11 @@
     "description": "The label for category 'Necesse' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-first-steps-necesse": {
-    "message": "Erste Schritte",
+    "message": "Primi pași",
     "description": "The label for category 'First Steps' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-troubleshooting-necesse": {
-    "message": "Fehlerbehebung",
+    "message": "Depanare",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-never-split-the-party": {
@@ -1392,11 +1316,11 @@
     "description": "The label for category 'Never Split the Party' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-first-steps-never-split-the-party": {
-    "message": "Erste Schritte",
+    "message": "Primi pași",
     "description": "The label for category 'First Steps' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-troubleshooting-never-split-the-party": {
-    "message": "Fehlerbehebung",
+    "message": "Depanare",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-nienix": {
@@ -1404,15 +1328,15 @@
     "description": "The label for category 'Nienix' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-first-steps-nienix": {
-    "message": "Erste Schritte",
+    "message": "Primi pași",
     "description": "The label for category 'First Steps' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-configuration-nienix": {
-    "message": "Konfiguration",
+    "message": "Configurare",
     "description": "The label for category 'Configuration' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-troubleshooting-nienix": {
-    "message": "Fehlerbehebung",
+    "message": "Depanare",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-nightingale": {
@@ -1420,15 +1344,15 @@
     "description": "The label for category 'Nightingale' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-first-steps-nightingale": {
-    "message": "Erste Schritte",
+    "message": "Primi pași",
     "description": "The label for category 'First Steps' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-configuration-nightingale": {
-    "message": "Konfiguration",
+    "message": "Configurare",
     "description": "The label for category 'Configuration' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-troubleshooting-nightingale": {
-    "message": "Fehlerbehebung",
+    "message": "Depanare",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-no-more-room-in-hell": {
@@ -1436,15 +1360,15 @@
     "description": "The label for category 'No More Room In Hell' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-first-steps-no-more-room-in-hell": {
-    "message": "Erste Schritte",
+    "message": "Primi pași",
     "description": "The label for category 'First Steps' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-configuration-no-more-room-in-hell": {
-    "message": "Konfiguration",
+    "message": "Configurare",
     "description": "The label for category 'Configuration' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-troubleshooting-no-more-room-in-hell": {
-    "message": "Fehlerbehebung",
+    "message": "Depanare",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-no-one-survived": {
@@ -1452,11 +1376,11 @@
     "description": "The label for category 'No One Survived' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-first-steps-no-one-survived": {
-    "message": "Erste Schritte",
+    "message": "Primi pași",
     "description": "The label for category 'First Steps' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-troubleshooting-no-one-survived": {
-    "message": "Fehlerbehebung",
+    "message": "Depanare",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-one-hour-one-life": {
@@ -1464,11 +1388,11 @@
     "description": "The label for category 'One Hour One Life' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-first-steps-one-hour-one-life": {
-    "message": "Erste Schritte",
+    "message": "Primi pași",
     "description": "The label for category 'First Steps' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-troubleshooting-one-hour-one-life": {
-    "message": "Fehlerbehebung",
+    "message": "Depanare",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-open-mp": {
@@ -1476,15 +1400,15 @@
     "description": "The label for category 'Open.mp' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-first-steps-open-mp": {
-    "message": "Erste Schritte",
+    "message": "Primi pași",
     "description": "The label for category 'First Steps' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-configuration-open-mp": {
-    "message": "Konfiguration",
+    "message": "Configurare",
     "description": "The label for category 'Configuration' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-troubleshooting-open-mp": {
-    "message": "Fehlerbehebung",
+    "message": "Depanare",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-openttd": {
@@ -1492,11 +1416,11 @@
     "description": "The label for category 'OpenTTD' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-first-steps-openttd": {
-    "message": "Erste Schritte",
+    "message": "Primi pași",
     "description": "The label for category 'First Steps' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-troubleshooting-openttd": {
-    "message": "Fehlerbehebung",
+    "message": "Depanare",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-operation-harsh-doorstop": {
@@ -1504,15 +1428,15 @@
     "description": "The label for category 'Operation: Harsh Doorstop' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-first-steps-operation-harsh-doorstop": {
-    "message": "Erste Schritte",
+    "message": "Primi pași",
     "description": "The label for category 'First Steps' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-configuration-operation-harsh-doorstop": {
-    "message": "Konfiguration",
+    "message": "Configurare",
     "description": "The label for category 'Configuration' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-troubleshooting-operation-harsh-doorstop": {
-    "message": "Fehlerbehebung",
+    "message": "Depanare",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-outlaws-of-the-old-west": {
@@ -1520,11 +1444,11 @@
     "description": "The label for category 'Outlaws of the Old West' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-first-steps-outlaws-of-the-old-west": {
-    "message": "Erste Schritte",
+    "message": "Primi pași",
     "description": "The label for category 'First Steps' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-troubleshooting-outlaws-of-the-old-west": {
-    "message": "Fehlerbehebung",
+    "message": "Depanare",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-palworld": {
@@ -1532,15 +1456,15 @@
     "description": "The label for category 'Palworld' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-first-steps-palworld": {
-    "message": "Erste Schritte",
+    "message": "Primi pași",
     "description": "The label for category 'First Steps' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-configuration-palworld": {
-    "message": "Konfiguration",
+    "message": "Configurare",
     "description": "The label for category 'Configuration' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-troubleshooting-palworld": {
-    "message": "Fehlerbehebung",
+    "message": "Depanare",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-path-of-titans": {
@@ -1548,15 +1472,15 @@
     "description": "The label for category 'Path of Titans' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-first-steps-path-of-titans": {
-    "message": "Erste Schritte",
+    "message": "Primi pași",
     "description": "The label for category 'First Steps' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-configuration-path-of-titans": {
-    "message": "Konfiguration",
+    "message": "Configurare",
     "description": "The label for category 'Configuration' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-troubleshooting-path-of-titans": {
-    "message": "Fehlerbehebung",
+    "message": "Depanare",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-pixark": {
@@ -1564,11 +1488,11 @@
     "description": "The label for category 'PixARK' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-first-steps-pixark": {
-    "message": "Erste Schritte",
+    "message": "Primi pași",
     "description": "The label for category 'First Steps' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-troubleshooting-pixark": {
-    "message": "Fehlerbehebung",
+    "message": "Depanare",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-portal-knights": {
@@ -1576,11 +1500,11 @@
     "description": "The label for category 'Portal Knights' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-first-steps-portal-knights": {
-    "message": "Erste Schritte",
+    "message": "Primi pași",
     "description": "The label for category 'First Steps' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-troubleshooting-portal-knights": {
-    "message": "Fehlerbehebung",
+    "message": "Depanare",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-project-zomboid": {
@@ -1588,15 +1512,15 @@
     "description": "The label for category 'Project Zomboid' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-first-steps-project-zomboid": {
-    "message": "Erste Schritte",
+    "message": "Primi pași",
     "description": "The label for category 'First Steps' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-configuration-project-zomboid": {
-    "message": "Konfiguration",
+    "message": "Configurare",
     "description": "The label for category 'Configuration' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-troubleshooting-project-zomboid": {
-    "message": "Fehlerbehebung",
+    "message": "Depanare",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-redm": {
@@ -1604,19 +1528,19 @@
     "description": "The label for category 'RedM' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-first-steps-redm": {
-    "message": "Erste Schritte",
+    "message": "Primi pași",
     "description": "The label for category 'First Steps' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-configuration-redm": {
-    "message": "Konfiguration",
+    "message": "Configurare",
     "description": "The label for category 'Configuration' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-resources-redm": {
-    "message": "Ressourcen",
+    "message": "Resurse",
     "description": "The label for category 'Resources' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-troubleshooting-redm": {
-    "message": "Fehlerbehebung",
+    "message": "Depanare",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-reign-of-kings": {
@@ -1624,11 +1548,11 @@
     "description": "The label for category 'Reign of Kings' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-first-steps-reign-of-kings": {
-    "message": "Erste Schritte",
+    "message": "Primi pași",
     "description": "The label for category 'First Steps' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-troubleshooting-reign-of-kings": {
-    "message": "Fehlerbehebung",
+    "message": "Depanare",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.renown-reign-of-kings": {
@@ -1636,15 +1560,15 @@
     "description": "The label for category 'Renown' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-first-steps-renown": {
-    "message": "Erste Schritte",
+    "message": "Primi pași",
     "description": "The label for category 'First Steps' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-configuration-renown": {
-    "message": "Konfiguration",
+    "message": "Configurare",
     "description": "The label for category 'Configuration' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-troubleshooting-renown": {
-    "message": "Fehlerbehebung",
+    "message": "Depanare",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-rimworld-together": {
@@ -1652,15 +1576,15 @@
     "description": "The label for category 'RimWorld Together' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-first-steps-rimworld-together": {
-    "message": "Erste Schritte",
+    "message": "Primi pași",
     "description": "The label for category 'First Steps' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-configuration-rimworld-together": {
-    "message": "Konfiguration",
+    "message": "Configurare",
     "description": "The label for category 'Configuration' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-troubleshooting-rimworld-together": {
-    "message": "Fehlerbehebung",
+    "message": "Depanare",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-rising-storm-2": {
@@ -1668,11 +1592,11 @@
     "description": "The label for category 'Rising Storm 2' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-first-steps-rising-storm-2": {
-    "message": "Erste Schritte",
+    "message": "Primi pași",
     "description": "The label for category 'First Steps' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-troubleshooting-rising-storm-2": {
-    "message": "Fehlerbehebung",
+    "message": "Depanare",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-risk-of-rain-2": {
@@ -1680,11 +1604,11 @@
     "description": "The label for category 'Risk of Rain 2' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-first-steps-risk-of-rain-2": {
-    "message": "Erste Schritte",
+    "message": "Primi pași",
     "description": "The label for category 'First Steps' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-troubleshooting-risk-of-rain-2": {
-    "message": "Fehlerbehebung",
+    "message": "Depanare",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-rising-world": {
@@ -1692,15 +1616,15 @@
     "description": "The label for category 'Rising World' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-first-steps-rising-world": {
-    "message": "Erste Schritte",
+    "message": "Primi pași",
     "description": "The label for category 'First Steps' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-configuration-rising-world": {
-    "message": "Konfiguration",
+    "message": "Configurare",
     "description": "The label for category 'Configuration' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-troubleshooting-rising-world": {
-    "message": "Fehlerbehebung",
+    "message": "Depanare",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-rust": {
@@ -1708,15 +1632,15 @@
     "description": "The label for category 'Rust' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-first-steps-rust": {
-    "message": "Erste Schritte",
+    "message": "Primi pași",
     "description": "The label for category 'First Steps' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-configuration-rust": {
-    "message": "Konfiguration",
+    "message": "Configurare",
     "description": "The label for category 'Configuration' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-troubleshooting-rust": {
-    "message": "Fehlerbehebung",
+    "message": "Depanare",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-sanctuary-island": {
@@ -1724,11 +1648,11 @@
     "description": "The label for category 'Sanctuary Island' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-first-steps-sanctuary-island": {
-    "message": "Erste Schritte",
+    "message": "Primi pași",
     "description": "The label for category 'First Steps' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-troubleshooting-sanctuary-island": {
-    "message": "Fehlerbehebung",
+    "message": "Depanare",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-satisfactory": {
@@ -1736,15 +1660,15 @@
     "description": "The label for category 'Satisfactory' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-first-steps-satisfactory": {
-    "message": "Erste Schritte",
+    "message": "Primi pași",
     "description": "The label for category 'First Steps' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-configuration-satisfactory": {
-    "message": "Konfiguration",
+    "message": "Configurare",
     "description": "The label for category 'Configuration' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-troubleshooting-satisfactory": {
-    "message": "Fehlerbehebung",
+    "message": "Depanare",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-scp-5k": {
@@ -1752,11 +1676,11 @@
     "description": "The label for category 'SCP: 5K' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-first-steps-scp-5k": {
-    "message": "Erste Schritte",
+    "message": "Primi pași",
     "description": "The label for category 'First Steps' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-troubleshooting-scp-5k": {
-    "message": "Fehlerbehebung",
+    "message": "Depanare",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-scp-containment-breach": {
@@ -1764,15 +1688,15 @@
     "description": "The label for category 'SCP: Containment Breach' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-first-steps-scp-containment-breach": {
-    "message": "Erste Schritte",
+    "message": "Primi pași",
     "description": "The label for category 'First Steps' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-configuration-scp-containment-breach": {
-    "message": "Konfiguration",
+    "message": "Configurare",
     "description": "The label for category 'Configuration' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-troubleshooting-scp-containment-breach": {
-    "message": "Fehlerbehebung",
+    "message": "Depanare",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-scp-escape-together": {
@@ -1780,15 +1704,15 @@
     "description": "The label for category 'SCP: Escape Together' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-first-steps-scp-escape-together": {
-    "message": "Erste Schritte",
+    "message": "Primi pași",
     "description": "The label for category 'First Steps' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-configuration-scp-escape-together": {
-    "message": "Konfiguration",
+    "message": "Configurare",
     "description": "The label for category 'Configuration' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-troubleshooting-scp-escape-together": {
-    "message": "Fehlerbehebung",
+    "message": "Depanare",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-scp-secret-laboratory": {
@@ -1796,11 +1720,11 @@
     "description": "The label for category 'SCP: Secret Laboratory' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-first-steps-scp-secret-laboratory": {
-    "message": "Erste Schritte",
+    "message": "Primi pași",
     "description": "The label for category 'First Steps' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-configuration-scp-secret-laboratory": {
-    "message": "Konfiguration",
+    "message": "Configurare",
     "description": "The label for category 'Configuration' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-exiled-scp-secret-laboratory": {
@@ -1808,7 +1732,7 @@
     "description": "The label for category 'Exiled' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-troubleshooting-scp-secret-laboratory": {
-    "message": "Fehlerbehebung",
+    "message": "Depanare",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-scum": {
@@ -1816,15 +1740,15 @@
     "description": "The label for category 'SCUM' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-first-steps-scum": {
-    "message": "Erste Schritte",
+    "message": "Primi pași",
     "description": "The label for category 'First Steps' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-configuration-scum": {
-    "message": "Konfiguration",
+    "message": "Configurare",
     "description": "The label for category 'Configuration' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-troubleshooting-scum": {
-    "message": "Fehlerbehebung",
+    "message": "Depanare",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-skyrim-together-reborn": {
@@ -1832,15 +1756,15 @@
     "description": "The label for category 'Skyrim Together Reborn' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-first-steps-skyrim-together-reborn": {
-    "message": "Erste Schritte",
+    "message": "Primi pași",
     "description": "The label for category 'First Steps' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-configuration-skyrim-together-reborn": {
-    "message": "Konfiguration",
+    "message": "Configurare",
     "description": "The label for category 'Configuration' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-troubleshooting-skyrim-together-reborn": {
-    "message": "Fehlerbehebung",
+    "message": "Depanare",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-soldat": {
@@ -1848,11 +1772,11 @@
     "description": "The label for category 'Soldat' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-first-steps-soldat": {
-    "message": "Erste Schritte",
+    "message": "Primi pași",
     "description": "The label for category 'First Steps' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-troubleshooting-soldat": {
-    "message": "Fehlerbehebung",
+    "message": "Depanare",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-sons-of-the-forest": {
@@ -1860,15 +1784,15 @@
     "description": "The label for category 'Sons of the Forest' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-first-steps-sons-of-the-forest": {
-    "message": "Erste Schritte",
+    "message": "Primi pași",
     "description": "The label for category 'First Steps' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-configuration-sons-of-the-forest": {
-    "message": "Konfiguration",
+    "message": "Configurare",
     "description": "The label for category 'Configuration' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-troubleshooting-sons-of-the-forest": {
-    "message": "Fehlerbehebung",
+    "message": "Depanare",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-soulmask": {
@@ -1876,15 +1800,15 @@
     "description": "The label for category 'Soulmask' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-first-steps-soulmask": {
-    "message": "Erste Schritte",
+    "message": "Primi pași",
     "description": "The label for category 'First Steps' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-configuration-soulmask": {
-    "message": "Konfiguration",
+    "message": "Configurare",
     "description": "The label for category 'Configuration' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-troubleshooting-soulmask": {
-    "message": "Fehlerbehebung",
+    "message": "Depanare",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-space-engineers": {
@@ -1892,15 +1816,15 @@
     "description": "The label for category 'Space Engineers' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-first-steps-space-engineers": {
-    "message": "Erste Schritte",
+    "message": "Primi pași",
     "description": "The label for category 'First Steps' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-configuration-space-engineers": {
-    "message": "Konfiguration",
+    "message": "Configurare",
     "description": "The label for category 'Configuration' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-troubleshooting-space-engineers": {
-    "message": "Fehlerbehebung",
+    "message": "Depanare",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-squad": {
@@ -1908,11 +1832,11 @@
     "description": "The label for category 'Squad' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-first-steps-squad": {
-    "message": "Erste Schritte",
+    "message": "Primi pași",
     "description": "The label for category 'First Steps' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-troubleshooting-squad": {
-    "message": "Fehlerbehebung",
+    "message": "Depanare",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-starbound": {
@@ -1920,11 +1844,11 @@
     "description": "The label for category 'Starbound' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-first-steps-starbound": {
-    "message": "Erste Schritte",
+    "message": "Primi pași",
     "description": "The label for category 'First Steps' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-troubleshooting-starbound": {
-    "message": "Fehlerbehebung",
+    "message": "Depanare",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-starmade": {
@@ -1932,15 +1856,15 @@
     "description": "The label for category 'Starmade' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-first-steps-starmade": {
-    "message": "Erste Schritte",
+    "message": "Primi pași",
     "description": "The label for category 'First Steps' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-configuration-starmade": {
-    "message": "Konfiguration",
+    "message": "Configurare",
     "description": "The label for category 'Configuration' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-troubleshooting-starmade": {
-    "message": "Fehlerbehebung",
+    "message": "Depanare",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-starrupture": {
@@ -1948,15 +1872,15 @@
     "description": "The label for category 'StarRupture' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-first-steps-starrupture": {
-    "message": "Erste Schritte",
+    "message": "Primi pași",
     "description": "The label for category 'First Steps' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-configuration-starrupture": {
-    "message": "Konfiguration",
+    "message": "Configurare",
     "description": "The label for category 'Configuration' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-troubleshooting-rupture": {
-    "message": "Fehlerbehebung",
+    "message": "Depanare",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-staxel": {
@@ -1964,11 +1888,11 @@
     "description": "The label for category 'Staxel' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-first-steps-staxel": {
-    "message": "Erste Schritte",
+    "message": "Primi pași",
     "description": "The label for category 'First Steps' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-troubleshooting-staxel": {
-    "message": "Fehlerbehebung",
+    "message": "Depanare",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-stormworks": {
@@ -1976,15 +1900,15 @@
     "description": "The label for category 'Stormworks' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-first-steps-stormworks": {
-    "message": "Erste Schritte",
+    "message": "Primi pași",
     "description": "The label for category 'First Steps' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-configuration-stormworks": {
-    "message": "Konfiguration",
+    "message": "Configurare",
     "description": "The label for category 'Configuration' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-troubleshooting-stormworks": {
-    "message": "Fehlerbehebung",
+    "message": "Depanare",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-subsistence": {
@@ -1992,11 +1916,11 @@
     "description": "The label for category 'Subsistence' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-first-steps-subsistence": {
-    "message": "Erste Schritte",
+    "message": "Primi pași",
     "description": "The label for category 'First Steps' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-troubleshooting-subsistence": {
-    "message": "Fehlerbehebung",
+    "message": "Depanare",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-sunkenland": {
@@ -2004,15 +1928,15 @@
     "description": "The label for category 'Sunkenland' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-first-steps-sunkenland": {
-    "message": "Erste Schritte",
+    "message": "Primi pași",
     "description": "The label for category 'First Steps' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-configuration-sunkenland": {
-    "message": "Konfiguration",
+    "message": "Configurare",
     "description": "The label for category 'Configuration' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-troubleshooting-sunkenland": {
-    "message": "Fehlerbehebung",
+    "message": "Depanare",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-team-fortress-2": {
@@ -2020,15 +1944,15 @@
     "description": "The label for category 'Team Fortress 2' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-first-steps-team-fortress-2": {
-    "message": "Erste Schritte",
+    "message": "Primi pași",
     "description": "The label for category 'First Steps' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-configuration-team-fortress-2": {
-    "message": "Konfiguration",
+    "message": "Configurare",
     "description": "The label for category 'Configuration' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-troubleshooting-team-fortress-2": {
-    "message": "Fehlerbehebung",
+    "message": "Depanare",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-teeworlds": {
@@ -2036,11 +1960,11 @@
     "description": "The label for category 'Teeworlds' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-first-steps-teeworlds": {
-    "message": "Erste Schritte",
+    "message": "Primi pași",
     "description": "The label for category 'First Steps' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-troubleshooting-teeworlds": {
-    "message": "Fehlerbehebung",
+    "message": "Depanare",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-terraria": {
@@ -2048,15 +1972,15 @@
     "description": "The label for category 'Terraria' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-first-steps-terraria": {
-    "message": "Erste Schritte",
+    "message": "Primi pași",
     "description": "The label for category 'First Steps' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-configuration-terraria": {
-    "message": "Konfiguration",
+    "message": "Configurare",
     "description": "The label for category 'Configuration' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-troubleshooting-terraria": {
-    "message": "Fehlerbehebung",
+    "message": "Depanare",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-terratech-worlds": {
@@ -2064,11 +1988,11 @@
     "description": "The label for category 'Terratech Worlds' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-first-steps-terratech-worlds": {
-    "message": "Erste Schritte",
+    "message": "Primi pași",
     "description": "The label for category 'First Steps' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-troubleshooting-terratech-worlds": {
-    "message": "Fehlerbehebung",
+    "message": "Depanare",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-the-bus": {
@@ -2076,15 +2000,15 @@
     "description": "The label for category 'The Bus' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-first-steps-the-bus": {
-    "message": "Erste Schritte",
+    "message": "Primi pași",
     "description": "The label for category 'First Steps' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-configuration-the-bus": {
-    "message": "Konfiguration",
+    "message": "Configurare",
     "description": "The label for category 'Configuration' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-troubleshooting-the-bus": {
-    "message": "Fehlerbehebung",
+    "message": "Depanare",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-the-front": {
@@ -2092,11 +2016,11 @@
     "description": "The label for category 'The Front' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-first-steps-the-front": {
-    "message": "Erste Schritte",
+    "message": "Primi pași",
     "description": "The label for category 'First Steps' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-troubleshooting-the-front": {
-    "message": "Fehlerbehebung",
+    "message": "Depanare",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-the-isle": {
@@ -2104,11 +2028,11 @@
     "description": "The label for category 'The Isle' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-first-steps-the-isle": {
-    "message": "Erste Schritte",
+    "message": "Primi pași",
     "description": "The label for category 'First Steps' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-troubleshooting-the-isle": {
-    "message": "Fehlerbehebung",
+    "message": "Depanare",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-the-lord-of-the-rings-rtm": {
@@ -2116,11 +2040,11 @@
     "description": "The label for category 'The Lord of the Rings: RTM' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-first-steps-the-lord-of-the-rings-rtm": {
-    "message": "Erste Schritte",
+    "message": "Primi pași",
     "description": "The label for category 'First Steps' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-troubleshooting-the-lord-of-the-rings-rtm": {
-    "message": "Fehlerbehebung",
+    "message": "Depanare",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-unfortunate-spacemen": {
@@ -2128,11 +2052,11 @@
     "description": "The label for category 'Unfortunate Spacemen' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-first-steps-unfortunate-spacemen": {
-    "message": "Erste Schritte",
+    "message": "Primi pași",
     "description": "The label for category 'First Steps' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-troubleshooting-unfortunate-spacemen": {
-    "message": "Fehlerbehebung",
+    "message": "Depanare",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-unturned": {
@@ -2140,11 +2064,11 @@
     "description": "The label for category 'Unturned' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-first-steps-unturned": {
-    "message": "Erste Schritte",
+    "message": "Primi pași",
     "description": "The label for category 'First Steps' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-configuration-unturned": {
-    "message": "Konfiguration",
+    "message": "Configurare",
     "description": "The label for category 'Configuration' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-rocketmod-unturned": {
@@ -2152,7 +2076,7 @@
     "description": "The label for category 'RocketMod' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-troubleshooting-unturned": {
-    "message": "Fehlerbehebung",
+    "message": "Depanare",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-valheim": {
@@ -2160,15 +2084,15 @@
     "description": "The label for category 'Valheim' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-first-steps-valheim": {
-    "message": "Erste Schritte",
+    "message": "Primi pași",
     "description": "The label for category 'First Steps' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-configuration-valheim": {
-    "message": "Konfiguration",
+    "message": "Configurare",
     "description": "The label for category 'Configuration' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-troubleshooting-valheim": {
-    "message": "Fehlerbehebung",
+    "message": "Depanare",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-vein": {
@@ -2176,11 +2100,11 @@
     "description": "The label for category 'Vein' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-first-steps-vein": {
-    "message": "Erste Schritte",
+    "message": "Primi pași",
     "description": "The label for category 'First Steps' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-troubleshooting-vein": {
-    "message": "Fehlerbehebung",
+    "message": "Depanare",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-veloren": {
@@ -2188,15 +2112,15 @@
     "description": "The label for category 'Veloren' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-first-steps-veloren": {
-    "message": "Erste Schritte",
+    "message": "Primi pași",
     "description": "The label for category 'First Steps' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-configuration-veloren": {
-    "message": "Konfiguration",
+    "message": "Configurare",
     "description": "The label for category 'Configuration' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-troubleshooting-veloren": {
-    "message": "Fehlerbehebung",
+    "message": "Depanare",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-vintage-story": {
@@ -2204,15 +2128,15 @@
     "description": "The label for category 'Vintage Story' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-first-steps-vintage-story": {
-    "message": "Erste Schritte",
+    "message": "Primi pași",
     "description": "The label for category 'First Steps' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-configuration-vintage-story": {
-    "message": "Konfiguration",
+    "message": "Configurare",
     "description": "The label for category 'Configuration' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-troubleshooting-vintage-story": {
-    "message": "Fehlerbehebung",
+    "message": "Depanare",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-voyagers-of-nera": {
@@ -2220,15 +2144,15 @@
     "description": "The label for category 'Voyagers of Nera' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-first-steps-voyagers-of-nera": {
-    "message": "Erste Schritte",
+    "message": "Primi pași",
     "description": "The label for category 'First Steps' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-configuration-voyagers-of-nera": {
-    "message": "Konfiguration",
+    "message": "Configurare",
     "description": "The label for category 'Configuration' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-troubleshooting-voyagers-of-nera": {
-    "message": "Fehlerbehebung",
+    "message": "Depanare",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-v-rising": {
@@ -2236,15 +2160,15 @@
     "description": "The label for category 'V Rising' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-first-steps-v-rising": {
-    "message": "Erste Schritte",
+    "message": "Primi pași",
     "description": "The label for category 'First Steps' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-configuration-v-rising": {
-    "message": "Konfiguration",
+    "message": "Configurare",
     "description": "The label for category 'Configuration' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-troubleshooting-v-rising": {
-    "message": "Fehlerbehebung",
+    "message": "Depanare",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-wreckfest": {
@@ -2252,11 +2176,11 @@
     "description": "The label for category 'Wreckfest' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-first-steps-wreckfest": {
-    "message": "Erste Schritte",
+    "message": "Primi pași",
     "description": "The label for category 'First Steps' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-troubleshooting-wreckfest": {
-    "message": "Fehlerbehebung",
+    "message": "Depanare",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-wreckfest-2": {
@@ -2264,15 +2188,15 @@
     "description": "The label for category 'Wreckfest 2' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-first-steps-wreckfest-2": {
-    "message": "Erste Schritte",
+    "message": "Primi pași",
     "description": "The label for category 'First Steps' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-configuration-wreckfest-2": {
-    "message": "Konfiguration",
+    "message": "Configurare",
     "description": "The label for category 'Configuration' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-troubleshooting-wreckfest-2": {
-    "message": "Fehlerbehebung",
+    "message": "Depanare",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-wurm-unlimited": {
@@ -2280,31 +2204,143 @@
     "description": "The label for category 'Wurm Unlimited' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-first-steps-wurm-unlimited": {
-    "message": "Erste Schritte",
+    "message": "Primi pași",
     "description": "The label for category 'First Steps' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-configuration-wurm-unlimited": {
-    "message": "Konfiguration",
+    "message": "Configurare",
     "description": "The label for category 'Configuration' in sidebar 'gameserverAllGamesSidebar'"
   },
   "sidebar.gameserverAllGamesSidebar.category.gameserver-troubleshooting-wurm-unlimited": {
-    "message": "Fehlerbehebung",
+    "message": "Depanare",
     "description": "The label for category 'Troubleshooting' in sidebar 'gameserverAllGamesSidebar'"
   },
+  "sidebar.vpsrootSidebar.category.vserver-troubleshooting": {
+    "message": "Depanare",
+    "description": "The label for category 'Troubleshooting' in sidebar 'vpsrootSidebar'"
+  },
+  "sidebar.vpsrootSidebar.category.vserver-general": {
+    "message": "General",
+    "description": "The label for category 'General' in sidebar 'vpsrootSidebar'"
+  },
+  "sidebar.vpsrootSidebar.category.vserver-linux-troubleshooting": {
+    "message": "Depanare",
+    "description": "The label for category 'Troubleshooting' in sidebar 'vpsrootSidebar'"
+  },
+  "sidebar.vpsrootSidebar.category.vserver-windows-general": {
+    "message": "General",
+    "description": "The label for category 'General' in sidebar 'vpsrootSidebar'"
+  },
+  "sidebar.vpsrootSidebar.category.vserver-windows-troubleshooting": {
+    "message": "Depanare",
+    "description": "The label for category 'Troubleshooting' in sidebar 'vpsrootSidebar'"
+  },
+  "sidebar.vpsrootSidebar.link.vserver-linux-services": {
+    "message": "Services",
+    "description": "The label for link 'Services' in sidebar 'vpsrootSidebar', linking to '/docs/software-overview-services'"
+  },
+  "sidebar.vpsrootSidebar.link.dedicated-linux-game-servers": {
+    "message": "Dedicated Game Servers",
+    "description": "The label for link 'Dedicated Game Servers' in sidebar 'vpsrootSidebar', linking to '/docs/software-overview-dedicated-game-server'"
+  },
+  "sidebar.vpsrootSidebar.link.vserver-windows-services": {
+    "message": "Services",
+    "description": "The label for link 'Services' in sidebar 'vpsrootSidebar', linking to '/docs/software-overview-services'"
+  },
+  "sidebar.vpsrootSidebar.link.dedicated-windows-game-servers": {
+    "message": "Dedicated Game Servers",
+    "description": "The label for link 'Dedicated Game Servers' in sidebar 'vpsrootSidebar', linking to '/docs/software-overview-dedicated-game-server'"
+  },
   "sidebar.sidebarSoftwareDedicatedGameServers.category.software-overview-dedicated-linux-game-server-general": {
-    "message": "Allgemein",
+    "message": "General",
     "description": "The label for category 'General' in sidebar 'sidebarSoftwareDedicatedGameServers'"
   },
   "sidebar.sidebarSoftwareDedicatedGameServers.category.software-overview-dedicated-linux-game-server-games": {
-    "message": "Spiele",
+    "message": "Jocuri",
     "description": "The label for category 'Games' in sidebar 'sidebarSoftwareDedicatedGameServers'"
   },
   "sidebar.sidebarSoftwareDedicatedGameServers.category.software-overview-dedicated-windows-game-server-general": {
-    "message": "Allgemein",
+    "message": "General",
     "description": "The label for category 'General' in sidebar 'sidebarSoftwareDedicatedGameServers'"
   },
   "sidebar.sidebarSoftwareDedicatedGameServers.category.software-overview-dedicated-windows-game-server-games": {
-    "message": "Spiele",
+    "message": "Jocuri",
     "description": "The label for category 'Games' in sidebar 'sidebarSoftwareDedicatedGameServers'"
+  },
+  "sidebar.dedicatedserverSidebar.category.dedicated-server-troubleshooting": {
+    "message": "Depanare",
+    "description": "The label for category 'Troubleshooting' in sidebar 'dedicatedserverSidebar'"
+  },
+  "sidebar.dedicatedserverSidebar.category.dedicated-server-install-windows": {
+    "message": "Instalare Windows",
+    "description": "The label for category 'Install Windows' in sidebar 'dedicatedserverSidebar'"
+  },
+  "sidebar.dedicatedserverSidebar.category.dedicated-server-install-ubuntu": {
+    "message": "Instalare Ubuntu",
+    "description": "The label for category 'Install Ubuntu' in sidebar 'dedicatedserverSidebar'"
+  },
+  "sidebar.dedicatedserverSidebar.category.dedicated-server-linux-general": {
+    "message": "General",
+    "description": "The label for category 'General' in sidebar 'dedicatedserverSidebar'"
+  },
+  "sidebar.dedicatedserverSidebar.category.dedicated-server-linux-security": {
+    "message": "Securitate",
+    "description": "The label for category 'Security' in sidebar 'dedicatedserverSidebar'"
+  },
+  "sidebar.dedicatedserverSidebar.category.dedicated-server-linux-troubleshooting": {
+    "message": "Depanare",
+    "description": "The label for category 'Troubleshooting' in sidebar 'dedicatedserverSidebar'"
+  },
+  "sidebar.dedicatedserverSidebar.category.dedicated-server-windows-general": {
+    "message": "General",
+    "description": "The label for category 'General' in sidebar 'dedicatedserverSidebar'"
+  },
+  "sidebar.dedicatedserverSidebar.category.dedicated-server-windows-troubleshooting": {
+    "message": "Depanare",
+    "description": "The label for category 'Troubleshooting' in sidebar 'dedicatedserverSidebar'"
+  },
+  "sidebar.dedicatedserverSidebar.link.dedicated-linux-services": {
+    "message": "Services",
+    "description": "The label for link 'Services' in sidebar 'dedicatedserverSidebar', linking to '/docs/software-overview-services'"
+  },
+  "sidebar.dedicatedserverSidebar.link.dedicated-linux-dedicated-game-servers": {
+    "message": "Dedicated Game Servers",
+    "description": "The label for link 'Dedicated Game Servers' in sidebar 'dedicatedserverSidebar', linking to '/docs/software-overview-dedicated-game-server'"
+  },
+  "sidebar.dedicatedserverSidebar.link.dedicated-windows-services": {
+    "message": "Services",
+    "description": "The label for link 'Services' in sidebar 'dedicatedserverSidebar', linking to '/docs/software-overview-services'"
+  },
+  "sidebar.dedicatedserverSidebar.link.dedicated-windows-dedicated-game-servers": {
+    "message": "Dedicated Game Servers",
+    "description": "The label for link 'Dedicated Game Servers' in sidebar 'dedicatedserverSidebar', linking to '/docs/software-overview-dedicated-game-server'"
+  },
+  "sidebar.domainSidebar.category.domain-domain-forwarding": {
+    "message": "Redirecționare domeniu",
+    "description": "The label for category 'Domain forwarding' in sidebar 'domainSidebar'"
+  },
+  "sidebar.domainSidebar.category.domain-cloudflare": {
+    "message": "Cloudflare",
+    "description": "The label for category 'Cloudflare' in sidebar 'domainSidebar'"
+  },
+  "sidebar.webspaceSidebar.category.domain-e-mails": {
+    "message": "E-mailuri",
+    "description": "The label for category 'E-Mails' in sidebar 'webspaceSidebar'"
+  },
+  "sidebar.webspaceSidebar.category.domain-mybb": {
+    "message": "MyBB",
+    "description": "The label for category 'MyBB' in sidebar 'webspaceSidebar'"
+  },
+  "sidebar.webspaceSidebar.category.domain-wordpress": {
+    "message": "WordPress",
+    "description": "The label for category 'WordPress' in sidebar 'webspaceSidebar'"
+  },
+  "sidebar.voiceserverbotSidebar.category.domain-discord-bot": {
+    "message": "Bot Discord",
+    "description": "The label for category 'Discord Bot' in sidebar 'voiceserverbotSidebar'"
+  },
+  "sidebar.voiceserverbotSidebar.category.domain-ts3musicbot": {
+    "message": "TS3MusicBot",
+    "description": "The label for category 'TS3MusicBot' in sidebar 'voiceserverbotSidebar'"
   }
 }

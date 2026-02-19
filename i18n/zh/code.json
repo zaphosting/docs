@@ -1549,16 +1549,13 @@
     "description": "The title of the tag list page"
   },
   "dropdown.vps.gettingStarted": {
-    "message": "第一步"
+    "message": "入门"
   },
   "dropdown.vps.introduction": {
     "message": "介绍"
   },
   "dropdown.vps.dashboard": {
-    "message": "仪表盘"
-  },
-  "dropdown.vps.customIsos": {
-    "message": "自定义ISO"
+    "message": "仪表板"
   },
   "dropdown.vps.software": {
     "message": "软件"
@@ -1579,13 +1576,13 @@
     "message": "游戏服务器"
   },
   "dropdown.gameserver.gettingStarted": {
-    "message": "第一步"
+    "message": "入门"
   },
   "dropdown.gameserver.introduction": {
     "message": "介绍"
   },
   "dropdown.gameserver.ftpAccess": {
-    "message": "FTP 访问"
+    "message": "FTP访问"
   },
   "dropdown.gameserver.backups": {
     "message": "备份"
@@ -1593,17 +1590,11 @@
   "dropdown.gameserver.popularGames": {
     "message": "热门游戏"
   },
-  "dropdown.gameserver.moreGames": {
-    "message": "更多游戏"
-  },
   "dropdown.gameserver.allGames": {
     "message": "所有游戏 (A-Z)"
   },
   "dropdown.gameserver.scheduledTasks": {
     "message": "计划任务"
-  },
-  "dropdown.gameserver.gameSwitch": {
-    "message": "游戏切换"
   },
   "dropdown.gameserver.databases": {
     "message": "数据库"
@@ -1612,16 +1603,13 @@
     "message": "更多..."
   },
   "dropdown.vps.vncConsole": {
-    "message": "VNC 控制台"
-  },
-  "dropdown.vps.rescueMode": {
-    "message": "救援模式"
+    "message": "VNC控制台"
   },
   "dropdown.vps.more": {
     "message": "更多..."
   },
   "dropdown.dedicated.gettingStarted": {
-    "message": "第一步"
+    "message": "入门"
   },
   "dropdown.dedicated.introduction": {
     "message": "介绍"
@@ -1629,17 +1617,8 @@
   "dropdown.dedicated.dashboard": {
     "message": "仪表板"
   },
-  "dropdown.dedicated.setup": {
-    "message": "设置"
-  },
   "dropdown.dedicated.ilo": {
     "message": "iLO"
-  },
-  "dropdown.dedicated.customIsos": {
-    "message": "自定义ISO"
-  },
-  "dropdown.dedicated.raid": {
-    "message": "RAID"
   },
   "dropdown.dedicated.more": {
     "message": "更多..."
@@ -1651,7 +1630,7 @@
     "message": "Windows"
   },
   "dropdown.dedicated.general": {
-    "message": "常规"
+    "message": "通用"
   },
   "dropdown.dedicated.services": {
     "message": "服务"
@@ -1663,28 +1642,28 @@
     "message": "软件"
   },
   "dropdown.vps.gettingStartedDesc": {
-    "message": "开始使用您的虚拟专用服务器。"
+    "message": "启动您的虚拟专用服务器。仪表板访问、服务器重置、VNC、备份和故障排除。"
   },
   "dropdown.vps.linuxDesc": {
-    "message": "Linux 服务器指南。"
+    "message": "SSH、服务、游戏服务器等。管理基于Linux的VPS指南。"
   },
   "dropdown.vps.windowsDesc": {
-    "message": "Windows 服务器指南。"
+    "message": "远程桌面、服务、游戏服务器和故障排除。Windows VPS的一切。"
   },
   "dropdown.gameserver.gettingStartedDesc": {
-    "message": "管理和配置您的游戏服务器。"
+    "message": "了解如何设置、管理和优化您的游戏服务器。从备份和FTP访问到数据库和变现。"
   },
   "dropdown.gameserver.popularGamesDesc": {
-    "message": "热门游戏的设置指南。"
+    "message": "查找最受欢迎游戏的设置指南。选择您的游戏，快速启动服务器。"
   },
   "dropdown.dedicated.gettingStartedDesc": {
-    "message": "开始使用您的专用服务器。"
+    "message": "逐步设置您的专用服务器。从初始设置和iLO/IPMI到RAID配置和自定义ISO。"
   },
   "dropdown.dedicated.linuxDesc": {
-    "message": "Linux 服务器指南。"
+    "message": "完全root访问、服务、游戏服务器和操作系统管理。Linux专用服务器指南。"
   },
   "dropdown.dedicated.windowsDesc": {
-    "message": "Windows 服务器指南。"
+    "message": "远程桌面、服务、游戏服务器和操作系统管理。Windows专用服务器指南。"
   },
   "dropdown.dedicated.initialSetup": {
     "message": "初始设置"
@@ -1702,25 +1681,19 @@
     "message": "重置服务器"
   },
   "dropdown.vps.serverReset": {
-    "message": "服务器重置"
+    "message": "重置服务器"
   },
   "dropdown.vps.systemRescue": {
-    "message": "System Rescue (备份)"
+    "message": "系统救援（备份）"
   },
   "dropdown.vps.vpsComparison": {
-    "message": "VPS/独立服务器比较"
+    "message": "VPS/专用服务器对比"
   },
   "dropdown.vps.ballooning": {
     "message": "Ballooning"
   },
   "dropdown.vps.troubleshooting": {
     "message": "故障排除"
-  },
-  "dropdown.gameserver.serverReset": {
-    "message": "服务器重置"
-  },
-  "dropdown.gameserver.resourceLimit": {
-    "message": "资源限制"
   },
   "dropdown.gameserver.switchGame": {
     "message": "切换游戏"
@@ -1731,23 +1704,17 @@
   "dropdown.gameserver.serverCrash": {
     "message": "服务器崩溃 - 怎么办？"
   },
-  "dropdown.gameserver.subdomain": {
-    "message": "游戏服务器子域名"
-  },
   "dropdown.gameserver.tebex": {
-    "message": "Tebex 变现"
+    "message": "Tebex变现"
   },
   "dropdown.rent.gameHosting": {
     "message": "游戏托管"
   },
   "dropdown.rent.gameHostingDesc": {
-    "message": "为你喜欢的游戏租用服务器。"
-  },
-  "dropdown.rent.gameserver": {
-    "message": "游戏服务器"
+    "message": "为您最喜欢的游戏租用游戏服务器。即时设置、DDoS防护和更多功能！"
   },
   "dropdown.rent.teamspeak": {
-    "message": "TeamSpeak 服务器"
+    "message": "TeamSpeak 3 服务器"
   },
   "dropdown.rent.musicbot": {
     "message": "Discord 音乐机器人"
@@ -1756,19 +1723,13 @@
     "message": "服务器托管"
   },
   "dropdown.rent.serverHostingDesc": {
-    "message": "虚拟和独立服务器解决方案。"
+    "message": "具有完全root访问权限的虚拟和专用服务器。适用于任何项目的可扩展资源。"
   },
   "dropdown.rent.vps": {
     "message": "VPS（虚拟服务器）"
   },
   "dropdown.rent.dedicated": {
-    "message": "独立服务器"
-  },
-  "dropdown.rent.webServices": {
-    "message": "Web 服务"
-  },
-  "dropdown.rent.webServicesDesc": {
-    "message": "域名、网站空间等。"
+    "message": "专用服务器"
   },
   "dropdown.rent.domain": {
     "message": "域名"
@@ -1808,25 +1769,13 @@
     "message": "Linux - 服务"
   },
   "dropdown.software.linuxServicesDesc": {
-    "message": "Linux 自托管应用。"
-  },
-  "dropdown.software.linuxDevelopment": {
-    "message": "Linux - 开发"
-  },
-  "dropdown.software.linuxDevelopmentDesc": {
-    "message": "开发工具和运行时。"
+    "message": "在Linux上安装和配置自托管服务。OpenClaw、Bitwarden等。"
   },
   "dropdown.software.windowsServices": {
     "message": "Windows - 服务"
   },
   "dropdown.software.windowsServicesDesc": {
-    "message": "Windows 自托管应用。"
-  },
-  "dropdown.software.windowsDevelopment": {
-    "message": "Windows - 开发"
-  },
-  "dropdown.software.windowsDevelopmentDesc": {
-    "message": "开发工具和运行时。"
+    "message": "在Windows上安装和配置自托管服务。Docker、Plex等。"
   },
   "dropdown.software.bitwarden": {
     "message": "Bitwarden"
@@ -1846,29 +1795,8 @@
   "dropdown.software.wordpress": {
     "message": "WordPress"
   },
-  "dropdown.software.mastodon": {
-    "message": "Mastodon"
-  },
   "dropdown.software.docker": {
     "message": "Docker"
-  },
-  "dropdown.software.git": {
-    "message": "Git"
-  },
-  "dropdown.software.python": {
-    "message": "Python"
-  },
-  "dropdown.software.nodejs": {
-    "message": "Node.js"
-  },
-  "dropdown.software.php": {
-    "message": "PHP"
-  },
-  "dropdown.software.databases": {
-    "message": "数据库"
-  },
-  "dropdown.software.webserver": {
-    "message": "Web 服务器"
   },
   "dropdown.software.plesk": {
     "message": "Plesk"
@@ -1882,20 +1810,17 @@
   "dropdown.software.mysql": {
     "message": "MySQL"
   },
-  "dropdown.software.allSoftware": {
-    "message": "所有软件"
-  },
   "dropdown.software.linuxDedicatedGames": {
-    "message": "Linux - 独立游戏服务器"
+    "message": "Linux - 专用游戏"
   },
   "dropdown.software.linuxDedicatedGamesDesc": {
-    "message": "在 Linux 上托管游戏服务器。"
+    "message": "在您的Linux机器上运行最受欢迎的专用游戏服务器。"
   },
   "dropdown.software.windowsDedicatedGames": {
-    "message": "Windows - 独立游戏服务器"
+    "message": "Windows - 专用游戏"
   },
   "dropdown.software.windowsDedicatedGamesDesc": {
-    "message": "在 Windows 上托管游戏服务器。"
+    "message": "在您的Windows机器上运行最受欢迎的专用游戏服务器。"
   },
   "dropdown.software.fivem": {
     "message": "FiveM"
@@ -1912,12 +1837,6 @@
   "dropdown.software.cs2": {
     "message": "CS2"
   },
-  "dropdown.software.rust": {
-    "message": "Rust"
-  },
-  "dropdown.software.satisfactory": {
-    "message": "Satisfactory"
-  },
   "dropdown.software.arkSa": {
     "message": "Ark: SA"
   },
@@ -1925,19 +1844,19 @@
     "message": "所有服务"
   },
   "dropdown.software.allDedicatedGames": {
-    "message": "所有独立游戏服务器"
+    "message": "所有专用游戏"
   },
   "dropdown.rent.voiceHosting": {
     "message": "语音托管"
   },
   "dropdown.rent.voiceHostingDesc": {
-    "message": "语音服务器和机器人。"
+    "message": "TeamSpeak服务器、音乐机器人和Discord机器人托管。保持社区连接。"
   },
   "dropdown.rent.webHosting": {
-    "message": "Web 托管"
+    "message": "网页托管"
   },
   "dropdown.rent.webHostingDesc": {
-    "message": "域名、网站空间等。"
+    "message": "注册域名并托管您的网站。可靠的网页空间，易于管理。"
   },
   "dropdown.rent.fivem": {
     "message": "FiveM"
@@ -1973,7 +1892,7 @@
     "message": "Lifetime"
   },
   "dropdown.rent.lifetimeDesc": {
-    "message": "一次付费，永久使用。"
+    "message": "喜欢ZAP-Hosting？一次付款，无需订阅，长期规划！"
   },
   "dropdown.rent.lifetimeGameserver": {
     "message": "Lifetime Gameserver"
@@ -2028,5 +1947,77 @@
   },
   "contributors.document.title": {
     "message": "此内容的贡献者"
+  },
+  "dropdown.gameserver.badgeMostPopular": {
+    "message": "最受欢迎"
+  },
+  "dropdown.gameserver.badgePopular": {
+    "message": "热门"
+  },
+  "dropdown.gameserver.badgeTrending": {
+    "message": "热门趋势"
+  },
+  "dropdown.gameserver.fivem": {
+    "message": "FiveM"
+  },
+  "dropdown.gameserver.minecraft": {
+    "message": "Minecraft"
+  },
+  "dropdown.gameserver.hytale": {
+    "message": "Hytale"
+  },
+  "dropdown.gameserver.scp": {
+    "message": "SCP: Secret Laboratory"
+  },
+  "dropdown.gameserver.valheim": {
+    "message": "Valheim"
+  },
+  "dropdown.gameserver.ark": {
+    "message": "Ark: Survival Evolved"
+  },
+  "dropdown.gameserver.palworld": {
+    "message": "Palworld"
+  },
+  "dropdown.gameserver.enshrouded": {
+    "message": "Enshrouded"
+  },
+  "dropdown.gameserver.scum": {
+    "message": "SCUM"
+  },
+  "dropdown.vps.ownIso": {
+    "message": "挂载ISO文件"
+  },
+  "dropdown.dedicated.operating-systems-linux": {
+    "message": "操作系统"
+  },
+  "dropdown.dedicated.operating-systems-windows": {
+    "message": "操作系统"
+  },
+  "dropdown.dedicated.troubleshooting": {
+    "message": "故障排除"
+  },
+  "dropdown.rent.badgeMostPopular": {
+    "message": "最受欢迎"
+  },
+  "dropdown.rent.badgePopular": {
+    "message": "热门"
+  },
+  "dropdown.rent.badgeTrending": {
+    "message": "热门趋势"
+  },
+  "dropdown.rent.more": {
+    "message": "探索我们的100+游戏"
+  },
+  "dropdown.software.openclaw": {
+    "message": "OpenClaw"
+  },
+  "dropdown.software.badgeTrending": {
+    "message": "🔥Trending"
+  },
+  "dropdown.software.hytale": {
+    "message": "Hytale"
+  },
+  "dropdown.software.vrising": {
+    "message": "V-Rising"
   }
 }

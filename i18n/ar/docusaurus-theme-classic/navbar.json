@@ -36,11 +36,11 @@
     "description": "Navbar item with label Webspace"
   },
   "item.label.Software": {
-    "message": "Software",
+    "message": "برامج",
     "description": "Navbar item with label Software"
   },
   "item.label.Rent a Server": {
-    "message": "Rent a Server",
+    "message": "استئجار سيرفر",
     "description": "Navbar item with label Rent a Server"
   },
   "item.label.ZAP-Hosting": {

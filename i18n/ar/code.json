@@ -1552,16 +1552,13 @@
     "message": "الخطوات الأولى"
   },
   "dropdown.vps.introduction": {
-    "message": "المقدمة"
+    "message": "مقدمة"
   },
   "dropdown.vps.dashboard": {
     "message": "لوحة التحكم"
   },
-  "dropdown.vps.customIsos": {
-    "message": "صور ISO مخصصة"
-  },
   "dropdown.vps.software": {
-    "message": "البرامج"
+    "message": "البرمجيات"
   },
   "dropdown.vps.linux": {
     "message": "لينكس"
@@ -1573,7 +1570,7 @@
     "message": "عام"
   },
   "dropdown.vps.services": {
-    "message": "خدمات"
+    "message": "الخدمات"
   },
   "dropdown.vps.gameServers": {
     "message": "خوادم الألعاب"
@@ -1582,28 +1579,22 @@
     "message": "الخطوات الأولى"
   },
   "dropdown.gameserver.introduction": {
-    "message": "المقدمة"
+    "message": "مقدمة"
   },
   "dropdown.gameserver.ftpAccess": {
-    "message": "وصول FTP"
+    "message": "الوصول إلى FTP"
   },
   "dropdown.gameserver.backups": {
     "message": "النسخ الاحتياطية"
   },
   "dropdown.gameserver.popularGames": {
-    "message": "الألعاب الشائعة"
-  },
-  "dropdown.gameserver.moreGames": {
-    "message": "المزيد من الألعاب"
+    "message": "ألعاب شائعة"
   },
   "dropdown.gameserver.allGames": {
-    "message": "كل الألعاب (A-Z)"
+    "message": "جميع الألعاب (A-Z)"
   },
   "dropdown.gameserver.scheduledTasks": {
     "message": "المهام المجدولة"
-  },
-  "dropdown.gameserver.gameSwitch": {
-    "message": "تبديل اللعبة"
   },
   "dropdown.gameserver.databases": {
     "message": "قواعد البيانات"
@@ -1613,9 +1604,6 @@
   },
   "dropdown.vps.vncConsole": {
     "message": "وحدة تحكم VNC"
-  },
-  "dropdown.vps.rescueMode": {
-    "message": "وضع الإنقاذ"
   },
   "dropdown.vps.more": {
     "message": "المزيد..."
@@ -1629,17 +1617,8 @@
   "dropdown.dedicated.dashboard": {
     "message": "لوحة التحكم"
   },
-  "dropdown.dedicated.setup": {
-    "message": "الإعداد"
-  },
   "dropdown.dedicated.ilo": {
     "message": "iLO"
-  },
-  "dropdown.dedicated.customIsos": {
-    "message": "ملفات ISO مخصصة"
-  },
-  "dropdown.dedicated.raid": {
-    "message": "RAID"
   },
   "dropdown.dedicated.more": {
     "message": "المزيد..."
@@ -1663,28 +1642,28 @@
     "message": "البرمجيات"
   },
   "dropdown.vps.gettingStartedDesc": {
-    "message": "ابدأ مع خادمك الافتراضي الخاص."
+    "message": "قم بتشغيل خادمك الافتراضي الخاص. الوصول إلى لوحة التحكم وإعادة التشغيل وVNC والنسخ الاحتياطية واستكشاف الأخطاء."
   },
   "dropdown.vps.linuxDesc": {
-    "message": "أدلة لخوادم لينكس."
+    "message": "SSH والخدمات وخوادم الألعاب والمزيد. أدلة لإدارة VPS الخاص بك المستند إلى Linux."
   },
   "dropdown.vps.windowsDesc": {
-    "message": "أدلة لخوادم ويندوز."
+    "message": "سطح المكتب البعيد والخدمات وخوادم الألعاب واستكشاف الأخطاء. كل شيء لخادم VPS الخاص بك المستند إلى Windows."
   },
   "dropdown.gameserver.gettingStartedDesc": {
-    "message": "إدارة وتكوين خادم الألعاب الخاص بك."
+    "message": "تعرّف على كيفية إعداد وإدارة وتحسين خادم الألعاب الخاص بك. من النسخ الاحتياطية والوصول إلى FTP إلى قواعد البيانات والتسييل."
   },
   "dropdown.gameserver.popularGamesDesc": {
-    "message": "أدلة إعداد لأكثر الألعاب شعبية."
+    "message": "ابحث عن أدلة الإعداد للألعاب الأكثر شعبية. اختر لعبتك وشغّل خادمك بسرعة."
   },
   "dropdown.dedicated.gettingStartedDesc": {
-    "message": "ابدأ مع خادمك المخصص."
+    "message": "قم بإعداد خادمك المخصص خطوة بخطوة. من الإعداد الأولي وiLO/IPMI إلى تكوين RAID وملفات ISO المخصصة."
   },
   "dropdown.dedicated.linuxDesc": {
-    "message": "أدلة لخوادم لينكس."
+    "message": "وصول كامل كمسؤول والخدمات وخوادم الألعاب وإدارة نظام التشغيل. أدلة لخادمك المخصص Linux."
   },
   "dropdown.dedicated.windowsDesc": {
-    "message": "أدلة لخوادم ويندوز."
+    "message": "سطح المكتب البعيد والخدمات وخوادم الألعاب وإدارة نظام التشغيل. أدلة لخادمك المخصص Windows."
   },
   "dropdown.dedicated.initialSetup": {
     "message": "الإعداد الأولي"
@@ -1693,7 +1672,7 @@
     "message": "IPMI"
   },
   "dropdown.dedicated.ownIso": {
-    "message": "ملف ISO خاص"
+    "message": "ISO مخصص"
   },
   "dropdown.dedicated.configureRaid": {
     "message": "تكوين RAID"
@@ -1705,34 +1684,25 @@
     "message": "إعادة تعيين الخادم"
   },
   "dropdown.vps.systemRescue": {
-    "message": "إنقاذ النظام (نسخ احتياطي)"
+    "message": "إنقاذ النظام (نسخة احتياطية)"
   },
   "dropdown.vps.vpsComparison": {
-    "message": "مقارنة VPS/مخصص"
+    "message": "مقارنة VPS/خادم مخصص"
   },
   "dropdown.vps.ballooning": {
     "message": "Ballooning"
   },
   "dropdown.vps.troubleshooting": {
-    "message": "استكشاف الأخطاء"
-  },
-  "dropdown.gameserver.serverReset": {
-    "message": "إعادة تعيين الخادم"
-  },
-  "dropdown.gameserver.resourceLimit": {
-    "message": "حد الموارد"
+    "message": "استكشاف الأخطاء وإصلاحها"
   },
   "dropdown.gameserver.switchGame": {
-    "message": "تبديل اللعبة"
+    "message": "تغيير اللعبة"
   },
   "dropdown.gameserver.upDowngrade": {
     "message": "ترقية/تخفيض"
   },
   "dropdown.gameserver.serverCrash": {
     "message": "تعطل الخادم - ماذا تفعل؟"
-  },
-  "dropdown.gameserver.subdomain": {
-    "message": "نطاق فرعي للخادم"
   },
   "dropdown.gameserver.tebex": {
     "message": "تسييل Tebex"
@@ -1741,13 +1711,10 @@
     "message": "استضافة الألعاب"
   },
   "dropdown.rent.gameHostingDesc": {
-    "message": "استأجر خوادم ألعاب لألعابك المفضلة."
-  },
-  "dropdown.rent.gameserver": {
-    "message": "خادم ألعاب"
+    "message": "استأجر خادم ألعاب للعبتك المفضلة. إعداد فوري وحماية DDoS والمزيد من الميزات!"
   },
   "dropdown.rent.teamspeak": {
-    "message": "خادم TeamSpeak"
+    "message": "خادم TeamSpeak 3"
   },
   "dropdown.rent.musicbot": {
     "message": "بوت موسيقى Discord"
@@ -1756,19 +1723,13 @@
     "message": "استضافة الخوادم"
   },
   "dropdown.rent.serverHostingDesc": {
-    "message": "حلول خوادم افتراضية ومخصصة."
+    "message": "خوادم افتراضية ومخصصة مع وصول كامل كمسؤول. موارد قابلة للتوسع لأي مشروع."
   },
   "dropdown.rent.vps": {
     "message": "VPS (خادم افتراضي)"
   },
   "dropdown.rent.dedicated": {
     "message": "خادم مخصص"
-  },
-  "dropdown.rent.webServices": {
-    "message": "خدمات الويب"
-  },
-  "dropdown.rent.webServicesDesc": {
-    "message": "نطاقات، استضافة ويب والمزيد."
   },
   "dropdown.rent.domain": {
     "message": "نطاق"
@@ -1805,28 +1766,16 @@
     "description": "URL path for the gameserver product"
   },
   "dropdown.software.linuxServices": {
-    "message": "لينكس - خدمات"
+    "message": "Linux - خدمات"
   },
   "dropdown.software.linuxServicesDesc": {
-    "message": "تطبيقات مستضافة ذاتياً لـ Linux."
-  },
-  "dropdown.software.linuxDevelopment": {
-    "message": "لينكس - تطوير"
-  },
-  "dropdown.software.linuxDevelopmentDesc": {
-    "message": "أدوات التطوير وبيئات التشغيل."
+    "message": "قم بتثبيت وتكوين الخدمات المستضافة ذاتيًا على Linux. OpenClaw وBitwarden والمزيد."
   },
   "dropdown.software.windowsServices": {
-    "message": "ويندوز - خدمات"
+    "message": "Windows - خدمات"
   },
   "dropdown.software.windowsServicesDesc": {
-    "message": "تطبيقات مستضافة ذاتياً لـ Windows."
-  },
-  "dropdown.software.windowsDevelopment": {
-    "message": "ويندوز - تطوير"
-  },
-  "dropdown.software.windowsDevelopmentDesc": {
-    "message": "أدوات التطوير وبيئات التشغيل."
+    "message": "قم بتثبيت وتكوين الخدمات المستضافة ذاتيًا على Windows. Docker وPlex والمزيد."
   },
   "dropdown.software.bitwarden": {
     "message": "Bitwarden"
@@ -1846,29 +1795,8 @@
   "dropdown.software.wordpress": {
     "message": "WordPress"
   },
-  "dropdown.software.mastodon": {
-    "message": "Mastodon"
-  },
   "dropdown.software.docker": {
     "message": "Docker"
-  },
-  "dropdown.software.git": {
-    "message": "Git"
-  },
-  "dropdown.software.python": {
-    "message": "Python"
-  },
-  "dropdown.software.nodejs": {
-    "message": "Node.js"
-  },
-  "dropdown.software.php": {
-    "message": "PHP"
-  },
-  "dropdown.software.databases": {
-    "message": "قواعد البيانات"
-  },
-  "dropdown.software.webserver": {
-    "message": "خادم ويب"
   },
   "dropdown.software.plesk": {
     "message": "Plesk"
@@ -1882,20 +1810,17 @@
   "dropdown.software.mysql": {
     "message": "MySQL"
   },
-  "dropdown.software.allSoftware": {
-    "message": "جميع البرامج"
-  },
   "dropdown.software.linuxDedicatedGames": {
-    "message": "لينكس - ألعاب مخصصة"
+    "message": "Linux - ألعاب مخصصة"
   },
   "dropdown.software.linuxDedicatedGamesDesc": {
-    "message": "استضافة خوادم ألعاب على Linux."
+    "message": "قم بتشغيل أشهر خوادم الألعاب المخصصة على جهاز Linux الخاص بك."
   },
   "dropdown.software.windowsDedicatedGames": {
-    "message": "ويندوز - ألعاب مخصصة"
+    "message": "Windows - ألعاب مخصصة"
   },
   "dropdown.software.windowsDedicatedGamesDesc": {
-    "message": "استضافة خوادم ألعاب على Windows."
+    "message": "قم بتشغيل أشهر خوادم الألعاب المخصصة على جهاز Windows الخاص بك."
   },
   "dropdown.software.fivem": {
     "message": "FiveM"
@@ -1912,12 +1837,6 @@
   "dropdown.software.cs2": {
     "message": "CS2"
   },
-  "dropdown.software.rust": {
-    "message": "Rust"
-  },
-  "dropdown.software.satisfactory": {
-    "message": "Satisfactory"
-  },
   "dropdown.software.arkSa": {
     "message": "Ark: SA"
   },
@@ -1928,16 +1847,16 @@
     "message": "جميع الألعاب المخصصة"
   },
   "dropdown.rent.voiceHosting": {
-    "message": "استضافة صوتية"
+    "message": "استضافة الصوت"
   },
   "dropdown.rent.voiceHostingDesc": {
-    "message": "خوادم صوتية وبوتات."
+    "message": "خوادم TeamSpeak وبوتات الموسيقى واستضافة بوتات Discord. حافظ على تواصل مجتمعك."
   },
   "dropdown.rent.webHosting": {
-    "message": "استضافة ويب"
+    "message": "استضافة الويب"
   },
   "dropdown.rent.webHostingDesc": {
-    "message": "نطاقات، استضافة ويب والمزيد."
+    "message": "سجل النطاقات واستضف موقعك. مساحة ويب موثوقة مع إدارة سهلة."
   },
   "dropdown.rent.fivem": {
     "message": "FiveM"
@@ -1973,7 +1892,7 @@
     "message": "Lifetime"
   },
   "dropdown.rent.lifetimeDesc": {
-    "message": "ادفع مرة واحدة، استخدم للأبد."
+    "message": "هل تستمتع بـ ZAP-Hosting؟ ادفع مرة واحدة بدون اشتراكات وخطط للمدى الطويل!"
   },
   "dropdown.rent.lifetimeGameserver": {
     "message": "Lifetime Gameserver"
@@ -2028,5 +1947,77 @@
   },
   "contributors.document.title": {
     "message": "المساهمون في هذا المحتوى"
+  },
+  "dropdown.gameserver.badgeMostPopular": {
+    "message": "الأكثر شعبية"
+  },
+  "dropdown.gameserver.badgePopular": {
+    "message": "شائع"
+  },
+  "dropdown.gameserver.badgeTrending": {
+    "message": "رائج"
+  },
+  "dropdown.gameserver.fivem": {
+    "message": "FiveM"
+  },
+  "dropdown.gameserver.minecraft": {
+    "message": "Minecraft"
+  },
+  "dropdown.gameserver.hytale": {
+    "message": "Hytale"
+  },
+  "dropdown.gameserver.scp": {
+    "message": "SCP: Secret Laboratory"
+  },
+  "dropdown.gameserver.valheim": {
+    "message": "Valheim"
+  },
+  "dropdown.gameserver.ark": {
+    "message": "Ark: Survival Evolved"
+  },
+  "dropdown.gameserver.palworld": {
+    "message": "Palworld"
+  },
+  "dropdown.gameserver.enshrouded": {
+    "message": "Enshrouded"
+  },
+  "dropdown.gameserver.scum": {
+    "message": "SCUM"
+  },
+  "dropdown.vps.ownIso": {
+    "message": "تركيب ملف ISO"
+  },
+  "dropdown.dedicated.operating-systems-linux": {
+    "message": "أنظمة التشغيل"
+  },
+  "dropdown.dedicated.operating-systems-windows": {
+    "message": "أنظمة التشغيل"
+  },
+  "dropdown.dedicated.troubleshooting": {
+    "message": "استكشاف الأخطاء وإصلاحها"
+  },
+  "dropdown.rent.badgeMostPopular": {
+    "message": "الأكثر شعبية"
+  },
+  "dropdown.rent.badgePopular": {
+    "message": "شائع"
+  },
+  "dropdown.rent.badgeTrending": {
+    "message": "رائج"
+  },
+  "dropdown.rent.more": {
+    "message": "اكتشف أكثر من 100 لعبة لدينا"
+  },
+  "dropdown.software.openclaw": {
+    "message": "OpenClaw"
+  },
+  "dropdown.software.badgeTrending": {
+    "message": "🔥Trending"
+  },
+  "dropdown.software.hytale": {
+    "message": "Hytale"
+  },
+  "dropdown.software.vrising": {
+    "message": "V-Rising"
   }
 }
