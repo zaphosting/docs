@@ -143,7 +143,7 @@ A instalação termina quando esta tela aparecer:
 
 ## Abrir o Instalador Web
 
-Depois que o instalador for iniciado, a instalação é feita pelo navegador. A página de instalação pode ser acessada via https://IP:8447 ou https://Domínio.xx:8447.
+Depois que o instalador for iniciado, a instalação é feita pelo navegador. A página de instalação pode ser acessada via `https://IP:8447` ou `https://Domínio.xx:8447`.
 
 ## O Painel Web do Plesk
 
@@ -151,7 +151,7 @@ Depois que o instalador for iniciado, a instalação é feita pelo navegador. A 
 Ao acessar o Painel Web, pode aparecer a mensagem: "Esta conexão não é segura". Confirme isso na primeira vez para abrir a página.
 :::
 
-A interface web pode ser acessada via https://IP:8443 ou https://Domínio.xx:8443 do servidor. Os dados de login são root/admin e a senha root atual. Alternativamente, você pode usar uma das URLs exibidas. Se elas não funcionarem mais, crie novas URLs com o comando ``plesk login``.
+A interface web pode ser acessada via `https://IP:8443` ou `https://Domínio.xx:8443` do servidor. Os dados de login são root/admin e a senha root atual. Alternativamente, você pode usar uma das URLs exibidas. Se elas não funcionarem mais, crie novas URLs com o comando ``plesk login``.
 
 ### Configuração
 

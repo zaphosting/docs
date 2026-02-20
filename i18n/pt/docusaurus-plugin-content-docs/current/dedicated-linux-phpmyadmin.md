@@ -108,4 +108,4 @@ chown -R www-data:www-data /usr/share/phpmyadmin/tmp/
 
 ## Conclusão
 
-Parabéns, você instalou e configurou o phpMyAdmin com sucesso! Você pode acessar a interface web usando o endereço IP e o caminho do seu servidor (http://Endereço-IP/phpmyadmin). Para dúvidas ou ajuda, não hesite em contatar nosso time de suporte, disponível todos os dias para te ajudar! 🙂
+Parabéns, você instalou e configurou o phpMyAdmin com sucesso! Você pode acessar a interface web usando o endereço IP e o caminho do seu servidor (`http://Endereço-IP/phpmyadmin`). Para dúvidas ou ajuda, não hesite em contatar nosso time de suporte, disponível todos os dias para te ajudar! 🙂
