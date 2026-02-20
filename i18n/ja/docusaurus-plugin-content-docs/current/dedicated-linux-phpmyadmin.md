@@ -108,4 +108,4 @@ chown -R www-data:www-data /usr/share/phpmyadmin/tmp/
 
 ## まとめ
 
-おめでとうございます！phpMyAdminのインストールと設定が完了しました。サーバーのIPアドレスとパス（http://IP-Address/phpmyadmin）を使ってWebインターフェースにアクセスできます。質問やサポートが必要な場合は、いつでもお気軽に当社のサポートチームにお問い合わせくださいね！🙂
+おめでとうございます！phpMyAdminのインストールと設定が完了しました。サーバーのIPアドレスとパス（`http://IP-Address/phpmyadmin`）を使ってWebインターフェースにアクセスできます。質問やサポートが必要な場合は、いつでもお気軽に当社のサポートチームにお問い合わせくださいね！🙂

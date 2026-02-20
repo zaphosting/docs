@@ -16,7 +16,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 <InlineVoucher />
 
 ## 准备工作
-要创建自己的认证密钥，首先登录 https://beammp.com/keymaster，需要一个 Discord 账号。
+要创建自己的认证密钥，首先登录 `https://beammp.com/keymaster`，需要一个 Discord 账号。
 登录后，点击左侧的“Keys”，进入许可证密钥概览页面：
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/Zp72q2WR85pxJgq/preview)
