@@ -21,6 +21,7 @@ const servicesMap: serviceMap = {
             id: 'service.vserver.path',
             description: 'URL path for the VPS product',
         }),
+        price: 'from 7.90€',
     },
     'vserver-service-openclaw': {
         title: translate({
@@ -33,6 +34,7 @@ const servicesMap: serviceMap = {
             id: 'service.vserver-service-openclaw.path',
             description: 'URL path for the VPS product',
         }),
+        price: 'from 0.00€',
     },
     'dedicated': {
         title: translate({
@@ -45,6 +47,7 @@ const servicesMap: serviceMap = {
             id: 'service.dedicated.path',
             description: 'URL path for the dedicated server product',
         }),
+        price: 'from 58.90€',
     },
     'dedicated-service-openclaw': {
         title: translate({
@@ -57,6 +60,7 @@ const servicesMap: serviceMap = {
             id: 'service.dedicated.path',
             description: 'URL path for the dedicated server product',
         }),
+        price: 'from 0.00€',
     },
     'domain': {
         title: translate({
@@ -69,6 +73,7 @@ const servicesMap: serviceMap = {
             id: 'service.domain.path',
             description: 'URL path for the domain product',
         }),
+        price: 'from 7.90€',
     },
     'webspace': {
         title: translate({
@@ -81,6 +86,7 @@ const servicesMap: serviceMap = {
             id: 'service.webspace.path',
             description: 'URL path for the webspace product',
         }),
+        price: 'from 3.90€',
     },
     'voiceserver': {
         title: translate({
@@ -93,6 +99,7 @@ const servicesMap: serviceMap = {
             id: 'service.voiceserver.path',
             description: 'URL path for the voiceserver product',
         }),
+        price: 'from 1.90€',
     },
     'voicebot': {
         title: translate({
@@ -101,10 +108,11 @@ const servicesMap: serviceMap = {
             description: 'Product name for the voicebot product',
         }),
         url: translate({
-            message: '{marketingSite}/{language}/teamspeak-3-server-hosting/',
+            message: '{marketingSite}/{language}/teamspeak-3-mymusicbot-hosting/',
             id: 'service.voicebot.path',
             description: 'URL path for the voicebot product',
         }),
+        price: 'from 4.49€',
     },
     'premium-storage': {
         title: translate({
@@ -117,6 +125,7 @@ const servicesMap: serviceMap = {
             id: 'service.storage.path',
             description: 'URL path for the storage product',
         }),
+        price: 'from 1.00€',
     },
     'fivem-upvotes': {
         title: translate({
@@ -129,6 +138,7 @@ const servicesMap: serviceMap = {
             id: 'service.fivemupvotes.path',
             description: 'URL path for the storage product',
         }),
+        price: 'from 4.58€',
     },
     'fivem-upvotes-burst': {
         title: translate({
@@ -141,6 +151,7 @@ const servicesMap: serviceMap = {
             id: 'service.fivemupvotes.path',
             description: 'URL path for the storage product',
         }),
+        price: 'from 10.71€',
     },
     'discord-bot': {
         title: translate({
@@ -153,6 +164,7 @@ const servicesMap: serviceMap = {
             id: 'service.fivemupvotes.path',
             description: 'URL path for the storage product',
         }),
+        price: 'from 3.00€',
     },
     'gameserver': {
         title: translate({
@@ -161,10 +173,11 @@ const servicesMap: serviceMap = {
             description: 'Product name for the gameserver product',
         }),
         url: translate({
-            message: '{marketingSite}/{language}/gameserver-hosting/',
+            message: '{marketingSite}/{language}/gameserver-hosting/?voucher=docs-50',
             id: 'service.gameserver.path',
             description: 'URL path for the gameserver product',
         }),
+        price: 'from 2.76€',
     },
         'gameserver-7d2d': {
         title: translate({
@@ -177,6 +190,7 @@ const servicesMap: serviceMap = {
             id: 'service.gameserver-7d2d.path',
             description: 'URL path for the gameserver product',
         }),
+        price: 'from 0.00€',
     },
     'gameserver-abioticfactor': {
         title: translate({
@@ -189,6 +203,7 @@ const servicesMap: serviceMap = {
             id: 'service.gameserver-abioticfactor.path',
             description: 'URL path for the gameserver product',
         }),
+        price: 'from 0.00€',
     },
     'gameserver-afterinfection': {
         title: translate({
@@ -201,6 +216,7 @@ const servicesMap: serviceMap = {
             id: 'service.gameserver-afterinfection.path',
             description: 'URL path for the gameserver product',
         }),
+        price: 'from 0.00€',
     },
     'gameserver-amongus': {
         title: translate({
@@ -213,6 +229,7 @@ const servicesMap: serviceMap = {
             id: 'service.gameserver-amongus.path',
             description: 'URL path for the gameserver product',
         }),
+        price: 'from 0.00€',
     },
     'gameserver-animalia-survival': {
         title: translate({
@@ -225,6 +242,7 @@ const servicesMap: serviceMap = {
             id: 'service.gameserver-animalia-survival.path',
             description: 'URL path for the gameserver product',
         }),
+        price: 'from 0.00€',
     },
     'gameserver-argo': {
         title: translate({
@@ -237,6 +255,7 @@ const servicesMap: serviceMap = {
             id: 'service.gameserver-argo.path',
             description: 'URL path for the gameserver product',
         }),
+        price: 'from 0.00€',
     },
     'gameserver-ark': {
         title: translate({
@@ -249,6 +268,7 @@ const servicesMap: serviceMap = {
             id: 'service.gameserver-ark.path',
             description: 'URL path for the gameserver product',
         }),
+        price: 'from 0.00€',
     },
     'gameserver-arma3': {
         title: translate({
@@ -261,6 +281,7 @@ const servicesMap: serviceMap = {
             id: 'service.gameserver-arma3.path',
             description: 'URL path for the gameserver product',
         }),
+        price: 'from 0.00€',
     },
     'gameserver-arma-reforger': {
         title: translate({
@@ -273,6 +294,7 @@ const servicesMap: serviceMap = {
             id: 'service.gameserver-arma-reforger.path',
             description: 'URL path for the gameserver product',
         }),
+        price: 'from 0.00€',
     },
     'gameserver-assettocorsa': {
         title: translate({
@@ -285,6 +307,7 @@ const servicesMap: serviceMap = {
             id: 'service.gameserver-assettocorsa.path',
             description: 'URL path for the gameserver product',
         }),
+        price: 'from 0.00€',
     },
     'gameserver-assetto-competizione': {
         title: translate({
@@ -297,6 +320,7 @@ const servicesMap: serviceMap = {
             id: 'service.gameserver-assetto-competizione.path',
             description: 'URL path for the gameserver product',
         }),
+        price: 'from 0.00€',
     },
     'gameserver-astrocolony': {
         title: translate({
@@ -309,6 +333,7 @@ const servicesMap: serviceMap = {
             id: 'service.gameserver-astrocolony.path',
             description: 'URL path for the gameserver product',
         }),
+        price: 'from 0.00€',
     },
     'gameserver-astroneer': {
         title: translate({
@@ -321,6 +346,7 @@ const servicesMap: serviceMap = {
             id: 'service.gameserver-astroneer.path',
             description: 'URL path for the gameserver product',
         }),
+        price: 'from 0.00€',
     },
     'gameserver-avorion': {
         title: translate({
@@ -333,6 +359,7 @@ const servicesMap: serviceMap = {
             id: 'service.gameserver-avorion.path',
             description: 'URL path for the gameserver product',
         }),
+        price: 'from 0.00€',
     },
     'gameserver-ats': {
         title: translate({
@@ -345,6 +372,7 @@ const servicesMap: serviceMap = {
             id: 'service.gameserver-ats.path',
             description: 'URL path for the gameserver product',
         }),
+        price: 'from 0.00€',
     },
     'gameserver-bananashooter': {
         title: translate({
@@ -357,6 +385,7 @@ const servicesMap: serviceMap = {
             id: 'service.gameserver-bananashooter.path',
             description: 'URL path for the gameserver product',
         }),
+        price: 'from 0.00€',
     },
     'gameserver-barotrauma': {
         title: translate({
@@ -369,6 +398,7 @@ const servicesMap: serviceMap = {
             id: 'service.gameserver-barotrauma.path',
             description: 'URL path for the gameserver product',
         }),
+        price: 'from 0.00€',
     },
     'gameserver-battalion1944': {
         title: translate({
@@ -381,6 +411,7 @@ const servicesMap: serviceMap = {
             id: 'service.gameserver-battalion1944.path',
             description: 'URL path for the gameserver product',
         }),
+        price: 'from 0.00€',
     },
     'gameserver-battlegrounds3': {
         title: translate({
@@ -393,6 +424,7 @@ const servicesMap: serviceMap = {
             id: 'service.gameserver-battlegrounds3.path',
             description: 'URL path for the gameserver product',
         }),
+        price: 'from 0.00€',
     },
     'gameserver-beammp': {
         title: translate({
@@ -405,6 +437,7 @@ const servicesMap: serviceMap = {
             id: 'service.gameserver-beammp.path',
             description: 'URL path for the gameserver product',
         }),
+        price: 'from 0.00€',
     },
     'gameserver-bob': {
         title: translate({
@@ -417,6 +450,7 @@ const servicesMap: serviceMap = {
             id: 'service.gameserver-bob.path',
             description: 'URL path for the gameserver product',
         }),
+        price: 'from 0.00€',
     },
     'gameserver-beyondthewire': {
         title: translate({
@@ -429,6 +463,7 @@ const servicesMap: serviceMap = {
             id: 'service.gameserver-beyondthewire.path',
             description: 'URL path for the gameserver product',
         }),
+        price: 'from 0.00€',
     },
     'gameserver-brokeprotocol': {
         title: translate({
@@ -441,6 +476,7 @@ const servicesMap: serviceMap = {
             id: 'service.gameserver-brokeprotocol.path',
             description: 'URL path for the gameserver product',
         }),
+        price: 'from 0.00€',
     },
     'gameserver-citadel-forgedwithfire': {
         title: translate({
@@ -453,6 +489,7 @@ const servicesMap: serviceMap = {
             id: 'service.gameserver-citadel-forgedwithfire.path',
             description: 'URL path for the gameserver product',
         }),
+        price: 'from 0.00€',
     },
     'gameserver-colonysurvival': {
         title: translate({
@@ -465,6 +502,7 @@ const servicesMap: serviceMap = {
             id: 'service.gameserver-colonysurvival.path',
             description: 'URL path for the gameserver product',
         }),
+        price: 'from 0.00€',
     },
     'gameserver-conan': {
         title: translate({
@@ -477,6 +515,7 @@ const servicesMap: serviceMap = {
             id: 'service.gameserver-conan.path',
             description: 'URL path for the gameserver product',
         }),
+        price: 'from 0.00€',
     },
     'gameserver-contagion': {
         title: translate({
@@ -489,6 +528,7 @@ const servicesMap: serviceMap = {
             id: 'service.gameserver-contagion.path',
             description: 'URL path for the gameserver product',
         }),
+        price: 'from 0.00€',
     },
     'gameserver-corekeeper': {
         title: translate({
@@ -501,6 +541,7 @@ const servicesMap: serviceMap = {
             id: 'service.gameserver-corekeeper.path',
             description: 'URL path for the gameserver product',
         }),
+        price: 'from 0.00€',
     },
     'gameserver-craftopia': {
         title: translate({
@@ -513,6 +554,7 @@ const servicesMap: serviceMap = {
             id: 'service.gameserver-craftopia.path',
             description: 'URL path for the gameserver product',
         }),
+        price: 'from 0.00€',
     },
     'gameserver-cryofall': {
         title: translate({
@@ -525,6 +567,7 @@ const servicesMap: serviceMap = {
             id: 'service.gameserver-cryofall.path',
             description: 'URL path for the gameserver product',
         }),
+        price: 'from 0.00€',
     },
     'gameserver-cs16': {
         title: translate({
@@ -537,6 +580,7 @@ const servicesMap: serviceMap = {
             id: 'service.gameserver-cs16.path',
             description: 'URL path for the gameserver product',
         }),
+        price: 'from 0.00€',
     },
     'gameserver-cs2': {
         title: translate({
@@ -549,6 +593,7 @@ const servicesMap: serviceMap = {
             id: 'service.gameserver-cs2.path',
             description: 'URL path for the gameserver product',
         }),
+        price: 'from 0.00€',
     },
     'gameserver-css': {
         title: translate({
@@ -561,6 +606,7 @@ const servicesMap: serviceMap = {
             id: 'service.gameserver-css.path',
             description: 'URL path for the gameserver product',
         }),
+        price: 'from 0.00€',
     },
     'gameserver-dayofinfamy': {
         title: translate({
@@ -573,6 +619,7 @@ const servicesMap: serviceMap = {
             id: 'service.gameserver-dayofinfamy.path',
             description: 'URL path for the gameserver product',
         }),
+        price: 'from 0.00€',
     },
     'gameserver-dayz': {
         title: translate({
@@ -585,6 +632,7 @@ const servicesMap: serviceMap = {
             id: 'service.gameserver-dayz.path',
             description: 'URL path for the gameserver product',
         }),
+        price: 'from 0.00€',
     },
     'gameserver-ddracenetwork': {
         title: translate({
@@ -597,6 +645,7 @@ const servicesMap: serviceMap = {
             id: 'service.gameserver-ddracenetwork.path',
             description: 'URL path for the gameserver product',
         }),
+        price: 'from 0.00€',
     },
     'gameserver-deadlock': {
         title: translate({
@@ -609,6 +658,7 @@ const servicesMap: serviceMap = {
             id: 'service.gameserver-deadlock.path',
             description: 'URL path for the gameserver product',
         }),
+        price: 'from 0.00€',
     },
     'gameserver-deadpoly': {
         title: translate({
@@ -621,6 +671,7 @@ const servicesMap: serviceMap = {
             id: 'service.gameserver-deadpoly.path',
             description: 'URL path for the gameserver product',
         }),
+        price: 'from 0.00€',
     },
     'gameserver-dods': {
         title: translate({
@@ -633,6 +684,7 @@ const servicesMap: serviceMap = {
             id: 'service.gameserver-dods.path',
             description: 'URL path for the gameserver product',
         }),
+        price: 'from 0.00€',
     },
     'gameserver-dst': {
         title: translate({
@@ -645,6 +697,7 @@ const servicesMap: serviceMap = {
             id: 'service.gameserver-dst.path',
             description: 'URL path for the gameserver product',
         }),
+        price: 'from 0.00€',
     },
     'gameserver-echoes-of-elysium': {
         title: translate({
@@ -657,6 +710,7 @@ const servicesMap: serviceMap = {
             id: 'service.gameserver-echoes-of-elysium.path',
             description: 'URL path for the gameserver product',
         }),
+        price: 'from 0.00€',
     },
     'gameserver-eco': {
         title: translate({
@@ -669,6 +723,7 @@ const servicesMap: serviceMap = {
             id: 'service.gameserver-eco.path',
             description: 'URL path for the gameserver product',
         }),
+        price: 'from 0.00€',
     },
     'gameserver-empyrion': {
         title: translate({
@@ -681,6 +736,7 @@ const servicesMap: serviceMap = {
             id: 'service.gameserver-empyrion.path',
             description: 'URL path for the gameserver product',
         }),
+        price: 'from 0.00€',
     },
     'gameserver-enshrouded': {
         title: translate({
@@ -693,6 +749,7 @@ const servicesMap: serviceMap = {
             id: 'service.gameserver-enshrouded.path',
             description: 'URL path for the gameserver product',
         }),
+        price: 'from 0.00€',
     },
     'gameserver-ets2': {
         title: translate({
@@ -705,6 +762,7 @@ const servicesMap: serviceMap = {
             id: 'service.gameserver-ets2.path',
             description: 'URL path for the gameserver product',
         }),
+        price: 'from 0.00€',
     },
     'gameserver-factorio': {
         title: translate({
@@ -717,6 +775,7 @@ const servicesMap: serviceMap = {
             id: 'service.gameserver-factorio.path',
             description: 'URL path for the gameserver product',
         }),
+        price: 'from 0.00€',
     },
     'gameserver-fivem': {
         title: translate({
@@ -729,6 +788,7 @@ const servicesMap: serviceMap = {
             id: 'service.gameserver-fivem.path',
             description: 'URL path for the gameserver product',
         }),
+        price: 'from 0.00€',
     },
     'gameserver-foundry': {
         title: translate({
@@ -741,6 +801,7 @@ const servicesMap: serviceMap = {
             id: 'service.gameserver-foundry.path',
             description: 'URL path for the gameserver product',
         }),
+        price: 'from 0.00€',
     },
     'gameserver-gmod': {
         title: translate({
@@ -753,6 +814,7 @@ const servicesMap: serviceMap = {
             id: 'service.gameserver-gmod.path',
             description: 'URL path for the gameserver product',
         }),
+        price: 'from 0.00€',
     },
     'gameserver-groundbranch': {
         title: translate({
@@ -765,6 +827,7 @@ const servicesMap: serviceMap = {
             id: 'service.gameserver-groundbranch.path',
             description: 'URL path for the gameserver product',
         }),
+        price: 'from 0.00€',
     },
     'gameserver-hl1': {
         title: translate({
@@ -777,6 +840,7 @@ const servicesMap: serviceMap = {
             id: 'service.gameserver-hl1.path',
             description: 'URL path for the gameserver product',
         }),
+        price: 'from 0.00€',
     },
     'gameserver-hl2': {
         title: translate({
@@ -789,6 +853,7 @@ const servicesMap: serviceMap = {
             id: 'service.gameserver-hl2.path',
             description: 'URL path for the gameserver product',
         }),
+        price: 'from 0.00€',
     },
     'gameserver-holdfast': {
         title: translate({
@@ -801,6 +866,7 @@ const servicesMap: serviceMap = {
             id: 'service.gameserver-holdfast.path',
             description: 'URL path for the gameserver product',
         }),
+        price: 'from 0.00€',
     },
     'gameserver-humanitz': {
         title: translate({
@@ -813,6 +879,7 @@ const servicesMap: serviceMap = {
             id: 'service.gameserver-humanitz.path',
             description: 'URL path for the gameserver product',
         }),
+        price: 'from 0.00€',
     },
     'gameserver-hurtworld': {
         title: translate({
@@ -825,6 +892,7 @@ const servicesMap: serviceMap = {
             id: 'service.gameserver-hurtworld.path',
             description: 'URL path for the gameserver product',
         }),
+        price: 'from 0.00€',
     },
     'gameserver-hytale': {
         title: translate({
@@ -837,6 +905,7 @@ const servicesMap: serviceMap = {
             id: 'service.gameserver-hytale.path',
             description: 'URL path for the gameserver product',
         }),
+        price: 'from 0.00€',
     },
     'gameserver-icarus': {
         title: translate({
@@ -849,6 +918,7 @@ const servicesMap: serviceMap = {
             id: 'service.gameserver-icarus.path',
             description: 'URL path for the gameserver product',
         }),
+        price: 'from 0.00€',
     },
     'gameserver-insurgency': {
         title: translate({
@@ -861,6 +931,7 @@ const servicesMap: serviceMap = {
             id: 'service.gameserver-insurgency.path',
             description: 'URL path for the gameserver product',
         }),
+        price: 'from 0.00€',
     },
     'gameserver-ironarmada': {
         title: translate({
@@ -873,6 +944,7 @@ const servicesMap: serviceMap = {
             id: 'service.gameserver-ironarmada.path',
             description: 'URL path for the gameserver product',
         }),
+        price: 'from 0.00€',
     },
     'gameserver-jol': {
         title: translate({
@@ -885,6 +957,7 @@ const servicesMap: serviceMap = {
             id: 'service.gameserver-jol.path',
             description: 'URL path for the gameserver product',
         }),
+        price: 'from 0.00€',
     },
     'gameserver-killingfloor2': {
         title: translate({
@@ -897,6 +970,7 @@ const servicesMap: serviceMap = {
             id: 'service.gameserver-killingfloor2.path',
             description: 'URL path for the gameserver product',
         }),
+        price: 'from 0.00€',
     },
     'gameserver-lastoasis': {
         title: translate({
@@ -909,6 +983,7 @@ const servicesMap: serviceMap = {
             id: 'service.gameserver-lastoasis.path',
             description: 'URL path for the gameserver product',
         }),
+        price: 'from 0.00€',
     },
     'gameserver-leap': {
         title: translate({
@@ -921,6 +996,7 @@ const servicesMap: serviceMap = {
             id: 'service.gameserver-leap.path',
             description: 'URL path for the gameserver product',
         }),
+        price: 'from 0.00€',
     },
     'gameserver-l4d2': {
         title: translate({
@@ -933,6 +1009,7 @@ const servicesMap: serviceMap = {
             id: 'service.gameserver-l4d2.path',
             description: 'URL path for the gameserver product',
         }),
+        price: 'from 0.00€',
     },
     'gameserver-longvinter': {
         title: translate({
@@ -945,6 +1022,7 @@ const servicesMap: serviceMap = {
             id: 'service.gameserver-longvinter.path',
             description: 'URL path for the gameserver product',
         }),
+        price: 'from 0.00€',
     },
     'gameserver-minecraft': {
         title: translate({
@@ -957,6 +1035,7 @@ const servicesMap: serviceMap = {
             id: 'service.gameserver-minecraft.path',
             description: 'URL path for the gameserver product',
         }),
+        price: 'from 0.00€',
     },
     'gameserver-minetest': {
         title: translate({
@@ -969,6 +1048,7 @@ const servicesMap: serviceMap = {
             id: 'service.gameserver-minetest.path',
             description: 'URL path for the gameserver product',
         }),
+        price: 'from 0.00€',
     },
     'gameserver-miscreated': {
         title: translate({
@@ -981,6 +1061,7 @@ const servicesMap: serviceMap = {
             id: 'service.gameserver-miscreated.path',
             description: 'URL path for the gameserver product',
         }),
+        price: 'from 0.00€',
     },
     'gameserver-motortown': {
         title: translate({
@@ -993,6 +1074,7 @@ const servicesMap: serviceMap = {
             id: 'service.gameserver-motortown.path',
             description: 'URL path for the gameserver product',
         }),
+        price: 'from 0.00€',
     },
     'gameserver-mountandblade': {
         title: translate({
@@ -1005,6 +1087,7 @@ const servicesMap: serviceMap = {
             id: 'service.gameserver-mountandblade.path',
             description: 'URL path for the gameserver product',
         }),
+        price: 'from 0.00€',
     },
     'gameserver-mta': {
         title: translate({
@@ -1017,6 +1100,7 @@ const servicesMap: serviceMap = {
             id: 'service.gameserver-mta.path',
             description: 'URL path for the gameserver product',
         }),
+        price: 'from 0.00€',
     },
     'gameserver-moe': {
         title: translate({
@@ -1029,6 +1113,7 @@ const servicesMap: serviceMap = {
             id: 'service.gameserver-moe.path',
             description: 'URL path for the gameserver product',
         }),
+        price: 'from 0.00€',
     },
     'gameserver-necesse': {
         title: translate({
@@ -1041,6 +1126,7 @@ const servicesMap: serviceMap = {
             id: 'service.gameserver-necesse.path',
             description: 'URL path for the gameserver product',
         }),
+        price: 'from 0.00€',
     },
     'gameserver-nstp': {
         title: translate({
@@ -1053,6 +1139,7 @@ const servicesMap: serviceMap = {
             id: 'service.gameserver-nstp.path',
             description: 'URL path for the gameserver product',
         }),
+        price: 'from 0.00€',
     },
     'gameserver-nienix': {
         title: translate({
@@ -1065,6 +1152,7 @@ const servicesMap: serviceMap = {
             id: 'service.gameserver-nienix.path',
             description: 'URL path for the gameserver product',
         }),
+        price: 'from 0.00€',
     },
     'gameserver-nightingale': {
         title: translate({
@@ -1077,6 +1165,7 @@ const servicesMap: serviceMap = {
             id: 'service.gameserver-nightingale.path',
             description: 'URL path for the gameserver product',
         }),
+        price: 'from 0.00€',
     },
     'gameserver-nmrih': {
         title: translate({
@@ -1089,6 +1178,7 @@ const servicesMap: serviceMap = {
             id: 'service.gameserver-nmrih.path',
             description: 'URL path for the gameserver product',
         }),
+        price: 'from 0.00€',
     },
     'gameserver-noonesurvived': {
         title: translate({
@@ -1101,6 +1191,7 @@ const servicesMap: serviceMap = {
             id: 'service.gameserver-noonesurvived.path',
             description: 'URL path for the gameserver product',
         }),
+        price: 'from 0.00€',
     },
     'gameserver-ohol': {
         title: translate({
@@ -1113,6 +1204,7 @@ const servicesMap: serviceMap = {
             id: 'service.gameserver-ohol.path',
             description: 'URL path for the gameserver product',
         }),
+        price: 'from 0.00€',
     },
     'gameserver-openmp': {
         title: translate({
@@ -1125,6 +1217,7 @@ const servicesMap: serviceMap = {
             id: 'service.gameserver-openmp.path',
             description: 'URL path for the gameserver product',
         }),
+        price: 'from 0.00€',
     },
     'gameserver-openttd': {
         title: translate({
@@ -1137,6 +1230,7 @@ const servicesMap: serviceMap = {
             id: 'service.gameserver-openttd.path',
             description: 'URL path for the gameserver product',
         }),
+        price: 'from 0.00€',
     },
     'gameserver-ohd': {
         title: translate({
@@ -1149,6 +1243,7 @@ const servicesMap: serviceMap = {
             id: 'service.gameserver-ohd.path',
             description: 'URL path for the gameserver product',
         }),
+        price: 'from 0.00€',
     },
     'gameserver-ootow': {
         title: translate({
@@ -1161,6 +1256,7 @@ const servicesMap: serviceMap = {
             id: 'service.gameserver-ootow.path',
             description: 'URL path for the gameserver product',
         }),
+        price: 'from 0.00€',
     },
     'gameserver-palworld': {
         title: translate({
@@ -1173,6 +1269,7 @@ const servicesMap: serviceMap = {
             id: 'service.gameserver-palworld.path',
             description: 'URL path for the gameserver product',
         }),
+        price: 'from 0.00€',
     },
     'gameserver-pathoftitans': {
         title: translate({
@@ -1185,6 +1282,7 @@ const servicesMap: serviceMap = {
             id: 'service.gameserver-pathoftitans.path',
             description: 'URL path for the gameserver product',
         }),
+        price: 'from 0.00€',
     },
     'gameserver-pixark': {
         title: translate({
@@ -1197,6 +1295,7 @@ const servicesMap: serviceMap = {
             id: 'service.gameserver-pixark.path',
             description: 'URL path for the gameserver product',
         }),
+        price: 'from 0.00€',
     },
     'gameserver-portalknights': {
         title: translate({
@@ -1209,6 +1308,7 @@ const servicesMap: serviceMap = {
             id: 'service.gameserver-portalknights.path',
             description: 'URL path for the gameserver product',
         }),
+        price: 'from 0.00€',
     },
     'gameserver-projectzomboid': {
         title: translate({
@@ -1221,6 +1321,7 @@ const servicesMap: serviceMap = {
             id: 'service.gameserver-projectzomboid.path',
             description: 'URL path for the gameserver product',
         }),
+        price: 'from 0.00€',
     },
     'gameserver-redm': {
         title: translate({
@@ -1233,6 +1334,7 @@ const servicesMap: serviceMap = {
             id: 'service.gameserver-redm.path',
             description: 'URL path for the gameserver product',
         }),
+        price: 'from 0.00€',
     },
     'gameserver-reignofkings': {
         title: translate({
@@ -1245,6 +1347,7 @@ const servicesMap: serviceMap = {
             id: 'service.gameserver-reignofkings.path',
             description: 'URL path for the gameserver product',
         }),
+        price: 'from 0.00€',
     },
     'gameserver-renown': {
         title: translate({
@@ -1257,6 +1360,7 @@ const servicesMap: serviceMap = {
             id: 'service.gameserver-renown.path',
             description: 'URL path for the gameserver product',
         }),
+        price: 'from 0.00€',
     },
     'gameserver-rimworldtogether': {
         title: translate({
@@ -1269,6 +1373,7 @@ const servicesMap: serviceMap = {
             id: 'service.gameserver-rimworldtogether.path',
             description: 'URL path for the gameserver product',
         }),
+        price: 'from 0.00€',
     },
     'gameserver-risingstorm2': {
         title: translate({
@@ -1281,6 +1386,7 @@ const servicesMap: serviceMap = {
             id: 'service.gameserver-risingstorm2.path',
             description: 'URL path for the gameserver product',
         }),
+        price: 'from 0.00€',
     },
     'gameserver-risingworld': {
         title: translate({
@@ -1293,6 +1399,7 @@ const servicesMap: serviceMap = {
             id: 'service.gameserver-risingworld.path',
             description: 'URL path for the gameserver product',
         }),
+        price: 'from 0.00€',
     },
     'gameserver-riskofrain2': {
         title: translate({
@@ -1305,6 +1412,7 @@ const servicesMap: serviceMap = {
             id: 'service.gameserver-riskofrain2.path',
             description: 'URL path for the gameserver product',
         }),
+        price: 'from 0.00€',
     },
     'gameserver-rust': {
         title: translate({
@@ -1317,6 +1425,7 @@ const servicesMap: serviceMap = {
             id: 'service.gameserver-rust.path',
             description: 'URL path for the gameserver product',
         }),
+        price: 'from 0.00€',
     },
     'gameserver-sanctuaryisland': {
         title: translate({
@@ -1329,6 +1438,7 @@ const servicesMap: serviceMap = {
             id: 'service.gameserver-sanctuaryisland.path',
             description: 'URL path for the gameserver product',
         }),
+        price: 'from 0.00€',
     },
     'gameserver-satisfactory': {
         title: translate({
@@ -1341,6 +1451,7 @@ const servicesMap: serviceMap = {
             id: 'service.gameserver-satisfactory.path',
             description: 'URL path for the gameserver product',
         }),
+        price: 'from 0.00€',
     },
     'gameserver-scp5k': {
         title: translate({
@@ -1353,6 +1464,7 @@ const servicesMap: serviceMap = {
             id: 'service.gameserver-scp5k.path',
             description: 'URL path for the gameserver product',
         }),
+        price: 'from 0.00€',
     },
     'gameserver-scp-containmentbreach': {
         title: translate({
@@ -1365,6 +1477,7 @@ const servicesMap: serviceMap = {
             id: 'service.gameserver-scp-containmentbreach.path',
             description: 'URL path for the gameserver product',
         }),
+        price: 'from 0.00€',
     },
     'gameserver-scp-escapetogether': {
         title: translate({
@@ -1377,6 +1490,7 @@ const servicesMap: serviceMap = {
             id: 'service.gameserver-scp-escapetogether.path',
             description: 'URL path for the gameserver product',
         }),
+        price: 'from 0.00€',
     },
     'gameserver-scp': {
         title: translate({
@@ -1389,6 +1503,7 @@ const servicesMap: serviceMap = {
             id: 'service.gameserver-scp.path',
             description: 'URL path for the gameserver product',
         }),
+        price: 'from 0.00€',
     },
     'gameserver-scum': {
         title: translate({
@@ -1401,6 +1516,7 @@ const servicesMap: serviceMap = {
             id: 'service.gameserver-scum.path',
             description: 'URL path for the gameserver product',
         }),
+        price: 'from 0.00€',
     },
     'gameserver-skyrim-together-reborn': {
         title: translate({
@@ -1413,6 +1529,7 @@ const servicesMap: serviceMap = {
             id: 'service.gameserver-skyrim-together-reborn.path',
             description: 'URL path for the gameserver product',
         }),
+        price: 'from 0.00€',
     },
     'gameserver-soldat': {
         title: translate({
@@ -1425,6 +1542,7 @@ const servicesMap: serviceMap = {
             id: 'service.gameserver-soldat.path',
             description: 'URL path for the gameserver product',
         }),
+        price: 'from 0.00€',
     },
     'gameserver-sonsoftheforest': {
         title: translate({
@@ -1437,6 +1555,7 @@ const servicesMap: serviceMap = {
             id: 'service.gameserver-sonsoftheforest.path',
             description: 'URL path for the gameserver product',
         }),
+        price: 'from 0.00€',
     },
     'gameserver-soulmask': {
         title: translate({
@@ -1449,6 +1568,7 @@ const servicesMap: serviceMap = {
             id: 'service.gameserver-soulmask.path',
             description: 'URL path for the gameserver product',
         }),
+        price: 'from 0.00€',
     },
     'gameserver-spaceengineers': {
         title: translate({
@@ -1461,6 +1581,7 @@ const servicesMap: serviceMap = {
             id: 'service.gameserver-spaceengineers.path',
             description: 'URL path for the gameserver product',
         }),
+        price: 'from 0.00€',
     },
     'gameserver-squad': {
         title: translate({
@@ -1473,6 +1594,7 @@ const servicesMap: serviceMap = {
             id: 'service.gameserver-squad.path',
             description: 'URL path for the gameserver product',
         }),
+        price: 'from 0.00€',
     },
     'gameserver-starbound': {
         title: translate({
@@ -1485,6 +1607,7 @@ const servicesMap: serviceMap = {
             id: 'service.gameserver-starbound.path',
             description: 'URL path for the gameserver product',
         }),
+        price: 'from 0.00€',
     },
     'gameserver-starmade': {
         title: translate({
@@ -1497,6 +1620,7 @@ const servicesMap: serviceMap = {
             id: 'service.gameserver-starmade.path',
             description: 'URL path for the gameserver product',
         }),
+        price: 'from 0.00€',
     },
     'gameserver-starrupture': {
         title: translate({
@@ -1509,6 +1633,7 @@ const servicesMap: serviceMap = {
             id: 'service.gameserver-starrupture.path',
             description: 'URL path for the gameserver product',
         }),
+        price: 'from 0.00€',
     },
     'gameserver-staxel': {
         title: translate({
@@ -1521,6 +1646,7 @@ const servicesMap: serviceMap = {
             id: 'service.gameserver-staxel.path',
             description: 'URL path for the gameserver product',
         }),
+        price: 'from 0.00€',
     },
     'gameserver-stormworks': {
         title: translate({
@@ -1533,6 +1659,7 @@ const servicesMap: serviceMap = {
             id: 'service.gameserver-stormworks.path',
             description: 'URL path for the gameserver product',
         }),
+        price: 'from 0.00€',
     },
     'gameserver-subsistence': {
         title: translate({
@@ -1545,6 +1672,7 @@ const servicesMap: serviceMap = {
             id: 'service.gameserver-subsistence.path',
             description: 'URL path for the gameserver product',
         }),
+        price: 'from 0.00€',
     },
     'gameserver-sunkenland': {
         title: translate({
@@ -1557,6 +1685,7 @@ const servicesMap: serviceMap = {
             id: 'service.gameserver-sunkenland.path',
             description: 'URL path for the gameserver product',
         }),
+        price: 'from 0.00€',
     },
     'gameserver-tf2': {
         title: translate({
@@ -1569,6 +1698,7 @@ const servicesMap: serviceMap = {
             id: 'service.gameserver-tf2.path',
             description: 'URL path for the gameserver product',
         }),
+        price: 'from 0.00€',
     },
     'gameserver-teeworlds': {
         title: translate({
@@ -1581,6 +1711,7 @@ const servicesMap: serviceMap = {
             id: 'service.gameserver-teeworlds.path',
             description: 'URL path for the gameserver product',
         }),
+        price: 'from 0.00€',
     },
     'gameserver-terraria': {
         title: translate({
@@ -1593,6 +1724,7 @@ const servicesMap: serviceMap = {
             id: 'service.gameserver-terraria.path',
             description: 'URL path for the gameserver product',
         }),
+        price: 'from 0.00€',
     },
     'gameserver-terratech-worlds': {
         title: translate({
@@ -1605,6 +1737,7 @@ const servicesMap: serviceMap = {
             id: 'service.gameserver-terratech-worlds.path',
             description: 'URL path for the gameserver product',
         }),
+        price: 'from 0.00€',
     },
     'gameserver-thebus': {
         title: translate({
@@ -1617,6 +1750,7 @@ const servicesMap: serviceMap = {
             id: 'service.gameserver-thebus.path',
             description: 'URL path for the gameserver product',
         }),
+        price: 'from 0.00€',
     },
     'gameserver-thefront': {
         title: translate({
@@ -1629,6 +1763,7 @@ const servicesMap: serviceMap = {
             id: 'service.gameserver-thefront.path',
             description: 'URL path for the gameserver product',
         }),
+        price: 'from 0.00€',
     },
     'gameserver-theisle': {
         title: translate({
@@ -1641,6 +1776,7 @@ const servicesMap: serviceMap = {
             id: 'service.gameserver-theisle.path',
             description: 'URL path for the gameserver product',
         }),
+        price: 'from 0.00€',
     },
     'gameserver-lotr-rtm': {
         title: translate({
@@ -1653,6 +1789,7 @@ const servicesMap: serviceMap = {
             id: 'service.gameserver-lotr-rtm.path',
             description: 'URL path for the gameserver product',
         }),
+        price: 'from 0.00€',
     },
     'gameserver-unturned': {
         title: translate({
@@ -1665,6 +1802,7 @@ const servicesMap: serviceMap = {
             id: 'service.gameserver-unturned.path',
             description: 'URL path for the gameserver product',
         }),
+        price: 'from 0.00€',
     },
     'gameserver-vrising': {
         title: translate({
@@ -1677,6 +1815,7 @@ const servicesMap: serviceMap = {
             id: 'service.gameserver-vrising.path',
             description: 'URL path for the gameserver product',
         }),
+        price: 'from 0.00€',
     },
     'gameserver-valheim': {
         title: translate({
@@ -1689,6 +1828,7 @@ const servicesMap: serviceMap = {
             id: 'service.gameserver-valheim.path',
             description: 'URL path for the gameserver product',
         }),
+        price: 'from 0.00€',
     },
     'gameserver-vein': {
         title: translate({
@@ -1701,6 +1841,7 @@ const servicesMap: serviceMap = {
             id: 'service.gameserver-vein.path',
             description: 'URL path for the gameserver product',
         }),
+        price: 'from 0.00€',
     },
     'gameserver-veloren': {
         title: translate({
@@ -1713,6 +1854,7 @@ const servicesMap: serviceMap = {
             id: 'service.gameserver-veloren.path',
             description: 'URL path for the gameserver product',
         }),
+        price: 'from 0.00€',
     },
     'gameserver-vintagestory': {
         title: translate({
@@ -1725,6 +1867,7 @@ const servicesMap: serviceMap = {
             id: 'service.gameserver-vintagestory.path',
             description: 'URL path for the gameserver product',
         }),
+        price: 'from 0.00€',
     },
     'gameserver-voyagers-of-nera': {
         title: translate({
@@ -1737,6 +1880,7 @@ const servicesMap: serviceMap = {
             id: 'service.gameserver-voyagers-of-nera.path',
             description: 'URL path for the gameserver product',
         }),
+        price: 'from 0.00€',
     },
     'gameserver-wreckfest': {
         title: translate({
@@ -1749,6 +1893,7 @@ const servicesMap: serviceMap = {
             id: 'service.gameserver-wreckfest.path',
             description: 'URL path for the gameserver product',
         }),
+        price: 'from 0.00€',
     },
     'gameserver-wreckfest2': {
         title: translate({
@@ -1761,6 +1906,7 @@ const servicesMap: serviceMap = {
             id: 'service.gameserver-wreckfest2.path',
             description: 'URL path for the gameserver product',
         }),
+        price: 'from 0.00€',
     },
     'gameserver-wurmunlimited': {
         title: translate({
@@ -1773,6 +1919,7 @@ const servicesMap: serviceMap = {
             id: 'service.gameserver-wurmunlimited.path',
             description: 'URL path for the gameserver product',
         }),
+        price: 'from 0.00€',
     },
 };
 
