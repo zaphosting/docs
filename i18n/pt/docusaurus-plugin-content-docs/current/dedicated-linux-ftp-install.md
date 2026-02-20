@@ -1,9 +1,10 @@
 ---
 id: dedicated-linux-ftp-install
-title: "Servidor Dedicado: Instalação de um servidor FTP"
+title: "Configure o ProFTPD em um Servidor Linux - Hospede um Serviço FTP Seguro"
 description: "Descubra como configurar e gerenciar um servidor FTP seguro no Linux com o FileZilla Server para facilitar transferências de arquivos e acesso de usuários → Saiba mais agora"
 sidebar_label: Instalar servidor FTP
 services:
+  - vserver
   - dedicated
 ---
 
@@ -25,15 +26,15 @@ Agora ainda precisamos ajustar a configuração. Para isso, digite o comando **n
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/8X4A6MZEr27YqFf/preview)
 
-As seguintes entradas devem ser adicionadas:
+Os seguintes parâmetros devem ser adicionados:
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/7ykDgQeP2qTHSbm/preview)
 
-Agora o servidor FTP precisa ser reiniciado para que as alterações tenham efeito. Isso pode ser feito com o comando: **service proftpd restart**
+Agora o servidor FTP precisa ser reiniciado para que as alterações sejam aplicadas. Isso pode ser feito com o comando: **service proftpd restart**
 
 ## Como eu adiciono um usuário FTP?
 
-Para criar o novo usuário FTP, primeiro precisamos criar um grupo FTP. Fazemos isso com o comando **addgroup ftpuser**. Vai ficar assim:
+Para criar um novo usuário FTP, primeiro precisamos criar um grupo FTP. Fazemos isso com o comando **addgroup ftpuser**. Vai ficar assim:
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/eQ2yfySHYx3Wzcp/preview)
 

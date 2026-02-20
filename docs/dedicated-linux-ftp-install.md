@@ -1,6 +1,6 @@
 ---
 id: dedicated-linux-ftp-install
-title: "Installation of a FTP server"
+title: "Setup ProFTPD on a Linux Server - Host a Secure FTP Service"
 description: "Discover how to set up and manage a secure FTP server on Linux with FileZilla Server to streamline file transfers and user access → Learn more now"
 sidebar_label: Install FTP server
 services:

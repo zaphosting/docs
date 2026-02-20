@@ -1,10 +1,11 @@
 ---
 id: vserver-linux-nextcloud
-title: "VPS: Instalação do Nextcloud"
-description: "Descubra como configurar um servidor Nextcloud de alta performance no Linux para hospedagem em nuvem ideal → Saiba mais agora"
+title: "Configure o Nextcloud em um Servidor Linux - Monte Sua Nuvem Privada"
+description: "Descubra como configurar um servidor Nextcloud de alta performance no Linux para hospedagem de nuvem ideal → Saiba mais agora"
 sidebar_label: Instalar Nextcloud
 services:
   - vserver
+  - dedicated
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';
@@ -21,15 +22,15 @@ Para alcançar desempenho, estabilidade e funcionalidade ideais, a seguinte conf
 
 ## Preparação
 
-Os seguintes requisitos são recomendados pelos desenvolvedores e baseados em nossa própria experiência. Você pode enfrentar problemas se não cumprir esses pré-requisitos.
+Os seguintes requisitos são recomendados pelos desenvolvedores e baseados na nossa própria experiência. Você pode enfrentar problemas se não cumprir esses pré-requisitos.
 
 #### Hardware
 
-| Componentes   | Mínimo                 | Recomendado                 |
-| ------------- | ---------------------- | --------------------------- |
-| CPU           | 2x 1 GHz               | 4x 2+ GHz                   |
-| RAM           | 512 MB                 | 4+ GB                       |
-| Armazenamento | 10 GB                  | 50+ GB                      |
+| Componentes   | Mínimo                | Recomendado                  |
+| ------------ | --------------------- | ---------------------------- |
+| CPU          | 2x 1 GHz              | 4x 2+ GHz                   |
+| RAM          | 512 MB                | 4+ GB                       |
+| Armazenamento| 10 GB                 | 50+ GB                      |
 | Largura de banda | 100 mbit/s (upload & download) | 500mbit/s (upload & download) Recomendado se vários usuários forem usar a nuvem |
 
 #### Software
@@ -43,7 +44,7 @@ Os seguintes requisitos são recomendados pelos desenvolvedores e baseados em no
 
 É necessário estabelecer uma conexão via cliente SSH para instalar a nuvem em um servidor Linux. Caso não saiba usar SSH, aqui está um guia de como fazer: [Acesso inicial (SSH)](vserver-linux-ssh.md)
 
-Uma vez estabelecida a conexão, você pode começar a instalar os pacotes necessários para a instalação do Nextcloud. Isso inclui a instalação de um servidor web e PHP.
+Uma vez conectando, você pode começar a instalar os pacotes necessários para a instalação do Nextcloud. Isso inclui a instalação de um servidor web e PHP.
 
 
 import Tabs from '@theme/Tabs';
@@ -271,7 +272,7 @@ Instalação do pacote:
 sudo apt-get install mariadb-server php-mysql
 ```
 
-Durante a instalação, será solicitado que você defina uma senha para o usuário root. Se não for solicitado, a senha padrão é vazia. Isso não é seguro e deve ser alterado imediatamente!
+Durante a instalação, será solicitado que você defina uma senha root. Se não houver solicitação de senha, a senha padrão é vazia. Isso não é seguro e deve ser alterado imediatamente!
 
 O próximo passo é conectar ao servidor de banco de dados e criar o banco necessário:
 
@@ -280,7 +281,7 @@ mysql -u root -p
 CREATE DATABASE nextcloud;
 ```
 
-Depois, crie um usuário que terá acesso ao banco Nextcloud:
+Depois, crie um usuário que terá acesso ao banco Nextcloud.
 
 ```sql
 CREATE USER 'nc_user'@'localhost' IDENTIFIED BY 'SUA_SENHA_AQUI';
@@ -310,7 +311,7 @@ Instalação do pacote:
 sudo apt-get install mysql-server php-mysql
 ```
 
-Durante a instalação, será solicitado que você defina uma senha para o usuário root. Se não for solicitado, a senha padrão é vazia. Isso não é seguro e deve ser alterado imediatamente!
+Durante a instalação, será solicitado que você defina uma senha root. Se não houver solicitação de senha, a senha padrão é vazia. Isso não é seguro e deve ser alterado imediatamente!
 
 O próximo passo é conectar ao servidor de banco de dados e criar o banco necessário:
 
@@ -319,7 +320,7 @@ mysql -u root -p
 CREATE DATABASE nextcloud;
 ```
 
-Depois, crie um usuário que terá acesso ao banco Nextcloud:
+Depois, crie um usuário que terá acesso ao banco Nextcloud.
 
 ```sql
 CREATE USER 'nc_user'@'localhost' IDENTIFIED BY 'SUA_SENHA_AQUI';
@@ -350,7 +351,7 @@ sudo apt-get update
 sudo apt-get install postgresql postgresql-contrib
 ```
 
-Durante a instalação, será solicitado que você defina uma senha para o usuário root. Se não for solicitado, a senha padrão é vazia. Isso não é seguro e deve ser alterado imediatamente!
+Durante a instalação, será solicitado que você defina uma senha root. Se não houver solicitação de senha, a senha padrão é vazia. Isso não é seguro e deve ser alterado imediatamente!
 
 O próximo passo é conectar ao servidor de banco de dados e criar o banco necessário:
 
@@ -359,7 +360,7 @@ sudo -u postgres psql
 CREATE DATABASE nextcloud;
 ```
 
-Depois, crie um usuário que terá acesso ao banco Nextcloud:
+Depois, crie um usuário que terá acesso ao banco Nextcloud.
 
 ```sql
 CREATE USER nextcloud with encrypted password 'SUA_SENHA_AQUI';
@@ -376,7 +377,7 @@ grant all privileges on database mydb to myuser;
 FLUSH PRIVILEGES;
 ```
 
-Quando terminar, pressione Ctrl-D para sair do banco. Depois você pode modificar o banco PostgreSQL via instalador web ou pelo arquivo **config.php**.
+Quando terminar, pressione Ctrl-D para sair do banco. Depois, você pode modificar o banco PostgreSQL via instalador web ou pelo arquivo **config.php**.
 
 ```
 <?php
@@ -446,15 +447,15 @@ A configuração do script de instalação aparece, onde um usuário root é cri
 
 ## Segurança e proteção
 
-**Avisos de configuração**
+**Avisos de Configuração**
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/nat3Fekj6MRP8Nw/preview)
 
 
 
-**Diretório de dados**
+**Diretório de Dados**
 
-É altamente recomendado colocar o diretório de dados fora do diretório raiz web (ou seja, fora de /var/www). A forma mais fácil de fazer isso é numa instalação nova. O diretório pode ser definido durante a configuração. Porém, o diretório deve ser criado antes e as permissões correspondentes configuradas. Os dados podem, por exemplo, ser armazenados em um diretório chamado Cloud dentro do diretório home.
+É altamente recomendado colocar o diretório de dados fora do diretório raiz web (ou seja, fora de /var/www). A forma mais fácil é numa instalação nova. O diretório pode ser definido durante a configuração. Porém, o diretório deve ser criado antes e as permissões correspondentes configuradas. Os dados podem, por exemplo, ser armazenados em um diretório chamado Cloud no diretório home.
 
 
 ```
@@ -515,15 +516,15 @@ Além disso, todo o tráfego HTTP deve ser redirecionado para HTTPS usando um re
 
 ## Gerenciar Nextcloud
 
-O acesso ao Nextcloud é possível via navegador, assim como via smartphone e computador usando o app. As fontes para download estão aqui: https://nextcloud.com/install/#install-clients
+O acesso ao Nextcloud é possível via navegador, assim como pelo smartphone e computador usando o app. As fontes para download estão aqui: https://nextcloud.com/install/#install-clients
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/aw6qpNE7TkwQeaP/preview)
 
-Nas configurações você pode ajustar várias opções mesmo após a instalação e visualizar informações importantes como logs e atividades. Isso inclui configurações adicionais de segurança (autenticação em dois fatores, criptografia, ...), configurações de design (logo, cor, slogan, cabeçalho), configurações de acesso e muito mais.
+Nas configurações você pode ajustar várias opções mesmo após a instalação e ver informações importantes como logs, atividades. Isso inclui configurações extras de segurança (autenticação em dois fatores, criptografia, ... ), configurações de design (logo, cor, slogan, cabeçalho), configurações de acesso e muito mais.
 
 **Apps**
 
-Além disso, existe a possibilidade de instalar apps adicionais além dos apps padrão. Você pode acessá-los pelo menu **Apps**.
+Além disso, existe a possibilidade de instalar apps adicionais além dos padrões. Você pode acessá-los pelo menu **Apps**.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/wKERd24E25668kt/preview)
 

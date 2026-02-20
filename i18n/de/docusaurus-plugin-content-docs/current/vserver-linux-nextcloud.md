@@ -1,10 +1,11 @@
 ---
 id: vserver-linux-nextcloud
-title: "vServer: Installation von Nextcloud"
+title: "Nextcloud auf einem Linux Server einrichten – Baue deine private Cloud"
 description: "Entdecke, wie du einen leistungsstarken Nextcloud-Server auf Linux für optimales Cloud-Hosting einrichtest → Jetzt mehr erfahren"
 sidebar_label: Nextcloud installieren
 services:
   - vserver
+  - dedicated
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';
@@ -15,35 +16,35 @@ Nextcloud ist eine Open-Source-Cloud-Lösung und ein Fork von Owncloud, gegründ
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/kCndbKaFAaktERk/preview)
 
-Um optimale Performance, Stabilität und Funktionalität zu gewährleisten, wird folgende Konfiguration für das Hosting eines Nextcloud-Servers empfohlen. Der Nextcloud-Server ist nicht kompatibel mit Windows und MacOS. Zumindest nicht ohne zusätzliche Virtualisierung oder ähnliche Workarounds.
+Für optimale Performance, Stabilität und Funktionalität empfehlen wir folgendes Setup für das Hosting eines Nextcloud Servers. Der Nextcloud Server ist nicht kompatibel mit Windows und MacOS. Zumindest nicht ohne zusätzliche Virtualisierung oder ähnliche Workarounds.
 
 <InlineVoucher />
 
 ## Vorbereitung
 
-Die folgenden Anforderungen werden von den Entwicklern empfohlen und basieren auf unseren eigenen Erfahrungen. Probleme können auftreten, wenn diese Voraussetzungen nicht erfüllt werden.
+Die folgenden Anforderungen werden von den Entwicklern empfohlen und basieren auf unseren eigenen Erfahrungen. Wenn du diese Voraussetzungen nicht erfüllst, kann es zu Problemen kommen.
 
 #### Hardware
 
-| Komponenten     | Minimum                | Empfohlen                  |
-| -------------- | ---------------------- | -------------------------- |
-| CPU            | 2x 1 GHz               | 4x 2+ GHz                  |
-| RAM            | 512 MB                 | 4+ GB                      |
-| Speicher       | 10 GB                  | 50+ GB                     |
+| Komponenten     | Minimum                | Empfohlen                   |
+| -------------- | ---------------------- | --------------------------- |
+| CPU            | 2x 1 GHz               | 4x 2+ GHz                   |
+| RAM            | 512 MB                 | 4+ GB                       |
+| Speicher       | 10 GB                  | 50+ GB                      |
 | Bandbreite     | 100 Mbit/s (Up & Down) | 500 Mbit/s (Up & Down) Empfohlen, wenn mehrere Nutzer die Cloud verwenden sollen |
 
 #### Software
 
 | Plattform         | Optionen                                                      |
 | ---------------- | ------------------------------------------------------------ |
-| Betriebssystem   | Ubuntu (14.04, 16.04, 18.04), Debian (8,9,10), CentOS 6.5/7  |
+| Betriebssystem   | Ubuntu (14.04, 16.04, 18.04), Debian (8,9,10), CentOS 6.5/7   |
 | Datenbank        | MySQL oder MariaDB 5.5+ (empfohlen), SQLite (nur für Tests und Minimal-Instanzen empfohlen) |
-| Webserver        | Apache 2.4 mit `mod_php` oder `php-fpm` (empfohlen)          |
+| Webserver        | Apache 2.4 mit `mod_php` oder `php-fpm` (empfohlen)           |
 | PHP              | 5.6, 7.0 (empfohlen), 7.1 (empfohlen), 7.2                   |
 
-Für die Installation der Cloud auf einem Linux-Server muss eine Verbindung über einen SSH-Client hergestellt werden. Falls du nicht sicher bist, wie SSH funktioniert, hier eine Anleitung: [Erstzugang (SSH)](vserver-linux-ssh.md)
+Um die Cloud auf einem Linux Server zu installieren, musst du dich per SSH-Client verbinden. Falls du nicht weißt, wie SSH funktioniert, hier eine Anleitung: [Erstzugang (SSH)](vserver-linux-ssh.md)
 
-Sobald die Verbindung steht, kannst du die notwendigen Pakete installieren, die für die eigentliche Nextcloud-Installation benötigt werden. Dazu gehört die Installation eines Webservers sowie PHP.
+Sobald die Verbindung steht, kannst du die nötigen Pakete installieren, die für die Nextcloud-Installation gebraucht werden. Dazu gehört die Installation eines Webservers und PHP.
 
 
 import Tabs from '@theme/Tabs';
@@ -102,7 +103,7 @@ sudo apt -y install php php-common
 sudo apt -y install php-cli php-fpm php-json php-pdo php-mysql php-zip php-gd  php-mbstring php-curl php-xml php-pear php-bcmath
 ```
 
-PHP-Version zur Funktionsprüfung anzeigen
+PHP-Version prüfen:
 ```
 php -v
 ```
@@ -164,7 +165,7 @@ sudo apt-get install -y php7.3
 sudo apt install php7.3-cli php7.3-fpm php7.3-json php7.3-pdo php7.3-mysql php7.3-zip php7.3-gd  php7.3-mbstring php7.3-curl php7.3-xml php7.3-bcmath php7.3-json
 ```
 
-PHP-Version zur Funktionsprüfung anzeigen
+PHP-Version prüfen:
 ```
 php -v
 ```
@@ -248,7 +249,7 @@ dnf module enable php:remi-7.3
 dnf install php
 ```
 
-PHP-Version zur Funktionsprüfung anzeigen
+PHP-Version prüfen:
 ```
 php -v
 ```
@@ -271,7 +272,7 @@ Paketinstallation:
 sudo apt-get install mariadb-server php-mysql
 ```
 
-Während der Installation wirst du aufgefordert, ein Root-Passwort zu setzen. Falls keine Passwortabfrage erscheint, ist das Standardpasswort leer. Das ist nicht sicher und sollte daher sofort geändert werden!
+Während der Installation wirst du aufgefordert, ein Root-Passwort zu setzen. Falls keine Passwortabfrage erscheint, ist das Standardpasswort leer. Das ist unsicher und sollte sofort geändert werden!
 
 Als nächstes verbindest du dich mit dem Datenbankserver und erstellst die benötigte Datenbank:
 
@@ -280,7 +281,7 @@ mysql -u root -p
 CREATE DATABASE nextcloud;
 ```
 
-Danach muss ein Benutzer erstellt werden, der Zugriff auf die Nextcloud-Datenbank erhält.
+Danach muss ein Benutzer erstellt werden, der Zugriff auf die Nextcloud-Datenbank bekommt:
 
 ```sql
 CREATE USER 'nc_user'@'localhost' IDENTIFIED BY 'DEIN_PASSWORT_HIER';
@@ -297,7 +298,7 @@ GRANT ALL PRIVILEGES ON nextcloud.* TO 'nc_user'@'localhost';
 FLUSH PRIVILEGES;
 ```
 
-Wenn du fertig bist, kannst du mit Strg-D die Datenbank verlassen und mit den nächsten Schritten weitermachen.
+Wenn du fertig bist, kannst du mit Ctrl-D die Datenbank verlassen und mit den nächsten Schritten weitermachen.
 
 </TabItem>
 <TabItem value="MySQL" label="MySQL">
@@ -310,7 +311,7 @@ Paketinstallation:
 sudo apt-get install mysql-server php-mysql
 ```
 
-Während der Installation wirst du aufgefordert, ein Root-Passwort zu setzen. Falls keine Passwortabfrage erscheint, ist das Standardpasswort leer. Das ist nicht sicher und sollte daher sofort geändert werden!
+Während der Installation wirst du aufgefordert, ein Root-Passwort zu setzen. Falls keine Passwortabfrage erscheint, ist das Standardpasswort leer. Das ist unsicher und sollte sofort geändert werden!
 
 Als nächstes verbindest du dich mit dem Datenbankserver und erstellst die benötigte Datenbank:
 
@@ -319,7 +320,7 @@ mysql -u root -p
 CREATE DATABASE nextcloud;
 ```
 
-Danach muss ein Benutzer erstellt werden, der Zugriff auf die Nextcloud-Datenbank erhält.
+Danach muss ein Benutzer erstellt werden, der Zugriff auf die Nextcloud-Datenbank bekommt:
 
 ```sql
 CREATE USER 'nc_user'@'localhost' IDENTIFIED BY 'DEIN_PASSWORT_HIER';
@@ -337,7 +338,7 @@ GRANT ALL PRIVILEGES ON nextcloud.* TO 'nc_user'@'localhost';
 FLUSH PRIVILEGES;
 ```
 
-Wenn du fertig bist, kannst du mit Strg-D die Datenbank verlassen und mit den nächsten Schritten weitermachen.
+Wenn du fertig bist, kannst du mit Ctrl-D die Datenbank verlassen und mit den nächsten Schritten weitermachen.
 
 </TabItem>
 <TabItem value="PostgreSQL" label="PostgreSQL">
@@ -350,7 +351,7 @@ sudo apt-get update
 sudo apt-get install postgresql postgresql-contrib
 ```
 
-Während der Installation wirst du aufgefordert, ein Root-Passwort zu setzen. Falls keine Passwortabfrage erscheint, ist das Standardpasswort leer. Das ist nicht sicher und sollte daher sofort geändert werden!
+Während der Installation wirst du aufgefordert, ein Root-Passwort zu setzen. Falls keine Passwortabfrage erscheint, ist das Standardpasswort leer. Das ist unsicher und sollte sofort geändert werden!
 
 Als nächstes verbindest du dich mit dem Datenbankserver und erstellst die benötigte Datenbank:
 
@@ -359,7 +360,7 @@ sudo -u postgres psql
 CREATE DATABASE nextcloud;
 ```
 
-Danach muss ein Benutzer erstellt werden, der Zugriff auf die Nextcloud-Datenbank erhält.
+Danach muss ein Benutzer erstellt werden, der Zugriff auf die Nextcloud-Datenbank bekommt:
 
 ```sql
 CREATE USER nextcloud with encrypted password 'DEIN_PASSWORT_HIER';
@@ -376,7 +377,7 @@ grant all privileges on database mydb to myuser;
 FLUSH PRIVILEGES;
 ```
 
-Wenn du fertig bist, kannst du mit Strg-D die Datenbank verlassen. Danach kannst du die PostgreSQL-Datenbank entweder über den Webinstaller oder über die **config.php** konfigurieren.
+Wenn du fertig bist, kannst du mit Ctrl-D die Datenbank verlassen. Danach kannst du die PostgreSQL-Datenbank entweder über den Webinstaller oder über die **config.php** konfigurieren.
 
 ```
 <?php
@@ -401,7 +402,7 @@ Paketinstallation:
 apt-get install sqlite3 php-sqlite3
 ```
 
-Neue SQLite 3 Datenbank erstellen
+Neue SQLite 3 Datenbank erstellen:
 ```
 sqlite3 DatabaseName.db
 ```
@@ -466,7 +467,7 @@ chown -R www-data:www-data /home/cloud/
 
 **HTTPS via SSL-Zertifikat (Let's Encrypt)** 
 
-Eine gute Cloud-Lösung sollte nur über eine SSL-Verbindung erreichbar sein. Ohne SSL-Verschlüsselung werden Daten und Informationen im Klartext übertragen. Solche Informationen können leicht und schnell abgefangen und ohne Verschlüsselung gelesen werden.
+Eine gute Cloud-Lösung sollte nur über eine SSL-Verbindung erreichbar sein. Ohne SSL-Verschlüsselung werden Daten und Informationen im Klartext übertragen. Solche Infos können leicht und schnell abgefangen und ohne Verschlüsselung gelesen werden.
 
 ```
 <IfModule mod_ssl.c>
@@ -503,7 +504,7 @@ SSLCertificateKeyFile /etc/letsencrypt/live/domain.tld/privkey.pem
 
 
 
-Außerdem sollte sämtlicher HTTP-Traffic per permanenter Weiterleitung mit Statuscode 301 auf HTTPS umgeleitet werden. Das lässt sich mit Apache über eine Konfiguration wie die folgende VirtualHosts-Konfiguration erreichen:
+Außerdem sollte sämtlicher HTTP-Traffic per permanentem Redirect mit Statuscode 301 auf HTTPS umgeleitet werden. Das erreichst du mit Apache z.B. durch folgende VirtualHosts-Konfiguration:
 
 ```
 <VirtualHost *:80>
@@ -515,15 +516,15 @@ Außerdem sollte sämtlicher HTTP-Traffic per permanenter Weiterleitung mit Stat
 
 ## Nextcloud verwalten
 
-Der Zugriff auf Nextcloud ist sowohl über den Browser als auch über Smartphone und PC mit der App möglich. Die Downloadquellen findest du hier: https://nextcloud.com/install/#install-clients
+Der Zugriff auf Nextcloud ist über den Browser sowie über Smartphone und PC per App möglich. Die Downloadquellen findest du hier: https://nextcloud.com/install/#install-clients
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/aw6qpNE7TkwQeaP/preview)
 
-Unter Einstellungen kannst du auch nach der Einrichtung noch einige Optionen anpassen und wichtige Infos wie Logs, Aktivitäten einsehen. Dazu gehören zusätzliche Sicherheitsoptionen (Zwei-Faktor-Authentifizierung, Verschlüsselung, ...), Design-Einstellungen (Logo, Farbe, Slogan, Header), Zugriffsrechte und vieles mehr.
+Unter den Einstellungen kannst du auch nach der Einrichtung noch einige Optionen anpassen und wichtige Infos wie Logs, Aktivitäten einsehen. Dazu gehören zusätzliche Sicherheitsfeatures (Zwei-Faktor-Authentifizierung, Verschlüsselung, ...), Design-Einstellungen (Logo, Farbe, Slogan, Header), Zugriffsrechte und vieles mehr.
 
 **Apps**
 
-Außerdem gibt es die Möglichkeit, neben den Standard-Apps weitere Apps zu installieren. Diese erreichst du über den Menüpunkt **Apps**.
+Außerdem kannst du neben den Standard-Apps weitere Apps installieren. Diese findest du im Menüpunkt **Apps**.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/wKERd24E25668kt/preview)
 

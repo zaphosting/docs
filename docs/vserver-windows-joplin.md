@@ -1,6 +1,6 @@
 ---
 id: vserver-windows-joplin
-title: "Setup Joplin on Windows"
+title: "Setup Joplin Server on a Windows Server - Host Your Own Secure Notes Platform"
 description: "Discover how to organize and sync encrypted Markdown notes across devices with Joplin for secure, flexible note-taking → Learn more now"
 sidebar_label: Install Joplin
 services:

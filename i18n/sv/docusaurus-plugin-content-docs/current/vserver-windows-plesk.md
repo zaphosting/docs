@@ -1,10 +1,11 @@
 ---
 id: vserver-windows-plesk
-title: "VPS: Installation av Plesk"
-description: "Upptäck hur du effektivt hanterar webbplatser och servrar med Plesks mångsidiga plattform för både nybörjare och proffs → Lär dig mer nu"
+title: "Installera Plesk på en Windows Server - Hantera Webbplatser med ett Kraftfullt Kontrollpanel"
+description: "Upptäck hur du enkelt hanterar webbplatser och servrar med Plesks mångsidiga plattform för både nybörjare och proffs → Läs mer nu"
 sidebar_label: Installera Plesk
 services:
   - vserver
+  - dedicated
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';
@@ -21,7 +22,7 @@ För att installera Plesk på servern behöver du först ansluta till den. Hur d
 
 ## Plesk Installer
 
-Nästa steg är att skaffa Plesk Installer, som krävs för att installera Plesk. Den kan laddas ner genom att klicka på [Plesk Installer](https://installer-win.plesk.com/plesk-installer.exe)
+Nästa steg är att ladda ner Plesk Installer, som krävs för att installera Plesk. Du kan ladda ner den genom att klicka på [Plesk Installer](https://installer-win.plesk.com/plesk-installer.exe)
 
 Installationsfilen sparas nu i en mapp, i vårt exempel använder vi en "Plesk"-mapp som vi skapat på skrivbordet. Sökvägen till den här filen är viktig för nästa steg.
 
@@ -29,8 +30,7 @@ Installationsfilen sparas nu i en mapp, i vårt exempel använder vi en "Plesk"-
 
 ### Öppna Kommandotolken
 
-Nu måste CMD-konsolen öppnas för installationen.  
-Det gör du enklast med tangentkombinationen [Windows] + [R] eller genom att söka på "command" i Windows startmeny.
+Nu måste CMD-konsolen öppnas för installationen. Det gör du enklast med kortkommandot [Windows] + [R] eller genom att söka på "command" i Windows-sökfältet.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/Bxy33gxjASsf5G3/preview)
 
@@ -38,7 +38,7 @@ Det gör du enklast med tangentkombinationen [Windows] + [R] eller genom att sö
 
 I CMD-konsolen navigerar du till mappen där Plesk-installationsfilen ligger. I vårt exempel är det "Plesk"-mappen på skrivbordet.
 
-Du går in i mappen med kommandot "*cd*".
+Du byter mapp i CMD med kommandot "*cd*".
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/QzQmFzpi3SDQbbE/preview)
 
@@ -55,6 +55,6 @@ Installationen kan ta mellan 30 och 60 minuter. När den är klar är Plesk inst
 
 ## Avslutning
 
-Grattis, du har nu installerat och konfigurerat Plesk på din VPS! Har du fler frågor eller stöter på problem är vårt supportteam redo att hjälpa dig varje dag!
+Grattis, du har nu installerat och konfigurerat Plesk på din VPS/Dedikerade Server! Har du fler frågor eller stöter på problem, tveka inte att kontakta vår support som finns tillgänglig varje dag för att hjälpa dig!
 
 <InlineVoucher />

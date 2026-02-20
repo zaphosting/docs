@@ -1,6 +1,6 @@
 ---
 id: vserver-linux-cockpit
-title: "Installation of Cockpit "
+title: "Setup Cockpit on a Linux Server - Manage Your Server via Web Interface"
 description: "Discover how to manage Linux servers efficiently with Cockpit’s web interface for beginners and experts alike → Learn more now"
 sidebar_label: Install Cockpit
 services:

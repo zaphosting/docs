@@ -1,6 +1,6 @@
 ---
 id: dedicated-linux-mastodon
-title: "Installation of Mastodon"
+title: "Setup Mastodon on a Linux Server - Launch Your Own Social Networking Platform"
 description: "Discover how to set up a secure, self-hosted Mastodon social network on Debian-based servers for independent microblogging → Learn more now"
 sidebar_label: Install Mastodon
 services:

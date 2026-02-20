@@ -1,6 +1,6 @@
 ---
 id: dedicated-linux-wordpress
-title: "Installation of WordPress"
+title: "Setup WordPress on a Linux Server - Launch Your Own Website or Blog"
 description: "Discover how to install WordPress on a Linux server using the LAMP stack to build and manage your website efficiently → Learn more now"
 sidebar_label: Install WordPress
 services:

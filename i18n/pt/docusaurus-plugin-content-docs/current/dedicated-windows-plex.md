@@ -1,9 +1,10 @@
 ---
 id: dedicated-windows-plex
-title: "Servidor Dedicado: Configurar Plex no Windows"
-description: "Descubra como gerenciar e transmitir sua mídia pessoal facilmente com o Plex para acesso tranquilo em todos os dispositivos → Saiba mais agora"
+title: "Configure o Plex em um Servidor Windows - Transmita Sua Biblioteca de Mídia Pessoal"
+description: "Descubra como gerenciar e transmitir sua mídia pessoal facilmente com o Plex para acesso perfeito em todos os dispositivos → Saiba mais agora"
 sidebar_label: Instalar Plex
 services:
+  - vserver
   - dedicated
 ---
 
@@ -17,7 +18,7 @@ Plex é uma plataforma para gerenciar e transmitir conteúdo de mídia como film
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/68xdESEHimoY9Jp/preview)
 
-Pensando em hospedar esse serviço você mesmo? Vamos te guiar em cada passo para configurar e ajustar tudo, além de te mostrar tudo que precisa ficar de olho.
+Pensando em hospedar esse serviço por conta própria? Vamos te guiar em cada passo para configurar e ajustar tudo, além de te mostrar o que é importante ficar de olho.
 
 ## Requisitos
 
@@ -25,11 +26,11 @@ Antes de instalar o **Plex**, certifique-se de que seu ambiente de hospedagem at
 
 | Hardware   | Mínimo      | Recomendação ZAP-Hosting |
 | ---------- | ------------ | ------------------------ |
-| CPU        | 4 núcleos vCPU | 8 núcleos vCPU          |
+| CPU        | 4 núcleos vCPU | 8 núcleos vCPU           |
 | RAM        | 4 GB         | 8 GB                     |
-| Espaço em disco | 25GB         | 25 GB                    |
+| Espaço em disco | 25 GB         | 25 GB                    |
 
-O software exige que todas as dependências necessárias estejam instaladas e que esteja rodando em um sistema operacional suportado. Confira se seu servidor atende aos seguintes requisitos antes de continuar com a instalação:
+O software exige que todas as dependências necessárias estejam instaladas e que esteja rodando em um sistema operacional suportado. Confira se seu servidor atende aos requisitos abaixo antes de continuar com a instalação:
 
 **Dependências:** Nenhuma
 
@@ -43,7 +44,7 @@ O site oficial do Plex Media oferece a versão atual para Windows do Plex Media 
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/d3b4mZsiQ4iqXrL/preview)
 
-Após o download, execute o instalador para configurar o Plex Media Server. Depois de instalado, a configuração é feita pela interface web no navegador, onde você pode criar bibliotecas e gerenciar sua coleção de mídia.
+Após o download, execute o instalador para configurar o Plex Media Server. Depois de instalado, a configuração é feita pela interface web no navegador, onde você poderá criar bibliotecas e gerenciar sua coleção de mídia.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/5TnmMeRkdLAt2RJ/download)
 
@@ -57,13 +58,13 @@ Depois da configuração, você também pode acessar seu Plex Media Server exter
 
 A porta 32400 é a porta padrão para acesso web do Plex e pode precisar ser liberada no seu firewall ou roteador caso queira conectar pela internet.
 
-Ao acessar esse endereço, você será redirecionado para a página de login do Plex, onde poderá gerenciar suas bibliotecas e configurações. Para acesso externo seguro, recomendamos ativar o Acesso Remoto nas configurações do Plex, garantindo uma conexão criptografada e que o tráfego seja roteado pelo serviço Plex.
+Ao acessar esse endereço, você será redirecionado para a página de login do Plex, onde poderá gerenciar suas bibliotecas e configurações. Para acesso externo seguro, recomendamos ativar o Acesso Remoto nas configurações do Plex, garantindo uma conexão criptografada e o tráfego sendo roteado pelo serviço Plex.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/jfQxZ6e4BGMfen5/preview)
 
 ## Conclusão e mais Recursos
 
-Parabéns! Você instalou e configurou com sucesso o Plex no seu Servidor Dedicado. Também recomendamos dar uma olhada nos seguintes recursos, que podem te ajudar ainda mais durante a configuração do seu servidor:
+Parabéns! Você instalou e configurou com sucesso o Plex no seu VPS/servidor dedicado. Também recomendamos dar uma olhada nos seguintes recursos, que podem te ajudar ainda mais durante a configuração do seu servidor:
 
 - [Plex.com](https://Plex.com/) - Site Oficial
 - [support.plex.tv/articles/](https://support.plex.tv/articles/) - Central de Ajuda Plex (Documentação)

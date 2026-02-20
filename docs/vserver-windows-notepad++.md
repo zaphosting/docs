@@ -1,6 +1,6 @@
 ---
 id: vserver-windows-notepad++
-title: "Setup Notepad++ on Windows"
+title: "Setup Notepad++ on a Windows Server - Use a Powerful Code and Text Editor"
 description: "Discover how to use Notepad++ for efficient coding with customizable features and fast performance → Learn more now"
 sidebar_label: Install Notepad++
 services:

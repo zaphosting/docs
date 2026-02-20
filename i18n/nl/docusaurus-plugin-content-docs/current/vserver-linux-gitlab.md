@@ -1,10 +1,11 @@
 ---
 id: vserver-linux-gitlab
-title: "VPS: GitLab installeren op Linux"
+title: "GitLab installeren op een Linux Server - Host je eigen DevOps Platform"
 description: "Ontdek hoe je GitLab efficiënt installeert op Linux om DevOps workflows te stroomlijnen en team samenwerking te verbeteren → Leer het nu"
-sidebar_label: GitLab installeren
+sidebar_label: GitLab Installeren
 services:
   - vserver
+  - dedicated
 ---
 
 import Tabs from '@theme/Tabs';
@@ -21,7 +22,7 @@ GitLab is een complete DevOps-platform waarmee teams kunnen samenwerken aan code
 
 ## Voorbereiding
 
-De volgende vereisten worden aanbevolen door het officiële [GitLab Team](https://docs.gitlab.com/ee/install/requirements.html) en het is sterk aan te raden deze vooraf te volgen om ongemakken en problemen later te voorkomen.
+De volgende vereisten worden aanbevolen door het officiële [GitLab Team](https://docs.gitlab.com/ee/install/requirements.html) en het is sterk aan te raden deze vooraf te volgen om later problemen en ongemakken te voorkomen.
 
 #### Hardware
 
@@ -42,12 +43,12 @@ De volgende vereisten worden aanbevolen door het officiële [GitLab Team](https:
 | Overig           | Redis 7.x+, Sidekiq 7.3.2+, Prometheus 2.54.1+              |
 
 :::info
-Voor de meest accurate en actuele specificaties, check de officiële [Hardware Requirements](https://docs.gitlab.com/ee/install/requirements.html) van GitLab.
+Voor de meest accurate en actuele specificaties, raadpleeg de officiële [Hardware Requirements](https://docs.gitlab.com/ee/install/requirements.html) van GitLab.
 :::
 
-Je moet via een SSH-client verbinding maken om GitLab op je Linux-server te installeren. Bekijk onze [Eerste toegang (SSH)](vserver-linux-ssh.md) gids voor meer info hierover.
+Je moet via een SSH-client verbinding maken om GitLab op je Linux-server te installeren. Bekijk onze [Eerste toegang (SSH)](vserver-linux-ssh.md) gids voor meer info.
 
-Zodra de verbinding staat, kun je beginnen met het installeren van de benodigde pakketten voor de daadwerkelijke GitLab-installatie.
+Zodra de verbinding staat, kun je de benodigde pakketten installeren die nodig zijn voor de daadwerkelijke GitLab-installatie.
 
 ## Stap 1: Dependencies installeren
 
@@ -138,21 +139,21 @@ sudo systemctl start postfix
 </Tabs>
 
 :::info
-Tijdens de installatie van Postfix kan een configuratiescherm verschijnen. Kies hier voor 'Internet Site' en druk op enter. Gebruik de externe DNS van je Linux-server als 'mail name' en druk op enter. Als er meer schermen verschijnen, druk dan steeds op enter om de standaardinstellingen te accepteren.
+Tijdens de installatie van Postfix kan een configuratiescherm verschijnen. Kies hier 'Internet Site' en druk op enter. Gebruik de externe DNS van je Linux-server als 'mail name' en druk op enter. Als er meer schermen verschijnen, druk dan steeds op enter om de standaardinstellingen te accepteren.
 
-Wil je een andere oplossing gebruiken voor e-mail, sla deze stap dan over en [configureer een externe SMTP-server](https://docs.gitlab.com/omnibus/settings/smtp) nadat GitLab is geïnstalleerd, volgens de officiële GitLab-gids.
+Wil je een andere oplossing gebruiken voor e-mail, sla deze stap dan over en [configureer een externe SMTP-server](https://docs.gitlab.com/omnibus/settings/smtp) nadat GitLab is geïnstalleerd, volgens de officiële GitLab gids.
 :::
 
 ## Stap 2: GitLab installeren
 
-Na het downloaden en installeren van alle benodigde dependencies ben je klaar om GitLab te installeren.
+Na het downloaden en installeren van alle vereiste dependencies ben je klaar om GitLab te installeren.
 
-In deze gids installeren we GitLab rechtstreeks vanuit de officiële pakketbronnen.
+In deze gids installeren we GitLab direct vanuit de officiële pakketbronnen.
 
 <Tabs>
 
 <TabItem value="ubuntu-debian" label="Ubuntu & Debian" default>
-Het volgende script voegt de GitLab-repositories toe aan de apt package manager:
+Het volgende script voegt de GitLab repositories toe aan de apt package manager:
 
 ```
 curl https://packages.gitlab.com/install/repositories/gitlab/gitlab-ee/script.deb.sh | sudo bash
@@ -166,7 +167,7 @@ sudo apt-get install -y gitlab-ee
 </TabItem>
 
 <TabItem value="opensuse" label="OpenSUSE" default>
-Het volgende script voegt de GitLab-repositories toe aan de Zypper package manager:
+Het volgende script voegt de GitLab repositories toe aan de Zypper package manager:
 
 ```
 curl -sS https://packages.gitlab.com/install/repositories/gitlab/gitlab-ee/script.rpm.sh | sudo bash
@@ -185,7 +186,7 @@ Als dit proces klaar is, zou GitLab klaar moeten staan op je Linux-server. Ga do
 
 ## Stap 3: GitLab configureren
 
-Om alles goed te laten werken, moet je een aantal aanpassingen doen in het configuratiebestand. Open het GitLab-configuratiebestand met je favoriete teksteditor. We gebruiken hier `nano` als voorbeeld.
+Om alles goed te laten werken, moet je een paar aanpassingen doen in het configuratiebestand. Open het GitLab configuratiebestand met je favoriete teksteditor. We gebruiken hier `nano` als voorbeeld.
 
 ```
 sudo nano /etc/gitlab/gitlab.rb
@@ -201,11 +202,11 @@ Zoek vervolgens de regel `external_url` en vul hier je domein in, of het IP-adre
 ##! https://docs.gitlab.com/omnibus/settings/configuration.html#configuring-the-external-url-for-gitlab
 ##!
 ##! Let op: Tijdens installatie/upgrades wordt de waarde van de omgevingsvariabele
-##! EXTERNAL_URL gebruikt om deze waarde te vullen/vervangen.
-##! Op AWS EC2-instances proberen we ook de publieke hostname/IP
+##! EXTERNAL_URL gebruikt om deze waarde in te vullen/vervangen.
+##! Op AWS EC2-instanties proberen we ook de publieke hostname/IP
 ##! van AWS op te halen. Voor meer info, zie:
 ##! https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/instancedata-data-retrieval.html
-external_url 'http`s`://`Jouw domein / IPv4-adres van je Linux-server`'
+external_url 'http`s`://`Jouw domein / IPv4-adres van je Linux server`'
 ```
 
 We raden ook aan je e-mailadres in te vullen bij `letsencrypt['contact_emails']`. Zo kan Let's Encrypt je notificaties sturen en contact opnemen over de automatische en gratis SSL-certificaten.
@@ -235,10 +236,10 @@ Je hebt een domein nodig als je een gratis SSL-certificaat van Let's Encrypt wil
 ```
 
 :::tip
-Je kunt `CTRL+W` gebruiken om te zoeken naar `letsencrypt['contact_emails']` en op enter drukken, zodat je niet handmatig het hele bestand hoeft te doorzoeken.
+Je kunt `CTRL+W` gebruiken om te zoeken naar `letsencrypt['contact_emails']` en op enter drukken, zodat je niet handmatig door het hele bestand hoeft te zoeken.
 :::
 
-Als je klaar bent, druk je op `CTRL+X` gevolgd door `Y` en `Enter` om je wijzigingen op te slaan.
+Als je klaar bent, druk op `CTRL+X`, daarna `Y` en `Enter` om je wijzigingen op te slaan.
 
 Voer daarna het volgende commando uit om GitLab te herconfigureren met de nieuwe instellingen:
 
@@ -260,7 +261,7 @@ Bij de eerste keer inloggen krijg je een loginpagina te zien.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/E46E3qS32GKFfk3/preview)
 
-Voor admin-toegang bij je eerste login, log in als root-gebruiker met gebruikersnaam `root`.
+Voor admin toegang bij je eerste login, log in als root gebruiker met `root` als gebruikersnaam.
 
 Het wachtwoord vind je in een bestand op je Linux-server. Open het bestand met:
 
@@ -272,24 +273,24 @@ sudo nano /etc/gitlab/initial_root_password
 ```
 # WAARSCHUWING: Deze waarde is alleen geldig onder de volgende voorwaarden
 
-# 1. Als deze handmatig is opgegeven (via de `GITLAB_ROOT_PASSWORD` omgevingsvariabele of via `gitlab_rails['initial_root_password']` in `gitlab.rb`), vóór het aanmaken van de database.
+# 1. Als deze handmatig is opgegeven (via `GITLAB_ROOT_PASSWORD` omgevingsvariabele of via `gitlab_rails['initial_root_password']` instelling in `gitlab.rb`), vóór het aanmaken van de database.
 
 # 2. Het wachtwoord is niet handmatig gewijzigd via UI of command line.
 
 #
 
-# Als het wachtwoord hier niet werkt, moet je het admin-wachtwoord resetten via https://docs.gitlab.com/ee/security/reset_user_password.html#reset-your-root-password.
+# Als het wachtwoord hier niet werkt, moet je het admin wachtwoord resetten via https://docs.gitlab.com/ee/security/reset_user_password.html#reset-your-root-password.
 
 Password: `[JOUW_WACHTWOORD_HIER]`
 
 # LET OP: Dit bestand wordt automatisch verwijderd bij de eerste reconfigure run na 24 uur.
 ```
 
-Voer de gebruikersnaam en het wachtwoord in op de loginpagina om voor het eerst in je GitLab-dashboard te komen. Je kunt nu je eigen GitLab-paneel op je Linux-server gebruiken.
+Voer de gebruikersnaam en het wachtwoord in op de loginpagina om voor het eerst in je GitLab dashboard te komen. Je hebt nu toegang tot je eigen GitLab panel op je Linux-server.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/AqPHoEmY2Q2nFCF/preview)
 
-We raden sterk aan om een nieuwe gebruiker aan te maken en/of het wachtwoord van de `root` gebruiker te wijzigen. Dit doe je via **Admin** linksonder en dan **Overzicht->Gebruikers**. Hier beheer je de gebruikers van je GitLab-instance.
+We raden sterk aan om een nieuwe gebruiker aan te maken en/of het wachtwoord van de `root` gebruiker te wijzigen. Dit doe je via **Admin** linksonder en dan **Overview->Users**. Hier beheer je de gebruikers van je GitLab installatie.
 
 ## Optioneel: Firewall instellen met ufw
 
@@ -326,7 +327,7 @@ sudo ufw allow OpenSSH
 ### Firewall inschakelen
 
 :::warning
-Standaard blokkeert dit alle poorten behalve de toegestane. Zorg dat je whitelist goed staat voordat je dit commando uitvoert.
+Dit blokkeert standaard alle poorten behalve de toegestane. Zorg dat je whitelist goed staat voordat je dit commando uitvoert.
 :::
 
 Activeer de firewall met:

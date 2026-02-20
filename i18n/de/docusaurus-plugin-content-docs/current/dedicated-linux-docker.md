@@ -1,9 +1,10 @@
 ---
 id: dedicated-linux-docker
-title: "Dedicated Server: Installation von Docker"
+title: "Docker auf einem Linux-Server einrichten – Container auf deiner Infrastruktur starten und verwalten"
 description: "Entdecke, wie du Docker auf deinem Linux-Server installierst, um isolierte Anwendungen effizient auszuführen und Ressourcen optimal zu nutzen → Jetzt mehr erfahren"
 sidebar_label: Docker installieren
 services:
+  - vserver
   - dedicated
 ---
 
@@ -21,7 +22,7 @@ Zuerst musst du dich per SSH mit deinem Linux-Server verbinden. Falls du dabei H
 
 ### Docker-Kompatibilität aktivieren
 
-Damit Docker-Container auf deinem Server funktionieren, musst du in deinem Webinterface die **Docker-Kompatibilität** aktivieren, sonst bekommst du `Permission Denied`-Fehler.
+Damit Docker-Container auf deinem Server laufen, musst du in deinem Webinterface die **Docker-Kompatibilität** aktivieren. Ansonsten bekommst du `Permission Denied`-Fehler.
 
 Gehe dazu im Webinterface deines Servers in den Bereich **Einstellungen**, aktiviere die Option **Docker-Kompatibilität** und speichere.
 
@@ -55,7 +56,7 @@ echo \
   sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
 ```
 
-Jetzt, wo das Docker-Repository hinzugefügt wurde, aktualisiere die Paketliste:
+Jetzt, wo das Docker-Repository in deinen Quellen ist, aktualisiere die Paketliste:
 ```
 sudo apt-get update
 ```
@@ -74,12 +75,12 @@ Zuerst solltest du das Paket `dnf-plugins-core` installieren, das bei der Verwal
 sudo dnf -y install dnf-plugins-core
 ```
 
-Nachdem das Paket installiert ist, füge das Docker-Repository hinzu und installiere Docker mit folgendem Befehl:
+Nachdem das Paket installiert ist, füge das Docker-Repository hinzu und installiere Docker mit:
 ```
 sudo dnf-3 config-manager --add-repo https://download.docker.com/linux/fedora/docker-ce.repo
 ```
 
-Docker sollte jetzt installiert sein. Als letzten Schritt musst du den Dienst starten und aktivieren, damit er funktioniert:
+Docker sollte jetzt installiert sein. Als letzten Schritt musst du den Dienst starten und aktivieren, damit er läuft:
 ```
 sudo systemctl enable --now docker
 ```
@@ -87,16 +88,16 @@ sudo systemctl enable --now docker
 </TabItem>
 </Tabs>
 
-Um zu überprüfen, ob die Installation erfolgreich war, teste das **hello-world** Image mit folgendem Befehl:
+Um zu prüfen, ob die Installation geklappt hat, teste das **hello-world** Image mit folgendem Befehl:
 ```
 sudo docker run hello-world
 ```
 
-Wenn alles klappt, solltest du eine nette Willkommensnachricht mit ein paar Basisinfos sehen. Falls du `Permission Denied`-Fehler bekommst, überprüfe nochmal, ob du die **Docker-Kompatibilität** im Webinterface aktiviert und den Server neu gestartet hast, wie im Vorbereitungsteil beschrieben.
+Wenn alles klappt, bekommst du eine nette Begrüßungsnachricht mit ein paar Basisinfos. Falls du `Permission Denied`-Fehler bekommst, überprüfe nochmal, ob du die **Docker-Kompatibilität** im Webinterface aktiviert und den Server neu gestartet hast, wie im Vorbereitungsteil beschrieben.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/tzJwpYRYb9Mmryo/preview)
 
-Du hast Docker erfolgreich auf deinem Linux-Server installiert.
+Herzlichen Glückwunsch, du hast Docker erfolgreich auf deinem Linux-Server installiert!
 
 ## Nach der Installation
 
@@ -104,9 +105,9 @@ Jetzt, wo Docker auf deinem Server läuft, kannst du noch ein paar Einstellungen
 
 ### Docker ohne Sudo nutzen
 
-Du kannst dir das ständige Voranstellen von `sudo` bei Docker-Befehlen sparen, indem du eine neue Docker-Gruppe erstellst und deinen Benutzer hinzufügst. Das macht die Nutzung bequemer, aber sei dir bewusst, dass du damit indirekt Root-Rechte vergibst.
+Du kannst dir das ständige Tippen von `sudo` vor Docker-Befehlen sparen, indem du eine neue Docker-Gruppe erstellst und deinen Benutzer hinzufügst. Das macht die Nutzung bequemer, aber sei dir bewusst, dass du damit indirekt Root-Rechte vergibst.
 
-Erstelle die `docker`-Gruppe und füge deinen aktuellen Benutzer mit diesen Befehlen hinzu:
+Erstelle die Gruppe `docker` und füge deinen aktuellen Benutzer mit diesen Befehlen hinzu:
 ```
 # Docker-Gruppe erstellen
 sudo groupadd docker
@@ -115,31 +116,31 @@ sudo groupadd docker
 sudo usermod -aG docker $USER
 ```
 
-Wir empfehlen, danach den Server neu zu starten, damit die Gruppenmitgliedschaft neu geladen wird. Alternativ kannst du auch `newgrp docker` ausführen.
+Danach empfehlen wir, den Server neu zu starten, damit die Gruppenmitgliedschaft neu geladen wird. Alternativ kannst du auch `newgrp docker` ausführen.
 
-Teste jetzt, ob du Docker-Befehle ohne `sudo` ausführen kannst, indem du nochmal `docker run hello-world` ausführst.
+Teste jetzt, ob du Docker-Befehle ohne `sudo` ausführen kannst, indem du nochmal `docker run hello-world` startest.
 
 :::tip
-Manchmal bekommst du einen Fehler wegen einer Konfigurationsdatei, wenn du den Befehl vorher mit `sudo` ausgeführt hast. Um das zu beheben, lösche einfach das Docker-Verzeichnis mit `rmdir ~/.docker/`. Es wird beim nächsten Befehl automatisch neu erstellt.
+Manchmal bekommst du einen Fehler wegen einer Konfigurationsdatei, wenn du den Befehl vorher mit `sudo` ausgeführt hast. Um das zu fixen, lösche einfach das Docker-Verzeichnis mit `rmdir ~/.docker/`. Es wird beim nächsten Befehl automatisch neu erstellt.
 :::
 
 Wenn der Befehl ohne Fehler läuft, hast du Docker erfolgreich so eingerichtet, dass kein `sudo` mehr nötig ist.
 
 ### Docker beim Systemstart starten
 
-Du kannst Docker so konfigurieren, dass es automatisch beim Serverstart startet, indem du `systemd` nutzt, das bei den meisten Linux-Distributionen verwendet wird.
+Du kannst Docker so einstellen, dass es automatisch beim Serverstart startet, indem du `systemd` nutzt – das wird von den meisten Linux-Distributionen verwendet.
 
 :::tip
 Bei Ubuntu & Debian ist Docker standardmäßig so eingestellt, dass es beim Booten automatisch startet. Wenn du eine dieser Distributionen nutzt, musst du hier nichts weiter machen.
 :::
 
-Aktiviere den automatischen Start von Docker mit diesen Befehlen:
+Um Docker beim Booten zu aktivieren, führe einfach diese Befehle aus:
 ```
 sudo systemctl enable docker.service
 sudo systemctl enable containerd.service
 ```
 
-Um den automatischen Start zu deaktivieren, ersetze `enable` durch `disable`. Du kannst den Dienst auch mit verschiedenen `systemctl`-Befehlen verwalten, z.B.:
+Wenn du den automatischen Start deaktivieren willst, ersetze `enable` durch `disable`. Du kannst den Dienst auch mit verschiedenen `systemctl`-Befehlen steuern, z.B.:
 ```
 sudo systemctl start [dein_dienst]
 sudo systemctl stop [dein_dienst]

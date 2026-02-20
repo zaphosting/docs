@@ -1,17 +1,18 @@
 ---
 id: vserver-linux-cockpit
-title: "vServer: Installation von Cockpit"
-description: "Entdecke, wie du Linux-Server effizient mit der Weboberfläche von Cockpit verwaltest – perfekt für Einsteiger und Profis → Jetzt mehr erfahren"
+title: "Cockpit auf einem Linux-Server einrichten – Verwalte deinen Server per Webinterface"
+description: "Entdecke, wie du Linux-Server effizient mit dem Cockpit-Webinterface verwaltest – perfekt für Einsteiger und Profis → Jetzt mehr erfahren"
 sidebar_label: Cockpit installieren
 services:
   - vserver
+  - dedicated
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
 
-Cockpit ist eine Weboberfläche zur Verwaltung von einem oder mehreren Linux-Servern (Cluster). Von einfachen Log-Ausgaben bis hin zur Verwaltung des RAID bietet Cockpit viele Features.  
+Cockpit ist ein Webinterface zur Verwaltung von einem oder mehreren Linux-Servern (Cluster). Von einfachen Log-Ausgaben bis hin zur Verwaltung des RAID bietet Cockpit viele Features.  
 Cockpit eignet sich sowohl für Einsteiger als auch für fortgeschrittene Nutzer, die alles Wichtige schnell im Blick haben und verwalten wollen. Außerdem ist der Zugriff von fast jedem Gerät aus möglich.  
 Die Projektseite findest du unter https://cockpit-project.org/. 
 
@@ -28,7 +29,7 @@ Zuerst muss der Server aktualisiert werden:
 // Update
 sudo apt update; sudo apt upgrade -y
 ```
-Danach kann die Installation starten:
+Danach kann die Installation starten: 
 ```
 // Cockpit Installation
 sudo apt install cockpit -y

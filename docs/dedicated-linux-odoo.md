@@ -1,6 +1,6 @@
 ---
 id: dedicated-linux-odoo
-title: "Setup Odoo (Open Source ERP and CRM) on Linux"
+title: "Setup Odoo on a Linux Server - Run Your Own Open Source ERP and CRM"
 description: "Discover how to manage and automate business processes with Odoo’s integrated ERP and CRM platform for streamlined company operations → Learn more now"
 sidebar_label: Install Odoo
 services:

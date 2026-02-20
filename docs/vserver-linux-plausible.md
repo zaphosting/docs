@@ -1,6 +1,6 @@
 ---
 id: vserver-linux-plausible
-title: "Setup Plausible on OS"
+title: "Setup Plausible Analytics on a Linux Server - Run Privacy Focused Web Analytics"
 description: "Discover how to set up a privacy-focused web analytics platform for clear insights and fast performance → Learn more now"
 sidebar_label: Install Plausible
 services:
