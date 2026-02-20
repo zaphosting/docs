@@ -1,9 +1,10 @@
 ---
 id: dedicated-linux-phpmyadmin
-title: "Serveur dédié : Installation de phpMyAdmin"
-description: "Découvrez comment gérer facilement vos bases de données MySQL et MariaDB grâce à l’interface web de phpMyAdmin pour une administration efficace → En savoir plus maintenant"
+title: "Configurer phpMyAdmin sur un serveur Linux - Gérez vos bases de données via une interface web"
+description: "Découvrez comment gérer facilement vos bases de données MySQL et MariaDB avec l’interface web de phpMyAdmin pour une administration efficace → En savoir plus maintenant"
 sidebar_label: Installer phpMyAdmin
 services:
+  - vserver
   - dedicated
 ---
 
@@ -24,7 +25,7 @@ sudo apt update -y
 sudo apt upgrade -y
 ```
 
-Tu dois aussi vérifier que PHP est déjà installé sur ton système. C’est indispensable pour utiliser phpMyAdmin. Pour savoir comment installer PHP, jette un œil à notre [guide Installer PHP](dedicated-linux-php.md).
+Tu dois aussi vérifier que PHP est déjà installé sur ton système. C’est indispensable pour utiliser phpMyAdmin. Pour savoir comment installer PHP, jette un œil à notre [guide Installer PHP](vserver-linux-php.md).
 
 :::warning Paquets PHP manquants
 Si les paquets PHP nécessaires manquent, les fichiers PHP de phpMyAdmin ne pourront pas être traités et affichés correctement. 
@@ -64,10 +65,10 @@ rm phpmyadmin.zip; chmod -R 0755 phpmyadmin
 
 ### Fichier de configuration du serveur web
 
-Il faut maintenant ajouter phpMyAdmin à la configuration du serveur web. Pour cela, utilise `nano /etc/apache2/conf-available/phpmyadmin.conf` pour créer un nouveau fichier de configuration Virtual Host et remplis-le avec ce contenu :
+Maintenant, phpMyAdmin doit être ajouté à la configuration du serveur web. Pour cela, utilise `nano /etc/apache2/conf-available/phpmyadmin.conf` pour créer un nouveau fichier de configuration Virtual Host et remplis-le avec le contenu suivant :
 
 ```
-# Configuration Apache de phpMyAdmin
+# Configuration Apache pour phpMyAdmin
 
 Alias /phpmyadmin /usr/share/phpmyadmin
 
@@ -76,7 +77,7 @@ Alias /phpmyadmin /usr/share/phpmyadmin
     DirectoryIndex index.php
 </Directory>
 
-# Interdire l’accès web pour des raisons de sécurité aux dossiers qui n’en ont pas besoin
+# Interdire l’accès web pour des raisons de sécurité aux répertoires qui n’en ont pas besoin
 <Directory /usr/share/phpmyadmin/templates>
     Require all denied
 </Directory>
@@ -88,7 +89,7 @@ Alias /phpmyadmin /usr/share/phpmyadmin
 </Directory>
 ```
 
-Une fois la configuration Apache2-phpMyAdmin remplie, sauvegarde et ferme avec `CTRL+X`, puis appuie sur `Y` et valide avec `Entrée`.
+Une fois la configuration Apache2-phpMyAdmin remplie, sauvegarde et ferme avec `CTRL+X`, puis appuie sur `Y` et confirme avec `Entrée`.
 
 Le fichier de configuration Virtual Host nouvellement créé doit ensuite être activé et chargé. Pour cela, exécute les commandes suivantes :
 
@@ -99,7 +100,7 @@ systemctl reload apache2
 
 ### Création du répertoire temporaire requis
 
-Pour que phpMyAdmin fonctionne correctement, un répertoire temporaire doit être créé et les permissions nécessaires définies. Tu peux faire ça avec ces commandes :
+Pour que phpMyAdmin fonctionne correctement, un répertoire temporaire doit être créé et les permissions nécessaires définies. Tu peux faire cela avec les commandes suivantes :
 
 ```
 mkdir /usr/share/phpmyadmin/tmp/
@@ -108,4 +109,4 @@ chown -R www-data:www-data /usr/share/phpmyadmin/tmp/
 
 ## Conclusion
 
-Félicitations, tu as installé et configuré phpMyAdmin avec succès. Tu peux accéder à l’interface web via l’adresse IP et le chemin de ton serveur (http://Adresse-IP/phpmyadmin). Pour toute question ou aide, n’hésite pas à contacter notre équipe support, disponible tous les jours pour t’assister ! 🙂
+Félicitations, tu as installé et configuré phpMyAdmin avec succès. Tu peux accéder à l’interface web en utilisant l’adresse IP et le chemin de ton serveur (http://Adresse-IP/phpmyadmin). Pour toute question ou aide supplémentaire, n’hésite pas à contacter notre équipe support, disponible tous les jours pour t’aider ! 🙂

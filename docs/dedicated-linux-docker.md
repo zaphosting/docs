@@ -1,9 +1,10 @@
 ---
 id: dedicated-linux-docker
-title: "Dedicated Server: Installation of Docker"
+title: "Setup Docker on a Linux Server - Run and Manage Containers on Your Infrastructure"
 description: "Discover how to install Docker on your Linux server to run isolated applications efficiently and optimize resource use → Learn more now"
 sidebar_label: Install Docker
 services:
+  - vserver
   - dedicated
 ---
 

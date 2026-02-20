@@ -1,10 +1,11 @@
 ---
 id: vserver-windows-plesk
-title: "VPS: Installation of Plesk "
+title: "Setup Plesk on a Windows Server - Manage Websites with a Powerful Control Panel"
 description: "Discover how to efficiently manage websites and servers with Plesk’s versatile platform for beginners and experts alike → Learn more now"
 sidebar_label: Install Plesk
 services:
   - vserver
+  - dedicated
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';
@@ -55,6 +56,6 @@ The installation process can take 30 to 60 minutes, after which Plesk would be i
 
 ## Conclusion
 
-Congratulations, you have successfully installed and configured the Plesk on your VPS! If you have any further questions or problems, please contact our support team, who are available to help you every day! 
+Congratulations, you have successfully installed and configured the Plesk on your VPS/Dedicated Server! If you have any further questions or problems, please contact our support team, who are available to help you every day! 
 
 <InlineVoucher />

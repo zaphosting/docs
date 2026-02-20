@@ -1,10 +1,11 @@
 ---
 id: vserver-linux-cockpit
-title: "VPS: Installation av Cockpit"
-description: "Upptäck hur du enkelt hanterar Linux-servrar med Cockpits webbgränssnitt – perfekt för både nybörjare och proffs → Lär dig mer nu"
+title: "Installera Cockpit på en Linux-server – Hantera din server via webbgränssnitt"
+description: "Upptäck hur du effektivt hanterar Linux-servrar med Cockpits webbgränssnitt, perfekt för både nybörjare och proffs → Läs mer nu"
 sidebar_label: Installera Cockpit
 services:
   - vserver
+  - dedicated
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';
@@ -16,7 +17,7 @@ Cockpit passar både nybörjare och avancerade användare som vill ha koll på a
 Projektets hemsida hittar du på https://cockpit-project.org/. 
 
 :::info
-Den här guiden visar installation för Debian (från Buster) / Ubuntu (från Bionic Beaver). Installationen finns även på projektets sida för Fedora, Red Hat, Fedora CoreOS, CentOS, Clear Linux, Arch Linux och Tumbleweed.  
+Den här guiden visar installationen för Debian (från Buster) / Ubuntu (från Bionic Beaver). Installationen finns även på projektets sida för Fedora, Red Hat, Fedora CoreOS, CentOS, Clear Linux, Arch Linux och Tumbleweed.  
 :::
 
 <InlineVoucher />
@@ -34,13 +35,13 @@ Sedan kan installationen göras:
 sudo apt install cockpit -y
 ```
 När installationen är klar kan du nå cockpit-panelen via IP:9090.  
-Inloggningen sker med vanliga inloggningsuppgifter för servern/användaren. 
+Inloggningen sker med vanliga server-/användaruppgifter. 
 
 ![cockpit](https://screensaver01.zap-hosting.com/index.php/s/2iDf3zFfAxCwkCc/preview)
 
 
 ## Avslutning
 
-Grattis, du har nu installerat och konfigurerat Cockpit! Har du fler frågor eller problem är du varmt välkommen att kontakta vår support, som finns tillgänglig varje dag för att hjälpa dig! 
+Grattis, du har nu installerat och konfigurerat Cockpit! Har du fler frågor eller problem är vårt supportteam redo att hjälpa dig varje dag! 
 
 <InlineVoucher />

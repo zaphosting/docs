@@ -1,6 +1,6 @@
 ---
 id: dedicated-linux-lamp-stack
-title: "Serveur dédié : Installer la stack LAMP - Linux, Apache, MySQL, PHP"
+title: "Configurer une stack LAMP sur un serveur Linux - Boostez vos applis PHP classiques"
 description: "Découvrez comment configurer une stack LAMP pour héberger efficacement des sites PHP dynamiques sur serveurs Linux → En savoir plus maintenant"
 sidebar_label: Stack Web LAMP
 services:
@@ -13,15 +13,15 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introduction
 
-La stack **LAMP** est une sélection populaire de logiciels open-source configurés ensemble pour permettre un hébergement simple de sites web dynamiques, avec un focus particulier sur les sites et applications PHP. L’acronyme signifie : **L**inux comme système d’exploitation, **A**pache comme serveur web, **M**ySQL comme base de données et enfin **P**HP pour le traitement. Dans ce guide, nous allons couvrir le processus d’installation d’une stack LAMP sur un serveur dédié Linux, avec une explication détaillée et un exemple de création d’un site web de liste de tâches.
+La stack **LAMP** est une sélection populaire de logiciels open-source configurés ensemble pour permettre un hébergement simple de sites web dynamiques, avec un focus particulier sur les sites et applis PHP. L’acronyme signifie : **L**inux comme OS (système d’exploitation), **A**pache comme serveur web, **M**ySQL comme base de données et enfin **P**HP pour le traitement. Dans ce guide, on va couvrir le processus d’installation d’une stack LAMP sur un serveur dédié Linux, avec un exemple détaillé de création d’un site web de liste de tâches.
 
 ## Préparation
 
-Commencez par vous connecter à votre serveur via SSH. Si vous ne savez pas comment faire, jetez un œil à notre guide [Accès initial (SSH)](vserver-linux-ssh.md).
+Commence par te connecter à ton serveur via SSH. Si tu ne sais pas comment faire, jette un œil à notre [guide d’accès initial (SSH)](vserver-linux-ssh.md).
 
-Dans ce guide, nous utiliserons Ubuntu comme distribution Linux. Les instructions sont les mêmes pour Debian et devraient être similaires pour d’autres distributions, même si la syntaxe des commandes peut légèrement varier. Assurez-vous d’avoir un OS installé et d’être connecté au serveur via SSH.
+Ici, on utilise Ubuntu comme distribution Linux. Les instructions sont les mêmes pour Debian et assez similaires pour d’autres distributions, même si la syntaxe des commandes peut légèrement varier. Assure-toi d’avoir un OS installé et d’être connecté au serveur via SSH.
 
-Comme toujours, avant de continuer l’installation, assurez-vous que tous les paquets sont à jour avec la commande suivante :
+Comme toujours, avant de lancer l’installation, assure-toi que tous les paquets sont à jour avec la commande suivante :
 ```
 // Ubuntu & Debian
 sudo apt update
@@ -38,139 +38,142 @@ sudo dnf upgrade --refresh
 
 ## Installation
 
-L’installation peut être facilement divisée en chaque dépendance principale de la stack LAMP, en commençant par le serveur web Apache, suivi de la base de données MySQL et enfin PHP. Pendant l’installation, nous allons configurer un site test écrit en PHP qui accédera à la base MySQL. Chaque requête web sera ensuite traitée et servie via Apache.
+L’installation se divise facilement en chaque dépendance principale de la stack LAMP, en commençant par le serveur web Apache, suivi de la base de données MySQL et enfin PHP. Pendant l’installation, on va configurer un site test écrit en PHP qui accèdera à la base MySQL. Chaque requête web sera ensuite traitée et servie via Apache.
 
 ### Configuration d’Apache
 
-Apache est le serveur web qui traitera les requêtes entrantes et servira les réponses. Installez-le avec la commande suivante.
+Apache est le serveur web qui va traiter les requêtes entrantes et renvoyer les réponses. Installe-le avec la commande suivante :
 ```
 sudo apt install apache2
 ```
 
-Une fois installé, assurez-vous que les règles du pare-feu appropriées sont créées pour que le serveur web soit accessible depuis Internet. Dans cet exemple, nous utiliserons le **pare-feu UFW** car Apache a une application enregistrée pour celui-ci.
+Une fois installé, assure-toi que les règles du pare-feu sont bien configurées pour que le serveur web soit accessible depuis Internet. Ici, on utilise le **pare-feu UFW** car Apache a une application enregistrée pour ça.
 
-Si vous utilisez un autre pare-feu, assurez-vous d’autoriser le port 80 (HTTP) à travers le pare-feu. Vous pouvez en apprendre plus sur les pare-feux sous Linux via notre guide [Gérer le pare-feu](vserver-linux-firewall.md).
+Si tu utilises un autre pare-feu, assure-toi d’autoriser le port 80 (HTTP). Tu peux en apprendre plus sur les pare-feux Linux dans notre guide [Gérer le pare-feu](vserver-linux-firewall.md).
 
-Assurez-vous que le pare-feu UFW est activé et qu’une règle pour SSH est créée.
+Vérifie que le pare-feu UFW est activé et qu’une règle SSH est créée.
 ```
-# Créer une règle pour autoriser SSH
+# Crée une règle pour autoriser SSH
 sudo ufw allow OpenSSH
 
-# Activer le pare-feu UFW
+# Active le pare-feu UFW
 sudo ufw enable
 ```
 
 :::caution
-Assurez-vous d’avoir une règle configurée pour SSH si vous utilisez le pare-feu UFW ! Sinon, vous **ne pourrez pas** vous reconnecter en SSH si vous perdez la connexion à votre session actuelle !
+Assure-toi d’avoir une règle SSH si tu utilises UFW ! Sinon, tu **ne pourras plus** te connecter en SSH si ta session actuelle est coupée !
 :::
 
-Créez maintenant la règle pour autoriser Apache puis vérifiez que les règles sont bien présentes.
+Crée maintenant la règle pour autoriser Apache et vérifie que les règles sont bien en place.
 ```
-# Créer une règle pour autoriser Apache
+# Autorise Apache
 sudo ufw allow in "Apache Full"
 
-# Vérifier les règles du pare-feu UFW
+# Vérifie les règles du pare-feu UFW
 sudo ufw status
 ```
 
 :::tip
-Vous pouvez voir les profils disponibles en lançant la commande `ufw app list`. Dans l’exemple ci-dessus, utiliser `Apache Full` signifie que les règles pour HTTP (port 80) et HTTPS (port 443) sont créées.
+Tu peux voir les profils disponibles avec la commande `ufw app list`. Ici, `Apache Full` crée les règles pour HTTP (port 80) et HTTPS (port 443).
 :::
 
-Vous devriez voir les règles `Apache` et `Apache (v6)` avec l’action `ALLOW`, ce qui confirme que le pare-feu est prêt. Vous verrez aussi les autres règles que vous avez pu configurer, y compris celle pour SSH.
+Tu devrais voir les règles `Apache` et `Apache (v6)` avec l’action `ALLOW`, ce qui confirme que le pare-feu est prêt. Tu verras aussi les autres règles que tu as pu configurer, y compris SSH.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/o8NDBppnTwHdSgf/preview)
 
-Avec le pare-feu ouvert pour Apache, vérifiez maintenant qu’Apache fonctionne. Vous pouvez tester en accédant à votre adresse IP dans un navigateur, par exemple : `http://[votre_adresse_ip]`
+Avec le pare-feu ouvert pour Apache, vérifie que ce dernier fonctionne. Essaie d’accéder à ton adresse IP dans un navigateur : `http://[ton_adresse_ip]`
 
-Si tout fonctionne, vous devriez voir une page d’accueil par défaut. Sinon, vérifiez le statut du service avec la commande : `systemctl status apache2`
+Si ça marche, tu verras une page d’accueil par défaut. Sinon, vérifie le statut du service avec : `systemctl status apache2`
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/irmnDDNi436HH4c/preview)
 
 ### Configuration de MySQL
 
-Installez maintenant un serveur MySQL qui servira de base de données pour stocker les données de manière relationnelle. Installez-le avec la commande suivante.
+Installe maintenant MySQL, qui servira de base de données pour stocker tes données de manière relationnelle.
 ```
 sudo apt install mysql-server
 ```
 
-Une fois l’installation terminée, il est recommandé d’exécuter un script d’installation sécurisée pour garantir la sécurité de votre instance MySQL. C’est optionnel mais fortement conseillé. Lancez-le avec la commande `sudo mysql_secure_installation`.
+Une fois fini, il est recommandé de lancer un script d’installation sécurisée pour renforcer la sécurité de ton serveur MySQL. C’est optionnel mais fortement conseillé. Lance-le avec : `sudo mysql_secure_installation`.
 
-Ce script vous guidera de manière interactive. D’abord, vous serez invité à configurer la validation des mots de passe. Nous recommandons de choisir `Y` pour n’autoriser que des mots de passe sécurisés, puis de sélectionner soit `MEDIUM` via `1` ou `STRONG` via `2`.
+Ce script interactif te guidera. D’abord, il te demandera si tu veux activer la validation des mots de passe. On recommande de répondre `Y` pour n’autoriser que des mots de passe sécurisés, puis de choisir `MEDIUM` (1) ou `STRONG` (2).
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/YF6N3iPaDWD4sgX/preview)
 
-Ensuite, vous serez invité à supprimer l’utilisateur `anonymous` et à interdire la connexion root à distance. Nous recommandons fortement d’accepter ces options via `Y` pour des raisons de sécurité. Cela supprime l’utilisateur test et limite l’accès root à la connexion locale via SSH uniquement, réduisant ainsi les risques.
+Ensuite, il te demandera de supprimer l’utilisateur `anonymous` et d’interdire la connexion root à distance. Accepte les deux (`Y`) pour des raisons de sécurité. Ça supprime l’utilisateur test et limite l’accès root à la machine locale via SSH, réduisant les risques.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/ka6GKkojRPRycZB/preview)
 
-Enfin, vous serez invité à supprimer la base de données `test` et à recharger les tables de privilèges. Nous recommandons encore une fois d’accepter via `Y` car la base test n’est pas nécessaire et il faut recharger les privilèges pour que les changements prennent effet.
+Enfin, il te proposera de supprimer la base de données `test` et de recharger les tables de privilèges. Accepte encore (`Y`) car la base test n’est pas nécessaire et il faut recharger les privilèges pour appliquer les changements.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/42cYTkPaEfo3Jbq/preview)
 
-Vérifiez maintenant si MySQL tourne en essayant de vous connecter : `sudo mysql -u root`. Si la connexion réussit, un message de bienvenue s’affichera. Vous pouvez quitter avec la commande `quit`.
+Vérifie que MySQL tourne bien en essayant de te connecter : `sudo mysql -u root`. Si ça marche, un message de bienvenue s’affiche. Tu peux quitter avec la commande `quit`.
 
 ### Configuration de PHP
 
-La dernière dépendance LAMP est PHP, et son installation est assez simple. La commande suivante installe PHP avec un plugin pour Apache et MySQL, permettant à Apache de fonctionner avec PHP et à PHP d’utiliser MySQL.
+La dernière dépendance LAMP est PHP, facile à installer. Cette commande installe PHP avec un plugin Apache et MySQL pour que tout fonctionne ensemble.
 ```
 sudo apt install php libapache2-mod-php php-mysql
 ```
 
-Vérifiez que l’installation a réussi en affichant la version. Si une version s’affiche, PHP fonctionne correctement.
+Vérifie que PHP est bien installé en affichant la version. Si tu vois une version, c’est bon.
 ```
 php -v
 ```
 
 :::tip Extensions PHP
-Pour des cas d’usage avancés, vous pourriez avoir besoin d’extensions PHP supplémentaires pour ajouter des fonctionnalités. Vous pouvez voir la liste en lançant la commande `apt search php- | less`.
+Pour des cas avancés, tu peux avoir besoin d’extensions PHP supplémentaires. Liste-les avec `apt search php- | less`.
 
-Utilisez les flèches pour défiler et appuyez sur `Q` pour quitter. Pour installer une extension, utilisez simplement la commande apt install comme suit. Vous pouvez installer plusieurs extensions en même temps, séparées par un espace, pour aller plus vite.
-
+Utilise les flèches pour naviguer et `Q` pour quitter. Pour installer une extension, utilise :
 ```
 sudo apt install [php_extension] [...]
 ```
+Tu peux en mettre plusieurs séparées par un espace pour aller plus vite.
 :::
 
-On recommande de modifier l’index des répertoires pour que les fichiers `index.php` aient la priorité sur les `.html`. Ouvrez le fichier avec la commande suivante.
+On recommande de modifier l’ordre des fichiers index pour que `index.php` soit prioritaire sur `.html`. Ouvre le fichier :
 ```
 sudo nano /etc/apache2/mods-enabled/dir.conf
 ```
 
-Dans l’éditeur nano, déplacez `index.php` en tête de liste, comme ceci :
+Dans nano, enlève `index.php` et remets-le en premier dans la liste :
 ```
 DirectoryIndex index.php index.html index.cgi index.pl index.xhtml index.htm
 ```
 
-Sauvegardez et quittez nano avec `CTRL + X`, puis `Y` pour confirmer et enfin `ENTER`. Redémarrez Apache pour appliquer les changements avec `sudo systemctl restart apache2`.
+Sauvegarde avec `CTRL + X`, puis `Y` et `ENTER`. Redémarre Apache pour appliquer avec :
+```
+sudo systemctl restart apache2
+```
 
 ### Création du site test
 
-Avec l’installation des dépendances LAMP terminée, créons un site test pour montrer comment la stack LAMP fonctionne ensemble pour offrir une solution web dynamique. C’est optionnel, mais utile pour comprendre comment utiliser ces outils pour vos propres sites.
+Avec la stack LAMP installée, on va créer un site test pour montrer comment tout fonctionne ensemble. C’est optionnel mais super utile pour comprendre comment utiliser ces outils.
 
-Dans cet exemple, on va créer un petit site de liste de tâches en PHP qui récupère et affiche les entrées. Les données seront stockées dans une table MySQL et servies via Apache.
+Ici, on crée un petit site de liste de tâches en PHP qui récupère et affiche les entrées depuis une base MySQL, servi par Apache.
 
-On utilisera un domaine test `zapdocs.example.com` tout au long du guide, car dans un vrai cas, vous utiliserez probablement un domaine. Vous **devez** configurer un enregistrement DNS de type `A` pour ce domaine pointant vers l’adresse IP de votre serveur. Si besoin, consultez notre guide [Enregistrements de domaine](domain-records.md).
+On utilise un domaine test `zapdocs.example.com`. En vrai, tu utiliseras un domaine. Tu **dois** créer un enregistrement DNS de type `A` pointant vers l’adresse IP de ton serveur. Besoin d’aide ? Consulte notre guide [Enregistrements de domaine](domain-records.md).
 
 :::note
-Vous pouvez choisir de ne pas utiliser de domaine et remplacer les mentions de `[your_domain]` par un nom simple. Vous accéderez alors au site via l’adresse IP. Notez cependant que lors de la création du fichier d’hôte virtuel, vous devrez retirer la ligne `ServerName`.
+Tu peux ne pas utiliser de domaine et remplacer `[your_domain]` par un nom simple. Tu accéderas alors au site via l’IP. Dans ce cas, supprime la ligne `ServerName` dans le fichier de configuration du virtual host.
 :::
 
 #### Configuration d’Apache
 
-Habituellement, tous les fichiers et données des sites web sont stockés dans le répertoire `/var/www`. Par défaut, Apache vient avec un dossier `html` contenant une page par défaut. Pour organiser proprement, surtout si vous hébergez plusieurs sites sur une même instance Apache, on recommande de créer un dossier individuel par site.
+Sur les serveurs web, les fichiers des sites sont généralement dans `/var/www`. Par défaut, Apache a un dossier `html` avec une page par défaut. Pour organiser plusieurs sites sur un même Apache, on recommande de créer un dossier par site.
 
-Pour cela, créez un nouveau dossier dans `/var/www/[your_domain]` pour chaque domaine. Ici, ce sera `/var/www/zapdocs.example.com`.
+Crée un dossier pour ton domaine dans `/var/www/[your_domain]`. Ici, ce sera `/var/www/zapdocs.example.com`.
 ```
 sudo mkdir /var/www/[your_domain]
 ```
 
-Créez maintenant un nouveau fichier de configuration d’hôte virtuel Apache dans `sites-available` pour ce domaine et dossier.
+Crée un fichier de configuration de virtual host dans `sites-available` pour ce domaine.
 ```
 sudo nano /etc/apache2/sites-available/[your_domain].conf
 ```
 
-Copiez-collez ce modèle dans nano, en remplaçant `[your_domain]` par votre domaine.
+Copie-colle ce modèle en remplaçant `[your_domain]` par ton domaine :
 ```
 <VirtualHost *:80>
     ServerName [your_domain]
@@ -182,41 +185,50 @@ Copiez-collez ce modèle dans nano, en remplaçant `[your_domain]` par votre dom
 </VirtualHost>
 ```
 
-Ce fichier gère les requêtes sur le port 80 (HTTP) et vérifie si la requête correspond au `ServerName` (votre domaine). Il indique aussi que le dossier `/var/www/[your_domain]` doit servir les fichiers.
+Ce fichier gère les requêtes sur le port 80 (HTTP) et vérifie si la requête correspond au `ServerName` (ton domaine). Il indique aussi que le dossier `/var/www/[your_domain]` sert les fichiers.
 
-Sauvegardez et quittez nano avec `CTRL + X`, puis `Y` et `ENTER`. On recommande de tester la config avec `sudo apache2ctl configtest` pour vérifier qu’il n’y a pas d’erreurs de syntaxe.
+Sauvegarde avec `CTRL + X`, `Y` puis `ENTER`. Vérifie la syntaxe avec :
+```
+sudo apache2ctl configtest
+```
 
-La dernière étape est d’activer ce nouvel hôte virtuel avec `a2ensite`.
+Active le virtual host avec :
 ```
 sudo a2ensite [your_domain]
 ```
 
-:::note Pas de domaine utilisé
-Si vous **n’utilisez pas** de domaine, supprimez ou commentez la ligne `ServerName` en la préfixant avec un `#`. Vous devrez aussi désactiver l’hôte virtuel par défaut avec `sudo a2dissite 000-default`.
+:::note Pas de domaine
+Si tu n’utilises pas de domaine, supprime ou commente la ligne `ServerName` (ajoute un `#` devant). Désactive aussi le virtual host par défaut avec :
+```
+sudo a2dissite 000-default
+```
 :::
 
-Enfin, redémarrez Apache pour appliquer la nouvelle configuration : `sudo systemctl restart apache2`.
+Redémarre Apache pour appliquer :
+```
+sudo systemctl restart apache2
+```
 
 #### Création du site web
 
-Maintenant que vous avez configuré Apache avec le nouvel hôte virtuel et le dossier, il est temps de créer le site web qui sera servi. Le dossier est vide pour l’instant, donc rien ne sera affiché. On va créer un petit site de liste de tâches comme expliqué.
+Maintenant que Apache est configuré, il faut créer le site web. Le dossier est vide, donc rien ne sera servi pour l’instant. On va créer un petit site de liste de tâches pour ce domaine.
 
 ##### Préparation de la base de données
 
-Commençons par créer une nouvelle base et une table pour stocker les tâches. Connectez-vous à MySQL.
+Connecte-toi à MySQL :
 ```
 sudo mysql -u root
 ```
 
-Créons une base `todowebsite` et une table `todoitems`.
+Crée une base `todowebsite` et une table `todoitems` :
 ```
-# Créer la base
+# Crée la base
 CREATE DATABASE todowebsite;
 
-# Utiliser la base
+# Utilise la base
 USE todowebsite;
 
-# Créer la table des tâches
+# Crée la table des items
 CREATE TABLE todoitems (
     id INT AUTO_INCREMENT PRIMARY KEY,
     name VARCHAR(255) NOT NULL,
@@ -225,101 +237,101 @@ CREATE TABLE todoitems (
 );
 ```
 
-Ajoutons quelques entrées exemples.
+Ajoute quelques entrées exemples :
 ```
-INSERT INTO todoitems (name, is_completed) VALUES ('Créer le guide ZAP-Docs', 0);
-INSERT INTO todoitems (name, is_completed) VALUES ('Acheter un serveur ZAP-Hosting', 1);
-INSERT INTO todoitems (name, is_completed) VALUES ('Rejoindre le Discord ZAP-Hosting', 0);
-INSERT INTO todoitems (name, is_completed) VALUES ('Passe une super journée !', 0);
+INSERT INTO todoitems (name, is_completed) VALUES ('Create ZAP-Docs Guide', 0);
+INSERT INTO todoitems (name, is_completed) VALUES ('Buy a ZAP-Hosting Server', 1);
+INSERT INTO todoitems (name, is_completed) VALUES ('Join ZAP-Hosting Discord', 0);
+INSERT INTO todoitems (name, is_completed) VALUES ('Have a great day!', 0);
 ```
 
-Créons un utilisateur dédié `todo` pour ce site.
+Crée un utilisateur dédié `todo` pour ce site :
 ```
-# Créer un utilisateur dédié
-# Remplacez [your_password] par votre mot de passe
+# Crée l’utilisateur
+# Remplace [your_password] par ton mot de passe
 CREATE USER todo@localhost IDENTIFIED BY '[your_password]';
 
-# Donner les privilèges (copiez en une seule fois)
+# Donne les droits (copie en une fois)
 GRANT SELECT,INSERT,UPDATE,DELETE,CREATE,DROP,ALTER
 ON todowebsite.*
 TO todo@localhost;
 
-# Recharger les privilèges
+# Recharge les privilèges
 FLUSH PRIVILEGES;
 ```
 
-Vous pouvez maintenant quitter MySQL avec la commande `quit`.
+Sors de MySQL avec `quit`.
 
 ##### Fichiers PHP du site
 
-La dernière étape est de créer le fichier PHP principal pour la page de la liste de tâches. Ce sera un fichier `index.php` dans `/var/www/[your_domain]`. Ouvrez nano pour créer ce fichier.
+On va créer le fichier PHP principal `index.php` dans `/var/www/[your_domain]`.
 ```
 sudo nano /var/www/[your_domain]/index.php
 ```
 
-Voici un code simple à copier dans nano pour une page basique qui affiche les tâches stockées dans la base. La première partie PHP établit la connexion MySQL.
+Voici un code simple pour afficher la liste de tâches depuis la base. La première partie PHP connecte MySQL.
 
 :::important
-N’oubliez pas de remplacer `[your_password]` par le mot de passe que vous avez défini pour l’utilisateur `todo`.
+N’oublie pas de remplacer `[your_password]` par le mot de passe que tu as défini pour l’utilisateur `todo`.
 :::
 
-La partie HTML affiche la page principale avec une liste non ordonnée, parcourant les résultats.
+La partie HTML affiche la page avec une liste non ordonnée, parcourant les résultats.
 
 ```
 <?php
-// Préparer la connexion MySQL
+// Prépare la connexion MySQL
 $servername = "localhost";
 $username = "todo";
 $password = "[your_password]";
 $dbname = "todowebsite";
 
-// Créer la connexion
+// Crée la connexion
 $conn = new mysqli($servername, $username, $password, $dbname);
 
-// Vérifier la connexion, sinon afficher une erreur
+// Vérifie la connexion, sinon affiche une erreur
 if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }
 
-// Exécuter une requête SQL pour récupérer les entrées et stocker le résultat
+// Exécute une requête SQL pour récupérer les entrées
 $sql = "SELECT id, name, is_completed, creation_date FROM todoitems ORDER BY creation_date DESC";
 $result = $conn->query($sql);
 ?>
 
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
   <head>
-      <meta charset="UTF-8">
+      <meta charset="UTF--8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>Liste de Tâches</title>
+      <title>To-Do List</title>
   </head>
   <body>
-      <h1>Super Liste de Tâches :D</h1>
-      <p>Pour notre super guide ZAP-Hosting : <a href="https://zap-hosting.com/guides/docs/vserver-linux-lamp-stack">https://zap-hosting.com/guides/docs/vserver-linux-lamp-stack</a></p>
+      <h1>Awesome To-Do List :D</h1>
+      <p>For our awesome ZAP-Hosting guide: <a href="https://zap-hosting.com/guides/docs/vserver-linux-lamp-stack">https://zap-hosting.com/guides/docs/vserver-linux-lamp-stack</a></p>
       <ul>
           <?php
-          // Vérifier s’il y a des résultats
+          // Vérifie s’il y a des résultats
           if ($result->num_rows > 0) {
-              // Parcourir chaque élément retourné par la requête
+              // Parcourt chaque entrée
               foreach ($result as $entry) {
                   echo "<li>";
-                  // Afficher le nom en sécurisant avec htmlspecialchars pour éviter le XSS
+                  // Affiche le nom en sécurisant contre XSS
                   echo htmlspecialchars($entry["name"]);
 
-                  // Afficher le statut d’achèvement
+                  // Affiche le statut de complétion
                   if ($entry["is_completed"]) {
-                      echo " <strong>(Terminé)</strong>";
+                      echo " <strong>(Completed)</strong>";
                   } else {
-                      echo " <strong>(Incomplet)</strong>";
+                      echo " <strong>(Incomplete)</strong>";
                   }
 
-                  // Afficher la date de création
-                  echo " - Date de création : " . htmlspecialchars($entry['creation_date']);
+                  // Affiche la date de création
+                  echo " - Creation Date: " . htmlspecialchars($entry['creation_date']);
                   echo "</li>";
               }
           } else {
-              // Si aucun résultat, afficher un message par défaut
-              echo "<li>Aucune tâche trouvée.</li>";
+              // Si aucun résultat, affiche un message par défaut
+              echo "<li>No to-do items found.</li>";
           }
           ?>
       </ul>
@@ -327,23 +339,23 @@ $result = $conn->query($sql);
 </html>
 
 <?php
-// Fermer la connexion à la base
+// Ferme la connexion à la base
 $conn->close();
 ?>
 ```
 
-Une fois copié dans nano, sauvegardez et quittez avec `CTRL + X`, puis `Y` et `ENTER`.
+Sauvegarde avec `CTRL + X`, `Y` puis `ENTER`.
 
-#### Tester le site
+#### Test du site
 
-Bravo, vous avez suivi le guide et mis en place un site test de liste de tâches qui utilise tous les éléments de la stack LAMP !
+Bravo, tu as configuré un site test qui utilise toute la stack LAMP !
 
-Vous devriez maintenant pouvoir accéder au site via le domaine (en HTTP/port 80) que vous avez défini dans le fichier d’hôte virtuel, ici `zapdocs.example.com`. Le rendu final devrait ressembler à ça :
+Tu peux maintenant accéder au site via le domaine (en HTTP/port 80) que tu as défini dans le virtual host, ici `zapdocs.example.com`. Le rendu final devrait ressembler à ça :
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/NgK2n8xN3wZPLeP/preview)
 
 ## Conclusion
 
-Félicitations, vous avez installé et configuré la stack LAMP avec succès ! La prochaine étape, on vous **recommande vivement** de configurer un domaine et un **certificat SSL** pour sécuriser la transmission des données vers vos sites. Consultez notre [guide Certbot](vserver-linux-certbot.md) en vous concentrant sur le **plugin Apache** et suivez la configuration interactive pour installer rapidement un certificat pour votre domaine.
+Félicitations, tu as installé et configuré ta stack LAMP avec succès ! La prochaine étape, on te **recommande vivement** de configurer un domaine et un **certificat SSL** pour sécuriser les échanges avec tes sites. Consulte notre [guide Certbot](dedicated-linux-certbot.md) en te concentrant sur le **plugin Apache** et suis l’installation interactive pour mettre en place un certificat rapidement.
 
-Pour toute question ou aide, n’hésitez pas à contacter notre support, disponible tous les jours pour vous aider ! 🙂
+Pour toute question ou aide, n’hésite pas à contacter notre support, dispo tous les jours pour t’aider ! 🙂

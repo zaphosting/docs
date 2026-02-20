@@ -1,9 +1,10 @@
 ---
 id: dedicated-windows-conan
-title: "Dedicated Server: Conan Exiles Dedicated Server Windows Setup"
+title: "Conan Exiles Dedicated Server Windows Setup"
 description: "Discover how to set up a Conan Exiles Dedicated Server on Windows Dedicated Server for smooth gameplay and server management → Learn more now"
 sidebar_label: Conan Exiles
 services:
+  - vserver
   - dedicated
 ---
 
@@ -11,13 +12,13 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introduction
 
-Do you have a Windows Dedicated Server and you want to install the Conan Exiles Dedicated server service on it? You are in the right place. In this guide, we will explain the step by step process of installing this service on your server.
+Do you have a Windows VPS/Dedicated Server and you want to install the Conan Exiles Dedicated server service on it? You are in the right place. In this guide, we will explain the step by step process of installing this service on your server.
 
 
 
 ## Preparation
 
-To begin with, connect to your Dedicated Server through Remote Desktop (RDP). Use our [Initial Access (RDP)](vserver-windows-userdp.md) guide if you need help doing this.
+To begin with, connect to your VPS/Dedicated Server through Remote Desktop (RDP). Use our [Initial Access (RDP)](vserver-windows-userdp.md) guide if you need help doing this.
 
 :::note Server Launcher Tool
 As an alternative to using SteamCMD, the developers of Conan Exiles maintain a useful server launcher utility tool that can be utilised on Windows to make it easier to launch a server.
@@ -60,7 +61,7 @@ Once successful, head over to the download directory where all of the server fil
 
 ### Port Forwarding your server
 
-In order to ensure that your server is accessible to the public, you must alter port forwarding rules for the ports that the dedicated server process is using. You can do this either through Powershell commands directly which is easier, or regularly through the Windows Defender Firewall page.
+In order to ensure that your server is accessible to the public, you must alter port forwarding rules for the ports that the VPS/Dedicated Server process is using. You can do this either through Powershell commands directly which is easier, or regularly through the Windows Defender Firewall page.
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
@@ -132,6 +133,6 @@ Now it is time to start your server. Head over to the base directory of your Con
 
 ## Conclusion
 
-Congratulations, you have successfully installed and configured the Conan Exiles server on your dedicated server! If you have any further questions or problems, please contact our support team, who are available to help you every day! 
+Congratulations, you have successfully installed and configured the Conan Exiles server on your VPS/Dedicated Server! If you have any further questions or problems, please contact our support team, who are available to help you every day! 
 
 

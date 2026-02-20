@@ -1,6 +1,6 @@
 ---
 id: dedicated-windows-notepad++
-title: "Servidor Dedicado: Configure o Notepad++ no Windows"
+title: "Configure o Notepad++ em um Servidor Windows - Use um Editor de Código e Texto Poderoso"
 description: "Descubra como otimizar seu fluxo de trabalho com Notepad++ para edição de texto rápida, personalizável e leve → Saiba mais agora"
 sidebar_label: Instalar Notepad++
 services:
@@ -31,7 +31,7 @@ Antes de instalar o **Notepad++**, certifique-se de que seu ambiente de hospedag
 
 ## Instalação
 
-Agora que todos os requisitos foram cumpridos e as preparações feitas, você pode seguir com a instalação do Notepad++. Para isso, baixe o aplicativo no site oficial: https://notepad-plus-plus.org/downloads/
+Agora que todos os requisitos foram atendidos e as preparações feitas, você pode seguir com a instalação do Notepad++. Para isso, baixe o aplicativo no site oficial: https://notepad-plus-plus.org/downloads/
 
 Execute o instalador do Notepad++ e siga os passos conforme mostrado:
 
@@ -39,12 +39,12 @@ Execute o instalador do Notepad++ e siga os passos conforme mostrado:
 
 ## Configuração
 
-O Notepad++ oferece uma variedade de opções de personalização acessíveis em *Configurações > Preferências*. Elas permitem que você ajuste o editor ao seu fluxo de trabalho:
+O Notepad++ oferece uma ampla gama de opções de personalização acessíveis em *Configurações > Preferências*. Elas permitem que você ajuste o editor ao seu fluxo de trabalho específico:
 
 - **Geral**: Controle o comportamento na inicialização, como recarregar arquivos abertos anteriormente, definir uma linguagem padrão ou configurar o comportamento das abas.  
 - **Configurações do Editor**: Ajuste o tipo e tamanho da fonte, largura da tabulação, numeração de linhas, auto-indentação ou se espaços e marcas de tabulação são exibidos.  
-- **Esquemas de Cores & Sintaxe**: Use o “Configurador de Estilo” para alternar temas e personalizar o realce de sintaxe para cada linguagem suportada.  
-- **Manipulação de Arquivos**: Configure opções como recarregamento automático ao detectar mudanças, comportamento com arquivos grandes ou preferências de codificação como UTF-8.  
+- **Esquemas de Cores & Sintaxe**: Use o “Configurador de Estilo” para alternar entre temas e personalizar o realce de sintaxe para cada linguagem suportada.  
+- **Manipulação de Arquivos**: Configure opções como recarregamento automático de arquivos ao serem alterados, comportamento com arquivos grandes ou preferências de codificação como UTF-8.  
 - **Segurança & Backup**: Ative backups automáticos ou restauração de sessão para evitar perda de dados.  
 - **Plugins**: Instale e gerencie extensões via o Gerenciador de Plugins para adicionar funcionalidades como suporte a FTP ou formatação avançada.  
 
@@ -54,8 +54,8 @@ Essas preferências tornam o Notepad++ super adaptável, seja para edição simp
 
 ## Conclusão e mais Recursos
 
-Parabéns! Você instalou e configurou com sucesso o Notepad++ no seu Servidor Dedicado. Também recomendamos dar uma olhada nos recursos abaixo, que podem te ajudar ainda mais durante a configuração do seu servidor:
+Parabéns! Você instalou e configurou com sucesso o Notepad++ no seu Servidor Dedicado. Também recomendamos dar uma olhada nos seguintes recursos, que podem te ajudar ainda mais durante a configuração do seu servidor:
 
 - [notepad-plus-plus.org/](https://notepad-plus-plus.org/) - Site Oficial
 
-Tem dúvidas específicas que não foram abordadas aqui? Para mais perguntas ou suporte, não hesite em contatar nosso time de suporte, disponível diariamente para te ajudar! 🙂
+Tem dúvidas específicas que não foram abordadas aqui? Para mais perguntas ou suporte, não hesite em contatar nossa equipe de suporte, disponível diariamente para te ajudar! 🙂

@@ -1,9 +1,10 @@
 ---
 id: dedicated-linux-webserver
-title: "Dedicated Server: Installation of Nginx and Apache webserver"
+title: "Setup Nginx and Apache on a Linux Server - Configure Powerful Web Server Environments"
 description: "Discover how to set up and configure Nginx or Apache web servers to host your website efficiently → Learn more now"
 sidebar_label: Install webserver
 services:
+  - vserver
   - dedicated
 ---
 

@@ -1,9 +1,10 @@
 ---
 id: dedicated-linux-openvpn
-title: "Dedicated Server: Installation of OpenVPN"
+title: "Setup OpenVPN on a Linux Server - Create Your Secure VPN Infrastructure"
 description: "Discover how to secure your internet connection and access restricted content using OpenVPN on Linux servers → Learn more now"
 sidebar_label: Install OpenVPN
 services:
+  - vserver
   - dedicated
 ---
 

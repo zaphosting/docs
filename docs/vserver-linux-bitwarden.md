@@ -1,10 +1,11 @@
 ---
 id: vserver-linux-bitwarden
-title: "VPS: Setup Bitwarden on Linux"
+title: "Setup Bitwarden on a Linux Server - Secure Your Password Management"
 description: "Discover how to securely self-host Bitwarden for managing passwords with end-to-end encryption and strong credential features → Learn more now"
 sidebar_label: Install Bitwarden
 services:
   - vserver
+  - dedicated
 ---
 
 import Tabs from '@theme/Tabs';
@@ -64,7 +65,7 @@ curl -fsSL https://get.docker.com -o get-docker.sh
 sh get-docker.sh
 ```
 
-A complete walkthrough of the installation process and how to use Docker is available in our [Docker](vserver-linux-docker.md) guide.
+A complete walkthrough of the installation process and how to use Docker is available in our [Docker](dedicated-linux-docker.md) guide.
 
 
 
@@ -146,7 +147,7 @@ Finally start the instance with `./bitwarden.sh start`. The first run may take t
 
 ## Conclusion and more Resources
 
-Congratulations! You have now successfully installed and configured Bitwarden on your VPS. We also recommend taking a look at the following resources, which could provide you with additional help and guidance during your server configuration process
+Congratulations! You have now successfully installed and configured Bitwarden on your VPS/Dedicated Server. We also recommend taking a look at the following resources, which could provide you with additional help and guidance during your server configuration process
 
 - [bitwarden.com](https://bitwarden.com/) - Official Website
 - https://bitwarden.com/help/ - Bitwarden Help Center (Documentation)

@@ -1,10 +1,11 @@
 ---
 id: vserver-linux-speedtest-cli
-title: "VPS: Setup Speedtest-Cli on Linux"
+title: "Setup Speedtest CLI on a Linux Server - Monitor Your Server Network Performance"
 description: "Discover how to set up and use Speedtest-Cli for reliable network testing and automation → Learn more now"
 sidebar_label: Install Speedtest-Cli
 services:
   - vserver
+  - dedicated
 ---
 
 import Tabs from '@theme/Tabs';
@@ -62,7 +63,7 @@ For repeated use with the same options, it’s convenient to create a shell alia
 
 ## Conclusion and more Resources
 
-Congratulations! You have now successfully installed and configured Speedtest-Cli on your VPS. We also recommend taking a look at the following resources, which could provide you with additional help and guidance during your server configuration process
+Congratulations! You have now successfully installed and configured Speedtest-Cli on your VPS/Dedicated Server. We also recommend taking a look at the following resources, which could provide you with additional help and guidance during your server configuration process
 
 - [Speedtest.net/apps/cli](https://www.speedtest.net/apps/cli) - Official Website
 

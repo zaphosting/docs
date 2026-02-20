@@ -1,9 +1,10 @@
 ---
 id: dedicated-windows-javascript
-title: 'Dedicated Server: Installation of JavaScript'
+title: "Setup JavaScript Runtime on a Windows Server - Enable Modern Web Application Execution"
 description: "Discover how to install and set up Node.js, Deno, and Bun on Windows to run JavaScript efficiently → Learn more now"
 sidebar_label: Install JavaScript
 services:
+  - vserver
   - dedicated
 ---
 

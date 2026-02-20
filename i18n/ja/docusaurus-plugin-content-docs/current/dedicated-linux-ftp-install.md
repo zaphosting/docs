@@ -1,9 +1,10 @@
 ---
 id: dedicated-linux-ftp-install
-title: "専用サーバー：FTPサーバーのインストール"
-description: "LinuxでFileZilla Serverを使って安全なFTPサーバーをセットアップ・管理し、ファイル転送やユーザーアクセスを効率化する方法を解説 → 今すぐチェック"
+title: "LinuxサーバーにProFTPDをセットアップ - 安全なFTPサービスをホストしよう"
+description: "LinuxでFileZilla Serverを使って安全なFTPサーバーをセットアップ・管理し、ファイル転送やユーザーアクセスをスムーズに → 今すぐチェック"
 sidebar_label: FTPサーバーのインストール
 services:
+  - vserver
   - dedicated
 ---
 
@@ -11,7 +12,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## はじめに
 
-**FTP（ファイル転送プロトコル）**は、TCP/IPネットワーク上でファイルを転送するためのネットワークプロトコルです。このプロトコルはシステム間でのファイル交換を簡単にするために開発されました。**FileZilla Server**を使えば、Linux OS上にFTPサーバーを簡単に構築できます。FileZilla Serverはインストールや設定がシンプルで、ユーザーアカウントの作成、アクセス権の管理、ファイル転送など多彩な機能を備えています。このガイドでは、Linuxサーバーに**FileZilla Server**をインストールし設定する手順を紹介します。
+**FTP（ファイル転送プロトコル）**は、TCP/IPネットワーク上でファイルを転送するためのネットワークプロトコルです。このプロトコルはシステム間でのファイル交換を簡単にするために開発されました。Linux OS上で**FileZilla Server**を使えば、こうしたFTPサーバーを簡単にセットアップできます。FileZilla Serverはインストールや設定が簡単で、ユーザーアカウントの作成、アクセス権の管理、ファイル転送など多彩な機能を備えています。このガイドでは、Linuxサーバーに**FileZilla Server**をインストールし設定する手順を解説します。
 
 ## FTPサーバーをインストールしてユーザーを追加するには？
 
@@ -33,7 +34,7 @@ nano /etc/proftpd/proftpd.conf
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/8X4A6MZEr27YqFf/preview)
 
-以下の内容を追加してください：
+以下の設定を追加してください：
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/7ykDgQeP2qTHSbm/preview)
 
@@ -58,22 +59,22 @@ adduser benutzerftp -shell /bin/false -home /var/www
 adduser benutzerftp ftpuser
 ```
 
-パスワード設定を求められます：
+パスワードの設定を求められます：
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/4cmAAMcBaoTQ4QD/preview)
 
-入力内容を確認して、問題なければ続行します：
+入力内容を確認して問題なければ続行します：
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/6bNjWnr7ie3Cnty/preview)
 
-最後に、ユーザーをグループに追加します：  
+最後に、ユーザーをグループに割り当てます：  
 ```
 adduser benutzerftp ftpuser
 ```
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/bj277RHHMBQtPbp/preview)
 
-これで設定完了です。設定した情報でFTP接続が可能になります：
+これで設定した情報を使ってFTP接続が可能になります：
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/7toWfnRSmQzGL9r/preview)
 

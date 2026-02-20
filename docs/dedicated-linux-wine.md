@@ -1,9 +1,10 @@
 ---
 id: dedicated-linux-wine
-title: "Dedicated Server: Wine Compatibility Layer Linux Setup"
+title: "Wine Compatibility Layer Linux Setup"
 description: "Discover how to set up Wine on Linux to run Windows game servers smoothly on Ubuntu and similar systems → Learn more now"
 sidebar_label: Setup Wine Compatibility Layer
 services:
+  - vserver
   - dedicated
 ---
 
@@ -17,7 +18,7 @@ Wine is an open-source compatibility layer for Linux which allows software that 
 
 ## Preparation
 
-To begin with, connect to your Dedicated Server via SSH. Use our [SSH Initial Access](vserver-linux-ssh.md) guide if you need help doing this.
+To begin with, connect to your VPS/Dedicated Server via SSH. Use our [SSH Initial Access](vserver-linux-ssh.md) guide if you need help doing this.
 
 ## Installing Wine
 

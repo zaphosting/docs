@@ -1,28 +1,31 @@
+/* ===== Main Box ===== */
+
 .box {
     position: relative;
     z-index: 10;
     display: flex;
-    column-gap: 2.5rem;
-    border-radius: 1.5rem;
-    border: 1px solid rgb(132 204 22 / .25);
-    background-image: linear-gradient(to top right, #dcfce7, #ecfccb);
-    padding: 2.5rem 3rem;
-    box-shadow: 0 20px 25px -5px rgb(21 128 61 / .1), 0 8px 10px -6px rgb(21 128 61 / .1);
+    border-radius: 1rem;
+    overflow: hidden;
+    background-color: white;
+    border: 1px solid rgb(228 228 231 / .8);
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / .07), 0 2px 4px -2px rgb(0 0 0 / .07);
 }
 
 [data-theme='dark'] .box {
-    background-image: linear-gradient(to top right, rgb(38 38 38 / .4), #262626);
-    border: 1px solid rgb(115 115 115 / .05);
-    box-shadow: 0 0 #000000;
+    background-color: #262626;
+    border: 1px solid rgb(63 63 70 / .5);
+    box-shadow: none;
 }
+
+/* ===== Outer Sibling Cards ===== */
 
 .sibblingCard {
     position: absolute;
     inset: 0;
     z-index: 0;
-    border-radius: 1.5rem;
-    border: 1px solid rgb(132 204 22 / .2);
-    background-image: linear-gradient(to top right, #dcfce7, #ecfccb);
+    border-radius: 1rem;
+    border: 1px solid rgb(228 228 231 / .5);
+    background-color: white;
 }
 
 .sibblingCard:nth-of-type(1),
@@ -73,265 +76,7 @@
     }
 }
 
-.informationArea {
-    flex: 1 1 0%;
-}
-
-.title {
-    font-size: 1.5rem;
-    line-height: 2rem;
-    font-weight: 700;
-    color: #14532d;
-}
-
-[data-theme='dark'] .title {
-    color: rgb(250 250 250);
-}
-
-.mtsmall {
-    margin-top: .75rem;
-}
-
-.mtmedium {
-    margin-top: 1.25rem;
-}
-
-.mtbig {
-    margin-top: 1.5rem;
-}
-
-.mbhuge {
-    margin-bottom: 2rem;
-}
-
-.description,
-.descriptionSmall {
-    line-height: 1.625;
-    color: rgb(22 101 52 / .9);
-}
-
-[data-theme='dark'] .description,
-[data-theme='dark'] .descriptionSmall {
-    color: rgb(245 245 245 / .9);
-}
-
-.descriptionSmall {
-    font-size: .875rem;
-}
-
-.detailList {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    row-gap: .75rem;
-}
-
-.detailList .item {
-    display: flex;
-    align-items: flex-start;
-}
-
-.detailList .item .icon {
-    margin-right: .75rem;
-    width: 1.25rem;
-    height: 1.25rem;
-    color: #22c55e;
-}
-
-[data-theme='dark'] .detailList .item .icon {
-    color: rgb(217 249 157 / .8);
-}
-
-.detailList .item .text {
-    font-size: 0.875rem;
-    line-height: 1.25rem;
-    color: rgb(22 101 52 / .9);
-    padding-top: 1px;
-}
-
-[data-theme='dark'] .detailList .item .text {
-    color: rgb(245 245 245 / .9);
-}
-
-.voucherArea {
-    position: relative;
-    margin-right: .5rem;
-    display: flex;
-}
-
-.voucherSibblingCard {
-    position: absolute;
-    inset: 0;
-    transform-origin: bottom;
-    background-color: white;
-    opacity: 50%;
-    border-radius: 1rem;
-    box-shadow: 0 1px 3px 0 rgb(0 0 0 / .1), 0 1px 2px -1px rgb(0 0 0 / .1);
-}
-
-[data-theme='dark'] .voucherSibblingCard {
-    opacity: 5%;
-}
-
-.voucherSibblingCard:nth-of-type(1) {
-    transform: translate(-1rem, -.5rem) rotate(-6deg) scale(85%);
-}
-
-.voucherSibblingCard:nth-of-type(2) {
-    transform: translate(1rem, -.5rem) rotate(6deg) scale(85%);
-}
-
-.cardDecoration {
-    color: rgb(190 242 100);
-}
-
-[data-theme='dark'] .cardDecoration {
-    color: rgb(190 242 100 / .2);
-}
-
-.voucherCard {
-    background-color: white;
-    position: relative;
-    z-index: 10;
-    width: 9rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    overflow: hidden;
-    border-radius: 1rem;
-    border: 1px solid rgb(190 242 100 / .6);
-    box-shadow: 0 10px 15px -3px rgb(0 0 0 / .1), 0 4px 6px -4px rgb(0 0 0 / .1);
-}
-
-[data-theme='dark'] .voucherCard {
-    backdrop-filter: blur(24px);
-    background-color: transparent;
-    background-image: linear-gradient(to top right, rgb(64 64 64 / .8), rgb(82 82 82 / .8));
-    border: 1px solid transparent;
-}
-
-[data-theme='dark'] .voucherCard:before,
-[data-theme='dark'] .voucherCard:after {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    background-image: linear-gradient(to right, transparent, #a3e635, transparent);
-}
-
-[data-theme='dark'] .voucherCard:before {
-    height: 1px;
-    opacity: 20%;
-}
-
-[data-theme='dark'] .voucherCard:after {
-    height: 2px;
-    opacity: 80%;
-    filter: blur(12px);
-}
-
-.voucherCard .voucherLabel {
-    text-align: center;
-    font-weight: 700;
-    color: #365314;
-    font-size: .875rem;
-    line-height: 1.25rem;
-    padding: 1.75rem 1rem 1.5rem 1rem;
-}
-
-[data-theme='dark'] .voucherCard .voucherLabel {
-    color: rgb(247 254 231);
-}
-
-.voucherCard .cutLine {
-    position: relative;
-    margin-top: auto;
-    width: 100%;
-    border-top-width: 4px;
-    border-style: dotted;
-    border-color: rgb(217 249 157);
-    border-bottom-width: 0;
-}
-
-[data-theme='dark'] .voucherCard .cutLine {
-    border-color: rgb(82 82 82);
-}
-
-.voucherCard .cutLine:before,
-.voucherCard .cutLine:after {
-    content: '';
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    border-radius: 9999px;
-    background-color: rgb(217 249 157);
-    margin-top: -1px;
-    width: 1.5rem;
-    height: 1.5rem;
-}
-
-[data-theme='dark'] .voucherCard .cutLine:before,
-[data-theme='dark'] .voucherCard .cutLine:after {
-    background-color: rgb(82 82 82);
-}
-
-.voucherCard .cutLine:before {
-    left: -1.25rem;
-}
-
-.voucherCard .cutLine:after {
-    right: -1.25rem;
-}
-
-.footer {
-    display: flex;
-    align-items: center;
-    padding: 1.5rem;
-}
-
-.footer:hover .text {
-    color: rgb(54 83 20);
-}
-
-[data-theme='dark'] .footer:hover .text {
-    color: rgb(245 245 245);
-}
-
-.footer .text {
-    font-size: .688rem;
-    color: rgb(63 98 18 / .8);
-    transition-property: color;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    transition-duration: 700ms;
-}
-
-[data-theme='dark'] .footer .text {
-    color: rgb(163 163 163);
-}
-
-.footer:hover .icon {
-    transform: translateX(.125rem);
-    color: rgb(63 98 18 / .8);
-}
-
-[data-theme='dark'] .footer:hover .icon {
-    color: rgb(229 229 229);
-}
-
-.footer .icon {
-    width: .75rem;
-    height: .75rem;
-    color: rgb(63 98 18 / .6);
-    transition-property: all;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    transition-duration: 300ms;
-    margin-left: .25rem;
-}
-
-[data-theme='dark'] .footer .icon {
-    color: rgb(115 115 115);
-}
+/* ===== Wiggle Background ===== */
 
 .backgroundFader {
     position: absolute;
@@ -347,33 +92,717 @@
     opacity: 10%;
 }
 
-@media (max-width: 525px) {
+/* ===== Left: Info Side ===== */
+
+.infoSide {
+    flex: 0 0 600px;
+    min-width: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+/* ===== Header ===== */
+
+.header {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    padding: 2rem 1.75rem 1rem;
+}
+
+.headerTop {
+    display: flex;
+    align-items: center;
+    gap: .625rem;
+}
+
+[data-theme='dark'] .headerIcon {
+    background-color: rgb(132 204 22 / .1);
+    color: rgb(163 230 53);
+}
+
+.headerIcon {
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: .625rem;
+    background-color: rgb(236 252 203);
+    color: rgb(77 124 15);
+}
+
+.headerSvg {
+    width: 1.375rem;
+    height: 1.375rem;
+}
+
+[data-theme='dark'] .title {
+    color: rgb(250 250 250);
+}
+
+.title {
+    font-size: 1.375rem;
+    font-weight: 700;
+    line-height: 1.3;
+    color: #18181B;
+    margin-bottom: 0;
+    text-transform: uppercase;
+    letter-spacing: .025em;
+}
+
+[data-theme='dark'] .description {
+    color: rgb(161 161 170);
+}
+
+.description {
+    font-size: 0.8125rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #71717A;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+[data-theme='dark'] .descriptionSub {
+    color: rgb(161 161 170);
+}
+
+.descriptionSub {
+    font-size: 0.75rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #71717A;
+    margin-top: .5rem;
+    margin-bottom: -.25rem;
+}
+
+/* ===== Products ===== */
+
+.products {
+    padding-top: 0;
+    padding-bottom: .75rem;
+}
+
+/* ===== Discount Group ===== */
+
+[data-theme='dark'] .discountGroup + .discountGroup {
+    border-top-color: rgb(63 63 70 / .4);
+}
+
+.discountGroup + .discountGroup {
+    border-top: 1px solid rgb(228 228 231 / .6);
+}
+
+[data-theme='dark'] .groupLabel {
+    background-color: rgb(132 204 22 / .03);
+}
+
+.groupLabel {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    padding: .5rem 1.25rem;
+    background-color: rgb(247 254 231 / .5);
+}
+
+.discountBadge {
+    display: inline-flex;
+    align-items: center;
+    font-size: 0.6875rem;
+    font-weight: 700;
+    line-height: 1;
+    color: white;
+    background-color: #4D7C0F;
+    border-radius: .25rem;
+    padding: .25rem .4375rem;
+    white-space: nowrap;
+    flex-shrink: 0;
+}
+
+[data-theme='dark'] .discountBadge {
+    background-color: rgb(132 204 22 / .2);
+    color: rgb(190 242 100);
+}
+
+.groupLabelText {
+    font-size: .75rem;
+    color: #52525B;
+    font-weight: 500;
+}
+
+[data-theme='dark'] .groupLabelText {
+    color: rgb(161 161 170);
+}
+
+/* ===== Service List ===== */
+
+.serviceList {
+    display: flex;
+    flex-direction: column;
+    gap: 0.375rem;
+    padding: .5rem 1.25rem .75rem;
+}
+
+/* ===== Service Card ===== */
+
+[data-theme='dark'] .service {
+    background-color: rgb(132 204 22 / .05);
+    border-color: rgb(77 124 15 / .15);
+}
+
+[data-theme='dark'] .service:hover {
+    background-color: rgb(132 204 22 / .1);
+    border-color: rgb(132 204 22 / .35);
+    box-shadow: 0 0 0 1px rgb(132 204 22 / .1);
+}
+
+.service {
+    display: flex;
+    align-items: center;
+    gap: .75rem;
+    background-color: rgb(236 252 203 / .4);
+    border: 1px solid rgb(217 249 157 / .7);
+    border-radius: .5rem;
+    padding: .5rem .875rem;
+    transition: all 200ms cubic-bezier(0.4, 0, 0.2, 1);
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.service:hover {
+    background-color: rgb(236 252 203 / .75);
+    border-color: rgb(163 230 53 / .7);
+    box-shadow: 0 0 0 1px rgb(163 230 53 / .15);
+    text-decoration: none;
+}
+
+/* ===== Cart Icon ===== */
+
+.iconContainer {
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1.75rem;
+    height: 1.75rem;
+    border-radius: .375rem;
+    background-color: rgb(217 249 157 / .6);
+    transition: all 200ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+[data-theme='dark'] .iconContainer {
+    background-color: rgb(132 204 22 / .1);
+}
+
+.service:hover .iconContainer {
+    background-color: rgb(217 249 157 / .9);
+    transform: scale(1.05);
+}
+
+[data-theme='dark'] .service:hover .iconContainer {
+    background-color: rgb(132 204 22 / .2);
+}
+
+.serviceIcon {
+    width: .875rem;
+    height: .875rem;
+    color: rgb(77 124 15 / .8);
+    transition: color 200ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+[data-theme='dark'] .serviceIcon {
+    color: rgb(163 230 53 / .6);
+}
+
+.service:hover .serviceIcon {
+    color: rgb(58 93 11);
+}
+
+[data-theme='dark'] .service:hover .serviceIcon {
+    color: rgb(190 242 100 / .8);
+}
+
+/* ===== Label Group ===== */
+
+.labelGroup {
+    flex: 1;
+    display: flex;
+    align-items: baseline;
+    gap: .5rem;
+    min-width: 0;
+}
+
+.service .label {
+    font-size: 0.8125rem;
+    font-weight: 500;
+    line-height: 1.25rem;
+    color: #3F6212;
+    transition: color 200ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.service:hover .label { color: #365314; }
+
+[data-theme='dark'] .service .label { color: rgb(217 249 157 / .9); }
+[data-theme='dark'] .service:hover .label { color: rgb(236 252 203); }
+
+/* ===== Price Badge ===== */
+
+.price {
+    flex-shrink: 0;
+    font-size: 0.6875rem;
+    font-weight: 600;
+    line-height: 1;
+    color: #4D7C0F;
+    background-color: rgb(217 249 157 / .5);
+    border: 1px solid rgb(190 242 100 / .4);
+    border-radius: .25rem;
+    padding: .1875rem .375rem;
+    white-space: nowrap;
+    transition: all 200ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.service:hover .price { background-color: rgb(190 242 100 / .5); color: #365314; }
+
+[data-theme='dark'] .price { background-color: rgb(132 204 22 / .12); color: rgb(190 242 100 / .9); border-color: rgb(132 204 22 / .2); }
+[data-theme='dark'] .service:hover .price { background-color: rgb(132 204 22 / .2); color: rgb(217 249 157); }
+
+/* ===== Arrow Icon ===== */
+
+.arrowContainer {
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    transition: transform 200ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.service:hover .arrowContainer { transform: translate(2px, -2px); }
+
+.arrowIcon {
+    width: .875rem;
+    height: .875rem;
+    color: rgb(77 124 15 / .4);
+    transition: color 200ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.service:hover .arrowIcon { color: rgb(77 124 15); }
+[data-theme='dark'] .arrowIcon { color: rgb(132 204 22 / .3); }
+[data-theme='dark'] .service:hover .arrowIcon { color: rgb(163 230 53); }
+
+/* ===== Reason List (fallback) ===== */
+
+.reasonList {
+    display: flex;
+    flex-direction: column;
+    gap: .625rem;
+    padding: 1rem 1.25rem;
+    border-top: 1px solid rgb(228 228 231 / .6);
+}
+
+[data-theme='dark'] .reasonList { border-top-color: rgb(63 63 70 / .4); }
+
+.reasonItem {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    font-size: .8125rem;
+    color: #3F6212;
+}
+
+[data-theme='dark'] .reasonItem { color: rgb(217 249 157 / .9); }
+
+.reasonIcon {
+    flex-shrink: 0;
+    width: 1.125rem;
+    height: 1.125rem;
+    color: #22c55e;
+}
+
+[data-theme='dark'] .reasonIcon { color: rgb(163 230 53 / .7); }
+
+/* ===========================================================
+   VERTICAL TEAR LINE (coupon rip effect)
+   =========================================================== */
+
+.tearLine {
+    position: relative;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1px;
+}
+
+/* Dotted line */
+.tearDots {
+    flex: 1;
+    width: 0;
+    border-left: 3px dotted rgb(217 249 157);
+}
+
+[data-theme='dark'] .tearDots {
+    border-left-color: rgb(63 63 70 / .6);
+}
+
+/* ===========================================================
+   RIGHT: COUPON CODE SIDE
+   =========================================================== */
+
+.couponSide {
+    flex: 1 1 0%;
+    min-width: 13rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 2.25rem 1.5rem;
+    background-image: linear-gradient(160deg, rgb(247 254 231 / .6), rgb(236 252 203 / .4));
+}
+
+[data-theme='dark'] .couponSide {
+    background-image: linear-gradient(160deg, rgb(132 204 22 / .03), rgb(132 204 22 / .06));
+}
+
+/* ===== Coupon Label ===== */
+
+.couponLabel {
+    text-align: left;
+    font-weight: 800;
+    color: #365314;
+    font-size: .6875rem;
+    line-height: 1;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    margin-bottom: .375rem;
+}
+
+[data-theme='dark'] .couponLabel {
+    color: rgb(217 249 157);
+}
+
+.couponDescription {
+    text-align: left;
+    font-size: .6875rem;
+    font-weight: 400;
+    line-height: 1.4;
+    color: #6B7280;
+    margin: 0 0 1rem;
+}
+
+[data-theme='dark'] .couponDescription {
+    color: rgb(161 161 170);
+}
+
+/* ===== Auto-apply note ===== */
+
+.autoApplyNote {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: .3rem;
+    margin: .5rem 0 0;
+    font-size: .625rem;
+    font-weight: 500;
+    color: #4D7C0F;
+    text-align: left;
+    line-height: 1.3;
+}
+
+[data-theme='dark'] .autoApplyNote {
+    color: rgb(163 230 53 / .7);
+}
+
+.autoApplyIcon {
+    flex-shrink: 0;
+    width: .9375rem;
+    height: .9375rem;
+}
+
+/* ===== Custom Product Dropdown ===== */
+
+.productSelect {
+    position: relative;
+    width: 100%;
+    margin-bottom: .5rem;
+}
+
+/* Trigger button */
+.selectTrigger {
+    appearance: none;
+    -webkit-appearance: none;
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    width: 100%;
+    padding: .4375rem .625rem;
+    padding-right: 1.75rem;
+    background-color: white;
+    border: 1px solid rgb(217 249 157);
+    border-radius: .375rem;
+    cursor: pointer;
+    font-family: inherit;
+    transition: all 150ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.selectTrigger:hover {
+    border-color: rgb(163 230 53);
+    box-shadow: 0 0 0 1px rgb(163 230 53 / .2);
+}
+
+[data-theme='dark'] .selectTrigger {
+    background-color: rgb(39 39 42 / .8);
+    border-color: rgb(132 204 22 / .25);
+}
+
+[data-theme='dark'] .selectTrigger:hover {
+    border-color: rgb(132 204 22 / .45);
+}
+
+.triggerBadge,
+.optionBadge {
+    display: inline-flex;
+    align-items: center;
+    flex-shrink: 0;
+    font-size: .625rem;
+    font-weight: 800;
+    line-height: 1;
+    color: white;
+    background-color: #4D7C0F;
+    border-radius: .25rem;
+    padding: .1875rem .375rem;
+}
+
+[data-theme='dark'] .triggerBadge,
+[data-theme='dark'] .optionBadge {
+    background-color: rgb(132 204 22 / .2);
+    color: rgb(190 242 100);
+}
+
+.triggerName {
+    font-size: .75rem;
+    font-weight: 600;
+    color: #365314;
+}
+
+[data-theme='dark'] .triggerName {
+    color: rgb(217 249 157);
+}
+
+.triggerArrow {
+    position: absolute;
+    right: .5rem;
+    width: 1rem;
+    height: 1rem;
+    color: #4D7C0F;
+    transition: transform 150ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+[data-theme='dark'] .triggerArrow {
+    color: rgb(132 204 22);
+}
+
+/* Dropdown menu */
+.selectMenu {
+    position: absolute;
+    top: calc(100% + .25rem);
+    left: 0;
+    right: 0;
+    z-index: 10;
+    background-color: white;
+    border: 1px solid rgb(217 249 157);
+    border-radius: .375rem;
+    box-shadow: 0 4px 12px rgb(0 0 0 / .1);
+    overflow: hidden;
+}
+
+[data-theme='dark'] .selectMenu {
+    background-color: #27272a;
+    border-color: rgb(132 204 22 / .25);
+    box-shadow: 0 4px 12px rgb(0 0 0 / .3);
+}
+
+.selectOption {
+    appearance: none;
+    -webkit-appearance: none;
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    width: 100%;
+    padding: .4375rem .625rem;
+    border: none;
+    background: none;
+    cursor: pointer;
+    font-family: inherit;
+    transition: background-color 100ms ease;
+}
+
+.selectOption:hover {
+    background-color: rgb(247 254 231);
+}
+
+[data-theme='dark'] .selectOption:hover {
+    background-color: rgb(132 204 22 / .08);
+}
+
+.selectOptionActive {
+    background-color: rgb(236 252 203 / .5);
+}
+
+[data-theme='dark'] .selectOptionActive {
+    background-color: rgb(132 204 22 / .1);
+}
+
+.optionName {
+    font-size: .75rem;
+    font-weight: 500;
+    color: #365314;
+}
+
+[data-theme='dark'] .optionName {
+    color: rgb(217 249 157);
+}
+
+/* ===== Combo Action (Code + Order now) ===== */
+
+.comboAction {
+    display: flex;
+    align-items: stretch;
+    width: 100%;
+    border-radius: .5rem;
+    overflow: hidden;
+    box-shadow: 0 1px 3px 0 rgb(0 0 0 / .08);
+}
+
+.comboAction > button,
+.comboAction > * > button {
+    border-radius: .5rem !important;
+    border-top-right-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+    box-shadow: none !important;
+    border: none !important;
+    transform: none !important;
+}
+
+.comboAction > button:hover,
+.comboAction > * > button:hover {
+    transform: none !important;
+    box-shadow: none !important;
+}
+
+.comboAction > button:active,
+.comboAction > * > button:active {
+    transform: none !important;
+}
+
+.comboOrder {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .25rem;
+    padding: .5rem .75rem;
+    background-color: #4D7C0F;
+    text-decoration: none;
+    transition: background-color 200ms cubic-bezier(0.4, 0, 0.2, 1);
+    border-left: 1px solid rgb(58 93 11 / .3);
+    white-space: nowrap;
+}
+
+.comboOrder:hover {
+    background-color: #3F6212;
+    text-decoration: none;
+}
+
+[data-theme='dark'] .comboOrder {
+    background-color: rgb(132 204 22 / .2);
+    border-left-color: rgb(132 204 22 / .15);
+}
+
+[data-theme='dark'] .comboOrder:hover {
+    background-color: rgb(132 204 22 / .35);
+}
+
+.comboOrderText {
+    font-size: .625rem;
+    font-weight: 700;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: .05em;
+}
+
+[data-theme='dark'] .comboOrderText {
+    color: rgb(190 242 100);
+}
+
+.comboOrderIcon {
+    width: .75rem;
+    height: .75rem;
+    color: white;
+    transition: transform 200ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.comboOrder:hover .comboOrderIcon {
+    transform: translateX(2px);
+}
+
+[data-theme='dark'] .comboOrderIcon {
+    color: rgb(190 242 100);
+}
+
+/* ===== Loader ===== */
+
+.loader {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    color: #84cc16;
+}
+
+/* ===== Responsive ===== */
+
+@media (max-width: 600px) {
     .box {
         flex-direction: column;
-        padding: 2.5rem 5rem;
-        align-items: center;
     }
 
-    .title {
-        font-size: 1.25rem;
-        line-height: 1.75rem;
-    }
-
-    .voucherArea {
-        display: flex;
-        margin-top: 3rem;
-        margin-right: 0;
+    .tearLine {
         width: 100%;
-        justify-content: center;
+        height: 1px;
+        flex-direction: row;
     }
 
-    .voucherCard {
-        width: 100%
+    .tearDots {
+        flex: 1;
+        width: auto;
+        height: 0;
+        border-left: none;
+        border-top: 3px dotted rgb(217 249 157);
+    }
+
+    [data-theme='dark'] .tearDots {
+        border-left: none;
+        border-top-color: rgb(63 63 70 / .6);
+    }
+
+    .infoSide {
+        flex: 1 1 auto;
+    }
+
+    .couponSide {
+        width: 100%;
+        padding: 1.5rem;
+    }
+
+    .sibblingCard {
+        display: none;
     }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 525px) {
     .box {
-        padding: 2.5rem;
+        border-radius: .75rem;
     }
 }

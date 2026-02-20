@@ -1,7 +1,7 @@
 ---
 id: dedicated-windows-notepad++
-title: "Serwer dedykowany: Instalacja Notepad++ na Windows"
-description: "Odkryj, jak zoptymalizować swój workflow kodowania z Notepad++ — szybki, konfigurowalny i lekki edytor tekstu → Sprawdź teraz"
+title: "Konfiguracja Notepad++ na serwerze Windows – Wykorzystaj potężny edytor kodu i tekstu"
+description: "Odkryj, jak zoptymalizować swój workflow kodowania z Notepad++ dla szybkiej, konfigurowalnej i lekkiej edycji tekstu → Dowiedz się więcej już teraz"
 sidebar_label: Instalacja Notepad++
 services:
 - dedicated
@@ -13,17 +13,17 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Wprowadzenie
 
-Notepad++ to darmowy i otwartoźródłowy edytor tekstu i kodu źródłowego dla Windows. Obsługuje podświetlanie składni, składanie kodu oraz edycję na kartach dla wielu języków programowania i skryptowych, a także jest wysoce konfigurowalny dzięki wtyczkom. Znany z szybkiego działania i niskiego zużycia zasobów, Notepad++ pozostaje popularnym wyborem dla developerów i użytkowników szukających potężnego, a jednocześnie lekkiego narzędzia do edycji.
+Notepad++ to darmowy i otwartoźródłowy edytor tekstu i kodu źródłowego dla Windows. Obsługuje podświetlanie składni, składanie kodu oraz edycję na kartach dla wielu języków programowania i skryptowych, a także jest wysoce konfigurowalny dzięki wtyczkom. Znany z szybkiego działania i niskiego zużycia zasobów, Notepad++ pozostaje popularnym wyborem dla deweloperów i użytkowników szukających potężnego, a jednocześnie lekkiego narzędzia do edycji.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/jMMDejqDfWDCfrr/preview)
 
-Myślisz o samodzielnym hostingu tej usługi? Przeprowadzimy Cię przez każdy krok instalacji i konfiguracji oraz podpowiemy, na co zwrócić uwagę.
+Myślisz o samodzielnym hostingu tej usługi? Przeprowadzimy Cię przez każdy krok konfiguracji i ustawień oraz podpowiemy, na co zwrócić uwagę.
 
 ## Wymagania wstępne
 
 Przed instalacją **Notepad++** upewnij się, że Twoje środowisko hostingowe spełnia poniższe wymagania, aby zapewnić płynną instalację i optymalną wydajność.
 
-| Sprzęt | Minimum | Rekomendacja ZAP-Hosting |
+| Sprzęt | Minimum | Rekomendacje ZAP-Hosting |
 | ---------- | ------------ | -------------------------- |
 | CPU | 1 rdzeń vCPU | 4 rdzenie vCPU |
 | RAM | 2 GB | 4 GB |
@@ -31,7 +31,7 @@ Przed instalacją **Notepad++** upewnij się, że Twoje środowisko hostingowe s
 
 ## Instalacja
 
-Gdy spełnisz wszystkie wymagania i przygotujesz środowisko, możesz przejść do instalacji aplikacji Notepad++. Pobierz ją z oficjalnej strony: https://notepad-plus-plus.org/downloads/
+Gdy spełnisz wszystkie wymagania i przygotujesz środowisko, możesz przejść do instalacji aplikacji Notepad++. Pobierz ją ze strony oficjalnej: https://notepad-plus-plus.org/downloads/
 
 Uruchom instalator Notepad++ i postępuj zgodnie z instrukcjami:
 
@@ -39,23 +39,23 @@ Uruchom instalator Notepad++ i postępuj zgodnie z instrukcjami:
 
 ## Konfiguracja
 
-Notepad++ oferuje szeroki zakres opcji personalizacji dostępnych w *Ustawienia > Preferencje*. Dzięki nim możesz dostosować edytor do swojego stylu pracy:
+Notepad++ oferuje szeroki zakres opcji personalizacji dostępnych w *Ustawienia > Preferencje*. Dzięki nim dostosujesz edytor do swojego stylu pracy:
 
 - **Ogólne**: Kontroluj zachowanie przy starcie, np. automatyczne otwieranie ostatnio używanych plików, ustaw domyślny język lub sposób działania kart.  
-- **Ustawienia edytora**: Dostosuj czcionkę i jej rozmiar, szerokość tabulatora, numerację linii, automatyczne wcięcia oraz wyświetlanie spacji i znaków tabulacji.  
+- **Ustawienia edytora**: Dostosuj czcionkę i jej rozmiar, szerokość tabulatora, numerację linii, automatyczne wcięcia oraz wyświetlanie znaków spacji i tabulatorów.  
 - **Schematy kolorów i składnia**: Skorzystaj z „Konfiguratora stylów”, aby zmieniać motywy i personalizować podświetlanie składni dla każdego obsługiwanego języka.  
 - **Obsługa plików**: Skonfiguruj automatyczne przeładowanie plików po zmianach, zachowanie przy dużych plikach oraz preferencje kodowania, np. UTF-8.  
 - **Bezpieczeństwo i kopie zapasowe**: Włącz automatyczne kopie zapasowe lub przywracanie sesji, by uniknąć utraty danych.  
 - **Wtyczki**: Instaluj i zarządzaj rozszerzeniami przez Menedżera wtyczek, dodając funkcje takie jak wsparcie FTP czy zaawansowane formatowanie.  
 
-Te ustawienia sprawiają, że Notepad++ jest bardzo elastyczny — idealny zarówno do prostego edytowania tekstu, jak i pełnoprawnego developmentu.
+Te ustawienia sprawiają, że Notepad++ jest bardzo elastyczny – świetnie sprawdzi się zarówno do prostego edytowania tekstu, jak i pełnoprawnego developmentu.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/X8og5qnFkBTRcmA/preview)
 
 ## Podsumowanie i dodatkowe materiały
 
-Gratulacje! Udało Ci się zainstalować i skonfigurować Notepad++ na Twoim serwerze dedykowanym. Polecamy też zajrzeć do poniższych źródeł, które mogą pomóc Ci jeszcze lepiej ogarnąć konfigurację serwera:
+Gratulacje! Właśnie zainstalowałeś i skonfigurowałeś Notepad++ na swoim serwerze dedykowanym. Polecamy też rzucić okiem na poniższe materiały, które mogą pomóc Ci w dalszej konfiguracji serwera.
 
 - [notepad-plus-plus.org/](https://notepad-plus-plus.org/) – Oficjalna strona
 
-Masz pytania, których tu nie ma? Jeśli potrzebujesz pomocy lub wsparcia, śmiało kontaktuj się z naszym zespołem supportu, który jest do Twojej dyspozycji codziennie! 🙂
+Masz pytania, które nie zostały tu poruszone? Jeśli potrzebujesz pomocy lub wsparcia, śmiało kontaktuj się z naszym zespołem wsparcia, który jest do Twojej dyspozycji codziennie! 🙂

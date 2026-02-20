@@ -1,9 +1,10 @@
 ---
 id: dedicated-linux-odoo
-title: "Servidor Dedicado: Configura Odoo (ERP y CRM Open Source) en Linux"
+title: "Configura Odoo en un Servidor Linux - Ejecuta tu propio ERP y CRM Open Source"
 description: "Descubre cómo gestionar y automatizar procesos empresariales con la plataforma integrada ERP y CRM de Odoo para operaciones empresariales más eficientes → Aprende más ahora"
 sidebar_label: Instalar Odoo
 services:
+  - vserver
   - dedicated
 ---
 
@@ -15,7 +16,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Odoo es una plataforma modular de código abierto que combina funcionalidades de Enterprise Resource Planning (ERP) y Customer Relationship Management (CRM). Permite a las empresas gestionar y automatizar procesos como contabilidad, inventario, gestión de proyectos y ventas desde un único sistema.
 
-Con sus extensiones flexibles, Odoo puede adaptarse a necesidades específicas y ofrece una solución integrada para gestionar todas las áreas de una empresa.
+Con sus extensiones flexibles, Odoo puede adaptarse a necesidades específicas y ofrece una solución integrada para administrar todas las áreas de una empresa.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/3nwfLeK2c9kTiCp/preview)
 
@@ -59,14 +60,14 @@ sudo apt update && sudo apt upgrade -y
 Esto garantiza que tu sistema tenga los últimos parches de seguridad y versiones de software antes de continuar.
 
 ### Instalar dependencias
-Una vez completado el proceso de actualización, puedes proceder con la instalación de las dependencias. Odoo se desplegará y ejecutará en tu máquina usando varios contenedores Docker. Esto requiere que Docker esté instalado primero. Para hacerlo, ejecuta el siguiente comando:
+Una vez completado el proceso de actualización, puedes proceder con la instalación de las dependencias. Bitwarden se desplegará y ejecutará en tu máquina usando varios contenedores Docker. Esto requiere que Docker esté instalado primero. Para hacerlo, ejecuta el siguiente comando:
 
 ```
 curl -fsSL https://get.docker.com -o get-docker.sh
 sh get-docker.sh
 ```
 
-Un recorrido completo del proceso de instalación y cómo usar Docker está disponible en nuestra [guía Docker](vserver-linux-docker.md).
+Un recorrido completo del proceso de instalación y cómo usar Docker está disponible en nuestra [guía Docker](dedicated-linux-docker.md).
 
 
 
@@ -171,7 +172,7 @@ Luego, verifica las reglas ejecutando `sudo ufw status` para confirmar que los p
 
 ### Configuración de Nginx
 
-La configuración de nginx comienza creando un archivo de configuración para tu dominio. Dentro del directorio `nginx/conf`, crea un nuevo archivo con el nombre de tu dominio. Para ello ejecuta `nano nginx/conf/example.com.conf` y añade las directivas básicas, reemplazando el marcador con tu dominio real:
+La configuración de nginx comienza creando un archivo de configuración para tu dominio. Dentro del directorio `nginx/conf`, crea un nuevo archivo con el nombre de tu dominio. Para ello ejecuta `nano nginx/conf/example.com.conf` y añade las directivas básicas, reemplazando el marcador de posición con tu dominio real:
 
 ```
 server {
@@ -235,7 +236,7 @@ resolver 1.1.1.1 1.0.0.1 valid=300s;
 
 ### Configuración de Nginx
 
-Edita el archivo de configuración de nginx que creaste antes y reemplaza su contenido con la configuración que se muestra a continuación para asegurar que tu sitio solo se sirva vía HTTPS.
+Edita el archivo de configuración de nginx que creaste antes y reemplaza su contenido con la configuración que se muestra a continuación para asegurar que tu sitio solo se sirva por HTTPS.
 
 Asegúrate de insertar tu dominio real en la directiva `server_name` y especificar las rutas correctas a tus archivos de certificado en las directivas `ssl_certificate` y `ssl_certificate_key`.
 
@@ -285,7 +286,7 @@ server {
         send_timeout          60s;
     }
 
-    # Cachear archivos estáticos
+    # Cache para archivos estáticos
     location ~* /web/static/ {
         proxy_cache_valid 200 60m;
         proxy_buffering on;
@@ -331,13 +332,13 @@ server {
 
 
 
-Una vez guardados los cambios en la configuración de nginx, debes aplicar los nuevos ajustes reiniciando el contenedor nginx:
+Una vez guardados los cambios en la configuración de nginx, necesitas aplicar los nuevos ajustes reiniciando el contenedor nginx:
 
 ```
 sudo docker compose restart nginx
 ```
 
-Reiniciar asegura que nginx cargue la configuración actualizada y comience a servir solicitudes con los nuevos parámetros de inmediato. Presta atención a cualquier mensaje de error durante el reinicio. Si hay problemas, puedes inspeccionar los logs del contenedor con `sudo docker compose logs nginx` para solucionar posibles errores de configuración. Cuando el contenedor funcione sin errores, revisa tu sitio web para confirmar que HTTPS está activo y el sitio se sirve correctamente.
+Reiniciar asegura que nginx cargue la configuración actualizada y comience a servir solicitudes con los nuevos parámetros de inmediato. Presta atención a cualquier mensaje de error durante el reinicio. Si hay problemas, puedes inspeccionar los logs del contenedor con `sudo docker compose logs nginx` para solucionar posibles problemas de configuración. Cuando el contenedor funcione sin errores, revisa tu sitio web para confirmar que HTTPS está activo y que el sitio se sirve correctamente.
 
 
 
@@ -345,7 +346,7 @@ Reiniciar asegura que nginx cargue la configuración actualizada y comience a se
 
 Para aplicar configuraciones personalizadas, puedes crear un archivo de configuración dedicado para Odoo. Coloca un nuevo archivo en `config/odoo.conf` y añade las opciones deseadas.
 
-Dentro de este archivo puedes definir varios parámetros útiles: `list_db = False` oculta la selección de base de datos en la página de login, `proxy_mode = True` indica a Odoo que se está ejecutando detrás de un proxy inverso, y si quieres usar addons personalizados, puedes descomentar la línea `addons_path` y apuntarla al directorio de addons que creaste antes. Ejemplo de configuración:
+Dentro de este archivo puedes definir varios parámetros útiles: `list_db = False` oculta la selección de base de datos en la página de inicio de sesión, `proxy_mode = True` indica a Odoo que está detrás de un proxy inverso, y si quieres usar addons personalizados, puedes descomentar la línea `addons_path` y apuntarla al directorio de addons que creaste antes. Ejemplo de configuración:
 
 ```
 [options]
@@ -366,7 +367,7 @@ command: odoo -d odoo_db --db_user=odoo --db_password=odoo --db_host=db
 
 
 
-## Accediendo al sitio web
+## Acceso al sitio web
 
 Una vez que la instalación y configuración estén completas y todos los servicios estén en ejecución, puedes acceder de forma segura a tu sitio web ingresando tu dominio en la barra de direcciones del navegador.
 
@@ -374,13 +375,13 @@ Una vez que la instalación y configuración estén completas y todos los servic
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/QTEzbrqG66tTQEA/download)
 
-Esto cargará la página de inicio de tu nueva instalación. Para el login inicial, se proporciona una cuenta por defecto con el usuario `admin` y la contraseña `admin`. Se recomienda encarecidamente que cambies estas credenciales.
+Esto cargará la página de inicio de tu nueva instalación. Para el inicio de sesión inicial, se proporciona una cuenta por defecto con el usuario `admin` y la contraseña `admin`. Se recomienda encarecidamente que cambies estas credenciales.
 
 
 
 ## Conclusión y más recursos
 
-¡Felicidades! Ahora has instalado y configurado Odoo con éxito en tu Servidor Dedicado. También te recomendamos echar un vistazo a los siguientes recursos, que pueden ofrecerte ayuda y guía adicional durante el proceso de configuración de tu servidor:
+¡Felicidades! Ahora has instalado y configurado con éxito Odoo en tu VPS/servidor dedicado. También te recomendamos echar un vistazo a los siguientes recursos, que podrían brindarte ayuda y orientación adicional durante el proceso de configuración de tu servidor:
 
 - [Odoo.com](https://odoo.com) - Sitio oficial
 - [odoo.com/documentation/18.0/](https://www.odoo.com/documentation/18.0/) - Documentación de Odoo

@@ -1,9 +1,10 @@
 ---
 id: dedicated-linux-databases
-title: "専用サーバー：データベースのインストール"
-description: "Ubuntuやその他のLinuxディストリビューションでの各種データベースのインストールと設定方法を解説。パフォーマンスとセキュリティを強化しよう → 今すぐチェック"
+title: "Linuxサーバーでデータベースをセットアップ - データベースサービスの導入と管理"
+description: "Ubuntuやその他のLinuxディストリビューションで様々なデータベースをインストール・設定してパフォーマンスとセキュリティを強化 → 今すぐ詳しくチェック"
 sidebar_label: データベースのインストール
 services:
+  - vserver
   - dedicated
 ---
 
@@ -11,11 +12,11 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## はじめに
 
-このガイドでは、さまざまな種類のデータベースのインストール手順を紹介します。例としてUbuntu 20.04を使用していますが、当社ウェブサイトで提供している他のLinuxディストリビューション向けの同等のコマンドも記載しています。これらのコマンドはSSH経由で実行する必要があります。SSHでサーバーに接続する方法がわからない場合は、こちらをご覧ください：[初回アクセス（SSH）](vserver-linux-ssh.md)。
+このガイドでは、さまざまな種類のデータベースのインストール手順を紹介します。例としてUbuntu 20.04をOSに使用していますが、当サイトで提供している他のLinuxディストリビューション向けの同等のコマンドも記載しています。これらのコマンドはSSH経由で実行する必要があります。SSHでサーバーに接続する方法がわからない場合は、こちらをご覧ください：[初回アクセス（SSH）](vserver-linux-ssh.md)。
 
 ## 準備
 
-データベースのインストールを始める前に、まずシステムが最新の状態であることを確認しましょう。お使いのOSに応じて、以下のコマンドでパッケージマネージャーのパッケージを更新してください。
+データベースのインストールを始める前に、まずシステムが最新の状態であることを確認しましょう。OSに応じて以下のコマンドでパッケージマネージャーのパッケージを更新してください。
 
 ```
 // Ubuntu & Debian
@@ -43,23 +44,23 @@ import TabItem from '@theme/TabItem';
 
 ## MariaDBとは？
 
-MariaDBはMySQLからフォークされたオープンソースのリレーショナルデータベース管理システムです。パフォーマンスやセキュリティが強化され、継続的に開発が進められています。特にストレージエンジンの改善があり、MySQLとの完全な互換性を持つアーキテクチャが特徴です。MySQLよりMariaDBをおすすめします。
+MariaDBはMySQLからフォークされたオープンソースのリレーショナルデータベース管理システムです。パフォーマンスやセキュリティの向上、継続的な開発が特徴で、特にストレージエンジンの改善やMySQLとの完全な互換性を備えています。MySQLよりMariaDBをおすすめします。
 
 ## MariaDBのインストール
 
-まず、最新のMariaDBバージョンがインストールされるように確認しましょう。Debian 9やUbuntu 18.04などの古いOSでは、標準のパッケージマネージャーに最新のMariaDBが含まれていないため、以下のコマンドで最新バージョンを取得できるようにします。
+まず、最新のMariaDBバージョンがインストールされるようにしましょう。Debian 9やUbuntu 18.04など古いOSでは、標準のパッケージマネージャーに最新のMariaDBが含まれていないため、以下のコマンドで最新バージョンを取得できるようにします。
 
 ```
 curl -sS https://downloads.mariadb.com/MariaDB/mariadb_repo_setup | sudo bash
 ```
 
-リポジトリを追加したら、準備のセクションで説明した通りパッケージマネージャーのキャッシュを更新してください。
+リポジトリを追加したら、準備セクションの手順に従ってパッケージマネージャーのキャッシュを更新してください。
 
 :::info
 MariaDBリポジトリの追加（上記のステップ）は、Ubuntu 22.04やDebian 11などの最新OSでは無視しても問題ありません。
 :::
 
-リポジトリのセットアップが完了したら、`mariadb-server`パッケージをインストールしてMariaDBのインストールを開始します。OSに応じて以下のコマンドを実行してください。
+リポジトリのセットアップが完了したら、`mariadb-server`パッケージをインストールします。OSに応じて以下のコマンドを実行してください。
 
 ```
 // Ubuntu & Debian
@@ -83,7 +84,7 @@ sudo dnf install mariadb-server
 mysql_secure_installation
 ```
 
-プロンプトに従ってMariaDB（MySQL）サーバーの設定を行い、サーバーのパスワードを設定してください。次のプロンプトでは、今は入力をスキップするために**Enter**を押して進められます。
+プロンプトに従ってMariaDB（MySQL）サーバーの設定を行い、サーバーのパスワードを設定してください。次のプロンプトでは、**Enter**キーを押して入力をスキップできます。
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/sYDegXcMZwCoZzJ/preview)
 
@@ -91,25 +92,25 @@ mysql_secure_installation
 rootユーザーはMariaDB（MySQL）サーバーのメインユーザーです！
 :::
 
-次にrootユーザーのパスワードを設定するか聞かれますので、**y**で承認してください。その後、新しいrootユーザーのパスワードを入力します。
+次にrootユーザーのパスワードを設定するか聞かれますので、**y**で承認し、新しいパスワードを入力してください。
 
 :::note
-パスワード入力中は画面に表示されませんが、これは正常な動作です。安全なパスワードを設定し、必ず控えておいてください。
+パスワード入力中は画面に表示されませんが、これは正常な動作です。rootユーザーには安全なパスワードを設定し、大切に保管してください。
 :::
 
-続いて、匿名ユーザーを削除するか聞かれます。セキュリティのため必ず削除しましょう。**y**で承認してください。
+続いて匿名ユーザーを削除するか聞かれます。セキュリティのため必ず**y**で承認してください。
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/9rnHy9dJmezjemq/preview)
 
-次のプロンプトでは、rootユーザーが外部から接続できるかどうかを設定します。セキュリティ上、外部接続は無効にすることをおすすめします。**y**で無効化してください。
+次のプロンプトではrootユーザーの外部接続を許可するか聞かれます。セキュリティ上、無効にして**y**で承認することを推奨します。
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/cEozmgcXDBgaRwY/preview)
 
-次にMariaDB（MySQL）が提供するテスト用データベースを削除するか聞かれます。不要なので**y**で削除しましょう。
+続いてMariaDB（MySQL）が提供するテスト用データベースを削除するか聞かれます。不要なので**y**で承認してください。
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/kGHT3tm78dNBTRo/preview)
 
-最後に、設定したパスワードを有効にするために権限を更新するか聞かれます。**y**で承認してください。
+最後に設定したパスワードを有効にするため、権限の更新を行います。**y**で承認してください。
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/kGNDZkRS4QrpEfF/preview)
 
@@ -122,14 +123,14 @@ rootユーザーはMariaDB（MySQL）サーバーのメインユーザーです�
 
 ## Redisとは？
 
-Redisはインメモリのデータ構造ストアで、主にキー・バリュー形式のデータ保存に使われますが、リストやJSONなど他の形式もサポートしています。高速で、ミリ秒単位でクエリに応答できるのが特徴です。
+Redisはインメモリのデータ構造ストアで、主にキー・バリュー形式のデータ保存に使われますが、リストやJSONなど他のフォーマットもサポートしています。高速でミリ秒単位の応答を実現するのが特徴です。
 
 ## Redisのインストール
 
-まず、Redisをインストールできるリポジトリを追加します。このステップはすべてのLinuxディストリビューションで必要なわけではなく、以下のリストにあるOSのみ対象です。お使いのOSとバージョンに対応するコマンドを実行してください。
+まず、Redisをインストールするためのリポジトリを追加します。このステップはすべてのLinuxディストリビューションで必要なわけではなく、以下のOSでのみ必要です。ご自身のOSとバージョンに合ったコマンドを実行してください。
 
 ```
-// Ubuntu（全バージョン）とDebian（Debian 10のみ）
+// Ubuntu（全バージョン）およびDebian（Debian 10のみ）
 curl -fsSL https://packages.redis.io/gpg | sudo gpg --dearmor -o /usr/share/keyrings/redis-archive-keyring.gpg
 echo "deb [signed-by=/usr/share/keyrings/redis-archive-keyring.gpg] https://packages.redis.io/deb $(lsb_release -cs) main" | sudo tee /etc/apt/sources.list.d/redis.list
 
@@ -140,16 +141,16 @@ sudo yum install epel-release
 sudo dnf install https://dl.fedoraproject.org/pub/epel/epel-release-latest-8.noarch.rpm
 ```
 
-リポジトリを追加したら、準備のセクションで説明した通りパッケージマネージャーのキャッシュを更新してください。
+リポジトリを追加したら、準備セクションの手順に従ってパッケージマネージャーのキャッシュを更新してください。
 
 :::info
-上記にお使いのOSがない場合は、このステップは不要です。
+上記にOSがない場合、このステップは不要です。
 :::
 
-リポジトリの追加が完了したら、Redisサーバーパッケージのインストールに進みます。お使いのOSに応じて以下のコマンドを実行してください。
+リポジトリの追加が完了したら、Redisサーバーパッケージをインストールします。OSに応じて以下のコマンドを実行してください。
 
 ```
-// Ubuntu と Debian
+// Ubuntu & Debian
 sudo apt install redis-server
 
 // CentOS
@@ -162,11 +163,11 @@ sudo zypper install redis
 sudo dnf install redis
 ```
 
-インストールが完了したらRedisサーバーはすぐに使えます！デフォルトでは127.0.0.1:6379でパスワードなしで動作しています。
+インストールが完了したらRedisサーバーはすぐに使えます！デフォルトでは127.0.0.1:6379でパスワードなしで動作します。
 
 :::caution 
 Debian/Ubuntuユーザー向け：
-インストール後、Redisサーバーがサーバーブート時に自動起動するようにサービスを有効化してください。以下のコマンドで設定できます。
+インストール後、Redisサーバーがサーバーブート時に自動起動するようにサービスを有効化してください。以下のコマンドで実行できます。
 ```
 sudo systemctl enable --now redis-server
 ```
@@ -177,11 +178,11 @@ sudo systemctl enable --now redis-server
 <TabItem value="mongodb" label="MongoDB">
 
 ## MongoDBとは？
-MongoDBはドキュメント指向のNoSQLデータベースで、スケーラビリティと開発者の柔軟性を重視しています。JSONに似たBSON形式でデータを保存し、多様なデータタイプを扱えます。インデックスを使って応答時間を短縮でき、MySQLやSQLiteのような固定スキーマを持たないため、機敏で柔軟な運用が可能です。
+MongoDBはドキュメント指向のNoSQLデータベースで、スケーラビリティと開発者の柔軟性を重視しています。JSONに似たBSON形式でデータを保存し、多様なデータタイプを扱えます。インデックスを使って応答時間を短縮でき、MySQLやSQLiteのような固定スキーマを持たないため、素早く柔軟な開発が可能です。
 
 ## MongoDBのインストール
 
-以下のタブからお使いのOSを選択し、対応するガイドを表示してください。
+以下のタブからご利用のOSを選択し、対応するガイドを表示してください。
 
 <Tabs>
 <TabItem value="mongodb-ubuntu-debian" label="Ubuntu & Debian">
@@ -202,7 +203,7 @@ curl -fsSL https://pgp.mongodb.com/server-6.0.asc | \
 echo "deb [ arch=amd64,arm64 signed-by=/usr/share/keyrings/mongodb-server-6.0.gpg ] https://repo.mongodb.org/apt/$(lsb_release -si | awk '{print tolower($0)}') $(lsb_release -sc)/mongodb-org/6.0 main" | sudo tee /etc/apt/sources.list.d/mongodb-org-6.0.list
 ```
 
-これでパッケージマネージャーからMongoDB Community Editionをインストールできますが、その前にリポジトリを更新するために以下を実行してください。
+パッケージマネージャーのリポジトリを更新します。
 
 ```
 sudo apt update
@@ -234,7 +235,7 @@ enabled=1
 gpgkey=https://www.mongodb.org/static/pgp/server-6.0.asc
 ```
 
-これでMongoDBをインストールできます。CentOSとFedoraでインストールコマンドが少し異なるので、該当するコマンドを使ってください。
+これでMongoDBをインストールできます。CentOSとFedoraでコマンドが異なるので、該当する方を実行してください。
 
 ```
 // CentOS
@@ -244,7 +245,7 @@ sudo yum install -y mongodb-org
 sudo dnf install -y mongodb-org
 ```
 
-これでMongoDBのインストールは完了です。他のLinuxディストリビューションに比べてかなり簡単です！
+これでMongoDBのインストールは完了です。ほかのLinuxディストリビューションよりも簡単ですよ！
 
 </TabItem>
 <TabItem value="mongodb-suse" label="OpenSUSE">
@@ -263,7 +264,7 @@ sudo rpm --import https://www.mongodb.org/static/pgp/server-6.0.asc
 sudo zypper addrepo --gpgcheck "https://repo.mongodb.org/zypper/suse/15/mongodb-org/6.0/x86_64/" mongodb
 ```
 
-最後に、最新のMongoDBをインストールします。
+最後にMongoDBをインストールします。
 
 ```
 sudo zypper -n install mongodb-org

@@ -1,9 +1,10 @@
 ---
 id: dedicated-linux-docker
-title: "Servidor Dedicado: Instalación de Docker"
+title: "Configura Docker en un Servidor Linux - Ejecuta y Gestiona Contenedores en Tu Infraestructura"
 description: "Descubre cómo instalar Docker en tu servidor Linux para ejecutar aplicaciones aisladas de forma eficiente y optimizar el uso de recursos → Aprende más ahora"
 sidebar_label: Instalar Docker
 services:
+  - vserver
   - dedicated
 ---
 
@@ -13,15 +14,15 @@ import TabItem from '@theme/TabItem';
 
 ## Introducción
 
-Docker es un software de virtualización ligero y de código abierto para ofrecer servicios o aplicaciones en aislamiento en un solo sistema. A diferencia de las máquinas virtuales reales, no se emula ni aloja un sistema operativo adicional, sino solo un entorno de aplicación dentro del sistema anfitrión. Esto no solo ahorra recursos en general, sino que al mismo tiempo genera un bajo overhead comparado con la virtualización completa. En esta guía, cubriremos el proceso de instalación de Docker en tu servidor.
+Docker es un software de virtualización ligero y de código abierto para ofrecer servicios o aplicaciones en aislamiento en un solo sistema. A diferencia de las máquinas virtuales reales, no se emula ni aloja un sistema operativo adicional, sino solo un entorno de aplicación dentro del sistema anfitrión. Esto no solo ahorra recursos en general, sino que también genera una baja sobrecarga comparado con la virtualización completa. En esta guía, cubriremos el proceso de instalación de Docker en tu servidor.
 
 ## Preparación
 
-Para comenzar, debes conectarte a tu servidor Linux vía SSH. Echa un vistazo a nuestra [guía de acceso inicial (SSH)](dedicated-linux-ssh.md) si necesitas ayuda con esto. A lo largo de esta guía, usaremos Ubuntu como distribución Linux.
+Para comenzar, debes conectarte a tu servidor Linux vía SSH. Echa un vistazo a nuestra [guía de acceso inicial (SSH)](dedicated-linux-ssh.md) si necesitas ayuda con esto. A lo largo de esta guía, usaremos Ubuntu como la distribución Linux.
 
 ### Habilitar Compatibilidad con Docker
 
-Debes habilitar la **Compatibilidad con Docker** en tu panel web para permitir que los contenedores Docker funcionen, de lo contrario recibirás errores de `Permiso Denegado`.
+Debes habilitar la **Compatibilidad con Docker** en tu panel web para permitir que los contenedores Docker funcionen, de lo contrario recibirás errores de `Permission Denied`.
 
 Ve a la sección **Configuración** en el panel web de tu servidor, activa la opción **Compatibilidad con Docker** y guarda los cambios.
 
@@ -55,12 +56,12 @@ echo \
   sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
 ```
 
-Ahora que añadiste el repositorio de Docker a tus fuentes, ejecuta el comando `apt-get update` para obtener los cambios.
+Ahora que añadiste el repositorio de Docker a tus fuentes, ejecuta el comando `apt-get update` para actualizar los cambios.
 ```
 sudo apt-get update
 ```
 
-En este punto, has configurado correctamente el repositorio `apt` de Docker. Como paso final, tendrás que instalar los paquetes de Docker. Puedes instalar la última versión con el siguiente comando.
+En este punto, ya configuraste correctamente el repositorio `apt` de Docker. Como paso final, instala los paquetes de Docker. Puedes instalar la última versión con el siguiente comando.
 ```
 sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
 ```
@@ -69,7 +70,7 @@ sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin 
 
 <TabItem value="fedora" label="Fedora">
 
-Para comenzar, deberías instalar el paquete `dnf-plugins-core` que ayuda a gestionar repositorios.
+Para comenzar, instala el paquete `dnf-plugins-core` que ayuda a gestionar repositorios.
 ```
 sudo dnf -y install dnf-plugins-core
 ```
@@ -79,7 +80,7 @@ Con el paquete instalado, añade el repositorio de Docker e instálalo con el si
 sudo dnf-3 config-manager --add-repo https://download.docker.com/linux/fedora/docker-ce.repo
 ```
 
-Docker debería estar instalado ahora. Como paso final, necesitas iniciarlo y habilitarlo para que funcione.
+Docker debería estar instalado ahora. Como paso final, debes iniciarlo y habilitarlo para que funcione.
 ```
 sudo systemctl enable --now docker
 ```
@@ -92,7 +93,7 @@ Para verificar que la instalación fue exitosa, prueba ejecutar la imagen **hell
 sudo docker run hello-world
 ```
 
-Si todo va bien, deberías ver un mensaje de bienvenida con información básica. Si recibes errores de `Permiso Denegado`, asegúrate de haber activado la opción **Compatibilidad con Docker** en tu panel web y haber reiniciado el servidor como se describió en la sección de preparación.
+Si todo va bien, verás un mensaje de bienvenida con información básica. Si recibes errores de `Permission Denied`, asegúrate de haber activado la opción **Compatibilidad con Docker** en tu panel web y haber reiniciado el servidor como se explicó en la sección de preparación.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/tzJwpYRYb9Mmryo/preview)
 
@@ -100,11 +101,11 @@ Has instalado Docker exitosamente en tu servidor Linux.
 
 ## Configuración Post-Instalación
 
-Con Docker instalado en tu servidor, puedes hacer configuraciones adicionales para eliminar la necesidad de usar sudo al ejecutar comandos Docker y para iniciar Docker automáticamente al arrancar el servidor.
+Con Docker instalado en tu servidor, puedes hacer configuraciones adicionales para evitar usar `sudo` al ejecutar comandos Docker y para que Docker arranque automáticamente al iniciar el servidor.
 
 ### Gestionar Docker sin Sudo
 
-Puedes evitar tener que anteponer `sudo` a todos los comandos relacionados con Docker creando un grupo Docker y añadiendo tus usuarios a él. Esto mejora la comodidad, pero ten en cuenta que indirectamente otorga privilegios de root al usuario.
+Puedes eliminar la necesidad de anteponer `sudo` a todos los comandos Docker creando un grupo Docker y añadiendo tus usuarios a él. Esto mejora la comodidad, pero ten en cuenta que indirectamente otorga privilegios de root al usuario.
 
 Crea el grupo `docker` y añade tu usuario actual con estos comandos.
 ```
@@ -115,15 +116,15 @@ sudo groupadd docker
 sudo usermod -aG docker $USER
 ```
 
-Con esto hecho, recomendamos reiniciar tu servidor para que se reevalúe la membresía del grupo. Alternativamente, puedes usar `newgrp docker` para hacerlo.
+Una vez hecho esto, recomendamos reiniciar el servidor para que se reevalúe la membresía del grupo. Alternativamente, puedes usar `newgrp docker`.
 
-Ahora verifica que puedes ejecutar comandos Docker sin `sudo` ejecutando de nuevo `docker run hello-world`.
+Ahora verifica que puedes ejecutar comandos Docker sin `sudo` ejecutando nuevamente `docker run hello-world`.
 
 :::tip
-A veces puedes recibir un error relacionado con un archivo de configuración si ejecutaste el comando anteriormente con `sudo`. Para solucionarlo, simplemente usa `rmdir ~/.docker/` para eliminar el directorio Docker, que se recreará automáticamente en el próximo uso del comando.
+A veces puede aparecer un error relacionado con un archivo de configuración si ejecutaste el comando anteriormente con `sudo`. Para solucionarlo, simplemente elimina el directorio Docker con `rmdir ~/.docker/`, que se recreará automáticamente al usar Docker de nuevo.
 :::
 
-Si el comando se ejecuta correctamente, significa que configuraste Docker para funcionar sin necesidad de usar `sudo`.
+Si el comando funciona sin problemas, significa que configuraste Docker para ejecutarse sin necesidad de `sudo`.
 
 ### Iniciar Docker al Arrancar
 
@@ -133,13 +134,13 @@ Puedes configurar Docker para que se inicie automáticamente al arrancar el serv
 En Ubuntu y Debian, Docker está configurado para iniciarse automáticamente al arrancar por defecto. Si usas estas distribuciones, no necesitas hacer nada más.
 :::
 
-Puedes habilitar el servicio Docker para que se ejecute al inicio con estos comandos.
+Puedes habilitar el servicio Docker para que arranque con el sistema con estos comandos.
 ```
 sudo systemctl enable docker.service
 sudo systemctl enable containerd.service
 ```
 
-De forma similar, para deshabilitar el servicio al inicio reemplaza `enable` por `disable`. También puedes gestionar el servicio con varios subcomandos de `systemctl`, como los siguientes.
+De forma similar, para deshabilitar el servicio al inicio reemplaza `enable` por `disable`. También puedes gestionar el servicio con varios subcomandos de `systemctl`, como:
 ```
 sudo systemctl start [tu_servicio]
 sudo systemctl stop [tu_servicio]

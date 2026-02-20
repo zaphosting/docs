@@ -1,7 +1,7 @@
 ---
 id: dedicated-linux-notepad++
-title: "Serwer dedykowany: Instalacja Notepad++ na Linux"
-description: "Dowiedz się, jak zainstalować i zoptymalizować Notepad++ na Linuxie, aby mieć potężne, lekkie narzędzie do edycji kodu i zwiększyć swoją produktywność → Sprawdź teraz"
+title: "Konfiguracja Notepad++ na serwerze Linux – Używaj swojego ulubionego edytora przez Wine"
+description: "Dowiedz się, jak zainstalować i zoptymalizować Notepad++ na Linuxie, by mieć potężne, lekkie narzędzie do edycji kodu i zwiększyć swoją produktywność → Sprawdź teraz"
 sidebar_label: Instalacja Notepad++
 services:
 - dedicated
@@ -17,10 +17,10 @@ Notepad++ to darmowy i otwartoźródłowy edytor tekstu i kodu źródłowego dla
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/jMMDejqDfWDCfrr/preview)
 
-Myślisz o hostowaniu tej usługi na własnym serwerze? Przeprowadzimy Cię krok po kroku przez cały proces instalacji i konfiguracji oraz podpowiemy, na co zwrócić uwagę.
+Myślisz o hostingu tego serwisu na własnym serwerze? Przeprowadzimy Cię krok po kroku przez cały proces instalacji i konfiguracji oraz podpowiemy, na co zwrócić uwagę.
 
 :::danger Wymagany Linux z wariantem Desktop
-Ta aplikacja może być zainstalowana i używana tylko na systemie Linux z graficznym interfejsem użytkownika; w tym przykładzie jako odniesienie użyto Ubuntu Desktop 25.04.
+Ta aplikacja może być zainstalowana i używana tylko na systemie Linux z graficznym interfejsem użytkownika; w tym przykładzie jako odniesienie używamy Ubuntu Desktop 25.04.
 
 :::
 
@@ -50,22 +50,22 @@ Upewnij się, że wszystkie zależności są zainstalowane, a wersja systemu ope
 
 ## Przygotowanie
 
-Przed konfiguracją **Notepad++** musisz przygotować swój system. Obejmuje to aktualizację systemu operacyjnego do najnowszej wersji oraz instalację wszystkich wymaganych zależności. Te przygotowania zapewniają stabilne środowisko i pomagają uniknąć problemów podczas lub po instalacji.
+Przed konfiguracją **Notepad++** musisz przygotować swój system. Obejmuje to aktualizację systemu operacyjnego do najnowszej wersji oraz instalację wszystkich wymaganych zależności. Te przygotowania zapewnią stabilne środowisko i pomogą uniknąć problemów podczas lub po instalacji.
 
 
 ### Aktualizacja systemu
-Aby mieć pewność, że Twój system działa na najnowszym oprogramowaniu i z poprawkami bezpieczeństwa, zawsze najpierw wykonaj aktualizację systemu. W tym celu uruchom poniższe polecenie:
+Aby mieć pewność, że Twój system działa na najnowszym oprogramowaniu i ma aktualizacje bezpieczeństwa, zawsze najpierw wykonaj aktualizację systemu. W tym celu uruchom poniższe polecenie:
 
 ```
 sudo apt update && sudo apt upgrade -y
 ```
-To zapewni, że Twój system ma najnowsze poprawki bezpieczeństwa i wersje oprogramowania przed dalszymi krokami.
+Dzięki temu Twój system będzie miał najnowsze poprawki bezpieczeństwa i wersje oprogramowania przed dalszymi krokami.
 
 ### Instalacja zależności
-Po zakończeniu aktualizacji możesz przejść do instalacji zależności.
+Po zakończeniu aktualizacji możesz przystąpić do instalacji zależności.
 
 #### Snap
-Notepad++ wymaga najpierw zainstalowanego Snap. Aby to zrobić, uruchom poniższe polecenie: 
+Notepad++ wymaga najpierw zainstalowania Snap. Wykonaj poniższe polecenie: 
 ```
 sudo apt install snapd
 ```
@@ -74,13 +74,13 @@ sudo apt install snapd
 
 
 ## Instalacja
-Gdy wszystkie wymagania zostały spełnione, a przygotowania zakończone, możesz przejść do instalacji aplikacji Notepad++. Wykonaj następujące polecenie:
+Gdy wszystkie wymagania są spełnione, a przygotowania zakończone, możesz przejść do instalacji aplikacji Notepad++. Wykonaj następujące polecenie:
 
 ```
 sudo snap install notepad-plus-plus
 ```
 
-Notepad++ zostanie pobrany i zainstalowany za pomocą oficjalnego skryptu instalacyjnego. Po prostu pozwól procesowi zakończyć się, a następnie możesz od razu uruchomić aplikację.
+Notepad++ zostanie pobrany i zainstalowany za pomocą oficjalnego skryptu instalacyjnego. Po prostu pozwól procesowi się zakończyć, a następnie możesz od razu uruchomić aplikację.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/ca9Z8D37wCSrDbf/preview)
 
@@ -90,12 +90,12 @@ Notepad++ zostanie pobrany i zainstalowany za pomocą oficjalnego skryptu instal
 
 Notepad++ oferuje szeroki zakres opcji personalizacji dostępnych w *Ustawienia > Preferencje*. Pozwalają one dostosować edytor do Twojego stylu pracy:
 
-- **Ogólne**: Kontroluj zachowanie przy starcie, np. ponowne ładowanie wcześniej otwartych plików, ustaw domyślny język lub określ, jak działają zakładki.  
-- **Ustawienia edytora**: Dostosuj typ i rozmiar czcionki, szerokość tabulatora, numerację linii, automatyczne wcięcia lub wyświetlanie spacji i znaków tabulacji.  
-- **Schematy kolorów i składnia**: Użyj „Konfiguratora stylów”, aby zmieniać motywy i personalizować podświetlanie składni dla każdego obsługiwanego języka.  
-- **Obsługa plików**: Skonfiguruj opcje takie jak automatyczne przeładowanie pliku po zmianach, zachowanie przy dużych plikach lub preferencje kodowania, np. UTF-8.  
-- **Bezpieczeństwo i kopie zapasowe**: Włącz automatyczne kopie zapasowe lub przywracanie sesji, aby zapobiec utracie danych.  
-- **Wtyczki**: Instaluj i zarządzaj rozszerzeniami przez Menedżera wtyczek, aby dodać funkcje takie jak wsparcie FTP czy zaawansowane formatowanie.  
+- **Ogólne**: Kontroluj zachowanie przy starcie, np. ponowne ładowanie wcześniej otwartych plików, ustaw domyślny język lub określ zachowanie kart.  
+- **Ustawienia edytora**: Dostosuj typ i rozmiar czcionki, szerokość tabulatora, numerację linii, autoindentyfikację lub wyświetlanie spacji i znaków tabulacji.  
+- **Schematy kolorów i składnia**: Użyj „Konfiguratora stylów”, by zmieniać motywy i personalizować podświetlanie składni dla każdego obsługiwanego języka.  
+- **Obsługa plików**: Skonfiguruj opcje takie jak automatyczne przeładowanie pliku po zmianach, zachowanie przy dużych plikach czy preferencje kodowania, np. UTF-8.  
+- **Bezpieczeństwo i kopie zapasowe**: Włącz automatyczne kopie zapasowe lub przywracanie sesji, by zapobiec utracie danych.  
+- **Wtyczki**: Instaluj i zarządzaj rozszerzeniami przez Menedżera Wtyczek, by dodać funkcje takie jak wsparcie FTP czy zaawansowane formatowanie.  
 
 Te ustawienia sprawiają, że Notepad++ jest bardzo elastyczny, niezależnie czy używasz go do prostego edytowania tekstu, czy pełnoprawnego developmentu.
 
@@ -106,7 +106,7 @@ Te ustawienia sprawiają, że Notepad++ jest bardzo elastyczny, niezależnie czy
 
 ## Podsumowanie i dodatkowe zasoby
 
-Gratulacje! Właśnie pomyślnie zainstalowałeś i skonfigurowałeś Notepad++ na swoim serwerze dedykowanym. Polecamy też rzucić okiem na poniższe zasoby, które mogą Ci pomóc i wesprzeć podczas konfiguracji serwera:
+Gratulacje! Właśnie pomyślnie zainstalowałeś i skonfigurowałeś Notepad++ na swoim serwerze dedykowanym. Polecamy też rzucić okiem na poniższe zasoby, które mogą Ci pomóc i wesprzeć podczas konfiguracji serwera.
 
 - [notepad-plus-plus.org/](https://notepad-plus-plus.org/) - Oficjalna strona
 

@@ -1,9 +1,10 @@
 ---
 id: dedicated-linux-odoo
-title: "Dedicated Server: Setup Odoo (Open Source ERP and CRM) on Linux"
+title: "Setup Odoo on a Linux Server - Run Your Own Open Source ERP and CRM"
 description: "Discover how to manage and automate business processes with Odoo’s integrated ERP and CRM platform for streamlined company operations → Learn more now"
 sidebar_label: Install Odoo
 services:
+  - vserver
   - dedicated
 ---
 
@@ -66,7 +67,7 @@ curl -fsSL https://get.docker.com -o get-docker.sh
 sh get-docker.sh
 ```
 
-A complete walkthrough of the installation process and how to use Docker is available in our [Docker](vserver-linux-docker.md) guide.
+A complete walkthrough of the installation process and how to use Docker is available in our [Docker](dedicated-linux-docker.md) guide.
 
 
 
@@ -380,7 +381,7 @@ This will load the start page of your new installation. For the initial login, a
 
 ## Conclusion and more Resources
 
-Congratulations! You have now successfully installed and configured Odoo on your Dedicated Server. We also recommend taking a look at the following resources, which could provide you with additional help and guidance during your server configuration process
+Congratulations! You have now successfully installed and configured Odoo on your VPS/Dedicated Server. We also recommend taking a look at the following resources, which could provide you with additional help and guidance during your server configuration process
 
 - [Odoo.com](https://odoo.com) - Official Website
 - [odoo.com/documentation/18.0/](https://www.odoo.com/documentation/18.0/) - Odoo Documentation

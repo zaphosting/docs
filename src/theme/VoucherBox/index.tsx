@@ -31,6 +31,11 @@ export default function VoucherBox() {
         {found === true && voucher &&
           <div className={styles.box}>
             <div className={styles.giftContainer}>
+              <span className={styles.giftTitle}>
+                <Translate id="voucherbox.title">
+                  HOSTING DISCOUNT
+                </Translate>
+              </span>
               <div className="relative">
                 <div className={styles.whiteFadeOut}></div>
                 <div className={styles.spinLine}></div>
@@ -79,37 +84,42 @@ export default function VoucherBox() {
                 </div>
               </div>
             </div>
-            <div className={[styles.contentContainer, styles.mtsmall].join(' ')}>
-              <span className={styles.voucherValue}>
-                  {voucher.value} {voucher.type}
-              </span>
-              <span className={styles.voucherLabel}>
-                  <Translate id="voucherbox.title">
-                      HOSTING DISCOUNT
-                  </Translate>
-              </span>
-                <div className={styles.mtsmall}>
-                    <VoucherButton code={voucher.code}></VoucherButton>
-                </div>
-                <a className={[styles.actionLink, styles.mtbig, styles.mbmid].join(' ')} href={siteConfig.customFields.marketingSite}
+            {/* Horizontal tear line */}
+            <div className={styles.tearLine}>
+              <div className={styles.tearDots}></div>
+            </div>
+
+            {/* Coupon section */}
+            <div className={styles.couponSection}>
+              <div className={styles.comboAction}>
+                <VoucherButton code={voucher.code} small={true} />
+                <a href={`${siteConfig.customFields.marketingSite}/en/server-hosting/?voucher=${voucher.code}`}
+                   className={styles.comboOrder}
                    target="_blank"
+                   rel="noopener noreferrer"
                    title={translate({
                      id: 'voucherbox.cta',
                      message: 'Rent a server',
                    })}
                 >
-                <span className={styles.actionLabel}>
-                  <Translate id="voucher.redeem">
-                    Redeem
-                  </Translate>
-                </span>
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor"
-                         className={styles.icon}>
-                        <path fillRule="evenodd"
-                              d="M6.22 4.22a.75.75 0 0 1 1.06 0l3.25 3.25a.75.75 0 0 1 0 1.06l-3.25 3.25a.75.75 0 0 1-1.06-1.06L8.94 8 6.22 5.28a.75.75 0 0 1 0-1.06Z"
-                              clipRule="evenodd"/>
-                    </svg>
+                  <span className={styles.comboOrderText}>
+                    <Translate id="inlinevoucher.cta">
+                      Order now
+                    </Translate>
+                  </span>
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" className={styles.comboOrderIcon}>
+                    <path fillRule="evenodd" d="M6.22 4.22a.75.75 0 0 1 1.06 0l3.25 3.25a.75.75 0 0 1 0 1.06l-3.25 3.25a.75.75 0 0 1-1.06-1.06L8.94 8 6.22 5.28a.75.75 0 0 1 0-1.06Z" clipRule="evenodd"/>
+                  </svg>
                 </a>
+              </div>
+              <p className={styles.autoApplyNote}>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" className={styles.autoApplyIcon}>
+                  <path fillRule="evenodd" d="M15 8A7 7 0 1 1 1 8a7 7 0 0 1 14 0ZM9 5a1 1 0 1 1-2 0 1 1 0 0 1 2 0ZM6.75 8a.75.75 0 0 0 0 1.5h.75v1.75a.75.75 0 0 0 1.5 0v-2.5A.75.75 0 0 0 8.25 8h-1.5Z" clipRule="evenodd"/>
+                </svg>
+                <Translate id="voucherbox.auto-apply">
+                  By using the ORDER NOW button, the voucher is automatically applied.
+                </Translate>
+              </p>
             </div>
           </div>
         }

@@ -1,9 +1,10 @@
 ---
 id: dedicated-linux-webserver
-title: "Serwer dedykowany: Instalacja serwera WWW Nginx i Apache"
-description: "Dowiedz się, jak skonfigurować i zainstalować serwery WWW Nginx lub Apache, aby efektywnie hostować swoją stronę → Sprawdź teraz"
+title: "Konfiguracja Nginx i Apache na serwerze Linux - Ustaw potężne środowisko serwera WWW"
+description: "Dowiedz się, jak zainstalować i skonfigurować serwery WWW Nginx lub Apache, aby efektywnie hostować swoją stronę → Sprawdź teraz"
 sidebar_label: Instalacja serwera WWW
 services:
+  - vserver
   - dedicated
 ---
 
@@ -11,7 +12,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Wprowadzenie
 
-Nginx i Apache to popularne serwisy WWW, które służą do dostarczania stron internetowych do przeglądarki użytkownika. Poniżej pokażemy Ci, jak zainstalować jeden z tych serwerów na Twoim systemie.
+Nginx i Apache to popularne usługi webowe, które służą do dostarczania stron internetowych do przeglądarki użytkownika. Poniżej pokażemy Ci, jak zainstalować jeden z tych serwerów na Twoim systemie. 
 
 
 
@@ -19,7 +20,7 @@ Nginx i Apache to popularne serwisy WWW, które służą do dostarczania stron i
 
 Zanim zaczniesz instalację serwera WWW, musisz upewnić się, że system jest aktualny. W tym celu łączymy się z serwerem przez SSH. Jeśli nie wiesz, czym jest SSH i jak go używać, sprawdź nasz poradnik: [Pierwszy dostęp (SSH)](vserver-linux-ssh.md).
 
-Po zalogowaniu możesz zaktualizować system za pomocą poniższych komend, w zależności od Twojego systemu operacyjnego:
+Po zalogowaniu możesz zaktualizować system za pomocą poniższych komend, zależnie od systemu operacyjnego:
 
 ```
 // Debian
@@ -42,7 +43,7 @@ sudo dnf upgrade --refresh
 
 ## Instalacja
 
-Po przygotowaniu systemu możesz rozpocząć instalację serwera WWW. W zależności od systemu operacyjnego i wybranego serwera, wykonaj odpowiednie polecenia:
+Gdy system jest już przygotowany, możesz rozpocząć instalację serwera WWW. W zależności od systemu operacyjnego i wybranego serwera, wykonaj odpowiednie polecenia:
 
 
 
@@ -65,13 +66,11 @@ sudo zypper install httpd
 sudo dnf install httpd
 ```
 
-Po instalacji serwera WWW możesz przesłać pliki swojej strony. Połącz się z serwerem przez FTP/SFTP, przejdź do katalogu:
+Po instalacji serwera WWW możesz przesłać pliki swojej strony. Połącz się z serwerem przez FTP/SFTP, przejdź do poniższego katalogu i wrzuć tam pliki.
 
 ```
 /var/www/html/
 ```
-
-i tam wrzuć swoje pliki.
 
 
 
@@ -94,19 +93,17 @@ sudo zypper install nginx
 sudo dnf install nginx
 ```
 
-Po instalacji serwera WWW możesz przesłać pliki swojej strony. Połącz się z serwerem przez FTP/SFTP, przejdź do katalogu:
+Po instalacji serwera WWW możesz przesłać pliki swojej strony. Połącz się z serwerem przez FTP/SFTP, przejdź do poniższego katalogu i wrzuć tam pliki.
 
 ```
 /usr/share/nginx/html
 ```
 
-i tam wrzuć swoje pliki.
-
 
 
 ## Sprawdzenie wersji
 
-Po zakończeniu instalacji możesz sprawdzić, czy wszystko poszło OK, używając komend `apache2 -v` (Apache) lub `nginx -v` (Nginx). Powinieneś zobaczyć coś podobnego do poniższego:
+Po zakończeniu instalacji możesz sprawdzić, czy wszystko poszło OK, używając poleceń `apache2 -v` (Apache) lub `nginx -v` (Nginx). Wynik powinien wyglądać mniej więcej tak:
 
 
 
@@ -128,4 +125,6 @@ nginx version: nginx/1.2.3
 ...
 ```
 
-Jeśli zobaczysz taki output, to znaczy, że serwer WWW został poprawnie zainstalowany.
+Jeśli zobaczysz podobny output, to znaczy, że serwer WWW został poprawnie zainstalowany. 
+
+

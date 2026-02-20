@@ -1,9 +1,10 @@
 ---
 id: dedicated-windows-ftpserver
-title: "Dedicated Server: Installation of FTP"
+title: "Setup FTP on a Windows Server - Host a Secure File Transfer Service"
 description: "Discover how to set up and manage a FileZilla FTP server on Windows for secure file transfers and user access control → Learn more now"
 sidebar_label: Install FTP
 services:
+  - vserver
   - dedicated
 ---
 

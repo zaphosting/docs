@@ -4,10 +4,12 @@ title: "Webspace: Add a domain"
 description: "Discover how to create and manage websites and email with Zap-Hosting web space for seamless online presence → Learn more now"
 sidebar_label: Add Domain
 services:
-  - webspace
+  - webspace	
+  - domain
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';
+import InlineServiceLink from '@site/src/components/InlineServiceLink';
 
 ## Introduction
 

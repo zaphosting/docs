@@ -34,5 +34,17 @@
   "item.label.Webspace": {
     "message": "Hébergement web",
     "description": "Navbar item with label Webspace"
+  },
+  "item.label.Software": {
+    "message": "Logiciels",
+    "description": "Navbar item with label Software"
+  },
+  "item.label.Rent a Server": {
+    "message": "Louer un serveur",
+    "description": "Navbar item with label Rent a Server"
+  },
+  "item.label.ZAP-Hosting": {
+    "message": "ZAP-Hosting",
+    "description": "Navbar item with label ZAP-Hosting"
   }
 }

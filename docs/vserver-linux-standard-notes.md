@@ -1,10 +1,11 @@
 ---
 id: vserver-linux-standard-notes
-title: "VPS: Setup Standard Notes on Linux"
+title: "Setup Standard Notes on a Linux Server - Build Your Private Notes System"
 description: "Discover how to securely sync and protect your notes across devices with Standard Notes self-hosting → Learn more now"
 sidebar_label: Install Standard Notes
 services:
   - vserver
+  - dedicated
 ---
 
 import Tabs from '@theme/Tabs';
@@ -64,7 +65,7 @@ curl -fsSL https://get.docker.com -o get-docker.sh
 sh get-docker.sh
 ```
 
-A complete walkthrough of the installation process and how to use Docker is available in our [Docker](vserver-linux-docker.md) guide.
+A complete walkthrough of the installation process and how to use Docker is available in our [Docker](dedicated-linux-docker.md) guide.
 
 
 
@@ -148,7 +149,7 @@ Before completing the process, open the “Advanced Options” section. Under �
 
 ## Conclusion and more Resources
 
-Congratulations! You have now successfully installed and configured Standard Notes on your VPS. We also recommend taking a look at the following resources, which could provide you with additional help and guidance during your server configuration process
+Congratulations! You have now successfully installed and configured Standard Notes on your VPS/Dedicated Server. We also recommend taking a look at the following resources, which could provide you with additional help and guidance during your server configuration process
 
 - [Standardnotes.com](https://standardnotes.com/) - Official Website
 - [Standardnotes.com/help](https://standardnotes.com/help) - Standard Notes Help Center (Documentation)
