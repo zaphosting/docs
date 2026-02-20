@@ -1,16 +1,17 @@
-﻿---
+---
 id: dedicated-linux-hytale
-title: "Dedicated Server: Hytale Dedicated Server Setup"
+title: "Hytale Dedicated Server Setup"
 description: "Discover how to set up the Hytale Dedicated server on your Linux Dedicated Server for seamless gameplay management → Learn more now"
 sidebar_label: Hytale
 services:
+  - vserver
   - dedicated
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introduction
-Do you have a Linux Dedicated Server and you want to install the Hytale on it? You are in the right place. In this guide, we will explain the step by step process of installing this service on your Linux server.
+Do you have a Linux VPS/Dedicated Server and you want to install the Hytale on it? You are in the right place. In this guide, we will explain the step by step process of installing this service on your Linux server.
 
 ## Preparation
 
@@ -22,7 +23,7 @@ Before continuing, ensure that Java 25 is installed on your system. You can veri
 java --version
 ```
 
-If Java is not yet installed on your system, follow our dedicated [Install Java](vserver-linux-java) guide for Linux servers. This guide explains how to install and configure Java properly on your environment.
+If Java is not yet installed on your system, follow our dedicated [Install Java](dedicated-linux-java) guide for Linux servers. This guide explains how to install and configure Java properly on your environment.
 
 
 

@@ -1,9 +1,10 @@
 ---
 id: dedicated-windows-fs-25
-title: "Dedicated Server: Farming Simulator 2025 Dedicated Server Windows Setup"
+title: "Farming Simulator 2025 Dedicated Server Windows Setup"
 description: "Discover how to set up a Farming Simulator 2025 dedicated server on Windows to host multiplayer games smoothly → Learn more now"
 sidebar_label: Farming Simulator 2025
 services:
+  - vserver
   - dedicated
 ---
 
@@ -11,31 +12,31 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introduction
 
-Do you have a Windows Dedicated Server and you want to install the Farming Simulator Dedicated Server 2025 service on it? You are in the right place. In this guide, we will explain the step by step process of installing this service on your server.
+Do you have a Windows VPS/Dedicated Server and you want to install the Farming Simulator Dedicated Server 2025 service on it? You are in the right place. In this guide, we will explain the step by step process of installing this service on your server.
 
 
 
 ## Preparation
 
-In order to host a Farming Simulator 2025 dedicated server, you must have a Windows server ready alongside a valid game license to run the dedicated server.
+In order to host a Farming Simulator 2025 dedicated server, you must have a Windows server ready alongside a valid game license to run the VPS/Dedicated Server.
 
 Before proceeding with the installation, connect to your Windows Server through Remote Desktop (RDP). Use our [Initial Access (RDP)](vserver-windows-userdp.md) guide if you need help doing this.
 
 ### Game License
 
-In order to host the dedicated server on your Windows server, you must own a digital copy of Farming Simulator 2025 directly from the [Farming Simulator](https://www.farming-simulator.com/buy-now.php) website.
+In order to host the VPS/Dedicated Server on your Windows server, you must own a digital copy of Farming Simulator 2025 directly from the [Farming Simulator](https://www.farming-simulator.com/buy-now.php) website.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/F7j4opS3tXZKSHs/preview)
 
-You cannot use the same license key as the one you are playing the game on, therefore you will need to purchase a **second** copy of the game just for your Dedicated Server.
+You cannot use the same license key as the one you are playing the game on, therefore you will need to purchase a **second** copy of the game just for your VPS/Dedicated Server.
 
 :::info Steam Game License
-It is possible to use a Steam game license to host your dedicated server, however this can be very inconvenient as it would mean that you are forced to run the Steam client at all times in the background. This will also mean that you cannot play any other game on any other system using the same Steam account due to the limitations of Steam. Therefore, we highly recommend you purchase a standalone key directly on the website instead to avoid this hassle.
+It is possible to use a Steam game license to host your VPS/Dedicated Server, however this can be very inconvenient as it would mean that you are forced to run the Steam client at all times in the background. This will also mean that you cannot play any other game on any other system using the same Steam account due to the limitations of Steam. Therefore, we highly recommend you purchase a standalone key directly on the website instead to avoid this hassle.
 
 However, if you do plan to use a **Steam** license, you should instead install the files through Steam as usual and skip to the **Dedicated Server Setup** section of the guide.
 :::
 
-Once you have purchased a digital version from the website, you will receive a product code via the email address that you provided during checkout. You will need this license key in the following section to access the game download and also to validate your dedicated server during setup.
+Once you have purchased a digital version from the website, you will receive a product code via the email address that you provided during checkout. You will need this license key in the following section to access the game download and also to validate your VPS/Dedicated Server during setup.
 
 ## Installation
 
@@ -71,11 +72,11 @@ Upon launch, you should see a first-time license key setup prompt. Enter the lic
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/nnFkynzt9Bapdk4/preview)
 
-You can now close the game as this is no longer needed and proceed with the following section to setup the dedicated server and web interface that comes with it. If you receive an **Video Driver** error, simply select **no** which will cancel the startup process straight away.
+You can now close the game as this is no longer needed and proceed with the following section to setup the VPS/Dedicated Server and web interface that comes with it. If you receive an **Video Driver** error, simply select **no** which will cancel the startup process straight away.
 
 ## Dedicated Server Setup
 
-With the game now ready, you will need to adjust some configuration options for your dedicated server. Begin by accessing your game install folder. By default, this should be under `C:\Program Files (x86)\Farming Simulator 2025` but it may be different if you changed the path during installation.
+With the game now ready, you will need to adjust some configuration options for your VPS/Dedicated Server. Begin by accessing your game install folder. By default, this should be under `C:\Program Files (x86)\Farming Simulator 2025` but it may be different if you changed the path during installation.
 
 Once here, find and open the **dedicatedServer.xml** file with a text editor.
 
@@ -90,7 +91,7 @@ We recommend adjusting the `username` and `passphrase` fields found at the very 
 With the credentials now configured, you can start the server by running the **dedicatedServer.exe** file found in the same root folder of the game.
 
 :::info Administrative Privileges
-Ensure that you launch the dedicated server executable with Administrative Privileges, otherwise you will very likely face issues when attempting to starting the actual game server. You can do this by right-clicking the file and selecting **Run as administrator**.
+Ensure that you launch the VPS/Dedicated Server executable with Administrative Privileges, otherwise you will very likely face issues when attempting to starting the actual game server. You can do this by right-clicking the file and selecting **Run as administrator**.
 :::
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/RDcLPWqzyBmGPDm/preview)
@@ -107,7 +108,7 @@ On this web interface panel, you will be able to perform a wide variety of adjus
 
 ### Port Forwarding your server
 
-In order to ensure that your server is accessible to the public, you must alter port forwarding rules for the ports that the dedicated server process is using. You can do this either through PowerShell commands directly, which is easier, or regularly through the Windows Defender Firewall page.
+In order to ensure that your server is accessible to the public, you must alter port forwarding rules for the ports that the VPS/Dedicated Server process is using. You can do this either through PowerShell commands directly, which is easier, or regularly through the Windows Defender Firewall page.
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
@@ -162,6 +163,6 @@ Upon success, the server should start booting and you can confirm this through t
 
 ## Conclusion
 
-Congratulations, you have successfully installed and configured the Farming Simulator 2025 dedicated server on your Dedicated Server! If you have any further questions or problems, please contact our support team, who are available to help you every day!
+Congratulations, you have successfully installed and configured the Farming Simulator 2025 dedicated server on your VPS/Dedicated Server! If you have any further questions or problems, please contact our support team, who are available to help you every day!
 
 

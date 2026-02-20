@@ -1,26 +1,27 @@
 ---
 id: dedicated-linux-enshrouded
-title: "Dedicated Server: Enshrouded Dedicated Server Linux Setup"
+title: "Enshrouded Dedicated Server Linux Setup"
 description: "Discover how to install and run the Enshrouded Dedicated Server on Linux for seamless game hosting and management → Learn more now"
 sidebar_label: Enshrouded
 services:
+  - vserver
   - dedicated
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introduction
-Do you have a Linux Dedicated Server and you want to install the Enshrouded Dedicated server service on it? You are in the right place. In this guide, we will explain the step by step process of installing this service on your Linux server through the use of SteamCMD. We will be using Ubuntu in the examples, but the process should be very similar for other distributions.
+Do you have a Linux VPS/Dedicated Server and you want to install the Enshrouded Dedicated server service on it? You are in the right place. In this guide, we will explain the step by step process of installing this service on your Linux server through the use of SteamCMD. We will be using Ubuntu in the examples, but the process should be very similar for other distributions.
 
 :::tip
-Did you know that you can install our **ZAP GS/TS3 Interface** directly onto your dedicated server, allowing you to setup game server services, with direct integration to your ZAP-Hosting dashboard, in just a few clicks! Learn more about the [GS/TS3 Interface here](dedicated-linux-gs-interface.md).
+Did you know that you can install our **ZAP GS/TS3 Interface** directly onto your VPS/Dedicated Server, allowing you to setup game server services, with direct integration to your ZAP-Hosting dashboard, in just a few clicks! Learn more about the [GS/TS3 Interface here](dedicated-linux-gs-interface.md).
 :::
 
 
 
 ## Preparation
 
-To begin with, connect to your Dedicated Server via SSH. Use our [SSH Initial Access](dedicated-linux-ssh.md) guide if you need help doing this.
+To begin with, connect to your VPS/Dedicated Server via SSH. Use our [SSH Initial Access](dedicated-linux-ssh.md) guide if you need help doing this.
 
 You will also have to complete a first-time setup for SteamCMD if this is your first time using this on your Linux server. Please use our [SteamCMD Linux Setup](dedicated-linux-steamcmd.md) guide and ensure SteamCMD is fully setup before proceeding.
 
@@ -67,7 +68,7 @@ You should now see many logs appear in your command prompt. If you see the `[Ses
 
 ## Conclusion
 
-Congratulations, you have successfully installed and configured the Enshrouded server on your Dedicated Server! As a next step, we recommend looking over our [Setup Linux Service](dedicated-linux-create-gameservice.md) guide, which covers setting up your new dedicated game server as a service. This provides various benefits including automatic server launching on boot, automatic server updates, easy management and access to logs, plus much more!
+Congratulations, you have successfully installed and configured the Enshrouded server on your VPS/Dedicated Server! As a next step, we recommend looking over our [Setup Linux Service](dedicated-linux-create-gameservice.md) guide, which covers setting up your new dedicated game server as a service. This provides various benefits including automatic server launching on boot, automatic server updates, easy management and access to logs, plus much more!
 
 If you have any further questions or problems, please contact our support team, who are available to help you every day!
 

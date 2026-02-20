@@ -1,10 +1,11 @@
 ---
 id: vserver-linux-supabase
-title: "VPS: Setup Supabase on Linux"
+title: "Setup Supabase on Linux"
 description: "Discover how to host and configure Supabase for a reliable open-source Postgres platform with authentication and realtime features → Learn more now"
 sidebar_label: Install Supabase
 services:
   - vserver
+  - dedicated
 ---
 
 import Tabs from '@theme/Tabs';
@@ -74,7 +75,7 @@ curl -fsSL https://get.docker.com -o get-docker.sh
 sh get-docker.sh
 ```
 
-A complete walkthrough of the installation process and how to use Docker is available in our [Docker](vserver-linux-docker.md) guide.
+A complete walkthrough of the installation process and how to use Docker is available in our [Docker](dedicated-linux-docker.md) guide.
 
 
 ## Installation
@@ -163,7 +164,7 @@ docker compose up -d
 
 ## Conclusion and more Resources
 
-Congratulations! You have now successfully installed and configured Supabase on your VPS. We also recommend taking a look at the following resources, which could provide you with additional help and guidance during your server configuration process
+Congratulations! You have now successfully installed and configured Supabase on your VPS/Dedicated Server. We also recommend taking a look at the following resources, which could provide you with additional help and guidance during your server configuration process
 
 - [Supabase.com](https://Supabase.com/) - Official Website
 - [Supabase.com/docs/guides/self-hosting](https://supabase.com/docs/guides/self-hosting) - Supabase Documentation

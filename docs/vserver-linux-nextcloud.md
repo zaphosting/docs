@@ -1,10 +1,11 @@
 ---
 id: vserver-linux-nextcloud
-title: "VPS: Installation of Nextcloud"
+title: "Installation of Nextcloud"
 description: "Discover how to set up a high-performance Nextcloud server on Linux for optimal cloud hosting → Learn more now"
 sidebar_label: Install Nextcloud
 services:
   - vserver
+  - dedicated
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

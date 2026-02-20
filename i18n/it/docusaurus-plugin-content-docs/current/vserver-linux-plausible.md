@@ -68,7 +68,7 @@ curl -fsSL https://get.docker.com -o get-docker.sh
 sh get-docker.sh
 ```
 
-Una guida completa all’installazione e all’uso di Docker è disponibile nella nostra guida [Docker](vserver-linux-docker.md).
+Una guida completa all’installazione e all’uso di Docker è disponibile nella nostra guida [Docker](dedicated-linux-docker.md).
 
 ## Installazione
 Ora che hai soddisfatto tutti i requisiti e completato le preparazioni, puoi procedere con l’installazione di Plausible.

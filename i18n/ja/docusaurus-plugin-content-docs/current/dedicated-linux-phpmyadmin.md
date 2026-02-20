@@ -22,7 +22,7 @@ sudo apt update -y
 sudo apt upgrade -y
 ```
 
-また、phpMyAdminを使うにはPHPがすでにインストールされている必要があります。PHPのインストール方法については、当社の[PHPインストールガイド](dedicated-linux-php.md)をチェックしてください。
+また、phpMyAdminを使うにはPHPがすでにインストールされている必要があります。PHPのインストール方法については、当社の[PHPインストールガイド](vserver-linux-php.md)をチェックしてください。
 
 :::warning PHPパッケージが不足している場合
 必要なPHPパッケージが不足していると、phpMyAdminのPHPファイルが正しく処理・表示されません。 

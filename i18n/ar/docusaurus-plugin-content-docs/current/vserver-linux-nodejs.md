@@ -39,7 +39,7 @@ curl -fsSL https://get.docker.com -o get-docker.sh
 sh get-docker.sh
 ```
 
-دليل كامل لعملية التثبيت وكيفية استخدام Docker متوفر في دليلنا الخاص بـ [Docker](vserver-linux-docker.md).
+دليل كامل لعملية التثبيت وكيفية استخدام Docker متوفر في دليلنا الخاص بـ [Docker](dedicated-linux-docker.md).
 
 ## التثبيت
 

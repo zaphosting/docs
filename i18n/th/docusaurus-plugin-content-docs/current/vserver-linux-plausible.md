@@ -68,7 +68,7 @@ curl -fsSL https://get.docker.com -o get-docker.sh
 sh get-docker.sh
 ```
 
-คู่มือการติดตั้งและการใช้งาน Docker แบบละเอียดมีให้ใน [คู่มือ Docker](vserver-linux-docker.md) ของเรา
+คู่มือการติดตั้งและการใช้งาน Docker แบบละเอียดมีให้ใน [คู่มือ Docker](dedicated-linux-docker.md) ของเรา
 
 ## การติดตั้ง
 เมื่อครบทุกข้อกำหนดและเตรียมระบบเรียบร้อยแล้ว คุณก็พร้อมติดตั้งแอปพลิเคชัน Plausible

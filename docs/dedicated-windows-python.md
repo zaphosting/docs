@@ -4,6 +4,7 @@ title: 'Dedicated Server: Installation of Python'
 description: "Learn how to install and set up Python runtime on Windows servers to run your Python programs efficiently → Learn more now"
 sidebar_label: Install Python
 services:
+  - vserver
   - dedicated
 ---
 

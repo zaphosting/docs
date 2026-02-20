@@ -23,12 +23,28 @@
     "message": "Dedicated Server",
     "description": "Navbar item with label Dedicated Server"
   },
-  "item.label.Domain & Webspace": {
-    "message": "Domain & Webspace",
-    "description": "Navbar item with label Domain & Webspace"
+  "item.label.Domain": {
+    "message": "Domain",
+    "description": "Navbar item with label Domain"
+  },
+  "item.label.Webspace": {
+    "message": "Webspace",
+    "description": "Navbar item with label Webspace"
   },
   "item.label.Voicebot & Voiceserver": {
     "message": "Voicebot & Voiceserver",
     "description": "Navbar item with label Voicebot & Voiceserver"
+  },
+  "item.label.Software": {
+    "message": "Software",
+    "description": "Navbar item with label Software"
+  },
+  "item.label.Rent a Server": {
+    "message": "Rent a Server",
+    "description": "Navbar item with label Rent a Server"
+  },
+  "item.label.ZAP-Hosting": {
+    "message": "ZAP-Hosting",
+    "description": "Navbar item with label ZAP-Hosting"
   }
 }

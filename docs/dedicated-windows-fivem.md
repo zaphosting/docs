@@ -1,9 +1,10 @@
 ---
 id: dedicated-windows-fivem
-title: "Dedicated Server: FiveM Dedicated Server Setup"
+title: "FiveM Dedicated Server Setup"
 description: "Discover how to set up and run your own FiveM Dedicated Server with txAdmin for seamless multiplayer gaming → Learn more now"
 sidebar_label: FiveM
 services:
+  - vserver
   - dedicated
 ---
 
@@ -22,7 +23,7 @@ Do you own a dedicated server and want to install and operate your own FiveM Ded
 
 
 :::warning  Operating system selected and installed
-It is assumed that you have already selected and installed an operating system for your dedicated server. If you haven't yet completed this step, you must first follow the steps in the [Initial setup](dedicated-setup.md) guide for dedicated servers.
+It is assumed that you have already selected and installed an operating system for your VPS/Dedicated Server. If you haven't yet completed this step, you must first follow the steps in the [Initial setup](dedicated-setup.md) guide for dedicated servers.
 :::
 
 
@@ -89,7 +90,7 @@ During the Recipe Deployer, the last necessary information must be added before 
 
 
 ### Firewall configuration
-In order to ensure that your server is accessible to the public, you must alter port forwarding rules for the ports that the dedicated server process is using. You can do this either through Powershell commands directly which is easier, or regularly through the Windows Defender Firewall page.
+In order to ensure that your server is accessible to the public, you must alter port forwarding rules for the ports that the VPS/Dedicated Server process is using. You can do this either through Powershell commands directly which is easier, or regularly through the Windows Defender Firewall page.
 
 <Tabs>
 <TabItem value="powershell" label="Via Powershell" default>
@@ -129,7 +130,7 @@ Please use our [Port Forwarding (Firewall)](vserver-windows-port.md) guide if yo
 
 ## Conclusion
 
-You have successfully installed and configured a FiveM Dedicated Server service on your dedicated server. For further questions or assistance, please don't hesitate to contact our support team, which is available daily to assist you! 🙂
+You have successfully installed and configured a FiveM Dedicated Server service on your VPS/Dedicated Server. For further questions or assistance, please don't hesitate to contact our support team, which is available daily to assist you! 🙂
 
 
 

@@ -72,7 +72,7 @@
     "description": "The label of footer link with label=Changelog linking to https://zap-hosting.com/en/changelog/"
   },
   "link.item.label.Ticketsupport": {
-    "message": "Ticket support",
+    "message": "Ticketsupport",
     "description": "The label of footer link with label=Ticketsupport linking to https://zap-hosting.com/en/customer/support/"
   },
   "link.item.label.Server Status": {
@@ -100,7 +100,7 @@
     "description": "The label of footer link with label=Security linking to https://zap-hosting.com/en/security/"
   },
   "copyright": {
-    "message": "Copyright © 2025 ZAP-Hosting GmbH",
+    "message": "Copyright © 2026 ZAP-Hosting GmbH",
     "description": "The footer copyright"
   }
 }

@@ -7,6 +7,14 @@
     "message": "{marketingSite}/{language}/vps-hosting/",
     "description": "URL path for the VPS product"
   },
+  "service.vserver-service-openclaw.title": {
+    "message": "VPS for OpenClaw",
+    "description": "Product name for the OpenClaw product"
+  },
+  "service.vserver-service-openclaw.path": {
+    "message": "{marketingSite}/{language}/vps-hosting/",
+    "description": "URL path for the VPS product"
+  },
   "service.dedicated.title": {
     "message": "Dedicated Server",
     "description": "Product name for the dedicated server product"
@@ -14,6 +22,10 @@
   "service.dedicated.path": {
     "message": "{marketingSite}/{language}/dedicated-server-hosting/",
     "description": "URL path for the dedicated server product"
+  },
+  "service.dedicated-service-openclaw.title": {
+    "message": "Dedicated Server for OpenClaw",
+    "description": "Product name for the OpenClaw product"
   },
   "service.domain.title": {
     "message": "Domain",
@@ -56,11 +68,11 @@
     "description": "URL path for the storage product"
   },
   "service.fivemupvotes.title": {
-    "message": "FiveM Upvotes",
+    "message": "Discord Bot",
     "description": "Product name for the storage product"
   },
   "service.fivemupvotes.path": {
-    "message": "{marketingSite}/{language}/shop/product/fivem-upvotes/",
+    "message": "{marketingSite}/{language}/shop/product/cloud-gameserver/discord-bot/",
     "description": "URL path for the storage product"
   },
   "service.fivemupvotesburst.title": {
@@ -68,7 +80,7 @@
     "description": "Product name for the storage product"
   },
   "service.gameserver.title": {
-    "message": "Cloud game server",
+    "message": "Cloud-Gameserver",
     "description": "Product name for the gameserver product"
   },
   "service.gameserver.path": {
@@ -395,6 +407,14 @@
     "message": "{marketingSite}/{language}/don-t-starve-together-server-hosting/",
     "description": "URL path for the gameserver product"
   },
+  "service.gameserver-echoes-of-elysium.title": {
+    "message": "Echoes of Elysium Gameserver",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-echoes-of-elysium.path": {
+    "message": "{marketingSite}/{language}/echoes-of-elysium-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
   "service.gameserver-eco.title": {
     "message": "ECO Gameserver",
     "description": "Product name for the gameserver product"
@@ -505,6 +525,14 @@
   },
   "service.gameserver-hurtworld.path": {
     "message": "{marketingSite}/{language}/hurtworld-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-hytale.title": {
+    "message": "Hytale Gameserver",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-hytale.path": {
+    "message": "{marketingSite}/{language}/hytale-server-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-icarus.title": {
@@ -659,6 +687,14 @@
     "message": "{marketingSite}/{language}/nienix-server-hosting/",
     "description": "URL path for the gameserver product"
   },
+  "service.gameserver-nightingale.title": {
+    "message": "Nightingale Gameserver",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-nightingale.path": {
+    "message": "{marketingSite}/{language}/nightingale-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
   "service.gameserver-nmrih.title": {
     "message": "No More Room In Hell Gameserver",
     "description": "Product name for the gameserver product"
@@ -771,6 +807,14 @@
     "message": "{marketingSite}/{language}/reign-of-kings-server-hosting/",
     "description": "URL path for the gameserver product"
   },
+  "service.gameserver-renown.title": {
+    "message": "Renown Gameserver",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-renown.path": {
+    "message": "{marketingSite}/{language}/renown-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
   "service.gameserver-rimworldtogether.title": {
     "message": "RimWorld Together Gameserver",
     "description": "Product name for the gameserver product"
@@ -867,6 +911,14 @@
     "message": "{marketingSite}/{language}/scum-server-hosting/",
     "description": "URL path for the gameserver product"
   },
+  "service.gameserver-skyrim-together-reborn.title": {
+    "message": "Skyrim Together Reborn Gameserver",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-skyrim-together-reborn.path": {
+    "message": "{marketingSite}/{language}/skyrim-together-reborn-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
   "service.gameserver-soldat.title": {
     "message": "Soldat Gameserver",
     "description": "Product name for the gameserver product"
@@ -921,6 +973,14 @@
   },
   "service.gameserver-starmade.path": {
     "message": "{marketingSite}/{language}/starmade-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-starrupture.title": {
+    "message": "StarRupture Gameserver",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-starrupture.path": {
+    "message": "{marketingSite}/{language}/starrupture-server-hosting/",
     "description": "URL path for the gameserver product"
   },
   "service.gameserver-staxel.title": {
@@ -1067,6 +1127,14 @@
     "message": "{marketingSite}/{language}/vintage-story-server-hosting/",
     "description": "URL path for the gameserver product"
   },
+  "service.gameserver-voyagers-of-nera.title": {
+    "message": "Voyagers of Nera Gameserver",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-voyagers-of-nera.path": {
+    "message": "{marketingSite}/{language}/voyagers-of-nera-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
   "service.gameserver-wreckfest.title": {
     "message": "Wreckfest Gameserver",
     "description": "Product name for the gameserver product"
@@ -1104,16 +1172,16 @@
     "message": "Ready for your next awesome project 😉"
   },
   "inlinevoucher.list-title.without-products": {
-    "message": "Why should you give us a try?"
+    "message": "Why you should give us a try?"
   },
   "inlinevoucher.list-reasons.first": {
-    "message": "DDoS Protection"
+    "message": "DDoS-Protection"
   },
   "inlinevoucher.list-reasons.second": {
     "message": "Online within minutes"
   },
   "inlinevoucher.list-reasons.third": {
-    "message": "Custom web interface"
+    "message": "Custom webinterface"
   },
   "inlinevoucher.your-voucher": {
     "message": "YOUR CODE"
@@ -1123,21 +1191,6 @@
   },
   "voucher.redeem": {
     "message": "Redeem"
-  },
-  "accordion.search.placeholder": {
-    "message": "Search...",
-    "description": "Placeholder text in the accordion search field"
-  },
-  "accordion.counter": {
-    "message": "{shown} out of {total} contents are displayed",
-    "description": "Amount of displayed vs. filtered accordion items"
-  },
-  "accordion.showMore": {
-    "message": "Show more",
-    "description": "Button to display additional accordion items"
-  },
-  "voucherbutton.success": {
-    "message": "YEEEAH!"
   },
   "searchableItemList.all": {
     "message": "All"
@@ -1163,14 +1216,71 @@
   "searchableItemList.showMoreBtn": {
     "message": "Show more"
   },
+  "accordion.search.placeholder": {
+    "message": "Search...",
+    "description": "Placeholder text in the accordion search field"
+  },
+  "accordion.counter": {
+    "message": "{shown} out of {total} contents are displayed",
+    "description": "Amount of displayed vs. filtered accordion items"
+  },
+  "accordion.showMore": {
+    "message": "Show more",
+    "description": "Button to display additional accordion items"
+  },
+  "voucherbutton.success": {
+    "message": "YEEEAH!"
+  },
   "servicelist.introduction": {
     "message": "This guide was created with the following products:"
   },
   "servicelist.note": {
     "message": "(Details may vary with products from different providers but the main concepts remain the same)"
   },
+  "footer.cookieSettings": {
+    "message": "Cookie settings"
+  },
   "voucherbox.title": {
     "message": "HOSTING DISCOUNT"
+  },
+  "contributors.cta.title": {
+    "message": "Become a ZAP-Hosting Contributor!"
+  },
+  "contributors.cta.description": {
+    "message": "Join our {contributionLink} and share your expertise with the community! Create and earn rewards. Your knowledge helps thousands of users. Start contributing today!"
+  },
+  "contributors.timeline.step1.title": {
+    "message": "Suggestion"
+  },
+  "contributors.timeline.step1.description": {
+    "message": "Share your guide idea via the GitHub Suggestion Form."
+  },
+  "contributors.timeline.step2.title": {
+    "message": "Approval"
+  },
+  "contributors.timeline.step2.description": {
+    "message": "Get feedback & approval to your suggestion within a few days"
+  },
+  "contributors.timeline.step3.title": {
+    "message": "Write Content"
+  },
+  "contributors.timeline.step3.description": {
+    "message": "Create high-quality content following our guidelines"
+  },
+  "contributors.timeline.step4.title": {
+    "message": "Earn Rewards"
+  },
+  "contributors.timeline.step4.description": {
+    "message": "Get paid for your approved contribution. Earn up to 130€!"
+  },
+  "contributors.document.title": {
+    "message": "Contributors to this content"
+  },
+  "localeDropdown.title": {
+    "message": "Language"
+  },
+  "localeDropdown.description": {
+    "message": "Select your preferred language."
   },
   "theme.ErrorPageContent.title": {
     "message": "This page crashed.",
@@ -1232,16 +1342,16 @@
     "message": "Switch between dark and light mode (currently {mode})",
     "description": "The ARIA label for the color mode toggle"
   },
-  "theme.docs.breadcrumbs.navAriaLabel": {
-    "message": "Breadcrumbs",
-    "description": "The ARIA label for the breadcrumbs"
-  },
   "theme.docs.DocCard.categoryDescription.plurals": {
     "message": "1 item|{count} items",
     "description": "The default description for a category card in the generated index about how many items this category includes"
   },
+  "theme.docs.breadcrumbs.navAriaLabel": {
+    "message": "Breadcrumbs",
+    "description": "The ARIA label for the breadcrumbs"
+  },
   "theme.docs.paginator.navAriaLabel": {
-    "message": "Documentation pages",
+    "message": "Docs pages",
     "description": "The ARIA label for the docs pagination"
   },
   "theme.docs.paginator.previous": {
@@ -1283,21 +1393,21 @@
     "message": "Edit this page",
     "description": "The link label to edit the current page"
   },
-  "theme.common.headingLinkTitle": {
-    "message": "Direct link to {heading}",
-    "description": "Title for link to heading"
-  },
   "theme.lastUpdated.atDate": {
-    "message": "on {date}",
+    "message": " on {date}",
     "description": "The words used to describe on which date a page has been last updated"
   },
   "theme.lastUpdated.byUser": {
-    "message": "by {user}",
+    "message": " by {user}",
     "description": "The words used to describe by who the page has been last updated"
   },
   "theme.lastUpdated.lastUpdatedAtBy": {
     "message": "Last updated{atDate}{byUser}",
     "description": "The sentence used to display when a page has been last updated, and by who"
+  },
+  "theme.common.headingLinkTitle": {
+    "message": "Direct link to {heading}",
+    "description": "Title for link to heading"
   },
   "theme.navbar.mobileVersionsDropdown.label": {
     "message": "Versions",
@@ -1351,13 +1461,13 @@
     "message": "Collapse sidebar category '{label}'",
     "description": "The ARIA label to collapse the sidebar category"
   },
+  "theme.IconExternalLink.ariaLabel": {
+    "message": "(opens in new tab)",
+    "description": "The ARIA label for the external link icon"
+  },
   "theme.NavBar.navAriaLabel": {
     "message": "Main",
     "description": "The ARIA label for the main navigation"
-  },
-  "theme.navbar.mobileLanguageDropdown.label": {
-    "message": "Languages",
-    "description": "The label for the mobile language switcher dropdown"
   },
   "theme.NotFound.p1": {
     "message": "We could not find what you were looking for.",
@@ -1366,6 +1476,10 @@
   "theme.NotFound.p2": {
     "message": "Please contact the owner of the site that linked you to the original URL and let them know their link is broken.",
     "description": "The 2nd paragraph of the 404 page"
+  },
+  "theme.navbar.mobileLanguageDropdown.label": {
+    "message": "Languages",
+    "description": "The label for the mobile language switcher dropdown"
   },
   "theme.TOCCollapsible.toggleButtonLabel": {
     "message": "On this page",
@@ -1379,10 +1493,6 @@
     "message": "Read more about {title}",
     "description": "The ARIA label for the link to full blog posts from excerpts"
   },
-  "theme.blog.post.readingTime.plurals": {
-    "message": "One min read|{readingTime} min read",
-    "description": "Pluralized label for \"{readingTime} min read\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
-  },
   "theme.CodeBlock.copy": {
     "message": "Copy",
     "description": "The copy button label on code blocks"
@@ -1394,6 +1504,10 @@
   "theme.CodeBlock.copyButtonAriaLabel": {
     "message": "Copy code to clipboard",
     "description": "The ARIA label for copy code blocks button"
+  },
+  "theme.blog.post.readingTime.plurals": {
+    "message": "One min read|{readingTime} min read",
+    "description": "Pluralized label for \"{readingTime} min read\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
   },
   "theme.CodeBlock.wordWrapToggle": {
     "message": "Toggle word wrap",
@@ -1472,7 +1586,7 @@
     "description": "The unlisted content banner title"
   },
   "theme.contentVisibility.unlistedBanner.message": {
-    "message": "This page is unlisted. Search engines will not index it, and only users with a direct link can access it.",
+    "message": "This page is unlisted. Search engines will not index it, and only users having a direct link can access it.",
     "description": "The unlisted content banner message"
   },
   "theme.contentVisibility.draftBanner.title": {
@@ -1494,20 +1608,5 @@
   "theme.tags.tagsPageTitle": {
     "message": "Tags",
     "description": "The title of the tag list page"
-  },
-  "service.gameserver-voyagers-of-nera.title": {
-    "message": "Voyagers of Nera Gameserver",
-    "description": "Product name for the gameserver product"
-  },
-  "service.gameserver-voyagers-of-nera.path": {
-    "message": "{marketingSite}/{language}/voyagers-of-nera-server-hosting/",
-    "description": "URL path for the gameserver product"
-  },
-  "footer.cookieSettings": {
-    "message": "Cookie settings"
-  },
-  "theme.IconExternalLink.ariaLabel": {
-    "message": "(opens in new tab)",
-    "description": "The ARIA label for the external link icon"
   }
 }
