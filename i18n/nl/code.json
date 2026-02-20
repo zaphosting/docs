@@ -1102,8 +1102,14 @@
   "inlinevoucher.title": {
     "message": "{voucherValue} {voucherType} HOSTING KORTING 🏷️"
   },
+  "inlinevoucher.title.generic": {
+    "message": "HOSTING-KORTING 🏷️"
+  },
   "inlinevoucher.description.with-products": {
-    "message": "Grijp je kans en start vandaag nog je eigen project! Gebruik de kortingscode voor de producten die in deze handleiding staan en krijg 50% korting. 😉"
+    "message": "Grijp de kans en start vandaag nog je eigen project! Gebruik de kortingscode voor de producten in deze handleiding en bespaar. 😉"
+  },
+  "inlinevoucher.description.rental-note": {
+    "message": "Deze kortingscode kan worden gebruikt voor de volgende producten op huurbasis:"
   },
   "inlinevoucher.list-title.with-products": {
     "message": "Deze kortingscode kan worden gebruikt voor de volgende producten op huurbasis:"
@@ -1126,8 +1132,26 @@
   "inlinevoucher.your-voucher": {
     "message": "JOUW CODE"
   },
+  "inlinevoucher.code-label": {
+    "message": "Code:"
+  },
+  "inlinevoucher.cta": {
+    "message": "Nu bestellen"
+  },
+  "inlinevoucher.select-product": {
+    "message": "Product selecteren:"
+  },
+  "inlinevoucher.coupon-description": {
+    "message": "Kopieer de code en pas deze toe bij het afrekenen of gebruik de bestelknop hieronder."
+  },
+  "inlinevoucher.auto-apply": {
+    "message": "Door de bestelknop te gebruiken wordt de voucher automatisch toegepast."
+  },
   "voucherbox.cta": {
     "message": "Huur een server"
+  },
+  "voucherbox.auto-apply": {
+    "message": "Door de \"Nu bestellen\" knop te gebruiken wordt de voucher automatisch toegepast."
   },
   "voucher.redeem": {
     "message": "Inwisselen"
@@ -1172,10 +1196,10 @@
     "message": "Meer tonen"
   },
   "servicelist.introduction": {
-    "message": "Deze handleiding is gemaakt met de volgende producten:"
+    "message": "De ideale producten voor deze handleiding"
   },
   "servicelist.note": {
-    "message": "(Details kunnen verschillen bij producten van verschillende aanbieders, maar de hoofdconcepten blijven hetzelfde)"
+    "message": "Begin meteen — bestel het passende product en volg deze handleiding stap voor stap."
   },
   "footer.cookieSettings": {
     "message": "Cookie-instellingen"

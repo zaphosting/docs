@@ -1094,8 +1094,14 @@
   "inlinevoucher.title": {
     "message": "{voucherValue} {voucherType} RABAT NA HOSTING 🏷️"
   },
+  "inlinevoucher.title.generic": {
+    "message": "RABAT NA HOSTING 🏷️"
+  },
   "inlinevoucher.description.with-products": {
-    "message": "Wykorzystaj okazję i rozpocznij swój własny projekt już dziś! Użyj kodu rabatowego na produkty wymienione w tym poradniku i otrzymaj 50% zniżki. 😉"
+    "message": "Skorzystaj z okazji i zacznij swój własny projekt już dziś! Użyj kodu rabatowego na produkty wymienione w tym poradniku i zaoszczędź. 😉"
+  },
+  "inlinevoucher.description.rental-note": {
+    "message": "Ten kod rabatowy może być wykorzystany na następujące produkty na zasadzie wynajmu:"
   },
   "inlinevoucher.list-title.with-products": {
     "message": "Ten kod rabatowy można wykorzystać na następujące produkty w ramach wynajmu:"
@@ -1118,8 +1124,26 @@
   "inlinevoucher.your-voucher": {
     "message": "TWÓJ KOD"
   },
+  "inlinevoucher.code-label": {
+    "message": "Kod:"
+  },
+  "inlinevoucher.cta": {
+    "message": "Zamów teraz"
+  },
+  "inlinevoucher.select-product": {
+    "message": "Wybierz produkt:"
+  },
+  "inlinevoucher.coupon-description": {
+    "message": "Skopiuj kod i zastosuj go przy kasie lub użyj przycisku zamówienia poniżej."
+  },
+  "inlinevoucher.auto-apply": {
+    "message": "Korzystając z przycisku zamówienia, kupon jest stosowany automatycznie."
+  },
   "voucherbox.cta": {
     "message": "Wynajmij serwer"
+  },
+  "voucherbox.auto-apply": {
+    "message": "Korzystając z przycisku \"Zamów teraz\", kupon jest stosowany automatycznie."
   },
   "voucher.redeem": {
     "message": "Zrealizuj"
@@ -1164,10 +1188,10 @@
     "message": "YEEEAH!"
   },
   "servicelist.introduction": {
-    "message": "Ten poradnik został stworzony z wykorzystaniem następujących produktów:"
+    "message": "Idealne produkty do tego poradnika"
   },
   "servicelist.note": {
-    "message": "(Szczegóły mogą się różnić w zależności od produktów różnych dostawców, ale główne koncepcje pozostają takie same)"
+    "message": "Zacznij od razu — zamów odpowiedni produkt i postępuj zgodnie z tym poradnikiem krok po kroku."
   },
   "voucherbox.title": {
     "message": "RABAT NA HOSTING"

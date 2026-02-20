@@ -1102,8 +1102,14 @@
   "inlinevoucher.title": {
     "message": "{voucherValue} {voucherType} HOSTING-RABATT 🏷️"
   },
+  "inlinevoucher.title.generic": {
+    "message": "HOSTING-RABATT 🏷️"
+  },
   "inlinevoucher.description.with-products": {
-    "message": "Ta chansen och starta ditt eget projekt idag! Använd rabattkoden för produkterna som listas i denna guide och få 50% rabatt. 😉"
+    "message": "Ta chansen och starta ditt eget projekt idag! Använd rabattkoden för produkterna i denna guide och spara. 😉"
+  },
+  "inlinevoucher.description.rental-note": {
+    "message": "Denna rabattkod kan användas för följande produkter på hyrbasis:"
   },
   "inlinevoucher.list-title.with-products": {
     "message": "Denna rabattkod kan användas för följande produkter på hyresbasis:"
@@ -1126,8 +1132,26 @@
   "inlinevoucher.your-voucher": {
     "message": "DIN KOD"
   },
+  "inlinevoucher.code-label": {
+    "message": "Kod:"
+  },
+  "inlinevoucher.cta": {
+    "message": "Beställ nu"
+  },
+  "inlinevoucher.select-product": {
+    "message": "Välj produkt:"
+  },
+  "inlinevoucher.coupon-description": {
+    "message": "Kopiera koden och använd den vid kassan eller använd beställningsknappen nedan."
+  },
+  "inlinevoucher.auto-apply": {
+    "message": "Genom att använda beställningsknappen tillämpas kupongen automatiskt."
+  },
   "voucherbox.cta": {
     "message": "Hyr en server"
+  },
+  "voucherbox.auto-apply": {
+    "message": "Genom att använda knappen \"Beställ nu\" tillämpas kupongen automatiskt."
   },
   "voucher.redeem": {
     "message": "Lös in"
@@ -1172,10 +1196,10 @@
     "message": "JAA!"
   },
   "servicelist.introduction": {
-    "message": "Denna guide skapades med följande produkter:"
+    "message": "De perfekta produkterna för denna guide"
   },
   "servicelist.note": {
-    "message": "(Detaljer kan variera med produkter från olika leverantörer men huvudkoncepten förblir desamma)"
+    "message": "Kom igång direkt — beställ rätt produkt och följ denna guide steg för steg."
   },
   "footer.cookieSettings": {
     "message": "Cookie-inställningar"

@@ -1102,8 +1102,14 @@
   "inlinevoucher.title": {
     "message": "{voucherValue} {voucherType} SCONTO HOSTING 🏷️"
   },
+  "inlinevoucher.title.generic": {
+    "message": "SCONTO HOSTING 🏷️"
+  },
   "inlinevoucher.description.with-products": {
-    "message": "Approfitta dell'occasione e inizia oggi il tuo progetto! Usa il codice sconto per i prodotti elencati in questa guida e ottieni uno sconto del 50%. 😉"
+    "message": "Cogli l'opportunità e inizia il tuo progetto oggi! Usa il codice sconto per i prodotti di questa guida e risparmia. 😉"
+  },
+  "inlinevoucher.description.rental-note": {
+    "message": "Questo codice sconto può essere utilizzato per i seguenti prodotti a noleggio:"
   },
   "inlinevoucher.list-title.with-products": {
     "message": "Questo codice sconto può essere utilizzato per i seguenti prodotti in modalità noleggio:"
@@ -1126,8 +1132,26 @@
   "inlinevoucher.your-voucher": {
     "message": "IL TUO CODICE"
   },
+  "inlinevoucher.code-label": {
+    "message": "Codice:"
+  },
+  "inlinevoucher.cta": {
+    "message": "Ordina ora"
+  },
+  "inlinevoucher.select-product": {
+    "message": "Seleziona prodotto:"
+  },
+  "inlinevoucher.coupon-description": {
+    "message": "Copia il codice e applicalo al checkout oppure usa il pulsante per ordinare qui sotto."
+  },
+  "inlinevoucher.auto-apply": {
+    "message": "Utilizzando il pulsante di ordine, il buono viene applicato automaticamente."
+  },
   "voucherbox.cta": {
     "message": "Noleggia un server"
+  },
+  "voucherbox.auto-apply": {
+    "message": "Utilizzando il pulsante \"Ordina ora\", il buono viene applicato automaticamente."
   },
   "voucher.redeem": {
     "message": "Riscatta"
@@ -1172,10 +1196,10 @@
     "message": "YEEEAH!"
   },
   "servicelist.introduction": {
-    "message": "Questa guida è stata creata con i seguenti prodotti:"
+    "message": "I prodotti ideali per questa guida"
   },
   "servicelist.note": {
-    "message": "(I dettagli possono variare con prodotti di fornitori diversi ma i concetti principali rimangono gli stessi)"
+    "message": "Inizia subito — ordina il prodotto adatto e segui questa guida passo dopo passo."
   },
   "footer.cookieSettings": {
     "message": "Impostazioni cookie"

@@ -1102,8 +1102,14 @@
   "inlinevoucher.title": {
     "message": "{voucherValue} {voucherType} REMISE SUR L’HÉBERGEMENT 🏷️"
   },
+  "inlinevoucher.title.generic": {
+    "message": "RÉDUCTION HÉBERGEMENT 🏷️"
+  },
   "inlinevoucher.description.with-products": {
-    "message": "Profitez-en et lancez votre propre projet dès aujourd'hui ! Utilisez le code de réduction pour les produits listés dans ce guide et bénéficiez d'une remise de 50 %. 😉"
+    "message": "Saisissez l'opportunité et lancez votre propre projet dès aujourd'hui ! Utilisez le code de réduction pour les produits de ce guide et économisez. 😉"
+  },
+  "inlinevoucher.description.rental-note": {
+    "message": "Ce code de réduction peut être utilisé pour les produits suivants en location :"
   },
   "inlinevoucher.list-title.with-products": {
     "message": "Ce code de réduction peut être utilisé pour les produits suivants en location :"
@@ -1126,8 +1132,26 @@
   "inlinevoucher.your-voucher": {
     "message": "VOTRE CODE"
   },
+  "inlinevoucher.code-label": {
+    "message": "Code :"
+  },
+  "inlinevoucher.cta": {
+    "message": "Commander"
+  },
+  "inlinevoucher.select-product": {
+    "message": "Sélectionner le produit:"
+  },
+  "inlinevoucher.coupon-description": {
+    "message": "Copiez le code et appliquez-le lors du paiement ou utilisez le bouton de commande ci-dessous."
+  },
+  "inlinevoucher.auto-apply": {
+    "message": "En utilisant le bouton de commande, le bon est automatiquement appliqué."
+  },
   "voucherbox.cta": {
     "message": "Louer un serveur"
+  },
+  "voucherbox.auto-apply": {
+    "message": "En utilisant le bouton \"Commander\", le bon est automatiquement appliqué."
   },
   "voucher.redeem": {
     "message": "Échanger"
@@ -1172,10 +1196,10 @@
     "message": "YEEEAH!"
   },
   "servicelist.introduction": {
-    "message": "Ce guide a été créé avec les produits suivants :"
+    "message": "Les produits idéaux pour ce guide"
   },
   "servicelist.note": {
-    "message": "(Les détails peuvent varier selon les produits de différents fournisseurs, mais les concepts principaux restent les mêmes)"
+    "message": "Commencez immédiatement — commandez le produit adapté et suivez ce guide étape par étape."
   },
   "footer.cookieSettings": {
     "message": "Paramètres des cookies"
