@@ -222,7 +222,7 @@ journalctl -f -u nginx.service
 
 ## SSL 证书
 
-反向代理搭建完成后，强烈建议为你的域名添加 SSL 证书，确保网站通过 HTTPS 安全传输数据。请查看我们的 [安装 Certbot](vserver-linux-certbot.md) 指南，涵盖申请和自动续期 SSL 证书的全过程。
+反向代理搭建完成后，强烈建议为你的域名添加 SSL 证书，确保网站通过 HTTPS 安全传输数据。请查看我们的 [安装 Certbot](dedicated-linux-certbot.md) 指南，涵盖申请和自动续期 SSL 证书的全过程。
 
 ## 总结
 

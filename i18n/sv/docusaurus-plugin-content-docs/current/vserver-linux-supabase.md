@@ -75,7 +75,7 @@ curl -fsSL https://get.docker.com -o get-docker.sh
 sh get-docker.sh
 ```
 
-En komplett guide för installation och användning av Docker finns i vår [Docker](vserver-linux-docker.md)-guide.
+En komplett guide för installation och användning av Docker finns i vår [Docker](dedicated-linux-docker.md)-guide.
 
 
 ## Installation

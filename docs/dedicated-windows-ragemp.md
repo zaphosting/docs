@@ -1,9 +1,10 @@
 ---
 id: dedicated-windows-ragemp
-title: "Dedicated Server: RageMP Dedicated Server Windows Setup"
+title: "RageMP Dedicated Server Windows Setup"
 description: "Learn how to set up RageMP Dedicated Server on your Windows server to host multiplayer GTA V sessions → Learn more now"
 sidebar_label: RageMP
 services:
+  - vserver
   - dedicated
 ---
 
@@ -11,13 +12,13 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introduction
 
-Do you have a Windows Dedicated Server and you want to install the RageMP Dedicated server service on it? You are in the right place. In this guide, we will explain the step by step process of installing this service on your server.
+Do you have a Windows VPS/Dedicated Server and you want to install the RageMP Dedicated server service on it? You are in the right place. In this guide, we will explain the step by step process of installing this service on your server.
 
 
 
 ## Preparation
 
-To begin with, connect to your Dedicated Server through Remote Desktop (RDP). Use our [Initial Access (RDP)](vserver-windows-userdp.md) guide if you need help doing this.
+To begin with, connect to your VPS/Dedicated Server through Remote Desktop (RDP). Use our [Initial Access (RDP)](vserver-windows-userdp.md) guide if you need help doing this.
 
 Once you have accessed your server, begin by installing [Microsoft Visual C++ Redistributable 2017](https://aka.ms/vs/15/release/VC_redist.x64.exe) as this is a prerequisite that RageMP requires. Ensure this is installed before proceeding. If you are unsure if you already have it installed, run the installer and it will tell you during the setup.
 
@@ -59,7 +60,7 @@ To start the server, simply run **ragemp-server.exe** found in the `server-files
 
 ### Port Forwarding your server
 
-In order to ensure that your server is accessible to the public, you must alter port forwarding rules for the ports that the dedicated server process is using. You can do this either through PowerShell commands directly, which is easier, or regularly through the Windows Defender Firewall page.
+In order to ensure that your server is accessible to the public, you must alter port forwarding rules for the ports that the VPS/Dedicated Server process is using. You can do this either through PowerShell commands directly, which is easier, or regularly through the Windows Defender Firewall page.
 
 :::tip
 Launching the server for the first time should display a UAC prompt. If you accept this, your firewall rules will be automatically setup, meaning you can proceed with the next section. Otherwise, follow one of the methods below.
@@ -132,6 +133,6 @@ You will now be able to direct connect to your server in-game via the RageMP lau
 
 ## Conclusion
 
-Congratulations, you have successfully installed and configured the RageMP server on your Dedicated Server! If you have any further questions or problems, please contact our support team, who are available to help you every day!
+Congratulations, you have successfully installed and configured the RageMP server on your VPS/Dedicated Server! If you have any further questions or problems, please contact our support team, who are available to help you every day!
 
 

@@ -221,7 +221,7 @@ Du kan verifiera detta genom att kolla IP-adresserna på spelarna, som alla bör
 
 När din FiveM reverse proxy är uppe rekommenderar vi starkt att du lägger till ett SSL-certifikat på dina domäner för att säkerställa att sidan skickar data säkert via HTTPS.
 
-Kolla in vår guide [Install Certbot](vserver-linux-certbot.md) som täcker hela processen för att begära och automatiskt förnya SSL-certifikat för dina domäner.
+Kolla in vår guide [Install Certbot](dedicated-linux-certbot.md) som täcker hela processen för att begära och automatiskt förnya SSL-certifikat för dina domäner.
 
 ## Avslutning
 

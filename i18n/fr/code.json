@@ -1207,6 +1207,12 @@
   "voucherbox.title": {
     "message": "RÉDUCTION SUR LA LOCATION"
   },
+  "contributors.title": {
+    "message": "Contributeur(s) du guide"
+  },
+  "contributors.description": {
+    "message": "Devenez dès aujourd’hui membre de la communauté ZAP-Hosting ! Rejoignez notre {contributionLink} pour partager vos connaissances et votre expertise en produisant des guides de haute qualité et du contenu créatif tout en gagnant des récompenses précieuses allant jusqu’à 130€. Commencez dès aujourd’hui et faites la différence ! 🙂"
+  },
   "theme.ErrorPageContent.title": {
     "message": "Cette page a planté.",
     "description": "The title of the fallback page when the page crashed"
@@ -1566,6 +1572,195 @@
     "message": "{marketingSite}/{language}/skyrim-together-reborn-server-hosting/",
     "description": "URL path for the gameserver product"
   },
+  "dropdown.vps.gettingStarted": {
+    "message": "Premiers pas"
+  },
+  "dropdown.vps.introduction": {
+    "message": "Introduction"
+  },
+  "dropdown.vps.dashboard": {
+    "message": "Tableau de bord"
+  },
+  "dropdown.vps.software": {
+    "message": "Logiciels"
+  },
+  "dropdown.vps.linux": {
+    "message": "Linux"
+  },
+  "dropdown.vps.windows": {
+    "message": "Windows"
+  },
+  "dropdown.vps.general": {
+    "message": "Général"
+  },
+  "dropdown.vps.services": {
+    "message": "Services"
+  },
+  "dropdown.vps.gameServers": {
+    "message": "Serveurs de jeux"
+  },
+  "dropdown.gameserver.gettingStarted": {
+    "message": "Premiers pas"
+  },
+  "dropdown.gameserver.introduction": {
+    "message": "Introduction"
+  },
+  "dropdown.gameserver.ftpAccess": {
+    "message": "Accès FTP"
+  },
+  "dropdown.gameserver.backups": {
+    "message": "Sauvegardes"
+  },
+  "dropdown.gameserver.popularGames": {
+    "message": "Jeux populaires"
+  },
+  "dropdown.gameserver.allGames": {
+    "message": "Tous les jeux (A-Z)"
+  },
+  "dropdown.gameserver.scheduledTasks": {
+    "message": "Tâches planifiées"
+  },
+  "dropdown.gameserver.databases": {
+    "message": "Bases de données"
+  },
+  "dropdown.gameserver.more": {
+    "message": "Plus..."
+  },
+  "dropdown.vps.vncConsole": {
+    "message": "Console VNC"
+  },
+  "dropdown.vps.more": {
+    "message": "Plus..."
+  },
+  "dropdown.dedicated.gettingStarted": {
+    "message": "Premiers pas"
+  },
+  "dropdown.dedicated.introduction": {
+    "message": "Introduction"
+  },
+  "dropdown.dedicated.dashboard": {
+    "message": "Tableau de bord"
+  },
+  "dropdown.dedicated.ilo": {
+    "message": "iLO"
+  },
+  "dropdown.dedicated.more": {
+    "message": "Plus..."
+  },
+  "dropdown.dedicated.linux": {
+    "message": "Linux"
+  },
+  "dropdown.dedicated.windows": {
+    "message": "Windows"
+  },
+  "dropdown.dedicated.general": {
+    "message": "Général"
+  },
+  "dropdown.dedicated.services": {
+    "message": "Services"
+  },
+  "dropdown.dedicated.gameServers": {
+    "message": "Serveurs de jeux"
+  },
+  "dropdown.dedicated.software": {
+    "message": "Logiciels"
+  },
+  "dropdown.vps.gettingStartedDesc": {
+    "message": "Mettez en route votre serveur privé virtuel. Accès au tableau de bord, réinitialisations, VNC, sauvegardes et dépannage."
+  },
+  "dropdown.vps.linuxDesc": {
+    "message": "SSH, services, serveurs de jeux et plus. Guides pour gérer votre VPS Linux."
+  },
+  "dropdown.vps.windowsDesc": {
+    "message": "Bureau à distance, services, serveurs de jeux et dépannage. Tout pour votre VPS Windows."
+  },
+  "dropdown.gameserver.gettingStartedDesc": {
+    "message": "Découvrez comment configurer, gérer et optimiser votre serveur de jeu. Des sauvegardes et de l'accès FTP aux bases de données et à la monétisation."
+  },
+  "dropdown.gameserver.popularGamesDesc": {
+    "message": "Trouvez des guides de configuration pour les jeux les plus populaires. Choisissez votre titre et lancez votre serveur en un rien de temps."
+  },
+  "dropdown.dedicated.gettingStartedDesc": {
+    "message": "Configurez votre serveur dédié étape par étape. De la configuration initiale et iLO/IPMI à la configuration RAID et aux ISO personnalisées."
+  },
+  "dropdown.dedicated.linuxDesc": {
+    "message": "Accès root complet, services, serveurs de jeux et gestion de l'OS. Guides pour votre serveur dédié Linux."
+  },
+  "dropdown.dedicated.windowsDesc": {
+    "message": "Bureau à distance, services, serveurs de jeux et gestion de l'OS. Guides pour votre serveur dédié Windows."
+  },
+  "dropdown.dedicated.initialSetup": {
+    "message": "Configuration initiale"
+  },
+  "dropdown.dedicated.ipmi": {
+    "message": "IPMI"
+  },
+  "dropdown.dedicated.ownIso": {
+    "message": "ISO personnalisée"
+  },
+  "dropdown.dedicated.configureRaid": {
+    "message": "Configurer le RAID"
+  },
+  "dropdown.dedicated.serverReset": {
+    "message": "Réinitialiser le serveur"
+  },
+  "dropdown.vps.serverReset": {
+    "message": "Réinitialiser le serveur"
+  },
+  "dropdown.vps.systemRescue": {
+    "message": "Rescue système (Backup)"
+  },
+  "dropdown.vps.vpsComparison": {
+    "message": "Comparaison VPS/Dédié"
+  },
+  "dropdown.vps.ballooning": {
+    "message": "Ballooning"
+  },
+  "dropdown.vps.troubleshooting": {
+    "message": "Dépannage"
+  },
+  "dropdown.gameserver.switchGame": {
+    "message": "Changer de jeu"
+  },
+  "dropdown.gameserver.upDowngrade": {
+    "message": "Up-/Downgrade"
+  },
+  "dropdown.gameserver.serverCrash": {
+    "message": "Crash du serveur - Que faire ?"
+  },
+  "dropdown.gameserver.tebex": {
+    "message": "Monétisation Tebex"
+  },
+  "dropdown.rent.gameHosting": {
+    "message": "Hébergement de jeux"
+  },
+  "dropdown.rent.gameHostingDesc": {
+    "message": "Louez un serveur de jeu pour votre titre préféré. Configuration instantanée, protection DDoS et bien d'autres fonctionnalités incluses !"
+  },
+  "dropdown.rent.teamspeak": {
+    "message": "Serveur TeamSpeak 3"
+  },
+  "dropdown.rent.musicbot": {
+    "message": "Discord Musicbot"
+  },
+  "dropdown.rent.serverHosting": {
+    "message": "Hébergement de serveurs"
+  },
+  "dropdown.rent.serverHostingDesc": {
+    "message": "Serveurs virtuels et dédiés avec accès root complet. Ressources évolutives pour tout projet."
+  },
+  "dropdown.rent.vps": {
+    "message": "VPS (Serveur Virtuel)"
+  },
+  "dropdown.rent.dedicated": {
+    "message": "Serveur dédié"
+  },
+  "dropdown.rent.domain": {
+    "message": "Domaine"
+  },
+  "dropdown.rent.webspace": {
+    "message": "Hébergement Web"
+  },
   "service.vserver-service-openclaw.title": {
     "message": "VPS for OpenClaw",
     "description": "Product name for the OpenClaw product"
@@ -1593,6 +1788,156 @@
   "service.gameserver-starrupture.path": {
     "message": "{marketingSite}/{language}/starrupture-server-hosting/",
     "description": "URL path for the gameserver product"
+  },
+  "dropdown.software.linuxServices": {
+    "message": "Linux - Services"
+  },
+  "dropdown.software.linuxServicesDesc": {
+    "message": "Installez et configurez des services auto-hébergés sur Linux. OpenClaw, Bitwarden et plus."
+  },
+  "dropdown.software.windowsServices": {
+    "message": "Windows - Services"
+  },
+  "dropdown.software.windowsServicesDesc": {
+    "message": "Installez et configurez des services auto-hébergés sur Windows. Docker, Plex et plus."
+  },
+  "dropdown.software.bitwarden": {
+    "message": "Bitwarden"
+  },
+  "dropdown.software.nextcloud": {
+    "message": "Nextcloud"
+  },
+  "dropdown.software.plex": {
+    "message": "Plex"
+  },
+  "dropdown.software.jitsi": {
+    "message": "Jitsi Meet"
+  },
+  "dropdown.software.openvpn": {
+    "message": "OpenVPN"
+  },
+  "dropdown.software.wordpress": {
+    "message": "WordPress"
+  },
+  "dropdown.software.docker": {
+    "message": "Docker"
+  },
+  "dropdown.software.plesk": {
+    "message": "Plesk"
+  },
+  "dropdown.software.ftpServer": {
+    "message": "Serveur FTP"
+  },
+  "dropdown.software.teamspeak": {
+    "message": "TeamSpeak"
+  },
+  "dropdown.software.mysql": {
+    "message": "MySQL"
+  },
+  "dropdown.software.linuxDedicatedGames": {
+    "message": "Linux - Jeux dédiés"
+  },
+  "dropdown.software.linuxDedicatedGamesDesc": {
+    "message": "Exécutez les serveurs de jeux dédiés les plus populaires sur votre machine Linux."
+  },
+  "dropdown.software.windowsDedicatedGames": {
+    "message": "Windows - Jeux dédiés"
+  },
+  "dropdown.software.windowsDedicatedGamesDesc": {
+    "message": "Exécutez les serveurs de jeux dédiés les plus populaires sur votre machine Windows."
+  },
+  "dropdown.software.fivem": {
+    "message": "FiveM"
+  },
+  "dropdown.software.palworld": {
+    "message": "Palworld"
+  },
+  "dropdown.software.enshrouded": {
+    "message": "Enshrouded"
+  },
+  "dropdown.software.valheim": {
+    "message": "Valheim"
+  },
+  "dropdown.software.cs2": {
+    "message": "CS2"
+  },
+  "dropdown.software.arkSa": {
+    "message": "Ark: SA"
+  },
+  "dropdown.software.allServices": {
+    "message": "Tous les services"
+  },
+  "dropdown.software.allDedicatedGames": {
+    "message": "Tous les jeux dédiés"
+  },
+  "dropdown.rent.voiceHosting": {
+    "message": "Hébergement vocal"
+  },
+  "dropdown.rent.voiceHostingDesc": {
+    "message": "Serveurs TeamSpeak, bots musicaux et hébergement de bots Discord. Gardez votre communauté connectée."
+  },
+  "dropdown.rent.webHosting": {
+    "message": "Hébergement web"
+  },
+  "dropdown.rent.webHostingDesc": {
+    "message": "Enregistrez des domaines et hébergez votre site web. Espace web fiable avec gestion facile."
+  },
+  "dropdown.rent.fivem": {
+    "message": "FiveM"
+  },
+  "dropdown.rent.minecraft": {
+    "message": "Minecraft"
+  },
+  "dropdown.rent.hytale": {
+    "message": "Hytale"
+  },
+  "dropdown.rent.scp": {
+    "message": "SCP: Secret Laboratory"
+  },
+  "dropdown.rent.valheim": {
+    "message": "Valheim"
+  },
+  "dropdown.rent.ark": {
+    "message": "Ark: Survival Evolved"
+  },
+  "dropdown.rent.palworld": {
+    "message": "Palworld"
+  },
+  "dropdown.rent.enshrouded": {
+    "message": "Enshrouded"
+  },
+  "dropdown.rent.scum": {
+    "message": "SCUM"
+  },
+  "dropdown.rent.discordBot": {
+    "message": "Serveur Discord Bot"
+  },
+  "dropdown.rent.lifetime": {
+    "message": "Lifetime"
+  },
+  "dropdown.rent.lifetimeDesc": {
+    "message": "Vous aimez ZAP-Hosting ? Payez une fois, sans abonnement et planifiez sur le long terme !"
+  },
+  "dropdown.rent.lifetimeGameserver": {
+    "message": "Lifetime Gameserver"
+  },
+  "dropdown.rent.lifetimeDedicated": {
+    "message": "Lifetime Dedicated Server"
+  },
+  "dropdown.rent.lifetimeVps": {
+    "message": "Lifetime VPS"
+  },
+  "dropdown.rent.lifetimeTeamspeak": {
+    "message": "Lifetime TeamSpeak 3"
+  },
+  "dropdown.rent.lifetimeWebspace": {
+    "message": "Lifetime Webspace"
+  },
+  "localeDropdown.title": {
+    "message": "Langue"
+  },
+  "localeDropdown.description": {
+    "message": "Sélectionnez votre langue préférée."
   },
   "contributors.cta.title": {
     "message": "Devenez un Contributeur ZAP-Hosting !"
@@ -1626,5 +1971,77 @@
   },
   "contributors.document.title": {
     "message": "Contributeurs à ce contenu"
+  },
+  "dropdown.gameserver.badgeMostPopular": {
+    "message": "Le plus populaire"
+  },
+  "dropdown.gameserver.badgePopular": {
+    "message": "Populaire"
+  },
+  "dropdown.gameserver.badgeTrending": {
+    "message": "Tendance"
+  },
+  "dropdown.gameserver.fivem": {
+    "message": "FiveM"
+  },
+  "dropdown.gameserver.minecraft": {
+    "message": "Minecraft"
+  },
+  "dropdown.gameserver.hytale": {
+    "message": "Hytale"
+  },
+  "dropdown.gameserver.scp": {
+    "message": "SCP: Secret Laboratory"
+  },
+  "dropdown.gameserver.valheim": {
+    "message": "Valheim"
+  },
+  "dropdown.gameserver.ark": {
+    "message": "Ark: Survival Evolved"
+  },
+  "dropdown.gameserver.palworld": {
+    "message": "Palworld"
+  },
+  "dropdown.gameserver.enshrouded": {
+    "message": "Enshrouded"
+  },
+  "dropdown.gameserver.scum": {
+    "message": "SCUM"
+  },
+  "dropdown.vps.ownIso": {
+    "message": "Monter un fichier ISO"
+  },
+  "dropdown.dedicated.operating-systems-linux": {
+    "message": "Systèmes d'exploitation"
+  },
+  "dropdown.dedicated.operating-systems-windows": {
+    "message": "Systèmes d'exploitation"
+  },
+  "dropdown.dedicated.troubleshooting": {
+    "message": "Dépannage"
+  },
+  "dropdown.rent.badgeMostPopular": {
+    "message": "Le plus populaire"
+  },
+  "dropdown.rent.badgePopular": {
+    "message": "Populaire"
+  },
+  "dropdown.rent.badgeTrending": {
+    "message": "Tendance"
+  },
+  "dropdown.rent.more": {
+    "message": "Découvrez nos 100+ jeux"
+  },
+  "dropdown.software.openclaw": {
+    "message": "OpenClaw"
+  },
+  "dropdown.software.badgeTrending": {
+    "message": "🔥Trending"
+  },
+  "dropdown.software.hytale": {
+    "message": "Hytale"
+  },
+  "dropdown.software.vrising": {
+    "message": "V-Rising"
   }
 }

@@ -1,9 +1,10 @@
 ---
 id: dedicated-linux-create-gameservice
-title: "Dedicated Server: Setup your Dedicated Game Server as a Linux Service"
+title: "Setup your Dedicated Game Server as a Linux Service"
 description: "Discover how to set up and manage dedicated game server services on Linux for seamless automation and easy control → Learn more now"
 sidebar_label: Setup Linux Service
 services:
+  - vserver
   - dedicated
 ---
 
@@ -17,7 +18,7 @@ Services are an integral part of Linux and refers to a process or application th
 
 ## Preparation
 
-To begin with, connect to your dedicated server via SSH. Use our [SSH Initial Access](vserver-linux-ssh.md) guide if you need help doing this.
+To begin with, connect to your VPS/Dedicated Server via SSH. Use our [SSH Initial Access](vserver-linux-ssh.md) guide if you need help doing this.
 
 You should also follow one of our dedicated game server guides in this section to install and setup a game server on your Linux system. In this guide, we will use the [Palworld dedicated game server](dedicated-linux-palworld.md) as an example, but the instructions can be adapted for all of our guides.
 

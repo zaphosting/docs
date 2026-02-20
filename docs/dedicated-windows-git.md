@@ -1,9 +1,10 @@
 ---
 id: dedicated-windows-git
-title: "Dedicated Server: Setup Git on Windows"
+title: "Setup Git on Windows"
 description: "Discover how to set up and configure Git for efficient version control and seamless collaboration in your projects → Learn more now"
 sidebar_label: Install Git
 services:
+  - vserver
   - dedicated
 ---
 

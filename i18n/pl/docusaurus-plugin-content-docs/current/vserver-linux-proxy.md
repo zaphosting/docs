@@ -224,7 +224,7 @@ journalctl -f -u nginx.service
 
 ## Certyfikat SSL
 
-Po skonfigurowaniu reverse proxy zdecydowanie polecamy dodanie certyfikatu SSL do używanych domen, aby zapewnić bezpieczne przesyłanie danych przez HTTPS. Sprawdź nasz [poradnik Instalacja Certbota](vserver-linux-certbot.md), który krok po kroku pokazuje, jak zamówić i automatycznie odnawiać certyfikaty SSL dla twoich domen.
+Po skonfigurowaniu reverse proxy zdecydowanie polecamy dodanie certyfikatu SSL do używanych domen, aby zapewnić bezpieczne przesyłanie danych przez HTTPS. Sprawdź nasz [poradnik Instalacja Certbota](dedicated-linux-certbot.md), który krok po kroku pokazuje, jak zamówić i automatycznie odnawiać certyfikaty SSL dla twoich domen.
 
 ## Podsumowanie
 

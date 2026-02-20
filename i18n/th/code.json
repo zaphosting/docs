@@ -1196,6 +1196,12 @@
   "voucherbox.title": {
     "message": "บล็อก"
   },
+  "contributors.title": {
+    "message": "ฐานข้อมูล"
+  },
+  "contributors.description": {
+    "message": "เข้าร่วมเป็นส่วนหนึ่งของชุมชน ZAP-Hosting วันนี้! เข้าร่วม {contributionLink} ของเราเพื่อแบ่งปันความรู้และความเชี่ยวชาญของคุณโดยการสร้างคู่มือคุณภาพสูงและเนื้อหาสร้างสรรค์ พร้อมรับรางวัลสุดคุ้มสูงสุดถึง 130€ เริ่มต้นวันนี้และสร้างความเปลี่ยนแปลง! 🙂"
+  },
   "theme.ErrorPageContent.title": {
     "message": "FiveM",
     "description": "The title of the fallback page when the page crashed"
@@ -1566,6 +1572,195 @@
     "message": "{marketingSite}/{language}/skyrim-together-reborn-server-hosting/",
     "description": "URL path for the gameserver product"
   },
+  "dropdown.vps.gettingStarted": {
+    "message": "ขั้นตอนแรก"
+  },
+  "dropdown.vps.introduction": {
+    "message": "แนะนำ"
+  },
+  "dropdown.vps.dashboard": {
+    "message": "แดชบอร์ด"
+  },
+  "dropdown.vps.software": {
+    "message": "ซอฟต์แวร์"
+  },
+  "dropdown.vps.linux": {
+    "message": "ลินุกซ์"
+  },
+  "dropdown.vps.windows": {
+    "message": "วินโดวส์"
+  },
+  "dropdown.vps.general": {
+    "message": "ทั่วไป"
+  },
+  "dropdown.vps.services": {
+    "message": "บริการ"
+  },
+  "dropdown.vps.gameServers": {
+    "message": "เซิร์ฟเวอร์เกม"
+  },
+  "dropdown.gameserver.gettingStarted": {
+    "message": "ขั้นตอนแรก"
+  },
+  "dropdown.gameserver.introduction": {
+    "message": "แนะนำ"
+  },
+  "dropdown.gameserver.ftpAccess": {
+    "message": "การเข้าถึง FTP"
+  },
+  "dropdown.gameserver.backups": {
+    "message": "สำรองข้อมูล"
+  },
+  "dropdown.gameserver.popularGames": {
+    "message": "เกมยอดนิยม"
+  },
+  "dropdown.gameserver.allGames": {
+    "message": "เกมทั้งหมด (A-Z)"
+  },
+  "dropdown.gameserver.scheduledTasks": {
+    "message": "งานที่กำหนดเวลา"
+  },
+  "dropdown.gameserver.databases": {
+    "message": "ฐานข้อมูล"
+  },
+  "dropdown.gameserver.more": {
+    "message": "เพิ่มเติม..."
+  },
+  "dropdown.vps.vncConsole": {
+    "message": "คอนโซล VNC"
+  },
+  "dropdown.vps.more": {
+    "message": "เพิ่มเติม..."
+  },
+  "dropdown.dedicated.gettingStarted": {
+    "message": "ขั้นตอนแรก"
+  },
+  "dropdown.dedicated.introduction": {
+    "message": "แนะนำ"
+  },
+  "dropdown.dedicated.dashboard": {
+    "message": "แดชบอร์ด"
+  },
+  "dropdown.dedicated.ilo": {
+    "message": "iLO"
+  },
+  "dropdown.dedicated.more": {
+    "message": "เพิ่มเติม..."
+  },
+  "dropdown.dedicated.linux": {
+    "message": "ลินุกซ์"
+  },
+  "dropdown.dedicated.windows": {
+    "message": "วินโดวส์"
+  },
+  "dropdown.dedicated.general": {
+    "message": "ทั่วไป"
+  },
+  "dropdown.dedicated.services": {
+    "message": "บริการ"
+  },
+  "dropdown.dedicated.gameServers": {
+    "message": "เซิร์ฟเวอร์เกม"
+  },
+  "dropdown.dedicated.software": {
+    "message": "ซอฟต์แวร์"
+  },
+  "dropdown.vps.gettingStartedDesc": {
+    "message": "เริ่มต้นใช้งานเซิร์ฟเวอร์ส่วนตัวเสมือนของคุณ การเข้าถึงแดชบอร์ด รีเซ็ต VNC สำรองข้อมูลและแก้ไขปัญหา"
+  },
+  "dropdown.vps.linuxDesc": {
+    "message": "SSH บริการ เซิร์ฟเวอร์เกม และอื่นๆ คู่มือสำหรับจัดการ VPS Linux ของคุณ"
+  },
+  "dropdown.vps.windowsDesc": {
+    "message": "Remote Desktop บริการ เซิร์ฟเวอร์เกม และการแก้ไขปัญหา ทุกอย่างสำหรับ VPS Windows ของคุณ"
+  },
+  "dropdown.gameserver.gettingStartedDesc": {
+    "message": "เรียนรู้วิธีตั้งค่า จัดการ และเพิ่มประสิทธิภาพเซิร์ฟเวอร์เกมของคุณ ตั้งแต่การสำรองข้อมูลและ FTP ไปจนถึงฐานข้อมูลและการสร้างรายได้"
+  },
+  "dropdown.gameserver.popularGamesDesc": {
+    "message": "ค้นหาคู่มือการตั้งค่าสำหรับเกมยอดนิยม เลือกเกมของคุณและเริ่มเซิร์ฟเวอร์ได้ทันที"
+  },
+  "dropdown.dedicated.gettingStartedDesc": {
+    "message": "ตั้งค่าเซิร์ฟเวอร์เฉพาะของคุณทีละขั้นตอน ตั้งแต่การตั้งค่าเริ่มต้นและ iLO/IPMI ไปจนถึงการกำหนดค่า RAID และ ISO ที่กำหนดเอง"
+  },
+  "dropdown.dedicated.linuxDesc": {
+    "message": "สิทธิ์ root เต็มรูปแบบ บริการ เซิร์ฟเวอร์เกม และการจัดการ OS คู่มือสำหรับเซิร์ฟเวอร์เฉพาะ Linux ของคุณ"
+  },
+  "dropdown.dedicated.windowsDesc": {
+    "message": "Remote Desktop บริการ เซิร์ฟเวอร์เกม และการจัดการ OS คู่มือสำหรับเซิร์ฟเวอร์เฉพาะ Windows ของคุณ"
+  },
+  "dropdown.dedicated.initialSetup": {
+    "message": "การตั้งค่าเริ่มต้น"
+  },
+  "dropdown.dedicated.ipmi": {
+    "message": "IPMI"
+  },
+  "dropdown.dedicated.ownIso": {
+    "message": "ISO ของตัวเอง"
+  },
+  "dropdown.dedicated.configureRaid": {
+    "message": "กำหนดค่า RAID"
+  },
+  "dropdown.dedicated.serverReset": {
+    "message": "รีเซ็ตเซิร์ฟเวอร์"
+  },
+  "dropdown.vps.serverReset": {
+    "message": "รีเซ็ตเซิร์ฟเวอร์"
+  },
+  "dropdown.vps.systemRescue": {
+    "message": "กู้ระบบ (แบ็คอัพ)"
+  },
+  "dropdown.vps.vpsComparison": {
+    "message": "เปรียบเทียบ VPS/Dedicated"
+  },
+  "dropdown.vps.ballooning": {
+    "message": "Ballooning"
+  },
+  "dropdown.vps.troubleshooting": {
+    "message": "แก้ไขปัญหา"
+  },
+  "dropdown.gameserver.switchGame": {
+    "message": "เปลี่ยนเกม"
+  },
+  "dropdown.gameserver.upDowngrade": {
+    "message": "อัปเกรด/ดาวน์เกรด"
+  },
+  "dropdown.gameserver.serverCrash": {
+    "message": "เซิร์ฟเวอร์ล่ม - ทำอย่างไร?"
+  },
+  "dropdown.gameserver.tebex": {
+    "message": "Tebex สร้างรายได้"
+  },
+  "dropdown.rent.gameHosting": {
+    "message": "โฮสติ้งเกม"
+  },
+  "dropdown.rent.gameHostingDesc": {
+    "message": "เช่าเซิร์ฟเวอร์เกมสำหรับเกมที่คุณชื่นชอบ ตั้งค่าทันที ป้องกัน DDoS และฟีเจอร์อีกมากมาย!"
+  },
+  "dropdown.rent.teamspeak": {
+    "message": "เซิร์ฟเวอร์ TeamSpeak 3"
+  },
+  "dropdown.rent.musicbot": {
+    "message": "Discord Musicbot"
+  },
+  "dropdown.rent.serverHosting": {
+    "message": "โฮสติ้งเซิร์ฟเวอร์"
+  },
+  "dropdown.rent.serverHostingDesc": {
+    "message": "เซิร์ฟเวอร์เสมือนและเฉพาะพร้อมสิทธิ์ root เต็มรูปแบบ ทรัพยากรที่ปรับขนาดได้สำหรับทุกโปรเจกต์"
+  },
+  "dropdown.rent.vps": {
+    "message": "VPS (เซิร์ฟเวอร์เสมือน)"
+  },
+  "dropdown.rent.dedicated": {
+    "message": "เซิร์ฟเวอร์เฉพาะ"
+  },
+  "dropdown.rent.domain": {
+    "message": "โดเมน"
+  },
+  "dropdown.rent.webspace": {
+    "message": "เว็บสเปซ"
+  },
   "service.vserver-service-openclaw.title": {
     "message": "VPS for OpenClaw",
     "description": "Product name for the OpenClaw product"
@@ -1593,6 +1788,156 @@
   "service.gameserver-starrupture.path": {
     "message": "{marketingSite}/{language}/starrupture-server-hosting/",
     "description": "URL path for the gameserver product"
+  },
+  "dropdown.software.linuxServices": {
+    "message": "Linux - บริการ"
+  },
+  "dropdown.software.linuxServicesDesc": {
+    "message": "ติดตั้งและกำหนดค่าบริการ self-hosted บน Linux OpenClaw, Bitwarden และอื่นๆ"
+  },
+  "dropdown.software.windowsServices": {
+    "message": "Windows - บริการ"
+  },
+  "dropdown.software.windowsServicesDesc": {
+    "message": "ติดตั้งและกำหนดค่าบริการ self-hosted บน Windows Docker, Plex และอื่นๆ"
+  },
+  "dropdown.software.bitwarden": {
+    "message": "Bitwarden"
+  },
+  "dropdown.software.nextcloud": {
+    "message": "Nextcloud"
+  },
+  "dropdown.software.plex": {
+    "message": "Plex"
+  },
+  "dropdown.software.jitsi": {
+    "message": "Jitsi Meet"
+  },
+  "dropdown.software.openvpn": {
+    "message": "OpenVPN"
+  },
+  "dropdown.software.wordpress": {
+    "message": "WordPress"
+  },
+  "dropdown.software.docker": {
+    "message": "Docker"
+  },
+  "dropdown.software.plesk": {
+    "message": "Plesk"
+  },
+  "dropdown.software.ftpServer": {
+    "message": "เซิร์ฟเวอร์ FTP"
+  },
+  "dropdown.software.teamspeak": {
+    "message": "TeamSpeak"
+  },
+  "dropdown.software.mysql": {
+    "message": "MySQL"
+  },
+  "dropdown.software.linuxDedicatedGames": {
+    "message": "Linux - เกมเฉพาะ"
+  },
+  "dropdown.software.linuxDedicatedGamesDesc": {
+    "message": "รันเซิร์ฟเวอร์เกมเฉพาะยอดนิยมบนเครื่อง Linux ของคุณ"
+  },
+  "dropdown.software.windowsDedicatedGames": {
+    "message": "Windows - เกมเฉพาะ"
+  },
+  "dropdown.software.windowsDedicatedGamesDesc": {
+    "message": "รันเซิร์ฟเวอร์เกมเฉพาะยอดนิยมบนเครื่อง Windows ของคุณ"
+  },
+  "dropdown.software.fivem": {
+    "message": "FiveM"
+  },
+  "dropdown.software.palworld": {
+    "message": "Palworld"
+  },
+  "dropdown.software.enshrouded": {
+    "message": "Enshrouded"
+  },
+  "dropdown.software.valheim": {
+    "message": "Valheim"
+  },
+  "dropdown.software.cs2": {
+    "message": "CS2"
+  },
+  "dropdown.software.arkSa": {
+    "message": "Ark: SA"
+  },
+  "dropdown.software.allServices": {
+    "message": "บริการทั้งหมด"
+  },
+  "dropdown.software.allDedicatedGames": {
+    "message": "เกมเฉพาะทั้งหมด"
+  },
+  "dropdown.rent.voiceHosting": {
+    "message": "Voice Hosting"
+  },
+  "dropdown.rent.voiceHostingDesc": {
+    "message": "เซิร์ฟเวอร์ TeamSpeak มิวสิคบอท และโฮสติ้ง Discord Bot เชื่อมต่อชุมชนของคุณ"
+  },
+  "dropdown.rent.webHosting": {
+    "message": "เว็บโฮสติ้ง"
+  },
+  "dropdown.rent.webHostingDesc": {
+    "message": "จดทะเบียนโดเมนและโฮสต์เว็บไซต์ของคุณ เว็บสเปซที่เชื่อถือได้พร้อมการจัดการที่ง่ายดาย"
+  },
+  "dropdown.rent.fivem": {
+    "message": "FiveM"
+  },
+  "dropdown.rent.minecraft": {
+    "message": "Minecraft"
+  },
+  "dropdown.rent.hytale": {
+    "message": "Hytale"
+  },
+  "dropdown.rent.scp": {
+    "message": "SCP: Secret Laboratory"
+  },
+  "dropdown.rent.valheim": {
+    "message": "Valheim"
+  },
+  "dropdown.rent.ark": {
+    "message": "Ark: Survival Evolved"
+  },
+  "dropdown.rent.palworld": {
+    "message": "Palworld"
+  },
+  "dropdown.rent.enshrouded": {
+    "message": "Enshrouded"
+  },
+  "dropdown.rent.scum": {
+    "message": "SCUM"
+  },
+  "dropdown.rent.discordBot": {
+    "message": "เซิร์ฟเวอร์ Discord Bot"
+  },
+  "dropdown.rent.lifetime": {
+    "message": "Lifetime"
+  },
+  "dropdown.rent.lifetimeDesc": {
+    "message": "ชอบ ZAP-Hosting? จ่ายครั้งเดียว ไม่มีค่าสมาชิก วางแผนระยะยาว!"
+  },
+  "dropdown.rent.lifetimeGameserver": {
+    "message": "Lifetime Gameserver"
+  },
+  "dropdown.rent.lifetimeDedicated": {
+    "message": "Lifetime Dedicated Server"
+  },
+  "dropdown.rent.lifetimeVps": {
+    "message": "Lifetime VPS"
+  },
+  "dropdown.rent.lifetimeTeamspeak": {
+    "message": "Lifetime TeamSpeak 3"
+  },
+  "dropdown.rent.lifetimeWebspace": {
+    "message": "Lifetime Webspace"
+  },
+  "localeDropdown.title": {
+    "message": "ภาษา"
+  },
+  "localeDropdown.description": {
+    "message": "เลือกภาษาที่คุณต้องการ"
   },
   "contributors.cta.title": {
     "message": "เป็นผู้สนับสนุน ZAP-Hosting!"
@@ -1626,5 +1971,77 @@
   },
   "contributors.document.title": {
     "message": "ผู้มีส่วนร่วมในเนื้อหานี้"
+  },
+  "dropdown.gameserver.badgeMostPopular": {
+    "message": "ยอดนิยมที่สุด"
+  },
+  "dropdown.gameserver.badgePopular": {
+    "message": "ยอดนิยม"
+  },
+  "dropdown.gameserver.badgeTrending": {
+    "message": "กำลังมาแรง"
+  },
+  "dropdown.gameserver.fivem": {
+    "message": "FiveM"
+  },
+  "dropdown.gameserver.minecraft": {
+    "message": "Minecraft"
+  },
+  "dropdown.gameserver.hytale": {
+    "message": "Hytale"
+  },
+  "dropdown.gameserver.scp": {
+    "message": "SCP: Secret Laboratory"
+  },
+  "dropdown.gameserver.valheim": {
+    "message": "Valheim"
+  },
+  "dropdown.gameserver.ark": {
+    "message": "Ark: Survival Evolved"
+  },
+  "dropdown.gameserver.palworld": {
+    "message": "Palworld"
+  },
+  "dropdown.gameserver.enshrouded": {
+    "message": "Enshrouded"
+  },
+  "dropdown.gameserver.scum": {
+    "message": "SCUM"
+  },
+  "dropdown.vps.ownIso": {
+    "message": "เมาท์ไฟล์ ISO"
+  },
+  "dropdown.dedicated.operating-systems-linux": {
+    "message": "ระบบปฏิบัติการ"
+  },
+  "dropdown.dedicated.operating-systems-windows": {
+    "message": "ระบบปฏิบัติการ"
+  },
+  "dropdown.dedicated.troubleshooting": {
+    "message": "แก้ไขปัญหา"
+  },
+  "dropdown.rent.badgeMostPopular": {
+    "message": "ยอดนิยมที่สุด"
+  },
+  "dropdown.rent.badgePopular": {
+    "message": "ยอดนิยม"
+  },
+  "dropdown.rent.badgeTrending": {
+    "message": "กำลังมาแรง"
+  },
+  "dropdown.rent.more": {
+    "message": "ค้นพบเกมกว่า 100 เกมของเรา"
+  },
+  "dropdown.software.openclaw": {
+    "message": "OpenClaw"
+  },
+  "dropdown.software.badgeTrending": {
+    "message": "🔥Trending"
+  },
+  "dropdown.software.hytale": {
+    "message": "Hytale"
+  },
+  "dropdown.software.vrising": {
+    "message": "V-Rising"
   }
 }

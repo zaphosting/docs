@@ -24,7 +24,7 @@ sudo apt update -y
 sudo apt upgrade -y
 ```
 
-También debes asegurarte de tener PHP instalado en tu sistema. Esto es esencial para usar phpMyAdmin. Para saber cómo instalar PHP, echa un vistazo a nuestra [guía Instalar PHP](dedicated-linux-php.md).
+También debes asegurarte de tener PHP instalado en tu sistema. Esto es esencial para usar phpMyAdmin. Para saber cómo instalar PHP, echa un vistazo a nuestra [guía Instalar PHP](vserver-linux-php.md).
 
 :::warning Paquetes PHP faltantes
 Si faltan los paquetes PHP necesarios, los archivos PHP de phpMyAdmin no podrán procesarse ni mostrarse correctamente. 

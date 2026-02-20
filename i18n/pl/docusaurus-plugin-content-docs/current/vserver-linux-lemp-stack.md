@@ -362,7 +362,7 @@ Teraz możesz otworzyć stronę w przeglądarce pod domeną (HTTP/port 80), któ
 
 ## Podsumowanie
 
-Gratulacje, pomyślnie zainstalowałeś i skonfigurowałeś stos LEMP! Następnym krokiem **gorąco polecamy** skonfigurowanie domeny i **certyfikatu SSL**, aby zapewnić bezpieczne przesyłanie danych do Twoich stron. Sprawdź nasz [Poradnik Certbot](vserver-linux-certbot.md) ze szczególnym uwzględnieniem **wtyczki Nginx** i wykonaj interaktywną konfigurację, aby szybko i łatwo dodać certyfikat do swojej domeny.
+Gratulacje, pomyślnie zainstalowałeś i skonfigurowałeś stos LEMP! Następnym krokiem **gorąco polecamy** skonfigurowanie domeny i **certyfikatu SSL**, aby zapewnić bezpieczne przesyłanie danych do Twoich stron. Sprawdź nasz [Poradnik Certbot](dedicated-linux-certbot.md) ze szczególnym uwzględnieniem **wtyczki Nginx** i wykonaj interaktywną konfigurację, aby szybko i łatwo dodać certyfikat do swojej domeny.
 
 W razie pytań lub potrzeby pomocy, śmiało kontaktuj się z naszym zespołem wsparcia, który jest dostępny codziennie, by Ci pomóc! 🙂
 

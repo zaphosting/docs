@@ -1,4 +1,4 @@
-﻿/**
+/**
 * Creating a sidebar enables you to:
 - create an ordered group of docs
 - render a sidebar for each doc of that group
@@ -732,9 +732,8 @@ const sidebars = {
       ],
     },
     {
-      type: "html",
-      className: "sidebar-title",
-      value: (() => {
+      type: "link",
+      label: (() => {
         switch (process.env.DOCUSAURUS_CURRENT_LOCALE) {
           case "de": return "Alle Spiele (A-Z)";
           case "es": return "Todos los juegos (A-Z)";
@@ -751,8 +750,13 @@ const sidebars = {
           default: return "All Games (A-Z)";
         }
       })(),
-      defaultStyle: true,
+      href: "/docs/7d2d-firststeps-dashboard",
     },
+    
+    
+  ],
+
+  gameserverAllGamesSidebar: [
     {
       type: "category",
       label: "7 Days to Die",
@@ -4988,7 +4992,7 @@ const sidebars = {
         }
       })(),
       defaultStyle: true,
-    },
+    },    
     {
       type: "category",
       label: "General",
@@ -5012,88 +5016,48 @@ const sidebars = {
       ]
     },
     {
-      type: "category",
-      label: "Services",
+      type: "link",
       key: "vserver-linux-services",
-      items: [
-        "vserver-linux-bitwarden",
-        "vserver-linux-certbot",
-        "vserver-linux-cockpit",
-        "vserver-linux-curl",	
-        "vserver-linux-databases",
-        "vserver-linux-docker",
-        "vserver-linux-ftp-install",
-        "vserver-linux-git",
-        "vserver-linux-gitlab",
-        "vserver-linux-java",
-        "vserver-linux-javascript",
-        "vserver-linux-jitsi",
-        "vserver-linux-joplin",
-        "vserver-linux-mastodon",
-        "vserver-linux-nextcloud",
-        "vserver-linux-nodejs",
-        "vserver-linux-notepad++",
-        "vserver-linux-odoo",
-        "vserver-linux-openvpn",
-        "vserver-linux-php",
-        "vserver-linux-phpmyadmin",
-        "vserver-linux-plausible",
-        "vserver-linux-plesk",
-        "vserver-linux-plex",
-        "vserver-linux-python",
-        "vserver-linux-screen",
-        "vserver-linux-ssh-server",
-        "vserver-linux-speedtest-cli",
-        "vserver-linux-standard-notes",
-        "vserver-linux-supabase",
-        "vserver-linux-ts6",
-        "vserver-linux-webserver",
-        "vserver-linux-wordpress",
-        "vserver-linux-xrdp",
-      ],
+      label: (() => {
+        switch (process.env.DOCUSAURUS_CURRENT_LOCALE) {
+          case "de": return "Services";
+          case "es": return "Servicios";
+          case "fr": return "Services";
+          case "ar": return "الخدمات";
+          case "pt": return "Serviços";
+          case "th": return "บริการ";
+          case "pl": return "Usługi";
+          case "ja": return "サービス";
+          case "sv": return "Tjänster";
+          case "it": return "Servizi";
+          case "nl": return "Diensten";
+          case "zh": return "服务";
+          default: return "Services";
+        }
+      })(),
+      href: "/docs/software-overview-services",
     },
     {
-      type: "category",
-      label: "Dedicated Game Servers",
-      key: "vserver-linux-dedicated-game-servers",
-      items: [
-        {
-        type: "category",
-        label: "General",
-        key: "vserver-linux-dedicated-game-servers-general",
-        items: [
-          "vserver-linux-fivem-txAdmin-cloudflare-tunnel",
-          ]
-        },
-        "vserver-linux-steamcmd",
-        "vserver-linux-wine",
-        "vserver-linux-create-gameservice",
-        "vserver-linux-arksurvivalascended",
-        "vserver-linux-avorion",
-        "vserver-linux-conan",
-        "vserver-linux-enshrouded",
-        "vserver-linux-fivem",
-        "vserver-linux-foundry",
-        "vserver-linux-hytale",
-        "vserver-linux-mythofempires",
-        "vserver-linux-openmp",
-        "vserver-linux-palworld",
-        "vserver-linux-ragemp",
-        "vserver-linux-rust",
-        "vserver-linux-satisfactory",
-        "vserver-linux-soulmask",
-        "vserver-linux-valheim",
-        "vserver-linux-vrising",
-        "vserver-linux-cs16",
-        "vserver-linux-cscz",
-        "vserver-linux-css",
-        "vserver-linux-cs2",
-        "vserver-linux-tf2",
-        "vserver-linux-dods",
-        "vserver-linux-l4d2",
-        "vserver-linux-nmrih",
-        "vserver-linux-hl2",        
-      ]
+      type: "link",
+      key: "dedicated-linux-game-servers",
+      label: (() => {
+        switch (process.env.DOCUSAURUS_CURRENT_LOCALE) {
+          case "de": return "Dedicated Gameserver";
+          case "es": return "Servidores de Juegos Dedicados";
+          case "fr": return "Serveurs de Jeux Dédiés";
+          case "ar": return "خوادم ألعاب مخصصة";
+          case "pt": return "Servidores de Jogos Dedicados";
+          case "th": return "เซิร์ฟเวอร์เกมเฉพาะ";
+          case "pl": return "Dedykowane Serwery Gier";
+          case "ja": return "専用ゲームサーバー";
+          case "sv": return "Dedikerade Spelservrar";
+          case "it": return "Server di Gioco Dedicati";
+          case "nl": return "Dedicated Game Servers";
+          case "zh": return "专用游戏服务器";
+          default: return "Dedicated Game Servers";
+        }
+      })(),
+      href: "/docs/software-overview-dedicated-game-server",
     },
     {
       type: "category",
@@ -5138,69 +5102,48 @@ const sidebars = {
       ]
     },
     {
-      type: "category",
-      label: "Services",
+      type: "link",
       key: "vserver-windows-services",
-      items: [
-        "vserver-windows-bitwarden",
-        "vserver-windows-docker",
-        "vserver-windows-ftpserver",
-        "vserver-windows-git",
-        "vserver-windows-installmysql",
-        "vserver-windows-javascript",
-        "vserver-windows-joplin",
-        "vserver-windows-nodejs",
-        "vserver-windows-notepad++",
-        "vserver-windows-plesk",
-        "vserver-windows-plex",
-        "vserver-windows-python",
-        "vserver-windows-speedtest-cli",
-        "vserver-windows-supabase",
-        "vserver-windows-ts6",
-      ]
+      label: (() => {
+        switch (process.env.DOCUSAURUS_CURRENT_LOCALE) {
+          case "de": return "Services";
+          case "es": return "Servicios";
+          case "fr": return "Services";
+          case "ar": return "الخدمات";
+          case "pt": return "Serviços";
+          case "th": return "บริการ";
+          case "pl": return "Usługi";
+          case "ja": return "サービス";
+          case "sv": return "Tjänster";
+          case "it": return "Servizi";
+          case "nl": return "Diensten";
+          case "zh": return "服务";
+          default: return "Services";
+        }
+      })(),
+      href: "/docs/software-overview-services",
     },
     {
-      type: "category",
-      label: "Dedicated Game Servers",
-      key: "vserver-windows-dedicated-game-servers",
-      items: [
-        {
-        type: "category",
-        label: "General",
-        key: "vserver-windows-dedicated-game-servers-general",
-        items: [
-          "vserver-windows-fivem-txAdmin-cloudflare-tunnel",
-          ]
-        },
-        "vserver-windows-arksurvivalascended",
-        "vserver-windows-avorion",
-        "vserver-windows-conan",
-        "vserver-windows-enshrouded",
-        "vserver-windows-fivem",
-        "vserver-windows-foundry",
-        "vserver-windows-hytale",
-        "vserver-windows-fs-19",
-        "vserver-windows-fs-22",
-        "vserver-windows-fs-22-epic",
-        "vserver-windows-fs-25",
-        "vserver-windows-mythofempires",
-        "vserver-windows-openmp",
-        "vserver-windows-palworld",
-        "vserver-windows-ragemp",
-        "vserver-windows-satisfactory",
-        "vserver-windows-soulmask",
-        "vserver-windows-valheim",
-        "vserver-windows-vrising",
-        "vserver-windows-cs16",
-        "vserver-windows-cscz",
-        "vserver-windows-css",
-        "vserver-windows-cs2",
-        "vserver-windows-tf2",
-        "vserver-windows-dods",
-        "vserver-windows-l4d2",
-        "vserver-windows-nmrih",
-        "vserver-windows-hl2",
-      ]
+      type: "link",
+      key: "dedicated-windows-game-servers",
+      label: (() => {
+        switch (process.env.DOCUSAURUS_CURRENT_LOCALE) {
+          case "de": return "Dedicated Gameserver";
+          case "es": return "Servidores de Juegos Dedicados";
+          case "fr": return "Serveurs de Jeux Dédiés";
+          case "ar": return "خوادم ألعاب مخصصة";
+          case "pt": return "Servidores de Jogos Dedicados";
+          case "th": return "เซิร์ฟเวอร์เกมเฉพาะ";
+          case "pl": return "Dedykowane Serwery Gier";
+          case "ja": return "専用ゲームサーバー";
+          case "sv": return "Dedikerade Spelservrar";
+          case "it": return "Server di Gioco Dedicati";
+          case "nl": return "Dedicated Game Servers";
+          case "zh": return "专用游戏服务器";
+          default: return "Dedicated Game Servers";
+        }
+      })(),
+      href: "/docs/software-overview-dedicated-game-server",
     },
     {
       type: "category",
@@ -5213,7 +5156,254 @@ const sidebars = {
       ]
     },	
   ],
-  
+
+  //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+  sidebarSoftwareServices: [
+    {
+      type: "html",
+      className: "sidebar-title",
+      value: (() => {
+        switch (process.env.DOCUSAURUS_CURRENT_LOCALE) {
+          case "de": return "Erste Schritte";
+          case "es": return "Primeros pasos";
+          case "fr": return "Premiers pas";
+          case "ar": return "الخطوات الأولى";
+          case "pt": return "Primeiros passos";
+          case "th": return "เริ่มต้นใช้งาน";
+          case "pl": return "Pierwsze kroki";
+          case "ja": return "はじめに";
+          case "sv": return "Kom igång";
+          case "it": return "Primi passi";
+          case "nl": return "Eerste stappen";
+          case "zh": return "第一步";
+          default: return "First steps";
+        }
+      })(),
+      defaultStyle: true,
+    },
+    "software-overview-services",
+    {
+      type: "html",
+      className: "sidebar-title",
+      value: (() => {
+        switch (process.env.DOCUSAURUS_CURRENT_LOCALE) {
+          case "de": return "Linux";
+          case "es": return "Linux";
+          case "fr": return "Linux";
+          case "ar": return "لينكس";
+          case "pt": return "Linux";
+          case "th": return "ลินุกซ์";
+          case "pl": return "Linux";
+          case "ja": return "Linux";
+          case "sv": return "Linux";
+          case "it": return "Linux";
+          case "nl": return "Linux";
+          case "zh": return "Linux";
+          default: return "Linux";
+        }
+      })(),
+      defaultStyle: true,
+    },
+    "dedicated-linux-certbot",
+    "dedicated-linux-databases",
+    "dedicated-linux-docker",
+    "dedicated-linux-ftp-install",
+    "dedicated-linux-git",
+    "dedicated-linux-java",
+    "dedicated-linux-javascript",
+    "dedicated-linux-jitsi",
+    "dedicated-linux-mastodon",
+    "dedicated-linux-odoo",
+    "dedicated-linux-openclaw",
+    "dedicated-linux-openvpn",
+    "dedicated-linux-phpmyadmin",
+    "dedicated-linux-plex",
+    "dedicated-linux-screen",
+    "dedicated-linux-ssh-server",
+    "dedicated-linux-webserver",
+    "dedicated-linux-wordpress",
+    "dedicated-linux-xrdp",
+    "vserver-linux-bitwarden",
+    "vserver-linux-cockpit",
+    "vserver-linux-curl",
+    "vserver-linux-gitlab",
+    "vserver-linux-joplin",
+    "vserver-linux-nextcloud",
+    "vserver-linux-nodejs",
+    "vserver-linux-notepad++",
+    "vserver-linux-php",
+    "vserver-linux-plausible",
+    "vserver-linux-plesk",
+    "vserver-linux-python",
+    "vserver-linux-speedtest-cli",
+    "vserver-linux-standard-notes",
+    "vserver-linux-supabase",
+    "vserver-linux-ts6",
+    {
+      type: "html",
+      className: "sidebar-title",
+      value: (() => {
+        switch (process.env.DOCUSAURUS_CURRENT_LOCALE) {
+          case "de": return "Windows";
+          case "ar": return "ويندوز";
+          case "th": return "วินโดวส์";
+          case "ja": return "ウィンドウズ";
+          default: return "Windows";
+        }
+      })(),
+      defaultStyle: true,
+    },
+    "dedicated-windows-ftpserver",
+    "dedicated-windows-git",
+    "dedicated-windows-installmysql",
+    "dedicated-windows-javascript",
+    "dedicated-windows-nodejs",
+    "dedicated-windows-plex",
+    "dedicated-windows-python",
+    "vserver-windows-bitwarden",
+    "vserver-windows-docker",
+    "vserver-windows-joplin",
+    "vserver-windows-notepad++",
+    "vserver-windows-plesk",
+    "vserver-windows-speedtest-cli",
+    "vserver-windows-supabase",
+    "vserver-windows-ts6",
+  ],
+
+  sidebarSoftwareDedicatedGameServers: [
+    "software-overview-dedicated-game-server",
+    {
+      type: "html",
+      className: "sidebar-title",
+      value: (() => {
+        switch (process.env.DOCUSAURUS_CURRENT_LOCALE) {
+          case "de": return "Linux";
+          case "es": return "Linux";
+          case "fr": return "Linux";
+          case "ar": return "لينكس";
+          case "pt": return "Linux";
+          case "th": return "ลินุกซ์";
+          case "pl": return "Linux";
+          case "ja": return "Linux";
+          case "sv": return "Linux";
+          case "it": return "Linux";
+          case "nl": return "Linux";
+          case "zh": return "Linux";
+          default: return "Linux";
+        }
+      })(),
+      defaultStyle: true,
+    },    
+    {
+      type: "category",
+      label: "General",
+      key: "software-overview-dedicated-linux-game-server-general",
+      items: [
+          "dedicated-linux-fivem-txAdmin-cloudflare-tunnel",
+          "dedicated-linux-steamcmd",
+          "dedicated-linux-wine",
+          "dedicated-linux-create-gameservice",
+      ]
+    },
+    {
+      type: "category",
+      label: "Games",
+      key: "software-overview-dedicated-linux-game-server-games",
+      items: [
+          "dedicated-linux-arksurvivalascended",
+          "dedicated-linux-avorion",
+          "dedicated-linux-conan",
+          "dedicated-linux-enshrouded",
+          "dedicated-linux-fivem",
+          "dedicated-linux-foundry",
+          "dedicated-linux-hytale",
+          "dedicated-linux-mythofempires",
+          "dedicated-linux-openmp",
+          "dedicated-linux-palworld",
+          "dedicated-linux-ragemp",
+          "dedicated-linux-rust",
+          "dedicated-linux-satisfactory",
+          "dedicated-linux-soulmask",
+          "dedicated-linux-valheim",
+          "dedicated-linux-vrising",
+          "dedicated-linux-cs16",
+          "dedicated-linux-cscz",
+          "dedicated-linux-css",
+          "dedicated-linux-cs2",
+          "dedicated-linux-tf2",
+          "dedicated-linux-dods",
+          "dedicated-linux-l4d2",
+          "dedicated-linux-nmrih",
+          "dedicated-linux-hl2",
+      ]
+    },
+    {
+      type: "html",
+      className: "sidebar-title",
+      value: (() => {
+        switch (process.env.DOCUSAURUS_CURRENT_LOCALE) {
+          case "de": return "Windows";
+          case "es": return "Windows";
+          case "fr": return "Windows";
+          case "ar": return "ويندوز";
+          case "pt": return "Windows";
+          case "th": return "วินโดวส์";
+          case "pl": return "Windows";
+          case "ja": return "Windows";
+          case "sv": return "Windows";
+          case "it": return "Windows";
+          case "nl": return "Windows";
+          case "zh": return "Windows";
+          default: return "Windows";
+        }
+      })(),
+      defaultStyle: true,
+    },    
+    {
+      type: "category",
+      label: "General",
+      key: "software-overview-dedicated-windows-game-server-general",
+      items: [
+          "dedicated-windows-fivem-txAdmin-cloudflare-tunnel",
+        ]
+    },
+    {
+      type: "category",
+      label: "Games",
+      key: "software-overview-dedicated-windows-game-server-games",
+      items: [
+        "vserver-windows-arksurvivalascended",
+        "dedicated-windows-avorion",
+        "dedicated-windows-conan",
+        "vserver-windows-enshrouded",
+        "dedicated-windows-fivem",
+        "dedicated-windows-foundry",
+        "vserver-windows-fs-19",
+        "vserver-windows-fs-22",
+        "dedicated-windows-fs-22-epic",
+        "dedicated-windows-fs-25",
+        "dedicated-windows-hytale",
+        "dedicated-windows-mythofempires",
+        "vserver-windows-openmp",
+        "dedicated-windows-palworld",
+        "dedicated-windows-ragemp",
+        "dedicated-windows-satisfactory",
+        "dedicated-windows-soulmask",
+        "vserver-windows-valheim",
+        "vserver-windows-vrising",
+        "dedicated-windows-cs16",
+        "dedicated-windows-cscz",
+        "dedicated-windows-css",
+        "dedicated-windows-cs2",
+        "dedicated-windows-tf2",
+        "dedicated-windows-dods",
+        "dedicated-windows-l4d2",
+        "dedicated-windows-nmrih",
+        "dedicated-windows-hl2",
+      ]
+    },
+  ],
+
   //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
   dedicatedserverSidebar: [
     {
@@ -5334,91 +5524,48 @@ const sidebars = {
       ]
     },
     {
-      type: "category",
-      label: "Services",
-      key: "dedicated-server-linux-services",
-      items: [
-        "dedicated-linux-bitwarden",
-        "dedicated-linux-certbot",
-        "dedicated-linux-ssl",
-        "dedicated-linux-cockpit",
-        "dedicated-linux-curl",		
-        "dedicated-linux-databases",
-        "dedicated-linux-docker",
-        "dedicated-linux-ftp-install",
-        "dedicated-linux-git",
-        "dedicated-linux-gitlab",
-        "dedicated-linux-java",
-        "dedicated-linux-javascript",
-        "dedicated-linux-jitsi",
-        "dedicated-linux-joplin",
-        "dedicated-linux-mastodon",
-        "dedicated-linux-nextcloud",
-        "dedicated-linux-nodejs",
-        "dedicated-linux-notepad++",
-        "dedicated-linux-openclaw",
-        "dedicated-linux-openvpn",
-        "dedicated-linux-php",
-        "dedicated-linux-phpmyadmin",
-        "dedicated-linux-plausible",
-        "dedicated-linux-plesk",
-        "dedicated-linux-plex",
-        "dedicated-pterodactyl",
-        "dedicated-linux-python",
-        "dedicated-linux-screen",
-        "dedicated-linux-ssh-server",
-        "dedicated-linux-standard-notes",
-        "dedicated-windows-speedtest-cli",
-        "dedicated-linux-supabase",
-        "dedicated-linux-ts6",
-        "dedicated-linux-webserver",
-        "dedicated-linux-wordpress",
-        "dedicated-linux-xrdp",
-
-      ],
+      type: "link",
+      key: "dedicated-linux-services",
+      label: (() => {
+        switch (process.env.DOCUSAURUS_CURRENT_LOCALE) {
+          case "de": return "Services";
+          case "es": return "Servicios";
+          case "fr": return "Services";
+          case "ar": return "الخدمات";
+          case "pt": return "Serviços";
+          case "th": return "บริการ";
+          case "pl": return "Usługi";
+          case "ja": return "サービス";
+          case "sv": return "Tjänster";
+          case "it": return "Servizi";
+          case "nl": return "Diensten";
+          case "zh": return "服务";
+          default: return "Services";
+        }
+      })(),
+      href: "/docs/software-overview-services",
     },
     {
-      type: "category",
-      label: "Dedicated Game Servers",
-      key: "dedicated-server-linux-dedicated-game-servers",
-      items: [
-        {
-        type: "category",
-        label: "General",
-        key: "dedicated-linux-dedicated-game-servers-general",
-        items: [
-          "dedicated-linux-fivem-txAdmin-cloudflare-tunnel",
-          ]
-        },
-        "dedicated-linux-steamcmd",
-        "dedicated-linux-wine",
-        "dedicated-linux-create-gameservice",
-        "dedicated-linux-arksurvivalascended",
-        "dedicated-linux-avorion",
-        "dedicated-linux-conan",
-        "dedicated-linux-enshrouded",
-        "dedicated-linux-fivem",
-        "dedicated-linux-foundry",
-        "dedicated-linux-hytale",
-        "dedicated-linux-mythofempires",
-        "dedicated-linux-openmp",
-        "dedicated-linux-palworld",
-        "dedicated-linux-ragemp",
-        "dedicated-linux-rust",
-        "dedicated-linux-satisfactory",
-        "dedicated-linux-soulmask",
-        "dedicated-linux-valheim",
-        "dedicated-linux-vrising",
-        "dedicated-linux-cs16",
-        "dedicated-linux-cscz",
-        "dedicated-linux-css",
-        "dedicated-linux-cs2",
-        "dedicated-linux-tf2",
-        "dedicated-linux-dods",
-        "dedicated-linux-l4d2",
-        "dedicated-linux-nmrih",
-        "dedicated-linux-hl2",
-      ]
+      type: "link",
+      key: "dedicated-linux-dedicated-game-servers",
+      label: (() => {
+        switch (process.env.DOCUSAURUS_CURRENT_LOCALE) {
+          case "de": return "Dedizierte Gameserver";
+          case "es": return "Servidores de juegos dedicados";
+          case "fr": return "Serveurs de jeux dédiés";
+          case "ar": return "خوادم ألعاب مخصصة";
+          case "pt": return "Servidores de jogos dedicados";
+          case "th": return "เซิร์ฟเวอร์เกมเฉพาะ";
+          case "pl": return "Dedykowane serwery gier";
+          case "ja": return "専用ゲームサーバー";
+          case "sv": return "Dedikerade spelservrar";
+          case "it": return "Server di gioco dedicati";
+          case "nl": return "Dedicated gameservers";
+          case "zh": return "专用游戏服务器";
+          default: return "Dedicated Game Servers";
+        }
+      })(),      
+      href: "/docs/software-overview-dedicated-game-server",
     },
     {
       type: "category",
@@ -5469,69 +5616,48 @@ const sidebars = {
       ]
     },
     {
-      type: "category",
-      label: "Services",
-      key: "dedicated-server-windows-services",
-      items: [
-        "dedicated-windows-bitwarden",
-        "dedicated-windows-docker",
-        "dedicated-windows-ftpserver",
-        "dedicated-windows-git",
-        "dedicated-windows-installmysql",
-        "dedicated-windows-javascript",
-        "dedicated-windows-joplin",
-        "dedicated-windows-nodejs",
-        "dedicated-windows-notepad++",
-        "dedicated-windows-plesk",
-        "dedicated-windows-plex",
-        "dedicated-windows-python",
-        "dedicated-windows-speedtest-cli",
-        "dedicated-windows-supabase",
-        "dedicated-windows-ts6",
-      ]
+      type: "link",
+      key: "dedicated-windows-services",
+      label: (() => {
+        switch (process.env.DOCUSAURUS_CURRENT_LOCALE) {
+          case "de": return "Services";
+          case "es": return "Servicios";
+          case "fr": return "Services";
+          case "ar": return "الخدمات";
+          case "pt": return "Serviços";
+          case "th": return "บริการ";
+          case "pl": return "Usługi";
+          case "ja": return "サービス";
+          case "sv": return "Tjänster";
+          case "it": return "Servizi";
+          case "nl": return "Diensten";
+          case "zh": return "服务";
+          default: return "Services";
+        }
+      })(),
+      href: "/docs/software-overview-services",
     },
     {
-      type: "category",
-      label: "Dedicated Game Servers",
-      key: "dedicated-server-windows-dedicated-game-servers",
-      items: [
-        {
-        type: "category",
-        label: "General",
-        key: "dedicated-windows-dedicated-game-servers-general",
-        items: [
-          "dedicated-windows-fivem-txAdmin-cloudflare-tunnel",
-          ]
-        },
-        "dedicated-windows-arksurvivalascended",
-        "dedicated-windows-avorion",
-        "dedicated-windows-conan",
-        "dedicated-windows-enshrouded",
-        "dedicated-windows-fivem",
-        "dedicated-windows-foundry",
-        "dedicated-windows-fs-19",
-        "dedicated-windows-fs-22",
-        "dedicated-windows-fs-22-epic",
-        "dedicated-windows-fs-25",
-        "dedicated-windows-hytale",
-        "dedicated-windows-mythofempires",
-        "dedicated-windows-openmp",
-        "dedicated-windows-palworld",
-        "dedicated-windows-ragemp",
-        "dedicated-windows-satisfactory",
-        "dedicated-windows-soulmask",
-        "dedicated-windows-valheim",
-        "dedicated-windows-vrising",
-        "dedicated-windows-cs16",
-        "dedicated-windows-cscz",
-        "dedicated-windows-css",
-        "dedicated-windows-cs2",
-        "dedicated-windows-tf2",
-        "dedicated-windows-dods",
-        "dedicated-windows-l4d2",
-        "dedicated-windows-nmrih",
-        "dedicated-windows-hl2",
-      ]
+      type: "link",
+      key: "dedicated-windows-dedicated-game-servers",
+      label: (() => {
+        switch (process.env.DOCUSAURUS_CURRENT_LOCALE) {
+          case "de": return "Dedizierte Gameserver";
+          case "es": return "Servidores de juegos dedicados";
+          case "fr": return "Serveurs de jeux dédiés";
+          case "ar": return "خوادم ألعاب مخصصة";
+          case "pt": return "Servidores de jogos dedicados";
+          case "th": return "เซิร์ฟเวอร์เกมเฉพาะ";
+          case "pl": return "Dedykowane serwery gier";
+          case "ja": return "専用ゲームサーバー";
+          case "sv": return "Dedikerade spelservrar";
+          case "it": return "Server di gioco dedicati";
+          case "nl": return "Dedicated gameservers";
+          case "zh": return "专用游戏服务器";
+          default: return "Dedicated Game Servers";
+        }
+      })(),      
+      href: "/docs/software-overview-dedicated-game-server",
     },
     {
       type: "category",

@@ -1,7 +1,7 @@
-ï»¿---
+---
 id: dedicated-linux-hytale
-title: "Servidor Dedicado: ConfiguraÃ§Ã£o do Servidor Dedicado Hytale"
-description: "Descubra como configurar o servidor dedicado Hytale no seu Servidor Dedicado Linux para uma gestÃ£o de gameplay sem complicaÃ§Ãµes â†’ Saiba mais agora"
+title: "Servidor Dedicado: Configuração do Servidor Dedicado Hytale"
+description: "Descubra como configurar o servidor dedicado Hytale no seu Servidor Dedicado Linux para uma gestão de gameplay sem complicações ? Saiba mais agora"
 sidebar_label: Hytale
 services:
   - dedicated
@@ -9,26 +9,26 @@ services:
 
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
-## IntroduÃ§Ã£o
-VocÃª tem um Servidor Dedicado Linux e quer instalar o Hytale nele? VocÃª estÃ¡ no lugar certo. Neste guia, vamos explicar o passo a passo para instalar esse serviÃ§o no seu servidor Linux.
+## Introdução
+Você tem um Servidor Dedicado Linux e quer instalar o Hytale nele? Você está no lugar certo. Neste guia, vamos explicar o passo a passo para instalar esse serviço no seu servidor Linux.
 
-## PreparaÃ§Ã£o
+## Preparação
 
-Para rodar um servidor de jogos Hytale, seu sistema precisa atender a alguns requisitos bÃ¡sicos. O servidor roda com Java 25 e requer pelo menos 4 GB de RAM. As arquiteturas x64 e arm64 sÃ£o suportadas. O uso real de recursos depende do nÃºmero de jogadores, distÃ¢ncia de visÃ£o e atividade no mundo, entÃ£o recursos adicionais podem ser necessÃ¡rios para servidores maiores.
+Para rodar um servidor de jogos Hytale, seu sistema precisa atender a alguns requisitos básicos. O servidor roda com Java 25 e requer pelo menos 4 GB de RAM. As arquiteturas x64 e arm64 são suportadas. O uso real de recursos depende do número de jogadores, distância de visão e atividade no mundo, então recursos adicionais podem ser necessários para servidores maiores.
 
-Antes de continuar, certifique-se de que o Java 25 estÃ¡ instalado no seu sistema. VocÃª pode verificar a instalaÃ§Ã£o com:
+Antes de continuar, certifique-se de que o Java 25 está instalado no seu sistema. Você pode verificar a instalação com:
 
 ```
 java --version
 ```
 
-Se o Java ainda nÃ£o estiver instalado no seu sistema, siga nosso guia dedicado [Instalar Java](vserver-linux-java) para servidores Linux. Esse guia explica como instalar e configurar o Java corretamente no seu ambiente.
+Se o Java ainda não estiver instalado no seu sistema, siga nosso guia dedicado [Instalar Java](dedicated-linux-java) para servidores Linux. Esse guia explica como instalar e configurar o Java corretamente no seu ambiente.
 
 
 
-## InstalaÃ§Ã£o
+## Instalação
 
-Comece criando um diretÃ³rio dedicado para o servidor Hytale. Isso mantÃ©m todos os arquivos do servidor organizados em um sÃ³ lugar.
+Comece criando um diretório dedicado para o servidor Hytale. Isso mantém todos os arquivos do servidor organizados em um só lugar.
 
 ```
 sudo mkdir -p /opt/hytale
@@ -36,67 +36,67 @@ sudo chown -R $(whoami):$(whoami) /opt/hytale
 cd /opt/hytale
 ```
 
-O servidor precisa de dois componentes principais: o aplicativo do servidor em si e os assets do jogo. Esses arquivos podem ser obtidos usando o downloader de linha de comando do Hytale, que Ã© feito para implantaÃ§Ãµes de servidor e atualizaÃ§Ãµes mais fÃ¡ceis.
+O servidor precisa de dois componentes principais: o aplicativo do servidor em si e os assets do jogo. Esses arquivos podem ser obtidos usando o downloader de linha de comando do Hytale, que é feito para implantações de servidor e atualizações mais fáceis.
 
-O downloader CLI oferece uma forma estruturada de baixar e atualizar os arquivos do servidor Hytale. Depois de baixar o arquivo do downloader, extraia-o em um diretÃ³rio temporÃ¡rio. Dentro do arquivo, vocÃª encontrarÃ¡ um arquivo QUICKSTART.md que descreve o uso bÃ¡sico da ferramenta.
+O downloader CLI oferece uma forma estruturada de baixar e atualizar os arquivos do servidor Hytale. Depois de baixar o arquivo do downloader, extraia-o em um diretório temporário. Dentro do arquivo, você encontrará um arquivo QUICKSTART.md que descreve o uso básico da ferramenta.
 
-Execute o downloader pelo terminal e siga as instruÃ§Ãµes para baixar a versÃ£o mais recente do servidor. Quando o processo terminar, copie os arquivos do servidor baixados e o arquivo de assets para o diretÃ³rio do seu servidor. ApÃ³s essa etapa, o diretÃ³rio deve conter o arquivo JAR do servidor e um arquivo de assets como o Assets.zip.
+Execute o downloader pelo terminal e siga as instruções para baixar a versão mais recente do servidor. Quando o processo terminar, copie os arquivos do servidor baixados e o arquivo de assets para o diretório do seu servidor. Após essa etapa, o diretório deve conter o arquivo JAR do servidor e um arquivo de assets como o Assets.zip.
 
-| **Comando**                                   | **DescriÃ§Ã£o**                       |
+| **Comando**                                   | **Descrição**                       |
 | :-------------------------------------------- | :------------------------------------ |
-| `./hytale-downloader`                         | Baixar a Ãºltima versÃ£o               |
-| `./hytale-downloader -print-version`          | Mostrar versÃ£o do jogo sem baixar   |
-| `./hytale-downloader -version`                | Mostrar versÃ£o do hytale-downloader  |
-| `./hytale-downloader -check-update`           | Verificar atualizaÃ§Ãµes do downloader |
-| `./hytale-downloader -download-path game.zip` | Baixar para arquivo especÃ­fico       |
-| `./hytale-downloader -patchline pre-release`  | Baixar do canal prÃ©-lanÃ§amento       |
-| `./hytale-downloader -skip-update-check`      | Pular verificaÃ§Ã£o automÃ¡tica de update |
+| `./hytale-downloader`                         | Baixar a última versão               |
+| `./hytale-downloader -print-version`          | Mostrar versão do jogo sem baixar   |
+| `./hytale-downloader -version`                | Mostrar versão do hytale-downloader  |
+| `./hytale-downloader -check-update`           | Verificar atualizações do downloader |
+| `./hytale-downloader -download-path game.zip` | Baixar para arquivo específico       |
+| `./hytale-downloader -patchline pre-release`  | Baixar do canal pré-lançamento       |
+| `./hytale-downloader -skip-update-check`      | Pular verificação automática de update |
 
 
 
-## ConfiguraÃ§Ã£o
+## Configuração
 
 ### Iniciando o servidor
 
-O servidor Ã© iniciado executando o arquivo JAR e especificando o caminho para o arquivo de assets. Ajuste o caminho se seus assets estiverem em outro local.
+O servidor é iniciado executando o arquivo JAR e especificando o caminho para o arquivo de assets. Ajuste o caminho se seus assets estiverem em outro local.
 
 ```
 java -jar HytaleServer.jar --assets /opt/hytale/Assets.zip --bind 0.0.0.0:5520
 ```
 
-### AutenticaÃ§Ã£o
+### Autenticação
 
-Na primeira inicializaÃ§Ã£o, o servidor precisa ser autenticado antes que os jogadores possam se conectar. Isso Ã© feito diretamente pelo console do servidor usando um processo de login baseado em dispositivo. Siga as instruÃ§Ãµes mostradas no console para completar a autenticaÃ§Ã£o.
+Na primeira inicialização, o servidor precisa ser autenticado antes que os jogadores possam se conectar. Isso é feito diretamente pelo console do servidor usando um processo de login baseado em dispositivo. Siga as instruções mostradas no console para completar a autenticação.
 
 ```
 /auth login device
 ```
 
-A saÃ­da serÃ¡ parecida com isso:
+A saída será parecida com isso:
 
 ```
 > /auth login device
 ===================================================================
-AUTORIZAÃ‡ÃƒO DO DISPOSITIVO
+AUTORIZAÇÃO DO DISPOSITIVO
 ===================================================================
 Visite: https://accounts.hytale.com/device
-Digite o cÃ³digo: ABCD-1234
+Digite o código: ABCD-1234
 Ou acesse: https://accounts.hytale.com/device?user_code=ABCD-1234
 ===================================================================
-Aguardando autorizaÃ§Ã£o (expira em 900 segundos)...
+Aguardando autorização (expira em 900 segundos)...
 
-[UsuÃ¡rio completa a autorizaÃ§Ã£o no navegador]
+[Usuário completa a autorização no navegador]
 
-> AutenticaÃ§Ã£o bem-sucedida! Modo: OAUTH_DEVICE
+> Autenticação bem-sucedida! Modo: OAUTH_DEVICE
 ```
 
-Depois de autenticado, seu servidor pode aceitar conexÃµes de jogadores.
+Depois de autenticado, seu servidor pode aceitar conexões de jogadores.
 
 
 
-### ConfiguraÃ§Ã£o do firewall
+### Configuração do firewall
 
-Por padrÃ£o, o servidor escuta na porta UDP 5520 e se conecta a todas as interfaces disponÃ­veis. VocÃª pode mudar o endereÃ§o e a porta se precisar. O servidor se comunica via UDP usando QUIC. Certifique-se de que seu firewall permita trÃ¡fego UDP de entrada na porta escolhida, usando Iptables ou UFW.
+Por padrão, o servidor escuta na porta UDP 5520 e se conecta a todas as interfaces disponíveis. Você pode mudar o endereço e a porta se precisar. O servidor se comunica via UDP usando QUIC. Certifique-se de que seu firewall permita tráfego UDP de entrada na porta escolhida, usando Iptables ou UFW.
 
 ```
 sudo iptables -A INPUT -p udp --dport 5520 -j ACCEPT
@@ -107,16 +107,16 @@ sudo ufw allow 5520/udp
 
 ## Notas de desempenho
 
-A distÃ¢ncia de visÃ£o Ã© um dos fatores mais importantes que influenciam o consumo de memÃ³ria. Valores maiores aumentam o uso de RAM porque mais dados do mundo precisam ficar ativos ao mesmo tempo.
+A distância de visão é um dos fatores mais importantes que influenciam o consumo de memória. Valores maiores aumentam o uso de RAM porque mais dados do mundo precisam ficar ativos ao mesmo tempo.
 
-Para a maioria das configuraÃ§Ãµes, uma distÃ¢ncia mÃ¡xima de visÃ£o de 12 chunks (384 blocos) oferece um bom equilÃ­brio entre desempenho do servidor e experiÃªncia de jogo.
+Para a maioria das configurações, uma distância máxima de visão de 12 chunks (384 blocos) oferece um bom equilíbrio entre desempenho do servidor e experiência de jogo.
 
-Para comparaÃ§Ã£o, servidores de Minecraft usam uma distÃ¢ncia padrÃ£o de visÃ£o de 10 chunks (160 blocos). O padrÃ£o do Hytale de 384 blocos Ã© aproximadamente equivalente a 24 chunks de Minecraft, o que explica os requisitos maiores de memÃ³ria. Esse valor deve ser ajustado com base no nÃºmero esperado de jogadores e nos recursos disponÃ­veis do sistema.
+Para comparação, servidores de Minecraft usam uma distância padrão de visão de 10 chunks (160 blocos). O padrão do Hytale de 384 blocos é aproximadamente equivalente a 24 chunks de Minecraft, o que explica os requisitos maiores de memória. Esse valor deve ser ajustado com base no número esperado de jogadores e nos recursos disponíveis do sistema.
 
 
 
-## ConclusÃ£o
+## Conclusão
 
-ParabÃ©ns, agora vocÃª tem um servidor Hytale funcional rodando no seu sistema. A partir daqui, vocÃª pode expandir a configuraÃ§Ã£o instalando mods, ajustando as configuraÃ§Ãµes do mundo e otimizando parÃ¢metros de desempenho para o seu pÃºblico. Recomendamos monitorar regularmente o uso de recursos para garantir operaÃ§Ã£o estÃ¡vel conforme o servidor cresce.
+Parabéns, agora você tem um servidor Hytale funcional rodando no seu sistema. A partir daqui, você pode expandir a configuração instalando mods, ajustando as configurações do mundo e otimizando parâmetros de desempenho para o seu público. Recomendamos monitorar regularmente o uso de recursos para garantir operação estável conforme o servidor cresce.
 
-Para dÃºvidas ou ajuda, nÃ£o hesite em contatar nosso time de suporte, disponÃ­vel diariamente para te ajudar! ğŸ™‚
+Para dúvidas ou ajuda, não hesite em contatar nosso time de suporte, disponível diariamente para te ajudar! ??
