@@ -2043,5 +2043,14 @@
   },
   "dropdown.software.vrising": {
     "message": "V-Rising"
+  },
+  "service.price.from": {
+    "message": "เริ่มต้น"
+  },
+  "inlineservicelink.cta": {
+    "message": "สั่งซื้อเลย"
+  },
+  "inlineservicelink.cta.title": {
+    "message": "สั่งซื้อเลย"
   }
 }

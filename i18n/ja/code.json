@@ -2043,5 +2043,14 @@
   },
   "dropdown.software.vrising": {
     "message": "V-Rising"
+  },
+  "service.price.from": {
+    "message": "から"
+  },
+  "inlineservicelink.cta": {
+    "message": "今すぐ注文"
+  },
+  "inlineservicelink.cta.title": {
+    "message": "今すぐ注文"
   }
 }

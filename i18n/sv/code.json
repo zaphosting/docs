@@ -2043,5 +2043,14 @@
   },
   "dropdown.software.vrising": {
     "message": "V-Rising"
+  },
+  "service.price.from": {
+    "message": "från"
+  },
+  "inlineservicelink.cta": {
+    "message": "Beställ nu"
+  },
+  "inlineservicelink.cta.title": {
+    "message": "Beställ nu"
   }
 }

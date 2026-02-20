@@ -2043,5 +2043,14 @@
   },
   "dropdown.software.vrising": {
     "message": "V-Rising"
+  },
+  "service.price.from": {
+    "message": "vanaf"
+  },
+  "inlineservicelink.cta": {
+    "message": "Nu bestellen"
+  },
+  "inlineservicelink.cta.title": {
+    "message": "Nu bestellen"
   }
 }

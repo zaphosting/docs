@@ -2043,5 +2043,14 @@
   },
   "dropdown.software.vrising": {
     "message": "V-Rising"
+  },
+  "service.price.from": {
+    "message": "ابتداءً من"
+  },
+  "inlineservicelink.cta": {
+    "message": "اطلب الآن"
+  },
+  "inlineservicelink.cta.title": {
+    "message": "اطلب الآن"
   }
 }
