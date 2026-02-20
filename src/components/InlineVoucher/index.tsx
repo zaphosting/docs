@@ -84,7 +84,7 @@ function CouponPanel({ discountGroups, serviceInfoMap, marketingSite }) {
 
       <div className={styles.comboAction}>
         <VoucherButton code={selected.voucher.code} small={true} />
-        <a href={selected.service.url}
+        <a href={`${selected.service.url}${selected.service.url.includes('?') ? '&' : '?'}voucher=${selected.voucher.code}`}
            className={styles.comboOrder}
            target="_blank"
            rel="noopener noreferrer"

@@ -50,10 +50,7 @@ export default function InlineServiceLink({ serviceKey }: { serviceKey?: string 
         <span className={styles.title}>{serviceInfo.title}</span>
         {hasPrice &&
           <span className={styles.priceBadge}>
-            <Translate id="inlineservicelink.starting-from">
-              from
-            </Translate>
-            {' '}{serviceInfo.price.replace(/^from\s*/i, '')}
+            {serviceInfo.price}
           </span>
         }
       </div>
