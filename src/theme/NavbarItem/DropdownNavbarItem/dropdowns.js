@@ -339,7 +339,7 @@ export const dropdowns = {
   // -------------------------------------------------------------------
   vps: {
     mainLink: '/docs/vserver-introduction',
-    activePathMatch: '/vserver-',
+    activePathMatch: null,
 
     topRow: {
       title: 'First Steps',
@@ -402,7 +402,7 @@ export const dropdowns = {
   // -------------------------------------------------------------------
   dedicated: {
     mainLink: '/docs/dedicated-introduction',
-    activePathMatch: '/dedicated-',
+    activePathMatch: null,
 
     topRow: {
       title: 'First Steps',
@@ -545,7 +545,7 @@ export const dropdowns = {
   // Software
   // -------------------------------------------------------------------
   software: {
-    activePathMatch: '/vserver-linux-|/vserver-windows-',
+    activePathMatch: null,
 
     columns: [
       {

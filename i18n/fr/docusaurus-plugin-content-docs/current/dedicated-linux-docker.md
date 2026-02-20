@@ -1,9 +1,10 @@
 ---
 id: dedicated-linux-docker
-title: "Serveur dédié : Installation de Docker"
-description: "Découvrez comment installer Docker sur votre serveur Linux pour exécuter des applications isolées efficacement et optimiser l’utilisation des ressources → En savoir plus maintenant"
+title: "Installer Docker sur un serveur Linux - Exécute et gère des conteneurs sur ton infrastructure"
+description: "Découvre comment installer Docker sur ton serveur Linux pour faire tourner des applis isolées efficacement et optimiser l’utilisation des ressources → En savoir plus maintenant"
 sidebar_label: Installer Docker
 services:
+  - vserver
   - dedicated
 ---
 
@@ -13,32 +14,32 @@ import TabItem from '@theme/TabItem';
 
 ## Introduction
 
-Docker est un logiciel de virtualisation léger et open source qui permet de fournir des services ou des applications en isolation sur un seul système. Contrairement aux vraies machines virtuelles, aucun système d’exploitation supplémentaire n’est émulé ou hébergé, mais seulement un environnement applicatif au sein du système hôte. Cela permet non seulement d’économiser des ressources en général, mais aussi de réduire la surcharge par rapport à une virtualisation complète. Dans ce guide, nous allons couvrir le processus d’installation de Docker sur votre serveur.
+Docker est un logiciel de virtualisation léger et open source qui permet de fournir des services ou applications en isolation sur un seul système. Contrairement aux vraies machines virtuelles, aucun système d’exploitation supplémentaire n’est émulé ou hébergé, mais seulement un environnement applicatif au sein du système hôte. Cela permet non seulement d’économiser des ressources en général, mais aussi de réduire fortement la surcharge comparé à une virtualisation complète. Dans ce guide, on va voir comment installer Docker sur ton serveur.
 
 ## Préparation
 
-Pour commencer, vous devez vous connecter à votre serveur Linux via SSH. Consultez notre [guide d’accès initial (SSH)](dedicated-linux-ssh.md) si vous avez besoin d’aide. Tout au long de ce guide, nous utiliserons Ubuntu comme distribution Linux.
+Pour commencer, tu dois te connecter à ton serveur Linux via SSH. Jette un œil à notre [guide d’accès initial (SSH)](dedicated-linux-ssh.md) si tu as besoin d’aide. Dans ce guide, on utilise Ubuntu comme distribution Linux.
 
 ### Activer la compatibilité Docker
 
-Vous devez activer la **compatibilité Docker** dans votre interface web pour permettre le fonctionnement des conteneurs Docker, sinon vous recevrez des erreurs `Permission Denied`.
+Tu dois activer la **compatibilité Docker** dans ton interface web pour que les conteneurs Docker fonctionnent, sinon tu risques d’avoir des erreurs `Permission Denied`.
 
-Rendez-vous dans la section **Paramètres** du panneau web de votre serveur, activez l’option **Compatibilité Docker** et sauvegardez.
+Va dans la section **Paramètres** du panneau web de ton serveur, active l’option **Compatibilité Docker** et sauvegarde.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/o5t82kKM38r2MwY/preview)
 
-Une fois sauvegardé, assurez-vous de redémarrer votre serveur avant de continuer.
+Une fois sauvegardé, assure-toi de redémarrer ton serveur avant de continuer.
 
 ## Installation
 
-Maintenant que vous êtes connecté à votre serveur Linux, vous pouvez procéder aux méthodes d’installation. Sélectionnez l’une des distributions Linux ci-dessous pour voir les étapes d’installation correspondantes.
+Maintenant que tu es connecté à ton serveur Linux, tu peux passer aux méthodes d’installation. Choisis une des distributions Linux ci-dessous pour voir les étapes spécifiques.
 
 <Tabs>
 <TabItem value="ubuntu/debian" label="Ubuntu & Debian" default>
 
-Pour commencer, vous devez ajouter le paquet Docker via `apt` et le configurer. Cela vous permettra d’installer et de mettre à jour Docker facilement depuis le dépôt à l’avenir.
+Pour commencer, tu dois ajouter le paquet Docker via `apt` et le configurer. Ça te permettra d’installer et mettre à jour Docker facilement depuis le dépôt à l’avenir.
 
-Utilisez les commandes suivantes pour ajouter la clé GPG officielle de Docker à votre liste de dépôts.
+Utilise ces commandes pour ajouter la clé GPG officielle de Docker à ta liste de dépôts.
 ```
 sudo apt-get update
 sudo apt-get install ca-certificates curl
@@ -47,7 +48,7 @@ sudo curl -fsSL https://download.docker.com/linux/ubuntu/gpg -o /etc/apt/keyring
 sudo chmod a+r /etc/apt/keyrings/docker.asc
 ```
 
-Une fois ces étapes réalisées, vous devez ajouter le dépôt aux sources `apt` avec la commande suivante.
+Une fois fait, ajoute le dépôt Docker aux sources `apt` avec cette commande.
 ```
 echo \
   "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.asc] https://download.docker.com/linux/ubuntu \
@@ -55,12 +56,12 @@ echo \
   sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
 ```
 
-Maintenant que vous avez ajouté le dépôt Docker à vos sources, lancez la commande `apt-get update` pour récupérer les modifications.
+Maintenant que tu as ajouté le dépôt Docker, lance la commande `apt-get update` pour récupérer les mises à jour.
 ```
 sudo apt-get update
 ```
 
-À ce stade, vous avez configuré avec succès le dépôt `apt` de Docker. En dernière étape, vous devez installer les paquets Docker. Vous pouvez installer la dernière version avec la commande suivante.
+À ce stade, tu as bien configuré le dépôt Docker. Pour finir, installe les paquets Docker. Tu peux installer la dernière version avec cette commande.
 ```
 sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
 ```
@@ -69,17 +70,17 @@ sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin 
 
 <TabItem value="fedora" label="Fedora">
 
-Pour commencer, vous devez installer le paquet `dnf-plugins-core` qui aide à gérer les dépôts.
+Pour commencer, installe le paquet `dnf-plugins-core` qui aide à gérer les dépôts.
 ```
 sudo dnf -y install dnf-plugins-core
 ```
 
-Avec ce paquet installé, ajoutez le dépôt Docker et installez-le avec la commande suivante.
+Avec ce paquet installé, ajoute le dépôt Docker et installe-le avec cette commande.
 ```
 sudo dnf-3 config-manager --add-repo https://download.docker.com/linux/fedora/docker-ce.repo
 ```
 
-Docker devrait maintenant être installé. En dernière étape, vous devez le démarrer et l’activer pour qu’il fonctionne.
+Docker devrait maintenant être installé. Pour finir, démarre et active le service Docker pour qu’il fonctionne.
 ```
 sudo systemctl enable --now docker
 ```
@@ -87,26 +88,26 @@ sudo systemctl enable --now docker
 </TabItem>
 </Tabs>
 
-Pour vérifier que votre installation est réussie, essayez d’exécuter l’image **hello-world** avec la commande suivante.
+Pour vérifier que l’installation a réussi, lance l’image **hello-world** avec cette commande.
 ```
 sudo docker run hello-world
 ```
 
-En cas de succès, vous verrez un message de bienvenue utile avec quelques informations basiques. Si vous rencontrez des erreurs `Permission Denied`, assurez-vous d’avoir activé l’option **Compatibilité Docker** dans votre interface web et redémarré le serveur comme décrit dans la section préparation.
+Si tout est OK, tu verras un message de bienvenue avec quelques infos basiques. Si tu as des erreurs `Permission Denied`, vérifie que tu as bien activé la **compatibilité Docker** dans l’interface web et redémarré le serveur comme expliqué dans la préparation.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/tzJwpYRYb9Mmryo/preview)
 
-Vous avez installé Docker avec succès sur votre serveur Linux.
+Tu as installé Docker avec succès sur ton serveur Linux.
 
 ## Configuration post-installation
 
-Maintenant que Docker est installé sur votre serveur, vous pouvez effectuer quelques configurations supplémentaires pour éviter d’utiliser `sudo` à chaque commande Docker et pour démarrer Docker automatiquement au démarrage du serveur.
+Maintenant que Docker est installé sur ton serveur, tu peux faire quelques réglages pour ne plus avoir besoin de `sudo` à chaque commande Docker et pour démarrer Docker automatiquement au boot.
 
 ### Gérer Docker sans sudo
 
-Vous pouvez supprimer la nécessité de préfixer toutes les commandes Docker avec `sudo` en créant un groupe Docker et en ajoutant vos utilisateurs à ce groupe. Cela améliore la commodité, mais attention, cela accorde indirectement des privilèges root à l’utilisateur.
+Tu peux éviter de préfixer toutes les commandes Docker avec `sudo` en créant un groupe Docker et en ajoutant tes utilisateurs dedans. C’est plus pratique, mais attention, ça donne indirectement des droits root à l’utilisateur.
 
-Créez le groupe `docker` et ajoutez votre utilisateur actuel avec les commandes suivantes.
+Crée le groupe `docker` et ajoute ton utilisateur actuel avec ces commandes.
 ```
 # Créer le groupe Docker
 sudo groupadd docker
@@ -115,37 +116,37 @@ sudo groupadd docker
 sudo usermod -aG docker $USER
 ```
 
-Une fois cela fait, nous recommandons de redémarrer votre serveur pour que l’appartenance au groupe soit prise en compte. Sinon, vous pouvez utiliser `newgrp docker`.
+Une fois fait, on te conseille de redémarrer ton serveur pour que la nouvelle appartenance au groupe soit prise en compte. Sinon, tu peux utiliser `newgrp docker`.
 
-Vérifiez maintenant que vous pouvez exécuter les commandes Docker sans `sudo` en relançant la commande `docker run hello-world`.
+Teste ensuite si tu peux lancer des commandes Docker sans `sudo` en relançant `docker run hello-world`.
 
 :::tip
-Parfois, vous pouvez recevoir une erreur liée à un fichier de configuration si vous avez déjà lancé la commande avec `sudo`. Pour résoudre cela, supprimez simplement le répertoire Docker avec `rmdir ~/.docker/`, qui sera recréé automatiquement lors de la prochaine utilisation.
+Parfois, tu peux avoir une erreur liée à un fichier de config si tu as déjà lancé la commande avec `sudo`. Pour régler ça, supprime simplement le dossier Docker avec `rmdir ~/.docker/`, il sera recréé automatiquement à la prochaine utilisation.
 :::
 
-Si la commande fonctionne comme prévu, cela signifie que vous avez configuré Docker pour fonctionner sans avoir besoin de privilèges `sudo`.
+Si la commande fonctionne sans souci, c’est que tu as bien configuré Docker pour tourner sans `sudo`.
 
 ### Démarrer Docker au démarrage
 
-Vous pouvez configurer Docker pour qu’il démarre automatiquement au démarrage du serveur grâce à `systemd`, utilisé par la plupart des distributions Linux.
+Tu peux configurer Docker pour qu’il démarre automatiquement au boot grâce à `systemd`, utilisé par la plupart des distributions Linux.
 
 :::tip
-Sur Ubuntu et Debian, Docker est configuré pour démarrer automatiquement au démarrage par défaut. Si vous utilisez ces distributions, vous n’avez rien d’autre à faire.
+Sur Ubuntu & Debian, Docker est déjà configuré pour démarrer automatiquement au boot par défaut. Si tu utilises ces distributions, tu n’as rien à faire.
 :::
 
-Vous pouvez activer le service Docker au démarrage avec les commandes suivantes.
+Pour activer Docker au démarrage, lance simplement ces commandes.
 ```
 sudo systemctl enable docker.service
 sudo systemctl enable containerd.service
 ```
 
-De même, pour désactiver le service au démarrage, remplacez `enable` par `disable`. Vous pouvez aussi gérer le service avec différentes sous-commandes `systemctl` comme suit.
+Pour désactiver le démarrage automatique, remplace `enable` par `disable`. Tu peux aussi gérer le service avec plusieurs sous-commandes `systemctl` comme celles-ci.
 ```
-sudo systemctl start [votre_service]
-sudo systemctl stop [votre_service]
-sudo systemctl restart [votre_service]
+sudo systemctl start [ton_service]
+sudo systemctl stop [ton_service]
+sudo systemctl restart [ton_service]
 ```
 
 ## Conclusion
 
-Félicitations, vous avez installé et configuré Docker avec succès sur votre serveur Linux ! Si vous avez d’autres questions ou problèmes, n’hésitez pas à contacter notre équipe support, disponible tous les jours pour vous aider !
+Bravo, tu as installé et configuré Docker avec succès sur ton serveur Linux ! Si tu as d’autres questions ou soucis, contacte notre support, dispo tous les jours pour t’aider !

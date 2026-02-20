@@ -1,6 +1,6 @@
 ---
 id: dedicated-linux-git
-title: "Setup Git on Linux"
+title: "Setup Git on a Linux Server - Enable Version Control for Your Projects"
 description: "Discover how to set up and configure Git for efficient version control and seamless collaboration in your projects → Learn more now"
 sidebar_label: Install Git
 services:

@@ -1,10 +1,11 @@
 ---
 id: vserver-windows-joplin
-title: "VPS: Installera Joplin på Windows"
-description: "Upptäck hur du organiserar och synkar krypterade Markdown-anteckningar över flera enheter med Joplin för säker och flexibel anteckning → Lär dig mer nu"
+title: "Installera Joplin Server på en Windows Server - Hosta Din Egen Säkra Anteckningsplattform"
+description: "Upptäck hur du organiserar och synkar krypterade Markdown-anteckningar över enheter med Joplin för säker och flexibel anteckning → Lär dig mer nu"
 sidebar_label: Installera Joplin
 services:
-- vserver
+  - vserver
+  - dedicated
 ---
 
 import Tabs from '@theme/Tabs';
@@ -13,11 +14,11 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introduktion
 
-Joplin är en öppen källkods-app för anteckningar och att-göra-listor som låter dig organisera Markdown-baserade anteckningar i sökbara anteckningsböcker och synka dem över flera enheter. Den erbjuder end-to-end-kryptering, en web clipper och plattformsoberoende synkronisering. Perfekt för dig som värdesätter integritet, flexibilitet och full kontroll över dina data!
+Joplin är en open-source app för anteckningar och att-göra-listor som låter dig organisera Markdown-baserade anteckningar i sökbara anteckningsböcker och synka dem över flera enheter. Den erbjuder end-to-end-kryptering, en web clipper och plattformsoberoende synkronisering. Perfekt för dig som värdesätter integritet, flexibilitet och full kontroll över dina data!
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/bqFberi2tRqobRn/preview)
 
-Fundera på att hosta tjänsten själv? Vi guidar dig steg för steg genom installation och konfiguration, plus allt du behöver ha koll på.
+Fundera på att hosta den här tjänsten själv? Vi guidar dig steg för steg genom installation och konfiguration, plus allt du behöver ha koll på.
 
 
 
@@ -29,7 +30,7 @@ Fundera på att hosta tjänsten själv? Vi guidar dig steg för steg genom insta
 
 Innan du installerar **Joplin**, se till att din hostingmiljö uppfyller följande krav för en smidig installation och optimal prestanda.
 
-| Hårdvara | Minimum | ZAP-Hostings Rekommendation |
+| Hårdvara | Minimum | ZAP-Hosting Rekommendation |
 | ---------- | ------------ | -------------------------- |
 | CPU | 1 vCPU-kärna | 4 vCPU-kärnor |
 | RAM | 2 GB | 4 GB |
@@ -39,7 +40,7 @@ Innan du installerar **Joplin**, se till att din hostingmiljö uppfyller följan
 
 
 ## Installation
-Nu när alla krav är uppfyllda och förberedelserna klara kan du gå vidare med installationen av Joplin. Ladda ner appen från den officiella sidan: https://joplinapp.org/download/
+Nu när alla krav är uppfyllda och förberedelserna klara kan du köra igång med installationen av Joplin-appen. Ladda ner applikationen från den officiella sidan: https://joplinapp.org/download/
 
 Kör Joplin Setup och följ stegen som visas.
 
@@ -52,21 +53,21 @@ Kör Joplin Setup och följ stegen som visas.
 Efter installationen bör du ställa in grundläggande inställningar för att anpassa appen efter ditt arbetsflöde. Konfigurationen hittar du i *Inställningar*-menyn.
 
 **Synkronisering**  
-Joplin stödjer flera synkroniseringsmål som Nextcloud, Dropbox, OneDrive eller WebDAV. Välj din favorit under “Synkronisering” och fyll i dina inloggningsuppgifter. Då håller du dina anteckningar uppdaterade på alla enheter.
+Joplin stödjer flera synkroniseringsmål som Nextcloud, Dropbox, OneDrive eller WebDAV. Välj din favoritleverantör under ”Synkronisering” och fyll i dina inloggningsuppgifter. Då håller du dina anteckningar uppdaterade på alla enheter.
 
 **Kryptering**  
-För att skydda dina synkade anteckningar, aktivera end-to-end-kryptering under “Kryptering”. En nyckel genereras som måste sättas upp på alla enheter som ska komma åt dina anteckningar.
+För att säkra dina synkade anteckningar, aktivera end-to-end-kryptering under ”Kryptering”. En nyckel genereras som måste konfigureras på alla enheter som ska komma åt anteckningarna.
 
 **Editor & Utseende**  
-Joplin använder Markdown för anteckningar. Under “Editor” kan du välja om förhandsvisning ska visas automatiskt och justera typsnitt och storlek.
+Joplin använder Markdown för anteckningar. Under ”Editor” kan du ställa in om förhandsgranskningen ska visas automatiskt och justera typsnitt och storlek.
 
 **Plugins & Tillägg**  
-Den inbyggda pluginhanteraren låter dig installera extra funktioner, som diagramstöd, kalenderintegration eller avancerad tagghantering.
+Den inbyggda plugin-managern låter dig installera extra funktioner, som diagramstöd, kalenderintegration eller avancerad tagghantering.
 
 **Web Clipper**  
-Vill du kan du aktivera “Joplin Web Clipper” som webbläsartillägg för att spara hela webbsidor eller val direkt som anteckningar.
+Vill du kan du aktivera ”Joplin Web Clipper” som webbläsartillägg för att spara hela webbsidor eller val direkt som anteckningar.
 
-Med dessa grundinställningar är Joplin redo att användas i allt från uppgiftshantering och projekt-dokumentation till personliga kunskapsbaser.
+Med de här grundinställningarna är Joplin redo att användas i allt från uppgiftshantering och projektdokumentation till personliga kunskapsbaser.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/G7gMLyzgyTEjoNf/preview)
 
@@ -75,7 +76,7 @@ Med dessa grundinställningar är Joplin redo att användas i allt från uppgift
 
 ## Avslutning och fler resurser
 
-Grattis! Du har nu installerat och konfigurerat Joplin på din VPS. Vi rekommenderar också att du kikar på följande resurser som kan ge dig extra hjälp och tips under din serverkonfiguration.
+Grattis! Du har nu framgångsrikt installerat och konfigurerat Joplin på din VPS/Dedikerade Server. Vi rekommenderar också att du kikar på följande resurser som kan ge dig extra hjälp och tips under din serverkonfiguration.
 
 - [Joplinapp.org](https://joplin.org/) - Officiell webbplats  
 - [Joplinapp.org/help/](https://joplinapp.org/help/) - Joplins hjälpsida

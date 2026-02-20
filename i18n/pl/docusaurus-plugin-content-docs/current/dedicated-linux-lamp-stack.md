@@ -1,7 +1,7 @@
 ---
 id: dedicated-linux-lamp-stack
-title: "Serwer dedykowany: Konfiguracja stosu LAMP - Linux, Apache, MySQL, PHP"
-description: "Dowiedz się, jak efektywnie skonfigurować stos LAMP do hostingu dynamicznych stron PHP na serwerach Linux → Sprawdź teraz"
+title: "Konfiguracja stosu LAMP na serwerze Linux - Wydaj klasyczne aplikacje PHP"
+description: "Dowiedz się, jak efektywnie skonfigurować stos LAMP do hostowania dynamicznych stron PHP na serwerach Linux → Sprawdź teraz"
 sidebar_label: Stos Web LAMP
 services:
   - dedicated
@@ -13,13 +13,13 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Wprowadzenie
 
-**LAMP** to popularny zestaw oprogramowania open-source, który jest instalowany razem, aby umożliwić prosty hosting dynamicznych stron internetowych, ze szczególnym naciskiem na strony i aplikacje PHP. Akronim oznacza: **L**inux jako system operacyjny, **A**pache jako serwer WWW, **M**ySQL jako bazę danych oraz na końcu **P**HP do przetwarzania. W tym poradniku omówimy proces konfiguracji stosu LAMP na Linuxowym serwerze dedykowanym, wraz ze szczegółowym przykładem tworzenia strony z listą zadań do zrobienia.
+**LAMP** to popularny zestaw open-source’owego oprogramowania, które jest instalowane razem, aby umożliwić proste hostowanie dynamicznych stron internetowych, ze szczególnym naciskiem na strony i aplikacje PHP. Akronim oznacza: **L**inux jako system operacyjny, **A**pache jako serwer www, **M**ySQL jako bazę danych oraz na końcu **P**HP do przetwarzania. W tym poradniku omówimy proces konfiguracji stosu LAMP na serwerze dedykowanym Linux, wraz ze szczegółowym przykładem tworzenia strony z listą zadań do wykonania.
 
 ## Przygotowanie
 
-Zacznij od połączenia się z serwerem przez SSH. Jeśli nie wiesz jak to zrobić, zerknij na nasz [Poradnik: Pierwszy dostęp (SSH)](vserver-linux-ssh.md).
+Zacznij od połączenia się z serwerem przez SSH. Jeśli nie wiesz, jak to zrobić, zerknij na nasz [poradnik Początkowy dostęp (SSH)](vserver-linux-ssh.md).
 
-W tym poradniku używamy Ubuntu jako dystrybucji Linuxa. Instrukcje są takie same dla Debiana i podobne dla innych dystrybucji, choć składnia poleceń może się nieco różnić. Upewnij się, że masz zainstalowany system operacyjny i jesteś połączony z serwerem przez SSH.
+W tym poradniku używamy Ubuntu jako dystrybucji Linux. Instrukcje są takie same dla Debiana i podobne dla innych dystrybucji, choć składnia poleceń może się nieco różnić. Upewnij się, że masz zainstalowany system operacyjny i jesteś połączony z serwerem przez SSH.
 
 Jak zawsze, przed instalacją upewnij się, że wszystkie pakiety są aktualne, wykonując poniższe polecenie:
 ```
@@ -38,22 +38,22 @@ sudo dnf upgrade --refresh
 
 ## Instalacja
 
-Instalację można łatwo podzielić na poszczególne kluczowe komponenty stosu LAMP, zaczynając od serwera Apache, następnie bazy danych MySQL, a na końcu PHP. Podczas instalacji skonfigurujemy testową stronę napisaną w PHP, która będzie korzystać z bazy MySQL. Każde żądanie WWW będzie przetwarzane i serwowane przez serwer Apache.
+Instalację można łatwo podzielić na poszczególne kluczowe elementy stosu LAMP, zaczynając od serwera www Apache, następnie bazy danych MySQL, a na końcu PHP. Podczas instalacji stworzymy testową stronę napisaną w PHP, która będzie korzystać z bazy MySQL. Każde żądanie www będzie przetwarzane i serwowane przez Apache.
 
 ### Konfiguracja Apache
 
-Apache to serwer WWW, który będzie obsługiwał przychodzące żądania i wysyłał odpowiedzi. Zainstaluj go poleceniem:
+Apache to serwer www, który będzie obsługiwał przychodzące żądania i wysyłał odpowiedzi. Zainstaluj go poleceniem:
 ```
 sudo apt install apache2
 ```
 
-Po instalacji upewnij się, że odpowiednie reguły zapory sieciowej są ustawione, aby serwer WWW był dostępny z internetu. W tym przykładzie użyjemy **zapory UFW**, ponieważ Apache ma zarejestrowaną aplikację dla niej.
+Po instalacji upewnij się, że odpowiednie reguły zapory sieciowej są ustawione, aby serwer www był dostępny z internetu. W tym przykładzie użyjemy **zapory UFW**, ponieważ Apache ma zarejestrowaną aplikację dla niej.
 
-Jeśli korzystasz z innej zapory, upewnij się, że port 80 (HTTP) jest dozwolony. Więcej o zaporach w Linuxie znajdziesz w naszym [Poradniku: Zarządzanie zaporą](vserver-linux-firewall.md).
+Jeśli korzystasz z innej zapory, upewnij się, że port 80 (HTTP) jest dozwolony. Więcej o zaporach w Linux znajdziesz w naszym [poradniku Zarządzanie zaporą](vserver-linux-firewall.md).
 
 Upewnij się, że zapora UFW jest włączona i że masz regułę dla SSH.
 ```
-# Utwórz regułę zezwalającą na SSH
+# Dodaj regułę dla SSH
 sudo ufw allow OpenSSH
 
 # Włącz zaporę UFW
@@ -61,12 +61,12 @@ sudo ufw enable
 ```
 
 :::caution
-Upewnij się, że masz regułę dla SSH, jeśli używasz zapory UFW! W przeciwnym razie **stracisz** możliwość połączenia się przez SSH, jeśli zerwie się obecna sesja!
+Upewnij się, że masz regułę dla SSH, jeśli używasz zapory UFW! W przeciwnym razie **stracisz** możliwość połączenia się przez SSH, jeśli sesja zostanie przerwana!
 :::
 
-Teraz utwórz regułę zezwalającą na Apache i sprawdź, czy reguły są aktywne.
+Teraz dodaj regułę dla Apache i sprawdź, czy reguły są aktywne.
 ```
-# Utwórz regułę dla Apache
+# Dodaj regułę dla Apache
 sudo ufw allow in "Apache Full"
 
 # Sprawdź reguły zapory UFW
@@ -74,14 +74,14 @@ sudo ufw status
 ```
 
 :::tip
-Możesz zobaczyć dostępne profile, uruchamiając `ufw app list`. W powyższym przykładzie `Apache Full` oznacza, że reguły dla HTTP (port 80) i HTTPS (port 443) są utworzone.
+Możesz zobaczyć dostępne profile, wpisując `ufw app list`. W przykładzie powyżej `Apache Full` oznacza, że reguły dla HTTP (port 80) i HTTPS (port 443) są dodane.
 :::
 
 Powinieneś zobaczyć reguły `Apache` i `Apache (v6)` z akcją `ALLOW`, co potwierdza, że zapora jest gotowa. Powinieneś też zobaczyć inne wcześniej ustawione reguły, w tym dla SSH.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/o8NDBppnTwHdSgf/preview)
 
-Po otwarciu zapory dla Apache, sprawdź, czy Apache działa poprawnie. Spróbuj wejść na swój adres IP w przeglądarce, np.: `http://[twoj_adres_ip]`
+Po otwarciu zapory dla Apache, sprawdź, czy Apache działa poprawnie. W przeglądarce wpisz adres IP serwera: `http://[twoj_adres_ip]`
 
 Jeśli działa, zobaczysz domyślną stronę powitalną. Jeśli nie, sprawdź status usługi poleceniem: `systemctl status apache2`
 
@@ -89,49 +89,47 @@ Jeśli działa, zobaczysz domyślną stronę powitalną. Jeśli nie, sprawdź st
 
 ### Konfiguracja MySQL
 
-Teraz zainstalujesz i skonfigurujesz serwer MySQL, który będzie bazą danych do trwałego przechowywania danych w relacyjny sposób. Zainstaluj go poleceniem:
+Teraz zainstalujesz i skonfigurujesz serwer MySQL, który będzie bazą danych do trwałego przechowywania danych w relacyjnej formie. Zainstaluj go poleceniem:
 ```
 sudo apt install mysql-server
 ```
 
-Po instalacji zalecamy uruchomienie skryptu zabezpieczającego, który zwiększy bezpieczeństwo Twojej instancji MySQL. To opcjonalne, ale bardzo polecane. Uruchom go poleceniem `sudo mysql_secure_installation`.
+Po instalacji zalecamy uruchomienie skryptu zabezpieczającego, który zwiększy bezpieczeństwo instancji MySQL. To opcjonalne, ale bardzo polecane. Uruchom go poleceniem `sudo mysql_secure_installation`.
 
-Przejdziesz przez interaktywną konfigurację. Najpierw zostaniesz zapytany o walidację haseł. Zalecamy wybrać `Y`, aby wymusić silne hasła, a następnie wybrać poziom `MEDIUM` (1) lub `STRONG` (2).
+Przejdziesz przez interaktywną konfigurację. Najpierw zostaniesz zapytany o walidację haseł. Zalecamy wybrać `Y`, aby wymusić silne hasła, a następnie poziom `MEDIUM` (1) lub `STRONG` (2).
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/YF6N3iPaDWD4sgX/preview)
 
-Następnie zostaniesz zapytany o usunięcie użytkownika `anonymous` i zablokowanie zdalnego logowania root. Oba pytania zdecydowanie zalecamy potwierdzić `Y` ze względów bezpieczeństwa. Dzięki temu testowy użytkownik zostanie usunięty, a konto root będzie dostępne tylko lokalnie przez SSH, co zmniejsza ryzyko.
+Następnie zostaniesz zapytany o usunięcie użytkownika `anonymous` i zablokowanie zdalnego logowania dla root. Dla bezpieczeństwa zdecydowanie zalecamy potwierdzić `Y`. Dzięki temu testowy użytkownik zostanie usunięty, a root będzie mógł logować się tylko lokalnie przez SSH, co zmniejsza ryzyko.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/ka6GKkojRPRycZB/preview)
 
-Na koniec zostaniesz zapytany o usunięcie bazy testowej i przeładowanie tabel uprawnień. Również zalecamy potwierdzić `Y`, ponieważ baza testowa nie jest potrzebna, a przeładowanie uprawnień jest konieczne, by zmiany zaczęły działać.
+Na koniec zostaniesz zapytany o usunięcie bazy testowej i przeładowanie tabel uprawnień. Również zalecamy potwierdzić `Y`, bo testowa baza nie jest potrzebna, a przeładowanie tabel jest konieczne, by zmiany zaczęły działać.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/42cYTkPaEfo3Jbq/preview)
 
-Sprawdź, czy MySQL działa, próbując się zalogować: `sudo mysql -u root`. Jeśli się uda, zobaczysz komunikat powitalny. Wyjdź poleceniem `quit`.
+Sprawdź, czy MySQL działa, próbując się zalogować: `sudo mysql -u root`. Jeśli się uda, zobaczysz powitalny komunikat. Wyjdź poleceniem `quit`.
 
 ### Konfiguracja PHP
 
-Ostatnim elementem stosu LAMP jest PHP i jego instalacja jest bardzo prosta. Poniższe polecenie zainstaluje PHP wraz z modułem dla Apache i MySQL, aby Apache mógł obsługiwać PHP, a PHP korzystać z MySQL.
+Ostatnim elementem stosu LAMP jest PHP i jego instalacja jest prosta. Poniższe polecenie zainstaluje PHP wraz z modułem dla Apache i MySQL, aby Apache mógł obsługiwać PHP, a PHP korzystać z MySQL.
 ```
 sudo apt install php libapache2-mod-php php-mysql
 ```
 
-Potwierdź, że instalacja się powiodła, sprawdzając wersję PHP. Jeśli zobaczysz wersję, PHP działa poprawnie.
+Sprawdź, czy instalacja się powiodła, wyświetlając wersję PHP. Jeśli zobaczysz wersję, PHP działa poprawnie.
 ```
 php -v
 ```
 
 :::tip Rozszerzenia PHP
-W zaawansowanych zastosowaniach możesz potrzebować dodatkowych rozszerzeń PHP, które dodają funkcjonalności. Możesz zobaczyć listę dostępnych rozszerzeń poleceniem `apt search php- | less`.
+W bardziej zaawansowanych zastosowaniach możesz potrzebować dodatkowych rozszerzeń PHP, które dodadzą funkcjonalności. Możesz zobaczyć listę dostępnych rozszerzeń poleceniem `apt search php- | less`.
 
-Użyj strzałek, aby przewijać i naciśnij `Q`, aby wyjść. Aby zainstalować rozszerzenie, użyj polecenia apt install, np.:
+Przewijaj strzałkami i wyjdź klawiszem `Q`. Aby zainstalować rozszerzenie, użyj polecenia apt install, podając nazwy rozszerzeń oddzielone spacją, aby przyspieszyć instalację.
 
 ```
 sudo apt install [php_extension] [...]
 ```
-
-Możesz podać kilka rozszerzeń naraz, oddzielając je spacją, aby przyspieszyć instalację.
 :::
 
 Zalecamy zmodyfikować indeks katalogu, aby pliki `index.php` miały pierwszeństwo przed domyślnymi `.html`. Otwórz plik:
@@ -144,18 +142,18 @@ W edytorze nano usuń `index.php` i przenieś go na początek listy, tak aby wyg
 DirectoryIndex index.php index.html index.cgi index.pl index.xhtml index.htm
 ```
 
-Zapisz plik i wyjdź z nano używając `CTRL + X`, potem `Y`, a na końcu `ENTER`. Teraz zrestartuj Apache, aby zmiany zaczęły działać:
+Zapisz plik i wyjdź z nano używając `CTRL + X`, potem `Y` i `ENTER`. Teraz zrestartuj Apache, aby zmiany zaczęły działać:
 ```
 sudo systemctl restart apache2
 ```
 
 ### Tworzenie testowej strony
 
-Po zainstalowaniu wszystkich komponentów LAMP, stworzymy testową stronę, aby pokazać, jak stos LAMP działa razem, tworząc świetne rozwiązanie dla dynamicznych stron. To opcjonalne, ale warto zobaczyć, jak wykorzystać te narzędzia do własnych projektów.
+Po zainstalowaniu wszystkich elementów stosu LAMP, stworzymy testową stronę, która pokaże, jak LAMP działa razem, tworząc świetne rozwiązanie dla dynamicznych stron. To opcjonalne, ale warto zobaczyć, jak wykorzystać te narzędzia do własnych projektów.
 
-W tym przykładzie stworzymy prostą stronę listy zadań do zrobienia w PHP, która pobierze i wyświetli wpisy z bazy MySQL. Strona będzie serwowana przez Apache.
+W tym przykładzie stworzymy prostą stronę listy zadań w PHP, która pobiera i wyświetla wpisy z bazy MySQL. Strona będzie serwowana przez Apache.
 
-Będziemy korzystać z testowej domeny `zapdocs.example.com`, bo w realnym świecie prawdopodobnie użyjesz domeny. **Musisz** ustawić rekord DNS typu `A` dla domeny wskazujący na adres IP Twojego serwera. Jeśli potrzebujesz pomocy, sprawdź nasz [Poradnik: Rekordy domeny](domain-records.md).
+Użyjemy testowej domeny `zapdocs.example.com`, bo w realnym świecie prawdopodobnie będziesz korzystać z domeny. **Musisz** ustawić rekord DNS typu `A` dla domeny wskazujący na adres IP twojego serwera. Jeśli potrzebujesz pomocy, sprawdź nasz [poradnik Rekordy domen](domain-records.md).
 
 :::note
 Możesz też nie używać domeny i zastąpić `[your_domain]` zwykłą nazwą. Wtedy stronę otworzysz przez adres IP. Pamiętaj jednak, że przy tworzeniu pliku wirtualnego hosta później powinieneś usunąć parametr `ServerName`.
@@ -163,7 +161,7 @@ Możesz też nie używać domeny i zastąpić `[your_domain]` zwykłą nazwą. W
 
 #### Konfiguracja Apache
 
-Zazwyczaj na serwerach WWW wszystkie pliki i dane stron są przechowywane w katalogu `/var/www`. Domyślnie Apache ma katalog `html` z domyślną stroną. Aby mieć porządek, zwłaszcza gdy hostujesz wiele stron na jednym Apache, polecamy tworzyć osobne katalogi dla każdej strony.
+Zazwyczaj na serwerach www wszystkie pliki stron i dane są przechowywane w katalogu `/var/www`. Domyślnie Apache ma katalog `html` z domyślną stroną. Aby mieć porządek, zwłaszcza przy wielu stronach na jednym Apache, polecamy tworzyć osobne katalogi dla każdej strony.
 
 Stwórz nowy folder w `/var/www/[your_domain]` dla swojej strony. W tym przykładzie będzie to `/var/www/zapdocs.example.com`.
 ```
@@ -187,21 +185,21 @@ Skopiuj poniższy szablon do edytora nano, zamieniając `[your_domain]` na swoj�
 </VirtualHost>
 ```
 
-Ten plik obsługuje żądania na porcie 80 (HTTP) i sprawdza, czy żądanie pasuje do `ServerName` (Twojej domeny). Wskazuje też, że pliki mają być serwowane z katalogu `/var/www/[your_domain]`.
+Ten plik obsługuje żądania na porcie 80 (HTTP) i sprawdza, czy żądanie pasuje do `ServerName`, czyli twojej domeny. Wskazuje też, że pliki mają być serwowane z katalogu `/var/www/[your_domain]`.
 
-Zapisz plik i wyjdź z nano (`CTRL + X`, potem `Y`, a na końcu `ENTER`). Zalecamy sprawdzić konfigurację poleceniem:
+Zapisz plik i wyjdź z nano (`CTRL + X`, potem `Y` i `ENTER`). Zalecamy sprawdzić konfigurację poleceniem:
 ```
 sudo apache2ctl configtest
 ```
 aby upewnić się, że nie ma błędów składni.
 
-Na koniec włącz nowy wirtualny host:
+Na koniec włącz nowy wirtualny host poleceniem:
 ```
 sudo a2ensite [your_domain]
 ```
 
 :::note Brak domeny
-Jeśli **nie** używasz domeny, usuń lub zakomentuj linię `ServerName` (dodając `#` na początku). Musisz też wyłączyć domyślny wirtualny host:
+Jeśli **nie** używasz domeny, usuń lub zakomentuj linię `ServerName` (dodając `#` na początku). Musisz też wyłączyć domyślny wirtualny host poleceniem:
 ```
 sudo a2dissite 000-default
 ```
@@ -214,18 +212,18 @@ sudo systemctl restart apache2
 
 #### Tworzenie strony
 
-Po skonfigurowaniu Apache i katalogu dokumentów, czas stworzyć faktyczną stronę, która będzie serwowana. Na razie katalog jest pusty, więc nic się nie wyświetli. Stworzymy prostą stronę listy zadań do zrobienia.
+Po skonfigurowaniu Apache i katalogu dokumentów, czas stworzyć faktyczną stronę, która będzie serwowana. Na razie katalog jest pusty, więc nic się nie wyświetli. Stworzymy prostą listę zadań dla tej domeny.
 
 ##### Przygotowanie bazy danych
 
-Zaloguj się do MySQL:
+Najpierw stwórz bazę danych i tabelę na listę zadań. Zaloguj się do MySQL:
 ```
 sudo mysql -u root
 ```
 
-Stwórz nową bazę `todowebsite` i tabelę `todoitems`:
+Stwórz bazę `todowebsite` i tabelę `todoitems`:
 ```
-# Utwórz bazę danych
+# Stwórz bazę danych
 CREATE DATABASE todowebsite;
 
 # Użyj nowej bazy
@@ -248,9 +246,9 @@ INSERT INTO todoitems (name, is_completed) VALUES ('Join ZAP-Hosting Discord', 0
 INSERT INTO todoitems (name, is_completed) VALUES ('Have a great day!', 0);
 ```
 
-Stwórz dedykowanego użytkownika `todo` dla tej strony:
+Na koniec stwórz dedykowanego użytkownika `todo` dla tej strony:
 ```
-# Utwórz użytkownika
+# Stwórz użytkownika
 # Zamień [your_password] na swoje hasło
 CREATE USER todo@localhost IDENTIFIED BY '[your_password]';
 
@@ -267,12 +265,12 @@ Wyjdź z MySQL poleceniem `quit`.
 
 ##### Pliki strony PHP
 
-Ostatni krok to stworzenie pliku PHP strony listy zadań. Będzie to plik `index.php` w katalogu `/var/www/[your_domain]`. Otwórz go w nano:
+Ostatnim krokiem jest stworzenie pliku PHP strony listy zadań. Będzie to plik `index.php` w katalogu `/var/www/[your_domain]`. Otwórz go w nano:
 ```
 sudo nano /var/www/[your_domain]/index.php
 ```
 
-Poniżej masz prosty kod PHP, który łączy się z bazą MySQL i wyświetla listę zadań. Pierwsza część PHP tworzy połączenie z bazą.
+Poniżej znajdziesz prosty kod PHP, który łączy się z bazą MySQL i wyświetla listę zadań. Pierwsza część PHP tworzy połączenie z bazą.
 
 :::important
 Pamiętaj, aby zmienić `[your_password]` na hasło użytkownika `todo`, które ustawiłeś wcześniej.
@@ -347,18 +345,18 @@ $conn->close();
 ?>
 ```
 
-Po wklejeniu kodu do nano, zapisz plik i wyjdź (`CTRL + X`, potem `Y`, a na końcu `ENTER`).
+Po wklejeniu kodu do nano, zapisz plik i wyjdź (`CTRL + X`, potem `Y` i `ENTER`).
 
 #### Testowanie strony
 
-Gratulacje! Udało Ci się skonfigurować testową stronę listy zadań, która wykorzystuje wszystkie elementy stosu LAMP!
+Gratulacje! Udało Ci się stworzyć testową stronę listy zadań, która wykorzystuje cały stos LAMP!
 
-Teraz powinieneś móc wejść na stronę przez domenę (na porcie 80, HTTP), którą ustawiłeś w pliku wirtualnego hosta, czyli w tym przykładzie `zapdocs.example.com`. Efekt końcowy powinien wyglądać mniej więcej tak:
+Teraz powinieneś móc otworzyć stronę przez domenę (na porcie 80/http), którą ustawiłeś w pliku wirtualnego hosta, czyli w tym przykładzie `zapdocs.example.com`. Efekt końcowy powinien wyglądać tak:
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/NgK2n8xN3wZPLeP/preview)
 
 ## Podsumowanie
 
-Gratulacje, pomyślnie zainstalowałeś i skonfigurowałeś stos LAMP! Kolejnym krokiem **gorąco polecamy** ustawienie domeny i **certyfikatu SSL**, aby dane były przesyłane bezpiecznie do Twoich stron. Sprawdź nasz [Poradnik Certbot](dedicated-linux-certbot.md) z naciskiem na **wtyczkę Apache** i przejdź przez interaktywną konfigurację, aby szybko i łatwo ustawić certyfikat dla swojej domeny.
+Gratulacje, pomyślnie zainstalowałeś i skonfigurowałeś stos LAMP! Następnym krokiem **gorąco polecamy** ustawienie domeny i **certyfikatu SSL**, aby dane były przesyłane bezpiecznie do Twoich stron. Sprawdź nasz [poradnik Certbot](dedicated-linux-certbot.md) z naciskiem na **wtyczkę Apache** i przejdź przez interaktywną konfigurację, aby szybko i łatwo ustawić certyfikat dla wybranej domeny.
 
 W razie pytań lub potrzeby pomocy, śmiało kontaktuj się z naszym supportem, który jest dostępny codziennie, by Ci pomóc! 🙂

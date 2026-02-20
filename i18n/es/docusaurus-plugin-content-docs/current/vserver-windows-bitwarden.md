@@ -1,10 +1,11 @@
 ---
 id: vserver-windows-bitwarden
-title: "VPS: Configura Bitwarden en Windows"
-description: "Descubre cómo alojar de forma segura Bitwarden para gestionar contraseñas con cifrado de extremo a extremo y funciones avanzadas de credenciales → Aprende más ahora"
+title: "Configura Bitwarden en un Servidor Windows - Protege tu Gestión de Contraseñas"
+description: "Descubre cómo alojar Bitwarden de forma segura para gestionar contraseñas con cifrado de extremo a extremo y funciones avanzadas de credenciales → Aprende más ahora"
 sidebar_label: Instalar Bitwarden
 services:
   - vserver
+  - dedicated
 ---
 
 import Tabs from '@theme/Tabs';
@@ -49,12 +50,12 @@ Antes de configurar **Bitwarden**, necesitas preparar tu sistema. Esto incluye a
 
 
 ### Actualizar sistema
-Para asegurarte de que tu sistema funciona con el software y las mejoras de seguridad más recientes, siempre debes realizar primero las actualizaciones del sistema. Esto garantiza que tu sistema tenga los últimos parches de seguridad y versiones de software antes de continuar.
+Para asegurarte de que tu sistema funciona con las mejoras de software y seguridad más recientes, siempre debes realizar primero las actualizaciones del sistema. Esto garantiza que tu sistema tenga los últimos parches de seguridad y versiones de software antes de continuar.
 
 ### Instalar dependencias
 Una vez completado el proceso de actualización, puedes proceder con la instalación de las dependencias. Bitwarden se desplegará y ejecutará en tu máquina usando varios contenedores Docker. Por eso, primero debes instalar Docker. Para ello, instala [Docker Desktop](https://docs.docker.com/desktop/setup/install/windows-install/) en tu servidor.
 
-Una guía completa del proceso de instalación y uso de Docker está disponible en nuestra [guía de Docker](vserver-windows-docker.md).
+Un tutorial completo del proceso de instalación y cómo usar Docker está disponible en nuestra [guía Docker](vserver-windows-docker.md).
 
 
 
@@ -69,7 +70,7 @@ PS C:\> $Password = Read-Host -AsSecureString
 New-LocalUser "Bitwarden" -Password $Password -Description "Bitwarden Local Admin"
 ```
 
-Después crea una carpeta Bitwarden en `C:\` para el usuario recién creado:
+Después crea una carpeta Bitwarden bajo `C:\` para el usuario recién creado:
 
 ```
 PS C:\> mkdir Bitwarden
@@ -81,13 +82,13 @@ En Docker Desktop, ve a **Settings → Resources → File Sharing**. Añade el d
 
 ### Configura tu dominio
 
-Por defecto, Bitwarden corre en el host a través de los puertos 80 (HTTP) y 443 (HTTPS). Configura un dominio con registros DNS apuntando al host, por ejemplo server.ejemplo.com, especialmente si lo vas a servir en internet. Evita incluir “Bitwarden” en el nombre de host para reducir la exposición del rol o software del servidor.
+Por defecto, Bitwarden corre en el host a través de los puertos 80 (HTTP) y 443 (HTTPS). Configura un dominio con registros DNS apuntando al host, por ejemplo server.ejemplo.com, especialmente si lo vas a servir en internet. Evita incluir Bitwarden en el nombre de host para reducir la exposición del rol o software del servidor.
 
 
 
 
 ## Instalación
-Ahora que se cumplen todos los requisitos y has hecho las preparaciones necesarias, puedes proceder con la instalación de la aplicación Bitwarden.
+Ahora que se han cumplido todos los requisitos y completado las preparaciones necesarias, puedes proceder con la instalación de la aplicación Bitwarden.
 
 Descarga el script de instalación de Bitwarden a tu máquina y luego ejecuta el script instalador:
 
@@ -121,19 +122,19 @@ adminSettings__admins=
 ...
 ```
 
-Valida la configuración SMTP. Una configuración correcta mostrará éxito; de lo contrario verás mensajes sobre falta de OpenSSL o valores incorrectos. Aplica los cambios con `.\bitwarden.ps1 -start`.
+Valida la configuración SMTP. Una configuración correcta reporta éxito; de lo contrario verás mensajes sobre falta de OpenSSL o valores incorrectos. Aplica los cambios con `.\bitwarden.ps1 -start`.
 
-Una configuración correcta mostrará éxito; de lo contrario verás mensajes sobre falta de OpenSSL o valores incorrectos. Aplica los cambios con `.\bitwarden.ps1 -restart`.
+Una configuración correcta reporta éxito; de lo contrario verás mensajes sobre falta de OpenSSL o valores incorrectos. Aplica los cambios con `.\bitwarden.ps1 -restart`.
 
-Luego revisa los parámetros de instalación en `.\bwdata\config.yml`. Este archivo controla los recursos generados y debe ajustarse para entornos especiales, por ejemplo si usas un proxy o puertos alternativos. Aplica estos cambios con `.\bitwarden.ps1 -rebuild`.
+Luego revisa los parámetros de instalación en `.\bwdata\config.yml`. Este archivo controla los recursos generados y debe ajustarse para entornos especiales, por ejemplo si usas un proxy o puertos alternativos. Aplica esos cambios con `.\bitwarden.ps1 -rebuild`.
 
 Finalmente inicia la instancia con `.\bitwarden.ps1 -start`. La primera ejecución puede tardar mientras Docker descarga las imágenes. Usa `docker ps` para confirmar que todos los contenedores están saludables. Luego abre la bóveda web en tu dominio configurado y registra una cuenta si es necesario. La verificación por correo requiere variables SMTP configuradas correctamente.
 
 ## Conclusión y más recursos
 
-¡Felicidades! Ya has instalado y configurado Bitwarden con éxito en tu VPS. También te recomendamos echar un vistazo a los siguientes recursos, que pueden ofrecerte ayuda y guía adicional durante la configuración de tu servidor:
+¡Felicidades! Ahora has instalado y configurado con éxito Bitwarden en tu VPS/servidor dedicado. También te recomendamos echar un vistazo a los siguientes recursos, que pueden ofrecerte ayuda y guía adicional durante la configuración de tu servidor:
 
 - [bitwarden.com](https://bitwarden.com/) - Sitio oficial
 - https://bitwarden.com/help/ - Centro de ayuda Bitwarden (Documentación)
 
-¿Tienes preguntas específicas que no se cubren aquí? Para más dudas o asistencia, no dudes en contactar a nuestro equipo de soporte, ¡disponible todos los días para ayudarte! 🙂
+¿Tienes preguntas específicas que no se cubren aquí? Para más dudas o asistencia, no dudes en contactar con nuestro equipo de soporte, ¡disponible todos los días para ayudarte! 🙂

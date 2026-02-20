@@ -1,6 +1,6 @@
 ---
 id: dedicated-linux-ssl
-title: "Dedicated Server: Create SSL certificate (Let's Encrypt) for Linux server"
+title: "Setup Let's Encrypt SSL on a Linux Server - Secure Your Dedicated Server with HTTPS"
 description: "Discover how to secure your website with free SSL certificates using Certbot and Let's Encrypt for safe data transmission → Learn more now"
 sidebar_label: Install SSL Certificate (Let's Encrypt)
 services:

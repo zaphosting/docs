@@ -1,10 +1,11 @@
 ---
 id: vserver-windows-speedtest-cli
-title: "VPS: Configura Speedtest CLI en Windows"
-description: "Descubre cómo gestionar código fuente y colaborar eficientemente usando Speedtest CLI para un control de versiones sin complicaciones en el desarrollo moderno → Aprende más ahora"
+title: "Configura Speedtest CLI en un Servidor Windows - Monitorea el Rendimiento de tu Red"
+description: "Descubre cómo gestionar código fuente de forma eficiente y colaborar usando Speedtest CLI para un control de versiones sin complicaciones en el desarrollo moderno → Aprende más ahora"
 sidebar_label: Instalar Speedtest CLI
 services:
   - vserver
+  - dedicated
 ---
 
 import Tabs from '@theme/Tabs';
@@ -13,7 +14,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introducción
 
-Speedtest CLI es un sistema de control de versiones distribuido diseñado para una gestión eficiente del código fuente. Permite a los desarrolladores rastrear cambios, trabajar en diferentes ramas simultáneamente y colaborar en proyectos sin problemas. Gracias a su flexibilidad y rendimiento, Speedtest CLI se ha convertido en la herramienta estándar para el control de versiones en el desarrollo de software moderno.
+Speedtest CLI es un sistema de control de versiones distribuido diseñado para una gestión eficiente del código fuente. Permite a los desarrolladores seguir cambios, trabajar en diferentes ramas simultáneamente y colaborar en proyectos sin problemas. Gracias a su flexibilidad y rendimiento, Speedtest CLI se ha convertido en la herramienta estándar para el control de versiones en el desarrollo de software moderno.
 
 ¿Estás pensando en alojar este servicio por tu cuenta? Te guiaremos paso a paso sobre cómo configurarlo y ajustarlo, junto con todo lo que debes tener en cuenta.
 
@@ -27,7 +28,7 @@ Antes de configurar **Speedtest CLI**, necesitas preparar tu sistema. Esto inclu
 
 
 ### Actualizar Sistema
-Para asegurarte de que tu sistema funcione con el software y las mejoras de seguridad más recientes, siempre debes realizar primero las actualizaciones del sistema. Esto garantiza que tu sistema tenga los últimos parches de seguridad y versiones de software antes de continuar.
+Para asegurarte de que tu sistema esté funcionando con las mejoras más recientes en software y seguridad, siempre debes realizar primero las actualizaciones del sistema. Esto garantiza que tu sistema tenga los últimos parches de seguridad y versiones de software antes de continuar.
 
 
 
@@ -46,8 +47,8 @@ Luego, ejecuta el instalador del archivo descargado y sigue los pasos que se mue
 speedtest-cli no depende de un archivo de configuración tradicional, pero puede personalizarse usando opciones de línea de comandos y variables de entorno. Esto te permite adaptarlo para un uso consistente y automatizado:
 
 - `--server <ID>`: Selecciona un servidor específico por su ID para obtener resultados de prueba más consistentes y comparables.  
-- `--bytes`: Muestra las velocidades en bytes por segundo en lugar de bits.  
-- `--simple`: Muestra solo los valores de ping, descarga y subida en un formato compacto.  
+- `--bytes`: Muestra velocidades en bytes por segundo en lugar de bits.  
+- `--simple`: Muestra solo ping, descarga y subida en un formato compacto.  
 - `--json` o `--csv`: Útil para automatización y registro, ya que los resultados se almacenan en un formato legible por máquinas.  
 - Soporte para proxy: Configura variables de entorno como `http_proxy` o `https_proxy` para ejecutar speedtest-cli detrás de un proxy.  
 

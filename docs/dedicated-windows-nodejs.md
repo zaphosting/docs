@@ -1,6 +1,6 @@
 ---
 id: dedicated-windows-nodejs
-title: "Setup Node.js on Windows"
+title: "Setup Node.js on a Windows Server - Run Modern JavaScript Applications"
 description: "Discover how to set up Node.js for scalable, real-time applications using a streamlined environment → Learn more now"
 sidebar_label: Install Node.js
 services:

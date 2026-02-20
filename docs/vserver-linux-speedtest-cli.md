@@ -1,6 +1,6 @@
 ---
 id: vserver-linux-speedtest-cli
-title: "Setup Speedtest-Cli on Linux"
+title: "Setup Speedtest CLI on a Linux Server - Monitor Your Server Network Performance"
 description: "Discover how to set up and use Speedtest-Cli for reliable network testing and automation → Learn more now"
 sidebar_label: Install Speedtest-Cli
 services:

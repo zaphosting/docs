@@ -1,9 +1,10 @@
 ---
 id: dedicated-linux-databases
-title: "Dedikerad Server: Installation av Databaser"
-description: "Utforska hur du installerar och sätter upp olika databaser på Ubuntu och andra Linux-distros för bättre prestanda och säkerhet → Lär dig mer nu"
-sidebar_label: Installera Databaser
+title: "Sätt upp databaser på en Linux-server - Distribuera och hantera databastjänster"
+description: "Upptäck hur du installerar och konfigurerar olika databaser på Ubuntu och andra Linux-distros för bättre prestanda och säkerhet → Lär dig mer nu"
+sidebar_label: Installera databaser
 services:
+  - vserver
   - dedicated
 ---
 
@@ -11,11 +12,13 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introduktion
 
-Den här guiden visar steg för installation av olika typer av databaser. I exemplet används Ubuntu 20.04 som operativsystem, men motsvarande kommandon för andra Linux-distros som vi erbjuder på vår webbplats anges också. Dessa kommandon måste köras via SSH, om du inte vet hur du ansluter till din server via SSH, kika här: [Initial access (SSH)](vserver-linux-ssh.md).
+Den här guiden visar steg för installation av olika typer av databaser. I exemplet används Ubuntu 20.04 som operativsystem, men motsvarande kommandon för andra Linux-distros som vi erbjuder på vår webbplats anges också. Dessa kommandon måste köras via SSH, om du inte vet hur du ansluter till din server via SSH, kolla här: [Initial access (SSH)](vserver-linux-ssh.md).
+
+
 
 ## Förberedelser
 
-Innan du börjar installera en databas behöver du först se till att systemet är uppdaterat. Det gör du genom att uppdatera paketen via din systempakethanterare med följande kommando, beroende på ditt operativsystem:
+Innan du börjar installera en databas behöver du först se till att systemet är uppdaterat. Det gör du genom att uppdatera paketen från din systempakethanterare med följande kommando, beroende på ditt operativsystem:
 
 ```
 // Ubuntu & Debian
@@ -43,7 +46,7 @@ import TabItem from '@theme/TabItem';
 
 ## Vad är MariaDB?
 
-MariaDB är ett open-source relationsdatabashanteringssystem, ursprungligen en fork av MySQL. Det ger förbättrad prestanda, säkerhet och kontinuerlig utveckling. MariaDB erbjuder bland annat bättre lagringsmotorer och är fullt kompatibelt med MySQL. Vi rekommenderar MariaDB framför MySQL.
+MariaDB är ett open-source relationsdatabashanteringssystem, ursprungligen en fork av MySQL. Det erbjuder förbättrad prestanda, säkerhet och kontinuerlig utveckling. MariaDB har bland annat förbättrade lagringsmotorer och dess arkitektur är fullt kompatibel med MySQL. Vi rekommenderar MariaDB framför MySQL.
 
 ## Installation av MariaDB
 
@@ -59,7 +62,7 @@ Efter att ha installerat repo, uppdatera din pakethanterares cache enligt stegen
 MariaDB-repo-installationen (steget ovan) kan tryggt hoppas över på moderna operativsystem som Ubuntu 22.04 eller Debian 11.
 :::
 
-När repo-setup är klar kan installationen av MariaDB börja genom att installera paketet `mariadb-server`. Beroende på operativsystem kör du något av följande:
+När repo-setup är klar kan installationen av MariaDB påbörjas genom att installera paketet `mariadb-server`. Beroende på operativsystem kör du något av följande kommandon:
 
 ```
 // Ubuntu & Debian
@@ -75,7 +78,7 @@ sudo zypper install mariadb
 sudo dnf install mariadb-server
 ```
 
-## Konfigurering av MariaDB
+## Konfigurera MariaDB
 
 När installationen är klar, skriv in följande kommando för att starta serverkonfigurationen:
 
@@ -88,16 +91,16 @@ Nu kan du konfigurera din MariaDB (MySQL) server genom att följa instruktionern
 ![](https://screensaver01.zap-hosting.com/index.php/s/sYDegXcMZwCoZzJ/preview)
 
 :::info
-Användaren root är huvudanvändaren på din MariaDB (MySQL) server!
+Användaren root är huvudkontot för din MariaDB (MySQL) server!
 :::
 
-Du kommer sedan bli tillfrågad om du vill sätta ett lösenord för root-användaren, bekräfta med **y** för ja. Skriv sedan in det nya lösenordet för root.
+Du kommer nu bli tillfrågad om du vill sätta ett lösenord för root-användaren, bekräfta med **y** för ja. Därefter skriver du in det nya lösenordet för root.
 
 :::note
 När du skriver in lösenordet syns det inte, men det är helt normalt och lösenordet sparas ändå. Se till att använda ett säkert lösenord för root och förvara det på ett säkert ställe.
 :::
 
-Därefter frågas du om du vill ta bort anonyma användare från servern, detta bör du göra av säkerhetsskäl. Bekräfta med **y**:
+Nästa fråga är om du vill ta bort anonyma användare från servern, det bör du göra av säkerhetsskäl. Bekräfta med **y**:
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/9rnHy9dJmezjemq/preview)
 
@@ -122,7 +125,7 @@ Din MariaDB (MySQL) server är nu redo att användas!
 
 ## Vad är Redis?
 
-Redis är en in-memory datalagringsstruktur, främst använd för att lagra data i nyckel-värdeformat, men stöder även andra format som listor, JSON med mera. Det kännetecknas av sin hastighet och svarar på förfrågningar på millisekunder.
+Redis är en in-memory datalagringsstruktur, främst använd för att lagra data i nyckel-värde-format, men stöder även andra format som listor, JSON med mera. Det kännetecknas av sin hastighet och ger svar på förfrågningar inom millisekunder.
 
 ## Installation av Redis
 
@@ -146,7 +149,7 @@ Efter att ha installerat repo, uppdatera din pakethanterares cache enligt förbe
 Om ditt operativsystem inte finns med ovan kan du hoppa över detta steg.
 :::
 
-Efter att ha installerat rätt repo kan du installera Redis Server-paketet. Kör kommandot som passar ditt operativsystem:
+Efter att ha installerat rätt repo, fortsätt med installationen av Redis-serverpaketet. Kör kommandot som passar ditt operativsystem:
 
 ```
 // Ubuntu och Debian
@@ -166,7 +169,7 @@ Efter installationen är din Redis-server redo att användas! Som standard körs
 
 :::caution 
 För Debian/Ubuntu-användare:
-Kom ihåg att aktivera `redis-server`-tjänsten efter installationen så att den startar automatiskt vid serverstart. Det gör du med följande kommando:
+Kom ihåg att aktivera `redis-server`-tjänsten efter installationen för att säkerställa att den startar automatiskt vid serverstart. Det gör du med följande kommando:
 ```
 sudo systemctl enable --now redis-server
 ```
@@ -177,18 +180,18 @@ sudo systemctl enable --now redis-server
 <TabItem value="mongodb" label="MongoDB">
 
 ## Vad är MongoDB?
-MongoDB är en dokumentorienterad NoSQL-databas, designad för skalbarhet och utvecklarvänlighet. Den lagrar data i JSON-liknande BSON-format, vilket möjliggör lagring av olika datatyper. Den har stöd för index för att minska svarstider och kännetecknas av att inte ha ett fördefinierat schema som MySQL eller SQLite, vilket ger flexibilitet och snabbhet.
+MongoDB är en dokumentorienterad NoSQL-databas, designad för skalbarhet och utvecklarvänlighet. Den lagrar data i JSON-liknande BSON-format, vilket möjliggör lagring av olika datatyper. Den har stöd för indexering för att minska svarstider och kännetecknas av att inte ha ett fördefinierat schema som MySQL eller SQLite, vilket ger snabbhet och flexibilitet.
 
 ## Installation av MongoDB
 
-Välj ditt operativsystem i flikarna nedan för att visa rätt guide.
+Välj ditt operativsystem i flikarna nedan för att visa motsvarande guide.
 
 <Tabs>
 <TabItem value="mongodb-ubuntu-debian" label="Ubuntu & Debian">
 
 ### Installation på Ubuntu & Debian
 
-Börja med att importera MongoDB:s publika GPG-nyckel:
+Först ska du importera MongoDB:s publika GPG-nyckel med följande kommando:
 
 ```
 curl -fsSL https://pgp.mongodb.com/server-6.0.asc | \
@@ -196,26 +199,26 @@ curl -fsSL https://pgp.mongodb.com/server-6.0.asc | \
    --dearmor
 ```
 
-Därefter lägger du till MongoDB-källan i din systems källista. Kör följande kommando:
+Därefter behöver du lägga till MongoDB-källan till din systems källista. Det gör du med detta kommando:
 
 ```
 echo "deb [ arch=amd64,arm64 signed-by=/usr/share/keyrings/mongodb-server-6.0.gpg ] https://repo.mongodb.org/apt/$(lsb_release -si | awk '{print tolower($0)}') $(lsb_release -sc)/mongodb-org/6.0 main" | sudo tee /etc/apt/sources.list.d/mongodb-org-6.0.list
 ```
 
-Nu kan pakethanteraren installera MongoDB Community Edition, men först måste du uppdatera repositorierna med `sudo apt update`. Slutligen installerar du MongoDB med:
+Nu kan pakethanteraren installera MongoDB Community Edition, men först måste du uppdatera repositorierna med kommandot: `sudo apt update`. Slutligen installerar du MongoDB med:
 
 ```
 sudo apt install mongodb-org
 ```
 
-Din MongoDB-installation ska nu fungera!
+Din MongoDB-installation borde nu fungera!
 
 </TabItem>
 <TabItem value="mongodb-centos-fedora" label="CentOS & Fedora">
 
 ### Installation på CentOS & Fedora
 
-Först måste du sätta upp MongoDB-repot för Red Hat-system.
+Först behöver du sätta upp MongoDB-repot för Red Hat-system.
 
 Skapa en fil vid `/etc/yum.repos.d/mongodb-org-6.0.repo` och klistra in följande innehåll:
 
@@ -228,7 +231,7 @@ enabled=1
 gpgkey=https://www.mongodb.org/static/pgp/server-6.0.asc
 ```
 
-Nu kan du installera MongoDB. Installationskommandot skiljer sig lite mellan CentOS och Fedora, så använd rätt kommando nedan:
+Nu kan du installera MongoDB. Det finns en liten skillnad i installationskommandot mellan CentOS och Fedora, så använd rätt kommando nedan:
 
 ```
 // CentOS
@@ -238,20 +241,20 @@ sudo yum install -y mongodb-org
 sudo dnf install -y mongodb-org
 ```
 
-Din MongoDB-installation ska nu fungera, mycket enklare än på andra Linux-distros!
+Din MongoDB-installation borde nu fungera, det är mycket enklare jämfört med andra Linux-distros!
 
 </TabItem>
 <TabItem value="mongodb-suse" label="OpenSUSE">
 
 ### Installation på OpenSUSE
 
-Börja med att importera MongoDB:s publika nyckel för repo med:
+Först importerar du MongoDB:s publika nyckel för MongoDB-repot med kommandot:
 
 ```
 sudo rpm --import https://www.mongodb.org/static/pgp/server-6.0.asc
 ```
 
-Sedan lägger du till MongoDB-repot med:
+Därefter lägger du till MongoDB-repot med:
 
 ```
 sudo zypper addrepo --gpgcheck "https://repo.mongodb.org/zypper/suse/15/mongodb-org/6.0/x86_64/" mongodb
@@ -263,7 +266,7 @@ Slutligen installerar du senaste MongoDB-versionen med:
 sudo zypper -n install mongodb-org
 ```
 
-Din MongoDB-installation ska nu fungera!
+Din MongoDB-installation borde nu fungera!
 
 </TabItem>
 </Tabs>

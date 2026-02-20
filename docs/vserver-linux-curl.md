@@ -1,6 +1,6 @@
 ---
 id: vserver-linux-curl
-title: "Setup cURL on Linux"
+title: "Setup cURL on a Linux Server - Test and Automate HTTP Requests"
 description: "Discover how to set up and optimize cURL for efficient data transfers and API testing → Learn more now"
 sidebar_label: Install cURL
 services:

@@ -1,6 +1,6 @@
 ---
 id: dedicated-linux-plex
-title: "Setup Plex on Linux"
+title: "Setup Plex on a Linux Server - Stream Your Personal Media Library"
 description: "Discover how to manage and stream your personal media library seamlessly with Plex for easy access across devices → Learn more now"
 sidebar_label: Install Plex
 services:

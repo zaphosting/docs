@@ -1,17 +1,18 @@
 ---
 id: vserver-linux-python
-title: "VPS: Instalação do Python"
-description: "Aprenda como instalar e atualizar o runtime do Python em várias distribuições Linux para garantir um ambiente seguro e atualizado → Saiba mais agora"
+title: "Configurar Python em um Servidor Linux - Ative Desenvolvimento e Automação"
+description: "Aprenda como instalar e atualizar o runtime Python em várias distribuições Linux para garantir um ambiente seguro e atualizado → Saiba mais agora"
 sidebar_label: Instalar Python
 services:
   - vserver
+  - dedicated
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introdução
 
-Este guia traz os passos para a instalação do runtime do Python e do venv. Esses comandos devem ser executados via SSH, se você não sabe como conectar ao seu servidor via SSH, use nosso [Acesso Inicial (SSH)](vserver-linux-ssh.md) para aprender mais.
+Este guia traz os passos para a instalação do runtime Python e do venv. Esses comandos devem ser executados via SSH, se você não sabe como conectar ao seu servidor via SSH, use nosso [Acesso Inicial (SSH)](vserver-linux-ssh.md) para aprender mais.
 
 <InlineVoucher />
 
@@ -110,19 +111,19 @@ Agora que você tem o Python instalado no seu servidor, pode começar a rodar se
 
 ### Modo interpretador
 
-Rodar o comando `python3` vai iniciar o interpretador Python. Você pode começar a digitar qualquer código Python válido após o prefixo `>>>` e ele será executado ao pressionar `Enter`. Para sair do interpretador, rode `exit()` no console.
+Rodar o comando `python3` vai iniciar o interpretador Python. Você pode começar a escrever qualquer código Python válido após o prefixo `>>>` e ele será executado ao pressionar `Enter`. Para sair do interpretador, rode `exit()` no console.
 
 ### Rodando arquivos .py
 
 Para rodar arquivos Python `.py`, basta usar o comando `python3 [nome_do_arquivo].py`, substituindo `[nome_do_arquivo]` pelo caminho do arquivo que você quer executar.
 
 :::tip
-A maioria dos programas que você encontra online pode ser rodado com `python3 main.py`, pois `main.py` é o ponto de partida comum da maioria dos programas Python.
+A maioria dos programas que você encontra online pode ser rodado com `python3 main.py` porque `main.py` é o ponto de partida comum da maioria dos programas Python.
 :::
 
 ## Ambientes virtuais
 
-Ao escrever um programa Python, você pode precisar instalar pacotes externos via pip. Eles podem ser instalados globalmente e ficar acessíveis para todos os scripts `.py` ou você pode criar um ambiente virtual (venv).
+Ao escrever um programa Python, você pode precisar instalar pacotes externos via pip. Eles podem ser instalados globalmente e assim ficar acessíveis para todos os scripts `.py`, ou você pode criar um ambiente virtual (venv).
 
 ### Criando o venv
 
@@ -132,7 +133,7 @@ Primeiro, navegue até a pasta onde quer criar seu venv usando `cd` e, quando es
 
 Para rodar comandos como `pip install` dentro do seu venv, você precisa ativá-lo rodando `source /bin/activate`. Agora seu console vai rodar só dentro do venv e os scripts terão acesso apenas aos pacotes instalados localmente.
 
-Quando terminar de trabalhar no venv, volte ao ambiente normal rodando o comando `deactivate`.
+Quando terminar de trabalhar no venv, você pode sair dele rodando o comando `deactivate`.
 
 
 ## Conclusão

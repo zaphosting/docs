@@ -1,6 +1,6 @@
 ---
 id: dedicated-linux-ssh-server
-title: "Installation of SSH"
+title: "Setup SSH on a Linux Server - Enable Secure Remote Server Access"
 description: "Discover how to securely install and manage SSH servers on Linux server to ensure safe remote access and enhanced server protection → Learn more now"
 sidebar_label: Install SSH
 services:

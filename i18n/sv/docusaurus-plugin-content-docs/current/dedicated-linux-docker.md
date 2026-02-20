@@ -1,9 +1,10 @@
 ---
 id: dedicated-linux-docker
-title: "Dedikerad Server: Installation av Docker"
+title: "Installera Docker på en Linux-server – Kör och hantera containers på din infrastruktur"
 description: "Upptäck hur du installerar Docker på din Linux-server för att köra isolerade applikationer effektivt och optimera resursanvändningen → Läs mer nu"
 sidebar_label: Installera Docker
 services:
+  - vserver
   - dedicated
 ---
 
@@ -13,21 +14,21 @@ import TabItem from '@theme/TabItem';
 
 ## Introduktion
 
-Docker är en lättviktig, öppen källkodsvirtualiseringsmjukvara som levererar tjänster eller applikationer isolerat på ett enda system. Till skillnad från riktiga virtuella maskiner emuleras eller hostas inget extra operativsystem, utan endast en applikationsmiljö inom värdsystemet. Detta sparar inte bara resurser generellt, utan ger också låg overhead jämfört med full virtualisering. I den här guiden går vi igenom hur du installerar Docker på din server.
+Docker är en lättvikts, öppen källkodsvirtualiseringsmjukvara som levererar tjänster eller applikationer isolerat på ett enda system. Till skillnad från riktiga virtuella maskiner emuleras eller körs inget extra operativsystem, utan endast en applikationsmiljö inom värdsystemet. Detta sparar inte bara resurser generellt, utan ger också låg overhead jämfört med full virtualisering. I den här guiden går vi igenom hur du installerar Docker på din server.
 
 ## Förberedelser
 
-För att börja måste du ansluta till din Linux-server via SSH. Kolla gärna in vår guide för [Initial åtkomst (SSH)](dedicated-linux-ssh.md) om du behöver hjälp med detta. I den här guiden använder vi Ubuntu som Linux-distribution.
+För att börja måste du ansluta till din Linux-server via SSH. Kolla gärna in vår guide för [Första åtkomst (SSH)](dedicated-linux-ssh.md) om du behöver hjälp med detta. I den här guiden använder vi Ubuntu som Linux-distribution.
 
 ### Aktivera Docker-kompatibilitet
 
-Du måste aktivera **Docker-kompatibilitet** i ditt webbgränssnitt för att Docker-containrar ska fungera, annars får du `Permission Denied`-fel.
+Du måste aktivera **Docker-kompatibilitet** i ditt webbgränssnitt för att tillåta Docker-containrar att fungera, annars får du `Permission Denied`-fel.
 
-Gå till **Inställningar** i serverns webbpanel, slå på **Docker-kompatibilitet** och spara.
+Gå till **Inställningar** i serverns webbpanel, aktivera alternativet **Docker-kompatibilitet** och spara.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/o5t82kKM38r2MwY/preview)
 
-När du sparat, se till att starta om servern innan du går vidare.
+När du sparat, se till att starta om servern innan du fortsätter.
 
 ## Installation
 
@@ -36,7 +37,7 @@ Nu när du är ansluten till din Linux-server kan du fortsätta med installation
 <Tabs>
 <TabItem value="ubuntu/debian" label="Ubuntu & Debian" default>
 
-För att börja måste du lägga till Dockers paket via `apt` och konfigurera det. Det gör att du enkelt kan installera och uppdatera Docker från repot framöver.
+För att börja måste du lägga till Dockers paket via `apt` och konfigurera det. Detta gör att du enkelt kan installera och uppdatera Docker från repot i framtiden.
 
 Använd följande kommandon för att lägga till Dockers officiella GPG-nyckel till din repolista.
 ```
@@ -60,7 +61,7 @@ Nu när du lagt till Docker-repot i dina källor, kör `apt-get update` för att
 sudo apt-get update
 ```
 
-Vid det här laget har du framgångsrikt satt upp Docker `apt`-repo. Som sista steg installerar du Docker-paketen. Installera senaste versionen med följande kommando.
+Vid det här laget har du framgångsrikt konfigurerat Docker `apt`-repo. Som sista steg installerar du Docker-paketen. Installera senaste versionen med följande kommando.
 ```
 sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
 ```
@@ -79,7 +80,7 @@ När paketet är installerat, lägg till Docker-repot och installera det med fö
 sudo dnf-3 config-manager --add-repo https://download.docker.com/linux/fedora/docker-ce.repo
 ```
 
-Docker bör nu vara installerat. Som sista steg behöver du starta och aktivera tjänsten så att den fungerar.
+Docker ska nu vara installerat. Som sista steg behöver du starta och aktivera tjänsten så att den fungerar.
 ```
 sudo systemctl enable --now docker
 ```
@@ -92,19 +93,19 @@ För att verifiera att installationen lyckades, testa att köra **hello-world**-
 sudo docker run hello-world
 ```
 
-Om det lyckas ser du ett trevligt välkomstmeddelande i chatten med grundläggande info. Om du får `Permission Denied`-fel, dubbelkolla att du aktiverat **Docker-kompatibilitet** i webbgränssnittet och startat om servern som beskrivet i förberedelserna.
+Vid framgång bör du se ett trevligt välkomstmeddelande i chatten med grundläggande info. Om du får `Permission Denied`-fel, kontrollera att du aktiverat **Docker-kompatibilitet** i webbgränssnittet och startat om servern som beskrivet i förberedelseavsnittet.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/tzJwpYRYb9Mmryo/preview)
 
 Du har nu installerat Docker på din Linux-server.
 
-## Efterinstallationsinställningar
+## Efterinstallation
 
-Med Docker installerat kan du göra lite extra inställningar för att slippa använda sudo vid Docker-kommandon och för att starta Docker automatiskt vid serverstart.
+Med Docker installerat kan du göra lite extra konfiguration för att slippa använda `sudo` vid Docker-kommandon och för att starta Docker automatiskt vid serverstart.
 
 ### Hantera Docker utan Sudo
 
-Du kan slippa prefixa alla Docker-kommandon med `sudo` genom att skapa en Docker-grupp och lägga till dina användare i den. Det gör det smidigare, men var medveten om att det indirekt ger root-behörighet till användaren.
+Du kan slippa prefixa alla Docker-kommandon med `sudo` genom att skapa en Docker-grupp och lägga till dina användare i den. Det gör det smidigare, men tänk på att det indirekt ger root-behörighet till användaren.
 
 Skapa Docker-gruppen och lägg till din nuvarande användare med följande kommandon.
 ```
@@ -115,31 +116,31 @@ sudo groupadd docker
 sudo usermod -aG docker $USER
 ```
 
-När detta är gjort rekommenderar vi att du startar om servern för att gruppmedlemskapet ska uppdateras. Alternativt kan du köra `newgrp docker`.
+När detta är gjort rekommenderar vi att du startar om servern så att gruppmedlemskapet uppdateras. Alternativt kan du köra `newgrp docker`.
 
-Testa sedan att köra Docker-kommandon utan `sudo` genom att köra `docker run hello-world` igen.
+Verifiera sedan att du kan köra Docker-kommandon utan `sudo` genom att köra `docker run hello-world` igen.
 
 :::tip
-Ibland kan du få ett fel om en konfigurationsfil om du tidigare kört kommandot med `sudo`. Lös det genom att ta bort Docker-mappen med `rmdir ~/.docker/`. Den skapas automatiskt igen vid nästa kommando.
+Ibland kan du få ett fel om en konfigurationsfil om du tidigare kört kommandot med `sudo`. Lös det genom att ta bort Docker-katalogen med `rmdir ~/.docker/`. Den skapas automatiskt igen vid nästa kommando.
 :::
 
 Om kommandot fungerar som det ska har du lyckats konfigurera Docker för att köras utan `sudo`.
 
 ### Starta Docker vid Boot
 
-Du kan ställa in Docker att starta automatiskt vid serverstart med `systemd`, som används av de flesta Linux-distributioner.
+Du kan konfigurera Docker att starta automatiskt vid serverstart med `systemd`, som används av de flesta Linux-distributioner.
 
 :::tip
 På både Ubuntu & Debian startar Docker automatiskt vid boot som standard. Använder du dessa behöver du inte göra något mer.
 :::
 
-Aktivera Docker-tjänsten att starta vid boot med följande kommandon.
+Du aktiverar Docker-tjänsten vid boot med följande kommandon.
 ```
 sudo systemctl enable docker.service
 sudo systemctl enable containerd.service
 ```
 
-För att istället inaktivera tjänsten vid boot, byt ut `enable` mot `disable`. Du kan också hantera tjänsten med olika `systemctl`-kommandon, till exempel:
+För att inaktivera tjänsten vid boot byter du ut `enable` mot `disable`. Du kan även hantera tjänsten med olika `systemctl`-kommandon, till exempel:
 ```
 sudo systemctl start [din_tjänst]
 sudo systemctl stop [din_tjänst]
@@ -148,4 +149,4 @@ sudo systemctl restart [din_tjänst]
 
 ## Avslutning
 
-Grattis, du har nu installerat och konfigurerat Docker på din Linux-server! Har du fler frågor eller problem, tveka inte att kontakta vår support som finns tillgänglig varje dag!
+Grattis, du har nu installerat och konfigurerat Docker på din Linux-server! Om du har fler frågor eller problem, tveka inte att kontakta vår support som finns tillgänglig varje dag för att hjälpa dig!

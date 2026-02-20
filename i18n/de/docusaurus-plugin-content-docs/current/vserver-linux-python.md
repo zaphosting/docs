@@ -1,23 +1,24 @@
 ---
 id: vserver-linux-python
-title: "vServer: Installation von Python"
+title: "Python auf einem Linux-Server einrichten – Entwicklung & Automatisierung starten"
 description: "Lerne, wie du die Python-Laufzeit auf verschiedenen Linux-Distributionen installierst und aktualisierst, um eine sichere und aktuelle Umgebung zu gewährleisten → Jetzt mehr erfahren"
 sidebar_label: Python installieren
 services:
   - vserver
+  - dedicated
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
 
-Diese Anleitung zeigt dir, wie du die Python-Laufzeit und venv installierst. Die Befehle müssen per SSH ausgeführt werden. Wenn du nicht weißt, wie du dich per SSH mit deinem Server verbindest, nutze bitte unsere [Erstzugang (SSH)](vserver-linux-ssh.md) Anleitung, um mehr zu erfahren.
+Diese Anleitung zeigt dir, wie du die Python-Laufzeit und venv installierst. Die Befehle müssen per SSH ausgeführt werden. Falls du nicht weißt, wie du dich per SSH mit deinem Server verbindest, schau dir unsere [Erstzugang (SSH)](vserver-linux-ssh.md) Anleitung an.
 
 <InlineVoucher />
 
 ## Vorbereitung
 
-Bevor du irgendwas auf deinem Server installierst, solltest du den Update-Befehl passend zu deinem Betriebssystem ausführen, um deinen Server sicher zu halten.
+Bevor du irgendwas auf deinem Server installierst, solltest du den Update-Befehl passend zu deinem Betriebssystem ausführen, um deinen Server sicher und aktuell zu halten.
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
@@ -55,7 +56,7 @@ import TabItem from '@theme/TabItem';
 
 ## Installation
 
-Die meisten Linux-Distributionen haben Python vorinstalliert, aber die Version ist eventuell nicht aktuell oder das System wurde ohne einige Pakete installiert. Du kannst prüfen, ob Python installiert ist (`python3 --version`) und die folgenden Befehle nutzen, um die Laufzeit zu aktualisieren oder zu installieren.
+Die meisten Linux-Distributionen bringen Python bereits vorinstalliert mit, allerdings ist die Version oft nicht aktuell oder es fehlen manche Pakete. Du kannst prüfen, ob Python installiert ist (`python3 --version`) und dann die folgenden Befehle nutzen, um die Laufzeit zu installieren oder zu aktualisieren.
 
 <Tabs>
 <TabItem value="ubuntu-debian" label="Ubuntu & Debian" default>
@@ -64,7 +65,7 @@ Die meisten Linux-Distributionen haben Python vorinstalliert, aber die Version i
   // Version prüfen
   python3 --version
 
-  // Laufzeit aktualisieren / installieren
+  // Laufzeit installieren / aktualisieren
   sudo apt install python3
 ```
 
@@ -110,29 +111,29 @@ Jetzt, wo Python auf deinem Server installiert ist, kannst du deine Python-Progr
 
 ### Interpreter-Modus
 
-Der Befehl `python3` startet den Python-Interpreter. Du kannst nach dem `>>>`-Prompt jeden gültigen Python-Code eingeben, der nach Drücken von `Enter` ausgeführt wird. Den Interpreter kannst du mit `exit()` wieder schließen.
+Mit dem Befehl `python3` startest du den Python-Interpreter. Du kannst nach dem `>>>`-Prompt beliebigen gültigen Python-Code eingeben, der nach Drücken von `Enter` ausgeführt wird. Den Interpreter beendest du mit `exit()`.
 
-### Ausführen von .py-Dateien
+### .py Dateien ausführen
 
 Um `.py` Python-Dateien auszuführen, nutzt du einfach den Befehl `python3 [Dateiname].py`, wobei du `[Dateiname]` durch den Pfad zur gewünschten Datei ersetzt.
 
 :::tip
-Die meisten Programme, die du online findest, kannst du mit `python3 main.py` starten, da `main.py` der übliche Einstiegspunkt der meisten Python-Programme ist.
+Die meisten Programme, die du online findest, kannst du mit `python3 main.py` starten, da `main.py` oft der Einstiegspunkt der Python-Programme ist.
 :::
 
 ## Virtuelle Umgebungen
 
-Beim Programmieren mit Python brauchst du oft externe Pakete, die du mit pip installierst. Diese können global installiert werden und sind dann für alle `.py`-Skripte verfügbar, oder du erstellst eine virtuelle Umgebung (venv).
+Beim Programmieren mit Python brauchst du oft externe Pakete, die du über pip installierst. Diese kannst du global installieren (für alle `.py`-Skripte verfügbar) oder in einer virtuellen Umgebung (venv) isolieren.
 
 ### venv erstellen
 
-Wechsle zuerst in den Ordner, in dem du dein venv einrichten möchtest, mit `cd`. Dann führst du `python3 -m venv .` aus, um die nötigen Dateien im aktuellen Verzeichnis zu installieren.
+Wechsle zuerst in den Ordner, in dem du deine venv einrichten möchtest, mit `cd`. Dann führst du `python3 -m venv .` aus, um die nötigen Dateien im aktuellen Verzeichnis zu installieren.
 
 ### Aktivieren & Deaktivieren
 
-Um Befehle wie `pip install` innerhalb deines venv auszuführen, musst du es mit `source /bin/activate` aktivieren. Ab jetzt läuft deine Konsole nur noch innerhalb des venv und Skripte haben nur Zugriff auf lokal installierte Pakete.
+Um Befehle wie `pip install` innerhalb der venv auszuführen, musst du sie aktivieren mit `source /bin/activate`. Danach läuft deine Konsole nur noch innerhalb der venv und Skripte greifen nur auf lokal installierte Pakete zu.
 
-Wenn du fertig bist, kannst du das venv mit dem Befehl `deactivate` wieder verlassen.
+Wenn du fertig bist, verlässt du die venv mit dem Befehl `deactivate`.
 
 ## Fazit
 

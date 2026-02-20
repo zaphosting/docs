@@ -1,6 +1,6 @@
 ---
 id: vserver-windows-docker
-title: "Setup Docker on Windows"
+title: "Setup Docker on a Windows Server - Run and Manage Containers on Your Infrastructure"
 description: "Discover how to deploy and manage applications efficiently with Docker containers for seamless scaling and updates → Learn more now"
 sidebar_label: Install Docker
 services:

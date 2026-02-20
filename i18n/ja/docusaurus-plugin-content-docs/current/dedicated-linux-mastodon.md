@@ -1,9 +1,10 @@
 ---
 id: dedicated-linux-mastodon
-title: "専用サーバー：Mastodonのインストール"
-description: "Debian系サーバーで安全なセルフホスト型Mastodonソーシャルネットワークをセットアップして、独立したマイクロブログを始めよう → 今すぐチェック"
+title: "LinuxサーバーにMastodonをセットアップ - 自分だけのSNSプラットフォームを始めよう"
+description: "Debian系サーバーで安全なセルフホスト型Mastodonソーシャルネットワークを構築する方法を解説 → 今すぐチェック"
 sidebar_label: Mastodonのインストール
 services:
+  - vserver
   - dedicated
 ---
 
@@ -11,26 +12,27 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## はじめに
 
-Mastodonはセルフホスト型のソーシャルネットワーキングサービスを運用するための無料かつオープンソースのソフトウェアです。
+Mastodonは、セルフホスト型のソーシャルネットワーキングサービスを運用するための無料かつオープンソースのソフトウェアです。
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/oNCpfBwLNB5f79P/preview)
 
-X（旧Twitter）に似たマイクロブログ機能を持ち、多数の独立運営されるノード（インスタンス）によって提供されています。  
-各インスタンスは独自の行動規範、利用規約、プライバシーポリシー、プライバシー設定、モデレーションポリシーを持っています。  
+X（旧Twitter）に似たマイクロブログ機能を持ち、多数の独立運営ノード（インスタンス）によって提供されています。
+各インスタンスは独自の行動規範、利用規約、プライバシーポリシー、プライバシー設定、モデレーションポリシーを持っています。
 :::info
-このガイドはDebian系ディストリビューションでのインストールに焦点を当てています。DebianやUbuntuが例です。使用するOSによって手順が異なります。
+このガイドはDebian系ディストリビューションへのインストールにフォーカスしています。DebianやUbuntuが例です。使用するOSによって手順が異なります。
 :::
 
 ## システム要件
-Mastodonインスタンスをサーバーにセットアップするには、以下の要件を満たす必要があります。
+Mastodonインスタンスをサーバーにセットアップするには、以下が必要です。
 - ドメイン
 - Linuxベースのサーバー
 - メールサーバー
 
 ## システムの準備
-SSHのパスワードログインはセキュリティリスクが高いため、事前に無効化することを推奨します。  
-サーバーのWebインターフェースの「情報」→「アクセス＆セキュリティ」→「パスワードログインを無効化」から設定可能です。  
-![](https://screensaver01.zap-hosting.com/index.php/s/k6bBoxt7HJ4jqnL/preview)  
+インターネットからアクセス可能なサーバーでパスワードログインはセキュリティリスクなので、事前にSSHのパスワードログインを無効化することをおすすめします。
+サーバーのWebインターフェースの「情報」→「アクセス＆セキュリティ」→「パスワードログインを無効化」から設定可能です。
+![](https://screensaver01.zap-hosting.com/index.php/s/k6bBoxt7HJ4jqnL/preview)
+
 その後、以下のコマンドでパッケージをアップデートします：
 ```
 apt update && apt upgrade -y
@@ -58,16 +60,16 @@ apt install -y \
   nginx redis-server redis-tools postgresql postgresql-contrib \
   certbot python3-certbot-nginx libidn11-dev libicu-dev libjemalloc-dev
 ```
-インストールには時間がかかる場合があります。完了したら、Node.JSのパッケージマネージャーであるyarnを設定します：
+インストールには時間がかかる場合があります。終わったら、Node.JSのパッケージマネージャーであるyarnを設定します：
 ```bash
 corepack enable
 yarn set version stable
 ```
 
 ## Rubyのインストール
-Rubyのバージョン管理を楽にするため、mastodonというログイン無効のユーザーを作成し、そのユーザーに切り替えます：
+Rubyのバージョン管理を楽にするために、mastodonというログイン無効のユーザーを作成し、そのユーザーに切り替えます：
 ```bash
-# フィールドは空のままでOK
+# フィールドは空欄でOK
 adduser --disabled-login mastodon
 su - mastodon
 ```
@@ -81,7 +83,7 @@ echo 'eval "$(rbenv init -)"' >> ~/.bashrc
 exec bash
 git clone https://github.com/rbenv/ruby-build.git ~/.rbenv/plugins/ruby-build
 ```
-これが終わったら、Rubyとbundlerをインストールします：
+コマンド実行後、Rubyとbundlerをインストールします：
 ```bash
 RUBY_CONFIGURE_OPTS=--with-jemalloc rbenv install 3.0.3
 rbenv global 3.0.3
@@ -90,12 +92,12 @@ gem install bundler --no-document
 インストールには時間がかかるので、ゆっくりお茶やコーヒーをどうぞ。完了したら`exit`でrootユーザーに戻れます。
 
 ## PostgreSQLの設定
-MastodonはデータベースにPostgreSQLを使用します。以下のコマンドで設定を開始します：
+MastodonはPostgreSQLをデータベースに使います。以下のコマンドで設定を開始します：
 ```bash
 sudo -u postgres psql
 ```
 
-PostgreSQLプロンプト内で以下を入力：
+PostgreSQLプロンプト内で以下を実行：
 ```sql
 CREATE USER mastodon CREATEDB;
 \q
@@ -106,46 +108,46 @@ CREATE USER mastodon CREATEDB;
 ```bash
 su - mastodon
 ```
-最新のMastodonをgitでクローンし、ディレクトリに移動します：
+最新のMastodonをgitでクローンし、最新安定版に切り替えます：
 ```bash
 git clone https://github.com/tootsuite/mastodon.git live && cd live
 git checkout $(git tag -l | grep -v 'rc[0-9]*$' | sort -V | tail -n 1)
 ```
-RubyとJavascriptの依存関係をインストールします：
+RubyとJavascriptの最後の依存関係をインストールします：
 ```bash
 bundle config deployment 'true'
 bundle config without 'development test'
 bundle install -j$(getconf _NPROCESSORS_ONLN)
 yarn install --pure-lockfile
 ```
-次にMastodonの設定ファイルを作成します：
+Mastodonの設定ファイルを作成します：
 ```bash
 RAILS_ENV=production bundle exec rake mastodon:setup
 ```
 :::info
-もしデータベースのセットアップで失敗したら、`sudo -u postgres psql`でPostgreSQLにログインし、こちらのドキュメントを参照してください：
+もしデータベース設定で失敗したら、`sudo -u postgres psql`でPostgreSQLにログインし、こちらのドキュメントを参照してください：
 
 https://gist.github.com/amolkhanorkar/8706915
 :::
 
-完了したら`exit`でrootユーザーに戻ります。
+設定後、`exit`でrootに戻ります。
 
 ## Webサーバーの設定
-ここが少し難しい部分です。まずDNSにAレコードまたはAAAAレコードを作成し、サーバーのIPアドレスを指すようにします。  
-またはルートレコードをサーバーに向けてもOKです。
+ここが少し難しいところ。まずDNSにAレコードやAAAAレコードを作成し、サーバーのIPアドレスを指すようにします。もしくはルートレコードをサーバーに向けてもOKです。
 
-次に以下のコマンドでMastodonのWebサーバー設定をコピーして有効化します：
+次に以下のコマンドでMastodonのWebサーバー設定をコピー＆有効化します：
 ```bash
 cp /home/mastodon/live/dist/nginx.conf /etc/nginx/sites-available/mastodon
 ln -s /etc/nginx/sites-available/mastodon /etc/nginx/sites-enabled/mastodon
 ```
 
-`/etc/nginx/sites-available/mastodon`をvimやnanoなどのテキストエディタで開き、`example.com`を自分のドメインに書き換えます。  
-次にSSL証明書を取得します。以下のコマンドで簡単に取得可能です：
+`/etc/nginx/sites-available/mastodon`をvimやnanoで開き、`example.com`を自分のドメインに書き換えます。
+
+次にSSL証明書を取得します。以下のコマンドで簡単にできます：
 ```bash
 certbot --nginx -d <your domain>
 ```
-ドメインを入力し、いくつかの質問に答えます。最後にHTTPをHTTPSに自動リダイレクトするか聞かれますが、オンにすることをおすすめします。
+ドメインを入力し、いくつかの質問に答えます。最後にHTTPをHTTPSに自動リダイレクトするか聞かれるので、有効化をおすすめします。
 
 ## Mastodonサービスの作成
 最後にMastodonのシステムサービスを作成します。以下のコマンドでサービス設定をコピーします：
@@ -153,10 +155,10 @@ certbot --nginx -d <your domain>
 cp /home/mastodon/live/dist/mastodon-*.service /etc/systemd/system/
 ```
 
-次にサービスを有効化して起動します：
+サービスを有効化＆起動します：
 ```sh
 systemctl daemon-reload
 systemctl enable --now mastodon-web mastodon-sidekiq mastodon-streaming
 ```
 
-再起動後にセットアップ完了です。インスタンスを楽しんでください！
+再起動後、セットアップ完了です。インスタンスを楽しんでね！

@@ -1,6 +1,6 @@
 ---
 id: dedicated-linux-lemp-stack
-title: "Dedicated Server: Setup LEMP stack - Linux, Nginx, MySQL, PHP"
+title: "Setup a LEMP Stack on a Linux Server - Deploy High Performance Web Applications"
 description: "Discover how to set up a LEMP stack for hosting dynamic PHP websites on Linux servers with practical examples → Learn more now"
 sidebar_label: Web LEMP stack
 services:

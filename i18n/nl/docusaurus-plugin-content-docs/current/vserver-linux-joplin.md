@@ -1,10 +1,11 @@
 ---
 id: vserver-linux-joplin
-title: "VPS: Joplin installeren op Linux"
+title: "Joplin Server op een Linux Server Installeren - Host Je Eigen Veilige Notitieplatform"
 description: "Ontdek hoe je versleutelde Markdown-notities organiseert en synchroniseert tussen apparaten met Joplin voor veilige, flexibele notities → Leer het nu"
-sidebar_label: Joplin installeren
+sidebar_label: Joplin Installeren
 services:
-- vserver
+  - vserver
+  - dedicated
 ---
 
 import Tabs from '@theme/Tabs';
@@ -13,13 +14,13 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introductie
 
-Joplin is een open-source app voor notities en to-do’s waarmee je Markdown-notities kunt organiseren in doorzoekbare notitieboeken en synchroniseren tussen apparaten. Het biedt end-to-end encryptie, een webclipper en cross-platform synchronisatie. Perfect voor wie privacy, flexibiliteit en volledige controle over z’n data belangrijk vindt!
+Joplin is een open-source notitie- en takenapp waarmee je Markdown-notities kunt organiseren in doorzoekbare notitieboeken en synchroniseren tussen apparaten. Het biedt end-to-end encryptie, een webclipper en cross-platform synchronisatie. Perfect voor gebruikers die privacy, flexibiliteit en volledige controle over hun data belangrijk vinden!
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/qfo8k2RXWPFqi3g/preview)
 
-Overweeg je deze dienst zelf te hosten? We nemen je stap voor stap mee in het opzetten en configureren, inclusief alles waar je op moet letten.
+Overweeg je deze service zelf te hosten? We nemen je stap voor stap mee in het opzetten en configureren, inclusief alles waar je op moet letten.
 
-:::danger Linux met Desktop-variant vereist
+:::danger Linux met Desktop Variant vereist
 Deze applicatie kan alleen geïnstalleerd en gebruikt worden op een Linux-systeem met een grafische gebruikersinterface; in dit voorbeeld gebruiken we Ubuntu Desktop 25.04 als referentie.
 
 :::
@@ -30,7 +31,7 @@ Deze applicatie kan alleen geïnstalleerd en gebruikt worden op een Linux-systee
 
 ## Vereisten
 
-Voordat je **Joplin** installeert, check je of je hostingomgeving aan de volgende eisen voldoet voor een soepele installatie en optimale performance.
+Voordat je **Joplin** installeert, zorg dat je hostingomgeving aan de volgende eisen voldoet voor een soepele installatie en optimale performance.
 
 | Hardware | Minimum | ZAP-Hosting Aanbeveling |
 | ---------- | ------------ | -------------------------- |
@@ -38,11 +39,11 @@ Voordat je **Joplin** installeert, check je of je hostingomgeving aan de volgend
 | RAM | 2 GB | 4 GB |
 | Schijfruimte | 250 MB | 250 MB |
 
-De software vereist dat alle benodigde dependencies geïnstalleerd zijn en dat het draait op een ondersteund besturingssysteem. Zorg dat je server aan de volgende eisen voldoet voordat je verder gaat met installeren:
+De software vereist dat alle benodigde dependencies geïnstalleerd zijn en dat het draait op een ondersteund besturingssysteem. Controleer dat je server aan de volgende eisen voldoet voordat je verder gaat met de installatie:
 
 **Dependencies:** `Libfuse2`
 
-**Besturingssysteem:** Linux met Desktop-ondersteuning
+**Besturingssysteem:** Linux met Desktop Support
 
 Zorg dat alle dependencies geïnstalleerd zijn en dat je de juiste OS-versie gebruikt om compatibiliteitsproblemen tijdens de installatie van Joplin te voorkomen.
 
@@ -50,11 +51,11 @@ Zorg dat alle dependencies geïnstalleerd zijn en dat je de juiste OS-versie geb
 
 ## Voorbereiding
 
-Voordat je **Joplin** installeert, moet je je systeem klaarmaken. Dit betekent je besturingssysteem updaten naar de nieuwste versie en alle benodigde dependencies installeren. Zo zorg je voor een stabiele omgeving en voorkom je problemen tijdens of na de installatie.
+Voordat je **Joplin** installeert, moet je je systeem klaarmaken. Dit betekent dat je het besturingssysteem bijwerkt naar de nieuwste versie en alle benodigde dependencies installeert. Deze voorbereidingen zorgen voor een stabiele omgeving en helpen problemen tijdens of na de installatie te voorkomen.
 
 
-### Systeem updaten
-Om zeker te weten dat je systeem draait met de nieuwste software en beveiligingsupdates, voer je eerst een systeemupdate uit. Gebruik hiervoor het volgende commando:
+### Systeem bijwerken
+Om zeker te zijn dat je systeem draait met de nieuwste software en beveiligingsupdates, voer je eerst een systeemupdate uit. Gebruik hiervoor het volgende commando:
 
 ```
 sudo apt update && sudo apt upgrade -y
@@ -74,13 +75,13 @@ sudo apt install -y libfuse2
 
 
 ## Installatie
-Nu aan alle eisen is voldaan en de voorbereidingen klaar zijn, kun je Joplin installeren. Voer het volgende commando uit:
+Nu aan alle vereisten is voldaan en de voorbereidingen zijn afgerond, kun je Joplin installeren. Voer het volgende commando uit:
 
 ```
 wget -O - https://raw.githubusercontent.com/laurent22/joplin/dev/Joplin_install_and_update.sh | bash
 ```
 
-Joplin wordt gedownload en geïnstalleerd via het officiële installatiescript. Laat het proces gewoon doorlopen tot het klaar is, daarna kun je de app meteen starten.
+Joplin wordt gedownload en geïnstalleerd via het officiële installatiescript. Laat het proces gewoon lopen tot het klaar is, daarna kun je de applicatie direct starten.
 
 
 
@@ -90,24 +91,24 @@ Joplin wordt gedownload en geïnstalleerd via het officiële installatiescript. 
 
 ## Configuratie
 
-Na installatie stel je de basisinstellingen in om Joplin aan te passen aan jouw workflow. De configuratie vind je in het *Instellingen* menu.
+Na de installatie van Joplin kun je de basisinstellingen aanpassen om de app aan jouw workflow te koppelen. De configuratie vind je in het *Instellingen* menu.
 
-**Synchronisatie**  
+**Synchronisatie**
 Joplin ondersteunt meerdere sync-opties zoals Nextcloud, Dropbox, OneDrive of WebDAV. Kies je favoriete provider onder “Synchronisatie” en vul je inloggegevens in. Zo blijven je notities up-to-date op al je apparaten.
 
-**Encryptie**  
+**Encryptie**
 Om je gesynchroniseerde notities te beveiligen, zet je end-to-end encryptie aan in de “Encryptie” instellingen. Er wordt een sleutel gegenereerd die je op alle apparaten moet instellen die toegang hebben tot je notities.
 
-**Editor & Uiterlijk**  
-Joplin gebruikt Markdown voor notities. In de “Editor” instellingen bepaal je of de preview automatisch wordt getoond en pas je lettertype en grootte aan.
+**Editor & Uiterlijk**
+Joplin gebruikt Markdown voor notities. In de “Editor” instellingen kun je bepalen of de preview automatisch wordt getoond en het lettertype en de grootte aanpassen.
 
-**Plugins & Extensies**  
-Met de ingebouwde pluginmanager installeer je extra functies, zoals diagramondersteuning, kalenderintegratie of geavanceerd tagbeheer.
+**Plugins & Extensies**
+De ingebouwde pluginmanager laat je extra functies installeren, zoals diagramondersteuning, kalenderintegratie of geavanceerd tagbeheer.
 
-**Web Clipper**  
-Optioneel kun je de “Joplin Web Clipper” browserextensie activeren om hele webpagina’s of geselecteerde stukken direct als notities op te slaan.
+**Web Clipper**
+Optioneel kun je de “Joplin Web Clipper” browserextensie activeren om hele webpagina’s of geselecteerde delen direct als notities op te slaan.
 
-Met deze basisinstellingen is Joplin klaar voor allerlei toepassingen, zoals taakbeheer, projectdocumentatie of persoonlijke kennisbanken.
+Met deze basisinstellingen is Joplin klaar voor gebruik in allerlei scenario’s, zoals taakbeheer, projectdocumentatie of persoonlijke kennisbanken.
 
 
 
@@ -118,12 +119,12 @@ Met deze basisinstellingen is Joplin klaar voor allerlei toepassingen, zoals taa
 
 ## Afsluiting en meer bronnen
 
-Gefeliciteerd! Je hebt Joplin nu succesvol geïnstalleerd en geconfigureerd op je VPS. We raden je ook aan om deze bronnen te checken, die je extra hulp en tips kunnen geven tijdens het configureren van je server:
+Gefeliciteerd! Je hebt Joplin nu succesvol geïnstalleerd en geconfigureerd op je VPS/Dedicated Server. We raden je ook aan om de volgende bronnen te bekijken, die je extra hulp en tips kunnen geven tijdens het configureren van je server:
 
-- [Joplinapp.org](https://joplin.org/) - Officiële website  
-- [Joplinapp.org/help/](https://joplinapp.org/help/) - Joplin Help Center
+- [Joplinapp.org](https://joplin.org/) - Officiële Website
+- [Joplinapp.org/help/](https://joplinapp.org/help/) - Joplin Helpcentrum
 
-Heb je nog specifieke vragen die hier niet behandeld worden? Neem gerust contact op met onze support, die dagelijks voor je klaarstaat om je te helpen! 🙂
+Heb je specifieke vragen die hier niet behandeld worden? Voor verdere vragen of hulp kun je altijd contact opnemen met onze support, die dagelijks voor je klaarstaat! 🙂
 
 
 

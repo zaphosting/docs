@@ -1,6 +1,6 @@
 ---
 id: vserver-linux-nodejs
-title: "Setup Node.js on Linux"
+title: "Setup Node.js on a Linux Server - Run Modern JavaScript Applications"
 description: "Discover how to set up a stable Node.js environment for scalable, real-time applications using Docker and system preparation → Learn more now"
 sidebar_label: Install Node.js
 services:

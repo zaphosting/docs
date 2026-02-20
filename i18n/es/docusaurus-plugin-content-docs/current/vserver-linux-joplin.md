@@ -1,10 +1,11 @@
 ---
 id: vserver-linux-joplin
-title: "VPS: Configura Joplin en Linux"
+title: "Configura Joplin Server en un Servidor Linux - Hospeda tu Propia Plataforma Segura de Notas"
 description: "Descubre cómo organizar y sincronizar notas encriptadas en Markdown entre dispositivos con Joplin para una toma de notas segura y flexible → Aprende más ahora"
 sidebar_label: Instalar Joplin
 services:
-- vserver
+  - vserver
+  - dedicated
 ---
 
 import Tabs from '@theme/Tabs';
@@ -13,14 +14,14 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introducción
 
-Joplin es una aplicación open-source para tomar notas y gestionar tareas que permite organizar notas en Markdown dentro de cuadernos buscables y sincronizarlas entre dispositivos. Ofrece cifrado de extremo a extremo, un web clipper y sincronización multiplataforma. ¡Perfecto para quienes priorizan la privacidad, flexibilidad y control total sobre sus datos!
+Joplin es una aplicación de código abierto para tomar notas y gestionar tareas que permite organizar notas basadas en Markdown en cuadernos buscables y sincronizarlas entre dispositivos. Ofrece cifrado de extremo a extremo, un recortador web y sincronización multiplataforma. ¡Perfecto para usuarios que priorizan la privacidad, flexibilidad y control total sobre sus datos!
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/qfo8k2RXWPFqi3g/preview)
 
-¿Pensando en alojar este servicio tú mismo? Te guiaremos paso a paso para configurarlo y ajustarlo, junto con todo lo que debes tener en cuenta.
+¿Estás pensando en alojar este servicio tú mismo? Te guiaremos paso a paso sobre cómo configurarlo y ajustarlo, junto con todo lo que debes tener en cuenta.
 
 :::danger Se requiere Linux con variante de escritorio
-Esta aplicación solo puede instalarse y usarse en un sistema Linux con interfaz gráfica; en este ejemplo se usa Ubuntu Desktop 25.04 como referencia.
+Esta aplicación solo puede instalarse y usarse en un sistema Linux con interfaz gráfica; en este ejemplo, se usa Ubuntu Desktop 25.04 como referencia.
 
 :::
 
@@ -28,7 +29,7 @@ Esta aplicación solo puede instalarse y usarse en un sistema Linux con interfaz
 
 
 
-## Requisitos previos
+## Requisitos Previos
 
 Antes de instalar **Joplin**, asegúrate de que tu entorno de hosting cumple con los siguientes requisitos para garantizar una instalación fluida y un rendimiento óptimo.
 
@@ -42,27 +43,27 @@ El software requiere que todas las dependencias necesarias estén instaladas y q
 
 **Dependencias:** `Libfuse2`
 
-**Sistema operativo:** Linux con soporte de escritorio
+**Sistema Operativo:** Linux con soporte de escritorio
 
-Verifica que todas las dependencias estén instaladas y que la versión del sistema operativo sea la correcta para evitar problemas de compatibilidad durante la instalación de Joplin.
+Verifica que todas las dependencias estén instaladas y que la versión correcta del sistema operativo esté en uso para evitar problemas de compatibilidad durante la instalación de Joplin.
 
 
 
 ## Preparación
 
-Antes de configurar **Joplin**, necesitas preparar tu sistema. Esto incluye actualizar tu sistema operativo a la última versión e instalar todas las dependencias necesarias. Estas preparaciones aseguran un entorno estable y ayudan a prevenir problemas durante o después de la instalación.
+Antes de configurar **Joplin**, necesitas preparar tu sistema. Esto incluye actualizar tu sistema operativo a la última versión e instalar todas las dependencias requeridas. Estas preparaciones aseguran un entorno estable y ayudan a prevenir problemas durante o después de la instalación.
 
 
-### Actualizar sistema
-Para asegurarte de que tu sistema corre con el software y parches de seguridad más recientes, siempre debes hacer una actualización del sistema primero. Para ello, ejecuta el siguiente comando:
+### Actualizar Sistema
+Para asegurarte de que tu sistema está ejecutando el software y las mejoras de seguridad más recientes, siempre debes realizar primero las actualizaciones del sistema. Para ello, ejecuta el siguiente comando:
 
 ```
 sudo apt update && sudo apt upgrade -y
 ```
-Esto garantiza que tu sistema tenga los últimos parches de seguridad y versiones de software antes de continuar.
+Esto garantiza que tu sistema tenga los parches de seguridad y versiones de software más recientes antes de continuar.
 
 ### Instalar dependencias
-Una vez completada la actualización, puedes proceder con la instalación de las dependencias.
+Una vez completado el proceso de actualización, puedes proceder con la instalación de las dependencias.
 
 #### Libfuse2
 El software Joplin requiere que Libfuse2 esté instalado primero. Para hacerlo, ejecuta el siguiente comando: 
@@ -74,13 +75,13 @@ sudo apt install -y libfuse2
 
 
 ## Instalación
-Ahora que se cumplen todos los requisitos y las preparaciones están listas, puedes proceder con la instalación de la aplicación Joplin. Para ello, ejecuta el siguiente comando:
+Ahora que se han cumplido todos los requisitos y se han completado las preparaciones necesarias, puedes proceder con la instalación de la aplicación Joplin. Para ello, ejecuta el siguiente comando:
 
 ```
 wget -O - https://raw.githubusercontent.com/laurent22/joplin/dev/Joplin_install_and_update.sh | bash
 ```
 
-Joplin se descargará e instalará usando el script oficial de instalación. Solo deja que el proceso termine y luego podrás lanzar la aplicación de inmediato.
+Joplin se descargará e instalará usando el script oficial de instalación. Simplemente deja que el proceso termine, después de lo cual podrás lanzar la aplicación de inmediato.
 
 
 
@@ -90,24 +91,24 @@ Joplin se descargará e instalará usando el script oficial de instalación. Sol
 
 ## Configuración
 
-Después de instalar Joplin, deberías configurar los ajustes básicos para adaptar la aplicación a tu flujo de trabajo. La configuración está accesible desde el menú *Settings*.
+Después de instalar Joplin, deberías configurar los ajustes básicos para adaptar la aplicación a tu flujo de trabajo. La configuración está accesible a través del menú *Configuración*.
 
-**Sincronización**  
-Joplin soporta múltiples destinos de sincronización como Nextcloud, Dropbox, OneDrive o WebDAV. Selecciona tu proveedor preferido en “Synchronization” e ingresa tus credenciales. Esto te permite mantener las notas actualizadas entre dispositivos.
+**Sincronización**
+Joplin soporta múltiples destinos de sincronización como Nextcloud, Dropbox, OneDrive o WebDAV. Selecciona tu proveedor preferido en “Sincronización” e ingresa tus credenciales. Esto te permite mantener las notas actualizadas entre dispositivos.
 
-**Cifrado**  
-Para asegurar tus notas sincronizadas, activa el cifrado de extremo a extremo en los ajustes de “Encryption”. Se generará una clave que debe configurarse en todos los dispositivos que accedan a tus notas.
+**Cifrado**
+Para asegurar tus notas sincronizadas, activa el cifrado de extremo a extremo en la configuración de “Cifrado”. Se generará una clave que debe configurarse en todos los dispositivos que accedan a tus notas.
 
-**Editor y apariencia**  
-Joplin usa Markdown para las notas. En los ajustes de “Editor” puedes definir si la vista previa se muestra automáticamente y ajustar el tipo y tamaño de fuente.
+**Editor y Apariencia**
+Joplin usa Markdown para las notas. En la configuración del “Editor” puedes definir si la vista previa se muestra automáticamente y ajustar el tipo y tamaño de fuente.
 
-**Plugins y extensiones**  
+**Plugins y Extensiones**
 El gestor de plugins integrado te permite instalar funciones adicionales, como soporte para diagramas, integración de calendario o gestión avanzada de etiquetas.
 
-**Web Clipper**  
+**Recortador Web**
 Opcionalmente, activa la extensión de navegador “Joplin Web Clipper” para guardar páginas web completas o selecciones directamente como notas.
 
-Con estos ajustes básicos, Joplin está listo para usarse en varios escenarios, como gestión de tareas, documentación de proyectos o bases de conocimiento personales.
+Con estos ajustes básicos, Joplin está listo para usarse en una variedad de escenarios, como gestión de tareas, documentación de proyectos o bases de conocimiento personales.
 
 
 
@@ -116,12 +117,12 @@ Con estos ajustes básicos, Joplin está listo para usarse en varios escenarios,
 
 
 
-## Conclusión y más recursos
+## Conclusión y más Recursos
 
-¡Felicidades! Ya has instalado y configurado Joplin en tu VPS con éxito. También te recomendamos echar un vistazo a los siguientes recursos, que pueden ofrecerte ayuda y guía adicional durante la configuración de tu servidor:
+¡Felicidades! Ahora has instalado y configurado con éxito Joplin en tu VPS/servidor dedicado. También te recomendamos echar un vistazo a los siguientes recursos, que podrían ofrecerte ayuda y guía adicional durante el proceso de configuración de tu servidor:
 
-- [Joplinapp.org](https://joplin.org/) - Sitio oficial  
-- [Joplinapp.org/help/](https://joplinapp.org/help/) - Centro de ayuda de Joplin
+- [Joplinapp.org](https://joplin.org/) - Sitio Oficial
+- [Joplinapp.org/help/](https://joplinapp.org/help/) - Centro de Ayuda de Joplin
 
 ¿Tienes preguntas específicas que no se cubren aquí? Para más dudas o asistencia, no dudes en contactar a nuestro equipo de soporte, ¡disponible todos los días para ayudarte! 🙂
 

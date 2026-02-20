@@ -1,10 +1,11 @@
 ---
 id: vserver-linux-nextcloud
-title: "VPS：Nextcloud 安装指南"
+title: "在 Linux 服务器上安装 Nextcloud - 搭建你的私人云存储"
 description: "了解如何在 Linux 上搭建高性能 Nextcloud 服务器，实现最佳云托管体验 → 立即学习"
 sidebar_label: 安装 Nextcloud
 services:
   - vserver
+  - dedicated
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';
@@ -15,7 +16,7 @@ Nextcloud 是一个开源云解决方案，是 Owncloud 的分支项目，由前
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/kCndbKaFAaktERk/preview)
 
-为了获得最佳性能、稳定性和功能，推荐以下配置来托管 Nextcloud 服务器。Nextcloud 服务器不兼容 Windows 和 MacOS，至少不经过额外的虚拟化或类似的解决方案。
+为了实现最佳性能、稳定性和功能，推荐以下配置来托管 Nextcloud 服务器。Nextcloud 服务器不兼容 Windows 和 MacOS，除非通过虚拟化或类似的解决方案。
 
 <InlineVoucher />
 
@@ -25,12 +26,12 @@ Nextcloud 是一个开源云解决方案，是 Owncloud 的分支项目，由前
 
 #### 硬件
 
-| 组件           | 最低要求               | 推荐配置                     |
-| -------------- | ---------------------- | ---------------------------- |
-| CPU            | 2x 1 GHz               | 4x 2 GHz 及以上              |
-| 内存           | 512 MB                 | 4 GB 及以上                  |
-| 存储           | 10 GB                  | 50 GB 及以上                 |
-| 带宽           | 100 Mbit/s（上下行）   | 500 Mbit/s（上下行），多用户使用时推荐 |
+| 组件           | 最低要求               | 推荐配置                    |
+| -------------- | ---------------------- | --------------------------- |
+| CPU            | 2核 1 GHz              | 4核 2 GHz 以上              |
+| 内存           | 512 MB                 | 4 GB 以上                   |
+| 存储           | 10 GB                  | 50 GB 以上                  |
+| 带宽           | 100 Mbit/s（上下行）   | 500 Mbit/s（上下行）推荐，适合多用户使用云服务 |
 
 #### 软件
 
@@ -43,7 +44,7 @@ Nextcloud 是一个开源云解决方案，是 Owncloud 的分支项目，由前
 
 需要通过 SSH 客户端连接 Linux 服务器来安装云服务。如果你不确定如何使用 SSH，可以参考这篇指南：[初次访问（SSH）](vserver-linux-ssh.md)
 
-连接成功后，就可以开始安装 Nextcloud 所需的基础软件包，包括 Web 服务器和 PHP。
+连接成功后，就可以开始安装 Nextcloud 所需的软件包，包括 Web 服务器和 PHP。
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
@@ -56,7 +57,7 @@ import TabItem from '@theme/TabItem';
 
 **Apache（Web 服务器）**
 
-🗄️ Debian 8/9/10：
+🗄️ Debian 8/9/10:
 ```
 sudo apt update && sudo apt -y upgrade
 sudo apt -y install apache2
@@ -64,7 +65,7 @@ sudo apt -y install apache2
 
 **PHP（超文本预处理器）**
 
-🗄️ Debian 8：
+🗄️ Debian 8:
 ```
 # 第一步：添加 PHP 7.3 PPA 源
 sudo apt -y install lsb-release apt-transport-https ca-certificates 
@@ -78,7 +79,7 @@ sudo apt -y install php7.3
 sudo apt install php7.3-cli php7.3-fpm php7.3-json php7.3-pdo php7.3-mysql php7.3-zip php7.3-gd  php7.3-mbstring php7.3-curl php7.3-xml php7.3-bcmath php7.3-json
 ```
 
-🗄️ Debian 9：
+🗄️ Debian 9:
 ```
 # 第一步：添加 PHP 7.3 PPA 源
 sudo apt -y install lsb-release apt-transport-https ca-certificates 
@@ -92,7 +93,7 @@ sudo apt -y install php7.3
 sudo apt install php7.3-cli php7.3-fpm php7.3-json php7.3-pdo php7.3-mysql php7.3-zip php7.3-gd  php7.3-mbstring php7.3-curl php7.3-xml php7.3-bcmath php7.3-json
 ```
 
-🗄️ Debian 10：
+🗄️ Debian 10:
 ```
 # 第一步：安装 PHP 7.3
 sudo apt -y install php php-common
@@ -113,7 +114,7 @@ php -v
 
 **Apache（Web 服务器）**
 
-🗄️ Ubuntu 16.X/18.X/19.X：
+🗄️ Ubuntu 16.X/18.X/19.X:
 ```
 sudo apt update && sudo apt -y upgrade
 sudo apt-get -y install apache2
@@ -121,7 +122,7 @@ sudo apt-get -y install apache2
 
 **PHP（超文本预处理器）**
 
-🗄️ Ubuntu 16.X：
+🗄️ Ubuntu 16.X:
 ```
 # 第一步：添加 PHP 7.3 PPA
 sudo apt-get install software-properties-common
@@ -135,7 +136,7 @@ sudo apt-get install -y php7.3
 sudo apt install php7.3-cli php7.3-fpm php7.3-json php7.3-pdo php7.3-mysql php7.3-zip php7.3-gd  php7.3-mbstring php7.3-curl php7.3-xml php7.3-bcmath php7.3-json
 ```
 
-🗄️ Ubuntu 18.X：
+🗄️ Ubuntu 18.X:
 ```
 # 第一步：添加 PHP 7.3 PPA
 sudo apt-get install software-properties-common
@@ -149,7 +150,7 @@ sudo apt-get install -y php7.3
 sudo apt install php7.3-cli php7.3-fpm php7.3-json php7.3-pdo php7.3-mysql php7.3-zip php7.3-gd  php7.3-mbstring php7.3-curl php7.3-xml php7.3-bcmath php7.3-json
 ```
 
-🗄️ Ubuntu 19.X：
+🗄️ Ubuntu 19.X:
 ```
 # 第一步：添加 PHP 7.3 PPA
 sudo apt-get install software-properties-common
@@ -175,7 +176,7 @@ php -v
 
 **Apache（Web 服务器）**
 
-🗄️ CentOS 6：
+🗄️ CentOS 6:
 ```
 sudo yum -y update
 sudo yum -y install httpd
@@ -186,7 +187,7 @@ sudo systemctl start httpd
 sudo systemctl enable httpd.service
 ```
 
-🗄️ CentOS 7：
+🗄️ CentOS 7:
 ```
 sudo yum -y update
 sudo yum -y install httpd
@@ -197,7 +198,7 @@ sudo systemctl start httpd
 sudo systemctl enable httpd
 ```
 
-🗄️ CentOS 8：
+🗄️ CentOS 8:
 ```
 sudo yum -y update
 sudo yum -y install httpd
@@ -210,7 +211,7 @@ sudo systemctl enable httpd
 
 **PHP（超文本预处理器）**
 
-🗄️ CentOS 6：
+🗄️ CentOS 6:
 ```
 # 第一步：设置 Yum 仓库
 yum install epel-release
@@ -223,7 +224,7 @@ yum --enablerepo=remi-php73 install php
 yum --enablerepo=remi-php73 install php-xml php-soap php-xmlrpc php-mbstring php-json php-gd php-mcrypt
 ```
 
-🗄️ CentOS 7：
+🗄️ CentOS 7:
 ```
 # 第一步：设置 Yum 仓库
 yum install epel-release
@@ -236,7 +237,7 @@ yum --enablerepo=remi-php73 install php
 yum --enablerepo=remi-php73 install php-xml php-soap php-xmlrpc php-mbstring php-json php-gd php-mcrypt
 ```
 
-🗄️ CentOS 8：
+🗄️ CentOS 8:
 ```
 # 第一步：设置 Yum 仓库
 dnf install dnf-utils http://rpms.remirepo.net/enterprise/remi-release-8.rpm
@@ -255,7 +256,7 @@ php -v
 </TabItem>
 </Tabs>
 
-下一步是确定数据库类型，用于存储相关信息。这里有几个选项：
+下一步是定义数据库类型，用于存储相关信息。你可以选择以下几种：
 
 <Tabs>
 
@@ -269,26 +270,26 @@ php -v
 sudo apt-get install mariadb-server php-mysql
 ```
 
-安装过程中会提示设置 root 密码。如果没有提示，默认密码为空。这不安全，务必立即修改！
+安装过程中会提示设置 root 密码。如果没有提示，默认密码为空，这不安全，务必立即修改！
 
-接下来连接数据库服务器并创建所需数据库：
+连接数据库服务器并创建数据库：
 
 ```sql
 mysql -u root -p
 CREATE DATABASE nextcloud;
 ```
 
-然后创建一个用户，赋予访问 Nextcloud 数据库的权限：
+接着创建一个用户，赋予访问 Nextcloud 数据库的权限：
 
 ```sql
 CREATE USER 'nc_user'@'localhost' IDENTIFIED BY 'YOUR_PASSWORD_HERE';
 ```
 
 :::info
-不要跳过这步直接用 root 用户！这不安全，会让你的数据暴露风险！
+不要跳过这步使用 root 用户！这不安全，会让你的数据处于风险中！
 :::
 
-最后给新用户分配权限：
+最后赋予新用户权限：
 
 ```SQL
 GRANT ALL PRIVILEGES ON nextcloud.* TO 'nc_user'@'localhost';
@@ -308,26 +309,26 @@ FLUSH PRIVILEGES;
 sudo apt-get install mysql-server php-mysql
 ```
 
-安装过程中会提示设置 root 密码。如果没有提示，默认密码为空。这不安全，务必立即修改！
+安装过程中会提示设置 root 密码。如果没有提示，默认密码为空，这不安全，务必立即修改！
 
-接下来连接数据库服务器并创建所需数据库：
+连接数据库服务器并创建数据库：
 
 ```sql
 mysql -u root -p
 CREATE DATABASE nextcloud;
 ```
 
-然后创建一个用户，赋予访问 Nextcloud 数据库的权限：
+接着创建一个用户，赋予访问 Nextcloud 数据库的权限：
 
 ```sql
 CREATE USER 'nc_user'@'localhost' IDENTIFIED BY 'YOUR_PASSWORD_HERE';
 ```
 
 :::info
-不要跳过这步直接用 root 用户！这不安全，会让你的数据暴露风险！
+不要跳过这步使用 root 用户！这不安全，会让你的数据处于风险中！
 :::
 
-最后给新用户分配权限：
+最后赋予新用户权限：
 
 ```SQL
 GRANT ALL PRIVILEGES ON nextcloud.* TO 'nc_user'@'localhost';
@@ -347,26 +348,26 @@ sudo apt-get update
 sudo apt-get install postgresql postgresql-contrib
 ```
 
-安装过程中会提示设置 root 密码。如果没有提示，默认密码为空。这不安全，务必立即修改！
+安装过程中会提示设置 root 密码。如果没有提示，默认密码为空，这不安全，务必立即修改！
 
-接下来连接数据库服务器并创建所需数据库：
+连接数据库服务器并创建数据库：
 
 ```sql
 sudo -u postgres psql
 CREATE DATABASE nextcloud;
 ```
 
-然后创建一个用户，赋予访问 Nextcloud 数据库的权限：
+接着创建一个用户，赋予访问 Nextcloud 数据库的权限：
 
 ```sql
 CREATE USER nextcloud with encrypted password 'YOUR_PASSWORD_HERE';
 ```
 
 :::info
-不要跳过这步直接用 root 用户！这不安全，会让你的数据暴露风险！
+不要跳过这步使用 root 用户！这不安全，会让你的数据处于风险中！
 :::
 
-最后给新用户分配权限：
+最后赋予新用户权限：
 
 ```SQL
 grant all privileges on database mydb to myuser;
@@ -398,12 +399,12 @@ $AUTOCONFIG = array(
 apt-get install sqlite3 php-sqlite3
 ```
 
-创建新的 SQLite 3 数据库
+创建新的 SQLite 3 数据库：
 ```
 sqlite3 DatabaseName.db
 ```
 
-之后可以通过网页安装器或 **config.php** 配置文件修改 SQLite 3 数据库设置。
+之后你可以通过网页安装器或 **config.php** 配置文件修改 SQLite 3 数据库设置。
 ```
 <?php
 $AUTOCONFIG = array(
@@ -417,7 +418,7 @@ $AUTOCONFIG = array(
 
 ## 安装
 
-现在可以开始正式安装 Nextcloud 了。先下载并解压软件包：
+现在可以开始正式安装 Nextcloud。先下载并解压软件包：
 ```
 cd /var/www/
 wget https://download.nextcloud.com/server/releases/latest.zip
@@ -441,7 +442,7 @@ rm latest.zip
 ![](https://screensaver01.zap-hosting.com/index.php/s/qJs3Sd8TiYAg6mB/preview)
 
 
-## 安全与防护
+## 安全与保护
 
 **安装警告**
 
@@ -451,7 +452,7 @@ rm latest.zip
 
 **数据目录**
 
-强烈建议将数据目录放在 Web 根目录之外（即 /var/www 之外）。最简单的方式是在新安装时指定。目录必须先创建并设置好权限。比如可以放在家目录下的 Cloud 文件夹：
+强烈建议将数据目录放在 Web 根目录之外（即 /var/www 之外）。最简单的方式是在新安装时定义目录。目录必须先创建并设置相应权限。比如可以在家目录下创建一个名为 Cloud 的目录存储数据。
 
 ```
 mkdir /home/cloud/
@@ -460,9 +461,9 @@ chown -R www-data:www-data /home/cloud/
 
 
 
-**通过 SSL 证书实现 HTTPS（Let's Encrypt）** 
+**通过 SSL 证书（Let's Encrypt）启用 HTTPS**
 
-一个靠谱的云服务必须通过 SSL 连接访问。没有 SSL 加密，数据和信息都是明文传输，极易被截获和读取。
+一个好的云解决方案应只通过 SSL 连接访问。没有 SSL 加密，数据和信息会以明文传输，极易被截获和读取。
 
 ```
 <IfModule mod_ssl.c>
@@ -499,7 +500,7 @@ SSLCertificateKeyFile /etc/letsencrypt/live/domain.tld/privkey.pem
 
 
 
-此外，所有 HTTP 流量都应通过 301 永久重定向跳转到 HTTPS。Apache 配置示例如下：
+此外，所有 HTTP 流量应通过 301 永久重定向跳转到 HTTPS。Apache 配置示例如下：
 
 ```
 <VirtualHost *:80>
@@ -511,22 +512,23 @@ SSLCertificateKeyFile /etc/letsencrypt/live/domain.tld/privkey.pem
 
 ## 管理 Nextcloud
 
-你可以通过浏览器访问 Nextcloud，也可以用手机和电脑上的客户端 App 访问。客户端下载地址：https://nextcloud.com/install/#install-clients
+你可以通过浏览器访问 Nextcloud，也可以通过手机和电脑上的 App 访问。客户端下载地址：https://nextcloud.com/install/#install-clients
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/aw6qpNE7TkwQeaP/preview)
 
-在设置里还能调整更多选项，查看日志、活动记录等重要信息。包括额外的安全设置（双因素认证、加密等）、界面设计（Logo、颜色、口号、头部）、访问权限等等。
+在设置中，你可以在安装后调整更多选项，查看重要信息如日志、活动记录。包括额外的安全设置（双因素认证、加密等）、界面设计（Logo、颜色、口号、页眉）、访问权限等。
 
 **应用**
 
-此外，除了默认应用外，还可以安装更多扩展 App，入口在菜单的 **Apps** 里。
+此外，你还可以安装除默认应用外的更多应用，入口在菜单项 **Apps**。
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/wKERd24E25668kt/preview)
 
-通过这些 **Apps**，你可以根据需求进一步定制 Nextcloud。
+通过这些 **Apps**，你可以根据需求进一步个性化你的 Nextcloud。
+
 
 ## 总结
 
-恭喜你，Nextcloud 安装成功！如果有任何问题或疑问，随时联系我们的支持团队，全天候为你服务！
+恭喜你，Nextcloud 安装成功！如果有任何问题或疑问，欢迎随时联系我们的支持团队，我们每天都在线为你服务！
 
 <InlineVoucher />

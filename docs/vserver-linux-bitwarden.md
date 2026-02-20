@@ -1,6 +1,6 @@
 ---
 id: vserver-linux-bitwarden
-title: "Setup Bitwarden on Linux"
+title: "Setup Bitwarden on a Linux Server - Secure Your Password Management"
 description: "Discover how to securely self-host Bitwarden for managing passwords with end-to-end encryption and strong credential features → Learn more now"
 sidebar_label: Install Bitwarden
 services:

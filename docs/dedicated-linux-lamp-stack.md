@@ -1,6 +1,6 @@
 ---
 id: dedicated-linux-lamp-stack
-title: "Dedicated Server: Setup LAMP stack - Linux, Apache, MySQL, PHP"
+title: "Setup a LAMP Stack on a Linux Server - Power Classic PHP Applications"
 description: "Discover how to set up a LAMP stack for hosting dynamic PHP websites on Linux servers efficiently → Learn more now"
 sidebar_label: Web LAMP stack
 services:
