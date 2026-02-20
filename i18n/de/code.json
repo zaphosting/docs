@@ -17,20 +17,44 @@
   "voucherbox.cta": {
     "message": "Server mieten"
   },
+  "voucherbox.auto-apply": {
+    "message": "Über den \"Jetzt bestellen\" Button wird der Gutschein automatisch angewendet."
+  },
   "voucherbutton.success": {
     "message": "JUHUUU!"
   },
   "inlinevoucher.title": {
     "message": "{voucherValue} {voucherType} HOSTING-GUTSCHEIN 🏷️"
   },
+  "inlinevoucher.title.generic": {
+    "message": "HOSTING-GUTSCHEIN 🏷️"
+  },
   "inlinevoucher.description.with-products": {
-    "message": "Nutze die Gelegenheit und starte noch heute dein eigenes Projekt! Verwende den Gutschein für die in dieser Anleitung aufgeführten Produkte und sichere dir 50 % Rabatt. 😉"
+    "message": "Nutze die Gelegenheit und starte noch heute dein eigenes Projekt! Verwende den Gutschein für die in dieser Anleitung aufgeführten Produkte und spare. 😉"
+  },
+  "inlinevoucher.description.rental-note": {
+    "message": "Dieser Rabattcode kann für die folgenden Produkte auf Mietbasis verwendet werden:"
   },
   "inlinevoucher.list-title.with-products": {
     "message": "Dieser Gutschein kann für folgende Produkte auf Mietbasis verwendet werden:"
   },
   "inlinevoucher.your-voucher": {
     "message": "DEIN CODE"
+  },
+  "inlinevoucher.code-label": {
+    "message": "Code:"
+  },
+  "inlinevoucher.cta": {
+    "message": "Jetzt bestellen"
+  },
+  "inlinevoucher.select-product": {
+    "message": "Produkt wählen:"
+  },
+  "inlinevoucher.coupon-description": {
+    "message": "Kopiere den Code und wende ihn beim Checkout an oder nutze den Bestell-Button unten."
+  },
+  "inlinevoucher.auto-apply": {
+    "message": "Durch die Nutzung des Bestell-Buttons wird der Gutschein automatisch angewendet."
   },
   "voucher.redeem": {
     "message": "Einlösen"
@@ -39,10 +63,10 @@
     "message": "HOSTING-GUTSCHEIN"
   },
   "servicelist.introduction": {
-    "message": "Die Anleitung wurde mit folgenden Produkten erstellt:"
+    "message": "Die passenden Produkte für diese Anleitung"
   },
   "servicelist.note": {
-    "message": "(Einzelheiten können sich bei Produkten anderer Anbieter unterscheiden, die Grundkonzepte bleiben in der Regel unverändert)"
+    "message": "Lege direkt los — bestelle das passende Produkt und folge dieser Anleitung Schritt für Schritt."
   },
   "service.gameserver.path": {
     "message": "{marketingSite}/{language}/gameserver-mieten/",
@@ -2047,5 +2071,14 @@
   },
   "dropdown.software.vrising": {
     "message": "V-Rising"
+  },
+  "service.price.from": {
+    "message": "ab"
+  },
+  "inlineservicelink.cta": {
+    "message": "Jetzt bestellen"
+  },
+  "inlineservicelink.cta.title": {
+    "message": "Jetzt bestellen"
   }
 }

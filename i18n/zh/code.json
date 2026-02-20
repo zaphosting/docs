@@ -1146,8 +1146,14 @@
   "inlinevoucher.title": {
     "message": "{voucherValue} {voucherType} HOSTING DISCOUNT 🏷️"
   },
+  "inlinevoucher.title.generic": {
+    "message": "主机折扣 🏷️"
+  },
   "inlinevoucher.description.with-products": {
-    "message": "Take the opportunity and start your own project today! Use the discount code for the products listed in this guide and get a 50% discount. 😉"
+    "message": "抓住机会，今天就开始您自己的项目！使用本指南中产品的折扣码来节省费用。😉"
+  },
+  "inlinevoucher.description.rental-note": {
+    "message": "此折扣码可用于以下租赁产品："
   },
   "inlinevoucher.list-title.with-products": {
     "message": "此优惠码可用于以下产品的租赁："
@@ -1170,8 +1176,26 @@
   "inlinevoucher.your-voucher": {
     "message": "你的代码"
   },
+  "inlinevoucher.code-label": {
+    "message": "代码:"
+  },
+  "inlinevoucher.cta": {
+    "message": "立即订购"
+  },
+  "inlinevoucher.select-product": {
+    "message": "选择产品："
+  },
+  "inlinevoucher.coupon-description": {
+    "message": "复制代码并在结账时使用，或使用下方的订购按钮。"
+  },
+  "inlinevoucher.auto-apply": {
+    "message": "使用订购按钮后，优惠券将自动应用。"
+  },
   "voucherbox.cta": {
     "message": "租用服务器"
+  },
+  "voucherbox.auto-apply": {
+    "message": "使用\"立即订购\"按钮后，优惠券将自动应用。"
   },
   "voucher.redeem": {
     "message": "兑换"
@@ -1204,10 +1228,10 @@
     "message": "耶耶耶！"
   },
   "servicelist.introduction": {
-    "message": "本指南是针对以下产品创建的："
+    "message": "本指南的理想产品"
   },
   "servicelist.note": {
-    "message": "（不同供应商的产品可能会有所不同，但主要概念保持不变）"
+    "message": "立即开始 — 订购合适的产品，按照本指南一步一步操作。"
   },
   "footer.cookieSettings": {
     "message": "Cookie 设置"
@@ -2019,5 +2043,14 @@
   },
   "dropdown.software.vrising": {
     "message": "V-Rising"
+  },
+  "service.price.from": {
+    "message": "起步价"
+  },
+  "inlineservicelink.cta": {
+    "message": "立即订购"
+  },
+  "inlineservicelink.cta.title": {
+    "message": "立即订购"
   }
 }

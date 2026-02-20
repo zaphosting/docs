@@ -1094,8 +1094,14 @@
   "inlinevoucher.title": {
     "message": "Recursos"
   },
+  "inlinevoucher.title.generic": {
+    "message": "DESCUENTO HOSTING 🏷️"
+  },
   "inlinevoucher.description.with-products": {
-    "message": "¡Aprovecha la oportunidad y comienza tu propio proyecto hoy! Usa el código de descuento para los productos listados en esta guía y obtén un 50% de descuento. 😉"
+    "message": "¡Aprovecha la oportunidad y comienza tu propio proyecto hoy! Utiliza el código de descuento para los productos de esta guía y ahorra. 😉"
+  },
+  "inlinevoucher.description.rental-note": {
+    "message": "Este código de descuento se puede utilizar para los siguientes productos en régimen de alquiler:"
   },
   "inlinevoucher.list-title.with-products": {
     "message": "Este código de descuento se puede utilizar para los siguientes productos en modalidad de alquiler:"
@@ -1118,8 +1124,26 @@
   "inlinevoucher.your-voucher": {
     "message": "TU CÓDIGO"
   },
+  "inlinevoucher.code-label": {
+    "message": "Código:"
+  },
+  "inlinevoucher.cta": {
+    "message": "Pedir ahora"
+  },
+  "inlinevoucher.select-product": {
+    "message": "Seleccionar producto:"
+  },
+  "inlinevoucher.coupon-description": {
+    "message": "Copia el código y aplícalo en el proceso de pago o usa el botón de pedido a continuación."
+  },
+  "inlinevoucher.auto-apply": {
+    "message": "Al usar el botón de pedido, el cupón se aplica automáticamente."
+  },
   "voucherbox.cta": {
     "message": "Alquilar un servidor"
+  },
+  "voucherbox.auto-apply": {
+    "message": "Al usar el botón \"Pedir ahora\", el cupón se aplica automáticamente."
   },
   "voucher.redeem": {
     "message": "Canjear"
@@ -1164,10 +1188,10 @@
     "message": "¡SÍÍÍ!"
   },
   "servicelist.introduction": {
-    "message": "Esta guía fue creada con los siguientes productos:"
+    "message": "Los productos ideales para esta guía"
   },
   "servicelist.note": {
-    "message": "(Los detalles pueden variar según los productos de diferentes proveedores, pero los conceptos principales permanecen igual)"
+    "message": "Empieza de inmediato — pide el producto adecuado y sigue esta guía paso a paso."
   },
   "voucherbox.title": {
     "message": "Frameworks"
@@ -2019,5 +2043,14 @@
   },
   "dropdown.software.vrising": {
     "message": "V-Rising"
+  },
+  "service.price.from": {
+    "message": "desde"
+  },
+  "inlineservicelink.cta": {
+    "message": "Pedir ahora"
+  },
+  "inlineservicelink.cta.title": {
+    "message": "Pedir ahora"
   }
 }

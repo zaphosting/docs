@@ -1094,8 +1094,14 @@
   "inlinevoucher.title": {
     "message": "{voucherValue} {voucherType} DESCONTO EM HOSPEDAGEM 🏷️"
   },
+  "inlinevoucher.title.generic": {
+    "message": "DESCONTO HOSTING 🏷️"
+  },
   "inlinevoucher.description.with-products": {
-    "message": "Aproveite a oportunidade e comece seu próprio projeto hoje! Use o código de desconto para os produtos listados neste guia e obtenha 50% de desconto. 😉"
+    "message": "Aproveite a oportunidade e comece o seu projeto hoje! Use o código de desconto para os produtos deste guia e economize. 😉"
+  },
+  "inlinevoucher.description.rental-note": {
+    "message": "Este código de desconto pode ser utilizado para os seguintes produtos em regime de aluguel:"
   },
   "inlinevoucher.list-title.with-products": {
     "message": "Este código de desconto pode ser usado para os seguintes produtos em regime de aluguel:"
@@ -1118,8 +1124,26 @@
   "inlinevoucher.your-voucher": {
     "message": "SEU CÓDIGO"
   },
+  "inlinevoucher.code-label": {
+    "message": "Código:"
+  },
+  "inlinevoucher.cta": {
+    "message": "Encomendar"
+  },
+  "inlinevoucher.select-product": {
+    "message": "Selecionar produto:"
+  },
+  "inlinevoucher.coupon-description": {
+    "message": "Copie o código e aplique-o no checkout ou use o botão de encomenda abaixo."
+  },
+  "inlinevoucher.auto-apply": {
+    "message": "Ao usar o botão de encomenda, o voucher é aplicado automaticamente."
+  },
   "voucherbox.cta": {
     "message": "Alugar um servidor"
+  },
+  "voucherbox.auto-apply": {
+    "message": "Ao usar o botão \"Encomendar\", o voucher é aplicado automaticamente."
   },
   "voucher.redeem": {
     "message": "Resgatar"
@@ -1164,10 +1188,10 @@
     "message": "IHHHUU!"
   },
   "servicelist.introduction": {
-    "message": "Este guia foi criado com os seguintes produtos:"
+    "message": "Os produtos ideais para este guia"
   },
   "servicelist.note": {
-    "message": "(Os detalhes podem variar com produtos de diferentes fornecedores, mas os conceitos principais permanecem os mesmos)"
+    "message": "Comece agora mesmo — peça o produto adequado e siga este guia passo a passo."
   },
   "voucherbox.title": {
     "message": "DESCONTO DE HOSPEDAGEM"
@@ -2019,5 +2043,14 @@
   },
   "dropdown.software.vrising": {
     "message": "V-Rising"
+  },
+  "service.price.from": {
+    "message": "a partir de"
+  },
+  "inlineservicelink.cta": {
+    "message": "Pedir agora"
+  },
+  "inlineservicelink.cta.title": {
+    "message": "Pedir agora"
   }
 }
