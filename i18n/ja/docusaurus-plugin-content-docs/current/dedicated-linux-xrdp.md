@@ -1,9 +1,10 @@
 ---
 id: dedicated-linux-xrdp
-title: "専用サーバー：xRDP（リモートデスクトップ）のインストール"
+title: "LinuxサーバーにxRDPをセットアップ - リモートデスクトップアクセスを有効化"
 description: "UbuntuやDebianサーバーでリモートデスクトップアクセスを設定して、管理や操作をもっと簡単に → 今すぐチェック"
 sidebar_label: xRDPのインストール
 services:
+  - vserver
   - dedicated
 ---
 
@@ -11,11 +12,11 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## はじめに
 
-Linuxでは通常、サーバー管理にSSHコンソールがデフォルトで用意されています。でも、Windowsのようなリモートデスクトップ接続の方が楽な場合もありますよね。  
-ほとんどのLinuxディストリビューションでインストール後の設定が可能です。このガイドではUbuntuとDebianでのやり方を解説します。
+Linuxでは通常、SSHコンソールがデフォルトでサーバー管理に使われます。でも、Windowsのようにリモートデスクトップ接続を使ったほうが楽な場合もあります。  
+ほとんどのLinuxディストリビューションでインストール後に設定可能です。このガイドではUbuntuとDebianでのやり方を説明します。
 
 :::info
-重要：OSは最低でもUbuntu 18.04.X LTS（Bionic Beaver）またはDebian 10（Buster）を使ってください。より新しいバージョンを推奨します。
+重要：OSは最低でもUbuntu 18.04.X LTS（Bionic Beaver）かDebian 10（Buster）を使ってください。より新しいバージョンを推奨します。
 :::
 
 ## xRDPのインストール
@@ -66,7 +67,7 @@ sudo adduser xrdp ssl-cert; sudo systemctl restart xrdp
 sudo adduser xrdp ssl-cert; sudo systemctl restart xrdp
 ```
 
-設定が完了したら、リモートデスクトップでrootまたは各ユーザーのアカウントに接続できます。  
+設定が終わったら、リモートデスクトップでrootまたは該当ユーザーのアカウントに接続できます。  
 デフォルトのポートは：3389
 
 ## 接続方法

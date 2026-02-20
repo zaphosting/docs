@@ -1,10 +1,11 @@
 ---
 id: vserver-linux-nextcloud
-title: "VPS: Installation av Nextcloud"
-description: "Upptäck hur du sätter upp en högpresterande Nextcloud-server på Linux för optimal molnhosting → Lär dig mer nu"
+title: "Installera Nextcloud på en Linux-server – Bygg din privata molnlagring"
+description: "Upptäck hur du sätter upp en högpresterande Nextcloud-server på Linux för optimal molnhosting → Läs mer nu"
 sidebar_label: Installera Nextcloud
 services:
   - vserver
+  - dedicated
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';
@@ -25,25 +26,25 @@ Följande krav rekommenderas av utvecklarna och baseras på vår egen erfarenhet
 
 #### Hårdvara
 
-| Komponenter   | Minimum                | Rekommenderat               |
-| ------------- | ---------------------- | --------------------------- |
-| CPU           | 2x 1 GHz               | 4x 2+ GHz                   |
-| RAM           | 512 MB                 | 4+ GB                       |
-| Lagring       | 10 GB                  | 50+ GB                      |
-| Bandbredd     | 100 mbit/s (upp & ner) | 500 mbit/s (upp & ner) Rekommenderas om flera användare ska använda molnet |
+| Komponenter    | Minsta krav           | Rekommenderat             |
+| -------------- | --------------------- | ------------------------- |
+| CPU            | 2x 1 GHz              | 4x 2+ GHz                 |
+| RAM            | 512 MB                | 4+ GB                     |
+| Lagring        | 10 GB                 | 50+ GB                    |
+| Bandbredd      | 100 mbit/s (upp & ner)| 500 mbit/s (upp & ner) Rekommenderas om flera användare ska använda molnet |
 
 #### Mjukvara
 
 | Plattform       | Alternativ                                                   |
 | --------------- | ------------------------------------------------------------ |
 | Operativsystem  | Ubuntu (14.04, 16.04, 18.04), Debian (8,9,10), CentOS 6.5/7  |
-| Databas         | MySQL eller MariaDB 5.5+ (rekommenderat), SQLite (endast för test och minimala instanser) |
-| Webbserver      | Apache 2.4 med `mod_php` eller `php-fpm` (rekommenderat)     |
-| PHP             | 5.6, 7.0 (rekommenderat), 7.1 (rekommenderat), 7.2           |
+| Databas         | MySQL eller MariaDB 5.5+ (rekommenderas), SQLite (endast för test och minimala instanser) |
+| Webbserver      | Apache 2.4 med `mod_php` eller `php-fpm` (rekommenderas)     |
+| PHP             | 5.6, 7.0 (rekommenderas), 7.1 (rekommenderas), 7.2           |
 
 En anslutning måste upprättas via en SSH-klient för att installera molnet på en Linux-server. Om du är osäker på hur man använder SSH, här är en guide: [Initial access (SSH)](vserver-linux-ssh.md)
 
-När anslutningen är upprättad kan du börja installera nödvändiga paket som krävs för själva installationen av Nextcloud. Detta inkluderar installation av webbserver samt PHP.
+När anslutningen är upprättad kan du börja installera de nödvändiga paketen som krävs för själva installationen av Nextcloud. Detta inkluderar installation av webbserver samt PHP.
 
 
 import Tabs from '@theme/Tabs';
@@ -256,7 +257,7 @@ php -v
 </TabItem>
 </Tabs>
 
-Nästa steg är att definiera en databas för att lagra relevant info. Det finns flera alternativ:
+Nästa steg är att definiera en databas för att lagra relevant information. Det finns flera alternativ:
 
 
 <Tabs>
@@ -264,14 +265,14 @@ Nästa steg är att definiera en databas för att lagra relevant info. Det finns
 <TabItem value="MariaDB" label="MariaDB" default>
 
 <br/>
-Om du valt denna databas följer du dessa steg:
+Om du valt att använda denna typ av databas, följ dessa steg:
 
 Installera paket:
 ```
 sudo apt-get install mariadb-server php-mysql
 ```
 
-Under installationen kommer du bli ombedd att sätta ett root-lösenord. Om inget lösenord efterfrågas är standardlösenordet tomt. Detta är osäkert och bör ändras direkt efteråt!
+Under installationen kommer du bli ombedd att sätta ett root-lösenord. Om inget lösenord efterfrågas är standardlösenordet tomt. Detta är inte säkert och bör ändras omedelbart!
 
 Nästa steg är att ansluta till databasservern och skapa den nödvändiga databasen:
 
@@ -280,7 +281,7 @@ mysql -u root -p
 CREATE DATABASE nextcloud;
 ```
 
-Sedan måste en användare skapas som får tillgång till Nextcloud-databasen.
+Därefter måste en användare skapas som får tillgång till Nextcloud-databasen.
 
 ```sql
 CREATE USER 'nc_user'@'localhost' IDENTIFIED BY 'DITT_LÖSENORD_HÄR';
@@ -303,14 +304,14 @@ När du är klar kan du trycka Ctrl-D för att lämna databasen och fortsätta m
 <TabItem value="MySQL" label="MySQL">
 
 <br/>
-Om du valt denna databas följer du dessa steg:
+Om du valt att använda denna typ av databas, följ dessa steg:
 
 Installera paket:
 ```
 sudo apt-get install mysql-server php-mysql
 ```
 
-Under installationen kommer du bli ombedd att sätta ett root-lösenord. Om inget lösenord efterfrågas är standardlösenordet tomt. Detta är osäkert och bör ändras direkt efteråt!
+Under installationen kommer du bli ombedd att sätta ett root-lösenord. Om inget lösenord efterfrågas är standardlösenordet tomt. Detta är inte säkert och bör ändras omedelbart!
 
 Nästa steg är att ansluta till databasservern och skapa den nödvändiga databasen:
 
@@ -319,7 +320,7 @@ mysql -u root -p
 CREATE DATABASE nextcloud;
 ```
 
-Sedan måste en användare skapas som får tillgång till Nextcloud-databasen.
+Därefter måste en användare skapas som får tillgång till Nextcloud-databasen.
 
 ```sql
 CREATE USER 'nc_user'@'localhost' IDENTIFIED BY 'DITT_LÖSENORD_HÄR';
@@ -342,7 +343,7 @@ När du är klar kan du trycka Ctrl-D för att lämna databasen och fortsätta m
 </TabItem>
 <TabItem value="PostgreSQL" label="PostgreSQL">
 <br/>
-Om du valt denna databas följer du dessa steg:
+Om du valt att använda denna typ av databas, följ dessa steg:
 
 Installera paket:
 ```
@@ -350,7 +351,7 @@ sudo apt-get update
 sudo apt-get install postgresql postgresql-contrib
 ```
 
-Under installationen kommer du bli ombedd att sätta ett root-lösenord. Om inget lösenord efterfrågas är standardlösenordet tomt. Detta är osäkert och bör ändras direkt efteråt!
+Under installationen kommer du bli ombedd att sätta ett root-lösenord. Om inget lösenord efterfrågas är standardlösenordet tomt. Detta är inte säkert och bör ändras omedelbart!
 
 Nästa steg är att ansluta till databasservern och skapa den nödvändiga databasen:
 
@@ -359,7 +360,7 @@ sudo -u postgres psql
 CREATE DATABASE nextcloud;
 ```
 
-Sedan måste en användare skapas som får tillgång till Nextcloud-databasen.
+Därefter måste en användare skapas som får tillgång till Nextcloud-databasen.
 
 ```sql
 CREATE USER nextcloud with encrypted password 'DITT_LÖSENORD_HÄR';
@@ -394,7 +395,7 @@ $AUTOCONFIG = array(
 <TabItem value="SQLite" label="SQLite">
 
 <br/>
-Om du valt denna databas följer du dessa steg:
+Om du valt att använda denna typ av databas, följ dessa steg:
 
 Installera paket:
 ```
@@ -420,7 +421,7 @@ $AUTOCONFIG = array(
 
 ## Installation
 
-Nu kan själva installationen av Nextcloud starta. Mjukvaran behöver laddas ner och packas upp:
+Nu kan själva installationen av Nextcloud starta. Programvaran behöver laddas ner och packas upp:
 ```
 cd /var/www/
 wget https://download.nextcloud.com/server/releases/latest.zip
@@ -452,9 +453,9 @@ Installationsscriptets konfiguration visas, där en root-användare skapas och d
 
 
 
-**Data-katalog**
+**Datakatalog**
 
-Det rekommenderas starkt att placera datakatalogen utanför webbrooten (dvs utanför /var/www). Det enklaste är att göra detta vid en nyinstallation. Katalogen kan definieras under setup. Dock måste katalogen först skapas och rätt behörigheter sättas. Data kan till exempel lagras i en katalog som heter Cloud i hemkatalogen.
+Det rekommenderas starkt att placera datakatalogen utanför webbroot-katalogen (dvs utanför /var/www). Det enklaste sättet är vid en nyinstallation. Katalogen kan definieras under setup. Dock måste katalogen först skapas och rätt behörigheter sättas. Data kan till exempel sparas i en katalog som heter Cloud i hemkatalogen.
 
 
 ```
@@ -466,7 +467,7 @@ chown -R www-data:www-data /home/cloud/
 
 **HTTPS via SSL-certifikat (Let's Encrypt)** 
 
-En bra molnlösning bör endast vara åtkomlig via SSL-anslutning. Utan SSL-kryptering överförs data och info i klartext. Sådan info kan enkelt och snabbt snappas upp och läsas utan kryptering.
+En bra molnlösning bör endast vara tillgänglig via SSL-anslutning. Utan SSL-kryptering överförs data och information i klartext. Sådan information kan enkelt och snabbt snappas upp och läsas utan kryptering.
 
 ```
 <IfModule mod_ssl.c>
@@ -515,7 +516,7 @@ Dessutom bör all HTTP-trafik omdirigeras till HTTPS med en permanent omdirigeri
 
 ## Hantera Nextcloud
 
-Åtkomst till Nextcloud är möjlig via webbläsare, samt via smartphone och dator med appen. Nedladdningskällor finns här: https://nextcloud.com/install/#install-clients
+Åtkomst till Nextcloud är möjlig via webbläsaren, samt via smartphone och dator med appen. Nedladdningskällor finns här: https://nextcloud.com/install/#install-clients
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/aw6qpNE7TkwQeaP/preview)
 
@@ -532,6 +533,6 @@ Med sådana **Appar** kan du ytterligare anpassa Nextcloud efter dina önskemål
 
 ## Slutsats
 
-Grattis, du har installerat Nextcloud framgångsrikt! Om du har fler frågor eller problem, kontakta gärna vårt supportteam som finns tillgängligt varje dag!
+Grattis, du har installerat Nextcloud framgångsrikt! Om du har fler frågor eller problem, kontakta gärna vårt supportteam som finns tillgängligt varje dag för att hjälpa dig!
 
 <InlineVoucher />

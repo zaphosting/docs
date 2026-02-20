@@ -1,6 +1,6 @@
 ---
 id: dedicated-linux-notepad++
-title: "Servidor Dedicado: Configure o Notepad++ no Linux"
+title: "Configure o Notepad++ em um Servidor Linux - Use Seu Editor Preferido via Wine"
 description: "Descubra como configurar e otimizar o Notepad++ no Linux para uma edição de código poderosa e leve, aumentando sua produtividade como dev → Saiba mais agora"
 sidebar_label: Instalar Notepad++
 services:
@@ -13,11 +13,11 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introdução
 
-Notepad++ é um editor de texto e código-fonte gratuito e open-source para Windows. Ele suporta realce de sintaxe, dobramento de código e edição em abas para várias linguagens de programação e scripts, além de ser altamente personalizável via plugins. Conhecido por sua performance rápida e baixo consumo de recursos, o Notepad++ continua sendo uma escolha popular para devs e usuários que buscam uma ferramenta poderosa e leve para edição.
+Notepad++ é um editor de texto e código-fonte gratuito e open-source para Windows. Ele suporta realce de sintaxe, dobramento de código e edição em abas para várias linguagens de programação e script, além de ser altamente personalizável via plugins. Conhecido por sua performance rápida e baixo consumo de recursos, o Notepad++ continua sendo uma escolha popular para devs e usuários que buscam uma ferramenta poderosa e leve para edição.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/jMMDejqDfWDCfrr/preview)
 
-Quer hospedar esse serviço você mesmo? Vamos te guiar em cada passo para configurar e ajustar tudo, além de te mostrar o que é importante ficar de olho.
+Pensando em hospedar esse serviço você mesmo? Vamos te guiar passo a passo para configurar e ajustar tudo, além de te mostrar o que é importante ficar de olho.
 
 :::danger Linux com Variante Desktop necessária
 Esse aplicativo só pode ser instalado e usado em um sistema Linux com interface gráfica; neste exemplo, usamos o Ubuntu Desktop 25.04 como referência.
@@ -28,7 +28,7 @@ Esse aplicativo só pode ser instalado e usado em um sistema Linux com interface
 
 
 
-## Requisitos
+## Pré-requisitos
 
 Antes de instalar o **Notepad++**, certifique-se de que seu ambiente de hospedagem atende aos seguintes requisitos para garantir uma instalação tranquila e desempenho ideal.
 
@@ -38,7 +38,7 @@ Antes de instalar o **Notepad++**, certifique-se de que seu ambiente de hospedag
 | RAM | 2 GB | 4 GB |
 | Espaço em disco | 25 MB | 25 GB |
 
-O software exige que todas as dependências necessárias estejam instaladas e que rode em um sistema operacional suportado. Confira se seu servidor atende aos requisitos abaixo antes de continuar com a instalação:
+O software exige que todas as dependências necessárias estejam instaladas e que esteja rodando em um sistema operacional suportado. Confira se seu servidor atende aos requisitos abaixo antes de continuar com a instalação:
 
 **Dependências:** `Snap`
 
@@ -50,7 +50,7 @@ Garanta que todas as dependências estejam instaladas e que a versão correta do
 
 ## Preparação
 
-Antes de configurar o **Notepad++**, você precisa preparar seu sistema. Isso inclui atualizar seu sistema operacional para a versão mais recente e instalar todas as dependências necessárias. Essas preparações garantem um ambiente estável e ajudam a evitar problemas durante ou após a instalação.
+Antes de configurar o **Notepad++**, você precisa preparar seu sistema. Isso inclui atualizar o sistema operacional para a versão mais recente e instalar todas as dependências necessárias. Essas preparações garantem um ambiente estável e ajudam a evitar problemas durante ou após a instalação.
 
 
 ### Atualizar Sistema
@@ -74,7 +74,7 @@ sudo apt install snapd
 
 
 ## Instalação
-Agora que todos os requisitos foram cumpridos e as preparações feitas, você pode prosseguir com a instalação do Notepad++. Para isso, execute o comando:
+Agora que todos os requisitos foram atendidos e as preparações feitas, você pode prosseguir com a instalação do Notepad++. Para isso, execute o comando:
 
 ```
 sudo snap install notepad-plus-plus
@@ -88,12 +88,12 @@ O Notepad++ será baixado e instalado usando o script oficial. Deixe o processo 
 
 ## Configuração
 
-O Notepad++ oferece uma variedade enorme de opções de personalização acessíveis em *Configurações > Preferências*. Elas permitem que você adapte o editor ao seu fluxo de trabalho:
+O Notepad++ oferece uma ampla gama de opções de personalização acessíveis em *Configurações > Preferências*. Elas permitem que você adapte o editor ao seu fluxo de trabalho:
 
 - **Geral**: Controle o comportamento na inicialização, como recarregar arquivos abertos anteriormente, definir uma linguagem padrão ou configurar o comportamento das abas.  
-- **Configurações do Editor**: Ajuste tipo e tamanho da fonte, largura da tabulação, numeração de linhas, auto-indentação ou se espaços e marcas de tabulação são exibidos.  
-- **Esquemas de Cores & Sintaxe**: Use o “Configurador de Estilo” para trocar temas e personalizar o realce de sintaxe para cada linguagem suportada.  
-- **Manipulação de Arquivos**: Configure opções como recarregamento automático ao alterar arquivos, comportamento com arquivos grandes ou preferências de codificação como UTF-8.  
+- **Configurações do Editor**: Ajuste o tipo e tamanho da fonte, largura da tabulação, numeração de linhas, auto-indentação ou se espaços e marcas de tabulação são exibidos.  
+- **Esquemas de Cores & Sintaxe**: Use o “Configurador de Estilo” para alternar temas e personalizar o realce de sintaxe para cada linguagem suportada.  
+- **Manipulação de Arquivos**: Configure opções como recarregamento automático de arquivos ao serem alterados, comportamento com arquivos grandes ou preferências de codificação como UTF-8.  
 - **Segurança & Backup**: Ative backups automáticos ou restauração de sessão para evitar perda de dados.  
 - **Plugins**: Instale e gerencie extensões via o Gerenciador de Plugins para adicionar funcionalidades como suporte FTP ou formatação avançada.  
 
@@ -110,7 +110,7 @@ Parabéns! Você instalou e configurou com sucesso o Notepad++ no seu Servidor D
 
 - [notepad-plus-plus.org/](https://notepad-plus-plus.org/) - Site Oficial
 
-Tem dúvidas específicas que não foram respondidas aqui? Para mais perguntas ou suporte, não hesite em contatar nosso time de suporte, disponível diariamente para te ajudar! 🙂
+Tem dúvidas específicas que não foram abordadas aqui? Para mais perguntas ou suporte, não hesite em contatar nosso time de suporte, disponível diariamente para te ajudar! 🙂
 
 
 

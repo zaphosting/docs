@@ -1,9 +1,10 @@
 ---
 id: dedicated-linux-webserver
-title: "Dedikerad Server: Installation av Nginx och Apache webbserver"
-description: "Upptäck hur du sätter upp och konfigurerar Nginx eller Apache webbservrar för att effektivt hosta din webbplats → Lär dig mer nu"
+title: "Installera Nginx och Apache på en Linux-server - Konfigurera kraftfulla webbservermiljöer"
+description: "Upptäck hur du installerar och konfigurerar Nginx eller Apache webbservrar för att effektivt hosta din webbplats → Läs mer nu"
 sidebar_label: Installera webbserver
 services:
+  - vserver
   - dedicated
 ---
 
@@ -11,13 +12,13 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introduktion
 
-Nginx och Apache är populära webbservrar som används för att leverera webbsidor till användarens webbläsare. Nedan visar vi hur du installerar en av dessa tjänster på ditt system. 
+Nginx och Apache är populära webbservrar som används för att leverera webbsidor till användarens webbläsare. Nedan visar vi hur du installerar en av servrarna på ditt system. 
 
 
 
-## Förberedelse
+## Förberedelser
 
-Innan själva installationen av en webbserver kan börja, är det viktigt att se till att systemet är uppdaterat. För att göra detta ansluter vi till servern via SSH. Om du inte vet vad SSH är eller hur du använder det, kolla in följande guide: [Initial access (SSH)](vserver-linux-ssh.md).
+Innan själva installationen av en webbserver kan börja är det viktigt att se till att systemet är uppdaterat. För att göra detta ansluter vi till servern via SSH. Om du inte vet vad SSH är eller hur du använder det, kolla in följande guide: [Första åtkomst (SSH)](vserver-linux-ssh.md).
 
 När du är inloggad kan du uppdatera systemet med följande kommando beroende på ditt operativsystem:
 
@@ -42,7 +43,7 @@ sudo dnf upgrade --refresh
 
 ## Installation
 
-När förberedelserna är klara kan installationen av webbservern börja. Beroende på operativsystem och webbserver behöver du köra följande kommandon:
+När förberedelserna är klara kan installationen av webbservern börja. Beroende på operativsystem och webbserver måste följande kommandon köras:
 
 
 

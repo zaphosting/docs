@@ -1,10 +1,11 @@
 ---
 id: vserver-linux-curl
-title: "VPS: Configurar cURL no Linux"
+title: "Configurar cURL em um Servidor Linux - Teste e Automatize Requisições HTTP"
 description: "Descubra como configurar e otimizar o cURL para transferências de dados eficientes e testes de API → Saiba mais agora"
 sidebar_label: Instalar cURL
 services:
   - vserver
+  - dedicated
 ---
 
 import Tabs from '@theme/Tabs';
@@ -24,7 +25,7 @@ Pensando em hospedar esse serviço você mesmo? Vamos te guiar em cada passo par
 Antes de configurar o **cURL**, você precisa preparar seu sistema. Isso inclui atualizar seu sistema operacional para a versão mais recente. Essas preparações garantem um ambiente estável e ajudam a evitar problemas durante ou após a instalação.
 
 ### Atualizar Sistema
-Para garantir que seu sistema esteja rodando com as versões mais recentes de software e melhorias de segurança, sempre faça a atualização do sistema primeiro. Para isso, execute o seguinte comando:
+Para garantir que seu sistema esteja rodando com as melhorias mais recentes de software e segurança, sempre faça a atualização do sistema primeiro. Para isso, execute o comando:
 
 ```
 sudo apt update && sudo apt upgrade -y
@@ -33,10 +34,10 @@ Isso garante que seu sistema tenha os patches de segurança e versões de softwa
 
 ## Instalação
 
-Agora que as preparações necessárias foram feitas, você pode seguir com a instalação do aplicativo cURL. Para isso, execute o comando abaixo:
+Agora que as preparações necessárias foram feitas, você pode seguir com a instalação do cURL. Para isso, execute o comando:
 
 ```console
-sudo apt install curl -y
+sudo apt install curl  -y
 ```
 
 ## Configuração
@@ -45,18 +46,18 @@ O cURL não exige uma configuração tradicional, mas pode ser personalizado atr
 
 - `--user-agent "MyAgent/1.0"` para especificar um user agent personalizado  
 - `--silent` para suprimir barras de progresso ou saídas extras  
-- `--insecure` para desabilitar a verificação de certificados SSL (recomendado apenas para testes)  
+- `--insecure` para desabilitar checagens de certificado SSL (recomendado apenas para testes)  
 - `--header "Authorization: Bearer <TOKEN>"` para autenticação em APIs  
 
-Além disso, variáveis de ambiente como `HTTP_PROXY` ou `HTTPS_PROXY` podem ser configuradas para rotear as requisições do cURL através de um servidor proxy. Essa configuração torna o cURL mais eficiente para tarefas repetitivas, evitando ter que digitar opções longas toda hora.
+Além disso, variáveis de ambiente como `HTTP_PROXY` ou `HTTPS_PROXY` podem ser configuradas para rotear as requisições do cURL através de um servidor proxy. Essa configuração torna o cURL mais eficiente para tarefas repetitivas, evitando a necessidade de digitar opções longas toda vez.
 
 ## Conclusão e mais Recursos
 
-Parabéns! Você instalou e configurou o cURL com sucesso no seu VPS. Também recomendamos dar uma olhada nos seguintes recursos, que podem te ajudar ainda mais durante a configuração do seu servidor:
+Parabéns! Você instalou e configurou o cURL com sucesso no seu VPS/servidor dedicado. Também recomendamos dar uma olhada nos seguintes recursos, que podem te ajudar ainda mais durante a configuração do seu servidor:
 
 - [curl.se](https://curl.se/) – Site Oficial  
 - [curl.se/docs/](https://curl.se/docs/) Documentação do cURL
 
-Tem alguma dúvida específica que não foi respondida aqui? Para mais perguntas ou suporte, não hesite em contatar nosso time de suporte, disponível diariamente para te ajudar! 🙂
+Tem dúvidas específicas que não foram abordadas aqui? Para mais perguntas ou suporte, não hesite em contatar nosso time de suporte, disponível diariamente para te ajudar! 🙂
 
 <InlineVoucher />

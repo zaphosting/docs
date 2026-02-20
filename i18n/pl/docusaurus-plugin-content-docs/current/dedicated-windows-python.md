@@ -1,9 +1,10 @@
 ---
 id: dedicated-windows-python
-title: 'Serwer dedykowany: Instalacja Pythona'
-description: "Dowiedz się, jak zainstalować i skonfigurować środowisko uruchomieniowe Pythona na serwerach Windows, aby efektywnie uruchamiać swoje programy Python → Sprawdź teraz"
+title: 'Instalacja Pythona na serwerze Windows – Włącz rozwój i automatyzację'
+description: "Dowiedz się, jak zainstalować i skonfigurować środowisko Python na serwerach Windows, aby efektywnie uruchamiać swoje programy Python → Sprawdź teraz"
 sidebar_label: Instalacja Pythona
 services:
+  - vserver
   - dedicated
 ---
 
@@ -11,7 +12,9 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Wprowadzenie
 
-Ten poradnik pokazuje, jak zainstalować środowisko uruchomieniowe Pythona na Windows. Poniższe kroki musisz wykonać przez RDP. Jeśli nie wiesz, jak połączyć się z serwerem przez RDP, zerknij na nasz [poradnik Pierwszy dostęp (RDP)](vserver-windows-userdp.md).
+Ten poradnik pokazuje, jak zainstalować środowisko uruchomieniowe Python na Windows. Poniższe kroki musisz wykonać przez RDP. Jeśli nie wiesz, jak połączyć się z serwerem przez RDP, zerknij na nasz [poradnik Pierwszy dostęp (RDP)](vserver-windows-userdp.md).
+
+
 
 ## Instalacja
 
@@ -25,7 +28,7 @@ Kliknij przycisk `Download Python [wersja]` i poczekaj, aż pobieranie się zako
 ![](https://screensaver01.zap-hosting.com/index.php/s/b8j6ZbfGWoBjpep/preview)
 
 ### Krok 2: Instalacja Pythona
-Uruchom instalator, klikając na pobrany plik. Teraz pojawi się okno z ustawieniami instalacji. Upewnij się, że zaznaczona jest opcja `Add python.exe to PATH` na dole (to ułatwi późniejsze uruchamianie plików Python) i kliknij `Install Now`.
+Uruchom instalator, klikając na pobrany plik. Teraz pojawi się okno z ustawieniami instalacji. Upewnij się, że zaznaczyłeś opcję `Add python.exe to PATH` na dole (to ułatwi późniejsze uruchamianie Pythona) i kliknij `Install Now`.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/Z57KiQwHqP3RpPy/preview)
 
@@ -44,7 +47,7 @@ Teraz, gdy masz Pythona zainstalowanego na serwerze, możesz zacząć uruchamia�
 
 ### Tryb interpretera
 
-Wpisanie komendy `python` w Wierszu poleceń lub PowerShell uruchomi interpreter Pythona. Możesz pisać dowolny poprawny kod Python po prefiksie `>>>`, a po naciśnięciu `Enter` zostanie on wykonany. Interpreter zamkniesz, wpisując `exit()` lub po prostu zamykając okno konsoli.
+Wpisanie komendy `python` w Wierszu poleceń lub PowerShell uruchomi interpreter Pythona. Możesz pisać dowolny poprawny kod Python po znaku `>>>`, a po naciśnięciu `Enter` zostanie on wykonany. Interpreter zamkniesz, wpisując `exit()` lub po prostu zamykając okno konsoli.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/DskKi5Ac28ERY38/preview)
 
@@ -56,7 +59,7 @@ Aby uruchomić pliki `.py`, wpisz w Wierszu poleceń lub PowerShell komendę `py
 Większość programów dostępnych online uruchomisz komendą `python3 main.py`, bo `main.py` to standardowy punkt startowy większości projektów Python.
 :::
 
-Możesz też po prostu otworzyć plik Python (.py) lub kliknąć go prawym przyciskiem i wybrać uruchomienie przez Pythona w Windows.
+Możesz też po prostu otworzyć plik .py lub kliknąć go prawym przyciskiem i wybrać uruchomienie przez Pythona bezpośrednio w Windows.
 
 ## Wirtualne środowiska
 
@@ -64,16 +67,18 @@ Pisząc programy w Pythonie, często potrzebujesz zainstalować zewnętrzne paki
 
 ### Tworzenie venv
 
-Najpierw przejdź w Eksploratorze plików do folderu, w którym chcesz ustawić venv, a potem wpisz `python -m venv .` — to zainstaluje potrzebne pliki w bieżącej lokalizacji.
+Najpierw przejdź w Eksploratorze plików do folderu, w którym chcesz utworzyć venv, a następnie uruchom `python -m venv .` – to zainstaluje potrzebne pliki w bieżącej lokalizacji.
 
 ### Aktywacja i dezaktywacja
 
-Aby korzystać z komend takich jak `pip install` w venv, musisz go aktywować komendą `.\Scripts\activate`. Teraz konsola działa tylko w tym środowisku, a skrypty mają dostęp tylko do lokalnie zainstalowanych pakietów.
+Aby korzystać z poleceń takich jak `pip install` w venv, musisz go aktywować komendą `.\Scripts\activate`. Teraz konsola działa tylko w ramach venv, a skrypty mają dostęp tylko do lokalnie zainstalowanych pakietów.
 
-Gdy skończysz pracę w venv, wyjdź z niego, wpisując `deactivate`.
+Po skończonej pracy wyjdź z venv, wpisując `deactivate`.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/Ws5BosJzJ78s7Y9/preview)
 
+
+
 ## Podsumowanie
 
-Gratulacje, właśnie zainstalowałeś Pythona! Jeśli masz pytania lub potrzebujesz pomocy, śmiało kontaktuj się z naszym supportem, który jest dostępny codziennie, by Ci pomóc! 🙂
+Gratulacje, udało Ci się zainstalować Pythona! Jeśli masz pytania lub potrzebujesz pomocy, śmiało kontaktuj się z naszym supportem – jesteśmy dostępni codziennie, by Ci pomóc! 🙂

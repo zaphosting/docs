@@ -1,17 +1,18 @@
 ---
 id: vserver-windows-plesk
-title: "vServer: Installation von Plesk"
-description: "Entdecke, wie du Websites und Server effizient mit Plesks vielseitiger Plattform für Einsteiger und Profis verwaltest → Jetzt mehr erfahren"
+title: "Plesk auf einem Windows Server einrichten – Websites mit einem starken Control Panel verwalten"
+description: "Entdecke, wie du Websites und Server effizient mit Plesk verwaltest – die vielseitige Plattform für Einsteiger und Profis → Jetzt mehr erfahren"
 sidebar_label: Plesk installieren
 services:
   - vserver
+  - dedicated
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
 
-Plesk ist eine umfassende Webhosting- und Servermanagement-Plattform, mit der du Websites, Server, E-Mail-Konten und mehr über eine benutzerfreundliche Oberfläche verwalten kannst. Es ist eine vielseitige Lösung, die sowohl für Einsteiger als auch für erfahrene Webentwickler und Systemadministratoren geeignet ist.  
+Plesk ist eine umfassende Webhosting- und Servermanagement-Plattform, mit der du Websites, Server, E-Mail-Konten und mehr über eine benutzerfreundliche Oberfläche verwalten kannst. Es ist eine vielseitige Lösung, die sich sowohl für Einsteiger als auch für erfahrene Webentwickler und Systemadministratoren eignet.  
 <InlineVoucher />
 
 
@@ -29,8 +30,7 @@ Der Installer wird nun in einem Ordner gespeichert, in unserem Beispiel nutzen w
 
 ### Eingabeaufforderung öffnen
 
-Für die Installation muss jetzt die CMD-Konsole geöffnet werden.  
-Das geht über die Tastenkombination [Windows] + [R] oder indem du in der Windows-Suche „cmd“ oder „Eingabeaufforderung“ eingibst.
+Für die Installation muss jetzt die CMD-Konsole geöffnet werden. Das geht über die Tastenkombination [Windows] + [R] oder indem du in der Windows-Suche „cmd“ oder „Eingabeaufforderung“ eingibst.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/Bxy33gxjASsf5G3/preview)
 
@@ -55,6 +55,6 @@ Der Installationsprozess kann 30 bis 60 Minuten dauern. Danach ist Plesk install
 
 ## Fazit
 
-Glückwunsch, du hast Plesk erfolgreich auf deinem VPS installiert und eingerichtet! Falls du noch Fragen oder Probleme hast, steht dir unser Support-Team täglich zur Verfügung und hilft dir gerne weiter!
+Glückwunsch, du hast Plesk erfolgreich auf deinem VPS/Dedicated Server installiert und eingerichtet! Falls du noch Fragen oder Probleme hast, steht dir unser Support-Team täglich zur Verfügung und hilft dir gerne weiter!
 
 <InlineVoucher />

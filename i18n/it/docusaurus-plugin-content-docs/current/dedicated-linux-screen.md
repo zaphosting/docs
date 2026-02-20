@@ -1,19 +1,20 @@
 ---
 id: dedicated-linux-screen
-title: "Server Dedicato: Installazione di Screen"
-description: "Scopri come gestire più sessioni terminal su Linux con Screen per migliorare la produttività e mantenere le sessioni attive → Scopri di più ora"
+title: "Configura Screen su un Server Linux - Gestisci Sessioni Terminali Persistenti"
+description: "Scopri come gestire più sessioni terminali su Linux con Screen per migliorare produttività e persistenza delle sessioni → Scopri di più ora"
 sidebar_label: Installa Screen
 services:
+  - vserver
   - dedicated
 ---
 
 ## Introduzione
 
-Screen è un terminal multiplexer per sistemi operativi Unix-like, come Linux. Ti permette di gestire più sessioni terminal all’interno di una singola finestra o connessione remota. In questa guida vedremo i passaggi per l’installazione e ti daremo qualche dritta per usare screen al meglio.
+Screen è un terminal multiplexer per sistemi operativi Unix-like, come Linux. Ti permette di gestire più sessioni terminali all’interno di una singola finestra o connessione remota. In questa guida vedremo i passaggi per l’installazione e ti daremo qualche dritta per usare screen al meglio.
 
 ## Preparazione
 
-Prima di installare qualsiasi cosa sul server, ti consigliamo di eseguire il comando di aggiornamento relativo al tuo sistema operativo per mantenere il server sicuro.
+Prima di installare qualsiasi cosa su un server, ti consigliamo di eseguire il comando di aggiornamento corrispondente al tuo sistema operativo per mantenere il server sicuro.
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
@@ -95,46 +96,46 @@ screen -S [name]
 Ricorda che i comandi in questa guida sono case sensitive, soprattutto per i flag dei parametri.
 :::
 
-Si aprirà una nuova schermata screen dove potrai lanciare script o programmi che continueranno a girare anche se chiudi la connessione remota.
+Si aprirà una nuova schermata screen dove potrai far partire script o programmi che continueranno a girare anche se chiudi la connessione remota.
 
-Per uscire da uno screen usa `CTRL + A` seguito da `D` oppure digita `exit` nella console.
+Per uscire da uno screen usa `CTRL + A` seguito da `D` oppure digita `exit` nel terminale.
 
 :::tip
-Per vedere tutte le sessioni/screen attive usa il comando `screen -ls` o `screen -list`.
+Puoi vedere tutte le sessioni/screen attive con il comando `screen -ls` o `screen -list`.
 :::
 
 Per tornare a uno screen già creato, esegui `screen -r [name]` e verrai riportato subito alla sessione corrispondente.
 
 ## Flag dei Parametri di Screen
 
-Screen ha tanti flag `-` che puoi usare per configurare i comandi. Ecco i più importanti in tabella.
+Screen ha tanti flag `-` per configurare i comandi. Ecco i più importanti in tabella.
 
 | Flag | Alias | Info |
 | ---- | ----- | ---- |
 | -v   | | Mostra la versione corrente di screen |
 | -S `[name]` | | Avvia un nuovo screen chiamato `[name]` |
 | -ls | -list | Elenca tutti gli screen attivi |
-| -wipe `[name]` | | Cancella screen, opzionalmente specificando `[name]` |
-| -r `[name]` | | Riattacca alla sessione screen `[name]` |
-| -d -r `[name]` | | Stacca dallo screen corrente e riattacca a `[name]` |
+| -wipe `[name]` | | Elimina screen, opzionalmente specificando `[name]` |
+| -r `[name]` | | Ricollega alla sessione screen `[name]` |
+| -d -r `[name]` | | Stacca dallo screen corrente e ricollega a `[name]` |
 
 :::tip
-Per vedere tutti i parametri disponibili esegui `screen -h`, ti darà una lista completa.
+Per vedere tutti i parametri disponibili esegui `screen -h` per una lista completa.
 :::
 
 ## Uso Avanzato di Screen
 
 ### Gestione delle Finestre
 
-Ora che hai preso confidenza con i comandi base, vediamo qualche shortcut per navigare meglio tra le sessioni. Dentro uno screen puoi creare più finestre separate per task diversi.
+Ora che hai preso confidenza con i comandi base di screen, è il momento di imparare qualche shortcut per navigare meglio tra le sessioni. Dentro uno screen puoi creare più finestre separate per task diversi.
 
 :::note 
-Tutti gli shortcut in questa sezione vanno eseguiti dopo aver premuto `CTRL + A`.
+Tutti gli shortcut qui sotto vanno eseguiti dopo aver premuto `CTRL + A`.
 :::
 
-Premendo `C` crei una nuova finestra vuota nella directory corrente. Per spostarti tra le finestre usa `N` (next), `P` (previous) o `"` e seleziona la finestra con le frecce.
+Premendo `C` crei una nuova finestra vuota nella directory corrente. Per spostarti tra le finestre usa `N` (next), `P` (previous) o `"` per aprire la lista e selezionare con le frecce.
 
-Di default tutte le finestre hanno lo stesso nome (di solito il nome della shell). Per cambiarlo usa il comando `A` e scegli un nuovo nome.
+Di default tutte le finestre hanno lo stesso nome (di solito il nome della shell che usi). Per cambiarlo premi `A` e scegli un nuovo nome.
 
 Per chiudere una finestra premi `K`.
 
@@ -143,10 +144,10 @@ Per chiudere una finestra premi `K`.
 Per avere 2 finestre in split puoi usare `S` (orizzontale) o `|` (verticale) e passare da una all’altra con `Tab`.
 
 :::tip
-Dopo aver creato una finestra divisa, vai su di essa con `Tab` e usa `"` per aprire una finestra precedente nella seconda vista dello split.
+Dopo aver creato uno split, vai sulla nuova finestra con `Tab` e premi `"` per aprire una finestra precedente nella seconda vista dello split.
 :::
 
-Puoi dividere le finestre quanto vuoi, ma tieni conto che la RAM del server potrebbe salire parecchio, come ti aspetteresti multitaskingando.
+Puoi dividere le finestre quanto vuoi, ma ricorda che l’uso di RAM del server aumenterà parecchio se fai multitasking pesante.
 
 ## Conclusione
 

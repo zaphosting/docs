@@ -1,8 +1,8 @@
 ---
 id: dedicated-linux-lemp-stack
-title: "独立服务器：搭建 LEMP 环境 - Linux、Nginx、MySQL、PHP"
-description: "了解如何在 Linux 服务器上搭建 LEMP 环境以托管动态 PHP 网站，附实用示例 → 立即学习"
-sidebar_label: Web LEMP 环境
+title: "在 Linux 服务器上搭建 LEMP 堆栈 - 部署高性能网页应用"
+description: "了解如何在 Linux 服务器上搭建 LEMP 堆栈以托管动态 PHP 网站，附实用示例 → 立即了解更多"
+sidebar_label: Web LEMP 堆栈
 services:
   - dedicated
 ---
@@ -13,15 +13,15 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## 介绍
 
-**LEMP** 堆栈是一套流行的开源软件组合，专为简化动态网站托管而设计，特别适合 PHP 网站和应用。这个缩写代表：操作系统使用 **L**inux，Web 服务器使用 "**E**ngine x"（nginx），数据库使用 **M**ySQL，最后用 **P**HP 进行处理。本指南将带你一步步在 Linux 独立服务器上搭建 LEMP 环境，并通过一个待办事项网站示例详细讲解。
+**LEMP** 堆栈是一套流行的开源软件组合，专为简化动态网站托管而设计，特别适合 PHP 网站和应用。这个缩写代表：操作系统为 **L**inux，Web 服务器为 "**E**ngine x"（nginx），数据库为 **M**ySQL，最后是用于处理的 **P**HP。本指南将详细介绍如何在 Linux 独立服务器上搭建 LEMP 堆栈，并通过示例演示如何搭建一个待办事项网站。
 
 ## 准备工作
 
-首先通过 SSH 连接到你的服务器。如果你还不会操作，可以参考我们的[初次访问（SSH）](vserver-linux-ssh.md)指南。
+首先通过 SSH 连接到你的服务器。如果你还不会操作，可以查看我们的[初始访问（SSH）](vserver-linux-ssh.md)指南。
 
-本指南使用 Ubuntu 作为 Linux 发行版。Debian 也适用，其他发行版命令语法可能略有差异。确保你已经安装好操作系统并通过 SSH 连接服务器。
+本指南使用 Ubuntu 作为 Linux 发行版。Debian 的操作相同，其他发行版可能略有差异，主要是命令语法可能稍有不同。确保你已安装操作系统并通过 SSH 连接到服务器。
 
-安装前，务必先更新所有软件包，命令如下：
+和往常一样，安装前请确保所有软件包都是最新的，执行以下命令：
 ```
 // Ubuntu & Debian
 sudo apt update
@@ -36,22 +36,22 @@ sudo zypper up
 sudo dnf upgrade --refresh
 ```
 
-## 安装步骤
+## 安装
 
-安装过程分为 LEMP 的核心组件：先安装 Nginx Web 服务器，再安装 MySQL 数据库，最后安装 PHP。安装过程中，我们会搭建一个用 PHP 编写、访问 MySQL 数据库的测试网站。所有请求最终通过 Nginx 处理和响应。
+安装过程可以分为 LEMP 堆栈的核心组件，先安装 Nginx Web 服务器，再安装 MySQL 数据库，最后安装 PHP。安装过程中，我们将搭建一个用 PHP 编写、访问 MySQL 数据库的测试网站。所有网页请求最终都将通过 Nginx 处理和响应。
 
 ### 安装 Nginx
 
-Nginx 是用来处理网页请求并返回响应的 Web 服务器。用下面命令安装：
+Nginx 是用来处理传入网页请求并返回响应的 Web 服务器。使用以下命令安装：
 ```
 sudo apt install nginx
 ```
 
-安装完成后，确保防火墙规则允许外网访问 Web 服务器。这里示例使用 **UFW 防火墙**，因为 Nginx 已注册了对应的应用配置。
+安装完成后，确保防火墙规则允许外网访问 Web 服务器。这里我们使用 **UFW 防火墙**，因为 Nginx 已注册了对应的应用配置。
 
-如果你用的是其他防火墙，确保放行 80 端口（HTTP）。更多防火墙管理请看我们的[防火墙管理](vserver-linux-firewall.md)指南。
+如果你使用其他防火墙，请确保开放端口 80（HTTP）。想了解更多 Linux 防火墙知识，请查看我们的[防火墙管理](vserver-linux-firewall.md)指南。
 
-启用 UFW 防火墙并允许 SSH 连接：
+确保 UFW 防火墙已启用，并且已创建 SSH 规则：
 ```
 # 允许 SSH 连接
 sudo ufw allow OpenSSH
@@ -61,10 +61,10 @@ sudo ufw enable
 ```
 
 :::caution
-如果你用 UFW 防火墙，务必先设置允许 SSH 的规则！否则断开当前连接后将无法再次通过 SSH 登录服务器！
+如果你使用 UFW 防火墙，务必先创建 SSH 规则！否则断开当前连接后将无法再次通过 SSH 登录服务器！
 :::
 
-接着允许 Nginx 访问，并检查规则是否生效：
+接着创建允许 Nginx 的规则，并检查规则是否生效：
 ```
 # 允许 Nginx
 sudo ufw allow in "Nginx Full"
@@ -74,22 +74,22 @@ sudo ufw status
 ```
 
 :::tip
-运行 `ufw app list` 可以查看可用的应用配置。这里用的 `Nginx Full` 会同时放行 HTTP（80端口）和 HTTPS（443端口）。
+运行 `ufw app list` 可以查看可用的应用配置。这里使用 `Nginx Full` 会同时开放 HTTP（80端口）和 HTTPS（443端口）。
 :::
 
 你应该能看到 `Nginx` 和 `Nginx (v6)` 规则状态为 `ALLOW`，表示防火墙配置正确。还会显示之前设置的其他规则，包括 SSH。
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/A36rfRzL3gFGq9x/preview)
 
-防火墙配置好后，打开浏览器访问你的服务器 IP 地址，格式为 `http://[你的IP地址]`。
+防火墙开放后，确认 Nginx 是否正常工作。打开浏览器访问你的 IP 地址，例如 `http://[your_ipaddress]`。
 
-如果正常，会看到默认欢迎页面。若无法访问，用命令检查 Nginx 状态：`systemctl status nginx`
+如果正常，会看到默认欢迎页面。若无法访问，使用命令检查服务状态：`systemctl status nginx`
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/EqFoyXMJMaHc3dc/preview)
 
 ### 安装 MySQL
 
-接下来安装 MySQL 数据库，用于关系型数据的持久存储。安装命令：
+接下来安装 MySQL 服务器，作为关系型数据库持久存储数据。执行：
 ```
 sudo apt install mysql-server
 ```
@@ -99,28 +99,30 @@ sudo apt install mysql-server
 sudo mysql_secure_installation
 ```
 
-按提示操作。首先会询问密码验证策略，建议选择 `Y` 启用，然后选择 `MEDIUM`（输入 `1`）或 `STRONG`（输入 `2`）级别。
+该脚本会引导你完成交互式设置。首先会询问密码验证策略，建议选择 `Y` 启用，并选择 `MEDIUM`（输入 `1`）或 `STRONG`（输入 `2`）级别。
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/YF6N3iPaDWD4sgX/preview)
 
-接着询问是否删除匿名用户和禁止远程 root 登录，出于安全考虑，建议都选择 `Y`。
+接着会询问是否删除匿名用户和禁止远程 root 登录，出于安全考虑，强烈建议都选择 `Y`。
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/ka6GKkojRPRycZB/preview)
 
-最后询问是否删除测试数据库并重新加载权限表，也建议选择 `Y`。
+最后询问是否删除测试数据库并重新加载权限表，同样建议选择 `Y`。
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/42cYTkPaEfo3Jbq/preview)
 
-确认 MySQL 正常运行，尝试登录：
+完成后，尝试登录 MySQL 确认服务运行：
 ```
 sudo mysql -u root
 ```
 
-成功后会显示欢迎信息，输入 `quit` 退出。
+成功登录后会显示欢迎信息，输入 `quit` 退出。
 
 ### 安装 PHP
 
-LEMP 的最后一环是 PHP。Nginx 需要通过 `php-fpm`（PHP FastCGI 进程管理器）来处理 PHP 请求。安装最新版本的 php-fpm 和 PHP MySQL 插件：
+LEMP 堆栈的最后一环是 PHP。Nginx 需要借助外部程序 `php-fpm`（PHP FastCGI 进程管理器）来处理 PHP 请求。Nginx 会将请求转发给 `php-fpm`，然后再响应客户端。
+
+执行以下命令安装最新的 php-fpm 及 PHP MySQL 插件，确保 Nginx 能与 PHP 及 MySQL 协同工作：
 ```
 sudo apt install php-fpm php-mysql
 ```
@@ -142,26 +144,26 @@ sudo apt install [php_extension] [...]
 
 ### 创建测试网站
 
-LEMP 环境搭建完成后，我们来创建一个测试网站，演示 LEMP 如何协同工作打造动态网站。完全可选，但有助于理解。
+所有 LEMP 组件安装完成后，我们来创建一个测试网站，演示 LEMP 堆栈如何协同工作打造动态网站。完全可选，但有助于理解如何利用这些工具搭建自己的网站。
 
-示例是一个简单的 PHP 待办事项网站，从 MySQL 数据库读取并显示任务列表，通过 Nginx 提供服务。
+本例创建一个简单的 PHP 待办事项网站，读取并返回存储在 MySQL 数据库中的待办条目，通过 Nginx 提供服务。
 
-示例中使用测试域名 `zapdocs.example.com`，实际使用时请确保为该域名设置了指向服务器 IP 的 `A` 记录。需要帮助请看我们的[域名记录](domain-records.md)指南。
+示例中使用测试域名 `zapdocs.example.com`，实际使用时请确保为你的域名设置了指向服务器 IP 的 `A` 记录。需要帮助请看我们的[域名记录](domain-records.md)指南。
 
 :::note
-你也可以不使用域名，直接用 IP 访问。此时创建服务器块时请删除 `server_name` 参数。
+你也可以不使用域名，直接用 IP 访问。此时请在后续创建服务器块时删除 `server_name` 参数。
 :::
 
 #### 配置 Nginx
 
-一般网站文件存放在 `/var/www` 目录。默认 Nginx 会有一个 `html` 文件夹存放默认页面。为了管理多个网站，建议为每个网站单独创建文件夹。
+通常网站文件存放在 `/var/www` 目录。默认 Nginx 会有一个 `html` 文件夹存放默认页面。为了管理多个网站，建议为每个网站单独创建文件夹。
 
-创建网站目录：
+例如为本例域名创建文件夹：
 ```
 sudo mkdir /var/www/[your_domain]
 ```
 
-为该域名创建 Nginx 服务器块配置文件：
+接着在 `sites-available` 目录创建新的 Nginx 服务器块配置文件：
 ```
 sudo nano /etc/nginx/sites-available/[your_domain].conf
 ```
@@ -197,23 +199,23 @@ fastcgi_pass unix:/var/run/php/php8.3-fpm.sock;
 ```
 :::
 
-该配置监听 80 端口，匹配指定域名，并将网站根目录指向你刚建的文件夹。
+该配置监听 80 端口，匹配指定域名，并将网站根目录指向你刚创建的文件夹。
 
 保存并退出 nano，按 `CTRL + X`，然后 `Y` 确认，最后回车。
 
-启用配置：
+激活配置文件，创建软链接到 `sites-enabled`：
 ```
 sudo ln -s /etc/nginx/sites-available/[your_domain].conf /etc/nginx/sites-enabled/
 ```
 
 :::note 无域名使用
-如果不使用域名，请删除或注释掉 `server_name` 行（加 `#`），并禁用默认服务器块：
+如果不使用域名，请删除或注释掉 `server_name` 行，并禁用默认服务器块：
 ```
 sudo unlink /etc/nginx/sites-enabled/default
 ```
 :::
 
-用命令检查配置语法：
+建议运行语法检查：
 ```
 sudo nginx -t
 ```
@@ -223,18 +225,18 @@ sudo nginx -t
 sudo systemctl reload nginx
 ```
 
-#### 创建网站内容
+#### 创建网站文件
 
-现在配置好了 Nginx，文件夹是空的，网站还没内容。我们来创建一个简单的待办事项网站。
+现在配置好了 Nginx，文件夹是空的，访问时不会显示内容。我们将创建一个简单的待办事项网站。
 
 ##### 准备数据库
 
-登录 MySQL：
+先登录 MySQL：
 ```
 sudo mysql -u root
 ```
 
-创建数据库和表：
+创建数据库和数据表：
 ```
 # 创建数据库
 CREATE DATABASE todowebsite;
@@ -259,12 +261,12 @@ INSERT INTO todoitems (name, is_completed) VALUES ('Join ZAP-Hosting Discord', 0
 INSERT INTO todoitems (name, is_completed) VALUES ('Have a great day!', 0);
 ```
 
-创建专用用户：
+创建专用用户 `todo`，并赋予权限：
 ```
 # 创建用户，替换 [your_password] 为你的密码
 CREATE USER todo@localhost IDENTIFIED BY '[your_password]';
 
-# 授权用户权限（整行复制）
+# 授权（复制为一条命令）
 GRANT SELECT,INSERT,UPDATE,DELETE,CREATE,DROP,ALTER
 ON todowebsite.*
 TO todo@localhost;
@@ -277,12 +279,12 @@ FLUSH PRIVILEGES;
 
 ##### PHP 网站文件
 
-在 `/var/www/[your_domain]` 目录创建 `index.php` 文件：
+最后创建 PHP 网站文件 `index.php`，放在 `/var/www/[your_domain]` 目录：
 ```
 sudo nano /var/www/[your_domain]/index.php
 ```
 
-复制以下代码，注意替换 `[your_password]` 为你刚才设置的密码：
+复制以下代码，注意替换 `[your_password]` 为之前设置的密码：
 
 ```
 <?php
@@ -300,7 +302,7 @@ if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }
 
-// 执行 SQL 查询，获取待办事项，按创建时间倒序
+// 查询待办事项表，按创建时间倒序
 $sql = "SELECT id, name, is_completed, creation_date FROM todoitems ORDER BY creation_date DESC";
 $result = $conn->query($sql);
 ?>
@@ -337,7 +339,7 @@ $result = $conn->query($sql);
                   echo "</li>";
               }
           } else {
-              // 无数据时显示提示
+              // 无数据时显示默认信息
               echo "<li>No to-do items found.</li>";
           }
           ?>
@@ -355,14 +357,14 @@ $conn->close();
 
 #### 测试网站
 
-恭喜！你已经成功搭建了一个利用 LEMP 堆栈的测试待办事项网站！
+恭喜你，成功搭建了一个利用 LEMP 堆栈的测试待办事项网站！
 
-现在可以通过之前配置的域名（HTTP 80 端口）访问，比如示例中的 `zapdocs.example.com`。页面效果大致如下：
+现在可以通过之前配置的域名（HTTP 80端口）访问网站，例如本例中的 `zapdocs.example.com`。页面效果如下：
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/NgK2n8xN3wZPLeP/preview)
 
 ## 总结
 
-恭喜你成功安装并配置了 LEMP 环境！下一步，我们**强烈建议**为网站配置域名和**SSL 证书**，确保数据传输安全。请查看我们的[Certbot 指南](dedicated-linux-certbot.md)，重点关注 **Nginx 插件**，按照交互式步骤快速为你的域名申请证书。
+恭喜你成功安装并配置了 LEMP 堆栈！下一步，我们**强烈建议**为网站配置域名和**SSL 证书**，确保数据传输安全。请查看我们的[Certbot 指南](dedicated-linux-certbot.md)，重点关注 **Nginx 插件**，按照交互式步骤快速轻松地为你的域名配置证书。
 
-如有任何疑问或需要帮助，欢迎随时联系我们的支持团队，我们每天都在线为你服务！🙂
+如有任何疑问或需要帮助，欢迎随时联系支持团队，我们每天在线为你服务！🙂

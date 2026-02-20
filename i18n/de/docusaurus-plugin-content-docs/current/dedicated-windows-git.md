@@ -1,9 +1,10 @@
 ---
 id: dedicated-windows-git
-title: "Dedicated Server: Git auf Windows einrichten"
-description: "Entdecke, wie du Git für effiziente Versionskontrolle und nahtlose Zusammenarbeit in deinen Projekten einrichtest und konfigurierst → Jetzt mehr erfahren"
+title: "Git auf einem Windows Server einrichten – Versionskontrolle für deine Projekte aktivieren"
+description: "Entdecke, wie du Git einrichtest und konfigurierst, um effiziente Versionskontrolle und nahtlose Zusammenarbeit in deinen Projekten zu ermöglichen → Jetzt mehr erfahren"
 sidebar_label: Git installieren
 services:
+  - vserver
   - dedicated
 ---
 
@@ -25,7 +26,7 @@ Bevor du **Git** einrichtest, solltest du dein System vorbereiten. Dazu gehört,
 
 
 ### System aktualisieren
-Um sicherzustellen, dass dein System mit der aktuellsten Software und den neuesten Sicherheitsupdates läuft, solltest du zuerst immer ein Systemupdate durchführen. So ist gewährleistet, dass dein System die neuesten Sicherheitspatches und Softwareversionen hat, bevor du weitermachst.
+Um sicherzustellen, dass dein System mit der aktuellsten Software und den neuesten Sicherheitsupdates läuft, solltest du immer zuerst ein Systemupdate durchführen. So ist gewährleistet, dass dein System vor der weiteren Einrichtung die neuesten Sicherheitspatches und Softwareversionen hat.
 
 
 
@@ -52,7 +53,7 @@ git version 2.51.2
 
 ## Konfiguration
 
-Richte deinen Git-Benutzernamen und deine E-Mail-Adresse mit den folgenden Befehlen ein, wobei du die Beispielwerte durch deine eigenen Daten ersetzt. Diese Angaben werden mit jedem Commit verknüpft.
+Richte deinen Git-Benutzernamen und deine E-Mail-Adresse mit den folgenden Befehlen ein. Ersetze die Beispielwerte durch deine eigenen Daten. Diese Angaben werden mit jedem Commit verknüpft.
 
 ```
 git config --global user.name "John Doe Paris"
@@ -68,4 +69,4 @@ Glückwunsch! Du hast Git jetzt erfolgreich auf deinem vServer installiert und k
 - [git-scm.com](https://git-scm.com/) – Offizielle Webseite
 - [git-scm.com/doc](https://git-scm.com/doc) – Git Dokumentation
 
-Du hast spezielle Fragen, die hier nicht beantwortet wurden? Für weitere Fragen oder Unterstützung steht dir unser Support-Team täglich zur Verfügung – zögere nicht, uns zu kontaktieren! 🙂
+Du hast spezielle Fragen, die hier nicht beantwortet wurden? Für weitere Fragen oder Support steht dir unser Team täglich zur Verfügung – melde dich einfach bei uns! 🙂

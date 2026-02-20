@@ -1,9 +1,10 @@
 ---
 id: dedicated-linux-webserver
-title: "Dedicated Server: Installatie van Nginx en Apache webserver"
+title: "Nginx en Apache installeren op een Linux Server - Krachtige Webserver Omgevingen Configureren"
 description: "Ontdek hoe je Nginx of Apache webservers installeert en configureert om je website efficiënt te hosten → Leer het nu"
 sidebar_label: Webserver installeren
 services:
+  - vserver
   - dedicated
 ---
 
@@ -11,13 +12,13 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introductie
 
-Nginx en Apache zijn populaire webservices die gebruikt worden om webpagina’s aan de browser van een gebruiker te leveren. Hieronder laten we je zien hoe je één van deze services op je systeem installeert. 
+Nginx en Apache zijn populaire webservices die gebruikt worden om webpagina’s naar de browser van een gebruiker te sturen. Hieronder laten we je zien hoe je één van deze services op je systeem installeert.
 
 
 
 ## Voorbereiding
 
-Voordat je echt begint met het installeren van een webserver, is het belangrijk om te zorgen dat je systeem up-to-date is. Hiervoor maak je verbinding met je server via SSH. Als je niet weet wat SSH is of hoe je het gebruikt, check dan deze gids: [Eerste toegang (SSH)](vserver-linux-ssh.md).
+Voordat je echt een webserver kunt installeren, is het belangrijk om te zorgen dat je systeem up-to-date is. Hiervoor maak je verbinding met de server via SSH. Weet je niet wat SSH is of hoe je het gebruikt? Check dan deze gids: [Eerste toegang (SSH)](vserver-linux-ssh.md).
 
 Eenmaal verbonden kun je het systeem updaten met het volgende commando, afhankelijk van je besturingssysteem:
 
@@ -42,7 +43,7 @@ sudo dnf upgrade --refresh
 
 ## Installatie
 
-Als de voorbereiding klaar is, kun je beginnen met het installeren van de webserver. Afhankelijk van je besturingssysteem en de webserver die je kiest, voer je de volgende commando’s uit:
+Als de voorbereiding klaar is, kan de installatie van de webserver beginnen. Afhankelijk van je OS en webserver voer je de volgende commando’s uit:
 
 
 
@@ -65,7 +66,7 @@ sudo zypper install httpd
 sudo dnf install httpd
 ```
 
-Na de installatie van de webserver kun je de bestanden van je website uploaden. Maak verbinding met je server via FTP/SFTP, navigeer naar de volgende map en upload je bestanden.
+Na de installatie kun je de bestanden van je website uploaden. Maak verbinding met je server via FTP/SFTP, navigeer naar de volgende map en upload je bestanden.
 
 ```
 /var/www/html/
@@ -92,7 +93,7 @@ sudo zypper install nginx
 sudo dnf install nginx
 ```
 
-Na de installatie van de webserver kun je de bestanden van je website uploaden. Maak verbinding met je server via FTP/SFTP, navigeer naar de volgende map en upload je bestanden.
+Na de installatie kun je de bestanden van je website uploaden. Maak verbinding met je server via FTP/SFTP, navigeer naar de volgende map en upload je bestanden.
 
 ```
 /usr/share/nginx/html
@@ -124,6 +125,4 @@ nginx version: nginx/1.2.3
 ...
 ```
 
-Als je zo’n output krijgt, dan is de webserver succesvol geïnstalleerd. 
-
-
+Als je zo’n output krijgt, dan is je webserver succesvol geïnstalleerd.

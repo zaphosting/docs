@@ -1,10 +1,11 @@
 ---
 id: vserver-linux-notepad++
-title: "VPS: Instalacja Notepad++ na Linuxie"
-description: "Dowiedz się, jak zainstalować i zoptymalizować Notepad++ na Linuxie, aby efektywnie i lekko edytować kod → Sprawdź teraz"
+title: "Konfiguracja Notepad++ na serwerze Linux - Używaj swojego ulubionego edytora przez Wine"
+description: "Dowiedz się, jak zainstalować i zoptymalizować Notepad++ na Linuxie, aby efektywnie i lekko edytować kod i rozwijać projekty → Sprawdź teraz"
 sidebar_label: Instalacja Notepad++
 services:
-- vserver
+  - vserver
+  - dedicated
 ---
 
 import Tabs from '@theme/Tabs';
@@ -17,7 +18,7 @@ Notepad++ to darmowy i otwartoźródłowy edytor tekstu i kodu źródłowego dla
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/jMMDejqDfWDCfrr/preview)
 
-Myślisz o samodzielnym hostingu tej usługi? Przeprowadzimy Cię krok po kroku przez cały proces instalacji i konfiguracji oraz podpowiemy, na co zwrócić uwagę.
+Myślisz o hostingu tej usługi na własnym serwerze? Przeprowadzimy Cię krok po kroku przez cały proces instalacji i konfiguracji oraz podpowiemy, na co zwrócić uwagę.
 
 :::danger Wymagany Linux z wariantem Desktop
 Ta aplikacja może być zainstalowana i używana tylko na systemie Linux z graficznym interfejsem użytkownika; w tym przykładzie jako odniesienie używamy Ubuntu Desktop 25.04.
@@ -44,7 +45,7 @@ Oprogramowanie wymaga, aby wszystkie niezbędne zależności były zainstalowane
 
 **System operacyjny:** Linux z obsługą Desktop
 
-Upewnij się, że wszystkie zależności są zainstalowane, a wersja systemu operacyjnego jest odpowiednia, aby uniknąć problemów z kompatybilnością podczas instalacji Notepad++.
+Sprawdź, czy wszystkie zależności są zainstalowane, a wersja systemu operacyjnego jest poprawna, aby uniknąć problemów z kompatybilnością podczas instalacji Notepad++.
 
 
 
@@ -54,18 +55,18 @@ Przed konfiguracją **Notepad++** musisz przygotować swój system. Obejmuje to 
 
 
 ### Aktualizacja systemu
-Aby mieć pewność, że Twój system działa na najnowszym oprogramowaniu i ma aktualizacje bezpieczeństwa, zawsze najpierw wykonaj aktualizację systemu. W tym celu uruchom następujące polecenie:
+Aby mieć pewność, że Twój system działa na najnowszym oprogramowaniu i z poprawkami bezpieczeństwa, zawsze najpierw wykonaj aktualizację systemu. W tym celu uruchom poniższe polecenie:
 
 ```
 sudo apt update && sudo apt upgrade -y
 ```
-To zapewni, że Twój system ma najnowsze poprawki bezpieczeństwa i wersje oprogramowania przed kontynuacją.
+Zapewni to, że Twój system ma najnowsze poprawki bezpieczeństwa i wersje oprogramowania przed kontynuacją.
 
 ### Instalacja zależności
 Po zakończeniu aktualizacji możesz przejść do instalacji zależności.
 
 #### Snap
-Notepad++ wymaga najpierw zainstalowania Snap. Aby to zrobić, uruchom następujące polecenie:
+Notepad++ wymaga najpierw zainstalowania Snap. Aby to zrobić, uruchom poniższe polecenie: 
 ```
 sudo apt install snapd
 ```
@@ -74,13 +75,13 @@ sudo apt install snapd
 
 
 ## Instalacja
-Gdy wszystkie wymagania zostaną spełnione, a przygotowania zakończone, możesz przejść do instalacji aplikacji Notepad++. Wykonaj poniższe polecenie:
+Gdy wszystkie wymagania są spełnione, a przygotowania zakończone, możesz przystąpić do instalacji aplikacji Notepad++. Wykonaj następujące polecenie:
 
 ```
 sudo snap install notepad-plus-plus
 ```
 
-Notepad++ zostanie pobrany i zainstalowany za pomocą oficjalnego skryptu instalacyjnego. Po prostu pozwól procesowi zakończyć się, a następnie możesz od razu uruchomić aplikację.
+Notepad++ zostanie pobrany i zainstalowany za pomocą oficjalnego skryptu instalacyjnego. Po prostu pozwól procesowi się zakończyć, a następnie możesz od razu uruchomić aplikację.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/ca9Z8D37wCSrDbf/preview)
 
@@ -90,8 +91,8 @@ Notepad++ zostanie pobrany i zainstalowany za pomocą oficjalnego skryptu instal
 
 Notepad++ oferuje szeroki zakres opcji personalizacji dostępnych w *Ustawienia > Preferencje*. Pozwalają one dostosować edytor do Twojego stylu pracy:
 
-- **Ogólne**: Kontroluj zachowanie przy starcie, np. ponowne ładowanie wcześniej otwartych plików, ustaw domyślny język lub określ, jak mają działać zakładki.  
-- **Ustawienia edytora**: Dostosuj czcionkę i jej rozmiar, szerokość tabulatora, numerację linii, automatyczne wcięcia lub wyświetlanie spacji i znaków tabulacji.  
+- **Ogólne**: Kontroluj zachowanie przy starcie, np. ponowne ładowanie wcześniej otwartych plików, ustaw domyślny język lub określ, jak działają zakładki.  
+- **Ustawienia edytora**: Dostosuj typ i rozmiar czcionki, szerokość tabulatora, numerację linii, auto-wcięcia lub wyświetlanie spacji i znaków tabulacji.  
 - **Schematy kolorów i składnia**: Użyj „Konfiguratora stylów”, aby zmieniać motywy i personalizować podświetlanie składni dla każdego obsługiwanego języka.  
 - **Obsługa plików**: Skonfiguruj opcje takie jak automatyczne przeładowanie pliku po zmianach, zachowanie przy dużych plikach lub preferencje kodowania, np. UTF-8.  
 - **Bezpieczeństwo i kopie zapasowe**: Włącz automatyczne kopie zapasowe lub przywracanie sesji, aby zapobiec utracie danych.  
@@ -106,11 +107,11 @@ Te ustawienia sprawiają, że Notepad++ jest bardzo elastyczny, niezależnie czy
 
 ## Podsumowanie i dodatkowe zasoby
 
-Gratulacje! Właśnie pomyślnie zainstalowałeś i skonfigurowałeś Notepad++ na swoim VPS. Polecamy też rzucić okiem na poniższe zasoby, które mogą dostarczyć Ci dodatkowej pomocy i wskazówek podczas konfiguracji serwera.
+Gratulacje! Właśnie zainstalowałeś i skonfigurowałeś Notepad++ na swoim VPS/serwerze dedykowanym. Polecamy też rzucić okiem na poniższe zasoby, które mogą Ci pomóc i wesprzeć podczas konfiguracji serwera:
 
 - [notepad-plus-plus.org/](https://notepad-plus-plus.org/) - Oficjalna strona
 
-Masz konkretne pytania, które nie zostały tu poruszone? Jeśli potrzebujesz dalszej pomocy, śmiało kontaktuj się z naszym zespołem wsparcia, który jest dostępny codziennie, by Ci pomóc! 🙂
+Masz pytania, które nie zostały tu poruszone? Jeśli potrzebujesz dalszej pomocy lub wsparcia, śmiało kontaktuj się z naszym zespołem wsparcia, który jest dostępny codziennie, by Ci pomóc! 🙂
 
 
 

@@ -1,8 +1,8 @@
 ---
 id: vserver-linux-lamp-stack
-title: "VPS: Sätt upp LAMP-stack - Linux, Apache, MySQL, PHP"
-description: "Upptäck hur du effektivt sätter upp en LAMP-stack för att hosta dynamiska PHP-webbplatser på Linux VPS → Läs mer nu"
-sidebar_label: Web LAMP-stack
+title: "Sätt upp en LAMP Stack på en Linux-server - Driv klassiska PHP-applikationer"
+description: "Upptäck hur du effektivt sätter upp en LAMP stack för att hosta dynamiska PHP-webbplatser på Linux VPS → Läs mer nu"
+sidebar_label: Web LAMP stack
 services:
   - vserver
 ---
@@ -13,7 +13,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introduktion
 
-**LAMP**-stacken är en populär samling öppen källkod-programvara som sätts upp tillsammans för att möjliggöra enkel hosting av dynamiska webbplatser, med särskilt fokus på PHP-webbplatser och appar. Akronymen står för: **L**inux som operativsystem, **A**pache som webbserver, **M**ySQL som databas och slutligen **P**HP för bearbetning. I den här guiden går vi igenom processen att sätta upp en LAMP-stack på en Linux VPS, med en detaljerad genomgång och exempel på att sätta upp en att-göra-lista-webbplats.
+**LAMP** stacken är en populär samling öppen källkodsprogram som sätts upp tillsammans för att möjliggöra enkel hosting av dynamiska webbplatser, med särskilt fokus på PHP-webbplatser och appar. Akronymen står för: **L**inux som operativsystem, **A**pache som webbserver, **M**ySQL som databas och slutligen **P**HP för bearbetning. I den här guiden går vi igenom processen för att sätta upp en LAMP stack på en Linux VPS, med en detaljerad genomgång och exempel på att sätta upp en att-göra-lista webbplats.
 
 <InlineVoucher />
 
@@ -40,7 +40,7 @@ sudo dnf upgrade --refresh
 
 ## Installation
 
-Installationen kan enkelt delas upp i varje kärnberoende i LAMP, med start från Apache webbserver, följt av MySQL-databasen och slutligen PHP. Under installationen kommer vi att sätta upp en testwebbplats som är skriven i PHP och som kommer att använda MySQL-databasen. Slutligen kommer varje webbförfrågan att bearbetas och serveras via Apache webbserver.
+Installationen kan enkelt delas upp i varje kärnberoende i LAMP, med start från Apache webbserver, följt av MySQL-databasen och slutligen PHP. Under installationen kommer vi att sätta upp en testwebbplats som är skriven i PHP och som kommer att använda MySQL-databasen. Varje webbförfrågan kommer sedan att bearbetas och serveras via Apache webbserver.
 
 ### Sätta upp Apache
 
@@ -79,11 +79,11 @@ sudo ufw status
 Du kan se vilka profiler som finns tillgängliga genom att köra kommandot `ufw app list`. I exemplet ovan betyder `Apache Full` att både HTTP (port 80) och HTTPS (port 443) regler skapas.
 :::
 
-Du bör se `Apache` och `Apache (v6)` regler med `ALLOW`-åtgärder, vilket bekräftar att brandväggen är redo. Du bör också se andra regler som du tidigare kan ha satt upp, inklusive SSH-regeln.
+Du bör se `Apache` och `Apache (v6)` regler med `ALLOW`-åtgärder, vilket bekräftar att brandväggen är redo. Du bör också se andra regler som du tidigare har satt upp, inklusive SSH-regeln.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/o8NDBppnTwHdSgf/preview)
 
-När brandväggen är öppen för Apache bör du nu säkerställa att Apache fungerar. Du kan göra detta genom att försöka nå din IP-adress i en webbläsare, så här: `http://[din_ipadress]`
+Med brandväggen öppen för Apache bör du nu säkerställa att Apache fungerar. Du kan göra detta genom att försöka nå din IP-adress i en webbläsare, så här: `http://[din_ipadress]`
 
 Om det fungerar bör du se en standard välkomstsida. Om inte, kontrollera statusen för tjänsten med följande kommando: `systemctl status apache2`
 
@@ -102,11 +102,11 @@ Detta tar dig igenom en interaktiv setup. Först kommer du att bli tillfrågad o
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/YF6N3iPaDWD4sgX/preview)
 
-Nästa fråga gäller att ta bort `anonymous`-användaren och att förhindra root-inloggning på distans. För båda rekommenderar vi starkt att acceptera med `Y` av säkerhetsskäl. Detta säkerställer att testanvändaren tas bort och att master-användaren `root` endast kan användas lokalt via SSH och inte någon annanstans, vilket minskar risken.
+Nästa fråga handlar om att ta bort `anonymous`-användaren och att förhindra root-inloggning på distans. För båda rekommenderar vi starkt att acceptera med `Y` av säkerhetsskäl. Detta säkerställer att testanvändaren tas bort och att master-root-användaren endast kan användas lokalt via SSH, vilket minskar risken.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/ka6GKkojRPRycZB/preview)
 
-Slutligen kommer du att bli tillfrågad om att ta bort `test`-databasen och ladda om privilegietabellerna. Återigen rekommenderar vi att acceptera med `Y` eftersom testtabellen inte behövs och du måste ladda om privilegietabellen för att ändringarna ska träda i kraft.
+Slutligen blir du tillfrågad om att ta bort `test`-databasen och ladda om privilegietabellerna. Återigen rekommenderar vi att acceptera med `Y` eftersom testtabellen inte behövs och du behöver ladda om privilegietabellen för att ändringarna ska träda i kraft.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/42cYTkPaEfo3Jbq/preview)
 
@@ -114,7 +114,7 @@ Kontrollera nu om MySQL-databasen körs genom att försöka logga in med följan
 
 ### Sätta upp PHP
 
-Den sista LAMP-komponenten är PHP och det är ganska enkelt att installera. Följande kommando installerar PHP tillsammans med en plugin för Apache och MySQL, för att låta Apache arbeta med PHP och för att PHP ska kunna använda MySQL.
+Den sista LAMP-komponenten är PHP och det är ganska enkelt att installera. Följande kommando installerar PHP tillsammans med en plugin för Apache och MySQL, för att låta Apache arbeta med PHP och PHP använda MySQL.
 ```
 sudo apt install php libapache2-mod-php php-mysql
 ```
@@ -134,7 +134,7 @@ sudo apt install [php_extension] [...]
 ```
 :::
 
-Vi rekommenderar att du justerar directory index för att säkerställa att `index.php`-filer prioriteras över standard `.html`. Öppna filen med följande kommando.
+Vi rekommenderar att du justerar directory index för att säkerställa att `index.php` filer prioriteras över standard `.html`. Öppna filen med följande kommando.
 ```
 sudo nano /etc/apache2/mods-enabled/dir.conf
 ```
@@ -148,31 +148,31 @@ Spara filen och avsluta nano med `CTRL + X`, följt av `Y` för att bekräfta oc
 
 ### Skapa testwebbplats
 
-När installationen av varje LAMP-komponent är klar, skapar vi nu en testwebbplats för att visa hur LAMP-stacken fungerar tillsammans för att skapa en grym dynamisk webbplatslösning. Detta är helt valfritt, men det är bra för att förstå hur du kan använda dessa verktyg för att sätta upp dina egna webbplatser.
+När installationen av varje LAMP-komponent är klar, skapar vi nu en testwebbplats för att visa hur LAMP stacken fungerar tillsammans för att skapa en grym dynamisk webbplatslösning. Detta är helt valfritt, men det är bra för att förstå hur du kan använda dessa verktyg för att sätta upp dina egna webbplatser.
 
-I det här exemplet skapar vi en liten att-göra-lista-webbplats via PHP som hämtar och returnerar att-göra-poster. Dessa lagras i en MySQL-databastabell och serveras via Apache.
+I det här exemplet skapar vi en liten att-göra-lista webbplats via PHP som hämtar och returnerar att-göra-poster. Dessa lagras i en MySQL-databastabell och serveras via Apache.
 
-Vi kommer också använda ett testdomän `zapdocs.example.com` genomgående, eftersom du i verkligheten troligen använder en domän. Du **måste** sätta upp en `A`-typ DNS-post för domänen som pekar på IP-adressen till din server. Om du behöver hjälp med detta, kolla vår guide [Domänposter](domain-records.md).
+Vi kommer också att använda ett testdomännamn `zapdocs.example.com` genomgående, eftersom du i verkligheten troligtvis använder en domän. Du **måste** sätta upp en `A`-typ DNS-post för domänen som pekar på IP-adressen till din server. Om du behöver hjälp med detta, kolla vår guide [Domänposter](domain-records.md).
 
 :::note
-Du kan välja att inte använda en domän och ersätta alla förekomster av `[your_domain]` med ett vanligt namn. Då når du webbplatsen via IP-adressen. Men notera att när du skapar virtual host-filen senare bör du ta bort `ServerName`-parametern.
+Du kan välja att inte använda en domän och ersätta alla förekomster av `[your_domain]` med ett vanligt namn. Då når du webbplatsen via IP-adressen. Observera dock att när du skapar virtual host-filen senare bör du ta bort `ServerName`-parametern.
 :::
 
 #### Sätta upp Apache
 
-Vanligtvis lagras alla webbplatsfiler och data under `/var/www`-katalogen på webbservrar. Som standard kommer Apache oftast med en `html`-katalog som innehåller en standard-sida. För att hålla allt organiserat, särskilt när du hostar många webbplatser på en och samma Apache-instans, rekommenderar vi att varje webbplats får sin egen katalog eller mapp.
+Vanligtvis lagras alla webbplatsfiler och data under `/var/www`-katalogen på webbservrar. Som standard har Apache vanligtvis en `html`-katalog som innehåller en standardwebbsida. För att hålla allt organiserat, särskilt när du hostar många webbplatser på en Apache-instans, rekommenderar vi att varje webbplats får en egen katalog eller mapp.
 
 Du kan enkelt skapa en ny mapp i `/var/www/[your_domain]` för varje webbplatsdomän. I det här exemplet blir det `/var/www/zapdocs.example.com`.
 ```
 sudo mkdir /var/www/[your_domain]
 ```
 
-Nu skapar du en ny Apache virtual host-konfigurationsfil i `sites-available`-katalogen för denna domän och mapp.
+Skapa nu en ny Apache virtual host-konfigurationsfil i `sites-available`-katalogen för denna domän och mapp.
 ```
 sudo nano /etc/apache2/sites-available/[your_domain].conf
 ```
 
-Använd mallen nedan och klistra in den i nano-editorn, byt ut `[your_domain]` mot din domän.
+Använd mallen nedan och klistra in den i nano-editorn, byt ut `[your_domain]` mot den domän du använder.
 ```
 <VirtualHost *:80>
     ServerName [your_domain]
@@ -184,7 +184,7 @@ Använd mallen nedan och klistra in den i nano-editorn, byt ut `[your_domain]` m
 </VirtualHost>
 ```
 
-Den här nya virtual host-filen hanterar port 80 (HTTP)-förfrågningar och kollar om förfrågan matchar `ServerName` som anges, i det här fallet din domän. Den pekar också på att mappen `/var/www/[your_domain]` som du skapade tidigare ska användas för att serva filer.
+Den här nya virtual host-filen hanterar port 80 (HTTP) förfrågningar och kollar om förfrågan matchar `ServerName` som anges, i det här fallet din domän. Den pekar också på att mappen `/var/www/[your_domain]` som du skapade tidigare ska användas för att servera filer.
 
 Spara filen och avsluta nano med `CTRL + X`, följt av `Y` för att bekräfta och slutligen `ENTER`. Vi rekommenderar att du kör `sudo apache2ctl configtest` för att säkerställa att filen inte innehåller några syntaxfel.
 
@@ -194,14 +194,14 @@ sudo a2ensite [your_domain]
 ```
 
 :::note Ingen domän används
-Om du **inte** använder en domän, ta bort raden `ServerName` eller kommentera ut den genom att sätta en `#` framför. Du måste också inaktivera standard virtual host med kommandot `sudo a2dissite 000-default`.
+Om du **inte** använder en domän, ta bort raden `ServerName` eller kommentera ut den genom att sätta ett `#` framför. Du måste också inaktivera standard virtual host med kommandot `sudo a2dissite 000-default`.
 :::
 
 Starta slutligen om Apache för att den nya virtual hosten ska börja gälla med följande kommando: `sudo systemctl restart apache2`.
 
 #### Skapa webbplats
 
-Nu när du har konfigurerat Apache via den nya virtual hosten och dokumentmappen är det dags att skapa själva webbplatsen som ska servas. För tillfället är mappen tom, så inget kommer att visas. Vi skapar en liten att-göra-webbplats som nämnts tidigare för denna domän.
+Nu när du har konfigurerat Apache via den nya virtual hosten och dokumentmappen är det dags att skapa själva webbplatsen som ska serveras. För tillfället är mappen tom, så inget kommer att visas. Vi skapar en liten att-göra-webbplats som nämnts tidigare för denna domän.
 
 ##### Förbereda databasen
 
@@ -218,7 +218,7 @@ CREATE DATABASE todowebsite;
 # Använd den nya databasen
 USE todowebsite;
 
-# Skapa en ny tabell i databasen
+# Skapa en ny tabell för items i databasen
 CREATE TABLE todoitems (
     id INT AUTO_INCREMENT PRIMARY KEY,
     name VARCHAR(255) NOT NULL,
@@ -250,9 +250,9 @@ TO todo@localhost;
 FLUSH PRIVILEGES;
 ```
 
-När databasen är förberedd och användaren klar kan du lämna MySQL-terminalen med kommandot `quit` när du är redo.
+När databasen är klar och användaren redo kan du avsluta MySQL-terminalen med kommandot `quit` när du är klar.
 
-##### PHP-webbplatsfiler
+##### PHP-webbfiler
 
 Den sista delen i exemplet är att sätta upp själva PHP-webbplatsfilen för att-göra-sidan. Detta görs genom en ny `index.php`-fil i `/var/www/[your_domain]`-katalogen som du skapade tidigare. Öppna nano-editorn för att skapa filen där.
 ```
@@ -269,21 +269,21 @@ Den efterföljande HTML-sektionen innehåller huvudsidan som skapar en oordnad l
 
 ```
 <?php
-// Förbered MySQL-anslutning
+// Prepare MySQL Connection
 $servername = "localhost";
 $username = "todo";
 $password = "[your_password]";
 $dbname = "todowebsite";
 
-// Skapa anslutning
+// Create Connection
 $conn = new mysqli($servername, $username, $password, $dbname);
 
-// Kontrollera om anslutningen lyckades, annars returnera fel
+// Check whether the connection was successful, if not return an error
 if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }
 
-// Kör en SQL-fråga för att hämta poster från tabellen och spara resultatet
+// Run an SQL query to return entries from the table and set it as the result variable
 $sql = "SELECT id, name, is_completed, creation_date FROM todoitems ORDER BY creation_date DESC";
 $result = $conn->query($sql);
 ?>
@@ -300,27 +300,27 @@ $result = $conn->query($sql);
       <p>For our awesome ZAP-Hosting guide: <a href="https://zap-hosting.com/guides/docs/vserver-linux-lamp-stack">https://zap-hosting.com/guides/docs/vserver-linux-lamp-stack</a></p>
       <ul>
           <?php
-          // Kolla om det finns några resultat
+          // Check whether there are any results
           if ($result->num_rows > 0) {
-              // Loopa igenom varje post i resultatet
+              // Loop through each item of the returned array from the query
               foreach ($result as $entry) {
                   echo "<li>";
-                  // Visa namnet och använd htmlspecialchars för att förhindra XSS (cross-site scripting)
+                  // Display the name and use htmlspecialchars to prevent XSS (cross-site scripting)
                   echo htmlspecialchars($entry["name"]);
 
-                  // Visa status för slutförande
+                  // Display the completion status
                   if ($entry["is_completed"]) {
                       echo " <strong>(Completed)</strong>";
                   } else {
                       echo " <strong>(Incomplete)</strong>";
                   }
 
-                  // Visa skapandedatum
+                  // Display creation date
                   echo " - Creation Date: " . htmlspecialchars($entry['creation_date']);
                   echo "</li>";
               }
           } else {
-              // Om inga poster finns, visa ett standardmeddelande
+              // If none are found, return a default message
               echo "<li>No to-do items found.</li>";
           }
           ?>
@@ -329,7 +329,7 @@ $result = $conn->query($sql);
 </html>
 
 <?php
-// Stäng databasanslutningen
+// Close database connection
 $conn->close();
 ?>
 ```
@@ -338,7 +338,7 @@ När du har klistrat in detta i nano-editorn, spara filen och avsluta nano med `
 
 #### Testa webbplatsen
 
-Du har nu framgångsrikt följt med och satt upp en test att-göra-webbplats som använder alla delar av LAMP-stacken!
+Du har nu framgångsrikt följt med och satt upp en test-att-göra-webbplats som använder alla delar av LAMP stacken!
 
 Du bör nu kunna nå webbplatsen via domänen (med `http`/port 80) som du definierade tidigare i virtual host-filen, i det här exemplet `zapdocs.example.com`. Slutresultatet bör se ut ungefär så här:
 
@@ -346,7 +346,7 @@ Du bör nu kunna nå webbplatsen via domänen (med `http`/port 80) som du defini
 
 ## Slutsats
 
-Grattis, du har framgångsrikt installerat och satt upp LAMP-stacken! Nästa steg är att vi **starkt rekommenderar** att du sätter upp en domän och ett **SSL-certifikat** för att säkerställa att data skickas säkert till dina webbplatser. Kolla in vår [Certbot-guide](dedicated-linux-certbot.md) med fokus på **Apache-plugin** och följ den interaktiva setupen för att snabbt och enkelt sätta upp ett certifikat för din valda domän.
+Grattis, du har framgångsrikt installerat och satt upp LAMP stacken! Nästa steg rekommenderar vi **starkt** att du sätter upp en domän och ett **SSL-certifikat** för att säkerställa att data skickas säkert till dina webbplatser. Kolla in vår [Certbot-guide](dedicated-linux-certbot.md) med fokus på **Apache-plugin** och följ den interaktiva setupen för att snabbt och enkelt sätta upp ett certifikat för din valda domän.
 
 Har du fler frågor eller behöver hjälp, tveka inte att kontakta vårt supportteam som finns tillgängligt varje dag för att hjälpa dig! 🙂
 
