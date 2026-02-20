@@ -143,7 +143,7 @@ Installationen är klar när följande visas:
 
 ## Öppna webbinstallatören
 
-När installatören startats sker installationen i webbläsaren. Installationssidan nås via https://IP:8447 eller https://Domän.xx:8447.
+När installatören startats sker installationen i webbläsaren. Installationssidan nås via `https://IP:8447` eller `https://Domän.xx:8447`.
 
 ## Plesk Web Panel
 
@@ -151,7 +151,7 @@ När installatören startats sker installationen i webbläsaren. Installationssi
 När du öppnar Web Panel visas: "This is not a secure connection". Detta måste godkännas första gången, sedan öppnas sidan.
 :::
 
-Webbgränssnittet nås via https://IP:8443 eller https://Domän.xx:8443 på servern. Inloggningsuppgifterna är root/admin och det aktuella root-lösenordet. Alternativt kan du använda någon av de visade URL:erna. Om de inte längre är giltiga kan du skapa nya med kommandot ``plesk login``.
+Webbgränssnittet nås via `https://IP:8443` eller `https://Domän.xx:8443` på servern. Inloggningsuppgifterna är root/admin och det aktuella root-lösenordet. Alternativt kan du använda någon av de visade URL:erna. Om de inte längre är giltiga kan du skapa nya med kommandot ``plesk login``.
 
 ### Setup
 

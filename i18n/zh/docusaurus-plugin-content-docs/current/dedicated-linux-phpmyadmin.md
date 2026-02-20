@@ -109,4 +109,4 @@ chown -R www-data:www-data /usr/share/phpmyadmin/tmp/
 
 ## 总结
 
-恭喜你，phpMyAdmin 已成功安装并配置完成。你可以通过服务器的 IP 地址加路径访问网页界面（http://IP-Address/phpmyadmin）。如果有任何问题或需要帮助，随时联系我们的支持团队，我们每天都在线为你服务！🙂
+恭喜你，phpMyAdmin 已成功安装并配置完成。你可以通过服务器的 IP 地址加路径访问网页界面（`http://IP-Address/phpmyadmin`）。如果有任何问题或需要帮助，随时联系我们的支持团队，我们每天都在线为你服务！🙂
