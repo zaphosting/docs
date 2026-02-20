@@ -1,6 +1,6 @@
 ---
 id: vserver-linux-nextcloud
-title: "Installation of Nextcloud"
+title: "Setup Nextcloud on a Linux Server - Build Your Private Cloud Storage"
 description: "Discover how to set up a high-performance Nextcloud server on Linux for optimal cloud hosting → Learn more now"
 sidebar_label: Install Nextcloud
 services:

@@ -1,6 +1,6 @@
 ---
 id: dedicated-linux-phpmyadmin
-title: "Installation of phpMyAdmin"
+title: "Setup phpMyAdmin on a Linux Server - Manage Your Databases via Web Interface"
 description: "Discover how to manage MySQL and MariaDB databases easily with phpMyAdmin’s web interface for efficient database administration → Learn more now"
 sidebar_label: Install phpMyAdmin
 services:

@@ -1,6 +1,6 @@
 ---
 id: dedicated-linux-javascript
-title: 'Dedicated Server: Installation of JavaScript'
+title: "Setup JavaScript Runtime on a Linux Server - Enable Modern Web Application Execution"
 description: "Discover how to install and set up Node.js, Deno, and Bun on your server for efficient JavaScript runtime management → Learn more now"
 sidebar_label: Install JavaScript
 services:

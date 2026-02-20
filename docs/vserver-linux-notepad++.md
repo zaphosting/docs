@@ -1,6 +1,6 @@
 ---
 id: vserver-linux-notepad++
-title: "Setup Notepad++ on Linux"
+title: "Setup Notepad++ on a Linux Server - Use Your Preferred Editor via Wine"
 description: "Discover how to set up and optimize Notepad++ on Linux for efficient, lightweight code editing and development → Learn more now"
 sidebar_label: Install Notepad++
 services:

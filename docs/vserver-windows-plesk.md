@@ -1,6 +1,6 @@
 ---
 id: vserver-windows-plesk
-title: "Installation of Plesk "
+title: "Setup Plesk on a Windows Server - Manage Websites with a Powerful Control Panel"
 description: "Discover how to efficiently manage websites and servers with Plesk’s versatile platform for beginners and experts alike → Learn more now"
 sidebar_label: Install Plesk
 services:

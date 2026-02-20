@@ -1,6 +1,6 @@
 ---
 id: vserver-windows-bitwarden
-title: "Setup Bitwarden on Windows"
+title: "Setup Bitwarden on a Windows Server - Secure Your Password Management"
 description: "Discover how to securely self-host Bitwarden for managing passwords with end-to-end encryption and strong credential features → Learn more now"
 sidebar_label: Install Bitwarden
 services:

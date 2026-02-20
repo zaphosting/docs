@@ -1,6 +1,6 @@
 ---
 id: vserver-linux-standard-notes
-title: "Setup Standard Notes on Linux"
+title: "Setup Standard Notes on a Linux Server - Build Your Private Notes System"
 description: "Discover how to securely sync and protect your notes across devices with Standard Notes self-hosting → Learn more now"
 sidebar_label: Install Standard Notes
 services:

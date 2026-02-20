@@ -1,6 +1,6 @@
 ---
 id: vserver-linux-supabase
-title: "Setup Supabase on Linux"
+title: "Setup Supabase on a Linux Server - Launch Your Open Source Backend Platform"
 description: "Discover how to host and configure Supabase for a reliable open-source Postgres platform with authentication and realtime features → Learn more now"
 sidebar_label: Install Supabase
 services:

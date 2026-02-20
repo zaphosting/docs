@@ -1,6 +1,6 @@
 ---
 id: vserver-linux-ts6
-title: "Setup Teamspeak 6 Server on your Linux VPS"
+title: "Setup TeamSpeak 6 Server on a Linux Server - Deploy Your Own Voice Platform"
 description: "Discover how to set up and optimize the TeamSpeak 6 Server for reliable hosting and performance → Learn more now"
 sidebar_label: Install Teamspeak 6 Server
 services:

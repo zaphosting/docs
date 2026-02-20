@@ -1,6 +1,6 @@
 ---
 id: dedicated-windows-plex
-title: "Setup Plex on Windows"
+title: "Setup Plex on a Windows Server - Stream Your Personal Media Library"
 description: "Discover how to manage and stream your personal media effortlessly with Plex for seamless access across devices → Learn more now"
 sidebar_label: Install Plex
 services:
