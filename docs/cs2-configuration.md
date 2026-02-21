@@ -4,7 +4,7 @@ title: "CS2: Server configuration"
 description: "Explore how to configure Counter-Strike servers with gamemodes, mapgroups, and GSL tokens for optimized gameplay → Learn more now"
 sidebar_label: Server Configration
 services:
-  - gameserver-dods-cs2
+  - gameserver-cs2
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';
