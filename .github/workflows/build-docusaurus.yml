@@ -1,6 +1,6 @@
 name: Build Docusaurus Documentation
 on:
-  pull_request:
+  pull_request_target:
     types: [labeled]
   push:
     branches: ["master", "main"]
@@ -19,6 +19,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
+          ref: ${{ github.event.pull_request.head.sha || github.sha }}
           fetch-depth: 0
 
       - name: Setup Node.js
@@ -54,13 +55,17 @@ jobs:
           retention-days: 90
 
       - name: Remove label
-        if: always() && github.event_name == 'pull_request'
+        if: always() && github.event_name == 'pull_request_target'
         uses: actions/github-script@v7
         with:
           script: |
-            github.rest.issues.removeLabel({
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              issue_number: context.issue.number,
-              name: 'BUILD DOCUSAURUS'
-            })
+            try {
+              await github.rest.issues.removeLabel({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: context.payload.pull_request.number,
+                name: 'BUILD DOCUSAURUS'
+              });
+            } catch (error) {
+              core.warning(`Could not remove label: ${error.message}`);
+            }
