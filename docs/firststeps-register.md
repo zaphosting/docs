@@ -5,6 +5,8 @@ description: "Discover how to create your ZAP-Hosting account quickly and access
 sidebar_label: Register
 ---
 
+Trololololol
+
 ## Create account
 Creating a ZAP-Hosting account is the first step to access and manage all services and features. The registration process is quick and only requires a few details.
 
