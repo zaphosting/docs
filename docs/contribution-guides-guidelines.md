@@ -278,16 +278,15 @@ You should use the danger admonition where crucial information needs highlightin
 
 ### Screenshots
 
-Screenshots are an extremely useful method of guiding readers through the steps visually and we recommend using these where appropriate.
-
-In order to accommodate the German section, when you are taking a screenshot, we expect you to add both an English version and a German version to ensure that the screenshots are consistent. Within your guide, you can place them right next to each other. The German screenshots will be removed and used once the ZAP-Docs team translates your article.
+Screenshots are an extremely useful method of guiding readers through the steps visually and we recommend using these where appropriate. Please ensure that all content visible within your screenshots is set to English, as our documentation is written in English and the same English screenshots will be used for the other languages we provide in the docs. Screenshots should be created in a sufficiently large resolution so that all elements are clearly readable. Please avoid small or heavily cropped images.
 
 You can use the following syntax to add a screenshot to your content, replacing `your_url` with the URL of the image:
+
 ```
 ![](your_url)
 ```
 
-The best practice is to use a site such as Imgur to upload and use the image, or alternatively you can directly drag it into the editing field directly if you are using the GitHub website to create your content to automatically upload it for you.
+The best practice is to use a site such as Imgur to upload and use the image, or alternatively you can directly drag it into the editing field if you are using the GitHub website to create your content, which will automatically upload it for you.
 
 ## Terminology
 

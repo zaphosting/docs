@@ -15,13 +15,13 @@ import items from '@site/data/lists/hytale-mods.json';
 
 ## Einführung
 
-Mods machen deinen Hytale Gameserver zu etwas ganz Eigenem. Sie können neue Mechaniken hinzufügen, bestehende Systeme erweitern, frische Herausforderungen bringen und komplett neue Spielweisen ermöglichen – von kleinen Quality-of-Life-Verbesserungen bis hin zu kompletten Gameplay-Überarbeitungen.
+Mods machen deinen Hytale Gameserver zu etwas ganz Eigenem. Sie können neue Mechaniken hinzufügen, bestehende Systeme erweitern, frische Herausforderungen bringen und komplett neue Spielweisen schaffen – von kleinen Quality-of-Life-Verbesserungen bis hin zu kompletten Gameplay-Überarbeitungen.
 
-Egal ob du schnellere Progression, tiefere Survival-Elemente, mehr Baumöglichkeiten, individuelle Events oder einzigartige Server-Regeln willst – Mods geben dir die Tools, um das Erlebnis zu gestalten und deine Welt einzigartig zu machen.
+Egal, ob du schnellere Progression, tiefere Survival-Elemente, mehr Bauoptionen, individuelle Events oder einzigartige Server-Regeln willst – Mods geben dir die Tools, um das Erlebnis zu formen und deine Welt einzigartig zu machen.
 
 :::info Early Access Hinweis
 
-Hytale wurde am 13. Januar 2026 veröffentlicht und befindet sich aktuell im Early Access. Da das Spiel sich noch in aktiver Entwicklung befindet, können sich Server-Software, Konfigurationsdateien, Modding-Support und Installationsabläufe weiterhin ändern.
+Hytale wurde am 13. Januar 2026 veröffentlicht und befindet sich aktuell im Early Access. Da das Spiel noch in aktiver Entwicklung ist, können sich Server-Software, Konfigurationsdateien, Modding-Support und Installationsabläufe weiterhin ändern.
 
 :::
 
@@ -29,13 +29,21 @@ Hytale wurde am 13. Januar 2026 veröffentlicht und befindet sich aktuell im Ear
 
 ## Mods installieren
 
-Mods kannst du installieren, indem du sie direkt in deine Server-Dateien hochlädst. Lade die gewünschten Mods im `.zip` oder `.jar` Format von vertrauenswürdigen Quellen wie CurseForge herunter.
+Mods kannst du installieren, indem du sie direkt in deine Server-Dateien hochlädst. Lade die gewünschten Mods im `.zip` oder `.jar` Format von vertrauenswürdigen Quellen wie CurseForge herunter. Verbinde dich danach per  mit deinem Server und öffne das Verzeichnis `mods/` im Server-Root.
 
-Verbinde dich danach mit deinem Gameserver und öffne das Verzeichnis `mods/` im Server-Root. Lade die Mod-Dateien in diesen Ordner hoch, ohne sie zu entpacken oder zu verändern. Sobald alle Mods drin sind, starte den Server neu, damit sie geladen und aktiviert werden.
+Lade die Mod-Dateien in diesen Ordner hoch, ohne sie zu entpacken oder zu verändern. Sobald alle Mods drin sind, starte den Server neu, damit sie geladen und aktiviert werden.
+
+Alternativ kannst du die vereinfachte One-Click-Installation im Gameserver Management unter dem Menüpunkt **CurseForge Mods** nutzen.
+
+![img](https://screensaver01.zap-hosting.com/index.php/s/oEXfKk67arGExsS/download)
+
+Dort kannst du nach verfügbaren Mods suchen, sie auswählen und mit nur einem Klick direkt installieren. So sparst du dir das manuelle Herunterladen und Hochladen der Mod-Dateien, denn die ausgewählten Mods werden automatisch im richtigen Verzeichnis auf deinem Server abgelegt.
+
+Nach der Installation über **CurseForge Mods** solltest du den Server neu starten, damit alle Mods korrekt geladen und aktiviert werden.
 
 ## Beliebte Mods
 
-Du suchst noch nach den perfekten Mods für deinen Server? Stöbere durch unsere sorgfältig kuratierte Liste der beliebtesten und am meisten empfohlenen Mods, um dein Gameplay zu verbessern und deinem Server den letzten Schliff zu geben. Lass dich inspirieren und finde genau die Erweiterungen, die zu deinem Projekt passen.
+Du suchst noch die perfekten Mods für deinen Server? Stöbere durch unsere sorgfältig zusammengestellte Liste der beliebtesten und am meisten empfohlenen Mods, um dein Gameplay zu verbessern und deinem Server den letzten Schliff zu geben. Lass dich inspirieren und finde genau die Erweiterungen, die zu deinem Projekt passen.
 
 <SearchableItemList items={items} />
 

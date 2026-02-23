@@ -29,9 +29,21 @@ Hytale released on January 13th, 2026 and is currently available in Early Access
 
 ## Install Mods
 
-Mods can be installed by adding them directly to your server files. Start by downloading the desired mods in `.zip` or `.jar` format from trusted sources such as CurseForge.
+Mods can be installed by adding them directly to your server files. Start by downloading the desired mods in `.zip` or `.jar` format from trusted sources such as CurseForge. Once downloaded, connect to your server via  and open the `mods/` directory in the server root.
 
-Once downloaded, connect to your server and open the `mods/` directory in the server root. Upload the mod files into this folder without extracting or modifying them. After all mods are in place, restart the server so they are loaded and activated.
+Upload the mod files into this folder without extracting or modifying them. After all mods are in place, restart the server so they are loaded and activated.
+
+Alternatively, you can use the simplified one click installation available in the Gameserver Management under the menu item **CurseForge Mods**. 
+
+![img](https://screensaver01.zap-hosting.com/index.php/s/oEXfKk67arGExsS/download)
+
+There you can search for available mods, select them, and install them directly with a single click. This eliminates the need to manually download and upload mod files, as the selected mods are automatically placed in the correct directory on your server.
+
+
+
+
+
+After installing mods using **CurseForge Mods**, restart the server to ensure they are properly loaded and activated.
 
 ## Popular Mods
 
