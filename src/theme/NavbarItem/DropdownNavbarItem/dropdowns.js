@@ -617,7 +617,7 @@ export const dropdowns = {
 
     bottomRow: {
       items: [
-        { to: '/docs/vserver-linux-bitwarden', icon: 'list', label: 'All Services', labelKey: 'allServices' },
+        { to: '/docs/software-overview-services', icon: 'list', label: 'All Services', labelKey: 'allServices' },
         { to: '/docs/software-overview-dedicated-game-server', icon: 'list', label: 'All Dedicated Games', labelKey: 'allDedicatedGames' },
       ],
     },
