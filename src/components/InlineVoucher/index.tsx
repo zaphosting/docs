@@ -1,6 +1,6 @@
 import styles from './styles.module.css';
 import Translate, { translate } from '@docusaurus/Translate';
-import { mapList } from '../../utilities/serviceMapper';
+import map from '../../utilities/serviceMapper';
 import VoucherButton from '../VoucherButton';
 import { VoucherContext } from '../../utilities/contexts/VoucherContext';
 import { useContext, useState, useRef, useEffect } from 'react';
@@ -32,6 +32,8 @@ function CouponPanel({ discountGroups, serviceInfoMap, marketingSite }) {
     document.addEventListener('mousedown', handleClick);
     return () => document.removeEventListener('mousedown', handleClick);
   }, []);
+
+  if (!selected) return null;
 
   return (
     <>
@@ -123,7 +125,6 @@ export default function InlineVoucher({ showProducts = true }): JSX.Element {
   const { loading, vouchers, found, getVoucherForServices, groupServicesByVoucher } = useContext(VoucherContext);
 
   let services = null;
-  let serviceInfoList = [];
 
   if (
     frontMatter.hasOwnProperty('services')
@@ -131,20 +132,25 @@ export default function InlineVoucher({ showProducts = true }): JSX.Element {
     && frontMatter.services.length > 0
   ) {
     services = frontMatter.services;
-    serviceInfoList = mapList(services);
   }
 
   const voucher = getVoucherForServices ? getVoucherForServices(services || []) : null;
   const discountGroups = groupServicesByVoucher ? groupServicesByVoucher(services || []) : [];
 
-  const serviceInfoMap = {};
-  if (services && serviceInfoList) {
-    services.forEach((key, index) => {
-      if (serviceInfoList[index]) {
-        serviceInfoMap[key] = serviceInfoList[index];
+  const serviceInfoMap: Record<string, any> = {};
+  let hasUnknownService = false;
+  if (services) {
+    for (const key of services) {
+      const info = map(key);
+      if (info) {
+        serviceInfoMap[key] = info;
+      } else {
+        hasUnknownService = true;
       }
-    });
+    }
   }
+
+  if (hasUnknownService) return null;
 
   const primaryVoucher = discountGroups.length > 0 ? discountGroups[0].voucher : voucher;
   const canDisplayProducts = showProducts === true && discountGroups.length > 0;
