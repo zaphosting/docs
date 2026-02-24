@@ -2450,7 +2450,16 @@ const sidebars = {
           label: "Configuration",
           key: "gameserver-configuration-humanitz",
           items: [
-            "humanitz-automated-messages"
+            "humanitz-airdrop-management",
+            "humanitz-automated-messages",
+            "humanitz-change-day-night-length",
+            "humanitz-change-death-penalty",
+            "humanitz-change-player-difficulty",
+            "humanitz-change-pvp-mode",
+            "humanitz-change-weather",
+            "humanitz-change-zombie-difficulty",
+            "humanitz-enable-disable-death-notifications",
+            "humanitz-enable-disable-voice-chat"
           ]
         },
         {
