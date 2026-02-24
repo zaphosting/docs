@@ -42,6 +42,19 @@ const servicesMap: serviceMap = {
         }),
         price: `${priceFrom} 7.90€`,
     },
+    'vserver-service-n8n': {
+        title: translate({
+            message: 'VPS for n8n',
+            id: 'service.vserver-service-n8n.title',
+            description: 'Product name for the n8n product',
+        }),
+        url: translate({
+            message: '{marketingSite}/{language}/vps-for-n8n/',
+            id: 'service.vserver-service-n8n.path',
+            description: 'URL path for the VPS product',
+        }),
+        price: `${priceFrom} 7.90€`,
+    },
     'dedicated': {
         title: translate({
             message: 'Dedicated Server',
@@ -63,6 +76,19 @@ const servicesMap: serviceMap = {
         }),
         url: translate({
             message: '{marketingSite}/{language}/vps-for-openclaw/',
+            id: 'service.dedicated.path',
+            description: 'URL path for the dedicated server product',
+        }),
+        price: `${priceFrom} 58.90€`,
+    },
+    'dedicated-service-n8n': {
+        title: translate({
+            message: 'Dedicated Server for n8n',
+            id: 'service.dedicated-service-n8n.title',
+            description: 'Product name for the n8n product',
+        }),
+        url: translate({
+            message: '{marketingSite}/{language}/vps-for-n8n/',
             id: 'service.dedicated.path',
             description: 'URL path for the dedicated server product',
         }),

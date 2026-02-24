@@ -556,10 +556,10 @@ export const dropdowns = {
         icon: 'linux',
         items: [
           { to: '/docs/dedicated-linux-openclaw', icon: 'bot', label: 'OpenClaw', labelKey: 'openclaw', badge: '🔥Trending', badgeKey: 'badgeTrending' },
+          { to: '/docs/dedicated-linux-n8n', icon: 'bot', label: 'n8n', labelKey: 'n8n', badge: '⭐ Popular', badgeKey: 'badgePopular' },
           { to: '/docs/vserver-linux-bitwarden', icon: 'shield', label: 'Bitwarden', labelKey: 'bitwarden' },
           { to: '/docs/vserver-linux-nextcloud', icon: 'cube', label: 'Nextcloud', labelKey: 'nextcloud' },
           { to: '/docs/dedicated-linux-plex', icon: 'cube', label: 'Plex', labelKey: 'plex' },
-          { to: '/docs/dedicated-linux-jitsi', icon: 'headphones', label: 'Jitsi Meet', labelKey: 'jitsi' },
           { to: '/docs/dedicated-linux-openvpn', icon: 'shield', label: 'OpenVPN', labelKey: 'openvpn' },
           { to: '/docs/dedicated-linux-wordpress', icon: 'globe', label: 'WordPress', labelKey: 'wordpress', },
         ],
