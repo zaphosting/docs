@@ -1,7 +1,7 @@
 ---
 id: server-linux-n8n
 title: "Setup n8n on a Linux Server - Build Powerful Workflow Automations"
-description: "Discover how to install and set up n8n for self-hosting to build a AI workflow automation that makes your work easier!"
+description: "Discover how to install and set up n8n for self-hosting to build a AI workflow automation that makes your work easier → Learn more now"
 sidebar_label: Install n8n
 services:
   - vserver-service-n8n
