@@ -5228,6 +5228,7 @@ const sidebars = {
     "vserver-linux-curl",
     "vserver-linux-gitlab",
     "vserver-linux-joplin",
+    "server-linux-n8n",
     "vserver-linux-nextcloud",
     "vserver-linux-nodejs",
     "vserver-linux-notepad++",
