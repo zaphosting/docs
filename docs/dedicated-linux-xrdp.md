@@ -1,9 +1,10 @@
 ---
 id: dedicated-linux-xrdp
-title: "Dedicated Server: Installation of xRDP (Remote Desktop) "
+title: "Setup xRDP on a Linux Server - Enable Remote Desktop Access"
 description: "Discover how to set up remote desktop access on Ubuntu and Debian servers for easier management and control → Learn more now"
 sidebar_label: Install xRDP
 services:
+  - vserver
   - dedicated
 ---
 

@@ -1,9 +1,10 @@
 ---
 id: dedicated-windows-javascript
-title: 'Servidor Dedicado: Instalación de JavaScript'
-description: "Descubre cómo instalar y configurar Node.js, Deno y Bun en Windows para ejecutar JavaScript de manera eficiente → Aprende más ahora"
+title: "Configura el Entorno de Ejecución JavaScript en un Servidor Windows - Activa la Ejecución de Aplicaciones Web Modernas"
+description: "Descubre cómo instalar y configurar Node.js, Deno y Bun en Windows para ejecutar JavaScript de forma eficiente → Aprende más ahora"
 sidebar_label: Instalar JavaScript
 services:
+  - vserver
   - dedicated
 ---
 
@@ -11,11 +12,11 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introducción
 
-Esta guía proporciona los pasos para la instalación de Node.js, Deno y Bun en Windows. Los pasos que se indican a continuación deben ejecutarse vía RDP, si no sabes cómo conectarte a tu servidor vía RDP, por favor consulta nuestra [Guía de Acceso Inicial (RDP)](vserver-windows-userdp.md).
+Esta guía ofrece los pasos para la instalación de Node.js, Deno y Bun en Windows. Los pasos que se indican a continuación deben ejecutarse vía RDP; si no sabes cómo conectarte a tu servidor vía RDP, echa un vistazo a nuestra [Guía de Acceso Inicial (RDP)](vserver-windows-userdp.md).
 
 ## Instalación
 
-Para comenzar, necesitas decidir qué runtime de JavaScript instalar. Hay muchos recursos en línea que describen cada uno con mucho detalle. Pero también puedes leer esta guía porque incluirá comandos básicos de uso y ejemplos de código. Recomendamos usar Node.js ya que es uno de los más usados y una opción muy popular.
+Para empezar, necesitas decidir qué entorno de ejecución JavaScript instalar. Hay muchos recursos en línea que describen cada uno con mucho detalle. Pero también puedes leer esta guía porque incluye comandos básicos de uso y ejemplos de código. Recomendamos usar Node.js, ya que es uno de los más usados y una opción muy popular.
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
@@ -39,15 +40,15 @@ Generalmente se recomienda mantener la instalación en la versión Long Term Sup
 :::
 
 ### Paso 2: Instalando Python
-Ejecuta el instalador haciendo clic en él. Ahora se te pedirá configurar algunos ajustes para la instalación. En la página de `Bienvenida` debes hacer clic en `Next`.
+Ejecuta el instalador haciendo clic en él. Ahora se te pedirá configurar algunos ajustes para la instalación. En la página de `Bienvenida` haz clic en `Next`.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/4kZo7AFbMk58c2E/preview)
 
-Ahora debes leer y aceptar (marcando la casilla) el Acuerdo de Licencia de Node.js y luego hacer clic en el botón `Next`.
+Luego debes leer y aceptar (marcando la casilla) el Acuerdo de Licencia de Node.js y después hacer clic en el botón `Next`.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/sDNjGj7fCqHRFGp/preview)
 
-Después se te pedirá una ubicación para instalar Node.js.
+Después se te pedirá elegir una ubicación para instalar Node.js.
 
 :::note
 Recomendamos usar la ubicación de instalación por defecto.
@@ -60,7 +61,7 @@ En la siguiente página, puedes optar por no instalar algunos paquetes principal
 ![](https://screensaver01.zap-hosting.com/index.php/s/y6ssQbn2psE5sFt/preview)
 
 ### Paso 3: Finalizando la Instalación
-Eso es todo, ahora puedes hacer clic en `Install` y esperar a que todo se configure. Ten paciencia, esto puede tardar un poco. :)
+Eso es todo, ahora puedes hacer clic en `Install` y esperar a que todo se configure. Ten paciencia, puede tardar un poco. :)
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/Bdr4pfwS2HRoaS2/preview)
 
@@ -68,7 +69,7 @@ Una vez terminado, simplemente presiona `Finish` en la página final y comienza 
 
 ### Actualizar Node.js a la última versión
 
-Ejecutar `node -v` mostrará la versión instalada de Node.js. De vez en cuando, deberías verificar que estás usando la última versión LTS. Para actualizar Node.js, debes seguir nuevamente la sección de esta [Guía de Instalación de JavaScript](dedicated-windows-javascript.md).
+Ejecutar `node -v` mostrará la versión instalada de Node.js. De vez en cuando, deberías comprobar que estás usando la última versión LTS. Para actualizar Node.js, debes seguir nuevamente la sección de esta guía [Instalar JavaScript](dedicated-windows-javascript.md).
 
 ### Ejecutando Node.js & npm
 
@@ -80,31 +81,31 @@ Puedes encontrar todos los paquetes npm en su [sitio web](https://www.npmjs.com/
 
 ### Creando un nuevo proyecto
 
-Cada vez que quieras iniciar un nuevo proyecto Node.js necesitas crear un nuevo directorio para él usando el Explorador de Archivos, abrir el Símbolo del sistema o PowerShell dentro de ese directorio y ejecutar el comando `npm init` para comenzar la configuración. Esto te pedirá información básica para crear un archivo `package.json`. Este será el archivo "config" para ejecutar Node.js.
+Cada vez que quieras iniciar un nuevo proyecto Node.js, necesitas crear un nuevo directorio para él usando el Explorador de Archivos, abrir el Símbolo del sistema o PowerShell dentro de ese directorio y ejecutar el comando `npm init` para comenzar la configuración. Esto te pedirá información básica para crear un archivo `package.json`. Este será el archivo "config" para ejecutar Node.js.
 
 :::tip
-En Windows, hacer clic una vez en la ruta actual del Explorador de Archivos y escribir `cmd` y luego presionar `Enter` abrirá el Símbolo del sistema dentro del directorio actual, facilitando el proceso.
+En Windows, hacer clic una vez en la ruta actual del Explorador de Archivos y escribir `cmd` seguido de `Enter` abrirá el Símbolo del sistema dentro del directorio actual, facilitando el proceso.
 :::
 
-Después de inicializar el nuevo proyecto, puedes crear un archivo llamado `index.js` y escribir código dentro. Como ejemplo, crearemos un servidor http simple en el puerto 80 por defecto que responde con un mensaje de prueba cuando se accede vía localhost. Esto se ve a continuación.
+Después de inicializar el nuevo proyecto, puedes crear un archivo llamado `index.js` y escribir código dentro. Como ejemplo, crearemos un servidor http simple en el puerto 80 por defecto que responde con un mensaje de prueba cuando se accede vía localhost. Se ve así:
 
 ```js
 const http = require('http')
 
 const server = http.createServer((req, res) => {
   res.writeHead(200, { 'Content-Type': 'text/plain' })
-  res.end('Hola desde ZAP-Hosting Docs =)')
+  res.end('Hola desde la documentación de ZAP-Hosting =)')
 })
 
 server.listen(80)
 ```
 
-Ahora puedes ejecutar el código con el comando `node .` y verificar los resultados yendo a `localhost:80` en tu navegador.
+Ahora puedes ejecutar el código con el comando `node .` y comprobar los resultados yendo a `localhost:80` en tu navegador.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/kWRi9agrzkWc4rw/preview)
 
 :::tip
-Instalar paquetes externos desde npm se hace con `npm install [nombre-del-paquete]`
+Instalar paquetes externos desde npm se hace con el comando `npm install [nombre-del-paquete]`
 :::
 
 </TabItem>
@@ -118,24 +119,24 @@ Instalar Deno es tan simple como escribir `irm https://deno.land/install.ps1 | i
 ![](https://screensaver01.zap-hosting.com/index.php/s/jTdDo6c2Kx42o8B/preview)
 
 :::tip
-Para verificar la versión instalada, puedes ejecutar `deno --version`.
+Para comprobar la versión instalada, puedes ejecutar `deno --version`.
 :::
 
 ### Actualizar Deno a la última versión
 
-Actualizar Deno se puede hacer simplemente ejecutando `deno upgrade`.
+Actualizar Deno es tan sencillo como ejecutar `deno upgrade`.
 
 ### Ejecutando Deno
 
-Para comenzar a usar Deno necesitarás crear un archivo `index.ts` y escribir algo de código en él. Como ejemplo, crearemos un servidor http simple en el puerto 80 por defecto que responde con un mensaje de prueba cuando se accede vía localhost. Esto se ve a continuación.
+Para comenzar a usar Deno, necesitas crear un archivo `index.ts` y escribir algo de código en él. Como ejemplo, crearemos un servidor http simple en el puerto 80 por defecto que responde con un mensaje de prueba cuando se accede vía localhost. Se ve así:
 
 ```js
 Deno.serve({ port: 80 }, (_req: Request) => {
-  return new Response('Hola desde ZAP-Hosting Docs =)')
+  return new Response('Hola desde la documentación de ZAP-Hosting =)')
 })
 ```
 
-Ahora puedes ejecutar el código con el comando `deno run --allow-net index.ts` y verificar los resultados yendo a `localhost:80` en tu navegador.
+Ahora puedes ejecutar el código con el comando `deno run --allow-net index.ts` y comprobar los resultados yendo a `localhost:80` en tu navegador.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/rswYFXWM9D5grpS/preview)
 
@@ -149,7 +150,7 @@ Deno fue creado para ser más seguro y por eso requiere ciertos permisos como `-
 
 ## Instalando Bun Runtime
 
-Bun también ofrece un instalador muy fácil con un solo comando, pero también da a los usuarios la opción de instalarlo vía npm si han usado Node.js antes.
+Bun también ofrece un instalador muy sencillo con un solo comando, pero también da la opción de instalarlo vía npm si ya has usado Node.js antes.
 
 <Tabs>
 <TabItem value="command" label="Comando" default>
@@ -176,24 +177,24 @@ Si ya tienes npm instalado, puedes ejecutar `npm install -g bun` para instalar B
 
 ### Ejecutando Bun
 
-Bun fue creado para ser más rápido que algunos otros motores de JavaScript, mientras mantiene una configuración similar a Node.js. Para ejecutar Bun, abre un directorio vacío y ejecuta `bun init` en un Símbolo del sistema.
+Bun fue creado para ser más rápido que algunos otros motores JavaScript, manteniendo una configuración similar a Node.js. Para ejecutar Bun, abre un directorio vacío y ejecuta `bun init` en un Símbolo del sistema.
 
 :::note
 Dependiendo del lenguaje elegido (JS o TS), Bun creará un archivo de configuración (jsconfig.json o tsconfig.json).
 :::
 
-Para comenzar a usar Bun, necesitarás crear un archivo `index.ts` y escribir algo de código en él. Como ejemplo, crearemos un servidor http simple en el puerto 80 por defecto que responde con un mensaje de prueba cuando se accede vía localhost. Esto se ve a continuación.
+Para comenzar a usar Bun, necesitas crear un archivo `index.ts` y escribir algo de código en él. Como ejemplo, crearemos un servidor http simple en el puerto 80 por defecto que responde con un mensaje de prueba cuando se accede vía localhost. Se ve así:
 
 ```js
 const server = Bun.serve({
   port: 80,
   fetch(req) {
-    return new Response('Hola desde ZAP-Hosting Docs =)')
+    return new Response('Hola desde la documentación de ZAP-Hosting =)')
   },
 })
 ```
 
-Ahora puedes ejecutar el código con el comando `bun index.ts` y verificar los resultados yendo a `localhost:80` en tu navegador.
+Ahora puedes ejecutar el código con el comando `bun index.ts` y comprobar los resultados yendo a `localhost:80` en tu navegador.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/oTco7F65bZbSGP9/preview)
 
@@ -202,4 +203,4 @@ Ahora puedes ejecutar el código con el comando `bun index.ts` y verificar los r
 
 ## Conclusión
 
-¡Felicidades, has instalado JavaScript con éxito! Para cualquier pregunta o asistencia, no dudes en contactar a nuestro equipo de soporte, que está disponible todos los días para ayudarte. 🙂
+¡Felicidades, has instalado JavaScript con éxito! Para cualquier pregunta o ayuda, no dudes en contactar con nuestro equipo de soporte, que está disponible todos los días para asistirte. 🙂

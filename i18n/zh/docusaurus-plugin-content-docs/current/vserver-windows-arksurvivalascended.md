@@ -150,7 +150,7 @@ New-NetFirewallRule -DisplayName "ARKSA Server" -Direction Outbound -LocalPort 7
 你会找到 **DefaultGameUserSettings.ini** 和 **GameUserSettings.ini** 两个配置文件，里面可以修改各种服务器设置和选项。
 
 :::warning[CROSSPLAY 支持]
-自 2023 年 11 月 18 日起，服务器管理员需要手动安装证书撤销列表（CRL），可从 https://dev.epicgames.com/（或直接从 http://crl.r2m02.amazontrust.com/r2m02.crl）下载。下载后，右键点击 r2m02.crl 文件，选择“将所有证书放入以下存储”，选择“受信任的根证书颁发机构”，完成安装。可能需要重启系统。
+自 2023 年 11 月 18 日起，服务器管理员需要手动安装证书撤销列表（CRL），可从 `https://dev.epicgames.com/`（或直接从 `http://crl.r2m02.amazontrust.com/r2m02.crl`）下载。下载后，右键点击 r2m02.crl 文件，选择“将所有证书放入以下存储”，选择“受信任的根证书颁发机构”，完成安装。可能需要重启系统。
 
 如果你在 2023 年 11 月 18 日之前安装过 r2m02.cer 证书，但服务器无法显示，需要将该证书从系统中删除。按 Win+R，输入 certmgr.msc，找到“受信任的根证书颁发机构”中的 Amazon RSA 2048 M02 证书并删除。还需用 certlm.msc 做同样操作。最后重启系统。
 :::

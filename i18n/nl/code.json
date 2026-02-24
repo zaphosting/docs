@@ -1102,8 +1102,14 @@
   "inlinevoucher.title": {
     "message": "{voucherValue} {voucherType} HOSTING KORTING 🏷️"
   },
+  "inlinevoucher.title.generic": {
+    "message": "HOSTING-KORTING 🏷️"
+  },
   "inlinevoucher.description.with-products": {
-    "message": "Grijp je kans en start vandaag nog je eigen project! Gebruik de kortingscode voor de producten die in deze handleiding staan en krijg 50% korting. 😉"
+    "message": "Grijp de kans en start vandaag nog je eigen project! Gebruik de kortingscode voor de producten in deze handleiding en bespaar. 😉"
+  },
+  "inlinevoucher.description.rental-note": {
+    "message": "Deze kortingscode kan worden gebruikt voor de volgende producten op huurbasis:"
   },
   "inlinevoucher.list-title.with-products": {
     "message": "Deze kortingscode kan worden gebruikt voor de volgende producten op huurbasis:"
@@ -1126,8 +1132,26 @@
   "inlinevoucher.your-voucher": {
     "message": "JOUW CODE"
   },
+  "inlinevoucher.code-label": {
+    "message": "Code:"
+  },
+  "inlinevoucher.cta": {
+    "message": "Nu bestellen"
+  },
+  "inlinevoucher.select-product": {
+    "message": "Product selecteren:"
+  },
+  "inlinevoucher.coupon-description": {
+    "message": "Kopieer de code en pas deze toe bij het afrekenen of gebruik de bestelknop hieronder."
+  },
+  "inlinevoucher.auto-apply": {
+    "message": "Door de bestelknop te gebruiken wordt de voucher automatisch toegepast."
+  },
   "voucherbox.cta": {
     "message": "Huur een server"
+  },
+  "voucherbox.auto-apply": {
+    "message": "Door de \"Nu bestellen\" knop te gebruiken wordt de voucher automatisch toegepast."
   },
   "voucher.redeem": {
     "message": "Inwisselen"
@@ -1172,16 +1196,22 @@
     "message": "Meer tonen"
   },
   "servicelist.introduction": {
-    "message": "Deze handleiding is gemaakt met de volgende producten:"
+    "message": "De ideale producten voor deze handleiding"
   },
   "servicelist.note": {
-    "message": "(Details kunnen verschillen bij producten van verschillende aanbieders, maar de hoofdconcepten blijven hetzelfde)"
+    "message": "Begin meteen — bestel het passende product en volg deze handleiding stap voor stap."
   },
   "footer.cookieSettings": {
     "message": "Cookie-instellingen"
   },
   "voucherbox.title": {
     "message": "HOSTING KORTING"
+  },
+  "contributors.title": {
+    "message": "Handleiding bijdrager(s)"
+  },
+  "contributors.description": {
+    "message": "Word vandaag nog onderdeel van de ZAP-Hosting Community! Doe mee aan onze {contributionLink} om je kennis en expertise te delen door hoogwaardige handleidingen en creatieve content te maken en verdien waardevolle beloningen tot 130€. Begin vandaag en maak het verschil! 🙂"
   },
   "theme.ErrorPageContent.title": {
     "message": "Deze pagina is gecrasht.",
@@ -1510,6 +1540,195 @@
     "message": "Tags",
     "description": "The title of the tag list page"
   },
+  "dropdown.vps.gettingStarted": {
+    "message": "Eerste stappen"
+  },
+  "dropdown.vps.introduction": {
+    "message": "Introductie"
+  },
+  "dropdown.vps.dashboard": {
+    "message": "Dashboard"
+  },
+  "dropdown.vps.software": {
+    "message": "Software"
+  },
+  "dropdown.vps.linux": {
+    "message": "Linux"
+  },
+  "dropdown.vps.windows": {
+    "message": "Windows"
+  },
+  "dropdown.vps.general": {
+    "message": "Algemeen"
+  },
+  "dropdown.vps.services": {
+    "message": "Diensten"
+  },
+  "dropdown.vps.gameServers": {
+    "message": "Gameservers"
+  },
+  "dropdown.gameserver.gettingStarted": {
+    "message": "Eerste stappen"
+  },
+  "dropdown.gameserver.introduction": {
+    "message": "Introductie"
+  },
+  "dropdown.gameserver.ftpAccess": {
+    "message": "FTP-toegang"
+  },
+  "dropdown.gameserver.backups": {
+    "message": "Back-ups"
+  },
+  "dropdown.gameserver.popularGames": {
+    "message": "Populaire games"
+  },
+  "dropdown.gameserver.allGames": {
+    "message": "Alle games (A-Z)"
+  },
+  "dropdown.gameserver.scheduledTasks": {
+    "message": "Geplande taken"
+  },
+  "dropdown.gameserver.databases": {
+    "message": "Databases"
+  },
+  "dropdown.gameserver.more": {
+    "message": "Meer..."
+  },
+  "dropdown.vps.vncConsole": {
+    "message": "VNC-console"
+  },
+  "dropdown.vps.more": {
+    "message": "Meer..."
+  },
+  "dropdown.dedicated.gettingStarted": {
+    "message": "Eerste stappen"
+  },
+  "dropdown.dedicated.introduction": {
+    "message": "Introductie"
+  },
+  "dropdown.dedicated.dashboard": {
+    "message": "Dashboard"
+  },
+  "dropdown.dedicated.ilo": {
+    "message": "iLO"
+  },
+  "dropdown.dedicated.more": {
+    "message": "Meer..."
+  },
+  "dropdown.dedicated.linux": {
+    "message": "Linux"
+  },
+  "dropdown.dedicated.windows": {
+    "message": "Windows"
+  },
+  "dropdown.dedicated.general": {
+    "message": "Algemeen"
+  },
+  "dropdown.dedicated.services": {
+    "message": "Diensten"
+  },
+  "dropdown.dedicated.gameServers": {
+    "message": "Gameservers"
+  },
+  "dropdown.dedicated.software": {
+    "message": "Software"
+  },
+  "dropdown.vps.gettingStartedDesc": {
+    "message": "Zet je virtuele privéserver op en draai. Dashboard-toegang, serverresets, VNC, back-ups en probleemoplossing."
+  },
+  "dropdown.vps.linuxDesc": {
+    "message": "SSH, diensten, gameservers en meer. Gidsen voor het beheren van je Linux-gebaseerde VPS."
+  },
+  "dropdown.vps.windowsDesc": {
+    "message": "Remote Desktop, diensten, gameservers en probleemoplossing. Alles voor je Windows-gebaseerde VPS."
+  },
+  "dropdown.gameserver.gettingStartedDesc": {
+    "message": "Leer hoe je je gameserver instelt, beheert en optimaliseert. Van back-ups en FTP-toegang tot databases en monetisatie."
+  },
+  "dropdown.gameserver.popularGamesDesc": {
+    "message": "Vind installatiegidsen voor de populairste games. Kies je titel en start je server in een mum van tijd."
+  },
+  "dropdown.dedicated.gettingStartedDesc": {
+    "message": "Stel je dedicated server stap voor stap in. Van de eerste installatie en iLO/IPMI tot RAID-configuratie en aangepaste ISO's."
+  },
+  "dropdown.dedicated.linuxDesc": {
+    "message": "Volledige root-toegang, diensten, gameservers en OS-beheer. Gidsen voor je Linux dedicated server."
+  },
+  "dropdown.dedicated.windowsDesc": {
+    "message": "Remote Desktop, diensten, gameservers en OS-beheer. Gidsen voor je Windows dedicated server."
+  },
+  "dropdown.dedicated.initialSetup": {
+    "message": "Eerste installatie"
+  },
+  "dropdown.dedicated.ipmi": {
+    "message": "IPMI"
+  },
+  "dropdown.dedicated.ownIso": {
+    "message": "Eigen ISO"
+  },
+  "dropdown.dedicated.configureRaid": {
+    "message": "RAID configureren"
+  },
+  "dropdown.dedicated.serverReset": {
+    "message": "Server resetten"
+  },
+  "dropdown.vps.serverReset": {
+    "message": "Server resetten"
+  },
+  "dropdown.vps.systemRescue": {
+    "message": "Systeemherstel (Backup)"
+  },
+  "dropdown.vps.vpsComparison": {
+    "message": "VPS/Dedicated-vergelijking"
+  },
+  "dropdown.vps.ballooning": {
+    "message": "Ballooning"
+  },
+  "dropdown.vps.troubleshooting": {
+    "message": "Probleemoplossing"
+  },
+  "dropdown.gameserver.switchGame": {
+    "message": "Spel wisselen"
+  },
+  "dropdown.gameserver.upDowngrade": {
+    "message": "Up-/Downgrade"
+  },
+  "dropdown.gameserver.serverCrash": {
+    "message": "Servercrash - Wat nu?"
+  },
+  "dropdown.gameserver.tebex": {
+    "message": "Tebex-monetisatie"
+  },
+  "dropdown.rent.gameHosting": {
+    "message": "Game hosting"
+  },
+  "dropdown.rent.gameHostingDesc": {
+    "message": "Huur een gameserver voor je favoriete titel. Directe installatie, DDoS-bescherming en nog veel meer functies inbegrepen!"
+  },
+  "dropdown.rent.teamspeak": {
+    "message": "TeamSpeak 3 server"
+  },
+  "dropdown.rent.musicbot": {
+    "message": "Discord Musicbot"
+  },
+  "dropdown.rent.serverHosting": {
+    "message": "Server hosting"
+  },
+  "dropdown.rent.serverHostingDesc": {
+    "message": "Virtuele en dedicated servers met volledige root-toegang. Schaalbare resources voor elk project."
+  },
+  "dropdown.rent.vps": {
+    "message": "VPS (Virtuele Server)"
+  },
+  "dropdown.rent.dedicated": {
+    "message": "Dedicated server"
+  },
+  "dropdown.rent.domain": {
+    "message": "Domein"
+  },
+  "dropdown.rent.webspace": {
+    "message": "Webspace"
+  },
   "service.vserver-service-openclaw.title": {
     "message": "VPS for OpenClaw",
     "description": "Product name for the OpenClaw product"
@@ -1570,6 +1789,156 @@
     "message": "{marketingSite}/{language}/starrupture-server-hosting/",
     "description": "URL path for the gameserver product"
   },
+  "dropdown.software.linuxServices": {
+    "message": "Linux - Diensten"
+  },
+  "dropdown.software.linuxServicesDesc": {
+    "message": "Installeer en configureer self-hosted diensten op Linux. OpenClaw, Bitwarden en meer."
+  },
+  "dropdown.software.windowsServices": {
+    "message": "Windows - Diensten"
+  },
+  "dropdown.software.windowsServicesDesc": {
+    "message": "Installeer en configureer self-hosted diensten op Windows. Docker, Plex en meer."
+  },
+  "dropdown.software.bitwarden": {
+    "message": "Bitwarden"
+  },
+  "dropdown.software.nextcloud": {
+    "message": "Nextcloud"
+  },
+  "dropdown.software.plex": {
+    "message": "Plex"
+  },
+  "dropdown.software.jitsi": {
+    "message": "Jitsi Meet"
+  },
+  "dropdown.software.openvpn": {
+    "message": "OpenVPN"
+  },
+  "dropdown.software.wordpress": {
+    "message": "WordPress"
+  },
+  "dropdown.software.docker": {
+    "message": "Docker"
+  },
+  "dropdown.software.plesk": {
+    "message": "Plesk"
+  },
+  "dropdown.software.ftpServer": {
+    "message": "FTP Server"
+  },
+  "dropdown.software.teamspeak": {
+    "message": "TeamSpeak"
+  },
+  "dropdown.software.mysql": {
+    "message": "MySQL"
+  },
+  "dropdown.software.linuxDedicatedGames": {
+    "message": "Linux - Dedicated games"
+  },
+  "dropdown.software.linuxDedicatedGamesDesc": {
+    "message": "Draai de populairste dedicated gameservers op je Linux-machine."
+  },
+  "dropdown.software.windowsDedicatedGames": {
+    "message": "Windows - Dedicated games"
+  },
+  "dropdown.software.windowsDedicatedGamesDesc": {
+    "message": "Draai de populairste dedicated gameservers op je Windows-machine."
+  },
+  "dropdown.software.fivem": {
+    "message": "FiveM"
+  },
+  "dropdown.software.palworld": {
+    "message": "Palworld"
+  },
+  "dropdown.software.enshrouded": {
+    "message": "Enshrouded"
+  },
+  "dropdown.software.valheim": {
+    "message": "Valheim"
+  },
+  "dropdown.software.cs2": {
+    "message": "CS2"
+  },
+  "dropdown.software.arkSa": {
+    "message": "Ark: SA"
+  },
+  "dropdown.software.allServices": {
+    "message": "Alle diensten"
+  },
+  "dropdown.software.allDedicatedGames": {
+    "message": "Alle dedicated games"
+  },
+  "dropdown.rent.voiceHosting": {
+    "message": "Voice hosting"
+  },
+  "dropdown.rent.voiceHostingDesc": {
+    "message": "TeamSpeak-servers, muziekbots en Discord-bothosting. Houd je community verbonden."
+  },
+  "dropdown.rent.webHosting": {
+    "message": "Webhosting"
+  },
+  "dropdown.rent.webHostingDesc": {
+    "message": "Registreer domeinen en host je website. Betrouwbare webspace met eenvoudig beheer."
+  },
+  "dropdown.rent.fivem": {
+    "message": "FiveM"
+  },
+  "dropdown.rent.minecraft": {
+    "message": "Minecraft"
+  },
+  "dropdown.rent.hytale": {
+    "message": "Hytale"
+  },
+  "dropdown.rent.scp": {
+    "message": "SCP: Secret Laboratory"
+  },
+  "dropdown.rent.valheim": {
+    "message": "Valheim"
+  },
+  "dropdown.rent.ark": {
+    "message": "Ark: Survival Evolved"
+  },
+  "dropdown.rent.palworld": {
+    "message": "Palworld"
+  },
+  "dropdown.rent.enshrouded": {
+    "message": "Enshrouded"
+  },
+  "dropdown.rent.scum": {
+    "message": "SCUM"
+  },
+  "dropdown.rent.discordBot": {
+    "message": "Discord Bot Server"
+  },
+  "dropdown.rent.lifetime": {
+    "message": "Lifetime"
+  },
+  "dropdown.rent.lifetimeDesc": {
+    "message": "Geniet je van ZAP-Hosting? Betaal eenmalig, geen abonnementen en plan voor de lange termijn!"
+  },
+  "dropdown.rent.lifetimeGameserver": {
+    "message": "Lifetime Gameserver"
+  },
+  "dropdown.rent.lifetimeDedicated": {
+    "message": "Lifetime Dedicated Server"
+  },
+  "dropdown.rent.lifetimeVps": {
+    "message": "Lifetime VPS"
+  },
+  "dropdown.rent.lifetimeTeamspeak": {
+    "message": "Lifetime TeamSpeak 3"
+  },
+  "dropdown.rent.lifetimeWebspace": {
+    "message": "Lifetime Webspace"
+  },
+  "localeDropdown.title": {
+    "message": "Taal"
+  },
+  "localeDropdown.description": {
+    "message": "Selecteer je voorkeurstaal."
+  },
   "contributors.cta.title": {
     "message": "Word een ZAP-Hosting Contributor!"
   },
@@ -1602,5 +1971,86 @@
   },
   "contributors.document.title": {
     "message": "Bijdragers aan deze inhoud"
+  },
+  "dropdown.gameserver.badgeMostPopular": {
+    "message": "Meest populair"
+  },
+  "dropdown.gameserver.badgePopular": {
+    "message": "Populair"
+  },
+  "dropdown.gameserver.badgeTrending": {
+    "message": "Trending"
+  },
+  "dropdown.gameserver.fivem": {
+    "message": "FiveM"
+  },
+  "dropdown.gameserver.minecraft": {
+    "message": "Minecraft"
+  },
+  "dropdown.gameserver.hytale": {
+    "message": "Hytale"
+  },
+  "dropdown.gameserver.scp": {
+    "message": "SCP: Secret Laboratory"
+  },
+  "dropdown.gameserver.valheim": {
+    "message": "Valheim"
+  },
+  "dropdown.gameserver.ark": {
+    "message": "Ark: Survival Evolved"
+  },
+  "dropdown.gameserver.palworld": {
+    "message": "Palworld"
+  },
+  "dropdown.gameserver.enshrouded": {
+    "message": "Enshrouded"
+  },
+  "dropdown.gameserver.scum": {
+    "message": "SCUM"
+  },
+  "dropdown.vps.ownIso": {
+    "message": "ISO-bestand mounten"
+  },
+  "dropdown.dedicated.operating-systems-linux": {
+    "message": "Besturingssystemen"
+  },
+  "dropdown.dedicated.operating-systems-windows": {
+    "message": "Besturingssystemen"
+  },
+  "dropdown.dedicated.troubleshooting": {
+    "message": "Probleemoplossing"
+  },
+  "dropdown.rent.badgeMostPopular": {
+    "message": "Meest populair"
+  },
+  "dropdown.rent.badgePopular": {
+    "message": "Populair"
+  },
+  "dropdown.rent.badgeTrending": {
+    "message": "Trending"
+  },
+  "dropdown.rent.more": {
+    "message": "Ontdek onze 100+ games"
+  },
+  "dropdown.software.openclaw": {
+    "message": "OpenClaw"
+  },
+  "dropdown.software.badgeTrending": {
+    "message": "🔥Trending"
+  },
+  "dropdown.software.hytale": {
+    "message": "Hytale"
+  },
+  "dropdown.software.vrising": {
+    "message": "V-Rising"
+  },
+  "service.price.from": {
+    "message": "vanaf"
+  },
+  "inlineservicelink.cta": {
+    "message": "Nu bestellen"
+  },
+  "inlineservicelink.cta.title": {
+    "message": "Nu bestellen"
   }
 }

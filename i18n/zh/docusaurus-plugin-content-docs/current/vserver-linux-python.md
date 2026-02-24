@@ -1,23 +1,24 @@
 ---
 id: vserver-linux-python
-title: "VPS：Python 安装指南"
-description: "学习如何在各种 Linux 发行版上安装和更新 Python 运行环境，确保你的环境安全且保持最新 → 立即了解"
+title: "在 Linux 服务器上安装 Python - 开启开发与自动化"
+description: "学习如何在各种 Linux 发行版上安装和更新 Python 运行环境，确保安全且最新 → 立即了解"
 sidebar_label: 安装 Python
 services:
   - vserver
+  - dedicated
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## 介绍
 
-本指南将教你如何安装 Python 运行环境和 venv。所有命令都需要通过 SSH 执行，如果你还不知道如何通过 SSH 连接服务器，请参考我们的[初始访问（SSH）](vserver-linux-ssh.md)指南了解详情。
+本指南提供了安装 Python 运行环境和 venv 的步骤。这些命令需要通过 SSH 执行，如果你还不知道如何通过 SSH 连接服务器，请参考我们的[初始访问（SSH）](vserver-linux-ssh.md)指南了解更多。
 
 <InlineVoucher />
 
 ## 准备工作
 
-在服务器上安装任何东西之前，建议先运行对应操作系统的更新命令，确保服务器安全。
+在服务器上安装任何东西之前，建议先运行与你操作系统对应的更新命令，以保持服务器安全。
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
@@ -55,7 +56,7 @@ import TabItem from '@theme/TabItem';
 
 ## 安装
 
-大多数 Linux 发行版默认都带有 Python，但版本可能不是最新，或者系统安装时缺少某些包。你可以用 `python3 --version` 检查是否已安装 Python，然后用下面的命令更新或安装运行环境。
+大多数 Linux 发行版预装了 Python，但版本可能不是最新，或者系统安装时缺少某些包。你可以通过运行 `python3 --version` 来检查 Python 是否已安装，然后使用以下命令更新或安装运行环境。
 
 <Tabs>
 <TabItem value="ubuntu-debian" label="Ubuntu & Debian" default>
@@ -106,36 +107,36 @@ import TabItem from '@theme/TabItem';
 
 ## 运行代码
 
-现在你已经在服务器上安装了 Python，可以开始运行你的 Python 程序啦。
+现在你已经在服务器上安装了 Python，可以开始运行你的 Python 程序了。
 
-### 交互模式
+### 交互式模式
 
-运行 `python3` 命令会启动 Python 交互式解释器。你可以在 `>>>` 提示符后输入任何有效的 Python 代码，按回车后会立即执行。完成后输入 `exit()` 即可退出解释器。
+运行 `python3` 命令会启动 Python 交互式解释器。你可以在 `>>>` 提示符后输入任何有效的 Python 代码，按回车后代码会被执行。完成后，输入 `exit()` 即可退出解释器。
 
 ### 运行 .py 文件
 
-要运行 `.py` 文件，只需用 `python3 [文件名].py` 命令，替换 `[文件名]` 为你想运行的文件路径即可。
+要运行 `.py` Python 文件，只需使用命令 `python3 [文件名].py`，将 `[文件名]` 替换为你想运行的目标文件路径。
 
 :::tip
-网上大多数程序都可以用 `python3 main.py` 运行，因为 `main.py` 是大多数 Python 程序的默认入口文件。
+大多数你在网上找到的程序都可以用 `python3 main.py` 来运行，因为 `main.py` 是大多数 Python 程序的默认入口文件。
 :::
 
 ## 虚拟环境
 
-写 Python 程序时，可能需要安装 pip 的第三方包。你可以全局安装，也可以创建虚拟环境（venv）来隔离依赖。
+写 Python 程序时，你可能需要安装 pip 的外部包。这些包可以全局安装，供所有 `.py` 脚本使用，也可以创建虚拟环境（venv）来隔离安装。
 
 ### 创建 venv
 
-先用 `cd` 进入你想创建虚拟环境的文件夹，然后运行 `python3 -m venv .`，会在当前目录生成所需文件。
+首先，使用 `cd` 进入你想创建 venv 的文件夹，准备好后运行 `python3 -m venv .`，这会在当前目录安装所需文件。
 
-### 激活 & 退出
+### 激活与退出
 
-要在虚拟环境里运行 `pip install` 等命令，先用 `source /bin/activate` 激活它。激活后，终端只会在虚拟环境里运行，脚本也只能访问本地安装的包。
+要在 venv 中运行 `pip install` 等命令，需要先激活它，运行 `source /bin/activate`。此时你的终端只会在虚拟环境内运行，脚本也只会访问本地安装的包。
 
-用完后，运行 `deactivate` 命令退出虚拟环境。
+完成后，运行 `deactivate` 命令即可退出虚拟环境。
 
-## 总结
+## 结语
 
-恭喜你，Python 已成功安装并配置完成！如果还有任何问题或疑问，随时联系我们的支持团队，我们每天都在线帮你解决！
+恭喜你，Python 已成功安装并配置完成！如果你有任何疑问或问题，欢迎随时联系我们的支持团队，我们每天都在线为你服务！
 
 <InlineVoucher />

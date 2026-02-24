@@ -1,9 +1,10 @@
 ---
 id: dedicated-linux-xrdp
-title: "Dedikerad Server: Installation av xRDP (Fjärrskrivbord)"
-description: "Upptäck hur du sätter upp fjärrskrivbordsåtkomst på Ubuntu- och Debian-servrar för enklare hantering och kontroll → Lär dig mer nu"
+title: "Ställ in xRDP på en Linux-server - Aktivera fjärrskrivbordsåtkomst"
+description: "Upptäck hur du ställer in fjärrskrivbordsåtkomst på Ubuntu- och Debian-servrar för enklare hantering och kontroll → Lär dig mer nu"
 sidebar_label: Installera xRDP
 services:
+  - vserver
   - dedicated
 ---
 
@@ -11,12 +12,14 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introduktion
 
-På Linux finns det vanligtvis en standard SSH-konsol för att hantera servern. I vissa fall kan det vara smidigare att använda en fjärrskrivbordanslutning, likt Windows.  
+På Linux finns det vanligtvis en standard SSH-konsol för att hantera servern. I vissa fall kan det vara smidigare att använda en fjärrskrivbordsanslutning, likt Windows.  
 En efterinstallation är möjlig för de flesta Linux-distributioner. I den här guiden förklaras det för Ubuntu och Debian. 
 
 :::info
 Viktigt: Minst Ubuntu 18.04.X LTS (Bionic Beaver) eller Debian 10 (Buster) måste användas som OS. Nyare versioner rekommenderas. 
 :::
+
+
 
 ## Installera xRDP
 
@@ -57,7 +60,7 @@ sudo systemctl status xrdp
 ```
 ![xrdp](https://screensaver01.zap-hosting.com/index.php/s/wdKep3W6GHWekp3/preview)
 
-Om status är okej behöver en användare skapas. Därefter måste xRDP-tjänsten startas om: 
+Om status är okej måste en användare fortfarande skapas. Därefter måste xRDP-tjänsten startas om: 
 ```
 // Debian
 sudo adduser xrdp ssl-cert; sudo systemctl restart xrdp
@@ -72,7 +75,7 @@ Standardporten är: 3389
 ## Anslutning
 
 Anslutningen kan göras via valfritt RDP-verktyg, kopplat med IP:PORT.  
-När du ansluter kommer du bli ombedd att ange inloggningsuppgifter: 
+När du ansluter kommer du att bli ombedd att ange inloggningsuppgifter: 
 
 ![xrdp2](https://screensaver01.zap-hosting.com/index.php/s/btRPMG73cT6ysyL/preview)
 
@@ -86,3 +89,4 @@ Ubuntu:
 Debian: 
 
 ![xrdp4](https://screensaver01.zap-hosting.com/index.php/s/riHNCEEyKcoLHDy/preview)
+

@@ -1,9 +1,10 @@
 ---
 id: dedicated-windows-python
-title: '専用サーバー：Pythonのインストール'
-description: "WindowsサーバーにPythonランタイムをインストールして設定し、Pythonプログラムを効率的に実行する方法を学ぼう → 今すぐチェック"
+title: 'WindowsサーバーにPythonをセットアップ - 開発と自動化を始めよう'
+description: "WindowsサーバーにPythonランタイムをインストールして、Pythonプログラムを効率的に動かす方法を学ぼう → 今すぐチェック"
 sidebar_label: Pythonのインストール
 services:
+  - vserver
   - dedicated
 ---
 
@@ -18,7 +19,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 ## インストール
 
 ### ステップ1：ファイルのダウンロード
-お好きなブラウザを開きます（このガイドではChromeを使います）そして[https://www.python.org/downloads/](https://www.python.org/downloads/)にアクセスしましょう。
+お好きなブラウザを開きます（このガイドではChromeを使います）そして[https://www.python.org/downloads/](https://www.python.org/downloads/)にアクセス。
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/WAET5RFn6yBfNzC/preview)
 
@@ -42,11 +43,11 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## コードの実行
 
-Pythonがサーバーにインストールされたので、Pythonプログラムを実行してみましょう。
+Pythonがサーバーにインストールできたので、Pythonプログラムを実行してみましょう。
 
-### インタープリター モード
+### インタープリタモード
 
-コマンドプロンプトやPowerShellで`python`コマンドを実行するとPythonインタープリターが起動します。`>>>`の後に有効なPythonコードを書いて`Enter`を押すと実行されます。終了したいときは`exit()`を入力するか、ウィンドウを閉じてください。
+コマンドプロンプトやPowerShellで`python`コマンドを実行するとPythonインタープリタが起動します。`>>>`の後に有効なPythonコードを書いて`Enter`を押すと実行されます。終了したいときは`exit()`を入力するか、ウィンドウを閉じてください。
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/DskKi5Ac28ERY38/preview)
 
@@ -55,24 +56,24 @@ Pythonがサーバーにインストールされたので、Pythonプログラ�
 `.py`ファイルを実行するには、コマンドプロンプトやPowerShellで`python3 [filename].py`と入力します。`[filename]`は実行したいファイルのパスに置き換えてください。
 
 :::tip
-多くのオンラインで見つかるプログラムは`python3 main.py`で実行できます。`main.py`はPythonプログラムの一般的なエントリーポイントだからです。
+多くのオンラインで見つかるプログラムは`python3 main.py`で実行できます。`main.py`は多くのPythonプログラムのスタートポイントだからです。
 :::
 
 また、Windows上でPython（.py）ファイルをダブルクリックしたり、右クリックしてPythonで開くことも可能です。
 
 ## 仮想環境
 
-Pythonプログラムを書くとき、pipから外部パッケージをインストールすることがあります。これらはグローバルにインストールしてすべての.pyスクリプトで使うこともできますが、仮想環境（venv）を作成してローカルに管理することもできます。
+Pythonプログラムを書くとき、pipから外部パッケージをインストールすることがあります。これらはグローバルにインストールしてすべての.pyスクリプトで使うこともできますが、仮想環境（venv）を作成して使うこともできます。
 
 ### venvの作成
 
-まず、ファイルエクスプローラーでvenvを作成したいフォルダに移動し、準備ができたら`python -m venv .`を実行します。これで必要なファイルが現在の場所にインストールされます。
+まず、ファイルエクスプローラーでvenvを作成したいフォルダに移動し、そこで`python -m venv .`を実行します。これで必要なファイルがその場所にインストールされます。
 
 ### 有効化と無効化
 
-venv内で`pip install`などのコマンドを使うには、`.\Scripts\activate`を実行して仮想環境を有効化します。これでコンソールはvenv内で動作し、スクリプトはローカルにインストールされたパッケージのみアクセス可能になります。
+venv内で`pip install`などのコマンドを使うには、`.\Scripts\activate`を実行して仮想環境を有効化します。これでコンソールはvenv内で動作し、スクリプトはローカルにインストールされたパッケージのみを参照します。
 
-作業が終わったら`deactivate`コマンドでvenvを無効化して元に戻れます。
+作業が終わったら`deactivate`コマンドでvenvを無効化できます。
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/Ws5BosJzJ78s7Y9/preview)
 

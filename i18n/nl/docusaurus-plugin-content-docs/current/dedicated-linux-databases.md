@@ -1,9 +1,10 @@
 ---
 id: dedicated-linux-databases
-title: "Dedicated Server: Installatie van Databases"
+title: "Databases op een Linux Server Installeren - Database Services Deployen en Beheren"
 description: "Ontdek hoe je verschillende databases installeert en configureert op Ubuntu en andere Linux distros voor betere performance en veiligheid → Leer het nu"
 sidebar_label: Databases Installeren
 services:
+  - vserver
   - dedicated
 ---
 
@@ -11,7 +12,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introductie
 
-Deze gids geeft je stappen voor het installeren van verschillende soorten databases. Voor dit voorbeeld gebruiken we Ubuntu 20.04 als besturingssysteem, maar we geven ook de equivalente commando’s voor andere Linux distros die wij aanbieden op onze website. Deze commando’s voer je uit via SSH. Weet je niet hoe je via SSH verbinding maakt met je server? Check dan hier: [Eerste toegang (SSH)](vserver-linux-ssh.md).
+Deze gids geeft je stappen voor het installeren van verschillende soorten databases. Voor dit voorbeeld gebruiken we Ubuntu 20.04 als besturingssysteem, maar we geven ook de equivalente commando’s voor andere Linux distros die wij aanbieden op onze site. Deze commando’s voer je uit via SSH. Weet je niet hoe je via SSH verbinding maakt met je server? Check dan hier: [Eerste toegang (SSH)](vserver-linux-ssh.md).
 
 ## Voorbereiding
 
@@ -47,7 +48,7 @@ MariaDB is een open-source relationeel databasebeheersysteem, oorspronkelijk een
 
 ## MariaDB Installatie
 
-Zorg er eerst voor dat je de nieuwste MariaDB-versie installeert. Sommige oudere OS’en zoals Debian 9 of Ubuntu 18.04 hebben standaard niet de nieuwste MariaDB in hun pakketbeheer, dus met het volgende commando zorg je dat je de nieuwste versie binnenhaalt:
+Zorg er eerst voor dat je de nieuwste MariaDB-versie installeert. Sommige oudere OS’en zoals Debian 9 of Ubuntu 18.04 hebben standaard niet de nieuwste MariaDB in hun pakketbeheer. Met het volgende commando zorg je dat je de nieuwste versie binnenhaalt:
 
 ```
 curl -sS https://downloads.mariadb.com/MariaDB/mariadb_repo_setup | sudo bash
@@ -59,7 +60,7 @@ Na het toevoegen van de repo update je de pakketcache zoals beschreven in de voo
 De MariaDB repo installatie (bovenstaande stap) kun je veilig overslaan op moderne OS’en zoals Ubuntu 22.04 of Debian 11.
 :::
 
-Als de repo klaarstaat, kun je MariaDB installeren door het `mariadb-server` pakket te installeren. Voer het juiste commando uit voor jouw OS:
+Als de repo klaarstaat, kun je MariaDB installeren met het pakket `mariadb-server`. Voer het commando uit dat bij jouw OS hoort:
 
 ```
 // Ubuntu & Debian
@@ -94,18 +95,18 @@ De gebruiker root is de hoofdgebruiker van je MariaDB (MySQL) server!
 Je wordt gevraagd of je een wachtwoord voor root wilt instellen, bevestig met **y**. Typ daarna het nieuwe wachtwoord in.
 
 :::note
-Tijdens het typen zie je het wachtwoord niet verschijnen, dat is normaal. Je wachtwoord wordt wel opgeslagen. Gebruik een sterk wachtwoord en bewaar het veilig.
+Tijdens het typen zie je het wachtwoord niet verschijnen, dat is normaal. Zorg dat je een sterk wachtwoord kiest en bewaar het veilig.
 :::
 
 Vervolgens vraagt het systeem of je anonieme gebruikers wilt verwijderen. Doe dit altijd voor de veiligheid en bevestig met **y**:
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/9rnHy9dJmezjemq/preview)
 
-Daarna bepaal je of root extern mag verbinden. Voor de veiligheid raden we aan dit uit te schakelen, bevestig met **y**:
+Daarna bepaal je of root extern mag verbinden. Voor de veiligheid raden we aan dit uit te schakelen, bevestig dus met **y**:
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/cEozmgcXDBgaRwY/preview)
 
-Je kunt ook de testdatabase verwijderen, dit is niet nodig. Bevestig met **y**:
+Je kunt ook de testdatabase verwijderen, bevestig dit met **y** omdat deze niet nodig is:
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/kGHT3tm78dNBTRo/preview)
 
@@ -122,11 +123,11 @@ Je MariaDB (MySQL) server is nu klaar voor gebruik!
 
 ## Wat is Redis?
 
-Redis is een in-memory data structuur opslag, vooral gebruikt voor key-value data, maar ondersteunt ook lijsten, JSON en meer. Het is super snel en reageert binnen milliseconden.
+Redis is een in-memory data structuur opslag, vooral gebruikt voor key-value data, maar ondersteunt ook lijsten, JSON en meer. Het staat bekend om zijn snelheid, met antwoorden binnen milliseconden.
 
 ## Redis Installatie
 
-Eerst moet je een repo toevoegen om Redis te kunnen installeren. Dit is niet voor alle Linux distros nodig, alleen voor de onderstaande. Voer het commando uit dat bij jouw OS en versie hoort:
+Eerst moet je een repo toevoegen om Redis te kunnen installeren. Dit is niet voor alle Linux distros nodig, alleen voor onderstaande. Voer het commando uit dat bij jouw OS en versie hoort:
 
 ```
 // Ubuntu (alle versies) en Debian (alleen Debian 10)
@@ -140,13 +141,13 @@ sudo yum install epel-release
 sudo dnf install https://dl.fedoraproject.org/pub/epel/epel-release-latest-8.noarch.rpm
 ```
 
-Update daarna je pakketcache zoals in de voorbereiding beschreven.
+Update daarna je pakketcache zoals beschreven in de voorbereiding.
 
 :::info
-Als jouw OS hier niet tussen staat, kun je deze stap overslaan.
+Als jouw OS niet hierboven staat, kun je deze stap overslaan.
 :::
 
-Installeer daarna Redis met het commando dat bij jouw OS past:
+Na het toevoegen van de repo installeer je Redis met het commando dat bij jouw OS hoort:
 
 ```
 // Ubuntu en Debian
@@ -178,11 +179,11 @@ sudo systemctl enable --now redis-server
 <TabItem value="mongodb" label="MongoDB">
 
 ## Wat is MongoDB?
-MongoDB is een document-georiënteerde NoSQL database, ontworpen voor schaalbaarheid en snelle ontwikkeling. Het slaat data op in JSON-achtige BSON-formaat, wat diverse datatypes ondersteunt. Het gebruikt indexen om responstijden te verkorten en heeft geen vast schema zoals MySQL of SQLite, wat flexibiliteit en snelheid geeft.
+MongoDB is een document-georiënteerde NoSQL database, ontworpen voor schaalbaarheid en ontwikkelaarsflexibiliteit. Het slaat data op in JSON-achtige BSON-formaat, wat diverse datatypes ondersteunt. Het gebruikt indexen om responstijden te verkorten en heeft geen vooraf gedefinieerd schema zoals MySQL of SQLite, wat zorgt voor meer flexibiliteit.
 
 ## MongoDB Installatie
 
-Kies je OS in de tabs hieronder voor de juiste installatiehandleiding.
+Selecteer je besturingssysteem in de tabs hieronder voor de juiste installatiehandleiding.
 
 <Tabs>
 <TabItem value="mongodb-ubuntu-debian" label="Ubuntu & Debian">
@@ -197,28 +198,28 @@ curl -fsSL https://pgp.mongodb.com/server-6.0.asc | \
    --dearmor
 ```
 
-Voeg daarna de MongoDB bron toe aan je sources list:
+Voeg daarna de MongoDB bron toe aan de source list van je OS:
 
 ```
 echo "deb [ arch=amd64,arm64 signed-by=/usr/share/keyrings/mongodb-server-6.0.gpg ] https://repo.mongodb.org/apt/$(lsb_release -si | awk '{print tolower($0)}') $(lsb_release -sc)/mongodb-org/6.0 main" | sudo tee /etc/apt/sources.list.d/mongodb-org-6.0.list
 ```
 
-Update je pakketbronnen met `sudo apt update` en installeer MongoDB met:
+Update nu de repositories met `sudo apt update` en installeer MongoDB met:
 
 ```
 sudo apt install mongodb-org
 ```
 
-Je MongoDB installatie werkt nu!
+Je MongoDB installatie zou nu moeten werken!
 
 </TabItem>
 <TabItem value="mongodb-centos-fedora" label="CentOS & Fedora">
 
 ### Installatie op CentOS & Fedora
 
-Stel eerst de MongoDB repo in voor Red Hat systemen.
+Eerst moet je de MongoDB repo instellen voor Red Hat systemen.
 
-Maak een bestand `/etc/yum.repos.d/mongodb-org-6.0.repo` aan met de volgende inhoud:
+Maak een bestand `/etc/yum.repos.d/mongodb-org-6.0.repo` aan en plak de volgende inhoud erin:
 
 ```
 [mongodb-org-6.0]
@@ -229,7 +230,7 @@ enabled=1
 gpgkey=https://www.mongodb.org/static/pgp/server-6.0.asc
 ```
 
-Installeer MongoDB met het juiste commando:
+Nu kun je MongoDB installeren. Er is een klein verschil in het installatiecommando tussen CentOS en Fedora, gebruik het juiste hieronder:
 
 ```
 // CentOS
@@ -239,7 +240,7 @@ sudo yum install -y mongodb-org
 sudo dnf install -y mongodb-org
 ```
 
-Je MongoDB installatie werkt nu, veel makkelijker dan bij andere Linux distros!
+Je MongoDB installatie zou nu moeten werken, veel eenvoudiger dan bij andere Linux distros!
 
 </TabItem>
 <TabItem value="mongodb-suse" label="OpenSUSE">
@@ -258,13 +259,13 @@ Voeg daarna de MongoDB repo toe:
 sudo zypper addrepo --gpgcheck "https://repo.mongodb.org/zypper/suse/15/mongodb-org/6.0/x86_64/" mongodb
 ```
 
-Installeer tenslotte MongoDB:
+Installeer tenslotte MongoDB met:
 
 ```
 sudo zypper -n install mongodb-org
 ```
 
-Je MongoDB installatie werkt nu!
+Je MongoDB installatie zou nu moeten werken!
 
 </TabItem>
 </Tabs>

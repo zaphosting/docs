@@ -226,7 +226,7 @@ journalctl -f -u nginx.service
 
 ## SSL-Zertifikat
 
-Wir empfehlen dringend, für deine Domains ein SSL-Zertifikat zu installieren, damit die Daten sicher per HTTPS übertragen werden. Schau dir unsere [Certbot Installation](vserver-linux-certbot.md) Anleitung an, die den kompletten Prozess für das Anfordern und automatische Erneuern von SSL-Zertifikaten erklärt.
+Wir empfehlen dringend, für deine Domains ein SSL-Zertifikat zu installieren, damit die Daten sicher per HTTPS übertragen werden. Schau dir unsere [Certbot Installation](dedicated-linux-certbot.md) Anleitung an, die den kompletten Prozess für das Anfordern und automatische Erneuern von SSL-Zertifikaten erklärt.
 
 ## Fazit
 

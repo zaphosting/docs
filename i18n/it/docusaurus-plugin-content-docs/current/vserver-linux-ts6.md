@@ -1,10 +1,11 @@
 ---
 id: vserver-linux-ts6
-title: "VPS: Configura il server Teamspeak 6 sul tuo VPS Linux"
-description: "Scopri come installare e ottimizzare il TeamSpeak 6 Server per un hosting affidabile e prestazioni top → Scopri di più ora"
-sidebar_label: Installa Teamspeak 6 Server
+title: "Configura il Server TeamSpeak 6 su un Server Linux - Lancia la Tua Piattaforma Vocale"
+description: "Scopri come installare e ottimizzare il Server TeamSpeak 6 per un hosting affidabile e prestazioni top → Scopri di più ora"
+sidebar_label: Installa Server Teamspeak 6
 services:
   - vserver
+  - dedicated
 ---
 
 import Tabs from '@theme/Tabs';
@@ -13,9 +14,9 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introduzione
 
-Nell’estate 2025, TeamSpeak ha rilasciato la **versione Beta** del **TeamSpeak 6 Server**. Ora puoi provare in anteprima la nuova generazione di TeamSpeak!
+Nell’estate 2025, TeamSpeak ha rilasciato la **Beta** del **Server TeamSpeak 6**. Ora puoi provare in anteprima la nuova generazione di TeamSpeak!
 
-Vuoi ospitare questo servizio in autonomia? Ti guideremo passo passo su come installarlo e configurarlo, con tutto quello che devi sapere per farlo girare al meglio.
+Vuoi ospitare questo servizio in autonomia? Ti guidiamo passo passo su come installarlo e configurarlo, con tutto quello che devi sapere.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/4J6HJjQdRddjGFK/preview)
 
@@ -25,23 +26,23 @@ Vuoi ospitare questo servizio in autonomia? Ti guideremo passo passo su come ins
 
 ## Requisiti
 
-Prima di installare il **Teamspeak 6 Server**, assicurati che il tuo ambiente di hosting rispetti questi requisiti per un’installazione fluida e prestazioni ottimali.
+Prima di installare il **Server Teamspeak 6**, assicurati che il tuo ambiente di hosting rispetti i seguenti requisiti per un’installazione fluida e prestazioni ottimali.
 
-| Hardware   | Minimo       | Consigliato da ZAP-Hosting |
+| Hardware   | Minimo      | Consigliato da ZAP-Hosting |
 | ---------- | ------------ | -------------------------- |
-| CPU        | 1 vCPU Core  | 4 vCPU Core                |
+| CPU        | 1 vCPU Core | 4 vCPU Core               |
 | RAM        | 1 GB         | 4 GB                       |
-| Spazio disco | 1 GB       | 25 GB                      |
+| Spazio disco | 1 GB         | 25 GB                      |
 
 
 
 ## Preparazione
 
-Prima di installare il **TeamSpeak 6 Server**, devi preparare il sistema. Questo significa aggiornare il sistema operativo all’ultima versione e installare tutte le dipendenze necessarie. Così garantisci un ambiente stabile e eviti problemi durante o dopo l’installazione.
+Prima di configurare il **Server TeamSpeak 6**, devi preparare il sistema. Aggiorna il sistema operativo all’ultima versione e installa tutte le dipendenze necessarie. Così garantisci un ambiente stabile e eviti problemi durante o dopo l’installazione.
 
 
 ### Aggiorna il sistema
-Per assicurarti che il sistema abbia software e patch di sicurezza aggiornati, esegui sempre prima un aggiornamento completo. Usa questo comando:
+Per assicurarti che il sistema abbia software e patch di sicurezza aggiornati, esegui sempre prima un aggiornamento. Usa questo comando:
 
 ```
 sudo apt update && sudo apt upgrade -y
@@ -49,7 +50,7 @@ sudo apt update && sudo apt upgrade -y
 Così il sistema sarà aggiornato con le ultime patch di sicurezza e versioni software prima di procedere.
 
 ### Installa le dipendenze
-Una volta aggiornato, puoi installare le dipendenze. Per un’installazione semplice e consigliata, usa Docker. Per farlo, devi installare Docker Engine:
+Terminato l’aggiornamento, puoi installare le dipendenze. Per un’installazione rapida, semplice e consigliata, usa Docker. Per farlo, installa il Docker Engine:
 
 ```
 curl -fsSL https://get.docker.com -o get-docker.sh
@@ -60,9 +61,9 @@ sh get-docker.sh
 
 
 ## Installazione
-Ora che hai tutto pronto e i requisiti rispettati, puoi procedere con l’installazione del Teamspeak 6 Server.
+Ora che hai tutto pronto e i requisiti rispettati, puoi procedere con l’installazione del Server Teamspeak 6.
 
-Il passo successivo è creare il file Docker Compose `docker-compose.yml` per il TeamSpeak 6 Server. Puoi scegliere qualsiasi cartella, ma in questo esempio lo creiamo in `/opt/containers/ts6/`. Useremo il file Compose ufficiale di TeamSpeak:
+Il passo successivo è creare il file Docker Compose `docker-compose.yml` per il Server TeamSpeak 6. Puoi scegliere qualsiasi directory, ma in questo esempio lo creiamo in `/opt/containers/ts6/`. Useremo il file Compose ufficiale di TeamSpeak:
 
 ```
 services:
@@ -88,12 +89,12 @@ Vai nella cartella dove vuoi creare il file e crea il file con `nano docker-comp
 ![img](https://screensaver01.zap-hosting.com/index.php/s/yBZTKL8MYgLiJEt/download)
 
 
-Per avviare il container Docker e il TeamSpeak 6 Server, usa questo comando Docker Compose:
+Per avviare il container Docker e il Server TeamSpeak 6, usa questo comando Docker Compose:
 ```
 docker compose -f /opt/containers/ts6/docker-compose.yml up
 ```
 
-Ora il container Docker per il TeamSpeak 6 Server partirà. Di default non gira ancora in background. Al primo avvio vedrai **info importanti** sull’**account Server Query Admin** e sulla **chiave di privilegio**.
+Ora il container del Server TeamSpeak 6 partirà. Di default non gira ancora in background. Al primo avvio vedrai **info importanti** sull’**account admin Server Query** e sulla **chiave di privilegio**.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/7nNwWkEdG84yx4y/download)
 
@@ -103,9 +104,9 @@ Salva queste info in un posto sicuro, perché non verranno più mostrate ai pros
 
 ## Configurazione
 
-Puoi personalizzare altre impostazioni del TeamSpeak 6 Server usando le **variabili d’ambiente** nel file Docker Compose. Così configuri il server come vuoi tu. La lista completa delle opzioni è nella documentazione ufficiale [TeamSpeak 6 Server](https://github.com/teamspeak/teamspeak6-server/blob/main/CONFIG.md).
+Puoi personalizzare altre impostazioni del Server TeamSpeak 6 usando **variabili d’ambiente** nel file Docker Compose. Così configuri il server come vuoi tu. La lista completa delle opzioni è nella documentazione ufficiale [TeamSpeak 6 Server](https://github.com/teamspeak/teamspeak6-server/blob/main/CONFIG.md).
 
-Esempio da inserire in `docker-compose.yml`:
+Esempio nel `docker-compose.yml`:
 
 ```
 environment:
@@ -117,13 +118,13 @@ environment:
 
 ## Gestione del server
 
-Per far girare il TeamSpeak 6 Server in background, avvia il container con:
+Per far girare il Server TeamSpeak 6 in background, avvia il container con:
 
 ```
 docker compose -f /opt/containers/ts6/docker-compose.yml up -d
 ```
 
-Per fermare il TeamSpeak 6 Server, ferma il container con:
+Per fermare il Server TeamSpeak 6, ferma il container con:
 
 ```
 docker compose -f /opt/containers/ts6/docker-compose.yml down
@@ -133,7 +134,7 @@ docker compose -f /opt/containers/ts6/docker-compose.yml down
 
 ## Connessione
 
-Quando il TeamSpeak 6 Server è attivo, puoi connetterti con il client TeamSpeak 6. Usa l’indirizzo IP del server e la porta corretta. Inserisci questi dati nel client per collegarti e iniziare a testare.
+Quando il Server TeamSpeak 6 è attivo, connettiti con il client TeamSpeak 6. Usa l’IP del tuo server e la porta corretta. Inserisci questi dati nel client per collegarti e iniziare a testare.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/4J6HJjQdRddjGFK/preview)
 
@@ -141,10 +142,10 @@ Quando il TeamSpeak 6 Server è attivo, puoi connetterti con il client TeamSpeak
 
 ## Conclusione e risorse utili
 
-Complimenti! Hai installato e configurato con successo il Teamspeak 6 Server sul tuo VPS. Ti consigliamo anche di dare un’occhiata a queste risorse, che possono aiutarti ulteriormente nella configurazione del server:
+Complimenti! Hai installato e configurato con successo il Server Teamspeak 6 sul tuo VPS/Dedicato. Ti consigliamo anche di dare un’occhiata a queste risorse, che possono aiutarti durante la configurazione:
 
-- [Sito Ufficiale](https://teamspeak.com/en/) - Info e download per TeamSpeak 6
-- [Forum della Community](https://community.teamspeak.com/) - Supporto utenti e discussioni
-- [GitHub Issues](https://github.com/teamspeak/teamspeak6-server/issues) - Segnala bug e segui i problemi aperti
+- [Sito Ufficiale](https://teamspeak.com/en/) - Info e download TeamSpeak 6
+- [Forum Community](https://community.teamspeak.com/) - Supporto utenti e discussioni
+- [GitHub Issues](https://github.com/teamspeak/teamspeak6-server/issues) - Segnala bug e controlla problemi aperti
 
-Hai domande specifiche non trattate qui? Per qualsiasi dubbio o supporto, contatta pure il nostro team di assistenza, sempre pronto ad aiutarti ogni giorno! 🙂
+Hai domande specifiche non trattate qui? Per qualsiasi dubbio o supporto, contatta pure il nostro team assistenza, sempre pronto ad aiutarti ogni giorno! 🙂

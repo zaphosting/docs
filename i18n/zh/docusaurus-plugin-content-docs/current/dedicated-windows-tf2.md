@@ -15,7 +15,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## 准备工作
 
-搭建 Team Fortress 2 服务器需要用到 SteamCMD。SteamCMD 是 **Steam 客户端的命令行版本**。这个工具可以帮你快速轻松地下载热门 Steam 游戏的独立服务器程序。你可以在 Valve 官方开发者网站找到 SteamCMD：https://developer.valvesoftware.com/wiki/SteamCMD。
+搭建 Team Fortress 2 服务器需要用到 SteamCMD。SteamCMD 是 **Steam 客户端的命令行版本**。这个工具可以帮你快速轻松地下载热门 Steam 游戏的独立服务器程序。你可以在 Valve 官方开发者网站找到 SteamCMD：`https://developer.valvesoftware.com/wiki/SteamCMD`。
 
 接下来就是下载了。下载包里会有一个 **steamcmd.zip** 文件，先解压它。建议新建一个专门的文件夹来解压。解压后你应该能看到 **steamcmd.exe**。运行它，等待安装完成。
 
@@ -49,7 +49,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## 注册 GSL Token
 
-为了让其他玩家能加入你的服务器，你需要生成并添加一个游戏服务器登录令牌（GSLT）。这个令牌用来验证你的服务器身份。访问 http://steamcommunity.com/dev/managegameservers，使用游戏 ID 232250（Team Fortress 2）生成一个令牌。
+为了让其他玩家能加入你的服务器，你需要生成并添加一个游戏服务器登录令牌（GSLT）。这个令牌用来验证你的服务器身份。访问 `http://steamcommunity.com/dev/managegameservers`，使用游戏 ID 232250（Team Fortress 2）生成一个令牌。
 
 拿到令牌后，在服务器启动参数里加入 `+sv_setsteamaccount <TOKEN>`。
 

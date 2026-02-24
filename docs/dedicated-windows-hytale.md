@@ -1,9 +1,10 @@
-﻿---
+---
 id: dedicated-windows-hytale
-title: "Dedicated Server: Hytale Dedicated Server Setup"
+title: "Hytale Dedicated Server Setup"
 description: "Discover how to set up the Hytale Dedicated server on your Windows Dedicated Server for seamless gameplay management → Learn more now"
 sidebar_label: Hytale
 services:
+  - vserver
   - dedicated
 ---
 

@@ -1,10 +1,11 @@
 ---
 id: vserver-linux-nextcloud
-title: "VPS: Nextcloudのインストール"
-description: "Linuxで高性能なNextcloudサーバーをセットアップして最適なクラウドホスティングを実現する方法 → 今すぐチェック"
-sidebar_label: Nextcloudをインストール
+title: "LinuxサーバーにNextcloudをセットアップ - プライベートクラウドストレージを構築しよう"
+description: "Linuxで高性能なNextcloudサーバーをセットアップして最適なクラウドホスティングを実現 → 今すぐチェック"
+sidebar_label: Nextcloudのインストール
 services:
   - vserver
+  - dedicated
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';
@@ -15,22 +16,22 @@ Nextcloudはオープンソースのクラウドソリューションで、Owncl
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/kCndbKaFAaktERk/preview)
 
-Nextcloudサーバーをホスティングする際に、最適なパフォーマンス、安定性、機能性を実現するために以下のセットアップを推奨します。NextcloudサーバーはWindowsやMacOSとは互換性がありません。少なくとも仮想化などの追加の工夫なしでは動作しません。
+Nextcloudサーバーをホスティングするにあたり、最適なパフォーマンス、安定性、機能性を実現するために以下のセットアップを推奨します。NextcloudサーバーはWindowsやMacOSとは互換性がありません。仮想化などの追加の工夫なしでは動作しません。
 
 <InlineVoucher />
 
 ## 準備
 
-以下の要件は開発者推奨および当社の経験に基づいています。これらを満たさない場合、問題が発生する可能性があります。
+以下の要件は開発者の推奨と当社の経験に基づいています。これらを満たさない場合、問題が発生する可能性があります。
 
 #### ハードウェア
 
-| コンポーネント | 最低要件               | 推奨                       |
-| -------------- | ---------------------- | -------------------------- |
-| CPU            | 2x 1 GHz               | 4x 2GHz以上                |
-| RAM            | 512 MB                 | 4GB以上                   |
-| ストレージ     | 10 GB                  | 50GB以上                  |
-| 帯域幅         | 100 Mbit/s (上り・下り) | 複数ユーザー利用時は500 Mbit/s推奨 |
+| コンポーネント | 最低要件               | 推奨スペック                  |
+| -------------- | ---------------------- | ---------------------------- |
+| CPU            | 2x 1 GHz               | 4x 2GHz以上                  |
+| RAM            | 512 MB                 | 4GB以上                     |
+| ストレージ     | 10 GB                  | 50GB以上                    |
+| 帯域幅         | 100 Mbit/s (上り・下り) | 複数ユーザー利用なら500 Mbit/s推奨 |
 
 #### ソフトウェア
 
@@ -39,11 +40,12 @@ Nextcloudサーバーをホスティングする際に、最適なパフォー�
 | OS               | Ubuntu (14.04, 16.04, 18.04), Debian(8,9,10), CentOS 6.5/7     |
 | データベース     | MySQLまたはMariaDB 5.5+（推奨）、SQLite（テストや最小構成のみ推奨） |
 | Webサーバー      | Apache 2.4 + `mod_php` または `php-fpm`（推奨）                |
-| PHP              | 5.6, 7.0（推奨）, 7.1（推奨）, 7.2                             |
+| PHP              | 5.6, 7.0（推奨）、7.1（推奨）、7.2                             |
 
-LinuxサーバーにNextcloudをインストールするにはSSHクライアントで接続する必要があります。SSHの使い方がわからない場合は、こちらのガイドを参考にしてください: [初回アクセス（SSH）](vserver-linux-ssh.md)
+LinuxサーバーにクラウドをインストールするにはSSHクライアントで接続する必要があります。SSHの使い方がわからない場合は、こちらのガイドを参考にしてください: [初期アクセス (SSH)](vserver-linux-ssh.md)
 
 接続が確立したら、Nextcloudのインストールに必要なパッケージをインストールします。これにはWebサーバーとPHPのインストールが含まれます。
+
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
@@ -168,6 +170,7 @@ sudo apt install php7.3-cli php7.3-fpm php7.3-json php7.3-pdo php7.3-mysql php7.
 php -v
 ```
 
+
 </TabItem>
 <TabItem value="CentOS" label="CentOS">
 <br/>
@@ -256,19 +259,20 @@ php -v
 
 次に、Nextcloudの情報を保存するためのデータベースの種類を決めます。選択肢はいくつかあります：
 
+
 <Tabs>
 
 <TabItem value="MariaDB" label="MariaDB" default>
 
 <br/>
-MariaDBを使う場合は以下の手順に従ってください：
+MariaDBを使う場合は以下の手順を実行してください：
 
-パッケージのインストール:
+パッケージのインストール：
 ```
 sudo apt-get install mariadb-server php-mysql
 ```
 
-インストール中にrootパスワードの設定を求められます。もしパスワード設定がなければ、デフォルトは空白です。これはセキュリティ上危険なので、すぐに変更してください！
+インストール中にrootパスワードの設定を求められます。もしパスワード設定がなければ、デフォルトは空白です。これはセキュリティ上問題があるので、すぐに変更してください！
 
 次にデータベースサーバーに接続し、必要なデータベースを作成します：
 
@@ -277,7 +281,7 @@ mysql -u root -p
 CREATE DATABASE nextcloud;
 ```
 
-続いて、Nextcloudデータベースにアクセスできるユーザーを作成します：
+続いて、Nextcloudデータベースにアクセスできるユーザーを作成します。
 
 ```sql
 CREATE USER 'nc_user'@'localhost' IDENTIFIED BY 'YOUR_PASSWORD_HERE';
@@ -287,7 +291,7 @@ CREATE USER 'nc_user'@'localhost' IDENTIFIED BY 'YOUR_PASSWORD_HERE';
 rootユーザーを使ってこのステップを省略しないでください。安全ではなく、データが危険にさらされます！
 :::
 
-最後に新しいユーザーに権限を付与します：
+最後に、新しいユーザーに権限を付与します：
 
 ```SQL
 GRANT ALL PRIVILEGES ON nextcloud.* TO 'nc_user'@'localhost';
@@ -300,14 +304,14 @@ FLUSH PRIVILEGES;
 <TabItem value="MySQL" label="MySQL">
 
 <br/>
-MySQLを使う場合は以下の手順に従ってください：
+MySQLを使う場合は以下の手順を実行してください：
 
-パッケージのインストール:
+パッケージのインストール：
 ```
 sudo apt-get install mysql-server php-mysql
 ```
 
-インストール中にrootパスワードの設定を求められます。もしパスワード設定がなければ、デフォルトは空白です。これはセキュリティ上危険なので、すぐに変更してください！
+インストール中にrootパスワードの設定を求められます。もしパスワード設定がなければ、デフォルトは空白です。これはセキュリティ上問題があるので、すぐに変更してください！
 
 次にデータベースサーバーに接続し、必要なデータベースを作成します：
 
@@ -316,7 +320,7 @@ mysql -u root -p
 CREATE DATABASE nextcloud;
 ```
 
-続いて、Nextcloudデータベースにアクセスできるユーザーを作成します：
+続いて、Nextcloudデータベースにアクセスできるユーザーを作成します。
 
 ```sql
 CREATE USER 'nc_user'@'localhost' IDENTIFIED BY 'YOUR_PASSWORD_HERE';
@@ -326,7 +330,8 @@ CREATE USER 'nc_user'@'localhost' IDENTIFIED BY 'YOUR_PASSWORD_HERE';
 rootユーザーを使ってこのステップを省略しないでください。安全ではなく、データが危険にさらされます！
 :::
 
-最後に新しいユーザーに権限を付与します：
+
+最後に、新しいユーザーに権限を付与します：
 
 ```SQL
 GRANT ALL PRIVILEGES ON nextcloud.* TO 'nc_user'@'localhost';
@@ -338,15 +343,15 @@ FLUSH PRIVILEGES;
 </TabItem>
 <TabItem value="PostgreSQL" label="PostgreSQL">
 <br/>
-PostgreSQLを使う場合は以下の手順に従ってください：
+PostgreSQLを使う場合は以下の手順を実行してください：
 
-パッケージのインストール:
+パッケージのインストール：
 ```
 sudo apt-get update
 sudo apt-get install postgresql postgresql-contrib
 ```
 
-インストール中にrootパスワードの設定を求められます。もしパスワード設定がなければ、デフォルトは空白です。これはセキュリティ上危険なので、すぐに変更してください！
+インストール中にrootパスワードの設定を求められます。もしパスワード設定がなければ、デフォルトは空白です。これはセキュリティ上問題があるので、すぐに変更してください！
 
 次にデータベースサーバーに接続し、必要なデータベースを作成します：
 
@@ -355,7 +360,7 @@ sudo -u postgres psql
 CREATE DATABASE nextcloud;
 ```
 
-続いて、Nextcloudデータベースにアクセスできるユーザーを作成します：
+続いて、Nextcloudデータベースにアクセスできるユーザーを作成します。
 
 ```sql
 CREATE USER nextcloud with encrypted password 'YOUR_PASSWORD_HERE';
@@ -365,14 +370,14 @@ CREATE USER nextcloud with encrypted password 'YOUR_PASSWORD_HERE';
 rootユーザーを使ってこのステップを省略しないでください。安全ではなく、データが危険にさらされます！
 :::
 
-最後に新しいユーザーに権限を付与します：
+最後に、新しいユーザーに権限を付与します：
 
 ```SQL
 grant all privileges on database mydb to myuser;
 FLUSH PRIVILEGES;
 ```
 
-完了したらCtrl-Dでデータベースを終了します。その後、PostgreSQLデータベースはWebインストーラーまたは**config.php**設定ファイルで変更可能です。
+完了したらCtrl-Dでデータベースを終了します。その後、PostgreSQLデータベースはWebインストーラーか**config.php**設定ファイルで変更可能です。
 
 ```
 <?php
@@ -390,9 +395,9 @@ $AUTOCONFIG = array(
 <TabItem value="SQLite" label="SQLite">
 
 <br/>
-SQLiteを使う場合は以下の手順に従ってください：
+SQLiteを使う場合は以下の手順を実行してください：
 
-パッケージのインストール:
+パッケージのインストール：
 ```
 apt-get install sqlite3 php-sqlite3
 ```
@@ -402,7 +407,7 @@ apt-get install sqlite3 php-sqlite3
 sqlite3 DatabaseName.db
 ```
 
-その後、SQLite 3データベースはWebインストーラーまたは**config.php**設定ファイルで変更可能です。
+その後、SQLite 3データベースはWebインストーラーか**config.php**設定ファイルで変更可能です。
 ```
 <?php
 $AUTOCONFIG = array(
@@ -426,7 +431,7 @@ chown -R www-data:www-data nextcloud
 rm latest.zip
 ```
 
-このステップが完了したら、インストールスクリプトを実行します。ブラウザから以下のURLでアクセス可能です：
+このステップが終わったら、インストールスクリプトを実行します。ブラウザから以下のURLでアクセス可能です：
 
 :::info
 **http://domain.tld/nextcloud/** 
@@ -450,7 +455,7 @@ rm latest.zip
 
 **データディレクトリ**
 
-データディレクトリはWebルートディレクトリ（例：/var/www）外に置くことを強く推奨します。新規インストール時に設定可能ですが、事前にディレクトリを作成し適切な権限を設定する必要があります。例えばホームディレクトリ内のCloudフォルダに保存する方法があります。
+データディレクトリはWebルートディレクトリ（例：/var/www）外に置くことを強く推奨します。新規インストール時に設定可能ですが、事前にディレクトリを作成し適切な権限を設定する必要があります。例えばホームディレクトリ内のCloudというディレクトリに保存する方法があります。
 
 ```
 mkdir /home/cloud/
@@ -461,7 +466,7 @@ chown -R www-data:www-data /home/cloud/
 
 **SSL証明書（Let's Encrypt）によるHTTPS**
 
-安全なクラウド環境にはSSL接続が必須です。SSLなしではデータが平文で送信され、簡単に盗聴・閲覧されてしまいます。
+良いクラウドソリューションはSSL接続のみでアクセス可能にすべきです。SSLなしではデータや情報が平文で送信され、簡単に傍受・閲覧されてしまいます。
 
 ```
 <IfModule mod_ssl.c>
@@ -498,7 +503,7 @@ SSLCertificateKeyFile /etc/letsencrypt/live/domain.tld/privkey.pem
 
 
 
-さらに、すべてのHTTPトラフィックはステータスコード301の恒久リダイレクトでHTTPSへ転送すべきです。ApacheのVirtualHosts設定例は以下の通りです：
+さらに、すべてのHTTPトラフィックはステータスコード301の恒久的リダイレクトでHTTPSに転送すべきです。ApacheのVirtualHosts設定で以下のように実現できます：
 
 ```
 <VirtualHost *:80>
@@ -510,11 +515,11 @@ SSLCertificateKeyFile /etc/letsencrypt/live/domain.tld/privkey.pem
 
 ## Nextcloudの管理
 
-Nextcloudにはブラウザだけでなく、スマホやPCのアプリからもアクセス可能です。ダウンロードはこちらから：https://nextcloud.com/install/#install-clients
+Nextcloudにはブラウザからだけでなく、スマホやPCのアプリからもアクセス可能です。ダウンロードはこちらから：https://nextcloud.com/install/#install-clients
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/aw6qpNE7TkwQeaP/preview)
 
-設定画面ではセットアップ後も各種オプションの調整やログ・アクティビティの確認ができます。二段階認証や暗号化などのセキュリティ設定、ロゴやカラー、スローガン、ヘッダーのデザイン設定、アクセス権限の管理など多彩です。
+設定画面ではセットアップ後もオプションの調整やログ、アクティビティの確認ができます。二段階認証や暗号化などのセキュリティ設定、ロゴやカラー、スローガン、ヘッダーのデザイン設定、アクセス権限の管理など多彩です。
 
 **アプリ**
 
@@ -527,6 +532,6 @@ Nextcloudにはブラウザだけでなく、スマホやPCのアプリからも
 
 ## まとめ
 
-おめでとうございます、Nextcloudのインストールが無事完了しました！もし質問や問題があれば、毎日対応しているサポートチームまでお気軽にご連絡ください！
+おめでとうございます、Nextcloudのインストールが無事完了しました！もし質問や問題があれば、毎日対応しているサポートチームまでお気軽にお問い合わせください。
 
 <InlineVoucher />

@@ -1,17 +1,18 @@
 ---
 id: vserver-linux-plesk
-title: "VPS: Instalación de Plesk"
+title: "Configura Plesk en un servidor Linux - Gestiona sitios web con un panel de control potente"
 description: "Descubre cómo gestionar sitios web y servidores de forma eficiente con Plesk, tanto para principiantes como para expertos → Aprende más ahora"
 sidebar_label: Instalar Plesk
 services:
   - vserver
+  - dedicated
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introducción
 
-Plesk es una plataforma completa para el alquiler de servidores y gestión de hosting web que permite a los usuarios administrar sitios web, servidores, cuentas de correo y más a través de una interfaz fácil de usar. Es una solución versátil, ideal tanto para principiantes como para desarrolladores web y administradores de sistemas con experiencia.
+Plesk es una plataforma completa para hosting web y gestión de servidores que permite a los usuarios administrar sitios web, servidores, cuentas de correo y más a través de una interfaz fácil de usar. Es una solución versátil, ideal tanto para principiantes como para desarrolladores web y administradores de sistemas con experiencia.
 
 <InlineVoucher />
 
@@ -54,7 +55,7 @@ De lo contrario, habría que reinstalar el servidor para reiniciar el instalador
 Si se reinicia el instalador sin reinstalar el servidor primero, pueden surgir problemas con funciones que no funcionan durante la instalación o en el panel de Plesk.
 
 :::info
-Puede parecer que el instalador está "congelado", pero en el 99% de los casos seguirá funcionando después de unos minutos, ya que aún debe configurar paquetes y ajustes.
+Puede parecer que el instalador está "congelado", pero en el 99% de los casos continuará después de unos minutos, ya que aún debe configurar paquetes y ajustes.
 :::
 
 La instalación termina cuando aparece esto:
@@ -114,24 +115,24 @@ Inicia el instalador:
 ./plesk-installer
 ```
 
-Una vez ejecutados los tres comandos iniciales, se debe aprobar la licencia con "F":
+Después de ejecutar estos tres comandos, debes aprobar la licencia con "F":
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/XrCa3WYALoDx6H3/preview)
 
-Después de aprobar, el sistema preguntará qué versión de Plesk instalar: Plesk Obsidian o Plesk Onyx. También indicará cuál es la más estable. Normalmente se usa una versión "estable" para producción. Como las opciones ya apuntan a la versión estable, confirma con "F".
+Tras la aprobación, el sistema preguntará qué versión de Plesk instalar, por ejemplo Plesk Obsidian o Plesk Onyx, indicando cuál es la más estable. Normalmente se usa una versión "estable" para producción. Como las opciones ya apuntan a la versión estable, confirma con "F".
 
 La pregunta sobre si Plesk puede recopilar datos para mejorar el producto se responde con "Y" (sí) o "n" (no).
 
-Luego, el sistema preguntará qué tipo de la versión seleccionada quieres instalar. Normalmente, el tipo "Recommended" ya seleccionado es suficiente. Módulos que no se instalen ahora pero sean necesarios pueden añadirse luego desde el panel de Plesk.
+Luego el sistema preguntará qué tipo de la versión seleccionada quieres instalar. Normalmente la opción "Recommended" ya está seleccionada y es suficiente. Módulos que no se instalen ahora pero sean necesarios pueden añadirse luego desde el panel de Plesk.
 
 La siguiente pregunta sobre si se pueden instalar o actualizar paquetes se confirma con "F".
 
 Ahora el instalador comienza la instalación.
 
 :::info
-No cierres la sesión SSH mientras el instalador esté activo, ya que esto causaría la interrupción y habría que reinstalar el servidor para reiniciar el instalador.
+No cierres la sesión SSH mientras el instalador esté activo, ya que esto causaría la cancelación y habría que reinstalar el servidor para reiniciar el instalador.
 :::
-Puede parecer que el instalador está "congelado", pero en el 99% de los casos seguirá funcionando después de unos minutos, porque debe configurar paquetes y ajustes.
+Puede parecer que el instalador está "congelado", pero en el 99% de los casos continuará después de unos minutos, porque debe configurar paquetes y ajustes.
 
 La instalación termina cuando aparece esto:
 
@@ -140,7 +141,7 @@ La instalación termina cuando aparece esto:
 </TabItem>
 </Tabs>
 
-## Abrir el instalador web
+## Abre el instalador web
 
 Después de iniciar el instalador, la instalación se realiza en el navegador. La página de instalación se puede acceder vía https://IP:8447 o https://Dominio.xx:8447.
 
@@ -150,39 +151,39 @@ Después de iniciar el instalador, la instalación se realiza en el navegador. L
 Al acceder al panel web puede aparecer el mensaje: "Esta no es una conexión segura". Debes confirmarlo la primera vez para que la página se abra.
 :::
 
-La interfaz web se accede vía https://IP:8443 o https://Dominio.xx:8443 del servidor. Los datos de acceso son root/admin y la contraseña root actual. Alternativamente, puedes usar una de las URLs mostradas. Si ya no son válidas, puedes crear nuevas URLs con el comando ``plesk login``.
+La interfaz web se puede acceder vía https://IP:8443 o https://Dominio.xx:8443 del servidor. Los datos de acceso son root/admin y la contraseña root actual. Alternativamente, puedes usar alguna de las URLs mostradas. Si ya no son válidas, puedes crear nuevas URLs con el comando ``plesk login``.
 
 ### Configuración
 
-Una vez registrado con éxito, debes configurar la cuenta de administrador. Debes ingresar un nombre de contacto, un correo electrónico y una contraseña. Si ya tienes una licencia de Plesk, puedes introducirla directamente. También puedes solicitar una licencia de prueba de 15 días desde Plesk. Finalmente, debes aceptar el contrato de usuario.  
-Ahora Plesk está listo para usarse.
+Una vez registrado con éxito, debes configurar la cuenta de administrador. Debes ingresar un nombre de contacto, un correo electrónico y una contraseña. Si ya tienes una licencia de Plesk, puedes introducirla directamente. También puedes solicitar una licencia de prueba de 15 días desde Plesk. Finalmente, debes aceptar el contrato de usuario.
+Ahora puedes usar Plesk.
 
 ### Cambiar idioma
 
-Después de la instalación, el panel de Plesk está en inglés. Puedes cambiarlo a alemán o a otro idioma en Herramientas y Configuración ➡️ Apariencia de Plesk ➡️ Idiomas. Allí selecciona "de-DE". Luego, para que el idioma se aplique para todos, haz clic en "Establecer como predeterminado".  
-Después de cerrar sesión y volver a entrar, el panel aparecerá en alemán.
+Después de la instalación, el panel de Plesk está en inglés. Puedes cambiarlo a alemán o a otro idioma en Herramientas y Configuración ➡️ Apariencia de Plesk ➡️ Idiomas. Allí selecciona "de-DE". Luego haz clic en "Establecer como predeterminado" para que el idioma se aplique para todos permanentemente.
+Después de cerrar sesión y volver a entrar, el panel estará en alemán.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/6Wo8Qz3oMXGzn3t/preview)
 
 ### Añadir dominio
 
-Para añadir tu primer dominio, haz clic en el botón azul "Añadir dominio".
+Para añadir el primer dominio, haz clic en el botón azul "Añadir dominio".
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/2S4mgRPctffS452/preview)
 
-Ahora puedes ingresar tu propio dominio. También debes definir una IP, así como un usuario y contraseña para el hosting web del dominio. Si el subdominio "www" ya está configurado en el DNS del dominio, se puede crear directamente un certificado SSL de Let's Encrypt. Esta opción se activa tras ingresar un correo electrónico y confirmar con el botón azul "OK".
+Ahora puedes ingresar tu propio dominio. También debes definir una IP, así como un usuario y contraseña para el hosting web del dominio. Si el subdominio "www" ya está configurado en el DNS del dominio, se puede crear directamente un certificado SSL de Let's Encrypt. Esta opción aparece tras ingresar un correo electrónico y confirmarla con el botón azul "OK".
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/SLSBz5TRH2mDBB8/preview)
 
 :::info
-El dominio debe apuntar a la IP del hosting web. Si el dominio es de ZAP-Hosting, se puede redirigir fácilmente al hosting web vía EasyDNS. Si es externo, debe configurarse un registro A apuntando a la IP y los subdominios "www" y "webmail" también deben apuntar a la IP. Además, se debe configurar un registro MX apuntando a la IP del hosting web.
+El dominio debe apuntar a la IP del hosting web. Si el dominio es de ZAP-Hosting, se puede redirigir fácilmente al hosting web vía EasyDNS. Si es externo, debe configurarse un registro A apuntando a la IP y los subdominios "www" y "webmail" también deben apuntar a la IP. Además, un registro MX debe apuntar a la IP del hosting web.
 
-Puede tardar hasta 24 horas para que un nuevo o modificado registro DNS se propague correctamente.
+Puede tardar hasta 24 horas en propagarse un nuevo o modificado registro DNS.
 :::
 
-## Cifrado SSL
+## Encriptación SSL
 
-Durante el registro del dominio o creación del hosting web, ya se generó un certificado SSL de Let's Encrypt, que ahora puedes seleccionar en "Configuración de hosting" del dominio. Luego confirma con "Aplicar".
+Durante el registro del dominio/creación del hosting web, ya se generó un certificado SSL de Let's Encrypt, que ahora puedes seleccionar en "Configuración de hosting" del dominio. Luego confirma con "Aplicar".
 
 :::info
 Para redirigir permanentemente a HTTPS (SSL) al acceder a la web, marca la casilla "Redirección permanente 301 apta para SEO de HTTP a HTTPS".
@@ -195,11 +196,11 @@ Si ahora abres el dominio en el navegador, mostrará que está cifrado.
 ![](https://screensaver01.zap-hosting.com/index.php/s/xcqwAQWK77X3yip/preview)
 
 :::info
-La instalación y configuración del primer dominio con cifrado SSL ya está completamente terminada.
+La instalación y configuración del primer dominio con encriptación SSL ya está completamente terminada.
 :::
 
 ## Conclusión
 
-¡Felicidades, has instalado y configurado Plesk con éxito! Si tienes más preguntas o problemas, contacta con nuestro equipo de soporte, que está disponible para ayudarte todos los días.
+¡Felicidades, has instalado y configurado Plesk con éxito! Si tienes más preguntas o problemas, contacta con nuestro equipo de soporte, disponible para ayudarte todos los días.
 
 <InlineVoucher />

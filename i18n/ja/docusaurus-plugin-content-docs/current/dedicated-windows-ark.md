@@ -20,7 +20,7 @@ Windows VPSを持っていて、そこにゲームサーバーをインストー
 
 ## 準備
 
-ARKサーバーのセットアップにはSteamCMDが必要だよ。SteamCMDはSteamクライアントの**コマンドライン版**。このツールを使うと、人気Steamゲームの専用サーバーアプリをサクッと簡単にダウンロードできるんだ。SteamCMDは公式Valve開発者サイトで手に入るよ：https://developer.valvesoftware.com/wiki/SteamCMD。
+ARKサーバーのセットアップにはSteamCMDが必要だよ。SteamCMDはSteamクライアントの**コマンドライン版**。このツールを使うと、人気Steamゲームの専用サーバーアプリをサクッと簡単にダウンロードできるんだ。SteamCMDは公式Valve開発者サイトで手に入るよ：`https://developer.valvesoftware.com/wiki/SteamCMD`。
 
 ダウンロードが終わったら、**steamcmd.zip**ファイルが手に入るから、まずはこれを解凍しよう。別フォルダを作ってそこに解凍するのがおすすめ。解凍後に**steamcmd.exe**が見えるはず。これを実行して、インストールが完了するまで待とう。
 

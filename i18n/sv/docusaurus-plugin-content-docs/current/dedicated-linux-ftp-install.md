@@ -1,9 +1,10 @@
 ---
 id: dedicated-linux-ftp-install
-title: "Dedikerad Server: Installation av en FTP-server"
-description: "Upptäck hur du sätter upp och hanterar en säker FTP-server på Linux med FileZilla Server för smidigare filöverföringar och användarhantering → Lär dig mer nu"
+title: "Sätt upp ProFTPD på en Linux-server - Host en säker FTP-tjänst"
+description: "Lär dig hur du sätter upp och hanterar en säker FTP-server på Linux med FileZilla Server för smidigare filöverföringar och användarhantering → Läs mer nu"
 sidebar_label: Installera FTP-server
 services:
+  - vserver
   - dedicated
 ---
 
@@ -11,17 +12,17 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introduktion
 
-**FTP (File Transfer Protocol)** är ett nätverksprotokoll som används för att överföra filer över ett TCP/IP-nätverk. Protokollet utvecklades för att möjliggöra enkel filutbyte mellan system. Med **FileZilla Server** kan du sätta upp en sådan FTP-server på ett Linux-operativsystem. FileZilla Server är enkel att installera och konfigurera, och erbjuder många funktioner som möjligheten att skapa användarkonton, hantera åtkomsträttigheter och överföra filer. I den här guiden går vi igenom hur du installerar och konfigurerar **FileZilla Server** på en Linux-server.
+**FTP (File Transfer Protocol)** är ett nätverksprotokoll som används för att överföra filer över ett TCP/IP-nätverk. Protokollet utvecklades för att göra det enkelt att byta filer mellan system. Med **FileZilla Server** kan du sätta upp en sådan FTP-server på ett Linux-operativsystem. FileZilla Server är enkel att installera och konfigurera, och erbjuder massor av funktioner som möjligheten att skapa användarkonton, hantera åtkomsträttigheter och överföra filer. I den här guiden går vi igenom hur du installerar och konfigurerar **FileZilla Server** på en Linux-server.
 
 ## Hur installerar jag FTP-servern för att lägga till en användare?
 
 För att lägga till en FTP-användare måste du först installera FTP-servern. Anslut till servern en gång via SSH (Putty).
 
-För att installera FTP-servern skriver du nu följande: **apt-get install proftpd**. Bekräfta med **Y** och tryck enter:
+För att installera FTP-servern skriver du nu in följande: **apt-get install proftpd**. Bekräfta med **Y** och tryck enter:
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/MWzQMoq5yrRXP7Y/preview)
 
-Nu måste vi justera konfigurationen. Skriv följande: **nano /etc/proftpd/proftpd.conf** och tryck enter. Då öppnas konfigurationsfilen i Nano-editorn:
+Nu måste vi justera konfigurationen. Skriv in: **nano /etc/proftpd/proftpd.conf** och tryck enter. Då öppnas konfigurationsfilen i Nano-editorn:
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/8X4A6MZEr27YqFf/preview)
 
@@ -43,11 +44,11 @@ Nu blir du ombedd att sätta ett lösenord:
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/4cmAAMcBaoTQ4QD/preview)
 
-Bekräfta sedan att uppgifterna är korrekta:
+Sedan bekräftar du att uppgifterna är korrekta:
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/6bNjWnr7ie3Cnty/preview)
 
-Sista steget är att tilldela den nya användaren till gruppen med **adduser benutzerftp ftpuser**:
+Sista steget är att tilldela den nya användaren till gruppen via **adduser benutzerftp ftpuser**:
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/bj277RHHMBQtPbp/preview)
 

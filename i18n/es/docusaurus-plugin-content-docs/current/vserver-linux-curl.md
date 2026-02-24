@@ -1,10 +1,11 @@
 ---
 id: vserver-linux-curl
-title: "VPS: Configura cURL en Linux"
+title: "Configura cURL en un Servidor Linux - Prueba y Automatiza Solicitudes HTTP"
 description: "Descubre cómo configurar y optimizar cURL para transferencias de datos eficientes y pruebas de API → Aprende más ahora"
 sidebar_label: Instalar cURL
 services:
   - vserver
+  - dedicated
 ---
 
 import Tabs from '@theme/Tabs';
@@ -23,8 +24,8 @@ cURL es tanto una herramienta gratuita de línea de comandos como una biblioteca
 
 Antes de configurar **cURL**, necesitas preparar tu sistema. Esto incluye actualizar tu sistema operativo a la versión más reciente. Estas preparaciones aseguran un entorno estable y ayudan a prevenir problemas durante o después de la instalación.
 
-### Actualizar el sistema
-Para asegurarte de que tu sistema esté corriendo con el software y mejoras de seguridad más recientes, siempre debes hacer una actualización del sistema primero. Para ello, ejecuta el siguiente comando:
+### Actualizar Sistema
+Para asegurarte de que tu sistema esté corriendo con el software y mejoras de seguridad más recientes, siempre debes hacer primero una actualización del sistema. Para ello, ejecuta el siguiente comando:
 
 ```
 sudo apt update && sudo apt upgrade -y
@@ -48,13 +49,13 @@ cURL no requiere una configuración tradicional, pero puede personalizarse media
 - `--insecure` para desactivar la verificación de certificados SSL (solo recomendado para pruebas)  
 - `--header "Authorization: Bearer <TOKEN>"` para autenticación en APIs  
 
-Además, variables de entorno como `HTTP_PROXY` o `HTTPS_PROXY` pueden configurarse para enrutar las solicitudes de cURL a través de un servidor proxy. Esta configuración hace que cURL sea más eficiente para tareas repetitivas al evitar tener que reescribir opciones largas en cada comando.
+Además, variables de entorno como `HTTP_PROXY` o `HTTPS_PROXY` pueden configurarse para enrutar las solicitudes de cURL a través de un servidor proxy. Esta configuración hace que cURL sea más eficiente para tareas repetitivas, evitando tener que reescribir opciones largas en cada comando.
 
-## Conclusión y más recursos
+## Conclusión y más Recursos
 
-¡Felicidades! Ahora has instalado y configurado cURL exitosamente en tu VPS. También te recomendamos echar un vistazo a los siguientes recursos, que pueden ofrecerte ayuda y guía adicional durante la configuración de tu servidor:
+¡Felicidades! Ahora has instalado y configurado cURL exitosamente en tu VPS/servidor dedicado. También te recomendamos echar un vistazo a los siguientes recursos, que pueden ofrecerte ayuda y guía adicional durante la configuración de tu servidor:
 
-- [curl.se](https://curl.se/) – Sitio oficial  
+- [curl.se](https://curl.se/) – Sitio Oficial  
 - [curl.se/docs/](https://curl.se/docs/) Documentación de cURL
 
 ¿Tienes preguntas específicas que no se cubren aquí? Para más dudas o asistencia, no dudes en contactar a nuestro equipo de soporte, ¡disponible todos los días para ayudarte! 🙂

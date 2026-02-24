@@ -1,9 +1,10 @@
 ---
 id: dedicated-linux-xrdp
-title: "Dedicated Server: Installatie van xRDP (Remote Desktop)"
+title: "xRDP instellen op een Linux Server - Remote Desktop Toegang activeren"
 description: "Ontdek hoe je remote desktop toegang instelt op Ubuntu en Debian servers voor makkelijker beheer en controle → Leer het nu"
-sidebar_label: Installeer xRDP
+sidebar_label: xRDP installeren
 services:
+  - vserver
   - dedicated
 ---
 
@@ -11,16 +12,16 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introductie
 
-Op Linux is er meestal standaard een SSH-console om de server te beheren. In sommige gevallen is het makkelijker om een remote desktop verbinding te gebruiken, vergelijkbaar met Windows.  
-Een post-installatie is mogelijk voor de meeste Linux distros. In deze gids leggen we uit hoe dat werkt voor Ubuntu en Debian.
+Op Linux is er meestal een standaard SSH-console om de server te beheren. Soms is het echter makkelijker om een remote desktop verbinding te gebruiken, net zoals bij Windows.  
+Een post-installatie is mogelijk voor de meeste Linux distro’s. In deze gids leggen we uit hoe dat werkt voor Ubuntu en Debian.
 
 :::info
-Belangrijk: Gebruik minimaal Ubuntu 18.04.X LTS (Bionic Beaver) of Debian 10 (Buster) als besturingssysteem. Nieuwere versies worden aanbevolen.
+Belangrijk: Je moet minimaal Ubuntu 18.04.X LTS (Bionic Beaver) of Debian 10 (Buster) als OS gebruiken. Nieuwere versies worden aanbevolen.
 :::
 
 ## xRDP installeren
 
-Eerst moet de server geüpdatet worden: 
+Eerst update je de server: 
 ```
 // Debian
 sudo apt update; sudo apt upgrade -y
@@ -29,7 +30,7 @@ sudo apt update; sudo apt upgrade -y
 sudo apt update; sudo apt upgrade -y
 ```
 
-Na de update worden de benodigde pakketten geïnstalleerd: 
+Na de update installeer je de benodigde pakketten: 
 ```
 // Debian
 sudo apt install xfce4 xfce4-goodies xorg dbus-x11 x11-xserver-utils -y
@@ -38,7 +39,7 @@ sudo apt install xfce4 xfce4-goodies xorg dbus-x11 x11-xserver-utils -y
 sudo apt install ubuntu-desktop -y
 ```
 
-Daarna kan xRDP geïnstalleerd worden: 
+Daarna installeer je xRDP: 
 ```
 // Debian
 sudo apt install xrdp
@@ -47,7 +48,7 @@ sudo apt install xrdp
 sudo apt install xrdp
 ```
 
-Na installatie moet de status "active" teruggeven: 
+Na de installatie check je of de status “active” is: 
 ```
 // Debian
 sudo systemctl status xrdp
@@ -57,7 +58,7 @@ sudo systemctl status xrdp
 ```
 ![xrdp](https://screensaver01.zap-hosting.com/index.php/s/wdKep3W6GHWekp3/preview)
 
-Als de status goed is, moet er nog een gebruiker worden aangemaakt. Daarna moet de xRDP service opnieuw gestart worden: 
+Als de status goed is, moet je nog een gebruiker aanmaken. Daarna herstart je de xRDP service: 
 ```
 // Debian
 sudo adduser xrdp ssl-cert; sudo systemctl restart xrdp
@@ -66,13 +67,13 @@ sudo adduser xrdp ssl-cert; sudo systemctl restart xrdp
 sudo adduser xrdp ssl-cert; sudo systemctl restart xrdp
 ```
 
-Na het afronden van de configuratie kun je via Remote Desktop verbinden met de root of de betreffende gebruikersgegevens van de server.  
+Als je klaar bent met de configuratie, kun je via Remote Desktop verbinden met de root of de betreffende gebruikersdata van de server.  
 De standaardpoort is: 3389
 
 ## Verbinding maken
 
-De verbinding kan gemaakt worden via elke RDP-client, verbonden met IP:POORT.  
-Bij het verbinden wordt om de inloggegevens gevraagd: 
+Je kunt verbinden met elke RDP-client, via IP:POORT.  
+Bij het verbinden wordt om je inloggegevens gevraagd: 
 
 ![xrdp2](https://screensaver01.zap-hosting.com/index.php/s/btRPMG73cT6ysyL/preview)
 

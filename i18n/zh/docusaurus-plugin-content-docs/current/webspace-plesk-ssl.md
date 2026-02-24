@@ -96,7 +96,7 @@ DNS 记录示例：
 DNS 记录生效可能需要最长 24 小时，全球范围内都可能有延迟。
 :::
 
-你可以用 mxtoolbox 的“TXT Lookup SuperTool”来检测 TXT 记录是否生效：https://mxtoolbox.com/SuperTool.aspx：
+你可以用 mxtoolbox 的“TXT Lookup SuperTool”来检测 TXT 记录是否生效：`https://mxtoolbox.com/SuperTool.aspx`：
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/CPSSWeQRpTDsagY/preview)
 

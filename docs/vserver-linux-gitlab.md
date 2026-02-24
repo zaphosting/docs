@@ -1,10 +1,11 @@
 ---
 id: vserver-linux-gitlab
-title: "VPS: Install GitLab on Linux"
+title: "Setup GitLab on a Linux Server - Host Your Own DevOps Platform"
 description: "Discover how to efficiently set up GitLab on Linux to streamline DevOps workflows and enhance team collaboration → Learn more now"
 sidebar_label: Install GitLab
 services:
   - vserver
+  - dedicated
 ---
 
 import Tabs from '@theme/Tabs';

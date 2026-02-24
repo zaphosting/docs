@@ -1,10 +1,11 @@
 ---
 id: vserver-linux-standard-notes
-title: "VPS : Installer Standard Notes sur Linux"
-description: "Découvrez comment synchroniser et protéger vos notes en toute sécurité sur plusieurs appareils avec Standard Notes en auto-hébergement → En savoir plus maintenant"
+title: "Installer Standard Notes sur un serveur Linux - Crée ton système privé de notes"
+description: "Découvre comment synchroniser et protéger tes notes en toute sécurité sur tous tes appareils avec l’auto-hébergement de Standard Notes → En savoir plus maintenant"
 sidebar_label: Installer Standard Notes
 services:
   - vserver
+  - dedicated
 ---
 
 import Tabs from '@theme/Tabs';
@@ -13,11 +14,11 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introduction
 
-Standard Notes est une application de prise de notes open-source qui protège vos données grâce à un chiffrement de bout en bout audité. Vous êtes le seul à contrôler les clés de déchiffrement. Elle synchronise vos notes et fichiers chiffrés de manière fluide sur un nombre illimité d’appareils, les garde accessibles hors ligne, et protège activement votre contenu contre tout accès externe.
+Standard Notes est une appli de notes open-source qui protège tes données grâce à un chiffrement de bout en bout audité. Toi seul contrôles les clés de déchiffrement. Elle synchronise tes notes et fichiers chiffrés sans accroc sur un nombre illimité d’appareils, les garde accessibles hors ligne, et protège activement ton contenu contre tout accès externe.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/b6ZpyKJGny5qAon/preview)
 
-Vous envisagez d’héberger ce service vous-même ? On vous guide pas à pas pour l’installer et le configurer, avec tout ce qu’il faut savoir.
+Tu envisages d’héberger ce service toi-même ? On te guide pas à pas pour l’installer et le configurer, avec tout ce qu’il faut savoir.
 
 <InlineVoucher />
 
@@ -25,7 +26,7 @@ Vous envisagez d’héberger ce service vous-même ? On vous guide pas à pas po
 
 ## Prérequis
 
-Avant d’installer **Standard Notes**, assurez-vous que votre environnement d’hébergement répond aux exigences suivantes pour garantir une installation fluide et des performances optimales.
+Avant d’installer **Standard Notes**, assure-toi que ton environnement d’hébergement répond aux exigences suivantes pour garantir une installation fluide et des performances optimales.
 
 | Matériel   | Minimum      | Recommandation ZAP-Hosting |
 | ---------- | ------------ | -------------------------- |
@@ -33,82 +34,82 @@ Avant d’installer **Standard Notes**, assurez-vous que votre environnement d�
 | RAM        | 2 Go         | 4 Go                       |
 | Espace disque | 5 Go       | 25 Go                      |
 
-Le logiciel nécessite que toutes les dépendances requises soient installées et qu’il tourne sur un système d’exploitation supporté. Vérifiez que votre serveur remplit les conditions suivantes avant de lancer l’installation :
+Le logiciel nécessite que toutes les dépendances requises soient installées et qu’il tourne sur un système d’exploitation supporté. Vérifie que ton serveur remplit ces conditions avant de lancer l’installation :
 
-**Dépendances :** `Docker (Engine 26+ et Compose)`
+**Dépendances :** `Docker (Engine 26+ et Compose)` 
 
-**Système d’exploitation :** Dernière version d’Ubuntu/Debian compatible avec Docker 26+
+**Système d’exploitation :** Dernière version d’Ubuntu/Debian compatible Docker 26+
 
-Assurez-vous que toutes les dépendances sont installées et que la version du système d’exploitation est correcte pour éviter tout problème de compatibilité lors de l’installation de Standard Notes.
+Assure-toi que toutes les dépendances sont installées et que la version du système d’exploitation est correcte pour éviter les problèmes de compatibilité lors de l’installation de Standard Notes.
 
 
 
 ## Préparation
 
-Avant de configurer **Standard Notes**, vous devez préparer votre système. Cela inclut la mise à jour de votre système d’exploitation vers la dernière version et l’installation de toutes les dépendances nécessaires. Ces préparatifs garantissent un environnement stable et aident à prévenir les soucis pendant ou après l’installation.
+Avant de configurer **Standard Notes**, tu dois préparer ton système. Cela inclut la mise à jour de ton système d’exploitation à la dernière version et l’installation de toutes les dépendances nécessaires. Ces préparatifs garantissent un environnement stable et préviennent les soucis pendant ou après l’installation.
 
 
 ### Mise à jour du système
-Pour vous assurer que votre système fonctionne avec les dernières améliorations logicielles et de sécurité, commencez toujours par une mise à jour système. Pour cela, lancez la commande suivante :
+Pour t’assurer que ton système tourne avec les dernières améliorations logicielles et de sécurité, commence toujours par une mise à jour système. Lance cette commande :
 
 ```
 sudo apt update && sudo apt upgrade -y
 ```
-Cela garantit que votre système dispose des derniers correctifs de sécurité et des versions logicielles avant de continuer.
+Cela garantit que ton système dispose des derniers patchs de sécurité et versions logicielles avant de continuer.
 
 ### Installer les dépendances
-Une fois la mise à jour terminée, vous pouvez passer à l’installation des dépendances. Standard Notes sera déployé et exécuté sur votre machine via plusieurs conteneurs Docker. Docker doit donc être installé en premier. Pour cela, lancez la commande suivante :
+Une fois la mise à jour terminée, tu peux installer les dépendances. Standard Notes sera déployé et exécuté sur ta machine via plusieurs conteneurs Docker. Docker doit donc être installé en premier. Pour ça, lance :
 
 ```
 curl -fsSL https://get.docker.com -o get-docker.sh
 sh get-docker.sh
 ```
 
-Un guide complet sur l’installation et l’utilisation de Docker est disponible dans notre [guide Docker](vserver-linux-docker.md).
+Un guide complet sur l’installation et l’utilisation de Docker est dispo dans notre [guide Docker](dedicated-linux-docker.md).
 
 
 
 
 ## Installation
-Maintenant que toutes les exigences sont remplies et que les préparatifs sont faits, vous pouvez procéder à l’installation de l’application Standard Notes.
+Maintenant que tous les prérequis sont remplis et que la préparation est faite, tu peux passer à l’installation de l’application Standard Notes.
 
 
 
-Commencez par créer un dossier qui contiendra tous les fichiers de configuration et d’installation. Ce dossier sera votre répertoire de travail pour l’installation.
+Commence par créer un dossier qui contiendra tous les fichiers de configuration et d’installation. Ce dossier sera ton espace de travail pour l’installation.
 
 ```
 mkdir standardnotes
 cd standardnotes
 ```
 
-Ensuite, créez un fichier `.env` dans votre répertoire de travail et remplissez-le avec les valeurs par défaut du fichier de configuration exemple du projet :
+Ensuite, crée un fichier `.env` dans ton dossier de travail et remplis-le avec les valeurs par défaut du fichier de configuration exemple du projet :
 ```
 touch .env
 curl https://raw.githubusercontent.com/standardnotes/server/main/.env.sample > .env
 ```
 
-Ce fichier contient uniquement les variables minimales requises pour une installation fonctionnelle. La liste complète des variables actuellement utilisées est disponible ici : [docker-entrypoint.sh](https://github.com/standardnotes/server/blob/main/docker/docker-entrypoint.sh)
+Ce fichier contient uniquement les variables minimales requises pour un setup fonctionnel. La liste complète des variables utilisées est dispo ici : [docker-entrypoint.sh](https://github.com/standardnotes/server/blob/main/docker/docker-entrypoint.sh)
 
-Ouvrez le fichier `.env` et assurez-vous que toutes les clés dans la section KEYS sont correctement définies. Générez des valeurs aléatoires pour chaque variable d’environnement requise avec :
+Ouvre le fichier `.env` et vérifie que toutes les clés dans la section KEYS sont bien définies. Génère des valeurs aléatoires pour chaque variable d’environnement requise avec :
 
 ```
 openssl rand -hex 32
 ```
 
-Collez ces valeurs dans votre fichier `.env`. Standard Notes nécessite un script bootstrap pour LocalStack. Téléchargez-le dans votre répertoire de travail et rendez-le exécutable :
+Colle ces valeurs dans ton fichier `.env`. Standard Notes a besoin d’un script bootstrap pour LocalStack. Télécharge-le dans ton dossier de travail et rends-le exécutable :
 
 ```shell
 curl https://raw.githubusercontent.com/standardnotes/server/main/docker/localstack_bootstrap.sh > localstack_bootstrap.sh
 chmod +x localstack_bootstrap.sh
 ```
 
-Téléchargez la configuration officielle d’exemple et enregistrez-la sous le nom `docker-compose.yml` dans votre dossier de travail. Ce fichier définit tous les services conteneurs nécessaires pour Standard Notes.
+Télécharge la configuration officielle d’exemple et sauvegarde-la sous `docker-compose.yml` dans ton dossier de travail. Ce fichier définit tous les services conteneurs nécessaires à Standard Notes.
 
 ```
 curl https://raw.githubusercontent.com/standardnotes/server/main/docker-compose.example.yml > docker-compose.yml
 ```
 
-Une fois tout prêt, récupérez les dernières images et démarrez les services en mode détaché :
+Une fois tout prêt, récupère les dernières images et lance les services en mode détaché :
 
 ```
 docker compose pull && docker compose up -d
@@ -118,17 +119,17 @@ docker compose pull && docker compose up -d
 
 ## Configuration
 
-La configuration par défaut dans le fichier `docker-compose.yml` fourni peut être personnalisée selon vos besoins spécifiques. Un point clé est le service `server`, où vous pouvez ajuster les mappages de ports dans la propriété `ports`. Cela vous permet de choisir sur quels ports hôtes l’application sera accessible, évitant ainsi les conflits avec d’autres services en cours d’exécution ou pour correspondre à votre configuration réseau préférée.
+La configuration par défaut dans le fichier `docker-compose.yml` fourni peut être personnalisée selon tes besoins. Un point clé est le service `server`, où tu peux ajuster les mappages de ports dans la propriété `ports`. Cela te permet de choisir sur quels ports hôtes l’application sera accessible, évitant ainsi les conflits avec d’autres services en cours ou pour coller à ta config réseau préférée.
 
-Sécuriser la base de données est une autre étape cruciale. Les mots de passe par défaut doivent être remplacés par des chaînes fortes et générées aléatoirement. Vous pouvez créer un mot de passe sécurisé avec :
+Sécuriser la base de données est aussi crucial. Remplace les mots de passe par défaut par des chaînes fortes et générées aléatoirement. Tu peux créer un mot de passe sécurisé avec :
 
 ```
 openssl rand -hex 12  
 ```
 
-Ajoutez la valeur générée dans le fichier `.env` sous `DB_PASSWORD`. Cette même valeur doit aussi être définie pour `MYSQL_ROOT_PASSWORD` et `MYSQL_PASSWORD` dans le fichier `docker-compose.yml` pour garder les conteneurs synchronisés.
+Ajoute la valeur générée dans le fichier `.env` sous `DB_PASSWORD`. La même valeur doit aussi être définie pour `MYSQL_ROOT_PASSWORD` et `MYSQL_PASSWORD` dans le fichier `docker-compose.yml` pour garder les conteneurs synchronisés.
 
-Ces modifications de configuration garantissent que votre installation est non seulement fonctionnelle, mais aussi sécurisée et adaptée à votre environnement.
+Ces modifications garantissent que ton installation est non seulement fonctionnelle, mais aussi sécurisée et adaptée à ton environnement.
 
 
 
@@ -136,9 +137,9 @@ Ces modifications de configuration garantissent que votre installation est non s
 
 ## Connexion au serveur de synchronisation
 
-Pour configurer votre compte dans Standard Notes, cliquez sur l’icône avatar en bas à droite de l’application. Dans le menu qui s’ouvre, sélectionnez « Créer un compte » pour commencer à créer un nouveau profil utilisateur. Entrez une adresse email valide ainsi qu’un mot de passe sécurisé.
+Pour configurer ton compte dans Standard Notes, clique sur l’icône avatar en bas à droite de l’appli. Dans le menu qui s’ouvre, choisis “Créer un compte” pour commencer à créer ton profil utilisateur. Entre une adresse email valide et un mot de passe sécurisé.
 
-Avant de finaliser, ouvrez la section « Options avancées ». Sous « Serveur de synchronisation », choisissez l’option « Personnalisé » et saisissez l’adresse IP et le port de votre propre serveur au format IP:Port. Cela garantit que vos notes ne sont pas synchronisées via le service Standard Notes par défaut, mais bien avec votre serveur auto-hébergé.
+Avant de valider, ouvre la section “Options avancées”. Sous “Serveur de synchronisation”, sélectionne l’option “Personnalisé” et saisis l’adresse IP et le port de ton propre serveur au format IP:Port. Cela garantit que tes notes ne seront pas synchronisées via le service Standard Notes par défaut, mais bien avec ton serveur auto-hébergé.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/tpsFzSQEokP9xit/download)
 
@@ -148,9 +149,9 @@ Avant de finaliser, ouvrez la section « Options avancées ». Sous « Serveur d
 
 ## Conclusion et ressources supplémentaires
 
-Félicitations ! Vous avez maintenant installé et configuré avec succès Standard Notes sur votre VPS. Nous vous recommandons aussi de jeter un œil aux ressources suivantes, qui pourraient vous apporter un coup de main et des conseils supplémentaires pendant la configuration de votre serveur :
+Félicitations ! Tu as maintenant installé et configuré avec succès Standard Notes sur ton VPS/serveur dédié. On te conseille aussi de jeter un œil aux ressources suivantes, qui peuvent t’apporter un coup de main et des conseils pendant ta configuration serveur :
 
 - [Standardnotes.com](https://standardnotes.com/) - Site officiel
 - [Standardnotes.com/help](https://standardnotes.com/help) - Centre d’aide Standard Notes (Documentation)
 
-Vous avez des questions spécifiques qui ne sont pas couvertes ici ? Pour toute question ou assistance, n’hésitez pas à contacter notre équipe support, disponible tous les jours pour vous aider ! 🙂
+Tu as des questions spécifiques qui ne sont pas couvertes ici ? Pour toute demande ou assistance, n’hésite pas à contacter notre support, dispo tous les jours pour t’aider ! 🙂

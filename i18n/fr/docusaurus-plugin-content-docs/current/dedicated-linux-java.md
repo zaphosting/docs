@@ -1,9 +1,10 @@
 ---
 id: dedicated-linux-java
-title: "Serveur dédié : Installation de Java"
-description: "Apprends à installer Java sur différents systèmes Linux pour faire tourner tes applications Java sans accroc et assurer que ton environnement est bien configuré → Découvre-le maintenant"
+title: "Configurer Java sur un serveur Linux - Exécutez des applications et services basés sur Java"
+description: "Apprenez à installer Java sur différents systèmes Linux pour faire tourner vos applications Java sans accroc et assurez-vous que votre environnement est bien configuré → Découvrez-le maintenant"
 sidebar_label: Installer Java
 services:
+  - vserver
   - dedicated
 ---
 
@@ -11,9 +12,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introduction
 
-Java est un langage de programmation super populaire utilisé partout dans le monde pour plein de programmes et services. Pour faire tourner ces programmes basés sur Java, il est indispensable que Java soit installé sur le système. Dans ce guide, tu vas apprendre comment installer Java sur ton système pour les systèmes Linux proposés. 
-
-
+Java est un langage de programmation super populaire utilisé partout dans le monde pour plein de programmes et services. Pour faire tourner ces programmes basés sur Java, il est absolument nécessaire que Java soit installé sur le système. Dans ce guide, tu vas apprendre comment installer Java sur ton système pour les systèmes Linux proposés.
 
 ## Préparation
 
@@ -38,11 +37,9 @@ sudo zypper up
 sudo dnf upgrade --refresh
 ```
 
-
-
 ## Installation
 
-Une fois la préparation terminée, tu peux lancer l’installation de Java. Selon ton système d’exploitation, exécute la commande correspondante :
+Après la préparation, tu peux lancer l’installation de Java. Selon ton système d’exploitation, exécute la commande correspondante :
 
 **Debian**
 
@@ -68,8 +65,6 @@ sudo yum install java-11-openjdk
 sudo dnf install java-11-openjdk
 ```
 
-
-
 ## Vérification de la version
 
 Tu peux vérifier si l’installation a réussi avec la commande **java --version**. Le résultat devrait ressembler à ça :
@@ -80,6 +75,4 @@ OpenJDK Runtime Environment (build 11.0.9.1+1-Ubuntu-0ubuntu1.20.04)
 OpenJDK 64-Bit Server VM (build 11.0.9.1+1-Ubuntu-0ubuntu1.20.04, mixed mode)
 ```
 
-Ici, Java 11 a été installé avec succès sur ton système. Tu peux maintenant lancer tes applications Java facilement sur ton serveur. 
-
-
+Ici, Java 11 a été installé avec succès sur ton système. Tu peux maintenant lancer tes applications Java facilement sur ton serveur.

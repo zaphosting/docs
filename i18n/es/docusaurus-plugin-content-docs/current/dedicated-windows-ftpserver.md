@@ -1,9 +1,10 @@
 ---
 id: dedicated-windows-ftpserver
-title: "Servidor Dedicado: Instalación de FTP"
+title: "Configura FTP en un Servidor Windows - Aloja un Servicio Seguro de Transferencia de Archivos"
 description: "Descubre cómo configurar y gestionar un servidor FTP FileZilla en Windows para transferencias seguras y control de acceso de usuarios → Aprende más ahora"
 sidebar_label: Instalar FTP
 services:
+  - vserver
   - dedicated
 ---
 
@@ -11,7 +12,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introducción
 
-El **FTP (Protocolo de Transferencia de Archivos)** es un protocolo de red usado para transferir archivos a través de una red TCP/IP. Este protocolo fue desarrollado para facilitar el intercambio de archivos entre sistemas.
+El **FTP (Protocolo de Transferencia de Archivos)** es un protocolo de red usado para transferir archivos a través de una red TCP/IP. El protocolo fue desarrollado para facilitar el intercambio sencillo de archivos entre sistemas.
 
 Con el **FileZilla Server** es posible montar un servidor FTP en un sistema operativo Windows. FileZilla Server es fácil de instalar y configurar, y ofrece muchas funciones como la creación de cuentas de usuario, gestión de permisos de acceso y transferencia de archivos.
 
@@ -21,13 +22,13 @@ Con el **FileZilla Server** es posible montar un servidor FTP en un sistema oper
 
 ### Descarga
 
-Para montar un servidor FTP necesitas el software adecuado. FileZilla Server es una solución posible para sistemas Windows. Puedes descargarlo aquí: [FileZilla server](https://filezilla-project.org/download.php?type=server).
+Para configurar un servidor FTP necesitas el software correspondiente. FileZilla Server es una solución posible para sistemas operativos Windows. Puedes descargarlo aquí: [FileZilla server](https://filezilla-project.org/download.php?type=server).
 
 
 
 ### Instalación
 
-Una vez descargado el archivo de instalación, ejecútalo haciendo clic en el archivo descargado. Debería abrirse esta ventana: ![](https://screensaver01.zap-hosting.com/index.php/s/a2DEpaR5jD28X23/preview)
+Una vez descargado el archivo de instalación, ejecútalo haciendo clic sobre él. Debería abrirse esta ventana: ![](https://screensaver01.zap-hosting.com/index.php/s/a2DEpaR5jD28X23/preview)
 
 
 
@@ -41,7 +42,7 @@ En este ejemplo, FileZilla Server se instalará en **C:\Program Files (x86)\File
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/WopFXcW3teFAyJK/preview)
 
-Luego haz clic en **Next** y en el siguiente paso. Finalmente, pulsa en **Install** para iniciar la instalación. Se abrirá la interfaz de administración del servidor FTP FileZilla. Haz clic en el botón **Connect to FileZilla FTP Server**.
+Luego haz clic en **Next** y en el siguiente paso. Al final, pulsa **Install** para comenzar la instalación. Se abrirá la interfaz de administración del servidor FTP FileZilla. Haz clic en el botón **Connect to FileZilla FTP Server**.
 
 Aparecerá una ventana con los campos Host, Port y Password. Puedes dejar los dos primeros campos tal cual y escribir la contraseña de administrador que definiste para el servidor FTP. Después, conecta haciendo clic en **Ok**.
 
@@ -66,7 +67,7 @@ En este ejemplo, el nombre de usuario es **YourUserName**. Por supuesto, puedes 
 
 ### Contraseña y permisos
 
-Con el usuario creado, ahora configura el acceso y los permisos. Activa el usuario y configura la contraseña en la categoría **General** bajo **Credentials**. Recomendamos encarecidamente usar contraseña por seguridad. Marca **Require a password to log in** y establece la contraseña que desees.
+Con el usuario creado, ahora configura el acceso y los permisos. Activa el usuario y configura la contraseña en la categoría **General** bajo **Credentials**. Recomendamos usar contraseña por seguridad. Marca **Require a password to log in** y establece la contraseña que prefieras.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/z78wpcFbYEAJYeB/preview)
 
@@ -74,13 +75,13 @@ Para que el usuario tenga los permisos adecuados, debes definir a qué carpetas 
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/iqQrjGByHpkBcJF/preview)
 
-A la derecha está la opción **Permissions**, donde puedes ajustar los derechos de acceso a la ruta especificada. Si quieres que el usuario pueda leer y modificar datos, recomendamos ponerlo en **Read+Write**.
+A la derecha está la opción **Permissions**, donde puedes ajustar los permisos para esa ruta. Si quieres que el usuario pueda leer y modificar archivos, lo ideal es ponerlo en **Read+Write**.
 
 ::: danger
-Por seguridad, solo deberías dar acceso a ciertas carpetas específicas a cada usuario.
+Por seguridad, solo da acceso a usuarios a carpetas específicas.
 :::
 
-Ahora aplica y confirma los cambios con el botón **Apply**.
+Aplica y confirma los cambios con el botón **Apply**.
 
 
 
@@ -91,11 +92,11 @@ En la ventana siguiente selecciona la aplicación que quieres permitir:
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/xHwQzCKokHTn424/preview)
 
-En este ejemplo la ruta es **C:\Program Files (x86)\FileZilla Server\FileZilla Server.exe**:
+En este ejemplo, la ruta es **C:\Program Files (x86)\FileZilla Server\FileZilla Server.exe**:
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/Laz3HFb7GrLBY9w/preview)
 
-Después cierra con **OK** y ya podrás conectar con tu servidor FTP.
+Después cierra con **OK** y ya podrás conectar a tu servidor FTP.
 
 
 

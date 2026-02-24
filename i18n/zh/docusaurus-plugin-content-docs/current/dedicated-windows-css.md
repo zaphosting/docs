@@ -17,7 +17,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## 准备工作
 
-搭建 Counter-Strike: Source 服务器需要用到 SteamCMD。SteamCMD 是 **Steam 客户端的命令行版本**。这个工具可以帮你快速轻松地下载热门 Steam 游戏的独立服务器程序。你可以在 Valve 官方开发者网站找到 SteamCMD：https://developer.valvesoftware.com/wiki/SteamCMD。
+搭建 Counter-Strike: Source 服务器需要用到 SteamCMD。SteamCMD 是 **Steam 客户端的命令行版本**。这个工具可以帮你快速轻松地下载热门 Steam 游戏的独立服务器程序。你可以在 Valve 官方开发者网站找到 SteamCMD：`https://developer.valvesoftware.com/wiki/SteamCMD`。
 
 接下来就是下载了。下载包里会包含一个 **steamcmd.zip** 文件，先把它解压到一个单独的文件夹里。解压后你应该能看到 **steamcmd.exe**。运行它，等待安装完成。
 
@@ -55,7 +55,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## 注册 GSL Token
 
-想让其他玩家加入你的服务器，必须生成并添加游戏服务器登录令牌（GSLT）。这个令牌用来验证你的服务器身份。访问 http://steamcommunity.com/dev/managegameservers，使用游戏 ID 232330（对应 Counter-Strike: Source）生成一个 GSLT。
+想让其他玩家加入你的服务器，必须生成并添加游戏服务器登录令牌（GSLT）。这个令牌用来验证你的服务器身份。访问 `http://steamcommunity.com/dev/managegameservers`，使用游戏 ID 232330（对应 Counter-Strike: Source）生成一个 GSLT。
 
 拿到令牌后，在服务器启动参数里加上 `+sv_setsteamaccount <TOKEN>`。
 

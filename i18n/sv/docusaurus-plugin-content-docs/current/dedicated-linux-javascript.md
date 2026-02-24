@@ -1,9 +1,10 @@
 ---
 id: dedicated-linux-javascript
-title: 'Dedikerad Server: Installation av JavaScript'
-description: "Upptäck hur du installerar och konfigurerar Node.js, Deno och Bun på din server för effektiv hantering av JavaScript-runtime → Lär dig mer nu"
+title: "Installera JavaScript Runtime på en Linux-server – Kör moderna webbappar smidigt"
+description: "Lär dig hur du installerar och sätter upp Node.js, Deno och Bun på din server för effektiv JavaScript-runtime → Läs mer nu"
 sidebar_label: Installera JavaScript
 services:
+  - vserver
   - dedicated
 ---
 
@@ -11,11 +12,11 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introduktion
 
-Den här guiden visar steg för installation av Node.js, Deno och Bun. Dessa kommandon måste köras via SSH, om du inte vet hur du ansluter till din server via SSH, ta en titt på vår [Initial access (SSH)](vserver-linux-ssh.md).
+Den här guiden visar steg för installation av Node.js, Deno och Bun. Dessa kommandon måste köras via SSH. Om du inte vet hur du ansluter till din server via SSH, kolla in vår [Initial access (SSH)](vserver-linux-ssh.md).
 
 ## Förberedelser
 
-Innan du installerar något på en server rekommenderas det att köra uppdateringskommandot som passar ditt operativsystem för att hålla servern säker.
+Innan du installerar något på servern rekommenderar vi att du kör uppdateringskommandot för ditt operativsystem för att hålla servern säker.
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
@@ -53,14 +54,14 @@ import TabItem from '@theme/TabItem';
 
 ## Installation
 
-Först måste du bestämma vilken JavaScript-runtime du vill installera. Det finns massor av resurser online som beskriver varje alternativ i detalj. Men du kan också läsa den här guiden eftersom den inkluderar grundläggande kommandon och kodexempel. Vi rekommenderar NodeJS eftersom det är en av de mest använda och populära valen.
+Först måste du bestämma vilken JavaScript-runtime du vill installera. Det finns massor av resurser online som beskriver varje alternativ i detalj. Men du kan också läsa den här guiden som inkluderar grundläggande kommandon och kodexempel. Vi rekommenderar NodeJS eftersom det är en av de mest använda och populära lösningarna.
 
 <Tabs>
 <TabItem value="NodeJS Runtime" label="NodeJS" default>
 
 ## Installera Node.js Runtime
 
-Du kan installera Node.js via din Linux-distributions paketmanager eller med nvm. Vi rekommenderar apt eftersom det oftast är enklare.
+Du kan installera Node.js via din Linux-distributions paketmanager eller med nvm. Vi rekommenderar apt eftersom det oftast är enklast.
 
 <Tabs>
 <TabItem value="apt" label="Paketmanager" default>
@@ -79,20 +80,20 @@ apt install npm
 
 ### Uppdatera Node.js till senaste versionen
 
-Att köra `node -v` visar vilken version av Node.js som är installerad. Det är oftast inte den senaste, så du behöver uppdatera för att få de senaste funktionerna. Lyckligtvis finns npm-paketet `n` som gör detta väldigt enkelt.
+Kör `node -v` för att se vilken version av Node.js som är installerad. Det är ofta inte den senaste, så du behöver uppdatera för att få de senaste funktionerna. Lyckligtvis finns npm-paketet `n` som gör detta väldigt enkelt.
 
-Först installerar vi det med `npm install -g n` och sedan kan vi köra `n [version]`, där du byter ut `[version]` mot önskad versionsnummer, för att installera vilken version av Node.js som helst.
+Först installerar du det med `npm install -g n` och sedan kan du köra `n [version]`, där du byter ut `[version]` mot önskad versionsnummer, för att installera vilken version av Node.js som helst.
 
 :::tip
-Det rekommenderas generellt att hålla din installation på senaste Long Term Support-versionen. Det gör du enkelt med `n lts`.
+Det rekommenderas generellt att hålla installationen på senaste Long Term Support-versionen. Det gör du med `n lts`.
 :::
 
 </TabItem>
 <TabItem value="nvm" label="nvm">
 
-Att installera Node.js via nvm ger dig mer kontroll över att ha olika Node.js-versioner med egna paket.
+Att installera Node.js via nvm ger dig bättre kontroll över olika Node.js-versioner och deras egna paket.
 
-Först, se till att curl är installerat på ditt system och kör sedan följande kommando.
+Först, se till att curl är installerat och kör sedan:
 
 ```
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
@@ -101,13 +102,13 @@ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
 Detta hämtar och kör nvm-installationsscriptet från GitHub.
 
 :::note
-Om nvm-kommandon inte fungerar efter installation, kör `source ~/.bashrc` för att ladda om bash-konfigurationsfilen.
+Om nvm-kommandon inte fungerar efter installation, kör `source ~/.bashrc` för att ladda om bash-konfigurationen.
 :::
 
-Precis som med tidigare metod kan du nu köra `nvm install v[version]` för att installera valfri Node.js-version. Vill du se alla tillgängliga versioner kör du `nvm list-remote` och för att se installerade versioner kör du `nvm list`.
+Precis som tidigare kan du nu installera valfri Node.js-version med `nvm install v[version]`. Vill du se alla tillgängliga versioner kör du `nvm list-remote` och för att se installerade versioner kör du `nvm list`.
 
 :::tip
-Installera Long Term Support-versionen med `nvm install --lts`
+Long Term Support-versionen installerar du med `nvm install --lts`
 :::
 
 </TabItem>
@@ -115,17 +116,17 @@ Installera Long Term Support-versionen med `nvm install --lts`
 
 ### Köra Node.js & npm
 
-Npm är den officiella paketmanagern för Node.js. Du använder den för att installera paket från internet.
+Npm är den officiella paketmanagern för Node.js och används för att installera paket från internet.
 
 :::note
-Du hittar alla npm-paket på deras [webbplats](https://www.npmjs.com/).
+Alla npm-paket hittar du på deras [webbplats](https://www.npmjs.com/).
 :::
 
 ### Skapa ett nytt projekt
 
-Varje gång du vill starta ett nytt Node.js-projekt behöver du skapa en ny mapp (`mkdir [projekt-namn]`) eller gå in i en tom mapp och köra `npm init` för att starta setupen. Det här frågar efter grundläggande info för att skapa en `package.json`-fil. Den är "konfigurationsfilen" för Node.js.
+Varje gång du vill starta ett nytt Node.js-projekt skapar du en ny mapp (`mkdir [projekt-namn]`) eller går in i en tom mapp och kör `npm init` för att starta setupen. Du får fylla i lite grundläggande info för att skapa en `package.json`-fil, som är konfigurationsfilen för Node.js.
 
-Efter att ha initierat projektet kan du skapa en fil som heter `index.js` och skriva kod i den. Som exempel skapar vi en enkel HTTP-server på standardport 80 som svarar med ett testmeddelande när du går till localhost. Koden ser ut så här:
+Efter initiering kan du skapa en fil som heter `index.js` och skriva kod i den. Här är ett exempel på en enkel HTTP-server på port 80 som svarar med ett testmeddelande när du går till `localhost`.
 
 ```js
 const http = require('http')
@@ -138,7 +139,7 @@ const server = http.createServer((req, res) => {
 server.listen(80)
 ```
 
-Nu kan du köra koden med kommandot `node .` och kolla resultatet genom att gå till `localhost:80` i din webbläsare.
+Kör koden med `node .` och kolla resultatet genom att gå till `localhost:80` i din webbläsare.
 
 :::tip
 Installera externa paket från npm med `npm install [paket-namn]`
@@ -150,19 +151,19 @@ Installera externa paket från npm med `npm install [paket-namn]`
 
 ## Installera Deno Runtime
 
-Att installera Deno är lika enkelt som att skriva `curl -fsSL https://deno.land/install.sh | sh` i din terminal.
+Installera Deno enkelt genom att skriva `curl -fsSL https://deno.land/install.sh | sh` i terminalen.
 
 :::tip
-För att kolla vilken version som är installerad, kör `deno --version`.
+Kolla vilken version som är installerad med `deno --version`.
 :::
 
 ### Uppdatera Deno till senaste versionen
 
-Uppdatera Deno enkelt med kommandot `deno upgrade`.
+Uppdatera Deno med kommandot `deno upgrade`.
 
 ### Köra Deno
 
-För att köra Deno behöver du skapa en ny fil `index.ts` och skriva lite kod i den. Som exempel skapar vi en enkel HTTP-server på port 80 som svarar med ett testmeddelande när du går till localhost. Så här ser koden ut:
+Skapa en fil `index.ts` och skriv lite kod. Här är ett exempel på en enkel HTTP-server på port 80 som svarar med ett testmeddelande när du går till `localhost`.
 
 ```js
 Deno.serve({ port: 80 }, (_req: Request) => {
@@ -173,7 +174,7 @@ Deno.serve({ port: 80 }, (_req: Request) => {
 Kör koden med `deno run --allow-net index.ts` och kolla resultatet på `localhost:80` i webbläsaren.
 
 :::info
-Deno är byggt för att vara säkrare och kräver därför vissa tillstånd som `--allow-net` för att få åtkomst till vissa moduler.
+Deno är designat för att vara säkrare och kräver därför vissa tillstånd som `--allow-net` för att få åtkomst till vissa moduler.
 :::
 
 </TabItem>
@@ -182,15 +183,15 @@ Deno är byggt för att vara säkrare och kräver därför vissa tillstånd som 
 
 ## Installera Bun Runtime
 
-Bun erbjuder två officiella installationssätt, antingen via curl eller npm.
+Bun kan installeras på två officiella sätt, via curl eller npm.
 
 <Tabs>
 <TabItem value="curl" label="curl" default>
 
-Kör `curl -fsSL https://bun.sh/install | bash` för att installera Bun på din server.
+Kör `curl -fsSL https://bun.sh/install | bash` för att installera Bun på servern.
 
 :::tip
-För att installera andra versioner av Bun, kör `curl -fsSL https://bun.sh/install | bash -s "bun-v[version]"`
+Vill du installera en annan version av Bun kör du `curl -fsSL https://bun.sh/install | bash -s "bun-v[version]"`
 :::
 
 </TabItem>
@@ -203,13 +204,13 @@ Om du redan har npm installerat kan du köra `npm install -g bun`.
 
 ### Köra Bun
 
-Bun är gjort för att vara snabbare än många andra JavaScript-motorer, samtidigt som setupen liknar Node.js. För att köra Bun, öppna en tom mapp och kör `bun init`.
+Bun är byggt för att vara snabbare än andra JavaScript-motorer och har en setup som liknar Node.js. Öppna en tom mapp och kör `bun init`.
 
 :::note
 Beroende på valt språk (JS eller TS) skapar Bun en konfigurationsfil (jsconfig.json eller tsconfig.json).
 :::
 
-För att köra Bun behöver du skapa en ny fil `index.ts` och skriva lite kod i den. Som exempel skapar vi en enkel HTTP-server på port 80 som svarar med ett testmeddelande när du går till localhost. Så här ser koden ut:
+Skapa en fil `index.ts` och skriv lite kod. Här är ett exempel på en enkel HTTP-server på port 80 som svarar med ett testmeddelande när du går till `localhost`.
 
 ```js
 const server = Bun.serve({
@@ -220,9 +221,9 @@ const server = Bun.serve({
 })
 ```
 
-Kör koden med `bun index.ts` och kolla resultatet på `localhost:80` i din webbläsare.
+Kör koden med `bun index.ts` och kolla resultatet på `localhost:80` i webbläsaren.
 
 </TabItem>
 </Tabs>
 
-Genom att följa den här guiden har du nu installerat en av de populära JavaScript-runtimes på din Linux-server.
+Följ den här guiden så har du snabbt och enkelt installerat en av de populära JavaScript-runtimes på din Linux-server.

@@ -230,7 +230,7 @@ set sv_endpoints "[your_fivem_serverip]:30120"
 
 FiveMリバースプロキシの設定が完了したら、使用しているドメインにSSL証明書を追加して、HTTPS経由で安全にデータを送信することを強くおすすめします。
 
-証明書の取得と自動更新の手順は、[Certbotのインストール](vserver-linux-certbot.md)ガイドをチェックしてください。
+証明書の取得と自動更新の手順は、[Certbotのインストール](dedicated-linux-certbot.md)ガイドをチェックしてください。
 
 ## まとめ
 

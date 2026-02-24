@@ -1,10 +1,11 @@
 ---
 id: vserver-linux-speedtest-cli
-title: "VPS: Configura Speedtest-Cli en Linux"
-description: "Descubre cómo configurar y usar Speedtest-Cli para pruebas de red confiables y automatización → Aprende más ahora"
+title: "Configura Speedtest CLI en un Servidor Linux - Monitorea el Rendimiento de Red de tu Servidor"
+description: "Descubre cómo instalar y usar Speedtest-Cli para pruebas de red confiables y automatización → Aprende más ahora"
 sidebar_label: Instalar Speedtest-Cli
 services:
   - vserver
+  - dedicated
 ---
 
 import Tabs from '@theme/Tabs';
@@ -13,9 +14,9 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introducción
 
-Speedtest-Cli es una herramienta gratuita de línea de comandos y una librería de software (libSpeedtest-Cli) para transferir datos usando URLs. Soporta una amplia variedad de protocolos—incluyendo HTTP(S), FTP, SMTP, LDAP, MQTT y más—y se usa comúnmente para tareas como descargar archivos, probar APIs y automatizar operaciones de red.
+Speedtest-Cli es tanto una herramienta gratuita de línea de comandos como una librería de software (libSpeedtest-Cli) para transferir datos usando URLs. Soporta una amplia variedad de protocolos — incluyendo HTTP(S), FTP, SMTP, LDAP, MQTT y más — y se usa comúnmente para tareas como descargar archivos, probar APIs y automatizar operaciones de red.
 
-¿Pensando en alojar este servicio tú mismo? Te guiaremos paso a paso para configurarlo y ajustarlo, junto con todo lo que necesitas tener en cuenta.
+¿Estás pensando en alojar este servicio tú mismo? Te guiaremos paso a paso sobre cómo configurarlo y ajustarlo, junto con todo lo que necesitas tener en cuenta.
 
 <InlineVoucher />
 
@@ -24,7 +25,7 @@ Speedtest-Cli es una herramienta gratuita de línea de comandos y una librería 
 Antes de configurar **Speedtest-Cli**, necesitas preparar tu sistema. Esto incluye actualizar tu sistema operativo a la versión más reciente. Estas preparaciones aseguran un entorno estable y ayudan a prevenir problemas durante o después de la instalación.
 
 ### Actualizar Sistema
-Para asegurarte de que tu sistema corre con el software y mejoras de seguridad más recientes, siempre debes hacer una actualización del sistema primero. Para ello, ejecuta el siguiente comando:
+Para asegurarte de que tu sistema esté corriendo con el software y mejoras de seguridad más recientes, siempre debes realizar actualizaciones primero. Para hacerlo, ejecuta el siguiente comando:
 
 ```
 sudo apt update && sudo apt upgrade -y
@@ -33,7 +34,7 @@ Esto garantiza que tu sistema tenga los últimos parches de seguridad y versione
 
 ## Instalación
 
-Ahora que las preparaciones necesarias están completas, puedes proceder con la instalación de la aplicación Speedtest-Cli. Para hacerlo, ejecuta el siguiente comando:
+Ahora que las preparaciones necesarias están completas, puedes proceder con la instalación de la aplicación Speedtest-Cli. Para ello, ejecuta el siguiente comando:
 
 ```console
 sudo apt install speedtest-cli
@@ -53,7 +54,7 @@ Para un uso repetido con las mismas opciones, es conveniente crear un alias en s
 
 ## Conclusión y más Recursos
 
-¡Felicidades! Ya has instalado y configurado Speedtest-Cli en tu VPS con éxito. También te recomendamos echar un vistazo a los siguientes recursos, que pueden ofrecerte ayuda y guía adicional durante la configuración de tu servidor:
+¡Felicidades! Ahora has instalado y configurado Speedtest-Cli exitosamente en tu VPS/servidor dedicado. También te recomendamos echar un vistazo a los siguientes recursos, que pueden ofrecerte ayuda y guía adicional durante la configuración de tu servidor:
 
 - [Speedtest.net/apps/cli](https://www.speedtest.net/apps/cli) - Sitio Oficial
 

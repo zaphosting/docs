@@ -1,10 +1,11 @@
 ---
 id: vserver-linux-php
-title: 'VPS: Installation of PHP'
+title: 'Setup PHP on a Linux Server - Power Dynamic Web Applications'
 description: "Learn how to install PHP on your Linux server for web development and optimize your setup for Apache or standalone use → Learn more now"
 sidebar_label: Install PHP
 services:
   - vserver
+  - dedicated
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

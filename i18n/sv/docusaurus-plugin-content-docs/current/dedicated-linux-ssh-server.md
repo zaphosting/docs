@@ -1,9 +1,10 @@
 ---
 id: dedicated-linux-ssh-server
-title: "Dedikerad Server: Installation av SSH"
-description: "Upptäck hur du säkert installerar och hanterar SSH-servrar på Linux VPS för trygg fjärråtkomst och förbättrat serverskydd → Lär dig mer nu"
+title: "Ställ in SSH på en Linux-server – Aktivera säker fjärråtkomst"
+description: "Upptäck hur du säkert installerar och hanterar SSH-servrar på Linux för trygg fjärråtkomst och bättre serverskydd → Läs mer nu"
 sidebar_label: Installera SSH
 services:
+  - vserver
   - dedicated
 ---
 
@@ -11,17 +12,17 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introduktion
 
-Secure Shell (SSH) är ett säkert protokoll som möjliggör trygg och krypterad åtkomst till fjärrsystem. Det garanterar konfidentialitet och integritet för data som skickas över nätverk.
+Secure Shell (SSH) är ett säkert protokoll som möjliggör krypterad och trygg åtkomst till fjärrsystem. Det garanterar konfidentialitet och integritet för data som skickas över nätverk.
 
-I den här guiden lär du dig hur du installerar eller installerar om SSH-servern för flera Linux-distributioner som vi erbjuder på våra VPS-servrar. De flesta Linux-distros som erbjuds via våra VPS-servrar har en SSH-server förinstallerad, vilket gör att du enkelt kan hantera den via produktens webbgränssnitt. Du kan se hur du gör detta i vår guide: [Initial access (SSH)](vserver-linux-ssh.md)
+I den här guiden lär du dig hur du installerar eller installerar om SSH-servern för olika Linux-distributioner som vi erbjuder på våra VPS/Dedikerade servrar. De flesta Linux-distros som erbjuds via våra VPS/Dedikerade servrar har SSH-server förinstallerad, vilket gör att du enkelt kan hantera den via produktens webbgränssnitt. Du kan se hur du gör detta i vår guide: [Initial access (SSH)](vserver-linux-ssh.md)
 
-Vill du lära dig mer om hur du förbättrar säkerheten på din server rekommenderar vi starkt att du kollar in vår guide [Säkerhetstips](vserver-linux-security-tips.md) som tipsar om olika verktyg och tjänster för att göra din server ännu säkrare.
+Vill du förbättra säkerheten på din server rekommenderar vi starkt att du kollar in vår guide [Säkerhetstips](vserver-linux-security-tips.md) som tipsar om verktyg och tjänster för att göra din server ännu tryggare.
 
 
 
 ## Installation
 
-För att starta installationsprocessen, anslut till din server via VNC. Följ dessa steg med hjälp av [VNC-konsolen](vserver-vnc.md).
+För att starta installationen, anslut till din server via VNC. Följ stegen i vår [VNC-konsol](vserver-vnc.md).
 
 
 import Tabs from '@theme/Tabs';
@@ -31,35 +32,35 @@ import TabItem from '@theme/TabItem';
 <TabItem value="CentOS" label="CentOS" default>
 
 :::info
-Om du vill installera om SSH-servern, se till att avinstallera den först. Det gör du med kommandot: `yum remove openssh`.
+Vill du installera om SSH-servern? Se till att avinstallera den först med kommandot: `yum remove openssh`.
 :::
 
-Innan du installerar SSH-servern, se till att ditt system är uppdaterat. Kör följande kommando:
+Innan du installerar SSH-servern, se till att systemet är uppdaterat. Kör:
 ```
 yum update
 ```
 
-Fortsätt nu med att installera SSH-servern med följande kommando:
+Installera sedan SSH-servern med:
 ```
 yum install openssh-server
 ```
 
-När installationen är klar kan du starta SSH-serverns tjänst med följande kommando:
+När installationen är klar startar du SSH-servern med:
 ```
 systemctl start sshd
 ```
 
-Se till att tjänsten startar automatiskt vid systemstart. Det gör du med detta kommando:
+Aktivera så att tjänsten startar automatiskt vid systemstart:
 ```
 systemctl enable sshd
 ```
 
 ## Aktivera root-inloggning
 
-För att aktivera root-inloggning behöver du redigera openssh-konfigurationsfilen. I den här guiden använder vi "nano" som editor.
+För att aktivera root-inloggning behöver du redigera openssh-konfigurationsfilen. Vi använder "nano" som editor i den här guiden.
 
 :::info
-Om "nano" inte redan är installerat måste du installera det först. Använd då kommandot: `yum install nano`
+Om "nano" inte är installerat, installera det först med: `yum install nano`
 :::
 
 Öppna konfigurationsfilen med:
@@ -67,17 +68,17 @@ Om "nano" inte redan är installerat måste du installera det först. Använd d�
 nano /etc/ssh/sshd_config 
 ```
 
-Navigera med piltangenterna och leta upp följande rad:
+Navigera med piltangenterna och leta upp raden:
 ```
 #PermitRootLogin prohibit-password
 ```
 
-Ändra den till följande för att tillåta root-inloggning på distans:
+Ändra den till:
 ```
 PermitRootLogin yes
 ```
 
-Slutligen, starta om SSH-servern för att tillämpa ändringarna med:
+Starta om SSH-servern för att tillämpa ändringarna:
 ```
 systemctl restart sshd
 ```
@@ -86,53 +87,53 @@ systemctl restart sshd
 <TabItem value="Debian" label="Debian">
 
 :::info
-Om du vill installera om SSH-servern, se till att avinstallera den först. Det gör du med kommandot: `apt remove openssh`.
+Vill du installera om SSH-servern? Avinstallera den först med kommandot: `apt remove openssh`.
 :::
 
-Innan du installerar SSH-servern, se till att ditt system är uppdaterat. Kör följande kommando:
+Se till att systemet är uppdaterat innan installation:
 ```
 apt update
 ```
 
-Fortsätt nu med att installera SSH-servern med följande kommando:
+Installera SSH-servern med:
 ```
 apt install openssh-server
 ```
 
-När installationen är klar kan du starta SSH-serverns tjänst med följande kommando:
+Starta SSH-servern:
 ```
 systemctl start sshd
 ```
 
-Se till att tjänsten startar automatiskt vid systemstart. Det gör du med detta kommando:
+Aktivera automatisk start vid boot:
 ```
 systemctl enable sshd
 ```
 
 ## Aktivera root-inloggning
 
-För att aktivera root-inloggning behöver du redigera openssh-konfigurationsfilen. I den här guiden använder vi "nano" som editor.
+Redigera openssh-konfigurationsfilen med "nano":
 
 :::info
-Om du inte redan har "nano" installerat måste du installera det. Använd då kommandot: `apt install nano`
+Om du inte redan har "nano" installerat, installera det med: `apt install nano`
 :::
 
-Öppna konfigurationsfilen med:
+Öppna filen:
 ```
 nano /etc/ssh/sshd_config 
 ```
 
-Navigera med piltangenterna och leta upp följande rad:
+Hitta raden:
 ```
 #PermitRootLogin prohibit-password
 ```
 
-Ändra den till följande för att tillåta root-inloggning på distans:
+Ändra till:
 ```
 PermitRootLogin yes
 ```
 
-Slutligen, starta om SSH-servern för att tillämpa ändringarna med:
+Starta om SSH-servern:
 ```
 systemctl restart sshd
 ```
@@ -141,53 +142,53 @@ systemctl restart sshd
 <TabItem value="Ubuntu" label="Ubuntu">
 
 :::info
-Om du vill installera om SSH-servern, se till att avinstallera den först. Det gör du med kommandot: `apt remove openssh`.
+Vill du installera om SSH-servern? Avinstallera den först med kommandot: `apt remove openssh`.
 :::
 
-Innan du installerar SSH-servern, se till att ditt system är uppdaterat. Kör följande kommando:
+Uppdatera systemet:
 ```
 apt update
 ```
 
-Fortsätt nu med att installera SSH-servern med följande kommando:
+Installera SSH-servern:
 ```
 apt install openssh-server
 ```
 
-När installationen är klar kan du starta SSH-serverns tjänst med följande kommando:
+Starta SSH-servern:
 ```
 systemctl start sshd
 ```
 
-Se till att tjänsten startar automatiskt vid systemstart. Det gör du med detta kommando:
+Aktivera automatisk start:
 ```
 systemctl enable sshd
 ```
 
 ## Aktivera root-inloggning
 
-För att aktivera root-inloggning behöver du redigera openssh-konfigurationsfilen. I den här guiden använder vi "nano" som editor.
+Redigera konfigurationsfilen med "nano":
 
 :::info
-Om du inte redan har "nano" installerat måste du installera det. Använd då kommandot: `apt install nano`
+Om "nano" inte är installerat, installera det med: `apt install nano`
 :::
 
-Öppna konfigurationsfilen med:
+Öppna filen:
 ```
 nano /etc/ssh/sshd_config 
 ```
 
-Navigera med piltangenterna och leta upp följande rad:
+Hitta raden:
 ```
 #PermitRootLogin prohibit-password
 ```
 
-Ändra den till följande för att tillåta root-inloggning på distans:
+Ändra till:
 ```
 PermitRootLogin yes
 ```
 
-Slutligen, starta om SSH-servern för att tillämpa ändringarna med:
+Starta om SSH-servern:
 ```
 systemctl restart sshd
 ```
@@ -196,57 +197,57 @@ systemctl restart sshd
 <TabItem value="Fedora" label="Fedora">
 
 :::info
-Om du vill installera om SSH-servern, se till att avinstallera den först. Det gör du med kommandot: `dnf remove openssh`.
+Vill du installera om SSH-servern? Avinstallera den först med kommandot: `dnf remove openssh`.
 :::
 
-Innan du installerar SSH-servern, se till att ditt system är uppdaterat. Kör följande kommando:
+Uppdatera systemet:
 ```
 dnf update
 ```
 
-Fortsätt nu med att installera SSH-servern med följande kommando:
+Installera SSH-servern:
 ```
 dnf install openssh-server
 ```
 
-När installationen är klar kan du starta SSH-serverns tjänst med följande kommando:
+Starta SSH-servern:
 ```
 systemctl start sshd
 ```
 
-Se till att tjänsten startar automatiskt vid systemstart. Det gör du med detta kommando:
+Aktivera automatisk start:
 ```
 systemctl enable sshd
 ```
 
 ## Aktivera root-inloggning
 
-För att aktivera root-inloggning behöver du redigera openssh-konfigurationsfilen. I den här guiden använder vi "nano" som editor.
+Redigera konfigurationsfilen med "nano":
 
 :::info
-Om du inte redan har "nano" installerat måste du installera det. Använd då kommandot: `dnf install nano`
+Om "nano" inte är installerat, installera det med: `dnf install nano`
 :::
 
-Öppna konfigurationsfilen med:
+Öppna filen:
 ```
 sudo nano /etc/ssh/sshd_config 
 ```
 
-Navigera med piltangenterna och leta upp följande rad:
+Hitta raden:
 ```
 #PermitRootLogin prohibit-password
 ```
 
-Ändra den till följande för att tillåta root-inloggning på distans:
+Ändra till:
 ```
 PermitRootLogin yes
 ```
 
-Slutligen, starta om SSH-servern för att tillämpa ändringarna med:
+Starta om SSH-servern:
 ```
 systemctl restart sshd
 ```
 </TabItem>
 </Tabs>
 
-Du har nu installerat SSH-tjänsten på din server och kan ansluta till den via SSH.
+Nu har du installerat SSH-tjänsten på din server och kan ansluta via SSH som vanligt.

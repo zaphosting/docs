@@ -1,6 +1,6 @@
 ---
 id: dedicated-linux-ssl
-title: "Serwer dedykowany: Utwórz certyfikat SSL (Let's Encrypt) dla serwera Linux"
+title: "Konfiguracja Let's Encrypt SSL na serwerze Linux - Zabezpiecz swój serwer dedykowany przez HTTPS"
 description: "Dowiedz się, jak zabezpieczyć swoją stronę darmowymi certyfikatami SSL za pomocą Certbot i Let's Encrypt dla bezpiecznego przesyłania danych → Sprawdź teraz"
 sidebar_label: Instalacja certyfikatu SSL (Let's Encrypt)
 services:
@@ -13,19 +13,17 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Wprowadzenie
 
-Certyfikaty SSL to kluczowy element internetu, zapewniający bezpieczne przesyłanie danych między klientem a hostem. W tym poradniku pokażemy, jak skonfigurować open-source narzędzie [**Certbot**](https://certbot.eff.org/), aby uzyskać darmowe certyfikaty SSL od organizacji certyfikującej **Let's Encrypt**.
-
-
+Certyfikaty SSL to kluczowy element internetu, zapewniający bezpieczne przesyłanie danych między klientem a hostem. W tym poradniku pokażemy, jak skonfigurować open-source’owe narzędzie [**Certbot**](https://certbot.eff.org/), aby uzyskać darmowe certyfikaty SSL od organizacji non-profit **Let's Encrypt**.
 
 ## Przygotowanie
 
-Aby skorzystać z Certbota, potrzebujesz serwera Linux oraz **domeny**, którą posiadasz. Musisz mieć dostęp do ustawień DNS domeny i **musisz** utworzyć rekord `A` DNS wskazujący na adres IP twojego __serwera Linux__ dla każdej domeny głównej lub subdomeny, której chcesz używać.
+Aby korzystać z Certbota, potrzebujesz serwera Linux oraz **domeny**, którą posiadasz. Musisz mieć dostęp do ustawień DNS domeny i **musisz** utworzyć rekord `A` DNS wskazujący na adres IP Twojego __serwera Linux__ dla każdej domeny głównej lub subdomeny, której chcesz używać.
 
-Certbot ma też dodatkowe wtyczki, które pozwalają na łatwe „jednoklikowe” ustawienie certyfikatu dla domeny współpracującej z różnymi serwerami WWW, takimi jak Nginx czy Apache. Polecamy Nginx, bo to wydajny i popularny serwer open-source. Zobacz nasz [poradnik o reverse proxy na Linuxie](dedicated-linux-proxy.md), jeśli potrzebujesz pomocy z konfiguracją.
+Certbot ma też dodatkowe wtyczki, które pozwalają na łatwą konfigurację certyfikatu „jednym kliknięciem” dla domen współpracujących z popularnymi serwerami www, takimi jak Nginx czy Apache. Polecamy Nginx, bo to wydajny i popularny serwer open-source. Pomoc znajdziesz w naszym [poradniku o reverse proxy na Linux](dedicated-linux-proxy.md).
 
 ## Instalacja
 
-Zacznij od instalacji open-source pakietu [**Certbot**](https://certbot.eff.org/), którego użyjesz do pobrania darmowych certyfikatów SSL od **Let's Encrypt**.
+Zacznij od instalacji open-source’owego pakietu [**Certbot**](https://certbot.eff.org/), którego użyjesz do pobrania darmowych certyfikatów od **Let's Encrypt**.
 
 ```
 sudo apt install certbot
@@ -33,17 +31,17 @@ sudo apt install certbot
 
 Po instalacji Certbota możesz przejść do zamawiania certyfikatów dla swoich domen. Let's Encrypt i Certbot oferują różne wyzwania ACME do weryfikacji własności domeny.
 
-Zdecydowanie polecamy domyślną metodę **HTTP-01**, bo pozwala na automatyczne odnawianie certyfikatów. Jeśli jednak napotkasz problemy, możesz spróbować metody **DNS-01**, która jest manualna i nie wspiera automatycznego odnawiania, bo opiera się na weryfikacji przez rekord **TXT** DNS.
+Zdecydowanie polecamy domyślną metodę **HTTP-01**, bo pozwala na automatyczne odnawianie certyfikatów. Jeśli jednak napotkasz problemy, możesz spróbować metody **DNS-01**, która jest manualna i nie wspiera automatycznego odnawiania, bo wymaga weryfikacji przez rekord **TXT** DNS.
 
-:::tip Wykorzystaj wtyczki serwera WWW
-Jeśli korzystasz z serwera WWW takiego jak Nginx, Apache lub własnego, polecamy przejść do sekcji **Wtyczki serwera WWW** poniżej, gdzie pokazujemy, jak używać dodatkowych wtyczek Certbota do „jednoklikowej” instalacji certyfikatu oraz zamawiania certyfikatów bez konieczności wyłączania serwera WWW.
+:::tip Wykorzystaj wtyczki serwera www
+Jeśli korzystasz z serwera www takiego jak Nginx, Apache lub własnego, polecamy przejść do sekcji **Wtyczki serwera www** poniżej, gdzie pokazujemy, jak używać dodatkowych wtyczek Certbota do „jednoklikowej” instalacji certyfikatu i zamawiania go bez wyłączania serwera.
 :::
 
 ### Wyzwanie HTTP-01
 
-Po instalacji Certbota możesz zamówić certyfikaty dla swoich domen. W tym przykładzie użyjemy trybu standalone, co oznacza, że Certbot uruchomi tymczasowy serwer WWW, aby wykonać niezbędne działania. Oznacza to, że musisz otworzyć port 80 w zaporze sieciowej i nie mieć żadnych działających serwerów WWW lub usług na porcie 80, aby tymczasowy serwer mógł się uruchomić i umożliwić pobranie wyzwania (stąd nazwa `HTTP` w wyzwaniu).
+Po instalacji Certbota możesz zamówić certyfikaty dla swoich domen. W tym przykładzie użyjemy trybu standalone, co oznacza, że Certbot uruchomi tymczasowy serwer www, aby wykonać niezbędne działania. Musisz więc otworzyć port 80 w zaporze i nie mieć żadnego innego serwera lub usługi działającej na porcie 80, aby tymczasowy serwer mógł wystartować i odebrać wyzwanie (stąd nazwa `HTTP` w wyzwaniu).
 
-W poniższym poleceniu użyjesz parametru `--standalone`, aby poinformować Certbota, że chcesz skorzystać z opcji tymczasowego serwera WWW.
+W poniższym poleceniu użyjesz parametru `--standalone`, aby poinformować Certbota o chęci użycia tymczasowego serwera.
 
 ```
 # Dla domen głównych
@@ -56,21 +54,21 @@ certbot certonly --standalone -d [twoja_subdomena]
 certbot certonly --standalone
 ```
 
-Po uruchomieniu polecenia może pojawić się pierwsza interaktywna konfiguracja, która poprosi o podanie adresu e-mail do komunikacji dotyczącej certyfikatu, opcjonalną listę mailingową oraz zaakceptowanie regulaminu.
+Po uruchomieniu polecenia może pojawić się interaktywna konfiguracja, w której podasz adres e-mail do komunikacji certyfikatowej, opcjonalnie zgodzisz się na listę mailingową oraz zaakceptujesz regulamin.
 
-Certbot wygeneruje teraz wyzwanie ACME i udostępni je przez tymczasowy serwer WWW. Serwery Let's Encrypt spróbują pobrać to z twojego serwera, a po powodzeniu certyfikaty zostaną wygenerowane i zapisane w ścieżce `/etc/letsencrypt/live/[twoja_domena]`.
+Certbot wygeneruje teraz wyzwanie ACME i udostępni je przez tymczasowy serwer. Serwery Let's Encrypt spróbują pobrać to z Twojego serwera, a po sukcesie certyfikaty zostaną wygenerowane i zapisane w katalogu `/etc/letsencrypt/live/[twoja_domena]`.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/7oGcQotKaowaDzM/preview)
 
-Teraz możesz używać certyfikatów SSL tam, gdzie potrzebujesz, podając lokalną ścieżkę do certyfikatów.
+Teraz możesz używać certyfikatów SSL wszędzie tam, gdzie potrzebujesz, podając lokalną ścieżkę do certyfikatów.
 
 ### Rekord TXT DNS
 
-Jeśli masz problemy z weryfikacją domeny metodą **HTTP-01**, alternatywnie możesz spróbować metody **DNS-01**, która polega na utworzeniu rekordu **TXT** DNS z wartością podaną przez Let's Encrypt.
+Jeśli masz problemy z weryfikacją domeny przez metodę **HTTP-01**, możesz spróbować metody **DNS-01**, która wymaga utworzenia rekordu **TXT** DNS z wartością podaną przez Let's Encrypt.
 
-Jak wspomniano wcześniej, ta metoda **nie** wspiera automatycznego odnawiania, chyba że samodzielnie skonfigurujesz infrastrukturę do zarządzania tym procesem. Dlatego zdecydowanie polecamy metodę **HTTP-01**, jeśli to możliwe.
+Jak wspomniano, ta metoda **nie** wspiera automatycznego odnawiania, chyba że samodzielnie skonfigurujesz infrastrukturę do zarządzania tym procesem. Dlatego zalecamy korzystanie z metody **HTTP-01** tam, gdzie to możliwe.
 
-W poniższym poleceniu użyjesz parametru `--preferred-challenges`, aby poinformować Certbota, że chcesz użyć metody `DNS-01`.
+W poniższym poleceniu użyjesz parametru `--preferred-challenges`, aby wybrać metodę `DNS-01`.
 
 ```
 # Dla domen głównych
@@ -83,25 +81,25 @@ certbot certonly --preferred-challenges dns-01 -d [twoja_subdomena] --manual -m 
 certbot certonly --preferred-challenges dns-01
 ```
 
-Po uruchomieniu polecenia może pojawić się pierwsza interaktywna konfiguracja, która poprosi o podanie adresu e-mail do komunikacji dotyczącej certyfikatu, opcjonalną listę mailingową oraz zaakceptowanie regulaminu.
+Po uruchomieniu polecenia pojawi się interaktywna konfiguracja, gdzie podasz adres e-mail do komunikacji certyfikatowej, opcjonalnie zgodzisz się na listę mailingową i zaakceptujesz regulamin.
 
-Certbot poda teraz instrukcje, jak utworzyć rekord **TXT** DNS z konkretną wartością, którą musisz użyć. Cel będzie zwykle miał postać `_acme-challenge.` poprzedzającą twoją domenę (w tym przykładzie to `_acme-challenge.zapdocs.example.com`), a wartość do ustawienia zostanie podana w konsoli.
+Certbot poda Ci instrukcje, jak utworzyć rekord **TXT** DNS z konkretną wartością. Nazwa rekordu będzie zwykle miała prefiks `_acme-challenge.` przed Twoją domeną (np. `_acme-challenge.zapdocs.example.com`), a wartość znajdziesz w konsoli.
 
-Po utworzeniu rekordu naciśnij enter, aby kontynuować. Jeśli wszystko jest poprawne i rekord się rozpropagował, certyfikaty zostaną wygenerowane i zapisane w ścieżce `/etc/letsencrypt/live/[twoja_domena]`.
+Po utworzeniu rekordu naciśnij Enter, aby kontynuować. Jeśli wszystko jest poprawne i rekord się rozpropagował, certyfikaty zostaną wygenerowane i zapisane w `/etc/letsencrypt/live/[twoja_domena]`.
 
 :::note
-Prosimy o cierpliwość, ponieważ zmiany w rekordach DNS mogą chwilę potrwać, zanim się rozpropagują. Zazwyczaj trwa to kilka minut, ale w rzadkich przypadkach może potrwać dłużej.
+Bądź cierpliwy, bo zmiany w rekordach DNS mogą chwilę potrwać, zanim się rozpropagują. Zazwyczaj trwa to kilka minut, ale w rzadkich przypadkach może potrwać dłużej.
 :::
 
-Teraz możesz używać certyfikatów SSL tam, gdzie potrzebujesz, podając lokalną ścieżkę do certyfikatów.
+Teraz możesz używać certyfikatów SSL wszędzie tam, gdzie potrzebujesz, podając lokalną ścieżkę do certyfikatów.
 
-## Wtyczki serwera WWW
+## Wtyczki serwera www
 
-Certbot ma różne dodatkowe wtyczki do serwerów WWW, które jeszcze bardziej ułatwiają zarządzanie certyfikatami, bo automatycznie edytują odpowiednie bloki serwera. Aby użyć wtyczki, wystarczy dodać odpowiedni parametr do polecenia `certbot`.
+Certbot ma różne dodatkowe wtyczki do serwerów www, które jeszcze bardziej ułatwiają zarządzanie certyfikatami, bo automatycznie edytują odpowiednie bloki konfiguracyjne serwera. Aby użyć wtyczki, wystarczy dodać odpowiedni parametr do polecenia `certbot`.
 
-Obie metody korzystają z wyzwania **HTTP-01** i działają zasadniczo tak samo. Gdy użyjesz jednej z wtyczek, Certbot najpierw znajdzie odpowiedni blok serwera, który zawiera żądaną domenę jako parametr `server_name`. Po znalezieniu Certbot wygeneruje wyzwanie ACME i doda tymczasowy blok `location /.well-known/acme-challenge/...` do konfiguracji serwera.
+Obie metody korzystają z wyzwania **HTTP-01** i działają podobnie. Po wybraniu wtyczki Certbot wyszuka blok serwera, który zawiera żądaną domenę jako parametr `server_name`. Następnie wygeneruje wyzwanie ACME i doda tymczasowy blok `location /.well-known/acme-challenge/...` do konfiguracji serwera.
 
-Serwery Let's Encrypt spróbują pobrać to z twojego serwera, a po powodzeniu certyfikat zostanie wygenerowany, a konfiguracja serwera zostanie automatycznie zmieniona, aby korzystać z HTTPS (port 443) i dodać ścieżki do nowo wygenerowanego certyfikatu.
+Serwery Let's Encrypt spróbują pobrać ten plik z Twojego serwera, a po sukcesie certyfikat zostanie wygenerowany, a konfiguracja serwera zostanie automatycznie zmodyfikowana, aby korzystać z HTTPS (port 443) i wskazywać na nowo wygenerowany certyfikat.
 
 <Tabs>
 <TabItem value="nginx" label="Nginx" default>
@@ -128,7 +126,7 @@ certbot --nginx
 ```
 
 :::tip
-Jeśli chcesz wyłączyć automatyczne „jednoklikowe” zmiany bloków serwera przez Certbot, możesz dodać parametr `certonly`, np. `certbot certonly`.
+Jeśli chcesz wyłączyć automatyczne „jednoklikowe” zmiany konfiguracji serwera przez Certbot, dodaj parametr `certonly`, np. `certbot certonly`.
 :::
 
 </TabItem>
@@ -157,7 +155,7 @@ certbot --apache
 ```
 
 :::tip
-Jeśli chcesz wyłączyć automatyczne „jednoklikowe” zmiany bloków serwera przez Certbot, możesz dodać parametr `certonly`, np. `certbot certonly`.
+Jeśli chcesz wyłączyć automatyczne „jednoklikowe” zmiany konfiguracji serwera przez Certbot, dodaj parametr `certonly`, np. `certbot certonly`.
 :::
 
 </TabItem>
@@ -166,9 +164,9 @@ Jeśli chcesz wyłączyć automatyczne „jednoklikowe” zmiany bloków serwera
 
 ### Wtyczka Webroot
 
-Jeśli korzystasz z własnego lokalnego serwera WWW, który nie używa tradycyjnego oprogramowania, możesz chcieć użyć metody webroot, aby korzystać z własnego serwera bez konieczności jego zatrzymywania.
+Jeśli korzystasz z własnego lokalnego serwera www, który nie jest oparty na popularnym oprogramowaniu, możesz użyć metody webroot, aby nie musieć zatrzymywać serwera.
 
-Aby użyć wtyczki Webroot, dodaj parametr `--webroot` do polecenia oraz `-w [ścieżka_do_twojego_serwera]` (czyli `--webroot-path`), który wskazuje na katalog główny twojego serwera WWW.
+Aby użyć wtyczki Webroot, dodaj parametr `--webroot` do polecenia oraz `-w [ścieżka_do_twojego_serwera]` (czyli `--webroot-path`), wskazujący na katalog główny Twojego serwera www.
 
 ```
 # Dla domen głównych
@@ -182,7 +180,7 @@ certbot --webroot -w [ścieżka_do_twojego_serwera]
 ```
 
 :::tip
-Jedna z najczęstszych lokalizacji webroot to `/var/www/html`. Możesz też użyć tej metody dla serwerów takich jak Nginx czy Apache, jeśli chcesz korzystać z serwera bez automatycznych zmian bloków serwera, które oferują natywne wtyczki.
+Jedna z najczęstszych lokalizacji katalogu webroot to `/var/www/html`. Możesz też użyć tej metody dla serwerów takich jak Nginx czy Apache, jeśli chcesz korzystać z serwera bez automatycznych zmian konfiguracji, które oferują natywne wtyczki.
 :::
 
 </TabItem>
@@ -190,30 +188,30 @@ Jedna z najczęstszych lokalizacji webroot to `/var/www/html`. Możesz też uży
 
 ## Automatyczne odnawianie
 
-W większości przypadków Certbot automatycznie ustawi odnawianie certyfikatów za pomocą cronjob lub timera systemd. Możesz to sprawdzić, uruchamiając polecenie testowe z parametrem `--dry-run`:
+W większości przypadków Certbot automatycznie ustawi odnawianie certyfikatów przez cronjob i/lub timer systemd. Możesz to sprawdzić, uruchamiając polecenie testowe z parametrem `--dry-run`:
 
 ```
 certbot renew --dry-run
 ```
 
 :::tip
-Jak wspomniano wcześniej, metoda **DNS-01** nie wspiera automatycznego odnawiania przez Certbot, chyba że samodzielnie skonfigurujesz infrastrukturę do tego celu. Dlatego zalecamy korzystanie z metody **HTTP-01**.
+Jak wspomniano, metoda **DNS-01** nie wspiera automatycznego odnawiania przez Certbot, chyba że samodzielnie skonfigurujesz infrastrukturę. Dlatego zalecamy korzystanie z metody **HTTP-01**.
 :::
 
-Jeśli wszystko jest poprawnie skonfigurowane, test powinien się powieść. Jeśli chcesz zobaczyć lub zmienić ustawienia automatycznego odnawiania, znajdziesz je w jednym z miejsc: `/etc/crontab/`, `/etc/cron.*/*` lub przez `systemctl list-timers`.
+Jeśli wszystko jest OK, test powinien się powieść. Jeśli chcesz zobaczyć lub zmienić ustawienia automatycznego odnawiania, znajdziesz je w jednym z miejsc: `/etc/crontab/`, `/etc/cron.*/*` lub przez `systemctl list-timers`.
 
 ### Ręczna konfiguracja cronjob
 
-Jeśli z jakiegoś powodu automatyczne odnawianie nie jest ustawione, możesz dodać je samodzielnie przez cronjob. Otwórz edytor crontab poleceniem `crontab -e`. Jeśli robisz to pierwszy raz, zostaniesz poproszony o wybór edytora — wybierz pierwszą opcję, czyli `/bin/nano`.
+Jeśli z jakiegoś powodu automatyczne odnawianie nie jest ustawione, możesz dodać je samodzielnie przez cronjob. Otwórz edytor crontab poleceniem `crontab -e`. Jeśli robisz to pierwszy raz, wybierz edytor, np. `/bin/nano`.
 
-Po otwarciu pliku w nano dodaj poniższą linię, aby odnawianie odbywało się codziennie o 6 rano czasu lokalnego.
+W pliku dodaj linię, która będzie odnawiać certyfikaty codziennie o 6 rano lokalnego czasu:
 
 ```
 0 6 * * * certbot renew
 ```
 
-Zapisz plik i wyjdź z nano, używając `CTRL + X`, następnie `Y`, a na końcu `ENTER`.
+Zapisz plik i wyjdź z nano przez `CTRL + X`, potwierdź `Y` i naciśnij `ENTER`.
 
 ## Podsumowanie
 
-Pomyślnie skonfigurowałeś Certbota dla swoich domen różnymi metodami, w tym standalone, webroot lub przez wtyczki, zapewniając swojej stronie bezpieczne przesyłanie danych przez HTTPS. Jeśli masz pytania lub potrzebujesz pomocy, śmiało kontaktuj się z naszym zespołem wsparcia, który jest dostępny codziennie, by Ci pomóc! 🙂
+Udało Ci się skonfigurować Certbota dla swoich domen na różne sposoby: standalone, webroot lub przez wtyczki, zapewniając swojej stronie bezpieczne przesyłanie danych przez HTTPS. Jeśli masz pytania lub potrzebujesz pomocy, śmiało kontaktuj się z naszym supportem, który jest dostępny codziennie, by Ci pomóc! 🙂

@@ -1,9 +1,10 @@
 ---
 id: dedicated-linux-webserver
-title: "Serveur dédié : Installation du serveur web Nginx et Apache"
-description: "Découvrez comment configurer et installer les serveurs web Nginx ou Apache pour héberger efficacement votre site → En savoir plus maintenant"
+title: "Configurer Nginx et Apache sur un serveur Linux - Mets en place un environnement web puissant"
+description: "Découvre comment installer et configurer les serveurs web Nginx ou Apache pour héberger ton site efficacement → En savoir plus maintenant"
 sidebar_label: Installer un serveur web
 services:
+  - vserver
   - dedicated
 ---
 
@@ -11,13 +12,13 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introduction
 
-Nginx et Apache sont des services web populaires utilisés pour délivrer des pages web dans le navigateur d’un utilisateur. Ci-dessous, on vous montre comment installer l’un de ces services sur votre système. 
+Nginx et Apache sont des services web populaires utilisés pour livrer des pages web au navigateur d’un utilisateur. Ci-dessous, on te montre comment installer l’un de ces services sur ton système. 
 
 
 
 ## Préparation
 
-Avant de commencer l’installation d’un serveur web, il faut s’assurer que le système est à jour. Pour cela, on se connecte au serveur via SSH. Si tu ne sais pas ce qu’est SSH ni comment l’utiliser, jette un œil à ce guide : [Accès initial (SSH)](vserver-linux-ssh.md).
+Avant de commencer l’installation effective d’un serveur web, il faut s’assurer que le système est à jour. Pour ça, on se connecte au serveur via SSH. Si tu ne sais pas ce qu’est SSH ni comment l’utiliser, jette un œil à ce guide : [Accès initial (SSH)](vserver-linux-ssh.md).
 
 Une fois connecté, tu peux mettre à jour le système avec la commande adaptée à ton système d’exploitation :
 
@@ -42,7 +43,7 @@ sudo dnf upgrade --refresh
 
 ## Installation
 
-Une fois la préparation terminée, on peut lancer l’installation du serveur web. Selon ton système d’exploitation et le serveur web choisi, exécute les commandes suivantes :
+Une fois la préparation terminée, tu peux lancer l’installation du serveur web. Selon ton système d’exploitation et le serveur web choisi, exécute les commandes suivantes :
 
 
 
@@ -102,7 +103,7 @@ Après l’installation du serveur web, tu peux uploader les fichiers de ton sit
 
 ## Vérification de la version
 
-Une fois l’installation terminée, tu peux vérifier que tout s’est bien passé avec les commandes `apache2 -v` (Apache) et `nginx -v` (Nginx). Le résultat devrait ressembler à ça :
+Une fois l’installation terminée, tu peux utiliser les commandes `apache2 -v` (Apache) et `nginx -v` (Nginx) pour vérifier que tout s’est bien passé. Le résultat devrait ressembler à ça :
 
 
 
@@ -124,6 +125,4 @@ nginx version: nginx/1.2.3
 ...
 ```
 
-Si tu obtiens ce genre de retour, c’est que ton serveur web est bien installé. 
-
-
+Si tu obtiens ce genre de retour, c’est que ton serveur web est installé et prêt à l’emploi. 

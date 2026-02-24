@@ -1,17 +1,18 @@
 ---
 id: vserver-linux-python
-title: "VPS: Instalación de Python"
-description: "Aprende cómo instalar y actualizar el runtime de Python en varias distribuciones de Linux para asegurar un entorno seguro y actualizado → Aprende más ahora"
+title: "Configura Python en un Servidor Linux - Activa Desarrollo y Automatización"
+description: "Aprende cómo instalar y actualizar el runtime de Python en varias distros Linux para asegurar un entorno seguro y actualizado → Aprende más ahora"
 sidebar_label: Instalar Python
 services:
   - vserver
+  - dedicated
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introducción
 
-Esta guía te muestra los pasos para instalar el runtime de Python y venv. Estos comandos deben ejecutarse vía SSH, si no sabes cómo conectarte a tu servidor vía SSH, usa nuestra [Guía de Acceso Inicial (SSH)](vserver-linux-ssh.md) para aprender más.
+Esta guía te muestra los pasos para instalar el runtime de Python y venv. Estos comandos deben ejecutarse vía SSH, si no sabes cómo conectarte a tu servidor por SSH, usa nuestra [Guía de Acceso Inicial (SSH)](vserver-linux-ssh.md) para aprender más.
 
 <InlineVoucher />
 
@@ -61,7 +62,7 @@ La mayoría de las distros Linux vienen con Python preinstalado, pero la versió
 <TabItem value="ubuntu-debian" label="Ubuntu & Debian" default>
 
 ```
-  // Comprobar versión
+  // Verificar versión
   python3 --version
 
   // Actualizar / instalar el runtime
@@ -72,7 +73,7 @@ La mayoría de las distros Linux vienen con Python preinstalado, pero la versió
 <TabItem value="centos" label="CentOS">
 
 ```
-  // Comprobar versión
+  // Verificar versión
   python3 --version
 
   // Actualizar el runtime
@@ -83,7 +84,7 @@ La mayoría de las distros Linux vienen con Python preinstalado, pero la versió
 <TabItem value="opensuse" label="OpenSUSE">
 
 ```
-  // Comprobar versión
+  // Verificar versión
   python3 --version
 
   // Actualizar el runtime
@@ -94,7 +95,7 @@ La mayoría de las distros Linux vienen con Python preinstalado, pero la versió
 <TabItem value="fedora" label="Fedora">
 
 ```
-  // Comprobar versión
+  // Verificar versión
   python3 --version
 
   // Actualizar el runtime
@@ -114,7 +115,7 @@ Ejecutar el comando `python3` iniciará el intérprete de Python. Puedes escribi
 
 ### Ejecutar archivos .py
 
-Para ejecutar archivos `.py` de Python, simplemente usa el comando `python3 [nombrearchivo].py`, reemplazando `[nombrearchivo]` por la ruta al archivo que quieres ejecutar.
+Para ejecutar archivos `.py` de Python, simplemente usa el comando `python3 [nombrearchivo].py`, reemplazando `[nombrearchivo]` con la ruta y nombre del archivo que quieres ejecutar.
 
 :::tip
 La mayoría de los programas que encuentras online se pueden ejecutar con `python3 main.py` porque `main.py` es el punto de inicio común en la mayoría de programas Python.
@@ -122,7 +123,7 @@ La mayoría de los programas que encuentras online se pueden ejecutar con `pytho
 
 ## Entornos virtuales
 
-Cuando escribes un programa en Python, puede que necesites instalar paquetes externos con pip. Estos pueden instalarse globalmente y estar accesibles para todos los scripts `.py` o puedes crear un entorno virtual (venv).
+Cuando escribes un programa en Python, puede que necesites instalar paquetes externos con pip. Estos pueden instalarse globalmente y estar disponibles para todos los scripts `.py` o puedes crear un entorno virtual (venv).
 
 ### Crear el venv
 

@@ -1,10 +1,11 @@
 ---
 id: vserver-windows-notepad++
-title: "VPS : Installer Notepad++ sur Windows"
-description: "Découvrez comment utiliser Notepad++ pour coder efficacement avec des fonctionnalités personnalisables et des performances rapides → En savoir plus maintenant"
+title: "Installer Notepad++ sur un serveur Windows - Utilise un éditeur de code et de texte puissant"
+description: "Découvre comment utiliser Notepad++ pour coder efficacement avec des fonctionnalités personnalisables et des performances rapides → En savoir plus maintenant"
 sidebar_label: Installer Notepad++
 services:
-- vserver
+  - vserver
+  - dedicated
 ---
 
 import Tabs from '@theme/Tabs';
@@ -17,7 +18,7 @@ Notepad++ est un éditeur de texte et de code source gratuit et open-source pour
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/jMMDejqDfWDCfrr/preview)
 
-Tu envisages d’héberger ce service toi-même ? On te guide étape par étape pour l’installer et le configurer, avec tout ce qu’il faut savoir.
+Tu envisages d’héberger ce service toi-même ? On te guide pas à pas pour l’installer et le configurer, avec tout ce qu’il faut savoir.
 
 <InlineVoucher />
 
@@ -27,15 +28,15 @@ Avant d’installer **Notepad++**, assure-toi que ton environnement d’héberge
 
 | Matériel | Minimum | Recommandation ZAP-Hosting |
 | ---------- | ------------ | -------------------------- |
-| CPU | 1 vCPU Cœurs | 4 vCPU Cœurs |
+| CPU | 1 cœur vCPU | 4 cœurs vCPU |
 | RAM | 2 Go | 4 Go |
 | Espace disque | 25 Mo | 25 Go |
 
 ## Installation
 
-Maintenant que toutes les exigences sont remplies et que les préparatifs sont faits, tu peux procéder à l’installation de l’application Notepad++. Pour cela, télécharge l’application depuis le site officiel : https://notepad-plus-plus.org/downloads/
+Maintenant que tous les prérequis sont remplis et que tu as fait les préparatifs nécessaires, tu peux lancer l’installation de l’application Notepad++. Pour cela, télécharge l’application depuis le site officiel : https://notepad-plus-plus.org/downloads/
 
-Lance le programme d’installation de Notepad++ et suis les étapes comme indiqué :
+Lance le setup de Notepad++ et suis les étapes comme indiqué :
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/5ksLwSePniTPZFQ/preview)
 
@@ -43,23 +44,23 @@ Lance le programme d’installation de Notepad++ et suis les étapes comme indiq
 
 Notepad++ propose une large gamme d’options de personnalisation accessibles via *Paramètres > Préférences*. Elles te permettent d’adapter l’éditeur à ton workflow spécifique :
 
-- **Général** : Contrôle le comportement au démarrage, comme recharger les fichiers ouverts précédemment, définir un langage par défaut ou gérer le comportement des onglets.  
+- **Général** : Gère le comportement au démarrage, comme recharger les fichiers ouverts précédemment, définir un langage par défaut ou configurer le comportement des onglets.  
 - **Paramètres de l’éditeur** : Ajuste la police et sa taille, la largeur des tabulations, la numérotation des lignes, l’auto-indentation, ou l’affichage des espaces et marques de tabulation.  
 - **Thèmes & Syntaxe** : Utilise le “Configurateur de style” pour changer de thème et personnaliser la coloration syntaxique pour chaque langage supporté.  
 - **Gestion des fichiers** : Configure des options comme le rechargement automatique des fichiers modifiés, le comportement avec les gros fichiers, ou les préférences d’encodage comme UTF-8.  
 - **Sécurité & Sauvegarde** : Active les sauvegardes automatiques ou la restauration de session pour éviter toute perte de données.  
 - **Plugins** : Installe et gère des extensions via le gestionnaire de plugins pour ajouter des fonctionnalités comme le support FTP ou un formatage avancé.  
 
-Ces préférences rendent Notepad++ très adaptable, que ce soit pour de la simple édition de texte ou du développement logiciel complet.
+Ces préférences rendent Notepad++ ultra adaptable, que ce soit pour de la simple édition de texte ou du développement logiciel complet.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/X8og5qnFkBTRcmA/preview)
 
 ## Conclusion et ressources supplémentaires
 
-Félicitations ! Tu as maintenant installé et configuré Notepad++ sur ton VPS avec succès. On te recommande aussi de jeter un œil aux ressources suivantes, qui pourront t’apporter un coup de main et des conseils supplémentaires pendant ta configuration serveur :
+Félicitations ! Tu as maintenant installé et configuré avec succès Notepad++ sur ton VPS/serveur dédié. On te conseille aussi de jeter un œil aux ressources suivantes, qui pourront t’apporter un coup de main et des conseils supplémentaires pendant ta configuration serveur :
 
 - [notepad-plus-plus.org/](https://notepad-plus-plus.org/) - Site officiel
 
-Tu as des questions spécifiques qui ne sont pas abordées ici ? Pour toute demande ou assistance, n’hésite pas à contacter notre équipe support, disponible tous les jours pour t’aider ! 🙂
+Tu as des questions spécifiques qui ne sont pas abordées ici ? Pour toute demande ou assistance, n’hésite pas à contacter notre support, disponible tous les jours pour t’aider ! 🙂
 
 <InlineVoucher />

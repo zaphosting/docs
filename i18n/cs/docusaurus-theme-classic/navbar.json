@@ -1,0 +1,50 @@
+{
+  "title": {
+    "message": "Dokumentace ZAP-Hosting",
+    "description": "The title in the navbar"
+  },
+  "logo.alt": {
+    "message": "ZAP-Hosting",
+    "description": "The alt text of navbar logo"
+  },
+  "item.label.General": {
+    "message": "Obecné",
+    "description": "Navbar item with label General"
+  },
+  "item.label.Gameserver": {
+    "message": "Herní server",
+    "description": "Navbar item with label Gameserver"
+  },
+  "item.label.Dedicated Server": {
+    "message": "Dedikovaný server",
+    "description": "Navbar item with label Dedicated Server"
+  },
+  "item.label.Voicebot & Voiceserver": {
+    "message": "Voicebot & Hlasový server",
+    "description": "Navbar item with label Voicebot & Voiceserver"
+  },
+  "item.label.VPS": {
+    "message": "VPS",
+    "description": "Navbar item with label VPS"
+  },
+  "item.label.Domain": {
+    "message": "Doména",
+    "description": "Navbar item with label Domain"
+  },
+  "item.label.Webspace": {
+    "message": "Webhosting",
+    "description": "Navbar item with label Webspace"
+  },
+  "item.label.Software": {
+    "message": "Software",
+    "description": "Navbar item with label Software"
+  },
+  "item.label.Rent a Server": {
+    "message": "Pronájem serveru",
+    "description": "Navbar item with label Rent a Server"
+  },
+  "item.label.ZAP-Hosting": {
+    "message": "ZAP-Hosting",
+    "description": "Navbar item with label ZAP-Hosting"
+  }
+}

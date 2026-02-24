@@ -15,13 +15,13 @@ import items from '@site/data/lists/hytale-mods.json';
 
 ## Wprowadzenie
 
-Mody zamieniają Twój serwer Hytale w coś naprawdę Twojego. Mogą dodać nowe mechaniki, rozbudować istniejące systemy, wprowadzić świeże wyzwania i stworzyć całkowicie nowe sposoby gry — od drobnych usprawnień jakości życia po kompletne przeróbki rozgrywki.
+Mody zmieniają Twój serwer Hytale w coś naprawdę Twojego. Mogą dodać nowe mechaniki, rozbudować istniejące systemy, wprowadzić świeże wyzwania i stworzyć całkowicie nowe sposoby gry — od drobnych usprawnień jakości życia po kompletne przeróbki rozgrywki.
 
-Niezależnie od tego, czy chcesz szybszy progres, głębsze elementy survivalowe, więcej opcji budowania, niestandardowe eventy czy unikalne zasady serwera, mody dają Ci narzędzia, by kształtować doświadczenie i wyróżnić swój świat.
+Niezależnie od tego, czy chcesz szybszy progres, głębsze elementy survivalowe, więcej opcji budowania, niestandardowe eventy czy unikalne zasady serwera, mody dają Ci narzędzia do kształtowania doświadczenia i wyróżnienia Twojego świata.
 
 :::info Informacja o Wczesnym Dostępie
 
-Hytale został wydany 13 stycznia 2026 i jest obecnie dostępny we Wczesnym Dostępie. Ponieważ gra jest nadal w aktywnej fazie rozwoju, oprogramowanie serwera, pliki konfiguracyjne, wsparcie modów i procesy instalacji mogą się z czasem zmieniać.
+Hytale został wydany 13 stycznia 2026 i jest obecnie dostępny we Wczesnym Dostępie. Ponieważ gra jest wciąż aktywnie rozwijana, oprogramowanie serwera, pliki konfiguracyjne, wsparcie modów oraz procesy instalacji mogą się z czasem zmieniać.
 
 :::
 
@@ -29,9 +29,17 @@ Hytale został wydany 13 stycznia 2026 i jest obecnie dostępny we Wczesnym Dost
 
 ## Instalacja Modów
 
-Mody można zainstalować, dodając je bezpośrednio do plików serwera. Zacznij od pobrania wybranych modów w formacie `.zip` lub `.jar` z zaufanych źródeł, takich jak CurseForge.
+Mody można zainstalować, dodając je bezpośrednio do plików serwera. Zacznij od pobrania wybranych modów w formacie `.zip` lub `.jar` z zaufanych źródeł, takich jak CurseForge. Po pobraniu połącz się z serwerem przez  i otwórz katalog `mods/` w katalogu głównym serwera.
 
-Po pobraniu połącz się z serwerem i otwórz katalog `mods/` w katalogu głównym serwera. Prześlij pliki modów do tego folderu bez rozpakowywania czy modyfikowania ich. Gdy wszystkie mody będą na miejscu, zrestartuj serwer, aby zostały załadowane i aktywowane.
+Prześlij pliki modów do tego folderu bez rozpakowywania czy modyfikowania ich. Gdy wszystkie mody będą na miejscu, zrestartuj serwer, aby zostały załadowane i aktywowane.
+
+Alternatywnie możesz skorzystać z uproszczonej instalacji jednym kliknięciem, dostępnej w panelu zarządzania serwerem pod pozycją menu **CurseForge Mods**.
+
+![img](https://screensaver01.zap-hosting.com/index.php/s/oEXfKk67arGExsS/download)
+
+Tam możesz wyszukać dostępne mody, wybrać je i zainstalować bezpośrednio jednym kliknięciem. Dzięki temu nie musisz ręcznie pobierać i przesyłać plików modów, ponieważ wybrane mody są automatycznie umieszczane w odpowiednim katalogu na Twoim serwerze.
+
+Po instalacji modów za pomocą **CurseForge Mods** zrestartuj serwer, aby upewnić się, że zostały poprawnie załadowane i aktywowane.
 
 ## Popularne Mody
 

@@ -1,9 +1,10 @@
 ---
 id: dedicated-windows-mythofempires
-title: "Dedicated Server: Myth of Empires Dedicated Server Windows Setup"
-description: "Discover how to set up a Myth of Empires dedicated server on your Windows VPS quickly and efficiently → Learn more now"
+title: "Myth of Empires Dedicated Server Windows Setup"
+description: "Discover how to set up a Myth of Empires dedicated server on your Windows server quickly and efficiently → Learn more now"
 sidebar_label: MOE Dedicated Server Setup
 services:
+  - vserver
   - dedicated
 ---
 
@@ -11,14 +12,14 @@ import YouTube from '@site/src/components/YouTube/YouTube';
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introduction
-Do you have a Windows VPS and want to install a MOE Dedicated server on it? You are in the right place. In this guide we will explain the step by step process of installing this service on your server.
+Do you have a Windows VPS/Dedicated Server and want to install a MOE Dedicated server on it? You are in the right place. In this guide we will explain the step by step process of installing this service on your server.
 
-<YouTube videoId="ir3QNvwu7WY" imageSrc="https://screensaver01.zap-hosting.com/index.php/s/T3jP36eWcQgTmNy/preview" title="How To Setup Myth Of Empires Server on Windows VPS!" description="Feel like you understand better when you see things in action? We’ve got you! Dive into our video that breaks it all down for you. Whether you're in a rush or just prefer to soak up information in the most engaging way possible!"/>
+<YouTube videoId="ir3QNvwu7WY" imageSrc="https://screensaver01.zap-hosting.com/index.php/s/T3jP36eWcQgTmNy/preview" title="How To Setup Myth Of Empires Server on Windows VPS/Dedicated Server!" description="Feel like you understand better when you see things in action? We’ve got you! Dive into our video that breaks it all down for you. Whether you're in a rush or just prefer to soak up information in the most engaging way possible!"/>
 
 
 
 ## Preparation
-To begin with, connect to your VPS through Remote Desktop (RDP). Use our [Initial Access (RDP)](vserver-windows-userdp.md) guide if you need help doing this.
+To begin with, connect to your VPS/Dedicated Server through Remote Desktop (RDP). Use our [Initial Access (RDP)](vserver-windows-userdp.md) guide if you need help doing this.
 
 Once you have accessed your server, you will need to setup **SteamCMD** in order to be able to download the necessary dedicated server files. SteamCMD is the **command-line (CLI)** version of the Steam client and is the tool which allows you to easily download a range of Steam workshop and dedicated server files. Download [SteamCMD from the official Valve website](https://developer.valvesoftware.com/wiki/SteamCMD) or directly [here](https://steamcdn-a.akamaihd.net/client/installer/steamcmd.zip).
 
@@ -61,7 +62,7 @@ Open up Steam on your system, right-click your **Myth of Empires** game and sele
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/Cmj325wLSWgNGif/preview)
 
-In the root folder that opens, find the **PrivateServerTool** folder. This is the folder that you will have to copy to your server. You can do so easily by using `CTRL+C` to copy on your local PC, and `CTRL+V` to paste into your Windows server via RDP. Make sure to paste it into the root directory of your dedicated server.
+In the root folder that opens, find the **PrivateServerTool** folder. This is the folder that you will have to copy to your server. You can do so easily by using `CTRL+C` to copy on your local PC, and `CTRL+V` to paste into your Windows server via RDP. Make sure to paste it into the root directory of your VPS/Dedicated Server.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/sXdqCYW2QnKrReN/preview)
 
@@ -69,7 +70,7 @@ Next, head over to the following section to port forward and configure your serv
 
 ### Port Forwarding your server
 
-In order to ensure that your server is accessible to the public, you must alter port forwarding rules for the ports that the dedicated server process is using. You can do this either through Powershell commands directly which is easier, or regularly through the Windows Defender Firewall page.
+In order to ensure that your server is accessible to the public, you must alter port forwarding rules for the ports that the VPS/Dedicated Server process is using. You can do this either through Powershell commands directly which is easier, or regularly through the Windows Defender Firewall page.
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';

@@ -1,9 +1,10 @@
 ---
 id: dedicated-linux-jitsi
-title: "Dedicated Server: Installation of Jitsi Meet"
+title: "Setup Jitsi Meet on a Linux Server - Host Your Own Video Conferencing Platform"
 description: "Discover how to set up and run your own secure Jitsi Meet videoconferencing server for easy, private online meetings → Learn more now"
 sidebar_label: Install Jitsi Meet
 services:
+  - vserver
   - dedicated
 ---
 

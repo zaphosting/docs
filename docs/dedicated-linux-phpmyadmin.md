@@ -1,9 +1,10 @@
 ---
 id: dedicated-linux-phpmyadmin
-title: "Dedicated Server: Installation of phpMyAdmin"
+title: "Setup phpMyAdmin on a Linux Server - Manage Your Databases via Web Interface"
 description: "Discover how to manage MySQL and MariaDB databases easily with phpMyAdmin’s web interface for efficient database administration → Learn more now"
 sidebar_label: Install phpMyAdmin
 services:
+  - vserver
   - dedicated
 ---
 
@@ -24,7 +25,7 @@ sudo apt update -y
 sudo apt upgrade -y
 ```
 
-You must also ensure that you already have PHP installed on your system. This is essential for the use of phpMyAdmin. To find out how to install PHP, please have a look at our [Install PHP](dedicated-linux-php.md) guide.
+You must also ensure that you already have PHP installed on your system. This is essential for the use of phpMyAdmin. To find out how to install PHP, please have a look at our [Install PHP](vserver-linux-php.md) guide.
 
 :::warning Missing PHP packages
 Wenn die notwendigen PHP Pakete fehlen, dann können die PHP-Dateien von phpMyAdmin nicht korrekt vearbeitet und dargestellt werden. 

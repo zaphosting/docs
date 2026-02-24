@@ -1,9 +1,10 @@
 ---
 id: dedicated-linux-java
-title: "Dedikerad Server: Installation av Java"
+title: "Installera Java på en Linux-server - Kör Java-baserade applikationer och tjänster"
 description: "Lär dig hur du installerar Java på olika Linux-system för att köra Java-applikationer smidigt och säkerställa att din miljö är korrekt uppsatt → Läs mer nu"
 sidebar_label: Installera Java
 services:
+  - vserver
   - dedicated
 ---
 
@@ -15,7 +16,7 @@ Java är ett väldigt populärt programmeringsspråk som används världen över
 
 
 
-## Förberedelse
+## Förberedelser
 
 Innan du sätter igång med själva Java-installationen är det viktigt att se till att systemet är uppdaterat. För detta ansluter vi till servern via SSH. Om du inte vet vad SSH är eller hur du använder det, kolla in den här guiden: [Initial access (SSH)](vserver-linux-ssh.md)
 
@@ -42,7 +43,7 @@ sudo dnf upgrade --refresh
 
 ## Installation
 
-När förberedelserna är klara kan du starta Java-installationen. Beroende på operativsystem kör du följande kommandon:
+När förberedelserna är klara kan Java-installationen startas. Beroende på operativsystem kör du följande kommandon:
 
 **Debian**
 
@@ -72,7 +73,7 @@ sudo dnf install java-11-openjdk
 
 ## Versionskontroll
 
-Du kan kolla om installationen lyckades med kommandot **java --version**. Utdata bör se ut ungefär så här:
+Du kan kolla om installationen gick igenom med kommandot **java --version**. Outputen borde se ut ungefär så här:
 
 ```
 openjdk 11.0.9.1 2020-11-04
@@ -80,6 +81,5 @@ OpenJDK Runtime Environment (build 11.0.9.1+1-Ubuntu-0ubuntu1.20.04)
 OpenJDK 64-Bit Server VM (build 11.0.9.1+1-Ubuntu-0ubuntu1.20.04, mixed mode)
 ```
 
-I det här fallet är Java 11 installerat och klart på ditt system. Nu kan du enkelt köra dina Java-applikationer på servern. 
-
+I det här fallet har Java 11 installerats framgångsrikt på ditt system. Nu kan du enkelt köra dina Java-applikationer på servern. 
 

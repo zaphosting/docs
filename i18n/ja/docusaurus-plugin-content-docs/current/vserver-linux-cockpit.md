@@ -1,17 +1,18 @@
 ---
 id: vserver-linux-cockpit
-title: "VPS: Cockpitのインストール"
-description: "初心者も上級者も使いやすいCockpitのウェブインターフェースでLinuxサーバーを効率的に管理する方法をチェック → 今すぐ詳しく見る"
+title: "LinuxサーバーにCockpitをセットアップ - Webインターフェースでサーバー管理"
+description: "初心者も上級者も使えるCockpitのWebインターフェースでLinuxサーバーを効率的に管理する方法 → 今すぐチェック"
 sidebar_label: Cockpitのインストール
 services:
   - vserver
+  - dedicated
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## はじめに
 
-Cockpitは、1台または複数のLinuxサーバー（クラスタ）を管理するためのウェブインターフェースです。シンプルなログ出力からRAID管理まで、多彩な機能を備えています。  
+Cockpitは、1台または複数のLinuxサーバー（クラスタ）を管理するためのWebインターフェースです。シンプルなログ出力からRAID管理まで、多彩な機能を備えています。  
 初心者にも使いやすく、短時間で重要な情報を確認・管理したい上級者にもピッタリ。さらに、ほぼどんなデバイスからでもアクセス可能です。  
 プロジェクトの公式サイトはこちら → https://cockpit-project.org/ 。
 
@@ -28,20 +29,20 @@ Cockpitは、1台または複数のLinuxサーバー（クラスタ）を管理�
 // アップデート
 sudo apt update; sudo apt upgrade -y
 ```
-その後、Cockpitをインストールします：
+続いてCockpitをインストールします：
 ```
 // Cockpitのインストール
 sudo apt install cockpit -y
 ```
-インストールが完了したら、IP:9090でCockpitのパネルにアクセスできます。  
-ログインはサーバー/ユーザーの通常のログイン情報を使います。  
+インストールが完了したら、IPアドレス:9090でCockpitのパネルにアクセスできます。  
+ログインはサーバーの通常のユーザーアカウント情報を使って行います。
 
 ![cockpit](https://screensaver01.zap-hosting.com/index.php/s/2iDf3zFfAxCwkCc/preview)
 
 
 ## まとめ
 
-おめでとうございます！Cockpitのインストールと設定が無事完了しました。  
-もし質問や問題があれば、いつでも対応可能なサポートチームまでお気軽にお問い合わせください！  
+おめでとうございます！Cockpitのインストールと設定が無事に完了しました。  
+もし何か質問や問題があれば、毎日対応しているサポートチームまでお気軽にお問い合わせください！
 
 <InlineVoucher />

@@ -1,19 +1,20 @@
 ---
 id: dedicated-linux-screen
-title: "Serveur dédié : Installation de Screen"
-description: "Découvrez comment gérer plusieurs sessions terminal sous Linux avec Screen pour améliorer votre productivité et la persistance des sessions → Apprenez-en plus maintenant"
+title: "Configurer Screen sur un serveur Linux - Gérer des sessions terminal persistantes"
+description: "Découvrez comment gérer plusieurs sessions terminal sous Linux avec Screen pour booster votre productivité et garder vos sessions actives → Apprenez-en plus maintenant"
 sidebar_label: Installer Screen
 services:
+  - vserver
   - dedicated
 ---
 
 ## Introduction
 
-Screen est un multiplexeur de terminal pour les systèmes d’exploitation de type Unix, comme Linux. Il permet aux utilisateurs de gérer plusieurs sessions terminal dans une seule fenêtre ou connexion distante. Dans ce guide, nous allons couvrir les étapes d’installation et vous donner des conseils d’utilisation pour que vous soyez à l’aise avec screen.
+Screen est un multiplexeur de terminal pour les systèmes Unix-like, comme Linux. Il permet aux utilisateurs de gérer plusieurs sessions terminal dans une seule fenêtre ou connexion distante. Dans ce guide, on va voir comment l’installer et vous donner des conseils pour bien l’utiliser.
 
 ## Préparation
 
-Avant d’installer quoi que ce soit sur un serveur, il est recommandé d’exécuter la commande de mise à jour correspondant à votre système d’exploitation pour garder votre serveur sécurisé.
+Avant d’installer quoi que ce soit sur un serveur, il est recommandé de lancer la commande de mise à jour adaptée à votre système d’exploitation pour garder votre serveur sécurisé.
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
@@ -51,7 +52,7 @@ sudo zypper update
 
 ## Installation
 
-Installer l’utilitaire screen est aussi simple que d’exécuter la commande suivante selon votre distribution Linux :
+Installer l’utilitaire screen, c’est aussi simple que de lancer la commande suivante selon votre distro Linux :
 
 <Tabs>
 <TabItem value="ubuntu-debian" label="Ubuntu & Debian" default>
@@ -86,68 +87,68 @@ sudo dnf install screen
 
 ## Utilisation basique de Screen
 
-Comme mentionné plus haut, screen permet de créer plusieurs sessions. Pour en démarrer une, il suffit d’exécuter la commande suivante, en remplaçant `[name]` par le nom que vous souhaitez.
+Comme dit plus haut, screen permet de créer plusieurs sessions. Pour en lancer une, il suffit de taper la commande suivante, en remplaçant `[name]` par ce que vous voulez.
 ```
 screen -S [name]
 ```
 
 :::info
-Gardez en tête que les commandes présentées dans ce guide sont sensibles à la casse, notamment pour les options.
+Gardez en tête que les commandes dans ce guide sont sensibles à la casse, surtout pour les options.
 :::
 
-Cela ouvrira une nouvelle session screen où vous pourrez lancer n’importe quel script ou programme que vous souhaitez garder actif même après la fermeture de la connexion distante.
+Cela ouvrira une nouvelle session screen où vous pourrez lancer n’importe quel script ou programme que vous souhaitez garder actif même après avoir fermé la connexion distante.
 
-Vous pouvez quitter une session screen en utilisant `CTRL + A`, suivi de `D` ou simplement en tapant `exit` dans la console.
+Pour quitter une session screen, utilisez `CTRL + A` puis `D` ou tapez simplement `exit` dans la console.
 
 :::tip
 Vous pouvez lister toutes les sessions/screens actives avec la commande `screen -ls` ou `screen -list`.
 :::
 
-Pour revenir à une session screen déjà créée, exécutez la commande `screen -r [name]` qui vous ramènera directement à la session correspondante.
+Pour revenir à une session screen déjà créée, lancez la commande `screen -r [name]` qui vous ramènera directement à la session concernée.
 
 ## Options de Screen
 
-Screen propose de nombreuses options `-` pour configurer les commandes. Voici les plus importantes dans ce tableau.
+Screen propose plein d’options avec des flags `-` pour configurer les commandes. Voici les plus importantes dans ce tableau.
 
-| Option | Alias | Info |
+| Flag | Alias | Info |
 | ---- | ----- | ---- |
 | -v   | | Affiche la version actuelle de screen |
 | -S `[name]` | | Démarre une nouvelle session screen nommée `[name]` |
 | -ls | -list | Liste toutes les sessions screen en cours |
-| -wipe `[name]` | | Supprime les sessions screen, optionnellement celles nommées `[name]` |
+| -wipe `[name]` | | Supprime les sessions, optionnellement celle nommée `[name]` |
 | -r `[name]` | | Se rattache à la session screen `[name]` |
 | -d -r `[name]` | | Détache la session courante et se rattache à `[name]` |
 
 :::tip
-Vous pouvez consulter toutes les options disponibles en lançant `screen -h` pour obtenir la liste complète.
+Pour voir toutes les options disponibles, lancez `screen -h` pour obtenir la liste complète.
 :::
 
 ## Utilisation avancée de Screen
 
 ### Gestion des fenêtres
 
-Maintenant que vous connaissez les commandes basiques de screen, il est temps d’apprendre quelques raccourcis pour naviguer plus efficacement entre vos sessions. Dans une session screen, vous pouvez créer plusieurs fenêtres distinctes pour différentes tâches.
+Maintenant que vous connaissez les bases, voici quelques raccourcis pour naviguer plus efficacement dans vos sessions. Dans une session screen, vous pouvez créer plusieurs fenêtres séparées pour différentes tâches.
 
 :::note 
 Tous les raccourcis de cette partie doivent être utilisés après avoir pressé `CTRL + A`.
 :::
 
-Appuyer sur `C` crée une nouvelle fenêtre vide dans votre répertoire actuel. Pour naviguer entre les fenêtres, utilisez `N` (suivante), `P` (précédente) ou `"` pour afficher la liste des fenêtres et sélectionner celle que vous voulez avec les flèches.
+Appuyer sur `C` crée une nouvelle fenêtre vide dans le répertoire courant. Pour naviguer entre les fenêtres, utilisez `N` (suivante), `P` (précédente) ou `"` pour afficher la liste des fenêtres et choisir avec les flèches.
 
-Par défaut, toutes les fenêtres ont le même nom (généralement celui du shell utilisé). Pour le changer, utilisez la commande `A` et choisissez un nouveau nom.
+Par défaut, toutes les fenêtres ont le même nom (souvent celui du shell utilisé). Pour le changer, tapez `A` et choisissez un nouveau nom.
 
 Enfin, pour fermer une fenêtre, appuyez sur `K`.
 
 #### Fenêtres divisées
 
-Pour afficher 2 fenêtres en mode split, utilisez `S` (horizontal) ou `|` (vertical) et naviguez entre elles avec `Tab`.
+Pour afficher 2 fenêtres en mode split, tapez `S` (horizontal) ou `|` (vertical) et naviguez entre elles avec `Tab`.
 
 :::tip
-Après avoir créé une fenêtre split, allez-y avec `Tab` puis lancez `"` pour ouvrir une fenêtre précédente dans la deuxième vue du split.
+Après avoir créé une fenêtre split, allez dessus avec `Tab` et tapez `"` pour ouvrir une fenêtre précédente dans la 2e partie du split.
 :::
 
-Vous pouvez diviser les fenêtres autant que vous voulez, mais la consommation de RAM du serveur risque d’augmenter rapidement, comme on s’y attend en multitâche.
+Vous pouvez diviser les fenêtres autant que vous voulez, mais attention, la RAM du serveur risque de monter rapidement comme on s’y attend en multitâche.
 
 ## Conclusion
 
-On espère que ce guide vous a aidé à comprendre comment fonctionne l’utilitaire screen sous Linux. Pour toute question ou aide supplémentaire, n’hésitez pas à contacter notre support, disponible tous les jours pour vous accompagner ! 🙂
+On espère que ce guide vous a aidé à comprendre comment fonctionne l’utilitaire screen sous Linux. Pour toute question ou aide supplémentaire, n’hésitez pas à contacter notre support, dispo tous les jours pour vous filer un coup de main ! 🙂

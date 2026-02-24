@@ -1,9 +1,10 @@
 ---
 id: dedicated-linux-ssh-server
-title: "Servidor Dedicado: Instalación de SSH"
-description: "Descubre cómo instalar y gestionar servidores SSH en Linux VPS de forma segura para garantizar un acceso remoto seguro y una mayor protección del servidor → Aprende más ahora"
+title: "Configura SSH en un Servidor Linux - Activa el Acceso Remoto Seguro"
+description: "Descubre cómo instalar y gestionar de forma segura servidores SSH en Linux para garantizar un acceso remoto seguro y una mayor protección del servidor → Aprende más ahora"
 sidebar_label: Instalar SSH
 services:
+  - vserver
   - dedicated
 ---
 
@@ -11,9 +12,9 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introducción
 
-Secure Shell (SSH) es un protocolo seguro que permite un acceso cifrado y protegido a sistemas remotos. Garantiza la confidencialidad e integridad de los datos transmitidos a través de redes.
+Secure Shell (SSH) es un protocolo seguro que permite un acceso cifrado y seguro a sistemas remotos. Garantiza la confidencialidad e integridad de los datos transmitidos a través de redes.
 
-En esta guía, entenderás cómo instalar o reinstalar el servidor SSH para varias distribuciones de Linux que ofrecemos actualmente en nuestros servidores VPS. La mayoría de las distros Linux que ofrecemos en nuestros VPS ya vienen con un servidor SSH instalado por defecto, lo que significa que puedes gestionarlo fácilmente a través de la interfaz web del producto. Puedes ver cómo hacerlo en nuestra guía: [Acceso inicial (SSH)](vserver-linux-ssh.md)
+En esta guía, aprenderás cómo instalar o reinstalar el servidor SSH para varias distribuciones de Linux que ofrecemos actualmente en nuestros servidores VPS/servidores dedicados. La mayoría de las distros Linux que ofrecemos en nuestros servidores VPS/servidores dedicados ya vienen con un servidor SSH por defecto, lo que significa que puedes gestionarlo fácilmente a través de la interfaz web del producto. Puedes ver cómo hacerlo en nuestra guía: [Acceso inicial (SSH)](vserver-linux-ssh.md)
 
 Si quieres mejorar la seguridad de tu servidor, te recomendamos echar un vistazo a nuestra guía de [Consejos de Seguridad](vserver-linux-security-tips.md), que presenta varias herramientas y servicios para proteger aún más tu servidor.
 
@@ -49,7 +50,7 @@ Una vez finalizada la instalación, puedes iniciar el servicio del servidor SSH 
 systemctl start sshd
 ```
 
-Asegúrate de habilitar el servicio para que se inicie automáticamente al arrancar el sistema. Puedes hacerlo con este comando:
+Asegúrate de habilitar el servicio para que se inicie automáticamente al arrancar el sistema. Puedes hacerlo con el siguiente comando:
 ```
 systemctl enable sshd
 ```
@@ -67,7 +68,7 @@ Abre el archivo de configuración ejecutando:
 nano /etc/ssh/sshd_config 
 ```
 
-Usa las teclas de flecha para navegar y busca la siguiente línea:
+Usa las flechas para navegar y busca la siguiente línea:
 ```
 #PermitRootLogin prohibit-password
 ```
@@ -104,7 +105,7 @@ Una vez finalizada la instalación, puedes iniciar el servicio del servidor SSH 
 systemctl start sshd
 ```
 
-Asegúrate de habilitar el servicio para que se inicie automáticamente al arrancar el sistema. Puedes hacerlo con este comando:
+Asegúrate de habilitar el servicio para que se inicie automáticamente al arrancar el sistema. Puedes hacerlo con el siguiente comando:
 ```
 systemctl enable sshd
 ```
@@ -114,7 +115,7 @@ systemctl enable sshd
 Para habilitar el login root, necesitas editar el archivo de configuración de openssh. En esta guía usaremos "nano" como editor.
 
 :::info
-Si no tienes "nano" instalado, primero debes instalarlo. Para ello, usa el comando: `apt install nano`
+Si no tienes "nano" instalado, deberás instalarlo. Para ello, usa el comando: `apt install nano`
 :::
 
 Abre el archivo de configuración ejecutando:
@@ -122,7 +123,7 @@ Abre el archivo de configuración ejecutando:
 nano /etc/ssh/sshd_config 
 ```
 
-Usa las teclas de flecha para navegar y busca la siguiente línea:
+Usa las flechas para navegar y busca la siguiente línea:
 ```
 #PermitRootLogin prohibit-password
 ```
@@ -159,7 +160,7 @@ Una vez finalizada la instalación, puedes iniciar el servicio del servidor SSH 
 systemctl start sshd
 ```
 
-Asegúrate de habilitar el servicio para que se inicie automáticamente al arrancar el sistema. Puedes hacerlo con este comando:
+Asegúrate de habilitar el servicio para que se inicie automáticamente al arrancar el sistema. Puedes hacerlo con el siguiente comando:
 ```
 systemctl enable sshd
 ```
@@ -169,7 +170,7 @@ systemctl enable sshd
 Para habilitar el login root, necesitas editar el archivo de configuración de openssh. En esta guía usaremos "nano" como editor.
 
 :::info
-Si no tienes "nano" instalado, primero debes instalarlo. Para ello, usa el comando: `apt install nano`
+Si no tienes "nano" instalado, deberás instalarlo. Para ello, usa el comando: `apt install nano`
 :::
 
 Abre el archivo de configuración ejecutando:
@@ -177,7 +178,7 @@ Abre el archivo de configuración ejecutando:
 nano /etc/ssh/sshd_config 
 ```
 
-Usa las teclas de flecha para navegar y busca la siguiente línea:
+Usa las flechas para navegar y busca la siguiente línea:
 ```
 #PermitRootLogin prohibit-password
 ```
@@ -214,7 +215,7 @@ Una vez finalizada la instalación, puedes iniciar el servicio del servidor SSH 
 systemctl start sshd
 ```
 
-Asegúrate de habilitar el servicio para que se inicie automáticamente al arrancar el sistema. Puedes hacerlo con este comando:
+Asegúrate de habilitar el servicio para que se inicie automáticamente al arrancar el sistema. Puedes hacerlo con el siguiente comando:
 ```
 systemctl enable sshd
 ```
@@ -224,7 +225,7 @@ systemctl enable sshd
 Para habilitar el login root, necesitas editar el archivo de configuración de openssh. En esta guía usaremos "nano" como editor.
 
 :::info
-Si no tienes "nano" instalado, primero debes instalarlo. Para ello, usa el comando: `dnf install nano`
+Si no tienes "nano" instalado, deberás instalarlo. Para ello, usa el comando: `dnf install nano`
 :::
 
 Abre el archivo de configuración ejecutando:
@@ -232,7 +233,7 @@ Abre el archivo de configuración ejecutando:
 sudo nano /etc/ssh/sshd_config 
 ```
 
-Usa las teclas de flecha para navegar y busca la siguiente línea:
+Usa las flechas para navegar y busca la siguiente línea:
 ```
 #PermitRootLogin prohibit-password
 ```

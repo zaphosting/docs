@@ -1,9 +1,10 @@
 ---
 id: dedicated-linux-openvpn
-title: "Dedicated Server: Installation von OpenVPN"
-description: "Entdecke, wie du deine Internetverbindung absicherst und auf eingeschränkte Inhalte mit OpenVPN auf Linux-Servern zugreifst → Jetzt mehr erfahren"
+title: "OpenVPN auf einem Linux Server einrichten – Erstelle deine sichere VPN-Infrastruktur"
+description: "Entdecke, wie du deine Internetverbindung absicherst und auf gesperrte Inhalte zugreifst mit OpenVPN auf Linux Servern → Jetzt mehr erfahren"
 sidebar_label: OpenVPN installieren
 services:
+  - vserver
   - dedicated
 ---
 
@@ -11,12 +12,12 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
 
-OpenVPN ist eine leistungsstarke und vielseitige VPN-Software, die eine sichere Verbindung über das Internet ermöglicht. Es handelt sich um eine Open-Source-Lösung, die robuste und konfigurierbare VPN-Technologie bietet, um eine verschlüsselte Verbindung zwischen deinem Gerät und einem VPN-Server herzustellen. Mit OpenVPN kannst du deine Internetverbindung absichern, deine Online-Privatsphäre schützen und geo-restriktive Inhalte unabhängig von deinem Standort weltweit zugänglich machen. In dieser Anleitung zeigen wir dir, wie du den **OpenVPN**-Dienst auf einem Linux-Server installierst und konfigurierst.
+OpenVPN ist eine leistungsstarke und vielseitige VPN-Software, die eine sichere Verbindung über das Internet ermöglicht. Es handelt sich um eine Open-Source-Lösung, die robuste und konfigurierbare VPN-Technologie bietet, um eine verschlüsselte Verbindung zwischen deinem Gerät und einem VPN-Server herzustellen. Mit OpenVPN kannst du deine Internetverbindung absichern, deine Online-Privatsphäre schützen und geo-restriktive Inhalte unabhängig von deinem Standort weltweit nutzen. In dieser Anleitung zeigen wir dir, wie du den **OpenVPN**-Dienst auf einem Linux Server installierst und konfigurierst.
 
 ## Vorbereitung
 
 Zuerst muss der Netzwerk-Treiber **TUN** aktiviert werden. Dieser Schritt ist bei Root-Servern nicht notwendig.  
-Dazu erstellst du eine neue Datei namens **tunscript.sh** im Ordner **/usr/sbin**.
+Dazu erstellst du eine neue Datei namens **tunscript.sh** im Verzeichnis **/usr/sbin**.
 
 ```
 nano /usr/sbin/tunscript.sh 
@@ -36,7 +37,7 @@ Speichere die Datei mit `CTRL+O`, bestätige mit `Y` und drücke `Enter`. Zum Ve
 chmod +x /usr/sbin/tunscript.sh
 ```
 
-Anschließend öffnest du mit ``crontab -e`` den Cron-Editor und wählst den **nano Editor** [1] aus. Füge am Ende der Datei diese Zeile hinzu:
+Danach öffnest du mit ``crontab -e`` den Cron-Editor und wählst den **nano Editor** [1]. Füge am Ende der Datei diese Zeile hinzu:
 ``` @reboot /usr/sbin/tunscript.sh || exit 1 ```
 
 Speichere wieder mit `CTRL+O`, bestätige mit `Y` und drücke `Enter`. Zum Verlassen `CTRL+X`. Nach einem Neustart sollte das Skript automatisch ausgeführt werden.
@@ -56,7 +57,7 @@ Als nächstes musst du den DNS-Server konfigurieren. Wir empfehlen Google Public
 1.1.1.1 / 1.0.0.1 - Cloudflare DNS
 ```
 
-Im nächsten Schritt gibst du einen Client-Namen ein. Hier kannst du jeden beliebigen Namen wählen, z.B. den Namen deines Geräts.
+Im nächsten Schritt gibst du einen Client-Namen ein. Du kannst hier jeden beliebigen Namen wählen, z.B. den Namen deines Geräts.
 
 ## Konfiguration
 
@@ -80,17 +81,17 @@ Wähle die Nummer des Clients aus deiner Liste, den du entfernen möchtest, und 
 
 ## Deinstallation
 
-Wenn du OpenVPN nicht mehr benötigst, kannst du es so deinstallieren:
+Wenn du OpenVPN nicht mehr brauchst, kannst du es so deinstallieren:
 ```
 wget https://git.io/vpn -O openvpn-install.sh && bash openvpn-install.sh
 ```
-Drücke `3` und bestätige. Bestätige erneut, und OpenVPN wird danach deinstalliert.
+Drücke `3` und bestätige. Noch einmal bestätigen und OpenVPN wird deinstalliert.
 
 ## Verbindung zum VPN herstellen
 
 Um dich mit deinem VPN zu verbinden, empfehlen wir den **[OpenVPN Client](https://openvpn.net/community-downloads/)**. Lade ihn einfach auf dem Gerät herunter, von dem du dich verbinden möchtest.
 
-Verbinde dich per SFTP mit deinem Server, um die erstellte .ovpn-Datei herunterzuladen, und lösche die Datei danach wieder auf dem Server. Sobald du den Client installiert hast, starte das Programm. Rechtsklicke auf das OpenVPN-Symbol in der Taskleiste. Klicke dann auf „Datei importieren“ und wähle die zuvor heruntergeladene Datei aus, klicke auf „Öffnen“. Um dich zu verbinden, klicke erneut auf das Symbol und wähle „Verbinden“.
+Verbinde dich per SFTP mit deinem Server, um die erstellte .ovpn-Datei herunterzuladen und lösche die Datei danach wieder auf dem Server. Nach der Installation des Clients startest du das Programm. Rechtsklicke auf das OpenVPN-Symbol in der Taskleiste. Klicke dann auf „Datei importieren“ und wähle die zuvor heruntergeladene Datei aus, klicke auf „Öffnen“. Um dich zu verbinden, klicke erneut auf das Symbol und wähle „Verbinden“.
 
 :::info
 Falls du mehrere Dateien importiert hast, musst du den Client auswählen, den du nutzen möchtest, und dann auf Verbinden klicken.

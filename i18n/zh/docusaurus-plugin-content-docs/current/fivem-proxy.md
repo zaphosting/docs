@@ -241,7 +241,7 @@ set sv_endpoints "[your_fivem_serverip]:30120"
 
 反向代理设置完成后，我们强烈建议为你的域名添加 SSL 证书，确保网站通过 HTTPS 安全传输数据。
 
-请查看我们的 [安装 Certbot](vserver-linux-certbot.md) 指南，涵盖了申请和自动续期 SSL 证书的完整流程。
+请查看我们的 [安装 Certbot](dedicated-linux-certbot.md) 指南，涵盖了申请和自动续期 SSL 证书的完整流程。
 
 ## 总结
 

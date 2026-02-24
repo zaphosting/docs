@@ -1,24 +1,25 @@
 ---
 id: vserver-windows-fs-19
-title: "VPS: Farming Simulator 2019 Dedicated Server Windows Setup"
-description: "Learn how to set up a Farming Simulator Dedicated Server 2019 on Windows VPS for smooth multiplayer gameplay → Learn more now"
+title: "Farming Simulator 2019 Dedicated Server Windows Setup"
+description: "Learn how to set up a Farming Simulator Dedicated Server 2019 on Windows server for smooth multiplayer gameplay → Learn more now"
 sidebar_label: Farming Simulator 2019
 services:
   - vserver
+  - dedicated
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introduction
 
-Do you have a Windows VPS and you want to install the Farming Simulator Dedicated Server 2019 service on it? You are in the right place. In this guide, we will explain the step by step process of installing this service on your server.
+Do you have a Windows VPS/Dedicated Server and you want to install the Farming Simulator Dedicated Server 2019 service on it? You are in the right place. In this guide, we will explain the step by step process of installing this service on your server.
 <InlineVoucher />
 
 ## Preparation
 
 A server based on Windows Server 2016/2019 with at least 4x 2.4 GHz CPU (AMD/Intel) and at least 2GB RAM (DDR3/4) and 6GB free Disk (SSD or better, preferred) is required. The server must run on 64 bit architecture. 
-Furthermore, an own GameLicense is required (no Steam version), as well as a public IPv4 address. A GPU or a sound card are not required for the Dedicated Server. 
-Depending on how much the dedicated server is modded, extended with mods or DLCs, more resources may be required. 
+Furthermore, an own GameLicense is required (no Steam version), as well as a public IPv4 address. A GPU or a sound card are not required for the VPS/Dedicated Server. 
+Depending on how much the VPS/Dedicated Server is modded, extended with mods or DLCs, more resources may be required. 
 
 
 ## Step 1 Purchase digital license
@@ -54,7 +55,7 @@ As soon as the installation process is finished, the following message appears, 
 
 The basic installation is now complete. 
 
-## Step 3 Activation of the game and configuration of the dedicated server
+## Step 3 Activation of the game and configuration of the VPS/Dedicated Server
 
 Now the Farming Simulator must be started. There should be a shortcut on the desktop, if not, it can also be started via the Windows menu. 
 Errors regarding a missing GPU or similar can be ignored or closed with No/Cancel. Farming Simulator only needs to be started to be able to enter the key. 
@@ -67,7 +68,7 @@ Once the key has been recognized, a confirmation will appear.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/jPqAggmfjQjxgei/preview)
 
-Now a login name and password must be set or changed/read out in the Config of the Dedicated Server, so that a login to the web interface of the Dedicated Server is possible. 
+Now a login name and password must be set or changed/read out in the Config of the VPS/Dedicated Server, so that a login to the web interface of the VPS/Dedicated Server is possible. 
 The Config is in the standard installation under 
 `C:\Program Files (x86)\Farming Simulator 2019` to be found under the name `"dedicatedServer.xml"`. 
 The login data can be freely customized. 
@@ -76,7 +77,7 @@ The login data can be freely customized.
 
 ## Step 4 Start Farming Simulator 2019 Dedicated Server
 
-To start the dedicated server, `"dedicatedServer.exe"` must be executed in the same directory where `"dedicatedServer.xml"` is located.
+To start the VPS/Dedicated Server, `"dedicatedServer.exe"` must be executed in the same directory where `"dedicatedServer.xml"` is located.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/5YGepFzoR9bHAcF/preview)
 
@@ -97,6 +98,6 @@ After the port release the server is publicly accessible, if it was started.
 
 ## Conclusion
 
-Congratulations, you have successfully installed and configured the Farming Simulator 2019 server on your VPS! If you have any further questions or problems, please contact our support team, who are available to help you every day! 
+Congratulations, you have successfully installed and configured the Farming Simulator 2019 server on your VPS/Dedicated Server! If you have any further questions or problems, please contact our support team, who are available to help you every day! 
 
 <InlineVoucher />

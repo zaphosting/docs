@@ -1,21 +1,22 @@
 ---
 id: vserver-windows-ts6
-title: "VPS: Teamspeak 6 Server auf deinem Windows VPS einrichten"
-description: "Entdecke, wie du den TeamSpeak 6 Server Beta einrichtest und optimierst für reibungsloses Hosting und beste Performance → Jetzt mehr erfahren"
-sidebar_label: Teamspeak 6 Server installieren
+title: "Configura il Server TeamSpeak 6 su Windows - Lancia la tua piattaforma vocale"
+description: "Scopri come installare e ottimizzare il TeamSpeak 6 Server beta per un hosting fluido e prestazioni top → Scopri di più ora"
+sidebar_label: Installa TeamSpeak 6 Server
 services:
   - vserver
+  - dedicated
 ---
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
-## Einführung
+## Introduzione
 
-Im Sommer 2025 hat TeamSpeak die **Beta-Version** des **TeamSpeak 6 Servers** released. Jetzt kannst du die nächste Generation von TeamSpeak live erleben!
+Nell’estate 2025, TeamSpeak ha rilasciato la **Beta** del **TeamSpeak 6 Server**. Ora puoi provare in anteprima la nuova generazione di TeamSpeak!
 
-Willst du den Service selbst hosten? Wir zeigen dir Schritt für Schritt, wie du den Server installierst und konfigurierst – inklusive allem, was du beachten musst.
+Vuoi ospitare questo servizio in autonomia? Ti guideremo passo passo su come installarlo e configurarlo, con tutto quello che devi sapere.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/4J6HJjQdRddjGFK/preview)
 
@@ -23,49 +24,48 @@ Willst du den Service selbst hosten? Wir zeigen dir Schritt für Schritt, wie du
 
 
 
-## Voraussetzungen
+## Requisiti
 
-Bevor du den **Teamspeak 6 Server** installierst, check am besten, ob dein Hosting-Setup die folgenden Anforderungen erfüllt, damit alles smooth läuft und die Performance top ist.
+Prima di installare il **TeamSpeak 6 Server**, assicurati che il tuo ambiente di hosting rispetti questi requisiti per un’installazione senza intoppi e prestazioni ottimali.
 
-| Hardware   | Minimum      | ZAP-Hosting Empfehlung    |
-| ---------- | ------------ | ------------------------- |
-| CPU        | 1 vCPU Kern  | 4 vCPU Kerne              |
-| RAM        | 1 GB         | 4 GB                      |
-| Speicher   | 1 GB         | 25 GB                     |
-
-
-
-## Vorbereitung
-
-Bevor du den **TeamSpeak 6 Server** installierst, solltest du dein System vorbereiten. Damit alles stabil läuft und sicher ist, mach am besten zuerst ein Update deines Systems.
-
-So hast du die neuesten Sicherheits-Patches und Software-Versionen am Start, bevor es losgeht.
+| Hardware   | Minimo      | Consiglio ZAP-Hosting      |
+| ---------- | ------------ | -------------------------- |
+| CPU        | 1 vCPU Core  | 4 vCPU Core                |
+| RAM        | 1 GB         | 4 GB                       |
+| Spazio disco | 1 GB       | 25 GB                      |
 
 
 
+## Preparazione
 
-## Installation
-Wenn alle Voraussetzungen passen und du vorbereitet bist, kannst du mit der Installation vom Teamspeak 6 Server starten. Lade dir zuerst die aktuellste Release-Datei `http://teamspeak-server_win64-v6.0.0-beta6.zip/` von GitHub runter: [TeamSpeak 6 Server (Windows 64-bit)](https://github.com/teamspeak/teamspeak6-server/releases/download/v6.0.0%2Fbeta6/teamspeak-server_win64-v6.0.0-beta6.zip)
+Prima di installare il **TeamSpeak 6 Server**, prepara il sistema. Per essere sicuro che il tuo sistema abbia gli ultimi aggiornamenti software e patch di sicurezza, esegui sempre un update completo.
+
+Così il sistema sarà aggiornato e protetto prima di procedere.
+
+
+
+## Installazione
+Ora che hai tutto pronto e i requisiti rispettati, puoi installare il TeamSpeak 6 Server. Scarica prima l’ultima versione dal link GitHub: [TeamSpeak 6 Server (Windows 64-bit)](https://github.com/teamspeak/teamspeak6-server/releases/download/v6.0.0%2Fbeta6/teamspeak-server_win64-v6.0.0-beta6.zip)
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/Ywc6mMTJybbgtF5/preview)
 
-Entpack die Datei in einen Ordner deiner Wahl. Öffne **PowerShell** und navigiere in den Ordner mit den entpackten Server-Dateien. Starte den Server mit:
+Estrai il file in una cartella a tua scelta. Apri **PowerShell** e vai nella cartella dove hai estratto i file. Avvia il server con:
 
 ```
 .\tsserver.exe
 ```
 
-Beim ersten Start poppt ein Fenster mit der Lizenzvereinbarung auf, die du akzeptieren musst. Danach bekommst du die Server Query Admin Account Daten und den Privilege Key angezeigt. Diese Infos gibt’s nur einmal, also sicher abspeichern!
+Al primo avvio comparirà la finestra con il contratto di licenza, che devi accettare. Dopo vedrai le credenziali dell’account Server Query Admin e la chiave di privilegio. Questi dati vengono mostrati solo una volta, quindi salvali bene.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/rsmBkcJiAAinjE6/download)
 
-Wenn du das bestätigt hast, läuft der TeamSpeak 6 Server schon im Hintergrund und ist ready to go.
+Dopo la conferma, il TeamSpeak 6 Server sarà già attivo in background e pronto all’uso.
 
 ##### 
 
-## Konfiguration
+## Configurazione
 
-Du kannst den **TeamSpeak 6 Server** auch mit **Kommandozeilen-Parametern** anpassen. Die Optionen gibst du direkt beim Start mit an. Eine komplette Liste findest du in der offiziellen [TeamSpeak 6 Server](https://github.com/teamspeak/teamspeak6-server/blob/main/CONFIG.md) Doku. Beispiel:
+Puoi anche personalizzare il **TeamSpeak 6 Server** con **argomenti da linea di comando**. Le opzioni si passano direttamente all’avvio del server. La lista completa la trovi nella doc ufficiale [TeamSpeak 6 Server](https://github.com/teamspeak/teamspeak6-server/blob/main/CONFIG.md). Esempio:
 
 ```
 ./tsserver --default-voice-port 9987
@@ -73,20 +73,20 @@ Du kannst den **TeamSpeak 6 Server** auch mit **Kommandozeilen-Parametern** anpa
 
 
 
-## Verbindung herstellen
+## Connessione
 
-Sobald der TeamSpeak 6 Server läuft, kannst du dich mit dem TeamSpeak 6 Client verbinden. Einfach die IP deines Servers plus den richtigen Port eingeben. Dann kannst du direkt loslegen und testen.
+Quando il TeamSpeak 6 Server è attivo, puoi connetterti con il client TeamSpeak 6. Usa l’IP del server e la porta corretta. Inserisci questi dati nel client per collegarti e iniziare a testare.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/4J6HJjQdRddjGFK/preview)
 
 
 
-## Fazit und weitere Ressourcen
+## Conclusione e risorse utili
 
-Glückwunsch! Du hast den Teamspeak 6 Server erfolgreich auf deinem VPS installiert und konfiguriert. Schau dir auch diese Ressourcen an, die dir bei der Server-Konfiguration weiterhelfen können:
+Complimenti! Hai installato e configurato con successo il TeamSpeak 6 Server sul tuo VPS o Dedicated Server. Ti consigliamo anche di dare un’occhiata a queste risorse per supporto extra e approfondimenti durante la configurazione:
 
-- [Offizielle Website](https://teamspeak.com/en/) – Infos und Downloads zu TeamSpeak 6
-- [Community Forum](https://community.teamspeak.com/) – Support und Austausch mit anderen Usern
-- [GitHub Issues](https://github.com/teamspeak/teamspeak6-server/issues) – Bugs melden und offene Issues verfolgen
+- [Sito Ufficiale](https://teamspeak.com/en/) - Info e download TeamSpeak 6
+- [Forum Community](https://community.teamspeak.com/) - Supporto utenti e discussioni
+- [GitHub Issues](https://github.com/teamspeak/teamspeak6-server/issues) - Segnala bug e tieni traccia dei problemi aperti
 
-Du hast noch Fragen, die hier nicht beantwortet wurden? Für weitere Hilfe steht dir unser Support-Team täglich zur Seite – meld dich einfach bei uns! 🙂
+Hai domande specifiche che non trovi qui? Per qualsiasi dubbio o supporto, il nostro team è sempre pronto ad aiutarti, tutti i giorni! 🙂

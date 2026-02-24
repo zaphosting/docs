@@ -1,15 +1,16 @@
 ---
 id: dedicated-linux-screen
-title: "Servidor Dedicado: Instalación de Screen"
-description: "Descubre cómo gestionar múltiples sesiones de terminal en Linux con Screen para mejorar tu productividad y mantener tus sesiones activas → Aprende más ahora"
+title: "Configura Screen en un Servidor Linux - Gestiona Sesiones Persistentes de Terminal"
+description: "Descubre cómo gestionar múltiples sesiones de terminal en Linux con Screen para mejorar tu productividad y mantener sesiones persistentes → Aprende más ahora"
 sidebar_label: Instalar Screen
 services:
+  - vserver
   - dedicated
 ---
 
 ## Introducción
 
-Screen es un multiplexor de terminal para sistemas operativos tipo Unix, como Linux. Permite a los usuarios gestionar múltiples sesiones de terminal dentro de una sola ventana o conexión remota. En esta guía, cubriremos los pasos de instalación y te daremos consejos para que te familiarices con screen.
+Screen es un multiplexor de terminal para sistemas operativos tipo Unix, como Linux. Permite a los usuarios gestionar múltiples sesiones de terminal dentro de una sola ventana o conexión remota. En esta guía, cubriremos los pasos de instalación y te daremos consejos de uso para que te familiarices con screen.
 
 ## Preparación
 
@@ -103,7 +104,7 @@ Puedes salir de una pantalla usando `CTRL + A`, seguido de `D` o simplemente esc
 Puedes listar todas las sesiones/pantallas activas usando el comando `screen -ls` o `screen -list`.
 :::
 
-Para volver a una pantalla creada previamente, ejecuta el comando `screen -r [name]` que te llevará directamente a esa sesión.
+Para volver a una pantalla creada anteriormente, ejecuta el comando `screen -r [name]` que te llevará directamente a la pantalla correspondiente.
 
 ## Flags de Parámetros de Screen
 
@@ -115,11 +116,11 @@ Screen tiene muchos flags `-` que puedes usar para configurar los comandos. Algu
 | -S `[name]` | | Inicia una nueva pantalla llamada `[name]` |
 | -ls | -list | Lista todas las pantallas en ejecución |
 | -wipe `[name]` | | Elimina pantallas con el parámetro opcional `[name]` |
-| -r `[name]` | | Vuelve a conectar a la sesión de pantalla `[name]` |
-| -d -r `[name]` | | Separa tu pantalla actual y vuelve a conectar a `[name]` |
+| -r `[name]` | | Vuelve a adjuntar la sesión de pantalla `[name]` |
+| -d -r `[name]` | | Separa tu pantalla actual y vuelve a adjuntar a `[name]` |
 
 :::tip
-Puedes ver todos los parámetros disponibles ejecutando `screen -h`, que te mostrará una lista completa.
+Puedes ver todos los parámetros disponibles ejecutando `screen -h`, que mostrará una lista completa.
 :::
 
 ## Uso Avanzado de Screen
@@ -132,22 +133,22 @@ Ahora que ya conoces los comandos básicos de screen, es hora de aprender alguno
 Todos los atajos en esta parte de la guía deben ejecutarse después de presionar `CTRL + A`.
 :::
 
-Presionar `C` crea una nueva ventana vacía en tu directorio actual. Para navegar entre ventanas puedes usar `N` (siguiente), `P` (anterior) o `"` para seleccionar la ventana que quieres ver con las flechas.
+Presionar `C` creará una nueva ventana vacía en tu directorio actual. Para navegar entre ventanas puedes usar `N` (siguiente), `P` (anterior) o `"` para seleccionar la ventana que quieres ver desde la lista con las flechas.
 
-Por defecto, todas las ventanas tendrán el mismo nombre (normalmente el nombre del shell que usas). Para cambiarlo ejecuta el comando `A` y elige un nuevo nombre.
+Por defecto, todas las ventanas tendrán el mismo nombre (usualmente el nombre del shell que estás usando). Para cambiarlo ejecuta el comando `A` y elige un nuevo nombre.
 
-Y para eliminar una ventana, presiona `K`.
+Y finalmente, para eliminar una ventana puedes presionar `K`.
 
 #### Ventanas Divididas
 
 Para tener 2 ventanas en configuración dividida puedes usar `S` (horizontal) o `|` (vertical) y navegar entre ellas con `Tab`.
 
 :::tip
-Después de crear una ventana dividida, ve a ella con `Tab` y ejecuta `"` para abrir una ventana previa en la segunda vista del split.
+Después de crear una ventana dividida, ve a ella con `Tab` y ejecuta `"` para abrir una ventana previa en la segunda vista de la división.
 :::
 
-Puedes seguir dividiendo estas ventanas tanto como quieras, pero el uso de RAM del servidor puede aumentar exponencialmente, como es lógico cuando haces multitarea.
+Puedes seguir dividiendo estas ventanas tanto como quieras, pero el uso de RAM del servidor puede aumentar exponencialmente, como es de esperar al hacer multitarea.
 
 ## Conclusión
 
-Esperamos que esta guía te haya ayudado a entender cómo funciona la utilidad screen en Linux. Para cualquier duda o ayuda, no dudes en contactar a nuestro equipo de soporte, ¡estamos disponibles todos los días para ayudarte! 🙂
+Esperamos que esta guía te haya ayudado a entender cómo funciona la utilidad screen en Linux. Para cualquier duda o asistencia, no dudes en contactar a nuestro equipo de soporte, ¡disponible todos los días para ayudarte! 🙂

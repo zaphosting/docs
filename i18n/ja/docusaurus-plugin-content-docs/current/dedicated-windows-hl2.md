@@ -17,7 +17,7 @@ VPSや専用サーバーを持っていて、そこにゲームサーバーを�
 
 ## 準備
 
-Half-Life 2サーバーのセットアップにはSteamCMDが必要だよ。SteamCMDは**Steamクライアントのコマンドライン版**で、このツールを使うと人気のSteamゲームの専用サーバーアプリを簡単かつ素早くダウンロードできる。SteamCMDは公式Valve開発者サイトで入手可能：https://developer.valvesoftware.com/wiki/SteamCMD。
+Half-Life 2サーバーのセットアップにはSteamCMDが必要だよ。SteamCMDは**Steamクライアントのコマンドライン版**で、このツールを使うと人気のSteamゲームの専用サーバーアプリを簡単かつ素早くダウンロードできる。SteamCMDは公式Valve開発者サイトで入手可能：`https://developer.valvesoftware.com/wiki/SteamCMD`。
 
 ダウンロードが完了すると、**steamcmd.zip**ファイルが手に入るから、まずはこれを解凍しよう。別フォルダを作ってそこに解凍するのがおすすめ。解凍後に**steamcmd.exe**が見えるはず。これを実行して、インストールが完了するまで待とう。
 

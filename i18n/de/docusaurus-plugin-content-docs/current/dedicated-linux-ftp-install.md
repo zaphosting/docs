@@ -1,9 +1,10 @@
 ---
 id: dedicated-linux-ftp-install
-title: "Dedicated Server: Installation eines FTP-Servers"
-description: "Entdecke, wie du auf Linux mit FileZilla Server einen sicheren FTP-Server einrichtest und verwaltest, um Dateiübertragungen und Benutzerzugriffe zu optimieren → Jetzt mehr erfahren"
+title: "ProFTPD auf einem Linux Server einrichten – Sicheren FTP-Service hosten"
+description: "Entdecke, wie du einen sicheren FTP-Server auf Linux mit FileZilla Server einrichtest und verwaltest, um Dateiübertragungen und Benutzerzugriffe zu optimieren → Jetzt mehr erfahren"
 sidebar_label: FTP-Server installieren
 services:
+  - vserver
   - dedicated
 ---
 
@@ -11,17 +12,17 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
 
-Das **FTP (File Transfer Protocol)** ist ein Netzwerkprotokoll, das zum Übertragen von Dateien über ein TCP/IP-Netzwerk verwendet wird. Das Protokoll wurde entwickelt, um den einfachen Austausch von Dateien zwischen Systemen zu ermöglichen. Mit dem **FileZilla Server** kannst du so einen FTP-Server auf einem Linux-Betriebssystem einrichten. Der FileZilla Server ist einfach zu installieren und zu konfigurieren und bietet zahlreiche Features wie das Anlegen von Benutzerkonten, das Verwalten von Zugriffsrechten und das Übertragen von Dateien. In dieser Anleitung zeigen wir dir, wie du den **FileZilla Server** auf einem Linux-Server installierst und konfigurierst.
+Das **FTP (File Transfer Protocol)** ist ein Netzwerkprotokoll, das zum Übertragen von Dateien über ein TCP/IP-Netzwerk verwendet wird. Das Protokoll wurde entwickelt, um den einfachen Austausch von Dateien zwischen Systemen zu ermöglichen. Mit dem **FileZilla Server** kannst du einen solchen FTP-Server auf einem Linux-Betriebssystem einrichten. Der FileZilla Server ist einfach zu installieren und zu konfigurieren und bietet zahlreiche Features wie das Anlegen von Benutzerkonten, das Verwalten von Zugriffsrechten und das Übertragen von Dateien. In dieser Anleitung zeigen wir dir, wie du den **FileZilla Server** auf einem Linux-Gameserver installierst und konfigurierst.
 
-## Wie installiere ich den FTP-Server, um einen Benutzer hinzuzufügen?
+## Wie installiere ich den FTP-Server und füge einen Benutzer hinzu?
 
 Um einen FTP-Benutzer hinzuzufügen, musst du zuerst den FTP-Server installieren. Verbinde dich dafür einmal per SSH (z.B. mit Putty) mit deinem Server.
 
-Um den FTP-Server jetzt zu installieren, gib folgenden Befehl ein: **apt-get install proftpd**. Du musst die Anfrage mit einem **Y** bestätigen und Enter drücken:
+Um den FTP-Server zu installieren, gib folgenden Befehl ein: **apt-get install proftpd**. Bestätige die Abfrage mit **Y** und drücke Enter:
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/MWzQMoq5yrRXP7Y/preview)
 
-Jetzt müssen wir noch die Konfiguration anpassen. Dafür gibst du folgenden Befehl ein: **nano /etc/proftpd/proftpd.conf** und bestätigst. Danach öffnet sich die Konfigurationsdatei im Nano-Editor:
+Jetzt müssen wir noch die Konfiguration anpassen. Öffne dazu die Konfigurationsdatei mit: **nano /etc/proftpd/proftpd.conf** und bestätige. Danach öffnet sich die Datei im Nano-Editor:
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/8X4A6MZEr27YqFf/preview)
 
@@ -33,17 +34,17 @@ Jetzt muss der FTP-Server neu gestartet werden, damit die Änderungen wirksam we
 
 ## Wie füge ich einen FTP-Benutzer hinzu?
 
-Um den neuen FTP-Benutzer anzulegen, müssen wir zuerst eine FTP-Gruppe erstellen. Das machen wir mit dem Befehl **addgroup ftpuser**. Das sieht dann so aus:
+Um einen neuen FTP-Benutzer anzulegen, müssen wir zuerst eine FTP-Gruppe erstellen. Das geht mit dem Befehl **addgroup ftpuser**. Das sieht dann so aus:
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/eQ2yfySHYx3Wzcp/preview)
 
 Jetzt können wir unseren ersten FTP-Benutzer mit den Befehlen **adduser benutzerftp -shell /bin/false -home /var/www** und anschließend **adduser benutzerftp ftpuser** hinzufügen.
 
-Jetzt wirst du aufgefordert, ein Passwort zu vergeben:
+Danach wirst du aufgefordert, ein Passwort zu vergeben:
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/4cmAAMcBaoTQ4QD/preview)
 
-Danach musst du bestätigen, dass die Eingaben korrekt sind:
+Anschließend musst du bestätigen, dass die Eingaben korrekt sind:
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/6bNjWnr7ie3Cnty/preview)
 

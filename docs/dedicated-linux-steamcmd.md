@@ -1,9 +1,10 @@
 ---
 id: dedicated-linux-steamcmd
-title: "Dedicated Server: SteamCMD Linux Setup"
+title: "SteamCMD Linux Setup"
 description: "Discover how to set up SteamCMD on Linux servers to install dedicated game servers efficiently → Learn more now"
 sidebar_label: Setup SteamCMD
 services:
+  - vserver
   - dedicated
 ---
 
@@ -17,7 +18,7 @@ SteamCMD is an essential tool that is necessary for installing dedicated servers
 
 ## Preparation
 
-To begin with, connect to your Dedicated Server via SSH. Use our [SSH Initial Access](vserver-linux-ssh.md) guide if you need help doing this.
+To begin with, connect to your VPS/Dedicated Server via SSH. Use our [SSH Initial Access](vserver-linux-ssh.md) guide if you need help doing this.
 
 ## Installing SteamCMD
 
@@ -75,7 +76,7 @@ sudo apt install steamcmd
 You can verify that the SteamCMD installation was successful, by simply running `steamcmd`. Once loaded, the command prompt should show `Steam>`. You can run `quit` to exit this afterwards.
 :::
 
-With everything now prepared and installed, you can proceed with the next step, which involves installing the dedicated server through the use of SteamCMD.
+With everything now prepared and installed, you can proceed with the next step, which involves installing the VPS/Dedicated Server through the use of SteamCMD.
 
 ## Creating User
 

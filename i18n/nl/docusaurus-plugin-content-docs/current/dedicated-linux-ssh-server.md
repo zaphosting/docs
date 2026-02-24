@@ -1,9 +1,10 @@
 ---
 id: dedicated-linux-ssh-server
-title: "Dedicated Server: Installatie van SSH"
-description: "Ontdek hoe je SSH-servers veilig installeert en beheert op Linux VPS voor veilige remote toegang en betere serverbescherming → Leer het nu"
-sidebar_label: SSH Installeren
+title: "SSH instellen op een Linux Server - Veilige externe servertoegang inschakelen"
+description: "Ontdek hoe je SSH-servers veilig installeert en beheert op Linux-servers voor veilige externe toegang en betere serverbeveiliging → Leer het nu"
+sidebar_label: SSH installeren
 services:
+  - vserver
   - dedicated
 ---
 
@@ -11,9 +12,9 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introductie
 
-Secure Shell (SSH) is een veilig protocol dat versleutelde toegang tot remote systemen mogelijk maakt. Het zorgt voor de vertrouwelijkheid en integriteit van data die over netwerken wordt verzonden.
+Secure Shell (SSH) is een veilig protocol dat versleutelde toegang tot externe systemen mogelijk maakt. Het zorgt voor de vertrouwelijkheid en integriteit van data die over netwerken wordt verzonden.
 
-In deze gids leer je hoe je de SSH-server installeert of opnieuw installeert voor verschillende Linux-distributies die wij aanbieden op onze VPS-servers. De meeste Linux-distro’s die via onze VPS-servers beschikbaar zijn, hebben standaard een SSH-server geïnstalleerd, waardoor je deze eenvoudig kunt beheren via de webinterface van het product. Hoe je dit doet, lees je in onze gids: [Eerste toegang (SSH)](vserver-linux-ssh.md)
+In deze gids leer je hoe je de SSH-server installeert of opnieuw installeert voor verschillende Linux-distributies die wij aanbieden op onze VPS/Dedicated Servers. De meeste Linux-distro’s die via onze VPS/Dedicated Servers worden geleverd, hebben standaard een SSH-server geïnstalleerd, waardoor je deze eenvoudig kunt beheren via de webinterface van het product. Hoe je dit doet, lees je in onze gids: [Eerste toegang (SSH)](vserver-linux-ssh.md)
 
 Wil je je serverbeveiliging verder verbeteren? Check dan zeker onze [Security Tips](vserver-linux-security-tips.md) gids met handige tools en services om je server nog veiliger te maken.
 
@@ -21,7 +22,7 @@ Wil je je serverbeveiliging verder verbeteren? Check dan zeker onze [Security Ti
 
 ## Installatie
 
-Om te starten met de installatie, maak je verbinding met je server via VNC. Volg hiervoor de stappen in de [VNC-console](vserver-vnc.md).
+Om te beginnen met installeren, maak je verbinding met je server via VNC. Volg hiervoor de stappen in de [VNC-console](vserver-vnc.md).
 
 
 import Tabs from '@theme/Tabs';
@@ -34,7 +35,7 @@ import TabItem from '@theme/TabItem';
 Wil je de SSH-server opnieuw installeren? Verwijder hem dan eerst met het commando: `yum remove openssh`.
 :::
 
-Zorg ervoor dat je systeem up-to-date is voordat je de SSH-server installeert. Voer het volgende commando uit:
+Zorg dat je systeem up-to-date is voordat je de SSH-server installeert. Voer het volgende commando uit:
 ```
 yum update
 ```
@@ -77,7 +78,7 @@ Pas deze aan naar:
 PermitRootLogin yes
 ```
 
-Herstart de SSH-server om de wijzigingen toe te passen:
+Herstart daarna de SSH-server om de wijzigingen toe te passen:
 ```
 systemctl restart sshd
 ```
@@ -99,7 +100,7 @@ Installeer nu de SSH-server met dit commando:
 apt install openssh-server
 ```
 
-Start de SSH-server met:
+Als de installatie klaar is, start je de SSH-server met:
 ```
 systemctl start sshd
 ```
@@ -132,7 +133,7 @@ Pas deze aan naar:
 PermitRootLogin yes
 ```
 
-Herstart de SSH-server om de wijzigingen toe te passen:
+Herstart daarna de SSH-server om de wijzigingen toe te passen:
 ```
 systemctl restart sshd
 ```
@@ -154,7 +155,7 @@ Installeer nu de SSH-server met dit commando:
 apt install openssh-server
 ```
 
-Start de SSH-server met:
+Als de installatie klaar is, start je de SSH-server met:
 ```
 systemctl start sshd
 ```
@@ -187,7 +188,7 @@ Pas deze aan naar:
 PermitRootLogin yes
 ```
 
-Herstart de SSH-server om de wijzigingen toe te passen:
+Herstart daarna de SSH-server om de wijzigingen toe te passen:
 ```
 systemctl restart sshd
 ```
@@ -209,7 +210,7 @@ Installeer nu de SSH-server met dit commando:
 dnf install openssh-server
 ```
 
-Start de SSH-server met:
+Als de installatie klaar is, start je de SSH-server met:
 ```
 systemctl start sshd
 ```
@@ -242,7 +243,7 @@ Pas deze aan naar:
 PermitRootLogin yes
 ```
 
-Herstart de SSH-server om de wijzigingen toe te passen:
+Herstart daarna de SSH-server om de wijzigingen toe te passen:
 ```
 systemctl restart sshd
 ```

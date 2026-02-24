@@ -1,10 +1,11 @@
 ---
 id: vserver-linux-plausible
-title: "VPS: Installera Plausible på OS"
-description: "Upptäck hur du sätter upp en integritetsfokuserad webbanalysplattform för tydliga insikter och snabb prestanda → Lär dig mer nu"
+title: "Installera Plausible Analytics på en Linux-server – Kör integritetsfokuserad webbstatistik"
+description: "Upptäck hur du sätter upp en integritetsfokuserad webbstatistikplattform för tydliga insikter och snabb prestanda → Läs mer nu"
 sidebar_label: Installera Plausible
 services:
   - vserver
+  - dedicated
 ---
 
 import Tabs from '@theme/Tabs';
@@ -13,7 +14,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introduktion
 
-Plausible är en lättviktig, öppen källkodsbaserad webbanalysplattform som fungerar utan cookies och följer alla integritetsregler till punkt och pricka. Den levererar viktiga mätvärden som antal besökare, sidvisningar och besökstid via en ren och intuitiv dashboard. Med sin användarvänlighet, snabba prestanda och EU-baserade infrastruktur är Plausible ett modernt och integritetsvänligt alternativ till Google Analytics.
+Plausible är en lättviktig, open-source webbstatistikplattform som fungerar utan cookies och följer alla integritetsregler till punkt och pricka. Den levererar viktiga mätvärden som antal besökare, sidvisningar och besökstid via en ren och intuitiv dashboard. Med sin enkelhet, snabba prestanda och EU-baserade infrastruktur är Plausible ett modernt och integritetsvänligt alternativ till Google Analytics.
 
 Fundera på att hosta tjänsten själv? Vi guidar dig steg för steg genom installation och konfiguration, plus allt du behöver ha koll på.
 
@@ -29,17 +30,17 @@ Innan du installerar **Plausible**, se till att din hostingmiljö uppfyller föl
 | RAM       | 2 GB        | 4 GB                       |
 | Diskutrymme | 10 GB     | 25 GB                      |
 
-Mjukvaran kräver att alla nödvändiga beroenden är installerade och att den körs på ett stöds operativsystem. Säkerställ att din server uppfyller följande innan du fortsätter med installationen:
+Mjukvaran kräver att alla nödvändiga beroenden är installerade och att den körs på ett stöds operativsystem. Se till att din server uppfyller följande innan du fortsätter med installationen:
 
 **Beroenden:** `Docker`
 
 **Operativsystem:** Senaste versionen av Ubuntu/Debian som stödjer Docker 26+
 
-Se till att alla beroenden är installerade och att rätt OS-version används för att undvika kompatibilitetsproblem under installationen av Plausible.
+Säkerställ att alla beroenden är installerade och att rätt OS-version används för att undvika kompatibilitetsproblem under installationen av Plausible.
 
 ## Förberedelser
 
-Innan du sätter upp **Plausible** behöver du förbereda systemet. Det innebär att uppdatera operativsystemet till senaste versionen och installera alla nödvändiga beroenden. Dessa förberedelser garanterar en stabil miljö och hjälper till att undvika problem under eller efter installationen.
+Innan du sätter upp **Plausible** behöver du förbereda systemet. Det innebär att uppdatera operativsystemet till senaste versionen och installera alla nödvändiga beroenden. Dessa förberedelser garanterar en stabil miljö och minskar risken för problem under eller efter installationen.
 
 ### Uppdatera systemet
 För att säkerställa att ditt system kör den senaste mjukvaran och säkerhetsuppdateringarna bör du alltid börja med att uppdatera systemet. Kör följande kommando:
@@ -50,7 +51,7 @@ sudo apt update && sudo apt upgrade -y
 Detta ser till att ditt system har de senaste säkerhetspatcharna och mjukvaruversionerna innan du går vidare.
 
 ### Installera beroenden
-När uppdateringen är klar kan du fortsätta med att installera beroenden.
+När uppdateringen är klar kan du installera de nödvändiga beroendena.
 
 #### Git
 Plausible-data laddas ner via GitHub, vilket kräver att Git är installerat. Kör detta kommando:
@@ -68,7 +69,7 @@ curl -fsSL https://get.docker.com -o get-docker.sh
 sh get-docker.sh
 ```
 
-En komplett guide för installation och användning av Docker finns i vår [Docker](vserver-linux-docker.md)-guide.
+En komplett guide för installation och användning av Docker finns i vår [Docker](dedicated-linux-docker.md)-guide.
 
 ## Installation
 Nu när alla krav är uppfyllda och förberedelserna klara kan du installera Plausible.
@@ -79,7 +80,7 @@ Börja med att klona Community Edition-repot och skapa konfigurationsfilen:
 $ git clone -b v3.0.1 --single-branch https://github.com/Plausible/community-edition Plausible-ce
 ```
 
-Skapa sedan en miljöfil (.env) och definiera de viktiga variablerna. BASE_URL måste peka på den faktiska domänen som redan har en DNS-post som pekar till din server. Du behöver också generera en slumpmässig SECRET_KEY_BASE med minst 64 bytes:
+Skapa sedan en miljöfil (.env) och definiera de viktigaste variablerna. BASE_URL ska peka på den faktiska domänen som redan har en DNS-post som pekar till din server. Du behöver också generera en slumpmässig SECRET_KEY_BASE med minst 64 bytes:
 
 ```
 touch .env
@@ -89,7 +90,7 @@ echo "HTTP_PORT=80" >> .env
 echo "HTTPS_PORT=443" >> .env
 ```
 
-Verifiera filens innehåll med `cat .env` för att säkerställa att värdena är korrekta. Utdata ska se ut så här:
+Kontrollera filens innehåll med `cat .env` för att bekräfta att värdena är korrekta. Utdata bör se ut så här:
 
 ```
 BASE_URL=https://Plausible.example.com
@@ -110,7 +111,7 @@ services:
 EOF 
 ```
 
-Starta slutligen de nödvändiga tjänsterna med Docker Compose:
+Starta slutligen tjänsterna med Docker Compose:
 
 ```
 docker compose up -d
@@ -122,23 +123,23 @@ När containrarna körs, öppna din webbläsare på domänen som anges i BASE_UR
 
 ## Konfiguration
 
-Plausible kan integreras med Google Search Console för att berika din analys med sökordsdata. Det låter dig se vilka sökord som driver trafik till din sajt och ger djupare insikter om besökarnas beteende.
+Plausible kan integreras med Google Search Console för att berika din statistik med sökordsdata. Det låter dig se vilka sökord som driver trafik till din sajt och ger djupare insikter om besökarnas beteende.
 
-Om du redan har ett Google Cloud-konto och en OAuth-klient konfigurerad, behöver du bara lägga till dina uppgifter (`GOOGLE_CLIENT_ID` och `GOOGLE_CLIENT_SECRET`) i `.env`-filen. Spara och starta om Docker-tjänsterna med `docker compose up -d`. Gå sedan till *Site Settings > Integrations* i Plausible för att slutföra kopplingen och följa autentiseringsstegen.
+Har du redan ett Google Cloud-konto och en OAuth-klient konfigurerad behöver du bara lägga till dina uppgifter (`GOOGLE_CLIENT_ID` och `GOOGLE_CLIENT_SECRET`) i `.env`-filen. Spara och starta om Docker-tjänsterna med `docker compose up -d`. Gå sedan till *Site Settings > Integrations* i Plausible för att slutföra kopplingen och följa autentiseringsstegen.
 
-Om du inte har en OAuth-klient eller är osäker på processen, erbjuder Plausibles officiella Wiki en detaljerad steg-för-steg-guide. Den visar hur du skapar ett projekt i Google Cloud, aktiverar nödvändiga API:er, konfigurerar en OAuth-klient och lägger till uppgifterna i Plausible: [Plausible Wiki: Google Integration](https://github.com/Plausible/community-edition/wiki/google-integration).
+Om du inte har en OAuth-klient eller är osäker på processen finns en detaljerad guide i Plausibles officiella Wiki. Den visar hur du skapar ett projekt i Google Cloud, aktiverar nödvändiga API:er, konfigurerar OAuth-klienten och lägger till uppgifterna i Plausible: [Plausible Wiki: Google Integration](https://github.com/Plausible/community-edition/wiki/google-integration).
 
-Om du använder Google Search Console kan du konfigurera Google Integration för att hämta data om söktermer, vilket är riktigt smidigt.
+Om du använder Google Search Console kan du alltså konfigurera Google Integration för att hämta data om söktermer – riktigt smidigt!
 
-Har du redan ett Google Cloud-konto med en OAuth-klient kan du enkelt klistra in `GOOGLE_CLIENT_ID` och `GOOGLE_CLIENT_SECRET` i `.env`-filen, starta om Docker med `docker compose up -d` och följa instruktionerna i Plausibles Site Settings > Integrations.
+Har du redan ett Google Cloud-konto med OAuth-klient kan du enkelt klistra in `GOOGLE_CLIENT_ID` och `GOOGLE_CLIENT_SECRET` i `.env`, starta om med `docker compose up -d` och följa instruktionerna i Plausibles Site Settings > Integrations.
 
 ## Avslutning och fler resurser
 
-Grattis! Du har nu installerat och konfigurerat Plausible på din VPS. Vi rekommenderar också att du kikar på följande resurser som kan ge dig extra hjälp och tips under din serverkonfiguration:
+Grattis! Du har nu installerat och konfigurerat Plausible på din VPS/Dedikerade server. Vi rekommenderar även att du kikar på följande resurser som kan ge dig extra hjälp och tips under din serverkonfiguration:
 
-- [Plausible.io](https://Plausible.io/) - Officiell webbplats
-- [github.com/Plausible/analytics](https://github.com/Plausible/analytics) - Nyheter, diskussioner, buggrapporter
+- [Plausible.io](https://Plausible.io/) – Officiell webbplats
+- [github.com/Plausible/analytics](https://github.com/Plausible/analytics) – Nyheter, diskussioner, buggrapporter
 
-Har du frågor som inte täcks här? Tveka inte att kontakta vår support, som finns tillgänglig varje dag för att hjälpa dig! 🙂
+Har du frågor som inte täcks här? Tveka inte att kontakta vår support, vi finns tillgängliga varje dag för att hjälpa dig! 🙂
 
 <InlineVoucher />

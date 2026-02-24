@@ -1,17 +1,18 @@
 ---
 id: vserver-linux-plesk
-title: "vServer: Installation von Plesk"
-description: "Entdecke, wie du Websites und Server effizient mit Plesk verwaltest – für Anfänger und Profis → Jetzt mehr erfahren"
+title: "Plesk auf einem Linux Server einrichten – Websites mit einem starken Control Panel managen"
+description: "Entdecke, wie du Websites und Server effizient mit Plesk verwaltest – perfekt für Anfänger und Profis → Jetzt mehr erfahren"
 sidebar_label: Plesk installieren
 services:
   - vserver
+  - dedicated
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
 
-Plesk ist eine umfassende Webhosting- und Servermanagement-Plattform, mit der du Websites, Server, E-Mail-Konten und mehr über eine benutzerfreundliche Oberfläche verwalten kannst. Es ist eine vielseitige Lösung, die sich sowohl für Einsteiger als auch für erfahrene Webentwickler und Systemadministratoren eignet.
+Plesk ist eine umfassende Webhosting- und Servermanagement-Plattform, mit der du Websites, Server, E-Mail-Konten und mehr über eine benutzerfreundliche Oberfläche verwalten kannst. Es ist eine vielseitige Lösung, die sowohl für Einsteiger als auch für erfahrene Webentwickler und Systemadministratoren geeignet ist.
 
 <InlineVoucher />
 
@@ -33,16 +34,16 @@ import TabItem from '@theme/TabItem';
 
 <TabItem value="One-Click Installation" label="One-Click Installation" default>
 
-Damit Plesk vollautomatisch mit den Standard-Komponenten und Features installiert wird, die die meisten Plesk-Nutzer verwenden, reicht ein einziger Befehl:
+Damit Plesk vollautomatisch mit den Standardkomponenten installiert wird, die die meisten Plesk-Nutzer verwenden, reicht ein einziger Befehl:
 
->Der Plesk-Installer installiert immer die neueste Version von Plesk. Es kann vorkommen, dass die hier gezeigten Grafiken/Screenshots nicht die aktuellste Version zeigen.
+>Der Plesk Installer installiert immer die neueste Version von Plesk. Es kann vorkommen, dass die hier gezeigten Grafiken/Screenshots nicht die aktuellste Version zeigen.
 
 ```
 sh <(curl https://autoinstall.plesk.com/one-click-installer || wget -O - https://autoinstall.plesk.com/one-click-installer)
 ```
 
 :::info
-Wenn der Fehler "-bash: curl: command not found" erscheint, musst du das Paket mit `apt install curl` nachinstallieren.
+Wenn der Fehler „-bash: curl: command not found“ erscheint, musst du das Paket mit `apt install curl` nachinstallieren.
 :::
 
 Nachdem der Befehl ausgeführt wurde, dauert die vollständige Installation von Plesk in der Regel zwischen 15 und 60 Minuten.
@@ -50,11 +51,11 @@ Nachdem der Befehl ausgeführt wurde, dauert die vollständige Installation von 
 :::info
 Die SSH-Sitzung darf während der Installation nicht geschlossen werden, sonst bricht die Installation ab.
 :::
-Ansonsten müsste der Server neu installiert werden, um den Installer neu zu starten. 
-Wird der Installer ohne Neuinstallation des Servers neu gestartet, kann es zu Problemen mit nicht funktionierenden Features während der Installation oder im Plesk-Panel kommen.
+Ansonsten müsste der Server neu installiert werden, um den Installer neu zu starten.
+Wird der Installer ohne Neuinstallation des Servers neu gestartet, kann es zu Problemen mit nicht funktionierenden Features während der Installation oder im Plesk Panel kommen.
 
 :::info
-Es kann so aussehen, als ob der Installer „hängt“. In 99 % der Fälle läuft der Installer nach ein paar Minuten weiter, da noch Pakete/Konfigurationen eingerichtet werden müssen.
+Es kann so aussehen, als ob der Installer „hängt“. In 99 % der Fälle läuft er nach ein paar Minuten weiter, da noch Pakete/Konfigurationen eingerichtet werden müssen.
 :::
 
 Die Installation ist abgeschlossen, wenn Folgendes angezeigt wird:
@@ -64,18 +65,18 @@ Die Installation ist abgeschlossen, wenn Folgendes angezeigt wird:
 </TabItem>
 <TabItem value="Web Installation" label="Web Installation">
 
-Für die Installation von Plesk über das Web sind nur wenige Befehle nötig.
+Für die Web-Installation von Plesk sind nur wenige Befehle nötig.
 
 :::info
-Der Plesk-Installer installiert immer die neueste Version von Plesk. Es kann vorkommen, dass die hier gezeigten Grafiken/Screenshots nicht die aktuellste Version zeigen.
+Der Plesk Installer installiert immer die neueste Version von Plesk. Es kann vorkommen, dass die hier gezeigten Grafiken/Screenshots nicht die aktuellste Version zeigen.
 :::
 
-Lade den Plesk-Installer herunter:
+Lade den Plesk Installer herunter:
 ```
 wget https://autoinstall.plesk.com/plesk-installer
 ```
 
-Setze die korrekten Berechtigungen:
+Setze die richtigen Berechtigungen:
 
 ```
 chmod +x plesk-installer
@@ -90,10 +91,10 @@ Starte den Installer:
 </TabItem>
 <TabItem value="Konsolen Installation" label="Konsolen Installation">
 
-Für die Installation von Plesk über die Konsole sind nur wenige Befehle nötig.
+Für die Konsolen-Installation von Plesk sind nur wenige Befehle nötig.
 
 :::info
-Der Plesk-Installer installiert immer die neueste Version von Plesk. Es kann vorkommen, dass die hier gezeigten Grafiken/Screenshots nicht die aktuellste Version zeigen.
+Der Plesk Installer installiert immer die neueste Version von Plesk. Es kann vorkommen, dass die hier gezeigten Grafiken/Screenshots nicht die aktuellste Version zeigen.
 :::
 
 Lade den Installer herunter:
@@ -102,7 +103,7 @@ Lade den Installer herunter:
 wget https://autoinstall.plesk.com/plesk-installer
 ```
 
-Setze die korrekten Berechtigungen:
+Setze die richtigen Berechtigungen:
 
 ```
 chmod +x plesk-installer
@@ -114,24 +115,24 @@ Starte den Installer:
 ./plesk-installer
 ```
 
-Nachdem die drei Startbefehle ausgeführt wurden, muss die Lizenz mit "F" bestätigt werden:
+Nachdem die drei Befehle ausgeführt wurden, muss die Lizenz mit „F“ bestätigt werden:
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/XrCa3WYALoDx6H3/preview)
 
-Nach der Bestätigung fragt das System, welche Plesk-Version installiert werden soll – z.B. Plesk Obsidian oder Plesk Onyx. Es wird auch angezeigt, welche Version stabiler ist. Für den produktiven Einsatz wird normalerweise eine „stabile“ Version verwendet. Da die ausgewählten Optionen bereits auf die stabile Version zeigen, bestätige dies erneut mit "F".
+Nach der Bestätigung fragt das System, welche Plesk-Version installiert werden soll – z.B. Plesk Obsidian oder Plesk Onyx. Es wird auch angezeigt, welche Version stabiler ist. Für den produktiven Einsatz wird normalerweise eine „stabile“ Version verwendet. Da die voreingestellten Optionen bereits auf die stabile Version zeigen, bestätige das nochmal mit „F“.
 
-Die Frage, ob Plesk Daten zur Produktverbesserung sammeln darf, kannst du mit "Y" (Ja) oder "n" (Nein) beantworten.
+Ob Plesk Daten zur Produktverbesserung sammeln darf, kannst du mit „Y“ (Ja) oder „n“ (Nein) beantworten.
 
-Anschließend fragt das System, welchen Typ der ausgewählten Plesk-Version du installieren möchtest. In der Regel reicht der voreingestellte Typ „Empfohlen“ aus. Module, die später benötigt werden, können im Plesk-Panel nachinstalliert werden.
+Danach fragt das System, welchen Typ der ausgewählten Plesk-Version du installieren möchtest. Meist reicht der voreingestellte Typ „Recommended“ aus. Module, die später benötigt werden, können im Plesk Panel nachinstalliert werden.
 
-Die nächste Frage, ob Pakete installiert/aktualisiert werden dürfen, bestätigst du mit "F".
+Die nächste Frage, ob Pakete installiert/aktualisiert werden dürfen, bestätigst du mit „F“.
 
 Jetzt startet der Installer die Installation.
 
 :::info
 Die SSH-Sitzung darf während der Installation nicht geschlossen werden, sonst bricht die Installation ab und der Server müsste neu installiert werden, um den Installer neu zu starten.
 :::
-Es kann so aussehen, als ob der Installer „hängt“. In 99 % der Fälle läuft der Installer nach ein paar Minuten weiter, da noch Pakete/Konfigurationen eingerichtet werden müssen.
+Es kann so aussehen, als ob der Installer „hängt“. In 99 % der Fälle läuft er nach ein paar Minuten weiter, da noch Pakete/Konfigurationen eingerichtet werden müssen.
 
 Die Installation ist abgeschlossen, sobald Folgendes erscheint:
 
@@ -147,50 +148,50 @@ Nachdem der Installer gestartet wurde, läuft die Installation im Browser weiter
 ## Das Plesk Web Panel
 
 :::info
-Beim Aufruf des Web Panels erscheint die Meldung: „Dies ist keine sichere Verbindung“. Diese muss beim ersten Mal bestätigt werden, danach öffnet sich die Seite.
+Beim ersten Aufruf des Web Panels erscheint die Meldung „Dies ist keine sichere Verbindung“. Diese musst du bestätigen, danach öffnet sich die Seite.
 :::
 
-Die Weboberfläche erreichst du über https://IP:8443 oder https://Domain.xx:8443 des Servers. Die Login-Daten sind root/admin und das aktuelle Root-Passwort. Alternativ kannst du einfach eine der angezeigten URLs verwenden. Sollten diese nicht mehr gültig sein, kannst du mit dem Befehl ``plesk login`` neue URLs erstellen.
+Die Weboberfläche erreichst du über https://IP:8443 oder https://Domain.xx:8443 des Servers. Die Login-Daten sind root/admin und das aktuelle Root-Passwort. Alternativ kannst du einfach eine der angezeigten URLs nutzen. Sollten diese nicht mehr gültig sein, kannst du neue URLs mit dem Befehl ``plesk login`` erstellen.
 
 ### Einrichtung
 
-Sobald die Anmeldung erfolgreich war, muss das Admin-Konto eingerichtet werden. Ein Kontaktname, eine E-Mail-Adresse und ein Passwort müssen eingegeben werden. Falls du bereits eine Plesk-Lizenz hast, kannst du diese direkt eingeben. Alternativ kannst du eine 15-tägige Testlizenz von Plesk anfordern. Abschließend muss der Benutzervertrag bestätigt werden.
+Sobald die Anmeldung erfolgreich war, muss das Admin-Konto eingerichtet werden. Ein Kontaktname, eine E-Mail-Adresse und ein Passwort müssen eingegeben werden. Falls du bereits eine Plesk-Lizenz hast, kannst du diese direkt eingeben. Alternativ kannst du eine 15-tägige Testlizenz von Plesk anfordern. Zum Schluss muss der Benutzervertrag bestätigt werden.
 Plesk kann jetzt genutzt werden.
 
 ### Sprache einstellen
 
-Nach der Installation ist das Plesk-Panel standardmäßig auf Englisch. Die deutsche Sprache kannst du unter Tools & Einstellungen ➡️ Plesk-Aussehen ➡️ Sprachen einstellen oder auswählen. Dort muss „de-DE“ ausgewählt werden. Anschließend kannst du die Sprache für alle dauerhaft festlegen, indem du auf „Als Standard festlegen“ klickst.
-Nach einem Logout und Login findest du das Plesk-Panel auf Deutsch.
+Nach der Installation ist das Plesk Panel standardmäßig auf Englisch. Die deutsche Sprache kannst du unter Tools & Einstellungen ➡️ Plesk Erscheinungsbild ➡️ Sprachen auswählen. Dort wählst du „de-DE“ aus. Anschließend kannst du die Sprache für alle dauerhaft einstellen, indem du auf „Als Standard festlegen“ klickst.
+Nach einem Logout und Login findest du das Plesk Panel auf Deutsch.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/6Wo8Qz3oMXGzn3t/preview)
 
 ### Domain hinzufügen
 
-Um die erste Domain hinzuzufügen, klicke auf den blauen Button „Domain hinzufügen“.
+Um die erste Domain hinzuzufügen, klick auf den blauen Button „Domain hinzufügen“.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/2S4mgRPctffS452/preview)
 
-Jetzt kannst du deine eigene Domain eingeben. Außerdem müssen eine IP-Adresse sowie ein Benutzername und Passwort für den Webspace der Domain definiert werden. Wenn die Subdomain „www“ bereits in der DNS der Domain eingetragen ist, kann direkt ein SSL-Zertifikat von Let’s Encrypt erstellt werden. Diese Option kannst du auswählen, nachdem du eine Mailadresse eingegeben hast, und bestätigst dann mit dem blauen „OK“-Button.
+Jetzt kannst du deine eigene Domain eingeben. Außerdem müssen eine IP-Adresse sowie ein Benutzername und Passwort für den Webspace der Domain definiert werden. Wenn die Subdomain „www“ bereits in der DNS der Domain eingetragen ist, kann direkt ein SSL-Zertifikat von Let’s Encrypt erstellt werden. Diese Option kannst du auswählen, nachdem du eine Mailadresse eingegeben hast, und bestätigst mit dem blauen „OK“-Button.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/SLSBz5TRH2mDBB8/preview)
 
 :::info
-Die Domain muss auf die IP des Webspaces zeigen. Wenn die Domain von ZAP-Hosting ist, kann sie einfach über EasyDNS auf den Webspace weitergeleitet werden. Bei externen Domains muss ein A-Record auf die IP gesetzt werden, und die Subdomains „www“ und „webmail“ müssen ebenfalls auf die IP zeigen. Ein MX-Record sollte ebenfalls auf die IP des Webspaces zeigen.
+Die Domain muss auf die IP des Webspaces zeigen. Wenn die Domain von ZAP-Hosting ist, kannst du sie einfach über EasyDNS auf den Webspace weiterleiten. Bei externen Domains muss ein A-Record auf die IP gesetzt werden, und die Subdomains „www“ und „webmail“ müssen ebenfalls auf die IP zeigen. Ein MX-Record sollte ebenfalls auf die IP des Webspaces zeigen.
 
-Es kann bis zu 24 Stunden dauern, bis ein neuer/geänderter DNS-Eintrag an die richtige Stelle weitergeleitet wird.
+Es kann bis zu 24 Stunden dauern, bis neue oder geänderte DNS-Einträge korrekt weitergeleitet werden.
 :::
 
 ## SSL-Verschlüsselung
 
-Während der Domain-Registrierung/Erstellung des Webspaces wurde bereits ein SSL-Zertifikat von Let’s Encrypt generiert. Dieses kannst du jetzt unter „Hosting-Einstellungen“ der Domain eintragen/auswählen. Danach musst du mit einem Klick auf „Übernehmen“ bestätigen.
+Während der Domain-Registrierung/Erstellung des Webspaces wurde bereits ein SSL-Zertifikat von Let’s Encrypt generiert. Dieses kannst du jetzt unter „Hosting-Einstellungen“ der Domain auswählen. Danach bestätigst du mit einem Klick auf „Übernehmen“.
 
 :::info
-Damit beim Aufruf der Webseite dauerhaft auf HTTPS (SSL) weitergeleitet wird, muss die Checkbox „Dauerhafte, SEO-freundliche 301-Weiterleitung von HTTP zu HTTPS“ aktiviert sein.
+Damit deine Webseite dauerhaft per HTTPS (SSL) aufgerufen wird, muss die Checkbox „Dauerhafte, SEO-freundliche 301-Weiterleitung von HTTP zu HTTPS“ aktiviert sein.
 :::
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/HL4tcnTqJtX7be9/preview)
 
-Wenn die Domain jetzt im Browser geöffnet wird, zeigt sie ihre Verschlüsselung an.
+Wenn du die Domain jetzt im Browser öffnest, wird die Verschlüsselung angezeigt.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/xcqwAQWK77X3yip/preview)
 
@@ -200,6 +201,6 @@ Die Installation sowie die Einrichtung der ersten Domain mit Verschlüsselung si
 
 ## Fazit
 
-Glückwunsch, du hast Plesk erfolgreich installiert und konfiguriert! Wenn du weitere Fragen oder Probleme hast, steht dir unser Support-Team täglich zur Verfügung und hilft dir gerne weiter!
+Glückwunsch, du hast Plesk erfolgreich installiert und eingerichtet! Falls du noch Fragen oder Probleme hast, steht dir unser Support-Team täglich zur Verfügung und hilft dir gerne weiter!
 
 <InlineVoucher />

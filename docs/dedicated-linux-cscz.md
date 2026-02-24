@@ -1,26 +1,27 @@
 ---
 id: dedicated-linux-cscz
-title: "Dedicated Server: Counter-Strike: Condition Zero Dedicated Server Linux Setup"
-description: "Discover how to set up a Counter-Strike: Condition Zero dedicated server on Linux VPS for seamless gameplay management → Learn more now"
+title: "Counter-Strike: Condition Zero Dedicated Server Linux Setup"
+description: "Discover how to set up a Counter-Strike: Condition Zero dedicated server on Linux server for seamless gameplay management → Learn more now"
 sidebar_label: "Counter-Strike: Condition Zero"
 services:
   - vserver
+  - dedicated
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introduction
-Do you have a Linux VPS and you want to install the Counter-Strike: Condition Zero Dedicated server service on it? You are in the right place. In this guide, we will explain the step by step process of installing this service on your Linux server through the use of SteamCMD. We will be using Ubuntu in the examples, but the process should be very similar for other distributions.
+Do you have a Linux VPS/Dedicated Server and you want to install the Counter-Strike: Condition Zero Dedicated server service on it? You are in the right place. In this guide, we will explain the step by step process of installing this service on your Linux server through the use of SteamCMD. We will be using Ubuntu in the examples, but the process should be very similar for other distributions.
 
 :::tip
-Did you know that you can install our **ZAP GS/TS3 Interface** directly onto your VPS, allowing you to setup game server services, with direct integration to your ZAP-Hosting dashboard, in just a few clicks! Learn more about the [GS/TS3 Interface](dedicated-linux-gs-interface.md).
+Did you know that you can install our **ZAP GS/TS3 Interface** directly onto your VPS/Dedicated Server, allowing you to setup game server services, with direct integration to your ZAP-Hosting dashboard, in just a few clicks! Learn more about the [GS/TS3 Interface](dedicated-linux-gs-interface.md).
 :::
 
 
 
 ## Preparation
 
-To begin with, connect to your VPS via SSH. Use our [SSH Initial Access](dedicated-linux-ssh.md) guide if you need help doing this. You will also have to complete a first-time setup for SteamCMD if this is your first time using this on your Linux server. Please use our [SteamCMD Linux Setup](dedicated-linux-steamcmd.md) guide and ensure SteamCMD is fully setup before proceeding.
+To begin with, connect to your VPS/Dedicated Server via SSH. Use our [SSH Initial Access](dedicated-linux-ssh.md) guide if you need help doing this. You will also have to complete a first-time setup for SteamCMD if this is your first time using this on your Linux server. Please use our [SteamCMD Linux Setup](dedicated-linux-steamcmd.md) guide and ensure SteamCMD is fully setup before proceeding.
 
 ## Installation
 
@@ -59,7 +60,7 @@ You should now see logs appear in your command prompt which signals that the sta
 
 ## Conclusion
 
-Congratulations, you have successfully installed and configured the Counter-Strike: Condition Zero server on your VPS! As a next step, we recommend looking over our [Setup Linux Service](dedicated-linux-create-gameservice.md) guide, which covers setting up your new dedicated game server as a service. This provides various benefits including automatic server launching on boot, automatic server updates, easy management and access to logs, plus much more!
+Congratulations, you have successfully installed and configured the Counter-Strike: Condition Zero server on your VPS/Dedicated Server! As a next step, we recommend looking over our [Setup Linux Service](dedicated-linux-create-gameservice.md) guide, which covers setting up your new dedicated game server as a service. This provides various benefits including automatic server launching on boot, automatic server updates, easy management and access to logs, plus much more!
 
 For further questions or assistance, please don't hesitate to contact our support team, which is available daily to assist you! 🙂
 

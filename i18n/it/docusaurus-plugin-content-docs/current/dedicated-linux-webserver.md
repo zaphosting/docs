@@ -1,9 +1,10 @@
 ---
 id: dedicated-linux-webserver
-title: "Dedicated Server: Installazione di Nginx e Apache webserver"
-description: "Scopri come configurare e installare i web server Nginx o Apache per ospitare il tuo sito in modo efficiente → Scopri di più ora"
+title: "Configura Nginx e Apache su un Server Linux - Imposta Ambienti Web Potenti"
+description: "Scopri come installare e configurare i web server Nginx o Apache per ospitare il tuo sito in modo efficiente → Scopri di più ora"
 sidebar_label: Installa webserver
 services:
+  - vserver
   - dedicated
 ---
 
@@ -11,13 +12,11 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introduzione
 
-Nginx e Apache sono web server super popolari usati per consegnare pagine web direttamente al browser degli utenti. Qui sotto ti mostriamo come installare uno di questi servizi sul tuo sistema.
-
-
+Nginx e Apache sono web server super popolari usati per consegnare pagine web al browser degli utenti. Qui sotto ti mostriamo come installare uno di questi servizi sul tuo sistema.
 
 ## Preparazione
 
-Prima di partire con l’installazione vera e propria del webserver, è fondamentale assicurarsi che il sistema sia aggiornato. Per farlo, connettiti al server via SSH. Se non sai cos’è SSH o come usarlo, dai un’occhiata a questa guida: [Accesso iniziale (SSH)](vserver-linux-ssh.md).
+Prima di partire con l’installazione vera e propria del webserver, è fondamentale assicurarsi che il sistema sia aggiornato. Per farlo, ci connettiamo al server via SSH. Se non sai cos’è SSH o come usarlo, dai un’occhiata a questa guida: [Accesso iniziale (SSH)](vserver-linux-ssh.md).
 
 Una volta dentro, aggiorna il sistema con il comando giusto per il tuo OS:
 
@@ -38,13 +37,9 @@ sudo zypper update
 sudo dnf upgrade --refresh
 ```
 
-
-
 ## Installazione
 
-Dopo aver completato la preparazione, puoi partire con l’installazione del webserver. A seconda del sistema operativo e del webserver scelto, esegui uno di questi comandi:
-
-
+Dopo aver preparato tutto, puoi finalmente installare il webserver. A seconda del sistema operativo e del webserver scelto, esegui uno di questi comandi:
 
 ### Apache
 
@@ -65,13 +60,11 @@ sudo zypper install httpd
 sudo dnf install httpd
 ```
 
-Dopo aver installato il webserver, puoi caricare i file del tuo sito. Connettiti al server via FTP/SFTP, vai nella cartella qui sotto e carica i file.
+Dopo l’installazione, puoi caricare i file del tuo sito. Connettiti al server via FTP/SFTP, vai nella cartella qui sotto e carica i tuoi file:
 
 ```
 /var/www/html/
 ```
-
-
 
 ### Nginx
 
@@ -92,19 +85,15 @@ sudo zypper install nginx
 sudo dnf install nginx
 ```
 
-Dopo aver installato il webserver, puoi caricare i file del tuo sito. Connettiti al server via FTP/SFTP, vai nella cartella qui sotto e carica i file.
+Dopo l’installazione, carica i file del tuo sito. Connettiti via FTP/SFTP, naviga in questa directory e carica i file:
 
 ```
 /usr/share/nginx/html
 ```
 
+## Controllo Versione
 
-
-## Controllo versione
-
-Una volta finita l’installazione, puoi verificare che tutto sia andato a buon fine con i comandi `apache2 -v` (per Apache) e `nginx -v` (per Nginx). L’output dovrebbe essere simile a questo:
-
-
+Una volta finito, verifica che tutto sia andato a buon fine con questi comandi: `apache2 -v` per Apache e `nginx -v` per Nginx. Dovresti vedere un output simile a questo:
 
 ### Apache
 
@@ -114,8 +103,6 @@ Server version: Apache/2.4.41 (Ubuntu)
 Server built:   XXXX-XX-XXTXX:XX:XX
 ```
 
-
-
 ### Nginx
 
 ```
@@ -124,4 +111,4 @@ nginx version: nginx/1.2.3
 ...
 ```
 
-Se vedi uno di questi output, il webserver è stato installato con successo.
+Se vedi qualcosa di simile, congratulazioni: il tuo webserver è installato e pronto all’uso!

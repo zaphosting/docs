@@ -8,10 +8,10 @@ services:
   - dedicated-service-openclaw
 ---
 
-import Button from '@site/src/components/Button';
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 import InlineVoucher from '@site/src/components/InlineVoucher';
+import InlineServiceLink from '@site/src/components/InlineServiceLink';
 
 ## Introduction
 
@@ -23,7 +23,7 @@ What makes OpenClaw especially revolutionary is that it enables a modern “cont
 
 Considering about hosting this service yourself? We’ll walk you through every step on how to set it up and configure it, along with everything you need to keep in mind.
 
-<Button label="Order your own Server with OpenClaw now!" link="https://zap-hosting.com/en/vps-for-openclaw/" block style={{backgroundColor: '#ECFCCB', color: '#27272A', border: '1px solid lightgrey' }} />
+
 
 <InlineVoucher />
 
@@ -52,7 +52,7 @@ Depending on how you plan to use **OpenClaw**, resource usage can increase quick
 | RAM        | 4 GB         | 16 GB                      |
 | Disk space | 25 GB        | 50 GB                      |
 
-<Button label="Order your own Server with OpenClaw now!" link="https://zap-hosting.com/en/vps-for-openclaw/" block style={{backgroundColor: '#ECFCCB', color: '#27272A', border: '1px solid lightgrey' }} />
+<InlineServiceLink />
 
 
 ## Installation
@@ -240,6 +240,8 @@ After a channel is connected successfully, OpenClaw can receive and respond to m
 OpenClaw is a powerful tool and should always be used with proper security precautions. The Gateway Dashboard is protected by a token, which works like a password and grants access to your OpenClaw instance. Never share this gateway token publicly (for example in screenshots, tickets, or chat logs), as anyone with the token can access and control the dashboard.
 
 It is recommended to keep OpenClaw protected behind a firewall and avoid exposing the gateway interface directly to the public internet. By default, OpenClaw binds the gateway service to `127.0.0.1`, which prevents external access and is the safest option for most use cases. To access the dashboard remotely, use SSH port forwarding and restrict access to trusted users only.
+
+<InlineServiceLink />
 
 
 

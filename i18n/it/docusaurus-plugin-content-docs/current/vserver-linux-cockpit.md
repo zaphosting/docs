@@ -1,46 +1,47 @@
 ---
 id: vserver-linux-cockpit
-title: "VPS: Installation von Cockpit"
-description: "Entdecke, wie du Linux-Server effizient mit der Weboberfläche von Cockpit verwaltest – perfekt für Einsteiger und Profis → Jetzt mehr erfahren"
-sidebar_label: Cockpit installieren
+title: "Configura Cockpit su un Server Linux - Gestisci il Tuo Server via Interfaccia Web"
+description: "Scopri come gestire i server Linux in modo efficiente con l’interfaccia web di Cockpit, perfetta per principianti ed esperti → Scopri di più ora"
+sidebar_label: Installa Cockpit
 services:
   - vserver
+  - dedicated
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
-## Einführung
+## Introduzione
 
-Cockpit ist eine Weboberfläche zur Verwaltung von einem oder mehreren Linux-Servern (Cluster). Von einfachen Log-Ausgaben bis hin zur Raid-Verwaltung bietet Cockpit viele Features.  
-Cockpit ist ideal für Einsteiger, aber auch für fortgeschrittene Nutzer, die schnell alles Wichtige im Blick haben und steuern wollen. Außerdem kannst du von fast jedem Gerät darauf zugreifen.  
-Die Projektseite findest du unter https://cockpit-project.org/. 
+Cockpit è un’interfaccia web per gestire uno o più server Linux (cluster). Dai semplici log alla gestione del raid, Cockpit offre tante funzionalità.  
+È adatto sia ai principianti che agli utenti avanzati che vogliono vedere/gestire tutto ciò che conta in poco tempo. Inoltre, è accessibile da quasi qualsiasi dispositivo.  
+Il sito ufficiale del progetto è https://cockpit-project.org/. 
 
 :::info
-Diese Anleitung erklärt die Installation für Debian (ab Buster) und Ubuntu (ab Bionic Beaver). Die Installation ist auch auf der Projektseite für Fedora, Red Hat, Fedora CoreOS, CentOS, Clear Linux, Arch Linux und Tumbleweed verfügbar.  
+Questa guida spiega l’installazione per Debian (da Buster) / Ubuntu (da Bionic Beaver). L’installazione è disponibile anche sulla pagina del progetto per Fedora, Red Hat, Fedora CoreOS, CentOS, Clear Linux, Arch Linux e Tumbleweed.   
 :::
 
 <InlineVoucher />
 
-## Installation
+## Installazione
 
-Zuerst muss der Server aktualisiert werden:
+Per prima cosa, aggiorna il server:
 ```
-// Update
+// Aggiorna
 sudo apt update; sudo apt upgrade -y
 ```
-Danach kannst du Cockpit installieren: 
+Poi puoi procedere con l’installazione: 
 ```
-// Cockpit Installation
+// Installa Cockpit
 sudo apt install cockpit -y
 ```
-Nach der Installation erreichst du das Cockpit-Panel über IP:9090.  
-Der Login erfolgt mit den normalen Server-/User-Zugangsdaten. 
+Una volta completata l’installazione, puoi accedere al pannello di Cockpit tramite IP:9090.  
+Il login avviene con le normali credenziali del server/utente. 
 
 ![cockpit](https://screensaver01.zap-hosting.com/index.php/s/2iDf3zFfAxCwkCc/preview)
 
 
-## Fazit
+## Conclusione
 
-Glückwunsch, du hast Cockpit erfolgreich installiert und eingerichtet! Falls du noch Fragen oder Probleme hast, steht dir unser Support-Team täglich zur Seite und hilft dir gerne weiter! 
+Congratulazioni, hai installato e configurato Cockpit con successo! Se hai altre domande o problemi, il nostro supporto è sempre pronto ad aiutarti, tutti i giorni! 
 
 <InlineVoucher />

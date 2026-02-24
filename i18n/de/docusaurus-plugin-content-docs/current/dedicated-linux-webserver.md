@@ -1,9 +1,10 @@
 ---
 id: dedicated-linux-webserver
-title: "Dedicated Server: Installation von Nginx und Apache Webserver"
+title: "Nginx und Apache auf einem Linux Server einrichten – Leistungsstarke Webserver-Umgebungen konfigurieren"
 description: "Entdecke, wie du Nginx oder Apache Webserver einrichtest und konfigurierst, um deine Website effizient zu hosten → Jetzt mehr erfahren"
 sidebar_label: Webserver installieren
 services:
+  - vserver
   - dedicated
 ---
 
@@ -11,15 +12,15 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
 
-Nginx und Apache sind beliebte Webservices, die genutzt werden, um Webseiten an den Browser eines Nutzers auszuliefern. Unten zeigen wir dir, wie du einen der Services auf deinem System installierst.
+Nginx und Apache sind beliebte Webservices, die genutzt werden, um Webseiten an den Browser eines Nutzers auszuliefern. Im Folgenden zeigen wir dir, wie du einen der Services auf deinem System installierst.
 
 
 
 ## Vorbereitung
 
-Bevor die eigentliche Installation eines Webservers starten kann, muss sichergestellt werden, dass das System auf dem neuesten Stand ist. Dafür verbinden wir uns per SSH mit dem Server. Falls du nicht weißt, was SSH ist und wie man es nutzt, schau dir unsere Anleitung an: [Erstzugang (SSH)](vserver-linux-ssh.md).
+Bevor die eigentliche Installation eines Webservers starten kann, muss sichergestellt werden, dass das System auf dem neuesten Stand ist. Dazu verbinden wir uns per SSH mit dem Server. Falls du nicht weißt, was SSH ist und wie du es nutzt, schau dir unsere Anleitung an: [Erstzugang (SSH)](vserver-linux-ssh.md).
 
-Dort kannst du das System je nach Betriebssystem mit folgendem Befehl updaten:
+Dort angekommen kannst du das System mit folgendem Befehl je nach Betriebssystem updaten:
 
 ```
 // Debian
@@ -42,7 +43,7 @@ sudo dnf upgrade --refresh
 
 ## Installation
 
-Nachdem die Vorbereitung abgeschlossen ist, kann die Installation des Webservers starten. Je nach Betriebssystem und Webserver müssen folgende Befehle ausgeführt werden:
+Nachdem die Vorbereitung abgeschlossen ist, kann die Installation des Webservers starten. Je nach Betriebssystem und Webserver müssen dafür folgende Befehle ausgeführt werden:
 
 
 
@@ -102,7 +103,7 @@ Nach der Installation des Webservers kannst du die Dateien deiner Website hochla
 
 ## Versions-Check
 
-Nach der Installation kannst du mit den Befehlen `apache2 -v` (Apache) und `nginx -v` (Nginx) prüfen, ob die Installation erfolgreich war. Die Ausgabe sollte ungefähr so aussehen:
+Nachdem die Installation abgeschlossen ist, kannst du mit den Befehlen `apache2 -v` (Apache) und `nginx -v` (Nginx) prüfen, ob die Installation erfolgreich war. Die Ausgabe sollte ungefähr so aussehen:
 
 
 
@@ -124,4 +125,4 @@ nginx version: nginx/1.2.3
 ...
 ```
 
-Wenn einer der beiden Fälle eintritt, wurde der Webserver erfolgreich installiert.
+Wenn einer der beiden Fälle eintritt, wurde der Webserver erfolgreich installiert. 

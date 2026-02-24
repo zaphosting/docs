@@ -1,10 +1,11 @@
 ---
 id: vserver-linux-python
-title: "VPS: Python installeren"
-description: "Leer hoe je de Python runtime installeert en update op verschillende Linux distros voor een veilige en up-to-date omgeving → Nu meer ontdekken"
+title: "Python installeren op een Linux Server - Ontwikkeling en Automatisering aanzetten"
+description: "Leer hoe je de Python runtime installeert en update op verschillende Linux distros voor een veilige en up-to-date omgeving → Ontdek het nu"
 sidebar_label: Python installeren
 services:
   - vserver
+  - dedicated
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';
@@ -17,7 +18,7 @@ Deze gids laat je stap voor stap zien hoe je de Python runtime en venv installee
 
 ## Voorbereiding
 
-Voordat je iets installeert op je server, is het slim om eerst het update-commando van jouw OS uit te voeren. Zo houd je je server veilig en up-to-date.
+Voordat je iets installeert op je server, is het slim om eerst het update-commando te draaien dat bij jouw besturingssysteem hoort. Zo houd je je server veilig en up-to-date.
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
@@ -55,7 +56,7 @@ import TabItem from '@theme/TabItem';
 
 ## Installatie
 
-De meeste Linux distros hebben Python al geïnstalleerd, maar soms is de versie niet up-to-date of ontbreken er pakketten. Check eerst of Python al geïnstalleerd is met `python3 --version`. Gebruik daarna onderstaande commando’s om Python te updaten of te installeren.
+De meeste Linux distros hebben Python al geïnstalleerd, maar soms is de versie niet up-to-date of ontbreken er pakketten. Check eerst of Python al geïnstalleerd is met `python3 --version`. Daarna kun je de runtime updaten of installeren met onderstaande commando’s.
 
 <Tabs>
 <TabItem value="ubuntu-debian" label="Ubuntu & Debian" default>
@@ -106,15 +107,15 @@ De meeste Linux distros hebben Python al geïnstalleerd, maar soms is de versie 
 
 ## Code draaien
 
-Nu Python geïnstalleerd is op je server, kun je aan de slag met je Python-programma’s.
+Nu Python op je server staat, kun je aan de slag met je Python-programma’s.
 
 ### Interpreter modus
 
-Met het commando `python3` start je de Python interpreter. Je kunt direct na de `>>>` prompt geldige Python code typen, die wordt uitgevoerd zodra je op `Enter` drukt. Klaar? Typ `exit()` om de interpreter te sluiten.
+Met het commando `python3` start je de Python interpreter. Je kunt direct code typen achter de `>>>` prompt en die wordt uitgevoerd zodra je op `Enter` drukt. Klaar? Typ `exit()` om de interpreter te sluiten.
 
 ### .py bestanden draaien
 
-Wil je een `.py` bestand uitvoeren? Gebruik dan simpelweg `python3 [bestandsnaam].py`, waarbij je `[bestandsnaam]` vervangt door het pad naar het bestand dat je wilt draaien.
+Wil je een `.py` bestand draaien? Gebruik dan simpelweg `python3 [bestandsnaam].py`, waarbij je `[bestandsnaam]` vervangt door het pad naar het bestand dat je wilt uitvoeren.
 
 :::tip
 De meeste programma’s die je online vindt, kun je starten met `python3 main.py`, omdat `main.py` vaak het startpunt is van Python-projecten.
@@ -122,20 +123,20 @@ De meeste programma’s die je online vindt, kun je starten met `python3 main.py
 
 ## Virtuele omgevingen
 
-Als je Python-programma externe pakketten via pip nodig heeft, kun je die globaal installeren of een virtuele omgeving (venv) aanmaken.
+Als je Python-programma externe pakketten via pip nodig heeft, kun je die globaal installeren, maar beter is het om een virtuele omgeving (venv) te maken.
 
 ### Venv aanmaken
 
-Ga eerst naar de map waar je de venv wilt maken met `cd`. Run daarna `python3 -m venv .` om de benodigde bestanden in die map te installeren.
+Ga eerst naar de map waar je je venv wilt maken met `cd`. Run daarna `python3 -m venv .` om de benodigde bestanden in die map te installeren.
 
 ### Activeren & deactiveren
 
-Om binnen je venv commando’s zoals `pip install` te gebruiken, moet je de venv activeren met `source /bin/activate`. Vanaf dat moment draait je console alleen binnen de venv en hebben scripts alleen toegang tot lokaal geïnstalleerde pakketten.
+Om binnen je venv commando’s zoals `pip install` te gebruiken, moet je ‘m activeren met `source /bin/activate`. Vanaf dat moment draait je console alleen binnen de venv en hebben scripts alleen toegang tot lokaal geïnstalleerde pakketten.
 
-Klaar met werken in de venv? Typ `deactivate` om terug te gaan naar je normale omgeving.
+Klaar? Typ `deactivate` om de venv weer te verlaten.
 
 ## Afsluiting
 
-Gefeliciteerd, je hebt Python succesvol geïnstalleerd en ingesteld! Heb je nog vragen of problemen? Ons supportteam staat elke dag voor je klaar om je te helpen!
+Gefeliciteerd, je hebt Python succesvol geïnstalleerd en ingesteld! Heb je nog vragen of problemen? Onze support staat elke dag voor je klaar om je te helpen!
 
 <InlineVoucher />
