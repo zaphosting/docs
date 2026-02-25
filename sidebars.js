@@ -623,6 +623,7 @@ const sidebars = {
           items: [
             "ark-troubleshooting-common-issues",
             "ark-serverlisting",
+            "ark-troubleshooting-ram-issues",
           ]
         },
       ],
@@ -2459,7 +2460,10 @@ const sidebars = {
             "humanitz-change-weather",
             "humanitz-change-zombie-difficulty",
             "humanitz-enable-disable-death-notifications",
-            "humanitz-enable-disable-voice-chat"
+            "humanitz-enable-disable-voice-chat",
+            "humanitz-whitelist",
+            "humanitz-change-save-interval",
+            "humanitz-enable-disable-permadeath"
           ]
         },
         {
