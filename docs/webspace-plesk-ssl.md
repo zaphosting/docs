@@ -1,7 +1,7 @@
 ---
 id: webspace-plesk-ssl
-title: "Webspace: Create SSL certificate"
-description: "Discover how to secure your website with SSL encryption and enable HTTPS for safer browsing → Learn more now"
+title: "Webspace: Create an SSL Certificate in Plesk"
+description: "Learn how to secure your website with an SSL certificate in Plesk and enable HTTPS for encrypted connections."
 sidebar_label: Create SSL Certificate
 services:
   - webspace
@@ -9,106 +9,77 @@ services:
 
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
-## Encrypt website with SSL
 
-:::info
-It is assumed that the domain already points to the IP of the web space.
-:::
+## Introduction
 
-If a domain is created in the web space, it is always unencrypted at the beginning. This can be seen in the Plesk panel:
-
-![](https://screensaver01.zap-hosting.com/index.php/s/kkJ67Pd733pt95i/preview)
-
-And the notification in the browser when opening the domain:
-
-![](https://screensaver01.zap-hosting.com/index.php/s/5iwXSgEb4LrY3xf/preview)
-![](https://screensaver01.zap-hosting.com/index.php/s/mpmK8TAjAsgY3FW/preview)
-
-With an SSL certificate, a domain can be protected/encrypted accordingly.
+An SSL certificate encrypts the connection between your website and its visitors. Once HTTPS is enabled, browsers establish a secure connection and display a padlock icon in the address bar. This protects sensitive data, increases trust, and prevents browsers from marking your website as insecure.
 
 <InlineVoucher />
 
-## Creation of the Certificate 
+## Securing Your Main Domain
 
-Step 1️⃣: With a double click on "SSL/TLS Certificate" the following menu opens:
+When a domain is first created in Plesk, it is accessible via HTTP and not encrypted. In the Plesk panel, you can see that no certificate is assigned yet. If you open the domain in a browser at this stage, it will typically be marked as not secure:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/g5sr6WC4eawqzoF/preview)
+![img](https://screensaver01.zap-hosting.com/index.php/s/jGW9QLHwYLFNxgq/download)
 
-A Let's Encrypt Certificate can be requested free of charge.
+To activate encryption, open the domain in your Plesk panel and navigate to **SSL/TLS Certificates**. The corresponding menu will open:
 
-Step 2️⃣: Enter/fill in the required information. In order for the certificate to be requested, details must be provided.
+![img](https://screensaver01.zap-hosting.com/index.php/s/8rSr7Jt3DsjDzBY/download)
 
-A mail address must be specified and a check must be made of what the certificate should be valid for. As a rule, each domain also has the subdomain "www" active, which is why it is also selected if it has also been entered in the DNS of the domain.
+From here, you can request a free Let's Encrypt certificate. During the request process, you must provide a valid email address and select the domain names that should be secured. In most cases, both the root domain and the www subdomain are selected, provided the www entry exists in your DNS configuration:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/Mwf3CEWsYRwprS3/preview)
+![img](https://screensaver01.zap-hosting.com/index.php/s/LTFN73ekPjtikwp/preview)
+
+After confirming the request by clicking **Get it free**, Plesk communicates with Let's Encrypt and issues the certificate automatically. Once the certificate has been created successfully, HTTPS should be enforced by activating the permanent redirect from HTTP to HTTPS in the hosting settings:
+
+![img](https://screensaver01.zap-hosting.com/index.php/s/BN7AMzG6MyMKb38/preview)
+
+After activation, all visitors are automatically redirected to the encrypted HTTPS version of your website. You can verify the installation by opening your domain with https in the browser.
 
 
-The certificate is then requested by clicking on "Get it free".
 
-Step 3️⃣: The certificate has now been created, this can be seen at the top right. In addition, the automatic forwarding from HTTP to HTTPS must now take place, since otherwise encryption cannot be established: 
+## Securing All Subdomains with a Wildcard Certificate
 
-![](https://screensaver01.zap-hosting.com/index.php/s/YBdGQqmtNeWKdxA/preview)
+If multiple subdomains are used or planned, a wildcard certificate provides a more efficient solution. It secures the main domain as well as all existing and future subdomains. To request a wildcard certificate, open the **SSL/TLS Certificates** menu again:
 
-If this has been done, the forwarding is now active. No matter whether you open the page with http or https directly in the browser, it is now always directed to https. 
+![img](https://screensaver01.zap-hosting.com/index.php/s/jGW9QLHwYLFNxgq/download)
 
-Step 4️⃣: Now you can check in the browser whether the certificate has been recognized:
+Select the option to renew or request a Let's Encrypt certificate. Enable the option to secure the wildcard domain:
 
-The lock must be present: 
+![img](https://screensaver01.zap-hosting.com/index.php/s/ZMcdJk9wCzifBmq/preview)
 
-![](https://screensaver01.zap-hosting.com/index.php/s/DkZoqg9XGgR67EK/preview)
+After confirming the request, Plesk will display a blue information box containing a DNS TXT record that must be created:
 
-The certificate info, which can be opened by clicking on the lock, should also show the domain:
+![img](https://screensaver01.zap-hosting.com/index.php/s/wnbNfKeTMsCdsy9/preview)
 
-![](https://screensaver01.zap-hosting.com/index.php/s/p5H6RZ25HksHsow/preview)
+This TXT record must be added to the DNS zone of your domain exactly as provided. It confirms domain ownership and allows Let's Encrypt to validate the request. A DNS entry will look similar to the following example:
 
-The website is now properly protected/encrypted. 
+![img](https://screensaver01.zap-hosting.com/index.php/s/tDtDaERR7twzaMr/preview)
 
-## Certificates for Subdomains 
-
-The same steps can theoretically also be followed for a subdomain. However, there is also an easier way to encrypt all subdomains at the same time, regardless of whether they already exist or which are new. A "wildcard certificate" can be used for this. This requires a special TXT entry in the DNS of the domain. As soon as it is available, however, it can issue an SSL certificate for all subdomains.
-
-Step 1️⃣: The SSL/TLS certificate menu is opened again.
-
-![](https://screensaver01.zap-hosting.com/index.php/s/X4kFeMomqmz3nGp/preview)
-
-Then click on "Renew Certificate" in the top left. 
-Now the Let's Encrypt request window opens:
-
-![](https://screensaver01.zap-hosting.com/index.php/s/eCcFtaJHxW3XWgF/preview)
-
-Now select "Secure the wildcard domainn":
-
-![](https://screensaver01.zap-hosting.com/index.php/s/5STxWaKf3JWGfZe/preview)
-
-The subdomain "www" and "webmail" are automatically added. 
-The button "Get it free" is then clicked again.
-
-Step 2️⃣: A blue box now appears with important information:
-
-![](https://screensaver01.zap-hosting.com/index.php/s/JHag4cd85Lq6gwx/preview)
-
-A domain name and a value are given there. This must be permanently available as a TXT in the DNS of the domain, this is the only way Let's Encrypt can ensure that the domain is genuine and can be verified.
-
-An entry in the DNS should look like this:
-
-![](https://screensaver01.zap-hosting.com/index.php/s/qPCeWj5dJRFfYFB/preview)
-
-:::info
-A DNS entry can take up to 24 hours to be accessible from anywhere in the world.
+:::warning DNS Propagation Delay
+DNS propagation can take up to 24 hours until the TXT record is globally accessible. During this time, validation may fail because some DNS servers still return outdated information. If this happens, wait until the record has fully propagated and then retry the verification.
 :::
 
-To ensure that the TXT entry is already active, the "TXT Lookup SuperTool" from mxtoolbox can be used: https://mxtoolbox.com/SuperTool.aspx:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/CPSSWeQRpTDsagY/preview)
 
-If the entered entry is already displayed, it can be confirmed in the blue box in Plesk by clicking on "Reload". Now it is checked whether the DNS entry is present, since this is the case, after a few seconds "protected" is displayed for "SSL/TLS-holder Ccertificate" aka "Wildcard Certificate":
+To ensure that the TXT record has been propagated correctly and is publicly accessible, you can verify it using an external DNS lookup tool such as the MXToolbox SuperTool:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/AwWiJboz3k6iea8/preview)
+https://mxtoolbox.com/SuperTool.aspx
 
-If a subdomain is now created, it is already protected: 
+Open the website and select the **TXT Lookup** option. Enter the full hostname provided by Plesk, usually in the format `_acme-challenge.yourdomain.com`, and start the lookup. The tool will query public DNS servers and display the currently visible TXT records.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/XLHzsgkeLmwJ55m/preview)
+If the correct verification value is displayed exactly as shown in Plesk, the DNS entry has been propagated successfully and Let's Encrypt can validate the domain ownership. If no result is returned or the value differs, DNS propagation may still be in progress. In that case, wait and repeat the lookup after some time until the correct entry becomes visible worldwide.
 
-Now the complete data transfer is encrypted to the side, done.
+![img](https://screensaver01.zap-hosting.com/index.php/s/iFP5P8SY6oSXQBW/download)
+
+Once the record is visible, return to Plesk and trigger the validation again. If successful, the wildcard certificate will be issued and displayed as protected. From this point onward, any newly created subdomain will automatically be secured.
+
+
+
+## Conclusion
+
+Congratulations! Your website is now successfully protected with SSL encryption. All data transmitted between your server and visitors is secured, browsers recognize your domain as trusted, and HTTPS is enforced automatically. 
+
+For further questions or assistance, please don't hesitate to contact our support team, which is available daily to assist you! 🙂
 
 <InlineVoucher />

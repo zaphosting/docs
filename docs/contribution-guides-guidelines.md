@@ -48,11 +48,13 @@ In the future, we will be adding templates that have pre-prepared Markdown for y
 
 ### Titles
 
-Titles for your guide should be short and based on the overall aim of the guide you have written. Think carefully about what the reader will accomplish by the end of the guide, for example installing a piece of software or providing information about as specific topic.
+Titles should be concise and clearly reflect the primary objective of the guide. Consider what the reader will achieve by the end, such as completing an installation, configuring a service, or understanding a specific technical topic. The outcome should be immediately recognizable from the title itself.
 
-The title should be prefixed with the product category that the guide relates to, which should also be where you have placed the guide in the sidebar. You can easily check other guides in the same section to view their prefix.
+Each title must begin with the appropriate product category prefix. This prefix should match the section in which the guide is placed within the sidebar. Reviewing existing guides in the same category helps ensure consistent naming conventions.
 
-An example of a good title for a guide relating to the VPS product would be: `VPS: SteamCMD Linux Setup`
+For example, a guide related to the VPS product should follow a structure such as: `VPS: SteamCMD Linux Setup`.
+
+If a guide is written in a general way and applies equally to multiple products, such as a service or gameserver installation that works on both VPS and Dedicated Servers, the product name should not be included in the title. In such cases, the guide is intentionally product independent and therefore does not require a specific product prefix.
 
 ### Introduction
 
@@ -234,46 +236,50 @@ var server = "ZAP-Hosting"
 hello(server)
 ```
 
-### Use of admonitions
+### Use of Admonitions
 
-Within your content, you may decide to use an admonition to highlight certain information under one of the 5 possible labels, which are explored below.
+Admonitions are used to highlight important information within your guide. There are five available types, each serving a different purpose.  
 
-The syntax for using each admonition is the same, replacing the keyword with the type you would like to use. Here's an example of usage:
+When using admonitions, a clear and descriptive title must always be defined. The title ensures that readers immediately understand the context and importance of the highlighted information without needing to read the full text first.
+
+The general syntax is identical for all types. Only the keyword changes depending on the intended purpose:
 
 ```
-:::note
-This is a note! Replace the above keyword to change the type.
+:::warning Title
+	Your content goes here.
 :::
 ```
 
+
+
 #### Note
 
-:::note Note Title! (Optional)
-You should use this tag to display additional notes that may be useful but aren't directly important.
+:::note Example: Additional Information
+Use this type for supplementary information that may help the reader but is not essential to completing the guide.
 :::
 
 #### Tip
 
-:::tip Tip Title! (Optional)
-Place any tips that you have from experience in this tag.
+:::tip Example: Performance Optimization Tip
+Use this type to share practical advice, best practices, or efficiency improvements based on experience.
 :::
 
 #### Info
 
-:::info Info Title! (Optional)
-If there is important information that the user should know about, place it within this tag.
+:::info Example: Requirement or Important Detail
+Use this type for important contextual information that the reader should be aware of before or during the process.
 :::
 
 #### Caution
 
-:::caution Caution Title! (Optional)
-Is there something in your guide that the user should be warned and cautious about whilst following the guide? Use this tag to highlight it.
+:::caution Example: Configuration Risk
+Use this type to warn the reader about potential issues or mistakes that could occur while following the guide.
 :::
 
 #### Danger
 
-:::danger Danger Title! (Optional)
-You should use the danger admonition where crucial information needs highlighting. In particular, this should be used to make the user aware of known bugs or deprecated features.
+:::danger Example: Known Bug or Deprecated Feature
+Use this type for critical warnings. This includes known bugs, irreversible actions, security risks, or deprecated features that may cause serious problems.
 :::
 
 ### Screenshots
@@ -300,7 +306,9 @@ When referencing a ZAP-Hosting product, you should always ensure that the correc
 
 Throughout most guides, configuration options for items such as users, hostnames, domains, IP addresses and URLs will be needed, where the reader will have to use their own details in place of our placeholders.
 
-By default, you should always use `[your_attribute]` to differentiate between static elements and unique elements, where `attribute` should be replaced by the type of attribute. For example, when mentioning an IP, you should state `[your_server_ip]` within your guide or when mentioning a URL you should state `http://[your_server_ip]:30120`. This clearly differentiates the attributes that the reader must change based on their own configuration. You should also provide an explanation or note letting the reader know what attributes they need to change throughout the guide when it is first mentioned to ensure that everything is understood.
+By default, you should always use `[your_attribute]` to differentiate between static elements and unique elements, where `attribute` should be replaced by the type of attribute. For example, when mentioning an IP, you should state `[your_server_ip]` within your guide or when mentioning a URL you should state `http://[your_server_ip]:30120`. 
+
+This clearly differentiates the attributes that the reader must change based on their own configuration. You should also provide an explanation or note letting the reader know what attributes they need to change throughout the guide when it is first mentioned to ensure that everything is understood.
 
 You should use `zaphosting` as the default hostname, username or database name.
 
