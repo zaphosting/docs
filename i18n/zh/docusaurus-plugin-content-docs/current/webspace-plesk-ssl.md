@@ -1,7 +1,7 @@
 ---
 id: webspace-plesk-ssl
-title: "Webspace：创建 SSL 证书"
-description: "了解如何通过 SSL 加密保护你的网站，并启用 HTTPS 实现更安全的浏览 → 立即了解更多"
+title: "Webspace：在 Plesk 中创建 SSL 证书"
+description: "学习如何在 Plesk 中为你的网站配置 SSL 证书，启用 HTTPS 实现加密连接。"
 sidebar_label: 创建 SSL 证书
 services:
   - webspace
@@ -9,105 +9,77 @@ services:
 
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
-## 用 SSL 加密网站
 
-:::info
-这里假设你的域名已经指向了 Webspace 的 IP。
-:::
+## 介绍
 
-当你在 Webspace 创建一个域名时，默认是未加密的。你可以在 Plesk 面板看到这一点：
-
-![](https://screensaver01.zap-hosting.com/index.php/s/kkJ67Pd733pt95i/preview)
-
-打开域名时浏览器的提示也会显示未加密：
-
-![](https://screensaver01.zap-hosting.com/index.php/s/5iwXSgEb4LrY3xf/preview)
-![](https://screensaver01.zap-hosting.com/index.php/s/mpmK8TAjAsgY3FW/preview)
-
-通过 SSL 证书，你可以为域名开启保护/加密。
+SSL 证书会加密你的网站与访问者之间的连接。一旦启用 HTTPS，浏览器就会建立安全连接，并在地址栏显示锁形图标。这不仅保护敏感数据，还能提升信任度，防止浏览器将你的网站标记为不安全。
 
 <InlineVoucher />
 
-## 证书创建流程
+## 保护你的主域名
 
-步骤 1️⃣：双击“SSL/TLS 证书”打开如下菜单：
+当你在 Plesk 中首次创建域名时，它默认通过 HTTP 访问，连接未加密。在 Plesk 面板中，你会看到还没有分配任何证书。如果此时用浏览器打开该域名，通常会被标记为不安全：
 
-![](https://screensaver01.zap-hosting.com/index.php/s/g5sr6WC4eawqzoF/preview)
+![img](https://screensaver01.zap-hosting.com/index.php/s/jGW9QLHwYLFNxgq/download)
 
-你可以免费申请一个 Let’s Encrypt 证书。
+要启用加密，进入 Plesk 面板中的该域名，导航到 **SSL/TLS 证书**。对应菜单会打开：
 
-步骤 2️⃣：填写所需信息。申请证书必须填写相关信息。
+![img](https://screensaver01.zap-hosting.com/index.php/s/8rSr7Jt3DsjDzBY/download)
 
-需要填写邮箱地址，并勾选证书适用的域名。通常每个域名都会启用 “www” 子域，所以如果 DNS 里有对应记录，也要勾选它。
+在这里，你可以申请免费的 Let's Encrypt 证书。申请过程中需要填写有效的邮箱地址，并选择要保护的域名。大多数情况下，根域名和 www 子域名都会被选中，前提是你的 DNS 配置中存在 www 记录：
 
-![](https://screensaver01.zap-hosting.com/index.php/s/Mwf3CEWsYRwprS3/preview)
+![img](https://screensaver01.zap-hosting.com/index.php/s/LTFN73ekPjtikwp/preview)
 
-填写完成后，点击“免费获取”申请证书。
+点击 **免费获取** 确认申请后，Plesk 会自动与 Let's Encrypt 通信并签发证书。证书成功创建后，建议在主机设置中启用从 HTTP 到 HTTPS 的永久重定向，强制使用 HTTPS：
 
-步骤 3️⃣：证书创建成功后，右上角会显示状态。接着需要开启 HTTP 自动跳转到 HTTPS，否则加密无法生效：
+![img](https://screensaver01.zap-hosting.com/index.php/s/BN7AMzG6MyMKb38/preview)
 
-![](https://screensaver01.zap-hosting.com/index.php/s/YBdGQqmtNeWKdxA/preview)
+启用后，所有访问者都会自动跳转到加密的 HTTPS 版本。你可以通过浏览器用 https 打开域名来验证安装是否成功。
 
-设置完成后，无论你用 http 还是 https 访问，都会自动跳转到 https。
 
-步骤 4️⃣：现在可以在浏览器里检查证书是否生效：
 
-地址栏必须显示锁形图标：
+## 使用泛域名证书保护所有子域名
 
-![](https://screensaver01.zap-hosting.com/index.php/s/DkZoqg9XGgR67EK/preview)
+如果你使用或计划使用多个子域名，泛域名证书是更高效的方案。它不仅保护主域名，还涵盖所有现有及未来的子域名。再次打开 **SSL/TLS 证书** 菜单：
 
-点击锁标查看证书信息，应该显示你的域名：
+![img](https://screensaver01.zap-hosting.com/index.php/s/jGW9QLHwYLFNxgq/download)
 
-![](https://screensaver01.zap-hosting.com/index.php/s/p5H6RZ25HksHsow/preview)
+选择续订或申请 Let's Encrypt 证书，勾选保护泛域名的选项：
 
-这样你的网站就已经被正确保护和加密了。
+![img](https://screensaver01.zap-hosting.com/index.php/s/ZMcdJk9wCzifBmq/preview)
 
-## 子域名证书
+确认申请后，Plesk 会显示一个蓝色信息框，里面包含必须创建的 DNS TXT 记录：
 
-理论上，子域名也可以按同样步骤申请证书。但还有更简单的方式，可以一次性加密所有子域名（无论是已有还是新建的）。这就是“泛域名证书”，需要在域名的 DNS 里添加一个特殊的 TXT 记录。添加完成后，就能为所有子域名签发 SSL 证书。
+![img](https://screensaver01.zap-hosting.com/index.php/s/wnbNfKeTMsCdsy9/preview)
 
-步骤 1️⃣：再次打开 SSL/TLS 证书菜单。
+你需要将该 TXT 记录准确添加到你的域名 DNS 区域中。它用于确认域名所有权，帮助 Let's Encrypt 验证申请。DNS 记录示例大致如下：
 
-![](https://screensaver01.zap-hosting.com/index.php/s/X4kFeMomqmz3nGp/preview)
+![img](https://screensaver01.zap-hosting.com/index.php/s/tDtDaERR7twzaMr/preview)
 
-点击左上角的“续订证书”。
-接着会打开 Let’s Encrypt 申请窗口：
-
-![](https://screensaver01.zap-hosting.com/index.php/s/eCcFtaJHxW3XWgF/preview)
-
-选择“保护泛域名”：
-
-![](https://screensaver01.zap-hosting.com/index.php/s/5STxWaKf3JWGfZe/preview)
-
-“www”和“webmail”子域会自动添加。
-然后再次点击“免费获取”。
-
-步骤 2️⃣：这时会出现一个蓝色提示框，告诉你重要信息：
-
-![](https://screensaver01.zap-hosting.com/index.php/s/JHag4cd85Lq6gwx/preview)
-
-这里会给出一个域名和对应的值，需要你在域名的 DNS 里永久添加这个 TXT 记录，Let’s Encrypt 才能验证域名的真实性。
-
-DNS 记录示例：
-
-![](https://screensaver01.zap-hosting.com/index.php/s/qPCeWj5dJRFfYFB/preview)
-
-:::info
-DNS 记录生效可能需要最长 24 小时，全球范围内都可能有延迟。
+:::warning DNS 传播延迟
+DNS 传播可能需要最长 24 小时，TXT 记录才能在全球范围内生效。在此期间，验证可能失败，因为部分 DNS 服务器仍返回旧数据。如果遇到这种情况，请耐心等待记录完全传播后再尝试验证。
 :::
 
-你可以用 mxtoolbox 的“TXT Lookup SuperTool”来检测 TXT 记录是否生效：`https://mxtoolbox.com/SuperTool.aspx`：
 
-![](https://screensaver01.zap-hosting.com/index.php/s/CPSSWeQRpTDsagY/preview)
 
-当你确认 TXT 记录已经显示出来后，回到 Plesk 的蓝色提示框点击“重新加载”。系统会检测 DNS 记录，确认无误后，几秒钟内“SSL/TLS 证书持有者”也就是“泛域名证书”状态会显示“已保护”：
+为了确认 TXT 记录已正确传播并公开可见，你可以用外部 DNS 查询工具，比如 MXToolbox SuperTool 来验证：
 
-![](https://screensaver01.zap-hosting.com/index.php/s/AwWiJboz3k6iea8/preview)
+https://mxtoolbox.com/SuperTool.aspx
 
-之后新建的子域名都会自动受保护：
+打开网站，选择 **TXT Lookup** 选项。输入 Plesk 提供的完整主机名，通常格式为 `_acme-challenge.yourdomain.com`，然后开始查询。该工具会查询公共 DNS 服务器并显示当前可见的 TXT 记录。
 
-![](https://screensaver01.zap-hosting.com/index.php/s/XLHzsgkeLmwJ55m/preview)
+如果显示的验证值与 Plesk 中完全一致，说明 DNS 记录已成功传播，Let's Encrypt 可以验证域名所有权。如果没有结果或值不符，说明 DNS 传播仍在进行中。此时请等待一段时间后再次查询，直到正确记录在全球范围内可见。
 
-这样，整个网站的数据传输就都被加密保护了，搞定！
+![img](https://screensaver01.zap-hosting.com/index.php/s/iFP5P8SY6oSXQBW/download)
+
+记录可见后，返回 Plesk 再次触发验证。如果成功，泛域名证书将被签发并显示为已保护。从此以后，任何新建的子域名都会自动获得保护。
+
+
+
+## 总结
+
+恭喜你！你的网站现在已经成功启用了 SSL 加密。服务器与访问者之间传输的所有数据都被保护，浏览器也会将你的域名识别为可信，HTTPS 会自动强制启用。
+
+如果你有任何问题或需要帮助，随时联系我们的支持团队，我们每天都在线为你服务！🙂
 
 <InlineVoucher />

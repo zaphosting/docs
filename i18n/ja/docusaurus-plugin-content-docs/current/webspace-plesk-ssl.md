@@ -1,7 +1,7 @@
 ---
 id: webspace-plesk-ssl
-title: "ホスティング：SSL証明書の作成"
-description: "SSL暗号化でウェブサイトを安全に保護し、HTTPSを有効化してより安全なブラウジングを実現 → 今すぐ詳しくチェック"
+title: "ホスティング：PleskでSSL証明書を作成する方法"
+description: "PleskでSSL証明書を設定してウェブサイトを保護し、HTTPSで暗号化接続を有効にする方法を解説します。"
 sidebar_label: SSL証明書の作成
 services:
   - webspace
@@ -9,104 +9,77 @@ services:
 
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
-## SSLでウェブサイトを暗号化しよう
 
-:::info
-ドメインがすでにホスティングのIPアドレスを指していることが前提です。
-:::
+## はじめに
 
-ホスティングにドメインを作成すると、最初は常に暗号化されていません。Pleskパネルで確認できます：
-
-![](https://screensaver01.zap-hosting.com/index.php/s/kkJ67Pd733pt95i/preview)
-
-ドメインをブラウザで開いたときの通知：
-
-![](https://screensaver01.zap-hosting.com/index.php/s/5iwXSgEb4LrY3xf/preview)
-![](https://screensaver01.zap-hosting.com/index.php/s/mpmK8TAjAsgY3FW/preview)
-
-SSL証明書を使えば、ドメインをしっかり保護・暗号化できます。
+SSL証明書は、あなたのウェブサイトと訪問者間の接続を暗号化します。HTTPSが有効になると、ブラウザは安全な接続を確立し、アドレスバーに鍵アイコンを表示します。これにより、機密データが保護され、信頼性が向上し、ブラウザがサイトを安全でないと表示するのを防ぎます。
 
 <InlineVoucher />
 
-## 証明書の作成方法
+## メインドメインの保護
 
-Step 1️⃣: 「SSL/TLS証明書」をダブルクリックすると、以下のメニューが開きます：
+Pleskでドメインを初めて作成すると、HTTPでアクセス可能ですが暗号化はされていません。Pleskのコントロールパネルでは、まだ証明書が割り当てられていないことが確認できます。この状態でブラウザでドメインを開くと、通常は安全でないと表示されます：
 
-![](https://screensaver01.zap-hosting.com/index.php/s/g5sr6WC4eawqzoF/preview)
+![img](https://screensaver01.zap-hosting.com/index.php/s/jGW9QLHwYLFNxgq/download)
 
-Let's Encryptの証明書は無料でリクエスト可能です。
+暗号化を有効にするには、Pleskパネルでドメインを開き、**SSL/TLS証明書**に移動します。対応するメニューが開きます：
 
-Step 2️⃣: 必要な情報を入力・記入します。証明書をリクエストするには詳細の入力が必須です。
+![img](https://screensaver01.zap-hosting.com/index.php/s/8rSr7Jt3DsjDzBY/download)
 
-メールアドレスを指定し、証明書の有効範囲をチェックします。通常、各ドメインには「www」のサブドメインも有効になっているので、DNSに登録されていればこちらも選択されます。
+ここから無料のLet's Encrypt証明書をリクエストできます。リクエスト時には有効なメールアドレスを入力し、保護したいドメイン名を選択します。ほとんどの場合、ルートドメインとwwwサブドメインの両方が選択されます（DNS設定にwwwエントリがある場合）：
 
-![](https://screensaver01.zap-hosting.com/index.php/s/Mwf3CEWsYRwprS3/preview)
+![img](https://screensaver01.zap-hosting.com/index.php/s/LTFN73ekPjtikwp/preview)
 
-「無料で取得」をクリックすると証明書がリクエストされます。
+**無料で取得**をクリックしてリクエストを確定すると、PleskがLet's Encryptと通信し、自動的に証明書を発行します。証明書が正常に作成されたら、ホスティング設定でHTTPからHTTPSへの恒久的リダイレクトを有効にして、HTTPSを強制しましょう：
 
-Step 3️⃣: 証明書が作成されると、右上に表示されます。さらに、HTTPからHTTPSへの自動リダイレクトを設定しないと暗号化が機能しません：
+![img](https://screensaver01.zap-hosting.com/index.php/s/BN7AMzG6MyMKb38/preview)
 
-![](https://screensaver01.zap-hosting.com/index.php/s/YBdGQqmtNeWKdxA/preview)
+有効化後、すべての訪問者は自動的に暗号化されたHTTPS版のウェブサイトにリダイレクトされます。ブラウザでhttps付きのドメインを開いてインストールを確認できます。
 
-設定が完了するとリダイレクトが有効になります。ブラウザでhttpでもhttpsでもアクセスしても、常にhttpsに転送されるようになります。
 
-Step 4️⃣: ブラウザで証明書が認識されているか確認しましょう：
 
-鍵マークが表示されているはず：
+## ワイルドカード証明書で全サブドメインを保護
 
-![](https://screensaver01.zap-hosting.com/index.php/s/DkZoqg9XGgR67EK/preview)
+複数のサブドメインを使っている、または使う予定がある場合は、ワイルドカード証明書が効率的です。メインドメインと既存および将来のすべてのサブドメインを保護します。ワイルドカード証明書をリクエストするには、再度**SSL/TLS証明書**メニューを開きます：
 
-鍵マークをクリックすると証明書情報が開き、ドメイン名が表示されていることを確認できます：
+![img](https://screensaver01.zap-hosting.com/index.php/s/jGW9QLHwYLFNxgq/download)
 
-![](https://screensaver01.zap-hosting.com/index.php/s/p5H6RZ25HksHsow/preview)
+Let's Encrypt証明書の更新またはリクエストオプションを選択し、ワイルドカードドメインを保護するオプションを有効にします：
 
-これでウェブサイトはしっかり保護・暗号化されています。
+![img](https://screensaver01.zap-hosting.com/index.php/s/ZMcdJk9wCzifBmq/preview)
 
-## サブドメイン用の証明書
+リクエストを確定すると、PleskはDNS TXTレコードを作成する必要があることを示す青い情報ボックスを表示します：
 
-理論上はサブドメインでも同じ手順で証明書を作成できますが、すでにあるものも新しく作るものもまとめて暗号化できる「ワイルドカード証明書」を使うのが簡単です。これにはドメインのDNSに特別なTXTレコードを追加する必要があります。設定が完了すれば、すべてのサブドメインに対してSSL証明書を発行できます。
+![img](https://screensaver01.zap-hosting.com/index.php/s/wnbNfKeTMsCdsy9/preview)
 
-Step 1️⃣: 再度SSL/TLS証明書のメニューを開きます。
+このTXTレコードは、ドメインのDNSゾーンに正確に追加する必要があります。これによりドメイン所有権が確認され、Let's Encryptがリクエストを検証できます。DNSエントリは以下のような例になります：
 
-![](https://screensaver01.zap-hosting.com/index.php/s/X4kFeMomqmz3nGp/preview)
+![img](https://screensaver01.zap-hosting.com/index.php/s/tDtDaERR7twzaMr/preview)
 
-左上の「証明書を更新」をクリック。Let's Encryptのリクエスト画面が開きます：
-
-![](https://screensaver01.zap-hosting.com/index.php/s/eCcFtaJHxW3XWgF/preview)
-
-「ワイルドカードドメインを保護する」を選択：
-
-![](https://screensaver01.zap-hosting.com/index.php/s/5STxWaKf3JWGfZe/preview)
-
-「www」と「webmail」のサブドメインが自動で追加されます。
-再度「無料で取得」をクリック。
-
-Step 2️⃣: 重要な情報が青いボックスで表示されます：
-
-![](https://screensaver01.zap-hosting.com/index.php/s/JHag4cd85Lq6gwx/preview)
-
-ドメイン名と値が示されており、これをドメインのDNSにTXTレコードとして永久に登録する必要があります。これによりLet's Encryptがドメインの正当性を確認できます。
-
-DNSの設定例：
-
-![](https://screensaver01.zap-hosting.com/index.php/s/qPCeWj5dJRFfYFB/preview)
-
-:::info
-DNSの反映には最大24時間かかることがあります。
+:::warning DNS伝播の遅延について
+DNSの伝播には最大24時間かかることがあります。この間、一部のDNSサーバーが古い情報を返すため検証に失敗することがあります。その場合は、レコードが完全に伝播するまで待ってから再度検証してください。
 :::
 
-TXTレコードが反映されているか確認するには、mxtoolboxの「TXT Lookup SuperTool」を使うと便利です：https://mxtoolbox.com/SuperTool.aspx
 
-![](https://screensaver01.zap-hosting.com/index.php/s/CPSSWeQRpTDsagY/preview)
 
-設定が反映されていれば、Pleskの青いボックス内の「リロード」をクリックして確認します。DNSレコードが見つかれば数秒後に「SSL/TLS証明書（ワイルドカード証明書）」が「保護済み」と表示されます：
+TXTレコードが正しく伝播し、公開されているかを確認するには、MXToolbox SuperToolなどの外部DNS検索ツールを使うと便利です：
 
-![](https://screensaver01.zap-hosting.com/index.php/s/AwWiJboz3k6iea8/preview)
+https://mxtoolbox.com/SuperTool.aspx
 
-これで新しく作成したサブドメインも自動的に保護されます：
+サイトを開き、**TXT Lookup**を選択。Pleskで提供された完全なホスト名（通常は`_acme-challenge.yourdomain.com`の形式）を入力して検索を開始します。ツールは公開DNSサーバーに問い合わせ、現在見えるTXTレコードを表示します。
 
-![](https://screensaver01.zap-hosting.com/index.php/s/XLHzsgkeLmwJ55m/preview)
+Pleskに表示されている検証値と完全に一致する値が表示されれば、DNSエントリは正常に伝播しており、Let's Encryptがドメイン所有権を検証できます。結果が返らないか値が異なる場合は、DNS伝播がまだ完了していない可能性があります。その場合は時間を置いて再度検索してください。
 
-これでサイト全体の通信が暗号化されました。完了です。
+![img](https://screensaver01.zap-hosting.com/index.php/s/iFP5P8SY6oSXQBW/download)
+
+レコードが確認できたらPleskに戻り、再度検証を実行します。成功すればワイルドカード証明書が発行され、保護済みとして表示されます。これ以降、新しく作成されたサブドメインも自動的に保護されます。
+
+
+
+## まとめ
+
+おめでとうございます！あなたのウェブサイトはSSL暗号化でしっかり保護されました。サーバーと訪問者間で送受信されるすべてのデータが安全になり、ブラウザはあなたのドメインを信頼済みとして認識し、HTTPSが自動的に強制されます。
+
+さらに質問やサポートが必要な場合は、毎日対応しているサポートチームまでお気軽にお問い合わせくださいね！🙂
 
 <InlineVoucher />
