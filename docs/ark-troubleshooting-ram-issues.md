@@ -1,8 +1,8 @@
 ---
-id: "ark-troubleshooting-ram-issues"
-title: "ARK: Survival Evolved – Troubleshooting RAM & Performance Issues"
+id: ark-troubleshooting-ram-issues
+title: "ARK: Survival Evolved: Troubleshooting RAM & Performance Issues"
 description: "Diagnose and resolve RAM-related performance problems on your ARK: Survival Evolved server"
-sidebar_label: "ARK RAM & Performance"
+sidebar_label: RAM & Performance Issues
 services:
   - gameserver-ark
 ---
