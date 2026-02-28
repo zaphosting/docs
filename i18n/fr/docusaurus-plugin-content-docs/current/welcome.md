@@ -5,8 +5,7 @@ description: "Découvrez comment tirer le meilleur parti de vos produits ZAP-Hos
 sidebar_label: Bienvenue !
 ---
 
-import Card from '@site/src/components/Card/Card';
-import Cards from '@site/src/components/Cards/Cards';
+import Cards, { Card } from '@site/src/components/Cards/Cards';
 import YouTube from '@site/src/components/YouTube/YouTube';
 
 ## Introduction
@@ -23,7 +22,7 @@ Nous couvrons un large éventail de sujets et mettons régulièrement à jour no
 
 Optimisez et exploitez tout le potentiel de votre serveur de jeux. Avec notre expertise, on pousse votre expérience gaming à un autre niveau. Nos guides détaillés pour plus de 100 jeux différents et leurs extensions/mods vous permettent de maîtriser la configuration et la gestion de vos serveurs de jeux.
 
-<Cards>
+<Cards columns={2} layout="horizontal">
     <Card title="FiveM" description="Placeholder" link="https://zap-hosting.com/guides/docs/fivem-dashboard" image="https://screensaver01.zap-hosting.com/index.php/s/fA3eHHpGLYo74ra/preview"/>
     <Card title="Minecraft" description="Placeholder" link="https://zap-hosting.com/guides/docs/minecraft-firststeps-dashboard" image="https://screensaver01.zap-hosting.com/index.php/s/e6BtaFzTZ7czqXy/preview"/>
     <Card title="SCP: Secret Laboratory" description="Placeholder" link="https://zap-hosting.com/guides/docs/scp-firststeps-dashboard" image="https://screensaver01.zap-hosting.com/index.php/s/b5qWPyQeoB5wN8s/preview"/>
@@ -142,7 +141,7 @@ Optimisez et exploitez tout le potentiel de votre serveur de jeux. Avec notre ex
 ## VPS
 Exploitez tout le potentiel de votre VPS grâce à nos guides complets. Que vous préfériez Linux ou Windows, nos guides vous aident à configurer et gérer efficacement votre serveur.
 
-<Cards>
+<Cards columns={2} layout="horizontal">
     <Card title="VPS (Linux/Windows)" description="Placeholder" link="https://zap-hosting.com/guides/docs/vserver-introduction" image="https://screensaver01.zap-hosting.com/index.php/s/XmJGtYkc7d9rBai/preview" type="product-categories"/>
 </Cards>
 
@@ -150,14 +149,14 @@ Exploitez tout le potentiel de votre VPS grâce à nos guides complets. Que vous
 
 Nos serveurs dédiés offrent la performance pour les projets exigeants. Découvrez dans nos guides comment configurer le matériel et les systèmes d’exploitation selon vos besoins et garantir que vos applications tournent au top.
 
-<Cards>
+<Cards columns={2} layout="horizontal">
     <Card title="Serveur dédié" description="Placeholder" link="https://zap-hosting.com/guides/docs/dedicated-introduction" image="https://screensaver01.zap-hosting.com/index.php/s/o5kTJsSdwGY69m8/preview" type="product-categories"/>
 </Cards>
 
 ## Domaine & Hébergement web
 Lancez votre projet en ligne sur des bases solides avec des guides simples sur l’enregistrement de domaine et la gestion d’hébergement web. On vous accompagne à chaque étape, de la configuration à la mise en ligne de votre site.
 
-<Cards>
+<Cards columns={2} layout="horizontal">
     <Card title="Domaine" description="Placeholder" link="https://zap-hosting.com/guides/docs/domain-introduction" image="https://screensaver01.zap-hosting.com/index.php/s/SPaNk8LSP57s83z/preview" type="product-categories"/>
     <Card title="Hébergement web" description="Placeholder" link="https://zap-hosting.com/guides/docs/webspace-adddomain" image="https://screensaver01.zap-hosting.com/index.php/s/SPaNk8LSP57s83z/preview" type="product-categories"/>
 </Cards>
@@ -165,7 +164,7 @@ Lancez votre projet en ligne sur des bases solides avec des guides simples sur l
 ## Bot vocal & Serveur vocal
 Boostez vos interactions en ligne avec nos bots vocaux et serveurs vocaux. Nos guides rendent la configuration simple, pour que vous passiez plus de temps avec votre communauté, que ce soit en gaming ou en réunion.
 
-<Cards>
+<Cards columns={2} layout="horizontal">
     <Card title="Bot vocal" description="Placeholder" link="https://zap-hosting.com/guides/docs/voiceserver-voicebot-connection" image="https://screensaver01.zap-hosting.com/index.php/s/zZ73fps5Eq93foK/preview" type="product-categories"/>
     <Card title="Serveur vocal" description="Placeholder" link="https://zap-hosting.com/guides/docs/voiceserver-becomeadmin" image="https://screensaver01.zap-hosting.com/index.php/s/6cxS6Mo93YL6X5K/preview" type="product-categories"/>
 </Cards>

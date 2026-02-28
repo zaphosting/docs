@@ -5,8 +5,7 @@ description: "اكتشف كيف تستفيد لأقصى حد من منتجات Z
 sidebar_label: مرحبًا!
 ---
 
-import Card from '@site/src/components/Card/Card';
-import Cards from '@site/src/components/Cards/Cards';
+import Cards, { Card } from '@site/src/components/Cards/Cards';
 import YouTube from '@site/src/components/YouTube/YouTube';
 
 ## مقدمة
@@ -23,7 +22,7 @@ import YouTube from '@site/src/components/YouTube/YouTube';
 
 استغل سيرفر ألعابك بأفضل شكل ممكن. مع خبرتنا، نرفع مستوى لعبك لأعلى درجة. أدلتنا التفصيلية لأكثر من 100 لعبة مختلفة وإضافاتها/تعديلاتهم تمكنك من فهم عميق لكيفية تهيئة وإدارة سيرفرات الألعاب الخاصة بك.
 
-<Cards>
+<Cards columns={2} layout="horizontal">
     <Card title="FiveM" description="نموذج مؤقت" link="https://zap-hosting.com/guides/docs/fivem-dashboard" image="https://screensaver01.zap-hosting.com/index.php/s/fA3eHHpGLYo74ra/preview"/>
     <Card title="Minecraft" description="نموذج مؤقت" link="https://zap-hosting.com/guides/docs/minecraft-firststeps-dashboard" image="https://screensaver01.zap-hosting.com/index.php/s/e6BtaFzTZ7czqXy/preview"/>
     <Card title="SCP: Secret Laboratory" description="نموذج مؤقت" link="https://zap-hosting.com/guides/docs/scp-firststeps-dashboard" image="https://screensaver01.zap-hosting.com/index.php/s/b5qWPyQeoB5wN8s/preview"/>
@@ -142,7 +141,7 @@ import YouTube from '@site/src/components/YouTube/YouTube';
 ## VPS
 استغل VPS الخاص بك لأقصى حد مع أدلتنا الشاملة. سواء كنت تفضل Linux أو Windows، أدلتنا تساعدك على إعداد وإدارة سيرفرك بكفاءة.
 
-<Cards>
+<Cards columns={2} layout="horizontal">
     <Card title="VPS (Linux/Windows)" description="نموذج مؤقت" link="https://zap-hosting.com/guides/docs/vserver-introduction" image="https://screensaver01.zap-hosting.com/index.php/s/XmJGtYkc7d9rBai/preview" type="product-categories"/>
 </Cards>
 
@@ -150,14 +149,14 @@ import YouTube from '@site/src/components/YouTube/YouTube';
 
 سيرفراتنا المخصصة تقدم أداءً قويًا للمشاريع المتطلبة. اكتشف في أدلتنا كيفية تهيئة العتاد ونظم التشغيل حسب احتياجاتك وضمان تشغيل تطبيقاتك بأفضل شكل.
 
-<Cards>
+<Cards columns={2} layout="horizontal">
     <Card title="سيرفر مخصص" description="نموذج مؤقت" link="https://zap-hosting.com/guides/docs/dedicated-introduction" image="https://screensaver01.zap-hosting.com/index.php/s/o5kTJsSdwGY69m8/preview" type="product-categories"/>
 </Cards>
 
 ## نطاق واستضافة مواقع
 ابدأ مشروعك على الإنترنت على أساس متين مع أدلة سهلة الفهم حول تسجيل النطاق وإدارة استضافة المواقع. نرشدك خلال كل خطوة، من الإعداد إلى نشر موقعك.
 
-<Cards>
+<Cards columns={2} layout="horizontal">
     <Card title="نطاق" description="نموذج مؤقت" link="https://zap-hosting.com/guides/docs/domain-introduction" image="https://screensaver01.zap-hosting.com/index.php/s/SPaNk8LSP57s83z/preview" type="product-categories"/>
     <Card title="استضافة مواقع" description="نموذج مؤقت" link="https://zap-hosting.com/guides/docs/webspace-adddomain" image="https://screensaver01.zap-hosting.com/index.php/s/SPaNk8LSP57s83z/preview" type="product-categories"/>
 </Cards>
@@ -165,7 +164,7 @@ import YouTube from '@site/src/components/YouTube/YouTube';
 ## بوت صوتي وسيرفر صوتي
 عزز تفاعلاتك على الإنترنت مع بوتاتنا الصوتية وسيرفراتنا الصوتية. أدلتنا تجعل الإعداد سهل، حتى تقضي وقت أكثر مع مجتمعك، سواء في اللعب أو الاجتماعات.
 
-<Cards>
+<Cards columns={2} layout="horizontal">
     <Card title="بوت صوتي" description="نموذج مؤقت" link="https://zap-hosting.com/guides/docs/voiceserver-voicebot-connection" image="https://screensaver01.zap-hosting.com/index.php/s/zZ73fps5Eq93foK/preview" type="product-categories"/>
     <Card title="سيرفر صوتي" description="نموذج مؤقت" link="https://zap-hosting.com/guides/docs/voiceserver-becomeadmin" image="https://screensaver01.zap-hosting.com/index.php/s/6cxS6Mo93YL6X5K/preview" type="product-categories"/>
 </Cards>

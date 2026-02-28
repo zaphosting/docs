@@ -5,8 +5,7 @@ description: "Ontdek setup guides voor het hosten van dedicated game servers op 
 sidebar_label: Overzicht
 ---
 
-import Card from '@site/src/components/Card/Card';
-import Cards from '@site/src/components/Cards/Cards';
+import Cards, { Card } from '@site/src/components/Cards/Cards';
 
 Wil je een dedicated game server hosten op je VPS of Dedicated Server? Hier vind je een uitgebreide verzameling stap-voor-stap setup guides voor populaire games op zowel Linux als Windows.
 
@@ -16,7 +15,7 @@ Zet dedicated game servers op je Linux-server op met onze gedetailleerde handlei
 
 ### Algemeen
 
-<Cards>
+<Cards columns={2} layout="horizontal">
     <Card title="Cloudflare Tunnel voor txAdmin" description="Placeholder" link="https://zap-hosting.com/guides/docs/dedicated-linux-fivem-txAdmin-cloudflare-tunnel" image="https://screensaver01.zap-hosting.com/index.php/s/XmJGtYkc7d9rBai/preview" type="product-categories"/>
     <Card title="SteamCMD Setup" description="Placeholder" link="https://zap-hosting.com/guides/docs/dedicated-linux-steamcmd" image="https://screensaver01.zap-hosting.com/index.php/s/XmJGtYkc7d9rBai/preview" type="product-categories"/>
     <Card title="Wine Compatibility Layer Setup" description="Placeholder" link="https://zap-hosting.com/guides/docs/dedicated-linux-wine" image="https://screensaver01.zap-hosting.com/index.php/s/XmJGtYkc7d9rBai/preview" type="product-categories"/>
@@ -25,7 +24,7 @@ Zet dedicated game servers op je Linux-server op met onze gedetailleerde handlei
 
 ### Games
 
-<Cards>
+<Cards columns={2} layout="horizontal">
     <Card title="ARK Survival Ascended" description="Placeholder" link="https://zap-hosting.com/guides/docs/dedicated-linux-arksurvivalascended" image="https://screensaver01.zap-hosting.com/index.php/s/qnWELD8ik9srBDG/preview"/>
     <Card title="Avorion" description="Placeholder" link="https://zap-hosting.com/guides/docs/dedicated-linux-avorion" image="https://screensaver01.zap-hosting.com/index.php/s/FGtbBbgYsjygaHQ/preview"/>
     <Card title="Conan Exiles" description="Placeholder" link="https://zap-hosting.com/guides/docs/dedicated-linux-conan" image="https://screensaver01.zap-hosting.com/index.php/s/Kf4Agc6HXkEMJGM/preview"/>
@@ -59,13 +58,13 @@ Host dedicated game servers op je Windows-server met onze uitgebreide guides. We
 
 ### Algemeen
 
-<Cards>
+<Cards columns={2} layout="horizontal">
     <Card title="Cloudflare Tunnel voor txAdmin" description="Placeholder" link="https://zap-hosting.com/guides/docs/dedicated-windows-fivem-txAdmin-cloudflare-tunnel" image="https://screensaver01.zap-hosting.com/index.php/s/XmJGtYkc7d9rBai/preview" type="product-categories"/>
 </Cards>
 
 ### Games
 
-<Cards>
+<Cards columns={2} layout="horizontal">
     <Card title="ARK Survival Ascended" description="Placeholder" link="https://zap-hosting.com/guides/docs/vserver-windows-arksurvivalascended" image="https://screensaver01.zap-hosting.com/index.php/s/qnWELD8ik9srBDG/preview"/>
     <Card title="Avorion" description="Placeholder" link="https://zap-hosting.com/guides/docs/dedicated-windows-avorion" image="https://screensaver01.zap-hosting.com/index.php/s/FGtbBbgYsjygaHQ/preview"/>
     <Card title="Conan Exiles" description="Placeholder" link="https://zap-hosting.com/guides/docs/dedicated-windows-conan" image="https://screensaver01.zap-hosting.com/index.php/s/Kf4Agc6HXkEMJGM/preview"/>

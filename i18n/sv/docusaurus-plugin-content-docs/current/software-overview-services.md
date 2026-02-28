@@ -5,8 +5,7 @@ description: "Upptäck installationsguider för populär mjukvara och tjänster 
 sidebar_label: Översikt
 ---
 
-import Card from '@site/src/components/Card/Card';
-import Cards from '@site/src/components/Cards/Cards';
+import Cards, { Card } from '@site/src/components/Cards/Cards';
 
 Vill du installera en specifik tjänst på din VPS eller Dedikerade Server? Här hittar du en komplett samling steg-för-steg-guider som hjälper dig att komma igång snabbt och smidigt. Oavsett om du kör Linux eller Windows finns ett brett utbud av proffsigt förberedda guider tillgängliga.
 
@@ -14,7 +13,7 @@ Vill du installera en specifik tjänst på din VPS eller Dedikerade Server? Här
 
 På Linux kan du sätta upp Docker, OpenVPN, Nextcloud, WordPress, Plesk, GitLab, Node.js, Python, Teamspeak 6 Server, Certbot och många andra populära tjänster.
 
-<Cards>
+<Cards columns={2} layout="horizontal">
     <Card title="Installera Certbot" description="Placeholder" link="https://zap-hosting.com/guides/docs/dedicated-linux-certbot" image="https://screensaver01.zap-hosting.com/index.php/s/XmJGtYkc7d9rBai/preview" type="product-categories"/>
     <Card title="Installera databaser" description="Placeholder" link="https://zap-hosting.com/guides/docs/dedicated-linux-databases" image="https://screensaver01.zap-hosting.com/index.php/s/XmJGtYkc7d9rBai/preview" type="product-categories"/>
     <Card title="Installera Docker" description="Placeholder" link="https://zap-hosting.com/guides/docs/dedicated-linux-docker" image="https://screensaver01.zap-hosting.com/index.php/s/XmJGtYkc7d9rBai/preview" type="product-categories"/>
@@ -56,7 +55,7 @@ På Linux kan du sätta upp Docker, OpenVPN, Nextcloud, WordPress, Plesk, GitLab
 
 För Windows-servrar hittar du detaljerade instruktioner för MySQL, Docker, Plex, Node.js, Python, Plesk, Bitwarden, Supabase, Teamspeak 6 Server och andra viktiga verktyg.
 
-<Cards>
+<Cards columns={2} layout="horizontal">
     <Card title="Installera FTP" description="Placeholder" link="https://zap-hosting.com/guides/docs/dedicated-windows-ftpserver" image="https://screensaver01.zap-hosting.com/index.php/s/XmJGtYkc7d9rBai/preview" type="product-categories"/>
     <Card title="Installera Git" description="Placeholder" link="https://zap-hosting.com/guides/docs/dedicated-windows-git" image="https://screensaver01.zap-hosting.com/index.php/s/XmJGtYkc7d9rBai/preview" type="product-categories"/>
     <Card title="Installera MySQL" description="Placeholder" link="https://zap-hosting.com/guides/docs/dedicated-windows-installmysql" image="https://screensaver01.zap-hosting.com/index.php/s/XmJGtYkc7d9rBai/preview" type="product-categories"/>

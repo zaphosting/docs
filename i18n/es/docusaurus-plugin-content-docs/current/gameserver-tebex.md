@@ -7,8 +7,7 @@ services:
   - gameserver
 ---
 
-import Card from '@site/src/components/Card/Card';
-import Cards from '@site/src/components/Cards/Cards';
+import Cards, { Card } from '@site/src/components/Cards/Cards';
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introducción
@@ -23,7 +22,7 @@ más información sobre cómo funciona.
 
 Los siguientes juegos que también ofrecemos en nuestro producto de servidor de juegos son compatibles con Tebex. Para más información y otros juegos disponibles, te recomendamos echar un vistazo a la [web oficial](https://www.tebex.io/game-servers). 
 
-<Cards>
+<Cards columns={2} layout="horizontal">
   <Card title="ARK" description="Placeholder" link="https://www.tebex.io/pricing-for-game-servers/ark" image="https://screensaver01.zap-hosting.com/index.php/s/qnWELD8ik9srBDG/preview"/>
   <Card title="CS:GO" description="Placeholder" link="https://www.tebex.io/pricing-for-game-servers/csgo" image="https://screensaver01.zap-hosting.com/index.php/s/RojGnj9TcpGSdzm/preview"/>
   <Card title="Minecraft" description="Placeholder" link="https://www.tebex.io/pricing-for-game-servers/minecraft" image="https://screensaver01.zap-hosting.com/index.php/s/e6BtaFzTZ7czqXy/preview"/>

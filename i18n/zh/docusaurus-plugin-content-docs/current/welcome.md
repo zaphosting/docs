@@ -5,8 +5,7 @@ description: "通过清晰、专业的指南，了解如何最大化利用你的
 sidebar_label: 欢迎！
 ---
 
-import Card from '@site/src/components/Card/Card';
-import Cards from '@site/src/components/Cards/Cards';
+import Cards, { Card } from '@site/src/components/Cards/Cards';
 import YouTube from '@site/src/components/YouTube/YouTube';
 
 ## 介绍
@@ -23,7 +22,7 @@ import YouTube from '@site/src/components/YouTube/YouTube';
 
 完美利用你的游戏服务器。凭借我们的专业知识，让你的游戏体验升级。我们为超过100款游戏及其扩展/模组提供详细指南，助你深入理解游戏服务器的配置与管理。
 
-<Cards>
+<Cards columns={2} layout="horizontal">
     <Card title="FiveM" description="占位符" link="https://zap-hosting.com/guides/zh/docs/fivem-dashboard" image="https://screensaver01.zap-hosting.com/index.php/s/fA3eHHpGLYo74ra/preview"/>
     <Card title="Minecraft" description="占位符" link="https://zap-hosting.com/guides/zh/docs/minecraft-firststeps-dashboard" image="https://screensaver01.zap-hosting.com/index.php/s/e6BtaFzTZ7czqXy/preview"/>
     <Card title="SCP: Secret Laboratory" description="占位符" link="https://zap-hosting.com/guides/zh/docs/scp-firststeps-dashboard" image="https://screensaver01.zap-hosting.com/index.php/s/b5qWPyQeoB5wN8s/preview"/>
@@ -142,7 +141,7 @@ import YouTube from '@site/src/components/YouTube/YouTube';
 ## 虚拟专用服务器
 用我们的全方位指南，充分发挥你的 VPS 潜力。不管你喜欢 Linux 还是 Windows，我们的指南都帮你高效搭建和管理服务器。
 
-<Cards>
+<Cards columns={2} layout="horizontal">
     <Card title="VPS (Linux/Windows)" description="占位符" link="https://zap-hosting.com/guides/zh/docs/vserver-introduction" image="https://screensaver01.zap-hosting.com/index.php/s/XmJGtYkc7d9rBai/preview" type="product-categories"/>
 </Cards>
 
@@ -150,14 +149,14 @@ import YouTube from '@site/src/components/YouTube/YouTube';
 
 我们的独立服务器为高要求项目提供强劲性能。在指南中了解如何根据需求配置硬件和操作系统，确保你的应用运行顺畅。
 
-<Cards>
+<Cards columns={2} layout="horizontal">
     <Card title="独立服务器" description="占位符" link="https://zap-hosting.com/guides/zh/docs/dedicated-introduction" image="https://screensaver01.zap-hosting.com/index.php/s/o5kTJsSdwGY69m8/preview" type="product-categories"/>
 </Cards>
 
 ## 域名与空间
 用简单易懂的指南，为你的在线项目打下坚实基础。我们带你一步步完成域名注册和空间管理，从搭建到网站发布全覆盖。
 
-<Cards>
+<Cards columns={2} layout="horizontal">
     <Card title="域名" description="占位符" link="https://zap-hosting.com/guides/zh/docs/domain-introduction" image="https://screensaver01.zap-hosting.com/index.php/s/SPaNk8LSP57s83z/preview" type="product-categories"/>
     <Card title="空间" description="占位符" link="https://zap-hosting.com/guides/zh/docs/webspace-adddomain" image="https://screensaver01.zap-hosting.com/index.php/s/SPaNk8LSP57s83z/preview" type="product-categories"/>
 </Cards>
@@ -165,7 +164,7 @@ import YouTube from '@site/src/components/YouTube/YouTube';
 ## 语音机器人 & 语音服务器
 用我们的语音机器人和语音服务器，提升你的在线互动体验。我们的指南让设置变得轻松，让你有更多时间陪伴社区，无论是游戏还是会议。
 
-<Cards>
+<Cards columns={2} layout="horizontal">
     <Card title="语音机器人" description="占位符" link="https://zap-hosting.com/guides/zh/docs/voiceserver-voicebot-connection" image="https://screensaver01.zap-hosting.com/index.php/s/zZ73fps5Eq93foK/preview" type="product-categories"/>
     <Card title="语音服务器" description="占位符" link="https://zap-hosting.com/guides/zh/docs/voiceserver-becomeadmin" image="https://screensaver01.zap-hosting.com/index.php/s/6cxS6Mo93YL6X5K/preview" type="product-categories"/>
 </Cards>

@@ -5,8 +5,7 @@ description: "اكتشف أدلة الإعداد لتأجير سيرفرات أ�
 sidebar_label: نظرة عامة
 ---
 
-import Card from '@site/src/components/Card/Card';
-import Cards from '@site/src/components/Cards/Cards';
+import Cards, { Card } from '@site/src/components/Cards/Cards';
 
 تبحث عن تأجير سيرفر ألعاب مخصص على الـ VPS أو السيرفر المخصص الخاص بك؟ هنا ستجد مجموعة شاملة من أدلة الإعداد خطوة بخطوة لأشهر الألعاب على كل من لينكس وويندوز.
 
@@ -16,7 +15,7 @@ import Cards from '@site/src/components/Cards/Cards';
 
 ### عام
 
-<Cards>
+<Cards columns={2} layout="horizontal">
     <Card title="نفق Cloudflare لـ txAdmin" description="Placeholder" link="https://zap-hosting.com/guides/docs/dedicated-linux-fivem-txAdmin-cloudflare-tunnel" image="https://screensaver01.zap-hosting.com/index.php/s/XmJGtYkc7d9rBai/preview" type="product-categories"/>
     <Card title="إعداد SteamCMD" description="Placeholder" link="https://zap-hosting.com/guides/docs/dedicated-linux-steamcmd" image="https://screensaver01.zap-hosting.com/index.php/s/XmJGtYkc7d9rBai/preview" type="product-categories"/>
     <Card title="إعداد طبقة توافق Wine" description="Placeholder" link="https://zap-hosting.com/guides/docs/dedicated-linux-wine" image="https://screensaver01.zap-hosting.com/index.php/s/XmJGtYkc7d9rBai/preview" type="product-categories"/>
@@ -25,7 +24,7 @@ import Cards from '@site/src/components/Cards/Cards';
 
 ### الألعاب
 
-<Cards>
+<Cards columns={2} layout="horizontal">
     <Card title="ARK Survival Ascended" description="Placeholder" link="https://zap-hosting.com/guides/docs/dedicated-linux-arksurvivalascended" image="https://screensaver01.zap-hosting.com/index.php/s/qnWELD8ik9srBDG/preview"/>
     <Card title="Avorion" description="Placeholder" link="https://zap-hosting.com/guides/docs/dedicated-linux-avorion" image="https://screensaver01.zap-hosting.com/index.php/s/FGtbBbgYsjygaHQ/preview"/>
     <Card title="Conan Exiles" description="Placeholder" link="https://zap-hosting.com/guides/docs/dedicated-linux-conan" image="https://screensaver01.zap-hosting.com/index.php/s/Kf4Agc6HXkEMJGM/preview"/>
@@ -59,13 +58,13 @@ import Cards from '@site/src/components/Cards/Cards';
 
 ### عام
 
-<Cards>
+<Cards columns={2} layout="horizontal">
     <Card title="نفق Cloudflare لـ txAdmin" description="Placeholder" link="https://zap-hosting.com/guides/docs/dedicated-windows-fivem-txAdmin-cloudflare-tunnel" image="https://screensaver01.zap-hosting.com/index.php/s/XmJGtYkc7d9rBai/preview" type="product-categories"/>
 </Cards>
 
 ### الألعاب
 
-<Cards>
+<Cards columns={2} layout="horizontal">
     <Card title="ARK Survival Ascended" description="Placeholder" link="https://zap-hosting.com/guides/docs/vserver-windows-arksurvivalascended" image="https://screensaver01.zap-hosting.com/index.php/s/qnWELD8ik9srBDG/preview"/>
     <Card title="Avorion" description="Placeholder" link="https://zap-hosting.com/guides/docs/dedicated-windows-avorion" image="https://screensaver01.zap-hosting.com/index.php/s/FGtbBbgYsjygaHQ/preview"/>
     <Card title="Conan Exiles" description="Placeholder" link="https://zap-hosting.com/guides/docs/dedicated-windows-conan" image="https://screensaver01.zap-hosting.com/index.php/s/Kf4Agc6HXkEMJGM/preview"/>

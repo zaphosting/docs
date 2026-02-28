@@ -5,8 +5,7 @@ description: "اكتشف أدلة التثبيت للبرامج والخدمات
 sidebar_label: نظرة عامة
 ---
 
-import Card from '@site/src/components/Card/Card';
-import Cards from '@site/src/components/Cards/Cards';
+import Cards, { Card } from '@site/src/components/Cards/Cards';
 
 تبحث عن تثبيت خدمة معينة على VPS أو سيرفر مخصص؟ هنا ستجد مجموعة شاملة من أدلة التثبيت خطوة بخطوة لمساعدتك على البدء بسرعة وكفاءة. سواء كنت تستخدم Linux أو Windows، هناك مجموعة واسعة من الأدلة المحترفة المتاحة.
 
@@ -14,7 +13,7 @@ import Cards from '@site/src/components/Cards/Cards';
 
 على Linux، يمكنك إعداد Docker، OpenVPN، Nextcloud، WordPress، Plesk، GitLab، Node.js، Python، سيرفر Teamspeak 6، Certbot، والعديد من الخدمات الشهيرة الأخرى.
 
-<Cards>
+<Cards columns={2} layout="horizontal">
     <Card title="تثبيت Certbot" description="Placeholder" link="https://zap-hosting.com/guides/docs/dedicated-linux-certbot" image="https://screensaver01.zap-hosting.com/index.php/s/XmJGtYkc7d9rBai/preview" type="product-categories"/>
     <Card title="تثبيت قواعد البيانات" description="Placeholder" link="https://zap-hosting.com/guides/docs/dedicated-linux-databases" image="https://screensaver01.zap-hosting.com/index.php/s/XmJGtYkc7d9rBai/preview" type="product-categories"/>
     <Card title="تثبيت Docker" description="Placeholder" link="https://zap-hosting.com/guides/docs/dedicated-linux-docker" image="https://screensaver01.zap-hosting.com/index.php/s/XmJGtYkc7d9rBai/preview" type="product-categories"/>
@@ -56,7 +55,7 @@ import Cards from '@site/src/components/Cards/Cards';
 
 لسيرفرات Windows، ستجد تعليمات مفصلة لـ MySQL، Docker، Plex، Node.js، Python، Plesk، Bitwarden، Supabase، سيرفر Teamspeak 6، وأدوات أساسية إضافية.
 
-<Cards>
+<Cards columns={2} layout="horizontal">
     <Card title="تثبيت FTP" description="Placeholder" link="https://zap-hosting.com/guides/docs/dedicated-windows-ftpserver" image="https://screensaver01.zap-hosting.com/index.php/s/XmJGtYkc7d9rBai/preview" type="product-categories"/>
     <Card title="تثبيت Git" description="Placeholder" link="https://zap-hosting.com/guides/docs/dedicated-windows-git" image="https://screensaver01.zap-hosting.com/index.php/s/XmJGtYkc7d9rBai/preview" type="product-categories"/>
     <Card title="تثبيت MySQL" description="Placeholder" link="https://zap-hosting.com/guides/docs/dedicated-windows-installmysql" image="https://screensaver01.zap-hosting.com/index.php/s/XmJGtYkc7d9rBai/preview" type="product-categories"/>

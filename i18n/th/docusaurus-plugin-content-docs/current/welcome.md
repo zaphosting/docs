@@ -5,8 +5,7 @@ description: "ค้นพบวิธีใช้ผลิตภัณฑ์ ZA
 sidebar_label: ยินดีต้อนรับ!
 ---
 
-import Card from '@site/src/components/Card/Card';
-import Cards from '@site/src/components/Cards/Cards';
+import Cards, { Card } from '@site/src/components/Cards/Cards';
 import YouTube from '@site/src/components/YouTube/YouTube';
 
 ## บทนำ
@@ -23,7 +22,7 @@ import YouTube from '@site/src/components/YouTube/YouTube';
 
 ใช้งานและใช้ประโยชน์จากเซิร์ฟเวอร์เกมของคุณให้เต็มที่ ด้วยความเชี่ยวชาญของเรา เราจะยกระดับการเล่นเกมของคุณ คู่มืออย่างละเอียดสำหรับเกมกว่า 100 เกมและส่วนเสริม/ม็อดต่างๆ ช่วยให้คุณเข้าใจลึกซึ้งในการตั้งค่าและจัดการเซิร์ฟเวอร์เกมของคุณ
 
-<Cards>
+<Cards columns={2} layout="horizontal">
     <Card title="FiveM" description="Placeholder" link="https://zap-hosting.com/guides/docs/fivem-dashboard" image="https://screensaver01.zap-hosting.com/index.php/s/fA3eHHpGLYo74ra/preview"/>
     <Card title="Minecraft" description="Placeholder" link="https://zap-hosting.com/guides/docs/minecraft-firststeps-dashboard" image="https://screensaver01.zap-hosting.com/index.php/s/e6BtaFzTZ7czqXy/preview"/>
     <Card title="SCP: Secret Laboratory" description="Placeholder" link="https://zap-hosting.com/guides/docs/scp-firststeps-dashboard" image="https://screensaver01.zap-hosting.com/index.php/s/b5qWPyQeoB5wN8s/preview"/>
@@ -142,7 +141,7 @@ import YouTube from '@site/src/components/YouTube/YouTube';
 ## VPS
 ใช้ประโยชน์จาก VPS ของคุณให้เต็มที่ด้วยคู่มือครบถ้วน ไม่ว่าคุณจะชอบ Linux หรือ Windows คู่มือของเราช่วยให้คุณตั้งค่าและจัดการเซิร์ฟเวอร์ได้อย่างมีประสิทธิภาพ
 
-<Cards>
+<Cards columns={2} layout="horizontal">
     <Card title="VPS (Linux/Windows)" description="Placeholder" link="https://zap-hosting.com/guides/docs/vserver-introduction" image="https://screensaver01.zap-hosting.com/index.php/s/XmJGtYkc7d9rBai/preview" type="product-categories"/>
 </Cards>
 
@@ -150,14 +149,14 @@ import YouTube from '@site/src/components/YouTube/YouTube';
 
 เซิร์ฟเวอร์เฉพาะของเรามอบประสิทธิภาพสำหรับโปรเจกต์ที่ต้องการสูง ค้นพบในคู่มือของเราวิธีตั้งค่าฮาร์ดแวร์และระบบปฏิบัติการตามความต้องการของคุณ และทำให้แอปพลิเคชันของคุณทำงานได้อย่างเต็มประสิทธิภาพ
 
-<Cards>
+<Cards columns={2} layout="horizontal">
     <Card title="เซิร์ฟเวอร์เฉพาะ" description="Placeholder" link="https://zap-hosting.com/guides/docs/dedicated-introduction" image="https://screensaver01.zap-hosting.com/index.php/s/o5kTJsSdwGY69m8/preview" type="product-categories"/>
 </Cards>
 
 ## โดเมน & เว็บโฮสติ้ง
 เริ่มโปรเจกต์ออนไลน์ของคุณบนพื้นฐานที่มั่นคงด้วยคู่มือที่เข้าใจง่ายเกี่ยวกับการจดทะเบียนโดเมนและการจัดการเว็บโฮสติ้ง เราจะนำทางคุณในทุกขั้นตอน ตั้งแต่การตั้งค่าจนถึงการเผยแพร่เว็บไซต์ของคุณ
 
-<Cards>
+<Cards columns={2} layout="horizontal">
     <Card title="โดเมน" description="Placeholder" link="https://zap-hosting.com/guides/docs/domain-introduction" image="https://screensaver01.zap-hosting.com/index.php/s/SPaNk8LSP57s83z/preview" type="product-categories"/>
     <Card title="เว็บโฮสติ้ง" description="Placeholder" link="https://zap-hosting.com/guides/docs/webspace-adddomain" image="https://screensaver01.zap-hosting.com/index.php/s/SPaNk8LSP57s83z/preview" type="product-categories"/>
 </Cards>
@@ -165,7 +164,7 @@ import YouTube from '@site/src/components/YouTube/YouTube';
 ## Voice Bot & เซิร์ฟเวอร์เสียง
 เพิ่มประสบการณ์การสื่อสารออนไลน์ของคุณด้วย Voice Bot และเซิร์ฟเวอร์เสียง คู่มือของเราทำให้การตั้งค่าง่ายขึ้น เพื่อให้คุณมีเวลามากขึ้นกับชุมชน ไม่ว่าจะเล่นเกมหรือประชุม
 
-<Cards>
+<Cards columns={2} layout="horizontal">
     <Card title="Voice Bot" description="Placeholder" link="https://zap-hosting.com/guides/docs/voiceserver-voicebot-connection" image="https://screensaver01.zap-hosting.com/index.php/s/zZ73fps5Eq93foK/preview" type="product-categories"/>
     <Card title="เซิร์ฟเวอร์เสียง" description="Placeholder" link="https://zap-hosting.com/guides/docs/voiceserver-becomeadmin" image="https://screensaver01.zap-hosting.com/index.php/s/6cxS6Mo93YL6X5K/preview" type="product-categories"/>
 </Cards>

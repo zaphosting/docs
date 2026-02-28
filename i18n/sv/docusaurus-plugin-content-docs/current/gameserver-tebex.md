@@ -7,8 +7,7 @@ services:
   - gameserver
 ---
 
-import Card from '@site/src/components/Card/Card';
-import Cards from '@site/src/components/Cards/Cards';
+import Cards, { Card } from '@site/src/components/Cards/Cards';
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introduktion
@@ -23,7 +22,7 @@ mer info om hur det funkar.
 
 Följande spel som vi också erbjuder som en del av vårt gameserver-paket stöds av Tebex. För mer info och andra spel som finns, rekommenderar vi att du kikar på den officiella [webbplatsen](https://www.tebex.io/game-servers). 
 
-<Cards>
+<Cards columns={2} layout="horizontal">
   <Card title="ARK" description="Placeholder" link="https://www.tebex.io/pricing-for-game-servers/ark" image="https://screensaver01.zap-hosting.com/index.php/s/qnWELD8ik9srBDG/preview"/>
   <Card title="CS:GO" description="Placeholder" link="https://www.tebex.io/pricing-for-game-servers/csgo" image="https://screensaver01.zap-hosting.com/index.php/s/RojGnj9TcpGSdzm/preview"/>
   <Card title="Minecraft" description="Placeholder" link="https://www.tebex.io/pricing-for-game-servers/minecraft" image="https://screensaver01.zap-hosting.com/index.php/s/e6BtaFzTZ7czqXy/preview"/>

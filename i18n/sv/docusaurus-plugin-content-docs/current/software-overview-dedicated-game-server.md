@@ -5,8 +5,7 @@ description: "Upptäck installationsguider för att hosta dedikerade spelservrar
 sidebar_label: Översikt
 ---
 
-import Card from '@site/src/components/Card/Card';
-import Cards from '@site/src/components/Cards/Cards';
+import Cards, { Card } from '@site/src/components/Cards/Cards';
 
 Vill du hosta en dedikerad spelserver på din VPS eller dedikerade server? Här hittar du en komplett samling steg-för-steg-guider för populära spel på både Linux och Windows.
 
@@ -16,7 +15,7 @@ Sätt upp dedikerade spelservrar på din Linux-server med våra detaljerade guid
 
 ### Allmänt
 
-<Cards>
+<Cards columns={2} layout="horizontal">
     <Card title="Cloudflare Tunnel för txAdmin" description="Placeholder" link="https://zap-hosting.com/guides/docs/dedicated-linux-fivem-txAdmin-cloudflare-tunnel" image="https://screensaver01.zap-hosting.com/index.php/s/XmJGtYkc7d9rBai/preview" type="product-categories"/>
     <Card title="Installera SteamCMD" description="Placeholder" link="https://zap-hosting.com/guides/docs/dedicated-linux-steamcmd" image="https://screensaver01.zap-hosting.com/index.php/s/XmJGtYkc7d9rBai/preview" type="product-categories"/>
     <Card title="Installera Wine-kompatibilitetslager" description="Placeholder" link="https://zap-hosting.com/guides/docs/dedicated-linux-wine" image="https://screensaver01.zap-hosting.com/index.php/s/XmJGtYkc7d9rBai/preview" type="product-categories"/>
@@ -25,7 +24,7 @@ Sätt upp dedikerade spelservrar på din Linux-server med våra detaljerade guid
 
 ### Spel
 
-<Cards>
+<Cards columns={2} layout="horizontal">
     <Card title="ARK Survival Ascended" description="Placeholder" link="https://zap-hosting.com/guides/docs/dedicated-linux-arksurvivalascended" image="https://screensaver01.zap-hosting.com/index.php/s/qnWELD8ik9srBDG/preview"/>
     <Card title="Avorion" description="Placeholder" link="https://zap-hosting.com/guides/docs/dedicated-linux-avorion" image="https://screensaver01.zap-hosting.com/index.php/s/FGtbBbgYsjygaHQ/preview"/>
     <Card title="Conan Exiles" description="Placeholder" link="https://zap-hosting.com/guides/docs/dedicated-linux-conan" image="https://screensaver01.zap-hosting.com/index.php/s/Kf4Agc6HXkEMJGM/preview"/>
@@ -59,13 +58,13 @@ Hosta dedikerade spelservrar på din Windows-server med våra omfattande guider.
 
 ### Allmänt
 
-<Cards>
+<Cards columns={2} layout="horizontal">
     <Card title="Cloudflare Tunnel för txAdmin" description="Placeholder" link="https://zap-hosting.com/guides/docs/dedicated-windows-fivem-txAdmin-cloudflare-tunnel" image="https://screensaver01.zap-hosting.com/index.php/s/XmJGtYkc7d9rBai/preview" type="product-categories"/>
 </Cards>
 
 ### Spel
 
-<Cards>
+<Cards columns={2} layout="horizontal">
     <Card title="ARK Survival Ascended" description="Placeholder" link="https://zap-hosting.com/guides/docs/vserver-windows-arksurvivalascended" image="https://screensaver01.zap-hosting.com/index.php/s/qnWELD8ik9srBDG/preview"/>
     <Card title="Avorion" description="Placeholder" link="https://zap-hosting.com/guides/docs/dedicated-windows-avorion" image="https://screensaver01.zap-hosting.com/index.php/s/FGtbBbgYsjygaHQ/preview"/>
     <Card title="Conan Exiles" description="Placeholder" link="https://zap-hosting.com/guides/docs/dedicated-windows-conan" image="https://screensaver01.zap-hosting.com/index.php/s/Kf4Agc6HXkEMJGM/preview"/>

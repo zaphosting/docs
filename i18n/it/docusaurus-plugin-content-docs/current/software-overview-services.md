@@ -5,8 +5,7 @@ description: "Scopri le guide di installazione per software e servizi popolari s
 sidebar_label: Panoramica
 ---
 
-import Card from '@site/src/components/Card/Card';
-import Cards from '@site/src/components/Cards/Cards';
+import Cards, { Card } from '@site/src/components/Cards/Cards';
 
 Vuoi installare un servizio specifico sul tuo VPS o Server Dedicato? Qui trovi una raccolta completa di guide passo passo per aiutarti a partire in modo rapido ed efficiente. Che tu stia usando Linux o Windows, c’è una vasta gamma di guide professionali a tua disposizione.
 
@@ -14,7 +13,7 @@ Vuoi installare un servizio specifico sul tuo VPS o Server Dedicato? Qui trovi u
 
 Su Linux puoi configurare Docker, OpenVPN, Nextcloud, WordPress, Plesk, GitLab, Node.js, Python, Teamspeak 6 Server, Certbot e tanti altri servizi popolari.
 
-<Cards>
+<Cards columns={2} layout="horizontal">
     <Card title="Installa Certbot" description="Placeholder" link="https://zap-hosting.com/guides/docs/dedicated-linux-certbot" image="https://screensaver01.zap-hosting.com/index.php/s/XmJGtYkc7d9rBai/preview" type="product-categories"/>
     <Card title="Installa Database" description="Placeholder" link="https://zap-hosting.com/guides/docs/dedicated-linux-databases" image="https://screensaver01.zap-hosting.com/index.php/s/XmJGtYkc7d9rBai/preview" type="product-categories"/>
     <Card title="Installa Docker" description="Placeholder" link="https://zap-hosting.com/guides/docs/dedicated-linux-docker" image="https://screensaver01.zap-hosting.com/index.php/s/XmJGtYkc7d9rBai/preview" type="product-categories"/>
@@ -56,7 +55,7 @@ Su Linux puoi configurare Docker, OpenVPN, Nextcloud, WordPress, Plesk, GitLab, 
 
 Per i server Windows trovi istruzioni dettagliate per MySQL, Docker, Plex, Node.js, Python, Plesk, Bitwarden, Supabase, Teamspeak 6 Server e altri tool essenziali.
 
-<Cards>
+<Cards columns={2} layout="horizontal">
     <Card title="Installa FTP" description="Placeholder" link="https://zap-hosting.com/guides/docs/dedicated-windows-ftpserver" image="https://screensaver01.zap-hosting.com/index.php/s/XmJGtYkc7d9rBai/preview" type="product-categories"/>
     <Card title="Installa Git" description="Placeholder" link="https://zap-hosting.com/guides/docs/dedicated-windows-git" image="https://screensaver01.zap-hosting.com/index.php/s/XmJGtYkc7d9rBai/preview" type="product-categories"/>
     <Card title="Installa MySQL" description="Placeholder" link="https://zap-hosting.com/guides/docs/dedicated-windows-installmysql" image="https://screensaver01.zap-hosting.com/index.php/s/XmJGtYkc7d9rBai/preview" type="product-categories"/>

@@ -7,8 +7,7 @@ services:
   - gameserver
 ---
 
-import Card from '@site/src/components/Card/Card';
-import Cards from '@site/src/components/Cards/Cards';
+import Cards, { Card } from '@site/src/components/Cards/Cards';
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## はじめに
@@ -21,7 +20,7 @@ Tebexは、ゲームサーバーをマネタイズして、ゲーム内アイテ
 
 以下は、当社のゲームサーバー商品でも提供しているTebex対応ゲームです。その他の対応ゲームや詳細は公式の[ウェブサイト](https://www.tebex.io/game-servers)を参照してください。
 
-<Cards>
+<Cards columns={2} layout="horizontal">
   <Card title="ARK" description="プレースホルダー" link="https://www.tebex.io/pricing-for-game-servers/ark" image="https://screensaver01.zap-hosting.com/index.php/s/qnWELD8ik9srBDG/preview"/>
   <Card title="CS:GO" description="プレースホルダー" link="https://www.tebex.io/pricing-for-game-servers/csgo" image="https://screensaver01.zap-hosting.com/index.php/s/RojGnj9TcpGSdzm/preview"/>
   <Card title="Minecraft" description="プレースホルダー" link="https://www.tebex.io/pricing-for-game-servers/minecraft" image="https://screensaver01.zap-hosting.com/index.php/s/e6BtaFzTZ7czqXy/preview"/>

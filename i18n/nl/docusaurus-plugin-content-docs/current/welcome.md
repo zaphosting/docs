@@ -5,8 +5,7 @@ description: "Ontdek hoe je het maximale uit je ZAP-Hosting producten haalt voor
 sidebar_label: Welkom!
 ---
 
-import Card from '@site/src/components/Card/Card';
-import Cards from '@site/src/components/Cards/Cards';
+import Cards, { Card } from '@site/src/components/Cards/Cards';
 import YouTube from '@site/src/components/YouTube/YouTube';
 
 ## Introductie
@@ -23,7 +22,7 @@ We behandelen een breed scala aan onderwerpen en updaten onze content regelmatig
 
 Haal het maximale uit je game server. Met onze knowhow tillen we jouw gaming naar een hoger niveau. Onze uitgebreide gidsen voor meer dan 100 verschillende games en hun uitbreidingen/mods geven je diepgaande kennis over het configureren en beheren van je game servers.
 
-<Cards>
+<Cards columns={2} layout="horizontal">
     <Card title="FiveM" description="Placeholder" link="https://zap-hosting.com/guides/docs/fivem-dashboard" image="https://screensaver01.zap-hosting.com/index.php/s/fA3eHHpGLYo74ra/preview"/>
     <Card title="Minecraft" description="Placeholder" link="https://zap-hosting.com/guides/docs/minecraft-firststeps-dashboard" image="https://screensaver01.zap-hosting.com/index.php/s/e6BtaFzTZ7czqXy/preview"/>
     <Card title="SCP: Secret Laboratory" description="Placeholder" link="https://zap-hosting.com/guides/docs/scp-firststeps-dashboard" image="https://screensaver01.zap-hosting.com/index.php/s/b5qWPyQeoB5wN8s/preview"/>
@@ -142,7 +141,7 @@ Haal het maximale uit je game server. Met onze knowhow tillen we jouw gaming naa
 ## VPS
 Haal het maximale uit je VPS met onze uitgebreide handleidingen. Of je nu Linux of Windows prefereert, onze gidsen helpen je om je server efficiënt op te zetten en te beheren.
 
-<Cards>
+<Cards columns={2} layout="horizontal">
     <Card title="VPS (Linux/Windows)" description="Placeholder" link="https://zap-hosting.com/guides/docs/vserver-introduction" image="https://screensaver01.zap-hosting.com/index.php/s/XmJGtYkc7d9rBai/preview" type="product-categories"/>
 </Cards>
 
@@ -150,14 +149,14 @@ Haal het maximale uit je VPS met onze uitgebreide handleidingen. Of je nu Linux 
 
 Onze dedicated servers bieden power voor veeleisende projecten. Ontdek in onze gidsen hoe je hardware en besturingssystemen naar jouw wensen configureert en ervoor zorgt dat je applicaties optimaal draaien.
 
-<Cards>
+<Cards columns={2} layout="horizontal">
     <Card title="Dedicated Server" description="Placeholder" link="https://zap-hosting.com/guides/docs/dedicated-introduction" image="https://screensaver01.zap-hosting.com/index.php/s/o5kTJsSdwGY69m8/preview" type="product-categories"/>
 </Cards>
 
 ## Domein & Webspace
 Start je online project op een stevige basis met makkelijk te begrijpen handleidingen over domeinregistratie en webspacebeheer. We begeleiden je bij elke stap, van setup tot het live zetten van je website.
 
-<Cards>
+<Cards columns={2} layout="horizontal">
     <Card title="Domein" description="Placeholder" link="https://zap-hosting.com/guides/docs/domain-introduction" image="https://screensaver01.zap-hosting.com/index.php/s/SPaNk8LSP57s83z/preview" type="product-categories"/>
     <Card title="Webspace" description="Placeholder" link="https://zap-hosting.com/guides/docs/webspace-adddomain" image="https://screensaver01.zap-hosting.com/index.php/s/SPaNk8LSP57s83z/preview" type="product-categories"/>
 </Cards>
@@ -165,7 +164,7 @@ Start je online project op een stevige basis met makkelijk te begrijpen handleid
 ## Voicebot & Voiceserver
 Boost je online interacties met onze voicebots en voice servers. Onze gidsen maken de setup easy, zodat jij meer tijd hebt voor je community, of het nu gamen is of meetings.
 
-<Cards>
+<Cards columns={2} layout="horizontal">
     <Card title="Voicebot" description="Placeholder" link="https://zap-hosting.com/guides/docs/voiceserver-voicebot-connection" image="https://screensaver01.zap-hosting.com/index.php/s/zZ73fps5Eq93foK/preview" type="product-categories"/>
     <Card title="Voiceserver" description="Placeholder" link="https://zap-hosting.com/guides/docs/voiceserver-becomeadmin" image="https://screensaver01.zap-hosting.com/index.php/s/6cxS6Mo93YL6X5K/preview" type="product-categories"/>
 </Cards>

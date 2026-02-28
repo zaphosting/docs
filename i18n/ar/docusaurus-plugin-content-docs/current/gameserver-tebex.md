@@ -7,8 +7,7 @@ services:
   - gameserver
 ---
 
-import Card from '@site/src/components/Card/Card';
-import Cards from '@site/src/components/Cards/Cards';
+import Cards, { Card } from '@site/src/components/Cards/Cards';
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## مقدمة
@@ -21,7 +20,7 @@ Tebex هي منصة تتيح لك تحقيق دخل من سيرفر ألعابك
 
 الألعاب التالية التي نقدمها أيضًا كجزء من منتج سيرفر ألعابنا مدعومة من Tebex. لمزيد من المعلومات والألعاب الأخرى المتاحة، ننصحك بزيارة الموقع الرسمي [هنا](https://www.tebex.io/game-servers).
 
-<Cards>
+<Cards columns={2} layout="horizontal">
   <Card title="ARK" description="نموذج توضيحي" link="https://www.tebex.io/pricing-for-game-servers/ark" image="https://screensaver01.zap-hosting.com/index.php/s/qnWELD8ik9srBDG/preview"/>
   <Card title="CS:GO" description="نموذج توضيحي" link="https://www.tebex.io/pricing-for-game-servers/csgo" image="https://screensaver01.zap-hosting.com/index.php/s/RojGnj9TcpGSdzm/preview"/>
   <Card title="Minecraft" description="نموذج توضيحي" link="https://www.tebex.io/pricing-for-game-servers/minecraft" image="https://screensaver01.zap-hosting.com/index.php/s/e6BtaFzTZ7czqXy/preview"/>

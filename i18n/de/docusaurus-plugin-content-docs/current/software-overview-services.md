@@ -5,8 +5,7 @@ description: "Entdecke Installationsanleitungen für beliebte Software und Servi
 sidebar_label: Übersicht
 ---
 
-import Card from '@site/src/components/Card/Card';
-import Cards from '@site/src/components/Cards/Cards';
+import Cards, { Card } from '@site/src/components/Cards/Cards';
 
 Willst du einen bestimmten Service auf deinem VPS oder Dedicated Server installieren? Hier findest du eine umfangreiche Sammlung von Schritt-für-Schritt-Anleitungen, die dir helfen, schnell und effizient loszulegen. Egal ob Linux oder Windows – eine breite Palette professionell vorbereiteter Anleitungen steht bereit.
 
@@ -14,7 +13,7 @@ Willst du einen bestimmten Service auf deinem VPS oder Dedicated Server installi
 
 Auf Linux kannst du Docker, OpenVPN, Nextcloud, WordPress, Plesk, GitLab, Node.js, Python, Teamspeak 6 Server, Certbot und viele weitere beliebte Services einrichten.
 
-<Cards>
+<Cards columns={2} layout="horizontal">
     <Card title="Certbot installieren" description="Platzhalter" link="https://zap-hosting.com/guides/docs/dedicated-linux-certbot" image="https://screensaver01.zap-hosting.com/index.php/s/XmJGtYkc7d9rBai/preview" type="product-categories"/>
     <Card title="Datenbanken installieren" description="Platzhalter" link="https://zap-hosting.com/guides/docs/dedicated-linux-databases" image="https://screensaver01.zap-hosting.com/index.php/s/XmJGtYkc7d9rBai/preview" type="product-categories"/>
     <Card title="Docker installieren" description="Platzhalter" link="https://zap-hosting.com/guides/docs/dedicated-linux-docker" image="https://screensaver01.zap-hosting.com/index.php/s/XmJGtYkc7d9rBai/preview" type="product-categories"/>
@@ -56,7 +55,7 @@ Auf Linux kannst du Docker, OpenVPN, Nextcloud, WordPress, Plesk, GitLab, Node.j
 
 Für Windows-Server findest du detaillierte Anleitungen zu MySQL, Docker, Plex, Node.js, Python, Plesk, Bitwarden, Supabase, Teamspeak 6 Server und weiteren wichtigen Tools.
 
-<Cards>
+<Cards columns={2} layout="horizontal">
     <Card title="FTP installieren" description="Platzhalter" link="https://zap-hosting.com/guides/docs/dedicated-windows-ftpserver" image="https://screensaver01.zap-hosting.com/index.php/s/XmJGtYkc7d9rBai/preview" type="product-categories"/>
     <Card title="Git installieren" description="Platzhalter" link="https://zap-hosting.com/guides/docs/dedicated-windows-git" image="https://screensaver01.zap-hosting.com/index.php/s/XmJGtYkc7d9rBai/preview" type="product-categories"/>
     <Card title="MySQL installieren" description="Platzhalter" link="https://zap-hosting.com/guides/docs/dedicated-windows-installmysql" image="https://screensaver01.zap-hosting.com/index.php/s/XmJGtYkc7d9rBai/preview" type="product-categories"/>

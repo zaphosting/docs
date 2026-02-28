@@ -5,8 +5,7 @@ description: "Entdecke, wie du deine ZAP-Hosting Produkte für Gaming, Server un
 sidebar_label: Willkommen!
 ---
 
-import Card from '@site/src/components/Card/Card';
-import Cards from '@site/src/components/Cards/Cards';
+import Cards, { Card } from '@site/src/components/Cards/Cards';
 import YouTube from '@site/src/components/YouTube/YouTube';
 
 ## Einführung
@@ -23,7 +22,7 @@ Wir decken ein breites Themenspektrum ab und aktualisieren unsere Inhalte regelm
 
 Mach das Beste aus deinem Gameserver und nutze ihn voll aus. Mit unserem Know-how bringen wir dein Gaming auf das nächste Level. Unsere detaillierten Anleitungen für über 100 verschiedene Spiele und deren Erweiterungen/Mods ermöglichen dir, ein tiefes Verständnis für die Konfiguration und Verwaltung deiner Gameserver zu entwickeln.
 
-<Cards>
+<Cards columns={2} layout="horizontal">
     <Card title="FiveM" description="Platzhalter" link="https://zap-hosting.com/guides/docs/fivem-dashboard" image="https://screensaver01.zap-hosting.com/index.php/s/fA3eHHpGLYo74ra/preview"/>
     <Card title="Minecraft" description="Platzhalter" link="https://zap-hosting.com/guides/docs/minecraft-firststeps-dashboard" image="https://screensaver01.zap-hosting.com/index.php/s/e6BtaFzTZ7czqXy/preview"/>
     <Card title="SCP: Secret Laboratory" description="Platzhalter" link="https://zap-hosting.com/guides/docs/scp-firststeps-dashboard" image="https://screensaver01.zap-hosting.com/index.php/s/b5qWPyQeoB5wN8s/preview"/>
@@ -142,7 +141,7 @@ Mach das Beste aus deinem Gameserver und nutze ihn voll aus. Mit unserem Know-ho
 ## VPS
 Nutze deinen VPS voll aus mit unseren umfassenden Anleitungen. Egal ob du Linux oder Windows bevorzugst, unsere Guides helfen dir, deinen Server effizient einzurichten und zu verwalten.
 
-<Cards>
+<Cards columns={2} layout="horizontal">
     <Card title="VPS (Linux/Windows)" description="Platzhalter" link="https://zap-hosting.com/guides/docs/vserver-introduction" image="https://screensaver01.zap-hosting.com/index.php/s/XmJGtYkc7d9rBai/preview" type="product-categories"/>
 </Cards>
 
@@ -150,14 +149,14 @@ Nutze deinen VPS voll aus mit unseren umfassenden Anleitungen. Egal ob du Linux 
 
 Unsere Dedicated Server bieten Leistung für anspruchsvolle Projekte. Entdecke in unseren Anleitungen, wie du Hardware und Betriebssysteme nach deinen Bedürfnissen konfigurierst und sicherstellst, dass deine Anwendungen optimal laufen.
 
-<Cards>
+<Cards columns={2} layout="horizontal">
     <Card title="Dedicated Server" description="Platzhalter" link="https://zap-hosting.com/guides/docs/dedicated-introduction" image="https://screensaver01.zap-hosting.com/index.php/s/o5kTJsSdwGY69m8/preview" type="product-categories"/>
 </Cards>
 
 ## Domain & Webspace
 Starte dein Online-Projekt auf einem soliden Fundament mit leicht verständlichen Anleitungen zur Domain-Registrierung und Webspace-Verwaltung. Wir begleiten dich bei jedem Schritt, von der Einrichtung bis zur Veröffentlichung deiner Webseite.
 
-<Cards>
+<Cards columns={2} layout="horizontal">
     <Card title="Domain" description="Platzhalter" link="https://zap-hosting.com/guides/docs/domain-introduction" image="https://screensaver01.zap-hosting.com/index.php/s/SPaNk8LSP57s83z/preview" type="product-categories"/>
     <Card title="Webspace" description="Platzhalter" link="https://zap-hosting.com/guides/docs/webspace-adddomain" image="https://screensaver01.zap-hosting.com/index.php/s/SPaNk8LSP57s83z/preview" type="product-categories"/>
 </Cards>
@@ -165,7 +164,7 @@ Starte dein Online-Projekt auf einem soliden Fundament mit leicht verständliche
 ## Voicebot & Voiceserver
 Verbessere deine Online-Interaktionen mit unseren Voicebots und Voiceservern. Unsere Anleitungen machen die Einrichtung easy, damit du mehr Zeit mit deiner Community verbringen kannst – egal ob beim Zocken oder in Meetings.
 
-<Cards>
+<Cards columns={2} layout="horizontal">
     <Card title="Voicebot" description="Platzhalter" link="https://zap-hosting.com/guides/docs/voiceserver-voicebot-connection" image="https://screensaver01.zap-hosting.com/index.php/s/zZ73fps5Eq93foK/preview" type="product-categories"/>
     <Card title="Voiceserver" description="Platzhalter" link="https://zap-hosting.com/guides/docs/voiceserver-becomeadmin" image="https://screensaver01.zap-hosting.com/index.php/s/6cxS6Mo93YL6X5K/preview" type="product-categories"/>
 </Cards>
