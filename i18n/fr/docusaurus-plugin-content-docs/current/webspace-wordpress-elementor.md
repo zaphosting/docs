@@ -1,25 +1,24 @@
 ---
 id: webspace-wordpress-elementor
 title: "Hébergement web : WordPress Elementor"
-description: "Découvrez comment créer facilement des sites WordPress pro grâce aux puissantes fonctionnalités du constructeur de pages Elementor → En savoir plus maintenant"
+description: "Découvre comment créer facilement des sites WordPress pro grâce aux puissantes fonctionnalités du constructeur de pages Elementor → En savoir plus maintenant"
 sidebar_label: Elementor
 services:
   - webspace
 ---
 
 
-import Card from '@site/src/components/Card/Card';
-import Cards from '@site/src/components/Cards/Cards';
+import Cards, { Card } from '@site/src/components/Cards/Cards';
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
 
 
 ## Introduction
 
-Elementor est un constructeur de pages puissant et facile à utiliser pour WordPress qui te permet de créer des sites web professionnels sans aucune connaissance en codage.
+Elementor est un constructeur de pages puissant et super simple à utiliser pour WordPress, qui te permet de créer facilement des sites web pro sans aucune connaissance en code.
 
 :::info
-Elementor est disponible en version gratuite et payante. Avec la version gratuite d’Elementor (Elementor Core), tu as tout ce qu’il faut pour démarrer ton site. Elementor Pro vient compléter la version gratuite avec des fonctions supplémentaires et des widgets Pro. Tu peux trouver plus d’infos sur les différences exactes dans la documentation officielle de **[Elementor](https://elementor.com/help/elementor-pro-vs-free/)**.
+Elementor est dispo en version gratuite et payante. Avec la version gratuite d’Elementor (Elementor Core), tu as tout ce qu’il faut pour démarrer ton site. Elementor Pro vient compléter la version gratuite avec des fonctions supplémentaires et des widgets Pro. Tu peux trouver plus d’infos sur les différences exactes dans la doc officielle de **[Elementor](https://elementor.com/help/elementor-pro-vs-free/)**.
 :::
 
 <InlineVoucher />
@@ -27,9 +26,9 @@ Elementor est disponible en version gratuite et payante. Avec la version gratuit
 
 ## Installation
 
-Pour utiliser et installer Elementor, il faut d’abord que WordPress soit déjà installé et opérationnel sur ton hébergement web. Si ce n’est pas encore fait, commence par cette étape. Si tu ne sais pas trop comment faire, on te recommande de jeter un œil à notre **[guide Installer WordPress](webspace-wordpress.md)**.
+Pour utiliser et installer Elementor, il faut déjà que WordPress soit installé et opérationnel sur ton hébergement web. Si ce n’est pas encore fait, commence par cette étape. Si tu ne sais pas trop comment faire, on te conseille de jeter un œil à notre **[guide Installer WordPress](webspace-wordpress.md)**.
 
-Une fois WordPress installé et fonctionnel, tu peux commencer l’installation d’Elementor. Elementor s’installe sur WordPress sous forme de plugin. Tu peux découvrir comment installer des plugins WordPress dans notre **[guide Plugins WordPress](webspace-wordpress-plugins.md)**.
+Une fois WordPress installé et lancé, tu peux commencer l’installation d’Elementor. Elementor s’installe sur WordPress comme un plugin. Tu peux découvrir comment installer des plugins WordPress dans notre **[guide Plugins WordPress](webspace-wordpress-plugins.md)**.
 
 Va dans Plugins sur WordPress, clique sur le bouton **Ajouter un nouveau plugin** en haut de la page. Ensuite, cherche Elementor et clique sur installer dans la sélection sur **Elementor Website Builder - More than just a page builder**.
 
@@ -39,11 +38,11 @@ Va dans Plugins sur WordPress, clique sur le bouton **Ajouter un nouveau plugin*
 
 ## Configuration
 
-Une fois l’installation terminée, tu peux passer à la configuration. Tu devrais voir la fenêtre de bienvenue d’Elementor. Elle te guide à travers les étapes suivantes : création d’un compte Elementor, installation du thème “Hello”, sélection des fonctions souhaitées et enfin la confirmation finale “Good to go”. Suis simplement les instructions pour configurer Elementor à fond.
+Une fois l’installation terminée, tu peux passer à la configuration. Tu devrais voir la fenêtre de bienvenue Elementor. Là, tu seras guidé à travers les étapes suivantes : création d’un compte Elementor, installation du thème “Hello”, sélection des fonctions souhaitées et enfin la confirmation finale “Good to go”. Suis simplement les instructions pour configurer Elementor à fond.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/6QN5trndZgfSano/download)
 
-Créer un compte Elementor n’est pas obligatoire, sauf si tu prévois d’utiliser directement Elementor Pro. Ensuite, tu peux installer le thème et ajouter les fonctionnalités dont tu as besoin.
+Créer un compte Elementor n’est pas obligatoire, sauf si tu comptes utiliser directement Elementor Pro. Ensuite, tu peux installer le thème et ajouter les fonctionnalités dont tu as besoin.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/YgXwPiEnBZTQsC4/preview)
 
@@ -51,11 +50,11 @@ Créer un compte Elementor n’est pas obligatoire, sauf si tu prévois d’util
 
 ## Prise en main
 
-Tu peux maintenant commencer à créer ton site avec Elementor. D’abord, prends le temps de bien comprendre comment utiliser Elementor, quels widgets sont dispos, comment modifier le design et la mise en page, et comment créer des pages et modèles personnalisés.
+Tu peux maintenant commencer à créer ton site avec Elementor. D’abord, prends le temps de bien comprendre comment utiliser Elementor, quels widgets sont dispos, comment modifier le design et la mise en page, et comment créer des pages et templates personnalisés.
 
 ### Widgets disponibles
 
-Les versions gratuite et payante d’Elementor proposent une variété de **widgets** pour personnaliser et designer ton site.
+Les versions gratuite et payante d’Elementor proposent plein de **widgets** pour personnaliser et designer ton site.
 
 #### Widgets de base
 La version gratuite d’Elementor te donne accès à une sélection de widgets pour créer et personnaliser ton site sans frais supplémentaires :
@@ -64,9 +63,9 @@ La version gratuite d’Elementor te donne accès à une sélection de widgets p
 
 #### Widgets Pro
 
-Va encore plus loin dans le design avec les widgets Pro supplémentaires. La version Elementor Pro inclut ces widgets en plus :
+Pousse encore plus loin le design de ton site avec les widgets Pro. La version Elementor Pro inclut ces widgets supplémentaires :
 
-- Articles, Boutons de partage, Portfolio, Diapositives, Formulaire, Connexion, Menu de navigation, Titre animé, Tableau des prix, Liste de prix, Galerie, Boîte retournante, Appel à l’action, Carrousel média, Carrousel de témoignages, Carrousel imbriqué, Carrousel en boucle, Table des matières, Compte à rebours, Page Facebook, Citation, Modèle, Avis, Bouton Facebook, Intégration Facebook, Commentaires Facebook, Bouton PayPal, Widget Lottie, Mise en valeur de code, Playlist vidéo, Point chaud, Suivi de progression, Bouton Stripe, Méga menu, Off-Canvas
+- Articles, Boutons de partage, Portfolio, Diaporama, Formulaire, Connexion, Menu de navigation, Titre animé, Tableau des prix, Liste de prix, Galerie, Boîte retournante, Appel à l’action, Carrousel média, Carrousel de témoignages, Carrousel imbriqué, Carrousel en boucle, Table des matières, Compte à rebours, Page Facebook, Citation, Modèle, Avis, Bouton Facebook, Intégration Facebook, Commentaires Facebook, Bouton PayPal, Widget Lottie, Mise en valeur de code, Playlist vidéo, Point chaud, Suivi de progression, Bouton Stripe, Méga menu, Off-Canvas
 
 
 
@@ -77,25 +76,25 @@ Va encore plus loin dans le design avec les widgets Pro supplémentaires. La ver
 
 ### Créer une page
 
-Crée une nouvelle page et personnalise-la comme tu veux avec **Elementor**. Pour ça, ouvre **Elementor** via la barre latérale et choisis **"Créer une page"**. L’éditeur te propose plein de **widgets et options de configuration** pour personnaliser design et contenu à ta guise.
+Crée une nouvelle page et design-la comme tu veux avec **Elementor**. Pour ça, ouvre **Elementor** via la barre latérale et choisis **"Créer une page"**. L’éditeur te propose plein de **widgets et options de config** pour personnaliser design et contenu à ta sauce.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/mdMbnXNkngXWJHt/download)
 
-### Modèles
+### Templates
 
-Crée des modèles pour **conteneurs, pages ou sections** que tu peux réutiliser plusieurs fois. Le gros avantage, c’est que tu modifies le modèle à un seul endroit et toutes les zones où il est utilisé se mettent à jour automatiquement. Ça te fait gagner du temps et garantit un design uniforme sur ton site.
+Crée des templates pour **conteneurs, pages ou sections** que tu peux réutiliser à volonté. Le gros avantage, c’est que tu modifies le template à un seul endroit et toutes les zones où il est utilisé se mettent à jour automatiquement. Ça te fait gagner du temps et assure un design homogène sur ton site.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/mdMbnXNkngXWJHt/download)
 
 ## Documentation Elementor
 
-Ce guide se concentre uniquement sur l’installation, la configuration et les bases essentielles pour utiliser WordPress avec l’extension Elementor. Pour une intro plus avancée dans l’univers d’Elementor, on te conseille de consulter la **[documentation officielle d’Elementor](https://developers.elementor.com/docs/)** et le **[Centre d’aide](https://elementor.com/help/)**.
+Ce guide se concentre uniquement sur l’installation, la config et les bases essentielles pour utiliser WordPress avec l’extension Elementor. Pour une intro plus poussée dans l’univers Elementor, on te recommande la **[doc officielle Elementor](https://developers.elementor.com/docs/)** et le **[Centre d’aide](https://elementor.com/help/)**.
 
 
 
 ## Plus d’extensions Elementor
 
-Les possibilités, que ce soit via les réglages, thèmes ou widgets, sont limitées selon la version d’Elementor — gratuite ou Pro. Mais il existe aussi plein d’extensions tierces qui peuvent grandement élargir et améliorer tes options de design, voire ajouter des fonctionnalités inédites. Ces extensions te donnent encore plus de flexibilité pour créer ton site exactement comme tu le veux.
+Les possibilités, que ce soit via les réglages, thèmes ou widgets, sont limitées selon la version d’Elementor - gratuite ou Pro. Mais il existe aussi plein d’extensions tierces qui peuvent vraiment booster et améliorer tes options de design ou même ajouter des fonctionnalités. Ces extensions te donnent encore plus de flexibilité pour créer ton site exactement comme tu le veux.
 
 | Extension                      | Usage                           |
 | ------------------------------ | ------------------------------- |
@@ -113,6 +112,6 @@ Les possibilités, que ce soit via les réglages, thèmes ou widgets, sont limit
 
 ## Conclusion
 
-Félicitations, si tu as suivi toutes les étapes, Elementor est maintenant installé et configuré avec succès. Pour toute question ou aide, n’hésite pas à contacter notre support, dispo tous les jours pour t’aider ! 🙂
+Bravo, si tu as suivi toutes les étapes, tu as normalement installé et configuré Elementor avec succès. Pour d’autres questions ou un coup de main, n’hésite pas à contacter notre support, dispo tous les jours pour t’aider ! 🙂
 
 <InlineVoucher />
