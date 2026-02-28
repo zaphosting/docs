@@ -115,6 +115,8 @@ img, iframe {
 table {
   width: 100%;
   display: table;
+  border-radius: .5rem;
+  overflow: hidden;
 }
 
 pre {
@@ -215,7 +217,7 @@ article p {
 
 article img {
   border: 1px solid rgb(228 228 231 / .8);
-  border-radius: 5px;
+  border-radius: .5rem;
 }
 
 [data-theme='dark'] article img {
