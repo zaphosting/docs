@@ -1,103 +1,321 @@
-.YouTubeContainer {
+/* ===========================================================
+   CONTAINER
+   =========================================================== */
+
+.container {
   display: flex;
   max-width: 100%;
-  border-radius: 8px;
-  overflow: hidden;
-  margin: 30px 0;
-  cursor: pointer;
-}
-
-[data-theme='light'] .YouTubeContainer {
-  border: 1px solid rgb(228 228 231 / .6);
-  box-shadow: 0 1px 3px 0 rgb(0 0 0 / .1), 0 1px 2px -1px rgb(0 0 0 / .1);
+  border-radius: .75rem;
+  border: 1px solid rgb(228 228 231 / .8);
   background-color: white;
+  overflow: hidden;
+  margin: 1.5rem 0;
+  cursor: pointer;
+  transition: all 350ms cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: 0 1px 3px 0 rgb(0 0 0 / .04), 0 1px 2px -1px rgb(0 0 0 / .04);
 }
 
-[data-theme='dark'] .YouTubeContainer {
-  border: 1px solid lightgrey;
-  box-shadow: 0 4px 8px rgba(187, 185, 185, 0.3);
+.container:hover {
+  border-color: rgb(163 230 53 / .5);
+  box-shadow:
+    0 8px 25px -5px rgb(132 204 22 / .1),
+    0 4px 10px -3px rgb(0 0 0 / .04);
+  transform: translateY(-2px);
 }
 
-.videoContainer {
+[data-theme='dark'] .container {
+  background-color: rgb(39 39 42 / .5);
+  border-color: rgb(63 63 70 / .5);
+  box-shadow: none;
+}
+
+[data-theme='dark'] .container:hover {
+  border-color: rgb(132 204 22 / .3);
+  background-color: rgb(39 39 42 / .8);
+  box-shadow: 0 8px 25px -5px rgb(0 0 0 / .3), 0 0 15px -3px rgb(132 204 22 / .06);
+  transform: translateY(-2px);
+}
+
+/* ===========================================================
+   THUMBNAIL
+   =========================================================== */
+
+.thumbnail {
   position: relative;
-  width: 30%;
+  width: 280px;
   flex-shrink: 0;
-  cursor: pointer; /* Cursor für das ganze Bild */
+  overflow: hidden;
 }
 
-.videoImage {
+.image {
   width: 100%;
   height: 100%;
   object-fit: cover;
   display: block;
+  border: none;
+  border-radius: 0;
+  transition: transform 500ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.overlay {
+.container:hover .image {
+  transform: scale(1.06);
+}
+
+/* ===== Image Overlay ===== */
+
+.imageOverlay {
   position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.4);
+  inset: 0;
+  background: linear-gradient(
+    135deg,
+    rgb(0 0 0 / .1) 0%,
+    rgb(0 0 0 / .35) 100%
+  );
+  transition: all 350ms cubic-bezier(0.4, 0, 0.2, 1);
+  pointer-events: none;
+}
+
+.container:hover .imageOverlay {
+  background: linear-gradient(
+    135deg,
+    rgb(0 0 0 / .05) 0%,
+    rgb(0 0 0 / .25) 100%
+  );
+}
+
+/* ===== Play Button ===== */
+
+.playButton {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   display: flex;
   align-items: center;
   justify-content: center;
+  width: 3.5rem;
+  height: 3.5rem;
+  border-radius: 50%;
+  background-color: rgb(255 255 255 / .95);
+  box-shadow: 0 4px 15px rgb(0 0 0 / .2);
+  transition: all 350ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.container:hover .playButton {
+  transform: translate(-50%, -50%) scale(1.1);
+  background-color: white;
+  box-shadow: 0 6px 20px rgb(0 0 0 / .25);
 }
 
 .playIcon {
-  width: 0;
-  height: 0;
-  border-left: 30px solid white;
-  border-top: 20px solid transparent;
-  border-bottom: 20px solid transparent;
+  width: 1.375rem;
+  height: 1.375rem;
+  color: #4D7C0F;
+  margin-left: 2px;
+  transition: color 350ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.contentContainer {
+.container:hover .playIcon {
+  color: #365314;
+}
+
+/* ===== YouTube Badge ===== */
+
+.badge {
+  position: absolute;
+  top: .625rem;
+  left: .625rem;
+  display: flex;
+  align-items: center;
+  gap: .3rem;
+  padding: .25rem .5rem;
+  border-radius: .375rem;
+  background-color: rgb(0 0 0 / .6);
+  backdrop-filter: blur(4px);
+  font-size: .625rem;
+  font-weight: 700;
+  color: white;
+  letter-spacing: .03em;
+  text-transform: uppercase;
+  pointer-events: none;
+}
+
+.badgeIcon {
+  width: .75rem;
+  height: .75rem;
+  color: #ef4444;
+}
+
+/* ===========================================================
+   CONTENT
+   =========================================================== */
+
+.content {
   flex: 1 1 0%;
-  padding: 10px 30px;
-  box-sizing: border-box;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  gap: .75rem;
+  padding: 1.25rem 1.5rem;
+  border-left: 1px solid rgb(228 228 231 / .5);
   min-width: 0;
+  transition: border-color 350ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
+.container:hover .content {
+  border-left-color: rgb(217 249 157 / .6);
+}
+
+[data-theme='dark'] .content {
+  border-left-color: rgb(63 63 70 / .4);
+}
+
+[data-theme='dark'] .container:hover .content {
+  border-left-color: rgb(132 204 22 / .15);
+}
+
+.contentInner {
+  display: flex;
+  flex-direction: column;
+  gap: .375rem;
+}
+
+/* ===== Title ===== */
 
 .title {
-  font-size: 1.5em;
-  font-weight: bold;
-  margin: 0px 0px 10px 0px;
-  text-overflow: ellipsis;
-  overflow: hidden;
-  max-width: 95%;
-  white-space: nowrap;
+  margin: 0;
+  font-size: 1.125rem;
+  font-weight: 700;
+  line-height: 1.3;
+  color: #18181B;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
+.container:hover .title {
+  color: #365314;
+}
+
+[data-theme='dark'] .title {
+  color: rgb(250 250 250);
+}
+
+[data-theme='dark'] .container:hover .title {
+  color: rgb(217 249 157);
+}
+
+/* ===== Description ===== */
 
 .description {
-  font-size: 0.75rem;
   margin: 0;
-  line-height: 2;
+  font-size: .8125rem;
+  font-weight: 400;
+  line-height: 1.6;
+  color: #71717A;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }
 
+[data-theme='dark'] .description {
+  color: rgb(161 161 170);
+}
+
+/* ===== CTA ===== */
+
+.cta {
+  display: flex;
+  align-items: center;
+  gap: .375rem;
+  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.ctaText {
+  font-size: .75rem;
+  font-weight: 600;
+  color: rgb(77 124 15 / .6);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.container:hover .ctaText {
+  color: #4D7C0F;
+}
+
+[data-theme='dark'] .ctaText {
+  color: rgb(132 204 22 / .4);
+}
+
+[data-theme='dark'] .container:hover .ctaText {
+  color: rgb(163 230 53);
+}
+
+.ctaArrow {
+  width: .75rem;
+  height: .75rem;
+  color: rgb(77 124 15 / .35);
+  transition: all 350ms cubic-bezier(0.4, 0, 0.2, 1);
+  transform: translate(0, 0);
+}
+
+.container:hover .ctaArrow {
+  color: rgb(77 124 15 / .7);
+  transform: translate(2px, -2px);
+}
+
+[data-theme='dark'] .ctaArrow {
+  color: rgb(132 204 22 / .2);
+}
+
+[data-theme='dark'] .container:hover .ctaArrow {
+  color: rgb(163 230 53 / .6);
+}
+
+/* ===========================================================
+   RESPONSIVE
+   =========================================================== */
+
 @media (max-width: 768px) {
-  .YouTubeContainer {
+  .container {
     flex-direction: column;
   }
 
-  .videoContainer, .contentContainer {
-    flex-basis: 50%;
+  .thumbnail {
+    width: 100%;
+    height: 200px;
   }
 
-  .videoContainer {
-    width: 100%;
+  .content {
+    border-left: none;
+    border-top: 1px solid rgb(228 228 231 / .5);
+    padding: 1rem 1.25rem;
+  }
+
+  .container:hover .content {
+    border-left-color: transparent;
+    border-top-color: rgb(217 249 157 / .6);
+  }
+
+  [data-theme='dark'] .content {
+    border-left-color: transparent;
+    border-top-color: rgb(63 63 70 / .4);
+  }
+
+  [data-theme='dark'] .container:hover .content {
+    border-left-color: transparent;
+    border-top-color: rgb(132 204 22 / .15);
   }
 
   .title {
-    font-size: 1.25em;
-    text-align: center;
+    font-size: 1rem;
   }
 
-  .description {
-    font-size: 0.75em;
-    text-align: center;
+  .playButton {
+    width: 3rem;
+    height: 3rem;
+  }
+
+  .playIcon {
+    width: 1.125rem;
+    height: 1.125rem;
   }
 }
