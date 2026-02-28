@@ -18,7 +18,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 Elementor ist ein mächtiger und benutzerfreundlicher Pagebuilder für WordPress, mit dem du ohne Programmierkenntnisse ganz easy professionelle Websites erstellen kannst.
 
 :::info
-Elementor gibt’s sowohl in einer kostenlosen als auch in einer kostenpflichtigen Version. Mit der kostenlosen Version von Elementor (Elementor Core) bekommst du alles, was du brauchst, um mit deiner Website zu starten. Elementor Pro baut auf der kostenlosen Version auf und bietet zusätzliche Funktionen und Pro-Widgets. Mehr Infos zu den genauen Unterschieden findest du in der offiziellen **[Elementor-Dokumentation](https://elementor.com/help/elementor-pro-vs-free/)**.
+Elementor gibt’s sowohl in einer kostenlosen als auch in einer kostenpflichtigen Version. Mit der kostenlosen Version von Elementor (Elementor Core) bekommst du alles, was du brauchst, um mit deiner Website zu starten. Elementor Pro baut auf der kostenlosen Version auf und bietet dir zusätzliche Funktionen und Pro-Widgets. Mehr Infos zu den genauen Unterschieden findest du in der offiziellen **[Elementor-Dokumentation](https://elementor.com/help/elementor-pro-vs-free/)**.
 :::
 
 <InlineVoucher />
@@ -26,11 +26,11 @@ Elementor gibt’s sowohl in einer kostenlosen als auch in einer kostenpflichtig
 
 ## Installation
 
-Für die Nutzung und Installation von Elementor brauchst du WordPress bereits installiert und am Laufen auf deinem Webspace. Falls das noch nicht der Fall ist, musst du diesen Schritt zuerst erledigen. Wenn du nicht genau weißt, wie das geht, empfehlen wir dir einen Blick in unsere **[WordPress installieren](webspace-wordpress.md)** Anleitung.
+Für die Nutzung und Installation von Elementor brauchst du WordPress bereits installiert und am Laufen auf deinem Webspace. Falls das noch nicht der Fall ist, solltest du diesen Schritt zuerst erledigen. Wenn du nicht genau weißt, wie das geht, empfehlen wir dir einen Blick in unsere **[WordPress installieren](webspace-wordpress.md)** Anleitung.
 
 Sobald WordPress läuft, kannst du mit der Installation von Elementor starten. Elementor wird als Plugin in WordPress installiert. Wie du Plugins in WordPress installierst, erfährst du in unserer **[WordPress Plugins](webspace-wordpress-plugins.md)** Anleitung.
 
-Gehe in WordPress auf Plugins, klicke oben auf den Button **Neues Plugin hinzufügen**. Suche im nächsten Schritt nach Elementor und klicke bei **Elementor Website Builder – Mehr als nur ein Pagebuilder** auf installieren.
+Gehe in WordPress zu Plugins, klicke oben auf den Button **Neues Plugin hinzufügen**. Suche im nächsten Schritt nach Elementor und klicke bei **Elementor Website Builder – Mehr als nur ein Pagebuilder** auf installieren.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/xcj9stZtAmY9cgJ/preview)
 
@@ -38,11 +38,11 @@ Gehe in WordPress auf Plugins, klicke oben auf den Button **Neues Plugin hinzuf�
 
 ## Konfiguration
 
-Nachdem die Installation abgeschlossen ist, kannst du mit der Konfiguration weitermachen. Im nächsten Schritt solltest du das Elementor-Willkommensfenster sehen. Dort wirst du durch folgende Schritte geführt: Erstellen eines Elementor-Kontos, Installation des „Hello“-Themes, Auswahl der gewünschten Funktionen und schließlich die finale Bestätigung „Good to go“. Folge einfach den Anweisungen, um Elementor komplett einzurichten.
+Nachdem die Installation abgeschlossen ist, kannst du mit der Konfiguration weitermachen. Im nächsten Schritt solltest du das Elementor-Willkommensfenster sehen. Dort wirst du durch folgende Schritte geführt: Erstellen eines Elementor-Kontos, Installation des „Hello“-Themes, Auswahl der gewünschten Funktionen und abschließend die Bestätigung „Good to go“. Folge einfach den Anweisungen, um Elementor vollständig einzurichten.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/6QN5trndZgfSano/download)
 
-Die Erstellung eines Elementor-Kontos ist nicht zwingend notwendig, außer du willst Elementor Pro direkt nutzen. Danach kannst du das Theme installieren und die zusätzlichen Features hinzufügen, die du brauchst.
+Die Erstellung eines Elementor-Kontos ist nicht zwingend notwendig – außer du möchtest Elementor Pro direkt nutzen. Danach kannst du das Theme installieren und die zusätzlichen Features hinzufügen, die du brauchst.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/YgXwPiEnBZTQsC4/preview)
 
@@ -50,23 +50,23 @@ Die Erstellung eines Elementor-Kontos ist nicht zwingend notwendig, außer du wi
 
 ## Loslegen
 
-Jetzt kannst du mit Elementor deine Website designen. Zuerst solltest du dir einen Überblick verschaffen, wie Elementor genau funktioniert, welche Widgets es gibt, wie du Design und Layout bearbeitest und wie du einzelne Seiten und Templates erstellst.
+Jetzt kannst du mit Elementor deine Website gestalten. Zuerst solltest du dir einen Überblick verschaffen, wie Elementor genau funktioniert, welche Widgets es gibt, wie du Design und Layout bearbeitest und wie du einzelne Seiten und Templates erstellst.
 
 ### Verfügbare Widgets
 
-Sowohl die kostenlose als auch die kostenpflichtige Version von Elementor bieten dir eine Vielzahl an **Widgets**, mit denen du deine Website gestalten und anpassen kannst.
+Sowohl die kostenlose als auch die kostenpflichtige Version von Elementor bieten dir eine Vielzahl an **Widgets**, mit denen du deine Website designen und anpassen kannst.
 
 
 #### Basis-Widgets
-Die kostenlose Version von Elementor bietet dir eine Auswahl an Widgets, mit denen du deine Website ohne zusätzliche Kosten designen und anpassen kannst:
+Die kostenlose Elementor-Version bietet dir eine Auswahl an Widgets, mit denen du deine Website ohne zusätzliche Kosten gestalten kannst:
 
-- Innere Sektion, Überschrift, Bild, Texteditor, Video, Button, Sternebewertung, Trenner, Google Maps, Icon, Bildbox, Iconbox, Basis-Galerie, Bilderkarussell, Iconliste, Zähler, Abstandshalter, Kundenmeinung, Tabs, Akkordeon, Umschalter, Social Icons, Fortschrittsbalken, SoundCloud, Shortcode, HTML, Menüanker, Alarm, Sidebar, Textpfad, Container und Link in Bio.
+- Innere Sektion, Überschrift, Bild, Texteditor, Video, Button, Sternebewertung, Trenner, Google Maps, Icon, Bildbox, Iconbox, Basis-Galerie, Bildkarussell, Iconliste, Zähler, Abstandshalter, Kundenmeinung, Tabs, Akkordeon, Umschalter, Social Icons, Fortschrittsbalken, SoundCloud, Shortcode, HTML, Menüanker, Alert, Sidebar, Textpfad, Container und Link in Bio.
 
 #### Pro-Widgets
 
-Erweitere das Design deiner Website mit zusätzlichen Pro-Widgets. Die Elementor Pro Version enthält folgende zusätzliche Widgets:
+Erweitere das Design deiner Website mit zusätzlichen Pro-Widgets. Die Elementor Pro-Version beinhaltet folgende zusätzliche Widgets:
 
-- Beiträge, Share Buttons, Portfolio, Slides, Formular, Login, Navigationsmenü, Animierte Überschrift, Preistabelle, Preisliste, Galerie, Flip Box, Call to Action, Medienkarussell, Kundenmeinungs-Karussell, Verschachteltes Karussell, Loop-Karussell, Inhaltsverzeichnis, Countdown, Facebook-Seite, Blockzitat, Template, Bewertungen, Facebook-Button, Facebook-Embed, Facebook-Kommentare, PayPal-Button, Lottie-Widget, Code-Highlight, Video-Playlist, Hotspot, Fortschrittsanzeige, Stripe-Button, Mega-Menü, Off-Canvas
+- Beiträge, Share Buttons, Portfolio, Slides, Formular, Login, Navigationsmenü, Animierte Überschrift, Preistabelle, Preisliste, Galerie, Flip Box, Call to Action, Medienkarussell, Kundenmeinungen-Karussell, Verschachteltes Karussell, Loop-Karussell, Inhaltsverzeichnis, Countdown, Facebook-Seite, Blockzitat, Template, Bewertungen, Facebook-Button, Facebook-Embed, Facebook-Kommentare, PayPal-Button, Lottie-Widget, Code-Highlight, Video-Playlist, Hotspot, Fortschrittsanzeige, Stripe-Button, Mega-Menü, Off-Canvas
 
 
 
@@ -104,7 +104,7 @@ Das Angebot an Möglichkeiten, sei es durch Einstellungen, Themes oder Widgets, 
 | Essential Addons for Elementor | Kostenlose und kostenpflichtige Version verfügbar |
 | Premium Addons for Elementor   | Kostenlose und kostenpflichtige Version verfügbar |
 | Happy Addons for Elementor     | Kostenlose und kostenpflichtige Version verfügbar |
-| ThePlus Addons                 | Kostenlose und kostenpflichtige Version verfügbar |
+| ThePlus Addons                | Kostenlose und kostenpflichtige Version verfügbar |
 | JetElements                   | Kostenpflichtige Version         |
 
 
