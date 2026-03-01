@@ -508,7 +508,7 @@ const servicesMap: serviceMap = {
             id: 'service.gameserver-brokeprotocol.path',
             description: 'URL path for the gameserver product',
         }),
-        price: `${priceFrom} 0.00€`,
+        price: `${priceFrom} 6.90€`,
     },
     'gameserver-citadel-forgedwithfire': {
         title: translate({
@@ -716,7 +716,7 @@ const servicesMap: serviceMap = {
             id: 'service.gameserver-dods.path',
             description: 'URL path for the gameserver product',
         }),
-        price: `${priceFrom} 0.00€`,
+        price: `${priceFrom} 5.00€`,
     },
     'gameserver-dst': {
         title: translate({
@@ -1899,7 +1899,7 @@ const servicesMap: serviceMap = {
             id: 'service.gameserver-vintagestory.path',
             description: 'URL path for the gameserver product',
         }),
-        price: `${priceFrom} 0.00€`,
+        price: `${priceFrom} 4.14€`,
     },
     'gameserver-voyagers-of-nera': {
         title: translate({
