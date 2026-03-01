@@ -3391,37 +3391,6 @@ const sidebars = {
     },
     {
       type: "category",
-      label: "Path of Titans",
-      key: "gameserver-path-of-titans",
-      items: [
-        {
-          type: "category",
-          label: "First Steps",
-          key: "gameserver-first-steps-path-of-titans",
-          items: [
-            "pathoftitans-firststeps-dashboard"
-          ]
-        },
-        {
-          type: "category",
-          label: "Configuration",
-          key: "gameserver-configuration-path-of-titans",
-          items: [
-            "pathoftitans-becomeadmin",
-          ]
-        },
-        {
-          type: "category",
-          label: "Troubleshooting",
-          key: "gameserver-troubleshooting-path-of-titans",
-          items: [
-            "pathoftitans-troubleshooting-common-issues",
-          ]
-        },
-      ],
-    },
-    {
-      type: "category",
       label: "PixARK",
       key: "gameserver-pixark",
       items: [

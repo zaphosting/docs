@@ -533,6 +533,15 @@ const config = {
           {
             to: '/docs/dedicated-windows-hl2', from: '/docs/vserver-windows-hl2',
           },
+          {
+            to: '/docs/welcome', from: '/docs/pathoftitans-firststeps-dashboard',
+          },
+          {
+            to: '/docs/welcome', from: '/docs/pathoftitans-becomeadmin',
+          },
+          {
+            to: '/docs/welcome', from: '/docs/pathoftitans-troubleshooting-common-issues',
+          },
         ],
       },
     ],
