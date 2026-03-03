@@ -8,8 +8,6 @@ services:
   - dedicated-service-coolify
 ---
 
-import Tabs from '@theme/Tabs';
-import TabItem from '@theme/TabItem';
 import InlineVoucher from '@site/src/components/InlineVoucher';
 import InlineServiceLink from '@site/src/components/InlineServiceLink';
 
