@@ -5218,6 +5218,7 @@ const sidebars = {
       defaultStyle: true,
     },
     "dedicated-linux-certbot",
+    "server-linux-coolify",
     "dedicated-linux-databases",
     "dedicated-linux-docker",
     "dedicated-linux-ftp-install",
