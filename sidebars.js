@@ -95,8 +95,7 @@ const sidebars = {
         "account-change-email",
         "account-change-language",
         "account-data-information",
-
-        "account-usermanagement",
+        "account-teams-and-sharing",
       ]
     },
     {
