@@ -542,6 +542,10 @@ const config = {
           {
             to: '/docs/welcome', from: '/docs/pathoftitans-troubleshooting-common-issues',
           },
+          {
+            to: '/docs/account-teams-and-sharing', from: '/docs/account-usermanagement',
+          },
+
         ],
       },
     ],
