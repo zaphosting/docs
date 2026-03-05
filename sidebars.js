@@ -1771,6 +1771,45 @@ const sidebars = {
     },
     {
       type: "category",
+      label: "Counter-Strike: Global Offensive",
+      key: "gameserver-csgo",
+      items: [
+        {
+          type: "category",
+          label: "First Steps",
+          key: "gameserver-first-steps-csgo",
+          items: [
+            "csgo-firststeps-dashboard",
+            "csgo-firststeps-connect",
+            "csgo-gslt",
+          ]
+        },
+        {
+          type: "category",
+          label: "Configuration",
+          key: "gameserver-configuration-csgo",
+          items: [
+            "csgo-configuration",
+            "csgo-cstv",
+            "csgo-becomeadmin",
+            "csgo-plugins",
+            "csgo-fastdl",
+            "csgo-automated-messages"
+          ]
+        },
+        {
+          type: "category",
+          label: "Troubleshooting",
+          key: "gameserver-troubleshooting-csgo",
+          items: [
+            "csgo-troubleshooting-common-issues",
+            "csgo-troubleshooting-segmentation-fault"
+          ]
+        },   
+      ],
+    },
+    {
+      type: "category",
       label: "Day of Defeat: Source",
       key: "gameserver-day-of-defeat-source",
       items: [
@@ -5316,6 +5355,7 @@ const sidebars = {
           "dedicated-linux-cscz",
           "dedicated-linux-css",
           "dedicated-linux-cs2",
+          "server-linux-csgo",
           "dedicated-linux-tf2",
           "dedicated-linux-dods",
           "dedicated-linux-l4d2",
@@ -5381,6 +5421,7 @@ const sidebars = {
         "dedicated-windows-cscz",
         "dedicated-windows-css",
         "dedicated-windows-cs2",
+        "server-windows-csgo",
         "dedicated-windows-tf2",
         "dedicated-windows-dods",
         "dedicated-windows-l4d2",
