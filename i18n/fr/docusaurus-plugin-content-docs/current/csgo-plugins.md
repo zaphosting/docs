@@ -1,7 +1,7 @@
 ---
 id: csgo-plugins
 title: "CS:GO : Installation de plugins"
-description: "Explore l’évolution des plugins CS:GO et des projets communautaires pour booster ton expérience Counter-Strike → Découvre tout maintenant"
+description: "Apprends à installer des plugins Sourcemod sur ton serveur de jeux CS:GO et étends le gameplay avec des fonctionnalités personnalisées → Découvre tout maintenant"
 sidebar_label: Installer des plugins
 services:
   - gameserver-csgo
@@ -16,9 +16,9 @@ import items from '@site/data/lists/csgo-plugins.json';
 
 ## Introduction
 
-CS:GO perpétue la longue tradition de la personnalisation des serveurs par la communauté. Les plugins permettent aux propriétaires de serveurs d’étendre le gameplay, d’ajouter des fonctionnalités pratiques, d’implémenter des règles personnalisées ou même de créer des modes de jeu entièrement nouveaux.
+CS:GO perpétue la longue tradition de personnalisation des serveurs portée par la communauté. Les plugins permettent aux propriétaires de serveurs d’étendre le gameplay, d’ajouter des fonctionnalités pratiques, d’implémenter des règles personnalisées ou de créer des modes de jeu entièrement nouveaux.
 
-Avec la transition vers Source 2, l’écosystème des plugins a beaucoup évolué. Pour CS:GO, **CounterStrikeSharp** s’est imposé comme le framework principal et activement maintenu pour le développement de plugins côté serveur.
+Pour les serveurs de jeux CS:GO, **Sourcemod** est le framework le plus utilisé pour les plugins côté serveur. Sourcemod fonctionne avec **Metamod:Source**, qui sert de couche de base permettant aux plugins de s’accrocher au moteur du jeu. En installant ces deux composants, les admins de serveurs peuvent gérer facilement les plugins et étendre les fonctionnalités du serveur.
 
 <InlineVoucher />
 
@@ -26,54 +26,71 @@ Avec la transition vers Source 2, l’écosystème des plugins a beaucoup évolu
 
 ## Installation de Metamod:Source
 
-Metamod doit être installé en premier, car CounterStrikeSharp en dépend. Après avoir téléchargé la [version Dev Metamod:Source 2.x](https://www.metamodsource.net/downloads.php?branch=dev), extrait l’archive. À l’intérieur, tu trouveras un dossier `addons`. Ce dossier doit être uploadé directement dans le répertoire du jeu CS:GO via [FTP](gameserver-ftpaccess.md).
+Metamod:Source doit être installé en premier, car Sourcemod en dépend. Commence par télécharger la dernière version de Metamod:Source depuis le site officiel. Extrayez l’archive téléchargée sur ton ordinateur.
+
+Dans l’archive, tu trouveras un dossier `addons`. Upload ce dossier sur ton serveur de jeux CS:GO via [FTP](gameserver-ftpaccess.md) pour qu’il fusionne avec le répertoire de jeu existant `../csgo/`.
+
+
+Après avoir uploadé les fichiers, redémarre ton serveur. Pour vérifier que Metamod fonctionne correctement, ouvre la console du serveur et exécute la commande suivante :
 
 ```
-../game/csgo/
+meta version
 ```
 
-Après avoir copié les fichiers, localise le fichier `gameinfo.gi` dans `/game/csgo/`. Ouvre-le avec un éditeur de texte. Dans ce fichier, trouve la ligne contenant `Game_LowViolence csgo_lv`. Juste en dessous, ajoute cette ligne :
+
+Si Metamod est bien installé, la console affichera la version installée ainsi que des infos supplémentaires.
+
+<Button label="Télécharger Metamod:Source" link="https://www.metamodsource.net/downloads.php" block />
+
+
+
+## Installation de Sourcemod
+
+Une fois Metamod:Source installé, tu peux installer Sourcemod. Télécharge la dernière version stable de Sourcemod depuis le site officiel et extrait l’archive. Upload les dossiers `addons` et `cfg` inclus sur ton serveur CS:GO via [FTP](gameserver-ftpaccess.md). Ces dossiers doivent être placés dans le répertoire de jeu CS:GO `../csgo/`. Après l’upload, redémarre le serveur. Sourcemod sera alors chargé automatiquement via Metamod.
+
+Pour confirmer que Sourcemod fonctionne, ouvre la console du serveur et lance :
 
 ```
-Game csgo/addons/metamod
+sm version
 ```
 
-<Button label="Télécharger Metamod:Source" link="https://www.metamodsource.net/downloads.php?branch=dev" block />
+
+Si l’installation a réussi, le serveur retournera la version actuelle de Sourcemod et les infos de build.
+
+<Button label="Télécharger Sourcemod" link="https://www.sourcemod.net/downloads.php" block />
 
 
 
+## Installation des plugins
 
-
-## Installation de CounterStrikeSharp
-
-Une fois que Metamod est confirmé comme actif, tu peux installer CounterStrikeSharp. Ce dernier est distribué via son dépôt officiel GitHub sous forme de package précompilé. Télécharge la release CounterStrikeSharp qui inclut le runtime. Extrait l’archive et copie le dossier `addons` dans le même répertoire du jeu CS:GO via [FTP](gameserver-ftpaccess.md).
-
-```
-/game/csgo/
-```
-
-Ne fusionne pas et ne renomme pas les dossiers manuellement. La structure fournie par l’archive doit rester intacte. Après avoir uploadé les fichiers, redémarre le serveur. Au démarrage, Metamod chargera automatiquement CounterStrikeSharp. Pour vérifier l’installation, ouvre la console du serveur et lance :
+Les plugins Sourcemod sont généralement distribués sous forme de fichiers `.smx`. Ces fichiers compilés doivent être uploadés dans le dossier `plugins` de l’installation Sourcemod.
 
 ```
-meta list
-Listing 1 plugin:
-  [01] CounterStrikeSharp (0.1.0) by Roflmuffin
+../csgo/addons/sourcemod/plugins/
 ```
 
-<Button label="Télécharger CounterStrikeSharp" link="https://github.com/roflmuffin/CounterStrikeSharp/releases/tag/v1.0.354" block />
+
+Après avoir uploadé le fichier plugin, redémarre le serveur ou recharge le plugin directement via la console du serveur avec la commande suivante :
+
+```
+sm plugins load <nomduplugin>
+```
+
+
+Si un plugin ne se charge pas correctement, vérifie les logs du serveur situés dans le dossier `logs` de Sourcemod pour trouver d’éventuels messages d’erreur.
+
+Certains plugins peuvent aussi inclure des fichiers de configuration supplémentaires. Ces fichiers se placent généralement dans :
+
+```
+../csgo/addons/sourcemod/configs/
+```
+
+
+Suis toujours les instructions d’installation fournies par le développeur du plugin pour garantir un fonctionnement correct.
 
 
 
-## Installation des Plugins
-
-Les plugins pour CounterStrikeSharp sont fournis sous forme de fichiers compilés `.dll`. Ces fichiers doivent être placés dans le dossier `plugins` à l’intérieur du chemin d’installation de CounterStrikeSharp.
-
-Après avoir copié un plugin dans ce dossier et redémarré le serveur, CounterStrikeSharp charge automatiquement tous les plugins disponibles. Si un plugin ne se charge pas, consulte les logs du serveur pour trouver les erreurs liées à CounterStrikeSharp ou au plugin concerné.
-
-
-
-
-## Plugins Populaires
+## Plugins populaires
 
 <SearchableItemList items={items} />
 
@@ -81,9 +98,6 @@ Après avoir copié un plugin dans ce dossier et redémarré le serveur, Counter
 
 ## Conclusion
 
-Si tu as suivi toutes les étapes, tu as maintenant installé avec succès Metamod/CounterStrikeSharp ainsi que les plugins que tu souhaitais. Pour toute question ou aide supplémentaire, n’hésite pas à contacter notre support, disponible tous les jours pour t’aider ! 🙂
-
-
-
+Si tu as suivi toutes les étapes, tu as normalement installé avec succès Metamod:Source, Sourcemod et les plugins de ton choix sur ton serveur de jeux CS:GO. Pour toute question ou aide supplémentaire, n’hésite pas à contacter notre support, disponible tous les jours pour t’aider ! 🙂
 
 <InlineVoucher />

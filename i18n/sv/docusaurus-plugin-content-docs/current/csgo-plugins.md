@@ -1,7 +1,7 @@
 ---
 id: csgo-plugins
 title: "CS:GO: Installation av plugins"
-description: "Utforska det ständigt föränderliga landskapet av CS:GO-plugins och communityprojekt för att förbättra din Counter-Strike-upplevelse → Lär dig mer nu"
+description: "Lär dig hur du installerar Sourcemod-plugins på din CS:GO-server och utökar spelet med egna funktioner → Läs mer nu"
 sidebar_label: Installera plugins
 services:
   - gameserver-csgo
@@ -16,9 +16,9 @@ import items from '@site/data/lists/csgo-plugins.json';
 
 ## Introduktion
 
-CS:GO fortsätter den långa traditionen av communitydriven serveranpassning. Plugins låter serverägare utöka gameplay, lägga till smidiga funktioner, implementera egna regeluppsättningar eller bygga helt nya spellägen.
+CS:GO fortsätter den långa traditionen av communitydriven serveranpassning. Plugins låter serverägare utöka spelupplevelsen, lägga till smidiga funktioner, implementera egna regler eller bygga helt nya spellägen.
 
-Med övergången till Source 2 har plugin-ekosystemet förändrats rejält. För CS:GO har **CounterStrikeSharp** etablerat sig som det primära och aktivt underhållna ramverket för serverside plugin-utveckling.
+För CS:GO-servrar är **Sourcemod** det mest använda ramverket för serverside-plugins. Sourcemod jobbar tillsammans med **Metamod:Source**, som fungerar som baslager och gör det möjligt för plugins att hooka in i spelmotorn. Genom att installera båda komponenterna kan serveradministratörer enkelt hantera plugins och utöka serverns funktionalitet.
 
 <InlineVoucher />
 
@@ -26,50 +26,67 @@ Med övergången till Source 2 har plugin-ekosystemet förändrats rejält. För
 
 ## Installera Metamod:Source
 
-Metamod måste installeras först, eftersom CounterStrikeSharp är beroende av det. Efter att ha laddat ner [Metamod:Source 2.x Dev Build](https://www.metamodsource.net/downloads.php?branch=dev), packa upp arkivet. Inuti arkivet hittar du en `addons`-mapp. Denna mapp måste laddas upp direkt till CS:GO-spelkatalogen via [FTP](gameserver-ftpaccess.md).
+Metamod:Source måste installeras först eftersom Sourcemod är beroende av det. Börja med att ladda ner senaste versionen av Metamod:Source från den officiella sidan. Packa upp den nedladdade arkivet på din dator.
+
+Inuti arkivet hittar du en `addons`-mapp. Ladda upp den här mappen till din CS:GO-server via [FTP](gameserver-ftpaccess.md) så att den slås ihop med den befintliga spelmappen `../csgo/`.
+
+
+Efter att du laddat upp filerna, starta om servern. För att kontrollera att Metamod körs korrekt, öppna serverkonsolen och kör följande kommando:
 
 ```
-../game/csgo/
+meta version
 ```
 
-Efter att ha kopierat filerna, leta upp filen `gameinfo.gi` inne i `/game/csgo/`. Öppna den med en textredigerare. Inuti filen, hitta raden som innehåller `Game_LowViolence csgo_lv`. Direkt under den raden, lägg till följande rad:
+
+Om Metamod är korrekt installerat kommer konsolen visa den installerade versionen och mer info.
+
+<Button label="Ladda ner Metamod:Source" link="https://www.metamodsource.net/downloads.php" block />
+
+
+
+## Installera Sourcemod
+
+När Metamod:Source är installerat kan du installera Sourcemod. Ladda ner senaste stabila versionen av Sourcemod från den officiella sidan och packa upp arkivet. Ladda upp mapparna `addons` och `cfg` till din CS:GO-server via [FTP](gameserver-ftpaccess.md). Mapparna ska placeras i CS:GO-spelmappen `../csgo/`. Efter uppladdning, starta om servern. Sourcemod laddas nu automatiskt via Metamod.
+
+För att bekräfta att Sourcemod fungerar, öppna serverkonsolen och kör:
 
 ```
-Game csgo/addons/metamod
+sm version
 ```
 
-<Button label="Ladda ner Metamod:Source" link="https://www.metamodsource.net/downloads.php?branch=dev" block />
 
+Om installationen lyckades kommer servern visa aktuell Sourcemod-version och bygginfo.
 
-
-
-
-## Installera CounterStrikeSharp
-
-När Metamod är igång kan CounterStrikeSharp installeras. CounterStrikeSharp distribueras via dess officiella GitHub-repo och finns som ett förkompilerat releasepaket. Ladda ner CounterStrikeSharp-releasen som inkluderar runtime. Packa upp arkivet och kopiera den medföljande `addons`-mappen till samma CS:GO-spelkatalog via [FTP](gameserver-ftpaccess.md).
-
-```
-/game/csgo/
-```
-
-Man ska inte slå ihop eller byta namn på mappar manuellt. Strukturen som arkivet levererar måste vara intakt. Efter uppladdning, starta om servern igen. Under uppstart laddar Metamod automatiskt CounterStrikeSharp. För att verifiera installationen, öppna serverkonsolen och kör:
-
-```
-meta list
-Listing 1 plugin:
-  [01] CounterStrikeSharp (0.1.0) by Roflmuffin
-```
-
-<Button label="Ladda ner CounterStrikeSharp" link="https://github.com/roflmuffin/CounterStrikeSharp/releases/tag/v1.0.354" block />
+<Button label="Ladda ner Sourcemod" link="https://www.sourcemod.net/downloads.php" block />
 
 
 
 ## Installera Plugins
 
-Plugins för CounterStrikeSharp levereras som kompilerade `.dll`-filer. Dessa filer placeras i `plugins`-mappen inom CounterStrikeSharp-installationsvägen.
+Plugins för Sourcemod distribueras oftast som `.smx`-filer. Dessa kompilerade pluginfiler måste laddas upp till `plugins`-mappen i Sourcemod-installationen.
 
-Efter att ha kopierat en plugin till denna mapp och startat om servern, laddar CounterStrikeSharp automatiskt alla tillgängliga plugins. Om en plugin inte laddas, bör serverloggarna kollas för felmeddelanden relaterade till CounterStrikeSharp eller pluginen själv.
+```
+../csgo/addons/sourcemod/plugins/
+```
 
+
+Efter att du laddat upp pluginfilen, starta om servern eller ladda om pluginet direkt via serverkonsolen med följande kommando:
+
+```
+sm plugins load <pluginname>
+```
+
+
+Om ett plugin inte laddas korrekt, kolla serverloggarna som finns i Sourcemods `logs`-mapp för eventuella felmeddelanden.
+
+Vissa plugins kan även ha extra konfigurationsfiler. Dessa placeras vanligtvis i:
+
+```
+../csgo/addons/sourcemod/configs/
+```
+
+
+Följ alltid installationsinstruktionerna från pluginutvecklaren för att säkerställa att allt funkar som det ska.
 
 
 
@@ -79,11 +96,8 @@ Efter att ha kopierat en plugin till denna mapp och startat om servern, laddar C
 
 
 
-## Slutsats
+## Sammanfattning
 
-Om du följt alla steg bör du nu ha installerat Metamod/CounterStrikeSharp och dina önskade plugins utan problem. Har du fler frågor eller behöver hjälp, tveka inte att kontakta vår support – vi finns här för dig varje dag! 🙂
-
-
-
+Om du följt alla steg har du nu installerat Metamod:Source, Sourcemod och dina önskade plugins på din CS:GO-server. Har du fler frågor eller behöver hjälp, tveka inte att kontakta vår support som finns tillgänglig varje dag för att hjälpa dig! 🙂
 
 <InlineVoucher />
