@@ -1790,7 +1790,7 @@ const sidebars = {
           key: "gameserver-configuration-csgo",
           items: [
             "csgo-configuration",
-            "csgo-cstv",
+            "csgo-gotv",
             "csgo-becomeadmin",
             "csgo-plugins",
             "csgo-fastdl",
