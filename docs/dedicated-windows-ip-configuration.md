@@ -4,7 +4,7 @@ title: "Dedicated Server: IP Configuration (Windows)"
 description: "Learn how to configure IP settings on a Windows Dedicated Server → Learn more now"
 sidebar_label: Configure IP Addresses
 services:
-- vserver
+- dedicated
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';
@@ -16,7 +16,7 @@ Configuring IP addresses on your Windows Dedicated Server allows you to control 
 Correct IP configuration is important for servers running services such as game servers, web servers, databases, or remote access systems, as it ensures stable network communication and reliable accessibility.
 
 :::warning Server unreachable due to missing internet connection?
-In case your server becomes unreachable due to an incorrect network configuration or missing internet connection, remote access via RDP may no longer work. Use the [iLO HTML console](dedicated-ilo.md#the-html5-console) to connect to your server and fix the network configuration.
+In case your server becomes unreachable due to an incorrect network configuration or missing internet connection, remote access via RDP may no longer work. Use the [iLO HTML console](dedicated-ilo.md#the-html5-console) to connect to your server and fix the network configuration.
 :::
 
 <InlineVoucher />
