@@ -781,6 +781,7 @@ const sidebars = {
             "7d2d-commands",
             "7d2d-rcon",
             "7d2d-whitelist",
+            "7d2d-crossplay"
           ]
         },
         {
@@ -3753,6 +3754,8 @@ const sidebars = {
             "rust-plugins",
             "rust-decay",
             "rust-whitelist",
+            "rust-custom-map",
+            "rust-server-wipe"
           ]
         },
         {
@@ -5023,6 +5026,7 @@ const sidebars = {
         "vserver-linux-sshkey",
         "vserver-linux-ssh2fa",
         "vserver-ssh-default",
+        "vserver-linux-ip-configuration",
         "vserver-linux-firewall",
         "vserver-linux-password-change",
         "vserver-linux-gs-interface",
@@ -5114,6 +5118,7 @@ const sidebars = {
         "vserver-windows-userdp",
         "vserver-windows-port",
         "vserver-windows-rdp-port",
+        "vserver-windows-ip-configuration",
         "vserver-windows-addip",
         "vserver-windows-change-language",
         "vserver-windows-manage-users",
@@ -5173,6 +5178,7 @@ const sidebars = {
         "vserver-windows-rdp-freeze",
         "vserver-windows-nointernet",
         "vserver-windows-troubleshooting-restore-access",
+        "vserver-windows-troubleshooting-icmpv4-echo",
       ]
     },	
   ],
@@ -5336,6 +5342,7 @@ const sidebars = {
       key: "software-overview-dedicated-linux-game-server-games",
       items: [
           "dedicated-linux-arksurvivalascended",
+          "server-linux-arma3",
           "dedicated-linux-avorion",
           "dedicated-linux-conan",
           "dedicated-linux-enshrouded",
@@ -5400,6 +5407,7 @@ const sidebars = {
       items: [
         "vserver-windows-arksurvivalascended",
         "dedicated-windows-avorion",
+        "server-windows-arma3",
         "dedicated-windows-conan",
         "vserver-windows-enshrouded",
         "dedicated-windows-fivem",
@@ -5543,6 +5551,7 @@ const sidebars = {
       label: "General",
       key: "dedicated-server-linux-general",
       items: [
+      "dedicated-linux-ip-configuration",
       "dedicated-linux-gs-interface",
       "dedicated-linux-proxy",
       "vserver-linux-lamp-stack",
@@ -5635,6 +5644,7 @@ const sidebars = {
       key: "dedicated-server-windows-general",
       items: [
       "dedicated-windows-userdp",
+      "dedicated-windows-ip-configuration",
       "dedicated-windows-port",
       "dedicated-windows-addip",
       "dedicated-windows-manage-users",
@@ -5693,6 +5703,7 @@ const sidebars = {
       items: [
         "dedicated-windows-troubleshooting-restore-access",
         "dedicated-windows-rdp-freeze",
+        "dedicated-windows-troubleshooting-icmpv4-echo",
       ]
     },	
   ],
