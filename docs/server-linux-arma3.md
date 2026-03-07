@@ -37,10 +37,12 @@ cd ~
 
 When logged in, you can start the installation process using the following command to easily start the installation through the use of SteamCMD directly to your `steam` user. By using the `+@sSteamCmdForcePlatformType windows` parameter, you forcefully ensure that the Windows binaries are installed.
 ```
-steamcmd +@sSteamCmdForcePlatformType windows +force_install_dir '/home/steam/Arma3-Server' +login anonymous +app_update 233780 validate +quit
+steamcmd +@sSteamCmdForcePlatformType windows +force_install_dir '/home/steam/arma3-server' +login anonymous +app_update 233780 validate +quit
 ```
 
 Please be patient as the download completes, it can take some time for games with larger sizes. Once successful, you will see a success message appear confirming this.
+
+
 
 ## Configuration
 
@@ -48,7 +50,7 @@ By this stage, you have finished the setup for your Arma 3server. You can perfor
 
 You will be able to adjust all configuration parameters by accessing and editing the **server.cfg** configuration file found in the root directory.
 ```
-nano /home/steam/Arma3-Server/server.cfg
+nano /home/steam/arma3-server/server.cfg
 ```
 
 
@@ -67,9 +69,7 @@ Players will be able to connect directly through the **Arma 3 server browser** u
 
 ## Conclusion
 
-Congratulations, you have successfully installed and configured the **Arma 3 server** on your VPS/Dedicated Server! As a next step, we recommend looking over our [Setup Linux Service](dedicated-linux-create-gameservice.md) guide, which covers setting up your new dedicated game server as a service. This provides various benefits including automatic server launching on boot, automatic server updates, easy management and access to logs, plus much more!
-
-If you have any further questions or problems, please contact our support team, who are available to help you every day!
+Congratulations, you have successfully installed and configured the **Arma 3 server** on your VPS/Dedicated Server! If you have any further questions or problems, please contact our support team, who are available to help you every day!
 
 <InlineVoucher />
 

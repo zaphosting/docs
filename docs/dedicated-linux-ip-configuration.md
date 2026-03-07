@@ -133,11 +133,7 @@ inet 109.230.238.45/24
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/TmaCRcfLgiabTBp/preview)
 
-If the correct address appears in the output, the static IP configuration has been successfully applied. If the new IP address does not appear, verify the configuration file again and ensure that the changes were saved correctly before reapplying the configuration with:
-
-```
-sudo netplan apply
-```
+If the correct address appears in the output, the static IP configuration has been successfully applied. If the new IP address does not appear, verify the configuration file again and ensure that the changes were saved correctly before reapplying the configuration.
 
 
 

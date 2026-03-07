@@ -1052,6 +1052,7 @@ const sidebars = {
           key: "gameserver-configuration-arma-reforger",
           items: [
             "arma-reforger-rcon",
+            "arma-reforger-mods",
           ]
         },
         {

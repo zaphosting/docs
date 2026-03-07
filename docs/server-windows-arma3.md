@@ -40,7 +40,7 @@ Once logged in, you can now begin downloading the files.
 :::tip
 Optional: You can set your preferred install directory by using the command `force_install_dir [path]`, replacing `[path]` with the path that you wish to use for your server. For example: 
 ```
-force_install_dir C:\Arma 3-Server
+force_install_dir C:\arma3-server
 ```
 :::
 
@@ -94,11 +94,7 @@ Please use our [Port Forwarding (Firewall)](vserver-windows-port.md) guide if yo
 </TabItem>
 </Tabs>
 
-Once you have added these rules, your server will now be accessible which means you will be able to connect to it through your server's IP address. You can do this by selecting your character in the main menu, heading over to the **Find Games** tab and pressing **Add Server**. Here, input your Server IP alongside the Port (15636 by default) and your server password (if set, otherwise leave empty).
-
-:::tip
-Check out our [Server Configuration](Arma 3-configuration.md) guide if you wish to enable a password for your server and adjust settings.
-:::
+Once you have added these rules, your server will now be accessible which means you will be able to connect to it through your server's IP address. You can do this by selecting your character in the main menu, heading over to the **Find Games** tab and pressing **Add Server**. Here, input your Server IP alongside the Port (2302by default) and your server password (if set, otherwise leave empty).
 
 We recommend that you configure your server settings first through the following section before accessing your server.
 
@@ -108,7 +104,7 @@ By this stage, you have finished the setup for your Arma 3 server. You can perfo
 
 Firstly, navigate to the following directory:
 ```
-C:\Arma3-Server
+C:\arma3-Server
 ```
 
 You will be able to find the **server.cfg** configuration file. Through this file, you can configure a few parameters for your server. 
@@ -126,9 +122,7 @@ Players can connect to your server through the **Arma 3 server browser** using y
 
 ## Conclusion
 
-Congratulations, you have successfully installed and configured the **Arma 3 server** on your VPS/Dedicated Server! As a next step, we recommend looking over our [Setup Linux Service](dedicated-linux-create-gameservice.md) guide, which covers setting up your new dedicated game server as a service. This provides various benefits including automatic server launching on boot, automatic server updates, easy management and access to logs, plus much more!
-
-If you have any further questions or problems, please contact our support team, who are available to help you every day!
+Congratulations, you have successfully installed and configured the **Arma 3 server** on your VPS/Dedicated Server!  If you have any further questions or problems, please contact our support team, who are available to help you every day!
 
 
 <InlineVoucher />
