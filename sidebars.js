@@ -5235,6 +5235,7 @@ const sidebars = {
     "dedicated-linux-certbot",
     "server-linux-cashlytics",
     "vserver-linux-cockpit",
+    "server-linux-coolify",
     "vserver-linux-curl",
     "dedicated-linux-databases",
     "dedicated-linux-docker",
