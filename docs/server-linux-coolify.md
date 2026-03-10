@@ -1,7 +1,7 @@
 ---
 id: server-linux-coolify
-title: "Setup Coolify on a Linux Server - Self-Hosted Cloud"
-description: "Discover how to install and set up Coolify to self-host your own applications, databases, and services with ease!"
+title: Setup Coolify on a Linux Server - Self-Hosted Cloud Applications"
+description: "Discover how to install and set up Coolify to self-host your own applications, databases and services with ease  → Learn more now"
 sidebar_label: Install Coolify
 services:
   - vserver-service-coolify
@@ -15,7 +15,7 @@ import InlineServiceLink from '@site/src/components/InlineServiceLink';
 
 [Coolify](https://coolify.io/) is an open-source, self-hosted Heroku and Vercel alternative that allows you to manage your servers, applications, and databases easily. 
 
-![img](https://cdn.4w3.dev/file/4da5503a-64ea-408b-b4a8-06d26982cb4f)
+![img](https://screensaver01.zap-hosting.com/index.php/s/nrXeZsgjXn43sfw/preview)
 
 Coolify's intuitive dashboard makes self-hosting easy. It gives you full control over your infrastructure, automated GitHub deployments, and keeps your cloud costs low.
 
@@ -31,7 +31,7 @@ Coolify offers built-in support for deploying Static Sites, Node.js, Python, PHP
 
 ## Preparation
 
-While Coolify is lightweight at its core, resource usage can increase drastically based on the amount of deployed applications, Docker builds, and databases running simultaneously. We recommend the following hardware requirements to host Coolify on your VPS.
+While Coolify is lightweight at its core, resource usage can increase drastically based on the amount of deployed applications, Docker builds, and databases running simultaneously. We recommend the following hardware requirements to host Coolify on your VPS/Dedicated Server.
 
 | Hardware   | Minimum      | Recommended                |
 | ---------- | ------------ | -------------------------- |
@@ -55,6 +55,8 @@ After you've connected to your server, update your system packages and install `
 sudo apt update && sudo apt upgrade -y && sudo apt install curl -y
 ```
 
+
+
 ### Prepare Your Admin User Credentials
 
 Coolify enforces strict security policies for your administrator account. Before running the installation command, prepare your Coolify root user credentials according to the following validation requirements:
@@ -74,6 +76,8 @@ Coolify enforces strict security policies for your administrator account. Before
   * Must contain at least one special symbol
   * Must not be a commonly used or compromised password
 
+
+
 ### Run the Installation Script
 
 Coolify provides a fast, automated installation script. To secure the installation, we will use environment variables to predefine the root administrator account. This prevents unauthorized access while the setup completes.
@@ -89,7 +93,9 @@ You can find the installation script’s source code in the [Official Coolify Re
 
 The script will automatically install Docker, set up the required networks, and configure the Coolify containers. This process may take a few minutes depending on your server's hardware.
 
-![img](https://cdn.4w3.dev/file/24bf32c2-57b2-44f6-b080-abe2a31295f9)
+![img](https://screensaver01.zap-hosting.com/index.php/s/Zx5DXzEH2MmrkrX/preview)
+
+
 
 ### Accessing Coolify
 
@@ -99,7 +105,7 @@ Since you already provided your credentials via the installation command, you wi
 
 Enter the email and password you used in the command line to access your dashboard.
 
-![img](https://cdn.4w3.dev/file/e313603f-2e4b-4d91-95e0-3726dec5ce25)
+
 
 ### Setting up DNS Records
 
@@ -119,16 +125,15 @@ Go to the DNS management page of your domain provider and add two new `A` record
 *   The `*` (wildcard) record lets Coolify automatically route any new subdomain (e.g., `api.[your_domain]`) without adding DNS records for each project.
 :::
 
+
+
 ### Configuring Instance Domain
 
-To secure your Coolify instance with an SSL certificate, you should assign a domain to it.
+To secure your Coolify instance with an SSL certificate, you should assign a domain to it. Navigate to **Settings** in the left sidebar and locate the **Instance Domain** field. Enter your domain, including the `https://` prefix (e.g., `https://coolify.[your_domain]`). Click on Save to complete this step.**Save**.
 
-1. Navigate to **Settings** in the left sidebar.
-2. Locate the **Instance Domain** field.
-3. Enter your domain, including the `https://` prefix (e.g., `https://coolify.[your_domain]`).
-4. Click **Save**.
+![img](https://screensaver01.zap-hosting.com/index.php/s/jYW63sF9k5sZez3/preview)
 
-![img](https://cdn.4w3.dev/file/5334943b-d1f0-48f1-bdf2-a7765d8e14c5)
+
 
 ## Deploying Your First App
 
@@ -136,7 +141,9 @@ After that, you'll be able to visit the **Projects** tab and start deploying you
 
 You can click on **+ Add Resource** to add a public repository or a Docker Compose file or select one of the many preconfigured services from the one-click template library. Your Coolify installation is all set!
 
-![img](https://cdn.4w3.dev/file/2f200253-aae9-4fec-94b9-215082c16935)
+![img](https://screensaver01.zap-hosting.com/index.php/s/nEf9XBDrfypijE7/preview)
+
+
 
 ## Conclusion and More Resources
 
