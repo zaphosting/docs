@@ -42,6 +42,19 @@ const servicesMap: serviceMap = {
         }),
         price: `${priceFrom} 7.90€`,
     },
+    'vserver-service-coolify': {
+        title: translate({
+            message: 'VPS for Coolify',
+            id: 'service.vserver-service-coolify.title',
+            description: 'Product name for the Coolify product',
+        }),
+        url: translate({
+            message: '{marketingSite}/{language}/vps-for-coolify/',
+            id: 'service.vserver-service-coolify.path',
+            description: 'URL path for the VPS product',
+        }),
+        price: `${priceFrom} 7.90€`,
+    },
     'vserver-service-n8n': {
         title: translate({
             message: 'VPS for n8n',
@@ -77,6 +90,19 @@ const servicesMap: serviceMap = {
         url: translate({
             message: '{marketingSite}/{language}/vps-for-openclaw/',
             id: 'service.dedicated.path',
+            description: 'URL path for the dedicated server product',
+        }),
+        price: `${priceFrom} 58.90€`,
+    },
+    'dedicated-service-coolify': {
+        title: translate({
+            message: 'Dedicated Server for Coolify',
+            id: 'service.dedicated-service-coolify.title',
+            description: 'Product name for the Coolify product',
+        }),
+        url: translate({
+            message: '{marketingSite}/{language}/dedicated-server-for-coolify/',
+            id: 'service.dedicated-service-coolify.path',
             description: 'URL path for the dedicated server product',
         }),
         price: `${priceFrom} 58.90€`,
