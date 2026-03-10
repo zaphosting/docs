@@ -95,8 +95,7 @@ const sidebars = {
         "account-change-email",
         "account-change-language",
         "account-data-information",
-
-        "account-usermanagement",
+        "account-teams-and-sharing",
       ]
     },
     {
@@ -782,6 +781,7 @@ const sidebars = {
             "7d2d-commands",
             "7d2d-rcon",
             "7d2d-whitelist",
+            "7d2d-crossplay"
           ]
         },
         {
@@ -1052,6 +1052,7 @@ const sidebars = {
           key: "gameserver-configuration-arma-reforger",
           items: [
             "arma-reforger-rcon",
+            "arma-reforger-mods",
           ]
         },
         {
@@ -1766,6 +1767,45 @@ const sidebars = {
           items: [
             "cs2-troubleshooting-common-issues",
             "cs2-troubleshooting-segmentation-fault"
+          ]
+        },   
+      ],
+    },
+    {
+      type: "category",
+      label: "Counter-Strike: Global Offensive",
+      key: "gameserver-csgo",
+      items: [
+        {
+          type: "category",
+          label: "First Steps",
+          key: "gameserver-first-steps-csgo",
+          items: [
+            "csgo-firststeps-dashboard",
+            "csgo-firststeps-connect",
+            "csgo-gslt",
+          ]
+        },
+        {
+          type: "category",
+          label: "Configuration",
+          key: "gameserver-configuration-csgo",
+          items: [
+            "csgo-configuration",
+            "csgo-gotv",
+            "csgo-becomeadmin",
+            "csgo-plugins",
+            "csgo-fastdl",
+            "csgo-automated-messages"
+          ]
+        },
+        {
+          type: "category",
+          label: "Troubleshooting",
+          key: "gameserver-troubleshooting-csgo",
+          items: [
+            "csgo-troubleshooting-common-issues",
+            "csgo-troubleshooting-segmentation-fault"
           ]
         },   
       ],
@@ -3715,6 +3755,8 @@ const sidebars = {
             "rust-plugins",
             "rust-decay",
             "rust-whitelist",
+            "rust-custom-map",
+            "rust-server-wipe"
           ]
         },
         {
@@ -4985,6 +5027,7 @@ const sidebars = {
         "vserver-linux-sshkey",
         "vserver-linux-ssh2fa",
         "vserver-ssh-default",
+        "vserver-linux-ip-configuration",
         "vserver-linux-firewall",
         "vserver-linux-password-change",
         "vserver-linux-gs-interface",
@@ -5076,6 +5119,7 @@ const sidebars = {
         "vserver-windows-userdp",
         "vserver-windows-port",
         "vserver-windows-rdp-port",
+        "vserver-windows-ip-configuration",
         "vserver-windows-addip",
         "vserver-windows-change-language",
         "vserver-windows-manage-users",
@@ -5135,6 +5179,7 @@ const sidebars = {
         "vserver-windows-rdp-freeze",
         "vserver-windows-nointernet",
         "vserver-windows-troubleshooting-restore-access",
+        "vserver-windows-troubleshooting-icmpv4-echo",
       ]
     },	
   ],
@@ -5186,42 +5231,47 @@ const sidebars = {
       })(),
       defaultStyle: true,
     },
+    "vserver-linux-bitwarden",
     "dedicated-linux-certbot",
+    "server-linux-cashlytics",
+    "vserver-linux-cockpit",
+    "server-linux-coolify",
+    "vserver-linux-curl",
     "dedicated-linux-databases",
     "dedicated-linux-docker",
     "dedicated-linux-ftp-install",
     "dedicated-linux-git",
+    "vserver-linux-gitlab",
+    "server-linux-gluetun-webui",
     "dedicated-linux-java",
     "dedicated-linux-javascript",
     "dedicated-linux-jitsi",
-    "dedicated-linux-mastodon",
-    "dedicated-linux-odoo",
-    "dedicated-linux-openclaw",
-    "dedicated-linux-openvpn",
-    "dedicated-linux-phpmyadmin",
-    "dedicated-linux-plex",
-    "dedicated-linux-screen",
-    "dedicated-linux-ssh-server",
-    "dedicated-linux-webserver",
-    "dedicated-linux-wordpress",
-    "dedicated-linux-xrdp",
-    "vserver-linux-bitwarden",
-    "vserver-linux-cockpit",
-    "vserver-linux-curl",
-    "vserver-linux-gitlab",
     "vserver-linux-joplin",
+    "dedicated-linux-mastodon",
     "server-linux-n8n",
     "vserver-linux-nextcloud",
     "vserver-linux-nodejs",
     "vserver-linux-notepad++",
+    "dedicated-linux-odoo",
+    "dedicated-linux-openclaw",
+    "dedicated-linux-openvpn",
     "vserver-linux-php",
+    "dedicated-linux-phpmyadmin",
+    "dedicated-linux-plex",
     "vserver-linux-plausible",
     "vserver-linux-plesk",
+    "server-linux-prologue",
     "vserver-linux-python",
+    "dedicated-linux-screen",
     "vserver-linux-speedtest-cli",
     "vserver-linux-standard-notes",
     "vserver-linux-supabase",
+    "server-linux-swush",
+    "dedicated-linux-ssh-server",
     "vserver-linux-ts6",
+    "dedicated-linux-webserver",
+    "dedicated-linux-wordpress",
+    "dedicated-linux-xrdp",
     {
       type: "html",
       className: "sidebar-title",
@@ -5236,21 +5286,21 @@ const sidebars = {
       })(),
       defaultStyle: true,
     },
-    "dedicated-windows-ftpserver",
-    "dedicated-windows-git",
-    "dedicated-windows-installmysql",
-    "dedicated-windows-javascript",
-    "dedicated-windows-nodejs",
-    "dedicated-windows-plex",
-    "dedicated-windows-python",
-    "vserver-windows-bitwarden",
-    "vserver-windows-docker",
-    "vserver-windows-joplin",
-    "vserver-windows-notepad++",
-    "vserver-windows-plesk",
-    "vserver-windows-speedtest-cli",
-    "vserver-windows-supabase",
-    "vserver-windows-ts6",
+      "vserver-windows-bitwarden",
+      "vserver-windows-docker",
+      "dedicated-windows-ftpserver",
+      "dedicated-windows-git",
+      "dedicated-windows-installmysql",
+      "dedicated-windows-javascript",
+      "vserver-windows-joplin",
+      "dedicated-windows-nodejs",
+      "vserver-windows-notepad++",
+      "dedicated-windows-plex",
+      "vserver-windows-plesk",
+      "dedicated-windows-python",
+      "vserver-windows-speedtest-cli",
+      "vserver-windows-supabase",
+      "vserver-windows-ts6",
   ],
 
   sidebarSoftwareDedicatedGameServers: [
@@ -5294,6 +5344,7 @@ const sidebars = {
       key: "software-overview-dedicated-linux-game-server-games",
       items: [
           "dedicated-linux-arksurvivalascended",
+          "server-linux-arma3",
           "dedicated-linux-avorion",
           "dedicated-linux-conan",
           "dedicated-linux-enshrouded",
@@ -5313,6 +5364,7 @@ const sidebars = {
           "dedicated-linux-cscz",
           "dedicated-linux-css",
           "dedicated-linux-cs2",
+          "server-linux-csgo",
           "dedicated-linux-tf2",
           "dedicated-linux-dods",
           "dedicated-linux-l4d2",
@@ -5357,6 +5409,7 @@ const sidebars = {
       items: [
         "vserver-windows-arksurvivalascended",
         "dedicated-windows-avorion",
+        "server-windows-arma3",
         "dedicated-windows-conan",
         "vserver-windows-enshrouded",
         "dedicated-windows-fivem",
@@ -5378,6 +5431,7 @@ const sidebars = {
         "dedicated-windows-cscz",
         "dedicated-windows-css",
         "dedicated-windows-cs2",
+        "server-windows-csgo",
         "dedicated-windows-tf2",
         "dedicated-windows-dods",
         "dedicated-windows-l4d2",
@@ -5499,6 +5553,7 @@ const sidebars = {
       label: "General",
       key: "dedicated-server-linux-general",
       items: [
+      "dedicated-linux-ip-configuration",
       "dedicated-linux-gs-interface",
       "dedicated-linux-proxy",
       "vserver-linux-lamp-stack",
@@ -5591,6 +5646,7 @@ const sidebars = {
       key: "dedicated-server-windows-general",
       items: [
       "dedicated-windows-userdp",
+      "dedicated-windows-ip-configuration",
       "dedicated-windows-port",
       "dedicated-windows-addip",
       "dedicated-windows-manage-users",
@@ -5649,6 +5705,7 @@ const sidebars = {
       items: [
         "dedicated-windows-troubleshooting-restore-access",
         "dedicated-windows-rdp-freeze",
+        "dedicated-windows-troubleshooting-icmpv4-echo",
       ]
     },	
   ],
