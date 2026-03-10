@@ -5,93 +5,92 @@ description: "Upptäck installationsguider för att hosta dedikerade spelservrar
 sidebar_label: Översikt
 ---
 
-import Card from '@site/src/components/Card/Card';
-import Cards from '@site/src/components/Cards/Cards';
+import Cards, { Card } from '@site/src/components/Cards/Cards';
 
 Vill du hosta en dedikerad spelserver på din VPS eller dedikerade server? Här hittar du en komplett samling steg-för-steg-guider för populära spel på både Linux och Windows.
 
 ## Linux
 
-Sätt upp dedikerade spelservrar på din Linux-server med våra detaljerade guider. Här finns allmänna resurser som SteamCMD, Wine-kompatibilitet och Linux-tjänstekonfiguration, samt installationsguider för populära titlar som survival-spel, FPS-klassiker från Source-motorn och multiplayerfavoriter som FiveM, Rust och Palworld.
+Sätt upp dedikerade spelservrar på din Linux-server med våra detaljerade guider. Du hittar allmänna resurser som SteamCMD, Wine-kompatibilitet och Linux-tjänstekonfiguration, samt installationsguider för populära titlar som survival-spel, FPS-klassiker från Source-motorn och multiplayerfavoriter som FiveM, Rust och Palworld.
 
 ### Allmänt
 
-<Cards>
-    <Card title="Cloudflare Tunnel för txAdmin" description="Placeholder" link="https://zap-hosting.com/guides/docs/dedicated-linux-fivem-txAdmin-cloudflare-tunnel" image="https://screensaver01.zap-hosting.com/index.php/s/XmJGtYkc7d9rBai/preview" type="product-categories"/>
-    <Card title="Installera SteamCMD" description="Placeholder" link="https://zap-hosting.com/guides/docs/dedicated-linux-steamcmd" image="https://screensaver01.zap-hosting.com/index.php/s/XmJGtYkc7d9rBai/preview" type="product-categories"/>
-    <Card title="Installera Wine-kompatibilitetslager" description="Placeholder" link="https://zap-hosting.com/guides/docs/dedicated-linux-wine" image="https://screensaver01.zap-hosting.com/index.php/s/XmJGtYkc7d9rBai/preview" type="product-categories"/>
-    <Card title="Skapa Linux-tjänst" description="Placeholder" link="https://zap-hosting.com/guides/docs/dedicated-linux-create-gameservice" image="https://screensaver01.zap-hosting.com/index.php/s/XmJGtYkc7d9rBai/preview" type="product-categories"/>
+<Cards columns={2} layout="horizontal">
+    <Card title="Cloudflare Tunnel för txAdmin" description="" link="https://zap-hosting.com/guides/docs/dedicated-linux-fivem-txAdmin-cloudflare-tunnel" image="https://screensaver01.zap-hosting.com/index.php/s/XmJGtYkc7d9rBai/preview" type="product-categories"/>
+    <Card title="Installera SteamCMD" description="" link="https://zap-hosting.com/guides/docs/dedicated-linux-steamcmd" image="https://screensaver01.zap-hosting.com/index.php/s/XmJGtYkc7d9rBai/preview" type="product-categories"/>
+    <Card title="Installera Wine-kompatibilitetslager" description="" link="https://zap-hosting.com/guides/docs/dedicated-linux-wine" image="https://screensaver01.zap-hosting.com/index.php/s/XmJGtYkc7d9rBai/preview" type="product-categories"/>
+    <Card title="Skapa Linux-tjänst" description="" link="https://zap-hosting.com/guides/docs/dedicated-linux-create-gameservice" image="https://screensaver01.zap-hosting.com/index.php/s/XmJGtYkc7d9rBai/preview" type="product-categories"/>
 </Cards>
 
 ### Spel
 
-<Cards>
-    <Card title="ARK Survival Ascended" description="Placeholder" link="https://zap-hosting.com/guides/docs/dedicated-linux-arksurvivalascended" image="https://screensaver01.zap-hosting.com/index.php/s/qnWELD8ik9srBDG/preview"/>
-    <Card title="Avorion" description="Placeholder" link="https://zap-hosting.com/guides/docs/dedicated-linux-avorion" image="https://screensaver01.zap-hosting.com/index.php/s/FGtbBbgYsjygaHQ/preview"/>
-    <Card title="Conan Exiles" description="Placeholder" link="https://zap-hosting.com/guides/docs/dedicated-linux-conan" image="https://screensaver01.zap-hosting.com/index.php/s/Kf4Agc6HXkEMJGM/preview"/>
-    <Card title="Enshrouded" description="Placeholder" link="https://zap-hosting.com/guides/docs/dedicated-linux-enshrouded" image="https://screensaver01.zap-hosting.com/index.php/s/65zgmLrBtcPTt7k/preview"/>
-    <Card title="FiveM" description="Placeholder" link="https://zap-hosting.com/guides/docs/dedicated-linux-fivem" image="https://screensaver01.zap-hosting.com/index.php/s/XmJGtYkc7d9rBai/preview"/>
-    <Card title="Foundry" description="Placeholder" link="https://zap-hosting.com/guides/docs/dedicated-linux-foundry" image="https://screensaver01.zap-hosting.com/index.php/s/wpiikozcXjmfTty/preview"/>
-    <Card title="Hytale" description="Placeholder" link="https://zap-hosting.com/guides/docs/dedicated-linux-hytale" image="https://screensaver01.zap-hosting.com/index.php/s/XmJGtYkc7d9rBai/preview"/>
-    <Card title="Myth of Empires" description="Placeholder" link="https://zap-hosting.com/guides/docs/dedicated-linux-mythofempires" image="https://screensaver01.zap-hosting.com/index.php/s/W8rBp8LESZidDLs/preview"/>
-    <Card title="Open.mp" description="Placeholder" link="https://zap-hosting.com/guides/docs/dedicated-linux-openmp" image="https://screensaver01.zap-hosting.com/index.php/s/KLqBtLcfSBHyEBm/preview"/>
-    <Card title="Palworld" description="Placeholder" link="https://zap-hosting.com/guides/docs/dedicated-linux-palworld" image="https://screensaver01.zap-hosting.com/index.php/s/RgdKJoRRNBPcT5r/preview"/>
-    <Card title="RageMP" description="Placeholder" link="https://zap-hosting.com/guides/docs/dedicated-linux-ragemp" image="https://screensaver01.zap-hosting.com/index.php/s/XmJGtYkc7d9rBai/preview"/>
-    <Card title="Rust" description="Placeholder" link="https://zap-hosting.com/guides/docs/dedicated-linux-rust" image="https://screensaver01.zap-hosting.com/index.php/s/G82jnYsbexscj5W/preview"/>
-    <Card title="Satisfactory" description="Placeholder" link="https://zap-hosting.com/guides/docs/dedicated-linux-satisfactory" image="https://screensaver01.zap-hosting.com/index.php/s/sB4kXbCDcrq77Ki/preview"/>
-    <Card title="Soulmask" description="Placeholder" link="https://zap-hosting.com/guides/docs/dedicated-linux-soulmask" image="https://screensaver01.zap-hosting.com/index.php/s/NYaRT7cHqXXQF8d/preview"/>
-    <Card title="Valheim" description="Placeholder" link="https://zap-hosting.com/guides/docs/dedicated-linux-valheim" image="https://screensaver01.zap-hosting.com/index.php/s/LSiFMXMmyKgo4LG/preview"/>
-    <Card title="V Rising" description="Placeholder" link="https://zap-hosting.com/guides/docs/dedicated-linux-vrising" image="https://screensaver01.zap-hosting.com/index.php/s/xazMeLwLJTJG7LF/preview"/>
-    <Card title="Counter-Strike 1.6" description="Placeholder" link="https://zap-hosting.com/guides/docs/dedicated-linux-cs16" image="https://screensaver01.zap-hosting.com/index.php/s/q5enKNatKZMpXPf/preview"/>
-    <Card title="Counter-Strike: Condition Zero" description="Placeholder" link="https://zap-hosting.com/guides/docs/dedicated-linux-cscz" image="https://screensaver01.zap-hosting.com/index.php/s/XmJGtYkc7d9rBai/preview"/>
-    <Card title="Counter-Strike: Source" description="Placeholder" link="https://zap-hosting.com/guides/docs/dedicated-linux-css" image="https://screensaver01.zap-hosting.com/index.php/s/PqQqSqgin9BjJtw/preview"/>
-    <Card title="Counter-Strike 2" description="Placeholder" link="https://zap-hosting.com/guides/docs/dedicated-linux-cs2" image="https://screensaver01.zap-hosting.com/index.php/s/cSkWS3sQb22s5f8/preview"/>
-    <Card title="Team Fortress 2" description="Placeholder" link="https://zap-hosting.com/guides/docs/dedicated-linux-tf2" image="https://screensaver01.zap-hosting.com/index.php/s/PPRN8qRJDBjEzmG/preview"/>
-    <Card title="Day of Defeat: Source" description="Placeholder" link="https://zap-hosting.com/guides/docs/dedicated-linux-dods" image="https://screensaver01.zap-hosting.com/index.php/s/XmJGtYkc7d9rBai/preview"/>
-    <Card title="Left 4 Dead 2" description="Placeholder" link="https://zap-hosting.com/guides/docs/dedicated-linux-l4d2" image="https://screensaver01.zap-hosting.com/index.php/s/NSeDwKGWMY4fBEH/preview"/>
-    <Card title="No More Room In Hell" description="Placeholder" link="https://zap-hosting.com/guides/docs/dedicated-linux-nmrih" image="https://screensaver01.zap-hosting.com/index.php/s/KxxBirCs2kZdZoa/preview"/>
-    <Card title="Half-Life 2" description="Placeholder" link="https://zap-hosting.com/guides/docs/dedicated-linux-hl2" image="https://screensaver01.zap-hosting.com/index.php/s/XmJGtYkc7d9rBai/preview"/>
+<Cards columns={2} layout="horizontal">
+    <Card title="ARK Survival Ascended" description="" link="https://zap-hosting.com/guides/docs/dedicated-linux-arksurvivalascended" image="https://screensaver01.zap-hosting.com/index.php/s/qnWELD8ik9srBDG/preview"/>
+    <Card title="Avorion" description="" link="https://zap-hosting.com/guides/docs/dedicated-linux-avorion" image="https://screensaver01.zap-hosting.com/index.php/s/FGtbBbgYsjygaHQ/preview"/>
+    <Card title="Conan Exiles" description="" link="https://zap-hosting.com/guides/docs/dedicated-linux-conan" image="https://screensaver01.zap-hosting.com/index.php/s/Kf4Agc6HXkEMJGM/preview"/>
+    <Card title="Enshrouded" description="" link="https://zap-hosting.com/guides/docs/dedicated-linux-enshrouded" image="https://screensaver01.zap-hosting.com/index.php/s/65zgmLrBtcPTt7k/preview"/>
+    <Card title="FiveM" description="" link="https://zap-hosting.com/guides/docs/dedicated-linux-fivem" image="https://screensaver01.zap-hosting.com/index.php/s/XmJGtYkc7d9rBai/preview"/>
+    <Card title="Foundry" description="" link="https://zap-hosting.com/guides/docs/dedicated-linux-foundry" image="https://screensaver01.zap-hosting.com/index.php/s/wpiikozcXjmfTty/preview"/>
+    <Card title="Hytale" description="" link="https://zap-hosting.com/guides/docs/dedicated-linux-hytale" image="https://screensaver01.zap-hosting.com/index.php/s/XmJGtYkc7d9rBai/preview"/>
+    <Card title="Myth of Empires" description="" link="https://zap-hosting.com/guides/docs/dedicated-linux-mythofempires" image="https://screensaver01.zap-hosting.com/index.php/s/W8rBp8LESZidDLs/preview"/>
+    <Card title="Open.mp" description="" link="https://zap-hosting.com/guides/docs/dedicated-linux-openmp" image="https://screensaver01.zap-hosting.com/index.php/s/KLqBtLcfSBHyEBm/preview"/>
+    <Card title="Palworld" description="" link="https://zap-hosting.com/guides/docs/dedicated-linux-palworld" image="https://screensaver01.zap-hosting.com/index.php/s/RgdKJoRRNBPcT5r/preview"/>
+    <Card title="RageMP" description="" link="https://zap-hosting.com/guides/docs/dedicated-linux-ragemp" image="https://screensaver01.zap-hosting.com/index.php/s/XmJGtYkc7d9rBai/preview"/>
+    <Card title="Rust" description="" link="https://zap-hosting.com/guides/docs/dedicated-linux-rust" image="https://screensaver01.zap-hosting.com/index.php/s/G82jnYsbexscj5W/preview"/>
+    <Card title="Satisfactory" description="" link="https://zap-hosting.com/guides/docs/dedicated-linux-satisfactory" image="https://screensaver01.zap-hosting.com/index.php/s/sB4kXbCDcrq77Ki/preview"/>
+    <Card title="Soulmask" description="" link="https://zap-hosting.com/guides/docs/dedicated-linux-soulmask" image="https://screensaver01.zap-hosting.com/index.php/s/NYaRT7cHqXXQF8d/preview"/>
+    <Card title="Valheim" description="" link="https://zap-hosting.com/guides/docs/dedicated-linux-valheim" image="https://screensaver01.zap-hosting.com/index.php/s/LSiFMXMmyKgo4LG/preview"/>
+    <Card title="V Rising" description="" link="https://zap-hosting.com/guides/docs/dedicated-linux-vrising" image="https://screensaver01.zap-hosting.com/index.php/s/xazMeLwLJTJG7LF/preview"/>
+    <Card title="Counter-Strike 1.6" description="" link="https://zap-hosting.com/guides/docs/dedicated-linux-cs16" image="https://screensaver01.zap-hosting.com/index.php/s/q5enKNatKZMpXPf/preview"/>
+    <Card title="Counter-Strike: Condition Zero" description="" link="https://zap-hosting.com/guides/docs/dedicated-linux-cscz" image="https://screensaver01.zap-hosting.com/index.php/s/XmJGtYkc7d9rBai/preview"/>
+    <Card title="Counter-Strike: Source" description="" link="https://zap-hosting.com/guides/docs/dedicated-linux-css" image="https://screensaver01.zap-hosting.com/index.php/s/PqQqSqgin9BjJtw/preview"/>
+    <Card title="Counter-Strike 2" description="" link="https://zap-hosting.com/guides/docs/dedicated-linux-cs2" image="https://screensaver01.zap-hosting.com/index.php/s/cSkWS3sQb22s5f8/preview"/>
+    <Card title="Team Fortress 2" description="" link="https://zap-hosting.com/guides/docs/dedicated-linux-tf2" image="https://screensaver01.zap-hosting.com/index.php/s/PPRN8qRJDBjEzmG/preview"/>
+    <Card title="Day of Defeat: Source" description="" link="https://zap-hosting.com/guides/docs/dedicated-linux-dods" image="https://screensaver01.zap-hosting.com/index.php/s/XmJGtYkc7d9rBai/preview"/>
+    <Card title="Left 4 Dead 2" description="" link="https://zap-hosting.com/guides/docs/dedicated-linux-l4d2" image="https://screensaver01.zap-hosting.com/index.php/s/NSeDwKGWMY4fBEH/preview"/>
+    <Card title="No More Room In Hell" description="" link="https://zap-hosting.com/guides/docs/dedicated-linux-nmrih" image="https://screensaver01.zap-hosting.com/index.php/s/KxxBirCs2kZdZoa/preview"/>
+    <Card title="Half-Life 2" description="" link="https://zap-hosting.com/guides/docs/dedicated-linux-hl2" image="https://screensaver01.zap-hosting.com/index.php/s/XmJGtYkc7d9rBai/preview"/>
 </Cards>
 
 ## Windows
 
-Hosta dedikerade spelservrar på din Windows-server med våra omfattande guider. Vi täcker ett brett urval av spel inklusive ARK, Conan Exiles, Enshrouded, Valheim, hela Counter-Strike- och Source-motorsortimentet samt alla Farming Simulator-versioner. Här finns också allmänna resurser som Cloudflare Tunnel-konfiguration för txAdmin.
+Hosta dedikerade spelservrar på din Windows-server med våra omfattande guider. Vi täcker ett brett urval av spel som ARK, Conan Exiles, Enshrouded, Valheim, hela Counter-Strike- och Source-motorsortimentet samt alla Farming Simulator-versioner. Du hittar även allmänna installationsresurser som Cloudflare Tunnel-konfiguration för txAdmin.
 
 ### Allmänt
 
-<Cards>
-    <Card title="Cloudflare Tunnel för txAdmin" description="Placeholder" link="https://zap-hosting.com/guides/docs/dedicated-windows-fivem-txAdmin-cloudflare-tunnel" image="https://screensaver01.zap-hosting.com/index.php/s/XmJGtYkc7d9rBai/preview" type="product-categories"/>
+<Cards columns={2} layout="horizontal">
+    <Card title="Cloudflare Tunnel för txAdmin" description="" link="https://zap-hosting.com/guides/docs/dedicated-windows-fivem-txAdmin-cloudflare-tunnel" image="https://screensaver01.zap-hosting.com/index.php/s/XmJGtYkc7d9rBai/preview" type="product-categories"/>
 </Cards>
 
 ### Spel
 
-<Cards>
-    <Card title="ARK Survival Ascended" description="Placeholder" link="https://zap-hosting.com/guides/docs/vserver-windows-arksurvivalascended" image="https://screensaver01.zap-hosting.com/index.php/s/qnWELD8ik9srBDG/preview"/>
-    <Card title="Avorion" description="Placeholder" link="https://zap-hosting.com/guides/docs/dedicated-windows-avorion" image="https://screensaver01.zap-hosting.com/index.php/s/FGtbBbgYsjygaHQ/preview"/>
-    <Card title="Conan Exiles" description="Placeholder" link="https://zap-hosting.com/guides/docs/dedicated-windows-conan" image="https://screensaver01.zap-hosting.com/index.php/s/Kf4Agc6HXkEMJGM/preview"/>
-    <Card title="Enshrouded" description="Placeholder" link="https://zap-hosting.com/guides/docs/vserver-windows-enshrouded" image="https://screensaver01.zap-hosting.com/index.php/s/65zgmLrBtcPTt7k/preview"/>
-    <Card title="FiveM" description="Placeholder" link="https://zap-hosting.com/guides/docs/dedicated-windows-fivem" image="https://screensaver01.zap-hosting.com/index.php/s/XmJGtYkc7d9rBai/preview"/>
-    <Card title="Foundry" description="Placeholder" link="https://zap-hosting.com/guides/docs/dedicated-windows-foundry" image="https://screensaver01.zap-hosting.com/index.php/s/wpiikozcXjmfTty/preview"/>
-    <Card title="Farming Simulator 2019" description="Placeholder" link="https://zap-hosting.com/guides/docs/vserver-windows-fs-19" image="https://screensaver01.zap-hosting.com/index.php/s/XmJGtYkc7d9rBai/preview"/>
-    <Card title="Farming Simulator 2022" description="Placeholder" link="https://zap-hosting.com/guides/docs/vserver-windows-fs-22" image="https://screensaver01.zap-hosting.com/index.php/s/XmJGtYkc7d9rBai/preview"/>
-    <Card title="Farming Simulator 2022 (Epic Games)" description="Placeholder" link="https://zap-hosting.com/guides/docs/dedicated-windows-fs-22-epic" image="https://screensaver01.zap-hosting.com/index.php/s/XmJGtYkc7d9rBai/preview"/>
-    <Card title="Farming Simulator 2025" description="Placeholder" link="https://zap-hosting.com/guides/docs/dedicated-windows-fs-25" image="https://screensaver01.zap-hosting.com/index.php/s/XmJGtYkc7d9rBai/preview"/>
-    <Card title="Hytale" description="Placeholder" link="https://zap-hosting.com/guides/docs/dedicated-windows-hytale" image="https://screensaver01.zap-hosting.com/index.php/s/XmJGtYkc7d9rBai/preview"/>
-    <Card title="Myth of Empires" description="Placeholder" link="https://zap-hosting.com/guides/docs/dedicated-windows-mythofempires" image="https://screensaver01.zap-hosting.com/index.php/s/W8rBp8LESZidDLs/preview"/>
-    <Card title="Open.mp" description="Placeholder" link="https://zap-hosting.com/guides/docs/vserver-windows-openmp" image="https://screensaver01.zap-hosting.com/index.php/s/KLqBtLcfSBHyEBm/preview"/>
-    <Card title="Palworld" description="Placeholder" link="https://zap-hosting.com/guides/docs/dedicated-windows-palworld" image="https://screensaver01.zap-hosting.com/index.php/s/RgdKJoRRNBPcT5r/preview"/>
-    <Card title="RageMP" description="Placeholder" link="https://zap-hosting.com/guides/docs/dedicated-windows-ragemp" image="https://screensaver01.zap-hosting.com/index.php/s/XmJGtYkc7d9rBai/preview"/>
-    <Card title="Satisfactory" description="Placeholder" link="https://zap-hosting.com/guides/docs/dedicated-windows-satisfactory" image="https://screensaver01.zap-hosting.com/index.php/s/sB4kXbCDcrq77Ki/preview"/>
-    <Card title="Soulmask" description="Placeholder" link="https://zap-hosting.com/guides/docs/dedicated-windows-soulmask" image="https://screensaver01.zap-hosting.com/index.php/s/NYaRT7cHqXXQF8d/preview"/>
-    <Card title="Valheim" description="Placeholder" link="https://zap-hosting.com/guides/docs/vserver-windows-valheim" image="https://screensaver01.zap-hosting.com/index.php/s/LSiFMXMmyKgo4LG/preview"/>
-    <Card title="V Rising" description="Placeholder" link="https://zap-hosting.com/guides/docs/vserver-windows-vrising" image="https://screensaver01.zap-hosting.com/index.php/s/xazMeLwLJTJG7LF/preview"/>
-    <Card title="Counter-Strike 1.6" description="Placeholder" link="https://zap-hosting.com/guides/docs/dedicated-windows-cs16" image="https://screensaver01.zap-hosting.com/index.php/s/q5enKNatKZMpXPf/preview"/>
-    <Card title="Counter-Strike: Condition Zero" description="Placeholder" link="https://zap-hosting.com/guides/docs/dedicated-windows-cscz" image="https://screensaver01.zap-hosting.com/index.php/s/XmJGtYkc7d9rBai/preview"/>
-    <Card title="Counter-Strike: Source" description="Placeholder" link="https://zap-hosting.com/guides/docs/dedicated-windows-css" image="https://screensaver01.zap-hosting.com/index.php/s/PqQqSqgin9BjJtw/preview"/>
-    <Card title="Counter-Strike 2" description="Placeholder" link="https://zap-hosting.com/guides/docs/dedicated-windows-cs2" image="https://screensaver01.zap-hosting.com/index.php/s/cSkWS3sQb22s5f8/preview"/>
-    <Card title="Team Fortress 2" description="Placeholder" link="https://zap-hosting.com/guides/docs/dedicated-windows-tf2" image="https://screensaver01.zap-hosting.com/index.php/s/PPRN8qRJDBjEzmG/preview"/>
-    <Card title="Day of Defeat: Source" description="Placeholder" link="https://zap-hosting.com/guides/docs/dedicated-windows-dods" image="https://screensaver01.zap-hosting.com/index.php/s/XmJGtYkc7d9rBai/preview"/>
-    <Card title="Left 4 Dead 2" description="Placeholder" link="https://zap-hosting.com/guides/docs/dedicated-windows-l4d2" image="https://screensaver01.zap-hosting.com/index.php/s/NSeDwKGWMY4fBEH/preview"/>
-    <Card title="No More Room In Hell" description="Placeholder" link="https://zap-hosting.com/guides/docs/dedicated-windows-nmrih" image="https://screensaver01.zap-hosting.com/index.php/s/KxxBirCs2kZdZoa/preview"/>
-    <Card title="Half-Life 2" description="Placeholder" link="https://zap-hosting.com/guides/docs/dedicated-windows-hl2" image="https://screensaver01.zap-hosting.com/index.php/s/XmJGtYkc7d9rBai/preview"/>
+<Cards columns={2} layout="horizontal">
+    <Card title="ARK Survival Ascended" description="" link="https://zap-hosting.com/guides/docs/vserver-windows-arksurvivalascended" image="https://screensaver01.zap-hosting.com/index.php/s/qnWELD8ik9srBDG/preview"/>
+    <Card title="Avorion" description="" link="https://zap-hosting.com/guides/docs/dedicated-windows-avorion" image="https://screensaver01.zap-hosting.com/index.php/s/FGtbBbgYsjygaHQ/preview"/>
+    <Card title="Conan Exiles" description="" link="https://zap-hosting.com/guides/docs/dedicated-windows-conan" image="https://screensaver01.zap-hosting.com/index.php/s/Kf4Agc6HXkEMJGM/preview"/>
+    <Card title="Enshrouded" description="" link="https://zap-hosting.com/guides/docs/vserver-windows-enshrouded" image="https://screensaver01.zap-hosting.com/index.php/s/65zgmLrBtcPTt7k/preview"/>
+    <Card title="FiveM" description="" link="https://zap-hosting.com/guides/docs/dedicated-windows-fivem" image="https://screensaver01.zap-hosting.com/index.php/s/XmJGtYkc7d9rBai/preview"/>
+    <Card title="Foundry" description="" link="https://zap-hosting.com/guides/docs/dedicated-windows-foundry" image="https://screensaver01.zap-hosting.com/index.php/s/wpiikozcXjmfTty/preview"/>
+    <Card title="Farming Simulator 2019" description="" link="https://zap-hosting.com/guides/docs/vserver-windows-fs-19" image="https://screensaver01.zap-hosting.com/index.php/s/XmJGtYkc7d9rBai/preview"/>
+    <Card title="Farming Simulator 2022" description="" link="https://zap-hosting.com/guides/docs/vserver-windows-fs-22" image="https://screensaver01.zap-hosting.com/index.php/s/XmJGtYkc7d9rBai/preview"/>
+    <Card title="Farming Simulator 2022 (Epic Games)" description="" link="https://zap-hosting.com/guides/docs/dedicated-windows-fs-22-epic" image="https://screensaver01.zap-hosting.com/index.php/s/XmJGtYkc7d9rBai/preview"/>
+    <Card title="Farming Simulator 2025" description="" link="https://zap-hosting.com/guides/docs/dedicated-windows-fs-25" image="https://screensaver01.zap-hosting.com/index.php/s/XmJGtYkc7d9rBai/preview"/>
+    <Card title="Hytale" description="" link="https://zap-hosting.com/guides/docs/dedicated-windows-hytale" image="https://screensaver01.zap-hosting.com/index.php/s/XmJGtYkc7d9rBai/preview"/>
+    <Card title="Myth of Empires" description="" link="https://zap-hosting.com/guides/docs/dedicated-windows-mythofempires" image="https://screensaver01.zap-hosting.com/index.php/s/W8rBp8LESZidDLs/preview"/>
+    <Card title="Open.mp" description="" link="https://zap-hosting.com/guides/docs/vserver-windows-openmp" image="https://screensaver01.zap-hosting.com/index.php/s/KLqBtLcfSBHyEBm/preview"/>
+    <Card title="Palworld" description="" link="https://zap-hosting.com/guides/docs/dedicated-windows-palworld" image="https://screensaver01.zap-hosting.com/index.php/s/RgdKJoRRNBPcT5r/preview"/>
+    <Card title="RageMP" description="" link="https://zap-hosting.com/guides/docs/dedicated-windows-ragemp" image="https://screensaver01.zap-hosting.com/index.php/s/XmJGtYkc7d9rBai/preview"/>
+    <Card title="Satisfactory" description="" link="https://zap-hosting.com/guides/docs/dedicated-windows-satisfactory" image="https://screensaver01.zap-hosting.com/index.php/s/sB4kXbCDcrq77Ki/preview"/>
+    <Card title="Soulmask" description="" link="https://zap-hosting.com/guides/docs/dedicated-windows-soulmask" image="https://screensaver01.zap-hosting.com/index.php/s/NYaRT7cHqXXQF8d/preview"/>
+    <Card title="Valheim" description="" link="https://zap-hosting.com/guides/docs/vserver-windows-valheim" image="https://screensaver01.zap-hosting.com/index.php/s/LSiFMXMmyKgo4LG/preview"/>
+    <Card title="V Rising" description="" link="https://zap-hosting.com/guides/docs/vserver-windows-vrising" image="https://screensaver01.zap-hosting.com/index.php/s/xazMeLwLJTJG7LF/preview"/>
+    <Card title="Counter-Strike 1.6" description="" link="https://zap-hosting.com/guides/docs/dedicated-windows-cs16" image="https://screensaver01.zap-hosting.com/index.php/s/q5enKNatKZMpXPf/preview"/>
+    <Card title="Counter-Strike: Condition Zero" description="" link="https://zap-hosting.com/guides/docs/dedicated-windows-cscz" image="https://screensaver01.zap-hosting.com/index.php/s/XmJGtYkc7d9rBai/preview"/>
+    <Card title="Counter-Strike: Source" description="" link="https://zap-hosting.com/guides/docs/dedicated-windows-css" image="https://screensaver01.zap-hosting.com/index.php/s/PqQqSqgin9BjJtw/preview"/>
+    <Card title="Counter-Strike 2" description="" link="https://zap-hosting.com/guides/docs/dedicated-windows-cs2" image="https://screensaver01.zap-hosting.com/index.php/s/cSkWS3sQb22s5f8/preview"/>
+    <Card title="Team Fortress 2" description="" link="https://zap-hosting.com/guides/docs/dedicated-windows-tf2" image="https://screensaver01.zap-hosting.com/index.php/s/PPRN8qRJDBjEzmG/preview"/>
+    <Card title="Day of Defeat: Source" description="" link="https://zap-hosting.com/guides/docs/dedicated-windows-dods" image="https://screensaver01.zap-hosting.com/index.php/s/XmJGtYkc7d9rBai/preview"/>
+    <Card title="Left 4 Dead 2" description="" link="https://zap-hosting.com/guides/docs/dedicated-windows-l4d2" image="https://screensaver01.zap-hosting.com/index.php/s/NSeDwKGWMY4fBEH/preview"/>
+    <Card title="No More Room In Hell" description="" link="https://zap-hosting.com/guides/docs/dedicated-windows-nmrih" image="https://screensaver01.zap-hosting.com/index.php/s/KxxBirCs2kZdZoa/preview"/>
+    <Card title="Half-Life 2" description="" link="https://zap-hosting.com/guides/docs/dedicated-windows-hl2" image="https://screensaver01.zap-hosting.com/index.php/s/XmJGtYkc7d9rBai/preview"/>
 </Cards>

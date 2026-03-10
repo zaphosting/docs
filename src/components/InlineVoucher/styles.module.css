@@ -4,7 +4,7 @@
     position: relative;
     z-index: 10;
     display: flex;
-    border-radius: 1rem;
+    border-radius: .5rem;
     overflow: hidden;
     background-color: white;
     border: 1px solid rgb(228 228 231 / .8);
@@ -12,7 +12,7 @@
 }
 
 [data-theme='dark'] .box {
-    background-color: #262626;
+    background-color: rgb(39 39 42 / .5);
     border: 1px solid rgb(63 63 70 / .5);
     box-shadow: none;
 }
@@ -23,7 +23,7 @@
     position: absolute;
     inset: 0;
     z-index: 0;
-    border-radius: 1rem;
+    border-radius: .5rem;
     border: 1px solid rgb(228 228 231 / .5);
     background-color: white;
 }
@@ -803,6 +803,6 @@
 
 @media (max-width: 525px) {
     .box {
-        border-radius: .75rem;
+        border-radius: .5rem;
     }
 }

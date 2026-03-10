@@ -1,28 +1,22 @@
 ---
 id: csgo-firststeps-dashboard
-title: "Counter-Strike Global Offensive: Dashboard Overview"
-description: "Discover how to efficiently manage and optimize your Counter-Strike: Global Offensive server for the best performance and control → Learn more now"
+title: "CS:GO: Dashboard Overview"
+description: "Discover how to efficiently manage your CS:GO server with a clear overview of all features and options → Learn more now"
 sidebar_label: Dashboard
 services:
-  - gameserver
+  - gameserver-csgo
 ---
 
 import YouTube from '@site/src/components/YouTube/YouTube';
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
-:::warning Archived Guide
-This document has been archived. Documents are archived if they are no longer relevant, incorrect or up to date. It has been archived for the following reasons:
-
-Reason: CS:GO is no longer actively offered and is no longer being developed. CS2 is the follow-up to CS:GO. We recommend switching to CS2.
-::::
-
 ## Introduction
 
-You are interested in an **Counter-Strike: Global Offensive server** or already own one, but you still lack a comprehensive overview of the administration and the findability of all necessary options? Especially at the beginning, this can be a challenge. But don't worry, we'll provide you with a detailed introduction to the administration of your service below, so you'll have the best possible overview.
+You are interested in an **CS:GO server** or already own one, but you still lack a comprehensive overview of the administration and the findability of all necessary options? Especially at the beginning, this can be a challenge. But don't worry, we'll provide you with a detailed introduction to the administration of your service below, so you'll have the best possible overview.
 
-After going through this guide, you will easily be able to manage your server efficiently and find all the necessary options and features quickly and easily. Here, you will get a structured overview that will help you step by step to get familiar with the server administration and expand your knowledge in a targeted manner. This way, you can ensure that your **Counter-Strike: Global Offensive server** is optimally adapted to your needs and that you get the most out of the available options.
+After going through this guide, you will easily be able to manage your server efficiently and find all the necessary options and features quickly and easily. Here, you will get a structured overview that will help you step by step to get familiar with the server administration and expand your knowledge in a targeted manner. This way, you can ensure that your **CS:GO server** is optimally adapted to your needs and that you get the most out of the available options.
 
-<YouTube videoId="nl88g8RI_cA" imageSrc="https://screensaver01.zap-hosting.com/index.php/s/QPb8FoyCaAXXa5B/preview" title="Setup CS:GO server in just a MINUTE!" description="Feel like you understand better when you see things in action? We’ve got you! Dive into our video that breaks it all down for you. Whether you're in a rush or just prefer to soak up information in the most engaging way possible!"/>
+<YouTube videoId="As1pYgGCXdY" imageSrc="https://screensaver01.zap-hosting.com/index.php/s/L2TCgpKKan5M4Hg/preview" title="Setup CS:GO server in just a MINUTE!" description="Feel like you understand better when you see things in action? We’ve got you! Dive into our video that breaks it all down for you. Whether you're in a rush or just prefer to soak up information in the most engaging way possible!"/>
 
 <InlineVoucher />
 
@@ -36,7 +30,7 @@ In the **Product Administration** section, you will find all the necessary pages
 
 The **Dashboard** of your server is the heart of the administration. All basic and essential information about your service is clearly presented here. This includes, for example, information about the location, status, IP: Port, used memory, game in progress, server name, map and the number of available slots. In addition, the utilization of the CPU, memory and RAM is also displayed.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/WdqSnnxYH6Yz29N/preview)
+![img](https://screensaver01.zap-hosting.com/index.php/s/WbKNiSijp3HEsmJ/preview)
 
 In the dashboard you also have the option of starting, stopping or restarting your service, to have full control over its operation. Furthermore, you can access the live console to get real-time information about the server's state and take direct action if necessary.
 
@@ -58,7 +52,8 @@ Thanks to this information, you get a good insight into the usage of your server
 ### DDoS Manager
 
 
-View past DDoS attacks to better assess potential threats and patterns. Enable notifications for ongoing DDoS attacks on your server to react quickly when an incident occurs.
+
+View past DDoS attacks to better assess potential threats and patterns. Enable notifications for ongoing DDoS attacks on your server to react quickly when an incident occurs.
 
 Depending on the server location and the DDoS protection available there, you can also monitor active attacks in real time. This includes detailed traffic insights, showing both legitimate traffic and the amount of traffic blocked by the mitigation systems. This level of transparency helps you understand how the protection is working and enables you to identify potential risks early.
 
@@ -113,7 +108,7 @@ The **Event Log** provides you with a comprehensive overview of all activities r
 
 The **Live Console** offers you a real-time view of all current events on your server. Here you can see information about the activities of the players as well as possible error messages and system messages. This overview allows you to get a comprehensive view of what is happening on your server and to detect possible problems at an early stage.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/J9SsmSrPXnG7P9w/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/Hm8pE6RDacB4fMM/preview)
 
 Additionally to monitoring the events, you can also send commands directly to the server in the **Live Console**. This can be useful to adjust settings, perform certain actions, or respond quickly to problems that arise.
 
@@ -136,8 +131,6 @@ In this section you will find an overview of the interruptions history of the ho
 
 
 
-
-
 ## Settings
 
 In the **Settings** section, you will find all the necessary pages for configuring your server. The available options for configuring your server are listed in detail below.
@@ -147,6 +140,12 @@ In the **Settings** section, you will find all the necessary pages for configuri
 ### Settings
 
 Under the settings you will find an overview of the most common setting options for your server. These also include a short explanation. The use of the settings page is especially recommended for newcomers to server administration.
+
+![](https://screensaver01.zap-hosting.com/index.php/s/oBMaLkTGrZ8rdLJ/preview)
+
+Here you can make for example the following adjustments: 
+
+- Basic settings: Servername, Gamemode, Startmap
 
 If you are more confident and want to make more precise changes, we recommend using the Config Editor instead. You can find more information about this in the **Configs** category.
 
@@ -175,27 +174,9 @@ Under **Games** you always have the possibility to change the game variant of yo
 
 Under **Versions** you have the possibility to view and manage the current version of your game server. Here you can update to the latest version at any time or activate automatic updates to ensure that your server is always up to date.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/BH2JzyRHTeLdKHz/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/LMZg8pZEBiGnBd9/preview)
 
 Moreover, you can also enable the email notification feature for automatic updates to keep you informed about updates and ensure that you are always up-to-date.
-
-
-
-### Plugins
-
-For this game, we offer the possibility to easily install well-known and popular resources/plugins with just one click under **Plugins**. In the overview, you will find a selection of the available content that you can add by clicking the installation button. After restarting the server, these resources/plugins will be installed, activated and available to you.
-
-![](https://screensaver01.zap-hosting.com/index.php/s/DoL7miMAmj83CDr/preview)
-
-By using this feature, you can quickly and easily expand your game server's content without having to make adjustments independently. This saves time and reduces the risk of errors or compatibility issues.
-
-
-
-### Steam Workshop
-
-If you are looking for new content to enhance your gaming experience, the Steam Workshop offers a wide selection of mods and maps for a variety of games. To use a collection of mods or maps in your game, you simply need to enter the Steam Workshop Collection ID. Then, you will need to restart your server to ensure that the new content is loaded. Once this is done, you can use the new content on your server and add more variety and fun to your game.
-
-![](https://screensaver01.zap-hosting.com/index.php/s/AaL9sQeye5gKzWQ/preview)
 
 
 

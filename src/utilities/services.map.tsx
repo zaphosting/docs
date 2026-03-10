@@ -508,7 +508,7 @@ const servicesMap: serviceMap = {
             id: 'service.gameserver-brokeprotocol.path',
             description: 'URL path for the gameserver product',
         }),
-        price: `${priceFrom} 0.00€`,
+        price: `${priceFrom} 6.90€`,
     },
     'gameserver-citadel-forgedwithfire': {
         title: translate({
@@ -640,19 +640,6 @@ const servicesMap: serviceMap = {
         }),
         price: `${priceFrom} 5.00€`,
     },
-    'gameserver-dayofinfamy': {
-        title: translate({
-            message: 'Day of Infamy Gameserver',
-            id: 'service.gameserver-dayofinfamy.title',
-            description: 'Product name for the gameserver product',
-        }),
-        url: translate({
-            message: '{marketingSite}/{language}/day-of-infamy-server-hosting/',
-            id: 'service.gameserver-dayofinfamy.path',
-            description: 'URL path for the gameserver product',
-        }),
-        price: `${priceFrom} 0.00€`,
-    },
     'gameserver-dayz': {
         title: translate({
             message: 'DayZ Gameserver',
@@ -716,7 +703,7 @@ const servicesMap: serviceMap = {
             id: 'service.gameserver-dods.path',
             description: 'URL path for the gameserver product',
         }),
-        price: `${priceFrom} 0.00€`,
+        price: `${priceFrom} 5.00€`,
     },
     'gameserver-dst': {
         title: translate({
@@ -1303,19 +1290,6 @@ const servicesMap: serviceMap = {
         }),
         price: `${priceFrom} 7.14€`,
     },
-    'gameserver-pathoftitans': {
-        title: translate({
-            message: 'Path of Titans Gameserver',
-            id: 'service.gameserver-pathoftitans.title',
-            description: 'Product name for the gameserver product',
-        }),
-        url: translate({
-            message: '{marketingSite}/{language}/path-of-titans-server-hosting/',
-            id: 'service.gameserver-pathoftitans.path',
-            description: 'URL path for the gameserver product',
-        }),
-        price: `${priceFrom} 0.00€`,
-    },
     'gameserver-pixark': {
         title: translate({
             message: 'PixARK Gameserver',
@@ -1899,7 +1873,7 @@ const servicesMap: serviceMap = {
             id: 'service.gameserver-vintagestory.path',
             description: 'URL path for the gameserver product',
         }),
-        price: `${priceFrom} 0.00€`,
+        price: `${priceFrom} 4.14€`,
     },
     'gameserver-voyagers-of-nera': {
         title: translate({

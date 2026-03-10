@@ -4,7 +4,7 @@
     display: flex;
     align-items: stretch;
     width: 100%;
-    border-radius: .625rem;
+    border-radius: .5rem;
     border: 1px solid rgb(217 249 157 / .7);
     background-color: rgb(247 254 231 / .6);
     background-image: linear-gradient(135deg, rgb(247 254 231 / .8), rgb(236 252 203 / .4));

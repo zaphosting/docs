@@ -1,91 +1,90 @@
 [
   {
-    "id": "hytale-order",
-    "label": "Hytale Relase Promotion",
+    "id": "csgo-comeback",
+    "label": "CS:GO Standalone Comeback",
     "enabled": true,
     "documentIds": [
       "*"
     ],
     "dateRange": {
-      "start": "2026-01-14T00:00:00+01:00",
-      "end": "2026-01-21T00:00:00+01:00"
+      "start": "2026-03-05T00:00:00+01:00",
+      "end": "2026-03-08T00:00:00+01:00"
     },
-    "imageUrl": "https://screensaver01.zap-hosting.com/index.php/s/AQ25Gf9LsiobA8G/preview",
+    "imageUrl": "https://screensaver01.zap-hosting.com/index.php/s/5JQozoDqjDBgpyX/preview",
     "showExternalLinkIcon": true,
     "locales": {
       "en": {
-        "title": "Hytale available now! 🔥",
-        "description": "Create your own server and experience epic adventures with your friends. Use the code <code>HYTALE50</code> to save 50% on your next order!",
-        "buttonLabel": "Order your server now!",
-        "buttonLink": "https://zap-hosting.com/en/shop/product/cloud-gameserver/hytale/?voucher=HYTALE50"
+        "title": "CS:GO is back as Standalone! 🔥",
+        "description": "Counter-Strike: Global Offensive returns as a standalone version. Host your own community server again and play classic CS:GO with your friends!",
+        "buttonLabel": "Order your CS:GO server now!",
+        "buttonLink": "https://zap-hosting.com/en/counter-strike-global-offensive-server-hosting/"
       },
       "de": {
-        "title": "Hytale jetzt verfügbar! 🔥",
-        "description": "Erstelle deinen eigenen Server und erlebe epische Abenteuer mit deinen Freunden. Nutze den Code <code>HYTALE50</code> und spare 50% bei deiner nächsten Bestellung!",
-        "buttonLabel": "Jetzt Server bestellen!",
-        "buttonLink": "https://zap-hosting.com/de/server-mieten/cloud-gameserver/hytale/?voucher=HYTALE50"
+        "title": "CS:GO ist zurück als Standalone! 🔥",
+        "description": "Counter-Strike: Global Offensive feiert sein Comeback als eigenständige Version. Betreibe wieder eigene Community Server und spiele klassisches CS:GO mit deinen Freunden!",
+        "buttonLabel": "Jetzt CS:GO Server bestellen!",
+        "buttonLink": "https://zap-hosting.com/de/counter-strike-global-offensive-server-mieten/"
       },
       "es": {
-        "title": "¡Hytale ya disponible! 🔥",
-        "description": "Crea tu propio servidor y vive aventuras épicas con tus amigos. ¡Usa el código <code>HYTALE50</code> para ahorrar un 50% en tu próximo pedido!",
-        "buttonLabel": "¡Pide tu servidor ahora!",
-        "buttonLink": "https://zap-hosting.com/en/shop/product/cloud-gameserver/hytale/?voucher=HYTALE50"
+        "title": "¡CS:GO vuelve como Standalone! 🔥",
+        "description": "Counter-Strike: Global Offensive regresa como versión independiente. Vuelve a crear tu propio servidor comunitario y juega al clásico CS:GO con tus amigos.",
+        "buttonLabel": "¡Pide tu servidor de CS:GO ahora!",
+        "buttonLink": "https://zap-hosting.com/en/counter-strike-global-offensive-server-hosting/"
       },
       "fr": {
-        "title": "Hytale disponible maintenant ! 🔥",
-        "description": "Créez votre propre serveur et vivez des aventures épiques avec vos amis. Utilisez le code <code>HYTALE50</code> pour économiser 50% sur votre prochaine commande !",
-        "buttonLabel": "Commandez votre serveur maintenant !",
-        "buttonLink": "https://zap-hosting.com/en/shop/product/cloud-gameserver/hytale/?voucher=HYTALE50"
+        "title": "CS:GO est de retour en version Standalone ! 🔥",
+        "description": "Counter-Strike: Global Offensive revient en version autonome. Hébergez à nouveau votre propre serveur communautaire et jouez au CS:GO classique avec vos amis.",
+        "buttonLabel": "Commandez votre serveur CS:GO maintenant !",
+        "buttonLink": "https://zap-hosting.com/en/counter-strike-global-offensive-server-hosting/"
       },
       "ar": {
-        "title": "Hytale متاح الآن! 🔥",
-        "description": "أنشئ خادمك الخاص واستمتع بمغامرات ملحمية مع أصدقائك. استخدم الرمز <code>HYTALE50</code> لتوفير 50% على طلبك التالي!",
-        "buttonLabel": "اطلب خادمك الآن!",
-        "buttonLink": "https://zap-hosting.com/en/shop/product/cloud-gameserver/hytale/?voucher=HYTALE50"
+        "title": "عودة CS:GO كنسخة مستقلة! 🔥",
+        "description": "تعود Counter-Strike: Global Offensive كنسخة مستقلة. يمكنك تشغيل خادم المجتمع الخاص بك مرة أخرى واللعب مع أصدقائك!",
+        "buttonLabel": "اطلب خادم CS:GO الآن!",
+        "buttonLink": "https://zap-hosting.com/en/counter-strike-global-offensive-server-hosting/"
       },
       "pt": {
-        "title": "Hytale disponível agora! 🔥",
-        "description": "Crie o seu próprio servidor e viva aventuras épicas com os seus amigos. Use o código <code>HYTALE50</code> para poupar 50% no seu próximo pedido!",
-        "buttonLabel": "Encomende o seu servidor agora!",
-        "buttonLink": "https://zap-hosting.com/en/shop/product/cloud-gameserver/hytale/?voucher=HYTALE50"
+        "title": "CS:GO está de volta como Standalone! 🔥",
+        "description": "Counter-Strike: Global Offensive regressa como versão independente. Volta a criar o teu próprio servidor comunitário e joga CS:GO clássico com os teus amigos.",
+        "buttonLabel": "Encomenda já o teu servidor CS:GO!",
+        "buttonLink": "https://zap-hosting.com/en/counter-strike-global-offensive-server-hosting/"
       },
       "th": {
-        "title": "Hytale พร้อมให้บริการแล้ว! 🔥",
-        "description": "สร้างเซิร์ฟเวอร์ของคุณเองและสัมผัสการผจญภัยสุดมันส์กับเพื่อนๆ ใช้โค้ด <code>HYTALE50</code> เพื่อประหยัด 50% ในคำสั่งซื้อครั้งต่อไป!",
-        "buttonLabel": "สั่งซื้อเซิร์ฟเวอร์ตอนนี้!",
-        "buttonLink": "https://zap-hosting.com/en/shop/product/cloud-gameserver/hytale/?voucher=HYTALE50"
+        "title": "CS:GO กลับมาแล้วในรูปแบบ Standalone! 🔥",
+        "description": "Counter-Strike: Global Offensive กลับมาอีกครั้งในเวอร์ชันแยกอิสระ คุณสามารถเปิดเซิร์ฟเวอร์ชุมชนของคุณเองและเล่นกับเพื่อนได้อีกครั้ง!",
+        "buttonLabel": "สั่งซื้อเซิร์ฟเวอร์ CS:GO ตอนนี้!",
+        "buttonLink": "https://zap-hosting.com/en/counter-strike-global-offensive-server-hosting/"
       },
       "pl": {
-        "title": "Hytale już dostępny! 🔥",
-        "description": "Stwórz własny serwer i przeżyj epickie przygody ze swoimi przyjaciółmi. Użyj kodu <code>HYTALE50</code>, aby zaoszczędzić 50% na następnym zamówieniu!",
-        "buttonLabel": "Zamów swój serwer teraz!",
-        "buttonLink": "https://zap-hosting.com/en/shop/product/cloud-gameserver/hytale/?voucher=HYTALE50"
+        "title": "CS:GO wraca jako wersja Standalone! 🔥",
+        "description": "Counter-Strike: Global Offensive powraca jako samodzielna wersja. Uruchom ponownie własny serwer społeczności i graj w klasyczne CS:GO ze znajomymi.",
+        "buttonLabel": "Zamów serwer CS:GO teraz!",
+        "buttonLink": "https://zap-hosting.com/en/counter-strike-global-offensive-server-hosting/"
       },
       "ja": {
-        "title": "Hytaleがついに登場！🔥",
-        "description": "自分だけのサーバーを作成して、友達と壮大な冒険を楽しもう。コード<code>HYTALE50</code>を使用すると、次回のご注文が50%オフになります！",
-        "buttonLabel": "今すぐサーバーを注文！",
-        "buttonLink": "https://zap-hosting.com/en/shop/product/cloud-gameserver/hytale/?voucher=HYTALE50"
+        "title": "CS:GOがスタンドアロン版として復活！🔥",
+        "description": "Counter-Strike: Global Offensive がスタンドアロン版として復活。コミュニティサーバーを再び運営して、友達とクラシックなCS:GOを楽しもう！",
+        "buttonLabel": "今すぐCS:GOサーバーを注文！",
+        "buttonLink": "https://zap-hosting.com/en/counter-strike-global-offensive-server-hosting/"
       },
       "sv": {
-        "title": "Hytale tillgängligt nu! 🔥",
-        "description": "Skapa din egen server och upplev episka äventyr med dina vänner. Använd koden <code>HYTALE50</code> för att spara 50% på din nästa beställning!",
-        "buttonLabel": "Beställ din server nu!",
-        "buttonLink": "https://zap-hosting.com/en/shop/product/cloud-gameserver/hytale/?voucher=HYTALE50"
+        "title": "CS:GO är tillbaka som Standalone! 🔥",
+        "description": "Counter-Strike: Global Offensive är tillbaka som en fristående version. Starta din egen community-server igen och spela klassiskt CS:GO med dina vänner.",
+        "buttonLabel": "Beställ din CS:GO-server nu!",
+        "buttonLink": "https://zap-hosting.com/en/counter-strike-global-offensive-server-hosting/"
       },
       "it": {
-        "title": "Hytale disponibile ora! 🔥",
-        "description": "Crea il tuo server e vivi avventure epiche con i tuoi amici. Usa il codice <code>HYTALE50</code> per risparmiare il 50% sul tuo prossimo ordine!",
-        "buttonLabel": "Ordina il tuo server ora!",
-        "buttonLink": "https://zap-hosting.com/en/shop/product/cloud-gameserver/hytale/?voucher=HYTALE50"
+        "title": "CS:GO torna come versione Standalone! 🔥",
+        "description": "Counter-Strike: Global Offensive torna come versione autonoma. Avvia di nuovo il tuo server della community e gioca al classico CS:GO con i tuoi amici.",
+        "buttonLabel": "Ordina ora il tuo server CS:GO!",
+        "buttonLink": "https://zap-hosting.com/en/counter-strike-global-offensive-server-hosting/"
       },
       "nl": {
-        "title": "Hytale nu beschikbaar! 🔥",
-        "description": "Maak je eigen server en beleef epische avonturen met je vrienden. Gebruik de code <code>HYTALE50</code> om 50% korting te krijgen op je volgende bestelling!",
-        "buttonLabel": "Bestel nu je server!",
-        "buttonLink": "https://zap-hosting.com/en/shop/product/cloud-gameserver/hytale/?voucher=HYTALE50"
+        "title": "CS:GO is terug als Standalone! 🔥",
+        "description": "Counter-Strike: Global Offensive keert terug als standalone versie. Start opnieuw je eigen communityserver en speel klassiek CS:GO met je vrienden.",
+        "buttonLabel": "Bestel nu je CS:GO server!",
+        "buttonLink": "https://zap-hosting.com/en/counter-strike-global-offensive-server-hosting/"
       }
     }
   }
 ]
-
