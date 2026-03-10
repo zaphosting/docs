@@ -1,7 +1,7 @@
 ---
 id: dedicated-truenas-scale
 title: "Dedicated Server: Installing TrueNAS SCALE"
-description: "Learn how to install TrueNAS SCALE on your dedicated server using a custom ISO for storage and NAS solutions → Step-by-step guide"
+description: "Learn how to install TrueNAS SCALE on your dedicated server for network-attached storage and file sharing → Step-by-step guide"
 sidebar_label: Installing TrueNAS SCALE
 services:
   - dedicated
@@ -9,29 +9,15 @@ services:
 
 ## Introduction
 
-TrueNAS SCALE is an Open Source software-defined storage (SDS) platform that provides enterprise-grade features including data protection, file sharing, and virtualization capabilities. Built on Debian Linux, it offers both powerful storage management through its web interface and the flexibility of Linux.
+TrueNAS SCALE is an open-source storage platform that allows you to build a network-attached storage (NAS) system on a server. In this guide, you will install TrueNAS SCALE on a Dedicated Server and configure the initial setup, including storage pools, user accounts, and SMB file sharing.
 
-This guide focuses on installing TrueNAS SCALE on **Dedicated Servers** where it can fully leverage direct hardware access to storage devices.
-
-:::danger VPS Not Suitable for TrueNAS SCALE
-**VPS systems come with only a single disk.** Since TrueNAS SCALE uses the entire boot disk for the operating system, you will **not be able to create any storage pools** on a VPS. This makes TrueNAS SCALE essentially **unusable** on VPS for its intended purpose (storage and NAS functionality). VPS can only be used for testing the installation process itself, not for actual storage operations. **For any practical use, a Dedicated Server with at least 2 disks is required.**
+:::danger[VPS Not Suitable]
+A VPS has only one disk. You can install TrueNAS SCALE on a VPS, but you cannot create storage pools since the entire disk is used for the OS. A Dedicated Server with at least 2 disks is required.
 :::
 
-### Use Cases
+## Preparation
 
-TrueNAS SCALE on a dedicated server is ideal for:
-- Centralized file storage with SMB/NFS sharing
-- Media server backend (Plex, Jellyfin)
-- Backup and snapshot management
-- Virtual machine hosting
-- Container-based applications
-- iSCSI storage provisioning
-
-## Prerequisites
-
-Before beginning the installation, ensure you have the following:
-
-### Minimum System Requirements
+Before beginning the installation, ensure you have the following minimum system requirements:
 
 | Component | Requirement |
 |-----------|-------------|
@@ -40,501 +26,226 @@ Before beginning the installation, ensure you have the following:
 | **Storage** | **At least 2 disks**: One for the OS (16 GB minimum) and one or more for storage pools |
 | **Network** | Active network connection |
 
-:::danger Two Disks Required
-TrueNAS SCALE installs on and occupies an entire disk for the boot device. You must have at least two disks: one for the operating system and at least one additional disk to create storage pools. A single-disk system cannot be used for storage functionality.
-:::
+Head over to the official [TrueNAS website](https://www.truenas.com/download-truenas-scale/) and download the latest stable release. You can either upload the ISO to a publicly accessible location (your own web server or cloud storage) or keep it locally on your computer for direct mounting.
 
-## Obtaining the TrueNAS SCALE ISO
-
-Before installation, you need to obtain the TrueNAS SCALE ISO file:
-
-1. Visit the official [TrueNAS website](https://www.truenas.com/download-truenas-scale/)
-2. Download the latest stable release of TrueNAS SCALE
-3. Upload the ISO to a publicly accessible location (your own web server or cloud storage) **OR** keep it locally for direct mounting
-
-:::tip ISO Hosting
+:::tip[ISO Hosting]
 If you plan to mount via URL in the remote console, ensure your ISO file URL ends with `.iso` and is publicly accessible without authentication.
 :::
 
-## Preparation
+**Mounting the ISO**
 
-For the installation and configuration of TrueNAS SCALE, it is initially important to mount the corresponding ISO file. The following section will guide you through accessing your server's management interface and mounting the ISO.
-
-## Mounting the ISO
-
-### Access the Control Panel
-
-1. Log into your [ZAP-Hosting Dashboard](https://zap-hosting.com/en/customer/)
-2. Navigate to your Dedicated Server in the service list
-3. Open the server management page
-4. Click on **Activate iLO** to access the server management interface
+Log into your [ZAP-Hosting Dashboard](https://zap-hosting.com/en/customer/) and navigate to your Dedicated Server in the service list. Once there, open the server management page and click on **Activate iLO** to access the server management interface.
 
 ![Activate iLO](https://i.ibb.co/9mL2hxZg/Screenshot-2026-02-19-194713.png)
 
-### Open the Integrated Remote Console
-
-1. Once in the iLO interface, locate **Integrated Remote Console**
-2. Choose your preferred console type (HTML5, .NET, or Java Web Start) and click to launch it
-3. The console will open in a new window, giving you direct access to your server's display
+In the iLO interface, find the **Integrated Remote Console** option. Choose your preferred console type and launch it. A new window will open with direct access to your server's display.
 
 ![Open Integrated Remote Console](https://i.ibb.co/0pThWjFF/Screenshot-2026-02-19-195448.png)
 
-### Mount the ISO via Remote Console
-
-**Mounting the ISO in the Remote Console**
-
-1. In the Integrated Remote Console, click on the **CD icon** at the top toolbar
-2. Select **CD/DVD**
-3. Choose **Scripted Media URL** and enter the direct URL to your TrueNAS SCALE ISO file
-   - Alternatively, select **Local .iso File** to browse and select the ISO from your computer
-4. The ISO will be mounted to the virtual CD/DVD drive
+In the remote console, click the **CD icon** at the top and select **CD/DVD**. Choose **Scripted Media URL** if you uploaded the ISO online and enter its direct URL. Otherwise, select **Local .iso File** to browse your computer. Either way, the ISO will mount to the virtual CD/DVD drive.
 
 ![Mount ISO via CD/DVD](https://i.ibb.co/hFT51ttW/Screenshot-2026-02-19-195547.png)
 
-:::tip Alternative Methods
+:::tip[Alternative Methods]
 For other ISO mounting methods including via the Virtual Media interface, refer to the [Own ISO guide](dedicated-iso.md).
 :::
 
-### Reboot the Server
+With the ISO mounted, use the **Power** menu in the console to reboot. Select **Reset** and the server will restart, booting from the TrueNAS SCALE ISO.
 
-1. After mounting the ISO, reboot your server using the **Power** menu in the console
-2. Select **Reset** to restart the server
-3. The server will now boot from the TrueNAS SCALE ISO
+## Installation
 
-## Installing TrueNAS SCALE
-
-### Boot into the Installer
-
-1. Watch the boot process in the Integrated Remote Console
-2. The TrueNAS SCALE setup screen will appear
-3. The installer will load automatically into the TrueNAS installation menu
+Watch the console as the system boots. The TrueNAS SCALE setup screen appears and the installer loads automatically. Loading the installation environment takes a few minutes.
 
 ![TrueNAS Setup Screen](https://i.ibb.co/m5DZqt28/Screenshot-2026-02-19-200458.png)
 
-The system will load the installation environment. This may take a few minutes.
-
-### Choose Destination Media (Installation Disk)
-
-1. The installer will display **Choose destination media**
-2. A list of available disks will be shown with their sizes
-3. Use the **arrow keys** to navigate and select the disk you want to use for the OS installation
-   - This should typically be your smallest disk if you have multiple disks
-   - Remember, this disk will be entirely dedicated to TrueNAS SCALE and not available for data storage
-4. Press **Space** to select the disk
-5. Press **Enter** to continue
+The installer displays **Choose destination media** along with your available disks. Navigate with the **arrow keys** and select which disk to use for the OS. Pick the smallest disk for the OS installation (this entire disk becomes dedicated to TrueNAS SCALE). Press **Space** to select it, then **Enter**.
 
 ![Choose Destination Media](https://i.ibb.co/Tqr04pQQ/Screenshot-2026-02-19-200520.png)
 
-### Confirm Installation
-
-1. A warning will appear stating that the installation will **erase** all data on the selected drive
-2. Use the **arrow keys** to select **Yes**
-3. Press **Enter** to confirm
+A warning appears indicating the installation will **erase** everything on the selected drive. Navigate to **Yes** with the arrow keys and press **Enter**.
 
 ![Confirm Erase Drive](https://i.ibb.co/5hMDY8VV/Screenshot-2026-02-19-200533.png)
 
-### Web UI Authentication Method
-
-The installer will ask you to choose a Web UI authentication method:
-
-**Option 1: Administrative user (truenas_admin)**
-- You will set the admin password during installation (next screen)
-- Password is configured immediately
-
-**Option 2: Configure using Web UI**
-- Password will be set when you first access the web interface
-- More flexible for initial setup
-
-For this guide, we'll choose **Option 2: Configure using Web UI**. Use the arrow keys to select and press **Enter**.
+Next, the installer asks about authentication setup. **Option 1** sets the password now, while **Option 2** lets you configure it later via the web interface. We'll use **Option 2: Configure using Web UI** for more flexibility. Select it and press **Enter**.
 
 ![Web UI Authentication Method](https://i.ibb.co/nqBkZzWX/Screenshot-2026-02-19-200633.png)
 
-### Boot Mode Configuration
-
-The installer will ask: **"Allow EFI boot?"**
-
-- Select **Yes** for modern systems (recommended for most dedicated servers)
-- Press **Enter** to continue
+The installer asks **"Allow EFI boot?"**. Select **Yes** (recommended) and press **Enter**.
 
 ![Boot Mode Configuration](https://i.ibb.co/F49Yh86h/Screenshot-2026-02-19-200648.png)
 
-### Installation Progress
-
-The installation process will now begin. This typically takes 15-20 minutes depending on hardware.
+Installation begins and typically takes 15-20 minutes. Watch the progress on screen as files copy and the system configures itself.
 
 ![Installation in Progress](https://i.ibb.co/ch5Wtjxz/Screenshot-2026-02-19-201320.png)
 
-You can monitor the progress on screen as files are copied and the system is configured.
-
-### Complete Installation
-
-1. Once installation is complete, you'll see **"The TrueNAS installation is successful"** message
-2. The system will prompt you to reboot
-3. Press **Enter** to acknowledge
+When finished, you'll see **"The TrueNAS installation is successful"**. Press **Enter**.
 
 ![Installation Successful](https://i.ibb.co/bM1Z1JKm/Screenshot-2026-02-19-201925.png)
 
-:::danger Important: Unmount ISO Before Reboot
-Before the system reboots, you **must unmount/eject the ISO** from the virtual media to prevent booting back into the installer.
-
-**To unmount the ISO:**
-- Click the **DVD icon** at the top of the console
-- Select **CD/DVD**
-- Click **Eject Media**
+:::danger[Important: Unmount ISO Before Reboot]
+Before rebooting, **unmount the ISO** or you'll boot back into the installer. Click the **DVD icon**, select **CD/DVD**, and click **Eject Media**.
 :::
 
-4. Now reboot the server using the Power menu or let it reboot automatically
+Reboot using the Power menu or let it restart automatically.
 
-## Configuring Boot Volume
+## Configuration
 
-### Setting the Boot Disk in ROM Configuration
+After the installation completes, you must configure which disk the server boots from. TrueNAS SCALE has been installed, but the server needs to be told to boot from the correct disk through the RAID controller ROM configuration.
 
-:::info Critical Step
+:::info[Critical Step]
 After installation, you must configure the boot volume in the RAID controller ROM to ensure the server boots from the correct disk.
 :::
 
-### Access ROM Configuration
+**Setting the Boot Disk in ROM**
 
-1. Watch the server boot process in the console
-2. When you see the message **"Press F8 for ROM Configuration for Arrays Utility"**, immediately press **F8**
+Watch the console during boot. When **"Press F8 for ROM Configuration for Arrays Utility"** appears, hit **F8** immediately.
 
 ![Press F8 for ROM Configuration](https://i.ibb.co/JRnsXDm1/Screenshot-2026-02-19-211321.png)
 
-### Select Boot Volume
-
-1. You will enter the ROM Configuration utility
-2. Use the arrow keys to navigate to option **4) Select Boot Volume**
-3. Press **Enter**
+The ROM Configuration utility opens. Navigate to **4) Select Boot Volume** with the arrow keys and press **Enter**.
 
 ![ROM Configuration Page](https://i.ibb.co/jPcrBX2X/Screenshot-2026-02-19-211338.png)
 
-### Choose the Boot Disk
-
-1. A list of available disks will be displayed
-2. Use the arrow keys to select the disk where you installed TrueNAS SCALE
-3. Press **Enter** to select it
+Your available disks are listed here. Navigate to the disk where TrueNAS SCALE is installed and press **Enter**.
 
 ![Choose Boot Disk](https://i.ibb.co/PGXsspCv/Screenshot-2026-02-19-211357.png)
 
-### Save Boot Volume Configuration
-
-1. After selecting your disk, press **F8** to save the boot volume configuration
-2. Confirm if prompted
-3. Exit the ROM Configuration utility
+With the disk selected, press **F8** to save. Confirm if asked, then exit the utility. Your server boots into TrueNAS SCALE.
 
 ![Save Boot Volume](https://i.ibb.co/rKb0b09P/Screenshot-2026-02-19-211409.png)
 
-4. The server will now boot into TrueNAS SCALE
+**Accessing the Web Interface**
 
-## Initial Configuration
-
-### Verify TrueNAS Console
-
-After the first successful boot from the correct disk, the TrueNAS SCALE console will display:
-- Web UI access URL
-- Console menu options
+After the first boot, the TrueNAS SCALE console displays the Web UI access URL: `http://[your_server_ip]`. Write down this IP address as you'll need it to access the web interface.
 
 ![TrueNAS Console](https://i.ibb.co/B5JfMtw7/Screenshot-2026-02-19-213256.png)
 
-The console will show the Web UI URL like:
-```
-http://YOUR-SERVER-IP
-```
-
-Make note of this IP address as you'll need it to access the web interface.
-
-### Configure Network (If Needed)
-
-:::tip Network Auto-Configuration
-In most cases, TrueNAS SCALE will automatically configure the network using DHCP or detect your server's network settings. You can skip this step unless you have multiple IP addresses or need to configure a specific static IP.
+:::tip[Network Auto-Configuration]
+TrueNAS SCALE typically auto-configures network settings via DHCP. Skip this unless you have multiple IP addresses or require a specific static IP.
 :::
 
-If you need to configure additional IPs or a specific static IP address:
+For manual network configuration, select **1) Configure Network Interfaces** from the console menu. Pick your primary interface (like `enp0s3` or `eth0`), choose **Configure IPv4**, then **Static**. Enter your IP address, subnet mask, and gateway (find these in your ZAP-Hosting Dashboard).
 
-1. From the console menu, select **1) Configure Network Interfaces**
-2. Choose your primary network interface (e.g., `enp0s3` or `eth0`)
-3. Select **Configure IPv4**
-4. Choose **Static** IPv4 configuration
-5. Enter your IP address, subnet mask, and gateway
-6. Save the configuration
+Open a web browser and navigate to `http://[your_server_ip]` using the IP address from the console.
 
-For dedicated servers, you can find your assigned IP address and network details in the ZAP-Hosting Dashboard.
-
-### Access the Web Interface
-
-1. Open a web browser on your computer
-2. Navigate to `http://YOUR-SERVER-IP` (use the IP address shown on the console)
-3. You may see a security warning about a self-signed certificate - this is normal, click to proceed anyway
-
-### Set Admin Password
-
-Since we chose **"Configure using Web UI"** during installation, you'll be prompted to set the password on first access.
-
-1. The login page will appear with the username field pre-filled as **truenas_admin**
-2. You will need to set a password for the **truenas_admin** user
-3. Enter a strong, secure password
-4. Confirm the password
-5. Click **Submit** or **Login**
+Since we chose **Configure using Web UI** earlier, this is where you set the password. The login page shows `truenas_admin` as the username. Enter a strong password, confirm it, and click **Submit**.
 
 ![Set Admin Password](https://i.ibb.co/qL2GdcTs/Screenshot-2026-02-19-214014.png)
 
-:::danger Security Important
+:::danger[Security Important]
 Choose a strong, unique password for your TrueNAS admin account. This account has full system access.
 :::
 
-### TrueNAS Dashboard
-
-After successful login, you'll be directed to the TrueNAS SCALE dashboard.
+After login, the dashboard appears showing system information, network status, storage pools, services, and alerts. You have successfully configured TrueNAS SCALE and are now ready to set up storage.
 
 ![TrueNAS Dashboard](https://i.ibb.co/1fM59n9N/Screenshot-2026-02-19-214155.png)
 
-The dashboard displays:
-- System information and resource usage
-- Network status
-- Storage pools (currently none)
-- Services status
-- Recent alerts
+**Creating Storage Pools**
 
-You're now ready to configure storage and shares!
-
-## Configuring Storage
-
-### Creating a Storage Pool
-
-With TrueNAS SCALE installed, you can now create storage pools using your additional disks.
-
-:::info Boot Disk Not Available
-The disk used for TrueNAS installation will **not** appear in the available disks list for pool creation, as it's dedicated to the operating system.
-:::
-
-### Navigate to Storage
-
-1. In the left sidebar menu, click on **Storage**
-2. Click the blue **Create Pool** button
+Click **Storage** in the left sidebar, then click the **Create Pool** button.
 
 ![Storage - Create Pool](https://i.ibb.co/HLfzKVch/Screenshot-2026-02-19-214307.png)
 
-### Name Your Pool
-
-1. Enter a name for your pool (e.g., `Disk`, `tank`, or any descriptive name)
-2. Click **Next** to continue
+First, enter a name for your pool, something like `Disk`, `tank`, or whatever makes sense to you. Click **Next** when ready.
 
 ![Add Pool Name](https://i.ibb.co/tPJ92GxY/Screenshot-2026-02-19-214433.png)
 
-### Configure Data Layout
+In the **Data** section, open the **Layout** dropdown and select the configuration that fits your requirements:
 
-1. In the **Data** section, click on **Layout** dropdown
-2. Choose a layout based on your needs and available disks:
-   - **Stripe**: Maximum capacity, no redundancy (requires 1+ disks)
-   - **Mirror**: Data redundancy, 50% usable capacity (requires 2+ disks)
-   - **RAIDZ1**: One disk of redundancy (requires 3+ disks)
-   - **RAIDZ2**: Two disks of redundancy (requires 4+ disks)
-   - **RAIDZ3**: Three disks of redundancy (requires 5+ disks)
-   - **dRAID1/2/3**: Distributed RAID variants for large arrays
+- **Stripe**: Maximum usable capacity but no redundancy
+- **Mirror**: Stores identical data across two disks, providing redundancy while reducing usable capacity
+- **RAIDZ1**: Provides one disk of redundancy
+- **RAIDZ2**: Provides two disks of redundancy
+- **RAIDZ3**: Provides three disks of redundancy
 
 ![Choose Layout](https://i.ibb.co/MyNbGQgL/Screenshot-2026-02-19-214446.png)
 
-### Select Disks
+Under **Disk Selection**, all your storage disks are listed. Click the ones you want in the pool and they move to the configuration area showing estimated capacity.
 
-1. In the same interface, under **Available Disks**, you'll see your available storage disks
-2. Click on the disk(s) you want to add to the pool
-3. The selected disk(s) will move to the pool configuration area
-4. Review the estimated capacity shown
+:::info[Boot Disk Not Available]
+The installation disk won't show up here as it's exclusively for the operating system.
+:::
 
 ![Select Disks](https://i.ibb.co/B2df685q/Screenshot-2026-02-19-214553.png)
 
-### Review and Create
-
-1. Continue with any optional settings (can be left as default)
-2. Click **Next** to reach the Review page
-3. Review your pool configuration:
-   - Pool name
-   - Layout type
-   - Selected disks
-   - Estimated capacity
-4. Click **Create Pool** to finalize
+Leave optional settings as default and click **Next**. The review page shows your configuration including name, layout, disks, and capacity. Verify the configuration and click **Create Pool** to confirm.
 
 ![Review and Create Pool](https://i.ibb.co/Y7QKv2Qm/Screenshot-2026-02-19-214634.png)
 
-5. Confirm the creation when prompted
+**Organizing with Datasets**
 
-The pool will be created and you'll be returned to the Storage overview.
+With your storage pool created, you can now organize your data using datasets. Datasets are logical subdivisions of your storage pool that help separate different types of data.
 
-### Creating Datasets
-
-Datasets are logical subdivisions of your storage pool that help organize your data.
-
-### Access Datasets
-
-1. In the left sidebar, click on **Datasets**
-2. You'll see your newly created pool listed (e.g., "Disk")
+Click **Datasets** in the sidebar. Your new pool appears there (e.g., "Disk").
 
 ![Datasets View](https://i.ibb.co/PvW1nwsN/Screenshot-2026-02-19-215343.png)
 
-### Add a Dataset
-
-1. Click the **Add Dataset** button
-2. Your pool will be shown as the parent
-3. Enter a name for the dataset (e.g., `documents`, `media`, `backups`)
+Click **Add Dataset**. The pool is automatically set as parent. Give it a name like `documents`, `media`, or `backups`. Leave advanced options as default unless you have specific requirements. Click **Save**.
 
 ![Add Dataset](https://i.ibb.co/qMsTJ6d5/Screenshot-2026-02-19-215447.png)
 
-4. Configure dataset options (optional):
-   - **Compression**: LZ4 compression is enabled by default (recommended)
-   - **Quota**: Set storage limits if needed
-5. Click **Save**
+**Creating User Accounts**
 
-Your dataset will be created as a child of your pool (e.g., `Disk/documents`).
-
-### Creating Users for Share Access
-
-Before setting up shares, you need to create users who will access them.
-
-:::danger Important for SMB Access
-Do **not** use the `root` or `truenas_admin` accounts for file sharing access. These system accounts will not work with SMB shares. You must create dedicated user accounts.
+:::danger[Important for SMB Access]
+Do **not** use `root` or `truenas_admin` for file sharing. These system accounts won't work with SMB. Create dedicated users instead.
 :::
 
-1. In the left sidebar, click on **Credentials**
-2. Click the **Add** button to create a new user
-3. Configure the user:
-   - **Username**: Choose a username (e.g., `john`, `fileuser`)
-   - **Full Name**: Enter the user's full name
-   - **Password**: Set a strong password
-   - **Confirm Password**: Re-enter the password
-   - **Primary Group**: Leave as default or create a group
-   - **Home Directory**: Can leave as default
-   - **Shell**: Leave as default
-   - **Samba Authentication**: **Enable this option** to allow SMB/Windows access
-4. Set permissions according to your needs
-5. Click **Submit** to create the user
+Click **Credentials** in the sidebar, then **Add**. Pick a username (like `john` or `fileuser`), add the full name, and set a password. Leave primary group, home directory, and shell as default. Scroll to the end and enable the **SMB** option for Windows access. Click **Submit** when done.
 
 ![Create User](https://i.ibb.co/FL5Kdnz7/Screenshot-2026-02-19-221642.png)
 
-:::tip Permissions
-Customize permissions based on your security requirements. For basic file sharing, default options with SMB Authentication enabled are sufficient.
+:::tip[Permissions]
+Customize permissions based on your security requirements. For basic file sharing, default options with SMB enabled are sufficient.
 :::
 
-### Setting Up Shares
+**Setting Up SMB Shares**
 
-Now you can make your storage accessible over the network.
-
-**SMB Share (Windows/macOS/Linux)**
-
-### Navigate to Shares
-
-1. In the left sidebar, click on **Shares**
-2. You'll see three options:
-   - **Windows (SMB) Shares** - for Windows, macOS, and Linux clients
-   - **Unix (NFS) Shares** - for Linux/Unix clients
-   - **Block (iSCSI)** - for block-level storage
-3. We'll use Windows SMB shares. Click **Add** in the Windows (SMB) Shares section
+Click **Shares** in the sidebar. Three options appear: Windows (SMB) for Windows/macOS/Linux, Unix (NFS) for Linux/Unix, and Block (iSCSI) for block storage. We'll set up SMB. Click **Add** in the Windows (SMB) Shares section.
 
 ![Shares View](https://i.ibb.co/zWJYL56K/Screenshot-2026-02-19-220022.png)
 
-### Configure SMB Share
-
-1. In the **Add SMB** dialog:
-   - **Path**: Click to browse and select your dataset path (e.g., `/mnt/Disk/documents`)
-   - **Name**: Enter a share name (e.g., `documents`) - this is what users will see on the network
-   - **Purpose**: Choose based on your use case (default is usually fine)
-   - **Description**: Optional description of the share
-2. Configure advanced options if needed (optional):
-   - **ACL**: Access Control List settings
-   - **Guest Access**: Allow anonymous access (not recommended for security)
-3. Click **Save**
+The **Add SMB** dialog opens. For **Path**, browse to your dataset (like `/mnt/Disk/documents`). For **Name**, enter something like `documents` (users see this name on the network). **Purpose** can stay default for most cases. Add a description if you want. Advanced options exist (ACL settings and other options), but leave guest access disabled for security. Click **Save**.
 
 ![Add SMB Share](https://i.ibb.co/7MQbCwx/Screenshot-2026-02-19-220046.png)
 
-### Start the SMB Service
-
-1. After creating the share, a popup will appear indicating the **SMB service is not running**
-2. Click **Start Service** or **Enable Service** to start it
-3. Optionally, check **Start Automatically** to ensure it starts on boot
+After creating the share, a popup says the **SMB service is not running**. Click **Start Service**. Also check **Start Automatically** so it runs on boot. The SMB share is now available on the network.
 
 ![Start SMB Service](https://i.ibb.co/MxCMn01p/Screenshot-2026-02-19-220120.png)
 
-Your SMB share is now active and accessible from the network!
+For NFS shares with Linux/Unix systems, navigate to **Shares** → **Unix (NFS) Shares** and click **Add**. Select your dataset, configure networks and permissions, enable NFS when asked, and save.
 
-**NFS Share (Linux/Unix)** - Optional
+## Accessing Your Share from Windows
 
-If you need NFS shares for Linux/Unix clients:
-
-1. Navigate to **Shares** → **Unix (NFS) Shares**
-2. Click **Add**
-3. Select your dataset path
-4. Configure networks and permissions
-5. Enable the NFS service when prompted
-6. Click **Save**
-
-## Accessing Your SMB Share from Windows
-
-Now that your SMB share is configured, you can access it from Windows clients.
-
-### Open Network Location Wizard
-
-1. On your Windows PC, open **File Explorer**
-2. Right-click on **This PC** (or **My Computer**)
-3. Select **Add a network location**
+On your Windows PC, open **File Explorer**. Right-click **This PC** (or **My Computer**) and select **Add a network location**.
 
 ![Add Network Location](https://i.ibb.co/wZ5hvBF4/Screenshot-2026-03-02-202700.png)
 
-### Begin the Wizard
-
-1. The **Add Network Location Wizard** will open
-2. Click **Next** to proceed
+The **Add Network Location Wizard** will open. Click **Next** to proceed.
 
 ![Network Location Wizard](https://i.ibb.co/0RyJSvG6/Screenshot-2026-02-19-220227.png)
 
-### Enter the Share Path
-
-1. When prompted for the location, enter the path in the format:
-   ```
-   \\SERVER-IP\SHARE-NAME
-   ```
-   For example:
-   ```
-   \\192.168.1.100\documents
-   ```
-2. Replace `SERVER-IP` with your TrueNAS server's IP address
-3. Replace `SHARE-NAME` with the name you gave to the SMB share
-4. Click **Next**
+When asked for the location, use this format: `\\[your_server_ip]\[share_name]`. For example: `\\192.168.1.100\documents`. Replace `[your_server_ip]` with your TrueNAS server's IP address and `[share_name]` with the name you gave to the SMB share. Click **Next**.
 
 ![Enter Share Path](https://i.ibb.co/dygyN9r/Screenshot-2026-02-19-220358.png)
 
-### Enter Credentials
-
-1. You'll be prompted for username and password
-2. Enter the **username** and **password** of the user you created earlier
-   - Do **not** use `root` or `truenas_admin` - these will not work
-   - Use the dedicated user account you created with Samba Authentication enabled
-3. Optionally, check **Remember my credentials** for future access
-4. Click **OK**
+Enter the **username** and **password** for the user you created in TrueNAS. Don't use `root` or `truenas_admin` as they won't work for SMB. Check **Remember my credentials** to save them for next time. Click **OK**.
 
 ![Enter Credentials](https://i.ibb.co/5X3y47rg/Screenshot-2026-02-19-220410.png)
 
-### Connected!
-
-You should now be connected to your TrueNAS share! You can:
-- Browse files and folders
-- Create new files and directories
-- Copy files to and from the share
-- Access it like any other network drive
+The TrueNAS share is now accessible. Browse files, create folders, and copy data just like any other network drive. You have successfully connected your Windows PC to the TrueNAS share.
 
 ![Connected to TrueNAS Share](https://i.ibb.co/fdHK6Mbb/Screenshot-2026-02-19-221436.png)
 
-:::tip Quick Access
-You can also map the share as a network drive using **Map network drive** instead of **Add a network location** for even easier access. The drive will appear with a drive letter (e.g., Z:) in File Explorer.
+:::tip[Quick Access]
+For easier access, use **Map network drive** instead of **Add a network location**. The share appears as a drive letter (like `Z:`) in File Explorer.
 :::
 
-:::info Accessing from MacOS or Linux
-**macOS**: In Finder, press `Cmd+K` and enter `smb://SERVER-IP/SHARE-NAME`
+:::info[Accessing from MacOS or Linux]
+**macOS**: In Finder, press `Cmd+K` and enter `smb://[your_server_ip]/[share_name]`
 
-**Linux**: Use your file manager's "Connect to Server" option with `smb://SERVER-IP/SHARE-NAME`, or mount via command line using `mount.cifs`
+**Linux**: Use your file manager's "Connect to Server" option with `smb://[your_server_ip]/[share_name]`, or mount via command line using `mount.cifs`
 :::
-
 
 ## Conclusion
 
-Congratulations, you have successfully installed and configured TrueNAS SCALE on your dedicated server! You now have a powerful, enterprise-grade storage solution capable of managing your data with advanced features like snapshots, replication, and flexible sharing options. 
-
-For further questions or assistance, please don't hesitate to contact our support team, which is available daily to assist you! For TrueNAS-specific questions, the [TrueNAS Community Forums](https://forums.truenas.com/) are also an excellent resource.
+Congratulations, you have successfully installed and configured TrueNAS SCALE on your dedicated server. For further questions or assistance, please don't hesitate to contact our support team, which is available daily to assist you! 🙂
