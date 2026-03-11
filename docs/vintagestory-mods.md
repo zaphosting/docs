@@ -33,7 +33,7 @@ Most Vintage Story mods are distributed as `.zip` files which should not be extr
 
 ## Installation
 
-Vintage Story server mods must be uploaded directly to the server filesystem. This is done by connecting to the server via [FTP](/gameserver-ftpaccess.md). First, connect to your server using an FTP client and log in using your server’s FTP credentials.
+Vintage Story server mods must be uploaded directly to the server filesystem. This is done by connecting to the server via [FTP](gameserver-ftpaccess.md). First, connect to your server using an FTP client and log in using your server’s FTP credentials.
 
 Once connected, navigate to the following directory:
 
