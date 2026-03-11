@@ -5,6 +5,7 @@ description: "Scopri come collegare il tuo voice bot ai server TeamSpeak e Disco
 sidebar_label: Collegamento al voice server
 services:
   - voiceserver
+  - voicebot
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';
@@ -38,30 +39,30 @@ Per collegare il voice bot al tuo Discord, vai su **Server** e poi seleziona **D
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/g73fPeqbesHiXSm/preview)
 
-Devi inserire il **Discord Bot Token** e il **Discord Bot Client ID**. Dopo di che, il voice bot si collegherà al tuo server Discord.
+Devi inserire il **Discord Bot Token** e il **Discord Bot Client ID**. A quel punto il voice bot si collegherà al tuo server Discord.
 
 
 ## Come ottenere il Discord Bot Token e il Client ID
 
-Dato che il tuo server Discord non ha un indirizzo IP o una porta diretta, ci sono alcuni passaggi da fare prima di poter usare il bot sul server Discord.
+Dato che il tuo server Discord non ha un IP o una porta diretta, ci sono alcuni passaggi da fare prima di poter usare il bot sul server Discord.
 
 
 ### Creare un'applicazione Discord
 
-La prima cosa da fare è creare un'applicazione Discord. Il tuo bot sarà assegnato a questa e agirà a suo nome. Per creare l'applicazione, vai su [Discord Developer Portal](https://discord.com/developers/applications/).
+La prima cosa da fare è creare un'applicazione Discord. Il bot sarà assegnato a questa e agirà sotto il suo nome. Per creare l'app, vai su [Discord Developer Portal](https://discord.com/developers/applications/).
 
-Ora crea una nuova applicazione cliccando su **New Application** e assegna un nome, come vedi qui sotto:
+Ora clicca su **New Application** per crearne una nuova e assegna un nome, come vedi qui sotto:
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/YPbPtRaPEHZ7pB4/preview)
 
-Poi crea l'app cliccando su **Create**. Per i passaggi successivi, annota l’ID dell’applicazione:
+Poi clicca su **Create** per creare l'applicazione. Prendi nota dell'ID dell'applicazione per i passaggi successivi:
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/tzBNzKBGzX8j4EK/preview)
 
 
 ### Configurare il Bot e ottenere il Token
 
-Quando crei l’app, viene creato automaticamente anche un bot. Puoi ottenere il token cliccando su **Reset Token**. Ti verrà mostrato un token utente che devi annotare o salvare da qualche parte:
+Quando crei l'app, viene creato automaticamente anche un bot. Puoi ottenere il token cliccando su **Reset Token**. Ti verrà mostrato un token utente che devi annotare o salvare da qualche parte:
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/5ypmywwPJxRAFax/preview)
 
@@ -76,7 +77,7 @@ Nella stessa pagina scorri un po’ in basso e abilita **Presence Intent**, **Se
 
 ### Invitare il Bot nel tuo Discord
 
-Per invitare il bot, inserisci il client ID annotato nel link qui sotto al posto giusto, apri il link nel browser e aggiungi il bot al tuo server Discord. Dovrebbe essere così:
+Per invitare il bot, inserisci il client ID che hai annotato nel link qui sotto al posto giusto, apri il link nel browser e aggiungi il bot al tuo server Discord. Dovrebbe essere così:
 
 ```
 https://discordapp.com/oauth2/authorize?&client_id=1364549558197026816&scope=bot&permissions=0
@@ -87,7 +88,7 @@ https://discordapp.com/oauth2/authorize?&client_id=1364549558197026816&scope=bot
 
 ### Configura il pannello del Bot
 
-Ora inserisci il token e il client ID nei campi del pannello di controllo ZAP-Hosting e clicca su **Save** in basso:
+Ora inserisci il token e il client ID che hai annotato nei campi del pannello di controllo ZAP-Hosting e clicca su **Salva** in basso:
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/9Y79xx2FzGm73zW/preview)
 
@@ -96,6 +97,6 @@ Poi puoi avviare il bot. Dovrebbe collegarsi al tuo server Discord in circa 10 s
 
 ## Conclusione
 
-Il Voicebot è un prodotto super utile e divertente per tantissimi utenti. Puoi usarlo sia su un server Teamspeak che su Discord. Per qualsiasi domanda o supporto, il nostro team è sempre pronto ad aiutarti ogni giorno! 🙂 
+Il Voicebot è un prodotto super utile e divertente per tantissimi utenti. Puoi usarlo sia su un server Teamspeak che su Discord. Per qualsiasi domanda o supporto, non esitare a contattare il nostro team di assistenza, sempre pronto ad aiutarti ogni giorno! 🙂
 
 <InlineVoucher />

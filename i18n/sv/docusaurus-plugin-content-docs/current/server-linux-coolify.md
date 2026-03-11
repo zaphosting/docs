@@ -1,7 +1,7 @@
 ---
 id: server-linux-coolify
-title: Installera Coolify på en Linux-server – Självhostade molnappar
-description: "Upptäck hur du installerar och sätter upp Coolify för att självhosta dina egna appar, databaser och tjänster enkelt → Lär dig mer nu"
+title: "Installera Coolify på en Linux-server – Självhostade molnappar"
+description: "Upptäck hur du installerar och sätter upp Coolify för att självhosta dina egna appar, databaser och tjänster enkelt → Läs mer nu"
 sidebar_label: Installera Coolify
 services:
   - vserver-service-coolify
@@ -17,34 +17,34 @@ import InlineServiceLink from '@site/src/components/InlineServiceLink';
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/nrXeZsgjXn43sfw/preview)
 
-Coolifys intuitiva dashboard gör självhosting busenkelt. Du får full kontroll över din infrastruktur, automatiserade GitHub-deploys och håller molnkostnaderna låga.
+Coolifys intuitiva dashboard gör självhosting busenkelt. Du får full kontroll över din infrastruktur, automatiska GitHub-deploys och håller molnkostnaderna låga.
 
-I den här guiden går vi igenom varje steg för hur du sätter upp det, förkonfigurerar ditt adminkonto och konfigurerar allt du behöver veta.
+I den här guiden går vi igenom varje steg för hur du sätter upp det, förkonfigurerar ditt adminkonto och ställer in allt du behöver veta.
 
 <InlineVoucher />
 
 ## Användningsområden för Coolify
 
-Coolify funkar i massor av vardagsscenarion och passar alla som vill automatisera app-deploys, hosta databaser eller köra bakgrundsjobb. Perfekt för både nybörjare och proffs.
+Coolify funkar i massor av vardagliga scenarion och passar alla som vill automatisera app-deploys, hosta databaser eller köra bakgrundsjobb. Perfekt för både nybörjare och proffs.
 
-Coolify har inbyggt stöd för att deploya statiska sajter, Node.js, Python, PHP, Rust och Docker-containrar. Det kommer med trendiga one-click-mallar som WordPress, Ghost, Grafana, Appwrite, Nextcloud och PostgreSQL-databaser. Det hanterar automatiskt Let's Encrypt SSL-certifikat och reverse proxy-routing via Traefik.
+Coolify har inbyggt stöd för att deploya Static Sites, Node.js, Python, PHP, Rust och Docker-containrar. Det kommer med trendiga one-click-mallar som WordPress, Ghost, Grafana, Appwrite, Nextcloud och PostgreSQL-databaser. Det hanterar automatiskt Let's Encrypt SSL-certifikat och reverse proxy-routing via Traefik.
 
 ## Förberedelser
 
-Coolify är lättviktigt i grunden, men resursanvändningen kan öka rejält beroende på hur många appar, Docker-bygg och databaser som körs samtidigt. Vi rekommenderar följande hårdvarukrav för att hosta Coolify på din VPS/Dedikerade server.
+Även om Coolify är lättviktigt i grunden kan resursanvändningen öka rejält beroende på hur många appar, Docker-bygg och databaser som körs samtidigt. Vi rekommenderar följande hårdvarukrav för att hosta Coolify på din VPS/Dedikerade Server.
 
-| Hårdvara  | Minimum     | Rekommenderat             |
+| Hårdvara  | Minsta      | Rekommenderat             |
 | --------- | ----------- | ------------------------- |
 | CPU       | 2 vCPU-kärnor | 4 vCPU-kärnor            |
 | RAM       | 2 GB        | 4 GB+                     |
-| Diskutrymme | 30 GB     | 50 GB+                    |
+| Diskutrymme | 30 GB      | 50 GB+                    |
 
 <InlineServiceLink />
 
-Innan du installerar Coolify behöver du koppla upp dig mot din server och se till att operativsystemet är uppdaterat. Du måste ansluta via SSH med root-rättigheter. Vi har redan en guide om [SSH Initial access](vserver-linux-ssh.md) om du behöver hjälp med det.
+Innan du installerar Coolify behöver du koppla upp dig mot din server och se till att operativsystemet är uppdaterat. Du måste ansluta via SSH med root-behörighet. Vi har redan en guide om [SSH Initial access](vserver-linux-ssh.md) om du behöver hjälp med det.
 
 :::tip[SSH-nyckelautentisering]
-Vi **rekommenderar starkt** att du sätter upp en SSH-nyckel istället för lösenord för autentisering. Kolla in vår [SSH Key Setup](vserver-linux-sshkey.md) tutorial för hur du gör.
+Vi **rekommenderar starkt** att du sätter upp en SSH-nyckel istället för lösenord för autentisering. Du kan lära dig hur i vår [SSH Key Setup](vserver-linux-sshkey.md)-tutorial.
 :::
 
 ## Installation
@@ -55,9 +55,11 @@ När du är inloggad på servern, uppdatera systempaketen och installera `curl` 
 sudo apt update && sudo apt upgrade -y && sudo apt install curl -y
 ```
 
+
+
 ### Förbered dina adminuppgifter
 
-Coolify har strikta säkerhetspolicys för ditt adminkonto. Innan du kör installationskommandot, förbered dina root-användaruppgifter enligt följande krav:
+Coolify har strikta säkerhetspolicys för ditt adminkonto. Innan du kör installationskommandot, förbered dina root-användaruppgifter enligt följande valideringskrav:
 
 * **Användarnamn**
   * Minsta längd: 3 tecken
@@ -74,6 +76,8 @@ Coolify har strikta säkerhetspolicys för ditt adminkonto. Innan du kör instal
   * Måste innehålla minst en specialsymbol
   * Får inte vara ett vanligt eller komprometterat lösenord
 
+
+
 ### Kör installationsscriptet
 
 Coolify erbjuder ett snabbt, automatiserat installationsscript. För att säkra installationen använder vi miljövariabler för att fördefiniera root-adminkontot. Det förhindrar obehörig åtkomst medan setupen pågår.
@@ -84,28 +88,32 @@ Kör följande kommando och byt ut användarnamn, e-post och lösenord mot dina 
 env ROOT_USERNAME=zaphosting ROOT_USER_EMAIL=info@zap-hosting.com ROOT_USER_PASSWORD=zaphosting bash -c 'curl -fsSL https://cdn.coollabs.io/coolify/install.sh | bash'
 ```
 :::note[Open Source]
-Du hittar källkoden till installationsscriptet i [Officiella Coolify-repot](https://github.com/coollabsio/coolify/blob/v4.x/scripts/install.sh)
+Du hittar installationsscriptets källkod i [Officiella Coolify-repot](https://github.com/coollabsio/coolify/blob/v4.x/scripts/install.sh)
 :::
 
 Scriptet installerar automatiskt Docker, sätter upp nödvändiga nätverk och konfigurerar Coolify-containrarna. Det kan ta några minuter beroende på din servers hårdvara.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/Zx5DXzEH2MmrkrX/preview)
 
+
+
 ### Komma åt Coolify
 
 När installationen är klar är nästa steg att öppna dashboarden i webbläsaren. Skriv in din servers IP följt av port 8000: `http://[din_server_ip]:8000`
 
-Eftersom du redan angav dina uppgifter i installationskommandot kommer du direkt till inloggningsskärmen istället för setup-wizard.
+Eftersom du redan angav dina uppgifter via installationskommandot ser du direkt inloggningsskärmen istället för setup-wizarden.
 
-Logga in med den e-post och det lösenord du använde i kommandot för att komma åt dashboarden.
+Logga in med den e-post och det lösenord du använde i kommandot.
+
+
 
 ### Ställa in DNS-poster
 
-Efter inloggning i Coolify-dashboarden bör du direkt koppla en egen domän. Att nå Coolify via IP (`http://[din_server_ip]:8000`) är osäkert.
+Efter inloggning i Coolify-dashboarden bör du direkt koppla en egen domän. Att nå Coolify via IP-adressen (`http://[din_server_ip]:8000`) är osäkert.
 
 Genom att koppla en domän kan Coolify automatiskt skapa gratis SSL-certifikat för dashboarden och alla framtida appar.
 
-Gå till DNS-hanteringen hos din domänleverantör och lägg till två nya `A`-poster som pekar på din server. Om din domän är registrerad hos ZAP-Hosting kan du följa vår [Domain Records](domain-records.md)-guide för att enkelt lägga till dessa:
+Gå till DNS-hanteringen hos din domänleverantör och lägg till två nya `A`-poster som pekar på din server. Om din domän är registrerad hos ZAP-Hosting kan du följa vår guide [Domänposter](domain-records.md) för att enkelt lägga till dessa:
 
 | Namn / Host | Typ | Värde              | TTL           |
 | ----------- | ---- | ------------------ | ------------- |
@@ -113,15 +121,19 @@ Gå till DNS-hanteringen hos din domänleverantör och lägg till två nya `A`-p
 | `*`         | A    | `[din_server_ip]`  | Auto / Lägst  |
 
 :::info[DNS-routing]
-*   `@`-posten låter Coolify använda roten av din domän
-*   `*` (wildcard) posten låter Coolify automatiskt routa nya subdomäner (t.ex. `api.[din_domän]`) utan att du behöver lägga till DNS-poster för varje projekt.
+*   `@`-posten låter Coolify använda rot-domänen
+*   `*` (wildcard)-posten låter Coolify automatiskt routa nya subdomäner (t.ex. `api.[din_domän]`) utan att du behöver lägga till DNS-poster för varje projekt.
 :::
+
+
 
 ### Konfigurera instansdomän
 
-För att säkra din Coolify-instans med SSL-certifikat bör du koppla en domän till den. Gå till **Settings** i vänstermenyn och hitta fältet **Instance Domain**. Skriv in din domän med `https://` prefix (t.ex. `https://coolify.[din_domän]`). Klicka på **Save** för att slutföra.
+För att säkra din Coolify-instans med SSL-certifikat bör du koppla en domän till den. Gå till **Settings** i vänstermenyn och hitta fältet **Instance Domain**. Skriv in din domän med prefixet `https://` (t.ex. `https://coolify.[din_domän]`). Klicka på **Save** för att spara.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/jYW63sF9k5sZez3/preview)
+
+
 
 ## Deploya din första app
 
@@ -131,9 +143,11 @@ Klicka på **+ Add Resource** för att lägga till ett publikt repo eller en Doc
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/nEf9XBDrfypijE7/preview)
 
+
+
 ## Avslutning och fler resurser
 
-Grattis! Du har nu installerat Coolify på din server och kan börja deploya dina projekt direkt. Vi rekommenderar också att du kollar in följande resurser som kan ge extra hjälp och tips under din serverkonfiguration.
+Grattis! Du har nu installerat Coolify på din server och kan börja deploya dina projekt direkt. Vi rekommenderar också att du kollar in följande resurser som kan ge dig extra hjälp och tips under din serverkonfiguration.
 
 - [coolify.io](https://coolify.io/) – Officiell webbplats
 - [coolify.io/docs](https://coolify.io/docs/) – Coolify-dokumentation

@@ -5,6 +5,7 @@ description: "اكتشف كيف تربط بوتك الصوتي بسيرفرات 
 sidebar_label: الربط بسيرفر صوتي
 services:
   - voiceserver
+  - voicebot
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';
@@ -21,11 +22,11 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## ربط البوت بسيرفر TeamSpeak
 
-عشان تربط البوت الصوتي بسيرفر TeamSpeak 3، لازم تفتحه من لوحة التحكم. بعدين، هتروح لـ **السيرفر** على الشمال زي ما موضح تحت:
+عشان تربط البوت الصوتي بسيرفر TeamSpeak 3 بتاعك، لازم تدخل عليه من لوحة التحكم. بعدين، هتروح لـ **السيرفر** على الشمال زي ما موضح تحت:
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/bPPCgtQH4Q8NwxB/preview)
 
-دلوقتي تقدر تختار سيرفر TeamSpeak تحت **السيرفر** لو كنت حاجز السيرفر ده مع حسابك. ولو السيرفر مستضاف خارجيًا، تقدر تختار كمان **Custom Teamspeak Server**.
+دلوقتي تقدر تختار سيرفر TeamSpeak تحت **السيرفر** لو كنت حاجزه مع حسابك. ولو السيرفر مستضاف خارجي، تقدر تختار كمان **سيرفر TeamSpeak مخصص**.
 
 بعد كده تدخل البيانات تحت، وبس تحفظ، والبوت الصوتي هيتصل بسيرفر TeamSpeak 3 بتاعك، هنا مثال:
 
@@ -38,45 +39,45 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/g73fPeqbesHiXSm/preview)
 
-لازم تدخل **Discord Bot Token** و **Discord Bot Client ID**. بعد كده، البوت الصوتي هيتصل بسيرفر Discord بتاعك.
+لازم تدخل **رمز بوت Discord** و **معرّف عميل بوت Discord**. بعد كده، البوت الصوتي هيتصل بسيرفر Discord بتاعك.
 
 
-## الحصول على Discord Bot Token و Client ID
+## الحصول على رمز بوت Discord ومعرّف العميل
 
 بما إن سيرفر Discord مش ليه عنوان IP مباشر أو منفذ، في شوية خطوات لازم تعملها قبل ما تقدر تستخدم البوت على سيرفر Discord.
 
 
 ### إنشاء تطبيق Discord
 
-أول حاجة لازم تعملها هي إنشاء تطبيق على Discord. البوت بتاعك هيتم ربطه بالتطبيق ده وهيشتغل باسمه. عشان تعمل التطبيق ده، ادخل على [بوابة مطوري Discord](https://discord.com/developers/applications/).
+أول حاجة لازم تعملها هي إنشاء تطبيق Discord. البوت بتاعك هيتربط بيه وهيشتغل باسمه. عشان تعمل التطبيق ده، ادخل على [بوابة مطوري Discord](https://discord.com/developers/applications/).
 
-دلوقتي، هتعمل تطبيق جديد بالضغط على **New Application** وتقدر تسميه زي ما تحب زي ما موضح تحت:
+دلوقتي، هتعمل تطبيق جديد بالضغط على **تطبيق جديد** وتقدر تسميه زي ما تحب زي ما موضح تحت:
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/YPbPtRaPEHZ7pB4/preview)
 
-بعد كده، اضغط على **Create** عشان تنشئ التطبيق. في الخطوات الجاية، لازم تكتب رقم تعريف التطبيق (Application ID):
+بعد كده، اضغط على **إنشاء**. في الخطوات الجاية، اكتب معرّف التطبيق (Application ID) عندك:
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/tzBNzKBGzX8j4EK/preview)
 
 
-### إعداد البوت والحصول على التوكن
+### إعداد البوت والحصول على الرمز
 
-لما تنشئ التطبيق، بوت بيتعمل تلقائيًا كمان. تقدر تجيب التوكن بسهولة بالضغط على **Reset Token**. بعد كده، هتاخد توكن المستخدم ولازم تحتفظ بيه أو تكتبه في مكان آمن:
+لما تعمل التطبيق، بوت بيتعمل تلقائيًا كمان. تقدر تجيب الرمز بسهولة بالضغط على **إعادة تعيين الرمز**. بعد كده، هتاخد رمز مستخدم لازم تكتبه أو تحتفظ بيه في مكان آمن:
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/5ypmywwPJxRAFax/preview)
 
 :::caution
-ما تفصحش عن توكن البوت لأي حد عشان يشتغل البوت بدون مشاكل وما يسببش أي ثغرة أمنية. التوكن ده زي مفتاح سري ولازم تخلّيه سر.
+ما تكشفش رمز البوت لأي حد عشان يشتغل بوتك بدون مشاكل وما يسببش أي ثغرة أمنية. الرمز ده زي مفتاح سري وممنوع تشاركه.
 :::
 
-في نفس الصفحة، انزل شوية وفعل **Presence Intent**، **Server Members Intent** و **Message Content Intent**، وبعدين احفظ التغييرات:
+في نفس الصفحة، انزل شوية وفعل **نية التواجد (Presence Intent)**، **نية أعضاء السيرفر (Server Members Intent)** و **نية محتوى الرسائل (Message Content Intent)**، وبعدين احفظ التغييرات:
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/3Lkbs5Yb9grgrJ7/preview)
 
 
-### دعوة البوت لسيرفر Discord بتاعك
+### دعوة البوت لسيرفر Discord
 
-عشان تدعو البوت، لازم تحط Client ID اللي سجلته قبل كده في اللينك ده في المكان المناسب، وبعدين تفتح اللينك في المتصفح وتضيف البوت لسيرفر Discord بتاعك. اللينك هيبقى شكله كده:
+عشان تدعو البوت، لازم تحط معرّف العميل اللي كتبته قبل كده في الرابط ده في المكان المناسب، وبعدين تفتح الرابط في المتصفح وتضيف البوت لسيرفر Discord بتاعك. هيبقى شكله زي المثال ده:
 ```
 https://discordapp.com/oauth2/authorize?&client_id=1364549558197026816&scope=bot&permissions=0
 ```
@@ -84,9 +85,9 @@ https://discordapp.com/oauth2/authorize?&client_id=1364549558197026816&scope=bot
 ![](https://screensaver01.zap-hosting.com/index.php/s/yKX4ocRtrZ7zLWB/preview)
 
 
-### إعداد لوحة تحكم البوت
+### إعداد لوحة البوت
 
-دلوقتي، حط التوكن وClient ID اللي سجلتهم في الحقول المخصصة في لوحة تحكم ZAP-Hosting واضغط **حفظ** في الأسفل:
+دلوقتي، حط الرمز اللي كتبته قبل كده ومعرّف العميل في الحقول المخصصة في لوحة تحكم ZAP-Hosting واضغط **حفظ** تحت:
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/9Y79xx2FzGm73zW/preview)
 
@@ -95,6 +96,6 @@ https://discordapp.com/oauth2/authorize?&client_id=1364549558197026816&scope=bot
 
 ## الخلاصة
 
-البوت الصوتي منتج مفيد وممتع لكثير من الناس. تقدر تستخدمه على سيرفر TeamSpeak أو على Discord. لو عندك أي أسئلة أو محتاج مساعدة، فريق الدعم بتاعنا متاح يوميًا لمساعدتك! 🙂 
+البوت الصوتي منتج مفيد وممتع لكثير من الناس. تقدر تستخدمه على سيرفر TeamSpeak أو على Discord. لو عندك أي أسئلة أو محتاج مساعدة، فريق الدعم بتاعنا موجود يوميًا عشان يساعدك! 🙂 
 
 <InlineVoucher />

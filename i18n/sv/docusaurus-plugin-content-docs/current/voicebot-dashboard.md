@@ -4,7 +4,7 @@ title: "Voicebot: Översikt på Dashboard"
 description: "Upptäck hur du smidigt hanterar och optimerar din Voicebot med en tydlig översikt över alla funktioner och inställningar → Lär dig mer nu"
 sidebar_label: Dashboard
 services:
-  - Voicebot
+  - voicebot
 ---
 
 import YouTube from '@site/src/components/YouTube/YouTube';
@@ -12,9 +12,9 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introduktion
 
-Du är intresserad av en **Voicebot** eller äger redan en, men saknar fortfarande en komplett översikt över administrationen och hur du hittar alla nödvändiga inställningar? Speciellt i början kan det kännas lite klurigt. Men lugn, vi ger dig en detaljerad introduktion till hur du administrerar din tjänst nedan, så att du får bästa möjliga överblick.
+Du är intresserad av en **Voicebot** eller har redan en, men saknar en komplett översikt över administrationen och hur du hittar alla nödvändiga inställningar? Speciellt i början kan det kännas lite klurigt. Men lugn, vi ger dig en detaljerad introduktion till hur du hanterar din tjänst nedan, så att du får bästa möjliga överblick.
 
-Efter att ha gått igenom den här guiden kommer du enkelt kunna hantera din Voicebot effektivt och snabbt hitta alla viktiga inställningar och funktioner. Här får du en strukturerad översikt som hjälper dig steg för steg att bekanta dig med Voicebot-administrationen och utöka din kunskap på ett målmedvetet sätt. På så vis kan du se till att din **Voicebot** är optimalt konfigurerad efter dina behov och att du maxar alla tillgängliga möjligheter.
+Efter att ha gått igenom den här guiden kommer du enkelt kunna sköta din Voicebot effektivt och snabbt hitta alla viktiga inställningar och funktioner. Här får du en strukturerad översikt som hjälper dig steg för steg att bekanta dig med Voicebot-administrationen och bygga på din kunskap på ett smart sätt. På så vis kan du se till att din **Voicebot** är optimalt konfigurerad efter dina behov och att du maxar alla tillgängliga möjligheter.
 
 <InlineVoucher />
 
@@ -22,13 +22,13 @@ Efter att ha gått igenom den här guiden kommer du enkelt kunna hantera din Voi
 
 ## Produktadministration
 
-I avsnittet **Produktadministration** hittar du alla nödvändiga sidor för att hantera din Voicebot. Alternativen för att administrera din Voicebot listas i detalj nedan. 
+Under **Produktadministration** hittar du alla sidor du behöver för att hantera din Voicebot. Alternativen för att styra din Voicebot listas i detalj nedan. 
 
 
 
 ### Dashboard
 
-**Dashboarden** för Voicebot fungerar som den centrala översikten för administration. Den visar all grundläggande och viktig information om Voicebot på ett tydligt sätt, inklusive online-status, inloggningsuppgifter, länk till den externa webbgränssnittet och disk-användning.
+**Dashboard** för Voicebot är din centrala kontrollpanel. Här får du all grundläggande och viktig info om din Voicebot i ett tydligt format, som online-status, inloggningsuppgifter, länk till den externa webbgränssnittet och disk-användning.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/YnXaQDPywcoxFPP/preview)
 
@@ -36,13 +36,13 @@ I avsnittet **Produktadministration** hittar du alla nödvändiga sidor för att
 
 ### Webbgränssnitt
 
-De flesta funktioner för Voicebot nås via ett externt webbgränssnitt. Där kan du välja önskad musik-källa och skicka in förslag för att förbättra boten. Det går även att byta lösenord för åtkomst till webbgränssnittet och att installera om Voicebot.
+De flesta funktioner för Voicebot nås via ett externt webbgränssnitt. Där kan du välja önskad musik-källa och skicka in förslag på förbättringar av boten. Du kan också byta lösenord för webbgränssnittet och installera om Voicebot.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/cmKrJ2YpzmZcm2L/preview)
 
 ### Server
 
-Innan du använder boten måste du ange vilken TeamSpeak-server den ska köras på. Serverns IP-adress och port måste fyllas i, tillsammans med ett valfritt namn för boten. Om servern är lösenordsskyddad behöver du ange lösenordet så att boten kan ansluta.
+Innan du börjar använda boten måste du ange vilken TeamSpeak-server den ska köras på. Du behöver fylla i serverns IP-adress och port, samt välja ett valfritt namn för boten. Om servern är lösenordsskyddad måste du också ange lösenordet så att boten kan ansluta.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/sbbRr9f5HexcMsG/preview)
 
@@ -54,13 +54,13 @@ Avancerade funktioner som att automatiskt flytta användare eller spela upp ett 
 
 
 ## Fler länkar
-I avsnittet **Fler länkar** hittar du ytterligare länkar som är relevanta för din produkt. 
+Under **Fler länkar** hittar du ytterligare länkar som är relevanta för din produkt. 
 
 ### Vanliga frågor
-Avsnittet **Vanliga frågor** ger en översikt över de vanligaste frågorna från våra kunder. Här hittar du hjälpsamma svar och detaljerad info om olika ämnen för att snabbt och smidigt få hjälp.
+I sektionen **Vanliga frågor** hittar du svar på de vanligaste frågorna från våra kunder. Här får du hjälpsamma svar och detaljerad info om olika ämnen för att snabbt och smidigt lösa dina funderingar.
 
 ### ZAP-Hosting Dokumentation
-Vi erbjuder omfattande dokumentation för våra produkter som fungerar som en kunskapsbas för de vanligaste frågorna och funderingarna. Där hittar du olika guider och hjälp inom flera områden som hjälper dig att använda och administrera din produkt.
+Vi erbjuder omfattande dokumentation för våra produkter som fungerar som en kunskapsbas för de vanligaste frågorna och problemen. Där hittar du olika guider och hjälp inom flera områden som hjälper dig att använda och hantera din produkt.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/n48ct6aZBrNq7eT/preview)
 

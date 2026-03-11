@@ -1,6 +1,6 @@
 ---
 id: server-linux-coolify
-title: Configurar Coolify em um Servidor Linux - Aplicações Cloud Self-Hosted
+title: "Configurar Coolify em um Servidor Linux - Aplicações Cloud Self-Hosted"
 description: "Descubra como instalar e configurar o Coolify para hospedar suas próprias aplicações, bancos de dados e serviços com facilidade → Saiba mais agora"
 sidebar_label: Instalar Coolify
 services:
@@ -27,11 +27,11 @@ Neste guia, vamos te mostrar passo a passo como configurar, pré-configurar sua 
 
 O Coolify pode ser usado em vários cenários do dia a dia e é ideal para quem quer automatizar deploys de aplicações, hospedar bancos de dados ou rodar workers em background. É perfeito tanto para iniciantes quanto para experts.
 
-Ele oferece suporte nativo para deploy de Sites Estáticos, Node.js, Python, PHP, Rust e containers Docker. Vem com templates populares de um clique como WordPress, Ghost, Grafana, Appwrite, Nextcloud e bancos de dados PostgreSQL. Também gerencia automaticamente certificados SSL Let's Encrypt e roteamento via proxy reverso com Traefik.
+Ele oferece suporte nativo para deploy de Sites Estáticos, Node.js, Python, PHP, Rust e containers Docker. Vem com templates populares de um clique como WordPress, Ghost, Grafana, Appwrite, Nextcloud e bancos PostgreSQL. Também gerencia automaticamente certificados SSL Let's Encrypt e roteamento via proxy reverso com Traefik.
 
 ## Preparação
 
-Embora o Coolify seja leve no núcleo, o uso de recursos pode aumentar bastante dependendo da quantidade de aplicações, builds Docker e bancos de dados rodando ao mesmo tempo. Recomendamos os seguintes requisitos de hardware para hospedar o Coolify no seu VPS/servidor dedicado.
+Embora o Coolify seja leve no básico, o uso de recursos pode aumentar bastante dependendo da quantidade de aplicações, builds Docker e bancos rodando ao mesmo tempo. Recomendamos os seguintes requisitos de hardware para hospedar o Coolify no seu VPS/servidor dedicado.
 
 | Hardware   | Mínimo      | Recomendado               |
 | ---------- | ----------- | ------------------------- |
@@ -44,12 +44,12 @@ Embora o Coolify seja leve no núcleo, o uso de recursos pode aumentar bastante 
 Antes de instalar o Coolify, conecte-se ao seu servidor e garanta que o sistema operacional esteja atualizado. Você deve acessar seu servidor via SSH com privilégios root. Temos um guia sobre [Acesso Inicial SSH](vserver-linux-ssh.md) caso precise de ajuda nessa etapa.
 
 :::tip[Autenticação por Chave SSH]
-Recomendamos **fortemente** configurar uma chave SSH ao invés de usar senha para autenticação. Veja como fazer isso no nosso tutorial de [Configuração de Chave SSH](vserver-linux-sshkey.md).
+Recomendamos **fortemente** configurar uma chave SSH ao invés de senha para autenticação. Veja como fazer isso no nosso tutorial de [Configuração de Chave SSH](vserver-linux-sshkey.md).
 :::
 
 ## Instalação
 
-Após conectar ao seu servidor, atualize os pacotes do sistema e instale o `curl`, que é necessário para baixar o script de instalação do Coolify:
+Depois de conectado ao servidor, atualize os pacotes do sistema e instale o `curl`, que é necessário para baixar o script de instalação do Coolify:
 
 ```bash
 sudo apt update && sudo apt upgrade -y && sudo apt install curl -y
@@ -57,7 +57,7 @@ sudo apt update && sudo apt upgrade -y && sudo apt install curl -y
 
 ### Prepare as Credenciais do Usuário Admin
 
-O Coolify aplica políticas de segurança rigorosas para a conta do administrador. Antes de rodar o comando de instalação, prepare as credenciais do usuário root do Coolify conforme os requisitos abaixo:
+O Coolify aplica políticas de segurança rígidas para a conta de administrador. Antes de rodar o comando de instalação, prepare as credenciais do usuário root do Coolify conforme os requisitos abaixo:
 
 * **Nome de usuário**
   * Mínimo: 3 caracteres
@@ -76,7 +76,7 @@ O Coolify aplica políticas de segurança rigorosas para a conta do administrado
 
 ### Execute o Script de Instalação
 
-O Coolify oferece um script de instalação rápido e automatizado. Para garantir a segurança, usaremos variáveis de ambiente para pré-definir a conta root do administrador. Isso evita acessos não autorizados enquanto a instalação acontece.
+O Coolify oferece um script de instalação rápido e automatizado. Para garantir a segurança, vamos usar variáveis de ambiente para pré-definir a conta root do administrador. Isso evita acessos não autorizados enquanto a instalação acontece.
 
 Execute o comando abaixo, substituindo o nome de usuário, email e senha pelas suas credenciais seguras:
 
@@ -95,17 +95,17 @@ O script vai instalar o Docker automaticamente, configurar as redes necessárias
 
 Após a instalação, acesse o dashboard pelo navegador. Digite o endereço IP do seu servidor seguido da porta 8000: `http://[seu_ip_do_servidor]:8000`
 
-Como você já forneceu as credenciais via comando de instalação, verá direto a tela de login, sem o assistente inicial.
+Como você já passou as credenciais no comando de instalação, verá direto a tela de login, sem o assistente inicial.
 
-Entre com o email e senha que usou no comando para acessar seu dashboard.
+Entre com o email e senha que usou no terminal para acessar seu dashboard.
 
 ### Configurando Registros DNS
 
 Depois de logar no dashboard do Coolify, o primeiro passo é configurar um domínio personalizado. Acessar o Coolify pelo IP (`http://[seu_ip_do_servidor]:8000`) não é seguro.
 
-Conectar um domínio permite que o Coolify gere automaticamente certificados SSL gratuitos para seu dashboard e todas as suas futuras aplicações.
+Conectar um domínio permite que o Coolify gere automaticamente certificados SSL gratuitos para o dashboard e todas as suas aplicações futuras.
 
-Vá até a página de gerenciamento DNS do seu provedor de domínio e adicione dois registros `A` apontando para seu servidor. Se seu domínio for registrado na ZAP-Hosting, siga nosso guia de [Registros de Domínio](domain-records.md) para adicionar essas entradas facilmente:
+No painel de gerenciamento DNS do seu provedor de domínio, adicione dois registros `A` apontando para seu servidor. Se seu domínio for registrado na ZAP-Hosting, siga nosso guia de [Registros de Domínio](domain-records.md) para adicionar essas entradas facilmente:
 
 | Nome / Host | Tipo | Valor              | TTL           |
 | ----------- | ---- | ------------------ | ------------- |
@@ -127,13 +127,13 @@ Para garantir segurança com certificado SSL, atribua um domínio à sua instân
 
 Agora você pode ir na aba **Projetos** e começar a fazer deploy da sua primeira aplicação!
 
-Clique em **+ Adicionar Recurso** para adicionar um repositório público, um arquivo Docker Compose ou escolha um dos vários serviços pré-configurados da biblioteca de templates de um clique. Sua instalação Coolify está pronta para usar!
+Clique em **+ Adicionar Recurso** para adicionar um repositório público, um arquivo Docker Compose ou escolha um dos vários serviços pré-configurados da biblioteca de templates de um clique. Sua instalação Coolify está pronta!
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/nEf9XBDrfypijE7/preview)
 
 ## Conclusão e Mais Recursos
 
-Parabéns! Você instalou o Coolify no seu servidor e já pode começar a rodar seus projetos. Também recomendamos dar uma olhada nos recursos abaixo, que podem te ajudar ainda mais na configuração do seu servidor.
+Parabéns! Você instalou o Coolify no seu servidor e já pode começar a rodar seus projetos. Também recomendamos dar uma olhada nos recursos abaixo para mais ajuda e dicas durante sua configuração.
 
 - [coolify.io](https://coolify.io/) - Site Oficial
 - [coolify.io/docs](https://coolify.io/docs/) - Documentação do Coolify
