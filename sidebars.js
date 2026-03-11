@@ -4242,6 +4242,7 @@ const sidebars = {
           key: "gameserver-configuration-starrupture",
           items: [
             "starrupture-change-autosave-interval",
+            "starrupture-mods"
           ]
         },
         {
@@ -4761,7 +4762,8 @@ const sidebars = {
           key: "gameserver-configuration-vintage-story",
           items: [
             "vintagestory-whitelist",
-            "vintagestory-automated-messages"
+            "vintagestory-automated-messages",
+            "vintagestory-mods"
           ]
         },
         {
