@@ -1,7 +1,7 @@
 ---
 id: server-linux-coolify
-title: Configura Coolify en un Servidor Linux - Aplicaciones Cloud Autoalojadas
-description: "Descubre cómo instalar y configurar Coolify para autoalojar tus propias aplicaciones, bases de datos y servicios fácilmente → Aprende más ahora"
+title: "Configura Coolify en un Servidor Linux - Aplicaciones Cloud Autoalojadas"
+description: "Descubre cómo instalar y configurar Coolify para autoalojar tus propias aplicaciones, bases de datos y servicios con facilidad → Aprende más ahora"
 sidebar_label: Instalar Coolify
 services:
   - vserver-service-coolify
@@ -13,7 +13,7 @@ import InlineServiceLink from '@site/src/components/InlineServiceLink';
 
 ## Introducción
 
-[Coolify](https://coolify.io/) es una alternativa open-source y autoalojada a Heroku y Vercel que te permite gestionar tus servidores, aplicaciones y bases de datos con facilidad.
+[Coolify](https://coolify.io/) es una alternativa open-source y autoalojada a Heroku y Vercel que te permite gestionar tus servidores, aplicaciones y bases de datos fácilmente.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/nrXeZsgjXn43sfw/preview)
 
@@ -25,23 +25,23 @@ En esta guía, te llevaremos paso a paso para configurarlo, preconfigurar tu cue
 
 ## Casos de uso de Coolify
 
-Coolify se puede usar en muchos escenarios cotidianos y es ideal para cualquiera que quiera automatizar despliegues de aplicaciones, alojar bases de datos o ejecutar workers en segundo plano. Coolify es perfecto tanto para principiantes como para expertos.
+Coolify puede usarse en muchos escenarios cotidianos y es ideal para cualquiera que quiera automatizar despliegues de aplicaciones, alojar bases de datos o ejecutar workers en segundo plano. Coolify es perfecto tanto para principiantes como para expertos.
 
-Coolify ofrece soporte integrado para desplegar sitios estáticos, Node.js, Python, PHP, Rust y contenedores Docker. Incluye plantillas populares de un clic como WordPress, Ghost, Grafana, Appwrite, Nextcloud y bases de datos PostgreSQL. Gestiona automáticamente certificados SSL de Let's Encrypt y el enrutamiento reverse proxy vía Traefik.
+Coolify ofrece soporte integrado para desplegar Sitios Estáticos, Node.js, Python, PHP, Rust y contenedores Docker. Incluye plantillas populares con un clic como WordPress, Ghost, Grafana, Appwrite, Nextcloud y bases de datos PostgreSQL. Maneja automáticamente certificados SSL de Let's Encrypt y el enrutamiento reverse proxy vía Traefik.
 
 ## Preparación
 
-Aunque Coolify es ligero en su núcleo, el uso de recursos puede aumentar mucho según la cantidad de aplicaciones desplegadas, builds de Docker y bases de datos corriendo simultáneamente. Recomendamos los siguientes requisitos de hardware para alojar Coolify en tu VPS/servidor dedicado.
+Aunque Coolify es ligero en su núcleo, el uso de recursos puede aumentar drásticamente según la cantidad de aplicaciones desplegadas, builds de Docker y bases de datos corriendo simultáneamente. Recomendamos los siguientes requisitos de hardware para alojar Coolify en tu VPS/servidor dedicado.
 
 | Hardware   | Mínimo      | Recomendado               |
 | ---------- | ----------- | ------------------------- |
 | CPU        | 2 núcleos vCPU | 4 núcleos vCPU          |
 | RAM        | 2 GB        | 4 GB+                     |
-| Espacio en disco | 30 GB   | 50 GB+                    |
+| Espacio disco | 30 GB     | 50 GB+                    |
 
 <InlineServiceLink />
 
-Antes de instalar Coolify, conecta a tu servidor y asegúrate de que el sistema operativo esté actualizado. Debes conectarte usando SSH con privilegios root. Ya tenemos una guía sobre [Acceso inicial SSH](vserver-linux-ssh.md) si necesitas ayuda con este paso.
+Antes de instalar Coolify, necesitas conectarte a tu servidor y asegurarte de que el sistema operativo esté actualizado. Debes conectarte usando SSH con privilegios root. Ya tenemos una guía sobre [Acceso inicial SSH](vserver-linux-ssh.md) si necesitas ayuda con este paso.
 
 :::tip[Autenticación con clave SSH]
 **Recomendamos mucho** configurar una clave SSH en lugar de usar contraseña para la autenticación. Puedes aprender cómo hacerlo siguiendo nuestro tutorial de [Configuración de clave SSH](vserver-linux-sshkey.md).
@@ -49,7 +49,7 @@ Antes de instalar Coolify, conecta a tu servidor y asegúrate de que el sistema 
 
 ## Instalación
 
-Una vez conectado a tu servidor, actualiza los paquetes del sistema e instala `curl`, que es necesario para descargar el script de instalación de Coolify:
+Después de conectarte a tu servidor, actualiza los paquetes del sistema e instala `curl`, que es necesario para descargar el script de instalación de Coolify:
 
 ```bash
 sudo apt update && sudo apt upgrade -y && sudo apt install curl -y
@@ -57,7 +57,7 @@ sudo apt update && sudo apt upgrade -y && sudo apt install curl -y
 
 ### Prepara las credenciales de tu usuario administrador
 
-Coolify aplica políticas de seguridad estrictas para la cuenta de administrador. Antes de ejecutar el comando de instalación, prepara las credenciales del usuario root de Coolify según los siguientes requisitos:
+Coolify aplica políticas de seguridad estrictas para tu cuenta de administrador. Antes de ejecutar el comando de instalación, prepara las credenciales del usuario root de Coolify según los siguientes requisitos de validación:
 
 * **Nombre de usuario**
   * Longitud mínima: 3 caracteres
@@ -76,7 +76,7 @@ Coolify aplica políticas de seguridad estrictas para la cuenta de administrador
 
 ### Ejecuta el script de instalación
 
-Coolify ofrece un script de instalación rápido y automatizado. Para asegurar la instalación, usaremos variables de entorno para predefinir la cuenta de administrador root. Esto evita accesos no autorizados mientras se completa la configuración.
+Coolify ofrece un script de instalación rápido y automatizado. Para asegurar la instalación, usaremos variables de entorno para predefinir la cuenta root del administrador. Esto previene accesos no autorizados mientras se completa la configuración.
 
 Ejecuta el siguiente comando, asegurándote de reemplazar el nombre de usuario, email y contraseña por tus propias credenciales seguras:
 
@@ -87,13 +87,13 @@ env ROOT_USERNAME=zaphosting ROOT_USER_EMAIL=info@zap-hosting.com ROOT_USER_PASS
 Puedes encontrar el código fuente del script de instalación en el [Repositorio Oficial de Coolify](https://github.com/coollabsio/coolify/blob/v4.x/scripts/install.sh)
 :::
 
-El script instalará Docker automáticamente, configurará las redes necesarias y preparará los contenedores de Coolify. Este proceso puede tardar unos minutos según el hardware de tu servidor.
+El script instalará automáticamente Docker, configurará las redes necesarias y preparará los contenedores de Coolify. Este proceso puede tardar unos minutos según el hardware de tu servidor.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/Zx5DXzEH2MmrkrX/preview)
 
 ### Accediendo a Coolify
 
-Cuando la instalación termine, el siguiente paso es acceder al panel con un navegador web. Introduce la dirección IP de tu servidor seguida del puerto 8000: `http://[tu_ip_servidor]:8000`
+Cuando la instalación termine, el siguiente paso es acceder al panel con un navegador web. Ingresa la dirección IP de tu servidor seguida del puerto 8000: `http://[tu_ip_servidor]:8000`
 
 Como ya proporcionaste tus credenciales en el comando de instalación, verás directamente la pantalla de login en lugar del asistente inicial.
 
@@ -125,19 +125,19 @@ Para asegurar tu instancia de Coolify con un certificado SSL, debes asignarle un
 
 ## Desplegando tu primera app
 
-Después de esto, podrás visitar la pestaña **Proyectos** y comenzar a desplegar tu primera aplicación.
+Después de esto, podrás visitar la pestaña **Proyectos** y empezar a desplegar tu primera aplicación.
 
-Puedes hacer clic en **+ Añadir recurso** para agregar un repositorio público o un archivo Docker Compose, o seleccionar uno de los muchos servicios preconfigurados de la biblioteca de plantillas de un clic. ¡Tu instalación de Coolify está lista para usar!
+Puedes hacer clic en **+ Añadir recurso** para agregar un repositorio público o un archivo Docker Compose, o seleccionar uno de los muchos servicios preconfigurados de la biblioteca de plantillas con un clic. ¡Tu instalación de Coolify está lista para usar!
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/nEf9XBDrfypijE7/preview)
 
 ## Conclusión y más recursos
 
-¡Genial! Has instalado Coolify con éxito en tu servidor y puedes empezar a desplegar tus proyectos ya mismo. También te recomendamos echar un vistazo a estos recursos, que pueden darte ayuda y guía adicional durante la configuración de tu servidor.
+¡Genial! Has instalado Coolify con éxito en tu servidor y puedes comenzar a desplegar tus proyectos ya mismo. También te recomendamos echar un vistazo a estos recursos, que pueden darte ayuda y guía adicional durante la configuración de tu servidor.
 
 - [coolify.io](https://coolify.io/) - Sitio Oficial
 - [coolify.io/docs](https://coolify.io/docs/) - Documentación de Coolify
 
-¿Tienes preguntas específicas que no se cubren aquí? Para dudas o asistencia, no dudes en contactar a nuestro equipo de soporte, ¡estamos disponibles todos los días para ayudarte! 🙂
+¿Tienes preguntas específicas que no se cubren aquí? Para más dudas o asistencia, no dudes en contactar a nuestro equipo de soporte, ¡disponible todos los días para ayudarte! 🙂
 
 <InlineVoucher />

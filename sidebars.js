@@ -4242,6 +4242,7 @@ const sidebars = {
           key: "gameserver-configuration-starrupture",
           items: [
             "starrupture-change-autosave-interval",
+            "starrupture-mods"
           ]
         },
         {
@@ -4761,7 +4762,8 @@ const sidebars = {
           key: "gameserver-configuration-vintage-story",
           items: [
             "vintagestory-whitelist",
-            "vintagestory-automated-messages"
+            "vintagestory-automated-messages",
+            "vintagestory-mods"
           ]
         },
         {
@@ -5918,7 +5920,7 @@ const sidebars = {
       defaultStyle: true,
     },
     "voicebot-introduction",
-    "voicebot-dashboard",
+
     {
       type: "category",
       label: "Discord Bot",
@@ -5932,6 +5934,7 @@ const sidebars = {
       label: "TS3MusicBot",
       key: "domain-ts3musicbot",
       items: [
+        "voicebot-dashboard",
         "voiceserver-voicebot-connection",
       ]
     },

@@ -1,6 +1,6 @@
 ---
 id: server-linux-coolify
-title: Setup Coolify on a Linux Server - Self-Hosted Cloud Applications"
+title: "Setup Coolify on a Linux Server - Self-Hosted Cloud Applications"
 description: "Discover how to install and set up Coolify to self-host your own applications, databases and services with ease  → Learn more now"
 sidebar_label: Install Coolify
 services:
@@ -129,7 +129,7 @@ Go to the DNS management page of your domain provider and add two new `A` record
 
 ### Configuring Instance Domain
 
-To secure your Coolify instance with an SSL certificate, you should assign a domain to it. Navigate to **Settings** in the left sidebar and locate the **Instance Domain** field. Enter your domain, including the `https://` prefix (e.g., `https://coolify.[your_domain]`). Click on Save to complete this step.**Save**.
+To secure your Coolify instance with an SSL certificate, you should assign a domain to it. Navigate to **Settings** in the left sidebar and locate the **Instance Domain** field. Enter your domain, including the `https://` prefix (e.g., `https://coolify.[your_domain]`). Click on **Save** to complete this step.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/jYW63sF9k5sZez3/preview)
 
