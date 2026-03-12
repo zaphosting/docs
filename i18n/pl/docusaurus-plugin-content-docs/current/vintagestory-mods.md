@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Wprowadzenie
 
-Mody to kluczowy element doświadczenia w Vintage Story, pozwalający właścicielom serwerów rozszerzyć grę o nowe mechaniki, przedmioty, funkcje generowania świata czy usprawnienia jakości rozgrywki. Instalacja modów na Twoim serwerze gwarantuje, że wszyscy gracze połączeni z serwerem będą mogli korzystać z tych samych ulepszeń.
+Mody to kluczowy element doświadczenia Vintage Story, pozwalający właścicielom serwerów na rozszerzenie gry o nowe mechaniki, przedmioty, funkcje generowania świata czy usprawnienia jakości rozgrywki. Instalacja modów na Twoim serwerze gwarantuje, że wszyscy gracze podłączeni do serwera będą korzystać z tych samych ulepszeń rozgrywki.
 
 Vintage Story oferuje ogromną bibliotekę modów społecznościowych, od drobnych poprawek po pełne przeróbki rozgrywki. Wiele z nich znajdziesz w oficjalnej Bazie Modów Vintage Story lub na forach społeczności.
 
@@ -19,17 +19,17 @@ Vintage Story oferuje ogromną bibliotekę modów społecznościowych, od drobny
 
 ## Przygotowanie
 
-Zanim zainstalujesz mody na swoim serwerze Vintage Story, upewnij się, że wykonałeś następujące kroki:
+Przed instalacją modów na swoim serwerze Vintage Story upewnij się, że wykonałeś następujące kroki:
 
 - Pobierz wybrany mod z zaufanego źródła, np. z Bazy Modów Vintage Story  
 - Sprawdź, czy wersja moda odpowiada wersji gry na Twoim serwerze  
 - Zatrzymaj serwer przed przesłaniem nowych plików  
 
-Większość modów do Vintage Story jest dystrybuowana jako pliki `.zip`, których nie należy rozpakowywać przed instalacją.
+Większość modów Vintage Story jest dystrybuowana jako pliki `.zip` i nie należy ich rozpakowywać przed instalacją.
 
 ## Instalacja
 
-Mody na serwer Vintage Story muszą być przesłane bezpośrednio do systemu plików serwera. Robi się to przez połączenie FTP. Najpierw połącz się z serwerem za pomocą klienta FTP i zaloguj się, używając danych FTP swojego serwera.
+Mody serwera Vintage Story muszą być przesłane bezpośrednio do systemu plików serwera. Robi się to przez połączenie FTP. Najpierw połącz się z serwerem za pomocą klienta FTP i zaloguj się używając danych FTP swojego serwera.
 
 Po połączeniu przejdź do następującego katalogu:
 
@@ -57,17 +57,17 @@ VintagestoryData
     ├── anothermod.zip
 ```
 
-Vintage Story automatycznie załaduje wszystkie pliki modów umieszczone w tym folderze podczas startu serwera.
+Vintage Story automatycznie załaduje wszystkie pliki modów umieszczone w tym folderze podczas uruchamiania serwera.
 
 ## Weryfikacja instalacji
 
 Po przesłaniu wszystkich plików modów wróć do panelu zarządzania serwerem i uruchom serwer ponownie. Podczas startu serwer wykryje mody w folderze `Mods` i załaduje je automatycznie. Jeśli mod wymaga konfiguracji, może po pierwszym uruchomieniu wygenerować nowy plik konfiguracyjny w folderze `ModConfigs`.
 
-Po pomyślnym uruchomieniu serwera połącz się z nim i sprawdź, czy mod działa. Mody powinny pojawić się w logach serwera podczas startu. Jeśli mod się nie załadował, sprawdź:
+Po pomyślnym uruchomieniu serwera połącz się z nim i sprawdź, czy mod jest aktywny. Mody powinny pojawić się w logach serwera podczas startu. Jeśli mod się nie załadował, sprawdź:
 
 - Czy wersja moda odpowiada wersji serwera  
 - Czy wszystkie wymagane zależności są zainstalowane  
-- Czy plik `.zip` znajduje się w odpowiednim folderze `Mods`
+- Czy plik `.zip` znajduje się w odpowiednim folderze `Mods`  
 
 ## Podsumowanie
 

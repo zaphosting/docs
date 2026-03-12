@@ -23,7 +23,7 @@ Om mods te installeren op je StarRupture-server, download je eerst het gewenste 
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/rM4WR4gW2KLyzxz/preview)
 
-Zorg ervoor dat je server gestopt is voordat je de mod uploadt om conflicten met bestanden tijdens de installatie te voorkomen. Verbind daarna met je server via [FTP](gameserver-ftpaccess.md) met een FTP-client. Navigeer, zodra je verbonden bent, naar de volgende map op je server:
+Zorg ervoor dat je server gestopt is voordat je de mod uploadt, om conflicten met bestanden tijdens de installatie te voorkomen. Verbind daarna met je server via [FTP](gameserver-ftpaccess.md) met een FTP-client. Navigeer, zodra je verbonden bent, naar de volgende map op je server:
 
 ```
 /home/container/StarRupture/Content/Paks
@@ -36,13 +36,13 @@ Tijdens het opstarten detecteert en laadt de server automatisch de geïnstalleer
 
 Sommige StarRupture-mods moeten ook lokaal op de client geïnstalleerd worden. De meeste lokaal geïnstalleerde mods blijven actief wanneer je verbinding maakt met servers. Download eerst de gewenste mod van een betrouwbare bron zoals NexusMods.
 
-Open vervolgens je **Steam Bibliotheek**, klik met de rechtermuisknop op **StarRupture**, ga naar **Beheren** en kies **Lokale bestanden doorzoeken**. Zoek in de game-installatiemap het volgende pad:
+Open daarna je **Steam Bibliotheek**, klik met de rechtermuisknop op **StarRupture**, ga naar **Beheren** en kies **Lokale bestanden doorzoeken**. Zoek in de game-installatiemap het volgende pad:
 
 ```
 StarRupture/StarRupture/Content/Paks
 ```
 
-Verplaats het gedownloade `.zip` mod-bestand naar deze map. Pak het archief daarna direct uit in de `Paks`-map. De mod wordt automatisch geladen zodra je de game de volgende keer opstart.
+Verplaats het gedownloade `.zip` mod-bestand naar deze map. Pak het archief vervolgens direct uit in de `Paks`-map. De mod wordt automatisch geladen zodra je de game de volgende keer opstart.
 
 ## Conclusie
 

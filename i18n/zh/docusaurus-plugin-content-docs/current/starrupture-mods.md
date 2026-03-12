@@ -11,9 +11,9 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## 介绍
 
-Mods 让你可以通过添加社区制作的新机制、内容、生活质量改进或游戏调整，来扩展 StarRupture 的玩法。许多 StarRupture Mods 都通过社区平台如 NexusMods 发布，可以安装在服务器端和本地客户端。
+Mods 让你可以通过添加社区制作的新机制、内容、生活质量改进或游戏调整，来扩展 StarRupture 的玩法。许多 StarRupture Mods 都通过社区平台如 NexusMods 发布，可以同时安装在服务器和本地客户端。
 
-在服务器上安装 Mods 确保服务器环境加载了修改后的内容，而在本地安装则让你的游戏客户端在连接带有 Mods 的服务器时使用相同的文件。
+在服务器上安装 Mods 确保服务器环境加载了修改后的内容，而本地安装则让你的游戏客户端在连接带有 Mods 的服务器时使用相同的文件。
 
 <InlineVoucher />
 
@@ -23,12 +23,12 @@ Mods 让你可以通过添加社区制作的新机制、内容、生活质量改
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/rM4WR4gW2KLyzxz/preview)
 
-上传 Mod 之前，请确保你的服务器已停止运行，以避免安装过程中出现文件冲突。接着，使用 FTP 客户端通过 [FTP](gameserver-ftpaccess.md) 连接到你的服务器。连接成功后，进入服务器上的以下目录：
+上传 Mod 之前，确保你的服务器已停止运行，避免安装时出现文件冲突。接着，使用 FTP 客户端通过 [FTP](gameserver-ftpaccess.md) 连接到你的服务器。连接成功后，进入服务器上的以下目录：
 
 ```
 /home/container/StarRupture/Content/Paks
 ```
-将下载好的 `.zip` Mod 文件上传到此文件夹。上传完成后，直接在 `Paks` 目录内解压该压缩包。解压完成后，返回服务器管理面板，重新启动服务器。
+将下载好的 `.zip` Mod 文件上传到这个文件夹。上传完成后，直接在 `Paks` 目录内解压该压缩包。解压完成后，返回服务器管理面板，重新启动服务器。
 
 启动时，服务器会自动检测并加载已安装的 Mods。
 
@@ -42,7 +42,7 @@ Mods 让你可以通过添加社区制作的新机制、内容、生活质量改
 StarRupture/StarRupture/Content/Paks
 ```
 
-将下载的 `.zip` Mod 文件复制到此文件夹。复制完成后，直接在 `Paks` 目录内解压该压缩包。解压后，下一次启动游戏时，Mod 会自动加载。
+将下载的 `.zip` Mod 文件复制到该文件夹。复制完成后，直接在 `Paks` 目录内解压该压缩包。解压后，下一次启动游戏时，Mod 会自动加载。
 
 ## 总结
 

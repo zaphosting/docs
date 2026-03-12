@@ -42,7 +42,7 @@ Luego, abre tu **Biblioteca de Steam**, haz clic derecho en **StarRupture**, pas
 StarRupture/StarRupture/Content/Paks
 ```
 
-Copia el archivo `.zip` del mod descargado en esta carpeta. Después de copiar el archivo, extrae el contenido del archivo directamente en el directorio `Paks`. Una vez extraído, el mod se cargará automáticamente la próxima vez que inicies el juego.
+Copia el archivo `.zip` del mod descargado en esta carpeta. Después de copiar el archivo, extrae el archivo directamente en el directorio `Paks`. Una vez extraído, el mod se cargará automáticamente la próxima vez que inicies el juego.
 
 ## Conclusión
 

@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
 
-Mods sind ein zentraler Bestandteil des Vintage Story-Erlebnisses und ermöglichen es Serverbesitzern, das Spiel mit neuen Mechaniken, Items, Weltgenerierungs-Features oder Quality-of-Life-Verbesserungen zu erweitern. Die Installation von Mods auf deinem Gameserver stellt sicher, dass alle Spieler, die mit dem Server verbunden sind, von denselben Gameplay-Erweiterungen profitieren.
+Mods sind ein zentraler Bestandteil des Vintage Story-Erlebnisses und ermöglichen es Serverbesitzern, das Spiel mit neuen Mechaniken, Items, Weltgenerierungs-Features oder Quality-of-Life-Verbesserungen zu erweitern. Die Installation von Mods auf deinem Gameserver stellt sicher, dass alle Spieler, die sich mit dem Server verbinden, von denselben Gameplay-Erweiterungen profitieren.
 
 Vintage Story bietet eine große Community-Bibliothek mit Mods, die von kleinen Tweaks bis hin zu kompletten Gameplay-Überarbeitungen reichen. Viele dieser Mods findest du in der offiziellen Vintage Story Mod-Datenbank oder in Community-Foren.
 
@@ -25,7 +25,7 @@ Bevor du Mods auf deinem Vintage Story Gameserver installierst, stelle sicher, d
 - Stelle sicher, dass die Mod-Version mit der Spielversion deines Servers übereinstimmt  
 - Stoppe deinen Gameserver, bevor du neue Dateien hochlädst  
 
-Die meisten Vintage Story Mods werden als `.zip`-Dateien verteilt und sollten vor der Installation nicht entpackt werden.
+Die meisten Vintage Story Mods werden als `.zip`-Dateien verteilt, die vor der Installation nicht entpackt werden sollten.
 
 ## Installation
 
@@ -46,7 +46,7 @@ VintagestoryData
 ```
 
 - **Mods** – enthält alle installierten Server-Mods  
-- **ModConfigs** – speichert Konfigurationsdateien, die von installierten Mods erstellt werden  
+- **ModConfigs** – speichert Konfigurationsdateien, die von Mods erstellt werden  
 
 Nachdem du diese Ordner erstellt hast, lade deine heruntergeladenen Mod-Dateien in den **Mods**-Ordner hoch. Beispielhafte Struktur:
 
@@ -61,7 +61,7 @@ Vintage Story lädt automatisch alle Mod-Dateien, die in diesem Ordner liegen, b
 
 ## Installation überprüfen
 
-Nachdem alle Mod-Dateien hochgeladen sind, geh zurück in dein Server-Dashboard und starte den Gameserver neu. Während des Starts erkennt der Server die Mods im `Mods`-Ordner und lädt sie automatisch. Falls eine Mod Konfiguration benötigt, kann sie nach dem ersten Start eine neue Konfigurationsdatei im `ModConfigs`-Ordner anlegen.
+Nachdem alle Mod-Dateien hochgeladen wurden, geh zurück in dein Server-Management-Panel und starte den Gameserver neu. Während des Starts erkennt der Server die Mods im `Mods`-Ordner und lädt sie automatisch. Falls eine Mod Konfiguration benötigt, kann sie nach dem ersten Start eine neue Konfigurationsdatei im `ModConfigs`-Ordner anlegen.
 
 Sobald der Server erfolgreich gestartet ist, verbinde dich mit dem Server und überprüfe, ob die Mod aktiv ist. Mods sollten beim Serverstart in den Logs auftauchen. Falls eine Mod nicht geladen wird, prüfe Folgendes:
 

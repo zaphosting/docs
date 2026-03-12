@@ -1,7 +1,7 @@
 ﻿---
 id: vintagestory-mods
 title: "Vintage Story：安装 Mods"
-description: "了解如何在你的 Vintage Story 服务器上安装 Mods，添加全新功能和游戏机制 → 立即了解更多"
+description: "了解如何在你的 Vintage Story 服务器上安装 Mods，添加新功能和游戏机制 → 立即了解更多"
 sidebar_label: 安装 Mods
 services:
 - gameserver-vintagestory
@@ -11,9 +11,9 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## 介绍
 
-Mods 是 Vintage Story 体验的核心部分，允许服务器拥有者通过新增机制、物品、世界生成特性或生活质量改进来扩展游戏。在服务器上安装 Mods，确保所有连接的玩家都能享受到相同的游戏增强内容。
+Mods 是 Vintage Story 体验的核心部分，允许服务器拥有者通过新增机制、物品、世界生成特性或生活质量改进来扩展游戏。在服务器上安装 Mods，确保所有连接到服务器的玩家都能享受到相同的游戏增强内容。
 
-Vintage Story 提供了庞大的社区 Mods 库，涵盖从小调整到完整游戏玩法大改的各种内容。许多 Mods 可以在官方 Vintage Story Mod 数据库或社区论坛中找到。
+Vintage Story 提供了一个庞大的社区 Mods 库，涵盖从小调整到完整游戏玩法大改的各种内容。许多 Mods 可以在官方 Vintage Story Mod 数据库或社区论坛中找到。
 
 <InlineVoucher />
 
@@ -25,13 +25,13 @@ Vintage Story 提供了庞大的社区 Mods 库，涵盖从小调整到完整游
 - 确认 Mod 版本与你服务器的游戏版本匹配  
 - 上传新文件前先停止服务器  
 
-大多数 Vintage Story Mods 以 `.zip` 格式分发，安装前不要解压。
+大多数 Vintage Story Mods 以 `.zip` 文件形式分发，安装前不要解压。
 
 
 
 ## 安装步骤
 
-Vintage Story 服务器 Mods 必须直接上传到服务器文件系统。通过 [FTP](gameserver-ftpaccess.md) 连接服务器来完成。首先，使用 FTP 客户端连接服务器，并使用服务器的 FTP 凭据登录。
+Vintage Story 服务器 Mods 必须直接上传到服务器文件系统。通过 [FTP](gameserver-ftpaccess.md) 连接服务器来完成。首先，使用 FTP 客户端连接服务器，并使用你的服务器 FTP 凭据登录。
 
 连接成功后，进入以下目录：
 
@@ -39,7 +39,7 @@ Vintage Story 服务器 Mods 必须直接上传到服务器文件系统。通过
 /gxxxxxx/VintagestoryData/
 ```
 
-如果目录中还没有以下两个文件夹，需要手动创建：
+如果目录中不存在以下两个文件夹，请创建它们：
 
 ```
 VintagestoryData
@@ -55,11 +55,11 @@ VintagestoryData
 ```
 VintagestoryData
 └── Mods
-    ├── examplemod.zip
-    ├── anothermod.zip
+├── examplemod.zip
+├── anothermod.zip
 ```
 
-Vintage Story 会在服务器启动时自动加载放在该文件夹内的所有 Mod 文件。
+Vintage Story 会在服务器启动时自动加载放在此文件夹中的所有 Mod 文件。
 
 
 

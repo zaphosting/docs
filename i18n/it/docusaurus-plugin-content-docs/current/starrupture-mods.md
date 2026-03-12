@@ -11,9 +11,9 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
 
-Mods lassen dich das Gameplay von StarRupture erweitern, indem sie neue Mechaniken, Inhalte, Quality-of-Life-Verbesserungen oder Gameplay-Anpassungen hinzufügen, die von der Community erstellt wurden. Viele StarRupture-Mods werden über Community-Plattformen wie **NexusMods** verteilt und können sowohl auf dem Server als auch lokal auf dem Client installiert werden.
+Mods lassen dich das Gameplay von StarRupture erweitern, indem sie neue Mechaniken, Content, Quality-of-Life-Verbesserungen oder Gameplay-Anpassungen hinzufügen, die von der Community erstellt wurden. Viele StarRupture-Mods werden über Community-Plattformen wie NexusMods verteilt und können sowohl auf dem Server als auch lokal auf dem Client installiert werden.
 
-Wenn du Mods auf deinem Server installierst, sorgt das dafür, dass die Server-Umgebung die modifizierten Inhalte lädt. Die lokale Installation auf deinem Client ermöglicht es deinem Spiel, dieselben Dateien zu nutzen, wenn du dich mit modifizierten Servern verbindest.
+Wenn du Mods auf deinem Server installierst, sorgt das dafür, dass die Server-Umgebung die modifizierten Inhalte lädt. Die lokale Installation auf dem Client ermöglicht es deinem Spiel, dieselben Dateien zu nutzen, wenn du dich mit modifizierten Servern verbindest.
 
 <InlineVoucher />
 
@@ -28,7 +28,7 @@ Bevor du die Mod hochlädst, stelle sicher, dass dein Server gestoppt ist, um Da
 ```
 /home/container/StarRupture/Content/Paks
 ```
-Lade die heruntergeladene `.zip`-Mod-Datei in diesen Ordner hoch. Nach dem Upload entpacke den Inhalt des Archivs direkt im `Paks`-Verzeichnis. Sobald die Dateien extrahiert sind, geh zurück in dein Server-Panel und starte den Server neu.
+Lade die heruntergeladene `.zip`-Mod-Datei in diesen Ordner hoch. Nach dem Upload entpackst du den Inhalt des Archivs direkt im `Paks`-Verzeichnis. Sobald die Dateien extrahiert sind, geh zurück ins Server-Management-Panel und starte den Server neu.
 
 Beim Start erkennt der Server automatisch die installierten Mods und lädt sie.
 
@@ -42,12 +42,12 @@ Einige StarRupture-Mods müssen auch lokal auf dem Client installiert werden. Di
 StarRupture/StarRupture/Content/Paks
 ```
 
-Kopiere die heruntergeladene `.zip`-Mod-Datei in diesen Ordner. Entpacke anschließend das Archiv direkt im `Paks`-Verzeichnis. Beim nächsten Spielstart wird die Mod automatisch geladen.
+Kopiere die heruntergeladene `.zip`-Mod-Datei in diesen Ordner. Nach dem Kopieren entpackst du das Archiv direkt im `Paks`-Verzeichnis. Beim nächsten Spielstart wird die Mod automatisch geladen.
 
 ## Fazit
 
-Glückwunsch! Du hast erfolgreich Mods für StarRupture auf Server und Client installiert. Mit Mods kannst du das Gameplay mit neuen Features, Mechaniken und Verbesserungen aus der Community richtig aufpeppen.
+Glückwunsch! Du hast erfolgreich Mods für StarRupture auf Server und Client installiert. Mit den Mods kannst du das Gameplay mit neuen Features, Mechaniken und Verbesserungen aus der Community erweitern.
 
-Falls du noch Fragen hast oder Hilfe brauchst, steht dir unser Support-Team täglich zur Seite! 🙂
+Bei Fragen oder Problemen steht dir unser Support-Team täglich zur Seite – zögere nicht, uns zu kontaktieren! 🙂
 
 <InlineVoucher />

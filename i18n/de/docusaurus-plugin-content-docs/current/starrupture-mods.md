@@ -13,7 +13,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Mods ermöglichen es dir, das Gameplay von StarRupture zu erweitern, indem sie neue Mechaniken, Inhalte, Quality-of-Life-Verbesserungen oder Gameplay-Anpassungen hinzufügen, die von der Community erstellt wurden. Viele StarRupture-Mods werden über Community-Plattformen wie NexusMods verteilt und können sowohl auf dem Server als auch lokal auf dem Client installiert werden.
 
-Die Installation von Mods auf deinem Server stellt sicher, dass die Serverumgebung die modifizierten Inhalte lädt, während die lokale Installation deinem Spielclient erlaubt, dieselben Dateien beim Verbinden mit modifizierten Servern zu verwenden.
+Die Installation von Mods auf deinem Server stellt sicher, dass die Serverumgebung die modifizierten Inhalte lädt, während die lokale Installation es deinem Spielclient erlaubt, dieselben Dateien beim Verbinden mit modifizierten Servern zu verwenden.
 
 <InlineVoucher />
 
@@ -23,12 +23,12 @@ Um Mods auf deinem StarRupture Gameserver zu installieren, lade zuerst die gewü
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/rM4WR4gW2KLyzxz/preview)
 
-Bevor du die Mod hochlädst, stelle sicher, dass dein Server gestoppt ist, um Datei-Konflikte während der Installation zu vermeiden. Verbinde dich anschließend über [FTP](gameserver-ftpaccess.md) mit deinem Server, indem du einen FTP-Client benutzt. Navigiere nach dem Verbinden zu folgendem Verzeichnis auf deinem Server:
+Bevor du die Mod hochlädst, stelle sicher, dass dein Server gestoppt ist, um Datei-Konflikte während der Installation zu vermeiden. Verbinde dich anschließend über [FTP](gameserver-ftpaccess.md) mit deinem Server, indem du einen FTP-Client nutzt. Navigiere nach dem Verbinden zu folgendem Verzeichnis auf deinem Server:
 
 ```
 /home/container/StarRupture/Content/Paks
 ```
-Lade die heruntergeladene `.zip`-Mod-Datei in diesen Ordner hoch. Nachdem der Upload abgeschlossen ist, entpacke den Inhalt des Archivs direkt im `Paks`-Verzeichnis. Sobald die Dateien entpackt sind, kehre zurück zu deinem Server-Management-Panel und starte den Server neu.
+Lade die heruntergeladene `.zip`-Mod-Datei in diesen Ordner hoch. Nachdem der Upload abgeschlossen ist, entpacke den Inhalt des Archivs direkt im `Paks`-Verzeichnis. Sobald die Dateien extrahiert sind, kehre zurück zu deinem Server-Management-Panel und starte den Server neu.
 
 Beim Start erkennt der Server automatisch die installierten Mods und lädt sie.
 

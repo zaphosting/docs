@@ -1,7 +1,7 @@
 ﻿---
 id: vintagestory-mods
 title: "Vintage Story: Instalar Mods"
-description: "Aprende cómo instalar mods en tu servidor de Vintage Story para añadir nuevas funciones y mecánicas de juego → Descubre más ahora"
+description: "Aprende cómo instalar mods en tu servidor de Vintage Story para añadir nuevas funciones y mecánicas de juego → Aprende más ahora"
 sidebar_label: Instalar Mods
 services:
 - gameserver-vintagestory
@@ -17,19 +17,15 @@ Vintage Story ofrece una gran biblioteca comunitaria de mods que van desde peque
 
 <InlineVoucher />
 
-
-
 ## Preparación
 
 Antes de instalar mods en tu servidor de Vintage Story, asegúrate de haber completado los siguientes pasos:
 
-- Descarga el mod deseado desde una fuente confiable como la base de datos de mods de Vintage Story  
-- Verifica que la versión del mod coincida con la versión del juego de tu servidor  
-- Detén tu servidor antes de subir nuevos archivos  
+- Descarga el mod deseado desde una fuente confiable como la base de datos de mods de Vintage Story
+- Verifica que la versión del mod coincida con la versión del juego de tu servidor
+- Detén tu servidor antes de subir nuevos archivos
 
 La mayoría de los mods de Vintage Story se distribuyen en archivos `.zip` que no deben extraerse antes de la instalación.
-
-
 
 ## Instalación
 
@@ -50,9 +46,9 @@ VintagestoryData
 ```
 
 - **Mods** – contiene todos los mods instalados en el servidor  
-- **ModConfigs** – almacena los archivos de configuración generados por los mods instalados  
+- **ModConfigs** – almacena los archivos de configuración generados por los mods instalados
 
-Después de crear estas carpetas, sube los archivos `.zip` de los mods descargados a la carpeta **Mods**. Ejemplo de estructura:
+Después de crear estas carpetas, sube los archivos de los mods descargados a la carpeta **Mods**. Ejemplo de estructura:
 
 ```
 VintagestoryData
@@ -63,19 +59,15 @@ VintagestoryData
 
 Vintage Story carga automáticamente cualquier archivo mod colocado en esta carpeta al iniciar el servidor.
 
-
-
 ## Verificación de la instalación
 
-Una vez que todos los archivos de mods estén subidos, vuelve a tu panel de gestión del servidor y arranca el servidor nuevamente. Durante el inicio, el servidor detectará los mods ubicados en la carpeta `Mods` y los cargará automáticamente. Si el mod requiere configuración, puede generar un nuevo archivo de configuración dentro de la carpeta `ModConfigs` tras el primer arranque.
+Una vez que todos los archivos de los mods hayan sido subidos, vuelve a tu panel de gestión del servidor y arráncalo nuevamente. Durante el inicio, el servidor detectará los mods ubicados en la carpeta `Mods` y los cargará automáticamente. Si el mod requiere configuración, puede generar un nuevo archivo de configuración dentro de la carpeta `ModConfigs` tras el primer lanzamiento.
 
-Después de que el servidor haya arrancado correctamente, conéctate y verifica que el mod esté activo. Los mods deberían aparecer en los logs del servidor durante el inicio. Si un mod no carga, verifica lo siguiente:
+Después de que el servidor haya arrancado correctamente, conéctate y verifica que el mod esté activo. Los mods deberían aparecer en los logs del servidor durante el inicio. Si un mod no se carga, verifica lo siguiente:
 
-- Que la versión del mod coincida con la versión del servidor  
-- Que todas las dependencias necesarias estén instaladas  
+- Que la versión del mod coincida con la versión del servidor
+- Que todas las dependencias necesarias estén instaladas
 - Que el archivo `.zip` esté ubicado dentro de la carpeta correcta `Mods`
-
-
 
 ## Conclusión
 
