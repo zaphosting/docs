@@ -7,7 +7,7 @@ sidebar_label: Resumen
 
 import Cards, { Card } from '@site/src/components/Cards/Cards';
 
-¿Quieres instalar un servicio específico en tu VPS o servidor dedicado? Aquí encontrarás una colección completa de guías paso a paso para ayudarte a empezar rápido y sin complicaciones. Ya sea que uses Linux o Windows, tienes a tu disposición una amplia variedad de guías profesionales.
+¿Quieres instalar un servicio específico en tu VPS o servidor dedicado? Aquí encontrarás una colección completa de guías paso a paso para ayudarte a comenzar rápida y eficientemente. Ya sea que uses Linux o Windows, tienes a tu disposición una amplia variedad de guías preparadas profesionalmente.
 
 ## Linux
 
@@ -76,5 +76,7 @@ Para servidores Windows, encontrarás instrucciones detalladas para MySQL, Docke
     <Card title="Instalar Python" description="" link="https://zap-hosting.com/guides/docs/dedicated-windows-python" image="https://screensaver01.zap-hosting.com/index.php/s/XmJGtYkc7d9rBai/preview" type="product-categories"/>
     <Card title="Instalar Speedtest CLI" description="" link="https://zap-hosting.com/guides/docs/vserver-windows-speedtest-cli" image="https://screensaver01.zap-hosting.com/index.php/s/XmJGtYkc7d9rBai/preview" type="product-categories"/>
     <Card title="Instalar Supabase" description="" link="https://zap-hosting.com/guides/docs/vserver-windows-supabase" image="https://screensaver01.zap-hosting.com/index.php/s/XmJGtYkc7d9rBai/preview" type="product-categories"/>
+    <Card title="Instalar TrueNAS Scale" description="" link="https://zap-hosting.com/guides/docs/server-truenas-scale" image="https://screensaver01.zap-hosting.com/index.php/s/XmJGtYkc7d9rBai/preview" type="product-categories"/>
     <Card title="Instalar servidor Teamspeak 6" description="" link="https://zap-hosting.com/guides/docs/vserver-windows-ts6" image="https://screensaver01.zap-hosting.com/index.php/s/XmJGtYkc7d9rBai/preview" type="product-categories"/>
+    
 </Cards>

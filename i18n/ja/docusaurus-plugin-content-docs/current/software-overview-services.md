@@ -1,7 +1,7 @@
 ---
 id: software-overview-services
 title: "ソフトウェア概要"
-description: "LinuxやWindowsのサーバーで人気のソフトウェアやサービスのインストールガイドをチェック → 今すぐ詳しく見る"
+description: "LinuxやWindowsサーバーで人気のソフトウェアやサービスのインストールガイドをチェック → 今すぐ詳しく見る"
 sidebar_label: 概要
 ---
 
@@ -59,7 +59,7 @@ Linuxでは、Docker、OpenVPN、Nextcloud、WordPress、Plesk、GitLab、Node.j
 
 ## Windows
 
-Windowsサーバー向けには、MySQL、Docker、Plex、Node.js、Python、Plesk、Bitwarden、Supabase、Teamspeak 6 サーバーなど、必須ツールの詳しいインストール手順を用意しています。
+Windowsサーバー向けには、MySQL、Docker、Plex、Node.js、Python、Plesk、Bitwarden、Supabase、Teamspeak 6 サーバーなど、必須ツールの詳細なインストール手順を用意しています。
 
 <Cards columns={2} layout="horizontal">
     <Card title="Bitwardenのインストール" description="" link="https://zap-hosting.com/guides/docs/vserver-windows-bitwarden" image="https://screensaver01.zap-hosting.com/index.php/s/XmJGtYkc7d9rBai/preview" type="product-categories"/>
@@ -76,5 +76,7 @@ Windowsサーバー向けには、MySQL、Docker、Plex、Node.js、Python、Ple
     <Card title="Pythonのインストール" description="" link="https://zap-hosting.com/guides/docs/dedicated-windows-python" image="https://screensaver01.zap-hosting.com/index.php/s/XmJGtYkc7d9rBai/preview" type="product-categories"/>
     <Card title="Speedtest CLIのインストール" description="" link="https://zap-hosting.com/guides/docs/vserver-windows-speedtest-cli" image="https://screensaver01.zap-hosting.com/index.php/s/XmJGtYkc7d9rBai/preview" type="product-categories"/>
     <Card title="Supabaseのインストール" description="" link="https://zap-hosting.com/guides/docs/vserver-windows-supabase" image="https://screensaver01.zap-hosting.com/index.php/s/XmJGtYkc7d9rBai/preview" type="product-categories"/>
+    <Card title="TrueNAS Scaleのインストール" description="" link="https://zap-hosting.com/guides/docs/server-truenas-scale" image="https://screensaver01.zap-hosting.com/index.php/s/XmJGtYkc7d9rBai/preview" type="product-categories"/>
     <Card title="Teamspeak 6 サーバーのインストール" description="" link="https://zap-hosting.com/guides/docs/vserver-windows-ts6" image="https://screensaver01.zap-hosting.com/index.php/s/XmJGtYkc7d9rBai/preview" type="product-categories"/>
+    
 </Cards>
