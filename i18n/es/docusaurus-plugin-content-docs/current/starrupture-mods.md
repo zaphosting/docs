@@ -26,9 +26,9 @@ Para instalar mods en tu servidor de StarRupture, primero descarga el archivo de
 Antes de subir el mod, asegúrate de que tu servidor esté detenido para evitar conflictos de archivos durante la instalación. Luego, conéctate a tu servidor vía [FTP](gameserver-ftpaccess.md) usando un cliente FTP. Una vez conectado, navega hasta el siguiente directorio en tu servidor:
 
 ```
-/home/container/StarRupture/Content/Paks
+/gxxxxxxx/StarRupture/Content/Paks
 ```
-Sube el archivo `.zip` del mod descargado a esta carpeta. Cuando la subida haya terminado, extrae el contenido del archivo directamente dentro del directorio `Paks`. Una vez extraídos los archivos, vuelve a tu panel de gestión del servidor y arráncalo nuevamente.
+Sube el archivo `.zip` del mod descargado a esta carpeta. Cuando la subida haya terminado, extrae el contenido del archivo directamente dentro del directorio `Paks`. Una vez extraídos los archivos, vuelve a tu panel de gestión del servidor y arranca el servidor nuevamente.
 
 Durante el inicio, el servidor detectará y cargará automáticamente los mods instalados.
 
@@ -48,6 +48,6 @@ Copia el archivo `.zip` del mod descargado en esta carpeta. Después de copiar e
 
 ¡Felicidades! Has instalado con éxito mods para StarRupture tanto en el servidor como en el cliente. Con los mods instalados, puedes ampliar la experiencia de juego con nuevas funciones, mecánicas y mejoras creadas por la comunidad.
 
-Si tienes más preguntas o necesitas ayuda, no dudes en contactar a nuestro equipo de soporte, ¡estamos disponibles todos los días para ayudarte! 🙂
+Si tienes más preguntas o necesitas ayuda, no dudes en contactar a nuestro equipo de soporte, ¡disponible todos los días para ayudarte! 🙂
 
 <InlineVoucher />

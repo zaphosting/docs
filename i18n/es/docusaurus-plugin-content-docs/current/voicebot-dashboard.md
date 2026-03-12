@@ -4,7 +4,7 @@ title: "Voicebot: Vista General del Panel"
 description: "Descubre cómo gestionar y optimizar tu Voicebot de forma eficiente con una vista clara de todas las funciones y opciones → Aprende más ahora"
 sidebar_label: Panel
 services:
-  - Voicebot
+  - voicebot
 ---
 
 import YouTube from '@site/src/components/YouTube/YouTube';
@@ -14,7 +14,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ¿Te interesa un **Voicebot** o ya tienes uno, pero aún te falta una visión completa de la administración y la localización de todas las opciones necesarias? Especialmente al principio, esto puede ser un reto. Pero no te preocupes, aquí te damos una introducción detallada a la administración de tu servicio para que tengas la mejor vista posible.
 
-Después de leer esta guía, podrás gestionar tu Voicebot de forma sencilla y encontrar todas las opciones y funciones necesarias rápida y fácilmente. Aquí obtendrás una visión estructurada que te ayudará paso a paso a familiarizarte con la administración del Voicebot y a ampliar tus conocimientos de forma dirigida. Así, podrás asegurarte de que tu **Voicebot** está configurado de forma óptima para tus necesidades y sacar el máximo provecho de las opciones disponibles.
+Después de seguir esta guía, podrás gestionar tu Voicebot de forma sencilla y eficiente, encontrando todas las opciones y funciones necesarias rápida y fácilmente. Aquí obtendrás una visión estructurada que te ayudará paso a paso a familiarizarte con la administración del Voicebot y a ampliar tu conocimiento de forma dirigida. Así, podrás asegurarte de que tu **Voicebot** esté configurado de forma óptima según tus necesidades y sacar el máximo provecho de las opciones disponibles.
 
 <InlineVoucher />
 
@@ -56,7 +56,7 @@ La sección de **Preguntas Frecuentes** ofrece un resumen de las dudas más comu
 
 ### Documentación de ZAP-Hosting
 
-Ofrecemos una documentación extensa para nuestros productos, que sirve como base de conocimiento para las preguntas y dudas más frecuentes. Allí encontrarás diversas guías y ayudas sobre diferentes temas que te asistirán en el uso y gestión de tu producto.
+Ofrecemos documentación extensa para nuestros productos, que sirve como base de conocimiento para las preguntas y dudas más frecuentes. Allí encontrarás diversas guías y ayudas sobre diferentes temas que te asistirán en el uso y gestión de tu producto.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/n48ct6aZBrNq7eT/preview)
 

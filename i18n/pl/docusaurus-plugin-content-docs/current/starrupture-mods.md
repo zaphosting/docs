@@ -1,8 +1,8 @@
 ---
 id: starrupture-mods
-title: "StarRupture: Instalacja modów"
+title: "StarRupture: Instalacja Modów"
 description: "Dowiedz się, jak zainstalować mody na swoim serwerze i kliencie StarRupture, aby wzbogacić rozgrywkę → Sprawdź teraz"
-sidebar_label: Instalacja modów
+sidebar_label: Instalacja Modów
 services:
 - gameserver-starrupture
 ---
@@ -23,10 +23,10 @@ Aby zainstalować mody na swoim serwerze StarRupture, najpierw pobierz wybrany p
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/rM4WR4gW2KLyzxz/preview)
 
-Przed przesłaniem moda upewnij się, że serwer jest zatrzymany, aby uniknąć konfliktów plików podczas instalacji. Następnie połącz się z serwerem przez [FTP](gameserver-ftpaccess.md) za pomocą klienta FTP. Po połączeniu przejdź do następującego katalogu na serwerze:
+Przed przesłaniem moda upewnij się, że serwer jest zatrzymany, aby uniknąć konfliktów plików podczas instalacji. Następnie połącz się z serwerem przez [FTP](gameserver-ftpaccess.md) używając klienta FTP. Po połączeniu przejdź do następującego katalogu na serwerze:
 
 ```
-/home/container/StarRupture/Content/Paks
+/gxxxxxxx/StarRupture/Content/Paks
 ```
 Prześlij pobrany plik moda `.zip` do tego folderu. Po zakończeniu przesyłania rozpakuj zawartość archiwum bezpośrednio w katalogu `Paks`. Po rozpakowaniu plików wróć do panelu zarządzania serwerem i ponownie uruchom serwer.
 
@@ -34,9 +34,9 @@ Podczas startu serwer automatycznie wykryje i załaduje zainstalowane mody.
 
 ## Instalacja modów na kliencie
 
-Niektóre mody do StarRupture mogą wymagać także instalacji lokalnej na kliencie. Większość lokalnie zainstalowanych modów pozostaje aktywna podczas łączenia się z serwerami. Najpierw pobierz wybrany mod z zaufanego źródła, takiego jak NexusMods.
+Niektóre mody do StarRupture mogą wymagać również instalacji lokalnej na kliencie. Większość lokalnie zainstalowanych modów pozostaje aktywna podczas łączenia się z serwerami. Najpierw pobierz wybrany mod z zaufanego źródła, takiego jak NexusMods.
 
-Następnie otwórz **Bibliotekę Steam**, kliknij prawym przyciskiem na **StarRupture**, najedź na **Zarządzaj** i wybierz **Przeglądaj pliki lokalne**. W katalogu instalacji gry znajdź następującą ścieżkę:
+Następnie otwórz swoją **Bibliotekę Steam**, kliknij prawym przyciskiem myszy na **StarRupture**, najedź na **Zarządzaj**, a następnie wybierz **Przeglądaj pliki lokalne**. W katalogu instalacyjnym gry znajdź następującą ścieżkę:
 
 ```
 StarRupture/StarRupture/Content/Paks

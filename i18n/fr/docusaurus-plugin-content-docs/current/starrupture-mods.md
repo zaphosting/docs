@@ -1,7 +1,7 @@
 ---
 id: starrupture-mods
 title: "StarRupture : Installer des Mods"
-description: "Apprends comment installer des mods sur ton serveur et client StarRupture pour améliorer le gameplay → Découvre tout maintenant"
+description: "Apprends comment installer des mods sur ton serveur et client StarRupture pour améliorer le gameplay → Découvre-le maintenant"
 sidebar_label: Installer des Mods
 services:
 - gameserver-starrupture
@@ -13,7 +13,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Les mods te permettent d’étendre le gameplay de StarRupture en ajoutant de nouvelles mécaniques, du contenu, des améliorations de qualité de vie ou des ajustements de gameplay créés par la communauté. Beaucoup de mods StarRupture sont distribués via des plateformes communautaires comme NexusMods et peuvent être installés à la fois sur le serveur et localement sur le client.
 
-Installer des mods sur ton serveur garantit que l’environnement serveur charge le contenu modifié, tandis que les installer localement permet à ton client de jeu d’utiliser les mêmes fichiers quand tu te connectes à des serveurs moddés.
+Installer des mods sur ton serveur garantit que l’environnement serveur charge le contenu modifié, tandis que les installer localement permet à ton client de jeu d’utiliser les mêmes fichiers lors de la connexion à des serveurs moddés.
 
 <InlineVoucher />
 
@@ -23,10 +23,10 @@ Pour installer des mods sur ton serveur StarRupture, commence par télécharger 
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/rM4WR4gW2KLyzxz/preview)
 
-Avant d’uploader le mod, assure-toi que ton serveur est arrêté pour éviter les conflits de fichiers pendant l’installation. Ensuite, connecte-toi à ton serveur via [FTP](gameserver-ftpaccess.md) avec un client FTP. Une fois connecté, rends-toi dans le répertoire suivant sur ton serveur :
+Avant d’uploader le mod, assure-toi que ton serveur est arrêté pour éviter les conflits de fichiers pendant l’installation. Ensuite, connecte-toi à ton serveur via [FTP](gameserver-ftpaccess.md) avec un client FTP. Une fois connecté, navigue jusqu’au répertoire suivant sur ton serveur :
 
 ```
-/home/container/StarRupture/Content/Paks
+/gxxxxxxx/StarRupture/Content/Paks
 ```
 Upload le fichier mod `.zip` téléchargé dans ce dossier. Une fois l’upload terminé, extrait le contenu de l’archive directement dans le répertoire `Paks`. Une fois les fichiers extraits, retourne dans ton panneau de gestion serveur et redémarre le serveur.
 

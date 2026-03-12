@@ -5920,7 +5920,7 @@ const sidebars = {
       defaultStyle: true,
     },
     "voicebot-introduction",
-    "voicebot-dashboard",
+
     {
       type: "category",
       label: "Discord Bot",
@@ -5934,6 +5934,7 @@ const sidebars = {
       label: "TS3MusicBot",
       key: "domain-ts3musicbot",
       items: [
+        "voicebot-dashboard",
         "voiceserver-voicebot-connection",
       ]
     },

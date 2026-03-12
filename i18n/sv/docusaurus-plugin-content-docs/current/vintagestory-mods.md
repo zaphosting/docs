@@ -13,7 +13,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Mods är en central del av Vintage Story-upplevelsen och låter serverägare utöka spelet med nya mekaniker, föremål, världsgenereringsfunktioner eller förbättringar för användarvänlighet. Att installera mods på din server säkerställer att alla spelare som är anslutna till servern kan dra nytta av samma gameplay-förbättringar.
 
-Vintage Story erbjuder ett stort community-bibliotek med mods som sträcker sig från små tweaks till kompletta gameplay-översyner. Många av dessa mods finns på den officiella Vintage Story Mod Database eller community-forumen.
+Vintage Story erbjuder ett stort communitybibliotek med mods som sträcker sig från små tweaks till kompletta gameplay-översyner. Många av dessa mods finns på den officiella Vintage Story Mod Database eller community-forumen.
 
 <InlineVoucher />
 
@@ -46,22 +46,22 @@ VintagestoryData
 ```
 
 - **Mods** – innehåller alla installerade servermods  
-- **ModConfigs** – lagrar konfigurationsfiler som skapats av installerade mods  
+- **ModConfigs** – lagrar konfigurationsfiler som skapats av installerade mods
 
-Efter att ha skapat dessa mappar, ladda upp dina nedladdade modfiler till **Mods**-mappen. Exempel på struktur:
+Efter att ha skapat dessa mappar, ladda upp dina nedladdade modfiler till **Mods**-mappen. Exempelstruktur:
 
 ```
 VintagestoryData
 └── Mods
-    ├── examplemod.zip
-    ├── anothermod.zip
+├── examplemod.zip
+├── anothermod.zip
 ```
 
 Vintage Story laddar automatiskt alla modfiler som ligger i denna mapp när servern startar.
 
 ## Verifiera installationen
 
-När alla modfiler har laddats upp, gå tillbaka till din serverpanel och starta servern igen. Under uppstart kommer servern att upptäcka mods i `Mods`-mappen och ladda dem automatiskt. Om modden kräver konfiguration kan den skapa en ny konfigurationsfil i `ModConfigs`-mappen efter första starten.
+När alla modfiler har laddats upp, gå tillbaka till din serverpanel och starta om servern. Under uppstarten kommer servern att upptäcka mods i `Mods`-mappen och ladda dem automatiskt. Om modden kräver konfiguration kan den skapa en ny konfigurationsfil i `ModConfigs`-mappen efter första starten.
 
 När servern har startat framgångsrikt, anslut till servern och kontrollera att modden är aktiv. Mods bör synas i serverloggarna under uppstart. Om en mod inte laddas, kontrollera följande:
 
@@ -71,8 +71,6 @@ När servern har startat framgångsrikt, anslut till servern och kontrollera att
 
 ## Avslutning
 
-Grattis! Du har nu installerat mods på din Vintage Story-server. Mods låter dig utöka gameplay, introducera nya mekaniker och anpassa upplevelsen för din community.
-
-Har du fler frågor eller behöver hjälp? Tveka inte att kontakta vår support, som finns tillgänglig varje dag för att hjälpa dig! 🙂
+Grattis! Du har nu installerat mods på din Vintage Story-server. Mods låter dig utöka gameplay, introducera nya mekaniker och anpassa upplevelsen för din community. Har du fler frågor eller behöver hjälp, tveka inte att kontakta vår support som finns tillgänglig varje dag för att hjälpa dig! 🙂
 
 <InlineVoucher />

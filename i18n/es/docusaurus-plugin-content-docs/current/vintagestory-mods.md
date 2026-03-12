@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introducción
 
-Los mods son una parte fundamental de la experiencia Vintage Story y permiten a los propietarios de servidores ampliar el juego con nuevas mecánicas, objetos, características de generación del mundo o mejoras de calidad de vida. Instalar mods en tu servidor garantiza que todos los jugadores conectados puedan disfrutar de las mismas mejoras en la jugabilidad.
+Los mods son una parte fundamental de la experiencia Vintage Story y permiten a los propietarios de servidores ampliar el juego con nuevas mecánicas, objetos, características de generación del mundo o mejoras de calidad de vida. Instalar mods en tu servidor garantiza que todos los jugadores conectados puedan beneficiarse de las mismas mejoras en la jugabilidad.
 
 Vintage Story ofrece una gran biblioteca comunitaria de mods que van desde pequeños ajustes hasta revisiones completas del gameplay. Muchos de estos mods se pueden encontrar en la base de datos oficial de mods de Vintage Story o en los foros de la comunidad.
 
@@ -25,7 +25,7 @@ Antes de instalar mods en tu servidor de Vintage Story, asegúrate de haber comp
 - Verifica que la versión del mod coincida con la versión del juego de tu servidor
 - Detén tu servidor antes de subir nuevos archivos
 
-La mayoría de los mods de Vintage Story se distribuyen en archivos `.zip` que no deben extraerse antes de la instalación.
+La mayoría de los mods de Vintage Story se distribuyen como archivos `.zip` que no deben extraerse antes de la instalación.
 
 ## Instalación
 
@@ -46,7 +46,7 @@ VintagestoryData
 ```
 
 - **Mods** – contiene todos los mods instalados en el servidor  
-- **ModConfigs** – almacena los archivos de configuración generados por los mods instalados
+- **ModConfigs** – almacena los archivos de configuración creados por los mods instalados
 
 Después de crear estas carpetas, sube los archivos de los mods descargados a la carpeta **Mods**. Ejemplo de estructura:
 
@@ -61,7 +61,7 @@ Vintage Story carga automáticamente cualquier archivo mod colocado en esta carp
 
 ## Verificación de la instalación
 
-Una vez que todos los archivos de los mods hayan sido subidos, vuelve a tu panel de gestión del servidor y arráncalo nuevamente. Durante el inicio, el servidor detectará los mods ubicados en la carpeta `Mods` y los cargará automáticamente. Si el mod requiere configuración, puede generar un nuevo archivo de configuración dentro de la carpeta `ModConfigs` tras el primer lanzamiento.
+Una vez que todos los archivos de los mods hayan sido subidos, vuelve a tu panel de gestión del servidor y arranca el servidor nuevamente. Durante el inicio, el servidor detectará los mods ubicados en la carpeta `Mods` y los cargará automáticamente. Si el mod requiere configuración, puede generar un nuevo archivo de configuración dentro de la carpeta `ModConfigs` después del primer arranque.
 
 Después de que el servidor haya arrancado correctamente, conéctate y verifica que el mod esté activo. Los mods deberían aparecer en los logs del servidor durante el inicio. Si un mod no se carga, verifica lo siguiente:
 
@@ -71,8 +71,6 @@ Después de que el servidor haya arrancado correctamente, conéctate y verifica 
 
 ## Conclusión
 
-¡Felicidades! Has instalado con éxito mods en tu servidor de Vintage Story. Los mods te permiten ampliar la jugabilidad, introducir nuevas mecánicas y personalizar la experiencia para tu comunidad.
-
-Si tienes más preguntas o necesitas ayuda, no dudes en contactar a nuestro equipo de soporte, ¡disponible todos los días para ayudarte! 🙂
+¡Felicidades! Has instalado con éxito mods en tu servidor de Vintage Story. Los mods te permiten ampliar la jugabilidad, introducir nuevas mecánicas y personalizar la experiencia para tu comunidad. Para cualquier duda o asistencia, no dudes en contactar a nuestro equipo de soporte, disponible a diario para ayudarte. 🙂
 
 <InlineVoucher />
