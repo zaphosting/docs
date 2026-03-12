@@ -76,5 +76,7 @@ import Cards, { Card } from '@site/src/components/Cards/Cards';
     <Card title="تثبيت Python" description="" link="https://zap-hosting.com/guides/docs/dedicated-windows-python" image="https://screensaver01.zap-hosting.com/index.php/s/XmJGtYkc7d9rBai/preview" type="product-categories"/>
     <Card title="تثبيت Speedtest CLI" description="" link="https://zap-hosting.com/guides/docs/vserver-windows-speedtest-cli" image="https://screensaver01.zap-hosting.com/index.php/s/XmJGtYkc7d9rBai/preview" type="product-categories"/>
     <Card title="تثبيت Supabase" description="" link="https://zap-hosting.com/guides/docs/vserver-windows-supabase" image="https://screensaver01.zap-hosting.com/index.php/s/XmJGtYkc7d9rBai/preview" type="product-categories"/>
+    <Card title="تثبيت TrueNAS Scale" description="" link="https://zap-hosting.com/guides/docs/server-truenas-scale" image="https://screensaver01.zap-hosting.com/index.php/s/XmJGtYkc7d9rBai/preview" type="product-categories"/>
     <Card title="تثبيت سيرفر Teamspeak 6" description="" link="https://zap-hosting.com/guides/docs/vserver-windows-ts6" image="https://screensaver01.zap-hosting.com/index.php/s/XmJGtYkc7d9rBai/preview" type="product-categories"/>
+    
 </Cards>

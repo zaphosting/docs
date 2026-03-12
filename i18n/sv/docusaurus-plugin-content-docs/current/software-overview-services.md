@@ -76,5 +76,7 @@ För Windows-servrar hittar du detaljerade instruktioner för MySQL, Docker, Ple
     <Card title="Installera Python" description="" link="https://zap-hosting.com/guides/docs/dedicated-windows-python" image="https://screensaver01.zap-hosting.com/index.php/s/XmJGtYkc7d9rBai/preview" type="product-categories"/>
     <Card title="Installera Speedtest CLI" description="" link="https://zap-hosting.com/guides/docs/vserver-windows-speedtest-cli" image="https://screensaver01.zap-hosting.com/index.php/s/XmJGtYkc7d9rBai/preview" type="product-categories"/>
     <Card title="Installera Supabase" description="" link="https://zap-hosting.com/guides/docs/vserver-windows-supabase" image="https://screensaver01.zap-hosting.com/index.php/s/XmJGtYkc7d9rBai/preview" type="product-categories"/>
+    <Card title="Installera TrueNAS Scale" description="" link="https://zap-hosting.com/guides/docs/server-truenas-scale" image="https://screensaver01.zap-hosting.com/index.php/s/XmJGtYkc7d9rBai/preview" type="product-categories"/>
     <Card title="Installera Teamspeak 6 Server" description="" link="https://zap-hosting.com/guides/docs/vserver-windows-ts6" image="https://screensaver01.zap-hosting.com/index.php/s/XmJGtYkc7d9rBai/preview" type="product-categories"/>
+    
 </Cards>

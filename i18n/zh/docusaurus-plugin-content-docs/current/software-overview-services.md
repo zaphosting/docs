@@ -1,17 +1,17 @@
 ---
 id: software-overview-services
 title: "软件概览"
-description: "发现Linux和Windows服务器上流行软件和服务的安装指南 → 立即了解更多"
+description: "探索 Linux 和 Windows 服务器上流行软件和服务的安装指南 → 立即了解更多"
 sidebar_label: 概览
 ---
 
 import Cards, { Card } from '@site/src/components/Cards/Cards';
 
-想在你的VPS或独立服务器上安装特定服务？这里有一整套详细的分步安装指南，帮你快速高效地上手。不管你用的是Linux还是Windows，我们都准备了大量专业的教程。
+想在你的 VPS 或独立服务器上安装特定服务？这里有一整套详细的安装教程，帮你快速高效地上手。不管你用的是 Linux 还是 Windows，我们都准备了丰富的专业指南。
 
 ## Linux
 
-在Linux上，你可以安装Docker、OpenVPN、Nextcloud、WordPress、Plesk、GitLab、Node.js、Python、Teamspeak 6服务器、Certbot以及更多热门服务。
+在 Linux 上，你可以安装 Docker、OpenVPN、Nextcloud、WordPress、Plesk、GitLab、Node.js、Python、Teamspeak 6 服务器、Certbot 以及更多热门服务。
 
 <Cards columns={2} layout="horizontal">
     <Card title="安装 Bitwarden" description="" link="https://zap-hosting.com/guides/docs/vserver-linux-bitwarden" image="https://screensaver01.zap-hosting.com/index.php/s/XmJGtYkc7d9rBai/preview" type="product-categories"/>
@@ -52,14 +52,14 @@ import Cards, { Card } from '@site/src/components/Cards/Cards';
     <Card title="安装 Supabase" description="" link="https://zap-hosting.com/guides/docs/vserver-linux-supabase" image="https://screensaver01.zap-hosting.com/index.php/s/XmJGtYkc7d9rBai/preview" type="product-categories"/>
     <Card title="安装 Swush" description="" link="https://zap-hosting.com/guides/docs/server-linux-swush" image="https://screensaver01.zap-hosting.com/index.php/s/XmJGtYkc7d9rBai/preview" type="product-categories"/>
     <Card title="安装 Teamspeak 6 服务器" description="" link="https://zap-hosting.com/guides/docs/vserver-linux-ts6" image="https://screensaver01.zap-hosting.com/index.php/s/XmJGtYkc7d9rBai/preview" type="product-categories"/>
-    <Card title="安装 Web服务器" description="" link="https://zap-hosting.com/guides/docs/dedicated-linux-webserver" image="https://screensaver01.zap-hosting.com/index.php/s/XmJGtYkc7d9rBai/preview" type="product-categories"/>
+    <Card title="安装 Web 服务器" description="" link="https://zap-hosting.com/guides/docs/dedicated-linux-webserver" image="https://screensaver01.zap-hosting.com/index.php/s/XmJGtYkc7d9rBai/preview" type="product-categories"/>
     <Card title="安装 WordPress" description="" link="https://zap-hosting.com/guides/docs/dedicated-linux-wordpress" image="https://screensaver01.zap-hosting.com/index.php/s/XmJGtYkc7d9rBai/preview" type="product-categories"/>
     <Card title="安装 xRDP" description="" link="https://zap-hosting.com/guides/docs/dedicated-linux-xrdp" image="https://screensaver01.zap-hosting.com/index.php/s/XmJGtYkc7d9rBai/preview" type="product-categories"/>
 </Cards>
 
 ## Windows
 
-Windows服务器方面，你会找到MySQL、Docker、Plex、Node.js、Python、Plesk、Bitwarden、Supabase、Teamspeak 6服务器以及其他必备工具的详细安装教程。
+Windows 服务器方面，你会找到 MySQL、Docker、Plex、Node.js、Python、Plesk、Bitwarden、Supabase、Teamspeak 6 服务器以及其他必备工具的详细安装教程。
 
 <Cards columns={2} layout="horizontal">
     <Card title="安装 Bitwarden" description="" link="https://zap-hosting.com/guides/docs/vserver-windows-bitwarden" image="https://screensaver01.zap-hosting.com/index.php/s/XmJGtYkc7d9rBai/preview" type="product-categories"/>
@@ -76,5 +76,7 @@ Windows服务器方面，你会找到MySQL、Docker、Plex、Node.js、Python、
     <Card title="安装 Python" description="" link="https://zap-hosting.com/guides/docs/dedicated-windows-python" image="https://screensaver01.zap-hosting.com/index.php/s/XmJGtYkc7d9rBai/preview" type="product-categories"/>
     <Card title="安装 Speedtest CLI" description="" link="https://zap-hosting.com/guides/docs/vserver-windows-speedtest-cli" image="https://screensaver01.zap-hosting.com/index.php/s/XmJGtYkc7d9rBai/preview" type="product-categories"/>
     <Card title="安装 Supabase" description="" link="https://zap-hosting.com/guides/docs/vserver-windows-supabase" image="https://screensaver01.zap-hosting.com/index.php/s/XmJGtYkc7d9rBai/preview" type="product-categories"/>
+    <Card title="安装 TrueNAS Scale" description="" link="https://zap-hosting.com/guides/docs/server-truenas-scale" image="https://screensaver01.zap-hosting.com/index.php/s/XmJGtYkc7d9rBai/preview" type="product-categories"/>
     <Card title="安装 Teamspeak 6 服务器" description="" link="https://zap-hosting.com/guides/docs/vserver-windows-ts6" image="https://screensaver01.zap-hosting.com/index.php/s/XmJGtYkc7d9rBai/preview" type="product-categories"/>
+    
 </Cards>

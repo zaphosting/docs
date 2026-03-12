@@ -7,7 +7,7 @@ sidebar_label: Przegląd
 
 import Cards, { Card } from '@site/src/components/Cards/Cards';
 
-Chcesz zainstalować konkretną usługę na swoim VPS lub serwerze dedykowanym? Tutaj znajdziesz obszerną kolekcję krok po kroku poradników instalacji, które pomogą Ci szybko i sprawnie zacząć. Niezależnie czy korzystasz z Linuxa czy Windowsa, dostępna jest szeroka gama profesjonalnie przygotowanych poradników.
+Chcesz zainstalować konkretną usługę na swoim VPS lub serwerze dedykowanym? Tutaj znajdziesz obszerną kolekcję krok po kroku poradników instalacyjnych, które pomogą Ci szybko i sprawnie zacząć. Niezależnie czy korzystasz z Linuxa czy Windowsa, dostępna jest szeroka gama profesjonalnie przygotowanych poradników.
 
 ## Linux
 
@@ -76,5 +76,7 @@ Dla serwerów Windows znajdziesz szczegółowe instrukcje instalacji MySQL, Dock
     <Card title="Zainstaluj Python" description="" link="https://zap-hosting.com/guides/docs/dedicated-windows-python" image="https://screensaver01.zap-hosting.com/index.php/s/XmJGtYkc7d9rBai/preview" type="product-categories"/>
     <Card title="Zainstaluj Speedtest CLI" description="" link="https://zap-hosting.com/guides/docs/vserver-windows-speedtest-cli" image="https://screensaver01.zap-hosting.com/index.php/s/XmJGtYkc7d9rBai/preview" type="product-categories"/>
     <Card title="Zainstaluj Supabase" description="" link="https://zap-hosting.com/guides/docs/vserver-windows-supabase" image="https://screensaver01.zap-hosting.com/index.php/s/XmJGtYkc7d9rBai/preview" type="product-categories"/>
+    <Card title="Zainstaluj TrueNAS Scale" description="" link="https://zap-hosting.com/guides/docs/server-truenas-scale" image="https://screensaver01.zap-hosting.com/index.php/s/XmJGtYkc7d9rBai/preview" type="product-categories"/>
     <Card title="Zainstaluj serwer Teamspeak 6" description="" link="https://zap-hosting.com/guides/docs/vserver-windows-ts6" image="https://screensaver01.zap-hosting.com/index.php/s/XmJGtYkc7d9rBai/preview" type="product-categories"/>
+    
 </Cards>

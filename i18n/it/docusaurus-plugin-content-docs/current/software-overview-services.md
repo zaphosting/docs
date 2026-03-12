@@ -1,13 +1,13 @@
 ---
 id: software-overview-services
 title: "Panoramica Software"
-description: "Scopri le guide all’installazione per i software e servizi più popolari su server Linux e Windows → Scopri di più ora"
+description: "Scopri le guide di installazione per software e servizi popolari su server Linux e Windows → Scopri di più ora"
 sidebar_label: Panoramica
 ---
 
 import Cards, { Card } from '@site/src/components/Cards/Cards';
 
-Vuoi installare un servizio specifico sul tuo VPS o Server Dedicato? Qui trovi una raccolta completa di guide passo passo per partire subito e senza stress. Che tu usi Linux o Windows, abbiamo una vasta gamma di guide professionali pronte per te.
+Vuoi installare un servizio specifico sul tuo VPS o Server Dedicato? Qui trovi una raccolta completa di guide passo passo per partire subito e senza stress. Che tu usi Linux o Windows, c’è una vasta gamma di guide professionali pronte all’uso.
 
 ## Linux
 
@@ -22,7 +22,7 @@ Su Linux puoi configurare Docker, OpenVPN, Nextcloud, WordPress, Plesk, GitLab, 
     <Card title="Installa cURL" description="" link="https://zap-hosting.com/guides/docs/vserver-linux-curl" image="https://screensaver01.zap-hosting.com/index.php/s/XmJGtYkc7d9rBai/preview" type="product-categories"/>
     <Card title="Installa Database" description="" link="https://zap-hosting.com/guides/docs/dedicated-linux-databases" image="https://screensaver01.zap-hosting.com/index.php/s/XmJGtYkc7d9rBai/preview" type="product-categories"/>
     <Card title="Installa Docker" description="" link="https://zap-hosting.com/guides/docs/dedicated-linux-docker" image="https://screensaver01.zap-hosting.com/index.php/s/XmJGtYkc7d9rBai/preview" type="product-categories"/>
-    <Card title="Installa Server FTP" description="" link="https://zap-hosting.com/guides/docs/dedicated-linux-ftp-install" image="https://screensaver01.zap-hosting.com/index.php/s/XmJGtYkc7d9rBai/preview" type="product-categories"/>
+    <Card title="Installa FTP Server" description="" link="https://zap-hosting.com/guides/docs/dedicated-linux-ftp-install" image="https://screensaver01.zap-hosting.com/index.php/s/XmJGtYkc7d9rBai/preview" type="product-categories"/>
     <Card title="Installa Git" description="" link="https://zap-hosting.com/guides/docs/dedicated-linux-git" image="https://screensaver01.zap-hosting.com/index.php/s/XmJGtYkc7d9rBai/preview" type="product-categories"/>
     <Card title="Installa GitLab" description="" link="https://zap-hosting.com/guides/docs/vserver-linux-gitlab" image="https://screensaver01.zap-hosting.com/index.php/s/XmJGtYkc7d9rBai/preview" type="product-categories"/>
     <Card title="Installa Gluetun WebUI" description="" link="https://zap-hosting.com/guides/docs/server-linux-gluetun-webui" image="https://screensaver01.zap-hosting.com/index.php/s/XmJGtYkc7d9rBai/preview" type="product-categories"/>
@@ -76,5 +76,7 @@ Per i server Windows trovi istruzioni dettagliate per MySQL, Docker, Plex, Node.
     <Card title="Installa Python" description="" link="https://zap-hosting.com/guides/docs/dedicated-windows-python" image="https://screensaver01.zap-hosting.com/index.php/s/XmJGtYkc7d9rBai/preview" type="product-categories"/>
     <Card title="Installa Speedtest CLI" description="" link="https://zap-hosting.com/guides/docs/vserver-windows-speedtest-cli" image="https://screensaver01.zap-hosting.com/index.php/s/XmJGtYkc7d9rBai/preview" type="product-categories"/>
     <Card title="Installa Supabase" description="" link="https://zap-hosting.com/guides/docs/vserver-windows-supabase" image="https://screensaver01.zap-hosting.com/index.php/s/XmJGtYkc7d9rBai/preview" type="product-categories"/>
+    <Card title="Installa TrueNAS Scale" description="" link="https://zap-hosting.com/guides/docs/server-truenas-scale" image="https://screensaver01.zap-hosting.com/index.php/s/XmJGtYkc7d9rBai/preview" type="product-categories"/>
     <Card title="Installa Teamspeak 6 Server" description="" link="https://zap-hosting.com/guides/docs/vserver-windows-ts6" image="https://screensaver01.zap-hosting.com/index.php/s/XmJGtYkc7d9rBai/preview" type="product-categories"/>
+    
 </Cards>

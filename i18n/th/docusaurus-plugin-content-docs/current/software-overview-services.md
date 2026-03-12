@@ -7,7 +7,7 @@ sidebar_label: ภาพรวม
 
 import Cards, { Card } from '@site/src/components/Cards/Cards';
 
-กำลังมองหาวิธีติดตั้งบริการเฉพาะบน VPS หรือ เซิร์ฟเวอร์เฉพาะ ของคุณอยู่ใช่ไหม? ที่นี่คุณจะพบกับชุดคู่มือการติดตั้งแบบทีละขั้นตอนที่ครอบคลุม เพื่อช่วยให้คุณเริ่มต้นได้อย่างรวดเร็วและมีประสิทธิภาพ ไม่ว่าคุณจะใช้ Linux หรือ Windows ก็มีคู่มือที่เตรียมมาอย่างมืออาชีพให้เลือกมากมาย
+กำลังมองหาวิธีติดตั้งบริการเฉพาะบน VPS หรือ เซิร์ฟเวอร์เฉพาะ ของคุณอยู่ใช่ไหม? ที่นี่คุณจะพบกับชุดคู่มือการติดตั้งแบบทีละขั้นตอนที่ครบถ้วน เพื่อช่วยให้คุณเริ่มต้นได้อย่างรวดเร็วและมีประสิทธิภาพ ไม่ว่าคุณจะใช้ Linux หรือ Windows เรามีคู่มือที่เตรียมมาอย่างมืออาชีพให้เลือกมากมาย
 
 ## Linux
 
@@ -52,7 +52,7 @@ import Cards, { Card } from '@site/src/components/Cards/Cards';
     <Card title="ติดตั้ง Supabase" description="" link="https://zap-hosting.com/guides/docs/vserver-linux-supabase" image="https://screensaver01.zap-hosting.com/index.php/s/XmJGtYkc7d9rBai/preview" type="product-categories"/>
     <Card title="ติดตั้ง Swush" description="" link="https://zap-hosting.com/guides/docs/server-linux-swush" image="https://screensaver01.zap-hosting.com/index.php/s/XmJGtYkc7d9rBai/preview" type="product-categories"/>
     <Card title="ติดตั้ง Teamspeak 6 Server" description="" link="https://zap-hosting.com/guides/docs/vserver-linux-ts6" image="https://screensaver01.zap-hosting.com/index.php/s/XmJGtYkc7d9rBai/preview" type="product-categories"/>
-    <Card title="ติดตั้งเซิร์ฟเวอร์เว็บ" description="" link="https://zap-hosting.com/guides/docs/dedicated-linux-webserver" image="https://screensaver01.zap-hosting.com/index.php/s/XmJGtYkc7d9rBai/preview" type="product-categories"/>
+    <Card title="ติดตั้งเว็บเซิร์ฟเวอร์" description="" link="https://zap-hosting.com/guides/docs/dedicated-linux-webserver" image="https://screensaver01.zap-hosting.com/index.php/s/XmJGtYkc7d9rBai/preview" type="product-categories"/>
     <Card title="ติดตั้ง WordPress" description="" link="https://zap-hosting.com/guides/docs/dedicated-linux-wordpress" image="https://screensaver01.zap-hosting.com/index.php/s/XmJGtYkc7d9rBai/preview" type="product-categories"/>
     <Card title="ติดตั้ง xRDP" description="" link="https://zap-hosting.com/guides/docs/dedicated-linux-xrdp" image="https://screensaver01.zap-hosting.com/index.php/s/XmJGtYkc7d9rBai/preview" type="product-categories"/>
 </Cards>
@@ -76,5 +76,7 @@ import Cards, { Card } from '@site/src/components/Cards/Cards';
     <Card title="ติดตั้ง Python" description="" link="https://zap-hosting.com/guides/docs/dedicated-windows-python" image="https://screensaver01.zap-hosting.com/index.php/s/XmJGtYkc7d9rBai/preview" type="product-categories"/>
     <Card title="ติดตั้ง Speedtest CLI" description="" link="https://zap-hosting.com/guides/docs/vserver-windows-speedtest-cli" image="https://screensaver01.zap-hosting.com/index.php/s/XmJGtYkc7d9rBai/preview" type="product-categories"/>
     <Card title="ติดตั้ง Supabase" description="" link="https://zap-hosting.com/guides/docs/vserver-windows-supabase" image="https://screensaver01.zap-hosting.com/index.php/s/XmJGtYkc7d9rBai/preview" type="product-categories"/>
+    <Card title="ติดตั้ง TrueNAS Scale" description="" link="https://zap-hosting.com/guides/docs/server-truenas-scale" image="https://screensaver01.zap-hosting.com/index.php/s/XmJGtYkc7d9rBai/preview" type="product-categories"/>
     <Card title="ติดตั้ง Teamspeak 6 Server" description="" link="https://zap-hosting.com/guides/docs/vserver-windows-ts6" image="https://screensaver01.zap-hosting.com/index.php/s/XmJGtYkc7d9rBai/preview" type="product-categories"/>
+    
 </Cards>
