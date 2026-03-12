@@ -7,7 +7,7 @@ sidebar_label: Przegląd
 
 import Cards, { Card } from '@site/src/components/Cards/Cards';
 
-Chcesz zainstalować konkretną usługę na swoim VPS lub serwerze dedykowanym? Tutaj znajdziesz obszerną kolekcję krok po kroku poradników instalacyjnych, które pomogą Ci szybko i sprawnie zacząć. Niezależnie czy korzystasz z Linuxa czy Windowsa, dostępna jest szeroka gama profesjonalnie przygotowanych poradników.
+Chcesz zainstalować konkretną usługę na swoim VPS lub serwerze dedykowanym? Tutaj znajdziesz obszerną kolekcję krok po kroku poradników instalacji, które pomogą Ci szybko i sprawnie zacząć. Niezależnie czy korzystasz z Linuxa czy Windowsa, dostępna jest szeroka gama profesjonalnie przygotowanych poradników.
 
 ## Linux
 

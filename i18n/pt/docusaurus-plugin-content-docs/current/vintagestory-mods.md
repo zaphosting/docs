@@ -23,7 +23,7 @@ Antes de instalar mods no seu servidor de jogos Vintage Story, certifique-se de 
 
 - Baixe o mod desejado de uma fonte confiável, como a base de mods do Vintage Story  
 - Garanta que a versão do mod seja compatível com a versão do jogo do seu servidor  
-- Pare o servidor antes de enviar novos arquivos  
+- Pare seu servidor antes de enviar novos arquivos  
 
 A maioria dos mods de Vintage Story são distribuídos em arquivos `.zip` que não devem ser extraídos antes da instalação.
 
@@ -57,11 +57,11 @@ VintagestoryData
 ├── anothermod.zip
 ```
 
-O Vintage Story carrega automaticamente qualquer arquivo de mod colocado nesta pasta quando o servidor inicia.
+O Vintage Story carrega automaticamente qualquer arquivo de mod colocado nessa pasta quando o servidor inicia.
 
 ## Verificando a instalação
 
-Depois que todos os arquivos dos mods forem enviados, volte ao painel de controle do seu servidor e inicie o servidor novamente. Durante a inicialização, o servidor detectará os mods localizados na pasta `Mods` e os carregará automaticamente. Se o mod precisar de configuração, ele pode gerar um novo arquivo de configuração dentro da pasta `ModConfigs` após o primeiro lançamento.
+Depois que todos os arquivos dos mods forem enviados, volte ao seu painel de controle do servidor e inicie o servidor novamente. Durante a inicialização, o servidor detectará os mods localizados na pasta `Mods` e os carregará automaticamente. Se o mod precisar de configuração, ele pode gerar um novo arquivo de configuração dentro da pasta `ModConfigs` após o primeiro lançamento.
 
 Após o servidor iniciar com sucesso, conecte-se a ele e verifique se o mod está ativo. Os mods devem aparecer nos logs do servidor durante a inicialização. Se algum mod não carregar, verifique o seguinte:
 
@@ -71,8 +71,6 @@ Após o servidor iniciar com sucesso, conecte-se a ele e verifique se o mod est�
 
 ## Conclusão
 
-Parabéns! Você instalou com sucesso mods no seu servidor de jogos Vintage Story. Os mods permitem expandir o gameplay, introduzir novas mecânicas e personalizar a experiência para a sua comunidade.
-
-Para dúvidas ou ajuda, não hesite em contatar nosso time de suporte, disponível diariamente para te ajudar! 🙂
+Parabéns! Você instalou mods com sucesso no seu servidor de jogos Vintage Story. Os mods permitem expandir o gameplay, introduzir novas mecânicas e personalizar a experiência para a sua comunidade. Para dúvidas ou ajuda, não hesite em contatar nosso time de suporte, disponível diariamente para te ajudar! 🙂
 
 <InlineVoucher />

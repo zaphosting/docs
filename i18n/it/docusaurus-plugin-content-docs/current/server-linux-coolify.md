@@ -13,21 +13,21 @@ import InlineServiceLink from '@site/src/components/InlineServiceLink';
 
 ## Introduzione
 
-[Coolify](https://coolify.io/) è un'alternativa open-source e self-hosted a Heroku e Vercel che ti permette di gestire facilmente server, applicazioni e database.
+[Coolify](https://coolify.io/) è un’alternativa open-source e self-hosted a Heroku e Vercel che ti permette di gestire facilmente server, applicazioni e database.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/nrXeZsgjXn43sfw/preview)
 
 La dashboard intuitiva di Coolify rende il self-hosting un gioco da ragazzi. Ti dà il pieno controllo della tua infrastruttura, deployment automatici da GitHub e mantiene bassi i costi cloud.
 
-In questa guida ti accompagneremo passo passo su come configurarlo, preimpostare il tuo account admin e configurare tutto quello che devi sapere.
+In questa guida ti spieghiamo passo passo come configurarlo, preimpostare il tuo account admin e configurare tutto quello che devi sapere.
 
 <InlineVoucher />
 
 ## Casi d’uso di Coolify
 
-Coolify si presta a tantissimi scenari quotidiani ed è perfetto per chiunque voglia automatizzare il deployment di applicazioni, ospitare database o far girare worker in background. È ideale sia per principianti che per esperti.
+Coolify si presta a tantissimi scenari quotidiani ed è perfetto per chiunque voglia automatizzare il deployment di app, ospitare database o far girare worker in background. È ideale sia per principianti che per esperti.
 
-Coolify supporta nativamente il deployment di Static Sites, Node.js, Python, PHP, Rust e container Docker. Include template one-click super popolari come WordPress, Ghost, Grafana, Appwrite, Nextcloud e database PostgreSQL. Gestisce automaticamente i certificati SSL Let's Encrypt e il routing reverse proxy tramite Traefik.
+Supporta nativamente il deployment di Static Sites, Node.js, Python, PHP, Rust e container Docker. Include template one-click super popolari come WordPress, Ghost, Grafana, Appwrite, Nextcloud e database PostgreSQL. Gestisce automaticamente i certificati SSL Let's Encrypt e il routing reverse proxy tramite Traefik.
 
 ## Preparazione
 
@@ -43,8 +43,8 @@ Anche se Coolify è leggero di base, l’uso delle risorse può aumentare parecc
 
 Prima di installare Coolify, connettiti al server e assicurati che il sistema operativo sia aggiornato. Devi accedere via SSH con privilegi root. Se ti serve, abbiamo una guida su [Accesso SSH iniziale](vserver-linux-ssh.md).
 
-:::tip[Autenticazione con chiave SSH]
-Ti consigliamo **caldamente** di usare una chiave SSH invece della password per l’autenticazione. Scopri come fare nella nostra guida [Configurazione chiave SSH](vserver-linux-sshkey.md).
+:::tip[Autenticazione con Chiave SSH]
+Ti consigliamo **caldamente** di usare una chiave SSH invece della password per l’autenticazione. Scopri come fare con la nostra guida [Configurazione Chiave SSH](vserver-linux-sshkey.md).
 :::
 
 ## Installazione
@@ -57,9 +57,9 @@ sudo apt update && sudo apt upgrade -y && sudo apt install curl -y
 
 
 
-### Prepara le credenziali dell’utente admin
+### Prepara le Credenziali Admin
 
-Coolify applica regole di sicurezza rigide per l’account amministratore. Prima di lanciare lo script di installazione, prepara le credenziali root rispettando questi requisiti:
+Coolify applica regole di sicurezza rigide per l’account amministratore. Prima di lanciare l’installazione, prepara username, email e password rispettando questi requisiti:
 
 * **Username**
   * Minimo 3 caratteri
@@ -78,9 +78,9 @@ Coolify applica regole di sicurezza rigide per l’account amministratore. Prima
 
 
 
-### Esegui lo script di installazione
+### Esegui lo Script di Installazione
 
-Coolify offre uno script di installazione rapido e automatizzato. Per sicurezza, useremo variabili d’ambiente per preimpostare l’account root, così da evitare accessi non autorizzati durante la configurazione.
+Coolify offre uno script di installazione rapido e automatico. Per sicurezza, useremo variabili d’ambiente per preimpostare l’account root admin, così da evitare accessi non autorizzati durante la configurazione.
 
 Esegui questo comando sostituendo username, email e password con le tue credenziali sicure:
 
@@ -88,7 +88,7 @@ Esegui questo comando sostituendo username, email e password con le tue credenzi
 env ROOT_USERNAME=zaphosting ROOT_USER_EMAIL=info@zap-hosting.com ROOT_USER_PASSWORD=zaphosting bash -c 'curl -fsSL https://cdn.coollabs.io/coolify/install.sh | bash'
 ```
 :::note[Open Source]
-Il codice sorgente dello script di installazione è disponibile nel [Repository Ufficiale di Coolify](https://github.com/coollabsio/coolify/blob/v4.x/scripts/install.sh)
+Lo script di installazione è open source e lo trovi nel [Repository Ufficiale di Coolify](https://github.com/coollabsio/coolify/blob/v4.x/scripts/install.sh)
 :::
 
 Lo script installerà automaticamente Docker, configurerà le reti necessarie e imposterà i container di Coolify. La procedura può richiedere qualche minuto a seconda dell’hardware del server.
@@ -99,21 +99,21 @@ Lo script installerà automaticamente Docker, configurerà le reti necessarie e 
 
 ### Accesso a Coolify
 
-Terminata l’installazione, apri il browser e vai all’indirizzo IP del server seguito dalla porta 8000: `http://[tuo_ip_server]:8000`
+Terminata l’installazione, apri il browser e vai all’indirizzo IP del server con la porta 8000: `http://[tuo_ip_server]:8000`
 
-Avendo già fornito le credenziali via comando, vedrai subito la schermata di login senza passare dalla configurazione iniziale.
+Avendo già fornito le credenziali via comando, vedrai subito la schermata di login, non il wizard iniziale.
 
-Inserisci email e password usate nel comando per accedere alla dashboard.
+Inserisci email e password usate in fase di installazione per accedere alla dashboard.
 
 
 
-### Configurazione dei record DNS
+### Configurazione Record DNS
 
 Dopo il login, la prima cosa da fare è configurare un dominio personalizzato. Accedere a Coolify tramite IP (`http://[tuo_ip_server]:8000`) non è sicuro.
 
 Collegare un dominio permette a Coolify di generare automaticamente certificati SSL gratuiti per la dashboard e tutte le app future.
 
-Vai nella gestione DNS del tuo provider e aggiungi due record `A` che puntano al tuo server. Se il dominio è registrato con ZAP-Hosting, segui la nostra guida [Record di Dominio](domain-records.md) per aggiungerli facilmente:
+Vai nella gestione DNS del tuo provider e aggiungi due record `A` che puntano al tuo server. Se il dominio è registrato con ZAP-Hosting, segui la nostra guida [Record Dominio](domain-records.md) per aggiungerli facilmente:
 
 | Nome / Host | Tipo | Valore             | TTL           |
 | ----------- | ---- | ------------------ | ------------- |
@@ -122,32 +122,32 @@ Vai nella gestione DNS del tuo provider e aggiungi due record `A` che puntano al
 
 :::info[Routing DNS]
 *   Il record `@` permette a Coolify di usare il dominio principale
-*   Il record `*` (wildcard) fa sì che Coolify instradi automaticamente qualsiasi sottodominio nuovo (es. `api.[tuo_dominio]`) senza dover aggiungere record DNS per ogni progetto.
+*   Il record `*` (wildcard) fa sì che Coolify instradi automaticamente qualsiasi nuovo sottodominio (es. `api.[tuo_dominio]`) senza dover aggiungere record DNS per ogni progetto.
 :::
 
 
 
-### Configura il dominio dell’istanza
+### Configura il Dominio dell’Istanza
 
-Per mettere in sicurezza la tua istanza Coolify con un certificato SSL, assegna un dominio. Vai su **Impostazioni** nella sidebar a sinistra e trova il campo **Instance Domain**. Inserisci il dominio completo con prefisso `https://` (es. `https://coolify.[tuo_dominio]`). Clicca su **Salva** per completare.
+Per mettere in sicurezza la tua istanza Coolify con un certificato SSL, assegna un dominio. Vai su **Impostazioni** nella sidebar a sinistra e trova il campo **Dominio Istanza**. Inserisci il dominio completo con prefisso `https://` (es. `https://coolify.[tuo_dominio]`). Clicca su **Salva** per completare.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/jYW63sF9k5sZez3/preview)
 
 
 
-## Deploy della tua prima app
+## Deploy della Prima App
 
-Ora puoi andare nella scheda **Projects** e iniziare a deployare la tua prima applicazione!
+Ora puoi andare nella scheda **Progetti** e iniziare a deployare la tua prima applicazione!
 
-Clicca su **+ Add Resource** per aggiungere un repository pubblico o un file Docker Compose, oppure scegli uno dei tanti servizi preconfigurati dalla libreria di template one-click. La tua installazione Coolify è pronta all’uso!
+Clicca su **+ Aggiungi Risorsa** per aggiungere un repository pubblico, un file Docker Compose o scegli uno dei tanti servizi preconfigurati dalla libreria di template one-click. La tua installazione Coolify è pronta all’uso!
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/nEf9XBDrfypijE7/preview)
 
 
 
-## Conclusione e risorse extra
+## Conclusione e Risorse Utili
 
-Complimenti! Hai installato Coolify sul tuo server e puoi iniziare subito a deployare i tuoi progetti. Ti consigliamo anche di dare un’occhiata a queste risorse per ulteriori info e supporto durante la configurazione.
+Complimenti! Hai installato Coolify sul tuo server e puoi subito iniziare a deployare i tuoi progetti. Ti consigliamo anche di dare un’occhiata a queste risorse per ulteriori info e supporto durante la configurazione.
 
 - [coolify.io](https://coolify.io/) - Sito Ufficiale
 - [coolify.io/docs](https://coolify.io/docs/) - Documentazione Coolify

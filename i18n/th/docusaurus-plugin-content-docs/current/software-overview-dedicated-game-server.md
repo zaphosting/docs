@@ -7,18 +7,18 @@ sidebar_label: ภาพรวม
 
 import Cards, { Card } from '@site/src/components/Cards/Cards';
 
-กำลังมองหาเช่าเซิร์ฟเวอร์เกมเฉพาะบน VPS หรือ เซิร์ฟเวอร์เฉพาะของคุณอยู่ใช่ไหม? ที่นี่คุณจะพบกับชุดคู่มือการตั้งค่าแบบทีละขั้นตอนสำหรับเกมยอดนิยมบนทั้ง Linux และ Windows อย่างครบถ้วน
+กำลังมองหาวิธีเช่าเซิร์ฟเวอร์เกมเฉพาะบน VPS หรือ เซิร์ฟเวอร์เฉพาะของคุณอยู่ใช่ไหม? ที่นี่คุณจะพบกับชุดคู่มือการตั้งค่าแบบทีละขั้นตอนสำหรับเกมยอดนิยมบนทั้ง Linux และ Windows
 
 ## Linux
 
-ตั้งค่าเซิร์ฟเวอร์เกมเฉพาะบนเซิร์ฟเวอร์ Linux ของคุณด้วยคู่มือที่ละเอียดของเรา คุณจะพบแหล่งข้อมูลการตั้งค่าทั่วไป เช่น SteamCMD, ความเข้ากันได้ของ Wine และการตั้งค่าบริการ Linux รวมถึงคู่มือการติดตั้งทีละขั้นตอนสำหรับเกมยอดนิยม เช่น เกมเอาชีวิตรอด, เกม FPS คลาสสิกจากตระกูล Source engine และเกมมัลติเพลเยอร์ยอดฮิตอย่าง FiveM, Rust และ Palworld
+ตั้งค่าเซิร์ฟเวอร์เกมเฉพาะบนเซิร์ฟเวอร์ Linux ของคุณด้วยคู่มือที่ละเอียดของเรา คุณจะพบแหล่งข้อมูลการตั้งค่าทั่วไป เช่น SteamCMD, ความเข้ากันได้ของ Wine และการตั้งค่าบริการ Linux รวมถึงคู่มือการติดตั้งทีละขั้นตอนสำหรับเกมยอดนิยมอย่างเกมเอาชีวิตรอด, เกม FPS คลาสสิกจากตระกูล Source engine และเกมมัลติเพลเยอร์ยอดฮิตอย่าง FiveM, Rust และ Palworld
 
 ### ทั่วไป
 
 <Cards columns={2} layout="horizontal">
     <Card title="Cloudflare Tunnel สำหรับ txAdmin" description="" link="https://zap-hosting.com/guides/docs/dedicated-linux-fivem-txAdmin-cloudflare-tunnel" image="https://screensaver01.zap-hosting.com/index.php/s/XmJGtYkc7d9rBai/preview" type="product-categories"/>
     <Card title="ตั้งค่า SteamCMD" description="" link="https://zap-hosting.com/guides/docs/dedicated-linux-steamcmd" image="https://screensaver01.zap-hosting.com/index.php/s/XmJGtYkc7d9rBai/preview" type="product-categories"/>
-    <Card title="ตั้งค่าชั้นความเข้ากันได้ Wine" description="" link="https://zap-hosting.com/guides/docs/dedicated-linux-wine" image="https://screensaver01.zap-hosting.com/index.php/s/XmJGtYkc7d9rBai/preview" type="product-categories"/>
+    <Card title="ตั้งค่าชั้นความเข้ากันได้ของ Wine" description="" link="https://zap-hosting.com/guides/docs/dedicated-linux-wine" image="https://screensaver01.zap-hosting.com/index.php/s/XmJGtYkc7d9rBai/preview" type="product-categories"/>
     <Card title="ตั้งค่าบริการ Linux" description="" link="https://zap-hosting.com/guides/docs/dedicated-linux-create-gameservice" image="https://screensaver01.zap-hosting.com/index.php/s/XmJGtYkc7d9rBai/preview" type="product-categories"/>
 </Cards>
 
@@ -56,7 +56,7 @@ import Cards, { Card } from '@site/src/components/Cards/Cards';
 
 ## Windows
 
-เช่าเซิร์ฟเวอร์เกมเฉพาะบนเซิร์ฟเวอร์ Windows ของคุณด้วยคู่มือครบวงจรของเรา ครอบคลุมเกมหลากหลาย เช่น ARK, Conan Exiles, Enshrouded, Valheim, เกมในตระกูล Counter-Strike และ Source engine ทั้งหมด รวมถึงทุกเวอร์ชันของ Farming Simulator นอกจากนี้ยังมีแหล่งข้อมูลการตั้งค่าทั่วไป เช่น การตั้งค่า Cloudflare Tunnel สำหรับ txAdmin
+เช่าเซิร์ฟเวอร์เกมเฉพาะบนเซิร์ฟเวอร์ Windows ของคุณด้วยคู่มือครบวงจรของเรา ครอบคลุมเกมหลากหลาย เช่น ARK, Conan Exiles, Enshrouded, Valheim, ชุดเกม Counter-Strike และ Source engine ทั้งหมด รวมถึงทุกเวอร์ชันของ Farming Simulator นอกจากนี้ยังมีแหล่งข้อมูลการตั้งค่าทั่วไป เช่น การตั้งค่า Cloudflare Tunnel สำหรับ txAdmin
 
 ### ทั่วไป
 

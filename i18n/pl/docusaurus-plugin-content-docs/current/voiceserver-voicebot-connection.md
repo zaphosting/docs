@@ -16,17 +16,17 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Wprowadzenie
 
-Chcesz podłączyć swojego bota głosowego do serwera TeamSpeak, ale nie wiesz jeszcze jak? Spoko, poniżej dokładnie wyjaśnimy Ci, jak to zrobić!
+Chcesz podłączyć swojego bota głosowego do serwera TeamSpeak, ale nie wiesz jeszcze jak to zrobić? Spoko, poniżej dokładnie Ci to wyjaśnimy!
 
 
 
 ## Podłączanie bota do TeamSpeak
 
-Aby połączyć swojego bota głosowego z serwerem TeamSpeak 3, musisz go wywołać w panelu administracyjnym. Następnie po lewej stronie przejdź do zakładki **Serwer**, tak jak na obrazku poniżej:
+Aby podłączyć swojego bota głosowego do serwera TeamSpeak 3, musisz go wywołać w panelu administracyjnym. Następnie po lewej stronie przejdź do **Serwer**, tak jak na obrazku poniżej:
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/bPPCgtQH4Q8NwxB/preview)
 
-Teraz możesz wybrać TeamSpeak pod **Serwer**, jeśli został on również zamówiony na Twoim koncie. Jeśli jest hostowany zewnętrznie, możesz wybrać tam też **Custom Teamspeak Server**.
+Teraz możesz wybrać TeamSpeak pod **Serwer**, jeśli został on również zamówiony na Twoim koncie. Jeśli jest hostowany zewnętrznie, możesz też wybrać tam **Custom Teamspeak Server**.
 
 Dane wpisujesz poniżej, zapisujesz i bot głosowy łączy się z Twoim serwerem TeamSpeak 3, oto przykład:
 
@@ -44,12 +44,12 @@ Musisz wtedy wpisać **Discord Bot Token** oraz **Discord Bot Client ID**. Po ty
 
 ## Jak zdobyć Discord Bot Token i Client ID
 
-Ponieważ Twój serwer Discord nie ma bezpośredniego adresu IP ani portu, musisz wykonać kilka kroków przygotowawczych, zanim użyjesz bota na serwerze Discord.
+Ponieważ Twój serwer Discord nie ma bezpośredniego adresu IP ani portu, trzeba wykonać kilka kroków przygotowawczych, zanim użyjesz bota na serwerze Discord.
 
 
 ### Tworzenie aplikacji Discord
 
-Pierwszym krokiem jest stworzenie aplikacji Discord. Twój bot zostanie do niej przypisany i będzie działał pod jej nazwą. Aby stworzyć taką aplikację, wejdź na [Discord Developer Portal](https://discord.com/developers/applications/).
+Pierwsze, co musisz zrobić, to stworzyć aplikację Discord. Twój bot zostanie do niej przypisany i będzie działał pod jej nazwą. Aby utworzyć taką aplikację, wejdź na [Discord Developer Portal](https://discord.com/developers/applications/).
 
 Teraz kliknij **New Application**, aby stworzyć nową aplikację i nadaj jej nazwę, jak na obrazku:
 
@@ -62,15 +62,15 @@ Następnie kliknij **Create**, aby utworzyć aplikację. Zanotuj teraz ID aplika
 
 ### Konfiguracja bota i pobranie tokena
 
-Podczas tworzenia aplikacji automatycznie powstaje bot. Token bota możesz łatwo uzyskać, klikając **Reset Token**. Otrzymasz token użytkownika, który warto gdzieś zapisać:
+Podczas tworzenia aplikacji automatycznie powstaje bot. Token możesz łatwo zdobyć klikając **Reset Token**. Otrzymasz wtedy token użytkownika, który powinieneś zapisać lub zanotować:
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/5ypmywwPJxRAFax/preview)
 
 :::caution
-Nie udostępniaj tokena bota nikomu, aby Twój bot mógł działać bez zakłóceń i nie stwarzał zagrożenia bezpieczeństwa. Token to jak klucz tajny i nie powinien być dzielony.
+Nie udostępniaj tokena bota nikomu, aby Twój bot działał bez zakłóceń i nie stwarzał zagrożenia bezpieczeństwa. Token to jak klucz tajny i nie powinien być dzielony.
 :::
 
-Na tej samej stronie przewiń trochę w dół i włącz **Presence Intent**, **Server Members Intent** oraz **Message Content Intent**, a następnie zapisz zmiany:
+Na tej samej stronie przewiń trochę w dół i włącz **Presence Intent**, **Server Members Intent** oraz **Message Content Intent**, a potem zapisz zmiany:
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/3Lkbs5Yb9grgrJ7/preview)
 
@@ -92,11 +92,11 @@ Teraz wpisz wcześniej zanotowany token i Client ID w odpowiednie pola w panelu 
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/9Y79xx2FzGm73zW/preview)
 
-Następnie możesz uruchomić bota. Powinien po około 10 sekundach połączyć się z Twoim serwerem Discord.
+Potem możesz uruchomić bota. Powinien po około 10 sekundach połączyć się z Twoim serwerem Discord.
 
 
 ## Podsumowanie
 
-Bot głosowy to super przydatny i fajny produkt dla wielu osób. Możesz go używać zarówno na serwerze TeamSpeak, jak i na Discordzie. W razie pytań lub potrzeby pomocy, śmiało kontaktuj się z naszym supportem, który jest dostępny codziennie, by Ci pomóc! 🙂
+Bot głosowy to super przydatny i fajny produkt dla wielu osób. Możesz go używać zarówno na serwerze TeamSpeak, jak i na Discordzie. W razie pytań lub problemów śmiało kontaktuj się z naszym supportem, który jest do Twojej dyspozycji codziennie! 🙂 
 
 <InlineVoucher />

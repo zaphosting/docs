@@ -56,7 +56,7 @@ Sätt upp dedikerade spelservrar på din Linux-server med våra detaljerade guid
 
 ## Windows
 
-Hosta dedikerade spelservrar på din Windows-server med våra omfattande guider. Vi täcker ett brett urval av spel inklusive ARK, Conan Exiles, Enshrouded, Valheim, hela Counter-Strike- och Source-motorsortimentet samt alla Farming Simulator-versioner. Du hittar också allmänna installationsresurser som Cloudflare Tunnel-konfiguration för txAdmin.
+Hosta dedikerade spelservrar på din Windows-server med våra kompletta guider. Vi täcker ett brett urval av spel inklusive ARK, Conan Exiles, Enshrouded, Valheim, hela Counter-Strike- och Source-motorsortimentet samt alla Farming Simulator-utgåvor. Du hittar också allmänna installationsresurser som Cloudflare Tunnel-konfiguration för txAdmin.
 
 ### Allmänt
 

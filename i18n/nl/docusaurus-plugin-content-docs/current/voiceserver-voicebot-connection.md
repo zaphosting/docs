@@ -16,53 +16,53 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introductie
 
-Wil je je Voicebot koppelen aan je TeamSpeak-server, maar weet je nog niet precies hoe? Geen stress, we leggen je hieronder stap voor stap uit hoe je dit doet!
+Wil je je Voicebot koppelen aan je TeamSpeak server, maar weet je nog niet precies hoe? Geen stress, we leggen je hieronder stap voor stap uit hoe je dit doet!
 
 
 
 ## De bot koppelen aan je TeamSpeak
 
-Om je voicebot te verbinden met je TeamSpeak 3-server, moet je hem openen in het controlepaneel. Ga dan links naar **Server**, zoals hieronder te zien is:
+Om je voicebot te verbinden met je TeamSpeak 3 server, moet je hem openen in het controlepaneel. Ga dan links naar **Server**, zoals hieronder te zien is:
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/bPPCgtQH4Q8NwxB/preview)
 
 Nu kun je onder **Server** een TeamSpeak selecteren, mits deze ook via jouw account is geboekt. Als deze extern gehost wordt, kun je ook kiezen voor **Custom Teamspeak Server**.
 
-Vul dan de gegevens hieronder in, sla op en de voicebot maakt verbinding met je TeamSpeak 3-server. Hier een voorbeeld:
+Vul dan de gegevens hieronder in, sla op en de voicebot maakt verbinding met je TeamSpeak 3 server. Hier een voorbeeld:
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/PDBa6qy53FgAKRY/preview)
 
 
 ## De bot koppelen aan je Discord
 
-Om je voicebot te verbinden met Discord, ga je naar **Server** en selecteer je **Discord**.
+Om je voicebot te koppelen aan Discord, ga je naar **Server** en selecteer je **Discord**.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/g73fPeqbesHiXSm/preview)
 
-Vul vervolgens de **Discord Bot Token** en **Discord Bot Client ID** in. Daarna maakt de voicebot verbinding met je Discord-server.
+Je moet dan de **Discord Bot Token** en **Discord Bot Client ID** invullen. Daarna maakt de voicebot verbinding met je Discord server.
 
 
 ## Je Discord Bot Token en Client ID krijgen
 
-Omdat je Discord-server geen directe IP-adres of poort heeft, moet je een paar stappen doorlopen voordat je je bot op een Discord-server kunt gebruiken.
+Omdat je Discord server geen directe IP-adres of poort heeft, moet je een paar stappen doorlopen voordat je je bot op een Discord server kunt gebruiken.
 
 
 ### Een Discord Applicatie aanmaken
 
-Het eerste wat je moet doen is een Discord-applicatie aanmaken. Je bot wordt hieraan gekoppeld en draait onder die naam. Ga hiervoor naar [de Discord Developer Portal](https://discord.com/developers/applications/).
+Het eerste wat je doet is een Discord applicatie aanmaken. Je bot wordt hieraan gekoppeld en draait onder die naam. Ga hiervoor naar [de Discord Developer Portal](https://discord.com/developers/applications/).
 
 Klik op **New Application** om een nieuwe applicatie te maken en geef ‘m een naam, zoals hieronder:
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/YPbPtRaPEHZ7pB4/preview)
 
-Klik daarna op **Create** om de applicatie aan te maken. Noteer nu de application ID voor de volgende stappen:
+Klik daarna op **Create** om de applicatie aan te maken. Schrijf nu de application ID op voor de volgende stappen:
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/tzBNzKBGzX8j4EK/preview)
 
 
 ### Bot configureren en Token ophalen
 
-Bij het aanmaken van een applicatie wordt er automatisch een bot aangemaakt. Je krijgt de token door op **Reset Token** te klikken. Noteer deze token goed, want die heb je nodig:
+Bij het aanmaken van de applicatie wordt er automatisch een bot aangemaakt. Je krijgt de token door op **Reset Token** te klikken. Noteer deze token goed:
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/5ypmywwPJxRAFax/preview)
 
@@ -77,7 +77,7 @@ Scroll op dezelfde pagina iets naar beneden en zet de vinkjes aan bij **Presence
 
 ### Bot uitnodigen op je Discord
 
-Om de bot uit te nodigen, plak je de eerder genoteerde client ID in de volgende link op de juiste plek en open je die in je browser. Voeg de bot zo toe aan je Discord-server. Het ziet er zo uit:
+Om de bot uit te nodigen, plak je de eerder genoteerde client ID in onderstaande link op de juiste plek. Open die link in je browser en voeg de bot toe aan je Discord server. Zo ziet het eruit:
 
 ```
 https://discordapp.com/oauth2/authorize?&client_id=1364549558197026816&scope=bot&permissions=0
@@ -86,17 +86,17 @@ https://discordapp.com/oauth2/authorize?&client_id=1364549558197026816&scope=bot
 ![](https://screensaver01.zap-hosting.com/index.php/s/yKX4ocRtrZ7zLWB/preview)
 
 
-### Het botpaneel configureren
+### Het botpaneel instellen
 
 Vul nu de eerder genoteerde token en client ID in de velden in het ZAP-Hosting controlepaneel in en klik onderaan op **Opslaan**:
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/9Y79xx2FzGm73zW/preview)
 
-Start daarna de bot. Binnen ongeveer 10 seconden zou ‘ie verbinding moeten maken met je Discord-server.
+Start daarna de bot. Binnen ongeveer 10 seconden maakt ‘ie verbinding met je Discord server.
 
 
 ## Conclusie
 
-De Voicebot is een superhandige en leuke tool voor veel mensen. Je kunt ‘m gebruiken op een TeamSpeak-server of op Discord. Heb je nog vragen of hulp nodig? Neem gerust contact op met onze support, die staat dagelijks voor je klaar! 🙂
+De Voicebot is een superhandige en leuke tool voor veel mensen. Je kunt ‘m gebruiken op een TeamSpeak server of op Discord. Heb je nog vragen of hulp nodig? Ons supportteam staat dagelijks voor je klaar! 🙂
 
 <InlineVoucher />

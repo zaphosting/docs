@@ -11,7 +11,7 @@ import Cards, { Card } from '@site/src/components/Cards/Cards';
 
 ## Linux
 
-Configura servidores dedicados de juegos en tu servidor Linux con nuestras guías detalladas. Encontrarás recursos generales de configuración como SteamCMD, compatibilidad con Wine y configuración de servicios en Linux, además de guías paso a paso para títulos populares que incluyen juegos de supervivencia, clásicos FPS de la familia Source engine y favoritos multijugador como FiveM, Rust y Palworld.
+Configura servidores dedicados de juegos en tu servidor Linux con nuestras guías detalladas. Encontrarás recursos generales de configuración como SteamCMD, compatibilidad con Wine y configuración de servicios en Linux, además de guías paso a paso para títulos populares incluyendo juegos de supervivencia, clásicos FPS de la familia del motor Source y favoritos multijugador como FiveM, Rust y Palworld.
 
 ### General
 
@@ -56,7 +56,7 @@ Configura servidores dedicados de juegos en tu servidor Linux con nuestras guía
 
 ## Windows
 
-Aloja servidores dedicados de juegos en tu servidor Windows con nuestras guías completas. Cubriendo una amplia selección de juegos incluyendo ARK, Conan Exiles, Enshrouded, Valheim, toda la línea de Counter-Strike y Source engine, así como todas las ediciones de Farming Simulator. También encontrarás recursos generales de configuración como la configuración de Cloudflare Tunnel para txAdmin.
+Aloja servidores dedicados de juegos en tu servidor Windows con nuestras guías completas. Cubriendo una amplia selección de juegos incluyendo ARK, Conan Exiles, Enshrouded, Valheim, toda la línea de Counter-Strike y motor Source, así como todas las ediciones de Farming Simulator. También encontrarás recursos generales de configuración como la configuración de Cloudflare Tunnel para txAdmin.
 
 ### General
 

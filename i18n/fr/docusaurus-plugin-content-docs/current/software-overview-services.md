@@ -7,7 +7,7 @@ sidebar_label: Aperçu
 
 import Cards, { Card } from '@site/src/components/Cards/Cards';
 
-Tu cherches à installer un service spécifique sur ton VPS ou serveur dédié ? Ici, tu trouveras une collection complète de guides d'installation étape par étape pour t'aider à démarrer rapidement et efficacement. Que tu utilises Linux ou Windows, une large gamme de guides préparés par des pros est dispo.
+Tu cherches à installer un service spécifique sur ton VPS ou serveur dédié ? Ici, tu trouveras une collection complète de guides d'installation étape par étape pour te lancer rapidement et efficacement. Que tu utilises Linux ou Windows, une large gamme de guides préparés par des pros est dispo.
 
 ## Linux
 

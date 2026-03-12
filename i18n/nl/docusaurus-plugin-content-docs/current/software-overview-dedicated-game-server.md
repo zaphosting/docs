@@ -11,7 +11,7 @@ Wil je een dedicated game server hosten op je VPS of Dedicated Server? Hier vind
 
 ## Linux
 
-Zet dedicated game servers op je Linux-server op met onze gedetailleerde handleidingen. Je vindt algemene setup resources zoals SteamCMD, Wine-compatibiliteit en Linux service configuratie, plus stap-voor-stap installatiegidsen voor populaire titels waaronder survival games, FPS-klassiekers uit de Source engine familie, en multiplayer favorieten zoals FiveM, Rust en Palworld.
+Zet dedicated game servers op je Linux-server op met onze gedetailleerde guides. Je vindt algemene setup resources zoals SteamCMD, Wine-compatibiliteit en Linux service configuratie, plus stap-voor-stap installatiehandleidingen voor populaire titels zoals survival games, FPS-klassiekers uit de Source engine familie, en multiplayer favorieten zoals FiveM, Rust en Palworld.
 
 ### Algemeen
 
@@ -56,7 +56,7 @@ Zet dedicated game servers op je Linux-server op met onze gedetailleerde handlei
 
 ## Windows
 
-Host dedicated game servers op je Windows-server met onze uitgebreide guides. We behandelen een brede selectie games waaronder ARK, Conan Exiles, Enshrouded, Valheim, de volledige Counter-Strike en Source engine lineup, plus alle Farming Simulator edities. Je vindt ook algemene setup resources zoals Cloudflare Tunnel configuratie voor txAdmin.
+Host dedicated game servers op je Windows-server met onze uitgebreide guides. We behandelen een brede selectie games zoals ARK, Conan Exiles, Enshrouded, Valheim, de volledige Counter-Strike en Source engine lineup, plus alle Farming Simulator edities. Ook vind je algemene setup resources zoals Cloudflare Tunnel configuratie voor txAdmin.
 
 ### Algemeen
 

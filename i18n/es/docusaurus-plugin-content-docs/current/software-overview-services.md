@@ -7,7 +7,7 @@ sidebar_label: Resumen
 
 import Cards, { Card } from '@site/src/components/Cards/Cards';
 
-¿Quieres instalar un servicio específico en tu VPS o servidor dedicado? Aquí encontrarás una colección completa de guías paso a paso para ayudarte a empezar rápido y sin complicaciones. Ya sea que uses Linux o Windows, tienes a tu disposición una amplia variedad de guías preparadas profesionalmente.
+¿Quieres instalar un servicio específico en tu VPS o servidor dedicado? Aquí encontrarás una colección completa de guías paso a paso para ayudarte a empezar rápido y sin complicaciones. Ya sea que uses Linux o Windows, tienes a tu disposición una amplia variedad de guías profesionales.
 
 ## Linux
 

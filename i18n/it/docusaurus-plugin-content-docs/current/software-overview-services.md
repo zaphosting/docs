@@ -1,13 +1,13 @@
 ---
 id: software-overview-services
 title: "Panoramica Software"
-description: "Scopri le guide di installazione per i software e servizi più popolari su server Linux e Windows → Scopri di più ora"
+description: "Scopri le guide all’installazione per i software e servizi più popolari su server Linux e Windows → Scopri di più ora"
 sidebar_label: Panoramica
 ---
 
 import Cards, { Card } from '@site/src/components/Cards/Cards';
 
-Vuoi installare un servizio specifico sul tuo VPS o Server Dedicato? Qui trovi una raccolta completa di guide passo passo per partire subito e senza stress. Che tu usi Linux o Windows, c’è una vasta gamma di guide professionali pronte per te.
+Vuoi installare un servizio specifico sul tuo VPS o Server Dedicato? Qui trovi una raccolta completa di guide passo passo per partire subito e senza stress. Che tu usi Linux o Windows, abbiamo una vasta gamma di guide professionali pronte per te.
 
 ## Linux
 

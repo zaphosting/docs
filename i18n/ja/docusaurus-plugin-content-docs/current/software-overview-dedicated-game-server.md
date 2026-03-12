@@ -1,17 +1,17 @@
 ---
 id: software-overview-dedicated-game-server
-title: "専用ゲームサーバーの概要"
+title: "専用ゲームサーバー概要"
 description: "LinuxとWindowsでの専用ゲームサーバーのホスティング設定ガイドをチェック → 今すぐ詳しく見る"
 sidebar_label: 概要
 ---
 
 import Cards, { Card } from '@site/src/components/Cards/Cards';
 
-VPSや専用サーバーで専用ゲームサーバーをホスティングしたい？ここではLinuxとWindowsの両方で人気ゲームのステップバイステップ設定ガイドをたっぷり集めてるよ。
+VPSや専用サーバーで専用ゲームサーバーをホストしたい？ここではLinuxとWindows両方で人気ゲームのステップバイステップ設定ガイドをたっぷり集めてるよ。
 
 ## Linux
 
-Linuxサーバーで専用ゲームサーバーをセットアップするなら、詳しいガイドが揃ってるよ。SteamCMDやWineの互換性、Linuxサービスの設定などの基本から、サバイバルゲーム、SourceエンジンのFPSクラシック、FiveM、Rust、Palworldなどのマルチプレイヤー人気作のインストール手順までカバー。
+Linuxサーバーで専用ゲームサーバーを立てるなら、詳しいガイドが揃ってるよ。SteamCMDやWineの互換性、Linuxサービス設定などの基本から、サバイバルゲーム、SourceエンジンのFPSクラシック、FiveM、Rust、Palworldなどのマルチプレイヤータイトルのインストール手順までバッチリ。
 
 ### 基本
 
@@ -56,7 +56,7 @@ Linuxサーバーで専用ゲームサーバーをセットアップするなら
 
 ## Windows
 
-Windowsサーバーで専用ゲームサーバーをホスティングするなら、充実のガイドがあるよ。ARK、Conan Exiles、Enshrouded、Valheim、Counter-StrikeやSourceエンジンシリーズ全般、さらにFarming Simulatorシリーズもカバー。txAdmin用Cloudflareトンネル設定などの基本設定も見つかるよ。
+Windowsサーバーで専用ゲームサーバーをホストするなら、充実のガイドがあるよ。ARK、Conan Exiles、Enshrouded、Valheim、Counter-StrikeやSourceエンジンシリーズ、全Farming Simulatorエディションなど幅広く対応。txAdmin用Cloudflareトンネル設定などの基本も揃ってる。
 
 ### 基本
 

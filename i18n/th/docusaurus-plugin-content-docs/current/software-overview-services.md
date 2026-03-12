@@ -52,7 +52,7 @@ import Cards, { Card } from '@site/src/components/Cards/Cards';
     <Card title="ติดตั้ง Supabase" description="" link="https://zap-hosting.com/guides/docs/vserver-linux-supabase" image="https://screensaver01.zap-hosting.com/index.php/s/XmJGtYkc7d9rBai/preview" type="product-categories"/>
     <Card title="ติดตั้ง Swush" description="" link="https://zap-hosting.com/guides/docs/server-linux-swush" image="https://screensaver01.zap-hosting.com/index.php/s/XmJGtYkc7d9rBai/preview" type="product-categories"/>
     <Card title="ติดตั้ง Teamspeak 6 Server" description="" link="https://zap-hosting.com/guides/docs/vserver-linux-ts6" image="https://screensaver01.zap-hosting.com/index.php/s/XmJGtYkc7d9rBai/preview" type="product-categories"/>
-    <Card title="ติดตั้งเว็บเซิร์ฟเวอร์" description="" link="https://zap-hosting.com/guides/docs/dedicated-linux-webserver" image="https://screensaver01.zap-hosting.com/index.php/s/XmJGtYkc7d9rBai/preview" type="product-categories"/>
+    <Card title="ติดตั้งเซิร์ฟเวอร์เว็บ" description="" link="https://zap-hosting.com/guides/docs/dedicated-linux-webserver" image="https://screensaver01.zap-hosting.com/index.php/s/XmJGtYkc7d9rBai/preview" type="product-categories"/>
     <Card title="ติดตั้ง WordPress" description="" link="https://zap-hosting.com/guides/docs/dedicated-linux-wordpress" image="https://screensaver01.zap-hosting.com/index.php/s/XmJGtYkc7d9rBai/preview" type="product-categories"/>
     <Card title="ติดตั้ง xRDP" description="" link="https://zap-hosting.com/guides/docs/dedicated-linux-xrdp" image="https://screensaver01.zap-hosting.com/index.php/s/XmJGtYkc7d9rBai/preview" type="product-categories"/>
 </Cards>

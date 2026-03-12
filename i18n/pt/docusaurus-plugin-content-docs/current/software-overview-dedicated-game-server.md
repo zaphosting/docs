@@ -7,7 +7,7 @@ sidebar_label: Visão Geral
 
 import Cards, { Card } from '@site/src/components/Cards/Cards';
 
-Quer hospedar um servidor dedicado de jogos na sua VPS ou servidor dedicado? Aqui você encontra uma coleção completa de guias passo a passo para configurar jogos populares tanto no Linux quanto no Windows.
+Quer hospedar um servidor dedicado de jogos no seu VPS ou servidor dedicado? Aqui você encontra uma coleção completa de guias passo a passo para configurar jogos populares tanto no Linux quanto no Windows.
 
 ## Linux
 

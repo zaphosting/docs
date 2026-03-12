@@ -19,13 +19,13 @@ import InlineServiceLink from '@site/src/components/InlineServiceLink';
 
 Le tableau de bord intuitif de Coolify rend l’auto-hébergement simple. Il vous donne un contrôle total sur votre infrastructure, des déploiements GitHub automatisés, et maintient vos coûts cloud bas.
 
-Dans ce guide, on vous accompagne étape par étape pour l’installer, préconfigurer votre compte admin, et configurer tout ce que vous devez savoir.
+Dans ce guide, nous vous accompagnons étape par étape pour l’installer, préconfigurer votre compte admin, et configurer tout ce que vous devez savoir.
 
 <InlineVoucher />
 
 ## Cas d’usage de Coolify
 
-Coolify peut être utilisé dans plein de scénarios du quotidien et convient à tous ceux qui veulent automatiser le déploiement d’applications, héberger des bases de données, ou faire tourner des workers en arrière-plan. Coolify est parfait aussi bien pour les débutants que pour les experts.
+Coolify peut être utilisé dans plein de scénarios du quotidien et convient à tous ceux qui veulent automatiser le déploiement d’applications, héberger des bases de données, ou faire tourner des workers en arrière-plan. Coolify est parfait aussi bien pour les débutants que pour les pros.
 
 Coolify supporte nativement le déploiement de sites statiques, Node.js, Python, PHP, Rust, et des conteneurs Docker. Il propose des templates populaires en un clic comme WordPress, Ghost, Grafana, Appwrite, Nextcloud, et des bases PostgreSQL. Il gère automatiquement les certificats SSL Let's Encrypt et le routage reverse proxy via Traefik.
 
@@ -41,10 +41,10 @@ Même si Coolify est léger à la base, la consommation de ressources peut augme
 
 <InlineServiceLink />
 
-Avant d’installer Coolify, connectez-vous à votre serveur et assurez-vous que le système d’exploitation est à jour. Vous devez vous connecter en SSH avec les droits root. On a déjà un guide sur [l’accès initial SSH](vserver-linux-ssh.md) si vous avez besoin d’aide pour cette étape.
+Avant d’installer Coolify, connectez-vous à votre serveur et assurez-vous que le système d’exploitation est à jour. Vous devez vous connecter en SSH avec les droits root. On a déjà un guide sur [l’accès initial SSH](vserver-linux-ssh.md) si vous avez besoin d’aide.
 
 :::tip[Authentification par clé SSH]
-On **recommande vivement** de configurer une clé SSH plutôt qu’un mot de passe pour l’authentification. Découvrez comment faire dans notre tuto [Configuration clé SSH](vserver-linux-sshkey.md).
+On vous **recommande vivement** de configurer une clé SSH plutôt qu’un mot de passe pour l’authentification. Découvrez comment faire dans notre tutoriel [Configuration clé SSH](vserver-linux-sshkey.md).
 :::
 
 ## Installation
@@ -64,7 +64,7 @@ Coolify applique des règles de sécurité strictes pour votre compte administra
 * **Nom d’utilisateur**
   * Longueur minimale : 3 caractères
   * Longueur maximale : 255 caractères
-  * Ne peut contenir que des lettres, chiffres, espaces, underscores et tirets
+  * Peut contenir uniquement lettres, chiffres, espaces, underscores et tirets
 * **Email**
   * Doit être une adresse email valide
   * Doit avoir un enregistrement DNS valide
@@ -80,7 +80,7 @@ Coolify applique des règles de sécurité strictes pour votre compte administra
 
 ### Lancez le script d’installation
 
-Coolify propose un script d’installation rapide et automatisé. Pour sécuriser l’installation, on va utiliser des variables d’environnement pour pré-définir le compte admin root. Ça évite les accès non autorisés pendant la configuration.
+Coolify propose un script d’installation rapide et automatisé. Pour sécuriser l’installation, on va utiliser des variables d’environnement pour pré-définir le compte administrateur root. Ça évite les accès non autorisés pendant la configuration.
 
 Lancez la commande suivante en remplaçant le nom d’utilisateur, l’email et le mot de passe par vos propres identifiants sécurisés :
 
@@ -91,7 +91,7 @@ env ROOT_USERNAME=zaphosting ROOT_USER_EMAIL=info@zap-hosting.com ROOT_USER_PASS
 Vous pouvez consulter le code source du script d’installation dans le [dépôt officiel Coolify](https://github.com/coollabsio/coolify/blob/v4.x/scripts/install.sh)
 :::
 
-Le script va automatiquement installer Docker, configurer les réseaux nécessaires, et paramétrer les conteneurs Coolify. Cette étape peut prendre quelques minutes selon la puissance de votre serveur.
+Le script installera automatiquement Docker, configurera les réseaux nécessaires, et mettra en place les conteneurs Coolify. Ce processus peut prendre quelques minutes selon la puissance de votre serveur.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/Zx5DXzEH2MmrkrX/preview)
 
@@ -99,17 +99,17 @@ Le script va automatiquement installer Docker, configurer les réseaux nécessai
 
 ### Accéder à Coolify
 
-Une fois l’installation terminée, la prochaine étape est d’accéder au tableau de bord via un navigateur web. Tapez l’adresse IP de votre serveur suivie du port 8000 : `http://[votre_ip_serveur]:8000`
+Une fois l’installation terminée, la prochaine étape est d’accéder au tableau de bord via un navigateur web. Entrez l’adresse IP de votre serveur suivie du port 8000 : `http://[votre_ip_serveur]:8000`
 
-Comme vous avez déjà fourni vos identifiants via la commande d’installation, vous arriverez directement sur l’écran de connexion, sans passer par l’assistant de configuration initial.
+Comme vous avez déjà fourni vos identifiants via la commande d’installation, vous verrez directement l’écran de connexion au lieu de l’assistant de configuration initial.
 
-Entrez l’email et le mot de passe que vous avez utilisés en ligne de commande pour accéder à votre tableau de bord.
+Entrez l’email et le mot de passe que vous avez utilisés dans la ligne de commande pour accéder à votre tableau de bord.
 
 
 
 ### Configuration des enregistrements DNS
 
-Après vous être connecté au tableau de bord Coolify, la première chose à faire est de configurer un domaine personnalisé. Accéder à Coolify via l’adresse IP (`http://[votre_ip_serveur]:8000`) n’est pas sécurisé.
+Après vous être connecté au tableau de bord Coolify, la première chose à faire est de configurer un domaine personnalisé. Accéder à Coolify via votre adresse IP (`http://[votre_ip_serveur]:8000`) n’est pas sécurisé.
 
 Connecter un domaine permet à Coolify de générer automatiquement des certificats SSL gratuits pour votre tableau de bord et toutes vos futures applications.
 
@@ -117,12 +117,12 @@ Rendez-vous dans la gestion DNS de votre fournisseur de domaine et ajoutez deux 
 
 | Nom / Hôte | Type | Valeur             | TTL           |
 | ---------- | ---- | ------------------ | ------------- |
-| `@`        | A    | `[votre_ip_serveur]` | Auto / Plus bas |
-| `*`        | A    | `[votre_ip_serveur]` | Auto / Plus bas |
+| `@`        | A    | `[votre_ip_serveur]` | Auto / Le plus bas |
+| `*`        | A    | `[votre_ip_serveur]` | Auto / Le plus bas |
 
 :::info[Routage DNS]
 *   L’enregistrement `@` permet à Coolify d’utiliser la racine de votre domaine
-*   L’enregistrement `*` (wildcard) permet à Coolify de router automatiquement n’importe quel nouveau sous-domaine (ex : `api.[votre_domaine]`) sans ajouter d’enregistrements DNS pour chaque projet.
+*   L’enregistrement `*` (joker) permet à Coolify de router automatiquement tout nouveau sous-domaine (ex : `api.[votre_domaine]`) sans ajouter d’enregistrements DNS pour chaque projet.
 :::
 
 
@@ -147,7 +147,7 @@ Cliquez sur **+ Ajouter une ressource** pour ajouter un dépôt public ou un fic
 
 ## Conclusion et ressources supplémentaires
 
-Bravo ! Vous avez installé Coolify avec succès sur votre serveur et pouvez commencer à déployer vos projets tout de suite. On vous recommande aussi de jeter un œil aux ressources suivantes, qui pourront vous aider et vous guider dans la configuration de votre serveur.
+Bravo ! Vous avez installé Coolify avec succès sur votre serveur et pouvez commencer à déployer vos projets immédiatement. On vous recommande aussi de jeter un œil aux ressources suivantes, qui pourront vous aider et vous guider dans la configuration de votre serveur.
 
 - [coolify.io](https://coolify.io/) - Site officiel
 - [coolify.io/docs](https://coolify.io/docs/) - Documentation Coolify

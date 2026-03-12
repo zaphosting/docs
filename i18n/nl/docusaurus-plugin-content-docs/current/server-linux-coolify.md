@@ -17,9 +17,9 @@ import InlineServiceLink from '@site/src/components/InlineServiceLink';
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/nrXeZsgjXn43sfw/preview)
 
-Coolify’s intuïtieve dashboard maakt zelfhosten super makkelijk. Je hebt volledige controle over je infrastructuur, geautomatiseerde GitHub deployments en houdt je cloudkosten laag.
+Coolify’s intuïtieve dashboard maakt zelfhosten makkelijk. Je hebt volledige controle over je infrastructuur, geautomatiseerde GitHub deployments en houdt je cloudkosten laag.
 
-In deze gids nemen we je stap voor stap mee in het installatieproces, het vooraf configureren van je admin account en alles wat je verder moet weten.
+In deze gids nemen we je stap voor stap mee in het opzetten, het vooraf configureren van je admin-account en alles wat je verder moet weten.
 
 <InlineVoucher />
 
@@ -27,11 +27,11 @@ In deze gids nemen we je stap voor stap mee in het installatieproces, het vooraf
 
 Coolify is geschikt voor allerlei dagelijkse situaties en ideaal voor iedereen die applicatie-deployments wil automatiseren, databases wil hosten of background workers wil draaien. Perfect voor beginners én experts.
 
-Coolify ondersteunt out-of-the-box het deployen van Static Sites, Node.js, Python, PHP, Rust en Docker containers. Het heeft trendy one-click templates zoals WordPress, Ghost, Grafana, Appwrite, Nextcloud en PostgreSQL databases. Daarnaast regelt het automatisch Let's Encrypt SSL-certificaten en reverse proxy routing via Traefik.
+Coolify ondersteunt out-of-the-box het deployen van Static Sites, Node.js, Python, PHP, Rust en Docker containers. Het heeft populaire one-click templates zoals WordPress, Ghost, Grafana, Appwrite, Nextcloud en PostgreSQL databases. Ook regelt het automatisch Let's Encrypt SSL-certificaten en reverse proxy routing via Traefik.
 
 ## Voorbereiding
 
-Hoewel Coolify zelf lichtgewicht is, kan het gebruik van resources flink oplopen afhankelijk van het aantal applicaties, Docker builds en databases die tegelijk draaien. We raden de volgende hardware aan om Coolify te hosten op je VPS of Dedicated Server.
+Hoewel Coolify van zichzelf lichtgewicht is, kan het gebruik van resources flink toenemen afhankelijk van het aantal applicaties, Docker builds en databases die tegelijk draaien. We raden de volgende hardware aan voor het hosten van Coolify op je VPS of Dedicated Server.
 
 | Hardware   | Minimum      | Aanbevolen                |
 | ---------- | ------------ | -------------------------- |
@@ -41,30 +41,28 @@ Hoewel Coolify zelf lichtgewicht is, kan het gebruik van resources flink oplopen
 
 <InlineServiceLink />
 
-Voordat je Coolify installeert, moet je verbinding maken met je server en zorgen dat het besturingssysteem up-to-date is. Je moet via SSH met rootrechten inloggen. We hebben al een handleiding over [SSH Eerste toegang](vserver-linux-ssh.md) als je hulp nodig hebt bij deze stap.
+Voordat je Coolify installeert, moet je verbinding maken met je server en zorgen dat het besturingssysteem up-to-date is. Je moet via SSH met rootrechten inloggen. We hebben al een handleiding over [SSH Eerste toegang](vserver-linux-ssh.md) als je hulp nodig hebt.
 
 :::tip[SSH Key Authenticatie]
-We **raden sterk aan** om een SSH Key in te stellen in plaats van een wachtwoord als authenticatiemethode. Hoe je dat doet, lees je in onze [SSH Key Setup](vserver-linux-sshkey.md) tutorial.
+We **raden sterk aan** om een SSH Key te gebruiken in plaats van een wachtwoord voor authenticatie. Hoe je dat doet, lees je in onze [SSH Key Setup](vserver-linux-sshkey.md) tutorial.
 :::
 
 ## Installatie
 
-Nadat je verbonden bent met je server, update je de systeem pakketten en installeer je `curl`, dat nodig is om het Coolify installatie script binnen te halen:
+Als je verbonden bent met je server, update dan je systeem en installeer `curl`, dat nodig is om het Coolify installatie-script te downloaden:
 
 ```bash
 sudo apt update && sudo apt upgrade -y && sudo apt install curl -y
 ```
 
-
-
 ### Bereid je Admin Gebruikersgegevens voor
 
-Coolify hanteert strikte beveiligingsregels voor je administrator account. Bereid voordat je het installatiecommando uitvoert je Coolify root gebruikersgegevens voor volgens de volgende validatie-eisen:
+Coolify hanteert strenge beveiligingsregels voor je administrator account. Bereid je root-gebruikersgegevens voor volgens deze validatie-eisen voordat je het installatie-commando draait:
 
 * **Gebruikersnaam**
   * Minimaal 3 tekens
   * Maximaal 255 tekens
-  * Mag alleen letters, cijfers, spaties, underscores en koppeltekens bevatten
+  * Alleen letters, cijfers, spaties, underscores en koppeltekens toegestaan
 * **E-mail**
   * Moet een geldig e-mailadres zijn
   * Moet een geldige DNS-record hebben
@@ -72,48 +70,42 @@ Coolify hanteert strikte beveiligingsregels voor je administrator account. Berei
 * **Wachtwoord**
   * Minimaal 8 tekens
   * Moet hoofdletters en kleine letters bevatten
-  * Moet minstens één cijfer bevatten
-  * Moet minstens één speciaal teken bevatten
+  * Minimaal één cijfer
+  * Minimaal één speciaal teken
   * Mag geen veelgebruikt of gelekt wachtwoord zijn
-
-
 
 ### Voer het Installatiescript uit
 
-Coolify biedt een snelle, geautomatiseerde installatiescript. Om de installatie veilig te maken, gebruiken we omgevingsvariabelen om het root administrator account vooraf te definiëren. Zo voorkom je ongeautoriseerde toegang tijdens de setup.
+Coolify biedt een snelle, geautomatiseerde installatie. Om de installatie veilig te houden, gebruiken we environment variables om het root admin account vooraf in te stellen. Zo voorkom je ongeautoriseerde toegang tijdens de setup.
 
-Voer het volgende commando uit en vervang de gebruikersnaam, e-mail en het wachtwoord door je eigen veilige gegevens:
+Voer het volgende commando uit, en vervang de gebruikersnaam, e-mail en het wachtwoord door je eigen veilige gegevens:
 
 ```bash
 env ROOT_USERNAME=zaphosting ROOT_USER_EMAIL=info@zap-hosting.com ROOT_USER_PASSWORD=zaphosting bash -c 'curl -fsSL https://cdn.coollabs.io/coolify/install.sh | bash'
 ```
 :::note[Open Source]
-Je vindt de broncode van het installatiescript in de [Officiële Coolify Repository](https://github.com/coollabsio/coolify/blob/v4.x/scripts/install.sh)
+De broncode van het installatiescript vind je in de [Officiële Coolify Repository](https://github.com/coollabsio/coolify/blob/v4.x/scripts/install.sh)
 :::
 
-Het script installeert automatisch Docker, zet de benodigde netwerken op en configureert de Coolify containers. Dit kan een paar minuten duren, afhankelijk van de hardware van je server.
+Het script installeert automatisch Docker, zet de benodigde netwerken op en configureert de Coolify containers. Dit kan een paar minuten duren, afhankelijk van je serverhardware.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/Zx5DXzEH2MmrkrX/preview)
 
-
-
 ### Toegang tot Coolify
 
-Na de installatie is de volgende stap om met je webbrowser het dashboard te openen. Typ het IP-adres van je server gevolgd door poort 8000: `http://[jouw_server_ip]:8000`
+Na de installatie open je de dashboard in je browser via het IP-adres van je server en poort 8000: `http://[jouw_server_ip]:8000`
 
-Omdat je je credentials al via het installatiecommando hebt opgegeven, zie je direct het inlogscherm in plaats van de setup wizard.
+Omdat je je credentials al via het installatie-commando hebt opgegeven, zie je direct het inlogscherm in plaats van de setup wizard.
 
 Log in met het e-mailadres en wachtwoord dat je gebruikte in de command line.
 
-
-
 ### DNS Records instellen
 
-Na het inloggen in je Coolify dashboard is het eerste wat je moet doen het instellen van een eigen domein. Toegang via je IP-adres (`http://[jouw_server_ip]:8000`) is namelijk onveilig.
+Na het inloggen is het slim om direct een eigen domein te koppelen. Toegang via je IP (`http://[jouw_server_ip]:8000`) is namelijk niet veilig.
 
-Door een domein te koppelen kan Coolify automatisch gratis SSL-certificaten genereren voor je dashboard en al je toekomstige applicaties.
+Met een domein kan Coolify automatisch gratis SSL-certificaten genereren voor je dashboard en toekomstige apps.
 
-Ga naar de DNS beheerpagina van je domeinprovider en voeg twee nieuwe `A` records toe die naar je server wijzen. Als je domein geregistreerd staat bij ZAP-Hosting, kun je onze [Domein Records](domain-records.md) gids volgen om deze entries makkelijk toe te voegen:
+Ga naar het DNS-beheer van je domeinprovider en voeg twee nieuwe `A` records toe die naar je server wijzen. Heb je je domein bij ZAP-Hosting geregistreerd? Volg dan onze [Domein Records](domain-records.md) gids om dit makkelijk in te stellen:
 
 | Naam / Host | Type | Waarde             | TTL           |
 | ----------- | ---- | ------------------ | ------------- |
@@ -121,37 +113,31 @@ Ga naar de DNS beheerpagina van je domeinprovider en voeg twee nieuwe `A` record
 | `*`         | A    | `[jouw_server_ip]` | Auto / Laag   |
 
 :::info[DNS Routing]
-*   De `@` record zorgt dat Coolify de root van je domein kan gebruiken
-*   De `*` (wildcard) record laat Coolify automatisch nieuwe subdomeinen (bijv. `api.[jouw_domein]`) routeren zonder dat je voor elk project DNS records hoeft toe te voegen.
+*   De `@` record zorgt dat Coolify het rootdomein kan gebruiken
+*   De `*` (wildcard) record laat Coolify automatisch subdomeinen (bijv. `api.[jouwdomein]`) routeren zonder dat je voor elk project DNS records hoeft toe te voegen.
 :::
-
-
 
 ### Domein instellen voor je Coolify instance
 
-Om je Coolify instance te beveiligen met een SSL-certificaat, moet je er een domein aan koppelen. Ga naar **Settings** in de linkerzijbalk en zoek het veld **Instance Domain**. Vul hier je domein in, inclusief de `https://` prefix (bijv. `https://coolify.[jouw_domein]`). Klik op **Save** om deze stap af te ronden.
+Om je Coolify instance met een SSL-certificaat te beveiligen, koppel je een domein. Ga naar **Settings** in de linkerzijbalk en zoek het veld **Instance Domain**. Vul je domein in, inclusief `https://` (bijv. `https://coolify.[jouwdomein]`). Klik op **Save** om te bevestigen.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/jYW63sF9k5sZez3/preview)
 
-
-
 ## Je eerste app deployen
 
-Daarna kun je naar het tabblad **Projects** gaan en je eerste applicatie gaan deployen!
+Daarna kun je naar het tabblad **Projects** gaan en je eerste applicatie deployen!
 
-Klik op **+ Add Resource** om een publieke repository of een Docker Compose bestand toe te voegen, of kies een van de vele vooraf geconfigureerde services uit de one-click template bibliotheek. Je Coolify installatie is helemaal klaar voor gebruik!
+Klik op **+ Add Resource** om een publieke repository of Docker Compose bestand toe te voegen, of kies uit de vele vooraf ingestelde services uit de one-click template bibliotheek. Je Coolify installatie is klaar voor gebruik!
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/nEf9XBDrfypijE7/preview)
 
-
-
 ## Conclusie en meer bronnen
 
-Cheers! Je hebt Coolify succesvol op je server geïnstalleerd en kunt direct aan de slag met het deployen van je projecten. We raden je ook aan om de volgende bronnen te checken, die je extra hulp en tips kunnen geven tijdens het configureren van je server.
+Top! Je hebt Coolify succesvol op je server geïnstalleerd en kunt direct aan de slag met je projecten. We raden je ook aan om deze bronnen te checken voor extra hulp en tips tijdens je serverconfiguratie:
 
-- [coolify.io](https://coolify.io/) - Officiële Website
-- [coolify.io/docs](https://coolify.io/docs/) - Coolify Documentatie
+- [coolify.io](https://coolify.io/) - Officiële website
+- [coolify.io/docs](https://coolify.io/docs/) - Coolify documentatie
 
-Heb je specifieke vragen die hier niet behandeld worden? Voor verdere vragen of hulp kun je altijd contact opnemen met onze support, die dagelijks voor je klaarstaat! 🙂
+Heb je nog vragen die hier niet beantwoord worden? Neem gerust contact op met onze support, die dagelijks voor je klaarstaat! 🙂
 
 <InlineVoucher />

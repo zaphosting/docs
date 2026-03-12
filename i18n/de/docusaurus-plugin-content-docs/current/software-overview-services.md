@@ -7,7 +7,7 @@ sidebar_label: Übersicht
 
 import Cards, { Card } from '@site/src/components/Cards/Cards';
 
-Willst du einen bestimmten Service auf deinem VPS oder Dedicated Server installieren? Hier findest du eine umfangreiche Sammlung von Schritt-für-Schritt-Anleitungen, die dir helfen, schnell und effizient loszulegen. Egal ob du Linux oder Windows nutzt, eine breite Palette professionell vorbereiteter Anleitungen steht dir zur Verfügung.
+Willst du einen bestimmten Service auf deinem VPS oder Dedicated Server installieren? Hier findest du eine umfangreiche Sammlung von Schritt-für-Schritt-Anleitungen, die dir helfen, schnell und effizient loszulegen. Egal ob Linux oder Windows – eine breite Palette professionell vorbereiteter Anleitungen steht dir zur Verfügung.
 
 ## Linux
 

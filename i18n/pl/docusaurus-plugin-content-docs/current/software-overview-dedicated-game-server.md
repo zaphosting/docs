@@ -1,7 +1,7 @@
 ---
 id: software-overview-dedicated-game-server
 title: "Przegląd dedykowanych serwerów gier"
-description: "Odkryj poradniki dotyczące konfiguracji dedykowanych serwerów gier na Linux i Windows → Dowiedz się więcej już teraz"
+description: "Odkryj poradniki konfiguracji dedykowanych serwerów gier na Linux i Windows → Dowiedz się więcej"
 sidebar_label: Przegląd
 ---
 
@@ -11,7 +11,7 @@ Chcesz postawić dedykowany serwer gier na swoim VPS lub serwerze dedykowanym? T
 
 ## Linux
 
-Skonfiguruj dedykowane serwery gier na swoim serwerze Linux dzięki naszym szczegółowym poradnikom. Znajdziesz tu ogólne materiały dotyczące konfiguracji, takie jak SteamCMD, kompatybilność Wine oraz konfiguracja usług Linux, a także instrukcje instalacji krok po kroku dla popularnych tytułów, w tym survivalowych, klasyków FPS z rodziny Source engine oraz multiplayerowych hitów jak FiveM, Rust czy Palworld.
+Skonfiguruj dedykowane serwery gier na swoim serwerze Linux dzięki naszym szczegółowym poradnikom. Znajdziesz tu ogólne materiały, takie jak SteamCMD, kompatybilność Wine oraz konfiguracja usług Linux, a także instrukcje instalacji krok po kroku dla popularnych tytułów, w tym survivalowych, klasyków FPS z rodziny Source engine oraz multiplayerowych hitów jak FiveM, Rust czy Palworld.
 
 ### Ogólne
 
@@ -56,7 +56,7 @@ Skonfiguruj dedykowane serwery gier na swoim serwerze Linux dzięki naszym szcze
 
 ## Windows
 
-Hostuj dedykowane serwery gier na swoim serwerze Windows dzięki naszym kompleksowym poradnikom. Obejmują one szeroki wybór gier, w tym ARK, Conan Exiles, Enshrouded, Valheim, pełną serię Counter-Strike i Source engine oraz wszystkie edycje Farming Simulator. Znajdziesz tu także ogólne materiały dotyczące konfiguracji, takie jak konfiguracja tunelu Cloudflare dla txAdmin.
+Postaw dedykowane serwery gier na swoim serwerze Windows dzięki naszym kompleksowym poradnikom. Obejmują one szeroki wybór gier, w tym ARK, Conan Exiles, Enshrouded, Valheim, pełną serię Counter-Strike i Source engine oraz wszystkie edycje Farming Simulator. Znajdziesz tu także ogólne materiały, takie jak konfiguracja tunelu Cloudflare dla txAdmin.
 
 ### Ogólne
 

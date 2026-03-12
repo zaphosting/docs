@@ -11,7 +11,7 @@ Tu cherches à héberger un serveur de jeux dédié sur ton VPS ou serveur dédi
 
 ## Linux
 
-Installe des serveurs de jeux dédiés sur ton serveur Linux grâce à nos guides détaillés. Tu trouveras des ressources générales comme SteamCMD, la compatibilité Wine, et la configuration des services Linux, ainsi que des guides d’installation étape par étape pour des titres populaires, incluant des jeux de survie, des classiques FPS de la famille Source engine, et des favoris multijoueurs comme FiveM, Rust, et Palworld.
+Configure des serveurs de jeux dédiés sur ton serveur Linux grâce à nos guides détaillés. Tu trouveras des ressources générales comme SteamCMD, la compatibilité Wine, et la configuration des services Linux, ainsi que des guides d’installation étape par étape pour des titres populaires incluant des jeux de survie, des classiques FPS de la famille Source engine, et des favoris multijoueurs comme FiveM, Rust, et Palworld.
 
 ### Général
 

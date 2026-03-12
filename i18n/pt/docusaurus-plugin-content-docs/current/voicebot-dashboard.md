@@ -12,9 +12,9 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introdução
 
-Você está interessado em um **Voicebot** ou já tem um, mas ainda sente falta de uma visão geral completa da administração e da localização de todas as opções necessárias? Principalmente no começo, isso pode ser um desafio. Mas relaxa, vamos te dar uma introdução detalhada sobre a administração do seu serviço aqui embaixo, para que você tenha a melhor visão possível.
+Você está interessado em um **Voicebot** ou já tem um, mas ainda sente falta de uma visão geral completa da administração e da localização de todas as opções necessárias? Especialmente no começo, isso pode ser um desafio. Mas relaxa, vamos te dar uma introdução detalhada sobre a administração do seu serviço aqui embaixo, para que você tenha a melhor visão possível.
 
-Depois de passar por este guia, você vai conseguir gerenciar seu Voicebot de forma fácil e eficiente, encontrando todas as opções e recursos necessários rápida e facilmente. Aqui, você vai ter uma visão estruturada que vai te ajudar passo a passo a se familiarizar com a administração do Voicebot e expandir seu conhecimento de forma direcionada. Assim, você garante que seu **Voicebot** esteja configurado da melhor forma para suas necessidades e que você aproveite ao máximo as opções disponíveis.
+Depois de passar por este guia, você vai conseguir gerenciar seu Voicebot de forma eficiente e encontrar todas as opções e recursos necessários rápida e facilmente. Aqui, você terá uma visão estruturada que vai te ajudar passo a passo a se familiarizar com a administração do Voicebot e expandir seu conhecimento de forma direcionada. Assim, você garante que seu **Voicebot** esteja configurado da melhor forma para suas necessidades e que você aproveite ao máximo as opções disponíveis.
 
 <InlineVoucher />
 
@@ -24,7 +24,7 @@ Na seção **Administração do Produto**, você vai encontrar todas as páginas
 
 ### Dashboard
 
-O **Dashboard** do VoiceBot funciona como a visão geral central de gerenciamento. Ele mostra todas as informações básicas e essenciais sobre o VoiceBot de forma clara, incluindo o status online, dados de login, link para a interface web externa e uso do disco.
+O **Dashboard** do VoiceBot funciona como a visão central de gerenciamento. Ele mostra todas as informações básicas e essenciais sobre o VoiceBot de forma clara, incluindo o status online, dados de login, link para a interface web externa e uso do disco.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/YnXaQDPywcoxFPP/preview)
 
@@ -36,7 +36,7 @@ A maioria das funções do VoiceBot está disponível através de uma interface 
 
 ### Servidor
 
-Antes de usar o bot, é necessário definir em qual servidor TeamSpeak ele deve rodar. O endereço IP e a porta do servidor precisam ser especificados, junto com um nome livremente escolhível para o bot. Se o servidor for protegido por senha, ela deve ser informada para que o bot consiga acessar o servidor.
+Antes de usar o bot, é necessário definir em qual servidor TeamSpeak ele deve rodar. O endereço IP e a porta do servidor precisam ser especificados, junto com um nome livre para o bot. Se o servidor for protegido por senha, ela deve ser informada para que o bot consiga acessar o servidor.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/sbbRr9f5HexcMsG/preview)
 
@@ -56,7 +56,7 @@ A seção **Perguntas Frequentes** oferece uma visão geral das dúvidas mais co
 
 ### Documentação ZAP-Hosting
 
-Oferecemos uma documentação extensa para nossos produtos, que serve como base de conhecimento para as dúvidas e questões mais frequentes. Lá você encontra vários guias e ajudas sobre diferentes assuntos que vão te auxiliar no uso e gerenciamento do seu produto.
+Oferecemos uma documentação completa para nossos produtos, que funciona como uma base de conhecimento para as dúvidas e questões mais frequentes. Lá você encontra vários guias e ajuda sobre diferentes assuntos que vão te auxiliar no uso e na administração do seu produto.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/n48ct6aZBrNq7eT/preview)
 

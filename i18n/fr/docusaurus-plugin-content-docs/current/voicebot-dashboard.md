@@ -12,9 +12,9 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introduction
 
-Vous êtes intéressé par un **bot vocal** ou vous en possédez déjà un, mais il vous manque encore une vue d’ensemble complète de l’administration et de la localisation de toutes les options nécessaires ? Surtout au début, cela peut être un vrai défi. Mais pas de panique, on vous propose ci-dessous une introduction détaillée à l’administration de votre service, pour que vous ayez la meilleure vue d’ensemble possible.
+Vous êtes intéressé par un **bot vocal** ou vous en possédez déjà un, mais il vous manque encore une vue d’ensemble complète de l’administration et de la localisation de toutes les options nécessaires ? Surtout au début, cela peut être un vrai défi. Pas de panique, on vous propose ci-dessous une introduction détaillée à l’administration de votre service, pour que vous ayez la meilleure vue d’ensemble possible.
 
-Après avoir parcouru ce guide, vous serez capable de gérer votre bot vocal facilement et de trouver rapidement toutes les options et fonctionnalités indispensables. Ici, vous aurez un aperçu structuré qui vous aidera étape par étape à vous familiariser avec l’administration du bot vocal et à approfondir vos connaissances de manière ciblée. Ainsi, vous pourrez vous assurer que votre **bot vocal** est configuré de manière optimale selon vos besoins et que vous tirez le meilleur parti des options disponibles.
+Après avoir parcouru ce guide, vous serez capable de gérer votre bot vocal facilement et de trouver rapidement toutes les options et fonctionnalités indispensables. Ici, vous aurez un aperçu structuré qui vous aidera pas à pas à vous familiariser avec l’administration du bot vocal et à approfondir vos connaissances de manière ciblée. Ainsi, vous pourrez vous assurer que votre **bot vocal** est configuré au mieux selon vos besoins et que vous tirez le maximum des options disponibles.
 
 <InlineVoucher />
 
@@ -24,19 +24,19 @@ Dans la section **Administration du Produit**, vous trouverez toutes les pages n
 
 ### Tableau de Bord
 
-Le **Tableau de Bord** du VoiceBot sert de vue centrale de gestion. Il fournit toutes les informations de base et essentielles sur le VoiceBot dans un format clair, incluant le statut en ligne, les détails de connexion, le lien vers l’interface web externe, et l’utilisation du disque.
+Le **Tableau de Bord** du VoiceBot sert de vue centrale pour la gestion. Il fournit toutes les informations de base et essentielles sur le VoiceBot dans un format clair, incluant le statut en ligne, les détails de connexion, le lien vers l’interface web externe, et l’utilisation du disque.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/YnXaQDPywcoxFPP/preview)
 
 ### Interface Web
 
-La plupart des fonctions du VoiceBot sont accessibles via une interface web externe. Cette interface permet de sélectionner la source musicale souhaitée et de soumettre des suggestions pour améliorer le bot. Il est également possible de changer le mot de passe pour accéder à l’interface web et de réinstaller le VoiceBot.
+La plupart des fonctions du VoiceBot sont accessibles via une interface web externe. Cette interface permet de sélectionner la source musicale souhaitée et de soumettre des suggestions pour améliorer le bot. Il est aussi possible de changer le mot de passe d’accès à l’interface web et de réinstaller le VoiceBot.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/cmKrJ2YpzmZcm2L/preview)
 
 ### Serveur
 
-Avant d’utiliser le bot, il est nécessaire de définir sur quel serveur TeamSpeak il doit fonctionner. L’adresse IP et le port du serveur doivent être spécifiés, ainsi qu’un nom librement choisi pour le bot. Si le serveur est protégé par un mot de passe, celui-ci doit être fourni pour que le bot puisse accéder au serveur.
+Avant d’utiliser le bot, il faut définir sur quel serveur TeamSpeak il doit tourner. L’adresse IP et le port du serveur doivent être spécifiés, ainsi qu’un nom librement choisi pour le bot. Si le serveur est protégé par un mot de passe, celui-ci doit être fourni pour que le bot puisse accéder au serveur.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/sbbRr9f5HexcMsG/preview)
 

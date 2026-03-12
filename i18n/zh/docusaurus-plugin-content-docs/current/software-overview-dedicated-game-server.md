@@ -49,7 +49,7 @@ import Cards, { Card } from '@site/src/components/Cards/Cards';
     <Card title="Rust" description="" link="https://zap-hosting.com/guides/docs/dedicated-linux-rust" image="https://screensaver01.zap-hosting.com/index.php/s/G82jnYsbexscj5W/preview"/>
     <Card title="Satisfactory" description="" link="https://zap-hosting.com/guides/docs/dedicated-linux-satisfactory" image="https://screensaver01.zap-hosting.com/index.php/s/sB4kXbCDcrq77Ki/preview"/>
     <Card title="Soulmask" description="" link="https://zap-hosting.com/guides/docs/dedicated-linux-soulmask" image="https://screensaver01.zap-hosting.com/index.php/s/NYaRT7cHqXXQF8d/preview"/>
-    <Card title="军团要塞 2" description="" link="https://zap-hosting.com/guides/docs/dedicated-linux-tf2" image="https://screensaver01.zap-hosting.com/index.php/s/PPRN8qRJDBjEzmG/preview"/>
+    <Card title="Team Fortress 2" description="" link="https://zap-hosting.com/guides/docs/dedicated-linux-tf2" image="https://screensaver01.zap-hosting.com/index.php/s/PPRN8qRJDBjEzmG/preview"/>
     <Card title="V Rising" description="" link="https://zap-hosting.com/guides/docs/dedicated-linux-vrising" image="https://screensaver01.zap-hosting.com/index.php/s/xazMeLwLJTJG7LF/preview"/>
     <Card title="Valheim" description="" link="https://zap-hosting.com/guides/docs/dedicated-linux-valheim" image="https://screensaver01.zap-hosting.com/index.php/s/LSiFMXMmyKgo4LG/preview"/>
 </Cards>
@@ -78,7 +78,7 @@ import Cards, { Card } from '@site/src/components/Cards/Cards';
     <Card title="Enshrouded" description="" link="https://zap-hosting.com/guides/docs/vserver-windows-enshrouded" image="https://screensaver01.zap-hosting.com/index.php/s/65zgmLrBtcPTt7k/preview"/>
     <Card title="Farming Simulator 2019" description="" link="https://zap-hosting.com/guides/docs/vserver-windows-fs-19" image="https://screensaver01.zap-hosting.com/index.php/s/XmJGtYkc7d9rBai/preview"/>
     <Card title="Farming Simulator 2022" description="" link="https://zap-hosting.com/guides/docs/vserver-windows-fs-22" image="https://screensaver01.zap-hosting.com/index.php/s/XmJGtYkc7d9rBai/preview"/>
-    <Card title="Farming Simulator 2022（Epic Games版）" description="" link="https://zap-hosting.com/guides/docs/dedicated-windows-fs-22-epic" image="https://screensaver01.zap-hosting.com/index.php/s/XmJGtYkc7d9rBai/preview"/>
+    <Card title="Farming Simulator 2022 (Epic Games)" description="" link="https://zap-hosting.com/guides/docs/dedicated-windows-fs-22-epic" image="https://screensaver01.zap-hosting.com/index.php/s/XmJGtYkc7d9rBai/preview"/>
     <Card title="Farming Simulator 2025" description="" link="https://zap-hosting.com/guides/docs/dedicated-windows-fs-25" image="https://screensaver01.zap-hosting.com/index.php/s/XmJGtYkc7d9rBai/preview"/>
     <Card title="FiveM" description="" link="https://zap-hosting.com/guides/docs/dedicated-windows-fivem" image="https://screensaver01.zap-hosting.com/index.php/s/XmJGtYkc7d9rBai/preview"/>
     <Card title="Foundry" description="" link="https://zap-hosting.com/guides/docs/dedicated-windows-foundry" image="https://screensaver01.zap-hosting.com/index.php/s/wpiikozcXjmfTty/preview"/>
@@ -92,7 +92,7 @@ import Cards, { Card } from '@site/src/components/Cards/Cards';
     <Card title="RageMP" description="" link="https://zap-hosting.com/guides/docs/dedicated-windows-ragemp" image="https://screensaver01.zap-hosting.com/index.php/s/XmJGtYkc7d9rBai/preview"/>
     <Card title="Satisfactory" description="" link="https://zap-hosting.com/guides/docs/dedicated-windows-satisfactory" image="https://screensaver01.zap-hosting.com/index.php/s/sB4kXbCDcrq77Ki/preview"/>
     <Card title="Soulmask" description="" link="https://zap-hosting.com/guides/docs/dedicated-windows-soulmask" image="https://screensaver01.zap-hosting.com/index.php/s/NYaRT7cHqXXQF8d/preview"/>
-    <Card title="军团要塞 2" description="" link="https://zap-hosting.com/guides/docs/dedicated-windows-tf2" image="https://screensaver01.zap-hosting.com/index.php/s/PPRN8qRJDBjEzmG/preview"/>
+    <Card title="Team Fortress 2" description="" link="https://zap-hosting.com/guides/docs/dedicated-windows-tf2" image="https://screensaver01.zap-hosting.com/index.php/s/PPRN8qRJDBjEzmG/preview"/>
     <Card title="V Rising" description="" link="https://zap-hosting.com/guides/docs/vserver-windows-vrising" image="https://screensaver01.zap-hosting.com/index.php/s/xazMeLwLJTJG7LF/preview"/>
     <Card title="Valheim" description="" link="https://zap-hosting.com/guides/docs/vserver-windows-valheim" image="https://screensaver01.zap-hosting.com/index.php/s/LSiFMXMmyKgo4LG/preview"/>
 </Cards>

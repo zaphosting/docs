@@ -42,13 +42,13 @@ De meeste functies van de VoiceBot zijn beschikbaar via een externe webinterface
 
 ### Server
 
-Voordat je de bot gebruikt, moet je aangeven op welke TeamSpeak-server hij moet draaien. Je geeft het IP-adres en de poort van de server op, samen met een vrij te kiezen naam voor de bot. Als de server met een wachtwoord beveiligd is, moet je dat ook invullen zodat de bot toegang krijgt tot de server.
+Voordat je de bot gebruikt, moet je aangeven op welke TeamSpeak-server hij moet draaien. Je geeft het IP-adres en de poort van de server op, samen met een zelfgekozen naam voor de bot. Als de server met een wachtwoord beveiligd is, moet je dat ook invullen zodat de bot toegang krijgt tot de server.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/sbbRr9f5HexcMsG/preview)
 
 ### Geavanceerde instellingen
 
-Geavanceerde functies zoals het automatisch verplaatsen van gebruikers of het afspelen van een welkomstbericht wanneer iemand de server betreedt, kun je activeren door de juiste instellingen te configureren. Deze functies zorgen voor een persoonlijkere en geautomatiseerde serverbeheerervaring.
+Geavanceerde functies zoals het automatisch verplaatsen van gebruikers of het afspelen van een welkomstbericht wanneer iemand de server betreedt, kun je activeren door de juiste instellingen aan te passen. Deze functies zorgen voor een persoonlijkere en geautomatiseerde serverbeheerervaring.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/yz94fyZssG53Rjd/preview)
 
