@@ -5270,6 +5270,7 @@ const sidebars = {
     "vserver-linux-supabase",
     "server-linux-swush",
     "dedicated-linux-ssh-server",
+    "server-truenas-scale",
     "vserver-linux-ts6",
     "dedicated-linux-webserver",
     "dedicated-linux-wordpress",
