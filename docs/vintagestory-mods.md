@@ -79,8 +79,6 @@ After the server has started successfully, connect to the server and verify that
 
 ## Conclusion
 
-Congratulations! You have successfully installed mods on your Vintage Story server. Mods allow you to expand gameplay, introduce new mechanics, and customize the experience for your community.
-
-For further questions or assistance, please don’t hesitate to contact our support team, which is available daily to assist you! 🙂
+Congratulations! You have successfully installed mods on your Vintage Story server. Mods allow you to expand gameplay, introduce new mechanics, and customize the experience for your community. For further questions or assistance, please don’t hesitate to contact our support team, which is available daily to assist you! 🙂
 
 <InlineVoucher />
