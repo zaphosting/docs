@@ -155,14 +155,14 @@
     align-items: center;
     justify-content: center;
     margin-bottom: 10px;
-    box-shadow: 0 3px 12px rgba(34, 197, 94, 0.15);
+    box-shadow: 0 3px 12px rgb(132 204 22 / .15);
     transition: all 0.3s ease;
     position: relative;
 }
 
 .timelineStep:hover .timelineIconWrapper {
     transform: translateY(-3px);
-    box-shadow: 0 6px 20px rgba(34, 197, 94, 0.25);
+    box-shadow: 0 6px 20px rgb(132 204 22 / .25);
 }
 
 .timelineIcon {
@@ -245,14 +245,14 @@
     font-size: 1.5rem;
     font-weight: 700;
     margin-bottom: 12px;
-    background: linear-gradient(135deg, #16a34a 0%, #4D7C0F 100%);
+    background: linear-gradient(135deg, #4D7C0F 0%, #84cc16 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
 }
 
 [data-theme='dark'] .contributionCTA h3 {
-    background: linear-gradient(135deg, #22c55e 0%, #86efac 100%);
+    background: linear-gradient(135deg, #a3e635 0%, rgb(217 249 157) 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -266,15 +266,15 @@
 
 .contributionCTA .highlight {
     font-weight: 600;
-    color: #16a34a;
+    color: #4D7C0F;
 }
 
 [data-theme='dark'] .contributionCTA .highlight {
-    color: #86efac;
+    color: rgb(163 230 53);
 }
 
 .contributionCTA .ctaLink {
-    color: #16a34a;
+    color: #4D7C0F;
     font-weight: 600;
     text-decoration: none;
     border-bottom: 2px solid transparent;
@@ -282,15 +282,15 @@
 }
 
 .contributionCTA .ctaLink:hover {
-    border-bottom-color: #16a34a;
+    border-bottom-color: #4D7C0F;
 }
 
 [data-theme='dark'] .contributionCTA .ctaLink {
-    color: #86efac;
+    color: rgb(163 230 53);
 }
 
 [data-theme='dark'] .contributionCTA .ctaLink:hover {
-    border-bottom-color: #86efac;
+    border-bottom-color: rgb(163 230 53);
 }
 
 /* Contributors Section */
