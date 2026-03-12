@@ -1,7 +1,7 @@
 ---
 id: server-truenas-scale
 title: "Setup TrueNAS SCALE on a Server - Build Your Personal NAS System"
-description: "Learn how to install TrueNAS SCALE on your dedicated server for network-attached storage and file sharing → Step-by-step guide"
+description: "Discover how to install TrueNAS SCALE on your dedicated server for network-attached storage and file sharing → Learn more now"
 sidebar_label: Installing TrueNAS SCALE
 services:
   - dedicated
