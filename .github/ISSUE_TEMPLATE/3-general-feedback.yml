@@ -1,5 +1,5 @@
 name: 💭 General feedback & suggestions
-description: Want to provide us with some general feedback or suggestions (outside of the Contribution program)? This is the correct place to do so!
+description: Want to provide us with some general feedback or suggestions? This is the correct place to do so!
 labels: [provide feedback/suggestions]
 body:
   - type: markdown

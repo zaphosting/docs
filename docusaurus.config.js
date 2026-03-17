@@ -168,12 +168,6 @@ const config = {
         redirects: [
           // /docs/oldDoc -> /docs/newDoc
           {
-            to: '/docs/contribution-guides', from: '/docs/contribution-submission',
-          },
-          {
-            to: '/docs/contribution-guides-guidelines', from: '/docs/contribution-guidelines',
-          },
-          {
             to: '/docs/ets2-server-modding', from: '/docs/trucksim-dlc',
           },
           {
