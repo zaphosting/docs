@@ -162,32 +162,6 @@ const sidebars = {
       ]
     },
     {
-      type: "category",
-      label: "Contribution Program",
-      items: [
-        "contribution-introduction",
-        "contribution-rewards",
-        {
-          type: "category",
-          label: "Guides",
-          key: "general-contribution-program-guides",
-          items: [
-            "contribution-guides",
-            "contribution-guides-guidelines"
-          ]
-        },
-        {
-          type: "category",
-          label: "Blogs",
-          key: "general-contribution-program-blogs",
-          items: [
-            "contribution-blogs",
-            "contribution-blogs-guidelines"
-          ]
-        },
-      ]
-    },
-    {
       type: "html",
       className: "sidebar-title",
       value: (() => {
