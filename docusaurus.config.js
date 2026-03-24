@@ -601,10 +601,13 @@ const config = {
       },
       items: [
         {
-          type: 'docSidebar',
-          sidebarId: 'guidesSidebar',
-          position: 'left',
+          type: 'dropdown',
           label: 'General',
+          position: 'left',
+          className: 'custom-dropdown-general',
+          items: [
+            { type: 'docSidebar', sidebarId: 'guidesSidebar', label: 'General' },
+          ],
         },
         {
           type: 'dropdown',
@@ -634,22 +637,31 @@ const config = {
           ],
         },
         {
-          type: 'docSidebar',
-          sidebarId: 'domainSidebar',
-          position: 'left',
+          type: 'dropdown',
           label: 'Domain',
+          position: 'left',
+          className: 'custom-dropdown-domain',
+          items: [
+            { type: 'docSidebar', sidebarId: 'domainSidebar', label: 'Domain' },
+          ],
         },
         {
-          type: 'docSidebar',
-          sidebarId: 'webspaceSidebar',
-          position: 'left',
+          type: 'dropdown',
           label: 'Webspace',
+          position: 'left',
+          className: 'custom-dropdown-webspace',
+          items: [
+            { type: 'docSidebar', sidebarId: 'webspaceSidebar', label: 'Webspace' },
+          ],
         },
         {
-          type: 'docSidebar',
-          sidebarId: 'voiceserverbotSidebar',
-          position: 'left',
+          type: 'dropdown',
           label: 'Voicebot & Voiceserver',
+          position: 'left',
+          className: 'custom-dropdown-voice',
+          items: [
+            { type: 'docSidebar', sidebarId: 'voiceserverbotSidebar', label: 'Voicebot & Voiceserver' },
+          ],
         },
         {
           type: 'dropdown',

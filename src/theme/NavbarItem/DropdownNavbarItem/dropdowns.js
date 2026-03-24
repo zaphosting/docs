@@ -268,6 +268,216 @@ export const icons = {
 
 export const dropdowns = {
 
+  // -------------------------------------------------------------------
+  // General
+  // -------------------------------------------------------------------
+  general: {
+    mainLink: '/docs/welcome',
+    activePathMatch: null,
+
+    topRow: {
+      title: 'First Steps',
+      titleKey: 'gettingStarted',
+      description: 'Everything you need to get started with ZAP-Hosting. Register, explore server locations, manage backups, and find help.',
+      descriptionKey: 'gettingStartedDesc',
+      icon: 'book',
+      items: [
+        { to: '/docs/welcome', icon: 'book', label: 'Welcome', labelKey: 'welcome' },
+        { to: '/docs/firststeps-register', icon: 'arrowRight', label: 'Register', labelKey: 'register' },
+        { to: '/docs/firststeps-locations', icon: 'globe', label: 'Server Locations', labelKey: 'locations' },
+        { to: '/docs/account-backup-storage', icon: 'hardDrive', label: 'Backup Storage', labelKey: 'backupStorage' },
+        { to: '/docs/ddos-protection', icon: 'shield', label: 'DDoS Protection', labelKey: 'ddosProtection' },
+        { to: '/docs/community-info', icon: 'list', label: 'Community', labelKey: 'community' },
+        { to: '/docs/contactsupport', icon: 'headphones', label: 'Support', labelKey: 'support' },
+        { to: '/docs/welcome', icon: 'arrowRight', label: 'More...', labelKey: 'more' },
+      ],
+    },
+
+    columns: [
+      {
+        title: 'Account',
+        titleKey: 'account',
+        description: 'Manage your ZAP-Hosting account. Change settings, handle billing, and keep your account secure.',
+        descriptionKey: 'accountDesc',
+        icon: 'gear',
+        items: [
+          { to: '/docs/account-restore-access', icon: 'gear', label: 'Administration', labelKey: 'administration' },
+          { to: '/docs/account-paymentoptions', icon: 'dollarSign', label: 'Billing', labelKey: 'billing' },
+          { to: '/docs/account-2factor', icon: 'shield', label: 'Security', labelKey: 'security' },
+          { to: '/docs/account-teams-and-sharing', icon: 'cube', label: 'Teams & Sharing', labelKey: 'teamsSharing' },
+        ],
+      },
+      {
+        title: 'Community & Support',
+        titleKey: 'communitySupport',
+        description: 'Get help, share feedback, and connect with the ZAP-Hosting community.',
+        descriptionKey: 'communitySupportDesc',
+        icon: 'headphones',
+        items: [
+          { to: '/docs/community-info', icon: 'list', label: 'Community Info', labelKey: 'communityInfo' },
+          { to: '/docs/suggestions', icon: 'arrowRight', label: 'Suggestions', labelKey: 'suggestions' },
+          { to: '/docs/contactsupport', icon: 'headphones', label: 'Contact Support', labelKey: 'contactSupport' },
+          { to: '/docs/create-screenshots', icon: 'monitor', label: 'Screenshots', labelKey: 'screenshots' },
+        ],
+      },
+    ],
+
+  },
+
+  // -------------------------------------------------------------------
+  // Domain
+  // -------------------------------------------------------------------
+  domain: {
+    mainLink: '/docs/domain-introduction',
+    activePathMatch: '/domain-',
+
+    topRow: {
+      title: 'First Steps',
+      titleKey: 'gettingStarted',
+      description: 'Register and manage your domain. Order, transfer, set up handles, and understand your domain\'s life cycle.',
+      descriptionKey: 'gettingStartedDesc',
+      icon: 'rocket',
+      items: [
+        { to: '/docs/domain-introduction', icon: 'book', label: 'Introduction', labelKey: 'introduction' },
+        { to: '/docs/domain-dashboard', icon: 'dashboard', label: 'Dashboard', labelKey: 'dashboard' },
+        { to: '/docs/domain-order', icon: 'shoppingCart', label: 'Order Domain', labelKey: 'orderDomain' },
+        { to: '/docs/domain-transfer', icon: 'shuffle', label: 'Transfer Domain', labelKey: 'transferDomain' },
+        { to: '/docs/domain-handle-management', icon: 'gear', label: 'Handle Management', labelKey: 'handleManagement' },
+        { to: '/docs/domain-life-cycle', icon: 'refreshCw', label: 'Life Cycle', labelKey: 'lifeCycle' },
+        { to: '/docs/domain-introduction', icon: 'arrowRight', label: 'More...', labelKey: 'more' },
+      ],
+    },
+
+    columns: [
+      {
+        title: 'DNS Management',
+        titleKey: 'dnsManagement',
+        description: 'Configure DNS records, set up forwarding, and manage your domain\'s DNS settings with ease.',
+        descriptionKey: 'dnsManagementDesc',
+        icon: 'globe',
+        items: [
+          { to: '/docs/domain-easydns', icon: 'list', label: 'Easy DNS', labelKey: 'easyDns' },
+          { to: '/docs/domain-profidns', icon: 'list', label: 'ProfiDNS', labelKey: 'profiDns' },
+          { to: '/docs/domain-expertdns', icon: 'list', label: 'ExpertDNS', labelKey: 'expertDns' },
+          { to: '/docs/domain-records', icon: 'list', label: 'DNS Records', labelKey: 'dnsRecords' },
+          { to: '/docs/domain-gameserver-srv-link', icon: 'gamepad', label: 'Gameserver SRV Link', labelKey: 'gameserverSrv' },
+          { to: '/docs/domain-teamspeak-redirect', icon: 'headphones', label: 'TeamSpeak Redirect', labelKey: 'teamspeakRedirect' },
+        ],
+      },
+      {
+        title: 'External Services',
+        titleKey: 'externalServices',
+        description: 'Connect your domain with external providers like Cloudflare for enhanced performance and security.',
+        descriptionKey: 'externalServicesDesc',
+        icon: 'shield',
+        items: [
+          { to: '/docs/domain-cloudflare-setup', icon: 'cloud', label: 'Cloudflare Setup', labelKey: 'cloudflareSetup' },
+        ],
+      },
+    ],
+
+  },
+
+  // -------------------------------------------------------------------
+  // Webspace
+  // -------------------------------------------------------------------
+  webspace: {
+    mainLink: '/docs/webspace-introduction',
+    activePathMatch: '/webspace-',
+
+    topRow: {
+      title: 'First Steps',
+      titleKey: 'gettingStarted',
+      description: 'Set up and manage your webspace. Add domains, configure FTP, enable SSL, and keep your site backed up.',
+      descriptionKey: 'gettingStartedDesc',
+      icon: 'rocket',
+      items: [
+        { to: '/docs/webspace-introduction', icon: 'book', label: 'Introduction', labelKey: 'introduction' },
+        { to: '/docs/webspace-dashboard', icon: 'dashboard', label: 'Dashboard', labelKey: 'dashboard' },
+        { to: '/docs/webspace-adddomain', icon: 'globe', label: 'Add Domain', labelKey: 'addDomain' },
+        { to: '/docs/webspace-external-domain', icon: 'link', label: 'External Domain', labelKey: 'externalDomain' },
+        { to: '/docs/webspace-backups', icon: 'shield', label: 'Backups', labelKey: 'backups' },
+        { to: '/docs/webspace-subdomain', icon: 'globe', label: 'Subdomain', labelKey: 'subdomain' },
+        { to: '/docs/webspace-plesk-ftp', icon: 'upload', label: 'FTP Access', labelKey: 'ftpAccess' },
+        { to: '/docs/webspace-plesk-ssl', icon: 'shield', label: 'SSL Certificate', labelKey: 'ssl' },
+        { to: '/docs/webspace-introduction', icon: 'arrowRight', label: 'More...', labelKey: 'more' },
+      ],
+    },
+
+    columns: [
+      {
+        title: 'Applications',
+        titleKey: 'applications',
+        description: 'Install popular web applications like WordPress and MyBB on your webspace.',
+        descriptionKey: 'applicationsDesc',
+        icon: 'cube',
+        items: [
+          { to: '/docs/webspace-wordpress', icon: 'globe', label: 'WordPress', labelKey: 'wordpress' },
+          { to: '/docs/webspace-wordpress-plugins', icon: 'cube', label: 'WordPress Plugins', labelKey: 'wordpressPlugins' },
+          { to: '/docs/webspace-wordpress-migration', icon: 'shuffle', label: 'WordPress Migration', labelKey: 'wordpressMigration' },
+          { to: '/docs/webspace-wordpress-elementor', icon: 'monitor', label: 'WordPress Elementor', labelKey: 'wordpressElementor' },
+          { to: '/docs/webspace-mybb', icon: 'list', label: 'MyBB', labelKey: 'mybb' },
+        ],
+      },
+      {
+        title: 'E-Mails',
+        titleKey: 'emails',
+        description: 'Configure email accounts, send mails from your domain, and optimize delivery.',
+        descriptionKey: 'emailsDesc',
+        icon: 'link',
+        items: [
+          { to: '/docs/webspace-plesk-sendmail', icon: 'arrowRight', label: 'Send Mail', labelKey: 'sendMail' },
+          { to: '/docs/webspace-email-delivery-optimization', icon: 'trendingUp', label: 'Email Delivery', labelKey: 'emailDelivery' },
+          { to: '/docs/webspace-htaccess-discord', icon: 'code', label: 'htaccess Discord', labelKey: 'htaccessDiscord' },
+        ],
+      },
+    ],
+
+  },
+
+  // -------------------------------------------------------------------
+  // Voicebot & Voiceserver
+  // -------------------------------------------------------------------
+  voice: {
+    mainLink: '/docs/voicebot-introduction',
+    activePathMatch: null,
+
+    topRow: {
+      title: 'Voicebot',
+      titleKey: 'voicebot',
+      description: 'Set up music bots for TeamSpeak and Discord. Connect your bot, manage the dashboard, and configure playback.',
+      descriptionKey: 'voicebotDesc',
+      icon: 'music',
+      items: [
+        { to: '/docs/voicebot-introduction', icon: 'book', label: 'Introduction', labelKey: 'introduction' },
+        { to: '/docs/voicebot-dashboard', icon: 'dashboard', label: 'TS3MusicBot Dashboard', labelKey: 'ts3musicbotDashboard' },
+        { to: '/docs/voiceserver-voicebot-connection', icon: 'link', label: 'Voicebot Connection', labelKey: 'voicebotConnection' },
+        { to: '/docs/discordbot-setup', icon: 'bot', label: 'Discord Bot', labelKey: 'discordBot' },
+        { to: '/docs/voicebot-introduction', icon: 'arrowRight', label: 'More...', labelKey: 'more' },
+      ],
+    },
+
+    columns: [
+      {
+        title: 'Voiceserver (TeamSpeak)',
+        titleKey: 'voiceserver',
+        description: 'Manage your TeamSpeak server. Backups, subdomains, admin rights, queries, and full configuration.',
+        descriptionKey: 'voiceserverDesc',
+        icon: 'headphones',
+        items: [
+          { to: '/docs/voiceserver-introduction', icon: 'book', label: 'Introduction', labelKey: 'introduction' },
+          { to: '/docs/voiceserver-dashboard', icon: 'dashboard', label: 'Dashboard', labelKey: 'dashboard' },
+          { to: '/docs/voiceserver-ts3backup', icon: 'shield', label: 'Backups', labelKey: 'backups' },
+          { to: '/docs/voiceserver-subdomain', icon: 'globe', label: 'Subdomain', labelKey: 'subdomain' },
+          { to: '/docs/voiceserver-becomeadmin', icon: 'gear', label: 'Become Admin', labelKey: 'becomeAdmin' },
+          { to: '/docs/voiceserver-configuration', icon: 'cube', label: 'Configuration', labelKey: 'configuration' },
+          { to: '/docs/voiceserver-query', icon: 'code', label: 'TS3 Query', labelKey: 'ts3Query' },
+        ],
+      },
+    ],
+
+  },
+
 // -------------------------------------------------------------------
   // Gameserver
   // -------------------------------------------------------------------
@@ -539,6 +749,7 @@ export const dropdowns = {
         ],
       },
     ],
+
   },
 
   // -------------------------------------------------------------------
