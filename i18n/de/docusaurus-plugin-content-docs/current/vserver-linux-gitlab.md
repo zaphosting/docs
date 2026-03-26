@@ -336,7 +336,7 @@ Aktiviere die Firewall mit:
 sudo ufw enable
 ```
 
-## Fazit
+## Abschluss
 
 Glückwunsch, du hast GitLab erfolgreich installiert! Falls du noch Fragen oder Probleme hast, steht dir unser Support-Team täglich zur Verfügung und hilft dir gerne weiter!
 

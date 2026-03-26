@@ -51,7 +51,7 @@ Im Tab „Output“ wählst du einen Zielordner für die bearbeiteten Texturen, 
 
 
 
-## Fazit
+## Abschluss
 Nachdem du alle Texturen bearbeitet und verkleinert hast, ersetze die alten Texturen in deinem Mod durch die neuen, komprimierten Versionen. Du wirst sehen, dass die komprimierte Texturgröße deutlich kleiner ist, was nicht nur Speicherplatz spart, sondern auch die Performance deines Spiels verbessert.
 
 | **Beschreibung**            | **Original Texture Dictionary** | Komprimiertes Texture Dictionary | X Mal besser      |

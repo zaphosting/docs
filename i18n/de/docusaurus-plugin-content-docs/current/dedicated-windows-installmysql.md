@@ -50,7 +50,7 @@ Jetzt kannst du von extern auf deinen MySQL-Server zugreifen!
 
 
 
-## Fazit
+## Abschluss
 
 Glückwunsch, du hast den MySQL-Server erfolgreich installiert. Bei weiteren Fragen oder wenn du Hilfe brauchst, steht dir unser Support-Team täglich zur Seite! 🙂
 

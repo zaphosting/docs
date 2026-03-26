@@ -51,7 +51,7 @@ cURL benötigt keine klassische Konfiguration, kann aber über eine Konfiguratio
 
 Außerdem können Umgebungsvariablen wie `HTTP_PROXY` oder `HTTPS_PROXY` gesetzt werden, um cURL-Anfragen über einen Proxy-Server zu leiten. Das macht cURL bei wiederkehrenden Aufgaben effizienter, da du lange Befehlsoptionen nicht jedes Mal neu eingeben musst.
 
-## Fazit und weitere Ressourcen
+## Abschluss und weitere Ressourcen
 
 Glückwunsch! Du hast cURL jetzt erfolgreich auf deinem VPS/Dedicated Server installiert und konfiguriert. Wir empfehlen dir außerdem, einen Blick auf die folgenden Ressourcen zu werfen, die dir bei der Server-Konfiguration weiterhelfen können:
 

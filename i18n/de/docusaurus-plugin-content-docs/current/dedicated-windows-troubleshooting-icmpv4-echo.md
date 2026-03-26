@@ -60,7 +60,7 @@ Wenn der Server erfolgreich antwortet, kann das Monitoring-System ihn wieder erk
 
 
 
-## Fazit
+## Abschluss
 
 Glückwunsch! Mit der Erstellung der ICMPv4 Echo-Regel in der Windows-Firewall hast du erfolgreich sichergestellt, dass dein Windows Dedicated Server wieder auf Ping-Anfragen reagiert.
 

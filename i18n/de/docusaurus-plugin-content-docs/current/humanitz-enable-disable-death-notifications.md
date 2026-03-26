@@ -39,7 +39,7 @@ NoDeathFeedback=false
 
 Speichere nach der Bearbeitung die Datei und starte den Server neu, damit die Änderung wirksam wird.
 
-## Fazit
+## Abschluss
 
 Glückwunsch! Mit der Änderung des `NoDeathFeedback`-Werts in der `GameServerSettings.ini` hast du die Todesbenachrichtigungen auf deinem HumanitZ-Server erfolgreich konfiguriert. Bei weiteren Fragen oder Problemen steht dir unser Support-Team täglich zur Verfügung – zögere nicht, uns zu kontaktieren! 🙂
 

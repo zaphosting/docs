@@ -38,7 +38,7 @@ In diesem Beispiel wird die Option **Genehmigte Lizenz** ausgewählt und aktivie
 
 Der Spieler-Lizenz-Identifier muss von einem txAdmin-Administrator auf die Whitelist gesetzt werden. Das kann über die **Whitelist-Seite** oder den Befehl `/whitelist` erfolgen.
 
-## Fazit
+## Abschluss
 
 Wenn du alle Schritte befolgt hast, hast du die Whitelist für deinen Server erfolgreich aktiviert und konfiguriert. Bei weiteren Fragen oder wenn du Hilfe brauchst, steht dir unser Support-Team täglich zur Verfügung! 🙂
 

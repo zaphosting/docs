@@ -91,7 +91,7 @@ Mit dieser Einstellung werden alle Zugriffsversuche von außerhalb der Maschine 
 
 
 
-## Fazit
+## Abschluss
 
 Sobald der Cloudflare Tunnel aktiv ist, ist deine txAdmin-Oberfläche nur noch über deine eigene Domain erreichbar. Alle Anfragen laufen über Cloudflare, wo sie gefiltert und abgesichert werden.
 

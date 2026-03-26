@@ -51,7 +51,7 @@ Füge dann deine Resource mit dem Befehl `start resourcename` hinzu. In unserem 
 
 
 
-## Fazit
+## Abschluss
 
 Wenn du alle Schritte befolgt hast, solltest du nach dem nächsten Server-Neustart deinen neuen Loading Screen sehen. Bei Fragen oder Problemen steht dir unser Support-Team täglich zur Seite! 🙂 
 

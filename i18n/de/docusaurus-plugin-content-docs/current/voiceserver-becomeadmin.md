@@ -37,7 +37,7 @@ Nach dem Drücken von **OK** wird dein Nutzerkonto mit Administratorrechten ausg
 
 Wenn du weiteren Nutzern Administratorrechte geben möchtest, kannst du entweder weitere Privilege Keys für die jeweiligen Nutzer erstellen oder die entsprechende Servergruppe direkt im Teamspeak-Client für den jeweiligen Nutzer zuweisen. Dazu einfach mit der rechten Maustaste auf den Nutzer klicken, **Servergruppen** auswählen und dann die passende Servergruppe anklicken.
 
-## Fazit
+## Abschluss
 
 Glückwunsch, du hast die Administratorrechte erfolgreich eingerichtet! Bei weiteren Fragen oder wenn du Hilfe brauchst, steht dir unser Support-Team täglich zur Verfügung – melde dich einfach! 🙂
 

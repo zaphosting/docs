@@ -41,7 +41,7 @@ SaveIntervalSec=600
 
 Speichere nach der Bearbeitung die Datei und starte den Server neu, damit die neue Einstellung wirksam wird.
 
-## Fazit
+## Abschluss
 
 Glückwunsch! Durch das Anpassen des `SaveIntervalSec`-Werts in der `GameServerSettings.ini` hast du erfolgreich das automatische Speicherintervall deiner HumanitZ-Welt geändert.
 

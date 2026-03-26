@@ -53,7 +53,7 @@ Der Installationsprozess kann 30 bis 60 Minuten dauern. Danach ist Plesk install
 :::
 
 
-## Fazit
+## Abschluss
 
 Glückwunsch, du hast Plesk erfolgreich auf deinem VPS/Dedicated Server installiert und eingerichtet! Falls du noch Fragen oder Probleme hast, steht dir unser Support-Team täglich zur Verfügung und hilft dir gerne weiter!
 

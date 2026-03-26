@@ -62,7 +62,7 @@ git config --global user.email "doe@e-mail.com"
 
 
 
-## Fazit und weitere Ressourcen
+## Abschluss und weitere Ressourcen
 
 Glückwunsch! Du hast Git jetzt erfolgreich auf deinem vServer installiert und konfiguriert. Wir empfehlen dir außerdem, einen Blick auf die folgenden Ressourcen zu werfen, die dir bei der weiteren Serverkonfiguration zusätzliche Hilfe und Tipps bieten können:
 

@@ -108,7 +108,7 @@ Es empfiehlt sich, das Verhalten nach dem Neustart im Spiel zu überprüfen, um 
 
 
 
-## Fazit
+## Abschluss
 
 Mit der konfigurierten Todesstrafe hast du jetzt einen klaren Überblick, wie Spieler-Tode auf deinem Hytale Gameserver gehandhabt werden. Bei weiteren Fragen oder wenn du Hilfe brauchst, steht dir unser Support-Team täglich zur Verfügung! 🙂
 

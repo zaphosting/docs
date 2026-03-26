@@ -68,7 +68,7 @@ Möchtest du bestehende Aufgaben löschen? Entferne Aufgaben in der Liste, indem
 
 
 
-## Fazit
+## Abschluss
 
 Jetzt weißt du, wie du geplante Aufgaben erstellst, verwaltest und entfernst. Bei weiteren Fragen oder wenn du Hilfe brauchst, steht dir unser Support-Team täglich zur Seite! 🙂
 

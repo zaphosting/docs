@@ -200,7 +200,7 @@ Das kannst du entweder über den **Configs**-Bereich im Webinterface deines Serv
 
 Suche in der Datei den `level-name` Parameter und ändere ihn so, dass er mit dem Ordnernamen deines Welt-Saves übereinstimmt. Wenn du eine Server-Plattform nutzt, verwende den Hauptordnernamen und nicht die `_nether` oder `_the_end` Ordner.
 
-## Fazit
+## Abschluss
 
 Jetzt weißt du, wie du deine Minecraft-Welten souverän managst. Vom Konvertieren zwischen Vanilla und Server-Plattformen, über das Generieren neuer Welten, das Regenerieren alter Welten mit Seeds, zuverlässige Backups, das Hochladen eigener Welten bis hin zum Aktivieren auf deinem Server. Mit diesem Wissen kannst du deine Welten problemlos verwalten und deine Abenteuer sicher und organisiert halten.
 

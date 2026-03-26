@@ -46,7 +46,7 @@ Nach dem Neustart versuche, dich mit einem Account zu verbinden, der nicht in `$
 
 Wenn der Zugang noch offen ist, überprüfe, ob mindestens eine SteamID64 eingetragen ist und ob die bearbeitete `Users.eco`-Datei zur aktiven Serverinstanz gehört.
 
-## Fazit
+## Abschluss
 
 Wenn du alle Schritte korrekt befolgt hast, ist deine Whitelist jetzt aktiv und du kannst genau steuern, wer auf den Server darf. Falls der Zugang trotzdem nicht wie erwartet funktioniert, starte den Server nochmal neu und prüfe die Datei oder die Konsolenausgabe, um sicherzugehen, dass die Änderung übernommen wurde.
 

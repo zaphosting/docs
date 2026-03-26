@@ -45,7 +45,7 @@ Die verwendete Sprache kannst du über die Konfigurationsdatei `config.lua` im R
 
 
 
-## Fazit
+## Abschluss
 
 Glückwunsch, wenn du alle Schritte befolgt hast, hast du erfolgreich die Locale-Datei deiner Resource bearbeitet. Für weitere Fragen oder Hilfe steht dir unser Support-Team täglich zur Verfügung – zögere nicht, uns zu kontaktieren! 🙂
 

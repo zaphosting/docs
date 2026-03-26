@@ -91,7 +91,7 @@ An dieser Stelle siehst du das **Windows aktivieren** Wasserzeichen unten rechts
 
 
 
-## Fazit
+## Abschluss
 
 Glückwunsch! Du hast deine Windows Server Version erfolgreich von EVAL auf Vollversion umgestellt. Bei weiteren Fragen oder Problemen steht dir unser Support-Team täglich zur Verfügung – wir helfen dir gerne! 🙂
 

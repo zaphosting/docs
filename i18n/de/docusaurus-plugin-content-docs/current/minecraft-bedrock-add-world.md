@@ -59,7 +59,7 @@ Nachdem du die Welt erfolgreich hochgeladen hast, starte deinen Server wieder. D
 
 Verbinde dich mit deinem Server und überprüfe, ob die importierte Welt korrekt geladen wurde. Du solltest jetzt in der neuen Welt spielen können. Falls etwas nicht wie erwartet funktioniert, überprüfe die Schritte nochmal und stelle sicher, dass die Weltordner richtig benannt und platziert sind.
 
-## Fazit
+## Abschluss
 
 Das Importieren einer Welt in deinen Minecraft Bedrock Server ist ein einfacher Prozess, der es dir ermöglicht, deine eigenen Kreationen mit anderen zu teilen. Bei weiteren Fragen oder Problemen steht dir unser Support-Team täglich zur Verfügung und hilft dir gerne weiter! 🙂
 

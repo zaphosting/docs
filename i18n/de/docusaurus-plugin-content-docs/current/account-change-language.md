@@ -16,6 +16,6 @@ Oben rechts auf der Website findest du ein Sprach-Icon, dargestellt durch eine F
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/qDXTkxSzCEsP2HW/preview)
 
-## Fazit
+## Abschluss
 
 Die Website wird nun in der ausgewählten Sprache angezeigt und alle Funktionen können in dieser Sprache genutzt werden. Bei weiteren Fragen oder wenn du Hilfe brauchst, steht dir unser Support-Team täglich zur Verfügung! 🙂

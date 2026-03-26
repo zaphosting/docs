@@ -19,6 +19,6 @@ Der Bereich Dateninformation ist im persönlichen Bereich deines Kundenaccounts 
 
 Dort wird dir ein systematisch aufbereiteter Bericht aller gespeicherten Informationen angezeigt, inklusive deinem Namen, Adresse, IP-Adressen, Zahlungsdetails, gekauften Services und Kommunikationsverlauf. Den Bericht kannst du direkt im Browser ansehen oder als PDF-Datei herunterladen.
 
-## Fazit
+## Abschluss
 
 Bei weiteren Fragen oder wenn du Hilfe brauchst, steht dir unser Support-Team täglich zur Seite! 🙂 Der Dateninformationsbericht sorgt für volle Transparenz über deine bei ZAP-Hosting gespeicherten Daten und unterstützt dich dabei, deine DSGVO-Rechte wahrzunehmen.

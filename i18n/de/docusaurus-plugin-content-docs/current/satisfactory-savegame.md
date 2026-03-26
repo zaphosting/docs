@@ -75,7 +75,7 @@ Es kann hilfreich sein, den Namen des hochgeladenen Savegame-Ordners zu kopieren
 
 Dein Savegame zu nutzen ist super easy. Du kannst das entweder über den Ingame Satisfactory Server Manager machen oder im Dashboard deines Servers unter dem Bereich **Savegame Manager**.
 
-## Fazit
+## Abschluss
 
 Du hast erfolgreich ein Savegame auf deinem Gameserver hinzugefügt. Bei weiteren Fragen oder wenn du Hilfe brauchst, steht dir unser Support-Team täglich zur Seite! 🙂
 

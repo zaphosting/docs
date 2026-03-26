@@ -62,7 +62,7 @@ sv_allowupload 0
 
 Achte darauf, dass die FastDL-URL exakt der Struktur auf deinem Webspace entspricht. Nach dem Speichern startest du deinen Gameserver neu, damit die Einstellungen wirksam werden.
 
-## Fazit
+## Abschluss
 
 FastDL lässt sich mit deinem eigenen ZAP Webspace schnell und zuverlässig einrichten. So lieferst du Custom-Content fix und effizient aus und verbesserst das Spielerlebnis auf deinem No More Room In Hell Gameserver.
 

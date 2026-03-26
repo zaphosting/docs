@@ -74,7 +74,7 @@ xvfb-run wine64 /home/steam/Conan-Server/ConanSandboxServer.exe
 
 Im Terminal solltest du jetzt viele Logs sehen, die anzeigen, dass der Server hochfährt. Verbinde dich direkt, indem du den Server in der Serverliste suchst oder direkt mit `[deine_ip_adresse]:7777` connectest.
 
-## Fazit
+## Abschluss
 
 Glückwunsch, du hast deinen Conan Exiles Server erfolgreich auf deinem Dedicated Server installiert und konfiguriert! Als nächsten Schritt empfehlen wir dir unsere [Linux Service Setup](dedicated-linux-create-gameservice.md) Anleitung. Damit richtest du deinen neuen Dedicated Gameserver als Service ein – mit Vorteilen wie automatischem Serverstart beim Booten, automatischen Updates, einfacher Verwaltung und Zugriff auf Logs und vieles mehr!
 

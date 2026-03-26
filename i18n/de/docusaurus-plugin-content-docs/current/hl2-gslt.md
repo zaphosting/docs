@@ -53,7 +53,7 @@ Wenn du mehrere **Half-Life 2** Server betreibst, benötigst du für jeden Serve
 
 
 
-## Fazit
+## Abschluss
 
 Das GSLT wurde erstellt und in deiner Serverkonfiguration hinterlegt. Bei weiteren Fragen oder wenn du Hilfe brauchst, steht dir unser Support-Team täglich zur Verfügung! 🙂
 

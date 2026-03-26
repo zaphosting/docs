@@ -84,7 +84,7 @@ HyFixes konzentriert sich darauf, eine Reihe bekannter Stabilitäts- und Absturz
 
 
 
-## Fazit
+## Abschluss
 
 Einige Stabilitätsprobleme auf Hytale Gameservern werden durch bekannte Early Access Bugs verursacht, die sich nicht allein durch Konfigurationsänderungen beheben lassen.
 

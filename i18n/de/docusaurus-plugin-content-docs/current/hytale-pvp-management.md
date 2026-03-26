@@ -44,7 +44,7 @@ Um PvP zu aktivieren und den Kampf zwischen Spielern zu erlauben, kann die Konfi
 }
 ```
 
-## Fazit
+## Abschluss
 
 Sobald die Einstellungen vorgenommen sind, hast du eine klare Übersicht darüber, wie PvP verwaltet wird, und kannst die Konfiguration einfach anpassen, um kooperatives Gameplay, kompetitive Umgebungen oder eine Kombination aus beidem zu unterstützen. Bei weiteren Fragen oder wenn du Hilfe brauchst, steht dir unser Support-Team täglich zur Verfügung! 🙂
 

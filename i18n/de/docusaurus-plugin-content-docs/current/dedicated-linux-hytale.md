@@ -114,7 +114,7 @@ Zum Vergleich: Minecraft-Server nutzen standardmäßig eine Sichtweite von 10 Ch
 
 
 
-## Fazit
+## Abschluss
 
 Glückwunsch, du hast jetzt einen funktionierenden Hytale Server auf deinem System am Start. Von hier aus kannst du das Setup erweitern, indem du Mods installierst, Welteinstellungen anpasst und Performance-Parameter auf deine Spielerbasis abstimmst. Eine regelmäßige Überwachung der Ressourcennutzung empfiehlt sich, um einen stabilen Betrieb sicherzustellen, wenn der Server wächst.
 

@@ -59,7 +59,7 @@ ipconfig
 
 Dieser Befehl zeigt alle Netzwerkadapter und deren aktuelle IP-Konfiguration an. Suche deinen aktiven Netzwerkadapter und prüfe, ob die **IPv4-Adresse** mit der zuvor konfigurierten IP-Adresse übereinstimmt. Wenn die korrekte IP-Adresse angezeigt wird, wurde die Konfiguration erfolgreich übernommen.
 
-## Fazit
+## Abschluss
 
 Glückwunsch! Du hast die IP-Einstellungen auf deinem Windows VPS erfolgreich konfiguriert. Falls du weitere Fragen hast oder Unterstützung brauchst, steht dir unser Support-Team täglich zur Verfügung.
 

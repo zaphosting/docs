@@ -226,7 +226,7 @@ Jetzt kannst du mit einer leeren Leinwand starten oder eine Vorlage nutzen. Dein
 
 
 
-## Fazit und weitere Ressourcen
+## Abschluss und weitere Ressourcen
 
 Glückwunsch! Du hast n8n erfolgreich auf deinem Server installiert und kannst direkt loslegen. Wir empfehlen dir außerdem, einen Blick auf folgende Ressourcen zu werfen, die dir bei der Server-Konfiguration weiterhelfen können:
 

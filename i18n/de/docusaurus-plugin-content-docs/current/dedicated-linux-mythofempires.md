@@ -65,7 +65,7 @@ xvfb-run wine /home/steam/MOE-Server/MOE/Binaries/Win64/MOEServer.exe
 
 Im Terminal solltest du jetzt Logs sehen, die bestätigen, dass der Server erfolgreich gestartet ist. Beim ersten Start kann es etwas dauern, bis alles eingerichtet ist. Verbinde dich dann direkt über den **Custom Server** Tab mit `[deine_ip_adresse]:15636`.
 
-## Fazit
+## Abschluss
 
 Glückwunsch, du hast den Myth of Empires Server erfolgreich auf deinem Dedicated Server installiert und konfiguriert! Als nächstes empfehlen wir dir unsere [Linux Service Setup](dedicated-linux-create-gameservice.md) Anleitung. Damit richtest du deinen neuen Dedicated Gameserver als Service ein – mit Vorteilen wie automatischem Serverstart beim Booten, automatischen Updates, einfacher Verwaltung und Zugriff auf Logs und mehr!
 

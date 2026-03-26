@@ -50,7 +50,7 @@ Starte jetzt deinen FiveM Gameserver neu, damit die Änderungen wirksam werden. 
 
 
 
-## Fazit
+## Abschluss
 
 Wenn du alle Schritte befolgt hast, hast du erfolgreich den Cache deines Servers geleert. Bei weiteren Fragen oder wenn du Hilfe brauchst, steht dir unser Support-Team täglich zur Verfügung! 🙂
 

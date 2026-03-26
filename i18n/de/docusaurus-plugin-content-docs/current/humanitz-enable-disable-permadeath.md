@@ -36,7 +36,7 @@ PermaDeath=true
 
 Speichere nach der Änderung die Datei und starte den Gameserver neu, damit die Einstellung wirksam wird.
 
-## Fazit
+## Abschluss
 
 Glückwunsch! Durch das Anpassen des `PermaDeath`-Werts in der `GameServerSettings.ini` hast du Permadeath auf deinem HumanitZ Gameserver erfolgreich aktiviert oder deaktiviert. Bei weiteren Fragen oder Problemen steht dir unser Support-Team täglich zur Verfügung! 🙂
 

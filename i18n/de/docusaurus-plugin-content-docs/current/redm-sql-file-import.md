@@ -71,7 +71,7 @@ Zum Schluss drückst du unten auf der Seite den Button **Importieren**, um den I
 
 Du hast erfolgreich eine SQL-Datei in die Datenbank deines Gameservers importiert!
 
-## Fazit
+## Abschluss
 
 Der Import einer SQL-Datei für deinen RedM-Server ist notwendig, um viele Ressourcen problemlos nutzen zu können. Bei weiteren Fragen oder wenn du Hilfe brauchst, steht dir unser Support-Team täglich zur Verfügung! 🙂
 

@@ -135,7 +135,7 @@ Wenn du Google Search Console nutzt, kannst du die Google Integration so konfigu
 
 Wenn du schon ein Google Cloud Konto mit OAuth-Client hast, kannst du einfach deine `GOOGLE_CLIENT_ID` und `GOOGLE_CLIENT_SECRET` in die `.env` Datei einfügen, den Docker-Service mit `docker compose up -d` neu starten und den Anweisungen im Plausible Dashboard unter Site Settings > Integrations folgen.
 
-## Fazit und weitere Ressourcen
+## Abschluss und weitere Ressourcen
 
 Glückwunsch! Du hast Plausible erfolgreich auf deinem VPS/Dedicated Server installiert und konfiguriert. Wir empfehlen dir außerdem, einen Blick auf folgende Ressourcen zu werfen, die dir bei der weiteren Server-Konfiguration helfen können:
 

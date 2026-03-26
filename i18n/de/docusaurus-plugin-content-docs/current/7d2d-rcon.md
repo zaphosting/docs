@@ -61,7 +61,7 @@ Sobald du per RCON verbunden bist, kannst du verschiedene administrative und dia
 | `ban <address>`          | Bannt eine IP oder einen Spieler                |
 | `saveworld`              | Speichert den Weltzustand manuell               |
 
-## Fazit
+## Abschluss
 
 RCON ist ein essentielles Tool für die Remote-Administration von 7 Days to Die Gameservern. Es ermöglicht schnellen und direkten Zugriff auf administrative Funktionen und schützt den Zugang durch Passwort-Authentifizierung. Eine korrekte und sichere Konfiguration ist entscheidend, um die Serverstabilität zu gewährleisten und unbefugten Zugriff zu verhindern.
 

@@ -52,7 +52,7 @@ Nach Aktivierung von `Open=false` sollte ein neuer User, der nicht mit `/adduser
 
 Wenn ungebannte Nutzer trotzdem joinen können, überprüfe, ob du die richtige `<ServerName>.ini` Datei bearbeitet und den Server neu gestartet hast.
 
-## Fazit
+## Abschluss
 
 Wenn du alle Schritte richtig gemacht hast, ist deine Whitelist jetzt aktiv und du kontrollierst genau, wer auf den Server darf. Falls der Zugang trotzdem nicht wie gewünscht funktioniert, starte den Server nochmal neu und check die Datei oder Konsolenausgabe, ob die Änderung übernommen wurde.
 

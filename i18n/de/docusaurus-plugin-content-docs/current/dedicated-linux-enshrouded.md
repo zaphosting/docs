@@ -63,7 +63,7 @@ xvfb-run wine /home/steam/Enshrouded-Server/enshrouded_server.exe
 
 Im Terminal solltest du jetzt viele Logs sehen. Wenn die Meldung `[Session] 'HostOnline' (up)!` erscheint, war der Start erfolgreich. Verbinde dich dann direkt über den Reiter **Find Games** mit den Serverdetails: `[deine_ip_adresse]:15636`.
 
-## Fazit
+## Abschluss
 
 Glückwunsch, du hast den Enshrouded Server erfolgreich auf deinem Dedicated Server installiert und konfiguriert! Als nächsten Schritt empfehlen wir dir unsere [Linux Service Setup](dedicated-linux-create-gameservice.md) Anleitung. Damit richtest du deinen neuen Dedicated Gameserver als Service ein – mit Vorteilen wie automatischem Start beim Booten, automatischen Updates, einfacher Verwaltung und Zugriff auf Logs und vieles mehr!
 

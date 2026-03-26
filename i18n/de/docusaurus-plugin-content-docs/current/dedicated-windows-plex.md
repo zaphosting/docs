@@ -62,7 +62,7 @@ Sobald du die Adresse aufrufst, wirst du zur Plex-Login-Seite weitergeleitet und
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/jfQxZ6e4BGMfen5/preview)
 
-## Fazit und weitere Ressourcen
+## Abschluss und weitere Ressourcen
 
 Glückwunsch! Du hast Plex jetzt erfolgreich auf deinem VPS/Dedicated Server installiert und konfiguriert. Wir empfehlen dir außerdem, einen Blick auf die folgenden Ressourcen zu werfen, die dir bei der Serverkonfiguration weiterhelfen können:
 

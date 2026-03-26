@@ -116,6 +116,6 @@ Suche die `port`-Parameter unter den Abschnitten `bedrock` und `remote`. Stelle 
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/AcZ5JAasBcKQpCm/preview)
 
-## Fazit
+## Abschluss
 
 Glückwunsch, du hast erfolgreich das GeyserMC Plugin auf deinem Minecraft Gameserver installiert und konfiguriert und damit Crossplay zwischen Java und Bedrock Edition ermöglicht! Bei weiteren Fragen oder Problemen steht dir unser Support-Team täglich zur Seite – zögere nicht, uns zu kontaktieren! 🙂

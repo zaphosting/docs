@@ -128,6 +128,6 @@ Wir empfehlen dir, im [Conan Exiles Wiki](https://conanexiles.fandom.com/wiki/Se
 
 Jetzt kannst du deinen Server starten. Wechsle in das Hauptverzeichnis deines Conan Exiles Servers und starte die **StartServer.bat**, die du vorher erstellt hast. Dadurch öffnet sich die Server-Konsole im Kommandozeilenfenster und der Startvorgang beginnt. Du kannst dich nun direkt über den Ingame-Serverbrowser verbinden, indem du die IP-Adresse und den Port deines Servers eingibst (Standardport ist 7777).
 
-## Fazit
+## Abschluss
 
 Glückwunsch, du hast deinen Conan Exiles Server erfolgreich auf deinem Dedicated Server installiert und konfiguriert! Falls du noch Fragen oder Probleme hast, steht dir unser Support-Team täglich zur Verfügung und hilft dir gerne weiter!

@@ -59,7 +59,7 @@ Wenn sich Spieler nach dem Wechsel der Map nicht verbinden können, überprüfe,
 
 
 
-## Fazit
+## Abschluss
 
 Glückwunsch! Du hast erfolgreich eine eigene Map für deinen Rust-Server konfiguriert. Bei weiteren Fragen oder Problemen steht dir unser Support-Team täglich zur Verfügung und hilft dir gerne weiter! 🙂
 

@@ -47,7 +47,7 @@ Um dir die Suche nach passenden Übersetzungen zu erleichtern, bieten wir eine �
 
 <SearchableItemList items={items} />
 
-## Fazit
+## Abschluss
 
 Wenn du die oben beschriebenen Schritte befolgst, hast du erfolgreich deine bevorzugte Sprache für Hytale mit einem Community-Sprachpaket installiert. So kannst du das Spiel in einer Sprache erleben, die dir vertrauter und leichter verständlich ist, was die Lesbarkeit und den Spielspaß deutlich verbessert.
 

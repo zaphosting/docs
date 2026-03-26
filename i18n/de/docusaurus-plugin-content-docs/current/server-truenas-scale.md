@@ -248,6 +248,6 @@ Für einfacheren Zugriff nutze **Netzlaufwerk verbinden** statt **Netzwerkadress
 **Linux**: Nutze die Option „Mit Server verbinden“ im Dateimanager mit `smb://[deine_server_ip]/[freigabe_name]` oder mounte per Kommandozeile mit `mount.cifs`
 :::
 
-## Fazit
+## Abschluss
 
 Glückwunsch, du hast TrueNAS SCALE erfolgreich auf deinem Server installiert und konfiguriert. Bei weiteren Fragen oder Supportbedarf steht dir unser Support-Team täglich zur Verfügung – wir helfen dir gerne! 🙂

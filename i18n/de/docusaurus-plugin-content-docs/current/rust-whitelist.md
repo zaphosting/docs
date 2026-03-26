@@ -48,7 +48,7 @@ Versuche, dich mit einem Account zu verbinden, der keine Whitelist-Berechtigung 
 
 Wenn trotzdem jeder joinen kann, check, ob das Plugin geladen ist und uMod läuft. Ein Server-Neustart nach dem Hochladen des Plugins ist der sicherste Weg, um sicherzugehen, dass es aktiv ist.
 
-## Fazit
+## Abschluss
 
 Wenn du alle Schritte oben befolgt hast, ist deine Whitelist jetzt aktiv und du kannst genau steuern, wer auf den Server darf. Falls der Zugang noch nicht wie gewünscht funktioniert, starte den Server einmal neu und überprüfe die Dateien oder Konsolenausgaben, um sicherzugehen, dass die Änderung übernommen wurde.
 

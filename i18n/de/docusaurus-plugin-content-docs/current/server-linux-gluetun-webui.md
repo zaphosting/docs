@@ -136,7 +136,7 @@ Ersetze `DEINE_SERVER_IP` mit der IP-Adresse deines VPS. Im Interface kannst du 
 - VPN-Konfigurationsdetails einsehen
 - Dienste steuern, die über den VPN-Container laufen
 
-## Fazit
+## Abschluss
 
 Glückwunsch! Du hast **Gluetun WebUI** erfolgreich auf deinem Linux-Server installiert. Die Weboberfläche macht es dir jetzt super easy, deinen Gluetun VPN-Container zu überwachen und zu managen – ganz ohne Docker-Befehle manuell zu tippen.
 

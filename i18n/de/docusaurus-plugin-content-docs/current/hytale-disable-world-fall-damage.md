@@ -44,7 +44,7 @@ Konfigurationsänderungen werden erst angewendet, wenn die Welt neu geladen wird
 
 
 
-## Fazit
+## Abschluss
 
 Indem du das Fallschaden-Flag in der Konfigurationsdatei der Welt anpasst, hast du die volle Kontrolle darüber, ob Spieler Fallschaden erleiden oder nicht. Bei weiteren Fragen oder wenn du Hilfe brauchst, steht dir unser Support-Team täglich zur Verfügung! 🙂
 

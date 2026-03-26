@@ -148,7 +148,7 @@ Bevor du den Vorgang abschließt, öffne den Bereich „Erweiterte Optionen“. 
 
 
 
-## Fazit und weitere Ressourcen
+## Abschluss und weitere Ressourcen
 
 Glückwunsch! Du hast Standard Notes erfolgreich auf deinem VPS/Dedicated Server installiert und konfiguriert. Wir empfehlen dir außerdem, einen Blick auf die folgenden Ressourcen zu werfen, die dir bei der Server-Konfiguration weiterhelfen können:
 

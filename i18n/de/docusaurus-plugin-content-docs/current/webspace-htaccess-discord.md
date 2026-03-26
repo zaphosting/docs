@@ -44,7 +44,7 @@ Damit die Regel und Weiterleitung für deine Domain funktioniert, musst du den D
 
 Du solltest die Weiterleitung jetzt über deine Domain und den definierten Discord-Pfad aufrufen können. Die Struktur sieht in unserem Beispiel so aus: `beispiel-example.de/discord`.
 
-## Fazit
+## Abschluss
 
 Wenn du alle Schritte befolgt hast, hast du die Domain-Weiterleitung zu deinem Discord-Server erfolgreich eingerichtet. Bei weiteren Fragen oder wenn du Hilfe brauchst, steht dir unser Support-Team täglich zur Verfügung! 🙂
 

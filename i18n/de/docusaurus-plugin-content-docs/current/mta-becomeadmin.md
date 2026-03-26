@@ -79,7 +79,7 @@ Nachdem du die **acl.xml**-Config fertig konfiguriert hast, kannst du dein Spiel
 login USERNAME PASSWORD
 ```
 
-## Fazit
+## Abschluss
 
 Glückwunsch, du hast die Administratorrechte erfolgreich eingerichtet. Bei weiteren Fragen oder wenn du Hilfe brauchst, steht dir unser Support-Team täglich zur Seite! 🙂
 

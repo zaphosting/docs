@@ -128,7 +128,7 @@ Falls du weitere Hilfe benötigst, nutze bitte unsere [Portweiterleitung (Firewa
 </TabItem>
 </Tabs>
 
-## Fazit
+## Abschluss
 
 Du hast erfolgreich einen FiveM Dedicated Server Service auf deinem Dedicated Server installiert und konfiguriert. Bei weiteren Fragen oder Problemen steht dir unser Support-Team täglich zur Verfügung und hilft dir gerne weiter! 🙂
 

@@ -120,7 +120,7 @@ Beispiel: `sudo iptables -A INPUT -p udp --dport 9987 -j ACCEPT` für einen Team
 Alle Regeln kannst du mit `sudo iptables -L --line-numbers` anzeigen.  
 Um eine Regel zu löschen, nutze `sudo iptables -D INPUT NUMMER`, wobei NUMMER die Nummer der Regel aus der Liste ist.
 
-## Fazit
+## Abschluss
 
 Du hast erfolgreich eine Firewall auf deinem Linux-Server installiert und deine eigenen Portregeln erstellt. Diese Anleitung kannst du auch nutzen, um weitere Ports weiterzuleiten.  
 Bei Fragen oder Problemen steht dir unser Support-Team täglich zur Seite! 🙂

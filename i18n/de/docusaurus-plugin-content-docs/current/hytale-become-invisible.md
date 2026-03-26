@@ -51,7 +51,7 @@ Folgende Befehle sind verfügbar:
 - `/hide show <Spielername> --target <Spielername>`  Entfernt die Unsichtbarkeit vom angegebenen Spieler für den Zielspieler.
 - `/hide showall`  Entfernt die Unsichtbarkeit von allen Spielern.
 
-## Fazit
+## Abschluss
 
 Unsichtbar werden auf einem Hytale Gameserver ist ein praktisches Tool für Admins und Moderatoren, die das Gameplay diskret überwachen wollen. Bei weiteren Fragen oder wenn du Hilfe brauchst, steht dir unser Support-Team täglich zur Seite! 🙂
 

@@ -48,7 +48,7 @@ AirDrop=false
 
 Speichere nach der Änderung die Datei und starte deinen Server neu, damit die neuen Einstellungen wirksam werden.
 
-## Fazit
+## Abschluss
 
 Glückwunsch! Mit der Anpassung der Werte `AirDrop` und `AirDropInterval` in der `GameServerSettings.ini` hast du das Airdrop-Verhalten auf deinem HumanitZ-Server erfolgreich konfiguriert. Bei weiteren Fragen oder wenn du Hilfe brauchst, steht dir unser Support-Team täglich zur Seite! 🙂
 

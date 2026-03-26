@@ -43,7 +43,7 @@ Nach Ausführung des Befehls antwortet der Server direkt im Chat mit der UUID, d
 
 
 
-## Fazit
+## Abschluss
 
 Das Erhalten der UUID eines Spielers ist ein wichtiger Schritt bei fortgeschrittenen Serververwaltungsaufgaben auf einem Hytale-Gameserver. Bei weiteren Fragen oder wenn du Hilfe brauchst, steht dir unser Support-Team täglich zur Verfügung! 🙂
 

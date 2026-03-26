@@ -54,7 +54,7 @@ Die Funktionalität automatisierter Server-Nachrichten hängt von den Möglichke
 
 Falls das Spiel zusätzliche Plugins, Mods oder Erweiterungen unterstützt, die mehr Flexibilität und Anpassungsmöglichkeiten bieten, lohnt sich der Einsatz solcher Lösungen. Spezialisierte Messaging-Systeme bieten oft umfangreichere Features als die Standard-Befehle und sind besser geeignet für komplexe oder stark individualisierte Server-Setups.
 
-## Fazit
+## Abschluss
 
 Automatisierte Server-Nachrichten sind ein zuverlässiger Weg, um Spieler informiert und engagiert zu halten – ganz ohne manuellen Aufwand. Mit geplanten Tasks, die Nachrichtenbefehle ausführen, können Server-Admins eine konstante Kommunikation auf ihrem Server sicherstellen.
 

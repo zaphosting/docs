@@ -112,7 +112,7 @@ Zum Schluss empfehlen wir, ein neues SSL-Zertifikat für deine neue Website-Inst
 
 Für eine ausführliche Anleitung schau dir unsere spezielle [SSL-Zertifikat erstellen](webspace-plesk-ssl.md) Anleitung an.
 
-## Fazit
+## Abschluss
 
 Wenn du dieser Anleitung gefolgt bist, hast du deine alte WordPress-Website erfolgreich auf deinen neuen ZAP-Hosting Webspace migriert. Teste am besten alles gründlich, um sicherzugehen, dass die Migration komplett reibungslos gelaufen ist.
 

@@ -141,7 +141,7 @@ sudo netplan apply
 
 
 
-## Fazit
+## Abschluss
 
 Glückwunsch! Du hast deine IP-Adresse auf deinem Linux-Server erfolgreich konfiguriert. Bei weiteren Fragen oder Problemen steht dir unser Support-Team täglich zur Verfügung und hilft dir gerne weiter! 🙂
 

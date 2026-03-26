@@ -156,7 +156,7 @@ Regelmäßige Backups ersparen dir viel Stress und Ärger. Erstelle regelmäßig
 
 
 
-## Fazit
+## Abschluss
 
 Diese Schritte sollten dir helfen, dein Problem zu lösen. Wenn dein Problem hier aufgeführt ist, zeigt dir die passende Lösung meist schon den richtigen Weg, damit dein Server bald wieder rund läuft.
 

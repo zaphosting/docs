@@ -377,7 +377,7 @@ Die Startseite deiner neuen Installation wird geladen. Für den ersten Login gib
 
 
 
-## Fazit und weitere Ressourcen
+## Abschluss und weitere Ressourcen
 
 Glückwunsch! Du hast Odoo erfolgreich auf deinem VPS/Dedicated Server installiert und konfiguriert. Wir empfehlen dir außerdem, folgende Ressourcen zu checken, die dir bei der weiteren Serverkonfiguration helfen können:
 

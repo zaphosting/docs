@@ -48,6 +48,6 @@ Nach dem Entfernen hat der Spieler wieder Standardrechte und kann keine Admin-Be
 
 
 
-## Fazit
+## Abschluss
 
 Admin auf einem Hytale-Server zu werden, indem du Operator-Rechte vergibst, ist ein zentraler Teil der Serververwaltung. So können vertrauenswürdige Spieler bei Moderation und administrativen Aufgaben unterstützen. Bei Fragen oder wenn du Hilfe brauchst, steht dir unser Support-Team täglich zur Seite! 🙂

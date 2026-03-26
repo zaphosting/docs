@@ -114,6 +114,6 @@ Du kannst das Passwort des Root-Users ganz einfach ändern. Führe `sudo su` aus
 
 
 
-## Fazit
+## Abschluss
 
 Glückwunsch, du hast Ubuntu 22.04 erfolgreich auf deinem Dedicated Server installiert. Bei weiteren Fragen oder wenn du Hilfe brauchst, steht dir unser Support-Team täglich zur Seite! 🙂

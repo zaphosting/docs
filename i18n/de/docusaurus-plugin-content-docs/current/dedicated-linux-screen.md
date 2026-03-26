@@ -150,6 +150,6 @@ Nach dem Erstellen eines geteilten Fensters wechsel mit `Tab` dorthin und öffne
 
 Du kannst so viele Fenster teilen, wie du willst – aber denk dran, dass der RAM-Verbrauch auf deinem Server dadurch schnell steigen kann, wenn du viele Tasks parallel laufen lässt.
 
-## Fazit
+## Abschluss
 
 Wir hoffen, diese Anleitung hat dir geholfen, Screen auf Linux zu verstehen und effektiv zu nutzen. Falls du noch Fragen hast oder Hilfe brauchst, steht dir unser Support-Team täglich zur Seite! 🙂

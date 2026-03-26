@@ -101,7 +101,7 @@ Das sollte dann so eine Nachricht erzeugen:
 
 Alles in dieser Nachricht kannst du auf der Discord Einstellungsseite in txAdmin anpassen.
 
-## Fazit
+## Abschluss
 
 Mit dem Discord Bot für txAdmin kannst du ganz easy den Status deines FiveM Gameservers und weitere Infos direkt in deinem Discord Server anzeigen lassen. Bei Fragen oder Problemen steht dir unser Support-Team täglich zur Verfügung – meld dich einfach! 🙂
 

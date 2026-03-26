@@ -59,7 +59,7 @@ Achte darauf, dass der Name des zuvor erstellten Ordners exakt mit dem im Startb
 
 
 
-## Fazit
+## Abschluss
 Zum Schluss kannst du deinen Server neu starten. Die installierte Ressource sollte beim nächsten vollständigen Start deines Servers geladen werden. Du hast erfolgreich eine Ressource in deinen RedM Gameserver installiert. Bei weiteren Fragen oder wenn du Hilfe brauchst, steht dir unser Support-Team täglich zur Seite! 🙂
 
 <InlineVoucher />

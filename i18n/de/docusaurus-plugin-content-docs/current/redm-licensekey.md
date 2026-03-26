@@ -51,7 +51,7 @@ Im txAdmin Interface navigierst du links zum **CFG Editor**, um die `server.cfg`
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/KKQ8aRBKo9246yR/preview)
 
-## Fazit
+## Abschluss
 
 Nachdem du den eigenen Lizenzschlüssel eingerichtet hast, starte deinen Server neu, damit der Schlüssel aktiv wird. Du hast erfolgreich einen eigenen Lizenzschlüssel auf deinem RedM Gameserver hinzugefügt. Bei weiteren Fragen oder wenn du Hilfe brauchst, steht dir unser Support-Team täglich zur Seite! 🙂
 

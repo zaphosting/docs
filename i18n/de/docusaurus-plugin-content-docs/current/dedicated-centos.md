@@ -111,6 +111,6 @@ Dein Dedicated Server sollte jetzt eine funktionierende Internetverbindung haben
 
 
 
-## Fazit
+## Abschluss
 
 Glückwunsch, du hast CentOS erfolgreich auf deinem Dedicated Server installiert. Bei weiteren Fragen oder wenn du Hilfe brauchst, steht dir unser Support-Team täglich zur Verfügung! 🙂

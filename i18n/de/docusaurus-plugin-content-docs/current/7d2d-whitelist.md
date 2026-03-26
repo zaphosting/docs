@@ -44,7 +44,7 @@ Nach dem Neustart versuche, dich mit einem Account zu verbinden, der nicht auf d
 
 Falls der Server trotzdem Nicht-Whitelisted Spieler reinlässt, überprüfe nochmal, dass deine Whitelist-Einträge nicht auskommentiert sind und dass du die richtige `serveradmin.xml` für den aktiven Save bearbeitet hast.
 
-## Fazit
+## Abschluss
 
 Wenn du alle Schritte korrekt befolgt hast, ist deine Whitelist jetzt aktiv und du kannst genau steuern, wer auf den Server darf. Falls der Zugang trotzdem nicht wie erwartet funktioniert, starte den Server nochmal neu und überprüfe die Datei oder die Konsolenausgabe, um sicherzugehen, dass die Änderung angewendet wurde.
 

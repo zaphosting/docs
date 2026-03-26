@@ -33,7 +33,7 @@ In der Konfigurationsdatei muss der Abschnitt `Config.AuthorizedVehicles` angepa
 Achte darauf, dass am Ende der vorherigen Zeile ein Komma steht, wenn du neue Fahrzeuge hinzufügst, sonst kann es zu Problemen kommen.
 :::
 
-## Fazit
+## Abschluss
 
 Wenn du alle Schritte befolgt hast, solltest du deine Job-Garage jetzt erfolgreich angepasst oder erweitert haben. Bei weiteren Fragen oder wenn du Hilfe brauchst, steht dir unser Support-Team täglich zur Verfügung! 🙂
 

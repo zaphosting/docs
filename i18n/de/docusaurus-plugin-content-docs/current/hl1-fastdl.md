@@ -62,7 +62,7 @@ sv_allowupload 0
 
 Achte darauf, dass die FastDL-URL genau der Struktur auf deinem Webspace entspricht. Speichere die Datei und starte deinen Gameserver neu, damit die Änderungen wirksam werden.
 
-## Fazit
+## Abschluss
 
 FastDL lässt sich mit deinem eigenen ZAP-Webspace schnell und zuverlässig einrichten. So kannst du benutzerdefinierte Inhalte schnell und effizient ausliefern und das Spielerlebnis auf deinem Half-Life 1 Gameserver deutlich verbessern.
 

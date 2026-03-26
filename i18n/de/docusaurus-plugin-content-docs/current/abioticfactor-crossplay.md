@@ -39,7 +39,7 @@ Wenn du dich per IP verbindest, achte darauf, dass Adresse und Port korrekt eing
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/GEn69G86bEe65zA/preview)
 
-## Fazit
+## Abschluss
 
 Mit diesen Schritten weißt du jetzt, wie du Crossplay-Einstellungen verwaltest und dich von der Konsole aus mit deinem Server verbindest. Egal ob PC oder Konsole – Crossplay aktivieren und die richtige Verbindungsart nutzen sorgt für ein reibungsloses, gemeinsames Spielerlebnis über alle Plattformen hinweg.
 

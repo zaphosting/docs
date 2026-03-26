@@ -136,7 +136,7 @@ Wenn die korrekte Adresse angezeigt wird, wurde die statische IP-Konfiguration e
 
 
 
-## Fazit
+## Abschluss
 
 Glückwunsch! Du hast deine IP-Adresse erfolgreich auf deinem Linux-Server konfiguriert. Bei weiteren Fragen oder Problemen steht dir unser Support-Team täglich zur Verfügung – zögere nicht, uns zu kontaktieren! 🙂
 

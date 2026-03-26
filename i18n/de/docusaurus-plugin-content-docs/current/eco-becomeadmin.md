@@ -99,7 +99,7 @@ Im Folgenden findest du eine Übersicht der häufig genutzten Admin-Befehle, die
 
 Weitere Befehle findest du in der offiziellen [ECO Wiki](https://eco.gamepedia.com/Chat_Commands).
 
-## Fazit
+## Abschluss
 
 Glückwunsch, du hast die Administratorrechte erfolgreich konfiguriert. Bei weiteren Fragen oder Problemen steht dir unser Support-Team täglich zur Verfügung und hilft dir gerne weiter! 🙂
 

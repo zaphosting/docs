@@ -120,7 +120,7 @@ Ersetze `DEINE_SERVER_IP` durch die IP-Adresse deines VPS/Dedicated Servers. Bei
 
 Nach Abschluss der Einrichtung kannst du Dateien hochladen, Medien organisieren und deine digitalen Inhalte direkt im Swush-Dashboard verwalten.
 
-## Fazit
+## Abschluss
 
 Glückwunsch! Du hast **Swush** erfolgreich auf deinem Linux-Server installiert. Dein selbstgehosteter digitaler Safe ist jetzt bereit, Dateien zu verwalten, Medien zu teilen und persönliche Inhalte zentral zu organisieren.
 

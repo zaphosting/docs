@@ -63,7 +63,7 @@ sets locale "root-AQ"
 
 Der Wert des **sets locale** Befehls ist standardmäßig auf **root-AQ** gesetzt. Dies muss jetzt angepasst werden. Wenn du zum Beispiel die USA als Flagge und Englisch als Sprache verwenden möchtest, würdest du hier **en-US** als Wert eintragen. Speichere die Änderung anschließend ab.
 
-## Fazit
+## Abschluss
 
 Der letzte Schritt ist, den Server neu zu starten, damit die Änderung übernommen wird. Danach kannst du die Serverliste in deinem RedM Client neu laden und solltest die gerade gemachte Änderung sehen. Bei weiteren Fragen oder wenn du Hilfe brauchst, steht dir unser Support-Team täglich zur Verfügung! 🙂
 

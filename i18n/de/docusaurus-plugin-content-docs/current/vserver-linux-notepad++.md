@@ -105,7 +105,7 @@ Diese Einstellungen machen Notepad++ extrem flexibel, egal ob du nur einfachen T
 
 
 
-## Fazit und weitere Ressourcen
+## Abschluss und weitere Ressourcen
 
 Glückwunsch! Du hast Notepad++ erfolgreich auf deinem VPS/Dedicated Server installiert und konfiguriert. Wir empfehlen dir außerdem, einen Blick auf die folgenden Ressourcen zu werfen, die dir bei der weiteren Server-Konfiguration helfen können:
 

@@ -73,7 +73,7 @@ Du hast nach der Fehlerbehebung immer noch Probleme? Kein Ding! Unser Support-Te
 
 
 
-## Fazit
+## Abschluss
 
 Glückwunsch! Wenn du alles befolgt hast, solltest du jetzt erfolgreich mit dem Server verbunden sein. Falls du noch Fragen hast oder Hilfe brauchst, zögere nicht, unseren Support zu kontaktieren – wir sind täglich für dich da! 🙂
 

@@ -33,7 +33,7 @@ Du suchst noch nach den perfekten Mods für deinen Gameserver? Stöbere durch un
 
 <SearchableItemList items={items} />
 
-## Fazit
+## Abschluss
 
 Wenn du alle Schritte befolgt hast, hast du die Mods erfolgreich auf deinem Gameserver installiert. Bei weiteren Fragen oder wenn du Hilfe brauchst, steht dir unser Support-Team täglich zur Verfügung! 🙂
 

@@ -86,7 +86,7 @@ Wenn der Vorgang erfolgreich war, siehst du die vergrößerte Volume-Größe bei
 </TabItem>
 </Tabs>
 
-## Fazit
+## Abschluss
 
 Du hast erfolgreich deine Hauptpartition erweitert und nutzt jetzt den gesamten verfügbaren Speicherplatz. Bei Fragen oder wenn du Hilfe brauchst, steht dir unser Support-Team täglich zur Verfügung! 🙂
 

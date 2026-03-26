@@ -54,7 +54,7 @@ Wenn die GUI geöffnet ist, können Spieler Item-Namen eingeben oder einfügen, 
 
 <Button label="Advanced Item Info Mod herunterladen" link="https://www.curseforge.com/hytale/mods/advanced-item-info" block />
 
-## Fazit
+## Abschluss
 
 Advanced Item Info bringt eine spürbare Quality-of-Life-Verbesserung für Hytale-Spieler, die Items und Materialien besser verstehen wollen. Bei Fragen oder Problemen steht dir unser Support-Team täglich zur Verfügung – zögere nicht, uns zu kontaktieren! 🙂
 

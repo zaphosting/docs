@@ -48,7 +48,7 @@ Versuche, dich mit einem Spieler zu verbinden, der nicht auf der Whitelist steht
 
 Wenn trotzdem alle joinen können, überprüfe, ob `whitelistmode` wirklich auf 1 steht und ob du die Befehle auf dem richtigen Server ausgeführt hast.
 
-## Fazit
+## Abschluss
 
 Wenn du alle Schritte oben richtig befolgt hast, ist deine Whitelist jetzt aktiv und du kannst genau steuern, wer auf den Server darf. Falls der Zugang trotzdem nicht wie gewünscht funktioniert, starte den Server einmal neu und prüfe die Datei oder die Befehlsausgabe erneut, um sicherzugehen, dass die Änderung übernommen wurde.
 

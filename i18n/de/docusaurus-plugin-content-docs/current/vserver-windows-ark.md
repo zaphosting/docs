@@ -96,7 +96,7 @@ Am Ende der Einrichtung kannst du den Server jetzt starten, indem du die zuvor e
 ![](https://screensaver01.zap-hosting.com/index.php/s/SkjP94KCa9YnJXn/preview)
 
 
-## Fazit
+## Abschluss
 
 Glückwunsch, du hast den ARK Survival Server erfolgreich auf deinem VPS installiert und konfiguriert! Falls du noch Fragen oder Probleme hast, steht dir unser Support-Team täglich zur Verfügung und hilft dir gerne weiter! 
 

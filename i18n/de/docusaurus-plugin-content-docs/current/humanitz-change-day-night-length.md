@@ -45,7 +45,7 @@ Nach dem Bearbeiten der Datei speichere die Änderungen und starte den Server ne
 
 
 
-## Fazit
+## Abschluss
 
 Glückwunsch! Durch das Anpassen der Werte `DayDur` und `NightDur` in der `GameServerSettings.ini` hast du erfolgreich den Tag-Nacht-Zyklus auf deinem HumanitZ-Gameserver verändert. Bei weiteren Fragen oder wenn du Hilfe brauchst, steht dir unser Support-Team täglich zur Verfügung! 🙂
 

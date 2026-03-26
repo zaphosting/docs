@@ -91,7 +91,7 @@ Ist es deaktiviert, ist der Login per Passwort nicht mehr möglich.
 
 Die Anzeige bei "**SSH-Login via Passwort**" steht dann auf "**Inaktiv**".
 
-## Fazit
+## Abschluss
 
 Glückwunsch, du hast deinen SSH-Key erfolgreich eingerichtet und konfiguriert! Falls du noch Fragen oder Probleme hast, steht dir unser Support-Team täglich zur Verfügung und hilft dir gerne weiter!
 

@@ -83,7 +83,7 @@ Du hast nach der Fehlersuche immer noch Probleme? Kein Ding, unser Support-Team 
 
 
 
-## Fazit
+## Abschluss
 
 Glückwunsch, wenn du alles befolgt hast, solltest du jetzt erfolgreich mit dem Server verbunden sein. Bei weiteren Fragen oder wenn du Hilfe brauchst, zögere nicht, unseren Support zu kontaktieren – der ist täglich für dich am Start! 🙂
 

@@ -531,7 +531,7 @@ Außerdem kannst du neben den Standard-Apps weitere Apps installieren. Diese fin
 Mit solchen **Apps** kannst du Nextcloud noch individueller an deine Wünsche anpassen.
 
 
-## Fazit
+## Abschluss
 
 Glückwunsch, du hast Nextcloud erfolgreich installiert! Falls du noch Fragen oder Probleme hast, steht dir unser Support-Team täglich zur Verfügung und hilft dir gerne weiter!
 

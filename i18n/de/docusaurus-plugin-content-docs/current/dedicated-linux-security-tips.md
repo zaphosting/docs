@@ -384,7 +384,7 @@ Dafür kannst du manuell Firewall-Regeln mit der [Cloudflare IPv4-Liste](https:/
 Alternativ sparst du Zeit und nutzt Tools wie [Cloudflare-ufw](https://github.com/Paul-Reed/cloudflare-ufw), um diese Firewall-Regeln schnell massenhaft zu importieren.
 Achte darauf, dass du keine separaten Regeln hast, die uneingeschränkten Zugriff auf deinen Webserver erlauben, außer den gerade hinzugefügten, sonst funktionieren die Regeln nicht.
 
-## Fazit – dein Server ist jetzt viel sicherer als vorher!
+## Abschluss – dein Server ist jetzt viel sicherer als vorher!
 
 Diese Anleitung hat dir einige grundlegende und fortgeschrittene Funktionen gezeigt, um deinen Linux Server abzusichern. Wenn du alle für dein System relevanten Empfehlungen umgesetzt hast, ist dein Server schon deutlich sicherer als zuvor – Glückwunsch!
 

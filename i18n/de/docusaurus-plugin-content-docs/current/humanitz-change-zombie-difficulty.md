@@ -100,7 +100,7 @@ AIEvent=3
 
 
 
-## Fazit
+## Abschluss
 
 Glückwunsch! Durch das Anpassen der zombie-bezogenen Werte in der `GameServerSettings.ini` hast du die Zombie-Schwierigkeit auf deinem HumanitZ-Server erfolgreich individualisiert. Für weitere Fragen oder Hilfe steht dir unser Support-Team täglich zur Verfügung – zögere nicht, uns zu kontaktieren! 🙂
 

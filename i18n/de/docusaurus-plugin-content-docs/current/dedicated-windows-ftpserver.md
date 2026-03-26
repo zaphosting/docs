@@ -102,7 +102,7 @@ Danach kannst du den Vorgang mit einem Klick auf **OK** abschließen. Eine Verbi
 
 
 
-## Fazit
+## Abschluss
 
 Glückwunsch, du hast den FTP-Server erfolgreich installiert. Bei weiteren Fragen oder wenn du Hilfe brauchst, steht dir unser Support-Team täglich zur Verfügung! 🙂
 

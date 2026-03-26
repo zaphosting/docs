@@ -80,7 +80,7 @@ Abhängigkeiten installierst du mit `npm install <package>`, während Entwicklun
 
 Für fortgeschrittene Setups kannst du Node.js mit `.npmrc` oder `.nvmrc` Dateien anpassen, um private Registries, Cache-Optionen oder eine bestimmte Node.js-Version zu konfigurieren. So läuft deine Anwendung konsistent in verschiedenen Umgebungen.
 
-## Fazit und weitere Ressourcen
+## Abschluss und weitere Ressourcen
 
 Glückwunsch! Du hast Node.js jetzt erfolgreich auf deinem VPS/Dedicated Server installiert und konfiguriert. Wir empfehlen dir außerdem, einen Blick auf folgende Ressourcen zu werfen, die dir bei der Server-Konfiguration weiterhelfen können:
 

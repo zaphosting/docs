@@ -38,7 +38,7 @@ PVP=false
 
 Speichere nach der Änderung die Datei und starte den Server neu, damit die neue Einstellung wirksam wird.
 
-## Fazit
+## Abschluss
 
 Glückwunsch! Mit der Änderung des `PVP`-Werts in der `GameServerSettings.ini` hast du den PvP-Modus auf deinem HumanitZ-Server erfolgreich angepasst. Bei weiteren Fragen oder wenn du Hilfe brauchst, steht dir unser Support-Team täglich zur Verfügung! 🙂
 

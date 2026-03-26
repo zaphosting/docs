@@ -243,7 +243,7 @@ Es wird empfohlen, OpenClaw hinter einer Firewall zu betreiben und die Gateway-O
 
 
 
-## Fazit und weitere Ressourcen
+## Abschluss und weitere Ressourcen
 
 Glückwunsch! Du hast OpenClaw jetzt erfolgreich auf deinem VPS oder Dedicated Server installiert und konfiguriert. Wir empfehlen dir außerdem, einen Blick auf die folgenden Ressourcen zu werfen, die dir bei der Server-Konfiguration weiterhelfen können:
 

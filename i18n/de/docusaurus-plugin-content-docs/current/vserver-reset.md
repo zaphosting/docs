@@ -23,7 +23,7 @@ Die Option zum Zurücksetzen (Neuinstallieren) deines Servers findest du in der 
 Falls sich noch wichtige Daten auf dem Server befinden, solltest du diese unbedingt vorher sichern, bevor sie verloren gehen.
 :::
 
-## Fazit
+## Abschluss
 
 Glückwunsch, du hast deinen Server erfolgreich durch eine Neuinstallation zurückgesetzt. Bei weiteren Fragen oder wenn du Hilfe brauchst, steht dir unser Support-Team täglich zur Verfügung! 🙂
 

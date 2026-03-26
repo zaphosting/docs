@@ -68,7 +68,7 @@ Du hast das Problem trotz Anleitung noch? Kein Ding! Unser Support-Team ist täg
 
 
 
-## Fazit
+## Abschluss
 
 Glückwunsch, wenn du alles erfolgreich befolgt hast, solltest du jetzt mit deinem Server verbunden sein. Falls du noch Fragen hast oder Hilfe brauchst, steht dir unser Support-Team täglich zur Seite! 🙂
 

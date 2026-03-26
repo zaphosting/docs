@@ -66,6 +66,6 @@ hlds.exe -console -game cstrike +maxplayers 8 +map de_dust
 Im Kommandozeilenfenster solltest du nun Logs sehen, die signalisieren, dass der Server erfolgreich gestartet wurde. Beachte, dass der erste Start etwas länger dauern kann, da alles eingerichtet wird. Alternativ kannst du dich direkt verbinden, indem du in der Serverliste unten die Suchleiste nutzt und nach `[deine_ip_adresse]:2456` suchst.
 
 
-## Fazit
+## Abschluss
 
 Glückwunsch, du hast deinen Counter-Strike: Condition Zero Server erfolgreich auf deinem VPS installiert und konfiguriert! Bei weiteren Fragen oder Problemen steht dir unser Support-Team täglich zur Seite – zögere nicht, uns zu kontaktieren! 🙂

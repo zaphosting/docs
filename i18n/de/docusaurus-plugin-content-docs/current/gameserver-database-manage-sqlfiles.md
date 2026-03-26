@@ -57,7 +57,7 @@ Standardmäßig ist die **Schnell**-Exportmethode ausgewählt, die automatisch a
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/Qa2HakWpYGpfzfA/preview)
 
-## Fazit
+## Abschluss
 
 Du hast deine Datenbank erfolgreich in eine SQL-Datei exportiert, sodass du sie in Zukunft ganz easy wieder importieren kannst. Falls du noch Fragen hast oder Hilfe brauchst, steht dir unser Support-Team täglich zur Seite! 🙂
 

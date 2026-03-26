@@ -37,7 +37,7 @@ Installierte Plugins sind nicht automatisch aktiviert. Das erkennst du am Button
 
 Deine Plugins solltest du immer aktuell halten. WordPress macht dir das super easy: Sobald ein Update verfügbar ist, zeigt es dir das direkt in deiner Plugin-Liste an und du kannst es mit einem Klick installieren. Kleinere Updates laufen sogar automatisch. Bei größeren, manuellen Updates empfiehlt es sich aber, vorher ein Backup von deiner Website und Datenbank zu machen.
 
-## Fazit
+## Abschluss
 
 Glückwunsch, du hast dein erstes WordPress Plugin erfolgreich installiert! Falls du noch Fragen hast oder Probleme auftauchen, steht dir unser Support-Team täglich zur Seite und hilft dir gern weiter!
 

@@ -59,5 +59,5 @@ Der Unterschied zwischen „Image File CD/DVD-ROM“ und „URL CD/DVD-ROM“ is
 Nach dem Einbinden deiner ISO-Datei ist ein Server-Neustart erforderlich.
 
 
-## Fazit
+## Abschluss
 Glückwunsch, du hast deine ISO-Datei erfolgreich ausgewählt und gemountet. Bei Fragen oder wenn du Hilfe brauchst, steht dir unser Support-Team täglich zur Seite! 🙂

@@ -53,7 +53,7 @@ Erstellte Backups (Snapshots) kannst du über FTP von deinem Speicher-Server her
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/MiX4GG2zoe5mkSc/preview)
 
-## Fazit
+## Abschluss
 
 Wenn du alle Schritte befolgt hast, hast du erfolgreich ein Backup erstellt. Bei weiteren Fragen oder wenn du Hilfe brauchst, steht dir unser Support-Team täglich zur Seite! 🙂
 

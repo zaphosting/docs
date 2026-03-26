@@ -228,7 +228,7 @@ journalctl -f -u nginx.service
 
 Wir empfehlen dringend, für deine Domains ein SSL-Zertifikat zu installieren, damit die Daten sicher per HTTPS übertragen werden. Schau dir unsere [Certbot Installation](dedicated-linux-certbot.md) Anleitung an, die den kompletten Prozess für das Anfordern und automatische Erneuern von SSL-Zertifikaten erklärt.
 
-## Fazit
+## Abschluss
 
 Glückwunsch, du hast erfolgreich einen Reverse Proxy für deine Webseite oder deinen Gameserver (oder beides :) eingerichtet und profitierst jetzt von mehr Sicherheit, Zuverlässigkeit und Performance. Bei Fragen oder Problemen steht dir unser Support-Team täglich zur Seite! 🙂
 

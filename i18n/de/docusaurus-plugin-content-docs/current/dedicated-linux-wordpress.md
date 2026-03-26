@@ -228,7 +228,7 @@ Und schon bist du drin – dein WordPress Dashboard mit einer frischen Installat
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/r26L7xASWY3d5Z5/preview)
 
-## Fazit
+## Abschluss
 
 Glückwunsch, du hast WordPress erfolgreich installiert und konfiguriert! Als nächsten Schritt empfehlen wir dir **dringend**, eine Domain und ein **SSL-Zertifikat** einzurichten, damit deine Daten sicher übertragen werden und der Zugriff auf das WordPress Dashboard einfacher wird. Schau dir dazu unsere [Certbot Anleitung](dedicated-linux-certbot.md) mit Fokus auf das **Apache Plugin** an und folge der interaktiven Einrichtung, um schnell und einfach ein Zertifikat für deine Domain zu erstellen.
 

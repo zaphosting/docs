@@ -40,7 +40,7 @@ Ersetze die Beispiel-URLs durch den direkten Link zu deinem hochgeladenen Bild. 
 
 
 
-## Fazit
+## Abschluss
 
 Dein individuelles Banner erscheint jetzt in der Serverliste und während des Verbindungsbildschirms, wodurch dein Server einzigartiger und professioneller wirkt. Bei weiteren Fragen oder wenn du Hilfe brauchst, steht dir unser Support-Team täglich zur Verfügung! 🙂
 

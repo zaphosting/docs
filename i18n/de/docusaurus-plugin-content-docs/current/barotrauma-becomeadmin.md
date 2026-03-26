@@ -116,7 +116,7 @@ In diesem Beispiel hat der Admin Zugriff auf Serverlogs, Konsole, den Heal- und 
 
 
 
-## Fazit
+## Abschluss
 
 Glückwunsch, du hast die Administratorrechte erfolgreich konfiguriert. Bei weiteren Fragen oder wenn du Hilfe brauchst, steht dir unser Support-Team täglich zur Verfügung! 🙂
 

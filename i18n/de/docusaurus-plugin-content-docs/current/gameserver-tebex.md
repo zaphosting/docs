@@ -67,7 +67,7 @@ Zum Schluss musst du bestätigen, dass du das Gameserver-Plugin erfolgreich inst
 In manchen Fällen musst du deinen Tebex-Webshop-Plugin-API-Key eingeben, um die Verbindung von ZAP zu deinem Tebex-Shop herzustellen. Dann siehst du, dass die Verbindung erfolgreich war:
 ![](https://screensaver01.zap-hosting.com/index.php/s/4YS2SwHfSTgn4DE/preview)
 
-## Fazit
+## Abschluss
 
 Du hast Tebex erfolgreich mit deinem Gameserver-Service verbunden. Bei weiteren Fragen oder wenn du Hilfe brauchst, steht dir unser Support-Team täglich zur Verfügung! 🙂
 

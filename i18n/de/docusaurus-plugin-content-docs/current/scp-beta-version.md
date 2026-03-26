@@ -42,7 +42,7 @@ Der Wechsel vom Game **SCP: Exiled** zu **SCP: Beta** erfordert aufgrund der unt
 :::
 
 
-## Fazit
+## Abschluss
 
 Glückwunsch, du hast die Beta-Version von SCP erfolgreich ausgewählt und installiert. Bei weiteren Fragen oder wenn du Unterstützung brauchst, steht dir unser Support-Team täglich zur Verfügung! 🙂
 

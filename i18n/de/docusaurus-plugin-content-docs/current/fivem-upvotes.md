@@ -64,7 +64,7 @@ Cfx.re setzt eine Upvote-**Cooldown-Zeit** durch. Die Zuweisung von Upvotes ist 
 
 
 
-## Fazit
+## Abschluss
 
 Du hast deine Upvotes erfolgreich erhalten und weißt, wie du sie verwaltest. Bei weiteren Fragen oder wenn du Hilfe brauchst, steht dir unser Support-Team täglich zur Seite! 🙂
 

@@ -80,7 +80,7 @@ Speichere nach der Bearbeitung die Datei und starte den Gameserver neu, damit di
 
 
 
-## Fazit
+## Abschluss
 
 Glückwunsch! Durch das Anpassen der Wetterhäufigkeitswerte in der `GameServerSettings.ini` hast du erfolgreich das Wetter auf deinem HumanitZ-Gameserver individualisiert. Bei weiteren Fragen oder wenn du Hilfe brauchst, steht dir unser Support-Team täglich zur Seite! 🙂
 

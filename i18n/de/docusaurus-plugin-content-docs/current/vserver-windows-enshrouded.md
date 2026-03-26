@@ -119,7 +119,7 @@ Dort findest du die Datei **enshrouded_server.json**. In dieser Datei kannst du 
 
 Jetzt kannst du deinen Server starten. Gehe in das Hauptverzeichnis deines Enshrouded Servers und starte **enshrouded_server.exe**. Dadurch öffnet sich die Server-Konsole in einem Kommandozeilenfenster und der Startvorgang beginnt. Verbinde dich anschließend direkt über den Tab **Find Games**, klicke auf **Add Server** und gib deine Server-IP sowie den Port (Standard: 15636) ein.
 
-## Fazit
+## Abschluss
 
 Glückwunsch, du hast den Enshrouded Server erfolgreich auf deinem VPS installiert und konfiguriert! Falls du noch Fragen oder Probleme hast, steht dir unser Support-Team täglich zur Verfügung und hilft dir gerne weiter!
 

@@ -105,7 +105,7 @@ LuckPerms kannst du entweder über den Web-Editor oder direkt per Befehle verwal
 
 
 
-## Fazit
+## Abschluss
 
 LuckPerms ist eine mächtige Lösung für erweiterte Permission-Verwaltung auf Hytale Gameservern. Mit Gruppen, Permissions und dem Web-Editor kannst du ein strukturiertes Rollensystem schaffen, das mit deiner Community mitwächst.
 

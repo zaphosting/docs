@@ -105,7 +105,7 @@ Eine Liste aller Locale-Tags findest du z.B. [hier](https://github.com/TiagoDani
 
 
 
-## Fazit
+## Abschluss
 
 Wenn du alle Schritte befolgt hast, hast du deinen RedM Gameserver erfolgreich individualisiert. Bei Fragen oder wenn du Hilfe brauchst, steht dir unser Support-Team täglich zur Seite! 🙂
 

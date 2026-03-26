@@ -45,7 +45,7 @@ Wenn du deinen Server auf **KVM** umstellen möchtest, kannst du einfach eine **
 
 :::
 
-## Fazit
+## Abschluss
 
 Du weißt jetzt, wie **Ballooning** dabei hilft, Speicher effizient zu verwalten und deine Serverumgebung stabil zu halten. Bei weiteren Fragen oder wenn du Unterstützung brauchst, steht dir unser Support-Team täglich gerne zur Verfügung! 🙂
 

@@ -47,7 +47,7 @@ set mysql_connection_string "mysql://USER:PASSWORD@SERVER:3306/DATABASE"
 
 Speichere die Datei anschließend ab und starte deinen Server neu.
 
-## Fazit
+## Abschluss
 
 Beim nächsten Serverstart sollte dein Gameserver wieder problemlos auf die Datenbank zugreifen können und alles wie gewohnt funktionieren. Du hast deine Datenbank-Verbindungsprobleme erfolgreich gelöst. Falls du weitere Fragen hast oder Hilfe brauchst, steht dir unser Support-Team täglich zur Verfügung! 🙂
 

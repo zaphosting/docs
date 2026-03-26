@@ -92,7 +92,7 @@ Es wird dringend empfohlen, alle ursprünglichen Adaptereinstellungen vor der An
 
 
 
-## Fazit
+## Abschluss
 
 Langsame Verbindungen und nicht ladende Welten beim Joinen eines Hytale-Gameservers können sowohl server- als auch clientseitige Ursachen haben.
 Wenn serverseitige Probleme ausgeschlossen sind, sind Inkompatibilitäten der Netzwerktreiber auf der Client-Seite eine bekannte Ursache.

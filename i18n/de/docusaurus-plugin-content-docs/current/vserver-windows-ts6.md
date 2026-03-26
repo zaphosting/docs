@@ -82,7 +82,7 @@ Sobald der TeamSpeak 6 Server läuft, kannst du dich mit dem TeamSpeak 6 Client 
 
 
 
-## Fazit und weitere Ressourcen
+## Abschluss und weitere Ressourcen
 
 Glückwunsch! Du hast den TeamSpeak 6 Server erfolgreich auf deinem VPS/Dedicated Server installiert und konfiguriert. Wir empfehlen dir außerdem, einen Blick auf die folgenden Ressourcen zu werfen, die dir bei der weiteren Server-Konfiguration helfen können:
 

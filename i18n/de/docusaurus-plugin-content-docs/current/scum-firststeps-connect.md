@@ -70,7 +70,7 @@ Du hast nach dem Troubleshooting immer noch Probleme? Kein Ding, unser Support-T
 
 
 
-## Fazit
+## Abschluss
 
 Glückwunsch, wenn du alles befolgt hast, solltest du jetzt erfolgreich mit dem Server verbunden sein. Bei weiteren Fragen oder wenn du Hilfe brauchst, steht dir unser Support-Team täglich zur Verfügung! 🙂
 

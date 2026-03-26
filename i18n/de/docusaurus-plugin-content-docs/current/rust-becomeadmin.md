@@ -66,7 +66,7 @@ moderatorid 76561198114248380 "Test-Person"
 Du musst deinen Server neu starten, damit die Änderungen wirksam werden.
 :::
 
-## Fazit
+## Abschluss
 
 Glückwunsch, du hast die Administratorrechte erfolgreich eingerichtet. Bei weiteren Fragen oder wenn du Hilfe brauchst, steht dir unser Support-Team täglich zur Verfügung! 🙂
 

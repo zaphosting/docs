@@ -62,7 +62,7 @@ sv_allowupload 0
 
 Achte darauf, dass die FastDL-URL genau mit der Struktur auf deinem Webspace übereinstimmt. Speichere die Datei und starte deinen Gameserver neu, damit die Einstellungen wirksam werden.
 
-## Fazit
+## Abschluss
 
 FastDL lässt sich mit deinem eigenen ZAP Webspace schnell und zuverlässig einrichten. So lieferst du Custom Content blitzschnell aus und verbesserst das Spielerlebnis auf deinem Garry's Mod Gameserver.
 

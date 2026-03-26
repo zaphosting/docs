@@ -105,7 +105,7 @@ Approximate round trip times in milli-seconds:
     Minimum = 22ms, Maximum = 25ms, Average = 23ms
 ```
 
-## Fazit
+## Abschluss
 
 Glückwunsch, du hast deine Netzwerkkonfiguration erfolgreich eingerichtet. Bei weiteren Fragen oder wenn du Hilfe brauchst, steht dir unser Support-Team täglich zur Seite! 🙂
 

@@ -57,7 +57,7 @@ Nachdem mindestens ein Spieler hinzugefügt wurde, versuche mit einem nicht geli
 
 Wenn der Server trotzdem alle reinlässt, überprüfe, ob die Befehle auf dem richtigen Server ausgeführt wurden, und starte den Server einmal neu, um sicherzugehen, dass die Whitelist-Datei beim Start geladen wird.
 
-## Fazit
+## Abschluss
 
 Wenn du alle Schritte oben korrekt befolgt hast, ist deine Whitelist jetzt aktiv und du kannst genau steuern, wer auf den Server darf. Falls der Zugang trotzdem nicht wie erwartet funktioniert, starte den Server einmal neu und überprüfe die Datei oder die Befehlsausgabe, um sicherzugehen, dass die Änderung übernommen wurde.
 

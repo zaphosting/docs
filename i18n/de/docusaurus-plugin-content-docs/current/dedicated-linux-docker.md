@@ -170,6 +170,6 @@ sudo systemctl stop [dein_dienst]
 sudo systemctl restart [dein_dienst]
 ```
 
-## Fazit
+## Abschluss
 
 Glückwunsch, du hast Docker erfolgreich auf deinem Linux-Server installiert und konfiguriert! Falls du noch Fragen oder Probleme hast, steht dir unser Support-Team täglich zur Verfügung und hilft dir gerne weiter!

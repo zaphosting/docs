@@ -116,7 +116,7 @@ Das öffnet die Serverkonsole und startet den Server.
 
 Spieler können sich über den **Arma 3 Serverbrowser** mit deiner **Server-IP-Adresse** und dem Standardport **2302** verbinden.
 
-## Fazit
+## Abschluss
 
 Glückwunsch, du hast den **Arma 3 Server** erfolgreich auf deinem VPS/Dedicated Server installiert und konfiguriert! Falls du noch Fragen oder Probleme hast, steht dir unser Support-Team täglich zur Verfügung und hilft dir gerne weiter!
 

@@ -140,6 +140,6 @@ Dein Server sollte jetzt eine aktive Internetverbindung haben.
 
 
 
-## Fazit
+## Abschluss
 
 Glückwunsch, du hast FreeBSD erfolgreich auf deinem Dedicated Server installiert. Bei weiteren Fragen oder Problemen steht dir unser Support-Team täglich zur Verfügung – wir helfen dir gerne! 🙂

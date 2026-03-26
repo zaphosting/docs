@@ -71,7 +71,7 @@ Stöbere durch unsere sorgfältig zusammengestellte Liste der beliebtesten und m
 
 <SearchableItemList items={items} />
 
-## Fazit
+## Abschluss
 
 Wenn du alle Schritte befolgt hast, solltest du AMXmodX / Metamod und deine gewünschten Plugins erfolgreich installiert haben. Bei weiteren Fragen oder wenn du Hilfe brauchst, steht dir unser Support-Team täglich zur Seite! 🙂
 

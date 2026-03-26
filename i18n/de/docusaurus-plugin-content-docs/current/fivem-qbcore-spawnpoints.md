@@ -102,7 +102,7 @@ Das Endergebnis sieht dann so aus:
 
 
 
-## Fazit
+## Abschluss
 
 Du hast erfolgreich bestehende Spawnpoints geändert oder neue hinzugefügt, indem du dieser Methode gefolgt bist. Bei weiteren Fragen oder wenn du Hilfe brauchst, steht dir unser Support-Team täglich zur Seite! 🙂
 

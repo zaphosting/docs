@@ -33,7 +33,7 @@ Sobald die Option aktiv ist, kannst du entweder die Standard-Nameserver ändern 
 Andere Nameserver können nur angegeben und genutzt werden, wenn die Domain bereits mit dem angegebenen Nameserver gespeichert und konfiguriert ist.
 :::
 
-## Fazit
+## Abschluss
 
 Glückwunsch, du hast erfolgreich die verwendeten Nameserver deiner Domain angepasst. Bei weiteren Fragen oder wenn du Hilfe brauchst, steht dir unser Support-Team täglich zur Verfügung! 🙂
 

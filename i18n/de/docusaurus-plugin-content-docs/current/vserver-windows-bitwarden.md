@@ -130,7 +130,7 @@ Anschließend prüfe die Installationsparameter in `.\bwdata\config.yml`. Diese 
 
 Starte die Instanz zuletzt mit `.\bitwarden.ps1 -start`. Der erste Start kann etwas dauern, da Docker die Images zieht. Mit `docker ps` kannst du prüfen, ob alle Container gesund sind. Öffne dann das Web Vault unter deiner konfigurierten Domain und registriere bei Bedarf einen Account. Die E-Mail-Verifizierung funktioniert nur mit korrekt konfigurierten SMTP-Variablen.
 
-## Fazit und weitere Ressourcen
+## Abschluss und weitere Ressourcen
 
 Glückwunsch! Du hast Bitwarden erfolgreich auf deinem VPS/Dedicated Server installiert und konfiguriert. Wir empfehlen dir außerdem, einen Blick auf folgende Ressourcen zu werfen, die dir bei der Serverkonfiguration weiterhelfen können:
 

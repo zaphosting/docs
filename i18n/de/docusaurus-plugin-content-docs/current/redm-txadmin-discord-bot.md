@@ -101,7 +101,7 @@ Das sollte dann so eine Nachricht erzeugen:
 
 Alles in dieser Nachricht kannst du auf der Discord Einstellungsseite innerhalb von txAdmin anpassen.
 
-## Fazit
+## Abschluss
 
 Mit dem Einrichten eines Discord Bots für txAdmin kannst du ganz easy den Status deines RedM Servers und weitere Infos direkt in deinem Discord Server anzeigen lassen. Bei Fragen oder Problemen steht dir unser Support-Team täglich zur Verfügung – melde dich einfach! 🙂
 

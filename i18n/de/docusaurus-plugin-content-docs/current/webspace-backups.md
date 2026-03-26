@@ -59,7 +59,7 @@ Möchtest du dein Backup auch lokal speichern? Kein Problem! Du kannst die erste
 
 
 
-## Fazit
+## Abschluss
 
 Glückwunsch, du hast erfolgreich ein Backup deines Webspace-Pakets erstellt, das du bei Bedarf jederzeit wieder importieren kannst. Bei weiteren Fragen oder wenn du Hilfe brauchst, steht dir unser Support-Team täglich zur Seite! 🙂
 

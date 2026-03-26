@@ -48,7 +48,7 @@ Falls du dir beim genauen Namen einer Welt unsicher bist, kannst du dir mit dem 
 :::
 
 
-## Fazit
+## Abschluss
 
 Das Teleportieren zwischen Welten ist ein mächtiges Tool, um Multi-Welten-Hytale-Server zu managen. Mit den passenden Welt-Befehlen über die Konsole oder den Ingame-Chat und dem Laden der Zielwelten können Admins eine reibungslose und flexible Navigation zwischen verschiedenen Server-Umgebungen ermöglichen.
 
