@@ -1,34 +1,35 @@
 ---
 id: dedicated-linux-hytale
-title: "Serwer dedykowany: Konfiguracja serwera Hytale na serwerze dedykowanym"
-description: "Dowiedz sie, jak skonfigurowac serwer Hytale na swoim serwerze dedykowanym z Linuxem, aby zarzadzac rozgrywka bez problem�w ? Sprawdz teraz"
+title: "Konfiguracja Serwera Dedykowanego Hytale"
+description: "Dowiedz się, jak skonfigurować serwer dedykowany Hytale na swoim serwerze dedykowanym Linux, aby zarządzać rozgrywką bez problemów → Sprawdź teraz"
 sidebar_label: Hytale
 services:
+  - vserver
   - dedicated
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Wprowadzenie
-Masz serwer dedykowany z Linuxem i chcesz na nim zainstalowac Hytale? Trafiles idealnie. W tym poradniku krok po kroku wyjasnimy, jak zainstalowac ten serwer na Twoim Linuxowym serwerze dedykowanym.
+Masz Linux VPS/serwer dedykowany i chcesz zainstalować na nim Hytale? Trafiłeś idealnie. W tym poradniku krok po kroku wyjaśnimy, jak zainstalować ten serwer na Twoim Linuxowym serwerze.
 
 ## Przygotowanie
 
-Aby uruchomic serwer Hytale, Tw�j system musi spelniac kilka podstawowych wymagan. Serwer dziala na Javie 25 i wymaga co najmniej 4 GB pamieci RAM. Obslugiwane sa architektury x64 oraz arm64. Rzeczywiste zuzycie zasob�w zalezy od liczby graczy, odleglosci renderowania i aktywnosci swiata, wiec dla wiekszych serwer�w moze byc potrzebne wiecej zasob�w.
+Aby uruchomić serwer Hytale, Twój system musi spełniać kilka podstawowych wymagań. Serwer działa na Javie 25 i wymaga co najmniej 4 GB pamięci RAM. Obsługiwane są architektury x64 oraz arm64. Faktyczne zużycie zasobów zależy od liczby graczy, odległości renderowania i aktywności świata, więc na większe serwery może być potrzebne więcej zasobów.
 
-Przed kontynuacja upewnij sie, ze masz zainstalowana Jave 25. Mozesz to sprawdzic poleceniem:
+Przed kontynuacją upewnij się, że Java 25 jest zainstalowana na Twoim systemie. Możesz to sprawdzić poleceniem:
 
 ```
 java --version
 ```
 
-Jesli Java nie jest jeszcze zainstalowana, skorzystaj z naszego dedykowanego [poradnika Instalacja Java](dedicated-linux-java) dla serwer�w Linux. Ten poradnik pokaze Ci, jak poprawnie zainstalowac i skonfigurowac Jave w Twoim srodowisku.
+Jeśli Java nie jest jeszcze zainstalowana, skorzystaj z naszego dedykowanego [poradnika Instalacja Java](dedicated-linux-java) dla serwerów Linux. Ten poradnik wyjaśnia, jak poprawnie zainstalować i skonfigurować Javę w Twoim środowisku.
 
 
 
 ## Instalacja
 
-Zacznij od utworzenia dedykowanego katalogu dla serwera Hytale. Dzieki temu wszystkie pliki serwera beda uporzadkowane w jednym miejscu.
+Zacznij od utworzenia dedykowanego katalogu dla serwera Hytale. Dzięki temu wszystkie pliki serwera będą uporządkowane w jednym miejscu.
 
 ```
 sudo mkdir -p /opt/hytale
@@ -36,21 +37,21 @@ sudo chown -R $(whoami):$(whoami) /opt/hytale
 cd /opt/hytale
 ```
 
-Serwer wymaga dw�ch gl�wnych komponent�w: samej aplikacji serwera oraz zasob�w gry. Pliki te mozna pobrac za pomoca narzedzia wiersza polecen Hytale downloader, kt�re jest przeznaczone do wdrozen serwerowych i ulatwia aktualizacje.
+Serwer wymaga dwóch głównych komponentów: samej aplikacji serwera oraz zasobów gry. Pliki te można pobrać za pomocą Hytale command line downloadera, który jest przeznaczony do wdrożeń serwerowych i ułatwia aktualizacje.
 
-CLI downloader zapewnia uporzadkowany spos�b pobierania i aktualizacji plik�w serwera Hytale. Po pobraniu archiwum downloadera, rozpakuj je do tymczasowego katalogu. W archiwum znajdziesz plik QUICKSTART.md, kt�ry opisuje podstawowe uzycie narzedzia.
+CLI downloader zapewnia uporządkowany sposób pobierania i aktualizacji plików serwera Hytale. Po pobraniu archiwum downloadera, rozpakuj je do tymczasowego katalogu. W archiwum znajdziesz plik QUICKSTART.md, który opisuje podstawowe użycie narzędzia.
 
-Uruchom downloader z linii polecen i postepuj zgodnie z instrukcjami, aby pobrac najnowsza wersje serwera. Po zakonczeniu skopiuj pobrane pliki serwera oraz archiwum zasob�w do katalogu serwera. Po tym kroku katalog powinien zawierac plik JAR serwera oraz archiwum zasob�w, np. Assets.zip.
+Uruchom downloader z linii poleceń i postępuj zgodnie z instrukcjami, aby pobrać najnowszą wersję serwera. Po zakończeniu procesu skopiuj pobrane pliki serwera oraz archiwum zasobów do katalogu serwera. Po tym kroku katalog powinien zawierać plik JAR serwera oraz archiwum zasobów, np. Assets.zip.
 
-| **Polecenie**                                   | **Opis**                              |
-| :-------------------------------------------- | :------------------------------------ |
-| `./hytale-downloader`                         | Pobierz najnowsza wersje              |
-| `./hytale-downloader -print-version`          | Pokaz wersje gry bez pobierania       |
-| `./hytale-downloader -version`                | Pokaz wersje hytale-downloader        |
-| `./hytale-downloader -check-update`           | Sprawdz aktualizacje hytale-downloader|
-| `./hytale-downloader -download-path game.zip` | Pobierz do okreslonego pliku          |
-| `./hytale-downloader -patchline pre-release`  | Pobierz z kanalu pre-release           |
-| `./hytale-downloader -skip-update-check`      | Pomin automatyczne sprawdzanie aktualizacji |
+| **Polecenie**                                   | **Opis**                             |
+| :-------------------------------------------- | :---------------------------------- |
+| `./hytale-downloader`                         | Pobierz najnowszą wersję            |
+| `./hytale-downloader -print-version`          | Pokaż wersję gry bez pobierania     |
+| `./hytale-downloader -version`                | Pokaż wersję hytale-downloadera     |
+| `./hytale-downloader -check-update`           | Sprawdź aktualizacje hytale-downloadera |
+| `./hytale-downloader -download-path game.zip` | Pobierz do określonego pliku        |
+| `./hytale-downloader -patchline pre-release`  | Pobierz z kanału pre-release         |
+| `./hytale-downloader -skip-update-check`      | Pomiń automatyczne sprawdzanie aktualizacji |
 
 
 
@@ -58,7 +59,7 @@ Uruchom downloader z linii polecen i postepuj zgodnie z instrukcjami, aby pobrac
 
 ### Uruchamianie serwera
 
-Serwer uruchamia sie przez odpalenie pliku JAR i wskazanie sciezki do archiwum zasob�w. Dostosuj sciezke, jesli Twoje zasoby sa w innym miejscu.
+Serwer uruchamia się przez odpalenie pliku JAR i wskazanie ścieżki do archiwum zasobów. Dostosuj ścieżkę, jeśli Twoje zasoby są w innym miejscu.
 
 ```
 java -jar HytaleServer.jar --assets /opt/hytale/Assets.zip --bind 0.0.0.0:5520
@@ -66,37 +67,35 @@ java -jar HytaleServer.jar --assets /opt/hytale/Assets.zip --bind 0.0.0.0:5520
 
 ### Autoryzacja
 
-Przy pierwszym uruchomieniu serwer musi zostac uwierzytelniony, zanim gracze beda mogli sie polaczyc. Odbywa sie to bezposrednio przez konsole serwera za pomoca logowania urzadzeniem. Postepuj zgodnie z instrukcjami wyswietlanymi w konsoli, aby zakonczyc autoryzacje.
+Przy pierwszym uruchomieniu serwer musi zostać uwierzytelniony, zanim gracze będą mogli się połączyć. Odbywa się to bezpośrednio przez konsolę serwera za pomocą logowania urządzenia. Postępuj zgodnie z instrukcjami wyświetlanymi w konsoli, aby zakończyć autoryzację.
 
 ```
 /auth login device
 ```
 
-Wyjscie bedzie wygladac tak:
+Wyjście będzie wyglądać tak:
 
 ```
 > /auth login device
 ===================================================================
-AUTORYZACJA URZADZENIA
+AUTORYZACJA URZĄDZENIA
 ===================================================================
-Odwiedz: https://accounts.hytale.com/device
-Wprowadz kod: ABCD-1234
-Lub odwiedz: https://accounts.hytale.com/device?user_code=ABCD-1234
+Odwiedź: https://accounts.hytale.com/device
+Wprowadź kod: ABCD-1234
+Lub odwiedź: https://accounts.hytale.com/device?user_code=ABCD-1234
 ===================================================================
-Oczekiwanie na autoryzacje (wygasa za 900 sekund)...
+Oczekiwanie na autoryzację (wygasa za 900 sekund)...
 
-[Uzytkownik konczy autoryzacje w przegladarce]
+[Użytkownik kończy autoryzację w przeglądarce]
 
-> Autoryzacja zakonczona sukcesem! Tryb: OAUTH_DEVICE
+> Autoryzacja zakończona sukcesem! Tryb: OAUTH_DEVICE
 ```
 
-Po uwierzytelnieniu Tw�j serwer moze przyjmowac polaczenia od graczy.
-
-
+Po uwierzytelnieniu Twój serwer może przyjmować połączenia graczy.
 
 ### Konfiguracja zapory sieciowej
 
-Domyslnie serwer nasluchuje na UDP port 5520 i wiaze sie ze wszystkimi dostepnymi interfejsami. Mozesz zmienic adres i port, jesli potrzebujesz. Serwer komunikuje sie przez UDP uzywajac protokolu QUIC. Upewnij sie, ze Twoja zapora sieciowa pozwala na przychodzacy ruch UDP na wybranym porcie, korzystajac z Iptables lub UFW.
+Domyślnie serwer nasłuchuje na UDP port 5520 i wiąże się ze wszystkimi dostępnymi interfejsami. Możesz zmienić adres i port, jeśli potrzebujesz. Serwer komunikuje się przez UDP używając QUIC. Upewnij się, że Twoja zapora sieciowa pozwala na przychodzący ruch UDP na wybranym porcie, korzystając z Iptables lub UFW.
 
 ```
 sudo iptables -A INPUT -p udp --dport 5520 -j ACCEPT
@@ -105,18 +104,18 @@ sudo ufw allow 5520/udp
 
 
 
-## Uwagi dotyczace wydajnosci
+## Uwagi dotyczące wydajności
 
-Odleglosc renderowania (view distance) to jeden z najwazniejszych czynnik�w wplywajacych na zuzycie pamieci. Wyzsze wartosci zwiekszaja uzycie RAM, poniewaz wiecej danych swiata musi byc aktywnych jednoczesnie.
+Odległość renderowania to jeden z najważniejszych czynników wpływających na zużycie pamięci. Wyższe wartości zwiększają użycie RAM, ponieważ więcej danych świata musi być aktywnych jednocześnie.
 
-Dla wiekszosci konfiguracji maksymalna odleglosc renderowania 12 chunk�w (384 blok�w) zapewnia dobry balans miedzy wydajnoscia serwera a komfortem gry.
+Dla większości konfiguracji maksymalna odległość renderowania 12 chunków (384 bloki) zapewnia dobry balans między wydajnością serwera a komfortem gry.
 
-Dla por�wnania, serwery Minecrafta domyslnie uzywaja odleglosci 10 chunk�w (160 blok�w). Domyslne 384 bloki w Hytale to mniej wiecej 24 chunk�w Minecrafta, co tlumaczy wyzsze wymagania pamieciowe. Ta wartosc powinna byc dostosowana do przewidywanej liczby graczy i dostepnych zasob�w systemowych.
+Dla porównania, serwery Minecrafta domyślnie używają odległości renderowania 10 chunków (160 bloków). Domyślne 384 bloki w Hytale to mniej więcej 24 chunki Minecrafta, co tłumaczy wyższe wymagania pamięciowe. Wartość tę należy dostosować do przewidywanej liczby graczy i dostępnych zasobów systemowych.
 
 
 
 ## Podsumowanie
 
-Gratulacje, masz teraz dzialajacy serwer Hytale na swoim systemie. Mozesz rozbudowac konfiguracje, instalujac mody, dostosowujac ustawienia swiata i optymalizujac parametry wydajnosci, aby dopasowac ja do swojej spolecznosci graczy. Zalecamy regularne monitorowanie zuzycia zasob�w, aby zapewnic stabilna prace serwera wraz z jego rozwojem.
+Gratulacje, masz teraz działający serwer Hytale na swoim systemie. Możesz rozbudować konfigurację, instalując mody, dostosowując ustawienia świata i optymalizując parametry wydajności pod swoją społeczność graczy. Zalecamy regularne monitorowanie zużycia zasobów, aby zapewnić stabilną pracę serwera wraz z jego rozwojem.
 
-W razie pytan lub potrzeby pomocy, smialo kontaktuj sie z naszym zespolem wsparcia, kt�ry jest dostepny codziennie, by Ci pom�c! ??
+W razie pytań lub potrzeby pomocy, śmiało kontaktuj się z naszym zespołem wsparcia, który jest dostępny codziennie, by Ci pomóc! 🙂
