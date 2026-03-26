@@ -11,7 +11,7 @@ services:
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introduction
-Do you have a Linux VPS/Dedicated Server and you want to install the Hytale on it? You are in the right place. In this guide, we will explain the step by step process of installing this service on your Linux server.
+Do you have a Linux VPS/Dedicated Server and you would like to install the Hytale on it? You are in the right place. In this guide, we will explain the step by step process of installing this service on your Linux server.
 
 ## Preparation
 
@@ -92,8 +92,6 @@ Waiting for authorization (expires in 900 seconds)...
 ```
 
 Once authenticated, your server can accept player connections.
-
-
 
 ### Firewall configuration
 

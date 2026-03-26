@@ -1,34 +1,35 @@
 ---
 id: dedicated-linux-hytale
-title: "Dedicated Server: Hytale Dedicated Server Setup"
-description: "Entdecke, wie du den Hytale Dedicated Server auf deinem Linux Dedicated Server für nahtloses Gameplay-Management einrichtest ? Jetzt mehr erfahren"
+title: "Hytale Dedicated Server Setup"
+description: "Entdecke, wie du den Hytale Dedicated Server auf deinem Linux Dedicated Server fÃ¼r nahtloses Gameplay-Management einrichtest â†’ Jetzt mehr erfahren"
 sidebar_label: Hytale
 services:
+  - vserver
   - dedicated
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
-## Einführung
-Du hast einen Linux Dedicated Server und möchtest Hytale darauf installieren? Dann bist du hier genau richtig. In dieser Anleitung erklären wir dir Schritt für Schritt, wie du diesen Service auf deinem Linux Server installierst.
+## EinfÃ¼hrung
+Du hast einen Linux VPS/Dedicated Server und mÃ¶chtest Hytale darauf installieren? Dann bist du hier genau richtig. In dieser Anleitung erklÃ¤ren wir dir Schritt fÃ¼r Schritt, wie du diesen Service auf deinem Linux-Server installierst.
 
 ## Vorbereitung
 
-Um einen Hytale Server zu betreiben, muss dein System ein paar Grundvoraussetzungen erfüllen. Der Server läuft auf Java 25 und benötigt mindestens 4 GB RAM. Sowohl x64- als auch arm64-Architekturen werden unterstützt. Der tatsächliche Ressourcenverbrauch hängt von der Spieleranzahl, der Sichtweite und der Weltaktivität ab, daher können für größere Server zusätzliche Ressourcen nötig sein.
+Um einen Hytale Server zu betreiben, muss dein System ein paar Grundvoraussetzungen erfÃ¼llen. Der Server lÃ¤uft auf Java 25 und benÃ¶tigt mindestens 4 GB RAM. Sowohl x64 als auch arm64 Architekturen werden unterstÃ¼tzt. Der tatsÃ¤chliche Ressourcenverbrauch hÃ¤ngt von der Spieleranzahl, der Sichtweite und der WeltaktivitÃ¤t ab, daher kÃ¶nnen fÃ¼r grÃ¶ÃŸere Server zusÃ¤tzliche Ressourcen nÃ¶tig sein.
 
-Bevor du weitermachst, stelle sicher, dass Java 25 auf deinem System installiert ist. Du kannst die Installation mit folgendem Befehl überprüfen:
+Bevor du weitermachst, stelle sicher, dass Java 25 auf deinem System installiert ist. Du kannst die Installation mit folgendem Befehl Ã¼berprÃ¼fen:
 
 ```
 java --version
 ```
 
-Falls Java noch nicht installiert ist, folge unserer dedizierten [Java Installation](dedicated-linux-java) Anleitung für Linux Server. Diese Anleitung erklärt, wie du Java richtig auf deiner Umgebung installierst und konfigurierst.
+Falls Java noch nicht installiert ist, folge unserer dedizierten [Java Installation](dedicated-linux-java) Anleitung fÃ¼r Linux-Server. Diese erklÃ¤rt, wie du Java richtig auf deiner Umgebung installierst und konfigurierst.
 
 
 
 ## Installation
 
-Starte damit, ein eigenes Verzeichnis für den Hytale Server anzulegen. So bleiben alle Serverdateien an einem Ort organisiert.
+Starte damit, ein eigenes Verzeichnis fÃ¼r den Hytale Server anzulegen. So bleiben alle Serverdateien ordentlich an einem Ort.
 
 ```
 sudo mkdir -p /opt/hytale
@@ -36,21 +37,21 @@ sudo chown -R $(whoami):$(whoami) /opt/hytale
 cd /opt/hytale
 ```
 
-Der Server benötigt zwei Hauptkomponenten: die Serveranwendung selbst und die Spiel-Assets. Diese Dateien kannst du mit dem Hytale Kommandozeilen-Downloader beziehen, der für Server-Deployments und einfachere Updates gedacht ist.
+Der Server benÃ¶tigt zwei Hauptkomponenten: die Server-Anwendung selbst und die Game-Assets. Diese Dateien kannst du mit dem Hytale Kommandozeilen-Downloader beziehen, der speziell fÃ¼r Server-Deployments und einfachere Updates gedacht ist.
 
-Der CLI-Downloader bietet eine strukturierte Möglichkeit, die Hytale Serverdateien herunterzuladen und zu aktualisieren. Nach dem Download des Downloader-Archivs entpackst du es in ein temporäres Verzeichnis. Im Archiv findest du eine QUICKSTART.md Datei, die die Grundfunktionen des Tools beschreibt.
+Der CLI-Downloader bietet eine strukturierte MÃ¶glichkeit, die Hytale Serverdateien herunterzuladen und zu aktualisieren. Nach dem Download des Downloader-Archivs entpackst du es in ein temporÃ¤res Verzeichnis. Im Archiv findest du eine QUICKSTART.md Datei, die die Grundfunktionen des Tools erklÃ¤rt.
 
-Starte den Downloader über die Kommandozeile und folge den Anweisungen, um die neueste Server-Version herunterzuladen. Nach Abschluss kopierst du die heruntergeladenen Serverdateien und das Assets-Archiv in dein Serververzeichnis. Danach sollte das Verzeichnis die Server-JAR-Datei und ein Assets-Archiv wie Assets.zip enthalten.
+Starte den Downloader Ã¼ber die Kommandozeile und folge den Anweisungen, um die neueste Server-Version herunterzuladen. Nach Abschluss kopierst du die heruntergeladenen Serverdateien und das Assets-Archiv in dein Serververzeichnis. Danach sollte das Verzeichnis die Server-JAR-Datei und ein Assets-Archiv wie Assets.zip enthalten.
 
 | **Befehl**                                   | **Beschreibung**                       |
 | :-------------------------------------------- | :------------------------------------ |
 | `./hytale-downloader`                         | Neueste Version herunterladen         |
 | `./hytale-downloader -print-version`          | Spielversion anzeigen ohne Download   |
 | `./hytale-downloader -version`                | Version des hytale-downloader anzeigen|
-| `./hytale-downloader -check-update`           | Nach Updates für hytale-downloader suchen |
-| `./hytale-downloader -download-path game.zip` | Download in eine bestimmte Datei      |
-| `./hytale-downloader -patchline pre-release`  | Download aus dem Pre-Release-Kanal    |
-| `./hytale-downloader -skip-update-check`      | Automatische Update-Prüfung überspringen |
+| `./hytale-downloader -check-update`           | Nach Updates fÃ¼r hytale-downloader suchen |
+| `./hytale-downloader -download-path game.zip` | In bestimmte Datei herunterladen      |
+| `./hytale-downloader -patchline pre-release`  | Aus Pre-Release-Kanal herunterladen   |
+| `./hytale-downloader -skip-update-check`      | Automatische Update-PrÃ¼fung Ã¼berspringen |
 
 
 
@@ -58,7 +59,7 @@ Starte den Downloader über die Kommandozeile und folge den Anweisungen, um die n
 
 ### Server starten
 
-Der Server wird gestartet, indem die JAR-Datei ausgeführt und der Pfad zum Assets-Archiv angegeben wird. Passe den Pfad an, falls deine Assets an einem anderen Ort liegen.
+Der Server wird gestartet, indem die JAR-Datei ausgefÃ¼hrt und der Pfad zum Assets-Archiv angegeben wird. Passe den Pfad an, falls deine Assets an einem anderen Ort liegen.
 
 ```
 java -jar HytaleServer.jar --assets /opt/hytale/Assets.zip --bind 0.0.0.0:5520
@@ -66,37 +67,35 @@ java -jar HytaleServer.jar --assets /opt/hytale/Assets.zip --bind 0.0.0.0:5520
 
 ### Authentifizierung
 
-Beim ersten Start muss der Server authentifiziert werden, bevor Spieler sich verbinden können. Das erfolgt direkt über die Server-Konsole mittels eines gerätebasierten Login-Prozesses. Folge den Anweisungen in der Konsole, um die Authentifizierung abzuschließen.
+Beim ersten Start muss der Server authentifiziert werden, bevor Spieler sich verbinden kÃ¶nnen. Das erfolgt direkt Ã¼ber die Server-Konsole mittels eines gerÃ¤tebasierten Login-Prozesses. Folge den Anweisungen in der Konsole, um die Authentifizierung abzuschlieÃŸen.
 
 ```
 /auth login device
 ```
 
-Die Ausgabe sieht so aus:
+Die Ausgabe sieht etwa so aus:
 
 ```
 > /auth login device
 ===================================================================
-GERÄTE-AUTORISIERUNG
+GERÃ„TE-AUTORISIERUNG
 ===================================================================
 Besuche: https://accounts.hytale.com/device
 Gib den Code ein: ABCD-1234
 Oder besuche: https://accounts.hytale.com/device?user_code=ABCD-1234
 ===================================================================
-Warte auf Autorisierung (läuft in 900 Sekunden ab)...
+Warte auf Autorisierung (lÃ¤uft in 900 Sekunden ab)...
 
-[User schließt Autorisierung im Browser ab]
+[User schlieÃŸt Autorisierung im Browser ab]
 
 > Authentifizierung erfolgreich! Modus: OAUTH_DEVICE
 ```
 
-Nach der Authentifizierung kann dein Server Spieler-Verbindungen akzeptieren.
-
-
+Nach der Authentifizierung kann dein Server Spieler-Verbindungen annehmen.
 
 ### Firewall-Konfiguration
 
-Standardmäßig hört der Server auf UDP-Port 5520 und bindet an alle verfügbaren Schnittstellen. Du kannst Adresse und Port bei Bedarf ändern. Der Server kommuniziert über UDP mit QUIC. Stelle sicher, dass deine Firewall eingehenden UDP-Traffic auf dem gewählten Port erlaubt, z.B. mit Iptables oder UFW.
+StandardmÃ¤ÃŸig hÃ¶rt der Server auf UDP-Port 5520 und bindet an alle verfÃ¼gbaren Schnittstellen. Du kannst Adresse und Port bei Bedarf Ã¤ndern. Die Kommunikation lÃ¤uft Ã¼ber UDP mit QUIC. Stelle sicher, dass deine Firewall eingehenden UDP-Traffic auf dem gewÃ¤hlten Port erlaubt, z.B. mit Iptables oder UFW.
 
 ```
 sudo iptables -A INPUT -p udp --dport 5520 -j ACCEPT
@@ -107,16 +106,16 @@ sudo ufw allow 5520/udp
 
 ## Performance-Hinweise
 
-Die Sichtweite ist einer der wichtigsten Faktoren für den Speicherverbrauch. Höhere Werte erhöhen den RAM-Bedarf, da mehr Weltdaten gleichzeitig aktiv bleiben müssen.
+Die Sichtweite ist einer der wichtigsten Faktoren fÃ¼r den Speicherverbrauch. HÃ¶here Werte erhÃ¶hen den RAM-Bedarf, da mehr Weltdaten gleichzeitig aktiv bleiben mÃ¼ssen.
 
-Für die meisten Setups bietet eine maximale Sichtweite von 12 Chunks (384 Blöcke) einen guten Kompromiss zwischen Server-Performance und Spielerlebnis.
+FÃ¼r die meisten Setups bietet eine maximale Sichtweite von 12 Chunks (384 BlÃ¶cke) einen guten Kompromiss zwischen Server-Performance und Spielerlebnis.
 
-Zum Vergleich: Minecraft Server nutzen standardmäßig eine Sichtweite von 10 Chunks (160 Blöcke). Hytales Standard von 384 Blöcken entspricht ungefähr 24 Minecraft Chunks, was die höheren Speicheranforderungen erklärt. Dieser Wert sollte je nach erwarteter Spielerzahl und verfügbaren Systemressourcen angepasst werden.
+Zum Vergleich: Minecraft-Server nutzen standardmÃ¤ÃŸig eine Sichtweite von 10 Chunks (160 BlÃ¶cke). Hytales Standard von 384 BlÃ¶cken entspricht ungefÃ¤hr 24 Minecraft-Chunks, was die hÃ¶heren Speicheranforderungen erklÃ¤rt. Dieser Wert sollte je nach erwarteter Spielerzahl und verfÃ¼gbaren Ressourcen angepasst werden.
 
 
 
 ## Fazit
 
-Glückwunsch, du hast jetzt einen funktionierenden Hytale Server auf deinem System am Start. Von hier aus kannst du das Setup erweitern, indem du Mods installierst, Welteinstellungen anpasst und Performance-Parameter auf deine Spielerbasis abstimmst. Eine regelmäßige Überwachung der Ressourcennutzung wird empfohlen, um einen stabilen Betrieb sicherzustellen, während der Server wächst.
+GlÃ¼ckwunsch, du hast jetzt einen funktionierenden Hytale Server auf deinem System am Start. Von hier aus kannst du das Setup erweitern, indem du Mods installierst, Welteinstellungen anpasst und Performance-Parameter auf deine Spielerbasis abstimmst. Eine regelmÃ¤ÃŸige Ãœberwachung der Ressourcennutzung empfiehlt sich, um einen stabilen Betrieb sicherzustellen, wenn der Server wÃ¤chst.
 
-Bei weiteren Fragen oder Support brauchst du nur unser Support-Team zu kontaktieren – wir sind täglich für dich da! ??
+Bei weiteren Fragen oder Support brauchst du nur unser Support-Team zu kontaktieren â€“ wir sind tÃ¤glich fÃ¼r dich da! ğŸ™‚

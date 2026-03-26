@@ -1,34 +1,35 @@
 ---
 id: dedicated-linux-hytale
-title: "Dedikerad Server: Hytale Dedikerad Server Setup"
-description: "Upptäck hur du sätter upp Hytale Dedicated-servern på din Linux Dedikerade Server för smidig spelhantering ? Läs mer nu"
+title: "Hytale Dedicated Server Setup"
+description: "Discover how to set up the Hytale Dedicated server on your Linux Dedicated Server for seamless gameplay management â†’ Learn more now"
 sidebar_label: Hytale
 services:
+  - vserver
   - dedicated
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introduktion
-Har du en Linux Dedikerad Server och vill installera Hytale på den? Då har du kommit rätt. I den här guiden går vi igenom steg för steg hur du installerar tjänsten på din Linux-server.
+Har du en Linux VPS/Dedikerad Server och vill installera Hytale pÃ¥ den? DÃ¥ har du kommit rÃ¤tt. I den hÃ¤r guiden gÃ¥r vi igenom steg fÃ¶r steg hur du installerar tjÃ¤nsten pÃ¥ din Linux-server.
 
-## Förberedelser
+## FÃ¶rberedelser
 
-För att köra en Hytale-server måste ditt system uppfylla några grundläggande krav. Servern körs på Java 25 och kräver minst 4 GB RAM. Både x64 och arm64-arkitekturer stöds. Den faktiska resursanvändningen beror på antal spelare, synavstånd och världens aktivitet, så extra resurser kan behövas för större servrar.
+FÃ¶r att kÃ¶ra en Hytale-server mÃ¥ste ditt system uppfylla nÃ¥gra grundlÃ¤ggande krav. Servern kÃ¶rs pÃ¥ Java 25 och krÃ¤ver minst 4 GB RAM. BÃ¥de x64 och arm64-arkitekturer stÃ¶ds. Den faktiska resursanvÃ¤ndningen beror pÃ¥ antal spelare, renderingsavstÃ¥nd och vÃ¤rldens aktivitet, sÃ¥ extra resurser kan behÃ¶vas fÃ¶r stÃ¶rre servrar.
 
-Innan du fortsätter, se till att Java 25 är installerat på ditt system. Du kan kontrollera installationen med:
+Innan du fortsÃ¤tter, se till att Java 25 Ã¤r installerat pÃ¥ ditt system. Du kan kontrollera installationen med:
 
 ```
 java --version
 ```
 
-Om Java inte är installerat än, följ vår dedikerade [Installera Java](dedicated-linux-java)-guide för Linux-servrar. Den förklarar hur du installerar och konfigurerar Java korrekt i din miljö.
+Om Java inte Ã¤r installerat Ã¤n, fÃ¶lj vÃ¥r dedikerade [Install Java](dedicated-linux-java)-guide fÃ¶r Linux-servrar. Den fÃ¶rklarar hur du installerar och konfigurerar Java korrekt i din miljÃ¶.
 
 
 
 ## Installation
 
-Börja med att skapa en dedikerad mapp för Hytale-servern. Det håller alla serverfiler organiserade på ett ställe.
+BÃ¶rja med att skapa en dedikerad mapp fÃ¶r Hytale-servern. Det hÃ¥ller alla serverfiler organiserade pÃ¥ ett stÃ¤lle.
 
 ```
 sudo mkdir -p /opt/hytale
@@ -36,21 +37,21 @@ sudo chown -R $(whoami):$(whoami) /opt/hytale
 cd /opt/hytale
 ```
 
-Servern kräver två huvudkomponenter: själva serverapplikationen och spelassets. Dessa filer hämtas via Hytales kommandorads-downloader, som är framtagen för serverinstallationer och enklare uppdateringar.
+Servern krÃ¤ver tvÃ¥ huvudkomponenter: sjÃ¤lva serverapplikationen och spelresurserna. Dessa filer hÃ¤mtas via Hytales kommandorads-downloader, som Ã¤r framtagen fÃ¶r serverinstallationer och enklare uppdateringar.
 
-CLI-downloadern ger ett strukturerat sätt att ladda ner och uppdatera Hytale-serverfilerna. Efter att ha laddat ner arkivet, packa upp det i en temporär mapp. Inuti arkivet finns en QUICKSTART.md-fil som beskriver grundläggande användning av verktyget.
+CLI-downloadern ger ett strukturerat sÃ¤tt att ladda ner och uppdatera Hytale-serverfilerna. Efter att ha laddat ner arkivet, packa upp det i en temporÃ¤r mapp. Inuti arkivet finns en QUICKSTART.md-fil som beskriver grundlÃ¤ggande anvÃ¤ndning av verktyget.
 
-Kör downloadern från kommandoraden och följ instruktionerna för att ladda ner senaste serverversionen. När processen är klar, kopiera de nedladdade serverfilerna och assets-arkivet till din servermapp. Efter detta steg ska mappen innehålla serverns JAR-fil och ett assets-arkiv som Assets.zip.
+KÃ¶r downloadern frÃ¥n kommandoraden och fÃ¶lj instruktionerna fÃ¶r att ladda ner senaste serverversionen. NÃ¤r processen Ã¤r klar, kopiera de nedladdade serverfilerna och resursarkivet till din servermapp. Efter detta steg ska mappen innehÃ¥lla serverns JAR-fil och ett resursarkiv som Assets.zip.
 
 | **Kommando**                                   | **Beskrivning**                       |
 | :-------------------------------------------- | :------------------------------------ |
-| `./hytale-downloader`                         | Ladda ner senaste releasen            |
+| `./hytale-downloader`                         | Ladda ner senaste versionen           |
 | `./hytale-downloader -print-version`          | Visa spelversion utan nedladdning     |
 | `./hytale-downloader -version`                | Visa version av hytale-downloader     |
-| `./hytale-downloader -check-update`           | Kolla efter uppdateringar till downloader |
+| `./hytale-downloader -check-update`           | Kontrollera uppdateringar fÃ¶r downloader |
 | `./hytale-downloader -download-path game.zip` | Ladda ner till specifik fil           |
-| `./hytale-downloader -patchline pre-release`  | Ladda ner från pre-release-kanal      |
-| `./hytale-downloader -skip-update-check`      | Hoppa över automatisk uppdateringskontroll |
+| `./hytale-downloader -patchline pre-release`  | Ladda ner frÃ¥n pre-release-kanal      |
+| `./hytale-downloader -skip-update-check`      | Hoppa Ã¶ver automatisk uppdateringskontroll |
 
 
 
@@ -58,7 +59,7 @@ Kör downloadern från kommandoraden och följ instruktionerna för att ladda ner se
 
 ### Starta servern
 
-Servern startas genom att köra JAR-filen och ange sökvägen till assets-arkivet. Anpassa sökvägen om dina assets ligger på en annan plats.
+Servern startas genom att kÃ¶ra JAR-filen och ange sÃ¶kvÃ¤gen till resursarkivet. Anpassa sÃ¶kvÃ¤gen om dina resurser ligger pÃ¥ en annan plats.
 
 ```
 java -jar HytaleServer.jar --assets /opt/hytale/Assets.zip --bind 0.0.0.0:5520
@@ -66,37 +67,35 @@ java -jar HytaleServer.jar --assets /opt/hytale/Assets.zip --bind 0.0.0.0:5520
 
 ### Autentisering
 
-Vid första uppstart måste servern autentiseras innan spelare kan ansluta. Detta görs direkt via serverkonsolen med en enhetsbaserad inloggningsprocess. Följ instruktionerna i konsolen för att slutföra autentiseringen.
+Vid fÃ¶rsta uppstart mÃ¥ste servern autentiseras innan spelare kan ansluta. Detta gÃ¶rs direkt via serverkonsolen med en enhetsbaserad inloggningsprocess. FÃ¶lj instruktionerna som visas i konsolen fÃ¶r att slutfÃ¶ra autentiseringen.
 
 ```
 /auth login device
 ```
 
-Utdata ser ut så här:
+Utdata ser ut sÃ¥ hÃ¤r:
 
 ```
 > /auth login device
 ===================================================================
-ENHETSAUTORISERING
+DEVICE AUTHORIZATION
 ===================================================================
-Besök: https://accounts.hytale.com/device
+BesÃ¶k: https://accounts.hytale.com/device
 Ange kod: ABCD-1234
-Eller besök: https://accounts.hytale.com/device?user_code=ABCD-1234
+Eller besÃ¶k: https://accounts.hytale.com/device?user_code=ABCD-1234
 ===================================================================
-Väntar på auktorisering (går ut om 900 sekunder)...
+VÃ¤ntar pÃ¥ auktorisering (gÃ¥r ut om 900 sekunder)...
 
-[Användaren slutför auktorisering i webbläsaren]
+[AnvÃ¤ndaren slutfÃ¶r auktorisering i webblÃ¤saren]
 
-> Autentisering lyckades! Läget: OAUTH_DEVICE
+> Autentisering lyckades! LÃ¤get: OAUTH_DEVICE
 ```
 
-När autentiseringen är klar kan din server ta emot spelarkopplingar.
+NÃ¤r autentiseringen Ã¤r klar kan din server ta emot spelarkopplingar.
 
+### BrandvÃ¤ggskonfiguration
 
-
-### Brandväggskonfiguration
-
-Som standard lyssnar servern på UDP-port 5520 och binder till alla tillgängliga nätverksgränssnitt. Du kan ändra adress och port vid behov. Servern kommunicerar över UDP med QUIC-protokollet. Se till att din brandvägg tillåter inkommande UDP-trafik på vald port, antingen via Iptables eller UFW.
+Som standard lyssnar servern pÃ¥ UDP-port 5520 och binder till alla tillgÃ¤ngliga nÃ¤tverksgrÃ¤nssnitt. Du kan Ã¤ndra adress och port vid behov. Servern kommunicerar Ã¶ver UDP med QUIC-protokollet. Se till att din brandvÃ¤gg tillÃ¥ter inkommande UDP-trafik pÃ¥ vald port, antingen via Iptables eller UFW.
 
 ```
 sudo iptables -A INPUT -p udp --dport 5520 -j ACCEPT
@@ -107,16 +106,16 @@ sudo ufw allow 5520/udp
 
 ## Prestandanoter
 
-Synavstånd är en av de viktigaste faktorerna som påverkar minnesanvändningen. Högre värden ökar RAM-användningen eftersom mer världdata måste vara aktiv samtidigt.
+RenderingsavstÃ¥nd Ã¤r en av de viktigaste faktorerna som pÃ¥verkar minnesanvÃ¤ndningen. HÃ¶gre vÃ¤rden Ã¶kar RAM-anvÃ¤ndningen eftersom mer vÃ¤rlddata mÃ¥ste vara aktiv samtidigt.
 
-För de flesta setup är ett max synavstånd på 12 chunks (384 block) en bra balans mellan serverprestanda och spelupplevelse.
+FÃ¶r de flesta setup Ã¤r ett max renderingsavstÃ¥nd pÃ¥ 12 chunks (384 block) en bra balans mellan serverprestanda och spelupplevelse.
 
-Som jämförelse använder Minecraft-servrar standard 10 chunks (160 block). Hytales standard på 384 block motsvarar ungefär 24 Minecraft-chunks, vilket förklarar de högre minneskraven. Detta värde bör justeras efter förväntat antal spelare och tillgängliga systemresurser.
+Som jÃ¤mfÃ¶relse anvÃ¤nder Minecraft-servrar standard 10 chunks (160 block). Hytales standard pÃ¥ 384 block motsvarar ungefÃ¤r 24 Minecraft-chunks, vilket fÃ¶rklarar de hÃ¶gre minneskraven. Detta vÃ¤rde bÃ¶r justeras efter fÃ¶rvÃ¤ntat antal spelare och tillgÃ¤ngliga systemresurser.
 
 
 
 ## Slutsats
 
-Grattis, du har nu en fungerande Hytale-server igång på ditt system. Härifrån kan du bygga ut setupen med mods, justera världens inställningar och finjustera prestanda för att passa din spelarskara. Vi rekommenderar att du regelbundet övervakar resursanvändningen för att säkerställa stabil drift när servern växer.
+Grattis, du har nu en fungerande Hytale-server pÃ¥ ditt system. HÃ¤rifrÃ¥n kan du bygga vidare genom att installera mods, justera vÃ¤rldens instÃ¤llningar och finjustera prestanda fÃ¶r din spelarbas. Vi rekommenderar att du regelbundet Ã¶vervakar resursanvÃ¤ndningen fÃ¶r att sÃ¤kerstÃ¤lla stabil drift nÃ¤r servern vÃ¤xer.
 
-Har du fler frågor eller behöver hjälp? Tveka inte att kontakta vårt supportteam som finns tillgängligt varje dag för att hjälpa dig! ??
+Har du fler frÃ¥gor eller behÃ¶ver hjÃ¤lp? Tveka inte att kontakta vÃ¥rt supportteam som finns tillgÃ¤ngligt varje dag fÃ¶r att hjÃ¤lpa dig! ğŸ™‚
