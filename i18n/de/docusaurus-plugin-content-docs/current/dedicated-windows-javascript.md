@@ -203,6 +203,6 @@ Starte den Code mit `bun index.ts` und öffne `localhost:80` im Browser, um das 
 </TabItem>
 </Tabs>
 
-## Fazit
+## Abschluss
 
 Glückwunsch, du hast JavaScript erfolgreich installiert! Bei weiteren Fragen oder wenn du Hilfe brauchst, steht dir unser Support-Team täglich zur Verfügung – meld dich einfach! 🙂

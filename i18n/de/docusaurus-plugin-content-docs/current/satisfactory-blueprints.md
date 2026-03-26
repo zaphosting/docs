@@ -49,7 +49,7 @@ Finde den Unterordner, der zur Welt/Session gehört, aus der du Blueprints expor
 
 Lade die gewünschten Blueprint-Dateien direkt mit dem FTP-Client auf deinen lokalen Rechner herunter. Nach dem Transfer kannst du die Dateien archivieren, lokal öffnen oder in eine andere Installation bzw. Serverumgebung importieren. Wenn du die Blueprints auf einem anderen Server wiederverwenden willst, folge einfach der oben beschriebenen Import-Anleitung.
 
-## Fazit
+## Abschluss
 
 Das Verwalten von Blueprints auf deinem Satisfactory-Gameserver ist super easy, wenn du die beschriebenen Schritte befolgst. Falls du noch Fragen hast oder Hilfe brauchst, steht dir unser Support-Team täglich zur Seite! 🙂
 

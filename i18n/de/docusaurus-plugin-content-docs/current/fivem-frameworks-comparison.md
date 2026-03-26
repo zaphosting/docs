@@ -88,7 +88,7 @@ vRP kann je nach genutzten Erweiterungen und Features ebenfalls ressourcenintens
 
 Dunko's vRP verbessert das originale vRP durch verschiedene Modernisierungen und Performance-Anpassungen. Trotz dieser Verbesserungen ist es im Ressourcenverbrauch weniger effizient als modernere Alternativen wie QBCore.
 
-## Fazit
+## Abschluss
 
 ESX und Dunko's vRP gehören seit langem zu den dominierenden Frameworks in der FiveM-Community. Besonders ESX ist eines der meistgenutzten Systeme und auf vielen aktiven Gameservern installiert. Sein umfangreiches Feature-Set und die starke Community-Unterstützung machen es bei Serverbetreibern sehr beliebt.
 

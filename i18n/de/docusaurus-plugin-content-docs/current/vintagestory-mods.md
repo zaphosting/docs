@@ -69,7 +69,7 @@ Sobald der Server erfolgreich gestartet ist, verbinde dich mit dem Server und ü
 - Alle erforderlichen Abhängigkeiten sind installiert  
 - Die `.zip`-Datei liegt im richtigen `Mods`-Ordner  
 
-## Fazit
+## Abschluss
 
 Glückwunsch! Du hast erfolgreich Mods auf deinem Vintage Story Gameserver installiert. Mods ermöglichen es dir, das Gameplay zu erweitern, neue Mechaniken einzuführen und das Erlebnis für deine Community individuell anzupassen. Bei weiteren Fragen oder Problemen steht dir unser Support-Team täglich zur Verfügung – zögere nicht, uns zu kontaktieren! 🙂
 

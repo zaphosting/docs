@@ -63,7 +63,7 @@ Sobald du per RCON verbunden bist, kannst du verschiedene administrative und dia
 | `changemap <mapname>`       | Lädt eine andere Map              |
 | `setpassword <newpassword>` | Setzt ein neues RCON-Passwort    |
 
-## Fazit
+## Abschluss
 
 RCON ist ein essenzielles Tool für die Remote-Administration von Conan Exiles Gameservern. Es ermöglicht schnellen und direkten Zugriff auf administrative Funktionen und schützt den Zugang durch Passwort-Authentifizierung. Eine korrekte und sichere Konfiguration ist entscheidend, um die Serverstabilität zu gewährleisten und unbefugten Zugriff zu verhindern.
 

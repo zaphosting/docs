@@ -97,7 +97,7 @@ Du suchst noch die perfekten Plugins für deinen Server? Stöbere durch unsere s
 <SearchableItemList items={items} />
 
 
-## Fazit
+## Abschluss
 
 Wenn du alle Schritte befolgt hast, solltest du Sourcemod/Metamod und deine gewünschten Plugins erfolgreich installiert haben. Bei weiteren Fragen oder wenn du Hilfe brauchst, steht dir unser Support-Team täglich zur Verfügung! 🙂
 

@@ -94,7 +94,7 @@ Jetzt gibst du den vorher notierten Token und die Client ID in die vorgesehenen 
 Danach kannst du den Bot starten. Er sollte sich innerhalb von ca. 10 Sekunden mit deinem Discord Server verbinden. 
 
 
-## Fazit
+## Abschluss
 
 Der Voicebot ist ein super nützliches und spaßiges Tool für viele Leute. Du kannst ihn entweder auf einem TeamSpeak Server oder auf Discord nutzen. Falls du noch Fragen hast oder Hilfe brauchst, steht dir unser Support-Team täglich zur Seite! 🙂 
 

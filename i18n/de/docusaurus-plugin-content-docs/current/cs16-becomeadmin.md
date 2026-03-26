@@ -93,7 +93,7 @@ In diesem Fall wird kein Passwort benötigt, da die Authentifizierung über Stea
 | d    | Dies ist IP                                        |
 | e    | Passwort wird nicht geprüft (nur Name/IP/SteamID nötig) |
 
-## Fazit
+## Abschluss
 
 Glückwunsch, du hast die Administratorrechte erfolgreich konfiguriert. Bei weiteren Fragen oder wenn du Hilfe brauchst, steht dir unser Support-Team täglich zur Verfügung! 🙂
 

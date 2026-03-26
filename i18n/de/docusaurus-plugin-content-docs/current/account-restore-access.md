@@ -62,6 +62,6 @@ Wenn die oben genannten Ursachen bereits ausgeschlossen wurden oder nicht zutref
 
 
 
-## Fazit
+## Abschluss
 
 Jetzt weißt du, dass es verschiedene Gründe geben kann, warum der Login nicht funktioniert und welche Schritte du in jedem Fall unternehmen solltest. Wenn du Unterstützung brauchst, helfen wir dir gerne bei allen Fragen oder Problemen weiter!

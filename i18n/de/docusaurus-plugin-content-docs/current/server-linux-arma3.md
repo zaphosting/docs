@@ -58,7 +58,7 @@ Im Terminal solltest du nun viele Logs sehen, die bestätigen, dass der Server e
 
 Spieler können sich direkt über den **Arma 3 Serverbrowser** mit deiner Server-IP und dem Standard-Port **2302** verbinden.
 
-## Fazit
+## Abschluss
 
 Glückwunsch, du hast den **Arma 3 Server** erfolgreich auf deinem VPS/Dedicated Server installiert und konfiguriert! Falls du noch Fragen oder Probleme hast, steht dir unser Support-Team täglich zur Verfügung und hilft dir gerne weiter!
 

@@ -125,7 +125,7 @@ Im Dialogfenster ändere die Einstellung von „IP-Adresse automatisch beziehen�
 
 
 
-## Fazit
+## Abschluss
 
 Glückwunsch, du hast dein Windows-Betriebssystem erfolgreich installiert und konfiguriert. Bei weiteren Fragen oder wenn du Hilfe brauchst, steht dir unser Support-Team täglich zur Verfügung! 🙂
 

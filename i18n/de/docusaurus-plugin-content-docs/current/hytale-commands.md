@@ -119,7 +119,7 @@ Utility-Befehle bieten Hilfe und Serverinformationen.
 
 
 
-## Fazit
+## Abschluss
 
 Das Hytale-Befehlsystem bietet mächtige Tools zur Verwaltung von Gameservern, Spielern und Gameplay-Verhalten. Mit dem Verständnis und der Nutzung der verfügbaren Befehle können Admins ihre Hytale Server-Umgebung effizient betreiben und anpassen.
 

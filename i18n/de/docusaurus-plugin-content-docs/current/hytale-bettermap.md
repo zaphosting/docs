@@ -83,7 +83,7 @@ Der Wegpunkt-Manager macht es einfach, einzelne Wegpunkte ein- oder auszuschalte
 
 Auf Multiplayer-Servern ermöglichen geteilte Wegpunkte Teams, die Erkundung besser zu koordinieren. Von einem Spieler entdeckte Orte können mit anderen geteilt werden, sodass eine gemeinsame Karte wichtiger Bereiche entsteht.
 
-## Fazit
+## Abschluss
 
 BetterMap verbessert die Welterkundung in Hytale enorm, indem es gespeicherte Kartendaten, zoombare Ansichten, Wegpunkte, geteilte Karten und effiziente Darstellung kombiniert. Mit BetterMap findest du dich besser zurecht, kannst deine Planung optimieren und hast einfach mehr Spaß beim Erkunden – egal ob Singleplayer oder Multiplayer.
 

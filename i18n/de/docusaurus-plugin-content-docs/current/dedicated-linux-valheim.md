@@ -66,7 +66,7 @@ steamcmd +@sSteamCmdForcePlatformType windows +force_install_dir '/home/steam/Va
 Zum Starten der Windows-Version über Wine nutzt du diesen Befehl: `xvfb-run wine /home/steam/Valheim-Server/StartServer.bat`
 :::
 
-## Fazit
+## Abschluss
 
 Glückwunsch, du hast deinen Valheim Server erfolgreich auf deinem Dedicated Server installiert und konfiguriert! Als nächsten Schritt empfehlen wir dir unsere [Setup Linux Service](dedicated-linux-create-gameservice.md) Anleitung. Damit richtest du deinen neuen Dedicated Gameserver als Service ein – mit Vorteilen wie automatischem Serverstart beim Boot, automatischen Updates, einfacher Verwaltung und Zugriff auf Logs und vieles mehr!
 

@@ -160,6 +160,6 @@ Nach erfolgreichem Start bootet der Server und du kannst das im Webinterface und
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/QtgAz7kpJq6knjf/preview)
 
-## Fazit
+## Abschluss
 
 Glückwunsch, du hast den Farming Simulator 2025 Dedicated Server erfolgreich auf deinem Dedicated Server installiert und konfiguriert! Wenn du noch Fragen oder Probleme hast, kontaktiere unser Support-Team – wir sind täglich für dich da!

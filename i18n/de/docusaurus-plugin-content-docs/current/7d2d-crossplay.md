@@ -46,7 +46,7 @@ Crossplay setzt voraus, dass alle Spieler eine kompatible Spielversion nutzen. S
 
 
 
-## Fazit
+## Abschluss
 
 Glückwunsch! Du hast deinen **7 Days to Die Gameserver erfolgreich für Crossplay konfiguriert**, sodass PC- und Konsolenspieler gemeinsam in einer Welt zocken können. Mit den richtigen Servereinstellungen kann deine Community plattformübergreifend zusammen spielen.
 

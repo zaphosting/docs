@@ -40,7 +40,7 @@ Du suchst noch nach den perfekten Mods für deinen Server? Stöbere durch unsere
 
 
 
-## Fazit
+## Abschluss
 
 Wenn du alle Schritte befolgt hast, hast du die Mods erfolgreich auf deinem Server installiert. Bei weiteren Fragen oder wenn du Hilfe brauchst, steht dir unser Support-Team täglich zur Verfügung! 🙂
 

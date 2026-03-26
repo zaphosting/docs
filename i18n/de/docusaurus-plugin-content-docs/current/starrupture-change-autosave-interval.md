@@ -26,7 +26,7 @@ Passe das Intervall auf deinen Wunschwert an und speichere die Änderungen. Nach
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/BMEtSt7GqDAdF8W/preview)
 
-## Fazit
+## Abschluss
 
 Mit dem Anpassen des Autosave-Intervalls kannst du steuern, wie oft deine StarRupture-Welt automatisch gespeichert wird. Bei weiteren Fragen oder wenn du Hilfe brauchst, steht dir unser Support-Team täglich zur Verfügung! 🙂
 

@@ -218,7 +218,7 @@ Nach der Konfiguration kannst du die Prologue Mobile App mit dem Server verbinde
 
 
 
-## Fazit
+## Abschluss
 
 Glückwunsch! Du hast erfolgreich einen Prologue-kompatiblen Hörbuch-Server entweder manuell oder per Docker-Deployment eingerichtet.
 

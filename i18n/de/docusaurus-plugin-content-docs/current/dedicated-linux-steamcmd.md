@@ -102,7 +102,7 @@ export PATH="/usr/games/:$PATH"
 
 Speichere die Datei und verlasse Nano mit `CTRL + X`, bestätige mit `Y` und drücke `ENTER`.
 
-## Fazit
+## Abschluss
 
 Du hast jetzt die grundlegende SteamCMD-Funktionalität auf deinem Linux-Server erfolgreich eingerichtet. Du kannst jetzt als `steam` User Steam-Inhalte installieren.
 

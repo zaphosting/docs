@@ -46,7 +46,7 @@ Nach dem Neustart versuchst du, dich von einer IP-Adresse zu verbinden, die nich
 
 Falls Spieler trotzdem joinen können, obwohl sie nicht gelistet sind, überprüfe nochmal, ob `EnableWhitelist` in der `config.json` auf true steht und der Server wirklich als TShock gestartet wurde.
 
-## Fazit
+## Abschluss
 
 Wenn du alle Schritte richtig befolgt hast, ist deine Whitelist jetzt aktiv und du kannst genau steuern, wer auf deinen Server darf. Falls der Zugang trotzdem nicht wie gewünscht funktioniert, starte den Server nochmal neu und prüfe die Datei oder die Konsolenausgabe, um sicherzugehen, dass die Änderung übernommen wurde.
 

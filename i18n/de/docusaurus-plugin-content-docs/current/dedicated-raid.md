@@ -151,6 +151,6 @@ Wichtig: Das Boot-Volume muss **immer** gesetzt werden, wenn du deine RAID-Konfi
 
 
 
-## Fazit
+## Abschluss
 
 Glückwunsch, du hast dein RAID auf deinem Dedicated Server erfolgreich konfiguriert. Bei weiteren Fragen oder Problemen steht dir unser Support-Team täglich zur Seite! 🙂

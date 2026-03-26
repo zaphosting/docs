@@ -67,7 +67,7 @@ Standardmäßig sollte nach einer frischen Installation ein Fehler auftreten, we
 ![img](https://screensaver01.zap-hosting.com/index.php/s/3mofjG5RKPM9yBW/download)
 :::
 
-## Fazit
+## Abschluss
 
 Du hast erfolgreich eine Verbindung zur Query über YatQA hergestellt. Bei weiteren Fragen oder Problemen steht dir unser Support-Team täglich zur Seite! 🙂
 

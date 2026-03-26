@@ -94,7 +94,7 @@ Wie du Ports unter Windows freigibst: [Portfreigabe (Firewall)](vserver-windows-
 
 Nach der Portfreigabe ist der Server öffentlich erreichbar, sofern er gestartet wurde.
 
-## Fazit
+## Abschluss
 
 Glückwunsch, du hast den Farming Simulator 2019 Server erfolgreich auf deinem VPS installiert und konfiguriert! Falls du noch Fragen oder Probleme hast, steht dir unser Support-Team täglich zur Verfügung und hilft dir gerne weiter!
 

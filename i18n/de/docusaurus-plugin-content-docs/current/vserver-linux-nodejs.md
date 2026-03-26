@@ -96,7 +96,7 @@ Für fortgeschrittene Setups kann Node.js mit `.npmrc` oder `.nvmrc` Dateien ang
 
 
 
-## Fazit und weitere Ressourcen
+## Abschluss und weitere Ressourcen
 
 Glückwunsch! Du hast Node.js jetzt erfolgreich auf deinem VPS/Dedicated Server installiert und konfiguriert. Wir empfehlen dir außerdem, einen Blick auf folgende Ressourcen zu werfen, die dir bei der Serverkonfiguration weiterhelfen können:
 

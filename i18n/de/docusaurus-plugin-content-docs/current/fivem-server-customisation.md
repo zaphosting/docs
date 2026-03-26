@@ -105,7 +105,7 @@ Eine Liste aller Locale-Tags findest du z.B. [hier](https://github.com/TiagoDani
 
 
 
-## Fazit
+## Abschluss
 
 Wenn du alle Schritte befolgt hast, hast du deinen FiveM Gameserver erfolgreich individualisiert. Bei weiteren Fragen oder wenn du Hilfe brauchst, steht dir unser Support-Team täglich zur Seite! 🙂
 

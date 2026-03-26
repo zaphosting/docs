@@ -62,7 +62,7 @@ sv_allowupload 0
 
 Achte darauf, dass die FastDL-URL genau der Struktur auf deinem Webspace entspricht. Nach dem Speichern startest du deinen Gameserver neu, damit die Einstellungen wirksam werden.
 
-## Fazit
+## Abschluss
 
 FastDL lässt sich mit deinem eigenen ZAP Webspace schnell und zuverlässig einrichten. So kannst du benutzerdefinierte Inhalte zügig und effizient ausliefern und das Spielerlebnis auf deinem Counter-Strike 2 Gameserver verbessern.
 

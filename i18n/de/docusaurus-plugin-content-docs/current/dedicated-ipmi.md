@@ -151,6 +151,6 @@ Erfasst wartungsbezogene Aktivitäten und Systemaktionen, die über die Verwaltu
 
 
 
-## Fazit
+## Abschluss
 
 Damit sollte dir die Administration deutlich leichter fallen, sobald du alles in Ruhe durchgelesen hast. Für weitere Fragen oder Hilfe steht dir unser Support-Team täglich zur Verfügung – zögere nicht, uns zu kontaktieren! 🙂

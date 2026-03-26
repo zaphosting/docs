@@ -43,7 +43,7 @@ set steam_webApiKey "YOUR_KEY_HERE"
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/ED4QbkP8aaeF92B/preview)
 
-## Fazit
+## Abschluss
 
 Zum Schluss kannst du deinen Server neu starten. Dein Steam Web API Key wird beim nächsten vollständigen Start deines Servers geladen. Du hast erfolgreich einen Steam Web API Key in deinen FiveM Gameserver integriert. Bei weiteren Fragen oder wenn du Hilfe brauchst, steht dir unser Support-Team täglich zur Verfügung! 🙂
 

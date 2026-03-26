@@ -78,7 +78,7 @@ Jetzt geht’s ans Eingemachte: Starte deinen Server, indem du ins Hauptverzeich
 
 Im Terminal solltest du jetzt Logs sehen, inklusive Netzwerk-Logs – das bedeutet, der Server ist erfolgreich gestartet. Wenn alles läuft wie erwartet, ist dein Server über Direct Connect erreichbar und in der Serverliste sichtbar. Alternativ kannst du dich direkt verbinden über: `[deine_ip_adresse]:7777`.
 
-## Fazit
+## Abschluss
 
 Glückwunsch, du hast den open.mp Server erfolgreich auf deinem Dedicated Server installiert und konfiguriert! Als nächsten Schritt empfehlen wir dir unsere [Setup Linux Service](dedicated-linux-create-gameservice.md) Anleitung. Dort erfährst du, wie du deinen neuen Dedicated Gameserver als Service einrichtest. Das bringt viele Vorteile wie automatischen Serverstart beim Booten, automatische Updates, einfache Verwaltung und Zugriff auf Logs – und noch viel mehr!
 

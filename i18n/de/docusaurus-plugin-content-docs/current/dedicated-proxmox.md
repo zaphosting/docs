@@ -147,7 +147,7 @@ Und so hast du deine erste VM im Proxmox-Panel erstellt! Du kannst sie jetzt in 
 
 
 
-## Fazit
+## Abschluss
 
 Glückwunsch, du hast Proxmox erfolgreich auf deinem Dedicated Server installiert. Bei Fragen oder wenn du Hilfe brauchst, steht dir unser Support-Team täglich zur Seite! 🙂
 

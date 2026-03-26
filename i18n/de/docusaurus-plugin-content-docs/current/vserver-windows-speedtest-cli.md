@@ -56,7 +56,7 @@ Für wiederholte Nutzung mit denselben Optionen empfiehlt es sich, einen Shell-A
 
 
 
-## Fazit und weitere Ressourcen
+## Abschluss und weitere Ressourcen
 
 Glückwunsch! Du hast Speedtest CLI erfolgreich auf deinem vServer installiert und konfiguriert. Wir empfehlen dir außerdem, einen Blick auf die folgenden Ressourcen zu werfen, die dir bei der weiteren Serverkonfiguration hilfreich sein können:
 

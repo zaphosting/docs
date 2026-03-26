@@ -40,7 +40,7 @@ Um die Strafe anzupassen, änderst du einfach die Zahl auf deinen gewünschten W
 
 
 
-## Fazit
+## Abschluss
 
 Glückwunsch! Durch das Ändern des `OnDeath`-Werts in der `GameServerSettings.ini` hast du die Todesstrafe auf deinem HumanitZ-Gameserver erfolgreich konfiguriert. Bei weiteren Fragen oder wenn du Hilfe brauchst, steht dir unser Support-Team täglich zur Verfügung! 🙂
 

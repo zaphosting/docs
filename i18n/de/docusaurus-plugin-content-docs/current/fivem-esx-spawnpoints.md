@@ -48,7 +48,7 @@ Config.DefaultSpawns = { -- Wenn du mehr Spawnpositionen möchtest und diese zuf
 Um die aktuellen Koordinaten zu ermitteln, brauchst du eine passende Ressource. Im Internet findest du verschiedene Tools – such dir einfach das aus, das dir am besten gefällt. :)
 :::
 
-## Fazit
+## Abschluss
 
 Mit dieser Methode hast du erfolgreich bestehende Spawnpunkte geändert oder neue hinzugefügt. Bei weiteren Fragen oder wenn du Hilfe brauchst, steht dir unser Support-Team täglich zur Seite! 🙂
 

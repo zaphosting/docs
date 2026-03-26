@@ -72,6 +72,6 @@ start srcds.exe -console -game hl2mp -secure +maxplayers 10 +map dm_runoff +sv_s
 Im Kommandozeilenfenster solltest du nun Logs sehen, die signalisieren, dass der Start erfolgreich war. Beachte, dass der erste Start etwas länger dauern kann, da alles eingerichtet wird. Alternativ kannst du dich direkt verbinden, indem du in der Serverliste unten die Suche nutzt und nach `[deine_ip_adresse]:2456` suchst.
 
 
-## Fazit
+## Abschluss
 
 Glückwunsch, du hast deinen Half-Life 2 Server erfolgreich auf deinem VPS eingerichtet und konfiguriert! Bei weiteren Fragen oder Problemen steht dir unser Support-Team täglich zur Seite! 🙂

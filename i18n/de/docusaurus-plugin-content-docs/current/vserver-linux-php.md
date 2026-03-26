@@ -108,7 +108,7 @@ Mit den Pfeiltasten kannst du scrollen, mit `Q` verlässt du die Ansicht. Um ein
 sudo apt install [php_extension] [...]
 ```
 
-## Fazit
+## Abschluss
 
 Du hast PHP erfolgreich auf deinem Linux-Server installiert. Bei Fragen oder wenn du Hilfe brauchst, steht dir unser Support-Team täglich zur Verfügung! 🙂
 

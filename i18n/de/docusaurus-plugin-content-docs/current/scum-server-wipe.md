@@ -39,7 +39,7 @@ Navigiere zum Bereich **Teilweiser, Goldener und Vollständiger Wipe** unter den
 Um Zugriff auf die Servereinstellungen im Spiel zu haben, sind [Admin-Rechte](scum-becomeadmin.md) notwendig.
 :::
 
-## Fazit
+## Abschluss
 
 Glückwunsch, wenn du alle Schritte befolgt hast, hast du deinen Server erfolgreich gewiped. Bei weiteren Fragen oder wenn du Hilfe brauchst, steht dir unser Support-Team täglich zur Seite! 🙂
 

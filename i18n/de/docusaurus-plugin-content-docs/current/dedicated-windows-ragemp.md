@@ -128,6 +128,6 @@ Jetzt kannst du deinen Server starten. Wechsle in das Verzeichnis `server-files`
 
 Im RageMP Launcher kannst du dich jetzt direkt mit deinem Server verbinden.
 
-## Fazit
+## Abschluss
 
 Glückwunsch, du hast den RageMP Server erfolgreich auf deinem Dedicated Server installiert und konfiguriert! Falls du noch Fragen oder Probleme hast, steht dir unser Support-Team täglich zur Verfügung und hilft dir gerne weiter!

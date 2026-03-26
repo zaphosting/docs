@@ -360,7 +360,7 @@ Greife jetzt über die Domain (HTTP/Port 80) zu, die du im virtuellen Host defin
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/NgK2n8xN3wZPLeP/preview)
 
-## Fazit
+## Abschluss
 
 Glückwunsch, du hast den LAMP Stack erfolgreich installiert und eingerichtet! Als nächsten Schritt empfehlen wir **dringend**, eine Domain und ein **SSL-Zertifikat** einzurichten, damit deine Website sicher erreichbar ist. Schau dir dazu unsere [Certbot Anleitung](dedicated-linux-certbot.md) mit Fokus auf das **Apache Plugin** an und folge der interaktiven Einrichtung, um schnell ein Zertifikat für deine Domain zu bekommen.
 

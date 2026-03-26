@@ -59,7 +59,7 @@ Sobald du per RCON verbunden bist, kannst du verschiedene administrative und dia
 | `exec <datei.cfg>`          | Führt eine Konfigurationsdatei aus             |
 | `say <nachricht>`           | Sendet eine Nachricht an alle Spieler          |
 
-## Fazit
+## Abschluss
 
 RCON ist ein essentielles Tool für die Fernverwaltung von Day of Defeat: Source Gameservern. Es ermöglicht schnellen und direkten Zugriff auf administrative Funktionen und schützt den Zugang durch Passwort-Authentifizierung. Eine korrekte und sichere Konfiguration ist entscheidend, um die Serverstabilität zu gewährleisten und unbefugten Zugriff zu verhindern.
 

@@ -46,7 +46,7 @@ Nach dem Neustart versuche, dich mit einem Account zu verbinden, der nicht in de
 
 Wenn gelistete Spieler nicht joinen können, überprüfe, ob die StarMade-Authentifizierung aktiviert und erforderlich ist, da sonst die Namen nicht zuverlässig abgeglichen werden.
 
-## Fazit
+## Abschluss
 
 Wenn du alle Schritte korrekt befolgt hast, ist deine Whitelist jetzt aktiv und du kannst genau steuern, wer auf deinen Gameserver darf. Falls der Zugang trotzdem nicht wie erwartet funktioniert, starte den Server nochmal neu und prüfe die Datei oder die Konsolenausgabe, um sicherzugehen, dass die Änderung übernommen wurde.
 

@@ -124,7 +124,7 @@ Sobald du verbunden bist, navigiere zum zuvor erstellten **rescue-Verzeichnis**.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/QiS4wiTWXx6g8aT/download)
 
-## Fazit
+## Abschluss
 
 Du hast jetzt erfolgreich deine wichtigen Dateien gerettet und gesichert.  
 Deine Daten sind sicher und können jederzeit wiederhergestellt werden. Nun kannst du weitere Schritte angehen, wie den Server neu installieren, das System reparieren oder die Daten in eine neue Umgebung migrieren.

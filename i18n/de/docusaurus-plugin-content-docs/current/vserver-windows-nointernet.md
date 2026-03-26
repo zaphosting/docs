@@ -121,7 +121,7 @@ Du kannst die Netzwerkkonfiguration auch im Webinterface deines VPS zurücksetze
 ![img](https://screensaver01.zap-hosting.com/index.php/s/YsLZZJZEaf3pemt/preview)
 
 
-## Fazit
+## Abschluss
 Wenn du alle Schritte befolgt hast, sollte die Verbindung wieder wie gewohnt funktionieren. Für weitere Fragen oder Unterstützung steht dir unser Support-Team täglich zur Verfügung – melde dich einfach! 🙂
 
 <InlineVoucher />

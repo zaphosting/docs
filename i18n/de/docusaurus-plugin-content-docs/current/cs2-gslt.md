@@ -53,7 +53,7 @@ Wenn du mehrere **Counter-Strike 2** Server betreibst, benötigst du für jeden 
 
 
 
-## Fazit
+## Abschluss
 
 Der GSLT wurde erstellt und in deiner Server-Konfiguration hinterlegt. Bei weiteren Fragen oder wenn du Hilfe brauchst, steht dir unser Support-Team täglich zur Verfügung! 🙂
 

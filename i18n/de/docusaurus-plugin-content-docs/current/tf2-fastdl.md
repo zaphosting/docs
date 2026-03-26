@@ -62,7 +62,7 @@ sv_allowupload 0
 
 Achte darauf, dass die FastDL-URL exakt der Struktur auf deinem Webspace entspricht. Nach dem Speichern startest du deinen Gameserver neu, damit die Einstellungen wirksam werden.
 
-## Fazit
+## Abschluss
 
 FastDL lässt sich schnell und zuverlässig mit deinem eigenen ZAP-Webspace einrichten. So kannst du benutzerdefinierte Inhalte schnell und effizient ausliefern und das Spielerlebnis auf deinem Team Fortress 2 Server verbessern.
 

@@ -51,7 +51,7 @@ Nach dem Neustart versuchst du mit einem Account zu joinen, der nicht in der `wh
 
 Falls der Server trotzdem ungelistete Spieler reinlässt, überprüfe, ob du im aktiven Cluster-Ordner gearbeitet hast und ob im Abschnitt `[NETWORK]` die Zeile mit `whitelist_slots` drinsteht.
 
-## Fazit
+## Abschluss
 
 Wenn du alle Schritte korrekt befolgt hast, ist deine Whitelist jetzt aktiv und du kannst genau steuern, wer auf den Server darf. Falls der Zugang trotzdem nicht wie gewünscht funktioniert, starte den Server nochmal neu und prüfe die Dateien oder die Ausgabe, um sicherzugehen, dass die Änderung übernommen wurde.
 

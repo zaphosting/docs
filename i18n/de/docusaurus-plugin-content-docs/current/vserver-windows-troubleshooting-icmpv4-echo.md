@@ -60,7 +60,7 @@ Wenn der Server erfolgreich antwortet, kann das Monitoring-System ihn wieder erk
 
 
 
-## Fazit
+## Abschluss
 
 Glückwunsch! Mit der Erstellung der ICMPv4 Echo-Regel in der Windows-Firewall hast du dafür gesorgt, dass dein Windows VPS wieder auf Ping-Anfragen reagiert.
 

@@ -90,7 +90,7 @@ So wird ein separater Login erstellt, der nur Zugriff auf die Berechtigungen der
 
 
 
-## Fazit
+## Abschluss
 
 Glückwunsch! Du weißt jetzt, wie du das **Teams & Sharing** System nutzt, um Nutzer einzuladen, Berechtigungsgruppen zu erstellen und Zugriffe auf deine Services sicher zu teilen. Das neu gestaltete System macht Zusammenarbeit einfacher, während du die volle Kontrolle über Berechtigungen und Account-Zugriffe behältst.
 

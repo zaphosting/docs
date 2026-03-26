@@ -39,7 +39,7 @@ Du kannst einzelne Kästchen (Chunks) mit einem Mausklick auswählen. Suche und 
 
 Die ausgewählten Chunks wurden nun gelöscht und du kannst die Welt wieder per FTP auf deinen Server hochladen.
 
-## Fazit
+## Abschluss
 
 Glückwunsch, du hast die fehlerhaften Chunks erfolgreich entfernt und solltest diese Welt jetzt wieder problemlos spielen können. Bei weiteren Fragen oder wenn du Hilfe brauchst, steht dir unser Support-Team täglich zur Verfügung! 🙂
 

@@ -72,7 +72,7 @@ Wir raten dringend davon ab, diesen Prozess durchzuführen, wenn du dir nicht ab
 
 
 
-## Fazit
+## Abschluss
 
 Glückwunsch, du hast die Daten auf deinem Dedicated Server erfolgreich gelöscht. Bei weiteren Fragen oder wenn du Hilfe brauchst, steht dir unser Support-Team täglich zur Seite! 🙂
 

@@ -114,6 +114,6 @@ Du kannst das Passwort des Root-Users ganz einfach ändern. Führe `sudo su` aus
 
 
 
-## Fazit
+## Abschluss
 
 Glückwunsch, du hast das Ubuntu 18.04 Betriebssystem erfolgreich auf deinem Dedicated Server installiert. Bei weiteren Fragen oder wenn du Hilfe brauchst, steht dir unser Support-Team täglich zur Verfügung! 🙂

@@ -109,7 +109,7 @@ HumanDamage=4
 
 
 
-## Fazit
+## Abschluss
 
 Glückwunsch! Mit der Anpassung der Schwierigkeitswerte in der `GameServerSettings.ini` hast du die Spieler-Schwierigkeit auf deinem HumanitZ-Server erfolgreich individualisiert. Bei weiteren Fragen oder Support brauchst du nur unser Team zu kontaktieren – wir sind täglich für dich da! 🙂
 

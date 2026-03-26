@@ -53,7 +53,7 @@ Wenn du mehrere **Left 4 Dead 2** Server betreibst, benötigst du für jeden Ser
 
 
 
-## Fazit
+## Abschluss
 
 Der GSLT wurde erstellt und in deine Serverkonfiguration eingetragen. Bei weiteren Fragen oder wenn du Hilfe brauchst, steht dir unser Support-Team täglich zur Verfügung! 🙂
 

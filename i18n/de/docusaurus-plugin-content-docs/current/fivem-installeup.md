@@ -67,7 +67,7 @@ Damit die installierten Ressourcen geladen werden, müssen sie in der Server-Kon
 
 
 
-## Fazit
+## Abschluss
 
 Du hast EUP erfolgreich auf deinem FiveM Gameserver installiert. Bei weiteren Fragen oder Problemen steht dir unser Support-Team täglich zur Seite! 🙂
 

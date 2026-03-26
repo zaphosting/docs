@@ -70,7 +70,7 @@ Nach dem Verbinden per RCON kannst du verschiedene administrative und diagnostis
 
 
 
-## Fazit
+## Abschluss
 
 RCON ist ein essentielles Tool für die Remote-Verwaltung von RedM Gameservern. Es ermöglicht schnellen und direkten Zugriff auf administrative Funktionen und schützt den Zugang durch Passwort-Authentifizierung. Eine korrekte und sichere Konfiguration ist entscheidend, um die Serverstabilität zu gewährleisten und unbefugten Zugriff zu verhindern.
 

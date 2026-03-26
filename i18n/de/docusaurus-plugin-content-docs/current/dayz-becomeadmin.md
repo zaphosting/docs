@@ -59,7 +59,7 @@ Hier findest du eine Liste einiger verfügbarer Befehle, die du mit deinen Admin
 | #logout                                     | Es gibt zwei verfügbare Befehle: console - sendet, was in der Server-Konsole steht, an den Sender. von - gibt Ausgaben in die in server.cfg definierte Logdatei aus, z.B. könnte die logfile „server_console.log“ heißen. Du bekommst eine Bestätigung dieser Befehle in den Chat-Kanälen. |
 
 
-## Fazit
+## Abschluss
 
 Glückwunsch, du hast die Admin-Rechte erfolgreich konfiguriert. Bei weiteren Fragen oder wenn du Hilfe brauchst, steht dir unser Support-Team täglich zur Seite! 🙂
 

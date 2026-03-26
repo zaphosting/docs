@@ -45,7 +45,7 @@ Nach dem Neustart versuchst du, dich mit einem Account zu verbinden, der nicht i
 
 Wenn gelistete Spieler nicht joinen können, überprüfe, ob du SteamID64 benutzt hast und ob der Server wirklich die `whitelist.txt` lädt, die du bearbeitet hast.
 
-## Fazit
+## Abschluss
 
 Wenn du alle Schritte korrekt befolgt hast, ist deine Whitelist jetzt aktiv und du kannst genau steuern, wer auf deinen Server darf. Falls der Zugang trotzdem nicht wie erwartet funktioniert, starte den Server nochmal neu und prüfe die Datei oder die Befehlsausgabe, um sicherzugehen, dass die Änderung übernommen wurde.
 

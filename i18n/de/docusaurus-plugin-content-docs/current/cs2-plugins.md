@@ -79,7 +79,7 @@ Nachdem du ein Plugin in dieses Verzeichnis kopiert und den Server neu gestartet
 
 
 
-## Fazit
+## Abschluss
 
 Wenn du alle Schritte befolgt hast, solltest du Metamod/CounterStrikeSharp und deine gewünschten Plugins erfolgreich installiert haben. Bei weiteren Fragen oder Problemen steht dir unser Support-Team täglich zur Verfügung – zögere nicht, uns zu kontaktieren! 🙂
 

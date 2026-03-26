@@ -129,7 +129,7 @@ Neben den Befehlen kannst du die Whitelist auch direkt über eine Konfigurations
 
 
 
-## Fazit
+## Abschluss
 
 Glückwunsch, du hast die Whitelist für deinen Hytale Gameserver erfolgreich eingerichtet. Dein Server ist jetzt nur noch für freigegebene Spieler zugänglich, was dir mehr Kontrolle, Privatsphäre und eine sicherere Multiplayer-Umgebung bietet.
 

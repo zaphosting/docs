@@ -216,6 +216,6 @@ Wenn du weitere Fragen oder Probleme hast, hilft dir unser Support gerne weiter!
 
 
 
-## Fazit
+## Abschluss
 
 Glückwunsch, du hast das Debian Betriebssystem erfolgreich auf deinem Dedicated Server installiert. Für weitere Fragen oder Unterstützung steht dir unser Support-Team täglich zur Verfügung! 🙂

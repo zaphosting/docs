@@ -120,6 +120,6 @@ Du kannst diesen Pfad ganz einfach öffnen, indem du gleichzeitig `STRG` + `R` d
 
 Jetzt geht’s ans Eingemachte: Starte deinen Server, indem du in das Basisverzeichnis deines Avorion Servers gehst und die **startserver.bat** ausführst, die du erstellt hast. Dadurch öffnet sich die Server-Konsole in einem Kommandozeilenfenster und der Startvorgang beginnt. Du kannst dich jetzt direkt über den Ingame-Serverbrowser verbinden, indem du deine Server-IP und den Port (Standard: 27000) eingibst.
 
-## Fazit
+## Abschluss
 
 Glückwunsch, du hast den Avorion Server erfolgreich auf deinem VPS installiert und konfiguriert! Falls du noch Fragen oder Probleme hast, steht dir unser Support-Team täglich zur Verfügung und hilft dir gerne weiter!

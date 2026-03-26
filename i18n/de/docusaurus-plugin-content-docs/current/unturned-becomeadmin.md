@@ -51,7 +51,7 @@ Für die Vergabe eines Administrators wird „owner“ einfach durch „admin“
 
 Nachdem alle Ränge in der Config eingetragen wurden, kann die Config mit einem Klick auf „Speichern“ gesichert werden. Der Server kann jetzt neu gestartet werden und alle in der Config eingetragenen Spieler erhalten automatisch ihren Rang.
 
-## Fazit
+## Abschluss
 
 Glückwunsch, du hast die Administratorrechte erfolgreich konfiguriert. Bei weiteren Fragen oder wenn du Hilfe brauchst, steht dir unser Support-Team täglich zur Verfügung! 🙂
 

@@ -44,7 +44,7 @@ StarRupture/StarRupture/Content/Paks
 
 Kopiere die heruntergeladene `.zip`-Mod-Datei in diesen Ordner. Nach dem Kopieren entpacke das Archiv direkt im `Paks`-Verzeichnis. Die Mod wird beim nächsten Spielstart automatisch geladen.
 
-## Fazit
+## Abschluss
 
 Glückwunsch! Du hast erfolgreich Mods für StarRupture sowohl auf dem Server als auch auf dem Client installiert. Mit installierten Mods kannst du das Spielerlebnis mit neuen Features, Mechaniken und Verbesserungen aus der Community erweitern.
 

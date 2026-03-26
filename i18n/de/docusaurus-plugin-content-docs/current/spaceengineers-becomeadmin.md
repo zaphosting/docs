@@ -57,7 +57,7 @@ Das Ganze sollte danach so aussehen:
 
 Jetzt nur noch die Config speichern und fertig!
 
-## Fazit
+## Abschluss
 
 Glückwunsch, du hast die Administratorrechte erfolgreich eingerichtet. Bei weiteren Fragen oder Problemen steht dir unser Support-Team täglich zur Seite! 🙂
 

@@ -48,7 +48,7 @@ HumanitZ stellt zusätzliche Dateien zur Verfügung, um Spieler-Verbindungen zu 
 
 Diese Dateien sind super hilfreich, um Steam IDs zu identifizieren und die Serveraktivität zu überwachen. Nach Änderungen an Whitelist- oder Bann-Dateien speichere die Dateien und starte den Server neu, damit die Änderungen wirksam werden.
 
-## Fazit
+## Abschluss
 
 Glückwunsch! Mit aktiviertem Whitelist-Modus und der Verwaltung der Dateien `F_MVPAccess.txt` und `F_BannedPlayers.txt` hast du erfolgreich die Zugangskontrolle auf deinem HumanitZ-Server eingerichtet.
 

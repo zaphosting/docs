@@ -98,7 +98,7 @@ Hier findest du alle Befehle, die Chunky zur Generierung und Verwaltung von Chun
 
 
 
-## Fazit
+## Abschluss
 
 Wenn du die Schritte befolgt hast, hast du Chunky erfolgreich installiert und kannst jetzt deine Welt (Chunks) vorab generieren. Glückwunsch! Wenn du alles richtig gemacht hast, solltest du erfolgreich eine Verbindung zum Server aufgebaut haben. Bei weiteren Fragen oder Problemen steht dir unser Support-Team täglich zur Seite! 🙂
 

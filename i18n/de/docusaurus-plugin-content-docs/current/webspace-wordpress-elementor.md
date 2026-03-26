@@ -111,7 +111,7 @@ Das Angebot an Möglichkeiten, sei es durch Einstellungen, Themes oder Widgets, 
 
 
 
-## Fazit
+## Abschluss
 
 Glückwunsch, wenn du alle Schritte befolgt hast, solltest du Elementor erfolgreich installiert und konfiguriert haben. Bei weiteren Fragen oder wenn du Hilfe brauchst, steht dir unser Support-Team täglich zur Seite! 🙂
 

@@ -50,7 +50,7 @@ Beim ersten Start des Spiels wollen viele Spieler ihren Skin anpassen. Diese kan
 
 *Bedrock* macht es dir leichter, benutzerdefinierte Maps, Texture Packs und Spielmodi direkt über den [Store](https://www.minecraft.net/en-us/catalog) zu installieren.
 
-## Fazit
+## Abschluss
 
 Wir hoffen, diese Anleitung hat dir geholfen, mehr über dieses geniale Spiel zu erfahren und dich für eine Version zu entscheiden, mit der du die riesige offene Welt erkunden willst. Falls du dich noch nicht entscheiden kannst, kein Problem: Unser [Game Change](gameserver-gameswitch.md) Guide zeigt dir, wie du auf deinem Gameserver schnell und einfach zwischen den Versionen wechseln kannst – so kannst du beide ausprobieren!
 

@@ -40,7 +40,7 @@ Nach dem Neustart versuche, dich mit einem Steam-Account zu verbinden, der nicht
 
 Wenn der Zugang noch offen ist, überprüfe, ob der Server im privaten Modus läuft und der `<GroupID>`-Eintrag in der aktiven `SpaceEngineers-Dedicated.cfg` vorhanden ist.
 
-## Fazit
+## Abschluss
 
 Wenn alle Schritte korrekt befolgt wurden, ist deine Whitelist jetzt aktiv und du kannst genau steuern, wer auf den Server darf. Falls der Zugang trotzdem nicht wie erwartet funktioniert, starte den Server einmal neu und überprüfe die Datei oder die Konsolenausgabe, um sicherzugehen, dass die Änderung übernommen wurde.
 

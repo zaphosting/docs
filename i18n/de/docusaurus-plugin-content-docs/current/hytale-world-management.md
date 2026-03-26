@@ -59,6 +59,6 @@ Dieser Befehl entfernt die Welt mit dem Namen `weltname` vom Server. Wenn die We
 
 
 
-## Fazit
+## Abschluss
 
 Die Verwaltung von Welten über die Live-Konsole bietet eine schnelle und flexible Möglichkeit, die aktive Umgebung auf einem Hytale-Gameserver zu steuern. Bei weiteren Fragen oder wenn du Hilfe brauchst, steht dir unser Support-Team täglich zur Seite! 🙂

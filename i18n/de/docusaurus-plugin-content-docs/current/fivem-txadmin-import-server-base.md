@@ -153,7 +153,7 @@ sv_licenseKey "deinLizenzschluesselHier"
 
 
 
-## Fazit
+## Abschluss
 
 Glückwunsch! Sobald du die Dateien erfolgreich hochgeladen, das txAdmin Setup abgeschlossen und die notwendigen Änderungen an der Serverkonfiguration vorgenommen hast, kannst du deinen Server jetzt starten und mit deiner Server Base loslegen.
 

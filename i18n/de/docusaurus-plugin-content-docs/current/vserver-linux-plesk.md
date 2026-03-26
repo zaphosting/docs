@@ -199,7 +199,7 @@ Wenn du die Domain jetzt im Browser öffnest, wird die Verschlüsselung angezeig
 Die Installation sowie die Einrichtung der ersten Domain mit Verschlüsselung sind jetzt komplett abgeschlossen.
 :::
 
-## Fazit
+## Abschluss
 
 Glückwunsch, du hast Plesk erfolgreich installiert und eingerichtet! Falls du noch Fragen oder Probleme hast, steht dir unser Support-Team täglich zur Verfügung und hilft dir gerne weiter!
 

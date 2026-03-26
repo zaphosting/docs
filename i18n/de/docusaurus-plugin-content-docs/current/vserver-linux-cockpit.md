@@ -40,7 +40,7 @@ Der Login erfolgt mit den normalen Login-Daten des Servers/Users.
 ![cockpit](https://screensaver01.zap-hosting.com/index.php/s/2iDf3zFfAxCwkCc/preview)
 
 
-## Fazit
+## Abschluss
 
 Glückwunsch, du hast Cockpit erfolgreich installiert und eingerichtet! Falls du noch Fragen oder Probleme hast, steht dir unser Support-Team täglich zur Verfügung und hilft dir gerne weiter! 
 

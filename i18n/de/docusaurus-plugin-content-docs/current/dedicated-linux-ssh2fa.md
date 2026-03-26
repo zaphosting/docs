@@ -108,6 +108,6 @@ Gib wie gewohnt dein Passwort ein. Danach wirst du nach einem Code gefragt – g
 
 Und schon bist du eingeloggt!
 
-## Fazit
+## Abschluss
 
 Glückwunsch, du hast erfolgreich 2FA für deinen SSH-Zugang eingerichtet. Falls du noch Fragen hast oder Hilfe brauchst, steht dir unser Support-Team täglich zur Verfügung! 🙂

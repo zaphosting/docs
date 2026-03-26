@@ -137,7 +137,7 @@ http://DEINE_SERVER_IP:3000
 
 Ersetze DEINE_SERVER_IP durch die IP-Adresse deines VPS. Sobald die Oberfläche geladen ist, kannst du mit der Konfiguration deiner Finanzen, Budgets und Kategorien starten.
 
-## Fazit
+## Abschluss
 
 Glückwunsch! Du hast Cashlytics erfolgreich auf deinem Linux Server installiert. Jetzt kannst du die Plattform nutzen, um Ausgaben zu verfolgen, Budgets zu verwalten und wertvolle Einblicke in deine Finanzdaten zu erhalten.
 

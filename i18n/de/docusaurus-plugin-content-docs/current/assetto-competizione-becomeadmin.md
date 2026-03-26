@@ -35,7 +35,7 @@ Wenn du mit dem Server verbunden bist, kannst du ENTER drücken, um etwas im Cha
 Gib hier jetzt „/admin ADMINPW“ ein.  
 Jetzt bist du Admin auf deinem Server!
 
-## Fazit
+## Abschluss
 
 Glückwunsch, du hast die Administratorrechte erfolgreich eingerichtet. Bei weiteren Fragen oder wenn du Hilfe brauchst, steht dir unser Support-Team täglich zur Verfügung! 🙂
 

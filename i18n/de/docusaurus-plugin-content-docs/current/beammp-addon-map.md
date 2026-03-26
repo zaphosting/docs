@@ -94,7 +94,7 @@ Navigiere im FTP-Client zu folgendem Pfad:
 
 Zieh die Map-Addon-`.zip`-Datei einfach per Drag & Drop in diesen Ordner, um die Map auf deinen Server hochzuladen. Mit der bearbeiteten Config und den hochgeladenen Map-Dateien ist dein Map-Addon einsatzbereit.
 
-## Fazit
+## Abschluss
 
 Nachdem du alle Schritte befolgt hast, starte deinen BeamMP Gameserver neu. Du hast erfolgreich ein Addon-Map auf deinem BeamMP Gameserver installiert. Bei weiteren Fragen oder Problemen steht dir unser Support-Team täglich zur Verfügung – zögere nicht, uns zu kontaktieren! 🙂
 

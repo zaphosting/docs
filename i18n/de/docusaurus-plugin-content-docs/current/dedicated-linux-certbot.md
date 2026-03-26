@@ -213,6 +213,6 @@ Im geöffneten Nano-Editor fügst du folgende Zeile hinzu, um die Erneuerung tä
 
 Speichere die Datei und beende Nano mit `CTRL + X`, bestätige mit `Y` und drücke `ENTER`.
 
-## Fazit
+## Abschluss
 
 Du hast Certbot erfolgreich für deine Domain(s) eingerichtet – egal ob im Standalone-Modus, per Webroot oder mit einem der Plugins – und sorgst so für sichere Datenübertragung via HTTPS auf deiner Website. Bei Fragen oder Problemen steht dir unser Support-Team täglich zur Seite! 🙂

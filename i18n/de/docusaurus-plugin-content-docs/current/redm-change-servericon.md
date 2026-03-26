@@ -41,7 +41,7 @@ load_server_icon zaphosting96x96.png
 Achte darauf, dass der Dateiname im Befehl exakt mit dem hochgeladenen Bild übereinstimmt – inklusive Groß- und Kleinschreibung.
 :::
 
-## Fazit
+## Abschluss
 
 Wenn du alle Schritte befolgt hast, wird dein neues Server-Icon beim nächsten Server-Neustart angezeigt. Bei Fragen oder wenn du Hilfe brauchst, steht dir unser Support-Team täglich zur Verfügung! 🙂
 

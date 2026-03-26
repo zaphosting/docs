@@ -131,7 +131,7 @@ Klicke auf **+ Ressource hinzufügen**, um ein öffentliches Repository oder ein
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/nEf9XBDrfypijE7/preview)
 
-## Fazit und weitere Ressourcen
+## Abschluss und weitere Ressourcen
 
 Glückwunsch! Du hast Coolify erfolgreich auf deinem Server installiert und kannst direkt mit dem Deployen deiner Projekte loslegen. Schau dir auch diese Ressourcen an, die dir bei der Server-Konfiguration weiterhelfen können:
 

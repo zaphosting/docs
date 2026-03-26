@@ -51,7 +51,7 @@ Im txAdmin Interface navigierst du links zum **CFG Editor**, um die `server.cfg`
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/2E8j9jtykcjwF7L/preview)
 
-## Fazit
+## Abschluss
 
 Nachdem du den eigenen Lizenzschlüssel eingerichtet hast, starte deinen Server neu, damit der Schlüssel aktiv wird. Du hast erfolgreich einen eigenen Lizenzschlüssel zu deinem FiveM Gameserver hinzugefügt. Bei weiteren Fragen oder wenn du Hilfe brauchst, steht dir unser Support-Team täglich zur Verfügung! 🙂
 

@@ -60,7 +60,7 @@ Subdomains eignen sich am besten, wenn du mehrere Dienste unter einer einzigen D
 
 
 
-## Fazit
+## Abschluss
 
 Domains und Subdomains erfüllen unterschiedliche Rollen, arbeiten aber zusammen, um Dienste im Internet zu strukturieren. Eine Domain repräsentiert die Hauptidentität eines Projekts, während Subdomains dir erlauben, Dienste unter dieser Identität zu erweitern und zu organisieren.
 

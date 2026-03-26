@@ -52,7 +52,7 @@ speedtest-cli nutzt keine klassische Konfigurationsdatei, lässt sich aber über
 
 Wenn du die gleichen Optionen öfter nutzt, empfiehlt es sich, einen Shell-Alias oder ein kleines Wrapper-Skript zu erstellen. So kannst du speedtest-cli schnell starten und hast immer ein einheitliches Ausgabeformat.
 
-## Fazit und weitere Ressourcen
+## Abschluss und weitere Ressourcen
 
 Glückwunsch! Du hast Speedtest-Cli erfolgreich auf deinem VPS/Dedicated Server installiert und konfiguriert. Wir empfehlen dir außerdem, einen Blick auf diese Ressourcen zu werfen, die dir bei der Server-Konfiguration weiterhelfen können:
 

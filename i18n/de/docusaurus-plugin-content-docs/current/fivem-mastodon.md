@@ -48,7 +48,7 @@ Speichere die Datei und starte den Server neu. Nach dem Neustart kann es bis zu 
 
 
 
-## Fazit
+## Abschluss
 
 Mit dem konfigurierten Activity Feed werden Server-Updates und Ankündigungen direkt und übersichtlich für deine Spieler angezeigt. Dieses Setup sorgt für mehr Transparenz, stärkt die Community-Interaktion und bietet eine effiziente Möglichkeit, News und Infos zu teilen – ganz ohne externe Links oder Plattformen.
 

@@ -166,6 +166,6 @@ Die eingesetzte Enterprise-Hardware braucht etwas Zeit zum Booten, das ist völl
 Stelle sicher, dass das iLO in deinem Server-Dashboard aktiviert ist. Aus Sicherheitsgründen schaltet sich die Management-Schnittstelle nach einiger Zeit automatisch ab.  
 Du kannst das iLO natürlich deaktivieren und wieder aktivieren. (Warte mindestens 5 Minuten nach Aktivierung)
 
-## Fazit
+## Abschluss
 
 Das sollte dir die Administration deutlich erleichtern, wenn du alles genau durchgelesen hast. Für weitere Fragen oder Hilfe steht dir unser Support-Team täglich zur Verfügung! 🙂

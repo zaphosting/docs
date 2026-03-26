@@ -47,7 +47,7 @@ Direkt unter dieser Zeile fügst du die Einstellungen für Tages- und Nachtläng
 
 Diese Werte definieren die Länge von Tag- und Nachtphase in Sekunden. Zum Beispiel sorgt ein Tageswert von `1800` für eine längere Tagesphase, während der Nachtwert von `1000` bestimmt, wie lange die Nacht dauert, bevor der Zyklus neu startet. Nach den Änderungen speichere die `config.json` Datei und starte den Server neu.
 
-## Fazit
+## Abschluss
 
 Mit dieser Konfiguration hast du die volle Kontrolle darüber, wie lange Tag und Nacht in jeder Welt auf deinem Hytale Gameserver dauern. Bei weiteren Fragen oder wenn du Hilfe brauchst, steht dir unser Support-Team täglich zur Verfügung! 🙂
 

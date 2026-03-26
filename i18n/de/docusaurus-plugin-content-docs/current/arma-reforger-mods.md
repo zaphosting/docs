@@ -39,7 +39,7 @@ Wenn du mehrere Mods installieren willst, gib jede Workshop-ID ein und trenne si
 Nachdem du die gewünschten Mod-IDs eingetragen hast, **speichere die Einstellungen** und starte den Server neu. Während des Starts lädt der Server die aufgelisteten Mods automatisch aus dem Arma Reforger Workshop herunter und lädt sie.
 
 
-## Fazit
+## Abschluss
 
 Glückwunsch! Du hast erfolgreich **Arma Reforger Workshop-Mods** auf deinem Server installiert. Bei weiteren Fragen oder wenn du Hilfe brauchst, steht dir unser Support-Team täglich zur Verfügung! 🙂
 

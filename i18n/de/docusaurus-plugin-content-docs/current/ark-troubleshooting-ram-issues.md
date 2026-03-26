@@ -122,7 +122,7 @@ Wenn der RAM-Verbrauch konstant nahe am Maximum liegt und Troubleshooting nichts
 
 
 
-## Fazit
+## Abschluss
 
 Wenn du den Verbrauch beobachtet und optimiert hast, aber weiterhin Speicher-Sättigung oder Performance-Probleme auftreten, ist ein Upgrade deiner Server-Ressourcen meist die beste Lösung.
 

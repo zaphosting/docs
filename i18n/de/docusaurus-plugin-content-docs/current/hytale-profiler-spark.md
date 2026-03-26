@@ -82,7 +82,7 @@ Der Profiler hebt außerdem **Hotspots** hervor – also Funktionen oder Systeme
 
 Spark-Berichte sind so gestaltet, dass sie leicht geteilt werden können. Wenn du Support oder Hilfe von anderen Admins suchst, kannst du einfach den Profiler-Link weitergeben, damit sie die Daten direkt einsehen und gezielte Tipps geben können.
 
-## Fazit
+## Abschluss
 
 Der Spark Profiler Mod für Hytale ist ein super Tool, um Performance-Probleme zu diagnostizieren und die Ursachen von Server-Lag zu finden. Bei Fragen oder wenn du Hilfe brauchst, steht dir unser Support-Team täglich zur Seite! 🙂
 

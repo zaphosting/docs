@@ -82,7 +82,7 @@ Nachdem du die Einstellungen gespeichert hast, kannst du den Bot einfach über d
 
 
 
-## Fazit
+## Abschluss
 
 Glückwunsch, du hast deinen Discord Bot erfolgreich installiert und konfiguriert. Bei weiteren Fragen oder wenn du Hilfe brauchst, steht dir unser Support-Team täglich zur Seite! 🙂
 

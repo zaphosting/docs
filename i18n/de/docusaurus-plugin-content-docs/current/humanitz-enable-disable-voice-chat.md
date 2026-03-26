@@ -34,7 +34,7 @@ Die Einstellung funktioniert so:
 
 Um den Voice Chat zu ändern, passe einfach den Wert nach deinem Wunsch an. Speichere die Datei danach ab und starte deinen Gameserver neu, damit die Änderung wirksam wird.
 
-## Fazit
+## Abschluss
 
 Glückwunsch! Mit der Änderung des `Voip`-Werts in der `GameServerSettings.ini` hast du den Voice Chat auf deinem HumanitZ Gameserver erfolgreich aktiviert oder deaktiviert. Falls du noch Fragen hast oder Hilfe brauchst, steht dir unser Support-Team täglich zur Seite! 🙂
 

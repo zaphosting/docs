@@ -64,7 +64,7 @@ Falls das Spiel zusätzliche Plugins, Mods oder Erweiterungen unterstützt, die 
 
 
 
-## Fazit
+## Abschluss
 
 Automatisierte Server-Nachrichten sind ein zuverlässiger Weg, um Spieler ohne manuellen Aufwand informiert und engagiert zu halten. Durch geplante Tasks, die Nachrichtenbefehle ausführen, können Server-Admins eine konstante Kommunikation auf ihrem Server sicherstellen.
 

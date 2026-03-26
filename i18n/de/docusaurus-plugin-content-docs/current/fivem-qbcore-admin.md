@@ -41,7 +41,7 @@ add_ace group.admin command allow # erlaube alle Befehle
 add_principal identifier.fivem:16219250 qbcore.admin # Spielername
 ```
 
-## Fazit
+## Abschluss
 
 Wenn du alle Schritte erfolgreich befolgt hast, bist du jetzt Admin auf deinem eigenen Server. Bei weiteren Fragen oder wenn du Hilfe brauchst, steht dir unser Support-Team täglich zur Seite! 🙂
 

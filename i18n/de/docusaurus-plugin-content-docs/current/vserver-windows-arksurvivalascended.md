@@ -163,7 +163,7 @@ Nachdem du das installiert hast, kannst du den Server starten, indem du die zuvo
 
 Das öffnet die Server-Konsole in einem Kommandozeilenfenster und startet den Server. Wenn alles klappt, erscheint dein Server in der Serverliste. Alternativ kannst du dich direkt verbinden, indem du in der Ingame-Konsole `open [deine_ip_adresse]:7777` eingibst.
 
-## Fazit
+## Abschluss
 
 Glückwunsch, du hast deinen ARK-Survival-Ascended Server erfolgreich auf deinem VPS installiert und konfiguriert! Falls du noch Fragen oder Probleme hast, steht dir unser Support-Team täglich zur Verfügung und hilft dir gerne weiter!
 

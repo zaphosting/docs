@@ -107,6 +107,6 @@ mkdir /usr/share/phpmyadmin/tmp/
 chown -R www-data:www-data /usr/share/phpmyadmin/tmp/
 ```
 
-## Fazit
+## Abschluss
 
 Glückwunsch, du hast phpMyAdmin erfolgreich installiert und konfiguriert! Du kannst jetzt über die IP-Adresse deines Servers und den Pfad (http://IP-Adresse/phpmyadmin) auf das Webinterface zugreifen. Bei Fragen oder wenn du Hilfe brauchst, steht dir unser Support-Team täglich zur Seite! 🙂

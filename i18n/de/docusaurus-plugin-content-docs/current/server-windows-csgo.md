@@ -73,6 +73,6 @@ Jetzt geht’s ans Starten deines Servers. Wechsle ins Hauptspielverzeichnis und
 Im Kommandozeilenfenster solltest du nun Logs sehen, die signalisieren, dass der Start erfolgreich war. Beachte, dass der erste Start etwas dauern kann, da alles eingerichtet wird. Alternativ kannst du dich direkt verbinden, indem du in der unteren Suchleiste der Serverliste nach `[deine_ip_adresse]:2456` suchst.
 
 
-## Fazit
+## Abschluss
 
 Glückwunsch, du hast deinen CS:GO Server erfolgreich auf deinem VPS/Dedicated Server installiert und konfiguriert! Bei weiteren Fragen oder Problemen steht dir unser Support-Team täglich zur Verfügung – zögere nicht, uns zu kontaktieren! 🙂

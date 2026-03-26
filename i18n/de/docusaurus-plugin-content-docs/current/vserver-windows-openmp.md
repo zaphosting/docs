@@ -103,7 +103,7 @@ Jetzt kannst du deinen Server starten. Gehe ins Root-Verzeichnis und führe **om
 
 Du kannst dich jetzt direkt im Spiel über den open.mp Launcher mit deinem Server verbinden. Wenn du möchtest, dass dein Server in der Serverliste angezeigt wird, schau dir unsere [Server Konfiguration](openmp-configuration.md) Anleitung an und stelle sicher, dass der Parameter `enable_query` auf true steht (sollte standardmäßig so sein). Speichere die Datei und starte den Server erneut.
 
-## Fazit
+## Abschluss
 
 Glückwunsch, du hast deinen open.mp Server erfolgreich auf deinem VPS installiert und konfiguriert! Falls du noch Fragen oder Probleme hast, steht dir unser Support-Team täglich zur Verfügung und hilft dir gerne weiter!
 

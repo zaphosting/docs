@@ -38,6 +38,6 @@ In der Domainverwaltung unter **Handle-Verwaltung** kannst du entweder ein beste
 
 Alle Änderungen kannst du direkt in der Handle-Verwaltung eingeben und speichern. Neu erstellte Handles stehen für zukünftige Domain-Registrierungen oder Updates zur Verfügung. Bestehende Handles können bei aktiven Domains aktualisiert werden, sofern dies vom Registry unterstützt wird.
 
-## Fazit
+## Abschluss
 
 Durch das Erstellen oder Aktualisieren eines Domain-Handles stellst du sicher, dass deine Kontaktdaten korrekt bei deinen Domains hinterlegt sind. Das ist wichtig für rechtliche Vorgaben, Erreichbarkeit und die Genauigkeit im WHOIS.

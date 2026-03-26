@@ -49,7 +49,7 @@ Zum Schluss installierst du noch ein paar Zusatzpakete, damit Wine optimal mit d
 sudo apt install cabextract winbind screen xvfb
 ```
 
-## Fazit
+## Abschluss
 
 Du hast jetzt erfolgreich die Wine-Kompatibilitätsschicht eingerichtet, mit der du Windows-Programme auf deinem Linux-Server ausführen kannst. Mit dieser wichtigen Voraussetzung kannst du nun Dedicated Gameserver installieren, selbst wenn sie eigentlich für Windows gebaut sind.
 

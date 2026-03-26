@@ -64,7 +64,7 @@ Nach dem Mounten einer ISO ist dein Server noch nicht eingerichtet. Deshalb wird
 
 
 
-## Fazit
+## Abschluss
 Glückwunsch, du hast deine ISO-Datei erfolgreich ausgewählt und gemountet. Bei weiteren Fragen oder wenn du Hilfe brauchst, steht dir unser Support-Team täglich zur Seite! 🙂
 
 

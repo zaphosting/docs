@@ -47,7 +47,7 @@ Hier findest du eine Liste gängiger Admin-Befehle, die du als Admin auf deinem 
 
 
 
-## Fazit
+## Abschluss
 
 Glückwunsch, wenn du alles befolgt hast, solltest du die Admin-Rechte für deinen Server erfolgreich konfiguriert haben. Bei weiteren Fragen oder Problemen steht dir unser Support-Team täglich zur Verfügung und hilft dir gerne weiter! 🙂
 

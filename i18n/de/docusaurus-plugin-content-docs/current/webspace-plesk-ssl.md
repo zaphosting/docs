@@ -76,7 +76,7 @@ Sobald der Eintrag sichtbar ist, kehre zu Plesk zurück und starte die Validieru
 
 
 
-## Fazit
+## Abschluss
 
 Glückwunsch! Deine Website ist jetzt erfolgreich mit SSL-Verschlüsselung geschützt. Alle Daten, die zwischen deinem Server und den Besuchern übertragen werden, sind gesichert, Browser erkennen deine Domain als vertrauenswürdig und HTTPS wird automatisch erzwungen.
 

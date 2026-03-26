@@ -65,7 +65,7 @@ DNS-Änderungen können bis zu 24 Stunden dauern, bis sie weltweit vollständig 
 
 
 
-## Fazit
+## Abschluss
 Wenn du diese Schritte befolgst, ist deine Domain korrekt konfiguriert und mit deinem Webspace verknüpft. Bei weiteren Fragen oder wenn du Hilfe brauchst, steht dir unser Support-Team täglich zur Seite! 🙂
 
 

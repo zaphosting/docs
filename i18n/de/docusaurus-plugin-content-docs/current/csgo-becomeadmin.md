@@ -107,7 +107,7 @@ Admins
 
 Ein höherer Immunitätswert bedeutet einen stärkeren Schutz vor administrativen Aktionen anderer Admins mit niedrigerer Immunität.
 
-## Fazit
+## Abschluss
 
 Glückwunsch, du hast erfolgreich die Administratorrechte für deinen CS:GO-Server mit Sourcemod konfiguriert. Bei weiteren Fragen oder Supportbedarf steht dir unser Support-Team täglich zur Verfügung – melde dich einfach! 🙂
 

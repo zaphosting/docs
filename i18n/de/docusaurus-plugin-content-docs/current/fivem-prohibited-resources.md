@@ -43,7 +43,7 @@ Eine offizielle Liste von Ressourcen, die zu dieser Meldung führen können, gib
 
 
 
-## Fazit
+## Abschluss
 Um eine sichere und stabile Serverumgebung zu gewährleisten, ist es essenziell, nur vertrauenswürdige Ressourcen zu nutzen und markierte Ressourcen sofort zu entfernen. Wenn du diese Richtlinien befolgst und das FiveM Asset Escrow System nutzt, trägst du dazu bei, Sicherheit und Compliance im FiveM-Ökosystem sicherzustellen. Bei weiteren Fragen oder wenn du Hilfe brauchst, steht dir unser Support-Team täglich zur Verfügung! 🙂
 
 <InlineVoucher />

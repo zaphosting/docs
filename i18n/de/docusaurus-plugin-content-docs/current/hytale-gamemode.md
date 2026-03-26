@@ -71,6 +71,6 @@ Nach dem Ändern des Spielmodus-Werts muss der Server neu gestartet werden, dami
 
 
 
-## Fazit
+## Abschluss
 
 Indem du den Spielmodus entweder über die Server-Konfigurationsdatei oder die Live-Konsole einstellst, kannst du das Gameplay auf deinem Hytale-Gameserver genau steuern. Bei weiteren Fragen oder wenn du Hilfe brauchst, steht dir unser Support-Team täglich zur Seite! 🙂

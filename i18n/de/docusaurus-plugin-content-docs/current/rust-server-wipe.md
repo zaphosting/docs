@@ -86,7 +86,7 @@ Wenn du beide löschst, entsteht ein **Full Wipe**. Nach dem Löschen der gewün
 
 
 
-## Fazit
+## Abschluss
 
 Glückwunsch! Du weißt jetzt, wie Rust Server Wipes funktionieren und wie du sie durchführst. Bei weiteren Fragen oder wenn du Hilfe brauchst, steht dir unser Support-Team täglich zur Verfügung! 🙂
 

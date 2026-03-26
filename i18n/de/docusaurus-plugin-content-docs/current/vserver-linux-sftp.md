@@ -45,7 +45,7 @@ Beim ersten Verbindungsaufbau via SFTP erscheint diese Meldung, da dein Rechner 
 
 
 
-## Fazit
+## Abschluss
 
 Wenn du alle Schritte befolgt hast, hast du erfolgreich eine SFTP-Verbindung zu deinem Server hergestellt. Bei weiteren Fragen oder wenn du Hilfe brauchst, steht dir unser Support-Team täglich zur Verfügung! 🙂
 

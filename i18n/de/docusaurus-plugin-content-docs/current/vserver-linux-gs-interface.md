@@ -154,7 +154,7 @@ Standardmäßig ist keine Lizenz auf dem Teamspeak 3 Server installiert. Das bed
 :::
 
 
-## Fazit
+## Abschluss
 
 Glückwunsch, du hast unser GS/TS3 Interface erfolgreich installiert und konfiguriert! Falls du noch Fragen oder Probleme hast, steht dir unser Support-Team täglich zur Seite und hilft dir gerne weiter! 
 

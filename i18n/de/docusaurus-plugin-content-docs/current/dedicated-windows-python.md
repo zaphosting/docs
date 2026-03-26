@@ -75,6 +75,6 @@ Wenn du fertig bist, kannst du die venv mit dem Befehl `deactivate` wieder verla
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/Ws5BosJzJ78s7Y9/preview)
 
-## Fazit
+## Abschluss
 
 Glückwunsch, du hast Python erfolgreich installiert! Bei weiteren Fragen oder wenn du Hilfe brauchst, steht dir unser Support-Team täglich zur Seite! 🙂

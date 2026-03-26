@@ -53,7 +53,7 @@ Wenn du mehrere **Insurgency**-Server betreibst, benötigst du für jeden Server
 
 
 
-## Fazit
+## Abschluss
 
 Der GSLT wurde erstellt und in deine Serverkonfiguration eingetragen. Bei weiteren Fragen oder wenn du Hilfe brauchst, steht dir unser Support-Team täglich zur Verfügung! 🙂
 

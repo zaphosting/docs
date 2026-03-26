@@ -96,7 +96,7 @@ Folge immer den Installationsanweisungen des Plugin-Entwicklers, um eine korrekt
 
 
 
-## Fazit
+## Abschluss
 
 Wenn du alle Schritte befolgt hast, solltest du Metamod:Source, Sourcemod und deine gewünschten Plugins erfolgreich auf deinem CS:GO Gameserver installiert haben. Bei weiteren Fragen oder Problemen steht dir unser Support-Team täglich zur Verfügung – zögere nicht, uns zu kontaktieren! 🙂
 
