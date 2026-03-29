@@ -1303,6 +1303,19 @@ const servicesMap: serviceMap = {
         }),
         price: `${priceFrom} 11.04€`,
     },
+    'gameserver-over-the-top-wwi': {
+        title: translate({
+            message: 'Over The Top: WWI Gameserver',
+            id: 'service.gameserver-over-the-top-wwi.title',
+            description: 'Product name for the gameserver product',
+        }),
+        url: translate({
+            message: '{marketingSite}/{language}/over-the-top-wwi-server-hosting/',
+            id: 'service.gameserver-over-the-top-wwi.path',
+            description: 'URL path for the gameserver product',
+        }),
+        price: `${priceFrom} 5.00€`,
+    },
     'gameserver-palworld': {
         title: translate({
             message: 'Palworld Gameserver',
