@@ -3366,6 +3366,58 @@ const sidebars = {
         },
       ],
     },
+    {
+      type: "category",
+      label: "Over The Top: WWI",
+      key: "gameserver-over-the-top-wwi",
+      items: [
+        {
+          type: "category",
+          label: "First Steps",
+          key: "gameserver-first-steps-over-the-top-wwi",
+          items: [
+            "over-the-top-wwi-firststeps-dashboard",
+            "over-the-top-wwi-firststeps-connect",
+          ]
+        },
+        {
+          type: "category",
+          label: "Configuration",
+          key: "gameserver-configuration-over-the-top-wwi",
+          items: [
+            "over-the-top-wwi-gamemode",
+            "over-the-top-wwi-whitelist",
+            "over-the-top-wwi-friendly-fire",
+            "over-the-top-wwi-configure-auto-balance",
+            "over-the-top-wwi-configure-bans-and-moderation",
+            "over-the-top-wwi-configure-bots",
+            "over-the-top-wwi-configure-build-and-resources",
+            "over-the-top-wwi-configure-chat-settings",
+            "over-the-top-wwi-configure-class-limits",
+            "over-the-top-wwi-configure-damage-settings",
+            "over-the-top-wwi-configure-map-rotation-rules",
+            "over-the-top-wwi-configure-map-settings",
+            "over-the-top-wwi-configure-performance-settings",
+            "over-the-top-wwi-configure-poll-system",
+            "over-the-top-wwi-configure-revive-system",
+            "over-the-top-wwi-configure-round-settings",
+            "over-the-top-wwi-configure-server-messages",
+            "over-the-top-wwi-configure-spawn-settings",
+            "over-the-top-wwi-configure-time-and-environment",
+            "over-the-top-wwi-configure-voice-chat",
+            "over-the-top-wwi-configure-weather",
+          ]
+        },
+        {
+          type: "category",
+          label: "Troubleshooting",
+          key: "gameserver-troubleshooting-over-the-top-wwi",
+          items: [
+            "ootow-troubleshooting-common-issues",
+          ]
+        },
+      ],
+    },
 {
       type: "category",
       label: "Palworld",
