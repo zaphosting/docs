@@ -4,7 +4,7 @@ title: "Over The Top: WWI: Dashboard Overview"
 description: "Discover how to efficiently manage and optimize your Over The Top: WWI Server with a clear overview of all features and options → Learn more now"
 sidebar_label: Dashboard
 services:
-  - gameserver-over-the-top-wwi
+- gameserver-over-the-top-wwi
 ---
 
 import YouTube from '@site/src/components/YouTube/YouTube';
@@ -128,7 +128,7 @@ Have you noticed that some of your changes are partially overwritten? Please be 
 
 ### Games
 
-Under **Games** you always have the possibility to change the game variant of your existing game or to install another game in general.  Games with the same slot price can be selected directly under **Available Games**. For all other games an adjustment of the slot price is required first. More information about this can be found in the [Game Change](gameserver-gameswitch.md) guide.
+Under **Games** you always have the possibility to change the game variant of your existing game or to install another game in general.Games with the same slot price can be selected directly under **Available Games**. For all other games an adjustment of the slot price is required first. More information about this can be found in the [Game Change](gameserver-gameswitch.md) guide.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/xkkECw7o52fAMWk/preview)
 
@@ -173,9 +173,9 @@ Using the **FTP Browser**, you will get all the necessary information to establi
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/sX85i9HyzR9wmAM/preview)
 
-**FileZilla:**  FileZilla ist der wohl einfachste und bekannteste FTP-Client. Einfach installieren, starten und in der oberen Leiste deine Zugangsdaten eingeben, die du auf dieser Seite etwas weiter oben findest. Nach einem schnellen Klick auf "Verbinden" bist du direkt am Server angemeldet und kannst die Dateien verwalten.
+**FileZilla:**FileZilla ist der wohl einfachste und bekannteste FTP-Client. Einfach installieren, starten und in der oberen Leiste deine Zugangsdaten eingeben, die du auf dieser Seite etwas weiter oben findest. Nach einem schnellen Klick auf "Verbinden" bist du direkt am Server angemeldet und kannst die Dateien verwalten.
 
-**WinSCP:**  WinSCP ist eigentlich für SCP und SFTP (die verschlüsselten Abkömmlinge des Dateiübertragungsprotokolls FTP) gedacht, kann aber genau so gut mit dem normalen FTP umgehen. Das Programm ist etwas umfangreicher als FileZilla und eignet sich eher für fortgeschrittene User.
+**WinSCP:**WinSCP ist eigentlich für SCP und SFTP (die verschlüsselten Abkömmlinge des Dateiübertragungsprotokolls FTP) gedacht, kann aber genau so gut mit dem normalen FTP umgehen. Das Programm ist etwas umfangreicher als FileZilla und eignet sich eher für fortgeschrittene User.
 
 
 
