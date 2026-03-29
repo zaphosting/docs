@@ -4,7 +4,7 @@ title: "Over The Top: WWI: Dashboard Overview"
 description: "Discover how to efficiently manage and optimize your Over The Top: WWI Server with a clear overview of all features and options → Learn more now"
 sidebar_label: Dashboard
 services:
-  - gameserver-wreckfest2
+  - gameserver-over-the-top-wwi
 ---
 
 import YouTube from '@site/src/components/YouTube/YouTube';
