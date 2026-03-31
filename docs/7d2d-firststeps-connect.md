@@ -7,7 +7,7 @@ services:
   - gameserver-7d2d
 ---
 
-import Tabs from '@theme/Tabs';
+import Tabs from '@theme/Tabs';321321321
 import TabItem from '@theme/TabItem';
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
