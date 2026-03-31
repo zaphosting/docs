@@ -12,154 +12,118 @@ import Button from '@site/src/components/Button';
 
 ## Introduction
 
-Setting up and running your own Battalion 1944 game server can be an exciting and a lot of fun. While it can be a great way to build a custom gaming environment and community, it also means taking responsibility when things go wrong. Crashes, lag, and configuration issues are common issue that every server owner may encounters at some point.
-
-To make sure you spend less time fixing and more time enjoying your server, this section highlights the most common issues server owners face and provides solutions to help you resolve them quickly and effectively.
-
+Running your own BATTALION: Legacy game server allows you to create a custom gaming environment and community. This guide helps you identify and resolve common server issues to maintain smooth gameplay and reliable server performance.
 
 <InlineVoucher />
 
-
-
 ## Issues and solutions
 
-The cause of server issues can vary and is often not immediately obvious. Learn how to troubleshoot typical issues step by step and keep everything running smoothly.
+Server issues can arise from a variety of causes. This section guides you through troubleshooting typical problems step by step to keep your server stable and responsive.
 
 ### General
-General issues can include all kinds of unexpected problems that don’t fit into a specific category. They often relate to basic settings, missing files or simple misconfigurations. These can usually be fixed quickly with a few checks and adjustments.
+
+General issues include unexpected problems not fitting into specific categories. They often involve basic settings, missing files, or simple misconfigurations. These can usually be resolved quickly with some checks and adjustments.
 
 <details>
   <summary>Server not visible</summary>
 
-A lack of visibility of the server can occur if the initialization was not completed successfully. This may for example be due to a faulty configuration or corrupted files. Further information can usually be traced in the server console or log files. Apart from this, it should be ensured that no incorrect filter settings are used in the server list, which would ensure that the server is not displayed.
+If your server does not appear in the server list, the initialization may have failed due to faulty configuration or corrupted files. Check the server console and log files for error messages. Also verify that no incorrect filters are applied in the server browser that could hide your server.
 
 </details>
 
-
 ### Crashes
 
-Nothing disrupts a good session faster than an unexpected crash. Crashes can be caused by faulty server software, broken or incompatible extensions (such as plugins, mods, resources, or frameworks), system overload, or misconfigurations. 
+Unexpected crashes disrupt gameplay and can be caused by faulty server software, incompatible extensions, system overload, or misconfigurations.
 
 <details>
   <summary>Keeping your server up to date</summary>
 
-Running your game server on the latest version is essential for stability, security, and compatibility. Game updates, framework changes, or modifications to third-party tools can lead to serious issues if your server version is outdated.
-
-An outdated game server may experience crashes, unexpected behavior, or even fail to start entirely.
+BATTALION: Legacy has ceased active development and official support, so updates to the game server are unlikely. Therefore, maintaining stability depends on running the last stable server version and carefully managing extensions and configurations.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/JXLHyHeMJqErHLJ/preview)
-
 
 </details>
 
 <details>
   <summary>Faulty/problematic extensions (Frameworks, Plugins, Mods, Resources)</summary>
 
-Crashes can often be caused by faulty or outdated extensions. Whether it’s a framework, plugin, mod or resource, problems can arise if an extension is not compatible with the latest game version or contains bugs in its code.
+Crashes often result from faulty or incompatible extensions. Since official updates are no longer available, ensure that any frameworks, plugins, mods, or resources you use are stable and compatible with the last supported game version.
 
-This may lead to unexpected server crashes, freezes or errors, especially when several problematic extensions interact. If you suspect that an extension is the cause, try disabling it temporarily and check if your server stays stable without it. This is a simple way to identify which extension is creating issues.
+If you suspect an extension causes instability, disable it temporarily and monitor server stability. Re-enable extensions one by one to isolate the problematic element.
 
-Make sure that all extensions you use are up to date, actively maintained and tested for compatibility with the current version of your game to avoid crashes and downtime.
-
-To isolate the root cause of crash issues, it's often helpful to disable additional content temporarily. Start with a minimal setup and check whether the problem persists. If the issue disappears, gradually reintroduce extensions, mods, or resources one by one testing after each step. This incremental approach helps identify the specific element causing trouble. This method not only narrows down potential culprits efficiently but also ensures your troubleshooting is based on evidence rather than assumptions.
+Maintaining a minimal and well-tested set of extensions helps reduce crashes and downtime.
 
 </details>
 
 ### Performance
 
-Smooth server performance is essential for a good gaming experience. Issues like lag, delays or sudden crashes often occur when the server setup is not optimal, the hardware does not match the game’s requirements or installed extensions overload the system.
-
-Typical reasons include a bad configuration, missing resources or unoptimized plugins and mods. Checking and adjusting these areas helps fix most performance-related problems and keeps your game running stable and responsive.
+Good server performance is essential for smooth gameplay. Lag, delays, or crashes often occur if the server hardware or configuration does not meet requirements or if installed extensions overload the system.
 
 <details>
   <summary>Bad server configuration</summary>
 
-Incorrect or poorly adjusted server settings can lead to higher resource usage and cause performance problems like lag or stuttering. Make sure your configuration values match the recommended settings for your game and server size. Review and adjust them if needed to keep your server running as efficiently as possible.
-
-You can change your configuration through the available settings in the **Settings** section  or directly in the configuration files under **Configs** of your web interface.
+Improper server settings can increase resource usage and cause performance issues. Verify that your configuration matches recommended values for your server size and project. Adjust settings via the **Settings** section or directly in configuration files under **Configs** in your web interface.
 
 </details>
 
 <details>
   <summary>Not meeting the game requirements</summary>
 
-To ensure your game server runs smoothly and reliably, it is essential to choose a configuration that matches the needs of your planned project. Requirements can vary greatly depending on the game, the use of extensions such as mods, plugins, or resources, and the expected number of players.
+Since BATTALION: Legacy is no longer actively supported and is free on Steam, official hosting recommendations may have changed. However, it remains important to select a server configuration that meets the needs of your player count and any additional content.
 
-ZAP-Hosting provides a recommended minimum configuration during the ordering process. These suggestions are based on typical use cases and are designed to help you avoid common performance issues such as lag, crashes, or long loading times.
+ZAP-Hosting previously provided minimum configuration recommendations during ordering, based on typical use cases.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/87ADJdwNAXxXxdk/preview)
 
-Please make sure to follow these recommendations or scale up if needed to ensure optimal stability and the best possible experience for you and your players. This is a minimum recommendation. 
-
-Depending on the scope of your project and the amount of additional content, the required resources may already be higher from the start or increase over time. In such cases, upgrading your game server package is a straightforward way to ensure continued performance and stability.
+Ensure your server hardware is sufficient to maintain stability. Upgrading your package is recommended if you experience performance degradation.
 
 </details>
 
 <details>
   <summary>Unoptimized extensions (Frameworks, Plugins, Mods, Resources)</summary>
 
-Not all extensions are created with performance in mind. Whether it's a framework, plugin, mod, or resource, poor implementation can lead to significant performance issues on your server. In many cases, the intended functionality may work but the way it's executed is inefficient, overly complex or causes unnecessary load on server resources.
+Extensions not designed with performance in mind can cause high CPU usage, memory leaks, lag, or crashes. Since official support is discontinued, community feedback and monitoring server performance are key to identifying problematic extensions.
 
-This can result in high CPU usage, memory leaks, lag, or even crashes, especially when multiple unoptimized components interact. Always ensure that extensions are actively maintained, well-documented, and tested for performance. When in doubt, consult community feedback or monitor server performance to identify problematic elements.
+Temporarily disable extensions to isolate performance issues. Reintroduce them gradually to find specific causes.
 
-To isolate the root cause of performance issues, it's often helpful to disable additional content temporarily. Start with a minimal setup and check whether the problem persists. If the issue disappears, gradually reintroduce extensions, mods, or resources one by one testing after each step. This incremental approach helps identify the specific element causing trouble, whether it's a conflict, memory leak, or excessive resource usage.
-
-This method not only narrows down potential culprits efficiently but also ensures your troubleshooting is based on evidence rather than assumptions.
+This evidence-based approach helps maintain stable and responsive gameplay.
 
 </details>
 
-
-
 ### Network
-Network issues can lead to lag, delays or connection drops. These problems can have different causes but can usually be fixed with the right settings and security measures.
+
+Network problems can cause lag, delays, or connection drops. Most issues can be resolved with proper settings and security measures.
 
 <details>
   <summary>Ping Spikes, Lag and Network Delay</summary>
 
-Ping spikes, lag, and network delays are usually the result of limited server resources, such as insufficient CPU power, RAM, or bandwidth.
+Ping spikes and lag often result from insufficient server resources like CPU, RAM, or bandwidth. High player counts or resource-heavy scripts can overload the server. Poor routing, hosting far from players, unstable connections, and outdated software also contribute.
 
-They can also occur when the server is overloaded by a high player count or resource-intensive scripts and plugins. Network related issues like poor routing, external overloading, or hosting the server far from the player base can further increase latency. 
+Improve performance by ensuring your server meets recommended specifications and selecting a location near your player base.
 
-Additionally, background processes, unstable internet connections, packet loss, and outdated or misconfigured server software can all contribute to noticeable performance problems during gameplay.
-
-If you're experiencing lag or high ping on your server, there are a few simple steps you can take to improve performance. First, make sure your server meets or exceeds the recommended specifications for your game and project. Choosing a server location close to your player base can also help reduce latency.
-
-If you suspect that routing problems or external network issues are causing delays, don’t hesitate to contact our support team. They will help you analyze the situation and find the best possible solution.
-
+If routing or external network issues are suspected, contact our support team for analysis and assistance.
 
 </details>
 
 <details>
   <summary>DDoS and Other Network Threats</summary>
 
-Game servers can occasionally become targets of malicious network activity, most notably Distributed Denial of Service (DDoS) attacks. These attacks flood the server with excessive traffic, causing lag, connection loss, or even complete downtime. In other cases, attackers may attempt to exploit network vulnerabilities or disrupt server stability through repeated connection attempts or unusual data patterns.
+Game servers may face malicious network activity such as Distributed Denial of Service (DDoS) attacks that flood the server with traffic, causing lag or downtime.
 
-While most of these threats are beyond the control of the average user, ZAP-Hosting provides built-in protection and mitigation systems to shield your server from common and advanced attacks. If you suspect your server is being targeted which causes any issues, contact our support team for assistance and further guidance.
+ZAP-Hosting includes built-in protection and mitigation to defend against common attacks. If you suspect an attack affecting your server, contact our support team for help.
 
 </details>
 
-
-
-
-
-
 ## Preventive Measures 
 
-Regular backups can avoid a lot of stress and worries. Create regular backups to ensure that in case of any issues you still have a backup of an older version when everything was still working. We offer a [backup solution](gameserver-backups.md) for our Battalion 1944 game servers, which you can use to create either manual or scheduled automatic backups. 
-
-
+Regular backups help avoid data loss and reduce stress. Use our [backup solution](gameserver-backups.md) for BATTALION: Legacy servers to create manual or scheduled automatic backups.
 
 <Button label="Access ZAP-Storage" link="https://zap-hosting.com/en/customer/home/storage/" block/>
 
-
-
-
-
-
 ## Conclusion
 
-These steps should help you solve the issue. If you find your problem listed here, the matching solution should already point you in the right direction and help you get things running again. 
+These steps should help you resolve common issues with your BATTALION: Legacy server. If your problem is listed here, the suggested solutions will guide you to a fix.
 
-If not, please don't hesitate to contact our support team for further questions or assistance, which is available daily to assist you! 🙂
+If you need further assistance, please don't hesitate to contact our support team, which is available daily to assist you! 🙂
 
 <InlineVoucher />
