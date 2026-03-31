@@ -9,9 +9,9 @@ const sidebars = {
       value: "First steps",
       defaultStyle: true
     },
-    "firststeps-register",
     "welcome",
     "firststeps-locations",
+    "firststeps-register",
     "account-backup-storage",
     {
       type: "category",
