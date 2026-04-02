@@ -1,53 +1,135 @@
 ---
 id: gameserver-backups
-title: 'Game server: Create, download and import backups'
-description: "Discover how to easily create and restore manual or automatic backups for your game server to protect your data → Learn more now"
+title: "Game server: Create, restore, download and manage backups"
+description: "Discover how to create, restore, download and manage backups for your game server to protect your data → Learn more now"
 sidebar_label: Backups
 services:
   - gameserver
   - premium-storage
 ---
 
-import YouTube from '@site/src/components/YouTube/YouTube';
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introduction
-We offer the possibility to create individual backups per click. This allows you to create backups easily and without much effort as well as import them at any time later. We offer this feature for the server files of your game server as well as for the associated databases. All backups are stored on your storage server, which includes 10GB free storage space by default. If you need more, then you can also upgrade to Premium Storage.
 
-Besides creating backups manually, backups can also be created fully automatically. Backups can be created either daily or weekly at a specified time. After restoring a backup, the server will be at the state at the time of backup creation.
+The backup system allows you to capture the complete state of your game server at any point in time. If something goes wrong, such as a bad configuration, a corrupted world file, or an accidental deletion, you can restore your server back to any saved snapshot in just a few clicks. Backups are stored on your storage server, which includes 10 GB of free storage space by default. If you need more, you can upgrade to Premium Storage.
 
-<YouTube videoId="yUDAcfyDELc" imageSrc="https://screensaver01.zap-hosting.com/index.php/s/CTWHD2Lq4QqFWQw/preview" title="How to create BACKUPS for your Server!" description="Feel like you understand better when you see things in action? We’ve got you! Dive into our video that breaks it all down for you. Whether you're in a rush or just prefer to soak up information in the most engaging way possible!"/>
+:::tip
+We recommend creating a backup before making any major changes to your server, such as updating the game version or installing mods.
+:::
 
 <InlineVoucher />
 
-## Create backups manually
+## Creating a backup
 
-Press the green **+** button next to the backup list to create a backup manually. The backup process will start afterwards,  
+You can create a backup manually at any time from your gameserver dashboard. Navigate to the **Backups** section in your game server administration and press the green **+** button next to the backup list to start the process.
+
+Optionally, you can enter a name to identify the backup more easily later. The backup captures the complete data directory of your game server. During the process, the backup status will show as **Running**. Once finished, it changes to **Completed** and the snapshot appears in the list.
+
+The total storage space used by all your backups is displayed above the backup list.
 
 :::info
-The backup creation process can take a few minutes depending on the file size of your server!
+The backup creation process can take several minutes depending on the size of your server data.
 :::
 
-## Create backups automatically
+### Backup status overview
 
-At the bottom of the page you will find more options, including the settings for automated backups. The option **Create backups automatically** needs to be enabled in order for this feature to be active. Furthermore the interval must be set. 
+| Status    | Description                                       |
+|-----------|---------------------------------------------------|
+| Pending   | The backup has been queued and will start shortly |
+| Running   | The backup is currently being created             |
+| Completed | The backup finished successfully                  |
+| Failed    | Something went wrong; the backup was not created  |
 
-![](https://screensaver01.zap-hosting.com/index.php/s/gB9n6JspdNW73bj/preview)
+## Automatic backups
 
-Depending on the game, it's usually also a good idea to back up the database as well, since important data such as scores, permissions and much more is often stored there. 
+In addition to manual backups, your game server can also create backups fully automatically using a cron schedule. You can find the automation settings at the bottom of the **Backups** page. Enable the **Create backups automatically** option and define the schedule using a cron expression to control exactly when and how often backups are created.
 
->⚠️ Having sufficient storage space is essential for creating regular backups. Make sure that you always have enough storage available. 
+![img](https://nextcloud-team.zap-hosting.com/index.php/s/cg3CrCwmWHs2BxJ/preview)
 
+:::tip Cron generator
+Not familiar with cron expressions? Use [**Crontab Guru**](https://crontab.guru/) to build and copy cron expressions with a few clicks.
+:::
 
+:::info
+Automatic backups have a minimum interval of **2 hours**. Schedules set to a shorter interval will not trigger more frequently than once every 2 hours.
+:::
 
+Automatic backups are listed together with manual backups and are labeled accordingly so you can tell them apart at a glance.
 
-## Download/delete backups
+![img](https://nextcloud-team.zap-hosting.com/index.php/s/99jnxXc756TBwsC/preview)
 
-If you want to download or delete backups you have to connect to the storage server via FTP. Here you can find instructions to use FTP: [Access via FTP](gameserver-ftpaccess.md)
-![](https://screensaver01.zap-hosting.com/index.php/s/tfJoBpaELEPKMij/preview)
+> ⚠️ Having sufficient storage space is essential for creating regular backups. Make sure that you always have enough storage available.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/q3E8XTX8gRQoasY/preview)
+## Managing backups
 
-There, you can view the user credentials of your storage server and the currently used storage space. If you are connected via FTP, you can download or delete the backups there.
+Each backup entry in the list displays the following information:
+
+- **Creation date** of the snapshot
+- **Creation type** (manual or automatic)
+- **Status** of the backup
+- **Storage location** where the backup is stored
+
+![img](https://nextcloud-team.zap-hosting.com/index.php/s/csb7yESgfScLznA/preview)
+
+From each entry you can directly **restore**, **rename**, **download**, or **delete** the backup using the corresponding action buttons.
+
+### Restoring a backup
+
+Restoring a backup replaces the current state of your game server with the data from the selected snapshot. All files that exist on your server but were not part of the snapshot will be removed.
+
+:::warning
+Restoring a backup is irreversible. Any changes made after the snapshot was created will be lost. Create a new backup first if you want to preserve the current state.
+:::
+
+Click the **Restore** button on the backup entry and confirm the action in the dialog. Your server will be restored exactly to the state it was in when the snapshot was taken.
+
+### Renaming a backup
+
+Click the **Rename** button on the backup entry to give it a more descriptive name. This helps you identify specific snapshots in the list more easily.
+
+### Downloading a backup
+
+Click the **Download** button on the backup entry. The archive will be prepared on our servers and your browser will start the download automatically once it is ready.
+
+:::info
+The downloaded file is a compressed archive of your complete server data at the time of the snapshot. You can extract it with any standard tool such as 7-Zip, WinRAR, or the built-in extractor on macOS/Linux.
+:::
+
+### Deleting a backup
+
+Click the **Delete** button on the backup entry and confirm the deletion to remove it and free up storage space.
+
+:::note
+Deleting the last remaining backup will automatically clean up the entire backup storage for your server.
+:::
+
+## Retention policy
+
+To prevent your backup storage from filling up indefinitely, the system automatically removes older snapshots based on a **retention policy**. This follows the Grandfather-Father-Son (GFS) principle and keeps the most recent snapshots while progressively thinning out older ones.
+
+The default retention settings are:
+
+| Period  | Default   | Maximum   |
+|---------|-----------|-----------|
+| Daily   | 7 days    | 90 days   |
+| Weekly  | 8 weeks   | 52 weeks  |
+| Monthly | 12 months | 60 months |
+
+This means all snapshots from the last 7 days are kept in full. For snapshots older than 7 days but within 8 weeks, only one per week is kept. For snapshots older than 8 weeks but within 12 months, only one per month is kept. Everything older than 12 months is removed automatically.
+
+### Adjusting the retention settings
+
+You can customize the retention values to fit your needs. Navigate to the **Retention Settings** tab in the **Backups** section, adjust the daily, weekly, and monthly values, and save your changes.
+
+![img](https://nextcloud-team.zap-hosting.com/index.php/s/ew2FYpeqgad7pSo/preview)
+
+:::tip
+Increasing the retention values means more snapshots are kept for longer, but this also uses more storage space.
+:::
+
+## Conclusion
+
+You now know how to create, restore, download, rename, delete, and manage backups for your game server, as well as how the retention policy and automatic backup scheduling work. For further questions or assistance, please don't hesitate to contact our support team, which is available daily to assist you! 🙂
 
 <InlineVoucher />
