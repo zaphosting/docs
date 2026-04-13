@@ -18,7 +18,7 @@
     "@docusaurus/faster": "^3.9.2",
     "@docusaurus/plugin-client-redirects": "^3.9.2",
     "@docusaurus/plugin-content-docs": "^3.9.2",
-    "@docusaurus/plugin-google-tag-manager": "^3.9.2",
+    "@docusaurus/plugin-google-tag-manager": "^3.10.0",
     "@docusaurus/plugin-pwa": "^3.9.2",
     "@docusaurus/plugin-sitemap": "^3.9.2",
     "@docusaurus/preset-classic": "^3.9.2",
