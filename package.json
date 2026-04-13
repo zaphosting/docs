@@ -23,7 +23,7 @@
     "@docusaurus/plugin-sitemap": "^3.9.2",
     "@docusaurus/preset-classic": "^3.9.2",
     "@docusaurus/theme-classic": "^3.9.2",
-    "@docusaurus/theme-mermaid": "^3.9.2",
+    "@docusaurus/theme-mermaid": "^3.10.0",
     "@mdx-js/react": "^3.1.0",
     "body-parser": "^2.2.1",
     "clsx": "^2.1.1",
