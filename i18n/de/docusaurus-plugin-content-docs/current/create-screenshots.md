@@ -1,63 +1,51 @@
 ---
 id: create-screenshots
 title: Wie und mit welchem Tool man Screenshots erstellt
-description: "Lerne, wie du Screenshots sicher erstellst und teilst – mit beliebten Tools für besseren Support → Jetzt mehr erfahren"
+description: "Lerne, wie du Screenshots sicher erstellst und teilst – mit beliebten Tools, um die Support-Kommunikation zu verbessern → Jetzt mehr erfahren"
 sidebar_label: Screenshots erstellen
 ---
 
+## Einführung
+
+Screenshots erstellen und teilen verbessert die Support-Kommunikation, indem sie klare visuelle Infos liefern. Diese Anleitung zeigt dir, wie du Screenshots auf deinem Rechner machst und direkt in Support-Tickets hochlädst.
+
 ## Screenshots erstellen
 
-Manchmal ist es nötig, Screenshots an den Support zu schicken.  
-Damit das klappt, müssen die Screenshots per Link geteilt werden.  
-Dieser Link kann zu einer eigenen Cloud oder zu einem „Web Uploader“ führen, auch Web-Screenshot-Tools genannt.
+Der beste Workflow für sicheres Teilen von Screenshots ist, sie lokal auf deinem Gerät zu erstellen und per Drag & Drop direkt in dein Support-Ticket hochzuladen. So bleiben deine Screenshots privat und werden sicher geteilt – ganz ohne externe Links.
 
-Wenn deine eigene Cloud oder das Web-Screenshot-Tool keine direkte Screenshot-Funktion bietet, kannst du den Screenshot meist mit einfachen Tools auf dem PC erstellen.  
-Unter Windows reicht das Tool „Snipping Tool“. Damit kannst du den Screenshot lokal speichern und dann hochladen.  
-Unter Linux kannst du das meist vorinstallierte Tool „Screenshots“ oder andere Tools wie „FlameShot“ nutzen, um lokale Screenshots zu erstellen, die du dann hochladen kannst.
+### Windows: Snipping Tool
 
-Hier eine kurze Beschreibung der 2 beliebtesten, frei verfügbaren Screenshot-Tools:
+Windows bringt das integrierte *Snipping Tool* mit, mit dem du einen bestimmten Bereich, ein Fenster oder den ganzen Bildschirm aufnehmen und lokal speichern kannst.
 
-:::info
-Es wird nicht empfohlen, private oder sensible Daten öffentlich zu teilen. Wenn Daten auf dem Screenshot sichtbar sind, sollten sie unkenntlich gemacht oder durch Beispiel-Daten ersetzt werden.
+1. Öffne das **Snipping Tool** über die Suche im Startmenü.
+2. Klick auf **Neu**, um einen Screenshot zu starten.
+3. Wähle den Bereich aus, den du aufnehmen möchtest.
+4. Speichere den Screenshot an einem praktischen Ort auf deinem PC.
+5. Lade die gespeicherte Datei per Drag & Drop direkt in dein Support-Ticket hoch.
+
+### Linux: Screenshot-Tool oder FlameShot
+
+Die meisten Linux-Distributionen haben ein Standard-*Screenshot*-Tool. Alternativ bieten Tools wie *FlameShot* coole Zusatzfunktionen.
+
+1. Öffne das Screenshot-Tool oder FlameShot.
+2. Wähle den Bereich oder das Fenster, das du aufnehmen willst.
+3. Speichere den Screenshot lokal ab.
+4. Lade die gespeicherte Datei per Drag & Drop direkt in dein Support-Ticket hoch.
+
+## Screenshots im Support hochladen
+
+Nachdem du den Screenshot lokal gespeichert hast, öffne dein Support-Ticket im ZAP-Hosting Panel oder Support-Portal.
+
+- Zieh die Screenshot-Datei per Drag & Drop in den Nachrichtenbereich des Tickets.
+- Warte, bis der Upload abgeschlossen ist.
+- Schick das Ticket mit dem angehängten Screenshot ab.
+
+So vermeidest du externe Links und hältst deine Daten sicher.
+
+:::info Sicher Screenshots teilen
+Teile Screenshots nicht öffentlich oder über Drittanbieter-Uploaddienste. Wenn dein Screenshot sensible oder private Infos enthält, verwische oder schwärze diese vor dem Hochladen.
 :::
 
+## Fazit
 
-### Imgur
-
-Imgur bietet einen Uploader für eigene Dateien wie Bilder/Videos.  
-Nach dem Upload wird ein Link erstellt, den du dann teilen kannst.
-
-Wichtig: Da Imgur keine Screenshot-Funktion hat, musst du den Screenshot vorher erstellen, um ihn danach hochladen zu können (siehe oben unter „Screenshots erstellen“).
-
-[Imgur-Website](https://imgur.com/upload)
-
-Upload-Option:
-
-![](https://screensaver01.zap-hosting.com/index.php/s/4sCEeKkyGEm3EXd/preview)
-
-Nach dem Upload kannst du noch kleine Bearbeitungen vornehmen.
-
-Danach kannst du den Screenshot als Post in der Community veröffentlichen (wird öffentlich gelistet) oder als „Hidden“ speichern (wird nicht öffentlich gelistet).
-
-Sobald das erledigt ist, wird dir der Link angezeigt, den du zum Teilen nutzen kannst:
-
-![](https://screensaver01.zap-hosting.com/index.php/s/dJCpsKtka9rHX6T/preview)
-
-### Lightshot
-
-Lightshot bietet keinen direkten Upload für Bilder/Screenshots an. Der Upload funktioniert nur über den eigenen Client.  
-Den Client kannst du direkt von der Website herunterladen. Er bietet auch ein paar Tools, um auf dem Screenshot etwas zu markieren, hervorzuheben oder unkenntlich zu machen.
-
-Client herunterladen: [Download](https://app.prntscr.com/en/)  
-Wichtig: Eine Version für Linux gibt es nicht.
-
-![](https://screensaver01.zap-hosting.com/index.php/s/iGEccwZZDXqLGKp/preview)
-
-Nach dem Download kannst du den Client installieren.  
-Standardmäßig kannst du dann mit der „Print“-Taste einen Screenshot erstellen oder einen Bereich auswählen.
-
-Nach der Auswahl kannst du den Screenshot noch bearbeiten.
-
-Wenn du fertig bist, kannst du den Screenshot per Klick auf die „Cloud“ hochladen.
-
-Nach dem Upload kannst du den Link kopieren und mit anderen teilen.
+Glückwunsch, du hast erfolgreich Screenshots lokal erstellt und für den Support hochgeladen. Bei Fragen oder wenn du Hilfe brauchst, steht dir unser Support-Team täglich zur Seite! 🙂

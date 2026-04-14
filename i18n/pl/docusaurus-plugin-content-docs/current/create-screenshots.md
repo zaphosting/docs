@@ -1,63 +1,53 @@
 ---
 id: create-screenshots
-title: Jak i jakim narzędziem tworzyć zrzuty ekranu
+title: Jak i jakim narzędziem robić zrzuty ekranu
 description: "Dowiedz się, jak bezpiecznie robić i udostępniać zrzuty ekranu za pomocą popularnych narzędzi, aby usprawnić komunikację z supportem → Sprawdź teraz"
 sidebar_label: Tworzenie zrzutów ekranu
 ---
 
+## Wprowadzenie
+
+Robienie i udostępnianie zrzutów ekranu pomaga usprawnić komunikację z supportem, dostarczając jasne, wizualne informacje. Ten poradnik wyjaśnia, jak zrobić zrzut ekranu na swoim komputerze i przesłać go bezpośrednio do zgłoszenia.
+
 ## Tworzenie zrzutów ekranu
 
-Czasem trzeba wysłać zrzuty ekranu do supportu.  
-Aby to było możliwe, zrzut(y) ekranu muszą być udostępnione przez link.  
-Ten link może prowadzić do własnej chmury lub do „web uploadera”, czyli narzędzi do zrzutów ekranu online.  
+Najlepszy sposób na bezpieczne udostępnianie zrzutów to ich lokalne tworzenie na urządzeniu i bezpośrednie przesłanie do zgłoszenia przez przeciągnięcie i upuszczenie. Dzięki temu zrzuty pozostają prywatne i są udostępniane bezpiecznie, bez korzystania z zewnętrznych linków.
 
-Jeśli Twoja własna chmura lub narzędzie do zrzutów online nie oferuje funkcji robienia zrzutu bezpośrednio, zazwyczaj można to zrobić na PC prostymi narzędziami.  
-Na Windows wystarczy użyć narzędzia „Snipping Tool”. Dzięki niemu zrzut ekranu można zapisać lokalnie, a potem wrzucić go do sieci.  
-Na Linuxie zwykle jest już zainstalowane narzędzie „Screenshots” lub można użyć innych, np. „FlameShot”, żeby zrobić lokalny zrzut, który potem można uploadować.
 
-Poniżej krótko opisujemy 2 najpopularniejsze narzędzia do zrzutów ekranu, które są dostępne za darmo na rynku:
 
-:::info
-Nie zalecamy publicznego udostępniania prywatnych lub wrażliwych danych. Jeśli na zrzucie widać takie dane, powinny być zamazane lub zastąpione przykładowymi.
+### Windows: Narzędzie Wycinanie
+
+Windows ma wbudowane *Narzędzie Wycinanie*, które pozwala na przechwycenie wybranego obszaru, okna lub całego ekranu i zapisanie obrazu lokalnie.
+
+1. Otwórz **Narzędzie Wycinanie**, wyszukując je w menu Start.
+2. Kliknij **Nowy**, aby rozpocząć zrzut ekranu.
+3. Wybierz obszar, który chcesz przechwycić.
+4. Zapisz zrzut w wygodnym miejscu na komputerze.
+5. Prześlij zapisany plik zrzutu bezpośrednio do zgłoszenia, przeciągając go i upuszczając w interfejsie zgłoszenia.
+
+### Linux: Narzędzie do zrzutów ekranu lub FlameShot
+
+Większość dystrybucji Linuxa ma domyślne *Narzędzie do zrzutów ekranu*. Alternatywnie, narzędzia firm trzecich, takie jak *FlameShot*, oferują zaawansowane funkcje.
+
+1. Otwórz Narzędzie do zrzutów ekranu lub FlameShot.
+2. Wybierz obszar lub okno do przechwycenia.
+3. Zapisz zrzut lokalnie.
+4. Prześlij zapisany plik zrzutu bezpośrednio do zgłoszenia, używając przeciągania i upuszczania.
+
+## Przesyłanie zrzutów do supportu
+
+Po zapisaniu zrzutu lokalnie, otwórz swoje zgłoszenie w panelu ZAP-Hosting lub portalu supportu.
+
+- Przeciągnij i upuść plik zrzutu w obszarze wiadomości zgłoszenia.
+- Poczekaj na zakończenie przesyłania.
+- Wyślij zgłoszenie z dołączonym zrzutem.
+
+Ta metoda pozwala uniknąć udostępniania zewnętrznych linków i chroni Twoje dane.
+
+:::info Bezpieczne udostępnianie zrzutów
+Unikaj publicznego udostępniania zrzutów lub korzystania z usług zewnętrznych do ich przesyłania. Jeśli zrzut zawiera wrażliwe lub prywatne dane, koniecznie je rozmyj lub zamazuj przed wysłaniem.
 :::
 
+## Podsumowanie
 
-### Imgur
-
-Imgur oferuje uploader do własnych plików, takich jak obrazki/wideo.  
-Po wrzuceniu pliku powstaje link, który można potem udostępnić innym.  
-
-Ważne: Ponieważ nie ma tam funkcji robienia zrzutów ekranu, trzeba je zrobić wcześniej, żeby potem uploadować (patrz wyżej w „Tworzenie zrzutów ekranu”).
-
-[Strona Imgur](https://imgur.com/upload)
-
-Opcja uploadu:
-
-![](https://screensaver01.zap-hosting.com/index.php/s/4sCEeKkyGEm3EXd/preview)
-
-Po wrzuceniu zrzutu można jeszcze zrobić drobne poprawki.
-
-Potem zrzut można opublikować jako Post do Community (będzie widoczny publicznie) lub jako Hidden (nie będzie widoczny publicznie).
-
-Po tym pojawi się link do udostępniania:
-
-![](https://screensaver01.zap-hosting.com/index.php/s/dJCpsKtka9rHX6T/preview)
-
-### Lightshot
-
-Lightshot nie oferuje bezpośredniego uploadu obrazów/zrzutów. Upload jest możliwy tylko przez własnego klienta.  
-Klienta można pobrać bezpośrednio ze strony, a on oferuje też kilka narzędzi do zaznaczania, podkreślania lub zamazywania fragmentów na zrzucie.  
-
-Pobierz klienta [Download](https://app.prntscr.com/en/)  
-Ważne: Nie ma wersji na Linuxa.
-
-![](https://screensaver01.zap-hosting.com/index.php/s/iGEccwZZDXqLGKp/preview)
-
-Po pobraniu klienta można go zainstalować.  
-Domyślnie po instalacji można zrobić zrzut ekranu lub wybrać obszar za pomocą przycisku „Print”.
-
-Po wybraniu obszaru zrzut można jeszcze edytować.
-
-Po skończeniu edycji, jeśli chcesz, możesz uploadować zrzut klikając na „Cloud”.
-
-Po uploadzie link można skopiować i udostępnić innym.
+Gratulacje, właśnie nauczyłeś się, jak lokalnie tworzyć i przesyłać zrzuty ekranu do supportu. W razie pytań lub potrzeby pomocy, śmiało kontaktuj się z naszym zespołem supportu, który jest dostępny codziennie, by Ci pomóc! 🙂
