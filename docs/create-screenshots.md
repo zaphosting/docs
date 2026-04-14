@@ -13,6 +13,8 @@ Creating and sharing screenshots helps improve support communication by providin
 
 The best workflow for sharing screenshots securely involves creating them locally on your device and uploading them directly to your support ticket via drag and drop. This approach ensures screenshots remain private and are shared securely without relying on external links.
 
+
+
 ### Windows: Snipping Tool
 
 Windows includes the built-in *Snipping Tool*, which allows capturing a specific area, window, or the entire screen and saving the image locally.
@@ -32,7 +34,7 @@ Most Linux distributions come with a default *Screenshot* tool. Alternatively, t
 3. Save the screenshot locally.
 4. Upload the saved screenshot file directly to your support ticket using drag and drop.
 
-## Uploading Screenshots to Support Tickets
+## Uploading Screenshots to Support
 
 After saving the screenshot locally, open your support ticket in the ZAP-Hosting panel or support portal.
 
