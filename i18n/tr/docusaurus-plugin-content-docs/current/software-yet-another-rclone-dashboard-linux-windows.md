@@ -1,7 +1,7 @@
 ---
 id: software-yet-another-rclone-dashboard-linux-windows
 title: "Software - Yet Another Rclone Dashboard (Linux/Windows)"
-description: "Yet Another Rclone Dashboard kurulumunu yapın, Linux ve Windows için modern bir rclone gui ve rclone tarayıcısıdır, rclone daemonunuzu güvenli şekilde yönetin -> Hemen öğrenin"
+description: "Learn how to set up Yet Another Rclone Dashboard, a modern rclone gui and rclone browser for Linux and Windows, using rclone rcd and release files from rclone GitHub -> Learn more now"
 sidebar_label: Software - Yet Another Rclone Dashboard (Linux/Windows)
 ---
 
@@ -9,188 +9,187 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introduction
 
-Yet Another Rclone Dashboard, `rclone rcd` için modern bir web panelidir ve uzaktaki dosyaları yönetmek, dosyalara göz atmak ve transferleri incelemek için grafiksel bir arayüz sunar. Bu rehberde, Linux veya Windows üzerinde nasıl kurulum yapacağınızı ve mevcut Rclone kurulumunuza nasıl bağlanacağınızı öğreneceksiniz.
+Yet Another Rclone Dashboard, `rclone rcd` için modern bir web panelidir ve dosya gezintisi, uzak bağlantıları görüntüleme ve transfer yönetimi için grafiksel arayüz sunar. Bu rehberde, yazılımın ne işe yaradığını, gereksinimlerini ve Linux veya Windows üzerinde desteklenen kurulum yöntemleriyle nasıl çalıştırılacağını öğreneceksiniz.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
 
 ## Preparation
 
-Başlamadan önce, sisteminizin temel gereksinimleri karşıladığından ve Rclone’un zaten kurulu olduğundan emin olun.
+Başlamadan önce, Yet Another Rclone Dashboard sadece Rclone uzaktan kontrol daemonu için bir ön yüz olduğundan, çalışan bir [Rclone](https://rclone.org/) kurulumunuzun olması gerekir.
 
-### Requirements
+### Gereksinimler
 
-| Bileşen | Gereksinim |
+Aşağıdaki gereksinimler mevcut proje bilgileri ve kurulum taslağına dayanmaktadır.
+
+| Gereksinim | Detaylar |
 | --- | --- |
 | İşletim sistemi | Linux veya Windows |
-| Rclone sürümü | `v1.72.0` veya daha yenisi önerilir |
-| Erişim yöntemi | Yerel kabuk, SSH veya RDP |
+| Gerekli yazılım | `rclone` |
+| Önerilen Rclone sürümü | `v1.72.0` veya sonrası |
+| Opsiyonel yazılım | Kurulum yöntemine bağlı olarak `Docker`, `Nginx` veya `Caddy` |
 | Varsayılan port | `5572/tcp` |
-| Opsiyonel | Nginx veya Caddy gibi ters proxy |
+| İnternet erişimi | Sürüm indirmek veya web fetch yöntemi kullanmak için gerekli |
 
-### Kurulum öncesi gerekenler
+### Dashboard hangi bileşenlere bağlıdır
 
-Şunlara ihtiyacınız var:
+Yet Another Rclone Dashboard, Rclone’un yerini almaz. Bunun yerine, Rclone’un *uzaktan kontrol daemonu* modu olan `rclone rcd` ile bağlantı kurar.
 
-- Çalışır durumda bir [Rclone](https://rclone.org/) kurulumu
-- En az bir yapılandırılmış Rclone uzak depo (örneğin *rclone Google Drive*) erişimi için
-- Uzaktan bağlanmak istiyorsanız açık veya yönlendirilmiş `5572` portu
-- Panele erişmek için bir tarayıcı
+| Bileşen | Görev |
+| --- | --- |
+| Yet Another Rclone Dashboard | Web ön yüzü |
+| `rclone rcd` | Arka uç API ve dosya işlemleri |
+| Rclone uzak bağlantıları | Google Drive gibi yapılandırılmış bulut depolama bağlantılarınız |
 
-:::info Rclone Gereksinimi
-Yet Another Rclone Dashboard sadece `rclone rcd` için bir ön yüzdür. Rclone’un kendisini değiştirmez, bu yüzden önce Rclone’u kurup yapılandırmanız gerekir.
+:::info Rclone Gereklidir
+Bu dashboard tek başına kullanılamaz. `rclone` kurulu olmalı ve uzaktan kontrol arayüzü etkinleştirilmiş daemon modunda çalıştırılmalıdır.
 :::
 
-### Bu rehberde kullanılan önemli yer tutucular
+### Bu rehberde kullanılan yer tutucu değerler
 
-Aşağıdaki komutlarda kendi değerlerinizle değiştirmeniz gereken yer tutucular kullanılmıştır.
+Rehberdeki bazı komutlarda yer tutucular kullanılmıştır. Komutları çalıştırmadan önce bunları kendi değerlerinizle değiştirin.
 
 | Yer Tutucu | Anlamı |
 | --- | --- |
-| `[your_dashboard_path]` | Panel dosyalarının bulunduğu yol |
+| `[your_user]` | Rclone uzaktan kontrol kimlik doğrulama kullanıcı adı |
+| `[your_password]` | Rclone uzaktan kontrol kimlik doğrulama şifresi |
 | `[your_server_ip]` | Sunucunuzun genel veya özel IP adresi |
 | `[your_domain]` | Ters proxy erişimi için kullanılan alan adı |
-| `[your_rc_user]` | Rclone RC kimlik doğrulama kullanıcı adı |
-| `[your_rc_password]` | Rclone RC kimlik doğrulama şifresi |
+| `[your_build_path]` | Dashboard dosyalarının açıldığı dizin yolu |
 
-## Yet Another Rclone Dashboard Hakkında
+## Mevcut kurulum yöntemleri
 
-Yet Another Rclone Dashboard, [GitHub](https://github.com/outlook84/yet-another-rclone-dashboard) üzerinde yayınlanan statik bir web ön yüzüdür. Proje README dosyasına göre, `rclone rcd` için tasarlanmıştır ve şu özellikleri destekler:
-
-- Rclone’u daemon modunda bağlama
-- Birden fazla bağlantı profili yönetimi
-- Sistem bilgisi ve durumunu inceleme
-- Dizinlerde gezinme
-- Uzak depolar ve yapılandırma verileri ile çalışma
-
-Ön yüz olduğu için gerçek dosya işlemleri hala Rclone tarafından yapılır. Bu nedenle panel, çalışan bir `rclone rcd` örneğine bağlıdır.
-
-## Kurulum Yöntemleri
-
-Panele erişim şeklinize bağlı olarak farklı kurulum yöntemleri vardır. En yaygın yöntemler, Rclone’u statik dosyalarla doğrudan kullanmak veya Rclone’un web GUI’yi otomatik çekmesini sağlamaktır.
-
-### Kurulum genel bakış
+Yet Another Rclone Dashboard’u erişim tercihinize göre farklı şekillerde çalıştırabilirsiniz.
 
 | Yöntem | En uygun kullanım | Notlar |
 | --- | --- | --- |
-| `--rc-files` | Manuel kurulumlar | Panel dosyalarını kendiniz indirip açarsınız |
-| `--rc-web-gui` ve `--rc-web-fetch-url` | Hızlı kurulum | Rclone en son panel sürümünü otomatik çeker |
-| Harici web sunucusu | Özel barındırma | Nginx veya Caddy ile kullanışlı |
-| Kimlik doğrulamalı ters proxy | Gelişmiş kurulumlar | Güvenli uzaktan erişim için ideal |
+| `--rc-files` | Manuel kurulumlar | Çıkarılmış statik build dosyalarını kullanır |
+| `--rc-web-gui` ve `--rc-web-fetch-url` | Hızlı kurulum | Rclone’un en son dashboard sürümünü otomatik çekmesini sağlar |
+| Nginx veya Caddy gibi web sunucusu | Özel barındırma | Statik ön yüzü ayrı sunar |
+| Dış kimlik doğrulamalı ters proxy | Gelişmiş kurulumlar | Merkezi kimlik doğrulama için uygundur |
 
-## Paneli Manuel İndirme
+## Dashboard sürümünü indir
 
-Kurulan sürüm üzerinde tam kontrol istiyorsanız, projenin GitHub sürümlerinden en son sürümü manuel indirebilirsiniz.
+Manuel `--rc-files` yöntemi veya kendi web sunucunuzla ön yüzü sunmak istiyorsanız, önce projenin GitHub sürümlerinden en son sürüm arşivini indirin.
 
-### Linux
+Resmi proje kaynağı: [Yet Another Rclone Dashboard on GitHub](https://github.com/outlook84/yet-another-rclone-dashboard)
 
-Panel için bir dizin oluşturun, en son sürüm arşivini indirin ve açın.
+Referans alınan sürüm verisi zamanında en son sürüm `v0.3.8` ve içinde `yet-another-rclone-dashboard-v0.3.8.zip` dosyası bulunur.
+
+### Linux indirme örneği
 
 ```bash
-mkdir -p [your_dashboard_path]
-cd [your_dashboard_path]
 wget https://github.com/outlook84/yet-another-rclone-dashboard/releases/download/v0.3.8/yet-another-rclone-dashboard-v0.3.8.zip
-unzip yet-another-rclone-dashboard-v0.3.8.zip
+unzip yet-another-rclone-dashboard-v0.3.8.zip -d [your_build_path]
 ```
 
-### Windows
+### Windows indirme örneği
 
-Windows’ta resmi GitHub sürüm sayfasından arşiv dosyasını indirip aşağıdaki gibi bir klasöre açın:
+Windows’ta GitHub sürüm sayfasından `.zip` dosyasını indirip aşağıdaki gibi bir klasöre çıkarabilirsiniz:
 
 ```text
-C:\rclone-dashboard
+C:\yet-another-rclone-dashboard
 ```
 
-:::note Sürüm Notu
-Yazım tarihi itibarıyla en son doğrulanmış sürüm `v0.3.8`’dir. Daha yeni bir sürüm varsa onu da kullanabilirsiniz.
+:::note Sürüm Versiyon Bilgisi
+Sürüm zamanla değişebilir. Daha yeni bir sürüm varsa, burada verilen örnek sürüm yerine projenin GitHub sayfasındaki güncel sürüm dosyasını kullanın.
 :::
 
-## Rclone ile Paneli Başlatma
+## Rclone rc-files ile dashboard’u çalıştır
 
-Dosyalar hazır olduktan sonra `rclone rcd`’yi başlatabilir ve paneli Rclone üzerinden sunabilirsiniz.
+Ön yüz dosyalarını indirdiyseniz ve çıkardıysanız, bu en doğrudan yöntemdir.
 
-### Linux’te yerel erişim
-
-Paneli sadece aynı sistemden yerel olarak kullanmak istiyorsanız bu yöntemi kullanın.
+### Linux örneği
 
 ```bash
 rclone rcd \
-  --rc-files="[your_dashboard_path]" \
+  --rc-files="[your_build_path]" \
+  --rc-web-gui-no-open-browser \
+  --rc-user="[your_user]" \
+  --rc-pass="[your_password]" \
+  --rc-addr=0.0.0.0:5572 \
+  --rc-allow-origin=http://[your_server_ip]:5572
+```
+
+### Windows örneği
+
+```powershell
+rclone rcd `
+  --rc-files="C:\yet-another-rclone-dashboard" `
+  --rc-web-gui-no-open-browser `
+  --rc-user="[your_user]" `
+  --rc-pass="[your_password]" `
+  --rc-addr=0.0.0.0:5572 `
+  --rc-allow-origin=http://[your_server_ip]:5572
+```
+
+### Yerel masaüstü örneği
+
+Dashboard’u sadece aynı sistemde yerel olarak kullanmak isterseniz, `127.0.0.1` adresine bağlayabilirsiniz.
+
+```bash
+rclone rcd \
+  --rc-files="[your_build_path]" \
   --rc-no-auth \
   --rc-serve \
   --rc-addr=127.0.0.1:5572 \
   --rc-allow-origin=http://127.0.0.1:5572
 ```
 
-### Linux’te uzaktan erişim
-
-Başka bir cihazdan ağ üzerinden bağlanmak istiyorsanız bu yöntemi kullanın.
-
-```bash
-rclone rcd \
-  --rc-files="[your_dashboard_path]" \
-  --rc-web-gui-no-open-browser \
-  --rc-user="[your_rc_user]" \
-  --rc-pass="[your_rc_password]" \
-  --rc-addr=0.0.0.0:5572 \
-  --rc-allow-origin=http://[your_server_ip]:5572
-```
-
-### Windows’ta yerel erişim
-
-Komut İstemi veya PowerShell’i açıp şu komutu çalıştırın:
-
-```powershell
-rclone rcd --rc-files="[your_dashboard_path]" --rc-no-auth --rc-serve --rc-addr=127.0.0.1:5572 --rc-allow-origin=http://127.0.0.1:5572
-```
-
-### Windows’ta uzaktan erişim
-
-Uzaktan erişim için şu komutu kullanın:
-
-```powershell
-rclone rcd --rc-files="[your_dashboard_path]" --rc-web-gui-no-open-browser --rc-user="[your_rc_user]" --rc-pass="[your_rc_password]" --rc-addr=0.0.0.0:5572 --rc-allow-origin=http://[your_server_ip]:5572
-```
-
-:::caution Korumasız Rclone GUI Açmayın
-Rclone’u `0.0.0.0` adresine bağlarsanız `--rc-no-auth` kullanmayın. Uzaktan erişimi mutlaka kimlik doğrulama veya ters proxy ile koruyun.
+:::caution Yetkisiz Rclone’u Açmayın
+`--rc-no-auth` sadece `127.0.0.1` üzerinde yerel test için kullanılmalıdır. Rclone’u `0.0.0.0` adresine bağlarsanız, mutlaka kimlik doğrulama veya düzgün yapılandırılmış bir ters proxy ile koruyun.
 :::
 
-## Rclone WebGUI Fetcher Kullanımı
+## Rclone web fetch ile dashboard’u çalıştır
 
-Rclone, paneli GitHub’dan otomatik olarak da çekebilir. Dosyaları manuel indirmek ve açmak istemiyorsanız bu yöntem faydalıdır.
+Rclone, desteklenen kurulumlarda web GUI’yi otomatik çekebilir ve bu da kurulumu kolaylaştırır.
 
-### Yerel mod
-
-```bash
-rclone rcd \
-  --rc-web-gui \
-  --rc-web-fetch-url='https://api.github.com/repos/outlook84/yet-another-rclone-dashboard/releases/latest' \
-  --rc-no-auth \
-  --rc-serve \
-  --rc-addr=127.0.0.1:5572 \
-  --rc-allow-origin=http://127.0.0.1:5572
-```
-
-### Uzaktan mod
+### Linux örneği
 
 ```bash
 rclone rcd \
   --rc-web-gui \
   --rc-web-fetch-url='https://api.github.com/repos/outlook84/yet-another-rclone-dashboard/releases/latest' \
   --rc-web-gui-no-open-browser \
-  --rc-user="[your_rc_user]" \
-  --rc-pass="[your_rc_password]" \
+  --rc-user="[your_user]" \
+  --rc-pass="[your_password]" \
   --rc-addr=0.0.0.0:5572 \
   --rc-allow-origin=http://[your_server_ip]:5572
 ```
 
-:::tip Otomatik Güncellemeler
-Bu yöntem, Rclone’un en son panel sürümünü otomatik çekmesini sağlar. Yeni bir rclone gui kurulumu test etmek için genellikle en hızlı seçenektir.
+### Windows örneği
+
+```powershell
+rclone rcd `
+  --rc-web-gui `
+  --rc-web-fetch-url="https://api.github.com/repos/outlook84/yet-another-rclone-dashboard/releases/latest" `
+  --rc-web-gui-no-open-browser `
+  --rc-user="[your_user]" `
+  --rc-pass="[your_password]" `
+  --rc-addr=0.0.0.0:5572 `
+  --rc-allow-origin=http://[your_server_ip]:5572
+```
+
+### Önemli bayrakların açıklaması
+
+| Bayrak | Görev |
+| --- | --- |
+| `--rc-web-gui` | Rclone’da web GUI desteğini etkinleştirir |
+| `--rc-web-fetch-url` | Rclone’u en son sürüm meta verisine yönlendirir |
+| `--rc-user` | Giriş kullanıcı adını ayarlar |
+| `--rc-pass` | Giriş şifresini ayarlar |
+| `--rc-addr` | Dinlenecek IP adresi ve portu belirler |
+| `--rc-allow-origin` | Tarayıcı isteklerine izin verilen URL’yi belirtir |
+| `--rc-web-gui-no-open-browser` | Otomatik tarayıcı açılmasını engeller |
+
+:::tip Origin Değerini Tam Eşleştirin
+`--rc-allow-origin` değerini tarayıcıda kullandığınız tam URL ile, doğru protokol (`http://` veya `https://`) dahil olacak şekilde ayarlayın. Bu, ters proxy kullanırken özellikle önemlidir.
 :::
 
-## Paneli Web Sunucusu ile Sunma
+## Dashboard’u web sunucusu ile sunma
 
-Yet Another Rclone Dashboard statik bir ön yüz olduğu için standart bir web sunucusuyla da barındırabilirsiniz. `rclone rcd` ise arka planda ayrı çalışmaya devam eder.
+Yet Another Rclone Dashboard statik bir web uygulaması olduğundan, Nginx veya Caddy gibi standart bir web sunucusuyla da barındırabilirsiniz.
+
+Bu yöntem, ön yüzü bir port veya alan adı üzerinde sunarken Rclone’u arka planda ayrı çalıştırmak istediğinizde faydalı olabilir.
 
 ### Nginx örneği
 
@@ -200,7 +199,7 @@ server {
     server_name [your_domain];
 
     location / {
-        root [your_dashboard_path];
+        root [your_build_path];
         index index.html;
         try_files $uri $uri/ /index.html;
     }
@@ -211,174 +210,179 @@ server {
 
 ```caddy
 [your_domain] {
-    root * [your_dashboard_path]
+    root * [your_build_path]
     file_server
 }
 ```
 
-Bu yöntem, zaten ters proxy kullanıyorsanız veya panel uygulamanız için alan adı bazlı daha temiz erişim istiyorsanız faydalıdır.
+### Dikkat edilmesi gerekenler
 
-## Gelişmiş Ters Proxy Kurulumu
+Ön yüzü ayrı sunarsanız, Rclone arka planda uyumlu `rc` ayarlarıyla çalışmaya devam etmelidir. Ayrıca tarayıcı isteklerinin ön yüz URL’nizden gelmesine izin vermelisiniz.
 
-Dış kimlik doğrulama katmanı ile erişimi güvenceye almak isterseniz, Rclone önünde ters proxy kullanabilir ve doğrulanmış kullanıcıyı başlık üzerinden iletebilirsiniz.
+| Ayar | Örnek |
+| --- | --- |
+| Ön yüz URL’si | `https://[your_domain]` |
+| Rclone bağlama adresi | `127.0.0.1:5572` veya `0.0.0.0:5572` |
+| İzin verilen origin | `https://[your_domain]` |
 
-### Rclone komutu
+## Gelişmiş kurulum: ters proxy kimlik doğrulaması
+
+Gelişmiş ortamlarda, dashboard’u ters proxy arkasına koyup dış kimlik doğrulama kapısı kullanabilirsiniz. Sağlanan örnek, Rclone’un `--rc-user-from-header` seçeneğini referans alır.
+
+### Rclone örneği
 
 ```bash
 rclone rcd \
   --rc-serve \
-  --rc-files='[your_dashboard_path]' \
+  --rc-files='[your_build_path]' \
   --rc-user-from-header X-Remote-User \
   --rc-addr=127.0.0.1:5572 \
   --rc-allow-origin=https://[your_domain]
 ```
 
-### Caddy örneği, kullanıcı başlığı ile
+### Caddy örneği
 
 ```caddy
 @rclone host [your_domain]
 handle @rclone {
-    reverse_proxy 127.0.0.1:5572 {
-        header_up X-Remote-User {http.auth.user.id}
-        header_up -Authorization
-    }
+        authorize with admins_policy
+        reverse_proxy 127.0.0.1:5572 {
+                header_up X-Remote-User {http.auth.user.sub}
+                header_up -Authorization
+        }
 }
 ```
 
-:::info Gelişmiş Kimlik Doğrulama
-Kesin kimlik doğrulama geçidi uygulaması ortamınıza bağlıdır. Yukarıdaki örnek sadece Rclone ve ters proxy entegrasyon modelini gösterir. Kimlik sağlayıcı veya Caddy eklentisi gibi ek yazılımlar kullanıyorsanız, onları resmi dokümantasyonlarına göre yapılandırın.
+:::info Gelişmiş Kimlik Doğrulama Kurulumu
+Bu yöntem ters proxy ve kimlik doğrulama altyapınıza bağlıdır. `caddy-security` gibi araçların tam yapılandırması bu rehberin kapsamı dışındadır, ancak yukarıdaki örnek dashboard’un doğrulanmış kullanıcı başlığı almasını gösterir.
 :::
 
-## Konfigürasyon Referansı
+## Erişim ve güvenlik yapılandırması
 
-Panel ile kullanılan en önemli Rclone RC seçenekleri aşağıdadır.
+Dashboard’u kullanmaya başlamadan önce en önemli erişim ayarlarını gözden geçirin.
 
-| Seçenek | Amacı |
+### Önerilen yapılandırma değerleri
+
+| Seçenek | Öneri |
 | --- | --- |
-| `--rc-files` | Panel dosyalarını sunar |
-| `--rc-web-gui` | Rclone WebGUI desteğini açar |
-| `--rc-web-fetch-url` | Panel sürüm bilgisini GitHub’dan çeker |
-| `--rc-no-auth` | Kimlik doğrulamayı kapatır, sadece yerel kullanım için uygundur |
-| `--rc-user` | Rclone RC kullanıcı adını belirler |
-| `--rc-pass` | Rclone RC şifresini belirler |
-| `--rc-addr` | Dinleme adresi ve portunu tanımlar |
-| `--rc-allow-origin` | Tarayıcı erişimine izin verilen URL’yi belirtir |
-| `--rc-web-gui-no-open-browser` | Otomatik tarayıcı açmayı engeller |
-| `--rc-user-from-header` | Proxy başlığından doğrulanmış kullanıcıyı kabul eder |
+| `--rc-user` | `zaphosting` gibi özel bir kullanıcı adı belirleyin |
+| `--rc-pass` | Güçlü bir şifre kullanın |
+| `--rc-addr` | Mümkünse ters proxy arkasında `127.0.0.1:5572` kullanın |
+| `--rc-allow-origin` | Tarayıcıda kullanılan tam URL ile eşleşsin |
+| Güvenlik duvarı | Doğrudan erişim gerekiyorsa sadece `5572/tcp` açın |
 
-### Doğru `--rc-allow-origin` seçimi
+### Güvenlik en iyi uygulamaları
 
-`--rc-allow-origin` değerini tarayıcıda kullandığınız tam URL olarak ayarlayın.
+- Hizmeti ağ üzerinden açarken kimlik doğrulama kullanın
+- Genel erişim için HTTPS destekli ters proxy tercih edin
+- Mümkün olduğunca `5572/tcp` doğrudan erişimini sınırlandırın
+- Bulut depolama erişimi için Rclone’u güncel tutun (örneğin `rclone google drive`)
 
-| Erişim türü | Örnek değer |
-| --- | --- |
-| Yerel erişim | `http://127.0.0.1:5572` |
-| IP tabanlı uzaktan erişim | `http://[your_server_ip]:5572` |
-| HTTPS ile ters proxy | `https://[your_domain]` |
-
-:::caution Origin Eşleşmeli
-`--rc-allow-origin` tarayıcıda kullandığınız URL ile eşleşmezse, tarayıcı güvenlik kısıtlamaları nedeniyle panel düzgün yüklenmeyebilir.
+:::danger Genel Açık Riskleri
+Rclone uzaktan kontrol erişimi güçlü dosya ve uzak yönetim yetenekleri sağlar. Kimlik doğrulama ve uygun ağ kısıtlamaları olmadan genel erişime açmayın.
 :::
 
-## Panele Erişim ve Doğrulama
+## Dashboard’u başlat ve doğrula
 
-`rclone rcd` çalışmaya başladıktan sonra, paneli tarayıcınızda açın.
+Seçtiğiniz kurulum tamamlandıktan sonra `rclone rcd`’yi başlatın ve dashboard’u tarayıcınızda açın.
 
-### Yaygın erişim URL’leri
+### Erişim örnekleri
 
 | Senaryo | URL |
 | --- | --- |
-| Yerel makine | `http://127.0.0.1:5572` |
-| IP ile uzaktan | `http://[your_server_ip]:5572` |
-| Ters proxy | `https://[your_domain]` |
+| Yerel erişim | `http://127.0.0.1:5572` |
+| Sunucu doğrudan erişimi | `http://[your_server_ip]:5572` |
+| Ters proxy erişimi | `https://[your_domain]` |
 
-### Başlatma sonrası kontrol edilecekler
+### Görmeniz gerekenler
 
-Sayfa açıldıktan sonra şunları doğrulayın:
+Her şey doğru yapılandırıldıysa, Yet Another Rclone Dashboard arayüzü açılır ve şunları yapabilirsiniz:
 
-- Yet Another Rclone Dashboard arayüzü yükleniyor
-- Yapılandırılmış uzaklar görünür durumda
-- Rclone tarayıcı görünümünde dosya gezintisi çalışıyor
-- Transfer ve sistem bilgi panelleri doğru tepki veriyor
+- Rclone daemonuna bağlanmak
+- Yapılandırılmış uzak bağlantıları incelemek
+- Dosyalarda gezinti yapmak
+- Transferleri görüntülemek
+- Ayarları ve sistem bilgilerini kontrol etmek
 
-Sayfa açılmazsa önce Rclone konsol çıktısını kontrol edin. Kimlik doğrulama hataları, origin uyuşmazlıkları ve port bağlama sorunları en yaygın nedenlerdir.
+Sayfa açılmazsa aşağıdakileri kontrol edin:
 
-## Güvenlik Önerileri
-
-Bulut depolamanız için panel çalıştırmak, özellikle internet üzerinden erişim sağlanıyorsa, dikkatli güvenlik ayarları gerektirir.
-
-### Önerilen güvenlik uygulamaları
-
-| Öneri | Sebep |
+| Kontrol | Neden önemli |
 | --- | --- |
-| Uzaktan erişimde `--rc-user` ve `--rc-pass` kullanın | Yetkisiz erişimi engeller |
-| Ters proxy üzerinden HTTPS tercih edin | Kimlik bilgilerini korur |
-| Mümkünse `127.0.0.1` adresine bağlayın | Açığı azaltır |
-| `5572/tcp` portunu firewall ile sınırlandırın | Saldırı yüzeyini kısıtlar |
-| Halka açık ağlarda `--rc-no-auth` kullanmayın | Rclone örneğinizi açık erişime kapatır |
+| Rclone işlemi çalışıyor mu | Dashboard arka uç daemonuna ihtiyaç duyar |
+| `5572` portu erişilebilir mi | Doğrudan erişim için gereklidir |
+| `--rc-allow-origin` doğru mu | Tarayıcı erişim sorunlarını önler |
+| Kullanıcı adı ve şifre doğru mu | Kimlik doğrulama için zorunludur |
+| Ters proxy başlıkları doğru mu | Gelişmiş kimlik doğrulama için önemlidir |
 
-:::danger Halka Açık Erişim Riski
-Korumasız ve açık bir `rclone rcd` örneği, yapılandırılmış uzaklarınıza ve dosyalarınıza erişim sağlar. “rclone güvenli mi?” sorusunun cevabı, servisi ne kadar güvenli açtığınıza ve doğruladığınıza bağlıdır.
-:::
+## Sorun giderme
 
-## Sorun Giderme
+### Tarayıcı bağlanamıyor
 
-Panel beklediğiniz gibi çalışmazsa aşağıdaki kontrolleri yapın.
+Tarayıcınız dashboard’u açamıyorsa, Rclone’un beklenen adres ve portta dinlediğini doğrulayın.
 
-### Panel sayfası açılmıyor
-
-Olası nedenler:
-
-- `rclone rcd` çalışmıyor
-- `5572` portu firewall tarafından engellenmiş
-- Servis `127.0.0.1` adresine bağlı, ama uzaktan bağlanmaya çalışıyorsunuz
-
-### Arayüz yükleniyor ama işlemler başarısız
-
-Olası nedenler:
-
-- Geçersiz `--rc-user` veya `--rc-pass`
-- Yanlış `--rc-allow-origin`
-- Rclone uzak yapılandırması eksik veya bozuk
-
-### Panel ters proxy üzerinden yüklenmiyor
-
-Olası nedenler:
-
-- Proxy hedefi yanlış backend’e işaret ediyor
-- HTTPS URL’si `--rc-allow-origin` ile uyuşmuyor
-- Gerekli başlıklar doğru iletilmiyor
-
-### Faydalı kontroller
-
-Linux:
+Linux’ta dinlenen portları şu komutla kontrol edebilirsiniz:
 
 ```bash
 ss -tulpn | grep 5572
 ```
 
-Windows PowerShell:
+Windows’ta ise:
 
 ```powershell
 netstat -ano | findstr 5572
 ```
 
-Yerel uç noktayı test edin:
+### Kimlik doğrulama başarısız
 
-```bash
-curl http://127.0.0.1:5572
-```
+Giriş yapılamıyorsa:
 
-:::tip Önce Rclone Loglarını Kontrol Edin
-Başlatma ve bağlantı sorunlarının çoğu, `rclone rcd`’nin çalıştığı terminal veya servis loglarında doğrudan görünür. Yapılandırmanızı değiştirmeden önce mutlaka bu logları inceleyin.
+- `--rc-user` ve `--rc-pass` değerlerini kontrol edin
+- Ters proxy’nin gerekli başlıkları kaldırmadığından emin olun
+- Uzak veya genel arayüzlerde `--rc-no-auth` kullanmaktan kaçının
+
+### Ön yüz yükleniyor ama işlemler başarısız
+
+Bu genellikle origin veya arka uç iletişim sorununa işaret eder.
+
+Aşağıdaki değerleri dikkatle kontrol edin:
+
+- `--rc-allow-origin`
+- `--rc-addr`
+- ters proxy hedef adresi
+- dashboard’a erişmek için kullanılan tarayıcı URL’si
+
+:::tip Daha Hızlı Teşhis İçin Logları Kullanın
+Dashboard beklediğiniz gibi davranmıyorsa, önce Rclone konsol çıktısını inceleyin. Kimlik doğrulama, bağlama ve origin sorunları genellikle hemen orada görünür.
 :::
 
-## Ek Notlar
+## Yazılım referansı
 
-Yet Another Rclone Dashboard, 10 Nisan 2026’da Self-Host Weekly’de yer aldı ve GitHub’da açık şekilde barındırılıyor. Yazım tarihi itibarıyla proje, Rclone’u tarayıcı tabanlı bir panelle yönetmeyi kolaylaştıran ön yüz odaklı bir çözümdür.
+### Proje detayları
 
-Docker gibi bazı özel ortamlar için ek kurulum yöntemleri mümkün olabilir, ancak sağlanan kaynaklarda doğrulanmış Docker talimatları bulunmamaktadır. Bu yüzden bu rehber sadece mevcut proje bilgileriyle doğrudan desteklenen kurulum yöntemlerini kapsar.
+| Öğe | Değer |
+| --- | --- |
+| İsim | Yet Another Rclone Dashboard |
+| Kategori | Ön yüz |
+| Kaynak | [GitHub deposu](https://github.com/outlook84/yet-another-rclone-dashboard) |
+| Referans sürüm | `v0.3.8` |
+| Sürüm dosyası | `yet-another-rclone-dashboard-v0.3.8.zip` |
+| Önerilen arka uç | `rclone v1.72.0` veya sonrası |
+
+### Proje sayfasından bilinen fonksiyonlar
+
+Referans alınan depo bilgilerine göre dashboard aşağıdaki alanları destekler:
+
+- birden fazla bağlantı profili
+- Rclone sistem bilgisi ve durum özeti
+- uzak bağlantı inceleme
+- Rclone yapılandırma içe/dışa aktarma
+- dosya gezintisi ve filtreleme
+- transfer ile ilgili görünümler
+
+:::note Özellik Kullanılabilirliği
+Özellik davranışları sürümler arasında değişebilir. Daha yeni sürüm için kesin fonksiyon detayları gerekiyorsa, GitHub’daki proje değişiklik günlüğü ve sürüm notlarını kontrol edin.
+:::
 
 ## Conclusion
 
-Tebrikler, Yet Another Rclone Dashboard’u Linux veya Windows üzerinde başarıyla kurup yapılandırdınız. Daha fazla soru veya destek için, günlük olarak hizmet veren destek ekibimizle iletişime geçmekten çekinmeyin! 🙂
+Congratulations, you have successfully set up Yet Another Rclone Dashboard on Linux or Windows. For further questions or assistance, please don't hesitate to contact our support team, which is available daily to assist you! 🙂
