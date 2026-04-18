@@ -1,7 +1,7 @@
 ---
 id: software-yet-another-rclone-dashboard-linux-windows
 title: "Software - Yet Another Rclone Dashboard (Linux/Windows)"
-description: "Learn how to set up Yet Another Rclone Dashboard, a modern rclone gui and rclone browser for Linux and Windows, using rclone rcd and release files from rclone GitHub -> Learn more now"
+description: "Dowiedz się, jak skonfigurować Yet Another Rclone Dashboard jako nowoczesny interfejs GUI i przeglądarkę rclone dla systemów Linux i Windows. -> Dowiedz się więcej teraz"
 sidebar_label: Software - Yet Another Rclone Dashboard (Linux/Windows)
 ---
 
@@ -9,189 +9,177 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introduction
 
-Yet Another Rclone Dashboard to nowoczesny webowy panel do `rclone rcd`, który oferuje graficzny interfejs do przeglądania plików, podglądu zdalnych lokalizacji i zarządzania transferami. W tym poradniku dowiesz się, do czego służy to oprogramowanie, czego wymaga i jak uruchomić je na Linuxie lub Windowsie, korzystając z obsługiwanych metod wdrożenia.
+Yet Another Rclone Dashboard to nowoczesny webowy panel do `rclone rcd`, który daje Ci graficzny interfejs do przeglądania plików, inspekcji zdalnych lokalizacji i zarządzania konfiguracją Rclone. W tym poradniku nauczysz się, jak go uruchomić na Linuxie lub Windowsie i bezpiecznie połączyć z działającym demonem Rclone.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
 
 ## Preparation
 
-Zanim zaczniesz, potrzebujesz działającej instalacji [Rclone](https://rclone.org/), ponieważ Yet Another Rclone Dashboard to tylko frontend dla demona zdalnego sterowania Rclone.
+Zanim zaczniesz, upewnij się, że Twój system spełnia podstawowe wymagania i że Rclone jest już zainstalowany.
 
-### Wymagania
-
-Poniższe wymagania bazują na dostępnych informacjach o projekcie i szkicu konfiguracji.
+### Requirements
 
 | Wymaganie | Szczegóły |
-| --- | --- |
+|---|---|
 | System operacyjny | Linux lub Windows |
-| Wymagane oprogramowanie | `rclone` |
-| Zalecana wersja Rclone | `v1.72.0` lub nowsza |
-| Opcjonalne oprogramowanie | `Docker`, `Nginx` lub `Caddy` w zależności od metody wdrożenia |
+| Wersja Rclone | Zalecana `v1.72.0` lub nowsza |
+| Metoda dostępu | Konsola lokalna, SSH lub RDP |
+| Sieć | Dostęp do URL panelu z przeglądarki |
 | Domyślny port | `5572/tcp` |
-| Dostęp do internetu | Wymagany, jeśli chcesz pobierać wersje lub korzystać z metody web fetch |
 
-### Od czego zależy dashboard
+### What you need to know first
 
-Yet Another Rclone Dashboard nie zastępuje Rclone. Łączy się z `rclone rcd`, czyli *demonem zdalnego sterowania* Rclone.
-
-| Komponent | Funkcja |
-| --- | --- |
-| Yet Another Rclone Dashboard | Webowy frontend |
-| `rclone rcd` | Backend API i operacje na plikach |
-| Zdalne lokalizacje Rclone | Twoje skonfigurowane połączenia z chmurą, np. Google Drive |
+Yet Another Rclone Dashboard nie jest samodzielną usługą storage. To frontend dla `rclone rcd`, czyli trybu demona zdalnego sterowania Rclone. Oznacza to, że musisz uruchomić `rclone rcd` z odpowiednimi opcjami webowymi, aby panel mógł się załadować i komunikować z backendem.
 
 :::info Rclone jest wymagany
-Nie możesz używać tego dashboardu samodzielnie. Musisz mieć zainstalowany `rclone` i uruchomić go w trybie demona z włączonym interfejsem zdalnego sterowania.
+Musisz mieć działającą instalację [Rclone](https://rclone.org/) przed użyciem tego panelu. Jeśli Rclone nie jest jeszcze zainstalowany, najpierw go zainstaluj i skonfiguruj.
 :::
 
-### Placeholdery używane w poradniku
+### Recommended preparation checklist
 
-W kilku poleceniach w poradniku użyto placeholderów. Zastąp je swoimi wartościami przed uruchomieniem poleceń.
+| Zadanie | Dlaczego to ważne |
+|---|---|
+| Zainstaluj Rclone | Wymagane do uruchomienia `rclone rcd` |
+| Skonfiguruj przynajmniej jedno zdalne | Potrzebne, jeśli chcesz przeglądać chmurę, np. `rclone google drive` |
+| Otwórz lub przekieruj wymagany port | Potrzebne do zdalnego dostępu przez przeglądarkę |
+| Wybierz dostęp lokalny lub zdalny | Określa, czy wymagana jest autoryzacja |
 
-| Placeholder | Znaczenie |
-| --- | --- |
-| `[your_user]` | Nazwa użytkownika do uwierzytelniania zdalnego sterowania Rclone |
-| `[your_password]` | Hasło do uwierzytelniania zdalnego sterowania Rclone |
-| `[your_server_ip]` | Publiczny lub prywatny adres IP twojego serwera |
-| `[your_domain]` | Nazwa domeny używana do dostępu przez reverse proxy |
-| `[your_build_path]` | Ścieżka do rozpakowanych plików dashboardu |
+## Understanding how the dashboard works
 
-## Dostępne metody wdrożenia
+Yet Another Rclone Dashboard to statyczna aplikacja webowa łącząca się z API zdalnego sterowania Rclone. Możesz serwować pliki panelu bezpośrednio przez Rclone lub hostować frontend osobno na serwerze WWW, np. Nginx lub Caddy.
 
-Możesz uruchomić Yet Another Rclone Dashboard na kilka sposobów, w zależności od tego, jak chcesz mieć do niego dostęp.
+### Main features
 
-| Metoda | Najlepsze zastosowanie | Uwagi |
-| --- | --- | --- |
-| `--rc-files` | Ręczne wdrożenia | Używa rozpakowanych statycznych plików build |
-| `--rc-web-gui` z `--rc-web-fetch-url` | Szybka konfiguracja | Pozwala Rclone pobrać najnowszą wersję dashboardu |
-| Serwer WWW jak Nginx lub Caddy | Własny hosting | Serwuje statyczny frontend osobno |
-| Reverse proxy z zewnętrzną autoryzacją | Zaawansowane konfiguracje | Przydatne, jeśli chcesz scentralizowaną autoryzację |
+Na podstawie opublikowanych informacji, panel oferuje następujące funkcje:
 
-## Pobierz wersję dashboardu
+| Funkcja | Opis |
+|---|---|
+| Wiele profili połączeń | Połącz się z różnymi instancjami `rclone rcd` |
+| Informacje o systemie | Podgląd statusu Rclone i środowiska |
+| Inspekcja zdalnych | Przegląd dostępnych zdalnych i konfiguracji |
+| Przeglądarka plików | Przeglądaj katalogi i zarządzaj plikami |
+| Podgląd multimediów | Podgląd obsługiwanych treści |
+| Widok transferów | Monitoruj aktywność transferów |
+| Interfejs ustawień | Dostosuj opcje panelu |
 
-Jeśli chcesz użyć metody ręcznej `--rc-files` lub serwować frontend własnym serwerem WWW, najpierw pobierz najnowszy archiwum z wersją z GitHub projektu.
+### When to use this dashboard
 
-Oficjalne źródło projektu: [Yet Another Rclone Dashboard na GitHub](https://github.com/outlook84/yet-another-rclone-dashboard)
+Projekt jest przydatny, jeśli chcesz lekki `rclone gui` lub `rclone browser` zamiast pracy tylko w terminalu. Szczególnie pomocny przy zarządzaniu chmurą z VPS, serwera dedykowanego lub lokalnego Windowsa.
 
-W momencie pisania poradnika najnowsza wersja to `v0.3.8` i zawiera plik `yet-another-rclone-dashboard-v0.3.8.zip`.
+## Installation methods
 
-### Przykład pobrania na Linux
+Yet Another Rclone Dashboard możesz wdrożyć na kilka sposobów. Wybór zależy od tego, czy chcesz najprostsze ustawienie, ręczną instalację, czy reverse proxy przed usługą.
 
-```bash
-wget https://github.com/outlook84/yet-another-rclone-dashboard/releases/download/v0.3.8/yet-another-rclone-dashboard-v0.3.8.zip
-unzip yet-another-rclone-dashboard-v0.3.8.zip -d [your_build_path]
-```
+### Method 1: Serve the dashboard with local files
 
-### Przykład pobrania na Windows
+Ta metoda używa rozpakowanego buildu panelu z opcją `--rc-files` Rclone.
 
-Na Windows pobierz plik `.zip` z strony wydania na GitHub i rozpakuj go do folderu, np.:
+#### Download the release
 
-```text
-C:\yet-another-rclone-dashboard
-```
+Pobierz najnowszy release z GitHub projektu:
 
-:::note Informacja o wersji wydania
-Wersja wydania może się zmieniać z czasem. Jeśli jest dostępna nowsza wersja, użyj aktualnego pliku z GitHub projektu zamiast przykładowej wersji pokazanej tutaj.
-:::
+- Projekt GitHub: [Yet Another Rclone Dashboard](https://github.com/outlook84/yet-another-rclone-dashboard)
+- Najnowszy zweryfikowany release w źródle: `v0.3.8`
+- Archiwum release: `yet-another-rclone-dashboard-v0.3.8.zip`
 
-## Uruchom dashboard z Rclone rc-files
+Rozpakuj archiwum w wybranej lokalizacji.
 
-To najprostsza metoda, jeśli już pobrałeś i rozpakowałeś pliki frontendu.
+Przykładowe lokalizacje:
 
-### Przykład na Linux
+| Platforma | Przykładowa ścieżka |
+|---|---|
+| Linux | `/opt/yet-another-rclone-dashboard` |
+| Windows | `C:\yet-another-rclone-dashboard` |
+
+#### Start Rclone on Linux
+
+Jeśli uruchamiasz panel lokalnie na tej samej maszynie i chcesz tylko lokalny dostęp przez przeglądarkę, możesz związać go z `127.0.0.1`.
 
 ```bash
 rclone rcd \
-  --rc-files="[your_build_path]" \
-  --rc-web-gui-no-open-browser \
-  --rc-user="[your_user]" \
-  --rc-pass="[your_password]" \
-  --rc-addr=0.0.0.0:5572 \
-  --rc-allow-origin=http://[your_server_ip]:5572
-```
-
-### Przykład na Windows
-
-```powershell
-rclone rcd `
-  --rc-files="C:\yet-another-rclone-dashboard" `
-  --rc-web-gui-no-open-browser `
-  --rc-user="[your_user]" `
-  --rc-pass="[your_password]" `
-  --rc-addr=0.0.0.0:5572 `
-  --rc-allow-origin=http://[your_server_ip]:5572
-```
-
-### Przykład lokalny na pulpicie
-
-Jeśli chcesz korzystać z dashboardu tylko lokalnie na tym samym systemie, możesz go związać z `127.0.0.1`.
-
-```bash
-rclone rcd \
-  --rc-files="[your_build_path]" \
+  --rc-files="/opt/yet-another-rclone-dashboard" \
   --rc-no-auth \
   --rc-serve \
   --rc-addr=127.0.0.1:5572 \
   --rc-allow-origin=http://127.0.0.1:5572
 ```
 
-:::caution Nie wystawiaj Rclone bez uwierzytelnienia
-Używaj `--rc-no-auth` tylko do testów lokalnych na `127.0.0.1`. Jeśli powiążesz Rclone z `0.0.0.0`, zabezpiecz go uwierzytelnieniem lub odpowiednio skonfigurowanym reverse proxy.
+Jeśli chcesz mieć dostęp zdalny z innego urządzenia, użyj autoryzacji i nasłuchuj na wszystkich interfejsach.
+
+```bash
+rclone rcd \
+  --rc-files="/opt/yet-another-rclone-dashboard" \
+  --rc-web-gui-no-open-browser \
+  --rc-user=[your_rc_username] \
+  --rc-pass=[your_rc_password] \
+  --rc-addr=0.0.0.0:5572 \
+  --rc-allow-origin=http://[your_server_ip]:5572
+```
+
+#### Start Rclone on Windows
+
+Otwórz `Command Prompt` lub `PowerShell` i uruchom:
+
+```powershell
+rclone rcd `
+  --rc-files="C:\yet-another-rclone-dashboard" `
+  --rc-web-gui-no-open-browser `
+  --rc-user=[your_rc_username] `
+  --rc-pass=[your_rc_password] `
+  --rc-addr=0.0.0.0:5572 `
+  --rc-allow-origin=http://[your_server_ip]:5572
+```
+
+Zamień placeholdery na swoje wartości:
+
+| Placeholder | Znaczenie |
+|---|---|
+| `[your_rc_username]` | Nazwa użytkownika do logowania do API Rclone |
+| `[your_rc_password]` | Hasło chroniące API Rclone |
+| `[your_server_ip]` | Publiczny lub prywatny adres IP do dostępu do panelu |
+
+:::caution Nie wystawiaj niezabezpieczonego API Rclone
+Nie używaj `--rc-no-auth` razem z `0.0.0.0:5572` na serwerze dostępnym z internetu. To wystawi interfejs sterowania Rclone bez ochrony.
 :::
 
-## Uruchom dashboard z Rclone web fetch
+### Method 2: Use Rclone's WebGUI fetcher
 
-Rclone może automatycznie pobrać web GUI, co upraszcza wdrożenie, jeśli twoja konfiguracja to obsługuje.
+Ta metoda pozwala Rclone automatycznie pobrać panel zamiast ręcznie ściągać pliki buildu. Upraszcza wdrożenie, jeśli chcesz szybkie ustawienie.
 
-### Przykład na Linux
+#### Local access example
+
+```bash
+rclone rcd \
+  --rc-web-gui \
+  --rc-web-fetch-url='https://api.github.com/repos/outlook84/yet-another-rclone-dashboard/releases/latest' \
+  --rc-no-auth \
+  --rc-serve \
+  --rc-addr=127.0.0.1:5572 \
+  --rc-allow-origin=http://127.0.0.1:5572
+```
+
+#### Remote access example
 
 ```bash
 rclone rcd \
   --rc-web-gui \
   --rc-web-fetch-url='https://api.github.com/repos/outlook84/yet-another-rclone-dashboard/releases/latest' \
   --rc-web-gui-no-open-browser \
-  --rc-user="[your_user]" \
-  --rc-pass="[your_password]" \
+  --rc-user=[your_rc_username] \
+  --rc-pass=[your_rc_password] \
   --rc-addr=0.0.0.0:5572 \
   --rc-allow-origin=http://[your_server_ip]:5572
 ```
 
-### Przykład na Windows
-
-```powershell
-rclone rcd `
-  --rc-web-gui `
-  --rc-web-fetch-url="https://api.github.com/repos/outlook84/yet-another-rclone-dashboard/releases/latest" `
-  --rc-web-gui-no-open-browser `
-  --rc-user="[your_user]" `
-  --rc-pass="[your_password]" `
-  --rc-addr=0.0.0.0:5572 `
-  --rc-allow-origin=http://[your_server_ip]:5572
-```
-
-### Wyjaśnienie ważnych flag
-
-| Flaga | Funkcja |
-| --- | --- |
-| `--rc-web-gui` | Włącza obsługę web GUI w Rclone |
-| `--rc-web-fetch-url` | Wskazuje Rclone metadane najnowszej wersji |
-| `--rc-user` | Ustawia nazwę użytkownika do logowania |
-| `--rc-pass` | Ustawia hasło do logowania |
-| `--rc-addr` | Definiuje adres IP i port do nasłuchu |
-| `--rc-allow-origin` | Pozwala na żądania z podanego URL w przeglądarce |
-| `--rc-web-gui-no-open-browser` | Zapobiega automatycznemu otwieraniu przeglądarki |
-
-:::tip Dokładnie dopasuj Origin
-Ustaw `--rc-allow-origin` na dokładny URL, którego używasz w przeglądarce, łącznie z protokołem, np. `http://` lub `https://`. To szczególnie ważne przy korzystaniu z reverse proxy.
+:::note Automatyczne pobieranie
+Dokładna ścieżka, gdzie Rclone zapisuje pobrane pliki GUI, zależy od Twojego środowiska Rclone. Jeśli chcesz pełną kontrolę nad plikami i aktualizacjami, metoda manualna `--rc-files` jest zwykle łatwiejsza do zarządzania.
 :::
 
-## Serwuj dashboard przez serwer WWW
+### Method 3: Serve the frontend with a web server
 
-Ponieważ Yet Another Rclone Dashboard to statyczna aplikacja webowa, możesz ją też hostować na standardowym serwerze WWW, np. Nginx lub Caddy.
+Ponieważ projekt to statyczna aplikacja webowa, możesz hostować frontend osobno na serwerze WWW i mieć `rclone rcd` działające w tle.
 
-To rozwiązanie jest przydatne, jeśli chcesz serwować frontend na jednym porcie lub domenie, a Rclone uruchomić osobno w tle.
-
-### Przykład Nginx
+#### Nginx example
 
 ```nginx
 server {
@@ -199,48 +187,44 @@ server {
     server_name [your_domain];
 
     location / {
-        root [your_build_path];
+        root /path/to/extracted/build;
         index index.html;
         try_files $uri $uri/ /index.html;
     }
 }
 ```
 
-### Przykład Caddy
+#### Caddy example
 
 ```caddy
 [your_domain] {
-    root * [your_build_path]
+    root * /path/to/extracted/build
     file_server
 }
 ```
 
-### Co warto mieć na uwadze
+To rozwiązanie jest przydatne, jeśli już korzystasz z reverse proxy i chcesz serwować panel z własnej domeny.
 
-Jeśli serwujesz frontend osobno, Rclone musi działać w tle z kompatybilnymi ustawieniami `rc`. Musisz też zapewnić, że żądania z przeglądarki są dozwolone z adresu frontendu.
+:::tip Najlepsza praktyka reverse proxy
+Jeśli używasz domeny lub reverse proxy, ustaw `--rc-allow-origin` na dokładny URL, który otwierasz w przeglądarce, np. `https://[your_domain]`.
+:::
 
-| Ustawienie | Przykład |
-| --- | --- |
-| URL frontendu | `https://[your_domain]` |
-| Adres powiązania Rclone | `127.0.0.1:5572` lub `0.0.0.0:5572` |
-| Dozwolony origin | `https://[your_domain]` |
+### Method 4: Advanced reverse proxy with external authentication
 
-## Zaawansowana konfiguracja z autoryzacją reverse proxy
+Zaawansowana konfiguracja może używać zewnętrznej bramki autoryzacyjnej i przekazywać uwierzytelnionego użytkownika do Rclone przez nagłówek. To dla doświadczonych użytkowników.
 
-W zaawansowanych środowiskach możesz umieścić dashboard za reverse proxy i użyć zewnętrznej bramki autoryzacji. Przykład odnosi się do opcji Rclone `--rc-user-from-header`.
-
-### Przykład Rclone
+#### Rclone example
 
 ```bash
 rclone rcd \
   --rc-serve \
-  --rc-files='[your_build_path]' \
+  --rc-files='/path/to/extracted/build' \
   --rc-user-from-header X-Remote-User \
   --rc-addr=127.0.0.1:5572 \
   --rc-allow-origin=https://[your_domain]
 ```
 
-### Przykład Caddy
+#### Caddy example
 
 ```caddy
 @rclone host [your_domain]
@@ -253,127 +237,135 @@ handle @rclone {
 }
 ```
 
-:::info Zaawansowana konfiguracja autoryzacji
-Ta metoda zależy od twojego reverse proxy i stosu autoryzacji. Dokładna konfiguracja narzędzi takich jak `caddy-security` wykracza poza zakres tego poradnika, ale powyższy przykład pokazuje, jak dashboard może otrzymywać nagłówek z uwierzytelnionym użytkownikiem.
+:::danger Zaawansowana konfiguracja autoryzacji
+Uwierzytelnianie oparte na nagłówkach powinno być używane tylko za zaufanym reverse proxy. Błędna konfiguracja może umożliwić nieautoryzowany dostęp do Twojej instancji Rclone.
 :::
 
-## Konfiguracja dostępu i bezpieczeństwa
+## Important Rclone options
 
-Zanim zaczniesz korzystać z dashboardu, sprawdź najważniejsze ustawienia dostępu.
+Poniższe opcje są najważniejsze przy wdrażaniu Yet Another Rclone Dashboard.
 
-### Zalecane wartości konfiguracji
+| Opcja | Cel |
+|---|---|
+| `--rc-files` | Serwuje rozpakowane pliki panelu przez Rclone |
+| `--rc-web-gui` | Włącza wsparcie GUI webowego przez Rclone |
+| `--rc-web-fetch-url` | Pobiera metadane release GUI z zewnętrznego źródła |
+| `--rc-user` | Ustawia nazwę użytkownika API |
+| `--rc-pass` | Ustawia hasło API |
+| `--rc-no-auth` | Wyłącza autoryzację |
+| `--rc-addr` | Definiuje adres i port nasłuchu |
+| `--rc-allow-origin` | Pozwala na dostęp z przeglądarki z określonego źródła |
+| `--rc-web-gui-no-open-browser` | Zapobiega automatycznemu otwarciu przeglądarki |
+| `--rc-user-from-header` | Akceptuje uwierzytelnionego użytkownika z nagłówka reverse proxy |
 
-| Opcja | Zalecenie |
-| --- | --- |
-| `--rc-user` | Ustaw dedykowaną nazwę użytkownika, np. `zaphosting` |
-| `--rc-pass` | Użyj silnego hasła |
-| `--rc-addr` | Używaj `127.0.0.1:5572` za reverse proxy, jeśli to możliwe |
-| `--rc-allow-origin` | Dopasuj dokładny URL używany w przeglądarce |
-| Zapora sieciowa | Otwórz `5572/tcp` tylko jeśli potrzebujesz bezpośredniego dostępu |
+## Configuration guidance
 
-### Najlepsze praktyki bezpieczeństwa
+Po wyborze metody instalacji, sprawdź główne wartości konfiguracyjne przed pierwszym użyciem.
 
-- Używaj uwierzytelniania przy wystawianiu usługi w sieci
-- Preferuj reverse proxy z HTTPS dla dostępu publicznego
-- Ogranicz bezpośredni dostęp do `5572/tcp` jeśli to możliwe
-- Aktualizuj Rclone, jeśli korzystasz z niego do dostępu do chmury, np. `rclone google drive`
+### Authentication settings
 
-:::danger Ryzyko publicznego wystawienia
-Dostęp zdalnego sterowania Rclone daje potężne możliwości zarządzania plikami i zdalnymi lokalizacjami. Nie wystawiaj go publicznie bez uwierzytelnienia i odpowiednich ograniczeń sieciowych.
-:::
+Jeśli panel jest używany tylko lokalnie na Twoim komputerze, dostęp lokalny bez autoryzacji może być akceptowalny. W przypadku zdalnego lub publicznego dostępu zawsze stosuj autoryzację.
 
-## Uruchom i zweryfikuj dashboard
+| Typ dostępu | Zalecane ustawienie |
+|---|---|
+| Tylko lokalny | `127.0.0.1` z opcjonalnym `--rc-no-auth` |
+| Dostęp LAN lub internet | `0.0.0.0` z `--rc-user` i `--rc-pass` |
+| Reverse proxy z domeną | `127.0.0.1` lub prywatny bind plus autoryzacja proxy |
 
-Gdy masz już wybraną konfigurację, uruchom `rclone rcd` i otwórz dashboard w przeglądarce.
+### Allowed origin
 
-### Przykłady dostępu
+Wartość `--rc-allow-origin` musi odpowiadać URL, z którego przeglądarka ładuje panel.
+
+Przykłady:
+
+| URL dostępu | Pasujący `--rc-allow-origin` |
+|---|---|
+| `http://127.0.0.1:5572` | `http://127.0.0.1:5572` |
+| `http://[your_server_ip]:5572` | `http://[your_server_ip]:5572` |
+| `https://[your_domain]` | `https://[your_domain]` |
+
+Jeśli wartość nie pasuje, przeglądarka może blokować żądania, a panel może się nie załadować poprawnie.
+
+## Starting and verifying the dashboard
+
+Gdy polecenie działa, otwórz skonfigurowany adres w przeglądarce.
+
+### What to expect
+
+Jeśli konfiguracja jest poprawna, zobaczysz interfejs Yet Another Rclone Dashboard i będziesz mógł połączyć się z skonfigurowanym demonem Rclone.
+
+Typowe przykłady:
 
 | Scenariusz | URL |
-| --- | --- |
-| Dostęp lokalny | `http://127.0.0.1:5572` |
-| Bezpośredni dostęp do serwera | `http://[your_server_ip]:5572` |
+|---|---|
+| Lokalny dostęp Linux lub Windows | `http://127.0.0.1:5572` |
+| Zdalny dostęp po IP | `http://[your_server_ip]:5572` |
 | Dostęp przez reverse proxy | `https://[your_domain]` |
 
-### Co powinieneś zobaczyć
+### Basic verification steps
 
-Jeśli wszystko jest poprawnie skonfigurowane, interfejs Yet Another Rclone Dashboard powinien się załadować i pozwolić na:
+1. Uruchom `rclone rcd` wybraną metodą.
+2. Otwórz URL panelu w przeglądarce.
+3. Zaloguj się, jeśli włączona jest autoryzacja.
+4. Sprawdź, czy widać zdalne lokalizacje, funkcje przeglądarki plików lub informacje o statusie.
+5. Przetestuj prostą akcję odczytu, np. otwarcie katalogu.
 
-- połączenie z demonem Rclone
-- podgląd skonfigurowanych zdalnych lokalizacji
-- przeglądanie plików
-- podgląd transferów
-- przegląd ustawień i informacji o systemie
+## Troubleshooting
 
-Jeśli strona się nie ładuje, sprawdź następujące kwestie:
+Jeśli panel się nie ładuje lub nie łączy poprawnie, sprawdź poniższe typowe przyczyny.
 
-| Sprawdzenie | Dlaczego to ważne |
-| --- | --- |
-| Proces Rclone działa | Dashboard potrzebuje backendowego demona |
-| Port `5572` jest dostępny | Wymagany do bezpośredniego dostępu |
-| `--rc-allow-origin` jest poprawny | Zapobiega problemom z dostępem z przeglądarki |
-| Nazwa użytkownika i hasło są poprawne | Wymagane do uwierzytelnionego dostępu |
-| Nagłówki reverse proxy są poprawne | Ważne dla zaawansowanych konfiguracji autoryzacji |
+### Connection refused
 
-## Rozwiązywanie problemów
+Jeśli pojawia się błąd odmowy połączenia, sprawdź:
 
-### Przeglądarka nie może się połączyć
+- czy `rclone rcd` faktycznie działa
+- czy używany jest poprawny port `5572`
+- czy usługa nasłuchuje na oczekiwanym interfejsie
+- czy zapora sieciowa pozwala na dostęp przy potrzebie
 
-Jeśli przeglądarka nie otwiera dashboardu, sprawdź, czy Rclone nasłuchuje na oczekiwanym adresie i porcie.
+### Browser origin or login issues
 
-Na Linuxie możesz sprawdzić nasłuchujące porty narzędziem:
+Jeśli strona się ładuje, ale żądania API nie działają:
 
-```bash
-ss -tulpn | grep 5572
-```
+- zweryfikuj `--rc-allow-origin`
+- potwierdź, że URL w przeglądarce dokładnie pasuje do dozwolonego źródła
+- sprawdź `--rc-user` i `--rc-pass`
+- upewnij się, że reverse proxy poprawnie przekazuje żądania
 
-Na Windows użyj:
+### File path issues
 
-```powershell
-netstat -ano | findstr 5572
-```
+Jeśli używasz `--rc-files` i interfejs się nie pojawia:
 
-### Błąd uwierzytelniania
+- potwierdź, że rozpakowane pliki panelu są w poprawnym katalogu
+- zweryfikuj składnię ścieżki dla Linuxa lub Windowsa
+- upewnij się, że zawartość archiwum została rozpakowana, a nie tylko pobrana
 
-Jeśli logowanie nie działa:
-
-- potwierdź wartości `--rc-user` i `--rc-pass`
-- upewnij się, że reverse proxy nie usuwa wymaganych nagłówków
-- unikaj używania `--rc-no-auth` na interfejsach zdalnych lub publicznych
-
-### Frontend się ładuje, ale akcje nie działają
-
-To zwykle oznacza problem z origin lub komunikacją z backendem.
-
-Sprawdź dokładnie te wartości:
-
-- `--rc-allow-origin`
-- `--rc-addr`
-- adres docelowy reverse proxy
-- URL w przeglądarce używany do dostępu do dashboardu
-
-:::tip Używaj logów do szybszej diagnozy
-Jeśli dashboard nie działa jak należy, najpierw sprawdź wyjście konsoli Rclone. Problemy z uwierzytelnianiem, powiązaniem i origin często są tam od razu widoczne.
+:::tip Sprawdź output konsoli Rclone
+Rclone zwykle wypisuje przydatne informacje startowe i błędy bezpośrednio w terminalu. Sprawdź ten output najpierw, jeśli panel, `rclone download` lub funkcje przeglądarki zdalnej nie działają poprawnie.
 :::
 
-## Odwołanie do oprogramowania
+## Security recommendations
 
-### Szczegóły projektu
+Panel sterujący Rclone ma dostęp do zdalnych lokalizacji i operacji na plikach, więc bezpieczeństwo jest ważne.
+
+| Zalecenie | Powód |
+|---|---|
+| Używaj autoryzacji przy dostępie zdalnym | Chroni API Rclone |
+| Wiąż z `127.0.0.1` jeśli to możliwe | Zmniejsza ekspozycję |
+| Używaj HTTPS za reverse proxy | Chroni dane uwierzytelniające w tranzycie |
+| Ogranicz ekspozycję zapory | Zmniejsza powierzchnię ataku |
+| Używaj silnych danych logowania | Zapobiega nieautoryzowanemu dostępowi |
+
+:::caution Wrażliwe zdalne lokalizacje
+Jeśli Twoja konfiguracja Rclone obejmuje chmurę, np. Google Drive, niebezpieczne wystawienie panelu może też ujawnić dostęp do tych lokalizacji i danych.
+:::
+
+## Additional project information
+
+Projekt jest opublikowany na GitHub i był prezentowany w Self-Host Weekly 10 kwietnia 2026.
 
 | Element | Wartość |
-| --- | --- |
-| Nazwa | Yet Another Rclone Dashboard |
+|---|---|
+| Nazwa projektu | Yet Another Rclone Dashboard |
 | Kategoria | Frontend |
-| Źródło | [Repozytorium GitHub](https://github.com/outlook84/yet-another-rclone-dashboard) |
-| Referencyjne wydanie | `v0.3.8` |
-| Plik wydania | `yet-another-rclone-dashboard-v0.3.8.zip` |
-| Zalecany backend | `rclone v1.72.0` lub nowszy |
-
-### Znane funkcje z strony projektu
-
-Na podstawie informacji z repozytorium dashboard obsługuje:
-
-- wiele profili połączeń
-- informacje o systemie i podsumowanie statusu Rclone
-- podgląd zdalnych lokalizacji
-- import i eksport konfiguracji Rclone
-- przeglądanie i
+| Źródło | [Repozytorium GitHub](https://github.com/outlook84/y
