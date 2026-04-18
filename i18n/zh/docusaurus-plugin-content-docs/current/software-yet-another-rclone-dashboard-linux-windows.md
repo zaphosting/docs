@@ -1,7 +1,7 @@
 ---
 id: software-yet-another-rclone-dashboard-linux-windows
 title: "软件 - Yet Another Rclone Dashboard（Linux/Windows）"
-description: "设置 Yet Another Rclone Dashboard，一款适用于 Linux 和 Windows 的现代 rclone GUI 和浏览器，安全管理你的 rclone 守护进程 -> 立即了解更多"
+description: "学习如何设置 Yet Another Rclone Dashboard，这是一款适用于 Linux 和 Windows 的现代 rclone GUI 和 rclone 浏览器，使用 rclone rcd 及 rclone GitHub 发布文件 -> 立即了解更多"
 sidebar_label: 软件 - Yet Another Rclone Dashboard（Linux/Windows）
 ---
 
@@ -9,188 +9,187 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## 介绍
 
-Yet Another Rclone Dashboard 是一个现代化的 `rclone rcd` 网页仪表盘，提供图形界面来管理远程端、浏览文件和查看传输情况。在本指南中，你将学习如何在 Linux 或 Windows 上部署它，并连接到你现有的 Rclone 配置。
+Yet Another Rclone Dashboard 是一个基于 `rclone rcd` 的现代网页仪表盘，提供图形界面用于浏览文件、查看远程存储和管理传输。通过本指南，你将了解该软件的功能、需求，以及如何在 Linux 或 Windows 上使用支持的部署方式运行它。
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
 
 ## 准备工作
 
-开始之前，请确保你的系统满足基本要求，并且已经安装了 Rclone。
+开始之前，你需要先安装好 [Rclone](https://rclone.org/)，因为 Yet Another Rclone Dashboard 只是 Rclone 远程控制守护进程的前端界面。
 
-### 要求
+### 需求
 
-| 组件 | 要求 |
+以下需求基于项目公开信息和安装草案整理。
+
+| 需求 | 详情 |
 | --- | --- |
 | 操作系统 | Linux 或 Windows |
-| Rclone 版本 | 推荐使用 `v1.72.0` 或更高版本 |
-| 访问方式 | 本地终端、SSH 或 RDP |
+| 必需软件 | `rclone` |
+| 推荐 Rclone 版本 | `v1.72.0` 或更高 |
+| 可选软件 | 根据部署方式选择 `Docker`、`Nginx` 或 `Caddy` |
 | 默认端口 | `5572/tcp` |
-| 可选 | 反向代理，如 Nginx 或 Caddy |
+| 网络访问 | 如果需要下载发布版本或使用网页抓取方式，则必须联网 |
 
-### 安装前需要准备的内容
+### 仪表盘依赖项
 
-你需要准备以下内容：
+Yet Another Rclone Dashboard 不替代 Rclone，而是连接到 Rclone 的 *远程控制守护进程* 模式 `rclone rcd`。
 
-- 已安装并可正常使用的 [Rclone](https://rclone.org/)
-- 至少配置了一个 Rclone 远程端，如果你想访问云存储（例如 *rclone Google Drive*）
-- 如果需要远程连接，确保端口 `5572` 已开放或已转发
-- 用于访问仪表盘的浏览器
+| 组件 | 作用 |
+| --- | --- |
+| Yet Another Rclone Dashboard | 网页前端 |
+| `rclone rcd` | 后端 API 和文件操作 |
+| Rclone 远程存储 | 你配置的云存储连接，如 Google Drive |
 
-:::info Rclone 必须先安装
-Yet Another Rclone Dashboard 只是 `rclone rcd` 的前端界面，不替代 Rclone 本身，因此你必须先安装并配置好 Rclone。
+:::info 需要安装 Rclone
+该仪表盘无法单独使用。你必须安装 `rclone` 并以启用远程控制接口的守护进程模式运行它。
 :::
 
-### 本指南中使用的重要占位符
+### 本指南中使用的占位符
 
-以下命令中使用的占位符需要替换成你自己的实际值。
+本指南中的多个命令使用了占位符。请在执行命令前替换为你自己的实际值。
 
 | 占位符 | 含义 |
 | --- | --- |
-| `[your_dashboard_path]` | 仪表盘文件存放路径 |
+| `[your_user]` | Rclone 远程控制认证用户名 |
+| `[your_password]` | Rclone 远程控制认证密码 |
 | `[your_server_ip]` | 服务器的公网或内网 IP 地址 |
 | `[your_domain]` | 用于反向代理访问的域名 |
-| `[your_rc_user]` | Rclone RC 认证用户名 |
-| `[your_rc_password]` | Rclone RC 认证密码 |
+| `[your_build_path]` | 解压仪表盘文件的路径 |
 
-## 关于 Yet Another Rclone Dashboard
+## 可用的部署方式
 
-Yet Another Rclone Dashboard 是一个静态网页前端，托管在 [GitHub](https://github.com/outlook84/yet-another-rclone-dashboard)。根据项目 README，它专为 `rclone rcd` 设计，支持以下功能：
+你可以根据访问需求选择不同方式运行 Yet Another Rclone Dashboard。
 
-- 连接到守护进程模式的 Rclone
-- 管理多个连接配置文件
-- 查看系统信息和状态
-- 浏览目录
-- 操作远程端和配置数据
-
-由于它是前端界面，实际的文件操作仍由 Rclone 处理，这意味着仪表盘依赖于正在运行的 `rclone rcd` 实例。
-
-## 安装方式
-
-你可以根据访问需求选择多种部署方式。最常用的方法是直接用 Rclone 搭配静态文件，或者让 Rclone 自动获取网页 GUI。
-
-### 安装方式概览
-
-| 方法 | 适用场景 | 备注 |
+| 方式 | 适用场景 | 备注 |
 | --- | --- | --- |
-| `--rc-files` | 手动部署 | 你自行下载并解压仪表盘文件 |
-| `--rc-web-gui` 配合 `--rc-web-fetch-url` | 快速安装 | Rclone 自动获取最新仪表盘版本 |
-| 外部 Web 服务器 | 自定义托管 | 适合搭配 Nginx 或 Caddy |
-| 带认证网关的反向代理 | 高级配置 | 适合安全的远程访问 |
+| `--rc-files` | 手动部署 | 使用解压后的静态构建文件 |
+| `--rc-web-gui` 配合 `--rc-web-fetch-url` | 快速部署 | 让 Rclone 自动抓取最新仪表盘版本 |
+| 使用 Nginx 或 Caddy 等网页服务器 | 自定义托管 | 单独提供静态前端服务 |
+| 反向代理加外部认证 | 高级部署 | 适合集中认证管理 |
 
-## 手动下载仪表盘
+## 下载仪表盘发布包
 
-如果你想完全掌控部署版本，可以从项目 GitHub 发布页面手动下载最新版本。
+如果你想用手动的 `--rc-files` 方式或用自己的网页服务器托管前端，先从项目 GitHub 发布页面下载最新发布包。
 
-### Linux
+官方项目地址：[Yet Another Rclone Dashboard on GitHub](https://github.com/outlook84/yet-another-rclone-dashboard)
 
-创建仪表盘目录，下载最新版本压缩包并解压。
+截至本指南参考的版本，最新发布为 `v0.3.8`，包含文件 `yet-another-rclone-dashboard-v0.3.8.zip`。
+
+### Linux 下载示例
 
 ```bash
-mkdir -p [your_dashboard_path]
-cd [your_dashboard_path]
 wget https://github.com/outlook84/yet-another-rclone-dashboard/releases/download/v0.3.8/yet-another-rclone-dashboard-v0.3.8.zip
-unzip yet-another-rclone-dashboard-v0.3.8.zip
+unzip yet-another-rclone-dashboard-v0.3.8.zip -d [your_build_path]
 ```
 
-### Windows
+### Windows 下载示例
 
-在 Windows 上，从官方 GitHub 发布页面下载压缩包，解压到类似以下文件夹：
+在 Windows 上，从 GitHub 发布页面下载 `.zip` 文件并解压到如下文件夹：
 
 ```text
-C:\rclone-dashboard
+C:\yet-another-rclone-dashboard
 ```
 
-:::note 版本说明
-撰写本文时，最新验证版本为 `v0.3.8`。如果有更新版本，你也可以使用最新版本。
+:::note 发布版本说明
+发布版本会随时间更新。如果有更新版本，请使用项目 GitHub 页面上的最新发布文件，而不是本示例中的版本。
 :::
 
-## 使用 Rclone 启动仪表盘
+## 使用 Rclone rc-files 运行仪表盘
 
-文件准备好后，你可以启动 `rclone rcd`，通过 Rclone 自身提供仪表盘服务。
+如果你已经下载并解压了前端文件，这是最直接的运行方式。
 
-### Linux 本地访问
-
-如果只想在本机访问仪表盘，使用此方法。
+### Linux 示例
 
 ```bash
 rclone rcd \
-  --rc-files="[your_dashboard_path]" \
+  --rc-files="[your_build_path]" \
+  --rc-web-gui-no-open-browser \
+  --rc-user="[your_user]" \
+  --rc-pass="[your_password]" \
+  --rc-addr=0.0.0.0:5572 \
+  --rc-allow-origin=http://[your_server_ip]:5572
+```
+
+### Windows 示例
+
+```powershell
+rclone rcd `
+  --rc-files="C:\yet-another-rclone-dashboard" `
+  --rc-web-gui-no-open-browser `
+  --rc-user="[your_user]" `
+  --rc-pass="[your_password]" `
+  --rc-addr=0.0.0.0:5572 `
+  --rc-allow-origin=http://[your_server_ip]:5572
+```
+
+### 本地桌面示例
+
+如果你只想在本机本地使用仪表盘，可以绑定到 `127.0.0.1`。
+
+```bash
+rclone rcd \
+  --rc-files="[your_build_path]" \
   --rc-no-auth \
   --rc-serve \
   --rc-addr=127.0.0.1:5572 \
   --rc-allow-origin=http://127.0.0.1:5572
 ```
 
-### Linux 远程访问
-
-如果想从其他设备远程访问仪表盘，使用此方法。
-
-```bash
-rclone rcd \
-  --rc-files="[your_dashboard_path]" \
-  --rc-web-gui-no-open-browser \
-  --rc-user="[your_rc_user]" \
-  --rc-pass="[your_rc_password]" \
-  --rc-addr=0.0.0.0:5572 \
-  --rc-allow-origin=http://[your_server_ip]:5572
-```
-
-### Windows 本地访问
-
-打开命令提示符或 PowerShell，运行：
-
-```powershell
-rclone rcd --rc-files="[your_dashboard_path]" --rc-no-auth --rc-serve --rc-addr=127.0.0.1:5572 --rc-allow-origin=http://127.0.0.1:5572
-```
-
-### Windows 远程访问
-
-远程访问时，运行：
-
-```powershell
-rclone rcd --rc-files="[your_dashboard_path]" --rc-web-gui-no-open-browser --rc-user="[your_rc_user]" --rc-pass="[your_rc_password]" --rc-addr=0.0.0.0:5572 --rc-allow-origin=http://[your_server_ip]:5572
-```
-
-:::caution 切勿暴露无保护的 Rclone GUI
-如果你将 Rclone 绑定到 `0.0.0.0`，请不要使用 `--rc-no-auth`。远程访问必须通过认证或反向代理保护。
+:::caution 不要暴露无认证的 Rclone
+仅在本地测试时使用 `--rc-no-auth` 并绑定到 `127.0.0.1`。如果绑定到 `0.0.0.0`，必须使用认证或配置好反向代理保护。
 :::
 
-## 使用 Rclone WebGUI 自动获取功能
+## 使用 Rclone web fetch 运行仪表盘
 
-Rclone 也可以自动从 GitHub 获取仪表盘文件，适合不想手动下载解压的用户。
+Rclone 支持自动抓取网页 GUI，如果你的环境支持，这可以简化部署。
 
-### 本地模式
-
-```bash
-rclone rcd \
-  --rc-web-gui \
-  --rc-web-fetch-url='https://api.github.com/repos/outlook84/yet-another-rclone-dashboard/releases/latest' \
-  --rc-no-auth \
-  --rc-serve \
-  --rc-addr=127.0.0.1:5572 \
-  --rc-allow-origin=http://127.0.0.1:5572
-```
-
-### 远程模式
+### Linux 示例
 
 ```bash
 rclone rcd \
   --rc-web-gui \
   --rc-web-fetch-url='https://api.github.com/repos/outlook84/yet-another-rclone-dashboard/releases/latest' \
   --rc-web-gui-no-open-browser \
-  --rc-user="[your_rc_user]" \
-  --rc-pass="[your_rc_password]" \
+  --rc-user="[your_user]" \
+  --rc-pass="[your_password]" \
   --rc-addr=0.0.0.0:5572 \
   --rc-allow-origin=http://[your_server_ip]:5572
 ```
 
-:::tip 自动更新
-如果你想让 Rclone 自动获取最新仪表盘版本，这种方法非常方便。通常也是测试新 rclone GUI 部署最快捷的方式。
+### Windows 示例
+
+```powershell
+rclone rcd `
+  --rc-web-gui `
+  --rc-web-fetch-url="https://api.github.com/repos/outlook84/yet-another-rclone-dashboard/releases/latest" `
+  --rc-web-gui-no-open-browser `
+  --rc-user="[your_user]" `
+  --rc-pass="[your_password]" `
+  --rc-addr=0.0.0.0:5572 `
+  --rc-allow-origin=http://[your_server_ip]:5572
+```
+
+### 重要参数说明
+
+| 参数 | 作用 |
+| --- | --- |
+| `--rc-web-gui` | 启用 Rclone 的网页 GUI 支持 |
+| `--rc-web-fetch-url` | 指定最新发布版本的元数据地址 |
+| `--rc-user` | 设置登录用户名 |
+| `--rc-pass` | 设置登录密码 |
+| `--rc-addr` | 定义监听的 IP 和端口 |
+| `--rc-allow-origin` | 允许浏览器从指定 URL 访问 |
+| `--rc-web-gui-no-open-browser` | 禁止自动打开浏览器 |
+
+:::tip 精确匹配 Origin
+`--rc-allow-origin` 必须设置为你浏览器访问时使用的完整 URL，包括协议（如 `http://` 或 `https://`）。使用反向代理时尤其重要。
 :::
 
-## 使用 Web 服务器托管仪表盘
+## 使用网页服务器托管仪表盘
 
-由于 Yet Another Rclone Dashboard 是静态前端，你也可以用标准 Web 服务器托管它，同时让 `rclone rcd` 在后台独立运行。
+Yet Another Rclone Dashboard 是静态网页应用，也可以用标准网页服务器如 Nginx 或 Caddy 托管。
+
+这种方式适合你想在一个端口或域名提供前端，而 Rclone 在后台独立运行。
 
 ### Nginx 示例
 
@@ -200,7 +199,7 @@ server {
     server_name [your_domain];
 
     location / {
-        root [your_dashboard_path];
+        root [your_build_path];
         index index.html;
         try_files $uri $uri/ /index.html;
     }
@@ -211,174 +210,179 @@ server {
 
 ```caddy
 [your_domain] {
-    root * [your_dashboard_path]
+    root * [your_build_path]
     file_server
 }
 ```
 
-如果你已经使用反向代理，或者想用域名更干净地访问仪表盘，这种方法很实用。
+### 注意事项
 
-## 高级反向代理配置
+如果前端单独托管，Rclone 仍需在后台运行并启用兼容的 `rc` 设置。你还必须确保浏览器请求允许来自你的前端 URL。
 
-如果想通过外部认证层保护访问，可以在 Rclone 前面使用反向代理，并通过请求头转发认证用户。
+| 设置 | 示例 |
+| --- | --- |
+| 前端 URL | `https://[your_domain]` |
+| Rclone 绑定地址 | `127.0.0.1:5572` 或 `0.0.0.0:5572` |
+| 允许的 Origin | `https://[your_domain]` |
 
-### Rclone 命令
+## 反向代理认证的高级配置
+
+在高级环境中，你可以将仪表盘放在反向代理后面，使用外部认证网关。示例中提到使用 Rclone 的 `--rc-user-from-header` 选项实现此功能。
+
+### Rclone 示例
 
 ```bash
 rclone rcd \
   --rc-serve \
-  --rc-files='[your_dashboard_path]' \
+  --rc-files='[your_build_path]' \
   --rc-user-from-header X-Remote-User \
   --rc-addr=127.0.0.1:5572 \
   --rc-allow-origin=https://[your_domain]
 ```
 
-### Caddy 示例，转发用户头
+### Caddy 示例
 
 ```caddy
 @rclone host [your_domain]
 handle @rclone {
-    reverse_proxy 127.0.0.1:5572 {
-        header_up X-Remote-User {http.auth.user.id}
-        header_up -Authorization
-    }
+        authorize with admins_policy
+        reverse_proxy 127.0.0.1:5572 {
+                header_up X-Remote-User {http.auth.user.sub}
+                header_up -Authorization
+        }
 }
 ```
 
-:::info 高级认证说明
-具体的认证网关实现取决于你的环境。上面示例仅展示了 Rclone 与反向代理的集成模式。如果你使用身份提供商或 Caddy 插件，请根据对应软件的官方文档进行配置。
+:::info 高级认证配置说明
+此方法依赖你的反向代理和认证栈。具体配置如 `caddy-security` 超出本指南范围，但上例展示了仪表盘如何接收认证用户头。
 :::
 
-## 配置参考
+## 配置访问和安全
 
-以下是与仪表盘配合使用的主要 Rclone RC 选项。
+开始使用仪表盘前，请检查以下关键访问设置。
 
-| 选项 | 作用 |
+### 推荐配置值
+
+| 选项 | 建议 |
 | --- | --- |
-| `--rc-files` | 提供解压后的仪表盘文件 |
-| `--rc-web-gui` | 启用 Rclone WebGUI 支持 |
-| `--rc-web-fetch-url` | 从 GitHub 获取仪表盘发布元数据 |
-| `--rc-no-auth` | 禁用认证，仅适合本地使用 |
-| `--rc-user` | 设置 Rclone RC 用户名 |
-| `--rc-pass` | 设置 Rclone RC 密码 |
-| `--rc-addr` | 定义监听地址和端口 |
-| `--rc-allow-origin` | 允许指定 URL 的浏览器访问 |
-| `--rc-web-gui-no-open-browser` | 禁止自动打开浏览器 |
-| `--rc-user-from-header` | 从代理请求头接受认证用户 |
+| `--rc-user` | 设置专用用户名，如 `zaphosting` |
+| `--rc-pass` | 使用强密码 |
+| `--rc-addr` | 尽量在反向代理后使用 `127.0.0.1:5572` |
+| `--rc-allow-origin` | 精确匹配浏览器访问的 URL |
+| 防火墙 | 仅在需要直接访问时开放 `5572/tcp` |
 
-### 选择正确的 `--rc-allow-origin`
+### 安全最佳实践
 
-`--rc-allow-origin` 必须设置为你浏览器中使用的准确 URL。
+- 网络暴露时务必启用认证
+- 公网访问优先使用带 HTTPS 的反向代理
+- 尽量限制直接访问 `5572/tcp`
+- 如果使用 Rclone 访问云存储（如 Google Drive），请保持 Rclone 更新
 
-| 访问类型 | 示例值 |
-| --- | --- |
-| 本地访问 | `http://127.0.0.1:5572` |
-| 基于 IP 的远程访问 | `http://[your_server_ip]:5572` |
-| 反向代理 HTTPS 访问 | `https://[your_domain]` |
-
-:::caution Origin 必须匹配
-如果 `--rc-allow-origin` 与浏览器访问的 URL 不匹配，仪表盘可能因浏览器安全限制无法正确加载。
+:::danger 公网暴露风险
+Rclone 远程控制接口拥有强大的文件和远程管理权限。切勿在无认证和无网络限制的情况下公开暴露。
 :::
 
-## 访问并验证仪表盘
+## 启动并验证仪表盘
 
-启动 `rclone rcd` 后，在浏览器中打开仪表盘。
+完成配置后，启动 `rclone rcd` 并在浏览器打开仪表盘。
 
-### 常用访问 URL
+### 访问示例
 
 | 场景 | URL |
 | --- | --- |
-| 本机访问 | `http://127.0.0.1:5572` |
-| 远程 IP 访问 | `http://[your_server_ip]:5572` |
+| 本地访问 | `http://127.0.0.1:5572` |
+| 服务器直接访问 | `http://[your_server_ip]:5572` |
 | 反向代理访问 | `https://[your_domain]` |
 
-### 启动后检查内容
+### 你应该看到的内容
 
-打开页面后，请确认：
+如果配置正确，Yet Another Rclone Dashboard 界面会加载，并允许你：
 
-- Yet Another Rclone Dashboard 界面正常加载
-- 你配置的远程端显示正常
-- Rclone 浏览器视图中的文件浏览功能可用
-- 传输和系统信息面板响应正常
+- 连接到 Rclone 守护进程
+- 查看已配置的远程存储
+- 浏览文件
+- 查看传输状态
+- 检查设置和系统信息
 
-如果页面无法加载，先检查 Rclone 控制台输出。认证错误、Origin 不匹配和端口绑定问题是最常见原因。
+如果页面无法加载，请检查以下内容：
 
-## 安全建议
-
-运行云存储仪表盘时，尤其是公开暴露时，需要谨慎配置安全设置。
-
-### 推荐安全措施
-
-| 建议 | 原因 |
+| 检查项 | 重要性 |
 | --- | --- |
-| 远程访问使用 `--rc-user` 和 `--rc-pass` | 防止未授权访问 |
-| 优先通过反向代理使用 HTTPS | 保护传输中的凭据 |
-| 尽可能绑定到 `127.0.0.1` | 降低暴露风险 |
-| 限制防火墙只开放 `5572/tcp` | 减少攻击面 |
-| 公网环境避免使用 `--rc-no-auth` | 防止 Rclone 实例被公开访问 |
-
-:::danger 公开暴露风险
-暴露且无保护的 `rclone rcd` 实例可能导致远程端和文件被访问。如果你在问“rclone 安全么”，答案很大程度上取决于你如何安全地暴露和认证该服务。
-:::
+| Rclone 进程是否运行 | 仪表盘需要后台守护进程支持 |
+| 端口 `5572` 是否可达 | 直接访问必需 |
+| `--rc-allow-origin` 是否正确 | 防止浏览器访问问题 |
+| 用户名和密码是否正确 | 认证访问必需 |
+| 反向代理头部配置是否正确 | 高级认证配置关键 |
 
 ## 故障排查
 
-如果仪表盘无法正常工作，请参考以下检查项。
+### 浏览器无法连接
 
-### 仪表盘页面打不开
+如果浏览器打不开仪表盘，确认 Rclone 是否监听了预期的地址和端口。
 
-可能原因：
-
-- `rclone rcd` 未运行
-- 端口 `5572` 被防火墙阻挡
-- 服务绑定在 `127.0.0.1`，但你尝试远程连接
-
-### 界面加载但操作失败
-
-可能原因：
-
-- `--rc-user` 或 `--rc-pass` 错误
-- `--rc-allow-origin` 设置不正确
-- Rclone 远程端配置缺失或损坏
-
-### 通过反向代理无法加载仪表盘
-
-可能原因：
-
-- 代理目标指向错误的后端
-- HTTPS URL 与 `--rc-allow-origin` 不匹配
-- 必需的请求头未正确传递
-
-### 有用的检查命令
-
-Linux：
+Linux 下可用命令：
 
 ```bash
 ss -tulpn | grep 5572
 ```
 
-Windows PowerShell：
+Windows 下可用命令：
 
 ```powershell
 netstat -ano | findstr 5572
 ```
 
-测试本地端点：
+### 认证失败
 
-```bash
-curl http://127.0.0.1:5572
-```
+登录失败时：
 
-:::tip 优先查看 Rclone 日志
-大多数启动和连接问题都能直接在运行 `rclone rcd` 的终端或服务日志中看到。修改配置前请先查看日志。
+- 确认 `--rc-user` 和 `--rc-pass` 的值正确
+- 确保反向代理没有剥离必要的头部
+- 避免在远程或公网接口使用 `--rc-no-auth`
+
+### 前端加载但操作失败
+
+通常是 Origin 或后端通信问题。
+
+请仔细检查：
+
+- `--rc-allow-origin`
+- `--rc-addr`
+- 反向代理目标地址
+- 浏览器访问的 URL
+
+:::tip 利用日志快速定位问题
+如果仪表盘表现异常，优先查看 Rclone 控制台输出。认证、绑定和 Origin 问题通常能立即发现。
 :::
 
-## 额外说明
+## 软件参考
 
-Yet Another Rclone Dashboard 曾于 2026 年 4 月 10 日在 Self-Host Weekly 中介绍，项目托管在 GitHub。撰写时，该项目主要是一个前端解决方案，旨在通过浏览器仪表盘提升 Rclone 的用户体验。
+### 项目详情
 
-某些自定义环境可能支持 Docker 部署，但官方资料中未提供验证的 Docker 部署说明。因此本指南仅涵盖项目官方支持的设置方法。
+| 项目 | 内容 |
+| --- | --- |
+| 名称 | Yet Another Rclone Dashboard |
+| 类型 | 前端 |
+| 源码 | [GitHub 仓库](https://github.com/outlook84/yet-another-rclone-dashboard) |
+| 参考版本 | `v0.3.8` |
+| 发布包 | `yet-another-rclone-dashboard-v0.3.8.zip` |
+| 推荐后端 | `rclone v1.72.0` 或更高 |
+
+### 项目页面已知功能
+
+根据仓库信息，仪表盘支持以下功能：
+
+- 多连接配置文件管理
+- Rclone 系统信息和状态汇总
+- 远程存储查看
+- Rclone 配置导入导出
+- 文件浏览和筛选
+- 传输相关视图
+
+:::note 功能可用性说明
+功能可能随版本变化。如需最新版本的具体功能详情，请查阅上游项目的 GitHub 更新日志和发布说明。
+:::
 
 ## 结论
 
-恭喜，你已成功在 Linux 或 Windows 上安装并配置了 Yet Another Rclone Dashboard。若有任何问题或需要帮助，请随时联系我们的支持团队，我们每天都在线为你服务！🙂
+恭喜你，已成功在 Linux 或 Windows 上设置 Yet Another Rclone Dashboard。若有任何疑问或需要帮助，请随时联系我们的支持团队，我们每天都在线为你服务！🙂
