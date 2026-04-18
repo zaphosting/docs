@@ -1,7 +1,7 @@
 ---
 id: software-tymeslot-linux-windows
 title: "Software - Tymeslot (Linux/Windows)"
-description: "Tymeslot'u Linux veya Windows 眉zerinde Docker ile nas谋l kuraca臒谋n谋z谋, Docker konteynerlerini ve Docker kurulum temellerini 枚臒renin. -> Hemen 枚臒renin"
+description: "Tymeslot'u Docker ile nasıl dağıtacağınızı, docker konteynerlerini nasıl yöneteceğinizi ve Linux ile Windows hosting ortamları için önemli yapılandırma detaylarını öğrenin. -> Hemen öğrenin"
 sidebar_label: Software - Tymeslot (Linux/Windows)
 ---
 
@@ -9,165 +9,201 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introduction
 
-Tymeslot, Elixir ve Phoenix LiveView ile geli艧tirilmi艧 a莽谋k kaynakl谋 bir toplant谋 ve randevu planlama platformudur. Bu rehberde, Tymeslot'un ne oldu臒unu, 莽al谋艧t谋rmak i莽in neler gerekti臒ini ve Linux veya Windows 眉zerinde Docker kullanarak nas谋l kurulum yapaca臒谋n谋z谋 枚臒reneceksiniz.
+Tymeslot, Elixir ve Phoenix LiveView ile geliştirilmiş açık kaynaklı bir toplantı ve randevu planlama platformudur. Bu rehberde, Tymeslot'un gereksinimlerini, Linux veya Windows üzerinde Docker ile nasıl dağıtılacağını ve üretime almadan önce hangi yapılandırma noktalarını gözden geçirmeniz gerektiğini öğreneceksiniz.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
 
 ## Preparation
 
-Tymeslot'u kurmadan 枚nce sisteminizin temel gereksinimleri kar艧谋lad谋臒谋ndan ve Docker'谋n kurulu oldu臒undan emin olun.
+Başlamadan önce, Docker'ı güvenilir şekilde çalıştırabilen ve Tymeslot'u ağ üzerinden erişilebilir kılan bir sisteme ihtiyacınız var.
 
 ### Requirements
 
-A艧a臒谋daki gereksinimler mevcut proje bilgileri ve sa臒lanan kurulum tasla臒谋na dayanmaktad谋r:
+| Gereksinim | Öneri |
+| --- | --- |
+| CPU | 1 vCPU veya daha fazlası |
+| RAM | En az 2 GB |
+| Disk alanı | En az 10 GB |
+| İşletim sistemi | Linux veya Windows |
+| Konteyner platformu | [Docker](https://www.docker.com/) |
+| Ağ portu | `4000/tcp` |
 
-| Gereksinim | 脰neri |
-|---|---|
-| CPU | En az `1` vCPU |
-| RAM | En az `2 GB` |
-| Disk alan谋 | En az `10 GB` |
-| 陌艧letim sistemi | Linux veya Windows |
-| Konteyner 莽al谋艧ma zaman谋 | Docker |
-| A臒 | `4000` portuna eri艧im |
+### Hazırlamanız gerekenler
 
-### What is verified and what is not
+| Öğe | Neden gerekli |
+| --- | --- |
+| Linux sunucu veya Windows sistemi | Uygulamayı barındırmak için |
+| Docker kurulumu | Tymeslot deposunda Docker ile ilgili dosyalar mevcut |
+| `4000` portuna açık ağ erişimi veya ters proxy | Web arayüzüne erişim için |
+| `[your_domain]` gibi bir hostname | Üretim kullanımı için önerilir |
+| Güçlü oluşturulmuş bir gizli anahtar | Oturum ve uygulama güvenliği için gerekli |
 
-:::info Kaynak Durumu
-Tymeslot deposu, projenin Elixir ve Phoenix LiveView ile geli艧tirilmi艧 a莽谋k kaynakl谋 bir toplant谋 planlama platformu oldu臒unu ve `Dockerfile.docker` ile `docker-compose.yml` gibi Docker ile ilgili dosyalar谋n depoda bulundu臒unu do臒rulamaktad谋r.
-
-Ancak, kesin 眉retim da臒谋t谋m ad谋mlar谋, imaj ad谋 ve gerekli t眉m ortam de臒i艧kenleri burada sa臒lanan kaynak materyalden tam olarak do臒rulanamamaktad谋r. Bu nedenle, bu rehber mevcut taslak bilgilerini kullanmakta ve 眉retim 枚ncesi resmi depoya kar艧谋 do臒rulaman谋z gereken de臒erleri a莽谋k莽a i艧aretlemektedir.
+:::info Docker Kurulum Gereksinimi
+Bu rehber Docker odaklıdır çünkü Tymeslot deposunda `Dockerfile.docker` ve `docker-compose.yml` gibi Docker ile ilgili dosyalar bulunmaktadır. Elixir ve Phoenix ile yerel kurulum mümkün olabilir ancak sağlanan kaynak materyalden tam üretim adımları doğrulanamamıştır.
 :::
 
-### Install Docker
+### Windows notu
 
-Tymeslot'u bir konteyner i莽inde 莽al谋艧t谋rabilmek i莽in Docker'a ihtiyac谋n谋z var.
+Windows'ta genellikle Docker Desktop gibi çalışan bir Docker ortamına ihtiyacınız vardır. Docker for Windows kullanıyorsanız, sanallaştırmanın etkin olduğundan ve Docker Desktop'ın çalıştığından emin olun.
 
-- Linux'ta, resmi [Docker dok眉mantasyonu](https://docs.docker.com/engine/install/) 眉zerinden Docker Engine'i kurun
-- Windows'ta, [Docker Desktop](https://www.docker.com/products/docker-desktop/) uygulamas谋n谋 kurun
+## About Tymeslot
 
-:::tip Windows i莽in Docker
-Windows 眉zerinde Docker kullan谋yorsan谋z, devam etmeden 枚nce sanalla艧t谋rman谋n etkin oldu臒undan ve Docker Desktop'谋n 莽al谋艧t谋臒谋ndan emin olun.
+Tymeslot, proje deposunda Elixir ve Phoenix LiveView ile geliştirilmiş açık kaynaklı bir toplantı planlama platformu olarak listelenmiştir. Kendi sunucunuzda barındırmak için tasarlanmıştır ve proje tarafından yönetilen bulut hizmeti olarak da kullanılabilir.
+
+### Doğrulanmış proje detayları
+
+| Özellik | Değer |
+| --- | --- |
+| İsim | Tymeslot |
+| Kategori | Planlama |
+| Kaynak depo | `https://github.com/tymeslot/tymeslot` |
+| Haftalık bahsi | Self-Host Weekly, 10 Nisan 2026 |
+| Teknoloji | Elixir / Phoenix LiveView |
+| Kendi sunucunda barındırma desteği | Evet |
+
+:::note Kaynak Doğrulaması
+Depo, proje adı, amacı ve teknoloji yığını doğrulamaktadır. Ancak, yayınlanan Docker imajının tam adı, ortam değişkenlerinin tam listesi ve resmi üretim port eşlemesi gibi bazı çalışma zamanı detayları sağlanan kaynakta tam görünmemektedir. Bu nedenle, üretime almadan önce bu kısımları doğrudan upstream depoda doğrulamalısınız.
 :::
 
-## Software Overview
+## Deployment Method
 
-Tymeslot, *Scheduling* (Planlama) kategorisine ait olup, kendi kendinize bar谋nd谋rabilece臒iniz randevu ve toplant谋 y枚netimi i莽in tasarlanm谋艧t谋r.
+Çoğu kullanıcı için Docker, bağımlılıkları izole tuttuğu ve güncellemeleri kolaylaştırdığı için en basit dağıtım yöntemidir.
 
-| 脰zellik | De臒er |
-|---|---|
-| 陌sim | `Tymeslot` |
-| Kategori | `Scheduling` |
-| Kaynak | `https://github.com/tymeslot/tymeslot` |
-| Teknoloji y谋臒谋n谋 | `Elixir`, `Phoenix LiveView` |
-| Da臒谋t谋m 艧ekli | Kendi kendine bar谋nd谋rma, Docker destekli |
-| Haftal谋k bahsi | Self-Host Weekly, 10 Nisan 2026 |
+### Neden Docker önerilir
 
-### Why use Tymeslot
+| Avantaj | Açıklama |
+| --- | --- |
+| Kolay kurulum | Elixir, Erlang ve Phoenix'i manuel kurmanıza gerek kalmaz |
+| Daha temiz güncellemeler | Host ortamını yeniden kurmadan docker imajlarını değiştirebilirsiniz |
+| Daha iyi taşınabilirlik | Aynı konteyner yapılandırması Linux ve Windows'ta kullanılabilir |
+| Daha basit geri dönüş | Gerekirse önceki imaj sürümüne dönebilirsiniz |
 
-Tymeslot 艧u durumlarda faydal谋 olabilir:
+### Önemli kısıtlama
 
-- Kendi planlama platformunuzu bar谋nd谋rmak istiyorsan谋z
-- Rezervasyon verilerini kendi altyap谋n谋zda tutmak istiyorsan谋z
-- 脺莽眉nc眉 taraf SaaS platformlar谋na ba臒l谋 kalmadan randevular谋 y枚netmek istiyorsan谋z
-- Docker konteynerleri ile modern bir web uygulamas谋 da臒谋tmak istiyorsan谋z
-
-## Deployment Options
-
-Mevcut bilgilere g枚re iki olas谋 y枚ntem vard谋r:
-
-| Y枚ntem | Durum |
-|---|---|
-| Docker ile da臒谋t谋m | 脰nerilen |
-| Yerel Elixir/Phoenix kurulumu | M眉mk眉n, ancak daha ileri d眉zey |
-
-脟o臒u kullan谋c谋 i莽in Docker, kurulum, g眉ncellemeler ve servis y枚netimini kolayla艧t谋rd谋臒谋 i莽in daha iyi bir se莽enektir.
+:::caution Docker İmaj Adı Doğrulanmalı
+Örnek olarak verilen `youruser/tymeslot:latest` imajı sadece yer tutucudur ve resmi doğrulanmış bir imaj adı değildir. Dağıtımdan önce Tymeslot deposunu, `README-Docker.md` dosyasını veya proje konteyner kayıt talimatlarını kontrol ederek doğru imaj kaynağını doğrulayın.
+:::
 
 ## Install Tymeslot with Docker
 
-Linux ve Windows sistemler i莽in en pratik y枚ntem budur.
+Bu bölüm, yer tutucu imaj referansı kullanarak Docker tabanlı dağıtım akışını gösterir. `[your_tymeslot_image]` ifadesini resmi Tymeslot projesinden doğrulanmış imaj adıyla değiştirin.
 
-### Pull the Docker image
-
-Sa臒lanan taslakta kullan谋lan imaj referans谋:
+### İmajı çekin
 
 ```bash
-docker pull youruser/tymeslot:latest
+docker pull [your_tymeslot_image]
 ```
 
-:::caution Docker imaj谋n谋 枚ncelikle do臒rulay谋n
-Kesin kamuya a莽谋k imaj ad谋, al谋nan depo i莽eri臒iyle do臒rulanmam谋艧t谋r. Bu komutu 眉retimde kullanmadan 枚nce, resmi Tymeslot deposunda, s眉r眉m notlar谋nda veya varsa Docker Hub sayfas谋nda do臒ru imaj ad谋n谋 kontrol edin.
-:::
+### Gizli anahtar oluşturun
 
-### Start the container
-
-Tymeslot'u a艧a臒谋daki komutla ba艧latabilirsiniz (taslaktan al谋nm谋艧t谋r):
-
-```bash
-docker run --name tymeslot \
-  -p 4000:4000 \
-  -e SECRET_KEY_BASE="$(openssl rand -base64 64 | tr -d '\n')" \
-  -e PHX_HOST=localhost \
-  -v tymeslot_data:/app/data \
-  -v tymeslot_pg:/var/lib/postgresql/data \
-  youruser/tymeslot:latest
-```
-
-Windows PowerShell kullan谋yorsan谋z, `openssl` komutu varsay谋lan olarak olmayabilir. Bu durumda, g眉venli rastgele bir de臒er ayr谋 olarak olu艧turup `SECRET_KEY_BASE` de臒erini manuel de臒i艧tirin.
-
-### Example command reference
-
-| Se莽enek | Ama莽 |
-|---|---|
-| `--name tymeslot` | Konteyner ismini belirler |
-| `-p 4000:4000` | Tymeslot'u `4000` portunda eri艧ilebilir yapar |
-| `-e SECRET_KEY_BASE=...` | Uygulama 艧ifreleme ve oturumlar i莽in gizli anahtar |
-| `-e PHX_HOST=localhost` | Phoenix taraf谋ndan kullan谋lan hostname'i ayarlar |
-| `-v tymeslot_data:/app/data` | Uygulama verilerini kal谋c谋 yapar |
-| `-v tymeslot_pg:/var/lib/postgresql/data` | PostgreSQL verilerini kal谋c谋 yapar |
-| `youruser/tymeslot:latest` | Taslaktan al谋nan Docker imaj ad谋 |
-
-### Generate a secret key on Linux
-
-`openssl` y眉kl眉yse, gizli anahtar谋 艧u 艧ekilde olu艧turabilirsiniz:
+Linux'ta güçlü bir gizli anahtar oluşturmak için:
 
 ```bash
 openssl rand -base64 64 | tr -d '\n'
 ```
 
-### Generate a secret key on Windows PowerShell
+Çıktıyı güvenli bir yerde saklayın ve `[your_secret_key_base]` olarak kullanın.
 
-PowerShell'de 枚rnek gizli anahtar olu艧turmak i莽in:
+Windows'ta, `openssl` yoksa başka güvenilir bir yöntemle güvenli rastgele bir değer oluşturabilirsiniz.
 
-```powershell
-[Convert]::ToBase64String((1..64 | ForEach-Object { Get-Random -Maximum 256 }))
+### Konteyneri çalıştırın
+
+```bash
+docker run -d \
+  --name tymeslot \
+  -p 4000:4000 \
+  -e SECRET_KEY_BASE='[your_secret_key_base]' \
+  -e PHX_HOST='[your_domain_or_ip]' \
+  -v tymeslot_data:/app/data \
+  -v tymeslot_pg:/var/lib/postgresql/data \
+  [your_tymeslot_image]
 ```
 
-:::danger Kendi gizli anahtar谋n谋z谋 kullan谋n
-脺retimde 枚rnek gizli anahtarlar谋 kullanmay谋n. Her zaman kendi `SECRET_KEY_BASE` de臒eriniz olu艧turun ve g眉venli 艧ekilde saklay谋n.
+### Parametre açıklamaları
+
+| Parametre | Anlamı |
+| --- | --- |
+| `-d` | Konteyneri arka planda başlatır |
+| `--name tymeslot` | Okunabilir bir konteyner adı atar |
+| `-p 4000:4000` | Host `4000` portunu konteyner `4000` portuna yönlendirir |
+| `-e SECRET_KEY_BASE=...` | Uygulama gizli anahtarını ayarlar |
+| `-e PHX_HOST=...` | Phoenix tarafından kullanılacak hostname'i belirler |
+| `-v tymeslot_data:/app/data` | Uygulama verilerini kalıcı hale getirir |
+| `-v tymeslot_pg:/var/lib/postgresql/data` | Konteyner içindeki PostgreSQL verilerini kalıcı yapar (kullanılıyorsa) |
+
+:::caution Volume Yollarını Önce Doğrulayın
+Yukarıdaki volume yolları taslak materyalden alınmıştır ve upstream dokümantasyonda tam doğrulanmamıştır. Üretimde kullanmadan önce resmi Tymeslot Docker dokümantasyonunu inceleyin.
+:::
+
+### Konteyner durumunu kontrol edin
+
+```bash
+docker ps
+```
+
+Logları incelemek için:
+
+```bash
+docker logs tymeslot
+```
+
+Başlangıç sorunlarını giderirken loglar ilk kontrol edilmesi gereken yerdir.
+
+## Optional Docker Compose Deployment
+
+Docker konteynerlerini Compose ile yönetmeyi tercih ediyorsanız, servisi `docker-compose.yml` dosyasında tanımlayabilirsiniz. Bu, uzun `docker run` komutlarından daha kolay yönetilir.
+
+### Örnek Compose dosyası
+
+```yaml
+services:
+  tymeslot:
+    image: [your_tymeslot_image]
+    container_name: tymeslot
+    ports:
+      - "4000:4000"
+    environment:
+      SECRET_KEY_BASE: "[your_secret_key_base]"
+      PHX_HOST: "[your_domain_or_ip]"
+    volumes:
+      - tymeslot_data:/app/data
+      - tymeslot_pg:/var/lib/postgresql/data
+    restart: unless-stopped
+
+volumes:
+  tymeslot_data:
+  tymeslot_pg:
+```
+
+Yığını başlatmak için:
+
+```bash
+docker compose up -d
+```
+
+:::tip Compose Yönetimi
+Compose kullanmak, güncellemeleri, yeniden başlatmaları ve yedeklemeleri kolaylaştırır çünkü konteyner yapılandırmanız tek bir dosyada kalır. Aynı hostta birden fazla docker imajı yönetiyorsanız özellikle faydalıdır.
 :::
 
 ## Configure Tymeslot
 
-陌lk kullan谋mdan 枚nce en 枚nemli 莽al谋艧ma zaman谋 ayarlar谋n谋 g枚zden ge莽irin.
+Konteyner çalıştıktan sonra en önemli yapılandırma değerlerini gözden geçirin.
 
-### Environment variables
+### Temel ortam değişkenleri
 
-Taslakta do臒rulanan ortam de臒i艧kenleri:
+| Değişken | Amacı |
+| --- | --- |
+| `SECRET_KEY_BASE` | Oturumları ve uygulama gizliliklerini korur |
+| `PHX_HOST` | Genel hostname veya IP adresini tanımlar |
 
-| De臒i艧ken | 脰rnek | Ama莽 |
-|---|---|---|
-| `SECRET_KEY_BASE` | `[your_secret_key]` | Oturumlar ve 艧ifreleme i莽in g眉venlik sa臒lar |
-| `PHX_HOST` | `[your_domain]` veya `[your_server_ip]` | Uygulaman谋n kulland谋臒谋 genel hostname'i belirler |
+Yer tutucuları şu şekilde kullanın:
 
-Yer tutucular谋n anlam谋:
+- `[your_secret_key_base]` oluşturduğunuz güvenli gizli anahtar
+- `[your_domain_or_ip]` genel hostname veya sunucu IP'si, örneğin `schedule.[your_domain]` veya `[your_server_ip]`
 
-- `[your_secret_key]`: Olu艧turdu臒unuz g眉venli gizli anahtar
-- `[your_domain]`: Kulland谋臒谋n谋z genel alan ad谋 (varsa)
-- `[your_server_ip]`: Sunucunuzun IP adresi (do臒rudan eri艧im i莽in)
+### SMTP yapılandırması
 
-### SMTP configuration
-
-Taslakta, e-posta bildirimleri i莽in `config/prod.exs` i莽inde SMTP yap谋land谋rmas谋 da belirtilmi艧tir:
+Taslak materyal, e-posta bildirimleri için SMTP'nin `config/prod.exs` içinde yapılandırılabileceğini gösteriyor. Örnek:
 
 ```elixir
 config :tymeslot, Tymeslot.Mailer,
@@ -180,65 +216,62 @@ config :tymeslot, Tymeslot.Mailer,
   auth: :always
 ```
 
-:::note SMTP do臒rulamas谋
-Uygulama yap谋land谋rmas谋 s眉r眉mler aras谋nda de臒i艧ebilece臒inden, bu mailer yap谋land谋rma format谋n谋 眉retimde kullanmadan 枚nce g眉ncel Tymeslot deposunda do臒rulay谋n.
+:::note SMTP Kurulum Doğrulaması
+Yukarıdaki örnek taslaktan alınmış olup tipik bir Elixir mailer yapılandırmasını yansıtır. Mail ayarları sürümler arasında değişebileceği için güncel upstream Tymeslot yapılandırma dosyalarıyla karşılaştırmanız önerilir.
 :::
 
-## Access Tymeslot
+## Network and Access
 
-Konteyner 莽al谋艧t谋ktan sonra web aray眉z眉n眉 test edebilirsiniz.
+Tymeslot çalıştıktan sonra tarayıcınızdan erişilebilir olduğundan emin olun.
 
-### Local access
+### Web arayüzüne erişim
 
-Yerel test i莽in 艧u adresi a莽谋n:
-
-```text
-http://localhost:4000
-```
-
-### Remote access
-
-Tymeslot uzak bir sunucuda 莽al谋艧谋yorsa, 艧u adresi a莽谋n:
+Tarayıcınızda aşağıdaki URL'yi açın:
 
 ```text
 http://[your_server_ip]:4000
 ```
 
-Alan ad谋 ve ters proxy yap谋land谋rd谋ysan谋z, 艧u 艧ekilde eri艧ebilirsiniz:
+Eğer ters proxy ve DNS yapılandırdıysanız, bunun yerine şunu kullanabilirsiniz:
 
 ```text
 https://[your_domain]
 ```
 
-## Firewall and Network
+### Port referansı
 
-Tymeslot, Docker'dan yay谋nlad谋臒谋n谋z port 眉zerinden a臒 eri艧imine ihtiya莽 duyar.
+| Port | Protokol | Amaç |
+| --- | --- | --- |
+| `4000` | TCP | Taslak kurulumdan varsayılan web erişimi |
 
-### Required port
+### Güvenlik duvarı dikkate alınması
 
-| Port | Protokol | Ama莽 |
-|---|---|---|
-| `4000` | TCP | Tymeslot uygulamas谋na web eri艧imi |
+Tymeslot'a doğrudan erişiyorsanız `4000/tcp` gelen trafiğe izin vermeniz gerekir.
 
-### Firewall considerations
-
-艦unlar谋 sa臒lamal谋s谋n谋z:
-
-- Sunucu g眉venlik duvar谋nda `4000` portu a莽谋k olmal谋 (do臒rudan eri艧im i莽in)
-- Bulut veya sa臒lay谋c谋 g眉venlik duvar谋 ayn谋 portu izin vermeli
-- Alan ad谋 kullan谋yorsan谋z ters proxy trafi臒i do臒ru y枚nlendirmeli
-
-:::caution Genel eri艧im riski
-`4000` portunu do臒rudan internete a莽arsan谋z, g眉venlik risklerini iyi anlay谋n. 脺retim i莽in HTTPS destekli ters proxy kullanmak genellikle daha g眉venlidir.
+:::caution Genel Erişim Güvenliği
+Tymeslot'u doğrudan internete açarsanız, mutlaka HTTPS destekli ters proxy arkasına almayı düşünün. Bu, güvenliği artırır ve daha temiz alan adı tabanlı erişim sağlar.
 :::
 
-## Optional Native Installation
+## Reverse Proxy Recommendation
 
-Docker kullanmak istemiyorsan谋z, yerel kurulum m眉mk眉n olabilir. Bu y枚ntem daha ileri d眉zeydir ve Elixir ile Phoenix uyumlu bir ortam gerektirir.
+Alan adı ve TLS sertifikası kullanmak istiyorsanız ters proxy önerilir.
 
-### Basic native steps
+### Neden ters proxy kullanılır
 
-Sa臒lanan tasla臒a g枚re s眉re莽:
+| Avantaj | Açıklama |
+| --- | --- |
+| HTTPS desteği | Kullanıcılar ile servis arasındaki trafiği şifreler |
+| Alan adı tabanlı erişim | Ham port yerine `[your_domain]` kullanmanızı sağlar |
+| Sertifika yönetimi kolaylığı | Let's Encrypt gibi araçlarla uyumludur |
+| Daha temiz genel erişim | İç uygulama portlarını gizler |
+
+### Doğrulanması gerekenler
+
+Ters proxy yapılandırması Nginx, Apache veya başka bir web sunucusuna bağlıdır. Sağlanan kaynakta resmi proxy örneği tam bulunmadığı için, gerekli başlıklar ve websocket desteği upstream Tymeslot dokümantasyonunda doğrulanmalıdır.
+
+## Native Installation Notes
+
+Tymeslot Elixir ve Phoenix LiveView ile geliştirildiği için Linux veya Windows geliştirme ortamlarında yerel kurulum mümkün olabilir. Taslakta şu komutlar yer alıyordu:
 
 ```bash
 git clone https://github.com/tymeslot/tymeslot.git
@@ -249,79 +282,80 @@ mix ecto.migrate
 mix phx.server
 ```
 
-### Native deployment notes
+### Dikkat edilmesi gerekenler
 
-Yerel kurulum i莽in ayr谋ca 艧unlar gerekir:
+| Konu | Not |
+| --- | --- |
+| Elixir ve Erlang | Uyumluluklu sürümler kurulmalı |
+| Phoenix bağımlılıkları | Ek yapı araçları gerekebilir |
+| Veritabanı kurulumu | Göçlerden önce doğru yapılandırılmalı |
+| Üretim sertleştirme | Genellikle Docker’dan daha karmaşık |
 
-- Elixir
-- Erlang/OTP
-- Phoenix ba臒谋ml谋l谋klar谋
-- Desteklenen bir veritaban谋 kurulumu
-- 脺retim yap谋land谋rmas谋n谋n g枚zden ge莽irilmesi
-
-:::info Yerel kurulum karma艧谋kl谋臒谋
-Al谋nan kaynak materyal, Linux veya Windows 眉zerinde tam ve g眉venli bir yerel 眉retim kurulumu i莽in yeterli do臒rulanm谋艧 detay sa臒lamamaktad谋r. Bu y枚ntemi kullanmak isterseniz, da臒谋t谋mdan 枚nce resmi depo dok眉mantasyonunu dikkatle inceleyin.
+:::danger Yerel Üretim Dağıtımı Doğrulaması Gerekir
+Yukarıdaki yerel kurulum adımları taslakta yer almış ancak upstream depoda tam doğrulanmamıştır. Üretimde kullanmadan önce resmi Tymeslot dokümantasyonu ve depo dosyalarını kontrol etmeden güvenmeyin.
 :::
 
-## Maintenance and Troubleshooting
+## Verify the Installation
 
-Kurulumdan sonra servisin eri艧ilebilir kald谋臒谋n谋 ve verilerinizin kal谋c谋 oldu臒unu do臒rulamal谋s谋n谋z.
+Dağıtımdan sonra uygulamanın doğru çalıştığını doğrulayın.
 
-### Check container status
+### Temel kontroller
+
+| Kontrol | Beklenen sonuç |
+| --- | --- |
+| `docker ps` | `tymeslot` konteyneri çalışıyor |
+| `docker logs tymeslot` | Tekrarlayan başlangıç veya veritabanı hatası yok |
+| Tarayıcı erişimi | Tymeslot arayüzü yükleniyor |
+| Port testi | Sunucuda `4000` yanıt veriyor |
+
+### Yaygın sorunlar
+
+| Sorun | Olası sebep |
+| --- | --- |
+| Sayfa yüklenmiyor | `4000` portu engellenmiş veya konteyner çalışmıyor |
+| Konteyner hemen kapanıyor | Geçersiz ortam değişkenleri veya eksik bağımlılıklar |
+| Loglarda veritabanı hataları | Veritabanı başlatılamadı veya depolama yolu yanlış |
+| Yanlış hostname davranışı | `PHX_HOST` doğru ayarlanmamış |
+
+## Updating Tymeslot
+
+Yeni sürüm çıktığında dağıtımı dikkatlice güncelleyin.
+
+### Docker güncelleme akışı
+
+1. Güncel imajı çekin:
+   ```bash
+   docker pull [your_tymeslot_image]
+   ```
+2. Mevcut konteyneri durdurun:
+   ```bash
+   docker stop tymeslot
+   ```
+3. Eski konteyneri kaldırın:
+   ```bash
+   docker rm tymeslot
+   ```
+4. Aynı yapılandırmayla yeni konteyneri başlatın.
+
+Compose kullanıyorsanız genellikle şu komutlarla güncelleyebilirsiniz:
 
 ```bash
-docker ps
+docker compose pull
+docker compose up -d
 ```
 
-### View logs
-
-```bash
-docker logs tymeslot
-```
-
-### Restart the container
-
-```bash
-docker restart tymeslot
-```
-
-### Common issues
-
-| Sorun | Olas谋 sebep | 脰nerilen 莽枚z眉m |
-|---|---|---|
-| Web sayfas谋 a莽谋lm谋yor | `4000` portu engellenmi艧 | G眉venlik duvar谋 ve Docker port e艧lemesini kontrol edin |
-| Konteyner hemen kapan谋yor | Ge莽ersiz ortam de臒i艧kenleri | `SECRET_KEY_BASE` ve imaj ayarlar谋n谋 g枚zden ge莽irin |
-| Veritaban谋 hatalar谋 | Kal谋c谋 depolama veya veritaban谋 ba艧latma sorunu | Loglar谋 kontrol edin, volume kullan谋m谋n谋 do臒rulay谋n |
-| Linklerde yanl谋艧 hostname | `PHX_HOST` yanl谋艧 ayarlanm谋艧 | `PHX_HOST` de臒erini `[your_domain]` veya `[your_server_ip]` yap谋n |
-
-## Best Practices
-
-### Use persistent volumes
-
-Uygulama ve veritaban谋 verileri i莽in kal谋c谋 Docker volume'lar谋 kullan谋n, b枚ylece konteyner yeniden olu艧turuldu臒unda verileriniz silinmez.
-
-### Use a reverse proxy
-
-Genel da臒谋t谋mlar i莽in Tymeslot'u Nginx veya Apache gibi bir ters proxy arkas谋na al谋p HTTPS etkinle艧tirmek genellikle daha iyidir.
-
-### Verify upstream changes
-
-Tymeslot aktif olarak geli艧tirildi臒i i莽in g眉ncellemeden 枚nce resmi depoyu kontrol edin. 脰zellikle:
-
-- De臒i艧en Docker imajlar谋
-- G眉ncellenen ortam de臒i艧kenleri
-- Veritaban谋 migrasyonlar谋
-- Mail yap谋land谋rma de臒i艧iklikleri
+:::tip Güncellemeden Önce Yedekleyin
+Güncellemeden önce kalıcı volume'lerinizi ve varsa veritabanı verilerinizi yedekleyin. Böylece yeni sürümde göç veya uyumluluk sorunu çıkarsa geri dönüş yolunuz olur.
+:::
 
 ## Additional References
 
-| Kaynak | Ba臒lant谋 |
-|---|---|
-| Tymeslot GitHub deposu | [Official Tymeslot Repository](https://github.com/tymeslot/tymeslot) |
+| Kaynak | Link |
+| --- | --- |
+| Resmi Tymeslot deposu | [GitHub - Tymeslot](https://github.com/tymeslot/tymeslot) |
+| Docker resmi sitesi | [Docker](https://www.docker.com/) |
 | Self-Host Weekly bahsi | [Self-Host Weekly - 10 April 2026](https://selfh.st/weekly/2026-04-10/) |
-| Docker dok眉mantasyonu | [Docker Documentation](https://docs.docker.com/) |
-| Docker Desktop indir | [Docker Desktop](https://www.docker.com/products/docker-desktop/) |
 
 ## Conclusion
 
-Tymeslot'u Linux veya Windows 眉zerinde Docker kullanarak nas谋l inceleyece臒inizi ve kuraca臒谋n谋z谋 ba艧ar谋yla 枚臒rendiniz. Daha fazla soru veya destek i莽in, her g眉n hizmetinizde olan destek ekibimizle ileti艧ime ge莽mekten 莽ekinmeyin! 馃檪
+Tymeslot'u Linux veya Windows üzerinde Docker kullanarak başarıyla incelediniz ve dağıttınız. Daha fazla soru veya destek için, günlük olarak hizmet veren destek ekibimizle iletişime geçmekten çekinmeyin! 🙂

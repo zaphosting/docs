@@ -1,7 +1,7 @@
 ---
 id: software-tymeslot-linux-windows
 title: "Software - Tymeslot (Linux/Windows)"
-description: "Aprenda como implantar o Tymeslot com Docker, containers Docker e noções básicas de instalação do Docker no Linux ou Windows para agendamento auto-hospedado. -> Saiba mais agora"
+description: "Aprenda como implantar o Tymeslot com Docker, gerenciar containers Docker e revisar os principais detalhes de configuração para ambientes de hospedagem Linux e Windows. -> Saiba mais agora"
 sidebar_label: Software - Tymeslot (Linux/Windows)
 ---
 
@@ -9,165 +9,201 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introdução
 
-Tymeslot é uma plataforma open-source para agendamento de reuniões e compromissos, construída com Elixir e Phoenix LiveView. Neste guia, você vai aprender o que é o Tymeslot, o que precisa para executá-lo e como implantá-lo no Linux ou Windows usando Docker.
+Tymeslot é uma plataforma open-source para agendamento de reuniões e compromissos, construída com Elixir e Phoenix LiveView. Neste guia, você vai aprender os requisitos do Tymeslot, como implantá-lo com Docker no Linux ou Windows, e quais pontos de configuração revisar antes de colocá-lo em produção.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
 
 ## Preparação
 
-Antes de implantar o Tymeslot, certifique-se de que seu sistema atende aos requisitos básicos e que o Docker está disponível.
+Antes de começar, você precisa de um sistema que rode Docker de forma confiável e que exponha o Tymeslot pela rede.
 
 ### Requisitos
 
-Os seguintes requisitos são baseados nas informações disponíveis do projeto e no rascunho de configuração fornecido:
-
 | Requisito | Recomendação |
-|---|---|
-| CPU | Pelo menos `1` vCPU |
-| RAM | Pelo menos `2 GB` |
-| Espaço em disco | Pelo menos `10 GB` |
+| --- | --- |
+| CPU | 1 vCPU ou mais |
+| RAM | Pelo menos 2 GB |
+| Espaço em disco | Pelo menos 10 GB |
 | Sistema operacional | Linux ou Windows |
-| Runtime de container | Docker |
-| Rede | Acesso à porta `4000` |
+| Plataforma de container | [Docker](https://www.docker.com/) |
+| Porta de rede | `4000/tcp` |
 
-### O que foi verificado e o que não foi
+### O que você precisa ter pronto
 
-:::info Disponibilidade da Fonte
-O repositório do Tymeslot confirma que o projeto é uma plataforma open-source para agendamento de reuniões construída com Elixir e Phoenix LiveView, e que arquivos relacionados ao Docker, como `Dockerfile.docker` e `docker-compose.yml`, existem no repositório.
+| Item | Por que é necessário |
+| --- | --- |
+| Um servidor Linux ou sistema Windows | Para hospedar a aplicação |
+| Docker instalado | O Tymeslot fornece arquivos relacionados ao Docker no repositório |
+| Acesso de rede aberto para a porta `4000` ou um proxy reverso | Para acessar a interface web |
+| Um hostname como `[your_domain]` | Recomendado para uso em produção |
+| Um segredo forte gerado | Necessário para segurança da sessão e da aplicação |
 
-No entanto, os passos exatos para implantação em produção, nome da imagem e todas as variáveis de ambiente necessárias não são totalmente verificáveis a partir do material fonte fornecido aqui. Por isso, este guia usa as informações do rascunho disponível e marca claramente os valores que você deve verificar no repositório oficial antes do uso em produção.
+:::info Requisito de Instalação do Docker
+Este guia foca no Docker porque o repositório do Tymeslot inclui arquivos relacionados ao Docker, como `Dockerfile.docker` e `docker-compose.yml`. A instalação nativa com Elixir e Phoenix pode ser possível, mas os passos exatos para produção não foram totalmente verificáveis a partir do material fornecido.
 :::
 
-### Instalar Docker
+### Nota para Windows
 
-Você precisa do Docker para executar o Tymeslot em um container.
+No Windows, geralmente você precisa de um ambiente Docker funcional, como o Docker Desktop. Se estiver usando Docker para Windows, certifique-se de que a virtualização está habilitada e que o Docker Desktop está rodando antes de continuar.
 
-- No Linux, instale o Docker Engine usando a documentação oficial do [Docker](https://docs.docker.com/engine/install/)
-- No Windows, instale o [Docker Desktop](https://www.docker.com/products/docker-desktop/)
+## Sobre o Tymeslot
 
-:::tip Docker para Windows
-Se estiver usando Docker para Windows, certifique-se de que a virtualização está habilitada e que o Docker Desktop está rodando antes de continuar.
-:::
+O Tymeslot é listado em seu repositório como uma plataforma open-source para agendamento de reuniões, construída com Elixir e Phoenix LiveView. É destinado para auto-hospedagem e também pode ser usado via oferta gerenciada na nuvem do projeto.
 
-## Visão Geral do Software
+### Detalhes verificados do projeto
 
-Tymeslot pertence à categoria *Scheduling* e é projetado para gerenciamento auto-hospedado de compromissos e reuniões.
-
-| Propriedade | Valor |
-|---|---|
-| Nome | `Tymeslot` |
-| Categoria | `Scheduling` |
-| Fonte | `https://github.com/tymeslot/tymeslot` |
-| Stack tecnológico | `Elixir`, `Phoenix LiveView` |
-| Estilo de implantação | Auto-hospedado, suporte Docker |
+| Atributo | Valor |
+| --- | --- |
+| Nome | Tymeslot |
+| Categoria | Agendamento |
+| Repositório fonte | `https://github.com/tymeslot/tymeslot` |
 | Menção semanal | Self-Host Weekly, 10 de abril de 2026 |
+| Tecnologia | Elixir / Phoenix LiveView |
+| Suporte à auto-hospedagem | Sim |
 
-### Por que usar o Tymeslot
-
-O Tymeslot pode ser útil se você quiser:
-
-- hospedar sua própria plataforma de agendamento
-- manter os dados de reservas na sua própria infraestrutura
-- gerenciar compromissos sem depender de uma plataforma SaaS de terceiros
-- implantar uma aplicação web moderna com containers Docker
-
-## Opções de Implantação
-
-Com base nas informações disponíveis, existem duas abordagens possíveis:
-
-| Método | Status |
-|---|---|
-| Implantação via Docker | Recomendado |
-| Instalação nativa Elixir/Phoenix | Possível, mas mais avançada |
-
-Para a maioria dos usuários, Docker é a melhor opção porque simplifica a instalação, atualizações e gerenciamento do serviço.
-
-## Instalar Tymeslot com Docker
-
-Este é o método mais prático para sistemas Linux e Windows.
-
-### Baixar a imagem Docker
-
-O rascunho fornecido usa a seguinte referência de imagem:
-
-```bash
-docker pull youruser/tymeslot:latest
-```
-
-:::caution Verifique a imagem Docker antes
-O nome exato da imagem pública não está confirmado pelo conteúdo do repositório obtido. Antes de usar este comando em produção, verifique o nome correto da imagem no repositório oficial do Tymeslot, nas notas de lançamento ou na página do Docker Hub, caso exista.
+:::note Verificação da Fonte
+O repositório confirma o nome do projeto, propósito e stack tecnológico. Contudo, alguns detalhes em tempo de execução, como o nome exato da imagem Docker publicada, lista completa de variáveis de ambiente e mapeamento oficial da porta de produção, não estavam totalmente visíveis no snapshot do material fornecido, então essas partes devem ser verificadas diretamente no repositório upstream antes da implantação em produção.
 :::
 
-### Iniciar o container
+## Método de Implantação
 
-Você pode iniciar o Tymeslot com o seguinte comando do rascunho fornecido:
+Para a maioria dos usuários, o Docker é o método de implantação mais simples porque mantém as dependências isoladas e facilita a gestão de atualizações.
+
+### Por que o Docker é recomendado
+
+| Benefício | Explicação |
+| --- | --- |
+| Configuração mais fácil | Você não precisa instalar Elixir, Erlang e Phoenix manualmente |
+| Atualizações mais limpas | Pode substituir imagens Docker sem reconstruir o ambiente host |
+| Melhor portabilidade | A mesma configuração de container pode ser usada no Linux e Windows |
+| Rollback simples | Pode voltar para uma versão anterior da imagem se necessário |
+
+### Limitação importante
+
+:::caution Nome da Imagem Docker Deve Ser Verificado
+O rascunho fornecido usou `youruser/tymeslot:latest` como exemplo de imagem, mas isso é apenas um placeholder e não um nome oficial verificado. Antes da implantação, verifique o repositório do Tymeslot, seu `README-Docker.md` ou as instruções do registro de containers do projeto para confirmar a fonte correta da imagem.
+:::
+
+## Instalar o Tymeslot com Docker
+
+Esta seção mostra um fluxo de implantação baseado em Docker usando uma referência de imagem placeholder. Substitua `[your_tymeslot_image]` pelo nome da imagem verificada do projeto oficial Tymeslot.
+
+### Baixar a imagem
 
 ```bash
-docker run --name tymeslot \
-  -p 4000:4000 \
-  -e SECRET_KEY_BASE="$(openssl rand -base64 64 | tr -d '\n')" \
-  -e PHX_HOST=localhost \
-  -v tymeslot_data:/app/data \
-  -v tymeslot_pg:/var/lib/postgresql/data \
-  youruser/tymeslot:latest
+docker pull [your_tymeslot_image]
 ```
 
-Se estiver usando o PowerShell do Windows, o comando `openssl` pode não estar disponível por padrão. Nesse caso, gere um valor seguro aleatório separadamente e substitua `SECRET_KEY_BASE` manualmente.
+### Gerar uma chave secreta
 
-### Referência do comando exemplo
-
-| Opção | Propósito |
-|---|---|
-| `--name tymeslot` | Define o nome do container |
-| `-p 4000:4000` | Expõe o Tymeslot na porta `4000` |
-| `-e SECRET_KEY_BASE=...` | Define o segredo da aplicação para criptografia e sessões |
-| `-e PHX_HOST=localhost` | Define o hostname usado pelo Phoenix |
-| `-v tymeslot_data:/app/data` | Persiste os dados da aplicação |
-| `-v tymeslot_pg:/var/lib/postgresql/data` | Persiste os dados do PostgreSQL |
-| `youruser/tymeslot:latest` | Nome da imagem Docker do rascunho |
-
-### Gerar uma chave secreta no Linux
-
-Se o `openssl` estiver instalado, você pode gerar um segredo assim:
+No Linux, você pode gerar um segredo forte com:
 
 ```bash
 openssl rand -base64 64 | tr -d '\n'
 ```
 
-### Gerar uma chave secreta no PowerShell do Windows
+Salve a saída com segurança e use-a como `[your_secret_key_base]`.
 
-Você pode gerar um segredo temporário no PowerShell assim:
+No Windows, você pode gerar um valor aleatório seguro usando outro método confiável se o `openssl` não estiver disponível no seu ambiente shell.
 
-```powershell
-[Convert]::ToBase64String((1..64 | ForEach-Object { Get-Random -Maximum 256 }))
+### Executar o container
+
+```bash
+docker run -d \
+  --name tymeslot \
+  -p 4000:4000 \
+  -e SECRET_KEY_BASE='[your_secret_key_base]' \
+  -e PHX_HOST='[your_domain_or_ip]' \
+  -v tymeslot_data:/app/data \
+  -v tymeslot_pg:/var/lib/postgresql/data \
+  [your_tymeslot_image]
 ```
 
-:::danger Use seu próprio valor secreto
-Não reutilize segredos de exemplo em produção. Sempre gere seu próprio `SECRET_KEY_BASE` e armazene-o com segurança.
+### Referência dos parâmetros
+
+| Parâmetro | Significado |
+| --- | --- |
+| `-d` | Inicia o container em modo destacado (detached) |
+| `--name tymeslot` | Atribui um nome legível ao container |
+| `-p 4000:4000` | Mapeia a porta `4000` do host para a porta `4000` do container |
+| `-e SECRET_KEY_BASE=...` | Define o segredo da aplicação |
+| `-e PHX_HOST=...` | Define o hostname usado pelo Phoenix |
+| `-v tymeslot_data:/app/data` | Persiste os dados da aplicação |
+| `-v tymeslot_pg:/var/lib/postgresql/data` | Persiste os dados do PostgreSQL se usado dentro do container |
+
+:::caution Verifique os Caminhos dos Volumes Primeiro
+Os caminhos dos volumes mostrados acima vêm do material do rascunho e não foram totalmente confirmados na documentação upstream. Revise a documentação oficial do Docker do Tymeslot antes de confiar nesses caminhos exatos em produção.
+:::
+
+### Verificar status do container
+
+```bash
+docker ps
+```
+
+Para revisar os logs:
+
+```bash
+docker logs tymeslot
+```
+
+Se estiver solucionando problemas de inicialização, os logs são o primeiro lugar para verificar.
+
+## Implantação Opcional com Docker Compose
+
+Se preferir gerenciar containers Docker com Compose, você pode definir o serviço em um arquivo `docker-compose.yml`. Isso costuma ser mais fácil de manter do que comandos longos de `docker run`.
+
+### Exemplo de arquivo Compose
+
+```yaml
+services:
+  tymeslot:
+    image: [your_tymeslot_image]
+    container_name: tymeslot
+    ports:
+      - "4000:4000"
+    environment:
+      SECRET_KEY_BASE: "[your_secret_key_base]"
+      PHX_HOST: "[your_domain_or_ip]"
+    volumes:
+      - tymeslot_data:/app/data
+      - tymeslot_pg:/var/lib/postgresql/data
+    restart: unless-stopped
+
+volumes:
+  tymeslot_data:
+  tymeslot_pg:
+```
+
+Inicie a stack com:
+
+```bash
+docker compose up -d
+```
+
+:::tip Gerenciamento com Compose
+Usar Compose facilita atualizações, reinícios e backups porque a configuração do container fica em um único arquivo. Isso é especialmente útil se você gerencia múltiplas imagens Docker no mesmo host.
 :::
 
 ## Configurar o Tymeslot
 
-Antes do primeiro uso, revise as configurações de runtime mais importantes.
+Depois que o container estiver rodando, revise os valores de configuração mais importantes.
 
-### Variáveis de ambiente
+### Variáveis de ambiente principais
 
-O rascunho confirma as seguintes variáveis de ambiente:
+| Variável | Propósito |
+| --- | --- |
+| `SECRET_KEY_BASE` | Protege sessões e segredos da aplicação |
+| `PHX_HOST` | Define o hostname público ou endereço IP |
 
-| Variável | Exemplo | Propósito |
-|---|---|---|
-| `SECRET_KEY_BASE` | `[your_secret_key]` | Protege sessões e funções relacionadas à criptografia |
-| `PHX_HOST` | `[your_domain]` ou `[your_server_ip]` | Define o hostname público usado pela aplicação |
+Use os placeholders da seguinte forma:
 
-Quando usar os placeholders:
-
-- `[your_secret_key]` é seu segredo seguro gerado
-- `[your_domain]` é seu domínio público, se usar um
-- `[your_server_ip]` é o endereço IP do seu servidor para acesso direto
+- `[your_secret_key_base]` é seu segredo seguro gerado
+- `[your_domain_or_ip]` é o hostname público ou IP do servidor, por exemplo `schedule.[your_domain]` ou `[your_server_ip]`
 
 ### Configuração SMTP
 
-O rascunho também menciona configuração SMTP em `config/prod.exs` para notificações por email:
+O material do rascunho indica que SMTP pode ser configurado para notificações por e-mail em `config/prod.exs`. Exemplo:
 
 ```elixir
 config :tymeslot, Tymeslot.Mailer,
@@ -180,65 +216,62 @@ config :tymeslot, Tymeslot.Mailer,
   auth: :always
 ```
 
-:::note Verificação SMTP
-O formato exato da configuração do mailer deve ser verificado no repositório atual do Tymeslot antes de aplicar em produção, pois a configuração da aplicação pode mudar entre versões.
+:::note Verificação da Configuração SMTP
+O exemplo acima vem do rascunho fornecido e reflete uma configuração típica de mailer Elixir. Você deve comparar com os arquivos atuais de configuração do Tymeslot upstream porque as configurações de e-mail podem mudar entre versões.
 :::
 
-## Acessar o Tymeslot
+## Rede e Acesso
 
-Com o container rodando, você pode testar a interface web.
+Quando o Tymeslot estiver rodando, você precisa garantir que ele seja acessível pelo navegador.
 
-### Acesso local
+### Acessar a interface web
 
-Se estiver testando localmente, abra:
-
-```text
-http://localhost:4000
-```
-
-### Acesso remoto
-
-Se o Tymeslot estiver rodando em um servidor remoto, abra:
+Abra a seguinte URL no seu navegador:
 
 ```text
 http://[your_server_ip]:4000
 ```
 
-Se você configurou um domínio e proxy reverso, pode acessar por:
+Se você configurou um proxy reverso e DNS, pode usar em vez disso:
 
 ```text
 https://[your_domain]
 ```
 
-## Firewall e Rede
-
-O Tymeslot precisa de acesso de rede na porta que você expõe pelo Docker.
-
-### Porta necessária
+### Referência de porta
 
 | Porta | Protocolo | Propósito |
-|---|---|---|
-| `4000` | TCP | Acesso web à aplicação Tymeslot |
+| --- | --- | --- |
+| `4000` | TCP | Acesso web padrão do setup do rascunho |
 
 ### Considerações sobre firewall
 
-Você deve garantir que:
+Você precisa liberar o tráfego de entrada para `4000/tcp` se acessar o Tymeslot diretamente.
 
-- a porta `4000` esteja aberta no firewall do servidor para acesso direto
-- o firewall da nuvem ou do provedor também permita essa porta
-- seu proxy reverso encaminhe o tráfego corretamente se usar domínio
-
-:::caution Exposição pública
-Se expuser a porta `4000` diretamente para a internet, entenda as implicações de segurança. Para implantações em produção, um proxy reverso com HTTPS geralmente é a melhor escolha.
+:::caution Exposição Pública
+Se você expuser o Tymeslot diretamente na internet, considere fortemente colocá-lo atrás de um proxy reverso com HTTPS. Isso melhora a segurança e oferece um acesso mais limpo baseado em domínio.
 :::
 
-## Instalação Nativa Opcional
+## Recomendação de Proxy Reverso
 
-Uma instalação nativa pode ser possível se preferir não usar Docker. Este método é mais avançado e requer ambiente compatível com Elixir e Phoenix.
+Um proxy reverso é recomendado se você quiser usar um nome de domínio e certificado TLS.
 
-### Passos básicos nativos
+### Por que usar um proxy reverso
 
-Segundo o rascunho fornecido, o processo é:
+| Benefício | Explicação |
+| --- | --- |
+| Suporte HTTPS | Criptografa o tráfego entre usuários e seu serviço |
+| Acesso baseado em domínio | Permite usar `[your_domain]` em vez de uma porta bruta |
+| Gerenciamento de certificados mais fácil | Funciona bem com Let's Encrypt e ferramentas similares |
+| Acesso público mais limpo | Esconde as portas internas da aplicação |
+
+### O que verificar
+
+A configuração exata do proxy reverso depende se você usa Nginx, Apache ou outro servidor web. Como nenhum exemplo oficial de proxy estava totalmente disponível no material fornecido, você deve verificar os cabeçalhos necessários e o suporte a websocket na documentação upstream do Tymeslot antes da implantação.
+
+## Notas sobre Instalação Nativa
+
+O Tymeslot é construído com Elixir e Phoenix LiveView, então uma instalação nativa pode ser possível em ambientes de desenvolvimento Linux ou Windows. O rascunho incluiu estes comandos:
 
 ```bash
 git clone https://github.com/tymeslot/tymeslot.git
@@ -249,79 +282,80 @@ mix ecto.migrate
 mix phx.server
 ```
 
-### Notas sobre implantação nativa
+### O que considerar
 
-Para implantações nativas, você também precisaria de:
+| Tópico | Nota |
+| --- | --- |
+| Elixir e Erlang | Devem estar instalados em versões compatíveis |
+| Dependências do Phoenix | Podem requerer ferramentas adicionais de build |
+| Configuração do banco de dados | Deve estar correta antes das migrações |
+| Endurecimento para produção | Geralmente mais complexo que Docker |
 
-- Elixir
-- Erlang/OTP
-- dependências Phoenix
-- configuração de banco de dados suportada
-- revisão da configuração para produção
-
-:::info Complexidade da instalação nativa
-O material fonte obtido não fornece detalhes verificados suficientes para documentar uma configuração nativa completa para Linux ou Windows em produção com segurança. Se quiser usar este método, revise a documentação oficial do repositório antes da implantação.
+:::danger Implantação Nativa em Produção Requer Verificação
+Os passos de instalação nativa acima foram incluídos no rascunho, mas não foram totalmente confirmados a partir do snapshot do repositório upstream fornecido. Você não deve confiar neles para produção sem checar primeiro a documentação oficial atual do Tymeslot e os arquivos do repositório.
 :::
 
-## Manutenção e Solução de Problemas
+## Verificar a Instalação
 
-Após a implantação, verifique se o serviço permanece disponível e se seus dados são persistentes.
+Após a implantação, confirme que a aplicação está funcionando corretamente.
 
-### Verificar status do container
+### Verificações básicas
 
-```bash
-docker ps
-```
-
-### Visualizar logs
-
-```bash
-docker logs tymeslot
-```
-
-### Reiniciar o container
-
-```bash
-docker restart tymeslot
-```
+| Verificação | Resultado esperado |
+| --- | --- |
+| `docker ps` | O container `tymeslot` está rodando |
+| `docker logs tymeslot` | Sem erros repetidos de inicialização ou banco de dados |
+| Acesso pelo navegador | A interface do Tymeslot carrega |
+| Teste de porta | A porta `4000` responde no servidor |
 
 ### Problemas comuns
 
-| Problema | Possível causa | Ação sugerida |
-|---|---|---|
-| Página web não carrega | Porta `4000` bloqueada | Verifique firewall e mapeamento de portas Docker |
-| Container sai imediatamente | Variáveis de ambiente inválidas | Revise `SECRET_KEY_BASE` e configurações da imagem |
-| Erros relacionados ao banco | Problema de armazenamento persistente ou inicialização do banco | Verifique logs e confirme uso dos volumes |
-| Hostname errado nos links | `PHX_HOST` incorreto | Defina `PHX_HOST` para `[your_domain]` ou `[your_server_ip]` |
+| Problema | Possível causa |
+| --- | --- |
+| Página não carrega | Porta `4000` bloqueada ou container não está rodando |
+| Container sai imediatamente | Variáveis de ambiente inválidas ou dependências faltando |
+| Erros de banco de dados nos logs | Falha na inicialização do banco ou caminho de armazenamento errado |
+| Comportamento errado do hostname | `PHX_HOST` não está configurado corretamente |
 
-## Melhores Práticas
+## Atualizando o Tymeslot
 
-### Use volumes persistentes
+Quando uma versão mais nova estiver disponível, atualize a implantação com cuidado.
 
-Sempre mantenha volumes Docker persistentes para dados da aplicação e banco, para que recriar containers não apague seus dados.
+### Fluxo de atualização Docker
 
-### Use um proxy reverso
+1. Baixe a imagem atualizada:
+   ```bash
+   docker pull [your_tymeslot_image]
+   ```
+2. Pare o container atual:
+   ```bash
+   docker stop tymeslot
+   ```
+3. Remova o container antigo:
+   ```bash
+   docker rm tymeslot
+   ```
+4. Inicie um novo container com a mesma configuração.
 
-Para implantações públicas, geralmente é melhor colocar o Tymeslot atrás de um proxy reverso como Nginx ou Apache e ativar HTTPS.
+Se usar Compose, normalmente pode atualizar com:
 
-### Verifique mudanças upstream
+```bash
+docker compose pull
+docker compose up -d
+```
 
-Como o Tymeslot é desenvolvido ativamente, revise o repositório oficial antes de atualizar. Isso é especialmente importante para:
-
-- imagens Docker alteradas
-- variáveis de ambiente atualizadas
-- migrações de banco de dados
-- mudanças na configuração de email
+:::tip Backup Antes de Atualizar
+Antes de atualizar, faça backup dos volumes persistentes e de quaisquer dados relacionados ao banco. Isso oferece um caminho de recuperação caso a nova versão introduza migrações ou problemas de compatibilidade.
+:::
 
 ## Referências Adicionais
 
 | Recurso | Link |
-|---|---|
-| Repositório GitHub do Tymeslot | [Repositório Oficial do Tymeslot](https://github.com/tymeslot/tymeslot) |
+| --- | --- |
+| Repositório oficial do Tymeslot | [GitHub - Tymeslot](https://github.com/tymeslot/tymeslot) |
+| Site oficial do Docker | [Docker](https://www.docker.com/) |
 | Menção no Self-Host Weekly | [Self-Host Weekly - 10 de abril de 2026](https://selfh.st/weekly/2026-04-10/) |
-| Documentação Docker | [Documentação Docker](https://docs.docker.com/) |
-| Download Docker Desktop | [Docker Desktop](https://www.docker.com/products/docker-desktop/) |
 
 ## Conclusão
 
-Parabéns, você aprendeu com sucesso como revisar e implantar o Tymeslot no Linux ou Windows usando Docker. Para dúvidas ou assistência, não hesite em contatar nossa equipe de suporte, que está disponível diariamente para ajudar você!
+Parabéns, você revisou e implantou com sucesso o Tymeslot no Linux ou Windows usando Docker. Para dúvidas ou assistência, não hesite em contatar nossa equipe de suporte, que está disponível diariamente para ajudar você! 🙂
