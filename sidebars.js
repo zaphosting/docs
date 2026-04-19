@@ -4869,7 +4869,41 @@ const sidebars = {
         },
       ],
     },
+    {
+      type: "category",
+      label: "Windrose",
+      key: "gameserver-windrose",
+      items: [
         {
+          type: "category",
+          label: "First Steps",
+          key: "gameserver-first-steps-windrose",
+          items: [
+            "windrose-firststeps-dashboard",
+            "windrose-firststeps-connect",
+          ]
+        },
+        {
+          type: "category",
+          label: "Configuration",
+          key: "gameserver-configuration-windrose",
+          items: [
+            "windrose-manage-worlds",
+            "windrose-password-protection",
+            "windrose-world-modifiers",
+          ]
+        },
+        {
+          type: "category",
+          label: "Troubleshooting",
+          key: "gameserver-troubleshooting-windrose",
+          items: [
+            "windrose-troubleshooting-common-issues",
+          ]
+        },
+      ],
+    },
+    {
       type: "category",
       label: "Wreckfest",
       key: "gameserver-wreckfest",
