@@ -1,6 +1,6 @@
 ---
-id: windrose-dashboard
-title: "Windrose: Panel"
+id: windrose-firststeps-dashboard
+title: "Windrose: Vista General del Panel"
 description: "Descubre el panel Windrose de ZAP-Hosting y aprende a gestionar tu servidor de juegos, monitorear el rendimiento y usar las funciones clave de control de forma eficiente -> Aprende más ahora"
 sidebar_label: Panel
 services:

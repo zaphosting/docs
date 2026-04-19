@@ -1,6 +1,6 @@
 ---
-id: windrose-dashboard
-title: "Windrose: Dashboard"
+id: windrose-firststeps-dashboard
+title: "Windrose: Panoramica del Dashboard"
 description: "Scopri il dashboard Windrose di ZAP-Hosting e impara a gestire il tuo gameserver, monitorare le prestazioni e utilizzare le principali funzioni di controllo in modo efficiente -> Scopri di più ora"
 sidebar_label: Dashboard
 services:

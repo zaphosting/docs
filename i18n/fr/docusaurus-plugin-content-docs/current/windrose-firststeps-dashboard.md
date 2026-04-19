@@ -1,6 +1,6 @@
 ---
-id: windrose-dashboard
-title: "Windrose : Tableau de bord"
+id: windrose-firststeps-dashboard
+title: "Windrose : Aperçu du Tableau de Bord"
 description: "Découvrez le tableau de bord Windrose de ZAP-Hosting et apprenez à gérer votre serveur de jeux, surveiller les performances et utiliser efficacement les principales fonctionnalités de contrôle -> En savoir plus maintenant"
 sidebar_label: Tableau de bord
 services:

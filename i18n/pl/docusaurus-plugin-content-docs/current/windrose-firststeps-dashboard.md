@@ -1,6 +1,6 @@
 ---
-id: windrose-dashboard
-title: "Windrose: Panel główny"
+id: windrose-firststeps-dashboard
+title: "Windrose: Przegląd panelu głównego"
 description: "Odkryj panel główny Windrose w ZAP-Hosting i naucz się zarządzać wynajmem serwerów gier, monitorować wydajność oraz efektywnie korzystać z kluczowych funkcji administracyjnych -> Dowiedz się więcej już teraz"
 sidebar_label: Panel główny
 services:

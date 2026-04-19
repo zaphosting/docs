@@ -1,6 +1,6 @@
 ---
-id: windrose-dashboard
-title: "Windrose：仪表盘"
+id: windrose-firststeps-dashboard
+title: "Windrose：仪表盘总览"
 description: "探索 ZAP-Hosting Windrose 仪表盘，学习如何管理您的游戏服务器托管，监控性能，并高效使用关键控制功能 -> 立即了解更多"
 sidebar_label: 仪表盘
 services:

@@ -1927,6 +1927,19 @@ const servicesMap: serviceMap = {
         }),
         price: `${priceFrom} 5.96€`,
     },
+    'gameserver-windrose': {
+        title: translate({
+            message: 'Windrose Gameserver',
+            id: 'service.gameserver-windrose.title',
+            description: 'Product name for the gameserver product',
+        }),
+        url: translate({
+            message: '{marketingSite}/{language}/windrose-server-hosting/',
+            id: 'service.gameserver-windrose.path',
+            description: 'URL path for the gameserver product',
+        }),
+        price: `${priceFrom} 5.90€`,
+    },
     'gameserver-wreckfest': {
         title: translate({
             message: 'Wreckfest Gameserver',

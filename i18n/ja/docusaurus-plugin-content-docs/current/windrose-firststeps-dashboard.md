@@ -1,6 +1,6 @@
 ---
-id: windrose-dashboard
-title: "Windrose: ダッシュボード"
+id: windrose-firststeps-dashboard
+title: "Windrose: ダッシュボード概要"
 description: "ZAP-HostingのWindroseダッシュボードを紹介し、ゲームサーバーのサーバーのレンタル管理、パフォーマンス監視、主要なコントロール機能の効率的な使い方を学びましょう -> 今すぐ詳しく"
 sidebar_label: ダッシュボード
 services:

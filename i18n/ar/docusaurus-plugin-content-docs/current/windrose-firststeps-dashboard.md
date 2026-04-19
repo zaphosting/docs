@@ -1,6 +1,6 @@
 ---
-id: windrose-dashboard
-title: "Windrose: لوحة المعلومات"
+id: windrose-firststeps-dashboard
+title: "Windrose: Dashboard Overview"
 description: "اكتشف لوحة معلومات Windrose من ZAP-Hosting وتعلم كيفية إدارة سيرفر ألعابك، مراقبة الأداء، واستخدام ميزات التحكم الأساسية بكفاءة -> تعلّم المزيد الآن"
 sidebar_label: لوحة المعلومات
 services:

@@ -1,6 +1,6 @@
 ---
-id: windrose-dashboard
-title: "Windrose: แดชบอร์ด"
+id: windrose-firststeps-dashboard
+title: "Windrose: ภาพรวมแดชบอร์ด"
 description: "ค้นพบแดชบอร์ด ZAP-Hosting Windrose และเรียนรู้วิธีจัดการเซิร์ฟเวอร์เกมของคุณ ตรวจสอบประสิทธิภาพ และใช้ฟีเจอร์ควบคุมหลักอย่างมีประสิทธิภาพ -> เรียนรู้เพิ่มเติมตอนนี้"
 sidebar_label: แดชบอร์ด
 services:
