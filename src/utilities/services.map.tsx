@@ -820,7 +820,7 @@ const servicesMap: serviceMap = {
             id: 'service.gameserver-foundry.path',
             description: 'URL path for the gameserver product',
         }),
-        price: `${priceFrom} 7.90€`,
+        price: `${priceFrom} 6.32€`,
     },
     'gameserver-gmod': {
         title: translate({
@@ -1509,7 +1509,7 @@ const servicesMap: serviceMap = {
             id: 'service.gameserver-scp.path',
             description: 'URL path for the gameserver product',
         }),
-        price: `${priceFrom} 2.76€`,
+        price: `${priceFrom} 5.90€`,
     },
     'gameserver-scum': {
         title: translate({
@@ -1886,7 +1886,7 @@ const servicesMap: serviceMap = {
             id: 'service.gameserver-voyagers-of-nera.path',
             description: 'URL path for the gameserver product',
         }),
-        price: `${priceFrom} 4.14€`,
+        price: `${priceFrom} 5.96€`,
     },
     'gameserver-wreckfest': {
         title: translate({
