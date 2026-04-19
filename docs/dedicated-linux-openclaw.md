@@ -25,6 +25,10 @@ Considering about hosting this service yourself? We’ll walk you through every 
 
 
 
+## Install OpenClaw with the One Click Apps Installer
+
+You can install **OpenClaw** directly through our **One Click Apps Installer** in the VPS web interface. After completing the initial apps setup, open the app catalogue, search for **OpenClaw**, and start the deployment with your preferred project, environment, and domain settings. This gives you a fast and user-friendly way to deploy and manage **OpenClaw** without a manual command line setup, while still benefiting from integrated web-based management, custom domain support, and SSL provisioning where available.
+
 <InlineVoucher />
 
 ## Use cases of OpenClaw
@@ -255,4 +259,3 @@ Congratulations! You have now successfully installed and configured OpenClaw on 
 
 Got specific questions that aren't covered here? For further questions or assistance, please don’t hesitate to contact our support team, which is available daily to assist you! 🙂
 
-<InlineVoucher />

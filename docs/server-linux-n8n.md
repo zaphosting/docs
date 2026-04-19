@@ -22,6 +22,10 @@ Self Hosting support and Low Code Editor makes n8n every Dev's favourite. If you
 
 Planning to host n8n yourself? We’ll walk you through every step on how to set it up and configure it, along with everything you need to keep in mind.
 
+## Install n8n with the One Click Apps Installer
+
+You can install **n8n** directly through our **One Click Apps Installer** in the VPS web interface. After completing the initial apps setup, open the app catalogue, search for **n8n**, and start the deployment with your preferred project, environment, and domain settings. This gives you a fast and user-friendly way to deploy and manage **n8n** without a manual command line setup, while still benefiting from integrated web-based management, custom domain support, and SSL provisioning where available.
+
 <InlineVoucher />
 
 
@@ -238,4 +242,3 @@ Got specific questions that aren't covered here? For further questions or assist
 
 
 
-<InlineVoucher />

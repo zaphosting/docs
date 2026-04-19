@@ -16,6 +16,10 @@ phpMyAdmin is a free, web-based tool for managing MySQL and MariaDB databases. I
 
 
 
+## Install phpMyAdmin with the One Click Apps Installer
+
+You can install **phpMyAdmin** directly through our **One Click Apps Installer** in the VPS web interface. After completing the initial apps setup, open the app catalogue, search for **phpMyAdmin**, and start the deployment with your preferred project, environment, and domain settings. This gives you a fast and user-friendly way to deploy and manage **phpMyAdmin** without a manual command line setup, while still benefiting from integrated web-based management, custom domain support, and SSL provisioning where available.
+
 ## Preparation
 
 Before starting the installation, make sure that the system is up to date. Pending updates and upgrades can be carried out as follows:

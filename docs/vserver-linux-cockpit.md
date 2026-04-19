@@ -16,6 +16,10 @@ Cockpit is a web interface to manage one or more Linux servers (cluster). From s
 Cockpit is suitable for beginners but also for advanced users who want to see/manage everything important in a short time. In addition, it can be accessed from almost any device.
 The project website can be reached at https://cockpit-project.org/. 
 
+## Install Cockpit with the One Click Apps Installer
+
+You can install **Cockpit** directly through our **One Click Apps Installer** in the VPS web interface. After completing the initial apps setup, open the app catalogue, search for **Cockpit**, and start the deployment with your preferred project, environment, and domain settings. This gives you a fast and user-friendly way to deploy and manage **Cockpit** without a manual command line setup, while still benefiting from integrated web-based management, custom domain support, and SSL provisioning where available.
+
 :::info
 This guide explains the installation for Debian (from Buster)/ for Ubuntu (from Bionic Beaver). The installation is also available on the project page for fedora, Red Hat, fedora CoreOS, CentOS, Clear Linux, archlinux and Tumbleweed.   
 :::

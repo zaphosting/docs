@@ -24,6 +24,10 @@ Considering about hosting this service yourself? We’ll walk you through every 
 
 
 
+## Install Plex with the One Click Apps Installer
+
+You can install **Plex** directly through our **One Click Apps Installer** in the VPS web interface. After completing the initial apps setup, open the app catalogue, search for **Plex**, and start the deployment with your preferred project, environment, and domain settings. This gives you a fast and user-friendly way to deploy and manage **Plex** without a manual command line setup, while still benefiting from integrated web-based management, custom domain support, and SSL provisioning where available.
+
 ## Prerequisites
 
 Before installing **Plex**, ensure that your hosting environment meets the following requirements to guarantee a smooth installation and optimal performance.

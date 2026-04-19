@@ -18,6 +18,10 @@ GitLab is a comprehensive DevOps platform that enables teams to collaborate on c
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/ZWMPsLzrXZjnqEE/preview)
 
+## Install GitLab with the One Click Apps Installer
+
+You can install **GitLab** directly through our **One Click Apps Installer** in the VPS web interface. After completing the initial apps setup, open the app catalogue, search for **GitLab**, and start the deployment with your preferred project, environment, and domain settings. This gives you a fast and user-friendly way to deploy and manage **GitLab** without a manual command line setup, while still benefiting from integrated web-based management, custom domain support, and SSL provisioning where available.
+
 <InlineVoucher />
 
 ## Preparation

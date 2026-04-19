@@ -18,6 +18,10 @@ WordPress is a popular web content management system used for managing and publi
 
 
 
+## Install WordPress with the One Click Apps Installer
+
+You can install **WordPress** directly through our **One Click Apps Installer** in the VPS web interface. After completing the initial apps setup, open the app catalogue, search for **WordPress**, and start the deployment with your preferred project, environment, and domain settings. This gives you a fast and user-friendly way to deploy and manage **WordPress** without a manual command line setup, while still benefiting from integrated web-based management, custom domain support, and SSL provisioning where available.
+
 ## Preparation
 
 Begin by connecting to your server via SSH. If you don't know how to do this, please have a look at our [Initial access (SSH)](dedicated-linux-ssh.md) guide.
