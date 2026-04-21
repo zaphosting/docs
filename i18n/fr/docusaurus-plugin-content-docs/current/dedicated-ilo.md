@@ -106,7 +106,7 @@ L’iLO vous propose par défaut deux types de consoles distantes :
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/cozRqRt9KLTMCkd/preview)
 
-### La console HTML5
+### La console HTML5 {#the-html5-console}
 D’un simple clic, vous êtes déjà sur votre serveur, sans besoin d’aucun logiciel tiers, elle se lance directement dans votre navigateur.  
 Elle offre plein d’outils utiles :
 

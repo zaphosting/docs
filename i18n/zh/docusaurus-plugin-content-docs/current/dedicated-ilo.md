@@ -106,7 +106,7 @@ iLO 默认提供两种远程控制台：
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/cozRqRt9KLTMCkd/preview)
 
-### HTML5 控制台
+### HTML5 控制台 {#the-html5-console}
 只需点击即可进入服务器，无需任何第三方软件，直接在浏览器中启动。  
 提供多种实用工具：
 

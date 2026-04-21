@@ -106,7 +106,7 @@ iLO erbjuder som standard två olika typer av fjärrkonsoler:
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/cozRqRt9KLTMCkd/preview)
 
-### HTML5-konsolen
+### HTML5-konsolen {#the-html5-console}
 Med ett enkelt klick är du redan inne på din server, du behöver ingen extra programvara och den startas direkt i webbläsaren.  
 Den erbjuder många användbara verktyg:
 

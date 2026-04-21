@@ -106,7 +106,7 @@ iLO biedt standaard twee soorten remote consoles:
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/cozRqRt9KLTMCkd/preview)
 
-### De HTML5 Console
+### De HTML5 Console {#the-html5-console}
 Met één klik ben je al op je server, je hebt geen extra software nodig en het start direct in je browser.  
 Hij biedt veel handige tools:
 

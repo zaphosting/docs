@@ -106,7 +106,7 @@ iLO oferuje domyślnie dwa różne typy konsol zdalnych:
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/cozRqRt9KLTMCkd/preview)
 
-### Konsola HTML5
+### Konsola HTML5 {#the-html5-console}
 Jednym kliknięciem jesteś już na serwerze, nie potrzebujesz żadnego dodatkowego oprogramowania, uruchamia się bezpośrednio w przeglądarce.  
 Oferuje wiele przydatnych narzędzi:
 

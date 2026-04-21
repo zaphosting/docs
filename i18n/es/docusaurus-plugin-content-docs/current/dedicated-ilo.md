@@ -106,7 +106,7 @@ iLO te ofrece por defecto dos tipos de consolas remotas:
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/cozRqRt9KLTMCkd/preview)
 
-### Consola HTML5
+### Consola HTML5 {#the-html5-console}
 Con un clic ya estás en tu servidor, no necesitas software adicional y se lanza directamente en tu navegador.  
 Ofrece muchas herramientas útiles:
 
