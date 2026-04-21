@@ -12,11 +12,17 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introductie
 
-Deze gids geeft je stappen voor het installeren van verschillende soorten databases. Voor dit voorbeeld gebruiken we Ubuntu 20.04 als besturingssysteem, maar we geven ook de equivalente commando’s voor andere Linux distros die wij aanbieden op onze site. Deze commando’s voer je uit via SSH. Weet je niet hoe je via SSH verbinding maakt met je server? Check dan hier: [Eerste toegang (SSH)](vserver-linux-ssh.md).
+Deze gids geeft je stappen voor het installeren van verschillende soorten databases. Voor dit voorbeeld gebruiken we Ubuntu 20.04 als besturingssysteem, maar we geven ook de equivalente commando’s voor andere Linux distros die wij aanbieden op onze website. Deze commando’s voer je uit via SSH. Weet je niet hoe je via SSH verbinding maakt met je server? Check dan hier: [Eerste toegang (SSH)](vserver-linux-ssh.md).
+
+
+
+## Databases Installeren met de One Click Apps Installer
+
+Je kunt **Databases** direct installeren via onze **One Click Apps Installer** in de VPS webinterface. Na het afronden van de eerste app-setup, open je de app-catalogus, zoek je op **Databases** en start je de deployment met je favoriete project-, omgeving- en domeininstellingen. Dit is een snelle en gebruiksvriendelijke manier om **Databases** te deployen en beheren zonder handmatige command line setup, terwijl je toch profiteert van geïntegreerd webbeheer, custom domeinsupport en SSL provisioning waar beschikbaar.
 
 ## Voorbereiding
 
-Voordat je begint met het installeren van een database, moet je eerst zorgen dat je systeem up-to-date is. Update hiervoor de pakketten via je pakketbeheerder met het volgende commando, afhankelijk van je OS:
+Voordat je begint met het installeren van een database, moet je eerst zorgen dat je systeem up-to-date is. Update hiervoor de pakketten via je systeem package manager met het volgende commando, afhankelijk van je besturingssysteem:
 
 ```
 // Ubuntu & Debian
@@ -44,23 +50,23 @@ import TabItem from '@theme/TabItem';
 
 ## Wat is MariaDB?
 
-MariaDB is een open-source relationeel databasebeheersysteem, oorspronkelijk een fork van MySQL. Het biedt betere performance, veiligheid en wordt continu doorontwikkeld. MariaDB heeft verbeterde opslagengines en is volledig compatibel met MySQL. Wij raden MariaDB aan boven MySQL.
+MariaDB is een open-source relationeel databasebeheersysteem, oorspronkelijk een fork van MySQL. Het biedt betere performance, veiligheid en continue ontwikkeling. MariaDB heeft verbeterde opslagengines en is volledig compatibel met MySQL. Wij raden MariaDB aan boven MySQL.
 
 ## MariaDB Installatie
 
-Zorg er eerst voor dat je de nieuwste MariaDB-versie installeert. Sommige oudere OS’en zoals Debian 9 of Ubuntu 18.04 hebben standaard niet de nieuwste MariaDB in hun pakketbeheer. Met het volgende commando zorg je dat je de nieuwste versie binnenhaalt:
+Allereerst moet je ervoor zorgen dat de nieuwste MariaDB-versie wordt geïnstalleerd. Sommige oudere besturingssystemen zoals Debian 9 of Ubuntu 18.04 bevatten standaard niet de nieuwste MariaDB-versie in hun package manager. Door het volgende commando uit te voeren zorg je dat je de nieuwste versie binnenhaalt.
 
 ```
 curl -sS https://downloads.mariadb.com/MariaDB/mariadb_repo_setup | sudo bash
 ```
 
-Na het toevoegen van de repo update je de pakketcache zoals beschreven in de voorbereiding.
+Na het installeren van de repo, update je de package manager cache zoals beschreven in de voorbereiding.
 
 :::info
-De MariaDB repo installatie (bovenstaande stap) kun je veilig overslaan op moderne OS’en zoals Ubuntu 22.04 of Debian 11.
+De MariaDB repo installatie (stap hierboven) kun je veilig overslaan op moderne besturingssystemen zoals Ubuntu 22.04 of Debian 11.
 :::
 
-Als de repo klaarstaat, kun je MariaDB installeren met het pakket `mariadb-server`. Voer het commando uit dat bij jouw OS hoort:
+Als de repo setup klaar is, kun je MariaDB installeren door het `mariadb-server` pakket te installeren. Voer het volgende commando uit, afhankelijk van je OS:
 
 ```
 // Ubuntu & Debian
@@ -78,13 +84,13 @@ sudo dnf install mariadb-server
 
 ## MariaDB Configuratie
 
-Na installatie start je de configuratie met:
+Als de installatie klaar is, start je de configuratie van de server met:
 
 ```
 mysql_secure_installation
 ```
 
-Volg de prompts om je MariaDB (MySQL) server te configureren en stel een wachtwoord in. Bij de eerste prompt kun je voorlopig op **Enter** drukken om door te gaan.
+Volg de prompts om je MariaDB (MySQL) server te configureren en stel een wachtwoord in. Bij de eerste prompt kun je voorlopig op **Enter** drukken om deze over te slaan.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/sYDegXcMZwCoZzJ/preview)
 
@@ -92,25 +98,25 @@ Volg de prompts om je MariaDB (MySQL) server te configureren en stel een wachtwo
 De gebruiker root is de hoofdgebruiker van je MariaDB (MySQL) server!
 :::
 
-Je wordt gevraagd of je een wachtwoord voor root wilt instellen, bevestig met **y**. Typ daarna het nieuwe wachtwoord in.
+Daarna wordt gevraagd of je een wachtwoord wilt instellen voor de root gebruiker, bevestig dit met **y**. Typ vervolgens het nieuwe wachtwoord in.
 
 :::note
-Tijdens het typen zie je het wachtwoord niet verschijnen, dat is normaal. Zorg dat je een sterk wachtwoord kiest en bewaar het veilig.
+Tijdens het typen van het wachtwoord zie je niets verschijnen. Dit is normaal en je wachtwoord wordt gewoon opgeslagen. Gebruik een sterk wachtwoord en bewaar het veilig.
 :::
 
-Vervolgens vraagt het systeem of je anonieme gebruikers wilt verwijderen. Doe dit altijd voor de veiligheid en bevestig met **y**:
+Vervolgens wordt gevraagd of je anonieme gebruikers wilt verwijderen. Dit moet je sowieso doen voor de veiligheid, bevestig met **y**:
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/9rnHy9dJmezjemq/preview)
 
-Daarna bepaal je of root extern mag verbinden. Voor de veiligheid raden we aan dit uit te schakelen, bevestig dus met **y**:
+Daarna bepaal je of de root gebruiker extern mag verbinden met de server. Voor de veiligheid schakel je dit uit en bevestig je met **y**:
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/cEozmgcXDBgaRwY/preview)
 
-Je kunt ook de testdatabase verwijderen, bevestig dit met **y** omdat deze niet nodig is:
+In de volgende stap kun je ook de testdatabase verwijderen die MariaDB (MySQL) standaard aanmaakt. Dit is niet nodig, dus bevestig met **y**:
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/kGHT3tm78dNBTRo/preview)
 
-Tot slot wordt gevraagd of je de permissies wilt updaten. Bevestig met **y** om het wachtwoord te activeren:
+Tot slot wordt gevraagd of je de permissies wilt updaten. Bevestig met **y** om het ingestelde root wachtwoord te activeren:
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/kGNDZkRS4QrpEfF/preview)
 
@@ -123,11 +129,11 @@ Je MariaDB (MySQL) server is nu klaar voor gebruik!
 
 ## Wat is Redis?
 
-Redis is een in-memory data structuur opslag, vooral gebruikt voor key-value data, maar ondersteunt ook lijsten, JSON en meer. Het staat bekend om zijn snelheid, met antwoorden binnen milliseconden.
+Redis is een in-memory data structuur opslag, vooral gebruikt om data op te slaan in key-value vorm, maar ondersteunt ook andere formaten zoals lijsten, JSON en meer. Het staat bekend om zijn snelheid en geeft antwoorden binnen milliseconden.
 
 ## Redis Installatie
 
-Eerst moet je een repo toevoegen om Redis te kunnen installeren. Dit is niet voor alle Linux distros nodig, alleen voor onderstaande. Voer het commando uit dat bij jouw OS en versie hoort:
+Eerst moet je een repo toevoegen om Redis te kunnen installeren. Dit is niet nodig voor alle Linux distros, alleen voor de hieronder genoemde. Voer het commando uit dat bij jouw OS en versie hoort:
 
 ```
 // Ubuntu (alle versies) en Debian (alleen Debian 10)
@@ -141,13 +147,13 @@ sudo yum install epel-release
 sudo dnf install https://dl.fedoraproject.org/pub/epel/epel-release-latest-8.noarch.rpm
 ```
 
-Update daarna je pakketcache zoals beschreven in de voorbereiding.
+Update daarna je package manager cache zoals beschreven in de voorbereiding.
 
 :::info
 Als jouw OS niet hierboven staat, kun je deze stap overslaan.
 :::
 
-Na het toevoegen van de repo installeer je Redis met het commando dat bij jouw OS hoort:
+Na het toevoegen van de juiste repo, installeer je het Redis Server pakket. Gebruik het commando dat bij jouw OS hoort:
 
 ```
 // Ubuntu en Debian
@@ -163,11 +169,11 @@ sudo zypper install redis
 sudo dnf install redis
 ```
 
-Na installatie is je Redis server klaar voor gebruik! Standaard draait hij op 127.0.0.1:6379 zonder wachtwoord.
+Na installatie is je Redis server klaar voor gebruik! Standaard draait deze op 127.0.0.1:6379 zonder wachtwoord.
 
 :::caution 
 Voor Debian/Ubuntu gebruikers:
-Vergeet niet de `redis-server` service te activeren zodat deze automatisch start bij het opstarten van de server. Dit doe je met:
+Vergeet niet om de `redis-server` service te activeren zodat deze automatisch start bij het opstarten van de server. Dit doe je met:
 
 ```
 sudo systemctl enable --now redis-server
@@ -179,7 +185,7 @@ sudo systemctl enable --now redis-server
 <TabItem value="mongodb" label="MongoDB">
 
 ## Wat is MongoDB?
-MongoDB is een document-georiënteerde NoSQL database, ontworpen voor schaalbaarheid en ontwikkelaarsflexibiliteit. Het slaat data op in JSON-achtige BSON-formaat, wat diverse datatypes ondersteunt. Het gebruikt indexen om responstijden te verkorten en heeft geen vooraf gedefinieerd schema zoals MySQL of SQLite, wat zorgt voor meer flexibiliteit.
+MongoDB is een document-georiënteerde NoSQL database, ontworpen voor schaalbaarheid en ontwikkelaarsflexibiliteit. Het slaat data op in JSON-achtige BSON-formaat, wat diverse datatypes ondersteunt. Het maakt gebruik van indexen om responstijd te verkorten en heeft geen vooraf gedefinieerd schema zoals MySQL of SQLite, wat zorgt voor meer flexibiliteit.
 
 ## MongoDB Installatie
 
@@ -190,7 +196,7 @@ Selecteer je besturingssysteem in de tabs hieronder voor de juiste installatieha
 
 ### Installatie op Ubuntu & Debian
 
-Importeer eerst de publieke GPG-sleutel van MongoDB:
+Eerst importeer je de publieke GPG-sleutel van MongoDB:
 
 ```
 curl -fsSL https://pgp.mongodb.com/server-6.0.asc | \
@@ -198,13 +204,13 @@ curl -fsSL https://pgp.mongodb.com/server-6.0.asc | \
    --dearmor
 ```
 
-Voeg daarna de MongoDB bron toe aan de source list van je OS:
+Daarna voeg je de MongoDB bron toe aan de source list van je OS:
 
 ```
 echo "deb [ arch=amd64,arm64 signed-by=/usr/share/keyrings/mongodb-server-6.0.gpg ] https://repo.mongodb.org/apt/$(lsb_release -si | awk '{print tolower($0)}') $(lsb_release -sc)/mongodb-org/6.0 main" | sudo tee /etc/apt/sources.list.d/mongodb-org-6.0.list
 ```
 
-Update nu de repositories met `sudo apt update` en installeer MongoDB met:
+Update nu de repositories met `sudo apt update`. Installeer MongoDB met:
 
 ```
 sudo apt install mongodb-org
@@ -217,9 +223,9 @@ Je MongoDB installatie zou nu moeten werken!
 
 ### Installatie op CentOS & Fedora
 
-Eerst moet je de MongoDB repo instellen voor Red Hat systemen.
+Eerst stel je de MongoDB repo in voor Red Hat systemen.
 
-Maak een bestand `/etc/yum.repos.d/mongodb-org-6.0.repo` aan en plak de volgende inhoud erin:
+Maak een bestand aan `/etc/yum.repos.d/mongodb-org-6.0.repo` en plak de volgende inhoud erin:
 
 ```
 [mongodb-org-6.0]
@@ -230,7 +236,7 @@ enabled=1
 gpgkey=https://www.mongodb.org/static/pgp/server-6.0.asc
 ```
 
-Nu kun je MongoDB installeren. Er is een klein verschil in het installatiecommando tussen CentOS en Fedora, gebruik het juiste hieronder:
+Nu kun je MongoDB installeren. Er is een klein verschil in het install commando tussen CentOS en Fedora, gebruik het juiste hieronder:
 
 ```
 // CentOS
@@ -240,26 +246,26 @@ sudo yum install -y mongodb-org
 sudo dnf install -y mongodb-org
 ```
 
-Je MongoDB installatie zou nu moeten werken, veel eenvoudiger dan bij andere Linux distros!
+Je MongoDB installatie zou nu moeten werken, veel makkelijker dan bij andere Linux distros!
 
 </TabItem>
 <TabItem value="mongodb-suse" label="OpenSUSE">
 
 ### Installatie op OpenSUSE
 
-Importeer eerst de publieke sleutel van MongoDB:
+Eerst importeer je de publieke MongoDB sleutel:
 
 ```
 sudo rpm --import https://www.mongodb.org/static/pgp/server-6.0.asc
 ```
 
-Voeg daarna de MongoDB repo toe:
+Voeg daarna de MongoDB repo toe met:
 
 ```
 sudo zypper addrepo --gpgcheck "https://repo.mongodb.org/zypper/suse/15/mongodb-org/6.0/x86_64/" mongodb
 ```
 
-Installeer tenslotte MongoDB met:
+Installeer tenslotte de nieuwste MongoDB versie met:
 
 ```
 sudo zypper -n install mongodb-org

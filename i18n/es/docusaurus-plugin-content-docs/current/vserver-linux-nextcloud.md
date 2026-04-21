@@ -12,11 +12,15 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introducción
 
-Nextcloud es una solución de nube open source y un fork de Owncloud, fundada en 2016 por Frank Kalitschek, ex fundador de Owncloud.
+Nextcloud es una solución de nube open source y un fork de Owncloud, fundada en 2016 por Frank Kalitschek, el ex fundador de Owncloud.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/kCndbKaFAaktERk/preview)
 
 Para lograr un rendimiento, estabilidad y funcionalidad óptimos, se recomienda la siguiente configuración para alojar un servidor Nextcloud. El servidor Nextcloud no es compatible con Windows ni MacOS. Al menos no sin virtualización adicional o soluciones similares.
+
+## Instala Nextcloud con el instalador One Click Apps
+
+Puedes instalar **Nextcloud** directamente a través de nuestro **instalador One Click Apps** en la interfaz web del VPS. Tras completar la configuración inicial de apps, abre el catálogo de apps, busca **Nextcloud** y comienza el despliegue con tu proyecto, entorno y configuración de dominio preferidos. Esto te ofrece una forma rápida y amigable de desplegar y gestionar **Nextcloud** sin configurar manualmente por línea de comandos, mientras aprovechas la gestión web integrada, soporte para dominios personalizados y provisión de SSL donde esté disponible.
 
 <InlineVoucher />
 
@@ -26,25 +30,25 @@ Los siguientes requisitos son recomendados por los desarrolladores y basados en 
 
 #### Hardware
 
-| Componentes   | Mínimo                 | Recomendado                  |
-| ------------- | ---------------------- | ---------------------------- |
+| Componentes   | Mínimo                 | Recomendado                 |
+| ------------- | ---------------------- | --------------------------- |
 | CPU           | 2x 1 GHz               | 4x 2+ GHz                   |
 | RAM           | 512 MB                 | 4+ GB                       |
 | Almacenamiento| 10 GB                  | 50+ GB                      |
-| Ancho de banda| 100 mbit/s (subida & bajada) | 500mbit/s (subida & bajada) Recomendado si varios usuarios van a usar la nube |
+| Ancho de banda| 100 mbit/s (subida y bajada) | 500mbit/s (subida y bajada) Recomendado si varios usuarios usarán la nube |
 
 #### Software
 
-| Plataforma       | Opciones                                                      |
-| ---------------- | ------------------------------------------------------------- |
-| Sistema operativo| Ubuntu (14.04, 16.04, 18.04), Debian(8,9,10), CentOS 6.5/7   |
-| Base de datos    | MySQL o MariaDB 5.5+ (recomendado), SQLite (solo recomendado para pruebas y instancias mínimas) |
-| Servidor web     | Apache 2.4 con `mod_php` o `php-fpm` (recomendado)            |
-| PHP              | 5.6, 7.0 (recomendado), 7.1 (recomendado), 7.2               |
+| Plataforma        | Opciones                                                      |
+| ----------------- | ------------------------------------------------------------- |
+| Sistema operativo | Ubuntu (14.04, 16.04, 18.04), Debian(8,9,10), CentOS 6.5/7   |
+| Base de datos     | MySQL o MariaDB 5.5+ (recomendado), SQLite (solo para pruebas y instancias mínimas) |
+| Servidor web      | Apache 2.4 con `mod_php` o `php-fpm` (recomendado)            |
+| PHP               | 5.6, 7.0 (recomendado), 7.1 (recomendado), 7.2                |
 
-Para instalar la nube en un servidor Linux, es necesario establecer conexión vía cliente SSH. Si no sabes cómo usar SSH, aquí tienes una guía para hacerlo: [Acceso inicial (SSH)](vserver-linux-ssh.md)
+Para instalar la nube en un servidor Linux, debes establecer conexión vía cliente SSH. Si no sabes usar SSH, aquí tienes una guía: [Acceso inicial (SSH)](vserver-linux-ssh.md)
 
-Una vez establecida la conexión, puedes comenzar a instalar los paquetes necesarios para la instalación de Nextcloud. Esto incluye la instalación de un servidor web y PHP.
+Una vez establecida la conexión, puedes comenzar a instalar los paquetes necesarios para la instalación de Nextcloud. Esto incluye instalar un servidor web y PHP.
 
 
 import Tabs from '@theme/Tabs';
@@ -281,7 +285,7 @@ mysql -u root -p
 CREATE DATABASE nextcloud;
 ```
 
-Después, hay que crear un usuario que tenga acceso a la base de datos Nextcloud.
+Luego, crea un usuario que tenga acceso a la base de datos Nextcloud.
 
 ```sql
 CREATE USER 'nc_user'@'localhost' IDENTIFIED BY 'TU_CONTRASEÑA_AQUÍ';
@@ -291,7 +295,7 @@ CREATE USER 'nc_user'@'localhost' IDENTIFIED BY 'TU_CONTRASEÑA_AQUÍ';
 No omitas este paso usando el usuario root. No es seguro y puede poner tus datos en riesgo.
 :::
 
-El último paso es asignar los permisos al nuevo usuario:
+El último paso es asignar permisos al nuevo usuario:
 
 ```SQL
 GRANT ALL PRIVILEGES ON nextcloud.* TO 'nc_user'@'localhost';
@@ -320,7 +324,7 @@ mysql -u root -p
 CREATE DATABASE nextcloud;
 ```
 
-Después, hay que crear un usuario que tenga acceso a la base de datos Nextcloud.
+Luego, crea un usuario que tenga acceso a la base de datos Nextcloud.
 
 ```sql
 CREATE USER 'nc_user'@'localhost' IDENTIFIED BY 'TU_CONTRASEÑA_AQUÍ';
@@ -331,7 +335,7 @@ No omitas este paso usando el usuario root. No es seguro y puede poner tus datos
 :::
 
 
-El último paso es asignar los permisos al nuevo usuario:
+El último paso es asignar permisos al nuevo usuario:
 
 ```SQL
 GRANT ALL PRIVILEGES ON nextcloud.* TO 'nc_user'@'localhost';
@@ -360,7 +364,7 @@ sudo -u postgres psql
 CREATE DATABASE nextcloud;
 ```
 
-Después, hay que crear un usuario que tenga acceso a la base de datos Nextcloud.
+Luego, crea un usuario que tenga acceso a la base de datos Nextcloud.
 
 ```sql
 CREATE USER nextcloud with encrypted password 'TU_CONTRASEÑA_AQUÍ';
@@ -370,7 +374,7 @@ CREATE USER nextcloud with encrypted password 'TU_CONTRASEÑA_AQUÍ';
 No omitas este paso usando el usuario root. No es seguro y puede poner tus datos en riesgo.
 :::
 
-El último paso es asignar los permisos al nuevo usuario:
+El último paso es asignar permisos al nuevo usuario:
 
 ```SQL
 grant all privileges on database mydb to myuser;
@@ -407,7 +411,7 @@ Crear nueva base de datos SQLite 3
 sqlite3 DatabaseName.db
 ```
 
-Después, la base de datos SQLite 3 puede ser modificada vía el instalador web o mediante el archivo **config.php**.
+Después, la base de datos SQLite 3 puede modificarse vía el instalador web o mediante el archivo **config.php**.
 ```
 <?php
 $AUTOCONFIG = array(
@@ -421,7 +425,7 @@ $AUTOCONFIG = array(
 
 ## Instalación
 
-Ahora se puede comenzar la instalación real de Nextcloud. Hay que descargar y descomprimir el software:
+Ahora puede comenzar la instalación real de Nextcloud. Se debe descargar y descomprimir el software:
 ```
 cd /var/www/
 wget https://download.nextcloud.com/server/releases/latest.zip
@@ -457,7 +461,6 @@ Aparece la configuración del script de instalación, donde se crea un usuario r
 
 Se recomienda encarecidamente colocar el directorio de datos fuera del directorio raíz web (es decir, fuera de /var/www). La forma más sencilla es hacerlo en una instalación nueva. El directorio puede definirse durante la configuración. Sin embargo, primero debe crearse y asignarse los permisos correspondientes. Por ejemplo, los datos podrían almacenarse en un directorio llamado Cloud en el directorio home.
 
-
 ```
 mkdir /home/cloud/
 chown -R www-data:www-data /home/cloud/
@@ -467,7 +470,7 @@ chown -R www-data:www-data /home/cloud/
 
 **HTTPS mediante certificado SSL (Let's Encrypt)** 
 
-Una buena solución en la nube debería ser accesible solo mediante conexión SSL. Sin cifrado SSL, los datos e información se transfieren en texto plano. Esta información puede ser interceptada y leída fácilmente sin cifrado.
+Una buena solución en la nube debería ser accesible solo mediante conexión SSL. Sin cifrado SSL, los datos e información se transmiten en texto plano. Esta información puede ser interceptada y leída fácilmente sin cifrado.
 
 ```
 <IfModule mod_ssl.c>
@@ -520,11 +523,11 @@ El acceso a Nextcloud es posible vía navegador, así como desde smartphone y or
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/aw6qpNE7TkwQeaP/preview)
 
-En ajustes puedes modificar algunas opciones incluso después de la configuración y ver información importante como logs, actividades. Esto incluye ajustes de seguridad adicionales (autenticación de dos factores, cifrado, ... ), ajustes de diseño (logo, color, eslogan, cabecera), ajustes de acceso y mucho más.
+En ajustes puedes modificar más opciones incluso después de la configuración y ver información importante como logs y actividades. Esto incluye configuraciones de seguridad adicionales (autenticación de dos factores, cifrado, ...), ajustes de diseño (logo, color, eslogan, cabecera), configuraciones de acceso y mucho más.
 
 **Apps**
 
-Además, existe la posibilidad de instalar apps adicionales aparte de las apps por defecto. Puedes acceder a ellas desde el menú **Apps**.
+Además, existe la posibilidad de instalar apps adicionales aparte de las predeterminadas. Puedes acceder a ellas desde el menú **Apps**.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/wKERd24E25668kt/preview)
 
@@ -533,6 +536,6 @@ Con estas **Apps** puedes personalizar aún más Nextcloud según tus deseos.
 
 ## Conclusión
 
-¡Felicidades, has instalado Nextcloud con éxito! Si tienes más preguntas o problemas, contacta con nuestro equipo de soporte, que está disponible para ayudarte todos los días.
+¡Felicidades, has instalado Nextcloud con éxito! Si tienes más preguntas o problemas, contacta con nuestro equipo de soporte, disponible para ayudarte todos los días.
 
 <InlineVoucher />

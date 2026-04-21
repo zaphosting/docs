@@ -14,27 +14,31 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## 介绍
 
-Supabase 是一个开源的 Postgres 开发平台，提供完整的 Postgres 数据库加上身份验证、即时 API、实时和存储功能，是 Firebase 的开源替代方案。
+Supabase 是一个开源的 Postgres 开发平台，提供完整的 Postgres 数据库加上身份验证、即时 API、实时功能和存储，是 Firebase 的开源替代方案。
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/gE9NRSMr22oZaCx/preview)
 
-想自己托管这个服务？我们会带你一步步完成安装和配置，同时告诉你所有需要注意的事项。
+想自己托管这个服务？我们会一步步带你完成安装和配置，并告诉你所有需要注意的事项。
+
+## 通过一键应用安装器安装 Supabase
+
+你可以直接通过我们 VPS 网页界面的**一键应用安装器**安装 **Supabase**。完成初始应用设置后，打开应用目录，搜索 **Supabase**，选择你喜欢的项目、环境和域名设置开始部署。这为你提供了一个快速且用户友好的方式来部署和管理 **Supabase**，无需手动命令行操作，同时还能享受集成的网页管理、自定义域名支持和可用时的 SSL 证书配置。
 
 <InlineVoucher />
 
 ## 前提条件
 
-在安装 **Supabase** 之前，请确保你的主机环境满足以下要求，以保证安装顺利且性能最佳。
+在安装 **Supabase** 之前，请确保你的托管环境满足以下要求，以保证安装顺利且性能最佳。
 
 | 硬件       | 最低要求    | ZAP-Hosting 推荐配置       |
-| ---------- | ---------- | -------------------------- |
-| CPU        | 1 个 vCPU  | 4 个 vCPU                  |
-| 内存       | 4 GB       | 8 GB                       |
-| 磁盘空间   | 25 GB      | 25 GB                      |
+| ---------- | ----------- | -------------------------- |
+| CPU        | 1 个 vCPU 核心 | 4 个 vCPU 核心             |
+| 内存       | 4 GB        | 8 GB                       |
+| 磁盘空间   | 25 GB       | 25 GB                      |
 
-软件要求所有必要依赖已安装，并运行在支持的操作系统上。请确保你的服务器满足以下条件后再继续安装：
+软件要求安装所有必要依赖，并运行在支持的操作系统上。请确保你的服务器满足以下条件后再继续安装：
 
-**依赖项：** `Git`、`Docker（引擎和 Compose）`
+**依赖项：** `Git`，`Docker（引擎和 Compose）`
 
 **操作系统：** 支持 Docker 2 的最新 Ubuntu/Debian 版本
 
@@ -42,7 +46,7 @@ Supabase 是一个开源的 Postgres 开发平台，提供完整的 Postgres 数
 
 ## 准备工作
 
-在搭建 **Supabase** 之前，你需要先准备好系统，包括将操作系统更新到最新版本并安装所有必需依赖。这些准备工作能保证环境稳定，避免安装过程中或之后出现问题。
+在搭建 **Supabase** 之前，你需要先准备好系统，包括更新操作系统到最新版本并安装所有必需依赖。这些准备工作能保证环境稳定，避免安装过程中或之后出现问题。
 
 ### 更新系统
 为了确保系统运行最新的软件和安全补丁，建议先执行系统更新。运行以下命令：
@@ -50,13 +54,13 @@ Supabase 是一个开源的 Postgres 开发平台，提供完整的 Postgres 数
 ```
 sudo apt update && sudo apt upgrade -y
 ```
-这会确保系统拥有最新的安全补丁和软件版本，方便后续操作。
+这样可以确保系统拥有最新的安全补丁和软件版本。
 
 ### 安装依赖
 更新完成后，就可以安装依赖了。
 
 #### Git
-Supabase 的数据会通过 GitHub 下载，因此需要先安装 Git。运行：
+Supabase 的数据会通过 GitHub 下载，因此需要先安装 Git。运行以下命令：
 
 ```
 sudo apt install git-all
@@ -64,7 +68,7 @@ sudo apt install git-all
 
 #### Docker
 
-Supabase 会通过 Docker 容器部署并运行，因此需要先安装 Docker。运行：
+Supabase 会通过 Docker 容器部署和运行，因此需要先安装 Docker。运行以下命令：
 
 ```
 curl -fsSL https://get.docker.com -o get-docker.sh
@@ -96,7 +100,7 @@ docker compose up -d
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/njapji2YePRgema/preview)
 
-现在你可以通过 `http://<your-ip>:8000` 访问 Supabase Studio。系统会要求输入用户名和密码，默认凭据为：
+现在你可以通过 `http://<你的IP>:8000` 访问 Supabase Studio。系统会要求输入用户名和密码，默认凭据为：
 
 - 用户名：`supabase`
 - 密码：`this_password_is_insecure_and_should_be_updated`
@@ -110,7 +114,7 @@ docker compose up -d
 ## 配置
 切勿使用默认或示例值部署。请替换所有占位符为强壮且唯一的密钥，检查配置是否符合你的安全需求，并重启所有服务以应用更改。
 
-在暴露任何服务前，先生成安全的 API 密钥。首先选择一个 40 字符的 JWT 密钥。你可以使用示例值，也可以自定义。将此密钥安全地保存在本地，切勿泄露或提交到版本控制。使用该密钥生成 JWT，然后根据 Supabase 文档中的表单生成 anon 和 service API 密钥：https://supabase.com/docs/guides/self-hosting/docker#generate-api-keys
+在暴露任何服务之前，先生成安全的 API 密钥。首先选择一个 40 字符的 JWT 密钥。你可以使用示例值，也可以自定义。请将此密钥安全地保存在本地，切勿泄露或提交到版本控制。使用该密钥生成 JWT，然后根据 Supabase 文档中的表单生成 anon 和 service API 密钥：https://supabase.com/docs/guides/self-hosting/docker#generate-api-keys
 
 运行表单两次以生成两个密钥。更新你的 `./docker/.env` 文件：
 
@@ -142,7 +146,7 @@ basicauth_credentials:
     password: password_two
 ```
 
-若想在非 `localhost` 环境下启用所有 Dashboard 功能，请在 `./docker/.env` 中设置 `SUPABASE_PUBLIC_URL` 为你访问 Dashboard 的 URL 或 IP。
+如果想让 Dashboard 在非 `localhost` 环境下完整运行，请在 `./docker/.env` 中设置 `SUPABASE_PUBLIC_URL` 为你访问 Dashboard 的 URL 或 IP。
 
 修改配置后，重启服务应用更改：
 
@@ -158,6 +162,4 @@ docker compose up -d
 - [Supabase.com](https://Supabase.com/) - 官方网站
 - [Supabase.com/docs/guides/self-hosting](https://supabase.com/docs/guides/self-hosting) - Supabase 官方文档
 
-有具体问题没在这里找到答案？欢迎随时联系我们的支持团队，我们每天都在线为你服务！🙂
-
-<InlineVoucher />
+有具体问题没覆盖到？欢迎随时联系在线客服，我们每天都在线，随时为你提供帮助！🙂

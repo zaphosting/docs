@@ -20,9 +20,13 @@ Supabase é uma plataforma de desenvolvimento Postgres open source que oferece u
 
 Quer hospedar esse serviço por conta própria? Vamos te guiar em cada passo para configurar e ajustar tudo, além de te mostrar o que é importante ficar de olho.
 
+## Instale o Supabase com o Instalador One Click Apps
+
+Você pode instalar o **Supabase** diretamente pelo nosso **Instalador One Click Apps** na interface web da sua VPS. Depois de configurar os apps iniciais, abra o catálogo de apps, busque por **Supabase** e inicie a implantação com as configurações de projeto, ambiente e domínio que preferir. Isso te dá uma forma rápida e fácil de implantar e gerenciar o **Supabase** sem precisar usar linha de comando manualmente, aproveitando a gestão integrada via web, suporte a domínios personalizados e provisionamento SSL onde disponível.
+
 <InlineVoucher />
 
-## Requisitos
+## Pré-requisitos
 
 Antes de instalar o **Supabase**, certifique-se de que seu ambiente de hospedagem atende aos seguintes requisitos para garantir uma instalação tranquila e desempenho ideal.
 
@@ -45,7 +49,7 @@ Verifique se todas as dependências estão instaladas e se a versão correta do 
 Antes de configurar o **Supabase**, você precisa preparar seu sistema. Isso inclui atualizar seu sistema operacional para a versão mais recente e instalar todas as dependências necessárias. Essas preparações garantem um ambiente estável e ajudam a evitar problemas durante ou após a instalação.
 
 ### Atualizar Sistema
-Para garantir que seu sistema esteja rodando com as versões mais recentes de software e melhorias de segurança, sempre faça a atualização do sistema primeiro. Para isso, execute o comando:
+Para garantir que seu sistema esteja rodando com as versões mais recentes de software e melhorias de segurança, sempre faça a atualização do sistema primeiro. Para isso, rode o comando:
 
 ```
 sudo apt update && sudo apt upgrade -y
@@ -53,18 +57,17 @@ sudo apt update && sudo apt upgrade -y
 Isso garante que seu sistema tenha os patches de segurança e versões de software mais recentes antes de continuar.
 
 ### Instalar dependências
-Depois que o processo de atualização terminar, você pode seguir para a instalação das dependências.
+Depois que o processo de atualização terminar, você pode prosseguir com a instalação das dependências.
 
 #### Git
-Os dados do Supabase serão baixados via GitHub. Por isso, o Git precisa estar instalado primeiro. Para isso, execute:
-
+Os dados do Supabase serão baixados via GitHub. Por isso, o Git precisa estar instalado primeiro. Para isso, rode o comando:
 ```
 sudo apt install git-all
 ```
 
 #### Docker
 
-O Supabase será implantado e executado na sua máquina usando um container Docker. Por isso, o Docker precisa estar instalado primeiro. Para isso, execute:
+O Supabase será implantado e executado na sua máquina usando um container Docker. Por isso, o Docker precisa estar instalado primeiro. Para isso, rode o comando:
 
 ```
 curl -fsSL https://get.docker.com -o get-docker.sh
@@ -76,7 +79,7 @@ Um passo a passo completo do processo de instalação e como usar o Docker está
 ## Instalação
 Agora que todos os requisitos foram cumpridos e as preparações feitas, você pode seguir com a instalação do Supabase.
 
-Clone o repositório do Supabase, crie um diretório dedicado para o projeto e copie os arquivos Docker e o arquivo de ambiente de exemplo para ele.
+Busque o repositório do Supabase, crie um diretório dedicado para o projeto e copie os arquivos Docker e o arquivo de ambiente de exemplo para ele.
 
 ```
 git clone --depth 1 https://github.com/supabase/supabase
@@ -86,8 +89,7 @@ cp -rf supabase/docker/* supabase-project
 cp supabase/docker/.env.example supabase-project/.env
 ```
 
-Entre no diretório do projeto, puxe as imagens mais recentes dos containers e inicie a stack em modo destacado (detached).
-
+Entre no diretório do projeto, puxe as imagens mais recentes dos containers e inicie a stack em modo destacado.
 ```
 cd supabase-project
 docker compose pull
@@ -110,19 +112,19 @@ Seu app está rodando com credenciais padrão. Proteja seus serviços o quanto a
 ## Configuração
 Nunca faça deploy com valores padrão ou de exemplo. Substitua todos os placeholders por segredos fortes e únicos, revise a configuração conforme suas necessidades de segurança e reinicie todos os serviços para aplicar as mudanças.
 
-Gere chaves API seguras antes de expor qualquer serviço. Comece escolhendo um segredo JWT de 40 caracteres. Você pode usar o valor fornecido ou criar o seu próprio. Guarde esse segredo localmente em um lugar seguro. Não compartilhe e não faça commit dele no controle de versão. Use o segredo para gerar um JWT e depois derive as chaves API anon e service usando o formulário referenciado na documentação do Supabase: https://supabase.com/docs/guides/self-hosting/docker#generate-api-keys
+Gere chaves API seguras antes de expor qualquer serviço. Comece escolhendo um segredo JWT de 40 caracteres. Você pode usar o valor fornecido ou criar o seu. Guarde esse segredo localmente em um lugar seguro. Não compartilhe e não faça commit em controle de versão. Use o segredo para gerar um JWT e depois derive as chaves API anon e service usando o formulário referenciado na documentação do Supabase: https://supabase.com/docs/guides/self-hosting/docker#generate-api-keys
 
-Execute o formulário duas vezes para gerar ambas as chaves. Atualize seu arquivo `./docker/.env` com:
+Execute o formulário duas vezes para gerar ambas as chaves. Atualize seu `./docker/.env` com:
 
 - `ANON_KEY`: chave anon
 - `SERVICE_ROLE_KEY`: chave service
 
-Atualize os segredos obrigatórios em `./docker/.env`. Esses valores devem estar definidos para que o deploy funcione:
+Atualize os segredos obrigatórios em `./docker/.env`. Esses valores devem estar configurados para um deploy funcional:
 
 - `POSTGRES_PASSWORD`: senha para o usuário `postgres`
-- `JWT_SECRET`: consumido pelo PostgREST e GoTrue
+- `JWT_SECRET`: usado pelo PostgREST e GoTrue
 - `SITE_URL`: URL base do seu site
-- `SMTP_*`: credenciais do servidor de e-mail
+- `SMTP_*`: credenciais do servidor de email
 - `POOLER_TENANT_ID`: ID do tenant usado pelo pooler Supavisor
 
 Proteja o Dashboard com novas credenciais antes de usar em produção. Edite `./docker/.env`:
@@ -142,9 +144,9 @@ basicauth_credentials:
     password: password_two
 ```
 
-Para ativar todos os recursos do dashboard fora do `localhost`, defina `SUPABASE_PUBLIC_URL` em `./docker/.env` para a URL ou IP que você usará para acessar o dashboard.
+Para ativar todas as funcionalidades do dashboard fora do `localhost`, defina `SUPABASE_PUBLIC_URL` em `./docker/.env` para a URL ou IP que você usará para acessar o dashboard.
 
-Aplique as mudanças reiniciando a stack:
+Aplique as mudanças de configuração reiniciando a stack:
 
 ```
 docker compose down
@@ -153,11 +155,9 @@ docker compose up -d
 
 ## Conclusão e mais Recursos
 
-Parabéns! Você instalou e configurou o Supabase com sucesso no seu VPS/servidor dedicado. Também recomendamos dar uma olhada nos seguintes recursos, que podem te ajudar ainda mais durante a configuração do seu servidor:
+Parabéns! Você instalou e configurou com sucesso o Supabase na sua VPS/servidor dedicado. Também recomendamos dar uma olhada nos seguintes recursos, que podem te ajudar ainda mais durante a configuração do seu servidor:
 
 - [Supabase.com](https://Supabase.com/) - Site Oficial
 - [Supabase.com/docs/guides/self-hosting](https://supabase.com/docs/guides/self-hosting) - Documentação Supabase
 
 Tem dúvidas específicas que não foram respondidas aqui? Para mais perguntas ou suporte, não hesite em contatar nosso time de suporte, disponível diariamente para te ajudar! 🙂
-
-<InlineVoucher />

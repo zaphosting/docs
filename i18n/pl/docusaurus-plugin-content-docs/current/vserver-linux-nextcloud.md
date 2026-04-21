@@ -12,17 +12,21 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Wprowadzenie
 
-Nextcloud to open source’owe rozwiązanie chmurowe, fork Owncloud, założone w 2016 roku przez byłego twórcę Owncloud, Franka Kalitscheka.
+Nextcloud to open source’owe rozwiązanie chmurowe i fork Owncloud, założone w 2016 roku przez byłego twórcę Owncloud, Franka Kalitscheka.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/kCndbKaFAaktERk/preview)
 
-Aby osiągnąć optymalną wydajność, stabilność i funkcjonalność, zalecamy poniższą konfigurację do hostingu serwera Nextcloud. Serwer Nextcloud nie jest kompatybilny z Windows i MacOS — przynajmniej nie bez dodatkowej wirtualizacji lub podobnych obejść.
+Aby osiągnąć optymalną wydajność, stabilność i funkcjonalność, zalecamy następującą konfigurację do hostingu serwera Nextcloud. Serwer Nextcloud nie jest kompatybilny z Windows i MacOS — przynajmniej nie bez dodatkowej wirtualizacji lub podobnych obejść.
+
+## Instalacja Nextcloud przez One Click Apps Installer
+
+Możesz zainstalować **Nextcloud** bezpośrednio przez nasz **One Click Apps Installer** w panelu VPS. Po zakończeniu wstępnej konfiguracji aplikacji, otwórz katalog aplikacji, wyszukaj **Nextcloud** i rozpocznij wdrożenie z wybranym projektem, środowiskiem i ustawieniami domeny. To szybki i wygodny sposób na uruchomienie i zarządzanie **Nextcloud** bez ręcznej konfiguracji w terminalu, a jednocześnie z korzyściami takimi jak zarządzanie przez przeglądarkę, wsparcie dla własnej domeny i automatyczne wystawianie certyfikatów SSL tam, gdzie to możliwe.
 
 <InlineVoucher />
 
 ## Przygotowanie
 
-Poniższe wymagania są rekomendowane przez twórców i bazują na naszym doświadczeniu. Możesz napotkać problemy, jeśli nie spełnisz tych wymagań.
+Poniższe wymagania są rekomendowane przez twórców i oparte na naszym doświadczeniu. Możesz napotkać problemy, jeśli ich nie spełnisz.
 
 #### Sprzęt
 
@@ -125,7 +129,7 @@ sudo apt-get -y install apache2
 
 🗄️ Ubuntu 16.X:
 ```
-# Krok 1: Dodaj repozytorium PHP 7.3 PPA
+# Krok 1: Dodaj PHP 7.3 PPA
 sudo apt-get install software-properties-common
 sudo add-apt-repository ppa:ondrej/php
 
@@ -139,7 +143,7 @@ sudo apt install php7.3-cli php7.3-fpm php7.3-json php7.3-pdo php7.3-mysql php7.
 
 🗄️ Ubuntu 18.X:
 ```
-# Krok 1: Dodaj repozytorium PHP 7.3 PPA
+# Krok 1: Dodaj PHP 7.3 PPA
 sudo apt-get install software-properties-common
 sudo add-apt-repository ppa:ondrej/php
 
@@ -153,7 +157,7 @@ sudo apt install php7.3-cli php7.3-fpm php7.3-json php7.3-pdo php7.3-mysql php7.
 
 🗄️ Ubuntu 19.X:
 ```
-# Krok 1: Dodaj repozytorium PHP 7.3 PPA
+# Krok 1: Dodaj PHP 7.3 PPA
 sudo apt-get install software-properties-common
 sudo add-apt-repository ppa:ondrej/php
 
@@ -265,14 +269,14 @@ Kolejnym krokiem jest wybór typu bazy danych do przechowywania informacji. Masz
 <TabItem value="MariaDB" label="MariaDB" default>
 
 <br/>
-Jeśli wybrałeś ten typ bazy danych, wykonaj następujące kroki:
+Jeśli zdecydowałeś się na ten typ bazy danych, wykonaj następujące kroki:
 
 Instalacja pakietów:
 ```
 sudo apt-get install mariadb-server php-mysql
 ```
 
-Podczas instalacji zostaniesz poproszony o ustawienie hasła root. Jeśli nie pojawi się taka prośba, domyślne hasło jest puste. To nie jest bezpieczne i powinno zostać zmienione natychmiast!
+Podczas instalacji zostaniesz poproszony o ustawienie hasła root. Jeśli nie pojawi się taka prośba, domyślne hasło jest puste. To nie jest bezpieczne i powinno zostać zmienione od razu!
 
 Następnie połącz się z serwerem bazy danych i utwórz wymaganą bazę:
 
@@ -281,14 +285,14 @@ mysql -u root -p
 CREATE DATABASE nextcloud;
 ```
 
-Potem stwórz użytkownika, który będzie miał dostęp do bazy Nextcloud:
+Potem utwórz użytkownika, który będzie miał dostęp do bazy Nextcloud:
 
 ```sql
 CREATE USER 'nc_user'@'localhost' IDENTIFIED BY 'TWOJE_HASŁO_TUTAJ';
 ```
 
 :::info
-Nie pomijaj tego kroku i nie używaj użytkownika root. To niebezpieczne i może narazić Twoje dane!
+Nie pomijaj tego kroku, używając użytkownika root. To nie jest bezpieczne i może narazić Twoje dane!
 :::
 
 Na koniec nadaj uprawnienia nowemu użytkownikowi:
@@ -304,14 +308,14 @@ Po zakończeniu naciśnij Ctrl-D, aby wyjść z bazy i kontynuuj kolejne kroki.
 <TabItem value="MySQL" label="MySQL">
 
 <br/>
-Jeśli wybrałeś ten typ bazy danych, wykonaj następujące kroki:
+Jeśli zdecydowałeś się na ten typ bazy danych, wykonaj następujące kroki:
 
 Instalacja pakietów:
 ```
 sudo apt-get install mysql-server php-mysql
 ```
 
-Podczas instalacji zostaniesz poproszony o ustawienie hasła root. Jeśli nie pojawi się taka prośba, domyślne hasło jest puste. To nie jest bezpieczne i powinno zostać zmienione natychmiast!
+Podczas instalacji zostaniesz poproszony o ustawienie hasła root. Jeśli nie pojawi się taka prośba, domyślne hasło jest puste. To nie jest bezpieczne i powinno zostać zmienione od razu!
 
 Następnie połącz się z serwerem bazy danych i utwórz wymaganą bazę:
 
@@ -320,14 +324,14 @@ mysql -u root -p
 CREATE DATABASE nextcloud;
 ```
 
-Potem stwórz użytkownika, który będzie miał dostęp do bazy Nextcloud:
+Potem utwórz użytkownika, który będzie miał dostęp do bazy Nextcloud:
 
 ```sql
 CREATE USER 'nc_user'@'localhost' IDENTIFIED BY 'TWOJE_HASŁO_TUTAJ';
 ```
 
 :::info
-Nie pomijaj tego kroku i nie używaj użytkownika root. To niebezpieczne i może narazić Twoje dane!
+Nie pomijaj tego kroku, używając użytkownika root. To nie jest bezpieczne i może narazić Twoje dane!
 :::
 
 
@@ -343,7 +347,7 @@ Po zakończeniu naciśnij Ctrl-D, aby wyjść z bazy i kontynuuj kolejne kroki.
 </TabItem>
 <TabItem value="PostgreSQL" label="PostgreSQL">
 <br/>
-Jeśli wybrałeś ten typ bazy danych, wykonaj następujące kroki:
+Jeśli zdecydowałeś się na ten typ bazy danych, wykonaj następujące kroki:
 
 Instalacja pakietów:
 ```
@@ -351,7 +355,7 @@ sudo apt-get update
 sudo apt-get install postgresql postgresql-contrib
 ```
 
-Podczas instalacji zostaniesz poproszony o ustawienie hasła root. Jeśli nie pojawi się taka prośba, domyślne hasło jest puste. To nie jest bezpieczne i powinno zostać zmienione natychmiast!
+Podczas instalacji zostaniesz poproszony o ustawienie hasła root. Jeśli nie pojawi się taka prośba, domyślne hasło jest puste. To nie jest bezpieczne i powinno zostać zmienione od razu!
 
 Następnie połącz się z serwerem bazy danych i utwórz wymaganą bazę:
 
@@ -360,14 +364,14 @@ sudo -u postgres psql
 CREATE DATABASE nextcloud;
 ```
 
-Potem stwórz użytkownika, który będzie miał dostęp do bazy Nextcloud:
+Potem utwórz użytkownika, który będzie miał dostęp do bazy Nextcloud:
 
 ```sql
 CREATE USER nextcloud with encrypted password 'TWOJE_HASŁO_TUTAJ';
 ```
 
 :::info
-Nie pomijaj tego kroku i nie używaj użytkownika root. To niebezpieczne i może narazić Twoje dane!
+Nie pomijaj tego kroku, używając użytkownika root. To nie jest bezpieczne i może narazić Twoje dane!
 :::
 
 Na koniec nadaj uprawnienia nowemu użytkownikowi:
@@ -395,7 +399,7 @@ $AUTOCONFIG = array(
 <TabItem value="SQLite" label="SQLite">
 
 <br/>
-Jeśli wybrałeś ten typ bazy danych, wykonaj następujące kroki:
+Jeśli zdecydowałeś się na ten typ bazy danych, wykonaj następujące kroki:
 
 Instalacja pakietów:
 ```
@@ -421,7 +425,7 @@ $AUTOCONFIG = array(
 
 ## Instalacja
 
-Teraz można rozpocząć właściwą instalację Nextcloud. Pobierz i rozpakuj oprogramowanie:
+Teraz można rozpocząć właściwą instalację Nextcloud. Oprogramowanie trzeba pobrać i rozpakować:
 ```
 cd /var/www/
 wget https://download.nextcloud.com/server/releases/latest.zip
@@ -445,7 +449,7 @@ Pojawi się konfiguracja instalatora, gdzie utworzysz użytkownika root i podasz
 ![](https://screensaver01.zap-hosting.com/index.php/s/qJs3Sd8TiYAg6mB/preview)
 
 
-## Bezpieczeństwo
+## Bezpieczeństwo i ochrona
 
 **Ostrzeżenia podczas konfiguracji**
 
@@ -455,7 +459,7 @@ Pojawi się konfiguracja instalatora, gdzie utworzysz użytkownika root i podasz
 
 **Katalog danych**
 
-Zdecydowanie zalecamy umieszczenie katalogu danych poza katalogiem web root (czyli poza /var/www). Najprościej zrobić to przy nowej instalacji. Katalog można zdefiniować podczas konfiguracji, ale musi on najpierw zostać utworzony i mieć odpowiednie uprawnienia. Dane mogą być np. przechowywane w katalogu Cloud w katalogu domowym.
+Zdecydowanie zalecamy umieszczenie katalogu danych poza katalogiem web root (czyli poza /var/www). Najprościej zrobić to przy nowej instalacji. Katalog można zdefiniować podczas konfiguracji, ale musi on najpierw zostać utworzony i mieć odpowiednie uprawnienia. Dane można np. trzymać w katalogu Cloud w katalogu domowym.
 
 ```
 mkdir /home/cloud/
@@ -466,7 +470,7 @@ chown -R www-data:www-data /home/cloud/
 
 **HTTPS przez certyfikat SSL (Let's Encrypt)** 
 
-Dobra chmura powinna być dostępna tylko przez połączenie SSL. Bez szyfrowania SSL dane i informacje przesyłane są w czystym tekście, co umożliwia łatwe przechwycenie i odczyt bez szyfrowania.
+Dobra chmura powinna być dostępna tylko przez połączenie SSL. Bez szyfrowania SSL dane i informacje przesyłane są w czystym tekście, co łatwo i szybko można przechwycić i odczytać.
 
 ```
 <IfModule mod_ssl.c>
@@ -503,7 +507,7 @@ SSLCertificateKeyFile /etc/letsencrypt/live/domena.tld/privkey.pem
 
 
 
-Dodatkowo cały ruch HTTP powinien być przekierowany na HTTPS za pomocą stałego przekierowania 301. Można to zrobić w Apache, konfigurując VirtualHosty tak:
+Dodatkowo cały ruch HTTP powinien być przekierowany na HTTPS za pomocą stałego przekierowania 301. Można to zrobić w Apache, konfigurując VirtualHost tak:
 
 ```
 <VirtualHost *:80>
@@ -527,7 +531,7 @@ Możesz też instalować dodatkowe aplikacje poza tymi domyślnymi. Znajdziesz j
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/wKERd24E25668kt/preview)
 
-Dzięki takim **Aplikacjom** możesz jeszcze bardziej spersonalizować Nextcloud według swoich potrzeb.
+Dzięki takim **Aplikacjom** możesz jeszcze bardziej spersonalizować Nextcloud pod swoje potrzeby.
 
 
 ## Podsumowanie

@@ -1,7 +1,7 @@
 ---
 id: dedicated-windows-git
 title: "Git auf einem Windows Server einrichten – Versionskontrolle für deine Projekte aktivieren"
-description: "Entdecke, wie du Git einrichtest und konfigurierst, um effiziente Versionskontrolle und nahtlose Zusammenarbeit in deinen Projekten zu ermöglichen → Jetzt mehr erfahren"
+description: "Entdecke, wie du Git für effiziente Versionskontrolle und nahtlose Zusammenarbeit in deinen Projekten einrichtest und konfigurierst → Jetzt mehr erfahren"
 sidebar_label: Git installieren
 services:
   - vserver
@@ -16,9 +16,13 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Git ist ein verteiltes Versionskontrollsystem, das für effizientes Quellcode-Management entwickelt wurde. Es ermöglicht Entwicklern, Änderungen nachzuverfolgen, gleichzeitig an verschiedenen Branches zu arbeiten und Projekte reibungslos gemeinsam zu bearbeiten. Dank seiner Flexibilität und Performance hat sich Git zum Standard-Tool für Versionskontrolle in der modernen Softwareentwicklung etabliert.
 
-Du denkst darüber nach, diesen Service selbst zu hosten? Wir führen dich Schritt für Schritt durch die Einrichtung und Konfiguration und zeigen dir alles, was du beachten musst.
+Du überlegst, diesen Service selbst zu hosten? Wir führen dich Schritt für Schritt durch die Einrichtung und Konfiguration und zeigen dir alles, was du beachten musst.
 
 
+
+## Git mit dem One Click Apps Installer installieren
+
+Du kannst **Git** direkt über unseren **One Click Apps Installer** im VPS-Webinterface installieren. Nach der ersten Einrichtung der Apps öffnest du den App-Katalog, suchst nach **Git** und startest die Installation mit deinen bevorzugten Projekt-, Umgebungs- und Domain-Einstellungen. So bekommst du eine schnelle und benutzerfreundliche Möglichkeit, **Git** zu deployen und zu verwalten – ganz ohne manuelle Kommandozeilen-Installation. Gleichzeitig profitierst du von integrierter Webverwaltung, Support für eigene Domains und SSL-Bereitstellung, wo verfügbar.
 
 ## Vorbereitung
 
@@ -26,7 +30,7 @@ Bevor du **Git** einrichtest, solltest du dein System vorbereiten. Dazu gehört,
 
 
 ### System aktualisieren
-Um sicherzustellen, dass dein System mit der aktuellsten Software und den neuesten Sicherheitsupdates läuft, solltest du immer zuerst ein Systemupdate durchführen. So ist gewährleistet, dass dein System vor der weiteren Einrichtung die neuesten Sicherheitspatches und Softwareversionen hat.
+Damit dein System mit den aktuellsten Software- und Sicherheitsupdates läuft, solltest du immer zuerst ein System-Update durchführen. So stellst du sicher, dass dein System die neuesten Sicherheitspatches und Softwareversionen hat, bevor du weitermachst.
 
 
 
@@ -38,7 +42,7 @@ Starte anschließend das Setup der heruntergeladenen Datei und folge den angezei
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/Y3Rme8q9LHSk4fg/download)
 
-Nach Abschluss der Installation solltest du überprüfen, ob Git korrekt funktioniert, indem du ein Terminal oder die Eingabeaufforderung öffnest. Gib den Befehl `git --version` ein und bestätige mit Enter.
+Nach der Installation solltest du überprüfen, ob Git korrekt funktioniert, indem du ein Terminal oder die Eingabeaufforderung öffnest. Gib den Befehl `git --version` ein und bestätige mit Enter.
 
 Wenn die Installation erfolgreich war, zeigt Git die aktuell installierte Versionsnummer an. Erhältst du eine Fehlermeldung oder keine Ausgabe, wurde Git wahrscheinlich nicht richtig installiert oder der Befehl ist nicht im Systempfad enthalten.
 
@@ -62,11 +66,11 @@ git config --global user.email "doe@e-mail.com"
 
 
 
-## Abschluss und weitere Ressourcen
+## Fazit und weitere Ressourcen
 
-Glückwunsch! Du hast Git jetzt erfolgreich auf deinem vServer installiert und konfiguriert. Wir empfehlen dir außerdem, einen Blick auf die folgenden Ressourcen zu werfen, die dir bei der weiteren Serverkonfiguration zusätzliche Hilfe und Tipps bieten können:
+Glückwunsch! Du hast Git jetzt erfolgreich auf deinem vServer installiert und konfiguriert. Wir empfehlen dir außerdem, einen Blick auf die folgenden Ressourcen zu werfen, die dir bei der weiteren Server-Konfiguration helfen können:
 
 - [git-scm.com](https://git-scm.com/) – Offizielle Webseite
 - [git-scm.com/doc](https://git-scm.com/doc) – Git Dokumentation
 
-Du hast spezielle Fragen, die hier nicht beantwortet wurden? Für weitere Fragen oder Support steht dir unser Team täglich zur Verfügung – melde dich einfach bei uns! 🙂
+Du hast spezielle Fragen, die hier nicht beantwortet werden? Für weitere Fragen oder Support steht dir unser Team täglich zur Seite – melde dich einfach bei uns! 🙂

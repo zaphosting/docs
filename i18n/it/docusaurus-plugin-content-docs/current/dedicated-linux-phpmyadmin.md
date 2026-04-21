@@ -16,6 +16,10 @@ phpMyAdmin è uno strumento gratuito basato sul web per gestire database MySQL e
 
 
 
+## Installa phpMyAdmin con il One Click Apps Installer
+
+Puoi installare **phpMyAdmin** direttamente tramite il nostro **One Click Apps Installer** nell’interfaccia web del VPS. Dopo aver completato la configurazione iniziale delle app, apri il catalogo app, cerca **phpMyAdmin** e avvia il deployment scegliendo progetto, ambiente e dominio preferiti. Così hai un modo rapido e semplice per installare e gestire **phpMyAdmin** senza setup manuale da linea di comando, beneficiando comunque di gestione web integrata, supporto per domini personalizzati e provisioning SSL dove disponibile.
+
 ## Preparazione
 
 Prima di iniziare l’installazione, assicurati che il sistema sia aggiornato. Aggiornamenti e upgrade pendenti possono essere eseguiti così:
@@ -28,33 +32,33 @@ sudo apt upgrade -y
 Devi anche assicurarti di avere già PHP installato sul sistema. È fondamentale per usare phpMyAdmin. Per scoprire come installare PHP, dai un’occhiata alla nostra guida [Installa PHP](vserver-linux-php.md).
 
 :::warning Pacchetti PHP mancanti
-Se mancano i pacchetti PHP necessari, i file PHP di phpMyAdmin non possono essere processati e visualizzati correttamente.
+Se mancano i pacchetti PHP necessari, i file PHP di phpMyAdmin non potranno essere processati e visualizzati correttamente. 
 :::
 
 ## Installazione
 
 Se la preparazione è completa, puoi iniziare l’installazione dell’interfaccia phpMyAdmin. Per prima cosa apri la directory di installazione dove vuoi mettere phpMyAdmin.
 
-Spostati nella directory giusta con il comando `cd /usr/share`. Poi scarica l’ultima versione di phpMyAdmin nella directory di installazione usando `wget`:
+Spostati nella directory con il comando `cd /usr/share`. Poi scarica l’ultima versione di phpMyAdmin nella directory con `wget`:
 
 ```
 wget https://www.phpmyadmin.net/downloads/phpMyAdmin-latest-all-languages.zip -O phpmyadmin.zip
 ```
 
 :::warning
-Se il comando `wget` non è disponibile, puoi installarlo con `sudo apt install wget -y`.
+Se il comando `wget` non è disponibile, installalo con `sudo apt install wget -y`. 
 :::
 
-Quando il download è finito, estrai il file ZIP con questo comando:
+Quando il download è finito, estrai il file ZIP con:
 
 ```
 unzip phpmyadmin.zip
 ```
 :::warning
-Se il comando `unzip` non è disponibile, puoi installarlo con `sudo apt install unzip -y`.
+Se il comando `unzip` non è disponibile, installalo con `sudo apt install unzip -y`. 
 :::
 
-Ora rinomina l’archivio estratto con un nome più semplice, elimina il file ZIP e imposta i permessi necessari:
+Ora rinomina la cartella estratta con un nome più semplice, elimina il file ZIP e imposta i permessi necessari:
 
 ```
 mv phpMyAdmin-*-all-languages phpmyadmin
@@ -65,7 +69,7 @@ rm phpmyadmin.zip; chmod -R 0755 phpmyadmin
 
 ### File di configurazione del web server
 
-Adesso devi aggiungere phpMyAdmin alla configurazione del web server. Usa `nano /etc/apache2/conf-available/phpmyadmin.conf` per creare un nuovo file di configurazione Virtual Host e inserisci questo contenuto:
+Adesso devi aggiungere phpMyAdmin alla configurazione del web server. Usa `nano /etc/apache2/conf-available/phpmyadmin.conf` per creare un nuovo file di configurazione e inserisci questo contenuto:
 
 ```
 # Configurazione Apache per phpMyAdmin
@@ -77,7 +81,7 @@ Alias /phpmyadmin /usr/share/phpmyadmin
     DirectoryIndex index.php
 </Directory>
 
-# Blocca l’accesso web per motivi di sicurezza alle directory non necessarie
+# Blocca l’accesso web per motivi di sicurezza alle directory che non servono
 <Directory /usr/share/phpmyadmin/templates>
     Require all denied
 </Directory>
@@ -89,9 +93,9 @@ Alias /phpmyadmin /usr/share/phpmyadmin
 </Directory>
 ```
 
-Quando hai inserito il contenuto, salva e chiudi con `CTRL+X`, poi premi `Y` e conferma con `Enter`.
+Dopo aver inserito il contenuto, salva e chiudi con `CTRL+X`, poi premi `Y` e conferma con `Invio`.
 
-Ora devi attivare e caricare il nuovo file di configurazione Virtual Host. Esegui questi comandi:
+Ora attiva e carica la nuova configurazione con questi comandi:
 
 ```
 a2enconf phpmyadmin
@@ -100,7 +104,7 @@ systemctl reload apache2
 
 ### Creazione della directory temporanea necessaria
 
-Per far funzionare phpMyAdmin correttamente, devi creare una directory temporanea e impostare i permessi giusti. Fallo con questi comandi:
+Per far funzionare phpMyAdmin correttamente, crea una directory temporanea e imposta i permessi giusti con:
 
 ```
 mkdir /usr/share/phpmyadmin/tmp/
@@ -109,4 +113,4 @@ chown -R www-data:www-data /usr/share/phpmyadmin/tmp/
 
 ## Conclusione
 
-Congratulazioni, hai installato e configurato phpMyAdmin con successo. Puoi accedere all’interfaccia web usando l’indirizzo IP e il percorso del tuo server (http://IP-Address/phpmyadmin). Per qualsiasi domanda o supporto, il nostro team è sempre pronto ad aiutarti ogni giorno! 🙂
+Complimenti, hai installato e configurato phpMyAdmin con successo! Puoi accedere all’interfaccia web usando l’indirizzo IP e il percorso del tuo server (http://IP-Address/phpmyadmin). Per qualsiasi domanda o supporto, il nostro team è sempre pronto ad aiutarti ogni giorno! 🙂

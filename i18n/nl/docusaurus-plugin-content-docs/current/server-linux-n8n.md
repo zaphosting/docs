@@ -1,6 +1,6 @@
 ---
 id: server-linux-n8n
-title: "n8n installeren op een Linux Server - Bouw Krachtige Workflow Automatiseringen"
+title: "n8n op een Linux Server Installeren - Bouw Krachtige Workflow Automatiseringen"
 description: "Ontdek hoe je n8n installeert en configureert voor self-hosting om een AI workflow automatisering te bouwen die je werk makkelijker maakt → Leer nu meer"
 sidebar_label: n8n Installeren
 services:
@@ -18,26 +18,30 @@ import InlineServiceLink from '@site/src/components/InlineServiceLink';
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/skzPCRajMZPbfw3/preview)
 
-Self Hosting support en Low Code Editor maken n8n de favoriet van elke developer. Wil je maximale controle, maatwerk en kosten laag houden op de lange termijn? Dan is de Self-Hosted optie een top keuze voor jou.
+Self-hosting support en de Low Code Editor maken n8n de favoriet van elke developer. Wil je maximale controle, maatwerk en kosten laag houden op de lange termijn? Dan is de self-hosted optie een topkeuze voor jou.
 
-Wil je n8n zelf hosten? We nemen je stap voor stap mee in het opzetten en configureren, plus alles waar je op moet letten.
+Wil je n8n zelf hosten? We nemen je stap voor stap mee in het opzetten en configureren, inclusief alles waar je op moet letten.
+
+## n8n installeren met de One Click Apps Installer
+
+Je kunt **n8n** direct installeren via onze **One Click Apps Installer** in de VPS webinterface. Na het voltooien van de initiële app setup, open je de app-catalogus, zoek je naar **n8n** en start je de deployment met je gewenste project-, omgeving- en domeininstellingen. Dit geeft je een snelle en gebruiksvriendelijke manier om **n8n** te deployen en beheren zonder handmatige command line setup, terwijl je profiteert van geïntegreerd webbeheer, custom domein ondersteuning en SSL provisioning waar beschikbaar.
 
 <InlineVoucher />
 
 
 
-## Gebruiksscenario’s van n8n
+## Use cases van n8n
 
-n8n is inzetbaar in allerlei dagelijkse situaties en geschikt voor iedereen die taken wil automatiseren, low code editors wil gebruiken, AI agents wil bouwen, lead automatiseringen wil opzetten, CRM wil boosten, IT- en security operations wil stroomlijnen, backend prototyping wil doen en nog veel meer! n8n is ideaal voor beginners én experts.
+n8n is inzetbaar in allerlei dagelijkse scenario’s en geschikt voor iedereen die taken wil automatiseren, low code editors wil gebruiken, AI agents wil bouwen, lead automatiseringen wil doen, CRM wil boosten, IT- en security operations wil optimaliseren, backend prototyping en nog veel meer! n8n is ideaal voor beginners én experts.
 
-n8n biedt meer dan 1367 integraties zoals Google Sheets, Telegram, MySQL, Slack, Discord, Postgres met populaire automatiseringscombinaties zoals HubSpot en Salesforce, Twilio en WhatsApp, GitHub en Jira, Asana en Slack, Asana en Salesforce, Jira en Slack en talloze community templates.
+n8n biedt 1367+ integraties zoals Google Sheets, Telegram, MySQL, Slack, Discord, Postgres met populaire automatiseringscombinaties zoals HubSpot en Salesforce, Twilio en WhatsApp, GitHub en Jira, Asana en Slack, Asana en Salesforce, Jira en Slack en talloze community templates.
 
 ## Vereisten
 
 Hoewel n8n van zichzelf lichtgewicht is, kan het gebruik van resources toenemen afhankelijk van het aantal workflows, API calls en data-intensieve nodes. We raden de volgende hardware aan voor het hosten van n8n op je VPS.
 
-| Hardware   | Minimaal    | Aanbevolen               |
-| ---------- | ----------- | ------------------------ |
+| Hardware   | Minimaal    | Aanbevolen                |
+| ---------- | ----------- | ------------------------- |
 | CPU        | 1 vCPU Core | 2 vCPU Cores             |
 | RAM        | 2 GB        | 4 GB                     |
 | Schijfruimte | 20 GB     | 50 GB                    |
@@ -48,7 +52,7 @@ Hoewel n8n van zichzelf lichtgewicht is, kan het gebruik van resources toenemen 
 Voordat je begint, moet je Docker installeren en de systeem pakketten updaten. We hebben al een handleiding over [Docker installeren](dedicated-linux-docker.md). Zorg dat je die eerst hebt afgerond voordat je met de installatie start.
 
 ## Installatie
-Nadat Docker op je server is geïnstalleerd, controleer je de installatie met:
+Nadat je Docker op je server hebt geïnstalleerd, controleer je de installatie met:
 
 ```
 docker --version
@@ -68,10 +72,10 @@ Maak in de `n8n-compose` map een `.env` bestand aan met `nano .env` en voeg de v
 
 ```
 # DOMAIN_NAME en SUBDOMAIN bepalen samen vanaf waar n8n bereikbaar is
-# De top level domeinnaam
+# Het top-level domein
 DOMAIN_NAME=zap.cloud
 
-# De subdomeinnaam
+# Het subdomein
 SUBDOMAIN=silver-octopus-xxxxx
 
 # Het voorbeeld hierboven serveert n8n op: https://silver-octopus-xxxxx.zap.cloud
@@ -79,7 +83,7 @@ SUBDOMAIN=silver-octopus-xxxxx
 # Optionele tijdzone die gebruikt wordt door Cron en andere scheduling nodes
 GENERIC_TIMEZONE=Europe/Berlin
 
-# Het e-mailadres voor het aanmaken van het TLS/SSL certificaat
+# E-mailadres voor TLS/SSL certificaat aanmaak
 SSL_EMAIL=hello@zap-hosting.com
 ```
 
@@ -90,15 +94,15 @@ Om je DOMAIN_NAME en SUBDOMAIN te vinden, ga naar je ZAP-Hosting Productpagina, 
 
 :::
 
-Vul het `zap.cloud` deel in bij DOMAIN_NAME en het eerste deel bij SUBDOMAIN (bijv. silver-octopus-xxxxx).
+Vul het `zap.cloud` deel in bij DOMAIN_NAME en het eerste deel (bijv. silver-octopus-xxxxx) bij SUBDOMAIN.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/EaQn97J25TpwDSa/preview)
 
 :::warning HTTPS Vereiste
-Gebruik geen kale IP-adressen in het .env bestand. n8n vereist een HTTPS verbinding om de website te bereiken, en SSL certificaten worden alleen uitgegeven voor domeinen, niet voor kale IP-adressen.
+Gebruik geen kale IP-adressen in het .env bestand. n8n vereist een HTTPS verbinding en SSL-certificaten worden alleen uitgegeven voor domeinen, niet voor kale IP-adressen.
 :::
 
-Wil je n8n op je eigen domein hosten? Maak dan een subdomein aan voor n8n door een A-record toe te voegen in je domein DNS beheer die naar het IP-adres van je VPS wijst.
+Wil je n8n op je eigen domein hosten? Maak dan een subdomein aan voor n8n door een A-record te maken in je domein DNS-manager die naar het IP-adres van je VPS wijst.
 
 | Naam             | Type | Waarde          | TTL  | Prioriteit |
 | ---------------- | ---- | --------------- | ---- | ---------- |
@@ -106,7 +110,7 @@ Wil je n8n op je eigen domein hosten? Maak dan een subdomein aan voor n8n door e
 
 ### Maak een map voor lokale bestanden
 
-Maak binnen de projectmap een nieuwe map `local-files` aan om bestanden te delen tussen de n8n container en het host-systeem:
+Maak binnen de projectmap een map `local-files` aan om bestanden te delen tussen de n8n instantie en het host-systeem:
 
 ```
 mkdir local-files
@@ -114,7 +118,7 @@ mkdir local-files
 
 ### Maak het Docker Compose bestand aan
 
-Maak het Docker Compose bestand `compose.yaml` aan met `nano compose.yaml` en plak de volgende inhoud erin:
+Maak het Docker Compose bestand `compose.yaml` aan met `nano compose.yaml` en plak de volgende inhoud:
 
 ```yaml
 services:
@@ -178,9 +182,9 @@ volumes:
   traefik_data:
 ```
 
-Dit installeert n8n, regelt het SSL certificaat, configureert en maakt n8n live op je domein.
+Dit installeert n8n, regelt het SSL-certificaat, configureert en maakt n8n live op je domein.
 
-### Start n8n
+### n8n starten
 
 Start n8n met:
 
@@ -194,9 +198,9 @@ Stop n8n met:
 sudo docker compose stop
 ```
 
-### Toegang tot n8n
+### n8n openen
 
-Na het starten open je n8n in je browser via de URL (of Hostname als je die gebruikte). Je komt dan op de setup pagina waar je een Admin account aanmaakt.
+Na het starten open je n8n in je browser via de URL (of hostname als je die gebruikte). Je komt dan op de setup pagina waar je eerst een admin account aanmaakt.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/3SNBcAtXco8RTQr/preview)
 
@@ -212,9 +216,9 @@ Optioneel kun je gratis toegang krijgen tot betaalde features door je e-mail in 
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/7jEtswn3s3gZ3Es/preview)
 
-Je ontvangt direct een licentiesleutel per mail. Kopieer deze en plak hem in je Instellingen > Gebruik en Plannen > Activeer Sleutel.
+De licentiesleutel ontvang je direct per mail. Kopieer deze en plak hem in je Settings > Usage and Plans > Enter Activation Key.
 
-### Je eerste Workflow maken
+### Eerste Workflow maken
 
 Daarna kun je direct naar het Dashboard en aan de slag met n8n!
 
@@ -228,13 +232,9 @@ Je kunt starten met een leeg canvas of een kant-en-klare template gebruiken. Je 
 
 ## Conclusie en meer bronnen
 
-Top! Je hebt n8n succesvol geïnstalleerd op je server en kunt meteen aan de slag. We raden je ook aan om deze bronnen te checken voor extra hulp en tips tijdens je serverconfiguratie:
+Top! Je hebt n8n succesvol op je server geïnstalleerd en kunt meteen aan de slag. We raden je ook aan om deze bronnen te checken voor extra hulp en tips tijdens je serverconfiguratie:
 
 - [n8n.io](https://n8n.io/) - Officiële website
 - [docs.n8n.io](https://docs.n8n.io/) - n8n Documentatie
 
 Heb je specifieke vragen die hier niet behandeld worden? Neem gerust contact op met onze support, die dagelijks voor je klaarstaat! 🙂
-
-
-
-<InlineVoucher />

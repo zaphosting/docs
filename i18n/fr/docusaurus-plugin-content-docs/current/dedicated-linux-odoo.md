@@ -20,9 +20,13 @@ Grâce à ses extensions flexibles, Odoo peut être adapté à des besoins spéc
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/3nwfLeK2c9kTiCp/preview)
 
-Tu envisages d’héberger ce service toi-même ? On te guide étape par étape pour l’installer et le configurer, avec tout ce qu’il faut savoir.
+Tu envisages d’héberger ce service toi-même ? On te guide pas à pas pour l’installer et le configurer, avec tout ce qu’il faut savoir.
 
 
+
+## Installer Odoo avec l’installateur One Click Apps
+
+Tu peux installer **Odoo** directement via notre **installateur One Click Apps** dans l’interface web de ton VPS. Après avoir terminé la configuration initiale des apps, ouvre le catalogue d’applications, cherche **Odoo** et lance le déploiement avec ton projet, environnement et paramètres de domaine préférés. C’est une manière rapide et simple de déployer et gérer **Odoo** sans passer par la ligne de commande, tout en profitant d’une gestion intégrée via le web, du support de domaine personnalisé et de la mise en place SSL quand disponible.
 
 ## Prérequis
 
@@ -34,7 +38,7 @@ Avant d’installer **Odoo**, assure-toi que ton environnement d’hébergement 
 | RAM       | 1 Go        | 4 Go        |
 | Espace disque | 15 Go    | 25 Go       |
 
-Le logiciel nécessite que toutes les dépendances requises soient installées et qu’il fonctionne sur un système d’exploitation supporté. Vérifie que ton serveur remplit les conditions suivantes avant de lancer l’installation :
+Le logiciel nécessite que toutes les dépendances soient installées et qu’il tourne sur un système d’exploitation supporté. Vérifie que ton serveur remplit ces conditions avant de continuer :
 
 **Dépendances :** `Docker`
 
@@ -46,11 +50,11 @@ Assure-toi que toutes les dépendances sont installées et que la version du sys
 
 ## Préparation
 
-Avant de configurer **Odoo**, tu dois préparer ton système. Cela inclut la mise à jour de ton système d’exploitation vers la dernière version et l’installation de toutes les dépendances nécessaires. Ces préparatifs garantissent un environnement stable et aident à prévenir les problèmes pendant ou après l’installation.
+Avant de configurer **Odoo**, tu dois préparer ton système. Cela inclut la mise à jour de ton système d’exploitation à la dernière version et l’installation de toutes les dépendances nécessaires. Ces préparations garantissent un environnement stable et aident à éviter les soucis pendant ou après l’installation.
 
 
-### Mise à jour du système
-Pour t’assurer que ton système tourne avec les dernières améliorations logicielles et de sécurité, commence toujours par une mise à jour système. Pour cela, exécute la commande suivante :
+### Mettre à jour le système
+Pour t’assurer que ton système tourne avec les dernières améliorations logicielles et de sécurité, commence toujours par une mise à jour système. Pour cela, lance la commande suivante :
 
 ```
 sudo apt update && sudo apt upgrade -y
@@ -58,7 +62,7 @@ sudo apt update && sudo apt upgrade -y
 Cela garantit que ton système dispose des derniers correctifs de sécurité et des versions logicielles avant de continuer.
 
 ### Installer les dépendances
-Une fois la mise à jour terminée, tu peux procéder à l’installation des dépendances. Odoo sera déployé et exécuté sur ta machine via plusieurs conteneurs Docker. Docker doit donc être installé en premier. Pour cela, lance la commande suivante :
+Une fois la mise à jour terminée, tu peux installer les dépendances. Odoo sera déployé et exécuté sur ta machine via plusieurs conteneurs Docker. Docker doit donc être installé en premier. Pour cela, lance la commande suivante :
 
 ```
 curl -fsSL https://get.docker.com -o get-docker.sh
@@ -71,15 +75,15 @@ Un guide complet sur l’installation et l’utilisation de Docker est disponibl
 
 ### Configurer ton domaine
 
-Par défaut, Odoo tourne sur l’hôte via les ports 80 (HTTP) et 443 (HTTPS). Configure un domaine avec des enregistrements DNS pointant vers l’hôte. Si le domaine est géré par nous, tu peux facilement le faire via l’option [EasyDNS](domain-easydns.md).
+Par défaut, Odoo tourne sur l’hôte via les ports 80 (HTTP) et 443 (HTTPS). Configure un domaine avec des enregistrements DNS pointant vers l’hôte. Si le domaine est géré chez nous, tu peux facilement faire cela via l’option [EasyDNS](domain-easydns.md).
 
 
 
 
 ## Installation
-Maintenant que tous les prérequis sont remplis et que les préparations sont faites, tu peux passer à l’installation de l’application Odoo.
+Maintenant que tous les prérequis sont remplis et que la préparation est faite, tu peux passer à l’installation de l’application Odoo.
 
-Quand tu travailles avec plusieurs configurations Docker, c’est une bonne pratique de créer une structure de dossiers claire pour isoler les projets. Une méthode courante est de créer un dossier *docker* dans le répertoire personnel de l’utilisateur, avec un sous-dossier dédié pour chaque domaine. Ainsi, plusieurs projets peuvent cohabiter sur le même serveur sans conflits de configuration.
+Quand tu travailles avec plusieurs configurations Docker, c’est une bonne pratique de créer une structure claire de dossiers pour isoler les projets. Une méthode courante est de créer un dossier *docker* dans le répertoire personnel de l’utilisateur, avec un sous-dossier dédié pour chaque domaine. Ainsi, plusieurs projets peuvent cohabiter sur le même serveur sans conflits de configuration.
 
 Par exemple, pour préparer la structure pour le domaine `example.com` :
 
@@ -88,20 +92,20 @@ mkdir -p /docker/example.com
 cd /docker/example.com
 ```
 
-Dans ce dossier projet, il est recommandé de créer des sous-dossiers qui seront montés en volumes par les conteneurs. Ces volumes permettent de partager les données entre services ou de les conserver de façon persistante. Un cas critique est la racine web partagée, à laquelle nginx et certbot doivent accéder pour générer et renouveler les certificats SSL. Une structure adaptée peut être créée ainsi :
+Dans ce dossier projet, il est recommandé de créer des sous-dossiers qui seront montés en volumes par les conteneurs. Ces volumes permettent de partager des données entre services ou de les garder persistantes. Un cas critique est la racine web partagée, que nginx et certbot doivent tous deux pouvoir accéder pour générer et renouveler les certificats SSL. Une structure adaptée peut être créée ainsi :
 
 ```
 mkdir -p nginx/{conf,ssl,inc} config addons
 ```
 
-Cela fournit des dossiers dédiés pour la configuration nginx, les certificats SSL, les fichiers d’inclusion, et le contenu spécifique à Odoo comme les configs et addons.
+Cela crée des dossiers dédiés pour la configuration nginx, les certificats SSL, les fichiers d’inclusion, et le contenu spécifique à Odoo comme les configs et addons.
 
 
 
 
 ### Créer le Docker Compose
 
-Dans ton projet docker, crée le fichier compose.yml avec `nano compose.yml`. Colle-y le code suivant :
+Dans ton projet docker, crée le fichier compose.yml avec `nano compose.yml`. Colle le code suivant dedans :
 
 ```
 services:
@@ -157,7 +161,7 @@ volumes:
 
 ### Pare-feu
 
-Pour que nginx et certbot fonctionnent correctement, il faut autoriser les ports TCP 80 (HTTP) et 443 (HTTPS) dans le pare-feu. Ces ports sont essentiels car certbot utilise le port 80 pour la validation HTTP, tandis que le port 443 est nécessaire pour le trafic chiffré HTTPS. Si UFW (Uncomplicated Firewall) est activé, ajoute les règles nécessaires avec ces commandes :
+Pour que nginx et certbot fonctionnent correctement, il faut autoriser les ports TCP 80 (HTTP) et 443 (HTTPS) dans le pare-feu. Ces ports sont essentiels car certbot utilise le port 80 pour la validation HTTP, tandis que le port 443 sert à fournir le trafic chiffré HTTPS. Si UFW (Uncomplicated Firewall) est activé, ajoute les règles nécessaires avec ces commandes :
 
 ```
 sudo ufw allow http
@@ -168,9 +172,9 @@ Vérifie ensuite avec `sudo ufw status` que les ports sont bien ouverts. Assure-
 
 
 
-### Configuration de Nginx
+### Configuration Nginx
 
-La configuration de nginx commence par la création d’un fichier de config pour ton domaine. Dans le dossier `nginx/conf`, crée un nouveau fichier nommé selon ton domaine. Par exemple, exécute `nano nginx/conf/example.com.conf` et ajoute les directives de base en remplaçant le placeholder par ton vrai domaine :
+La configuration de nginx commence par la création d’un fichier de configuration pour ton domaine. Dans le dossier `nginx/conf`, crée un nouveau fichier nommé selon ton domaine. Par exemple, lance `nano nginx/conf/example.com.conf` et ajoute les directives de base en remplaçant le placeholder par ton vrai domaine :
 
 ```
 server {
@@ -187,9 +191,9 @@ server {
 }
 ```
 
-Cette config permet à certbot de compléter le challenge ACME et d’émettre des certificats SSL valides. Elle assure aussi que toutes les requêtes HTTP sont redirigées vers HTTPS.
+Cette config permet à certbot de compléter le challenge ACME et d’émettre des certificats SSL valides. Elle redirige aussi toutes les requêtes HTTP vers HTTPS.
 
-Une fois le fichier sauvegardé, lance les conteneurs nécessaires : base de données, Odoo et nginx. Tape la commande suivante :
+Une fois le fichier sauvegardé, démarre les conteneurs nécessaires : base de données, Odoo et nginx. Lance la commande :
 
 ```
 sudo docker compose up -d db odoo nginx
@@ -200,19 +204,19 @@ Les conteneurs tourneront en arrière-plan, et nginx utilisera déjà la nouvell
 
 ### Générer les certificats SSL
 
-Lance la commande ci-dessous pour créer les certificats SSL avec certbot. Pense à remplacer ton domaine après le flag `-d` et à mettre une adresse mail valide à la place de user@mail.com.
+Lance la commande ci-dessous pour créer les certificats SSL avec certbot. Pense à remplacer `example.com` par ton domaine et `user@mail.com` par ton email valide.
 
 ```
 sudo docker compose run --rm certbot certonly --webroot --webroot-path=/var/www/certbot -d example.com --email user@mail.com --agree-tos --no-eff-email
 ```
 
-Génère ensuite un fichier paramètre DH dédié pour renforcer la sécurité de l’échange de clés cryptographiques.
+Génère ensuite un fichier de paramètres DH dédié pour renforcer la sécurité de l’échange cryptographique.
 
 ```
 openssl dhparam -out nginx/ssl/dhparam.pem 2048
 ```
 
-Crée maintenant le fichier `ssl.conf` avec `nano nginx/ssl/ssl.conf` et ajoute ce contenu. N’oublie pas de remplacer example.com par ton domaine :
+Crée maintenant le fichier `ssl.conf` avec `nano nginx/ssl/ssl.conf` et ajoute ce contenu. Remplace `example.com` par ton domaine :
 
 ```
 ssl_protocols TLSv1.2 TLSv1.3;
@@ -234,9 +238,9 @@ resolver 1.1.1.1 1.0.0.1 valid=300s;
 
 ### Configuration Nginx
 
-Modifie le fichier de configuration nginx que tu as créé plus tôt et remplace son contenu par la config ci-dessous pour que ton site ne soit servi qu’en HTTPS.
+Édite le fichier de configuration nginx que tu as créé plus tôt et remplace son contenu par la config ci-dessous pour que ton site ne soit servi qu’en HTTPS.
 
-Pense bien à insérer ton vrai nom de domaine dans la directive `server_name` et à spécifier les bons chemins vers tes fichiers de certificat dans les directives `ssl_certificate` et `ssl_certificate_key`.
+N’oublie pas de mettre ton vrai domaine dans la directive `server_name` et de spécifier les bons chemins vers tes fichiers de certificat dans `ssl_certificate` et `ssl_certificate_key`.
 
 ```bash
 server {
@@ -284,7 +288,7 @@ server {
         send_timeout          60s;
     }
 
-    # Mise en cache des fichiers statiques
+    # Cache les fichiers statiques
     location ~* /web/static/ {
         proxy_cache_valid 200 60m;
         proxy_buffering on;
@@ -292,7 +296,7 @@ server {
         proxy_pass http://odoo:8069;
     }
 
-    # Augmentation des timeouts pour le long polling
+    # Augmente les timeouts pour le long polling
     location /longpolling {
         proxy_pass http://odoo:8069;
         proxy_connect_timeout 60s;
@@ -330,13 +334,13 @@ server {
 
 
 
-Une fois les modifications sauvegardées dans la config nginx, applique les nouveaux réglages en redémarrant le conteneur nginx :
+Une fois les modifications sauvegardées, applique la nouvelle config en redémarrant le conteneur nginx :
 
 ```
 sudo docker compose restart nginx
 ```
 
-Le redémarrage garantit que nginx charge la nouvelle configuration et commence immédiatement à servir les requêtes avec les nouveaux paramètres. Surveille les messages d’erreur pendant le redémarrage. En cas de problème, tu peux consulter les logs du conteneur avec `sudo docker compose logs nginx` pour dépanner. Quand le conteneur tourne sans erreur, revisite ton site pour confirmer que HTTPS est actif et que le site s’affiche correctement.
+Le redémarrage permet à nginx de charger la nouvelle configuration et de commencer à servir les requêtes avec les nouveaux paramètres. Surveille les messages d’erreur pendant le redémarrage. En cas de problème, tu peux consulter les logs du conteneur avec `sudo docker compose logs nginx` pour dépanner. Si le conteneur tourne sans erreur, revisite ton site pour vérifier que HTTPS est actif et que tout fonctionne comme prévu.
 
 
 
@@ -367,13 +371,13 @@ command: odoo -d odoo_db --db_user=odoo --db_password=odoo --db_host=db
 
 ## Accéder au site web
 
-Une fois l’installation et la configuration terminées et tous les services en fonctionnement, tu peux accéder en toute sécurité à ton site en entrant ton domaine dans la barre d’adresse du navigateur.
+Une fois l’installation et la configuration terminées et tous les services en marche, tu peux accéder en toute sécurité à ton site en entrant ton domaine dans la barre d’adresse du navigateur.
 
 
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/QTEzbrqG66tTQEA/download)
 
-Cela affichera la page de démarrage de ta nouvelle installation. Pour la première connexion, un compte par défaut est fourni avec le nom d’utilisateur `admin` et le mot de passe `admin`. Il est fortement recommandé de changer ces identifiants.
+Cela chargera la page de démarrage de ta nouvelle installation. Pour la première connexion, un compte par défaut est fourni avec le nom d’utilisateur `admin` et le mot de passe `admin`. On te recommande fortement de changer ces identifiants.
 
 
 

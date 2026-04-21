@@ -16,25 +16,31 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Git è un sistema di controllo versione distribuito progettato per una gestione efficiente del codice sorgente. Permette agli sviluppatori di tracciare le modifiche, lavorare su diversi rami contemporaneamente e collaborare ai progetti senza intoppi. Grazie alla sua flessibilità e performance, Git è diventato lo standard per il controllo versione nello sviluppo software moderno.
 
-Stai pensando di ospitare questo servizio da solo? Ti guideremo passo passo su come configurarlo e impostarlo, con tutto quello che devi sapere.
+Stai pensando di ospitare questo servizio in autonomia? Ti guideremo passo passo su come installarlo e configurarlo, con tutto quello che devi sapere per farlo al meglio.
 
 
+
+
+
+## Installa Git con il One Click Apps Installer
+
+Puoi installare **Git** direttamente tramite il nostro **One Click Apps Installer** nell’interfaccia web del VPS. Dopo aver completato la configurazione iniziale delle app, apri il catalogo app, cerca **Git** e avvia il deployment con le impostazioni di progetto, ambiente e dominio che preferisci. Questo ti offre un modo rapido e user-friendly per installare e gestire **Git** senza dover usare la riga di comando manualmente, beneficiando comunque di gestione web integrata, supporto per domini personalizzati e provisioning SSL dove disponibile.
 
 ## Preparazione
 
-Prima di configurare **Git**, devi preparare il tuo sistema. Questo include aggiornare il sistema operativo all’ultima versione disponibile. Questi passaggi garantiscono un ambiente stabile e aiutano a prevenire problemi durante o dopo l’installazione.
+Prima di configurare **Git**, devi preparare il sistema. Questo include aggiornare il sistema operativo all’ultima versione disponibile. Queste operazioni assicurano un ambiente stabile e aiutano a prevenire problemi durante o dopo l’installazione.
 
 
 ### Aggiorna il Sistema
-Per assicurarti che il tuo sistema funzioni con le ultime migliorie software e di sicurezza, esegui sempre prima gli aggiornamenti di sistema. Così avrai tutte le patch di sicurezza e le versioni software più recenti prima di procedere.
+Per garantire che il tuo sistema funzioni con le ultime migliorie software e patch di sicurezza, è sempre consigliato eseguire prima un aggiornamento completo. Così ti assicuri che il sistema abbia tutte le patch di sicurezza e le versioni software più recenti prima di procedere.
 
 
 
 ## Installazione
 
-Ora che hai completato le preparazioni necessarie, puoi procedere con l’installazione di Git. Scarica Git per Windows (x64) qui: https://git-scm.com/downloads/win 
+Ora che hai completato le preparazioni necessarie, puoi procedere con l’installazione dell’applicazione Git. Scarica Git per Windows (x64) qui: https://git-scm.com/downloads/win 
 
-Poi avvia il setup del file scaricato e segui i passaggi mostrati.
+Poi, avvia il setup del file scaricato e segui i passaggi mostrati.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/Y3Rme8q9LHSk4fg/download)
 
@@ -64,9 +70,12 @@ git config --global user.email "doe@e-mail.com"
 
 ## Conclusione e Risorse Utili
 
-Congratulazioni! Hai installato e configurato Git con successo sul tuo vServer. Ti consigliamo anche di dare un’occhiata alle risorse qui sotto, che possono offrirti ulteriore supporto e guida durante la configurazione del tuo server:
+Congratulazioni! Hai appena installato e configurato Git sul tuo vServer con successo. Ti consigliamo anche di dare un’occhiata alle risorse seguenti, che possono offrirti ulteriore supporto e guida durante la configurazione del tuo server:
 
 - [git-scm.com](https://git-scm.com/) - Sito Ufficiale
 - [git-scm.com/doc](https://git-scm.com/doc) Documentazione Git
 
-Hai domande specifiche che non abbiamo coperto? Per ulteriori dubbi o assistenza, non esitare a contattare il nostro supporto, disponibile ogni giorno per aiutarti! 🙂
+Hai domande specifiche che non abbiamo coperto qui? Per ulteriori dubbi o assistenza, non esitare a contattare il nostro team di supporto, disponibile ogni giorno per aiutarti! 🙂
+
+
+

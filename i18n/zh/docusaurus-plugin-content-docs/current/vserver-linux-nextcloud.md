@@ -1,7 +1,7 @@
 ---
 id: vserver-linux-nextcloud
 title: "在 Linux 服务器上安装 Nextcloud - 搭建你的私人云存储"
-description: "了解如何在 Linux 上搭建高性能 Nextcloud 服务器，实现最佳云托管体验 → 立即学习"
+description: "了解如何在 Linux 上搭建高性能 Nextcloud 服务器，实现最佳云托管体验 → 立即了解"
 sidebar_label: 安装 Nextcloud
 services:
   - vserver
@@ -18,33 +18,37 @@ Nextcloud 是一个开源云解决方案，是 Owncloud 的分支项目，由前
 
 为了实现最佳性能、稳定性和功能，推荐以下配置来托管 Nextcloud 服务器。Nextcloud 服务器不兼容 Windows 和 MacOS，除非通过虚拟化或类似的解决方案。
 
+## 使用一键应用安装器安装 Nextcloud
+
+你可以通过我们的 **一键应用安装器** 在 VPS 网页界面直接安装 **Nextcloud**。完成初始应用设置后，打开应用目录，搜索 **Nextcloud**，并根据你的项目、环境和域名偏好开始部署。这为你提供了快速且用户友好的部署和管理方式，无需手动命令行操作，同时享受集成的网页管理、自定义域名支持和可用的 SSL 证书配置。
+
 <InlineVoucher />
 
 ## 准备工作
 
-以下需求由开发者推荐，并基于我们的实际经验。如果不满足这些前提条件，可能会遇到问题。
+以下需求由开发者推荐，并结合我们自身经验总结。如果不满足这些前提条件，可能会遇到问题。
 
 #### 硬件
 
-| 组件           | 最低要求               | 推荐配置                    |
-| -------------- | ---------------------- | --------------------------- |
-| CPU            | 2核 1 GHz              | 4核 2 GHz 以上              |
-| 内存           | 512 MB                 | 4 GB 以上                   |
-| 存储           | 10 GB                  | 50 GB 以上                  |
-| 带宽           | 100 Mbit/s（上下行）   | 500 Mbit/s（上下行）推荐，适合多用户使用云服务 |
+| 组件           | 最低要求               | 推荐配置                   |
+| -------------- | ---------------------- | -------------------------- |
+| CPU            | 2核 1 GHz              | 4核 2 GHz 以上             |
+| 内存           | 512 MB                 | 4 GB 以上                  |
+| 存储           | 10 GB                  | 50 GB 以上                 |
+| 带宽           | 100 Mbit/s（上下行）   | 500 Mbit/s（上下行），多用户使用时推荐 |
 
 #### 软件
 
 | 平台             | 选项                                                         |
 | ---------------- | ------------------------------------------------------------ |
 | 操作系统         | Ubuntu (14.04, 16.04, 18.04), Debian(8,9,10), CentOS 6.5/7   |
-| 数据库           | MySQL 或 MariaDB 5.5+（推荐），SQLite（仅推荐用于测试和极简实例） |
-| Web 服务器       | Apache 2.4，使用 `mod_php` 或 `php-fpm`（推荐）              |
-| PHP              | 5.6，7.0（推荐），7.1（推荐），7.2                            |
+| 数据库           | 推荐 MySQL 或 MariaDB 5.5+，SQLite 仅适合测试和极简实例       |
+| Web 服务器       | 推荐 Apache 2.4，使用 `mod_php` 或 `php-fpm`                 |
+| PHP              | 5.6，推荐 7.0、7.1、7.2                                      |
 
-需要通过 SSH 客户端连接 Linux 服务器来安装云服务。如果你不确定如何使用 SSH，可以参考这篇指南：[初次访问（SSH）](vserver-linux-ssh.md)
+需要通过 SSH 客户端连接 Linux 服务器来安装云服务。如果你不熟悉 SSH 使用方法，可以参考这篇指南：[初始访问（SSH）](vserver-linux-ssh.md)
 
-连接成功后，就可以开始安装 Nextcloud 所需的软件包，包括 Web 服务器和 PHP。
+连接成功后，可以开始安装 Nextcloud 所需的基础软件包，包括 Web 服务器和 PHP。
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
@@ -169,7 +173,6 @@ sudo apt install php7.3-cli php7.3-fpm php7.3-json php7.3-pdo php7.3-mysql php7.
 php -v
 ```
 
-
 </TabItem>
 <TabItem value="CentOS" label="CentOS">
 <br/>
@@ -256,14 +259,14 @@ php -v
 </TabItem>
 </Tabs>
 
-下一步是定义数据库类型，用于存储相关信息。你可以选择以下几种：
+下一步是定义数据库类型，用于存储相关信息。你可以选择以下几种数据库：
 
 <Tabs>
 
 <TabItem value="MariaDB" label="MariaDB" default>
 
 <br/>
-如果你选择使用 MariaDB，按照以下步骤操作：
+如果你选择使用 MariaDB，请按照以下步骤操作：
 
 安装软件包：
 ```
@@ -272,21 +275,21 @@ sudo apt-get install mariadb-server php-mysql
 
 安装过程中会提示设置 root 密码。如果没有提示，默认密码为空，这不安全，务必立即修改！
 
-连接数据库服务器并创建数据库：
+接下来连接数据库服务器并创建所需数据库：
 
 ```sql
 mysql -u root -p
 CREATE DATABASE nextcloud;
 ```
 
-接着创建一个用户，赋予访问 Nextcloud 数据库的权限：
+然后创建一个用户，赋予访问 Nextcloud 数据库的权限：
 
 ```sql
 CREATE USER 'nc_user'@'localhost' IDENTIFIED BY 'YOUR_PASSWORD_HERE';
 ```
 
 :::info
-不要跳过这步使用 root 用户！这不安全，会让你的数据处于风险中！
+不要跳过这一步使用 root 用户！这不安全，会让你的数据处于风险中！
 :::
 
 最后赋予新用户权限：
@@ -302,7 +305,7 @@ FLUSH PRIVILEGES;
 <TabItem value="MySQL" label="MySQL">
 
 <br/>
-如果你选择使用 MySQL，按照以下步骤操作：
+如果你选择使用 MySQL，请按照以下步骤操作：
 
 安装软件包：
 ```
@@ -311,21 +314,21 @@ sudo apt-get install mysql-server php-mysql
 
 安装过程中会提示设置 root 密码。如果没有提示，默认密码为空，这不安全，务必立即修改！
 
-连接数据库服务器并创建数据库：
+接下来连接数据库服务器并创建所需数据库：
 
 ```sql
 mysql -u root -p
 CREATE DATABASE nextcloud;
 ```
 
-接着创建一个用户，赋予访问 Nextcloud 数据库的权限：
+然后创建一个用户，赋予访问 Nextcloud 数据库的权限：
 
 ```sql
 CREATE USER 'nc_user'@'localhost' IDENTIFIED BY 'YOUR_PASSWORD_HERE';
 ```
 
 :::info
-不要跳过这步使用 root 用户！这不安全，会让你的数据处于风险中！
+不要跳过这一步使用 root 用户！这不安全，会让你的数据处于风险中！
 :::
 
 最后赋予新用户权限：
@@ -340,7 +343,7 @@ FLUSH PRIVILEGES;
 </TabItem>
 <TabItem value="PostgreSQL" label="PostgreSQL">
 <br/>
-如果你选择使用 PostgreSQL，按照以下步骤操作：
+如果你选择使用 PostgreSQL，请按照以下步骤操作：
 
 安装软件包：
 ```
@@ -350,21 +353,21 @@ sudo apt-get install postgresql postgresql-contrib
 
 安装过程中会提示设置 root 密码。如果没有提示，默认密码为空，这不安全，务必立即修改！
 
-连接数据库服务器并创建数据库：
+接下来连接数据库服务器并创建所需数据库：
 
 ```sql
 sudo -u postgres psql
 CREATE DATABASE nextcloud;
 ```
 
-接着创建一个用户，赋予访问 Nextcloud 数据库的权限：
+然后创建一个用户，赋予访问 Nextcloud 数据库的权限：
 
 ```sql
 CREATE USER nextcloud with encrypted password 'YOUR_PASSWORD_HERE';
 ```
 
 :::info
-不要跳过这步使用 root 用户！这不安全，会让你的数据处于风险中！
+不要跳过这一步使用 root 用户！这不安全，会让你的数据处于风险中！
 :::
 
 最后赋予新用户权限：
@@ -392,14 +395,14 @@ $AUTOCONFIG = array(
 <TabItem value="SQLite" label="SQLite">
 
 <br/>
-如果你选择使用 SQLite，按照以下步骤操作：
+如果你选择使用 SQLite，请按照以下步骤操作：
 
 安装软件包：
 ```
 apt-get install sqlite3 php-sqlite3
 ```
 
-创建新的 SQLite 3 数据库：
+创建新的 SQLite 3 数据库
 ```
 sqlite3 DatabaseName.db
 ```
@@ -418,7 +421,7 @@ $AUTOCONFIG = array(
 
 ## 安装
 
-现在可以开始正式安装 Nextcloud。先下载并解压软件包：
+现在可以开始正式安装 Nextcloud。需要下载并解压软件包：
 ```
 cd /var/www/
 wget https://download.nextcloud.com/server/releases/latest.zip
@@ -434,7 +437,7 @@ rm latest.zip
 **http://domain.tld/nextcloud/** 
 :::
 
-安装脚本界面会出现，创建管理员账号并填写数据库信息：
+安装脚本界面会出现，创建管理员账户并填写数据库信息：
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/79kgamkS36Dgi9x/preview)
 
@@ -442,7 +445,7 @@ rm latest.zip
 ![](https://screensaver01.zap-hosting.com/index.php/s/qJs3Sd8TiYAg6mB/preview)
 
 
-## 安全与保护
+## 安全与防护
 
 **安装警告**
 
@@ -452,7 +455,7 @@ rm latest.zip
 
 **数据目录**
 
-强烈建议将数据目录放在 Web 根目录之外（即 /var/www 之外）。最简单的方式是在新安装时定义目录。目录必须先创建并设置相应权限。比如可以在家目录下创建一个名为 Cloud 的目录存储数据。
+强烈建议将数据目录放置在 Web 根目录之外（即 /var/www 之外）。最简单的方式是在新安装时定义目录。目录必须先创建并设置相应权限。比如可以在家目录下创建一个名为 Cloud 的目录存储数据。
 
 ```
 mkdir /home/cloud/
@@ -461,9 +464,9 @@ chown -R www-data:www-data /home/cloud/
 
 
 
-**通过 SSL 证书（Let's Encrypt）启用 HTTPS**
+**通过 SSL 证书实现 HTTPS（Let's Encrypt）**
 
-一个好的云解决方案应只通过 SSL 连接访问。没有 SSL 加密，数据和信息会以明文传输，极易被截获和读取。
+一个优秀的云解决方案应只通过 SSL 连接访问。没有 SSL 加密，数据和信息将以明文传输，极易被截获和读取。
 
 ```
 <IfModule mod_ssl.c>
@@ -512,11 +515,11 @@ SSLCertificateKeyFile /etc/letsencrypt/live/domain.tld/privkey.pem
 
 ## 管理 Nextcloud
 
-你可以通过浏览器访问 Nextcloud，也可以通过手机和电脑上的 App 访问。客户端下载地址：https://nextcloud.com/install/#install-clients
+你可以通过浏览器访问 Nextcloud，也可以通过手机和电脑上的客户端 App 访问。客户端下载地址：https://nextcloud.com/install/#install-clients
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/aw6qpNE7TkwQeaP/preview)
 
-在设置中，你可以在安装后调整更多选项，查看重要信息如日志、活动记录。包括额外的安全设置（双因素认证、加密等）、界面设计（Logo、颜色、口号、页眉）、访问权限等。
+在设置中，你可以在安装后调整更多选项，查看日志、活动等重要信息。包括额外的安全设置（双因素认证、加密等）、界面设计（Logo、颜色、标语、页眉）、访问权限等。
 
 **应用**
 
