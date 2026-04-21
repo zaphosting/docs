@@ -806,7 +806,7 @@ const config = {
     v4: {
       removeLegacyPostBuildHeadAttribute: true,
     },
-    faster: true
+    experimental_faster: true
   }
   
 };
