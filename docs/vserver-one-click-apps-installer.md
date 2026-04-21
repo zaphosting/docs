@@ -1,5 +1,5 @@
 ---
-id: verver-one-click-apps-installer
+id: vserver-one-click-apps-installer
 title: "VPS: One Click Apps Installer"
 description: "Deploy apps with the VPS One Click Apps Installer, manage projects through the web interface, and use Coolify for advanced app management -> Learn more now"
 sidebar_label: One Click App Installer
@@ -12,6 +12,8 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 ## Introduction
 
 The One Click Apps Installer lets you browse an extensive app catalogue and deploy apps directly from your VPS web interface. In this guide, you will learn how to prepare your server, choose the correct installation type, install and manage apps, and use the advanced settings and troubleshooting tools when needed.
+
+![img](https://screensaver01.zap-hosting.com/index.php/s/GDwkwA8Mi4gHS7D/preview)
 
 <InlineVoucher />
 
